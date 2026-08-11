@@ -185,6 +185,8 @@ def load_reports(store: Store) -> list[Report]:
 
         front, body = _split_frontmatter(text)
         highlights = front.get("highlights") or []
+        # 报告正文开头的 H1 和页面标题（detail-head 里的日期）重复，剥掉
+        body = re.sub(r"\A\s*#\s+[^\n]*\n", "", body)
         out.append(
             Report(
                 day=str(front.get("day") or path.stem),
