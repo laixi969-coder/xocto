@@ -19,5 +19,5 @@ data/pool.bak-*/
 # 项目记忆/会话数据，不进版本库
 .workbuddy/
 
-# 24MB 中文字体源文件，子集化原料；产物 site/fonts/ 已入库
-templates/fonts/NotoSerifCJKsc-Regular.otf
+# 24MB+ 中文字体源文件，子集化原料；产物 site/fonts/ 已入库
+templates/fonts/*.otf

@@ -1,11 +1,11 @@
 """自托管字体：构建时把字体拷进站点，并按实际用到的标题字符子集化中文字体。
 
 为什么自托管：Google Fonts 的 CJK 字体拆成 100+ 个子集，加载慢且在部分
-网络环境下整体失败，衬线标题会无声地掉回系统宋体。拉丁字体文件很小直接
-全量拷贝；Noto Serif CJK 源文件 24MB，必须按字符集子集化——站点是静态
+网络环境下整体失败，标题字体会无声地掉回系统字体。拉丁字体文件很小直接
+全量拷贝；思源黑体 Bold 源文件 26MB，必须按字符集子集化——站点是静态
 的，标题字符集在构建时就能确定。
 
-fonttools 不在环境里时降级为只拷贝拉丁字体，中文衬线回落系统宋体，
+fonttools 不在环境里时降级为只拷贝拉丁字体，中文标题用系统字体，
 构建不中断。
 """
 
@@ -16,13 +16,13 @@ import shutil
 from pathlib import Path
 
 LATIN_FONTS = (
-    "fraunces-400-latin.woff2",
+    "fraunces-700-latin.woff2",
     "inter-400-latin.woff2",
     "inter-500-latin.woff2",
     "inter-600-latin.woff2",
 )
-CJK_SOURCE = "NotoSerifCJKsc-Regular.otf"
-CJK_OUT = "noto-serif-sc-400-subset.woff2"
+CJK_SOURCE = "NotoSansCJKsc-Bold.otf"
+CJK_OUT = "noto-sans-sc-700-subset.woff2"
 
 _HEADING_RE = re.compile(r"<h[12][^>]*>(.*?)</h[12]>", re.IGNORECASE | re.DOTALL)
 _TAG_RE = re.compile(r"<[^>]+>")
@@ -34,7 +34,7 @@ _BASE_CHARS = "".join(chr(c) for c in range(0x20, 0x7F)) + (
 
 
 def collect_heading_chars(html_pages: list[str]) -> set[str]:
-    """从渲染好的页面里抓 h1/h2 的纯文本字符（衬线只用在 h1/h2 上）。"""
+    """从渲染好的页面里抓 h1/h2 的纯文本字符（标题字体只用在 h1/h2 上）。"""
     chars = set(_BASE_CHARS)
     for html in html_pages:
         for m in _HEADING_RE.finditer(html):
@@ -50,6 +50,12 @@ def build_fonts(templates_dir: Path, out_dir: Path, html_pages: list[str]) -> st
         return "无字体目录，跳过"
     dst_dir.mkdir(parents=True, exist_ok=True)
 
+    # 清掉过时产物（比如换字体后留下的旧子集），避免整站带着没用的文件
+    keep = set(LATIN_FONTS) | {CJK_OUT}
+    for old in dst_dir.glob("*.woff2"):
+        if old.name not in keep:
+            old.unlink()
+
     copied = 0
     for name in LATIN_FONTS:
         src = src_dir / name
@@ -59,12 +65,12 @@ def build_fonts(templates_dir: Path, out_dir: Path, html_pages: list[str]) -> st
 
     cjk_src = src_dir / CJK_SOURCE
     if not cjk_src.exists():
-        return f"拷贝 {copied} 个拉丁字体；缺 {CJK_SOURCE}，中文衬线用系统字体"
+        return f"拷贝 {copied} 个拉丁字体；缺 {CJK_SOURCE}，中文标题用系统字体"
 
     try:
         from fontTools import subset
     except ImportError:
-        return f"拷贝 {copied} 个拉丁字体；缺 fonttools，中文衬线用系统字体"
+        return f"拷贝 {copied} 个拉丁字体；缺 fonttools，中文标题用系统字体"
 
     chars = collect_heading_chars(html_pages)
     subset.main(
@@ -79,4 +85,4 @@ def build_fonts(templates_dir: Path, out_dir: Path, html_pages: list[str]) -> st
         ]
     )
     size_kb = (dst_dir / CJK_OUT).stat().st_size // 1024
-    return f"拷贝 {copied} 个拉丁字体 + 中文衬线子集 {size_kb}KB（{len(chars)} 字符）"
+    return f"拷贝 {copied} 个拉丁字体 + 思源黑体 Bold 子集 {size_kb}KB（{len(chars)} 字符）"

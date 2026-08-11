@@ -8,13 +8,13 @@
 /* —— 自托管字体（构建脚本生成，见 src/xocto/fonts.py） —— */
 @font-face {
   font-family: "Fraunces";
-  src: url("fonts/fraunces-400-latin.woff2") format("woff2");
-  font-weight: 400; font-style: normal; font-display: swap;
+  src: url("fonts/fraunces-700-latin.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
 }
 @font-face {
-  font-family: "Noto Serif SC";
-  src: url("fonts/noto-serif-sc-400-subset.woff2") format("woff2");
-  font-weight: 400; font-style: normal; font-display: swap;
+  font-family: "Noto Sans SC";
+  src: url("fonts/noto-sans-sc-700-subset.woff2") format("woff2");
+  font-weight: 700; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Inter";
@@ -59,8 +59,9 @@
   --maxw: 1200px;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 
-  /* —— 字族 —— */
-  --serif: "Fraunces", "Noto Serif SC", "Songti SC", "Source Han Serif SC", Georgia, serif;
+  /* —— 字族：标题 = Fraunces(拉丁/数字) + 思源黑体 Bold(中文) —— */
+  --serif: "Fraunces", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", sans-serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "PingFang SC",
     "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, monospace;
@@ -145,7 +146,7 @@ a { color: inherit; text-decoration: none; }
 }
 .lede-main h1 {
   font-family: var(--serif); font-size: clamp(36px, 4.6vw, 56px);
-  line-height: 1.1; margin: 0 0 14px; font-weight: 400; letter-spacing: -.025em;
+  line-height: 1.1; margin: 0 0 14px; font-weight: 700; letter-spacing: -.025em;
 }
 /* 关键数字用 chartreuse 高亮——整屏唯一的彩色标点 */
 .lede-main h1 em {
@@ -169,7 +170,7 @@ a { color: inherit; text-decoration: none; }
 .sec-head { display: flex; align-items: baseline; gap: 16px; margin-bottom: 22px; }
 .sec-head h2 {
   font-family: var(--serif); font-size: 36px; margin: 0;
-  font-weight: 400; letter-spacing: -.02em; line-height: 1.1;
+  font-weight: 700; letter-spacing: -.02em; line-height: 1.1;
 }
 .sec-head .note {
   font-size: 12px; font-weight: 500; letter-spacing: .06em;
@@ -432,7 +433,7 @@ a:focus-visible, button:focus-visible {
 .detail-head { padding: 52px 0 30px; border-bottom: 1px solid var(--line); }
 .detail-head h1 {
   font-family: var(--serif); font-size: clamp(36px, 4vw, 48px); margin: 0;
-  font-weight: 400; letter-spacing: -.022em; line-height: 1.1;
+  font-weight: 700; letter-spacing: -.022em; line-height: 1.1;
 }
 .detail-head .lede { color: var(--ink-soft); font-size: 15.5px; margin: 14px 0 16px; max-width: 46em; }
 .kv { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 20px; font-size: 13px; }
