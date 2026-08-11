@@ -2,6 +2,7 @@
 slug: ai-video-generator-maker
 name: AI Video Generator + Maker
 builder: ''
+category: AI + 创作
 url: https://www.aicpb.com/product/AI-Video-Generator-+-Maker/appid1D6F341D9
 canonical_url: https://aicpb.com/product/AI-Video-Generator-+-Maker/appid1D6F341D9
 summary: ''

@@ -2,6 +2,7 @@
 slug: omnibase
 name: omnibase
 builder: lss100200
+category: 基础层
 url: https://omnibase.chat/public-preview
 canonical_url: https://omnibase.chat/public-preview
 summary: Self-hosted AI workbench for knowledge, RAG, model providers, and safely governed user-built

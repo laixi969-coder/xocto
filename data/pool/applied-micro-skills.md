@@ -2,6 +2,7 @@
 slug: applied-micro-skills
 name: applied-micro-skills
 builder: kennethkhoocy
+category: AI + 开发
 url: https://github.com/kennethkhoocy/applied-micro-skills
 canonical_url: https://github.com/kennethkhoocy/applied-micro-skills
 summary: 'Claude Code and Codex skills for empirical applied-micro research: reproducibility auditing,

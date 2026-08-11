@@ -2,6 +2,7 @@
 slug: agnes-ai
 name: Agnes AI
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/Agnes-AI/webid1D6F36F69
 canonical_url: https://aicpb.com/product/Agnes-AI/webid1D6F36F69
 summary: ''

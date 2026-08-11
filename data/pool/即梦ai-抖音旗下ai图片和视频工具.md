@@ -2,6 +2,7 @@
 slug: 即梦ai-抖音旗下ai图片和视频工具
 name: 即梦AI - 抖音旗下AI图片和视频工具
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/即梦AI-抖音旗下AI图片和视频工具/appid1D6F327C1
 canonical_url: https://aicpb.com/product/即梦AI-抖音旗下AI图片和视频工具/appid1D6F327C1
 summary: ''

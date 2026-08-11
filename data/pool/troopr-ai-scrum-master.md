@@ -2,6 +2,7 @@
 slug: troopr-ai-scrum-master
 name: Troopr AI Scrum Master
 builder: Rajesh Shanmugam
+category: AI + 效率
 url: https://www.producthunt.com/products/troopr
 canonical_url: https://producthunt.com/products/troopr
 summary: Writes your standup from real work. Remembers your team.

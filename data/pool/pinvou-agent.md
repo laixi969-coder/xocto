@@ -2,22 +2,23 @@
 slug: pinvou-agent
 name: pinvou-agent
 builder: Pinvou
+category: AI + 效率
 url: https://pinvou.com/
 canonical_url: https://pinvou.com
 summary: Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.
 first_seen: '2026-07-24T07:28:41Z'
-last_seen: '2026-08-11T05:03:15Z'
+last_seen: '2026-08-11T11:08:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://pinvou.com/
-  seen_at: '2026-08-11T05:03:15Z'
+  seen_at: '2026-08-11T11:08:11Z'
   metrics:
-    stars: 591
-    forks: 83
-    open_issues: 28
+    stars: 607
+    forks: 86
+    open_issues: 23
 ---
 
 # pinvou-agent

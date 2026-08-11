@@ -2,6 +2,7 @@
 slug: stepshot
 name: StepShot
 builder: Thomas Ellon (Stewie)
+category: AI + 效率
 url: https://www.producthunt.com/products/stepshot-2
 canonical_url: https://producthunt.com/products/stepshot-2
 summary: AI that turns real workflows into step-by-step guides

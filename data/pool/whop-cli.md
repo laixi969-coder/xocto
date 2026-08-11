@@ -2,6 +2,7 @@
 slug: whop-cli
 name: Whop CLI
 builder: Bobby Thakkar
+category: AI + 开发
 url: https://www.producthunt.com/products/whop-cli
 canonical_url: https://producthunt.com/products/whop-cli
 summary: Run your entire business from the terminal

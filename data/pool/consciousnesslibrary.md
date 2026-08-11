@@ -2,6 +2,7 @@
 slug: consciousnesslibrary
 name: consciousnesslibrary
 builder: elliotec
+category: AI + 生活
 url: https://consciousnesslibrary.org/
 canonical_url: https://consciousnesslibrary.org
 summary: 35k+ paper psychedelic library that knows LSD from Lumpy Skin Disease

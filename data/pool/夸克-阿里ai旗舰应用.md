@@ -2,6 +2,7 @@
 slug: 夸克-阿里ai旗舰应用
 name: 夸克-阿里AI旗舰应用
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139
 canonical_url: https://aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139
 summary: ''

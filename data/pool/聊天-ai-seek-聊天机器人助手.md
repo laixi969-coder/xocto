@@ -2,6 +2,7 @@
 slug: 聊天-ai-seek-聊天机器人助手
 name: 聊天 AI Seek 聊天机器人助手
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/聊天-AI-Seek-聊天机器人助手/appid1D6F37119
 canonical_url: https://aicpb.com/product/聊天-AI-Seek-聊天机器人助手/appid1D6F37119
 summary: ''

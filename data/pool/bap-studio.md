@@ -2,6 +2,7 @@
 slug: bap-studio
 name: BAP Studio
 builder: Max Berggren
+category: AI + 创作
 url: https://www.producthunt.com/products/bap-studio
 canonical_url: https://producthunt.com/products/bap-studio
 summary: An MPC-style drum machine that runs in a browser tab

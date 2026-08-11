@@ -2,6 +2,7 @@
 slug: alphabet-soup
 name: Alphabet Soup
 builder: johnchinjew
+category: AI + 生活
 url: https://alphabetsoup.club
 canonical_url: https://alphabetsoup.club
 summary: a multiplayer game, build the longest word to win

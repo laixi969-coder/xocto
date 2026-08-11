@@ -2,6 +2,7 @@
 slug: agentone-desktop
 name: AgentOne Desktop
 builder: Elijah Pettit
+category: AI + 效率
 url: https://www.producthunt.com/products/agentone-desktop
 canonical_url: https://producthunt.com/products/agentone-desktop
 summary: Automate boring work. Extensible and free desktop AI agent.

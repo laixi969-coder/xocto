@@ -2,6 +2,7 @@
 slug: keen-code
 name: Keen Code
 builder: mochow13
+category: AI + 开发
 url: https://github.com/mochow13/keen-code
 canonical_url: https://github.com/mochow13/keen-code
 summary: an agentic-engineered coding agent

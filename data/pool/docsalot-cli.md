@@ -2,6 +2,7 @@
 slug: docsalot-cli
 name: DocsAlot CLI
 builder: Haya Jawed
+category: AI + 开发
 url: https://www.producthunt.com/products/docsalot-2
 canonical_url: https://producthunt.com/products/docsalot-2
 summary: Let Claude or Codex create and maintain good looking docs

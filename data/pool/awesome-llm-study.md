@@ -2,6 +2,7 @@
 slug: awesome-llm-study
 name: awesome-llm-study
 builder: melocream
+category: AI + 生活
 url: https://github.com/melocream/awesome-llm-study
 canonical_url: https://github.com/melocream/awesome-llm-study
 summary: LLM/ML 스터디·지식공유 큐레이션 — 검증된 강의·논문·자료 링크 (by @melocream · marblo.app)

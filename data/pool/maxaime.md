@@ -2,6 +2,7 @@
 slug: maxaime
 name: MaxAI.me
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/MaxAI.me/webid1D6F36D69
 canonical_url: https://aicpb.com/product/MaxAI.me/webid1D6F36D69
 summary: ''

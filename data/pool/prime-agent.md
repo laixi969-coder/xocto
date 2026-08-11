@@ -2,6 +2,7 @@
 slug: prime-agent
 name: Prime Agent
 builder: Zac Zuo
+category: AI + 开发
 url: https://www.producthunt.com/products/prime-intellect
 canonical_url: https://producthunt.com/products/prime-intellect
 summary: A coding agent that can refine its own harness

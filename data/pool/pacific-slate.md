@@ -2,6 +2,7 @@
 slug: pacific-slate
 name: Pacific Slate
 builder: badwx
+category: 基础层
 url: https://pacslate.com/
 canonical_url: https://pacslate.com
 summary: a self-hosted, model-agnostic multi-agent AI assistant

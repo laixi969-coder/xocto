@@ -2,6 +2,7 @@
 slug: andromeld
 name: AndroMeld
 builder: Ruoxin He
+category: AI + 效率
 url: https://www.producthunt.com/products/andromeld
 canonical_url: https://producthunt.com/products/andromeld
 summary: Bring a continuity-style experience to Android and Mac

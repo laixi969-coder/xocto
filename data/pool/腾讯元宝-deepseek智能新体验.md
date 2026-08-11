@@ -2,6 +2,7 @@
 slug: 腾讯元宝-deepseek智能新体验
 name: 腾讯元宝-「DeepSeek+」智能新体验
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
 canonical_url: https://aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
 summary: ''

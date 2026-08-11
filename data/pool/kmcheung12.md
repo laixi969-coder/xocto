@@ -2,21 +2,22 @@
 slug: kmcheung12
 name: kmcheung12
 builder: a_c
+category: AI + 创作
 url: https://kmcheung12.github.io/climb-preview/tour/ae43c6e5
 canonical_url: https://kmcheung12.github.io/climb-preview/tour/ae43c6e5
 summary: My local climbing gym from photogrammetry
 first_seen: '2026-08-10T21:39:03Z'
-last_seen: '2026-08-11T05:03:07Z'
+last_seen: '2026-08-11T11:08:03Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kmcheung12.github.io/climb-preview/tour/ae43c6e5
-  seen_at: '2026-08-11T05:03:07Z'
+  seen_at: '2026-08-11T11:08:03Z'
   metrics:
-    points: 19
-    comments: 3
+    points: 26
+    comments: 8
 ---
 
 # kmcheung12

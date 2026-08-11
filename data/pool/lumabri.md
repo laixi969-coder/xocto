@@ -2,6 +2,7 @@
 slug: lumabri
 name: Lumabri
 builder: vforno
+category: AI + 效率
 url: https://github.com/JustVugg/lumabri
 canonical_url: https://github.com/JustVugg/lumabri
 summary: What if LLMs worked like Napster?

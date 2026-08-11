@@ -2,6 +2,7 @@
 slug: languagereactor
 name: languagereactor
 builder: ''
+category: AI + 生活
 url: https://www.aicpb.com/product/languagereactor/webid1D6F37AB1
 canonical_url: https://aicpb.com/product/languagereactor/webid1D6F37AB1
 summary: ''

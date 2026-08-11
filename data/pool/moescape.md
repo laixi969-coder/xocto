@@ -2,6 +2,7 @@
 slug: moescape
 name: moescape
 builder: ''
+category: AI + 生活
 url: https://www.aicpb.com/product/moescape/webid1D6F37D41
 canonical_url: https://aicpb.com/product/moescape/webid1D6F37D41
 summary: ''

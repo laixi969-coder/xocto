@@ -2,6 +2,7 @@
 slug: passmint
 name: passmint
 builder: alexpate
+category: AI + 效率
 url: https://github.com/getpassmint/passmint
 canonical_url: https://github.com/getpassmint/passmint
 summary: Issue Apple and Google wallet passes from Node.js

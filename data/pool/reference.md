@@ -2,6 +2,7 @@
 slug: reference
 name: Reference
 builder: Rahul Thennarasu
+category: 基础层
 url: https://www.producthunt.com/products/reference-2
 canonical_url: https://producthunt.com/products/reference-2
 summary: Local semantic search for AI agents

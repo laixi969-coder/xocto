@@ -2,6 +2,7 @@
 slug: argos
 name: Argos
 builder: Arystan Tanekov
+category: AI + 效率
 url: https://www.producthunt.com/products/argos-2
 canonical_url: https://producthunt.com/products/argos-2
 summary: The AI that acts as you, right in your browser

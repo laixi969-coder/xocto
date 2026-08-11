@@ -2,6 +2,7 @@
 slug: workflo
 name: Workflo
 builder: Chirag Chopra
+category: AI + 效率
 url: https://www.producthunt.com/products/workflo-2
 canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen

@@ -2,6 +2,7 @@
 slug: soup-cli
 name: Soup CLI
 builder: Alpamys Makazhan
+category: 基础层
 url: https://www.producthunt.com/products/soup-cli
 canonical_url: https://producthunt.com/products/soup-cli
 summary: Fine-tune an 8B LLM on a 4 GB laptop GPU

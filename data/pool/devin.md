@@ -2,6 +2,7 @@
 slug: devin
 name: Devin
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/Devin/webid1D6F36339
 canonical_url: https://aicpb.com/product/Devin/webid1D6F36339
 summary: ''

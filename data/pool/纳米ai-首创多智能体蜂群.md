@@ -2,6 +2,7 @@
 slug: 纳米ai-首创多智能体蜂群
 name: 纳米AI - 首创多智能体蜂群
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/纳米AI-首创多智能体蜂群/appid1D6F37A71
 canonical_url: https://aicpb.com/product/纳米AI-首创多智能体蜂群/appid1D6F37A71
 summary: ''

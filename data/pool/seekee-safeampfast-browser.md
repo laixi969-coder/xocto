@@ -2,6 +2,7 @@
 slug: seekee-safeampfast-browser
 name: Seekee - Safe&amp;Fast Browser
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 canonical_url: https://aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 summary: ''

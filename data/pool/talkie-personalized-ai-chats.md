@@ -2,6 +2,7 @@
 slug: talkie-personalized-ai-chats
 name: 'Talkie: Personalized AI Chats'
 builder: ''
+category: 通用助手
 url: https://www.aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 canonical_url: https://aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 summary: ''

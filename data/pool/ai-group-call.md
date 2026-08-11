@@ -2,6 +2,7 @@
 slug: ai-group-call
 name: AI Group Call
 builder: Tash Ahmed
+category: AI + 效率
 url: https://www.producthunt.com/products/ai-group-call
 canonical_url: https://producthunt.com/products/ai-group-call
 summary: Type a goal, join a live voice call with six AI minds

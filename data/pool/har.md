@@ -2,6 +2,7 @@
 slug: har
 name: HAR
 builder: Karim Traiaia
+category: 基础层
 url: https://www.producthunt.com/products/har
 canonical_url: https://producthunt.com/products/har
 summary: Open Source harness for multi-agent coding workflows

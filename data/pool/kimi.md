@@ -2,6 +2,7 @@
 slug: kimi
 name: Kimi
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
 canonical_url: https://aicpb.com/product/Kimi/appid1D6F332E1
 summary: ''

@@ -2,6 +2,7 @@
 slug: playground
 name: playground
 builder: zachdotai
+category: 基础层
 url: https://playground.fabraix.com/
 canonical_url: https://playground.fabraix.com
 summary: Open-source playground to red-team AI agents against public prompts

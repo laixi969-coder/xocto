@@ -2,6 +2,7 @@
 slug: goal-flow
 name: goal-flow
 builder: wanmol
+category: 基础层
 url: https://github.com/wanmol/goal-flow
 canonical_url: https://github.com/wanmol/goal-flow
 summary: Graph-Orchestrated Agent Loop — a production-grade framework on LangGraph. Combine workflow graphs

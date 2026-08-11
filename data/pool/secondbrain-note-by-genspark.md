@@ -2,6 +2,7 @@
 slug: secondbrain-note-by-genspark
 name: SecondBrain Note by GenSpark
 builder: Rohan Chaubey
+category: AI + 效率
 url: https://www.producthunt.com/products/genspark
 canonical_url: https://producthunt.com/products/genspark
 summary: A MagSafe AI Recorder That Acts for You

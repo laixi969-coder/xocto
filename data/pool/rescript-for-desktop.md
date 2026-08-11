@@ -2,6 +2,7 @@
 slug: rescript-for-desktop
 name: Rescript for Desktop
 builder: Wassim Gharbi
+category: AI + 创作
 url: https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text
 canonical_url: https://producthunt.com/products/rescript-edit-videos-like-you-edit-text
 summary: A free, open source, Descript alternative. Runs on-device.

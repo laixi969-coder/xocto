@@ -2,6 +2,7 @@
 slug: rythmix-ai-music-generator
 name: Rythmix - AI Music Generator
 builder: ''
+category: AI + 创作
 url: https://www.aicpb.com/product/Rythmix-AI-Music-Generator/appid1D6F32379
 canonical_url: https://aicpb.com/product/Rythmix-AI-Music-Generator/appid1D6F32379
 summary: ''

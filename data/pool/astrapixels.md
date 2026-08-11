@@ -2,6 +2,7 @@
 slug: astrapixels
 name: AstraPixels
 builder: Nick Launches
+category: AI + 生活
 url: https://www.producthunt.com/products/astrapixels
 canonical_url: https://producthunt.com/products/astrapixels
 summary: ​​A pixel-art solar system at its real current positions.​

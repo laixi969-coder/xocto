@@ -2,6 +2,7 @@
 slug: beemo-ai
 name: BEEMO AI
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/BEEMO-AI/appid1D6F37991
 canonical_url: https://aicpb.com/product/BEEMO-AI/appid1D6F37991
 summary: ''

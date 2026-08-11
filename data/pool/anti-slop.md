@@ -2,6 +2,7 @@
 slug: anti-slop
 name: anti-slop
 builder: miqdadbadjuber
+category: AI + 创作
 url: https://github.com/miqdadbadjuber/anti-slop
 canonical_url: https://github.com/miqdadbadjuber/anti-slop
 summary: Design rules to stop AI coding agents from generating generic "AI slop" UI.

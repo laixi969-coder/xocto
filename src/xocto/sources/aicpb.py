@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import re
+import time
 
 from ..models import RawItem, now_iso
 from .base import Http, HttpError, register
@@ -37,6 +38,13 @@ _ROW = re.compile(
 _HEADING = re.compile(r"AICPB[^<]{0,80}Rankings[^<]{0,40}", re.S)
 
 _UNITS = {"K": 1_000, "M": 1_000_000, "B": 1_000_000_000}
+
+# 榜单页里产品描述那个标签是空的（客户端才填），所以描述只能去详情页拿。
+_META_DESC = re.compile(r'<meta name="description" content="([^"]*)"')
+# 详情页会列出这个产品上了哪些细分榜。这比描述更有用 ——
+# "聊天机器人榜第 4" 直接说明了它是什么品类、什么地位。
+_BOARD = re.compile(r"AI产品榜\s*·\s*([^第<\n]{2,20}?)\s*第\s*(\d+)\s*名")
+DETAIL_DELAY = 0.35  # 秒。48 个产品逐个抓，别把人家站点打疼了
 
 
 @register("aicpb")
@@ -71,7 +79,59 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
                     merged_boards.append(name)
                     by_id[item.external_id] = _with_rankings(existing, merged_boards)
 
-    return list(by_id.values())
+    items = list(by_id.values())
+
+    # 榜单只给名字和数字。没有一句话说明它是什么，产品卡片就是废的 ——
+    # 所以逐个进详情页补描述和它上过的细分榜。
+    if cfg.get("fetch_details", True) and items:
+        items = _enrich(items, http)
+
+    return items
+
+
+def _enrich(items: list[RawItem], http: Http) -> list[RawItem]:
+    """逐个抓详情页补描述与细分榜。单个失败不影响其他。"""
+    from dataclasses import replace
+
+    print(f"    补充详情（{len(items)} 个）", end="", flush=True)
+    out: list[RawItem] = []
+    failed = 0
+
+    for i, item in enumerate(items):
+        if i:
+            time.sleep(DETAIL_DELAY)
+        try:
+            page = http.get_text(BASE + "/zh" + item.payload["path"])
+        except HttpError:
+            failed += 1
+            out.append(item)
+            continue
+
+        desc = ""
+        match = _META_DESC.search(page)
+        if match:
+            desc = match.group(1).strip()
+
+        boards = [
+            {"board": b.strip(), "rank": int(r)} for b, r in _BOARD.findall(page)
+        ]
+
+        out.append(
+            replace(
+                item,
+                summary=desc or item.summary,
+                extra={**item.extra, "boards": boards},
+                # 也放进 metrics，这样合并进产品档案后分类器还拿得到 ——
+                # "聊天机器人榜第 4" 比任何关键词猜测都准
+                metrics={**item.metrics, "boards": [b["board"] for b in boards]},
+            )
+        )
+        if i % 10 == 9:
+            print(".", end="", flush=True)
+
+    got = sum(1 for x in out if x.summary)
+    print(f" 拿到描述 {got}/{len(items)}" + (f"，{failed} 个失败" if failed else ""))
+    return out
 
 
 def _parse_row(row: re.Match, ranking: str, ranking_url: str, collected: str) -> RawItem | None:

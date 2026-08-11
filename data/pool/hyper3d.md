@@ -2,6 +2,7 @@
 slug: hyper3d
 name: Hyper3D
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/Hyper3D/webid1D6F37AD1
 canonical_url: https://aicpb.com/product/Hyper3D/webid1D6F37AD1
 summary: ''

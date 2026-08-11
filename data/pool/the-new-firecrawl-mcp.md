@@ -2,6 +2,7 @@
 slug: the-new-firecrawl-mcp
 name: The new Firecrawl MCP
 builder: Eric Ciarla
+category: AI + 开发
 url: https://www.producthunt.com/products/extract-by-firecrawl
 canonical_url: https://producthunt.com/products/extract-by-firecrawl
 summary: Agent-ready web context for any MCP client.

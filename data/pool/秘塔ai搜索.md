@@ -2,38 +2,48 @@
 slug: 秘塔ai搜索
 name: 秘塔AI搜索
 builder: ''
+category: 通用助手
 url: https://www.aicpb.com/product/秘塔AI搜索/webid1D6F37359
 canonical_url: https://aicpb.com/product/秘塔AI搜索/webid1D6F37359
-summary: ''
+summary: 秘塔AI搜索，没有广告，直达结果
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-11T11:08:17Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/秘塔AI搜索/webid1D6F37359
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-11T11:08:17Z'
   metrics:
     raw_value: 4.52M
     value: 4520000.0
     metric: visits
     mom_raw: -0.31%
     mom_percent: -0.31
+    boards:
+    - AI搜索榜
+    - 国内增速榜
+    - 国内总榜
+    - 全球总榜
 - source: aicpb
   url: https://www.aicpb.com/product/秘塔AI搜索/appid1D6F37B99
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-11T11:08:17Z'
   metrics:
     raw_value: 1.38M
     value: 1380000.0
     metric: mau
     mom_raw: -1.62%
     mom_percent: -1.62
+    boards:
+    - 国内增速榜
+    - 国内总榜
+    - 全球总榜
 ---
 
 # 秘塔AI搜索
 
-_（源没给简介）_
+秘塔AI搜索，没有广告，直达结果
 
 ## 笔记
 

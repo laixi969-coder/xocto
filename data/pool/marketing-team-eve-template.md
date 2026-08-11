@@ -2,6 +2,7 @@
 slug: marketing-team-eve-template
 name: marketing-team-eve-template
 builder: vercel-labs
+category: AI + 商业
 url: https://vercel.com/templates/eve/eve-marketing-team
 canonical_url: https://vercel.com/templates/eve/eve-marketing-team
 summary: Team of marketing agents built on eve.

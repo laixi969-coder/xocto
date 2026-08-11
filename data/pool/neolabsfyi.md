@@ -2,6 +2,7 @@
 slug: neolabsfyi
 name: Neolabs.fyi
 builder: polyphilz
+category: AI + 效率
 url: https://neolabs.fyi/
 canonical_url: https://neolabs.fyi
 summary: 100 new AI labs by research area, valuation, and more

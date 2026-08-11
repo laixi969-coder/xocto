@@ -2,6 +2,7 @@
 slug: claude-by-anthropic
 name: Claude by Anthropic
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/Claude-by-Anthropic/appid1D6F33BC9
 canonical_url: https://aicpb.com/product/Claude-by-Anthropic/appid1D6F33BC9
 summary: ''

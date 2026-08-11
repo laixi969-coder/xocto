@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bb · x-octo</title>
+<meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
+<link rel="stylesheet" href="../style.css">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<div class="top">
+  <div class="top-inner">
+    <a class="brand" href="../index.html">x<span>·</span>octo</a>
+    <nav class="nav">
+      <a href="../index.html" class="">首页</a>
+      <a href="../products.html" class="on">全部产品</a>
+      <a href="../r/2026-08-11.html" class="">每日观察</a>
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button">明 / 暗</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="detail-head">
+    <div class="pick-id">
+      <h1>bb</h1>
+    </div>
+
+    <p class="lede">The IDE that builds itself</p>
+
+    <div class="meta">
+      <span class="tag">刚冒头</span>
+<span class="tag">AI + 开发</span>    </div>
+
+    <div class="kv">
+      <div><span>做这个的人</span><b>Chris Messina</b></div>
+      <div><span>首次出现</span><b class="num">2026-08-07</b></div>
+      <div><span>最近出现</span><b class="num">2026-08-11</b></div>
+    </div>
+  </div>
+
+
+
+  <section class="band">
+    <p class="empty">
+      还没做深度分析。<br>
+      在 Claude Code 里说「分析 bb」，会按 config/template.md 的模板生成。
+    </p>
+  </section>
+
+
+</div>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>·</span>
+    <span>160 个产品 /  个来源</span>
+    <span class="gen">生成于 2026-08-11 07:24</span>
+  </footer>
+</div>
+
+<script>
+  document.getElementById('theme-btn').addEventListener('click', function () {
+    var el = document.documentElement;
+    var now = el.getAttribute('data-theme');
+    if (!now) {
+      now = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    var next = now === 'dark' ? 'light' : 'dark';
+    el.setAttribute('data-theme', next);
+    localStorage.setItem('xocto-theme', next);
+  });
+</script>
+
+</body>
+</html>

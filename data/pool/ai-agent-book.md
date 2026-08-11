@@ -2,6 +2,7 @@
 slug: ai-agent-book
 name: ai-agent-book
 builder: chemark
+category: AI + 生活
 url: https://github.com/chemark/ai-agent-book
 canonical_url: https://github.com/chemark/ai-agent-book
 summary: '深入理解 AI Agent：设计原理与工程实践（学习副本，upstream: bojieli/ai-agent-book）'

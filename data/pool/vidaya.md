@@ -2,6 +2,7 @@
 slug: vidaya
 name: Vidaya
 builder: Kruti Parekh
+category: AI + 生活
 url: https://www.producthunt.com/products/vidaya
 canonical_url: https://producthunt.com/products/vidaya
 summary: Healthspan score from your wearables, labs, and DNA.

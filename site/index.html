@@ -29,57 +29,177 @@
 
 <div class="wrap">
 
-  <div class="hero">
-    <h1>每天挖全球新冒出来的<br>AI 应用，判断它到底解决了什么</h1>
-    <p>
-      从 Product Hunt、Hacker News、GitHub 和 AICPB 榜单自动采集，跨源去重，
-      再逐个判断：它在替代什么旧行为？痛点是真是假？商业模式站不站得住？
-      答不上「以前这件事怎么做」的，一律不推荐。
-    </p>
-    <div class="stats">
-      <div class="stat"><b>141</b><span>产品在库</span></div>
-      <div class="stat"><b>93</b><span>早期项目</span></div>
-      <div class="stat"><b>48</b><span>已跑出规模</span></div>
-      <div class="stat"><b>3</b><span>深度分析</span></div>
+  <div class="lede-bar">
+    <div class="lede-main">
+      <h1>今天有 <em class="num">3</em> 个值得看</h1>
+      <p>
+        全球 AI 应用每天新增几百个，绝大多数是套壳。
+        这里只留下能说清「它替代了什么旧行为」的——答不上来的，一律不推荐。
+      </p>
     </div>
+    <dl class="lede-stats">
+      <div><dt>在库</dt><dd class="num">160</dd></div>
+      <div><dt>刚冒头</dt><dd class="num">112</dd></div>
+      <div><dt>已验证</dt><dd class="num">48</dd></div>
+    </dl>
   </div>
 
-  <section>
+  <section class="band">
     <div class="sec-head">
-      <h2>精选分析</h2>
-      <span class="note">每一条判断都能追溯到证据，拿不准的写「不确定」</span>
+      <h2>今日判断</h2>
+      <span class="note">每条判断都能追溯到证据，拿不准的写「不确定」</span>
     </div>
+
     <div class="picks">
-      <a class="pick" href="p/shuohao-skills.html">
-        <div class="pick-top">
-          <h3>shuohao-skills（烁皓）</h3>
-<span class="verdict v-强烈推荐">强烈推荐</span>        </div>
-        <p>把一本小说拆成能直接开拍的短剧素材包：角色设定、形象提示词、音色、分集大纲。</p>
-      </a>
-      <a class="pick" href="p/open-ai-canvas.html">
-        <div class="pick-top">
-          <h3>影策 (open-ai-canvas)</h3>
-<span class="verdict v-强烈推荐">强烈推荐</span>        </div>
-        <p>一张画布装下整部戏：从小说抽出角色资产，再把分镜、图、视频、音频编排成片。</p>
-      </a>
-      <a class="pick" href="p/gtm-cofounder.html">
-        <div class="pick-top">
-          <h3>The GTM Co-Founder</h3>
-<span class="verdict v-值得关注">值得关注</span>        </div>
-        <p>给没有合伙人的技术创始人当营销脑子：谁会买、为什么付钱、怎么开口。</p>
-      </a>
+      <article class="pick" style="--i: 0">
+        <a class="pick-id" href="p/shuohao-skills.html">
+          <h3>shuohao-skills</h3>
+          <span class="verdict v-强烈推荐">强烈推荐</span>
+<span class="tag">AI + 创作</span>        </a>
+        <div class="pick-body">
+          <div class="field">
+            <span class="field-k">替代了什么</span>
+            <p>短剧改编的前期工作。以前这一段是：编剧读完小说 → 手写人物小传 → 美术出设定图 →</p>
+          </div>
+          <div class="field field-take">
+            <span class="field-k">能拿走什么</span>
+            <p>而它把&#34;从小说到可开拍素材&#34;这一段做成了标准件。 它的 13 道质量门尤其值得看 ——</p>
+          </div>
+        </div>
+      </article>
+      <article class="pick" style="--i: 1">
+        <a class="pick-id" href="p/open-ai-canvas.html">
+          <h3>open-ai-canvas</h3>
+          <span class="verdict v-强烈推荐">强烈推荐</span>
+<span class="tag">AI + 创作</span>        </a>
+        <div class="pick-body">
+          <div class="field">
+            <span class="field-k">替代了什么</span>
+            <p>AI 影视创作现在的实际工作流是：ChatGPT 写大纲 → Midjourney/即梦出图 →</p>
+          </div>
+          <div class="field field-take">
+            <span class="field-k">能拿走什么</span>
+            <p>它怎么定义一个角色的&#34;外观、声音、气质&#34;并让这些在不同生成环节间保持一致，</p>
+          </div>
+        </div>
+      </article>
+      <article class="pick" style="--i: 2">
+        <a class="pick-id" href="p/gtm-cofounder.html">
+          <h3>gtm-cofounder</h3>
+          <span class="verdict v-值得关注">值得关注</span>
+<span class="tag">AI + 商业</span>        </a>
+        <div class="pick-body">
+          <div class="field">
+            <span class="field-k">替代了什么</span>
+            <p>技术创始人找一个商业合伙人，或者花钱请顾问、买课、混社群。</p>
+          </div>
+          <div class="field field-take">
+            <span class="field-k">能拿走什么</span>
+            <p>打包成软件卖给不懂营销的人。</p>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
-  <section>
+  <section class="band">
     <div class="sec-head">
-      <h2>增长异常</h2>
-      <span class="note">AICPB 实测流量，环比异常值通常不是自然增长</span>
+      <h2>值得留意</h2>
+      <span class="note">替代关系清晰，但还没展开分析</span>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="p/open-kimi-ppt-skill.html">
+          <span class="row-name">open-kimi-ppt-skill</span>
+          <span class="row-desc">非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor</span>
+          <span class="row-tail">
+<span class="tag">基础层</span><span class="tag sig">开源关注 1,603</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/gendangzou-skill.html">
+          <span class="row-name">Gendangzou-skill</span>
+          <span class="row-desc">面向 AI Agent 的可溯源 A 股板块研究 Skill，贯通政策、权威媒体、市场资金、公司与 ETF，支持实时查询、研究编排和二次应用开发。</span>
+          <span class="row-tail">
+<span class="tag">基础层</span><span class="tag sig">开源关注 184</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/moonlit-stories.html">
+          <span class="row-name">moonlit-stories</span>
+          <span class="row-desc">Reusable AI English picture-book workflow with consistent illustrations and local Chatterbox TTS.</span>
+          <span class="row-tail">
+<span class="tag">AI + 创作</span><span class="tag sig">开源关注 154</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/stoaexchange.html">
+          <span class="row-name">stoaexchange</span>
+          <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
+          <span class="row-tail">
+<span class="tag">基础层</span><span class="tag sig">社区热度 75</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/argos.html">
+          <span class="row-name">Argos</span>
+          <span class="row-desc">The AI that acts as you, right in your browser</span>
+          <span class="row-tail">
+<span class="tag">AI + 效率</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/rescript-for-desktop.html">
+          <span class="row-name">Rescript for Desktop</span>
+          <span class="row-desc">A free, open source, Descript alternative. Runs on-device.</span>
+          <span class="row-tail">
+<span class="tag">AI + 创作</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/soloop.html">
+          <span class="row-name">Soloop</span>
+          <span class="row-desc">Approval-first Agent OS for solo founders</span>
+          <span class="row-tail">
+<span class="tag">AI + 效率</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/stepshot.html">
+          <span class="row-name">StepShot</span>
+          <span class="row-desc">AI that turns real workflows into step-by-step guides</span>
+          <span class="row-tail">
+<span class="tag">AI + 效率</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/troopr-ai-scrum-master.html">
+          <span class="row-name">Troopr AI Scrum Master</span>
+          <span class="row-desc">Writes your standup from real work. Remembers your team.</span>
+          <span class="row-tail">
+<span class="tag">AI + 效率</span>          </span>
+        </a>
+      </li>
+      <li>
+        <a href="p/workflo.html">
+          <span class="row-name">Workflo</span>
+          <span class="row-desc">Mac workspace automation that never sees your screen</span>
+          <span class="row-tail">
+<span class="tag">AI + 效率</span>          </span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="band">
+    <div class="sec-head">
+      <h2>增长信号</h2>
+      <span class="note">环比异常通常不是自然增长，是导流或口径变化</span>
     </div>
     <div class="scroll-x">
       <table class="tbl">
         <thead>
-          <tr><th>产品</th><th>环比</th><th>规模</th><th>来源</th></tr>
+          <tr><th>产品</th><th>环比</th><th>规模</th><th>所在榜单</th></tr>
         </thead>
         <tbody>
           <tr>
@@ -88,7 +208,7 @@
               +13311.5%
             </td>
             <td class="num">访问 2.56M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">AI + 效率</td>
           </tr>
           <tr>
             <td class="name"><a href="p/商汤小浣熊.html">商汤小浣熊</a></td>
@@ -96,7 +216,7 @@
               +3480.0%
             </td>
             <td class="num">访问 3.70M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">国内增速榜 · 全球增速榜 · 国内总榜 · 全球总榜</td>
           </tr>
           <tr>
             <td class="name"><a href="p/agnes-ai.html">Agnes AI</a></td>
@@ -104,7 +224,7 @@
               +570.3%
             </td>
             <td class="num">访问 2.08M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">AI + 效率</td>
           </tr>
           <tr>
             <td class="name"><a href="p/hyper3d.html">Hyper3D</a></td>
@@ -112,23 +232,23 @@
               +134.6%
             </td>
             <td class="num">访问 3.12M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">AI + 效率</td>
           </tr>
           <tr>
             <td class="name"><a href="p/devin.html">Devin</a></td>
-            <td class="num up">
+            <td class="num ">
               +80.1%
             </td>
             <td class="num">访问 2.97M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">AI + 效率</td>
           </tr>
           <tr>
             <td class="name"><a href="p/languagereactor.html">languagereactor</a></td>
-            <td class="num up">
+            <td class="num ">
               +54.1%
             </td>
             <td class="num">访问 2.59M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">AI + 生活</td>
           </tr>
           <tr>
             <td class="name"><a href="p/owlywriter-ai-by-hootsuite.html">OwlyWriter AI by Hootsuite</a></td>
@@ -136,7 +256,7 @@
               +49.4%
             </td>
             <td class="num">访问 2.79M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">AI + 效率</td>
           </tr>
           <tr>
             <td class="name"><a href="p/moescape.html">moescape</a></td>
@@ -144,7 +264,7 @@
               +31.2%
             </td>
             <td class="num">访问 3.42M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">AI + 生活</td>
           </tr>
           <tr>
             <td class="name"><a href="p/codebuddy-tencetn.html">CodeBuddy｜Tencetn</a></td>
@@ -152,7 +272,7 @@
               +30.0%
             </td>
             <td class="num">访问 7.49M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">国内增速榜 · 全球增速榜 · 国内总榜 · 代码辅助榜 · 全球总榜</td>
           </tr>
           <tr>
             <td class="name"><a href="p/zai.html">Z.ai</a></td>
@@ -160,118 +280,58 @@
               +24.6%
             </td>
             <td class="num">访问 10.24M</td>
-            <td class="desc">AICPB 榜单</td>
-          </tr>
-          <tr>
-            <td class="name"><a href="p/beemo-ai.html">BEEMO AI</a></td>
-            <td class="num ">
-              +23.6%
-            </td>
-            <td class="num">月活 1.54M</td>
-            <td class="desc">AICPB 榜单</td>
-          </tr>
-          <tr>
-            <td class="name"><a href="p/ai-video-generator-maker.html">AI Video Generator + Maker</a></td>
-            <td class="num ">
-              +19.4%
-            </td>
-            <td class="num">月活 1.04M</td>
-            <td class="desc">AICPB 榜单</td>
+            <td class="desc">国内增速榜 · 全球增速榜 · 国内总榜 · 聊天机器人榜 · 全球总榜</td>
           </tr>
         </tbody>
       </table>
     </div>
   </section>
 
-  <section>
-    <div class="sec-head">
-      <h2>早期项目</h2>
-      <span class="note">还没有数据可验证，判断只能靠推理需求真伪</span>
-    </div>
-    <div class="grid">
-      <a class="card" href="p/crm.html">
-        <h4>crm</h4>
-        <p>Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">8,135 ★</span>        </div>
+  <section class="band">
+    <div class="sec-head"><h2>按方向找</h2></div>
+    <div class="cats">
+      <a class="cat" href="products.html#AI + 创作">
+        <span>AI + 创作</span>
+        <b class="num">19</b>
       </a>
-      <a class="card" href="p/genoffice.html">
-        <h4>genoffice</h4>
-        <p>Free, open-source AI office suite for macOS, Windows &amp; Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">2,490 ★</span>        </div>
+      <a class="cat" href="products.html#AI + 开发">
+        <span>AI + 开发</span>
+        <b class="num">18</b>
       </a>
-      <a class="card" href="p/qwen-audio-agent.html">
-        <h4>qwen-audio-agent</h4>
-        <p>A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">2,063 ★</span>        </div>
+      <a class="cat" href="products.html#AI + 商业">
+        <span>AI + 商业</span>
+        <b class="num">7</b>
       </a>
-      <a class="card" href="p/cindy.html">
-        <h4>cindy</h4>
-        <p>Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">1,981 ★</span>        </div>
+      <a class="cat" href="products.html#AI + 效率">
+        <span>AI + 效率</span>
+        <b class="num">59</b>
       </a>
-      <a class="card" href="p/open-kimi-ppt-skill.html">
-        <h4>open-kimi-ppt-skill</h4>
-        <p>非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">1,606 ★</span>        </div>
+      <a class="cat" href="products.html#AI + 生活">
+        <span>AI + 生活</span>
+        <b class="num">13</b>
       </a>
-      <a class="card" href="p/optmem.html">
-        <h4>OptMem</h4>
-        <p>Permanent memory for AI agents. A 426-token prompt, a script, plug and play.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">1,226 ★</span>        </div>
+      <a class="cat" href="products.html#通用助手">
+        <span>通用助手</span>
+        <b class="num">14</b>
       </a>
-      <a class="card" href="p/numbat.html">
-        <h4>numbat</h4>
-        <p>Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">879 ★</span>        </div>
-      </a>
-      <a class="card" href="p/human-review.html">
-        <h4>human-review</h4>
-        <p>A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">703 ★</span>        </div>
-      </a>
-      <a class="card" href="p/shuohao-skills.html">
-        <h4>shuohao-skills</h4>
-        <p>AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles, model sheets, adaptation outlines. Runs in Claude Code &amp; codex.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">655 ★</span>        </div>
-      </a>
-      <a class="card" href="p/pinvou-agent.html">
-        <h4>pinvou-agent</h4>
-        <p>Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">591 ★</span>        </div>
-      </a>
-      <a class="card" href="p/mcp-server.html">
-        <h4>mcp-server</h4>
-        <p>MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the category, and you can check it with one API call.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">569 ★</span>        </div>
-      </a>
-      <a class="card" href="p/longhorizon-harness.html">
-        <h4>LongHorizon-Harness</h4>
-        <p>The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</p>
-        <div class="meta">
-<span class="tag">GitHub</span><span class="tag sig">558 ★</span>        </div>
+      <a class="cat" href="products.html#基础层">
+        <span>基础层</span>
+        <b class="num">30</b>
       </a>
     </div>
   </section>
 
-  <section>
+  <section class="band">
     <div class="sec-head"><h2>每日观察</h2></div>
-    <div class="picks">
-      <a class="pick" href="r/2026-08-11.html">
-        <div class="pick-top"><h3>2026-08-11</h3></div>
-        <p>当日采集、趋势判断与市场信号</p>
-      </a>
-    </div>
+    <ul class="rows">
+      <li>
+        <a href="r/2026-08-11.html">
+          <span class="row-name num">2026-08-11</span>
+          <span class="row-desc">当日趋势判断与市场信号</span>
+          <span class="row-tail"><span class="tag">观察</span></span>
+        </a>
+      </li>
+    </ul>
   </section>
 
 </div>
@@ -280,8 +340,8 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>141 个产品 / 4 个来源</span>
-    <span class="gen">生成于 2026-08-11 01:44</span>
+    <span>160 个产品 /  个来源</span>
+    <span class="gen">生成于 2026-08-11 07:24</span>
   </footer>
 </div>
 

@@ -2,6 +2,7 @@
 slug: progress-ai-observability
 name: Progress AI Observability
 builder: Lyubomir Atanasov
+category: 基础层
 url: https://www.producthunt.com/products/progress-ai-observability
 canonical_url: https://producthunt.com/products/progress-ai-observability
 summary: Trace, evaluate, and improve AI agents in production

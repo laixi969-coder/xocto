@@ -2,6 +2,7 @@
 slug: approving
 name: approving
 builder: cocofhu
+category: 基础层
 url: https://www.approving-ai.com
 canonical_url: https://approving-ai.com
 summary: Approving is an open-source, self-hostable platform for turning coding agents into visual, reviewable,

@@ -2,6 +2,7 @@
 slug: owlywriter-ai-by-hootsuite
 name: OwlyWriter AI by Hootsuite
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
 canonical_url: https://aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
 summary: ''

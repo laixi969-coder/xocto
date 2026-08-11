@@ -2,6 +2,7 @@
 slug: gutta
 name: Gutta
 builder: Vaibhav Pathak
+category: AI + 效率
 url: https://www.producthunt.com/products/gutta
 canonical_url: https://producthunt.com/products/gutta
 summary: A tiny, offline task list for your Mac menu bar

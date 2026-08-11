@@ -2,6 +2,7 @@
 slug: radiushq
 name: radiusHQ
 builder: Subhrajyoti Basu
+category: AI + 效率
 url: https://www.producthunt.com/products/radiushq
 canonical_url: https://producthunt.com/products/radiushq
 summary: One link replaces your scheduling chaos

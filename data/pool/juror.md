@@ -2,6 +2,7 @@
 slug: juror
 name: juror
 builder: textcortex
+category: AI + 效率
 url: https://github.com/Juror-AI/juror
 canonical_url: https://github.com/Juror-AI/juror
 summary: Open-Source Greptile Alternative

@@ -2,6 +2,7 @@
 slug: prompt-architect
 name: Prompt-architect
 builder: lololerigolo60
+category: AI + 创作
 url: https://github.com/lololerigolo60/Prompt-architect
 canonical_url: https://github.com/lololerigolo60/Prompt-architect
 summary: Prompt Architect Pro is a Python desktop app that uses local Ollama LLMs to analyze raw texts

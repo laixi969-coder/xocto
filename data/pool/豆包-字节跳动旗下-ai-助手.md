@@ -2,29 +2,34 @@
 slug: 豆包-字节跳动旗下-ai-助手
 name: 豆包 - 字节跳动旗下 AI 助手
 builder: ''
+category: 通用助手
 url: https://www.aicpb.com/product/豆包-字节跳动旗下-AI-助手/appid1D6F37CC9
 canonical_url: https://aicpb.com/product/豆包-字节跳动旗下-AI-助手/appid1D6F37CC9
-summary: ''
+summary: AI 全智能聊天对话问答助手，搜索写作翻译编程全能工具
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-11T11:08:17Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/豆包-字节跳动旗下-AI-助手/appid1D6F37CC9
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-11T11:08:17Z'
   metrics:
     raw_value: 324.31M
     value: 324310000.0
     metric: mau
     mom_raw: -1.71%
     mom_percent: -1.71
+    boards:
+    - 国内总榜
+    - 全球总榜
+    - 国内增速榜
 ---
 
 # 豆包 - 字节跳动旗下 AI 助手
 
-_（源没给简介）_
+AI 全智能聊天对话问答助手，搜索写作翻译编程全能工具
 
 ## 笔记
 

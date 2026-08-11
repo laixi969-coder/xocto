@@ -2,29 +2,34 @@
 slug: deepseek
 name: DeepSeek
 builder: ''
+category: 通用助手
 url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
-summary: ''
+summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-11T11:08:17Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-11T11:08:17Z'
   metrics:
     raw_value: 483.80M
     value: 483800000.0
     metric: visits
     mom_raw: -10.59%
     mom_percent: -10.59
+    boards:
+    - 国内总榜
+    - 聊天机器人榜
+    - 全球总榜
 ---
 
 # DeepSeek
 
-_（源没给简介）_
+Chat with DeepSeek AI.
 
 ## 笔记
 

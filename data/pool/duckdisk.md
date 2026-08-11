@@ -2,6 +2,7 @@
 slug: duckdisk
 name: DuckDisk
 builder: puppypi
+category: AI + 效率
 url: https://www.producthunt.com/products/duckdisk
 canonical_url: https://producthunt.com/products/duckdisk
 summary: Table-first storage analysis for Mac, cloud, and SSH

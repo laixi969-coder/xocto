@@ -2,6 +2,7 @@
 slug: 제타zeta-다양한-ai-캐릭터와-나만의-스토리
 name: 제타(zeta) - 다양한 AI 캐릭터와 나만의 스토리
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/제타(zeta)-다양한-AI-캐릭터와-나만의-스토리/appid1D6F36F41
 canonical_url: https://aicpb.com/product/제타(zeta)-다양한-AI-캐릭터와-나만의-스토리/appid1D6F36F41
 summary: ''

@@ -2,6 +2,7 @@
 slug: ai-courtroom
 name: ai_courtroom
 builder: nmaroulis21
+category: 基础层
 url: https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom
 canonical_url: https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom
 summary: A replayable A2A jury for tracing how agents influence decisions

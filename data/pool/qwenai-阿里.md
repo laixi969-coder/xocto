@@ -2,6 +2,7 @@
 slug: qwenai-阿里
 name: Qwen.ai｜阿里
 builder: ''
+category: AI + 效率
 url: https://www.aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 canonical_url: https://aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 summary: ''

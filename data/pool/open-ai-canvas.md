@@ -2,20 +2,21 @@
 slug: open-ai-canvas
 name: open-ai-canvas
 builder: ddcat-ai
+category: AI + 创作
 url: https://ddcat.pronhubcn.com
 canonical_url: https://ddcat.pronhubcn.com
 summary: 面向 AI 影视创作的开源无限画布工作台，集成多模态生成、分镜编排、素材管理与 Agent 工作流。
 first_seen: '2026-07-22T06:22:34Z'
-last_seen: '2026-08-11T05:03:15Z'
+last_seen: '2026-08-11T11:08:11Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://ddcat.pronhubcn.com
-  seen_at: '2026-08-11T05:03:15Z'
+  seen_at: '2026-08-11T11:08:11Z'
   metrics:
-    stars: 535
+    stars: 537
     forks: 142
     open_issues: 15
 ---

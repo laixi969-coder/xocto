@@ -152,6 +152,7 @@ class Store:
             "slug": product.slug,
             "name": product.name,
             "builder": product.builder,
+            "category": product.category,
             "url": product.url,
             "canonical_url": product.canonical_url,
             "summary": product.summary,
@@ -213,6 +214,7 @@ class Store:
                     Sighting.from_dict(s) for s in (front.get("sightings") or [])
                 ),
                 builder=front.get("builder") or "",
+                category=front.get("category") or "",
                 notes=notes,
             )
         except KeyError as exc:

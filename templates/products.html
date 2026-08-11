@@ -4,68 +4,128 @@
 {% block body %}
 <div class="wrap">
 
-  <div class="hero">
-    <h1>全部产品</h1>
-    <p>{{ stats.total }} 个产品，来自 {{ stats.sources }} 个源。按热度信号排序（HN 分数、GitHub star、榜单流量）。</p>
+  <div class="lede-bar">
+    <div class="lede-main">
+      <h1>全部产品</h1>
+      <p>{{ stats.total }} 个。刚冒头的看它做什么，已验证的看它涨多快——两类东西的判断方式不一样。</p>
+    </div>
   </div>
 
-  <section>
-    <div class="filters" id="filters">
-      <button class="on" data-key="all">全部 <span class="num">{{ stats.total }}</span></button>
-      <button data-key="producthunt">Product Hunt</button>
-      <button data-key="hackernews">Hacker News</button>
-      <button data-key="github">GitHub</button>
-      <button data-key="aicpb">AICPB 榜单</button>
-      <button data-key="analyzed">已分析</button>
-      <button data-key="watching">观察中</button>
+  <section class="band">
+    <div class="filter-group">
+      <span class="filter-k">方向</span>
+      <div class="filters" data-dim="category">
+        <button class="on" data-val="">全部</button>
+        {% for c in categories %}
+        <button data-val="{{ c.name }}">{{ c.name }} <i class="num">{{ c.count }}</i></button>
+        {% endfor %}
+      </div>
     </div>
+
+    <div class="filter-group">
+      <span class="filter-k">阶段</span>
+      <div class="filters" data-dim="stage">
+        <button class="on" data-val="">全部</button>
+        <button data-val="early">刚冒头 <i class="num">{{ stats.early }}</i></button>
+        <button data-val="proven">已验证 <i class="num">{{ stats.proven }}</i></button>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <span class="filter-k">评级</span>
+      <div class="filters" data-dim="status">
+        <button class="on" data-val="">全部</button>
+        <button data-val="analyzed">已分析 <i class="num">{{ stats.analysed }}</i></button>
+        <button data-val="watching">观察中 <i class="num">{{ stats.watching }}</i></button>
+      </div>
+    </div>
+
+    <p class="result-count"><span class="num" id="count">{{ stats.total }}</span> 个结果</p>
 
     <div class="grid" id="grid">
       {% for p in products %}
-      <a class="card" href="{{ root }}p/{{ p.slug }}.html"
-         data-sources="{{ p.source_keys | join(' ') }}" data-status="{{ p.status }}">
-        <h4>{{ p.name }}</h4>
-        <p>{{ p.summary or '（源没给简介）' }}</p>
-        <div class="meta">
-          {% for s in p.sources %}<span class="tag">{{ s }}</span>{% endfor %}
-          {% for b in p.badges[:2] %}<span class="tag sig">{{ b }}</span>{% endfor %}
-          {% if p.status in ('analyzed', 'watching') %}
-          <span class="tag">{{ p.status_label }}</span>
+      <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
+         href="{{ root }}p/{{ p.slug }}.html"
+         data-category="{{ p.category }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}">
+        <div class="card-top">
+          <h4>{{ p.name }}</h4>
+          {% if p.stage_key == 'proven' and p.growth is not none %}
+          <span class="num {{ 'up' if p.growth > 100 }}">{{ '+' if p.growth > 0 }}{{ '%.0f'|format(p.growth) }}%</span>
           {% endif %}
         </div>
+
+        {% if p.stage_key == 'proven' %}
+          {# 已验证的产品你多半知道是什么，介绍没用，数据才有用 #}
+          <p class="card-scale num">{{ p.scale }}</p>
+          <div class="meta">
+            {% for b in p.boards[:2] %}<span class="tag">{{ b }}</span>{% endfor %}
+            {% if not p.boards and p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+          </div>
+        {% else %}
+          <p>{{ p.summary or '还没有简介，需要深挖才能判断' }}</p>
+          <div class="meta">
+            {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+            {% for b in p.badges[:1] %}<span class="tag sig">{{ b }}</span>{% endfor %}
+            {% if p.status in ('analyzed', 'watching') %}<span class="tag">{{ p.status_label }}</span>{% endif %}
+          </div>
+        {% endif %}
       </a>
       {% endfor %}
     </div>
-    <p class="empty" id="empty" hidden>没有符合条件的产品。</p>
+
+    <p class="empty" id="empty" hidden>这个组合下没有产品。换个方向或阶段试试。</p>
   </section>
 
 </div>
 
 <script>
   (function () {
-    var filters = document.getElementById('filters');
     var cards = Array.prototype.slice.call(document.querySelectorAll('#grid .card'));
     var empty = document.getElementById('empty');
+    var count = document.getElementById('count');
+    var active = { category: '', stage: '', status: '' };
 
-    filters.addEventListener('click', function (e) {
-      var btn = e.target.closest('button');
-      if (!btn) return;
-      var key = btn.dataset.key;
-
-      filters.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
-      btn.classList.add('on');
-
+    function apply() {
       var shown = 0;
       cards.forEach(function (card) {
         var ok =
-          key === 'all' ||
-          card.dataset.status === key ||
-          (card.dataset.sources || '').split(' ').indexOf(key) !== -1;
+          (!active.category || card.dataset.category === active.category) &&
+          (!active.stage || card.dataset.stage === active.stage) &&
+          (!active.status || card.dataset.status === active.status);
         card.hidden = !ok;
         if (ok) shown++;
       });
+      count.textContent = shown;
       empty.hidden = shown > 0;
+    }
+
+    document.querySelectorAll('.filters').forEach(function (group) {
+      group.addEventListener('click', function (e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        group.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
+        btn.classList.add('on');
+        active[group.dataset.dim] = btn.dataset.val;
+        apply();
+      });
     });
+
+    // 首页的赛道入口用 #方向名 跳过来，进来就自动筛好
+    function fromHash() {
+      var want = decodeURIComponent((location.hash || '').replace('#', ''));
+      if (!want) return;
+      var group = document.querySelector('.filters[data-dim="category"]');
+      var btn = Array.prototype.slice.call(group.querySelectorAll('button'))
+        .filter(function (b) { return b.dataset.val === want; })[0];
+      if (!btn) return;
+      group.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
+      btn.classList.add('on');
+      active.category = want;
+      apply();
+    }
+
+    fromHash();
+    window.addEventListener('hashchange', fromHash);
   })();
 </script>
 {% endblock %}

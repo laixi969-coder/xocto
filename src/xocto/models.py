@@ -144,6 +144,22 @@ ALL_STATUSES = (
     STATUS_ANALYZED,
 )
 
+# 赛道。按用户会问的"什么方向"来分，不按技术形态分 ——
+# 用户找的是"有没有做视频的"，不是"有没有用 RAG 的"。
+CATEGORIES = (
+    "AI + 创作",  # 视频、图像、写作、设计、短剧
+    "AI + 开发",  # coding agent、devtools、工程效率
+    "AI + 商业",  # CRM、销售、营销、GTM、招聘
+    "AI + 效率",  # 笔记、任务、文档、办公
+    "AI + 生活",  # 健康、社交、娱乐、游戏、教育
+    "通用助手",  # 大模型对话产品：DeepSeek、Kimi、豆包这类，自成一类
+    "基础层",  # 给 agent 和模型用的：网关、沙箱、记忆、可观测性、算力
+)
+
+# 阶段。替代"数据来源"这个维度 —— 用户关心的是成熟度，不是我们从哪抓的。
+STAGE_EARLY = "刚冒头"  # 还没有可验证的数据，判断只能靠推理需求真伪
+STAGE_PROVEN = "已验证"  # 有真实流量/月活，可以看势
+
 
 @dataclass(frozen=True, slots=True)
 class Product:
@@ -158,9 +174,12 @@ class Product:
     last_seen: str
     status: str
     sightings: tuple[Sighting, ...]
-    # 做这个东西的人。三个源都白给这个信息，值得留着 ——
+    # 做这个东西的人。各源都白给这个信息，值得留着 ——
     # 判断早期项目时，"这个人为什么做这件事"往往比产品本身更能说明问题。
     builder: str = ""
+    # 赛道。用户找东西是按方向找的，不是按"从哪抓来的"找。
+    # 取值见 CATEGORIES。空串表示还没归类。
+    category: str = ""
     notes: str = ""  # 人或 Claude 写的自由笔记，机器不覆盖
 
     @property

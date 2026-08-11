@@ -27,19 +27,27 @@ import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .models import (
+    CATEGORIES,
     STATUS_ANALYZED,
     STATUS_PENDING_FILTER,
     STATUS_QUEUED,
     STATUS_WATCHING,
     Product,
 )
+from .dedupe import is_aggregator, url_host
 from .store import Store
 
-SOURCE_LABELS = {
-    "producthunt": "Product Hunt",
-    "hackernews": "Hacker News",
-    "github": "GitHub",
-    "aicpb": "AICPB 榜单",
+# 网站上不出现任何数据源名称。用户不关心东西从哪抓来的，
+# 那是实现细节 —— 泄漏到界面上既没用，也把采集策略白送出去了。
+# 只暴露对用户有意义的两件事：成熟度（阶段）和方向（赛道）。
+STAGE_EARLY = "刚冒头"
+STAGE_PROVEN = "已验证"
+
+# 各源指标口径不同，统一成人话，且不透露来自哪个平台
+METRIC_LABELS = {
+    "points": "社区热度",
+    "stars": "开源关注",
+    "comments": "讨论量",
 }
 
 STATUS_LABELS = {
@@ -57,7 +65,12 @@ _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
 @dataclass(frozen=True)
 class Analysis:
-    """一份深度分析。"""
+    """一份深度分析。
+
+    replaces 和 takeaway 单独抽出来 —— 那是整份分析里最值钱的两段：
+    "它替代了什么旧行为"是判断真伪的依据，"可迁移点"是读者真正要拿走的东西。
+    埋在正文里等于没有。
+    """
 
     slug: str
     name: str
@@ -65,10 +78,30 @@ class Analysis:
     analyzed_at: str
     body_html: str
     excerpt: str
+    replaces: str = ""
+    takeaway: str = ""
 
     @property
     def verdict_rank(self) -> int:
         return VERDICT_ORDER.get(self.verdict, 9)
+
+
+def _section(body: str, *titles: str, limit: int = 200) -> str:
+    """抽出某个二级标题下的第一段正文。找不到返回空串。"""
+    for title in titles:
+        match = re.search(
+            rf"^##\s*{re.escape(title)}[^\n]*\n+(.+?)(?=\n#{{1,2}}\s|\Z)",
+            body,
+            re.S | re.M,
+        )
+        if not match:
+            continue
+        for line in match.group(1).split("\n"):
+            text = line.strip()
+            # 跳过引言块和空行，取第一段实际内容
+            if text and not text.startswith((">", "|", "-", "*")):
+                return _strip_md(text, limit)
+    return ""
 
 
 @dataclass(frozen=True)
@@ -129,6 +162,8 @@ def load_analyses(store: Store) -> list[Analysis]:
                 analyzed_at=str(front.get("analyzed_at") or ""),
                 body_html=_markdown(body),
                 excerpt=excerpt,
+                replaces=_section(body, "它在替代什么旧行为", "它在替代什么"),
+                takeaway=_section(body, "对你的可迁移点", "对我的可迁移点"),
             )
         )
     return sorted(out, key=lambda a: (a.verdict_rank, a.name))
@@ -146,21 +181,50 @@ def load_reports(store: Store) -> list[Report]:
 
 
 def _metric_badges(product: Product) -> list[str]:
-    """把各源口径不同的指标压成人能读的短标签。"""
+    """把各源口径不同的指标压成人话，不带平台名。"""
     badges: list[str] = []
     for sighting in product.sightings:
         m = sighting.metrics
         if m.get("points") is not None:
-            badges.append(f"HN {m['points']} 分")
+            badges.append(f"社区热度 {m['points']}")
         if m.get("stars") is not None:
-            badges.append(f"{m['stars']:,} ★")
+            badges.append(f"开源关注 {m['stars']:,}")
         if m.get("raw_value"):
-            unit = "月活" if m.get("metric") == "mau" else "访问"
+            unit = "月活" if m.get("metric") == "mau" else "月访问"
             badges.append(f"{unit} {m['raw_value']}")
         if m.get("mom_percent") is not None:
             sign = "+" if m["mom_percent"] >= 0 else ""
             badges.append(f"环比 {sign}{m['mom_percent']:.0f}%")
     return badges
+
+
+def _external_url(product: Product) -> str:
+    """对外展示的链接。
+
+    只在它是产品自己的域名时才给 —— 指向聚合站页面的链接既暴露了采集来源，
+    对用户也没价值（那不是产品官网）。
+    """
+    if not product.url or is_aggregator(url_host(product.url)):
+        return ""
+    return product.url
+
+
+def _stage(product: Product) -> str:
+    """成熟度。有真实流量数据的算已验证，其余都是刚冒头。"""
+    for sighting in product.sightings:
+        if sighting.metrics.get("raw_value"):
+            return STAGE_PROVEN
+    return STAGE_EARLY
+
+
+def _boards(product: Product) -> list[str]:
+    """产品上过的细分榜，去重保序。这是它的品类地位证明。"""
+    seen: list[str] = []
+    for sighting in product.sightings:
+        for board in sighting.metrics.get("boards") or []:
+            if board not in seen:
+                seen.append(board)
+    return seen
 
 
 def _scale_badge(product: Product) -> str:
@@ -191,74 +255,99 @@ def _weight(product: Product) -> int:
 
 
 def build_context(store: Store) -> dict[str, Any]:
+    """组装整站数据。
+
+    版块顺序按信息价值密度排：判断 > 数据 > 罗列。
+    有判断的东西全站只有几个，但那是别处拿不到的；
+    罗列谁都能做，所以往后放。
+    """
     products = list(store.iter_products())
     analyses = load_analyses(store)
     reports = load_reports(store)
-    analysed_slugs = {a.slug for a in analyses}
+    by_slug = {a.slug: a for a in analyses}
 
-    for product in products:
-        product_view(product)  # 提前校验，坏数据早暴露
+    views = [product_view(p) for p in products]
+    view_by_slug = {v["slug"]: v for v in views}
 
-    early = [p for p in products if "aicpb" not in p.sources]
-    ranked = [p for p in products if "aicpb" in p.sources]
+    early = [v for v in views if v["stage"] == STAGE_EARLY]
+    proven = [v for v in views if v["stage"] == STAGE_PROVEN]
 
-    # 增长异常的放前面，那才是信号
+    # 1. 今日判断：有深度分析的，按推荐度排
+    picks = [
+        {**view_by_slug.get(a.slug, {"slug": a.slug, "name": a.name}), "analysis": a}
+        for a in analyses
+        if a.slug in view_by_slug
+    ]
+
+    # 2. 值得留意：进了观察名单但还没展开分析的，有描述才有意义
+    notables = sorted(
+        (v for v in views if v["status"] == STATUS_WATCHING and v["summary"]),
+        key=lambda v: -v["weight"],
+    )
+
+    # 3. 增长信号：环比异常的，那才是信号，不是排名
     movers = sorted(
-        (p for p in ranked if _growth_rate(p) is not None),
-        key=lambda p: -(_growth_rate(p) or 0),
-    )[:12]
+        (v for v in proven if v["growth"] is not None),
+        key=lambda v: -(v["growth"] or 0),
+    )[:10]
 
-    latest_day = max((p.last_seen[:10] for p in products), default="")
-    fresh = [p for p in early if p.first_seen[:10] == latest_day]
+    # 4. 赛道分布：给一个进入方式，不在首页罗列产品
+    counts: dict[str, int] = {}
+    for view in views:
+        key = view["category"] or "未归类"
+        counts[key] = counts.get(key, 0) + 1
+    categories = [
+        {"name": name, "count": counts[name]}
+        for name in CATEGORIES
+        if counts.get(name)
+    ]
 
     return {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
-        "latest_day": latest_day,
+        "latest_day": max((v["last_seen"] for v in views), default=""),
         "stats": {
-            "total": len(products),
+            "total": len(views),
             "early": len(early),
-            "ranked": len(ranked),
+            "proven": len(proven),
             "analysed": len(analyses),
-            "sources": len({s for p in products for s in p.sources}),
+            "watching": len(notables),
         },
         "analyses": analyses,
+        "analysis_by_slug": by_slug,
         "reports": reports,
-        "movers": [product_view(p) for p in movers],
-        "fresh": [product_view(p) for p in sorted(early, key=_weight, reverse=True)[:12]],
-        "products": [
-            product_view(p)
-            for p in sorted(products, key=_weight, reverse=True)
-        ],
-        "analysed_slugs": analysed_slugs,
+        "picks": picks,
+        "notables": notables,
+        "movers": movers,
+        "categories": categories,
+        "products": sorted(views, key=lambda v: -v["weight"]),
     }
 
 
 def product_view(product: Product) -> dict[str, Any]:
-    """把 Product 摊平成模板好用的字典。"""
+    """把 Product 摊平成模板好用的字典。
+
+    注意这里刻意不导出任何来源信息 —— 模板拿不到，就不可能不小心渲染出去。
+    """
+    stage = _stage(product)
     return {
         "slug": product.slug,
         "name": product.name,
         "builder": product.builder,
         "summary": product.summary,
-        "url": product.url,
+        "url": _external_url(product),
         "status": product.status,
         "status_label": STATUS_LABELS.get(product.status, product.status),
-        "sources": [SOURCE_LABELS.get(s, s) for s in product.sources],
-        "source_keys": list(product.sources),
+        "category": product.category,
+        "stage": stage,
+        "stage_key": "proven" if stage == STAGE_PROVEN else "early",
         "badges": _metric_badges(product),
         "scale": _scale_badge(product),
+        "boards": _boards(product),
         "first_seen": product.first_seen[:10],
         "last_seen": product.last_seen[:10],
         "growth": _growth_rate(product),
-        "sightings": [
-            {
-                "source": SOURCE_LABELS.get(s.source, s.source),
-                "url": s.url,
-                "seen_at": s.seen_at[:10],
-                "metrics": s.metrics,
-            }
-            for s in product.sightings
-        ],
+        "weight": _weight(product),
+        "seen_count": len(product.sightings),
         "notes": product.notes,
     }
 
@@ -299,7 +388,7 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
     pages += 1
 
     detail = env.get_template("product.html")
-    by_slug = {a.slug: a for a in ctx["analyses"]}
+    by_slug = ctx["analysis_by_slug"]
     for view in ctx["products"]:
         html = detail.render(
             **ctx, page="products", root="../", product=view, analysis=by_slug.get(view["slug"])

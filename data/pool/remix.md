@@ -2,6 +2,7 @@
 slug: remix
 name: Remix
 builder: Rajiv Ayyangar
+category: AI + 效率
 url: https://www.producthunt.com/products/remix-8
 canonical_url: https://producthunt.com/products/remix-8
 summary: Figma, but on your production app. Test variants and ship.

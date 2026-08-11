@@ -2,6 +2,7 @@
 slug: voiceos-app-store
 name: VoiceOS App Store
 builder: Garry Tan
+category: AI + 商业
 url: https://www.producthunt.com/products/voiceos
 canonical_url: https://producthunt.com/products/voiceos
 summary: The app store for voice native apps that lives in your notch

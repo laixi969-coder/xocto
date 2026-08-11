@@ -2,6 +2,7 @@
 slug: shennongmi
 name: ShenNongMi
 builder: Happy-Chen-CH
+category: AI + 创作
 url: https://github.com/Happy-Chen-CH/ShenNongMi
 canonical_url: https://github.com/Happy-Chen-CH/ShenNongMi
 summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Neo4j graph (19K+ nodes) × LangGraph

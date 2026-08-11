@@ -2,6 +2,7 @@
 slug: job-search-workflow
 name: job-search-workflow
 builder: rcnsnr
+category: AI + 商业
 url: https://github.com/rcnsnr/job-search-workflow
 canonical_url: https://github.com/rcnsnr/job-search-workflow
 summary: AI-assisted, local-first job search workflow framework — triage, scoring, application tracking

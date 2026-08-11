@@ -2,6 +2,7 @@
 slug: stratopi
 name: stratopi
 builder: nodesocket
+category: AI + 生活
 url: https://github.com/stratopi-org/stratopi
 canonical_url: https://github.com/stratopi-org/stratopi
 summary: Weather balloon to the stratosphere with a Raspberry Pi computer
