@@ -11,7 +11,7 @@ summary: Local-first AI Skill and Agent for creating original Douyin and TikTok 
   SQLite reference database.
 first_seen: '2026-08-05T13:52:57Z'
 last_seen: '2026-08-11T11:08:11Z'
-status: pending_filter
+status: analyzed
 sources:
 - github
 sightings:

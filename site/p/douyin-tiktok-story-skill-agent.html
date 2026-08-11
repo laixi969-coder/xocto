@@ -35,6 +35,7 @@
   <div class="detail-head">
     <div class="pick-id">
       <h1>douyin-tiktok-story-skill-agent</h1>
+      <span class="verdict v-值得关注">值得关注</span>
     </div>
 
     <p class="lede">本地跑的抖音/TikTok 故事创作工作流，从选题到成片</p>
@@ -57,20 +58,123 @@
     </div>
   </section>
 
-
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
-      <p class="noanalysis-sub">
-        上面那句灵感是目前能给的全部判断。
-        它还太早，没有可验证的数据，再多写就是编。
-      </p>
-      <p class="noanalysis-sub">
-        同方向已经分析过的：
-        <a href="../p/shuohao-skills.html">shuohao-skills</a>、        <a href="../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">替代了什么旧行为</span>
+        <p>短视频编剧找参考的实际流程：打开抖音刷同类内容 → 看到好的手动记下来 →</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">能拿走什么</span>
+        <p>你的 songo 里应该有。特别是 用「前三秒冲突」这类结构维度而不是题材维度做索引 ——</p>
+      </div>
     </div>
   </section>
+
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个能按剧情标签检索的短视频脚本库，装进 AI Agent 里当素材来源用。</p>
+<h2>做这个东西的人</h2>
+<p>GitHub 账号 <code>liujunxibaba</code>，中文开发者。</p>
+<p>从工程细节能看出他的实际处境：安装脚本是 PowerShell（Windows 用户），
+装到 <code>$HOME\.codex\skills\</code> 下（用 Codex 不是 Claude Code），
+整个运行过程不联网。<strong>这是一个自己在用这套东西干活的人，
+而不是做给别人看的演示项目。</strong></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>按剧情要素检索</strong> → <code>search &quot;校园 师生误会 前三秒冲突&quot; --top-k 5</code>，
+用标签组合捞出匹配的脚本样本</li>
+<li><strong>本地全离线运行</strong> → 安装和使用全程不访问网络，素材不出本机</li>
+<li><strong>装进 Codex 当技能用</strong> → 由 agent 调用，不是人去翻库</li>
+<li><strong>健康检查</strong> → 装完自动校验数据库完整性</li>
+<li><strong>代码与数据分离</strong> → skill 代码一个仓库，脚本数据库另一个仓库，两个分别授权</li>
+</ul>
+<p><strong>它明确不做什么</strong>：不生成脚本、不做视频、不管拍摄。
+它只做&quot;找到对的参考样本&quot;这一步。</p>
+<h2>它在替代什么旧行为</h2>
+<p>短视频编剧找参考的实际流程：打开抖音刷同类内容 → 看到好的手动记下来 →
+攒成一个自己的文档 → 下次写的时候翻半天找不到。</p>
+<p><strong>旧行为极其明确，而且是纯体力活。</strong> 编剧的时间应该花在改编上，
+不是花在&quot;我记得有个类似的但想不起来在哪&quot;。</p>
+<p>那句检索示例本身就说明了它的理解深度：<strong>「校园 师生误会 前三秒冲突」</strong> ——
+前两个是题材，第三个是<strong>结构</strong>。会用「前三秒冲突」当检索维度的人，
+一定亲手写过短视频脚本。</p>
+<h2>商业模式</h2>
+<p><strong>代码 MIT 开源，数据库单独授权。</strong> README 里写得很清楚：
+&quot;本仓库不包含真实数据库。数据库内容的许可范围由数据库仓库单独声明。&quot;</p>
+<p>这个拆分是刻意的：<strong>送引擎，卖内容。</strong>
+代码谁都能看，但没有数据库它跑不起来；而数据库的许可另说。</p>
+<p><em>判断：定价逻辑站得住，而且比纯开源健康。风险在于数据库的来源 ——
+如果脚本样本是从平台抓的，版权地位就和 open-kimi-ppt-skill 一样脆弱。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>开源关注 233</li>
+<li>两个配套仓库（skill + database）</li>
+<li>数据库规模、授权方式、定价：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高。「前三秒冲突」这种检索维度不是外行能想出来的</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>高。切&quot;找参考&quot;而不是&quot;写脚本&quot;，避开了最拥挤的那一环</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>中。本地检索 + 健康检查，工程完整但技术门槛不高</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>好。短剧和达人剧情正热，但工具全挤在生成端</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p>这个项目和 shuohao-skills 是同一个判断的两种做法：
+<strong>都绕开了&quot;生成&quot;，去做生成之前的那一步。</strong></p>
+<p>shuohao 做的是&quot;把小说变成可开拍素材&quot;，它做的是&quot;找到对的参考样本&quot;。
+两者都在赌同一件事：<strong>AI 短视频的瓶颈不在产出，在输入。</strong>
+模型已经能写能拍了，卡住的是&quot;写什么、照着什么写&quot;。</p>
+<p><strong>可迁移的规律：当生成能力过剩时，稀缺的是判断力和素材库 ——
+前者难以产品化，后者可以。</strong> 所以做素材库是这个阶段最实在的生意。</p>
+<p>代价有两层。<strong>一是版权</strong> —— 数据库如果是抓来的，随时可能重演 open-kimi 的下场，
+而且它已经预感到了（把数据库单独拆出去、单独声明许可，就是在隔离风险）。
+<strong>二是护城河</strong> —— 检索本身没有技术门槛，护城河完全等于数据库的质量和规模，
+而那需要持续人工整理，不能自动化。</p>
+<p>它选 Windows + PowerShell + Codex 这套组合也值得注意：这不是开发者主流栈，
+说明它的目标用户是<strong>用 Windows 做内容的人</strong>，不是程序员。这个判断可能是对的。</p>
+<h2>下一步看什么</h2>
+<ol>
+<li><strong>数据库的来源和授权</strong> —— 这一条决定它能活多久，比其他所有指标都重要</li>
+<li><strong>数据库规模会不会持续增长</strong> —— 停止更新的素材库半年就废了</li>
+<li><strong>有没有出现付费入口</strong> —— &quot;单独授权&quot;目前只是声明，落地成收费才算跑通</li>
+</ol>
+<h2>对你的可迁移点</h2>
+<p><strong>产品逻辑（直接撞你的短剧业务）</strong>：「按结构标签检索参考样本」这个能力，
+你的 songo 里应该有。特别是<strong>用「前三秒冲突」这类结构维度而不是题材维度做索引</strong> ——
+题材谁都会标，结构才是编剧真正在找的东西。</p>
+<p><strong>商业模式</strong>：<strong>代码开源、数据单独授权</strong>这个拆法，比 shuohao-skills 的
+「开源引流 + 微信群」更健康 —— 群靠人维护，数据库靠资产积累。
+如果你要把自己的方法论产品化，这是更值得抄的结构。</p>
+<p><strong>风险提示</strong>：结合今天另一个案例（1600 星的仓库因版权被清空），
+素材类产品的版权地位是真实风险。你如果做类似的东西，
+素材来源必须从第一天就干净。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 产品判断是对的，结构也健康，但命门在数据库的合法性上，
+那一点从公开信息看不出来。三个月后回来看它还在不在，就知道答案了。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -102,22 +206,22 @@
         </a>
       </li>
       <li>
+        <a href="../p/moonlit-stories.html">
+          <div class="row-head">
+            <span class="row-name">moonlit-stories</span>
+            <span class="row-desc">英语绘本生成工作流，重点解决插图前后不一致</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 154</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
         <a href="../p/genoffice.html">
           <div class="row-head">
             <span class="row-name">genoffice</span>
             <span class="row-desc">开源的 AI 办公套件，Word/Excel/PPT 三件套，跨三个系统</span>
             <span class="row-tail">
 <span class="tag sig">开源关注 2,490</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/trace-file-lineage.html">
-          <div class="row-head">
-            <span class="row-name">trace-file-lineage</span>
-            <span class="row-desc">倒查一个文件是哪个脚本、哪条命令、哪个 agent 生成的</span>
-            <span class="row-tail">
-<span class="tag sig">开源关注 451</span>            </span>
           </div>
         </a>
       </li>
@@ -160,8 +264,8 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>160 个产品 · 3 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 10:06</span>
+    <span>160 个产品 · 8 份深度分析</span>
+    <span class="gen">更新于 2026-08-11 10:12</span>
   </footer>
 </div>
 

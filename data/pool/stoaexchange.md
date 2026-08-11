@@ -10,7 +10,7 @@ canonical_url: https://stoaexchange.com
 summary: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers
 first_seen: '2026-08-10T16:35:27Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: watching
+status: analyzed
 sources:
 - hackernews
 sightings:

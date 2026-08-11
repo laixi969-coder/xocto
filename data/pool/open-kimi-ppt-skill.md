@@ -11,7 +11,7 @@ summary: 非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX�
   AI agents — generate editable PPTD + PPTX with a local browser editor
 first_seen: '2026-08-05T07:30:56Z'
 last_seen: '2026-08-11T11:08:11Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

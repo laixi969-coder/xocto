@@ -11,7 +11,7 @@ summary: Reusable AI English picture-book workflow with consistent illustrations
   TTS.
 first_seen: '2026-08-04T09:48:54Z'
 last_seen: '2026-08-11T11:08:11Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

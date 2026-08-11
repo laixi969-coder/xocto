@@ -35,6 +35,7 @@
   <div class="detail-head">
     <div class="pick-id">
       <h1>stoaexchange</h1>
+      <span class="verdict v-强烈推荐">强烈推荐</span>
     </div>
 
     <p class="lede">GPU 和 AI 服务器的交易市场，YC 最新一批</p>
@@ -58,17 +59,121 @@
     </div>
   </section>
 
-
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
-      <p class="noanalysis-sub">
-        上面那句灵感是目前能给的全部判断。
-        它还太早，没有可验证的数据，再多写就是编。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">替代了什么旧行为</span>
+        <p>买 GPU 现在的实际流程是：挨个问 OEM 的销售拿配额报价、问云厂商有没有余量、</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">能拿走什么</span>
+        <p>和 GPU 的处境结构相同。它的做法值得看： 不做撮合，先做基准。</p>
+      </div>
     </div>
   </section>
+
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给 GPU 做一个公开报价的地方：谁有货、什么价、什么时候能交，摆在同一张表上。</p>
+<h2>做这个东西的人</h2>
+<p>YC S26 批次，团队信息未公开披露。</p>
+<p>产品定位句写的是 &quot;The market behind AI hardware&quot;，落地页第一屏直接摆五个型号的
+实时价格 —— 这个选择本身说明了它对自己的判断：<strong>它卖的不是撮合服务，是价格本身。</strong></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>看价格</strong> → 五个主力型号的当前成交价直接摆在首页：
+A100 80GB $9,490 · H100 SXM5 $25,860 · H200 SXM $33,850 · B200 $43,860 · GB200 NVL $67,400</li>
+<li><strong>买卖双方对接</strong> → 对手方经过验证，不是匿名挂牌</li>
+<li><strong>价格发现</strong> → 把 OEM 配额、云厂商余量、经纪商、机房运营商、二手卖家
+这五类割裂的供给拉到同一个视图里比较</li>
+<li>提供 Data 和 Research 两个独立栏目，说明数据本身也是产品</li>
+</ul>
+<p><strong>它明确不做什么</strong>：不自己持有库存，不做融资，不做托管。
+它只做那一层信息 —— 这个克制决定了它的规模上限，也决定了它的毛利结构。</p>
+<h2>它在替代什么旧行为</h2>
+<p>买 GPU 现在的实际流程是：挨个问 OEM 的销售拿配额报价、问云厂商有没有余量、
+托朋友找经纪商、在二手渠道碰运气。每一路的报价口径都不一样，
+你没法知道自己拿到的价格是好是坏。</p>
+<p>它自己把这个问题说得很准：<strong>&quot;GPU supply has no shared price discovery layer.&quot;</strong></p>
+<p>价格取决于型号、交付时间、地区、数量、成色、融资方式和紧急程度 —— 七个变量，
+每一个都会改变最终成交价，而没有任何一个地方能同时看到它们。</p>
+<p><strong>旧行为极其明确，而且痛点频率高、金额大。</strong> 一台 GB200 NVL 六万七千美元，
+信息不对称带来的价差可能就是几千美元。</p>
+<h2>商业模式</h2>
+<p>未披露定价。这个形态通常有三种收法：按成交额抽佣、卖数据订阅、卖研究报告。
+它同时开了 Data 和 Research 两个栏目，说明<strong>至少在为后两种做准备</strong>。</p>
+<p><em>判断：抽佣是最直接的，但也最容易被绕过（双方对上了就私下成交）。
+真正能收得住的是数据订阅 —— 因为价格数据是持续消耗品，不是一次性的。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>YC S26（最新一批）</li>
+<li>首页公开五个型号的实时报价，是目前少见的公开价格源</li>
+<li>成交量、收入、团队规模：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>不确定。团队背景未公开，这是最大的信息缺口</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>高。&quot;没有共享的价格发现层&quot;这句话抓住了问题的本质，不是在做撮合而是在做基准</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>中。这类产品的难点不在技术，在拿到真实的供给数据</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>好。算力从紧缺转向分层过剩的过程中，二级市场才会真正形成</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p>Stoa 赌的是<strong>算力正在从固定资产变成大宗商品</strong>。</p>
+<p>固定资产是一次性采购、长期持有、没有二级市场；大宗商品有标准规格、有公开报价、
+有期限结构、有做市商。GPU 正在从前者变成后者 —— 型号标准化了（H100、B200 是明确的
+SKU），持有周期缩短了（模型迭代快，两年前的卡就落后），供给来源多元化了。
+这三件事一起发生时，中间商的机会就出现了。</p>
+<p><strong>可迁移的规律：当一个东西从&quot;你自己买来用&quot;变成&quot;随时可以转手&quot;，
+最先赚钱的不是买卖双方，是提供报价基准的那一方。</strong>
+石油、航运、电力都走过这条路，先有价格指数，后有衍生品和做市商。</p>
+<p>代价很清楚：它现在的护城河等于零。价格数据一旦公开就无法阻止别人抄，
+而买卖双方一旦对上号，完全可以绕开平台私下成交。这类市场的历史规律是
+<strong>赢家最终靠的不是信息，是清算和履约</strong> —— 谁能保证钱货两清，谁才能收得住佣金。
+它现在明确不碰托管和融资，那是聚焦，也是把最值钱的那块地留给了别人。</p>
+<p>它和云厂商的关系也待观察：AWS、CoreWeave 这些既是供给方也是它的潜在竞争者，
+它们没有任何理由让自己的定价被公开比较。</p>
+<h2>下一步看什么</h2>
+<ol>
+<li><strong>首页报价的更新频率</strong> —— 如果是每周甚至每月手动更新，那它是研究报告不是市场</li>
+<li><strong>有没有从信息层往履约层走</strong> —— 出现托管、担保交易或融资功能，说明它想清楚了怎么收钱</li>
+<li><strong>有没有云厂商入驻</strong> —— 供给侧最大的那几家愿不愿意来，决定了它是行业基准还是二手市场</li>
+</ol>
+<h2>对你的可迁移点</h2>
+<p><strong>产品逻辑</strong>：地产是&quot;信息不对称最严重、单笔金额最大&quot;的行业之一，
+和 GPU 的处境结构相同。它的做法值得看：<strong>不做撮合，先做基准。</strong>
+先让所有人都来看你的价格，来的人多了，交易自然发生在你这里。</p>
+<p><strong>话术</strong>：整个落地页只讲一件事 —— &quot;GPU 供应没有共享的价格发现层&quot;。
+一句话说清行业的病，比列十个功能有力得多。你写提案时可以用这个结构：
+先把行业最痛的那句实话说出来，方案自然成立。</p>
+<p><strong>定价结构</strong>：抽佣容易被绕开，数据订阅收得住。
+这个判断对任何&quot;我帮你对接资源&quot;型的服务业务都适用 ——
+卖对接一次性，卖判断可持续。</p>
+<h2>结论</h2>
+<p><strong>强烈推荐。</strong> 它是&quot;信息不对称的行业如何被重做&quot;的一个干净样本，
+而且现在处在最早期，接下来一年的每一步都能拿来验证判断。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -79,6 +184,26 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/open-kimi-ppt-skill.html">
+          <div class="row-head">
+            <span class="row-name">open-kimi-ppt-skill</span>
+            <span class="row-desc">非官方的 Kimi Slides 技能，生成可编辑的 PPT 并带本地编辑器</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,603</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/gendangzou-skill.html">
+          <div class="row-head">
+            <span class="row-name">Gendangzou-skill</span>
+            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 184</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/crm.html">
           <div class="row-head">
@@ -96,26 +221,6 @@
             <span class="row-desc">实时语音运行时，让 agent 能一直说话一直干活</span>
             <span class="row-tail">
 <span class="tag sig">开源关注 2,075</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/open-kimi-ppt-skill.html">
-          <div class="row-head">
-            <span class="row-name">open-kimi-ppt-skill</span>
-            <span class="row-desc">非官方的 Kimi Slides 技能，生成可编辑的 PPT 并带本地编辑器</span>
-            <span class="row-tail">
-<span class="tag sig">开源关注 1,603</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/optmem.html">
-          <div class="row-head">
-            <span class="row-name">OptMem</span>
-            <span class="row-desc">给 AI agent 的永久记忆，一个 426 token 的提示词加一个脚本</span>
-            <span class="row-tail">
-<span class="tag sig">开源关注 1,228</span>            </span>
           </div>
         </a>
       </li>
@@ -158,8 +263,8 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>160 个产品 · 3 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 10:06</span>
+    <span>160 个产品 · 8 份深度分析</span>
+    <span class="gen">更新于 2026-08-11 10:12</span>
   </footer>
 </div>
 

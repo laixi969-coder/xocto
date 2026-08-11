@@ -35,6 +35,7 @@
   <div class="detail-head">
     <div class="pick-id">
       <h1>Gendangzou-skill</h1>
+      <span class="verdict v-强烈推荐">强烈推荐</span>
     </div>
 
     <p class="lede">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</p>
@@ -58,17 +59,122 @@
     </div>
   </section>
 
-
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
-      <p class="noanalysis-sub">
-        上面那句灵感是目前能给的全部判断。
-        它还太早，没有可验证的数据，再多写就是编。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">替代了什么旧行为</span>
+        <p>研究员看政策选股的实际流程：读政策文件 → 判断影响哪个行业 →</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">能拿走什么</span>
+        <p>特别看它的 四线交叉结构 —— 政策、媒体、市场关注、资金确认，</p>
+      </div>
     </div>
   </section>
+
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把 A 股的政策风向、媒体口径、资金动向和板块关系，做成 AI Agent 能直接查的能力。</p>
+<h2>做这个东西的人</h2>
+<p>MobiusQuant 出品 —— 这不是个人项目，是<strong>有商业实体的产品</strong>。证据齐全：
+独立官网（gendangzou.mobiusquant.ai）、独立文档站（docs.mobiusquant.ai）、
+官方社群、Apache-2.0 协议、明确列出支持的五个 Agent 平台。</p>
+<p><em>判断：一个个人开发者不会去搭文档站和写多平台适配矩阵。
+这是团队在用开源做分发，商业化在别处。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>查政策到板块的传导</strong> → 给一条政策，找出受影响的板块、公司和 ETF，并给出可溯源的关系链</li>
+<li><strong>串四类信号</strong> → 政策、权威媒体、市场关注度、资金确认，四条线索交叉验证同一个判断</li>
+<li><strong>实时查询</strong> → 不是静态数据包，是能问当下的</li>
+<li><strong>给 Agent 用，不是给人用</strong> → 装进 Claude Code / Codex / OpenClaw / Hermes / WorkBuddy，
+由 agent 调用，输出直接进推理链</li>
+<li><strong>支持二次开发</strong> → 有 API 文档和应用开发指南，允许在它上面搭自己的东西</li>
+<li>双入口设计：<code>README_AGENT.md</code> 给 agent 读（怎么装、怎么验证、怎么卸载），
+<code>SKILL.md</code> 给日常业务调用读</li>
+</ul>
+<p><strong>它明确不做什么</strong>：不给买卖建议，不做交易执行，不做回测。
+它只做&quot;从政策到标的的可溯源关系&quot;这一层。</p>
+<h2>它在替代什么旧行为</h2>
+<p>研究员看政策选股的实际流程：读政策文件 → 判断影响哪个行业 →
+翻研报找受益标的 → 查资金流验证 → 看媒体口径确认预期。
+一条完整链路要花半天到一天，而且每次都要重来。</p>
+<p><strong>旧行为极其明确，且高频重复。</strong> 政策每天都有，链路每次都一样。
+这正是最适合被工具吃掉的那种工作。</p>
+<h2>商业模式</h2>
+<p>开源 Skill 免费（Apache-2.0），但 <strong>API 和数据在自己手里</strong>。</p>
+<p>这个结构很清楚：Skill 是钩子，负责获客和建立习惯；
+真正的价值和收费点在数据服务和 API 配额上。</p>
+<p><em>判断：这是目前 AI 时代最成立的开源变现结构之一 ——
+送工具、卖数据。工具可以被抄，持续更新的数据不能。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>开源关注 184</li>
+<li>支持 5 个 Agent 平台</li>
+<li>定价、用户数、API 调用量：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高。MobiusQuant 这个名字本身就是量化背景，产品和积累对得上</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>高。切的不是&quot;选股&quot;而是&quot;政策到标的的可溯源链条&quot;，前者拥挤后者空着</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>中上。文档站、多平台适配、agent 专用安装说明，工程完整度不像玩票</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>正好。Agent 刚具备调用外部能力的条件，垂直数据 skill 是第一批受益者</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p>这个产品最聪明的地方是<strong>它选择服务 agent 而不是服务人</strong>。</p>
+<p>同样的数据，做成网页给人看，要和一堆金融终端正面竞争；做成 skill 给 agent 调用，
+竞争者几乎为零，而且它变成了 agent 推理链的一环 —— 一旦被写进某个人的工作流，
+迁移成本极高。</p>
+<p><strong>可迁移的规律：当一个赛道的 To C 界面已经拥挤到打不动时，
+往下一层做成&quot;别人产品的能力&quot;，是绕开正面竞争最省力的路径。</strong>
+它不和同花顺抢用户，它让用户的 agent 来调它。</p>
+<p>代价是天花板受制于 agent 生态的成熟度。现在会用 Claude Code 查股票的人有多少？
+很少。它赌的是这个数字会涨，而在涨之前它得活着。</p>
+<p>它和「跟党走」这个名字也值得说一句：在中文语境里这是极强的记忆点，
+但也把自己锁死在了 A 股市场 —— 这个名字出不了海。取这个名字的人应该是想清楚了的。</p>
+<h2>下一步看什么</h2>
+<ol>
+<li><strong>API 有没有定价页</strong> —— 现在看不到收费入口，出现了才说明变现路径跑通了</li>
+<li><strong>支持的 Agent 平台数量会不会继续加</strong> —— 加得越多说明真有人在用，
+不加说明适配是一次性的宣传动作</li>
+<li><strong>数据更新频率</strong> —— &quot;实时查询&quot;是宣称，实际是分钟级、日级还是周级，决定了它的真实价值</li>
+</ol>
+<h2>对你的可迁移点</h2>
+<p><strong>产品逻辑（直接撞你的 octo）</strong>：这是你能找到的最接近的公开参照物。
+特别看它的<strong>四线交叉结构</strong> —— 政策、媒体、市场关注、资金确认，
+四条独立线索验证同一个判断。这个结构比任何单一信号都稳，
+而且它不只适用于股票：地产的政策、舆情、成交、资金四条线是同一个模型。</p>
+<p><strong>商业模式（最值钱的一条）</strong>：<strong>送 Skill、卖数据 API</strong>。
+你做的那些 skill 如果要变现，这是现成的结构 ——
+能力免费送出去建立使用习惯，收费点放在持续更新的数据或服务上。
+工具会被抄，数据不会。</p>
+<p><strong>定位策略</strong>：不做 To C 界面，做成&quot;别人 agent 的一个能力&quot;。
+这条路对你尤其成立，因为你不擅长做面向大众的产品运营，但你擅长把专业判断结构化。</p>
+<h2>结论</h2>
+<p><strong>强烈推荐。</strong> 它同时给了你三样东西：一个撞 octo 的产品参照、
+一个可迁移的四线交叉分析结构、一个已经跑通的开源变现模型。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -79,6 +185,26 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/open-kimi-ppt-skill.html">
+          <div class="row-head">
+            <span class="row-name">open-kimi-ppt-skill</span>
+            <span class="row-desc">非官方的 Kimi Slides 技能，生成可编辑的 PPT 并带本地编辑器</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,603</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/stoaexchange.html">
+          <div class="row-head">
+            <span class="row-name">stoaexchange</span>
+            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">社区热度 75</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/crm.html">
           <div class="row-head">
@@ -96,26 +222,6 @@
             <span class="row-desc">实时语音运行时，让 agent 能一直说话一直干活</span>
             <span class="row-tail">
 <span class="tag sig">开源关注 2,075</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/open-kimi-ppt-skill.html">
-          <div class="row-head">
-            <span class="row-name">open-kimi-ppt-skill</span>
-            <span class="row-desc">非官方的 Kimi Slides 技能，生成可编辑的 PPT 并带本地编辑器</span>
-            <span class="row-tail">
-<span class="tag sig">开源关注 1,603</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/optmem.html">
-          <div class="row-head">
-            <span class="row-name">OptMem</span>
-            <span class="row-desc">给 AI agent 的永久记忆，一个 426 token 的提示词加一个脚本</span>
-            <span class="row-tail">
-<span class="tag sig">开源关注 1,228</span>            </span>
           </div>
         </a>
       </li>
@@ -158,8 +264,8 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>160 个产品 · 3 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 10:06</span>
+    <span>160 个产品 · 8 份深度分析</span>
+    <span class="gen">更新于 2026-08-11 10:12</span>
   </footer>
 </div>
 
