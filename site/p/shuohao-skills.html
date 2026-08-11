@@ -15,6 +15,8 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">跳到主要内容</a>
+
 <div class="top">
   <div class="top-inner">
     <a class="brand" href="../index.html">x<span>·</span>octo</a>
@@ -27,6 +29,7 @@
   </div>
 </div>
 
+<main id="main">
 <div class="wrap">
 
   <div class="detail-head">
@@ -168,18 +171,115 @@ README 开头第一件事不是介绍产品，是<strong>留微信号拉付费�
   </article>
 
 
+  <nav class="onward" aria-label="继续浏览">
+    <div class="sec-head">
+      <h2>同方向的其他</h2>
+      <a class="note onward-all" href="../products.html#AI + 创作">
+        AI + 创作 共 19 个 →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../p/open-ai-canvas.html">
+          <div class="row-head">
+            <span class="row-name">open-ai-canvas</span>
+            <span class="row-desc">一张画布装下整部戏：从小说抽角色资产，再编排分镜、图、视频、音频</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 537</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/genoffice.html">
+          <div class="row-head">
+            <span class="row-name">genoffice</span>
+            <span class="row-desc">开源的 AI 办公套件，Word/Excel/PPT 三件套，跨三个系统</span>
+            <span class="row-tail">
+<span class="tag sig">开源关注 2,490</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/trace-file-lineage.html">
+          <div class="row-head">
+            <span class="row-name">trace-file-lineage</span>
+            <span class="row-desc">倒查一个文件是哪个脚本、哪条命令、哪个 agent 生成的</span>
+            <span class="row-tail">
+<span class="tag sig">开源关注 451</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/douyin-tiktok-story-skill-agent.html">
+          <div class="row-head">
+            <span class="row-name">douyin-tiktok-story-skill-agent</span>
+            <span class="row-desc">本地跑的抖音/TikTok 故事创作工作流，从选题到成片</span>
+            <span class="row-tail">
+<span class="tag sig">开源关注 233</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/human-review.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">human-review</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/pinvou-agent.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">pinvou-agent</span>
+      </a>
+    </div>
+  </nav>
+
 </div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">↑</button>
 
 <div class="wrap">
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>160 个产品 · 3 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 09:42</span>
+    <span class="gen">更新于 2026-08-11 10:06</span>
   </footer>
 </div>
 
 <script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
   document.getElementById('theme-btn').addEventListener('click', function () {
     var el = document.documentElement;
     var now = el.getAttribute('data-theme');

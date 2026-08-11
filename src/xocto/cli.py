@@ -10,7 +10,7 @@ import sys
 from collections import Counter
 from datetime import date, datetime, timezone
 
-from .collect import CollectReport, collect, rebuild
+from .collect import CollectReport, collect, prune, rebuild
 from .models import (
     STATUS_ANALYZED,
     STATUS_PENDING_FILTER,
@@ -79,6 +79,17 @@ def _print_report(report: CollectReport) -> None:
         print("  去掉 --dry-run 才会真正写入。")
     elif report.new_products:
         print(f"  下一步：让 Claude 读 config/filter.md，把这 {report.new_products} 个新产品过一遍。")
+
+
+def cmd_prune(args: argparse.Namespace) -> int:
+    store = Store()
+    store.ensure_dirs()
+    removed, left = prune(store, keep_days=args.keep_days)
+    if removed:
+        print(f"\n  清掉 {removed} 天的旧存档，还剩 {left} 天\n")
+    else:
+        print(f"\n  存档只有 {left} 天，没到 {args.keep_days} 天的保留上限，不用清\n")
+    return 0
 
 
 def cmd_build(args: argparse.Namespace) -> int:
@@ -187,6 +198,10 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_build = sub.add_parser("build", help="把 data/ 生成成静态网站")
     p_build.set_defaults(func=cmd_build)
+
+    p_prune = sub.add_parser("prune", help="清掉过老的原始存档，控制仓库体积")
+    p_prune.add_argument("--keep-days", type=int, default=30, help="保留最近几天，默认 30")
+    p_prune.set_defaults(func=cmd_prune)
 
     p_rebuild = sub.add_parser(
         "rebuild", help="从原始存档重建产品池（改了解析规则之后用；旧的会备份不会删）"

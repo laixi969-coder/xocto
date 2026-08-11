@@ -29,6 +29,19 @@ _POST_ID = re.compile(r"Post/(\d+)")
 
 @register("producthunt")
 def fetch(cfg: dict, http: Http) -> list[RawItem]:
+    # 有 token 就走官方接口 —— 能多拿到真实官网、票数和官方分类，
+    # 这三样 RSS 都没有。接口挂了或者没配 token，静默退回 RSS，不影响当天采集。
+    if cfg.get("use_api", True):
+        from .producthunt_api import TOKEN_ENV, fetch_via_api, has_token
+
+        if has_token():
+            try:
+                return fetch_via_api(cfg, http)
+            except HttpError as exc:
+                print(f"    ! 官方接口不可用，退回 feed 模式：{exc}")
+        else:
+            print(f"    （没配 {TOKEN_ENV}，用 feed 模式，拿不到官网和票数）")
+
     feed_url = cfg.get("feed_url") or DEFAULT_FEED
     lookback = float(cfg.get("lookback_hours") or DEFAULT_LOOKBACK_HOURS)
 

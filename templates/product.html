@@ -81,11 +81,28 @@
     {{ analysis.body_html | safe }}
   </article>
   {% else %}
+  {# 空状态不是死路，是岔路口：说清这里有什么、没有什么、往哪走 #}
   <section class="band">
-    <p class="empty">
-      还没做深度分析。<br>
-      在 Claude Code 里说「分析 {{ product.slug }}」，会按 config/template.md 的模板生成。
-    </p>
+    <div class="noanalysis">
+      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
+      <p class="noanalysis-sub">
+        上面那句灵感是目前能给的全部判断。
+        {% if product.stage_key == 'early' %}
+        它还太早，没有可验证的数据，再多写就是编。
+        {% else %}
+        它已经跑出规模，判断要看流量和环比的变化，不是看一次快照。
+        {% endif %}
+      </p>
+      {% set analysed_sibling = product.siblings | selectattr('status', 'equalto', 'analyzed') | list %}
+      {% if analysed_sibling %}
+      <p class="noanalysis-sub">
+        同方向已经分析过的：
+        {% for s in analysed_sibling[:2] %}
+        <a href="{{ root }}p/{{ s.slug }}.html">{{ s.name }}</a>{% if not loop.last %}、{% endif %}
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
   </section>
   {% endif %}
 
@@ -96,5 +113,66 @@
   </section>
   {% endif %}
 
+  {# 读完一份分析没有下一步，旅程就断在这里。给三条出路。 #}
+  <nav class="onward" aria-label="继续浏览">
+    {% if product.siblings %}
+    <div class="sec-head">
+      <h2>同方向的其他</h2>
+      {% if product.category %}
+      <a class="note onward-all" href="{{ root }}products.html#{{ product.category }}">
+        {{ product.category }} 共 {{ product.category_total }} 个 →
+      </a>
+      {% endif %}
+    </div>
+    <ul class="rows">
+      {% for s in product.siblings %}
+      <li>
+        <a href="{{ root }}p/{{ s.slug }}.html">
+          <div class="row-head">
+            <span class="row-name">{{ s.name }}</span>
+            <span class="row-desc">{{ s.summary }}</span>
+            <span class="row-tail">
+              {% if s.status == 'analyzed' %}<span class="tag">已分析</span>{% endif %}
+              {% if s.badges %}<span class="tag sig">{{ s.badges[0] }}</span>{% endif %}
+            </span>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div class="pager">
+      {% if product.prev %}
+      <a class="pager-item pager-prev" href="{{ root }}p/{{ product.prev.slug }}.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">{{ product.prev.name }}</span>
+      </a>
+      {% else %}<span></span>{% endif %}
+
+      {% if product.next %}
+      <a class="pager-item pager-next" href="{{ root }}p/{{ product.next.slug }}.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">{{ product.next.name }}</span>
+      </a>
+      {% else %}<span></span>{% endif %}
+    </div>
+  </nav>
+
 </div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
 {% endblock %}

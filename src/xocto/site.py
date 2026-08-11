@@ -322,6 +322,22 @@ def build_context(store: Store) -> dict[str, Any]:
         if counts.get(name)
     ]
 
+    # 读完一份分析之后没有下一步，旅程就断在那里了。
+    # 给每个产品算好"同方向的邻居"和"上一个/下一个"，详情页才不是死路。
+    ranked = sorted(views, key=lambda v: -v["weight"])
+    for i, view in enumerate(ranked):
+        view["prev"] = ranked[i - 1] if i > 0 else None
+        view["next"] = ranked[i + 1] if i < len(ranked) - 1 else None
+        same = [
+            o
+            for o in ranked
+            if o["category"] == view["category"] and o["slug"] != view["slug"]
+        ]
+        # 同方向里优先推有判断的，其次是热度高的
+        same.sort(key=lambda o: (o["status"] != STATUS_ANALYZED, -o["weight"]))
+        view["siblings"] = same[:4]
+        view["category_total"] = counts.get(view["category"], 0)
+
     return {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "latest_day": max((v["last_seen"] for v in views), default=""),

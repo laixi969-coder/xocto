@@ -1,0 +1,58 @@
+name: 每日采集
+
+# 每天北京时间早上 9 点跑一次。
+# 这个时间点对应美西前一天下午，Product Hunt 当天的榜单已经稳定，
+# Hacker News 的当日讨论也过了热度峰值，抓到的分数更接近最终值。
+on:
+  schedule:
+    - cron: "0 1 * * *"   # UTC 01:00 = 北京时间 09:00
+  workflow_dispatch:       # 也可以随时手动点一下
+
+# 需要写权限才能把采集结果提交回仓库
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 装 uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: 装依赖
+        run: uv sync --frozen
+
+      - name: 采集
+        run: uv run xocto collect
+
+      - name: 清掉过老的原始存档
+        run: uv run xocto prune --keep-days 30
+
+      - name: 生成网站
+        run: uv run xocto build
+
+      - name: 看看现状
+        run: uv run xocto status
+
+      - name: 提交并推送
+        run: |
+          git config user.name  "x-octo bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          # 没有变化就什么都不做，避免刷一堆空提交
+          if git diff --staged --quiet; then
+            echo "今天没有新东西，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: 每日采集 $(date -u +%Y-%m-%d)"
+          git push

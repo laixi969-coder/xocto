@@ -12,6 +12,12 @@ sources:
   # 噪音大，但胜在全、快。
   producthunt:
     enabled: true
+    # 有 PRODUCTHUNT_TOKEN 环境变量时走官方接口，能多拿到：
+    #   真实官网（feed 只给它自己的页面链接）、票数、官方分类。
+    # 没有 token 就自动退回下面的 feed，功能照常只是信息少。
+    # 申请：producthunt.com/v2/oauth/applications（免费，五分钟）
+    use_api: true
+    max_pages: 4
     feed_url: "https://www.producthunt.com/feed?category=ai"
     # feed 只给 50 条，且按"最近有动静"排序而不是按发布时间，
     # 窗口卡太紧会捞不到东西（实测 48 小时只剩 4 条，7 天有 31 条）。

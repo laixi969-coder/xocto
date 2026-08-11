@@ -178,6 +178,25 @@ def merge_into_pool(
     return new_count, updated_count, unchanged_count, news_count
 
 
+def prune(store: Store, keep_days: int = 30) -> tuple[int, int]:
+    """删掉过老的原始存档，返回 (删除天数, 剩余天数)。
+
+    原始存档要进库（云端自动采集时不提交就永久丢了），但不能无限长 ——
+    一天约 1MB，不清理一年就是 300MB+。保留 30 天：足够覆盖任何一次
+    解析规则调整后的重建需求，再老的历史重建价值也有限。
+
+    产品档案（pool/）永远不删 —— 那是最终产物，体积也小。
+    """
+    days = store.raw_days()
+    if len(days) <= keep_days:
+        return 0, len(days)
+
+    doomed = days[:-keep_days]
+    for day in doomed:
+        store.raw_path(day).unlink(missing_ok=True)
+    return len(doomed), len(days) - len(doomed)
+
+
 def rebuild(store: Store) -> tuple[int, int]:
     """从 raw 存档重建整个产品池，返回 (处理天数, 产品数)。
 

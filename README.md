@@ -136,15 +136,44 @@ data/reports/2026-08-11.md   每日简报 ← 你主要看这个
 `.vercelignore` 已经把 `pyproject.toml` 排除掉了，重新部署一次就好；
 还不行的话去项目设置里把 Framework Preset 手动改成 Other。
 
-### 每天更新线上内容
+### 每天自动更新（已接好，你什么都不用做）
+
+`.github/workflows/daily.yml` 每天**北京时间早上 9 点**自动跑一遍：
+采集 → 清理过老存档 → 生成网站 → 提交推送 → Vercel 自动部署。
+
+这个时间点对应美西前一天下午，当天的榜单已经稳定，抓到的热度更接近最终值。
+
+想立刻跑一次：去 GitHub 仓库的 Actions 页面，选「每日采集」，点 Run workflow。
+
+**只有分析这一步还需要你说一句话触发**（那需要判断力，机器代替不了）。
+自动跑出来的新产品都是「待过滤」状态，等你让 Claude 过一遍。
+
+### 手动跑
 
 ```bash
 cd ~/x-octo && uv run xocto collect && uv run xocto build
 git add -A && git commit -m "chore: 更新每日数据" && git push
 ```
 
-push 完 Vercel 会自动重新部署，一两分钟后线上就更新了。
 **注意 `site/` 目录必须提交进仓库** —— Vercel 上不跑构建，它只是把这个目录原样发出去。
+
+### 让 Product Hunt 那部分的判断变准
+
+现在 PH 的产品只有一句 tagline，因为它除了 RSS 之外整站 403。
+配一个免费 token 就能拿到**真实官网、票数、官方分类**三样东西。
+
+1. 去 [producthunt.com/v2/oauth/applications](https://www.producthunt.com/v2/oauth/applications) 新建一个 application（免费，五分钟）
+2. 拿到 **Developer Token**
+3. 本地用：在终端里 `export PRODUCTHUNT_TOKEN=你的token`（或写进 shell 配置）
+4. 云端用：GitHub 仓库 → Settings → Secrets and variables → Actions → New secret，
+   名字填 `PRODUCTHUNT_TOKEN`，然后在 `daily.yml` 的采集那步加上：
+   ```yaml
+   env:
+     PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+   ```
+
+**token 只从环境变量读，不进配置文件也不进仓库。**
+没配 token 时自动退回 RSS 模式，功能照常，只是信息少一些。
 
 **GitHub Pages 也能用，但要求仓库公开**（当前 `laixi969-coder/xocto` 是私有的）。
 

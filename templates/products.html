@@ -6,47 +6,64 @@
 
   <div class="lede-bar">
     <div class="lede-main">
-      <h1>全部产品</h1>
-      <p>{{ stats.total }} 个。刚冒头的看它做什么，已验证的看它涨多快——两类东西的判断方式不一样。</p>
+      <h1 id="ctx-title">全部产品</h1>
+      <p id="ctx-note">
+        刚冒头的看它做什么，已验证的看它涨多快。两类东西的判断方式本来就不同。
+      </p>
     </div>
+    <dl class="lede-stats">
+      <div><dt>当前结果</dt><dd class="num" id="count">{{ stats.total }}</dd></div>
+    </dl>
   </div>
 
   <section class="band">
-    <div class="filter-group">
-      <span class="filter-k">方向</span>
-      <div class="filters" data-dim="category">
-        <button class="on" data-val="">全部</button>
-        {% for c in categories %}
-        <button data-val="{{ c.name }}">{{ c.name }} <i class="num">{{ c.count }}</i></button>
-        {% endfor %}
+    <div class="controls">
+      <div class="filter-group">
+        <span class="filter-k">方向</span>
+        <div class="filters" data-dim="category">
+          <button class="on" data-val="">全部</button>
+          {% for c in categories %}
+          <button data-val="{{ c.name }}">{{ c.name }} <i class="num">{{ c.count }}</i></button>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-k">阶段</span>
+        <div class="filters" data-dim="stage">
+          <button class="on" data-val="">全部</button>
+          <button data-val="early">刚冒头 <i class="num">{{ stats.early }}</i></button>
+          <button data-val="proven">已验证 <i class="num">{{ stats.proven }}</i></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-k">评级</span>
+        <div class="filters" data-dim="status">
+          <button class="on" data-val="">全部</button>
+          <button data-val="analyzed">已分析 <i class="num">{{ stats.analysed }}</i></button>
+          <button data-val="watching">观察中 <i class="num">{{ stats.watching }}</i></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-k">排序</span>
+        <div class="filters" data-dim="sort">
+          <button class="on" data-val="weight">热度</button>
+          <button data-val="growth">增长</button>
+          <button data-val="recent">最近出现</button>
+          <button data-val="name">名称</button>
+        </div>
       </div>
     </div>
-
-    <div class="filter-group">
-      <span class="filter-k">阶段</span>
-      <div class="filters" data-dim="stage">
-        <button class="on" data-val="">全部</button>
-        <button data-val="early">刚冒头 <i class="num">{{ stats.early }}</i></button>
-        <button data-val="proven">已验证 <i class="num">{{ stats.proven }}</i></button>
-      </div>
-    </div>
-
-    <div class="filter-group">
-      <span class="filter-k">评级</span>
-      <div class="filters" data-dim="status">
-        <button class="on" data-val="">全部</button>
-        <button data-val="analyzed">已分析 <i class="num">{{ stats.analysed }}</i></button>
-        <button data-val="watching">观察中 <i class="num">{{ stats.watching }}</i></button>
-      </div>
-    </div>
-
-    <p class="result-count"><span class="num" id="count">{{ stats.total }}</span> 个结果</p>
 
     <div class="grid" id="grid">
       {% for p in products %}
       <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
          href="{{ root }}p/{{ p.slug }}.html"
-         data-category="{{ p.category }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}">
+         data-category="{{ p.category }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"
+         data-weight="{{ p.weight }}" data-growth="{{ p.growth if p.growth is not none else -99999 }}"
+         data-recent="{{ p.last_seen }}" data-name="{{ p.name }}">
         <div class="card-top">
           <h4>{{ p.name }}</h4>
           {% if p.stage_key == 'proven' and p.growth is not none %}
@@ -55,7 +72,6 @@
         </div>
 
         {% if p.stage_key == 'proven' %}
-          {# 已验证的产品你多半知道是什么，介绍没用，数据才有用 #}
           <p class="card-scale num">{{ p.scale }}</p>
           <div class="meta">
             {% for b in p.boards[:2] %}<span class="tag">{{ b }}</span>{% endfor %}
@@ -77,19 +93,42 @@
       {% endfor %}
     </div>
 
-    <p class="empty" id="empty" hidden>这个组合下没有产品。换个方向或阶段试试。</p>
+    <p class="empty" id="empty" hidden>
+      这个组合下没有产品。<br>
+      <button class="linkish" id="reset">清掉筛选，看全部 {{ stats.total }} 个</button>
+    </p>
   </section>
 
 </div>
 
 <script>
   (function () {
-    var cards = Array.prototype.slice.call(document.querySelectorAll('#grid .card'));
+    var grid = document.getElementById('grid');
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
     var empty = document.getElementById('empty');
     var count = document.getElementById('count');
+    var title = document.getElementById('ctx-title');
+    var note = document.getElementById('ctx-note');
     var active = { category: '', stage: '', status: '' };
+    var sort = 'weight';
 
-    function apply() {
+    var STAGE_TEXT = {
+      early: '还没有数据可验证，判断只能靠推理需求真伪。',
+      proven: '已经跑出规模，判断看流量和环比，不看介绍。'
+    };
+    var DEFAULT_NOTE = note.textContent;
+
+    function label() {
+      var parts = [];
+      if (active.category) parts.push(active.category);
+      if (active.stage === 'early') parts.push('刚冒头');
+      if (active.stage === 'proven') parts.push('已验证');
+      if (active.status === 'analyzed') parts.push('已分析');
+      if (active.status === 'watching') parts.push('观察中');
+      return parts.join(' · ');
+    }
+
+    function apply(animate) {
       var shown = 0;
       cards.forEach(function (card) {
         var ok =
@@ -99,25 +138,78 @@
         card.hidden = !ok;
         if (ok) shown++;
       });
+
       count.textContent = shown;
       empty.hidden = shown > 0;
+
+      var l = label();
+      title.textContent = l || '全部产品';
+      note.textContent = STAGE_TEXT[active.stage] || DEFAULT_NOTE;
+
+      if (animate) {
+        grid.classList.remove('settling');
+        void grid.offsetWidth;   // 强制重排，让动画能重放
+        grid.classList.add('settling');
+      }
+    }
+
+    function reorder() {
+      var visible = cards.slice();
+      visible.sort(function (a, b) {
+        if (sort === 'name') return a.dataset.name.localeCompare(b.dataset.name, 'zh');
+        if (sort === 'recent') return b.dataset.recent.localeCompare(a.dataset.recent);
+        var key = sort === 'growth' ? 'growth' : 'weight';
+        return parseFloat(b.dataset[key]) - parseFloat(a.dataset[key]);
+      });
+      visible.forEach(function (c) { grid.appendChild(c); });
     }
 
     document.querySelectorAll('.filters').forEach(function (group) {
       group.addEventListener('click', function (e) {
         var btn = e.target.closest('button');
         if (!btn) return;
-        group.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
+        group.querySelectorAll('button').forEach(function (b) {
+          b.classList.remove('on');
+          b.setAttribute('aria-pressed', 'false');
+        });
         btn.classList.add('on');
-        active[group.dataset.dim] = btn.dataset.val;
-        apply();
+        btn.setAttribute('aria-pressed', 'true');
+
+        if (group.dataset.dim === 'sort') {
+          sort = btn.dataset.val;
+          reorder();
+          apply(true);
+        } else {
+          active[group.dataset.dim] = btn.dataset.val;
+          apply(true);
+          syncHash();
+        }
       });
     });
 
-    // 首页的赛道入口用 #方向名 跳过来，进来就自动筛好
+    document.getElementById('reset').addEventListener('click', function () {
+      active = { category: '', stage: '', status: '' };
+      document.querySelectorAll('.filters').forEach(function (g) {
+        if (g.dataset.dim === 'sort') return;
+        g.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
+        g.querySelector('button').classList.add('on');
+      });
+      apply(true);
+      syncHash();
+    });
+
+    // 筛选状态写进 URL：可分享、可后退、刷新不丢
+    function syncHash() {
+      var want = active.category ? '#' + encodeURIComponent(active.category) : ' ';
+      if (want.trim()) {
+        history.replaceState(null, '', want);
+      } else if (location.hash) {
+        history.replaceState(null, '', location.pathname);
+      }
+    }
+
     function fromHash() {
       var want = decodeURIComponent((location.hash || '').replace('#', ''));
-      if (!want) return;
       var group = document.querySelector('.filters[data-dim="category"]');
       var btn = Array.prototype.slice.call(group.querySelectorAll('button'))
         .filter(function (b) { return b.dataset.val === want; })[0];
@@ -125,7 +217,7 @@
       group.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
       btn.classList.add('on');
       active.category = want;
-      apply();
+      apply(false);
     }
 
     fromHash();

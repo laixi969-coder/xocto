@@ -15,6 +15,8 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">跳到主要内容</a>
+
 <div class="top">
   <div class="top-inner">
     <a class="brand" href="../index.html">x<span>·</span>octo</a>
@@ -27,6 +29,7 @@
   </div>
 </div>
 
+<main id="main">
 <div class="wrap">
 
   <div class="detail-head">
@@ -63,25 +66,125 @@
   </section>
 
   <section class="band">
-    <p class="empty">
-      还没做深度分析。<br>
-      在 Claude Code 里说「分析 kimi-月之暗面」，会按 config/template.md 的模板生成。
-    </p>
+    <div class="noanalysis">
+      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
+      <p class="noanalysis-sub">
+        上面那句灵感是目前能给的全部判断。
+        它已经跑出规模，判断要看流量和环比的变化，不是看一次快照。
+      </p>
+    </div>
   </section>
 
 
+  <nav class="onward" aria-label="继续浏览">
+    <div class="sec-head">
+      <h2>同方向的其他</h2>
+      <a class="note onward-all" href="../products.html#通用助手">
+        通用助手 共 14 个 →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../p/ai-搜索-百度.html">
+          <div class="row-head">
+            <span class="row-name">AI 搜索｜百度</span>
+            <span class="row-desc">百度的 AI 搜索，主打一站式解决复杂问题</span>
+            <span class="row-tail">
+<span class="tag sig">月访问 44.85M</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/deepseek-ai-智能助手.html">
+          <div class="row-head">
+            <span class="row-name">DeepSeek - AI 智能助手</span>
+            <span class="row-desc">DeepSeek 的移动端助手，搜索写作阅读解题翻译</span>
+            <span class="row-tail">
+<span class="tag sig">月活 139.08M</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/deepseek.html">
+          <div class="row-head">
+            <span class="row-name">DeepSeek</span>
+            <span class="row-desc">DeepSeek 的对话产品，国内网站访问量第一（4.84 亿）</span>
+            <span class="row-tail">
+<span class="tag sig">月访问 483.80M</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/talkie-personalized-ai-chats.html">
+          <div class="row-head">
+            <span class="row-name">Talkie: Personalized AI Chats</span>
+            <span class="row-desc">个性化 AI 聊天角色应用</span>
+            <span class="row-tail">
+<span class="tag sig">月活 32.85M</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/hyper3d.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">Hyper3D</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/kimi.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">Kimi</span>
+      </a>
+    </div>
+  </nav>
+
 </div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">↑</button>
 
 <div class="wrap">
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>160 个产品 · 3 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 09:42</span>
+    <span class="gen">更新于 2026-08-11 10:06</span>
   </footer>
 </div>
 
 <script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
   document.getElementById('theme-btn').addEventListener('click', function () {
     var el = document.documentElement;
     var now = el.getAttribute('data-theme');

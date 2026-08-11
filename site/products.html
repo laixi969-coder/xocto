@@ -15,6 +15,8 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">跳到主要内容</a>
+
 <div class="top">
   <div class="top-inner">
     <a class="brand" href="index.html">x<span>·</span>octo</a>
@@ -27,54 +29,72 @@
   </div>
 </div>
 
+<main id="main">
 <div class="wrap">
 
   <div class="lede-bar">
     <div class="lede-main">
-      <h1>全部产品</h1>
-      <p>160 个。刚冒头的看它做什么，已验证的看它涨多快——两类东西的判断方式不一样。</p>
+      <h1 id="ctx-title">全部产品</h1>
+      <p id="ctx-note">
+        刚冒头的看它做什么，已验证的看它涨多快。两类东西的判断方式本来就不同。
+      </p>
     </div>
+    <dl class="lede-stats">
+      <div><dt>当前结果</dt><dd class="num" id="count">160</dd></div>
+    </dl>
   </div>
 
   <section class="band">
-    <div class="filter-group">
-      <span class="filter-k">方向</span>
-      <div class="filters" data-dim="category">
-        <button class="on" data-val="">全部</button>
-        <button data-val="AI + 创作">AI + 创作 <i class="num">19</i></button>
-        <button data-val="AI + 开发">AI + 开发 <i class="num">18</i></button>
-        <button data-val="AI + 商业">AI + 商业 <i class="num">7</i></button>
-        <button data-val="AI + 效率">AI + 效率 <i class="num">59</i></button>
-        <button data-val="AI + 生活">AI + 生活 <i class="num">13</i></button>
-        <button data-val="通用助手">通用助手 <i class="num">14</i></button>
-        <button data-val="基础层">基础层 <i class="num">30</i></button>
+    <div class="controls">
+      <div class="filter-group">
+        <span class="filter-k">方向</span>
+        <div class="filters" data-dim="category">
+          <button class="on" data-val="">全部</button>
+          <button data-val="AI + 创作">AI + 创作 <i class="num">19</i></button>
+          <button data-val="AI + 开发">AI + 开发 <i class="num">18</i></button>
+          <button data-val="AI + 商业">AI + 商业 <i class="num">7</i></button>
+          <button data-val="AI + 效率">AI + 效率 <i class="num">59</i></button>
+          <button data-val="AI + 生活">AI + 生活 <i class="num">13</i></button>
+          <button data-val="通用助手">通用助手 <i class="num">14</i></button>
+          <button data-val="基础层">基础层 <i class="num">30</i></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-k">阶段</span>
+        <div class="filters" data-dim="stage">
+          <button class="on" data-val="">全部</button>
+          <button data-val="early">刚冒头 <i class="num">112</i></button>
+          <button data-val="proven">已验证 <i class="num">48</i></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-k">评级</span>
+        <div class="filters" data-dim="status">
+          <button class="on" data-val="">全部</button>
+          <button data-val="analyzed">已分析 <i class="num">3</i></button>
+          <button data-val="watching">观察中 <i class="num">10</i></button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-k">排序</span>
+        <div class="filters" data-dim="sort">
+          <button class="on" data-val="weight">热度</button>
+          <button data-val="growth">增长</button>
+          <button data-val="recent">最近出现</button>
+          <button data-val="name">名称</button>
+        </div>
       </div>
     </div>
-
-    <div class="filter-group">
-      <span class="filter-k">阶段</span>
-      <div class="filters" data-dim="stage">
-        <button class="on" data-val="">全部</button>
-        <button data-val="early">刚冒头 <i class="num">112</i></button>
-        <button data-val="proven">已验证 <i class="num">48</i></button>
-      </div>
-    </div>
-
-    <div class="filter-group">
-      <span class="filter-k">评级</span>
-      <div class="filters" data-dim="status">
-        <button class="on" data-val="">全部</button>
-        <button data-val="analyzed">已分析 <i class="num">3</i></button>
-        <button data-val="watching">观察中 <i class="num">10</i></button>
-      </div>
-    </div>
-
-    <p class="result-count"><span class="num" id="count">160</span> 个结果</p>
 
     <div class="grid" id="grid">
       <a class="card "
          href="p/crm.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="8161" data-growth="-99999"
+         data-recent="2026-08-11" data-name="crm">
         <div class="card-top">
           <h4>crm</h4>
         </div>
@@ -87,7 +107,9 @@
       </a>
       <a class="card "
          href="p/genoffice.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="2534" data-growth="-99999"
+         data-recent="2026-08-11" data-name="genoffice">
         <div class="card-top">
           <h4>genoffice</h4>
         </div>
@@ -100,7 +122,9 @@
       </a>
       <a class="card "
          href="p/qwen-audio-agent.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="2075" data-growth="-99999"
+         data-recent="2026-08-11" data-name="qwen-audio-agent">
         <div class="card-top">
           <h4>qwen-audio-agent</h4>
         </div>
@@ -113,7 +137,9 @@
       </a>
       <a class="card "
          href="p/cindy.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="1995" data-growth="-99999"
+         data-recent="2026-08-11" data-name="cindy">
         <div class="card-top">
           <h4>cindy</h4>
         </div>
@@ -126,7 +152,9 @@
       </a>
       <a class="card "
          href="p/open-kimi-ppt-skill.html"
-         data-category="基础层" data-stage="early" data-status="watching">
+         data-category="基础层" data-stage="early" data-status="watching"
+         data-weight="1603" data-growth="-99999"
+         data-recent="2026-08-11" data-name="open-kimi-ppt-skill">
         <div class="card-top">
           <h4>open-kimi-ppt-skill</h4>
         </div>
@@ -139,7 +167,9 @@
       </a>
       <a class="card "
          href="p/optmem.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="1228" data-growth="-99999"
+         data-recent="2026-08-11" data-name="OptMem">
         <div class="card-top">
           <h4>OptMem</h4>
         </div>
@@ -152,7 +182,9 @@
       </a>
       <a class="card "
          href="p/numbat.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="885" data-growth="-99999"
+         data-recent="2026-08-11" data-name="numbat">
         <div class="card-top">
           <h4>numbat</h4>
         </div>
@@ -165,7 +197,9 @@
       </a>
       <a class="card "
          href="p/human-review.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="706" data-growth="-99999"
+         data-recent="2026-08-11" data-name="human-review">
         <div class="card-top">
           <h4>human-review</h4>
         </div>
@@ -178,7 +212,9 @@
       </a>
       <a class="card "
          href="p/shuohao-skills.html"
-         data-category="AI + 创作" data-stage="early" data-status="analyzed">
+         data-category="AI + 创作" data-stage="early" data-status="analyzed"
+         data-weight="695" data-growth="-99999"
+         data-recent="2026-08-11" data-name="shuohao-skills">
         <div class="card-top">
           <h4>shuohao-skills</h4>
         </div>
@@ -191,7 +227,9 @@
       </a>
       <a class="card "
          href="p/pinvou-agent.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="607" data-growth="-99999"
+         data-recent="2026-08-11" data-name="pinvou-agent">
         <div class="card-top">
           <h4>pinvou-agent</h4>
         </div>
@@ -204,7 +242,9 @@
       </a>
       <a class="card "
          href="p/mcp-server.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="583" data-growth="-99999"
+         data-recent="2026-08-11" data-name="mcp-server">
         <div class="card-top">
           <h4>mcp-server</h4>
         </div>
@@ -217,7 +257,9 @@
       </a>
       <a class="card "
          href="p/longhorizon-harness.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="569" data-growth="-99999"
+         data-recent="2026-08-11" data-name="LongHorizon-Harness">
         <div class="card-top">
           <h4>LongHorizon-Harness</h4>
         </div>
@@ -230,7 +272,9 @@
       </a>
       <a class="card "
          href="p/open-ai-canvas.html"
-         data-category="AI + 创作" data-stage="early" data-status="analyzed">
+         data-category="AI + 创作" data-stage="early" data-status="analyzed"
+         data-weight="537" data-growth="-99999"
+         data-recent="2026-08-11" data-name="open-ai-canvas">
         <div class="card-top">
           <h4>open-ai-canvas</h4>
         </div>
@@ -243,7 +287,9 @@
       </a>
       <a class="card "
          href="p/trace-file-lineage.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="451" data-growth="-99999"
+         data-recent="2026-08-11" data-name="trace-file-lineage">
         <div class="card-top">
           <h4>trace-file-lineage</h4>
         </div>
@@ -256,7 +302,9 @@
       </a>
       <a class="card "
          href="p/context-ontology-accelerator.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="450" data-growth="-99999"
+         data-recent="2026-08-11" data-name="context-ontology-accelerator">
         <div class="card-top">
           <h4>context-ontology-accelerator</h4>
         </div>
@@ -269,7 +317,9 @@
       </a>
       <a class="card "
          href="p/marketing-team-eve-template.html"
-         data-category="AI + 商业" data-stage="early" data-status="pending_filter">
+         data-category="AI + 商业" data-stage="early" data-status="pending_filter"
+         data-weight="436" data-growth="-99999"
+         data-recent="2026-08-11" data-name="marketing-team-eve-template">
         <div class="card-top">
           <h4>marketing-team-eve-template</h4>
         </div>
@@ -282,7 +332,9 @@
       </a>
       <a class="card "
          href="p/hermesoffice.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="428" data-growth="-99999"
+         data-recent="2026-08-11" data-name="HermesOffice">
         <div class="card-top">
           <h4>HermesOffice</h4>
         </div>
@@ -295,7 +347,9 @@
       </a>
       <a class="card "
          href="p/deer-workflow.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="422" data-growth="-99999"
+         data-recent="2026-08-11" data-name="deer-workflow">
         <div class="card-top">
           <h4>deer-workflow</h4>
         </div>
@@ -308,7 +362,9 @@
       </a>
       <a class="card "
          href="p/graph-engineering.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="371" data-growth="-99999"
+         data-recent="2026-08-11" data-name="graph-engineering">
         <div class="card-top">
           <h4>graph-engineering</h4>
         </div>
@@ -321,7 +377,9 @@
       </a>
       <a class="card "
          href="p/needle2.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="357" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Needle2">
         <div class="card-top">
           <h4>Needle2</h4>
         </div>
@@ -334,7 +392,9 @@
       </a>
       <a class="card "
          href="p/jobhuntbot.html"
-         data-category="AI + 商业" data-stage="early" data-status="pending_filter">
+         data-category="AI + 商业" data-stage="early" data-status="pending_filter"
+         data-weight="330" data-growth="-99999"
+         data-recent="2026-08-11" data-name="JobHuntBot">
         <div class="card-top">
           <h4>JobHuntBot</h4>
         </div>
@@ -347,7 +407,9 @@
       </a>
       <a class="card "
          href="p/determinflow.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="321" data-growth="-99999"
+         data-recent="2026-08-11" data-name="DeterminFlow">
         <div class="card-top">
           <h4>DeterminFlow</h4>
         </div>
@@ -360,7 +422,9 @@
       </a>
       <a class="card "
          href="p/douyin-tiktok-story-skill-agent.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="233" data-growth="-99999"
+         data-recent="2026-08-11" data-name="douyin-tiktok-story-skill-agent">
         <div class="card-top">
           <h4>douyin-tiktok-story-skill-agent</h4>
         </div>
@@ -373,7 +437,9 @@
       </a>
       <a class="card "
          href="p/ai-agent-book.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="217" data-growth="-99999"
+         data-recent="2026-08-11" data-name="ai-agent-book">
         <div class="card-top">
           <h4>ai-agent-book</h4>
         </div>
@@ -386,7 +452,9 @@
       </a>
       <a class="card "
          href="p/axern.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="206" data-growth="-99999"
+         data-recent="2026-08-11" data-name="axern">
         <div class="card-top">
           <h4>axern</h4>
         </div>
@@ -399,7 +467,9 @@
       </a>
       <a class="card "
          href="p/everycube.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="204" data-growth="-99999"
+         data-recent="2026-08-11" data-name="everycube">
         <div class="card-top">
           <h4>everycube</h4>
         </div>
@@ -412,7 +482,9 @@
       </a>
       <a class="card "
          href="p/whodunnitai.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="203" data-growth="-99999"
+         data-recent="2026-08-11" data-name="whodunnitai">
         <div class="card-top">
           <h4>whodunnitai</h4>
         </div>
@@ -425,7 +497,9 @@
       </a>
       <a class="card "
          href="p/nuphus-mcp.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="196" data-growth="-99999"
+         data-recent="2026-08-11" data-name="nuphus-mcp">
         <div class="card-top">
           <h4>nuphus-mcp</h4>
         </div>
@@ -438,7 +512,9 @@
       </a>
       <a class="card "
          href="p/gendangzou-skill.html"
-         data-category="基础层" data-stage="early" data-status="watching">
+         data-category="基础层" data-stage="early" data-status="watching"
+         data-weight="184" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Gendangzou-skill">
         <div class="card-top">
           <h4>Gendangzou-skill</h4>
         </div>
@@ -451,7 +527,9 @@
       </a>
       <a class="card "
          href="p/gtm-cofounder.html"
-         data-category="AI + 商业" data-stage="early" data-status="analyzed">
+         data-category="AI + 商业" data-stage="early" data-status="analyzed"
+         data-weight="178" data-growth="-99999"
+         data-recent="2026-08-11" data-name="gtm-cofounder">
         <div class="card-top">
           <h4>gtm-cofounder</h4>
         </div>
@@ -464,7 +542,9 @@
       </a>
       <a class="card "
          href="p/kadath.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="175" data-growth="-99999"
+         data-recent="2026-08-11" data-name="KADATH">
         <div class="card-top">
           <h4>KADATH</h4>
         </div>
@@ -477,7 +557,9 @@
       </a>
       <a class="card "
          href="p/omnibase.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="167" data-growth="-99999"
+         data-recent="2026-08-11" data-name="omnibase">
         <div class="card-top">
           <h4>omnibase</h4>
         </div>
@@ -490,7 +572,9 @@
       </a>
       <a class="card "
          href="p/loomfeed.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="157" data-growth="-99999"
+         data-recent="2026-08-11" data-name="loomfeed">
         <div class="card-top">
           <h4>loomfeed</h4>
         </div>
@@ -503,7 +587,9 @@
       </a>
       <a class="card "
          href="p/debroid.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="155" data-growth="-99999"
+         data-recent="2026-08-11" data-name="debroid">
         <div class="card-top">
           <h4>debroid</h4>
         </div>
@@ -516,7 +602,9 @@
       </a>
       <a class="card "
          href="p/moonlit-stories.html"
-         data-category="AI + 创作" data-stage="early" data-status="watching">
+         data-category="AI + 创作" data-stage="early" data-status="watching"
+         data-weight="154" data-growth="-99999"
+         data-recent="2026-08-11" data-name="moonlit-stories">
         <div class="card-top">
           <h4>moonlit-stories</h4>
         </div>
@@ -529,7 +617,9 @@
       </a>
       <a class="card "
          href="p/anti-slop.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="144" data-growth="-99999"
+         data-recent="2026-08-11" data-name="anti-slop">
         <div class="card-top">
           <h4>anti-slop</h4>
         </div>
@@ -542,7 +632,9 @@
       </a>
       <a class="card "
          href="p/ante.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="135" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Ante">
         <div class="card-top">
           <h4>Ante</h4>
         </div>
@@ -555,7 +647,9 @@
       </a>
       <a class="card "
          href="p/minimax-h3-comfyui.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="107" data-growth="-99999"
+         data-recent="2026-08-11" data-name="MiniMax-H3-ComfyUI">
         <div class="card-top">
           <h4>MiniMax-H3-ComfyUI</h4>
         </div>
@@ -568,7 +662,9 @@
       </a>
       <a class="card "
          href="p/shennongmi.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="82" data-growth="-99999"
+         data-recent="2026-08-11" data-name="ShenNongMi">
         <div class="card-top">
           <h4>ShenNongMi</h4>
         </div>
@@ -581,7 +677,9 @@
       </a>
       <a class="card "
          href="p/approving.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="77" data-growth="-99999"
+         data-recent="2026-08-11" data-name="approving">
         <div class="card-top">
           <h4>approving</h4>
         </div>
@@ -594,7 +692,9 @@
       </a>
       <a class="card "
          href="p/stoaexchange.html"
-         data-category="基础层" data-stage="early" data-status="watching">
+         data-category="基础层" data-stage="early" data-status="watching"
+         data-weight="75" data-growth="-99999"
+         data-recent="2026-08-11" data-name="stoaexchange">
         <div class="card-top">
           <h4>stoaexchange</h4>
         </div>
@@ -607,7 +707,9 @@
       </a>
       <a class="card "
          href="p/goal-flow.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="72" data-growth="-99999"
+         data-recent="2026-08-11" data-name="goal-flow">
         <div class="card-top">
           <h4>goal-flow</h4>
         </div>
@@ -620,7 +722,9 @@
       </a>
       <a class="card "
          href="p/job-search-workflow.html"
-         data-category="AI + 商业" data-stage="early" data-status="pending_filter">
+         data-category="AI + 商业" data-stage="early" data-status="pending_filter"
+         data-weight="63" data-growth="-99999"
+         data-recent="2026-08-11" data-name="job-search-workflow">
         <div class="card-top">
           <h4>job-search-workflow</h4>
         </div>
@@ -633,7 +737,9 @@
       </a>
       <a class="card "
          href="p/awesome-llm-study.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="53" data-growth="-99999"
+         data-recent="2026-08-11" data-name="awesome-llm-study">
         <div class="card-top">
           <h4>awesome-llm-study</h4>
         </div>
@@ -646,7 +752,9 @@
       </a>
       <a class="card "
          href="p/mcptoon.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="50" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Mcptoon">
         <div class="card-top">
           <h4>Mcptoon</h4>
         </div>
@@ -659,7 +767,9 @@
       </a>
       <a class="card "
          href="p/applied-micro-skills.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="48" data-growth="-99999"
+         data-recent="2026-08-11" data-name="applied-micro-skills">
         <div class="card-top">
           <h4>applied-micro-skills</h4>
         </div>
@@ -672,7 +782,9 @@
       </a>
       <a class="card "
          href="p/prompt-architect.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="44" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Prompt-architect">
         <div class="card-top">
           <h4>Prompt-architect</h4>
         </div>
@@ -685,7 +797,9 @@
       </a>
       <a class="card "
          href="p/kition.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="43" data-growth="-99999"
+         data-recent="2026-08-11" data-name="kition">
         <div class="card-top">
           <h4>kition</h4>
         </div>
@@ -698,7 +812,9 @@
       </a>
       <a class="card "
          href="p/alphabet-soup.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="35" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Alphabet Soup">
         <div class="card-top">
           <h4>Alphabet Soup</h4>
         </div>
@@ -711,7 +827,9 @@
       </a>
       <a class="card "
          href="p/consciousnesslibrary.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="30" data-growth="-99999"
+         data-recent="2026-08-11" data-name="consciousnesslibrary">
         <div class="card-top">
           <h4>consciousnesslibrary</h4>
         </div>
@@ -724,7 +842,9 @@
       </a>
       <a class="card "
          href="p/kmcheung12.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="26" data-growth="-99999"
+         data-recent="2026-08-11" data-name="kmcheung12">
         <div class="card-top">
           <h4>kmcheung12</h4>
         </div>
@@ -737,7 +857,9 @@
       </a>
       <a class="card "
          href="p/ai-courtroom.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="19" data-growth="-99999"
+         data-recent="2026-08-11" data-name="ai_courtroom">
         <div class="card-top">
           <h4>ai_courtroom</h4>
         </div>
@@ -750,7 +872,9 @@
       </a>
       <a class="card "
          href="p/ai-pulse.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="15" data-growth="-99999"
+         data-recent="2026-08-11" data-name="ai-pulse">
         <div class="card-top">
           <h4>ai-pulse</h4>
         </div>
@@ -763,7 +887,9 @@
       </a>
       <a class="card "
          href="p/designshippers.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="13" data-growth="-99999"
+         data-recent="2026-08-11" data-name="designshippers">
         <div class="card-top">
           <h4>designshippers</h4>
         </div>
@@ -776,7 +902,9 @@
       </a>
       <a class="card "
          href="p/i-vibecoded-a-drone.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="13" data-growth="-99999"
+         data-recent="2026-08-11" data-name="i-vibecoded-a-drone">
         <div class="card-top">
           <h4>i-vibecoded-a-drone</h4>
         </div>
@@ -789,7 +917,9 @@
       </a>
       <a class="card "
          href="p/playground.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="13" data-growth="-99999"
+         data-recent="2026-08-11" data-name="playground">
         <div class="card-top">
           <h4>playground</h4>
         </div>
@@ -802,7 +932,9 @@
       </a>
       <a class="card "
          href="p/quillcode.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="13" data-growth="-99999"
+         data-recent="2026-08-11" data-name="QuillCode">
         <div class="card-top">
           <h4>QuillCode</h4>
         </div>
@@ -815,7 +947,9 @@
       </a>
       <a class="card "
          href="p/lumabri.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="8" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Lumabri">
         <div class="card-top">
           <h4>Lumabri</h4>
         </div>
@@ -828,7 +962,9 @@
       </a>
       <a class="card "
          href="p/neolabsfyi.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="8" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Neolabs.fyi">
         <div class="card-top">
           <h4>Neolabs.fyi</h4>
         </div>
@@ -841,7 +977,9 @@
       </a>
       <a class="card "
          href="p/stratopi.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="7" data-growth="-99999"
+         data-recent="2026-08-11" data-name="stratopi">
         <div class="card-top">
           <h4>stratopi</h4>
         </div>
@@ -854,7 +992,9 @@
       </a>
       <a class="card "
          href="p/juror.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="6" data-growth="-99999"
+         data-recent="2026-08-11" data-name="juror">
         <div class="card-top">
           <h4>juror</h4>
         </div>
@@ -867,7 +1007,9 @@
       </a>
       <a class="card "
          href="p/keen-code.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="6" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Keen Code">
         <div class="card-top">
           <h4>Keen Code</h4>
         </div>
@@ -880,7 +1022,9 @@
       </a>
       <a class="card "
          href="p/opencodex.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="6" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Opencodex">
         <div class="card-top">
           <h4>Opencodex</h4>
         </div>
@@ -893,7 +1037,9 @@
       </a>
       <a class="card "
          href="p/picpocket.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="6" data-growth="-99999"
+         data-recent="2026-08-11" data-name="PicPocket">
         <div class="card-top">
           <h4>PicPocket</h4>
         </div>
@@ -906,7 +1052,9 @@
       </a>
       <a class="card "
          href="p/graph2agent-mermaid-diagrams.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="5" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Graph2agent; Mermaid diagrams">
         <div class="card-top">
           <h4>Graph2agent; Mermaid diagrams</h4>
         </div>
@@ -919,7 +1067,9 @@
       </a>
       <a class="card "
          href="p/insidedb.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="5" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Insidedb">
         <div class="card-top">
           <h4>Insidedb</h4>
         </div>
@@ -932,7 +1082,9 @@
       </a>
       <a class="card "
          href="p/pacific-slate.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="5" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Pacific Slate">
         <div class="card-top">
           <h4>Pacific Slate</h4>
         </div>
@@ -945,7 +1097,9 @@
       </a>
       <a class="card "
          href="p/passmint.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="5" data-growth="-99999"
+         data-recent="2026-08-11" data-name="passmint">
         <div class="card-top">
           <h4>passmint</h4>
         </div>
@@ -958,7 +1112,9 @@
       </a>
       <a class="card "
          href="p/pyrig.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="5" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Pyrig">
         <div class="card-top">
           <h4>Pyrig</h4>
         </div>
@@ -971,7 +1127,9 @@
       </a>
       <a class="card "
          href="p/admitraven.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="AdmitRaven">
         <div class="card-top">
           <h4>AdmitRaven</h4>
         </div>
@@ -984,7 +1142,9 @@
       </a>
       <a class="card "
          href="p/agentone-desktop.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="AgentOne Desktop">
         <div class="card-top">
           <h4>AgentOne Desktop</h4>
         </div>
@@ -997,7 +1157,9 @@
       </a>
       <a class="card card-proven"
          href="p/agnes-ai.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="570.29"
+         data-recent="2026-08-11" data-name="Agnes AI">
         <div class="card-top">
           <h4>Agnes AI</h4>
           <span class="num up">+570%</span>
@@ -1011,7 +1173,9 @@
       </a>
       <a class="card "
          href="p/ai-group-call.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="AI Group Call">
         <div class="card-top">
           <h4>AI Group Call</h4>
         </div>
@@ -1024,7 +1188,9 @@
       </a>
       <a class="card card-proven"
          href="p/ai-video-generator-maker.html"
-         data-category="AI + 创作" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="19.4"
+         data-recent="2026-08-11" data-name="AI Video Generator + Maker">
         <div class="card-top">
           <h4>AI Video Generator + Maker</h4>
           <span class="num ">+19%</span>
@@ -1038,7 +1204,9 @@
       </a>
       <a class="card card-proven"
          href="p/ai-搜索-百度.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="13.76"
+         data-recent="2026-08-11" data-name="AI 搜索｜百度">
         <div class="card-top">
           <h4>AI 搜索｜百度</h4>
           <span class="num ">+14%</span>
@@ -1052,7 +1220,9 @@
       </a>
       <a class="card "
          href="p/andromeld.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="AndroMeld">
         <div class="card-top">
           <h4>AndroMeld</h4>
         </div>
@@ -1065,7 +1235,9 @@
       </a>
       <a class="card "
          href="p/argos.html"
-         data-category="AI + 效率" data-stage="early" data-status="watching">
+         data-category="AI + 效率" data-stage="early" data-status="watching"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Argos">
         <div class="card-top">
           <h4>Argos</h4>
         </div>
@@ -1078,7 +1250,9 @@
       </a>
       <a class="card "
          href="p/astrapixels.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="AstraPixels">
         <div class="card-top">
           <h4>AstraPixels</h4>
         </div>
@@ -1091,7 +1265,9 @@
       </a>
       <a class="card "
          href="p/bap-studio.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="BAP Studio">
         <div class="card-top">
           <h4>BAP Studio</h4>
         </div>
@@ -1104,7 +1280,9 @@
       </a>
       <a class="card "
          href="p/basedash-subscriptions.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Basedash Subscriptions">
         <div class="card-top">
           <h4>Basedash Subscriptions</h4>
         </div>
@@ -1117,7 +1295,9 @@
       </a>
       <a class="card "
          href="p/bb.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="bb">
         <div class="card-top">
           <h4>bb</h4>
         </div>
@@ -1130,7 +1310,9 @@
       </a>
       <a class="card card-proven"
          href="p/beemo-ai.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="23.62"
+         data-recent="2026-08-11" data-name="BEEMO AI">
         <div class="card-top">
           <h4>BEEMO AI</h4>
           <span class="num ">+24%</span>
@@ -1144,7 +1326,9 @@
       </a>
       <a class="card "
          href="p/bullet.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Bullet">
         <div class="card-top">
           <h4>Bullet</h4>
         </div>
@@ -1157,7 +1341,9 @@
       </a>
       <a class="card card-proven"
          href="p/claude-by-anthropic.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="10.79"
+         data-recent="2026-08-11" data-name="Claude by Anthropic">
         <div class="card-top">
           <h4>Claude by Anthropic</h4>
           <span class="num ">+11%</span>
@@ -1171,7 +1357,9 @@
       </a>
       <a class="card card-proven"
          href="p/codebuddy-tencetn.html"
-         data-category="AI + 开发" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="30.0"
+         data-recent="2026-08-11" data-name="CodeBuddy｜Tencetn">
         <div class="card-top">
           <h4>CodeBuddy｜Tencetn</h4>
           <span class="num ">+30%</span>
@@ -1185,7 +1373,9 @@
       </a>
       <a class="card "
          href="p/continuum.html"
-         data-category="AI + 商业" data-stage="early" data-status="pending_filter">
+         data-category="AI + 商业" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Continuum">
         <div class="card-top">
           <h4>Continuum</h4>
         </div>
@@ -1198,7 +1388,9 @@
       </a>
       <a class="card card-proven"
          href="p/deepseek-ai-智能助手.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-1.5"
+         data-recent="2026-08-11" data-name="DeepSeek - AI 智能助手">
         <div class="card-top">
           <h4>DeepSeek - AI 智能助手</h4>
           <span class="num ">-2%</span>
@@ -1212,7 +1404,9 @@
       </a>
       <a class="card card-proven"
          href="p/deepseek.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-10.59"
+         data-recent="2026-08-11" data-name="DeepSeek">
         <div class="card-top">
           <h4>DeepSeek</h4>
           <span class="num ">-11%</span>
@@ -1226,7 +1420,9 @@
       </a>
       <a class="card card-proven"
          href="p/devin.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="80.1"
+         data-recent="2026-08-11" data-name="Devin">
         <div class="card-top">
           <h4>Devin</h4>
           <span class="num ">+80%</span>
@@ -1240,7 +1436,9 @@
       </a>
       <a class="card "
          href="p/docsalot-cli.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="DocsAlot CLI">
         <div class="card-top">
           <h4>DocsAlot CLI</h4>
         </div>
@@ -1253,7 +1451,9 @@
       </a>
       <a class="card "
          href="p/duckdisk.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="DuckDisk">
         <div class="card-top">
           <h4>DuckDisk</h4>
         </div>
@@ -1266,7 +1466,9 @@
       </a>
       <a class="card "
          href="p/gitar.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Gitar">
         <div class="card-top">
           <h4>Gitar</h4>
         </div>
@@ -1279,7 +1481,9 @@
       </a>
       <a class="card "
          href="p/good-assistant-2.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Good Assistant 2">
         <div class="card-top">
           <h4>Good Assistant 2</h4>
         </div>
@@ -1292,7 +1496,9 @@
       </a>
       <a class="card "
          href="p/gotcha.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Gotcha">
         <div class="card-top">
           <h4>Gotcha</h4>
         </div>
@@ -1305,7 +1511,9 @@
       </a>
       <a class="card "
          href="p/grok-imagine-20.html"
-         data-category="AI + 创作" data-stage="early" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Grok Imagine 2.0">
         <div class="card-top">
           <h4>Grok Imagine 2.0</h4>
         </div>
@@ -1318,7 +1526,9 @@
       </a>
       <a class="card "
          href="p/gutta.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Gutta">
         <div class="card-top">
           <h4>Gutta</h4>
         </div>
@@ -1331,7 +1541,9 @@
       </a>
       <a class="card "
          href="p/har.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="HAR">
         <div class="card-top">
           <h4>HAR</h4>
         </div>
@@ -1344,7 +1556,9 @@
       </a>
       <a class="card card-proven"
          href="p/hyper3d.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="134.62"
+         data-recent="2026-08-11" data-name="Hyper3D">
         <div class="card-top">
           <h4>Hyper3D</h4>
           <span class="num up">+135%</span>
@@ -1358,7 +1572,9 @@
       </a>
       <a class="card card-proven"
          href="p/kimi-月之暗面.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-12.83"
+         data-recent="2026-08-11" data-name="Kimi｜月之暗面">
         <div class="card-top">
           <h4>Kimi｜月之暗面</h4>
           <span class="num ">-13%</span>
@@ -1372,7 +1588,9 @@
       </a>
       <a class="card card-proven"
          href="p/kimi.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-12.4"
+         data-recent="2026-08-11" data-name="Kimi">
         <div class="card-top">
           <h4>Kimi</h4>
           <span class="num ">-12%</span>
@@ -1386,7 +1604,9 @@
       </a>
       <a class="card card-proven"
          href="p/languagereactor.html"
-         data-category="AI + 生活" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="54.1"
+         data-recent="2026-08-11" data-name="languagereactor">
         <div class="card-top">
           <h4>languagereactor</h4>
           <span class="num ">+54%</span>
@@ -1400,7 +1620,9 @@
       </a>
       <a class="card "
          href="p/lexi.html"
-         data-category="AI + 商业" data-stage="early" data-status="pending_filter">
+         data-category="AI + 商业" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Lexi">
         <div class="card-top">
           <h4>Lexi</h4>
         </div>
@@ -1413,7 +1635,9 @@
       </a>
       <a class="card card-proven"
          href="p/lovekey键盘-恋爱聊天键盘ampai智能聊天回复神器.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-1.09"
+         data-recent="2026-08-11" data-name="Lovekey键盘-恋爱聊天键盘&amp;amp;AI智能聊天回复神器">
         <div class="card-top">
           <h4>Lovekey键盘-恋爱聊天键盘&amp;amp;AI智能聊天回复神器</h4>
           <span class="num ">-1%</span>
@@ -1427,7 +1651,9 @@
       </a>
       <a class="card card-proven"
          href="p/maxaime.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="13311.51"
+         data-recent="2026-08-11" data-name="MaxAI.me">
         <div class="card-top">
           <h4>MaxAI.me</h4>
           <span class="num up">+13312%</span>
@@ -1441,7 +1667,9 @@
       </a>
       <a class="card "
          href="p/merge.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Merge">
         <div class="card-top">
           <h4>Merge</h4>
         </div>
@@ -1454,7 +1682,9 @@
       </a>
       <a class="card card-proven"
          href="p/minimax-通用ai-agent.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-1.33"
+         data-recent="2026-08-11" data-name="MiniMax - 通用AI Agent">
         <div class="card-top">
           <h4>MiniMax - 通用AI Agent</h4>
           <span class="num ">-1%</span>
@@ -1468,7 +1698,9 @@
       </a>
       <a class="card card-proven"
          href="p/moescape.html"
-         data-category="AI + 生活" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="31.21"
+         data-recent="2026-08-11" data-name="moescape">
         <div class="card-top">
           <h4>moescape</h4>
           <span class="num ">+31%</span>
@@ -1482,7 +1714,9 @@
       </a>
       <a class="card card-proven"
          href="p/owlywriter-ai-by-hootsuite.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="49.37"
+         data-recent="2026-08-11" data-name="OwlyWriter AI by Hootsuite">
         <div class="card-top">
           <h4>OwlyWriter AI by Hootsuite</h4>
           <span class="num ">+49%</span>
@@ -1496,7 +1730,9 @@
       </a>
       <a class="card "
          href="p/prime-agent.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Prime Agent">
         <div class="card-top">
           <h4>Prime Agent</h4>
         </div>
@@ -1509,7 +1745,9 @@
       </a>
       <a class="card "
          href="p/progress-ai-observability.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Progress AI Observability">
         <div class="card-top">
           <h4>Progress AI Observability</h4>
         </div>
@@ -1522,7 +1760,9 @@
       </a>
       <a class="card card-proven"
          href="p/qoder-阿里.html"
-         data-category="AI + 开发" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="15.33"
+         data-recent="2026-08-11" data-name="Qoder-阿里">
         <div class="card-top">
           <h4>Qoder-阿里</h4>
           <span class="num ">+15%</span>
@@ -1536,7 +1776,9 @@
       </a>
       <a class="card card-proven"
          href="p/qwenai-阿里.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-2.85"
+         data-recent="2026-08-11" data-name="Qwen.ai｜阿里">
         <div class="card-top">
           <h4>Qwen.ai｜阿里</h4>
           <span class="num ">-3%</span>
@@ -1550,7 +1792,9 @@
       </a>
       <a class="card "
          href="p/radiushq.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="radiusHQ">
         <div class="card-top">
           <h4>radiusHQ</h4>
         </div>
@@ -1563,7 +1807,9 @@
       </a>
       <a class="card "
          href="p/reference.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Reference">
         <div class="card-top">
           <h4>Reference</h4>
         </div>
@@ -1576,7 +1822,9 @@
       </a>
       <a class="card "
          href="p/remix.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Remix">
         <div class="card-top">
           <h4>Remix</h4>
         </div>
@@ -1589,7 +1837,9 @@
       </a>
       <a class="card "
          href="p/rescript-for-desktop.html"
-         data-category="AI + 创作" data-stage="early" data-status="watching">
+         data-category="AI + 创作" data-stage="early" data-status="watching"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Rescript for Desktop">
         <div class="card-top">
           <h4>Rescript for Desktop</h4>
         </div>
@@ -1602,7 +1852,9 @@
       </a>
       <a class="card card-proven"
          href="p/rythmix-ai-music-generator.html"
-         data-category="AI + 创作" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="11.7"
+         data-recent="2026-08-11" data-name="Rythmix - AI Music Generator">
         <div class="card-top">
           <h4>Rythmix - AI Music Generator</h4>
           <span class="num ">+12%</span>
@@ -1616,7 +1868,9 @@
       </a>
       <a class="card "
          href="p/screenmark.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="ScreenMark">
         <div class="card-top">
           <h4>ScreenMark</h4>
         </div>
@@ -1629,7 +1883,9 @@
       </a>
       <a class="card "
          href="p/secondbrain-note-by-genspark.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="SecondBrain Note by GenSpark">
         <div class="card-top">
           <h4>SecondBrain Note by GenSpark</h4>
         </div>
@@ -1642,7 +1898,9 @@
       </a>
       <a class="card card-proven"
          href="p/seekee-safeampfast-browser.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="10.99"
+         data-recent="2026-08-11" data-name="Seekee - Safe&amp;amp;Fast Browser">
         <div class="card-top">
           <h4>Seekee - Safe&amp;amp;Fast Browser</h4>
           <span class="num ">+11%</span>
@@ -1656,7 +1914,9 @@
       </a>
       <a class="card "
          href="p/soloop.html"
-         data-category="AI + 效率" data-stage="early" data-status="watching">
+         data-category="AI + 效率" data-stage="early" data-status="watching"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Soloop">
         <div class="card-top">
           <h4>Soloop</h4>
         </div>
@@ -1669,7 +1929,9 @@
       </a>
       <a class="card card-proven"
          href="p/sosiee-ai换脸与ai头像.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="11.84"
+         data-recent="2026-08-11" data-name="Sosiee: AI换脸与AI头像">
         <div class="card-top">
           <h4>Sosiee: AI换脸与AI头像</h4>
           <span class="num ">+12%</span>
@@ -1683,7 +1945,9 @@
       </a>
       <a class="card "
          href="p/soup-cli.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Soup CLI">
         <div class="card-top">
           <h4>Soup CLI</h4>
         </div>
@@ -1696,7 +1960,9 @@
       </a>
       <a class="card "
          href="p/stepshot.html"
-         data-category="AI + 效率" data-stage="early" data-status="watching">
+         data-category="AI + 效率" data-stage="early" data-status="watching"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="StepShot">
         <div class="card-top">
           <h4>StepShot</h4>
         </div>
@@ -1709,7 +1975,9 @@
       </a>
       <a class="card "
          href="p/switchy-for-mac.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Switchy for Mac">
         <div class="card-top">
           <h4>Switchy for Mac</h4>
         </div>
@@ -1722,7 +1990,9 @@
       </a>
       <a class="card card-proven"
          href="p/talkie-personalized-ai-chats.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="12.59"
+         data-recent="2026-08-11" data-name="Talkie: Personalized AI Chats">
         <div class="card-top">
           <h4>Talkie: Personalized AI Chats</h4>
           <span class="num ">+13%</span>
@@ -1736,7 +2006,9 @@
       </a>
       <a class="card "
          href="p/the-new-firecrawl-mcp.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="The new Firecrawl MCP">
         <div class="card-top">
           <h4>The new Firecrawl MCP</h4>
         </div>
@@ -1749,7 +2021,9 @@
       </a>
       <a class="card "
          href="p/tines-3b.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Tines 3B">
         <div class="card-top">
           <h4>Tines 3B</h4>
         </div>
@@ -1762,7 +2036,9 @@
       </a>
       <a class="card "
          href="p/toolport.html"
-         data-category="基础层" data-stage="early" data-status="pending_filter">
+         data-category="基础层" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Toolport">
         <div class="card-top">
           <h4>Toolport</h4>
         </div>
@@ -1775,7 +2051,9 @@
       </a>
       <a class="card "
          href="p/troopr-ai-scrum-master.html"
-         data-category="AI + 效率" data-stage="early" data-status="watching">
+         data-category="AI + 效率" data-stage="early" data-status="watching"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Troopr AI Scrum Master">
         <div class="card-top">
           <h4>Troopr AI Scrum Master</h4>
         </div>
@@ -1788,7 +2066,9 @@
       </a>
       <a class="card "
          href="p/vidaya.html"
-         data-category="AI + 生活" data-stage="early" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Vidaya">
         <div class="card-top">
           <h4>Vidaya</h4>
         </div>
@@ -1801,7 +2081,10 @@
       </a>
       <a class="card card-proven"
          href="p/vivagoai-从灵感到大片每个人都能用的-ai-导演.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="17.1"
+         data-recent="2026-08-11" data-name="vivago.ai
+从灵感到大片，每个人都能用的 AI 导演">
         <div class="card-top">
           <h4>vivago.ai
 从灵感到大片，每个人都能用的 AI 导演</h4>
@@ -1816,7 +2099,9 @@
       </a>
       <a class="card "
          href="p/voicegecko.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="VoiceGecko">
         <div class="card-top">
           <h4>VoiceGecko</h4>
         </div>
@@ -1829,7 +2114,9 @@
       </a>
       <a class="card "
          href="p/voiceos-app-store.html"
-         data-category="AI + 商业" data-stage="early" data-status="pending_filter">
+         data-category="AI + 商业" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="VoiceOS App Store">
         <div class="card-top">
           <h4>VoiceOS App Store</h4>
         </div>
@@ -1842,7 +2129,9 @@
       </a>
       <a class="card "
          href="p/whop-cli.html"
-         data-category="AI + 开发" data-stage="early" data-status="pending_filter">
+         data-category="AI + 开发" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Whop CLI">
         <div class="card-top">
           <h4>Whop CLI</h4>
         </div>
@@ -1855,7 +2144,9 @@
       </a>
       <a class="card "
          href="p/workflo.html"
-         data-category="AI + 效率" data-stage="early" data-status="watching">
+         data-category="AI + 效率" data-stage="early" data-status="watching"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Workflo">
         <div class="card-top">
           <h4>Workflo</h4>
         </div>
@@ -1868,7 +2159,9 @@
       </a>
       <a class="card "
          href="p/xirp.html"
-         data-category="AI + 效率" data-stage="early" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="early" data-status="pending_filter"
+         data-weight="0" data-growth="-99999"
+         data-recent="2026-08-11" data-name="Xirp">
         <div class="card-top">
           <h4>Xirp</h4>
         </div>
@@ -1881,7 +2174,9 @@
       </a>
       <a class="card card-proven"
          href="p/zai.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="24.56"
+         data-recent="2026-08-11" data-name="Z.ai">
         <div class="card-top">
           <h4>Z.ai</h4>
           <span class="num ">+25%</span>
@@ -1895,7 +2190,9 @@
       </a>
       <a class="card card-proven"
          href="p/千问-qianwencom-阿里.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="0.56"
+         data-recent="2026-08-11" data-name="千问 qianwen.com｜阿里">
         <div class="card-top">
           <h4>千问 qianwen.com｜阿里</h4>
           <span class="num ">+1%</span>
@@ -1909,7 +2206,9 @@
       </a>
       <a class="card card-proven"
          href="p/千问-阿里最强模型官方ai助手.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="7.46"
+         data-recent="2026-08-11" data-name="千问 - 阿里最强模型官方AI助手">
         <div class="card-top">
           <h4>千问 - 阿里最强模型官方AI助手</h4>
           <span class="num ">+7%</span>
@@ -1923,7 +2222,9 @@
       </a>
       <a class="card card-proven"
          href="p/即梦ai-抖音旗下ai图片和视频工具.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-3.33"
+         data-recent="2026-08-11" data-name="即梦AI - 抖音旗下AI图片和视频工具">
         <div class="card-top">
           <h4>即梦AI - 抖音旗下AI图片和视频工具</h4>
           <span class="num ">-3%</span>
@@ -1937,7 +2238,9 @@
       </a>
       <a class="card card-proven"
          href="p/可灵ai-ai图片amp视频创作工具.html"
-         data-category="AI + 创作" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 创作" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-1.69"
+         data-recent="2026-08-11" data-name="可灵AI - AI图片&amp;amp;视频创作工具">
         <div class="card-top">
           <h4>可灵AI - AI图片&amp;amp;视频创作工具</h4>
           <span class="num ">-2%</span>
@@ -1951,7 +2254,9 @@
       </a>
       <a class="card card-proven"
          href="p/商汤小浣熊.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="3479.98"
+         data-recent="2026-08-11" data-name="商汤小浣熊">
         <div class="card-top">
           <h4>商汤小浣熊</h4>
           <span class="num up">+3480%</span>
@@ -1965,7 +2270,9 @@
       </a>
       <a class="card card-proven"
          href="p/夸克-阿里ai旗舰应用.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-1.78"
+         data-recent="2026-08-11" data-name="夸克-阿里AI旗舰应用">
         <div class="card-top">
           <h4>夸克-阿里AI旗舰应用</h4>
           <span class="num ">-2%</span>
@@ -1979,7 +2286,9 @@
       </a>
       <a class="card card-proven"
          href="p/智谱清言.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="6.66"
+         data-recent="2026-08-11" data-name="智谱清言">
         <div class="card-top">
           <h4>智谱清言</h4>
           <span class="num ">+7%</span>
@@ -1993,7 +2302,9 @@
       </a>
       <a class="card card-proven"
          href="p/沉浸式翻译.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="0.52"
+         data-recent="2026-08-11" data-name="沉浸式翻译">
         <div class="card-top">
           <h4>沉浸式翻译</h4>
           <span class="num ">+1%</span>
@@ -2007,7 +2318,9 @@
       </a>
       <a class="card card-proven"
          href="p/猫箱-和心动-ai-探索剧情宇宙.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-0.3"
+         data-recent="2026-08-11" data-name="猫箱 - 和心动 AI 探索剧情宇宙">
         <div class="card-top">
           <h4>猫箱 - 和心动 AI 探索剧情宇宙</h4>
           <span class="num ">-0%</span>
@@ -2021,7 +2334,9 @@
       </a>
       <a class="card card-proven"
          href="p/百度文库.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="4.83"
+         data-recent="2026-08-11" data-name="百度文库">
         <div class="card-top">
           <h4>百度文库</h4>
           <span class="num ">+5%</span>
@@ -2035,7 +2350,9 @@
       </a>
       <a class="card card-proven"
          href="p/百度网盘.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-1.35"
+         data-recent="2026-08-11" data-name="百度网盘">
         <div class="card-top">
           <h4>百度网盘</h4>
           <span class="num ">-1%</span>
@@ -2049,7 +2366,9 @@
       </a>
       <a class="card card-proven"
          href="p/秘塔ai搜索.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-0.31"
+         data-recent="2026-08-11" data-name="秘塔AI搜索">
         <div class="card-top">
           <h4>秘塔AI搜索</h4>
           <span class="num ">-0%</span>
@@ -2063,7 +2382,9 @@
       </a>
       <a class="card card-proven"
          href="p/纳米ai-首创多智能体蜂群.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-4.46"
+         data-recent="2026-08-11" data-name="纳米AI - 首创多智能体蜂群">
         <div class="card-top">
           <h4>纳米AI - 首创多智能体蜂群</h4>
           <span class="num ">-4%</span>
@@ -2077,7 +2398,9 @@
       </a>
       <a class="card card-proven"
          href="p/纳米ai.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-2.62"
+         data-recent="2026-08-11" data-name="纳米AI">
         <div class="card-top">
           <h4>纳米AI</h4>
           <span class="num ">-3%</span>
@@ -2091,7 +2414,9 @@
       </a>
       <a class="card card-proven"
          href="p/纳米ai搜索.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-8.84"
+         data-recent="2026-08-11" data-name="纳米AI搜索">
         <div class="card-top">
           <h4>纳米AI搜索</h4>
           <span class="num ">-9%</span>
@@ -2105,7 +2430,9 @@
       </a>
       <a class="card card-proven"
          href="p/聊天-ai-seek-聊天机器人助手.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="12.8"
+         data-recent="2026-08-11" data-name="聊天 AI Seek 聊天机器人助手">
         <div class="card-top">
           <h4>聊天 AI Seek 聊天机器人助手</h4>
           <span class="num ">+13%</span>
@@ -2119,7 +2446,9 @@
       </a>
       <a class="card card-proven"
          href="p/腾讯元宝-deepseek智能新体验.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-7.05"
+         data-recent="2026-08-11" data-name="腾讯元宝-「DeepSeek+」智能新体验">
         <div class="card-top">
           <h4>腾讯元宝-「DeepSeek+」智能新体验</h4>
           <span class="num ">-7%</span>
@@ -2133,7 +2462,9 @@
       </a>
       <a class="card card-proven"
          href="p/腾讯元宝.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-19.38"
+         data-recent="2026-08-11" data-name="腾讯元宝">
         <div class="card-top">
           <h4>腾讯元宝</h4>
           <span class="num ">-19%</span>
@@ -2147,7 +2478,9 @@
       </a>
       <a class="card card-proven"
          href="p/豆包-字节跳动旗下-ai-助手.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-1.71"
+         data-recent="2026-08-11" data-name="豆包 - 字节跳动旗下 AI 助手">
         <div class="card-top">
           <h4>豆包 - 字节跳动旗下 AI 助手</h4>
           <span class="num ">-2%</span>
@@ -2161,7 +2494,9 @@
       </a>
       <a class="card card-proven"
          href="p/豆包-抖音.html"
-         data-category="通用助手" data-stage="proven" data-status="pending_filter">
+         data-category="通用助手" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-6.58"
+         data-recent="2026-08-11" data-name="豆包｜抖音">
         <div class="card-top">
           <h4>豆包｜抖音</h4>
           <span class="num ">-7%</span>
@@ -2175,7 +2510,9 @@
       </a>
       <a class="card card-proven"
          href="p/豆包爱学-豆包旗下ai教育产品.html"
-         data-category="AI + 生活" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 生活" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="-0.62"
+         data-recent="2026-08-11" data-name="豆包爱学-豆包旗下AI教育产品">
         <div class="card-top">
           <h4>豆包爱学-豆包旗下AI教育产品</h4>
           <span class="num ">-1%</span>
@@ -2189,7 +2526,9 @@
       </a>
       <a class="card card-proven"
          href="p/제타zeta-다양한-ai-캐릭터와-나만의-스토리.html"
-         data-category="AI + 效率" data-stage="proven" data-status="pending_filter">
+         data-category="AI + 效率" data-stage="proven" data-status="pending_filter"
+         data-weight="0" data-growth="15.28"
+         data-recent="2026-08-11" data-name="제타(zeta) - 다양한 AI 캐릭터와 나만의 스토리">
         <div class="card-top">
           <h4>제타(zeta) - 다양한 AI 캐릭터와 나만의 스토리</h4>
           <span class="num ">+15%</span>
@@ -2203,19 +2542,42 @@
       </a>
     </div>
 
-    <p class="empty" id="empty" hidden>这个组合下没有产品。换个方向或阶段试试。</p>
+    <p class="empty" id="empty" hidden>
+      这个组合下没有产品。<br>
+      <button class="linkish" id="reset">清掉筛选，看全部 160 个</button>
+    </p>
   </section>
 
 </div>
 
 <script>
   (function () {
-    var cards = Array.prototype.slice.call(document.querySelectorAll('#grid .card'));
+    var grid = document.getElementById('grid');
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
     var empty = document.getElementById('empty');
     var count = document.getElementById('count');
+    var title = document.getElementById('ctx-title');
+    var note = document.getElementById('ctx-note');
     var active = { category: '', stage: '', status: '' };
+    var sort = 'weight';
 
-    function apply() {
+    var STAGE_TEXT = {
+      early: '还没有数据可验证，判断只能靠推理需求真伪。',
+      proven: '已经跑出规模，判断看流量和环比，不看介绍。'
+    };
+    var DEFAULT_NOTE = note.textContent;
+
+    function label() {
+      var parts = [];
+      if (active.category) parts.push(active.category);
+      if (active.stage === 'early') parts.push('刚冒头');
+      if (active.stage === 'proven') parts.push('已验证');
+      if (active.status === 'analyzed') parts.push('已分析');
+      if (active.status === 'watching') parts.push('观察中');
+      return parts.join(' · ');
+    }
+
+    function apply(animate) {
       var shown = 0;
       cards.forEach(function (card) {
         var ok =
@@ -2225,25 +2587,78 @@
         card.hidden = !ok;
         if (ok) shown++;
       });
+
       count.textContent = shown;
       empty.hidden = shown > 0;
+
+      var l = label();
+      title.textContent = l || '全部产品';
+      note.textContent = STAGE_TEXT[active.stage] || DEFAULT_NOTE;
+
+      if (animate) {
+        grid.classList.remove('settling');
+        void grid.offsetWidth;   // 强制重排，让动画能重放
+        grid.classList.add('settling');
+      }
+    }
+
+    function reorder() {
+      var visible = cards.slice();
+      visible.sort(function (a, b) {
+        if (sort === 'name') return a.dataset.name.localeCompare(b.dataset.name, 'zh');
+        if (sort === 'recent') return b.dataset.recent.localeCompare(a.dataset.recent);
+        var key = sort === 'growth' ? 'growth' : 'weight';
+        return parseFloat(b.dataset[key]) - parseFloat(a.dataset[key]);
+      });
+      visible.forEach(function (c) { grid.appendChild(c); });
     }
 
     document.querySelectorAll('.filters').forEach(function (group) {
       group.addEventListener('click', function (e) {
         var btn = e.target.closest('button');
         if (!btn) return;
-        group.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
+        group.querySelectorAll('button').forEach(function (b) {
+          b.classList.remove('on');
+          b.setAttribute('aria-pressed', 'false');
+        });
         btn.classList.add('on');
-        active[group.dataset.dim] = btn.dataset.val;
-        apply();
+        btn.setAttribute('aria-pressed', 'true');
+
+        if (group.dataset.dim === 'sort') {
+          sort = btn.dataset.val;
+          reorder();
+          apply(true);
+        } else {
+          active[group.dataset.dim] = btn.dataset.val;
+          apply(true);
+          syncHash();
+        }
       });
     });
 
-    // 首页的赛道入口用 #方向名 跳过来，进来就自动筛好
+    document.getElementById('reset').addEventListener('click', function () {
+      active = { category: '', stage: '', status: '' };
+      document.querySelectorAll('.filters').forEach(function (g) {
+        if (g.dataset.dim === 'sort') return;
+        g.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
+        g.querySelector('button').classList.add('on');
+      });
+      apply(true);
+      syncHash();
+    });
+
+    // 筛选状态写进 URL：可分享、可后退、刷新不丢
+    function syncHash() {
+      var want = active.category ? '#' + encodeURIComponent(active.category) : ' ';
+      if (want.trim()) {
+        history.replaceState(null, '', want);
+      } else if (location.hash) {
+        history.replaceState(null, '', location.pathname);
+      }
+    }
+
     function fromHash() {
       var want = decodeURIComponent((location.hash || '').replace('#', ''));
-      if (!want) return;
       var group = document.querySelector('.filters[data-dim="category"]');
       var btn = Array.prototype.slice.call(group.querySelectorAll('button'))
         .filter(function (b) { return b.dataset.val === want; })[0];
@@ -2251,24 +2666,43 @@
       group.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
       btn.classList.add('on');
       active.category = want;
-      apply();
+      apply(false);
     }
 
     fromHash();
     window.addEventListener('hashchange', fromHash);
   })();
 </script>
+</main>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">↑</button>
 
 <div class="wrap">
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>160 个产品 · 3 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 09:42</span>
+    <span class="gen">更新于 2026-08-11 10:06</span>
   </footer>
 </div>
 
 <script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
   document.getElementById('theme-btn').addEventListener('click', function () {
     var el = document.documentElement;
     var now = el.getAttribute('data-theme');

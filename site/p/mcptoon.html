@@ -15,6 +15,8 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">跳到主要内容</a>
+
 <div class="top">
   <div class="top-inner">
     <a class="brand" href="../index.html">x<span>·</span>octo</a>
@@ -27,6 +29,7 @@
   </div>
 </div>
 
+<main id="main">
 <div class="wrap">
 
   <div class="detail-head">
@@ -57,25 +60,125 @@
 
 
   <section class="band">
-    <p class="empty">
-      还没做深度分析。<br>
-      在 Claude Code 里说「分析 mcptoon」，会按 config/template.md 的模板生成。
-    </p>
+    <div class="noanalysis">
+      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
+      <p class="noanalysis-sub">
+        上面那句灵感是目前能给的全部判断。
+        它还太早，没有可验证的数据，再多写就是编。
+      </p>
+    </div>
   </section>
 
 
+  <nav class="onward" aria-label="继续浏览">
+    <div class="sec-head">
+      <h2>同方向的其他</h2>
+      <a class="note onward-all" href="../products.html#AI + 开发">
+        AI + 开发 共 18 个 →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../p/human-review.html">
+          <div class="row-head">
+            <span class="row-name">human-review</span>
+            <span class="row-desc">像批注 Google 文档一样直接改 HTML 和 Markdown</span>
+            <span class="row-tail">
+<span class="tag sig">开源关注 706</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/longhorizon-harness.html">
+          <div class="row-head">
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 AI agent 跨桌面应用长时间连续操作的执行框架</span>
+            <span class="row-tail">
+<span class="tag sig">开源关注 569</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/ante.html">
+          <div class="row-head">
+            <span class="row-name">Ante</span>
+            <span class="row-desc">单个二进制文件的编程 agent，断网也能跑</span>
+            <span class="row-tail">
+<span class="tag sig">社区热度 135</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/applied-micro-skills.html">
+          <div class="row-head">
+            <span class="row-name">applied-micro-skills</span>
+            <span class="row-desc">给实证经济学研究用的 Claude Code / Codex 技能包</span>
+            <span class="row-tail">
+<span class="tag sig">开源关注 48</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/awesome-llm-study.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">awesome-llm-study</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/applied-micro-skills.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">applied-micro-skills</span>
+      </a>
+    </div>
+  </nav>
+
 </div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">↑</button>
 
 <div class="wrap">
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>160 个产品 · 3 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 09:42</span>
+    <span class="gen">更新于 2026-08-11 10:06</span>
   </footer>
 </div>
 
 <script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
   document.getElementById('theme-btn').addEventListener('click', function () {
     var el = document.documentElement;
     var now = el.getAttribute('data-theme');
