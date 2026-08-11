@@ -16,3 +16,8 @@ data/pool.bak-*/
 #   data/analysis/   深度分析
 #   data/reports/    每日观察
 #   site/            生成好的静态站（部署用，也方便直接在 GitHub 上看）
+# 项目记忆/会话数据，不进版本库
+.workbuddy/
+
+# 24MB 中文字体源文件，子集化原料；产物 site/fonts/ 已入库
+templates/fonts/NotoSerifCJKsc-Regular.otf

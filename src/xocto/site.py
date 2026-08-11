@@ -418,18 +418,18 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
     (out_dir / "r").mkdir(exist_ok=True)
 
     pages = 0
+    rendered: list[str] = []  # 留给字体子集化抓标题字符
 
     # root 是页面到站点根的相对路径。顶层页面为空，子目录页面要回退一级 ——
     # 这样整站可以直接双击打开，不需要起服务器。
-    (out_dir / "index.html").write_text(
-        env.get_template("index.html").render(**ctx, page="home", root=""), encoding="utf-8"
-    )
+    html = env.get_template("index.html").render(**ctx, page="home", root="")
+    (out_dir / "index.html").write_text(html, encoding="utf-8")
+    rendered.append(html)
     pages += 1
 
-    (out_dir / "products.html").write_text(
-        env.get_template("products.html").render(**ctx, page="products", root=""),
-        encoding="utf-8",
-    )
+    html = env.get_template("products.html").render(**ctx, page="products", root="")
+    (out_dir / "products.html").write_text(html, encoding="utf-8")
+    rendered.append(html)
     pages += 1
 
     detail = env.get_template("product.html")
@@ -439,17 +439,22 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
             **ctx, page="products", root="../", product=view, analysis=by_slug.get(view["slug"])
         )
         (out_dir / "p" / f"{view['slug']}.html").write_text(html, encoding="utf-8")
+        rendered.append(html)
         pages += 1
 
     report_tpl = env.get_template("report.html")
     for report in ctx["reports"]:
         html = report_tpl.render(**ctx, page="reports", root="../", report=report)
         (out_dir / "r" / f"{report.day}.html").write_text(html, encoding="utf-8")
+        rendered.append(html)
         pages += 1
 
     css_src = templates_dir / "style.css"
     if css_src.exists():
         shutil.copy2(css_src, out_dir / "style.css")
 
+    from .fonts import build_fonts
+
+    print(f"  字体：{build_fonts(templates_dir, out_dir, rendered)}")
     print(f"  生成 {pages} 个页面 → {out_dir}")
     return out_dir
