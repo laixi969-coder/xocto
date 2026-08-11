@@ -1,0 +1,14 @@
+# Vercel 只需要 site/ 目录 —— 那里面是已经生成好的 HTML。
+# 其余全部排除：既减小上传体积，也避免 Vercel 看到 pyproject.toml
+# 就以为这是个 Python 后端项目、跑去找 Flask 入口点。
+
+pyproject.toml
+uv.lock
+src/
+templates/
+config/
+data/
+scripts/
+.venv/
+.claude/
+*.md

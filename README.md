@@ -119,10 +119,34 @@ data/reports/2026-08-11.md   每日简报 ← 你主要看这个
 **没有服务器、没有数据库、没有月费。** 双击 `index.html` 就能看，
 也可以整个 `site/` 目录丢到任何托管上。支持明暗两套配色，手机上也能看。
 
-**要上线的话有两个选择：**
+### 部署到 Vercel
 
-- **Vercel** —— 免费，支持私有仓库，连上 GitHub 后每次 push 自动部署
-- **GitHub Pages** —— 免费但**要求仓库是公开的**（当前 `laixi969-coder/xocto` 是私有）
+仓库里已经配好了 `vercel.json` 和 `.vercelignore`，直接连上就行。
+
+**在 Vercel 上要这么设：**
+
+| 项目 | 填什么 |
+|------|--------|
+| Framework Preset | **Other**（不要选 Python，也不要让它自动检测） |
+| Build Command | 留空（`vercel.json` 里已经写死了） |
+| Output Directory | `site` |
+| Install Command | 留空 |
+
+**如果它报「未找到 Python 入口点」**，是因为它看到 `pyproject.toml` 就以为这是个后端项目。
+`.vercelignore` 已经把 `pyproject.toml` 排除掉了，重新部署一次就好；
+还不行的话去项目设置里把 Framework Preset 手动改成 Other。
+
+### 每天更新线上内容
+
+```bash
+cd ~/x-octo && uv run xocto collect && uv run xocto build
+git add -A && git commit -m "chore: 更新每日数据" && git push
+```
+
+push 完 Vercel 会自动重新部署，一两分钟后线上就更新了。
+**注意 `site/` 目录必须提交进仓库** —— Vercel 上不跑构建，它只是把这个目录原样发出去。
+
+**GitHub Pages 也能用，但要求仓库公开**（当前 `laixi969-coder/xocto` 是私有的）。
 
 ## 关于中文源
 
