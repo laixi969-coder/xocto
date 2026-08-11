@@ -1,0 +1,83 @@
+# 采集源配置。改这里不用改代码。
+# enabled: false 的源直接跳过。
+
+http:
+  timeout_seconds: 25
+  user_agent: "x-octo/0.1 (personal research)"
+  retries: 2
+
+sources:
+
+  # Product Hunt 的 AI 分类 feed。每天新品，是最主要的"新应用"来源。
+  # 噪音大，但胜在全、快。
+  producthunt:
+    enabled: true
+    feed_url: "https://www.producthunt.com/feed?category=ai"
+    # feed 只给 50 条，且按"最近有动静"排序而不是按发布时间，
+    # 窗口卡太紧会捞不到东西（实测 48 小时只剩 4 条，7 天有 31 条）。
+    # 每天跑的话增量仍然只有当天新发的，重复的由去重层兜住。
+    lookback_hours: 168
+
+  # Hacker News。开发者自荐（Show HN）质量高于 PH，
+  # 且能看到还没做营销的早期项目。走 Algolia 公共接口，无需密钥。
+  hackernews:
+    enabled: true
+    lookback_hours: 36
+    queries:
+      # 开发者自荐新品。实测 3 分门槛会进来 40+ 条且大半没人看，
+      # 5 分能压到 15 条左右 —— 真有人关注的项目 36 小时内都过得了 5 分。
+      - tags: "show_hn"
+        query: ""
+        min_points: 5
+      # Launch HN = YC 公司的正式发布，一年就那么几十个，含金量最高
+      - tags: "launch_hn"
+        query: ""
+        min_points: 1
+      # 上了一定热度的 AI 讨论。这条会捞回大量新闻报道，
+      # 采集器会自动把新闻标记出来、不放进产品池，只留给趋势那一节。
+      - tags: "story"
+        query: "AI"
+        min_points: 40
+      - tags: "story"
+        query: "LLM agent"
+        min_points: 25
+
+  # GitHub 新建仓库里涨星快的。开源项目往往比闭源产品早半年
+  # 暴露出一个方向能不能成。走公共 Search API，匿名有速率限制但够用。
+  github:
+    enabled: true
+    created_within_days: 21
+    min_stars: 40
+    queries:
+      - "ai agent"
+      - "ai workflow"
+      # "llm application" 实测 0 条 —— 没人这么写。用大家真在用的词。
+      - "llm app"
+
+  # AICPB（AI 产品榜）。中文世界唯一能拿到真实数据的源。
+  # 性质和上面三个不同：它给的不是"刚冒出来的新东西"，而是
+  # "已经跑出规模的东西 + 真实访问量/月活 + 环比"。
+  # 增长率榜上的异常值（比如环比 +3479%）就是最强的信号。
+  # 榜单月度更新，每天抓也无妨，重复的由去重层兜住。
+  aicpb:
+    enabled: true
+    rankings:
+      # 中国增长率榜 —— 找国产新势力，最该看的一个
+      - "china-ai-growth-rate-ranking"
+      # 中国总榜 —— 看存量格局
+      - "china-ai-rankings"
+      # 全球增长率榜 —— 和中国榜对照着看
+      - "ai-global-growth-rate-ranking"
+      # 还有二十多个细分榜可加，比如：
+      #   ai-agent-rankings / ai-search-rankings / vibe-coding-rankings
+      #   ai-video-generators-rankings / ai-ppt-rankings
+
+  # ---- 以下暂未启用 ----
+
+  reddit:
+    enabled: false
+    note: "免登录 JSON 接口已被封，需要注册 OAuth app 才能接。等有明确需要再做。"
+
+  ycombinator:
+    enabled: false
+    note: "公司目录是动态加载页，抓取脆弱且一年只更新两批。优先级低。"

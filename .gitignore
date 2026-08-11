@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+
+# rebuild 产生的旧产品池备份，确认无误后可以自己删
+data/pool.bak-*/
+
+# 原始存档不进库：一天约 1MB（含各源返回的完整原始数据），一年 300MB+，
+# git 扛不住。它留在本地，是重建产品池的依据。
+data/raw/
+
+# 下面这些要进库 —— 网站靠它们生成，也是这个项目的真正资产：
+#   data/pool/       产品档案
+#   data/analysis/   深度分析
+#   data/reports/    每日观察
+#   site/            生成好的静态站（部署用，也方便直接在 GitHub 上看）

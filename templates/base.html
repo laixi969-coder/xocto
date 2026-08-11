@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}x-octo · 全球 AI 应用雷达{% endblock %}</title>
+<meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
+<link rel="stylesheet" href="{{ root }}style.css">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<div class="top">
+  <div class="top-inner">
+    <a class="brand" href="{{ root }}index.html">x<span>·</span>octo</a>
+    <nav class="nav">
+      <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">首页</a>
+      <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">全部产品</a>
+      {% if reports %}
+      <a href="{{ root }}r/{{ reports[0].day }}.html" class="{{ 'on' if page == 'reports' }}">每日观察</a>
+      {% endif %}
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button">明 / 暗</button>
+  </div>
+</div>
+
+{% block body %}{% endblock %}
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>·</span>
+    <span>{{ stats.total }} 个产品 / {{ stats.sources }} 个来源</span>
+    <span class="gen">生成于 {{ generated_at }}</span>
+  </footer>
+</div>
+
+<script>
+  document.getElementById('theme-btn').addEventListener('click', function () {
+    var el = document.documentElement;
+    var now = el.getAttribute('data-theme');
+    if (!now) {
+      now = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    var next = now === 'dark' ? 'light' : 'dark';
+    el.setAttribute('data-theme', next);
+    localStorage.setItem('xocto-theme', next);
+  });
+</script>
+
+</body>
+</html>

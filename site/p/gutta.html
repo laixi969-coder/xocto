@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gutta · x-octo</title>
+<meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
+<link rel="stylesheet" href="../style.css">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<div class="top">
+  <div class="top-inner">
+    <a class="brand" href="../index.html">x<span>·</span>octo</a>
+    <nav class="nav">
+      <a href="../index.html" class="">首页</a>
+      <a href="../products.html" class="on">全部产品</a>
+      <a href="../r/2026-08-11.html" class="">每日观察</a>
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button">明 / 暗</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="detail-head">
+    <div class="pick-top">
+      <h1>Gutta</h1>
+    </div>
+    <p class="lede">A tiny, offline task list for your Mac menu bar</p>
+
+    <div class="meta">
+<span class="tag">Product Hunt</span>      <span class="tag">新收录</span>
+    </div>
+
+    <div class="kv">
+      <div><span>做这个的人</span><b>Vaibhav Pathak</b></div>
+      <div><span>首次出现</span><b class="num">2026-08-09</b></div>
+      <div><span>最近出现</span><b class="num">2026-08-11</b></div>
+      <div><span>链接</span><b><a href="https://www.producthunt.com/products/gutta" target="_blank" rel="noopener">打开 ↗</a></b></div>
+    </div>
+  </div>
+
+  <section>
+    <p class="empty">
+      这个产品还没做深度分析。<br>
+      在 Claude Code 里说「分析 gutta」就会按 config/template.md 的模板生成。
+    </p>
+  </section>
+
+
+
+</div>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>·</span>
+    <span>141 个产品 / 4 个来源</span>
+    <span class="gen">生成于 2026-08-11 01:44</span>
+  </footer>
+</div>
+
+<script>
+  document.getElementById('theme-btn').addEventListener('click', function () {
+    var el = document.documentElement;
+    var now = el.getAttribute('data-theme');
+    if (!now) {
+      now = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    var next = now === 'dark' ? 'light' : 'dark';
+    el.setAttribute('data-theme', next);
+    localStorage.setItem('xocto-theme', next);
+  });
+</script>
+
+</body>
+</html>

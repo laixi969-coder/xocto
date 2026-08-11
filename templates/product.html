@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}{{ product.name }} · x-octo{% endblock %}
+
+{% block body %}
+<div class="wrap">
+
+  <div class="detail-head">
+    <div class="pick-top">
+      <h1>{{ product.name }}</h1>
+      {% if analysis and analysis.verdict %}
+      <span class="verdict v-{{ analysis.verdict }}">{{ analysis.verdict }}</span>
+      {% endif %}
+    </div>
+    <p class="lede">{{ product.summary or '（源没给简介，需要深挖官网才能判断）' }}</p>
+
+    <div class="meta">
+      {% for s in product.sources %}<span class="tag">{{ s }}</span>{% endfor %}
+      {% for b in product.badges %}<span class="tag sig">{{ b }}</span>{% endfor %}
+      <span class="tag">{{ product.status_label }}</span>
+    </div>
+
+    <div class="kv">
+      {% if product.builder %}
+      <div><span>做这个的人</span><b>{{ product.builder }}</b></div>
+      {% endif %}
+      <div><span>首次出现</span><b class="num">{{ product.first_seen }}</b></div>
+      <div><span>最近出现</span><b class="num">{{ product.last_seen }}</b></div>
+      <div><span>链接</span><b><a href="{{ product.url }}" target="_blank" rel="noopener">打开 ↗</a></b></div>
+    </div>
+  </div>
+
+  {% if analysis %}
+  <article class="prose">
+    {{ analysis.body_html | safe }}
+  </article>
+  {% else %}
+  <section>
+    <p class="empty">
+      这个产品还没做深度分析。<br>
+      在 Claude Code 里说「分析 {{ product.slug }}」就会按 config/template.md 的模板生成。
+    </p>
+  </section>
+  {% endif %}
+
+  {% if product.sightings | length > 1 or product.sightings[0].metrics %}
+  <section>
+    <div class="sec-head"><h2>出现记录</h2>
+      <span class="note">同一个产品重复出现本身就是信号</span>
+    </div>
+    <div class="scroll-x">
+      <table class="tbl">
+        <thead><tr><th>来源</th><th>日期</th><th>指标</th><th>链接</th></tr></thead>
+        <tbody>
+          {% for s in product.sightings %}
+          <tr>
+            <td class="name">{{ s.source }}</td>
+            <td class="num">{{ s.seen_at }}</td>
+            <td class="desc num">
+              {% for k, v in s.metrics.items() %}{% if v is not none and k not in ('metric',) %}{{ k }}={{ v }} {% endif %}{% endfor %}
+            </td>
+            <td class="desc"><a href="{{ s.url }}" target="_blank" rel="noopener">↗</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if product.notes %}
+  <section>
+    <div class="sec-head"><h2>笔记</h2></div>
+    <div class="prose">{{ product.notes }}</div>
+  </section>
+  {% endif %}
+
+</div>
+{% endblock %}

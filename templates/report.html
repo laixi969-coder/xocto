@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}{{ report.day }} 每日观察 · x-octo{% endblock %}
+
+{% block body %}
+<div class="wrap">
+
+  <div class="detail-head">
+    <h1>{{ report.day }}</h1>
+    <p class="lede">当日采集、趋势判断与市场信号</p>
+    {% if reports | length > 1 %}
+    <div class="meta">
+      {% for r in reports[:8] %}
+      <a class="tag" href="{{ root }}r/{{ r.day }}.html">{{ r.day }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <article class="prose">
+    {{ report.body_html | safe }}
+  </article>
+
+</div>
+{% endblock %}

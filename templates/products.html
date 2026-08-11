@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}全部产品 · x-octo{% endblock %}
+
+{% block body %}
+<div class="wrap">
+
+  <div class="hero">
+    <h1>全部产品</h1>
+    <p>{{ stats.total }} 个产品，来自 {{ stats.sources }} 个源。按热度信号排序（HN 分数、GitHub star、榜单流量）。</p>
+  </div>
+
+  <section>
+    <div class="filters" id="filters">
+      <button class="on" data-key="all">全部 <span class="num">{{ stats.total }}</span></button>
+      <button data-key="producthunt">Product Hunt</button>
+      <button data-key="hackernews">Hacker News</button>
+      <button data-key="github">GitHub</button>
+      <button data-key="aicpb">AICPB 榜单</button>
+      <button data-key="analyzed">已分析</button>
+      <button data-key="watching">观察中</button>
+    </div>
+
+    <div class="grid" id="grid">
+      {% for p in products %}
+      <a class="card" href="{{ root }}p/{{ p.slug }}.html"
+         data-sources="{{ p.source_keys | join(' ') }}" data-status="{{ p.status }}">
+        <h4>{{ p.name }}</h4>
+        <p>{{ p.summary or '（源没给简介）' }}</p>
+        <div class="meta">
+          {% for s in p.sources %}<span class="tag">{{ s }}</span>{% endfor %}
+          {% for b in p.badges[:2] %}<span class="tag sig">{{ b }}</span>{% endfor %}
+          {% if p.status in ('analyzed', 'watching') %}
+          <span class="tag">{{ p.status_label }}</span>
+          {% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="empty" id="empty" hidden>没有符合条件的产品。</p>
+  </section>
+
+</div>
+
+<script>
+  (function () {
+    var filters = document.getElementById('filters');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('#grid .card'));
+    var empty = document.getElementById('empty');
+
+    filters.addEventListener('click', function (e) {
+      var btn = e.target.closest('button');
+      if (!btn) return;
+      var key = btn.dataset.key;
+
+      filters.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
+      btn.classList.add('on');
+
+      var shown = 0;
+      cards.forEach(function (card) {
+        var ok =
+          key === 'all' ||
+          card.dataset.status === key ||
+          (card.dataset.sources || '').split(' ').indexOf(key) !== -1;
+        card.hidden = !ok;
+        if (ok) shown++;
+      });
+      empty.hidden = shown > 0;
+    });
+  })();
+</script>
+{% endblock %}

@@ -1,0 +1,26 @@
+---
+slug: prime-agent
+name: Prime Agent
+builder: Zac Zuo
+url: https://www.producthunt.com/products/prime-intellect
+canonical_url: https://producthunt.com/products/prime-intellect
+summary: A coding agent that can refine its own harness
+first_seen: '2026-08-10T04:13:06Z'
+last_seen: '2026-08-11T05:03:07Z'
+status: pending_filter
+sources:
+- producthunt
+sightings:
+- source: producthunt
+  url: https://www.producthunt.com/products/prime-intellect
+  seen_at: '2026-08-11T05:03:07Z'
+  metrics: {}
+---
+
+# Prime Agent
+
+A coding agent that can refine its own harness
+
+## 笔记
+
+

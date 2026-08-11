@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-08-11 每日观察 · x-octo</title>
+<meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
+<link rel="stylesheet" href="../style.css">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<div class="top">
+  <div class="top-inner">
+    <a class="brand" href="../index.html">x<span>·</span>octo</a>
+    <nav class="nav">
+      <a href="../index.html" class="">首页</a>
+      <a href="../products.html" class="">全部产品</a>
+      <a href="../r/2026-08-11.html" class="on">每日观察</a>
+    </nav>
+    <button class="theme-btn" id="theme-btn" type="button">明 / 暗</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="detail-head">
+    <h1>2026-08-11</h1>
+    <p class="lede">当日采集、趋势判断与市场信号</p>
+  </div>
+
+  <article class="prose">
+    <h1>AI 应用雷达 · 2026-08-11</h1>
+<p>采集 159 条（Product Hunt 31 / Hacker News 39 / GitHub 40 / AICPB 49），
+去重后 141 个产品，剔除新闻 17 条，入选 3 个深度分析。</p>
+<hr />
+<h2>今天最值得看的 3 个</h2>
+<h3>1. shuohao-skills（烁皓）· GitHub 655★ · <strong>强烈推荐</strong></h3>
+<p>把一本小说拆成能直接开拍的短剧素材包：角色设定、形象提示词、音色、分集大纲。</p>
+<p><strong>替代的旧行为极明确</strong>——编剧写人物小传、美术出设定图、导演排分集，一个团队三五人做一两周。</p>
+<p><strong>为什么值得看</strong>：所有人都在卷&quot;AI 生成视频画面&quot;，它绕到上游做&quot;开拍前的素材准备&quot;。
+这一段最耗人、最依赖经验，也最没人愿意做成产品，因为演示效果差。
+它和你的 songo 重合度极高，而且<strong>它的 13 道质量门</strong>（把创作质量变成脚本能检查的硬约束）
+这个思路可以直接搬。</p>
+<p>变现走的是开源引流 + 付费微信群，天花板低，但路径已经跑通。</p>
+<p>→ <a href="../analysis/shuohao-skills.md">完整分析</a></p>
+<h3>2. 影策 open-ai-canvas · GitHub 535★ · <strong>强烈推荐（但先查域名）</strong></h3>
+<p>一张画布装下整部戏：从小说抽角色资产，再把分镜、图、视频、音频编排成片。</p>
+<p><strong>几乎就是 songo 的开源版本。</strong> 它赌的是&quot;容器&quot;而不是&quot;生成&quot;——不做任何生成模型，
+只做把生成结果组织起来的那张画布。底层逻辑是：模型能力会趋同，最后拼的是谁掌握创作的组织结构。</p>
+<p><strong>去读它的角色资产数据结构</strong>——怎么定义一个角色的&quot;外观、声音、气质&quot;并让这些
+在不同生成环节间保持一致，这是 songo 最难的部分，现在有人把答案写在 GitHub 上了。</p>
+<p>⚠️ 一个疑点：项目 homepage 填的是 <code>ddcat.pronhubcn.com</code>，域名形态可疑。
+查清楚之前别往那上面传素材。</p>
+<p>→ <a href="../analysis/open-ai-canvas.md">完整分析</a></p>
+<h3>3. The GTM Co-Founder · GitHub 176★ · PH 日榜第一 · <strong>值得关注</strong></h3>
+<p>给没有合伙人的技术创始人当营销脑子。</p>
+<p><strong>它是你的反面，所以特别值得看</strong>——它试图把你二十年积累的那种判断力打包成软件，
+卖给不懂营销的人。它做得到的是提问顺序、指标清单、陷阱列表；做不到的是&quot;我这个具体情况选哪条路&quot;。</p>
+<p><strong>这条边界对你有直接价值</strong>：如果你要把自己的方法论产品化，
+这就是定价分界线——能标准化的部分免费送，做判断的部分才收费。</p>
+<p>另外看它的开场白：不说&quot;我们提供 GTM 解决方案&quot;，而说&quot;有些日子就是单纯地难熬&quot;。
+它拿 PH 日榜第一靠的是这个，不是功能。</p>
+<p>→ <a href="../analysis/gtm-cofounder.md">完整分析</a></p>
+<hr />
+<h2>今天的趋势：SaaS 正在被为 agent 重做一遍</h2>
+<p>不是猜测，是今天一天里同时出现的东西：</p>
+<table>
+<thead>
+<tr>
+  <th>产品</th>
+  <th>是什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>trycompai/crm · 8135★</td>
+  <td>给 AI agent 用的 CRM</td>
+</tr>
+<tr>
+  <td>Docker Sandboxes · HN 640分</td>
+  <td>给 agent 用的一次性隔离沙箱（Docker 官方下场）</td>
+</tr>
+<tr>
+  <td>OptMem · 1226★</td>
+  <td>给 agent 用的永久记忆</td>
+</tr>
+<tr>
+  <td>axern · 205★</td>
+  <td>给 agent 用的开源沙箱</td>
+</tr>
+<tr>
+  <td>numbat · 879★</td>
+  <td>agent 行为可观测性</td>
+</tr>
+<tr>
+  <td>Reference · PH</td>
+  <td>给 agent 用的本地语义搜索</td>
+</tr>
+<tr>
+  <td>Toolport · PH</td>
+  <td>给所有 agent 统一 MCP 配置</td>
+</tr>
+<tr>
+  <td>mcp-server · 569★</td>
+  <td>给 agent 一个能打电话的电话号码</td>
+</tr>
+<tr>
+  <td>Progress AI Observability · PH</td>
+  <td>agent 生产环境追踪与评估</td>
+</tr>
+</tbody>
+</table>
+<p>CRM 有了、搜索有了、沙箱有了、记忆有了、可观测性有了，连&quot;给 agent 一个电话号码&quot;都有了。</p>
+<p><strong>这意味着什么</strong>：现在的钱在流向&quot;卖给 agent 的工具&quot;，不是&quot;卖给人的应用&quot;。
+对你的判断价值是——如果你要做面向人的 AI 产品，这一波拥挤跟你无关，
+反而说明&quot;给人用的那一端&quot;正被相对忽视。</p>
+<hr />
+<h2>大厂动作</h2>
+<ul>
+<li><strong>Meta 发布 Muse Glimmer</strong>（HN 1072 分 / 590 评，今天最大的事）——
+30B 参数、专为常驻本地 agent 优化的开源权重模型。本地 agent 的门槛又降了一档。</li>
+<li><strong>Docker 官方推出 agent 沙箱</strong>（HN 640 分）—— 基础设施层大厂开始下场。</li>
+<li><strong>Claude 上线 AI 生成内容水印</strong>（HN 91 分）—— 全量嵌入，标记所有生成文字。</li>
+</ul>
+<hr />
+<h2>中国市场信号（AICPB 实测数据）</h2>
+<p>榜单里两个异常增速值得留意：</p>
+<table>
+<thead>
+<tr>
+  <th>环比</th>
+  <th>产品</th>
+  <th>流量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><strong>+13311%</strong></td>
+  <td>MaxAI.me</td>
+  <td>2.56M</td>
+</tr>
+<tr>
+  <td><strong>+3479%</strong></td>
+  <td>商汤小浣熊</td>
+  <td>3.70M</td>
+</tr>
+<tr>
+  <td>+30%</td>
+  <td>腾讯 CodeBuddy</td>
+  <td>7.49M</td>
+</tr>
+<tr>
+  <td>+24.6%</td>
+  <td>Z.ai</td>
+  <td>10.24M</td>
+</tr>
+</tbody>
+</table>
+<p>MaxAI.me 一个月涨 133 倍，商汤小浣熊涨 35 倍——这个量级通常不是自然增长，
+要么有大规模导流，要么统计口径变了。<strong>下次采集回来对比一下就知道是真起量还是一次性脉冲。</strong></p>
+<hr />
+<h2>其余入选清单（按信号强度）</h2>
+<p><strong>替代关系清晰、值得下次留意：</strong></p>
+<ul>
+<li><strong>StepShot</strong>（PH）— AI 把真实操作流程转成图文步骤指南。替代人工写 SOP，你们做执行手册用得上</li>
+<li><strong>Rescript for Desktop</strong>（PH）— 开源的 Descript 替代品，本地运行。对标 $30/月的成熟产品，攻击角度清晰</li>
+<li><strong>Troopr AI Scrum Master</strong>（PH）— 从真实工作记录自动写每日站会汇报</li>
+<li><strong>Stoa Markets</strong>（HN 71分，YC S26）— GPU 和 AI 服务器的交易市场</li>
+</ul>
+<p><strong>中国开发者项目（GitHub 上意外的一批）：</strong></p>
+<ul>
+<li><code>open-kimi-ppt-skill</code> 1606★ — 非官方 Kimi Slides Skill，生成可编辑 PPT</li>
+<li><code>douyin-tiktok-story-skill</code> 212★ — 抖音故事创作工作流</li>
+<li><code>Gendangzou-skill</code> 173★ — A 股板块研究 skill，撞你的 octo</li>
+<li><code>moonlit-stories</code> 153★ — 英语绘本工作流，插图一致性</li>
+</ul>
+<p><strong>需要深挖才能判断（信息不足）：</strong></p>
+<ul>
+<li>Soloop（PH）— &quot;Approval-first Agent OS for solo founders&quot;，不看官网不知道在干什么</li>
+<li>Argos（PH）— &quot;The AI that acts as you, right in your browser&quot;</li>
+<li>Workflo（PH）— Mac 工作区自动化，&quot;从不看你的屏幕&quot;这个定位有意思</li>
+</ul>
+<hr />
+<h2>这份简报的已知缺口</h2>
+<ol>
+<li><strong>Product Hunt 的产品全部没深挖</strong> —— PH 除了 feed 之外整站 403（Cloudflare），
+拿不到官网、票数和定价。所以上面 31 个 PH 产品都只有一句 tagline 的判断。
+要补这块需要你去申请一个免费的 PH API token（5 分钟）。</li>
+<li><strong>没有定价信息</strong> —— 深挖环节还没做，所有&quot;商业模式&quot;的判断都是从公开信息推的。</li>
+<li><strong>只跑了一天</strong> —— &quot;下一步看什么&quot;里的观察项要等后续几天的数据才能验证。</li>
+</ol>
+
+  </article>
+
+</div>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>·</span>
+    <span>141 个产品 / 4 个来源</span>
+    <span class="gen">生成于 2026-08-11 01:44</span>
+  </footer>
+</div>
+
+<script>
+  document.getElementById('theme-btn').addEventListener('click', function () {
+    var el = document.documentElement;
+    var now = el.getAttribute('data-theme');
+    if (!now) {
+      now = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    var next = now === 'dark' ? 'light' : 'dark';
+    el.setAttribute('data-theme', next);
+    localStorage.setItem('xocto-theme', next);
+  });
+</script>
+
+</body>
+</html>

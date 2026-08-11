@@ -1,0 +1,29 @@
+---
+slug: ai-agent-book
+name: ai-agent-book
+builder: chemark
+url: https://github.com/chemark/ai-agent-book
+canonical_url: https://github.com/chemark/ai-agent-book
+summary: '深入理解 AI Agent：设计原理与工程实践（学习副本，upstream: bojieli/ai-agent-book）'
+first_seen: '2026-07-23T19:41:41Z'
+last_seen: '2026-08-11T05:03:15Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/chemark/ai-agent-book
+  seen_at: '2026-08-11T05:03:15Z'
+  metrics:
+    stars: 217
+    forks: 18
+    open_issues: 0
+---
+
+# ai-agent-book
+
+深入理解 AI Agent：设计原理与工程实践（学习副本，upstream: bojieli/ai-agent-book）
+
+## 笔记
+
+

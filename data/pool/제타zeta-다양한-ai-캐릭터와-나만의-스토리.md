@@ -1,0 +1,31 @@
+---
+slug: 제타zeta-다양한-ai-캐릭터와-나만의-스토리
+name: 제타(zeta) - 다양한 AI 캐릭터와 나만의 스토리
+builder: ''
+url: https://www.aicpb.com/product/제타(zeta)-다양한-AI-캐릭터와-나만의-스토리/appid1D6F36F41
+canonical_url: https://aicpb.com/product/제타(zeta)-다양한-AI-캐릭터와-나만의-스토리/appid1D6F36F41
+summary: ''
+first_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-11T05:03:23Z'
+status: pending_filter
+sources:
+- aicpb
+sightings:
+- source: aicpb
+  url: https://www.aicpb.com/product/제타(zeta)-다양한-AI-캐릭터와-나만의-스토리/appid1D6F36F41
+  seen_at: '2026-08-11T05:03:23Z'
+  metrics:
+    raw_value: 2.32M
+    value: 2320000.0
+    metric: mau
+    mom_raw: 15.28%
+    mom_percent: 15.28
+---
+
+# 제타(zeta) - 다양한 AI 캐릭터와 나만의 스토리
+
+_（源没给简介）_
+
+## 笔记
+
+

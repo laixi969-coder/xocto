@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="wrap">
+
+  <div class="hero">
+    <h1>每天挖全球新冒出来的<br>AI 应用，判断它到底解决了什么</h1>
+    <p>
+      从 Product Hunt、Hacker News、GitHub 和 AICPB 榜单自动采集，跨源去重，
+      再逐个判断：它在替代什么旧行为？痛点是真是假？商业模式站不站得住？
+      答不上「以前这件事怎么做」的，一律不推荐。
+    </p>
+    <div class="stats">
+      <div class="stat"><b>{{ stats.total }}</b><span>产品在库</span></div>
+      <div class="stat"><b>{{ stats.early }}</b><span>早期项目</span></div>
+      <div class="stat"><b>{{ stats.ranked }}</b><span>已跑出规模</span></div>
+      <div class="stat"><b>{{ stats.analysed }}</b><span>深度分析</span></div>
+    </div>
+  </div>
+
+  {% if analyses %}
+  <section>
+    <div class="sec-head">
+      <h2>精选分析</h2>
+      <span class="note">每一条判断都能追溯到证据，拿不准的写「不确定」</span>
+    </div>
+    <div class="picks">
+      {% for a in analyses %}
+      <a class="pick" href="{{ root }}p/{{ a.slug }}.html">
+        <div class="pick-top">
+          <h3>{{ a.name }}</h3>
+          {% if a.verdict %}<span class="verdict v-{{ a.verdict }}">{{ a.verdict }}</span>{% endif %}
+        </div>
+        <p>{{ a.excerpt }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if movers %}
+  <section>
+    <div class="sec-head">
+      <h2>增长异常</h2>
+      <span class="note">AICPB 实测流量，环比异常值通常不是自然增长</span>
+    </div>
+    <div class="scroll-x">
+      <table class="tbl">
+        <thead>
+          <tr><th>产品</th><th>环比</th><th>规模</th><th>来源</th></tr>
+        </thead>
+        <tbody>
+          {% for p in movers %}
+          <tr>
+            <td class="name"><a href="{{ root }}p/{{ p.slug }}.html">{{ p.name }}</a></td>
+            <td class="num {{ 'up' if p.growth and p.growth > 50 }}">
+              {{ '+' if p.growth and p.growth > 0 }}{{ '%.1f'|format(p.growth) }}%
+            </td>
+            <td class="num">{{ p.scale or '—' }}</td>
+            <td class="desc">{{ p.sources | join(' · ') }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if fresh %}
+  <section>
+    <div class="sec-head">
+      <h2>早期项目</h2>
+      <span class="note">还没有数据可验证，判断只能靠推理需求真伪</span>
+    </div>
+    <div class="grid">
+      {% for p in fresh %}
+      <a class="card" href="{{ root }}p/{{ p.slug }}.html">
+        <h4>{{ p.name }}</h4>
+        <p>{{ p.summary or '（源没给简介）' }}</p>
+        <div class="meta">
+          {% for s in p.sources %}<span class="tag">{{ s }}</span>{% endfor %}
+          {% for b in p.badges[:2] %}<span class="tag sig">{{ b }}</span>{% endfor %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if reports %}
+  <section>
+    <div class="sec-head"><h2>每日观察</h2></div>
+    <div class="picks">
+      {% for r in reports[:5] %}
+      <a class="pick" href="{{ root }}r/{{ r.day }}.html">
+        <div class="pick-top"><h3>{{ r.day }}</h3></div>
+        <p>当日采集、趋势判断与市场信号</p>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+</div>
+{% endblock %}
