@@ -3,6 +3,8 @@ slug: codebuddy-tencetn
 name: CodeBuddy｜Tencetn
 builder: ''
 category: AI + 开发
+summary_zh: 腾讯的 AI 编程助手，月访问 749 万且还在涨
+inspiration: 大厂在编程工具上砸资源，独立产品的空间正在被从下往上挤压
 url: https://www.aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51
 canonical_url: https://aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51
 summary: ''

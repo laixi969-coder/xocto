@@ -3,6 +3,8 @@ slug: progress-ai-observability
 name: Progress AI Observability
 builder: Lyubomir Atanasov
 category: 基础层
+summary_zh: 追踪、评估并改进生产环境里的 AI agent
+inspiration: 可观测性在传统软件是十亿美元品类，在 agent 领域正在重演一遍
 url: https://www.producthunt.com/products/progress-ai-observability
 canonical_url: https://producthunt.com/products/progress-ai-observability
 summary: Trace, evaluate, and improve AI agents in production

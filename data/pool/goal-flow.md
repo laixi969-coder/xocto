@@ -3,6 +3,8 @@ slug: goal-flow
 name: goal-flow
 builder: wanmol
 category: 基础层
+summary_zh: 基于 LangGraph 的生产级 agent 循环框架
+inspiration: 框架之上再套框架，说明底层框架还不够好用，中间层是有机会的
 url: https://github.com/wanmol/goal-flow
 canonical_url: https://github.com/wanmol/goal-flow
 summary: Graph-Orchestrated Agent Loop — a production-grade framework on LangGraph. Combine workflow graphs

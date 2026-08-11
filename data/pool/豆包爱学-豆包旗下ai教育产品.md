@@ -3,6 +3,8 @@ slug: 豆包爱学-豆包旗下ai教育产品
 name: 豆包爱学-豆包旗下AI教育产品
 builder: ''
 category: AI + 生活
+summary_zh: 字节的 AI 教育产品，作业批改和答疑
+inspiration: 教育是中国 AI 应用里付费意愿最强的场景，但也是监管最敏感的
 url: https://www.aicpb.com/product/豆包爱学-豆包旗下AI教育产品/appid1D6F379B1
 canonical_url: https://aicpb.com/product/豆包爱学-豆包旗下AI教育产品/appid1D6F379B1
 summary: 作业批改、AI答疑

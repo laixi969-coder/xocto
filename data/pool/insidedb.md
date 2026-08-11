@@ -3,6 +3,8 @@ slug: insidedb
 name: Insidedb
 builder: davai-g
 category: AI + 效率
+summary_zh: 交互式动画讲解数据库内部原理
+inspiration: 把难懂的东西做成可交互的解释，是内容变产品最直接的一条路
 url: https://david-g-3654.github.io/insidedb/
 canonical_url: https://david-g-3654.github.io/insidedb
 summary: an interactive, animated explainer of database internals

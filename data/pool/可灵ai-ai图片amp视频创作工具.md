@@ -3,6 +3,8 @@ slug: 可灵ai-ai图片amp视频创作工具
 name: 可灵AI - AI图片&amp;视频创作工具
 builder: ''
 category: AI + 创作
+summary_zh: 快手的图片与视频生成平台，带创作者社区
+inspiration: 工具 + 社区的组合让作品本身成为获客素材，创作类产品几乎都要走这条路
 url: https://www.aicpb.com/product/可灵AI-AI图片视频创作工具/appid1D6F37A09
 canonical_url: https://aicpb.com/product/可灵AI-AI图片视频创作工具/appid1D6F37A09
 summary: 新一代AI创意生产力平台，图片视频生成，创意交流社区

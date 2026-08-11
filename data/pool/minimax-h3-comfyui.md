@@ -3,6 +3,8 @@ slug: minimax-h3-comfyui
 name: MiniMax-H3-ComfyUI
 builder: MiniMaxH3ComfyUI
 category: AI + 创作
+summary_zh: 让 MiniMax 的 33B 全模态模型能在本地 ComfyUI 里跑
+inspiration: 开源社区的适配层是模型厂商的免费渠道，谁被适配得多谁就赢了生态
 url: https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI
 canonical_url: https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI
 summary: MiniMax H3 ComfyUI - Run MiniMax turbo lora H3 33B omni-modal AI model locally with ComfyUI workflow.

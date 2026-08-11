@@ -3,6 +3,8 @@ slug: opencodex
 name: Opencodex
 builder: thephantomhider
 category: AI + 开发
+summary_zh: VSCode 里的免费开源编程 agent
+inspiration: 插件是获客成本最低的分发渠道：用户已经在那儿了，不用教育他换工具
 url: https://github.com/matonhp5108/Opencodex
 canonical_url: https://github.com/matonhp5108/Opencodex
 summary: a free open-source coding agent for VSCode

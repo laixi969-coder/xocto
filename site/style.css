@@ -144,17 +144,50 @@ a { color: inherit; text-decoration: none; }
 .rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
 .rows li { border-bottom: 1px solid var(--line-soft); }
 .rows a {
-  display: grid; grid-template-columns: minmax(120px, 200px) minmax(0, 1fr) auto;
-  gap: 20px; align-items: baseline; padding: 12px 4px;
+  display: block; padding: 13px 4px;
   transition: background .2s var(--ease), padding-left .2s var(--ease);
 }
 .rows a:hover { background: var(--line-soft); padding-left: 10px; }
+.row-head {
+  display: grid; grid-template-columns: minmax(110px, 190px) minmax(0, 1fr) auto;
+  gap: 20px; align-items: baseline;
+}
 .row-name { font-weight: 600; font-size: 14.5px; }
 .row-desc {
   color: var(--ink-soft); font-size: 13.5px; overflow: hidden;
   text-overflow: ellipsis; white-space: nowrap;
 }
 .row-tail { display: flex; gap: 6px; white-space: nowrap; }
+.row-insp {
+  margin: 6px 0 0 0; padding-left: 12px; border-left: 2px solid var(--signal);
+  font-size: 13px; color: var(--ink); max-width: 78ch;
+}
+
+/* ---------- 每日观察：钩子决定有没有人点 ---------- */
+
+.obs { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+.obs-item {
+  border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px;
+  background: var(--surface); display: block;
+  transition: border-color .2s var(--ease), transform .2s var(--ease);
+  animation: rise .5s var(--ease) backwards;
+  animation-delay: calc(var(--i, 0) * 60ms);
+}
+.obs-item:hover { border-color: var(--signal); transform: translateY(-2px); }
+.obs-item:active { transform: translateY(0); }
+.obs-day { font-size: 11.5px; color: var(--ink-faint); letter-spacing: .06em; }
+.obs-hook {
+  margin: 8px 0 12px; font-family: var(--serif); font-size: 16px;
+  line-height: 1.55; font-weight: 700;
+}
+.obs-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.card-insp {
+  margin: 10px 0 0 !important; padding-left: 10px;
+  border-left: 2px solid var(--signal);
+  font-size: 12.5px !important; color: var(--ink) !important;
+  -webkit-line-clamp: 3 !important;
+}
 
 /* ---------- 标签 ---------- */
 
@@ -301,7 +334,7 @@ footer .gen { margin-left: auto; font-family: var(--mono); }
   .lede-bar { padding: 32px 0 22px; }
   .nav { gap: 13px; font-size: 12.5px; }
   .grid { grid-template-columns: 1fr; }
-  .rows a { grid-template-columns: 1fr; gap: 4px; padding: 11px 4px; }
+  .row-head { grid-template-columns: 1fr; gap: 4px; }
   .row-desc { white-space: normal; }
   .sec-head { flex-wrap: wrap; }
   .sec-head .note { margin-left: 0; text-align: left; width: 100%; }

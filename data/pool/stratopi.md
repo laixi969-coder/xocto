@@ -3,6 +3,8 @@ slug: stratopi
 name: stratopi
 builder: nodesocket
 category: AI + 生活
+summary_zh: 用树莓派把气象气球送进平流层
+inspiration: 硬核个人项目的价值不在实用，在于它证明了「一个人也能做到」
 url: https://github.com/stratopi-org/stratopi
 canonical_url: https://github.com/stratopi-org/stratopi
 summary: Weather balloon to the stratosphere with a Raspberry Pi computer

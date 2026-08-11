@@ -3,6 +3,8 @@ slug: 纳米ai搜索
 name: 纳米AI搜索
 builder: ''
 category: 通用助手
+summary_zh: 360 纳米 AI 搜索，一句话生成专家级视频、报告、PPT
+inspiration: 从「搜到答案」升级成「直接产出交付物」，这是搜索产品价值链的往上走
 url: https://www.aicpb.com/product/纳米AI搜索/webid1D6F374A1
 canonical_url: https://aicpb.com/product/纳米AI搜索/webid1D6F374A1
 summary: 纳米AI，首创多智能体蜂群，一句话生成专家级视频、报告、PPT。纳米AI，集成MCP万能工具箱，打破信息围墙，让搜索更全、更广、更深、更专业。纳米AI，集成DeepSeek，智脑，通义千问等十六家大模型，支持深度推理、个人知识库管理等功能。

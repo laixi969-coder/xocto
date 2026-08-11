@@ -3,6 +3,8 @@ slug: shuohao-skills
 name: shuohao-skills
 builder: eternityspring
 category: AI + 创作
+summary_zh: 把一本小说拆成能直接开拍的短剧素材包：角色设定、形象提示词、音色、分集大纲
+inspiration: 所有人卷「生成画面」时，价值沉在上游那个又脏又累的环节：喂给生成器什么
 url: https://github.com/eternityspring/shuohao-skills
 canonical_url: https://github.com/eternityspring/shuohao-skills
 summary: AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles,

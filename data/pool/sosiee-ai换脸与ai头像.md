@@ -3,6 +3,8 @@ slug: sosiee-ai换脸与ai头像
 name: 'Sosiee: AI换脸与AI头像'
 builder: ''
 category: AI + 效率
+summary_zh: AI 换脸和头像生成
+inspiration: 已饱和品类，除非有特殊角度否则没有观察价值
 url: https://www.aicpb.com/product/Sosiee:-AI换脸与AI头像/appid1D6F37A99
 canonical_url: https://aicpb.com/product/Sosiee:-AI换脸与AI头像/appid1D6F37A99
 summary: ''

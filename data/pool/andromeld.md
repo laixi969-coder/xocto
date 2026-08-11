@@ -3,6 +3,8 @@ slug: andromeld
 name: AndroMeld
 builder: Ruoxin He
 category: AI + 效率
+summary_zh: 让安卓手机和 Mac 之间也有苹果那种接力体验
+inspiration: 巨头生态的排他性永远会留下缝隙，补缝的产品有稳定的小众市场
 url: https://www.producthunt.com/products/andromeld
 canonical_url: https://producthunt.com/products/andromeld
 summary: Bring a continuity-style experience to Android and Mac

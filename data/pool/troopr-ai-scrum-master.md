@@ -3,6 +3,8 @@ slug: troopr-ai-scrum-master
 name: Troopr AI Scrum Master
 builder: Rajesh Shanmugam
 category: AI + 效率
+summary_zh: 从真实工作记录自动写每日站会汇报，还记得团队情况
+inspiration: 从「你填表」变成「系统替你写」，这是所有汇报类工作的统一改造方向
 url: https://www.producthunt.com/products/troopr
 canonical_url: https://producthunt.com/products/troopr
 summary: Writes your standup from real work. Remembers your team.

@@ -153,6 +153,8 @@ class Store:
             "name": product.name,
             "builder": product.builder,
             "category": product.category,
+            "summary_zh": product.summary_zh,
+            "inspiration": product.inspiration,
             "url": product.url,
             "canonical_url": product.canonical_url,
             "summary": product.summary,
@@ -215,6 +217,8 @@ class Store:
                 ),
                 builder=front.get("builder") or "",
                 category=front.get("category") or "",
+                summary_zh=front.get("summary_zh") or "",
+                inspiration=front.get("inspiration") or "",
                 notes=notes,
             )
         except KeyError as exc:

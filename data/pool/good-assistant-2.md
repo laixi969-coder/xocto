@@ -3,6 +3,8 @@ slug: good-assistant-2
 name: Good Assistant 2
 builder: Jensa Bačík
 category: AI + 效率
+summary_zh: 把人生目标拆成每天能推进的小事
+inspiration: 目标管理产品的死穴是用户三天后就不打开了，留存比功能重要得多
 url: https://www.producthunt.com/products/good-assistant
 canonical_url: https://producthunt.com/products/good-assistant
 summary: Turn life goals into daily progress.

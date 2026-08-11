@@ -3,6 +3,8 @@ slug: longhorizon-harness
 name: LongHorizon-Harness
 builder: AMAP-ML
 category: AI + 开发
+summary_zh: 让 AI agent 跨桌面应用长时间连续操作的执行框架
+inspiration: 长任务比单次问答难十倍，谁先解决「跑三小时不崩」谁就拿到企业订单
 url: https://lh-harness.pages.dev
 canonical_url: https://lh-harness.pages.dev
 summary: The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended

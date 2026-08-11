@@ -3,6 +3,8 @@ slug: ai-pulse
 name: ai-pulse
 builder: leog_me
 category: AI + 效率
+summary_zh: Mac 程序坞旁边一条假的灯带，显示 agent 在干嘛
+inspiration: agent 在后台跑的时候用户是焦虑的，一个状态指示灯解决的是心理问题不是功能问题
 url: https://github.com/leog/ai-pulse
 canonical_url: https://github.com/leog/ai-pulse
 summary: AI Pulse a fake LED strip beside the macOS Dock that shows agent status

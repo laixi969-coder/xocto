@@ -3,6 +3,8 @@ slug: beemo-ai
 name: BEEMO AI
 builder: ''
 category: AI + 效率
+summary_zh: 月活 154 万且环比涨了 24%，官方没给介绍
+inspiration: 信息不足，需要深挖官网
 url: https://www.aicpb.com/product/BEEMO-AI/appid1D6F37991
 canonical_url: https://aicpb.com/product/BEEMO-AI/appid1D6F37991
 summary: ''

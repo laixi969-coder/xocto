@@ -3,6 +3,8 @@ slug: 秘塔ai搜索
 name: 秘塔AI搜索
 builder: ''
 category: 通用助手
+summary_zh: 秘塔 AI 搜索，主打没有广告直达结果
+inspiration: 「没有广告」是搜索赛道最锋利的一句攻击，因为那正是巨头不能放弃的东西
 url: https://www.aicpb.com/product/秘塔AI搜索/webid1D6F37359
 canonical_url: https://aicpb.com/product/秘塔AI搜索/webid1D6F37359
 summary: 秘塔AI搜索，没有广告，直达结果

@@ -69,6 +69,10 @@
             {% if p.status in ('analyzed', 'watching') %}<span class="tag">{{ p.status_label }}</span>{% endif %}
           </div>
         {% endif %}
+
+        {% if p.inspiration %}
+        <p class="card-insp">{{ p.inspiration }}</p>
+        {% endif %}
       </a>
       {% endfor %}
     </div>

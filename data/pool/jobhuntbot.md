@@ -3,6 +3,8 @@ slug: jobhuntbot
 name: JobHuntBot
 builder: DanielPan12
 category: AI + 商业
+summary_zh: Agent 主导的投递流程，带本地进度看板
+inspiration: 自动化最怕黑箱，配一个能看见进度的面板，用户的信任度完全不同
 url: https://github.com/DanielPan12/JobHuntBot
 canonical_url: https://github.com/DanielPan12/JobHuntBot
 summary: Agent-led job application workflow with a local progress-tracking dashboard — works with any

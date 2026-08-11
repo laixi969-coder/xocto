@@ -3,6 +3,8 @@ slug: douyin-tiktok-story-skill-agent
 name: douyin-tiktok-story-skill-agent
 builder: liujunxibaba
 category: AI + 创作
+summary_zh: 本地跑的抖音/TikTok 故事创作工作流，从选题到成片
+inspiration: 短视频的产能瓶颈在前期而不是剪辑，谁把选题和脚本标准化谁就能规模化
 url: https://github.com/liujunxibaba/douyin-tiktok-story-skill-agent
 canonical_url: https://github.com/liujunxibaba/douyin-tiktok-story-skill-agent
 summary: Local-first AI Skill and Agent for creating original Douyin and TikTok story scripts with a searchable

@@ -3,6 +3,8 @@ slug: 夸克-阿里ai旗舰应用
 name: 夸克-阿里AI旗舰应用
 builder: ''
 category: AI + 效率
+summary_zh: 阿里的 AI 旗舰应用夸克
+inspiration: 从浏览器转型成 AI 入口，是把已有流量重新装进新容器的典型做法
 url: https://www.aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139
 canonical_url: https://aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139
 summary: ''

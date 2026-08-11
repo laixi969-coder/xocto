@@ -3,6 +3,8 @@ slug: applied-micro-skills
 name: applied-micro-skills
 builder: kennethkhoocy
 category: AI + 开发
+summary_zh: 给实证经济学研究用的 Claude Code / Codex 技能包
+inspiration: 学术研究是被忽视的付费市场：流程高度标准化、错误代价大、预算来自科研经费
 url: https://github.com/kennethkhoocy/applied-micro-skills
 canonical_url: https://github.com/kennethkhoocy/applied-micro-skills
 summary: 'Claude Code and Codex skills for empirical applied-micro research: reproducibility auditing,

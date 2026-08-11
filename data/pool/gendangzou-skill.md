@@ -3,6 +3,8 @@ slug: gendangzou-skill
 name: Gendangzou-skill
 builder: MobiusQuant
 category: 基础层
+summary_zh: 面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF
+inspiration: 把行业研究的信息链条固化成可复用流程，这个结构换个行业照样成立
 url: https://gendangzou.mobiusquant.ai
 canonical_url: https://gendangzou.mobiusquant.ai
 summary: 面向 AI Agent 的可溯源 A 股板块研究 Skill，贯通政策、权威媒体、市场资金、公司与 ETF，支持实时查询、研究编排和二次应用开发。

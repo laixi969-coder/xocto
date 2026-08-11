@@ -3,6 +3,8 @@ slug: claude-by-anthropic
 name: Claude by Anthropic
 builder: ''
 category: AI + 效率
+summary_zh: Anthropic 的对话助手
+inspiration: 在通用助手这一层，模型能力和产品体验已经不是同一场比赛了
 url: https://www.aicpb.com/product/Claude-by-Anthropic/appid1D6F33BC9
 canonical_url: https://aicpb.com/product/Claude-by-Anthropic/appid1D6F33BC9
 summary: ''

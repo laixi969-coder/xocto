@@ -3,6 +3,8 @@ slug: the-new-firecrawl-mcp
 name: The new Firecrawl MCP
 builder: Eric Ciarla
 category: AI + 开发
+summary_zh: 给任意 MCP 客户端提供网页内容抓取
+inspiration: agent 时代的基础设施在重演云计算早期：谁做成默认选项谁通吃
 url: https://www.producthunt.com/products/extract-by-firecrawl
 canonical_url: https://producthunt.com/products/extract-by-firecrawl
 summary: Agent-ready web context for any MCP client.

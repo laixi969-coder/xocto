@@ -3,6 +3,8 @@ slug: basedash-subscriptions
 name: Basedash Subscriptions
 builder: Max Musing
 category: AI + 效率
+summary_zh: 订阅任意数据看板，按时间自动送到你面前
+inspiration: 把「你去查」改成「送到你面前」，同样的数据价值感完全不同
 url: https://www.producthunt.com/products/basedash
 canonical_url: https://producthunt.com/products/basedash
 summary: Subscribe to any dashboard. Delivered on schedule.

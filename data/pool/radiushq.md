@@ -3,6 +3,8 @@ slug: radiushq
 name: radiusHQ
 builder: Subhrajyoti Basu
 category: AI + 效率
+summary_zh: 一个链接解决排期混乱
+inspiration: 日程预约是已经饱和的赛道，新进入者除非有极特殊角度否则没有观察价值
 url: https://www.producthunt.com/products/radiushq
 canonical_url: https://producthunt.com/products/radiushq
 summary: One link replaces your scheduling chaos

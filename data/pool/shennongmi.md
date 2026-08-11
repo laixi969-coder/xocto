@@ -3,6 +3,8 @@ slug: shennongmi
 name: ShenNongMi
 builder: Happy-Chen-CH
 category: AI + 创作
+summary_zh: 中医知识导航，把一万九千个实体做成知识图谱
+inspiration: 垂直领域的护城河是数据结构不是模型——把行业知识整理成图谱，这活儿谁先做谁占住
 url: https://github.com/Happy-Chen-CH/ShenNongMi
 canonical_url: https://github.com/Happy-Chen-CH/ShenNongMi
 summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Neo4j graph (19K+ nodes) × LangGraph

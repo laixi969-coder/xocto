@@ -3,6 +3,8 @@ slug: stepshot
 name: StepShot
 builder: Thomas Ellon (Stewie)
 category: AI + 效率
+summary_zh: 把真实操作录屏自动转成图文步骤手册
+inspiration: 「教别人怎么做」这件事在培训、SOP、客户交付里反复出现，是同一个需求的不同壳
 url: https://www.producthunt.com/products/stepshot-2
 canonical_url: https://producthunt.com/products/stepshot-2
 summary: AI that turns real workflows into step-by-step guides

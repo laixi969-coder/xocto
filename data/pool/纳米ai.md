@@ -3,6 +3,8 @@ slug: 纳米ai
 name: 纳米AI
 builder: ''
 category: AI + 效率
+summary_zh: 360 的 AI 搜索产品
+inspiration: 信息不足，需要深挖官网
 url: https://www.aicpb.com/product/纳米AI/webid1D6F374D9
 canonical_url: https://aicpb.com/product/纳米AI/webid1D6F374D9
 summary: ''

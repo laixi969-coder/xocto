@@ -3,6 +3,8 @@ slug: open-kimi-ppt-skill
 name: open-kimi-ppt-skill
 builder: Binaryify
 category: 基础层
+summary_zh: 非官方的 Kimi Slides 技能，生成可编辑的 PPT 并带本地编辑器
+inspiration: 「可编辑」三个字是关键——AI 生成物如果不能改，在真实工作里就用不了
 url: https://github.com/Binaryify/open-kimi-ppt-skill
 canonical_url: https://github.com/Binaryify/open-kimi-ppt-skill
 summary: 非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for

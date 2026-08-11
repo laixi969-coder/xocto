@@ -3,6 +3,8 @@ slug: secondbrain-note-by-genspark
 name: SecondBrain Note by GenSpark
 builder: Rohan Chaubey
 category: AI + 效率
+summary_zh: 磁吸在手机背面的 AI 录音笔，录完还会替你办事
+inspiration: 硬件是软件的护城河：一个物理设备能建立的使用习惯，App 很难做到
 url: https://www.producthunt.com/products/genspark
 canonical_url: https://producthunt.com/products/genspark
 summary: A MagSafe AI Recorder That Acts for You

@@ -3,6 +3,8 @@ slug: gitar
 name: Gitar
 builder: Zac Zuo
 category: AI + 开发
+summary_zh: 代码审查工具，发现问题顺手就改掉
+inspiration: 从「告诉你有问题」到「直接改好」是价值的量级跃迁，也是定价能翻倍的地方
 url: https://www.producthunt.com/products/gitar
 canonical_url: https://producthunt.com/products/gitar
 summary: AI code review that fixes what it finds

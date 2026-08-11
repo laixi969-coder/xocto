@@ -3,6 +3,8 @@ slug: qwenai-阿里
 name: Qwen.ai｜阿里
 builder: ''
 category: AI + 效率
+summary_zh: 阿里千问的 Qwen.ai 站点
+inspiration: 同一个模型开多个域名入口，反映的是内部品牌尚未统一
 url: https://www.aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 canonical_url: https://aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 summary: ''

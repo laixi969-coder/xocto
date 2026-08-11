@@ -3,6 +3,8 @@ slug: astrapixels
 name: AstraPixels
 builder: Nick Launches
 category: AI + 生活
+summary_zh: 像素风太阳系，按真实位置实时显示
+inspiration: 无用但美的东西有独立的传播力，它不解决问题，它提供分享的理由
 url: https://www.producthunt.com/products/astrapixels
 canonical_url: https://producthunt.com/products/astrapixels
 summary: ​​A pixel-art solar system at its real current positions.​

@@ -106,10 +106,16 @@ def _section(body: str, *titles: str, limit: int = 200) -> str:
 
 @dataclass(frozen=True)
 class Report:
-    """一份每日观察。"""
+    """一份每日观察。
+
+    hook 是给首页用的钩子 —— 列表里只写"当日趋势判断"没人会点，
+    得把当天最反直觉的那句结论摆出来。
+    """
 
     day: str
     body_html: str
+    hook: str = ""
+    highlights: tuple[str, ...] = ()
 
 
 def _split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
@@ -176,7 +182,17 @@ def load_reports(store: Store) -> list[Report]:
             text = path.read_text(encoding="utf-8")
         except OSError:
             continue
-        out.append(Report(day=path.stem, body_html=_markdown(text)))
+
+        front, body = _split_frontmatter(text)
+        highlights = front.get("highlights") or []
+        out.append(
+            Report(
+                day=str(front.get("day") or path.stem),
+                body_html=_markdown(body),
+                hook=str(front.get("hook") or ""),
+                highlights=tuple(str(h) for h in highlights),
+            )
+        )
     return out
 
 
@@ -279,11 +295,15 @@ def build_context(store: Store) -> dict[str, Any]:
         if a.slug in view_by_slug
     ]
 
-    # 2. 值得留意：进了观察名单但还没展开分析的，有描述才有意义
+    # 2. 值得留意：进了观察名单但还没展开分析的
     notables = sorted(
         (v for v in views if v["status"] == STATUS_WATCHING and v["summary"]),
         key=lambda v: -v["weight"],
     )
+
+    # 覆盖率：没中文说明、没灵感的产品对读者是废卡片，得看得见还差多少
+    missing_zh = [v for v in views if not v["is_zh"]]
+    missing_insp = [v for v in views if not v["inspiration"]]
 
     # 3. 增长信号：环比异常的，那才是信号，不是排名
     movers = sorted(
@@ -311,6 +331,8 @@ def build_context(store: Store) -> dict[str, Any]:
             "proven": len(proven),
             "analysed": len(analyses),
             "watching": len(notables),
+            "missing_zh": len(missing_zh),
+            "missing_inspiration": len(missing_insp),
         },
         "analyses": analyses,
         "analysis_by_slug": by_slug,
@@ -333,7 +355,12 @@ def product_view(product: Product) -> dict[str, Any]:
         "slug": product.slug,
         "name": product.name,
         "builder": product.builder,
-        "summary": product.summary,
+        # 展示一律优先中文。源给的多半是英文营销话术，
+        # 摆在列表里读者一行扫过去等于没看见。
+        "summary": product.summary_zh or product.summary,
+        "summary_raw": product.summary,
+        "is_zh": bool(product.summary_zh),
+        "inspiration": product.inspiration,
         "url": _external_url(product),
         "status": product.status,
         "status_label": STATUS_LABELS.get(product.status, product.status),

@@ -3,6 +3,8 @@ slug: graph-engineering
 name: graph-engineering
 builder: codejunkie99
 category: 基础层
+summary_zh: 给 agent 用的知识图谱工程，九个阶段的流水线
+inspiration: 知识图谱在 AI 时代第二次翻红，这次是因为 agent 需要结构化的世界模型
 url: https://github.com/codejunkie99/graph-engineering
 canonical_url: https://github.com/codejunkie99/graph-engineering
 summary: 'Graph engineering for AI agents: the 9-stage knowledge-graph pipeline (translated from SEU''s

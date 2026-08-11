@@ -3,6 +3,8 @@ slug: admitraven
 name: AdmitRaven
 builder: Xander Hastings
 category: AI + 生活
+summary_zh: 大学申请界的多邻国，把申请流程做成闯关
+inspiration: 把痛苦流程游戏化，适用于所有「一辈子做一两次但极度焦虑」的事
 url: https://www.producthunt.com/products/admitraven
 canonical_url: https://producthunt.com/products/admitraven
 summary: Duolingo for college applications

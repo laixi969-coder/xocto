@@ -3,6 +3,8 @@ slug: everycube
 name: everycube
 builder: Alen123
 category: AI + 生活
+summary_zh: 能翻遍魔方全部 4325 亿亿种状态
+inspiration: 把一个大到无法想象的数字变成能滚动浏览的东西，这是数据可视化的极致演示
 url: https://everycube.alen.is/
 canonical_url: https://everycube.alen.is
 summary: Scroll through all 43252003274489856000 Rubik's Cube states

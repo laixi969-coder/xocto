@@ -3,6 +3,8 @@ slug: qoder-阿里
 name: Qoder-阿里
 builder: ''
 category: AI + 开发
+summary_zh: 阿里的 agent 编程平台，面向真实工程项目
+inspiration: 大厂用「真实软件」而不是「玩具项目」做定位，在切专业开发者市场
 url: https://www.aicpb.com/product/Qoder-阿里/webid1D6F364C9
 canonical_url: https://aicpb.com/product/Qoder-阿里/webid1D6F364C9
 summary: Qoder is an agentic coding platform for real software, think deeper, build better.

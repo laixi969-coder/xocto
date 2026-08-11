@@ -3,6 +3,8 @@ slug: voiceos-app-store
 name: VoiceOS App Store
 builder: Garry Tan
 category: AI + 商业
+summary_zh: 给语音原生应用做的应用商店，住在 Mac 刘海里
+inspiration: 新交互方式出现时最先赚钱的往往是分发渠道，不是应用本身
 url: https://www.producthunt.com/products/voiceos
 canonical_url: https://producthunt.com/products/voiceos
 summary: The app store for voice native apps that lives in your notch

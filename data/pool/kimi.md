@@ -3,6 +3,8 @@ slug: kimi
 name: Kimi
 builder: ''
 category: AI + 效率
+summary_zh: 月之暗面 Kimi 的国际站
+inspiration: 国产模型出海先做的都是网页版，因为绕开了应用商店的审核和分成
 url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
 canonical_url: https://aicpb.com/product/Kimi/appid1D6F332E1
 summary: ''

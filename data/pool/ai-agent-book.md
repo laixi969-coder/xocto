@@ -3,6 +3,8 @@ slug: ai-agent-book
 name: ai-agent-book
 builder: chemark
 category: AI + 生活
+summary_zh: 讲 AI Agent 设计原理与工程实践的开源教材
+inspiration: 在技术快速变化期，教材本身就是影响力入口，写书的人定义了行业词汇
 url: https://github.com/chemark/ai-agent-book
 canonical_url: https://github.com/chemark/ai-agent-book
 summary: '深入理解 AI Agent：设计原理与工程实践（学习副本，upstream: bojieli/ai-agent-book）'

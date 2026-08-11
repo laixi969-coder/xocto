@@ -3,6 +3,8 @@ slug: rythmix-ai-music-generator
 name: Rythmix - AI Music Generator
 builder: ''
 category: AI + 创作
+summary_zh: AI 音乐生成工具，榜单有月活数据但没给介绍
+inspiration: 信息不足，需要深挖官网
 url: https://www.aicpb.com/product/Rythmix-AI-Music-Generator/appid1D6F32379
 canonical_url: https://aicpb.com/product/Rythmix-AI-Music-Generator/appid1D6F32379
 summary: ''

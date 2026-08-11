@@ -68,12 +68,17 @@
       {% for p in notables %}
       <li>
         <a href="{{ root }}p/{{ p.slug }}.html">
-          <span class="row-name">{{ p.name }}</span>
-          <span class="row-desc">{{ p.summary }}</span>
-          <span class="row-tail">
-            {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
-            {% if p.badges %}<span class="tag sig">{{ p.badges[0] }}</span>{% endif %}
-          </span>
+          <div class="row-head">
+            <span class="row-name">{{ p.name }}</span>
+            <span class="row-desc">{{ p.summary }}</span>
+            <span class="row-tail">
+              {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+              {% if p.badges %}<span class="tag sig">{{ p.badges[0] }}</span>{% endif %}
+            </span>
+          </div>
+          {% if p.inspiration %}
+          <p class="row-insp">{{ p.inspiration }}</p>
+          {% endif %}
         </a>
       </li>
       {% endfor %}
@@ -125,18 +130,23 @@
 
   {% if reports %}
   <section class="band">
-    <div class="sec-head"><h2>每日观察</h2></div>
-    <ul class="rows">
-      {% for r in reports[:6] %}
-      <li>
-        <a href="{{ root }}r/{{ r.day }}.html">
-          <span class="row-name num">{{ r.day }}</span>
-          <span class="row-desc">当日趋势判断与市场信号</span>
-          <span class="row-tail"><span class="tag">观察</span></span>
-        </a>
-      </li>
+    <div class="sec-head">
+      <h2>每日观察</h2>
+      <span class="note">当天最反直觉的那句结论</span>
+    </div>
+    <div class="obs">
+      {% for r in reports[:4] %}
+      <a class="obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
+        <div class="obs-day num">{{ r.day }}</div>
+        <p class="obs-hook">{{ r.hook or '当日趋势判断与市场信号' }}</p>
+        {% if r.highlights %}
+        <div class="obs-tags">
+          {% for h in r.highlights %}<span class="tag">{{ h }}</span>{% endfor %}
+        </div>
+        {% endif %}
+      </a>
       {% endfor %}
-    </ul>
+    </div>
   </section>
   {% endif %}
 

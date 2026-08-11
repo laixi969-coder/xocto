@@ -3,6 +3,8 @@ slug: nuphus-mcp
 name: nuphus-mcp
 builder: mrpulor-gh
 category: 基础层
+summary_zh: 桌面自动化服务，让任意 agent 能控制屏幕
+inspiration: 「让 agent 用鼠标键盘」绕开了所有 API 限制，粗暴但通用
 url: https://github.com/mrpulor-gh/nuphus-mcp
 canonical_url: https://github.com/mrpulor-gh/nuphus-mcp
 summary: 'Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard,

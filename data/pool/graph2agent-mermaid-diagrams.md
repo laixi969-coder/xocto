@@ -3,6 +3,8 @@ slug: graph2agent-mermaid-diagrams
 name: Graph2agent; Mermaid diagrams
 builder: alexandroskyr
 category: 基础层
+summary_zh: 把 Mermaid 图解释给 agent 听
+inspiration: 人看图、机器看结构，中间的翻译层是个被低估的小生意
 url: https://graph2agent.github.io/
 canonical_url: https://graph2agent.github.io
 summary: explained for agents

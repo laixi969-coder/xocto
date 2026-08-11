@@ -3,6 +3,8 @@ slug: playground
 name: playground
 builder: zachdotai
 category: 基础层
+summary_zh: 开源的红队演练场，用公开提示词攻击 AI agent
+inspiration: 攻击工具永远先于防御工具成熟，安全测试是 agent 落地前的必经环节
 url: https://playground.fabraix.com/
 canonical_url: https://playground.fabraix.com
 summary: Open-source playground to red-team AI agents against public prompts

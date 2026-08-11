@@ -3,6 +3,8 @@ slug: languagereactor
 name: languagereactor
 builder: ''
 category: AI + 生活
+summary_zh: 看剧学语言的工具，月访问 259 万，环比涨 54%
+inspiration: 把学习嵌进娱乐里，用户不觉得自己在学，这是留存最好的教育产品形态
 url: https://www.aicpb.com/product/languagereactor/webid1D6F37AB1
 canonical_url: https://aicpb.com/product/languagereactor/webid1D6F37AB1
 summary: ''

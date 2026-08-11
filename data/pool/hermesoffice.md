@@ -3,6 +3,8 @@ slug: hermesoffice
 name: HermesOffice
 builder: criptogus
 category: AI + 效率
+summary_zh: 从 GenOffice 分叉出来的 AI 原生办公套件
+inspiration: 开源分叉本身是个信号：说明原项目的方向和一部分用户的需求分歧了
 url: https://github.com/criptogus/HermesOffice
 canonical_url: https://github.com/criptogus/HermesOffice
 summary: HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes

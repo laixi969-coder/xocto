@@ -3,6 +3,8 @@ slug: workflo
 name: Workflo
 builder: Chirag Chopra
 category: AI + 效率
+summary_zh: Mac 工作区自动化，但从不读取你的屏幕
+inspiration: 把「我们不看什么」写进定位，隐私正在从合规项变成营销点
 url: https://www.producthunt.com/products/workflo-2
 canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen

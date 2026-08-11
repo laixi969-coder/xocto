@@ -3,6 +3,8 @@ slug: ai-video-generator-maker
 name: AI Video Generator + Maker
 builder: ''
 category: AI + 创作
+summary_zh: AI 视频生成工具，榜单里有真实月活但官方没给介绍
+inspiration: 信息不足，需要深挖官网
 url: https://www.aicpb.com/product/AI-Video-Generator-+-Maker/appid1D6F341D9
 canonical_url: https://aicpb.com/product/AI-Video-Generator-+-Maker/appid1D6F341D9
 summary: ''

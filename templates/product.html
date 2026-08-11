@@ -36,6 +36,15 @@
     </div>
   </div>
 
+  {% if product.inspiration %}
+  <section class="band">
+    <div class="field field-take">
+      <span class="field-k">这个产品给你的灵感</span>
+      <p>{{ product.inspiration }}</p>
+    </div>
+  </section>
+  {% endif %}
+
   {% if analysis and (analysis.replaces or analysis.takeaway) %}
   {# 这两段从正文里抽出来置顶：一个是判断真伪的依据，一个是读者真正要拿走的东西 #}
   <section class="band">

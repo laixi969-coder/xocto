@@ -3,6 +3,8 @@ slug: deepseek
 name: DeepSeek
 builder: ''
 category: 通用助手
+summary_zh: DeepSeek 的对话产品，国内网站访问量第一（4.84 亿）
+inspiration: 开源模型 + 免费产品的组合把整个行业的定价打到了地板，这个冲击还在扩散
 url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.

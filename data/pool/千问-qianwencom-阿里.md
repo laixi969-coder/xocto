@@ -3,6 +3,8 @@ slug: 千问-qianwencom-阿里
 name: 千问 qianwen.com｜阿里
 builder: ''
 category: 通用助手
+summary_zh: 阿里千问的独立域名版本
+inspiration: 巨头给同一个模型开多个入口，是在测哪个品牌资产更有效
 url: https://www.aicpb.com/product/千问-qianwen.com｜阿里/webid1D6F375E9
 canonical_url: https://aicpb.com/product/千问-qianwen.com｜阿里/webid1D6F375E9
 summary: ''

@@ -3,6 +3,8 @@ slug: pyrig
 name: Pyrig
 builder: Winipedia
 category: AI + 效率
+summary_zh: 自动化项目初始化和日常维护的工具
+inspiration: 重复的开头工作是最适合自动化的，因为标准明确、犯错代价低
 url: https://github.com/Winipedia/pyrig
 canonical_url: https://github.com/Winipedia/pyrig
 summary: A tool that automates project setup and maintenance

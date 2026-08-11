@@ -5,6 +5,8 @@ name: 'vivago.ai
   从灵感到大片，每个人都能用的 AI 导演'
 builder: ''
 category: AI + 效率
+summary_zh: 定位是人人可用的 AI 导演，从灵感到成片
+inspiration: 「每个人都能用」这句话通常意味着还没找到具体是谁在用
 url: https://www.aicpb.com/product/vivago.ai-从灵感到大片，每个人都能用的-AI-导演/appid1D6F32F39
 canonical_url: https://aicpb.com/product/vivago.ai-从灵感到大片，每个人都能用的-AI-导演/appid1D6F32F39
 summary: ''
