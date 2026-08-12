@@ -24,7 +24,7 @@
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="index.html"><span>x-octo 首页</span></a>
+    <a class="brand" href="index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
     <nav class="nav">
       <a href="index.html" class="">首页</a>
       <a href="products.html" class="on">全部产品</a>
@@ -2622,17 +2622,13 @@
       group.addEventListener('click', function (e) {
         var btn = e.target.closest('button');
         if (!btn) return;
-        group.querySelectorAll('button').forEach(function (b) {
-          b.classList.remove('on');
-          b.setAttribute('aria-pressed', 'false');
-        });
-        btn.classList.add('on');
-        btn.setAttribute('aria-pressed', 'true');
+        mark(group, btn.dataset.val);
 
         if (group.dataset.dim === 'sort') {
           sort = btn.dataset.val;
           reorder();
           apply(true);
+          syncHash();   // 排序分支原来漏了这一句，换了排序刷新就掉回默认
         } else {
           active[group.dataset.dim] = btn.dataset.val;
           apply(true);
@@ -2645,37 +2641,74 @@
       active = { category: '', stage: '', status: '' };
       document.querySelectorAll('.filters').forEach(function (g) {
         if (g.dataset.dim === 'sort') return;
-        g.querySelectorAll('button').forEach(function (b) {
-          b.classList.remove('on');
-          b.setAttribute('aria-pressed', 'false');
-        });
-        var first = g.querySelector('button');
-        first.classList.add('on');
-        first.setAttribute('aria-pressed', 'true');
+        mark(g, '');
       });
       apply(true);
       syncHash();
     });
 
-    // 筛选状态写进 URL：可分享、可后退、刷新不丢
+    // 筛选状态写进 URL：刷新不丢、链接可分享。
+    // 四个维度全都要写 —— 原来只写 category，于是筛了「已验证」再刷新就掉回
+    // 全部（3 个变 19 个），把链接发给别人看到的也是另一个结果。
+    // 用 replaceState 不用 pushState：筛选是调参不是导航，
+    // 每点一次塞一条历史记录的话，想离开这页得连按十几次后退。
+    var DIMS = { c: 'category', s: 'stage', v: 'status' };
+
     function syncHash() {
-      var want = active.category ? '#' + encodeURIComponent(active.category) : ' ';
-      if (want.trim()) {
-        history.replaceState(null, '', want);
-      } else if (location.hash) {
-        history.replaceState(null, '', location.pathname);
-      }
+      var parts = [];
+      Object.keys(DIMS).forEach(function (k) {
+        if (active[DIMS[k]]) parts.push(k + '=' + encodeURIComponent(active[DIMS[k]]));
+      });
+      if (sort !== 'weight') parts.push('o=' + encodeURIComponent(sort));
+      var url = parts.length ? location.pathname + '#' + parts.join('&') : location.pathname;
+      history.replaceState(null, '', url);
+    }
+
+    // 选中态要同时改 class 和 aria-pressed。只改 class 的话，
+    // 读屏用户拿到的是相反的状态 —— 比没有无障碍支持更糟。
+    function mark(group, val) {
+      var hit = null;
+      group.querySelectorAll('button').forEach(function (b) {
+        var on = b.dataset.val === val;
+        b.classList.toggle('on', on);
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+        if (on) hit = b;
+      });
+      return hit;
     }
 
     function fromHash() {
-      var want = decodeURIComponent((location.hash || '').replace('#', ''));
-      var group = document.querySelector('.filters[data-dim="category"]');
-      var btn = Array.prototype.slice.call(group.querySelectorAll('button'))
-        .filter(function (b) { return b.dataset.val === want; })[0];
-      if (!btn) return;
-      group.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
-      btn.classList.add('on');
-      active.category = want;
+      var raw = (location.hash || '').replace('#', '');
+      if (!raw) return;
+      var parsed = {};
+      raw.split('&').forEach(function (pair) {
+        var i = pair.indexOf('=');
+        if (i < 0) return;
+        try { parsed[pair.slice(0, i)] = decodeURIComponent(pair.slice(i + 1)); } catch (e) {}
+      });
+
+      // 老格式兼容：以前 hash 里是裸的赛道名，没有 k=v。
+      // 别人存过的书签不能一升级就打不开。
+      if (!Object.keys(parsed).length) {
+        try { parsed.c = decodeURIComponent(raw); } catch (e) { return; }
+      }
+
+      Object.keys(DIMS).forEach(function (k) {
+        var dim = DIMS[k];
+        var val = parsed[k] || '';
+        var group = document.querySelector('.filters[data-dim="' + dim + '"]');
+        // hash 里给了不存在的值就当没给，不要静默筛出 0 个结果
+        if (val && !mark(group, val)) { mark(group, ''); val = ''; }
+        else if (!val) mark(group, '');
+        active[dim] = val;
+      });
+
+      var sortGroup = document.querySelector('.filters[data-dim="sort"]');
+      var wantSort = parsed.o || 'weight';
+      if (!mark(sortGroup, wantSort)) { mark(sortGroup, 'weight'); wantSort = 'weight'; }
+      sort = wantSort;
+
+      reorder();
       apply(false);
     }
 
@@ -2694,7 +2727,7 @@
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>160 个产品 · 8 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 20:05</span>
+    <span class="gen">数据截至 2026-08-11</span>
   </footer>
 </div>
 

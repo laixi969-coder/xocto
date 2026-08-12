@@ -119,7 +119,7 @@
     <div class="sec-head">
       <h2>同方向的其他</h2>
       {% if product.category %}
-      <a class="note onward-all" href="{{ root }}products.html#{{ product.category }}">
+      <a class="note onward-all" href="{{ root }}products.html#c={{ product.category | urlencode }}">
         {{ product.category }} 共 {{ product.category_total }} 个 →
       </a>
       {% endif %}

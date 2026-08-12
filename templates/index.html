@@ -119,7 +119,7 @@
     <div class="sec-head"><h2>按方向找</h2></div>
     <div class="cats">
       {% for c in categories %}
-      <a class="cat" href="{{ root }}products.html#{{ c.name }}">
+      <a class="cat" href="{{ root }}products.html#c={{ c.name | urlencode }}">
         <span>{{ c.name }}</span>
         <b class="num">{{ c.count }}</b>
       </a>

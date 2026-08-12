@@ -52,7 +52,9 @@ class Http:
     """
 
     timeout: float = 25.0
-    user_agent: str = "x-octo/0.1"
+    # UA 里带上项目地址：源站运维要是觉得我们抓得不对，
+    # 有个地方能找到人，而不是直接把 UA 拉黑。
+    user_agent: str = "x-octo/0.1 (+https://github.com/laixi969-coder/xocto)"
     retries: int = 2
     backoff: float = 2.0
 
@@ -71,6 +73,7 @@ class Http:
         last_error: Exception | None = None
 
         for attempt in range(self.retries + 1):
+            resp: httpx.Response | None = None
             try:
                 resp = httpx.get(
                     url,
@@ -89,9 +92,23 @@ class Http:
                 last_error = HttpError(f"{url} 返回 {resp.status_code}")
 
             if attempt < self.retries:
-                time.sleep(self.backoff * (attempt + 1))
+                time.sleep(self._wait(attempt, resp))
 
         raise HttpError(f"{url} 重试 {self.retries} 次仍失败: {last_error}")
+
+    def _wait(self, attempt: int, resp: httpx.Response | None) -> float:
+        """退避时长。
+
+        对方回了 Retry-After 就听它的 —— 那是源站明确告诉我们该等多久，
+        无视它继续按自己的节奏敲，是最容易被永久封的行为。
+        没给就指数退避（2/4/8…），不是线性：源站正在过载时，
+        线性退避的第二次重试往往还落在同一个故障窗口里。
+        """
+        if resp is not None and resp.status_code == 429:
+            raw = resp.headers.get("Retry-After", "").strip()
+            if raw.isdigit():
+                return min(float(raw), 120.0)   # 封顶，别让单次采集挂死
+        return self.backoff * (2**attempt)
 
 
 def to_iso(dt: datetime) -> str:

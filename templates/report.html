@@ -117,11 +117,17 @@
     if (!links.length || !secs.length) return;
 
     var ticking = false;
+    // 判定线跟着 --bar 走，不写死数字 —— 顶栏高度改了这里会自己对上
+    function threshold() {
+      var bar = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--bar')) || 57;
+      return bar + 63;
+    }
     function update() {
       ticking = false;
+      var line = threshold();
       var current = secs[0].id;
       for (var i = 0; i < secs.length; i++) {
-        if (secs[i].getBoundingClientRect().top <= 120) current = secs[i].id;
+        if (secs[i].getBoundingClientRect().top <= line) current = secs[i].id;
       }
       links.forEach(function (a) {
         a.classList.toggle('on', a.dataset.anchor === current);

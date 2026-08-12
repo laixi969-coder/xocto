@@ -18,7 +18,7 @@ from __future__ import annotations
 import re
 import shutil
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -355,7 +355,10 @@ def build_context(store: Store) -> dict[str, Any]:
         view["category_total"] = counts.get(view["category"], 0)
 
     return {
-        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        # 页脚要回答的是"数据什么时候更新的"，不是"HTML 什么时候渲染的"。
+        # 原来填 datetime.now()，于是不采集只重建也会让"更新于"往前走 —— 那是假消息。
+        # 顺带修掉一个更烦的后果：时间戳进了 163 个页面，每次构建全部文件都变，
+        # git diff 里看不出当天真正改了什么，也违反 CLAUDE.md 的幂等要求。
         "latest_day": max((v["last_seen"] for v in views), default=""),
         "stats": {
             "total": len(views),

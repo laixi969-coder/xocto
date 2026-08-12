@@ -26,7 +26,7 @@
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="{{ root }}index.html"><span>x-octo 首页</span></a>
+    <a class="brand" href="{{ root }}index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
     <nav class="nav">
       <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">首页</a>
       <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">全部产品</a>
@@ -51,7 +51,7 @@
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>{{ stats.total }} 个产品 · {{ stats.analysed }} 份深度分析</span>
-    <span class="gen">更新于 {{ generated_at }}</span>
+    <span class="gen">数据截至 {{ latest_day }}</span>
   </footer>
 </div>
 
