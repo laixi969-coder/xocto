@@ -5,6 +5,9 @@ builder: genspark-ai
 category: AI + 创作
 summary_zh: 开源的 AI 办公套件，Word/Excel/PPT 三件套，跨三个系统
 inspiration: 对标微软这种巨头，唯一可行的攻击角度是「免费 + 本地 + 开源」，不是功能更强
+summary_en: ''
+inspiration_en: Against an incumbent this size the only viable angle is free, local, and open source —
+  not more features.
 url: https://www.genspark.ai
 canonical_url: https://genspark.ai
 summary: Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint

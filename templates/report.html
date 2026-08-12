@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{{ report.day }} 每日观察 · x-octo{% endblock %}
-{% block ogtitle %}{{ report.day }} 每日观察 · x-octo{% endblock %}
+{% block title %}{{ report.day }} {{ t.report.kicker }} · {{ locale.site_name }}{% endblock %}
+{% block ogtitle %}{{ report.day }} {{ t.report.kicker }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
 <div class="wrap wrap-report">
@@ -10,8 +10,8 @@
     <p class="masthead-kicker">
       {# 版块数不在这里说，目录卡头上紧挨着清单说才有用 #}
       <span>VOL.{{ report.day | replace("-", ".") }}</span>
-      <span>每日观察</span>
-      <span>约 {{ report.doc.read_minutes }} 分钟</span>
+      <span>{{ t.report.kicker }}</span>
+      <span>{{ t.report.minutes.format(n=report.doc.read_minutes) }}</span>
     </p>
     <h1>{{ report.hook or report.label }}</h1>
     <p class="masthead-date">{{ report.label }}</p>
@@ -30,8 +30,11 @@
     <div class="report-main">
 
       {# 目录：7 个版块的长文，进来先给一张地图，否则读者不知道有多长 #}
-      <nav class="toc" aria-label="本期目录">
-        <p class="toc-head"><span>本期目录</span><span class="num">{{ report.doc.sections | length }} 个版块</span></p>
+      <nav class="toc" aria-label="{{ t.report.toc }}">
+        <p class="toc-head">
+          <span>{{ t.report.toc }}</span>
+          <span class="num">{{ t.report.toc_count.format(n=report.doc.sections | length) }}</span>
+        </p>
         <ol class="toc-list">
           {% for s in report.doc.sections %}
           <li>
@@ -86,15 +89,15 @@
     </div>
 
     {# 滚动定位条：长文里随时知道自己在第几块，以及往期入口 #}
-    <aside class="report-rail" aria-label="版块导航">
-      <p class="rail-k">本期</p>
+    <aside class="report-rail" aria-label="{{ t.report.rail_aria }}">
+      <p class="rail-k">{{ t.report.rail_now }}</p>
       <ol class="rail-list" id="rail-list">
         {% for s in report.doc.sections %}
         <li><a href="#{{ s.anchor }}" data-anchor="{{ s.anchor }}"><span class="num">{{ s.index }}</span>{{ s.title }}</a></li>
         {% endfor %}
       </ol>
       {% if reports | length > 1 %}
-      <p class="rail-k">往期</p>
+      <p class="rail-k">{{ t.report.rail_past }}</p>
       <ul class="rail-past">
         {% for r in reports[:8] %}
         <li><a href="{{ root }}r/{{ r.day }}.html" class="{{ 'on' if r.day == report.day }}">{{ r.day }}</a></li>

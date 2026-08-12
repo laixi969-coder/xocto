@@ -6,24 +6,21 @@
   {# 不做占满一屏的 Hero。用户是来找东西的，不是来读标语的。 #}
   <div class="lede-bar">
     <div class="lede-main">
-      <h1>今天有 <em class="num">{{ stats.analysed }}</em> 个值得看</h1>
-      <p>
-        全球 AI 应用每天新增几百个，绝大多数是套壳。
-        这里只留下能说清「它替代了什么旧行为」的——答不上来的，一律不推荐。
-      </p>
+      <h1>{{ t.home.lede_pre }}<em class="num">{{ stats.analysed }}</em>{{ t.home.lede_post }}</h1>
+      <p>{{ t.home.lede_body }}</p>
     </div>
     <dl class="lede-stats">
-      <div><dt>在库</dt><dd class="num">{{ stats.total }}</dd></div>
-      <div><dt>刚冒头</dt><dd class="num">{{ stats.early }}</dd></div>
-      <div><dt>已验证</dt><dd class="num">{{ stats.proven }}</dd></div>
+      <div><dt>{{ t.home.stat_total }}</dt><dd class="num">{{ stats.total }}</dd></div>
+      <div><dt>{{ locale.stages.early }}</dt><dd class="num">{{ stats.early }}</dd></div>
+      <div><dt>{{ locale.stages.proven }}</dt><dd class="num">{{ stats.proven }}</dd></div>
     </dl>
   </div>
 
   {% if picks %}
   <section class="band">
     <div class="sec-head">
-      <h2>今日判断</h2>
-      <span class="note">每条判断都能追溯到证据，拿不准的写「不确定」</span>
+      <h2>{{ t.home.picks }}</h2>
+      <span class="note">{{ t.home.picks_note }}</span>
     </div>
 
     <div class="picks">
@@ -32,14 +29,14 @@
         <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
           <h3>{{ p.name }}</h3>
           {% if p.analysis.verdict %}
-          <span class="verdict v-{{ p.analysis.verdict }}">{{ p.analysis.verdict }}</span>
+          <span class="verdict v-{{ p.analysis.verdict_key }}">{{ p.analysis.verdict }}</span>
           {% endif %}
           {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
         </a>
         <div class="pick-body">
           {% if p.analysis.replaces %}
           <div class="field">
-            <span class="field-k">替代了什么</span>
+            <span class="field-k">{{ t.home.replaces }}</span>
             <p>{{ p.analysis.replaces }}</p>
           </div>
           {% else %}
@@ -47,7 +44,7 @@
           {% endif %}
           {% if p.analysis.takeaway %}
           <div class="field field-take">
-            <span class="field-k">能拿走什么</span>
+            <span class="field-k">{{ t.home.takeaway }}</span>
             <p>{{ p.analysis.takeaway }}</p>
           </div>
           {% endif %}
@@ -61,8 +58,8 @@
   {% if notables %}
   <section class="band">
     <div class="sec-head">
-      <h2>值得留意</h2>
-      <span class="note">替代关系清晰，但还没展开分析</span>
+      <h2>{{ t.home.notables }}</h2>
+      <span class="note">{{ t.home.notables_note }}</span>
     </div>
     <ul class="rows">
       {% for p in notables %}
@@ -89,13 +86,16 @@
   {% if movers %}
   <section class="band">
     <div class="sec-head">
-      <h2>增长信号</h2>
-      <span class="note">环比异常通常不是自然增长，是导流或口径变化</span>
+      <h2>{{ t.home.movers }}</h2>
+      <span class="note">{{ t.home.movers_note }}</span>
     </div>
     <div class="scroll-x">
       <table class="tbl">
         <thead>
-          <tr><th>产品</th><th>环比</th><th>规模</th><th>所在榜单</th></tr>
+          <tr>
+            <th>{{ t.home.col_product }}</th><th>{{ t.home.col_growth }}</th>
+            <th>{{ t.home.col_scale }}</th><th>{{ t.home.col_boards }}</th>
+          </tr>
         </thead>
         <tbody>
           {% for p in movers %}
@@ -116,7 +116,7 @@
 
   {% if categories %}
   <section class="band">
-    <div class="sec-head"><h2>按方向找</h2></div>
+    <div class="sec-head"><h2>{{ t.home.cats }}</h2></div>
     <div class="cats">
       {% for c in categories %}
       <a class="cat" href="{{ root }}products.html#c={{ c.name | urlencode }}">
@@ -131,14 +131,14 @@
   {% if reports %}
   <section class="band">
     <div class="sec-head">
-      <h2>每日观察</h2>
-      <span class="note">当天最反直觉的那句结论</span>
+      <h2>{{ t.home.reports }}</h2>
+      <span class="note">{{ t.home.reports_note }}</span>
     </div>
     <div class="obs">
       {% for r in reports[:4] %}
       <a class="obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
         <div class="obs-day num">{{ r.day }}</div>
-        <p class="obs-hook">{{ r.hook or '当日趋势判断与市场信号' }}</p>
+        <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>
         {% if r.highlights %}
         <div class="obs-tags">
           {% for h in r.highlights %}<span class="tag">{{ h }}</span>{% endfor %}

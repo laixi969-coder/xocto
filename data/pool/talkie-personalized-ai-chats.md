@@ -5,6 +5,9 @@ builder: ''
 category: 通用助手
 summary_zh: 个性化 AI 聊天角色应用
 inspiration: 角色扮演类产品的月活稳定，说明陪伴需求比工具需求更持久
+summary_en: Personalized AI chat characters.
+inspiration_en: Roleplay products hold their monthly actives steady, which says companionship outlasts
+  utility.
 url: https://www.aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 canonical_url: https://aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 summary: ''

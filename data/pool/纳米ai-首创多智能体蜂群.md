@@ -5,6 +5,9 @@ builder: ''
 category: AI + 效率
 summary_zh: 360 纳米 AI，主打多智能体蜂群
 inspiration: 「多智能体」正在变成国内产品的军备竞赛术语，用户其实分不清差别
+summary_en: 360's Nano AI, pitched on a swarm of agents.
+inspiration_en: “Multi-agent” is becoming an arms-race term in Chinese products. Users can't tell the
+  difference.
 url: https://www.aicpb.com/product/纳米AI-首创多智能体蜂群/appid1D6F37A71
 canonical_url: https://aicpb.com/product/纳米AI-首创多智能体蜂群/appid1D6F37A71
 summary: ''

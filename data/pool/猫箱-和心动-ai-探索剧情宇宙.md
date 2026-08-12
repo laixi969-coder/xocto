@@ -5,6 +5,9 @@ builder: ''
 category: AI + 效率
 summary_zh: 字节的 AI 角色扮演产品，多样角色与剧情
 inspiration: 角色扮演是国内 AI 应用里留存最好的品类之一，情感需求比工具需求黏得多
+summary_en: 'ByteDance''s AI roleplay product: a range of characters and storylines.'
+inspiration_en: Roleplay retains better than almost anything else in Chinese AI apps. Emotional need sticks
+  harder than utility.
 url: https://www.aicpb.com/product/猫箱-和心动-AI-探索剧情宇宙/appid1D6F37891
 canonical_url: https://aicpb.com/product/猫箱-和心动-AI-探索剧情宇宙/appid1D6F37891
 summary: 多样 AI 角色与故事

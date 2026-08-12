@@ -5,6 +5,9 @@ builder: ''
 category: 通用助手
 summary_zh: 智谱的 Z.ai 国际站
 inspiration: 国内模型厂商用独立域名做海外版，是在规避品牌关联带来的合规审视
+summary_en: ''
+inspiration_en: A separate domain for the overseas version avoids the compliance scrutiny that comes with
+  the brand association.
 url: https://www.aicpb.com/product/Z.ai/webid1D6F37C91
 canonical_url: https://aicpb.com/product/Z.ai/webid1D6F37C91
 summary: Interact with z.ai and explore the boundless creative world

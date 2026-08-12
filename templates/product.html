@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}{{ product.name }} · x-octo{% endblock %}
-{% block ogtitle %}{{ product.name }} · x-octo{% endblock %}
+{% block title %}{{ product.name }} · {{ locale.site_name }}{% endblock %}
+{% block ogtitle %}{{ product.name }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
 <div class="wrap">
@@ -9,14 +9,14 @@
     <div class="pick-id">
       <h1>{{ product.name }}</h1>
       {% if analysis and analysis.verdict %}
-      <span class="verdict v-{{ analysis.verdict }}">{{ analysis.verdict }}</span>
+      <span class="verdict v-{{ analysis.verdict_key }}">{{ analysis.verdict }}</span>
       {% endif %}
     </div>
 
     {% if product.stage_key == 'proven' %}
-    <p class="lede">{{ product.summary or '已经跑出规模的产品，判断看数据不看介绍。' }}</p>
+    <p class="lede">{{ product.summary or t.product.lede_proven }}</p>
     {% else %}
-    <p class="lede">{{ product.summary or '还没有简介，需要深挖官网才能判断它到底做什么。' }}</p>
+    <p class="lede">{{ product.summary or t.product.lede_early }}</p>
     {% endif %}
 
     <div class="meta">
@@ -27,12 +27,12 @@
 
     <div class="kv">
       {% if product.builder %}
-      <div><span>做这个的人</span><b>{{ product.builder }}</b></div>
+      <div><span>{{ t.product.builder }}</span><b>{{ product.builder }}</b></div>
       {% endif %}
-      <div><span>首次出现</span><b class="num">{{ product.first_seen }}</b></div>
-      <div><span>最近出现</span><b class="num">{{ product.last_seen }}</b></div>
+      <div><span>{{ t.product.first_seen }}</span><b class="num">{{ product.first_seen }}</b></div>
+      <div><span>{{ t.product.last_seen }}</span><b class="num">{{ product.last_seen }}</b></div>
       {% if product.url %}
-      <div><span>链接</span><b><a href="{{ product.url }}" target="_blank" rel="noopener">打开 ↗</a></b></div>
+      <div><span>{{ t.product.link }}</span><b><a href="{{ product.url }}" target="_blank" rel="noopener">{{ t.product.link_open }}</a></b></div>
       {% endif %}
     </div>
   </div>
@@ -40,7 +40,7 @@
   {% if product.inspiration %}
   <section class="band">
     <div class="field field-take">
-      <span class="field-k">这个产品给你的灵感</span>
+      <span class="field-k">{{ t.product.inspiration }}</span>
       <p>{{ product.inspiration }}</p>
     </div>
   </section>
@@ -52,13 +52,13 @@
     <div class="summary-grid">
       {% if analysis.replaces %}
       <div class="field">
-        <span class="field-k">替代了什么旧行为</span>
+        <span class="field-k">{{ t.product.replaces }}</span>
         <p>{{ analysis.replaces }}</p>
       </div>
       {% endif %}
       {% if analysis.takeaway %}
       <div class="field field-take">
-        <span class="field-k">能拿走什么</span>
+        <span class="field-k">{{ t.product.takeaway }}</span>
         <p>{{ analysis.takeaway }}</p>
       </div>
       {% endif %}
@@ -68,8 +68,8 @@
 
   {% if product.boards %}
   <section class="band">
-    <div class="sec-head"><h2>所在榜单</h2>
-      <span class="note">上了哪些细分榜，说明它的品类和地位</span>
+    <div class="sec-head"><h2>{{ t.product.boards }}</h2>
+      <span class="note">{{ t.product.boards_note }}</span>
     </div>
     <div class="meta">
       {% for b in product.boards %}<span class="tag">{{ b }}</span>{% endfor %}
@@ -85,21 +85,21 @@
   {# 空状态不是死路，是岔路口：说清这里有什么、没有什么、往哪走 #}
   <section class="band">
     <div class="noanalysis">
-      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
+      <p class="noanalysis-lead">{{ t.product.none_lead }}</p>
       <p class="noanalysis-sub">
-        上面那句灵感是目前能给的全部判断。
+        {% if product.inspiration %}{{ t.product.none_sub }}{% endif %}
         {% if product.stage_key == 'early' %}
-        它还太早，没有可验证的数据，再多写就是编。
+        {{ t.product.none_early }}
         {% else %}
-        它已经跑出规模，判断要看流量和环比的变化，不是看一次快照。
+        {{ t.product.none_proven }}
         {% endif %}
       </p>
       {% set analysed_sibling = product.siblings | selectattr('status', 'equalto', 'analyzed') | list %}
       {% if analysed_sibling %}
       <p class="noanalysis-sub">
-        同方向已经分析过的：
+        {{ t.product.none_siblings }}
         {% for s in analysed_sibling[:2] %}
-        <a href="{{ root }}p/{{ s.slug }}.html">{{ s.name }}</a>{% if not loop.last %}、{% endif %}
+        <a href="{{ root }}p/{{ s.slug }}.html">{{ s.name }}</a>{% if not loop.last %}{{ t.product.sibling_sep }}{% endif %}
         {% endfor %}
       </p>
       {% endif %}
@@ -109,19 +109,19 @@
 
   {% if product.notes %}
   <section class="band">
-    <div class="sec-head"><h2>笔记</h2></div>
+    <div class="sec-head"><h2>{{ t.product.notes }}</h2></div>
     <div class="prose">{{ product.notes }}</div>
   </section>
   {% endif %}
 
   {# 读完一份分析没有下一步，旅程就断在这里。给三条出路。 #}
-  <nav class="onward" aria-label="继续浏览">
+  <nav class="onward" aria-label="{{ t.product.onward_aria }}">
     {% if product.siblings %}
     <div class="sec-head">
-      <h2>同方向的其他</h2>
+      <h2>{{ t.product.siblings }}</h2>
       {% if product.category %}
       <a class="note onward-all" href="{{ root }}products.html#c={{ product.category | urlencode }}">
-        {{ product.category }} 共 {{ product.category_total }} 个 →
+        {{ t.product.cat_all.format(category=product.category, total=product.category_total) }}
       </a>
       {% endif %}
     </div>
@@ -133,7 +133,7 @@
             <span class="row-name">{{ s.name }}</span>
             <span class="row-desc">{{ s.summary }}</span>
             <span class="row-tail">
-              {% if s.status == 'analyzed' %}<span class="tag">已分析</span>{% endif %}
+              {% if s.status == 'analyzed' %}<span class="tag">{{ locale.statuses.analyzed }}</span>{% endif %}
               {% if s.badges %}<span class="tag sig">{{ s.badges[0] }}</span>{% endif %}
             </span>
           </div>
@@ -146,14 +146,14 @@
     <div class="pager">
       {% if product.prev %}
       <a class="pager-item pager-prev" href="{{ root }}p/{{ product.prev.slug }}.html">
-        <span class="pager-k">上一个</span>
+        <span class="pager-k">{{ t.product.prev }}</span>
         <span class="pager-n">{{ product.prev.name }}</span>
       </a>
       {% else %}<span></span>{% endif %}
 
       {% if product.next %}
       <a class="pager-item pager-next" href="{{ root }}p/{{ product.next.slug }}.html">
-        <span class="pager-k">下一个</span>
+        <span class="pager-k">{{ t.product.next }}</span>
         <span class="pager-n">{{ product.next.name }}</span>
       </a>
       {% else %}<span></span>{% endif %}

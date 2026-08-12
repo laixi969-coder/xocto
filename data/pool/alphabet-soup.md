@@ -5,6 +5,9 @@ builder: johnchinjew
 category: AI + 生活
 summary_zh: 多人在线组词游戏，拼谁的词最长
 inspiration: 轻量多人游戏的传播靠的是「叫上朋友」这个动作，不是游戏本身多好玩
+summary_en: ''
+inspiration_en: Light multiplayer games spread on the act of inviting a friend, not on how good the game
+  is.
 url: https://alphabetsoup.club
 canonical_url: https://alphabetsoup.club
 summary: a multiplayer game, build the longest word to win

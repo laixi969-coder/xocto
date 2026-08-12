@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#eef2e3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
+<title>open-kimi-ppt-skill · x-octo</title>
+<meta name="description" content="Unofficial Kimi Slides skill that generates editable decks and ships a local editor.">
+<link rel="canonical" href="https://xocto.vercel.app/en/p/open-kimi-ppt-skill.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/open-kimi-ppt-skill.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/open-kimi-ppt-skill.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/open-kimi-ppt-skill.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="open-kimi-ppt-skill · x-octo">
+<meta property="og:description" content="Unofficial Kimi Slides skill that generates editable decks and ships a local editor.">
+<meta property="og:url" content="https://xocto.vercel.app/en/p/open-kimi-ppt-skill.html"><meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../../style.css">
+<link rel="preload" href="../../fonts/fraunces-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
+      <span class="brand-tag">Global AI product radar</span>
+    </div>
+    <nav class="nav">
+      <a href="../../index.html" class="">Home</a>
+      <a href="../../products.html" class="on">Products</a>
+      <a href="../../r/2026-08-11.html" class="">Daily</a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../../p/open-kimi-ppt-skill.html" lang="zh-CN"
+         hreflang="zh-Hans" aria-label="切换到中文版">中文</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Dark mode">Theme</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap">
+
+  <div class="detail-head">
+    <div class="pick-id">
+      <h1>open-kimi-ppt-skill</h1>
+      <span class="verdict v-unproven">Unproven</span>
+    </div>
+
+    <p class="lede">Unofficial Kimi Slides skill that generates editable decks and ships a local editor.</p>
+
+    <div class="meta">
+      <span class="tag">Early</span>
+<span class="tag">Infrastructure</span><span class="tag sig">Open-source traction 1,603</span>    </div>
+
+    <div class="kv">
+      <div><span>Built by</span><b>Binaryify</b></div>
+      <div><span>First seen</span><b class="num">2026-08-05</b></div>
+      <div><span>Last seen</span><b class="num">2026-08-11</b></div>
+    </div>
+  </div>
+
+  <section class="band">
+    <div class="field field-take">
+      <span class="field-k">What this one is good for</span>
+      <p>“Editable” is the whole point. If you can&#39;t change what the AI produced, it&#39;s unusable in real work.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">What old behavior it replaces</span>
+        <p>Making a deck with AI actually goes: have the model write the outline, copy it into PowerPoint yourself, lay it out by hand, and then go back and redo it when the structure turns out wrong. The copyin…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What you can take from it</span>
+        <p>If you build skills or plugins around an existing product, this case hands you three specific rules — and the third one is the expensive one to learn yourself.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An unofficial clone of a commercial deck-generation feature. It reached 1,600 stars, then was wiped for copyright.</p>
+<h2>Where it stands now: the repo is empty</h2>
+<p>The README is down to two sentences:</p>
+<blockquote>
+<p>This repository has been cleared due to copyright reasons.</p>
+</blockquote>
+<p>The code is gone; the stars remain. <strong>The value of this write-up isn't the product. It's how it died.</strong></p>
+<h2>What it used to do</h2>
+<p>Reconstructed from the pre-takedown description:</p>
+<ul>
+<li><strong>A slides skill for AI agents</strong> → let coding agents like Claude Code and Codex produce presentations</li>
+<li><strong>Editable PPTX output</strong> → not an image or a PDF export, a file you can keep editing in PowerPoint</li>
+<li><strong>A bundled local browser editor</strong> → preview and adjust the result locally after generation</li>
+</ul>
+<p><strong>What it deliberately did not do</strong>: no template library, no online collaboration.
+It solved one thing: letting an agent produce an editable deck.</p>
+<h2>What old behavior it replaces</h2>
+<p>Making a deck with AI actually goes: have the model write the outline, copy it into PowerPoint yourself, lay it out by hand, and then go back and redo it when the structure turns out wrong. The copying and the layout are pure manual labor.</p>
+<p>That labor is what it replaced. <strong>The old behavior is clear and the pain is real</strong> —
+&quot;editable&quot; is the whole point, because AI output you can't change is unusable in real work.</p>
+<h2>Business model</h2>
+<p>Free and open source, with no revenue design. That is part of why it died:
+<strong>no commercial entity means no legal capacity to answer a complaint.</strong></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Open-source traction: 1,603</li>
+<li>Time alive: unclear, but the star count implies at least several months</li>
+<li>Current state: <strong>code wiped</strong></li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Read</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Unknown; little author information</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>High. &quot;Editable&quot; was the right wedge, and 1,600 stars is proof of demand</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Unassessable; the code no longer exists</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>It read the demand correctly and chose the wrong posture</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p>The thing worth remembering here: <strong>it validated the demand, then was killed by its own positioning.</strong></p>
+<p>1,600 stars says &quot;let an agent produce an editable deck&quot; is a real need — a harder number than any
+set of user interviews. But it put a commercial product's brand in its name and the word &quot;unofficial&quot;
+in its description, which is volunteering to be the target of a complaint. The same functionality
+under a different name, claiming to replicate nobody, would very likely still be alive.</p>
+<p><strong>The transferable rule: when you build on someone else's brand, your ceiling isn't your capability, it's their tolerance.</strong> That tolerance can go to zero on any given day, and it doesn't need a reason.</p>
+<p>The cost was total: not a fine, not a rename — every line of code deleted.
+1,600 stars became a headstone. They still exist; what they point at doesn't.</p>
+<p>This is a signal for the whole agent-skill ecosystem. A large share of skills today are built around
+one specific product — replicating its capability, extending it, or routing around its limits.
+<strong>The legal standing of that whole class had never been tested. Now there's one result.</strong></p>
+<h2>What to watch next</h2>
+<ol>
+<li><strong>Whether someone reopens it under a neutral name</strong> — the same functionality surviving under a different name would prove the problem was the naming, not the feature</li>
+<li><strong>Whether the original vendor ships it themselves</strong> — a complaint is often followed by an official version, which would confirm the demand was validated for them too</li>
+<li><strong>Whether other clone-style skills disappear too</strong> — that's what separates an isolated case from a turning point</li>
+</ol>
+<h2>What you can take from it</h2>
+<p>If you build skills or plugins around an existing product, this case hands you three specific rules — and the third one is the expensive one to learn yourself.</p>
+<ul>
+<li><strong>Don't put someone else's brand in your product name.</strong> Adding &quot;unofficial&quot; doesn't help; it's an admission</li>
+<li><strong>Don't claim in your description that you replicate or are compatible with a named product.</strong>
+Describe the problem you solve, not who you resemble</li>
+<li><strong>1,600 stars will not protect you.</strong> User count isn't a moat; legal capacity is</li>
+</ul>
+<p><strong>The opening this leaves</strong>: the demand is now validated and the position is vacant.
+A project that touches nobody's brand and simply says &quot;let agents produce editable presentations&quot;
+has a good moment to walk in.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The product no longer exists, but what it left behind is more useful than most
+living products. Kept in the library as a case, not as a product.</p>
+
+  </article>
+
+
+  <nav class="onward" aria-label="Keep browsing">
+    <div class="sec-head">
+      <h2>Others in the same direction</h2>
+      <a class="note onward-all" href="../../products.html#c=Infrastructure">
+        30 in Infrastructure →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../../p/gendangzou-skill.html">
+          <div class="row-head">
+            <span class="row-name">Gendangzou-skill</span>
+            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 184</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/stoaexchange.html">
+          <div class="row-head">
+            <span class="row-name">stoaexchange</span>
+            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Community score 75</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/crm.html">
+          <div class="row-head">
+            <span class="row-name">crm</span>
+            <span class="row-desc">Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.</span>
+            <span class="row-tail">
+<span class="tag sig">Open-source traction 8,161</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/qwen-audio-agent.html">
+          <div class="row-head">
+            <span class="row-name">qwen-audio-agent</span>
+            <span class="row-desc">A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents</span>
+            <span class="row-tail">
+<span class="tag sig">Open-source traction 2,075</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../../p/cindy.html">
+        <span class="pager-k">Previous</span>
+        <span class="pager-n">cindy</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../../p/optmem.html">
+        <span class="pager-k">Next</span>
+        <span class="pager-n">OptMem</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · Global AI product radar</span>
+    <span>·</span>
+    <span>160 products · 8 deep dives</span>
+    <span class="gen">Data through 2026-08-11</span>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+</script>
+
+</body>
+</html>

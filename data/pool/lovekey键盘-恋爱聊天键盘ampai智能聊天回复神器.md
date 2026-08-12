@@ -5,6 +5,9 @@ builder: ''
 category: AI + 效率
 summary_zh: 恋爱聊天话术输入法，教你高情商回复
 inspiration: 情感刚需 + 输入法这个高频入口，是中国移动产品里被验证过很多次的组合
+summary_en: A keyboard that scripts your dating chat and coaches you toward better replies.
+inspiration_en: Emotional need plus the keyboard, one of the highest-frequency entry points on a phone.
+  That combination has been proven many times over in Chinese mobile.
 url: https://www.aicpb.com/product/Lovekey键盘-恋爱聊天键盘AI智能聊天回复神器/appid1D6F33F81
 canonical_url: https://aicpb.com/product/Lovekey键盘-恋爱聊天键盘AI智能聊天回复神器/appid1D6F33F81
 summary: 恋爱聊天的键盘话术库、教你高情商回复技巧的AI智能脱单神器

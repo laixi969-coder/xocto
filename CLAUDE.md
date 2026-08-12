@@ -18,13 +18,38 @@ config/     可编辑的规则层（品味所在，改这里不改代码）
   sources.yaml    采集源开关与参数
   filter.md       过滤规则 —— 什么值得看，什么是套壳
   template.md     分析模板 —— 输出哪些字段
-src/xocto/  Python 采集层
+src/xocto/  Python 采集层（i18n.py 是语言表，所有随语种变的东西只有这一份）
 data/
   raw/YYYY-MM-DD.jsonl    当日原始抓取，只追加不修改
   pool/<slug>.md          产品档案，一个产品一个文件，去重后的唯一真相
   analysis/<slug>.md      深度分析结果
+  analysis/en/<slug>.md   同一份分析的英文版
   reports/YYYY-MM-DD.md   每日中文简报
+  reports/en/YYYY-MM-DD.md 每日英文简报
 ```
+
+## 两个语种
+
+网站出中英两版：中文在 `site/`，英文在 `site/en/`，中文地址一个不动。
+
+**任何改动都必须中英文一起做，不许只改一边。** 改文案改到 `i18n.py` 就把两份都写了；
+加版块、加字段、加内容，两个语种同时补齐再算完成。只改一边就是让另一边慢慢烂掉，
+而且烂在没人看的那一侧 —— 等发现时已经差了十几个版本。
+交付前跑 `python3 scripts/check_design.py`，「中文漏进英文站」那条就是这个规矩的复算。
+
+- **模板只有一套，渲染两次。** 不要复制一份英文模板 —— 两套一定会跑偏。
+  界面文案、赛道名、评级词、指标口径、日期格式、阅读速度全在 `src/xocto/i18n.py`。
+- **英文缺内容就整块不显示，绝不回退成中文。** 英文页面里混一段中文比缺一块更糟。
+- **产品名不翻译。** 豆包、纳米AI 是专有名词，翻译它等于伪造它。
+- 新增产品要补 `inspiration_en`（必要时 `summary_en`），新写分析要出 `analysis/en/`
+  对应文件，新出现的细分榜要在 `i18n.py` 的 `BOARD_EN` 里登记译名。
+  差多少看 `uv run xocto status`。
+- **英文分析的二级标题必须用固定英文对应**（`What it is in one line` /
+  `What old behavior it replaces` / `What you can take from it`）——
+  首页靠标题文字抽出最值钱的两段，标题写歪了那两块就是空的。
+- **给产品档案加字段必须读写成对改**：`models.py` 的 `Product`、`store.py` 的
+  `save_product`（写）和 `_parse_product`（读）。漏一处，每天早上的采集会把
+  手写内容静默清空，而且不报错。
 
 ## 网站的硬约束
 
@@ -46,7 +71,7 @@ data/
 页面版块按信息价值密度排：**判断 > 数据 > 罗列**。
 「替代了什么旧行为」和「能拿走什么」是全站最值钱的两句，必须置顶，不许埋在正文里。
 
-改完必须跑约束复算（泄漏检查 + token 对比度 + 站内死链）：
+改完必须跑约束复算（泄漏检查 + token 对比度 + 中文漏进英文站 + 站内死链 + sitemap）：
 
 ```bash
 uv run xocto build && python3 scripts/check_design.py
@@ -71,10 +96,10 @@ uv run xocto build && python3 scripts/check_design.py
 ```bash
 uv run xocto collect              # 采集今天
 uv run xocto collect --dry-run    # 采集但不写盘
-uv run xocto status               # 看数据现状
+uv run xocto status               # 看数据现状（含英文覆盖率）
 uv run xocto pool --new           # 列出尚未分析的新产品
 uv run xocto health               # 查有没有源在静默变质（该有产出却 0 条）
-python3 scripts/check_design.py   # 复算设计约束（对比度 / 泄漏 / 死链）
+python3 scripts/check_design.py   # 复算设计约束（对比度 / 泄漏 / 中文漏进英文站 / 死链 / sitemap）
 ```
 
 ## 两个"必须能失败"的检查
@@ -83,5 +108,6 @@ python3 scripts/check_design.py   # 复算设计约束（对比度 / 泄漏 / �
 **写成数字的承诺必须有一条命令能复算。**
 
 两者都验证过"能抓到真故障"，不是只会打勾：health 在死源/未采集两种场景下
-退出码为 1，check_design 在把 ink-faint 改回旧值时报出两条不达标。
+退出码为 1；check_design 在把 ink-faint 改回旧值时报出两条不达标，
+在英文灵感里混中文、细分榜漏登记译名两种场景下退出码为 1。
 以后改动它们，也要先确认它们还抓得住对应的故障。

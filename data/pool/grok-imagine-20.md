@@ -5,6 +5,9 @@ builder: Sachin Soundar
 category: AI + 创作
 summary_zh: 马斯克 xAI 的图像生成器，支持按区域分割编辑
 inspiration: 大厂把「局部重绘」做成标配后，只做这一个功能的小工具会集体消失
+summary_en: ''
+inspiration_en: Once the big labs ship region-level editing as standard, the single-feature tools built
+  on it disappear together.
 url: https://www.producthunt.com/products/grok
 canonical_url: https://producthunt.com/products/grok
 summary: Next-gen AI image generator with segmentation editing.

@@ -5,6 +5,8 @@ builder: Karim Traiaia
 category: 基础层
 summary_zh: 多 agent 编程工作流的开源执行框架
 inspiration: 多个 agent 协作的调度问题，本质上和管理一个团队是同一类问题
+summary_en: ''
+inspiration_en: Scheduling work across several agents is the same class of problem as managing a team.
 url: https://www.producthunt.com/products/har
 canonical_url: https://producthunt.com/products/har
 summary: Open Source harness for multi-agent coding workflows

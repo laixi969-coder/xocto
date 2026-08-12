@@ -5,6 +5,9 @@ builder: i3T4AN
 category: 基础层
 summary_zh: 会自我繁殖、评估并改进的多 agent 运行时
 inspiration: 进化式方法在 agent 领域重新可行了，因为评估成本降到了可接受
+summary_en: ''
+inspiration_en: Evolutionary methods are viable again in agent land, because evaluation finally got cheap
+  enough.
 url: https://github.com/i3T4AN/KADATH
 canonical_url: https://github.com/i3T4AN/KADATH
 summary: Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across

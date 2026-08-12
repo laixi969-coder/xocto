@@ -147,6 +147,18 @@ def cmd_status(args: argparse.Namespace) -> int:
 
     reports = sorted(store.reports_dir.glob("*.md"))
     print(f"  已出简报      {len(reports)} 份" + (f"（最新 {reports[-1].stem}）" if reports else ""))
+
+    # 英文站的内容是手写的，采集补不上。缺了页面不会报错，只会安静地少一块，
+    # 所以差多少必须看得见。
+    no_insp = sum(1 for p in products if not p.inspiration_en)
+    analyses = {p.stem for p in store.analysis_dir.glob("*.md")}
+    en_analyses = {p.stem for p in (store.analysis_dir / "en").glob("*.md")}
+    en_reports = {p.stem for p in (store.reports_dir / "en").glob("*.md")}
+    print(
+        f"  英文覆盖      灵感缺 {no_insp} 个 · "
+        f"分析缺 {len(analyses - en_analyses)} 份 · "
+        f"观察缺 {len({r.stem for r in reports} - en_reports)} 份"
+    )
     print()
     return 0
 

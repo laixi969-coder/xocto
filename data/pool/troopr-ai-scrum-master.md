@@ -5,6 +5,9 @@ builder: Rajesh Shanmugam
 category: AI + 效率
 summary_zh: 从真实工作记录自动写每日站会汇报，还记得团队情况
 inspiration: 从「你填表」变成「系统替你写」，这是所有汇报类工作的统一改造方向
+summary_en: ''
+inspiration_en: Going from “you fill in the form” to “the system writes it for you” is the direction all
+  reporting work is heading.
 url: https://www.producthunt.com/products/troopr
 canonical_url: https://producthunt.com/products/troopr
 summary: Writes your standup from real work. Remembers your team.

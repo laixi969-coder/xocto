@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#eef2e3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
+<title>douyin-tiktok-story-skill-agent · x-octo</title>
+<meta name="description" content="Local-first AI Skill and Agent for creating original Douyin and TikTok story scripts with a searchable SQLite reference database.">
+<link rel="canonical" href="https://xocto.vercel.app/en/p/douyin-tiktok-story-skill-agent.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/douyin-tiktok-story-skill-agent.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/douyin-tiktok-story-skill-agent.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/douyin-tiktok-story-skill-agent.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="douyin-tiktok-story-skill-agent · x-octo">
+<meta property="og:description" content="Local-first AI Skill and Agent for creating original Douyin and TikTok story scripts with a searchable SQLite reference database.">
+<meta property="og:url" content="https://xocto.vercel.app/en/p/douyin-tiktok-story-skill-agent.html"><meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../../style.css">
+<link rel="preload" href="../../fonts/fraunces-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
+      <span class="brand-tag">Global AI product radar</span>
+    </div>
+    <nav class="nav">
+      <a href="../../index.html" class="">Home</a>
+      <a href="../../products.html" class="on">Products</a>
+      <a href="../../r/2026-08-11.html" class="">Daily</a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../../p/douyin-tiktok-story-skill-agent.html" lang="zh-CN"
+         hreflang="zh-Hans" aria-label="切换到中文版">中文</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Dark mode">Theme</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap">
+
+  <div class="detail-head">
+    <div class="pick-id">
+      <h1>douyin-tiktok-story-skill-agent</h1>
+      <span class="verdict v-notable">Worth watching</span>
+    </div>
+
+    <p class="lede">Local-first AI Skill and Agent for creating original Douyin and TikTok story scripts with a searchable SQLite reference database.</p>
+
+    <div class="meta">
+      <span class="tag">Early</span>
+<span class="tag">AI + Creative</span><span class="tag sig">Open-source traction 233</span>    </div>
+
+    <div class="kv">
+      <div><span>Built by</span><b>liujunxibaba</b></div>
+      <div><span>First seen</span><b class="num">2026-08-05</b></div>
+      <div><span>Last seen</span><b class="num">2026-08-11</b></div>
+    </div>
+  </div>
+
+  <section class="band">
+    <div class="field field-take">
+      <span class="field-k">What this one is good for</span>
+      <p>The bottleneck in short video is pre-production, not editing. Standardize the topic and the script and the work scales.</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">What old behavior it replaces</span>
+        <p>A short-video writer looking for references actually does this: open the app, scroll comparable content, manually note the good ones, build up a personal document, and then fail to find anything in it…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What you can take from it</span>
+        <p>Index reference material by structure, not by subject. Anyone can tag a topic; &#34;conflict in the first three seconds&#34; is what a writer is actually searching for. Choosing structural dimensions over sub…</p>
+      </div>
+    </div>
+  </section>
+
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A short-video script library you search by story tags, installed inside an AI agent as a source of reference material.</p>
+<h2>Who built it</h2>
+<p>The GitHub account <code>liujunxibaba</code>, a Chinese developer.</p>
+<p>The engineering details give away his actual setup: the installer is PowerShell (a Windows user),
+it installs under <code>$HOME\.codex\skills\</code> (Codex, not Claude Code), and nothing touches the network.
+<strong>This is someone using it to do his own work, not a demo built to be looked at.</strong></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Search by story element</strong> → <code>search &quot;campus teacher-student misunderstanding conflict-in-first-3-seconds&quot; --top-k 5</code>,
+pulling matching script samples by tag combination</li>
+<li><strong>Runs fully offline</strong> → install and use never hit the network; material never leaves the machine</li>
+<li><strong>Installs into Codex as a skill</strong> → the agent calls it; nobody browses a library by hand</li>
+<li><strong>Health check</strong> → verifies database integrity after install</li>
+<li><strong>Code and data separated</strong> → skill code in one repo, script database in another, licensed separately</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: it doesn't write scripts, make video, or handle shooting.
+It only does the step of finding the right reference sample.</p>
+<h2>What old behavior it replaces</h2>
+<p>A short-video writer looking for references actually does this: open the app, scroll comparable content, manually note the good ones, build up a personal document, and then fail to find anything in it next time.</p>
+<p><strong>The old behavior is unmistakable, and it's pure manual labor.</strong> A writer's time should go into
+adapting, not into &quot;I remember something like this but I can't find it.&quot;</p>
+<p>That search example says a lot about how well he understands the work:
+<strong>&quot;campus / teacher-student misunderstanding / conflict in the first three seconds&quot;</strong> — the first
+two are subject matter, the third is <strong>structure</strong>. Anyone who indexes on &quot;conflict in the first
+three seconds&quot; has written short-video scripts with their own hands.</p>
+<h2>Business model</h2>
+<p><strong>Code is MIT; the database is licensed separately.</strong> The README is explicit:
+this repo does not contain the real database, and the database repo declares its own license.</p>
+<p>The split is deliberate: <strong>give away the engine, sell the content.</strong>
+Anyone can read the code, but it doesn't run without the database, and the database terms are elsewhere.</p>
+<p><em>Read: the pricing logic holds and it's healthier than pure open source. The risk is provenance —
+if the script samples were scraped from a platform, its copyright position is as fragile as
+open-kimi-ppt-skill's was.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Open-source traction: 233</li>
+<li>Two paired repos (skill + database)</li>
+<li>Database size, licensing terms, pricing: undisclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Read</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. &quot;Conflict in the first three seconds&quot; is not a dimension an outsider invents</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>High. It attacks &quot;find the reference&quot; rather than &quot;write the script,&quot; dodging the most crowded step</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Middling. Local search plus a health check is complete work, but not technically hard</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Good. Short drama and creator-led storytelling are hot, and every tool is bunched at the generation end</td>
+</tr>
+</tbody>
+</table>
+<h2>What to watch next</h2>
+<ol>
+<li><strong>Where the database came from and how it's licensed</strong> — this single question decides how long it lives, above every other metric</li>
+<li><strong>Whether the database keeps growing</strong> — a reference library that stops updating is worthless within six months</li>
+<li><strong>Whether a payment path appears</strong> — &quot;separately licensed&quot; is a declaration until someone can actually pay for it</li>
+</ol>
+<h2>The call</h2>
+<p>This project and shuohao-skills are two executions of the same judgment:
+<strong>both sidestep generation and work on the step before it.</strong></p>
+<p>shuohao turns a novel into shoot-ready material; this one finds the right reference sample.
+Both bet on the same thing: <strong>the bottleneck in AI short video is input, not output.</strong>
+The models can already write and shoot. What's stuck is deciding what to write and what to model it on.</p>
+<p><strong>The transferable rule: when generative capability is in surplus, the scarce things are judgment and a material library — the first is hard to productize, the second isn't.</strong> Which makes building the library the most concrete business available at this stage.</p>
+<p>The cost comes in two layers. <strong>Copyright first</strong> — if the database was scraped, it can repeat
+open-kimi's ending at any time, and he clearly senses it (splitting the database out with its own
+license is risk isolation). <strong>Then the moat</strong> — search itself has no technical barrier, so the
+moat equals the quality and size of the database, and that requires continuous manual curation
+that can't be automated.</p>
+<p>The Windows + PowerShell + Codex combination is worth noting too: that isn't the mainstream
+developer stack, which says his target user is <strong>someone making content on Windows</strong>, not a programmer.
+That judgment may well be right.</p>
+<h2>What you can take from it</h2>
+<p><strong>Index reference material by structure, not by subject.</strong> Anyone can tag a topic; &quot;conflict in the first three seconds&quot; is what a writer is actually searching for. Choosing structural dimensions over subject dimensions is what makes a reference library worth opening twice.</p>
+<p><strong>Business model</strong>: open the code, license the data separately. That's a healthier structure than
+a free tool plus a paid chat group — a group has to be maintained by a person, a database
+accumulates as an asset. If you want to productize a method, this is the shape worth copying.</p>
+<p><strong>Risk note</strong>: read this next to the other case from the same day (a 1,600-star repo wiped for
+copyright). Provenance is a live risk for anything built on a material library.
+If you build one, the sources have to be clean from day one.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The product judgment is right and the structure is sound, but everything
+hangs on whether the database is legally clean, and public information doesn't say.
+Come back in three months; whether it's still there is the answer.</p>
+
+  </article>
+
+
+  <nav class="onward" aria-label="Keep browsing">
+    <div class="sec-head">
+      <h2>Others in the same direction</h2>
+      <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Creative">
+        19 in AI + Creative →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../../p/shuohao-skills.html">
+          <div class="row-head">
+            <span class="row-name">shuohao-skills</span>
+            <span class="row-desc">Turns a novel into a shoot-ready short-drama kit: character bibles, model sheets, voices, episode outlines.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 695</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/open-ai-canvas.html">
+          <div class="row-head">
+            <span class="row-name">open-ai-canvas</span>
+            <span class="row-desc">One canvas for a whole production: pull character assets out of a novel, then storyboard, image, video, and audio.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 537</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/moonlit-stories.html">
+          <div class="row-head">
+            <span class="row-name">moonlit-stories</span>
+            <span class="row-desc">Reusable AI English picture-book workflow with consistent illustrations and local Chatterbox TTS.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 154</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/genoffice.html">
+          <div class="row-head">
+            <span class="row-name">genoffice</span>
+            <span class="row-desc">Free, open-source AI office suite for macOS, Windows &amp; Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.</span>
+            <span class="row-tail">
+<span class="tag sig">Open-source traction 2,490</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../../p/determinflow.html">
+        <span class="pager-k">Previous</span>
+        <span class="pager-n">DeterminFlow</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../../p/ai-agent-book.html">
+        <span class="pager-k">Next</span>
+        <span class="pager-n">ai-agent-book</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · Global AI product radar</span>
+    <span>·</span>
+    <span>160 products · 8 deep dives</span>
+    <span class="gen">Data through 2026-08-11</span>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+</script>
+
+</body>
+</html>

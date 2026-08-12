@@ -19,14 +19,9 @@ from dataclasses import dataclass
 
 import mistune
 
+from .i18n import Locale
+
 _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
-
-# 推荐度基底。标题里可能写成"强烈推荐（但先查域名）"，
-# 显示用全文，CSS 类名用基底
-VERDICT_BASES = ("强烈推荐", "值得关注", "有待观察")
-
-# 免责/边界类版块要降权：内容必要，但不该和判断抢注意力
-_QUIET_HINTS = ("边界", "局限", "免责", "口径")
 
 # 报告里指向 data/ 的相对链接在网站上打不开，得指回站内产品页
 _DATA_LINK = re.compile(r"\((?:\.{1,2}/)*(?:data/)?(?:analysis|pool)/([^)\s/]+?)\.md\)")
@@ -39,9 +34,6 @@ _RULE_LINE = re.compile(r"^-{3,}\s*$", re.M)
 
 # 整段只有一句加粗（可能带冒号）—— 作者的意思是小标题，不是段落
 _LABEL_ONLY = re.compile(r"^\*\*([^*]+?)\*\*\s*[:：]?$")
-
-# 中文阅读速度，用来估时长
-_CHARS_PER_MINUTE = 350
 
 
 @dataclass(frozen=True)
@@ -130,35 +122,43 @@ def _split_title(title: str) -> tuple[str, str]:
     return title.strip(), ""
 
 
-def _count_label(md: str, kind: str, picks: int) -> str:
+def _count_label(md: str, kind: str, picks: int, locale: Locale) -> str:
     """版块里有多少东西。目录靠它给出篇幅预期。"""
     if kind == "picks":
-        return f"{picks} 个" if picks else ""
+        return locale.count_label("picks", picks) if picks else ""
     if kind == "table":
         rows = [ln.strip() for ln in md.splitlines() if ln.strip().startswith("|")]
         seps = [ln for ln in rows if set(ln) <= set("|-: ")]
         # 每条分隔线对应一个表头行，两者都不是数据
         data = len(rows) - len(seps) * 2
-        return f"{data} 项" if data > 0 else ""
+        return locale.count_label("table", data) if data > 0 else ""
     if kind == "list":
         items = re.findall(r"^\s*(?:[-*]|\d+\.)\s+\S", md, re.M)
-        return f"{len(items)} 条" if items else ""
+        return locale.count_label("list", len(items)) if items else ""
     return ""
 
 
-def _kind(md: str, title: str) -> str:
+def _kind(md: str, title: str, locale: Locale) -> str:
     if _RULE_LINE.sub("", md).lstrip().startswith("|") or "\n|" in md:
         kind = "table"
     elif re.search(r"^\s*(?:[-*]|\d+\.)\s+\S", md, re.M):
         kind = "list"
     else:
         kind = "prose"
-    if any(hint in title for hint in _QUIET_HINTS):
+    if any(hint in title for hint in locale.quiet_hints):
         return "quiet"
     return kind
 
 
-def _parse_pick_head(head: str, fallback_rank: int) -> tuple[str, str, tuple[str, ...], str]:
+def _read_minutes(text: str, locale: Locale) -> int:
+    """估阅读时长。中文按字数，英文按词数 —— 英文用字数会把 5 分钟报成 20 分钟。"""
+    size = len(text.split()) if locale.read_unit == "words" else len(text)
+    return max(1, round(size / locale.read_speed))
+
+
+def _parse_pick_head(
+    head: str, fallback_rank: int, locale: Locale
+) -> tuple[str, str, tuple[str, ...], str]:
     """拆开 "1. 名字 · 开源关注 655 · **强烈推荐**"。
 
     整行当标题渲染出来的效果是：所有信息同一号字、同一个颜色，
@@ -178,13 +178,13 @@ def _parse_pick_head(head: str, fallback_rank: int) -> tuple[str, str, tuple[str
 
     verdict = ""
     rest = parts[1:]
-    if rest and any(rest[-1].startswith(base) for base in VERDICT_BASES):
+    if rest and locale.verdict_key(rest[-1]):
         verdict = rest[-1]
         rest = rest[:-1]
     return rank, name, tuple(rest), verdict
 
 
-def _parse_picks(body: str) -> tuple[str, tuple[Pick, ...]]:
+def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
     """把 ### 拆成产品卡，返回（版块引言, 卡片）。"""
     chunks = re.split(r"^###\s+", body, flags=re.M)
     lead = _RULE_LINE.sub("", chunks[0]).strip()
@@ -192,7 +192,7 @@ def _parse_picks(body: str) -> tuple[str, tuple[Pick, ...]]:
 
     for i, chunk in enumerate(chunks[1:], start=1):
         head, _, rest = chunk.partition("\n")
-        rank, name, metas, verdict = _parse_pick_head(head, i)
+        rank, name, metas, verdict = _parse_pick_head(head, i, locale)
 
         rest = _RULE_LINE.sub("", rest)
         link = link_label = ""
@@ -207,26 +207,23 @@ def _parse_picks(body: str) -> tuple[str, tuple[Pick, ...]]:
         lead_text = _plain(first) if first and not first.startswith(("|", "-", "*", ">")) else ""
         body_md = "\n\n".join(paras[1:] if lead_text else paras)
 
-        verdict_key = next(
-            (base for base in VERDICT_BASES if verdict.startswith(base)), ""
-        )
         picks.append(
             Pick(
                 rank=rank,
                 name=name,
                 verdict=verdict,
-                verdict_key=verdict_key,
+                verdict_key=locale.verdict_key(verdict),
                 metas=metas,
                 lead=lead_text,
                 body_html=_markdown(body_md) if body_md else "",
                 link=link,
-                link_label=link_label or "完整分析",
+                link_label=link_label or locale.cta_default,
             )
         )
     return (_markdown(lead) if lead else ""), tuple(picks)
 
 
-def parse_report(md: str) -> ReportDoc:
+def parse_report(md: str, locale: Locale) -> ReportDoc:
     """扁平 Markdown → 有层级的版块结构。"""
     md = _fix_links(md)
     md = re.sub(r"\A\s*#\s+[^\n]*\n", "", md)
@@ -245,18 +242,18 @@ def parse_report(md: str) -> ReportDoc:
         head, _, rest = chunk.partition("\n")
         title, subtitle = _split_title(head)
         has_picks = bool(re.search(r"^###\s+", rest, re.M))
-        kind = "picks" if has_picks else _kind(rest, head)
+        kind = "picks" if has_picks else _kind(rest, head, locale)
 
         lead_html = ""
         picks: tuple[Pick, ...] = ()
         body_html = ""
         if has_picks:
-            lead_html, picks = _parse_picks(rest)
+            lead_html, picks = _parse_picks(rest, locale)
         else:
             body_html = _markdown(_promote_labels(_RULE_LINE.sub("", rest).strip()))
 
         # 标题里已经写了数量（"今天最值得看的 3 个"）就别再右对齐标一次
-        count = _count_label(rest, kind, len(picks))
+        count = _count_label(rest, kind, len(picks), locale)
         if count and count.replace(" ", "") in head.replace(" ", ""):
             count = ""
 
@@ -274,10 +271,9 @@ def parse_report(md: str) -> ReportDoc:
             )
         )
 
-    words = len(_plain(md))
     return ReportDoc(
         intro=intro,
-        read_minutes=max(1, round(words / _CHARS_PER_MINUTE)),
+        read_minutes=_read_minutes(_plain(md), locale),
         sections=tuple(sections),
     )
 

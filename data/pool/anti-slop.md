@@ -5,6 +5,9 @@ builder: miqdadbadjuber
 category: AI + 创作
 summary_zh: 一套设计规则，专治 AI 写出来的界面千篇一律
 inspiration: 把「什么叫难看」写成机器能执行的规则——审美标准可以固化成约束条件，这对任何创意流程都成立
+summary_en: ''
+inspiration_en: Writing down what “ugly” means as rules a machine can check. Taste can be frozen into
+  constraints, and that holds for any creative pipeline.
 url: https://github.com/miqdadbadjuber/anti-slop
 canonical_url: https://github.com/miqdadbadjuber/anti-slop
 summary: Design rules to stop AI coding agents from generating generic "AI slop" UI.

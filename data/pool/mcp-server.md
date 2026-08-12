@@ -5,6 +5,9 @@ builder: sv-number
 category: 基础层
 summary_zh: 给 AI agent 配一个真实电话号码，能打能接
 inspiration: agent 要接入现实世界就需要现实世界的身份，电话号码只是第一步
+summary_en: ''
+inspiration_en: For an agent to touch the real world it needs a real-world identity. A phone number is
+  only the first one.
 url: https://sms-verification-number.com/en/number-for-ai-agents/
 canonical_url: https://sms-verification-number.com/en/number-for-ai-agents
 summary: 'MCP server for AI agents that need a phone number: order a private number in 200+ countries,

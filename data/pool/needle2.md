@@ -5,6 +5,8 @@ builder: HenryNdubuaku
 category: AI + 效率
 summary_zh: 14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上
 inspiration: 把模型压到 14MB 意味着它能进任何设备，端侧的想象空间刚打开
+summary_en: ''
+inspiration_en: At 14MB a model fits inside anything. The on-device space just opened up.
 url: https://cactuscompute.com/needle
 canonical_url: https://cactuscompute.com/needle
 summary: 14MB agentic LLM for phones, wearables, smart home and robots

@@ -5,6 +5,8 @@ builder: ''
 category: 通用助手
 summary_zh: 阿里千问的独立域名版本
 inspiration: 巨头给同一个模型开多个入口，是在测哪个品牌资产更有效
+summary_en: Alibaba Qwen on its own domain.
+inspiration_en: Several front doors for one model is a platform testing which brand asset actually works.
 url: https://www.aicpb.com/product/千问-qianwen.com｜阿里/webid1D6F375E9
 canonical_url: https://aicpb.com/product/千问-qianwen.com｜阿里/webid1D6F375E9
 summary: ''

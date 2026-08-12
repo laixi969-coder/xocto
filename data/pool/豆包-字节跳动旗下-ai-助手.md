@@ -5,6 +5,9 @@ builder: ''
 category: 通用助手
 summary_zh: 字节的豆包，国内 App 月活第一（3.24 亿）
 inspiration: 月活 3.2 亿说明通用助手这一层的格局基本定了，创业公司不该再进这条赛道
+summary_en: ByteDance's Doubao. Number one by monthly actives among Chinese apps, at 324M.
+inspiration_en: 324M monthly actives says the general-assistant layer is settled. Startups shouldn't enter
+  this lane.
 url: https://www.aicpb.com/product/豆包-字节跳动旗下-AI-助手/appid1D6F37CC9
 canonical_url: https://aicpb.com/product/豆包-字节跳动旗下-AI-助手/appid1D6F37CC9
 summary: AI 全智能聊天对话问答助手，搜索写作翻译编程全能工具

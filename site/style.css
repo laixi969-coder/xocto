@@ -152,13 +152,23 @@ a { color: inherit; text-decoration: none; }
   max-width: var(--maxw); margin: 0 auto; padding: 6px var(--gutter);
   display: flex; align-items: center; gap: 26px;
 }
+/* 标识 + 一句话说明。用户打开任何一页都该立刻知道这站是干什么的，
+   光有一个词标是不够的 —— 那只说了名字，没说做什么 */
+.brand-block {
+  display: flex; align-items: center; gap: 12px; margin-right: auto; min-width: 0;
+}
 .brand {
-  display: block; width: 110px; min-height: 44px; margin-right: auto; flex-shrink: 0;
+  display: block; width: 110px; min-height: 44px; flex-shrink: 0;
   background: var(--logo) left center / 110px 26px no-repeat;
   transition: opacity .2s var(--ease);
 }
 .brand:hover { opacity: .72; }
 .brand:active { opacity: .55; }
+/* 竖线是分隔不是装饰：标识是品牌，这句是说明，两者不该读成一句话 */
+.brand-tag {
+  padding-left: 12px; border-left: 1px solid var(--line);
+  font-size: 13px; color: var(--ink-soft); white-space: nowrap;
+}
 /* 文字不删只藏：标识是背景图，读屏和高对比度模式下链接仍然有名字 */
 .brand span {
   position: absolute; width: 1px; height: 1px; overflow: hidden;
@@ -172,14 +182,18 @@ a { color: inherit; text-decoration: none; }
 .nav a:hover { color: var(--signal); }
 .nav a.on { color: var(--ink); font-weight: 600; text-decoration: underline;
   text-underline-offset: 6px; text-decoration-thickness: 2px; text-decoration-color: var(--accent); }
-.theme-btn {
+/* 语言切换和主题切换是一组：都是"改变整站呈现"的开关，不是导航 */
+.top-tools { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.theme-btn, .lang-btn {
   border: 1px solid var(--ink); background: transparent; color: var(--ink);
   border-radius: var(--r-sm); padding: 0 16px; min-height: 44px; font-size: 13px; font-weight: 500;
   white-space: nowrap; cursor: pointer; font-family: var(--sans);
   transition: background .2s var(--ease), border-color .2s var(--ease), color .2s var(--ease);
 }
-.theme-btn:hover { background: var(--accent); border-color: var(--ink-black); color: var(--ink-black); }
-.theme-btn:active { transform: scale(.97); }
+/* 语言切换是链接不是按钮，得自己把文字在 44px 高度里居中 */
+.lang-btn { display: inline-flex; align-items: center; border-color: var(--line); color: var(--ink-soft); }
+.theme-btn:hover, .lang-btn:hover { background: var(--accent); border-color: var(--ink-black); color: var(--ink-black); }
+.theme-btn:active, .lang-btn:active { transform: scale(.97); }
 
 /* ---------- 顶部条：展示标题 = 衬线 36px+、紧字距、400 重 ---------- */
 
@@ -314,10 +328,12 @@ a { color: inherit; text-decoration: none; }
   font-size: 12.5px; font-weight: 500; padding: 3px 11px; border-radius: var(--r-pill);
   border: 1px solid currentColor; letter-spacing: .03em; white-space: nowrap;
 }
-/* 强烈推荐 = chartreuse 填充徽章，墨字——唯一的彩色填充件 */
-.v-强烈推荐 { color: var(--ink-black); background: var(--accent); border-color: transparent; }
-.v-值得关注 { color: var(--good); }
-.v-有待观察 { color: var(--watch); }
+/* 类名用稳定键不用显示文字：中英文各写各的评级词，
+   认文字的话英文站的徽章会整片掉色。
+   strong（强烈推荐）= chartreuse 填充徽章，墨字——唯一的彩色填充件 */
+.v-strong { color: var(--ink-black); background: var(--accent); border-color: transparent; }
+.v-notable { color: var(--good); }
+.v-unproven { color: var(--watch); }
 
 .tag {
   font-size: 12.5px; font-weight: 500; color: var(--ink-soft);
@@ -746,13 +762,19 @@ footer .gen { margin-left: auto; font-family: var(--mono); }
 
 @media (max-width: 640px) {
   :root { --bar: 51px; }   /* 顶栏内边距收到 3px，锚点偏移跟着变 */
-  .top-inner { padding-top: 3px; padding-bottom: 3px; gap: 14px; }
+  .top-inner { padding-top: 3px; padding-bottom: 3px; gap: 10px; }
   .lede-bar { padding: 36px 0 24px; }
   .sec-head h2 { font-size: 30px; }
   .nav { gap: 0; font-size: 13px; }
   .nav a { padding: 0 8px; }
+  /* 窄屏多了个语言键，两个开关都收窄，否则英文导航会把顶栏挤换行 */
+  .top-tools { gap: 6px; }
+  .theme-btn, .lang-btn { padding: 0 10px; font-size: 12px; }
   /* 窄屏只留图形：完整锁标 110px 会把导航挤换行 */
   .brand { width: 22px; background-image: var(--logo-mark); background-size: 22px 26px; }
+  /* 这句说明放不下就撤掉：顶栏挤到换行比少一句说明糟得多，
+     而且首页第一屏的大标题本来就把话说清楚了 */
+  .brand-tag { display: none; }
   .grid { grid-template-columns: 1fr; }
   .row-head { grid-template-columns: 1fr; gap: 4px; }
   .row-desc { white-space: normal; }

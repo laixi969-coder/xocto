@@ -5,6 +5,8 @@ builder: ''
 category: AI + 效率
 summary_zh: AI 换脸和头像生成
 inspiration: 已饱和品类，除非有特殊角度否则没有观察价值
+summary_en: AI face swap and avatar generation.
+inspiration_en: Saturated category. Without an unusual angle there is nothing here worth watching.
 url: https://www.aicpb.com/product/Sosiee:-AI换脸与AI头像/appid1D6F37A99
 canonical_url: https://aicpb.com/product/Sosiee:-AI换脸与AI头像/appid1D6F37A99
 summary: ''

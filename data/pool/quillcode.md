@@ -5,6 +5,9 @@ builder: ljlolel
 category: AI + 开发
 summary_zh: 纯原生 Swift 写的执行框架，明确不用 Electron
 inspiration: 拿「我们不用什么」当卖点，是小团队打大厂最省力的差异化方式
+summary_en: ''
+inspiration_en: Making “what we don't use” the pitch is the cheapest differentiation a small team has
+  against a big one.
 url: https://github.com/Lore-Hex/QuillCode
 canonical_url: https://github.com/Lore-Hex/QuillCode
 summary: 100% native Swift harness (NOT Electron)

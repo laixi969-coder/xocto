@@ -5,6 +5,9 @@ builder: Luke
 category: AI + 效率
 summary_zh: 开源的本地语音转文字
 inspiration: 语音转录已经商品化，开源本地版的存在理由只剩隐私和成本
+summary_en: ''
+inspiration_en: Transcription is commoditized. All that's left to justify an open local build is privacy
+  and cost.
 url: https://www.producthunt.com/products/voice-gecko
 canonical_url: https://producthunt.com/products/voice-gecko
 summary: Open source, local voice-to-text

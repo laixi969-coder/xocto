@@ -5,6 +5,9 @@ builder: lincwang123-bot
 category: AI + 创作
 summary_zh: 英语绘本生成工作流，重点解决插图前后不一致
 inspiration: AI 生图的真痛点不是画得好不好，是同一个角色画十次能不能长一样
+summary_en: ''
+inspiration_en: The real pain in AI image generation isn't quality. It's whether the same character looks
+  the same ten times in a row.
 url: https://github.com/lincwang123-bot/moonlit-stories
 canonical_url: https://github.com/lincwang123-bot/moonlit-stories
 summary: Reusable AI English picture-book workflow with consistent illustrations and local Chatterbox

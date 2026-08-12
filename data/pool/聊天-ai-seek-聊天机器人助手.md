@@ -5,6 +5,8 @@ builder: ''
 category: AI + 效率
 summary_zh: 聊天机器人助手类应用
 inspiration: 信息不足，需要深挖官网
+summary_en: A chatbot assistant app.
+inspiration_en: Not enough to go on yet — this one needs a real look at the site.
 url: https://www.aicpb.com/product/聊天-AI-Seek-聊天机器人助手/appid1D6F37119
 canonical_url: https://aicpb.com/product/聊天-AI-Seek-聊天机器人助手/appid1D6F37119
 summary: ''

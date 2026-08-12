@@ -5,18 +5,20 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算四件事：
+复算五件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
   2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
-  3. 站内死链      —— 相对链接都要指向真实存在的文件
-  4. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
+  3. 中文漏进英文站 —— site/en/ 里除了产品名不许有中文
+  4. 站内死链      —— 相对链接都要指向真实存在的文件
+  5. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
 
 from __future__ import annotations
 
+import html as html_lib
 import re
 import sys
 import urllib.parse
@@ -25,6 +27,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CSS = ROOT / "templates" / "style.css"
 SITE = ROOT / "site"
+POOL = ROOT / "data" / "pool"
 
 # 正文对比度门槛（WCAG 2.1 SC 1.4.3 AA）。大字（≥24px 或 ≥18.66px 粗体）是 3:1，
 # 但这些 token 大多用在小字上，一律按 4.5 要求，省得逐处判断字号。
@@ -114,6 +117,63 @@ def check_leaks() -> list[str]:
     return hits
 
 
+# 中日韩文字。英文站里出现这些就是没翻译，除非它是产品自己的名字。
+CJK = re.compile(r"[　-〿㐀-䶿一-鿿＀-￯가-힯]+")
+
+# 语言切换按钮上写的就是「中文」，那是故意的
+_LANG_BTN = re.compile(r'<a class="lang-btn".*?</a>', re.S)
+_SCRIPT = re.compile(r"<script.*?</script>", re.S)
+_TAG = re.compile(r"<[^>]+>")
+
+
+# frontmatter 里 name 的取值，可能跨行（有的产品名自带换行）
+_NAME_BLOCK = re.compile(r"^name:(.*?)(?=^\w+:)", re.S | re.M)
+
+
+def _allowed_cjk() -> set[str]:
+    """产品名里合法的中文片段。
+
+    豆包、纳米AI、腾讯元宝这些是专有名词，在英文页面上也该是中文 ——
+    翻译产品名等于伪造它。
+
+    比的是"中文片段"而不是整个名字：名字在 YAML 里可能被引号包着、
+    可能带 &amp; 这种实体、可能跨行，整串比对怎么都对不齐；
+    而引号和实体都是 ASCII，永远不会落进中文片段里。
+    """
+    runs: set[str] = set()
+    for path in sorted(POOL.glob("*.md")):
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        match = _NAME_BLOCK.search(text)
+        if match:
+            runs.update(CJK.findall(" ".join(match.group(1).split())))
+    return runs
+
+
+def check_en_chinese() -> list[str]:
+    """英文站里的漏译。
+
+    这条检查存在的理由和另外两条一样：新采到的产品没写 inspiration_en、
+    新写的分析忘了出英文版、新出现的细分榜没登记译名，页面会安静地
+    混进一段中文，没有任何人会报错。得有一条命令抓得住。
+    """
+    en_dir = SITE / "en"
+    if not en_dir.is_dir():
+        return ["site/en/ 不存在，先跑 uv run xocto build"]
+
+    allowed = _allowed_cjk()
+    problems: list[str] = []
+    for path in sorted(en_dir.rglob("*.html")):
+        raw = path.read_text(encoding="utf-8", errors="ignore")
+        raw = _LANG_BTN.sub(" ", raw)
+        raw = _SCRIPT.sub(" ", raw)
+        text = html_lib.unescape(_TAG.sub(" ", raw))
+        hits = {run for run in CJK.findall(text) if run.strip() and run not in allowed}
+        if hits:
+            sample = " / ".join(sorted(hits)[:3])
+            problems.append(f"en/{path.relative_to(en_dir)} 里有没译的中文：{sample}")
+    return problems[:20]
+
+
 def check_links() -> list[str]:
     if not SITE.is_dir():
         return []
@@ -172,6 +232,7 @@ def main() -> int:
     groups = (
         ("token 对比度", check_contrast()),
         ("来源泄漏", check_leaks()),
+        ("中文漏进英文站", check_en_chinese()),
         ("站内死链", check_links()),
         ("sitemap 自洽", check_sitemap()),
     )

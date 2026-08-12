@@ -1,25 +1,36 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="{{ locale.lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#eef2e3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
-<title>{% block title %}x-octo · 全球 AI 应用雷达{% endblock %}</title>
+<title>{% block title %}{{ locale.site_name }} · {{ locale.site_tagline }}{% endblock %}</title>
 {# 每页各自的摘要。原来 163 个页面共用同一句，对搜索引擎等于没有描述 #}
 <meta name="description" content="{{ description }}">
 {# / 和 /index.html 内容相同，canonical 把权重收敛到一个地址 #}
 {% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+{# 两个语种互相指认。只在对面真有这一页时才发 —— 指到首页是假话 #}
+{% if alt_canonical %}
+<link rel="alternate" hreflang="{{ locale.hreflang }}" href="{{ canonical }}">
+<link rel="alternate" hreflang="{{ alt_locale.hreflang }}" href="{{ alt_canonical }}">
+<link rel="alternate" hreflang="x-default" href="{{ canonical if locale.key == 'zh' else alt_canonical }}">
+{% endif %}
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="x-octo">
-<meta property="og:title" content="{% block ogtitle %}x-octo · 全球 AI 应用雷达{% endblock %}">
+<meta property="og:site_name" content="{{ locale.site_name }}">
+<meta property="og:locale" content="{{ locale.og_locale }}">
+<meta property="og:title" content="{% block ogtitle %}{{ locale.site_name }} · {{ locale.site_tagline }}{% endblock %}">
 <meta property="og:description" content="{{ description }}">
 {% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
 <meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="{{ root }}style.css">
 {# 首屏字体提前取：不预加载的话要等 CSS 解析完才开始下载，
-   font-display: swap 就会在全页最大的标题上闪一次 #}
+   font-display: swap 就会在全页最大的标题上闪一次。
+   中文子集只有中文站预加载 —— 英文标题走 Fraunces，30 个中文产品名
+   仍在字体栈里，需要时浏览器自己会去取，不必让每个英文页面都先付这笔钱 #}
+{% if locale.key == 'zh' %}
 <link rel="preload" href="{{ root }}fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
+{% endif %}
 <link rel="preload" href="{{ root }}fonts/fraunces-700-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ root }}fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
@@ -31,19 +42,28 @@
 </head>
 <body>
 
-<a class="skip-link" href="#main">跳到主要内容</a>
+<a class="skip-link" href="#main">{{ t.skip }}</a>
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="{{ root }}index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+    <div class="brand-block">
+      <a class="brand" href="{{ root }}index.html" aria-label="{{ t.home_aria }}"><span>{{ t.home_aria }}</span></a>
+      {# 说明不放进链接里：它是描述，不是可点的目标 #}
+      <span class="brand-tag">{{ locale.site_tagline }}</span>
+    </div>
     <nav class="nav">
-      <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">首页</a>
-      <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">全部产品</a>
+      <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">{{ t.nav.home }}</a>
+      <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">{{ t.nav.products }}</a>
       {% if reports %}
-      <a href="{{ root }}r/{{ reports[0].day }}.html" class="{{ 'on' if page == 'reports' }}">每日观察</a>
+      <a href="{{ root }}r/{{ reports[0].day }}.html" class="{{ 'on' if page == 'reports' }}">{{ t.nav.reports }}</a>
       {% endif %}
     </nav>
-    <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    <div class="top-tools">
+      {# lang 属性要标对：读屏遇到「中文」两个字才会切到中文发音 #}
+      <a class="lang-btn" href="{{ alt_href }}" lang="{{ alt_locale.lang }}"
+         hreflang="{{ alt_locale.hreflang }}" aria-label="{{ t.lang.aria }}">{{ t.lang.label }}</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="{{ t.theme.aria }}">{{ t.theme.label }}</button>
+    </div>
   </div>
 </div>
 
@@ -51,16 +71,16 @@
 {% block body %}{% endblock %}
 </main>
 
-<button class="totop" id="totop" type="button" aria-label="回到顶部">
+<button class="totop" id="totop" type="button" aria-label="{{ t.totop }}">
   <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
 </button>
 
 <div class="wrap">
   <footer>
-    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>{{ locale.site_name }} · {{ locale.site_tagline }}</span>
     <span>·</span>
-    <span>{{ stats.total }} 个产品 · {{ stats.analysed }} 份深度分析</span>
-    <span class="gen">数据截至 {{ latest_day }}</span>
+    <span>{{ t.footer.counts.format(total=stats.total, analysed=stats.analysed) }}</span>
+    <span class="gen">{{ t.footer.asof.format(day=latest_day) }}</span>
   </footer>
 </div>
 

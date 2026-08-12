@@ -5,6 +5,9 @@ builder: ''
 category: AI + 开发
 summary_zh: 腾讯的 AI 编程助手，月访问 749 万且还在涨
 inspiration: 大厂在编程工具上砸资源，独立产品的空间正在被从下往上挤压
+summary_en: Tencent's AI coding assistant. 7.49M monthly visits and still climbing.
+inspiration_en: Big platforms are pouring resources into coding tools. Independent products are getting
+  squeezed from below.
 url: https://www.aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51
 canonical_url: https://aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51
 summary: ''

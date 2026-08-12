@@ -5,6 +5,9 @@ builder: Chris Messina
 category: AI + 效率
 summary_zh: Spotify 内部做出来的 agent 开发环境
 inspiration: 大公司内部工具外放是一条低成本验证路径，用户信任度天然高一截
+summary_en: ''
+inspiration_en: Releasing an internal tool is a cheap validation path, and it starts with more trust than
+  a cold launch ever gets.
 url: https://www.producthunt.com/products/spotify
 canonical_url: https://producthunt.com/products/spotify
 summary: The agentic development environment built by Spotify

@@ -5,6 +5,8 @@ builder: mochow13
 category: AI + 开发
 summary_zh: 用 agent 工程方法造出来的编程 agent
 inspiration: 拿自己的产品造自己的产品，这个故事本身就是最好的销售材料
+summary_en: ''
+inspiration_en: Building your product with your product is the best sales material you will ever write.
 url: https://github.com/mochow13/keen-code
 canonical_url: https://github.com/mochow13/keen-code
 summary: an agentic-engineered coding agent

@@ -186,6 +186,12 @@ class Product:
     # 一句话灵感：看到这个产品能想到什么、能往自己业务上迁移什么。
     # 每个产品都要有 —— 没有灵感的产品，收录它就没意义。
     inspiration: str = ""
+    # 英文站用的一句话。source 自带的 summary 多半是营销话术，
+    # 说不清做什么的时候才写这个覆盖掉，能用就不写。
+    summary_en: str = ""
+    # 英文站用的灵感。英文页面上缺这句就整块不显示 ——
+    # 宁可少一块，也不能在英文页面里混中文。
+    inspiration_en: str = ""
     notes: str = ""  # 人或 Claude 写的自由笔记，机器不覆盖
 
     @property

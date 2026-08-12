@@ -5,6 +5,9 @@ builder: Rahul Thennarasu
 category: 基础层
 summary_zh: 给 AI agent 用的本地语义搜索
 inspiration: 数据不出本机这个约束会催生一整套本地化的基础设施
+summary_en: ''
+inspiration_en: The constraint that data never leaves the machine will spawn an entire local infrastructure
+  stack.
 url: https://www.producthunt.com/products/reference-2
 canonical_url: https://producthunt.com/products/reference-2
 summary: Local semantic search for AI agents

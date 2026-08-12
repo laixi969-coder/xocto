@@ -5,6 +5,8 @@ builder: ''
 category: AI + 效率
 summary_zh: 360 的 AI 搜索产品
 inspiration: 信息不足，需要深挖官网
+summary_en: 360's AI search product.
+inspiration_en: Not enough to go on yet — this one needs a real look at the site.
 url: https://www.aicpb.com/product/纳米AI/webid1D6F374D9
 canonical_url: https://aicpb.com/product/纳米AI/webid1D6F374D9
 summary: ''

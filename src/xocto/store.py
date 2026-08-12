@@ -155,6 +155,10 @@ class Store:
             "category": product.category,
             "summary_zh": product.summary_zh,
             "inspiration": product.inspiration,
+            # 英文站的内容也走同一个文件。漏进这张表就等于每天早上被采集清空一次，
+            # 而且不会报错 —— 加字段时读写必须成对改。
+            "summary_en": product.summary_en,
+            "inspiration_en": product.inspiration_en,
             "url": product.url,
             "canonical_url": product.canonical_url,
             "summary": product.summary,
@@ -219,6 +223,8 @@ class Store:
                 category=front.get("category") or "",
                 summary_zh=front.get("summary_zh") or "",
                 inspiration=front.get("inspiration") or "",
+                summary_en=front.get("summary_en") or "",
+                inspiration_en=front.get("inspiration_en") or "",
                 notes=notes,
             )
         except KeyError as exc:

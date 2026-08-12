@@ -5,6 +5,9 @@ builder: Shyam Sunder
 category: AI + 商业
 summary_zh: 法律工作的操作系统，把案子相关的活儿收进一个系统
 inspiration: 喊「操作系统」的垂直产品，实际卖点是把散落在十几个工具里的流程收回一处
+summary_en: ''
+inspiration_en: 'Vertical products that call themselves an operating system are selling one thing: pulling
+  a process out of a dozen tools into one place.'
 url: https://www.producthunt.com/products/lexi-5
 canonical_url: https://producthunt.com/products/lexi-5
 summary: The operating system for legal work

@@ -5,6 +5,9 @@ builder: DanielPan12
 category: AI + 商业
 summary_zh: Agent 主导的投递流程，带本地进度看板
 inspiration: 自动化最怕黑箱，配一个能看见进度的面板，用户的信任度完全不同
+summary_en: Agent-led job application workflow with a local progress dashboard.
+inspiration_en: Automation's worst enemy is opacity. Pair it with a progress board you can see and trust
+  changes completely.
 url: https://github.com/DanielPan12/JobHuntBot
 canonical_url: https://github.com/DanielPan12/JobHuntBot
 summary: Agent-led job application workflow with a local progress-tracking dashboard — works with any

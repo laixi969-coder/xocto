@@ -5,6 +5,9 @@ builder: Happy-Chen-CH
 category: AI + 创作
 summary_zh: 中医知识导航，把一万九千个实体做成知识图谱
 inspiration: 垂直领域的护城河是数据结构不是模型——把行业知识整理成图谱，这活儿谁先做谁占住
+summary_en: Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.
+inspiration_en: The moat in a vertical is the data structure, not the model. Whoever organizes the field's
+  knowledge into a graph first holds it.
 url: https://github.com/Happy-Chen-CH/ShenNongMi
 canonical_url: https://github.com/Happy-Chen-CH/ShenNongMi
 summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Neo4j graph (19K+ nodes) × LangGraph

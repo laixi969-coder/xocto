@@ -5,6 +5,8 @@ builder: Benhur Senabathi
 category: AI + 效率
 summary_zh: 一套键鼠在多台 Mac 之间切换
 inspiration: 解决具体到不能再具体的小麻烦，这类产品靠口碑活得很久
+summary_en: ''
+inspiration_en: Solving an annoyance this specific is how a product lives for years on word of mouth.
 url: https://www.producthunt.com/products/switchy-for-mac
 canonical_url: https://producthunt.com/products/switchy-for-mac
 summary: Switch your Magic Keyboard, Trackpad, and Mouse between Macs

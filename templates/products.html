@@ -1,28 +1,26 @@
 {% extends "base.html" %}
-{% block title %}全部产品 · x-octo{% endblock %}
-{% block ogtitle %}全部产品 · x-octo{% endblock %}
+{% block title %}{{ t.products.title }} · {{ locale.site_name }}{% endblock %}
+{% block ogtitle %}{{ t.products.title }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
 <div class="wrap">
 
   <div class="lede-bar">
     <div class="lede-main">
-      <h1 id="ctx-title">全部产品</h1>
-      <p id="ctx-note">
-        刚冒头的看它做什么，已验证的看它涨多快。两类东西的判断方式本来就不同。
-      </p>
+      <h1 id="ctx-title">{{ t.products.title }}</h1>
+      <p id="ctx-note">{{ t.products.note }}</p>
     </div>
     <dl class="lede-stats">
-      <div><dt>当前结果</dt><dd class="num" id="count">{{ stats.total }}</dd></div>
+      <div><dt>{{ t.products.count }}</dt><dd class="num" id="count">{{ stats.total }}</dd></div>
     </dl>
   </div>
 
   <section class="band">
     <div class="controls">
       <div class="filter-group">
-        <span class="filter-k">方向</span>
-        <div class="filters" role="group" aria-label="按方向筛选" data-dim="category">
-          <button class="on" aria-pressed="true" data-val="">全部</button>
+        <span class="filter-k">{{ t.products.f_category }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_category_aria }}" data-dim="category">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
           {% for c in categories %}
           <button aria-pressed="false" data-val="{{ c.name }}">{{ c.name }} <i class="num">{{ c.count }}</i></button>
           {% endfor %}
@@ -30,30 +28,30 @@
       </div>
 
       <div class="filter-group">
-        <span class="filter-k">阶段</span>
-        <div class="filters" role="group" aria-label="按阶段筛选" data-dim="stage">
-          <button class="on" aria-pressed="true" data-val="">全部</button>
-          <button aria-pressed="false" data-val="early">刚冒头 <i class="num">{{ stats.early }}</i></button>
-          <button aria-pressed="false" data-val="proven">已验证 <i class="num">{{ stats.proven }}</i></button>
+        <span class="filter-k">{{ t.products.f_stage }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_stage_aria }}" data-dim="stage">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          <button aria-pressed="false" data-val="early">{{ locale.stages.early }} <i class="num">{{ stats.early }}</i></button>
+          <button aria-pressed="false" data-val="proven">{{ locale.stages.proven }} <i class="num">{{ stats.proven }}</i></button>
         </div>
       </div>
 
       <div class="filter-group">
-        <span class="filter-k">评级</span>
-        <div class="filters" role="group" aria-label="按评级筛选" data-dim="status">
-          <button class="on" aria-pressed="true" data-val="">全部</button>
-          <button aria-pressed="false" data-val="analyzed">已分析 <i class="num">{{ stats.analysed }}</i></button>
-          <button aria-pressed="false" data-val="watching">观察中 <i class="num">{{ stats.watching }}</i></button>
+        <span class="filter-k">{{ t.products.f_status }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_status_aria }}" data-dim="status">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          <button aria-pressed="false" data-val="analyzed">{{ locale.statuses.analyzed }} <i class="num">{{ stats.analysed }}</i></button>
+          <button aria-pressed="false" data-val="watching">{{ locale.statuses.watching }} <i class="num">{{ stats.watching }}</i></button>
         </div>
       </div>
 
       <div class="filter-group">
-        <span class="filter-k">排序</span>
-        <div class="filters" role="group" aria-label="排序方式" data-dim="sort">
-          <button class="on" aria-pressed="true" data-val="weight">热度</button>
-          <button aria-pressed="false" data-val="growth">增长</button>
-          <button aria-pressed="false" data-val="recent">最近出现</button>
-          <button aria-pressed="false" data-val="name">名称</button>
+        <span class="filter-k">{{ t.products.f_sort }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_sort_aria }}" data-dim="sort">
+          <button class="on" aria-pressed="true" data-val="weight">{{ t.products.sort_weight }}</button>
+          <button aria-pressed="false" data-val="growth">{{ t.products.sort_growth }}</button>
+          <button aria-pressed="false" data-val="recent">{{ t.products.sort_recent }}</button>
+          <button aria-pressed="false" data-val="name">{{ t.products.sort_name }}</button>
         </div>
       </div>
     </div>
@@ -79,7 +77,7 @@
             {% if not p.boards and p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
           </div>
         {% else %}
-          <p>{{ p.summary or '还没有简介，需要深挖才能判断' }}</p>
+          <p>{{ p.summary or t.products.no_summary }}</p>
           <div class="meta">
             {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
             {% for b in p.badges[:1] %}<span class="tag sig">{{ b }}</span>{% endfor %}
@@ -95,8 +93,8 @@
     </div>
 
     <p class="empty" id="empty" hidden>
-      这个组合下没有产品。<br>
-      <button class="linkish" id="reset">清掉筛选，看全部 {{ stats.total }} 个</button>
+      {{ t.products.empty }}<br>
+      <button class="linkish" id="reset">{{ t.products.reset.format(total=stats.total) }}</button>
     </p>
   </section>
 
@@ -113,19 +111,25 @@
     var active = { category: '', stage: '', status: '' };
     var sort = 'weight';
 
+    // 文案从语言表注入。tojson 会把引号和尖括号转义好，
+    // 直接插字符串会被 HTML 转义器改成实体，在 JS 里就是一串乱码
     var STAGE_TEXT = {
-      early: '还没有数据可验证，判断只能靠推理需求真伪。',
-      proven: '已经跑出规模，判断看流量和环比，不看介绍。'
+      early: {{ t.products.stage_early_note | tojson }},
+      proven: {{ t.products.stage_proven_note | tojson }}
     };
+    var LABELS = {
+      stage: { early: {{ locale.stages.early | tojson }}, proven: {{ locale.stages.proven | tojson }} },
+      status: { analyzed: {{ locale.statuses.analyzed | tojson }}, watching: {{ locale.statuses.watching | tojson }} }
+    };
+    var ALL_TITLE = {{ t.products.title | tojson }};
+    var SORT_LOCALE = {{ locale.lang | tojson }};
     var DEFAULT_NOTE = note.textContent;
 
     function label() {
       var parts = [];
       if (active.category) parts.push(active.category);
-      if (active.stage === 'early') parts.push('刚冒头');
-      if (active.stage === 'proven') parts.push('已验证');
-      if (active.status === 'analyzed') parts.push('已分析');
-      if (active.status === 'watching') parts.push('观察中');
+      if (LABELS.stage[active.stage]) parts.push(LABELS.stage[active.stage]);
+      if (LABELS.status[active.status]) parts.push(LABELS.status[active.status]);
       return parts.join(' · ');
     }
 
@@ -144,7 +148,7 @@
       empty.hidden = shown > 0;
 
       var l = label();
-      title.textContent = l || '全部产品';
+      title.textContent = l || ALL_TITLE;
       note.textContent = STAGE_TEXT[active.stage] || DEFAULT_NOTE;
 
       if (animate) {
@@ -157,7 +161,7 @@
     function reorder() {
       var visible = cards.slice();
       visible.sort(function (a, b) {
-        if (sort === 'name') return a.dataset.name.localeCompare(b.dataset.name, 'zh');
+        if (sort === 'name') return a.dataset.name.localeCompare(b.dataset.name, SORT_LOCALE);
         if (sort === 'recent') return b.dataset.recent.localeCompare(a.dataset.recent);
         var key = sort === 'growth' ? 'growth' : 'weight';
         return parseFloat(b.dataset[key]) - parseFloat(a.dataset[key]);

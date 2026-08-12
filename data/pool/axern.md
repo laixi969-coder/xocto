@@ -5,6 +5,9 @@ builder: cofy-x
 category: 基础层
 summary_zh: 给 AI agent 用的开源沙箱，跑不可信代码
 inspiration: 让 agent 能安全犯错是规模化的前提，安全层通常比能力层更早出现赢家
+summary_en: ''
+inspiration_en: Letting agents fail safely is the precondition for scale. The safety layer usually produces
+  a winner before the capability layer does.
 url: https://axern.cofy-x.space
 canonical_url: https://axern.cofy-x.space
 summary: Open-source sandboxes for AI agents, untrusted code execution, and durable services.

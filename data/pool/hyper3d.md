@@ -5,6 +5,8 @@ builder: ''
 category: AI + 效率
 summary_zh: 月访问 312 万，环比涨 134%，官方没给介绍
 inspiration: 信息不足，需要深挖官网
+summary_en: 3.12M monthly visits, up 134% month over month, with no description from the company.
+inspiration_en: Not enough to go on yet — this one needs a real look at the site.
 url: https://www.aicpb.com/product/Hyper3D/webid1D6F37AD1
 canonical_url: https://aicpb.com/product/Hyper3D/webid1D6F37AD1
 summary: ''

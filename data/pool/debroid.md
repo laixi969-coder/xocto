@@ -5,6 +5,9 @@ builder: PatilShreyas
 category: 基础层
 summary_zh: 给 AI 编程 agent 用的无头安卓调试器
 inspiration: agent 要真干活就得能操作真实设备，「让 agent 有手」是一整个待开发的品类
+summary_en: ''
+inspiration_en: For an agent to do real work it has to touch real devices. “Giving agents hands” is a
+  whole category waiting to be built.
 url: https://github.com/PatilShreyas/debroid
 canonical_url: https://github.com/PatilShreyas/debroid
 summary: Autonomous, headless Android debugger designed for AI coding agents. Inspect runtime memory,

@@ -5,6 +5,8 @@ builder: ''
 category: AI + 创作
 summary_zh: AI 视频生成工具，榜单里有真实月活但官方没给介绍
 inspiration: 信息不足，需要深挖官网
+summary_en: AI video generator with real monthly actives on the charts and no description from the company.
+inspiration_en: Not enough to go on yet — this one needs a real look at the site.
 url: https://www.aicpb.com/product/AI-Video-Generator-+-Maker/appid1D6F341D9
 canonical_url: https://aicpb.com/product/AI-Video-Generator-+-Maker/appid1D6F341D9
 summary: ''

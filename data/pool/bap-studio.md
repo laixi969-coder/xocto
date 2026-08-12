@@ -5,6 +5,9 @@ builder: Max Berggren
 category: AI + 创作
 summary_zh: 浏览器里跑的 MPC 风格鼓机，打开网页就能敲
 inspiration: 零安装是最强的获客手段：把「先下载」这一步砍掉，转化率的量级会变
+summary_en: ''
+inspiration_en: Zero install is the strongest acquisition move there is. Deleting “download first” changes
+  conversion by an order of magnitude.
 url: https://www.producthunt.com/products/bap-studio
 canonical_url: https://producthunt.com/products/bap-studio
 summary: An MPC-style drum machine that runs in a browser tab

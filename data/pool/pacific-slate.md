@@ -5,6 +5,9 @@ builder: badwx
 category: 基础层
 summary_zh: 自建、不绑模型的多 agent 助手
 inspiration: 不绑定模型供应商正在从技术选择变成采购要求
+summary_en: ''
+inspiration_en: Not being locked to a model vendor is moving from a technical preference to a procurement
+  requirement.
 url: https://pacslate.com/
 canonical_url: https://pacslate.com
 summary: a self-hosted, model-agnostic multi-agent AI assistant

@@ -5,6 +5,9 @@ builder: ''
 category: AI + 效率
 summary_zh: 主打安全与速度的浏览器
 inspiration: 浏览器是流量入口里最难攻但收益最大的一块，安全是唯一还能切入的角度
+summary_en: A browser pitched on safety and speed.
+inspiration_en: The browser is the hardest traffic entry point to take and the most valuable. Safety is
+  about the only angle still open.
 url: https://www.aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 canonical_url: https://aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 summary: ''

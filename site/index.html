@@ -7,8 +7,12 @@
 <meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
 <title>x-octo · 全球 AI 应用雷达</title>
 <meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
-<link rel="canonical" href="https://xocto.vercel.app/"><meta property="og:type" content="website">
+<link rel="canonical" href="https://xocto.vercel.app/"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/index.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/">
+<meta property="og:type" content="website">
 <meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="x-octo · 全球 AI 应用雷达">
 <meta property="og:description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
 <meta property="og:url" content="https://xocto.vercel.app/"><meta name="twitter:card" content="summary">
@@ -29,13 +33,20 @@
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+    <div class="brand-block">
+      <a class="brand" href="index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">全球 AI 应用雷达</span>
+    </div>
     <nav class="nav">
       <a href="index.html" class="on">首页</a>
       <a href="products.html" class="">全部产品</a>
       <a href="r/2026-08-11.html" class="">每日观察</a>
     </nav>
-    <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    <div class="top-tools">
+      <a class="lang-btn" href="en/index.html" lang="en"
+         hreflang="en" aria-label="Switch to English">EN</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    </div>
   </div>
 </div>
 
@@ -45,10 +56,7 @@
   <div class="lede-bar">
     <div class="lede-main">
       <h1>今天有 <em class="num">8</em> 个值得看</h1>
-      <p>
-        全球 AI 应用每天新增几百个，绝大多数是套壳。
-        这里只留下能说清「它替代了什么旧行为」的——答不上来的，一律不推荐。
-      </p>
+      <p>全球 AI 应用每天新增几百个，绝大多数是套壳。这里只留下能说清「它替代了什么旧行为」的——答不上来的，一律不推荐。</p>
     </div>
     <dl class="lede-stats">
       <div><dt>在库</dt><dd class="num">160</dd></div>
@@ -67,87 +75,87 @@
       <article class="pick" style="--i: 0">
         <a class="pick-id" href="p/stoaexchange.html">
           <h3>stoaexchange</h3>
-          <span class="verdict v-强烈推荐">强烈推荐</span>
+          <span class="verdict v-strong">强烈推荐</span>
 <span class="tag">基础层</span>        </a>
         <div class="pick-body">
           <div class="field">
             <span class="field-k">替代了什么</span>
-            <p>买 GPU 现在的实际流程是：挨个问 OEM 的销售拿配额报价、问云厂商有没有余量、</p>
+            <p>买 GPU 现在的实际流程是：挨个问 OEM 的销售拿配额报价、问云厂商有没有余量、 托朋友找经纪商、在二手渠道碰运气。每一路的报价口径都不一样， 你没法知道自己拿到的价格是好是坏。</p>
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>和 GPU 的处境结构相同。它的做法值得看： 不做撮合，先做基准。</p>
+            <p>产品逻辑：地产是&#34;信息不对称最严重、单笔金额最大&#34;的行业之一， 和 GPU 的处境结构相同。它的做法值得看：不做撮合，先做基准。 先让所有人都来看你的价格，来的人多了，交易自然发生在你这里。</p>
           </div>
         </div>
       </article>
       <article class="pick" style="--i: 1">
         <a class="pick-id" href="p/shuohao-skills.html">
           <h3>shuohao-skills</h3>
-          <span class="verdict v-强烈推荐">强烈推荐</span>
+          <span class="verdict v-strong">强烈推荐</span>
 <span class="tag">AI + 创作</span>        </a>
         <div class="pick-body">
           <div class="field">
             <span class="field-k">替代了什么</span>
-            <p>短剧改编的前期工作。以前这一段是：编剧读完小说 → 手写人物小传 → 美术出设定图 →</p>
+            <p>短剧改编的前期工作。以前这一段是：编剧读完小说 → 手写人物小传 → 美术出设定图 → 导演排分集大纲 → 制片列资产清单。一个团队三到五人，一部剧的前期做一到两周。</p>
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>而它把&#34;从小说到可开拍素材&#34;这一段做成了标准件。 它的 13 道质量门尤其值得看 ——</p>
+            <p>产品逻辑（高度相关）：这正是 songo 缺的上游环节。你的工作流是&#34;从灵感到成片&#34;， 而它把&#34;从小说到可开拍素材&#34;这一段做成了标准件。它的 13 道质量门尤其值得看—— 把创作质量变成脚本能检查的硬约束，这个思路可以直接搬到 songo 的每个环节上。</p>
           </div>
         </div>
       </article>
       <article class="pick" style="--i: 2">
         <a class="pick-id" href="p/open-ai-canvas.html">
           <h3>open-ai-canvas</h3>
-          <span class="verdict v-强烈推荐">强烈推荐</span>
+          <span class="verdict v-strong">强烈推荐</span>
 <span class="tag">AI + 创作</span>        </a>
         <div class="pick-body">
           <div class="field">
             <span class="field-k">替代了什么</span>
-            <p>AI 影视创作现在的实际工作流是：ChatGPT 写大纲 → Midjourney/即梦出图 →</p>
+            <p>AI 影视创作现在的实际工作流是：ChatGPT 写大纲 → Midjourney/即梦出图 → 可灵/Runway 生成视频 → 剪映拼接 → 中间用飞书文档和微信传素材。</p>
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>它怎么定义一个角色的&#34;外观、声音、气质&#34;并让这些在不同生成环节间保持一致，</p>
+            <p>产品逻辑（直接对标）：这几乎就是 songo 的开源版本。去读它的角色资产数据结构—— 它怎么定义一个角色的&#34;外观、声音、气质&#34;并让这些在不同生成环节间保持一致， 这是 songo 最核心也最难的部分，现在有人把答案写在 GitHub 上了。</p>
           </div>
         </div>
       </article>
       <article class="pick" style="--i: 3">
         <a class="pick-id" href="p/gendangzou-skill.html">
           <h3>Gendangzou-skill</h3>
-          <span class="verdict v-强烈推荐">强烈推荐</span>
+          <span class="verdict v-strong">强烈推荐</span>
 <span class="tag">基础层</span>        </a>
         <div class="pick-body">
           <div class="field">
             <span class="field-k">替代了什么</span>
-            <p>研究员看政策选股的实际流程：读政策文件 → 判断影响哪个行业 →</p>
+            <p>研究员看政策选股的实际流程：读政策文件 → 判断影响哪个行业 → 翻研报找受益标的 → 查资金流验证 → 看媒体口径确认预期。 一条完整链路要花半天到一天，而且每次都要重来。</p>
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>特别看它的 四线交叉结构 —— 政策、媒体、市场关注、资金确认，</p>
+            <p>产品逻辑（直接撞你的 octo）：这是你能找到的最接近的公开参照物。 特别看它的四线交叉结构 —— 政策、媒体、市场关注、资金确认， 四条独立线索验证同一个判断。这个结构比任何单一信号都稳， 而且它不只适用于股票：地产的政策、舆情、成交、资金四条线是同一个模型。</p>
           </div>
         </div>
       </article>
       <article class="pick" style="--i: 4">
         <a class="pick-id" href="p/moonlit-stories.html">
           <h3>moonlit-stories</h3>
-          <span class="verdict v-值得关注">值得关注</span>
+          <span class="verdict v-notable">值得关注</span>
 <span class="tag">AI + 创作</span>        </a>
         <div class="pick-body">
           <div class="field">
             <span class="field-k">替代了什么</span>
-            <p>家长给孩子做英文启蒙的现状：买现成绘本（内容固定、和孩子的兴趣对不上）、</p>
+            <p>家长给孩子做英文启蒙的现状：买现成绘本（内容固定、和孩子的兴趣对不上）、 或者自己编故事（编得出来但画不出来）、或者用 AI 生图（每页画风不一样， 孩子会觉得不是同一个故事）。</p>
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>它和影策给出了同一个答案：把角色的外观、声音、气质固化成可复用资产，</p>
+            <p>产品逻辑：「一致性」比「生成质量」更值钱，这一条直接适用于 songo。 它和影策给出了同一个答案：把角色的外观、声音、气质固化成可复用资产， 在所有生成环节里引用同一份。两个独立项目的相互印证，比任何单个案例都可信。</p>
           </div>
         </div>
       </article>
       <article class="pick" style="--i: 5">
         <a class="pick-id" href="p/gtm-cofounder.html">
           <h3>gtm-cofounder</h3>
-          <span class="verdict v-值得关注">值得关注</span>
+          <span class="verdict v-notable">值得关注</span>
 <span class="tag">AI + 商业</span>        </a>
         <div class="pick-body">
           <div class="field">
@@ -156,39 +164,39 @@
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>打包成软件卖给不懂营销的人。</p>
+            <p>这个产品是你的反面，所以特别值得看。 它试图把你二十年积累的那种判断力 打包成软件卖给不懂营销的人。</p>
           </div>
         </div>
       </article>
       <article class="pick" style="--i: 6">
         <a class="pick-id" href="p/douyin-tiktok-story-skill-agent.html">
           <h3>douyin-tiktok-story-skill-agent</h3>
-          <span class="verdict v-值得关注">值得关注</span>
+          <span class="verdict v-notable">值得关注</span>
 <span class="tag">AI + 创作</span>        </a>
         <div class="pick-body">
           <div class="field">
             <span class="field-k">替代了什么</span>
-            <p>短视频编剧找参考的实际流程：打开抖音刷同类内容 → 看到好的手动记下来 →</p>
+            <p>短视频编剧找参考的实际流程：打开抖音刷同类内容 → 看到好的手动记下来 → 攒成一个自己的文档 → 下次写的时候翻半天找不到。</p>
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>你的 songo 里应该有。特别是 用「前三秒冲突」这类结构维度而不是题材维度做索引 ——</p>
+            <p>产品逻辑（直接撞你的短剧业务）：「按结构标签检索参考样本」这个能力， 你的 songo 里应该有。特别是用「前三秒冲突」这类结构维度而不是题材维度做索引 —— 题材谁都会标，结构才是编剧真正在找的东西。</p>
           </div>
         </div>
       </article>
       <article class="pick" style="--i: 7">
         <a class="pick-id" href="p/open-kimi-ppt-skill.html">
           <h3>open-kimi-ppt-skill</h3>
-          <span class="verdict v-有待观察">有待观察</span>
+          <span class="verdict v-unproven">有待观察</span>
 <span class="tag">基础层</span>        </a>
         <div class="pick-body">
           <div class="field">
             <span class="field-k">替代了什么</span>
-            <p>用 AI 做 PPT 的实际流程：让模型写大纲 → 自己复制到 PowerPoint → 手动排版 →</p>
+            <p>用 AI 做 PPT 的实际流程：让模型写大纲 → 自己复制到 PowerPoint → 手动排版 → 发现结构不对再回头改。中间的复制粘贴和排版是纯体力活。</p>
           </div>
           <div class="field field-take">
             <span class="field-k">能拿走什么</span>
-            <p>里面很可能有围绕某个现成产品做的能力。这个案例给出的教训很具体 ——</p>
+            <p>这一条对你有直接的实操价值：你在做 songo 和各类 skill， 里面很可能有围绕某个现成产品做的能力。这个案例给出的教训很具体 ——</p>
           </div>
         </div>
       </article>
@@ -278,7 +286,10 @@
     <div class="scroll-x">
       <table class="tbl">
         <thead>
-          <tr><th>产品</th><th>环比</th><th>规模</th><th>所在榜单</th></tr>
+          <tr>
+            <th>产品</th><th>环比</th>
+            <th>规模</th><th>所在榜单</th>
+          </tr>
         </thead>
         <tbody>
           <tr>
@@ -286,7 +297,7 @@
             <td class="num up">
               +13311.5%
             </td>
-            <td class="num">访问 2.56M</td>
+            <td class="num">月访问 2.56M</td>
             <td class="desc">AI + 效率</td>
           </tr>
           <tr>
@@ -294,7 +305,7 @@
             <td class="num up">
               +3480.0%
             </td>
-            <td class="num">访问 3.70M</td>
+            <td class="num">月访问 3.70M</td>
             <td class="desc">国内增速榜 · 全球增速榜 · 国内总榜 · 全球总榜</td>
           </tr>
           <tr>
@@ -302,7 +313,7 @@
             <td class="num up">
               +570.3%
             </td>
-            <td class="num">访问 2.08M</td>
+            <td class="num">月访问 2.08M</td>
             <td class="desc">AI + 效率</td>
           </tr>
           <tr>
@@ -310,7 +321,7 @@
             <td class="num up">
               +134.6%
             </td>
-            <td class="num">访问 3.12M</td>
+            <td class="num">月访问 3.12M</td>
             <td class="desc">AI + 效率</td>
           </tr>
           <tr>
@@ -318,7 +329,7 @@
             <td class="num ">
               +80.1%
             </td>
-            <td class="num">访问 2.97M</td>
+            <td class="num">月访问 2.97M</td>
             <td class="desc">AI + 效率</td>
           </tr>
           <tr>
@@ -326,7 +337,7 @@
             <td class="num ">
               +54.1%
             </td>
-            <td class="num">访问 2.59M</td>
+            <td class="num">月访问 2.59M</td>
             <td class="desc">AI + 生活</td>
           </tr>
           <tr>
@@ -334,7 +345,7 @@
             <td class="num ">
               +49.4%
             </td>
-            <td class="num">访问 2.79M</td>
+            <td class="num">月访问 2.79M</td>
             <td class="desc">AI + 效率</td>
           </tr>
           <tr>
@@ -342,7 +353,7 @@
             <td class="num ">
               +31.2%
             </td>
-            <td class="num">访问 3.42M</td>
+            <td class="num">月访问 3.42M</td>
             <td class="desc">AI + 生活</td>
           </tr>
           <tr>
@@ -350,7 +361,7 @@
             <td class="num ">
               +30.0%
             </td>
-            <td class="num">访问 7.49M</td>
+            <td class="num">月访问 7.49M</td>
             <td class="desc">国内增速榜 · 全球增速榜 · 国内总榜 · 代码辅助榜 · 全球总榜</td>
           </tr>
           <tr>
@@ -358,7 +369,7 @@
             <td class="num ">
               +24.6%
             </td>
-            <td class="num">访问 10.24M</td>
+            <td class="num">月访问 10.24M</td>
             <td class="desc">国内增速榜 · 全球增速榜 · 国内总榜 · 聊天机器人榜 · 全球总榜</td>
           </tr>
         </tbody>

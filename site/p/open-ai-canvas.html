@@ -7,8 +7,12 @@
 <meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
 <title>open-ai-canvas · x-octo</title>
 <meta name="description" content="一张画布装下整部戏：从小说抽角色资产，再编排分镜、图、视频、音频">
-<link rel="canonical" href="https://xocto.vercel.app/p/open-ai-canvas.html"><meta property="og:type" content="website">
+<link rel="canonical" href="https://xocto.vercel.app/p/open-ai-canvas.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/open-ai-canvas.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/open-ai-canvas.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/open-ai-canvas.html">
+<meta property="og:type" content="website">
 <meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="open-ai-canvas · x-octo">
 <meta property="og:description" content="一张画布装下整部戏：从小说抽角色资产，再编排分镜、图、视频、音频">
 <meta property="og:url" content="https://xocto.vercel.app/p/open-ai-canvas.html"><meta name="twitter:card" content="summary">
@@ -29,13 +33,20 @@
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">全球 AI 应用雷达</span>
+    </div>
     <nav class="nav">
       <a href="../index.html" class="">首页</a>
       <a href="../products.html" class="on">全部产品</a>
       <a href="../r/2026-08-11.html" class="">每日观察</a>
     </nav>
-    <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/open-ai-canvas.html" lang="en"
+         hreflang="en" aria-label="Switch to English">EN</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    </div>
   </div>
 </div>
 
@@ -45,7 +56,7 @@
   <div class="detail-head">
     <div class="pick-id">
       <h1>open-ai-canvas</h1>
-      <span class="verdict v-强烈推荐">强烈推荐</span>
+      <span class="verdict v-strong">强烈推荐</span>
     </div>
 
     <p class="lede">一张画布装下整部戏：从小说抽角色资产，再编排分镜、图、视频、音频</p>
@@ -73,11 +84,11 @@
     <div class="summary-grid">
       <div class="field">
         <span class="field-k">替代了什么旧行为</span>
-        <p>AI 影视创作现在的实际工作流是：ChatGPT 写大纲 → Midjourney/即梦出图 →</p>
+        <p>AI 影视创作现在的实际工作流是：ChatGPT 写大纲 → Midjourney/即梦出图 → 可灵/Runway 生成视频 → 剪映拼接 → 中间用飞书文档和微信传素材。</p>
       </div>
       <div class="field field-take">
         <span class="field-k">能拿走什么</span>
-        <p>它怎么定义一个角色的&#34;外观、声音、气质&#34;并让这些在不同生成环节间保持一致，</p>
+        <p>产品逻辑（直接对标）：这几乎就是 songo 的开源版本。去读它的角色资产数据结构—— 它怎么定义一个角色的&#34;外观、声音、气质&#34;并让这些在不同生成环节间保持一致， 这是 songo 最核心也最难的部分，现在有人把答案写在 GitHub 上了。</p>
       </div>
     </div>
   </section>

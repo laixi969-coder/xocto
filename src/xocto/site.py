@@ -11,6 +11,10 @@
     site/products.html       全部产品（可筛选）
     site/p/<slug>.html       产品详情
     site/r/<date>.html       每日观察
+
+出两个语种：中文在 site/，英文在 site/en/（内容读 data/analysis/en/、
+data/reports/en/ 和 frontmatter 里的 *_en 字段）。模板只有一套，渲染两次，
+语言相关的东西全在 i18n.py。
 """
 
 from __future__ import annotations
@@ -18,7 +22,6 @@ from __future__ import annotations
 import re
 import shutil
 from dataclasses import dataclass
-from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -29,37 +32,20 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .models import (
     CATEGORIES,
     STATUS_ANALYZED,
-    STATUS_PENDING_FILTER,
-    STATUS_QUEUED,
     STATUS_WATCHING,
     Product,
 )
 from .dedupe import is_aggregator, url_host
+from .i18n import LOCALES, Locale, other
 from .report import ReportDoc, parse_report, split_stat
 from .store import Store
 
 # 网站上不出现任何数据源名称。用户不关心东西从哪抓来的，
 # 那是实现细节 —— 泄漏到界面上既没用，也把采集策略白送出去了。
 # 只暴露对用户有意义的两件事：成熟度（阶段）和方向（赛道）。
-STAGE_EARLY = "刚冒头"
-STAGE_PROVEN = "已验证"
-
-# 各源指标口径不同，统一成人话，且不透露来自哪个平台
-METRIC_LABELS = {
-    "points": "社区热度",
-    "stars": "开源关注",
-    "comments": "讨论量",
-}
-
-STATUS_LABELS = {
-    STATUS_ANALYZED: "已分析",
-    STATUS_WATCHING: "观察中",
-    STATUS_QUEUED: "待分析",
-    STATUS_PENDING_FILTER: "新收录",
-    "rejected": "已淘汰",
-}
-
-VERDICT_ORDER = {"强烈推荐": 0, "值得关注": 1, "有待观察": 2}
+# 两个阶段的显示文字见 i18n.py，这里只留稳定的键。
+STAGE_EARLY = "early"
+STAGE_PROVEN = "proven"
 
 # 线上地址。这是部署事实不是品味，所以放代码里而不是 config/。
 # 用途：canonical、sitemap、og:url —— 三处都必须是绝对地址。
@@ -83,19 +69,28 @@ class Analysis:
     slug: str
     name: str
     verdict: str
+    # 评级的稳定键（strong / notable / unproven）。CSS 类名和排序都认它 ——
+    # 认显示文字的话，英文站的徽章会因为写的是 "Strong pick" 而全部掉色。
+    verdict_key: str
+    verdict_rank: int
     analyzed_at: str
     body_html: str
     excerpt: str
     replaces: str = ""
     takeaway: str = ""
 
-    @property
-    def verdict_rank(self) -> int:
-        return VERDICT_ORDER.get(self.verdict, 9)
+
+# 段首是引言、表格或列表符号 —— 那不是正文段落
+_NOT_PROSE = re.compile(r"^(?:[>|]|[-*+]\s)")
 
 
 def _section(body: str, *titles: str, limit: int = 200) -> str:
-    """抽出某个二级标题下的第一段正文。找不到返回空串。"""
+    """抽出某个二级标题下的第一段正文。找不到返回空串。
+
+    按空行切段，不按换行切行 —— Markdown 里一段话可以折成好几行，
+    原来逐行取会把"它试图把二十年积累的判断力／打包成软件卖给不懂营销的人"
+    截成后半句，首页上那张卡就是一个没头没尾的残句。
+    """
     for title in titles:
         match = re.search(
             rf"^##\s*{re.escape(title)}[^\n]*\n+(.+?)(?=\n#{{1,2}}\s|\Z)",
@@ -104,10 +99,9 @@ def _section(body: str, *titles: str, limit: int = 200) -> str:
         )
         if not match:
             continue
-        for line in match.group(1).split("\n"):
-            text = line.strip()
-            # 跳过引言块和空行，取第一段实际内容
-            if text and not text.startswith((">", "|", "-", "*")):
+        for para in re.split(r"\n\s*\n", match.group(1)):
+            text = " ".join(para.split())
+            if text and not _NOT_PROSE.match(text):
                 return _strip_md(text, limit)
     return ""
 
@@ -125,18 +119,12 @@ class Report:
 
     day: str
     doc: ReportDoc
+    # 报头上的人话日期。格式随语种走（见 i18n.Locale.date_label），
+    # 所以在加载时就定下来，不做成属性
+    label: str
     hook: str = ""
     highlights: tuple[str, ...] = ()
     stats: tuple[tuple[str, str], ...] = ()
-
-    @property
-    def label(self) -> str:
-        """报头上的人话日期：2026 年 8 月 11 日 · 星期二。"""
-        try:
-            d = date.fromisoformat(self.day)
-        except ValueError:
-            return self.day
-        return f"{d.year} 年 {d.month} 月 {d.day} 日 · 星期{'一二三四五六日'[d.weekday()]}"
 
 
 def _split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
@@ -154,15 +142,33 @@ def _split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
 
 
 def _strip_md(text: str, limit: int = 120) -> str:
-    """把一段 Markdown 压成纯文本摘要。"""
-    flat = re.sub(r"[#>*_`\[\]()|-]", " ", text)
+    """把一段 Markdown 压成纯文本摘要。
+
+    只拆语法记号，不碰正文字符。原来是把 [#>*_`()|-] 一律换成空格 ——
+    中文里看不出问题，英文会把 self-hosted 打成 self hosted、
+    把 (YC S26) 拆成裸词，摘要和 meta description 全被波及。
+    """
+    flat = re.sub(r"!?\[([^\]]*)\]\([^)]*\)", r"\1", text)  # 链接只留文字
+    flat = re.sub(r"_([^_\n]+)_", r"\1", flat)  # 下划线强调
+    flat = re.sub(r"[*`#]", "", flat)  # 加粗、行内代码、标题记号
+    flat = re.sub(r"^\s*[-+]\s+", "", flat, flags=re.M)  # 列表符号
+    flat = flat.replace("|", " ")  # 表格分隔
     flat = " ".join(flat.split())
     return flat[:limit] + ("…" if len(flat) > limit else "")
 
 
-def load_analyses(store: Store) -> list[Analysis]:
+def _content_dir(base: Path, locale: Locale) -> Path:
+    """某语种的内容目录。中文用根目录，英文用它下面的 en/。
+
+    英文缺文件就是缺，不回退到中文 —— 英文页面里混一段中文，
+    比那块干脆不出现更糟。
+    """
+    return base / locale.content_subdir if locale.content_subdir else base
+
+
+def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
     out: list[Analysis] = []
-    for path in sorted(store.analysis_dir.glob("*.md")):
+    for path in sorted(_content_dir(store.analysis_dir, locale).glob("*.md")):
         try:
             text = path.read_text(encoding="utf-8")
         except OSError as exc:
@@ -174,31 +180,31 @@ def load_analyses(store: Store) -> list[Analysis]:
         # 分析正文开头的 H1 和页面标题重复，剥掉
         body = re.sub(r"\A\s*#\s+[^\n]*\n", "", body)
         # 摘要取"一句话定位"下面那段，取不到就用正文开头
-        excerpt = ""
-        match = re.search(r"##\s*一句话定位\s*\n+(.+?)\n", body)
-        if match:
-            excerpt = _strip_md(match.group(1))
+        excerpt = _section(body, *locale.heading_excerpt, limit=120)
         if not excerpt:
             excerpt = _strip_md(body)
 
+        verdict = front.get("verdict") or ""
         out.append(
             Analysis(
                 slug=slug,
                 name=front.get("name") or slug,
-                verdict=front.get("verdict") or "",
+                verdict=verdict,
+                verdict_key=locale.verdict_key(verdict),
+                verdict_rank=locale.verdict_rank(verdict),
                 analyzed_at=str(front.get("analyzed_at") or ""),
                 body_html=_markdown(body),
                 excerpt=excerpt,
-                replaces=_section(body, "它在替代什么旧行为", "它在替代什么"),
-                takeaway=_section(body, "对你的可迁移点", "对我的可迁移点"),
+                replaces=_section(body, *locale.heading_replaces),
+                takeaway=_section(body, *locale.heading_takeaway),
             )
         )
     return sorted(out, key=lambda a: (a.verdict_rank, a.name))
 
 
-def load_reports(store: Store) -> list[Report]:
+def load_reports(store: Store, locale: Locale) -> list[Report]:
     out: list[Report] = []
-    for path in sorted(store.reports_dir.glob("*.md"), reverse=True):
+    for path in sorted(_content_dir(store.reports_dir, locale).glob("*.md"), reverse=True):
         try:
             text = path.read_text(encoding="utf-8")
         except OSError:
@@ -206,10 +212,12 @@ def load_reports(store: Store) -> list[Report]:
 
         front, body = _split_frontmatter(text)
         highlights = tuple(str(h) for h in (front.get("highlights") or []))
+        day = str(front.get("day") or path.stem)
         out.append(
             Report(
-                day=str(front.get("day") or path.stem),
-                doc=parse_report(body),
+                day=day,
+                doc=parse_report(body, locale),
+                label=locale.date_label(day),
                 hook=str(front.get("hook") or ""),
                 highlights=highlights,
                 # 每条 highlight 开头那个数字单独抽出来 —— 数字放大才是数字
@@ -219,21 +227,21 @@ def load_reports(store: Store) -> list[Report]:
     return out
 
 
-def _metric_badges(product: Product) -> list[str]:
+def _metric_badges(product: Product, locale: Locale) -> list[str]:
     """把各源口径不同的指标压成人话，不带平台名。"""
     badges: list[str] = []
     for sighting in product.sightings:
         m = sighting.metrics
         if m.get("points") is not None:
-            badges.append(f"社区热度 {m['points']}")
+            badges.append(f"{locale.metrics['points']} {m['points']}")
         if m.get("stars") is not None:
-            badges.append(f"开源关注 {m['stars']:,}")
+            badges.append(f"{locale.metrics['stars']} {m['stars']:,}")
         if m.get("raw_value"):
-            unit = "月活" if m.get("metric") == "mau" else "月访问"
+            unit = locale.metrics["mau" if m.get("metric") == "mau" else "visits"]
             badges.append(f"{unit} {m['raw_value']}")
         if m.get("mom_percent") is not None:
             sign = "+" if m["mom_percent"] >= 0 else ""
-            badges.append(f"环比 {sign}{m['mom_percent']:.0f}%")
+            badges.append(f"{locale.metrics['mom']} {sign}{m['mom_percent']:.0f}%")
     return badges
 
 
@@ -249,29 +257,30 @@ def _external_url(product: Product) -> str:
 
 
 def _stage(product: Product) -> str:
-    """成熟度。有真实流量数据的算已验证，其余都是刚冒头。"""
+    """成熟度。有真实流量数据的算已验证，其余都是刚冒头。返回稳定键。"""
     for sighting in product.sightings:
         if sighting.metrics.get("raw_value"):
             return STAGE_PROVEN
     return STAGE_EARLY
 
 
-def _boards(product: Product) -> list[str]:
+def _boards(product: Product, locale: Locale) -> list[str]:
     """产品上过的细分榜，去重保序。这是它的品类地位证明。"""
     seen: list[str] = []
     for sighting in product.sightings:
         for board in sighting.metrics.get("boards") or []:
-            if board not in seen:
-                seen.append(board)
+            label = locale.board(board)
+            if label not in seen:
+                seen.append(label)
     return seen
 
 
-def _scale_badge(product: Product) -> str:
+def _scale_badge(product: Product, locale: Locale) -> str:
     """规模标签（访问量 / 月活）。只有榜单源才有。"""
     for sighting in product.sightings:
         m = sighting.metrics
         if m.get("raw_value"):
-            unit = "月活" if m.get("metric") == "mau" else "访问"
+            unit = locale.metrics["mau" if m.get("metric") == "mau" else "visits"]
             return f"{unit} {m['raw_value']}"
     return ""
 
@@ -293,23 +302,23 @@ def _weight(product: Product) -> int:
     return best
 
 
-def build_context(store: Store) -> dict[str, Any]:
-    """组装整站数据。
+def build_context(store: Store, locale: Locale) -> dict[str, Any]:
+    """组装某个语种的整站数据。
 
     版块顺序按信息价值密度排：判断 > 数据 > 罗列。
     有判断的东西全站只有几个，但那是别处拿不到的；
     罗列谁都能做，所以往后放。
     """
     products = list(store.iter_products())
-    analyses = load_analyses(store)
-    reports = load_reports(store)
+    analyses = load_analyses(store, locale)
+    reports = load_reports(store, locale)
     by_slug = {a.slug: a for a in analyses}
 
-    views = [product_view(p) for p in products]
+    views = [product_view(p, locale) for p in products]
     view_by_slug = {v["slug"]: v for v in views}
 
-    early = [v for v in views if v["stage"] == STAGE_EARLY]
-    proven = [v for v in views if v["stage"] == STAGE_PROVEN]
+    early = [v for v in views if v["stage_key"] == STAGE_EARLY]
+    proven = [v for v in views if v["stage_key"] == STAGE_PROVEN]
 
     # 1. 今日判断：有深度分析的，按推荐度排
     picks = [
@@ -324,8 +333,8 @@ def build_context(store: Store) -> dict[str, Any]:
         key=lambda v: -v["weight"],
     )
 
-    # 覆盖率：没中文说明、没灵感的产品对读者是废卡片，得看得见还差多少
-    missing_zh = [v for v in views if not v["is_zh"]]
+    # 覆盖率：没说明、没灵感的产品对读者是废卡片，得看得见还差多少
+    missing_zh = [v for v in views if not v["has_summary"]]
     missing_insp = [v for v in views if not v["inspiration"]]
 
     # 3. 增长信号：环比异常的，那才是信号，不是排名
@@ -334,15 +343,16 @@ def build_context(store: Store) -> dict[str, Any]:
         key=lambda v: -(v["growth"] or 0),
     )[:10]
 
-    # 4. 赛道分布：给一个进入方式，不在首页罗列产品
+    # 4. 赛道分布：给一个进入方式，不在首页罗列产品。
+    # 按规范键计数，按 CATEGORIES 的顺序输出显示名 —— 顺序是编排过的，
+    # 不能让某个语种的字母序把它打乱。
     counts: dict[str, int] = {}
     for view in views:
-        key = view["category"] or "未归类"
-        counts[key] = counts.get(key, 0) + 1
+        counts[view["category_key"]] = counts.get(view["category_key"], 0) + 1
     categories = [
-        {"name": name, "count": counts[name]}
-        for name in CATEGORIES
-        if counts.get(name)
+        {"name": locale.category(key), "count": counts[key]}
+        for key in CATEGORIES
+        if counts.get(key)
     ]
 
     # 读完一份分析之后没有下一步，旅程就断在那里了。
@@ -354,12 +364,12 @@ def build_context(store: Store) -> dict[str, Any]:
         same = [
             o
             for o in ranked
-            if o["category"] == view["category"] and o["slug"] != view["slug"]
+            if o["category_key"] == view["category_key"] and o["slug"] != view["slug"]
         ]
         # 同方向里优先推有判断的，其次是热度高的
         same.sort(key=lambda o: (o["status"] != STATUS_ANALYZED, -o["weight"]))
         view["siblings"] = same[:4]
-        view["category_total"] = counts.get(view["category"], 0)
+        view["category_total"] = counts.get(view["category_key"], 0)
 
     return {
         # 页脚要回答的是"数据什么时候更新的"，不是"HTML 什么时候渲染的"。
@@ -373,7 +383,7 @@ def build_context(store: Store) -> dict[str, Any]:
             "proven": len(proven),
             "analysed": len(analyses),
             "watching": len(notables),
-            "missing_zh": len(missing_zh),
+            "missing_summary": len(missing_zh),
             "missing_inspiration": len(missing_insp),
         },
         "analyses": analyses,
@@ -428,31 +438,44 @@ def write_seo(out_dir: Path, pages: list[tuple[str, str]]) -> None:
     (out_dir / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def product_view(product: Product) -> dict[str, Any]:
+def product_view(product: Product, locale: Locale) -> dict[str, Any]:
     """把 Product 摊平成模板好用的字典。
 
     注意这里刻意不导出任何来源信息 —— 模板拿不到，就不可能不小心渲染出去。
     """
     stage = _stage(product)
+    if locale.key == "zh":
+        # 中文站一律优先中文。源给的多半是英文营销话术，
+        # 摆在列表里读者一行扫过去等于没看见。
+        summary = product.summary_zh or product.summary
+        inspiration = product.inspiration
+        written = bool(product.summary_zh)
+    else:
+        # 英文站：源自带的英文原句能用就用，说不清的才写 summary_en 覆盖。
+        # 灵感没有兜底 —— 没写就整块不显示，不拿中文顶上。
+        summary = product.summary_en or product.summary
+        inspiration = product.inspiration_en
+        written = bool(product.summary_en or product.summary)
     return {
         "slug": product.slug,
         "name": product.name,
         "builder": product.builder,
-        # 展示一律优先中文。源给的多半是英文营销话术，
-        # 摆在列表里读者一行扫过去等于没看见。
-        "summary": product.summary_zh or product.summary,
+        "summary": summary,
         "summary_raw": product.summary,
-        "is_zh": bool(product.summary_zh),
-        "inspiration": product.inspiration,
+        "has_summary": written,
+        "inspiration": inspiration,
         "url": _external_url(product),
         "status": product.status,
-        "status_label": STATUS_LABELS.get(product.status, product.status),
-        "category": product.category,
-        "stage": stage,
-        "stage_key": "proven" if stage == STAGE_PROVEN else "early",
-        "badges": _metric_badges(product),
-        "scale": _scale_badge(product),
-        "boards": _boards(product),
+        "status_label": locale.status(product.status),
+        # category 是给人看的（随语种翻译），category_key 是数据里的规范值，
+        # 计数和归组一律用键 —— 用显示文字归组，换个语种就分不到一起
+        "category": locale.category(product.category),
+        "category_key": product.category,
+        "stage": locale.stage(stage),
+        "stage_key": stage,
+        "badges": _metric_badges(product, locale),
+        "scale": _scale_badge(product, locale),
+        "boards": _boards(product, locale),
         "first_seen": product.first_seen[:10],
         "last_seen": product.last_seen[:10],
         "growth": _growth_rate(product),
@@ -462,8 +485,96 @@ def product_view(product: Product) -> dict[str, Any]:
     }
 
 
+def _page_paths(ctx: dict[str, Any]) -> set[str]:
+    """某语种实际会输出哪些页面（不带语种前缀）。
+
+    语言切换按钮要靠它决定跳去哪：产品页两个语种都有，但每日观察不一定 ——
+    中文有 2026-08-11 而英文还没写的时候，直接跳过去就是一条死链。
+    """
+    paths = {"index.html", "products.html"}
+    paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
+    paths.update(f"r/{r.day}.html" for r in ctx["reports"])
+    return paths
+
+
+def _build_locale(
+    env: Environment,
+    out_dir: Path,
+    locale: Locale,
+    ctx: dict[str, Any],
+    alt_paths: set[str],
+    rendered: list[str],
+    sitemap: list[tuple[str, str]],
+) -> int:
+    """渲染一个语种的全部页面，返回页面数。"""
+    alt = other(locale)
+    base = out_dir / locale.prefix if locale.prefix else out_dir
+    base.mkdir(parents=True, exist_ok=True)
+    (base / "p").mkdir(exist_ok=True)
+    (base / "r").mkdir(exist_ok=True)
+
+    def write(rel: str, template: str, page: str, description: str, **extra: Any) -> None:
+        # root 是页面到站点根的相对路径。顶层页面为空，子目录页面要回退一级 ——
+        # 这样整站可以直接双击打开，不需要起服务器。
+        # 英文站整体多一层（site/en/），所以前缀里的斜杠也要算进去。
+        root = "../" * (locale.prefix.count("/") + rel.count("/"))
+        # 另一语种的同一个页面。那边没有这一页就退回它的首页，
+        # 绝不生成指向不存在文件的链接。
+        # 退回首页时不发 hreflang —— hreflang 声明的是"同一内容的另一语言版本"，
+        # 指到首页是假话，会让搜索引擎把两页当互译。
+        alt_exact = rel in alt_paths
+        alt_rel = rel if alt_exact else "index.html"
+        html = env.get_template(template).render(
+            **ctx,
+            page=page,
+            root=root,
+            locale=locale,
+            t=locale.t,
+            canonical=_canonical(locale.path(rel)),
+            description=description,
+            alt_locale=alt,
+            alt_href=f"{root}{alt.prefix}{alt_rel}",
+            alt_canonical=_canonical(alt.path(alt_rel)) if alt_exact else "",
+            **extra,
+        )
+        (base / rel).write_text(html, encoding="utf-8")
+        rendered.append(html)
+
+    stats = ctx["stats"]
+    write("index.html", "index.html", "home", locale.site_desc)
+    sitemap.append((locale.path("index.html"), ctx["latest_day"]))
+
+    write(
+        "products.html", "products.html", "products",
+        locale.t["products"]["desc"].format(total=stats["total"]),
+    )
+    sitemap.append((locale.path("products.html"), ctx["latest_day"]))
+
+    by_slug = ctx["analysis_by_slug"]
+    for view in ctx["products"]:
+        rel = f"p/{view['slug']}.html"
+        write(
+            rel, "product.html", "products",
+            # 用产品自己的一句话介绍当摘要 —— 上百个页面共用一句
+            # 通用描述，对搜索引擎等于没有描述
+            _describe(view["summary"], locale.site_desc),
+            product=view,
+            analysis=by_slug.get(view["slug"]),
+        )
+        sitemap.append((locale.path(rel), view["last_seen"]))
+
+    for report in ctx["reports"]:
+        rel = f"r/{report.day}.html"
+        # 当天那句钩子就是最好的搜索摘要
+        write(rel, "report.html", "reports", _describe(report.hook, locale.site_desc),
+              report=report)
+        sitemap.append((locale.path(rel), report.day))
+
+    return 2 + len(ctx["products"]) + len(ctx["reports"])
+
+
 def build(store: Store, out_dir: Path | None = None) -> Path:
-    """生成整站，返回输出目录。"""
+    """生成整站（中文 + 英文），返回输出目录。"""
     out_dir = out_dir or store.root / "site"
     templates_dir = store.root / "templates"
     if not templates_dir.exists():
@@ -476,67 +587,22 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
         lstrip_blocks=True,
     )
 
-    ctx = build_context(store)
-
     out_dir.mkdir(parents=True, exist_ok=True)
-    (out_dir / "p").mkdir(exist_ok=True)
-    (out_dir / "r").mkdir(exist_ok=True)
+
+    # 两个语种的数据先各自组好，再开始渲染 —— 语言切换要知道对面有没有这一页
+    contexts = {loc.key: build_context(store, loc) for loc in LOCALES}
+    paths = {key: _page_paths(ctx) for key, ctx in contexts.items()}
 
     pages = 0
-    rendered: list[str] = []  # 留给字体子集化抓标题字符
+    rendered: list[str] = []  # 留给字体子集化抓标题字符（两个语种一起，
+    #                            30 个产品名本身是中文，英文页面上也要有字）
     sitemap: list[tuple[str, str]] = []   # (相对路径, lastmod)
-    site_desc = "每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。"
 
-    # root 是页面到站点根的相对路径。顶层页面为空，子目录页面要回退一级 ——
-    # 这样整站可以直接双击打开，不需要起服务器。
-    html = env.get_template("index.html").render(
-        **ctx, page="home", root="",
-        canonical=_canonical("index.html"), description=site_desc,
-    )
-    (out_dir / "index.html").write_text(html, encoding="utf-8")
-    rendered.append(html)
-    sitemap.append(("index.html", ctx["latest_day"]))
-    pages += 1
-
-    html = env.get_template("products.html").render(
-        **ctx, page="products", root="",
-        canonical=_canonical("products.html"),
-        description=f"全部 {ctx['stats']['total']} 个 AI 应用。刚冒头的看它做什么，已验证的看它涨多快。",
-    )
-    (out_dir / "products.html").write_text(html, encoding="utf-8")
-    rendered.append(html)
-    sitemap.append(("products.html", ctx["latest_day"]))
-    pages += 1
-
-    detail = env.get_template("product.html")
-    by_slug = ctx["analysis_by_slug"]
-    for view in ctx["products"]:
-        rel = f"p/{view['slug']}.html"
-        html = detail.render(
-            **ctx, page="products", root="../", product=view, analysis=by_slug.get(view["slug"]),
-            canonical=_canonical(rel),
-            # 用产品自己的一句话介绍当摘要 —— 163 个页面共用一句
-            # 通用描述，对搜索引擎等于没有描述
-            description=_describe(view["summary"], site_desc),
+    for locale in LOCALES:
+        pages += _build_locale(
+            env, out_dir, locale, contexts[locale.key],
+            paths[other(locale).key], rendered, sitemap,
         )
-        (out_dir / rel).write_text(html, encoding="utf-8")
-        rendered.append(html)
-        sitemap.append((rel, view["last_seen"]))
-        pages += 1
-
-    report_tpl = env.get_template("report.html")
-    for report in ctx["reports"]:
-        rel = f"r/{report.day}.html"
-        html = report_tpl.render(
-            **ctx, page="reports", root="../", report=report,
-            canonical=_canonical(rel),
-            # 当天那句钩子就是最好的搜索摘要
-            description=_describe(report.hook, site_desc),
-        )
-        (out_dir / rel).write_text(html, encoding="utf-8")
-        rendered.append(html)
-        sitemap.append((rel, report.day))
-        pages += 1
 
     css_src = templates_dir / "style.css"
     if css_src.exists():
