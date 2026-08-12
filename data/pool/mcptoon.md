@@ -12,17 +12,17 @@ url: https://github.com/activeing123/mcptoon
 canonical_url: https://github.com/activeing123/mcptoon
 summary: Token-efficient MCP CLI client
 first_seen: '2026-08-11T05:26:58Z'
-last_seen: '2026-08-11T11:08:03Z'
+last_seen: '2026-08-12T03:21:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/activeing123/mcptoon
-  seen_at: '2026-08-11T11:08:03Z'
+  seen_at: '2026-08-12T03:21:51Z'
   metrics:
-    points: 50
-    comments: 38
+    points: 70
+    comments: 43
 ---
 
 # Mcptoon

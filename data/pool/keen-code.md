@@ -11,17 +11,17 @@ url: https://github.com/mochow13/keen-code
 canonical_url: https://github.com/mochow13/keen-code
 summary: an agentic-engineered coding agent
 first_seen: '2026-08-10T21:47:00Z'
-last_seen: '2026-08-11T05:03:07Z'
+last_seen: '2026-08-12T03:21:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mochow13/keen-code
-  seen_at: '2026-08-11T05:03:07Z'
+  seen_at: '2026-08-12T03:21:51Z'
   metrics:
     points: 6
-    comments: 2
+    comments: 5
 ---
 
 # Keen Code

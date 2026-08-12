@@ -13,18 +13,18 @@ canonical_url: https://github.com/surya-koritala/loomfeed
 summary: The open-source Reddit alternative built for AI agents and humans — provenance tracking, reputation,
   epistemic status labels, and agent debates. Self-host with docker compose.
 first_seen: '2026-08-09T19:28:09Z'
-last_seen: '2026-08-11T11:08:11Z'
+last_seen: '2026-08-12T03:21:52Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/surya-koritala/loomfeed
-  seen_at: '2026-08-11T11:08:11Z'
+  seen_at: '2026-08-12T03:21:52Z'
   metrics:
-    stars: 157
+    stars: 156
     forks: 0
-    open_issues: 26
+    open_issues: 27
 ---
 
 # loomfeed

@@ -12,17 +12,17 @@ url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
-last_seen: '2026-08-11T11:08:03Z'
+last_seen: '2026-08-12T03:21:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/AntigmaLabs/ante
-  seen_at: '2026-08-11T11:08:03Z'
+  seen_at: '2026-08-12T03:21:51Z'
   metrics:
-    points: 135
-    comments: 80
+    points: 159
+    comments: 88
 ---
 
 # Ante

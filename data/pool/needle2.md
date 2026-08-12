@@ -11,17 +11,17 @@ url: https://cactuscompute.com/needle
 canonical_url: https://cactuscompute.com/needle
 summary: 14MB agentic LLM for phones, wearables, smart home and robots
 first_seen: '2026-08-10T17:22:07Z'
-last_seen: '2026-08-11T11:08:03Z'
+last_seen: '2026-08-12T03:21:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://cactuscompute.com/needle
-  seen_at: '2026-08-11T11:08:03Z'
+  seen_at: '2026-08-12T03:21:51Z'
   metrics:
-    points: 357
-    comments: 135
+    points: 509
+    comments: 171
 ---
 
 # Needle2
