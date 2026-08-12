@@ -10,17 +10,17 @@ canonical_url: https://github.com/lincwang123-bot/moonlit-stories
 summary: Reusable AI English picture-book workflow with consistent illustrations and local Chatterbox
   TTS.
 first_seen: '2026-08-04T09:48:54Z'
-last_seen: '2026-08-11T11:08:11Z'
+last_seen: '2026-08-12T03:21:52Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lincwang123-bot/moonlit-stories
-  seen_at: '2026-08-11T11:08:11Z'
+  seen_at: '2026-08-12T03:21:52Z'
   metrics:
-    stars: 154
-    forks: 29
+    stars: 158
+    forks: 30
     open_issues: 0
 ---
 

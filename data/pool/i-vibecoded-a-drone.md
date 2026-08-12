@@ -9,17 +9,17 @@ url: https://lukeiseman.substack.com/p/i-vibecoded-a-drone
 canonical_url: https://lukeiseman.substack.com/p/i-vibecoded-a-drone
 summary: I vibecoded a heavy lift drone
 first_seen: '2026-08-11T04:27:40Z'
-last_seen: '2026-08-11T11:08:03Z'
+last_seen: '2026-08-12T03:21:51Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lukeiseman.substack.com/p/i-vibecoded-a-drone
-  seen_at: '2026-08-11T11:08:03Z'
+  seen_at: '2026-08-12T03:21:51Z'
   metrics:
-    points: 13
-    comments: 0
+    points: 19
+    comments: 4
 ---
 
 # i-vibecoded-a-drone

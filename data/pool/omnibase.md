@@ -10,18 +10,18 @@ canonical_url: https://omnibase.chat/public-preview
 summary: Self-hosted AI workbench for knowledge, RAG, model providers, and safely governed user-built
   agents. Public Preview; production Agent Runtime remains gated. 自托管 AI 知识工作台与安全 Agent 平台。
 first_seen: '2026-08-01T07:24:09Z'
-last_seen: '2026-08-11T05:03:15Z'
+last_seen: '2026-08-12T03:21:52Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://omnibase.chat/public-preview
-  seen_at: '2026-08-11T05:03:15Z'
+  seen_at: '2026-08-12T03:21:52Z'
   metrics:
-    stars: 167
+    stars: 166
     forks: 4
-    open_issues: 3
+    open_issues: 4
 ---
 
 # omnibase
