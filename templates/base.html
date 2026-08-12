@@ -6,7 +6,16 @@
 <meta name="theme-color" content="#eef2e3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
 <title>{% block title %}x-octo · 全球 AI 应用雷达{% endblock %}</title>
-<meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
+{# 每页各自的摘要。原来 163 个页面共用同一句，对搜索引擎等于没有描述 #}
+<meta name="description" content="{{ description }}">
+{# / 和 /index.html 内容相同，canonical 把权重收敛到一个地址 #}
+{% if canonical %}<link rel="canonical" href="{{ canonical }}">{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:title" content="{% block ogtitle %}x-octo · 全球 AI 应用雷达{% endblock %}">
+<meta property="og:description" content="{{ description }}">
+{% if canonical %}<meta property="og:url" content="{{ canonical }}">{% endif %}
+<meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="{{ root }}style.css">
 {# 首屏字体提前取：不预加载的话要等 CSS 解析完才开始下载，
    font-display: swap 就会在全页最大的标题上闪一次 #}

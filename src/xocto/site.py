@@ -61,6 +61,13 @@ STATUS_LABELS = {
 
 VERDICT_ORDER = {"强烈推荐": 0, "值得关注": 1, "有待观察": 2}
 
+# 线上地址。这是部署事实不是品味，所以放代码里而不是 config/。
+# 用途：canonical、sitemap、og:url —— 三处都必须是绝对地址。
+BASE_URL = "https://xocto.vercel.app"
+
+# 搜索结果里的摘要长度。中文超过这个数会被截断，不如自己控制在哪断。
+DESC_LIMIT = 150
+
 _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
 
@@ -380,6 +387,47 @@ def build_context(store: Store) -> dict[str, Any]:
     }
 
 
+def _canonical(path: str) -> str:
+    """页面的唯一地址。
+
+    实测线上只有带 .html 的路径能访问（/products 是 404），
+    所以 canonical 必须带扩展名，否则指向一个不存在的 URL。
+    首页例外：/ 和 /index.html 内容相同，统一收敛到 /。
+    """
+    if path in ("", "index.html"):
+        return BASE_URL + "/"
+    return f"{BASE_URL}/{path}"
+
+
+def _describe(text: str, fallback: str) -> str:
+    """给搜索结果用的摘要。空的就退回站点默认那句。"""
+    flat = _strip_md(text or "", DESC_LIMIT)
+    return flat or fallback
+
+
+def write_seo(out_dir: Path, pages: list[tuple[str, str]]) -> None:
+    """robots.txt 和 sitemap.xml。
+
+    pages 是 (相对路径, lastmod) 列表。sitemap 只写 loc 和 lastmod ——
+    priority/changefreq 主流搜索引擎早就不看了，写了是自我安慰。
+    """
+    (out_dir / "robots.txt").write_text(
+        "User-agent: *\nAllow: /\n\n" f"Sitemap: {BASE_URL}/sitemap.xml\n",
+        encoding="utf-8",
+    )
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for path, lastmod in pages:
+        lines.append("  <url>")
+        lines.append(f"    <loc>{_canonical(path)}</loc>")
+        if lastmod:
+            lines.append(f"    <lastmod>{lastmod}</lastmod>")
+        lines.append("  </url>")
+    lines.append("</urlset>")
+    (out_dir / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def product_view(product: Product) -> dict[str, Any]:
     """把 Product 摊平成模板好用的字典。
 
@@ -436,34 +484,58 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
 
     pages = 0
     rendered: list[str] = []  # 留给字体子集化抓标题字符
+    sitemap: list[tuple[str, str]] = []   # (相对路径, lastmod)
+    site_desc = "每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。"
 
     # root 是页面到站点根的相对路径。顶层页面为空，子目录页面要回退一级 ——
     # 这样整站可以直接双击打开，不需要起服务器。
-    html = env.get_template("index.html").render(**ctx, page="home", root="")
+    html = env.get_template("index.html").render(
+        **ctx, page="home", root="",
+        canonical=_canonical("index.html"), description=site_desc,
+    )
     (out_dir / "index.html").write_text(html, encoding="utf-8")
     rendered.append(html)
+    sitemap.append(("index.html", ctx["latest_day"]))
     pages += 1
 
-    html = env.get_template("products.html").render(**ctx, page="products", root="")
+    html = env.get_template("products.html").render(
+        **ctx, page="products", root="",
+        canonical=_canonical("products.html"),
+        description=f"全部 {ctx['stats']['total']} 个 AI 应用。刚冒头的看它做什么，已验证的看它涨多快。",
+    )
     (out_dir / "products.html").write_text(html, encoding="utf-8")
     rendered.append(html)
+    sitemap.append(("products.html", ctx["latest_day"]))
     pages += 1
 
     detail = env.get_template("product.html")
     by_slug = ctx["analysis_by_slug"]
     for view in ctx["products"]:
+        rel = f"p/{view['slug']}.html"
         html = detail.render(
-            **ctx, page="products", root="../", product=view, analysis=by_slug.get(view["slug"])
+            **ctx, page="products", root="../", product=view, analysis=by_slug.get(view["slug"]),
+            canonical=_canonical(rel),
+            # 用产品自己的一句话介绍当摘要 —— 163 个页面共用一句
+            # 通用描述，对搜索引擎等于没有描述
+            description=_describe(view["summary"], site_desc),
         )
-        (out_dir / "p" / f"{view['slug']}.html").write_text(html, encoding="utf-8")
+        (out_dir / rel).write_text(html, encoding="utf-8")
         rendered.append(html)
+        sitemap.append((rel, view["last_seen"]))
         pages += 1
 
     report_tpl = env.get_template("report.html")
     for report in ctx["reports"]:
-        html = report_tpl.render(**ctx, page="reports", root="../", report=report)
-        (out_dir / "r" / f"{report.day}.html").write_text(html, encoding="utf-8")
+        rel = f"r/{report.day}.html"
+        html = report_tpl.render(
+            **ctx, page="reports", root="../", report=report,
+            canonical=_canonical(rel),
+            # 当天那句钩子就是最好的搜索摘要
+            description=_describe(report.hook, site_desc),
+        )
+        (out_dir / rel).write_text(html, encoding="utf-8")
         rendered.append(html)
+        sitemap.append((rel, report.day))
         pages += 1
 
     css_src = templates_dir / "style.css"
@@ -477,6 +549,9 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
         logo_out.mkdir(exist_ok=True)
         for f in sorted(logo_src.glob("*.png")):
             shutil.copy2(f, logo_out / f.name)
+
+    write_seo(out_dir, sitemap)
+    print(f"  robots.txt + sitemap.xml（{len(sitemap)} 个 URL）")
 
     from .fonts import build_fonts
 

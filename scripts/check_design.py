@@ -5,11 +5,12 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算三件事：
+复算四件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
-  2. 来源泄漏      —— 站点里不许出现任何采集源名称
+  2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
   3. 站内死链      —— 相对链接都要指向真实存在的文件
+  4. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
@@ -103,11 +104,13 @@ def check_leaks() -> list[str]:
     if not SITE.is_dir():
         return ["site/ 不存在，先跑 uv run xocto build"]
     hits = []
-    for path in SITE.rglob("*.html"):
-        text = path.read_text(encoding="utf-8", errors="ignore")
-        for name in FORBIDDEN:
-            if name in text:
-                hits.append(f"{path.relative_to(SITE)} 里出现了采集源名称 “{name}”")
+    # 不只扫 HTML：sitemap.xml 和 robots.txt 也是对外可见的文件
+    for pattern in ("*.html", "*.xml", "*.txt"):
+        for path in SITE.rglob(pattern):
+            text = path.read_text(encoding="utf-8", errors="ignore")
+            for name in FORBIDDEN:
+                if name in text:
+                    hits.append(f"{path.relative_to(SITE)} 里出现了采集源名称 “{name}”")
     return hits
 
 
@@ -129,11 +132,48 @@ def check_links() -> list[str]:
     return sorted(bad)[:20]
 
 
+def check_sitemap() -> list[str]:
+    """sitemap 里的每个 URL 都要真的存在，且页面数要对得上。
+
+    sitemap 指向 404 会被搜索引擎降权，而这种错不会有任何人报错 ——
+    必须靠复算发现。
+    """
+    sitemap = SITE / "sitemap.xml"
+    robots = SITE / "robots.txt"
+    problems: list[str] = []
+
+    if not sitemap.exists():
+        return ["缺 site/sitemap.xml —— 想被收录就得有"]
+    if not robots.exists():
+        return ["缺 site/robots.txt"]
+
+    xml = sitemap.read_text(encoding="utf-8")
+    locs = re.findall(r"<loc>([^<]+)</loc>", xml)
+    if not locs:
+        return ["sitemap.xml 里没有任何 <loc>"]
+
+    for loc in locs:
+        rel = loc.split("//", 1)[-1].split("/", 1)[-1] or "index.html"
+        target = SITE / (rel if rel != "" else "index.html")
+        if not target.exists():
+            problems.append(f"sitemap 指向不存在的页面：{loc}")
+
+    pages = len(list(SITE.rglob("*.html")))
+    if len(locs) != pages:
+        problems.append(f"sitemap 有 {len(locs)} 个 URL，站点有 {pages} 个页面，对不上")
+
+    if "Sitemap:" not in robots.read_text(encoding="utf-8"):
+        problems.append("robots.txt 里没有指向 sitemap")
+
+    return problems
+
+
 def main() -> int:
     groups = (
         ("token 对比度", check_contrast()),
         ("来源泄漏", check_leaks()),
         ("站内死链", check_links()),
+        ("sitemap 自洽", check_sitemap()),
     )
     failed = False
     for name, problems in groups:
