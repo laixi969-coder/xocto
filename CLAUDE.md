@@ -46,10 +46,10 @@ data/
 页面版块按信息价值密度排：**判断 > 数据 > 罗列**。
 「替代了什么旧行为」和「能拿走什么」是全站最值钱的两句，必须置顶，不许埋在正文里。
 
-改完必须跑泄漏检查：
+改完必须跑约束复算（泄漏检查 + token 对比度 + 站内死链）：
 
 ```bash
-grep -rl "Product Hunt\|Hacker News\|AICPB\|producthunt\|hackernews\|aicpb" site/
+uv run xocto build && python3 scripts/check_design.py
 ```
 
 ## 数据规矩
@@ -73,4 +73,5 @@ uv run xocto collect              # 采集今天
 uv run xocto collect --dry-run    # 采集但不写盘
 uv run xocto status               # 看数据现状
 uv run xocto pool --new           # 列出尚未分析的新产品
+python3 scripts/check_design.py   # 复算设计约束（对比度 / 泄漏 / 死链）
 ```

@@ -8,6 +8,9 @@
 <title>2026-08-11 每日观察 · x-octo</title>
 <meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
 <link rel="stylesheet" href="../style.css">
+<link rel="preload" href="../fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/fraunces-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -21,58 +24,144 @@
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="../index.html">x<span>·</span>octo</a>
+    <a class="brand" href="../index.html"><span>x-octo 首页</span></a>
     <nav class="nav">
       <a href="../index.html" class="">首页</a>
       <a href="../products.html" class="">全部产品</a>
       <a href="../r/2026-08-11.html" class="on">每日观察</a>
     </nav>
-    <button class="theme-btn" id="theme-btn" type="button">明 / 暗</button>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
   </div>
 </div>
 
 <main id="main">
-<div class="wrap">
+<div class="wrap wrap-report">
 
-  <div class="detail-head">
-    <h1>2026-08-11</h1>
-    <p class="lede">当日采集、趋势判断与市场信号</p>
-  </div>
+  <header class="masthead">
+    <p class="masthead-kicker">
+      <span>VOL.2026.08.11</span>
+      <span>每日观察</span>
+      <span>约 8 分钟</span>
+    </p>
+    <h1>所有人都在给 AI agent 造工具——CRM、沙箱、记忆、连电话号码都有了，但没人管给人用的那一端</h1>
+    <p class="masthead-date">2026 年 8 月 11 日 · 星期二</p>
+    <div class="masthead-stats">
+      <div><b class="num">3</b><span>个值得看</span></div>
+      <div><b class="num">2</b><span>个撞上短剧与影视工作流</span></div>
+      <div><b class="num">1</b><span>个环比涨了 133 倍</span></div>
+    </div>
+    <div class="masthead-rule"></div>
+<p class="masthead-lede">当日扫描 159 条，去重后 141 个产品，剔除新闻报道 17 条，入选 3 个深度分析。</p>  </header>
 
-  <article class="prose">
-    <p>当日扫描 159 条，去重后 141 个产品，剔除新闻报道 17 条，入选 3 个深度分析。</p>
-<hr />
-<h2>今天最值得看的 3 个</h2>
-<h3>1. shuohao-skills（烁皓）· 开源关注 655 · <strong>强烈推荐</strong></h3>
-<p>把一本小说拆成能直接开拍的短剧素材包：角色设定、形象提示词、音色、分集大纲。</p>
-<p><strong>替代的旧行为极明确</strong>——编剧写人物小传、美术出设定图、导演排分集，一个团队三五人做一两周。</p>
+  <div class="report-layout">
+    <div class="report-main">
+
+      <nav class="toc" aria-label="本期目录">
+        <p class="toc-head"><span>本期目录</span><span class="num">6 个版块</span></p>
+        <ol class="toc-list">
+          <li>
+            <a href="#s01">
+              <span class="toc-no num">01</span>
+              <span class="toc-t">今天最值得看的 3 个</span>
+            </a>
+          </li>
+          <li>
+            <a href="#s02">
+              <span class="toc-no num">02</span>
+              <span class="toc-t">今天的趋势<i>SaaS 正在被为 agent 重做一遍</i></span>
+<span class="toc-c num">9 项</span>            </a>
+          </li>
+          <li>
+            <a href="#s03">
+              <span class="toc-no num">03</span>
+              <span class="toc-t">大厂动作</span>
+<span class="toc-c num">3 条</span>            </a>
+          </li>
+          <li>
+            <a href="#s04">
+              <span class="toc-no num">04</span>
+              <span class="toc-t">中国市场信号<i>第三方实测流量</i></span>
+<span class="toc-c num">4 项</span>            </a>
+          </li>
+          <li>
+            <a href="#s05">
+              <span class="toc-no num">05</span>
+              <span class="toc-t">其余入选清单<i>按信号强度</i></span>
+<span class="toc-c num">11 条</span>            </a>
+          </li>
+          <li>
+            <a href="#s06">
+              <span class="toc-no num">06</span>
+              <span class="toc-t">这份观察的边界</span>
+            </a>
+          </li>
+        </ol>
+      </nav>
+
+      <section class="sec sec-picks" id="s01">
+        <header class="sec-bar">
+          <span class="sec-no num">01</span>
+          <h2>今天最值得看的 3 个</h2>
+        </header>
+
+          <div class="picks-stack">
+            <article class="pick-card" style="--i: 0">
+              <div class="pick-card-head">
+                <span class="pick-rank num">01</span>
+                <div class="pick-card-id">
+                  <h3>shuohao-skills（烁皓）</h3>
+                  <div class="meta">
+<span class="verdict v-强烈推荐">强烈推荐</span><span class="tag">开源关注 655</span>                  </div>
+                </div>
+              </div>
+<p class="pick-lead">把一本小说拆成能直接开拍的短剧素材包：角色设定、形象提示词、音色、分集大纲。</p><div class="pick-text prose-body"><p><strong>替代的旧行为极明确</strong>——编剧写人物小传、美术出设定图、导演排分集，一个团队三五人做一两周。</p>
 <p><strong>为什么值得看</strong>：所有人都在卷&quot;AI 生成视频画面&quot;，它绕到上游做&quot;开拍前的素材准备&quot;。
 这一段最耗人、最依赖经验，也最没人愿意做成产品，因为演示效果差。
 它和你的 songo 重合度极高，而且<strong>它的 13 道质量门</strong>（把创作质量变成脚本能检查的硬约束）
 这个思路可以直接搬。</p>
 <p>变现走的是开源引流 + 付费微信群，天花板低，但路径已经跑通。</p>
-<p>→ <a href="../analysis/shuohao-skills.md">完整分析</a></p>
-<h3>2. 影策 open-ai-canvas · 开源关注 535 · <strong>强烈推荐（但先查域名）</strong></h3>
-<p>一张画布装下整部戏：从小说抽角色资产，再把分镜、图、视频、音频编排成片。</p>
-<p><strong>几乎就是 songo 的开源版本。</strong> 它赌的是&quot;容器&quot;而不是&quot;生成&quot;——不做任何生成模型，
+</div><a class="pick-cta" href="../p/shuohao-skills.html">完整分析 <span aria-hidden="true">→</span></a>            </article>
+            <article class="pick-card" style="--i: 1">
+              <div class="pick-card-head">
+                <span class="pick-rank num">02</span>
+                <div class="pick-card-id">
+                  <h3>影策 open-ai-canvas</h3>
+                  <div class="meta">
+<span class="verdict v-强烈推荐">强烈推荐（但先查域名）</span><span class="tag">开源关注 535</span>                  </div>
+                </div>
+              </div>
+<p class="pick-lead">一张画布装下整部戏：从小说抽角色资产，再把分镜、图、视频、音频编排成片。</p><div class="pick-text prose-body"><p><strong>几乎就是 songo 的开源版本。</strong> 它赌的是&quot;容器&quot;而不是&quot;生成&quot;——不做任何生成模型，
 只做把生成结果组织起来的那张画布。底层逻辑是：模型能力会趋同，最后拼的是谁掌握创作的组织结构。</p>
 <p><strong>去读它的角色资产数据结构</strong>——怎么定义一个角色的&quot;外观、声音、气质&quot;并让这些
 在不同生成环节间保持一致，这是 songo 最难的部分，现在有人把答案写在 GitHub 上了。</p>
 <p>⚠️ 一个疑点：项目 homepage 填的是 <code>ddcat.pronhubcn.com</code>，域名形态可疑。
 查清楚之前别往那上面传素材。</p>
-<p>→ <a href="../analysis/open-ai-canvas.md">完整分析</a></p>
-<h3>3. The GTM Co-Founder · 开源关注 176 · <strong>值得关注</strong></h3>
-<p>给没有合伙人的技术创始人当营销脑子。</p>
-<p><strong>它是你的反面，所以特别值得看</strong>——它试图把你二十年积累的那种判断力打包成软件，
+</div><a class="pick-cta" href="../p/open-ai-canvas.html">完整分析 <span aria-hidden="true">→</span></a>            </article>
+            <article class="pick-card" style="--i: 2">
+              <div class="pick-card-head">
+                <span class="pick-rank num">03</span>
+                <div class="pick-card-id">
+                  <h3>The GTM Co-Founder</h3>
+                  <div class="meta">
+<span class="verdict v-值得关注">值得关注</span><span class="tag">开源关注 176</span>                  </div>
+                </div>
+              </div>
+<p class="pick-lead">给没有合伙人的技术创始人当营销脑子。</p><div class="pick-text prose-body"><p><strong>它是你的反面，所以特别值得看</strong>——它试图把你二十年积累的那种判断力打包成软件，
 卖给不懂营销的人。它做得到的是提问顺序、指标清单、陷阱列表；做不到的是&quot;我这个具体情况选哪条路&quot;。</p>
 <p><strong>这条边界对你有直接价值</strong>：如果你要把自己的方法论产品化，
 这就是定价分界线——能标准化的部分免费送，做判断的部分才收费。</p>
 <p>另外看它的开场白：不说&quot;我们提供 GTM 解决方案&quot;，而说&quot;有些日子就是单纯地难熬&quot;。
 它能拿下产品社区的单日榜首靠的是这个，不是功能。</p>
-<p>→ <a href="../analysis/gtm-cofounder.md">完整分析</a></p>
-<hr />
-<h2>今天的趋势：SaaS 正在被为 agent 重做一遍</h2>
-<p>不是猜测，是今天一天里同时出现的东西：</p>
+</div><a class="pick-cta" href="../p/gtm-cofounder.html">完整分析 <span aria-hidden="true">→</span></a>            </article>
+          </div>
+      </section>
+      <section class="sec sec-table" id="s02">
+        <header class="sec-bar">
+          <span class="sec-no num">02</span>
+          <h2>今天的趋势</h2>
+<span class="sec-count num">9 项</span>        </header>
+<p class="sec-sub">SaaS 正在被为 agent 重做一遍</p>
+          <div class="sec-body prose-body"><p>不是猜测，是今天一天里同时出现的东西：</p>
 <table>
 <thead>
 <tr>
@@ -123,17 +212,29 @@
 <p><strong>这意味着什么</strong>：现在的钱在流向&quot;卖给 agent 的工具&quot;，不是&quot;卖给人的应用&quot;。
 对你的判断价值是——如果你要做面向人的 AI 产品，这一波拥挤跟你无关，
 反而说明&quot;给人用的那一端&quot;正被相对忽视。</p>
-<hr />
-<h2>大厂动作</h2>
-<ul>
+</div>
+      </section>
+      <section class="sec sec-list" id="s03">
+        <header class="sec-bar">
+          <span class="sec-no num">03</span>
+          <h2>大厂动作</h2>
+<span class="sec-count num">3 条</span>        </header>
+
+          <div class="sec-body prose-body"><ul>
 <li><strong>Meta 发布 Muse Glimmer</strong>（当日讨论量最高）——
 30B 参数、专为常驻本地 agent 优化的开源权重模型。本地 agent 的门槛又降了一档。</li>
 <li><strong>Docker 官方推出 agent 沙箱</strong> —— 基础设施层大厂开始下场。</li>
 <li><strong>Claude 上线 AI 生成内容水印</strong> —— 全量嵌入，标记所有生成文字。</li>
 </ul>
-<hr />
-<h2>中国市场信号（第三方实测流量）</h2>
-<p>榜单里两个异常增速值得留意：</p>
+</div>
+      </section>
+      <section class="sec sec-table" id="s04">
+        <header class="sec-bar">
+          <span class="sec-no num">04</span>
+          <h2>中国市场信号</h2>
+<span class="sec-count num">4 项</span>        </header>
+<p class="sec-sub">第三方实测流量</p>
+          <div class="sec-body prose-body"><p>榜单里两个异常增速值得留意：</p>
 <table>
 <thead>
 <tr>
@@ -167,37 +268,64 @@
 </table>
 <p>MaxAI.me 一个月涨 133 倍，商汤小浣熊涨 35 倍——这个量级通常不是自然增长，
 要么有大规模导流，要么统计口径变了。<strong>下次采集回来对比一下就知道是真起量还是一次性脉冲。</strong></p>
-<hr />
-<h2>其余入选清单（按信号强度）</h2>
-<p><strong>替代关系清晰、值得下次留意：</strong></p>
+</div>
+      </section>
+      <section class="sec sec-list" id="s05">
+        <header class="sec-bar">
+          <span class="sec-no num">05</span>
+          <h2>其余入选清单</h2>
+<span class="sec-count num">11 条</span>        </header>
+<p class="sec-sub">按信号强度</p>
+          <div class="sec-body prose-body"><h4>替代关系清晰、值得下次留意</h4>
 <ul>
 <li><strong>StepShot</strong> — AI 把真实操作流程转成图文步骤指南。替代人工写 SOP</li>
 <li><strong>Rescript for Desktop</strong> — 开源的 Descript 替代品，本地运行。对标 $30/月的成熟产品，攻击角度清晰</li>
 <li><strong>Troopr AI Scrum Master</strong> — 从真实工作记录自动写每日站会汇报</li>
 <li><strong>Stoa Markets</strong>（YC S26）— GPU 和 AI 服务器的交易市场</li>
 </ul>
-<p><strong>中国开发者的一批开源项目：</strong></p>
+<h4>中国开发者的一批开源项目</h4>
 <ul>
 <li><code>open-kimi-ppt-skill</code> 开源关注 1606 — 非官方 Kimi Slides Skill，生成可编辑 PPT</li>
 <li><code>douyin-tiktok-story-skill</code> 212 — 抖音故事创作工作流</li>
 <li><code>Gendangzou-skill</code> 173 — 面向 Agent 的 A 股板块研究</li>
 <li><code>moonlit-stories</code> 153 — 英语绘本工作流，插图一致性</li>
 </ul>
-<p><strong>信息不足、需要深挖才能判断：</strong></p>
+<h4>信息不足、需要深挖才能判断</h4>
 <ul>
 <li>Soloop — &quot;Approval-first Agent OS for solo founders&quot;，不看官网不知道在干什么</li>
 <li>Argos — &quot;The AI that acts as you, right in your browser&quot;</li>
 <li>Workflo — Mac 工作区自动化，&quot;从不看你的屏幕&quot;这个定位有意思</li>
 </ul>
-<hr />
-<h2>这份观察的边界</h2>
-<ol>
+</div>
+      </section>
+      <section class="sec sec-quiet" id="s06">
+        <header class="sec-bar">
+          <span class="sec-no num">06</span>
+          <h2>这份观察的边界</h2>
+        </header>
+
+          <div class="sec-body prose-body"><ol>
 <li><strong>部分产品只有一句自我介绍</strong> —— 尚未逐个核实官网与定价，
 所以关于商业模式的判断都是从公开信息推的，不是核实过的事实。</li>
 <li><strong>只跑了一天</strong> —— &quot;下一步看什么&quot;里的观察项要等后续几天的数据才能验证。</li>
 </ol>
+</div>
+      </section>
 
-  </article>
+    </div>
+
+    <aside class="report-rail" aria-label="版块导航">
+      <p class="rail-k">本期</p>
+      <ol class="rail-list" id="rail-list">
+        <li><a href="#s01" data-anchor="s01"><span class="num">01</span>今天最值得看的 3 个</a></li>
+        <li><a href="#s02" data-anchor="s02"><span class="num">02</span>今天的趋势</a></li>
+        <li><a href="#s03" data-anchor="s03"><span class="num">03</span>大厂动作</a></li>
+        <li><a href="#s04" data-anchor="s04"><span class="num">04</span>中国市场信号</a></li>
+        <li><a href="#s05" data-anchor="s05"><span class="num">05</span>其余入选清单</a></li>
+        <li><a href="#s06" data-anchor="s06"><span class="num">06</span>这份观察的边界</a></li>
+      </ol>
+    </aside>
+  </div>
 
 </div>
 </main>
@@ -211,7 +339,7 @@
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>160 个产品 · 8 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 12:29</span>
+    <span class="gen">更新于 2026-08-11 20:05</span>
   </footer>
 </div>
 
@@ -232,16 +360,54 @@
     });
   })();
 
-  document.getElementById('theme-btn').addEventListener('click', function () {
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
     var el = document.documentElement;
-    var now = el.getAttribute('data-theme');
-    if (!now) {
-      now = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     }
-    var next = now === 'dark' ? 'light' : 'dark';
-    el.setAttribute('data-theme', next);
-    localStorage.setItem('xocto-theme', next);
-  });
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+</script>
+<script>
+  // 滚动定位：长文读到一半不知道身在何处，侧栏得跟着走。
+  // 判据是"最后一个已经翻过去的版块头"——两块同时在视野里时不会犹豫，
+  // 滚到页尾也能正确落在最后一块上。
+  (function () {
+    var links = document.querySelectorAll('#rail-list a[data-anchor]');
+    var secs = document.querySelectorAll('.sec[id]');
+    if (!links.length || !secs.length) return;
+
+    var ticking = false;
+    function update() {
+      ticking = false;
+      var current = secs[0].id;
+      for (var i = 0; i < secs.length; i++) {
+        if (secs[i].getBoundingClientRect().top <= 120) current = secs[i].id;
+      }
+      links.forEach(function (a) {
+        a.classList.toggle('on', a.dataset.anchor === current);
+      });
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    update();
+  })();
 </script>
 
 </body>

@@ -8,6 +8,9 @@
 <title>全部产品 · x-octo</title>
 <meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
 <link rel="stylesheet" href="style.css">
+<link rel="preload" href="fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/fraunces-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -21,13 +24,13 @@
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="index.html">x<span>·</span>octo</a>
+    <a class="brand" href="index.html"><span>x-octo 首页</span></a>
     <nav class="nav">
       <a href="index.html" class="">首页</a>
       <a href="products.html" class="on">全部产品</a>
       <a href="r/2026-08-11.html" class="">每日观察</a>
     </nav>
-    <button class="theme-btn" id="theme-btn" type="button">明 / 暗</button>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
   </div>
 </div>
 
@@ -50,43 +53,43 @@
     <div class="controls">
       <div class="filter-group">
         <span class="filter-k">方向</span>
-        <div class="filters" data-dim="category">
-          <button class="on" data-val="">全部</button>
-          <button data-val="AI + 创作">AI + 创作 <i class="num">19</i></button>
-          <button data-val="AI + 开发">AI + 开发 <i class="num">18</i></button>
-          <button data-val="AI + 商业">AI + 商业 <i class="num">7</i></button>
-          <button data-val="AI + 效率">AI + 效率 <i class="num">59</i></button>
-          <button data-val="AI + 生活">AI + 生活 <i class="num">13</i></button>
-          <button data-val="通用助手">通用助手 <i class="num">14</i></button>
-          <button data-val="基础层">基础层 <i class="num">30</i></button>
+        <div class="filters" role="group" aria-label="按方向筛选" data-dim="category">
+          <button class="on" aria-pressed="true" data-val="">全部</button>
+          <button aria-pressed="false" data-val="AI + 创作">AI + 创作 <i class="num">19</i></button>
+          <button aria-pressed="false" data-val="AI + 开发">AI + 开发 <i class="num">18</i></button>
+          <button aria-pressed="false" data-val="AI + 商业">AI + 商业 <i class="num">7</i></button>
+          <button aria-pressed="false" data-val="AI + 效率">AI + 效率 <i class="num">59</i></button>
+          <button aria-pressed="false" data-val="AI + 生活">AI + 生活 <i class="num">13</i></button>
+          <button aria-pressed="false" data-val="通用助手">通用助手 <i class="num">14</i></button>
+          <button aria-pressed="false" data-val="基础层">基础层 <i class="num">30</i></button>
         </div>
       </div>
 
       <div class="filter-group">
         <span class="filter-k">阶段</span>
-        <div class="filters" data-dim="stage">
-          <button class="on" data-val="">全部</button>
-          <button data-val="early">刚冒头 <i class="num">112</i></button>
-          <button data-val="proven">已验证 <i class="num">48</i></button>
+        <div class="filters" role="group" aria-label="按阶段筛选" data-dim="stage">
+          <button class="on" aria-pressed="true" data-val="">全部</button>
+          <button aria-pressed="false" data-val="early">刚冒头 <i class="num">112</i></button>
+          <button aria-pressed="false" data-val="proven">已验证 <i class="num">48</i></button>
         </div>
       </div>
 
       <div class="filter-group">
         <span class="filter-k">评级</span>
-        <div class="filters" data-dim="status">
-          <button class="on" data-val="">全部</button>
-          <button data-val="analyzed">已分析 <i class="num">8</i></button>
-          <button data-val="watching">观察中 <i class="num">6</i></button>
+        <div class="filters" role="group" aria-label="按评级筛选" data-dim="status">
+          <button class="on" aria-pressed="true" data-val="">全部</button>
+          <button aria-pressed="false" data-val="analyzed">已分析 <i class="num">8</i></button>
+          <button aria-pressed="false" data-val="watching">观察中 <i class="num">6</i></button>
         </div>
       </div>
 
       <div class="filter-group">
         <span class="filter-k">排序</span>
-        <div class="filters" data-dim="sort">
-          <button class="on" data-val="weight">热度</button>
-          <button data-val="growth">增长</button>
-          <button data-val="recent">最近出现</button>
-          <button data-val="name">名称</button>
+        <div class="filters" role="group" aria-label="排序方式" data-dim="sort">
+          <button class="on" aria-pressed="true" data-val="weight">热度</button>
+          <button aria-pressed="false" data-val="growth">增长</button>
+          <button aria-pressed="false" data-val="recent">最近出现</button>
+          <button aria-pressed="false" data-val="name">名称</button>
         </div>
       </div>
     </div>
@@ -2642,8 +2645,13 @@
       active = { category: '', stage: '', status: '' };
       document.querySelectorAll('.filters').forEach(function (g) {
         if (g.dataset.dim === 'sort') return;
-        g.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
-        g.querySelector('button').classList.add('on');
+        g.querySelectorAll('button').forEach(function (b) {
+          b.classList.remove('on');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        var first = g.querySelector('button');
+        first.classList.add('on');
+        first.setAttribute('aria-pressed', 'true');
       });
       apply(true);
       syncHash();
@@ -2686,7 +2694,7 @@
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>160 个产品 · 8 份深度分析</span>
-    <span class="gen">更新于 2026-08-11 12:29</span>
+    <span class="gen">更新于 2026-08-11 20:05</span>
   </footer>
 </div>
 
@@ -2707,16 +2715,28 @@
     });
   })();
 
-  document.getElementById('theme-btn').addEventListener('click', function () {
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
     var el = document.documentElement;
-    var now = el.getAttribute('data-theme');
-    if (!now) {
-      now = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     }
-    var next = now === 'dark' ? 'light' : 'dark';
-    el.setAttribute('data-theme', next);
-    localStorage.setItem('xocto-theme', next);
-  });
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
 </script>
 
 </body>

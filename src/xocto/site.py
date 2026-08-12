@@ -35,6 +35,7 @@ from .models import (
     Product,
 )
 from .dedupe import is_aggregator, url_host
+from .report import ReportDoc, parse_report, split_stat
 from .store import Store
 
 # 网站上不出现任何数据源名称。用户不关心东西从哪抓来的，
@@ -110,12 +111,25 @@ class Report:
 
     hook 是给首页用的钩子 —— 列表里只写"当日趋势判断"没人会点，
     得把当天最反直觉的那句结论摆出来。
+
+    doc 是切好版块的正文结构（见 report.py）。报告页不再渲染整篇 Markdown ——
+    那样出来的是一坨没有主次的长文。
     """
 
     day: str
-    body_html: str
+    doc: ReportDoc
     hook: str = ""
     highlights: tuple[str, ...] = ()
+    stats: tuple[tuple[str, str], ...] = ()
+
+    @property
+    def label(self) -> str:
+        """报头上的人话日期：2026 年 8 月 11 日 · 星期二。"""
+        try:
+            d = date.fromisoformat(self.day)
+        except ValueError:
+            return self.day
+        return f"{d.year} 年 {d.month} 月 {d.day} 日 · 星期{'一二三四五六日'[d.weekday()]}"
 
 
 def _split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
@@ -184,15 +198,15 @@ def load_reports(store: Store) -> list[Report]:
             continue
 
         front, body = _split_frontmatter(text)
-        highlights = front.get("highlights") or []
-        # 报告正文开头的 H1 和页面标题（detail-head 里的日期）重复，剥掉
-        body = re.sub(r"\A\s*#\s+[^\n]*\n", "", body)
+        highlights = tuple(str(h) for h in (front.get("highlights") or []))
         out.append(
             Report(
                 day=str(front.get("day") or path.stem),
-                body_html=_markdown(body),
+                doc=parse_report(body),
                 hook=str(front.get("hook") or ""),
-                highlights=tuple(str(h) for h in highlights),
+                highlights=highlights,
+                # 每条 highlight 开头那个数字单独抽出来 —— 数字放大才是数字
+                stats=tuple(split_stat(h) for h in highlights),
             )
         )
     return out
@@ -452,6 +466,14 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
     css_src = templates_dir / "style.css"
     if css_src.exists():
         shutil.copy2(css_src, out_dir / "style.css")
+
+    # 品牌标识：两个版本（浅色底 / 暗色底），由 CSS 的 --logo token 挑
+    logo_src = templates_dir / "logo"
+    if logo_src.is_dir():
+        logo_out = out_dir / "logo"
+        logo_out.mkdir(exist_ok=True)
+        for f in sorted(logo_src.glob("*.png")):
+            shutil.copy2(f, logo_out / f.name)
 
     from .fonts import build_fonts
 

@@ -2,23 +2,135 @@
 {% block title %}{{ report.day }} 每日观察 · x-octo{% endblock %}
 
 {% block body %}
-<div class="wrap">
+<div class="wrap wrap-report">
 
-  <div class="detail-head">
-    <h1>{{ report.day }}</h1>
-    <p class="lede">当日采集、趋势判断与市场信号</p>
-    {% if reports | length > 1 %}
-    <div class="meta">
-      {% for r in reports[:8] %}
-      <a class="tag" href="{{ root }}r/{{ r.day }}.html">{{ r.day }}</a>
+  {# 报头：日期不是标题。当天最反直觉的那句结论才是标题。 #}
+  <header class="masthead">
+    <p class="masthead-kicker">
+      {# 版块数不在这里说，目录卡头上紧挨着清单说才有用 #}
+      <span>VOL.{{ report.day | replace("-", ".") }}</span>
+      <span>每日观察</span>
+      <span>约 {{ report.doc.read_minutes }} 分钟</span>
+    </p>
+    <h1>{{ report.hook or report.label }}</h1>
+    <p class="masthead-date">{{ report.label }}</p>
+    {% if report.stats %}
+    <div class="masthead-stats">
+      {% for value, text in report.stats %}
+      <div>{% if value %}<b class="num">{{ value }}</b>{% endif %}<span>{{ text }}</span></div>
       {% endfor %}
     </div>
     {% endif %}
+    <div class="masthead-rule"></div>
+    {% if report.doc.intro %}<p class="masthead-lede">{{ report.doc.intro }}</p>{% endif %}
+  </header>
+
+  <div class="report-layout">
+    <div class="report-main">
+
+      {# 目录：7 个版块的长文，进来先给一张地图，否则读者不知道有多长 #}
+      <nav class="toc" aria-label="本期目录">
+        <p class="toc-head"><span>本期目录</span><span class="num">{{ report.doc.sections | length }} 个版块</span></p>
+        <ol class="toc-list">
+          {% for s in report.doc.sections %}
+          <li>
+            <a href="#{{ s.anchor }}">
+              <span class="toc-no num">{{ s.index }}</span>
+              <span class="toc-t">{{ s.title }}{% if s.subtitle %}<i>{{ s.subtitle }}</i>{% endif %}</span>
+              {% if s.count_label %}<span class="toc-c num">{{ s.count_label }}</span>{% endif %}
+            </a>
+          </li>
+          {% endfor %}
+        </ol>
+      </nav>
+
+      {% for s in report.doc.sections %}
+      <section class="sec sec-{{ s.kind }}" id="{{ s.anchor }}">
+        <header class="sec-bar">
+          <span class="sec-no num">{{ s.index }}</span>
+          <h2>{{ s.title }}</h2>
+          {% if s.count_label %}<span class="sec-count num">{{ s.count_label }}</span>{% endif %}
+        </header>
+        {% if s.subtitle %}<p class="sec-sub">{{ s.subtitle }}</p>{% endif %}
+
+        {% if s.kind == 'picks' %}
+          {% if s.lead_html %}<div class="sec-lead prose-body">{{ s.lead_html | safe }}</div>{% endif %}
+          <div class="picks-stack">
+            {% for p in s.picks %}
+            <article class="pick-card" style="--i: {{ loop.index0 }}">
+              <div class="pick-card-head">
+                <span class="pick-rank num">{{ p.rank }}</span>
+                <div class="pick-card-id">
+                  <h3>{{ p.name }}</h3>
+                  {% if p.verdict or p.metas %}
+                  <div class="meta">
+                    {% if p.verdict %}<span class="verdict v-{{ p.verdict_key }}">{{ p.verdict }}</span>{% endif %}
+                    {% for m in p.metas %}<span class="tag">{{ m }}</span>{% endfor %}
+                  </div>
+                  {% endif %}
+                </div>
+              </div>
+              {% if p.lead %}<p class="pick-lead">{{ p.lead }}</p>{% endif %}
+              {% if p.body_html %}<div class="pick-text prose-body">{{ p.body_html | safe }}</div>{% endif %}
+              {% if p.link %}<a class="pick-cta" href="{{ p.link }}">{{ p.link_label }} <span aria-hidden="true">→</span></a>{% endif %}
+            </article>
+            {% endfor %}
+          </div>
+        {% else %}
+          <div class="sec-body prose-body">{{ s.body_html | safe }}</div>
+        {% endif %}
+      </section>
+      {% endfor %}
+
+    </div>
+
+    {# 滚动定位条：长文里随时知道自己在第几块，以及往期入口 #}
+    <aside class="report-rail" aria-label="版块导航">
+      <p class="rail-k">本期</p>
+      <ol class="rail-list" id="rail-list">
+        {% for s in report.doc.sections %}
+        <li><a href="#{{ s.anchor }}" data-anchor="{{ s.anchor }}"><span class="num">{{ s.index }}</span>{{ s.title }}</a></li>
+        {% endfor %}
+      </ol>
+      {% if reports | length > 1 %}
+      <p class="rail-k">往期</p>
+      <ul class="rail-past">
+        {% for r in reports[:8] %}
+        <li><a href="{{ root }}r/{{ r.day }}.html" class="{{ 'on' if r.day == report.day }}">{{ r.day }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </aside>
   </div>
 
-  <article class="prose">
-    {{ report.body_html | safe }}
-  </article>
-
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  // 滚动定位：长文读到一半不知道身在何处，侧栏得跟着走。
+  // 判据是"最后一个已经翻过去的版块头"——两块同时在视野里时不会犹豫，
+  // 滚到页尾也能正确落在最后一块上。
+  (function () {
+    var links = document.querySelectorAll('#rail-list a[data-anchor]');
+    var secs = document.querySelectorAll('.sec[id]');
+    if (!links.length || !secs.length) return;
+
+    var ticking = false;
+    function update() {
+      ticking = false;
+      var current = secs[0].id;
+      for (var i = 0; i < secs.length; i++) {
+        if (secs[i].getBoundingClientRect().top <= 120) current = secs[i].id;
+      }
+      links.forEach(function (a) {
+        a.classList.toggle('on', a.dataset.anchor === current);
+      });
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    update();
+  })();
+</script>
 {% endblock %}

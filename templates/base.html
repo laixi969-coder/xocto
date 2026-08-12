@@ -8,6 +8,11 @@
 <title>{% block title %}x-octo · 全球 AI 应用雷达{% endblock %}</title>
 <meta name="description" content="每天挖全球新冒出来的 AI 应用，砍掉噪音，判断它解决了什么真需求。">
 <link rel="stylesheet" href="{{ root }}style.css">
+{# 首屏字体提前取：不预加载的话要等 CSS 解析完才开始下载，
+   font-display: swap 就会在全页最大的标题上闪一次 #}
+<link rel="preload" href="{{ root }}fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}fonts/fraunces-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -21,7 +26,7 @@
 
 <div class="top">
   <div class="top-inner">
-    <a class="brand" href="{{ root }}index.html">x<span>·</span>octo</a>
+    <a class="brand" href="{{ root }}index.html"><span>x-octo 首页</span></a>
     <nav class="nav">
       <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">首页</a>
       <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">全部产品</a>
@@ -29,7 +34,7 @@
       <a href="{{ root }}r/{{ reports[0].day }}.html" class="{{ 'on' if page == 'reports' }}">每日观察</a>
       {% endif %}
     </nav>
-    <button class="theme-btn" id="theme-btn" type="button">明 / 暗</button>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
   </div>
 </div>
 
@@ -67,17 +72,30 @@
     });
   })();
 
-  document.getElementById('theme-btn').addEventListener('click', function () {
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
     var el = document.documentElement;
-    var now = el.getAttribute('data-theme');
-    if (!now) {
-      now = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     }
-    var next = now === 'dark' ? 'light' : 'dark';
-    el.setAttribute('data-theme', next);
-    localStorage.setItem('xocto-theme', next);
-  });
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
 </script>
+{% block scripts %}{% endblock %}
 
 </body>
 </html>

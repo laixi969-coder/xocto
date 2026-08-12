@@ -20,39 +20,39 @@
     <div class="controls">
       <div class="filter-group">
         <span class="filter-k">方向</span>
-        <div class="filters" data-dim="category">
-          <button class="on" data-val="">全部</button>
+        <div class="filters" role="group" aria-label="按方向筛选" data-dim="category">
+          <button class="on" aria-pressed="true" data-val="">全部</button>
           {% for c in categories %}
-          <button data-val="{{ c.name }}">{{ c.name }} <i class="num">{{ c.count }}</i></button>
+          <button aria-pressed="false" data-val="{{ c.name }}">{{ c.name }} <i class="num">{{ c.count }}</i></button>
           {% endfor %}
         </div>
       </div>
 
       <div class="filter-group">
         <span class="filter-k">阶段</span>
-        <div class="filters" data-dim="stage">
-          <button class="on" data-val="">全部</button>
-          <button data-val="early">刚冒头 <i class="num">{{ stats.early }}</i></button>
-          <button data-val="proven">已验证 <i class="num">{{ stats.proven }}</i></button>
+        <div class="filters" role="group" aria-label="按阶段筛选" data-dim="stage">
+          <button class="on" aria-pressed="true" data-val="">全部</button>
+          <button aria-pressed="false" data-val="early">刚冒头 <i class="num">{{ stats.early }}</i></button>
+          <button aria-pressed="false" data-val="proven">已验证 <i class="num">{{ stats.proven }}</i></button>
         </div>
       </div>
 
       <div class="filter-group">
         <span class="filter-k">评级</span>
-        <div class="filters" data-dim="status">
-          <button class="on" data-val="">全部</button>
-          <button data-val="analyzed">已分析 <i class="num">{{ stats.analysed }}</i></button>
-          <button data-val="watching">观察中 <i class="num">{{ stats.watching }}</i></button>
+        <div class="filters" role="group" aria-label="按评级筛选" data-dim="status">
+          <button class="on" aria-pressed="true" data-val="">全部</button>
+          <button aria-pressed="false" data-val="analyzed">已分析 <i class="num">{{ stats.analysed }}</i></button>
+          <button aria-pressed="false" data-val="watching">观察中 <i class="num">{{ stats.watching }}</i></button>
         </div>
       </div>
 
       <div class="filter-group">
         <span class="filter-k">排序</span>
-        <div class="filters" data-dim="sort">
-          <button class="on" data-val="weight">热度</button>
-          <button data-val="growth">增长</button>
-          <button data-val="recent">最近出现</button>
-          <button data-val="name">名称</button>
+        <div class="filters" role="group" aria-label="排序方式" data-dim="sort">
+          <button class="on" aria-pressed="true" data-val="weight">热度</button>
+          <button aria-pressed="false" data-val="growth">增长</button>
+          <button aria-pressed="false" data-val="recent">最近出现</button>
+          <button aria-pressed="false" data-val="name">名称</button>
         </div>
       </div>
     </div>
@@ -191,8 +191,13 @@
       active = { category: '', stage: '', status: '' };
       document.querySelectorAll('.filters').forEach(function (g) {
         if (g.dataset.dim === 'sort') return;
-        g.querySelectorAll('button').forEach(function (b) { b.classList.remove('on'); });
-        g.querySelector('button').classList.add('on');
+        g.querySelectorAll('button').forEach(function (b) {
+          b.classList.remove('on');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        var first = g.querySelector('button');
+        first.classList.add('on');
+        first.setAttribute('aria-pressed', 'true');
       });
       apply(true);
       syncHash();
