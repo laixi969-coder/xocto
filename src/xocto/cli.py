@@ -10,7 +10,8 @@ import sys
 from collections import Counter
 from datetime import date, datetime, timezone
 
-from .collect import CollectReport, collect, prune, rebuild
+from .collect import CollectReport, collect, load_config, prune, rebuild
+from .health import check as health_check, format_report as health_report, has_dead
 from .models import (
     STATUS_ANALYZED,
     STATUS_PENDING_FILTER,
@@ -150,6 +151,21 @@ def cmd_status(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_health(args: argparse.Namespace) -> int:
+    """采集是否在静默变质。挂在每日流程的最后一步，源死了就让 CI 变红。"""
+    store = Store()
+    try:
+        config = load_config(store)
+    except (FileNotFoundError, ValueError) as exc:
+        print(f"配置有问题，没法检查：\n  {exc}", file=sys.stderr)
+        return 2
+
+    findings = health_check(store, config, today=_parse_day(args.date))
+    print(health_report(store, config, findings))
+    # 只有死源才非零退出。骤降天天都可能发生，天天变红等于没有告警。
+    return 1 if has_dead(findings) else 0
+
+
 def cmd_pool(args: argparse.Namespace) -> int:
     store = Store()
     store.ensure_dirs()
@@ -210,6 +226,12 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_status = sub.add_parser("status", help="看数据现状")
     p_status.set_defaults(func=cmd_status)
+
+    p_health = sub.add_parser(
+        "health", help="检查有没有源在静默变质（该有产出却 0 条）"
+    )
+    p_health.add_argument("--date", help="检查哪天，默认今天")
+    p_health.set_defaults(func=cmd_health)
 
     p_pool = sub.add_parser("pool", help="列出产品池")
     p_pool.add_argument("--new", action="store_true", help="只看还没过滤的")

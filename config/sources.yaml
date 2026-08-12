@@ -3,7 +3,8 @@
 
 http:
   timeout_seconds: 25
-  user_agent: "x-octo/0.1 (personal research)"
+  # 带上项目地址：源站运维觉得我们抓得不对时有地方找人，而不是直接把 UA 拉黑
+  user_agent: "x-octo/0.1 (+https://github.com/laixi969-coder/xocto)"
   retries: 2
 
 sources:

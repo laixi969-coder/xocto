@@ -73,5 +73,15 @@ uv run xocto collect              # 采集今天
 uv run xocto collect --dry-run    # 采集但不写盘
 uv run xocto status               # 看数据现状
 uv run xocto pool --new           # 列出尚未分析的新产品
+uv run xocto health               # 查有没有源在静默变质（该有产出却 0 条）
 python3 scripts/check_design.py   # 复算设计约束（对比度 / 泄漏 / 死链）
 ```
+
+## 两个"必须能失败"的检查
+
+`xocto health` 和 `scripts/check_design.py` 存在的理由是同一个：
+**写成数字的承诺必须有一条命令能复算。**
+
+两者都验证过"能抓到真故障"，不是只会打勾：health 在死源/未采集两种场景下
+退出码为 1，check_design 在把 ink-faint 改回旧值时报出两条不达标。
+以后改动它们，也要先确认它们还抓得住对应的故障。
