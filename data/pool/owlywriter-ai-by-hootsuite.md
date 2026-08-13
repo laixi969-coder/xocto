@@ -4,10 +4,10 @@ name: OwlyWriter AI by Hootsuite
 builder: ''
 category: AI + 效率
 summary_zh: Hootsuite 旗下的社媒文案生成，月访问 279 万、环比涨 49%
-inspiration: 老牌 SaaS 加一个 AI 功能就能拉起增长，存量用户是最便宜的分发渠道
+inspiration: 已有用户和成熟分发渠道，可能让新 AI 功能更容易被尝试；仍要看它能否留下来
 summary_en: Social copy generation inside Hootsuite. 2.79M monthly visits, up 49%.
-inspiration_en: An established SaaS bolts on AI and growth follows. Existing users are the cheapest distribution
-  channel there is.
+inspiration_en: Existing users and distribution may help a new AI feature get tried. The next
+  question is whether people keep using it.
 url: https://www.aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
 canonical_url: https://aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
 summary: Stay ahead of the competition with social media resources from Hootsuite, including social media
@@ -37,5 +37,4 @@ sightings:
 Stay ahead of the competition with social media resources from Hootsuite, including social media strategy templates, case studies, toolkits, and more.
 
 ## 笔记
-
 

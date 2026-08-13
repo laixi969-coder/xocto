@@ -3,8 +3,8 @@ slug: beemo-ai
 name: BEEMO AI
 builder: ''
 category: AI + 效率
-summary_zh: 月活 154 万且环比涨了 24%，官方没给介绍
-inspiration: 信息不足，需要深挖官网
+summary_zh: ''
+inspiration: ''
 summary_en: 1.54M monthly actives, up 24% month over month, with no description from the company.
 inspiration_en: Not enough to go on yet — this one needs a real look at the site.
 url: https://www.aicpb.com/product/BEEMO-AI/appid1D6F37991
@@ -35,5 +35,4 @@ sightings:
 _（源没给简介）_
 
 ## 笔记
-
 

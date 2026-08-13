@@ -66,17 +66,6 @@
   </section>
   {% endif %}
 
-  {% if product.boards %}
-  <section class="band">
-    <div class="sec-head"><h2>{{ t.product.boards }}</h2>
-      <span class="note">{{ t.product.boards_note }}</span>
-    </div>
-    <div class="meta">
-      {% for b in product.boards %}<span class="tag">{{ b }}</span>{% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
   {% if analysis %}
   <article class="prose">
     {{ analysis.body_html | safe }}

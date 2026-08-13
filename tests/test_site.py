@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import tempfile
+from dataclasses import replace
 import unittest
 from pathlib import Path
 
 from xocto.i18n import BOARD_EN
-from xocto.models import Product
-from xocto.site import _is_publishable, _remove_stale_pages
+from xocto.i18n import ZH
+from xocto.models import Product, Sighting
+from xocto.site import _is_publishable, _metric_badges, _remove_stale_pages, product_view
 
 
 def product(*, status: str = "watching", summary_zh: str = "中文说明", inspiration: str = "灵感") -> Product:
@@ -37,12 +39,35 @@ class PublishabilityTests(unittest.TestCase):
         self.assertLess(template.index("t.home.notables"), template.index("t.home.cats"))
         self.assertLess(template.index("t.home.cats"), template.index("t.home.past_reports"))
         self.assertIn("{% for p in picks[:3] %}", template)
-        self.assertIn("{% for p in movers[:5] %}", template)
+        self.assertIn("{% for p in movers[:8] %}", template)
         self.assertIn("{% for p in notables[:8] %}", template)
+        self.assertNotIn("t.home.col_boards", template)
+
+        products_template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertNotIn("p.boards", products_template)
+
+    def test_product_page_uses_latest_metric_and_decodes_names(self) -> None:
+        product_with_updates = replace(
+            product(),
+            name="Safe&amp;Fast",
+            sightings=(
+                Sighting("github", "https://example.com", "2026-08-11T00:00:00Z", {"stars": 100}),
+                Sighting("github", "https://example.com", "2026-08-13T00:00:00Z", {"stars": 120}),
+            ),
+        )
+
+        self.assertEqual(_metric_badges(product_with_updates, ZH), ["开源关注 120"])
+        self.assertEqual(product_view(product_with_updates, ZH)["name"], "Safe&Fast")
 
     def test_live_board_names_have_english_labels(self) -> None:
         self.assertEqual(BOARD_EN["角色扮演榜"], "Roleplay")
         self.assertEqual(BOARD_EN["全球降速榜"], "Global fastest-declining")
+
+    def test_public_verdict_labels_keep_their_stable_keys(self) -> None:
+        self.assertEqual(ZH.verdict_key("重点研究"), "strong")
+        self.assertEqual(ZH.verdict_key("持续观察"), "notable")
 
     def test_rejected_product_is_never_published(self) -> None:
         self.assertFalse(_is_publishable(product(status="rejected")))

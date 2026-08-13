@@ -89,18 +89,20 @@
         <thead>
           <tr>
             <th>{{ t.home.col_product }}</th><th>{{ t.home.col_growth }}</th>
-            <th>{{ t.home.col_scale }}</th><th>{{ t.home.col_boards }}</th>
+            <th>{{ t.home.col_scale }}</th><th>{{ t.home.col_function }}</th>
+            <th>{{ t.home.col_why }}</th>
           </tr>
         </thead>
         <tbody>
-          {% for p in movers[:5] %}
+          {% for p in movers[:8] %}
           <tr>
             <td class="name"><a href="{{ root }}p/{{ p.slug }}.html">{{ p.name }}</a></td>
             <td class="num {{ 'up' if p.growth and p.growth > 100 }}">
               {{ '+' if p.growth and p.growth > 0 }}{{ '%.1f'|format(p.growth) }}%
             </td>
             <td class="num">{{ p.scale or '—' }}</td>
-            <td class="desc">{{ p.boards | join(' · ') or p.category }}</td>
+            <td class="desc">{{ p.summary }}</td>
+            <td class="desc">{{ p.inspiration }}</td>
           </tr>
           {% endfor %}
         </tbody>

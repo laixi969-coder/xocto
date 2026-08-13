@@ -3,10 +3,10 @@ slug: agnes-ai
 name: Agnes AI
 builder: ''
 category: AI + 效率
-summary_zh: 月访问 208 万且环比涨了 5 倍多，官方没给介绍
-inspiration: 信息不足，需要深挖官网
-summary_en: 2.08M monthly visits, up more than 5x month over month, with no description from the company.
-inspiration_en: Not enough to go on yet — this one needs a real look at the site.
+summary_zh: 面向团队协作的 AI 工作空间，把讨论、资料和任务放在同一处
+inspiration: 团队协作类 AI 正从单人对话走向共享空间，关键在于能否沉淀共同上下文
+summary_en: An AI workspace for teams to keep discussions, material, and tasks together.
+inspiration_en: Team AI is moving from solo chats to shared workspaces. The key is whether shared context can accumulate.
 url: https://www.aicpb.com/product/Agnes-AI/webid1D6F36F69
 canonical_url: https://aicpb.com/product/Agnes-AI/webid1D6F36F69
 summary: AI Agent for collaborative workspace
@@ -35,5 +35,4 @@ sightings:
 AI Agent for collaborative workspace
 
 ## 笔记
-
 

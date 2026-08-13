@@ -73,8 +73,7 @@
         {% if p.stage_key == 'proven' %}
           <p class="card-scale num">{{ p.scale }}</p>
           <div class="meta">
-            {% for b in p.boards[:2] %}<span class="tag">{{ b }}</span>{% endfor %}
-            {% if not p.boards and p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+            {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
           </div>
         {% else %}
           <p>{{ p.summary or t.products.no_summary }}</p>

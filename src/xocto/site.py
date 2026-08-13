@@ -19,6 +19,7 @@ data/reports/en/ 和 frontmatter 里的 *_en 字段）。模板只有一套，�
 
 from __future__ import annotations
 
+import html
 import re
 import shutil
 from dataclasses import dataclass
@@ -191,7 +192,7 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
             Analysis(
                 slug=slug,
                 name=front.get("name") or slug,
-                verdict=verdict,
+                verdict=locale.verdict_label(verdict),
                 verdict_key=locale.verdict_key(verdict),
                 verdict_rank=locale.verdict_rank(verdict),
                 analyzed_at=str(front.get("analyzed_at") or ""),
@@ -230,21 +231,26 @@ def load_reports(store: Store, locale: Locale) -> list[Report]:
 
 
 def _metric_badges(product: Product, locale: Locale) -> list[str]:
-    """把各源口径不同的指标压成人话，不带平台名。"""
-    badges: list[str] = []
+    """各类指标只显示最新一条，避免每日更新被读者误看成多份数据。"""
+    latest: dict[str, tuple[str, str]] = {}
+
+    def record(key: str, seen_at: str, label: str) -> None:
+        if key not in latest or seen_at >= latest[key][0]:
+            latest[key] = (seen_at, label)
+
     for sighting in product.sightings:
         m = sighting.metrics
         if m.get("points") is not None:
-            badges.append(f"{locale.metrics['points']} {m['points']}")
+            record("points", sighting.seen_at, f"{locale.metrics['points']} {m['points']}")
         if m.get("stars") is not None:
-            badges.append(f"{locale.metrics['stars']} {m['stars']:,}")
+            record("stars", sighting.seen_at, f"{locale.metrics['stars']} {m['stars']:,}")
         if m.get("raw_value"):
             unit = locale.metrics["mau" if m.get("metric") == "mau" else "visits"]
-            badges.append(f"{unit} {m['raw_value']}")
+            record("scale", sighting.seen_at, f"{unit} {m['raw_value']}")
         if m.get("mom_percent") is not None:
             sign = "+" if m["mom_percent"] >= 0 else ""
-            badges.append(f"{locale.metrics['mom']} {sign}{m['mom_percent']:.0f}%")
-    return badges
+            record("growth", sighting.seen_at, f"{locale.metrics['mom']} {sign}{m['mom_percent']:.0f}%")
+    return [latest[key][1] for key in ("points", "stars", "scale", "growth") if key in latest]
 
 
 def _external_url(product: Product) -> str:
@@ -472,7 +478,7 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         written = bool(product.summary_en or product.summary)
     return {
         "slug": product.slug,
-        "name": product.name,
+        "name": html.unescape(product.name),
         "builder": product.builder,
         "summary": summary,
         "summary_raw": product.summary,

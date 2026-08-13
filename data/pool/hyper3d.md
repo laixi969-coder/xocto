@@ -3,10 +3,10 @@ slug: hyper3d
 name: Hyper3D
 builder: ''
 category: AI + 效率
-summary_zh: 月访问 312 万，环比涨 134%，官方没给介绍
-inspiration: 信息不足，需要深挖官网
-summary_en: 3.12M monthly visits, up 134% month over month, with no description from the company.
-inspiration_en: Not enough to go on yet — this one needs a real look at the site.
+summary_zh: 用 AI 快速生成 3D 模型的工具，面向创作者和开发者
+inspiration: 3D 建模正从专业软件操作，变成更多创作者也能进入的制作环节
+summary_en: An AI tool for quickly generating 3D models for creators and developers.
+inspiration_en: AI is making 3D creation a production step that more creators can enter.
 url: https://www.aicpb.com/product/Hyper3D/webid1D6F37AD1
 canonical_url: https://aicpb.com/product/Hyper3D/webid1D6F37AD1
 summary: Create professional 3D models in seconds with our free AI 3D model generator. Fast, secure, and
@@ -37,5 +37,4 @@ sightings:
 Create professional 3D models in seconds with our free AI 3D model generator. Fast, secure, and easy—perfect for artists, developers, and creators! Get strated for Free Today!
 
 ## 笔记
-
 

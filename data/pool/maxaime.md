@@ -3,11 +3,10 @@ slug: maxaime
 name: MaxAI.me
 builder: ''
 category: AI + 效率
-summary_zh: 月访问 256 万，环比涨了 133 倍，官方没给介绍
-inspiration: 涨 133 倍这个量级通常不是自然增长，值得回头查是导流还是口径变了
-summary_en: 2.56M monthly visits, up 133x month over month, with no description from the company.
-inspiration_en: A 133x jump is almost never organic. Worth going back to check whether it's a traffic
-  deal or a changed definition.
+summary_zh: 在浏览器里整合阅读、搜索、写作和翻译等多种 AI 能力
+inspiration: 多模型整合的价值不只在功能更多，更在于让阅读和写作的工作不中断
+summary_en: A browser-based AI assistant for reading, search, writing, translation, and related tasks.
+inspiration_en: The value of combining models is not only more features; it is keeping reading and writing work in one flow.
 url: https://www.aicpb.com/product/MaxAI.me/webid1D6F36D69
 canonical_url: https://aicpb.com/product/MaxAI.me/webid1D6F36D69
 summary: Summarize, search, explain, analyze, translate, write, and more. Save hours every day. Powered
@@ -38,5 +37,4 @@ sightings:
 Summarize, search, explain, analyze, translate, write, and more. Save hours every day. Powered by o1, GPT-4o, Claude-3.5, and Gemini-1.5.
 
 ## 笔记
-
 

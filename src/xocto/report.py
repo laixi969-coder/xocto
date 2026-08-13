@@ -207,12 +207,13 @@ def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
         lead_text = _plain(first) if first and not first.startswith(("|", "-", "*", ">")) else ""
         body_md = "\n\n".join(paras[1:] if lead_text else paras)
 
+        verdict_key = locale.verdict_key(verdict)
         picks.append(
             Pick(
                 rank=rank,
                 name=name,
-                verdict=verdict,
-                verdict_key=locale.verdict_key(verdict),
+                verdict=locale.verdict_label(verdict),
+                verdict_key=verdict_key,
                 metas=metas,
                 lead=lead_text,
                 body_html=_markdown(body_md) if body_md else "",

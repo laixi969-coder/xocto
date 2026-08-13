@@ -4,10 +4,10 @@ name: languagereactor
 builder: ''
 category: AI + 生活
 summary_zh: 看剧学语言的工具，月访问 259 万，环比涨 54%
-inspiration: 把学习嵌进娱乐里，用户不觉得自己在学，这是留存最好的教育产品形态
+inspiration: 把学习嵌进原本就会做的娱乐活动，可能比额外安排一段学习时间更容易形成留存
 summary_en: Learn a language from the shows you already watch. 2.59M monthly visits, up 54%.
-inspiration_en: Learning hidden inside entertainment. Users don't feel like they're studying — the best-retaining
-  shape an education product can take.
+inspiration_en: Embedding learning in entertainment people already choose may make retention easier
+  than asking them to add a separate study session.
 url: https://www.aicpb.com/product/languagereactor/webid1D6F37AB1
 canonical_url: https://aicpb.com/product/languagereactor/webid1D6F37AB1
 summary: 'language reactor: your language learning toolbox. discover, understand, and learn from native
@@ -37,5 +37,4 @@ sightings:
 language reactor: your language learning toolbox. discover, understand, and learn from native materials, including netflix and youtube. (formerly called 'language learning with netflix'.)
 
 ## 笔记
-
 

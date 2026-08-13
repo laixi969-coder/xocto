@@ -56,7 +56,7 @@
   <div class="detail-head">
     <div class="pick-id">
       <h1>numbat</h1>
-      <span class="verdict v-notable">值得关注</span>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">监控 AI agent 在电脑上干了什么，能拦截也能事后取证</p>
@@ -66,15 +66,15 @@
 <span class="tag">基础层</span><span class="tag sig">开源关注 920</span>    </div>
 
     <div class="kv">
-      <div><span>做这个的人</span><b>perplexityai</b></div>
-      <div><span>首次出现</span><b class="num">2026-07-24</b></div>
-      <div><span>最近出现</span><b class="num">2026-08-13</b></div>
+      <div><span>团队 / 作者</span><b>perplexityai</b></div>
+      <div><span>本站首次收录</span><b class="num">2026-07-24</b></div>
+      <div><span>本站最近更新</span><b class="num">2026-08-13</b></div>
     </div>
   </div>
 
   <section class="band">
     <div class="field field-take">
-      <span class="field-k">这个产品给你的灵感</span>
+      <span class="field-k">值得借鉴的一点</span>
       <p>管人的那套——监控、拦截、事后追责——正在原样搬到 agent 身上，这是个新市场</p>
     </div>
   </section>
@@ -82,16 +82,15 @@
   <section class="band">
     <div class="summary-grid">
       <div class="field">
-        <span class="field-k">替代了什么旧行为</span>
+        <span class="field-k">它替人省掉了哪一步</span>
         <p>以前公司管员工电脑靠 EDR（端点检测与响应），管的对象是人和进程： 谁装了什么、谁连了哪儿、谁动了哪个文件。</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">能拿走什么</span>
-        <p>产品逻辑：多 Agent 工作流要上真实生产，应该照抄这个上线顺序 —— 先跑一版只记录不干预的观察模式，攒两周真实数据看它在哪一步最容易出错， 再决定哪一步值得加人工卡点。凭直觉猜哪里要卡，十次有八次卡错地方。</p>
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：多 Agent 工作流要上真实生产，可以参考这个上线顺序 —— 先跑一版只记录不干预的观察模式，攒两周真实数据看它在哪一步最容易出错， 再决定哪一步值得加人工卡点。凭直觉猜哪里要卡，十次有八次卡错地方。</p>
       </div>
     </div>
   </section>
-
 
   <article class="prose">
     <h2>一句话定位</h2>
@@ -160,7 +159,7 @@ Perplexity 两头都疼——内部大量用 agent，外部又是被 agent 抓�
 <h2>判断</h2>
 <p><strong>这是把管人的那套原样搬到 agent 身上，而且搬得很老实。</strong></p>
 <p>监控、拦截、事后取证——这是企业管员工用了二十年的三件套，
-numbat 一件没改地搬过来，连&quot;默认只观察不拦截&quot;这个上线顺序都是照抄的。
+numbat 几乎原样采用了这套框架，连&quot;默认只观察不拦截&quot;这个上线顺序也沿用了。
 老实在这里是褒义：安全工具最常见的死法是第一版就敢拦，拦错一次，
 整个组织就再也不会打开它。</p>
 <p><strong>可迁移的规律：任何高风险自动化的正确上线顺序都是先只看不动。</strong>
@@ -177,14 +176,14 @@ agent 读了三百个文件写了一个报告，每一步都合规，合起来�
 <p>① 覆盖矩阵里支持的 agent 数量三个月后还在不在涨——跟不上新 agent 就等于废了
 ② 有没有企业公开说自己在用——安全工具最难的不是做出来，是被信任
 ③ enforce 模式的默认值会不会从关改成开——改了说明他们认为误拦率已经压下去了</p>
-<h2>对你的可迁移点</h2>
-<p><strong>产品逻辑</strong>：多 Agent 工作流要上真实生产，应该照抄这个上线顺序 ——
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：多 Agent 工作流要上真实生产，可以参考这个上线顺序 ——
 先跑一版只记录不干预的观察模式，攒两周真实数据看它在哪一步最容易出错，
 再决定哪一步值得加人工卡点。凭直觉猜哪里要卡，十次有八次卡错地方。</p>
 <p><strong>话术</strong>：无。它是工程文档，没有可偷的句式。</p>
 <p><strong>定价结构</strong>：无。未披露。</p>
 <h2>结论</h2>
-<p><strong>值得关注。</strong> 方向成立，工程扎实，但现在只有取证价值没有防护价值，
+<p><strong>持续观察。</strong> 方向成立，工程扎实，但现在只有取证价值没有防护价值，
 买单的人还没大规模出现。记下来，三个月后拿上面三条回头验证。</p>
 
   </article>
@@ -192,7 +191,7 @@ agent 读了三百个文件写了一个报告，每一步都合规，合起来�
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
-      <h2>同方向的其他</h2>
+      <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
         基础层 共 22 个 →
       </a>
@@ -279,7 +278,7 @@ agent 读了三百个文件写了一个报告，每一步都合规，合起来�
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>148 个产品 · 10 份深度分析</span>
+    <span>146 个产品 · 10 份深度分析</span>
     <span class="gen">数据截至 2026-08-13</span>
   </footer>
 </div>
