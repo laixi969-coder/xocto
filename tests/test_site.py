@@ -26,6 +26,20 @@ def product(*, status: str = "watching", summary_zh: str = "中文说明", inspi
 
 
 class PublishabilityTests(unittest.TestCase):
+    def test_home_prioritizes_latest_observation_and_caps_long_lists(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
+            encoding="utf-8"
+        )
+
+        self.assertLess(template.index("t.home.latest_report"), template.index("t.home.picks"))
+        self.assertLess(template.index("t.home.picks"), template.index("t.home.movers"))
+        self.assertLess(template.index("t.home.movers"), template.index("t.home.notables"))
+        self.assertLess(template.index("t.home.notables"), template.index("t.home.cats"))
+        self.assertLess(template.index("t.home.cats"), template.index("t.home.past_reports"))
+        self.assertIn("{% for p in picks[:3] %}", template)
+        self.assertIn("{% for p in movers[:5] %}", template)
+        self.assertIn("{% for p in notables[:8] %}", template)
+
     def test_live_board_names_have_english_labels(self) -> None:
         self.assertEqual(BOARD_EN["角色扮演榜"], "Roleplay")
         self.assertEqual(BOARD_EN["全球降速榜"], "Global fastest-declining")

@@ -199,13 +199,13 @@ ZH = Locale(
             "asof": "数据截至 {day}",
         },
         "home": {
-            "lede_pre": "今天有 ",
+            "lede_pre": "已筛出 ",
             "lede_post": " 个值得看",
             "lede_body": "全球 AI 应用每天新增几百个，绝大多数是套壳。"
             "这里只留下能说清「它替代了什么旧行为」的——答不上来的，一律不推荐。",
             "stat_total": "在库",
-            "picks": "今日判断",
-            "picks_note": "每条判断都能追溯到证据，拿不准的写「不确定」",
+            "picks": "精选判断",
+            "picks_note": "能抄的产品逻辑，不按写作日期凑数",
             "replaces": "替代了什么",
             "takeaway": "能拿走什么",
             "notables": "值得留意",
@@ -217,8 +217,11 @@ ZH = Locale(
             "col_scale": "规模",
             "col_boards": "所在榜单",
             "cats": "按方向找",
-            "reports": "每日观察",
-            "reports_note": "当天最反直觉的那句结论",
+            "latest_report": "最新观察",
+            "latest_report_note": "当天最反直觉的那句结论",
+            "latest_report_cta": "读完整观察",
+            "past_reports": "往期观察",
+            "past_reports_note": "回看已发生的信号",
             "report_fallback": "当日趋势判断与市场信号",
         },
         "products": {
@@ -341,13 +344,13 @@ EN = Locale(
             # 数字必须打头（它是整屏唯一的高亮件），后面得跟上名词 ——
             # 只写 "worth your time today" 会变成"0 个什么？"
             "lede_pre": "",
-            "lede_post": " products worth your time today",
+            "lede_post": " products worth your time",
             "lede_body": "Hundreds of AI products ship every day and most are a prompt "
             "in a wrapper. Only the ones that can name the old behavior they replace "
             "make it onto this page. No answer, no recommendation.",
             "stat_total": "Tracked",
-            "picks": "Today's calls",
-            "picks_note": "Every call traces back to evidence. When it's a coin flip, we say so.",
+            "picks": "Selected calls",
+            "picks_note": "Product logic worth borrowing, not a list padded to fill a day.",
             "replaces": "Replaces",
             "takeaway": "Take away",
             "notables": "On the radar",
@@ -360,8 +363,11 @@ EN = Locale(
             "col_scale": "Scale",
             "col_boards": "Ranked in",
             "cats": "Browse by direction",
-            "reports": "Daily read",
-            "reports_note": "The least obvious thing we found that day",
+            "latest_report": "Latest observation",
+            "latest_report_note": "The least obvious thing we found that day",
+            "latest_report_cta": "Read the full observation",
+            "past_reports": "Past observations",
+            "past_reports_note": "Signals worth revisiting after the fact",
             "report_fallback": "Trend calls and market signals for the day",
         },
         "products": {

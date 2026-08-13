@@ -16,6 +16,29 @@
     </dl>
   </div>
 
+  {# 首页的第一件事是告诉读者今天发生了什么；产品卡和目录随后才是证据与延伸。 #}
+  {% if reports %}
+  <section class="band">
+    <div class="sec-head">
+      <h2>{{ t.home.latest_report }}</h2>
+      <span class="note">{{ t.home.latest_report_note }}</span>
+    </div>
+    {% set r = reports[0] %}
+    <div class="obs obs-feature">
+      <a class="obs-item obs-lead" href="{{ root }}r/{{ r.day }}.html" style="--i: 0">
+        <div class="obs-day num">{{ r.day }}</div>
+        <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>
+        {% if r.highlights %}
+        <div class="obs-tags">
+          {% for h in r.highlights %}<span class="tag">{{ h }}</span>{% endfor %}
+        </div>
+        {% endif %}
+        <span class="obs-cta">{{ t.home.latest_report_cta }} <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </section>
+  {% endif %}
+
   {% if picks %}
   <section class="band">
     <div class="sec-head">
@@ -24,7 +47,7 @@
     </div>
 
     <div class="picks">
-      {% for p in picks %}
+      {% for p in picks[:3] %}
       <article class="pick" style="--i: {{ loop.index0 }}">
         <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
           <h3>{{ p.name }}</h3>
@@ -55,6 +78,37 @@
   </section>
   {% endif %}
 
+  {% if movers %}
+  <section class="band">
+    <div class="sec-head">
+      <h2>{{ t.home.movers }}</h2>
+      <span class="note">{{ t.home.movers_note }}</span>
+    </div>
+    <div class="scroll-x">
+      <table class="tbl">
+        <thead>
+          <tr>
+            <th>{{ t.home.col_product }}</th><th>{{ t.home.col_growth }}</th>
+            <th>{{ t.home.col_scale }}</th><th>{{ t.home.col_boards }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for p in movers[:5] %}
+          <tr>
+            <td class="name"><a href="{{ root }}p/{{ p.slug }}.html">{{ p.name }}</a></td>
+            <td class="num {{ 'up' if p.growth and p.growth > 100 }}">
+              {{ '+' if p.growth and p.growth > 0 }}{{ '%.1f'|format(p.growth) }}%
+            </td>
+            <td class="num">{{ p.scale or '—' }}</td>
+            <td class="desc">{{ p.boards | join(' · ') or p.category }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endif %}
+
   {% if notables %}
   <section class="band">
     <div class="sec-head">
@@ -62,7 +116,7 @@
       <span class="note">{{ t.home.notables_note }}</span>
     </div>
     <ul class="rows">
-      {% for p in notables %}
+      {% for p in notables[:8] %}
       <li>
         <a href="{{ root }}p/{{ p.slug }}.html">
           <div class="row-head">
@@ -83,37 +137,6 @@
   </section>
   {% endif %}
 
-  {% if movers %}
-  <section class="band">
-    <div class="sec-head">
-      <h2>{{ t.home.movers }}</h2>
-      <span class="note">{{ t.home.movers_note }}</span>
-    </div>
-    <div class="scroll-x">
-      <table class="tbl">
-        <thead>
-          <tr>
-            <th>{{ t.home.col_product }}</th><th>{{ t.home.col_growth }}</th>
-            <th>{{ t.home.col_scale }}</th><th>{{ t.home.col_boards }}</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for p in movers %}
-          <tr>
-            <td class="name"><a href="{{ root }}p/{{ p.slug }}.html">{{ p.name }}</a></td>
-            <td class="num {{ 'up' if p.growth and p.growth > 100 }}">
-              {{ '+' if p.growth and p.growth > 0 }}{{ '%.1f'|format(p.growth) }}%
-            </td>
-            <td class="num">{{ p.scale or '—' }}</td>
-            <td class="desc">{{ p.boards | join(' · ') or p.category }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-  </section>
-  {% endif %}
-
   {% if categories %}
   <section class="band">
     <div class="sec-head"><h2>{{ t.home.cats }}</h2></div>
@@ -128,14 +151,14 @@
   </section>
   {% endif %}
 
-  {% if reports %}
+  {% if reports | length > 1 %}
   <section class="band">
     <div class="sec-head">
-      <h2>{{ t.home.reports }}</h2>
-      <span class="note">{{ t.home.reports_note }}</span>
+      <h2>{{ t.home.past_reports }}</h2>
+      <span class="note">{{ t.home.past_reports_note }}</span>
     </div>
     <div class="obs">
-      {% for r in reports[:4] %}
+      {% for r in reports[1:5] %}
       <a class="obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
         <div class="obs-day num">{{ r.day }}</div>
         <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>
