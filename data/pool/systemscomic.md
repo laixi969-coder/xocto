@@ -11,16 +11,16 @@ url: https://systemscomic.com/ddia/read
 canonical_url: https://systemscomic.com/ddia/read
 summary: I asked Claude to write DDIA as a live comic
 first_seen: '2026-08-13T03:53:28Z'
-last_seen: '2026-08-13T11:28:29Z'
+last_seen: '2026-08-13T23:03:00Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://systemscomic.com/ddia/read
-  seen_at: '2026-08-13T11:28:29Z'
+  seen_at: '2026-08-13T23:03:00Z'
   metrics:
-    points: 6
+    points: 7
     comments: 0
 ---
 

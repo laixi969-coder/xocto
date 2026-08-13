@@ -12,16 +12,16 @@ url: https://axern.cofy-x.space
 canonical_url: https://axern.cofy-x.space
 summary: Open-source sandboxes for AI agents, untrusted code execution, and durable services.
 first_seen: '2026-07-28T05:45:33Z'
-last_seen: '2026-08-13T11:28:32Z'
+last_seen: '2026-08-13T23:03:01Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://axern.cofy-x.space
-  seen_at: '2026-08-13T11:28:32Z'
+  seen_at: '2026-08-13T23:03:01Z'
   metrics:
-    stars: 241
+    stars: 251
     forks: 6
     open_issues: 1
 ---

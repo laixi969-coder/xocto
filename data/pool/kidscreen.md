@@ -11,16 +11,16 @@ url: https://kidscreen.app
 canonical_url: https://kidscreen.app
 summary: a finite YouTube shelf chosen by parents
 first_seen: '2026-08-12T11:44:40Z'
-last_seen: '2026-08-13T11:48:41Z'
+last_seen: '2026-08-13T23:03:00Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kidscreen.app
-  seen_at: '2026-08-13T11:48:41Z'
+  seen_at: '2026-08-13T23:03:00Z'
   metrics:
-    points: 40
+    points: 41
     comments: 59
 ---
 

@@ -13,16 +13,16 @@ url: https://gendangzou.mobiusquant.ai
 canonical_url: https://gendangzou.mobiusquant.ai
 summary: 面向 AI Agent 的可溯源 A 股板块研究 Skill，贯通政策、权威媒体、市场资金、公司与 ETF，支持实时查询、研究编排和二次应用开发。
 first_seen: '2026-07-28T18:25:50Z'
-last_seen: '2026-08-13T11:28:32Z'
+last_seen: '2026-08-13T23:03:01Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://gendangzou.mobiusquant.ai
-  seen_at: '2026-08-13T11:28:32Z'
+  seen_at: '2026-08-13T23:03:01Z'
   metrics:
-    stars: 226
+    stars: 231
     forks: 0
     open_issues: 0
 ---

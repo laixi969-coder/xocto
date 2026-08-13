@@ -11,17 +11,17 @@ url: https://utctime.app/
 canonical_url: https://utctime.app
 summary: live clock, ISO 8601, Unix timestamp
 first_seen: '2026-08-13T04:04:05Z'
-last_seen: '2026-08-13T11:48:41Z'
+last_seen: '2026-08-13T23:03:00Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://utctime.app/
-  seen_at: '2026-08-13T11:48:41Z'
+  seen_at: '2026-08-13T23:03:00Z'
   metrics:
-    points: 16
-    comments: 2
+    points: 22
+    comments: 7
 ---
 
 # UTC Time

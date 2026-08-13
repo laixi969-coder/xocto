@@ -11,16 +11,16 @@ url: https://github.com/lyramakesmusic/neuralese-leaker
 canonical_url: https://github.com/lyramakesmusic/neuralese-leaker
 summary: web app for chatting with llms on openrouter with leaked unabridged reasoning
 first_seen: '2026-08-11T18:35:47Z'
-last_seen: '2026-08-13T11:28:32Z'
+last_seen: '2026-08-13T23:03:01Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lyramakesmusic/neuralese-leaker
-  seen_at: '2026-08-13T11:28:32Z'
+  seen_at: '2026-08-13T23:03:01Z'
   metrics:
-    stars: 73
+    stars: 74
     forks: 4
     open_issues: 0
 ---

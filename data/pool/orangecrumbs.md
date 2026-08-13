@@ -11,16 +11,16 @@ url: https://www.orangecrumbs.com/stories/show-hn
 canonical_url: https://orangecrumbs.com/stories/show-hn
 summary: Posts grew 6x since ChatGPT, but success rate remained relatively flat
 first_seen: '2026-08-12T22:02:12Z'
-last_seen: '2026-08-13T11:48:41Z'
+last_seen: '2026-08-13T23:03:00Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.orangecrumbs.com/stories/show-hn
-  seen_at: '2026-08-13T11:48:41Z'
+  seen_at: '2026-08-13T23:03:00Z'
   metrics:
-    points: 10
+    points: 11
     comments: 2
 ---
 
