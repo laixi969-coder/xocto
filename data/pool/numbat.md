@@ -13,18 +13,18 @@ canonical_url: https://github.com/perplexityai/numbat
 summary: Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action
   blocking, and forensic reconstruction.
 first_seen: '2026-07-24T06:07:59Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-08-13T03:25:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/perplexityai/numbat
-  seen_at: '2026-08-12T03:21:52Z'
+  seen_at: '2026-08-13T03:25:28Z'
   metrics:
-    stars: 902
-    forks: 93
-    open_issues: 2
+    stars: 917
+    forks: 95
+    open_issues: 4
 ---
 
 # numbat

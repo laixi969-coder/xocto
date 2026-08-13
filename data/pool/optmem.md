@@ -12,18 +12,18 @@ url: https://github.com/VictorTaelin/OptMem
 canonical_url: https://github.com/VictorTaelin/OptMem
 summary: Permanent memory for AI agents. A 426-token prompt, a script, plug and play.
 first_seen: '2026-07-25T16:58:43Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-08-13T03:25:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/VictorTaelin/OptMem
-  seen_at: '2026-08-12T03:21:52Z'
+  seen_at: '2026-08-13T03:25:28Z'
   metrics:
-    stars: 1242
-    forks: 80
-    open_issues: 4
+    stars: 1248
+    forks: 81
+    open_issues: 8
 ---
 
 # OptMem
