@@ -5,13 +5,14 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算五件事：
+复算六件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
   2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
   3. 中文漏进英文站 —— site/en/ 里除了产品名不许有中文
-  4. 站内死链      —— 相对链接都要指向真实存在的文件
-  5. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
+  4. 私人指涉泄漏  —— 站点里不许出现只有作者本人看得懂的自有项目名和身世指代
+  5. 站内死链      —— 相对链接都要指向真实存在的文件
+  6. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
@@ -35,6 +36,14 @@ MIN_RATIO = 4.5
 
 # 网站上不许出现的采集源名称（见 CLAUDE.md）
 FORBIDDEN = ("Product Hunt", "Hacker News", "AICPB", "producthunt", "hackernews", "aicpb")
+
+# 只有作者本人看得懂的指代。
+# 这一条防的是 2026-08-13 发现的事故：分析模板第五部分原本写着"这一栏是给蔡蔡写的"，
+# 而 i18n 又把这一栏抽成首页的「能拿走什么」—— 于是十份分析里的
+# "你的 songo""直接撞你的 octo""你二十年积累的判断力"全部登上了首页最显眼的位置。
+# 读者不知道 songo 是什么，也不认识作者。
+# data/ 里没有私人角落：写进去什么，站上就出什么。
+PRIVATE_REFS = ("songo", "octo", "蔡蔡", "你二十年", "你的短剧业务")
 
 
 def _luminance(hex_color: str) -> float:
@@ -174,6 +183,22 @@ def check_en_chinese() -> list[str]:
     return problems[:20]
 
 
+def check_private_refs() -> list[str]:
+    """站点里不许出现只有作者本人看得懂的指代。
+
+    只扫渲染出来的 HTML —— 判断依据是"读者看不看得到"，不是"文件里有没有"。
+    """
+    problems: list[str] = []
+    for path in sorted(SITE.rglob("*.html")):
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        visible = html_lib.unescape(re.sub(r"<[^>]+>", " ", text))
+        for ref in PRIVATE_REFS:
+            if re.search(rf"(?<![a-zA-Z0-9-]){re.escape(ref)}(?![a-zA-Z0-9-])", visible, re.I):
+                rel = path.relative_to(ROOT)
+                problems.append(f"{rel} 出现「{ref}」—— 读者不知道这是什么")
+    return problems
+
+
 def check_links() -> list[str]:
     if not SITE.is_dir():
         return []
@@ -233,6 +258,7 @@ def main() -> int:
         ("token 对比度", check_contrast()),
         ("来源泄漏", check_leaks()),
         ("中文漏进英文站", check_en_chinese()),
+        ("私人指涉泄漏", check_private_refs()),
         ("站内死链", check_links()),
         ("sitemap 自洽", check_sitemap()),
     )
