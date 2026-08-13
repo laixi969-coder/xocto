@@ -14,18 +14,18 @@ summary: Approving is an open-source, self-hostable platform for turning coding 
   and recoverable delivery workflows. Agents run in real Docker sandboxes, exchange structured artifacts,
   and pause for human Approve at critical nodes.
 first_seen: '2026-07-24T15:27:02Z'
-last_seen: '2026-08-13T03:25:28Z'
+last_seen: '2026-08-13T11:28:32Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.approving-ai.com
-  seen_at: '2026-08-13T03:25:28Z'
+  seen_at: '2026-08-13T11:28:32Z'
   metrics:
     stars: 77
     forks: 3
-    open_issues: 1
+    open_issues: 2
 ---
 
 # approving

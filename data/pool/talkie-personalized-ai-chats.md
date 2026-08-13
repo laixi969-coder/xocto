@@ -12,20 +12,25 @@ url: https://www.aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 canonical_url: https://aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-13T11:28:34Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-13T11:28:34Z'
   metrics:
     raw_value: 32.85M
     value: 32850000.0
     metric: mau
     mom_raw: 12.59%
     mom_percent: 12.59
+    boards:
+    - 出海增速榜
+    - 出海总榜
+    - 全球增速榜
+    - 全球总榜
 ---
 
 # Talkie: Personalized AI Chats

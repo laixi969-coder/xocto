@@ -10,27 +10,31 @@ inspiration_en: When a platform that already owns distribution builds creative t
   can't win that lane head-on.
 url: https://www.aicpb.com/product/即梦AI-抖音旗下AI图片和视频工具/appid1D6F327C1
 canonical_url: https://aicpb.com/product/即梦AI-抖音旗下AI图片和视频工具/appid1D6F327C1
-summary: ''
+summary: 即刻造梦 · AI绘画 · 图片视频短片生成社区
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-13T11:28:34Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/即梦AI-抖音旗下AI图片和视频工具/appid1D6F327C1
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-13T11:28:34Z'
   metrics:
     raw_value: 87.36M
     value: 87360000.0
     metric: mau
     mom_raw: -3.33%
     mom_percent: -3.33
+    boards:
+    - 国内总榜
+    - 全球总榜
+    - 国内增速榜
 ---
 
 # 即梦AI - 抖音旗下AI图片和视频工具
 
-_（源没给简介）_
+即刻造梦 · AI绘画 · 图片视频短片生成社区
 
 ## 笔记
 

@@ -10,27 +10,31 @@ inspiration_en: Learning hidden inside entertainment. Users don't feel like they
   shape an education product can take.
 url: https://www.aicpb.com/product/languagereactor/webid1D6F37AB1
 canonical_url: https://aicpb.com/product/languagereactor/webid1D6F37AB1
-summary: ''
+summary: 'language reactor: your language learning toolbox. discover, understand, and learn from native
+  materials, including netflix and youtube. (formerly called ''language learning with netflix''.)'
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-13T11:28:34Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/languagereactor/webid1D6F37AB1
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-13T11:28:34Z'
   metrics:
     raw_value: 2.59M
     value: 2590000.0
     metric: visits
     mom_raw: 54.10%
     mom_percent: 54.1
+    boards:
+    - 全球增速榜
+    - 全球总榜
 ---
 
 # languagereactor
 
-_（源没给简介）_
+language reactor: your language learning toolbox. discover, understand, and learn from native materials, including netflix and youtube. (formerly called 'language learning with netflix'.)
 
 ## 笔记
 

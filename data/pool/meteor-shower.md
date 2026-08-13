@@ -11,16 +11,16 @@ url: https://lifesprites.com/share/0ACA25
 canonical_url: https://lifesprites.com/share/0ACA25
 summary: planet alignment, eclipse kit
 first_seen: '2026-08-12T13:39:10Z'
-last_seen: '2026-08-13T03:25:27Z'
+last_seen: '2026-08-13T11:28:29Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lifesprites.com/share/0ACA25
-  seen_at: '2026-08-13T03:25:27Z'
+  seen_at: '2026-08-13T11:28:29Z'
   metrics:
-    points: 8
+    points: 9
     comments: 18
 ---
 

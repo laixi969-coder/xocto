@@ -13,16 +13,16 @@ canonical_url: https://gtmcofounder.com
 summary: Open-source GTM skills for technical founders — who is this for, why would anyone pay, how to
   ask.
 first_seen: '2026-07-24T13:30:32Z'
-last_seen: '2026-08-13T03:25:28Z'
+last_seen: '2026-08-13T11:28:32Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://gtmcofounder.com
-  seen_at: '2026-08-13T03:25:28Z'
+  seen_at: '2026-08-13T11:28:32Z'
   metrics:
-    stars: 196
+    stars: 198
     forks: 22
     open_issues: 0
 ---

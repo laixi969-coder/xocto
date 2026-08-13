@@ -10,27 +10,31 @@ inspiration_en: Chinese models going abroad start with the web, because it skips
   revenue share.
 url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
 canonical_url: https://aicpb.com/product/Kimi/appid1D6F332E1
-summary: ''
+summary: K2模型,AI智能问答,翻译编程ppt表格制作全能办公工具
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-13T11:28:34Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-13T11:28:34Z'
   metrics:
     raw_value: 22.69M
     value: 22690000.0
     metric: mau
     mom_raw: -12.40%
     mom_percent: -12.4
+    boards:
+    - 国内总榜
+    - 全球降速榜
+    - 全球总榜
 ---
 
 # Kimi
 
-_（源没给简介）_
+K2模型,AI智能问答,翻译编程ppt表格制作全能办公工具
 
 ## 笔记
 

@@ -11,17 +11,17 @@ url: https://timer.jotaen.net
 canonical_url: https://timer.jotaen.net
 summary: Programmable timer web app (for gym workouts or stretching sessions)
 first_seen: '2026-08-12T18:27:52Z'
-last_seen: '2026-08-13T03:25:27Z'
+last_seen: '2026-08-13T11:28:29Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://timer.jotaen.net
-  seen_at: '2026-08-13T03:25:27Z'
+  seen_at: '2026-08-13T11:28:29Z'
   metrics:
-    points: 22
-    comments: 7
+    points: 27
+    comments: 11
 ---
 
 # timer

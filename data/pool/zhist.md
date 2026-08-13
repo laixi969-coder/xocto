@@ -11,17 +11,17 @@ url: https://github.com/overflowy/zhist
 canonical_url: https://github.com/overflowy/zhist
 summary: Smarter Shell History for Zsh
 first_seen: '2026-08-12T13:39:49Z'
-last_seen: '2026-08-13T03:25:27Z'
+last_seen: '2026-08-13T11:28:29Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/overflowy/zhist
-  seen_at: '2026-08-13T03:25:27Z'
+  seen_at: '2026-08-13T11:28:29Z'
   metrics:
-    points: 11
-    comments: 5
+    points: 12
+    comments: 6
 ---
 
 # zhist

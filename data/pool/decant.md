@@ -12,16 +12,16 @@ url: https://github.com/dosu-ai/decant
 canonical_url: https://github.com/dosu-ai/decant
 summary: Understand how you spend tokens
 first_seen: '2026-08-12T21:56:21Z'
-last_seen: '2026-08-13T03:25:27Z'
+last_seen: '2026-08-13T11:28:29Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/dosu-ai/decant
-  seen_at: '2026-08-13T03:25:27Z'
+  seen_at: '2026-08-13T11:28:29Z'
   metrics:
-    points: 9
+    points: 10
     comments: 0
 ---
 

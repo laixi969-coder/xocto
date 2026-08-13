@@ -10,27 +10,30 @@ inspiration_en: A big platform advertising that it plugged in someone else's mod
   is commoditized.
 url: https://www.aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
 canonical_url: https://aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
-summary: ''
+summary: AI拍题答疑P图搜索工具，深度思考写作编程学习办公助手
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-13T11:28:34Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-13T11:28:34Z'
   metrics:
     raw_value: 103.92M
     value: 103920000.0
     metric: mau
     mom_raw: -7.05%
     mom_percent: -7.05
+    boards:
+    - 国内总榜
+    - 全球总榜
 ---
 
 # 腾讯元宝-「DeepSeek+」智能新体验
 
-_（源没给简介）_
+AI拍题答疑P图搜索工具，深度思考写作编程学习办公助手
 
 ## 笔记
 

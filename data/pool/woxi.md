@@ -11,17 +11,17 @@ url: https://woxi.ad-si.com
 canonical_url: https://woxi.ad-si.com
 summary: Open-source Mathematica / Wolfram Language reimplementation
 first_seen: '2026-08-12T10:06:29Z'
-last_seen: '2026-08-13T03:25:27Z'
+last_seen: '2026-08-13T11:28:29Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://woxi.ad-si.com
-  seen_at: '2026-08-13T03:25:27Z'
+  seen_at: '2026-08-13T11:28:29Z'
   metrics:
-    points: 264
-    comments: 40
+    points: 297
+    comments: 42
 ---
 
 # Woxi

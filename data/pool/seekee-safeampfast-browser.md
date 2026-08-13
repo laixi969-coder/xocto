@@ -12,20 +12,25 @@ url: https://www.aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 canonical_url: https://aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-11T05:03:23Z'
+last_seen: '2026-08-13T11:28:34Z'
 status: pending_filter
 sources:
 - aicpb
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
-  seen_at: '2026-08-11T05:03:23Z'
+  seen_at: '2026-08-13T11:28:34Z'
   metrics:
     raw_value: 27.13M
     value: 27130000.0
     metric: mau
     mom_raw: 10.99%
     mom_percent: 10.99
+    boards:
+    - 出海总榜
+    - 出海增速榜
+    - 全球增速榜
+    - 全球总榜
 ---
 
 # Seekee - Safe&amp;Fast Browser
