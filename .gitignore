@@ -19,5 +19,8 @@ data/pool.bak-*/
 # 项目记忆/会话数据，不进版本库
 .workbuddy/
 
+# 只对自己有用的联想和工作笔记。data/ 会全部上站，私人内容只放这里。
+.private/
+
 # 24MB+ 中文字体源文件，子集化原料；产物 site/fonts/ 已入库
 templates/fonts/*.otf

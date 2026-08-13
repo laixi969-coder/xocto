@@ -146,12 +146,22 @@ def cmd_status(args: argparse.Namespace) -> int:
         if counts.get(status):
             print(f"    {label:<8} {counts[status]}")
 
+    public_products = [
+        p for p in products
+        if p.status != "rejected" and p.summary_zh.strip() and p.inspiration.strip()
+    ]
+    incomplete = sum(
+        1 for p in products
+        if p.status != "rejected" and (not p.summary_zh.strip() or not p.inspiration.strip())
+    )
+    print(f"  站上产品      {len(public_products)} 个（另有 {incomplete} 个半成品暂不发布）")
+
     reports = sorted(store.reports_dir.glob("*.md"))
     print(f"  已出简报      {len(reports)} 份" + (f"（最新 {reports[-1].stem}）" if reports else ""))
 
     # 英文站的内容是手写的，采集补不上。缺了页面不会报错，只会安静地少一块，
     # 所以差多少必须看得见。
-    no_insp = sum(1 for p in products if not p.inspiration_en)
+    no_insp = sum(1 for p in public_products if not p.inspiration_en)
     analyses = {p.stem for p in store.analysis_dir.glob("*.md")}
     en_analyses = {p.stem for p in (store.analysis_dir / "en").glob("*.md")}
     en_reports = {p.stem for p in (store.reports_dir / "en").glob("*.md")}

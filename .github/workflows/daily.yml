@@ -1,14 +1,15 @@
 name: 每日采集
 
-# 每天北京时间早上 6 点跑一次。
+# 每天北京时间早上 6:17 跑一次。
 # 时间点是倒推出来的：读者要在早上 7 点看到写好的简报，而写简报的那一步
-# （云端 Claude 的 routine，见 README「每天怎么自动更新」）在 7 点整触发，
-# 所以采集必须赶在它前面落地，留一小时余量给 GitHub 的排队延迟。
-# 代价说清楚：6 点对应美西前一天下午 3 点，Product Hunt 当天的榜单
+# （Codex 自动任务，见 README「每天怎么自动更新」）在 7 点整触发。
+# 不放在整点：GitHub 官方明确说整点负载最高，定时容易迟到甚至被丢弃。
+# 代价说清楚：6:17 对应美西前一天下午，Product Hunt 当天的榜单
 # 还差几个小时才收摊，票数比原来 9 点那版更"生"一点。
 on:
   schedule:
-    - cron: "0 22 * * *"   # UTC 22:00 = 次日北京时间 06:00
+    - cron: "17 6 * * *"
+      timezone: "Asia/Shanghai"
   workflow_dispatch:       # 也可以随时手动点一下
 
 # 需要写权限才能把采集结果提交回仓库
@@ -37,12 +38,17 @@ jobs:
 
       - name: 采集
         run: uv run xocto collect
+        env:
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
 
       - name: 清掉过老的原始存档
         run: uv run xocto prune --keep-days 30
 
       - name: 生成网站
         run: uv run xocto build
+
+      - name: 复算站点约束
+        run: python3 scripts/check_design.py
 
       - name: 看看现状
         run: uv run xocto status
@@ -59,7 +65,12 @@ jobs:
           fi
           # 按北京日期写，跟存档文件名对齐 —— 这一跑在 UTC 上是前一天。
           git commit -m "chore: 每日采集 $(TZ=Asia/Shanghai date +%Y-%m-%d)"
-          git push
+          # 判断层兜底采集可能刚好也在推。先尝试直推；远端前进时只在当前
+          # 这一个提交上 rebase 后重试，不因为一次竞态丢掉当天结果。
+          if ! git push origin HEAD:main; then
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
 
       # 刻意放在提交推送之后。
       # 采集层单源失败不中断，好处是当天照样有产出，代价是没人会被通知 ——

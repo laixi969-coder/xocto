@@ -5,7 +5,7 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算六件事：
+复算七件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
   2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
@@ -13,6 +13,7 @@
   4. 私人指涉泄漏  —— 站点里不许出现只有作者本人看得懂的自有项目名和身世指代
   5. 站内死链      —— 相对链接都要指向真实存在的文件
   6. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
+  7. 发布门槛      —— rejected 和缺中文说明/灵感的半成品没有残留页面
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
@@ -253,6 +254,28 @@ def check_sitemap() -> list[str]:
     return problems
 
 
+def check_publishability() -> list[str]:
+    """内部工作队列不能直接等同于公开站点。"""
+    problems: list[str] = []
+    for path in sorted(POOL.glob("*.md")):
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        front = text.split("---", 2)[1] if text.startswith("---") else ""
+        slug_match = re.search(r"^slug:\s*(.+?)\s*$", front, re.M)
+        if not slug_match:
+            continue
+        slug = slug_match.group(1).strip("'\"")
+        rejected = bool(re.search(r"^status:\s*rejected\s*$", front, re.M))
+        missing_summary = bool(re.search(r"^summary_zh:\s*''\s*$", front, re.M))
+        missing_inspiration = bool(re.search(r"^inspiration:\s*''\s*$", front, re.M))
+        if not (rejected or missing_summary or missing_inspiration):
+            continue
+        for published in (SITE / "p" / f"{slug}.html", SITE / "en" / "p" / f"{slug}.html"):
+            if published.exists():
+                reason = "已淘汰" if rejected else "内容未补齐"
+                problems.append(f"{published.relative_to(SITE)} 仍在发布（{reason}）")
+    return problems
+
+
 def main() -> int:
     groups = (
         ("token 对比度", check_contrast()),
@@ -261,6 +284,7 @@ def main() -> int:
         ("私人指涉泄漏", check_private_refs()),
         ("站内死链", check_links()),
         ("sitemap 自洽", check_sitemap()),
+        ("发布门槛", check_publishability()),
     )
     failed = False
     for name, problems in groups:

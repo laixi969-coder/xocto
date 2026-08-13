@@ -14,6 +14,7 @@
 
 from __future__ import annotations
 
+import html
 import re
 import time
 
@@ -44,7 +45,12 @@ _META_DESC = re.compile(r'<meta name="description" content="([^"]*)"')
 # 详情页会列出这个产品上了哪些细分榜。这比描述更有用 ——
 # "聊天机器人榜第 4" 直接说明了它是什么品类、什么地位。
 _BOARD = re.compile(r"AI产品榜\s*·\s*([^第<\n]{2,20}?)\s*第\s*(\d+)\s*名")
-DETAIL_DELAY = 0.35  # 秒。48 个产品逐个抓，别把人家站点打疼了
+# AICPB 的详情页有限流，但超过阈值时不回 429，而是伪装成普通 404。
+# 实测连续请求到二十多个后，后半批会被封 15 分钟。分批并跨过 60 秒窗口，
+# 比在假 404 上重试更可靠，也避免每天固定饿死列表后半段。
+DETAIL_DELAY = 0.35
+DETAIL_BATCH_SIZE = 15
+DETAIL_BATCH_PAUSE = 61.0
 
 
 @register("aicpb")
@@ -99,18 +105,21 @@ def _enrich(items: list[RawItem], http: Http) -> list[RawItem]:
 
     for i, item in enumerate(items):
         if i:
-            time.sleep(DETAIL_DELAY)
+            pause = DETAIL_BATCH_PAUSE if i % DETAIL_BATCH_SIZE == 0 else DETAIL_DELAY
+            time.sleep(pause)
         try:
             page = http.get_text(BASE + "/zh" + item.payload["path"])
-        except HttpError:
+        except HttpError as exc:
             failed += 1
+            if failed <= 3:
+                print(f"\n      ! {item.title}：{exc}", end="", flush=True)
             out.append(item)
             continue
 
         desc = ""
         match = _META_DESC.search(page)
         if match:
-            desc = match.group(1).strip()
+            desc = html.unescape(match.group(1)).strip()
 
         boards = [
             {"board": b.strip(), "rank": int(r)} for b, r in _BOARD.findall(page)

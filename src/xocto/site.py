@@ -32,6 +32,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from .models import (
     CATEGORIES,
     STATUS_ANALYZED,
+    STATUS_REJECTED,
     STATUS_WATCHING,
     Product,
     local_day,
@@ -310,13 +311,16 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     有判断的东西全站只有几个，但那是别处拿不到的；
     罗列谁都能做，所以往后放。
     """
-    products = list(store.iter_products())
+    # 产品池是内部工作队列，不等于公开站点。淘汰项必须消失；还没有中文说明
+    # 和灵感的半成品卡片对读者也没有价值，等判断层补齐后再自动上站。
+    products = [p for p in store.iter_products() if _is_publishable(p)]
     analyses = load_analyses(store, locale)
     reports = load_reports(store, locale)
-    by_slug = {a.slug: a for a in analyses}
 
     views = [product_view(p, locale) for p in products]
     view_by_slug = {v["slug"]: v for v in views}
+    analyses = [a for a in analyses if a.slug in view_by_slug]
+    by_slug = {a.slug: a for a in analyses}
 
     early = [v for v in views if v["stage_key"] == STAGE_EARLY]
     proven = [v for v in views if v["stage_key"] == STAGE_PROVEN]
@@ -396,6 +400,15 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "categories": categories,
         "products": sorted(views, key=lambda v: -v["weight"]),
     }
+
+
+def _is_publishable(product: Product) -> bool:
+    """公开站的最低门槛；内部状态和半成品仍完整保留在 data/pool。"""
+    return (
+        product.status != STATUS_REJECTED
+        and bool(product.summary_zh.strip())
+        and bool(product.inspiration.strip())
+    )
 
 
 def _canonical(path: str) -> str:
@@ -498,6 +511,27 @@ def _page_paths(ctx: dict[str, Any]) -> set[str]:
     paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
     paths.update(f"r/{r.day}.html" for r in ctx["reports"])
     return paths
+
+
+def _remove_stale_pages(out_dir: Path, expected: set[str]) -> int:
+    """删掉上一轮生成、这一轮已不应存在的详情页和观察页。
+
+    只处理四个明确的生成目录和普通 HTML 文件，不遍历符号链接。这样状态从
+    watching 变成 rejected 后，旧 URL 不会因为文件残留而继续在线。
+    """
+    removed = 0
+    for rel_dir in ("p", "r", "en/p", "en/r"):
+        directory = out_dir / rel_dir
+        if not directory.exists() or directory.is_symlink():
+            continue
+        for path in directory.glob("*.html"):
+            if path.is_symlink() or not path.is_file():
+                continue
+            rel = path.relative_to(out_dir).as_posix()
+            if rel not in expected:
+                path.unlink()
+                removed += 1
+    return removed
 
 
 def _build_locale(
@@ -606,6 +640,15 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
             env, out_dir, locale, contexts[locale.key],
             paths[other(locale).key], rendered, sitemap,
         )
+
+    expected = {
+        locale.path(rel)
+        for locale in LOCALES
+        for rel in paths[locale.key]
+    }
+    stale = _remove_stale_pages(out_dir, expected)
+    if stale:
+        print(f"  清掉 {stale} 个不再发布的旧页面")
 
     css_src = templates_dir / "style.css"
     if css_src.exists():
