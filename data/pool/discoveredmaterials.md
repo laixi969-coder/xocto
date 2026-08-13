@@ -11,16 +11,16 @@ url: https://discoveredmaterials.com/research/
 canonical_url: https://discoveredmaterials.com/research
 summary: Discovered Materials (YC P26) – AI agents to discover new materials
 first_seen: '2026-08-12T07:51:20Z'
-last_seen: '2026-08-13T11:28:29Z'
+last_seen: '2026-08-13T11:48:41Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://discoveredmaterials.com/research/
-  seen_at: '2026-08-13T11:28:29Z'
+  seen_at: '2026-08-13T11:48:41Z'
   metrics:
-    points: 141
+    points: 143
     comments: 32
 ---
 

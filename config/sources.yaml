@@ -75,6 +75,9 @@ sources:
       - "china-ai-rankings"
       # 全球增长率榜 —— 和中国榜对照着看
       - "ai-global-growth-rate-ranking"
+      # 全球 APP 增速榜 —— iOS / 海外 Google Play / 国内安卓的月活与环比。
+      # 图中 WorkBuddy、Dootchi、Viggle 等就在这个专页，不在上面的网页榜里。
+      - "ai-global-growth-rate-ranking/apps"
       # 还有二十多个细分榜可加，比如：
       #   ai-agent-rankings / ai-search-rankings / vibe-coding-rankings
       #   ai-video-generators-rankings / ai-ppt-rankings

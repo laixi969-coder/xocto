@@ -9,6 +9,7 @@ from xocto.sources.aicpb import (
     DETAIL_BATCH_SIZE,
     DETAIL_DELAY,
     _enrich,
+    fetch,
 )
 
 
@@ -41,6 +42,33 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(pauses.count(DETAIL_BATCH_PAUSE), 2)
         self.assertEqual(pauses.count(DETAIL_DELAY), len(enriched) - 3)
         self.assertTrue(all(x.summary == "A & B" for x in enriched))
+
+
+class AppRankingTests(unittest.TestCase):
+    def test_app_growth_ranking_uses_app_metrics(self) -> None:
+        page = (
+            '<a href="/product/appid123" class="decoration-none link">Viggle AI</a>'
+            '<div class="flex items-center justify-center">3.30M</div>'
+            '<span class="z-9">10.66%</span>'
+        )
+
+        class RankingHttp:
+            def get_text(self, url: str) -> str:
+                self.url = url
+                return page
+
+        http = RankingHttp()
+        items = fetch(
+            {"rankings": ["ai-global-growth-rate-ranking/apps"], "fetch_details": False},
+            http,
+        )
+
+        self.assertEqual(http.url, "https://www.aicpb.com/ai-rankings/products/ai-global-growth-rate-ranking/apps")
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].extra["platform"], "app")
+        self.assertEqual(items[0].metrics["metric"], "mau")
+        self.assertEqual(items[0].metrics["value"], 3_300_000)
+        self.assertEqual(items[0].metrics["mom_percent"], 10.66)
 
 
 if __name__ == "__main__":

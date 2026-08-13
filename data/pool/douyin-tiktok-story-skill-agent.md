@@ -13,16 +13,16 @@ canonical_url: https://github.com/liujunxibaba/douyin-tiktok-story-skill-agent
 summary: Local-first AI Skill and Agent for creating original Douyin and TikTok story scripts with a searchable
   SQLite reference database.
 first_seen: '2026-08-05T13:52:57Z'
-last_seen: '2026-08-13T11:28:32Z'
+last_seen: '2026-08-13T11:49:06Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/liujunxibaba/douyin-tiktok-story-skill-agent
-  seen_at: '2026-08-13T11:28:32Z'
+  seen_at: '2026-08-13T11:49:06Z'
   metrics:
-    stars: 319
+    stars: 320
     forks: 7
     open_issues: 0
 ---

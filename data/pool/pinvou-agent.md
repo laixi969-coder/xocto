@@ -12,18 +12,18 @@ url: https://pinvou.com/
 canonical_url: https://pinvou.com
 summary: Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.
 first_seen: '2026-07-24T07:28:41Z'
-last_seen: '2026-08-13T11:28:32Z'
+last_seen: '2026-08-13T11:49:06Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://pinvou.com/
-  seen_at: '2026-08-13T11:28:32Z'
+  seen_at: '2026-08-13T11:49:06Z'
   metrics:
-    stars: 707
+    stars: 708
     forks: 98
-    open_issues: 42
+    open_issues: 41
 ---
 
 # pinvou-agent
