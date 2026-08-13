@@ -4,6 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from xocto.i18n import BOARD_EN
 from xocto.models import Product
 from xocto.site import _is_publishable, _remove_stale_pages
 
@@ -25,6 +26,10 @@ def product(*, status: str = "watching", summary_zh: str = "中文说明", inspi
 
 
 class PublishabilityTests(unittest.TestCase):
+    def test_live_board_names_have_english_labels(self) -> None:
+        self.assertEqual(BOARD_EN["角色扮演榜"], "Roleplay")
+        self.assertEqual(BOARD_EN["全球降速榜"], "Global fastest-declining")
+
     def test_rejected_product_is_never_published(self) -> None:
         self.assertFalse(_is_publishable(product(status="rejected")))
 

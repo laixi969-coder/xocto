@@ -55,6 +55,8 @@ BOARD_EN = {
     "代码辅助榜": "Coding assistants",
     "AI搜索榜": "AI search",
     "智能体榜": "Agents",
+    "角色扮演榜": "Roleplay",
+    "全球降速榜": "Global fastest-declining",
 }
 
 _EN_MONTHS = (

@@ -71,7 +71,9 @@ The new schedule was placed exactly at minute 0. GitHub documents that scheduled
 
 ## Failure Count
 
-- Countable hypothesis/fix failures: 0.
+- Countable hypothesis/fix failures: 1. The first live GitHub run correctly stopped at the
+  design gate because two newly discovered board labels lacked English translations; the labels
+  and regression assertions were added before retrying the workflow.
 - One initial unit-test run exposed incomplete test fixtures (required dataclass constructor fields); the fixtures were corrected without changing the implementation hypothesis.
 
 ## Remaining External Actions
