@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ t.privacy.title }} · {{ locale.site_name }}{% endblock %}
+{% block ogtitle %}{{ t.privacy.title }} · {{ locale.site_name }}{% endblock %}
+
+{% block body %}
+<div class="wrap reading-page">
+  <div class="lede-bar">
+    <div class="lede-main">
+      <p class="eyebrow">{{ t.privacy.kicker }}</p>
+      <h1>{{ t.privacy.title }}</h1>
+      <p>{{ t.privacy.lede }}</p>
+    </div>
+  </div>
+
+  <article class="prose">
+    <h2>{{ t.privacy.what_title }}</h2>
+    <p>{{ t.privacy.what_body }}</p>
+    <h2>{{ t.privacy.choice_title }}</h2>
+    <p>{{ t.privacy.choice_body }}</p>
+    <h2>{{ t.privacy.services_title }}</h2>
+    <p>{{ t.privacy.services_body }}</p>
+    <h2>{{ t.privacy.no_personal_title }}</h2>
+    <p>{{ t.privacy.no_personal_body }}</p>
+  </article>
+</div>
+{% endblock %}

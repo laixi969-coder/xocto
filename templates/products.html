@@ -172,6 +172,10 @@
       group.addEventListener('click', function (e) {
         var btn = e.target.closest('button');
         if (!btn) return;
+        if (window.xoctoTrack) window.xoctoTrack('filter_products', {
+          filter_name: group.dataset.dim,
+          filter_value: btn.dataset.val || 'all'
+        });
         mark(group, btn.dataset.val);
 
         if (group.dataset.dim === 'sort') {

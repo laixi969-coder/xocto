@@ -444,6 +444,22 @@ a { color: inherit; text-decoration: none; }
 .linkish:hover { color: var(--ink); text-decoration-thickness: 2px; }
 .linkish:active { transform: scale(.98); }
 
+/* 统计提示是可选项，不遮住正文；用户拒绝后不再出现。 */
+.analytics-consent {
+  position: fixed; left: 22px; bottom: 22px; z-index: 40;
+  max-width: 390px; padding: 16px 18px; border: 1px solid var(--line);
+  border-radius: var(--r-lg); background: var(--surface); box-shadow: 0 10px 30px rgba(0,0,0,.12);
+  font-size: 14px; line-height: 1.55;
+}
+.analytics-consent p { margin: 0; color: var(--ink-soft); }
+.analytics-consent strong { color: var(--ink); margin-right: .35em; }
+.analytics-consent-actions { display: flex; align-items: center; gap: 16px; margin-top: 12px; }
+.consent-allow {
+  border: 1px solid var(--ink); border-radius: var(--r-sm); padding: 7px 11px;
+  background: var(--ink); color: var(--paper); cursor: pointer; font: inherit; font-weight: 600;
+}
+.consent-allow:hover { background: var(--signal); border-color: var(--signal); }
+
 /* ---------- 接下来：不让详情页变成死路 ---------- */
 
 .onward { padding: 40px 0 8px; border-top: 1px solid var(--line); }
@@ -791,6 +807,7 @@ footer .gen { margin-left: auto; font-family: var(--mono); }
   .filter-group { align-items: flex-start; }
   .filter-k { width: auto; }
   .totop { right: 16px; bottom: 16px; }
+  .analytics-consent { left: 12px; right: 12px; bottom: 12px; max-width: none; }
 
   /* 报告页：报头缩一档，目录去掉计数列，卡片收紧内距 */
   .masthead { padding-top: 34px; text-align: left; }

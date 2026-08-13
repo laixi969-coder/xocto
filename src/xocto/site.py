@@ -580,6 +580,8 @@ def _schema(
     elif page == "methodology":
         webpage["@type"] = "AboutPage"
         graph.append(organization)
+    elif page == "privacy":
+        webpage["@type"] = "AboutPage"
     return {"@context": "https://schema.org", "@graph": graph}
 
 
@@ -638,7 +640,7 @@ def _page_paths(ctx: dict[str, Any]) -> set[str]:
     语言切换按钮要靠它决定跳去哪：产品页两个语种都有，但每日观察不一定 ——
     中文有 2026-08-11 而英文还没写的时候，直接跳过去就是一条死链。
     """
-    paths = {"index.html", "products.html", "methodology.html"}
+    paths = {"index.html", "products.html", "methodology.html", "privacy.html"}
     paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
     paths.update(f"r/{r.day}.html" for r in ctx["reports"])
     return paths
@@ -731,6 +733,12 @@ def _build_locale(
         locale.t["methodology"]["lede"], schema_title=locale.t["methodology"]["title"],
     )
     sitemap.append((locale.path("methodology.html"), ctx["latest_day"]))
+
+    write(
+        "privacy.html", "privacy.html", "privacy",
+        locale.t["privacy"]["lede"], schema_title=locale.t["privacy"]["title"],
+    )
+    sitemap.append((locale.path("privacy.html"), ctx["latest_day"]))
 
     by_slug = ctx["analysis_by_slug"]
     for view in ctx["products"]:

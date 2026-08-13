@@ -244,7 +244,12 @@ def check_sitemap() -> list[str]:
         if not target.exists():
             problems.append(f"sitemap 指向不存在的页面：{loc}")
 
-    pages = len(list(SITE.rglob("*.html")))
+    # 搜索平台的所有权验证文件必须留在根目录，但它不是读者页面，
+    # 也不应该被放入 sitemap。当作页面计数会把这条检查变成误报。
+    pages = len([
+        path for path in SITE.rglob("*.html")
+        if not path.read_text(encoding="utf-8", errors="ignore").startswith("google-site-verification:")
+    ])
     if len(locs) != pages:
         problems.append(f"sitemap 有 {len(locs)} 个 URL，站点有 {pages} 个页面，对不上")
 
