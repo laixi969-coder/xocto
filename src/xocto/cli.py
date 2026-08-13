@@ -8,7 +8,7 @@ from __future__ import annotations
 import argparse
 import sys
 from collections import Counter
-from datetime import date, datetime, timezone
+from datetime import date
 
 from .collect import CollectReport, collect, load_config, prune, rebuild
 from .health import check as health_check, format_report as health_report, has_dead
@@ -17,6 +17,7 @@ from .models import (
     STATUS_PENDING_FILTER,
     STATUS_QUEUED,
     STATUS_WATCHING,
+    today,
 )
 from .store import Store
 
@@ -135,7 +136,7 @@ def cmd_status(args: argparse.Namespace) -> int:
 
     if days:
         print(f"  原始存档      {len(days)} 天（{days[0]} → {days[-1]}）")
-        today_items = store.read_raw(datetime.now(timezone.utc).date())
+        today_items = store.read_raw(today())
         print(f"  今天已抓      {len(today_items)} 条")
     else:
         print("  原始存档      还没有数据，先跑 collect")

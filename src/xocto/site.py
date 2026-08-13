@@ -34,6 +34,7 @@ from .models import (
     STATUS_ANALYZED,
     STATUS_WATCHING,
     Product,
+    local_day,
 )
 from .dedupe import is_aggregator, url_host
 from .i18n import LOCALES, Locale, other
@@ -476,8 +477,10 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         "badges": _metric_badges(product, locale),
         "scale": _scale_badge(product, locale),
         "boards": _boards(product, locale),
-        "first_seen": product.first_seen[:10],
-        "last_seen": product.last_seen[:10],
+        # 存的是 UTC，页面上显示北京日期 —— 页脚"数据截至"也取自这里，
+        # 直接截前 10 位会让早上 7 点更新的站写着昨天的日期。
+        "first_seen": local_day(product.first_seen),
+        "last_seen": local_day(product.last_seen),
         "growth": _growth_rate(product),
         "weight": _weight(product),
         "seen_count": len(product.sightings),

@@ -13,7 +13,7 @@ from pathlib import Path
 import yaml
 
 from .dedupe import ProductIndex, canonical_url
-from .models import Product, RawItem, Sighting, slugify
+from .models import Product, RawItem, Sighting, slugify, today
 from .sources import Http, get_fetcher, registered_names
 from .store import Store
 
@@ -232,7 +232,7 @@ def collect(
     force=True 会用本次结果整份重写当天存档，用于改了解析逻辑后重采。
     """
     store.ensure_dirs()
-    day = day or datetime.now(timezone.utc).date()
+    day = day or today()
 
     config = load_config(store)
     http = build_http(config)

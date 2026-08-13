@@ -9,15 +9,41 @@ from __future__ import annotations
 import re
 import unicodedata
 from dataclasses import dataclass, field, replace
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from typing import Any
 
 ISO_FMT = "%Y-%m-%dT%H:%M:%SZ"
+
+# 这是一份中文日更，"今天"必须按北京时间算 —— 存档文件名、简报文件名、
+# 页面上的日期都是给中国读者看的。以前采集在北京时间 9 点跑，UTC 日期和
+# 北京日期正好同一天，用 UTC 当"今天"没露馅；改到早上 7 点（UTC 前一天 23 点）
+# 之后两者就差一天，页脚会在 13 号早上写着"数据截至 12 号"。
+# 用固定偏移而不是 zoneinfo：中国没有夏令时，一个偏移永远成立，
+# 也不用赌运行环境装了 tz 数据库。
+CST = timezone(timedelta(hours=8))
 
 
 def now_iso() -> str:
     """当前 UTC 时间的 ISO8601 字符串。全系统统一用 UTC，展示时再转。"""
     return datetime.now(timezone.utc).strftime(ISO_FMT)
+
+
+def today() -> date:
+    """北京时间的今天。凡是"哪一天"的判断都走这里，不要各处自己算。"""
+    return datetime.now(CST).date()
+
+
+def local_day(iso: str) -> str:
+    """存下来的 UTC 时间戳 → 北京日期（YYYY-MM-DD）。这就是"展示时再转"。
+
+    解析不了就原样截前 10 位：手写过的档案里可能有非标准写法，
+    显示得不准也好过整页构建崩掉。
+    """
+    try:
+        stamp = datetime.strptime(iso, ISO_FMT).replace(tzinfo=timezone.utc)
+    except (ValueError, TypeError):
+        return iso[:10]
+    return stamp.astimezone(CST).date().isoformat()
 
 
 def slugify(text: str, max_len: int = 60) -> str:

@@ -25,6 +25,7 @@ import statistics
 from dataclasses import dataclass
 from datetime import date, timedelta
 
+from .models import today as today_cst
 from .store import Store
 
 # 回看窗口。raw 保留 30 天（xocto prune），取 14 天足够形成基线又不至于
@@ -51,7 +52,7 @@ class Finding:
 
 def daily_counts(store: Store, days: int = LOOKBACK_DAYS) -> dict[date, dict[str, int]]:
     """每天每个源各有多少条。只读 raw，不碰产品池。"""
-    today = date.today()
+    today = today_cst()
     window = {d for d in store.raw_days() if (today - d).days < days}
     out: dict[date, dict[str, int]] = {}
     for day in sorted(window):
@@ -73,7 +74,7 @@ def enabled_sources(config: dict) -> list[str]:
 
 def check(store: Store, config: dict, today: date | None = None) -> list[Finding]:
     """比对今天和历史，返回发现。空列表 = 健康。"""
-    today = today or date.today()
+    today = today or today_cst()
     counts = daily_counts(store)
     findings: list[Finding] = []
 

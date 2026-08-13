@@ -15,13 +15,13 @@ from __future__ import annotations
 import json
 import os
 import tempfile
-from datetime import date, datetime, timezone
+from datetime import date
 from pathlib import Path
 from typing import Iterable, Iterator
 
 import yaml
 
-from .models import Product, RawItem, Sighting
+from .models import Product, RawItem, Sighting, today
 
 # 正文分隔标记。这一行以下是自由区，机器写入时永不覆盖。
 NOTES_MARKER = "## 笔记"
@@ -55,7 +55,7 @@ class Store:
     # ---------- 原始层 ----------
 
     def raw_path(self, day: date | None = None) -> Path:
-        day = day or datetime.now(timezone.utc).date()
+        day = day or today()
         return self.raw_dir / f"{day.isoformat()}.jsonl"
 
     def read_raw(self, day: date | None = None) -> list[RawItem]:
@@ -234,7 +234,7 @@ class Store:
     # ---------- 简报 ----------
 
     def report_path(self, day: date | None = None) -> Path:
-        day = day or datetime.now(timezone.utc).date()
+        day = day or today()
         return self.reports_dir / f"{day.isoformat()}.md"
 
     def analysis_path(self, slug: str) -> Path:
