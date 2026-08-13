@@ -13,18 +13,18 @@ canonical_url: https://aws.github.io/context-ontology-accelerator
 summary: An open-source, ontology-based semantic context accelerator that enables AI agents to make more
   accurate, consistent, and explainable decisions.
 first_seen: '2026-07-28T22:59:24Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-08-13T03:25:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://aws.github.io/context-ontology-accelerator/
-  seen_at: '2026-08-12T03:21:52Z'
+  seen_at: '2026-08-13T03:25:28Z'
   metrics:
-    stars: 459
-    forks: 41
-    open_issues: 26
+    stars: 466
+    forks: 42
+    open_issues: 27
 ---
 
 # context-ontology-accelerator

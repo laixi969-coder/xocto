@@ -15,16 +15,16 @@ summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Ne
   99.75% accuracy). Supports TCM knowledge Q&A, automated RED content publishing, and interactive graph
   exploration.'
 first_seen: '2026-07-29T06:26:00Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-08-13T03:25:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Happy-Chen-CH/ShenNongMi
-  seen_at: '2026-08-12T03:21:52Z'
+  seen_at: '2026-08-13T03:25:28Z'
   metrics:
-    stars: 102
+    stars: 103
     forks: 7
     open_issues: 0
 ---

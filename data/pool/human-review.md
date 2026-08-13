@@ -13,18 +13,18 @@ canonical_url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-htm
 summary: A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback
   to your AI agent. Works inside your favorite AI harness.
 first_seen: '2026-07-27T14:58:36Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-08-13T03:25:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually
-  seen_at: '2026-08-12T03:21:52Z'
+  seen_at: '2026-08-13T03:25:28Z'
   metrics:
-    stars: 736
-    forks: 46
-    open_issues: 11
+    stars: 912
+    forks: 54
+    open_issues: 14
 ---
 
 # human-review

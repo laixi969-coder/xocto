@@ -13,7 +13,7 @@ canonical_url: https://genspark.ai
 summary: Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint
   (.pptx), PDF and Markdown editing with built-in AI agents.
 first_seen: '2026-07-31T09:40:58Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-08-13T03:25:28Z'
 status: pending_filter
 sources:
 - github
@@ -27,11 +27,11 @@ sightings:
     open_issues: 24
 - source: github
   url: https://genoffice.ai/
-  seen_at: '2026-08-12T03:21:52Z'
+  seen_at: '2026-08-13T03:25:28Z'
   metrics:
-    stars: 2583
-    forks: 480
-    open_issues: 26
+    stars: 2745
+    forks: 504
+    open_issues: 29
 ---
 
 # genoffice
