@@ -210,6 +210,18 @@ ZH = Locale(
         "footer": {
             "counts": "{total} 个产品 · {analysed} 份深度分析",
             "asof": "数据截至 {day}",
+            "methodology": "方法与口径",
+        },
+        "methodology": {
+            "title": "方法与口径",
+            "lede": "x-octo 是一个每日更新的 AI 产品观察站。它记录产品在做什么、公开信号如何变化，以及值得继续验证的问题。",
+            "what_title": "我们记录什么",
+            "what_body": "产品页面会写明本站首次收录与最近更新日期；有公开使用数据的产品会展示规模和环比。增长信号用于提出下一步该验证什么，不等同于对增长原因的断言。",
+            "editorial_title": "公开标准",
+            "editorial_body": "只有能说明产品用途、并提供一条可借鉴观察的产品才会公开。被淘汰或信息不足的条目不会出现在公开页面和站点地图中。",
+            "evidence_title": "如何使用这些信息",
+            "evidence_body": "产品介绍来自公开资料，完整分析与每日观察属于编辑判断。引用具体结论时，请链接到对应的产品页或每日观察页，并保留页面显示的更新时间。",
+            "updated": "最近数据更新",
         },
         "home": {
             "lede_pre": "已收录 ",
@@ -357,6 +369,18 @@ EN = Locale(
         "footer": {
             "counts": "{total} products · {analysed} deep dives",
             "asof": "Data through {day}",
+            "methodology": "Methodology",
+        },
+        "methodology": {
+            "title": "Methodology",
+            "lede": "x-octo is a daily AI product radar. It records what products help people do, how public signals change, and what is still worth verifying.",
+            "what_title": "What we record",
+            "what_body": "Each product page shows when x-octo first tracked and last updated it. Products with public usage data show scale and month-over-month change. Growth signals point to what to verify next; they do not claim to prove a cause.",
+            "editorial_title": "What becomes public",
+            "editorial_body": "A product is published only when its purpose can be explained and there is one useful observation to share. Rejected or incomplete entries are excluded from public pages and the sitemap.",
+            "evidence_title": "How to use this work",
+            "evidence_body": "Product descriptions draw on public material; full analyses and daily observations are editorial judgments. When citing a conclusion, link to its product or daily-observation page and keep the displayed update date.",
+            "updated": "Latest data update",
         },
         "home": {
             # 数字必须打头（它是整屏唯一的高亮件），后面得跟上名词 ——

@@ -53,6 +53,7 @@ STAGE_PROVEN = "proven"
 # 线上地址。这是部署事实不是品味，所以放代码里而不是 config/。
 # 用途：canonical、sitemap、og:url —— 三处都必须是绝对地址。
 BASE_URL = "https://xocto.vercel.app"
+OG_IMAGE = f"{BASE_URL}/logo/logo-on-light.png"
 
 # 搜索结果里的摘要长度。中文超过这个数会被截断，不如自己控制在哪断。
 DESC_LIMIT = 150
@@ -435,8 +436,8 @@ def _describe(text: str, fallback: str) -> str:
     return flat or fallback
 
 
-def write_seo(out_dir: Path, pages: list[tuple[str, str]]) -> None:
-    """robots.txt 和 sitemap.xml。
+def write_seo(out_dir: Path, pages: list[tuple[str, str]], contexts: dict[str, dict[str, Any]]) -> None:
+    """robots.txt、sitemap.xml 与 llms.txt。
 
     pages 是 (相对路径, lastmod) 列表。sitemap 只写 loc 和 lastmod ——
     priority/changefreq 主流搜索引擎早就不看了，写了是自我安慰。
@@ -456,6 +457,130 @@ def write_seo(out_dir: Path, pages: list[tuple[str, str]]) -> None:
         lines.append("  </url>")
     lines.append("</urlset>")
     (out_dir / "sitemap.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    zh = contexts["zh"]
+    en = contexts["en"]
+    latest_zh = zh["reports"][0] if zh["reports"] else None
+    latest_en = en["reports"][0] if en["reports"] else None
+    llms = [
+        "# x-octo",
+        "",
+        "> A daily, bilingual radar for new and proven AI products.",
+        "",
+        "x-octo explains what an AI product helps people do, tracks public usage and community signals when available, and publishes editorial observations that distinguish evidence from hypotheses.",
+        "",
+        "## Key pages",
+        "",
+        f"- [Chinese home]({BASE_URL}/)",
+        f"- [English home]({BASE_URL}/en/)",
+        f"- [Product directory]({BASE_URL}/products.html)",
+        f"- [Methodology]({BASE_URL}/methodology.html)",
+    ]
+    if latest_zh:
+        llms.append(f"- [Latest Chinese daily observation]({BASE_URL}/r/{latest_zh.day}.html)")
+    if latest_en:
+        llms.append(f"- [Latest English daily observation]({BASE_URL}/en/r/{latest_en.day}.html)")
+    llms.extend([
+        "",
+        "## Citation guidance",
+        "",
+        "Cite the canonical URL of the relevant product or daily observation. Product descriptions use public material; analysis and growth angles are editorial views. Usage figures and growth rates are dated snapshots, not claims of causation.",
+        "",
+        "## Freshness",
+        "",
+        f"Latest data update: {zh['latest_day']}",
+        f"Sitemap: {BASE_URL}/sitemap.xml",
+    ])
+    (out_dir / "llms.txt").write_text("\n".join(llms) + "\n", encoding="utf-8")
+
+
+def _breadcrumb(locale: Locale, canonical: str, title: str) -> dict[str, Any]:
+    """所有详情页使用相同、可验证的三级面包屑。"""
+    return {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": locale.t["nav"]["home"], "item": _canonical(locale.path("index.html"))},
+            {"@type": "ListItem", "position": 2, "name": locale.t["nav"]["products"], "item": _canonical(locale.path("products.html"))},
+            {"@type": "ListItem", "position": 3, "name": title, "item": canonical},
+        ],
+    }
+
+
+def _schema(
+    *, locale: Locale, canonical: str, description: str, page: str, title: str,
+    product: dict[str, Any] | None = None, report: Report | None = None,
+) -> dict[str, Any]:
+    """生成只包含页面上可核实信息的 Schema.org JSON-LD。"""
+    organization = {
+        "@type": "Organization",
+        "@id": f"{BASE_URL}/#organization",
+        "name": "x-octo",
+        "url": BASE_URL,
+        "description": locale.site_desc,
+    }
+    webpage: dict[str, Any] = {
+        "@type": "WebPage",
+        "@id": f"{canonical}#webpage",
+        "url": canonical,
+        "name": title,
+        "description": description,
+        "inLanguage": locale.lang,
+        "isPartOf": {"@id": f"{BASE_URL}/#website"},
+    }
+    graph: list[dict[str, Any]] = [webpage]
+    if page == "home":
+        graph.extend([
+            organization,
+            {
+                "@type": "WebSite",
+                "@id": f"{BASE_URL}/#website",
+                "url": BASE_URL,
+                "name": "x-octo",
+                "description": locale.site_desc,
+                "inLanguage": locale.lang,
+                "publisher": {"@id": f"{BASE_URL}/#organization"},
+            },
+        ])
+    elif product:
+        graph.extend([
+            {
+                "@type": "SoftwareApplication",
+                "@id": f"{canonical}#software",
+                "name": product["name"],
+                "description": product["summary"],
+                "url": canonical,
+                "applicationCategory": product["category"],
+                "datePublished": product["first_seen"],
+                "dateModified": product["last_seen"],
+                "inLanguage": locale.lang,
+                "mainEntityOfPage": {"@id": f"{canonical}#webpage"},
+                **({"sameAs": product["url"]} if product["url"] else {}),
+            },
+            _breadcrumb(locale, canonical, product["name"]),
+        ])
+    elif report:
+        graph.extend([
+            {
+                "@type": "Article",
+                "@id": f"{canonical}#article",
+                "headline": report.hook or report.label,
+                "description": description,
+                "url": canonical,
+                "datePublished": report.day,
+                "dateModified": report.day,
+                "inLanguage": locale.lang,
+                "author": {"@id": f"{BASE_URL}/#organization"},
+                "publisher": {"@id": f"{BASE_URL}/#organization"},
+                "mainEntityOfPage": {"@id": f"{canonical}#webpage"},
+            },
+            _breadcrumb(locale, canonical, report.label),
+        ])
+    elif page == "products":
+        webpage["@type"] = "CollectionPage"
+    elif page == "methodology":
+        webpage["@type"] = "AboutPage"
+        graph.append(organization)
+    return {"@context": "https://schema.org", "@graph": graph}
 
 
 def product_view(product: Product, locale: Locale) -> dict[str, Any]:
@@ -513,7 +638,7 @@ def _page_paths(ctx: dict[str, Any]) -> set[str]:
     语言切换按钮要靠它决定跳去哪：产品页两个语种都有，但每日观察不一定 ——
     中文有 2026-08-11 而英文还没写的时候，直接跳过去就是一条死链。
     """
-    paths = {"index.html", "products.html"}
+    paths = {"index.html", "products.html", "methodology.html"}
     paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
     paths.update(f"r/{r.day}.html" for r in ctx["reports"])
     return paths
@@ -567,14 +692,21 @@ def _build_locale(
         # 指到首页是假话，会让搜索引擎把两页当互译。
         alt_exact = rel in alt_paths
         alt_rel = rel if alt_exact else "index.html"
+        schema_title = extra.pop("schema_title", locale.site_name)
+        canonical = _canonical(locale.path(rel))
         html = env.get_template(template).render(
             **ctx,
             page=page,
             root=root,
             locale=locale,
             t=locale.t,
-            canonical=_canonical(locale.path(rel)),
+            canonical=canonical,
             description=description,
+            og_image=OG_IMAGE,
+            schema=_schema(
+                locale=locale, canonical=canonical, description=description,
+                page=page, title=schema_title, product=extra.get("product"), report=extra.get("report"),
+            ),
             alt_locale=alt,
             alt_href=f"{root}{alt.prefix}{alt_rel}",
             alt_canonical=_canonical(alt.path(alt_rel)) if alt_exact else "",
@@ -584,14 +716,21 @@ def _build_locale(
         rendered.append(html)
 
     stats = ctx["stats"]
-    write("index.html", "index.html", "home", locale.site_desc)
+    write("index.html", "index.html", "home", locale.site_desc, schema_title=f"x-octo · {locale.site_tagline}")
     sitemap.append((locale.path("index.html"), ctx["latest_day"]))
 
     write(
         "products.html", "products.html", "products",
         locale.t["products"]["desc"].format(total=stats["total"]),
+        schema_title=locale.t["products"]["title"],
     )
     sitemap.append((locale.path("products.html"), ctx["latest_day"]))
+
+    write(
+        "methodology.html", "methodology.html", "methodology",
+        locale.t["methodology"]["lede"], schema_title=locale.t["methodology"]["title"],
+    )
+    sitemap.append((locale.path("methodology.html"), ctx["latest_day"]))
 
     by_slug = ctx["analysis_by_slug"]
     for view in ctx["products"]:
@@ -603,6 +742,7 @@ def _build_locale(
             _describe(view["summary"], locale.site_desc),
             product=view,
             analysis=by_slug.get(view["slug"]),
+            schema_title=view["name"],
         )
         sitemap.append((locale.path(rel), view["last_seen"]))
 
@@ -610,10 +750,10 @@ def _build_locale(
         rel = f"r/{report.day}.html"
         # 当天那句钩子就是最好的搜索摘要
         write(rel, "report.html", "reports", _describe(report.hook, locale.site_desc),
-              report=report)
+              report=report, schema_title=f"{report.day} {locale.t['report']['kicker']}")
         sitemap.append((locale.path(rel), report.day))
 
-    return 2 + len(ctx["products"]) + len(ctx["reports"])
+    return 3 + len(ctx["products"]) + len(ctx["reports"])
 
 
 def build(store: Store, out_dir: Path | None = None) -> Path:
@@ -668,8 +808,8 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
         for f in sorted(logo_src.glob("*.png")):
             shutil.copy2(f, logo_out / f.name)
 
-    write_seo(out_dir, sitemap)
-    print(f"  robots.txt + sitemap.xml（{len(sitemap)} 个 URL）")
+    write_seo(out_dir, sitemap, contexts)
+    print(f"  robots.txt + sitemap.xml + llms.txt（{len(sitemap)} 个 URL）")
 
     from .fonts import build_fonts
 

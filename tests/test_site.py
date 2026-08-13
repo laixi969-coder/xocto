@@ -8,7 +8,7 @@ from pathlib import Path
 from xocto.i18n import BOARD_EN
 from xocto.i18n import ZH
 from xocto.models import Product, Sighting
-from xocto.site import _is_publishable, _metric_badges, _remove_stale_pages, product_view
+from xocto.site import _is_publishable, _metric_badges, _remove_stale_pages, _schema, product_view
 
 
 def product(*, status: str = "watching", summary_zh: str = "中文说明", inspiration: str = "灵感") -> Product:
@@ -68,6 +68,20 @@ class PublishabilityTests(unittest.TestCase):
     def test_public_verdict_labels_keep_their_stable_keys(self) -> None:
         self.assertEqual(ZH.verdict_key("重点研究"), "strong")
         self.assertEqual(ZH.verdict_key("持续观察"), "notable")
+
+    def test_product_schema_is_machine_readable_and_uses_known_dates(self) -> None:
+        view = product_view(product(), ZH)
+        schema = _schema(
+            locale=ZH,
+            canonical="https://xocto.vercel.app/p/example.html",
+            description=view["summary"],
+            page="products",
+            title=view["name"],
+            product=view,
+        )
+        software = next(item for item in schema["@graph"] if item["@type"] == "SoftwareApplication")
+        self.assertEqual(software["name"], "Example")
+        self.assertEqual(software["dateModified"], "2026-08-13")
 
     def test_rejected_product_is_never_published(self) -> None:
         self.assertFalse(_is_publishable(product(status="rejected")))

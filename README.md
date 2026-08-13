@@ -149,6 +149,20 @@ data/reports/2026-08-11.md   每日简报 ← 你主要看这个
 `.vercelignore` 已经把 `pyproject.toml` 排除掉了，重新部署一次就好；
 还不行的话去项目设置里把 Framework Preset 手动改成 Other。
 
+### SEO / GEO 上线后只需做一次的事
+
+代码会自动生成每页的 canonical、双语 hreflang、Open Graph、Schema.org JSON-LD、
+`robots.txt`、`sitemap.xml` 和给 AI 引擎读取的 `llms.txt`。部署后仍需由站点所有者
+完成两件平台侧操作：
+
+1. 在 [Google Search Console](https://search.google.com/search-console/) 和
+   [Bing Webmaster Tools](https://www.bing.com/webmasters/) 验证 `xocto.vercel.app`（或未来的自有域名）。
+2. 分别提交 `https://xocto.vercel.app/sitemap.xml`；部署后可用
+   `https://xocto.vercel.app/llms.txt` 查看给 AI 引擎的站点说明。
+
+如果改用自有域名，先将 `src/xocto/site.py` 中的 `BASE_URL` 改成新域名，再重新生成并部署；
+否则 canonical、sitemap 和结构化数据仍会指向旧地址。
+
 ### 每天自动更新（已接好，你什么都不用做）
 
 两班倒，一小时错开，全部按北京时间：
