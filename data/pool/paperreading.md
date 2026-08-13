@@ -13,7 +13,7 @@ summary: Evidence-grounded AI research workflow for traceable claims, explicit u
   checks, and reviewable JSON, Markdown, and Excel exports.
 first_seen: '2026-08-10T01:52:39Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

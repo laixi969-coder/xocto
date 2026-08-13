@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/ballet
 summary: Agentic workflows that deliver the same outcome every time
 first_seen: '2026-08-07T16:27:58Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - hackernews

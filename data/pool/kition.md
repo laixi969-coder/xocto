@@ -14,7 +14,7 @@ summary: Kition brings Markdown documents, structured table files, a tool-using 
   and visual workflows into one desktop workspace.
 first_seen: '2026-07-25T04:41:35Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

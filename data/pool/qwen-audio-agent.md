@@ -14,7 +14,7 @@ summary: A realtime voice runtime that keeps Agents talking, working, and presen
   for AI Agents
 first_seen: '2026-07-27T05:04:26Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

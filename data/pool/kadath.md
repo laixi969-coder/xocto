@@ -14,7 +14,7 @@ summary: Evolutionary multi-agent runtime that breeds, evaluates, and improves a
   reproducible epochs to converge on optimization of a goal.
 first_seen: '2026-08-08T15:49:55Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

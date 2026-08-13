@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/argos
 summary: Let AI agents put screenshots and videos on pull requests
 first_seen: '2026-08-11T07:03:12Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

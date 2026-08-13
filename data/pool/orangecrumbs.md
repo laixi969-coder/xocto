@@ -12,7 +12,7 @@ canonical_url: https://orangecrumbs.com/stories/show-hn
 summary: Posts grew 6x since ChatGPT, but success rate remained relatively flat
 first_seen: '2026-08-12T22:02:12Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

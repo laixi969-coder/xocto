@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/laracopilot
 summary: Agentic AI Engineer that builds real apps
 first_seen: '2026-08-11T08:52:16Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

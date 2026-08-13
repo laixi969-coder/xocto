@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/trigger-dev
 summary: AI chat that keeps running after you close the tab
 first_seen: '2026-08-10T20:10:54Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

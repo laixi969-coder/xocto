@@ -12,7 +12,7 @@ canonical_url: https://github.com/DmitriGoloubentsev/LLM-Tests
 summary: I took the calculator away from 50 LLMs and graded the arithmetic
 first_seen: '2026-08-12T12:02:25Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

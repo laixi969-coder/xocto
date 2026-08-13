@@ -2,12 +2,12 @@
 slug: shennongmi
 name: ShenNongMi
 builder: Happy-Chen-CH
-category: AI + 创作
-summary_zh: 中医知识导航，把一万九千个实体做成知识图谱
-inspiration: 垂直领域的护城河是数据结构不是模型——把行业知识整理成图谱，这活儿谁先做谁占住
+category: AI + 生活
+summary_zh: 中医知识图谱问答，靠两万个节点撑住会自我纠错的查询
+inspiration: 垂直知识图谱是模型抹平不掉的壁垒，谁手上有结构化的行业知识谁就有护城河
 summary_en: Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.
-inspiration_en: The moat in a vertical is the data structure, not the model. Whoever organizes the field's
-  knowledge into a graph first holds it.
+inspiration_en: A vertical knowledge graph is a moat models cannot flatten. Whoever holds structured domain
+  knowledge holds the defensibility.
 url: https://github.com/Happy-Chen-CH/ShenNongMi
 canonical_url: https://github.com/Happy-Chen-CH/ShenNongMi
 summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Neo4j graph (19K+ nodes) × LangGraph
@@ -16,7 +16,7 @@ summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Ne
   exploration.'
 first_seen: '2026-07-29T06:26:00Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

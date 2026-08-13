@@ -14,7 +14,7 @@ summary: An open-source, ontology-based semantic context accelerator that enable
   accurate, consistent, and explainable decisions.
 first_seen: '2026-07-28T22:59:24Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

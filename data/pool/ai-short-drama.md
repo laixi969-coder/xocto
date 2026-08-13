@@ -2,18 +2,19 @@
 slug: ai-short-drama
 name: ai-short-drama
 builder: Hao0321
-category: ''
-summary_zh: ''
-inspiration: ''
+category: AI + 创作
+summary_zh: AI 短剧的故事骨架、剧集连续性和可续跑的成片流程
+inspiration: 连续性才是短剧工业化的卡点，单集好拍，十集不崩才值钱
 summary_en: ''
-inspiration_en: ''
+inspiration_en: Continuity is the real bottleneck in industrializing short drama. One good episode is
+  easy; ten that hold together is the valuable part.
 url: https://github.com/Hao0321/ai-short-drama
 canonical_url: https://github.com/Hao0321/ai-short-drama
 summary: AI short-drama story architecture, series continuity, production packs and resumable generation
   workflows for Codex and Claude Code.
 first_seen: '2026-08-09T13:28:48Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

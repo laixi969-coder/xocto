@@ -12,7 +12,7 @@ canonical_url: https://github.com/melocream/awesome-llm-study
 summary: LLM/ML 스터디·지식공유 큐레이션 — 검증된 강의·논문·자료 링크 (by @melocream · marblo.app)
 first_seen: '2026-07-26T03:46:32Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

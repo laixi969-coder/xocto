@@ -14,7 +14,7 @@ summary: An open-source graph engineering runtime that keeps orchestration in Ty
   semantic work to replaceable Agent runtimes.
 first_seen: '2026-07-26T04:20:50Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

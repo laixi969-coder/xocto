@@ -12,7 +12,7 @@ canonical_url: https://trunchbull.dev
 summary: run real models against any benchmark in your browser
 first_seen: '2026-08-12T15:14:16Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

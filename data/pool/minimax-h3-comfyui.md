@@ -16,7 +16,7 @@ summary: MiniMax H3 ComfyUI - Run MiniMax turbo lora H3 33B omni-modal AI model 
   4-15s video at 768p. github
 first_seen: '2026-08-08T18:56:53Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

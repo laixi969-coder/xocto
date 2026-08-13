@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/beardrive
 summary: The open-source shared folder for your team's AI agents
 first_seen: '2026-08-11T23:31:29Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

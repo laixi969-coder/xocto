@@ -13,7 +13,7 @@ summary: 'Desktop automation MCP server — computer use for any AI agent: contr
   and Chrome via Model Context Protocol (stdio)'
 first_seen: '2026-08-01T08:02:34Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

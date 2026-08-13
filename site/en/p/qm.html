@@ -39,7 +39,7 @@
     <nav class="nav">
       <a href="../../index.html" class="">Home</a>
       <a href="../../products.html" class="on">Products</a>
-      <a href="../../r/2026-08-11.html" class="">Daily</a>
+      <a href="../../r/2026-08-13.html" class="">Daily</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../../p/qm.html" lang="zh-CN"
@@ -55,13 +55,14 @@
   <div class="detail-head">
     <div class="pick-id">
       <h1>qm</h1>
+      <span class="verdict v-strong">Strong pick</span>
     </div>
 
     <p class="lede">Multiplayer agent harness for work. https://qm.ycombinator.com</p>
 
     <div class="meta">
       <span class="tag">Early</span>
-<span class="tag sig">Open-source traction 13,253</span>    </div>
+<span class="tag">AI + Productivity</span><span class="tag sig">Open-source traction 13,253</span>    </div>
 
     <div class="kv">
       <div><span>Built by</span><b>yc-software</b></div>
@@ -70,61 +71,191 @@
     </div>
   </div>
 
-
-
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">No deep dive on this one yet.</p>
-      <p class="noanalysis-sub">
-        It&#39;s too early — there&#39;s nothing to verify, and writing more would be making things up.
-      </p>
+    <div class="field field-take">
+      <span class="field-k">What this one is good for</span>
+      <p>Turning an agent from a personal assistant into a company colleague. The hard part is not the model, it is scoping memory and permissions per person.</p>
     </div>
   </section>
+
+  <section class="band">
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">What old behavior it replaces</span>
+        <p>Until now a company that wanted AI in real work had two options, both awkward:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What you can take from it</span>
+        <p>Product logic: if a multi-agent video workflow has to go from &#34;you use it&#34; to &#34;the team uses it,&#34; qm&#39;s scoping structure ports directly — one isolated workspace per person, one shared skill library, a…</p>
+      </div>
+    </div>
+  </section>
+
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Not another company-wide ChatGPT, but an agent scoped per person: every employee gets an
+isolated workspace, and in shared channels everyone still drives the same one.</p>
+<h2>Who built it</h2>
+<p>Y Combinator's own engineering team (<code>yc-software/qm</code>, MIT). The product runs at
+qm.ycombinator.com. They used it internally first and open-sourced it after.</p>
+<p><em>Read: YC coordinates thousands of portfolio companies, hundreds of partners, and a pile of
+internal process every day. &quot;Get the whole company onto one agent&quot; is a more real pain for
+them than for most startups. Used-in-house-first is more credible than any pitch deck.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>A scope per person</strong> → memory, files, keychain view, permissions, crons, and sandbox are
+separate for each employee and never bleed into each other</li>
+<li><strong>One identity across Slack and web</strong> → what you configure in Slack is what you get on the web</li>
+<li><strong>Collaboration in channels</strong> → beyond private workspaces, channels, group messages, and
+projects each carry their own memory and permissions</li>
+<li><strong>Swap the harness, keep the platform</strong> → Pi, OpenCode, Codex, and Claude Code all drive the
+same core, so a deployment is not tied to one vendor</li>
+<li><strong>Work while nobody watches</strong> → crons and watches run in the background</li>
+<li><strong>Admins keep control</strong> → org-level config, a security posture, and which harnesses and
+models are allowed</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: it is not a general assistant for individuals. The whole
+design assumes a company with many people in it. Alone, you carry the complexity for nothing.</p>
+<h2>What old behavior it replaces</h2>
+<p>Until now a company that wanted AI in real work had two options, both awkward:</p>
+<ul>
+<li><strong>Everyone gets their own account.</strong> Memory is not shared, material is scattered, permissions
+are uncontrollable, and nobody dares wire it into an internal system.</li>
+<li><strong>IT runs one shared bot.</strong> Everyone shares one memory and one permission set. It cannot
+remember what <em>you</em> prefer, and no one will grant it real access, so it decays into an
+expensive search box.</li>
+</ul>
+<p>qm fills in the missing middle: scope it per person instead of rationing permissions. Companies
+have been taping this together themselves — several months of one engineer's time, per company.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> MIT licensed, no pricing page, no hosted offering.</p>
+<p><em>Read: YC is not trying to make money here. The return is the standard. If thousands of
+portfolio companies run the same agent substrate, YC owns the default position in that layer,
+which is worth considerably more than subscription revenue. This is open source used the
+classic way.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>13,257 stars, 1,547 forks.</strong> Repository created 2026-07-29 — fifteen days ago</li>
+<li>Forks are 11.7% of stars, a ratio that says people are deploying it, not bookmarking it</li>
+<li>TypeScript, MIT, Postgres for persistence, Fastify plus Slack Bolt plus Vite/Lit</li>
+<li>Team size and number of real deployments: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Built for their own use first. The pain is their own — the strongest form of fit</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Saw that &quot;personal assistant&quot; and &quot;company system&quot; are different animals, and solved it by scoping rather than by permissions</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Already in production; every substrate (harness, session store, sandbox, memory) sits behind an interface</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right on. Companies just finished trying AI and are now asking how to put everyone on one thing</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is a textbook open-source land grab, aimed at the layer that is hardest to displace later.</strong></p>
+<p>13,257 stars and 1,547 forks in fifteen days is extraordinary for enterprise-facing
+infrastructure, which normally has no viral surface at all. There is one explanation: the
+people adopting it were already waiting for it. The fork count carries the signal — an 11.7%
+fork-to-star ratio means these are not applause, they are checkouts being configured for a
+deployment.</p>
+<p><strong>The transferable rule: when every company is taping the same thing together by hand, turning
+the tape into an open-source product wins you the standard, not just users.</strong> The barrier is not
+technical — multi-tenant isolation, Slack integration, sandboxes are each unremarkable. The
+barrier is who gets to be the default.</p>
+<p><strong>The cost is just as direct.</strong> Freedom to swap harnesses is bought with an abstraction layer,
+and every additional harness adds a convention the core can no longer change. When one harness
+makes a breaking change, qm either follows or loses those users. Worse, it only serves
+companies with a lot of people in them; for a team under ten it is a net liability. The design
+itself amputates the low end of the market.</p>
+<p><strong>The bigger question</strong>: does the agent-platform layer end up winner-take-all like Slack, or
+does every company roll its own like CI? qm is betting on the former, and YC's position in the
+ecosystem earns it the right to make that bet.</p>
+<h2>What to watch next</h2>
+<p>① Whether the fork-to-star ratio holds above 10% in three months — a drop means the attention
+was spectating, not deploying
+② Whether any company outside the YC ecosystem says publicly that it runs this — this decides
+whether it is an industry standard or an internal tool
+③ Whether third parties contribute non-default harness adapters — that is the test of whether
+&quot;not tied to any vendor&quot; is real</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if a multi-agent video workflow has to go from &quot;you use it&quot; to &quot;the team uses
+it,&quot; qm's scoping structure ports directly — one isolated workspace per person, one shared
+skill library, admin-defined model allowlist. That combination is far simpler than building a
+permission system and gets you the same outcome.</p>
+<p><strong>Positioning language</strong>: its opening line is &quot;Most agents are designed like personal
+assistants.&quot; Negate a premise everyone holds by default, then step into the space that opens
+up. In a pitch this beats &quot;we are better&quot; — it says everyone has been pointed the wrong way.</p>
+<p><strong>Pricing structure</strong>: none. There is no pricing.</p>
+<h2>Verdict</h2>
+<p><strong>Strong pick.</strong> Not because the execution is exceptional, but because it demonstrates a path:
+use open source to take the default position in a layer that is just now forming — a layer that
+will certainly be collecting rent three years from now.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Others in the same direction</h2>
+      <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
+        61 in AI + Productivity →
+      </a>
     </div>
     <ul class="rows">
       <li>
-        <a href="../../p/phone-harness.html">
+        <a href="../../p/cindy.html">
           <div class="row-head">
-            <span class="row-name">phone-harness</span>
-            <span class="row-desc">let your agent control your phone</span>
+            <span class="row-name">cindy</span>
+            <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,652</span>            </span>
+<span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
       <li>
-        <a href="../../p/fuxi.html">
+        <a href="../../p/pinvou-agent.html">
           <div class="row-head">
-            <span class="row-name">Fuxi</span>
-            <span class="row-desc">FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands, and drive tools, with cost-aware routing across LLM providers.</span>
+            <span class="row-name">pinvou-agent</span>
+            <span class="row-desc">Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 474</span>            </span>
+<span class="tag sig">Open-source traction 684</span>            </span>
           </div>
         </a>
       </li>
       <li>
-        <a href="../../p/aif.html">
+        <a href="../../p/needle2.html">
           <div class="row-head">
-            <span class="row-name">aif</span>
-            <span class="row-desc">On device Firewall for Coding and Personal Agents</span>
+            <span class="row-name">Needle2</span>
+            <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 390</span>            </span>
+<span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
       <li>
-        <a href="../../p/woxi.html">
+        <a href="../../p/hermesoffice.html">
           <div class="row-head">
-            <span class="row-name">Woxi</span>
-            <span class="row-desc">Open-source Mathematica / Wolfram Language reimplementation</span>
+            <span class="row-name">HermesOffice</span>
+            <span class="row-desc">HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes Agent AI</span>
             <span class="row-tail">
-<span class="tag sig">Community score 264</span>            </span>
+<span class="tag sig">Open-source traction 486</span>            </span>
           </div>
         </a>
       </li>
@@ -165,7 +296,7 @@
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>220 products · 8 deep dives</span>
+    <span>220 products · 10 deep dives</span>
     <span class="gen">Data through 2026-08-13</span>
   </footer>
 </div>

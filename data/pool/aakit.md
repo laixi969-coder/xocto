@@ -2,17 +2,18 @@
 slug: aakit
 name: Aakit
 builder: Abhixhek
-category: ''
-summary_zh: ''
-inspiration: ''
+category: AI + 开发
+summary_zh: 把 coding agent 悄悄做的假设一条条列出来，标出哪条崩了
+inspiration: AI 出错不在代码在假设，把隐含假设显性化这个思路能直接搬到方案评审上
 summary_en: ''
-inspiration_en: ''
+inspiration_en: AI failures live in assumptions, not code. Making implicit assumptions explicit transfers
+  straight to reviewing any proposal.
 url: https://github.com/abhixhek/aakit
 canonical_url: https://github.com/abhixhek/aakit
 summary: find every assumption your coding agent made, and which broke
 first_seen: '2026-08-12T12:06:33Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 sightings:

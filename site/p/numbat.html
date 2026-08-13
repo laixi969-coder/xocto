@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#eef2e3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
 <title>numbat · x-octo</title>
-<meta name="description" content="监控终端上的 AI agent 行为，本地检测">
+<meta name="description" content="监控 AI agent 在电脑上干了什么，能拦截也能事后取证">
 <link rel="canonical" href="https://xocto.vercel.app/p/numbat.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/numbat.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/numbat.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/numbat.html">
@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="numbat · x-octo">
-<meta property="og:description" content="监控终端上的 AI agent 行为，本地检测">
+<meta property="og:description" content="监控 AI agent 在电脑上干了什么，能拦截也能事后取证">
 <meta property="og:url" content="https://xocto.vercel.app/p/numbat.html"><meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="../style.css">
 <link rel="preload" href="../fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
@@ -40,7 +40,7 @@
     <nav class="nav">
       <a href="../index.html" class="">首页</a>
       <a href="../products.html" class="on">全部产品</a>
-      <a href="../r/2026-08-11.html" class="">每日观察</a>
+      <a href="../r/2026-08-13.html" class="">每日观察</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../en/p/numbat.html" lang="en"
@@ -56,9 +56,10 @@
   <div class="detail-head">
     <div class="pick-id">
       <h1>numbat</h1>
+      <span class="verdict v-notable">值得关注</span>
     </div>
 
-    <p class="lede">监控终端上的 AI agent 行为，本地检测</p>
+    <p class="lede">监控 AI agent 在电脑上干了什么，能拦截也能事后取证</p>
 
     <div class="meta">
       <span class="tag">刚冒头</span>
@@ -74,30 +75,127 @@
   <section class="band">
     <div class="field field-take">
       <span class="field-k">这个产品给你的灵感</span>
-      <p>agent 在企业里跑起来后，安全审计立刻变成硬需求，这是先卖恐惧再卖能力</p>
+      <p>管人的那套——监控、拦截、事后追责——正在原样搬到 agent 身上，这是个新市场</p>
     </div>
   </section>
-
-
 
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这个产品还没有展开分析。</p>
-      <p class="noanalysis-sub">
-上面那句灵感是目前能给的全部判断。        它还太早，没有可验证的数据，再多写就是编。
-      </p>
-      <p class="noanalysis-sub">
-        同方向已经分析过的：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/gendangzou-skill.html">Gendangzou-skill</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">替代了什么旧行为</span>
+        <p>以前公司管员工电脑靠 EDR（端点检测与响应），管的对象是人和进程： 谁装了什么、谁连了哪儿、谁动了哪个文件。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">能拿走什么</span>
+        <p>产品逻辑：你的多 Agent 视频工作流要上真实生产， 应该照抄这个上线顺序——先跑一版只记录不干预的观察模式， 攒两周真实数据看它在哪一步最容易出错，再决定哪一步值得加人工卡点。 凭直觉猜哪里要卡，十次有八次卡错地方。</p>
+      </div>
     </div>
   </section>
+
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>不是给 agent 加一排权限开关，而是给它装监控：它在这台电脑上干了什么、
+要不要当场拦下来、事后怎么把整件事复原出来。</p>
+<h2>做这个东西的人</h2>
+<p>Perplexity 官方仓库（<code>perplexityai/numbat</code>），Apache-2.0，Go 写的单文件二进制。</p>
+<p><em>判断：一家做搜索的公司下场做 agent 端点安全，通常意味着它自己先被这个问题咬过。
+Perplexity 两头都疼——内部大量用 agent，外部又是被 agent 抓取最狠的目标之一。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>看四类 agent</strong> → 桌面、命令行、IDE、网关，通过本地 hook、插件、OTLP 日志和磁盘上的会话残留观察，归一成同一套事件模型</li>
+<li><strong>在本机判定</strong> → 内置 CEL 规则加多步序列规则，也能自己写 YAML 规则，检测全在端上跑，不上传</li>
+<li><strong>可选拦截</strong> → 只在支持的同步 pre-action hook 上拦，默认关闭，出厂规则<strong>全部只观察不拦</strong></li>
+<li><strong>事后重建</strong> → 从磁盘上的历史会话残留反向还原，事前没装它也能查</li>
+<li><strong>导出取证包</strong> → 带 SHA-256 清单，密钥自动打码，常规输出里永远不含完整对话原文</li>
+</ul>
+<p><strong>它明确不做</strong>：不做云端集中管控，不默认拦截，不把完整原文放进常规记录。
+这三条都是刻意的克制——安全工具最容易死在&quot;为了看得清而变成新的泄漏源&quot;。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前公司管员工电脑靠 EDR（端点检测与响应），管的对象是人和进程：
+谁装了什么、谁连了哪儿、谁动了哪个文件。</p>
+<p>agent 一进来这套就失效了。agent 的动作发生在别人的进程里、走别人的 API、
+留在别人的会话文件里，EDR 看到的只是&quot;某个终端程序在联网&quot;。
+于是&quot;上周那个 agent 到底改了什么&quot;这个问题，以前只能靠人翻聊天记录肉眼复盘——
+如果聊天记录还在的话。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> Apache-2.0 开源，没有定价页，没有云端服务。</p>
+<p><em>判断：这类工具的钱一向在企业版的集中管控台上——多台机器的策略下发、
+统一告警、审计报表。现在开源放出来的是端上那一半，也就是最难做、最不赚钱、
+但决定了另一半有没有人要的那一半。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>917 star / 95 fork</strong>，仓库 2026-07-24 建</li>
+<li>Go 写，无 cgo，单文件二进制覆盖 macOS / Linux / Windows 的 amd64 和 arm64</li>
+<li>记录格式已到 JSON Schema v0.2.0——版本号说明他们在认真做向后兼容</li>
+<li>团队人数、企业用户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>Perplexity 自己是 agent 重度使用方，痛点真实，但这是公司项目不是创始人项目</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住了&quot;事后可重建&quot;这一点——同类都要求你先装探针，它能从残留文件倒推</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>Go 单二进制、无 cgo、三平台、schema 带版本号，工程规范到位，不是 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>早了半步。企业还在&quot;让 agent 跑起来&quot;，没到&quot;agent 干的事要追责&quot;，但这天一定会来</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是把管人的那套原样搬到 agent 身上，而且搬得很老实。</strong></p>
+<p>监控、拦截、事后取证——这是企业管员工用了二十年的三件套，
+numbat 一件没改地搬过来，连&quot;默认只观察不拦截&quot;这个上线顺序都是照抄的。
+老实在这里是褒义：安全工具最常见的死法是第一版就敢拦，拦错一次，
+整个组织就再也不会打开它。</p>
+<p><strong>可迁移的规律：任何高风险自动化的正确上线顺序都是先只看不动。</strong>
+先跑观察模式攒够真实数据，用数据证明误判率，再谈拦截。
+反过来做——先上拦截再调参数——只有一次机会，用完就没有第二次信任。</p>
+<p><strong>代价是它现在几乎没有防护价值。</strong> 出厂规则全是只观察，
+意味着装了它并不会让你更安全，只是让你事后能说清楚发生了什么。
+这在合规场景值钱，在安全场景不值钱，而现在买单的人多半属于后者。</p>
+<p><strong>更大的问题</strong>：端点这一层看得见动作，看不见意图。
+agent 读了三百个文件写了一个报告，每一步都合规，合起来是不是数据外泄？
+这个判断端上做不了。numbat 赌的是&quot;先把动作记全&quot;，
+但真正的分歧在于——agent 的安全边界到底该画在端点、模型，还是在授权那一层。</p>
+<h2>下一步看什么</h2>
+<p>① 覆盖矩阵里支持的 agent 数量三个月后还在不在涨——跟不上新 agent 就等于废了
+② 有没有企业公开说自己在用——安全工具最难的不是做出来，是被信任
+③ enforce 模式的默认值会不会从关改成开——改了说明他们认为误拦率已经压下去了</p>
+<h2>对你的可迁移点</h2>
+<p><strong>产品逻辑</strong>：你的多 Agent 视频工作流要上真实生产，
+应该照抄这个上线顺序——先跑一版只记录不干预的观察模式，
+攒两周真实数据看它在哪一步最容易出错，再决定哪一步值得加人工卡点。
+凭直觉猜哪里要卡，十次有八次卡错地方。</p>
+<p><strong>话术</strong>：无。它是工程文档，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 方向成立，工程扎实，但现在只有取证价值没有防护价值，
+买单的人还没大规模出现。记下来，三个月后拿上面三条回头验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同方向的其他</h2>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 30 个 →
+        基础层 共 31 个 →
       </a>
     </div>
     <ul class="rows">
@@ -182,7 +280,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>220 个产品 · 8 份深度分析</span>
+    <span>220 个产品 · 10 份深度分析</span>
     <span class="gen">数据截至 2026-08-13</span>
   </footer>
 </div>

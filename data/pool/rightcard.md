@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/rightcard
 summary: The honest credit card picker — no bank login
 first_seen: '2026-08-08T03:06:31Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

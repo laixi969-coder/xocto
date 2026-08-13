@@ -14,7 +14,7 @@ summary: HermesOffice — AI-native office suite forked from GenOffice (Apache-2
   Agent AI
 first_seen: '2026-08-04T15:55:03Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

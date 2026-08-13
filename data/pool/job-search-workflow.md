@@ -13,7 +13,7 @@ canonical_url: https://github.com/rcnsnr/job-search-workflow
 summary: AI-assisted, local-first job search workflow framework — triage, scoring, application tracking
 first_seen: '2026-07-24T08:48:59Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

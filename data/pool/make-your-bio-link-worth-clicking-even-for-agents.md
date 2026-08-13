@@ -12,7 +12,7 @@ canonical_url: https://news.ycombinator.com/item?id=49272353
 summary: even for agents
 first_seen: '2026-08-12T13:45:54Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

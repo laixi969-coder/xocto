@@ -12,7 +12,7 @@ canonical_url: https://github.com/therepanic/openleetcode
 summary: local LeetCode runner where tests live in the repo
 first_seen: '2026-08-11T19:54:48Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

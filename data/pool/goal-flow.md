@@ -14,7 +14,7 @@ summary: Graph-Orchestrated Agent Loop — a production-grade framework on LangG
   and agent loops, transpile Dify DSL to runnable code, swap wire protocols (Dify/OpenAI).
 first_seen: '2026-08-06T15:43:24Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/unsloth
 summary: Run and train AI models locally on your desktop
 first_seen: '2026-08-12T03:47:50Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/lettertrace
 summary: Track your AI visibility for free (using your own API keys!)
 first_seen: '2026-08-09T02:15:06Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

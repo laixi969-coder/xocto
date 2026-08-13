@@ -15,7 +15,7 @@ summary: Agent-led job application workflow with a local progress-tracking dashb
   Agent。
 first_seen: '2026-08-02T15:20:12Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

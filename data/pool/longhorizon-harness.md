@@ -2,12 +2,12 @@
 slug: longhorizon-harness
 name: LongHorizon-Harness
 builder: AMAP-ML
-category: AI + 开发
-summary_zh: 让 AI agent 跨桌面应用长时间连续操作的执行框架
-inspiration: 长任务比单次问答难十倍，谁先解决「跑三小时不崩」谁就拿到企业订单
+category: 基础层
+summary_zh: 让 agent 连续操作电脑几小时而不丢任务状态
+inspiration: agent 的价值分水岭是能连续干多久，不是单步准不准
 summary_en: ''
-inspiration_en: Long-running tasks are ten times harder than single answers. Whoever solves “runs three
-  hours without falling over” gets the enterprise deals.
+inspiration_en: The dividing line for agents is how long they can keep going, not how accurate a single
+  step is.
 url: https://lh-harness.pages.dev
 canonical_url: https://lh-harness.pages.dev
 summary: The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended
@@ -16,7 +16,7 @@ summary: The long-horizon computer-use harness. Run AI agents across desktop app
   / Codex / OpenClaw integration.
 first_seen: '2026-08-04T04:30:58Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

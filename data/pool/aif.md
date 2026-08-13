@@ -12,7 +12,7 @@ canonical_url: https://harden.run
 summary: On device Firewall for Coding and Personal Agents
 first_seen: '2026-08-01T03:58:55Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

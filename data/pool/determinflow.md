@@ -3,18 +3,18 @@ slug: determinflow
 name: DeterminFlow
 builder: alikon-art
 category: 基础层
-summary_zh: 面向生产环境的 AI 工作流运行时，可校验可恢复
-inspiration: 从 Demo 到生产的鸿沟是「出错了怎么办」，专门解决这个的工具正在成型
+summary_zh: 面向生产的 AI 工作流运行时，能校验也能恢复
+inspiration: 把「可恢复」做成卖点，说明 AI 工作流已经进了不能丢单的场景
 summary_en: Production-oriented AI workflow runtime you can validate and recover.
-inspiration_en: The gap between a demo and production is “what happens when it breaks.” Tools built for
-  exactly that are taking shape now.
+inspiration_en: Selling recoverability as the headline feature means AI workflows have entered contexts
+  where losing a job is not acceptable.
 url: https://github.com/alikon-art/DeterminFlow
 canonical_url: https://github.com/alikon-art/DeterminFlow
 summary: A production-oriented AI workflow runtime for building, validating, recovering, and shipping
   complex AI workflows as dependable services. 面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。
 first_seen: '2026-08-02T07:40:51Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

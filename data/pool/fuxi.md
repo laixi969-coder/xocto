@@ -13,7 +13,7 @@ summary: FuXi is a fast, self-contained AI coding agent that lives in your termi
   and drive tools, with cost-aware routing across LLM providers.
 first_seen: '2026-08-04T07:32:11Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

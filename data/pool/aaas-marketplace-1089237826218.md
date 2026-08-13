@@ -12,7 +12,7 @@ canonical_url: https://aaas-marketplace-1089237826218.asia-northeast1.run.app
 summary: A marketplace where AI agents buy services from AI agents
 first_seen: '2026-08-12T23:07:32Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -3,11 +3,11 @@ slug: mcp-server
 name: mcp-server
 builder: sv-number
 category: 基础层
-summary_zh: 给 AI agent 配一个真实电话号码，能打能接
-inspiration: agent 要接入现实世界就需要现实世界的身份，电话号码只是第一步
+summary_zh: 给 agent 开电话号码，两百多个国家，验证码自动读回来
+inspiration: agent 要办事就得有身份，而身份的最小单位是手机号——这是条被忽略的生意
 summary_en: ''
-inspiration_en: For an agent to touch the real world it needs a real-world identity. A phone number is
-  only the first one.
+inspiration_en: An agent that gets things done needs an identity, and the smallest unit of identity is
+  a phone number. That is an overlooked business.
 url: https://sms-verification-number.com/en/number-for-ai-agents/
 canonical_url: https://sms-verification-number.com/en/number-for-ai-agents
 summary: 'MCP server for AI agents that need a phone number: order a private number in 200+ countries,
@@ -15,7 +15,7 @@ summary: 'MCP server for AI agents that need a phone number: order a private num
   check it with one API call.'
 first_seen: '2026-08-07T11:13:26Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

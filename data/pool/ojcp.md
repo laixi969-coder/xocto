@@ -12,7 +12,7 @@ canonical_url: https://ojcp.dev
 summary: an open protocol for agent-consumable job data
 first_seen: '2026-08-11T15:07:27Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

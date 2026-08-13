@@ -12,7 +12,7 @@ canonical_url: https://energy-maps.com
 summary: What US households pay for electricity and gas, by state, since 2001
 first_seen: '2026-08-12T12:47:05Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

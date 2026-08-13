@@ -13,7 +13,7 @@ canonical_url: https://pinvou.com
 summary: Open-source desktop AI agent for tools, files, knowledge, workflows, and real deliverables.
 first_seen: '2026-07-24T07:28:41Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

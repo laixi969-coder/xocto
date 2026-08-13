@@ -12,7 +12,7 @@ canonical_url: https://github.com/sarensw/MacPacker
 summary: open-source archive manager for macOS, now edits ZIPs
 first_seen: '2026-08-11T22:04:55Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

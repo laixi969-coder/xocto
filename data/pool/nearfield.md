@@ -12,7 +12,7 @@ canonical_url: https://producthunt.com/products/nearfield
 summary: Turn two or more Studio Displays into stereo speakers
 first_seen: '2026-08-11T14:29:46Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

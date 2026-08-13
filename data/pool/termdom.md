@@ -12,7 +12,7 @@ canonical_url: https://github.com/bikeshaving/termdom
 summary: HTML, CSS and JavaScript (With a Real DOM) for TUIs and CLIs
 first_seen: '2026-08-11T17:55:20Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -16,7 +16,7 @@ summary: Prompt Architect Pro is a Python desktop app that uses local Ollama LLM
   with a ComfyUI node that can use the database
 first_seen: '2026-07-25T05:23:33Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

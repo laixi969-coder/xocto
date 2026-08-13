@@ -12,7 +12,7 @@ canonical_url: https://lifesprites.com/share/0ACA25
 summary: planet alignment, eclipse kit
 first_seen: '2026-08-12T13:39:10Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

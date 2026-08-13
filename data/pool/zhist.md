@@ -12,7 +12,7 @@ canonical_url: https://github.com/overflowy/zhist
 summary: Smarter Shell History for Zsh
 first_seen: '2026-08-12T13:39:49Z'
 last_seen: '2026-08-13T03:25:27Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
