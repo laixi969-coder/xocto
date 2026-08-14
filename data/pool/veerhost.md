@@ -2,17 +2,17 @@
 slug: veerhost
 name: VeerHost
 builder: betterornotss
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 每月1美元的网页托管，名额有限。
+inspiration: 超低价托管策略，可迁移到入门级服务和获客。
+summary_en: $1/month web hosting, limited spots.
+inspiration_en: Ultra-low-cost hosting strategy applies to entry-level services and customer acquisition.
 url: https://veerhost.com/1-dollar-web-hosting/
 canonical_url: https://veerhost.com/1-dollar-web-hosting
 summary: $1/month web hosting, limited spots
 first_seen: '2026-08-14T04:56:44Z'
 last_seen: '2026-08-14T05:03:07Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

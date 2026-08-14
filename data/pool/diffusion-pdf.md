@@ -12,7 +12,7 @@ canonical_url: https://diffusion.alexvd.dev
 summary: A Diffusion Image Model Embedded Entirely in a PDF File
 first_seen: '2026-08-13T13:15:12Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

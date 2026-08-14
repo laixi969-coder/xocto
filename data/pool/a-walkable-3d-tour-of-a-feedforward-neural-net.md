@@ -12,7 +12,7 @@ canonical_url: https://ffnn.vercel.app
 summary: ''
 first_seen: '2026-08-13T13:16:40Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

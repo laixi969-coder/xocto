@@ -2,17 +2,17 @@
 slug: mcp-memory
 name: MCP Memory
 builder: pcbmaker20
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: 使用Google OKF和SQLite FTS5实现快速agent记忆。
+inspiration: 快速记忆机制是agent长期记忆的基石，可迁移到个性化服务。
+summary_en: Fast agent memory using Google's OKF and SQLite FTS5.
+inspiration_en: Fast memory mechanism is foundational for agent long-term memory, applicable to personalization.
 url: https://github.com/fellowgeek/mcp-memory
 canonical_url: https://github.com/fellowgeek/mcp-memory
 summary: Fast Agent Memory Using Google's OKF and SQLite FTS5
 first_seen: '2026-08-13T13:57:47Z'
 last_seen: '2026-08-14T04:47:01Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

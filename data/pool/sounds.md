@@ -2,17 +2,17 @@
 slug: sounds
 name: Sounds
 builder: sigvef
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: 无限放克融合Rhodes即兴片段生成器。
+inspiration: 无限音乐循环生成，可迁移到背景音乐和创意素材生产。
+summary_en: Infinite funk fusion rhodes licks (or any other loop you want).
+inspiration_en: Infinite music loop generation applies to background music and creative asset production.
 url: https://elevenmusic.io/sounds
 canonical_url: https://elevenmusic.io/sounds
 summary: Infinite funk fusion rhodes licks (or any other loop you want)
 first_seen: '2026-08-13T15:26:55Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

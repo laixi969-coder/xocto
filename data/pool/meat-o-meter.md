@@ -12,7 +12,7 @@ canonical_url: https://meat-o-meter.ya-abr97.chatgpt.site
 summary: the internet most generous ruler (18+)
 first_seen: '2026-08-13T14:20:54Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

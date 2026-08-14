@@ -2,17 +2,17 @@
 slug: spritefusion
 name: spritefusion
 builder: HugoDz
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: 生成像素艺术精灵图。
+inspiration: 像素艺术生成可迁移到游戏资产和复古风格设计。
+summary_en: Generating Pixel Art Sprites.
+inspiration_en: Pixel art generation applies to game assets and retro-style design.
 url: https://www.spritefusion.com/pixel-art-gallery
 canonical_url: https://spritefusion.com/pixel-art-gallery
 summary: Generating Pixel Art Sprites
 first_seen: '2026-08-13T15:19:14Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

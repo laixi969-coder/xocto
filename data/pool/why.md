@@ -2,17 +2,17 @@
 slug: why
 name: why
 builder: rasheed106
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: 基于概率模型构建的确定性好奇心图谱。
+inspiration: 好奇心图谱可迁移到知识发现和个性化推荐。
+summary_en: A deterministic curiosity graph built on probabilistic model.
+inspiration_en: Curiosity graph applies to knowledge discovery and personalized recommendation.
 url: https://why.com
 canonical_url: https://why.com
 summary: Why – a deterministic curiosity graph built on probabilistic model
 first_seen: '2026-08-14T02:01:28Z'
 last_seen: '2026-08-14T04:55:56Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:
