@@ -7,19 +7,19 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
-priority_review: true
+priority_review: false
 url: https://github.com/Nagi-ovo/dsh-find-plugins
 canonical_url: https://github.com/Nagi-ovo/dsh-find-plugins
 summary: ''
 first_seen: '2026-08-13T13:11:56Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T06:25:49Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Nagi-ovo/dsh-find-plugins
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T06:25:49Z'
   metrics:
     stars: 58
     forks: 0

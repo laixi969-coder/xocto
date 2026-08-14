@@ -7,19 +7,19 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
-priority_review: true
+priority_review: false
 url: https://op.zseven.tech
 canonical_url: https://op.zseven.tech
 summary: OpenPencil design preview and editing plugin for DSH
 first_seen: '2026-08-12T16:05:11Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T06:25:49Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://op.zseven.tech
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T06:25:49Z'
   metrics:
     stars: 50
     forks: 0

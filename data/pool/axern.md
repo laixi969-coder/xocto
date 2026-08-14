@@ -8,19 +8,19 @@ inspiration: 让 agent 能安全犯错是规模化的前提，安全层通常比
 summary_en: ''
 inspiration_en: Letting agents fail safely is the precondition for scale. The safety layer usually produces
   a winner before the capability layer does.
-priority_review: true
+priority_review: false
 url: https://axern.cofy-x.space
 canonical_url: https://axern.cofy-x.space
 summary: Open-source sandboxes for AI agents, untrusted code execution, and durable services.
 first_seen: '2026-07-28T05:45:33Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T06:25:49Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://axern.cofy-x.space
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T06:25:49Z'
   metrics:
     stars: 264
     forks: 8

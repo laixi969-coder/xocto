@@ -13,16 +13,16 @@ url: https://github.com/miqdadbadjuber/anti-slop
 canonical_url: https://github.com/miqdadbadjuber/anti-slop
 summary: Design rules to stop AI coding agents from generating generic "AI slop" UI.
 first_seen: '2026-08-07T10:29:56Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T06:25:49Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/miqdadbadjuber/anti-slop
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T06:25:49Z'
   metrics:
-    stars: 201
+    stars: 202
     forks: 20
     open_issues: 7
 ---

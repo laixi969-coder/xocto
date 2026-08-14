@@ -7,21 +7,21 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
-priority_review: true
+priority_review: false
 url: https://github.com/Nagi-ovo/dsh-visualize
 canonical_url: https://github.com/Nagi-ovo/dsh-visualize
 summary: DSH 对话内生成式 UI 插件：模型把交互式 HTML 卡片直接画进会话流——visualize 工具 + 配套 skill + 沙箱渲染卡，带流式预览、组件浮入动画与鲸鱼蓝主题跟随
 first_seen: '2026-08-13T13:11:49Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T06:25:49Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Nagi-ovo/dsh-visualize
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T06:25:49Z'
   metrics:
-    stars: 54
+    stars: 55
     forks: 2
     open_issues: 1
 ---
