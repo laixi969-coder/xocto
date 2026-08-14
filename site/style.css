@@ -578,6 +578,7 @@ a:focus-visible, button:focus-visible {
   display: grid; grid-template-columns: minmax(0, 1120px) 200px;
   gap: 72px; align-items: start; padding: 46px 0 60px;
 }
+.report-layout-single { grid-template-columns: minmax(0, 1120px); }
 .report-main { min-width: 0; }
 
 /* 报头：日期只是刊号。标题位置留给当天那句最反直觉的结论。
@@ -595,7 +596,7 @@ a:focus-visible, button:focus-visible {
 .masthead h1 {
   font-family: var(--serif); font-size: clamp(27px, 3.7vw, 44px);
   line-height: 1.24; margin: 0 auto; font-weight: 700;
-  letter-spacing: -.024em; max-width: 25em;
+  letter-spacing: -.024em; max-width: 28em; text-wrap: balance;
 }
 .masthead-date { margin: 20px 0 0; font-size: 14.5px; color: var(--ink-soft); letter-spacing: .04em; }
 
@@ -718,6 +719,18 @@ a:focus-visible, button:focus-visible {
 /* 名字叫 pick-text 而不是 pick-body：后者是首页那个组件的，别撞 */
 .pick-text { margin-top: 14px; max-width: 58em; font-size: 14.5px; line-height: 1.72; color: var(--ink-soft); }
 .pick-text strong { color: var(--ink); font-weight: 600; }
+.pick-card-list {
+  padding: 18px 26px 20px; background: transparent;
+  border-style: dashed;
+}
+.pick-card-list .pick-rank { font-size: 22px; }
+.pick-card-list .pick-card-id h3 { font-size: 17px; }
+.pick-card-list .pick-text {
+  max-width: none; margin-top: 10px; font-size: 14px; line-height: 1.62;
+  columns: 2; column-gap: 42px;
+}
+.pick-card-list .pick-text ul, .pick-card-list .pick-text ol { margin: 0; }
+.pick-card-list .pick-text li { break-inside: avoid; margin-bottom: 5px; }
 .pick-cta {
   display: inline-flex; align-items: center; gap: 7px; margin-top: 22px;
   border: 1px solid var(--ink); border-radius: var(--r-sm); padding: 10px 18px;
@@ -832,6 +845,8 @@ footer .gen { margin-left: auto; font-family: var(--mono); }
   .pick-rank { font-size: 23px; }
   .pick-card-id h3 { font-size: 17px; }
   .pick-lead { font-size: 15.5px; }
+  .pick-card-list { padding: 16px 18px 18px; }
+  .pick-card-list .pick-text { columns: 1; }
 }
 
 @media (prefers-reduced-motion: reduce) {

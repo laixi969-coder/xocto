@@ -21,6 +21,10 @@ class ReportParsingTests(unittest.TestCase):
 ### 其余入选清单
 
 - other：另一项。
+
+### 大厂动作
+
+无。
 """
 
         section = parse_report(report, ZH).sections[0]
@@ -34,6 +38,9 @@ class ReportParsingTests(unittest.TestCase):
         self.assertNotIn("dsh-tui", picks[0].lead)
         self.assertEqual(picks[1].lead, "全屏终端插件。")
         self.assertIn("今天几乎所有候选", section.lead_html)
+        self.assertTrue(picks[-1].is_empty)
+        self.assertTrue(picks[3].is_list)
+        self.assertEqual(section.count_label, "4 个")
 
 
 if __name__ == "__main__":

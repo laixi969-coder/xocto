@@ -26,10 +26,12 @@
     {% if report.doc.intro %}<p class="masthead-lede">{{ report.doc.intro }}</p>{% endif %}
   </header>
 
-  <div class="report-layout">
+  {% set single_section = report.doc.sections | length == 1 %}
+  <div class="report-layout{{ ' report-layout-single' if single_section else '' }}">
     <div class="report-main">
 
       {# 目录：7 个版块的长文，进来先给一张地图，否则读者不知道有多长 #}
+      {% if not single_section %}
       <nav class="toc" aria-label="{{ t.report.toc }}">
         <p class="toc-head">
           <span>{{ t.report.toc }}</span>
@@ -47,6 +49,7 @@
           {% endfor %}
         </ol>
       </nav>
+      {% endif %}
 
       {% for s in report.doc.sections %}
       <section class="sec sec-{{ s.kind }}" id="{{ s.anchor }}">
@@ -61,7 +64,8 @@
           {% if s.lead_html %}<div class="sec-lead prose-body">{{ s.lead_html | safe }}</div>{% endif %}
           <div class="picks-stack">
             {% for p in s.picks %}
-            <article class="pick-card" style="--i: {{ loop.index0 }}">
+            {% if not p.is_empty %}
+            <article class="pick-card{% if p.is_list %} pick-card-list{% endif %}" style="--i: {{ loop.index0 }}">
               <div class="pick-card-head">
                 <span class="pick-rank num">{{ p.rank }}</span>
                 <div class="pick-card-id">
@@ -78,6 +82,7 @@
               {% if p.body_html %}<div class="pick-text prose-body">{{ p.body_html | safe }}</div>{% endif %}
               {% if p.link %}<a class="pick-cta" href="{{ p.link }}">{{ p.link_label }} <span aria-hidden="true">→</span></a>{% endif %}
             </article>
+            {% endif %}
             {% endfor %}
           </div>
         {% else %}
@@ -88,6 +93,8 @@
 
     </div>
 
+    {# 单版块日报没有可定位的章节，侧栏只会重复标题。 #}
+    {% if not single_section %}
     {# 滚动定位条：长文里随时知道自己在第几块，以及往期入口 #}
     <aside class="report-rail" aria-label="{{ t.report.rail_aria }}">
       <p class="rail-k">{{ t.report.rail_now }}</p>
@@ -105,6 +112,7 @@
       </ul>
       {% endif %}
     </aside>
+    {% endif %}
   </div>
 
 </div>

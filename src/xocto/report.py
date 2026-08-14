@@ -58,6 +58,17 @@ class Pick:
     link: str
     link_label: str
 
+    @property
+    def is_empty(self) -> bool:
+        """没有可读内容的占位小节不占用一张卡。"""
+        marker = self.lead.strip().casefold().rstrip("。.!！")
+        return not self.body_html and marker in {"无", "none", "n/a", "暂无"}
+
+    @property
+    def is_list(self) -> bool:
+        """清单型补充信息用更轻的附录版式。"""
+        return self.body_html.lstrip().startswith(("<ul>", "<ol>"))
+
 
 @dataclass(frozen=True)
 class Section:
@@ -303,7 +314,8 @@ def parse_report(md: str, locale: Locale) -> ReportDoc:
             body_html = _markdown(_promote_labels(_RULE_LINE.sub("", rest).strip()))
 
         # 标题里已经写了数量（"今天最值得看的 3 个"）就别再右对齐标一次
-        count = _count_label(rest, kind, len(picks), locale)
+        visible_picks = sum(not pick.is_empty for pick in picks)
+        count = _count_label(rest, kind, visible_picks, locale)
         if count and count.replace(" ", "") in head.replace(" ", ""):
             count = ""
 
