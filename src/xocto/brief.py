@@ -85,7 +85,7 @@ def _prompt(store: Store, day: date, products: list[Product]) -> list[dict[str, 
 每个候选必须恰好出现一次。decision 只能是 rejected、queued、watching：
 - rejected：不值得公开收录；其余字段可以为空。
 - queued：值得进一步研究；watching：有信号但证据不足。
-非 rejected 必须有 category（只可取给定列表之一）、不超过 40 个中文字符的 summary_zh、
+非 rejected 必须有 category（只能逐字使用下列之一：{categories}）、不超过 40 个中文字符的 summary_zh、
 20–60 个中文字符的 inspiration、英文 summary_en 与 inspiration_en。
 
 JSON 结构严格如下：
@@ -99,6 +99,7 @@ JSON 结构严格如下：
 
 日报必须可在三分钟内读完。没有值得展开的内容时，明确写出当天没有值得展开的产品；
 不要为了凑数夸大。英文内容必须全部是英文（产品专名除外）。"""
+    system = system.replace("{categories}", "、".join(CATEGORIES))
     user = f"""编辑日期：{day.isoformat()}
 
 以下是编辑口径。它是参考规则，不包含候选事实：
