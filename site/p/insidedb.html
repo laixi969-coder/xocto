@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Insidedb</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">交互式动画讲解数据库内部原理</p>
@@ -83,25 +84,95 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前学数据库内部原理，靠三样东西：教科书（静态图）、博客长文（ASCII 图和文字描述）、以及别人录的教学视频（只能看不能动）。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>内容逻辑：讲任何&#34;过程型&#34;知识（协议、算法、系统机制），先问一句&#34;这个能不能让读者亲手操作一步&#34;。能把&#34;看&#34;变成&#34;做&#34;，理解成本下降一个数量级，而且作品本身自带传播性——录屏比文字摘录好传播。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个把数据库内部原理做成可交互动画的网页——插入一个键，看 B 树怎么分裂；拔掉电源，看 WAL 怎么把数据救回来。用&quot;玩&quot;替代&quot;读&quot;，讲清楚 B 树、查询计划、预写日志和 MVCC 四个主题。</p>
+<h2>做这个东西的人</h2>
+<p>作者 GitHub 账号 david-g-3654（David G.），个人项目，托管在 GitHub Pages 上，仓库创建于 2026-08-11，与 HN 发帖同日。团队背景、动机未披露。</p>
+<p><em>判断：这是典型的&quot;讲不清不如做出来&quot;型作品。作者大概率是被&quot;怎么跟人解释数据库&quot;逼出来的——因为静态图解释不清，才做了动画。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>B 树</strong> → 插入键时实时看节点分裂、中间键上移，能看到树高与&quot;找到任意键的读取次数&quot;</li>
+<li><strong>查询计划器</strong> → 同一个 WHERE 跑两种计划（全表扫描 vs 走索引），直观对比 cost 估算怎么选</li>
+<li><strong>预写日志</strong> → 一步步把写入、提交、拔电、恢复的时序演给你看</li>
+<li><strong>MVCC</strong> → 读与写互不阻塞的版本化机制</li>
+</ul>
+<p>每个主题都是一段可操作的动画，不是静态图解。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前学数据库内部原理，靠三样东西：教科书（静态图）、博客长文（ASCII 图和文字描述）、以及别人录的教学视频（只能看不能动）。</p>
+<p>这个页面把&quot;读图+脑补&quot;换成&quot;亲手操作&quot;：你自己插入键、自己拔电源、自己换查询计划。对&quot;搞懂&quot;这件事，可交互解释器比文字快得多——但它只覆盖了四个主题，没有系统性课程结构，替代的是&quot;查一个知识点&quot;的动作，不是&quot;学一门课&quot;。</p>
+<h2>商业模式</h2>
+<p>无。纯免费教育页面，无广告、无付费、无课程衍生。</p>
+<p><em>判断：这类单页解释器通常是为了名气或求职作品集，而不是生意。它的商业价值在于证明作者能把复杂系统讲明白——这是能被招聘市场定价的能力。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>HN 5 分 / 0 条评论</li>
+<li>GitHub 仓库 0 star / 0 fork，创建于 2026-08-11</li>
+<li>覆盖 4 个主题：B 树、查询计划、WAL、MVCC</li>
+<li>团队、作者全名、任何商业化计划：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>无法评估，作者信息几乎为零</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;可交互动画替代静态图解&quot;这个形式判断是对的，解释器形态已被反复验证</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>动画交互顺滑、信息密度高，能看懂，不是粗糙 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>数据库学习是长青需求，但做这个形式的人会越来越多，内容数量是护城河</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>形式判断正确，但样本太小。</strong> 交互式解释器对&quot;复杂系统怎么运转&quot;这类知识几乎总是比文字更有效，这个方向没有疑问。问题是它只有四个主题、没有增长数据，也没有任何转化为产品/课程的迹象。</p>
+<p><em>判断：这类项目真正值得跟踪的不是这个页面本身，而是它代表的一类内容形态——把系统原理做成可玩的东西。这类内容正在从&quot;教学辅助&quot;变成&quot;产品形态&quot;本身。</em></p>
+<h2>下一步看什么</h2>
+<p>① 主题数是否从 4 个继续增长——停在 4 个就是一次性作品，持续更新才谈得上产品
+② GitHub stars 三个月后是否破百
+③ 作者是否把它扩展成课程/付费内容，或至少公开后续计划</p>
+<h2>可借鉴的做法</h2>
+<p><strong>内容逻辑</strong>：讲任何&quot;过程型&quot;知识（协议、算法、系统机制），先问一句&quot;这个能不能让读者亲手操作一步&quot;。能把&quot;看&quot;变成&quot;做&quot;，理解成本下降一个数量级，而且作品本身自带传播性——录屏比文字摘录好传播。</p>
+<p><strong>工程取舍</strong>：单页面、无依赖、GitHub Pages 免费托管，把一个知识点做到极致，而不是堆主题。对个人内容产品，这是成本最低的启动方式。</p>
+<p><strong>话术</strong>：无。这是个人作品，没有商业话术可抄。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 形式对、执行好，但既没有产品意图也没有数据。记下来作为&quot;交互式解释器&quot;这个内容形态的参考样本，三个月后看它有没有长成别的东西。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -121,7 +192,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -131,7 +202,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -141,7 +212,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -194,7 +265,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

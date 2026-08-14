@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>phi</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">来自pi的编码agent，支持无限provider、子agent、权限门。</p>
@@ -82,15 +83,117 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>它替代的不是人的工作流，而是同类编码 agent 的三种坏习惯：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：三件可迁移的设计——编辑操作以内容哈希为锚点、失败安全； 工具 schema 不进上下文、按需发现；子任务隔离、只回传摘要。做 agent 类产品时这三条直接可用， 尤其当你的用户用的是便宜模型或长任务场景。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个把&quot;代码编辑可靠性和上下文开销&quot;当一等公民来做的终端编码 agent——
+编辑靠内容哈希锚点而不是整文件重写，子任务隔离跑，工具 schema 不进模型上下文。</p>
+<h2>做这个东西的人</h2>
+<p>pulseaiclub 组织的 Go 项目，自称是另一个终端编码 agent &quot;Pi&quot; 的姊妹项目。
+Pi 是 Mario Zechner 的开源编码 agent，oh-my-pi（omp）是它的知名 fork；
+phi 的 hashline 机制明确标注灵感来自 oh-my-pi。仓库 2026-08-03 建仓，MIT 许可。</p>
+<p><em>判断：一条清晰的基因链——pi → oh-my-pi → phi，都在治同一个病：编码 agent 的编辑格式太脆弱、
+上下文太贵。pulseaiclub 是谁、作者背景，未披露；目前看到的是 11 天内从 0 冲到 v0.9.0 的迭代速度。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>哈希行编辑</strong> → 模型指向&quot;行号 + 该行内容哈希&quot;作为锚点做编辑，锚点过期（文件被动过）直接拒绝；
+不靠全文文本匹配定位，减少过度编辑和静默损坏</li>
+<li><strong>权限门</strong> → 四种模式：interactive（弹确认）、readonly（拒写入）、autopilot（自动放行）、
+headless-strict（自动拒绝，等同只读）；支持按工具配 allow/deny 规则和命令前缀匹配</li>
+<li><strong>隔离子代理</strong> → 子任务在独立 job 里跑，完整过程存在磁盘，只把摘要还给父上下文，避免上下文爆炸</li>
+<li><strong>MCP 零 schema 污染</strong> → 任意数量 MCP 服务器，但工具 schema 从不进模型提示词，
+模型只看到 mcp_list / mcp_inspect / mcp_call 三个元工具，按需发现</li>
+<li><strong>任意模型</strong> → 兼容 OpenAI / Anthropic 接口，无厂商锁定；无 Node/Electron/Python 运行时依赖</li>
+</ul>
+<p><strong>它明确不做</strong>：不做 SaaS、不做托管、不做 IDE 插件——纯终端 + 本地配置文件（~/.phi/config.yaml）。</p>
+<h2>它在替代什么旧行为</h2>
+<p>它替代的不是人的工作流，而是同类编码 agent 的三种坏习惯：</p>
+<ul>
+<li><strong>整文件重写 / 全文文本匹配编辑</strong> → 模型靠&quot;精确复述旧文本&quot;定位修改点，空格或换行一变就匹配失败，
+进入重试循环、狂烧 token；hashline 改成内容哈希锚点，锚过期就安全失败</li>
+<li><strong>把全部 MCP 工具 schema 灌进上下文</strong> → 多数宿主在提问前把每个 tools/list 倾倒进提示词，
+一个浏览器工具栈就能烧掉 5 万 token；phi 只暴露三个元工具，按需发现、懒启动子进程</li>
+<li><strong>子任务污染父上下文</strong> → 传统做法是每一轮推理都塞进父上下文；phi 把子代理隔离在
+~/.phi/jobs 下，父代理只拿摘要</li>
+</ul>
+<p>这三个替换都有一个共同点：把&quot;会犯错的地方&quot;从模型手里收回来，放到确定性的工程机制里。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> MIT 开源，无云服务、无定价页、无托管版本。</p>
+<p><em>判断：终端编码 agent 是公认的&quot;开源引流、企业版变现&quot;品类，但 phi 连企业版影子都还没有。
+它现在的护城河是机制创新，而机制是最容易被抄的东西。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>75 star / 4 fork / 2 open issue</strong>（2026-08-14 抓取），仓库 2026-08-03 建，196 个提交，已到 v0.9.0</li>
+<li>Release 二进制约 12 MB；单会话空闲 RSS 约 21 MB；首帧渲染约 40 ms；冷构建约 5.5 s</li>
+<li>约 2.2 万行 Go / 107 文件 / 32 包，直接依赖仅 6 个模块</li>
+<li>hashline 机制引用 oh-my-pi 的公开基准：token 减少 61%，Grok-4 Fast 编辑成功率 6.7% → 68.3%
+（这是 oh-my-pi 的数据，phi 自己没有发布基准）</li>
+<li>团队人数、用户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>组织匿名，主提交者 yumosx，11 天从 0 到 v0.9 说明执行力和热情，背景未知</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>hashline、权限门、MCP 元工具都是真痛点，尤其&quot;上下文净化&quot;是有工程判断的取舍</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>Go 单二进制、6 个直接依赖、CI 跨平台矩阵、196 commits——扎实，不是 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>终端编码 agent 红海，75 星要出头很难；差异点够硬但机制创新护城河浅</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>值得关注，因为它的三个机制可以拆走单用。</strong>
+对任何做 agent 产品的人，这三件事是低成本高收益的设计决策：
+编辑用内容哈希锚定而不是让模型重打整块；工具能力按需发现而不是全量灌进上下文；
+子任务隔离跑、只回传摘要。</p>
+<p><strong>真正该盯的是机制被复制的速度。</strong> 75 星的项目不可能赢在规模，
+只能赢在&quot;它定义的问题解法是对的&quot;——而一旦被 Claude Code 这类主流工具吸收，
+项目本身的价值就转移到生态，剩下的只有维护成本。</p>
+<p><strong>一个诚实的提醒</strong>：token 减少 61%、编辑成功率十倍这类数字来自 oh-my-pi，不是 phi。
+别把同族项目的成绩当成它的成绩。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月后 star 是否跨过千级、有没有外部项目采用其机制
+② 有没有人独立复刻 hashline 或 MCP 元工具模式（机制被验证的指标）
+③ headless 模式默认拒绝执行是否长期维持（安全态度的指标）</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：三件可迁移的设计——编辑操作以内容哈希为锚点、失败安全；
+工具 schema 不进上下文、按需发现；子任务隔离、只回传摘要。做 agent 类产品时这三条直接可用，
+尤其当你的用户用的是便宜模型或长任务场景。</p>
+<p><strong>话术</strong>：无。它是工程文档。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 机制有增量价值，工程扎实，但处于极早期、无用户证据。
+三个月后拿上面三条回头验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +210,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +220,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +230,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +240,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +293,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

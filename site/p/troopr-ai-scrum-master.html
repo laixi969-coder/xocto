@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Troopr AI Scrum Master</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">从真实工作记录自动写每日站会汇报，还记得团队情况</p>
@@ -82,25 +83,130 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前&#34;知道团队在干嘛&#34;靠一个人类中间人——engineering lead 每天在 Slack 追更新、 把 Jira 和 GitHub 对账、主持一个&#34;主要用来搞清楚状况&#34;的站会。更早一代的 站会机器人（包括 Troopr 自己）是 9 点 ping 大家填表，4 点收到&#34;same as yesterday&#34;。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：任何&#34;汇报/记录&#34;类产品，把数据源从&#34;用户输入&#34;改成 &#34;工具里已有的动作&#34;，让 AI 负责对账（哪里对不上就标出来）—— 比让 AI 润色用户填的表高一个维度。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>站会汇报不用再问&quot;你昨天干嘛了&quot;——AI 从 Jira、GitHub、Slack 的真实动作里
+写出每个人的汇报，说了和数据显示不一致的地方当场标出来。</p>
+<h2>做这个东西的人</h2>
+<p>Rajesh Shanmugam，创始人，Troopr（Troopr Labs）公司。Troopr 是老牌
+Slack 站会/敏捷工具，自称在站会工具上&quot;做了比愿意承认的更久&quot;，
+新发布的 AI 层。2026-08-07 在 发布平台 发布，日榜 #12、106 票。</p>
+<p><em>判断：把上一个时代的失败总结成产品洞察，是这家公司最锋利的地方——
+&quot;机器人从来不是问题，表格才是。站会机器人只是一个跟着你进 Slack 的会议。&quot;</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>自动写站会</strong>：不询问，直接读——昨晚合并的 PR、四天没动的 ticket、
+thread 里有人提到被卡住的信号，给每人写一条 update，发到个人 DM 确认或修改</li>
+<li><strong>现场站会</strong>：加入 Google Meet 听会，产出与实时 Jira/GitHub 交叉核对的报告，
+标出&quot;说了和数据显示不一致&quot;的地方；不是转写稿，是带数据校验的会议纪要</li>
+<li><strong>团队记忆</strong>：学习谁负责什么、&quot;done&quot;对你们团队意味着什么、节奏和反复出现的
+风险；记忆可查看、纠正、删除；不用你的数据训练、不存原始消息</li>
+<li><strong>闭环到 Jira</strong>：基于活动 + 你的编辑 + 会议纪要，提议 Jira 更新，你在 DM 里确认</li>
+<li><strong>模板</strong>：站会 / 复盘 / 计划扑克 / 团队情绪 / Jira issues check-in，
+全部异步运行，可选同步会议模式</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前&quot;知道团队在干嘛&quot;靠一个人类中间人——engineering lead 每天在 Slack 追更新、
+把 Jira 和 GitHub 对账、主持一个&quot;主要用来搞清楚状况&quot;的站会。更早一代的
+站会机器人（包括 Troopr 自己）是 9 点 ping 大家填表，4 点收到&quot;same as yesterday&quot;。</p>
+<p>它替代的是&quot;填表式汇报 + 人工对账&quot;：汇报不再依赖员工输入，直接从工具里的
+真实动作取证——PR 合并了、ticket 卡了四天、有人被卡住，这些是系统里
+已经存在的事实，只是以前没人把它们汇总。创始人点破的洞察是：站会机器人
+只是把会议搬进了 Slack，表格还是那个表格；要从表格转向取证，才叫替代。</p>
+<h2>商业模式</h2>
+<p>SaaS 订阅。发布平台 上线期免费 10 席（上线优惠）；官网显示
+免费档（3 用户起步，免费档 5 活跃用户）+ Standard $63/月（年付，15 活跃用户）</p>
+<ul>
+<li>$29/月每 +10 人。Jira Data Center 需 Standard 及以上。</li>
+</ul>
+<h2>硬数字</h2>
+<ul>
+<li>发布平台 2026-08-07 发布：106 upvotes、15 comments，日榜 #12</li>
+<li>公司自称服务 600+ 工程团队，客户含 Netflix、Snowflake、Wayfair
+（公司口径，未独立验证）</li>
+<li>免费档 5 活跃用户 + 5 自动化；Standard $63/月（15 人）</li>
+<li>竞品：Geekbot、Standuply、DailyBot、Range</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>在站会工具品类里做了多年，吃过上一代&quot;填表机器人&quot;失败的亏，洞察来自亲身教训</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>从&quot;询问&quot;改成&quot;读取&quot;，从员工输入改成工具取证——这是汇报类产品的方向性判断</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>多源（Jira/GitHub/Slack）+ 对账 + 团队记忆，工程复杂度真实存在，未发现独立评测</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>AI 会写代码之后，站会里多了一类贡献者（agent），协调成本上升，时机真实</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;汇报类工作从'你填表'变成'系统替你写'&quot;的最清晰样本。</strong> 三个点值得记：</p>
+<p><strong>一，&quot;读取&quot;替代&quot;询问&quot;是汇报类产品的分水岭。</strong> 不依赖员工输入，直接从
+PR、ticket、thread 取证——&quot;same as yesterday&quot;式汇报失去了存在基础，
+因为系统知道你其实没动。任何做&quot;汇报/记录/周报&quot;产品的人，把数据源从
+&quot;用户输入&quot;改成&quot;工具里已有的动作&quot;，就升了一个维度。</p>
+<p><strong>二，对账能力是真护城河。</strong> 报告与实时 Jira/GitHub 交叉核对、
+标出&quot;说了和数据显示不一致&quot;——这是纯粹的功能深度，是每个 AI 会议纪要工具
+都做不了的事（它们只给一次会议的无背景总结）。&quot;记忆&quot;（团队怎么运转、
+谁负责什么）让每次站会更准，且记忆可查看、可纠正、可删除——
+这是 AI 记忆类产品对用户信任最老实的处理方式。</p>
+<p><strong>三，数据要打折看。</strong> 600+ 团队、Netflix/Snowflake 客户都是公司自报，
+未独立验证；且这是存量工具的一次 AI 翻新，600+ 很可能是站会时代
+积累的存量，而不是 AI 版的新增。</p>
+<h2>下一步看什么</h2>
+<p>① 上线期免费 10 席的转付费比例——免费送得越狠，越要看转化
+② 是否有独立第三方评测验证&quot;对账/标矛盾&quot;功能在真实团队里的误报率——
+标错一次矛盾，团队就再也不信它
+③ 公司能否披露活跃团队数及增长——区分存量客户与 AI 版新增</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：任何&quot;汇报/记录&quot;类产品，把数据源从&quot;用户输入&quot;改成
+&quot;工具里已有的动作&quot;，让 AI 负责对账（哪里对不上就标出来）——
+比让 AI 润色用户填的表高一个维度。</p>
+<p><strong>信任设计</strong>：AI 记住的东西全部可查看、可纠正、可删除，不用用户数据训练——
+这是&quot;记忆&quot;类 AI 产品必须守住的底线，它做到了且写进了发布文案。</p>
+<p><strong>话术</strong>：把旧产品的失败当成新产品的洞察来写（&quot;机器人从来不是问题，
+表格才是&quot;），既有传播力又立住了判断力人设。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 方向对、洞察真实，但它是存量工具的一次 AI 翻新——
+真正的验证点是免费转付费和独立评测，不是发布当天的票数。
+三个月后看这两项。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +226,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +236,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +246,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +299,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

@@ -14,7 +14,7 @@ summary: 解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cl
   + TPS 仪表。npm 一键安装。
 first_seen: '2026-08-13T12:49:31Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

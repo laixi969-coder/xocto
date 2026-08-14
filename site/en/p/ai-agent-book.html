@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>ai-agent-book</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Open textbook on AI agent design principles and engineering practice.</p>
@@ -81,22 +82,156 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Learning agents used to follow three paths, and none of them answered &#34;how does an agent actually work in production&#34;:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: in a fragmented, fast-moving technical category, the biggest opportunity is not another tool but &#34;the textbook that threads the fragments together.&#34; A coordinate system is scarcer than …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An open textbook that turns &quot;how AI agents are actually designed and shipped&quot; from
+folklore into engineering: 10 chapters, 92 runnable experiments, all open source,
+built around one formula: Agent = LLM + context + tools.</p>
+<h2>Who built it</h2>
+<p>Author Bojie Li (GitHub: bojieli): graduated from the USTC gifted
+program, was one of Huawei's first &quot;genius youths&quot; (researcher at Noah's Ark
+Lab), co-founded Logenic AI, and is now Chief Scientist at Pine AI.</p>
+<p>The repo analyzed here is <strong>chemark/ai-agent-book</strong>, a study fork of the
+upstream bojieli/ai-agent-book. chemark's increment is a Japanese translation
+(10 chapters, 135 localized figures, PDF/EPUB build).</p>
+<p><em>Read: the author's path is what gives the book credibility — he did frontier
+research at Huawei and then built startups. This reads like engineering judgment
+from someone who has been burned, not an academic survey. The fork's Japanese
+translation is also a tell: the upstream team treats multilingual distribution as
+a core part of textbook reach.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>10 progressive chapters</strong> → formula basics → context engineering → memory and
+knowledge bases → tools (MCP) → coding agents → evaluation → post-training →
+self-evolution → multimodality → multi-agent collaboration</li>
+<li><strong>92 companion experiments</strong> → categorized as runnable / reproducible / design,
+with per-chapter code in the repo</li>
+<li><strong>Defines vocabulary</strong> → &quot;Harness engineering&quot;: everything outside the model
+(context management, tool design, memory systems, evaluation) is where the
+competitive advantage lives</li>
+<li><strong>Multilingual distribution</strong> → 12 language versions by the official count</li>
+<li><strong>Apache-2.0</strong> → full text, figures, code and PDFs, all free</li>
+</ul>
+<p><strong>What it deliberately is not</strong>: a video course, a framework's docs, or a wrapper
+around any model vendor.</p>
+<h2>What old behavior it replaces</h2>
+<p>Learning agents used to follow three paths, and none of them answered &quot;how does an
+agent actually work in production&quot;:</p>
+<p><strong>Framework docs</strong> — LangChain, CrewAI and AutoGen each have their own APIs, every
+tutorial starts at Hello World and teaches you how to call the API, but not how to
+design memory, how to handle tool-call failures, or how to standardize messages
+across multiple agents.</p>
+<p><strong>Blogs and videos</strong> — scattered, fast-stale, mutually contradictory. You finish
+feeling like you get it, then stall the moment you try to build.</p>
+<p><strong>Learning by burning</strong> — the most expensive route: pick the wrong framework,
+design context badly, lose three months and not know which step was the mistake.</p>
+<p>The book attacks the shared gap: <strong>a systematic, reproducible cognitive framework.</strong>
+It gives the field a common vocabulary (Harness engineering) and a coordinate
+system for arguing about how to build agents.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Pure open source, Apache-2.0, no paid content, no enterprise edition.
+The author's company does not monetize it directly.</p>
+<p><em>Read: the money is elsewhere. Li is Chief Scientist at Pine AI; the book's
+distribution is his recruiting channel and ecosystem-positioning statement. When a
+field moves this fast, whoever writes the textbook defines the vocabulary, and
+that definitional power flows toward the company he belongs to.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Upstream bojieli/ai-agent-book: <strong>30,013 stars</strong> (as of 2026-08-03), with a
+peak of 9,298 stars in one week, #1 on GitHub Trending; 16k stars in the first
+16 days</li>
+<li>10 chapters, 92 experiments; the Chinese PDF is ~428 pages (v1.2)</li>
+<li>12 language versions per the official count; the chemark fork contributes Japanese</li>
+<li>chemark/ai-agent-book: 221 stars / 21 forks (this batch's observation)</li>
+<li>Created 2025-09-09 (upstream)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Exceptional. Genius-youth researcher, startup founder, current AI chief scientist — full chain inside the room</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Caught the &quot;field lacks a systematic textbook&quot; gap and gave readers memory anchors via a formula and Harness engineering</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>92 runnable experiments plus multilingual build chains plus versioned PDFs; far beyond a typical open book</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Precise. The agent boom plus framework fragmentation is exactly when a textbook is most valuable</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is a textbook case of &quot;whoever writes the textbook defines the
+vocabulary.&quot;</strong> The market is not short of tutorials; it is short of a coordinate
+system. One formula (Agent = LLM + context + tools) and the Harness concept give
+the whole conversation an anchor. The star velocity (16k in 16 days) says the need
+is real and widespread.</p>
+<p><strong>The book's judgment holds up too.</strong> Putting the competitive edge outside the
+model — context, tools, memory, evaluation — rather than in the model itself is a
+position largely validated by 2026's agent practice: most people fail at agents
+not because the model is weak.</p>
+<p><strong>But separate the book's influence from its value as a &quot;product.&quot;</strong> It does not
+sell, has no follow-on service, and its value is one-time. Do not watch it for
+revenue; watch whether the vocabulary it invented actually becomes lingua franca —
+and whether the author's company can absorb the attention.</p>
+<h2>What to watch next</h2>
+<p>① Whether the star count holds at five figures in three months — textbook repos
+rise fast and cool fast
+② Whether &quot;Harness engineering&quot; gets cited by papers, job postings, or other
+textbooks — a word is only real when other people use it
+③ Whether Pine AI surfaces public funding or partnership signals enabled by this
+book's reach</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: in a fragmented, fast-moving technical category, the biggest
+opportunity is not another tool but &quot;the textbook that threads the fragments
+together.&quot; A coordinate system is scarcer than a component. Whoever writes the
+book defines the vocabulary; whoever defines the vocabulary captures attention;
+attention is where all downstream monetization starts.</p>
+<p><strong>Positioning language</strong>: anchor the whole book with a one-line formula
+(Agent = LLM + context + tools). If readers remember the formula they remember
+the book. Compress your content to one memorable anchor before piling up chapters.</p>
+<p><strong>Distribution structure</strong>: open textbook plus multilingual translations plus a
+code-experiment pack, binding &quot;read&quot; to &quot;try&quot; and lowering the friction from
+reading to building.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> This is not a product to buy; it is an event that is defining
+industry vocabulary. It validates a transferable path: during a technology boom,
+the textbook is the most underrated influence lever. The star count has proven the
+demand; what remains to verify is whether the vocabulary gets adopted.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -106,7 +241,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +251,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +261,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +271,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ShenNongMi</span>
             <span class="row-desc">Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 103</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 103</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +324,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

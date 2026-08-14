@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Click</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Live research context for ChatGPT and Claude</p>
@@ -81,25 +82,131 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>External research with an agent used to hit two dead ends: built-in web search is too shallow to reach LinkedIn, professional platforms, or marketplaces — the agent either fluffs or hallucinates; or t…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when adding &#34;present-tense context&#34; to an AI product, find the seam where built-in search cannot reach and login state is required (LinkedIn, transactional data, ticketing) — that is mo…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An MCP connector layer you install into ChatGPT, Claude, or Codex: it feeds agents the live
+context that built-in web search misses — LinkedIn lead data, competitor ad campaigns, social
+sentiment, live flight fares — without you leaving the chat window for the browser.</p>
+<h2>Who built it</h2>
+<p>Aditya (ProductHunt handle <code>adiasg</code>; his YC Launch page says he &quot;previously helped build
+Ethereum&quot;). No public site or pricing page; launched through ProductHunt and YC Launches.</p>
+<p><em>Note: the pool entry credits Garry Tan as builder, but the product page and launch materials
+identify the author as Aditya and no source ties it to Garry Tan; the record is corrected here
+to match the product page.</em></p>
+<p><em>Read: an Ethereum alumnus building the data layer for the AI chat surface is consistent — he
+believes the chat interface is the next application platform and is building the missing
+infrastructure for it. That background means patience for protocol/connector work, but early
+commercial validation is not his comfort zone.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Gives agents data that lives behind logins</strong> → LinkedIn lead research and enrichment,
+competitor ad-campaign analysis, cross-platform social sentiment, trip planning with live fares</li>
+<li><strong>One-time install</strong> → a single MCP server into ChatGPT or Claude, roughly one minute, then
+usable directly in chat</li>
+<li><strong>Domain-by-domain roadmap</strong> → per the author, &quot;one trusted service at a time, research
+first,&quot; with connectors to be added category by category</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no browser automation, and no touching your logged-in
+browser session — the author explicitly dislikes agents operating a logged-in browser — it goes
+through provider APIs instead.</p>
+<h2>What old behavior it replaces</h2>
+<p>External research with an agent used to hit two dead ends: built-in web search is too shallow
+to reach LinkedIn, professional platforms, or marketplaces — the agent either fluffs or
+hallucinates; or the agent asks to drive a logged-in browser, which means either handing over
+your session (a security smell) or doing the search yourself and pasting results back. The
+heaviest step stayed with the human.</p>
+<p>Click replaces the act of <strong>leaving the chat for one piece of context</strong>: finding a lead on
+LinkedIn, comparing prices, checking a competitor's spend — previously a person stepped out of
+the chat to work; now the agent reaches the data source directly from inside the conversation.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> No pricing page, no public plans — just ProductHunt and YC launch pages.</p>
+<p><em>Read: MCP connectors are hard to charge for on their own — install is free, data sources bill
+per call, so the real model is probably &quot;connectors free, premium data subscription.&quot; The
+&quot;one trusted service at a time&quot; route only works once a connector becomes indispensable, and
+none has been proven yet.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Users, installs, ARR, funding: not disclosed</li>
+<li>Channels: ProductHunt (launched this week) and YC Launches</li>
+<li>Team: solo (per the author)</li>
+<li>Price: none</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Heavy Codex/Claude user; the pain (built-in search can't reach behind login walls) is specific and credible</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Spotted the gap between built-in web search and the real web, and chose the right delivery form — MCP, not a new client</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Light one-minute install; but the connector set is small and no verifiable implementation detail is public</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>MCP just became the standard, so this is the connector window; but the lane is crowded (Perplexity, Exa, others sell context too)</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Right direction, early small player in the &quot;selling context&quot; lane — too soon to call.</strong></p>
+<p>The insight is real: general models lack present-tense context, not capability, and built-in
+search is both shallow and walled off. &quot;Connectors for the agent&quot; is a much lighter, more
+startable business than building the model.</p>
+<p><strong>Two questions remain unanswered.</strong> Moat: a connector has no inherent barrier — any data
+provider can ship its own MCP. And the pay point: research is a low-frequency need, and users
+may not pay separately for &quot;look things up in chat.&quot; The &quot;trusted service&quot; route only holds once
+one connector becomes indispensable — no evidence of that yet.</p>
+<h2>What to watch next</h2>
+<p>① Whether the connector count and categories grow in three months (research-only today) — a
+single use case won't carry a subscription
+② Whether pricing and paid-user numbers ever go public — a product without a revenue model
+doesn't matter at this stage
+③ Whether any third party reviews or a public customer adopts the LinkedIn connector specifically</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when adding &quot;present-tense context&quot; to an AI product, find the seam where
+built-in search cannot reach and login state is required (LinkedIn, transactional data,
+ticketing) — that is more clever than another general search enhancement, because the majors
+will own generic search and the seam is where you can win.</p>
+<p><strong>Positioning language</strong>: &quot;The context that built-in web search misses.&quot; Defining your existence
+by what they <em>can't</em> reach beats claiming &quot;we have more data.&quot;</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Real insight, light direction, credible founder — but zero data, zero pricing, a
+single feature, and an unvalidated business model. File it as a sample of the MCP-connector
+lane and revisit when pricing and paid usage exist.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +226,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +236,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +246,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +299,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

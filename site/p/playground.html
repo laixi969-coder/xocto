@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>playground</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">开源的红队演练场，用公开提示词攻击 AI agent</p>
@@ -83,18 +84,112 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前测一个 agent 的防护，靠三条路：内部安全团队自己测（视角固定，容易遗漏）、 外包给红队/渗透测试公司（贵、周期长、通常几万到几十万美元）、或者用自动化 扫描工具（对&#34;看似正常但意图越界&#34;的语义攻击基本无效）。 playground 的替代思路是：把测试成本转嫁给一群有动力的人——奖金 + 名气， 你只需要把攻击结果沉淀下来。这是安全测试从&#34;雇人&#34;走向&#34;众包&#34;的一次试验。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你在做一个社区/平台型产品，参考这个&#34;把复杂任务外包给 有动力的人群&#34;的机制——任务要具体（守一个秘密）、信息要透明（系统提示词公开）、 成果要沉淀（实录归档）。三者缺一，众包就退化成有奖答题。 另一个可抄的点：自用工具开源当获客入口，同时它本身就是最好的信任声明。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把 AI agent 的红队测试做成每周一场的公开挑战赛：放一个带真实工具的活 agent
+上场守秘密，系统提示词全公开，谁攻破谁赢，赢家的完整攻击实录公开展示。</p>
+<h2>做这个东西的人</h2>
+<p>Fabraix，一家做 AI agent 运行时安全（runtime security）的公司。playground 原本是
+他们内部测试自家 guardrails 的工具，因为&quot;自己人想攻击的角度总是那一套&quot;，干脆开源成
+公开挑战场。仓库挂在 github.com/fabraix/playground，HN 发布者 zachdotai 是团队成员。</p>
+<p><em>判断：安全公司开源一个攻击工具，既是为了攒社区攻击数据，也是在给自家产品做
+叙事——&quot;连我们的 playground 都公开了，说明我们不怕被审视&quot;。获客动机和真实需求
+在这里是同一件事。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>每周一场活体挑战</strong> → 部署一个带真实工具的 agent（web search、浏览等），
+给它一个要保护的秘密，系统提示词完全公开，社区尝试攻破</li>
+<li><strong>社区驱动选题</strong> → 任何人可以提案挑战场景，社区投票，高票的进入上线候选</li>
+<li><strong>实录公开</strong> → 挑战结束后，赢家的完整对话和 guardrail 日志全部公开归档，
+每次攻击都被变成可学习的安全样本</li>
+<li><strong>规则评估在服务端</strong> → guardrail 判定跑在服务端，防止前端篡改；agent runtime
+将单独开源</li>
+<li><strong>本地可跑</strong> → React 前端 + 版本化的挑战配置，npm install 即可在本地起开发环境</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前测一个 agent 的防护，靠三条路：内部安全团队自己测（视角固定，容易遗漏）、
+外包给红队/渗透测试公司（贵、周期长、通常几万到几十万美元）、或者用自动化
+扫描工具（对&quot;看似正常但意图越界&quot;的语义攻击基本无效）。
+playground 的替代思路是：把测试成本转嫁给一群有动力的人——奖金 + 名气，
+你只需要把攻击结果沉淀下来。这是安全测试从&quot;雇人&quot;走向&quot;众包&quot;的一次试验。</p>
+<h2>商业模式</h2>
+<p><strong>playground 本身开源免费，Fabraix 的收入靠商业安全产品。</strong> 公司定位是
+&quot;为 AI agent 提供运行时安全&quot;，具体产品形态和定价未公开。</p>
+<p><em>判断：公开挑战赛是获客和建立信任的工具，不是生意本身。它的真正资产是
+积累下来的攻击实录库——那是任何内部团队靠预算都难攒出来的数据。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>73 star / 11 fork</strong>，仓库 2026-02-07 建，MIT 许可，TypeScript</li>
+<li>HN 发布一度 30 分（池内记录为 13 分），13+ 条评论，讨论质量高</li>
+<li>第一场挑战：让 agent 调用&quot;被明令禁止调用&quot;的工具，有人约 60 秒攻破；
+第二场转向数据外泄场景</li>
+<li>有报道称每周挑战奖金总额超十万美元，但 Fabraix 官方发布未提及奖金细节，未证实</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>自用工具开源，团队天天被 agent 安全咬，痛点就是本职</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;公开 system prompt + 实录公开&quot;把攻击变成可积累的资产，比攒 star 有价值得多</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>服务端判定防篡改、挑战配置版本化、agent runtime 单独开源，架构考虑到了公测环境</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>agent 开始进生产环境，但企业还没有普遍的安全预算；早了半步，方向正确</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>值得关注，因为它在造别人造不出的数据。</strong> 攻击实录 + guardrail 日志的公开库，
+是这个项目最值钱的东西——安全行业的护城河向来是&quot;见过足够多的攻击&quot;。
+众包模式让 Fabraix 用很少的钱获得持续的攻击样本流，同时每一篇公开实录
+都在替它做市场教育。</p>
+<p><strong>要注意它的克制是否可持续。</strong> 挑战的&quot;守秘密&quot;设定是可控场景，
+与真实生产 agent（有大量工具、长期记忆、用户身份）的差距很大。
+它在验证&quot;公开攻击测试能不能发现真问题&quot;，但离&quot;验证完就安全&quot;还很远。</p>
+<h2>下一步看什么</h2>
+<p>① 挑战发布频率和实录库的积累量——三个月后公开实录是否稳定增长
+② 奖金机制是否兑现、是否真能持续吸引高水平攻击者（未被官方证实的十万美元周奖金是疑点）
+③ Fabraix 商业产品是否有人买单、playground 是否只是获客工具</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果你在做一个社区/平台型产品，参考这个&quot;把复杂任务外包给
+有动力的人群&quot;的机制——任务要具体（守一个秘密）、信息要透明（系统提示词公开）、
+成果要沉淀（实录归档）。三者缺一，众包就退化成有奖答题。
+另一个可抄的点：自用工具开源当获客入口，同时它本身就是最好的信任声明。</p>
+<p><strong>话术</strong>：无。工程发布文案，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 机制有真实价值（公开实录 = 别人攒不出的数据），团队诚实
+（连 LLM-as-a-judge 被攻破的实录都公开）。但要持续跟踪它是否只是营销引擎，
+以及奖金叙事能否兑现。三个月后看上面三条。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -105,6 +200,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -126,22 +231,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -194,7 +289,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

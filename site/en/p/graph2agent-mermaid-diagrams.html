@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Graph2agent; Mermaid diagrams</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">explained for agents</p>
@@ -82,18 +83,89 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Getting an agent to implement from a diagram used to mean one of two things: paste the raw Mermaid source (the agent must reverse-engineer nodes, branches, and topology from compact syntax, and often …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when feeding context to agents, &#34;make implicit structure explicit&#34; beats &#34;feed more raw text&#34; — his data: +8% input, −46% reasoning. When building agent tools, cut the agent&#39;s reverse-e…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Translates Mermaid diagrams into explicit text agents can read: humans look at the picture, agents read structured prose, with no model inference in between — purely deterministic conversion.</p>
+<h2>Who built it</h2>
+<p>Author alexandroskyr, posted as a Show HN. Backstory: while building a large high-performance service, he kept specs in Mermaid diagrams to keep context small for humans; people could follow the diagrams, but when he asked agents to implement what was in them, it mostly failed. His conclusion: &quot;agents are good at writing Mermaid diagrams but not good at reading them.&quot;</p>
+<p><em>Read: a classic case of being bitten by the problem in a real project. The pain is specific and reproducible — not a tool built before finding a scenario.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Deterministic conversion</strong> → no model call; expands Mermaid's elements, connections, branches, order, topology, and even &quot;what the diagram does not prove&quot; into explicit text</li>
+<li><strong>Four launch surfaces</strong> → CLI (brew / Debian packages), MCP server (one-command npx), GitHub Action (required check before a PR merges), and a maintenance bot (changes only generated Markdown context)</li>
+<li><strong>Measured effect</strong> → on a frozen paired benchmark of 330 private contracts: exact comprehension 63.3%→81.8% (failures 121→60); +8% input tokens, −46% reasoning tokens</li>
+<li><strong>Explicit limits</strong> → the &quot;evidence boundary&quot; is documented more carefully than the features: layout direction doesn't declare execution order, missing links aren't forbidden, color and styling are presentation unless labeled as contract semantics</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Getting an agent to implement from a diagram used to mean one of two things: paste the raw Mermaid source (the agent must reverse-engineer nodes, branches, and topology from compact syntax, and often gets it wrong), or manually translate the diagram into prose for the agent (slow, and the translation itself introduces errors).</p>
+<p>graph2agent replaces the second — <strong>handing the &quot;human reads the diagram, then explains it to the agent&quot; translation job to a deterministic compiler</strong> — and can sit in CI so every diagram in every PR is agent-ready.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> Apache-2.0; CLI/MCP/Action are all free; no cloud service, no subscription.</p>
+<p><em>Read: the commercialization path for a tool like this is becoming the standard — if it becomes the default format for &quot;diagrams for agents,&quot; a hosted or team tier could follow. For now it is still proving value.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Show HN: <strong>6 points, 1 comment</strong> (very low heat)</li>
+<li>GitHub (graph2agent/graph2agent): 1 star, Apache-2.0, created 2026-08-09</li>
+<li>Already at v0.4.0, with four surfaces (CLI/Action/Homebrew/MCP) in sync</li>
+<li>Core measurement: +18.48 percentage points exact comprehension (330 contracts), −46% reasoning tokens</li>
+<li>Team, revenue: solo project, not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The author was bitten by this problem repeatedly in a large project</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Documenting the evidence boundary more carefully than the features shows he understands the mechanism of agent errors</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>v0.4.0, four surfaces shipped in sync, with benchmark data — far beyond the HN average in completeness</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Mermaid-as-specification for agents is becoming a trend; a deterministic translation layer sits at a sensible position</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>An &quot;idea right, numbers good, market unproven&quot; project.</strong> Its measurement methodology (frozen paired benchmark, 330 private contracts, exact comprehension) is more honest than most — it even states &quot;this benchmark doesn't prove generalization.&quot; That is its most worth-learning aspect.</p>
+<p><strong>The problem is distribution.</strong> Six points on HN means it hasn't found its viral sentence. &quot;Getting agents to read diagrams&quot; sounds like a niche engineering trick, not &quot;half the rework saved.&quot; The author proved efficacy at the engineering level but hasn't proven anyone cares at the distribution level.</p>
+<p><strong>The bet</strong>: agent input isn't just prompt text; it includes diagrams, tables, and specs. If &quot;the diagram is the agent's specification language&quot; holds, a deterministic translation layer like this becomes infrastructure — but the &quot;if&quot; hasn't happened yet.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars pass 100 in three months (currently 1; HN didn't carry it — watch for other channels)
+② Whether graph2agent-mcp's npm downloads keep growing (MCP is its most likely adoption surface)
+③ Whether a well-known repo makes its GitHub Action a required PR check — that's the real adoption signal</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when feeding context to agents, &quot;make implicit structure explicit&quot; beats &quot;feed more raw text&quot; — his data: +8% input, −46% reasoning. When building agent tools, cut the agent's reverse-engineering burden instead of stacking tokens.</p>
+<p><strong>Engineering practice</strong>: write an evidence boundary for your own tool — state what the benchmark covers, what it doesn't, and what conclusions can't be drawn. This builds trust directly and suits any developer claiming improvement data.</p>
+<p><strong>Positioning language</strong>: none. Its HN title was too technical — which is itself the lesson: a tool needs one shareable sentence.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Solid engineering, honest measurement, and a sound direction (deterministic translation layer), but distribution and heat haven't materialized and there's only one anecdotal case. Note it and check stars and MCP downloads in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -104,6 +176,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +207,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +265,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

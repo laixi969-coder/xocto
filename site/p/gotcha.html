@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Gotcha</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">安卓上的语音助手，说一句它去操作</p>
@@ -82,25 +83,99 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>手机上&#34;说了就做&#34;以前只有几种实现方式：Google Assistant/Siri 的有限动作集（只覆盖系统级少数操作，不能跨 App 深链）；各类&#34;语音命令&#34;App（只能触发预设动作）；以及人肉操作——解锁、开 App、点几下、粘贴文字。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：给&#34;高风险自动化&#34;设计产品时，把安全模式做成产品功能（只读/可执行两档 + 审计日志），而不是藏在设置里。让用户先放心地试，再决定放权，这比任何权限弹窗文案都有效。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>安卓上的开源&quot;手机副驾驶&quot;：你说一句话，它直接在你的手机上操作——发短信、开应用、调音量、跑 Termux 脚本——而不是只回你一段文字。</p>
+<h2>做这个东西的人</h2>
+<p>Rishabh Bajpai 和一位联合创始人。发布帖里的触发点是：他们发现&quot;几乎所有移动端 AI 助手都只是个套了漂亮 UI 的文本框——你问它，它打字回你，然后你还是得自己打开日历、自己复制粘贴、自己操作&quot;。他们想做一个真正能&quot;动手&quot;的本地 AI。开源协议 AGPL-3.0。</p>
+<p><em>判断：这是对&quot;移动 AI 只会聊天&quot;这个痛点的一个直接回应，切入角度是本地执行 + 开源，避开和大厂云端助手正面竞争。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>自然语言操控手机</strong> → 超过 100 个设备工具：通话、短信、联系人、日历、闹钟、文件、应用、定位、相机、通知、屏幕自动化、设备管理、root 操作</li>
+<li><strong>自主循环</strong> → plan → execute → observe → adapt，看屏幕和终端输出理解上下文再行动</li>
+<li><strong>UI 自动化</strong> → 通过 Android 无障碍服务像人一样点击、填表、滑动；还能在 Termux 里跑 bash/Python/git/curl</li>
+<li><strong>双安全模式</strong> → Monitor（只读，只查看和规划）和 Operator（可执行）。破坏性操作和对外发邮件要确认；危险 shell 命令被拦截；操作有追加式审计日志</li>
+<li><strong>跨应用悬浮球</strong> → 在任何 App 上悬浮，按住说话，用当前屏幕上下文操作</li>
+<li><strong>自带模型</strong> → 可接本地 LLM（Ollama、LM Studio、llama.cpp 的 Qwen 2.5）或云端（Gemini、Groq、OpenAI）；免费起步额度由 Samosa AIR 代理提供</li>
+<li><strong>生态集成</strong> → Home Assistant、Notion、联系人、短信、健康数据等</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>手机上&quot;说了就做&quot;以前只有几种实现方式：Google Assistant/Siri 的有限动作集（只覆盖系统级少数操作，不能跨 App 深链）；各类&quot;语音命令&quot;App（只能触发预设动作）；以及人肉操作——解锁、开 App、点几下、粘贴文字。</p>
+<p>Gotcha 想替代的是中间这一整段：把一个&quot;能看屏幕、能点界面、能跑脚本、能跨应用&quot;的代理装在手机里。同类竞争对象包括 Rabbit R1 这类硬件（贵、要买设备）和云端 Phone Agent（数据要出机）。Gotcha 的关键卖点是<strong>本地执行、数据不出机</strong>。</p>
+<h2>商业模式</h2>
+<p><strong>免费开源（AGPL-3.0），APK 从 GitHub Releases 侧载安装</strong>。模型按&quot;自带&quot;原则：用户自己接 LLM，可能产生模型提供方的费用；Samosa AIR 提供免费起步额度，一个代理由此获得导流入口。</p>
+<p><em>判断：短期没有直接收入。真正的商业化路径要么是后续的托管或 Pro 层，要么是把 Samosa AIR 这个代理路由器转成模型转售。开源项目用免费额度导流到自家 API，是当前常见打法。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>PH 发布（2026-08-11）：<strong>95 upvote、3 条评论、当日 #15</strong></li>
+<li>GitHub（samosa-ai-com/Gotcha）：9 star，新建</li>
+<li>100+ 设备工具，9 种语言唤醒词</li>
+<li>要求 Android 11+，侧载 APK</li>
+<li>用户数、DAU：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高。他们自己是被&quot;移动 AI 只聊天&quot;逼疯的那类人</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>把安全分层（Monitor/Operator + 审计日志）当核心功能设计，这在早期产品里少见</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>早期 APK，作者自己请求测试者上报各品牌 ROM 的兼容性问题，还需要时间证明</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>手机端 agent 是公认的下一波，但竞品（厂商内置、云端 agent）都更强壮</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>它赌的是&quot;本地执行&quot;这个差异化能不能站住。</strong> 云端 agent（数据上云）有权限和隐私的天然阻力；厂商内置助手（如 Google Assistant）能力有限且不跨应用。Gotcha 用开源 + 本地 + 自带模型，正好吃&quot;隐私敏感的技术用户&quot;这一批人。这个定位是真实的，问题在于它太小了。</p>
+<p><strong>更大的变量是 OEM 碎片化。</strong> 无障碍服务、后台限制、权限弹窗在各家 ROM 上行为不同，作者自己也把&quot;Pixel/Samsung/小米的差异&quot;列为要重点反馈的问题。这类工具最怕的不是模型不行，而是&quot;在别人的手机上跑不灵&quot;。</p>
+<p><strong>命名撞车与竞争风险</strong>：市面上已有多个叫 Gotcha 的产品，且&quot;手机 AI 副驾驶&quot;赛道很快会有大厂下场。它需要用工程速度和技术社区口碑换时间。</p>
+<h2>下一步看什么</h2>
+<p>① GitHub star 三个月内能否过百——开源工具的真实热度信号
+② 是否有用户分享&quot;跨 App 复杂任务成功执行&quot;的案例，而不只是演示视频
+③ Samosa AIR 的免费额度策略是否转成明确付费层——决定它是不是真生意</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：给&quot;高风险自动化&quot;设计产品时，把安全模式做成产品功能（只读/可执行两档 + 审计日志），而不是藏在设置里。让用户先放心地试，再决定放权，这比任何权限弹窗文案都有效。</p>
+<p><strong>定位语</strong>：&quot;你说话，它操作&quot;（You talk. It acts.）用四个词把&quot;聊天 AI&quot;和&quot;行动 AI&quot;划开——这是这个产品最值得抄的一句话。</p>
+<p><strong>分发</strong>：开源 + 侧载 + 自带模型，把分发成本和云成本同时甩给生态，换取&quot;完全免费&quot;的传播点。对需要建立信任的底层工具，这个打法值得学。</p>
+<h2>结论</h2>
+<p><strong>值得关注，但还在极早期。</strong> 方向对、安全设计认真、发布热度真实（PH 当日 #15），但代码刚放出、用户量可忽略、OEM 兼容性未知。记下来，三个月后看上面三条。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +195,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +205,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +215,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +268,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

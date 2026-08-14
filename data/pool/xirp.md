@@ -8,12 +8,13 @@ inspiration: 大公司内部工具外放是一条低成本验证路径，用户�
 summary_en: ''
 inspiration_en: Releasing an internal tool is a cheap validation path, and it starts with more trust than
   a cold launch ever gets.
+priority_review: false
 url: https://www.producthunt.com/products/spotify
 canonical_url: https://producthunt.com/products/spotify
 summary: The agentic development environment built by Spotify
 first_seen: '2026-08-11T04:39:44Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

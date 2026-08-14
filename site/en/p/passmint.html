@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>passmint</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Issue Apple and Google wallet passes from Node.js</p>
@@ -81,25 +82,122 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Supporting both Apple and Google Wallet used to mean maintaining two generation paths: hand-built .pkpass with manifest and signature (usually node-forge / node:crypto) on the Apple side, and a separa…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for anything that must run in constrained environments, turn &#34;zero external dependencies&#34; into a CI-enforced gate instead of a promise. passmint&#39;s bundle-guard fails the build on any vi…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A Node library that issues Apple and Google Wallet passes from any edge runtime — the same pass
+data produces a signed <code>.pkpass</code> for iOS and a save-link JWT for Android, without any Node
+built-ins.</p>
+<h2>Who built it</h2>
+<p>alexpate (Alex Pate), an independent developer long embedded in the JS/TypeScript/edge-computing
+world, with prior work near the Pusher and StackBlitz ecosystems. The repo lives under the
+getpassmint organization, and there is also passmint.com plus an npm package <code>@passmint/node</code>
+(&quot;official Node SDK for the Passmint API&quot;) — the latter hinting at a hosted API service behind it.</p>
+<p><em>Read: when a solo developer ships a library first, the usual plan is to charge for a hosted
+service later. The library is the funnel and the trust-builder.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>One schema, two wallets</strong> → after <code>Pass.eventTicket({...}).build()</code>, <code>sign(apple)</code> yields
+<code>.pkpass</code> bytes and <code>toGoogleSaveLink(google)</code> yields a Google Wallet save-link JWT</li>
+<li><strong>Edge-native</strong> → zero <code>node:*</code> imports, Web Crypto only; runs on Cloudflare Workers, Vercel
+Edge, Deno, Bun, Supabase Edge, Netlify Edge, and Node 20+</li>
+<li><strong>Engineering guardrails</strong> → ~21 KB gzipped, strict TypeScript, Valibot discriminated unions,
+typed error hierarchy; CI includes a bundle-guard that fails the build on any <code>node:*</code> import</li>
+<li><strong>Common pass styles</strong> → event tickets plus the usual Apple/Google pass families (exact
+coverage not fully verified)</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Supporting both Apple and Google Wallet used to mean maintaining two generation paths: hand-built
+<code>.pkpass</code> with manifest and signature (usually node-forge / node:crypto) on the Apple side, and a
+separately constructed JWT on the Google side. Worse, those Node built-ins do not exist in edge
+runtimes, so teams ended up running a dedicated &quot;pass issuance&quot; microservice on traditional Node.
+passmint replaces both &quot;two logic paths&quot; and &quot;a special service that only runs in classic
+environments.&quot;</p>
+<h2>Business model</h2>
+<p><strong>Library is MIT open source; a hosted service is hinted at but undisclosed.</strong> passmint.com is set
+as the repo homepage and an &quot;official SDK for the Passmint API&quot; exists on npm, but pricing and
+launch status are not public.</p>
+<p><em>Read: pass issuance is a low-frequency operation, hard to scale on per-call fees. A real business
+would have to come from batch issuance or pass-update pushes; otherwise this stays a personal
+technical showcase.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>4 stars, 1 fork.</strong> Created 2026-04-15, officially pre-1.0 alpha</li>
+<li>119 commits, 7 branches, 8 tags, last commit 2026-07-27; npm <code>passmint</code> 0.1.0 published ~3 weeks ago</li>
+<li>5 points on HN, 0 comments</li>
+<li>No users, no revenue data</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Author lives in the JS/edge ecosystem, so the pain is real; it is a personal project, energy and patience ride on one person</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Spotting &quot;edge runtimes also need to issue passes&quot; is right, and the one-schema-two-wallets abstraction is correct</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Proper engineering — Web Crypto only, bundle guard, publint/attw, changesets releases. Not a demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Wallet passes as a channel are warming up, but the issuing library itself is a low-moat small market; the hosted API is the real battlefield</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Good engineering, tiny market, and today it is still just a business card.</strong> Four stars means no
+one has really trusted it yet, and a pre-1.0 API scares off early adopters. The technical choices
+(zero Node built-ins, edge-first) are exactly right for its audience, but issuing wallet passes is
+not a high-frequency need, and a library alone is unlikely to grow paying intent.</p>
+<p><strong>Watch whether the hosted API lands and how it is priced.</strong> The library is the hook; the service
+is the business. If passmint.com never ships a paid offering, this stays a demonstration of the
+author's craft.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars cross 100 in three months and whether any third-party repo actually depends on it
+② Whether the passmint.com hosted API launches and how it is priced — the real demand test
+③ Whether it leaves pre-1.0 and the API stabilizes</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for anything that must run in constrained environments, turn &quot;zero external
+dependencies&quot; into a CI-enforced gate instead of a promise. passmint's bundle-guard fails the
+build on any violating import, converting compatibility from &quot;hope&quot; into &quot;requirement.&quot; Copy that
+idea for your own multi-runtime library.</p>
+<p><strong>Positioning language</strong>: none. Engineering documentation; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Solid engineering fundamentals, but no users, no revenue, and no hosted service on
+the ground. For now it is a business card for the author. The three checks above are your
+three-month re-evaluation.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +217,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +227,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +237,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +290,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

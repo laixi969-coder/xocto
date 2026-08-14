@@ -13,7 +13,7 @@ canonical_url: https://deepseek.com/harness
 summary: 'DeepSeek Harness: Everything is a Plugin.'
 first_seen: '2026-08-13T11:56:32Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

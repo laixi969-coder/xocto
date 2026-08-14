@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>MCP Memory</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">使用Google OKF和SQLite FTS5实现快速agent记忆。</p>
@@ -82,18 +83,113 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>现在 agent 的&#34;记忆&#34;有三个不成文方案，都有硬伤。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：做 agent 记忆类功能时，先做&#34;人可读、可审查&#34;的明文存储，再用索引加速， 不要一上来就上向量库。可审计性在 agent 记忆上比检索质量更稀缺。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给 agent 装一块持久记忆：把要记住的东西写成符合 Google OKF 规范、带元数据的 Markdown 文件
+（人能读、能 diff、能 git 管理），同时建一个 SQLite FTS5 索引（agent 能秒查）。</p>
+<h2>做这个东西的人</h2>
+<p>fellowgeek（作者 pcbmaker20）的个人项目，MIT 许可，2026-08-13 首次提交。</p>
+<p><em>判断：一个人一天内搭出来的东西，能在 HN 拿到 58 分、35 条评论、repo 当天涨到 124 star，
+说明他踩对了时间点——OKF 是 Google 六月中旬刚发布的规范，这是第一个把 OKF 和 MCP 记忆
+结合得像样的实现。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>存</strong> → <code>memory_store</code>：把一段记忆写成 OKF v0.2 文档（YAML frontmatter 带
+type/key/namespace/tags/sources/verified/stale_after），落到项目目录的 <code>memory/</code> 下</li>
+<li><strong>取</strong> → <code>memory_retrieve</code>：按 key 精确取回</li>
+<li><strong>搜</strong> → <code>memory_search</code>：SQLite FTS5 全文检索加 tag/namespace 过滤，宣称 key 查询 &lt;20ms</li>
+<li><strong>会话续接</strong> → <code>memory_get_last</code> / <code>memory_update_last</code>：跨会话记录&quot;上次干到哪&quot;，session
+开始先恢复断点</li>
+<li><strong>免配置</strong> → <code>setup.py</code> 一键注册到 Antigravity / Claude / Cursor / Windsurf / Codex</li>
+</ul>
+<p><strong>双层设计是关键</strong>：数据主体是纯 Markdown 文件（可读、可审查、可版本管理），SQLite 只是
+加速索引。这跟&quot;向量库存二进制&quot;的路线相反——先保证人能看懂。</p>
+<h2>它在替代什么旧行为</h2>
+<p>现在 agent 的&quot;记忆&quot;有三个不成文方案，都有硬伤。</p>
+<p>一是 CLAUDE.md / AGENTS.md 这类手工维护的项目说明文件。你得自己写、自己更新，
+agent 不会主动往里写东西——这是单向的，不是记忆，是便签。</p>
+<p>二是 Claude/Cursor 各家自带的记忆功能，锁死在一家工具里。换工具、换机器，记忆就没了。</p>
+<p>三是把整段对话历史喂回去，靠 token 堆出&quot;记得&quot;。贵，且上下文窗口装不下长期记忆。</p>
+<p>mcp-memory 替代的是这三者的交集：agent 自己写、自己读、格式开放、跨工具可移植的持久记忆。
+HN 上有条评论说得好：MCP server 架构的价值在于 claude.ai 这类&quot;没有文件系统&quot;的表面上也能用。</p>
+<h2>商业模式</h2>
+<p><strong>无。</strong> 开源免费，无托管服务、无定价页。</p>
+<p><em>判断：记忆是 agent 应用的地基，但地基本身很难收钱——所有同类项目（mem0 等）
+都在赌&quot;先占住这个位置，往后靠上层卖钱&quot;。这个 repo 显然也是占坑逻辑。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>124 star / 2 fork</strong>，repo 建于 2026-08-13（当日即达）</li>
+<li>HN：58 分、35 条评论（2026-08-13 前后）</li>
+<li>宣称 sub-20ms key 查询（自报，未复现）</li>
+<li>依赖：SQLite + Python + FastMCP；<strong>无 embedding、无向量库</strong></li>
+<li>使用人数、生产部署数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>个人开发者，一天做完，做的是&quot;OKF 的 MCP 实现&quot;，不是深耕记忆的产品</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>押对了两张牌：OKF 规范化加纯本地无向量库。但记忆管什么、什么该被记住，这套设计没有回答</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>文档规范、测试齐全、双目录结构清晰，个人项目里的高完成度</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>完美。OKF 发布一个月，MCP 记忆是最热的赛道之一，他是第一批交付物</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;趁标准刚发布、把新规范落成工具&quot;的教科书案例。</strong> OKF 六月中旬发布，它八月中就交付了
+带规范约束、有双层存储的 MCP 实现，并借 Show HN 拿到远超 repo 星数的讨论量。
+速度就是它的护城河尝试——虽然谈不上护城河。</p>
+<p><strong>可迁移的规律：押注刚发布的开放标准，做&quot;第一个像样的落地&quot;。</strong> 一个新规范的窗口期只有
+几个月：太早是白做，标准还会变；太晚是红海。判断标准是规范发布日加生态里还没有能打的实现。
+落到产品上：给 agent 存任何结构化记忆，先保证&quot;人是唯一权威&quot;，再谈检索速度。</p>
+<p><strong>但 HN 评论区已经把它的软肋问出来了</strong>：&quot;这和 grep 一个 memory/ 目录有什么区别？&quot;
+&quot;比 Claude 自带记忆好在哪？有没有 benchmark？&quot;作者没答出 benchmark。当&quot;记录什么、
+什么值得记住、怎么让模型真的去读&quot;都没有答案时，124 star 是话题热度，不是产品验证。</p>
+<p><strong>还有一个隐藏风险</strong>：OKF 是 Google 的规范，v0.2 还很年轻，规范一改，
+所有存量记忆的格式都要迁移。</p>
+<h2>下一步看什么</h2>
+<p>① 有没有可复现的 benchmark，证明比 Claude 自带记忆 / grep 方案在&quot;任务完成率&quot;上有提升
+② 会不会形成生态（其他项目跟进 OKF + MCP 的组合），还是孤品
+③ 仓库三个月后的活跃度：一次 Show HN 带来的 star 会快速衰减，看的是后续提交和 issue 处理</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做 agent 记忆类功能时，先做&quot;人可读、可审查&quot;的明文存储，再用索引加速，
+不要一上来就上向量库。可审计性在 agent 记忆上比检索质量更稀缺。</p>
+<p><strong>话术</strong>：无。README 是工程文档，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。开源免费。</p>
+<h2>结论</h2>
+<p><strong>持续观察。</strong> 时机和完成度都漂亮，但这是&quot;标准落地红利&quot;型项目，不是记忆问题的答案。
+产品定义（记住什么）才是记忆赛道的胜负手，它还没碰。三个月后拿上面三条验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +200,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +231,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +289,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

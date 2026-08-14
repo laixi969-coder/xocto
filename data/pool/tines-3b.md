@@ -8,12 +8,13 @@ inspiration: 企业采购里安全合规是入场券，没有它功能再强也�
 summary_en: ''
 inspiration_en: In enterprise procurement security and compliance are the ticket in. Without it no amount
   of capability gets through the door.
+priority_review: false
 url: https://www.producthunt.com/products/tines
 canonical_url: https://producthunt.com/products/tines
 summary: The secure environment for agents, apps, and automations
 first_seen: '2026-08-07T16:30:03Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

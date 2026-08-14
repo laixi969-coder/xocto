@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Needle2</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</p>
@@ -83,25 +84,149 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>设备上做语音助手/意图识别，以前两条路都贵：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：当任务边界清晰（映射到有限函数集）时，别默认&#34;越大越好&#34;—— 先问&#34;这个任务需要多少世界知识&#34;。像 Needle 这样把&#34;设备控制&#34;从&#34;通用对话&#34; 里切出来单独做模型，是任务切分的范例。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个 14MB、45M 参数的 agent 模型，塞进 28MB 内存就能在手机、穿戴设备、
+智能家居和机器人上做工具调用——把&quot;听懂一句人话、调一个设备功能&quot;
+这件事从云端搬到了本地。</p>
+<h2>做这个东西的人</h2>
+<p>Cactus Compute（官网 cactuscompute.com，称 Cactus），做端侧 AI 的公司，
+产品线三件套：Needle（极小型 agent 模型）、Engine（边缘推理运行时）、
+Hybrid（边云协同后训练）。Needle 2 是开源模型。</p>
+<p>它拿到了一个很有分量的背书：Pebble（智能手表厂商）创始人 Eric Migicovsky
+的证词，称 Pebble 已把 Needle 用在 Index 01 应用里做本地语音指令处理。</p>
+<p><em>判断：被 Pebble 采用是&quot;端侧小模型&quot;赛道最有含金量的信号——Pebble 的硬件
+对功耗、内存、响应速度的约束比任何评测都要苛刻。但注意，模型是开源的、
+公司层面的商业化靠 Engine/Hybrid，模型本身是获客入口。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>设备功能调用</strong> → 把设备能力建模成带类型参数的函数，把自然语言句子映射到
+正确的函数和参数（&quot;打开灯&quot;→ <code>setLight(on=true)</code>），45M 参数够用</li>
+<li><strong>结构化提取</strong> → 把信息提取当工具调用：给定 schema 和文档，返回类型化字段；
+语法编译器按 schema 生成语法规则，从结构上禁止产生非法 JSON</li>
+<li><strong>边云协同</strong> → 每次响应带一个学出来的置信度分数：高于阈值本地执行，
+低于阈值再问用户或升级云端；无关请求返回空调用而不是瞎猜</li>
+<li><strong>原生 2bit 训练</strong> → CQ2-bit 量化贯穿预训练到后训练，部署的 2bit 模型
+就是训练时的模型，绕开&quot;小模型事后量化就崩&quot;的老问题</li>
+<li><strong>确定性内存</strong> → 256-token 滑动窗口锁死 KV 缓存，会话 RAM 恒为 28MB，
+不随对话变长而增长；工具声明做成&quot;永久 sink&quot;不会被挤出窗口</li>
+</ul>
+<p><strong>技术底座</strong>：Simple Attention Network 架构（Hadamard MLP + engram 哈希记忆 +
+多通道残差流，27 层 512 宽）；单次解码只读 14MB blob；语法感知解码跳过
+最多 98% 的词汇投影计算；每 token 计算量比同尺寸模型少 7-85 倍。
+预训练 115B token + 后训练 38B 推理轨迹数据。</p>
+<h2>它在替代什么旧行为</h2>
+<p>设备上做语音助手/意图识别，以前两条路都贵：</p>
+<p><strong>接云端大模型 API</strong>。延迟、隐私、断网即失效，而且对&quot;开个灯&quot;这种任务，
+走一个千亿参数模型是荒谬的资源配置——但以前没有别的选择。</p>
+<p><strong>在设备上跑大模型</strong>。通用小模型（LFM2.5 230M、FunctionGemma 270M、
+Apple FM 3B 这类）要么内存超预算、要么功耗撑不住、要么速度太慢。
+Needle 用 45M 参数 + 14MB 打平甚至反超它们，把&quot;设备上跑 agent 模型&quot;
+从不可能变成可能。</p>
+<p><strong>它替代的核心动作</strong>：把一个本来要花钱、要联网、要等几百毫秒的云端调用，
+变成一个免费的、离线的、几十毫秒的本地函数调用。</p>
+<h2>商业模式</h2>
+<p><strong>模型开源免费</strong>（&quot;默认路径保持私有、快速、免费&quot;）。公司层面靠
+Engine（推理运行时）和 Hybrid（边云协同）商业化，具体定价未披露。</p>
+<p><em>判断：这是典型的&quot;开源模型获客、平台收费&quot;打法——模型证明能力，
+平台赚部署和协同的钱。风险是开源模型无壁垒，谁都能微调出类似的 14MB 模型，
+获客价值的窗口有限。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>HN 509 分 / 171 条评论</strong>（2026-08-12 Show HN），当日高热度</li>
+<li><strong>45M 参数 / 14MB 单文件 / 28MB 峰值会话 RAM</strong>（无依赖 C++ 二进制）</li>
+<li>速度：树莓派 5 上 500 tok/s；VR 设备（Quest 3S、Vision Pro）400-1500 tok/s；
+200 美元以下手机 300-700 tok/s</li>
+<li>基准（端到端用发布二进制测）：Mobile Actions 63.7%（vs LFM2.5 230M 的 69.1%）；
+Seal-Tools 域外 28.7%（vs 17.0%，显著胜出）；Irrelevance 60.8%（大幅领先，
+拒绝无关请求）；BFCL v4 42.6%（落后 Apple FM 61.7%，差距集中在 Java/JS 等
+训练未覆盖语言）；格式正确率 93.4%</li>
+<li>已被 Pebble Index 01 应用采用</li>
+<li>每 token 计算量：35M matmul 活跃参数 / 70 MFLOPs（对比 LFM2.5 460、Apple FM ~6000）</li>
+<li>目标硬件：从 Cortex-M 微控制器（ESP32-S3、STM32H7）到 x86 到 WebAssembly</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>做端侧 AI 的公司出端侧模型，技术和渠道匹配</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>想清楚了&quot;开灯不需要世界知识&quot;，用架构创新而非堆参数解决小模型问题</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>原生 2bit 训练 + 语法感知解码 + 确定性内存，一套完整的技术叙事，非 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>好。可穿戴/智能家居/廉价手机在起量，&quot;小模型做工具调用&quot;是 2026 年最热的端侧赛道之一</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;小模型 for 工具调用&quot;赛道上目前技术叙事最完整的一篇，值得关注。</strong>
+FunctionGemma、LFM2.5、Apple FM 同场竞技，Needle 用&quot;原生 2bit 训练 +
+特殊架构&quot;把体积打到对手的 1/5 到 1/70，还能在 Mobile Actions、DroidCall
+上打平、在 Seal-Tools 域外测试上反超——如果这些数字可信，它就是
+&quot;资源受限设备的 agent 能力&quot;问题目前最好的答案。</p>
+<p><strong>三个诚实的保留</strong>：
+一是<strong>基准全部自测</strong>。端到端用自家二进制、自家工具检索、自家提示词模板，
+域外泛化的胜出尤其需要独立复现。
+二是<strong>BFCL v4 整体落后</strong>。说明在复杂工具生态（Java/JS 等）上它还不完整，
+&quot;agentic&quot;的含金量要打个折。
+三是<strong>开源无壁垒</strong>。45M 参数可微调，Pebble 采用是背书也是唯一公开案例，
+能不能变成第二、第三家设备厂商的采用是关键。</p>
+<p><strong>给&quot;值得关注&quot;</strong>：509 分的 HN 热度 + 被 Pebble 采用 + 完整技术叙事，
+数据不是编的；但模型层面的一切都还需要独立验证。</p>
+<h2>下一步看什么</h2>
+<p>① Pebble 之外有没有第二家设备厂商公开采用（硬件采用是这类模型最硬的证据）
+② 有没有第三方在标准评估协议下复现它的基准数字
+③ 模型是否在 HuggingFace 可下载、社区能否微调复现——开源程度决定生态</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：当任务边界清晰（映射到有限函数集）时，别默认&quot;越大越好&quot;——
+先问&quot;这个任务需要多少世界知识&quot;。像 Needle 这样把&quot;设备控制&quot;从&quot;通用对话&quot;
+里切出来单独做模型，是任务切分的范例。</p>
+<p><strong>话术</strong>：基准表格的呈现方式可借鉴——每条都用&quot;最终发布二进制&quot;测量、
+把对手跑在 f16 上的条件写明，还诚实列出自己输的类别。对比的诚实度
+本身就是可信度。</p>
+<p><strong>定价结构</strong>：开源模型免费 + 平台（运行时/边云）收费，是端侧 AI 的
+标准打法，可作参考但无独家信息。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 技术叙事完整、被真实硬件采用、讨论热度高——
+&quot;14MB 的 agent&quot;这个数字本身就有传播力。但模型自测的基准、
+唯一公开案例、开源无壁垒这三个点决定了它现在是&quot;值得关注&quot;而不是&quot;强烈推荐&quot;。
+三个月后拿上面三条验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -121,7 +246,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -131,7 +256,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -141,7 +266,7 @@
             <span class="row-name">UTC Time</span>
             <span class="row-desc">实时时钟，显示ISO 8601和Unix时间戳。</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 24</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 24</span>            </span>
           </div>
         </a>
       </li>
@@ -194,7 +319,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

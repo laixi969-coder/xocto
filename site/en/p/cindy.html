@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>cindy</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Open-source AI agent that works out of the box.</p>
@@ -82,25 +83,150 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Using coding agents used to mean one isolated environment per agent: Claude Code in one terminal, Codex in another, each with its own workspace and memory, so switching models meant starting over. Rem…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when building a tool that plugs into an ecosystem, &#34;honor and reuse what the user already pays for&#34; beats &#34;free.&#34; It drops migration cost to zero, then the managed add-on converts users…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A single workspace that folds the walled-off coding agents — Claude Code, Codex, Pi — into one
+agent: switch models and harnesses mid-task without losing memory, skills, or context, and
+steer the same agent from desktop, phone, or chat.</p>
+<h2>Who built it</h2>
+<p>An open-source project under the GitHub org <code>makecindy</code>, backed by X.D. Network (Huang Yimeng,
+co-founder of TapTap). Announced July 22, 2026 at the TapTap Developer Salon (TDW 2026). Source
+is Apache-2.0 TypeScript, a pnpm monorepo shipping desktop and mobile clients.</p>
+<p><em>Read: a gaming platform building a general-purpose coding agent client is not trying to make a
+tool — it is trying to own an entry point. TapTap's first half released 5,002 playable games,
+over 4,000 made with AI; supply has jumped an order of magnitude and they are betting Cindy is
+the &quot;AI work environment&quot; where that production happens.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>One workspace, many harnesses</strong> → Claude Code, Codex, and Pi are connected, a native
+harness is in the works; you can switch mid-task while workspace, memory, skills, and tools
+stay continuous</li>
+<li><strong>Multi-agent orchestration</strong> → one task splits into three roles — a planner, parallel
+workers, an independent reviewer — passing the baton across harnesses</li>
+<li><strong>Out of the box</strong> → no-login local mode, 20+ built-in tools, four ways to plug in (managed
+service / an existing Coding Plan / your own API key / local models), all working directly</li>
+<li><strong>Remote control from anywhere</strong> → steer the computer from your phone, @ it in Slack or
+Feishu to delegate, schedule recurring jobs that report back to chat</li>
+<li><strong>Trust controls</strong> → isolated workspaces, line-by-line review, rollback checkpoints, no full
+project upload by default, real-time cost visibility</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: build its own LLM (it gates GPT/Claude/Grok/Gemini/
+DeepSeek/Kimi/GLM/Qwen instead), and it will not make you pay twice for a model you already pay for.</p>
+<h2>What old behavior it replaces</h2>
+<p>Using coding agents used to mean one isolated environment per agent: Claude Code in one
+terminal, Codex in another, each with its own workspace and memory, so switching models meant
+starting over. Remote oversight from a phone was basically unavailable.</p>
+<p>Cindy replaces three costs: the <strong>switching cost</strong> between agents (was: teardown and rebuild;
+now: same workspace, flip at will), the <strong>setup cost</strong> (was: configure keys and environment;
+now: no-login local run), and the <strong>&quot;must be at the keyboard&quot; constraint</strong> (now: dispatch and
+approve from a phone or chat thread).</p>
+<h2>Business model</h2>
+<p>The client is free (Apache-2.0) and the stated logic is &quot;bring the subscriptions you already
+own, no double billing.&quot; Revenue comes from:</p>
+<ul>
+<li><strong>PLUS, from $20/month</strong>: managed model service, a unified gateway across GPT/Claude/Grok/
+Gemini/DeepSeek/Kimi/GLM/Qwen, monthly plans save 20%, with higher SUPER/ULTRA tiers</li>
+<li><strong>TEAM (coming soon)</strong>: SSO, centralized config, credit limits, team skill distribution</li>
+<li><strong>ENTERPRISE (contact sales)</strong>: gateway self-hosted in your VPC, audit logs, cost attribution</li>
+</ul>
+<p><em>Read: the three-layer &quot;free software + managed service + enterprise control plane&quot; is the
+route n8n and Supabase validated, with one extra trick — letting users reuse existing
+subscriptions. That is not generosity, that is acquisition: they bet convenience migrates users
+onto the managed bill over time.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>1,995 stars / 253 forks / 756 open issues</strong> (2026-08-11), launched 2026-07-22 — nearly
+2,000 stars in three weeks is unusually fast early growth</li>
+<li>X.D. CEO stated TapTap released 5,002 playable games in H1, +843.8% YoY, over 4,000 made
+with AI (official figures, no third-party verification)</li>
+<li>Team self-report: internal art staff ship PRs through Cindy and engineers publish directly
+(unverified outside the company)</li>
+<li>Users, ARR, funding: not disclosed</li>
+<li>756 open issues against 1,995 stars is a high ratio — demand is loud, but so is the message
+that the product is not stable yet</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>X.D. is itself a heavy AI-game-production user and already runs it internally; but this is a platform strategy bet, not a founder's itch</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nails the two real pains — switching cost and setup cost; the &quot;reuse your existing subscription&quot; acquisition design is sharper than plain free</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>TypeScript + React Native/Electron cross-platform, local-first, isolated workspaces; solid structure, but 756 open issues say far from stable</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right on the inflection where agents go from single-model to multi-model mixing; but the lane is crowded with official clients and open-source rivals</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is a gaming platform importing its distribution playbook into the agent layer, and the
+most interesting part is the acquisition design.</strong></p>
+<p>&quot;Reuse your existing subscription, no double billing&quot; sounds like a concession. It is the
+standard play: zero migration cost in, then the managed gateway (multi-model, 20% cheaper on
+monthly plans) slowly moves spend from your own keys onto their bill. That funnel is directly
+stealable.</p>
+<p><strong>Multi-harness continuity is genuine differentiation.</strong> Claude Code and Codex each win on
+different tasks and their official clients do not interoperate. Cindy bets continuity beats
+&quot;single-point strongest,&quot; which holds for teams that already mix agents.</p>
+<p><strong>The risks sit at both ends.</strong> Ecosystem risk: every official Claude Code / Codex release
+must be re-adapted to, and the day they stop keeping up is the end. Business risk: their real
+moat is the home turf — AI game production around TapTap's game business — and in generic coding agents
+they face the official clients directly.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars clear 5,000 in three months — early velocity becomes a trend or dies
+② Whether the open-issue backlog shrinks — 756 issues says stability is unproven; the metric is
+issue growth falling below star growth
+③ Whether any third party publicly reports running it in production (not just X.D.'s internal claim)</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when building a tool that plugs into an ecosystem, &quot;honor and reuse what the
+user already pays for&quot; beats &quot;free.&quot; It drops migration cost to zero, then the managed add-on
+converts users gradually. Counterintuitive acquisition design, copy it.</p>
+<p><strong>Positioning language</strong>: &quot;Reuse the subscriptions you already own.&quot; Turning &quot;no double billing&quot;
+into a one-line stance is more memorable than saying &quot;free.&quot;</p>
+<p><strong>Pricing structure</strong>: the three-tier stack (free with own key / $20 managed / enterprise
+self-hosted) is directly reusable, including the trick of framing API reselling as &quot;monthly
+plans save 20%.&quot;</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, with real caveats.</strong> Strong backing (X.D./TapTap), fast early growth (~2,000
+stars in three weeks), and a smart acquisition design — but 756 open issues say the product is
+immature and the business depends on keeping pace with official agent updates. Note the three
+checks above and come back in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +246,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +256,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +266,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">UTC Time</span>
             <span class="row-desc">Live clock, ISO 8601, Unix timestamp.</span>
             <span class="row-tail">
-<span class="tag sig">Community score 24</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 24</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +319,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

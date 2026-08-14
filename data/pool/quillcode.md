@@ -8,12 +8,13 @@ inspiration: 拿「我们不用什么」当卖点，是小团队打大厂最省�
 summary_en: ''
 inspiration_en: Making “what we don't use” the pitch is the cheapest differentiation a small team has
   against a big one.
+priority_review: false
 url: https://github.com/Lore-Hex/QuillCode
 canonical_url: https://github.com/Lore-Hex/QuillCode
 summary: 100% native Swift harness (NOT Electron)
 first_seen: '2026-08-10T13:26:19Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

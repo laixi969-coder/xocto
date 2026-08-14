@@ -8,12 +8,13 @@ inspiration: 语音转录已经商品化，开源本地版的存在理由只剩�
 summary_en: ''
 inspiration_en: Transcription is commoditized. All that's left to justify an open local build is privacy
   and cost.
+priority_review: false
 url: https://www.producthunt.com/products/voice-gecko
 canonical_url: https://producthunt.com/products/voice-gecko
 summary: Open source, local voice-to-text
 first_seen: '2026-08-09T06:01:09Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

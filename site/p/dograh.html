@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Dograh</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">开源的语音 agent 平台，对标 VAPI</p>
@@ -82,18 +83,102 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前要做&#34;AI 打电话&#34;，主要两条路：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果要做&#34;开源替代闭源&#34;，先列一张竞品用户最痛的三件事（价格、数据主权、锁定），然后只攻其中一件，而且只对那一件的目标客户说话。Dograh 把全部火力放在&#34;数据不出边界&#34;上，连界面文案都在讲 HIPAA/GDPR/SOC 2 场景。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>开源的语音 agent 平台：用拖拽式工作流搭建打电话的 AI agent（接电话、约时间、筛线索、催款），自己托管、自带模型也行，对标 Vapi 和 Retell 的闭源 SaaS。</p>
+<h2>做这个东西的人</h2>
+<p>dograh-hq 组织维护（仓库 <code>dograh-hq/dograh</code>），2025 年 9 月建仓，Python 写的。PH 上的 maker 有 Pritesh Kumar、sandeep_vemu 等，团队自称&quot;YC 校友 + 退出创始人&quot;，强调&quot;从第 0 天就把每一行代码开源&quot;（BSD-2-Clause）。pool 记录里 builder 一栏写的是 Rohan Chaubey。</p>
+<p><em>判断：团队身份在 PH 评论区可以交叉验证到多人，但&quot;YC 校友&quot;这个说法没有公开的公司主页佐证，先当营销话术处理。真正可信的信号是仓库本身——一年攒出 5000 多星，这在语音 agent 开源圈子里不是小数目。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>可视化工作流搭建</strong> → 拖拽节点搭语音 agent，每个对话步骤是一个节点，可以按来电者反应分支、中途调 API</li>
+<li><strong>两种架构都支持</strong> → 级联式（STT → LLM → TTS）和端到端语音到语音（speech-to-speech，如 Gemini Live、GPT Realtime），还支持把 S2S 流切成多 agent 分段控制</li>
+<li><strong>自带全套默认栈</strong> → 内置 LLM/STT/TTS，零配置就能跑；也支持 BYO（OpenAI、Azure、Groq、Deepgram、ElevenLabs、本地开源模型）</li>
+<li><strong>电话能力</strong> → Twilio（及其他电话通道）集成，呼入呼出，支持预热转移给真人（warm handoff）</li>
+<li><strong>MCP 原生</strong> → 内置 MCP server，Claude Code、Cursor 等 agent 可以直接&quot;帮我建一个催款电话 agent&quot;就把它搭出来</li>
+<li><strong>AI 对 AI 测试（LoopTalk）</strong> → 创建 AI 人设去打电话测试你的 agent，模拟真实客户行为</li>
+<li><strong>2x 转化特性</strong> → 预录音频和 TTS 混用同一个克隆声音，能用预录就用预录，需要实时生成才走 TTS，号称延迟和成本都降</li>
+</ul>
+<p><strong>核心卖点</strong>：数据不出你自己的基础设施——通话录音、转录、prompt、客户 PII 全在边界内，甚至模型推理也可以完全离线/气隙运行。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前要做&quot;AI 打电话&quot;，主要两条路：</p>
+<p>一是<strong>闭源 SaaS 按分钟收费</strong>——Vapi、Retell、Bland 这类，注册后用它们的 API 搭 agent。快，但按分钟计价，用量一上来费用可观（Retell 大概 0.10 美元/分钟，其中还藏着平台费），数据全在厂商云上，音频、转录、客户 PII 都要过第三方，合规敏感行业直接没法用。</p>
+<p>二是<strong>自己从零拼</strong>——用 Pipecat、LiveKit 这类框架或者直接怼模型 API，自己接电话通道、自己写编排、自己处理断线重连。自由，但语音 agent 的工程细节极多（VAD 端点检测、流式传输、打断处理、超时重试），一个能上生产环境的栈要搭很久。</p>
+<p>Dograh 替代的是&quot;闭源 SaaS 的租用&quot;——用开源自托管把按分钟的平台费去掉，同时把&quot;自己拼栈&quot;里的编排、电话、测试这些脏活接住。它的定位话术很直接：在 Vapi 上你租 agent 用，在 Dograh 上你拥有整套。</p>
+<h2>商业模式</h2>
+<p>三层：</p>
+<ul>
+<li><strong>自托管</strong>：免费，BSD-2-Clause，<code>docker compose up</code> 就跑，永远免费</li>
+<li><strong>托管云</strong>（app.dograh.com）：帮你跑同一套栈，按用量收费</li>
+<li><strong>私有云</strong>：整套部署进你的 VPC，你付运维</li>
+</ul>
+<p><em>判断：这是典型&quot;开源做漏斗、托管云收钱&quot;的模型，和 Vaultwarden/Nextcloud 这类开源 SaaS 替代品一个套路。对合规敏感行业（医疗、金融、催收）来说&quot;数据不出边界&quot;是刚需，自托管免费就是最好的获客广告。真正的生意在托管云和私有云，但定价没公开。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>5318 star / 1278 fork</strong>，2025-09-09 建仓，约 11 个月</li>
+<li>BSD-2-Clause，Python 为主</li>
+<li>PH 上线 38 票（2026 年 8 月初）</li>
+<li>仓库 topics 显示与 Pipecat 相关，Telephony 支持 Asterisk ARI</li>
+<li>按 maker 自述，已见应用的行业：法律案源获取、租车、餐厅订座、医疗保险外呼</li>
+<li>付费客户数、ARR、活跃部署数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>团队对语音 agent 的工程细节（S2S 分段、QA 节点、fallback）答得具体，不是外行</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;数据主权&quot;这个 Vapi/Retell 的结构性弱点，自托管 + MCP 原生都是对的位置</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>一年沉淀的成熟度可见：文档全、Docker 一键、测试工具 LoopTalk、可插拔栈</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>好。语音 agent 需求在涨，Vapi 类产品按分钟收费的痛点在用量大的客户那里越来越明显</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;开源替代已验证闭源产品&quot;里少见的正面案例：标的选得准，工程跟得上。</strong></p>
+<p>开源对标一个已验证的闭源产品，最大的好处是市场教育成本为零——Vapi 已经把&quot;语音 agent 有用&quot;教会了市场，Dograh 只需要说&quot;同样的事，不用按分钟付钱&quot;。最大的风险则是永远跟在闭源产品后面吃剩下的需求。判断它属于哪种，看两个信号：star 数（5318，说明开发者认可）和 maker 自述的行业用例（催收、医疗这类数据敏感行业——正好是 Vapi 吃不到的）。</p>
+<p><strong>可迁移的规律：找闭源 SaaS 里&quot;数据主权&quot;最痛的客户群下手。</strong> Dograh 没有正面硬刚 Vapi 的价格，而是绕到合规和数据敏感这一侧——这些客户因为数据不能出边界，压根用不了 Vapi，不是贵不贵的问题。绕开正面战场、切竞品的结构性死角，比正面降价聪明得多。</p>
+<p><strong>风险在两处</strong>：一是&quot;YC 校友&quot;之类背书没有公开佐证，团队可信度要靠产品自己挣；二是自托管产品的收入天然后置——star 多不等于付费，托管云能不能被 5000 个 star 用户里哪怕 1% 的人用起来，是它商业化的真正考题。</p>
+<h2>下一步看什么</h2>
+<p>① 托管云上线后，star 到付费的转化有没有公开信号（案例、行业活动）
+② 是否有合规敏感行业的客户公开使用（医疗/金融/催收）——这正是它 vs Vapi 的分水岭
+③ 三个月后 star 增速：开源项目一年后还涨不涨，能看出社区是自来水还是营销</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果要做&quot;开源替代闭源&quot;，先列一张竞品用户最痛的三件事（价格、数据主权、锁定），然后只攻其中一件，而且只对那一件的目标客户说话。Dograh 把全部火力放在&quot;数据不出边界&quot;上，连界面文案都在讲 HIPAA/GDPR/SOC 2 场景。</p>
+<p><strong>话术</strong>：把所有权对立起来——&quot;在闭源平台上你租 agent，在 Dograh 上你拥有整套&quot;，以及&quot;你的模型、数据、GPU 留在你的国家，你的声音就是你的&quot;。立场鲜明的话术对开源项目比功能清单更有效。</p>
+<p><strong>定价结构</strong>：自托管免费 + 托管云按量 + 私有云运维，三层递进。自托管版本要真的完整可用，因为它本身就是获客广告。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 标的选得好、工程成熟、社区认可度真实，是&quot;开源替代闭源&quot;路径里本批次最强的样本。但收入还没被证明，团队背书也缺公开佐证。盯托管云转化和合规行业案例这两条。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +189,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +220,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +278,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

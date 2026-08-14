@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>VoiceGecko</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Open source, local voice-to-text</p>
@@ -81,25 +82,150 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Typing in desktop apps — emails, code comments, prompts for AI. The alternatives before this were:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for any tool that touches sensitive input, &#34;data never leaves the device&#34; should be architecture, not marketing. Every one of VoiceGecko&#39;s choices — local model, local history, no accou…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A free, open-source (MIT) local voice-to-text tool: press a shortcut, speak, and the words
+land on your clipboard — entirely on-device, audio never leaves your machine.</p>
+<h2>Who built it</h2>
+<p>A solo project by an indie developer, Luke, launched on 2026-08-11 (hunter
+attributed to Luke as well). It took #14 on that day's leaderboard with a 4.5/5 rating
+(two reviews). Luke's own framing says it grew out of his personal frustration with typing
+speed.</p>
+<p><em>Read: this is the textbook &quot;I typed too slowly, so I built a dictation tool&quot; indie project.
+One person, free, open source — long-term survival odds are low, but this is exactly the
+kind of small, bounded, no-cloud-infrastructure tool an indie can build well.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Local real-time transcription</strong> → speech models run on-device, usable offline, audio
+stays in memory</li>
+<li><strong>Dictation into any app</strong> → text lands at the cursor via simulated keyboard input, so it
+works in any application with a text field</li>
+<li><strong>GeckoBar</strong> → a persistent desktop bar showing recording state with one-click start/stop</li>
+<li><strong>Custom vocabulary</strong> → teach it jargon and proper nouns through a local dictionary</li>
+<li><strong>Searchable local history</strong> → every transcript goes into a local SQLite store; audio is
+not kept</li>
+<li><strong>Global shortcuts</strong> → start and stop dictation without leaving your workflow</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no cloud transcription, no uploads, no accounts.
+Privacy is not a feature on a list; it is the boundary of the whole product.</p>
+<h2>What old behavior it replaces</h2>
+<p>Typing in desktop apps — emails, code comments, prompts for AI. The alternatives before
+this were:</p>
+<ol>
+<li><strong>Built-in system dictation</strong> (macOS/Windows): mediocre quality, and Windows dictation
+has long been poor;</li>
+<li><strong>Cloud transcription services</strong> (WisprFlow, Google/Apple voice input): accurate, but
+audio crosses to someone else's server — a real problem for the things you say out loud
+while drafting;</li>
+<li><strong>Local transcription tools</strong> (superwhisper and peers): run locally but mostly paid, and
+the mature ecosystem is on Mac.</li>
+</ol>
+<p>VoiceGecko occupies the gap of &quot;local, free, open-source dictation on Windows.&quot; Before it,
+that combination did not really exist: you either paid, handed your audio to a cloud, or
+put up with low-quality system dictation.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> MIT-licensed, completely free, no subscription, no cloud service, and no visible
+path to charging money.</p>
+<p><em>Read: local-only tools have a classic revenue trap — subscription feels wrong when the
+model runs on your own machine, and a one-time purchase doesn't sustain a solo maintainer
+forever. Its current value is closer to a free reference point for the WisprFlows of the
+world, plus a working implementation anyone can study for building their own local voice
+product.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>PH daily #14, 103 upvotes, 2 comments, 4.5/5 rating</li>
+<li>Native build currently ships for Windows; macOS/Linux are the most-requested next steps
+and depend on community support</li>
+<li>Downloads, user count, and GitHub stars: not disclosed</li>
+<li>Team size: 1</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The founder is the target user (a slow typist), pain is real — but a solo project has thin staying power</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Restrained positioning: no cloud, no fee, one job. The privacy angle is sharp, but there is no unique tech</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>A competent assembly of existing pieces: local model, simulated keyboard input, local history</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Transcription is commoditized. The open-local window is privacy-sensitive and cost-sensitive users, and that group is growing</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A clean execution of the &quot;privacy + free + open source&quot; three-card play.</strong></p>
+<p>Voice-to-text technology stopped being a moat long ago; accuracy battles are not where a
+small tool can win. VoiceGecko competes on the other three axes instead: data never leaves
+the machine (privacy), source fully open (trust), price zero (acquisition). For &quot;things you
+say out loud that you would never type into a random cloud service&quot; — the exact use case it
+names — the cloud services' accuracy advantage is meaningless, because the user will not
+hand them the content in the first place.</p>
+<p><strong>But there is no moat of any kind.</strong> Open source means anyone can copy it, the tech is
+simple enough that copying is fast, and Windows-only locks out the strongest early-adopter
+group. Its real value is validating that local, free, open-source dictation still gets a
+reaction in 2026 (103 upvotes is respectable for a small tool).</p>
+<p><strong>The transferable rule: when a technology commoditizes, do not fight the giants on
+accuracy — fight on who is safe enough to trust.</strong> Cloud transcription giants will not
+rebuild their architecture to be local just to serve privacy-sensitive users. That slot
+always belongs to small tools — the only question is whether this one lasts.</p>
+<h2>What to watch next</h2>
+<p>① Whether macOS/Linux builds land within three months — staying Windows-only forfeits more
+than half of the indie-developer audience
+② Whether GitHub stars cross a thousand and forks stay maintained — a solo project's
+longevity is the real risk
+③ Whether a paid/free split emerges among local dictation tools — if paid tools keep
+charging while this stays free, the sustainability of &quot;free local dictation&quot; is still unproven</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for any tool that touches sensitive input, &quot;data never leaves the
+device&quot; should be architecture, not marketing. Every one of VoiceGecko's choices — local
+model, local history, no accounts — redeems the same promise. Decide first what never
+leaves the device, then design features around that line; it builds trust more reliably
+than the reverse order.</p>
+<p><strong>Positioning language</strong>: none. Its copy is a feature list; there is nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. But the absence of pricing is itself a tactic — free and open
+source buy trust and distribution for a product with zero cloud cost. A fine cold-start
+strategy for local-only tools.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, on thin foundations.</strong> The direction is right — the local-transcription
+privacy gap is real — and the execution is clean, but solo maintenance, Windows-only, and
+no business model make it more of a proof of concept today. Check back in three months
+against the three tests above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +245,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +255,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +265,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +319,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

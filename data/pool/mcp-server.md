@@ -16,7 +16,7 @@ summary: 'MCP server for AI agents that need a phone number: order a private num
   check it with one API call.'
 first_seen: '2026-08-07T11:13:26Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

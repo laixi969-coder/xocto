@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>沉浸式翻译</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">浏览器里的双语对照翻译</p>
@@ -81,25 +82,134 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它已有使用数据，后续更值得看规模和变化能否延续。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前浏览器里翻译网页，默认是&#34;译文覆盖原文&#34;：Chrome 自带翻译、老一代 插件都是整页替换，原文没了、排版错乱，想对照学语言根本做不到； 要精确翻译，就得把段落复制粘贴到翻译网站，来回切窗口。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：翻译/工具类产品，优先做一个&#34;交互上的创新&#34;而不是&#34;能力上的 创新&#34;——能力会被大厂碾压，交互创新（对照式）能建立品牌和习惯。 同时坚持&#34;不自己造引擎&#34;，做聚合层，把成本与选择权交给用户。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把网页、PDF、视频字幕从&quot;整页替换成译文&quot;变成&quot;原文译文并排对照&quot;——
+看懂原文和学习语言两件事同时发生，而且保留原排版。</p>
+<h2>做这个东西的人</h2>
+<p>独立开发者 Owen（owenyoung）做的。2022 年 10 月上架浏览器扩展，2023 年 5 月
+被推文科技收购，双方成立独立子公司运营，Owen 继续负责产品与技术。
+2024 年末入选 Chrome 官方年度最佳扩展。</p>
+<p><em>判断：这是典型的&quot;独立开发者 + 一次对的收购&quot;样本。收购没有杀死产品，
+反而给了它商业化的组织和资本，Owen 继续做主——这是独立产品被收购后
+最常见也最难得的存活方式。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>网页双语对照</strong>（核心）→ 原文译文并排，不覆盖原文</li>
+<li><strong>文档翻译</strong> → PDF 保留原始排版，EPUB 电子书</li>
+<li><strong>视频字幕</strong> → YouTube、Netflix 等平台双语字幕</li>
+<li><strong>会议翻译</strong> → Zoom、Google Meet、Teams 实时翻译</li>
+<li><strong>图片与漫画</strong> → OCR 提取 + 翻译</li>
+<li><strong>输入框翻译</strong> → 写外语时即时翻译</li>
+<li><strong>引擎自选</strong> → 内置 20+ 翻译引擎（ChatGPT、DeepL、DeepSeek、Gemini 等），
+用户可切换，也可用自己的 API key</li>
+</ul>
+<p><strong>它明确不做</strong>：不做自己的翻译模型。沉浸式翻译本质是一个&quot;引擎聚合与
+交互层&quot;——翻译质量交给各家引擎，它只负责把翻译结果以对照的方式
+摆到你眼前。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前浏览器里翻译网页，默认是&quot;译文覆盖原文&quot;：Chrome 自带翻译、老一代
+插件都是整页替换，原文没了、排版错乱，想对照学语言根本做不到；
+要精确翻译，就得把段落复制粘贴到翻译网站，来回切窗口。</p>
+<p>沉浸式翻译把&quot;原文 + 译文&quot;并排呈现，一次解决&quot;看懂&quot;和&quot;学语言&quot;两个需求，
+还保留 PDF 排版。它替代的是&quot;全文替换式翻译 + 复制粘贴到翻译工具&quot;
+这套旧工作流。</p>
+<h2>商业模式</h2>
+<p>Freemium。网页翻译免费且无限量；Pro 版 14.99 美元/月（124.99 美元/年），
+Max 版 34.99 美元/月（289.99 美元/年），主要解锁更高的 OCR 精度、
+视频/图片/批量处理额度与高级引擎配额。收购金额未披露。</p>
+<p><em>判断：定价卡在&quot;翻译工具&quot;这个品类的心理价位带内，比企业翻译软件便宜，
+比免费工具贵得有理有据——OCR 和批量额度是能感知的硬差异。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>Web 访问量 551 万/月，环比 +0.52%</strong>（流量榜，2026-08 采集口径）</li>
+<li>官网口径自称 2000 万+ 用户；第三方数据口径不一（2024 年底超 500 万、
+2025 年突破 1000 万）——用户数口径不统一，取数需谨慎</li>
+<li>2023 年 5 月被收购时约 40 万用户</li>
+<li>连续入选 Chrome 官方年度最佳扩展</li>
+<li>团队规模约 10 人（Owen 播客口径）</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>极高，Owen 自己就是重度跨语言阅读用户，产品解决的是自己的痛</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;对照阅读&quot;这一个交互决定，让它在翻译红海里立住了品牌</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>PDF 排版保留和字幕同步是真功夫，不是套壳</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>跨境信息消费（科研、海外资讯、语言学习）是长期刚需</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>&quot;一个决定吃五年&quot;的产品。</strong> 对照式翻译不是新技术，但没人认真在浏览器
+场景里做过。沉浸式翻译证明：一个交互层面的小创新，如果能打中高频场景，
+足够让一个独立开发者的产品活下来、被收购、再增长。</p>
+<p><strong>它选对了生态位</strong>：不做模型，做聚合层。这让它永远跟得上最好的翻译引擎，
+不必承担模型研发成本，也能让用户用自己已有的 API key——成本敏感用户
+和高质量用户都能留在这。</p>
+<p><strong>增长是稳的，但天花板要盯。</strong> mom +0.52% 说明存量用户很黏，但也没有
+爆发性增长。威胁来自三面：大厂浏览器原生翻译越来越强；对照式交互已被
+同类产品复制（差异化正在消失）；它本质是&quot;翻译质量+排版&quot;的薄价值层，
+一旦引擎能力被大厂整合进系统，中间层会被压扁。</p>
+<p><strong>用户数口径混乱是要点名的</strong>：官网自称 2000 万+，第三方说 1000 万级，
+两者差一倍。做判断的人应当以第三方可验证口径为准。</p>
+<h2>下一步看什么</h2>
+<p>① 用户数口径能否统一——2000 万（官网）与 1000 万（第三方）差一倍，官方
+是否给出可验证的披露
+② 订阅转化率与收入规模是否披露——这是验证&quot;小而美&quot;能否长大的关键
+③ 大厂浏览器原生对照翻译是否跟进——如果 Chrome/Edge 直接内置对照模式，
+中间层的生存空间会被大幅压缩</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：翻译/工具类产品，优先做一个&quot;交互上的创新&quot;而不是&quot;能力上的
+创新&quot;——能力会被大厂碾压，交互创新（对照式）能建立品牌和习惯。
+同时坚持&quot;不自己造引擎&quot;，做聚合层，把成本与选择权交给用户。</p>
+<p><strong>话术</strong>：&quot;沉浸式&quot;把&quot;不破坏原页面排版&quot;翻译成一个用户能感知的体验词——
+用一个词把技术特性变成体验承诺，可迁移到任何工具产品。</p>
+<p><strong>定价结构</strong>：免费保住口碑与传播（网页翻译无限免费），Pro/Max 按用量场景
+（OCR、批量、字幕）分层收费。免费层大方、付费层有硬差异，是工具类
+产品最稳的收费结构。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 一个交互决定撑起一款全球工具，用户黏性真实，团队克制。
+真正的分水岭是大厂浏览器会不会内置对照翻译——在此之前，它是独立翻译
+工具里最健康的那个。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +229,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +239,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +249,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -151,9 +261,9 @@
         <span class="pager-n">智谱清言</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/猫箱-和心动-ai-探索剧情宇宙.html">
+      <a class="pager-item pager-next" href="../p/百度文库.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">猫箱 - 和心动 AI 探索剧情宇宙</span>
+        <span class="pager-n">百度文库</span>
       </a>
     </div>
   </nav>
@@ -192,7 +302,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

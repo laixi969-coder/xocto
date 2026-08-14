@@ -8,12 +8,13 @@ inspiration: 个人项目的传播力来自具体——「我家楼下那个攀�
 summary_en: ''
 inspiration_en: Personal projects travel on specificity. “The climbing gym down my street” beats “photogrammetry”
   by a mile.
+priority_review: false
 url: https://kmcheung12.github.io/climb-preview/tour/ae43c6e5
 canonical_url: https://kmcheung12.github.io/climb-preview/tour/ae43c6e5
 summary: My local climbing gym from photogrammetry
 first_seen: '2026-08-10T21:39:03Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

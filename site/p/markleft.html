@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Markleft</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">作者分享如何审查Claude的Markdown计划。</p>
@@ -83,15 +84,115 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>现在和 AI 迭代一篇长文档的默认流程：你在对话里用一段文字描述哪里不满意 → AI 重写整篇 → 你在新旧两版之间做&#34;找不同&#34; → 还要回忆你原话里哪句对应了哪处改动。作者在文章里把这件事 类比成&#34;给同事寄一篇五页文档，回我一封散文式的批评，然后发我一版完全重写的版本，再让我 自己对比两版判断你听没听懂&#34;——这套流程文档协作在二十年前就用批注和修订解决了。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：任何 AI 内容工具的审查环节，都值得抄&#34;追加式建议 + 可寻址批注&#34;这对设计—— 它同时给了你权限边界和可审理性。具体到实现，把批注编码进脚注 id 让格式保持兼容， 是低成本高回报的一笔。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给 Markdown 装一个&quot;建议模式&quot;：你在文档上直接批注（文字、代码、表格、图表、SVG 都可以），
+AI 只追加建议而不是整篇重写，你逐个确认。</p>
+<h2>做这个东西的人</h2>
+<p>Martin R. Lysk（HN: mlysk），个人开发者。一个 Chrome bookmarklet + 一个标注规范（spec）+
+一篇 11 分钟的博客文章（2026-08-09），代码在 github.com/martin-lysk/markleft。</p>
+<p><em>判断：这是个&quot;方法论先于产品&quot;的项目——文章先把当前流程为什么荒谬讲透，再给工具。这个顺序
+本身值得注意：它默认读者是&quot;想改进 AI 写作迭代流程&quot;的人，而不是&quot;想装个插件&quot;的人。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>直接标注</strong> → 选中文本、给代码行、表格、Mermaid 图、SVG 加批注；图像标注用归一化坐标
+（image-X-Y）</li>
+<li><strong>注释就是 Markdown 脚注</strong> → 批注编码进脚注 id（range-prev-12-chars、image-X-Y、
+code-line-L-col-C-len-N），普通渲染器（比如 GitHub）只当脚注看，不破坏 Markdown</li>
+<li><strong>稳定块 id</strong> → 每个文档块前注入 <code>markleft:block id=...</code> 的 HTML 注释，结构性改动也能被寻址</li>
+<li><strong>追加式建议</strong> → 建议是不带引用锚点的脚注（[^suggestion-s2-update-block-xxx]），
+AI 只能追加、不能改写原文</li>
+<li><strong>编辑器的建议渲染</strong> → 按渲染元素内 diff（列表项、表格单元格先配对再比），图片替换变成
+前后对比滑条</li>
+<li><strong>Bookmarklet 工作流</strong> → Chrome 里打开本地 Markdown 文件，点书签，得到带批注和
+接受/拒绝的编辑器；保存时编译 prompt 教 AI 用 Markleft 语法</li>
+</ul>
+<p><strong>它明确不做</strong>：不改 Markdown 文件格式本身，不做云服务，不走&quot;AI 改写全文&quot;的默认路径。</p>
+<h2>它在替代什么旧行为</h2>
+<p>现在和 AI 迭代一篇长文档的默认流程：你在对话里用一段文字描述哪里不满意 → AI 重写整篇 →
+你在新旧两版之间做&quot;找不同&quot; → 还要回忆你原话里哪句对应了哪处改动。作者在文章里把这件事
+类比成&quot;给同事寄一篇五页文档，回我一封散文式的批评，然后发我一版完全重写的版本，再让我
+自己对比两版判断你听没听懂&quot;——这套流程文档协作在二十年前就用批注和修订解决了。</p>
+<p>markleft 替代的是&quot;散文式反馈 + 整篇重写 + 人肉 diff&quot;这条荒谬链路，把它变成&quot;原位批注 +
+追加式建议 + 定位到批注的 diff&quot;。这个思路可以迁移到任何 AI 生成文档的审查场景，
+不只是 Markdown。</p>
+<h2>商业模式</h2>
+<p><strong>无。</strong> 免费 bookmarklet，开源（github.com/martin-lysk/markleft），无定价页。</p>
+<p><em>判断：这是纯技术/方法论文案，没有商业意图的痕迹。它的价值在方法，不在产品形态。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>HN：8 points / 1 comment</strong>（2026-08-13），Show HN；唯一评论是作者自己贴的仓库链接</li>
+<li>博客文章 11 分钟阅读量，2026-08-09 发布</li>
+<li>支持批注对象：文本、代码行、表格、Mermaid、图片（SVG）、块</li>
+<li>用户数、使用量：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者显然是重度用 AI 写文档的人，痛点是亲历的；方法论写得很透</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;追加式建议&quot;对抗&quot;整篇重写&quot;是当前 AI 写作工具最大的未解决问题之一，这个切入点选得准</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>注释即脚注的规范很聪明，兼容普通 Markdown 渲染器；但 bookmarklet 形态限制了传播</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>AI 写文档正进入&quot;产出量大于审核能力&quot;阶段，审查工具的需求在起来，但买单方还没清晰</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;把文档协作二十年前就解决过的问题，重新翻译给 AI 时代&quot;的标准案例。</strong></p>
+<p>批注和修订在 Word/Google Docs 里解决了&quot;人和人怎么改一份文档&quot;，但 AI 来了之后大家集体退回
+了&quot;描述 + 重写 + 人肉 diff&quot;的原始流程。markleft 做的不是发明新交互，是把旧交互的约束翻译成
+AI 能消费的格式——追加式、可寻址、可接受可拒绝。</p>
+<p><strong>可迁移的规律：给 AI 工具的反馈通道，优先考虑&quot;追加&quot;而不是&quot;重写&quot;。</strong> 追加是权限边界，也是
+可审理性边界：AI 可以提出任何建议，但不能动你的原文。这个约束同时解决了两个问题——
+防越权，和让人能快速确认&quot;改了什么、对应哪个意见&quot;。</p>
+<p><strong>它的天花板也很诚实</strong>：bookmarklet 是个人工具形态，8 points 说明没什么人看到。这个方法的
+真正归宿可能是被编辑器、Claude 的 Artifacts 或文档工具吸收，而不是自己长成产品。</p>
+<h2>下一步看什么</h2>
+<p>① 有没有编辑器或写作工具把&quot;追加式建议&quot;交互吸收掉——验证了这个方法是不是公共品
+② 仓库的 star/issue 有没有动静——bookmarklet 类项目最常见的结局是作者自用
+③ 作者有没有把规范发展成跨工具标准——&quot;注释即脚注&quot;如果只在一个 bookmarklet 里就没意义</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：任何 AI 内容工具的审查环节，都值得抄&quot;追加式建议 + 可寻址批注&quot;这对设计——
+它同时给了你权限边界和可审理性。具体到实现，把批注编码进脚注 id 让格式保持兼容，
+是低成本高回报的一笔。</p>
+<p><strong>话术</strong>：作者开头的类比（&quot;你不会给同事发一篇散文式批评，然后让他重写整篇&quot;）是解释
+&quot;当前流程荒谬&quot;的好模板，可以直接用在任何 AI 工作流产品的卖点陈述里。</p>
+<p><strong>定价结构</strong>：无。免费 + 开源。</p>
+<h2>结论</h2>
+<p><strong>方法值钱，产品还没长出来。</strong> &quot;追加式建议&quot;是 AI 文档协作里少数能同时解决权限和可审核问题
+的设计，8 points 不影响它的方法价值。但 bookmarklet 形态和零商业化迹象决定了它大概率停在
+个人工具层面。记下这个交互模式，等它在别的产品里被吸收。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -108,7 +209,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -118,7 +219,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -128,7 +229,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -138,7 +239,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -150,9 +251,9 @@
         <span class="pager-n">Lumabri</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/neolabsfyi.html">
+      <a class="pager-item pager-next" href="../p/opencode-senses.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">Neolabs.fyi</span>
+        <span class="pager-n">OpenCode Senses</span>
       </a>
     </div>
   </nav>
@@ -191,7 +292,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

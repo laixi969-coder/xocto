@@ -8,12 +8,13 @@ inspiration: 把对抗性测试做成可复用技能，可迁移到任何需要�
 summary_en: Multi-AI collaborative adversarial testing workflow to uncover model weaknesses.
 inspiration_en: Packaging adversarial testing as a reusable skill applies to any scenario needing AI robustness
   validation.
+priority_review: false
 url: https://github.com/KieranHoward646/Adversarial-Testing-Skill
 canonical_url: https://github.com/KieranHoward646/Adversarial-Testing-Skill
 summary: Multi-AI collaborative adversarial testing workflow
 first_seen: '2026-08-11T03:39:18Z'
 last_seen: '2026-08-14T04:47:02Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

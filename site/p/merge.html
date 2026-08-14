@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Merge</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">AI 原生的代码审查能力评估</p>
@@ -82,15 +83,128 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前招工程师考两件事，都在 AI 时代失效了：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：评估类产品最重要的不是&#34;测什么&#34;，是&#34;测的东西是不是岗位上 真实发生的事&#34;。任何培训/招聘/认证产品都该做一次这个替换测试—— 把考题换成真实工作流的切片，评估有效性立刻提升。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>让候选人像上班一样审一个 PR，AI agent 扮演改代码的工程师实时回应他的每条
+评论——招人考的是工程判断力，不是算法题。</p>
+<h2>做这个东西的人</h2>
+<p>5 位创始人（Harshith Latchupatula 等），自称合计做过 250+ 场面试，
+从创业公司到 FAANG+ 到量化。产品 2026-08-07 在 发布平台 发布（119 分，
+日榜第 10）。官网 mergeoa.com，目前只开放预约演示。</p>
+<p>创始团队的自述里有一个关键观察：他们自己所在的公司 PR 数量几乎翻了三倍，
+大多数人一年没手写过一行代码，团队越来越看重 code review，但招聘流程
+&quot;一点没变&quot;。连用了 AI 的面试，考的还是代码产出。</p>
+<p><em>判断：这是&quot;被现状气到的人做的产品&quot;。五人都是面试老手，被 Leetcode 面试
+和&quot;AI 时代还在考手写代码&quot;的双重荒谬逼出来的。痛点描述具体到
+&quot;一年没写代码但天天审代码&quot;——这是 AI 辅助开发渗透后的真实工作形态。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>模拟真实 code review</strong> → 候选人读一个小代码库 + 一个 PR，像上班一样
+写评论指出正确性 bug、重构建议、漏洞</li>
+<li><strong>AI agent 实时回应</strong> → 每条评论由 AI agent 用代码修改或文字回复回应，
+模拟真人工程师；候选人最多 5 轮 revision，或时间到为止</li>
+<li><strong>多维评分</strong> → bug/漏洞覆盖率、沟通质量（反馈是否高效、有建设性）、
+效率（用了多少轮 revision、多少 token、估多少钱）</li>
+<li><strong>按职级和方向定制</strong> → 难度从 intern 到 principal；方向覆盖前端、后端、
+安全、基础设施、平台、分布式系统、数据管道等；可限定语言</li>
+<li><strong>token 效率是独家卖点</strong> → 官网自称第一个能精确显示候选人 token 用量、
+LLM 成本、PR revision 次数的评估平台</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前招工程师考两件事，都在 AI 时代失效了：</p>
+<p><strong>Leetcode 算法题</strong>。考的是&quot;脱离 AI 的纯手写能力&quot;，而现在工程师的真实工作是
+审代码——尤其审&quot;另一个工程师的 AI 生成的代码&quot;，自己手上往往没什么上下文。
+创始人直接点破：&quot;随着 agent 发展，手写代码不会是工程师最难的能力。&quot;</p>
+<p><strong>Take-home assignment（回家作业）</strong>。候选人带着和公司一样的 AI 工具回家做，
+交上来的代码分不清是本人写的还是 AI 写的。PH 评论区有人问&quot;怎么阻止候选人
+自己拿 AI 审一遍再交&quot;，创始人的回答很实在：我们的代码库很小但要全盘理解
+才能查出的 bug 藏在代码库上下文里，候选人把整个代码库喂给自己的 agent
+成本很高——所以审不出来的人会露出破绽。</p>
+<p><strong>它替代的旧动作</strong>：一场 1-2 小时、靠面试官主观印象的打分，变成一次 30 分钟、
+机器客观记录每一轮 revision 的异步评估。评估对象从&quot;写代码&quot;变成&quot;判断代码&quot;。</p>
+<h2>商业模式</h2>
+<p><strong>未披露公开定价，官网只有&quot;book a demo&quot;。</strong></p>
+<p><em>判断：招聘评估是个成熟的付费品类（CoderPad、HackerRank、Codility 都是
+按座席/按评估次数收费），Merge 大概率走同一模式。但&quot;只约演示、没有自服务
+定价&quot;说明产品还在早期，商业闭环还没走通。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>发布平台 2026-08-07 发布：119 upvotes，5 条评论，当日榜单第 10</li>
+<li>5 位创始人，合计 250+ 场面试经验</li>
+<li>候选人在 30 分钟内完成评估；最多 5 轮 AI revision</li>
+<li>用户数、收入、融资：未披露（只有演示预约）</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>五人都是面试老手，痛点具体到场景，动机真实</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓对了方向（考判断而非考产出），且 token 效率维度切中了 AI 时代的新能力要求</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>评估闭环（review loop + 多维评分 + scorecard）设计完整；但&quot;AI 回应候选人&quot;的对线质量未被独立验证</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>好。AI 让 Leetcode 失效已经是招聘方的共识，所有大厂都在找替代方案</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>方向是对的，而且是那种&quot;早晚会有人做&quot;的正确答案。</strong>
+AI 时代招聘的荒谬就在于：候选人用 AI 写代码，面试却在考他不用 AI 写代码。
+Merge 把评估对象换成&quot;审 AI 生成的代码&quot;——这正是岗位上真实发生的事情，
+这一换，评估的有效性逻辑就通了。</p>
+<p><strong>它的两个隐忧都要正视</strong>：
+一是<strong>AI 审 AI 的军备竞赛</strong>。候选人一样有 AI 工具，PH 评论区那句
+&quot;两边最后都是 AI 在给 AI 打分&quot;是每个 AI 招聘产品都绕不开的质疑。
+Merge 的防线是&quot;代码库上下文&quot;，但这条防线能守多久取决于 PR 的复杂度，
+属于可以追赶的设计而非护城河。
+二是<strong>大厂会跟进</strong>。CoderPad、HackerRank 手里有现成客户和题库，
+把&quot;审 PR&quot;做成新题型只是排期问题。Merge 的先发优势窗口大概一个季度到半年。</p>
+<p><strong>给&quot;值得关注&quot;</strong>：洞察对、时机对、创始人对，但商业闭环未走通、
+护城河未建立，且 119 分的热度属于&quot;被验证了方向&quot;而非&quot;验证了产品&quot;。</p>
+<h2>下一步看什么</h2>
+<p>① 有没有公开的付费客户或案例——招聘产品最关键的是企业端口碑
+② 三个月内是否开放自服务定价——从&quot;只约演示&quot;到&quot;可自助下单&quot;是商业闭环信号
+③ CoderPad/HackerRank 是否推出同类&quot;PR 审查&quot;题型——大厂跟进决定窗口还剩多长</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：评估类产品最重要的不是&quot;测什么&quot;，是&quot;测的东西是不是岗位上
+真实发生的事&quot;。任何培训/招聘/认证产品都该做一次这个替换测试——
+把考题换成真实工作流的切片，评估有效性立刻提升。</p>
+<p><strong>话术</strong>：&quot;考判断不考产出&quot;&quot;AI 时代最难的能力是审别人 AI 的代码&quot;——
+把行业痛点压缩成一句反常识判断，是面向招聘方最有效的打开方式。</p>
+<p><strong>定价结构</strong>：未披露，无法借鉴。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 一个被真实工作形态逼出来的正确答案：招人考审代码的能力
+而不是写代码的能力，还顺手把 token 效率变成可量化的评估维度。
+但它还在演示预约阶段，护城河浅、大厂随时会跟进。三个月后拿上面三条验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +221,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +231,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +241,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +251,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +304,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

@@ -8,12 +8,13 @@ inspiration: 「没有广告」是搜索赛道最锋利的一句攻击，因为�
 summary_en: Metaso AI search, pitched on no ads and straight answers.
 inspiration_en: “No ads” is the sharpest attack available in search, because it's exactly what the incumbents
   can't give up.
+priority_review: false
 url: https://www.aicpb.com/product/秘塔AI搜索/webid1D6F37359
 canonical_url: https://aicpb.com/product/秘塔AI搜索/webid1D6F37359
 summary: 秘塔AI搜索，没有广告，直达结果
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

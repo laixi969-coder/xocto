@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Z.ai</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Interact with z.ai and explore the boundless creative world</p>
@@ -80,22 +81,99 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It has usage data; the next question is whether its scale and change will hold.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>For overseas developers, frontier coding capability used to have exactly two routes: subscribe to ChatGPT Plus or Claude ($20–$200/month), or pay OpenAI/Anthropic per-token APIs whose bills scale with…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for capability products going overseas, build the zero-switching-cost integration layer first, brand second. Z.ai&#39;s Anthropic-compatible endpoint lets Claude Code users switch with a ba…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Zhipu AI's overseas front door for the GLM family — officially a &quot;global experience center for GLM models,&quot; practically two things: chat.z.ai for foreign consumers to talk to the model, and api.z.ai for developers (with both OpenAI-compatible and Anthropic-compatible endpoints). The domestic counterparts are Zhipu Qingyan (consumer) and BigModel (API); Z.ai is the same models behind a separate door outside the wall.</p>
+<h2>Who built it</h2>
+<p>Zhipu AI, the Beijing lab spun out of Tsinghua University in 2019. The z.ai domain was registered in April 2024 and positioned as the GLM global experience center (per Huxiu). The company is preparing an IPO and expanding overseas through a partnership with Alibaba Cloud, with offices in the Middle East, Singapore, the UK, and Malaysia, plus joint innovation centers in Indonesia, Vietnam, and elsewhere.</p>
+<p><em>Read: Zhipu is going overseas with an assignment — sell models abroad, build local government agent partnerships, and get GLM's global mindshare up before the IPO. Z.ai is the traffic door and API cash register for that operation.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Chat (chat.z.ai)</strong> → the GLM chat interface for overseas consumers</li>
+<li><strong>API (api.z.ai)</strong> → an OpenAI-compatible endpoint and an Anthropic-compatible endpoint; the latter lets Claude Code switch to GLM by changing one base URL, making Z.ai one of the few true Anthropic API drop-in replacements outside Anthropic itself</li>
+<li><strong>GLM Coding Plan</strong> → quota-based subscriptions for coding; after the April 2026 price adjustment: Lite $18/mo, Pro $72/mo, Max $160/mo</li>
+<li><strong>Free Flash models</strong> → GLM-4.7-Flash and GLM-4.5-Flash are free for all registered accounts; the former has a 203K context window, the largest free window from any major API provider</li>
+<li><strong>ZCode desktop app</strong> → launched July 2026, an &quot;agent-first development environment&quot; built on GLM-5.2</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>For overseas developers, frontier coding capability used to have exactly two routes: subscribe to ChatGPT Plus or Claude ($20–$200/month), or pay OpenAI/Anthropic per-token APIs whose bills scale with usage.</p>
+<p>Z.ai replaces that subscription spend — the Coding Plan starts at $18/month, runs on the same Claude Code configuration with a base-URL swap, and the benchmarks genuinely sit at the top (GLM-5.1 scores 58.4% on SWE-bench Pro, ahead of GPT-5.4 and Claude Opus 4.6). For Zhipu itself, Z.ai replaces the old path where overseas users had to route through the domestic site and get stuck on phone-number verification and compliance.</p>
+<p><em>Read: this is one of the rare &quot;product-level replacement&quot; plays in Chinese model export — not selling &quot;a cheaper Chinese model&quot; but selling &quot;a drop-in replacement for Claude Code.&quot; The Anthropic-compatible endpoint is the smartest single move in the whole playbook.</em></p>
+<h2>Business model</h2>
+<p>Two layers: per-token direct API (GLM-4.5 at roughly $0.6/M input and $2.2/M output) plus the quota-based Coding Plan subscriptions. Overseas subscription prices run 2–3x the domestic tiers (49/149/469 RMB); some overseas developers call the gap a &quot;Western tax.&quot; There were two price increases in 2026 — 30–60% in February and 80–150% in April.</p>
+<p><em>Read: charging 2–3x for the same model outside the wall is &quot;export pricing power&quot; — no domestic-alternative narrative or domestic price anchor overseas, and the model genuinely competes, so it prices like an international leader. That premium window is rare for Chinese model vendors, and it stays open only as long as the SWE-bench ranking holds.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>traffic board: 10.24M visits, +24.56% MoM</strong> (June 2026); on the chatbot board and both China/global overall and growth boards</li>
+<li>GLM-5.1: 745B parameters, 58.4% on SWE-bench Pro (May 2026, ahead of GPT-5.4 and Claude Opus 4.6); GLM-5.2 released July 2026, ranked #1 among globally available models on Code Arena</li>
+<li>Coding Plan pricing (post-April 2026): $18 / $72 / $160 per month, 2–3x domestic</li>
+<li>ZCode desktop launched 2026-07-02; phased rollout was needed after traffic exceeded expectations, with Max users prioritized</li>
+<li>Company level: IPO in preparation, overseas expansion via Alibaba Cloud; team size and revenue: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High: Tsinghua-linked team, GLM family iterated continuously since 2019, models are the company's core asset</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>High: the Anthropic-compatible endpoint plus free large-context Flash models attacks the developer's switching cost directly — more effective than pure price cuts</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>High: top of SWE-bench Pro and Code Arena, plus a no-Nvidia training angle as a geopolitical differentiator</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Good: the window where coding tools shift from subscriptions to API quotas, and a Chinese model stands at the top on hard metrics for the first time</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Z.ai is the cleanest export signal among Chinese foundation-model companies right now: the model genuinely competes, the pricing genuinely dares, and the growth is real traffic.</strong></p>
+<p>At 10.24M visits with +24.56% MoM, this is healthy growth for a product of its size — not a viral spike, but a steady inflow of developers and users. There is no MoM anomaly, no dressed-up positioning; it is three things: a strong enough model, cheap enough access, and an easy enough integration.</p>
+<p>Two things are actually worth watching. First, visits are still climbing after two consecutive price increases (February and April) — that shows demand rigidity, but it also pushes more overseas users toward the domestic tier, and Zhipu is already fighting that arbitrage. Second, if Anthropic tightens the compatibility protocol or the endpoint gets restricted, the foundation of the drop-in play wobbles.</p>
+<p><em>Read: the transferable point for the reader is direct — if your product's strength is model capability, the first move overseas is not a redesigned UI; it's a zero-migration-cost integration layer. A compatibility endpoint is worth more than a Chinese-language marketing page.</em></p>
+<h2>What to watch next</h2>
+<p>① Whether visit MoM stays positive a full quarter after the price increases — does demand rigidity survive the price?
+② Stability of the Anthropic-compatible endpoint — if the protocol tightens, the drop-in narrative changes
+③ Whether GLM's rankings keep beating GPT/Claude — SWE-bench and Code Arena are the reason overseas developers pay 2–3x; when the ranking drops, the premium window closes</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for capability products going overseas, build the zero-switching-cost integration layer first, brand second. Z.ai's Anthropic-compatible endpoint lets Claude Code users switch with a base-URL edit — an order of magnitude more effective as acquisition than &quot;cheaper Chinese model&quot; messaging. Any company selling models/APIs can follow the sequence: compatible with the leader → free small quota to try → paid to raise limits.</p>
+<p><strong>Positioning language</strong>: the &quot;drop-in replacement&quot; framing in the docs is directly borrowable — it translates technical specs into switching cost.</p>
+<p><strong>Pricing structure</strong>: the quota-based Coding Plan separates &quot;chat users&quot; from &quot;API users&quot; as two willingness-to-pay curves, with per-token API as the floor and subscriptions collecting the loyal — a dual-track structure worth referencing. The 2–3x wall-outside pricing is an experiment in Chinese vendors' pricing power; don't copy it blindly, but track whether it holds.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> It is one of the few items in this batch where &quot;data is real + growth is healthy + hard technical metrics rank at the top&quot; all hold at once, and the reference point any Chinese model export must be measured against. Next, watch demand elasticity after the price increases and the stability of the compatibility endpoint — those two decide whether the playbook is replicable.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=General%20assistants">
-        16 in General assistants →
+        15 in General assistants →
       </a>
     </div>
     <ul class="rows">
@@ -105,7 +183,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">fyagent</span>
             <span class="row-desc">Personal portable digital persona for the AI era, carrying models, skills, and prompts across tools.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 204</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 204</span>            </span>
           </div>
         </a>
       </li>
@@ -115,7 +193,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">why</span>
             <span class="row-desc">A deterministic curiosity graph built on probabilistic model.</span>
             <span class="row-tail">
-<span class="tag sig">Community score 5</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 5</span>            </span>
           </div>
         </a>
       </li>
@@ -125,7 +203,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">AI 搜索｜百度</span>
             <span class="row-desc">Baidu&#39;s AI search, pitched as one place to work through complicated questions.</span>
             <span class="row-tail">
-<span class="tag sig">Monthly visits 44.85M</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Monthly visits 44.85M</span>            </span>
           </div>
         </a>
       </li>
@@ -135,7 +213,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DeepSeek - AI 智能助手</span>
             <span class="row-desc">DeepSeek&#39;s mobile assistant: search, writing, reading, problem solving, translation.</span>
             <span class="row-tail">
-<span class="tag sig">MAU 139.08M</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">MAU 139.08M</span>            </span>
           </div>
         </a>
       </li>
@@ -188,7 +266,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

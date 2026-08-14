@@ -8,6 +8,7 @@ inspiration: 知识图谱在 AI 时代第二次翻红，这次是因为 agent �
 summary_en: ''
 inspiration_en: Knowledge graphs are having a second moment, this time because agents need a structured
   model of the world.
+priority_review: false
 url: https://github.com/codejunkie99/graph-engineering
 canonical_url: https://github.com/codejunkie99/graph-engineering
 summary: 'Graph engineering for AI agents: the 9-stage knowledge-graph pipeline (translated from SEU''s
@@ -15,7 +16,7 @@ summary: 'Graph engineering for AI agents: the 9-stage knowledge-graph pipeline 
   workflows'
 first_seen: '2026-07-23T14:10:49Z'
 last_seen: '2026-08-12T03:21:52Z'
-status: pending_filter
+status: analyzed
 sources:
 - github
 sightings:

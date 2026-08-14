@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>AndroMeld</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Bring a continuity-style experience to Android and Mac</p>
@@ -81,25 +82,163 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>&#34;Moving things between an Android phone and a Mac&#34; used to be a chain of compromises:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when hunting for a market seam, first find experiences that a big ecosystem has already taught users, then translate them into the other ecosystem — users do not need to be educated, on…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A Continuity-style experience for the &quot;Android phone + Mac&quot; combination: Android
+apps mirrored into separate native-like Mac windows, app handoff, Android storage
+in Finder, two-way notifications and clipboard — with all data traveling directly
+between devices, never through a cloud server.</p>
+<h2>Who built it</h2>
+<p>Ruoxin He, an independent developer. Public track record: creator of IceBox
+(5M+ downloads on Google Play) and FilterBox. This time he is wiring the Android
+ecosystem into the Mac.</p>
+<p><em>Read: someone who has shipped a 5M-download app is not a beginner testing the
+water. IceBox was exactly this kind of gap-filler (more control over Android
+TV-box devices), and AndroMeld is the same judgment applied again — the seam left
+by platform exclusivity is worth sewing repeatedly.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>App-by-app mirroring</strong> → not whole-screen mirroring in one fixed window like
+scrcpy; multiple Android apps, each in its own resizable, native-feeling Mac
+window at the same time</li>
+<li><strong>Handoff</strong> → continue an app that is already open on your phone</li>
+<li><strong>Input and control</strong> → type with the Mac keyboard, navigate with trackpad
+gestures; launch Android apps from Spotlight, see them in the Dock, pin app
+shortcuts to the desktop</li>
+<li><strong>Finder integration</strong> → browse Android storage in Finder with drag-and-drop and
+Quick Look; drop files directly into the current Android app</li>
+<li><strong>Notifications and clipboard</strong> → synced both ways, flattening the boundary
+between the two systems</li>
+<li><strong>Connections</strong> → USB and Wi-Fi with automatic reconnection; APK preview and
+install</li>
+<li><strong>An MCP server</strong> → for tools like Claude Code and Codex, which effectively lets
+an agent operate the phone</li>
+<li><strong>A free Web App</strong> → control up to four Android apps from a browser at once</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: relay screen/audio streams, clipboard
+content or files through a cloud server; no account system — all data travels
+directly between devices.</p>
+<h2>What old behavior it replaces</h2>
+<p>&quot;Moving things between an Android phone and a Mac&quot; used to be a chain of
+compromises:</p>
+<p><strong>scrcpy</strong> — the developer's path: command line and adb, whole-screen mirroring
+in one fixed window, one app at a time, no Finder integration, and ordinary
+people will never install it.</p>
+<p><strong>Cloud relays like AirDroid</strong> — accounts required, data through servers,
+sending sensitive files is nerve-racking, and the experience is web-like rather
+than local.</p>
+<p><strong>&quot;Emailing files to yourself&quot;</strong> — AirDrop is unavailable (Apple ecosystem
+lock-in), so the workaround was email to self, WeChat file-transfer, cloud-drive
+relay, and copy-paste back and forth. Notifications and clipboard had no
+cross-device solution at all.</p>
+<p>AndroMeld replaces the whole chain: scrcpy's capability in a GUI normal people
+can use, cloud relays replaced by direct connection, &quot;email files to myself&quot;
+replaced by dragging in Finder. It is sewing the seam Apple created with its own
+closed ecosystem — a seam Apple will never close.</p>
+<h2>Business model</h2>
+<p>Published on the Mac App Store; the official line is &quot;every feature is free to
+try,&quot; plus a completely free Web App. Full pricing (subscription vs. one-time,
+exact price) is <strong>not disclosed</strong>.</p>
+<p><em>Read: independent developer plus one-time purchase (most likely) is the standard
+path for this category — no cloud cost, no account system, marginal cost near
+zero, which gives pricing flexibility. But see the ceiling too: the Android 16+
+requirement plus the fact that Mac users who also use Android is a small pool. Like
+IceBox, this is a &quot;small but stable&quot; seam business.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Author's prior work: IceBox, 5M+ downloads on Google Play</li>
+<li>Device requirement: Android 16+ devices, USB or Wi-Fi</li>
+<li>Platforms: Mac App Store (product), plus a free Web App (browser control of up
+to 4 apps)</li>
+<li>Price, users, downloads: <strong>not disclosed</strong></li>
+<li>launch around 2026-08-05; no upvote data captured</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The author has shipped a 5M-download gap-filler before; device-ecosystem seams are his specialty</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>The per-app windows + handoff + Finder combination is exactly Apple Continuity translated to Android; precise direction</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Direct transfer, no accounts, an MCP server, Finder integration; substantial build, and the author has delivery precedent</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>A stable seam. The Android-plus-Mac dual-user population persists, and Apple will never close it</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The most complete sample of a &quot;seam-sewing&quot; product.</strong> The trick is not
+building features; it is translating an experience that already exists in a big
+vendor's ecosystem (Continuity) to a place where it does not. Every feature here
+has a counterpart in Apple Continuity — per-app windows, handoff, Finder,
+clipboard — which is far more reliable than inventing features from scratch.</p>
+<p><strong>Three signals worth noting.</strong> First, direct connection plus no accounts is a
+selling point that hits privacy-sensitive users at their decision point. Second,
+an MCP server for Claude Code and Codex — letting agents operate the phone — is
+more forward-looking than the mirroring itself. Third, the author's 5M-download
+precedent means he knows how to distribute this kind of tool.</p>
+<p><strong>Stay sober, though.</strong> The Android 16+ requirement cuts off many devices; the
+Mac-plus-Android dual-user pool is small; and the ecosystem already has partial
+substitutes. The ceiling is &quot;small but stable,&quot; not explosive growth.</p>
+<h2>What to watch next</h2>
+<p>① First-month downloads and ratings on the Mac App Store — retention and word of
+mouth are the hard metrics for a seam tool
+② Whether the Android 16+ floor gets lowered (broadening the usable device base)
+③ Evidence that the MCP server is actually adopted by agent toolchains — that is
+the extra future curve beyond being a mirroring tool</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when hunting for a market seam, first find experiences that a
+big ecosystem has already taught users, then translate them into the other
+ecosystem — users do not need to be educated, only migrated. The best starting
+point for a gap-filler is &quot;the other side already has it.&quot;</p>
+<p><strong>Positioning language</strong>: &quot;Bring a Continuity-style experience to Android and
+Mac&quot; names an unknown feature with a known product (Continuity) at zero
+explanation cost. Stealable.</p>
+<p><strong>Pricing structure</strong>: free to try, a free Web App, direct transfer with no
+accounts — earn trust first, then sell on experience; and make &quot;does not go
+through the cloud&quot; an explicit selling point.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Right seam, complete experience, an author with a 5M-download
+track record, and two points — direct transfer with no accounts, and the MCP
+server — that go further than its peers. But it is destined to be a small-pool
+business; verify it by first-month downloads and word of mouth, not by a growth
+curve. It is another validation of the &quot;seams left by platform lock-in&quot; thesis.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +258,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +268,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +278,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +331,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

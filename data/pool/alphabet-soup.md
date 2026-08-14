@@ -8,12 +8,13 @@ inspiration: 轻量多人游戏的传播靠的是「叫上朋友」这个动作�
 summary_en: ''
 inspiration_en: Light multiplayer games spread on the act of inviting a friend, not on how good the game
   is.
+priority_review: false
 url: https://alphabetsoup.club
 canonical_url: https://alphabetsoup.club
 summary: a multiplayer game, build the longest word to win
 first_seen: '2026-08-09T20:15:45Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

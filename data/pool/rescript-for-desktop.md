@@ -8,12 +8,13 @@ inspiration: 对标 30 美元月费的成熟产品，攻击角度是「免费 + 
 summary_en: ''
 inspiration_en: Attacking a mature $30-a-month product with free plus data-never-leaves-your-machine.
   Privacy is becoming something you can price.
+priority_review: false
 url: https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text
 canonical_url: https://producthunt.com/products/rescript-edit-videos-like-you-edit-text
 summary: A free, open source, Descript alternative. Runs on-device.
 first_seen: '2026-08-07T04:56:04Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: watching
+status: analyzed
 sources:
 - producthunt
 sightings:

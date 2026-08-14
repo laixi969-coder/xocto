@@ -7,12 +7,13 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://www.aicpb.com/product/Google-Gemini/appid1D6F33D41
 canonical_url: https://aicpb.com/product/Google-Gemini/appid1D6F33D41
 summary: ''
 first_seen: '2026-08-13T11:49:13Z'
 last_seen: '2026-08-13T11:49:13Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

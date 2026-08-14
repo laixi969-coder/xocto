@@ -8,12 +8,13 @@ inspiration: 角色扮演在东亚市场的接受度明显更高，这是文化�
 summary_en: Korean AI roleplay product.
 inspiration_en: Roleplay lands noticeably harder in East Asian markets. That's a category opening created
   by culture, not technology.
+priority_review: false
 url: https://www.aicpb.com/product/제타(zeta)-다양한-AI-캐릭터와-나만의-스토리/appid1D6F36F41
 canonical_url: https://aicpb.com/product/제타(zeta)-다양한-AI-캐릭터와-나만의-스토리/appid1D6F36F41
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

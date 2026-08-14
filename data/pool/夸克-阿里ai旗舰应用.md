@@ -8,12 +8,13 @@ inspiration: 从浏览器转型成 AI 入口，是把已有流量重新装进新
 summary_en: Quark, Alibaba's flagship AI app.
 inspiration_en: 'Turning a browser into an AI front door is the classic move: repackage traffic you already
   have.'
+priority_review: false
 url: https://www.aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139
 canonical_url: https://aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139
 summary: AI搜索拍题写作生图，小说网盘浏览器
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

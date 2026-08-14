@@ -8,13 +8,14 @@ inspiration: 连续性才是短剧工业化的卡点，单集好拍，十集不�
 summary_en: ''
 inspiration_en: Continuity is the real bottleneck in industrializing short drama. One good episode is
   easy; ten that hold together is the valuable part.
+priority_review: false
 url: https://github.com/Hao0321/ai-short-drama
 canonical_url: https://github.com/Hao0321/ai-short-drama
 summary: AI short-drama story architecture, series continuity, production packs and resumable generation
   workflows for Codex and Claude Code.
 first_seen: '2026-08-09T13:28:48Z'
 last_seen: '2026-08-14T04:47:02Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

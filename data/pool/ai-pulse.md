@@ -8,12 +8,13 @@ inspiration: agent 在后台跑的时候用户是焦虑的，一个状态指示�
 summary_en: ''
 inspiration_en: People are anxious while an agent works out of sight. A status light solves a feeling,
   not a function.
+priority_review: false
 url: https://github.com/leog/ai-pulse
 canonical_url: https://github.com/leog/ai-pulse
 summary: AI Pulse a fake LED strip beside the macOS Dock that shows agent status
 first_seen: '2026-08-10T22:07:41Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

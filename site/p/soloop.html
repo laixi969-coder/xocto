@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Soloop</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">给单人创业者的审批优先型 Agent 操作系统</p>
@@ -82,25 +83,142 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前单人创业者跑公司是&#34;一个人打全场&#34;：一小时做计划、一小时写代码、 一小时做冷启动触达，循环往复——三个角色都做，三个都做得浅； 更糟的是&#34;什么都自己来&#34;意味着带宽锁死，做产品的没时间找用户， 找用户的没时间读反馈。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：做多 agent 产品，把&#34;人审批&#34;做成机制而不是设置项—— 每次执行前给一个&#34;推荐的下一个动作 + 理由&#34;，批准才动手。 这比&#34;全自动 + 事后可干预&#34;更能建立信任，也更符合高风险的落地场景。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给单人创业者的&quot;审批优先&quot;Agent 操作系统：一个 AI CEO 定计划、
+AI CTO 写代码、AI CMO 找用户，但每一步要动手之前都先问你一声。</p>
+<h2>做这个东西的人</h2>
+<p>PH 页面由 Zac Zuo 发起，创始人 Wenhao Yu 在 launch 评论区自述——
+此前在大厂做产品，团队能解决难题，但大量时间耗在等决策上：
+会议、季度评审、汇报、交接。AI 编码工具让他一个人能出第一版，
+但&quot;选受众、找用户、读反馈、决定下一步&quot;这些事没人替他做，于是做了 Soloop。
+团队规模、公司实体：未披露。</p>
+<p><em>判断：创始人的痛点叙事非常具体——不是&quot;缺工具&quot;，而是&quot;一个人要同时扮演
+CEO/CTO/CMO 三个角色，且三个都做不深&quot;。这是 solo founder 的真实处境，
+也是这个产品选择做&quot;代理公司&quot;而不是&quot;单点助手&quot;的原因。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>AI CEO</strong> → 给一句业务描述，生成带周里程碑的路线图；
+它的工作不是写代码写文案，而是把计划攥在手里，标出每周哪些决定需要你判断</li>
+<li><strong>AI CTO</strong> → 评估和拆解构建任务：一个功能是一天的活、一周的活，
+还是一个月都填不满的坑——给非技术创始人一个校准工时估算的参考系</li>
+<li><strong>AI CMO</strong> → 负责分发：launch 计划、渠道选择、触达文案，
+默认设计成低成本或零成本渠道，贴合 solo founder 没营销预算的现实</li>
+<li><strong>审批优先的运营循环</strong> → 把创始人输入的东西变成&quot;一个下一步动作 + 理由&quot;，
+等批准才执行；发布、研究、花钱、部署、改代码，全部等创始人点头</li>
+<li><strong>工作区记忆</strong> → 回复、用户、代码改动、失败尝试都留在工作区，
+影响下一次推荐</li>
+<li><strong>每日审批循环</strong> → 每天汇总 AI 团队做了什么 + 少数需要你拍板的决定</li>
+</ul>
+<p><strong>当前分工</strong>：Plan / Research / Social / Coding 四类代理，社媒执行目前以 Twitter/X 为主。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前单人创业者跑公司是&quot;一个人打全场&quot;：一小时做计划、一小时写代码、
+一小时做冷启动触达，循环往复——三个角色都做，三个都做得浅；
+更糟的是&quot;什么都自己来&quot;意味着带宽锁死，做产品的没时间找用户，
+找用户的没时间读反馈。</p>
+<p>而通用 agent 框架（CrewAI、AutoGen 等）的问题是反向的：它们能并行跑很多 agent，
+但把&quot;协调&quot;这个任务丢回给创始人——你要在多个 chat 之间搬上下文、对齐计划。</p>
+<p>Soloop 替代的是&quot;一个人三班倒 + 自己当胶水&quot;的工作方式：
+把计划、执行、分发编排成一个围绕单一公司目标运转的团队，
+创始人的角色从&quot;什么都做&quot;变成&quot;批准所有事&quot;。</p>
+<h2>商业模式</h2>
+<p><strong>未公开定价。</strong> 第三方测评（ToolWorthy）确认页面上没有可见的定价表、
+免费额度或付费计划信息，需要走注册流程或联系团队。</p>
+<p><em>判断：launch 早期的产品用&quot;先锁用户再定价&quot;很常见。但审批优先类工具的
+收费逻辑通常应该是按使用量（agent 执行次数）或按月订阅——
+审批疲劳（一天点五十次批准）会是留存的关键变量，定价必须和这个变量挂钩。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>发布平台 2026-08-07 launch：345 票、53 条评论，当日第 2 名</li>
+<li>创始人公开表示&quot;正在和早期用户一起打磨&quot;，产品处于 early 阶段</li>
+<li>定价、用户数、收入、融资：均未披露</li>
+<li>第三方测评也确认：定价信息不透明，需注册后查看</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>创始人就是目标用户（大厂出来、一个人做产品），痛点叙事具体可信</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;审批优先&quot;把&quot;agent 全自动&quot;和&quot;人肉执行&quot;之间那个被忽略的中间态做成了产品核心</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>早期阶段，评论区有用户反馈&quot;CEO/CMO/CTO 不先给全貌只给细碎动作&quot;，体验还不成熟</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>正当口：AI 编码让&quot;一个人做出产品&quot;成为可能，接下来所有人都会撞上&quot;一个人跑公司&quot;的墙</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>&quot;审批优先&quot;这个词组本身说出了 2026 年 agent 产品最大的取舍。</strong></p>
+<p>过去一年大多数 agent 工具押注&quot;全自动&quot;：设个目标走开，祈祷它别跑偏。
+Soloop 押相反的注：创始人仍然要做需要品味、风险承受力和远见的决定，
+产品把这些决定用每日审批循环接住。评论区那个&quot;发明了一个叫 Teri 的假员工
+还给她分配工单&quot;的段子，正是审批缺失的代价——agent 会编造，
+审批是最后的防线。</p>
+<p><strong>可迁移的规律：agent 的信任机制 = 产出草稿，不产出行径。</strong>
+评论区里一位跑了 25 个 AI 营销 agent 的创始人总结了让多 agent 保持理智的两条铁律：
+agent 只出草稿不出动作；缺信息时提问而不是编造。
+Soloop 把这两条做进了产品机制，这比任何&quot;安全&quot;宣传都有说服力。</p>
+<p><strong>真正的风险是审批疲劳。</strong> 当批准变成反射动作，审批就失去了意义——
+一天点五十次批准，留下的审计记录反而成了&quot;有人审过&quot;的假象。
+Soloop 目前没有展示对抗这个问题的结构性设计（批量、风险分级、
+只给 diff），评论区已经有人在问这个问题。这是它从&quot;早期产品&quot;
+到&quot;可信赖工具&quot;之间必须跨过的一道坎。</p>
+<p><strong>另一个观察点</strong>：评论里最真诚的呼声是&quot;把已有产品接进 CMO 流程&quot;，
+说明创始人找到的用户是&quot;已经做出东西、缺分发&quot;的人，而不是&quot;想从零开公司&quot;的人。
+如果产品往这个方向收敛，定位会更锋利。</p>
+<h2>下一步看什么</h2>
+<p>① 定价是否公开、按什么计费——决定&quot;审批优先&quot;能不能变成可持续生意
+② 是否推出对抗审批疲劳的结构化机制（批量批准、风险分级、只显示 diff）
+③ 三个月后用户的真实留存：多少人真的每天在用它&quot;跑公司&quot;，还是试用后弃用</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做多 agent 产品，把&quot;人审批&quot;做成机制而不是设置项——
+每次执行前给一个&quot;推荐的下一个动作 + 理由&quot;，批准才动手。
+这比&quot;全自动 + 事后可干预&quot;更能建立信任，也更符合高风险的落地场景。</p>
+<p><strong>话术</strong>：&quot;宁可慢一点，也要让人保持控制权&quot;——把取舍说出口
+（approval-first 本身就是取舍宣言），比堆功能列表更能让人记住产品立场。</p>
+<p><strong>定价结构</strong>：未披露，暂无参考。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 审批优先是对&quot;agent 失控焦虑&quot;的正面对症，
+PH 第 2 名的热度也说明它踩中了群体情绪。但产品还早：
+定价没公开、体验粗糙（用户反馈先给细碎动作不先给全貌）、
+审批疲劳的问题没有答案。它值得观察的方向是
+&quot;多 agent 协作的信任机制&quot;这个 2026 年的核心命题。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +238,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +248,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +258,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -152,9 +270,9 @@
         <span class="pager-n">Seekee - Safe&amp;Fast Browser</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/sosiee-ai换脸与ai头像.html">
+      <a class="pager-item pager-next" href="../p/soup-cli.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">Sosiee: AI换脸与AI头像</span>
+        <span class="pager-n">Soup CLI</span>
       </a>
     </div>
   </nav>
@@ -193,7 +311,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

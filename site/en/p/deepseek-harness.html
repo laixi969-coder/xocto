@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>deepseek-harness</h1>
+      <span class="verdict v-strong">Worth studying</span>
     </div>
 
     <p class="lede">DeepSeek&#39;s official plugin framework, everything is a plugin.</p>
@@ -82,18 +83,137 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Building a coding agent used to mean picking a closed harness (Claude Code, Codex, Cursor) and extending it within the limits of tools and skills — the replaceable scope stopped at that layer. The loo…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you are at the platform-versus-tool crossroads, copy this layering — make the core loop a replaceable layer, plugin-ify models/tools/UI, give away the shell at a loss, then collect o…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>The official formula is &quot;Model + Harness = Agent&quot;: it does not make models and it is not just a chat
+UI, but a local agent runtime in which tools, skills, sessions, sandboxes, storage, loops,
+scheduling, and the UI are all swappable plugins.</p>
+<h2>Who built it</h2>
+<p>DeepSeek's official repository (<code>deepseek-ai/deepseek-harness</code>). Developer preview v0.1 released
+2026-08-13, fully open-sourced under MIT. The underlying Cordis plugin system draws its ideas from
+a paper co-authored by Peking University and DeepSeek, &quot;A Programming Paradigm for Spatiotemporal
+Composability&quot;. According to Zhidx, team lead Cui Tianyi publicly said this is a preview version
+and may be rough.</p>
+<p><em>Read: when a model company open-sources the layer above the model, it is an announcement — the
+competition has moved to the harness layer, and it intends to be the default base there. On the
+same day it first announced V4-Pro's GA and API price increases, then shipped Harness two hours
+later. That sequence was calculated.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Four runtime modes</strong> → Standard (full toolset), Code mode (the model writes TypeScript programs
+that orchestrate multi-round tool calls), Minimal (a shell and a file editor only, for fair model
+benchmarking), and Creator (inspect the live runtime, test plugins in memory, compose new modes)</li>
+<li><strong>Every run is traceable</strong> → everything the model sees — system prompts, reasoning, tool calls and
+results, subagent scheduling, every context injection — lands in an append-only session log,
+inspectable by source in the Trajectory view; resume, fork, search, and replay all run on that
+same event stream</li>
+<li><strong>Everything is a plugin</strong> → models, tools, skills, sessions, sandboxes, storage, loops,
+scheduling, and the UI are all Cordis plugins, composed in configuration without touching the
+harness source</li>
+<li><strong>Local sandbox</strong> → the repo ships a Landlock sandbox runtime (<code>native/</code>); it is not prompt-based
+guardrailing</li>
+<li><strong>One command to start</strong> → <code>npx @deepseek-ai/dsh web</code> launches a local Web UI</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Building a coding agent used to mean picking a closed harness (Claude Code, Codex, Cursor) and
+extending it within the limits of tools and skills — the replaceable scope stopped at that layer.
+The loop, scheduling, sessions, and UI were black boxes, and the model was an API bolted to the
+harness.</p>
+<p>DSH pushes the replaceable boundary down to the entire runtime; the model itself becomes a plugin
+you can swap in configuration. Old picture: a team picks a harness, stuffs tools into it, and the
+model vendor is just an interface. New picture: model and harness are two decoupled layers, each
+swappable on its own. DeepSeek's bet is the combination nobody closed-harness vendors can offer:
+the cheapest tokens plus an open harness.</p>
+<h2>Business model</h2>
+<p>The harness is free and open source; the money is in model calls. On 2026-08-13 it announced
+peak/off-peak API pricing: peak hours (09:00–12:00 and 14:00–18:00 Beijing time) cost double the
+off-peak rate, effective 2026-08-17.</p>
+<p><em>Read: give away the shell so that swapping the brain becomes a config line — exactly the world a
+model company with the cheapest tokens wants to live in. Free is not charity; it is acquisition.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>73,360 stars / 6,265 forks</strong> (scraped 2026-08-14); stars passed 10k within half an hour of the
+announcement and 30k+ by the time media covered it</li>
+<li>12,000+ commits, version v0.1.0-rc.5; 221 packages/apps published to npm as public starting
+2026-08-13</li>
+<li>DeepSeek-V4-Pro GA shipped the same day</li>
+<li>Team size and enterprise adoption: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A model company building the runtime above the model fits perfectly; the risk is that &quot;developer tools&quot; is an organizational capability it has never had</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Everything is a plugin&quot; correctly pushes the replaceable boundary from the tool layer into the runtime; the append-only session log as a debugging foundation is what most harnesses fail to do</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>12,000+ commits, an RC version, 221 public npm packages, a Landlock sandbox. Engineering scale, not a demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Enters after Claude Code/Codex validated the market, and plays the open-source-plus-cheap-tokens combo. Timing and price are both on point</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is the standard move in the model-company war for the harness layer, but more radical than
+the peers: even the agent loop, scheduling, and UI are plugins.</strong> What the radicalism buys is
+clear — the barrier to entering the ecosystem drops to &quot;one person can write a plugin,&quot; and a
+plugin ecosystem is precisely what it needs most right now (which is why the DSH plugins reviewed
+in the same batch are worth reading together).</p>
+<p>For practitioners: DSH turns &quot;swapping the model&quot; into a config line, pushing model-selection cost
+toward zero. If you sell models, this is the worst possible script. If you build products on top of
+models, this is the best foundation available.</p>
+<p><strong>The cost</strong>: v0.1 is explicitly a preview with breaking changes coming; the early plugin ecosystem
+will be uneven almost by definition. Its current value is architectural demonstration, not a
+plug-and-play product.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars keep climbing from the 70k-class in three months — launch momentum versus sustained
+absorption
+② How many plugins in the dsh-plugin topic and the dsh-external catalog are actually used by
+companies (plugin count is not plugin quality)
+③ The cadence of breaking changes — breaking the interface every two weeks is normal early; still
+doing it three months out means no stability has arrived</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you are at the platform-versus-tool crossroads, copy this layering — make the
+core loop a replaceable layer, plugin-ify models/tools/UI, give away the shell at a loss, then
+collect on usage of the other layer (model calls). The prerequisites: marginal cost of the other
+layer is low enough, and you can stomach uneven ecosystem quality early on.</p>
+<p><strong>Pricing structure</strong>: peak/off-peak pricing is worth stealing — double at peak, half off-peak,
+which shifts demand to idle hours without touching the headline price, effectively expanding revenue
+outside the peak. Especially applicable to AI products whose inference costs have their own
+peak/off-peak curve.</p>
+<p><strong>Positioning language</strong>: none. The site is engineering documentation; nothing to steal.</p>
+<h2>Verdict</h2>
+<p><strong>Strong pick.</strong> One of the most consequential events in agent infrastructure in 2026; anyone
+building AI products should spend an hour on its architecture docs. Come back in three months and
+check the three indicators above to see whether the ecosystem actually materialized.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -125,22 +245,22 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
       <li>
-        <a href="../../p/stoaexchange.html">
+        <a href="../../p/mcp-server.html">
           <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
+            <span class="row-name">mcp-server</span>
+            <span class="row-desc">MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the category, and you can check it with one API call.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 574</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +309,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

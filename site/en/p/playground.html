@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>playground</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Open-source playground to red-team AI agents against public prompts</p>
@@ -82,18 +83,124 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Previously, testing an agent&#39;s defenses meant three routes: the internal security team (fixed viewpoints, predictable blind spots), an outsourced red team or pen-test firm (expensive, weeks-long, ofte…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you&#39;re building a community or platform product, copy this three-part outsourcing mechanism — the task must be concrete (guard a secret), the information transparent (system prompts …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Red-team testing for AI agents turned into a weekly public challenge: a live agent with real tools
+guards a secret, its system prompt is fully public, whoever breaks it wins, and the winning attack
+transcript is published for everyone to study.</p>
+<h2>Who built it</h2>
+<p>Fabraix, a company building runtime security for AI agents. The playground started as an internal
+tool for testing their own guardrails; because &quot;people who think like us only find the same
+vulnerabilities,&quot; they open-sourced it as a public challenge ground. The repo lives at
+github.com/fabraix/playground and the HN submitter, zachdotai, is a team member.</p>
+<p><em>Read: a security company open-sourcing an attack tool is both a way to collect community attack
+data and a piece of positioning — &quot;we publicized our own playground, so we're not afraid of
+scrutiny.&quot; The marketing motive and the genuine need are the same thing here.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Weekly live challenges</strong> → deploys an agent with real tools (web search, browsing) tasked with
+protecting a secret; the system prompt is fully visible and the community tries to break through</li>
+<li><strong>Community-driven selection</strong> → anyone proposes a challenge — scenario, agent, objective —
+the community votes, and the top choice moves toward going live</li>
+<li><strong>Public post-mortems</strong> → when a challenge ends, the winning conversation and guardrail logs are
+archived publicly, turning every attack into a reusable security sample</li>
+<li><strong>Server-side evaluation</strong> → guardrail judgment runs server-side to prevent client-side
+tampering; the agent runtime is being open-sourced separately</li>
+<li><strong>Runs locally</strong> → React frontend with versioned challenge configs; <code>npm install</code> gets a local
+dev environment</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Previously, testing an agent's defenses meant three routes: the internal security team (fixed
+viewpoints, predictable blind spots), an outsourced red team or pen-test firm (expensive,
+weeks-long, often tens to hundreds of thousands of dollars), or automated scanners (nearly useless
+against semantic attacks that &quot;look normal but step out of bounds&quot;). Playground's replacement
+mechanism: offload the testing cost to an incentivized crowd — prizes plus reputation — and keep
+the attack results. This is security testing experimenting with crowd-sourcing instead of hiring.</p>
+<h2>Business model</h2>
+<p><strong>The playground itself is open source and free; Fabraix's revenue comes from a commercial product.</strong>
+The company positions itself as &quot;runtime security for AI agents&quot;; the specific product and pricing
+are not public.</p>
+<p><em>Read: the public challenge is an acquisition and trust tool, not the business itself. The real
+asset is the accumulated attack-transcript library — data that no internal team could assemble on
+its own budget.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>73 stars, 11 forks.</strong> Created 2026-02-07, MIT, TypeScript</li>
+<li>HN post reached ~30 points (pool records 13), 13+ comments, high-quality discussion</li>
+<li>First challenge: make an agent call a tool it was explicitly told never to call; someone broke it
+in about 60 seconds. Second challenge shifted to data exfiltration with harder defenses</li>
+<li>Reports claim weekly prize pools above $100,000, but Fabraix's own launch posts never mention
+prize details — unverified</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Dogfooded internal tool; the team lives with agent security daily — the pain is their day job</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Public system prompts + public transcripts&quot; turns attacks into an accumulating asset, worth far more than star counts</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Server-side judging, versioned challenge configs, runtime open-sourced separately — built for public testing</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Agents are entering production but security budgets don't exist yet; half a step early, right direction</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Worth watching, because it is producing data nobody else can produce.</strong> The public archive of
+attack transcripts plus guardrail logs is the most valuable thing here — in security, the moat has
+always been &quot;having seen enough attacks.&quot; The crowd-sourcing model gives Fabraix a continuous
+stream of attack samples at low cost, and every published post-mortem doubles as market education.</p>
+<p><strong>Watch whether the restraint holds up.</strong> The &quot;guard a secret&quot; setup is a controlled scenario, far
+from real production agents with many tools, long-term memory, and user identities. It validates
+whether public attack testing finds real problems; it is a long way from &quot;tested, therefore safe.&quot;</p>
+<h2>What to watch next</h2>
+<p>① Challenge cadence and the growth of the transcript library — does the public archive grow
+steadily in three months
+② Whether the prize mechanism actually pays out and keeps attracting strong attackers (the
+unverified $100K weekly figure is the open question)
+③ Whether anyone pays for Fabraix's commercial product, or the playground is purely a lead-gen tool</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you're building a community or platform product, copy this three-part
+outsourcing mechanism — the task must be concrete (guard a secret), the information transparent
+(system prompts public), and the output accumulated (transcripts archived). Remove any one of the
+three and the crowd-sourcing degenerates into paid trivia. Also: open-sourcing your internal tool
+as an acquisition entry is itself the strongest trust statement available.</p>
+<p><strong>Positioning language</strong>: none. Engineering launch copy; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The mechanism has real value — public transcripts are data others can't
+assemble — and the team is honest, even publishing the transcripts of attacks against their own
+LLM-as-a-judge defenses. Keep tracking whether it stays a marketing engine and whether the prize
+narrative materializes. Re-check the three items in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -104,6 +211,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +242,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +300,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

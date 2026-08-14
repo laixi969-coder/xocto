@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Track habits</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Track habits, metrics, time, and whatever you think worth tracking.</p>
@@ -82,22 +83,143 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Two old behaviors. First, checkmark habit apps (Streaks and the like): binary state only, so a near-miss like &#34;9k steps&#34; gets recorded as failure, real effort is erased, and motivation erodes. Second,…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: the counterintuitive design for tracking products — &#34;skip&#34; is a deliberately kept escape hatch. Real effort is not binary; giving users a &#34;pause, not fail&#34; option sustains long-term use…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A habit tracker that refuses to stop at checkmarks — check, number, time-of-day, and
+pick-from-a-list sit side by side, so you see &quot;the numbers and the time&quot; rather than
+just &quot;done or not.&quot;</p>
+<h2>Who built it</h2>
+<p>Individually built by bohdanstefaniuk (Habit Pocket, habitpocket.io). The author's own
+pain, as stated: most trackers only know done/not-done, but he wants to log actual
+effort — walking 9k steps today when the goal is 10k is still progress; three days of
+camping without running should not destroy a streak, hence a &quot;skip&quot; feature. iOS and
+web, offline-first, not open-sourced yet, with a plan to open-source and support
+self-hosting.</p>
+<p><em>Read: the classic personal tool built for the maker's own pain. Four record types and
+a forgiving streak are the selling points — small and honest, but no team and no growth
+engine.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Four record types</strong> → a yes/no check, a target number with a unit (steps, weight,
+water), a time of day (what time you woke up), and a custom pick-list (mood, energy,
+workout type)</li>
+<li><strong>Grid view</strong> → every habit on one table, the whole week at a glance</li>
+<li><strong>Forgiving streaks</strong> → a blank day breaks the streak; a skip day pauses it instead
+of breaking it</li>
+<li><strong>Overlay charts</strong> → sleep over mood, steps over energy, on one chart, to find what
+moves together</li>
+<li><strong>Apple Health auto-fill</strong> → steps and weight arrive on their own on iOS</li>
+<li><strong>Ask AI about your data</strong> → MCP connection to Claude or ChatGPT; ask in plain words
+what changed this week</li>
+<li><strong>Offline-first</strong> → an operations-log model that reconciles on reconnect</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Two old behaviors. First, checkmark habit apps (Streaks and the like): binary state
+only, so a near-miss like &quot;9k steps&quot; gets recorded as failure, real effort is erased,
+and motivation erodes. Second, keeping metrics in Excel — the author's own words: &quot;I
+wanted something friendlier than an Excel spreadsheet&quot;: records anything but has zero
+experience.</p>
+<p>It replaces &quot;either a fake win or a full failure&quot; binary logging, and the
+&quot;records-everything-but-painful&quot; generic spreadsheet. The core difference is the data
+model: &quot;time of day&quot; and &quot;numbers&quot; are first-class citizens instead of everything being
+squashed into a boolean.</p>
+<h2>Business model</h2>
+<p>Freemium. Free: 5 habits, yes/no and numeric types, one auto chart per habit, 60 days
+of stats, multi-device sync. Pro at $3.99/month: unlimited habits, time-of-day and
+select types, AI access (MCP), Apple Health, candle chart and custom chart builder.
+Lifetime at $49. No Android yet (planned). Data exports as CSV/JSON at any time;
+deleting the account wipes everything immediately.</p>
+<p><em>Read: restrained and honest pricing; $49 lifetime is the common indie-developer
+choice. But no reminder notifications and no Android means the growth engine is weak.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>HN Show HN: 6 points / 7 comments</strong> (2026-08-13). Very little traction</li>
+<li>iOS and web; no Android yet</li>
+<li>Not open-sourced; the author says open source + self-hosting is planned</li>
+<li>Users, downloads, paid conversion: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author uses it himself; the pain is real, and the motives behind number-logging and skip design all line up</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Record real effort, not a binary state&quot; has insight, but the category is crowded</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Offline operations-log and MCP integration — not rough engineering</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Habit tracking is a red ocean; four record types alone will not differentiate a market</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The most copyable thing is the &quot;skip, not fail&quot; mechanism.</strong> Real-world effort is not
+binary. Three days camping without running is not abandoning running. Giving &quot;pause&quot; an
+expression that does not break a streak sustains long-term use better than punitive
+checking-in — a general design lesson for any retention-oriented product.</p>
+<p><strong>&quot;Record numbers and time&quot; rebels against binary check-ins, but it cuts both ways.</strong>
+Numeric logging is truer and more analyzable, but it costs more to enter. A check is a
+second; a number is three. Three seconds of friction will shed most users after ninety
+days. It bets on the small-but-real niche of people willing to log real data.</p>
+<p><strong>The MCP interface is the smartest differentiation.</strong> Letting a user's AI read habit
+data directly over MCP upgrades the tracker from &quot;logging tool&quot; to &quot;personal data
+base.&quot; The headroom of that interface is much larger than the four record types — once
+the data layer opens, whether the tool is a habit tracker barely matters.</p>
+<p><strong>But 6 points plus a red-ocean category caps its ceiling.</strong> No reminders, no Android,
+no social layer, and the head of the habit-tracking market is already taken by
+checkmark apps. A differentiated data model only carves out a small market.</p>
+<h2>What to watch next</h2>
+<p>① Whether it actually open-sources as planned — open source + self-hosting is the only
+clear growth story it has
+② Whether Android ships — no Android locks out half the market
+③ Whether any paying user shows up publicly — for an indie product, the standard is
+survival, not growth</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: the counterintuitive design for tracking products — &quot;skip&quot; is a
+deliberately kept escape hatch. Real effort is not binary; giving users a &quot;pause,
+not fail&quot; option sustains long-term use better than punitive streaks. Numeric and
+time-of-day record types also carry more analytical value than a plain check.</p>
+<p><strong>Positioning language</strong>: none. The copy is a feature list.</p>
+<p><strong>Pricing structure</strong>: Free / $3.99 monthly / $49 lifetime, AI behind the paid tier,
+data export always free — a replicable structure for consumer tools.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> An honest little product with a useful mechanism, but a red ocean, no
+Android, no reminders, and 6 points of traction. Treat it as a reference, not a target.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -107,7 +229,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +239,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +249,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +259,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +312,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

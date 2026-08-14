@@ -9,13 +9,14 @@ summary_en: Production-grade Agent Skills for AI coding agents, covering plannin
   and more.
 inspiration_en: Packaging engineering practices as composable skills standardizes AI coding agents, transferable
   to any workflow.
+priority_review: false
 url: https://thiientv.github.io/godmode
 canonical_url: https://thiientv.github.io/godmode
 summary: Production-grade Agent Skills for AI coding agents—composable workflows for planning, TDD, debugging,
   review, UI/UX, releases, incidents, and evals.
 first_seen: '2026-08-13T04:06:22Z'
 last_seen: '2026-08-14T04:55:58Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

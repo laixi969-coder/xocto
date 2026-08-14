@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>stratopi</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Weather balloon to the stratosphere with a Raspberry Pi computer</p>
@@ -81,22 +82,139 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Getting anything to the stratosphere used to mean a commercial high-altitude balloon service (priced per payload, thousands of dollars) or a vendor high-altitude kit. This project replaces the mystery…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when a solo project wants collaboration, list &#34;what I can do / what I cannot do / what I need&#34; explicitly (here: GIS/GPS, 3D modeling, helium hookups) — more effective than a generic &#34;c…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A DevOps engineer straps a Raspberry Pi, multiple cameras, and sensors to a helium
+weather balloon, sends it to 100,000 ft, films the whole round trip, recovers the
+payload, and open-sources the entire plan.</p>
+<h2>Who built it</h2>
+<p>GitHub user nodesocket, who describes himself as the founder of Elastic Byte and a
+DevOps engineer, and admits in the README that this is &quot;definitely uncharted
+territory for me personally.&quot; A pure hobby project, Apache-2.0, under the
+stratopi-org organization. It surfaced on HN (7 points, 0 comments per the
+pool record).</p>
+<p><em>Read: this is a proof that one person can do it, not a product. Its value is not the
+code quality; it is the way a cross-disciplinary system (aviation, structure, GPS,
+RF, video) got reduced to an executable checklist — with the parts the author does
+not know honestly flagged.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Hardware</strong>: latex helium balloon + Raspberry Pi + multiple RunCam 5 Orange
+cameras + BME280 (temperature/pressure/humidity) + Waveshare GPS + battery, with an
+altitude goal of 100,000 ft (30,480 m)</li>
+<li><strong>Software</strong>: four independent systemd services — battery (charge and temp),
+environmental (BME280), location (GPS lat/lon/altitude/speed/course), and
+communication (wirelessly pushing PostgreSQL data to Slack)</li>
+<li><strong>Ground</strong>: a parts list (PARTS.md with Amazon links), camera firmware (RunCam
+v2.0.3), test docs (camera/mass/power), and a launch-and-recovery plan (Tennessee)</li>
+<li><strong>Compliance</strong>: README links the FAA approval requirements and regulation docs, and
+notes the rules could shift at any time given the spy-balloon saga</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Getting anything to the stratosphere used to mean a commercial high-altitude balloon
+service (priced per payload, thousands of dollars) or a vendor high-altitude kit.
+This project replaces the mystery gate around high-altitude ballooning: an open
+checklist turns the whole thing into something &quot;anyone with too much free time&quot; can
+follow — software, parts procurement, and compliance all laid bare.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> The README states zero financial incentive; all parts bought at retail.
+No revenue of any kind.</p>
+<h2>Hard numbers</h2>
+<ul>
+<li>11 stars, 0 forks (org page), 375 commits, last commit 2026-04-11</li>
+<li>HN: 7 points, 0 comments (captured 2026-08-11 per the pool record)</li>
+<li>Python 3 + standard PyPI packages + PostgreSQL + systemd; deliberately no Docker
+(&quot;KISS&quot;)</li>
+<li>Whether a launch and recovery has actually succeeded: not disclosed (the README
+lists a Tennessee launch plan and asks for help)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>DevOps by trade, so the software side (poll-write-push services) is home turf; hardware/aviation honestly flagged as new territory</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>There is no product, but the project organization has insight: publicly asking for help on the parts you do not know</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>systemd + PostgreSQL + Slack push, as KISS as it gets; small, readable code</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Irrelevant — this is not a commercial project and does not compete on timing</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is not a product; it is proof that one person can do it.</strong> It earns a spot in
+the watchlist not for commercial value but for how it demonstrates organizing a hard
+solo project. Three things worth keeping:</p>
+<p><strong>First, decompose a complex system until it is executable.</strong> Camera capture, GPS,
+sensors, and return telemetry are split into four single-purpose systemd services
+with one data flow: poll → write to PostgreSQL → push. Containers were deliberately
+skipped because the goal is surviving a hostile environment, not a pretty
+architecture.</p>
+<p><strong>Second, honestly flag what you do not know.</strong> He states aviation and flight physics
+are areas he is &quot;negligently overlooking details&quot; in, and the README publicly asks for
+help: 3D modeling, GIS/GPS, video editing, helium hookups. When a solo project wants
+collaborators, listing &quot;what I can do / what I cannot do / what I need&quot; works better
+than a vague &quot;PRs welcome.&quot;</p>
+<p><strong>Third, zero financial incentive resets all expectations.</strong> Eleven stars is a failure
+for a business and a fine outcome for this project — eleven people found it
+interesting. Judging it as a product produces the wrong verdict.</p>
+<p><em>Read: for someone building AI products, projects like this are not a benchmark — they
+are morale. A reminder that the range of what one person can do is larger than you
+assume. Hold zero commercial expectations.</em></p>
+<h2>What to watch next</h2>
+<p>① Whether launch and recovery happen, with flight data/video made public — the only
+real milestone
+② Whether stars cross 100 in three months — community validation of the open plan
+③ Whether anyone reproduces it from the checklist — a checklist's value is that
+someone else can follow it</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when a solo project wants collaboration, list &quot;what I can do / what
+I cannot do / what I need&quot; explicitly (here: GIS/GPS, 3D modeling, helium hookups) —
+more effective than a generic &quot;contributions welcome.&quot;</p>
+<p><strong>Documentation structure</strong>: a parts list with purchase links, every software module
+documented as a data flow (poll → PostgreSQL → Slack), each test as its own page — a
+&quot;reproducible checklist&quot; gets projects actually built by others, not just starred.</p>
+<p><strong>Positioning language</strong>: none. It is an engineering README; there is nothing to steal.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Not a commercial product, but worth archiving as a template for how a
+hardcore solo project gets organized. Its real output is the checklist, not the code.
+There is no commercial trajectory to track — only the launch.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -106,7 +224,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +234,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +307,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

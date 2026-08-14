@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>fyagent</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">AI时代的个人随身数字人格，跨工具携带模型、技能和提示词。</p>
@@ -82,22 +83,126 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前换 AI 工具等于一切从头配置。模型供应商、API key、MCP 服务、技能、提示词…… 每个工具各自存一份，散落各处，改起来要命，换工具后 AI 对你一无所知。 用户要么在多个工具里反复维护同一套配置，要么干脆只守着一个工具不换。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：多客户端并存是真实状态，把&#34;用户配置&#34;从&#34;工具绑定&#34;里解耦出来， 是任何多端产品的通用架构。给用户&#34;先预览 diff 再写入&#34;的导入体验， 比直接覆盖安全得多，也是建立信任的细节。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把散落在每个 AI 工具里的模型、账号、技能和提示词收进一个本地桌面应用，
+换工具不再从头开始——它是&quot;AI 身份&quot;的随身行李。</p>
+<h2>做这个东西的人</h2>
+<p>fy-agent 组织，核心提交者 <code>python-rust</code>。项目前身是 VibeKey——一个想把
+AI 配置装进实体键盘的硬件想法，后来放弃硬件改做桌面软件，并脱胎于开源项目
+CC Switch。Tauri（Rust 后端 + React 前端），覆盖 Windows / macOS / Linux。</p>
+<p><em>判断：从&quot;实体键盘&quot;到&quot;跨平台桌面&quot;，团队在早期就撞上了硬件分发的高墙，掉头很果断。
+带着 CC Switch 的基因说明这是从既有用户里长出来的，不是从零造的需求。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>管模型</strong> → 统一管理供应商与模型选择，预设或自定义兼容接口，一键切换</li>
+<li><strong>管连接</strong> → 集中管理 MCP 服务，同步到支持的 AI 工具</li>
+<li><strong>管技能与提示词</strong> → Skills 和 Prompts 一处维护，不再每个工具里重复安装配置</li>
+<li><strong>管调度</strong> → 本地代理转发请求、故障转移、模型可用性检查</li>
+<li><strong>管账本</strong> → 汇总 token 用量与预估费用</li>
+<li><strong>管延续</strong> → 从上次会话和工作区继续，配置备份与同步</li>
+<li><strong>支持的客户端</strong>：Claude Code、Claude Desktop、Codex、Gemini CLI、Grok Build、
+OpenCode、OpenClaw、Hermes</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前换 AI 工具等于一切从头配置。模型供应商、API key、MCP 服务、技能、提示词……
+每个工具各自存一份，散落各处，改起来要命，换工具后 AI 对你一无所知。
+用户要么在多个工具里反复维护同一套配置，要么干脆只守着一个工具不换。</p>
+<p>fyagent 用一份本地数据（SQLite，存于 <code>~/.fyagent</code>）把&quot;我的 AI 配置&quot;和
+&quot;某个具体工具&quot;解耦——配置只写一次，再分发到各工具。导入配置时走 <code>fyagent://</code>
+协议，先展示变更内容再决定是否写入。</p>
+<h2>商业模式</h2>
+<p><strong>源码可用（source-available），不是 OSI 定义的开源。</strong> 自有组件和修改用
+PolyForm Noncommercial License 1.0.0，非商业免费；商业使用需另行取得书面授权。
+继承自 CC Switch 的部分保持 MIT。</p>
+<p><em>判断：典型的&quot;个人工具走社区、企业功能走授权&quot;双轨。现在只看到免费侧，
+授权侧连价格页都没有，说明商业化还停在想法阶段。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>204 star / 8 fork / 73 open issue</strong>，累计 2457 次提交，2026-08-13 仍有提交</li>
+<li>覆盖 Windows / macOS / Linux 的 x64 与 arm64</li>
+<li>macOS 构建为 ad-hoc 签名、未经 Apple 公证——官方自己提示安装前核对校验和</li>
+<li>用户数、付费情况：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>从 CC Switch 迁移而来，有既有用户基础，但团队身份模糊</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓准了&quot;换工具从头再来&quot;这个真实痛点，把配置层解耦是正解</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>Tauri + Rust + SQLite + 原子写入，配置导入先展示 diff 再落盘，工程态度在线</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>agent 客户端正在爆炸，用户同时开两三个客户端的场景在变大，时机不差</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>它赌的是&quot;AI 身份&quot;会成为下一个要随身携带的东西。</strong>
+模型、技能、提示词、工作方式——这些在工具之间是通用的，绑定在任何一个客户端
+上都是一种浪费。这个方向成立，且 CC Switch 的传承说明它已经有了一批存量用户。</p>
+<p><strong>但&quot;数字人格&quot;是叙事，不是功能。</strong> 现在交付的能力是配置管理：管模型、
+管 MCP、管技能。这些都解决&quot;配置分散&quot;，没有解决&quot;AI 了解我&quot;。
+&quot;随身数字人格&quot;的完整形态应该是行为记忆的迁移——换工具后 AI 仍然知道你
+怎么工作、怎么思考。那是另一层难度，目前的账本、会话延续只是起步。</p>
+<p><strong>73 个 open issue 是信号也是警报。</strong> 对 204 star 的仓库，issue 密度偏高，
+说明需求多、维护压力也大。如果 issue 以功能请求为主，是好事；如果以 bug 为主，
+说明工程债在累积。</p>
+<p><strong>授权模式是双刃剑。</strong> PolyForm Noncommercial 能拦住商用竞争者，
+但商业授权&quot;另行洽谈&quot;没有价格锚点，会吓退潜在付费者。这类工具的天花板
+取决于它能不能成为 agent 工作流的&quot;默认配置层&quot;，而默认配置层通常是
+免费且开放的。</p>
+<h2>下一步看什么</h2>
+<p>① 73 个 open issue 里功能请求与 bug 的比例——需求密度决定这是工具还是项目
+② 商业授权页何时出现、怎么定价——只有免费侧说明还没人付钱
+③ 三个月后客户端覆盖列表有没有新增——跟不上新 agent 工具就退回 CC Switch 的角色</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：多客户端并存是真实状态，把&quot;用户配置&quot;从&quot;工具绑定&quot;里解耦出来，
+是任何多端产品的通用架构。给用户&quot;先预览 diff 再写入&quot;的导入体验，
+比直接覆盖安全得多，也是建立信任的细节。</p>
+<p><strong>话术</strong>：无。README 是工程文档，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：PolyForm Noncommercial + 商业书面授权的两段式，社区版免费、
+商业版谈出来的结构适合工具类产品先圈用户再变现。但注意它连价格页都还没有，
+这套结构目前只解决了&quot;怎么合法用&quot;，没解决&quot;怎么收钱&quot;。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 痛点真实、工程不糙，但它更像是 CC Switch 的延续而不是新物种，
+&quot;数字人格&quot;的叙事和交付的能力之间有落差。记下来，盯客户端覆盖和商业授权两条线。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=%E9%80%9A%E7%94%A8%E5%8A%A9%E6%89%8B">
-        通用助手 共 16 个 →
+        通用助手 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -107,7 +212,7 @@
             <span class="row-name">why</span>
             <span class="row-desc">基于概率模型构建的确定性好奇心图谱。</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 5</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 5</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +222,7 @@
             <span class="row-name">AI 搜索｜百度</span>
             <span class="row-desc">百度的 AI 搜索，主打一站式解决复杂问题</span>
             <span class="row-tail">
-<span class="tag sig">月访问 44.85M</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">月访问 44.85M</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +232,7 @@
             <span class="row-name">DeepSeek - AI 智能助手</span>
             <span class="row-desc">DeepSeek 的移动端助手，搜索写作阅读解题翻译</span>
             <span class="row-tail">
-<span class="tag sig">月活 139.08M</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">月活 139.08M</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +242,7 @@
             <span class="row-name">DeepSeek</span>
             <span class="row-desc">DeepSeek 的对话产品，国内网站访问量第一（4.84 亿）</span>
             <span class="row-tail">
-<span class="tag sig">月访问 483.80M</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">月访问 483.80M</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +295,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

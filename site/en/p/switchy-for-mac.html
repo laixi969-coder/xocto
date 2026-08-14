@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Switchy for Mac</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Switch your Magic Keyboard, Trackpad, and Mouse between Macs</p>
@@ -81,25 +82,149 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Moving one set of Apple accessories between two Macs used to mean three options, each with its own pain:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Positioning language: position your paid product next to the free option that &#34;does not fit&#34; — the official blog walks through Universal Control&#39;s requirements (same Apple ID, both awake, same network…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A menu bar click moves the same Magic Keyboard, Trackpad, and Mouse from one Mac to
+another — no more manual unpairing and re-pairing, and no cable tricks.</p>
+<h2>Who built it</h2>
+<p>Independent developer Benhur Senabathi, who built it after buying himself the three
+Apple accessories, switching between work and personal Macs, and getting fed up with
+manual pairing (the origin story notes colleagues who bought a brand-new trackpad for
+each computer just to avoid the hassle). Self-launched 2026-08-11: 85
+upvotes, daily rank #18. Site: mangobons.com/switchy. Already packaged as a Homebrew
+cask.</p>
+<p><em>Read: a product bitten by its own very specific annoyance — the annoyance repeats
+three times a day and costs a few minutes each time, so solving it is worth $12.99.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li>Bonjour auto-discovery of other Macs running Switchy on the local network</li>
+<li>One menu command moves the whole set of accessories — it changes which Mac <em>owns</em>
+the Bluetooth accessories, not merely forwards input</li>
+<li>Supports Magic Keyboard (including the Touch ID model), Magic Trackpad, and Magic
+Mouse</li>
+<li>Purely local: no account, no analytics, no tracking; external traffic is limited to
+update checks and Lemon Squeezy license validation</li>
+<li>Simple pricing: $12.99 one-time, lifetime license for up to 5 Macs, including 1.x
+minor updates</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: none of the KVM stuff (no screen switching, no
+file transfer, no cross-platform control).</p>
+<h2>What old behavior it replaces</h2>
+<p>Moving one set of Apple accessories between two Macs used to mean three options, each
+with its own pain:</p>
+<ol>
+<li><strong>Manual Bluetooth re-pairing</strong> (free, slow): forget the device in Bluetooth
+settings, wait for it to appear on the other Mac, re-pair. Thirty seconds to a
+minute per device, three rounds for the keyboard, trackpad, and mouse.</li>
+<li><strong>The cable trick</strong> (free, faster): plug the accessory into the new Mac via
+Lightning/USB-C and macOS pairs it in about two seconds — but one cable moves one
+device at a time and you need the cable handy.</li>
+<li><strong>Apple Universal Control</strong> (free, but often unusable): it <em>shares</em> input rather
+than <em>switching</em> Bluetooth ownership, and requires both Macs awake, signed into the
+same Apple Account, and on the same network. Different Apple IDs on work and
+personal machines kills it outright, and it is useless if you want to carry the
+keyboard to another room.</li>
+</ol>
+<p>Switchy replaces the repeat daily chore (a few minutes, three devices, multiple
+rounds) and the money spent buying a second set of accessories per computer.</p>
+<h2>Business model</h2>
+<p>One-time $12.99 (lifetime license, up to 5 Macs, 3-day full-featured trial), no
+subscription. Sold through Lemon Squeezy. Revenue and sales: not disclosed.</p>
+<p><em>Read: for a Mac tool that hurts once a day, a $12.99 one-time price is right — a lower
+psychological barrier than a subscription, higher than the user's own time cost.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>launch 2026-08-11: 85 upvotes, 4 comments, daily rank #18</li>
+<li>Homebrew cask listed, current version 1.1.4 (another source shows 1.1.5 build 79);
+Homebrew analytics show 7 installs in 30 days</li>
+<li>Competitor Magic Switch is $14.99 and does not support the Trackpad, one device at a
+time</li>
+<li>User count, sales, revenue: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Built from the founder's own daily pain, with a real customer portrait (the colleague buying a second trackpad) observed firsthand</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Cleanly separates &quot;switch Bluetooth ownership&quot; from Universal Control's &quot;share input&quot; — precise positioning</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Fully local, no telemetry, Homebrew-packaged, macOS 14+. Complete engineering</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>It survives exactly as long as Apple does not ship a system-level accessory switcher; the business is a bet on platform inertia</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A textbook &quot;annoyance this specific&quot; tool.</strong> Single pain point, one-time pricing, no
+subscription, no telemetry, no cloud. The boundaries are clear enough that a user
+knows whether to buy after reading three sentences. Products like this live for years
+on word of mouth — which is also the only distribution it has, since there is no
+growth team and no content engine.</p>
+<p><strong>The ceiling is written on its face</strong>: the entire value rests on Apple not shipping a
+&quot;switch accessories&quot; button in macOS. The day System Settings grows one, this goes to
+zero. Its real survival space is people who cannot use Universal Control (different
+Apple IDs, or wanting to carry the keyboard to another room) — real, but small.</p>
+<p><strong>What to copy if you build AI products</strong>: restraint. A new tool does not need to be a
+platform. A $12.99 one-time tool can sustain an indie developer for a long time — if
+the pain hits &quot;once a day&quot; frequency and the user can judge the value themselves.</p>
+<h2>What to watch next</h2>
+<p>① Whether Homebrew installs cross 100 in three months (currently 7 per 30 days — too
+small to indicate any word-of-mouth compounding beyond the PH spike)
+② Whether independent reviews or third-party user testimonials appear — today it is
+just the official blog and directory records
+③ Platform moves: if Apple ships a built-in equivalent in a macOS update, the product
+goes to zero</p>
+<h2>What you can take from it</h2>
+<p><strong>Positioning language</strong>: position your paid product next to the free option that
+&quot;does not fit&quot; — the official blog walks through Universal Control's requirements (same
+Apple ID, both awake, same network) and lets the reader classify their own scenario.
+Comparative positioning beats a feature list.</p>
+<p><strong>Pricing structure</strong>: one-time purchase plus a device limit (5 Macs) plus free minor
+updates — a subscription-free model for an indie tool. Subscriptions are a rejection
+trigger for something used occasionally.</p>
+<p><strong>Product logic</strong>: a new tool only does a small slice of one old task, with the
+boundary (&quot;I do not do KVM&quot;) stated explicitly — that keeps the user's trust cost low.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, with a defined ceiling.</strong> Clear positioning, fair pricing, clean
+engineering; the only external risk is how long Apple's platform inertia lasts. A
+one-time-purchase tool has no growth data, so it lives on word of mouth — check back in
+three months against Homebrew installs and third-party reviews.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +264,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -151,9 +276,9 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="pager-n">StepShot</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/talkie-personalized-ai-chats.html">
+      <a class="pager-item pager-next" href="../../p/the-new-firecrawl-mcp.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">Talkie: Personalized AI Chats</span>
+        <span class="pager-n">The new Firecrawl MCP</span>
       </a>
     </div>
   </nav>
@@ -192,7 +317,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

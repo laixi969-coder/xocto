@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Opencodex</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">a free open-source coding agent for VSCode</p>
@@ -81,15 +82,136 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Getting &#34;agentic coding&#34; inside VS Code previously meant two paths, each with a barrier:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: &#34;the plugin is the cheapest distribution channel&#34; is true, with one condition — the differentiator must be felt within 30 seconds. Opencodex uses &#34;installs and works without login&#34; as t…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A free, open-source coding agent inside VS Code — no account, no API key; pick a free
+model and the AI starts editing your code in the editor.</p>
+<h2>Who built it</h2>
+<p>GitHub user matonhp5108, a personal project. MIT license, TypeScript. First commit
+2026-08-08; 12 commits in two weeks; 41 stars / 10 forks. Published on the VS Code
+Marketplace (extension ID: EvaanChowdhry.opencodex-agent).</p>
+<p><em>Read: another &quot;plugin as distribution&quot; VS Code agent, walking the path Cline already
+validated — the user is already in the editor, so you never have to talk them into
+switching tools. The README is thorough, which suggests competitor research was done
+before writing code, not a throwaway demo.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Zero-friction start</strong> → default OpenCode free models; no account, no API key;
+install, pick a model, go</li>
+<li><strong>Multiple providers</strong> → OpenRouter (<code>:free</code> models), Groq, Google Gemini, Mistral,
+Ollama (local); keys live in VS Code SecretStorage, never written into settings.json</li>
+<li><strong>Full agent capability</strong> → read/search/create/edit/delete files, run commands,
+diff preview, persistent terminals (alive across calls), subagents (delegating
+exploration/review/implementation), MCP tool calls, and multi-step plan display</li>
+<li><strong>Three approval modes</strong> → Ask (everything confirmed) / Auto edits (files automatic,
+commands confirmed) / Open access (fully automatic); destructive commands always
+require confirmation</li>
+<li><strong>Skills marketplace</strong> → discover, preview, and install <code>SKILL.md</code> packs from
+SkillsMP or GitHub, active across all workspaces</li>
+<li><strong>Project memory</strong> → per-folder chat history, restore points (roll back to the state
+before an agent action), a <code>.opencodex/memory.md</code> memory file, and token usage stats</li>
+</ul>
+<p><strong>Safety boundary</strong>: file tools are confined to the workspace, and credential files
+like <code>.env</code> are blocked.</p>
+<h2>What old behavior it replaces</h2>
+<p>Getting &quot;agentic coding&quot; inside VS Code previously meant two paths, each with a
+barrier:</p>
+<p><strong>Install Cline / Copilot.</strong> Copilot requires login and subscription; Cline requires
+an API key or subscription. For developers who do not want to pay or commit to a
+single vendor, that is the exit point.</p>
+<p><strong>Leave the editor for Codex CLI / Claude Code terminal.</strong> Powerful but workflow
+fractured — code in the editor, agent in the terminal, hop back and forth.</p>
+<p>Opencodex cuts the barrier to zero: no signup, no payment, swappable models (local
+Ollama included), all inside VS Code. It replaces the old act of &quot;pay or register
+before you can use an agent.&quot;</p>
+<h2>Business model</h2>
+<p><strong>Free and open source — no cloud service, no paid tier.</strong> MIT, personal project.</p>
+<p><em>Read: there is no business model and not even a business-model hypothesis. It rides
+the free distribution channel of the VS Code Marketplace. The realistic outcomes for
+this kind of project are two: it gains enough users to become part of the ecosystem,
+or the author's enthusiasm runs out and it stops at some version.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>41 stars / 10 forks.</strong> MIT, TypeScript, first commit 2026-08-08, 12 commits</li>
+<li>Published on the VS Code Marketplace (EvaanChowdhry.opencodex-agent)</li>
+<li>HN 6 points / 1 comment (2026-08-11) — near-zero discussion heat</li>
+<li>Providers: OpenCode (free, default) / OpenRouter / Groq / Gemini / Mistral / Ollama</li>
+<li>Requirement: VS Code 1.106.0+; cloud providers need a connection</li>
+<li>Downloads, user count: not disclosed (Marketplace not read)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Personal project; the pain (paywalls + vendor lock-in) is real but not unique to the founder — average fit</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>The differentiation — zero friction, multi-provider, local models — is clear but consists entirely of copyable features; no proprietary insight</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Complete README, broad feature surface (subagents/MCP/skills marketplace/restore points); serious engineering</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>The VS Code agent field is crowded (Cline, Continue, and others); a newcomer needs differentiation or head start, and neither is obvious here</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The data is thin, so the call follows the data: Unproven.</strong>
+HN at 6 points, 41 stars, no user data — by the editorial rule, real traction is not
+yet demonstrated, and the honest grade is watch-list.</p>
+<p><strong>But the direction deserves a note</strong>: Cline already proved there is real demand for
+&quot;open-source coding agents in VS Code.&quot; Opencodex's differentiator is &quot;free, no
+signup, models freely swappable including local Ollama.&quot; In a 2026 of subscription
+fatigue, that pitch has a real audience — the question is how much of that audience
+stays with this tool.</p>
+<p><strong>The biggest risk is not competition, it is maintenance.</strong> A solo-maintained open
+source VS Code extension lives or dies on the author's spare time. VS Code updates,
+MCP evolves — miss one cycle and it decays. Half of these projects die on &quot;the author
+stopped updating.&quot;</p>
+<h2>What to watch next</h2>
+<p>① Whether download counts and ratings appear on the Marketplace — the real user signal
+② Whether stars pass 200 in three months — a solo agent project that cannot cross 200
+is essentially parked as a hobby
+③ The stability of the free-model providers (OpenCode / Groq free tier) — free tiers
+change constantly, and they are the foundation of the &quot;zero friction&quot; pitch</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: &quot;the plugin is the cheapest distribution channel&quot; is true, with one
+condition — the differentiator must be felt within 30 seconds. Opencodex uses &quot;installs
+and works without login&quot; as the first perception point; that ordering is correct.</p>
+<p><strong>Positioning language</strong>: none. The README is a feature list; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The direction has real market backing (Cline proved it), and the
+zero-friction pitch is clear, but the current data is nowhere near enough to judge
+whether it takes off — 6 points of heat, no user data, solo maintenance. Come back in
+three months against the three checks above, focusing on Marketplace downloads and
+whether stars pass 200.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +228,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +238,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +248,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +258,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +311,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

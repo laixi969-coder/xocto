@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Reference</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">给 AI agent 用的本地语义搜索</p>
@@ -82,18 +83,119 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前 coding agent 找代码靠两件事：一是 grep / ripgrep 循环——agent 反复搜索、读文件、 猜位置，一个简单的&#34;上次怎么实现的限流&#34;可能要烧掉几千 token 和多轮工具调用； 二是人肉回忆——开发者自己翻历史对话、翻旧项目，凭记忆找&#34;我当时是怎么写的&#34;。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：给 AI agent 做工具的，把&#34;结果带回源引用&#34;做成默认行为—— 每个答案都指回文件、函数、行号，让 agent 的输出可以被验证，而不是一段泛泛文本。 这既是技术特性，也是信任机制：用户（和 agent）只有能追到证据才敢用。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给 coding agent 用的本地语义搜索：把你的代码和文件索引在机器上，
+agent 通过 MCP server 直接查，结果精确到具体函数，全程不联网。</p>
+<h2>做这个东西的人</h2>
+<p>独立开发者 Rahul Thennarasu，自述为 NASA JPL 软件工程实习生、即将入职 fab2。
+他在 发布平台 的创始人自述里说得很直白：每次开新的 Claude Code 会话都要烧掉大量 token 和上下文，
+于是自己做了这个工具。</p>
+<p><em>判断：这是典型的&quot;狗粮型&quot;产品——作者是被自己的开发工作流咬过才动手的，
+所以对&quot;agent 找代码到底卡在哪&quot;有第一手体感。独立开发者做开发工具，
+动机通常比公司立项更真实，但也意味着维护资源和分发渠道都有限。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>本地语义索引</strong> → 在本机跑轻量嵌入模型，索引文件和代码，什么都不上传</li>
+<li><strong>实时自动重索引</strong> → 文件一保存索引就更新，搜索结果跟着正在写的代码走</li>
+<li><strong>代码感知分块</strong> → 用 tree-sitter 按函数和语法单元切块，结果能引用到具体代码区域，而不是整篇文章</li>
+<li><strong>内置 MCP server</strong> → 暴露 /search、/explain、/find_similar、/check_doc_drift 四个端点，
+Claude Code 等 agent 可以直接查，不用烧 token 跑 grep 循环</li>
+<li><strong>带出处的回答</strong> → 每个结果都指回文件和函数，替代&quot;AI 泛泛而谈&quot;</li>
+<li><strong>文档漂移检查</strong> → /check_doc_drift 标记文档和代码脱节的地方</li>
+</ul>
+<p><strong>形态</strong>：Mac 桌面应用（Tauri 构建），GitHub 开源，launch 期间免费。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前 coding agent 找代码靠两件事：一是 grep / ripgrep 循环——agent 反复搜索、读文件、
+猜位置，一个简单的&quot;上次怎么实现的限流&quot;可能要烧掉几千 token 和多轮工具调用；
+二是人肉回忆——开发者自己翻历史对话、翻旧项目，凭记忆找&quot;我当时是怎么写的&quot;。</p>
+<p>这两件事的共同点是贵：token 贵、时间贵、而且答案不一定可靠。
+Reference 替代的是&quot;让 agent 自己 grep 自己猜&quot;这个低效环节，
+把检索变成一个本地的、有引用的、一次查询就能定位到函数层级的外挂记忆。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> 开源，launch 期间免费，没有定价页，没有云端服务。</p>
+<p><em>判断：这类&quot;本地检索 + MCP server&quot;工具典型的变现路径是之后加云功能——
+多机器同步索引、团队共享、离线嵌入模型的性能升级。但开源 + 免费的大环境下，
+开发者工具的付费意愿通常很低，能否走到付费层存疑。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>发布平台 launch（2026-08-05），第一周 75 票</li>
+<li>GitHub 开源，star 数未核实到确切数字；团队规模、用户数、收入：未披露</li>
+<li>功能面：本地嵌入模型 + tree-sitter 分块 + MCP server 四个端点</li>
+<li>平台：macOS 桌面应用（Tauri）</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者是 agent 重度用户，痛点真实，且是&quot;自己用着好才开源&quot;的独立项目</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓对了&quot;agent 找代码烧 token&quot;这个真问题；把 MCP server 当分发渠道是聪明做法</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>Tauri 桌面应用 + tree-sitter + 本地嵌入模型，工程完成度像认真做的产品而非 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>正当口。Claude Code 等 agent 大规模落地，token 成本和检索质量同时成为瓶颈</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是一个方向正确的&quot;外部记忆层&quot;。</strong></p>
+<p>Coding agent 的上下文窗口是有限资源，而代码库一直在长大。
+Reference 的思路是把&quot;检索&quot;从 agent 的推理过程里拆出来，
+变成一个本地的、带引用的、O(1) 的查询动作。这个拆法是对的——
+它让 agent 不需要把整个文件读进上下文就能定位到函数，省的是真金白银的 token。</p>
+<p><strong>可迁移的规律：给 agent 用的工具，分发渠道不是 UI，是协议。</strong>
+Reference 不要求用户打开它的界面，而是把自己挂进 Claude Code 的 MCP 配置里，
+agent 在推理过程中自己调用。对做 agent 周边工具的人来说，
+接入 MCP 生态比做任何独立入口都更接近用户的实际工作流。</p>
+<p><strong>风险有两层。</strong> 第一层是竞争：MCP 生态里已经有一批类似的代码检索工具
+（如开源的 Serena），tree-sitter 分块 + 本地嵌入不是独有技术，
+差异性主要靠体验和引用精度。第二层是变现：
+免费开源工具如果走不到付费层，就会停在&quot;作者自用 + 社区白嫖&quot;的状态。</p>
+<h2>下一步看什么</h2>
+<p>① GitHub star 三个月内是否破千——开源工具的真实热度比 launch 票数可靠
+② 是否被 Claude Code / Cursor 等工具的官方 MCP 推荐列表收录——决定分发天花板
+③ 是否推出付费功能（团队索引、云同步、更大模型的本地嵌入）——决定能不能养活自己</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：给 AI agent 做工具的，把&quot;结果带回源引用&quot;做成默认行为——
+每个答案都指回文件、函数、行号，让 agent 的输出可以被验证，而不是一段泛泛文本。
+这既是技术特性，也是信任机制：用户（和 agent）只有能追到证据才敢用。</p>
+<p><strong>话术</strong>：创始人自述里&quot;每次开新会话都要烧掉大量 token，所以我做了这个工具&quot;
+是标准的&quot;个人痛点 → 产品&quot;叙事，值得抄的是具体性——它说出了数字、场景和动作，
+而不是&quot;提升效率&quot;这种空话。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 方向正确、痛点真实、工程完成度在线，
+但热度数据和商业模式都还没跑出来。它是&quot;给 agent 装本地记忆&quot;这一类产品的
+一个干净样本，值得观察它能不能在 MCP 生态里活下来、走到付费层。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +206,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +237,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +295,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Devin</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Bills itself as an AI software engineer. 2.97M monthly visits, up 80%.</p>
@@ -80,25 +81,172 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It has usage data; the next question is whether its scale and change will hold.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>It replaces hiring junior engineers or outsourcing for high-volume, rule-governed work. Tech-debt remediation, dependency upgrades, batch file changes, validation runs used to be scheduled human work …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Pricing structure: if your product &#34;does the work,&#34; copy ACU metering — charge per job completed, not per month. Then the buyer can directly compute &#34;how much human labor was replaced,&#34; and the decisi…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An autonomous coding agent billed as &quot;the world's first AI software engineer&quot;:
+it works in a cloud sandbox with its own terminal, browser and editor, takes jobs from
+Slack or GitHub, writes code, runs tests, debugs, and opens PRs — priced per unit of
+work the agent actually does, not per human seat per month.</p>
+<h2>Who built it</h2>
+<p>Cognition AI, founded 2023. The three founders — Scott Wu, Steven Hao and Walden Yan —
+are a Chinese-American team of International Olympiad in Informatics gold medalists,
+later joined by Gennady Korotkevich (8x IOI gold). Devin launched March 2024, and in
+July 2025 Cognition acquired Windsurf, the agentic IDE.</p>
+<p><em>Read: this is a company that put the whole bet on autonomy — everyone else builds
+copilots that assist people; it builds an agent that does the work. An IOI-gold
+founder team is top-shelf for this bet, and they treat planning, tool use and
+self-correction as the core moat, not code completion.</em></p>
+<p><em>Note: the pool summary says &quot;Devin Financial Services: Modernizing financial
+services with autonomous AI engineers.&quot; That is a misattribution from the data source.
+The real Devin is Cognition AI's AI software engineer, not a financial-services
+product.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Autonomous task execution</strong> → plans, writes code, runs tests, debugs failures
+and deploys in a cloud sandbox, taking jobs from Slack / GitHub / Linear</li>
+<li><strong>End-to-end PRs</strong> → submits merge requests when the work is done; a human reviews</li>
+<li><strong>Devin 2.0 (2025-04)</strong> → price cut from $500/mo to $20/mo, VS Code-like IDE
+experience, parallel development, interactive planning</li>
+<li><strong>ACU metering</strong> → 1 ACU ≈ 15 minutes of agent work, charged by task complexity
+and execution time</li>
+<li><strong>Windsurf integration (post-acquisition)</strong> → Windsurf IDE handles
+human-in-the-loop coding, Devin handles independent execution, covering the full
+spectrum of coding tools</li>
+<li><strong>In-house models</strong> → SWE-1.5/1.6 coding models, claimed 13x faster than Claude
+Sonnet</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: it is not a local tool. Devin is a service, not
+software — you hand it work in the cloud, it executes, you review PRs. That is a
+fundamentally different use pattern from Cursor's local, real-time editing.</p>
+<h2>What old behavior it replaces</h2>
+<p><strong>It replaces hiring junior engineers or outsourcing for high-volume, rule-governed
+work.</strong> Tech-debt remediation, dependency upgrades, batch file changes, validation
+runs used to be scheduled human work or outsourced. Devin turns it into &quot;pay the
+agent per usage&quot;: 1 ACU ≈ $2.25, roughly $8-9/hour, against a junior engineer's
+~$150/hour. It swaps software engineering's cost sheet for a cloud-metering sheet —
+Goldman Sachs announced piloting Devin alongside its 12,000 engineers with a target
+of 20% efficiency, the equivalent of 2,400 engineers for free.</p>
+<p><strong>It replaces the daily grind of triaging issues and PRs by hand.</strong> Dev teams used to
+spend hours daily on GitHub/Slack — classifying issues, fixing lint, resolving merge
+conflicts. Devin's design is &quot;hand the ticket to it&quot;; humans only review.</p>
+<h2>Business model</h2>
+<p><strong>Subscription plus usage metering (SaaS + consumption), structurally closer to AWS
+than to Cursor.</strong></p>
+<ul>
+<li>Core: $20/mo with base ACU quota (post April 2025 price cut)</li>
+<li>Team / Enterprise: custom, higher ACU, team management</li>
+<li>ACU: 1 ACU ≈ 15 minutes of agent work, ~$2-2.25, on top of the monthly fee</li>
+<li>Active engineering teams realistically spend $5K-50K+/month</li>
+</ul>
+<p><em>Read: this is its smartest move — a $20 entry price for acquisition, with the real
+money in ACU burn. Pricing is tied directly to value delivered: simple tasks are
+cheap, complex tasks are expensive. It is not selling &quot;a software subscription&quot;; it
+is selling &quot;paid per job completed,&quot; letting buyers model ROI as &quot;how much human
+labor replaced.&quot; Procurement moves from &quot;software budget&quot; to &quot;cost replacement.&quot;</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>traffic board: 2.97M monthly visits, +80.1% MoM (2026-08)</li>
+<li>ARR: $1M (Sept 2024) → $73M (June 2025), 73x in nine months</li>
+<li>Windsurf acquisition (July 2025, ~$82M ARR, 350+ enterprise customers); combined
+ARR ~$155M</li>
+<li>September 2025 Series C at $10.2B valuation; reported in talks near $25B
+(April 2026)</li>
+<li>Total funding &gt;$696M, net burn &lt;$20M (self-reported)</li>
+<li>Customers: Goldman Sachs, Citi, Dell, Cisco, Ramp, Palantir, Nubank, Mercado
+Libre, NASA-JPL</li>
+<li>Early adopters report project cost cuts of up to 50% and &gt;2x efficiency</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>IOI-gold founders building agent orchestration — a rare &quot;algorithm background + right product&quot; combo</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Autonomous execution&quot; positioning plus ACU metering turns headcount-replacement into a sales language</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Planning, tool use, self-correction is a fuller agent stack than completion tools; real-world success rate is contested</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Enterprises are just starting to accept &quot;agents doing work,&quot; and Devin is the first to prove payment</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Worth watching — the pricing and commercialization sample of the &quot;autonomy&quot; path
+in AI coding.</strong></p>
+<p>The +80.1% MoM needs decomposition: the tail of the April 2025 Devin 2.0 price cut,
+traffic pulled in by the Windsurf integration, and attention from Goldman-level
+customer news. It is the stack of &quot;price cut + acquisition + marquee customers&quot;
+rather than pure organic growth — discount it accordingly — but the direction is
+real: autonomous agents are moving from demo to paid business.</p>
+<p><strong>The most valuable thing is its pricing model, not its model.</strong> ACU metering turns
+&quot;how much work the agent did for you&quot; into a billable number, making the CFO rather
+than the CTO the buyer — Goldman runs the math &quot;20% efficiency = 2,400 free
+engineers.&quot; That &quot;usage-metering plus headcount-replacement narrative&quot; is why it hit
+$73M ARR in nine months, and it is the template every later agent product copies.</p>
+<p><strong>The controversy must be admitted</strong>: independent analysis shows SWE-bench training
+contamination, with real-world success (~15%) far below the benchmark (80%); early
+demos were frame-by-frame dissected over truncated task descriptions. Since 2025
+Cognition has shifted to more honest disclosure (67% PR merge rate, admitted
+limits) — that is how it is rebuilding trust. Split its data in two: revenue numbers
+(cross-validated by multiple sources) are credible; capability numbers
+(self-reported benchmarks) need discounting.</p>
+<h2>What to watch next</h2>
+<p>① Whether the +80% MoM holds — how much organic growth is left after the price-cut
+and acquisition tailwinds
+② Whether combined ARR grows past $155M — whether the Windsurf + Devin synergy works
+③ Whether third-party re-tests publish real-world success rates — that is the
+foundation of its valuation story</p>
+<h2>What you can take from it</h2>
+<p><strong>Pricing structure</strong>: if your product &quot;does the work,&quot; copy ACU metering — charge
+per job completed, not per month. Then the buyer can directly compute &quot;how much human
+labor was replaced,&quot; and the decision-maker shifts from user to finance. A low entry
+price plus high usage price is the shortest path between acquisition and revenue.</p>
+<p><strong>Product logic</strong>: automate the &quot;rule-governed, high-volume, low-creativity&quot; work
+first — tech debt, dependency upgrades, batch edits. That is the only range where an
+agent delivers reliably. Devin also proves: never oversell beyond your demo — a
+one-time trust collapse costs a full version of honesty to rebuild.</p>
+<p><strong>Positioning language</strong>: none. Official copy is engineering-oriented; nothing to
+steal.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The first commercial proof of the autonomous coding agent:
+a real revenue curve, a transferable pricing model, and credible marquee customers.
+But capability numbers need discounting, and +80% MoM is a stacked-event result. It
+is the pricing template for every &quot;sell work, not software&quot; product.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -118,7 +266,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -128,7 +276,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -138,7 +286,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -191,7 +339,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

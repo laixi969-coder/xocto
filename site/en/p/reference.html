@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Reference</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Local semantic search for AI agents</p>
@@ -81,18 +82,134 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Two things used to happen when an agent needed to find code. First, grep loops: the agent searches repeatedly, reads whole files, guesses locations — answering a simple &#34;how did I implement rate limit…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you build tools for AI agents, make cited answers the default — every result points back to file, function, and line so the agent&#39;s output can be verified rather than trusted on vibe…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Local semantic search for coding agents: it indexes your files and codebase on
+your own machine, exposes an MCP server so agents like Claude Code can query it
+directly, and returns results cited down to the exact function — fully offline.</p>
+<h2>Who built it</h2>
+<p>Independent developer Rahul Thennarasu, described at launch as a SWE intern
+at NASA JPL, incoming at fab2. His founder post is blunt: every new Claude Code
+session burned through tokens and context, so he built this.</p>
+<p><em>Read: classic dogfood product — the author got bitten by the problem in his own
+workflow, so he has first-hand feel for where agent code search actually breaks.
+Independent developers build dev tools with more honest motivation than a company
+initiative, but they also have thinner maintenance resources and distribution.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Local semantic index</strong> → a lightweight embedding model runs on-device; nothing leaves your machine</li>
+<li><strong>Live auto-reindexing</strong> → the index updates as you save, so results track the code you are actively writing</li>
+<li><strong>Code-aware chunking</strong> → tree-sitter chunks on functions and syntactic units, so results cite the exact code region, not the whole file</li>
+<li><strong>Built-in MCP server</strong> → exposes /search, /explain, /find_similar and /check_doc_drift so agents query it directly instead of burning tokens on grep loops</li>
+<li><strong>Cited answers</strong> → every result points back to a file and function, replacing generic AI advice with grounded, verifiable references</li>
+<li><strong>Doc-drift checks</strong> → /check_doc_drift flags places where docs have fallen out of sync with the code</li>
+</ul>
+<p><strong>Form</strong>: a Mac desktop app (built with Tauri), open source on GitHub, free during launch.</p>
+<h2>What old behavior it replaces</h2>
+<p>Two things used to happen when an agent needed to find code. First, grep loops:
+the agent searches repeatedly, reads whole files, guesses locations — answering a
+simple &quot;how did I implement rate limiting&quot; could cost thousands of tokens across
+many tool calls. Second, human memory: developers scrolled old chats and old
+projects trying to recall &quot;how did I do this last time.&quot;</p>
+<p>Both are expensive — tokens, time, and unreliable answers. Reference replaces the
+&quot;agent greps and guesses&quot; inefficiency with a local, cited, function-level lookup
+acting as an external memory layer.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> Open source, free during launch, no pricing page, no hosted service.</p>
+<p><em>Read: the obvious monetization path for a &quot;local search + MCP server&quot; tool is
+cloud features later — cross-machine index sync, team sharing, heavier local
+embedding models. But in an open-source, free-by-default ecosystem, developer
+tools rarely clear the willingness-to-pay bar, and whether it ever reaches a paid
+tier is doubtful.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>launch (2026-08-05), 75 votes in the first week</li>
+<li>Open source on GitHub; star count not independently verified. Team size, user
+count, revenue: not disclosed</li>
+<li>Feature surface: local embedding model + tree-sitter chunking + MCP server with four endpoints</li>
+<li>Platform: macOS desktop app (Tauri)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author is a heavy agent user; the pain is real, and it is an independent project open-sourced because he uses it himself</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nailed the real problem of agents burning tokens to find code; making MCP the distribution channel is the smart move</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Tauri desktop app + tree-sitter + local embeddings — built like a real product, not a demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right now. Agents like Claude Code are scaling, and token cost plus retrieval quality are simultaneously becoming bottlenecks</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A clean sample of the &quot;external memory layer&quot; category.</strong></p>
+<p>An agent's context window is a finite resource and codebases keep growing.
+Reference's move is to split &quot;retrieval&quot; out of the agent's reasoning loop into a
+local, cited, one-shot query. That split is correct — the agent never has to load
+a whole file into context to locate a function, and the savings are real tokens.</p>
+<p><strong>The transferable rule: for tools that serve agents, the distribution channel is
+a protocol, not a UI.</strong> Reference does not ask anyone to open its interface; it
+hangs itself into Claude Code's MCP config and gets invoked mid-reasoning. If you
+build agent-adjacent tools, plugging into the MCP ecosystem reaches the real
+workflow far better than any standalone entry point.</p>
+<p><strong>Two risks.</strong> First, competition: the MCP ecosystem already has open-source code
+retrieval tools (Serena is a notable one); tree-sitter chunking plus local
+embeddings is not a moat, and the differentiator comes down to experience and
+citation precision. Second, monetization: a free open-source tool that never
+reaches a paid tier just sits in &quot;author self-use plus community freeloading.&quot;</p>
+<h2>What to watch next</h2>
+<p>① Whether GitHub stars pass a thousand in three months — real open-source
+traction is more reliable than launch-day votes
+② Whether it gets listed in official MCP recommendations by Claude Code / Cursor
+— that sets the distribution ceiling
+③ Whether paid features appear (team index, cloud sync, heavier local embeddings)
+— that decides whether it can support itself</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you build tools for AI agents, make cited answers the
+default — every result points back to file, function, and line so the agent's
+output can be verified rather than trusted on vibes. That is both a technical
+feature and a trust mechanism: no one, human or agent, adopts a tool whose answers
+cannot be traced to evidence.</p>
+<p><strong>Positioning language</strong>: the founder's line — &quot;every new session burned tokens
+and context, so I built this&quot; — is the standard &quot;personal pain → product&quot;
+narrative, and what makes it copyable is the concreteness: numbers, scenes, and
+actions instead of &quot;improve efficiency.&quot;</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The direction is right, the pain is real, and the engineering
+is credible, but traction and business model are unproven. It is a clean sample of
+the &quot;local memory for agents&quot; category — worth watching to see whether it survives
+in the MCP ecosystem and reaches a paid tier.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +220,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +251,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +309,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

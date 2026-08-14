@@ -8,12 +8,13 @@ inspiration: 在信息过载的领域里，做一份靠谱的清单本身就是�
 summary_en: ''
 inspiration_en: In an overloaded field a trustworthy list is itself the product — provided the selection
   criteria hold up.
+priority_review: false
 url: https://neolabs.fyi/
 canonical_url: https://neolabs.fyi
 summary: 100 new AI labs by research area, valuation, and more
 first_seen: '2026-08-10T14:18:09Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

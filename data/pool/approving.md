@@ -8,6 +8,7 @@ inspiration: agent 越自动，人越需要一个卡点，审批这一环本身�
 summary_en: ''
 inspiration_en: The more autonomous the agent, the more people need a checkpoint. The approval step itself
   is a product.
+priority_review: false
 url: https://www.approving-ai.com
 canonical_url: https://approving-ai.com
 summary: Approving is an open-source, self-hostable platform for turning coding agents into visual, reviewable,
@@ -15,7 +16,7 @@ summary: Approving is an open-source, self-hostable platform for turning coding 
   and pause for human Approve at critical nodes.
 first_seen: '2026-07-24T15:27:02Z'
 last_seen: '2026-08-13T23:03:01Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

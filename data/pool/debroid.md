@@ -8,13 +8,14 @@ inspiration: agent 要真干活就得能操作真实设备，「让 agent 有手
 summary_en: ''
 inspiration_en: For an agent to do real work it has to touch real devices. “Giving agents hands” is a
   whole category waiting to be built.
+priority_review: false
 url: https://github.com/PatilShreyas/debroid
 canonical_url: https://github.com/PatilShreyas/debroid
 summary: Autonomous, headless Android debugger designed for AI coding agents. Inspect runtime memory,
   set breakpoints, and debug live apps.
 first_seen: '2026-08-02T15:58:29Z'
 last_seen: '2026-08-12T03:21:52Z'
-status: pending_filter
+status: analyzed
 sources:
 - github
 sightings:

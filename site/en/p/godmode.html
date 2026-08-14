@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>godmode</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Production-grade Agent Skills for AI coding agents, covering planning, TDD, debugging, review, and more.</p>
@@ -82,15 +83,137 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Without it, a coding agent&#39;s default is to start writing code immediately: authentication, tests, security and integration get pushed to the end, and it wraps up with a plausible-looking result. Human…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when adding an &#34;engineering behavior layer&#34; to any agent product, copy the two design principles — &#34;agent claims are not evidence&#34; (require fresh evidence for done) and &#34;responsibility …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Engineering behavior for coding agents that already know how to code: a composable catalog of
+Agent Skills that makes agents design before editing, test before claiming, review independently,
+and verify with fresh evidence.</p>
+<h2>Who built it</h2>
+<p>thiientv, an individual project. Repository created around 2026-08-12, 12 commits, initial version
+plus supporting tooling in two days.</p>
+<p><em>Read: packaging software-engineering practice (TDD, review, releases, incident response) as
+skills isn't a new idea, but the completion here — 14 core workflow skills plus 19 engineering
+capabilities, a behavior-eval harness, and a repository gate — says the author is polishing it as
+a product, not posting it as a note.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Composable skill catalog</strong> → no one giant prompt; discoverable, composable skill packages:
+solution-design, implementation-planning, TDD, root-cause-debugging, code-review and more</li>
+<li><strong>14 core workflow skills</strong> → from using-godmode and plan-execution to
+dispatching-parallel-agents, subagent-driven-development, using-git-worktrees</li>
+<li><strong>19 engineering capabilities</strong> → frontend-design, api-and-interface-design, database-design,
+security-and-hardening, release-engineering, incident-response, agent-evaluation and more</li>
+<li><strong>Deterministic helpers</strong> → not just Markdown prompts; repeated error-prone work carries
+scripts: design_system.py, extract_design_system.py, audit_ui.py</li>
+<li><strong>Multiple clients</strong> → standard Agent Skills layout; usable with Claude Code (plugin) and Codex
+(.codex-plugin + marketplace)</li>
+<li><strong>Behavior-eval harness</strong> → runs behavior evals over core workflow cases</li>
+<li><strong>Repository gate</strong> → validates frontmatter, local links, manifest shape, security scans;
+pre-1.0 but with a complete engineering process</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no proprietary orchestration runtime — it stays a portable
+catalog; no claiming compatibility with clients it hasn't actually checked (the README is
+explicit).</p>
+<h2>What old behavior it replaces</h2>
+<p>Without it, a coding agent's default is to start writing code immediately: authentication, tests,
+security and integration get pushed to the end, and it wraps up with a plausible-looking result.
+Humans catch these by manual review — but as agents multiply and tasks lengthen, review quality
+collapses.</p>
+<p>godmode replaces the old practice of &quot;typing engineering discipline into the conversation&quot; —
+re-demanding every time that the agent write tests first, design first. It turns discipline from
+an ad-hoc chat agreement into a reusable skill asset. It doesn't replace the human; it replaces
+&quot;the human having to re-teach every time.&quot;</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> MIT open-source, no pricing page, no hosted service.</p>
+<p><em>Read: a skill catalog is hard to monetize directly, but like dsh_workflow it bets that
+standardized Agent Skills become the public foundation of agent engineering. If that foundation
+forms, early catalog authors have first-mover advantage.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>85 stars, 84 forks, 0 open issues.</strong> Repository created around 2026-08-12, 12 commits</li>
+<li><strong>Forks nearly equal to stars (84/85)</strong> — an abnormal ratio that usually means
+mirroring/copying rather than organic adoption</li>
+<li>14 core workflow skills + 19 engineering capabilities</li>
+<li>The project page (thiientv.github.io/godmode) currently 404s; GitHub Pages not enabled</li>
+<li>Users and tested client compatibility: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A solo systematization of engineering practice; the author is clearly a true believer — but no record of team/real-world validation</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Agents can code, they can't engineer&quot; is an accurate observation, and the literal skill naming is right</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Repository gate, behavior evals, compatibility docs — a more complete engineering process than most 12-commit projects</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Agent Skills are becoming a standard format; an early high-quality catalog has positioning value; but the format war is undecided</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A serious attempt to package two decades of software-engineering discipline into skills agents
+can consume, and the naming principle is the part worth stealing.</strong></p>
+<p>&quot;Agent claims are not evidence&quot; and &quot;literal responsibility names over borrowed vocabulary&quot; — both
+map directly to the two real sources of engineering incidents: agents' optimistic false claims,
+and vocabulary drift across projects. The standard death mode of a skill catalog is &quot;nice-sounding
+names that never reach concrete actions,&quot; and deterministic scripts plus reference files are the
+plug for that.</p>
+<p><strong>The transferable rule: name agent skills and tools by responsibility, not by brand.</strong> Literal,
+task-oriented names (root-cause-debugging, not smart-debug) align an agent's routing decisions
+with human expectations and avoid being held hostage by one client ecosystem's vocabulary.</p>
+<p><strong>The risk is that it hasn't proven who it speaks for.</strong> 84 forks out of 85 stars says propagation
+is by copying, not endorsement. Pre-1.0, no public field record, self-run evals — &quot;production-grade&quot;
+is currently a self-claim.</p>
+<h2>What to watch next</h2>
+<p>① Whether the fork/star ratio returns to normal (forks well below stars) — 84/85 says copying,
+not approval
+② Whether public &quot;ran godmode on a real repo&quot; cases or eval results appear — &quot;production-grade&quot;
+needs production evidence
+③ Whether skills get distributed through Claude Code/Codex official skill marketplaces — decides
+whether it captures the format dividend</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when adding an &quot;engineering behavior layer&quot; to any agent product, copy the two
+design principles — &quot;agent claims are not evidence&quot; (require fresh evidence for done) and
+&quot;responsibility names over aliases&quot; (literal names prevent drift). For anyone building
+agent-workflow products, these two principles are free correctness.</p>
+<p><strong>Positioning language</strong>: &quot;Your coding agent already knows how to code. Godmode teaches it how to
+engineer.&quot; — a model one-liner; keep the structure (existing capability + new capability = one
+line).</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Ideas present, unvalidated.</strong> Disciplined engineering skills are the right direction and the
+repo quality exceeds what the star count suggests, but the abnormal fork ratio, the absence of
+field records, and pre-1.0 status all say &quot;production-grade&quot; is still a self-claim. Note it; track
+field evidence and official marketplace distribution.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +230,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +240,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +250,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,16 +260,16 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/bullet.html">
+      <a class="pager-item pager-prev" href="../../p/writemd.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">Bullet</span>
+        <span class="pager-n">Write.md</span>
       </a>
 
       <a class="pager-item pager-next" href="../../p/approving.html">
@@ -190,7 +313,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

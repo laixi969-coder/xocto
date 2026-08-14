@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>systemscomic</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">I asked Claude to write DDIA as a live comic.</p>
@@ -82,25 +83,108 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/shuohao-skills.html">shuohao-skills</a>,         <a href="../../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>To understand why tail latency eats 63% of your requests, the old paths were reading 600 pages of the book or scraping scattered blog posts. Both are one-way: reading is passive, and even 3Blue1Brown-…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: give &#34;hard-to-understand content&#34; a three-layer structure — a metaphor layer for intuition, an artifact layer that touches the real world, and a verification layer where the reader over…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Designing Data-Intensive Applications' hardest ideas, drawn as interactive comics — not illustrations with captions, but a three-layer reader: read the concept, meet the real machine, push the whole system until it breaks.</p>
+<h2>Who built it</h2>
+<p>Samuel Xing (GitHub: SamuelXing), a personal project. Nearly every commit carries &quot;Co-Authored-By: Claude Opus&quot; (Opus 4.8/5, 1M context). The human's job is veto and correction — the history shows a &quot;basic view&quot; marked built-and-rejected and &quot;Sam did not like the thing.&quot;</p>
+<p><em>Read: one of the most honest specimens of human-plus-model co-writing. The model produces volume; the human does the editing — deleting what is wrong, fixing what is off, setting the standard. The commit history exposes the whole workflow, and that exposure is the project's best documentation.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Layer one: concept comics</strong> — tail latency, B-trees vs LSM, leader &amp; followers, consistent hashing, isolation levels, Raft and more: 12 concepts drawn as short comics</li>
+<li><strong>Layer two: machine deep-dives</strong> — 6 of them: Kafka, Postgres, Redis, RabbitMQ, S3, the web/app tier; which ideas each machine is assembled from and where it breaks</li>
+<li><strong>Layer three: system simulations</strong> — 2 simulators where requests flow through real services as particles; when arrivals outrun capacity, queues pile up and nodes glow red</li>
+<li>A built-in capacity calculator: put in a workload, get machine counts back, every number traceable to the division that produced it</li>
+<li>Book two, &quot;The Papers That Broke the Database,&quot; in progress — 1 of 18 chapters live</li>
+</ul>
+<p>Inside the content sits an explicit design system (from the design-skill docs in the repo):</p>
+<ul>
+<li><code>Step.think {q,a}</code> — Socratic question, answer hidden behind a &quot;Reveal&quot;</li>
+<li><code>Comic.inTheWild</code> — 4 real production problems, collapsed by default</li>
+<li><code>Comic.tradeoffs</code> — real decision frameworks, labeled with plain verb tags</li>
+</ul>
+<p>The governing principle, one line: <strong>depth of thinking != density of prose.</strong></p>
+<h2>What old behavior it replaces</h2>
+<p>To understand why tail latency eats 63% of your requests, the old paths were reading 600 pages of the book or scraping scattered blog posts. Both are one-way: reading is passive, and even 3Blue1Brown-style video leaves you able to recite the conclusion but not test it.</p>
+<p>The three-layer structure turns &quot;reading&quot; into &quot;read-see-break&quot;: concepts via comics, then meet the concept inside Kafka/Postgres, then push it to failure yourself in the simulator. The shift is learning as reception becoming learning as verification.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> No paywall, no pricing page. The repo license splits &quot;MIT for code, comics and prose reserved&quot; — the content is the asset, and it is not monetized yet.</p>
+<p><em>Read: this behaves like a personal work rather than a business. The real return is the reputation and attention that publishing the methodology buys. The notable decision is the license split — code open, content reserved. The content is the scarce thing; the code is not.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>HN: 7 points, 0 comments</strong> (2026-08-13)</li>
+<li>GitHub: 82 commits, 173 tests, 58 routes</li>
+<li>Book one: 12 concept comics + 6 machine deep-dives + 2 simulations; book two at 1/18 chapters</li>
+<li>A star link on the site points to github.com/SamuelXing/systems-comic; star count not recorded here</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author is a distributed-systems person drawing what he actually knows; not a layman relaying</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>The three-layer read-see-break structure plus three explicit design mechanisms turns educational content from passive consumption into active verification</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>173 tests, per-page OG cards, clean commit history — more disciplined engineering than most HN submissions</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Educational content is shifting from text-plus-video toward interactive, but tooling is still early; this is an open window</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is one of the most copyable &quot;AI co-created educational content&quot; workflows around, precisely because the method is exposed in commits and tests rather than asserted.</strong></p>
+<p><strong>Three transferable rules:</strong></p>
+<ol>
+<li><strong>Content comes in three layers</strong> — concept (comic/metaphor), artifact (real system/case), verification (simulation/exercise). Most educational products stop after layer one.</li>
+<li><strong>Make the design mechanisms explicit</strong> — questioning (<code>Step.think</code>), real cases (<code>inTheWild</code>), tradeoffs (<code>tradeoffs</code>) are reusable components, not per-article improvisation.</li>
+<li><strong>The model owns volume, the human owns the bar</strong> — the human vetoes, fixes, and sets the principle &quot;depth of thinking != density of prose.&quot; Quality is capped by the person; speed is provided by the model.</li>
+</ol>
+<p><strong>The cost</strong>: this mode is expensive in human review. Twelve comics sit behind 82 commits and 173 tests; it is not fast. It proves &quot;person plus model&quot; can produce high-quality educational content — not that &quot;the model can auto-produce&quot; it.</p>
+<h2>What to watch next</h2>
+<p>① The update cadence of book two (18 chapters) — a sustained project or a one-shot
+② Whether anyone publicly copies the mechanisms, especially the <code>Step.think</code> Q&amp;A component
+③ Any sign of paid or subscription features — monetizing the content asset would confirm the model holds</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: give &quot;hard-to-understand content&quot; a three-layer structure — a metaphor layer for intuition, an artifact layer that touches the real world, and a verification layer where the reader overturns the conclusion themselves. A marketer can rewrite a technical whitepaper into this structure.</p>
+<p><strong>Positioning language</strong>: &quot;depth of thinking != density of prose&quot; is a one-line editorial standard you can borrow directly. Also the comic-style hook: &quot;read the idea, meet the machine, break it.&quot;</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed. The &quot;code open, content reserved&quot; license split is itself a product decision worth stealing.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The most solid project in this batch: the method is fully exposed, reproducible, and book two is already testing whether it scales. Write down the three-layer structure and the three mechanisms, and reuse them when building anything knowledge-based.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Creative">
-        16 in AI + Creative →
+        15 in AI + Creative →
       </a>
     </div>
     <ul class="rows">
@@ -193,7 +277,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

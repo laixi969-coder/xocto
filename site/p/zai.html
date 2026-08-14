@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Z.ai</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">智谱的 Z.ai 国际站</p>
@@ -81,22 +82,99 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它已有使用数据，后续更值得看规模和变化能否延续。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>对海外开发者，以前用前沿编码能力只有两条路：订阅 ChatGPT Plus / Claude（月付 20 到 200 美元），或者接 OpenAI/Anthropic 的按量 API，账单随用量膨胀。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：能力型产品出海，先做&#34;换商成本为零&#34;的接入层，再做品牌。Z.ai 的 Anthropic 兼容端点让 Claude Code 用户只改一个 base URL 就能切换，这是它比&#34;国产模型更便宜&#34;这种话术有效一个量级的获客手段。任何卖模型/API 的产品都可以按这个顺序做：兼容头部 → 免费小额度试 → 付费提额。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>智谱给 GLM 模型做的海外门面：对外是&quot;GLM 大模型全球体验中心&quot;，实际承担两件事——海外用户直接对话的 chat.z.ai，和给开发者用的 api.z.ai（OpenAI 兼容 + Anthropic 兼容双端点）。国内对应的是智谱清言（消费端）和 BigModel 开放平台（API 端），Z.ai 是同一批模型在墙外的独立入口。</p>
+<h2>做这个东西的人</h2>
+<p>智谱 AI（Zhipu AI），2019 年从清华大学孵化的北京 AI 公司。官网 z.ai 域名 2024 年 4 月注册，定位就是&quot;GLM 大模型全球体验中心&quot;（虎嗅报道口径）。公司正在筹备 IPO，并通过与阿里云的合作加速海外扩张，已在中东、新加坡、英国、马来西亚设办事处，在印尼、越南等地运营联合创新中心。</p>
+<p><em>判断：智谱这波出海是带着任务来的——模型卖向海外、政府合作做本地 agent、财报前把 GLM 的全球认知度打出来。Z.ai 是这套动作里的流量入口和 API 收银台。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>对话（chat.z.ai）</strong> → 面向海外普通用户的 GLM 聊天界面</li>
+<li><strong>API（api.z.ai）</strong> → OpenAI 兼容端点 + Anthropic 兼容端点，后者让 Claude Code 换一个 base URL 就能直连 GLM，是目前除 Anthropic 官方外少数提供真正 Anthropic 兼容层的服务</li>
+<li><strong>GLM Coding Plan 订阅</strong> → 面向编码场景的额度制订阅，2026 年 4 月调价后 Lite 18 美元/月、Pro 72 美元/月、Max 160 美元/月</li>
+<li><strong>免费 Flash 模型</strong> → GLM-4.7-Flash 与 GLM-4.5-Flash 对所有注册账号免费，前者 203K 上下文，是目前主流 API 里最大的免费上下文窗口</li>
+<li><strong>ZCode 桌面端</strong> → 2026 年 7 月发布，基于 GLM-5.2 的&quot;Agent 优先开发环境&quot;</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>对海外开发者，以前用前沿编码能力只有两条路：订阅 ChatGPT Plus / Claude（月付 20 到 200 美元），或者接 OpenAI/Anthropic 的按量 API，账单随用量膨胀。</p>
+<p>Z.ai 替代的是这笔订阅费——GLM Coding Plan 最低档 18 美元/月，用 Claude Code 的同一套配置改个 base URL 就能跑，模型跑分（GLM-5.1 SWE-bench Pro 58.4%，压过 GPT-5.4 和 Claude Opus 4.6）又确实在头部。对智谱自己，Z.ai 替代的是&quot;海外用户绕道国内站、被手机号和合规流程卡住&quot;的旧路径。</p>
+<p><em>判断：这是中国模型出海里少见的&quot;产品级替换&quot;打法——不卖&quot;更便宜的国产模型&quot;，而是卖&quot;Claude Code 的平替&quot;。&quot;Anthropic 兼容端点&quot;这个选择是整套打法最聪明的一步。</em></p>
+<h2>商业模式</h2>
+<p>两层收费：按 token 的直接 API（GLM-4.5 约 0.6 美元/M 输入、2.2 美元/M 输出）+ 额度制 Coding Plan 订阅。海外订阅价是国内同档（49/149/469 元人民币）的 2-3 倍，部分海外开发者称之为&quot;西方税&quot;；2026 年 2 月和 4 月两次涨价，涨幅分别 30%-60% 和 80%-150%。</p>
+<p><em>判断：同一个模型在墙外收 2-3 倍价格，本质是&quot;出口版定价权&quot;——海外没有国产替代的舆论场和价格锚，模型又确实能打，所以敢按国际头部价收。这是国内模型厂商少有的溢价窗口，但窗口取决于 SWE-bench 排名还能不能保持。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>流量榜 口径：访问量 10.24M，环比 +24.56%</strong>（2026-06），同时上聊天机器人榜、国内/全球总榜与增速榜</li>
+<li>GLM-5.1：745B 参数，SWE-bench Pro 58.4%（2026-05，超过 GPT-5.4 与 Claude Opus 4.6）；GLM-5.2 于 2026-07 发布，Code Arena 全球可用模型排名第一</li>
+<li>Coding Plan 订阅价（2026-04 调价后）：18 / 72 / 160 美元/月，海外为国内的 2-3 倍</li>
+<li>ZCode 桌面端 2026-07-02 发布；曾因流量超预期实施分阶段开放，Max 用户优先</li>
+<li>公司层面：筹备 IPO，海外经阿里云合作扩张；团队规模、收入：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高：清华系团队，GLM 系列从 2019 年起持续迭代，模型是公司核心资产</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>高：Anthropic 兼容端点 + 免费大上下文 Flash 模型，针对&quot;开发者换供应商成本&quot;下药，比纯降价有效</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>高：SWE-bench Pro 榜首、Code Arena 第一，且强调无 Nvidia 训练（地缘差异化的卖点）</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>好：全球编码工具从订阅转向 API 额度的窗口期，国产模型首次在硬指标上站到头部</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>Z.ai 是国产大模型出海里目前信号最干净的一个：模型真能打、定价真敢收、增长是真流量。</strong></p>
+<p>10.24M 访问量、环比 +24.56%，对这个体量的产品是健康的增长——不是病毒式爆发，是开发者和用户持续流入。它没有 mom 异常，没有包装出来的定位，就是&quot;模型够强 + 接入够便宜 + 兼容够省事&quot;三件事。</p>
+<p>真正的观察点有两个。第一，涨价后（2 月、4 月连续两次）访问量还在涨，说明需求刚性，但这同时会刺激更多海外用户转用国内版——官方已经在对抗这种套利。第二，Anthropic 兼容端点一旦被 Claude 官方收紧或出现封禁风险，这套平替玩法的基础会动摇。</p>
+<p><em>判断：对读者的可迁移点很直接——你的产品如果强在模型能力，出海第一件事不是改界面，是做&quot;零迁移成本&quot;的接入层。兼容端点比中文宣传页值钱得多。</em></p>
+<h2>下一步看什么</h2>
+<p>① 7 月涨价满一个完整季度后，访问量环比是否仍为正——验证需求刚性有没有被价格磨掉
+② Anthropic 兼容端点的稳定性——官方若收紧协议，平替叙事的根基就变了
+③ GLM 排名能否持续压住 GPT/Claude——SWE-bench 和 Code Arena 是海外开发者付 2-3 倍价格的理由，排名一掉，溢价窗口就关</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：能力型产品出海，先做&quot;换商成本为零&quot;的接入层，再做品牌。Z.ai 的 Anthropic 兼容端点让 Claude Code 用户只改一个 base URL 就能切换，这是它比&quot;国产模型更便宜&quot;这种话术有效一个量级的获客手段。任何卖模型/API 的产品都可以按这个顺序做：兼容头部 → 免费小额度试 → 付费提额。</p>
+<p><strong>话术</strong>：定价页和文档里的&quot;drop-in replacement（即插即用）&quot;表述可以直接借用，它把&quot;技术参数&quot;翻译成了&quot;迁移成本&quot;。</p>
+<p><strong>定价结构</strong>：额度制订阅（Coding Plan）分离了&quot;对话用户&quot;和&quot;API 用户&quot;两种付费意愿，且按量 API 保底、订阅制收忠诚——这个双轨结构可参考。墙外收 2-3 倍是国内厂商的定价权实验，别照抄，但值得记下来观察它能否持续。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 它是本批产品里&quot;数据真实 + 增长健康 + 技术硬指标靠前&quot;三者齐备的少数派，也是国产模型出海绕不过去的参照系。下一步看涨价后的需求弹性和兼容端点的稳定性，这两件事决定这套打法能不能复制。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=%E9%80%9A%E7%94%A8%E5%8A%A9%E6%89%8B">
-        通用助手 共 16 个 →
+        通用助手 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -106,7 +184,7 @@
             <span class="row-name">fyagent</span>
             <span class="row-desc">AI时代的个人随身数字人格，跨工具携带模型、技能和提示词。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 204</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 204</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +194,7 @@
             <span class="row-name">why</span>
             <span class="row-desc">基于概率模型构建的确定性好奇心图谱。</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 5</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 5</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +204,7 @@
             <span class="row-name">AI 搜索｜百度</span>
             <span class="row-desc">百度的 AI 搜索，主打一站式解决复杂问题</span>
             <span class="row-tail">
-<span class="tag sig">月访问 44.85M</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">月访问 44.85M</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +214,7 @@
             <span class="row-name">DeepSeek - AI 智能助手</span>
             <span class="row-desc">DeepSeek 的移动端助手，搜索写作阅读解题翻译</span>
             <span class="row-tail">
-<span class="tag sig">月活 139.08M</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">月活 139.08M</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +267,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

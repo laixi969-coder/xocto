@@ -8,12 +8,13 @@ inspiration: 和 CodeBurn 撞同一个需求，说明 AI 成本失控已经是�
 summary_en: ''
 inspiration_en: It lands on the same need as CodeBurn, which says runaway AI cost is now common, not an
   edge case.
+priority_review: false
 url: https://github.com/dosu-ai/decant
 canonical_url: https://github.com/dosu-ai/decant
 summary: Understand how you spend tokens
 first_seen: '2026-08-12T21:56:21Z'
 last_seen: '2026-08-13T11:28:29Z'
-status: watching
+status: analyzed
 sources:
 - hackernews
 sightings:

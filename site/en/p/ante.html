@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Ante</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">a coding agent in a single binary that runs offline</p>
@@ -81,15 +82,149 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Running a coding agent used to mean installing a runtime stack: a Node or Python environment, editor plugins, a package tree, plus API keys or a local inference daemon like Ollama. Environment drift w…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if your tool targets &#34;run many agents in parallel&#34; or &#34;air-gapped environments,&#34; single-binary plus zero runtime deps plus optional local inference is a copyable architecture decision. …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A ~15MB single-binary coding agent written in Rust that crams an embedded llama.cpp inference
+engine, grep, and git into one file, so the whole read-edit-test loop can run offline against a
+local GGUF model — or against any of 12+ cloud providers.</p>
+<h2>Who built it</h2>
+<p>Antigma Labs (antigma.ai). The author says the focus is &quot;the harness, not the model.&quot; Public
+repo is Apache-2.0, created 2025-12-23, 1,680 stars / 52 forks, latest release v0.preview.78.
+The core harness ships as a prebuilt binary from a private repo; the open-sourced parts are the
+docs, protocol (<code>protocol-shape</code>), SDK (<code>agent-sdk</code>), and eval pipeline (<code>ante-harbor</code>).</p>
+<p><em>Read: making packaging the product and public benchmarking the trust signal are two bets on the
+same thing — in a commoditized agent-tool market, win developers on engineering and
+transparency instead of on model claims.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>One binary, four shapes</strong> → interactive TUI (<code>ante</code>), headless one-shot (<code>ante -p</code>, for CI),
+long-lived server (<code>ante serve</code>, JSONL protocol for editor plugins), and gateway
+(<code>ante gateway</code>, as a Slack/Discord bot)</li>
+<li><strong>Native local inference</strong> → a pinned llama.cpp build; point it at any GGUF file and the loop
+runs with no API key, no account, no network. Also 12+ cloud providers (Anthropic, OpenAI,
+Gemini, DeepSeek, etc.) with easy switching</li>
+<li><strong>Embedded tooling</strong> → grep and git compiled into the binary instead of shelling out</li>
+<li><strong>Multi-agent and memory</strong> → sub-agent orchestration, MCP, persistent cross-session memory</li>
+<li><strong>Named profiles</strong> → <code>--profile</code> swaps system prompt, toolset, skills, and memory; a minimal
+<code>bare</code> profile is built in, and the community can share new ones</li>
+<li><strong>Verifiable evals</strong> → continuously benchmarked on Terminal-Bench 2.1 under official
+leaderboard constraints, every result pinned to a downloadable build</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no forced account (&quot;No account required, not even with
+us&quot;), no model lock-in. Telemetry is on by default but disableable via <code>ANTE_TELEMETRY=off</code> and
+sends only an anonymous install label.</p>
+<h2>What old behavior it replaces</h2>
+<p>Running a coding agent used to mean installing a runtime stack: a Node or Python environment,
+editor plugins, a package tree, plus API keys or a local inference daemon like Ollama.
+Environment drift was the norm — last week's container silently fails this week.</p>
+<p>Ante replaces that whole install-and-run assumption: one file, <code>curl | bash</code>, and if you want
+local inference you point it at a GGUF and there is no daemon to manage.</p>
+<p>The offline half replaces another old behavior: air-gapped industries — defense, healthcare,
+finance — were effectively locked out of coding agents. &quot;Your code never leaves your machine&quot;
+is not a selling point to them, it is the entry ticket. They previously edited code by hand;
+now there is an option that runs an agent with the network down.</p>
+<h2>Business model</h2>
+<p><strong>Free in alpha.</strong> The prebuilt binary is free during alpha preview, commercial use included, per
+BINARY-TERMS.md; the open-source parts are Apache-2.0. The README mentions an opt-in hosted
+service at antix.antigma.ai, hinting at future commercialization, but there is no pricing.</p>
+<p><em>Read: the classic open-core path — free binary to build the base, future monetization on the
+hosted layer. But the company hasn't even committed to whether a cloud is needed, so the model
+itself isn't standing yet.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>1,680 stars / 52 forks.</strong> Repo created 2025-12-23, latest release v0.preview.78 (2026-08-14)</li>
+<li><strong>HN: 159 points, 88 comments</strong>, front page on launch</li>
+<li><strong>Terminal-Bench 2.1: 82.7%</strong> (DeepSeek V4 Flash 0731, 89 tasks × 5 trials, 368/445 passed,
+~$68 of inference). Official leaderboard #1 is Claude Code + Fable 5 at 83.8%; Ante has not
+submitted, so 82.7% is a vendor-reported number</li>
+<li><strong>Resource footprint</strong>: on the same 20 parallel Docker tasks, ~7× lower peak memory, ~9× lower
+average CPU, ~5× lower disk I/O vs Claude Code (self-reported)</li>
+<li>Offline config is self-reported at ~56.2% (Qwen-class 27B quantized, a figure from the HN
+thread) — buying &quot;offline&quot; costs roughly 25 points of task success</li>
+<li>Team size and paying users: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Author explicitly focuses on the harness; the pain — agents that are heavy and cloud-dependent — is real and self-served</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Two correct calls: packaging is the product; offline is not a feature but the entry ticket to air-gapped environments</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Single Rust binary, embedded llama.cpp/grep/git, continuous public evals. Serious engineering, not a demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right. Agent tools are commoditizing; efficiency and offline are two dimensions nobody has saturated yet</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is BusyBox/SQLite philosophy applied to agents: the packaging is the product claim.</strong>
+Everyone else competes on models and prompts; Ante competes on &quot;no environment, no network, one
+file and it runs.&quot; For teams orchestrating dozens or hundreds of agents on one box, harness
+weight stops being a rounding error and starts being the bill. The direction holds.</p>
+<p><strong>The real disagreement with the Claude Codes is the trust model.</strong> The core harness is closed
+source, shipped as a prebuilt binary — while the entire pitch is &quot;your code never leaves your
+machine.&quot; The audience that needs offline agents is exactly the regulated, security-sensitive
+audience that will not run an unauditable binary on faith. The SDK, protocol, and eval pipeline
+are open, but the thing you actually run is not fully inspectable. Until the core crates move
+publicly, the pitch and the license are fighting each other.</p>
+<p><strong>Discount the benchmark.</strong> The 82.7% ran on a cloud DeepSeek model — a different configuration
+from the headline offline story. The self-reported offline figure is ~56%, about 25 points below
+the front-end config. Anyone buying the offline story is paying a real price, and that ledger
+has to be on the table.</p>
+<p><strong>The transferable rule: single-file distribution is the most complete way to zero out install
+cost.</strong> No installer, no dependency tree, no daemon — one curl pipe. Install cost is
+systematically underrated as a conversion factor in developer tools.</p>
+<h2>What to watch next</h2>
+<p>① Whether the core harness source actually ships as promised (&quot;progressively&quot;) — open-source
+progress is trust-repair speed
+② Whether they submit to the official Terminal-Bench leaderboard — 82.7% only counts once it's
+on the board
+③ The pricing and shape of the antix hosted service — the first step from free acquisition to a
+business model</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if your tool targets &quot;run many agents in parallel&quot; or &quot;air-gapped
+environments,&quot; single-binary plus zero runtime deps plus optional local inference is a
+copyable architecture decision. But decide the closed/open trust cost up front — a product that
+promises offline privacy cannot hand users an unauditable binary.</p>
+<p><strong>Positioning language</strong>: &quot;No account required, not even with us&quot; — stating no-lock-in as the
+lowest possible commitment to the user beats listing twelve supported providers.</p>
+<p><strong>Pricing structure</strong>: free-in-alpha plus a future hosted layer is the current default for agent
+tools. Watch it, don't copy it; the real question is whether anyone pays for the hosted half.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The packaging philosophy and eval transparency are rare in this category,
+and the HN heat was real (159 points, 88 comments). But the trust model (closed core) and the
+offline performance gap (-25 points) are two promises still to be honored. Revisit in three
+months against the three checks above — especially the first, which decides whether this is a
+true open-source project or an open shell.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +241,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +251,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +261,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +271,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +324,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

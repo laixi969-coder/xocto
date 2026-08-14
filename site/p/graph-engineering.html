@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>graph-engineering</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">给 agent 用的知识图谱工程，九个阶段的流水线</p>
@@ -82,18 +83,90 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前一个想学知识图谱的工程师：找书找课（中文研究生课程对英文开发者不友好）、自己啃论文（DeepMind/MIT 那篇 scaling 论文有 180 种配置的实验）、再花几天把方法论搬到自己的 agent 上。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你有一个高门槛、高价值的知识体系（课程、论文、内部方法论），&#34;蒸馏成 agent 技能 + 教学模式 + 现成提示词&#34;是一种三种成本的交付物打包，性价比远高于再写一本书或一门课。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把东南大学一门研究生《知识图谱》课程，蒸馏成一个 agent 技能包：让 Claude 这类编码 agent 学会九阶段知识图谱流水线和任务图谱编排规则。</p>
+<h2>做这个东西的人</h2>
+<p>GitHub 作者 codejunkie99（X 上为 @Av1dlive），一个持续产出&quot;把课程和方法论蒸馏成 Claude skill&quot;类仓库的创作者。他名下还有 agentic-stack、prompt-skills 等一批相关仓库。</p>
+<p><em>判断：这个人不是做产品的，是做&quot;方法论搬运工&quot;的——他真正的产品形态是&quot;把好内容变成 agent 能直接用的格式&quot;。这个身份本身很值得注意。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>九阶段知识图谱流水线</strong> → scope → representation → ontology → entities → relations → events → quality gate → fusion → serve to LLMs，每一步都有独立参考文档</li>
+<li><strong>任务图谱编排规则</strong> → 删除假边、菱形协作（拆分→并行→独立验证→合并）、停止规则（DeepMind×MIT 实验：能拆分的任务团队赢约 80%，顺序任务所有配置都输）、人工闸门放在错误代价高的地方</li>
+<li><strong>教学模式</strong> → 让 agent 用你自己的项目当例子，一步步教你整个流水线并生成图</li>
+<li><strong>现成工作流</strong> → 9 个可粘贴的 /kg-* 提示词（/kg-scope 到 /kg-rag），串成完整构建流程</li>
+<li><strong>安装即用</strong> → 两个命令装进 ~/.claude/skills/，然后对 agent 说&quot;用我的文档建知识图谱&quot;或&quot;教我图工程&quot;</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前一个想学知识图谱的工程师：找书找课（中文研究生课程对英文开发者不友好）、自己啃论文（DeepMind/MIT 那篇 scaling 论文有 180 种配置的实验）、再花几天把方法论搬到自己的 agent 上。</p>
+<p>现在：git clone 两个命令，agent 自己带着方法论干活，顺便把方法论教给你。<strong>替代的不是某个工具，而是&quot;把课程和论文变成可用技能&quot;这段人工翻译工作。</strong></p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> MIT 开源，无收费。作者的商业模式是个人品牌——用高质量免费仓库积累关注，再靠它支撑咨询、付费内容和其他项目。</p>
+<p><em>判断：这类仓库不直接赚钱，但对作者是获客资产。对读者来说，它值钱的地方是&quot;有人帮你把学术成果蒸馏成了 agent 能执行的形式&quot;。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>397 star / 57 fork</strong>（2026-08-14 GitHub API 实测）；pool 记录 376 star</li>
+<li>2026-07-23 建仓，单次提交（一个 commit 打完整包）</li>
+<li>上游课程 npubird/KnowledgeGraphCourse：4.4K star，东南大学，2019 年起中文授课</li>
+<li>有一篇 X 帖子把它推成热点，帖子里的&quot;4,400 stars&quot;说法与上游课程仓库混淆，本仓库实际不到 400 star</li>
+<li>团队、用户数：单人维护，无商业用户数据</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高。作者反复做同一类事（方法→skill），驾轻就熟</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓对了方向：知识图谱翻红的真正原因不是技术，而是 agent 需要结构化记忆</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>单 commit、无测试、无 issue 管理，是&quot;内容打包&quot;而非软件工程</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>知识图谱 + agent 的记忆与编排是 2026 的明确主题，时机很好</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>它的价值不在代码，在&quot;选题&quot;和&quot;翻译&quot;。</strong> 东南大学的课程讲了七年，内容扎实；DeepMind/MIT 的实验结论是公开的。作者做的是把这两样东西变成 agent 能直接执行的格式，还带了教学模式——这个&quot;把高门槛内容做成低门槛技能&quot;的搬运能力，比仓库本身的代码更值得注意。</p>
+<p><strong>它本质上不是软件，是内容产品。</strong> 单 commit、无测试、无维护节奏，意味着你不会把它当依赖用，而是把它当教材用。判断它好坏的标准不是 star，而是&quot;你照着它的 /kg-* 工作流跑一遍，能不能真的建出能用的知识图谱&quot;。</p>
+<p><strong>可迁移的判断</strong>：知识图谱正经历第二次翻红，这次的主语是&quot;agent 的世界模型&quot;。但绝大多数团队不需要自建图谱——真正值钱的可能是&quot;什么时候该用图、什么时候用向量库就够了&quot;这个判断力，而这份课程恰好把这一块讲得最清楚。</p>
+<h2>下一步看什么</h2>
+<p>① star 三个月后是否破千（它已经在 X 上被大 V 转发，看热度能否沉淀）
+② 是否出现&quot;用它建成了生产级知识图谱&quot;的案例，而不是只停留在教学演示
+③ 作者是否把它并入更大的 agentic-stack 体系，还是当一次性内容投放</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果你有一个高门槛、高价值的知识体系（课程、论文、内部方法论），&quot;蒸馏成 agent 技能 + 教学模式 + 现成提示词&quot;是一种三种成本的交付物打包，性价比远高于再写一本书或一门课。</p>
+<p><strong>定位语</strong>：&quot;不是给 agent 写提示词，而是设计它工作的结构&quot;（prompt engineers steer words, graph engineers steer topology）——把旧的&quot;提示词工程&quot;和新的&quot;图工程&quot;对立起来，一句话划出认知差。</p>
+<p><strong>内容分发</strong>：单 commit 的仓库加一条引爆的 X 帖子，比十篇教程文章传播效率高得多。仓库可以粗糙，但&quot;开箱即用的动作&quot;和&quot;可传播的一句话&quot;不能省。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 它是&quot;知识蒸馏为 agent 技能&quot;这个新内容品类的代表样本，选题踩在点子上，热度真实。但本质是教材不是产品，别拿软件的标准要求它。把上面三条&quot;下一步&quot;写进日历。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +177,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +208,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +266,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

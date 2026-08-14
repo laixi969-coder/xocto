@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Pacific Slate</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">a self-hosted, model-agnostic multi-agent AI assistant</p>
@@ -82,18 +83,162 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>For the author personally, three kinds of old actions:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for deciding &#34;which model to use,&#34; do not let the LLM decide — route with a deterministic scorer (complexity score × budget level): controllable, explainable, auditable. Any multi-model…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A self-hosted, multi-agent personal assistant written by one MBA student for himself:
+models (rented) and data (his own) are strictly separated, and all data stays on his
+own server.</p>
+<h2>Who built it</h2>
+<p>Builder field says badwx (HN handle). The site self-describes: a current MBA student,
+married with two children, no formal software background. The development method is
+&quot;AI-native&quot; — he designed the architecture himself (components, connections, budgets)
+and let coding AI agents write most of the code. The system has run daily since early
+2026 through August 2026.</p>
+<p><em>Read: this is not a product, it is a &quot;single-user system architecture reference.&quot; Its
+value is not how many people use it, but that it proves a non-programmer can assemble
+a daily-use private AI system out of self-hosting, multiple models, and cost control.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Autonomous information stream</strong> → pulls from email, calendar, GitHub, HN, Reddit,
+arXiv, RSS, weather, markets, earthquake data, and more on a schedule; scores items
+by relevance, importance, and novelty; produces briefings</li>
+<li><strong>Multi-agent collaboration</strong> → 1 operator + 7 expert agents (coder, researcher,
+analyst, productivity, reviewer, evaluator), built on Google's ADK, each with
+least-privilege permissions</li>
+<li><strong>Model-agnostic</strong> → capabilities exposed through an MCP gateway and OpenAI-compatible
+endpoints; swapping models is one config change and touches neither memory, data,
+tools, nor routing</li>
+<li><strong>Four-layer memory</strong> → knowledge corpus, continuity graph, semantic memory, and
+hierarchical context; remembers preferences and past decisions</li>
+<li><strong>Cost routing</strong> → a deterministic scorer (no model involved) rates prompt complexity
+1–5 and, combined with budget usage, picks the model tier; there is a monthly budget
+cap</li>
+<li><strong>Reliability engineering</strong> → health tracking and cooldowns for rate limits, a
+first-token timeout watchdog, a degradation chain (primary model fails → backup
+takes over → explicit failure message), and no crashes</li>
+<li><strong>Traceability + data sovereignty</strong> → every answer carries source citations; all
+data lives on his server, exportable and deletable, not used to train models;
+external requests go through zero-data-retention endpoints</li>
+</ul>
+<p><strong>Operating shape</strong>: Next.js canvas frontend + Starlette backend + ~24 MCP tool
+servers behind a gateway (BM25 search finds the right tool instead of stuffing all
+schemas into context); answers render as movable cards, each labeled with model, cost,
+and latency.</p>
+<h2>What old behavior it replaces</h2>
+<p>For the author personally, three kinds of old actions:</p>
+<p><strong>Explaining yourself over and over to different AI programs.</strong> Switching models or
+tools meant re-communicating context; a unified system that self-updates, remembers
+preferences, and keeps data private ends that.</p>
+<p><strong>Long chat threads.</strong> One task, one conversation, scrolling forever. Now it is
+movable cards on a canvas, each labeled with which model did it, what it cost, and
+how long it took.</p>
+<p><strong>Dependence on a single model.</strong> Switching vendors used to be a migration; now it is
+a one-line config change.</p>
+<p>For the general reader, it replaces &quot;subscribing to a pile of AI services&quot; with an
+alternative: rebuild a private version for $50–80/month with all data in your own hands.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Not a product — a personal system plus an open-source blueprint (the site
+says &quot;almost all of it is open source&quot;). The author's reconstruction estimate:
+~$20/month coding assistant, ~$20/month small server, $10–40/month metered model
+calls, about $50–80/month total.</p>
+<p><em>Read: this should not be evaluated as a business model. The real question is whether
+the architectural blueprint can be reused by others — if it can, it becomes a valuable
+reference for the self-hosting AI community.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Running totals: <strong>13,053 runs, 26,515 model calls, 9 models used</strong></li>
+<li>Performance: median model-call latency 3.1s, p90 latency 14s</li>
+<li>Knowledge base: ~<strong>14,000 documents / 196,000 text passages</strong></li>
+<li>Users: 1 (the author); explicitly not aimed at enterprise or multi-tenant</li>
+<li>HN 5 points / 0 comments (2026-08-11) — essentially undiscussed</li>
+<li>Team: 1 person, with AI coding agents as development partners</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Single-user system, needs are his own — perfect fit, but it is a personal tool, not a startup</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Three designs transfer well: model/data separation, deterministic cost routing, and BM25 tool lookup instead of stuffing schemas into context</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Health tracking, degradation chain, zero-data-retention, audit logs — reliability thinking beyond most commercial products</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Self-hosting + model-agnostic + data sovereignty is moving from technical preference to procurement requirement; timing is right, but this is not a product the market can &quot;adopt&quot;</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is a &quot;single-user architecture reference,&quot; not a product, and the data says
+Unproven.</strong> HN 5 points, zero comments, no users, no commercial intent — but it should
+not be graded as a product. It should be graded as a blueprint.</p>
+<p><strong>Three designs worth stealing</strong>:
+First, <strong>deterministic cost routing</strong> — a rule (complexity score 1–5 × budget usage),
+not a model, decides which model tier to use, avoiding the self-contradiction of
+&quot;let the LLM decide how much money to spend.&quot;
+Second, <strong>model-agnostic as a first principle</strong> — swapping models touches neither
+memory, data, tools, nor routing; &quot;no vendor lock-in&quot; is architecture fact, not a
+slogan.
+Third, <strong>tools behind a gateway with BM25 lookup</strong> — 24 MCP servers never enter
+context; retrieval finds the right tool on demand. Same idea as mcptoon, different
+implementation.</p>
+<p><strong>The biggest question mark</strong>: the reliability numbers (3.1s median latency, 13,053
+runs) and the architecture diagram are self-reported by a non-programmer writing with
+AI agents; no third-party verification and no direct repo link visible on the site.
+So it is a &quot;reference design worth reading,&quot; but every number must be discounted.</p>
+<h2>What to watch next</h2>
+<p>① Whether the code actually goes open source (downloadable, reproducible) — a
+blueprint's value depends on being reusable
+② Whether monthly cost stays around $50–80 — the cost claim is its most falsifiable
+assertion
+③ Whether anyone builds a team version or an open-source project from it — reuse is
+the evidence that this architecture actually works</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for deciding &quot;which model to use,&quot; do not let the LLM decide —
+route with a deterministic scorer (complexity score × budget level): controllable,
+explainable, auditable. Any multi-model product team can copy this routing logic
+directly.</p>
+<p><strong>Positioning language</strong>: &quot;models are rented, data is yours&quot; — compressing
+model-agnosticism plus data sovereignty into a balanced phrase is a positioning
+sentence every self-hosted product can use.</p>
+<p><strong>Pricing structure</strong>: no business model, but the broken-down cost items (~$20
+coding assistant + ~$20 server + $10–40 model calls) are themselves a pricing
+reference — the selling point of self-hosted options is &quot;total cost below the sum
+of subscriptions.&quot;</p>
+<h2>Verdict</h2>
+<p><strong>Unproven, but worth filing.</strong> Not a product — a complete design document for &quot;one
+person plus AI agents builds a private AI system,&quot; with three genuinely transferable
+designs: cost routing, model-agnosticism, and tool retrieval. All data is
+self-reported and no direct code link is visible, so the grade is Unproven by the
+data — but this blueprint deserves a read by anyone planning a self-hosted setup.
+In three months, check whether it is actually open-sourced and reused.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -104,6 +249,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +280,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +338,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

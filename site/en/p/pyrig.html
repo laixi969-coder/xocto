@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Pyrig</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">A tool that automates project setup and maintenance</p>
@@ -81,25 +82,127 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Setting up a modern Python project used to mean either hand-configuring pyproject.toml, ruff, pytest, pre-commit, and GitHub Actions for every new project — repeating the same work and letting config …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for any template/initialization feature, copy the rule that &#34;generating is just the start; maintenance is the value&#34; — make config updates a continuous action (sync) rather than a one-t…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A tool that standardizes and automates Python project setup and maintenance: run <code>pyrig init</code>
+once and get a fully working project (toolchain, CI/CD, CLI all configured), then keep
+configuration current with <code>pyrig sync</code>.</p>
+<h2>Who built it</h2>
+<p>A personal project by Winipedia (a single-user GitHub org). One person maintains it, with 2,254
+commits and a commit as recent as 2026-08-13 — unusually high commitment. The repo is at
+Winipedia/pyrig, with a full documentation site, YouTube tutorials, and an AI-generated CodeWiki
+as documentation.</p>
+<p><em>Read: single author, near-daily commits, complete documentation — the classic artifact of
+&quot;someone personally tortured by scaffolding.&quot; The project's lifecycle depends entirely on one
+person's continued investment.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>One-shot scaffolding</strong> → <code>pyrig init</code> generates a standard directory layout, configured dev
+tools (linters, formatters, type checkers, test frameworks, git hooks), end-to-end CI/CD with
+GitHub Actions and repository protection rules, and a working CLI</li>
+<li><strong>Config as code</strong> → every project file is treated as a data-structure class, loaded and
+validated against a schema; any behavior can be overridden by subclassing, and
+<code>pyrig mk subcls</code> generates subclasses</li>
+<li><strong>Continuous sync</strong> → <code>pyrig sync</code> creates or updates all config files in one pass, and can
+generate and maintain test skeletons for all source modules (&quot;mirror tests&quot;) as the project
+evolves</li>
+<li><strong>Automatic CLI</strong> → the project gets working commands like <code>version</code> out of the box, and
+<code>pyrig mk cmd &lt;name&gt;</code> adds new ones</li>
+<li><strong>Self-aware positioning</strong> → the README includes an explicit comparison page against
+cookiecutter, copier, and pyscaffold</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Setting up a modern Python project used to mean either hand-configuring pyproject.toml, ruff,
+pytest, pre-commit, and GitHub Actions for every new project — repeating the same work and letting
+config drift as tooling updates — or using a cookiecutter-style template, which generates once and
+never follows the project as it evolves. pyrig replaces both the manual repetition and the
+&quot;generate-but-don't-maintain&quot; gap: it turns config maintenance into a continuous action (sync).</p>
+<h2>Business model</h2>
+<p><strong>MIT open source, no pricing, no hosted service.</strong> A personal developer project with no visible
+monetization moves.</p>
+<p><em>Read: this kind of tool is usually a resume and an internal efficiency tool. Without a hosted
+service there is no payment entry point; stars and adoption are its only assets.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>27 stars, 2 forks.</strong> Created 2025-11-17, MIT, Python</li>
+<li>2,254 commits, 9 open issues, last commit 2026-08-13 — near-daily commit cadence</li>
+<li>Requires Python 3.12+ / Git / uv</li>
+<li>6 points, 2 comments on HN; no user-scale data</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Dogfooded tool; the author has clearly been tortured by scaffolding — high fit</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Config maintenance should be continuous, not one-time&quot; is the right insight; mirror tests and subclassing are thoughtful designs</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>2,254 commits plus a full documentation site — real engineering investment, not a shell</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>The scaffolding category is crowded (cookiecutter/copier/pyscaffold), and &quot;how standardized&quot; is a team-culture question a tool can only half-answer</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Unproven. A developer-efficiency tool with no AI component — right direction, wafer-thin data.</strong>
+27 stars means it hasn't crossed the line from &quot;author's own tool&quot; to &quot;community adoption.&quot; The
+design contains something real — turning config maintenance from a one-time template into
+continuous sync goes a step beyond cookiecutter — but it asks users to adopt uv and its whole
+convention set, a high migration barrier.</p>
+<p><em>Read: this looks more like a high-quality specimen of &quot;personal scaffolding philosophy&quot; than a
+product that will grow. Whether the community actually references it matters more than stars.</em></p>
+<h2>What to watch next</h2>
+<p>① Whether any third-party repo or project actually depends on it in three months — references
+count more than stars
+② Whether stars cross 100 and the commit cadence holds
+③ Whether the documentation site sees search traffic — the first growth signal for an individual
+developer tool is people finding it</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for any template/initialization feature, copy the rule that &quot;generating is just
+the start; maintenance is the value&quot; — make config updates a continuous action (sync) rather than
+a one-time output. Also worth copying: let users subclass and override everything instead of
+offering a pile of switches — extensibility beats configurability for advanced users.</p>
+<p><strong>Positioning language</strong>: none. Engineering documentation; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Real engineering, a few genuinely original ideas, but no community-adoption
+evidence, no monetization path, and a single maintainer. Re-check references and search traffic in
+three months before deciding whether it deserves further tracking.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +222,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +232,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +242,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +295,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

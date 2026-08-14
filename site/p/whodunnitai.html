@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>whodunnitai</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">语音驱动的谋杀推理游戏，用嘴审问 AI 嫌疑人</p>
@@ -83,22 +84,135 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前玩侦探推理游戏（《逆转裁判》类），获取信息的方式是在固定对话树里选选项： 游戏作者写什么你才能问什么，对话是写死的，重复玩体验趋同。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：把&#34;AI 生成&#34;和&#34;AI 判定&#34;拆成两个模型各管一段。 当你的产品需要 AI 既自由发挥又保证结果正确时，让一个模型生成、 另一个模型裁决，比让同一个模型又当选手又当裁判可靠得多。 whodunnitai 用 gpt-5-mini 当法官就是这个思路的直接演示。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个用嘴玩的谋杀推理游戏：五个 AI 嫌疑人各有完整人设，你对着麦克风自由审问、
+出示证据、指认凶手，AI 全程用语音回应——说话本身就是玩法。</p>
+<h2>做这个东西的人</h2>
+<p>独立开发者 MrRowTheBoat 的单人项目，2026-08-10 前后以 Show HN 上线（whodunnitai.com）。
+游戏目前只有一个案件&quot;Death at Blackwood Manor&quot;：投毒的家主、五位宾客、一套锁定的事实真相。</p>
+<p><em>判断：这是个典型的技术人做了个自己会玩的游戏——它在 HN 上被讨论的核心不是&quot;游戏好不好玩&quot;，
+而是&quot;怎么用最新的实时语音模型搭出来的&quot;。创作者本人也直接在 HN 上回应 API 成本、
+幻觉等问题，属于高响应度、把产品当工程在做的那种作者。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>语音到语音的实时审讯</strong> → 用 OpenAI gpt-realtime-2 系列模型 + WebRTC 流式传输，
+和嫌疑人像打电话一样对话，不是语音转文字再回复</li>
+<li><strong>自由提问，无选项树</strong> → 想怎么问就怎么问，每次游戏的对话路径都不同，可复玩</li>
+<li><strong>独立法官模型</strong> → 一个不参与对话的 gpt-5-mini 模型单独裁决你出示的证据是否有效，
+把&quot;生成&quot;和&quot;判定&quot;解耦，防止同一个模型既当嫌疑人又当裁判</li>
+<li><strong>嫌疑人会说谎会紧张</strong> → 角色按设定原则回应（可以撒谎、不能直接承认），
+配合实时语音的情感表达，审讯压迫感是它最被夸的地方</li>
+<li><strong>指认环节</strong> → 嫌疑人 Agent 内部用工具记录你指控时陈述的证据清单，
+交给法官模型结构化裁决</li>
+</ul>
+<p><strong>它明确不做</strong>：不做预设对话树、不做文本先行。从录音、转写、回应到判定，
+整条链路都是为&quot;真实审讯感&quot;服务的。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前玩侦探推理游戏（《逆转裁判》类），获取信息的方式是在固定对话树里选选项：
+游戏作者写什么你才能问什么，对话是写死的，重复玩体验趋同。</p>
+<p>whodunnitai 替代的是&quot;用嘴追问一个会撒谎、会紧张、会编故事的人&quot;这件现实里只有
+真人剧本杀才能给的事——真人剧本杀要凑人、要花半天、要主持人，
+它把这个体验压缩进浏览器里的 15-30 分钟。同类里 Vaudeville（Steam）支持语音，
+但本质还是&quot;语音输入转文字指令&quot;；whodunnitai 做的是真正的语音到语音。</p>
+<h2>商业模式</h2>
+<p>免费 + 捐赠 + BYOK。免费层限时 30 分钟（上线当晚因成本问题一度缩到 15 分钟）；
+玩家可以自带 OpenAI API key 换取不限时，key 存在浏览器 localStorage，服务端只为
+每次会话签发临时凭证，不落数据库。创作者公开呼吁捐赠以覆盖每分钟都在烧的 API 成本。</p>
+<p><em>判断：这不是商业模式，是成本的紧急刹车。实时语音 API 每分钟都在花钱，
+单局 21 分钟的典型时长意味着每个玩家都是一笔硬成本。BYOK 是聪明的转嫁——
+但它把付费逻辑从&quot;买游戏&quot;变成了&quot;自带燃料&quot;，普通人没有 API key，
+这个门槛会挡住绝大多数非技术玩家。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>HN 203-208 分、86 条评论，是同批语音产品里讨论最密集的之一</li>
+<li>官网时点数据：205 起调查进行中、8 起破案、典型破案时长 21 分钟</li>
+<li>上线当晚 API 余额耗尽、玩家集体连不上；修复后数小时烧掉约 100 美元</li>
+<li>文本由 40 多个环节的生成流水线产出，量级相当于一本书</li>
+<li>技术栈：Next.js + MongoDB + Clerk，实时语音走 gpt-realtime 系列</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>创作者是懂实时语音 API 的人，技术手感是核心资产，但单人项目内容产能有限</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓准了&quot;语音在游戏里比在工具里自然&quot;——说话本来就是审讯玩法的一部分</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>生成与判定解耦的双模型架构是真正的亮点，比单模型硬撑高一个段位</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>实时语音模型刚成熟、成本刚降到可玩区间，卡在了一个对的时间点</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这个产品的价值不是&quot;一个好游戏&quot;，是&quot;语音交互在游戏里能成立&quot;的证明。</strong></p>
+<p>它验证了两件事。第一，<strong>语音在娱乐场景的容错率远高于工具场景</strong>——
+工具里转写错一个词就是事故，游戏里模型编出错误的人物关系，
+反而被当成&quot;嫌疑人会说谎&quot;的沉浸感。这是语音 AI 应用里最被低估的设计红利：
+游戏把模型的缺陷转化成了玩法。第二，<strong>生成与判定分离的架构</strong>——
+让 gpt-5-mini 当法官、嫌疑人模型当选手，用多 Agent 架构抑制单模型的随机性，
+这个思路可以整体移植到任何&quot;AI 既要生成内容又要裁决结果&quot;的场景。</p>
+<p><strong>它的天花板也很清楚</strong>：成本是硬约束。语音到语音按分钟计费的模式下，
+每一个免费玩家都是负债，每一个破案玩家都在烧钱。
+它目前的形态更像&quot;技术示范&quot;——HN 上讨论它的主力是同行开发者而不是玩家，
+说明第一波流量吃的是&quot;新架构&quot;而不是&quot;好玩&quot;。</p>
+<p><strong>可迁移的规律</strong>：做实时语音产品，先把成本结构设计清楚再谈体验。
+whodunnitai 的 30 分钟限时、BYOK、临时凭证这套组合，就是成本没理顺前的真实解法——
+先别骂它体验差，想想你的产品每分钟烧多少钱。</p>
+<h2>下一步看什么</h2>
+<p>① 第二个案件是否上线——单一案件决定复玩性，内容产能是单人项目的生死线
+② 破案数/调查数比率是否爬升——现在 8/205，转化率极低，说明多数人没玩到结局
+③ BYOK 玩家的比例——如果免费转付费全靠自带 key，说明纯订阅模式撑不住成本</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：把&quot;AI 生成&quot;和&quot;AI 判定&quot;拆成两个模型各管一段。
+当你的产品需要 AI 既自由发挥又保证结果正确时，让一个模型生成、
+另一个模型裁决，比让同一个模型又当选手又当裁判可靠得多。
+whodunnitai 用 gpt-5-mini 当法官就是这个思路的直接演示。</p>
+<p><strong>话术</strong>：无。它的宣传语是功能陈述，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：BYOK（自带 key）值得抄——对按 API 用量计费的产品，
+让重度用户自带燃料、平台只收服务费，是成本转嫁的有效办法。
+但前提是目标用户要有技术门槛，普通消费者场景不适合。</p>
+<h2>结论</h2>
+<p><strong>值得关注，但把它当技术风向标看，别当游戏买。</strong>
+语音交互在游戏里的自然度、双模型裁决架构，这两点对做任何语音/生成类产品
+都有直接参考价值；但成本模型没理顺之前，它自己很难成为一门生意。
+三个月后看它有没有第二个案件、破案率有没有涨。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
-        AI + 生活 共 16 个 →
+        AI + 生活 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -108,7 +222,7 @@
             <span class="row-name">everycube</span>
             <span class="row-desc">能翻遍魔方全部 4325 亿亿种状态</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 285</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 285</span>            </span>
           </div>
         </a>
       </li>
@@ -118,7 +232,7 @@
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">讲 AI Agent 设计原理与工程实践的开源教材</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 221</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 221</span>            </span>
           </div>
         </a>
       </li>
@@ -128,7 +242,7 @@
             <span class="row-name">loomfeed</span>
             <span class="row-desc">开源Reddit替代品，专为AI agent和人类设计，支持溯源和声誉。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 212</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 212</span>            </span>
           </div>
         </a>
       </li>
@@ -138,7 +252,7 @@
             <span class="row-name">ShenNongMi</span>
             <span class="row-desc">中医知识图谱问答，靠两万个节点撑住会自我纠错的查询</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 103</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 103</span>            </span>
           </div>
         </a>
       </li>
@@ -191,7 +305,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

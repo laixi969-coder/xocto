@@ -8,13 +8,14 @@ inspiration: 学术研究是被忽视的付费市场：流程高度标准化、�
 summary_en: ''
 inspiration_en: 'Academic research is an overlooked paying market: the workflow is highly standardized,
   mistakes are expensive, and the budget comes from grants.'
+priority_review: false
 url: https://github.com/kennethkhoocy/applied-micro-skills
 canonical_url: https://github.com/kennethkhoocy/applied-micro-skills
 summary: 'Claude Code and Codex skills for empirical applied-micro research: reproducibility auditing,
   LLM-pipeline methods, event studies, WRDS, Stata, publication-grade tables'
 first_seen: '2026-07-22T09:33:39Z'
 last_seen: '2026-08-11T05:03:15Z'
-status: pending_filter
+status: analyzed
 sources:
 - github
 sightings:

@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>AndroMeld</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">让安卓手机和 Mac 之间也有苹果那种接力体验</p>
@@ -82,25 +83,136 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>&#34;安卓手机和 Mac 之间传东西&#34;以前是一连串将就：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：想找市场缝隙，先去大厂生态里找&#34;已经被教育好的体验&#34;， 再把它翻译到另一个生态——用户不需要被教育，只需要被迁移。 补缝产品最好的起点是&#34;对面已经有了&#34;。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给&quot;安卓手机 + Mac&quot;这对组合补上苹果那种接力（Continuity）体验：
+安卓应用以独立窗口镜像到 Mac、支持随航式的应用接力、Finder 里直接翻
+手机存储、通知和剪贴板双向同步——所有数据直连传输，不经过云服务器。</p>
+<h2>做这个东西的人</h2>
+<p>Ruoxin He，独立开发者。公开履历是 IceBox（Google Play 5M+ 下载）和
+FilterBox 的作者。这次他做的是把安卓生态接到 Mac 上。</p>
+<p><em>判断：做过 5M 下载量应用的人再来做工具，说明作者有把&quot;补缝&quot;产品做到
+规模的实绩，不是新手试水。IceBox 做的正是&quot;安卓机顶盒/电视棒上想要更多
+控制权&quot;这类补缝需求，和 AndroMeld&quot;安卓和 Mac 之间缺一条桥&quot;是同一类
+判断——巨头生态的排他性留下的缝，值得反复去补。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>逐应用镜像</strong> → 不像 scrcpy 那样整屏镜像在一个固定窗口里，而是多个安卓应用同时各开一个可缩放的原生感 Mac 窗口</li>
+<li><strong>应用接力（Handoff）</strong> → 手机上开着的应用，可以直接在 Mac 上继续</li>
+<li><strong>输入与控制</strong> → Mac 键盘打字、触控板手势操作；Spotlight 里直接启动安卓应用，应用出现在 Dock，还能把快捷方式放桌面</li>
+<li><strong>Finder 集成</strong> → 在 Finder 里浏览安卓存储，支持拖放和 Quick Look；文件可直接拖进当前安卓应用</li>
+<li><strong>通知与剪贴板</strong> → 双向同步，两套系统之间的边界基本抹平</li>
+<li><strong>连接方式</strong> → USB 和 Wi-Fi 都支持，自动重连；APK 预览和安装</li>
+<li><strong>MCP 服务器</strong> → 给 Claude Code、Codex 这类工具提供了 MCP server，等于让 agent 也能操作手机</li>
+<li><strong>免费 Web App</strong> → 浏览器里同时控制最多 4 个安卓应用</li>
+</ul>
+<p><strong>它明确不做的</strong>：不把屏幕/音频流、剪贴板内容、文件经过云服务器中继，
+无账号体系——所有数据在设备之间直连传输。</p>
+<h2>它在替代什么旧行为</h2>
+<p>&quot;安卓手机和 Mac 之间传东西&quot;以前是一连串将就：</p>
+<p>一是<strong>scrcpy</strong>——开发者向的方案：命令行 + adb，整屏镜像在一个固定窗口，
+一次只能看一个应用，没有 Finder 集成，普通人根本不会装。</p>
+<p>二是<strong>AirDroid 这类云中继</strong>——要账号、数据经过服务器，传输敏感文件
+心里发怵，且体验是&quot;网页式&quot;的，不是本地的。</p>
+<p>三是**&quot;发文件给自己&quot;**——AirDrop 用不了（苹果生态排他），于是邮件发自己、
+微信文件传输助手、云盘转存，拷贝粘贴两边倒腾。通知、剪贴板更是
+干脆没有跨设备方案。</p>
+<p>AndroMeld 替代的是这堆将就：把 scrcpy 的功能做成普通人能用的图形界面，
+把云中继换成直连，把&quot;发文件给自己&quot;换成 Finder 直接拖。它补的是苹果
+用自己的封闭生态制造的那条缝——这条缝苹果永远不会自己补。</p>
+<h2>商业模式</h2>
+<p>Mac App Store 发布，官网口径是&quot;每个功能都能免费试用&quot;，另有完全免费的
+Web App。完整定价（是否订阅/买断、价格多少）<strong>未披露</strong>。</p>
+<p><em>判断：独立开发者 + 买断制（大概率）是这类工具的标准路径——没有云成本、
+没有账号体系，边际成本接近零，定价空间反而更灵活。但也要看到天花板：
+安卓 16+ 的机型要求 + Mac 用户里同时用安卓的人，市场盘子不大，
+它和 IceBox 一样，是&quot;小而稳&quot;的补缝生意。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>作者此前作品：IceBox 在 Google Play 超过 500 万次下载</li>
+<li>设备要求：安卓 16+ 设备，USB 或 Wi-Fi 连接</li>
+<li>平台：Mac App Store（产品），另有免费 Web App（浏览器控制最多 4 个应用）</li>
+<li>价格、用户数、下载量：<strong>未披露</strong></li>
+<li>发布平台 首发时间：2026-08-05 前后，无 upvote 数据入库</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高。作者做过 5M 下载的同类补缝工具，专长就是设备生态缝隙</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;逐应用窗口 + 接力 + Finder&quot;这套组合，正是把苹果 Continuity 的体验翻译到安卓，方向精准</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>直连传输、无账号、MCP server、Finder 集成，工程量不小，且作者有交付先例</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>稳定缝隙。安卓 + Mac 双持人群长期存在，苹果永远不补这条缝</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;补缝&quot;产品里做得最完整的样本。</strong> 补缝的秘诀不是做功能，
+是把大厂生态里已经存在的体验（Continuity）翻译到没有的地方——
+AndroMeld 的每个功能点（逐应用镜像、接力、Finder、剪贴板）都能在
+苹果 Continuity 里找到对应物，这比凭空发明功能靠谱得多。</p>
+<p><strong>三个信号值得注意</strong>：一是直连 + 无账号，把&quot;不用云中继&quot;当卖点，
+这是隐私敏感用户的关键决策点；二是给 Claude Code/Codex 做了 MCP server，
+让 agent 能操作手机——这个方向比镜像本身更前瞻；三是作者有 5M 下载的
+先例，说明他知道怎么把这种工具推出去。</p>
+<p><strong>但要冷静</strong>：安卓 16+ 的要求意味着很多设备用不上；Mac + 安卓双持
+的人群本身不大；苹果生态里类似的桥（如某些云剪贴板工具）也早有替代。
+它的天花板是&quot;小而稳&quot;，不是爆发。</p>
+<h2>下一步看什么</h2>
+<p>① Mac App Store 的首月下载/评分——补缝工具的留存和口碑是硬指标
+② 安卓 16+ 的硬性门槛会不会往下放（扩大可用设备基数）
+③ MCP server 被 agent 工具链实际采用的证据——这是它比&quot;镜像工具&quot;多出来的那条未来曲线</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：想找市场缝隙，先去大厂生态里找&quot;已经被教育好的体验&quot;，
+再把它翻译到另一个生态——用户不需要被教育，只需要被迁移。
+补缝产品最好的起点是&quot;对面已经有了&quot;。</p>
+<p><strong>话术</strong>：官方一句话&quot;Bring a Continuity-style experience to Android and Mac&quot;，
+用用户已知的产品（Continuity）命名未知的功能，零解释成本。值得抄。</p>
+<p><strong>定价结构</strong>：功能免费试用 + 免费 Web App + 数据直连无账号，先让人放心
+再用体验谈付费；同时把&quot;不经过云&quot;做成明写的卖点。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 补缝方向对、体验完整、作者有 5M 下载的先例，且直连无账号
+和 MCP server 两个点比同类走得远。但它注定是小盘子生意，验证它
+该看首月下载和口碑，而不是增长曲线。它是&quot;大厂排他性留下的缝&quot;这个
+判断的又一次验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +232,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +242,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +252,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +305,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

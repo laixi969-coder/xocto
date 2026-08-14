@@ -7,12 +7,13 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://www.producthunt.com/products/insta-360
 canonical_url: https://producthunt.com/products/insta-360
 summary: A 360 camera, gimbal, and 3D scanner in one
 first_seen: '2026-08-13T04:36:50Z'
 last_seen: '2026-08-13T11:28:29Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

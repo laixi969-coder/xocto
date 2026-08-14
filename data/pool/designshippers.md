@@ -8,12 +8,13 @@ inspiration: 服务型业务改成订阅制的样板——客户买的是「随�
 summary_en: ''
 inspiration_en: 'A template for turning a service business into a subscription: the client is buying “someone
   is always there,” not “a project.”'
+priority_review: false
 url: https://designshippers.com/?0
 canonical_url: https://designshippers.com
 summary: Design Engineering, as a Service
 first_seen: '2026-08-10T13:12:04Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

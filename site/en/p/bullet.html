@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Bullet</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">AI coding tool claiming to be 30-60% faster than Claude Code and Codex.</p>
@@ -81,15 +82,130 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The typical waiting workflow with Claude Code or Codex: shovel the whole repo into context (or a compressed version), execute tasks serially, queue every tool call. A 100-turn agent run spends most tu…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: any efficiency product should ask where its most expensive step is. Bullet&#39;s answer is round trips, not model speed. Before building an agent product or an efficiency tool, count the se…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Not a smarter model, a leaner loop around it. Bullet attacks the wall-clock time of an agent run
+by cutting round trips, on the insight that model speed matters less than reducing them.</p>
+<h2>Who built it</h2>
+<p>Adi and Alex, Yale CS grads fresh out of AppLovin and Citadel, YC S26. Bullet is the survivor of
+six pivots — earlier attempts included an AI hedge fund, a browser-use agent, synthetic financial
+data, and a mobile IDE, all failures.</p>
+<p><em>Read: split the background in half. The negative half: six pivots says they are good at hitting
+walls. The positive half: latency optimization and cost control are exactly the fundamentals of
+quant trading systems, and they map directly onto what this product does.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Model routing</strong> → easy steps go to fast models; escalation only when the task earns it; no
+manual model picking</li>
+<li><strong>Targeted code search</strong> → no whole-repo embedding; search with fallbacks pulls only relevant
+files, so context stays small</li>
+<li><strong>Context hygiene</strong> → bounded tool output, stale screenshots removed, no file re-reads</li>
+<li><strong>Parallel tool calls</strong> → independent searches/reads/commands run concurrently; dependent edits
+and verification stay sequential; self-reported 16% fewer round trips and 27% lower cost</li>
+<li><strong>Uses what you already pay for</strong> → works with a Claude Code/Codex subscription, any API key, or
+an on-device model</li>
+<li><strong>CLI</strong> → <code>npm install -g @trybullet/cli</code>, macOS and Linux</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no model training, not a Claude Code replacement — a tighter
+loop wrapped around existing models and subscriptions.</p>
+<h2>What old behavior it replaces</h2>
+<p>The typical waiting workflow with Claude Code or Codex: shovel the whole repo into context (or a
+compressed version), execute tasks serially, queue every tool call. A 100-turn agent run spends
+most turns on boring work — reading a file, checking a path, running a test — that should return
+instantly but gets dragged into frontier-model latency.</p>
+<p>Bullet replaces the default of &quot;strongest model end to end, serial, whole-repo context.&quot; Its bet:
+a real router beats a bigger model on both wall-clock and cost.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> Private beta, free for now, no subscription. macOS and Linux.</p>
+<p><em>Read: no pricing page means still in validation. The charging point in this category will likely
+be per run or per seat rather than per token — the token cost is already on the user's own
+subscription and keys.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>HN Launch HN: 93 points, 68 comments</strong> (early August 2026)</li>
+<li>SWE-bench Verified: <strong>479/500 (95.8%) in one attempt</strong>, averaging <strong>119s per task</strong>, claiming
+<strong>35–67% faster</strong> than mini-SWE-agent + Fable/Sol; the marketing line is &quot;30-60% faster than
+Claude Code/Codex&quot;</li>
+<li>Internal measurement: 16% fewer round trips, 27% lower cost</li>
+<li>Team size, user count, revenue: not disclosed</li>
+</ul>
+<p><strong>Benchmark credibility is contested</strong>: the 95.8% comes from an eval without the router enabled
+(for an apples-to-apples harness comparison), and SWE-bench Verified is described as saturated.
+HN's soulofmischief said outright the result &quot;is essentially meaningless.&quot;</p>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High — they were bitten daily by slow agents; AppLovin/Citadel latency experience is on-topic</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Fewer round trips beats a faster model&quot; is the most important and least-worked insight of this agent generation</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Real user feedback (one says they've switched to Bullet as primary); fast iteration; MCP support still missing</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Good — everyone waits for faster models, nobody fixes the loop; but the hardware side (Cerebras) attacks the same pain</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Quant-trading latency thinking applied to coding agents: don't optimize the model, optimize the
+pipeline.</strong></p>
+<p>The most transferable rule is that routing is the cheapest speed-up available in today's agents.
+The default in most harnesses is to send everything to the strongest model — safe, and nobody gets
+blamed. But a 100-turn agent run is mostly boring turns, and paying frontier price and latency for
+a directory listing is the industry's most expensive habit.</p>
+<p><strong>The most valuable objections in the comments</strong>: the benchmark is saturated and the router wasn't
+in the eval; and routing plus search can be approximated open-source (OpenCode +
+codebase-memory-mcp). Both point to the same conclusion: Bullet's moat is currently shallow — it
+sells execution quality, not models and not ecosystem.</p>
+<p><strong>But &quot;selling execution quality&quot; is a real category.</strong> One commenter says they've switched to
+Bullet as their primary tool; another reports a clearly faster feel, a useful integrated browser,
+and credits Linux support. The specific complaints — git commit authorship and privacy prompts —
+the founders acknowledged and are fixing.</p>
+<h2>What to watch next</h2>
+<p>① When MCP support and skill preservation land — no ecosystem slot means one-shot tooling
+② When pricing appears and how it's billed — the business model decides whether it's a real business
+③ Whether benchmarks move to harder tasks (Terminal-Bench, CursorBench) — the founders say they're testing them</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: any efficiency product should ask where its most expensive step is. Bullet's
+answer is round trips, not model speed. Before building an agent product or an efficiency tool,
+count the serial waits in your pipeline — that's the cheapest cost to remove.</p>
+<p><strong>Positioning language</strong>: the opening of the HN post — six pivots before solving your own real
+problem — is a standard honesty narrative worth copying for its list of admitted failures; it
+builds trust on candor.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Right direction, real users, candid founders — but a shallow moat, an
+unresolved benchmark dispute, and no pricing yet. Its biggest value is validating the direction
+&quot;optimize the loop, not the model,&quot; which is directly usable judgment for anyone building AI
+efficiency products.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +222,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +232,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +242,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +252,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -148,9 +264,9 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="pager-n">dsh-tianshu-tui</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/godmode.html">
+      <a class="pager-item pager-next" href="../../p/writemd.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">godmode</span>
+        <span class="pager-n">Write.md</span>
       </a>
     </div>
   </nav>
@@ -189,7 +305,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

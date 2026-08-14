@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Bullet</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">声称比Claude Code和Codex快30-60%的AI编码工具。</p>
@@ -82,15 +83,116 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前用 Claude Code 或 Codex 的典型等待流程：把整个仓库塞进上下文（或塞进压缩版）、 任务挨个串行执行、每个工具调用都在排队。一个 100 轮的 agent 任务，绝大多数轮次是无聊的—— 读文件、查路径、跑测试——本该秒回的动作被拖到前沿模型的延迟里。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：任何效率类产品都该问&#34;最贵的一环在哪&#34;。Bullet 的回答是往返次数，而不是模型 速度。做一个 agent 产品或效率工具前，先数一遍你的管线里有多少次串行等待——这是最容易被 改掉的成本。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>不换模型、不堆上下文，专攻&quot;模型外面那层循环&quot;的速度：把一次 agent 运行的等待时间压下去。
+核心理念是模型速度不如减少往返次数。</p>
+<h2>做这个东西的人</h2>
+<p>Adi 和 Alex，Yale CS 出身，刚从 AppLovin 和 Citadel 出来，YC S26。Bullet 是他们六次转型之后
+的产物——之前做过 AI 对冲基金、浏览器 use agent、合成金融数据、移动 IDE，全失败了。</p>
+<p><em>判断：这个背景要拆成两半。减分的一半：六次 pivot 说明他们擅长撞墙。加分的一半：优化延迟、
+控制成本正是量化交易系统的基本功，和这个产品要解决的东西高度同源。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>模型路由</strong> → 简单步骤走快模型，任务配得上时才升级到大模型，不需要手动选模型</li>
+<li><strong>定向代码搜索</strong> → 不做整仓 embedding，用带 fallback 的搜索只拉相关文件，上下文更小</li>
+<li><strong>上下文卫生</strong> → 工具输出限长、过期截图消失、不重复读文件</li>
+<li><strong>并行工具调用</strong> → 独立的搜索/读取/命令并行跑，依赖的编辑和验证保持串行；自称内部测量
+16% 更少往返、27% 更低成本</li>
+<li><strong>复用现有订阅</strong> → 用 Claude Code/Codex 订阅、任意 API key，或本地模型</li>
+<li><strong>CLI</strong> → <code>npm install -g @trybullet/cli</code>，macOS 和 Linux</li>
+</ul>
+<p><strong>它明确不做</strong>：不训练自己的模型，不是 Claude Code 的替代品，是包在现有模型和订阅外面
+的一层更紧的循环。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前用 Claude Code 或 Codex 的典型等待流程：把整个仓库塞进上下文（或塞进压缩版）、
+任务挨个串行执行、每个工具调用都在排队。一个 100 轮的 agent 任务，绝大多数轮次是无聊的——
+读文件、查路径、跑测试——本该秒回的动作被拖到前沿模型的延迟里。</p>
+<p>Bullet 替代的是&quot;最强模型从头跟到尾、串行、全仓上下文&quot;这个默认方式。它赌的是：
+一个真实的路由器，比一个更大的模型更能同时省下墙钟时间和成本。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> 目前 private beta，免费，无订阅。支持 macOS 和 Linux。</p>
+<p><em>判断：没有定价页说明还在验证阶段。这个品类的收费点多半在&quot;按运行次数/席位&quot;而不是按 token——
+token 成本已经在用户自己的订阅和 key 里了。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>HN Launch HN：93 points / 68 comments</strong>（2026-08 上旬）</li>
+<li>SWE-bench Verified：<strong>479/500（95.8%）一次通过</strong>，平均 <strong>119s/任务</strong>，自称比
+mini-SWE-agent + Fable/Sol 快 <strong>35-67%</strong>；宣传口径是&quot;比 Claude Code/Codex 快 30-60%&quot;</li>
+<li>内部测量：16% 更少往返、27% 更低成本</li>
+<li>团队人数、用户数、收入：未披露</li>
+</ul>
+<p><strong>基准可信度存疑</strong>：95.8% 是在&quot;未启用路由&quot;的对比评测里拿到的（创始人为了同模型 harness
+公平对比），而 SWE-bench Verified 已被指出饱和。HN 用户 soulofmischief 直言&quot;这基准结果
+基本无意义&quot;。</p>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高——他们自己天天被慢 agent 咬，痛点是亲历的；AppLovin/Citadel 的延迟优化经验对口</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;模型速度不如减少往返次数&quot;是这一代 agent 最重要但最少人做的洞察</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>有真实用户反馈（一人说自己已切到 Bullet 主力使用），迭代快，但 MCP 支持还没上</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>好——所有人都在等模型更快，没人修循环本身；但 Cerebras 等硬件侧也在攻同一问题</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是把量化交易的延迟观搬到编码 agent 上：不优化模型，优化管线。</strong></p>
+<p>最可迁移的规律是&quot;路由是当前 agent 里最便宜的加速手段&quot;。绝大多数 harness 的默认做法是把
+所有请求发给最强模型——省事，不会有人怪你。但一个 100 轮的 agent 运行绝大多数轮次是无聊的，
+用前沿模型的价格和延迟去跑目录列表，是整个行业最贵的习惯。</p>
+<p><strong>HN 评论里最有价值的反对意见</strong>：一是基准饱和，95.8% 在成熟基准上说明不了什么，而且路由
+没进评测；二是路由和搜索在开源侧（OpenCode + codebase-memory-mcp）也能拼出来。两条都指向
+同一个结论：Bullet 的护城河现在很浅——它卖的是执行质量，不是模型也不是生态。</p>
+<p><strong>但&quot;卖执行质量&quot;本身是成立的品类。</strong> 评论里有真实用户说已经主力使用，另一个用户说
+&quot;速度感知明显、集成浏览器好用、Linux 支持加分&quot;。Git 提交作者标注和隐私提示两个具体问题，
+创始人都在修。</p>
+<h2>下一步看什么</h2>
+<p>① MCP 支持和 skills 保留什么时候落地——没有生态位就是一次性工具
+② 定价什么时候出现、按什么计费——商业模式决定它是不是一门真生意
+③ 基准能不能搬到更难的任务上（Terminal-Bench、CursorBench）——创始人自己说在测</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：任何效率类产品都该问&quot;最贵的一环在哪&quot;。Bullet 的回答是往返次数，而不是模型
+速度。做一个 agent 产品或效率工具前，先数一遍你的管线里有多少次串行等待——这是最容易被
+改掉的成本。</p>
+<p><strong>话术</strong>：HN 帖子开头&quot;六次 pivot 之后解决自己真正的问题&quot;是标准的诚实叙事，值得抄的是
+&quot;承认失败的清单&quot;——它把信任建立在坦诚上。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得跟进。</strong> 方向对、有真实用户、创始人回应诚恳，但护城河浅、基准争议未消、还没定价。
+它最大的意义是验证了&quot;优化循环而不是优化模型&quot;这个方向，而这对任何做 AI 效率产品的读者
+都是直接可用的判断。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +209,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +219,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +229,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +239,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -149,9 +251,9 @@
         <span class="pager-n">dsh-tianshu-tui</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/godmode.html">
+      <a class="pager-item pager-next" href="../p/writemd.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">godmode</span>
+        <span class="pager-n">Write.md</span>
       </a>
     </div>
   </nav>
@@ -190,7 +292,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

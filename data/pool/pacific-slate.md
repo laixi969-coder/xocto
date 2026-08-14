@@ -8,12 +8,13 @@ inspiration: 不绑定模型供应商正在从技术选择变成采购要求
 summary_en: ''
 inspiration_en: Not being locked to a model vendor is moving from a technical preference to a procurement
   requirement.
+priority_review: false
 url: https://pacslate.com/
 canonical_url: https://pacslate.com
 summary: a self-hosted, model-agnostic multi-agent AI assistant
 first_seen: '2026-08-09T21:04:02Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Workflo</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Mac workspace automation that never sees your screen</p>
@@ -81,25 +82,159 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Setting up windows before a meeting used to be fully manual: open Zoom, Notes, and the right browser tabs, drag them into position, then lose it all when you unplug the monitor and start over. Heavy u…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: treat &#34;proactive vs reactive&#34; as the first-order product difference — peers wait for you to call them; can you finish before the user asks? The countdown (giving the user a veto before …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A Mac tool that stages your windows before you need them — arranging the right apps for a
+call or a focus block ahead of time, and restoring your layout in under a second when
+displays change. It asks for Accessibility permission only, so it structurally cannot see
+your screen. &quot;Never sees your screen&quot; is a product boundary, not a slogan.</p>
+<h2>Who built it</h2>
+<p>A solo project by Chirag Chopra, launched 2026-08-09 (97 upvotes, #14
+that day). A native Swift menu-bar app, about 4MB, requiring macOS 14+.</p>
+<p><em>Read: the classic indie builds what annoys him daily — window wrangling is a cost
+everyone who shuttles between a laptop and external monitors pays every single day.
+Solo, one-time purchase, no subscription: the author wants cost coverage, not growth.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Scenes &amp; Desks</strong> → a Scene is a named window layout (writing, review, monitoring);
+a Desk is a display configuration (single screen, dual screen). When it detects you
+switched Desks, it swaps layouts</li>
+<li><strong>Calendar/clock triggers</strong> → in the minutes before a calendar event with a video link,
+or at a set focus-block time, it opens what you need and hides what you do not</li>
+<li><strong>Cancelable countdowns</strong> → every automated move is preceded by a countdown you can
+veto. This is the design decision that keeps proactive window-arranging from being
+infuriating</li>
+<li><strong>Stash</strong> → Option+Shift+S hides every window on screen; press again and everything
+returns exactly as it was — built for the moment before you share your screen and
+remember the private Slack DM behind your browser</li>
+<li><strong>Scene Studio</strong> → a drag-and-resize canvas for designing layouts, including dual
+monitor setups; nothing moves on your real screen until you apply</li>
+<li><strong>Launch placement + per-app rules</strong> → newly opened apps land at their remembered
+position; individual apps can be excluded entirely</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no Screen Recording permission (most window tools
+need it for previews), no account, no cloud, nothing uploaded — configuration is plain
+local JSON you can open, back up, or delete.</p>
+<h2>What old behavior it replaces</h2>
+<p>Setting up windows before a meeting used to be fully manual: open Zoom, Notes, and the
+right browser tabs, drag them into position, then lose it all when you unplug the
+monitor and start over. Heavy users — remote workers, frequent screen-sharers — burn
+minutes a day and pay a context-switch tax each time.</p>
+<p>The existing tools split into two camps: <strong>Rectangle</strong> (free, manual shortcut-based
+window snapping) and <strong>Moom</strong> (paid, keyboard-shortcut preset layouts). Their shared
+model is &quot;you reach, it responds&quot; — you invoke the tool. Workflo replaces that model: it
+goes from &quot;invoked&quot; to &quot;already done.&quot; A window manager is something you go to; Workflo
+is already there before you are.</p>
+<h2>Business model</h2>
+<p>$19.99 one-time purchase, 7-day free trial, no subscription, no account. For comparison:
+Moom is also one-time-priced and Rectangle is free, so $19.99 sits in the normal band.</p>
+<p><em>Read: one-time pricing fits this kind of single-pain-point Mac utility — the math &quot;saves
+me three minutes a day, worth $20&quot; closes the sale. But one-time purchases bring no
+recurring cash, so the author must keep shipping new features or build a product line to
+grow.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>PH: 97 upvotes, 7 comments, #14 that day</li>
+<li>MakerStack review: 7.5/10 — &quot;a narrow utility done properly&quot;: proactive staging with a
+cancelable countdown, no Screen Recording permission, no account, one-time price</li>
+<li>Native Swift, ~4MB, macOS 14+</li>
+<li>User count and sales: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A solo dev building a tool he uses daily; the pain comes from lived experience, and it shows</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Caught the active-vs-passive difference: everyone else is a window manager, this is a window pre-stager</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Doing everything on Accessibility alone with sub-second layout restore is restrained, solid engineering</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Remote work and multi-monitor setups are the norm; window wrangling is evergreen pain, already educated by Rectangle and Moom</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>What is worth copying is not the features — it is putting &quot;what we don't do&quot; into the
+positioning.</strong></p>
+<p>Half of Workflo's differentiation is the product (proactive staging, cancelable
+countdown); the other half is trust. It upgraded &quot;we don't look at your screen&quot; from a
+disclaimer to an architectural promise — requesting only Accessibility means there is no
+screen-reading code path at the system level. In an era where screen-recording
+permissions are everywhere and everyone is &quot;watching,&quot; that stance is itself the selling
+point. As the pool's inspiration puts it: <strong>privacy is moving from a compliance item to a
+marketing one.</strong> It does not merely claim not to collect; it structurally cannot — and
+those two statements persuade very differently.</p>
+<p><strong>But the moat is close to zero.</strong> Window management is a mature category, Moom already
+covers shortcut-triggered layouts, Rectangle is free, and the proactive staging idea can
+be copied within months (Moom could absorb it directly). At $19.99 one-time, there is
+also no revenue runway for sustained iteration.</p>
+<p><strong>The transferable rule</strong>: for privacy-sensitive tools, &quot;what we don't look at&quot; sells
+better than &quot;what we protect&quot; — because the former is verifiable fact and the latter is
+an unprovable promise. But state the cost: that sentence forfeits the features reading
+the screen would enable (like auto-detecting what you are working on). That is trading
+functional ceiling for a trust floor, and you have to decide whether your category makes
+that trade worthwhile.</p>
+<h2>What to watch next</h2>
+<p>① Whether a big player or Moom ships proactive staging within three months — that sets
+the length of the differentiation window
+② Whether sales or review counts on the App Store/site grow — one-time tools have no
+subscription data, so word of mouth is the only signal
+③ Whether the author ships a second tool — the growth path for one-time-priced indie
+tools is usually serialization</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: treat &quot;proactive vs reactive&quot; as the first-order product difference —
+peers wait for you to call them; can you finish before the user asks? The countdown
+(giving the user a veto before any automatic action) is the key to making proactive
+automation tolerable, and it is worth copying into any automation product.</p>
+<p><strong>Positioning language</strong>: &quot;never sees your screen&quot; — writing a negative sentence as the
+positioning. Not &quot;we protect your privacy,&quot; but &quot;we cannot see you.&quot; The former is a
+claim; the latter is verifiable at the architecture level. For privacy products, reach
+for &quot;structurally impossible&quot; statements, not &quot;we promise not to.&quot;</p>
+<p><strong>Pricing structure</strong>: single-pain-point tools work at one-time prices, and $19.99 is a
+sweet spot — below the mental threshold, above the psychological cost of &quot;free.&quot; But
+one-time pricing only fits scenarios that are solved once and need no ongoing service.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Small and well-made, with a trust design that is the genuine
+highlight — &quot;architecturally cannot read your screen&quot; is a more powerful position than
+any privacy pledge. But the category is mature, the moat is shallow, and the one-time
+price caps the upside. In three months, check whether the big players follow, and
+whether the author can roll it into a product line.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +264,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +274,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +327,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

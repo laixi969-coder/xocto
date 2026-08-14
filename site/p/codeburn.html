@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>CodeBurn</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">看清 AI 写代码的钱到底花在哪</p>
@@ -82,15 +83,108 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前算 AI 编程花了多少钱，只有两条路：一是各家的用量页各看各的（Claude.ai 一个数、Cursor Usage 一个数），对不上、没法横向比；二是接 API Key 给云端聚合平台，隐私和合规都犯嘀咕。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：当你的用户已经在产生某种数据、只是没人读时，先做&#34;读现成数据&#34;的工具，比做&#34;要求用户先埋点/先装探针&#34;的工具省十倍的推广成本。CodeBurn 一行 npx codeburn 就读完全部历史，这是它爆发的第一因。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>本地跑的开源 AI 编程记账本：不用上传任何密钥，直接读你磁盘上
+Claude Code、Cursor、Codex、Copilot 等 37-40 种工具留下的会话日志，
+把 token 和美元按任务、模型、项目、PR 拆开，并进一步告诉你
+&quot;花出去的钱到底交付了代码没有&quot;。</p>
+<h2>做这个东西的人</h2>
+<p>Resham（ProductHunt 号 <code>@iamtoruk</code>），GitHub 组织 AgentSeal 下的开源项目。
+作者自述动机：用 Claude Code 时一周烧掉近 1400 美元，两眼一抹黑，决定自己动手开源。
+产品发布线程里另有一位 Aditya V. Singh（<code>@adityavsingh</code>，自称做过战略与风险投资、后转运营角色）以共建者身份回复用户。</p>
+<p><em>判断：先烧掉真金白银再写记账工具，是这类&quot;痛苦驱动&quot;项目里最可信的出身。
+创始人对账的执念——&quot;宁可标'无法归因'也不硬安一个'看起来合理'的数&quot;——是长期做财务工具的人才有的习惯。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>按维度拆账</strong> → 时间 / 项目 / 模型 / 任务 / 工具，精确到每次模型调用；价格读 LiteLLM 价表，区分 input/output/cache，看不透明的模型就明说&quot;估算&quot;</li>
+<li><strong>归因到 PR</strong> → 把会话成本关联到 Git 提交，分四类：Productive（合并进主分支）/ Reverted / Abandoned / Ambiguous——直接回答&quot;预算发没发出 PR&quot;</li>
+<li><strong>找浪费并自动修</strong> → Optimize 找出缓存膨胀、retry 税、贵模型干便宜活，帮你改掉并跟踪省了多少钱，可回滚</li>
+<li><strong>模型对比</strong> → 用你自己的真实用量对比两个模型：单次编辑成功率、重试率、每次编辑成本、缓存命中率</li>
+<li><strong>预算守卫</strong> → guard 装到全局或项目，跑过软上限（默认 $5）弹警告，过硬上限（默认 $15）直接暂停</li>
+<li><strong>多端一致</strong> → CLI、桌面端（Mac/Win/Linux）、macOS 菜单栏、自托管 web、GNOME 插件，读同一份本地数据</li>
+<li><strong>agent 自查</strong> → 提供 MCP server，Claude Code 等可以直接问&quot;这周 token 花了多少&quot;</li>
+<li><strong>团队（预览）</strong> → sync 推送到远程端点，只传 token 数/费用/模型/项目，不含代码和 prompt，OIDC 登录</li>
+</ul>
+<p><strong>它明确不做</strong>：不做套壳客户端、不做云端计费平台、不做发票级对账。默认无账号、无遥测，数据不出本机。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前算 AI 编程花了多少钱，只有两条路：一是各家的用量页各看各的（Claude.ai 一个数、Cursor Usage 一个数），对不上、没法横向比；二是接 API Key 给云端聚合平台，隐私和合规都犯嘀咕。</p>
+<p>CodeBurn 走的是第三条路——<strong>读磁盘上已经存在的会话文件</strong>。每个 AI 编程工具都会往本地写详细会话日志，&quot;有人读了它们&quot;这件事之前没人做。它替代的是&quot;打开各厂商后台 + 人工把账单拼起来&quot;这个动作，还把下一步的&quot;这钱花得值不值&quot;（有没有变成 PR）也顺手回答了。</p>
+<h2>商业模式</h2>
+<p><strong>免费开源（MIT），目前无付费产品。</strong> GitHub 上有赞助链接，团队 sync 功能标为预览。
+作者在 PH 上明说&quot;它已经免费了，不用解锁任何东西&quot;。</p>
+<p><em>判断：这是典型&quot;先做工具攒口碑、后补商业化&quot;的路线，现在的指标是覆盖率和信任度而不是收入。
+它真正值钱的判断在&quot;成本/有用单位&quot;（cost per useful unit of work）上——谁先把这个口径做成行业标准，谁就能定义这品类的定价权。目前还没有证据表明他们想清楚了收费点。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>9.3k star / 738 fork</strong>（2026-08），MIT 协议，TypeScript 为主</li>
+<li>首个提交 2026-04-14，当前 v0.9.20（2026-08-11）——四个月从 0.1 迭代到 0.9，速度很快</li>
+<li>支持工具：README 正文称 40 种（标题称 37），包括 Claude Code、Cursor、Codex、Copilot、Devin、Gemini CLI 等</li>
+<li>付费用户、ARR、融资：无（无付费产品）</li>
+<li>中文聚合渠道有&quot;全球 15 万开发者使用&quot;的说法，未找到一手来源，不可采信</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>自己一周烧 1400 美元烧出来的，痛点一手，记账习惯（宁缺毋滥的归因）来自真做过财务判断</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;账单是个黑盒 + 会话日志没人读&quot;两个事实；&quot;成本归因到 PR&quot;和&quot;花没花出成果&quot;是别人没想到的口径</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>v0.9.20、CLI+桌面+菜单栏+web+GNOME 五端同源、40 工具解析、MCP server，工程完成度高</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>正好在 agent 烧钱失控成为普遍痛点的当口，和 Decant 撞同一个需求，说明品类已成立</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是 AI 可观测性赛道里最认真的独立选手之一，方向（从&quot;花了多少&quot;到&quot;花出什么&quot;）是行业的正确下一步。</strong></p>
+<p>它最值钱的不是仪表盘，是<strong>归因哲学</strong>：对不上的数宁可标&quot;无法归因&quot;，也不往看起来合理的地方硬塞。
+这条规矩在发布线程里被用户主动夸奖——对财务工具来说，信任就是产品本身。
+它自己的数据也证明这条规矩的必要：曾经一次无边界目录关联把 131 个会话里的 129 个挂到一个 PR 上，教训写进了产品约束。</p>
+<p><strong>两件事决定它能不能从&quot;值得关注&quot;走到&quot;强烈推荐&quot;</strong>：
+一是商业化。免费+赞助养不活一个要持续追 40 种工具格式变动的项目，团队 sync 和预算守卫明显是未来的企业付费点，但还没明码标价。
+二是&quot;Optimize 会自己动手改&quot;这条线——从测量工具滑向&quot;自动优化 agent&quot;，既可能是护城河，也可能让它和它监控的对象抢饭吃，路线选择还没做。</p>
+<p><strong>竞争格局</strong>：同赛道已有 Decant 等，厂商自带用量页也在升级。CodeBurn 的护城河是&quot;本地、无密钥、归因诚实&quot;三件事叠加，短期难抄。</p>
+<h2>下一步看什么</h2>
+<p>① 是否出现付费层或明确定价（team sync / 企业版）——赞助之外的第一笔收入在哪
+② &quot;cost per merged PR&quot;这类产出口径有没有被同行跟进——被跟进说明它定义了标准
+③ 三个月后 star 是否过 1.5 万、工具覆盖是否还跟得上新增 agent——覆盖率是这品类的生死线</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：当你的用户已经在产生某种数据、只是没人读时，先做&quot;读现成数据&quot;的工具，比做&quot;要求用户先埋点/先装探针&quot;的工具省十倍的推广成本。CodeBurn 一行 <code>npx codeburn</code> 就读完全部历史，这是它爆发的第一因。</p>
+<p><strong>话术</strong>：&quot;The bill shows a total, and that's it.&quot;——用一句对现状的精准控诉做开场，比自夸功能列表有力得多。</p>
+<p><strong>定价结构</strong>：无，未披露。但它&quot;免费+赞助+预览期团队功能&quot;的阶段划分值得参考——先让工具免费长成事实标准，再补企业层。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 痛点真实、工程扎实、增速快（四个月 9.3k star），归因哲学在品类里独一份。
+缺的是商业模式和&quot;自动优化&quot;的路线选择，这两条定了才知道它能长多大。记下上面三条，三个月后验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +201,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +211,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +221,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +231,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +284,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>HAR</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Open Source harness for multi-agent coding workflows</p>
@@ -81,18 +82,92 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Multi-agent concurrent coding used to look like this: every agent starts its own dev server (ports and databases collide), verification is &#34;the agent said it tested it,&#34; and switching platforms (Claud…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when designing agent orchestration or automation, make the trust mechanism a first-class citizen: verification results must bind to a hash of the exact input (code, data), not to an age…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An open-source framework for running multiple coding agents on the same repository: per-agent isolated workspaces, deterministic validation gates, and verifiable proof, replacing the scattered README/CLAUDE.md/CI configuration.</p>
+<h2>Who built it</h2>
+<p>Antoine Frau (scaled agentic coding workflows at his own company for a year, hit the walls, open-sourced the fix) and Karim Traiaia. Team name: os-factory. It ships as an npm package (CLI + MCP server) plus the Mission Control local dashboard.</p>
+<p><em>Read: the authors were forced out of real production pain — &quot;multi-agent concurrency is untrustworthy.&quot; Every item in their problem list (no standard for run/verify, agents colliding, re-verify-by-hand, platform lock-in) is concrete.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Single in-repo contract</strong> → one machine-readable .har/ contract replaces the drift-prone scatter of README + CLAUDE.md + Cursor rules + CI config; Claude Code, Cursor, Codex, or any MCP agent reads the same thing</li>
+<li><strong>Isolation</strong> → each task gets its own git worktree with its own branch, ports, and database; nothing is shared with the main checkout or another agent's slot</li>
+<li><strong>Deterministic validation gates</strong> → the project's real checks run through a fixed pipeline; the result binds to the exact code that passed, and an unverified tree cannot land</li>
+<li><strong>Verifiable proof</strong> → every run leaves logs, artifacts, and a validated tree hash; a reviewer inspects the evidence instead of trusting the agent's self-report</li>
+<li><strong>Mission Control</strong> → local dashboard for all repos, worktrees, runs, validations, and artifacts in one place</li>
+<li><strong>Drift detection</strong> → har env maintain diffs the installed harness against current templates and flags drift before it causes a silent failure</li>
+<li><strong>Plugins</strong> → verification bundles like Playwright, or any command you already run</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Multi-agent concurrent coding used to look like this: every agent starts its own dev server (ports and databases collide), verification is &quot;the agent said it tested it,&quot; and switching platforms (Claude Code to Cursor, say) means rebuilding the whole verification setup.</p>
+<p>HAR standardizes three things: <strong>&quot;how this repo runs and verifies&quot; moves from scattered docs to one contract; concurrent runs move from trampling each other to isolated slots; trust moves from agent self-report to reviewable evidence.</strong> It doesn't replace a single tool; it replaces the human-dispatch segment of multi-agent collaboration.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> Open source; core CLI/MCP is free. os-factory is a company entity, most likely monetizing via a hosted tier or enterprise support, but no pricing information exists today.</p>
+<p><em>Read: the agent-harness category is heating up fast — in the same week this launched, DeepSeek open-sourced its own Harness v0.1 (MIT, &quot;everything is a plugin,&quot; Model+Harness=Agent, led by Cui Tianyi). They are not the same thing: HAR manages concurrency and validation of coding agents; DeepSeek Harness is a plugin-based agent runtime. But the names collide, and both are fighting for the &quot;harness&quot; mindshare.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>GitHub (os-factory/har): <strong>65 stars / 8 forks</strong>, created 2026-06-28</li>
+<li>launch page: 1 review, 5.0</li>
+<li>npm package: @osfactory/har, installed via npm install -g</li>
+<li>Team: two people (per PH interactions)</li>
+<li>Users, ARR: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The author spent a year in the pain inside his own company's real workflows</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Caught the trust problem — validation bound to exact code plus reviewable evidence. That's the lifeblood of multi-agent work</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>README, quickstart, docs tree, and a plugin system; engineering-complete. But no large-scale validation yet</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Excellent — &quot;trustworthy agent concurrency&quot; is the #1 engineering problem of 2026, and big labs just entered to validate the direction</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It grabs the most expensive problem of the multi-agent era: trust.</strong> With a single agent you can read its output yourself; with a fleet running in parallel you can't review each one, so you have to trust an evidence system. HAR's &quot;deterministic validation + tree hash + evidence chain&quot; moves software engineering's reproducible-build philosophy onto agent orchestration. The direction is right.</p>
+<p><strong>Its biggest risk is not quality; it's the lane getting plowed over.</strong> In the same week, DeepSeek Harness v0.1 went open source with a dedicated team; Claude Code's own hooks/subagents and every agent platform's orchestration layer are closing in. &quot;Harness&quot; is becoming a crowded word. HAR's moat is &quot;agent-agnostic + in-repo contract&quot; — if your verification infra lives in some vendor's cloud, switching means rebuilding; HAR keeps the contract in the repo, and that's its only argument against both platform lock-in and platform absorption.</p>
+<p><strong>What it lacks</strong> is real adoption evidence: 65 stars, one review, no public &quot;a company runs real fleets on this&quot; case. It has made the rational case; now it has to prove someone survives a real project with it.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars pass 500 in three months and whether a company publicly adopts it
+② Whether it's still being discussed after DeepSeek Harness and peers spread — or pushed out of mindshare
+③ Plugin and Mission Control activity — whether anyone writes third-party plugins for it</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when designing agent orchestration or automation, make the trust mechanism a first-class citizen: verification results must bind to a hash of the exact input (code, data), not to an agent's self-report. This principle transfers to any &quot;AI acts autonomously but a human is accountable&quot; scenario.</p>
+<p><strong>Engineering practice</strong>: fight platform lock-in with an in-repo contract — put configuration, validation, and standards in the codebase itself rather than in a vendor dashboard. It's both a technical choice and a commercial moat.</p>
+<p><strong>Positioning language</strong>: &quot;a reviewer checks the evidence instead of trusting the self-report&quot; — one sentence that separates the product from a glossed-over agent command.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, but unproven.</strong> The problem selection is sharp, the direction is right, and the timing is excellent, but adoption evidence is zero and the lane is filling with big players. Its winning position — in-repo contract plus vendor neutrality — is the spot the big labs haven't occupied. Validate against the three checks above in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +178,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +209,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +267,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

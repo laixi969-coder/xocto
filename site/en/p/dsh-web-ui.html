@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>dsh-web-ui</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</p>
@@ -82,15 +83,97 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The official DSH Web UI shipped thin (testers said &#34;missing file management, preview, and such&#34;). Users needing task management went to external tools (Trello/Linear-style boards); checking git histor…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: building the &#34;first stop&#34; plugin for an ecosystem product, copy two mechanisms: the aggregate package (install everything at once; decide for the user) and &#34;try before you apply&#34; (skin/…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A plugin-plus-skin collection store for the DSH Web UI — task board, git graph, right-side panel, SSH, remote mobile UI, pet, live token stats, plus 8 skins, all installed with one command, and a skin center where you can try before you apply.</p>
+<h2>Who built it</h2>
+<p>Individual developer zhu1090093659 (same GitHub handle). Repo created 2026-08-12 (the day before the official launch), 237 commits, plugins published under the <code>@linxin666</code> npm scope. Skin showcase at gallery.dsh-market.com. The license is a red flag: the README claims BSD-3-Clause, but the GitHub API license field is null (no standard LICENSE file detected) — upstream media also called it out as &quot;no license file, legally unusable.&quot;</p>
+<p><em>Read: the highest-starred plugin in the ecosystem (1184), and the most &quot;personally operated&quot; — license uncertain, skins are gimmicks, npm scope doesn't match the GitHub handle. The biggest traffic and the worst compliance sitting on the same project makes it the clearest &quot;community dividend vs engineering discipline&quot; split in this batch.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Task board</strong> → five-column status (planned/todo/in progress/done/failed), cron scheduled execution, agent-session execution with review jump</li>
+<li><strong>Git graph</strong> → branch lanes and commit-history visualization</li>
+<li><strong>Right-side panel</strong> → file tree, multi-format preview (markdown/HTML/PDF/Office), SCM changes panel (stage/unstage/discard), drag files into the input box — head-on overlap with dsh-better-sidebar</li>
+<li><strong>SSH</strong> → web terminal, SFTP transfer, port forwarding, cluster execution</li>
+<li><strong>Remote mobile UI</strong> → QR pairing, SSE live messages (auto-degrades to polling when tunnels don't pass SSE)</li>
+<li><strong>Pet</strong> → a whale-girl companion with state-based animations, feeding, growth system</li>
+<li><strong>Live token stats</strong> → TPS, LLM latency, context usage, cache hit rate</li>
+<li><strong>8 skins</strong> → Windows XP (Luna), Minecraft, QQ2008, Tonghuashun, Trading Terminal (hooks into market data feeds), Blue Fantasy, Whale Song, Dragon Heir — all with &quot;try before you apply&quot;</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no agent core capabilities at all — only the Web UI's periphery and appearance. The task board is its most genuinely functional part (cron scheduling is a real need); most of the rest is gimmicks and cosmetics.</p>
+<h2>What old behavior it replaces</h2>
+<p>The official DSH Web UI shipped thin (testers said &quot;missing file management, preview, and such&quot;). Users needing task management went to external tools (Trello/Linear-style boards); checking git history meant opening a terminal to run <code>git log --graph</code> or installing a GUI; watching token spend meant digging through the API dashboard afterward.</p>
+<p>dsh-web-ui replaces that fragmentation of &quot;one agent product plus three or four external tools.&quot; It stuffs the task board, git graph, token stats, SSH, and phone remote control into the Web UI, installed with one command. Its killer feature is the aggregate package <code>dsh-web-ui-all</code> — users don't decide which to install; install everything and be done. The old behavior it replaces is manually assembling peripheral tools around an agent workflow.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> Plugins are free (README claims BSD-3-Clause, but the GitHub API shows no license file; legal status is in doubt). No pricing, no hosting, no sponsorship.</p>
+<p><em>Read: a pure influence project. Skin-class features have near-zero willingness to pay in the developer community; its value is the position of &quot;first stop in the DSH Web UI ecosystem&quot; — a position that currently has neither commercial monetization nor a compliance foundation. Of the six, it has the least commercial upside and the strongest ecosystem placement.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>1184 stars / 48 forks / 23 open issues</strong> (GitHub API, 2026-08-14)</li>
+<li>Created 2026-08-12, 237 commits, aggregate package at 0.1.10/0.1.11</li>
+<li>9 function plugins + 8 skins, npm scope <code>@linxin666</code></li>
+<li>Skin showcase at gallery.dsh-market.com, with try/revert/apply</li>
+<li>License: README claims BSD-3-Clause, but GitHub API license field is null — legal status uncertain</li>
+<li>Users, downloads, team: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>An active DSH beta user with real needs, but heavy &quot;personal gimmick&quot; fingerprints on the operation</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Task-board cron, SSH, and the aggregate package are three real need points; the &quot;try before you apply&quot; skin center is a smart UX</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>237 commits show activity; but the unclear license and mismatched npm scope/handle make it the weakest on engineering/compliance discipline</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Opened the repo the day before the official launch and absorbed the full first wave of traffic; but skin/gimmick value decays as the official UI matures</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The most successful at ecosystem placement of the six, and the least stable in product value.</strong></p>
+<p>Its success is not features, it's position: at official launch the Web UI was empty, and this project bundled every peripheral need into one install, becoming the de facto &quot;first stop for DSH Web UI.&quot; The task board's cron scheduling and SSH are real functions; the rest (pet, skins) is the ecosystem's &quot;living texture&quot; — but those gimmicks are exactly what contributed most to community spread.</p>
+<p><strong>Transferable rule: for platform products, the community's first stop is rarely the deepest feature set; it is the one that is &quot;installed all at once and fun.&quot;</strong> The aggregate package lowers decision cost (no picking which to install), and gimmicks provide the fuel for spread. If you run platform ecosystem operations, &quot;leaving one official gap for the community's first stop&quot; works better than building it yourself.</p>
+<p><strong>Its overlap with dsh-better-sidebar</strong>: the right-side panel (file tree, preview, SCM) collides head-on. better-sidebar is more engineering-driven (lazy loading, extension interface, 520 stars); dsh-web-ui is more aggregate (1184 stars). The overlap shows that DSH's &quot;right sidebar&quot; is the most crowded lane in the ecosystem — and that the official gap is the one with the most traffic value.</p>
+<p><strong>Its biggest risk is compliance</strong>: a null license field means enterprise users won't touch it, which is fatal for a plugin that wants long-term value. Skin-class content will also depreciate fast as the official UI iterates.</p>
+<h2>What to watch next</h2>
+<p>① Whether a standard LICENSE file appears — a null license is a hard blocker at the enterprise gate
+② Whether aggregate-package install counts (npm downloads) can be found — stars looking good doesn't mean anyone installed it
+③ Whether the functional plugins (task board/SSH) keep iterating — gimmicks go stale, functions stay</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: building the &quot;first stop&quot; plugin for an ecosystem product, copy two mechanisms: the aggregate package (install everything at once; decide for the user) and &quot;try before you apply&quot; (skin/template features must preview instantly and roll back completely — push the choice cost to zero).</p>
+<p><strong>Positioning language</strong>: borrowable. The skin naming uses one-word-era triggers — &quot;Windows XP (Luna) / QQ2008 / Tonghuashun&quot; — a nostalgia hook for older developers and a novelty hook for younger ones; both groups click in.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed, and the license status is in doubt — the anti-pattern: an open-source project that never adds a LICENSE effectively shuts the door on enterprise users.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Strongest ecosystem placement, smallest commercial imagination. It proves &quot;aggregate package + gimmick content&quot; is a working recipe for a cold-start ecosystem first stop, and demonstrates the counter-example of a plugin that can't go far without a license. Watch it to learn &quot;position,&quot; not &quot;product.&quot;</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +190,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +200,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +210,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +220,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DSH-better-sidebar</span>
             <span class="row-desc">A full workbench in the DSH sidebar, with file editing, terminal, Git, and sub-agents.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 453</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 453</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +273,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

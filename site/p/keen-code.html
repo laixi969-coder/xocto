@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Keen Code</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">用 agent 工程方法造出来的编程 agent</p>
@@ -82,15 +83,92 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>两层替代。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>叙事逻辑：把&#34;开发过程&#34;本身做成产品的一部分。这个仓库的 .ai-interactions 目录就是把过程存档变成证据——对任何想证明&#34;自己的方法论靠谱&#34;的产品，公开你的建造过程比宣传结果可信。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个用 Go 写的极简终端编码 agent（类似 Claude Code / Codex CLI，但只有 6 个工具），而且它自己就是&quot;用 AI agent 写出来的&quot;——整个仓库的代码、文档、设计都由 agent 完成，人只当编排者。项目的卖点不是功能，是这个&quot;agent 造 agent&quot;的开发过程本身。</p>
+<h2>做这个东西的人</h2>
+<p>GitHub 用户 mochow13（Motta Kin），单人项目，MIT 协议，创建于 2026-02-16。个人背景未披露，但仓库里的 .ai-interactions 目录按时间记录了整个 AI 协作开发过程。</p>
+<p><em>判断：作者是&quot;人类编排 + AI 编写&quot;这套新工作流的布道者——他特意把所有 agent 交互记录留在仓库里当证据。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>极简工具集</strong> → 只有 read_file / write_file / edit_file / glob / grep / bash 六个工具</li>
+<li><strong>多模型多提供商</strong> → Anthropic、OpenAI、Codex（OAuth）、Gemini、DeepSeek、Kimi、GLM、MiniMax、OpenCode Go、Amazon Bedrock</li>
+<li><strong>技能系统</strong> → 规划、调试、重构、代码审查等专项工作流</li>
+<li><strong>跨轮记忆策略</strong> → 单轮内全量可见；跨轮默认只保留有界的 TurnMemory 摘要（工具位置、输入、状态、非零退出码），不保留原始输出，可 /tool-history full 切换</li>
+<li><strong>会话与压缩</strong> → 持久会话可恢复，/compact 手动压缩上下文</li>
+<li><strong>克制遥测</strong> → 只上报会话开始/结束两个匿名事件，可 KEEN_TELEMETRY=off 关闭</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>两层替代。</p>
+<p>一是 <strong>Claude Code / Codex CLI 这类终端编码 agent</strong>：它用更小的工具面、更省 token 的跨轮记忆策略，赌&quot;极简&quot;在长会话里比功能多更可靠。</p>
+<p>二是**&quot;人写代码&quot;这个行为本身**：这是它的核心叙事——开发流程变成 spec → plan → task → review 的循环，agent 写代码，人做需求澄清、设计评审、质量把关和测试。作者把人的角色重新定义为&quot;编排者&quot;。</p>
+<p><em>判断：第二层替代才是它真正想卖的东西——它是在用仓库本身证明&quot;agent 造 agent&quot;这条路走得通。</em></p>
+<h2>商业模式</h2>
+<p>无。开源 + npm 分发（npm install -g keen-code），无托管服务、无付费计划。</p>
+<p><em>判断：这类&quot;证明型项目&quot;的商业价值在作者本人而非代码——如果这套流程被验证，作者会带着这套方法论去做付费产品。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>57 star / 9 fork，MIT，创建于 2026-02-16（约 6 个月）</li>
+<li>503 个提交，最新 v0.48.0（2026-08-13），开发相当活跃</li>
+<li>HN 6 分 / 5 条评论</li>
+<li>用户数、任何付费转化：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者是&quot;agent 造 agent&quot;的亲身实践者，叙事自洽</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;跨轮只留摘要、不保留原始输出&quot;是省 token 的正解，比无脑堆上下文聪明</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>6 个月 500+ 提交、v0.48 的版本节奏，工程执行到位</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>编码 agent 红海，但&quot;极简 + 透明过程&quot;有差异化空间；6 个月 57 star 说明还没被市场接住</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>故事比功能值钱，但数据不买账。</strong> &quot;用你自己的产品造你自己&quot;是最强的销售材料，这个仓库把这套过程完整存档了，叙事上几乎没有对手。但 6 个月只有 57 个 star，说明市场没有被这个故事打动——要么是编码 agent 赛道太挤，要么是&quot;极简&quot;在 Claude Code 面前没有足够强的理由换工具。</p>
+<p><strong>可借鉴的规律：省 token 的正确姿势是&quot;跨轮只留摘要&quot;。</strong> 任何长会话产品（agent、客服、分析工具）都可以抄这个设计：单轮内全量，跨轮只留结构化摘要 + 状态，需要时再展开。这是比&quot;无脑堆上下文&quot;明显更优的工程默认值。</p>
+<p><strong>局限</strong>：它的差异化是&quot;开发方法&quot;而不是&quot;产品能力&quot;，对普通用户，&quot;方法&quot;必须转化成&quot;结果&quot;（更快/更省/更准）才有人买。目前没有这种转化证据。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月后 stars 是否破 200——极简编码 agent 定位能否起量
+② 是否有人公开贴出&quot;用 keen-code 完成的真实项目&quot;——叙事型项目需要外部证人
+③ 是否出现托管版或付费功能——任何商业化动作都是方法论被验证的信号</p>
+<h2>可借鉴的做法</h2>
+<p><strong>叙事逻辑</strong>：把&quot;开发过程&quot;本身做成产品的一部分。这个仓库的 .ai-interactions 目录就是把过程存档变成证据——对任何想证明&quot;自己的方法论靠谱&quot;的产品，公开你的建造过程比宣传结果可信。</p>
+<p><strong>工程默认值</strong>：长会话产品的跨轮记忆策略可以照抄——默认只保留结构化摘要（位置、输入、状态、退出码），不保留原始输出，用户可手动切全量。这是省 token 和保质量之间最好的默认平衡。</p>
+<p><strong>话术</strong>：无。README 是工程文档，没有可偷的句式。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 方法论的叙事很完整，工程执行也认真，但没有市场数据支持&quot;这条路有人走&quot;。把它当作&quot;agent 造 agent&quot;工作流的一份完整存档来看，等 stars 曲线决定它的命运。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +185,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +195,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +205,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +215,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +268,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

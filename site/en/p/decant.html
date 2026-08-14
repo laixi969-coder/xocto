@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Decant</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Understand how you spend tokens</p>
@@ -81,15 +82,142 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Reconstructing &#34;what that agent session actually did and cost&#34; used to mean digging through scattered JSONL logs under ~/.claude/projects or trusting a vendor dashboard&#39;s single total. Relationships b…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: in &#34;analyze your history&#34; tools, the top tier does not just tell you what you spent — it distills history into directly reusable assets (scripts, skills, instructions). That step from v…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A local-first tool that turns the Claude Code and Codex session logs on your machine into a
+searchable, analyzable knowledge base: where tokens and cost go, how full the context windows
+run, which files and tools agents touch, full-text search across complete transcripts — plus
+distilling reusable workflow scripts from your command history. Zero outbound network calls at
+runtime; transcripts never leave the machine.</p>
+<h2>Who built it</h2>
+<p>Maintained by Dosu (dosu.dev), self-described as &quot;Knowledge Infrastructure for Agents.&quot; The
+repo <code>dosu-ai/decant</code> is Apache-2.0, Bun + TypeScript; the most recent active contributor is
+Taylor Dolezal (GitHub <code>teedole</code>). The pool lists <code>devstein</code> as builder, likely the repo's
+creator; his relationship to Dosu could not be verified.</p>
+<p><em>Read: Dosu builds agent infrastructure and runs agents daily, so this is dogfooding its own
+logs — Decant is both a community tool and an acquisition funnel for its main product. That
+&quot;company core business + free open-source satellite&quot; combo has steadier maintenance momentum
+than a purely personal project.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>One unified archive</strong> → normalizes Claude Code (<code>~/.claude/projects</code>) and Codex (<code>~/.codex</code>)
+logs into a single SQLite database</li>
+<li><strong>Full-text search</strong> → across messages, tool calls, and complete transcripts</li>
+<li><strong>Multi-dimensional analytics</strong> → token, estimated cost, context, activity, tool, MCP, and
+file usage analysis</li>
+<li><strong>Browsable, two surfaces</strong> → sessions, projects, files, and ingest diagnostics; CLI and a
+local web UI (127.0.0.1:3000) share one data source</li>
+<li><strong>Exports</strong> → Markdown / JSON / reports / trajectories</li>
+<li><strong>Distill</strong> → extracts deterministic scripts, replays, and agent instructions (AGENTS.md
+sections) from command history, redacting secrets on the way out — the feature that separates
+it from a pure ledger</li>
+<li><strong>Local API</strong> → an OpenAPI 3.1 contract, so agents can query their own history</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no cloud, no network calls, no telemetry; because real
+transcripts can contain source code, prompts, credentials, and local paths, the project
+explicitly requires synthetic session data in issues and tests.</p>
+<h2>What old behavior it replaces</h2>
+<p>Reconstructing &quot;what that agent session actually did and cost&quot; used to mean digging through
+scattered JSONL logs under <code>~/.claude/projects</code> or trusting a vendor dashboard's single total.
+Relationships between sessions, tool-call patterns, and &quot;which files did agents keep re-reading
+this week&quot; could not be answered by eyeballing raw logs.</p>
+<p>Decant replaces three chores: <strong>reading raw logs</strong> (→ one SQLite archive + full-text search),
+<strong>unclear cost attribution</strong> (→ token/cost/context broken down by dimension), and, most
+distinctively — <strong>turning past agent work into reusable assets</strong> (distill freezes a successful
+run into scripts/skills). That last one stops being accounting and starts being compounding.</p>
+<h2>Business model</h2>
+<p>Decant itself is free and open source (Apache-2.0). Dosu's revenue sits in its main product
+(agent knowledge infrastructure); the Decant blog post lands on &quot;see what knowledge your agents
+lack, then use Dosu to fill it.&quot;</p>
+<p><em>Read: the classic tool-as-funnel structure — the analyzer is free for installs and goodwill,
+and the money lives in the managed &quot;make agents faster and cheaper&quot; service. Judging Decant as a
+standalone business is meaningless; judging it as a funnel for Dosu is the real question.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Repo created ~2026-06; 297 commits; current v0.4.0 (2026-08-12)</li>
+<li>Apache-2.0, Bun + TypeScript; macOS / Linux on x64 and arm64; no native Windows</li>
+<li>HN launch: 10 points / 0 comments (pool data); star count not verified first-hand in this pass</li>
+<li>Team: Dosu (company); paying users, ARR: not disclosed</li>
+<li>Note: one AI-generated article describes Decant as an &quot;LLM-request-intercepting proxy with
+847 stars in 24 hours&quot; — that contradicts the actual repo (a local session analyzer) and is
+treated as hallucinated content, not credible</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Dosu is itself a heavy agent user; the insight &quot;agents keep relearning knowledge the company already has&quot; comes straight from self-use</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Hits the same need as CodeBurn from a different angle — not just a ledger, but search and distillation, upgrading &quot;analysis&quot; into &quot;reuse&quot;</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Local API with an OpenAPI contract, SLSA release verification, synthetic-data discipline — solid engineering norms</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Appeared within days of CodeBurn; runaway AI cost is now a confirmed common pain and the category is forming</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Landing on the same need as CodeBurn is itself the evidence that the category exists.</strong></p>
+<p>Two products surfaced within the same week: CodeBurn (personal open source, cost dashboard
+across 40 tools with budget guards) and Decant (company open source, Claude Code/Codex session
+archive plus search and distill). The same pain picked independently by two parties is the
+strongest possible signal that runaway AI cost is a general problem.</p>
+<p><strong>Decant's most notable feature is distill.</strong> A ledger tells you where the money went; distill
+turns successful operation history directly into scripts, skills, and AGENTS.md sections —
+moving from &quot;read the books&quot; to &quot;turn past work into future leverage.&quot; That is the line that
+separates it from CodeBurn, and the real landing point of the &quot;knowledge infrastructure&quot; thesis.</p>
+<p><strong>Two limits</strong>: coverage is only Claude Code and Codex, far narrower than CodeBurn's 40 tools;
+and as a funnel piece, its roadmap will follow Dosu's main-product strategy, not the
+standalone needs of Decant users.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars clear 1,000 within three months and the HN attention converts to sustained
+adoption — current public heat is low (10 points / 0 comments)
+② Whether any user publicly reports that distilled scripts are actually being reused — it is
+the only feature that differentiates it from a ledger
+③ Whether tool coverage expands beyond Claude Code and Codex — coverage is the life-or-death
+line for this category</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: in &quot;analyze your history&quot; tools, the top tier does not just tell you what you
+spent — it distills history into directly reusable assets (scripts, skills, instructions).
+That step from visibility to reusability is worth copying in any agent-workflow tool.</p>
+<p><strong>Positioning language</strong>: &quot;Turns the logs your agents write into real numbers.&quot; Making &quot;logs
+become numbers&quot; the one-line claim folds local-first and privacy in without saying them.</p>
+<p><strong>Distribution</strong>: free open source plus a local API (OpenAPI contract) so &quot;your agents can query
+your own history&quot; — making the tool itself an agent-callable node is the right posture for
+open-source tools joining the agent ecosystem.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The company backing is steadier than a solo project, distill is genuinely
+distinctive, but public heat is low, tool coverage is narrow, and feature evolution is held
+hostage by Dosu's main product. The category judgment — cost runaways are a common pain — was
+already proven by Decant and CodeBurn appearing in the same week; wait on the product itself.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +234,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +264,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +317,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

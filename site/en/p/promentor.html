@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>ProMentor</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">AI coding mentor skill that scans architecture, generates step-by-step chapters, and auto-grades.</p>
@@ -81,15 +82,129 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Three old paths for learning to code from a real codebase:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: three pieces for teaching AI products — generate a staged course from a real artifact (project source); grade with behavioral tests instead of letting the AI score against a reference a…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An agent skill that turns any real open-source project into a step-by-step hands-on course: install
+it into Claude Code / Codex / DeepSeek Harness and the AI stops writing code for you and starts
+making you write it yourself, then grades you.</p>
+<h2>Who built it</h2>
+<p>A personal open-source project by Lyn-77, repository created 2026-07-31, 41 commits. README,
+command reference, architecture notes, and a release-packaging flow are all polished to near-product
+level. No license file.</p>
+<p><em>Read: a solo author who took engineering completeness to product level — command system, web
+dashboard, plugin registration. But the author's background, target users, and any evidence of real
+use are all undisclosed.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Generates a course</strong> → /promentor init scans the project architecture and produces a curriculum
+outline; once confirmed, it generates lectures, labs, and behavioral tests chapter by chapter</li>
+<li><strong>Staged learning</strong> → /promentor learn delivers the lecture, walks you through annotated source,
+and guides you to hand-write the core logic</li>
+<li><strong>Behavioral-test grading</strong> → /promentor test runs behavioral tests and tells you what passed,
+what failed, and why</li>
+<li><strong>Layered hints</strong> → /promentor hint reads your code and test results and gives layered hints for
+the exact error — direction first, then approach, never the answer</li>
+<li><strong>Submit and review</strong> → /promentor submit runs the full test suite and locks your score;
+/promentor review diffs your implementation against the original source and explains the design
+decisions</li>
+<li><strong>Progress and dashboard</strong> → /promentor progress for totals; a web dashboard (Next.js) shows
+completion, chapter states, and scores</li>
+</ul>
+<p>The learning model is a chain: learn the concept, read the source, implement the lab, run the
+tests, submit and review, master the system design.</p>
+<h2>What old behavior it replaces</h2>
+<p>Three old paths for learning to code from a real codebase:</p>
+<ul>
+<li><strong>Reading the source directly</strong> → random jumping with no dependency order; ProMentor generates a
+dependency-ordered path</li>
+<li><strong>Watching video courses</strong> → watching someone else write; ProMentor requires you to hand-write the
+core logic</li>
+<li><strong>Blogs and docs</strong> → fragmented knowledge points; ProMentor requires a full understanding of one
+system's design philosophy</li>
+</ul>
+<p>For the agent itself, it replaces passive Q&amp;A (&quot;explain this repo to me&quot;) with an active, tested,
+graded learning loop. The critical transfer is: grading does not come from the AI eyeballing
+answers, it comes from behavioral tests.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> Free and open source, no license declaration, no paid tier, no cloud service.</p>
+<p><em>Read: skill packs are a zero-barrier category — anyone can write one, and they are naturally hard
+to charge for. The real competition is not distribution; it is whether the behavioral-test grading
+design holds up on projects at real scale.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>48 stars, 1 fork, 0 open issues</strong> (fetched 2026-08-14). Created 2026-07-31, 41 commits</li>
+<li>Release zip ~3.7 MB (skill + prebuilt dashboard + plugin)</li>
+<li>No license file; no usage numbers, no user evidence</li>
+<li>Not seen on HN; stars from organic GitHub traffic</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Solo author with higher engineering completeness than most skill projects; background unknown</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Turning pedagogy (staged chapters, behavioral tests, layered hints, locked scores) into an agent skill is a replicable pattern</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Command system + Next.js dashboard + DSH plugin + release flow, complete; missing license is a red flag</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>&quot;Real repo as textbook, system design over algorithm drills&quot; is a genuine need; 48 stars says it is unvalidated</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The pattern is interesting; the category is cheap.</strong>
+&quot;Behavioral-test grading + layered hints without giving answers&quot; is one of the few genuinely
+pedagogical designs in this batch — grading comes from executable tests, not a model's subjective
+score, and hints escalate from direction to approach. Both are directly copyable by anyone building
+an &quot;AI tutor&quot; product.</p>
+<p><strong>The ceiling is scale.</strong> Generating discriminating behavioral tests works on a small project. Can
+it still produce tests with real discriminative power on a multi-ten-thousand-file repository? That
+is its true scale ceiling, and the README does not answer it.</p>
+<p><strong>Risk list</strong>: solo author, no license, no user evidence. Skill packs are easy to copy and hard to
+moat.</p>
+<h2>What to watch next</h2>
+<p>① Star growth, and whether anyone publicly reports completing a full course on a real project
+② How large a codebase behavioral-test grading still holds up on (the scale ceiling)
+③ Whether a license appears and whether contributors show up (survival signals)</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: three pieces for teaching AI products — generate a staged course from a real
+artifact (project source); grade with behavioral tests instead of letting the AI score against a
+reference answer; give layered hints (direction, then approach, never the answer). Directly usable
+for &quot;AI tutor&quot; or &quot;generate a course from your data&quot; products.</p>
+<p><strong>Positioning language</strong>: one line worth stealing — &quot;What you learn is not an algorithm drill, it
+is the architecture-design ability of a real system.&quot;</p>
+<p><strong>Pricing structure</strong>: none. Free and open source.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The teaching design has incremental value, the category has a shallow moat, and
+validation is thin. Come back in three months against the three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +221,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +231,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +241,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +251,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +304,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

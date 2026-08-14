@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>debroid</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">给 AI 编程 agent 用的无头安卓调试器</p>
@@ -82,18 +83,119 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前 AI agent 调安卓 bug 基本靠&#34;盲人摸象&#34;：写代码没问题，但运行时调试它做不到—— 它无法像人那样在 Android Studio 里点开 UI 设断点、看内存、暂停执行。 所以 agent 调 bug 只能看 logcat 猜，猜错就改一行跑一次，来回烧钱。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：给 agent&#34;手&#34;时，优先找领域里最成熟的确定性协议（调试协议、脚本协议、CLI）， 包装成 JSON 接口，而不是自建插桩或视觉方案——复用协议省十年试错。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给 AI 编程 agent 用的无头安卓调试器：agent 在终端里下命令，
+通过 JDWP（Java 调试协议）对运行中的安卓应用设断点、抓异常、单步执行、
+检查/修改变量、监听字段，全程无 GUI、输出严格 JSON。</p>
+<h2>做这个东西的人</h2>
+<p>Shreyas Patil（GitHub <code>PatilShreyas</code>），资深的 Android/Kotlin 开发者，Kotlin 社区知名，
+日常写大量 Android 基础设施类开源项目。Apache-2.0，Kotlin/JVM + JDI 实现，配 GitHub Actions CI。</p>
+<p><em>判断：这类工具只有真懂 JVM 调试协议的人写得出来——它直接把 Android Studio 里
+人类调试用的那条 JDWP 通道暴露成机器可读的 CLI，而不是自己去搞截图识别或插桩。
+这是&quot;吃老本&quot;的正确姿势：用领域里最成熟的那条协议，而不是发明新轮子。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>断点</strong> → 任意类设行断点，类还没加载就自动延迟生效</li>
+<li><strong>异常陷阱</strong> → 全局捕获已捕获/未捕获异常（默认只抓未捕获）</li>
+<li><strong>监视点</strong> → 实时监控字段的访问和修改</li>
+<li><strong>深度检查</strong> → 递归检查深层对象内存、局部变量、调用帧，带循环保护</li>
+<li><strong>实时修改</strong> → 暂停的线程上 <code>set-var</code> 动态改内存、<code>eval</code> 求值 Java 表达式</li>
+<li><strong>单步执行</strong> → Step Over / Into / Out / Resume</li>
+<li><strong>协程感知</strong> → 能从 Kotlin Continuation 帧里抽出局部变量（协程调试是痛点，处理得很细）</li>
+<li><strong>对 6 个 agent harness 开箱</strong> → Claude Code、Codex、Grok Build、OpenCode、Cursor、Antigravity 各有一键装技能的命令</li>
+</ul>
+<p><strong>架构上最值得注意的一点</strong>：CLI 无状态、daemon 常驻——agent 每次调用之间，
+调试连接和断点状态由后台 daemon 保持，不会因为命令是一次性的而丢状态。</p>
+<p><strong>它明确不做</strong>：不做 GUI、不做插桩埋点、不做测试报告。且安全说明写着
+daemon 无认证监听 localhost、暴露实时 JVM 操作能力——只能跑在完全可信的机器上。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前 AI agent 调安卓 bug 基本靠&quot;盲人摸象&quot;：写代码没问题，但运行时调试它做不到——
+它无法像人那样在 Android Studio 里点开 UI 设断点、看内存、暂停执行。
+所以 agent 调 bug 只能看 logcat 猜，猜错就改一行跑一次，来回烧钱。</p>
+<p>Debroid 替代的是&quot;<strong>人坐在 Android Studio 里做的运行时调试</strong>&quot;这个动作：
+把 GUI 里的操作全部翻译成确定性的 JSON 命令，让 agent 自己
+&quot;假设 bug → 启动应用 → 精确停在出错行 → 读设备实时状态 → 评估修复&quot;。</p>
+<h2>商业模式</h2>
+<p><strong>无。</strong> Apache-2.0 开源，免费，无托管服务，无定价。作者推测另有本职工作。</p>
+<p><em>判断：这是典型的&quot;个人开发者工具开源引流&quot;形态，短期没有商业打算。
+但它验证了一个品类——&quot;让 agent 操作真实设备/真实运行时&quot;——这个品类将来
+大概率以&quot;agent 原生工作流（harness/IDE/云调试服务）&quot;的形式商业化，不在这条 CLI 上。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>162 star / 7 fork</strong>（2026-08-12，来自 pool 采集）</li>
+<li>2026-08-02 创建，9 天内 90 个提交到 v0.1.0——早期开发密度很高</li>
+<li>Apache-2.0，Kotlin/JVM，约 22 个命令</li>
+<li>用户、企业采用、融资：均未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>资深 Android/Kotlin 开发者，懂 JVM 调试协议，匹配度满格</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>看准&quot;agent 写得了移动代码、调不了移动 bug&quot;的断层，选 JDWP 复用而非自造方案</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>9 天 90 提交、严格 JSON 契约带 schema、协程感知、6 harness 技能分发，完成度不像一周的项目</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>早于需求高峰——agent 还在做 web/桌面，移动调试需求刚冒头，但也意味着没人买单</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>执行质量在同期小项目里是顶尖的，但品类的商业化时机还早。</strong></p>
+<p>它最聪明的选择是<strong>复用 JDWP 而不是自己发明</strong>。调试协议是 JVM 世界二十年沉淀的
+确定性接口，直接暴露成 JSON CLI，等于把&quot;人用 IDE 调过的所有能力&quot;一键交给 agent。
+这个&quot;包装成熟协议&quot;的思路，比做截图识别、做插桩方案都更轻、更可靠、更便宜。</p>
+<p><strong>架构上&quot;常驻 daemon + 无状态 CLI&quot;也值得学</strong>：agent 工具最常见的问题是一次调用
+就是一次新进程，状态全丢；daemon 常驻让调试会话跨调用存活，这是所有 agent 工具
+界面层都该抄的结构。</p>
+<p><strong>但两个现实</strong>：一是平台单一（只有安卓），iOS 调试是另一个协议栈，短期不会自动覆盖；
+二是&quot;让 agent 调试移动应用&quot;本身还是个超前需求——多数团队连&quot;让 agent 写移动端代码&quot;
+都还没跑通。工具很好，需求在等它的队伍。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月后 stars 是否破 1000——周初的热度有没有变成持续采用
+② 是否有人把 debroid 接进真实 CI/模拟器流程并公开（博客、issue、demo）——有没有真用
+③ 是否扩展 iOS/web 调试或出托管 daemon——单平台是硬上限，突破点在这</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：给 agent&quot;手&quot;时，优先找领域里最成熟的确定性协议（调试协议、脚本协议、CLI），
+包装成 JSON 接口，而不是自建插桩或视觉方案——复用协议省十年试错。</p>
+<p><strong>架构</strong>：&quot;常驻 daemon 持状态 + 无状态 CLI&quot;是 agent 工具的标准结构，
+让每次 agent 调用都能接上上次的上下文，是决定工具能不能被 agent 长期用的分水岭。</p>
+<p><strong>分发</strong>：把 SKILL.md 内嵌进二进制，一条命令装进 6 种 agent harness——
+&quot;agent 怎么学会用你的工具&quot;是分发问题，不是文档问题，这个解法直接可抄。</p>
+<h2>结论</h2>
+<p><strong>有待观察（执行值得关注）。</strong> 作者对、方案对、完成度高，但 162 星、单平台、
+无商业化、需求早于市场，四条都指向&quot;再等等&quot;。把它当&quot;让 agent 操作真实运行时&quot;
+这个品类的一个标杆样本记下来，三个月后看上面三条。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +206,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +237,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +295,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

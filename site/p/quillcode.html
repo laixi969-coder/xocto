@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>QuillCode</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">纯原生 Swift 写的执行框架，明确不用 Electron</p>
@@ -82,15 +83,117 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>现在主流 coding agent 几乎全是 Electron/TypeScript 堆出来的桌面壳或终端工具： 内存占用高、启动慢、权限边界模糊，而且多数把&#34;审批&#34;藏得很深。 QuillCode 要替代的是这一整代工具的运行方式——它赌&#34;原生、可审计、边界可见&#34; 会成为严肃开发者选择 agent 的新标准。它也替代了&#34;每个 agent 框架都要重写 一遍工具调用逻辑&#34;——它把本地工具、Git、C…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：&#34;我们不用什么&#34;可以是最便宜的差异化，但要把它做扎实—— QuillCode 不只在文案里说不用 Electron，而是把原生优势（性能、权限边界、 可审计更新）做成了功能。如果你要打&#34;更轻更快&#34;的牌，必须有能演示的硬指标， 否则就是营销话术。另一个可抄点：自动更新的安全设计（校验 + 签名 + 原子 激活 + 回滚）适合任何分发桌面工具。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>纯 Swift 写的原生 macOS 编程 agent（应用名 Quill Cowork），明确不用 Electron——
+桌面壳和 agent 运行时全部 Swift/SwiftUI，对标 Claude Code、Codex 这类编码 agent
+的&quot;真实项目工作&quot;场景。</p>
+<h2>做这个东西的人</h2>
+<p>Lore-Hex 组织维护，核心贡献者含 jperla（Joseph Perla）——一位履历资深、
+长期写长篇技术文章的工程师。仓库 2026-06-20 建，2,158 次提交，最近提交
+2026-08-14，几乎是日更级别的活跃度。项目自称独立开源，灵感来自
+Codex、Claude Code、Cline 等编码 agent 的最佳实践。</p>
+<p><em>判断：13 颗星却配了 2,000+ 次提交，说明这是一个&quot;极少数人极认真地磨&quot;的项目。
+作者是资深工程师，这个项目的意义更像是在验证&quot;原生重写&quot;这个命题。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>原生重写</strong> → 不是套壳：UI 用 SwiftUI，agent 运行时用 Swift，macOS 14+，
+另有 Linux CLI 版。卖点是比 Electron 壳更快、更省、权限边界更清晰</li>
+<li><strong>项目感知聊天</strong> → 跨多个项目和会话，支持项目指令、记忆、上下文管理</li>
+<li><strong>本地工具链</strong> → 读/搜/编辑/审查文件、跑 shell、检查 git 变更；Git 工作流
+覆盖分支、worktree、提交、推送、PR</li>
+<li><strong>Computer Use</strong> → 集成终端、浏览器会话、截图、操作 macOS 控件</li>
+<li><strong>并行与自动化</strong> → 并发聊天、侧边对话、代码审查、定时自动化、可复用录制工作流</li>
+<li><strong>扩展生态</strong> → 技能、插件、hooks、MCP 服务器，审批和工作区边界可见</li>
+<li><strong>模型接入与更新安全</strong> → TrustedRouter 实时模型目录、用量跟踪、Task Limit；
+自动更新带 SHA-256 校验、签名检查、原子激活、失败自动回滚</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>现在主流 coding agent 几乎全是 Electron/TypeScript 堆出来的桌面壳或终端工具：
+内存占用高、启动慢、权限边界模糊，而且多数把&quot;审批&quot;藏得很深。
+QuillCode 要替代的是这一整代工具的运行方式——它赌&quot;原生、可审计、边界可见&quot;
+会成为严肃开发者选择 agent 的新标准。它也替代了&quot;每个 agent 框架都要重写
+一遍工具调用逻辑&quot;——它把本地工具、Git、Computer Use 做成一个完整套件。</p>
+<h2>商业模式</h2>
+<p><strong>开源（Apache-2.0），无定价。</strong> 模型接入走 TrustedRouter 网关，
+应用处于 tester 预览阶段（ad-hoc 签名 + 自动更新），Stable 版待分发凭据。
+变现路径未披露。</p>
+<p><em>判断：开源 + 自带模型网关，最可能的路线是&quot;壳免费、网关抽成&quot;。但当前连
+Stable 版都还没有，谈商业模式太早。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>13 star / 1 fork</strong>，仓库 2026-06-20 建，Apache-2.0，Swift</li>
+<li>2,158 commits，最近提交 2026-08-14（活跃度接近日更）</li>
+<li>macOS 14+（Apple 芯片 + Intel），另有 Linux CLI；tester 预览版</li>
+<li>HN 13 分、5 评论；无用户规模数据</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>资深工程师重写自己天天用的工具类别，痛点清楚</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;原生 + 边界可见 + 安全更新&quot;是认真选的差异化，不是营销词</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>2,158 次提交、完整测试套件、Merge Train 合并流程、签名校验的更新管线——工程近乎偏执</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>Electron 壳的内存和启动问题真实存在，但&quot;重写一遍&quot;的替代成本对大多数人太高</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>有待观察，但它是这个批次里最值得当&quot;工程标本&quot;看的项目之一。</strong>
+&quot;纯 Swift、不用 Electron&quot;作为卖点，对开发者人群有真实吸引力——性能、
+启动速度、权限边界，这些都是装出来的卖点做不出来的。作者在安全更新上花的
+功夫（SHA-256、签名、原子激活、回滚）也远超一般小项目，说明他真的在
+为一个会被认真使用的工具做准备。</p>
+<p><strong>问题在于验证的人太少。</strong> 13 颗星意味着这个&quot;原生重写&quot;命题还没有被社区
+足够多的人验证过。coding agent 的竞争核心是模型和工具调用的可靠性，
+壳用什么技术栈写在最后一行。它更像一场&quot;原生路径可行性&quot;的公开实验。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月后 star 是否开始爬升、有没有知名开发者公开试用
+② Stable 版是否发布——tester 预览版停留时间过长说明分发或质量有问题
+③ 与 Claude Code 对齐矩阵（README 里已有一份）是否出现实质性差距收窄的证据</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：&quot;我们不用什么&quot;可以是最便宜的差异化，但要把它做扎实——
+QuillCode 不只在文案里说不用 Electron，而是把原生优势（性能、权限边界、
+可审计更新）做成了功能。如果你要打&quot;更轻更快&quot;的牌，必须有能演示的硬指标，
+否则就是营销话术。另一个可抄点：自动更新的安全设计（校验 + 签名 + 原子
+激活 + 回滚）适合任何分发桌面工具。</p>
+<p><strong>话术</strong>：无。工程文档，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 工程投入真实、差异化选择认真，但没有社区验证、没有 Stable 版、
+没有变现路径。三个月后看 star 爬升和 Stable 发布，这两个信号决定它是
+一场值得记住的实验，还是又一个认真过头的个人项目。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +210,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +220,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +230,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +240,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +293,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

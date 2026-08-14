@@ -8,12 +8,13 @@ inspiration: 远程协作里「指着说」这个动作一直没被解决好，�
 summary_en: ''
 inspiration_en: Pointing at something while you talk has never been solved well in remote work. The lighter
   the tool, the better it works.
+priority_review: false
 url: https://www.producthunt.com/products/screenmark-annotation-draw
 canonical_url: https://producthunt.com/products/screenmark-annotation-draw
 summary: Menu bar app for live annotations, whiteboard overlay + more
 first_seen: '2026-08-10T19:21:23Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

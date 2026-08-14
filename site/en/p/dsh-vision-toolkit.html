@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>dsh-vision-toolkit</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">DSH-native vision plugin for image Q&amp;A, long-screenshot OCR, UI restoration, and more.</p>
@@ -81,15 +82,95 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>DeepSeek&#39;s flagship text model has no vision (testers were explicit: &#34;V4 itself doesn&#39;t support vision; image scenarios still require pairing a multimodal model&#34;). Adding vision to a text-only agent p…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when adding capabilities to an AI product, prefer &#34;toolification&#34; over &#34;modelfication&#34; — make capabilities on-demand, credentialed, with output, rather than waiting for a model upgrade;…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Giving a text-only model a pair of callable eyes — image Q&amp;A, long-screenshot OCR, UI restoration, and pixel diff are packaged as 10 tools the agent invokes on demand, instead of pretending the model can see.</p>
+<h2>Who built it</h2>
+<p>Author Anionex (GitHub @Anionex, X @anion_ex, personal site anionex.me). He first built the upstream general-purpose vision toolkit, agent-vision-toolkit, and then this DSH-native integration layer on top of it. Repo created 2026-08-13, MIT, v0.1.4, 44 commits. A personal open-source project with an optional FUNDING.md (explicitly stating sponsorship buys no roadmap priority and no private support).</p>
+<p><em>Read: the only author of the six with upstream assets — general purpose first, integration second. That order suggests he is solving the real problem of &quot;text models have no vision,&quot; not hastily assembling something to ride DSH's popularity.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>10 vision tools</strong> → glance (describe / directed Q&amp;A / OCR / multi-image compare), ground (locate target, return pixel boxes), detect (element inventory + pixel-box location), trace (image to SVG vector), crop, pixel_diff (pixel-difference heatmaps), long_screenshot_ocr, extract_foreground, dominant_colors, html_screenshot</li>
+<li><strong>Intent-aware execution</strong> → each tool executes a specific intent (locate, detect, trace) rather than taking generic &quot;describe this image&quot; input</li>
+<li><strong>Artifacts</strong> → produces files that can be previewed, downloaded, and opened (SVG / PNG / JSON reports)</li>
+<li><strong>Local/remote hybrid</strong> → local tools (crop, trace, pixel diff, color, foreground, HTML screenshot) are free and never leave the machine; remote tools (glance/ground/detect/long-screenshot OCR) require the user's own OpenAI-compatible vision API credentials</li>
+<li><strong>Progressive exposure</strong> → only an activation tool is exposed by default; all 10 mount only after the vision-tools skill loads — controlling prompt bloat and attack surface</li>
+<li><strong>Security model</strong> → path restrictions against traversal, image pre-decode validation, credentials never enter logs, sandboxed browser rendering</li>
+<li><strong>Web + Headless dual profile</strong> → dedicated settings page, health checks, connection tests, version view</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: it reimplements no vision algorithms — those all live upstream in agent-vision-toolkit; this plugin is only DSH's integration layer (lifecycle, credentials, schema, Artifacts, web presentation). The division of labor is clean.</p>
+<h2>What old behavior it replaces</h2>
+<p>DeepSeek's flagship text model has no vision (testers were explicit: &quot;V4 itself doesn't support vision; image scenarios still require pairing a multimodal model&quot;). Adding vision to a text-only agent previously meant one of two roads: human relay — you type a description of the screenshot to the model; or hand-assembled tooling — you write throwaway Python/OpenAI-API glue scripts, send the image to a vision API, paste the result back into the conversation. Each road is a few tens of minutes of temp work per occurrence, error-prone, and not reusable.</p>
+<p>dsh-vision-toolkit replaces that hand-rolled glue. Vision becomes a set of structured tools the agent can call: explicit intent (locate vs detect vs trace), credential management, Artifacts output, web settings pages. It also quietly replaces an implicit old behavior — the QA gesture of &quot;compare screenshots to check whether the UI changed correctly&quot; (pixel-diff tool plus UI restoration verification), which previously meant eyeballing two screens side by side.</p>
+<h2>Business model</h2>
+<p><strong>Free plus bring-your-own-API-credentials.</strong> The plugin is MIT and free; remote vision tools bill through the user's own OpenAI-compatible vision API credentials; local tools are entirely free. An optional sponsorship channel exists (FUNDING.md), explicitly not buying priority.</p>
+<p><em>Read: the only one of the six that states its cost structure clearly. &quot;Free plugin, you pay the inference bill&quot; is the standard posture for tool-class AI plugins, because this is essentially a call orchestrator — the money goes to the model API, not the software. Which also means it has no software revenue, only influence revenue.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>264 stars / 17 forks / 4 open issues</strong> (GitHub API, 2026-08-14)</li>
+<li>Created 2026-08-13, 44 commits, v0.1.4</li>
+<li>17 Vitest files / 136 passing tests — among the hardest test quality in this batch</li>
+<li>UI restoration verification: initial pixel difference 6.04% → final 0% (1200×720)</li>
+<li>Single image ≤10MB / ≤40MP, timeouts 1000-600000ms, concurrency 1-16, inputs PNG/JPEG/GIF/WebP</li>
+<li>Team, users, downloads: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>General-purpose toolkit first, integration layer second; the pain is his own and the path is continuous</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Both &quot;vision is a tool, not a model attribute&quot; and &quot;intent-aware execution&quot; are correct; the verification loop (render → screenshot → pixel diff) is a bonus</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>136 tests, a security model, dual profiles, pinned dependency versions — one of the most disciplined engineering efforts in this batch</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Perfect: the official text model has no vision, and in a 70k-star ecosystem that gap is a real need; but remote tools depend on third-party vision APIs, so the cost chain is unstable</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The closest of the six to a real product — real capability, real verification, clear cost boundaries.</strong></p>
+<p>Its core judgment is worth copying into any AI product: <strong>capability is a tool, not a property of the model.</strong> The model can't see, so hand it a tool that can, rather than waiting for the next model generation. This makes &quot;text model + vision tools&quot; functionally equivalent to a multimodal model at an order of magnitude less cost — DeepSeek users don't have to upgrade models just to look at a screenshot.</p>
+<p><strong>Transferable rule: your product's shortcomings can be patched with callable external tools; you don't have to wait for the core capability to upgrade.</strong> Plus &quot;progressive exposure&quot; — capabilities are not loaded by default and mount only when used, saving tokens and shrinking the attack surface. It is the security posture most worth copying when adding capabilities to an agent product.</p>
+<p><strong>Its weakness</strong>: remote vision tools depend on the user's own third-party API credentials, which makes it an orchestrator with zero margin; if DeepSeek ever ships a multimodal model, the value of its remote tools gets cut in half (the local tools survive). It is betting that the &quot;text model + tool combination&quot; paradigm keeps holding.</p>
+<h2>What to watch next</h2>
+<p>① Real usage/cost cases of the remote tools — has anyone published a bill proving &quot;an order of magnitude cheaper than multimodal&quot;
+② Whether DeepSeek officially ships a multimodal model — if so, remote-tool value halves
+③ Whether stars/tests stay in sync with official rc iterations — fall behind and it stops installing</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when adding capabilities to an AI product, prefer &quot;toolification&quot; over &quot;modelfication&quot; — make capabilities on-demand, credentialed, with output, rather than waiting for a model upgrade; it's a generation faster. Also copy progressive exposure: new capabilities are not mounted by default and load only when used — cheaper and safer.</p>
+<p><strong>Positioning language</strong>: borrowable. The description opens with &quot;helping text-only models do visual tasks better&quot; — it admits the model's limitation (text-only) first, then offers the fix (tools). This &quot;acknowledge the limit, then fill the gap&quot; phrasing reads as far more credible in the developer community than empowerment-style language.</p>
+<p><strong>Pricing structure</strong>: borrowable. &quot;Free plugin, you pay the API bill&quot; — expose the cost, price the software at zero, and users can do the math before they trust it. It even wrote a FUNDING.md that declares sponsorship buys no priority, handling the awkwardness of asking for money cleanly.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The closest of the six to a real product: real capability, sufficient verification, clear cost boundaries. The &quot;toolify vision&quot; and &quot;progressive exposure&quot; mechanisms can be lifted directly. Its ceiling depends on whether DeepSeek ships a multimodal model — that variable is worth tracking.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +187,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +197,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +207,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +217,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +270,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

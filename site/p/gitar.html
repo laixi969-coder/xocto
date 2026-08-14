@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Gitar</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">代码审查工具，发现问题顺手就改掉</p>
@@ -82,15 +83,104 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>代码审查以前是&#34;人肉&#34;和&#34;评论机器人&#34;两步：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：任何诊断/检测类产品，把&#34;检测出来&#34;和&#34;修好它&#34;之间的那段自动化，就是涨价的空间。Gitar 从&#34;评论&#34;到&#34;改+验证&#34;跨了完整一步；哪怕做不到全自动，做&#34;一键应用修复 + 自动跑验证&#34;也比纯建议强一档。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>AI 代码审查工具，但审查不是终点——发现问题后它直接改好、跑 CI 验证、验证过了才提交。从&quot;告诉你有问题&quot;到&quot;已经改好&quot;，是它和所有只会评论的审查工具的分界线。</p>
+<h2>做这个东西的人</h2>
+<p>2026 年 4 月上线的初创公司做的，2026 年 5 月被代码验证公司 Sonar（SonarQube 的母公司）收购，现在挂在 sonarsource.com/products/gitar 下，是 Sonar&quot;多层次验证平台&quot;里负责 AI 审查的那一层。CTO 是 Gautam Korlam，同时是 Sonar 的首席工程师；创始人之一 Zac Zuo（pool 记录里 builder 一栏就是他）在 PH 上以 co-hunter 身份上线了它。</p>
+<p><em>判断：上线一个月就被收购，这个节奏说明 Sonar 买的是&quot;能力&quot;不是&quot;客户&quot;——一家做代码质量二十年的公司，需要一个能接住 AI agent 产出代码的审查层，Gitar 是它挑中的那个。收购对 Gitar 是利好：Sonar 有 700 万开发者和 2.2 万客户的渠道，这是它自己三年都攒不出来的分发。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>审查 PR 并直接改</strong> → 读 diff、CI 日志、仓库规则、agent 指令文件，发现问题后生成修复、推到分支，还跑 CI 验证修复没把别的东西搞坏</li>
+<li><strong>修 CI 失败</strong> → 分析构建失败、测试失败、lint 错误，找出根因，自己改到自己修好为止；还能去重重复的构建失败、识别并重试 flaky 测试</li>
+<li><strong>自然语言规则</strong> → 用平白的话定规则和自动化，比如&quot;任何加了 TODO 没挂 ticket 的 PR 直接拦下&quot;、&quot;安全告警指派给安全团队&quot;，不用写脚本或 YAML</li>
+<li><strong>代码迁移自动化</strong> → 6 类迁移场景，文档声称自动化程度从约 40%（服务合并）到 90%（API 弃用）</li>
+<li><strong>agent 无关</strong> → 不管代码是 Claude Code、Cursor、Codex、Devin 还是 Copilot 写的，它都审查验证</li>
+<li><strong>静态分析兜底</strong> → 先跑一层基于语法、依赖图、类型信息的静态分析，用它来约束 LLM 能提什么建议，降低纯 LLM 审查在陌生框架上&quot;自信但错误&quot;的建议</li>
+</ul>
+<p><strong>定位话术</strong>：Most people think this space is saturated. It is, but in the low end. High-end code reviews is blue ocean——&quot;这赛道看着挤，挤的是低端；高端的代码审查还是蓝海&quot;。</p>
+<h2>它在替代什么旧行为</h2>
+<p>代码审查以前是&quot;人肉&quot;和&quot;评论机器人&quot;两步：</p>
+<p><strong>人肉审查</strong>——资深工程师逐行看 PR。可靠，但慢：跨时区等 review 是常态，而且现在 AI 生成的代码量已经超过人类能审的速度——&quot;PR 堆积、CI 失败、资深工程师是 AI 速度与上线之间最后的摩擦点&quot;，这是 Gitar 自己的原话。</p>
+<p><strong>评论型 AI 审查工具（CodeRabbit、Greptile 等）</strong>——能发现问题、贴评论、给建议，但<strong>停在建议上</strong>：还得有人接受每个修复、手动确认没把构建搞坏。Gitar 对这套的批评很具体：&quot;review 不该以 finding 和另一条评论结束，它应该陪着改动走完修复和 CI。&quot;</p>
+<p>Gitar 替代的是&quot;发现问题之后那半段&quot;——从 finding 到修复到验证到提交，全部自动化。它把&quot;审查工具&quot;从&quot;指出问题的哨兵&quot;升级成&quot;把问题改掉的工人&quot;。它的说法是：对&quot;缺的不是发现问题、是跟不上修&quot;的团队，评论型工具毫无帮助。</p>
+<h2>商业模式</h2>
+<p>SaaS 订阅：</p>
+<ul>
+<li><strong>Core $20/用户/月</strong>：基础审查 + 修复</li>
+<li><strong>Pro $40/用户/月</strong>：自动修复 + CI 验证等完整能力</li>
+<li><strong>Enterprise 定制</strong>：迁移自动化实际只在企业版放开</li>
+<li>14 天试用，OSI 开源公共仓库免费，自助购买上限 50 用户</li>
+<li>只支持 GitHub 和 GitLab（含自托管），不支持 Bitbucket、Azure DevOps</li>
+</ul>
+<p><em>判断：定价比 CodeRabbit（有免费档）贵一档，它赌的是&quot;能改&quot;这个能力值这个溢价。这个赌注有逻辑——从告诉你有问题到直接改好，是价值的量级跃迁。但 50 用户封顶意味着大客户只能走销售，而迁移自动化这个最大卖点被锁在企业版后面，等于把最有杀伤力的演示藏起来等销售电话。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>2026 年 4 月上线，<strong>2026 年 5 月被 Sonar 收购</strong>（金额未披露）</li>
+<li>PH 2026-08-11 上线：<strong>107 票、2 条评论、当日第 12</strong></li>
+<li>定价 $20 / $40 每用户每月，14 天试用</li>
+<li>Sonar 平台基数：700 万开发者、22,000+ 客户</li>
+<li>迁移自动化声称：6 类场景、约 40%–90% 自动化潜力（未独立验证）</li>
+<li>审查质量：<strong>无第三方公开基准</strong>（上线仅 4 个月）</li>
+<li>ARR、客户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>创始人被收购后进入 Sonar 核心团队，等于行业老兵背书</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;发现问题之后那半段才值钱&quot;是准确的判断，CI 失败归因和 flaky 重试是差异化</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>静态分析约束 LLM、零保留数据处理、不改秘密不 force-push，工程克制</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>极好。AI 生成代码量爆炸，审查是公认瓶颈，Sonar 直接给渠道</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>&quot;从告诉你有问题到直接改好&quot;确实是从哨兵到工人的价值跃迁——而它最大的优势已经被收购证明了。</strong></p>
+<p><strong>可迁移的规律：评论型工具的溢价上限，就是修复型工具的起步价。</strong> CodeRabbit 这类工具的价值止步于&quot;指出问题&quot;，Gitar 把价值延伸到&quot;问题消失&quot;。对用户的感受差别是量级的：一个是&quot;又有人给我派活了&quot;，一个是&quot;问题没了&quot;。任何&quot;诊断类&quot;产品想涨价，第一步都是想清楚怎么把诊断结果直接变成行动。</p>
+<p><strong>它的真正护城河不是 AI，是 CI 的深度归因。</strong> 纯 LLM 审查工具满地都是，但&quot;去重构建失败、识别 flaky 测试、把代码失败和基础设施噪声分开&quot;是脏活累活，评论型竞品没有一家做。这解释了为什么 Sonar 选它——Sonar 有验证层，缺的是能自主行动的审查层，Gitar 补的正是这半段。</p>
+<p><strong>风险</strong>：一是没有第三方基准，审查质量是自说自话（上线四个月，这也正常）；二是被收购后&quot;产品在转型&quot;——正在往 Sonar 平台里集成，定位和包装都会变，独立判断会越来越难；三是&quot;发现问题后直接改好&quot;需要团队愿意让 AI 直接碰分支，这个信任门槛比&quot;只看评论&quot;高得多，销售周期长。</p>
+<h2>下一步看什么</h2>
+<p>① Sonar 集成完成后，Gitar 是否还能作为独立产品购买，还是完全并入 SonarQube 订阅
+② 迁移自动化（40%–90% 的声称）是否从企业版放开并有客户公开案例
+③ 四个月后是否有第三方基准或公开的修复成功率数据——&quot;直接改好&quot;这个卖点需要硬数字支撑</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：任何诊断/检测类产品，把&quot;检测出来&quot;和&quot;修好它&quot;之间的那段自动化，就是涨价的空间。Gitar 从&quot;评论&quot;到&quot;改+验证&quot;跨了完整一步；哪怕做不到全自动，做&quot;一键应用修复 + 自动跑验证&quot;也比纯建议强一档。</p>
+<p><strong>话术</strong>：它的开场白可以直接抄——&quot;review 不该以 finding 和另一条评论结束&quot;，一句话定义了它和整个旧品类的区别。先描述旧流程里用户最烦的那一步，然后说自己停在那里。</p>
+<p><strong>定价结构</strong>：把最有杀伤力的能力（迁移自动化）锁在企业版，自助版靠 Core/Pro 两档走量。但要小心 50 用户封顶——对大一点的团队，封顶等于把活人推到销售那边，除非企业版转化率足够高。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 定位精准、被 Sonar 收购是硬验证、CI 深度归因是真差异化，但审查质量没有第三方基准，产品又处于收购整合期，独立信号会变少。盯着迁移自动化放开和第三方数据这两条看。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +197,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +207,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +217,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +227,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +280,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

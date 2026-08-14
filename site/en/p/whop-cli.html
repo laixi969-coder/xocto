@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Whop CLI</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Run your entire business from the terminal</p>
@@ -81,15 +82,146 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Running a business on a Whop-style platform used to mean dashboard clicking — open the admin, navigate menus, fill forms, wait for page loads: a dozen clicks to create a product, a hunt for the share …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: add a machine-readable self-describing interface to your product — a --llms-style manifest, MCP registration, skill packs. This is not a CLI feature; it is paving the road for agents. L…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Run an entire business from the terminal: Whop has wrapped its whole platform — selling
+digital products, community memberships, collecting money, running ads, deploying apps —
+into one command-line tool that both humans and AI agents can drive.</p>
+<h2>Who built it</h2>
+<p>Official Whop tooling. Whop is a commerce platform for digital products, communities, and
+creators, billing itself as &quot;the end-to-end API for running a business.&quot; The CLI's
+maintainer list includes Whop team members such as Ryan Ouyang. Announced 2026-07-21 and
+launched 2026-08-07 (100 upvotes).</p>
+<p><em>Read: for Whop the CLI is not a product, it is an acquisition channel — it drops the cost
+of &quot;doing business on Whop&quot; from learning a dashboard to a few commands, and it grows
+natively inside the developer and AI-agent ecosystem. Textbook platform-company
+developer-tool-as-growth-lever.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Create products, set pricing, generate checkout links</strong> → <code>whop products create</code>,
+<code>whop plans create</code>, one command returns a shareable checkout URL</li>
+<li><strong>Read your numbers</strong> → <code>whop stats list</code> pulls revenue into the terminal; every command
+accepts <code>--format json</code> for piping</li>
+<li><strong>Run ads</strong> → generate creative, build the campaign, and launch in a chain
+(<code>whop ads create</code> and friends)</li>
+<li><strong>Deploy apps</strong> → <code>whop apps deploy</code> ships a Vite project to <code>*.whop.app</code> in one step,
+with a week of server logs queryable from the terminal</li>
+<li><strong>The three pieces built for AI agents</strong> → <code>whop --llms</code> emits a machine-readable
+manifest of every command, <code>whop mcp add</code> registers it as an MCP server (Claude Desktop
+can take over directly), and <code>whop skills add</code> generates agent skills</li>
+<li><strong>Non-interactive mode</strong> → <code>WHOP_API_KEY</code> enables unattended runs in CI and scripts</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no GUI alternative, no own interface — pure command
+line, self-explaining via <code>--help</code>, intentionally minimizing the learning curve.</p>
+<h2>What old behavior it replaces</h2>
+<p>Running a business on a Whop-style platform used to mean dashboard clicking — open the
+admin, navigate menus, fill forms, wait for page loads: a dozen clicks to create a
+product, a hunt for the share button to get a checkout link, a separate toolchain to
+deploy an app.</p>
+<p>Whop CLI replaces two things:</p>
+<ol>
+<li><strong>Dashboard clicks</strong> → a single command, scriptable, reusable, CI-friendly;</li>
+<li><strong>Human operation → AI-agent operation</strong>. <code>--llms</code> plus MCP registration makes it a
+business interface Claude/Cursor/Codex can call directly. Previously, letting an AI
+manage your business meant writing API glue code; now the agent reads the manifest and
+gets to work.</li>
+</ol>
+<h2>Business model</h2>
+<p>The CLI itself is free (MIT). Whop does not charge for the tool; it charges for the
+platform — take rates on transactions and subscriptions. The CLI just makes it easier to
+start a business on Whop.</p>
+<p><em>Read: the &quot;free tool, platform rent&quot; playbook. The CLI's acquisition cost is near zero,
+but it anchors every user's business to Whop. For indie developers, the takeaway is never
+to expect revenue from an official CLI like this — its ROI is entirely in platform volume.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>PH: 100 upvotes, launched 2026-08-07</li>
+<li>npm package <code>@whop/cli</code>, v0.7.0, MIT, weekly downloads currently tiny (early days)</li>
+<li>Prebuilt binaries for macOS and Linux, npm for all platforms</li>
+<li>Whop's platform transaction volume and CLI user count: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Built by the platform itself, every layer tracks its own API — fit is structurally perfect</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Understood that AI agents need machine-readable interfaces; the <code>--llms</code>/MCP/skills trio paves the road for agents</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Uniform command structure, <code>--format json</code> throughout, self-describing manifest — disciplined engineering</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Agents are moving from chat to doing; every platform is fighting for the &quot;called by agents&quot; slot</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>What is worth copying is not the CLI itself, but the three-piece kit for making AI
+agents use your product.</strong></p>
+<p>Commands are just another entrance to the same API. What Whop actually understood is
+that in 2026 the incremental users of a developer product are AI agents. So it went
+beyond &quot;usable by humans&quot;: <code>--llms</code> lets an agent discover every command,
+MCP lets an agent register and call it directly, and <code>skills</code> hands the agent an
+operating manual. <strong>That trio transfers cleanly to anyone:</strong> to make your product
+agent-operable, first add a machine-readable self-describing interface, then plug into
+the agent ecosystem — instead of waiting for agent vendors to adapt to you.</p>
+<p><strong>On &quot;extreme positioning filters your audience for you&quot;</strong> — the pool's thesis matches:
+&quot;Run your entire business from the terminal&quot; frames the target user as &quot;creators who can
+handle a shell,&quot; turning away the wrong people and making every user who stays a
+high-fit one. Extreme positioning is not a turn-off; it is a conversion device.</p>
+<p><strong>Risk</strong>: the CLI is a platform satellite; its fate tracks Whop entirely. The
+opportunity for an indie is not &quot;build your own Whop CLI&quot; — it is asking whether your own
+product can be operated this way too.</p>
+<h2>What to watch next</h2>
+<p>① Whether npm downloads climb over three months — the adoption signal for CLI tooling
+② Whether anyone publicly says &quot;my business runs entirely on the whop CLI&quot; — real
+agent-run cases beat download numbers
+③ Whether third-party tutorials for it appear in the MCP/agent ecosystem — community
+teaching is the sign of a tool breaking out</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: add a machine-readable self-describing interface to your product — a
+<code>--llms</code>-style manifest, MCP registration, skill packs. This is not a CLI feature; it is
+paving the road for agents. Let agents discover, call, and learn your product on their
+own, a full move ahead of waiting for official integration.</p>
+<p><strong>Positioning language</strong>: &quot;Run your entire business from the terminal&quot; — one sentence
+that pins down who it is for, where it runs, and what it does. Extreme positioning that
+self-filters users.</p>
+<p><strong>Pricing structure</strong>: free tool, platform rent. If yours is a platform business,
+open-sourcing the entry tool is a reasonable acquisition investment — as long as the rent
+collects on the platform, not the tool.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The CLI has no imagination of its own; the imagination is in the
+pattern it demonstrates — how a product gets operated by AI agents — which is the shared
+homework of every developer product in 2026. Study its command design and the agent
+trio; that is more useful than its download count. In three months, look for a real
+agent-run-business case.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +238,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +248,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +258,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +268,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +321,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

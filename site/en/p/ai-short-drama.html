@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>ai-short-drama</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">AI short-drama story architecture, series continuity, production packs and resumable generation workflows for Codex and Claude Code.</p>
@@ -81,25 +82,166 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/shuohao-skills.html">shuohao-skills</a>,         <a href="../../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Making AI short dramas used to mean two paths, both with fatal flaws:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when building AI content-production tools, decide first which steps must stop for a human to confirm, then talk about automation. Writing the automation boundary into the docs is not co…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A system that compiles short-drama tropes — &quot;fake weakling who is secretly
+strong, rebirth, system, hidden boss, comeback&quot; — into a story engine with
+arcs, character consistency, per-episode payoffs and binge hooks: an open-source
+Skill for Codex and Claude Code that owns the story and serialization state
+instead of stuffing an entire series into one generation prompt.</p>
+<h2>Who built it</h2>
+<p>Hao0321, an independent developer, open source on GitHub. The repo's content and
+docs suggest the author practices this exact &quot;AI toolchain for short-drama
+production&quot; workflow and distilled the lessons into a reusable Skill.</p>
+<p><em>Read: the author is very likely a short-drama practitioner or heavy experimenter
+— the granularity (eight-dimension scoring, per-shot briefs, state deltas) is not
+something an outsider could invent. The honesty shows in the automation-boundaries
+section: login, payment, and compliance uncertainty must pause for a human, which
+means the author knows what AI must not touch.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Scout</strong> → researches current tropes, platforms and cases</li>
+<li><strong>Greenlight</strong> → an eight-dimension score picks concepts worth testing</li>
+<li><strong>Bible</strong> → characters, world rules, ability costs, reveals, and the villain ladder</li>
+<li><strong>Season / Episode</strong> → plans micro-arcs, writing episodes with a dominant turn,
+payoff, cliffhanger and state delta</li>
+<li><strong>Studio</strong> → routes between serialized episodes, a complete micro-drama, a
+single-shot hit, grid moments, and continuous long shots</li>
+<li><strong>Model-aware production</strong> → records model duration / reference quota, locks
+recurring-character three-views, global style, and per-shot timelines</li>
+<li><strong>Produce</strong> → outputs a schema-validated production pack, fixed entity IDs,
+per-shot generation briefs and an edit handoff</li>
+<li><strong>Audit</strong> → separately diagnoses concept, episode, season, production and
+packaging problems</li>
+</ul>
+<p><strong>Automation boundaries</strong>: the core Skill can independently finish concept,
+script, production pack and validation; media prompts and generation suggestions
+require ai-media-generator; assembling a final MP4 requires a separate edit
+executor; and login, extra payment, model-capability mismatch, compliance
+uncertainty and official public release must stop for confirmation.</p>
+<p><strong>What it deliberately does not do</strong>: include the author's private series bibles,
+character assets, or unpublished story settings; model capabilities are not
+hardcoded as permanent facts and must be re-verified before production.</p>
+<h2>What old behavior it replaces</h2>
+<p>Making AI short dramas used to mean two paths, both with fatal flaws:</p>
+<p><strong>One prompt for the whole series</strong> — hand &quot;write a 10-episode short drama&quot; to a
+model; the opening works, then characters drift and the world logic collapses,
+because a single prompt's context window cannot hold the state of a serial. This
+is the root of &quot;one good episode is easy; ten that hold together is the hard part.&quot;</p>
+<p><strong>Human-managed serialization</strong> — character sheets, ability costs, villain
+ladder, per-episode hooks, all tracked in documents and spreadsheets, re-aligned
+by hand for every episode. It runs on human discipline — a production-manager
+grind that breaks the moment the person changes.</p>
+<p>ai-short-drama replaces both by moving serialization state — character
+consistency, style locks, per-shot timelines, inter-episode hooks — out of a
+single prompt and out of human memory, into checkable, resumable state files on
+disk. It attacks the real bottleneck of industrializing short drama: continuity.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> MIT open source, free, no paid tier, no services.
+(The repo cites aizhuiguang.tech's public &quot;generalizable product
+mechanisms&quot; as the reference for the Studio layer, noting it is an independent
+reimplementation that copies neither copy nor code, with an evidence registry.)</p>
+<p><em>Read: this is the classic &quot;trade methodology for attention&quot; play. Short drama is
+one of the hottest content tracks of 2026, and releasing the workflow as a
+reusable Skill is a bet that whoever defines the short-drama production pipeline
+owns the category's ecosystem slot. Monetization would be later — paid templates,
+custom production, or taking orders.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>48 stars / 9 forks (this batch's observation)</li>
+<li>MIT, Python scripts (drama_lint.py / studio_lint.py) plus schema validation and
+unit tests</li>
+<li>Install is a clone into <code>~/.codex/skills/</code> or <code>~/.claude/skills/</code></li>
+<li>Users and actual episodes produced: not disclosed</li>
+<li>Status: watching; the repo is being updated continuously</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The granularity of the workflow means real production, not a theoretical framework</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Correctly identifies continuity as the industrialization bottleneck, with a clear sense of &quot;don't stuff a whole series into one prompt&quot;</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Schema validation plus lint plus unit tests plus explicit automation boundaries; far beyond the average skill repo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Well aimed. Short drama is where the money is flowing, and AI toolchains are just starting to penetrate production</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It bet on the right bottleneck — continuity — and did the engineering properly.</strong>
+Generating a single episode stopped being the problem long ago; keeping ten
+episodes consistent is. Turning characters, style, timelines and hooks into
+checkable, resumable state files is a production-grade idea, not a demo-grade one.</p>
+<p><strong>Honesty is its most valuable asset.</strong> Writing out that login, payment,
+compliance uncertainty and public release must pause for a human — and that model
+capabilities must not be hardcoded as facts — is rare in AI-generated-content
+tooling and shows the author knows which steps AI must not touch.</p>
+<p><strong>But its reach is limited.</strong> Forty-eight stars says it is still a niche
+methodology repo, and it depends on coding agents like Codex and Claude Code as
+the execution environment — which filters out most short-drama practitioners, who
+are not programmers. The positioning is &quot;people who use agents make short dramas,&quot;
+not &quot;people who make short dramas use agents.&quot;</p>
+<h2>What to watch next</h2>
+<p>① Whether stars clear 200 in three months — word-of-mouth velocity for a
+methodology repo
+② Whether any actually produced short drama publicly credits this workflow —
+stronger evidence than stars
+③ Whether commercialization appears (paid templates, production services, a
+content account matrix)</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when building AI content-production tools, decide first which
+steps must stop for a human to confirm, then talk about automation. Writing the
+automation boundary into the docs is not conservatism; it is professionalism, and
+it decides whether the tool is trusted in real production.</p>
+<p><strong>Positioning language</strong>: put the tropes (&quot;fake weakling, rebirth, system&quot;) in
+the first line of the README so the target reader instantly knows &quot;this was made
+for me.&quot; Vertical tools should open with the vertical's own jargon.</p>
+<p><strong>Engineering structure</strong>: define production contracts with schema files
+(production pack, studio plan) and validate with lint scripts — making AI output
+machine-checkable is a precondition for AI output entering a production pipeline.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Right instinct, serious engineering, honest boundaries — but slow
+diffusion, a narrow audience, and no commercialization yet. It represents one
+sample of the &quot;open-source AI content-production methodology&quot; route. The
+continuity insight is worth remembering; its merits wait for real works and real
+revenue to verify.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Creative">
-        16 in AI + Creative →
+        15 in AI + Creative →
       </a>
     </div>
     <ul class="rows">
@@ -192,7 +334,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

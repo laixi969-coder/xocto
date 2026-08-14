@@ -8,12 +8,13 @@ inspiration: 从「你填表」变成「系统替你写」，这是所有汇报�
 summary_en: ''
 inspiration_en: Going from “you fill in the form” to “the system writes it for you” is the direction all
   reporting work is heading.
+priority_review: false
 url: https://www.producthunt.com/products/troopr
 canonical_url: https://producthunt.com/products/troopr
 summary: Writes your standup from real work. Remembers your team.
 first_seen: '2026-08-04T09:13:42Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: watching
+status: analyzed
 sources:
 - producthunt
 sightings:

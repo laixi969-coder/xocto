@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>frontfamily</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">A Rosetta Stone for UI component libraries, aiding cross-library migration and understanding.</p>
@@ -82,15 +83,123 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Cross-framework component migration used to mean two things: manually comparing both libraries&#39; docs prop by prop (hundreds of API lookups for one migration), or throwing the code at an AI translator …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: in any &#34;AI-generated but must be verifiable&#34; scenario, copy the &#34;deterministic mapping + explicit difference flags&#34; combo — swap probabilistic output for a lookup table, and make errors…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A &quot;Rosetta Stone for UI component libraries&quot;: no AI, no guessed props — a hand-verified mapping
+table translates MUI into Chakra and Ant Design into Mantine, entirely in the browser.</p>
+<h2>Who built it</h2>
+<p>Bassem Chagra (HN: ch-bas), a self-described full-stack engineer focused on developer tooling,
+solo project, Apache-2.0.</p>
+<p><em>Read: choosing deterministic conversion over LLM conversion is a deliberate contrarian move. The
+bet: in migration scenarios, &quot;no hallucinated props&quot; is worth more than &quot;looks intelligent.&quot; That
+judgment is right in tech-debt cleanup scenarios.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Deterministic component conversion</strong> → 219 hand-verified component mappings, 42 conversion
+paths, 7 source frameworks (React/Vue/Angular/Svelte/TypeScript), 30+ libraries catalogued</li>
+<li><strong>Behavioral-difference flags</strong> → not just code: it flags behavioral differences automatically
+(Chakra's onClose fires on overlay click; MUI's Dialog doesn't by default)</li>
+<li><strong>Fully local</strong> → conversion runs entirely in the browser; no code goes to any server; no
+accounts, no API keys</li>
+<li><strong>CLI migration</strong> → <code>npx @frontfamily/cli eject</code>, 207 templates across 23 patterns and 9
+frameworks, one command into your project, zero runtime dependencies</li>
+<li><strong>Migration guides</strong> → 9 guides with searchable prop tables and real-world pitfalls</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no LLM, no fuzzy &quot;looks about right&quot; translation, no code
+collection.</p>
+<h2>What old behavior it replaces</h2>
+<p>Cross-framework component migration used to mean two things: manually comparing both libraries'
+docs prop by prop (hundreds of API lookups for one migration), or throwing the code at an AI
+translator (producing hallucinated props — harder to find the wrong edits than the right ones).
+The more common reality: the tech debt is too heavy, so no migration happens and old code rots in
+its framework.</p>
+<p>frontfamily replaces &quot;docs-surfing + trusting AI translation&quot; with a deterministic process that a
+lookup table can verify. Its core selling point is not that it converts — it's that errors get
+flagged.</p>
+<h2>Business model</h2>
+<p>Free, no accounts, no API keys, no paywall. Apache-2.0.</p>
+<p><em>Read: there is no business model today; it reads like an engineering exhibit proving the mapping
+table is an asset. The plausible monetization path is selling the mappings to migration service
+providers or productizing it internally — both later-stage.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>HN: 13 points, 2 comments</strong> (2026-08-13), Show HN</li>
+<li>219 hand-verified mappings, 42 conversion paths, 7 source frameworks, 30+ libraries catalogued</li>
+<li>207 CLI templates, 23 patterns, 9 frameworks</li>
+<li>Users, traffic: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Solo dev-tooling, pain almost certainly firsthand; the &quot;hand-verified mappings&quot; grunt work means hallucinated props bit them personally</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Deterministic + behavioral-difference flags&quot; is the most undervalued design in component conversion — the death mode of conversion tools is silent wrongness</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>219 manually maintained mappings is honest and verifiable; the behavioral flags are beyond string-replacement level</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Frontend is in a framework-migration wave (especially around the shadcn ecosystem), but willingness to pay lives mainly in large tech-debt enterprises</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A textbook case of using lookup tables against hallucination, and the rule transfers directly.</strong></p>
+<p>A mapping table is a deterministic asset; an LLM is a probabilistic tool. In any scenario where
+conversion output must be verifiable — component migration, data migration, format conversion —
+probabilistic output is unacceptable, because a silent error costs an order of magnitude more than
+an explicit one. frontfamily treats &quot;errors get flagged&quot; as a product feature, which is the single
+most copyable design in conversion tools.</p>
+<p><strong>The honest limit</strong>: 219 mappings is the tip of the iceberg for 30+ libraries, and the long tail
+needs manual labor; 7 source frameworks means it can never outrun ecosystem churn.
+Mapping-table maintainability is the category's ceiling.</p>
+<p><strong>A 13-point HN response says either it hasn't been seen, or it was seen and nobody needs a
+library converted right now.</strong> It reads as the right technical judgment attached to an unvalidated
+market.</p>
+<h2>What to watch next</h2>
+<p>① Mapping update frequency — this is its lifeline; stopping means dying
+② Whether enterprise migration cases appear — large tech-debt teams are the real buyers
+③ Whether it grows from a conversion tool into a migration service (selling guides, managed
+migrations) — whether it's a business at all</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: in any &quot;AI-generated but must be verifiable&quot; scenario, copy the &quot;deterministic
+mapping + explicit difference flags&quot; combo — swap probabilistic output for a lookup table, and
+make errors visible instead of silent. For anyone building content/code/data AI products, that
+error-visibility design applies directly.</p>
+<p><strong>Positioning language</strong>: lines like &quot;deterministic conversion, not AI-guessed props&quot; transfer to
+any reliability-selling product.</p>
+<p><strong>Pricing structure</strong>: none. Free, no accounts, no disclosed monetization plan.</p>
+<h2>Verdict</h2>
+<p><strong>A design worth remembering; a market unvalidated.</strong> Hand-verified mappings against hallucinated
+props is one of the few correct ideas in conversion tools. But 219 mappings and 13 points both say
+early. Note it; track mapping velocity and enterprise cases.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +216,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +226,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +236,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +246,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +299,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

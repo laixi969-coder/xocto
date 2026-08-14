@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Hearth</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">A shared family workspace where an agent can build apps.</p>
@@ -81,22 +82,146 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Household logistics are scattered across three or four tools: plans in a group chat, calendars on individual phones, reminders on the fridge, a shared spreadsheet. The information is fragmented, no on…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: &#34;agents write their own tools, then use those tools&#34; is the next layer of abstraction for agent applications. If you build an agent product, treat &#34;generating its own UI/tools on top of…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A shared workspace for a household — plans, notes, schedules, and people all in one
+place, with an agent that reads that context and can build small apps in place and run
+them there.</p>
+<h2>Who built it</h2>
+<p>jmtulloss (Jonathan Tullis, Retool co-founder) built it for his own family. It sits on
+Playground, a library they are developing for building collaborative AI coding
+harnesses — primitives being synchronized files, agents, people, app code sandboxing,
+and a policy layer. Hearth is the family-scale example; the same library is being used
+for Bear, a product for construction projects (bear.build). Site: ourhearth.ai.</p>
+<p><em>Read: when a Retool co-founder builds a personal project, the signal is that he is
+testing whether &quot;agents build their own tools&quot; works as a paradigm — family is just the
+smallest possible test bed, and the commercial target is construction.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Shared family workspace</strong> → plans, notes, schedules, people, and recurring family
+rituals, synced across every device</li>
+<li><strong>Contextual agent</strong> → reads all of that and works across it, &quot;kind of like a shared
+Obsidian with an agent&quot;</li>
+<li><strong>Agent-built apps</strong> → generates small apps on top of the family's notes and runs
+them inside the same workspace; calendar and travel apps are the examples</li>
+<li><strong>Tools as permissions</strong> → IoT devices connect through an API-token proxy, so the
+agent can call the device without holding the token</li>
+<li><strong>Multi-member collaboration</strong> → everyone shares the same data, and integrations are
+visible to the whole household</li>
+<li><strong>Explicitly beta</strong>, with the author recommending you keep sensitive data out until
+the source is out and stable; open-sourcing is planned</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Household logistics are scattered across three or four tools: plans in a group chat,
+calendars on individual phones, reminders on the fridge, a shared spreadsheet. The
+information is fragmented, no one can see the whole family's arrangement at a glance,
+and syncing is done by hand.</p>
+<p>Hearth collects plans, notes, and schedules into one shared space, then lets an agent
+consume that context — a &quot;second brain for the whole household,&quot; replacing &quot;family info
+scattered everywhere, manually reconciled every time.&quot; The real increment is the agent:
+it does not just store, it actively produces tools inside that context.</p>
+<h2>Business model</h2>
+<p><strong>Pricing not disclosed.</strong> Beta, with open-sourcing planned. At the company level, the
+same stack is going into Bear (construction), and the family product has no business
+model information of any kind.</p>
+<p><em>Read: the family use case cannot plausibly be the revenue source; Hearth is more like
+walking advertising for the Playground library. The real commercial logic is Bear —
+selling &quot;agents that build their own tools&quot; to construction firms is the old
+construction-digitization story with a new engine.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>HN Show HN: 8 points / 3 comments</strong> (2026-08-13). Very little traction</li>
+<li><strong>Not open-sourced</strong>: no source released yet, so no star/fork data</li>
+<li>A Home Assistant example app already exists at github.com/bearbuild/hearth-apps</li>
+<li>Users and pricing: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A Retool co-founder building the family tool he eats his own product with. Fit is high</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;An agent that builds its own tools inside private context&quot; is a smart direction, but family willingness to pay is doubtful</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Sandboxing, least privilege, and synchronized files are designed in — but nothing is verifiable until it is open-sourced</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Home automation is ramping, but consumer education cost for &quot;build your own app&quot; is extremely high</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The sentence worth remembering: an agent should build its own tools where it can read
+the context.</strong> Most agent products today draw a boundary at &quot;pick from a fixed toolset&quot;;
+Hearth's direction is an agent generating its own tools and UI directly on top of user
+data. That is the next layer of abstraction for agent applications, and family, company,
+and construction site are just three different data scenarios.</p>
+<p><strong>But 8 points and 3 comments means it has not left the author's backyard.</strong> There is
+one promise and one test bed: the promise is &quot;open source soon,&quot; the test bed is his own
+household. The most honest piece of evidence is the line &quot;don't put anything too
+sensitive in there until the source is out and stable&quot; — the author himself is not sure
+the isolation design holds.</p>
+<p><strong>Family is a clever choice that does not pay.</strong> Family was chosen because context
+density is high, privacy boundaries are real, and the users are non-technical — the
+smallest complete test environment. But consumers will not pay for &quot;the agent builds me
+a calendar app&quot; — they struggle with the concept itself. The commercial story is Bear,
+not Hearth.</p>
+<p><strong>&quot;Tools as permissions&quot; deserves its own note.</strong> A proxy that lets the agent call
+devices without ever touching the token is a rare clean pattern in agent permission
+design.</p>
+<h2>What to watch next</h2>
+<p>① Whether the source actually ships as promised — if it does not, this is marketing copy
+② Retention of the &quot;agent-built apps&quot; in a real household — the author says the family
+uses it, but there is no data
+③ Whether Bear (the construction edition) publishes prices and customers — that is the
+commercial truth</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: &quot;agents write their own tools, then use those tools&quot; is the next
+layer of abstraction for agent applications. If you build an agent product, treat
+&quot;generating its own UI/tools on top of user data&quot; as a capability, not a feature —
+family, company, and site are just three data scenarios. A minimal test environment
+needs: high context density, real privacy boundaries, and users who do not require
+technical skill.</p>
+<p><strong>Positioning language</strong>: none. The HN post is a personal intro; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The concept is sharp and the provenance is credible, but with 8 points,
+no source, and no pricing, every commitment points to the future. Come back against the
+three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -106,7 +231,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +241,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +251,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +261,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +314,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

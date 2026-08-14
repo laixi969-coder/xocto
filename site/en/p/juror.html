@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>juror</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Open-Source Greptile Alternative</p>
@@ -81,25 +82,100 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Two behaviors at once.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Positioning logic: when your product targets a SaaS with proven demand, do not compare features — compare cost structure. Making your product &#34;your keys + your infrastructure&#34; rewrites the opponent&#39;s …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An open-source PR review tool that runs inside your own GitHub Actions: several frontier models each review the same PR independently, only findings they agree on get merged and reported, and every review prints a cost receipt. Positioning: &quot;cheaper and better Greptile alternative.&quot;</p>
+<h2>Who built it</h2>
+<p>The Juror-AI organization (primary contributor Jay Derinbogaz, GitHub cderinbogaz), MIT license, a TypeScript GitHub Action. Commit history shows heavy Claude co-authorship — typical AI-assisted, high-intensity development. Team size is not disclosed.</p>
+<p><em>Read: choosing the &quot;runs in your own Actions + bring your own API key + prints a receipt&quot; positioning means the author has been burned by the bills and data-sovereignty problems of hosted review services like Greptile.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Parallel multi-model review</strong> → supports claude-code, codex, opencode, grok-build, kimi-code, codewhale (DeepSeek's native runtime), and more; each model reviews independently through its native agent harness</li>
+<li><strong>Consensus dedup</strong> → when several models describe the same defect it merges into one finding; default high-recall mode shows everything, and a consensus mode filters by agreement</li>
+<li><strong>Cost receipt</strong> → every review prints a reported-vs-estimated bill, distinguishing cached tokens from long-context price cliffs</li>
+<li><strong>Zero infrastructure</strong> → no app install, no account, no semantic index; the harnesses ship their own repo search</li>
+<li><strong>Security isolation</strong> → only the publish step holds GITHUB_TOKEN; Codex reviews run on a kernel-enforced split filesystem so model processes never touch credentials</li>
+<li><strong>Tamper resistance</strong> → the review ignores AGENTS.md files introduced by the PR itself, so submitters cannot rewrite the review rules</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Two behaviors at once.</p>
+<p>First, <strong>hosted AI code-review SaaS such as Greptile or CodeRabbit</strong>: install the app, pay per repo or per seat, hand your code to a third-party index, wait in the cloud queue. Replaced by a free workflow on your own GitHub Actions whose only cost is your own LLM API usage.</p>
+<p>Second, <strong>the mechanical part of human code review</strong>: common bug classes and missed edge cases that used to need a senior engineer's eyeballs now get scanned by several models first, and a human only looks at the consensus findings and adjudicates disagreements.</p>
+<p><em>Read: for open-source projects and small teams, &quot;run in my CI with my keys&quot; is dramatically cheaper than subscribing to SaaS. This is the standard wedge for open-source alternatives — not better features, but a completely different cost structure.</em></p>
+<h2>Business model</h2>
+<p><strong>Not disclosed; currently revenue-free open source.</strong> Distributed via npx juror-ai, you bring any key (OpenAI, Fireworks, Anthropic, xAI, etc.).</p>
+<p><em>Read: open-source alternatives usually keep the money in a hosted tier — removing the pain of configuring Actions and keys is a service people pay for. No hosting is visible yet, but it is the most likely monetization path.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>82 stars / 9 forks, MIT, repo created 2026-08-06 — about a week old</li>
+<li>53 commits, current line v1.4.x, latest commit 2026-08-14, active development</li>
+<li>HN: 6 points, 1 comment</li>
+<li>Internal benchmark (author-reported): on one bundled PR seed, Juror Fast found 4/6 (66.7%) P0–P2 defects at 100% precision; Greptile found 1/6 (16.7%) at 50%. The author explicitly notes this is a single PR with manual adjudication — not a statistically sufficient benchmark</li>
+<li>Team size, real user count: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author was clearly burned by hosted review costs and data issues; real pain, but the organization's background is unknown</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Multi-model consensus + cost receipt&quot; is a clever differentiator: buy precision with redundancy, buy trust with transparency</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>The obsession with token accounting (long-context price cliffs, cached tokens) is written by someone who actually paid the bills</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Code review is one of the first dev workflows agents take over, and Greptile already proved demand</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>&quot;Cheaper&quot; is the real product insight.</strong> It does not compete with Greptile on feature breadth; it competes on cost structure — your keys, your CI, your code never leaves the repo. For this category's users, that is close to decisive.</p>
+<p><strong>The transferable pattern: hedge single-model false positives with multi-model redundancy.</strong> One model reviewing code both misses and hallucinates; several independent models that must agree produce far fewer false positives. This majority-vote logic transfers to any generation or review task where precision matters.</p>
+<p><strong>Two risks.</strong> First, the benchmark is weak: single PR, manual adjudication; 66.7% vs 16.7% reads as a story, not evidence. Second, the category ceiling: the better the models review, the less humans need to look, while the token cost of running several models is real — it only wins when the human time saved clearly exceeds the token spend.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars break 300 in a month — whether &quot;code review as a GitHub Action&quot; gets adopted
+② Whether anyone publicly shows a real defect it caught (more credible than any self-reported benchmark)
+③ Whether a hosted tier or pricing appears — an open-source alternative starting to charge is demand verified</p>
+<h2>What you can take from it</h2>
+<p><strong>Positioning logic</strong>: when your product targets a SaaS with proven demand, do not compare features — compare cost structure. Making your product &quot;your keys + your infrastructure&quot; rewrites the opponent's cost equation, which beats a feature table.</p>
+<p><strong>Product detail</strong>: print a cost receipt on every AI call; make &quot;what did this cost&quot; part of the product. Cost transparency is itself a trust mechanism, especially when &quot;saves you money&quot; is your pitch.</p>
+<p><strong>Security design</strong>: review rules can be gamed (a PR rewriting AGENTS.md). Ignoring &quot;rules the reviewed object brings in itself&quot; transfers to any product where AI adjudicates — the adjudication basis must come from outside the party being judged.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, with the benchmark discounted.</strong> The positioning holds, the engineering is solid, and the cost story is concrete; the only &quot;score&quot; is a weak self-tested benchmark. Wait for public cases and the stars curve — those two numbers tell you whether it is really the person doing Greptile's job for free.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +195,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +205,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +215,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +268,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

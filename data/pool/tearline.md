@@ -7,12 +7,13 @@ summary_zh: 将任意HTML包装成热敏收据和PNG。
 inspiration: HTML转收据/图片，可迁移到票据生成和网页快照。
 summary_en: Wrap any HTML in one tag, get a thermal receipt and a PNG.
 inspiration_en: HTML to receipt/image conversion applies to ticket generation and web snapshots.
+priority_review: false
 url: https://tearline.kynth.studio
 canonical_url: https://tearline.kynth.studio
 summary: wrap any HTML in one tag, get a thermal receipt and a PNG
 first_seen: '2026-08-13T12:10:02Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

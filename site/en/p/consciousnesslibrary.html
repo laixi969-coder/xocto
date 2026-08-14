@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>consciousnesslibrary</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">35k+ paper psychedelic library that knows LSD from Lumpy Skin Disease</p>
@@ -82,22 +83,147 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Researching psychedelics used to mean searching PubMed, bioRxiv, and ClinicalTrials.gov separately, manually deduping, and manually reading dozens of abstracts to find consensus and disagreement. A li…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: any vertical can copy the trio of &#34;complete corpus + plain summaries + evidence synthesis.&#34; The key move is defining &#34;complete&#34; first — subscribe to a dozen APIs and poll every 20 minut…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A free, open library that pulls the world's psychedelic and consciousness research into one
+place: every 20 minutes it ingests new papers from a dozen-plus academic APIs, dedupes them,
+organizes them by topic, writes plain-language summaries, and can synthesize evidence across
+the whole corpus — while correctly keeping &quot;LSD the psychedelic&quot; apart from Lumpy Skin Disease.</p>
+<h2>Who built it</h2>
+<p>Posted on HN (Show HN, 30 points / 12 comments). The author writes that he had just
+finished a master's in Psychedelics and Consciousness Studies, built the library he wanted
+while studying, shelved it for a year, then picked it back up after his practicum advisor
+pushed him to go hard on it. The project is registered as a 501(c)(3), legal entity Mindscape
+Collective, self-funded so far. The pool lists the builder as <code>elliotec</code>.</p>
+<p><em>Read: a library that &quot;reads the whole field&quot; can only be built by someone who actually read
+the field for a degree and uses it daily — the barrier is not technical, it is knowing what to
+collect and what &quot;complete&quot; means. This author has both.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Aggregates and dedupes</strong> → pulls from a dozen-plus academic APIs (PubMed, OpenAlex, Europe
+PMC, bioRxiv, more) every 20 minutes, automatically deduplicated</li>
+<li><strong>Relevance judging</strong> → a two-stage pipeline of cheap keyword prefilter plus an LLM rubric
+that accepts or rejects papers, resolving the hard cases: LSD the psychedelic vs Lumpy Skin
+Disease, ketamine for depression vs anesthesia for cats</li>
+<li><strong>Plain-language summaries</strong> → every paper gets a &quot;Study at a glance&quot;: design, sample size,
+key findings, in plain language</li>
+<li><strong>Topic organization</strong> → 35,787 papers across 37 topics grouped under psychedelics, practices
+(meditation), experience, humanities, neuroscience</li>
+<li><strong>Evidence synthesis</strong> → topic pages carry evidence overviews, and you can ask across the
+whole corpus; the AI synthesizes consensus, conflicts, and unknowns</li>
+<li><strong>Clinical trial tracking</strong> → refreshed daily from ClinicalTrials.gov: recruitment status,
+phase, enrollment, sponsor</li>
+<li><strong>A map of the whole corpus</strong> → one dot per paper, so the shape of the field is visible at a glance</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no commercial search platform, no ads, no login required
+to read; free-text synthesis needs a free account.</p>
+<h2>What old behavior it replaces</h2>
+<p>Researching psychedelics used to mean searching PubMed, bioRxiv, and ClinicalTrials.gov
+separately, manually deduping, and manually reading dozens of abstracts to find consensus and
+disagreement. A literature review per topic ran on a weekly timescale.</p>
+<p>This library replaces three manual chores: <strong>cross-database search</strong> (one query covers
+everything), <strong>reading abstracts to find consensus</strong> (synthesis names what agrees and what is
+still contested), and <strong>tracking clinical trials</strong> (daily refresh instead of weekly manual
+checking).</p>
+<h2>Business model</h2>
+<p><strong>Non-commercial.</strong> A 501(c)(3) nonprofit: free, ad-free, readable without an account, funded
+by donations (Stripe, PayPal, Buy Me a Coffee) plus the author's own money.</p>
+<p><em>Read: this is not a business, it is infrastructure. But &quot;build the complete corpus of a narrow
+field as a free public good at near-zero cost&quot; is itself a signal for anyone making vertical AI
+products — the asset pays off elsewhere (influence, data partnerships, foundation support),
+not in subscription fees.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>35,787 papers / 82,200+ authors / 37 topics</strong>, growing daily</li>
+<li>Infrastructure: Rails 8.1, a single Postgres (full-text, vectors, and job queue all in one),
+a $24/month DigitalOcean droplet (just upgraded from the $12 tier), deployed with Kamal</li>
+<li><strong>Total LLM spend to date: ~$28</strong> (DeepSeek-V4-Flash), trending down after a one-time backfill push</li>
+<li>Ingestion cadence: polls a dozen-plus academic APIs every 20 minutes</li>
+<li>Team: essentially one person (the site lists a few collaborator avatars); revenue, funding:
+none (donation-based)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Field master's degree, built to satisfy his own research need — the textbook &quot;user is the author&quot; case</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Sees that a complete narrow corpus is the moat; handles the relevance ambiguity (LSD vs Lumpy Skin Disease) early — the life-or-death issue for this kind of library</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>One Postgres carrying full-text, vectors, and queue on a $24/month box; engineering restraint at textbook level</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Psychedelic research renaissance plus open scholarly data — exactly the window for public infrastructure</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A template for &quot;turn a very narrow field into a complete corpus at near-zero cost.&quot; Low
+commercial value, high mechanism value.</strong></p>
+<p>The most stealable part is the <strong>relevance pipeline</strong>: cheap keyword prefilter first, LLM
+rubric accept/reject second. It sounds plain, but the author says relevance was by far the
+hardest part — generic search fails here because Lumpy Skin Disease also contains &quot;LSD,&quot; and
+vector retrieval cannot tell the semantic camps apart. The two-stage pipeline brought the whole
+corpus's LLM cost down to $28, and it transfers to any vertical corpus.</p>
+<p><strong>The one thing it did right</strong> was registering as a nonprofit instead of a company. Trust
+barriers are high for narrow-field public libraries, and &quot;we don't sell data, we don't sell
+ads&quot; is part of the content.</p>
+<p><strong>The limits</strong> are obvious too: solo operation, donation funding, no public retention metrics.
+The biggest risk in this project is not the product, it is the maintainer's energy — once the
+author lands a job, update cadence will drop.</p>
+<h2>What to watch next</h2>
+<p>① Whether paper count keeps growing daily and the 20-minute cadence actually holds — is
+maintenance alive
+② Whether registered users and synthesis-query usage ever go public — real use, or self-indulgence
+③ Whether institutional partners appear (universities / foundations / journals) — the hinge
+between a personal project and public infrastructure</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: any vertical can copy the trio of &quot;complete corpus + plain summaries +
+evidence synthesis.&quot; The key move is defining &quot;complete&quot; first — subscribe to a dozen APIs and
+poll every 20 minutes; completeness beats retrieval quality as the initial claim.</p>
+<p><strong>Positioning language</strong>: &quot;The world's psychedelic and consciousness research, in one open
+library.&quot; Define the product by the promise of totality, not by &quot;our database is large.&quot;</p>
+<p><strong>Pricing structure</strong>: none. But &quot;nonprofit + donations + self-funding&quot; is a viable structure
+for narrow-field tools that need public credibility.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching — as a mechanism sample, not an investment.</strong> Complete corpus, near-zero cost
+($24/month infra plus $28 of LLM spend), and a two-stage relevance pipeline that transfers
+directly. It proves one person, one $24 server, and a few dozen dollars of LLM calls can build a
+field's public infrastructure. Don't expect a business; do copy the mechanism.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -107,7 +233,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +243,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +253,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +263,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +316,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

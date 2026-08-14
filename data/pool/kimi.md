@@ -8,12 +8,13 @@ inspiration: 国产模型出海先做的都是网页版，因为绕开了应用�
 summary_en: The international site for Moonshot's Kimi.
 inspiration_en: Chinese models going abroad start with the web, because it skips app store review and
   revenue share.
+priority_review: false
 url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
 canonical_url: https://aicpb.com/product/Kimi/appid1D6F332E1
 summary: K2模型,AI智能问答,翻译编程ppt表格制作全能办公工具
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

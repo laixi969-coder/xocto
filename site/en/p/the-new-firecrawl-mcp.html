@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>The new Firecrawl MCP</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Agent-ready web context for any MCP client.</p>
@@ -81,15 +82,140 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Making an AI read the web used to mean writing your own scraper (BeautifulSoup/Scrapy do not run JS; Puppeteer/Playwright means maintaining a browser-automation stack) or stuffing whole HTML pages int…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: take a dirty job everyone does badly (web to LLM data), productize it as one API plus one MCP server, and stop every agent team from reinventing it — infrastructure products aim at the …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Firecrawl's official new MCP server: the whole web stack — search, scrape, parse,
+crawl, interact, and autonomous research — exposed as tools any MCP client can call,
+and already the default web route for Claude Code, Codex, and Cursor.</p>
+<h2>Who built it</h2>
+<p>Firecrawl, officially (formerly Mendable, YC S22), co-founded by Nicolas Silberstein
+Camara, Caleb Peffer, and Eric Ciarla (the pool lists Eric Ciarla as builder).
+Mendable started as AI chat for documentation, then pivoted to &quot;web to AI data&quot;
+infrastructure.</p>
+<p><em>Read: this is the closest thing the agent-era data layer has to a default. A small
+documentation-chat company pivoted into a &quot;web data API&quot; and hit 350K registered
+developers in two years by capturing one need every agent team cannot avoid: getting
+clean, live web content into a model.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>firecrawl_search</strong>: live search returning full page content (not just links), with
+time filters</li>
+<li><strong>firecrawl_scrape</strong>: any URL to clean Markdown or structured JSON, including
+JS-heavy pages</li>
+<li><strong>firecrawl_parse</strong>: PDFs and DOCX into text</li>
+<li><strong>firecrawl_crawl / map</strong>: async whole-site crawling / site structure discovery</li>
+<li><strong>firecrawl_interact</strong>: click, fill forms, log in, navigate — then scrape</li>
+<li><strong>firecrawl_agent</strong>: an autonomous research agent that plans its own browsing,
+gathers from multiple sources, and returns structured results</li>
+<li><strong>Three access modes</strong>: keyless (IP-rate-limited trial), OAuth (interactive
+clients), and API key (unattended)</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Making an AI read the web used to mean writing your own scraper (BeautifulSoup/Scrapy
+do not run JS; Puppeteer/Playwright means maintaining a browser-automation stack) or
+stuffing whole HTML pages into the model and wasting tokens. Worse, each MCP client
+needed its own glue code. Firecrawl MCP turns the full find → extract → clean → use
+loop into standard tools behind one configuration. It replaces &quot;every agent team
+maintains its own scraping infrastructure&quot; — which is exactly why client vendors are
+happy to route web tasks to it by default: building your own beats losing to the
+default only if the default is bad, and this one is good.</p>
+<h2>Business model</h2>
+<p>SaaS priced by credits: Free $0 (1,000 credits/mo), Hobby $16, Standard $83, Growth
+$333, Scale $599, Enterprise custom. The open-source core (AGPL-3.0) is self-hostable,
+but the anti-bot engine, Fire Engine, is closed — open source for traction, closed
+engine for margin.</p>
+<h2>Hard numbers</h2>
+<ul>
+<li>GitHub firecrawl/firecrawl at roughly 100-110K stars (48K in August 2025, doubled
+within a year)</li>
+<li>Funding: $14.5M Series A (2025-08-19, led by Nexus Venture Partners, with YC, Zapier,
+and Shopify CEO Tobias Lütke participating); ~$16.2M total</li>
+<li>350K+ registered developers; ~80K enterprise customers (Shopify, Apple, Canva,
+Zapier, Replit — company-reported)</li>
+<li>SDK downloads ~4.74M/month; company-reported scrape success rate of 96%</li>
+<li>Team of ~15</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The original Mendable team went from &quot;AI reads docs&quot; to &quot;AI reads the web&quot; — the same pain, extended</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nailed the core contradiction — the web is built for humans, not models — and productized the dirty work as a standard API</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Multi-engine racing, Rust hot paths, custom queue. Infrastructure-grade architecture, not a toy</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Past &quot;should we use it?&quot; and into &quot;who is the default?&quot; — and free self-hosted rivals are closing in</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The clearest current example of &quot;agent-era infrastructure replaying early cloud.&quot;</strong>
+Three signals matter for you:</p>
+<p><strong>First, whoever becomes the default takes everything.</strong> Claude Code, Codex, and Cursor
+route web tasks to the Firecrawl MCP by default, so for most developers it is &quot;the
+option you do not choose.&quot; Infrastructure products compete for the default slot, not
+for feature counts — this is the inspiration note in the pool, made concrete.</p>
+<p><strong>Second, the defense structure is worth copying.</strong> AGPL open source blocks cloud
+vendors from packaging it; the anti-bot Fire Engine stays closed (self-hosted builds
+without it are visibly weaker at anti-bot); and the crawl cache flywheel (every scrape
+enriches shared caches, lowering marginal cost) makes the cost curve hard to chase.
+Open source for traction, closed key capability for margin, data flywheel for moat.</p>
+<p><strong>Third, read the company's own benchmarks with a discount.</strong> Official success rate:
+96%. Third-party testing (Proxyway): 33.69%, and clearly weaker than Zyte (93%) in
+enterprise-grade anti-bot scenarios. Self-reported benchmarks in infrastructure tend
+toward optimism — run your own measurements before choosing.</p>
+<p><strong>Risk surface</strong>: Crawl4AI (~60K stars, fully free and self-hosted) is eating
+cost-sensitive users, and AGPL gives some enterprise legal teams pause. The &quot;default
+slot&quot; is far from locked.</p>
+<h2>What to watch next</h2>
+<p>① Whether the keyless MCP endpoint discloses monthly call volume — a measure of how
+deep v2 is actually used
+② A second third-party anti-bot benchmark — the gap between the official 96% and
+Proxyway's 33.69% needs a second measurement
+③ How fast the free self-hosted rival (Crawl4AI) closes the gap — that decides whether
+the default slot holds</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: take a dirty job everyone does badly (web to LLM data), productize
+it as one API plus one MCP server, and stop every agent team from reinventing it —
+infrastructure products aim at the default slot, not at feature counts.</p>
+<p><strong>Defense structure</strong>: AGPL open-source core + closed key engine + shared cache
+flywheel draws a clean line between open-source traction and commercial protection.</p>
+<p><strong>Pricing structure</strong>: credit-tiered, from 1,000 free credits up six steps to custom
+enterprise — the standard usage-based ladder that grows free users into paying ones.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> It is already validated infrastructure, not a bet — but the fight
+for the default slot is far from over, with real anti-bot capability and free rivals
+as the two open variables. For the reader, it is a live textbook on who captures the
+infrastructure rent of the agent era.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +232,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +242,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +252,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,16 +262,16 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/talkie-personalized-ai-chats.html">
+      <a class="pager-item pager-prev" href="../../p/switchy-for-mac.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">Talkie: Personalized AI Chats</span>
+        <span class="pager-n">Switchy for Mac</span>
       </a>
 
       <a class="pager-item pager-next" href="../../p/tines-3b.html">
@@ -189,7 +315,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

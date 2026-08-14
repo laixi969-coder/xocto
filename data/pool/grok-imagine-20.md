@@ -8,12 +8,13 @@ inspiration: 大厂把「局部重绘」做成标配后，只做这一个功能�
 summary_en: ''
 inspiration_en: Once the big labs ship region-level editing as standard, the single-feature tools built
   on it disappear together.
+priority_review: false
 url: https://www.producthunt.com/products/grok
 canonical_url: https://producthunt.com/products/grok
 summary: Next-gen AI image generator with segmentation editing.
 first_seen: '2026-08-08T09:43:19Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

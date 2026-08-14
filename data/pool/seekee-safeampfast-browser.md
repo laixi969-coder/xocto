@@ -8,12 +8,13 @@ inspiration: 浏览器是流量入口里最难攻但收益最大的一块，安�
 summary_en: A browser pitched on safety and speed.
 inspiration_en: The browser is the hardest traffic entry point to take and the most valuable. Safety is
   about the only angle still open.
+priority_review: false
 url: https://www.aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 canonical_url: https://aicpb.com/product/Seekee-SafeFast-Browser/appid1D6F32151
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

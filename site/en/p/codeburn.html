@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>CodeBurn</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">See where your AI coding spend actually goes</p>
@@ -81,15 +82,148 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Figuring out your AI coding spend used to mean two things: provider pages, each with its own number (Claude.ai&#39;s total, Cursor&#39;s total) that never add up, or handing API keys to a cloud aggregator and…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when your users already produce the data nobody is reading, build the &#34;reader of existing data&#34; instead of the &#34;requires instrumentation first&#34; tool — it costs a tenth of the distributi…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A free, local, open-source ledger for AI coding spend: no keys uploaded, it reads the session
+logs your tools already write to disk — Claude Code, Cursor, Codex, Copilot, and ~37-40 more —
+and breaks token and dollar spend down by task, model, project, and PR, then goes one step
+further and tells you whether the money actually shipped code.</p>
+<h2>Who built it</h2>
+<p>Resham (ProductHunt <code>@iamtoruk</code>), an open-source project under the GitHub org AgentSeal.
+His stated motivation: burning ~$1,400 in a week on Claude Code, with no idea where it went,
+so he built it and open-sourced it. The launch thread also shows Aditya V. Singh
+(<code>@adityavsingh</code>, self-described ex-strategy/venture, now in an operating role) answering as a
+co-builder.</p>
+<p><em>Read: writing the accounting tool only after burning real money is the most credible origin
+story in this category. And the bookkeeper's obsession — &quot;mark it unattributed rather than
+smear it somewhere plausible&quot; — is the habit of someone who has actually done financial
+judgment, not a growth hacker.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Spend broken down by dimension</strong> → time / project / model / task / tool, down to each model
+call; pricing from the LiteLLM table with input/output/cache split, and it says &quot;estimate&quot;
+out loud for opaque models</li>
+<li><strong>Attribution down to the PR</strong> → correlates session cost with git commits into four buckets:
+Productive (merged) / Reverted / Abandoned / Ambiguous — answering &quot;did the budget ship a PR&quot;</li>
+<li><strong>Finds waste and fixes it</strong> → Optimize surfaces cache bloat, retry tax, and expensive models
+doing cheap work, applies the fix, tracks the actual savings, with undo</li>
+<li><strong>Model comparison on your own usage</strong> → one-shot rate, retry rate, cost per edit, cache hit
+rate, on your real workloads</li>
+<li><strong>Budget guard</strong> → installed globally or per project; warns at a soft cap (default $5),
+pauses at a hard cap (default $15)</li>
+<li><strong>One source, five surfaces</strong> → CLI, desktop (Mac/Win/Linux), macOS menu bar, self-hosted
+web, GNOME panel extension, all reading the same local data</li>
+<li><strong>Agents check their own spending</strong> → an MCP server so Claude Code and friends can answer
+&quot;how much did I burn this week&quot; in the conversation</li>
+<li><strong>Team sync (preview)</strong> → pushes usage to a remote endpoint; only token counts, cost, model,
+project — no code, no prompts; OIDC login</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no shell-client wrapper, no cloud billing platform, no
+invoice-grade reconciliation. No account and no telemetry by default; data never leaves the
+machine.</p>
+<h2>What old behavior it replaces</h2>
+<p>Figuring out your AI coding spend used to mean two things: provider pages, each with its own
+number (Claude.ai's total, Cursor's total) that never add up, or handing API keys to a cloud
+aggregator and swallowing the privacy/compliance cost.</p>
+<p>CodeBurn takes the third route — <strong>read the session files that already exist on disk</strong>. Every
+AI coding tool writes detailed session logs locally; nobody was reading them. It replaces the
+&quot;open every vendor dashboard and stitch the bills together&quot; ritual, and pre-answers the next
+question too: did any of it become a merge.</p>
+<h2>Business model</h2>
+<p><strong>Free and open source (MIT); no paid product today.</strong> Sponsor links on GitHub; team sync
+marked preview. The founder says plainly on launch: &quot;it's already free, nothing to unlock.&quot;</p>
+<p><em>Read: classic &quot;build the tool, earn trust, monetize later.&quot; The valuable bet is the
+&quot;cost per useful unit of work&quot; framing — whoever makes that metric the standard owns the
+category's pricing power. No evidence yet that they've decided where to charge.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>9.3k stars / 738 forks</strong> (2026-08), MIT, TypeScript-first</li>
+<li>First commit 2026-04-14; current v0.9.20 (2026-08-11) — 0.1 to 0.9 in four months is fast</li>
+<li>Tool coverage: 40 per the README body (37 per the description), including Claude Code,
+Cursor, Codex, Copilot, Devin, Gemini CLI, and others</li>
+<li>Paid users, ARR, funding: none (no paid product)</li>
+<li>A Chinese aggregator claims &quot;150,000+ developers use it&quot;; no first-party source found, treat
+as unverified</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Born from a $1,400-a-week bill and first-hand pain; the conservative attribution habit comes from real financial judgment</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Sees two facts at once — the bill is a black box and session logs sit unread; &quot;attribute to the PR&quot; and &quot;did the spend ship&quot; are angles nobody else took</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>v0.9.20, five surfaces from one local source, 40 tool parsers, an MCP server; high engineering completeness</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right as runaway agent spend becomes a common pain; landing on the same need as Decant confirms the category exists</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>One of the most serious independents in the AI-observability lane, and its direction — from
+&quot;how much&quot; to &quot;what did it produce&quot; — is the industry's correct next step.</strong></p>
+<p>The dashboard is not the asset; the <strong>attribution philosophy</strong> is: numbers that can't be traced
+stay &quot;unattributed&quot; rather than being smeared onto something plausible. Users praised this
+explicitly in the launch thread — for a finance tool, trust is the product. Their own data
+proves the rule: one unbounded directory correlation once attached 129 of 131 sessions to a
+single PR, and that lesson was written into the product's constraints.</p>
+<p><strong>Two things decide whether this moves from &quot;worth watching&quot; to &quot;strong pick.&quot;</strong> First,
+monetization. Free plus sponsors won't sustain chasing format changes across 40 tools; team
+sync and the budget guard are obvious enterprise hooks but nothing is priced yet. Second, the
+&quot;Optimize applies the fix itself&quot; line — sliding from measurement tool toward an auto-optimizing
+agent is either the moat or a fight with the very tools it monitors, and the choice isn't made.</p>
+<p><strong>Competition</strong>: Decant and others sit in the same lane, and vendor-native usage pages keep
+improving. CodeBurn's stack of local-first, key-free, honest attribution is hard to copy quickly.</p>
+<h2>What to watch next</h2>
+<p>① Whether a paid tier or clear pricing appears (team sync / enterprise) — where does the first
+revenue beyond sponsors come from
+② Whether &quot;cost per merged PR&quot; and similar output-side metrics get adopted by peers — adoption
+means they defined the standard
+③ Whether stars clear 15k in three months and coverage keeps pace with new agents — coverage
+is the life-or-death line for this category</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when your users already produce the data nobody is reading, build the
+&quot;reader of existing data&quot; instead of the &quot;requires instrumentation first&quot; tool — it costs a
+tenth of the distribution effort. One <code>npx codeburn</code> reads the entire history; that is the
+first cause of its growth.</p>
+<p><strong>Positioning language</strong>: &quot;The bill shows a total, and that's it.&quot; An exact one-line indictment
+of the status quo opens better than a feature list.</p>
+<p><strong>Pricing structure</strong>: none, not disclosed — but the &quot;free + sponsors + enterprise features in
+preview&quot; staging is worth copying: let the tool grow into the de facto standard, then layer
+the enterprise tier.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Real pain, solid engineering, fast growth (9.3k stars in four months), and
+an attribution philosophy that is unique in the category. What's missing is a business model and
+a decision on the auto-optimize direction; those two determine how big it gets. Note the three
+checks above and revisit in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +240,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +250,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +260,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +270,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +323,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

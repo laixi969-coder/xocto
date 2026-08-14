@@ -8,12 +8,13 @@ inspiration: 把分散在各处的健康数据合成一个分数，简化是这�
 summary_en: ''
 inspiration_en: Collapsing health data scattered across sources into a single number. The simplification
   is the value.
+priority_review: false
 url: https://www.producthunt.com/products/vidaya
 canonical_url: https://producthunt.com/products/vidaya
 summary: Healthspan score from your wearables, labs, and DNA.
 first_seen: '2026-08-06T07:21:22Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

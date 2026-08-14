@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Toolport</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Every tool, one port. One MCP setup for all your AI agents</p>
@@ -81,18 +82,145 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Two things. &#34;Flat tool loading&#34;: every MCP server used to send its full tool list to the model on every request, so the fixed token overhead grew with every server you added. Meta-tool on-demand disco…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: find the fixed cost users burn on every request (tokens, config, time), quantify it into a measurable promise (&#34;save 74-91%&#34;), and publish the measurement method — efficiency tools pers…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Configure every MCP server once, share them across all your AI clients through one
+local gateway — tools load on demand to save tokens, secrets stay in the OS keychain.</p>
+<h2>Who built it</h2>
+<p>Independent developer &quot;Tyler&quot; (GitHub tsouth89, the launch platform @tsouth2), a one-person
+project. First launched 2026-06-23 under the name &quot;Conduit&quot;; the third
+launch in August 2026 hit daily rank #5 with 149 points, version v1.12.0. No funding,
+relying on GitHub Sponsors. Site: toolport.app.</p>
+<p><em>Read: this is the most direct productization of &quot;configuration complexity silently
+kills adoption.&quot; Going from zero to v1.12 in two months, with a reproducible benchmark,
+signed cross-platform installers, and near-daily commits — the execution puts it at
+the top of its size class.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Local MCP gateway</strong>: configure each server once; Claude Desktop, Cursor, VS Code,
+Windsurf, Codex, and 29+ other clients share it</li>
+<li><strong>Lazy tool discovery</strong>: instead of dumping every tool schema into context (three
+servers ≈ 24K tokens of fixed overhead per request), it exposes four searchable
+meta-tools and pulls definitions on demand; claims 74-91% token reduction at equal
+task success, with a public reproducible benchmark</li>
+<li><strong>Secret management</strong>: API keys live in the OS keychain and are injected at runtime,
+never in config files</li>
+<li><strong>Integrity checking</strong>: fingerprints each tool definition with a hash; if a server
+silently changes a tool, Toolport flags it as a potential rug pull / tool poisoning</li>
+<li><strong>Governance</strong>: per-agent scoping and toggles, human approval for destructive calls,
+audit logging, latency monitoring</li>
+<li><strong>Cross-platform</strong>: Tauri/React desktop app with a Rust gateway binary, plus a
+headless Docker gateway</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Two things. <strong>&quot;Flat tool loading&quot;</strong>: every MCP server used to send its full tool list
+to the model on every request, so the fixed token overhead grew with every server you
+added. Meta-tool on-demand discovery replaces the once-per-request full dump.</p>
+<p><strong>&quot;Configure every client separately&quot;</strong>: the same MCP config plus plaintext API keys
+used to be pasted into each AI client individually; changing one server meant syncing N
+files and always missing one. Toolport replaces multi-client config drift — set up
+once, available everywhere.</p>
+<h2>Business model</h2>
+<p>Open-source core (MIT, local app free) plus a Toolport for Teams subscription: free up
+to 5 people, then $39/month (for up to 5) plus $12/person/month, identical hosted or
+self-hosted, ~$390/year annual. Paying customers: none disclosed (third-party research
+found zero).</p>
+<p><em>Read: free for individuals to build reputation, team subscription selling governance
+(shared config, per-member local keys) — the smallest viable business loop for a solo
+builder. But a $39/month team tier competing against free MCP gateways from Microsoft,
+Docker, IBM, and Kong is a thin lane.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>the launch platform August 2026 launch: daily rank #5, 149 points (third launch; first was
+2026-06-23 as Conduit)</li>
+<li>Version v1.12.0, near-daily commits, public reproducible token benchmark (claims
+74-91% reduction)</li>
+<li>29+ MCP clients supported (35 integrations per the vendor)</li>
+<li>Pricing $39/month (up to 5) + $12/person/month</li>
+<li>Paying customers, funding, team size (appears to be 1): not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The founder's real identity is barely verifiable (just &quot;Tyler&quot;); the product has to prove the pain itself</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Turned a quantifiable waste — tool definitions eating context — into a headline feature backed by a reproducible measurement</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Cross-platform installers, Rust gateway, keychain secrets, integrity fingerprints, near-daily commits. Solid</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>The core capability is being absorbed natively by clients (Claude Code already lazy-loads MCP schemas) — the window may be one or two release cycles</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Among this batch, the strongest technical execution and the weakest business
+proposition.</strong> Three things worth keeping:</p>
+<p><strong>First, turn quantifiable waste into a headline.</strong> &quot;Every request wastes 24K tokens
+on tool definitions&quot; is a number every developer gets instantly, and it ships with a
+public reproducible benchmark. Infrastructure tools persuade through measurement, not
+slogans. Anyone building efficiency tooling should copy this.</p>
+<p><strong>Second, the security design is a reference implementation for MCP gateways.</strong>
+Fingerprinting tool definitions (alert when a server changes a tool, guarding against
+poisoning), human approval for destructive calls, secrets only in the keychain — this
+whole set of defenses is portable to any product where agents call external tools.</p>
+<p><strong>Third, the structural risk is the fatal one.</strong> Lazy loading is being absorbed
+natively by the clients — Claude Code already defers MCP schemas — and once every
+client supports on-demand loading, the meta-tool differentiator is zero. Meanwhile
+Microsoft, Docker, IBM, and Kong all ship free MCP gateways, so a solo developer is
+asking for $39/month next to platform freebies. Its real value is closer to &quot;the
+pioneer's best practices&quot;: it assembled everything an MCP gateway should have in one
+place. Treat it as a reference implementation to copy, not an investment.</p>
+<h2>What to watch next</h2>
+<p>① Whether paying Teams customers appear (zero disclosed so far) — the only revenue
+path
+② Whether native MCP lazy loading ships across the three big clients (Claude Code /
+Codex / Cursor) — when it does, this is over
+③ GitHub stars and forks three months out — a measure of adoption as a reference
+implementation</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: find the fixed cost users burn on every request (tokens, config,
+time), quantify it into a measurable promise (&quot;save 74-91%&quot;), and publish the
+measurement method — efficiency tools persuade with reproducible data.</p>
+<p><strong>Security design</strong>: tool-definition hash fingerprints, human approval for destructive
+calls, secrets that only ever live in the keychain — a portable defense set for any
+&quot;agent calls external tools&quot; product.</p>
+<p><strong>Pricing structure</strong>: free open source for reputation, team subscription for
+governance (shared config, per-member local keys) — the smallest viable business loop
+for a solo builder, even if the future is doubtful.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, but hard to bet on.</strong> The technology deserves copying; the business
+model invites doubt — when platforms build the free version into their clients, an
+independent gateway's window may be one or two release cycles. Check back in three
+months against paying customers and client-side native loading.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +231,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +262,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +320,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

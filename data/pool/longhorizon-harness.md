@@ -17,7 +17,7 @@ summary: The long-horizon computer-use harness. Run AI agents across desktop app
   / Codex / OpenClaw integration.
 first_seen: '2026-08-04T04:30:58Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

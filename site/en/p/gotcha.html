@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Gotcha</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">World&#39;s First AI Copilot for Android. You talk. It acts.</p>
@@ -81,25 +82,99 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>&#34;Say it and it&#39;s done&#34; on a phone used to have only a few implementations: Google Assistant/Siri&#39;s limited action set (system-level basics, no deep cross-app links), &#34;voice command&#34; apps (preset trigg…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when building high-risk automation, make the safety mode a product feature (read-only/action tiers + audit log) rather than a buried setting. Let users try in read-only confidence befor…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An open-source &quot;copilot&quot; for Android: you say a sentence and it acts on your phone — sending texts, opening apps, changing volume, running Termux scripts — instead of just replying with text.</p>
+<h2>Who built it</h2>
+<p>Rishabh Bajpai and one co-founder. Their launch-post trigger: almost every mobile AI assistant is &quot;a glorified text box wrapped in a fancy UI. You ask it a question, it types back a response, and then you still have to manually open your calendar, copy text, and act yourself.&quot; They wanted a locally executed agent that actually does things. License: AGPL-3.0.</p>
+<p><em>Read: a direct response to the &quot;mobile AI only chats&quot; pain, differentiated by local execution and open source rather than head-on competition with cloud assistants.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Natural-language phone control</strong> → 100+ device tools: calls, SMS, contacts, calendar, alarms, files, apps, location, camera, notifications, screen automation, device admin, root operations</li>
+<li><strong>Autonomous loop</strong> → plan → execute → observe → adapt, reading screen and terminal output for context</li>
+<li><strong>UI automation</strong> → drives Android Accessibility Services to tap, fill forms, and scroll like a human; also runs bash/Python/git/curl inside Termux</li>
+<li><strong>Dual safety modes</strong> → Monitor (read-only inspection and planning) and Operator (action-capable). Destructive actions and outgoing email require confirmation; dangerous shell commands are blocked; actions land in an append-only audit log</li>
+<li><strong>Cross-app floating ball</strong> → floats over any app, push-to-talk with current screen context</li>
+<li><strong>Bring-your-own model</strong> → local LLMs (Ollama, LM Studio, llama.cpp with Qwen 2.5) or cloud (Gemini, Groq, OpenAI); free starter credits come from the Samosa AIR proxy</li>
+<li><strong>Ecosystem integrations</strong> → Home Assistant, Notion, contacts, SMS, health data</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>&quot;Say it and it's done&quot; on a phone used to have only a few implementations: Google Assistant/Siri's limited action set (system-level basics, no deep cross-app links), &quot;voice command&quot; apps (preset triggers only), or manual labor — unlock, open the app, tap a few times, paste text.</p>
+<p>Gotcha wants to replace that whole middle stretch by putting an agent inside the phone that can see the screen, tap the UI, run scripts, and cross app boundaries. Comparable options are Rabbit R1-style hardware (expensive, another device) and cloud phone agents (your data leaves the device). Gotcha's selling point is <strong>local execution, data never leaves the phone</strong>.</p>
+<h2>Business model</h2>
+<p><strong>Free and open source (AGPL-3.0), APK sideloaded from GitHub Releases.</strong> Models are bring-your-own: the user connects their own LLM and pays any provider cost; Samosa AIR offers free starter credits, giving that proxy router a funnel.</p>
+<p><em>Read: no direct revenue short-term. The paths forward are a hosted/Pro layer or converting Samosa AIR into a model reseller. Free credits to funnel users into your own API is the standard play right now.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>launch (2026-08-11): <strong>95 upvotes, 3 comments, #15 of the day</strong></li>
+<li>GitHub (samosa-ai-com/Gotcha): 9 stars, newly created</li>
+<li>100+ device tools, wake word in 9 languages</li>
+<li>Requires Android 11+, sideloaded APK</li>
+<li>Users, DAU: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. They are exactly the people frustrated by &quot;mobile AI only chats&quot;</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Making safety tiers (Monitor/Operator + audit log) a first-class feature is rare in an early product</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Early APK; the authors explicitly ask testers to report OEM compatibility differences. Needs time to prove out</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Phone agents are widely accepted as the next wave, but competitors (built-in assistants, cloud agents) are bigger</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The bet is whether &quot;local execution&quot; differentiation holds.</strong> Cloud agents hit permission and privacy walls; built-in assistants are limited and don't cross apps. Gotcha's open source + local + bring-your-own-model position targets privacy-sensitive technical users. The position is real; the problem is scale.</p>
+<p><strong>The bigger variable is OEM fragmentation.</strong> Accessibility behavior, background limits, and permission screens differ across ROMs — the authors themselves list Pixel/Samsung/Xiaomi differences as the feedback they most want. The failure mode for this category is not a weak model; it is &quot;doesn't work on someone else's phone.&quot;</p>
+<p><strong>Collision risks</strong>: several products already use the name Gotcha, and big vendors will move into the phone-copilot lane soon. It has to buy time with engineering speed and community trust.</p>
+<h2>What to watch next</h2>
+<p>① Whether GitHub stars pass 100 in three months — the honest heat signal for an open-source tool
+② Whether users share real &quot;complex cross-app task executed successfully&quot; cases, not just demo videos
+③ Whether Samosa AIR's free-credit strategy converts into a real paid tier — that determines if it's a business</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when building high-risk automation, make the safety mode a product feature (read-only/action tiers + audit log) rather than a buried setting. Let users try in read-only confidence before granting power; that beats any permission-popup copy.</p>
+<p><strong>Positioning language</strong>: &quot;You talk. It acts.&quot; — four words that draw the line between a chat AI and an action AI. The single most copyable sentence in this product.</p>
+<p><strong>Distribution</strong>: open source + sideload + bring-your-own-model pushes both distribution cost and cloud cost onto the ecosystem, in exchange for a &quot;completely free&quot; talking point. Worth copying for any trust-heavy infrastructure tool.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, but very early.</strong> Direction is right, the safety design is serious, and the launch heat is real (PH #15 of the day), but the code just shipped, adoption is negligible, and OEM compatibility is unknown. Note it and check the three points above in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +194,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +204,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +214,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +267,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

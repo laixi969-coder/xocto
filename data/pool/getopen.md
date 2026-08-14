@@ -8,12 +8,13 @@ inspiration: 开源替代商业分析工具，可借鉴其隐私友好和自托�
 summary_en: Modern open-source alternative to Plausible for website analytics.
 inspiration_en: Open-source alternative to commercial analytics, leveraging privacy-friendly and self-hosted
   positioning.
+priority_review: false
 url: https://getopen.so
 canonical_url: https://getopen.so
 summary: Modern Alternative to Plausible
 first_seen: '2026-08-13T14:00:09Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

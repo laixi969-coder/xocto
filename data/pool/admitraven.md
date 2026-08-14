@@ -8,12 +8,13 @@ inspiration: 把痛苦流程游戏化，适用于所有「一辈子做一两次�
 summary_en: ''
 inspiration_en: Gamifying a painful process works for anything people do once or twice in a lifetime and
   dread the whole way through.
+priority_review: false
 url: https://www.producthunt.com/products/admitraven
 canonical_url: https://producthunt.com/products/admitraven
 summary: Duolingo for college applications
 first_seen: '2026-08-10T11:45:02Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

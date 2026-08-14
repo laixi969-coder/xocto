@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>The new Firecrawl MCP</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">给任意 MCP 客户端提供网页内容抓取</p>
@@ -82,15 +83,120 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前让 AI 读网页，要么自己写爬虫（BeautifulSoup/Scrapy 不执行 JS， Puppeteer/Playwright 要养一套浏览器自动化），要么把整页 HTML 塞给模型浪费 token。 更糟的是每个 MCP 客户端都要手写一遍胶水代码。Firecrawl MCP 把 &#34;找→抓→清→用&#34;整条链路做成标准工具，一个配置接入所有客户端。 它替代的是&#34;每个 agent 团队各自维…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：把&#34;网页→LLM 数据&#34;这个所有人都在做但都做得差的脏活， 做成一个 API + 一套 MCP 工具，让 agent 团队不再各自造轮子—— 基础设施型产品盯&#34;默认位置&#34;而不是功能数量。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>Firecrawl 官方的新版 MCP Server：把&quot;搜索、抓取、解析、爬站、交互、自主研究&quot;
+整套网页能力变成任何 MCP 客户端都能直接调用的工具集，Claude Code、Codex、
+Cursor 已经把网页任务默认路由给它。</p>
+<h2>做这个东西的人</h2>
+<p>Firecrawl 官方（原名 Mendable，YC S22），三位联合创始人
+Nicolas Silberstein Camara、Caleb Peffer、Eric Ciarla（pool 里 builder 写的是
+Eric Ciarla）。Mendable 做 AI 文档问答起家，转型做&quot;网页→AI 数据&quot;的基础设施。</p>
+<p><em>判断：这是 agent 时代数据层目前最接近&quot;默认选项&quot;的位置。一个做文档问答的小公司
+转型成&quot;网页数据 API&quot;，两年做到 35 万注册开发者，本质是吃到了所有 agent
+团队都绕不开的一个需求：让模型读到干净的实时网页。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>firecrawl_search</strong>：实时搜索并返回整页内容（不是链接列表），支持时间过滤</li>
+<li><strong>firecrawl_scrape</strong>：任意 URL 转干净 Markdown 或结构化 JSON，能处理 JS 重页面</li>
+<li><strong>firecrawl_parse</strong>：PDF、DOCX 等文档转文本</li>
+<li><strong>firecrawl_crawl / map</strong>：异步全站爬取 / 站点结构发现</li>
+<li><strong>firecrawl_interact</strong>：在页面上点击、填表、登录、导航后再抓取</li>
+<li><strong>firecrawl_agent</strong>：自主研究 agent，自己规划浏览策略、多源收集、输出结构化结果</li>
+<li><strong>三种接入</strong>：免密钥（限 IP 试玩）、OAuth（互动客户端）、API key（无人值守）</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前让 AI 读网页，要么自己写爬虫（BeautifulSoup/Scrapy 不执行 JS，
+Puppeteer/Playwright 要养一套浏览器自动化），要么把整页 HTML 塞给模型浪费 token。
+更糟的是每个 MCP 客户端都要手写一遍胶水代码。Firecrawl MCP 把
+&quot;找→抓→清→用&quot;整条链路做成标准工具，一个配置接入所有客户端。
+它替代的是&quot;每个 agent 团队各自维护一套抓取基础设施&quot;这件事——
+这也是为什么客户端厂商愿意默认路由给它：自己造不如用默认的。</p>
+<h2>商业模式</h2>
+<p>SaaS 按信用点计费：Free $0（1000 credits/月）、Hobby $16、Standard $83、
+Growth $333、Scale $599、Enterprise 定制。开源核心（AGPL-3.0）可自托管，
+但反爬引擎 Fire Engine 闭源——开源引流、关键引擎闭源保护商业利益。</p>
+<h2>硬数字</h2>
+<ul>
+<li>GitHub firecrawl/firecrawl 约 10-11 万 stars（2025-08 时 48K，一年内翻倍）</li>
+<li>融资：$14.5M Series A（2025-08-19，Nexus VP 领投，YC/Zapier/Shopify CEO
+Tobias Lütke 参投），累计约 $16.2M</li>
+<li>35 万+ 注册开发者；8 万企业客户（Shopify/Apple/Canva/Zapier/Replit，公司口径）</li>
+<li>SDK 月下载约 474 万；官方自测抓取成功率 96%</li>
+<li>团队约 15 人</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>创始团队是原 Mendable 文档问答团队，从&quot;AI 读文档&quot;到&quot;AI 读网页&quot;是同一批痛点的延伸</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;网页是给人看的、不是给模型看的&quot;这个核心矛盾，把脏活做成标准 API</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>多引擎并发竞速 + Rust 热路径 + 自研队列，架构上是基础设施级，不是玩具</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>已过了&quot;要不要用&quot;的阶段，到了&quot;谁是默认&quot;的阶段；竞争（Crawl4AI 等免费自托管）在加剧</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;agent 时代的基础设施在重演云计算早期&quot;最典型的样本。</strong> 三个信号对读者有用：</p>
+<p><strong>一，谁成为默认谁通吃。</strong> Claude Code、Codex、Cursor 都把网页任务默认路由给
+Firecrawl MCP，这意味着对绝大多数开发者，它是&quot;不用选的选项&quot;。基础设施产品
+盯的是默认位置，不是功能数量——这就是 pool 里那句 inspiration 的落点。</p>
+<p><strong>二，防御结构值得抄。</strong> AGPL 开源核心挡住云厂商直接封装，反爬引擎 Fire Engine
+闭源（自托管版本没有它，反爬能力明显下降），抓取缓存飞轮（每次 scrape 丰富
+共享缓存、降低边际成本）让后来者追不上成本曲线。开源引流 + 关键能力闭源 +
+数据飞轮，是这类产品的标准姿势。</p>
+<p><strong>三，官方数据要打折看。</strong> 官方自测抓取成功率 96%，第三方测试（Proxyway）
+测出 33.69%，企业级反爬场景明显弱于 Zyte（93%）。&quot;自测数据&quot;在基础设施领域
+普遍偏乐观，做选型的人要拿第三方基准说话。</p>
+<p><strong>风险面</strong>：Crawl4AI（约 6 万 stars、完全免费自托管）在蚕食成本敏感用户；
+AGPL 许可让部分企业法务皱眉。它的&quot;默认位置&quot;远没锁定。</p>
+<h2>下一步看什么</h2>
+<p>① MCP 免密钥入口是否披露月度调用量——衡量 v2 实际被使用的深度
+② 反爬能力的第三方复测——官方 96% 与 Proxyway 33.69% 的差距需要第二次测量
+③ 免费自托管竞品（Crawl4AI）的追赶速度——决定它守不守得住&quot;默认选项&quot;</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：把&quot;网页→LLM 数据&quot;这个所有人都在做但都做得差的脏活，
+做成一个 API + 一套 MCP 工具，让 agent 团队不再各自造轮子——
+基础设施型产品盯&quot;默认位置&quot;而不是功能数量。</p>
+<p><strong>防御结构</strong>：AGPL 开源核心 + 闭源关键引擎 + 共享缓存飞轮，在
+&quot;开源引流&quot;和&quot;商业保护&quot;之间划一条清晰的线。</p>
+<p><strong>定价结构</strong>：按信用点分层，免费 1000 credits 起步，六级阶梯到企业定制——
+标准的使用量定价，让免费用户自然长成付费用户。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 它已是被验证的基础设施，不再是赌注——但&quot;默认位置&quot;的争夺
+远未结束，反爬真实力与免费竞品是两个变量。对读者，这是理解&quot;agent 时代
+谁吃基础设施红利&quot;的活教材。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +213,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +223,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +233,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,16 +243,16 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/talkie-personalized-ai-chats.html">
+      <a class="pager-item pager-prev" href="../p/switchy-for-mac.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Talkie: Personalized AI Chats</span>
+        <span class="pager-n">Switchy for Mac</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/tines-3b.html">
@@ -190,7 +296,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

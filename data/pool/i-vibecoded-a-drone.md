@@ -8,12 +8,13 @@ inspiration: AI 编程正在往硬件外溢，软件人做硬件的门槛在塌�
 summary_en: ''
 inspiration_en: AI coding is spilling into hardware. The barrier for software people building physical
   things is collapsing, and it will produce a wave of strange products.
+priority_review: false
 url: https://lukeiseman.substack.com/p/i-vibecoded-a-drone
 canonical_url: https://lukeiseman.substack.com/p/i-vibecoded-a-drone
 summary: I vibecoded a heavy lift drone
 first_seen: '2026-08-11T04:27:40Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

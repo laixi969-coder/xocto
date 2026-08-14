@@ -8,12 +8,13 @@ inspiration: 自主工作可审查性是AI agent落地的关键，可迁移到�
 summary_en: Whitepaper on making autonomous work reviewable.
 inspiration_en: Reviewability of autonomous work is key for AI agent adoption, applicable to compliance
   and trust design.
+priority_review: false
 url: https://markupbase.com/whitepapers/making-autonomous-work-reviewable/
 canonical_url: https://markupbase.com/whitepapers/making-autonomous-work-reviewable
 summary: Making Autonomous Work Reviewable
 first_seen: '2026-08-13T22:39:02Z'
 last_seen: '2026-08-14T04:47:01Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

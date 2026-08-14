@@ -7,12 +7,13 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://www.producthunt.com/products/mem-2-0
 canonical_url: https://producthunt.com/products/mem-2-0
 summary: The AI that refuses to let you drop the ball
 first_seen: '2026-08-11T18:55:10Z'
 last_seen: '2026-08-13T11:28:29Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

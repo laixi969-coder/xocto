@@ -8,12 +8,13 @@ inspiration: 钱包卡券是被低估的触达渠道——它常驻在手机里�
 summary_en: ''
 inspiration_en: 'Wallet passes are an underrated channel: they live on the phone permanently, need no
   app install, and never get deleted.'
+priority_review: false
 url: https://github.com/getpassmint/passmint
 canonical_url: https://github.com/getpassmint/passmint
 summary: Issue Apple and Google wallet passes from Node.js
 first_seen: '2026-08-10T09:16:50Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

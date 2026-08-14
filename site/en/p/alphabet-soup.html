@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Alphabet Soup</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">a multiplayer game, build the longest word to win</p>
@@ -82,22 +83,148 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>&#34;Wanting to play a word game&#34; and &#34;wanting to play something with friends&#34; used to map to two old habits:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for a light multiplayer game, the rules must make rounds short, outcomes unambiguous and spectating friendly — Alphabet Soup replaces &#34;most words&#34; with &#34;longest word,&#34; turning the game …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A web-based multiplayer word game: seven random letters, and you compete with
+people online to spell the longest word. Unlike NYT Spelling Bee, it does not
+count how many words you find — only your single best (longest) one scores.</p>
+<h2>Who built it</h2>
+<p>johnchinjew (John Chin-Jew), an independent developer, personal project. His Show
+HN post describes it plainly: a simple multiplayer word game where friends play
+private matches, or you join a public Arena against whoever is online, matched
+with a bot when nobody is around.</p>
+<p><em>Read: a textbook personal side project — the author is his own first user, and
+the motivation is &quot;play word games with friends,&quot; not &quot;I found a market.&quot; These
+projects usually do not live long, but the spread mechanism (call a friend) is
+worth studying separately.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Longest word wins</strong> → seven random letters, spell the longest valid word;
+scoring is by length, and only your best submission counts</li>
+<li><strong>Private matches plus Arena</strong> → play with friends in a private match, or join
+a public Arena against online players; a bot fills in when nobody is around</li>
+<li><strong>Not turn-based</strong> → works with 2 or more players, suited to bigger groups</li>
+<li><strong>Panagrams not required</strong> → explicitly allows words that do not use every
+letter (the author's official reply: panagrams are too hard to demand)</li>
+</ul>
+<p><strong>What it deliberately is not</strong>: no AI, no ad-monetization, no complex systems.</p>
+<h2>What old behavior it replaces</h2>
+<p>&quot;Wanting to play a word game&quot; and &quot;wanting to play something with friends&quot; used
+to map to two old habits:</p>
+<p><strong>Playing NYT Spelling Bee alone</strong> — single-player, one puzzle a day, score by
+how many words you find. A quiet solo ritual with no social layer, no opponent,
+and nobody to compare against afterward.</p>
+<p><strong>Wanting to play with people but failing to assemble them</strong> — play with friends
+meant meeting offline (scheduling people and time) or opening a game that is
+turn-based (waiting, taking turns), and the interest died before the group
+assembled.</p>
+<p>Alphabet Soup replaces &quot;getting a round going with friends&quot; as an action: open
+the page and you are in; not turn-based means jump in anytime; the longest-word
+rule gives every round a clear winner; bots cover empty arenas. It turns a solo
+word puzzle into an &quot;invite a friend&quot; entry point — which is exactly the core
+action behind how light multiplayer games spread.</p>
+<h2>Business model</h2>
+<p><strong>None — Buy Me a Coffee tips.</strong> No subscription, no ads, no in-app purchases.</p>
+<p><em>Read: the normal shape of a hobby project; the author clearly is not trying to
+make a business of it. Its value is not revenue but validating the &quot;multiplayer +
+short round + clear winner&quot; spread formula.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>HN: 35 points / 35 comments (this batch's observation)</li>
+<li>The comment section shows real play evidence: someone was pleased to beat a
+player named &quot;hitler1488&quot; (and asked for name filtering), someone reported a
+bug (&quot;word already used&quot; false positive, promised fixed the same day), people
+requested a &quot;gg&quot; button and chat, and one proposed a Countdown variant</li>
+<li>It suffered a Railway outage at launch, with the author live-reporting the fix
+on HN (&quot;seeing full recovery now, Aug 9 10 PM PST&quot;)</li>
+<li>Users, DAU, retention: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The author plays it himself and answers every bug and feature request</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Longest word vs most words&quot; turns a word game from a marathon into a sprint, a natural fit for short multiplayer rounds</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>A Railway outage and one false-positive bug, both fixed the same day; MVP-level and acceptable</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>No special window, a pure casual-game lane; first users came from the HN launch</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It validates the &quot;multiplayer + short round + clear winner&quot; spread formula, and
+little else.</strong> The HN comment section is the best evidence: most of the 35
+comments are real post-play feedback — someone was happy to have beaten a player,
+someone reported a bug, someone asked for features. That means the game actually
+gets played and produces emotion, which most small-game launches never achieve.</p>
+<p><strong>The &quot;longest word&quot; rule change is smart.</strong> Word games traditionally score by
+volume (Spelling Bee); changing it to longest makes a round short, the outcome
+unambiguous, and the game spectator-friendly — anyone can see who won at a glance.
+That is exactly the trait an &quot;invite a friend&quot; product needs.</p>
+<p><strong>But do not overrate it.</strong> Solo development, no business model, and casual games
+are naturally short-lived; this will most likely fade as a side project. It
+deserves attention not because Alphabet Soup will succeed, but because it is a
+clean sample of what light multiplayer games actually spread on — the act of
+inviting a friend, not how good the game is.</p>
+<h2>What to watch next</h2>
+<p>① Is the site still alive in a month, and can it still match real players — the
+cruelest retention metric for a casual game
+② Do the requested features (Countdown variant, chat / gg button) ship — whether
+the author is still iterating
+③ Whether a &quot;same rules, different shell&quot; clone appears — being copied is a
+signal the formula works</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for a light multiplayer game, the rules must make rounds short,
+outcomes unambiguous and spectating friendly — Alphabet Soup replaces &quot;most words&quot;
+with &quot;longest word,&quot; turning the game from solo practice into watchable duels.
+The core design goal for multiplayer products is not depth; it is &quot;always able to
+pull someone in.&quot;</p>
+<p><strong>Positioning language</strong>: none. It spreads on the gameplay itself; there is no
+copy to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed; fully free.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Not because it will succeed, but because it is a clean sample
+of &quot;multiplayer games spread by inviting a friend&quot; — 35 HN comments full of real
+play traces is itself a scarce signal. Its success or failure does not matter;
+what matters is remembering the formula: light multiplayer games spread on the
+act of inviting a friend, not on how good the game is.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -107,7 +234,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +264,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +317,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

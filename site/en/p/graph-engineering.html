@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>graph-engineering</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Graph engineering for AI agents: the 9-stage knowledge-graph pipeline (translated from SEU&#39;s graduate course) + task-graph orchestration patterns, as a Claude skill with teaching mode and paste-ready workflows</p>
@@ -81,18 +82,90 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>An engineer who wanted to learn knowledge graphs used to: hunt for books and courses (a Chinese-language graduate course is unfriendly to English-speaking devs), read the papers themselves (the DeepMi…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you hold a high-barrier, high-value body of knowledge (course, paper, internal methodology), &#34;distill into an agent skill + teaching mode + paste-ready prompts&#34; packages three delive…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A graduate knowledge-graph course from Southeast University, distilled into an agent skill: it teaches Claude-class coding agents the 9-stage knowledge-graph pipeline and task-graph orchestration rules.</p>
+<h2>Who built it</h2>
+<p>GitHub author codejunkie99 (X: @Av1dlive), a creator who keeps producing &quot;distill a course/methodology into a Claude skill&quot; repositories, alongside agentic-stack and prompt-skills.</p>
+<p><em>Read: this person isn't building products; he's a methodology translator — his actual product form is &quot;good content in a format agents can use directly.&quot; That identity itself is worth noting.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>9-stage knowledge-graph pipeline</strong> → scope → representation → ontology → entities → relations → events → quality gate → fusion → serve to LLMs, each stage with its own reference doc</li>
+<li><strong>Task-graph orchestration rules</strong> → delete fake edges, the diamond (split → parallel → separate verifier → owned merge), the stop rule (DeepMind × MIT: teams win ~80% on splittable work, every configuration loses on sequential work), the human gate where mistakes are expensive to undo</li>
+<li><strong>Teaching mode</strong> → the agent walks you through the whole pipeline stage by stage, using your own project as the running example, with generated diagrams</li>
+<li><strong>Paste-ready workflows</strong> → nine /kg-* prompts (/kg-scope through /kg-rag) that chain into a full build</li>
+<li><strong>Two-command install</strong> → clone, copy into ~/.claude/skills/, then tell the agent &quot;build a knowledge graph from my docs&quot; or &quot;teach me graph engineering&quot;</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>An engineer who wanted to learn knowledge graphs used to: hunt for books and courses (a Chinese-language graduate course is unfriendly to English-speaking devs), read the papers themselves (the DeepMind/MIT scaling paper has 180-configuration experiments), then spend days transferring the methodology onto their own agent.</p>
+<p>Now: two git clone commands, and the agent carries the methodology while teaching it to you. <strong>What gets replaced is not a tool but the manual translation work of turning a course and papers into usable skills.</strong></p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> MIT-licensed, no charge. The author's business model is personal brand — quality free repositories accumulate audience, which then feeds consulting, paid content, and other projects.</p>
+<p><em>Read: these repos don't make money directly; they are lead-gen assets for the author. For the reader, the value is that someone distilled academic output into a form agents can execute.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>397 stars / 57 forks</strong> (2026-08-14, GitHub API); pool recorded 376</li>
+<li>Repo created 2026-07-23, a single commit (one commit, complete package)</li>
+<li>Upstream course npubird/KnowledgeGraphCourse: 4.4K stars, Southeast University, taught in Chinese since 2019</li>
+<li>An X post pushed it viral; the &quot;4,400 stars&quot; claim in that post conflates the upstream course repo with this one (this repo is under 400)</li>
+<li>Team, users: single maintainer, no commercial user data</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The author repeatedly does the same move (method → skill) and is fluent at it</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Right target: knowledge graphs are resurging not because of the tech but because agents need structured memory</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Single commit, no tests, no issue management — content packaging, not software engineering</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Knowledge graphs + agent memory/orchestration is a defining 2026 theme; timing is excellent</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The value is not in the code; it's in the topic selection and the translation.</strong> The SEU course has been taught for seven years with solid content; the DeepMind/MIT experimental conclusions are public. The author's contribution is turning both into a directly executable format with a teaching mode — this &quot;turn high-barrier content into low-friction skills&quot; packaging ability matters more than the code in this repo.</p>
+<p><strong>It's not software; it's a content product.</strong> Single commit, no tests, no maintenance rhythm means you won't depend on it; you'll use it as a textbook. Judge it not by stars but by whether running its /kg-* workflows actually produces a usable knowledge graph.</p>
+<p><strong>A transferable judgment</strong>: knowledge graphs are having a second moment, this time as &quot;the agent's world model.&quot; But most teams don't need to build one. What's genuinely valuable is the judgment of <em>when a graph is worth it and when a vector store is enough</em> — and this course happens to teach that part most clearly.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars pass 1,000 in three months (big X accounts have shared it; see if the heat settles)
+② Whether a production-grade knowledge graph built with it appears, beyond teaching demos
+③ Whether the author folds it into the larger agentic-stack system or treats it as a one-off content drop</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you hold a high-barrier, high-value body of knowledge (course, paper, internal methodology), &quot;distill into an agent skill + teaching mode + paste-ready prompts&quot; packages three delivery forms into one artifact — far better ROI than writing another book or course.</p>
+<p><strong>Positioning language</strong>: &quot;prompt engineers steer words; graph engineers steer topology&quot; — setting the new &quot;graph engineering&quot; against the old &quot;prompt engineering&quot; draws the cognitive line in one sentence.</p>
+<p><strong>Content distribution</strong>: a single-commit repo plus one viral X post outperforms ten tutorial articles. The repo can be rough; the &quot;working action out of the box&quot; and &quot;one shareable sentence&quot; cannot be skipped.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> A representative sample of the new content category &quot;knowledge distilled into agent skills,&quot; with on-topic selection and real heat. But it's a textbook, not a product — don't hold it to software standards. Put the three checks above in your calendar.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +176,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +207,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +265,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

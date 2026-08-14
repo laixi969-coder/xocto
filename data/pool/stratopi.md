@@ -8,12 +8,13 @@ inspiration: 硬核个人项目的价值不在实用，在于它证明了「一�
 summary_en: ''
 inspiration_en: The value of a hardcore personal project isn't utility. It's proof that one person can
   do it at all.
+priority_review: false
 url: https://github.com/stratopi-org/stratopi
 canonical_url: https://github.com/stratopi-org/stratopi
 summary: Weather balloon to the stratosphere with a Raspberry Pi computer
 first_seen: '2026-08-10T02:45:24Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

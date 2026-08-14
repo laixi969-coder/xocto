@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>agent-skills-collection</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Curated collection of modular agent skills for LLM-based agents.</p>
@@ -81,15 +82,125 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>It cannot be determined what old behavior it replaces, because there is no evidence it actually runs. What is certain is the inverse: a legitimate open-source Python skill library delivers via git clo…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>What is transferable lives in the negative of this repo: if you ship an open-source tool, the install path must be auditable — git clone or a package manager, visible source, no demand to disable anti…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A GitHub repo that presents itself as a &quot;curated collection of modular agent skills,&quot; but whose
+installation path is: download a password-protected archive, temporarily disable Windows Defender,
+and run an .exe installer as Administrator. Those two facts appearing together are the most
+important information in this entire review.</p>
+<h2>Who built it</h2>
+<p>The author's GitHub handle is <code>oliverb-io1902e8</code> — a random-suffix name consistent with a
+disposable account. The repo was created 2026-08-06, has 14 commits, and an MIT license. The README
+claims 8 skills: Web Research, Data Analysis, API Integration, Memory Manager, File Operations,
+Email Automation, Social Media, and Database Query.</p>
+<p><em>Read: the author's identity cannot be verified. The README's installation instructions contradict
+its claimed identity as an open-source Python library, and the contradiction itself is the signal.</em></p>
+<h2>What it actually does</h2>
+<p>What the README claims it can do:</p>
+<ul>
+<li>8 skill modules covering web research, data analysis, API access, memory management, file
+operations, email, social media, and databases</li>
+<li>A Python interface example (<code>from agent_skills import WebResearch</code>), claiming compatibility with
+Claude Code, Cursor, and other CLI agents</li>
+<li>5 skills marked Stable, 3 marked Beta</li>
+</ul>
+<p>What it actually asks you to do:</p>
+<ul>
+<li>Download an archive from Releases and extract it with the password <code>cv4PE+pSgUjd</code></li>
+<li>Temporarily disable Windows Defender (self-described as a &quot;false positive — the installer
+registers system components&quot;)</li>
+<li>Run <code>AgentSkillInstaller.exe</code> as Administrator</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p><strong>It cannot be determined what old behavior it replaces, because there is no evidence it actually
+runs.</strong> What is certain is the inverse: a legitimate open-source Python skill library delivers via
+git clone or pip install — source readable and auditable. Instead, this repo asks you to download a
+password-protected binary installer, turn off the antivirus, and run it with administrator rights.
+Those two conditions never coexist in a legitimate open-source project, and the installation path
+itself replaces the user's basic caution.</p>
+<p>(This is the only product this batch where I cannot write &quot;what it replaces&quot; — because the
+installation path is itself the warning.)</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> MIT license, no paid offering, no commercial trace of any kind.</p>
+<p><em>Read: there is no business model to discuss — its &quot;what it is&quot; has not even been independently
+verified.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>209 stars / 4 forks</strong>, 14 commits, created 2026-08-06</li>
+<li>8 claimed skills, of which 5 are marked Stable and 3 Beta</li>
+<li>The only auditable deliverables are roughly ten lines of Python in the README and a
+requirements.txt; there is no readable implementation</li>
+<li>Author identity, team, and usage data: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Not assessable — the author's identity cannot be verified</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Not assessable — every skill exists only inside the README's description</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Serious red flags: password-protected archive + disabling Windows Defender + running an exe as administrator is the classic malware delivery combination</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Not applicable — there is no point discussing timing before the safety question is cleared</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is not a &quot;wait and see&quot; repository; it is a &quot;assume it is malware until proven harmless&quot;
+repository.</strong> The chain of evidence:</p>
+<p>① It claims to be a Python open-source library yet delivers via a Windows exe installer and asks
+you to disable Windows Defender
+② A password-protected archive evades almost all static scanning
+③ The handle carries a random suffix (<code>oliverb-io1902e8</code>), consistent with a throwaway account
+④ The asymmetry of 209 stars against 4 forks does not match a repo with virtually no record of real
+use</p>
+<p>If it were genuinely a false positive, the author could clear it up in one sentence — publish the
+full source, remove the exe installer, and switch to git-clone delivery. Until that happens, running
+this exe means granting administrator privileges to software of unknown origin.</p>
+<h2>What to watch next</h2>
+<p>① Whether the .exe in Releases is removed or matched by a public source tree
+② Whether the README drops the &quot;disable Windows Defender&quot; instruction in favor of an auditable
+install path
+③ Whether stars keep rising in three months — inflated repos typically stall once momentum cools</p>
+<h2>What you can take from it</h2>
+<p><strong>What is transferable lives in the negative of this repo</strong>: if you ship an open-source tool, the
+install path must be auditable — git clone or a package manager, visible source, no demand to
+disable antivirus, no password-protected archives. When any of those appears, the user's first
+reaction should be &quot;run,&quot; not &quot;trust.&quot;</p>
+<p><strong>Positioning language</strong>: none.</p>
+<p><strong>Pricing structure</strong>: none.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven — and the direction of observation is not &quot;will it succeed&quot; but &quot;is it malware.&quot;</strong> Treat
+it as untrusted until clarified.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +217,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +227,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +237,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +247,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +300,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

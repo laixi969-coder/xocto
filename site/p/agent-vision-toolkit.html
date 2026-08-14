@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>agent-vision-toolkit</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</p>
@@ -83,15 +84,89 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前给纯文本模型看图，标准做法是搭「通用视觉桥」：图片丢给多模态模型，输出一段通用描述，再塞回文本模型上下文。问题在于描述是泛化的——同一张 UI 截图，做「还原成 HTML」任务真正需要的布局、间距、组件关系，被稀释成「一个带侧边栏、卡片、按钮和文本的软件界面」。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：「意图要跟着任务走」可以搬到任何把能力外包给另一层模型的场景——不要问模型「这是什么」，要问「我为什么在看这个、它对我当前任务意味着什么」。给第三方模型传上下文时，把任务意图作为 focus hint 传过去，比任何「更长的 prompt」都有效。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给纯文本模型装一双眼睛——不是把图片转成一段泛化描述，而是把「为什么看这张图」这个意图一起传给视觉模型，再配上定位、裁剪、描摹、OCR 这类确定性工具，让文本 agent 在真实工作流里能稳定地看见并操作。</p>
+<h2>做这个东西的人</h2>
+<p>Anionex，自称 AI-native 开发者，曾登上 GitHub 全球开发者趋势榜第 4 名，名下项目累计 16k+ star。MIT 协议，231 次提交，最近一次 2026-08-14。</p>
+<p><em>判断：一个人能把工具做到 700+ star、五个 agent 的接入全部验证过，说明这是自己在用的产品而不是 demo。focus hint 这个设计不是坐在家里想出来的，是踩过坑踩出来的。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>5 个视觉工具 + 1 个工作流</strong> → glance（图里有什么、可追问、可 OCR）、ground（目标定位，返回像素坐标）、detect（清点元素，输出带编号和像素框的目录）、trace（从真实像素提取 SVG 几何，模型不参与拟合）、crop（裁切复用），外加长截图 OCR 工作流（自动找低内容切分带、分段 OCR、消除重叠、对聊天记录说话人/时间戳/边界做专门校验）</li>
+<li><strong>focus hint 机制</strong> → 从用户消息或模型调用图片工具的理由中提取查看意图，作为 focus hint 传给视觉模型，让第一轮描述就围绕当前任务组织，而不是给一段通用描述</li>
+<li><strong>无缝接入五个 agent</strong> → Codex、Claude Code（透明本地代理）、Pi / Oh My Pi、OpenCode（单文件原生扩展）；任何有 shell 的 agent 也能直接用 CLI</li>
+<li><strong>DSH 原生支持</strong> → 2026-08-13 新增，dsh-vision-toolkit 提供 10 个结构化视觉工具</li>
+<li><strong>成本控制</strong> → 只把「必要意图 + 图片」送进多模态模型上下文，带截断机制；也可用本地小多模态模型（Gemma 4、Qwen 3.5/3.6）做视觉侧车</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前给纯文本模型看图，标准做法是搭「通用视觉桥」：图片丢给多模态模型，输出一段通用描述，再塞回文本模型上下文。问题在于描述是泛化的——同一张 UI 截图，做「还原成 HTML」任务真正需要的布局、间距、组件关系，被稀释成「一个带侧边栏、卡片、按钮和文本的软件界面」。</p>
+<p>它替代的是这个通用桥：由「看图 → 泛化描述」改为「带着任务意图看图 → 返回任务相关上下文」，并把像素级精确的活（坐标、颜色、轮廓）交给确定性工具而不是让模型猜。顺带替代的旧行为：以前要接视觉得换多模态模型或重写 harness，现在在文本模型外面加一层就行。</p>
+<h2>商业模式</h2>
+<p>工具免费开源（MIT），商业模式是 BYO 视觉 API：用户自己配 OpenAI 兼容的多模态 API key，按自己的多模态模型调用量付费给上游，它不抽成。</p>
+<p><em>判断：这是「卖水人」式的开源打法——工具免费建口碑，成本和流量都留在上游。对个人开发者成立，因为维护成本低；代价是它没有直接收入，长期维护全看作者意愿。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>706 star / 25 fork / 5 open issues</strong>，231 次提交</li>
+<li>已接入并验证：Codex、Claude Code、Pi、Oh My Pi、OpenCode 五个 agent + 原生 DSH 支持</li>
+<li>作者自述累计 16k+ star、曾位列 GitHub 全球开发者趋势榜第 4</li>
+<li>定价：无（BYO 视觉 API）；限制：图片转文本层，质量取决于主模型与视觉模型双方；代理缓存只在进程内，重启即清空</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>单人做视觉工具、231 次持续提交，产品与作者的能力栈高度吻合</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>focus hint 是真洞察——同行都在做「更长的描述」，它做「更对口的描述」</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>五个 agent 接入全部验证，工具按理解/定位/清点/描摹/裁切拆分，接口设计克制清晰</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>DSH 发布当天就补上原生视觉插件，时机极准；但纯文本模型的视觉缺口本质是过渡性的</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是一个「小而真」的产品：问题真实、解法聪明、执行到位。</strong> 它对 DSH 生态的意义是补上纯文本模型最大的短板——不能看图；对一般从业者的意义是示范了「给能力分级」：语义判断交给模型，像素级精确交给确定性工具，不要让模型猜坐标。</p>
+<p><strong>它的天花板也很清楚：它是过渡性产品。</strong> 当多模态成为默认，也就是「给纯文本模型加眼睛」这个需求消失的时候，它的价值只剩历史意义。但它示范的 focus hint 机制——把任务意图传给视觉层——在视觉 agent 里会沉淀为长期正确的做法。</p>
+<h2>下一步看什么</h2>
+<p>① DSH 原生插件上线后，star 增速是否随 DSH 生态一起放大
+② 是否出现企业级使用或付费化（目前纯免费 + BYO API）
+③ 多模态普及后定位是否转型——比如从「给纯文本模型眼睛」转向「GUI 自动化」</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：「意图要跟着任务走」可以搬到任何把能力外包给另一层模型的场景——不要问模型「这是什么」，要问「我为什么在看这个、它对我当前任务意味着什么」。给第三方模型传上下文时，把任务意图作为 focus hint 传过去，比任何「更长的 prompt」都有效。</p>
+<p><strong>工具拆分</strong>：把「理解类」和「确定类」操作分开——语义判断留给模型，像素、坐标、几何这类要精度的活交给确定性工具。这个分层可以搬到任何「AI 判断 + 精确执行」混合的产品。</p>
+<p><strong>定价结构</strong>：开源工具 + BYO API 的「卖水人」结构值得参考——工具免费建口碑，把成本外挂到用户自己的 API 账单上，不做中间商。</p>
+<p><strong>话术</strong>：无。工程 README，没有可偷的句式。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 它是 DSH 生态里少见的「独立成立」的插件——脱离 DSH 它也能活，在 DSH 里它能补上关键短板。记下 focus hint 机制，这是可以迁移到任何视觉或能力外包场景的设计。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -108,7 +183,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -118,7 +193,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -128,7 +203,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -138,7 +213,7 @@
             <span class="row-name">DSH-better-sidebar</span>
             <span class="row-desc">DSH侧边栏完整工作台，支持文件编辑、终端、Git等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 453</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 453</span>            </span>
           </div>
         </a>
       </li>
@@ -191,7 +266,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

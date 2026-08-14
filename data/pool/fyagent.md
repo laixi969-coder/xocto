@@ -15,7 +15,7 @@ canonical_url: https://github.com/fy-agent/fyagent/releases/latest
 summary: For You Agent——AI 时代的个人随身数字人格。把你的模型、AI 账号、技能、提示词和工作方式，带到每一个 AI 工具里。
 first_seen: '2026-07-27T06:29:30Z'
 last_seen: '2026-08-14T06:12:07Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

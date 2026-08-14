@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Workflo</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">Mac 工作区自动化，但从不读取你的屏幕</p>
@@ -82,25 +83,138 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前&#34;开会前把窗口摆好&#34;这件事是纯手动：一个个点开 Zoom、Notes、浏览器标签页， 拖到固定位置，外接显示器一拔全乱，再重摆一遍。高频用户（远程办公、投屏党） 每天要花几分钟，切换一次上下文要重来一次。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：把&#34;主动 vs 被动&#34;作为产品设计的第一性差异—— 同类工具都在等你调用，你能不能在用户开口前就做完？Workflo 的倒计时 （自动动作前给用户一个取消机会）是&#34;主动自动化&#34;不上头的关键，值得任何 自动类产品照抄。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>会提前帮你摆好窗口的 Mac 工具：开会前、专注时段前，自动把需要的应用和窗口
+排好位置；拔插显示器时一秒恢复布局。它只申请辅助功能（Accessibility）权限，
+架构上就做不到读屏——&quot;永远看不见你的屏幕&quot;是产品边界而不是宣传语。</p>
+<h2>做这个东西的人</h2>
+<p>Chirag Chopra 的单人项目，2026-08-09 上 发布平台（97 票、当日 #14）。
+原生 Swift 写的 Mac 菜单栏应用，约 4MB，要求 macOS 14+。</p>
+<p><em>判断：典型的独立开发者做&quot;自己天天被它烦&quot;的痛点——窗口整理是每个在
+&quot;外接显示器/笔记本&quot;之间来回切换的人每天都在浪费时间的破事。
+单人、买断、无订阅，说明作者要的是覆盖成本而不是规模增长。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>主动摆场（Scenes &amp; Desks）</strong> → 一个 Scene 是一套命名好的窗口布局
+（写作、评审、监控），一个 Desk 对应一种显示器配置（单屏/双屏）；
+检测到换了 Desk 就自动切换布局</li>
+<li><strong>定时/日历触发器</strong> → 在日历事件的视频会议开始前几分钟，或设定的专注时段，
+自动把需要的应用打开、不需要的藏起来</li>
+<li><strong>可取消的倒计时</strong> → 任何自动动作之前出现倒计时，你可以叫停。
+这是&quot;自动重排窗口不惹人烦&quot;的关键设计</li>
+<li><strong>Stash 一键藏屏</strong> → Option+Shift+S 一键隐藏所有窗口，再按一次原样恢复——
+专为分享屏幕前藏掉后台的私密窗口设计</li>
+<li><strong>Scene Studio</strong> → 拖拽式布局画布，在画布上设计双屏布局，真实屏幕纹丝不动</li>
+<li><strong>启动位置记忆 + 按应用规则</strong> → 新打开的应用落在记忆位置；
+可把个别应用排除在 Workflo 之外</li>
+</ul>
+<p><strong>它明确不做</strong>：不申请屏幕录制权限（大多数窗口工具需要它来显示预览）、
+无账号、无云、不上传任何数据，配置是本地 JSON 文件，你自己能打开备份删除。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前&quot;开会前把窗口摆好&quot;这件事是纯手动：一个个点开 Zoom、Notes、浏览器标签页，
+拖到固定位置，外接显示器一拔全乱，再重摆一遍。高频用户（远程办公、投屏党）
+每天要花几分钟，切换一次上下文要重来一次。</p>
+<p>已有的工具分两类：<strong>Rectangle</strong>（免费，手动快捷键排窗）和 <strong>Moom</strong>（付费，快捷键
+触发预设布局）。它们的共同点是&quot;你伸手，它响应&quot;——工具是你要主动调用的。
+Workflo 替代的正是这个模式：它从&quot;被调用&quot;变成&quot;已经跑完了&quot;——
+窗口管理器是你去找它，Workflo 是它先于你到位。</p>
+<h2>商业模式</h2>
+<p>$19.99 一次性买断，7 天免费试用，无订阅、无账号。
+对比：Moom 也是买断制，Rectangle 免费。同类里 $19.99 是正常价位。</p>
+<p><em>判断：买断制适合这类&quot;解决单一明确痛点&quot;的 Mac 小工具——用户一算
+&quot;每天省三分钟，值 20 美元&quot;，转化就成立。但买断制没有续费现金流，
+作者必须持续上新功能或转做系列工具才有增长。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>PH 97 票、7 条评论、当日 #14</li>
+<li>MakerStack 评测 7.5/10：结论是&quot;窄工具做对了&quot;——自动摆窗带可取消倒计时、
+不要屏幕录制权限、无账号、买断价</li>
+<li>原生 Swift，约 4MB，macOS 14+</li>
+<li>用户数、销售额：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>单人做自己天天用的小工具，痛点来自亲身体验，匹配度真实</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓到&quot;主动 vs 被动&quot;的差异：别人是窗口管理器，它是窗口预置器</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>只靠 Accessibility 权限完成所有功能，且 1 秒内恢复布局，工程上克制而扎实</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>远程办公/多显示器已成常态，窗口整理是常青痛点，但市场已被 Rectangle/Moom 教育过</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>真正值得抄的不是功能，是&quot;把不做什么写进定位&quot;。</strong></p>
+<p>Workflo 的差异化一半在产品（主动摆场、可取消倒计时），另一半在信任：
+它把&quot;我们不看你的屏幕&quot;从一句免责声明升级成了架构承诺——只申请
+Accessibility 权限，意味着在系统层面就不存在读屏的代码路径。
+在一个屏幕录制权限满天飞、谁都在&quot;看&quot;你的时代，这个姿态本身就是卖点。
+Pool 里的灵感说得好：<strong>隐私正在从合规项变成营销点</strong>——它不是假装不收集，
+而是结构上收集不了，这两者的说服力完全不同。</p>
+<p><strong>但护城河几乎为零。</strong> 窗口管理是成熟品类，Moom 已经覆盖&quot;快捷键触发布局&quot;，
+Rectangle 免费，Workflo 的主动式摆场几个月内就可能被抄（Moom 甚至可以直接抄）。
+$19.99 买断也意味着它没有足够的收入支撑长期迭代。</p>
+<p><strong>可迁移的规律</strong>：做隐私敏感的工具时，&quot;我们不看什么&quot;比&quot;我们保护什么&quot;
+更好卖——因为前者是能被验证的事实，后者是没法证明的承诺。
+但要说清代价：为了这句&quot;不看&quot;，你会主动放弃读屏带来的功能可能性
+（比如自动识别当前任务），这是用功能上限换信任下限，得想清楚你的品类值不值。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月内是否有大厂或 Moom 跟进主动式摆场——决定它的差异化窗口有多长
+② App Store / 官网的销量或评论数是否增长——买断工具没有订阅数据，只能看口碑
+③ 作者是否发布第二个工具——买断制小工具作者的增长路径通常是&quot;系列化&quot;</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：把&quot;主动 vs 被动&quot;作为产品设计的第一性差异——
+同类工具都在等你调用，你能不能在用户开口前就做完？Workflo 的倒计时
+（自动动作前给用户一个取消机会）是&quot;主动自动化&quot;不上头的关键，值得任何
+自动类产品照抄。</p>
+<p><strong>话术</strong>：&quot;never sees your screen&quot;——把否定句写成定位。不是&quot;我们保护隐私&quot;，
+而是&quot;我们看不见&quot;。前者是声明，后者是能被架构验证的事实。
+做隐私类产品，优先找&quot;结构上做不到&quot;的表述，而不是&quot;我们承诺不&quot;。</p>
+<p><strong>定价结构</strong>：单一痛点工具用买断价，$19.99 是个甜点位——
+低于心理阈值、高于免费工具的心理损耗。但买断只适合&quot;一次解决、不需要持续服务&quot;的场景。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 产品小而正，信任设计是真正的亮点——&quot;架构上读不了屏&quot;
+这句定位比任何隐私承诺都有力。但品类成熟、护城河浅、买断制限制了想象空间。
+三个月后看它有没有被大厂跟进，以及作者能不能靠系列化工具滚起来。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +234,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +244,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +254,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +307,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

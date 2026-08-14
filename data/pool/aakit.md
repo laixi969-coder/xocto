@@ -8,12 +8,13 @@ inspiration: AI 出错不在代码在假设，把隐含假设显性化这个思�
 summary_en: ''
 inspiration_en: AI failures live in assumptions, not code. Making implicit assumptions explicit transfers
   straight to reviewing any proposal.
+priority_review: false
 url: https://github.com/abhixhek/aakit
 canonical_url: https://github.com/abhixhek/aakit
 summary: find every assumption your coding agent made, and which broke
 first_seen: '2026-08-12T12:06:33Z'
 last_seen: '2026-08-13T11:28:29Z'
-status: watching
+status: analyzed
 sources:
 - hackernews
 sightings:

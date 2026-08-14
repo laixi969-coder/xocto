@@ -8,12 +8,13 @@ inspiration: 从「搜到答案」升级成「直接产出交付物」，这是�
 summary_en: '360''s Nano AI search: one sentence in, an expert-grade video, report, or deck out.'
 inspiration_en: Moving from “find the answer” to “produce the deliverable” is search climbing its own
   value chain.
+priority_review: false
 url: https://www.aicpb.com/product/纳米AI搜索/webid1D6F374A1
 canonical_url: https://aicpb.com/product/纳米AI搜索/webid1D6F374A1
 summary: 纳米AI，首创多智能体蜂群，一句话生成专家级视频、报告、PPT。纳米AI，集成MCP万能工具箱，打破信息围墙，让搜索更全、更广、更深、更专业。纳米AI，集成DeepSeek，智脑，通义千问等十六家大模型，支持深度推理、个人知识库管理等功能。
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

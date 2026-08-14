@@ -8,12 +8,13 @@ inspiration: 在技术快速变化期，教材本身就是影响力入口，写�
 summary_en: Open textbook on AI agent design principles and engineering practice.
 inspiration_en: When a field moves this fast the textbook is the influence — whoever writes it defines
   the vocabulary everyone else argues in.
+priority_review: false
 url: https://github.com/chemark/ai-agent-book
 canonical_url: https://github.com/chemark/ai-agent-book
 summary: '深入理解 AI Agent：设计原理与工程实践（学习副本，upstream: bojieli/ai-agent-book）'
 first_seen: '2026-07-23T19:41:41Z'
 last_seen: '2026-08-12T03:21:52Z'
-status: pending_filter
+status: analyzed
 sources:
 - github
 sightings:

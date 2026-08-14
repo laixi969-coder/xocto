@@ -13,7 +13,7 @@ canonical_url: https://cadre.rocks
 summary: Cadre.rocks A local-first board for orchestrating coding agents
 first_seen: '2026-08-13T18:58:10Z'
 last_seen: '2026-08-14T06:12:06Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

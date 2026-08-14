@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>genoffice</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</p>
@@ -83,25 +84,131 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>两条旧路径。其一是&#34;编辑器 + AI 聊天框&#34;来回切换：把 AI 生成的文本复制粘贴回 文档，格式错乱、来回人工校正，AI 只负责生产文字，不负责落盘。其二是为 Office 全家桶付费的采购流程：License、订阅、IT 部署。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：AI 与文件交互的下一代边界不是&#34;生成内容&#34;，是&#34;只重写被改动的 最小单元&#34;。字节级补丁让未动内容零风险，这个思路同样适用于报告、图表、 代码等一切结构化产出——AI 应该改差异，而不是重排全局。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>不是&quot;聊天框里生成文本再手动粘回文档&quot;，而是让 AI 直接改文档本体——
+改哪段只重写哪段，其余字节原样保留。</p>
+<h2>做这个东西的人</h2>
+<p>Genspark 团队（Mainfunc, Inc.），GitHub 组织 <code>genspark-ai</code>，主要提交者
+<code>merrick-2002</code>（GenOffice 官方账号）。Genspark 是拿过大额融资的消费级 AI
+搜索/代理公司，做办公套件属于把用户群向文档工作流延伸。</p>
+<p><em>判断：一家有预算的 AI 公司下场做 Office 替代品，最合理的解释是文档是
+agent 最高频的生产现场，也是现有 AI 能力最容易变现的地方。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>Docs（.docx）</strong> → 字节级保真编辑，只重新生成被改动的段落，未动部分按原字节
+保留，分页与 Word 一致，支持修订、批注、样式、公式</li>
+<li><strong>Sheets（.xlsx）</strong> → 自研引擎加 Rust 侧车（calamine + IronCalc），图表、透视表、
+条件格式、公式追踪</li>
+<li><strong>Slides（.pptx）</strong> → 自研解析/渲染/编辑引擎，母版、版式、智能参考线</li>
+<li><strong>PDF</strong> → 真正的文本编辑，页面内直接改字改图，保留原字体、重写内容流，
+不是&quot;覆盖式批注&quot;</li>
+<li><strong>Markdown</strong> → Tiptap 块编辑器，保存回纯 Markdown</li>
+<li><strong>内置 AI agent</strong> → 块级编辑带版本快照与差异对比；文档感知 agent 直接操作
+工作簿、页面状态；工具含网页搜索、图片搜索、图片生成、媒体分析</li>
+<li><strong>后端走 Genspark 账号设备码登录</strong>，无需自己填 API key，模型经 Genspark 代理
+（Claude / GPT / Gemini）</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>两条旧路径。其一是&quot;编辑器 + AI 聊天框&quot;来回切换：把 AI 生成的文本复制粘贴回
+文档，格式错乱、来回人工校正，AI 只负责生产文字，不负责落盘。其二是为 Office
+全家桶付费的采购流程：License、订阅、IT 部署。</p>
+<p>GenOffice 把 AI 从&quot;隔壁生成文本&quot;改成&quot;直接改文档内部结构&quot;，同时用免费开源
+替代付费订阅。字节级补丁是最关键的一刀：未改动的部分按原字节保留，意味着
+AI 介入的文档不会被顺手&quot;重排&quot;得面目全非。</p>
+<h2>商业模式</h2>
+<p>应用本身 Apache-2.0 免费。AI 功能需要登录 Genspark 账号走设备码，模型调用与
+搜索、生图等工具经 Genspark 代理——账号权益即付费墙。<code>ee/</code> 目录预留企业模块，
+使用单独的 GenOffice Enterprise License。</p>
+<p><em>判断：标准的前端获客、后端变现结构。免费开源套件是获客成本，Genspark 账号是
+流量入口，企业版是远期收入。办公套件历史上最难的不是功能而是生态与格式兼容，
+这个结构能不能成立，要看文档兼容性的口碑。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>3003 star / 530 fork / 28 open issue</strong>（截至 2026-08-14 采样）</li>
+<li>首次公开发布 2026-08-02，两周内从 0 到 3000+ star，增速在同类新仓库里偏高</li>
+<li>6 个 Electron 应用（5 编辑器 + 1 shell），TypeScript，xlsx 侧车为 Rust</li>
+<li>当前版本 v0.6.389，macOS 与 Windows 安装包已签名</li>
+<li>团队规模、日活、AI 调用量：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>团队有 AI 推理与搜索基础设施，做文档编辑是能力延伸，不是跨行</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;AI 直接改文件而非生成文本&quot;抓得准，字节级补丁是工程上的正解</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>三个自研编辑器引擎加 Rust 侧车，两周推到 v0.6 系列，工程投入明显</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>微软 Copilot 教育完市场但收费被诟病，免费开源替代品的窗口存在</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>它把&quot;AI 改文档&quot;从文本生成升级成了结构化编辑。</strong> 聊天式 AI 的价值止步于
+&quot;给你一段文本&quot;，落盘、格式、上下文全靠人。GenOffice 的价值主张是让 AI 直接
+操作文档结构，还用了最保守的写入方式——只重写被改的最小单元。这个思路
+对一切结构化产出都成立：报告、图表、代码。</p>
+<p><strong>方向对，但两周龄的产品没有留存证据。</strong> 3000+ star 是发布红利，star 不
+等于使用。办公产品真正的生死线是兼容性口碑——一版编辑后格式乱了，用户就走
+再也不回来。字节级补丁在工程上正确，但&quot;正确&quot;和&quot;兼容&quot;之间隔着海量的
+真实文档样本。</p>
+<p><strong>AI 功能绑定 Genspark 账号是战略也是风险。</strong> 不填 API key 降低了使用门槛，
+但也意味着用户的 AI 能力完全依赖 Genspark 代理的质量与配额。如果代理不稳定，
+套件本身的口碑会一起受损。</p>
+<p><strong>开源办公套件的上一代教训是 LibreOffice</strong>：功能全、免费，但体验与生态始终
+被商业对手压制。GenOffice 的差异化不在&quot;免费&quot;，在&quot;AI 是一等公民&quot;——如果
+这一刀不成立，它就只是又一个免费 Office。</p>
+<h2>下一步看什么</h2>
+<p>① 两周后的 star 增长曲线是否保持——发布红利退潮后还涨才算数
+② <code>ee/</code> 企业版何时定价、怎么卖——这决定它到底是获客工具还是产品
+③ 有没有独立开发者或团队公开宣称在日常工作流里替换了 Office——生态比功能更重要</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：AI 与文件交互的下一代边界不是&quot;生成内容&quot;，是&quot;只重写被改动的
+最小单元&quot;。字节级补丁让未动内容零风险，这个思路同样适用于报告、图表、
+代码等一切结构化产出——AI 应该改差异，而不是重排全局。</p>
+<p><strong>话术</strong>：无。README 是功能清单，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：开源套件 + 账号权益付费 + 预留企业版的三段式，用免费工具圈用户、
+用账号入口转化、用企业版收大钱，是 AI 工具可复制的漏斗。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 工程量大、增速快、方向对，但两周龄的产品还没有生态和留存证据，
+AI 功能又全部绑定 Genspark 账号。记下来，盯 star 曲线和企业版两条线。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -121,7 +228,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -131,7 +238,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -141,7 +248,7 @@
             <span class="row-name">UTC Time</span>
             <span class="row-desc">实时时钟，显示ISO 8601和Unix时间戳。</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 24</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 24</span>            </span>
           </div>
         </a>
       </li>
@@ -194,7 +301,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

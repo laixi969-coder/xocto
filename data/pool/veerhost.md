@@ -13,7 +13,7 @@ canonical_url: https://veerhost.com/1-dollar-web-hosting
 summary: $1/month web hosting, limited spots
 first_seen: '2026-08-14T04:56:44Z'
 last_seen: '2026-08-14T06:12:06Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

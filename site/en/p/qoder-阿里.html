@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Qoder-阿里</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Qoder is an agentic coding platform for real software, think deeper, build better.</p>
@@ -80,15 +81,92 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It has usage data; the next question is whether its scale and change will hold.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The routine of juggling one engineering task across many tools and many roles.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: the core problem of long-horizon agents is context loss, and the fix is not a bigger window but &#34;multiple roles each with isolated contexts that merge at the end.&#34; When building a compl…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Alibaba Cloud's agentic coding platform, whose tagline is &quot;for real software, think deeper, build better&quot; — aimed at real engineering, not toy projects; the &quot;expert-team mode&quot; launched in March 2026 is its biggest differentiator.</p>
+<h2>Who built it</h2>
+<p>Built by Alibaba Cloud, launched 2025, and after a 2026 brand consolidation it became the successor/convergence point of Tongyi Lingma — the former enterprise version of Tongyi Lingma now sits inside Qoder CN (the full-suite). It ships a desktop IDE, JetBrains plugin, CLI, cloud agents, and mobile, deeply bound to the Alibaba Cloud ecosystem.</p>
+<p><strong>Note</strong>: Alibaba runs multiple AI entry points (Qianwen app, Qwen.ai, Qoder, Tongyi family). Qoder is the developer-facing agentic coding platform, not a chat assistant.</p>
+<p><em>Read: a big vendor's advantage in coding tools has never been algorithms; it is distribution and compute. Qoder's real foundation is Alibaba Cloud — custom model (Qwen-Coder-Qoder), cloud agent execution, and enterprise compliance all grow from the same cloud.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Expert-team mode</strong> → you state one requirement; a Leader agent decomposes it and recruits back-end, front-end, testing, code-review, and research specialists to work in parallel; each specialist works in an isolated context, avoiding the decision loss caused by context-window pressure</li>
+<li><strong>Deeply customized model</strong> → Qwen-Coder-Qoder (February 2026), trained with ROLL large-scale RL plus a Rewarder-Attacker adversarial mechanism, specifically to suppress &quot;looks correct but is invalid&quot; code</li>
+<li><strong>Cloud long-horizon tasks</strong> → Cloud Agents: batch refactoring, unified review of tens of thousands of contracts, scheduled data aggregation, in a cloud sandbox</li>
+<li><strong>Enterprise sentry duty</strong> → QoderWake: scheduled server inspection, lead triage, weekly report generation, 24/7 multi-digital-worker coordination</li>
+<li><strong>Office workbench</strong> → QoderWork: browser automation, scheduled tasks, IM channels, plus writing, slides, and design workbenches</li>
+<li><strong>Compliance base</strong> → domestic models optional, domestic cloud deployment, no data leaving the country; VPC private-network edition for government and finance</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p><strong>The routine of juggling one engineering task across many tools and many roles.</strong></p>
+<p>To ship a full feature (back-end + front-end + tests), a solo developer used to scramble between the IDE, API debugging, deployment, and test scripts, or hand contexts between multiple agents/tools — long contexts get lost, and each loss means re-feeding. On the enterprise side, a task got split across engineers or outsourced at high cost. Qoder's expert-team pitch compresses all that coordination into one requirement: one Leader decomposes, specialists run in parallel, contexts stay isolated.</p>
+<p><em>Read: it is the engineering of the same thing people do by hand — a day with Claude Code, then Cursor to fix it. What is worth attention is not &quot;multi-agent&quot; but &quot;isolated contexts,&quot; a direct answer to the context-loss problem.</em></p>
+<h2>Business model</h2>
+<p>Credits system (unified across the whole line since May 20, 2026), inter-operable across products, reset monthly. Domestic: free personal / Pro ¥59/month (2,000 credits) / Pro+ ¥169/month (6,000 credits) / Teams ¥99 per seat/month (3,000 credits) / Enterprise VPC ¥199 per seat/month (50 seats minimum). International: Teams $40/seat/month, Enterprise $20/seat/month (credits bought separately, 3,000 credits for $40). The free tier includes a 14-day Pro trial plus 300 credits.</p>
+<h2>Hard numbers</h2>
+<ul>
+<li>traffic board figure: <strong>3.15M monthly visits, +15.33% MoM</strong>, simultaneously on the domestic growth, global growth, and coding-assistant boards</li>
+<li>Vendor efficiency claims: 86.81% code retention rate, 21% lower token consumption, model cost reduced to 1/2-1/5 of a single top model (official/media-reported, not independently replicated)</li>
+<li>Qwen-Coder-Qoder customized model launched February 2026; expert-team mode launched March 2026</li>
+<li>Its predecessor Tongyi Lingma was Alibaba Cloud's official code assistant, so a real enterprise installed base exists</li>
+<li>Standalone revenue, paid seats, enterprise count: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A big-vendor platform product, not a founder project; judge the org, and Alibaba Cloud has real enterprise distribution</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Expert-team mode with isolated contexts targets the real problem of long-task context loss</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Custom model plus adversarial training against invalid code is serious engineering; the official numbers lack independent replication</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>The coding-agent lane is white-hot in 2025-2026; domestic rivals include Doubao MarsCode and Kimi coding; Qoder differentiates via Alibaba Cloud's government/enterprise compliance</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Worth watching.</strong> Among big-vendor coding agents it has all three pieces: a custom model (Qwen-Coder-Qoder), parallel multi-role execution (expert-team), and enterprise compliance (no data leaving the country plus VPC). +15.33% MoM on two growth boards is rare positive momentum among these platforms.</p>
+<p>Its real difference is <strong>scenario selection</strong>: overseas tools chase individual developers; Qoder targets compliant development for government and finance — domestic models, no data egress, full operation audit. That positioning is off-axis from Microsoft Copilot's government/finance deals in China and does not directly compete with standalone coding-agent tools.</p>
+<p><em>Read: the risk is that the ecosystem tie runs too deep — Qoder's strength and weakness are the same thing: it is a flower inside Alibaba Cloud's walls, and developers who do not touch Alibaba Cloud have weak reasons to migrate in. The other thing to verify is whether the official efficiency numbers (86.81% retention, -21% tokens) survive independent replication; such figures are usually self-assessed.</em></p>
+<h2>What to watch next</h2>
+<p>① Next month's MoM on 3.15M visits — whether the dual growth-board positions hold
+② Any public engineering case from the expert-team mode (an enterprise publicly crediting it with a delivery)
+③ Whether the official efficiency numbers (retention rate, token savings) get independently replicated</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: the core problem of long-horizon agents is context loss, and the fix is not a bigger window but &quot;multiple roles each with isolated contexts that merge at the end.&quot; When building a complex-task tool, instead of betting on a larger context window, split the task among isolated execution units.</p>
+<p><strong>Positioning copy</strong>: &quot;for real software&quot; is a direct strike at toy demos — it tells professionals &quot;I write real projects for you, not demonstrations.&quot; For professional-market positioning, the most effective move is to say out loud the user's contempt for amateur products.</p>
+<p><strong>Pricing structure</strong>: dual-track of credits plus seat subscription — metered per usage (model calls) stacked on a flat monthly seat (team management). &quot;Subscription counts people, credits count usage&quot; fits AI tools whose cost scales with usage.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Clear positioning, positive growth, and a real enterprise base; making &quot;compliant development&quot; the differentiator is smart. Track the independently replicated efficiency numbers and public enterprise cases.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -105,7 +183,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -115,7 +193,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -125,7 +203,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -135,7 +213,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -188,7 +266,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Soup CLI</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">在 4GB 显存的笔记本上微调 80 亿参数模型</p>
@@ -82,18 +83,137 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前微调一个 8B 模型，标准精度下显存需求约 16GB—— 普通笔记本（4GB 显存）想都别想。想干这件事只有三条路： 租云 GPU（按小时付费、要配环境、要等排队）； 买大显存显卡（上万块起步）； 或者用 QLoRA 硬塞，但 QLoRA 只是把需求砍半，4GB 依然不够。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：做&#34;降低门槛&#34;型工具，把&#34;正确性&#34;做成可验证的卖点—— 用逐位一致这类硬指标证明&#34;省资源没省质量&#34;，比宣称&#34;效果提升 30%&#34; 更能赢得技术用户。前提是你真的能做到，验证协议本身就是护城河。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个 YAML、一条命令完成 LLM 微调的命令行工具，核心是&quot;层流式&quot;（layer streaming）技术：
+冻结的基座模型放在内存里，一次只往显卡送一层，让 8B 模型在 4GB 显存的笔记本上也能微调。</p>
+<h2>做这个东西的人</h2>
+<p>独立开发者 Alpamys Makazhan（GitHub: MakazhanAlpamys/Soup），Apache-2.0 开源。
+PyPI 上他的定位文案是&quot;训练 LLM 仍然痛苦，连有经验的团队都把 30-50% 的时间
+花在对抗基础设施上，而不是改进模型&quot;。</p>
+<p><em>判断：这是&quot;自己先受够了环境配置&quot;的开发者工具——作者把&quot;省显存&quot;
+这件事做到了可以验证的精确数字，并设计了&quot;流式与常驻逐位一致&quot;的验证协议。
+说明他关心的不是演示效果，而是正确性。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>层流式微调</strong> → 冻结的模型层驻留 CPU 内存，计算时一次一层送进显存，
+双缓冲预加载，显存峰值从&quot;整个模型&quot;降到&quot;单层大小&quot;，LoRA 适配器常驻显存</li>
+<li><strong>NF4 量化叠加</strong> → 4-bit normalfloat 压缩模型体积，配合层流式进一步压低显存</li>
+<li><strong>偏好对齐训练</strong> → DPO / ORPO / SimPO / KTO 全部支持，
+用同一个流式基座充当参考模型，省掉原本要额外占一整份模型内存的参考副本</li>
+<li><strong>一套 YAML 跑全套</strong> → soup init 选模板（chat/code/medical/reasoning/vision/audio…16 种），
+soup train 开跑，自动检测 GPU、自动调 batch size、自动量化</li>
+<li><strong>一条命令到部署</strong> → soup chat 测试、soup push 传 HuggingFace、
+soup export 导出 GGUF/ONNX/TensorRT/AWQ/GPTQ，直接接 Ollama/llama.cpp</li>
+<li><strong>工程化配套</strong> → VRAM 预检、内存不足时 NVMe offload、
+&quot;数据飞轮&quot;循环（canary 部署 + 自动回滚）、GDPR 遗忘的 unlearning 训练</li>
+</ul>
+<p><strong>九类架构</strong>：Llama、Qwen、Mistral、Gemma、Phi 等。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前微调一个 8B 模型，标准精度下显存需求约 16GB——
+普通笔记本（4GB 显存）想都别想。想干这件事只有三条路：
+租云 GPU（按小时付费、要配环境、要等排队）；
+买大显存显卡（上万块起步）；
+或者用 QLoRA 硬塞，但 QLoRA 只是把需求砍半，4GB 依然不够。</p>
+<p>技术人员的另一层痛苦是环境配置：SSH 进 GPU 机器、装驱动、配 CUDA、
+调参数——有经验的团队也要花 30-50% 的时间在这上面。</p>
+<p>Soup 替代的是&quot;租集群 + 配环境&quot;这个门槛：把微调从&quot;服务器的事&quot;
+降成&quot;笔记本上跑一条命令的事&quot;。层流式让&quot;4GB 显存&quot;不再是拦路石，
+YAML 配置让&quot;环境搭建&quot;不再是日常消耗。</p>
+<h2>商业模式</h2>
+<p><strong>无。</strong> Apache-2.0 开源，无付费层、无云服务、无商业实体信息。</p>
+<p><em>判断：这是典型的&quot;靠正确性建立声誉&quot;的开源路线——个人作者现阶段
+赚的是可信度和 star，而不是钱。可预见的变现路径是之后提供托管训练或企业支持，
+但开源 + 免费生态下这条路并不好走。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>GitHub star 约 430（2026-08 上旬），PyPI 累计下载 83k，测试 17,479 项通过</li>
+<li>核心基准：Llama-3.1-8B-Instruct（NF4）在 RTX 3050 Laptop 4GB 上
+119.6 tok/s、峰值显存 3.32GB</li>
+<li>8xH100 复现：中位 113.00 tok/s、同样 3.32GB 峰值，流式与常驻逐位一致（bit-exact）</li>
+<li>v0.73.0（2026-08-05~09）修复了 NF4 层在 ~165MiB 以上的静默错误梯度 bug</li>
+<li>层流式为 beta 功能，比常驻训练慢约 1.43 倍；100 万 token 约需 2.3 小时</li>
+<li>Show HN 与 发布平台 首页同周上榜；作者一人</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者是典型目标用户，把&quot;正确性验证&quot;当核心卖点，是认真做基础设施的人</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;显存峰值由单层决定而非整个模型&quot;这个洞见，直接重定义 4GB 显卡的用途</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>逐位一致验证协议 + 版本化发布 + 大规模测试，工程质量接近专业团队</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>本地微调需求刚被&quot;人人可用&quot;的叙事点燃，这正是把门槛从集群降到笔记本的时点</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;把微调的门槛从租集群降到用笔记本&quot;的真实进展，不是概念。</strong></p>
+<p>层流式的核心洞见是：训练时的显存瓶颈是&quot;模型必须常驻显存&quot;这个假设，
+而它把这个假设拆掉了——基座模型冻结在内存、一次流一层进显存，
+峰值从整个模型变成单层。8B 模型在 4GB 笔记本上 119.6 tok/s、
+且和常驻跑法逐位一致，这两个数字把它和其他&quot;显存魔法&quot;类项目区分开了：
+它证明了省显存可以不省质量。</p>
+<p><strong>可迁移的规律：用&quot;逐位一致性&quot;做验证协议。</strong> 每个版本把流式跑法
+和常驻跑法对比，要求 logits 完全一致——这比任何&quot;效果不错&quot;的宣称
+都更有说服力，也让用户敢在笔记本上训练、在集群上复现。
+对做基础设施工具的人来说，这比功能清单更能建立信任。</p>
+<p><strong>诚实地说，它不会让微调变快，只让微调变得&quot;够得着&quot;。</strong>
+层流式比常驻慢约 1.43 倍，1M token 约 2.3 小时，Windows 上数据更差——
+这是拿时间换显存的物理限制。它瞄准的是&quot;以前根本跑不了&quot;的人，
+而不是&quot;跑得够快&quot;的人。与 Unsloth 的关系也清楚：Unsloth 让合格的显卡更快，
+Soup 让不合格的显卡也能跑。</p>
+<p><strong>风险</strong>：① 层流式还在 beta，长上下文、大 batch 下显存仍可能不够，边界要靠真实用户踩；
+② 微调框架竞争激烈（Unsloth、LLaMA-Factory 等成熟项目），
+单靠&quot;省显存&quot;一个卖点能否留住用户存疑；③ 单人维护的开源项目，
+迭代节奏和长期维护是隐患。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月后 star 能否破 1500、层流式能否从 beta 转 stable——判断项目是活是死
+② 是否进入主流微调框架对比（Unsloth / LLaMA-Factory 的对照评测）——被对比就是被认可
+③ 是否被 CI/脚本工作流当作自动化微调的事实标准——YAML 驱动 + 可脚本化
+意味着它可能先在企业内部管线里找到位置</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做&quot;降低门槛&quot;型工具，把&quot;正确性&quot;做成可验证的卖点——
+用逐位一致这类硬指标证明&quot;省资源没省质量&quot;，比宣称&quot;效果提升 30%&quot;
+更能赢得技术用户。前提是你真的能做到，验证协议本身就是护城河。</p>
+<p><strong>话术</strong>：PyPI 文案&quot;连有经验的团队都把 30-50% 的时间花在对抗基础设施上&quot;
+用一个具体的时间百分比量化痛点，比&quot;简化配置&quot;有力得多。</p>
+<p><strong>定价结构</strong>：无。未商业化。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 技术上站得住——层流式有精确数字和逐位一致验证背书，
+把&quot;笔记本微调 8B&quot;从口号变成了可复现的事实。但它不会让训练变快，
+只让训练变得够得着；商业模式和长期维护都还是问号。它是
+&quot;本地微调平民化&quot;这条叙事里目前最有说服力的一个注脚。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +224,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,31 +255,21 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/sosiee-ai换脸与ai头像.html">
+      <a class="pager-item pager-prev" href="../p/soloop.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Sosiee: AI换脸与AI头像</span>
+        <span class="pager-n">Soloop</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/stepshot.html">
@@ -193,7 +313,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

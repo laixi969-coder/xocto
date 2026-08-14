@@ -8,12 +8,13 @@ inspiration: 老工具换个数据呈现方式就是新产品，表格 vs 图形
 summary_en: ''
 inspiration_en: An old tool with a new way of presenting the data is a new product. Tables and charts
   are two different ways of thinking.
+priority_review: false
 url: https://www.producthunt.com/products/duckdisk
 canonical_url: https://producthunt.com/products/duckdisk
 summary: Table-first storage analysis for Mac, cloud, and SSH
 first_seen: '2026-08-08T10:44:11Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

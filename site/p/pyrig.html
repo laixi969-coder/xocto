@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Pyrig</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">自动化项目初始化和日常维护的工具</p>
@@ -82,25 +83,117 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前搭一个现代 Python 项目，要么手动把 pyproject.toml、ruff、pytest、 pre-commit、GitHub Actions 一个个配好——每个新项目重复一遍，且版本更新后 配置容易过时；要么用 cookiecutter 这类模板，生成一次就完了，之后项目演进 不会自动跟进。pyrig 替代的是两件事：手工重复配置，以及&#34;模板只生成、不维护&#34; 的断层——它把配置维护做…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：任何&#34;模板/初始化&#34;类功能，参考&#34;生成只是开始，维护才是价值&#34;—— 把配置更新做成持续动作（sync）而不是一次性生成。另一个可抄点： 让用户能子类化覆盖一切行为，而不是提供一堆开关——可扩展性比可配置性 对高级用户更有吸引力。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个把 Python 项目从初始化到日常维护全部标准化的工具：跑一次 <code>pyrig init</code>
+得到完整可用的项目（工具链、CI/CD、CLI 都配好），之后用 <code>pyrig sync</code>
+持续把配置更新到最新。</p>
+<h2>做这个东西的人</h2>
+<p>Winipedia（GitHub 单用户组织）的个人项目。作者一个人维护，2,254 次提交、
+8 月 13 日还在提交——投入度极高。仓库挂在 Winipedia/pyrig，主页是完整的
+文档站，还配了 YouTube 教程和 AI 生成的 CodeWiki 文档。</p>
+<p><em>判断：单作者、超高频提交、全套文档——这是典型的&quot;作者自己被脚手架折磨过&quot;的
+产物，项目生命周期完全取决于一个人的持续投入。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>一键脚手架</strong> → <code>pyrig init</code> 生成标准目录、配好的 dev 工具（lint、格式化、
+类型检查、测试框架、git hooks）、端到端 CI/CD（GitHub Actions + 仓库保护规则）、
+一个开箱即用的 CLI</li>
+<li><strong>配置即代码</strong> → 每个项目文件被当成一个数据结构类管理，内容加载后按 schema
+校验；可以子类化覆盖任何行为，<code>pyrig mk subcls</code> 生成子类</li>
+<li><strong>持续同步</strong> → <code>pyrig sync</code> 一次性创建/更新所有配置文件，还能自动生成并维护
+所有源码模块的测试骨架（mirror tests）</li>
+<li><strong>自动 CLI</strong> → 项目自带 <code>version</code> 等命令，<code>pyrig mk cmd &lt;name&gt;</code> 随时加新命令</li>
+<li><strong>自带对照</strong> → README 专门做了与 cookiecutter、copier、pyscaffold 的对比页</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前搭一个现代 Python 项目，要么手动把 pyproject.toml、ruff、pytest、
+pre-commit、GitHub Actions 一个个配好——每个新项目重复一遍，且版本更新后
+配置容易过时；要么用 cookiecutter 这类模板，生成一次就完了，之后项目演进
+不会自动跟进。pyrig 替代的是两件事：手工重复配置，以及&quot;模板只生成、不维护&quot;
+的断层——它把配置维护做成持续动作（sync）。</p>
+<h2>商业模式</h2>
+<p><strong>MIT 开源，无定价、无托管服务。</strong> 个人开发者项目，作者没展示任何变现动作。</p>
+<p><em>判断：这类工具通常是作者的简历和内部效率件。没有托管服务就没有付费入口，
+star 和引用率是它唯一的资产。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>27 star / 2 fork</strong>，仓库 2025-11-17 建，MIT，Python</li>
+<li>2,254 commits、9 个 open issues，最近提交 2026-08-13，提交频率接近日更</li>
+<li>要求 Python 3.12+ / Git / uv</li>
+<li>HN 6 分、2 评论；无用户规模数据</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>自用工具，作者被脚手架折磨过，匹配度高</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;配置维护要持续而不是一次性&quot;是正确洞察，mirror test 和子类化扩展是有想法的设计</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>2,254 次提交 + 全套文档站，工程投入真实，不是空壳</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>脚手架赛道拥挤（cookiecutter/copier/pyscaffold），且&quot;规范到什么程度&quot;是团队文化问题，工具只能影响一半</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>有待观察。这是个没有 AI 成分的开发者效率工具，方向对但数据太薄。</strong>
+27 颗星说明它还没有跨过&quot;作者自用&quot;到&quot;社区采用&quot;的门槛。它的设计里有真东西——
+把配置维护从一次性模板变成持续同步，这个思路比 cookiecutter 更进一步；
+但它要求用户先接受 uv + 它的整套规范，这是很高的迁移门槛。</p>
+<p><em>判断：这个项目更可能是一份高质量的&quot;个人脚手架哲学&quot;样本，而不是一个
+能长大的产品。观察它有没有被社区真正引用比观察 star 更重要。</em></p>
+<h2>下一步看什么</h2>
+<p>① 三个月后有没有非作者的仓库/项目实际依赖它（引用比 star 更能说明价值）
+② star 能否破百、提交频率是否还能保持
+③ 文档站有没有搜索流量——个人开发者工具的第一个增长信号是&quot;有人搜到它&quot;</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：任何&quot;模板/初始化&quot;类功能，参考&quot;生成只是开始，维护才是价值&quot;——
+把配置更新做成持续动作（sync）而不是一次性生成。另一个可抄点：
+让用户能子类化覆盖一切行为，而不是提供一堆开关——可扩展性比可配置性
+对高级用户更有吸引力。</p>
+<p><strong>话术</strong>：无。工程文档，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 工程质量真实、思路有独到之处，但没有社区采用证据、
+没有变现路径，且是单作者项目。三个月后看引用和搜索流量，再决定是否值得
+进一步跟踪。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +213,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +223,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +233,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +286,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

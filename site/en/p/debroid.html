@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>debroid</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Autonomous, headless Android debugger designed for AI coding agents. Inspect runtime memory, set breakpoints, and debug live apps.</p>
@@ -81,18 +82,139 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Debugging an Android bug with an AI agent used to be blind guesswork: writing code works, but runtime debugging doesn&#39;t — the agent can&#39;t open Android Studio, click through the UI, set a breakpoint, i…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: to give an agent &#34;hands,&#34; reach first for the field&#39;s most mature deterministic protocol (debug protocol, scripting protocol, CLI) and wrap it as JSON — reusing the protocol saves a dec…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A headless Android debugger for AI coding agents: the agent runs commands in the terminal and,
+through the JDWP (Java Debug Wire Protocol), sets breakpoints, traps exceptions, steps through
+code, inspects and mutates variables, and watches fields on a live Android app — no GUI, all
+strict machine-parseable JSON.</p>
+<h2>Who built it</h2>
+<p>Shreyas Patil (GitHub <code>PatilShreyas</code>), an experienced Android/Kotlin developer well known in
+the Kotlin community for a long line of Android infrastructure open-source projects.
+Apache-2.0, Kotlin/JVM via the Java Debug Interface, with GitHub Actions CI.</p>
+<p><em>Read: only someone who really understands JVM debug protocols could write this — it exposes
+the same JDWP channel humans use in Android Studio as a machine-readable CLI, instead of
+building screenshot recognition or instrumentation. That is the right way to use your old
+domain knowledge: reuse the most mature protocol in the field rather than inventing a wheel.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Breakpoints</strong> → line breakpoints on any class, auto-deferred if the class isn't loaded yet</li>
+<li><strong>Exception traps</strong> → globally catch caught or uncaught exceptions (uncaught-only by default)</li>
+<li><strong>Watchpoints</strong> → live monitoring of field access and modification</li>
+<li><strong>Deep inspection</strong> → recursively inspect deep object memory, locals, and call frames, with
+built-in cycle guards</li>
+<li><strong>Live mutation</strong> → <code>set-var</code> changes memory on a paused thread; <code>eval</code> evaluates Java
+expressions directly in the target VM</li>
+<li><strong>Stepping</strong> → Step Over / Into / Out / Resume</li>
+<li><strong>Coroutine-aware</strong> → extracts shallow locals from Kotlin Continuation frames (coroutine
+debugging is a real pain point, handled with unusual care)</li>
+<li><strong>Open-box for six agent harnesses</strong> → one-command skill installs for Claude Code, Codex,
+Grok Build, OpenCode, Cursor, and Antigravity</li>
+</ul>
+<p><strong>The most notable architecture choice</strong>: the CLI is stateless and a daemon persists — the
+debug connection and breakpoint state survive across agent invocations because the background
+daemon holds them.</p>
+<p><strong>What it deliberately does not do</strong>: no GUI, no instrumentation hooks, no test reports. And the
+security note is blunt: the daemon listens on localhost without authentication and exposes live
+JVM manipulation — run it only on machines where every local user is trusted.</p>
+<h2>What old behavior it replaces</h2>
+<p>Debugging an Android bug with an AI agent used to be blind guesswork: writing code works, but
+runtime debugging doesn't — the agent can't open Android Studio, click through the UI, set a
+breakpoint, inspect memory, or pause execution. So agents debugged from logcat and guessed,
+each wrong guess costing a rebuild cycle.</p>
+<p>Debroid replaces the <strong>&quot;human doing runtime debugging in Android Studio&quot;</strong> step: every GUI
+action is translated into deterministic JSON commands, letting the agent itself go
+&quot;hypothesize a bug → launch the app → land on the exact failing line → read the device's live
+state → evaluate the fix.&quot;</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Apache-2.0, free, no hosted service, no pricing. The author presumably has a day job.</p>
+<p><em>Read: the classic personal open-source-tool-for-reputation pattern, with no near-term
+commercial intent. But it validates a category — &quot;let agents operate real devices and real
+runtimes&quot; — which will probably be commercialized later through agent-native workflows
+(harnesses, IDEs, cloud debug services) rather than through this CLI itself.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>162 stars / 7 forks</strong> (2026-08-12, per pool data)</li>
+<li>Created 2026-08-02; 90 commits to v0.1.0 in nine days — very high early development density</li>
+<li>Apache-2.0, Kotlin/JVM, ~22 commands</li>
+<li>Users, enterprise adoption, funding: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Seasoned Android/Kotlin developer who knows the JVM debug stack cold — maximal fit</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Saw the gap (&quot;agents write mobile code but can't debug it&quot;) and chose to reuse JDWP instead of inventing an approach</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>90 commits in 9 days, strict JSON contract with schemas, coroutine awareness, skill installs for six harnesses — not the shape of a one-week project</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Ahead of the demand curve — agents are still mostly doing web/desktop; mobile debugging demand is just emerging, and so is the paying side</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Top-tier execution for a project this size, but the category's commercial timing is early.</strong></p>
+<p>The smartest decision is <strong>reusing JDWP instead of inventing</strong>. The debug protocol is two
+decades of deterministic engineering in the JVM world; exposing it as JSON CLI hands every
+capability a human had in an IDE to the agent. Wrapping a mature protocol beats screenshot
+recognition or custom instrumentation on every axis — lighter, more reliable, cheaper.</p>
+<p><strong>The &quot;persistent daemon + stateless CLI&quot; architecture is worth stealing too</strong>: the classic
+failure of agent tools is that each invocation is a fresh process and all state dies. A
+persistent daemon keeps the debug session alive across calls — the structure every agent-tool
+interface should copy.</p>
+<p><strong>Two realities</strong>: platform lock-in (Android only; iOS is another protocol stack and won't be
+covered by accident), and demand timing — most teams haven't even gotten agents to write mobile
+code reliably yet, let alone debug it. Great tool, waiting for its queue.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars clear 1,000 in three months — does the week-one spike become sustained adoption
+② Whether anyone wires debroid into a real CI/emulator flow and says so publicly (blog, issue,
+demo) — real use, or just enthusiasm
+③ Whether it expands to iOS/web debugging or ships a managed daemon — single-platform is the
+hard ceiling, and that is the breaking point</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: to give an agent &quot;hands,&quot; reach first for the field's most mature
+deterministic protocol (debug protocol, scripting protocol, CLI) and wrap it as JSON — reusing
+the protocol saves a decade of trial and error over custom instrumentation or visual approaches.</p>
+<p><strong>Architecture</strong>: &quot;persistent daemon holds state + stateless CLI&quot; is the standard shape for
+agent tools; letting each agent call pick up the previous context is what decides whether a
+tool survives long-term agent use.</p>
+<p><strong>Distribution</strong>: embedding SKILL.md in the binary and installing into six harnesses with one
+command — &quot;how an agent learns to use your tool&quot; is a distribution problem, not a docs problem,
+and this solution is directly copyable.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven (execution worth watching).</strong> Right author, right approach, high completeness — but
+162 stars, a single platform, no monetization, and demand ahead of its market all point to
+&quot;wait.&quot; File it as the benchmark sample for the &quot;let agents operate real runtimes&quot; category and
+revisit against the three checks above in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +225,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +256,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +314,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>artificialanalysis</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Create custom benchmarks to evaluate AI models for specific use cases.</p>
@@ -82,18 +83,137 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Two paths, both bad.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you build anything that &#34;helps the user decide,&#34; give the decision back to the user&#39;s concrete task instead of offering an average. Averages drive traffic; private evaluations earn t…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Instead of picking models by a generic leaderboard, you build a benchmark around your own
+task, run it, and read off score, cost, and latency per model — turning model selection from
+a gut call into a reproducible measurement.</p>
+<h2>Who built it</h2>
+<p>Artificial Analysis, an independent third-party model benchmarking company, co-founded by
+George Cameron. It runs the model Intelligence Index (now v4.1) and a family of leaderboards,
+publishes evaluations of 150+ models, and in mid-2026 added six industry indices (finance,
+legal, healthcare, ops, engineering, economics) weighted by the O*NET occupational taxonomy.</p>
+<p><em>Read: benchmarking is its home turf, and Optima is an attempt to productize that capability.
+This is not a newcomer — it is an established authority adding a &quot;build your own&quot; exit to its
+existing leaderboards.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Builds your own benchmark</strong> → describe the task, attach examples, import your traces, or let
+the build agent draft tasks and rubrics with you; small batches (the sample page shows 24 tasks)</li>
+<li><strong>Four evaluation types</strong> → Q&amp;A (known correct answers), document Q&amp;A (questions about your
+uploaded files), agentic (complete deliverables with tools), and interaction (simulated
+conversations, coming soon)</li>
+<li><strong>Runs across models</strong> → every result carries score, cost per task, and time per task; your
+own agent can join the same run over HTTP</li>
+<li><strong>Two grading modes</strong> → criterion-by-criterion rubric grading, or pairwise head-to-head with a
+judge model from major evaluations</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no new models, no new benchmark sets, no &quot;here is your
+answer&quot; decision. It only standardizes the evaluation itself.</p>
+<h2>What old behavior it replaces</h2>
+<p>Two paths, both bad.</p>
+<p>The first is reading generic leaderboards — MMLU, Intelligence Index, the averages. They have no
+discrimination for your specific job (&quot;I review contracts&quot;). The top model is not necessarily
+best on your task, but the average score makes you think it is.</p>
+<p>The second is building your own eval: write a script, wire up APIs, run your few dozen examples,
+then eyeball the outputs. Every team rebuilds the same harness, nobody maintains it, and every
+new model release means redoing it.</p>
+<p>Optima replaces all the dirty work in the second path: organizing examples, writing rubrics,
+running batches, summarizing results. It compresses &quot;build one eval&quot; from person-days to token
+counts, and turns &quot;choose by leaderboard&quot; into &quot;choose by your own task.&quot;</p>
+<h2>Business model</h2>
+<p>Usage-based: benchmarks are billed at the raw token cost of the models used, &quot;with nothing added
+on top&quot; (their words); rubric grading is $0.125 per criterion per model; pairwise grading is
+$0.375 per match. A credit hold is taken against a cost estimate before each stage, and only
+actual usage is charged.</p>
+<p><em>Read: this is &quot;evaluation as a service&quot; pricing — the margin comes from grading and orchestration,
+not from marking up model tokens. Note that the grader has become one of the judges, which is a
+position that has to earn trust over time.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Public track record: 150+ models, Intelligence Index v4.1, six industry indices, GDPval-AA v2
+(44 occupations across 9 industries)</li>
+<li>HN launch: 10 points, 0 comments (around 2026-08-13)</li>
+<li>Team size, paying Optima users: not disclosed</li>
+<li>Site traffic roughly 4.2M visits/month (third-party estimate, unconfirmed)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A benchmarking company building a benchmarking tool; the fit is natural, and the company has years of public record</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nails the gap where generic leaderboards have no discrimination for a specific use case, and hands the evaluation back to the use case</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Not disclosed; but rubric grading priced at $0.125/criterion/model implies a mature judge pipeline behind it</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right moment. Model release cadence and agent workloads are both rising; &quot;pick a model with your own task&quot; is just being lit up</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This turns &quot;evaluation&quot; from a public good into a private instrument.</strong> Public leaderboards
+compare across the whole field; Optima compares down one axis — &quot;who is best on your task.&quot;
+The two do not conflict; Optima actually feeds the leaderboards more users who want to get their
+hands dirty.</p>
+<p><strong>The transferable rule: selection only holds when evaluation belongs to the use case.</strong> Any
+situation where you repeatedly pick a supplier — clouds, models, APIs, even vendors — deserves a
+scoring process built on your real tasks rather than a public ranking. A public ranking averages
+away the one dimension that matters most to you.</p>
+<p><strong>The risk is &quot;who judges the judge.&quot;</strong> A benchmarking company selling a grading tool lives or
+dies on reproducibility and auditability. Criterion-by-criterion rubric grading is more auditable
+than pairwise preference, and that design choice is correct.</p>
+<p><strong>The other question</strong>: is an evaluation one-shot or continuous? If every model release means
+re-running, Optima's value scales with usage frequency. If it is used once at selection time, it
+is a low-frequency tool with a limited ceiling.</p>
+<h2>What to watch next</h2>
+<p>① Whether Optima publishes growth numbers for paid evaluations in three months (benchmarks run,
+enterprise customers)
+② Whether results can be exported as reproducible reports — grading method, judge models, version
+numbers — since that decides whether enterprises adopt it in formal selection
+③ Whether agents building and running benchmarks themselves becomes a first-class flow — that is
+the point where it actually changes how people work</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you build anything that &quot;helps the user decide,&quot; give the decision back to
+the user's concrete task instead of offering an average. Averages drive traffic; private
+evaluations earn the money.</p>
+<p><strong>Positioning language</strong>: the pricing phrasing is worth stealing — &quot;raw token cost with nothing
+added on top&quot; plus &quot;$0.125 per criterion&quot; breaks cost down to a perceivable grain and reads far
+more credible than &quot;usage-based pricing.&quot;</p>
+<p><strong>Pricing structure</strong>: price grading and compute separately, and make money on the organization
+layer, not on compute markups.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The company is credible, the direction holds, and the pain is real. But
+Optima just shipped, HN response was lukewarm, and neither paid usage nor reproducibility has
+been proven. Write it down and come back against the three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -104,6 +224,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +255,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +313,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

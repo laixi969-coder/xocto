@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>LongHorizon-Harness</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</p>
@@ -81,18 +82,98 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>It replaces the default architecture of every current agent harness: stuffing execution traces, task state, and completion self-assessment into one growing context. That &#34;lazy default&#34; has three fatal…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Architecture logic: for any long-flow agent team, the first move is to extract &#34;task progress / subtask completion&#34; into structured external state (a database, state machine, or todo list) instead of …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An open-source execution harness that lets agents operate a computer for hours without losing task state: it moves &quot;where am I in the task&quot; out of the conversation context, runs a Manage-Execute-Audit (MEA) three-role loop, executes each round in a fresh context, and only accepts facts an auditor verified from the environment — cutting off the &quot;the agent wrongly believes it finished&quot; error-propagation chain at the root.</p>
+<h2>Who built it</h2>
+<p>Open-sourced by AMAP-ML, the machine-learning team of AutoNavi (Alibaba's mapping arm); the paper is credited to the DreamX Team, Alibaba Group, first author Ziyu Ma. MIT license, code created 2026-08-04, with an arXiv paper (2608.01964). Lab research from a large Chinese tech company's mapping team.</p>
+<p><em>Read: AutoNavi/Alibaba building this makes sense — mapping is a natural long-horizon agent domain (multi-step planning, cross-tool calls, environment feedback). It is a lab research project, not a startup.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Manage-Execute-Audit loop</strong> → the Manager holds task state and dispatches subtasks (reads reports only, never touches the environment); the Executor runs a single subtask in a fresh context (the only role allowed to modify the environment; its traces and reasoning are discarded afterward); the Auditor uses read-only tools to independently check whether the environment meets acceptance criteria (it cannot see the Executor's reasoning or self-assessment, and touching protected state triggers an integrity violation)</li>
+<li><strong>Fresh-context execution</strong> → each round the Executor starts from zero, receiving only the current subtask and audit evidence, preventing context rot</li>
+<li><strong>Durable verified state</strong> → task state is written by the Auditor from the environment and marked completed / pending / blocked / untrusted, with evidence</li>
+<li><strong>Reset without amnesia</strong> → execution errors stay inside their round, exposed by the next audit or never recorded</li>
+<li><strong>Backend-independent</strong> → the three roles can each run on Claude Code, Codex CLI, Gemini CLI, mini-SWE-agent, or any other harness</li>
+<li><strong>Usability</strong> → Python 3.10+, <code>uv tool install lh-harness</code>, CLI with a live dashboard</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>It replaces the default architecture of every current agent harness: stuffing execution traces, task state, and completion self-assessment into one growing context. That &quot;lazy default&quot; has three fatal problems — state becomes untrackable as the context grows, a model believing a step is done lets a wrong self-assessment pollute every later decision, and unbounded context inflates cost.</p>
+<p>LongHorizon-Harness pulls &quot;state&quot; out of the context into an external object that updates only from environment-verified facts. It replaces not a tool but an orchestration paradigm.</p>
+<p><em>Read: this is its biggest contribution to everyone building agents — the problem gets redefined as &quot;task-state management,&quot; not &quot;make the model smarter.&quot;</em></p>
+<h2>Business model</h2>
+<p>None. Pure open source (MIT) plus a paper; no hosted service, no charge.</p>
+<p><em>Read: this is public research from a big-tech lab; the monetization path is not the code itself. If long-horizon agent capability validates internally, the payoff shows up in AutoNavi's own products.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>705 stars / 83 forks / 17 open issues, MIT, created 2026-08-04 (about ten days; 166 stars on day one)</li>
+<li>arXiv 2608.01964, submitted 2026-08-03; Hugging Face Daily Papers #2 on 2026-08-04 (131 likes)</li>
+<li>Benchmarks (same model and backend; harness swapped only):<ul>
+<li>WeaveBench (114 tasks): 51.8% → 80.7% (Qwen 3.7-Plus)</li>
+<li>Terminal-Bench 2.1: 69.7% → 77.2%</li>
+<li>OSWorld 2.0: 2.8% → 8.3% (3x)</li>
+<li>OSWorld 2.0 subset (34 tasks, Claude Opus 4.7): 20.6% → 35.3%</li>
+</ul>
+</li>
+<li>Cost: the Manager consumes only 2.0%–8.1% of tokens; auditing 19.4%–38.1%; on Terminal-Bench total tokens are 24% below baseline</li>
+<li>Team size, any commercialization plan: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A big-tech mapping team with a real long-horizon agent use case, but a team project, not a founder's</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Externalize state + trust only environment-verified facts&quot; hits the root cause of long-horizon failures, one level above context engineering</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Paper + open source + consistent gains across models and domains; research and engineering are both complete</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Long-horizon capability is being recognized as the agent dividing line (METR reports task horizons doubling every ~7 months) — exactly when infrastructure has a gap</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is the key infrastructure that moves agents from &quot;can they do it&quot; to &quot;can they finish it reliably.&quot;</strong> Mainstream agent frameworks are betting on a single long context; LongHorizon-Harness shows that externalizing state and adding a read-only auditor improves long-horizon success across models and backends without touching either. If the result reproduces, it changes the default architecture of agent infrastructure.</p>
+<p><strong>The transferable pattern: add an &quot;environment-facts-only&quot; verification gate to any automation agent.</strong> When an Executor says &quot;done,&quot; do not believe it; have an independent, read-only auditor that cannot see the Executor's self-assessment verify against the real environment. This is anti-hallucination made into engineering, far more reliable than &quot;let the model self-reflect.&quot; Any long-flow agent can adopt this gate directly.</p>
+<p><strong>The limits are real</strong>: the method depends on the environment state being independently readable and verifiable — terminals, OS, and web with observable echoes qualify; open-ended creation and fuzzy requirements have no ground truth to audit. Every round adds one more audit call, raising latency and token cost. The Manager itself may become the next long-horizon bottleneck. And the benchmarks all skew toward verifiable scenarios; generalization evidence is still thin.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars break 3,000 in three months — whether &quot;long-horizon harness&quot; as an infrastructure category gets adopted
+② Whether a non-academic team publicly reproduces the benchmarks (real business workloads, not benchmark suites)
+③ Whether an enterprise hosted tier or official integration with mainstream agent frameworks appears — the signal of moving from paper to product</p>
+<h2>What you can take from it</h2>
+<p><strong>Architecture logic</strong>: for any long-flow agent team, the first move is to extract &quot;task progress / subtask completion&quot; into structured external state (a database, state machine, or todo list) instead of expecting the model to recall it from tens of thousands of context tokens. Externalizing state is the precondition for everything else.</p>
+<p><strong>Execution strategy</strong>: give the executor a fresh context per step, feeding only the current subtask plus necessary evidence. Swap &quot;one giant context&quot; for &quot;short context + external state&quot; and noise accumulation drops sharply.</p>
+<p><strong>Adapter layer</strong>: connect different models and harnesses through a thin adapter without touching their native loops — decouple orchestration from execution backend instead of rewriting the whole pipeline for each new model.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The direction is right, the evidence is solid (consistent gains across models and domains), and it comes from a team with a real use case. But it is a research project, not a product; generalization and the cost ledger need real-business validation. Write it down and check against the three items above in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +184,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +215,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/mcp-server.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">mcp-server</span>
+            <span class="row-desc">MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the category, and you can check it with one API call.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 574</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +273,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

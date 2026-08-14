@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>bb</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">The IDE that builds itself</p>
@@ -81,15 +82,142 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>When an agent workflow tool was missing a feature, you had three options: wait for it on the vendor&#39;s roadmap (months), write a plugin or script yourself (requires dev skills), or make do (broken effi…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you build agent tools, design self-extension into the architecture: let users add UI and features in natural language, and have every addition auto-generate a skill that teaches agen…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An agentic orchestrator GUI (like the Codex app) that works with any provider — Claude Code,
+Codex, OpenCode, and more — where the difference is that it can customize and extend itself:
+almost anything can be changed with a single prompt. Ask for a task tracker and one appears,
+along with a skill that teaches all your agents how to use it.</p>
+<h2>Who built it</h2>
+<p>Chris Messina — the inventor of the hashtag, historically the #1 hunter on the launch platform,
+former Open Web Advocate at Google and Developer Experience Lead at Uber. He self-hunted the
+launch (2026-08-11).</p>
+<p><em>Read: this is a &quot;seasoned product person builds an agent tool&quot; shape. Messina's strength was
+never writing code; it's understanding how developer tools get adopted — he's hunted hundreds
+of products on PH, and now built one himself. That explains why bb's pitch is &quot;workflows can
+grow themselves&quot; rather than &quot;stronger model.&quot;</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Works with any agent provider</strong> → Claude Code, Codex, OpenCode, and more; not locked to
+any single vendor</li>
+<li><strong>Self-extending</strong> → almost any UI or feature can be changed with a prompt; want a task
+tracker and you get one, no waiting on a vendor roadmap</li>
+<li><strong>Auto-generated skills</strong> → every new feature simultaneously generates a skill that teaches
+all your agents how to use it — the feature and its agent-facing documentation are born at
+the same time</li>
+<li><strong>Agentic orchestration</strong> → manages multiple agent sessions like the Codex app, but
+provider-agnostic</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>When an agent workflow tool was missing a feature, you had three options: wait for it on the
+vendor's roadmap (months), write a plugin or script yourself (requires dev skills), or make do
+(broken efficiency).</p>
+<p>bb replaces the waiting part of all three: no more &quot;wait for your agentic workspace to add the
+feature you need&quot; — you ask for it directly. The essence is turning the IDE from
+&quot;vendor-defined features&quot; into &quot;user-defined features&quot;: every new feature is immediate and
+ships with its own usage manual (the skill).</p>
+<p>It also replaces a more fundamental old behavior: the knowledge gap between tools and agents.
+Traditionally, when a tool gained a feature, a human wrote docs and the agent needed
+re-training or reconfiguring to know how to use it. bb makes the feature carry its own
+tutorial — the tool changes, and the agent instantly knows.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> No pricing page, no paid-tier information. The PH listing is tagged GitHub
+(open-source related), but the repo's license and star count have not been verified.</p>
+<p><em>Read: this is the earliest shape — the product just had its PH exposure (189 upvotes, #6
+daily) and there's not a word about business. Its current value is testing whether the
+&quot;self-extending IDE&quot; direction has any interest at all.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>PH: 189 upvotes / 12 comments, #6 daily</strong> (launched 2026-08-11)</li>
+<li>Hunter is Chris Messina (PH's all-time #1 hunter with 2,000+ launches)</li>
+<li>Pricing, users, star count: not disclosed</li>
+<li>GitHub repo exists but license/star count unverified</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High but unusual. Messina isn't a coder; he's the person who best understands developer-tool adoption — he's arriving with a &quot;how will this be adopted&quot; lens</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Self-extending tool + skills generated in sync&quot; is a direct answer to &quot;waiting for vendor features,&quot; a fresh angle</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Unverifiable. The features exist only at PH-copy level; no testable engineering detail</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right. Agent workflow tools are booming, but &quot;let the tool grow into what you need&quot; is still an empty slot</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>An experiment in turning the IDE from vendor-defined to user-defined. The direction has
+imagination; the evidence base is entirely empty.</strong></p>
+<p>The core insight deserves to be taken seriously: once agents are strong enough, the
+vendor-roadmap feature model gets replaced by &quot;ask and receive&quot; — because having an agent
+generate the feature is faster than waiting for the vendor to ship it. The &quot;skills generated in
+sync&quot; design is even smarter: it solves the most common adoption blocker for agent tools (new
+features with no docs, agents that don't know how to use them), making feature and usage
+manual one inseparable unit.</p>
+<p><strong>The transferable rule: in any tool-plus-agent product, feature changes should automatically
+produce agent-facing knowledge changes.</strong> bb's auto-generated skills are an instance of that
+principle — the tool changes and the agent's manual changes with it, no human sync required.
+That principle copies into any product with agent integration.</p>
+<p><strong>But right now it's an idea plus one successful launch.</strong> A meaningful share of those 189
+upvotes comes from Messina's personal gravity — he's PH's #1 hunter and his followers look at
+whatever he posts. That's both a traffic advantage and a judgment trap: the heat may be
+&quot;approval of the launcher&quot; rather than &quot;approval of the product.&quot;</p>
+<p><strong>Between the tiers</strong>: real heat (189 upvotes, #6 daily, a celebrity launch) earns &quot;worth
+watching&quot;; but with no verifiable engineering evidence, no business model, and no user data,
+it can only be &quot;worth watching, pending observation.&quot; The next step is not how many features
+were added; it's whether anyone actually migrates a workflow into it.</p>
+<h2>What to watch next</h2>
+<p>① Whether the GitHub repo goes public with source and stars grow — openness and whether
+source-level conviction follows the buzz
+② Whether real users report in three months that they &quot;grew a usable workflow with bb&quot; — the
+distance from demo to daily driver is its lifeline
+③ Whether a paid plan or enterprise signal appears — if it's only a demo, 189 upvotes is the
+endpoint</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you build agent tools, design self-extension into the architecture: let
+users add UI and features in natural language, and have every addition auto-generate a skill
+that teaches agents how to use it. &quot;Feature and usage manual born together&quot; is a general
+solution to the agent adoption blocker.</p>
+<p><strong>Positioning language</strong>: &quot;The IDE that builds itself.&quot; — a three-word title that compresses
+the entire gap between &quot;wait for the vendor&quot; and &quot;it grows itself.&quot; The most stealable line
+in this batch.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, pending observation.</strong> The direction is imaginative (self-defining tool +
+synchronized skills) and the launch had real heat (#6 daily, celebrity factor), but the
+verifiable evidence is near zero — no source detail, no business model, no users. It's &quot;an
+idea worth writing down, plus one successful launch.&quot; In three months, check GitHub and real
+workflow migration.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +234,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +264,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +317,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>whodunnitai</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Voice driven murder mystery, Interview AI suspects with your voice</p>
@@ -82,22 +83,155 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Playing detective games in the Ace Attorney mold meant picking options from a fixed dialogue tree: you could only ask what the writer pre-wrote, and replays converged.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: split &#34;generation&#34; and &#34;adjudication&#34; into two models with distinct jobs. When your product needs an AI to improvise freely yet still produce a correct result, let one model generate an…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A murder-mystery game you play with your voice: five AI suspects with full backstories,
+you interrogate them freely into a microphone, present evidence, and accuse — and the AI
+answers in real speech. Talking is the gameplay.</p>
+<h2>Who built it</h2>
+<p>A solo project by indie developer MrRowTheBoat, launched as a Show HN around 2026-08-10
+(whodunnitai.com). The game currently ships a single case, &quot;Death at Blackwood Manor&quot;: a
+poisoned patriarch, five guests, one locked-in truth.</p>
+<p><em>Read: a classic &quot;technologist built a game he would play himself.&quot; On HN the discussion
+centered less on &quot;is it fun&quot; and more on &quot;how was this assembled with the latest real-time
+voice models.&quot; The creator replies directly in the thread about API costs and
+hallucinations — high-responsiveness, engineering-first author.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Speech-to-speech interrogation</strong> → OpenAI's gpt-realtime-2 line over WebRTC; you talk
+to suspects like a phone call, not speech-to-text followed by a text reply</li>
+<li><strong>Free-form questions, no dialogue trees</strong> → ask anything, every playthrough's
+conversation path differs, built-in replayability</li>
+<li><strong>A separate judge model</strong> → a gpt-5-mini that takes no part in conversation
+independently rules on whether your presented evidence is valid — generation and
+adjudication decoupled, so one model is never both suspect and referee</li>
+<li><strong>Suspects lie and get flustered</strong> → characters respond per preset principles (may lie,
+must not admit), and the real-time voice carries the tension — interrogation pressure
+is the most-praised part</li>
+<li><strong>Accusation mechanic</strong> → the suspect agent records your stated evidence through a tool
+call and hands a structured list to the judge model for a ruling</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no preset dialogue trees, no text-first pipeline.
+Every link — capture, transcribe, respond, adjudicate — exists to sell the feeling of a
+real interrogation.</p>
+<h2>What old behavior it replaces</h2>
+<p>Playing detective games in the Ace Attorney mold meant picking options from a fixed
+dialogue tree: you could only ask what the writer pre-wrote, and replays converged.</p>
+<p>whodunnitai replaces the real thing — pressing a liar who gets nervous and invents
+stories — which previously only live murder-mystery parties delivered: gather friends,
+spend half a day, need a host. It compresses that into 15-30 minutes in a browser. Peers
+like Vaudeville (Steam) support voice, but as voice-typed text commands; this is true
+speech-to-speech.</p>
+<h2>Business model</h2>
+<p>Free + donations + BYOK. The free tier caps at 30 minutes (briefly cut to 15 after the
+launch-night cost spike). Players can bring their own OpenAI API key for unlimited time;
+the key lives in browser localStorage, and the server issues a temporary credential per
+session without persisting the key. The creator openly asks for donations to cover
+per-minute API costs.</p>
+<p><em>Read: this is not a business model, it is an emergency brake on cost. Real-time voice
+APIs bill by the minute; with a typical 21-minute solve time, every player is a hard
+cost. BYOK is clever cost-shifting — but it turns &quot;buy the game&quot; into &quot;bring your own
+fuel,&quot; and most non-technical players do not have an API key. That door shuts out the
+bulk of the potential audience.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>HN 203-208 points, 86 comments — among the most-discussed voice products in this batch</li>
+<li>Site snapshot: 205 investigations underway, 8 solved, typical solve time 21 minutes</li>
+<li>Launch night exhausted the API balance and players hit connection failures; after the
+fix, roughly $100 burned in a few hours</li>
+<li>The script is produced by a 40-plus-stage generation pipeline — roughly book-length</li>
+<li>Stack: Next.js + MongoDB + Clerk, with gpt-realtime for live voice</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The creator knows the real-time voice APIs from the inside; craft is the core asset, but one person caps content output</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nailed that voice fits games better than tools — talking is already part of interrogation play</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>The decoupled generate-and-judge architecture is the real highlight, a clear step above a single-model bodge</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Real-time voice models just matured and costs just entered a playable range — a genuinely good window</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The product's value is not &quot;a good game&quot; — it is proof that voice interaction works in
+games.</strong></p>
+<p>It validates two things. First, <strong>entertainment tolerates model flaws far better than
+tools do.</strong> In a tool, one mistranscribed word is an incident; in a game, a model
+inventing a false family relationship reads as &quot;the suspect is lying&quot; and becomes
+immersion. That is the most underrated design dividend in voice AI: games convert the
+model's defects into gameplay. Second, <strong>the generate-and-judge split</strong> — gpt-5-mini as
+referee, the suspect model as contestant — is an architecture that ports wholesale to any
+&quot;AI both generates and rules on output&quot; scenario.</p>
+<p><strong>The ceiling is equally legible</strong>: cost is a hard constraint. Under per-minute
+speech-to-speech billing, every free player is a liability and every solver burns money.
+Today it reads more like a technical demonstration — HN's core audience for it is fellow
+developers, not players, which says the first wave of attention is about the architecture,
+not the fun.</p>
+<p><strong>The transferable rule</strong>: for real-time voice products, design the cost structure before
+you design the experience. The 30-minute cap, BYOK, and per-session credentials are the
+honest answer to an unmanaged cost curve. Do not complain about its UX friction — first
+ask what your product burns per minute.</p>
+<h2>What to watch next</h2>
+<p>① Whether a second case ships — one case caps replayability, and content output is the
+life-or-death constraint for a solo author
+② Whether the solved-to-investigated ratio climbs — 8/205 is near-zero conversion and
+means most people never reach the ending
+③ The share of BYOK players — if the free-to-paid path is almost entirely bring-your-own-
+key, pure subscription cannot cover the costs</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: split &quot;generation&quot; and &quot;adjudication&quot; into two models with distinct
+jobs. When your product needs an AI to improvise freely yet still produce a correct
+result, let one model generate and another rule — far more reliable than one model being
+both player and referee. The gpt-5-mini judge is a direct demonstration.</p>
+<p><strong>Positioning language</strong>: none. Its taglines are feature statements; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: BYOK is worth copying for API-usage-billed products — let heavy
+users bring their own fuel while the platform charges for the service layer. The
+precondition is a technically capable audience; it does not fit consumer scenarios.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching — as a technology bellwether, not as a game to buy.</strong>
+How naturally voice works in play, and the two-model adjudication architecture, are both
+directly transferable to any voice or generative product. But until the cost model is
+solved, this one is not a business. In three months, check for a second case and a rising
+solve rate.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -107,7 +241,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +251,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +261,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +271,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ShenNongMi</span>
             <span class="row-desc">Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 103</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 103</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +324,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

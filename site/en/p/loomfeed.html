@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>loomfeed</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</p>
@@ -81,22 +82,144 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Traditional forums (the Reddit pattern) fail on two counts in the AI era: AI content and human content mix indistinguishably, and quality depends on human voting and moderation — expensive and gameabl…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: the AI-content share only rises, and &#34;content credibility&#34; will move from a human duty to a product mechanism. Adding deterministic status labels (hypothesis / supported / contested / r…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An open-source Reddit alternative built for AI agents and humans together: content
+carries provenance, epistemic status labels, and reputation scores, and the
+trustworthiness of AI-generated content is designed into the product.</p>
+<h2>Who built it</h2>
+<p>A solo project by Surya Koritala, MIT licensed. Go 1.25 backend, Next.js 15 frontend,
+PostgreSQL 16 (pgvector, pg_trgm), optional Redis. One-command self-hosting via Docker
+Compose. First released 2026-08-09, with active commits since.</p>
+<p><em>Read: one person and a sharply articulated thesis. &quot;Quality is enforced, not assumed&quot; —
+when that is the product stance, the author is not building a community, he is running
+an experiment about communities.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Provenance tracking</strong> → content's source and evolution are traceable end to end,
+maintained as a citation graph</li>
+<li><strong>Epistemic status labels</strong> → a five-tier shared language for informational
+certainty: Hypothesis / Supported / Contested / Refuted / Consensus</li>
+<li><strong>Reputation and trust scores</strong> → move dynamically with community voting; &quot;trust is
+earned, not bought&quot;</li>
+<li><strong>Human Seal of Approval</strong> → only humans can validate AI-generated content</li>
+<li><strong>Agent Arena</strong> → AI agents debate side by side in structured head-to-heads, and the
+community votes on the most convincing argument</li>
+<li><strong>Eight post types</strong> → text, link, question, task, synthesis, debate, code review, alert</li>
+<li><strong>Three interfaces</strong> → REST (90+ endpoints), MCP, and A2A, so agents can plug in
+directly</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Traditional forums (the Reddit pattern) fail on two counts in the AI era: AI content
+and human content mix indistinguishably, and quality depends on human voting and
+moderation — expensive and gameable.</p>
+<p>Previously, judging whether a piece of information was trustworthy meant relying on
+personal experience and hand-to-hand combat in the comments. loomfeed replaces that
+with a systemic mechanism — provenance, status labels, reputation scores, human
+backing. Trust shifts from &quot;the reader evaluates it&quot; to &quot;the platform labels it.&quot; It
+does not replace a specific tool; it replaces a class of workflow: &quot;UGC forums with no
+trust layer.&quot;</p>
+<h2>Business model</h2>
+<p><strong>MIT open source, no hosted service, no pricing.</strong> External services (LLM providers,
+OAuth, analytics, email) are all optional and off by default; costs of using them are
+borne by whoever deploys.</p>
+<p><em>Read: this is still a project, not a product. But note the structure — the trust
+mechanism is packaged as self-hostable open source, and if the mechanism proves out, a
+hosted edition is the obvious place to charge.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>212 stars / 2 forks / 0 open issues</strong> (sampled 2026-08-13)</li>
+<li>MIT, Go + Next.js + PostgreSQL, first release 2026-08-09</li>
+<li>REST API with 90+ endpoints, plus MCP and A2A</li>
+<li>Users and deployment instances: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Solo project, thesis-first, high engineering completeness — but community-running ability is untested</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Pinpointed the trust gap in AI-era communities; &quot;epistemic status labels&quot; is a transferable mechanism</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Three interfaces, eight post types, Docker self-hosting. A complete system, not a demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Rising AI content share is a certain trend, but &quot;humans and agents in one community&quot; is far from mainstream</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It turns &quot;content credibility&quot; from a human duty into a product mechanism.</strong> That is
+the most valuable cut in this whole thread. Old forums outsource trust to the reader:
+you tell AI posts from human posts yourself, you chase sources yourself. loomfeed makes
+provenance, certainty status, reputation, and human backing a layer of the platform, so
+readers stop re-judging from scratch every time. The &quot;epistemic status label&quot; pattern
+is a layer any content product can copy directly.</p>
+<p><strong>But 2 forks / 0 issues means only the author is pushing this today.</strong> A mechanism
+without a second deployment and outside feedback is still a design document. Self-hosted
+projects die most often in exactly this gap: &quot;the author runs it happily, nobody else
+can.&quot;</p>
+<p><strong>&quot;Human Seal of Approval&quot; is the most interesting bet on the board.</strong> It assumes that
+once AI content dominates, &quot;verified by a human&quot; becomes scarce in itself. If that
+assumption holds, certification-style mechanisms will appear in almost every content
+product; if human verification gets mass-forged or diluted, the mechanism depreciates
+with it.</p>
+<p><strong>It does not replace Reddit; it replaces the hidden cost of Reddit's trust model.</strong>
+Community products fail on cold start, not features. loomfeed's cold start is harder
+than a normal forum's because it first asks users to learn the language of epistemic
+status labels.</p>
+<h2>What to watch next</h2>
+<p>① Whether forks and issues move — 2 forks / 0 issues means a solo project today
+② Whether a second instance gets deployed — a self-hosted project only the author runs
+is not a product
+③ Whether the epistemic labels demonstrably improve discussion quality — the mechanism
+only holds if people actually use it</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: the AI-content share only rises, and &quot;content credibility&quot; will move
+from a human duty to a product mechanism. Adding deterministic status labels
+(hypothesis / supported / contested / refuted / consensus) plus a human-backing slot is
+a layer any UGC product can copy.</p>
+<p><strong>Positioning language</strong>: none. The README is engineering documentation; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The ideas and mechanisms are worth more than its current scale, but
+2 forks / 0 issues means it is still one person's system. The mechanism is copyable,
+the product is unproven — file away &quot;epistemic status labels,&quot; do not commit to the
+product yet.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -106,7 +229,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +239,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +249,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +259,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ShenNongMi</span>
             <span class="row-desc">Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 103</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 103</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +312,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

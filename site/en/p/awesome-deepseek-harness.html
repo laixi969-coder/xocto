@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>awesome-deepseek-harness</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Curated list of plugins, tools, and infrastructure for the DeepSeek Harness ecosystem.</p>
@@ -82,15 +83,121 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Finding a DSH plugin used to mean browsing the GitHub dsh-plugin topic yourself and opening every repository to read its README — no categories, no maintenance, no quality signal. This replaces &#34;flipp…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: in any new tech ecosystem, &#34;the index the official side does not build&#34; is a low-cost slot-filling play — it needs no technical invention, only curatorial discipline, continuous updates…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A map of the DSH ecosystem — plugins, tools, and infrastructure scattered across the dsh-external/hub
+catalog and the public GitHub dsh-plugin topic, organized into functional categories in a
+continuously maintained list where every entry is a repository plus a one-line description.</p>
+<h2>Who built it</h2>
+<p>0xsline, a solo maintainer. 122 commits, latest on 2026-08-14, with a thanks to the Linux Do
+community. Bilingual README (EN/zh-CN), a contribution guide, and a complete CATALOG.md.</p>
+<p><em>Read: a directory product is the classic gap &quot;the official side does not build, the community
+does.&quot; DeepSeek only provided the plugin topic; nobody indexed the ecosystem, and 0xsline took the
+slot. Such slots have a defining property: whoever takes them first becomes the default entry
+point.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>~180 entries across 15 categories</strong> → core, context &amp; search, input &amp; editing, UI &amp; experience,
+IDE &amp; clients, browser &amp; remote, models &amp; inference, Git &amp; engineering, notifications &amp; channels,
+fun &amp; lifestyle, infrastructure &amp; development, science &amp; research, and more</li>
+<li><strong>Sources</strong> → the dsh-external/hub catalog plus the public GitHub dsh-plugin topic</li>
+<li><strong>A clear entry standard</strong> → repository + one-line description + link, with contributors
+submitting against it</li>
+<li><strong>Bilingual docs and CI</strong> → EN/zh-CN READMEs, automated refresh, near-daily commits in recent days</li>
+<li><strong>Installation paths included</strong> → official runtime via <code>npx @deepseek-ai/dsh web</code>, external
+plugins via <code>dsh plugin --profile web add &quot;github:owner/repo#ref&quot;</code></li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Finding a DSH plugin used to mean browsing the GitHub dsh-plugin topic yourself and opening every
+repository to read its README — no categories, no maintenance, no quality signal. This replaces
+&quot;flipping through topic tags&quot; by compressing discovery from &quot;browsing repositories&quot; to &quot;reading a
+catalog and copying an install command.&quot;</p>
+<p>The old behavior it displaces is essentially search-engine-style discovery, and in the early life
+of an ecosystem curated discovery almost always wins — because when there are too few entries,
+search is all noise and curation has direction.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> A pure open-source directory: no sponsorship, no ads, no hosted service.</p>
+<p><em>Read: a directory product almost never makes money directly; it earns a position in the ecosystem.
+If the DSH ecosystem grows, this is the first entry point anyone finds, and the monetization paths
+(ads, listings, enterprise indexing) are all downstream. Right now there is zero evidence of
+monetization.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>255 stars / 64 forks</strong>, 122 commits</li>
+<li>~180 entries across 15 categories, sourced from dsh-external/hub and the dsh-plugin topic</li>
+<li>Note: the URL in the pool file (deepseekdocs.com) is DeepSeek's official documentation site, not
+this repo's own site — it has no standalone site; the README is delivered in EN/zh-CN</li>
+<li>Team and commercial data: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A directory maintainer needs no technical invention, only sustained curatorial discipline — and 0xsline's commit density is high. Fits</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Indexing before the official side does, with categories aligned to how plugin developers shop. Accurate judgment</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Bilingual docs, CI, contribution guide, complete catalog file. More engineered than the average awesome list</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Perfect — refreshing continuously around the DSH launch, and a directory's value peaks in the early ecosystem</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It is essentially an option on the DSH ecosystem: the bet is the premise that DeepSeek builds
+out the harness ecosystem.</strong> If DSH succeeds, this is the first entry point anyone finds. If it
+fails, this becomes another 255-star repository of dead links. As reading material, it is the best
+single window into the current DSH ecosystem. As a product, it has no ability to survive outside
+the ecosystem.</p>
+<p>Its value to practitioners: a ready-made checklist of &quot;what agent plugins are still missing&quot; —
+scanning its 15 categories for empty ones is faster than inventing product directions from a
+requirements document.</p>
+<h2>What to watch next</h2>
+<p>① Whether the entry count grows in step with the DSH ecosystem — 180 entries doubling in three
+months means the ecosystem is growing
+② Whether curation discipline decays — placeholder repos, duplicate entries, dead links
+③ Whether it upgrades from &quot;directory&quot; to &quot;navigation site&quot; — search, ratings, or a standalone
+site would mean it has begun monetizing its ecosystem position</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: in any new tech ecosystem, &quot;the index the official side does not build&quot; is a
+low-cost slot-filling play — it needs no technical invention, only curatorial discipline,
+continuous updates, and bilingual readability. Take the slot first; if the ecosystem grows, it is
+the entry point, and if it does not, the cost was low. Transferable to any direction you expect to
+heat up before the official side lays infrastructure.</p>
+<p><strong>Positioning language</strong>: none.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> It is the observation post for the DSH ecosystem — worth little by itself,
+valuable for what it tells you about the state of the ecosystem. Read it monthly as reference
+material, rather than tracking it as a product.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +214,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +224,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +234,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +297,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

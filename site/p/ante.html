@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Ante</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">单个二进制文件的编程 agent，断网也能跑</p>
@@ -82,15 +83,134 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>用编码 agent 干活，过去默认要装一套运行时和依赖：Node 环境、Python 环境、编辑器插件、 一堆包树，还要配好 API key 或者本地起一个 Ollama 之类的推理守护进程。 &#34;环境漂移&#34;是常态——上周能跑的容器这周就静默失败。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你的工具面向&#34;并行跑很多 agent&#34;或&#34;隔网环境&#34;两个场景之一， &#34;单二进制 + 零运行时依赖 + 可选本地推理&#34;是值得复制的架构决策；但要先想清楚 闭源 vs 开源的信任成本——承诺离线隐私的产品，不能给用户一个无法审计的二进制。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个约 15MB 的 Rust 单二进制编码 agent，把 llama.cpp 推理引擎、grep、git 全塞进一个文件里，
+断网也能用本地 GGUF 模型跑完整条&quot;读代码—改代码—跑测试&quot;的回路，也能接任意云端模型。</p>
+<h2>做这个东西的人</h2>
+<p>Antigma Labs（antigma.ai）出品，核心作者自述专注&quot;harness 而不是模型&quot;。
+公开仓库 Apache-2.0，仓库 2025-12-23 创建，目前 1,680 star / 52 fork，最新版本 v0.preview.78。
+核心 harness 以预编译二进制分发，源码在私有仓库开发，开源部分是文档、协议（protocol-shape）、
+SDK（agent-sdk）和评测流水线（ante-harbor）。</p>
+<p><em>判断：把&quot;打包&quot;当成产品核心、用公开评测（Terminal-Bench）当信任状，这两件事是同一个赌注——
+在 agent 工具同质化的阶段，靠工程和透明度抢开发者。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>单二进制跑四种形态</strong> → 交互 TUI（<code>ante</code>）、无头一次性任务（<code>ante -p</code>，适合 CI）、
+长驻 server（<code>ante serve</code>，JSONL 协议，接编辑器插件）、gateway（<code>ante gateway</code>，当 Slack/Discord bot）</li>
+<li><strong>内置本地推理</strong> → 固定版本的 llama.cpp，指向任意 GGUF 文件即可离线跑，
+无需 API key、账户和联网；也支持 12+ 云端提供商（Anthropic、OpenAI、Gemini、DeepSeek 等）且可切换</li>
+<li><strong>嵌入常用工具</strong> → grep 和 git 直接编进二进制，不 shell 出去调外部程序</li>
+<li><strong>多 agent 与记忆</strong> → 子 agent 编排、MCP、跨会话持久记忆</li>
+<li><strong>命名配置档（profiles）</strong> → 同一二进制用 <code>--profile</code> 切换不同系统提示词/工具集/技能组合，
+内置极简的 <code>bare</code> 档，社区可分享新档</li>
+<li><strong>可验证的评测</strong> → 在 Terminal-Bench 2.1 上按官方排行榜约束持续公开评测，
+每次结果绑定一个可下载的构建版本，可审计</li>
+</ul>
+<p><strong>它明确不做</strong>：不做账户强制（README 写&quot;不需要账户，甚至不需要我们的账户&quot;）、
+不锁定单一模型供应商。遥测默认开但可 <code>ANTE_TELEMETRY=off</code> 关，只发匿名安装标签。</p>
+<h2>它在替代什么旧行为</h2>
+<p>用编码 agent 干活，过去默认要装一套运行时和依赖：Node 环境、Python 环境、编辑器插件、
+一堆包树，还要配好 API key 或者本地起一个 Ollama 之类的推理守护进程。
+&quot;环境漂移&quot;是常态——上周能跑的容器这周就静默失败。</p>
+<p>Ante 替代的是这一整套安装与运行假设：一个文件，<code>curl | bash</code> 完事，
+要本地跑就把 GGUF 文件指给它，不用起任何守护进程。</p>
+<p>离线这半边替代的是另一个旧行为：军工、医疗、金融这些隔网环境，过去基本与 agent 无缘——
+&quot;你的代码永不离开机器&quot;对这类用户不是卖点而是入场券。以前他们只能手动改代码，
+现在多了一个能断网跑 agent 的选项。</p>
+<h2>商业模式</h2>
+<p><strong>alpha 免费</strong>。预编译二进制在 alpha 预览期免费（含商用），按 BINARY-TERMS.md 授权；
+开源部分 Apache-2.0。README 提到一个可选的托管服务 antix.antigma.ai，暗示未来商业化方向，
+但无定价。</p>
+<p><em>判断：这是 open-core 的老路——二进制免费圈人，未来靠托管层收钱。但当前连&quot;是否需要云&quot;
+都没说死，商业模式本身还没立起来。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>1,680 star / 52 fork</strong>，仓库 2025-12-23 建，最新版本 v0.preview.78（2026-08-14 发布）</li>
+<li><strong>HN：159 分、88 条评论</strong>，当日引发讨论并登上首页</li>
+<li><strong>Terminal-Bench 2.1：82.7%</strong>（DeepSeek V4 Flash 0731，89 任务 × 5 次试验，
+368/445 通过，推理成本约 $68）；官方排行榜 #1 是 Claude Code + Fable 5（83.8%），
+Ante 未提交官方榜，82.7% 是自报数字</li>
+<li><strong>资源占用</strong>：同一批 20 个并行 Docker 任务，峰值内存约低 7×、平均 CPU 约低 9×、
+磁盘 I/O 约低 5×（对照 Claude Code，自报）</li>
+<li>离线配置自报约 56.2%（Qwen 类 27B 量化模型，HN 讨论中出现的数字）——
+买&quot;离线&quot;要付出约 25 个百分点的成功率</li>
+<li>团队人数、付费用户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者自述专注 harness，痛点是&quot;agent 工具太重、太依赖云&quot;，匹配度成立</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>两个判断都对：打包即产品；离线不是卖点是隔网环境的入场券</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>Rust 单二进制、内嵌 llama.cpp 和 grep/git、持续公开评测，工程上是认真的</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>对。agent 工具已同质化，效率和离线是两个还没被卷透的维度</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;BusyBox/SQLite 哲学应用到 agent&quot;的产物：打包方式本身就是产品主张。</strong>
+别的 agent 拼模型和提示词，Ante 拼的是&quot;不装环境、不联网、一个文件就跑&quot;。
+对想并行跑几十上百个 agent 的团队，harness 的重量从四舍五入变成账单本身，
+这个方向成立。</p>
+<p><strong>它和 Cloud Code 们最大的分歧在信任模型。</strong> 核心 harness 闭源、预编译分发，
+而它的整个卖点是&quot;代码不出你的机器&quot;——需要离线 agent 的恰恰是监管和涉密行业，
+恰恰是最不会凭信任跑一个无法审计二进制的人群。开源部分（SDK、协议、评测流水线）
+开放了，但&quot;你真正运行的那个东西&quot;不能完整检查。作者承诺逐步开源核心 crates，
+在做到之前，pitch 和 license 在互相打架。</p>
+<p><strong>评测数字要打折扣看。</strong> 82.7% 用了云端 DeepSeek 模型，和&quot;离线&quot;是两套配置；
+自报的离线数字约 56%，比前端配置低约 25 个百分点。买离线功能的人付出的是真实代价，
+这笔账必须摆在桌面上。</p>
+<p><strong>可迁移的规律：单文件分发是把安装成本砍到零的最彻底做法。</strong>
+不用安装器、不用依赖树、不用守护进程，一个 curl 管道就完事——
+对开发者工具的转化率，安装成本的影响被系统性低估。</p>
+<h2>下一步看什么</h2>
+<p>① 核心 harness 的源码是否兑现&quot;progressive&quot;开源承诺——开源进度即信任修复速度
+② 是否提交 Terminal-Bench 官方排行榜——自报 82.7% 上了官方榜才是真数字
+③ 托管服务 antix 的定价与形态——这是从免费圈人到商业模式的第一步</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果你的工具面向&quot;并行跑很多 agent&quot;或&quot;隔网环境&quot;两个场景之一，
+&quot;单二进制 + 零运行时依赖 + 可选本地推理&quot;是值得复制的架构决策；但要先想清楚
+闭源 vs 开源的信任成本——承诺离线隐私的产品，不能给用户一个无法审计的二进制。</p>
+<p><strong>话术</strong>：&quot;No account required, not even with us&quot;——把&quot;无锁定&quot;表达成对用户最低的
+承诺门槛，比罗列支持多少供应商更有记忆点。</p>
+<p><strong>定价结构</strong>：alpha 免费商用 + 未来托管层的 open-core 路径是当前 agent 工具的默认结构，
+可以观察但不必复制；真正的问题是托管层和免费二进制之间是否有人愿意付费。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 打包哲学和评测透明度在同类里罕见，HN 讨论热度真实（159 分、88 评论）。
+但信任模型（闭源核心）和离线性能（-25 分）是两个需要兑现的承诺。
+三个月后拿上面三条验证，尤其第一条——它决定这个项目是&quot;真开源&quot;还是&quot;开放外壳&quot;。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +227,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +237,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +247,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +257,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +310,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

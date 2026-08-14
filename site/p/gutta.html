@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Gutta</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">Mac 菜单栏里的极简待办清单，离线可用</p>
@@ -82,25 +83,97 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>记一个&#34;明天上午买面包&#34;这类小任务，以前有三个选项：打开 Things/Todoist 这类重待办（慢、要填表单、要登录、订阅制）；拿系统备忘录（没有提醒、没有时间概念）；或者干脆靠脑子记（必忘）。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：做效率工具时，&#34;减少从想法到落地的摩擦&#34;比加功能重要——它把输入路径压到一行快捷键加自然语言，这就是全部设计。任何&#34;捕捉类&#34;工具都该先问：从你想到这件事到它被记下，最快能多快。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>Mac 菜单栏里的极简待办：按 ⌘⇧Space，用自然语言输入任务，回车继续干活。本地存储、无账号、无订阅。</p>
+<h2>做这个东西的人</h2>
+<p>Vaibhav Pathak，独立开发者，PH 发布帖自述&quot;捕捉任务应该几秒完成，而不是把你拽进另一个 App&quot;。首次公开发布。</p>
+<p><em>判断：这是经典的个人工具——作者自己受不了重待办软件，就做一个不打扰自己的。这类产品的问题是容易&quot;小而美但没人知道&quot;，PH 热度是它目前唯一的外部验证。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>键盘优先</strong> → ⌘⇧Space 唤出，输入、回车、继续干活，全程不用鼠标</li>
+<li><strong>自然语言时间</strong> → &quot;buy bread tomorrow morning&quot;&quot;call mom at 5pm&quot;自动解析成带时间的任务；morning/afternoon/evening 给默认时间，显式时间优先</li>
+<li><strong>批量输入</strong> → 分号分隔一行建多个任务</li>
+<li><strong>本地提醒</strong> → 全局默认提前量（15/20/30 分钟等），可逐任务覆盖；只有真有未来提醒时才要通知权限</li>
+<li><strong>文件夹同步</strong> → 用自己的 iCloud Drive/Dropbox/OneDrive 文件夹同步多台 Mac，每个任务一条 JSON，无冲突库；无 Gutta 账号、无开发者自有云</li>
+<li><strong>离线优先</strong> → SwiftData 本地存储，无网照常工作，恢复联网后追平</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>记一个&quot;明天上午买面包&quot;这类小任务，以前有三个选项：打开 Things/Todoist 这类重待办（慢、要填表单、要登录、订阅制）；拿系统备忘录（没有提醒、没有时间概念）；或者干脆靠脑子记（必忘）。</p>
+<p>Gutta 替代的是&quot;<strong>为记一个小事付出整个 App 的成本</strong>&quot;这个不匹配——它把记任务压缩到 2 秒，并且把数据所有权留给用户。</p>
+<h2>商业模式</h2>
+<p><strong>免费。</strong> 开源，无订阅、无账号、无内置付费。唯一&quot;成本&quot;是用户自己的云文件夹。</p>
+<p><em>判断：没有商业模式。这类工具的作者通常靠&quot;知名度到接活或其他产品&quot;回本，或者它只是作者的工具癖产物。判断它值不值得用，只该看它自己好不好用。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>PH 发布（2026-08-10）：<strong>145 upvote、6 条评论、当日 #7</strong></li>
+<li>要求 macOS 14+；SwiftData；开源（GitHub）</li>
+<li>单 JSON 每条任务、文件夹同步，无数据库冲突</li>
+<li>用户数：未披露（首次发布）</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高。作者自己是目标用户，功能集就是他的使用习惯</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;任务列表的数据应该属于你&quot;和&quot;键盘优先&quot;是两个真实的差异化</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>代码无法核验，但首次发布功能集完整（输入、提醒、同步三件套都在）</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>待办是红海中的红海，但&quot;本地优先、无订阅&quot;的反向定位仍在吸引付费用户</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>它赢在&quot;拒绝&quot;。</strong> 别的待办 App 往上加团队、日历、看板、AI；它往下砍——没有账号、没有订阅、没有云、没有开发者数据库。这个&quot;什么都不提供&quot;的姿态恰恰是它的产品定义：把你的数据留在你的文件夹里，把入口压到一行键盘快捷键。</p>
+<p><strong>它的风险是&quot;少&quot;的边界。</strong> 没有提醒到站即过期、没有自然语言提醒以外的调度能力、macOS 14+ 限定，意味着它不适合重度任务管理用户；而轻度用户通常懒得为 2 秒的节省安装一个新工具。PH #7 证明它获得了第一批注意力，但待办工具的留存曲线比别的品类都残酷。</p>
+<p><strong>市场判断</strong>：本地优先工具（像 Things 坚持买断制）一直有一批忠实付费用户，说明&quot;不做云、不订阅&quot;是有购买力的卖点。Gutta 的问题不在定位，在它是否愿意把它当长期项目养。</p>
+<h2>下一步看什么</h2>
+<p>① GitHub star 与 release 节奏——看作者是否把它当长期项目
+② 三个月后是否有&quot;替换了我原来的待办 App&quot;的用户证言
+③ 有没有向 iOS 扩展（菜单栏工具的天然上限是 Mac 用户数）</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做效率工具时，&quot;减少从想法到落地的摩擦&quot;比加功能重要——它把输入路径压到一行快捷键加自然语言，这就是全部设计。任何&quot;捕捉类&quot;工具都该先问：从你想到这件事到它被记下，最快能多快。</p>
+<p><strong>定位语</strong>：&quot;数据留在你的电脑上，同步走你自己的文件夹&quot;——用&quot;你的&quot;而不是&quot;我们的&quot;来建信任，这是本地优先产品最有效的句式。</p>
+<p><strong>定价</strong>：无定价本身就是卖点（免费 + 开源 + 无账号）。对这类小工具，商业模式可以后置，先验证是否有人真的在用。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> PH 当日 #7（145 upvote）说明它抓住了第一批注意力，定位清晰、姿态稀缺。但它是免费工具，没有商业模式，留存未知。记下来，三个月后看它还在不在迭代。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +193,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +203,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +213,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +266,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

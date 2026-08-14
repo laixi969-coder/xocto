@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Toolport</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">所有 agent 共用一套 MCP 配置，一个端口接全部工具</p>
@@ -82,18 +83,126 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>两个。一是&#34;扁平工具加载&#34;：以前每个 MCP server 每次请求都把全部工具定义 发给模型，工具越多固定 token 开销越大。它用 meta-tool 按需发现替代 &#34;一次全量加载&#34;。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：找到用户每次请求都在浪费的固定成本（token、配置、时间）， 把它量化成&#34;省 74-91%&#34;这种可测量承诺，并公开测量方法—— 效率工具的说服力来自可复现的数据。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一次配置所有 MCP server，所有 AI 客户端共用一个本地网关；
+按需加载工具定义省 token，密钥锁进系统钥匙串。</p>
+<h2>做这个东西的人</h2>
+<p>独立开发者 &quot;Tyler&quot;（GitHub tsouth89、发布平台 @tsouth2），单人项目。
+2026-06-23 以 &quot;Conduit&quot; 的名字首次上 发布平台，2026-08 第三次发布，
+日榜 #5、149 票，版本已到 v1.12.0。无融资，靠 GitHub Sponsors，
+官网 toolport.app。</p>
+<p><em>判断：这是&quot;配置复杂是采用率隐形杀手&quot;这个判断的最直接产品化。
+一个人两个月从 0 做到 v1.12、有可复现 benchmark、有跨平台安装包，
+技术执行力在同体量工具里排前列。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>本地 MCP 网关</strong>：每个 server 配一次，Claude Desktop、Cursor、VS Code、
+Windsurf、Codex 等 29+ 客户端共享</li>
+<li><strong>懒加载工具发现</strong>：不把所有工具 schema 塞进上下文（挂 3 个 server 每次
+请求就约 2.4 万 token 固定开销），只暴露 4 个搜索式 meta-tools，按需拉取；
+自称同等任务成功率下省 74-91% token，有公开可复现 benchmark</li>
+<li><strong>密钥管理</strong>：API key 存 OS keychain，运行时注入，不进配置文件</li>
+<li><strong>完整性检查</strong>：给每个工具定义做 hash 指纹，server 改了定义就报警
+（防 rug pull / tool poisoning）</li>
+<li><strong>治理</strong>：每 agent 作用域开关、破坏性调用需人工批准、审计日志、延迟监控</li>
+<li><strong>跨平台</strong>：Tauri/React 桌面应用 + Rust 网关，另有 headless Docker 网关</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>两个。<strong>一是&quot;扁平工具加载&quot;</strong>：以前每个 MCP server 每次请求都把全部工具定义
+发给模型，工具越多固定 token 开销越大。它用 meta-tool 按需发现替代
+&quot;一次全量加载&quot;。</p>
+<p><strong>二是&quot;每个客户端各配一遍&quot;</strong>：以前同一套 MCP 配置 + 明文 API key 要往
+每个客户端里粘贴一遍，改一个 server 要同步 N 个文件，还会漏。
+它替代&quot;多客户端配置漂移&quot;——一次配置、处处可用。</p>
+<h2>商业模式</h2>
+<p>开源核心（MIT，本地应用免费）+ Toolport for Teams 订阅：
+免费最多 5 人；$39/月（5 人）+ $12/人/月，托管或自托管同价，年付约 $390/年。
+付费客户数：未披露（第三方调研称未见任何披露）。</p>
+<p><em>判断：个人免费建口碑、团队订阅卖治理，是个体户能做的最小商业闭环。
+但 $39/月的团队档要跟微软、Docker、IBM、Kong 的免费 MCP 网关抢人，
+这个定价的生命力存疑。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>发布平台 2026-08 发布：日榜 #5、149 票（第三次发布；首发 2026-06-23，名 Conduit）</li>
+<li>版本 v1.12.0，近每日提交，公开可复现 token 基准（宣称 74-91% 降低）</li>
+<li>支持 29+ MCP 客户端（官方口径 35 个集成）</li>
+<li>定价 $39/月（≤5 人）+ $12/人/月</li>
+<li>付费客户、融资、团队规模（疑似 1 人）：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>创始人实名信息几不可查（只有 Tyler 一个名字），痛点真实性靠产品本身证明</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;工具定义占上下文&quot;这个可量化的浪费，做成卖点 + 可复现测量</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>跨平台安装包、Rust 网关、keychain、完整性指纹、近每日提交，工程扎实</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>核心能力正被客户端原生吸收（Claude Code 已延迟加载 MCP schema），窗口可能只有一两个版本周期</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>技术执行是这批小工具里最扎实的之一，商业模式是它最弱的一环。</strong> 值得记三个点：</p>
+<p><strong>一，把可量化的浪费做成卖点。</strong> &quot;每次请求固定浪费 2.4 万 token&quot;是一个
+开发者立刻能理解的数字，还配了公开可复现的 benchmark——基础设施工具的
+说服力来自测量，不来自口号。这个做法任何做效率工具的人都该抄。</p>
+<p><strong>二，安全设计是 MCP 网关的参考实现。</strong> 工具定义 hash 指纹（server 改了
+定义就报警，防投毒）、破坏性调用人工批准、密钥只进 keychain——这组机制
+适合任何&quot;agent 调用外部工具&quot;的产品，值得整套拿走。</p>
+<p><strong>三，结构风险是它的命门。</strong> 懒加载这个核心能力正在被客户端原生吸收——
+Claude Code 已经开始延迟加载 MCP schema，一旦所有客户端原生支持按需加载，
+meta-tool 的差异化归零。同时微软、Docker、IBM、Kong 都在免费开源
+MCP 网关，个体户要在平台玩家的免费产品旁边收 $39/月，通道很窄。
+它的价值更接近&quot;先行者的最佳实践&quot;：把 MCP 网关该有的功能一次性做齐，
+读者把它当参考实现抄，而不是当投资标的。</p>
+<h2>下一步看什么</h2>
+<p>① 付费 Teams 客户是否出现（现在零披露）——这是它唯一的收入路径
+② 三个主要客户端（Claude Code / Codex / Cursor）原生 MCP 延迟加载是否彻底落地
+——落地即终结
+③ GitHub stars 与 fork 三个月后的走势——衡量它作为参考实现被采用的程度</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：找到用户每次请求都在浪费的固定成本（token、配置、时间），
+把它量化成&quot;省 74-91%&quot;这种可测量承诺，并公开测量方法——
+效率工具的说服力来自可复现的数据。</p>
+<p><strong>安全设计</strong>：工具定义 hash 指纹 + 破坏性调用人工审批 + 密钥只进 keychain，
+这套&quot;agent 调用外部工具&quot;的防线可以直接搬到自己的产品里。</p>
+<p><strong>定价结构</strong>：个人免费开源建口碑，团队订阅卖治理（共享配置、每人本地密钥）
+——个体户能做的最小商业闭环，虽然前景存疑。</p>
+<h2>结论</h2>
+<p><strong>值得关注，但很难下注。</strong> 技术值得抄，商业模式值得怀疑——
+当平台把免费方案做进客户端，独立网关的窗口可能只有一到两个版本周期。
+三个月后看付费客户与客户端原生化进度。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +213,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +244,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +302,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Agnes AI</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">面向团队协作的 AI 工作空间，把讨论、资料和任务放在同一处</p>
@@ -81,25 +82,143 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它已有使用数据，后续更值得看规模和变化能否延续。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前一个团队要「AI 帮我做 PPT + 全组一起改」，得同时开三样东西： 聊天工具里问 AI 要内容，把内容贴进 Google Docs 或飞书， 再在任务软件里记分工和进度。AI 回答的上下文、谁改了什么、 为什么这么改，全都散在各处，换个成员就丢一半。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你的产品既有 AI 能力又要多人协作，值得抄它的分法—— 把「文件」和「语境」分开交付。文件层用成熟的协同编辑， 语境层用 AI 自动沉淀背景、决策和引用来源，让后加入的成员不用从头问起。 这是飞书 / Google Workspace 没覆盖的空位。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个把「AI 干活」和「团队协作」放进同一张工作台的智能体工作空间：
+文档、幻灯片、资料、任务和共享记忆都在一起，AI 不再是旁边的一个按钮，
+而是跟着项目走、记得项目上下文、能和人并行推进的那一方。</p>
+<h2>做这个东西的人</h2>
+<p>新加坡 Sapiens AI 团队，创始人 Bruce Yang，团队约 150 人。
+自研 7B 参数的推理模型 Agnes-R1 与 CodeAgents 多智能体推理框架，
+官网自称「From a Global Top 10 AI Lab」。</p>
+<p><em>判断：这是典型的新兴市场打法——不在欧美市场正面碰 Notion 和 OpenAI，
+先做东南亚、拉美这类模型和协作工具都还没被充分占领的市场。
+官网把自家模型放在 Artificial Analysis 榜单上和 Kimi、GLM、DeepSeek 并排，
+说明它在意的对手不是协作软件，而是模型厂商。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>团队协作工作台</strong> → 多人实时协同编辑文档和幻灯片，变更实时同步，
+支持批注评论、任务指派、跨设备异步协作</li>
+<li><strong>共享记忆（Shared Memory）</strong> → 跨文档、对话和项目保留历史偏好与任务状态，
+新成员进入项目时能直接接手上下文</li>
+<li><strong>AI 生成与调度</strong> → 自然语言调用 AI 生成内容、写报告、做 PPT、
+生图、生视频、生成可视化网页</li>
+<li><strong>免费全模态 API</strong> → 2026 年 6 月 1 日起无限期免费开放文本、图像、视频 API，
+OpenAI 兼容协议（<code>https://apihub.agnes-ai.com/v1</code>），
+支持 Cursor、Claude Code 等 Agent 工具直接接入</li>
+<li><strong>模型矩阵</strong> → Agnes 2.5 Pro Alpha（文本）、Agnes-Image-2.0（图像）、
+Agnes-Video-V2.0（视频），均主打与头部模型打平、价格更低</li>
+</ul>
+<p><strong>它明确不做</strong>：不做企业级 SSO/合规交付（conversiongems 评测指出
+企业深度集成仍是短板），主打轻量团队和个人开发者。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前一个团队要「AI 帮我做 PPT + 全组一起改」，得同时开三样东西：
+聊天工具里问 AI 要内容，把内容贴进 Google Docs 或飞书，
+再在任务软件里记分工和进度。AI 回答的上下文、谁改了什么、
+为什么这么改，全都散在各处，换个成员就丢一半。</p>
+<p>Google Workspace 和飞书解决了「多人实时改同一个文件」，
+但没解决「为什么这么改」。Agnes 押的是把 AI 的上下文也变成团队资产：
+AI 记得这个项目的背景、决策过程和引用资料，成员不需要重述一遍。</p>
+<h2>商业模式</h2>
+<p><strong>Freemium + 免费 API 导流。</strong></p>
+<ul>
+<li>免费档：每月 50 次请求（conversiongems 数据，2026-06）</li>
+<li>Plus：$19.90/月，每月 100 次</li>
+<li>Pro：$99.90/月</li>
+<li>全模态 API 免费开放，作为获客入口</li>
+</ul>
+<p><em>判断：免费 API 是获客工具不是慈善。现在所有 Agent 工具
+（Cursor、Claude Code、各类 WorkBuddy 生态插件）都要接模型，
+把 API 价格打到零能最快塞进别人的工作流，等开发者用顺手了再谈收费。
+这套「先用模型卡位、再收协作订阅」的组合，印度和东南亚的一批新模型厂商都在用。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>流量榜：月访问 208 万，环比 +570.29%（2026-08），登全球增速榜</li>
+<li>移动端上线两个月，注册用户破 300 万，日活超 20 万（团队自述，2026-06）</li>
+<li>conversiongems 评测引用「6M+ 用户、接近 $20M ARR、完成 A 轮融资」——二手来源，未获官方证实</li>
+<li>Agnes-2.5 Pro Alpha 在 Terminal-Bench v2.1 得分 67%，同榜 Kimi K3 为 85%、GLM-5.2 为 78%、DeepSeek V4 Pro 为 65%（Artificial Analysis 引用）</li>
+<li>融资规模、团队融资来源：未披露官方口径</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>创始人从协作场景切入，团队有自研模型，是少见的「协作 + 模型」双线组合</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>「共享 AI 上下文」是对协同工具只共享文件、不共享语境的正面回应，方向成立</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>自研 7B 模型 + 多智能体框架，配合全模态模型矩阵，工程投入不小；但评测机构指出输出质量不稳、需频繁核验</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>东南亚和拉美 AI 协作市场刚起量，切入时点早，但也意味着付费意愿待验证</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>mom +570% 需要打折看，但方向是真的。</strong></p>
+<p>这个环比涨幅大概率是三件事叠加：6 月免费 API 活动带来的开发者流量、
+移动端上线两个月的自然爬坡、以及 流量榜 上榜单带来的统计口径变化
+（榜单产品本身会吸引更多访问被计入）。它的基数也低——上个月约 31 万访问，
+2.08M 的绝对值在一众大厂产品里仍然很小。看这个产品不看单月流量，
+看两件事：免费 API 有没有把开发者真正留下来，以及 $20M ARR 的说法有没有被证实。</p>
+<p><strong>它真正的创新点是「共享上下文」这一层。</strong> 文档协作工具解决文件同步，
+它想解决语境同步——AI 记得项目为什么这么做。这个需求在远程团队里真实存在，
+但能不能从「demo 很惊艳」走到「团队真的把知识库建在它上面」，
+取决于 Shared Memory 的准确性。记忆系统一旦记错，比没有记忆更糟。</p>
+<p><strong>它还不值得信任的地方</strong>：商业化数字全来自二手评测和团队自述，
+融资、ARR、用户数三个口径都对不上官方来源；产品成立时间短，
+conversiongems 也承认「young company with limited documented support track record」。</p>
+<h2>下一步看什么</h2>
+<p>① 下月环比能否延续——mom +570% 是真实起量还是单次活动冲高，8 月是第一个验证窗口
+② $20M ARR 与 A 轮融资是否有官方确认——没有就一律按未证实处理
+③ 东南亚 / 拉美有没有企业级客户公开付费使用，而不是只有免费 API 开发者</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果你的产品既有 AI 能力又要多人协作，值得抄它的分法——
+把「文件」和「语境」分开交付。文件层用成熟的协同编辑，
+语境层用 AI 自动沉淀背景、决策和引用来源，让后加入的成员不用从头问起。
+这是飞书 / Google Workspace 没覆盖的空位。</p>
+<p><strong>定价结构</strong>：API 免费 + 订阅收费的组合可以迁移——
+用零价模型卡位开发者工作流，再把变现放在高频协作场景的订阅上，
+比一开始就按 token 计费更容易起量。</p>
+<p><strong>话术</strong>：无。官网是典型的产品页文案，没有值得偷的句式。</p>
+<h2>结论</h2>
+<p><strong>值得关注，但尚需证据。</strong> 产品方向（共享 AI 上下文）有真实差异化，
+免费 API 策略也聪明，但商业化数字未经证实，mom +570% 更像营销峰值而非稳态。
+记下来，下月用上面三条回头验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +238,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +248,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +258,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +311,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

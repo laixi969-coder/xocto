@@ -8,12 +8,13 @@ inspiration: 攻击工具永远先于防御工具成熟，安全测试是 agent 
 summary_en: ''
 inspiration_en: Attack tools always mature before defensive ones. Security testing is unavoidable before
   agents ship.
+priority_review: false
 url: https://playground.fabraix.com/
 canonical_url: https://playground.fabraix.com
 summary: Open-source playground to red-team AI agents against public prompts
 first_seen: '2026-08-09T17:26:32Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

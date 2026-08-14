@@ -5,6 +5,9 @@ builder: divyenduz
 category: ''
 summary_zh: ''
 inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
 url: https://github.com/divyenduz/notebooklm-calibre-plugin
 canonical_url: https://github.com/divyenduz/notebooklm-calibre-plugin
 summary: I am not sure if this is useful for anyone else but I recently found myself converting a lot
@@ -12,7 +15,7 @@ summary: I am not sure if this is useful for anyone else but I recently found my
   that in single click. I fin…
 first_seen: '2026-08-11T18:28:30Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -8,12 +8,13 @@ inspiration: 极端的定位会自动完成用户筛选，把不适合的人挡�
 summary_en: ''
 inspiration_en: Extreme positioning does the audience filtering for you. Turning the wrong people away
   raises conversion.
+priority_review: false
 url: https://www.producthunt.com/products/whop-cli
 canonical_url: https://producthunt.com/products/whop-cli
 summary: Run your entire business from the terminal
 first_seen: '2026-08-06T01:40:05Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

@@ -8,13 +8,14 @@ inspiration: 反馈的形态决定采纳率，让人用熟悉的批注方式说�
 summary_en: ''
 inspiration_en: The shape of feedback decides whether it gets used. Letting people comment the way they
   already do beats teaching them to write prompts.
+priority_review: false
 url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually
 canonical_url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually
 summary: A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback
   to your AI agent. Works inside your favorite AI harness.
 first_seen: '2026-07-27T14:58:36Z'
 last_seen: '2026-08-14T04:47:02Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

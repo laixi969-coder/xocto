@@ -8,12 +8,13 @@ inspiration: 统一IAP编排简化多平台支付，可迁移到订阅管理场�
 summary_en: Instant cross-platform in-app purchase orchestration.
 inspiration_en: Unified IAP orchestration simplifies multi-platform payments, applicable to subscription
   management.
+priority_review: false
 url: https://news.ycombinator.com/item?id=49286271
 canonical_url: https://news.ycombinator.com/item?id=49286271
 summary: Instant cross-platform in-app purchase orchestration
 first_seen: '2026-08-13T14:12:06Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

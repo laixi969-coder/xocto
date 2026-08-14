@@ -8,12 +8,13 @@ inspiration: 目标管理产品的死穴是用户三天后就不打开了，留�
 summary_en: ''
 inspiration_en: Goal-tracking products die when people stop opening them on day three. Retention matters
   far more than features.
+priority_review: false
 url: https://www.producthunt.com/products/good-assistant
 canonical_url: https://producthunt.com/products/good-assistant
 summary: Turn life goals into daily progress.
 first_seen: '2026-08-08T12:46:32Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

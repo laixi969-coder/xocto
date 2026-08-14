@@ -8,12 +8,13 @@ inspiration: 角色扮演类产品的月活稳定，说明陪伴需求比工具�
 summary_en: Personalized AI chat characters.
 inspiration_en: Roleplay products hold their monthly actives steady, which says companionship outlasts
   utility.
+priority_review: false
 url: https://www.aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 canonical_url: https://aicpb.com/product/Talkie:-Personalized-AI-Chats/appid1D6F343B1
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

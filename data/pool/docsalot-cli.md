@@ -8,12 +8,13 @@ inspiration: 文档过期是永恒痛点，「持续维护」比「一次生成�
 summary_en: ''
 inspiration_en: Stale docs are a permanent pain. “Keeps them current” is worth far more than “generates
   them once,” and it fits subscription pricing.
+priority_review: false
 url: https://www.producthunt.com/products/docsalot-2
 canonical_url: https://producthunt.com/products/docsalot-2
 summary: Let Claude or Codex create and maintain good looking docs
 first_seen: '2026-08-07T19:43:09Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

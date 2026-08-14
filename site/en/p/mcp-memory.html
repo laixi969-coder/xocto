@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>MCP Memory</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Fast agent memory using Google&#39;s OKF and SQLite FTS5.</p>
@@ -81,18 +82,130 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Agent &#34;memory&#34; today runs on three ad-hoc schemes, each broken in its own way.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for agent-memory features, ship human-readable, reviewable plain-text storage first and accelerate with an index — do not jump straight to a vector store. Auditability is scarcer than r…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A persistent memory layer for agents: everything to be remembered is written as an OKF-spec
+Markdown file with metadata (human-readable, diffable, git-managed), while a SQLite FTS5 index
+gives the agent near-instant lookups.</p>
+<h2>Who built it</h2>
+<p>A solo project by fellowgeek (author handle pcbmaker20), MIT licensed, first commit 2026-08-13.</p>
+<p><em>Read: something one person built in a day pulled 58 points and 35 comments on HN and hit 124
+stars on day one. That means timing: OKF was published by Google in mid-June, and this is the
+first decent implementation pairing OKF with MCP memory.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Store</strong> → <code>memory_store</code>: writes a memory record as an OKF v0.2 document (YAML frontmatter
+with type/key/namespace/tags/sources/verified/stale_after) into a <code>memory/</code> folder in the project</li>
+<li><strong>Retrieve</strong> → <code>memory_retrieve</code>: exact lookup by key</li>
+<li><strong>Search</strong> → <code>memory_search</code>: SQLite FTS5 full-text search with tag/namespace filters; claims
+sub-20ms key lookups</li>
+<li><strong>Session handoff</strong> → <code>memory_get_last</code> / <code>memory_update_last</code>: records &quot;where work stopped&quot;
+across sessions and resumes the checkpoint at session start</li>
+<li><strong>Zero config</strong> → <code>setup.py</code> auto-registers into Antigravity / Claude / Cursor / Windsurf / Codex</li>
+</ul>
+<p><strong>The dual-layer design is the point</strong>: the source of truth is plain Markdown (readable,
+reviewable, versionable); SQLite is only an acceleration index. This is the opposite of the
+&quot;embedding vectors in a binary store&quot; school — humans stay the authority.</p>
+<h2>What old behavior it replaces</h2>
+<p>Agent &quot;memory&quot; today runs on three ad-hoc schemes, each broken in its own way.</p>
+<p>First, hand-maintained project files like CLAUDE.md / AGENTS.md. You write them and update them;
+the agent never writes into them on its own. That is one-way — a sticky note, not memory.</p>
+<p>Second, the built-in memory features of Claude / Cursor, which are locked to one tool. Change
+tools or machines and the memory is gone.</p>
+<p>Third, re-feeding whole conversation histories and &quot;remembering&quot; by burning tokens. Expensive,
+and long-term memory does not fit in a context window.</p>
+<p>mcp-memory replaces the intersection of all three: memory the agent writes itself, reads itself,
+in an open format, portable across tools. One HN commenter made the point cleanly: an MCP server
+architecture makes this usable from claude.ai and other surfaces where you have MCP but no
+filesystem.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Free and open source; no hosted service, no pricing page.</p>
+<p><em>Read: memory is the foundation of agent apps but the foundation itself is hard to charge for —
+every peer (mem0 and friends) is betting on &quot;occupy the slot now, monetize higher up later.&quot;
+This repo is clearly a land-grab play too.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>124 stars, 2 forks.</strong> Repository created 2026-08-13 (same day)</li>
+<li>HN: 58 points, 35 comments (around 2026-08-13)</li>
+<li>Claims sub-20ms key lookups (self-reported, not reproduced)</li>
+<li>Dependencies: SQLite + Python + FastMCP; <strong>no embeddings, no vector database</strong></li>
+<li>Users and production deployments: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A solo dev, built in a day; this is &quot;the OKF MCP implementation,&quot; not a memory product</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Bet on two right cards — OKF normalization plus pure-local no-vector-store. But what memory should hold, and what deserves remembering, this design never answers</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Well-documented, tested, clean dual-directory structure; high completion for a solo project</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Perfect. One month after OKF shipped, memory is one of the hottest MCP lanes, and this is among the first deliverables</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A textbook case of &quot;when a standard just ships, be the first decent implementation.&quot;</strong> OKF
+came out in mid-June; by mid-August this project shipped an MCP implementation with spec
+conformance and dual-layer storage, and used Show HN to get discussion volume far above its star
+count. Speed is its moat attempt — though it is not really a moat.</p>
+<p><strong>The transferable rule: bet on freshly released open standards and be the first credible
+landing.</strong> A new spec's window lasts only a few months — too early and you build against a moving
+target; too late and it is a red ocean. The test is the spec's release date plus &quot;no credible
+implementation exists yet.&quot; Applied to products: for any structured agent memory, make the human
+the only authority first, and worry about retrieval speed second.</p>
+<p><strong>But the HN thread already asked the soft questions</strong>: &quot;How is this different from grepping a
+memory/ directory?&quot; &quot;How does it beat Claude's built-in memory — got benchmarks?&quot; The author had
+no benchmark answer. When &quot;what to record, what deserves remembering, and how to make the model
+actually consult it&quot; have no answers, 124 stars is topic heat, not product validation.</p>
+<p><strong>One hidden risk</strong>: OKF is Google's spec and only at v0.2. When the spec changes, every stored
+memory needs migration.</p>
+<h2>What to watch next</h2>
+<p>① Whether a reproducible benchmark appears, proving gains in task-completion over Claude's
+built-in memory or a grep-based approach
+② Whether an ecosystem forms (others following the OKF + MCP combination) or it stays a singleton
+③ Repo activity in three months: Show HN stars decay fast; what matters is follow-up commits and
+issue handling</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for agent-memory features, ship human-readable, reviewable plain-text storage
+first and accelerate with an index — do not jump straight to a vector store. Auditability is
+scarcer than retrieval quality in agent memory.</p>
+<p><strong>Positioning language</strong>: none. The README is engineering documentation; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Free and open source.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The timing and the craftsmanship are both clean, but this is a
+&quot;standard-landing bonus&quot; project, not the answer to the memory problem. Product definition —
+what gets remembered — is the real winner-maker in this lane, and it has not been touched.
+Come back in three months against the three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +216,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +247,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +305,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

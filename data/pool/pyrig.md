@@ -8,12 +8,13 @@ inspiration: 重复的开头工作是最适合自动化的，因为标准明确�
 summary_en: ''
 inspiration_en: 'Repetitive setup work is the best automation target: the standard is clear and mistakes
   are cheap.'
+priority_review: false
 url: https://github.com/Winipedia/pyrig
 canonical_url: https://github.com/Winipedia/pyrig
 summary: A tool that automates project setup and maintenance
 first_seen: '2026-08-10T22:34:55Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

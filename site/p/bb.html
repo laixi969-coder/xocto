@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>bb</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">会自己改自己的 IDE</p>
@@ -82,15 +83,125 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>过去用 agent 工作流工具，遇到&#34;缺一个功能&#34;只有三条路：等厂商在路线图里排上 （可能要等几个月）、自己写插件或脚本（要会开发）、或者凑合着用（效率打折）。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你做 agent 工具，把&#34;自我扩展&#34;设计进架构：让用户能用自然语言 添加 UI 和功能，并且每次添加自动生成一个教 agent 使用它的 skill。 &#34;功能 + 使用说明同时出生&#34;是解决 agent 采纳障碍的通用方案。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个 agentic 编排器的图形界面（类似 Codex app），但兼容任意提供商
+（Claude Code、Codex、OpenCode 等），核心差异是&quot;它能定制和扩展自己&quot;——
+几乎任何组件都可以用一条提示词改掉：你说要一个任务追踪器，它就给你一个，
+还自动写一个 skill 教会你所有 agent 怎么用它。</p>
+<h2>做这个东西的人</h2>
+<p>Chris Messina——hashtag 的发明者、发布平台 历史排名第一的 hunter、
+前 Google Open Web Advocate、前 Uber Developer Experience Lead。PH 上由他本人发布
+（2026-08-11）。</p>
+<p><em>判断：这是&quot;资深产品人做 agent 工具&quot;的形态。Messina 的强项从来不是写代码，
+而是理解开发者工具怎么被采用——他在 PH 投过几百个产品，这次自己下场做。
+这解释了为什么 bb 的卖点是&quot;工作流可以自己长出来&quot;而不是&quot;模型更强&quot;。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>兼容任意 agent 提供商</strong> → Claude Code、Codex、OpenCode 等，不被单一家绑定</li>
+<li><strong>自我扩展</strong> → 几乎所有 UI 和功能都能用一条提示词改；要任务追踪器就有任务追踪器，
+不用等厂商排期</li>
+<li><strong>skill 自动生成</strong> → 每个新功能会同时生成一个 skill，教会所有 agent 怎么使用它——
+新功能和 agent 的知识同步产生，不用人工写文档</li>
+<li><strong>agentic 编排</strong> → 像 Codex app 一样管理多个 agent 会话，但不受供应商限制</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>过去用 agent 工作流工具，遇到&quot;缺一个功能&quot;只有三条路：等厂商在路线图里排上
+（可能要等几个月）、自己写插件或脚本（要会开发）、或者凑合着用（效率打折）。</p>
+<p>bb 替代的是这三条路的共同等待环节：不再&quot;等待你的 agentic workspace 加上你要的
+功能&quot;，而是&quot;直接开口要&quot;。这个逻辑的本质是把 IDE 从&quot;厂商定义功能&quot;变成
+&quot;用户定义功能&quot;——每次新增功能都是即时的，而且是带着 agent 的使用说明
+（skill）一起出现的。</p>
+<p>它替代的更底层的旧行为是&quot;工具和 agent 的知识割裂&quot;：传统上，工具加了功能，
+人得写文档、agent 得重新训练或配置才知道怎么用。bb 让功能本身附带它自己的
+使用教程（skill），工具一变，agent 立刻会。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> 无定价页、无付费层信息。PH 页面标记了 GitHub（开源相关），
+但仓库内容未核实到具体授权和 star 数。</p>
+<p><em>判断：这是最早期形态——产品刚在 PH 曝光（189 upvotes、日榜 #6），
+商业模式一个字都没有。它现在的价值是验证&quot;自我扩展的 IDE&quot;这个方向有没有人感兴趣。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>PH：189 upvotes / 12 条评论，日榜 #6</strong>（2026-08-11 上线）</li>
+<li>发布者是 Chris Messina（PH 历史第一 hunter，超过 2,000 次投放）</li>
+<li>定价、用户数、star 数：未披露</li>
+<li>GitHub 仓库存在但未核实到授权/星数</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高但不同质。Messina 不是写代码的人，是最懂开发者工具传播的人；他做这个产品是带着&quot;怎么被采用&quot;的视角来的</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;工具自我扩展 + skill 同步生成&quot;是对&quot;等厂商加功能&quot;的直接回应，角度新颖</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>无法核实。功能描述停留在 PH 文案层面，没有可检验的技术细节</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>对。agent 工作流工具正在爆发，但&quot;让工具长成你要的样子&quot;还是空白位</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;把 IDE 从厂商定义变成用户定义&quot;的实验，方向有想象力，但证据面全是空白的。</strong></p>
+<p>它的核心洞察值得认真对待：当 agent 足够强，传统&quot;厂商排期加功能&quot;的模式就会被
+&quot;用户开口要功能&quot;替代——因为让 agent 生成功能比等厂商发布更快。
+而&quot;skill 同步生成&quot;这个设计更聪明：它解决了 agent 工具最常见的采纳障碍
+（新功能没文档、agent 不会用），让功能和使用说明天生一体。</p>
+<p><strong>可迁移的规律：任何&quot;工具 + agent&quot;产品，都应该让功能变更自动带出 agent 的知识变更。</strong>
+bb 的 skill 自动生成就是这个原则的实例化——工具变，agent 的说明书跟着变，
+两者不再需要人工同步。这个原则可以复制到任何有 agent 集成的产品上。</p>
+<p><strong>但它现在只是一个想法加一次成功的发布。</strong> 189 upvotes 里有相当一部分来自
+Messina 的个人影响力——他是 PH 的头号 hunter，粉丝跟着他看产品。
+这既是流量优势也是判断陷阱：热度可能是&quot;对发布者的认可&quot;而不是&quot;对产品的认可&quot;。</p>
+<p><strong>三档判断之间的差异</strong>：有真实热度的（189 upvotes、日榜 #6、名人发布）该给
+&quot;值得关注&quot;；但没有可验证的工程证据、没有商业模式、没有用户数据，
+只能&quot;值得关注，但有待观察&quot;。它的下一步不看功能加了多少，看有没有人
+真的把工作流迁移进去。</p>
+<h2>下一步看什么</h2>
+<p>① GitHub 仓库是否公开源码、star 是否增长——开不开源、有没有人被源码说服
+② 三个月内是否有真实用户报告&quot;用 bb 长出了一个可用的工作流&quot;——
+自我扩展从演示到日常的距离是它的生死线
+③ 是否有付费计划或企业版信号——如果只是个演示，189 upvotes 就是终点</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果你做 agent 工具，把&quot;自我扩展&quot;设计进架构：让用户能用自然语言
+添加 UI 和功能，并且每次添加自动生成一个教 agent 使用它的 skill。
+&quot;功能 + 使用说明同时出生&quot;是解决 agent 采纳障碍的通用方案。</p>
+<p><strong>话术</strong>：&quot;The IDE that builds itself.&quot;——三个词的标题把&quot;等厂商&quot;和&quot;自己长&quot;
+的差距说完，这是本次最值得抄的一句话。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注，但有待观察。</strong> 方向有想象力（工具自我定义 + skill 同步生成）、
+发布有真实热度（日榜 #6、名人效应），但可验证证据几乎为零——
+没有源码细节、没有商业模式、没有用户。它是&quot;一个值得记下来的想法，
+附送一次成功的发布&quot;。三个月后看 GitHub 和真实工作流迁移。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +218,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +228,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +238,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +248,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +301,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

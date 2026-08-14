@@ -8,6 +8,7 @@ inspiration: 垂直知识图谱是模型抹平不掉的壁垒，谁手上有结�
 summary_en: Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.
 inspiration_en: A vertical knowledge graph is a moat models cannot flatten. Whoever holds structured domain
   knowledge holds the defensibility.
+priority_review: false
 url: https://github.com/Happy-Chen-CH/ShenNongMi
 canonical_url: https://github.com/Happy-Chen-CH/ShenNongMi
 summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Neo4j graph (19K+ nodes) × LangGraph
@@ -16,7 +17,7 @@ summary: '🌿 神农觅 (ShennongMi) — AI-powered TCM knowledge navigator: Ne
   exploration.'
 first_seen: '2026-07-29T06:26:00Z'
 last_seen: '2026-08-13T03:25:28Z'
-status: watching
+status: analyzed
 sources:
 - github
 sightings:

@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Relational-to-KV</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">AI maps relational models to ToplingDB/RocksDB.</p>
@@ -81,18 +82,134 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Two old roads, both expensive.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: turning your team&#39;s most expensive tacit knowledge — senior engineers&#39; judgment — into executable rule documents plus templates is more useful than a training manual. The test: can anot…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>The craft of &quot;how do I put a relational model on a KV engine like RocksDB/ToplingDB&quot; — a skill
+only storage experts have — packaged as a skill bundle for AI coding assistants (Cursor / Claude
+Code / Codex): the agent generates key designs, encoding code, and engine configs by following
+rules, instead of improvising.</p>
+<h2>Who built it</h2>
+<p>rockeet (a GitHub account), MIT licensed, repository created 2026-08-10. The author is closely
+tied to the ToplingDB ecosystem — ToplingDB is a derived fork of RocksDB maintained by the
+Topling team, and the repo references and compiles companion sources such as topling-zip.</p>
+<p><em>Read: this is a &quot;harden the pain you lived through into an AI skill&quot; project. Blockchain teams
+like Sui, Aptos, and NEAR hand-translate relational models into KV layouts for performance —
+an architecture only affordable to companies with dedicated storage teams. The author wants to
+make it reusable for ordinary teams.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>A seven-step flow</strong> → inventory entities/relations → enumerate access patterns (point,
+prefix, range scans) → derive key spaces → assign logical namespaces → generate byte-order-safe
+encode/decode → map column families and engine options → review the contract</li>
+<li><strong>Four deliverables</strong> → a Key Space Catalog, key schema plus C++ code, CF/engine configs
+(CF/Options for RocksDB, SidePlugin for ToplingDB), and a consistency/cleanup/migration plan</li>
+<li><strong>Multi-runtime</strong> → built simultaneously as Cursor / Claude Code / Codex plugins or skills</li>
+<li><strong>Encoding conventions</strong> → BytewiseComparator (memcmp order) by default; floats use the
+FoundationDB tuple-layer transform to preserve IEEE 754 totalOrder</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: it is not an SQL compatibility layer, not an ORM, not a
+drop-in for arbitrary SQL, and it does not migrate data automatically. It only produces design
+decisions and code; humans still own the business semantics and access-pattern choices.</p>
+<h2>What old behavior it replaces</h2>
+<p>Two old roads, both expensive.</p>
+<p>The first is using a SQL database (MySQL/TiDB and friends) and letting the relational engine
+handle storage. That carries an &quot;abstraction tax&quot;: to preserve SQL semantics, the underlying KV
+access patterns are locked in, and you never get the performance dividend of designing keys
+around access patterns. It is the default because it is cheap and nobody gets fired for it.</p>
+<p>The second is hand-mapping relational models onto KV — the Sui, Aptos, NEAR, Solana route.
+Best performance, but how to split the key space, define encodings, handle range deletes and
+migrations, and hold consistency constraints together is all hand-designed. Only the few
+companies with dedicated storage teams can afford it, each time a bespoke tens-of-thousands-of-
+lines effort.</p>
+<p>relational-to-kv replaces the &quot;relying on expert memory and improvisation&quot; part of the second
+road: turning expert practice into rules and templates an agent can execute, so ordinary teams
+can take that road with reviewable, portable designs.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> MIT, no hosting, no pricing.</p>
+<p><em>Read: a textbook &quot;content infrastructure&quot; project — the value is the rule set itself, not
+software. If it validates, the author's real exit is likely services or enterprise support
+around the ToplingDB ecosystem. No commercial movement yet.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>2 stars, 0 forks.</strong> Repository created 2026-08-10</li>
+<li>HN: 5 points, 0 comments</li>
+<li>A single commit (the initial commit is complete), MIT</li>
+<li>Includes tests: ToplingDB source compilation, memcmp encoding round-trips, ASan/UBSan builds</li>
+<li>Users and enterprise adoption: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Bound to the ToplingDB ecosystem; the author is a storage practitioner who can compile and validate a RocksDB-derived codebase — high fit</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Encapsulate senior engineering experience as an agent skill&quot; is a new direction, but the target market (teams building their own KV storage) is extremely narrow</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Real tests and bilingual docs, not a slide deck; but the quality of generated code cannot be independently verified</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Early and narrow. The need for KV storage design is real, but the paying scenario has not changed in a decade</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is a sample of &quot;craft encapsulation in the AI era&quot;: turning a skill held by a few into a
+rule set for agents.</strong> The direction is new and worth studying for anyone building vertical
+tools; but for this specific project, the market may not support a product.</p>
+<p><strong>The transferable rule: judge a &quot;skill encapsulation&quot; project on three things — whether the
+craft is scarce (yes), whether demand is high-frequency (no, selection is low-frequency), and
+whether the expert will keep maintaining the rules (doubtful). Two out of three true leaves it
+a content project.</strong></p>
+<p><strong>Its biggest problem is the same disease of the category</strong>: nothing backstops the correctness
+of the agent's key design. Tests cover encoding correctness, not design correctness — a
+wrongly-designed key space is useless no matter how correct the code is. The README leaves
+&quot;semantic and access-pattern choices&quot; to humans, which keeps the hardest judgment with the very
+expert the tool is meant to replace.</p>
+<p><strong>HN's 5 points says the market is cold</strong>: this is not a mass pain point. It will only ever
+serve the very few teams that put data directly on KV engines.</p>
+<h2>What to watch next</h2>
+<p>① Whether any team actually produces a production KV design with it and publishes the result
+② Whether the rule set tracks RocksDB/ToplingDB versions — once the encoding conventions go
+stale, the skill becomes a liability
+③ Whether Cursor/Claude officially list it in their skill marketplaces — listing would mean a
+platform vouches for its quality bar</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: turning your team's most expensive tacit knowledge — senior engineers'
+judgment — into executable rule documents plus templates is more useful than a training manual.
+The test: can another person (or an agent) follow the rules to a reviewable result?</p>
+<p><strong>Positioning language</strong>: none. Engineering documentation; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven, but remember the form.</strong> The specific project lacks validation (2 stars, 5 points,
+no users). The &quot;skill encapsulation&quot; pattern itself is worth watching — it may become a new
+vehicle for distributing vertical-industry knowledge.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +220,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +251,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +309,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

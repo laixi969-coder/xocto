@@ -8,12 +8,13 @@ inspiration: 有分发渠道的大厂做创作工具，独立产品很难在同�
 summary_en: ByteDance's image and video generation tool, under the Douyin brand.
 inspiration_en: When a platform that already owns distribution builds creative tools, independent products
   can't win that lane head-on.
+priority_review: false
 url: https://www.aicpb.com/product/即梦AI-抖音旗下AI图片和视频工具/appid1D6F327C1
 canonical_url: https://aicpb.com/product/即梦AI-抖音旗下AI图片和视频工具/appid1D6F327C1
 summary: 即刻造梦 · AI绘画 · 图片视频短片生成社区
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

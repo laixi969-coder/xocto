@@ -7,12 +7,13 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://www.producthunt.com/products/threadport
 canonical_url: https://producthunt.com/products/threadport
 summary: Move AI chats between ChatGPT, Claude & Gemini in one click
 first_seen: '2026-08-12T19:57:51Z'
 last_seen: '2026-08-13T11:28:29Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

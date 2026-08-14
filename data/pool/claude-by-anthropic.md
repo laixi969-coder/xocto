@@ -8,12 +8,13 @@ inspiration: 在通用助手这一层，模型能力和产品体验已经不是�
 summary_en: Anthropic's conversational assistant.
 inspiration_en: At the general-assistant layer, model quality and product experience stopped being the
   same contest.
+priority_review: false
 url: https://www.aicpb.com/product/Claude-by-Anthropic/appid1D6F33BC9
 canonical_url: https://aicpb.com/product/Claude-by-Anthropic/appid1D6F33BC9
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

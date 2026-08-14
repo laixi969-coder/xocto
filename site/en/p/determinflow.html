@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>DeterminFlow</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Production-oriented AI workflow runtime you can validate and recover.</p>
@@ -81,18 +82,95 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>&#34;AI workflows&#34; used to mean two things, and DeterminFlow wants to replace both.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: any product that puts AI on real jobs can treat &#34;runs once&#34; and &#34;resumes when it breaks&#34; as two separate selling points. The first wins demos; the second wins the customer&#39;s willingness…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A production runtime for AI workflows that have already been figured out: once the flow is fixed, run it reliably with versioning, validation, retries, recovery, and auditing — instead of letting a single agent re-read the whole context and try to remember every step itself.</p>
+<h2>Who built it</h2>
+<p>Built by GitHub user alikon-art (<code>alikon-art/DeterminFlow</code>), AGPL-3.0, Python + FastAPI + React console. The README says it grew out of the real AI fiction-production pipeline at the Chinese platform bishuxiezuo.cn — a product that validated the skeleton in production before open-sourcing it. Contact is a personal WeChat; there is a companion plugin repo <code>DeterminFlow-Plugins</code>.</p>
+<p><em>Read: this is the classic &quot;internal tool open-sourced&quot; path, more credible than a demo — with one trap: the author may mistake their own scenario (long-running novel pipelines) for everyone's scenario.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Four core node types</strong> → Agent, Script, Approval, Subprocess, plus variables, conditionals, parallelism, loops, human approval, and a visual editor</li>
+<li><strong>Frozen execution</strong> → the workflow definition and inputs are frozen when a Task starts; automatic retry, manual retry, resume from the failed node, and checkpoints that survive process restarts</li>
+<li><strong>Boundaries for the LLM</strong> → each Agent node gets its own session and token ledger; per-node tool allow/deny lists, workspace, and max turns; JSON output can be detected, parsed, and repaired</li>
+<li><strong>Downstream rejection</strong> → downstream nodes can reject upstream results and send them back for targeted rework instead of rerunning everything</li>
+<li><strong>Reusable assets</strong> → Workflows, Cron, Skills, Rules, and Plugins are packageable; the <code>bishu-novel</code> example ships 7 production workflows with 84 orchestration nodes</li>
+</ul>
+<p><strong>What it explicitly argues against</strong>: the single-agent long chain. The README's own words: &quot;when the process is already clear, having one Agent repeatedly read all the context and remember every step itself is usually slower, more expensive, and harder to maintain.&quot;</p>
+<h2>What old behavior it replaces</h2>
+<p>&quot;AI workflows&quot; used to mean two things, and DeterminFlow wants to replace both.</p>
+<p>The first: <strong>a human pinning the flow into code</strong> — scripts, API wiring, manual failure handling, with AI as just one function. Reliable, but every change means a code change and non-engineers cannot touch it.</p>
+<p>The second: <strong>a single agent running end to end</strong> — handing the whole goal to Codex, Claude, or similar, letting it plan, remember, and call tools on its own. Flexible, but in long tasks the agent loses context, wanders, and restarts from zero when it breaks; a single long run can burn tens of thousands of tokens.</p>
+<p>DeterminFlow's pitch: once the flow is known, narrow &quot;intelligence&quot; to each node and hand &quot;stability&quot; to the runtime. The README claims one real task (11 model sessions, 176,584 tokens) used 70%–89% fewer tokens than a single-agent long chain.</p>
+<p><em>Read: the replacement logic holds, and &quot;recoverable&quot; is worth more than &quot;it runs&quot; — AI workflows have entered contexts where losing a job is unacceptable. But the 70–89% figure is a single self-measured case, directional evidence, not a benchmark.</em></p>
+<h2>Business model</h2>
+<p><strong>No public pricing.</strong> Free and open source (AGPL v3); the README offers paid &quot;custom Workflow, Plugin, private deployment, or product integration&quot; services via WeChat and email — the classic Chinese open-source play of &quot;open source for acquisition, paid custom work for revenue.&quot;</p>
+<p><em>Read: AGPL is a signal. It forces anyone who wants to modify and close the source to either open up or buy services — a common moat for Chinese-enterprise-facing OSS, but it also scares off some overseas users.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>389 stars, 57 forks, 8 open issues.</strong> Repository created 2026-08-02, barely two weeks old</li>
+<li>v0.1.0 (August 2026), ~50 commits, README already complete with docs and a plugin repo</li>
+<li>Open-source case <code>bishu-novel</code>: 7 production workflows, 84 nodes, 33 Agent/Prompt combinations</li>
+<li>Claimed token savings: 70–89% (single production task)</li>
+<li>Team size and enterprise adoption: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The skeleton was extracted from the author's own real production pipeline, not imagined pain</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nailed the turning point — once a flow is defined, don't let a single agent run it — and added recovery plus audit as first-class features</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Versioned, checkpointed, plugin-ecosystem, official production case. Engineering maturity beyond the usual OSS demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right now. Multi-agent workflows are moving from &quot;it runs&quot; to &quot;it must be reliable,&quot; and the runtime layer has no standard answer yet</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is a clear position in the &quot;what should an AI workflow look like&quot; fight: determinism first, intelligence pushed down to the nodes.</strong></p>
+<p>Most workflow tools are still trying to make agents smarter. DeterminFlow goes the other way — it boxes agents into clearly bounded nodes and leaves the cleverness to the orchestrator and human approvals. The position is half-right in a very clean way: the more explicit the flow, the better this path pays off; the fuzzier the flow, the less usable it becomes.</p>
+<p><strong>The thing worth copying is &quot;recoverability,&quot; not the visual editor.</strong> Visual editors are table stakes; everyone has one. But &quot;failures don't restart from zero, checkpoints resume, downstream can send work back upstream&quot; — those are production necessities, and they are all grubby engineering. They are the test of whether a runtime has actually been through production.</p>
+<p><strong>The bet is that flows will keep getting more explicit.</strong> If the mainstream of AI workflows stays &quot;tasks too complex to decompose,&quot; a deterministic runtime only ever eats the well-defined slice of the market. It is impossible to call the winner now, but both sides are worth watching.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars keep growing after the ~390 mark — hitting 1,000 in three months would prove the OSS cold-start works
+② Whether public deployments appear outside the author's own scenario (every README case is bishuxiezuo.cn's own)
+③ Whether overseas users pick it up — breaking out of the Chinese ecosystem is the ceiling test for this kind of tool</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: any product that puts AI on real jobs can treat &quot;runs once&quot; and &quot;resumes when it breaks&quot; as two separate selling points. The first wins demos; the second wins the customer's willingness to trust it with real work. DeterminFlow made recoverability the headline, not a patch — that is where it pulls away from peers.</p>
+<p><strong>Positioning language</strong>: the README's contrast — &quot;when the process is already clear, having one Agent repeatedly read all the context and remember every step itself&quot; — is directly reusable: describe the competitor's clumsy behavior first, then introduce your design.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> A clear position, solid engineering, and a real production backstory — but validation so far is the author's own, not customers', and overseas traction is untested. Revisit in three months against the three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +181,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +212,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +270,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

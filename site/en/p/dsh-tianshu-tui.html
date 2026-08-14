@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>dsh-tianshu-tui</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Interactive terminal UI plugin for DSH, adding TDD and evidence-gate workflows.</p>
@@ -81,15 +82,95 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>It replaces the implicit assumption that &#34;the agent will test.&#34; With Claude Code/Aider-class agents, the quality process runs through a human: you tell it &#34;run the tests when you&#39;re done,&#34; and the age…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if your agent product is accountable for results (writing code, editing docs, producing reports), copy the minimum viable evidence gate: the model must attach verifiable evidence when i…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Beyond giving DSH a terminal UI, this is a plugin that pushes &quot;write the test before the code&quot; and an evidence gate into the agent workflow — the agent must prove what it did before it can continue.</p>
+<h2>Who built it</h2>
+<p>Individual developer huiliyi37 (same GitHub handle). The rendering core evolves from the author's own &quot;Tianshu-Tui&quot; agent (Apache-2.0). Repo created 2026-08-13, Apache-2.0, 36 commits in this repo; the author reports 250+ commits across the harness-side collaboration (8/10-8/13). Current version 0.1.1-rc.6.</p>
+<p><em>Read: this does not look like a casual plugin — it looks like the author of a standalone agent project (Tianshu) porting his stack onto DSH to ride its momentum. The evidence: TDD and the evidence gate depend on a whole family of his own packages (dsh-evidence-gate, dsh-agent-router, dsh-fs-snapshot, dsh-memory...), and half the README is a showcase for his own ecosystem.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>TDD-driven workflow</strong> → modifies the official harness so tests come before implementation</li>
+<li><strong>Evidence gate</strong> → dsh-evidence-gate enforces RED-first verification: a duty state machine, edit/verify counters, a TDD gate (enforce mode), probe suggestions with cooldown, and an L2 final review gate</li>
+<li><strong>Failure routing</strong> → dsh-agent-router predicts step failure from turn history and routes work, including verification subagent scheduling</li>
+<li><strong>Full session workspace in the terminal</strong> → <code>/fork</code> explore branches, <code>/rewind</code> rollback (session truncation plus optional file rollback), <code>/export</code> Markdown transcripts, <code>/steer</code> mid-turn redirection</li>
+<li><strong>Images end-to-end</strong> → clipboard paste, inline rendering via terminal graphics protocols, and a vision bridge that converts images to descriptions when the text-only main model cannot see them</li>
+<li><strong>Reasoning visualization</strong> → think-channel streaming, collapsed into compact lines in scroll regions, Ctrl+O to expand in place</li>
+<li><strong>Harness-side companions</strong> → model aliases, session/file snapshots, memory, semantic index, git services (integrations of DSH official ecosystem packages)</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: the UI is a pure presentation layer — it registers no prompts, tools, or context surfaces; all agent state comes from the session event stream, and user input becomes ordinary log messages. The author separates &quot;display&quot; from &quot;control&quot; cleanly, which also means the TDD/evidence-gate value is entirely delivered by his companion packages; the plugin body is just a shell.</p>
+<h2>What old behavior it replaces</h2>
+<p>It replaces the implicit assumption that &quot;the agent will test.&quot; With Claude Code/Aider-class agents, the quality process runs through a human: you tell it &quot;run the tests when you're done,&quot; and the agent writes all the code first, runs a token test at the end, fixes reds, or sometimes runs nothing. Developers with strict TDD discipline (red-green-refactor) have to execute that discipline by hand in their IDE — the agent does not help, it gets in the way.</p>
+<p>tianshu turns that manual TDD discipline into an enforced agent process: tests first (RED), the evidence gate only allows the next step on a passing verification (GREEN), failures get routed, probes are suggested, and an L2 review sits at the end. It replaces the quality gate that an engineer used to hold by hand inside an agent workflow.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> Apache-2.0, free on npm, no pricing, no hosting, no sponsorship.</p>
+<p><em>Read: what the author is really selling (if anything) is a &quot;trustworthy harness&quot; methodology and the package family behind it. The plugin is the entrance; the package family is the asset. This &quot;open-source entrance plus a full suite&quot; play is common among individual developers; monetization later means either a paid hosted version or nothing at all.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>103 stars / 4 forks / 2 open issues</strong> (GitHub API, 2026-08-14)</li>
+<li>Created 2026-08-13, 36 commits; author reports 250+ across the collaboration (8/10-8/13)</li>
+<li>Current 0.1.1-rc.6, baseline aligned with official 0.1.0-rc.6</li>
+<li>app.ts is a ~2.2k-line monolith (the author admits it needs splitting)</li>
+<li>Image compression: 1568px long-edge cap, three-stage JPEG 0.82→0.55 degradation, 16 image tests</li>
+<li>Users, team: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author built Tianshu first, so the pain is his own; but the &quot;personal project riding DSH&quot; motive is obvious</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Turning test discipline from a human's will into an agent's enforced process&quot; is a real direction; the evidence-gate idea transfers</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Dense commits and many companion packages, but a fair share of the 36 commits is self-ecosystem display; independently verifiable value is limited</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>TDD's value for agents is genuinely contested — most people want agents fast, not slowed down by process; the audience is small</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Right direction, and the most self-referential project in this ecosystem.</strong></p>
+<p>An evidence gate (prove before proceed) is a real mechanism for making agent output trustworthy, especially where &quot;the agent touched code and must be rollback-able.&quot; But delivering it depends on a family of packages only the author maintains, and the README's story is &quot;my harness full suite, moved to DSH.&quot; For ecosystem users, this is the highest-migration-cost, least-trustable plugin of the six.</p>
+<p><strong>Transferable rule: when you gate agents, gate on evidence, not on trust.</strong> The evidence gate demands verifiable output (passing tests, file diffs), not the model's self-report of &quot;I'm done.&quot; Any product selling agent labor should swap &quot;the model says it's done&quot; for &quot;must attach reproducible evidence&quot; — it visibly reduces disputes.</p>
+<p><strong>Its relation to dsh-TUI</strong>: both are DSH terminal UIs, but positioned completely differently — dsh-TUI is &quot;Claude Code's experience ported to DSH&quot; (experience gap-filling, for CLI geeks, 619 stars); tianshu is &quot;quality process embedded in the terminal&quot; (workflow reengineering, for people who want evidence, 103 stars). Audience, pitch, and stars differ by an order of magnitude.</p>
+<h2>What to watch next</h2>
+<p>① Real-project usage of the evidence gate in enforce mode — is the gate on by default, and what is the false-block rate
+② Whether the companion packages (evidence-gate/router) get adopted outside this repo — ecosystem adoption is the real evidence
+③ Whether the author splits app.ts and publishes standalone docs — a 2.2k-line monolith is a maintenance risk</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if your agent product is accountable for results (writing code, editing docs, producing reports), copy the minimum viable evidence gate: the model must attach verifiable evidence when it delivers — test output, file diffs, data source references — and anything without evidence is marked &quot;incomplete.&quot; That is an order of magnitude more reliable than letting the model self-assess &quot;done.&quot; Run observe mode first to record the false-block rate, then decide on enforcement.</p>
+<p><strong>Positioning language</strong>: none. The README is a Chinese engineering notebook.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The evidence-gate mechanism is worth stealing for anyone building agent products, but this plugin body (a render layer plus a personal package family) has not demonstrated standalone value. Take the mechanism; you can skip installing the plugin.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +187,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +197,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +207,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +217,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +270,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

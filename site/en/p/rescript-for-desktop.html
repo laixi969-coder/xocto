@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Rescript for Desktop</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">A free, open source, Descript alternative. Runs on-device.</p>
@@ -81,25 +82,161 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/shuohao-skills.html">shuohao-skills</a>,         <a href="../../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Editing a podcast or interview used to mean three uncomfortable paths:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when attacking a mature paid product, pick the high-frequency small action, not the complete feature set — the user&#39;s pain is rarely &#34;not enough features,&#34; it is paying an entire subscr…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An open-source Descript alternative: it turns podcasts, interviews, and talking-head
+video into an editable transcript where deleting a word cuts the media —
+transcription, editing, and export all run on your own machine, nothing uploads.</p>
+<h2>Who built it</h2>
+<p>Wassim Gharbi (@wassgha), an independent developer based in Palo Alto. In the
+second launch he said he built the first version in a single weekend
+to prove that personal software can be as good as the commercial options.</p>
+<p><em>Read: classic &quot;I got bitten by the subscription&quot; product. The first launch
+(browser version) earned 600+ GitHub stars and a top-10 the launch platform spot, which
+is evidence the need is real — a lot of creators hit Descript's paywall and wanted
+a local alternative.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Local transcription</strong> → Whisper (Base ~200MB or Small ~600MB, your choice)
+transcribes the imported file on-device, WebGPU-accelerated with a WASM fallback,
+producing word-level timestamps plus pyannote speaker diarization</li>
+<li><strong>Transcript-as-editor</strong> → delete words and the matching media is cut;
+filler words (&quot;um&quot;, &quot;uh&quot;) are removable in one pass, and silences of at least
+0.3 seconds can be stripped in one click</li>
+<li><strong>Waveform timeline</strong> → split, drag clip edges, nudge timing, zoom — manual
+correction for where speech recognition gets boundaries wrong</li>
+<li><strong>Multi-format import/export</strong> → MP4/WebM/MOV video and MP3/WAV/M4A audio, or
+import SRT/VTT/JSON captions to skip transcription; exports up to 4K MP4/WebM,
+M4A/MP3/WAV audio, TXT/Markdown transcripts, and SRT/VTT/JSON captions</li>
+<li><strong>Desktop across three platforms</strong> → macOS (Apple Silicon and Intel builds),
+Windows, Linux (AppImage and Debian packages), with dark mode and five
+transcription languages</li>
+</ul>
+<p><strong>Local-first</strong>: transcription runs on the device; models cache after the first
+download, and the core workflow works offline. Anonymous usage statistics and
+crash reporting are on by default but can be disabled in Settings.</p>
+<h2>What old behavior it replaces</h2>
+<p>Editing a podcast or interview used to mean three uncomfortable paths:</p>
+<p>Cloud-subscription tools (Descript, VEED): upload audio to someone else's server —
+a non-starter for privacy-sensitive material — and pay monthly.
+Traditional timeline editing (Premiere, Audacity): to cut a few &quot;ums&quot; you find each
+position on a waveform, cut, listen, cut again; an hour of content could eat half a
+day. Or shuttling between tools — transcribe in one app, edit in another, re-check
+the export.</p>
+<p>Rescript replaces the shared pain of all three: the paywall, the upload dependency,
+and the timeline complexity. &quot;Cut the filler&quot; becomes deleting a few words in text.</p>
+<h2>Business model</h2>
+<p><strong>Open source with a dual license.</strong> Current releases use the PolyForm
+Noncommercial 1.0.0 license: free for personal non-commercial use, commercial use
+requires a paid license from the author. Older releases published under MIT keep
+their MIT license.</p>
+<p><em>Read: a rare, clear-headed move from a solo open-source author — the &quot;free&quot; claim
+carries a non-commercial boundary, which keeps community reach and momentum while
+leaving a monetization door open. The practical impact for users: check the
+license before using it for paid client work or internal business production.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>First launch (browser): 600+ GitHub stars, top 10 at launch</li>
+<li>Second launch (desktop, 2026-08-07): 88 upvotes, #19 Product of the Day</li>
+<li>Repo created late July 2026; 177 stars / 15 forks within days (third-party tracker)</li>
+<li>Already iterated to v1.1.7 (2026-08-07), fixing transcription-model memory
+management for longer files</li>
+<li>Team: the author alone; user count and revenue: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author is the target user; built in a weekend and iterated to two platforms — genuine, not a corporate project</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Cutting the filler&quot; is the single highest-frequency real action in podcasting, and making it text deletion is smarter than building a full editor</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Whisper + pyannote + ffmpeg.wasm all-local pipeline plus three-platform desktop builds — large scope, high completion</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right window: talking-head/podcast content is booming and privacy anxiety is rising</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A clean case of attacking a mature subscription product with &quot;free plus
+data-never-leaves-your-machine.&quot;</strong></p>
+<p>It does not fight Descript on the full feature set; it picks two points it can win:
+zero subscription (non-commercial) and files that never leave the device. For
+privacy-sensitive interview content — medical, legal, early fundraising
+conversations — &quot;no upload&quot; is itself the purchase reason.</p>
+<p><strong>The license strategy is the lesson here.</strong> PolyForm Noncommercial separates
+&quot;open-source heat&quot; from &quot;commercial revenue&quot;: free for community spread, paid for
+commercial use. For an indie developer without VC backing, that is a more
+sustainable route than pure MIT.</p>
+<p><strong>The technical point of interest</strong> is the bit-correct local pipeline: Whisper
+transcription, pyannote diarization, and ffmpeg.wasm export all running on-device.
+That depends on a mature WebGPU/WASM toolchain, and it is evidence that the
+technical barrier for local AI tools is being flattened by the tooling.</p>
+<p><strong>The limits should be stated plainly</strong>: it is subtraction-style editing — not
+built for multi-track, effects, color work, or collaboration; long files and
+high-resolution exports depend on the machine; and when speech recognition is
+wrong, boundaries need manual fixing. It is a quick-cut tool, not a full NLE.</p>
+<h2>What to watch next</h2>
+<p>① Whether GitHub stars pass 1,500 in three months — the post-dual-platform growth
+curve is the retention signal
+② Whether commercial-license sales ever get disclosed — whether non-commercial
+free converts to revenue
+③ Whether creators start propagating it in workflows (&quot;when you only need to cut
+the filler&quot;), which would be the strongest organic distribution</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when attacking a mature paid product, pick the high-frequency
+small action, not the complete feature set — the user's pain is rarely &quot;not enough
+features,&quot; it is paying an entire subscription for one repeated action. &quot;Cut the
+filler&quot; as a one-click action beats &quot;a lightweight Premiere.&quot;</p>
+<p><strong>Positioning language</strong>: &quot;built it in a weekend to prove personal software can
+match commercial products&quot; is the standard indie-launch narrative; what is
+transferable is framing personal-vs-commercial as a quality question rather than a
+scale question.</p>
+<p><strong>Pricing structure</strong>: the PolyForm Noncommercial dual license — free to
+non-commercial users, paid for commercial use — is worth copying if you build
+open-source software: give the heat to the community, collect the money from
+commercial contexts.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The need is real, the traction is evidenced, the local-first
+direction and privacy narrative both hold, and the license strategy is smart. The
+limits: it is a quick-cut tool with a finite ceiling, and commercial conversion is
+unproven. For people building AI tools, the &quot;how to attack subscriptions with
+local-first&quot; playbook is worth more than the product itself.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Creative">
-        16 in AI + Creative →
+        15 in AI + Creative →
       </a>
     </div>
     <ul class="rows">
@@ -151,9 +288,9 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="pager-n">Remix</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/rythmix-ai-music-generator.html">
+      <a class="pager-item pager-next" href="../../p/screenmark.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">Rythmix - AI Music Generator</span>
+        <span class="pager-n">ScreenMark</span>
       </a>
     </div>
   </nav>
@@ -192,7 +329,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

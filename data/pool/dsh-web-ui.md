@@ -14,7 +14,7 @@ summary: Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task boa
   panel, remote mobile UI, pet, live token stats, and skin center.
 first_seen: '2026-08-12T05:15:20Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

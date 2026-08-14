@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>agent-vision-toolkit</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</p>
@@ -82,15 +83,137 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The standard way to give a text-only model vision was a &#34;generic bridge&#34;: hand the image to a multimodal model, get back a general description, and stuff it back into the text model&#39;s context. The pro…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: &#34;intent must travel with the task&#34; transfers to any scenario where you outsource capability to another model layer — do not ask the model &#34;what is this&#34;; ask &#34;why am I looking at this a…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Eyes for text-only models — not by turning an image into a generic description, but by passing the
+&quot;why is the agent looking at this image&quot; intent to the vision model, paired with deterministic
+tools for grounding, cropping, tracing, and OCR, so text agents can see and operate reliably in real
+workflows.</p>
+<h2>Who built it</h2>
+<p>Anionex, a self-described AI-native developer who once ranked No. 4 on GitHub's global developer
+trending list, with more than 16k stars across their projects. MIT license, 231 commits, latest on
+2026-08-14.</p>
+<p><em>Read: one person getting a tool to 700+ stars with all five agent integrations verified means this
+is a product they use themselves, not a demo. The focus-hint design was not invented at a desk; it
+was earned by walking into walls.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Five vision tools plus one workflow</strong> → glance (what is in the image; follow-up questions; OCR),
+ground (locate a named target, returns pixel coordinates), detect (enumerate elements, outputs a
+numbered catalog with pixel boxes), trace (extract SVG geometry from real pixels; the LLM does not
+participate in the fitting), crop (cut a region for reuse), plus a long-screenshot OCR workflow
+(finds low-content seams, OCRs chunk by chunk, de-duplicates overlaps, validates speaker/timestamps/
+boundaries for chat logs)</li>
+<li><strong>Focus-hint mechanism</strong> → extracts the viewing intent from the user message or from the model's
+stated reason for calling an image tool, and passes it to the vision model as a focus hint, so the
+first-round description is organized around the task instead of being generic</li>
+<li><strong>Seamless integration with five agents</strong> → Codex and Claude Code (transparent local proxy), Pi /
+Oh My Pi and OpenCode (single-file native extensions); any agent with a shell can use the CLIs
+directly</li>
+<li><strong>Native DSH support</strong> → added 2026-08-13; dsh-vision-toolkit exposes 10 structured vision tools</li>
+<li><strong>Cost control</strong> → only the necessary intent plus the image enter the multimodal context, with a
+truncation mechanism; a small local multimodal model (Gemma 4, Qwen 3.5/3.6) can serve as the
+vision sidecar</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>The standard way to give a text-only model vision was a &quot;generic bridge&quot;: hand the image to a
+multimodal model, get back a general description, and stuff it back into the text model's context.
+The problem is that the description is generic — for the same UI screenshot, the layout, spacing,
+and component relationships a &quot;restore this as HTML&quot; task actually needs get diluted into &quot;a
+software interface with a sidebar, cards, buttons, and text.&quot;</p>
+<p>It replaces that generic bridge: instead of &quot;look at the image → general description,&quot; it does
+&quot;look with the task's intent → task-relevant context,&quot; and hands pixel-exact work (coordinates,
+colors, outlines) to deterministic tools instead of letting the model guess. The secondary old
+behavior it displaces: getting vision used to require switching to a multimodal model or rewriting
+the harness; now a layer added outside the text model is enough.</p>
+<h2>Business model</h2>
+<p>The tool is free and open source (MIT). The business model is BYO vision API: users bring their own
+OpenAI-compatible multimodal API key and pay their upstream provider for vision-model usage; the
+tool takes no cut.</p>
+<p><em>Read: this is the &quot;water seller&quot; open-source play — the tool is free for reputation, and both cost
+and traffic stay upstream. It works for an individual developer because maintenance is cheap; the
+cost is no direct revenue, and long-term maintenance rides on the author's goodwill.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>706 stars / 25 forks / 5 open issues</strong>, 231 commits</li>
+<li>Verified integrations: Codex, Claude Code, Pi, Oh My Pi, OpenCode, plus native DSH support</li>
+<li>Author's self-reported track record: 16k+ cumulative stars, once No. 4 on GitHub global trending</li>
+<li>Pricing: none (BYO vision API); limitations: it is an image-to-text layer, so quality depends on
+both the primary model and the vision model; the agent cache is in-process only and clears on
+restart</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A one-person vision tool with 231 consecutive commits; the product fits the author's own stack closely</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Focus hint is a genuine insight — peers ship &quot;longer descriptions&quot;; it ships &quot;better-targeted descriptions&quot;</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>All five agent integrations verified; tools split into understand/locate/enumerate/trace/crop; restrained, clean interfaces</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Native vision plugin shipped the same day DSH launched — timing is precise; but the text-only-model vision gap is transitional by nature</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A &quot;small but real&quot; product: a true problem, a clever solution, disciplined execution.</strong> For the
+DSH ecosystem it fills the biggest gap of text-only models — they cannot see images. For
+practitioners in general, it demonstrates capability tiering: semantic judgment goes to the model,
+pixel-exact work goes to deterministic tools, and the model never guesses coordinates.</p>
+<p><strong>Its ceiling is equally clear: it is a transitional product.</strong> The day multimodality becomes the
+default — the day &quot;give the text-only model eyes&quot; stops being a need — its value becomes mostly
+historical. But the focus-hint mechanism it demonstrates, passing task intent into the vision
+layer, will settle into the visual-agent toolkit as the permanently correct practice.</p>
+<h2>What to watch next</h2>
+<p>① Whether star growth amplifies with the DSH ecosystem now that the native plugin is out
+② Whether enterprise usage or monetization appears (currently fully free plus BYO API)
+③ Whether positioning pivots as multimodality spreads — e.g., from &quot;eyes for text-only models&quot; to
+GUI automation</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: &quot;intent must travel with the task&quot; transfers to any scenario where you outsource
+capability to another model layer — do not ask the model &quot;what is this&quot;; ask &quot;why am I looking at
+this and what does it mean for my current task.&quot; When passing context to a third-party model, send
+the task intent as a focus hint; it beats any longer prompt.</p>
+<p><strong>Tool split</strong>: separate &quot;understanding-class&quot; and &quot;determination-class&quot; operations — semantic
+judgment stays with the model; pixel, coordinate, and geometry work goes to deterministic tools.
+That layering transfers to any product mixing AI judgment with precise execution.</p>
+<p><strong>Pricing structure</strong>: the open-source-tool-plus-BYO-API &quot;water seller&quot; structure is worth copying —
+the tool is free for reputation, costs are offloaded to the user's own API bill, and no middleman
+margin is taken.</p>
+<p><strong>Positioning language</strong>: none. Engineering README; nothing to steal.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> It is one of the rare DSH-ecosystem plugins that stands on its own — it can
+survive without DSH, and inside DSH it fills a critical gap. Write down the focus-hint mechanism;
+it is a design that transfers to any vision or outsourced-capability scenario.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +230,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +240,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +250,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +260,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DSH-better-sidebar</span>
             <span class="row-desc">A full workbench in the DSH sidebar, with file editing, terminal, Git, and sub-agents.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 453</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 453</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +313,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

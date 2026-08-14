@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Hearth</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">共享家庭工作空间，agent可在其中构建应用。</p>
@@ -82,22 +83,124 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>家庭事务分散在三四个工具里：群聊里的计划、各人手机里的日历、冰箱贴上的便签、 共享表格。信息碎片化，没人能一眼看到全家安排，同步全靠人肉。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：&#34;agent 自己写工具再用工具&#34;是 agent 应用的下一层抽象。如果你做 agent 产品，把&#34;让 agent 在用户数据之上生成自己的 UI/工具&#34;当作能力而不是功能， 家庭、公司、工地只是三种不同数据场景。最小测试环境要满足：上下文密度高、 隐私边界真实、用户不要求技术能力。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个家庭共享的工作空间，家里人的计划、笔记、日程和成员都在里面，
+一个 agent 能读懂这些上下文，还能就地写小程序跑起来。</p>
+<h2>做这个东西的人</h2>
+<p>jmtulloss（Jonathan Tullis，Retool 联合创始人）为自家建的。基于他们正在开发的
+Playground 库——面向&quot;协作式 AI 编码&quot;的底层：同步文件、agents、人、应用代码
+沙箱、策略层。Hearth 是家庭规模示例，同一套库还在做建筑施工项目产品 Bear
+（bear.build）。站点 ourhearth.ai。</p>
+<p><em>判断：Retool 创始人做个人项目，最大的信号是他在验证&quot;agent 自己写工具&quot;这个
+范式是否成立——家庭只是最小规模的试验场，施工项目才是商业目标。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>家庭共享工作空间</strong> → 计划、笔记、日程、成员、周期性家庭仪式，同步到所有设备</li>
+<li><strong>上下文 agent</strong> → 能读懂上述所有内容并跨上下文工作，&quot;像共享版 Obsidian
+加了个 agent&quot;</li>
+<li><strong>agent 建应用</strong> → 在家庭笔记之上生成小应用并在同一空间内运行，示例是日历和
+旅行应用</li>
+<li><strong>工具即权限</strong> → 接 IoT 设备用 API token 配代理，agent 可以调用设备而拿不到
+token</li>
+<li><strong>多成员协同</strong> → 全家共享同一份数据，集成对所有人可见</li>
+<li><strong>明确处于 beta</strong>，作者建议源码稳定开放前别放敏感内容，计划开源</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>家庭事务分散在三四个工具里：群聊里的计划、各人手机里的日历、冰箱贴上的便签、
+共享表格。信息碎片化，没人能一眼看到全家安排，同步全靠人肉。</p>
+<p>Hearth 把计划、笔记、日程收进一个共享空间，再由 agent 消费这些上下文——
+这是&quot;全家共用的第二个大脑&quot;，替代的是&quot;家庭信息散落各处 + 每次靠人肉同步&quot;。
+关键增量在 agent：它不只是存，而是在这个上下文里主动产出工具。</p>
+<h2>商业模式</h2>
+<p><strong>未披露定价。</strong> beta 阶段，计划开源。公司层面在推进同一技术栈的 Bear（建筑施工），
+家庭产品目前没有任何商业模式信息。</p>
+<p><em>判断：家庭场景基本不可能是主收入，Hearth 更像是 Playground 库的活广告。
+真正的商业逻辑要看 Bear——把&quot;agent 自己建工具&quot;卖给施工方，是建筑行业
+数字化的老故事换新引擎。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>HN Show HN 8 分 / 3 评论</strong>（2026-08-13），traction 很小</li>
+<li><strong>未开源</strong>：源码未放出，暂无 star/fork 数据</li>
+<li>已有 Home Assistant 应用示例在 github.com/bearbuild/hearth-apps</li>
+<li>用户数、定价：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>Retool 创始人亲手做全家工具，自己吃自己的产品，匹配度高</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;agent 在私有上下文里自己造工具&quot;是聪明方向，但家庭场景付费意愿存疑</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>有沙箱、最小权限、同步文件等设计，但还没开源无法核实</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>家庭自动化在起量，但消费者市场对&quot;自己造 app&quot;的需求教育成本极高</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>值得记住的是一句话：agent 应该在它读得懂上下文的地方自己造工具。</strong>
+现在多数 agent 产品的边界是&quot;在固定工具集里选工具&quot;，Hearth 的方向是 agent 直接
+在用户数据之上生成自己的工具和 UI。这是 agent 应用的下一层抽象，家庭、公司、
+工地只是三种不同的数据场景。</p>
+<p><strong>但 8 分和 3 条评论说明它没有离开作者的自留地。</strong> 全文只有一个承诺和一个
+试验场：承诺是&quot;源码快开源了&quot;，试验场是作者自家。最诚实的证据反而是那句
+&quot;源码稳定前别放敏感内容&quot;——作者自己都不确定现在的隔离设计扛得住。</p>
+<p><strong>家庭这个场景选得巧但不赚钱。</strong> 选家庭是因为上下文密度高、隐私边界真实、
+非技术人员使用，是最小且最完整的测试环境。但消费者不会为&quot;agent 给我造个
+日历应用&quot;付费——他们连概念都难理解。商业故事在 Bear，不在 Hearth。</p>
+<p><strong>工具即权限这个细节值得单独记一笔。</strong> 用 API token 配代理让 agent 调用设备
+而接触不到 token，是 agent 权限设计里少见的干净做法。</p>
+<h2>下一步看什么</h2>
+<p>① 源码是否按承诺开源——不开源就是营销稿
+② &quot;agent 建的应用&quot;在真实家庭里的留存——作者说过全家在用，但没有任何数据
+③ Bear（施工版）是否公开价格与客户——那才是商业真相</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：&quot;agent 自己写工具再用工具&quot;是 agent 应用的下一层抽象。如果你做
+agent 产品，把&quot;让 agent 在用户数据之上生成自己的 UI/工具&quot;当作能力而不是功能，
+家庭、公司、工地只是三种不同数据场景。最小测试环境要满足：上下文密度高、
+隐私边界真实、用户不要求技术能力。</p>
+<p><strong>话术</strong>：无。HN 帖是个人化介绍，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 概念亮、来源可信，但 8 分 traction、未开源、无定价，全部承诺都
+指向&quot;未来&quot;。用三条指标等它兑现。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
-        AI + 生活 共 16 个 →
+        AI + 生活 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -107,7 +210,7 @@
             <span class="row-name">everycube</span>
             <span class="row-desc">能翻遍魔方全部 4325 亿亿种状态</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 285</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 285</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +220,7 @@
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">讲 AI Agent 设计原理与工程实践的开源教材</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 221</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 221</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +230,7 @@
             <span class="row-name">loomfeed</span>
             <span class="row-desc">开源Reddit替代品，专为AI agent和人类设计，支持溯源和声誉。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 212</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 212</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +240,7 @@
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">语音驱动的谋杀推理游戏，用嘴审问 AI 嫌疑人</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 203</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 203</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +293,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

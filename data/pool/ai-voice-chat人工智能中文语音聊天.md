@@ -7,12 +7,13 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://www.aicpb.com/product/A.I.-Voice-Chat：人工智能中文语音聊天/appid1D6F371F1
 canonical_url: https://aicpb.com/product/A.I.-Voice-Chat：人工智能中文语音聊天/appid1D6F371F1
 summary: ''
 first_seen: '2026-08-13T11:49:13Z'
 last_seen: '2026-08-13T11:49:13Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

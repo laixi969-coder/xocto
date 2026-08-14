@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>DuckDisk</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Table-first storage analysis for Mac, cloud, and SSH</p>
@@ -81,25 +82,102 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Cleaning up a Mac used to mean one of two things:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for any analysis tool, write down a &#34;questions users will ask&#34; list first, then answer each one with the right data form. DuckDisk&#39;s whole table is an answer set to five questions (who …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A macOS disk-space analyzer that swaps the pretty map for a dense table — local disks, OneDrive, Google Drive, and SSH servers scanned in one pass, with directory size, allocated space, parent percentage, item counts, and file-type totals all visible in a single tree.</p>
+<h2>Who built it</h2>
+<p>Built by indie developer puppypi (credited that way at launch), open source under AGPL-3.0, built with Tauri + Rust + React with the pdu scanner under the hood. Launched at launch on August 9, 2026 with 108 upvotes, #12 of the day. Apple-notarized and on the Mac App Store.</p>
+<p><em>Read: a single developer, open source, on the App Store — the standard playbook for an indie Mac tool. The telling detail is running two distribution channels: the MAS build is sandbox-limited (local disks, OneDrive, SSH only), while the notarized direct build adds Google Drive and uses system SSH config. The author knew exactly where the App Store's limits are and kept an escape hatch.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Table-first tree view</strong> → the WizTree idea from Windows: one dense tree showing size, allocated space, parent percentage, file/folder counts, and file-type totals at once, with information persisting as you drill down</li>
+<li><strong>Local + cloud + remote in one pass</strong> → local disks, OneDrive, Google Drive, and SSH paths under one interface</li>
+<li><strong>Cloud reads metadata only</strong> → OneDrive via Microsoft Graph delta sync plus a local metadata cache, no file-content downloads; Google Drive via OAuth, also metadata-level</li>
+<li><strong>SSH reuses system config</strong> → ~/.ssh/config and Keychain-stored passwords, no credentials duplicated inside the app</li>
+<li><strong>Safe cleanup</strong> → cleanup is staged for review; cloud deletions go to Trash, permanent local/SSH deletion needs a second confirmation</li>
+<li><strong>Large-table performance</strong> → virtualized rows, cached results, incremental refresh; multi-million-row trees stay responsive</li>
+</ul>
+<p><strong>Why tables, not maps</strong>: the author's PH post states the motivation plainly — &quot;most macOS disk cleaners make a beautiful daisy map, but I still end up asking: which folder owns this space, how much is allocated, how many files are inside, and what types dominate?&quot;</p>
+<h2>What old behavior it replaces</h2>
+<p>Cleaning up a Mac used to mean one of two things:</p>
+<p><strong>Graphical tools like DaisyDisk / OmniDiskSweeper</strong> — every file drawn as colored arcs, great at showing &quot;where the big stuff is&quot; in one glance, but that is the only question they answer. Ask &quot;how many files in this directory, what share by type, what percentage of my whole disk&quot; and the graphics give you nothing.</p>
+<p><strong>The command line</strong> — <code>du</code>, <code>ncdu</code>, <code>find | xargs</code>: all the information, but stuck in a terminal, unfriendly to ordinary users, with no way to drill down a table and act on it.</p>
+<p>DuckDisk occupies the gap between them: it ports the table-first experience WizTree proved on Windows to the Mac and merges local, cloud, and SSH into one tree. The insight is that graphical maps are for guessing, tables are for answering, and disk cleanup is fundamentally repeated answering.</p>
+<h2>Business model</h2>
+<p><strong>Free.</strong> AGPL-3.0 open source, no subscription, no IAP, no ads, available on both the App Store and GitHub Releases.</p>
+<p><em>Read: there is no visible plan to make money — no Pro tier, no sponsorship link, no &quot;paid for teams&quot; edition. Either a deliberate free-and-generous move to build reputation and stars, or simply not thought through. Indie Mac tools making a name free and riding that into the next product is a real pattern, but DuckDisk itself shows no commercialization signal yet.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>PH launch 2026-08-09: <strong>108 upvotes, 3 comments, #12 of the day</strong></li>
+<li>AGPL-3.0, Tauri + Rust + React + pdu scanner</li>
+<li>Apple-notarized + Mac App Store, two distribution channels</li>
+<li>GitHub repo exists (README complete); star count not verified</li>
+<li>Downloads, users, revenue: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author was clearly bitten by &quot;daisy maps don't answer my questions&quot;; the pain is concrete</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Tables vs. charts are two ways of thinking&quot; is an accurate call; metadata-only cloud scans are a clever, cheap implementation choice</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Virtualization, caching, incremental refresh, double confirmation — a personal project with professional-grade detail</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Meh. Disk cleanup is an existing market with no tailwind; it has to win on product merit alone</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is a textbook case of &quot;an old tool with a new way of presenting data is a new product&quot; — and the ceiling is visible from day one.</strong></p>
+<p>DuckDisk's product insight deserves to be isolated: <strong>graphical maps and tables are two different kinds of thinking.</strong> Maps answer &quot;where is it big&quot;; tables answer &quot;what takes what, how much, and how do I drill in.&quot; The latter is naturally built for decisions, the former for demos. On &quot;answering structured questions,&quot; it is genuinely better than every Mac graphical tool.</p>
+<p><strong>The transferable rule: don't build an interface that shows the problem, build one that answers the questions.</strong> Most analytics tools ship v1 as &quot;draw the data,&quot; but the questions users actually ask are structured — which, how much, what percentage, compared to what. List the five concrete questions users will ask, then decide table or chart from that, instead of defaulting to a pretty shape.</p>
+<p><strong>The ceiling</strong>: disk cleanup is low-frequency, free, and educated by the OS's own tooling. No network effects, no ecosystem, no data moat — a cheaper or prettier competitor can take the users away. Its value is less the product itself and more what it demonstrates: how complete a product a solo developer can ship with one toolchain (Tauri + Rust + open source + MAS). For anyone thinking of making Mac tools themselves, that demonstration is worth more than how much disk DuckDisk frees.</p>
+<h2>What to watch next</h2>
+<p>① Star count and App Store rating/review volume in three months — the reputation-accumulation speed of a free tool
+② Whether a paid Pro tier appears (multi-cloud accounts, report export) — tells you if &quot;free&quot; is strategy or an afterthought
+③ Whether it gets picked up by Setapp or a third-party Mac tool bundle — the common indie-monetization path</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for any analysis tool, write down a &quot;questions users will ask&quot; list first, then answer each one with the right data form. DuckDisk's whole table is an answer set to five questions (who owns the space, what's allocated, what percentage of parent, how many files, what types) — the table is not an aesthetic choice but the result of maximizing answer density.</p>
+<p><strong>Positioning language</strong>: the author's first-person pain statement — &quot;I still end up asking: which folder owns this space?&quot; — reads more honest than any feature list. Your own pain plus your solution is the most effective opening for an indie tool launch.</p>
+<p><strong>Pricing structure</strong>: none. Free and open source; no commercial plans disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Clear product insight, complete engineering, and a solid free-and-open-source reputation path — but it is an existing-market tool with no commercialization signal. Judge it half on the tool, half on the solo-developer demonstration; revisit in three months against the three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +197,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +207,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +217,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +270,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

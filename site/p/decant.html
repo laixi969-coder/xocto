@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Decant</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">看清 token 花在哪</p>
@@ -82,15 +83,123 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前想复盘&#34;这个 agent 会话到底干了什么、花了多少钱&#34;，只能去翻 ~/.claude/projects 底下散落的 JSONL 原始日志，或者信厂商用量页的总数。 会话之间的关联、工具调用模式、&#34;这周 agent 都在重读哪些文件&#34;——这些问题 靠肉眼翻日志回答不了。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：&#34;分析你的历史&#34;类工具里，最高级的一档不只是告诉你花了什么， 而是把历史蒸馏成未来可直接调用的资产（脚本、技能、指令）。 从&#34;可见性&#34;到&#34;复用性&#34;的这一步，值得任何做 agent 工作流工具的人抄。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把本机 Claude Code 和 Codex 的会话日志变成可检索、可分析的知识库：
+token 花在哪、上下文窗口用得多满、agent 摸了哪些文件和工具、
+完整对话能全文搜索，还能从历史命令里蒸馏出可复用的工作流脚本。
+运行时零外网请求，会话记录不出本机。</p>
+<h2>做这个东西的人</h2>
+<p>Dosu（dosu.dev）公司维护，自称&quot;面向 agent 的知识基础设施&quot;。仓库 <code>dosu-ai/decant</code>，
+Apache-2.0，Bun + TypeScript 实现，近期主要提交者是 Taylor Dolezal（GitHub <code>teedole</code>）。
+pool 里记录的 builder 是 <code>devstein</code>，可能是仓库创建者，无法核实其与 Dosu 的关系。</p>
+<p><em>判断：Dosu 自己做 agent 基础设施、天天跑 agent，dogfood 自己的日志——Decant 既是给社区的工具，
+也是它主产品的引流入口。这类&quot;公司核心业务 + 免费开源周边&quot;的组合，维护动力比纯个人项目稳。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>统一归档</strong> → 把 Claude Code（<code>~/.claude/projects</code>）和 Codex（<code>~/.codex</code>）的日志归一进一个 SQLite 库</li>
+<li><strong>全文搜索</strong> → 跨消息、工具调用、完整对话搜索</li>
+<li><strong>多维分析</strong> → token、估算成本、上下文、活动、工具、MCP、文件使用分析</li>
+<li><strong>可视化浏览</strong> → 会话、项目、文件、摄取诊断都能看；CLI 和本地 Web UI（127.0.0.1:3000）同一套数据</li>
+<li><strong>导出</strong> → Markdown / JSON / 报告 / trajectory</li>
+<li><strong>蒸馏（distill）</strong> → 从命令历史里提取确定性脚本、回放、agent 指令（AGENTS.md 片段），输出时自动打码密钥——这是它区别于纯记账工具的独有功能</li>
+<li><strong>本地 API</strong> → OpenAPI 3.1 契约，agent 可以自己查自己的历史</li>
+</ul>
+<p><strong>它明确不做</strong>：不做云端、不做网络调用、不采集遥测；真实会话里可能有源码、prompt、凭据，
+所以官方明确要求 issue 和测试一律用合成数据。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前想复盘&quot;这个 agent 会话到底干了什么、花了多少钱&quot;，只能去翻
+<code>~/.claude/projects</code> 底下散落的 JSONL 原始日志，或者信厂商用量页的总数。
+会话之间的关联、工具调用模式、&quot;这周 agent 都在重读哪些文件&quot;——这些问题
+靠肉眼翻日志回答不了。</p>
+<p>Decant 替代的是三件事：<strong>翻原始日志</strong>（→ 一个 SQLite 库 + 全文搜索）、
+<strong>算不清成本归属</strong>（→ token/成本/上下文按维度拆开）、以及最特别的——
+<strong>把 agent 干过的活变成可复用资产</strong>（distill 把一次成功的操作流固化成脚本/技能），
+这已经不是记账，是把历史变资本。</p>
+<h2>商业模式</h2>
+<p>Decant 本身免费开源（Apache-2.0）。Dosu 的营收在它的主产品（agent 知识基础设施服务）上，
+Decant 博客结尾的落点是&quot;用它看清 agent 缺什么知识，再用 Dosu 补齐&quot;。</p>
+<p><em>判断：这是标准的&quot;工具引流&quot;结构——分析工具免费开放换安装量和口碑，
+真正的钱在&quot;帮 agent 更快更便宜&quot;的托管服务上。对 Decant 单品的商业判断没有意义，
+对 Dosu 的漏斗判断才有意义。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>仓库 2026-06 创建，297 个提交，当前 v0.4.0（2026-08-12）</li>
+<li>Apache-2.0，Bun + TypeScript；macOS / Linux x64 和 arm64，暂无原生 Windows</li>
+<li>HN 发布 10 分 / 0 评（pool 采集）；star 数未在本次采集中获得一手数据</li>
+<li>团队：Dosu 公司；付费用户、ARR：未披露</li>
+<li>说明：网络上有一篇 AI 生成稿称 Decant 是&quot;拦截 LLM 请求的代理中间件、24 小时 847 星&quot;，
+与真实仓库（本地会话分析工具）完全不符，判定为幻觉内容，不采信</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>Dosu 自己是 agent 重度使用者，&quot;agent 总在重学公司已有的知识&quot;这个洞察直接来自自用</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>与 CodeBurn 撞同一需求但角度不同：不只有账本，还有检索和蒸馏，把&quot;分析&quot;升级成&quot;复用&quot;</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>本地 API 带 OpenAPI 契约、SLSA 发布校验、合成数据纪律，工程规范扎实</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>与 CodeBurn 数天内先后出现，AI 成本失控已被确认为普遍痛点，品类正在成型</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>与 CodeBurn 撞同一个需求，恰恰说明这个品类成立了。</strong></p>
+<p>两者一周内先后冒出来：CodeBurn 是个人开源（40 工具成本仪表盘 + 预算守卫），
+Decant 是公司开源（Claude Code/Codex 会话库 + 检索 + 蒸馏）。
+同一点痛同时被独立方选中，是&quot;AI 成本失控是普遍问题&quot;的最强证据。</p>
+<p><strong>Decant 最值得注意的功能是 distill。</strong> 记账工具只能告诉你&quot;钱花哪了&quot;，
+distill 把成功的操作历史直接变成脚本、技能和 AGENTS.md 片段——
+这就从&quot;看账本&quot;跨到了&quot;把过去的活变成未来的杠杆&quot;。这是它和 CodeBurn 的分水岭，
+也是&quot;知识基础设施&quot;这个定位的真正落点。</p>
+<p><strong>两个局限</strong>：一是只覆盖 Claude Code 和 Codex 两个工具，覆盖面远窄于 CodeBurn；
+二是它本质是 Dosu 的引流件，功能演进会服从 Dosu 主产品战略，而不是 Decant 独立产品的需求。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月内 star 数能否破千、HN 热度能否兑现成持续采用——目前公开热度很低（10 分/0 评）
+② distill 是否有用户公开报告&quot;蒸馏出的脚本真的在复用&quot;——它是唯一区别于记账的功能
+③ 是否扩大覆盖工具（目前只有 Claude Code + Codex）——覆盖面是这类工具的生死线</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：&quot;分析你的历史&quot;类工具里，最高级的一档不只是告诉你花了什么，
+而是把历史<strong>蒸馏成未来可直接调用的资产</strong>（脚本、技能、指令）。
+从&quot;可见性&quot;到&quot;复用性&quot;的这一步，值得任何做 agent 工作流工具的人抄。</p>
+<p><strong>话术</strong>：&quot;Turns the logs your agents write into real numbers.&quot;——把&quot;让日志变成数字&quot;写成一句
+主张，本地优先和隐私就自然包含在里面了。</p>
+<p><strong>分发</strong>：免费开源 + 本地 API（OpenAPI 契约），让&quot;agent 自己查自己的历史&quot;成为可能——
+把工具本身也做成 agent 可调用的节点，是开源工具参与 agent 生态的正确姿势。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 公司背景比个人项目稳，distill 功能独一份，但公开热度低、
+工具覆盖窄、功能演进受 Dosu 主产品牵制。品类判断（成本失控是普遍痛点）
+已经由它与 CodeBurn 的同日出现证明了，对单品再等等看。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +216,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +226,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +236,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +246,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +299,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

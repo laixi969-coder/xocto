@@ -8,12 +8,13 @@ inspiration: 人看图、机器看结构，中间的翻译层是个被低估的�
 summary_en: ''
 inspiration_en: People read pictures, machines read structure. The translation layer between them is an
   underrated small business.
+priority_review: false
 url: https://graph2agent.github.io/
 canonical_url: https://graph2agent.github.io
 summary: explained for agents
 first_seen: '2026-08-10T21:29:40Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

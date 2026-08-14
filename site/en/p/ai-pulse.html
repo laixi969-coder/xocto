@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>ai-pulse</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">AI Pulse a fake LED strip beside the macOS Dock that shows agent status</p>
@@ -81,25 +82,151 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>With a desktop agent (especially a CLI agent like Claude Code), knowing &#34;where is it now&#34; used to mean one of two things:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when building tools, ask &#34;what is the user anxious about right now&#34; before &#34;what feature should I add.&#34; An ambient status light for a background-running agent is subtractive design — so…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A virtual LED strip floating in the unused space beside the macOS Dock: is your AI
+agent working, waiting on you, finished, or broken — one glance. Pure software,
+does not touch the Dock, reads nothing.</p>
+<h2>Who built it</h2>
+<p>leog (GitHub: leog), an independent developer. Inspired by the SidePulse hardware
+gadget, reimplemented as software. The commit history shows pair-programming with
+Claude (Anthropic) — many co-authors are AI — with 27 commits so far.</p>
+<p><em>Read: a classic &quot;open-sourced personal tool&quot; — the author's pain (not knowing
+where a background agent is in its work) was concrete enough to justify a full
+app, but the positioning stays personal-utility; there is no commercial intent.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Five states, one strip</strong> → working (cyan comet streaks), needs you (orange
+breathing), failed (red double-blink), finished (all eight LEDs settle green),
+idle (slow aurora), plus an off state</li>
+<li><strong>No per-model distinction</strong> → deliberately a single aggregate signal: you see
+&quot;is something happening,&quot; not which agent</li>
+<li><strong>Not embedded in the Dock</strong> → macOS exposes no public API for Dock accessories,
+so it is a Dock-adjacent, borderless, nonactivating NSPanel positioned from
+public screen geometry (NSScreen.frame vs visibleFrame)</li>
+<li><strong>Zero permissions</strong> → no private APIs, no Accessibility or Screen Recording
+permissions, no injection</li>
+<li><strong>Local loopback service</strong> → listens on 127.0.0.1:7455; a bearer token is
+generated at launch and stored in the Keychain, the aipulse CLI reports status
+without tokens ever appearing in shell history</li>
+<li><strong>Integrations</strong> → an official Claude Code hook adapter, plus a pi extension
+(aipulse-pi.ts); other agents are meant to be added later</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: read prompts, terminal content, editor
+content, or windows; no interception, no recording.</p>
+<h2>What old behavior it replaces</h2>
+<p>With a desktop agent (especially a CLI agent like Claude Code), knowing &quot;where is
+it now&quot; used to mean one of two things:</p>
+<p><strong>Keeping the terminal open</strong> — staring at a scrolling log; look away for a moment
+and you lose track of which step it is on, and whether you should wait.</p>
+<p><strong>Flipping over to poke it</strong> — constantly switching windows to check output, or
+just waiting blind; when the agent is waiting on your approval you may not know,
+burning minutes.</p>
+<p>Further back, people bought hardware like the SidePulse LED strip for the same
+problem — extra money, a physical spot, and locked to a specific ecosystem.</p>
+<p>AI Pulse replaces &quot;repeatedly checking agent status&quot;: it lifts &quot;busy / waiting on
+you / broken&quot; out of the logs and turns it into ambient light you catch with
+peripheral vision. It solves an anxiety problem rather than a functional one, and
+the README says exactly that.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> MIT open source, free, no paid plan, no ads.</p>
+<p><em>Read: there is no commercial imagination here, and the value lives elsewhere —
+it validates that the psychological cost of an invisible agent is real and can be
+addressed by a 30-line UI. That need will most likely be absorbed by agent
+products themselves.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>HN: 18 points / 12 comments (this batch's observation)</li>
+<li>27 commits, MIT, Swift/SwiftUI, Universal binary (arm64 + x86_64)</li>
+<li>All six milestones delivered; the README calls the MVP complete</li>
+<li>Releases not yet notarized; install requires right-click → Open (plus a
+Privacy &amp; Security allowance on macOS 15+)</li>
+<li>Users and downloads: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The author is a daily CLI-agent user; the pain is real</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Targets anxiety, not function; the aggregate signal (no per-model split) is a deliberately restrained, good design</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>NSPanel placement, Keychain token, zero permissions, local loopback API; clean engineering, not a toy</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Reasonable but a short window. Desktop agents do not ship a status light yet, but absorption is only a matter of time</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A clean sample of &quot;solve a psychological problem, not a functional one.&quot;</strong>
+Most agent tools add features; this one subtracts noise — compressing &quot;what is the
+agent doing&quot; into a peripheral signal. The aggregate signal is the smartest
+choice: the user does not want detail, they want the single answer &quot;do you need me
+right now.&quot;</p>
+<p><strong>The engineering is serious.</strong> Not docked (impossible anyway), zero permissions,
+token through the Keychain, local loopback — a &quot;fake LED strip&quot; built to
+production standard is itself a statement about quality.</p>
+<p><strong>But its fate is probably absorption.</strong> Status visibility is part of agent
+product experience, and Claude and friends will eventually make status better
+themselves. That makes it a good transitional tool, not a business.</p>
+<p><strong>The transferable rule: adding an ambient visible signal to an invisible process
+is the cheapest and most effective experience upgrade there is.</strong> User anxiety
+about background processes is real, and the UI to fix it is often just a status
+light.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars clear 300 in three months — diffusion speed of a utility shows
+real use
+② Whether official adapters appear for agents beyond Claude Code (Codex, Cursor,
+etc.) — that decides whether it survives the transition
+③ Whether desktop agents ship their own status light (the absorption signal)</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when building tools, ask &quot;what is the user anxious about right
+now&quot; before &quot;what feature should I add.&quot; An ambient status light for a
+background-running agent is subtractive design — sometimes a product upgrade means
+letting the user know less, not more.</p>
+<p><strong>Positioning language</strong>: none. The README is engineering documentation; nothing
+to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed; fully free.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Good insight, clean engineering, a genuinely usable tool — but no
+business model, and likely to be absorbed by a bigger product. Its value is
+demonstrating the &quot;status visibility&quot; experience point. Check its diffusion speed
+in three months; no need to study it as a business.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +246,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +256,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +266,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +319,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

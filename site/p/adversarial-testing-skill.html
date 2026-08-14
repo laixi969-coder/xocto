@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Adversarial-Testing-Skill</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">多AI协作的对抗性测试工作流，用于发现模型弱点。</p>
@@ -82,15 +83,91 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前测 AI 产品的安全性，两条路：一是给模型灌提示词让它自查，README 的原话是 &#34;Traditional testing tools can&#39;t test what they can&#39;t parse&#34;——连解析都做不到的东西没法测；二是人肉请渗透团队，按人天收费、贵且慢，而且渗透工程师的主业是 HTTP 接口，自然语言这个新攻击面恰恰不是他们的主场。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：「测试方必须盲测」可以搬到任何验证类产品上——验收方不知道答案，验证结果才可信。如果你在做 AI 产品的质量或安全验收，参考这个「知情者写摘要、不知情者执行」的双 agent 分工，它比单 agent 自查可信得多。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>用两个 AI 对打来测你的产品：一个读源码、一个被蒙在鼓里、只按结构化摘要和接口行为发起攻击，把任何 AI 编程助手临时变成一支安全红队。</p>
+<h2>做这个东西的人</h2>
+<p>Kieran Howard（GitHub: KieranHoward646），MIT 协议，单作者项目。README 自述 &quot;Built with anger at insecure software, respect for real red teams, and a lot of Markdown&quot;。</p>
+<p><em>判断：单人做安全工具，作者画像像被现实咬过的开发者——README 里到处是实战过的痕迹，而不是安全咨询公司的 PPT。但单人维护与「battle-tested framework」的说法之间有张力。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>双 agent 盲测架构</strong> → Developer AI 读源码产出结构化摘要，Adversarial AI 对源码零知识、只按摘要和接口行为攻击，模拟真实攻击者；四种调用模式（全流水线 / 先审摘要再放行 / 仅出摘要 / 仅执行测试）</li>
+<li><strong>四类攻击覆盖</strong> → 通用软件 6 类 100+ 载荷（边界、注入、权限、并发、异常、业务逻辑）、LLM/AI 8 类 50+ 载荷（提示词注入、越狱、系统泄露、投毒、agent 攻击、多模态）、网络协议 30+、ML 模型 20+</li>
+<li><strong>企业级报告</strong> → SARIF（一行 CI 接入 GitHub Security Tab）、JSON、Markdown、HTML，CVSS 式四维 0–10 严重度评分</li>
+<li><strong>自动修复</strong> → 输出 unified diff 补丁</li>
+<li><strong>三层纵深防御</strong> → Docker 沙箱（OS 级隔离、只读文件系统）→ 7 条硬编码审批规则（DROP/SYSTEM/PROD 直接 BLOCK）→ 自然语言约束兜底</li>
+<li><strong>CI/CD 开箱即用</strong> → GitHub Actions，PR 触发自动测试，结果作为 PR 评论，Critical 自动上传 SARIF</li>
+<li><strong>平台适配</strong> → WorkBuddy 原生（一句 @ 命令）、Cursor 双会话、Claude Code 双终端、其余 AI 手动复制提示词</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>以前测 AI 产品的安全性，两条路：一是给模型灌提示词让它自查，README 的原话是 &quot;Traditional testing tools can't test what they can't parse&quot;——连解析都做不到的东西没法测；二是人肉请渗透团队，按人天收费、贵且慢，而且渗透工程师的主业是 HTTP 接口，自然语言这个新攻击面恰恰不是他们的主场。</p>
+<p>这套东西把「人肉红队」的流程——侦察、出载荷、打、写报告、出修复建议——压成两个 agent 的流水线，跑一轮的边际成本接近零。它替代的是「按人天计价的渗透测试」和「prompt 自查」，这两者一个是太贵，一个是太弱。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> MIT 开源，没有托管服务，没有定价页，README 未提任何商业版本。</p>
+<p><em>判断：README 想让这套报告格式成为事实标准——SARIF 进 Security Tab 是明显的「成为工具链输入」的意图。但现在没有任何人为它付钱的证据。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>41 star / 0 fork</strong>，8 次提交，2026-08-11 首次被发现</li>
+<li>38 个文件：5 篇理论指南、10 个可执行模板、8 个攻击载荷库、4 个平台适配器、18 类攻击覆盖、7 条硬编码安全规则、15+ 真实案例</li>
+<li>README 声称「2025 年提示词注入给全球造成约 23 亿美元损失」——这是 README 的说法，未经本刊核实</li>
+<li>团队规模、使用数据：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>单人做安全框架且有真实红队视角（盲测设计），匹配度高；「框架野心 vs 单人维护」的张力明显</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>最亮的是「对抗方必须盲测」——先审摘要再放行，测试方不被源码带偏，这是真洞察</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>8 次提交、41 star、0 fork，宣称的 CI/CD 与三层防御需要下载验证，工程规模撑不起「battle-tested」的说法</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>AI 应用安全测试确实是真空地带，但市场还不存在——多数团队连 agent 都还没上生产</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>设计是对的，体量是可疑的。「对抗方必须对源码盲测」这个机制是真东西，挑不出毛病；但一个 8 次提交、0 fork 的仓库自称 battle-tested framework，需要打个折。</strong> 安全工具的「battle-tested」需要别人替你打过才算数，自己说自己打过不算。</p>
+<p>它不是 DSH 生态的东西——不依赖任何特定 harness，反而把 WorkBuddy、Cursor、Claude Code 都当宿主。所以它不是插件，是独立工具。独立的另一面是：没有生态给它背书，证明「真的有人用它」的证据目前为零。</p>
+<p>它的命运取决于两件事：作者能否持续维护，以及有没有人真的跑起来并公开结果。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月后 fork 数是否增长——安全工具被 fork 意味着真有人拿它跑，star 可以刷，fork 刷不了
+② 有没有非作者的人公开用它的报告格式（SARIF 进 GitHub Security Tab）的案例
+③ 用它的 workflow 跑一个真实项目，Critical 是否真的能自动上传——验证「CI/CD 开箱即用」是否兑现</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：「测试方必须盲测」可以搬到任何验证类产品上——验收方不知道答案，验证结果才可信。如果你在做 AI 产品的质量或安全验收，参考这个「知情者写摘要、不知情者执行」的双 agent 分工，它比单 agent 自查可信得多。</p>
+<p><strong>话术</strong>：无。README 偏技术，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 机制有真东西，体量存疑。把它当「安全测试方法论」来读，不要当可依赖的工具来装。三个月后拿上面三条验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +184,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +194,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +204,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,16 +214,16 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/dsh-genui.html">
+      <a class="pager-item pager-prev" href="../p/keet-yc-s24.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">dsh-genui</span>
+        <span class="pager-n">Keet (YC S24)</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/alphabet-soup.html">
@@ -190,7 +267,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

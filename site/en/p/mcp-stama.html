@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>MCP-stama</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Ultra-fast Rust MCP server with no dependencies.</p>
@@ -81,18 +82,131 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Installing an MCP server today means: npm install or pip install, hundreds of dependencies, a long-running Node/Python process with 1-3s cold start and 180-350 MB RSS (all comparison figures self-repo…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: in agent-facing infrastructure, performance is necessary but not sufficient. First prove &#34;why the agent needs this tool&#34; (the scenario), then talk about speed. Speed is a differentiator…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Taking &quot;give the agent tools&quot; from Node/Python processes down to a single Rust binary: the same
+grep, git-status, and Docker diagnostics, with memory dropping from ~200 MB to under 10 MB and
+tool latency dropping from hundreds of milliseconds to microseconds.</p>
+<h2>Who built it</h2>
+<p>StamManif (a GitHub account), Apache-2.0, v0.1.0 released 2026-08-13. The author has no public
+background.</p>
+<p><em>Read: a classic &quot;performance-obsession&quot; MCP project — the pain is not missing features but that
+mainstream MCP servers (Node/Python) are slow and heavy. The author rewrote a set of generic
+tools in Rust, betting that startup speed and memory footprint deserve to be taken seriously.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>fast_grep</strong> → full-text search on the ignore crate, respecting .gitignore and skipping
+binary/hidden files</li>
+<li><strong>git_snapshot</strong> → pure-Rust git inspection via gix (gitoxide), no external git executable</li>
+<li><strong>docker_watcher</strong> → container and host diagnostics via bollard and sysinfo</li>
+<li><strong>auto-configurator</strong> → <code>--install-cursor</code> / <code>--install-claude</code> injects editor settings in
+under two seconds</li>
+<li><strong>Pure stdio JSON-RPC 2.0</strong> → all diagnostics go to stderr; stdout carries only protocol frames</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no databases, no external APIs, no &quot;business tools.&quot; Just
+the three local operations a coding agent hits constantly, each an order of magnitude faster
+than the existing implementations.</p>
+<h2>What old behavior it replaces</h2>
+<p>Installing an MCP server today means: npm install or pip install, hundreds of dependencies, a
+long-running Node/Python process with 1-3s cold start and 180-350 MB RSS (all comparison figures
+self-reported in the README). A coding agent typically carries 5-10 MCP servers, the editor
+lags, and every tool call waits for a process to wake up.</p>
+<p>mcp-stama replaces the whole bundle: one &lt;10 MB static binary, &lt;2 ms cold start (claimed), tool
+calls at p50 of 300µs-5ms (claimed). It moves the MCP toolchain from a dependency-heavy
+interpreted runtime to a single compiled file.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Apache-2.0, no hosted service, no pricing page.</p>
+<p><em>Read: a reimplementation of infrastructure survives one of three ways — absorbed by a bigger
+project, adopted into a package ecosystem, or backed by enterprise support. None has happened
+yet; this is currently a developer-reputation project.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>4 stars, 0 forks.</strong> Repository created 2026-08-13</li>
+<li>HN: 71 points, <strong>0 comments</strong> (around 2026-08-13) — points, comments, and stars are badly
+mismatched; the cause is unknown, vote manipulation cannot be ruled out, judge accordingly</li>
+<li>Self-reported benchmarks (embedded in the README, reproducible via <code>--benchmark</code>):
+docker_watcher p50 327µs / p99 1.66ms; git_snapshot p50 462µs / p99 1.36ms;
+fast_grep p50 5.05ms / p99 8.72ms; RSS under 10 MB throughout</li>
+<li>Comparison figures (Node/Python MCP servers): 1.5-3s cold start, p50 150-800ms, 180-350 MB
+RSS — <strong>all self-reported, no independent reproduction seen</strong></li>
+<li>Downloads and users: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Cannot be assessed; no public background</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>The direction is real: mainstream MCP servers are genuinely heavy. Whether a three-tool bundle is a high-value entry point is questionable</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Self-reported numbers look professional, an embedded benchmark command exists, architecture is clear — engineering looks genuine</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Early. The MCP ecosystem is still at &quot;it works,&quot; and performance optimization only gets paid for at scale</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The direction is right, but &quot;fast&quot; is not yet a product.</strong> Tool-call speed ranks far below
+&quot;is the tool right&quot; and &quot;is the context enough&quot; in what an agent user feels. A git_snapshot at
+p50 462µs versus a Node implementation at p50 150ms is imperceptible — unless you are running
+hundreds of MCP servers.</p>
+<p><strong>The transferable rule: when an ecosystem runs on one heavy implementation, entering with a
+reimplementation an order of magnitude lighter can work — but only with an integration or
+monetization path attached.</strong> The Rust-rewrite pattern is itself proof: gitoxide (gix) is the
+famous &quot;rewrite git in Rust&quot; case, and mcp-stama is standing on that existing work.</p>
+<p><strong>The data needs suspicion</strong>: 71 points, 0 comments, 4 stars. A normal 70-point HN post has at
+least a few comments; this combination is unusual. Every performance figure is self-reported and
+no third party has reproduced it. Until then, treat the numbers as marketing.</p>
+<p><strong>The bigger question</strong>: do these generic tools deserve to be MCP servers at all? Putting grep,
+git, and docker into an agent's toolbox overlaps with what Cursor already does natively. It has
+not answered &quot;why should an agent use your grep instead of the built-in one.&quot;</p>
+<h2>What to watch next</h2>
+<p>① Whether a third party independently reproduces the numbers or someone publicly runs
+<code>--benchmark</code>
+② Whether the 71 HN points get explained (deleted post, challenged), and whether stars catch up
+to points within three months
+③ Whether the toolset expands — stuck at &quot;the three tools&quot; means a one-off project; growing into
+&quot;fill whatever the ecosystem is missing&quot; would make it a platform</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: in agent-facing infrastructure, performance is necessary but not sufficient.
+First prove &quot;why the agent needs this tool&quot; (the scenario), then talk about speed. Speed is a
+differentiator, not a product.</p>
+<p><strong>Positioning language</strong>: the README's comparison table (old implementation vs new, item by
+item) is worth copying — translating &quot;faster&quot; into perceptible numbers like &quot;cold start
+1500ms → 2ms&quot; is the best way to present infrastructure.</p>
+<p><strong>Pricing structure</strong>: none.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The engineering may be fine, but the data is suspicious (71 points, 0 comments,
+4 stars), the performance is unreproduced, and the entry point is unjustified. Until a third
+party reproduces the numbers, treat it as a marketing artifact. Verify in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +217,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +248,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +306,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

@@ -15,7 +15,7 @@ summary: Free, open-source AI office suite for macOS, Windows & Linux — Word (
   (.pptx), PDF and Markdown editing with built-in AI agents.
 first_seen: '2026-07-31T09:40:58Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

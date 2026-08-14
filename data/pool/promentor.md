@@ -14,7 +14,7 @@ summary: ProMentor 是一个 AI Coding Agent Skill。装上它，你的 AI 编�
   Code Review。
 first_seen: '2026-07-31T12:32:05Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

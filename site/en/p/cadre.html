@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>cadre</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">A local-first board for orchestrating coding agents.</p>
@@ -82,15 +83,133 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The typical chaos of teams using coding agents: developers open several terminal sessions, each running an agent, with chat history scattered everywhere. Over time three questions become unanswerable …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you build a tool, copy &#34;the boundary sits at the decision layer&#34; — let users keep their existing execution stack (models, CLIs, subscriptions) and take only the decision actions (app…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A local-first kanban control plane that pulls multiple coding agents' terminal sessions onto one
+board: assign tasks, run them in parallel, and gate every outcome behind human approval before
+code touches a branch.</p>
+<h2>Who built it</h2>
+<p>l-crispr (a founder comment signs as Lucas Mota), one person shipping a local-first desktop app.
+The site carries six interactive step-by-step guides — more care than most products in this space.</p>
+<p><em>Read: at this depth, it is almost certain the author is a heavy user of his own problem. But the
+two HN questions — how parallel agents editing the same files conflict, and whether you can see
+which sessions are running what — went unanswered, which says it hasn't reached a
+community-response, iteration-pressure stage.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Kanban task orchestration</strong> → tasks carry descriptions, acceptance criteria, images and tags,
+move through custom columns, route to a chosen agent per column</li>
+<li><strong>Detects installed CLIs</strong> → Claude Code, Codex, Grok, OpenCode, OpenAI-compatible endpoints;
+no new account needed</li>
+<li><strong>Two execution modes</strong> → reuse a CLI login (no new billing) or BYOK (key stored in the OS
+keyring); tokens are billed by your provider, <strong>zero token markup</strong></li>
+<li><strong>Parallel with isolation</strong> → tasks run in isolated Git worktrees, up to 16 concurrent runs on
+the Team tier</li>
+<li><strong>Four human gates</strong> → questions, plans, diffs, commands, each with its context attached,
+approve/reject on one decision surface</li>
+<li><strong>Rust backend enforces command policy</strong> → not front-end hints, back-end policy</li>
+<li><strong>Local-first</strong> → offline by default, no account; sync is opt-in per workspace for team work;
+repos and credentials stay local</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no automatic push or merge, no token brokering, no taking
+over the models you already subscribe to.</p>
+<h2>What old behavior it replaces</h2>
+<p>The typical chaos of teams using coding agents: developers open several terminal sessions, each
+running an agent, with chat history scattered everywhere. Over time three questions become
+unanswerable — which session is running what, how far along it is, who approved it. Agent output
+lands on a branch without anyone reviewing the diff; parallel agents editing the same repo collide
+only at merge time.</p>
+<p>cadre replaces the default of &quot;terminal session as workflow&quot; with a visible queue and approval
+gates. The two HN comments are precisely the core pains: one asks whether parallel agents editing
+the same files get conflict detection; the other asks &quot;which sessions are running what&quot; — which
+is the problem itself.</p>
+<h2>Business model</h2>
+<p>Local desktop free; Pro/Team online workspaces paid (cross-device sync, workspace invites,
+collaboration); pricing not public (&quot;Contact us&quot;).</p>
+<p><em>Read: &quot;free local, paid collaboration&quot; is the standard local-first path; the hard stretch is
+between free individual use and paid team buying. Zero token markup is deliberate restraint, and
+it rules out profiting on the spread.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>HN: 5 points, 2 comments</strong> (2026-08-13), Show HN</li>
+<li>Supports 4 agent families + OpenAI-compatible (Claude Code, Codex, Grok, OpenCode)</li>
+<li>Up to 16 concurrent runs on Team, 1:1 isolated worktree</li>
+<li>Desktop on Windows / macOS / Linux</li>
+<li>Users, downloads, pricing: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A solo full-stack build to this depth is almost certainly a self-use pain product</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Terminal sessions are not a workflow&quot; is right, and the four gates match real engineering habits</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Rust backend, OS keyring, three platforms, six interactive guides — completion beyond what 5 points suggests</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Half a step early — most teams are still at &quot;one agent works&quot;; managing several is next-stage</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A local-first &quot;engineering board for coding agents,&quot; and the smartest move is admitting it
+should not touch the model layer.</strong></p>
+<p>No token markup, no takeover of your model subscriptions, no agent of its own — only orchestration
+and approval. That restraint is the same product philosophy as numbat's monitor-only default:
+don't grab authority until you've been trusted.</p>
+<p><strong>The transferable rule: an orchestration tool's boundary should be drawn at decision, not
+execution.</strong> cadre's entire value sits in the gates — what to ask, how to approve plans, who
+reviews diffs, who clears commands — while execution is fully outsourced to the user's existing
+CLIs. That makes switching cheap, and it also makes the moat shallow: anyone can copy it.</p>
+<p><strong>The risk is in the same place.</strong> 5 points means almost no one has seen it. The orchestration
+layer is the most crowded lane (Kiro Crew and a row of agent-orchestration platforms are all in
+it), and a solo project without feedback usually dies first — especially when there's no hard
+technical problem like worktree conflict detection to differentiate on, just UX.</p>
+<h2>What to watch next</h2>
+<p>① Whether the two HN questions (worktree conflict detection, session visibility) become product
+features and get answered in docs
+② When online-workspace pricing numbers go public — &quot;Contact us&quot; usually means nobody has bought yet
+③ Whether public cases or user logs appear — evidence of real team usage</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you build a tool, copy &quot;the boundary sits at the decision layer&quot; — let users
+keep their existing execution stack (models, CLIs, subscriptions) and take only the decision
+actions (approvals, queue, visibility). Lower switching cost means an easier foot in the door.</p>
+<p><strong>Positioning language</strong>: &quot;4 approval gates, not 400 prompts&quot; is a rare good comparison line;
+keep it.</p>
+<p><strong>Pricing structure</strong>: free local + paid collaboration, zero token markup. Pricing undisclosed;
+nothing to dissect yet.</p>
+<h2>Verdict</h2>
+<p><strong>Right direction, too few people.</strong> An orchestration control plane occupies a real need, but a
+5-point launch means it hasn't been seen, and the lane is extremely crowded. Note it and come back
+once it solves a hard problem like worktree conflict detection or lands its first users.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +226,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +236,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +246,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +256,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +309,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

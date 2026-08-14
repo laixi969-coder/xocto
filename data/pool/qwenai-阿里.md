@@ -7,12 +7,13 @@ summary_zh: 阿里千问的 Qwen.ai 站点
 inspiration: 同一个模型开多个域名入口，反映的是内部品牌尚未统一
 summary_en: Alibaba Qwen's Qwen.ai site.
 inspiration_en: One model behind several domains means the internal brand hasn't been settled yet.
+priority_review: false
 url: https://www.aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 canonical_url: https://aicpb.com/product/Qwen.ai｜阿里/webid1D6F37779
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

@@ -8,12 +8,13 @@ inspiration: 喊「替代工程师」拉满了预期也拉满了失望，定位�
 summary_en: Bills itself as an AI software engineer. 2.97M monthly visits, up 80%.
 inspiration_en: Claiming to replace engineers maxes out expectations and disappointment at the same time.
   Positioning too high cuts both ways.
+priority_review: false
 url: https://www.aicpb.com/product/Devin/webid1D6F36339
 canonical_url: https://aicpb.com/product/Devin/webid1D6F36339
 summary: 'Devin Financial Services: Modernizing financial services with autonomous AI engineers'
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

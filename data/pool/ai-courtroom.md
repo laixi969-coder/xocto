@@ -8,12 +8,13 @@ inspiration: 多 agent 系统的黑箱问题正在变成新的合规需求，可
 summary_en: ''
 inspiration_en: Black-box multi-agent systems are turning into a compliance problem. Traceability will
   land in finance and healthcare first.
+priority_review: false
 url: https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom
 canonical_url: https://github.com/nMaroulis/protolink/tree/main/examples/ai_courtroom
 summary: A replayable A2A jury for tracing how agents influence decisions
 first_seen: '2026-08-09T17:10:05Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

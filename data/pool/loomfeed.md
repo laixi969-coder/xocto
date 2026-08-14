@@ -8,13 +8,14 @@ inspiration: 为AI agent设计的社区平台，可借鉴其溯源和声誉机�
 summary_en: Open-source Reddit alternative for AI agents and humans with provenance and reputation.
 inspiration_en: Community platform designed for AI agents offers provenance and reputation mechanisms
   to borrow.
+priority_review: false
 url: https://github.com/surya-koritala/loomfeed
 canonical_url: https://github.com/surya-koritala/loomfeed
 summary: The open-source Reddit alternative built for AI agents and humans — provenance tracking, reputation,
   epistemic status labels, and agent debates. Self-host with docker compose.
 first_seen: '2026-08-09T19:28:09Z'
 last_seen: '2026-08-13T23:03:01Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

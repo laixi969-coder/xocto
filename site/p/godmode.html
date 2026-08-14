@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>godmode</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">生产级Agent技能集，覆盖规划、TDD、调试、审查等可组合工作流。</p>
@@ -83,15 +84,119 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>不用这套东西时，编码 agent 的默认行为是&#34;马上写代码&#34;：认证、测试、安全和集成都被推到后面， 最后用一个看起来合理的输出收尾。工程师靠人肉审查去抓这些问题，但 agent 一多、任务一长， 审查质量就崩了。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：给任何 agent 产品配&#34;工程行为层&#34;时，照抄两个设计原则——&#34;Agent 声称不是证据&#34; （要求新证据才算完成）和&#34;责任名优于别名&#34;（字面命名防漂移）。对做 agent 工作流产品的人， 这两个原则是免费的正确性。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给你已经会写代码的编码 agent 补上&quot;工程行为&quot;：一份可组合的 Agent Skills 目录，
+让 agent 先设计再动手、先测试再声称完成、独立审查、用新证据验证。</p>
+<h2>做这个东西的人</h2>
+<p>thiientv，个人项目。仓库 2026-08-12 左右建，12 个 commit，两天内完成初版和配套工具链。</p>
+<p><em>判断：把软件工程实践（TDD、审查、发布、事故响应）封装成技能的思路本身不新，但这个仓库的
+完成度——14 个核心 workflow 技能加 19 个工程能力技能、带行为评测 harness 和仓库门禁——
+说明作者是把它当产品在打磨，不是当帖子发。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>组合式技能目录</strong> → 不用一个巨型 prompt，而是可发现、可组合的技能包：
+solution-design、implementation-planning、TDD、root-cause-debugging、code-review 等</li>
+<li><strong>14 个核心 workflow 技能</strong> → 从 using-godmode、plan-execution 到 dispatching-parallel-agents、
+subagent-driven-development、using-git-worktrees</li>
+<li><strong>19 个工程能力技能</strong> → frontend-design、api-and-interface-design、database-design、
+security-and-hardening、release-engineering、incident-response、agent-evaluation 等</li>
+<li><strong>确定性辅助工具</strong> → 不只是 Markdown 提示，重复易错的工作带脚本：
+design_system.py、extract_design_system.py、audit_ui.py</li>
+<li><strong>兼容多种客户端</strong> → 标准 Agent Skills 布局，Claude Code（plugin）和 Codex
+（.codex-plugin + marketplace）都可用</li>
+<li><strong>行为评测 harness</strong> → 自带 behavior eval 跑核心工作流案例</li>
+<li><strong>仓库门禁</strong> → 校验 frontmatter、本地链接、manifest 形状、安全扫描等，pre-1.0 但工程流程完整</li>
+</ul>
+<p><strong>它明确不做</strong>：不做私有的编排运行时，坚持可移植目录；不声称没测过的客户端兼容
+（README 明确写&quot;绝不声称兼容未实际检查过的客户端&quot;）。</p>
+<h2>它在替代什么旧行为</h2>
+<p>不用这套东西时，编码 agent 的默认行为是&quot;马上写代码&quot;：认证、测试、安全和集成都被推到后面，
+最后用一个看起来合理的输出收尾。工程师靠人肉审查去抓这些问题，但 agent 一多、任务一长，
+审查质量就崩了。</p>
+<p>godmode 替代的是&quot;把工程纪律写进对话里&quot;的旧做法——每次在提示词里重新要求 agent 先写测试、
+先做设计。它把纪律从对话里的临时约定，变成可复用的技能资产。它不是替代人，
+是替代&quot;人每次都要重新教一遍&quot;。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> MIT 开源，无定价页，无托管服务。</p>
+<p><em>判断：技能目录本身很难直接变现，但它和 dsh_workflow 一样，赌的是&quot;标准化 Agent Skills 会
+成为 agent 工程化的公共底座&quot;。如果这个底座成型，早期目录作者有先发优势。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>85 star / 84 fork / 0 open issue</strong>，仓库 2026-08-12 左右建，12 个 commit</li>
+<li><strong>fork 数接近 star 数（84/85）</strong>——这个比例异常，通常意味着大量镜像/复制，而不是有机采用</li>
+<li>14 个核心 workflow 技能 + 19 个工程能力技能</li>
+<li>项目主页（thiientv.github.io/godmode）目前 404，未启用 GitHub Pages</li>
+<li>使用人数、客户端兼容实测：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>个人把工程实践系统化，作者显然是工程方法重度信徒；但缺乏团队实战验证记录</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;Agent 会写代码，不会做工程&quot;是准确的观察，技能的原子化命名（literal names）也是对的</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>仓库门禁 + 行为评测 + 兼容性文档，工程流程比多数 12-commit 项目完整得多</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>Agent Skills 正在成为标准格式，抢先建立高质量目录有卡位价值；但格式竞争未定</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;把二十年软件工程纪律封装成 agent 能消费的技能&quot;的一次认真尝试，最值得注意的是它的
+命名原则。</strong></p>
+<p>&quot;Agent 声称不是证据&quot;和&quot;用字面责任名而不是借用词&quot;——这两条设计原则直接对应真实工程事故的
+两大来源：agent 的乐观误报，和跨项目术语漂移。技能目录最大的死法是&quot;名字好听但不进到具体
+动作&quot;，它用确定性脚本和引用文件堵住了这条。</p>
+<p><strong>可迁移的规律：给 agent 的技能/工具命名，用&quot;责任名&quot;而不是&quot;品牌名&quot;。</strong> 字面、任务导向的
+名字（root-cause-debugging 而不是 smart-debug）让 agent 的路由决策和人的预期对齐，
+也避免被某个客户端生态的词表绑架。</p>
+<p><strong>风险是它替谁说话还没证明。</strong> 85 star 里有 84 个 fork，这个 fork/star 比说明传播主要靠复制
+而不是认可。pre-1.0、没有公开的实战记录、行为评测是自测——它的&quot;生产级&quot;还没被生产验证。</p>
+<h2>下一步看什么</h2>
+<p>① fork/star 比能不能回归正常（fork 远小于 star）——现在的 84/85 说明复制多于认可
+② 有没有公开的&quot;用 godmode 跑真实仓库&quot;的案例或评测结果——&quot;生产级&quot;需要生产证据
+③ 技能会不会跟着 Claude Code/Codex 的官方技能市场做分发——决定它能不能吃到格式红利</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：给任何 agent 产品配&quot;工程行为层&quot;时，照抄两个设计原则——&quot;Agent 声称不是证据&quot;
+（要求新证据才算完成）和&quot;责任名优于别名&quot;（字面命名防漂移）。对做 agent 工作流产品的人，
+这两个原则是免费的正确性。</p>
+<p><strong>话术</strong>：&quot;Your coding agent already knows how to code. Godmode teaches it how to engineer.&quot;——
+一句式定位的范本，值得收藏结构（已有能力 + 新增能力 = 一句话）。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>有想法，未验证。</strong> 工程纪律技能化是正确方向，仓库工程质量也超出星数观感，但 fork/star
+比例异常、无实战记录、pre-1.0 都说明&quot;生产级&quot;还只是自称。记下来，跟踪实战证据和官方技能
+市场分发。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -108,7 +213,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -118,7 +223,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -128,7 +233,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -138,16 +243,16 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/bullet.html">
+      <a class="pager-item pager-prev" href="../p/writemd.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Bullet</span>
+        <span class="pager-n">Write.md</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/approving.html">
@@ -191,7 +296,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

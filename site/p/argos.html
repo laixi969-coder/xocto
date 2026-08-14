@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Argos</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">在浏览器里代替你操作的 AI</p>
@@ -82,25 +83,140 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>浏览器 agent 替代的是&#34;人肉搬数据&#34;这条最古老的工作流：从一个页面把信息复制到表格、 从聊天记录里把 AI 的答案手工填进表单、跨 5 个标签页做竞品比价然后人整理成简报。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：做需要用户交出账号权限的产品，先解决信任问题再谈功能。 三个动作可以照搬：破坏性操作（发送/提交）前必停问；执行后验证真实后果而不是信事件触发； 把权限边界写清楚（什么上传、什么不碰），别用&#34;数据留在本机&#34;这类模糊承诺。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>住在浏览器里的 AI 代理，用你自己已登录的账号替你点击、填表、跑完任务，
+不是&quot;给你答案&quot;而是&quot;替你做完&quot;；还能通过 Telegram/WhatsApp 远程指挥，
+Pro 版附带带 shell 权限的桌面 CLI。</p>
+<h2>做这个东西的人</h2>
+<p>Argos（前身 Lyto AI）由 Arystan Tanekov（联合创始人兼 CEO，17 岁，埃因霍温理工大学在读）
+与 Gleb Babichev（联合创始人兼 CTO）等共 3 人团队于 2024 年创立，荷兰埃因霍温。
+2026-03 从 Lyto AI 更名为 Argos（2.0 大版本），2026-07 发布桌面 CLI。
+Chrome 扩展仍在以 &quot;Lyto AI&quot; 名上架，目前 128 用户、11 条评分，Google 提示开发者未完成验证。
+开发者公开邮箱为个人 Gmail（gleb.babichev007@gmail.com）。</p>
+<p><em>判断：3 人团队、创始人是 17 岁大学生、Google 未验证、128 用户、改名痕迹还在——
+这更像一个年轻团队认真做的早期产品，而不是有资源背书的项目。它的热度来源是
+PH 当天表现（118 upvotes、日榜 #10），不是用户量。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>真实操作浏览器</strong> → 用已登录账号点击、滚动、填表、整理标签页，跑真实任务</li>
+<li><strong>原生集成 Google 系</strong> → Gmail 写邮件、Docs 写文档、Sheets 生成带图表的表格</li>
+<li><strong>多入口指挥</strong> → 侧边栏提问，或通过 Telegram / WhatsApp 发指令（Pro），后台运行后把结果送回来</li>
+<li><strong>桌面 CLI（Pro）</strong> → 带 shell 访问和真实浏览器 profile，能从当前标签页扩展到本地文件和桌面应用</li>
+<li><strong>安全设计</strong> → 自称数据留在本机；破坏性操作（发送/提交前）先停下来问</li>
+<li><strong>防&quot;假成功&quot;</strong> → 作者在评论区回应了浏览器 agent 的经典失败模式：
+执行前重新定位元素、验证动作的真实后果（字段值变化/网络请求发出）而不是只信事件触发、
+等 DOM 稳定再操作</li>
+</ul>
+<p><strong>需要打折的承诺</strong>：&quot;data stays on your device&quot; 有边界——隐私政策写明：
+会话历史和使用元数据在账号激活期间会存储；相关提示和页面上下文可能发送给
+Gemini、Claude、Perplexity；用户主动开启的 Browser Sessions 可能把指定域名的
+cookie 发给服务器做 headless 认证。密码和支付数据明确不读不存。</p>
+<h2>它在替代什么旧行为</h2>
+<p>浏览器 agent 替代的是&quot;人肉搬数据&quot;这条最古老的工作流：从一个页面把信息复制到表格、
+从聊天记录里把 AI 的答案手工填进表单、跨 5 个标签页做竞品比价然后人整理成简报。</p>
+<p>旧方案是两条路。一是 RPA 工具（UiPath 等）：强大但重，要搭建、要服务端，
+而且大多走 API 或虚拟机，对&quot;用我自己登录的账号操作&quot;这种场景无能为力。
+二是 Zapier 这类自动化：只覆盖有 API 的服务，长尾网页应用覆盖不到。</p>
+<p>Argos 替代的是这两条路都留下的空白——在浏览器这一层、用用户自己的身份、
+对任何网站直接操作，不需要给每个服务申请 API 授权。它的卖点&quot;用你的账号替你点&quot;
+正是绕开所有 API 授权谈判的路径。</p>
+<h2>商业模式</h2>
+<p>Free（25 条消息/天，页面操作、集成、记忆、联网搜索）+ Pro（$15/月按年付或 $25/月月付，
+3 天试用；400 请求/周、70 请求/天；Telegram/WhatsApp、定时和后台任务、监控、深度研究、
+桌面 CLI）+ Team（$120/月，至少 5 用户）。</p>
+<p><em>判断：定价结构清晰、有免费层做漏斗，是标准的消费级订阅模型。但 128 用户的盘子
+说明收入还没起来——现在是&quot;产品完整、市场没验证&quot;。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>PH：118 upvotes / 9 条评论，日榜 #10</strong>（2026-08-09 上线）</li>
+<li><strong>Chrome Web Store：128 用户 / 11 条评分</strong>（Lyto AI 2.2.5，2026-08 中旬核查）</li>
+<li>定价：Free 25 条/天；Pro $15/月（年付）；Team $120/月（5 人起）</li>
+<li>团队 3 人，2024 年成立，2026-03 更名 Argos，2026-07 发布桌面 CLI</li>
+<li>收入、付费用户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>创始人 17 岁学生，自己做产品被&quot;AI 只给答案不给执行&quot;的痛点驱动，场景匹配但经验存疑</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;浏览器是 SaaS 公共入口，在界面层自动化能绕开 API 授权&quot;——方向对</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>反&quot;假成功&quot;的工程细节（重定位元素、验证动作后果）说明作者真踩过坑，不是 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>对但拥挤。BrowserUse、Claude computer use、各类浏览器 agent 都在这个赛道，差异化不足</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是一个&quot;用你自己的身份干活&quot;的浏览器 agent，方向正确、工程认真，但盘子太小、信任成本太高。</strong></p>
+<p>它赌的是浏览器这一层的自动化能绕开 API 授权——这个判断基本成立：
+企业内网、长尾 SaaS、需要登录态的场景，界面层操作确实是 API 自动化够不到的空白。</p>
+<p><strong>产品逻辑上有个亮点值得记下来</strong>：作者在评论区正面回应了浏览器 agent 的经典失败模式
+（动作报成功但实际没落地），给出的对策是&quot;执行前重定位元素 + 验证动作后果 +
+等 DOM 稳定&quot;。这个细节说明它是被真实使用咬过的产品，不是演示项目。</p>
+<p><strong>但它有两个硬伤。</strong> 一是信任成本高：要你把已登录账号交给一个 3 人团队做的、
+Google 未验证的扩展，且隐私政策显示&quot;数据留在本机&quot;是有边界的（会话历史会上传、
+页面上下文会发第三方模型）。这类产品对早期用户的要求是极高的信任，
+而它现在的品牌资产撑不起这个要求。二是差异化不足：BrowserUse 一类的开源工具
+和各大厂的 computer use 能力都在同一个位置，128 用户撑不起竞争。</p>
+<p><strong>可迁移的规律：界面层自动化（用你的身份点你的界面）是&quot;绕开 API 授权&quot;的最短路径，
+但它把产品的风险全部转移到了信任端。</strong> 做这类产品，信任设计（权限边界、数据声明、
+验证透明度）不是加分项，是准入条件。</p>
+<h2>下一步看什么</h2>
+<p>① Chrome Web Store 用户量三个月内能否过千——128 的基数太低，起不来就是验证失败
+② Google 是否完成对应用的验证——未验证状态是信任的最大障碍，解决与否是重要信号
+③ Telegram/WhatsApp 远程指挥和桌面 CLI 是否有真实付费用户使用——
+这是 Pro 和免费层的实际分界，能看出有没有人为&quot;远程干活&quot;付费</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做需要用户交出账号权限的产品，先解决信任问题再谈功能。
+三个动作可以照搬：破坏性操作（发送/提交）前必停问；执行后验证真实后果而不是信事件触发；
+把权限边界写清楚（什么上传、什么不碰），别用&quot;数据留在本机&quot;这类模糊承诺。</p>
+<p><strong>话术</strong>：&quot;Most AI just tells you what to do. Argos does it.&quot;——用一个对比句
+把&quot;给答案&quot;和&quot;去执行&quot;的差距说清楚，一句话完成定位。</p>
+<p><strong>定价结构</strong>：Free 漏斗（25 条/天够尝鲜）+ Pro 功能分层（远程指挥、定时、桌面 CLI
+放付费侧）+ Team 起价，是消费级 agent 工具的可复制结构；值得借鉴的是把
+&quot;使用量&quot;和&quot;能力位&quot;分开定价。</p>
+<h2>结论</h2>
+<p><strong>值得关注，但处在验证早期。</strong> 方向对、工程有细节、团队真实存在，
+但 128 用户、Google 未验证、3 人小团队三个事实合在一起，说明它还没赢得信任。
+三个月后看用户量是否过千和验证是否完成——这两条过不了，功能再多也没用。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +236,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +246,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +256,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +309,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

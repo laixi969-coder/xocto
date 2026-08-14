@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>AgentOne Desktop</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Automate boring work. Extensible and free desktop AI agent.</p>
@@ -81,25 +82,153 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Repetitive work used to be handled three ways, and each was annoying:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for agent tools aimed at non-developers, the entry point should be &#34;describe the goal in one sentence&#34;, never &#34;configure a workflow&#34;; configuration must recede into an option, not a pre…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A free, desktop-native AI agent: you describe the task in plain language, and it
+plans the steps, executes across apps, and comes back when done. Official framing
+is &quot;Claude Cowork, but free and without vendor lock-in.&quot;</p>
+<h2>Who built it</h2>
+<p>The AgentOne team. The launch post was written by co-founder Elijah
+Pettit, who said the motivation was being tired of AI agents that were either
+glorified chatbots or developer tools that demand API keys and a config file
+before doing anything.</p>
+<p><em>Read: this is a textbook &quot;built the thing I wanted&quot; product, and the founder's
+frustration is the positioning. The open question is the same position is being
+fought over by OpenClaw (open source, ~180k stars, MIT), and the team background
+and funding are not disclosed.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Works across apps</strong> → claims 19,000+ built-in extensions (Gmail, GitHub,
+Canva, Blender, Chrome, Discord and more); plans multi-step tasks that touch
+several apps on its own</li>
+<li><strong>Runs to completion</strong> → a Claude Cowork-style desktop agent that works in the
+background without supervision</li>
+<li><strong>Own models or your keys</strong> → subscription for official models, plus any
+OpenAI-compatible provider or Claude (8,000+ models), plus Ollama for local</li>
+<li><strong>Extensible</strong> → supports MCP (Model Context Protocol) servers and custom extensions</li>
+<li><strong>Parallel agents</strong> → splits a task across multiple agents working at once</li>
+<li><strong>Privacy and sync</strong> → claims tools run locally and nothing is shared without
+permission; cross-device chat/settings/key sync is a paid feature</li>
+</ul>
+<p><strong>What it deliberately is not</strong>: a cloud dashboard, or a framework that requires
+writing Python.</p>
+<h2>What old behavior it replaces</h2>
+<p>Repetitive work used to be handled three ways, and each was annoying:</p>
+<p><strong>Doing it by hand</strong> — copy-paste, file tidying, form filling; hours spent with nothing accumulating.</p>
+<p><strong>Configured automation</strong> — Zapier-style trigger tools where every new task means
+dragging a flow and setting trigger conditions. Tasks are &quot;wired up&quot;, not &quot;described&quot;.</p>
+<p><strong>Rolling your own agent</strong> — OpenAI/Claude frameworks and API docs, with keys,
+config files and SDK setup that filter out non-developers.</p>
+<p>AgentOne attacks the shared annoyance of all three: either you spend time doing
+the task or you spend time configuring it. Its bet is that &quot;say the goal in one
+sentence&quot; can replace &quot;configure a workflow&quot;.</p>
+<h2>Business model</h2>
+<p>Freemium subscription plus bring-your-own-key, in parallel:</p>
+<ul>
+<li><strong>Free $0/mo</strong>: limited official-model quota; core agent features are not gated</li>
+<li><strong>Pro $8.99/mo</strong> (3-day trial): much higher limits, cross-device sync, early features</li>
+<li><strong>Ultra $29.99/mo</strong>: highest limits, best-model tier</li>
+<li><strong>BYOK</strong>: desktop features stay free with your own key; the official line is
+&quot;nothing is charged except sync, which costs us money&quot;</li>
+</ul>
+<p><em>Read: the structure is pragmatic — free to acquire, sync as the paid hook, BYOK
+as acquisition. The problem is this exact territory (free + your own key) is the
+home turf of OpenClaw and similar open-source projects, and paid conversion rests
+on the experience gap of official models and sync. Thin moat.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Extension count: official numbers disagree — 19,000+ on the launch page,
+11,000+ on the website (possibly different counting)</li>
+<li>Model count: 8,000+ (some pages say 7,000+)</li>
+<li>Users, downloads, ARR, team size: <strong>not disclosed</strong></li>
+<li>Launched around 2026-08 at launch; no upvote data captured</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The founder is the target user and the pain is concrete (&quot;don't want to configure&quot;)</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Right instinct on &quot;a sentence instead of a workflow&quot;, but differentiation against open source is weak</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>A real desktop app with MCP and parallel agents, not a demo; most claims unverified independently</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Slightly late. The free-desktop-agent market has been educated by OpenClaw; the window is open but crowded</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The positioning is right; the moat is unproven.</strong> &quot;Free, no setup, actually does
+the work&quot; is genuinely the threshold a normal person must cross to use an agent,
+and the message is consistent across the launch post and the site. The product
+looks seriously built, not a demo.</p>
+<p><strong>But its opponent is open source.</strong> MIT-licensed projects like OpenClaw have set
+&quot;free + your own key + runs locally&quot; as the floor price of this category. The
+non-developer market AgentOne is aiming at is real; whether it can support a
+company is another question, and sync as the single hard paywall looks thin.</p>
+<p><strong>The transferable rule: price the thing you can't live without, not the thing
+that's merely convenient.</strong> AgentOne charges for cross-device sync, which is
+exactly the feature most easily replaced by another workaround; the true
+dependency (an agent that reliably does your work) is free. Worth pondering for
+anyone pricing a productivity tool.</p>
+<h2>What to watch next</h2>
+<p>① Whether new paid hooks appear beyond sync (workflow templates, team seats, an
+agent marketplace)
+② When the official extension count (19,000+ vs 11,000+) gets reconciled — an
+inconsistent number is a sign of immature operations
+③ Whether public MAU or download numbers show up in three months, and whether
+OpenClaw has already absorbed this market</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for agent tools aimed at non-developers, the entry point should
+be &quot;describe the goal in one sentence&quot;, never &quot;configure a workflow&quot;; configuration
+must recede into an option, not a prerequisite. That ordering is the positioning.</p>
+<p><strong>Positioning language</strong>: &quot;Claude Cowork's free alternative&quot; is a clean
+benchmark-style line — point at a product your user already knows, then state the
+single difference. Stealable.</p>
+<p><strong>Pricing structure</strong>: free under BYOK plus subscription for official models,
+drawing the line at &quot;whose compute&quot; rather than cutting the free tier by feature.
+Easier to explain, harder to resent.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The product is real, the positioning is clear, and the pricing
+is honest — but the moat and the business model are unproven, and it happens to
+face the strongest open-source competitor in the category. It is one sample of the
+&quot;non-developers get to use agents&quot; route, and the retention and paid-conversion
+numbers are what matter next.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +248,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +258,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +268,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +321,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

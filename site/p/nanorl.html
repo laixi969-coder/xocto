@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>NanoRL</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">约1800行代码实现LLM的RL训练。</p>
@@ -82,18 +83,123 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>、        <a href="../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>做 LLM 强化学习训练，现在的默认姿势是：TRL 或 veRL 加 Ray 加 DeepSpeed，上千个依赖， 文档比代码多，训练循环埋在三层抽象里。想搞明白&#34;GRPO 到底怎么更新的&#34;，你得先读完框架源码。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你的领域存在&#34;难以进入&#34;的复杂技能，用一份可读完的最小实现建立权威， 比写一百篇教程有用。教程是单向的，可读的代码是可以被 fork 的资产。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一份能在笔记本上跑 CartPole、也能在多机 GPU 集群上跑异步 RLVR 训练的强化学习代码，
+总共约 1,800 行、7 个文件，读完它只需一个下午——它是给人读的，不是给人 import 的。</p>
+<h2>做这个东西的人</h2>
+<p>alex000kim（GitHub 账号），MIT 许可，2026-08-11 建仓，
+风格上明确致敬 Karpathy 的 nanoGPT（&quot;meant to be forked, not imported&quot;）。</p>
+<p><em>判断：这是 nanoGPT 式的&quot;教育优先&quot;项目——作者显然懂生产级 RL 训练（veRL、TRL、
+DeepSpeed 那套），但选择反着来：砍掉一切，只留核心，让训练循环可读。
+写这样一份代码的人，通常自己先被生产栈的复杂度折磨过。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>四种算法</strong> → REINFORCE、PPO（GAE+critic）、GRPO、RLOO，都在 algos.py 约 90 行里——
+核心更新就一行：<code>loss = -(advantage * logprob).mean()</code>，算法差别只在 advantage 怎么算</li>
+<li><strong>同步到异步</strong> → <code>--role trainer</code> 和 <code>--role rollout</code> 分开跑，stdlib HTTP 通信；
+一个旋钮（max_staleness）同时决定拒绝边界、队列深度、权重快照数</li>
+<li><strong>不信任别人的 logprob</strong> → trainer 自己在采样时用的权重下重算 old_logp，
+算不出来的 batch 直接丢弃；这是全项目最有价值的工程判断</li>
+<li><strong>vLLM 生成 + 适配器同步</strong> → rollout 端用 vLLM，生成和评分用不同 batch size
+（捆绑两者曾导致 6 倍减速），权重同步只传 LoRA 适配器（~170MB 对 16GB）</li>
+<li><strong>端到端可复现</strong> → SkyPilot 配置即跑：Qwen3-8B + LoRA，8x H100 训练加 8x L40S 生成，
+90 分钟 102k 序列</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>做 LLM 强化学习训练，现在的默认姿势是：TRL 或 veRL 加 Ray 加 DeepSpeed，上千个依赖，
+文档比代码多，训练循环埋在三层抽象里。想搞明白&quot;GRPO 到底怎么更新的&quot;，你得先读完框架源码。</p>
+<p>于是出现了两条分岔：想上生产的团队，被迫接受黑盒框架，出了问题只能当玄学调参；
+想学习的个人研究者，面对的是工业级代码库，入门成本高到离谱。</p>
+<p>nanoRL 替代的是第二条路的全部负担：1,800 行读得完、跑得起、改得动。
+它把&quot;RL 训练&quot;从&quot;必须相信框架&quot;变成&quot;可以验证每一行&quot;。它的价值不是训练出 SOTA，
+是让 RL 训练这门手艺可被学习、可被检查——就像 nanoGPT 当年对 GPT 做的事。</p>
+<h2>商业模式</h2>
+<p><strong>无。</strong> MIT 开源，无托管、无服务。</p>
+<p><em>判断：教育型基础设施项目，价值在生态地位不在商业。但注意一个信号：
+它在端到端结果里暴露了一个真实的训练工程 bug（vLLM 的 logprob 与 HF 不一致会悄悄毁掉训练），
+这类&quot;吃过亏的经验&quot;是它给工业界的内容资产。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>5 star / 0 fork</strong>，repo 建于 2026-08-11</li>
+<li>HN：10 分、0 评论</li>
+<li>代码量：~1,800 行 / 7 文件（algos.py ~90、core.py ~110、utils.py ~170、serve.py ~250、
+tasks.py ~310、model.py ~330、train.py ~560）</li>
+<li>端到端结果（Qwen3-8B + LoRA，Countdown 任务）：held-out 准确率 0.391→0.609（+22pp），
+200 步 / 90 分钟 / 102k 序列；0/1,603 batch 被丢弃</li>
+<li>关键对照：不重算 old_logp 时，ratio 从 1.006 漂到 1.165，准确率从 0.500 掉到 0.188；
+重算后同一模型爬升</li>
+<li>44 个 CPU-only 测试</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>身份无从确认，但代码暴露的生产经验（vLLM logprob 坑）说明是真做过的人</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;训练代码不可读&quot;这个真问题，用可读性作为产品定位</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>高。44 测试、端到端跑通、数值都对得上，且明确写清&quot;刻意不做什么&quot;</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>对教育场景永远合适；对生产场景，规模天花板（单机单模型、无 MoE）是刻意选择</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;用极简重写来教育市场&quot;的经典打法，且执行得很干净。</strong> 它没有声称能替代 veRL——
+它声称的是&quot;你能读完整份代码、fork 它、改它&quot;。这个定位和 nanoGPT 完全一致：
+不是工具，是教科书。</p>
+<p><strong>可迁移的规律：当你的领域被&quot;又大又黑&quot;的框架垄断时，写一个可读的最小实现是最强的信任
+建立方式。</strong> 大框架证明能力，小实现证明理解。而它证明理解的方式非常具体：
+公开一个真实踩坑（logprob 不一致会让准确率从 0.500 掉到 0.188），并给出修复。
+这是&quot;以教训立信&quot;的范本——比任何 benchmark 都更有说服力。</p>
+<p><strong>但它不是产品。</strong> 5 star、10 分，没有用户，也没有商业出口。它的读者是&quot;下一个写生产级
+RL 框架的人&quot;——如果这些人 fork 了它、学会了、用在了 veRL 的配置里，它的价值才算真正兑现。</p>
+<p><strong>教育项目的死法</strong>也写在脸上：star 涨上去之后，如果作者不持续维护（新算法、新模型兼容），
+它就变成一份过期的讲义。</p>
+<h2>下一步看什么</h2>
+<p>① 有没有人 fork 后在真实生产任务上用它，或公开复现它的端到端数字
+② 作者三个月内是否跟进新算法（比如 DPO/Online-DPO 路线）或修复 issue——
+教育项目的生命力在维护
+③ 它会不会被某个生产框架吸收为教学材料或代码来源（被引用 = 真正的成功）</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果你的领域存在&quot;难以进入&quot;的复杂技能，用一份可读完的最小实现建立权威，
+比写一百篇教程有用。教程是单向的，可读的代码是可以被 fork 的资产。</p>
+<p><strong>话术</strong>：&quot;meant to be forked, not imported&quot;——把目标用户的行为写进定位里，
+比任何功能描述都精确。还有&quot;如果这些你都需要，你已经超出这个 repo 了，这正是它的意义&quot;，
+把边界说成特征。</p>
+<p><strong>定价结构</strong>：无。</p>
+<h2>结论</h2>
+<p><strong>持续观察。</strong> 作为教科书它有真实价值，且内容资产（logprob 坑）是工业级经验；
+作为产品它没有商业形态。记下来，三个月后看它有没有被 fork、被引用。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -104,6 +210,16 @@
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-tail">
+<span class="tag">已分析</span><span class="tag sig">开源关注 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +241,12 @@
         </a>
       </li>
       <li>
-        <a href="../p/gendangzou-skill.html">
+        <a href="../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">GPU 和 AI 服务器的交易市场，YC 最新一批</span>
-            <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 77</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +299,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

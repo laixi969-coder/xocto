@@ -8,12 +8,13 @@ inspiration: 把设计工具的协作体验搬到生产环境，抹掉「设计�
 summary_en: ''
 inspiration_en: Bringing a design tool's collaboration model into production erases the wall between the
   mockup and the live thing.
+priority_review: false
 url: https://www.producthunt.com/products/remix-8
 canonical_url: https://producthunt.com/products/remix-8
 summary: Figma, but on your production app. Test variants and ship.
 first_seen: '2026-08-06T02:16:52Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

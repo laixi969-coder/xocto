@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Basedash Subscriptions</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Subscribe to any dashboard. Delivered on schedule.</p>
@@ -81,25 +82,163 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Every team has a reporting ritual: Monday metrics review, Friday pipeline check, the 1st-of-the- month board pack. And behind almost every one of them is a specific person running an errand — open the…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: always keep a &#34;delivery&#34; slot in your feature list — data, reports, and notifications shouldn&#39;t just be generated, they should arrive on schedule. Copy the structure: natural-language c…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Inside Basedash (an AI-native BI platform), click &quot;Subscribe&quot; on any dashboard or chart and it
+delivers a freshly rendered snapshot on a schedule you describe in plain language — &quot;every
+Monday at 9:00 AM&quot; — straight to an inbox or a Slack channel. Data stops being something you
+remember to check and starts arriving.</p>
+<h2>Who built it</h2>
+<p>Basedash, led by founder &amp; CEO Max Musing. Basedash is an established AI-native BI platform
+positioning as &quot;the most accurate AI analyst&quot;: connect databases/warehouses, query in natural
+language, build charts and dashboards, with a governed semantic layer so AI answers come from
+approved metric definitions. SOC 2, self-hosting, 750+ data source integrations. Subscriptions
+is a new feature of the product, not a standalone product.</p>
+<p><em>Read: this is feature iteration on a mature product, not a cold-start tool. It has a real
+customer base (200+ companies) and real pricing (from $250/mo), so its validation logic is
+completely different from a small tool's — the question isn't whether anyone uses it, but
+whether it pulls retention and upgrades.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Subscribe to any dashboard or chart</strong> → click Subscribe in the menu, pick a schedule and
+recipients, and you're done — there is no step three</li>
+<li><strong>Natural-language cadence</strong> → &quot;every Monday at 9:00 AM,&quot; &quot;the 1st of the month,&quot; daily,
+quarterly — written the way you'd say it</li>
+<li><strong>Delivered to email or Slack</strong> → charts embed as images in a Slack channel; in email they
+render inline, both with a deep link back to the live dashboard</li>
+<li><strong>Rendered at delivery time</strong> → the snapshot is generated from live data the moment it
+sends; a subscription never delivers a stale report</li>
+<li><strong>One dashboard, many subscriptions</strong> → a single revenue dashboard can run a daily exec
+email, a Monday #metrics post, and a monthly board snapshot simultaneously</li>
+<li><strong>Subscription management</strong> → edit schedule or recipients inline from the dashboard menu;
+flip a switch to pause without deleting</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no anomaly alerts, no conditional triggers (&quot;alert me if
+conversion drops below 2%&quot;), no threshold monitoring. The author says it plainly in the blog
+post — &quot;Subscriptions are simpler on purpose&quot;; scheduled analysis, anomaly flags, and written
+commentary belong to a separate feature called Automations.</p>
+<h2>What old behavior it replaces</h2>
+<p>Every team has a reporting ritual: Monday metrics review, Friday pipeline check, the 1st-of-the-
+month board pack. And behind almost every one of them is a specific person running an errand —
+open the dashboard, take a screenshot, paste it somewhere before the meeting starts.</p>
+<p>The old options were three paths. Manual screenshot-and-paste: free, but it depends on a person
+remembering — miss once, break once. Zapier plus screenshot tooling: automatable but a build
+project, and the screenshot happens at a fixed moment so the data is often stale. Dedicated
+reporting tools: heavy, expensive, a sledgehammer for &quot;send one email a week.&quot;</p>
+<p>Basedash Subscriptions replaces the errand all three paths left behind: the dashboard was
+already built, the data was always fresh, and the only missing piece was &quot;deliver it to the
+people on schedule.&quot; It moves that action from &quot;a human remembers&quot; to &quot;the system does it.&quot;</p>
+<p><em>Read: the insight here is the last mile of data delivery. The analytic value already sits in
+built dashboards; what's missing isn't more analysis, it's that last-mile delivery. Any
+&quot;dashboards exist but nobody consumes them&quot; scenario — BI, monitoring, reporting — fits this
+judgment.</em></p>
+<h2>Business model</h2>
+<p>Ships as a feature of Basedash's main pricing. Plans start at $250/month (Basic: 2 users, SQL
+sources, $25/mo AI credits) to $1,000/month (Growth: 25 users, 750+ sources) to custom
+Enterprise. 14-day free trial, no credit card.</p>
+<p><em>Read: priced at the feature level, not sold separately. That's smarter than selling &quot;report
+delivery&quot; standalone — its value only exists once the data infrastructure is already there, so
+Basedash treats it as a retention hook and upgrade reason rather than an independent revenue
+line.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>PH: 159 upvotes, featured</strong> (launched 2026-08-08)</li>
+<li>Parent product: 200+ company customers, 750+ data source integrations, SOC 2 Type II</li>
+<li>Pricing: Basic from $250/mo, Growth from $1,000/mo, Enterprise custom</li>
+<li>Subscriptions available to all Basedash users at no extra cost</li>
+<li>Standalone usage/touch rate for the feature: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Extremely high. The founder operates a BI product and knows the &quot;team meeting has an errand to run&quot; scenario from the inside</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nails &quot;delivery is the last mile&quot; — BI tools compete on query speed, nobody competes on delivery; an overlooked differentiator</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Rendered-at-delivery-time, natural-language cadence, dual email/Slack channels — solid delivery</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right. BI is mature, and data consumption shifting from &quot;people go look&quot; to &quot;it arrives&quot; is an active migration</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The last-mile product that turns &quot;go look up the data&quot; into &quot;data arrives.&quot; Right insight,
+pragmatic execution — the thing worth watching is the role it plays inside a mature product,
+not its standalone competitiveness.</strong></p>
+<p>It replaces the reporting errand — the step everyone has lived and nobody built a product
+around. In BI this errand was permanently stitched together from screenshot tools and Zapier;
+Basedash just built it in.</p>
+<p><strong>Its restraint is worth copying</strong>: the author explicitly separates &quot;scheduled snapshot
+delivery&quot; from &quot;anomaly alerts and AI commentary&quot; (the latter lives in Automations). No mashing
+two needs into one button. That one-feature-one-job boundary discipline is rare in mature
+product design — especially while AI feature stacking is the fashion.</p>
+<p><strong>But set the validation logic straight</strong>: this is not an unproven standalone product; it is a
+retention/upgrade feature for an existing customer base. Its success is not &quot;does anyone use
+it&quot; but &quot;does the team become unable to function without Basedash.&quot; That is the real business
+goal.</p>
+<p><strong>The transferable rule: in a product's mature phase, find the last mile where users already
+own data assets but have no consumption action.</strong> Dashboards, reports, and monitoring pages are
+all &quot;built but nobody looks.&quot; Turning &quot;nobody looks&quot; into &quot;it arrives on schedule&quot; is a
+higher-value iteration than building one more dashboard.</p>
+<h2>What to watch next</h2>
+<p>① Whether Subscriptions shows up in sales language and pricing pages within three months —
+moving from &quot;experimental feature&quot; to &quot;sales talking point&quot; is the real adoption signal
+② Whether third-party reviews/users report &quot;the team no longer misses the weekly meeting&quot; —
+a direct validation of the value proposition
+③ Whether it expands into condition-triggered delivery (push only on anomaly) — if it does,
+it's starting to eat Automations' boundary, and the roadmap is changing</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: always keep a &quot;delivery&quot; slot in your feature list — data, reports, and
+notifications shouldn't just be generated, they should arrive on schedule. Copy the structure:
+natural-language cadence, render-at-delivery, selectable recipients, deep link back to the
+live version.</p>
+<p><strong>Positioning language</strong>: &quot;The best report is the one nobody had to remember to send.&quot; — one
+negative sentence says &quot;the errand is gone&quot; and carries the whole value proposition.</p>
+<p><strong>Pricing structure</strong>: bundle the feature into existing plans as a retention hook instead of
+selling it separately. For products with paying customers, bundling new features lowers the
+adoption decision cost versus standalone pricing.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Correct insight (delivery is the last mile), pragmatic execution
+(realtime rendering, natural-language cadence), disciplined scoping (clear boundary with
+Automations) — as a feature on a mature BI product it holds up. But it is not an independent
+business; the right yardstick is whether it raises customer stickiness, not whether anyone
+uses it. In three months, check whether it enters the sales language.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +258,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +268,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +278,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +331,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

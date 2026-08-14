@@ -8,12 +8,13 @@ inspiration: 极窄领域的完整语料是护城河，这类库很难被通用�
 summary_en: ''
 inspiration_en: A complete corpus in a very narrow field is a moat. General search can't replace a library
   like this.
+priority_review: false
 url: https://consciousnesslibrary.org/
 canonical_url: https://consciousnesslibrary.org
 summary: 35k+ paper psychedelic library that knows LSD from Lumpy Skin Disease
 first_seen: '2026-08-09T20:27:32Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

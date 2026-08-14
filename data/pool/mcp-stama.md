@@ -7,12 +7,13 @@ summary_zh: 超快Rust MCP服务器，无依赖。
 inspiration: 极简高性能MCP服务器，可迁移到低延迟基础设施场景。
 summary_en: Ultra-fast Rust MCP server with no dependencies.
 inspiration_en: Minimal high-performance MCP server, applicable to low-latency infrastructure scenarios.
+priority_review: false
 url: https://github.com/StamManif/mcp-stama
 canonical_url: https://github.com/StamManif/mcp-stama
 summary: An ultra-fast Rust MCP server with no dependencies
 first_seen: '2026-08-13T22:26:25Z'
 last_seen: '2026-08-14T04:47:01Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

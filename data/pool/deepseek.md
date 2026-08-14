@@ -8,12 +8,13 @@ inspiration: 开源模型 + 免费产品的组合把整个行业的定价打到�
 summary_en: ''
 inspiration_en: Open weights plus a free product pushed the industry's pricing to the floor. The shock
   is still spreading.
+priority_review: false
 url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

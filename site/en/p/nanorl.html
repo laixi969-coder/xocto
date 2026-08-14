@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>NanoRL</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">RL training for LLMs in ~1,800 lines.</p>
@@ -81,18 +82,138 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Training LLMs with RL today defaults to TRL or veRL plus Ray plus DeepSpeed: thousands of dependencies, more docs than code, and a training loop buried under three layers of abstraction. To understand…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when your domain contains a hard-to-enter skill, building authority with one readable minimal implementation beats a hundred tutorials. Tutorials are one-way; readable code is an asset …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>One RL training loop that runs CartPole on a laptop and disaggregated async RLVR on a GPU
+cluster — about 1,800 lines across 7 files, readable in an afternoon. It is meant to be read,
+not imported.</p>
+<h2>Who built it</h2>
+<p>alex000kim (a GitHub account), MIT licensed, repository created 2026-08-11, explicitly styled
+after Karpathy's nanoGPT (&quot;meant to be forked, not imported&quot;).</p>
+<p><em>Read: a nanoGPT-style education-first project. The author clearly knows production RL training
+(veRL, TRL, DeepSpeed territory) but chose the opposite: strip everything down to the core so
+the training loop becomes readable. Someone who writes code like this has usually been burned by
+production-stack complexity first.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Four algorithms</strong> → REINFORCE, PPO (GAE + critic), GRPO, and RLOO all live in ~90 lines of
+algos.py. The core update is one line — <code>loss = -(advantage * logprob).mean()</code> — and the
+algorithms differ only in how advantage is computed</li>
+<li><strong>Sync to async</strong> → <code>--role trainer</code> and <code>--role rollout</code> run on separate boxes talking over
+stdlib HTTP; one knob (max_staleness) simultaneously sets the rejection bound, the queue
+depth, and the number of weight snapshots kept</li>
+<li><strong>Distrusts other people's logprobs</strong> → the trainer recomputes old_logp under the exact
+weights that sampled each batch, and drops any batch whose weights it no longer has. This is
+the single most valuable engineering judgment in the project</li>
+<li><strong>vLLM generation + adapter sync</strong> → vLLM on the workers, separate batch sizes for generation
+and scoring (tying them cost 6x in one measured run), and weight sync that moves only LoRA
+adapters (~170 MB versus 16 GB)</li>
+<li><strong>End-to-end reproducible</strong> → a SkyPilot config that just runs: Qwen3-8B + LoRA, 8x H100
+trainer and 8x L40S generation, 102k sequences in 90 minutes</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Training LLMs with RL today defaults to TRL or veRL plus Ray plus DeepSpeed: thousands of
+dependencies, more docs than code, and a training loop buried under three layers of abstraction.
+To understand &quot;how does GRPO actually update&quot; you have to read a framework's source first.</p>
+<p>That splits into two dead ends. Teams shipping to production swallow a black-box framework and
+tune it like superstition when things break. Individual researchers trying to learn face an
+industrial codebase with an absurd onboarding cost.</p>
+<p>nanoRL replaces the entire burden of the second path: 1,800 lines you can finish reading, run,
+and modify. It changes RL training from &quot;you must trust the framework&quot; to &quot;you can verify every
+line.&quot; Its value is not training a SOTA model; it is making the craft of RL training learnable
+and inspectable — the same move nanoGPT made for GPT.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> MIT, no hosting, no service.</p>
+<p><em>Read: an educational infrastructure project whose value sits in ecosystem position, not
+commerce. But note one signal: the end-to-end run exposes a real training-engineering bug (vLLM
+logprobs inconsistent with HF silently destroy training) and fixes it. That &quot;knowledge bought
+with pain&quot; is the content asset it gives the industry.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>5 stars, 0 forks.</strong> Repository created 2026-08-11</li>
+<li>HN: 10 points, 0 comments</li>
+<li>Code size: ~1,800 lines across 7 files (algos.py ~90, core.py ~110, utils.py ~170,
+serve.py ~250, tasks.py ~310, model.py ~330, train.py ~560)</li>
+<li>End-to-end result (Qwen3-8B + LoRA, Countdown): held-out accuracy 0.391 → 0.609 (+22 pp),
+200 steps / 90 minutes / 102k sequences; 0 of 1,603 batches dropped</li>
+<li>The key contrast: without recomputing old_logp, the ratio drifts from 1.006 to 1.165 and
+accuracy falls from 0.500 to 0.188; with recomputation, the same model climbs</li>
+<li>44 CPU-only tests</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Identity unconfirmed, but the production experience visible in the code (the vLLM logprob trap) says someone who has actually done this</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nails &quot;training code is unreadable&quot; as a real problem and makes readability the product positioning</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>High. 44 tests, an end-to-end run that converges, numbers that reconcile, and an explicit &quot;deliberately not doing&quot; list</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Always right for education; for production, the scale ceiling (single box, single model, no MoE) is a deliberate choice</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is the &quot;teach the market with a minimal rewrite&quot; play, executed cleanly.</strong> It never
+claims to replace veRL — it claims &quot;you can read the whole codebase, fork it, change it.&quot;
+That positioning is exactly nanoGPT's: not a tool, a textbook.</p>
+<p><strong>The transferable rule: when a domain is dominated by a big black framework, a readable minimal
+implementation is the strongest trust-builder.</strong> Big frameworks prove capability; small
+implementations prove understanding. And it proves understanding in a very specific way: it
+publishes a real pitfall (logprob mismatch dropping accuracy from 0.500 to 0.188) with the fix.
+That is a lesson-built-credibility play, more persuasive than any benchmark.</p>
+<p><strong>But it is not a product.</strong> 5 stars, 10 points, no users, no commercial outlet. Its readers
+are &quot;the people who write the next production RL framework&quot; — if they fork it, learn from it,
+and apply it inside veRL configs, its value closes the loop.</p>
+<p><strong>The way educational projects die is also visible</strong>: once stars plateau, if the author stops
+maintaining (new algorithms, new model compatibility), it becomes an outdated handout.</p>
+<h2>What to watch next</h2>
+<p>① Whether anyone forks it for a real production task or publicly reproduces the end-to-end numbers
+② Whether the author adds algorithms (a DPO/Online-DPO line) or fixes issues within three months —
+an educational project lives or dies on maintenance
+③ Whether a production framework absorbs it as teaching material or source code (being cited is
+the real success)</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when your domain contains a hard-to-enter skill, building authority with one
+readable minimal implementation beats a hundred tutorials. Tutorials are one-way; readable code
+is an asset people can fork.</p>
+<p><strong>Positioning language</strong>: &quot;meant to be forked, not imported&quot; — naming the target user's
+behavior in the positioning beats any feature description. Also &quot;if you need these, you have
+outgrown this repo, and that's the point&quot; — stating the boundary as a feature.</p>
+<p><strong>Pricing structure</strong>: none.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> As a textbook it has real value, and its content asset (the logprob trap) is
+industrial-grade experience; as a product it has no commercial form. Write it down and check in
+three months whether it gets forked and cited.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +224,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,22 +255,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +313,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

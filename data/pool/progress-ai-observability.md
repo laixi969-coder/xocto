@@ -8,12 +8,13 @@ inspiration: 可观测性在传统软件是十亿美元品类，在 agent 领域
 summary_en: ''
 inspiration_en: Observability is a billion-dollar category in traditional software. It is replaying, from
   the start, in agent land.
+priority_review: false
 url: https://www.producthunt.com/products/progress-ai-observability
 canonical_url: https://producthunt.com/products/progress-ai-observability
 summary: Trace, evaluate, and improve AI agents in production
 first_seen: '2026-08-05T14:27:52Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

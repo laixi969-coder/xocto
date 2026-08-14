@@ -8,12 +8,13 @@ inspiration: 自我改进是叙事上的强钩子，但用户真正关心的是�
 summary_en: ''
 inspiration_en: Self-improvement is a strong narrative hook, but what users actually care about is whether
   it can do today's work.
+priority_review: false
 url: https://www.producthunt.com/products/prime-intellect
 canonical_url: https://producthunt.com/products/prime-intellect
 summary: A coding agent that can refine its own harness
 first_seen: '2026-08-10T04:13:06Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

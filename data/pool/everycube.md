@@ -8,12 +8,13 @@ inspiration: 把一个大到无法想象的数字变成能滚动浏览的东西�
 summary_en: ''
 inspiration_en: Turning a number too large to picture into something you can scroll through. Data visualization
   at its limit.
+priority_review: false
 url: https://everycube.alen.is/
 canonical_url: https://everycube.alen.is
 summary: Scroll through all 43252003274489856000 Rubik's Cube states
 first_seen: '2026-08-10T23:16:25Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

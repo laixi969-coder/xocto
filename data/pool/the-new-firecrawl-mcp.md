@@ -8,12 +8,13 @@ inspiration: agent 时代的基础设施在重演云计算早期：谁做成默�
 summary_en: ''
 inspiration_en: 'Agent-era infrastructure is replaying early cloud: whoever becomes the default takes
   everything.'
+priority_review: false
 url: https://www.producthunt.com/products/extract-by-firecrawl
 canonical_url: https://producthunt.com/products/extract-by-firecrawl
 summary: Agent-ready web context for any MCP client.
 first_seen: '2026-08-05T22:49:34Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

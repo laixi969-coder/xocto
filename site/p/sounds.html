@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Sounds</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">无限放克融合Rhodes即兴片段生成器。</p>
@@ -83,25 +84,96 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/shuohao-skills.html">shuohao-skills</a>、        <a href="../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前做一个 loop，靠的是采样包经济：订阅 Splice 之类的平台，或在免费包里翻几个小时，翻完还要担心授权。HN 评论区有人直接回忆：&#34;花了大量时间找循环和音效。&#34;（&#34;Spent sooo much time and effort scavenging for loops&#34;）</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：&#34;找不到就生成，生成了就入库&#34;——把用户的挫败点变成内容的供给源，目录零边际成本增长。适合任何以内容或素材为核心的产品。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>不是又一个采样包网站，而是&quot;你找不到的 loop，就自己生成一个&quot;的免费 AI 采样库——每次生成的素材还会自动进公共库，成为下一个人的可发现素材。</p>
+<h2>做这个东西的人</h2>
+<p>ElevenLabs 旗下产品（elevenmusic.io），HN 上由 ElevenLabs 奥斯陆员工 Sigve Sebastian Farstad（sigvef）发布。按 ElevenLabs 官方博客口径，它是 ElevenMusic 的免费声音与循环库，素材由 ElevenLabs 自己的音乐模型生成。</p>
+<p><em>判断：一家做 AI 音乐的大厂下场做免费采样库，通常不是想靠采样库赚钱，而是想先让人习惯&quot;想要什么声音就生成什么声音&quot;，再用使用量喂自己的模型。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>免费浏览和下载</strong> AI 生成的采样与循环：人声切片、鼓组、贝斯、旋律、环境音等，按 BPM、调式、风格打标</li>
+<li><strong>找不到就生成</strong>：用文字描述直接生成想要的音色，有每日免费生成额度</li>
+<li><strong>生成即入库</strong>：每次生成的素材自动加入公共库，目录随使用量增长</li>
+<li><strong>与 ElevenMusic 打通</strong>：一个 loop 可以直接 &quot;Turn into full song&quot; 长成整首歌</li>
+</ul>
+<p><strong>它明确不做</strong>：不做付费独占采样包，不做授权锁（页面标注 royalty-free）。它是 ElevenLabs 音乐生态的免费入口。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前做一个 loop，靠的是采样包经济：订阅 Splice 之类的平台，或在免费包里翻几个小时，翻完还要担心授权。HN 评论区有人直接回忆：&quot;花了大量时间找循环和音效。&quot;（&quot;Spent sooo much time and effort scavenging for loops&quot;）</p>
+<p>这套流程的核心矛盾是：你想要的素材恰好存在于某个包里、且恰好被做成你要的音色，概率不高。Sounds 把流程反过来——找不到就生成，生成结果还进公共库，越用越全。</p>
+<h2>商业模式</h2>
+<p><strong>免费。</strong> 浏览、预览、下载对 Free / Pro 账号开放，另有每日免费生成额度。单独定价未披露。</p>
+<p><em>判断：这明显是 ElevenLabs 的获客层而非利润层。免费额度制造使用习惯，把用户导向付费的 ElevenMusic 生成额度；公共库则是用用户自己的素材给平台填内容，省掉自建目录的成本。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>HN 5 分 / 2 条评论</strong>，2026-08-13 发布</li>
+<li>目录覆盖人声、鼓、贝斯、旋律、foley 等，常见 128/150/165 BPM、4 小节循环</li>
+<li>独立运营成本、用户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>发布者本人是音乐制作人兼 ElevenLabs 员工，痛点真实，但这是公司项目</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;找不到素材&quot;这个高频挫败点，用生成替代搜索，并把 UGC 收回公共库</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>依托 ElevenLabs 音乐模型，质量门槛高，个人开发者无法复制</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>正当其时。音乐生成刚进入&quot;够用&quot;区间，采样库是第一个自然落点</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;搜索式素材消费&quot;向&quot;生成式素材消费&quot;转变的一个小样本。</strong></p>
+<p>旧模式是先有目录后有需求，目录是天花板；新模式是需求即目录——每次&quot;找不到&quot;都是一次需求信号，生成结果直接变成供给。公共库在这里是关键设计：它把单个用户的一次生成，变成对所有用户有效的资产。</p>
+<p><strong>可迁移的规律：如果你的用户反复在&quot;找&quot;某样东西，试试让用户自己&quot;造&quot;那个东西，并把造出来的结果沉淀成公共资产。</strong> 找的成本是内容团队的，造的成本由模型和用户分摊。</p>
+<p><strong>代价与问题</strong>：目录质量取决于用户生成的素材，会出现大量同质低质条目；且这套机制只有大厂玩得起。对独立产品，机制可偷，模型偷不了。</p>
+<h2>下一步看什么</h2>
+<p>① 公共库条目数量和&quot;找不到→生成&quot;的转化率有没有公开数据
+② ElevenLabs 是否把 Sounds 与 Music 付费额度做更强的绑定——免费额度缩水说明漏斗开始收割
+③ 其他 AI 音乐厂（Suno、Udio）是否跟进免费采样库——跟进说明这个漏斗成立</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：&quot;找不到就生成，生成了就入库&quot;——把用户的挫败点变成内容的供给源，目录零边际成本增长。适合任何以内容或素材为核心的产品。</p>
+<p><strong>话术</strong>：&quot;Everything is free to browse and download, but the most fun part is to generate your own&quot;——用 &quot;fun&quot; 而不是 &quot;powerful&quot; 来降低生成的心理门槛。</p>
+<p><strong>定价结构</strong>：无。免费，未披露。</p>
+<h2>结论</h2>
+<p><strong>记下来，不用现在行动。</strong> 机制（生成即入库）对内容型产品是可迁移的，但它是大厂生态的一环，独立产品学不到它的供给端。三个月后看公共库是否还在涨、Suno 是否跟进。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
-        AI + 创作 共 16 个 →
+        AI + 创作 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -194,7 +266,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

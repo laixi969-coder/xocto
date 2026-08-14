@@ -8,12 +8,13 @@ inspiration: 大厂用「真实软件」而不是「玩具项目」做定位，�
 summary_en: ''
 inspiration_en: Positioning on “real software” rather than toy projects is a move at the professional
   developer market.
+priority_review: false
 url: https://www.aicpb.com/product/Qoder-阿里/webid1D6F364C9
 canonical_url: https://aicpb.com/product/Qoder-阿里/webid1D6F364C9
 summary: Qoder is an agentic coding platform for real software, think deeper, build better.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

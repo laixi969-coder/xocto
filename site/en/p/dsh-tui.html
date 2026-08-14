@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>dsh-TUI</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</p>
@@ -81,15 +82,96 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>At release, DSH removed TUI from its repo (the commit reads literally cleanup: remove TUI package and legacy dsh entrypoints) and made Web UI the primary onboarding path. So using DSH meant one road o…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if your product wants the &#34;replacement for an existing tool&#34; slot, build a posture compatibility layer: map every operation onto semantics users already have (undo, rollback, command me…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>The gap-filler for DSH having no terminal interface — a Claude Code-style full-screen interactive terminal ported to DeepSeek Harness: pixel whale, live status line, Esc rollback, context progress bar, installed with one npm command.</p>
+<h2>Who built it</h2>
+<p>Author ccch1mneyyy (same GitHub handle), with collaborators T-Auto, CikeSeven, and even some AI-assisted commits. Repo created 2026-08-13 (version history goes back to an 8/5 beta period), MIT (changed from another license on 8/14), npm package <code>dsh-cc-tui</code>, now 0.4.0, 117 commits. Featured by the DeepSeek Harness official WeChat account as a &quot;selected plugin of beta users.&quot;</p>
+<p><em>Read: the only one of the six with an official endorsement. The author openly calls it a gap-filler, explicitly feeding on the official team not building a TUI; the official feature listing is the team admitting the hole exists and will not be filled right now.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Full-screen terminal interaction</strong> → Claude Code-style interface: / command menu, tool-call cards, markdown tables/code highlighting, @ file references, Shift+Enter multiline, full-text search</li>
+<li><strong>Pixel whale top bar</strong> → a hand-drawn 40×25 pixel sprite with a startup animation (blink → spout → tail wag), auto-collapses on narrow terminals (&lt;64 columns)</li>
+<li><strong>Live working status line</strong> → 28 animated indicators, context-usage warnings (≥80% yellow, ≥95% red), end-of-turn stats</li>
+<li><strong>Double-Esc rollback</strong> → roll the conversation back to any historical message via the official fork service, edit and resend</li>
+<li><strong>Context progress bar + TPS meter</strong> → five-segment colored progress with live readout, streaming TPS gauge and sparkline, speed color coding (≥50 green / ≥20 yellow / &lt;20 red)</li>
+<li><strong>Streaming thought expansion</strong> → thinking blocks expand as generated, auto-collapse at turn end, Ctrl+O for full text</li>
+<li><strong>Four agent presets + themes</strong> → standard/code/minimal/cordis, light/dark/dark-ansi palettes plus custom JSON themes, hot-swap via /theme</li>
+<li><strong>i18n Chinese/English</strong> → hot-swap via /lang with OS locale auto-detection; supports the official MCP client</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no DSH core changes; fork/resume/compact all go through official services, and uninstalling restores everything. Its dependence on official mechanisms is deep — that is its safety declaration and also its ceiling.</p>
+<h2>What old behavior it replaces</h2>
+<p>At release, DSH removed TUI from its repo (the commit reads literally <code>cleanup: remove TUI package and legacy dsh entrypoints</code>) and made Web UI the primary onboarding path. So using DSH meant one road only: open a browser to localhost:3080. For CLI geeks who live in the terminal, that is a downgrade — with Claude Code and Codex they get full-screen terminals with a status line, command menu, context usage, and a speed meter at a glance.</p>
+<p>dsh-TUI replaces the behavior of &quot;using DSH requires opening a browser.&quot; It ports the Claude Code terminal experience wholesale, so people habituated to the terminal can use DSH without changing their habits. It does not replace an old tool; it replaces the friction of DSH forcing users into a different interface paradigm.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> MIT, free on npm, no pricing, no hosting, no sponsorship.</p>
+<p><em>Read: a pure traffic play. The exposure from the official WeChat feature is this plugin's only &quot;business model.&quot; It competes with dsh-tianshu-tui for the same TUI slot, but its currency is experience, not process — and experience-layer plugins are the easiest for the official team to absorb, which is its biggest structural risk.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>619 stars / 26 forks / 29 open issues</strong> (GitHub API, 2026-08-14; the highest issue count in this batch)</li>
+<li>Created 2026-08-13, 117 commits, v0.4.0, npm package <code>dsh-cc-tui</code> installs without a build</li>
+<li>148 Chinese strings migrated into an i18n dictionary (12 files)</li>
+<li>28 status indicators, 4 presets, 3 built-in themes</li>
+<li>Featured by the DeepSeek Harness official WeChat account</li>
+<li>Users, downloads: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author calls himself a geek building for CLI users; the audience is himself</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Treats Claude Code's &quot;terminal experience&quot; as a product, not a shell skin; detail density is high (rollback, TPS, warning colors)</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Pure plugin mount, official mechanisms first, clean engineering; but 29 open issues means a big surface that never gets fully fixed</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Perfectly hits the official-no-TUI window; but the official team removed TUI and pivoted to Web UI, suggesting they may believe a terminal interface is unnecessary — the window may close by the team's own hand</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It sells not features but &quot;no change of habit&quot; — the most user-psychology-aware plugin of the six.</strong></p>
+<p>A CLI geek's migration cost is not &quot;can't learn a new tool&quot;; it is &quot;changing the working posture.&quot; Every dsh-TUI design choice (pixel whale, status line, Esc rollback, progress bar) does the same thing: turn DSH into &quot;the tool I already know how to use.&quot; Double-Esc rollback is especially smart — it invents no new mechanism, it just wraps the official fork service in the universally understood semantics of &quot;undo.&quot;</p>
+<p><strong>Transferable rule: adapting to an old user's habits beats adding features for new users.</strong> If your product is technically better but interacts differently from the mainstream tool, the fastest acquisition move is a &quot;posture compatibility layer&quot; — let users pretend they are still using their old tool while the foundation underneath has already been swapped.</p>
+<p><strong>The risk is symmetric</strong>: experience layers have the shallowest moats. If the official team ever adds a TUI back (it removed one before, so it has the capability), the pixel whale will not save dsh-TUI. 619 stars are the dividend of this window, not a wall.</p>
+<h2>What to watch next</h2>
+<p>① Whether the official team re-includes a TUI — its single most lethal variable
+② Whether open issues fall from the current 29 — a plugin that never finishes fixing bleeds users
+③ Whether star/download growth tracks DSH's own growth — it is a gap-filler; it grows only when DSH grows</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if your product wants the &quot;replacement for an existing tool&quot; slot, build a posture compatibility layer: map every operation onto semantics users already have (undo, rollback, command menu) instead of teaching new concepts. The &quot;double-Esc = rollback&quot; wrapper turns a high-level operation like forking a session into a zero-learning-cost gesture.</p>
+<p><strong>Positioning language</strong>: borrowable. The README declares its audience with &quot;dedicated to CLI geeks&quot; and takes a humble stance with &quot;a gap-filler&quot; — translating &quot;I copied Claude Code&quot; into &quot;I gave DSH what it was missing.&quot; That reframing works well in the Chinese developer community.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The highest-traffic, most psychologically precise plugin of the six — and the shallowest moat. It validates the &quot;posture compatibility layer&quot; as an acquisition mechanism and exposes the fate of experience-layer plugins in a platform ecosystem: when the platform moves, the skin is wasted.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +188,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +198,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +208,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +218,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DSH-better-sidebar</span>
             <span class="row-desc">A full workbench in the DSH sidebar, with file editing, terminal, Git, and sub-agents.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 453</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 453</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +271,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

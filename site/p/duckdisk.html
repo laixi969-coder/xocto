@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>DuckDisk</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">以表格方式分析 Mac、云端和 SSH 上的存储占用</p>
@@ -82,25 +83,102 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>Mac 上清理磁盘以前是两个选择：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：做任何分析型工具，先写出一张&#34;用户会问的问题清单&#34;，再用数据形态去逐条回答。DuckDisk 的整张表就是 5 个问题的答案集（谁占空间、分配多少、占父级多少、几个文件、什么类型）——表格不是审美选择，是答案密度最大化的结果。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>Mac 上的磁盘空间分析工具，但把&quot;五彩地图&quot;换成了&quot;一张密实的表格&quot;——本地磁盘、OneDrive、Google Drive、SSH 服务器一次扫完，目录大小、已分配空间、占父级百分比、文件数、文件类型合计全在一棵表里看。</p>
+<h2>做这个东西的人</h2>
+<p>独立开发者 puppypi（PH 上就这么署名）做的，开源项目，AGPL-3.0，Tauri + Rust + React，扫描引擎基于 pdu。2026 年 8 月 9 日在 发布平台 上线，108 票，当日第 12。苹果公证过，也上了 Mac App Store。</p>
+<p><em>判断：单开发者 + 开源 + 上架 App Store，这是独立 Mac 工具的标准打法。值得注意的细节是它同时走两条分发通道——MAS 版受沙箱限制（只支持本地盘、OneDrive、SSH），公证直装版额外支持 Google Drive 和系统 SSH 配置——说明作者知道 App Store 的限制在哪，提前留了后路。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>表格优先的树视图</strong> → 仿 Windows 上 WizTree 的思路：一棵密实的树，同时显示大小、已分配空间、父级百分比、文件/目录数、文件类型合计，下钻时信息不消失</li>
+<li><strong>本地 + 云端 + 远程一次扫</strong> → 本地磁盘、OneDrive、Google Drive、SSH 路径同一套界面</li>
+<li><strong>云端只读元数据</strong> → OneDrive 走 Microsoft Graph delta 增量同步 + 本地元数据缓存，不下载文件内容；Google Drive 走 OAuth，也是元数据级</li>
+<li><strong>SSH 用系统配置</strong> → 复用 ~/.ssh/config 和 Keychain 里的密码，不用在应用里另存凭据</li>
+<li><strong>清理安全</strong> → 清理先暂存给你审；云端删除进回收站，本地/SSH 永久删除要二次确认</li>
+<li><strong>大表性能</strong> → 行虚拟化、结果缓存、增量刷新，几百万行的目录树不卡</li>
+</ul>
+<p><strong>为什么是表格而不是地图</strong>：作者在 PH 上把动机写得很直白——&quot;大多数 Mac 磁盘清理工具画一张漂亮的菊花图，但我最后还是要问：到底是哪个文件夹占着这块空间？分配了多少？里面几个文件？什么类型占大头？&quot;</p>
+<h2>它在替代什么旧行为</h2>
+<p>Mac 上清理磁盘以前是两个选择：</p>
+<p>一是 <strong>DaisyDisk / OmniDiskSweeper 这类图形工具</strong>——把所有文件画成一圈圈彩色圆弧，一眼看到&quot;大头在哪&quot;，但只适合&quot;定位大头&quot;这一个动作。想回答&quot;这个目录到底几个文件、各类型占多少、它在我整个盘里占多少比例&quot;这种结构化问题，图形工具不给答案。</p>
+<p>二是 <strong>命令行</strong>——<code>du</code>、<code>ncdu</code>、<code>find | xargs</code> 之类，信息全，但输出停在终端里，对普通用户不友好，也没法对着表格逐级下钻和动手清理。</p>
+<p>DuckDisk 替代的是这两者之间的空档：把 WizTree 在 Windows 上验证过的&quot;表格优先&quot;体验搬到 Mac，同时把本地、云端、SSH 三种来源并到一棵树里。它的洞察是——图形地图适合&quot;猜&quot;，表格适合&quot;查&quot;，而清理磁盘这个动作本质上是反复&quot;查&quot;。</p>
+<h2>商业模式</h2>
+<p><strong>免费。</strong> AGPL-3.0 开源，无订阅、无内购、无广告，App Store 和 GitHub Releases 都能下。</p>
+<p><em>判断：看不出作者打算怎么赚钱——没有 Pro 档，没有赞助链接，也没有&quot;给团队用的付费版&quot;。这可能是一厢情愿的免费，也可能是用&quot;免费开源 + 上架 App Store&quot;攒声誉和 star，为后续项目铺路。独立 Mac 工具靠免费打开口碑、靠口碑带出下一个产品的路子并不少见，但 DuckDisk 本身目前没有商业化迹象。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>PH 2026-08-09 上线：<strong>108 票、3 条评论、当日第 12</strong></li>
+<li>AGPL-3.0，Tauri + Rust + React + pdu 扫描器</li>
+<li>Apple 公证 + Mac App Store 双通道</li>
+<li>GitHub 仓库存在（README 完整），star 数未核实</li>
+<li>下载量、用户数、收入：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者明显是被&quot;菊花图给不了答案&quot;逼过的重用户，痛点写得很具体</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;表格 vs 图形是两种思维&quot;这个判断准确，云端只读元数据是聪明且省钱的实现</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>虚拟化、缓存、增量刷新、双重确认——工程细节到位的个人项目</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>一般。磁盘清理工具是存量市场，没有顺风，靠产品力本身打</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;老工具换个数据呈现方式就是新产品&quot;的教科书案例，但天花板也一眼看得到。</strong></p>
+<p>DuckDisk 的产品洞察值得单独拎出来：<strong>图形地图和表格是两种完全不同的思维</strong>——地图回答&quot;哪里大&quot;，表格回答&quot;什么占、占多少、怎么下钻&quot;。后者天然适合做决策，前者天然适合做演示。它在&quot;回答结构化问题&quot;这件事上确实比所有 Mac 图形工具都强。</p>
+<p><strong>可迁移的规律：不要只做&quot;看得见问题的界面&quot;，要做&quot;能回答问题的界面&quot;。</strong> 大多数分析工具的第一版都是&quot;把数据画出来&quot;，但用户真正要问的问题往往是结构化的——哪个、多少、占百分之几、和谁比。先列出用户会问的 5 个具体问题，再决定用表格还是图表呈现，比先选一个漂亮的默认形态靠谱得多。</p>
+<p><strong>它的天花板在于</strong>：磁盘清理是个低频、免费、被系统自带工具教育的市场。它没有网络效应、没有生态、没有数据积累的壁垒，一个比它更便宜或更漂亮的竞品就能把用户接走。它的价值不在这个产品本身，而在&quot;独立开发者用一套工具链（Tauri + Rust + 开源 + MAS）能做出多完整的产品&quot;这个示范——对想自己做 Mac 工具的人来说，这个示范比 DuckDisk 能清理多少磁盘更值钱。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月后 star 数和 App Store 评分/评价量——衡量&quot;免费工具&quot;的口碑积累速度
+② 作者会不会推出付费 Pro 档（云端多账户、报告导出）——判断免费是真的策略还是没想好
+③ 有没有被邀请进 Setapp/第三方 Mac 工具合集——这是独立工具变现的常见路径</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做任何分析型工具，先写出一张&quot;用户会问的问题清单&quot;，再用数据形态去逐条回答。DuckDisk 的整张表就是 5 个问题的答案集（谁占空间、分配多少、占父级多少、几个文件、什么类型）——表格不是审美选择，是答案密度最大化的结果。</p>
+<p><strong>话术</strong>：作者在 PH 上的第一人称动机陈述——&quot;我最后还是得问：哪个文件夹占着空间？&quot;——比功能列表真诚得多。自述痛点 + 你的解法，是独立工具发布时最有效的开场白。</p>
+<p><strong>定价结构</strong>：无。免费开源，未披露任何商业计划。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 产品洞察清晰、工程完整、免费开源的口碑路径走得扎实，但它是一个没有商业化迹象的存量市场工具。看它的价值，一半在看工具本身，一半在看独立开发者示范——三个月后拿上面三条验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +198,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +208,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +218,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +271,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

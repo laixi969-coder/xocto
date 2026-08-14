@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>everycube</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">能翻遍魔方全部 4325 亿亿种状态</p>
@@ -83,22 +84,98 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>它没有替代任何旧行为。 这不是一个工具，没有&#34;以前人们做某件事用某个工具、现在可以用它&#34;的对应关系。它替代的是一个认知动作——&#34;43 垓&#34;这个数字过去只能在维基百科上读到、在口头上震撼一下，现在可以亲手滚。它把一个抽象到无法想象的数量级，变成了可操作、可探索、可定位的物理体验。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你的产品面对一个&#34;大到没人能体会&#34;的数字（数据规模、状态空间、可能性），可以试试把它做成一条可以走的通道，而不是一张可以看的图。滚动、缩放、定位——先让用户有体感，再讲数字本身。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个可以&quot;滚动浏览&quot;魔方全部 43,252,003,274,489,856,000 种状态的网页——把大到无法想象的数字变成可以滚的、URL 可定位的、像走一条无限长廊一样的东西。</p>
+<h2>做这个东西的人</h2>
+<p>HN 用户 Alen123 做的，放在自己的域名 alen.is 下（<code>everycube.alen.is</code>），2026 年 8 月 10 日在 HN 发布 Show HN。没有团队、没有公司、没有 GitHub 仓库公开，就是一个人花时间做的一个网页。</p>
+<p><em>判断：这是典型的&quot;一晚上的执念&quot;式作品。作者没有交代任何实现细节，没有开源，没有介绍页——整个作品就是它自己。这种不解释的克制，反而是这个项目气质的一部分：它要的就是你滚动起来那一刻的体感。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>滚动浏览魔方状态</strong> → 鼠标滚轮上下滚，就是在这 43 垓个状态里穿行；还分了好几个序列（Permutation、Superflip、Checkerboard 等，每个序列对应不同数量的状态）</li>
+<li><strong>URL 可定位</strong> → 每个状态有对应的 URL/hash，改了地址栏刷新能回到同一个状态</li>
+<li><strong>2D / 3D 两种模式</strong> → 3D 是旋转的立方体；2D 模式用颜色插值把状态展开成色块</li>
+<li><strong>FX 效果</strong> → 一个可切换的视觉效果，让状态之间的过渡看起来更流畅</li>
+</ul>
+<p><strong>数字的规模</strong>：43,252,003,274,489,856,000，也就是约 4.3×10^19，43 垓。评论区有人算了笔账：他的滚轮每英寸大概滚过 12 个状态，按这个速度，即使滚轮表面以光速移动，也要 9.5 年才能滚完全部。</p>
+<h2>它在替代什么旧行为</h2>
+<p><strong>它没有替代任何旧行为。</strong> 这不是一个工具，没有&quot;以前人们做某件事用某个工具、现在可以用它&quot;的对应关系。它替代的是一个认知动作——&quot;43 垓&quot;这个数字过去只能在维基百科上读到、在口头上震撼一下，现在可以亲手滚。它把一个抽象到无法想象的数量级，变成了可操作、可探索、可定位的物理体验。</p>
+<p><em>判断：如果非要给它找个&quot;替代&quot;，它替代的是数据可视化里最老的一招——&quot;把大数字画成图&quot;。它证明了大数字的终极呈现形式不是图，是通道：让用户自己走过去，比任何一张图都更有冲击力。</em></p>
+<h2>商业模式</h2>
+<p><strong>无。</strong> 免费网页，没有广告、没有付费、没有订阅、没有公司。</p>
+<p><em>判断：这不是产品的失误，是类型的边界。它和 everyuuid.com 这类项目属于同一类——一个&quot;让人在浏览器里感受到巨大数字&quot;的艺术/工程奇观。这类作品的回报在传播和声誉，不在收入。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>HN Show HN，2026-08-10 发布：<strong>285 分（池记录）/ 291 分（Algolia），115–123 条评论</strong></li>
+<li>状态总数：43,252,003,274,489,856,000（43 垓）</li>
+<li>评论区有用户滚到 791,001 个状态（Logitech 鼠标飞轮），还有人用压缩空气吹到&quot;几百万&quot;</li>
+<li>评论区提到的同类概念：everyuuid.com</li>
+<li>没有 star、没有下载量、没有用户数——它没有这些指标，也不需要有</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者既是制造者又是作品本身，不需要&quot;匹配&quot;这个词</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>把&quot;滚动&quot;这种最平凡的手势用于最不平凡的数量级，反差本身就是洞察</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>状态生成是确定性的（URL 可定位、序列可分类），3D 渲染流畅，评论区只报了一例移动端异常</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>这类作品不吃时机，吃的是&quot;恰好出现在信息流里那一下&quot;</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是数据可视化的极限演示，而且它赢在了&quot;克制&quot;上。</strong></p>
+<p><strong>可迁移的规律：让用户&quot;走过去&quot;，而不是&quot;看过来&quot;。</strong> 大多数可视化试图在有限空间里塞进信息密度，everycube 反其道而行——空间是无限的，信息密度极低，但它把&quot;巨大&quot;这个属性本身做成了可体验的东西。滚动三千次之后你手会累，那一刻你对 43 垓有了身体记忆。把数量级变成体验，比任何一张信息图都持久。</p>
+<p><strong>为什么 285 分值得关注</strong>：HN 社区是出了名的&quot;一眼看穿&quot;社区，一个纯视觉作品能拿到近 300 分、一百多条评论，说明它踩中了某种普遍的好奇心。评论区里有人在特定状态编号上发现了&quot;从混沌中涌现的结构&quot;（其实是从已解状态做几步特定转动就能到达的图案），有人建议展示每个状态的最小还原步数——作品甚至激发了别人想为它补充功能的欲望，这是一个好作品才会有的信号。</p>
+<p><strong>它的局限也很诚实</strong>：它是单点作品，没有后续、没有扩展性、没有可迭代的路线图。它是一次性的烟花。对商业读者来说，它的价值不是&quot;这能做成生意&quot;，而是&quot;一个没有团队、没有预算的个人，如何用最小的资源做出最大的传播&quot;——这个问题的答案，比这个网页本身更值得收藏。</p>
+<h2>下一步看什么</h2>
+<p>① 作者会不会为它补上&quot;按到已解状态的距离排序&quot;这类评论区建议——决定它是单点还是起了一个系列
+② 有没有同类跟进（比如&quot;滚动所有 UUID&quot;&quot;滚动所有棋局&quot;）——说明这个形态是否成立
+③ 一个月后 HN 讨论是否还有自然回响（转帖、二次创作）——衡量传播的余波</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：如果你的产品面对一个&quot;大到没人能体会&quot;的数字（数据规模、状态空间、可能性），可以试试把它做成一条可以走的通道，而不是一张可以看的图。滚动、缩放、定位——先让用户有体感，再讲数字本身。</p>
+<p><strong>话术</strong>：无。这个作品没有一句话文案，它的标题就是全部——&quot;Scroll through all 43252003274489856000 Rubik's Cube states&quot;。把最不可思议的数字直接摆在标题里，本身就是钩子。</p>
+<p><strong>定价结构</strong>：无。免费网页，没有商业模式。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 一个没有商业模式、没有团队的纯视觉作品拿到近 300 分，证明&quot;把数量级变成体验&quot;这个形态本身有力量。它教给读者的不是怎么做生意，而是怎么用最小资源做最大传播。单点作品，收藏它的方法论就够了。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
-        AI + 生活 共 16 个 →
+        AI + 生活 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -108,7 +185,7 @@
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">讲 AI Agent 设计原理与工程实践的开源教材</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 221</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 221</span>            </span>
           </div>
         </a>
       </li>
@@ -118,7 +195,7 @@
             <span class="row-name">loomfeed</span>
             <span class="row-desc">开源Reddit替代品，专为AI agent和人类设计，支持溯源和声誉。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 212</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 212</span>            </span>
           </div>
         </a>
       </li>
@@ -128,7 +205,7 @@
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">语音驱动的谋杀推理游戏，用嘴审问 AI 嫌疑人</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 203</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 203</span>            </span>
           </div>
         </a>
       </li>
@@ -138,7 +215,7 @@
             <span class="row-name">ShenNongMi</span>
             <span class="row-desc">中医知识图谱问答，靠两万个节点撑住会自我纠错的查询</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 103</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 103</span>            </span>
           </div>
         </a>
       </li>
@@ -191,7 +268,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

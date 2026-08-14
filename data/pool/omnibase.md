@@ -8,13 +8,14 @@ inspiration: 企业不想把数据交出去，自建部署是长期存在的一�
 summary_en: Self-hosted AI workbench for knowledge, RAG, and model providers.
 inspiration_en: Companies don't want to hand over their data. Self-hosting is a market that isn't going
   away.
+priority_review: false
 url: https://omnibase.chat/public-preview
 canonical_url: https://omnibase.chat/public-preview
 summary: Self-hosted AI workbench for knowledge, RAG, model providers, and safely governed user-built
   agents. Public Preview; production Agent Runtime remains gated. 自托管 AI 知识工作台与安全 Agent 平台。
 first_seen: '2026-08-01T07:24:09Z'
 last_seen: '2026-08-12T03:21:52Z'
-status: pending_filter
+status: analyzed
 sources:
 - github
 sightings:

@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>纳米AI搜索</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">360&#39;s Nano AI search: one sentence in, an expert-grade video, report, or deck out.</p>
@@ -80,22 +81,151 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It has usage data; the next question is whether its scale and change will hold.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>&#34;Research then produce&#34; used to be a manual pipeline: open Baidu or Google, click through links one by one, copy-paste into a document, format it into a report or deck. A decent industry report took a…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: the generic structure of &#34;one-sentence deliverable&#34; is copyable — decompose the task, assign one clearly-role-defined agent per step, run in parallel, reassemble. This &#34;hand it to a tea…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Search upgraded from &quot;find a link&quot; to &quot;give a command, get a deliverable&quot;: one sentence
+in, a video, report, or deck out — powered underneath by 16 models and a swarm of
+collaborating agents.</p>
+<h2>Who built it</h2>
+<p>Qihoo 360. The product descends from 360 AI Search, launched February 2024, renamed
+Nano Search, then Nano AI. It is led by Liang Zhihui, a 360 VP from the Safe Guard and
+browser-assistant teams. This is the flagship C-end product of CEO Zhou Hongyi's
+&quot;All-in-AI&quot; push, sitting alongside 360 AI Office, the 360 Zhinao model, and security agents.</p>
+<p><em>Read: a security company using free search as a traffic hook and memberships plus credits
+as the profit layer is a more traditional internet business than most AI startups.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Super-search agent</strong> → claims the full chain of understand intent, plan, decompose,
+call tools, execute, deliver — search that returns artifacts instead of links</li>
+<li><strong>Multi-agent swarm (self-styled &quot;L4&quot;)</strong> → one complex task split among role-specific
+agents running in parallel and reassembled; 10+ swarm types shipped: video, comic-drama,
+content creation, industry research, e-commerce, travel planning</li>
+<li><strong>16-model aggregation</strong> → DeepSeek, ERNIE, Qwen, Doubao, Kimi, and in-house 360 Zhinao
+answer the same question in parallel so users can compare (&quot;model price-comparison&quot;)</li>
+<li><strong>MCP toolbox</strong> → cross-platform deep search (Xiaohongshu, Douyin, Taobao), including
+parsing tables and audio/video</li>
+<li><strong>Personal knowledge base</strong> → attach private material to shape results</li>
+</ul>
+<p><strong>What it explicitly fails at</strong>: the mobile app. Web traffic is #2 in China; the app does
+not crack the domestic top ten by MAU.</p>
+<h2>What old behavior it replaces</h2>
+<p>&quot;Research then produce&quot; used to be a manual pipeline: open Baidu or Google, click through
+links one by one, copy-paste into a document, format it into a report or deck. A decent
+industry report took a skilled person half a day to a day. Nano AI sells compressing that
+pipeline into one sentence.</p>
+<p>More precisely, it replaces the three-in-one stack of general search + Q&amp;A + content
+creation tools. To be honest: whether it truly replaces anything depends on output quality,
+and a published hands-on test (Sina Tech, July 2026) concludes that features pile up but
+each line is only so-so — the shared weakness of every search product climbing up to
+deliverables.</p>
+<h2>Business model</h2>
+<p><strong>Free for high-frequency basics, paid for heavy-cost output</strong>:</p>
+<ul>
+<li>Search, Q&amp;A, and basic writing are free</li>
+<li>VIP continuous monthly at ¥49, yearly at ¥499; credits sold per-use, 100 credits = ¥10,
+video generation deducts credits per render</li>
+</ul>
+<p>Public reports citing 360's own disclosures put H1 2025 AI value-added services revenue at
+RMB 905M (+53.65% YoY), over 1.2M members, and ~94% gross margin on that line.
+<em>Read: the numbers come through broker and stock-talk channels, so discount them — but the
+membership-plus-credits structure itself is verifiable and closely mirrors the tiered
+subscription Doubao later shipped.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>traffic board (this pool): 180.29M monthly web visits, <strong>-8.84% MoM</strong>, listed on the domestic
+overall board, the AI-search board, and the global board</li>
+<li>traffic board, April 2026: 222M monthly web visits, #2 in China (behind DeepSeek's 487M),
+#6 globally; 8.91M app MAU, #9 in China</li>
+<li>AI product ranking, Dec 2025: Nano AI Search and Nano AI at #2 and #3 on the domestic
+website board, combined 450M+ monthly visits (per 360's disclosures)</li>
+<li>In-house 360 Zhinao 72B: 98.2% success rate on 100-step tasks, token cost ~80% below
+Claude 3.7 (vendor and review claims, not independently verified)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>360 owns search and PC distribution; the lead is a veteran of its Safe Guard/browser teams. Real fit, but it is a company product, not a founder's</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;From answer to deliverable&quot; is the right direction; the swarm plus model aggregation is a differentiator, but no single feature line runs deep</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Zhinao 72B + swarm engine + MCP is real engineering; the comic-drama pipeline's &quot;30–60 min per episode, 90% success&quot; is an auditable metric, not a slide</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>The search layer is already carved up. Free plus channel distribution bought #2, but the failed app suggests users see a tool, not an assistant</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is the reference point for the real shape of Chinese AI search.</strong> The #2 web
+ranking is not a bought chart — 222M (April) and 180M (this pool) are third-party traffic
+numbers, more credible than any marketing copy. The -8.84% MoM is an ordinary pullback,
+not an anomalous spike, which means the growth push is over and the product has settled
+into its steady tier.</p>
+<p><em>Read: search is a traffic business, and 360 holds #2 through legacy browser/PC channel
+distribution plus a free tier. Startups should not enter this lane. The transferable part
+is the product shape — &quot;model aggregation + multi-agent division of labor + MCP tooling&quot;
+is an assembly that works in any vertical.</em></p>
+<p><strong>Two real weaknesses</strong>: an 8.91M app MAU against #2 web traffic shows users treat it as a
+use-and-leave tool with no retention scenario; and every feature line is shallow — &quot;do
+everything&quot; easily becomes &quot;do nothing well.&quot; Still, RMB 905M in AI services revenue with
+high margins proves the &quot;free for traffic, paid for profit&quot; model works in Chinese consumer AI.</p>
+<h2>What to watch next</h2>
+<p>① Whether web visits stop falling next month — a second consecutive MoM decline means the
+rush is over and the base has settled
+② Whether member revenue keeps being disclosed and growing — the monetization proof that
+separates it from other AI search products
+③ Whether app MAU crosses 10M — whether the web-#2 / app-out-of-top-10 gap ever closes</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: the generic structure of &quot;one-sentence deliverable&quot; is copyable —
+decompose the task, assign one clearly-role-defined agent per step, run in parallel,
+reassemble. This &quot;hand it to a team of specialists&quot; frame transfers to any high-frequency
+&quot;input a need, output an artifact&quot; scenario.</p>
+<p><strong>Positioning language</strong>: none. The official site is standard marketing speak with nothing
+worth stealing.</p>
+<p><strong>Pricing structure</strong>: keep high-frequency basics free (search/Q&amp;A), and concentrate
+payment and credits on heavy, high-cost output (per-render video credits). The
+&quot;free high-frequency + metered heavy-asset&quot; split tracks cost structure better than a
+one-size membership.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The #2 position in Chinese AI search is real, the traffic data is
+credible, and the membership model is proven — but the search market itself is locked up.
+Its sample value is the multi-agent deliverable product shape, not search per se. Write it
+down and check the three metrics above in three months.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=General%20assistants">
-        16 in General assistants →
+        15 in General assistants →
       </a>
     </div>
     <ul class="rows">
@@ -105,7 +235,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">fyagent</span>
             <span class="row-desc">Personal portable digital persona for the AI era, carrying models, skills, and prompts across tools.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 204</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 204</span>            </span>
           </div>
         </a>
       </li>
@@ -115,7 +245,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">why</span>
             <span class="row-desc">A deterministic curiosity graph built on probabilistic model.</span>
             <span class="row-tail">
-<span class="tag sig">Community score 5</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 5</span>            </span>
           </div>
         </a>
       </li>
@@ -125,7 +255,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">AI 搜索｜百度</span>
             <span class="row-desc">Baidu&#39;s AI search, pitched as one place to work through complicated questions.</span>
             <span class="row-tail">
-<span class="tag sig">Monthly visits 44.85M</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Monthly visits 44.85M</span>            </span>
           </div>
         </a>
       </li>
@@ -135,7 +265,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DeepSeek - AI 智能助手</span>
             <span class="row-desc">DeepSeek&#39;s mobile assistant: search, writing, reading, problem solving, translation.</span>
             <span class="row-tail">
-<span class="tag sig">MAU 139.08M</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">MAU 139.08M</span>            </span>
           </div>
         </a>
       </li>
@@ -147,9 +277,9 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="pager-n">纳米AI</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/聊天-ai-seek-聊天机器人助手.html">
+      <a class="pager-item pager-next" href="../../p/腾讯元宝-deepseek智能新体验.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">聊天 AI Seek 聊天机器人助手</span>
+        <span class="pager-n">腾讯元宝-「DeepSeek+」智能新体验</span>
       </a>
     </div>
   </nav>
@@ -188,7 +318,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

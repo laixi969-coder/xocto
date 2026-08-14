@@ -14,7 +14,7 @@ summary: 'DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastr
   and the public dsh-plugin topic.'
 first_seen: '2026-08-11T13:14:49Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

@@ -8,12 +8,13 @@ inspiration: 把「整理」藏进「分享」这个动作里，用户不觉得�
 summary_en: ''
 inspiration_en: Hiding “organize” inside “share” so people never feel like they're doing work. Classic
   behavior design.
+priority_review: false
 url: https://picpocket.io/
 canonical_url: https://picpocket.io
 summary: Dedicated 'chats' for photo-sharing (share to organize)
 first_seen: '2026-08-10T16:10:50Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

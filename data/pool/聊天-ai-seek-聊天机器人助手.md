@@ -7,12 +7,13 @@ summary_zh: 聊天机器人助手类应用
 inspiration: 信息不足，需要深挖官网
 summary_en: A chatbot assistant app.
 inspiration_en: Not enough to go on yet — this one needs a real look at the site.
+priority_review: false
 url: https://www.aicpb.com/product/聊天-AI-Seek-聊天机器人助手/appid1D6F37119
 canonical_url: https://aicpb.com/product/聊天-AI-Seek-聊天机器人助手/appid1D6F37119
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

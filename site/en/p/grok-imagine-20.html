@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Grok Imagine 2.0</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Next-gen AI image generator with segmentation editing.</p>
@@ -81,25 +82,99 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/shuohao-skills.html">shuohao-skills</a>,         <a href="../../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Editing an AI-generated image used to mean: regenerate the whole thing (wasted tokens, style drift), drag it into Photoshop (steep learning curve, expensive), or use a third-party &#34;inpainting&#34; tool (p…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: design editing around real workflows instead of stacking features — it ships templates per use case (product shots, headshots, emojis, posters), which presets the scenario for users. Wh…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>xAI's next-generation image model that makes region editing a first-class citizen — magic wand, segmentation, background removal, multi-image reference — aimed squarely at everyday Photoshop-style retouching workflows.</p>
+<h2>Who built it</h2>
+<p>xAI (acquired by SpaceX in an all-stock deal in Feb 2026, renamed SpaceXAI in July 2026; the product keeps the Grok name). The official positioning is &quot;make images for real work,&quot; with editing as a core capability rather than an afterthought.</p>
+<p><em>Read: this is arms-race territory among big model labs, and the subject is xAI, not an indie team. Its significance is that &quot;region editing&quot; is moving from a paid small-tool feature to a standard capability of flagship models.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Magic wand editing</strong> → point at a region, change only that region, leave the rest of the image intact</li>
+<li><strong>Segmentation editing</strong> → precisely select objects or regions to modify without disturbing the composition</li>
+<li><strong>Background removal</strong> → export subjects with transparent backgrounds, previously the domain of dedicated design software</li>
+<li><strong>Multi-reference editing</strong> → up to five input images in a single generation, removing the manual compositing step</li>
+<li><strong>Smart Resize</strong> → recomposes an image across 9 aspect ratios from 1:2 to 2:1, generating what's missing instead of stretching</li>
+<li><strong>Workflow templates</strong> → e-commerce product shots, professional headshots, game characters, emojis, marketing posters</li>
+<li><strong>Consistent world building</strong> → generates characters, locations, and props separately while keeping a unified visual style</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Editing an AI-generated image used to mean: regenerate the whole thing (wasted tokens, style drift), drag it into Photoshop (steep learning curve, expensive), or use a third-party &quot;inpainting&quot; tool (paintbrush-precision, low accuracy, and that category is itself being absorbed by big-model features).</p>
+<p>Grok Imagine 2.0 pulls the whole sequence into the chat surface: generate, edit locally, remove background, composite multiple images — all inside Grok. <strong>It replaces the regenerate-retry loop and the entry tier of professional editing software.</strong></p>
+<h2>Business model</h2>
+<p>Bundled into Grok subscriptions (SuperGrok etc.) and the apps, no separate surcharge. API pricing (carried over from the existing Grok Imagine API): <strong>$0.02/image standard, $0.05/image quality</strong> (same at 1K and 2K). A dedicated imagine-image-2.0 API is &quot;coming soon.&quot;</p>
+<p><em>Read: more aggressive pricing than comparable offerings, aimed at making it the default developer choice. For single-feature inpainting tools, this is a direct price squeeze.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Arena leaderboard (self-reported by xAI, 2026-08-07): #2 worldwide in text-to-image (Elo ~1320) and #2 in image edit (Elo 1439), both trailing OpenAI gpt-image-2 (1380 / 1463)</li>
+<li>9 aspect ratios, up to 5 reference images, multiple preset workflow templates</li>
+<li>Released 2026-08-07/08 on Web + iOS + Android simultaneously</li>
+<li>API: $0.02/image (standard), $0.05/image (quality), same at 1K/2K</li>
+<li>Users, call volume: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>xAI has the model, the distribution (Grok/X), and the compute. No missing piece</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Editing is a workflow, not a patch&quot; — translating a designer's daily actions into product features</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>The #2 Arena ranking signals solid base quality, but the ranking aggregates user preference, not objective measurement</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Everyone is racing on image models; xAI differentiates with editing + cheap API</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is the landmark event of big labs making &quot;region editing&quot; standard.</strong> Once a generator ships with a magic wand, segmentation, and background removal built in, single-feature third-party tools lose their reason to exist. That's not an accident of xAI's release; it's the inevitable evolution of this model class.</p>
+<p><strong>The reason to watch is price and distribution, not the model itself.</strong> $0.02/image is aggressive pricing for the image-editing market; combined with the Grok and X traffic funnel, it's running the &quot;not the strongest model but the strongest distribution&quot; play.</p>
+<p><strong>Discounts to apply</strong>: the Arena #2 is a public leaderboard xAI itself cites; it reflects user preference, not objective quality, and edit-benchmark stability/sample size remain contested. Also, the dedicated API &quot;coming soon&quot; means developers have to wait.</p>
+<h2>What to watch next</h2>
+<p>① Whether the dedicated imagine-image-2.0 API ships on schedule, and at the claimed $0.02/$0.05 pricing
+② Whether it overtakes gpt-image-2 on the Arena edit board in three months — editing capability is its real moat
+③ Whether independent studios (e-commerce, game art) put it into production workflows, not just personal experimentation</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: design editing around real workflows instead of stacking features — it ships templates per use case (product shots, headshots, emojis, posters), which presets the scenario for users. When building AI tools, list the user's high-frequency editing actions first, then build features per action.</p>
+<p><strong>Pricing structure</strong>: charge per image rather than subscription or per token — simplest math for customers. A $0.02/image price point also signals &quot;try it freely,&quot; lowering the adoption bar.</p>
+<p><strong>Competitive judgment</strong>: single-feature tools must watch out for &quot;big labs bundling your feature.&quot; If you only do inpainting and the flagship models ship it free, move toward workflows or data.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> An industry signal of image models shifting from &quot;generation&quot; to &quot;generation + editing workflows,&quot; with aggressive pricing and distribution. But it's a big-lab product, not an entrepreneurship sample; its real value is the reminder that the window for single-feature editing tools is closing.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Creative">
-        16 in AI + Creative →
+        15 in AI + Creative →
       </a>
     </div>
     <ul class="rows">
@@ -192,7 +267,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

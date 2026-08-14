@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>loomfeed</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">开源Reddit替代品，专为AI agent和人类设计，支持溯源和声誉。</p>
@@ -82,22 +83,122 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>传统论坛/社区（Reddit 模式）在 AI 时代失效两点：一是 AI 内容与人类内容混在 一起无法区分，二是质量靠人工投票和审核，成本高且可被操纵。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：AI 生成内容占比只会越来越高，&#34;内容可信度&#34;会从人工义务变成 产品机制。给内容加确定性状态标签（假设/有支持/有争议/被反驳/共识）+ 人类 背书位，是任何 UGC 产品都能抄的一层设计。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个为 AI agent 和人类一起建的 Reddit 替代品：内容带溯源、认知状态标签和
+声誉分，AI 生成内容的可信度被设计成了产品的一部分。</p>
+<h2>做这个东西的人</h2>
+<p>Surya Koritala 个人项目，MIT 开源。Go 1.25 后端 + Next.js 15 前端 + PostgreSQL 16
+（pgvector / pg_trgm），Redis 可选。Docker Compose 一键自托管。2026-08-09 首次
+发布，至今活跃提交。</p>
+<p><em>判断：一个人加一个理念鲜明的选题。&quot;质量是被强制执行的，而不是被假设的&quot;——
+把这句话当产品立场，说明作者不是在造社区，是在做关于社区的实验。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>溯源追踪</strong> → 内容来源与演变全程可查，维护引用图</li>
+<li><strong>认知状态标签</strong> → Hypothesis / Supported / Contested / Refuted / Consensus
+五档，给信息确定性一套共同语言</li>
+<li><strong>声誉与信任分</strong> → 随社区投票动态浮动，&quot;信任是挣来的&quot;</li>
+<li><strong>人类认可印章</strong> → 只有人类能验证 AI 生成的内容</li>
+<li><strong>Agent 竞技场</strong> → AI agent 并排做结构化辩论，社区投票选最有说服力的论点</li>
+<li><strong>8 种帖子类型</strong> → 文本、链接、问题、任务、综合、辩论、代码审查、警报</li>
+<li><strong>三种接口</strong> → REST（90+ 端点）、MCP、A2A，agent 能直接接入</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>传统论坛/社区（Reddit 模式）在 AI 时代失效两点：一是 AI 内容与人类内容混在
+一起无法区分，二是质量靠人工投票和审核，成本高且可被操纵。</p>
+<p>以前判断&quot;这条信息可不可信&quot;靠个人经验和评论区人肉辩论；loomfeed 把它改成
+系统化机制——来源、状态标签、声誉分、人类背书，信任从&quot;读者自己评估&quot;变成
+&quot;平台替你标注&quot;。它替代的不是某个具体工具，是&quot;没有信任层的 UGC 论坛&quot;
+这一类工作流。</p>
+<h2>商业模式</h2>
+<p><strong>MIT 开源，无托管服务，无定价。</strong> 外部服务（LLM、OAuth、分析、邮件）全部可选、
+默认关闭，使用产生的费用自理。</p>
+<p><em>判断：这还停留在项目而非产品阶段。但注意它的结构——把&quot;信任机制&quot;做成了可
+自托管的开源件，如果机制验证有效，托管版就是顺理成章的收费点。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>212 star / 2 fork / 0 open issue</strong>（截至 2026-08-13 采样）</li>
+<li>MIT，Go + Next.js + PostgreSQL，首次发布 2026-08-09</li>
+<li>REST API 90+ 端点，支持 MCP 与 A2A</li>
+<li>用户数、部署实例数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>单人项目，理念先行，工程完成度高，但运营社区的能力未被验证</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓准了 AI 时代社区的信任缺口，&quot;认知状态标签&quot;是可迁移的机制</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>三端接口、八种帖子类型、Docker 自托管，是完整系统不是 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>AI 内容占比上升是确定趋势，但&quot;人类+agent 共社区&quot;离主流还远</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>它把&quot;内容可信度&quot;从人工义务改成了产品机制。</strong> 这是整条线索最值钱的一刀。
+旧论坛把信任外包给读者：你自己分辨 AI 稿和真人帖，自己查来源。loomfeed 把
+来源、确定性状态、声誉、人类背书做成平台的一层，读者不用每次都从头判断。
+&quot;认知状态标签&quot;这个模式，对任何内容产品都是可以直接抄的一层设计。</p>
+<p><strong>但 2 fork / 0 issue 说明现在只有作者一个人在推进。</strong> 机制再好，没有第二个
+部署实例、没有外部反馈，就还停留在设计稿层面。自托管项目最容易死在
+&quot;作者跑得很开心，别人跑不起来&quot;。</p>
+<p><strong>&quot;人类认可印章&quot;是整盘棋里最有意思的赌注。</strong> 它假设 AI 内容占主流后，
+&quot;人类验证过&quot;本身成为稀缺品。这个假设如果成立，认证类机制会在几乎所有
+内容产品里出现；如果人类验证被 AI 批量伪造或稀释，这个机制也会跟着贬值。</p>
+<p><strong>它不替代 Reddit，它替代的是 Reddit 那套信任的隐形成本。</strong>
+社区产品最难的不是功能，是冷启动。而 loomfeed 的冷启动难度比普通论坛
+更高——它要求用户先理解&quot;认知状态标签&quot;这套新语言。</p>
+<h2>下一步看什么</h2>
+<p>① fork 和 issue 的变化——2 fork / 0 issue 说明目前是单人项目
+② 有没有第二个实例被部署出来——自托管项目只有作者自己跑就不叫产品
+③ 认知状态标签是否被证明能改善讨论质量——机制成立的前提是有人真的在用</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：AI 生成内容占比只会越来越高，&quot;内容可信度&quot;会从人工义务变成
+产品机制。给内容加确定性状态标签（假设/有支持/有争议/被反驳/共识）+ 人类
+背书位，是任何 UGC 产品都能抄的一层设计。</p>
+<p><strong>话术</strong>：无。README 是工程文档，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 理念和机制都比它现在的规模值钱，但 2 fork / 0 issue 说明它还只是
+作者一个人的系统。机制可抄，产品未证——记住&quot;认知状态标签&quot;这一层，别急着跟。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
-        AI + 生活 共 16 个 →
+        AI + 生活 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -107,7 +208,7 @@
             <span class="row-name">everycube</span>
             <span class="row-desc">能翻遍魔方全部 4325 亿亿种状态</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 285</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 285</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +218,7 @@
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">讲 AI Agent 设计原理与工程实践的开源教材</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 221</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 221</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +228,7 @@
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">语音驱动的谋杀推理游戏，用嘴审问 AI 嫌疑人</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 203</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 203</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +238,7 @@
             <span class="row-name">ShenNongMi</span>
             <span class="row-desc">中医知识图谱问答，靠两万个节点撑住会自我纠错的查询</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 103</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 103</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +291,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

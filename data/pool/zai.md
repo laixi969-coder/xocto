@@ -8,12 +8,13 @@ inspiration: 国内模型厂商用独立域名做海外版，是在规避品牌�
 summary_en: ''
 inspiration_en: A separate domain for the overseas version avoids the compliance scrutiny that comes with
   the brand association.
+priority_review: false
 url: https://www.aicpb.com/product/Z.ai/webid1D6F37C91
 canonical_url: https://aicpb.com/product/Z.ai/webid1D6F37C91
 summary: Interact with z.ai and explore the boundless creative world
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

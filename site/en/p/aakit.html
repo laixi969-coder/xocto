@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Aakit</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">find every assumption your coding agent made, and which broke</p>
@@ -81,15 +82,145 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Figuring out why an agent botched a job used to mean manually scrolling session logs and retrospectively reconstructing why it did what it did and where the reasoning went wrong. Slow, luck-dependent,…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: &#34;make implicit assumptions explicit&#34; transfers directly to reviewing any proposal — have the agent (or a colleague) list assumptions before starting, and review the assumption list, not…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An assumption detector for your coding agent: it digs out every silent assumption the
+agent made, attaches evidence, shows which assumption broke and how wide the blast radius
+was, and measures whether asking one question or not asking at all is actually cheaper.</p>
+<h2>Who built it</h2>
+<p>An independent open-source project by GitHub user Abhixhek (identity not disclosed).
+Posted on HN; this pool records 5 points and 1 comment.
+<em>Name-collision note: GitHub also hosts &quot;AA Kit (Agent As Everything)&quot; and several
+&quot;AIKit&quot; toolkits, all unrelated. This analysis covers only <code>abhixhek/aakit</code>.</em></p>
+<p><em>Read: publishing a tool whose three experiments produced no publishable number — along
+with a full two-week protocol — suggests the author wants the method discussed more than
+he wants impressive charts. That alone is worth reading.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Extracts assumptions</strong> → parses tasks and each implicit assumption from Claude Code
+session logs (JSONL), labeling provenance (read from something, or pure guess)</li>
+<li><strong>Judges what broke</strong> → uses failing tests, file contradictions, and user corrections as
+evidence; finds defeated assumptions and computes the blast radius — which artifacts
+fall when one assumption falls</li>
+<li><strong>Computes a base rate</strong> → experiment 1: how often silent assumptions are wrong in a
+load-bearing way, with confidence intervals</li>
+<li><strong>Tests asking policies</strong> → experiment 2: four policies (never ask / always ask /
+ask only on divergence / ask on divergence with a budget) compared across equivalent
+tasks on success rate and token cost</li>
+<li><strong>Reports honestly</strong> → every conclusion carries Wilson intervals and an explicit
+&quot;kills the thesis&quot; criterion</li>
+</ul>
+<p><strong>What it explicitly does not guarantee</strong>: none of the three experiments has produced a
+publishable result in the current version — that is the author's own statement in the
+README, not our judgment.</p>
+<h2>What old behavior it replaces</h2>
+<p>Figuring out why an agent botched a job used to mean manually scrolling session logs and
+retrospectively reconstructing why it did what it did and where the reasoning went wrong.
+Slow, luck-dependent, and usually impossible to reconstruct after the fact.</p>
+<p>aakit replaces that &quot;post-hoc vibes review&quot; with a repeatable measurement pipeline:
+parse, extract, human adjudication, metrics. It is not the first agent-log analyzer,
+but it is the first to make &quot;implicit assumptions&quot; an explicit measurement object and to
+publicly admit the measurement is not yet accurate.</p>
+<p><em>Read: it replaces not a specific action but a habit — the default trust that &quot;if the
+agent finished, it finished right.&quot; Every team that dares to put agents in production
+will eventually have to replace that habit.</em></p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Open source, no license statement found, no paid or hosted service, and the
+author's identity and background are undisclosed.</p>
+<p><em>Read: the usual commercialization path for a measurement tool is &quot;open-source endpoint
+plus paid team edition,&quot; but with experiments still unpublished, business model talk is
+premature.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>This pool: 5 HN points, 1 comment (observed 2026-08-13); GitHub stars/forks not retrieved</li>
+<li>Experiment 2: 120 trials (10 tasks × 4 policies × 3 repeats, <code>claude-sonnet-4-5</code>).
+gated_multi 19/30 (63.3%) vs always 18/30 (60%) vs divergence_gated 13/30 (43.3%) vs
+never 10/30 (33.3%) — all confidence intervals overlap; the author declares experiment 2
+failed</li>
+<li>Strongest finding: the divergence gate asks 3.7x fewer questions but spends 25% more tokens</li>
+<li>Experiment 1: n=2, no base rate; experiment 3 (monitor recall): never run</li>
+<li>Three self-reported instrumentation bugs (header truncation inflating assumption counts,
+tool calls swallowed by the tool, session-ID exclusion ineffective)</li>
+<li>Self-assessed sample size: ~n=40/policy needed to separate gated_multi from never;
+the current n=30 is not enough</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Writing a PROTOCOL.md like this suggests someone genuinely bitten in production agent work — but the identity is unverifiable</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Making &quot;implicit assumptions&quot; measurable is the right question; &quot;calibrate the extractor before trusting results&quot; is rigorous methodology</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Stdlib-only, local SQLite, privacy care (redaction and local execution) is real engineering — but three instrumentation bugs mean it is not yet trustworthy</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>More teams are putting agents in production and asking &quot;how do we measure what agents did&quot; — the need is growing faster than the tools</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>An honest draft of what an agent-era measurement tool should look like.</strong> Its value is
+not in the results — all three experiments came up empty — but in two things: it makes
+explicit the &quot;implicit assumptions&quot; that are the most common failure point of agents and
+the hardest for humans to spot; and it is honest about the measurement itself. It says
+sample size is insufficient, reports its instrumentation bugs, and warns readers not to
+peek at interim tables after a mid-run lead got reversed.</p>
+<p><em>Read: for a measurement tool, admitting you measured wrong is worth more than pretending
+you measured right. That honesty is rare in AI tooling, and it is the only reason this
+project deserves a note.</em></p>
+<p><strong>The business judgment is simple though</strong>: 5 HN points, an anonymous author, and no
+experimental results. There is no reason to bet on this direction now, and no data to
+suggest it works. This is &quot;methodology worth filing, engineering still mid-road.&quot;</p>
+<h2>What to watch next</h2>
+<p>① Whether stars cross 100 within three months — community acceptance is the first signal
+of validation
+② Whether experiment 2 reaches sufficient samples (n≈40/policy) and produces a
+publishable number — whether the author's stated next step gets delivered
+③ Whether anyone publicly reproduces or cites the protocol — outside adoption of the
+measurement method counts more than stars</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: &quot;make implicit assumptions explicit&quot; transfers directly to reviewing
+any proposal — have the agent (or a colleague) list assumptions before starting, and
+review the assumption list, not just the conclusion. AI failures usually live in the
+premises it took for granted, not in the code.</p>
+<p><strong>Language</strong>: terms like &quot;load-bearing-wrong&quot; cut through — separating &quot;wrong but
+harmless&quot; from &quot;wrong and everything collapses&quot; is a distinction worth stealing.</p>
+<p><strong>Engineering discipline</strong>: calibrate before publishing numbers; state plainly when the
+sample is too small; surface your own instrumentation bugs. This &quot;no result rather than
+fake result&quot; discipline is worth more than any feature.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The methodology has real substance and the engineering honesty is rare, but
+the data is thin, the experiments are not run to completion, and the author is anonymous
+— no investable basis exists. Check in three months whether it moved from &quot;honest draft&quot;
+to &quot;working tool.&quot;</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +237,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +247,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +257,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +267,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +320,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

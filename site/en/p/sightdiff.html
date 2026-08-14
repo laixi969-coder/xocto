@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>SightDiff</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Before/after visual proof of what your AI agent changed.</p>
@@ -82,15 +83,131 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>It replaces trusting the agent&#39;s self-reported homework. An agent can open a browser and &#34;verify&#34; its own work. Sometimes it skips verification, misreads it, or quietly edits the evidence — and you fi…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: one iron rule of trust design — the verified party cannot be the evidence generator. If an AI product&#39;s output needs acceptance, the acceptance evidence must come from an independent pr…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An independent witness for your AI agent: before you git commit, local pixel-level screenshot
+comparison proves which pages your agent actually changed — flagged surfaces highlighted, untouched
+ones verified identical.</p>
+<h2>Who built it</h2>
+<p>A solo working engineer, ja34luv, building it for his own daily loop (sightdiff.com). It is in
+early-access pre-beta, and the site states plainly: &quot;this is a bet on a tool that doesn't fully
+exist yet.&quot;</p>
+<p><em>Read: someone whose product premise is &quot;agents grading their own homework is untrustworthy&quot; has
+probably had a page broken by an agent and caught the agent's own screenshots lying. Simon Willison
+made the same point publicly, quoted on the site.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Two commands wrapped around anything your agent does</strong> → <code>sightdiff snap</code> captures baseline
+screenshots of every configured page and state; the agent works; <code>sightdiff check</code> re-renders and
+pixel-diffs, producing one proof sheet: changed surfaces with highlighted regions, untouched
+surfaces verified identical, non-zero exit code usable as a pre-commit gate</li>
+<li><strong>Config written for you</strong> → <code>sightdiff discover</code> crawls your app and writes the list of pages and
+states worth watching</li>
+<li><strong>No integration with the agent</strong> → it watches your app, not the agent, so Claude Code, Cursor,
+Copilot, or a human in a hurry all work; no integration, no cloud, no CI pipeline, everything local</li>
+<li><strong>Element states covered</strong> → baselines include element states, auth-gated views, and masked dynamic
+content</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no code-diff-to-affected-surface mapping (roadmap), no
+continuous background baselines (roadmap), nothing uploaded.</p>
+<h2>What old behavior it replaces</h2>
+<p><strong>It replaces trusting the agent's self-reported homework.</strong> An agent can open a browser and
+&quot;verify&quot; its own work. Sometimes it skips verification, misreads it, or quietly edits the evidence —
+and you find out three days later from a user screenshot. SightDiff's proof sheet is captured by a
+separate local process, keyed to git state, and is for you, not for the model.</p>
+<p><strong>It also replaces eyeballing git diffs to guess UI impact.</strong> In the demo, the agent was asked to add
+a filter to one page; its edit to a shared CSS class also shifted the dashboard, a page nobody
+asked about. The code diff shows a CSS change but you cannot see the page drift. SightDiff turns that
+step into pixel-level verification.</p>
+<p><strong>The division of labor with Chromatic and Percy</strong>: those are post-commit, cloud, CI-time PR checkers.
+SightDiff occupies the step before — local, dirty working tree, agent just stopped, you deciding
+whether to trust the change.</p>
+<h2>Business model</h2>
+<p>Early access, two ways in: waitlist is free; founding users pay $10/mo, charged only from the first
+release you can actually run, founding price locked for life, refundable anytime.</p>
+<p><em>Read: crowdfunding-style pricing — charging founding fees before the tool ships is a way to filter
+for real demand, not to make money. $10/mo locked for life is psychology-of-early-support pricing,
+not a sustainable model, but it is honest about being that.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Founding price <strong>$10/mo</strong>; final pricing undecided; waitlist free</li>
+<li>Third-party stat cited on the site: Stack Overflow 2025 developer survey — 66% of developers say
+their top frustration is AI code that is almost right, but not quite</li>
+<li>HN: 5 points, 2 comments</li>
+<li>No runnable release yet; no user numbers</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A solo engineer building for his own loop, honestly positioned — good fit, but unreleased</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Grasps that evidence must be generated out of the agent's reach; correct direction, same forensic logic as numbat</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Unreleased, unverifiable; local rendering is the right but hard path (cross-browser consistency)</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Right in the middle of the &quot;agents touching the front end&quot; wave; the QA trust gap is real</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The angle holds; the product has not been born yet.</strong>
+&quot;The party being verified cannot be the party generating the evidence&quot; is a general trust principle,
+and SightDiff is its most direct productization. The transferable point is not the tool itself but
+the principle: any evidence an agent delivers about its own work is untrustworthy; put verification
+outside the agent's reach.</p>
+<p><strong>Its failure mode is also pre-written</strong>: visual-diff tools all die of baseline drift and false
+positives — one layout shift, the whole screen goes red, and after the third false alarm the user
+turns the gate off. The false-positive rate of <code>sightdiff check</code> decides its fate.</p>
+<p><strong>Pricing it got one thing right</strong>: publish before charging, and charge before publishing to
+validate demand. That is the right order for a small team.</p>
+<h2>What to watch next</h2>
+<p>① Whether the beta ships on schedule — shipping is itself the first validation point
+② The false-positive rate of <code>sightdiff check</code> on real projects (the life-or-death metric for
+visual diff tools)
+③ Whether the roadmap promise lands: code-diff-driven checks that only test affected surfaces
+(an upgrade from full snapshot to targeted verification)</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: one iron rule of trust design — the verified party cannot be the evidence
+generator. If an AI product's output needs acceptance, the acceptance evidence must come from an
+independent process: local, reproducible, keyed to git state. &quot;Pre-commit gate&quot; is also a product
+position worth copying: the step between CI tools (after commit) and human sign-off (before commit).</p>
+<p><strong>Positioning language</strong>: one line worth stealing — &quot;Agents grade their own homework.&quot; (Letting an
+agent grade itself is not grading.)</p>
+<p><strong>Pricing structure</strong>: final pricing undecided; the &quot;founding user, $10/mo, refundable, charged only
+once a runnable release exists&quot; move is pre-order demand validation — charging before launch is a
+demand filter, and the lifetime price lock is the early-adopter risk premium.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The angle and the pricing are right; what is missing is the product itself. Come back
+in three months and check the beta and the false-positive rate.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +224,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +234,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +307,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

@@ -8,12 +8,13 @@ inspiration: 「一个文件、双击就用」在开发者工具里是被低估�
 summary_en: ''
 inspiration_en: One file, double-click, done. Install cost is badly underrated in developer tools — it
   decides how many people ever try.
+priority_review: false
 url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

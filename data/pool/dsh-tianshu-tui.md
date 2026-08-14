@@ -15,7 +15,7 @@ summary: dsh-tianshu-tui — DeepSeek Harness terminal UI +harness workflow。�
   UI 插件。渲染核心从本仓库自研的harness agent  Tianshu-Tui 演进而来，在官方的基础上增加了TDD与证据门等工作流。
 first_seen: '2026-08-13T04:20:37Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

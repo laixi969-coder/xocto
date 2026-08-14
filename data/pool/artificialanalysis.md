@@ -8,12 +8,13 @@ inspiration: 自定义基准测试让模型评估更贴近实际业务，可迁�
 summary_en: Create custom benchmarks to evaluate AI models for specific use cases.
 inspiration_en: Custom benchmarks make model evaluation more relevant to real business, transferable to
   vertical selection.
+priority_review: false
 url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
 last_seen: '2026-08-14T04:47:01Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

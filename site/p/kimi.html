@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Kimi</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">月之暗面 Kimi 的国际站</p>
@@ -81,25 +82,98 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它已有使用数据，后续更值得看规模和变化能否延续。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>对两类人替代两件事。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：出海翻译的不是界面，是&#34;价格差+兼容格式&#34;。Kimi 国际站做的关键动作不是英文版 App，而是 API 兼容 Anthropic 格式——开发者换一个 base_url 就能迁移，迁移成本趋近于零。任何要抢存量用户的产品，都应该把&#34;换过来不费力&#34;当作第一设计原则。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>月之暗面 Kimi 的海外站：同一套 K 系列模型，面向国际用户的英文入口，主打&quot;顶级能力、开源、价格是闭源巨头的零头&quot;。</p>
+<h2>做这个东西的人</h2>
+<p>月之暗面（Moonshot AI）的国际版站点（kimi.ai），英文 C 端签约主体为新加坡 Moonshot AI PTE，开发者平台为 platform.kimi.ai（美元计价）。与 流量榜 上另一条「Kimi｜月之暗面」入口（kimi.com，国内站、人民币计价）是同一家公司的两个站点。</p>
+<p><em>判断：它是国内版的能力复制品加合规改造，不是独立产品。它的意义不在功能差异，而在验证&quot;中国开源模型出海，能不能从闭源巨头的订阅里抢钱&quot;。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>多模型切换</strong> → K2 系列从 0905 到 K2.5、K2.6、K2.7 Code，聊天、深度思考、视觉、agent 各取所需</li>
+<li><strong>便宜量大的 API</strong> → 发布时 K2 定价 0.15 / 2.5 美元每百万 token（输入/输出），K2.6 降到 0.55 / 2.65 美元，K2.7 Code 0.95 / 4.00 美元；兼容 Anthropic 的 API 格式，可直接替换 Claude</li>
+<li><strong>编程工作流</strong> → Kimi Code CLI 对标 Claude Code / GitHub Copilot，订阅 19 美元/月起；被 Cursor、Windsurf、Cline 等接入</li>
+<li><strong>C 端订阅</strong> → 国际站分 Adagio（免费）/ Moderato（19 美元/月，解锁视觉模式、深度研究）/ Allegretto（39 美元/月，加 Agent Swarm）</li>
+<li><strong>开源生态</strong> → K2/K2.5 权重开源（Modified MIT），Hugging Face 可自托管</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>对两类人替代两件事。</p>
+<p><strong>对 C 端用户</strong>：替代的是&quot;每月 20 美元订阅 ChatGPT/Claude&quot;这件事。免费或 19 美元换一个能力不输的模型，尤其适合把 AI 当工具、预算敏感的国际用户。</p>
+<p><strong>对开发者</strong>：替代的是&quot;按闭源 API 的原价付钱&quot;。发布时 K2 的输入价格是 Claude Opus 4 的一百分之一（0.15 对 15 美元每百万 token），输出价是三十分之一。对调用量大的编程/agent 场景，这是数量级的成本差——一位开发者实测同样的十件任务，Claude Sonnet 4 花 10-20 美元，K2 约 7 美元。</p>
+<p><em>判断：它打的是&quot;价格差+开源权&quot;的组合拳，不是功能差。DeepSeek 证明了这条路能走通，Kimi 在编程/agent 场景又走了一遍。</em></p>
+<h2>商业模式</h2>
+<p>与国内同构：C 端免费+订阅（19/39 美元两档），API 按量计费，模型开源收生态。区别是国际站全部美元计价、主体在海外。2026 年 6 月公司口径 ARR 破 3 亿美元，海外 API 收入是其中重要一块（2025 年 11 月以来涨约 4 倍）。</p>
+<h2>硬数字</h2>
+<ul>
+<li>流量榜 口径：<strong>22.69M 月活，环比 -12.40%</strong>，上了全球降速榜，说明之前涨过、现在是回落</li>
+<li>2026 年 5 月，K2.6 是 OpenRouter 上第二常用的 LLM（第一梯队开源模型）</li>
+<li>K2 发布当天成为 Hugging Face 单日下载最快模型；K2.5 发布后累计收入超过 2025 全年</li>
+<li>国际 API 定价：K2 发布时 0.15 / 2.50 美元每百万 token，输入价约为 Claude Opus 4 的 1/100</li>
+<li>团队规模、国际付费用户绝对值：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>与国内版同源，创始人长序列研究背景，匹配度高</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;价格差&quot;做国际化叙事：便宜 + 开源 + 兼容 Anthropic 格式，降低迁移成本</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>模型被主流编程工具接入、OpenRouter 用量第二，工程侧已被生态验证</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>正好赶上海外对闭源 API 成本不满的窗口；但同赛道有 DeepSeek、Qwen 开源模型抢同一批开发者</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>已验证的出海样本，但正在降速。</strong> 环比 -12.4% 且挂降速榜，意味着 2025 年底到 2026 年初那一波爆发（付费用户月增 170%、API 收入涨 4 倍）已经过了最高斜率，现在是在更高的基数上回落。</p>
+<p>值得关注的理由不是增长，而是它把两件事同时做成了：一是证明开源模型能在海外开发者生态里排进用量前二；二是证明&quot;能力对标闭源、价格低一两个数量级&quot;这个组合在国内（DeepSeek）有效后，在国际市场同样有效。</p>
+<p><em>判断：风险在两点。其一，开源模型价格战没有护城河——DeepSeek、Qwen 在抢同一批开发者，Kimi 的价格优势会被稀释；其二，消费端订阅（19/39 美元）在国际市场要直面 ChatGPT Plus 的用户习惯，这个仗比开发者侧难打。</em></p>
+<h2>下一步看什么</h2>
+<p>① 22.69M 月活的环比负增长能否收窄——降速榜上的位置下月是否还在
+② OpenRouter 用量第二的位置能否守住，以及 API 收入是否跟得上模型代际（K3 国际版）
+③ 国际 C 端订阅（Moderato/Allegretto）有没有公开的付费用户绝对数</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：出海翻译的不是界面，是&quot;价格差+兼容格式&quot;。Kimi 国际站做的关键动作不是英文版 App，而是 API 兼容 Anthropic 格式——开发者换一个 base_url 就能迁移，迁移成本趋近于零。任何要抢存量用户的产品，都应该把&quot;换过来不费力&quot;当作第一设计原则。</p>
+<p><strong>话术</strong>：无。它是产品页面，句式没有可迁移的价值。</p>
+<p><strong>定价结构</strong>：定价页直接放&quot;输入价是某闭源模型的 1/100&quot;这种对比，比单纯列价目表有说服力。价格竞争要有参照物，没有参照物的低价等于没价。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 数据真实、降速也真实。它验证了开源模型国际化的打法，但要继续观察价格差被 DeepSeek/Qwen 稀释之后，这个位置还站不站得住。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +193,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +203,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +213,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +266,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

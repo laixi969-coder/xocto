@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Insidedb</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">an interactive, animated explainer of database internals</p>
@@ -82,25 +83,94 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Learning database internals used to mean three things: textbooks with static diagrams, long blog posts with ASCII art, and recorded lectures you can only watch. This page swaps &#34;read the figure and im…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Content logic: for any process-type knowledge (protocols, algorithms, system mechanics), first ask &#34;can the reader do one step with their own hands?&#34; Turning &#34;watch&#34; into &#34;do&#34; drops comprehension cost…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A webpage that turns database internals into playable animations — insert a key and watch the B-tree split; pull the plug and watch the write-ahead log bring data back. It replaces reading with playing, covering B-trees, query planning, the WAL, and MVCC.</p>
+<h2>Who built it</h2>
+<p>GitHub user david-g-3654 (David G.), a personal project hosted on GitHub Pages, repository created 2026-08-11, the same day it hit HN. Team background and motivation are not disclosed.</p>
+<p><em>Read: this is the classic &quot;if you cannot explain it, build it&quot; artifact. The author was most likely pushed to make animations by the frustration of explaining databases with static images.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>B-tree</strong> → insert keys in real time and watch nodes split and middle keys rise; you see the tree height and the reads needed to find any key</li>
+<li><strong>Query planner</strong> → run the same WHERE clause two ways (sequential scan vs index) and watch the cost estimate choose</li>
+<li><strong>Write-ahead log</strong> → step through write, commit, power-out, recover as a story</li>
+<li><strong>MVCC</strong> → the versioning mechanism that lets readers and writers stop blocking each other</li>
+</ul>
+<p>Each topic is a hands-on animation, not a static diagram.</p>
+<h2>What old behavior it replaces</h2>
+<p>Learning database internals used to mean three things: textbooks with static diagrams, long blog posts with ASCII art, and recorded lectures you can only watch. This page swaps &quot;read the figure and imagine the motion&quot; for &quot;do it yourself&quot; — you insert the key, you pull the plug, you switch the plan. For actually getting it, an interactive explainer is much faster than text. But it covers only four topics with no course structure: it replaces &quot;look up one concept,&quot; not &quot;learn a subject.&quot;</p>
+<h2>Business model</h2>
+<p>None. Free educational page, no ads, no paywall, no course derivative.</p>
+<p><em>Read: single-page explainers like this exist for reputation or a portfolio, not for money. Their commercial value is proving the author can explain complex systems — a skill the hiring market prices.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>HN: 5 points, 0 comments</li>
+<li>GitHub: 0 stars / 0 forks, created 2026-08-11</li>
+<li>Four topics: B-tree, query planner, WAL, MVCC</li>
+<li>Author's full name, team, and any monetization plan: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Cannot be assessed; author information is nearly zero</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>The form judgment — interactive animation over static diagrams — is right, and the explainer format is proven</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Smooth interactions, dense information, readable; not a rough demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Database learning is evergreen, but more people will build this form, and topic count is the moat</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The form judgment is correct, but the sample is tiny.</strong> Interactive explainers are almost always more effective than text for &quot;how a complex system works&quot; — that part is settled. The problem is four topics, no growth data, and no sign of becoming a product or a course.</p>
+<p><em>Read: the thing actually worth tracking here is not this page but the content format it represents — system internals made playable. That format is moving from &quot;teaching aid&quot; toward &quot;product shape&quot; on its own.</em></p>
+<h2>What to watch next</h2>
+<p>① Whether the topic count grows past four — staying at four means a one-off; continued updates mean a product
+② Whether GitHub stars break 100 in three months
+③ Whether the author extends it into a course, a paid product, or at least a public roadmap</p>
+<h2>What you can take from it</h2>
+<p><strong>Content logic</strong>: for any process-type knowledge (protocols, algorithms, system mechanics), first ask &quot;can the reader do one step with their own hands?&quot; Turning &quot;watch&quot; into &quot;do&quot; drops comprehension cost by an order of magnitude, and the artifact is self-promoting — a screen recording travels better than a text excerpt.</p>
+<p><strong>Engineering tradeoff</strong>: a single page, no dependencies, free GitHub Pages hosting, one topic done to an extreme instead of many topics listed. For individual content products, this is the cheapest way to start.</p>
+<p><strong>Positioning language</strong>: none. This is a personal work; nothing to steal.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> Right form, well executed, but no product intent and no data. Keep it as a reference sample for the &quot;interactive explainer&quot; content format, and check in three months to see whether it became something else.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +190,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +200,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +210,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +263,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

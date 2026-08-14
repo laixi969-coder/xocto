@@ -8,12 +8,13 @@ inspiration: 「审批优先」这个词组本身说明了取舍：宁可慢，�
 summary_en: ''
 inspiration_en: '“Approval-first” states the tradeoff out loud: slower is fine as long as the human keeps
   control.'
+priority_review: false
 url: https://www.producthunt.com/products/soloop
 canonical_url: https://producthunt.com/products/soloop
 summary: Approval-first Agent OS for solo founders
 first_seen: '2026-08-06T10:36:29Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: watching
+status: analyzed
 sources:
 - producthunt
 sightings:

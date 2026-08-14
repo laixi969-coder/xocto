@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>ShenNongMi</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.</p>
@@ -81,22 +82,152 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Three ways to look up TCM knowledge before this: search engines — broad but noisy, with uneven reliability; asking an LLM directly — TCM is exactly the domain where models confidently fabricate, and w…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for vertical Q&amp;A, do not expect the LLM to answer directly. Make a structured knowledge base (graph/database) the single source of truth, let the LLM only phrase the query results, and …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A traditional Chinese medicine (TCM) knowledge navigator: a 19,000+ node Neo4j
+knowledge graph as the base, wired to a LangGraph workflow with self-correcting
+NL2Cypher, so TCM questions are answered from the graph rather than hallucinated
+by the model — plus a pipeline that auto-generates wellness content and publishes
+it to Xiaohongshu (RED).</p>
+<h2>Who built it</h2>
+<p>GitHub author Happy-Chen-CH; the README states it was developed in collaboration
+with Claude, for educational and research purposes only, with data sourced from
+public TCM encyclopedia sites. Author identity and background: not disclosed.</p>
+<p><em>Read: a typical one-person-plus-AI technical project. Its value is running a full
+&quot;knowledge graph + agent workflow&quot; stack end-to-end and open-sourcing it — not
+productizing it. The author appears to be validating whether that architecture can
+land in the TCM domain.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>TCM knowledge Q&amp;A</strong> → answers questions about herbs, formulas, symptoms,
+effects, and classical texts from the Neo4j graph (19K+ nodes, 6 entity types,
+6 relation types)</li>
+<li><strong>Self-correcting NL2Cypher</strong> → extract entities → match graph nodes via FAISS
+(BGE-Large-Zh-v1.5) → generate Cypher → validate it, regenerate on error →
+query → compose the answer. The answer stays inside &quot;what's in the graph,&quot;
+which keeps the model's hallucination contained</li>
+<li><strong>Intent recognition</strong> → a fastText + fine-tuned RoBERTa-LoRA dual-model setup
+distinguishes &quot;ask about TCM&quot; from &quot;publish content,&quot; claiming 99.75% accuracy</li>
+<li><strong>RED content generation and publishing</strong> → generates wellness content with
+Volcano Engine Jimeng AI images and publishes to Xiaohongshu via Playwright</li>
+<li><strong>Interactive graph browsing</strong> → visually explores a network of 6 entity types
+and 6 relation types</li>
+</ul>
+<p><strong>Stack</strong>: DeepSeek v4 (extraction/QA/Cypher), Neo4j, LangGraph (14-node
+workflow), FAISS, Streamlit frontend + FastAPI backend (SSE streaming).</p>
+<h2>What old behavior it replaces</h2>
+<p>Three ways to look up TCM knowledge before this: search engines — broad but
+noisy, with uneven reliability; asking an LLM directly — TCM is exactly the
+domain where models confidently fabricate, and wrong herb properties, meridian
+attributions, or compatibilities can mislead people; or books/doctors — accurate
+but slow.</p>
+<p>This project replaces the &quot;use a general LLM for vertical knowledge&quot;
+unreliability: the knowledge graph anchors every answer, the model only arranges
+the graph query result into language, and when it cannot answer, it says so rather
+than inventing. It also turns &quot;posting wellness content to Xiaohongshu&quot; from
+hand-writing, sourcing images, logging in, and publishing manually into an
+automated pipeline.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> MIT open source, purely educational/research, no product, no service,
+no pricing.</p>
+<p><em>Read: the commercial value of such a project is not in the free demo itself but
+in the pattern — &quot;vertical knowledge graph + self-correcting query.&quot; If it works
+for TCM, the same approach could be replicated in law, finance, or machinery,
+which all have strongly structured knowledge. The author has not productized it.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>GitHub: 103 stars / 7 forks / 0 open issues, 5 commits total (latest 2026-08-07)</li>
+<li>Graph: 19,000+ nodes, 6 entity types, 6 relation types</li>
+<li>Workflow: 14 nodes (LangGraph)</li>
+<li>Claimed intent-recognition accuracy: 99.75% (fastText + RoBERTa-LoRA dual model)</li>
+<li>Authors, users, activity: single-author project, no user data</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>A tech-driven personal project; the motivation is validating an architecture, not serving users</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Constrain LLM hallucination with a graph&quot; is the right direction; self-correcting NL2Cypher is the genuinely valuable mechanism</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Full chain works end-to-end: crawl → extract → build graph → workflow → service. But five commits means almost no iteration</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>The &quot;vertical knowledge graph as moat&quot; thesis is timely, but the project has no commercial follow-through</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Watch the mechanism, not the product.</strong></p>
+<p>&quot;Constrain LLM output with a knowledge graph&quot; is one of 2026's most overrated and
+most underrated vertical-AI theses. Overrated because building the graph is
+expensive; underrated because once built, it is a moat models cannot flatten.
+ShenNongMi's value is open-sourcing the whole mechanism as a template — the
+self-correcting NL2Cypher (re-query instead of force-answering) is a targeted fix
+for the &quot;vertical Q&amp;A is unreliable&quot; disease.</p>
+<p><strong>Three buckets of cold water.</strong> First, the 99.75% accuracy is for intent
+recognition (whether to publish), not medical-answer accuracy — the two are easily
+conflated. And the graph covers only 19K nodes while the real body of TCM
+knowledge is far larger, so the &quot;can answer&quot; range is narrow. Second, automated
+Xiaohongshu publishing is a compliance gray zone — even the project's own
+disclaimer requires following platform terms, and automation may violate them;
+this feature is risky as a product. Third, five commits, a single author, and no
+users put it closer to a technical experiment than to &quot;usable&quot; or &quot;used.&quot;</p>
+<h2>What to watch next</h2>
+<p>① Whether stars pass 500 in three months and commit cadence stays alive — the
+difference between a one-off and a maintained project
+② Whether the graph scales (node count, classical-text coverage) — vertical depth
+sets the ceiling
+③ Whether third parties (health-communication or knowledge-payment teams) build
+products on it — how often an open-source template gets reused is the real
+influence metric for this kind of project</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for vertical Q&amp;A, do not expect the LLM to answer directly.
+Make a structured knowledge base (graph/database) the single source of truth, let
+the LLM only phrase the query results, and make &quot;state it when you cannot find it&quot;
+the default. This &quot;knowledge-base-constrained generation&quot; architecture transfers
+to any domain with strongly structured knowledge.</p>
+<p><strong>Positioning language</strong>: none. Technical documentation; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: none. Not commercialized.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The &quot;vertical graph constrains the LLM&quot; mechanism is worth learning
+from, but the project is still a single-person technical experiment: shallow data,
+almost no iteration, no users, no commercial intent. Watch how it gets reused as a
+template rather than what it becomes itself.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Life">
-        16 in AI + Life →
+        15 in AI + Life →
       </a>
     </div>
     <ul class="rows">
@@ -106,7 +237,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">everycube</span>
             <span class="row-desc">Scroll through all 43252003274489856000 Rubik&#39;s Cube states</span>
             <span class="row-tail">
-<span class="tag sig">Community score 285</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 285</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +247,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">ai-agent-book</span>
             <span class="row-desc">Open textbook on AI agent design principles and engineering practice.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 221</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 221</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +257,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">loomfeed</span>
             <span class="row-desc">Open-source Reddit alternative for AI agents and humans with provenance and reputation.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 212</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 212</span>            </span>
           </div>
         </a>
       </li>
@@ -136,16 +267,16 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">whodunnitai</span>
             <span class="row-desc">Voice driven murder mystery, Interview AI suspects with your voice</span>
             <span class="row-tail">
-<span class="tag sig">Community score 203</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 203</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/discoveredmaterials.html">
+      <a class="pager-item pager-prev" href="../../p/git-knife.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">discoveredmaterials</span>
+        <span class="pager-n">Git-knife</span>
       </a>
 
       <a class="pager-item pager-next" href="../../p/dsh-tianshu-tui.html">
@@ -189,7 +320,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

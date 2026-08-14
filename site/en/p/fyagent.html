@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>fyagent</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Personal portable digital persona for the AI era, carrying models, skills, and prompts across tools.</p>
@@ -81,22 +82,147 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Switching AI tools used to mean reconfiguring everything. Model providers, API keys, MCP servers, skills, prompts — each tool kept its own copy, scattered across places, painful to change, and after a…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: multi-client coexistence is the real state of the world; decoupling &#34;user configuration&#34; from &#34;tool binding&#34; is a general architecture for any multi-endpoint product. An import flow tha…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Collects the models, accounts, skills, and prompts scattered across every AI tool into
+one local desktop app, so switching tools no longer means starting over — it is the
+carry-on luggage for your &quot;AI identity.&quot;</p>
+<h2>Who built it</h2>
+<p>The fy-agent organization, with core contributor <code>python-rust</code>. The project started as
+VibeKey — a hardware idea for putting AI configuration onto a physical keyboard — before
+the team abandoned hardware for a cross-platform desktop app derived from the open-source
+project CC Switch. Built with Tauri (Rust backend, React frontend), covering Windows,
+macOS, and Linux.</p>
+<p><em>Read: from &quot;a physical keyboard&quot; to &quot;a cross-platform desktop app,&quot; the team hit the
+wall of hardware distribution early and pivoted decisively. The CC Switch lineage means
+this grew out of existing users, not a demand invented from zero.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Manages models</strong> → one place for providers and model selection, preset or custom
+compatible endpoints, one-click switching</li>
+<li><strong>Manages connections</strong> → centralized MCP service management, synced to supported AI tools</li>
+<li><strong>Manages skills and prompts</strong> → Skills and Prompts maintained once, no more duplicate
+installs in every tool</li>
+<li><strong>Manages routing</strong> → a local proxy for request forwarding, failover, and model
+availability checks</li>
+<li><strong>Keeps the ledger</strong> → aggregates token usage and estimated cost</li>
+<li><strong>Carries continuity</strong> → resumes from a previous session and workspace, config backup
+and sync</li>
+<li><strong>Supported clients</strong>: Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build,
+OpenCode, OpenClaw, Hermes</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Switching AI tools used to mean reconfiguring everything. Model providers, API keys, MCP
+servers, skills, prompts — each tool kept its own copy, scattered across places, painful
+to change, and after a switch the AI knew nothing about you. Users either maintained the
+same setup in several tools at once or stayed locked into one tool forever.</p>
+<p>fyagent decouples &quot;my AI configuration&quot; from &quot;any particular tool&quot; with a single local
+dataset (SQLite, stored in <code>~/.fyagent</code>) — configure once, then distribute to each tool.
+Imports go through the <code>fyagent://</code> protocol and show the diff before anything is written.</p>
+<h2>Business model</h2>
+<p><strong>Source-available, not OSI open source.</strong> Its own components and modifications sit under
+the PolyForm Noncommercial License 1.0.0 — free for non-commercial use; commercial use
+requires a separate written license. The CC Switch-derived parts stay MIT.</p>
+<p><em>Read: the classic &quot;community on the free side, enterprises pay on the licensed side&quot;
+two-track. So far only the free side exists, and the licensed side does not even have a
+pricing page, which means monetization is still an idea.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>204 stars / 8 forks / 73 open issues.</strong> 2,457 total commits, last commit on
+2026-08-13</li>
+<li>Covers Windows / macOS / Linux on x64 and arm64</li>
+<li>macOS builds are ad-hoc signed and not Apple-notarized — the project itself tells you
+to verify checksums before installing</li>
+<li>User counts and paid adoption: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Migrated from CC Switch with an existing user base, but the team identity is fuzzy</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nailed a real pain — &quot;starting over after a tool switch&quot; — and decoupling the config layer is the right answer</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Tauri + Rust + SQLite with atomic writes, and imports show a diff before committing. Engineering discipline shows</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Agent clients are multiplying; the &quot;running two or three clients at once&quot; scenario is growing. Decent timing</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It is betting that &quot;AI identity&quot; becomes the next thing you carry with you.</strong>
+Models, skills, prompts, working style — these are tool-agnostic, and binding any of them
+to a single client is waste. The direction holds, and the CC Switch lineage means a base
+of existing users is already there.</p>
+<p><strong>But &quot;digital persona&quot; is narrative, not feature.</strong> What ships today is configuration
+management: models, MCP, skills. That solves scattered configs, not &quot;the AI knows me.&quot;
+The complete form of a portable persona is behavioral memory — after a switch, the AI
+still knows how you work and think. That is a different order of difficulty; the current
+ledger and session continuity are only the first steps.</p>
+<p><strong>73 open issues is a signal and a warning.</strong> For a 204-star repo, that issue density is
+high, which means demand is high and so is maintenance pressure. Feature requests would
+be good news; a bug-heavy backlog means engineering debt is accumulating.</p>
+<p><strong>The license model cuts both ways.</strong> PolyForm Noncommercial keeps commercial
+copycats out, but &quot;commercial license by separate arrangement&quot; with no price anchor
+scares off potential payers. This category's ceiling depends on becoming the default
+config layer for agent workflows — and default config layers tend to be free and open.</p>
+<h2>What to watch next</h2>
+<p>① The ratio of feature requests to bugs in those 73 open issues — demand density decides
+whether this is a tool or a project
+② When a commercial license page appears and what it costs — a free-only side means no
+one is paying yet
+③ Whether the supported-client list grows in three months — failing to keep up with new
+agent tools demotes it back to CC Switch's role</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: multi-client coexistence is the real state of the world; decoupling
+&quot;user configuration&quot; from &quot;tool binding&quot; is a general architecture for any multi-endpoint
+product. An import flow that shows a diff before writing beats direct overwrite on both
+safety and trust.</p>
+<p><strong>Positioning language</strong>: none. The README is engineering documentation; nothing to steal.</p>
+<p><strong>Pricing structure</strong>: the two-track of PolyForm Noncommercial plus a negotiated
+commercial license — free community edition, enterprise priced in conversation — fits
+tool products that want users first and money later. But note there is no price page yet:
+this structure solves &quot;how to use it legally,&quot; not &quot;how to charge for it.&quot;</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The pain is real and the engineering is solid, but this reads more
+like a continuation of CC Switch than a new species, and there is a gap between the
+&quot;digital persona&quot; narrative and what actually ships. Write it down and track the
+client-coverage and commercial-license lines.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=General%20assistants">
-        16 in General assistants →
+        15 in General assistants →
       </a>
     </div>
     <ul class="rows">
@@ -106,7 +232,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">why</span>
             <span class="row-desc">A deterministic curiosity graph built on probabilistic model.</span>
             <span class="row-tail">
-<span class="tag sig">Community score 5</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 5</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +242,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">AI 搜索｜百度</span>
             <span class="row-desc">Baidu&#39;s AI search, pitched as one place to work through complicated questions.</span>
             <span class="row-tail">
-<span class="tag sig">Monthly visits 44.85M</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Monthly visits 44.85M</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +252,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DeepSeek - AI 智能助手</span>
             <span class="row-desc">DeepSeek&#39;s mobile assistant: search, writing, reading, problem solving, translation.</span>
             <span class="row-tail">
-<span class="tag sig">MAU 139.08M</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">MAU 139.08M</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +262,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DeepSeek</span>
             <span class="row-desc">Chat with DeepSeek AI.</span>
             <span class="row-tail">
-<span class="tag sig">Monthly visits 483.80M</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Monthly visits 483.80M</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +315,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

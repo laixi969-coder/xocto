@@ -8,12 +8,13 @@ inspiration: 大厂在编程工具上砸资源，独立产品的空间正在被�
 summary_en: Tencent's AI coding assistant. 7.49M monthly visits and still climbing.
 inspiration_en: Big platforms are pouring resources into coding tools. Independent products are getting
   squeezed from below.
+priority_review: false
 url: https://www.aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51
 canonical_url: https://aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

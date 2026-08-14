@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>juror</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">开源的 Greptile 替代品，代码审查方向</p>
@@ -82,25 +83,100 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>两个旧行为一起替代。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>定位逻辑：如果你的产品对标一个已证明需求的 SaaS，别比&#34;功能&#34;，比&#34;价格结构&#34;。把自己做成&#34;你自己的 key + 你自己的基础设施&#34;，直接改写对方的成本方程，比功能表上的逐项对比有力得多。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>跑在你自己的 GitHub Actions 里的开源 PR 审查工具：多个前沿模型各自独立审同一份 PR，只把&quot;大家一致同意&quot;的问题合并且报给你，每次审查打印一张成本收据。定位是&quot;更便宜、更好的 Greptile 替代品&quot;。</p>
+<h2>做这个东西的人</h2>
+<p>Juror-AI 组织（主要贡献者 Jay Derinbogaz，GitHub cderinbogaz），MIT 协议，TypeScript 写的 GitHub Action。提交记录里大量出现 Claude 协作痕迹，属于典型的 AI 辅助高强度开发。团队规模未披露。</p>
+<p><em>判断：选择&quot;跑在自己 Actions 里 + 自带 API key + 打印收据&quot;这套定位，说明作者是被 Greptile 这类托管服务的账单和数据主权问题逼过的人。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>多模型并行审查</strong> → 支持 claude-code、codex、opencode、grok-build、kimi-code、codewhale（DeepSeek 原生运行时）等多个 harness，每个模型用原生 agent 独立审</li>
+<li><strong>共识去重</strong> → 多个模型描述同一缺陷时合并成一条；默认高召回模式全量展示，可切 consensus 模式用共识过滤</li>
+<li><strong>成本收据</strong> → 每次审查打印 reported vs estimated 账单，区分缓存 token 与长上下文价格断崖</li>
+<li><strong>零基础设施</strong> → 不装 app、不建账户、不建语义索引，harness 自带仓库搜索</li>
+<li><strong>安全隔离</strong> → 只有 publish 步骤持有 GITHUB_TOKEN；Codex 审查在 kernel 隔离的文件系统下运行，模型进程碰不到凭据</li>
+<li><strong>防操纵</strong> → 审查时忽略 PR 自己引入的 AGENTS.md，防止提交者改写审查规则</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>两个旧行为一起替代。</p>
+<p>一是 <strong>Greptile / CodeRabbit 这类托管的 AI 代码审查 SaaS</strong>：过去要装 app、按仓库/按席位付费、把代码交给第三方索引、等待云端排队。现在变成你自己的 GitHub Actions 免费工作流，唯一成本是你自己的 LLM API key 用量。</p>
+<p>二是<strong>人类代码审查中的机械部分</strong>：常见的 bug 类别、遗漏的边界条件，以前靠资深工程师肉眼扫，现在先让多个模型扫一遍，人只看共识结论和裁决分歧。</p>
+<p><em>判断：对开源项目和小团队，&quot;用自己的 key 跑在 CI 里&quot;是比订阅 SaaS 明显便宜的选择，这正是这类开源替代品的常见切入点——不是功能更强，而是价格结构完全不同。</em></p>
+<h2>商业模式</h2>
+<p><strong>未披露，目前是无收入的纯开源。</strong> 通过 npx juror-ai 分发，你自带 OpenAI / Fireworks / Anthropic / xAI 等任意 key。</p>
+<p><em>判断：开源替代品通常把钱留在&quot;托管版&quot;上——免去用户配置 GitHub Actions 和 key 的麻烦，就是值得收费的服务。现在看不到托管迹象，但这是它最可能的变现路径。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>82 star / 9 fork，MIT，仓库创建于 2026-08-06，一周出头</li>
+<li>53 个提交，当前 v1.4.x，最新提交 2026-08-14，开发活跃</li>
+<li>HN 6 分 / 1 条评论</li>
+<li>内部基准（作者自述）：同一 PR seed 上，Juror Fast 找到 4/6（66.7%）P0-P2 缺陷、精度 100%；Greptile 找到 1/6（16.7%）、精度 50%。作者明确注明这是单一 PR、人工裁决，不是统计充分的基准</li>
+<li>团队规模、真实用户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>作者明显被托管审查的成本/数据问题逼过，痛点真实，但组织背景未知</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;多模型共识 + 成本收据&quot;是聪明的差异点：用冗余换精度、用透明换信任</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>对 token 计费的钻牛角尖程度（长上下文价格断崖、缓存 token）说明是真用过的人写的</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>代码审查是 agent 时代最先被替代的开发环节之一，且 Greptile 已被证明有需求</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>&quot;更便宜&quot;这个定位词是它真正的产品洞察。</strong> 它不跟 Greptile 比谁的功能全，而是比谁的价格结构更合理——你的 key、你的 CI、你的代码不出库。对这个品类的用户，这几乎是决定性差异。</p>
+<p><strong>可迁移的规律：用&quot;多模型冗余&quot;对冲单模型误报。</strong> 单个模型审代码会漏也会编，但让几个不同模型独立审、只取共识，错报率会显著下降。这套&quot;多数决&quot;逻辑可以搬到任何对精度敏感的生成/审查场景。</p>
+<p><strong>风险在两个地方。</strong> 一是基准太弱：单 PR、人工裁决，66.7% vs 16.7% 只能当故事听；二是审查类工具的天花板——模型审得越准，人就越不需要看，而&quot;多个模型跑一遍&quot;的 token 成本是实打实的，只有当它省下的人工时间明显超过 token 花费时才成立。</p>
+<h2>下一步看什么</h2>
+<p>① 一个月后 stars 是否破 300——&quot;GitHub Actions 版审查&quot;这个定位是否被市场接住
+② 是否有人公开贴出它抓出真实缺陷的案例（比任何自述基准都可信）
+③ 是否出现托管版或定价——开源替代品开始收钱 = 需求被验证了</p>
+<h2>可借鉴的做法</h2>
+<p><strong>定位逻辑</strong>：如果你的产品对标一个已证明需求的 SaaS，别比&quot;功能&quot;，比&quot;价格结构&quot;。把自己做成&quot;你自己的 key + 你自己的基础设施&quot;，直接改写对方的成本方程，比功能表上的逐项对比有力得多。</p>
+<p><strong>产品细节</strong>：给每次 AI 调用打印成本收据，把&quot;花了多少钱&quot;变成产品的一部分。成本透明本身就是信任机制，尤其当你用&quot;省钱&quot;当卖点的时候。</p>
+<p><strong>安全设计</strong>：审查规则本身会被操纵（PR 改写 AGENTS.md），忽略&quot;被审查对象自己带入的规则&quot;这条设计，可以迁移到任何用 AI 做裁决的产品——裁决依据必须来自被裁决方之外。</p>
+<h2>结论</h2>
+<p><strong>值得关注，但基准要打折扣看。</strong> 定位成立、工程扎实、成本故事具体，唯一的&quot;成绩&quot;是作者自测的弱基准。等公开案例和 stars 曲线，这两个数据会告诉我们它是不是真的替 Greptile 干活的人。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -120,7 +196,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +206,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +216,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +269,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

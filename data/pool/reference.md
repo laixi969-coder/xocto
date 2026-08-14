@@ -8,12 +8,13 @@ inspiration: 数据不出本机这个约束会催生一整套本地化的基础�
 summary_en: ''
 inspiration_en: The constraint that data never leaves the machine will spawn an entire local infrastructure
   stack.
+priority_review: false
 url: https://www.producthunt.com/products/reference-2
 canonical_url: https://producthunt.com/products/reference-2
 summary: Local semantic search for AI agents
 first_seen: '2026-08-05T05:07:59Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

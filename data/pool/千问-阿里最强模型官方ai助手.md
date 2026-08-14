@@ -8,12 +8,13 @@ inspiration: 把「第一入口」写进定位，是在和自家其他产品线�
 summary_en: Alibaba's official Qwen assistant, billed as the first door to the newest Qwen models.
 inspiration_en: Writing “the first entry point” into the positioning means competing with your own other
   product lines for mindshare.
+priority_review: false
 url: https://www.aicpb.com/product/千问-阿里最强模型官方AI助手/appid1D6F37F69
 canonical_url: https://aicpb.com/product/千问-阿里最强模型官方AI助手/appid1D6F37F69
 summary: 体验最新、最强Qwen大模型的第一入口
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

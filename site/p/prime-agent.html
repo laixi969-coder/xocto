@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Prime Agent</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">能自己改进执行框架的编程 agent</p>
@@ -82,15 +83,118 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>传统 coding agent（Claude Code、Codex 这一代）的范式是：上下文是一个固定大小的 token 窗口，每次会话从零开始，工具是一张写死的菜单，跨会话没有记忆。 长任务靠&#34;上下文压缩&#34;续命，干完的活不会沉淀。Prime Agent 要替代的是三件事： 上下文从固定预算变成可编程变量；会话从无状态变成可挂起续跑的状态； &#34;干得好的方法&#34;从留在聊天记录里变成可复用、可回滚的技能…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：任何&#34;会自我改进&#34;的功能，参考这个安全设计——永久不可变的基础层 + 可回滚的补丁层。让系统只能改它被允许改的部分，且每次改动留快照， 用户才敢真的让它长期自治。反过来设计（模型自己改写自己的一切）只会在 第一次出错后就失去信任。另一个可抄点：把&#34;沉淀工作方法&#34;做成一等功能 （/refine），而不是藏在配置里。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>一个能自己改进&quot;执行框架&quot;的编程 agent：不重训模型，靠持久化的运行环境
+和一个可自我修改的 harness，在干长任务的过程中把有效的做法沉淀成技能。</p>
+<h2>做这个东西的人</h2>
+<p>Prime Intellect（<code>PrimeIntellect-ai/prime-agent</code>），一家主做分布式/去中心化算力的公司，
+2026-08-05 开源发布 Prime Agent，发布当天冲上 GitHub Trending 第一，单日约 2,319 star。
+池中标记的 builder 为 Zac Zuo，其在该项目中的具体角色未核实到。</p>
+<p><em>判断：一家做算力的公司开源一个编程 agent，逻辑是通的——他们赌的是
+&quot;模型会越来越便宜，谁掌握让模型干长活的框架谁就值钱&quot;。开源是争夺
+框架标准地位的手段。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>递归语言模型（RLM）</strong> → 不是固定工具菜单，而是跑在持久化 IPython 内核里，
+上下文被当成 Python 变量管理（&quot;prompt-as-a-variable&quot;），模型可以编程式地
+查询和转换自己的上下文</li>
+<li><strong>子 agent 即函数调用</strong> → <code>rlm()</code> 原语能生成真实子 agent 做并行/后台任务，
+结果以编程方式返回，多 agent 协作被做成语言本身的一等公民</li>
+<li><strong>Continual Harness（自我改进框架）</strong> → 补充提示、记忆、技能描述被抽象成
+可增删改的对象；<code>/refine</code> 命令回看执行轨迹，提炼有证据支撑的小经验
+写成技能。基础系统提示不可变，每次 refine 有快照可回滚</li>
+<li><strong>长任务基建</strong> → daemon 后台保活（终端断开可 attach 续跑）、agent 间直接通信、
+<code>/goal</code> 跨会话持久目标、<code>/autonomous</code> 有界自主模式（轮次/token/时间预算 + 质量门）</li>
+<li><strong>多模型后端</strong> → 支持 Anthropic、OpenAI、GitHub Copilot、本地自托管模型</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>传统 coding agent（Claude Code、Codex 这一代）的范式是：上下文是一个固定大小的
+token 窗口，每次会话从零开始，工具是一张写死的菜单，跨会话没有记忆。
+长任务靠&quot;上下文压缩&quot;续命，干完的活不会沉淀。Prime Agent 要替代的是三件事：
+上下文从固定预算变成可编程变量；会话从无状态变成可挂起续跑的状态；
+&quot;干得好的方法&quot;从留在聊天记录里变成可复用、可回滚的技能库。</p>
+<h2>商业模式</h2>
+<p><strong>MIT 开源，免费。</strong> 官方提供一键安装脚本，模型费用走用户自己的 API 账号。
+Prime Intellect 的变现路径未披露——但公司主业是算力，大概率不是靠这个 agent
+直接收钱。</p>
+<p><em>判断：这是典型的&quot;开源抢标准，后端变现&quot;打法。如果 RLM 范式被大量采用，
+Prime Intellect 就能在自己熟悉的算力/基础设施层做文章。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>15,684 star / 1,673 fork</strong>（2026-08-14 实测），仓库 2026-05-08 建，MIT，TypeScript</li>
+<li>发布一周内登 GitHub Trending 第一，单日约 2,319 star</li>
+<li>ARC-AGI-3 基准：配 Claude Opus 5 达 95.5%，超过人类专家基线 95.4%</li>
+<li>EmulatorBench：从零用 Rust 独立构建出 SEGA Genesis 和 Game Boy Color 模拟器</li>
+<li>592 个 open issues——热度真实，也在接受真实世界的拷问</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>公司赌算力，开源 agent 是抢生态位的工具；动机清晰但产品不是公司主业</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;改框架而非改模型&quot;是对的方向，/refine 只动补丁层不动基础提示，克制得专业</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>持久化 REPL、daemon、可回滚技能库，都是要长期投入的架构，不是 demo</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>一周 1.5 万 star 证明叙事踩中了点——&quot;agent 该有记忆和沉淀&quot;正是当下最缺的东西</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>值得关注，这是近期最值得拆解的 agent 开源项目之一。</strong> &quot;自我改进&quot;是被滥用得
+最厉害的词之一，Prime Agent 的做法却相当克制：基础系统提示不可变、只通过
+/refine 在补丁层做小编辑、每次可回滚。这个设计把&quot;会自我重写的恐怖故事&quot;
+排除在外，剩下的就是一个&quot;越用越顺手的工具&quot;。</p>
+<p><strong>叙事和实测要分开看。</strong> ARC-AGI-3 配 Opus 5 的 95.5% 是组合成绩，模型本身
+是 Anthropic 的，Prime Agent 的贡献是 harness——这个区分很重要，别把成绩
+记在它头上。另一个隐患：自我改进的技能库有个经典问题——agent 会把
+&quot;在你这套代码上碰巧有效的做法&quot;当成通用规律，越用越自信，也可能越用越偏。</p>
+<h2>下一步看什么</h2>
+<p>① star 曲线三个月后是否还在涨——发布冲顶常见，能留住才是真热度
+② 有没有独立团队复现 ARC-AGI-3 / EmulatorBench 结果，或发布长任务真实场景评测
+③ /refine 产生的技能被大量 agent 分享复用，会不会出现&quot;技能污染&quot;的质量问题</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：任何&quot;会自我改进&quot;的功能，参考这个安全设计——永久不可变的基础层 +
+可回滚的补丁层。让系统只能改它被允许改的部分，且每次改动留快照，
+用户才敢真的让它长期自治。反过来设计（模型自己改写自己的一切）只会在
+第一次出错后就失去信任。另一个可抄点：把&quot;沉淀工作方法&quot;做成一等功能
+（/refine），而不是藏在配置里。</p>
+<p><strong>话术</strong>：无。工程文档，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 热度真实、架构克制、&quot;框架自我改进&quot;的方向大概率是 agent 的
+下一站。但它才开源一周，自我改进的实际效果还没有独立验证。
+三个月后拿上面三条回头检验。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +211,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +221,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +231,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +241,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +294,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

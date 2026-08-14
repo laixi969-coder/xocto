@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>OpenCode Senses</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">Insanely fast and highly accurate vision plugin for OpenCode.</p>
@@ -81,15 +82,130 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>It moves vision capability from the model side to the tool side — not an upgrade to the model, an upgrade to the facts fed to it.</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: when adding capability to text-only or low-cost models, prefer &#34;local small model extracts structured facts (OCR, bounding boxes, colors) and injects them as text&#34; over forcing a multim…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Eyes for a text-only-model coding agent: a small local vision model converts screenshots into
+structured text injected into the prompt, so cheap models without multimodal support can look at
+images, read text, and locate elements.</p>
+<h2>Who built it</h2>
+<p>A personal open-source project by itsmeadarsh2008, MIT licensed, published on npm as
+opencode-senses, v0.1.3. It serves OpenCode — the open-source terminal coding agent from the SST
+team (165k+ GitHub stars) with 75+ model providers, including text-only models. Repository created
+2026-07-19, 38 commits.</p>
+<p><em>Read: the author picked a precise gap — OpenCode deliberately supports cheap/text-only models, and
+&quot;give text models vision&quot; sits exactly on that route's pain point. The author's background is not
+disclosed.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>13 vision tools</strong> → OCR (extractable by kind: all / code / error), object detection, region
+locating, segmentation, crop, zoom, color analysis, image comparison, labeling, metadata, reverse
+image search, status check</li>
+<li><strong>Automatic injection</strong> → attach an image to the agent and the plugin analyzes it (structured scene
+read + caption + precise OCR) and injects the result as a <code>&lt;SENSES&gt;</code> text block into the model
+prompt — the model &quot;sees&quot; without calling any tool</li>
+<li><strong>Local inference</strong> → Moondream 2 by default (~4.5GB peak VRAM, fits 6GB GPUs), optional Moondream
+3.1 (9B); weights ~3.9GB, slow first call, sub-second typical response with a hot cache</li>
+<li><strong>Injection defense</strong> → all image content is wrapped in an explicit &quot;untrusted data&quot; guard;
+instructions written inside screenshots are treated as data, not instructions</li>
+<li><strong>Privacy</strong> → images and analysis never leave the machine, no API keys, free</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no multimodal-model substitute, no cloud service, no general
+visual Q&amp;A — just &quot;extract visual facts as text evidence.&quot;</p>
+<h2>What old behavior it replaces</h2>
+<ul>
+<li><strong>Switching to a multimodal model to see images</strong> → text-only models could not look at anything;
+you had to switch to a paid multimodal API. Senses lets a local small model extract OCR,
+coordinates, and colors, and the text model keeps working</li>
+<li><strong>Manually transcribing error messages</strong> → error screenshots used to require a human typing the
+text into the conversation; <code>senses_ocr(kind=&quot;error&quot;)</code> extracts clean error text directly</li>
+<li><strong>Humans describing images</strong> → handing an agent a design mockup or screenshot used to mean either
+the human described it or the model guessed; now it is OCR'd first, so the model gets facts, not guesses</li>
+</ul>
+<p>It moves vision capability from the model side to the tool side — not an upgrade to the model, an
+upgrade to the facts fed to it.</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed / free.</strong> MIT open source, distributed via npm, no paid tier, no API fees; the
+user's own GPU is the cost.</p>
+<p><em>Read: the classic &quot;distribution in exchange for ecosystem&quot; play of the plugin economy — no direct
+revenue, a bet that when the OpenCode ecosystem matures, this becomes the default vision layer. The
+risk of this kind of project is built in: the platform ships official vision support and the plugin
+value goes to zero overnight.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>26 stars, 0 forks, 0 open issues</strong> (fetched 2026-08-14). v0.1.3, 38 commits, created 2026-07-19</li>
+<li>Moondream 2 peak VRAM ~4.5GB; weights ~3.9GB; sub-second hot-cache responses</li>
+<li>13 tools; MIT; published on npm</li>
+<li>HN: 8 points, 2 comments</li>
+<li>Usage and download counts: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Solo open-source project with complete community docs; author background unknown</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Eyes for text-only models&quot; is a smart angle; treating image content as untrusted data shows rare injection-defense awareness</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>TypeScript plugin + Python JSON-RPC runtime, clear structure; 0 forks, 0 issues means no large-scale validation</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>The price-performance window for small-VRAM local vision models plus a rising open-source agent ecosystem — good timing</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The mechanism is worth watching; the product is under-validated.</strong>
+&quot;Structured perception + text injection&quot; is the cheapest way to give text-only or low-cost models a
+missing capability — no model swap, no API fees, runs locally. For anyone building agent products,
+this pipeline — extract external facts into structured text, then feed the model — is cheaper and
+more controllable than forcing multimodality.</p>
+<p><strong>Its most valuable design is the injection defense.</strong> Wrapping screenshot content as untrusted data
+blocks prompt injection — a layer most vision agents simply skip, and exactly where screenshot-based
+workflows are most attackable.</p>
+<p><strong>The ceiling</strong>: Moondream 2-class models top out on complex UI understanding, and 26 stars with 0
+forks means no ecosystem position has been established. The moment OpenCode ships official vision,
+this is the first thing replaced.</p>
+<h2>What to watch next</h2>
+<p>① Whether OpenCode's official plugin list includes it and whether stars cross 100
+② Whether the sub-second hot-cache response holds on real projects (e.g., screenshot-to-front-end)
+③ Whether third parties build &quot;vision agent&quot; workflows on top of it (a dependency signal)</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when adding capability to text-only or low-cost models, prefer &quot;local small model
+extracts structured facts (OCR, bounding boxes, colors) and injects them as text&quot; over forcing a
+multimodal upgrade. Wrap injected content in an untrusted-data guard against prompt injection. This
+applies directly to agent products.</p>
+<p><strong>Positioning language</strong>: none.</p>
+<p><strong>Pricing structure</strong>: none. Free and open source.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The mechanism transfers; the product validation does not. Come back in three months
+against the three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +222,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +232,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +242,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,16 +252,16 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/neolabsfyi.html">
+      <a class="pager-item pager-prev" href="../../p/markleft.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">Neolabs.fyi</span>
+        <span class="pager-n">Markleft</span>
       </a>
 
       <a class="pager-item pager-next" href="../../p/picpocket.html">
@@ -189,7 +305,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

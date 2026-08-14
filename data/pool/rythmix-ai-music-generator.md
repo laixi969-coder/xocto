@@ -7,12 +7,13 @@ summary_zh: AI 音乐生成工具，榜单有月活数据但没给介绍
 inspiration: 信息不足，需要深挖官网
 summary_en: AI music generator with monthly actives on the charts and no description from the company.
 inspiration_en: Not enough to go on yet — this one needs a real look at the site.
+priority_review: false
 url: https://www.aicpb.com/product/Rythmix-AI-Music-Generator/appid1D6F32379
 canonical_url: https://aicpb.com/product/Rythmix-AI-Music-Generator/appid1D6F32379
 summary: ''
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

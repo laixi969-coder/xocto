@@ -8,12 +8,13 @@ inspiration: 把「评估人」做成产品，客户是招聘方而不是使用�
 summary_en: ''
 inspiration_en: 'Productizing the assessment of people: the buyer is the hiring side, not the user. Whoever
   pays and whoever uses are not the same person.'
+priority_review: false
 url: https://www.producthunt.com/products/merge-5
 canonical_url: https://producthunt.com/products/merge-5
 summary: AI-native code review assessments
 first_seen: '2026-08-06T05:55:10Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

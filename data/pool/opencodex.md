@@ -8,12 +8,13 @@ inspiration: 插件是获客成本最低的分发渠道：用户已经在那儿�
 summary_en: ''
 inspiration_en: 'Plugins are the cheapest distribution there is: the user is already there, and you never
   have to talk them into switching tools.'
+priority_review: false
 url: https://github.com/matonhp5108/Opencodex
 canonical_url: https://github.com/matonhp5108/Opencodex
 summary: a free open-source coding agent for VSCode
 first_seen: '2026-08-10T23:28:43Z'
 last_seen: '2026-08-11T11:08:03Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

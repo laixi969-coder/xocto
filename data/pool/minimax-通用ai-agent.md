@@ -8,12 +8,13 @@ inspiration: 国内厂商都在抢「通用 Agent」这个词，但没人说清�
 summary_en: MiniMax's general-purpose AI agent, positioned as “your AI companion.”
 inspiration_en: Everyone is racing to own the phrase “general agent,” and nobody has explained how it
   differs from a chat assistant.
+priority_review: false
 url: https://www.aicpb.com/product/MiniMax-通用AI-Agent/appid1D6F35EB9
 canonical_url: https://aicpb.com/product/MiniMax-通用AI-Agent/appid1D6F35EB9
 summary: 你的AI智能伙伴
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

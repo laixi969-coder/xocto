@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Orca</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">跨平台应用内购买编排工具。</p>
@@ -82,18 +83,117 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/gtm-cofounder.html">gtm-cofounder</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>手工在每个商店建产品、配权益、保持同步。 以前的流程是：Google Play 建一遍、 App Store 建一遍、Stripe 建一遍，三处改一处忘，用户在不同平台权限对不上。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：在位者不管的平台（桌面）就是新品类切入点；把产品做成&#34;agent 可操作&#34;（MCP 化） 是 B2B 工具的新接口。做 AI 产品时，&#34;让 agent 直接调用我的产品&#34;应该当成功能规划，而不是加分项。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把&quot;在哪个商店订阅、在所有平台能不能用&quot;这件事收编成一张统一账本：iOS、Android、
+macOS、Linux、Windows、Web 六端订阅状态实时同步，且不按收入抽成。</p>
+<h2>做这个东西的人</h2>
+<p>Maxint 的创始人 pcvetkovski 的产品（orca.maxint.com）。他自己有一款横跨六端的应用，
+被多平台订阅这件事卡住：RevenueCat 和 Adapty 只支持移动端和网页，桌面平台要靠自己手搭，
+提了 GitHub issue 几个月没人理。于是内部自建这套编排平台，跑了 12 个多月、数千用户验证后，
+今年初加了 MCP server，现在公开上线。</p>
+<p><em>判断：典型的&quot;内部工具长成产品&quot;路径——先被问题咬过，再解决问题，最后卖解决方案。
+创始人对痛点的话语权是这批项目里最扎实的。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>六端同步</strong> → 接 Apple StoreKit、Google Play、Stripe、GoCardless，用户在任一平台付款或取消，
+其他平台实时更新权限状态</li>
+<li><strong>统一账本</strong> → 各商店的事件归一成一条用户/权益/平台/是否生效/过期时间的记录</li>
+<li><strong>配置即代码</strong> → Stripe price ID、GoCardless plan ID、Apple product ID、Google subscription ID
+写在一个配置文件里，不需要在两个后台反复同步</li>
+<li><strong>SDK 覆盖</strong> → Flutter/Dart、TypeScript、Swift、Kotlin 四个 SDK，更多在路</li>
+<li><strong>MCP server</strong> → 让 AI agent 能直接操作商店：创建产品、映射订阅、管理权益、拿洞察</li>
+<li><strong>边缘校验</strong> → 权益状态在支付边缘评估，网页对比表声称校验 &lt;50ms（RevenueCat 声称 150–400ms）</li>
+<li><strong>0% 收入抽成</strong> → 按固定月费分层收费，不做收入分成</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p><strong>手工在每个商店建产品、配权益、保持同步。</strong> 以前的流程是：Google Play 建一遍、
+App Store 建一遍、Stripe 建一遍，三处改一处忘，用户在不同平台权限对不上。</p>
+<p><strong>自己维护服务端收据校验和后台调度。</strong> 发票校验、续费、宽限期、边缘 case，都要自己写
+多线程调度器。Orca 把这些收走，只留一个统一账本接口。</p>
+<p><strong>桌面平台自生自灭。</strong> 最具体的一条：RevenueCat/Adapty 明确不做 macOS/Linux/Windows，
+桌面应用要么自己造订阅状态机，要么只在一个平台卖。Orca 替代的正是这个&quot;要么自建、要么放弃&quot;的两难。</p>
+<h2>商业模式</h2>
+<p><strong>明确。</strong> SaaS 分层：免费层 500 个活跃权益（约 $3.5k MRR 量级）；Pro $299/月、10k 活跃权益；
+企业定制起步 $999/月。附加模块另计：存储 $49/月每 50GB、MCP Server API $199/月（需 Pro）、
+Growth Intel $149/月。核心卖点：0% 收入抽成——对照 RevenueCat 最高抽 1% 毛收入。</p>
+<p><em>判断：这是对在位者最标准的打法——在位者按你收入的百分比抽成，你按固定月费收。
+量纲从&quot;你的收入&quot;换成&quot;固定账单&quot;，对增长中的产品是实打实的省钱点。问题是：这个模式本身没有护城河，
+RevenueCat 宣布支持桌面只是一个版本的事。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>定价：免费 500 活跃权益 / Pro $299/月 10k / 企业起步 $999/月；MCP 附加 $199/月</li>
+<li>页面声称 12+ 个月内部运行、数千用户测试（自述，未独立验证）</li>
+<li>声称边缘校验 &lt;50ms、0% 收入抽成、6 端 SDK、MCP server（均产品页自述）</li>
+<li>HN：5 分、0 评论</li>
+<li>收入、公开用户数：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>被 RevenueCat 的空白卡过的人做桌面订阅工具，痛点亲历，匹配度高</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住&quot;桌面平台订阅&quot;这个在位者明确不做的空白，用 0% 抽成做价格武器，定位清晰</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>六平台 SDK + MCP server + 边缘校验，工程面广；新发布，稳定性无第三方验证</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>桌面/跨端应用正被 agent 时代重新激活，订阅基础设施需求真实；但 HN 零评论说明冷启动弱</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>值得关注，因为它在两个点上做对了，而这两点都可迁移。</strong></p>
+<p><strong>第一，0% 抽成是对抗收入抽成在位者的标准武器。</strong> 任何做支付/分销类基础设施、面对按收入
+抽成的在位者时，&quot;固定月费 + 0% 抽成 + 免费层&quot;是直接可用的定价武器。量纲换掉，营销故事就换掉了。</p>
+<p><strong>第二，MCP server 是 B2B 工具的新接口。</strong> 让 AI agent 能直接操作你的系统——建产品、配映射、
+拿洞察——这不是花活，是把&quot;产品&quot;变成&quot;agent 可编程的表面&quot;。对做 AI 产品的人，这是值得抄的
+新分销面。</p>
+<p><strong>风险也很标准</strong>：在位者补位只需要一个版本；5 分 0 评论的冷启动说明市场教育还早；
+&quot;0% 抽成&quot;的可持续性依赖它真能把成本做平。</p>
+<h2>下一步看什么</h2>
+<p>① 是否披露公开用户数与收入——12 个月内部 + 数千用户能否转成公开数字
+② MCP server 有没有被第三方 agent 工作流实际使用（不是自吹的功能）
+③ RevenueCat / Adapty 是否宣布桌面支持（在位者反扑是这类公司的最大风险）</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：在位者不管的平台（桌面）就是新品类切入点；把产品做成&quot;agent 可操作&quot;（MCP 化）
+是 B2B 工具的新接口。做 AI 产品时，&quot;让 agent 直接调用我的产品&quot;应该当成功能规划，而不是加分项。</p>
+<p><strong>话术</strong>：可偷一句：&quot;Other cross-platform billing wrapper services charge up to 1% of your gross
+MRR. We think that is extortionate.&quot;（对手按你的毛收入抽成，我们认为这是勒索。）——用
+&quot;行业惯例不合理&quot;来重新定义品类规则，比说&quot;我们更便宜&quot;有力。</p>
+<p><strong>定价结构</strong>：按&quot;活跃权益数&quot;而非席位或设备分层，免费层卡 500、Pro 卡 10k，量纲直接对应用户量；
+附加能力（MCP、增长分析、存储）单独定价而非塞进主套餐。这个量纲设计和附加菜单模式可抄。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 真实需求、真实定价、真实内部使用史，公开验证不足、冷启动弱。
+三个月后拿上面三条回头验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -120,7 +220,7 @@
             <span class="row-name">discoveredmaterials</span>
             <span class="row-desc">用 AI agent 找新材料的实验室</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 143</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 143</span>            </span>
           </div>
         </a>
       </li>
@@ -130,7 +230,7 @@
             <span class="row-name">getopen</span>
             <span class="row-desc">Plausible的现代替代品，开源网站分析工具。</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 6</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 6</span>            </span>
           </div>
         </a>
       </li>
@@ -140,7 +240,7 @@
             <span class="row-name">VeerHost</span>
             <span class="row-desc">每月1美元的网页托管，名额有限。</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 6</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 6</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +293,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

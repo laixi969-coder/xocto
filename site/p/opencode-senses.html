@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>OpenCode Senses</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">为OpenCode设计的快速高精度视觉插件。</p>
@@ -82,15 +83,115 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>它把&#34;视觉能力&#34;从模型侧移到了工具侧——能力不升级模型，升级的是给模型喂的事实。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：给纯文本/低成本模型补能力，优先考虑&#34;本地小模型抽结构化事实（OCR、bbox、 颜色）再以文本注入&#34;，而不是强上多模态。注入内容一律用&#34;不可信数据&#34;守卫包裹，防提示注入。 这条对做 agent 产品的人直接可用。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给纯文本模型的编码 agent 装一双眼睛：本地跑一个小视觉模型，把截图转成结构化文字
+注入提示词，让没有多模态能力的便宜模型也能&quot;看图、读字、定位元素&quot;。</p>
+<h2>做这个东西的人</h2>
+<p>itsmeadarsh2008 的个人开源项目，MIT 许可，npm 已发布（opencode-senses），v0.1.3。
+服务对象是 OpenCode——SST 团队的开源终端编码 agent（GitHub 165k+ star），支持 75+ 模型商，
+包括纯文本模型。2026-07-19 建仓，38 个提交。</p>
+<p><em>判断：作者选择的切口很准——OpenCode 支持用便宜/纯文本模型跑编码 agent，
+&quot;给文本模型补视觉&quot;正好卡在这条路线的痛点上。作者背景未披露。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>13 个视觉工具</strong> → OCR（可分 all/code/error 三种提取）、目标检测、区域定位、分割、裁剪、
+放大、颜色分析、图像对比、标注、元数据、反向图像搜索、状态检查</li>
+<li><strong>自动注入</strong> → 你给 agent 附加一张图，插件自动分析（结构化场景读取 + 标题 + 精确 OCR），
+把结果以 <code>&lt;SENSES&gt;</code> 文本块注入模型提示词——模型不需要调用任何工具就能&quot;看到&quot;</li>
+<li><strong>本地推理</strong> → 默认 Moondream 2（峰值约 4.5GB 显存，适配 6GB 卡），可选 Moondream 3.1 (9B)；
+模型权重约 3.9GB，首次调用慢，热缓存后典型响应低于 1 秒</li>
+<li><strong>注入防护</strong> → 图片内容一律包在&quot;不可信数据&quot;守卫里，截图里写的&quot;忽略之前的指令&quot;会被当数据
+而不是指令</li>
+<li><strong>隐私</strong> → 图像和分析不出本机，无 API key，免费</li>
+</ul>
+<p><strong>它明确不做</strong>：不做多模态模型替代品，不做云端服务，不做通用视觉问答——只做
+&quot;把视觉事实抽成文本证据&quot;这一件事。</p>
+<h2>它在替代什么旧行为</h2>
+<ul>
+<li><strong>为看图而换多模态模型</strong> → 以前纯文本模型看不了图，想看就得切换到付费的多模态 API；
+Senses 让本地小模型抽 OCR/坐标/颜色，纯文本模型照常用</li>
+<li><strong>手动抄错误信息</strong> → 报错截图以前要靠人把文字敲进对话；<code>senses_ocr(kind=&quot;error&quot;)</code>
+直接提取纯净错误文本</li>
+<li><strong>描述图片靠人</strong> → 给 agent 传设计稿/截图，以前要么人能说清楚、要么模型猜；
+现在先 OCR 再描述，模型拿到的是事实不是猜测</li>
+</ul>
+<p>它把&quot;视觉能力&quot;从模型侧移到了工具侧——能力不升级模型，升级的是给模型喂的事实。</p>
+<h2>商业模式</h2>
+<p><strong>未披露/免费。</strong> MIT 开源、npm 分发、无付费层、无 API 收费，成本是用户自己的 GPU。</p>
+<p><em>判断：这是插件生态里典型的&quot;分发换生态&quot;打法——不直接赚钱，赌 OpenCode 生态起来后
+自己成为视觉层的默认选项。这类项目的问题是：平台自己推出官方视觉支持，插件价值立即归零。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>26 star / 0 fork / 0 open issue</strong>（2026-08-14 抓取），v0.1.3，38 个提交，2026-07-19 建仓</li>
+<li>Moondream 2 峰值显存约 4.5GB；权重约 3.9GB；热缓存响应低于 1 秒</li>
+<li>13 个工具；MIT；npm 已发布</li>
+<li>HN：8 分、2 评论</li>
+<li>使用量、下载量：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>单人开源项目，文档社区规范齐备，作者背景未知</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>&quot;给纯文本模型装眼睛&quot;角度聪明；把图片内容当不可信数据隔离，是少见的注入防护意识</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>TypeScript 插件 + Python JSON-RPC 运行时，结构清楚；0 fork、0 issue，未经大规模验证</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>本地小显存视觉模型的性价比窗口 + 开源 agent 生态兴起，时机不错</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>机制值得关注，产品验证不足。</strong>
+&quot;结构化感知 + 文本注入&quot;是对纯文本/低成本模型补能力的最省方式——不换模型、不付 API 费、
+可本地跑。对做 agent 产品的人，这条&quot;把外部事实先抽成结构化文本再喂给模型&quot;的管线
+比强上多模态更省钱、更可控。</p>
+<p><strong>它最有价值的设计是注入防护。</strong> 把截图内容当作不可信数据包裹，防止提示注入——
+这是多数视觉 agent 完全没做的一层，而它恰恰是截图场景里最容易被攻击的地方。</p>
+<p><strong>天花板</strong>：Moondream 2 级别的模型能力有限，复杂 UI 理解会到顶；而 26 星、0 fork 说明
+它还没建立起任何生态位。OpenCode 官方一旦自带视觉，它就是第一个被替换的。</p>
+<h2>下一步看什么</h2>
+<p>① 是否被 OpenCode 官方收录到插件推荐，star 是否过百
+② 热缓存 sub-second 在真实项目（如截图转前端）中是否成立
+③ 有没有第三方基于它构建&quot;视觉 agent&quot;工作流（被依赖的指标）</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：给纯文本/低成本模型补能力，优先考虑&quot;本地小模型抽结构化事实（OCR、bbox、
+颜色）再以文本注入&quot;，而不是强上多模态。注入内容一律用&quot;不可信数据&quot;守卫包裹，防提示注入。
+这条对做 agent 产品的人直接可用。</p>
+<p><strong>话术</strong>：无。</p>
+<p><strong>定价结构</strong>：无。免费开源。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 机制可迁移，产品验证不足。三个月后拿上面三条回头验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +208,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +218,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +228,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,16 +238,16 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/neolabsfyi.html">
+      <a class="pager-item pager-prev" href="../p/markleft.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Neolabs.fyi</span>
+        <span class="pager-n">Markleft</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/picpocket.html">
@@ -190,7 +291,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

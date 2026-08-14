@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Remix</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Figma, but on your production app. Test variants and ship.</p>
@@ -81,25 +82,159 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The judgment &#34;what should change&#34; has always been made by non-engineers — PMs, designers, support, sales — who cannot build it themselves. So they wrote tickets, waited for engineering capacity, days …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if you build tools where AI does the acting, build &#34;humans retain approval&#34; as a product mechanism, not a slogan — every change leaves a full auditable record and nothing ships without …</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Figma's &quot;change it and try it&quot; model moved into production: non-engineers spin up
+an isolated, live variant of the real app from the actual codebase, change it in
+plain language, preview and compare — then hand the change to engineering as a
+fully reviewable request.</p>
+<h2>Who built it</h2>
+<p>Launched at launch by Hesham Ghandour, who answered all the questions in the
+thread. Team size, background, and company entity: not disclosed.</p>
+<p><em>Read: the launch narrative — &quot;the people who best know what the product should
+change are usually not the people who can change it&quot; — is a real pain point, and
+keeping engineering's final approval right is a smart way to lower buyer
+resistance. The lack of team transparency is a minus; early B2B tools sell trust
+in the team.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Isolated copies of the real product</strong> → sandboxed live variants built from the
+actual codebase, not throwaway prototypes; each remix gets its own VM sandbox and
+live preview URL</li>
+<li><strong>Change the product in natural language</strong> → team members describe changes inside
+AI tools they already use (Claude Code, Cursor); the AI implements them</li>
+<li><strong>One-click shareable previews</strong> → every remix has a unique URL for Slack, customer
+validation, even ads</li>
+<li><strong>Guardrails before anything ships</strong> → changes are checked against team rules
+(security, secrets, dependencies, route permissions, design/compliance constraints)
+before they reach engineering</li>
+<li><strong>A full reviewable record, not just a diff</strong> → engineers see the complete story:
+every prompt, every AI response, file changes, and the live preview</li>
+<li><strong>Clean PR merge</strong> → approval produces a clean PR into GitHub; nothing reaches
+production without engineering sign-off</li>
+<li><strong>Configurable sandbox targets</strong> → dev/staging by default, with the option to
+repoint per project or per remix to production or an isolated backend</li>
+</ul>
+<p><strong>Typical use cases</strong>: PMs turning backlog items into testable flows, designers
+adjusting UI inside the real product, marketing A/B-testing landing pages, sales
+building client demos, founders iterating the core funnel.</p>
+<h2>What old behavior it replaces</h2>
+<p>The judgment &quot;what should change&quot; has always been made by non-engineers — PMs,
+designers, support, sales — who cannot build it themselves. So they wrote tickets,
+waited for engineering capacity, days or weeks, and whatever never got scheduled
+rotted in the backlog. On the design side, the standard flow was Figma mockup →
+engineering implements, and that handoff has its own loss: the mockup and the live
+product are never the same thing, and by the time it ships it has drifted.</p>
+<p>Remix replaces the slow, fragile chain of &quot;idea → ticket → scheduling →
+implementation → acceptance&quot; by making the change itself a live copy that
+non-engineers can operate directly, moving engineering from &quot;the people who write
+code&quot; to &quot;the people who approve.&quot;</p>
+<h2>Business model</h2>
+<p><strong>Not disclosed.</strong> The launch page says &quot;Free Options,&quot; there is no pricing
+page, and the early-team arrangement is not public.</p>
+<p><em>Read: the natural pricing logic for this category is per-seat or per-sandbox
+usage, or a team plan for companies. But the value proposition — &quot;non-engineers
+can touch production code&quot; — only holds if the guardrails and review discipline
+are actually reliable, and that is the hardest part to deliver.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>Users, ARR, funding, team size: none disclosed</li>
+<li>Officially &quot;working closely with early teams&quot;</li>
+<li>Feature surface: real-codebase sandboxes, prompt-based changes inside AI tools,
+live preview links, guardrail checks, full review records, PR merging</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The narrative is coherent (the pain of waiting for decisions), but the founding team is undisclosed and unverifiable</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nailed the wall between mockup and live: no prototypes, experiment directly on the real product — the direction is right</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Sandbox, guardrails, and review-story mechanics are internally consistent; no public review verifies actual reliability yet</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Positioned at &quot;code has gotten easy, everything around it hasn't&quot; — the timing call is accurate</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>&quot;Let the people who make the decisions change the product directly&quot; is a thesis
+that will keep becoming more true.</strong></p>
+<p>Once AI makes &quot;writing code&quot; cheap, the bottleneck moves to everything around it:
+who decides what changes, how to validate, how to land changes safely. Remix's bet
+is that non-engineers experiment directly on isolated copies of production, with
+engineering retreating to an approval seat. This division-of-labor shift is one of
+the commercial forms of the 2026 &quot;everyone is a developer&quot; narrative.</p>
+<p><strong>The smart move is that approval authority never leaves engineering.</strong> Changes
+cannot reach production without review, and sandboxes default to dev/staging —
+the whole design exists so engineering does not feel cut out of the loop. For B2B
+sales, &quot;I am not taking away your control&quot; often matters more than features.</p>
+<p><strong>The transferable rule: for any &quot;non-engineers touching code&quot; tool, the first
+problem to solve is trust, not capability.</strong> The capability side is largely solved
+by AI; making engineering comfortable requires the three-piece set of guardrails,
+a full auditable record, and an explicit backend-isolation boundary.</p>
+<p><strong>Risks</strong>: ① the initial engineering setup cost makes cold start hard; ② weak
+guardrail rules push review burden back onto engineers; ③ the ceiling is crowded —
+GitHub, Vercel, and every preview-environment platform are moving toward this
+space.</p>
+<h2>What to watch next</h2>
+<p>① Whether public pricing and self-serve signup appear — how fast &quot;working with
+early teams&quot; turns into a self-serve product
+② Whether a company publishes a case study: a PM or designer turning backlog items
+into shipped changes
+③ Whether sandbox reliability scales — VM sandbox startup time and stability
+against a real codebase are hard metrics</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if you build tools where AI does the acting, build &quot;humans
+retain approval&quot; as a product mechanism, not a slogan — every change leaves a full
+auditable record and nothing ships without approval. That lowers both buyer
+wariness and engineering resistance.</p>
+<p><strong>Positioning language</strong>: the launch post's framing — &quot;the best product ideas
+come from the people who see the problem, not the people allowed to build it, then
+they wait for weeks, and most good ideas die in the waiting&quot; — quantifies the pain
+in terms of dead ideas, which hits harder than &quot;improve collaboration.&quot;</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching, but unproven.</strong> The direction is right and the mechanics are
+internally consistent, but team, pricing, and real customer evidence are all
+undisclosed — concept validated, business not. For anyone trying to understand how
+AI reshapes the division of labor in product delivery, it is an important sample
+to watch.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +264,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +274,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +327,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

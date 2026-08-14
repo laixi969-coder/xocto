@@ -18,7 +18,7 @@ summary: 'GenUI for DeepSeek Harness: interactive UI components rendered inline 
   genui skill.'
 first_seen: '2026-08-13T13:07:52Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

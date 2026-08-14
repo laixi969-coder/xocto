@@ -8,12 +8,13 @@ inspiration: 新交互方式出现时最先赚钱的往往是分发渠道，不�
 summary_en: ''
 inspiration_en: When a new kind of interaction arrives, the distribution channel makes money before the
   apps do.
+priority_review: false
 url: https://www.producthunt.com/products/voiceos
 canonical_url: https://producthunt.com/products/voiceos
 summary: The app store for voice native apps that lives in your notch
 first_seen: '2026-08-08T22:42:33Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

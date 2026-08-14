@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Opencodex</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">VSCode 里的免费开源编程 agent</p>
@@ -82,15 +83,124 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前在 VSCode 里要&#34;agent 化编码&#34;，只有两条路，都有一道门槛：</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：&#34;插件是获客成本最低的分发渠道&#34;这句话对，但有个前提—— 你的差异化必须用户在 30 秒内感受到。Opencodex 用&#34;装完不用登录就能用&#34; 做第一个感知点，这个切入顺序是对的。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>装进 VSCode 就能用的免费开源编程 agent——不用注册、不用 API key，
+选个免费模型就能让 AI 在编辑器里帮你改代码。</p>
+<h2>做这个东西的人</h2>
+<p>GitHub 用户 matonhp5108，个人项目，MIT 协议，TypeScript。2026-08-08 首次提交，
+两周 12 次提交，41 star / 10 fork。已上架 VSCode Marketplace
+（扩展 ID：EvaanChowdhry.opencodex-agent）。</p>
+<p><em>判断：又一个&quot;插件即分发&quot;的 VSCode agent，走的是 Cline 验证过的路径——
+用户已经在编辑器里了，不用教育他换工具。README 写得很完整，像是认真
+做过一轮竞品研究后动手的，不是随手 demo。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>零门槛起步</strong> → 默认 OpenCode 免费模型，无需账号、无需 API key，
+装完选个模型就能用</li>
+<li><strong>多提供商切换</strong> → OpenRouter（<code>:free</code> 模型）、Groq、Google Gemini、
+Mistral、Ollama（本地）；密钥存 VS Code SecretStorage，不写进 settings.json</li>
+<li><strong>完整 agent 能力</strong> → 读写搜索文件、执行命令、diff 预览、持久终端
+（跨对话存活）、子代理（委派探索/审查/实现）、MCP 工具调用、多步计划展示</li>
+<li><strong>三档审批模式</strong> → Ask（全部确认）/ Auto edits（文件自动、命令确认）/
+Open access（全自动），破坏性命令永远要确认</li>
+<li><strong>技能市场</strong> → 从 SkillsMP 或 GitHub 发现、预览、安装 <code>SKILL.md</code> 技能包，
+全工作区生效</li>
+<li><strong>项目记忆</strong> → 每个 VS Code 文件夹独立聊天历史 + 恢复点（可回滚到
+agent 操作前的状态）+ <code>.opencodex/memory.md</code> 记忆文件 + token 用量统计</li>
+</ul>
+<p><strong>安全边界</strong>：文件工具限制在工作区内，<code>.env</code> 等凭证文件被阻止访问。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前在 VSCode 里要&quot;agent 化编码&quot;，只有两条路，都有一道门槛：</p>
+<p><strong>装 Cline / Copilot</strong>。Copilot 要登录订阅，Cline 要 API key 或订阅。
+对不想付费、不想绑定单一供应商的开发者，这是劝退点。</p>
+<p><strong>离开编辑器用 Codex CLI / Claude Code 终端版</strong>。好用但工作流割裂——
+代码在编辑器里，agent 在终端里，改完还要回编辑器看。</p>
+<p>Opencodex 把门槛砍到零：不注册、不付费、模型可换（还能用本地 Ollama），
+全在 VSCode 里。它替代的是&quot;为了用 agent 编程必须先交钱或先注册&quot;
+这个旧动作。</p>
+<h2>商业模式</h2>
+<p><strong>免费开源，无云服务、无付费档。</strong> MIT 协议，个人项目。</p>
+<p><em>判断：没有商业模式，甚至没有商业模式假设。它靠的是 VSCode Marketplace
+这个免费分发渠道。这类项目的现实结局通常是两种——被更多人用起来成为
+生态一环，或者作者热情耗尽停在某个版本。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>41 star / 10 fork</strong>，MIT，TypeScript，2026-08-08 首提交，12 commits</li>
+<li>VSCode Marketplace 已上架（EvaanChowdhry.opencodex-agent）</li>
+<li>HN 6 分 / 1 条评论（2026-08-11），讨论热度接近零</li>
+<li>支持：OpenCode（免费，默认）/ OpenRouter / Groq / Gemini / Mistral / Ollama</li>
+<li>要求：VSCode 1.106.0+；云提供商需联网</li>
+<li>下载量、用户数：未披露（Marketplace 未读到）</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>个人项目，痛点（付费墙 + 绑定供应商）真实但非创始人独有，匹配度一般</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>差异化是&quot;零门槛 + 多提供商 + 本地模型&quot;，方向对但都是可被复制的特性，没有独家洞察</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>README 完整、功能面广（子代理/MCP/技能市场/恢复点），工程是认真做的</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>VSCode agent 赛道已经拥挤（Cline、Continue 等），新入场者要靠差异化或先发，两者都不明显</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>数据薄，判断只能按数据来：有待观察。</strong>
+HN 只有 6 分，41 star，无用户数据——按简报的规矩，这属于&quot;真实热度未证明&quot;，
+诚实给观察级。</p>
+<p><strong>但方向值得记一笔</strong>：Cline 已经证明了&quot;VSCode 里的开源编程 agent&quot;有真实
+需求，Opencodex 的差异化是&quot;免费 + 不注册 + 模型随意换（含本地 Ollama）&quot;。
+在付费订阅疲劳的 2026 年，这个卖点是有一批真实受众的——问题是这批受众
+里有多少会沉淀在它身上。</p>
+<p><strong>最大的风险不是竞争，是维护</strong>。个人开源的 VSCode 扩展，生命周期取决于
+作者的业余时间。VSCode 版本一更新、MCP 协议一演进，跟不上就废了。
+这类项目五成死在&quot;作者不再更新&quot;。</p>
+<h2>下一步看什么</h2>
+<p>① Marketplace 上能否看到下载量和评分——那才是真实的用户信号
+② 三个月后 star 能否破 200——个人 agent 项目过不了 200 基本就停在兴趣项目
+③ 免费模型 provider（OpenCode/Groq 免费层）的稳定性——免费层经常变，
+这是它&quot;零门槛&quot;卖点的地基</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：&quot;插件是获客成本最低的分发渠道&quot;这句话对，但有个前提——
+你的差异化必须用户在 30 秒内感受到。Opencodex 用&quot;装完不用登录就能用&quot;
+做第一个感知点，这个切入顺序是对的。</p>
+<p><strong>话术</strong>：无。README 是功能清单，没有可偷的句式。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 方向有真实市场背书（Cline 证明过），零门槛卖点清晰，
+但当前数据完全不足以判断它能不能起来——6 分热度、无用户数据、个人维护。
+三个月后拿上面三条验证，重点看 Marketplace 下载量和 star 是否过 200。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +217,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +227,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +237,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +247,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +300,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

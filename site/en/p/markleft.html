@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Markleft</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">How the author reviews Claude&#39;s Markdown plans.</p>
@@ -82,15 +83,136 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The default flow of iterating a long document with AI: you describe in chat, in prose, what&#39;s wrong → AI rewrites everything → you play spot-the-difference between two versions → and you have to remem…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: any review loop in an AI content tool should copy the &#34;append-only suggestions + addressable annotations&#34; pair — it gives you both a permission boundary and auditability. Implementation…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>A &quot;suggestion mode&quot; for Markdown: you annotate the document in place — text, code, tables,
+diagrams, SVGs — and the AI appends suggestions instead of rewriting the whole file, leaving each
+one for you to accept.</p>
+<h2>Who built it</h2>
+<p>Martin R. Lysk (HN: mlysk), an individual developer. A Chrome bookmarklet, an annotation spec, and
+an 11-minute blog post (2026-08-09); code at github.com/martin-lysk/markleft.</p>
+<p><em>Read: this is a methodology-before-product project — the article first argues why the current flow
+is absurd, then gives you the tool. That order is itself noteworthy: it assumes readers are people
+who want to improve the AI writing-iteration loop, not people who want to install a plugin.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Annotate in place</strong> → comment on selected text, code lines, tables, Mermaid diagrams, SVGs;
+image annotations use normalized coordinates (image-X-Y)</li>
+<li><strong>Comments are Markdown footnotes</strong> → annotations are encoded into footnote ids
+(range-prev-12-chars, image-X-Y, code-line-L-col-C-len-N); a normal renderer like GitHub just
+sees footnotes, so the Markdown stays intact</li>
+<li><strong>Stable block ids</strong> → an HTML comment <code>markleft:block id=...</code> before each document block makes
+structural changes addressable</li>
+<li><strong>Append-only suggestions</strong> → suggestions are unreferenced footnotes
+([^suggestion-s2-update-block-xxx]); the AI can append proposals but cannot alter the document
+it reviews</li>
+<li><strong>Suggestion rendering in the editor</strong> → diffs within rendered elements (list items and table
+cells are paired before comparing); image-only replacements become before/after sliders</li>
+<li><strong>Bookmarklet workflow</strong> → open a local Markdown file in Chrome, click the bookmark, get an
+editor with annotations and accept/reject; saving compiles a prompt teaching the AI the Markleft
+syntax</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: does not change the Markdown format, no cloud service, no
+default path of &quot;AI rewrites the whole file.&quot;</p>
+<h2>What old behavior it replaces</h2>
+<p>The default flow of iterating a long document with AI: you describe in chat, in prose, what's
+wrong → AI rewrites everything → you play spot-the-difference between two versions → and you have
+to remember which of your original words maps to which change. The author's analogy: mailing a
+colleague a five-page document, getting back a prose essay of dislikes, then a fully rewritten
+version, and being asked to compare the two yourself to judge whether they understood — a flow
+document collaboration solved decades ago with comments and tracked changes.</p>
+<p>markleft replaces the absurd chain of &quot;prose feedback + full rewrite + manual diff&quot; with
+&quot;in-place annotation + append-only suggestions + diffs anchored to comments.&quot; The idea transfers
+to any AI-generated-document review scenario, not just Markdown.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Free bookmarklet, open source (github.com/martin-lysk/markleft), no pricing page.</p>
+<p><em>Read: this is a technical/methodological essay with no trace of commercial intent. Its value is in
+the method, not the product form.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>HN: 8 points, 1 comment</strong> (2026-08-13), Show HN; the only comment is the author's own repo link</li>
+<li>Blog post: 11-minute read, published 2026-08-09</li>
+<li>Annotatable targets: text, code lines, tables, Mermaid, images (SVG), blocks</li>
+<li>Users, usage: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author is clearly a heavy AI-documentation user; pain firsthand; methodology written with unusual clarity</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Append-only suggestions&quot; against &quot;full rewrite&quot; is one of the biggest unsolved problems in current AI writing tools, and the entry point is well chosen</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>The comments-as-footnotes spec is clever and stays compatible with ordinary Markdown renderers; but the bookmarklet form limits reach</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>AI document generation is entering a &quot;output exceeds review capacity&quot; phase; review tools are in rising demand, but buyers are not yet clear</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>A textbook case of retranslating a problem document collaboration solved two decades ago for the
+AI era.</strong></p>
+<p>Comments and tracked changes solved &quot;how humans edit one document&quot; in Word/Google Docs, but when
+AI arrived, everyone regressed to the primitive flow of describe + rewrite + manual diff. markleft
+doesn't invent a new interaction; it translates the constraints of an old one into a format AI can
+consume — append-only, addressable, acceptable or rejectable.</p>
+<p><strong>The transferable rule: for feedback channels to AI tools, prefer &quot;append&quot; over &quot;rewrite.&quot;</strong>
+Appending is both a permission boundary and an auditability boundary: the AI may propose anything,
+but it cannot touch your original. That single constraint solves two problems at once — preventing
+overreach, and letting a human quickly confirm &quot;what changed, and which comment does it answer.&quot;</p>
+<p><strong>Its ceiling is equally honest</strong>: a bookmarklet is a personal-tool shape, and 8 points means
+almost nobody saw it. The real destiny of this method is probably absorption by an editor, Claude's
+artifacts, or a document tool — not growing into a product itself.</p>
+<h2>What to watch next</h2>
+<p>① Whether any editor or writing tool absorbs the &quot;append-only suggestions&quot; interaction — validation
+that the method is a public good
+② Whether the repo's stars/issues move — the most common fate of bookmarklet projects is author
+self-use
+③ Whether the author grows the spec into a cross-tool standard — &quot;comments as footnotes&quot; is
+meaningless confined to one bookmarklet</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: any review loop in an AI content tool should copy the &quot;append-only suggestions +
+addressable annotations&quot; pair — it gives you both a permission boundary and auditability.
+Implementation-wise, encoding annotations into footnote ids to keep format compatibility is a
+low-cost high-return move.</p>
+<p><strong>Positioning language</strong>: the author's opening analogy (&quot;you wouldn't send a colleague a prose
+essay of criticism and ask for a full rewrite&quot;) is a reusable template for explaining why a current
+flow is absurd — usable in any AI-workflow product pitch.</p>
+<p><strong>Pricing structure</strong>: none. Free and open source.</p>
+<h2>Verdict</h2>
+<p><strong>The method is worth something; the product hasn't grown yet.</strong> &quot;Append-only suggestions&quot; is one
+of the few designs in AI document collaboration that solves permission and auditability at once;
+8 points doesn't change the value of the method. But the bookmarklet form and zero commercialization
+signs likely keep it at the personal-tool level. Note the interaction pattern and wait for it to be
+absorbed elsewhere.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +229,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +239,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +249,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +259,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -149,9 +271,9 @@ Public information is limited; this view will update as more evidence appears.  
         <span class="pager-n">Lumabri</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/neolabsfyi.html">
+      <a class="pager-item pager-next" href="../../p/opencode-senses.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">Neolabs.fyi</span>
+        <span class="pager-n">OpenCode Senses</span>
       </a>
     </div>
   </nav>
@@ -190,7 +312,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

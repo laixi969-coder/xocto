@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Merge</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">AI-native code review assessments</p>
@@ -81,15 +82,152 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Hiring engineers used to test two things, both broken by AI:</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for assessment products, the most important thing is not &#34;what you measure&#34; but &#34;is what you measure what actually happens on the job.&#34; Any training, hiring, or certification product sh…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Candidates review a real PR the way they would at work, while an AI agent plays the
+engineer who replies to their comments in real time — hiring tests engineering
+judgment instead of algorithm puzzles.</p>
+<h2>Who built it</h2>
+<p>Five founders (including Harshith Latchupatula) who claim 250+ interviews collectively,
+from startups to FAANG+ to quant shops. Launched at launch 2026-08-07 (119
+upvotes, #10 on the daily board). Website mergeoa.com — currently demo-booking only.</p>
+<p>The founders' own pitch contains a key observation: at their own companies PR counts
+have nearly tripled, most of them have not hand-edited a line of code in a year, teams
+increasingly rely on code and architecture reviews — and the hiring process has not
+changed at all. Even the AI-assisted interviews they ran still scored code output.</p>
+<p><em>Read: this is a product built by people annoyed at the status quo. Five interview
+veterans pushed to act by the double absurdity of Leetcode interviews and &quot;testing
+handwritten code in the AI era.&quot; The pain is described concretely — &quot;haven't written
+a line in a year but review code daily&quot; — which is the real shape of work after AI
+assistance has penetrated.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Simulates real code review</strong> → candidates get a small codebase plus a PR, and
+comment on correctness bugs, refactors, and vulnerabilities the way they would on
+the job</li>
+<li><strong>AI agent responds in real time</strong> → each comment is answered with a code change or
+a reply, simulating a real engineer; candidates iterate up to 5 revisions or until
+time runs out</li>
+<li><strong>Multi-dimensional scoring</strong> → bug/vulnerability coverage, communication quality
+(is the feedback efficient and constructive?), and efficiency (how many revisions
+and tokens the review took, and what it cost)</li>
+<li><strong>Calibrated by level and domain</strong> → difficulty from intern to principal;
+specializations across frontend, backend, security, infrastructure, platform,
+distributed systems, data pipelines; language stacks can be restricted</li>
+<li><strong>Token efficiency as the differentiator</strong> → claims to be the first platform that
+shows exactly how efficient a candidate is with token use, LLM cost, and PR
+revisions</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Hiring engineers used to test two things, both broken by AI:</p>
+<p><strong>Leetcode algorithms</strong> — testing pure no-AI coding ability, when the real job is
+reviewing code, especially reviewing what another engineer's AI generated with little
+context of your own. The founders say it plainly: as agents develop, writing code will
+not be the hardest ability an engineer has.</p>
+<p><strong>Take-home assignments</strong> — candidates go home with the same AI tools the company uses,
+and no one can tell whether the submission is theirs. A PH commenter asked &quot;how do you
+stop a candidate from just running the whole thing through their own AI review tool?&quot;
+The founders' answer is practical: their codebases are small, but the in-PR bugs that
+require codebase context defeat candidates who hand the whole repo to their agent —
+someone who reviews without that context shows up in missing coverage or wasted
+revisions.</p>
+<p><strong>What it replaces operationally</strong>: a 1–2 hour interview graded by one interviewer's
+subjective impression becomes a 30-minute asynchronous assessment where every revision
+is objectively recorded. The object of evaluation shifts from &quot;writing code&quot; to
+&quot;judging code.&quot;</p>
+<h2>Business model</h2>
+<p><strong>Pricing not disclosed; the website only offers &quot;book a demo.&quot;</strong></p>
+<p><em>Read: assessment is a mature paid category (CoderPad, HackerRank, Codility all charge
+per seat or per assessment), and Merge will likely follow. But demo-only, no
+self-serve pricing means the product is early and the revenue loop is not yet closed.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>launch 2026-08-07: 119 upvotes, 5 comments, #10 on the daily board</li>
+<li>5 founders, 250+ interviews of collective experience</li>
+<li>Candidates complete a 30-minute assessment; up to 5 AI revision rounds</li>
+<li>Users, revenue, funding: not disclosed (demo booking only)</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Five interview veterans with scenario-specific pain; genuine motivation</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Aimed correctly (judgment over output), and the token-efficiency dimension hits the new competency AI work demands</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>The review-loop + multi-dimensional scoring + scorecard design is complete; but the quality of the AI agent's &quot;conversation with the candidate&quot; is unverified independently</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Good. &quot;Leetcode is broken&quot; is already consensus among hiring teams; everyone is looking for a replacement</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>The direction is right — the kind of right answer that was always going to be built.</strong>
+The absurdity of AI-era hiring: candidates write with AI while interviews test writing
+without it. Merge switches the assessed object to &quot;reviewing AI-written code&quot; — which
+is exactly what happens on the job. That one switch makes the assessment valid by
+construction.</p>
+<p><strong>Both reservations deserve honesty</strong>:
+First, the <strong>AI-versus-AI arms race</strong>. Candidates carry the same AI tools; the PH
+commenter's &quot;eventually it's AI grading AI on both sides&quot; is a question every AI hiring
+product faces. Merge's defense is codebase context, but that is a catch-up-able design,
+not a moat.
+Second, <strong>incumbents will follow</strong>. CoderPad and HackerRank already own the customer
+base and question bank; &quot;review this PR&quot; as a new question type is a scheduling problem
+for them. Merge's head start is probably a quarter to half a year.</p>
+<p><strong>Worth watching</strong>: insight, timing, and founders are all right, but the revenue loop
+is open, the moat is not built, and 119 upvotes validates the direction, not the product.</p>
+<h2>What to watch next</h2>
+<p>① Whether any named paying customer or case study appears — enterprise-side
+credibility is everything for a hiring product
+② Whether self-serve pricing opens within three months — moving from &quot;book a demo&quot;
+to &quot;buy online&quot; is the revenue-loop signal
+③ Whether CoderPad/HackerRank ship a &quot;PR review&quot; question type — incumbent timing
+tells you how long the window lasts</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for assessment products, the most important thing is not &quot;what you
+measure&quot; but &quot;is what you measure what actually happens on the job.&quot; Any training,
+hiring, or certification product should run this replacement test once — swap the
+question for a slice of the real workflow and assessment validity jumps immediately.</p>
+<p><strong>Positioning language</strong>: &quot;test judgment, not output&quot; and &quot;the hardest skill in the AI
+era is reviewing someone else's AI's code&quot; — compressing an industry pain into a
+counter-intuitive sentence is the most effective way to open a conversation with hiring
+teams.</p>
+<p><strong>Pricing structure</strong>: not disclosed; nothing to borrow.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> A correct answer forced into existence by the real shape of work:
+hire for reviewing code rather than writing it, and make token efficiency a measurable
+assessment dimension along the way. But it is still in demo-booking phase, the moat is
+shallow, and incumbents can follow at any time. Come back in three months against the
+three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -106,7 +244,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -116,7 +254,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">human-review</span>
             <span class="row-desc">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 958</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 958</span>            </span>
           </div>
         </a>
       </li>
@@ -126,7 +264,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -136,7 +274,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -189,7 +327,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

@@ -8,12 +8,13 @@ inspiration: 情感刚需 + 输入法这个高频入口，是中国移动产品�
 summary_en: A keyboard that scripts your dating chat and coaches you toward better replies.
 inspiration_en: Emotional need plus the keyboard, one of the highest-frequency entry points on a phone.
   That combination has been proven many times over in Chinese mobile.
+priority_review: false
 url: https://www.aicpb.com/product/Lovekey键盘-恋爱聊天键盘AI智能聊天回复神器/appid1D6F33F81
 canonical_url: https://aicpb.com/product/Lovekey键盘-恋爱聊天键盘AI智能聊天回复神器/appid1D6F33F81
 summary: 恋爱聊天的键盘话术库、教你高情商回复技巧的AI智能脱单神器
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-11T11:08:17Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

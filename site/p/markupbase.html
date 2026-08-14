@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>markupbase</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">白皮书：让自主工作变得可审查。</p>
@@ -83,15 +84,107 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前人审 agent 的活，靠三样东西：翻聊天记录（记录说了什么，不记录发生了什么）、 查活动日志（能回答哪个调用、何时、有没有报错，答不了为什么）、点审批弹窗 （显示一条命令，看不出业务影响，点多了就退化成条件反射）。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：把&#34;评审&#34;从对话记录里独立出来，做成版本化、可行内注释、绑证据的工件； 给操作分级（0 观察 / 1 可逆 / 2 重要 / 3 关键）并配不同评审强度；审批必须绑定到精确动作与版本。 做 AI 产品时，&#34;评审层&#34;本身可以是独立产品。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>不是给 agent 装更多日志，而是给&quot;该被评审的工作&quot;立一份独立工件——人类可读、带版本、绑证据，
+让人在 agent 干完活之后还能看懂、质疑、叫停。</p>
+<h2>做这个东西的人</h2>
+<p>MarkupBase 公司（markupbase.com）2026 年 8 月发布的白皮书《Making Autonomous Work Reviewable》。
+它同时是一家做&quot;人 + agent 共同评审 Markdown/HTML&quot;的产品公司：发布工件、行内评论、不可变版本、
+通过 MCP（mcp.markupbase.com）给 agent 派评审任务。</p>
+<p><em>判断：一个卖&quot;评审&quot;产品的公司，先写一份&quot;评审为什么值得独立存在&quot;的方法论，再让产品承接结论。
+白皮书是零成本动作，真正要看的是框架有没有被自家产品之外的人采用。</em></p>
+<h2>它到底能做哪几件事</h2>
+<p><strong>白皮书部分</strong>：</p>
+<ul>
+<li><strong>定义&quot;评审工件&quot;</strong> → 一份回答九个问题的工作陈述：请求了什么、范围是什么、改了什么、为何选此方案、什么支撑结论、什么可能出错、可否回滚、需要何种人类判断、批准的是哪项工作</li>
+<li><strong>否定三种旧评审载体</strong> → 对话记录（只记说了什么）、活动日志（只答窄问题）、审批弹窗（只显示命令、看不出业务影响、会退化成条件反射）</li>
+<li><strong>给出四种评审模式</strong> → 行动前提案、行动后记录、按例外审查、定期审查，可并存</li>
+<li><strong>四层行动分级</strong> → 0 观察 / 1 可逆 / 2 重要 / 3 关键，从&quot;定期抽样&quot;到&quot;双人控制 + 完整证据 + 留存决策记录&quot;</li>
+<li><strong>八项可信要求</strong> → 批准绑定精确动作、版本不可变、主张连证据、身份权限清晰、最小权限、不确定性可见、敏感材料保护、源码与渲染视图并存</li>
+</ul>
+<p><strong>产品部分</strong>：发布 Markdown/HTML 工件 → 人/agent 在同一不可变版本上留行内评论 → 评审请求与状态 → 版本历史。安全上做隔离预览与身份分离。</p>
+<p><strong>它明确不做</strong>：不替人做最终决定，不做执行层工具——这是&quot;为评审而设计，不是为执行而设计&quot;的刻意收敛。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前人审 agent 的活，靠三样东西：翻聊天记录（记录说了什么，不记录发生了什么）、
+查活动日志（能回答哪个调用、何时、有没有报错，答不了为什么）、点审批弹窗
+（显示一条命令，看不出业务影响，点多了就退化成条件反射）。</p>
+<p>这三样全都在 agent 的流水账里打转。白皮书的动作是把评审对象从流水账里抽出来，
+立成一份独立的、带版本、可锚定到具体句子和表格的工件——评审看工件，不看对话。</p>
+<p>这个替代关系要成立，工件必须比流水账便宜、比流水账更经得起&quot;稍后再看&quot;。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> 白皮书无定价；markupbase.com 产品页未显示定价与用户数。</p>
+<p><em>判断：白皮书公司的通病是&quot;思想领导力先行&quot;，先立品类再谈收费。这个框架能不能变成钱，
+取决于&quot;评审工件&quot;会不会被更大的 agent 平台当成标准抄走——被抄走是流量，被抄走还收不到钱才是风险。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>白皮书引用的公开教训：Knight Capital 2012 年 45 分钟损失 4.6 亿美元；Moffatt v Air Canada（2024）聊天机器人误导被判担责；Mata v Avianca（2023）律师提交 AI 编造案例；Replit（2025）agent 删库</li>
+<li>4 个匿名合成案例 + 4 个公共先例；评审工件模板 9 问；行动分级 4 层</li>
+<li>HN：5 分、1 评论</li>
+<li>产品用户数、定价：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>卖评审产品的人写评审方法论，匹配；但无任何公开用户证据</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>把&quot;评审&quot;从对话和日志里独立成工件，九问模板是少见的可执行清单</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>有真实产品（MCP 服务、不可变版本、行内评论），可靠性无法独立验证</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>agent 审计与合规需求刚开始显性化，略早，但方向对</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>&quot;评审工件&quot;是可迁移的好框架，但它是白皮书，不是产品。</strong>
+给高风险 agent 输出立独立工件、审批绑定精确版本、按行动级别配不同评审强度——这三条
+对任何&quot;要让 agent 干真活&quot;的产品都适用。它最值钱的一句话：
+有用的追问不是人是否留在每个环里，而是人是否还能看见、质疑、支配重要的工作。</p>
+<p><strong>它的软肋比 numbat 更靠前</strong>：numbat 至少有端上代码，这里只有一份框架。
+白皮书谁都能写，框架被采用才有护城河。目前 5 分的 HN 热度，说明市场还没接住它。</p>
+<p><strong>判断的顺序</strong>：先看有没有平台级采用，再看产品本身卖不卖得动。两者都不是，就只是又一份好文档。</p>
+<h2>下一步看什么</h2>
+<p>① &quot;评审工件&quot;有没有被主流 agent 平台或公司引为标准实践
+② markupbase 产品有没有公开用户与定价
+③ 九问模板有没有衍生出第三方模板或工具（被复制的指标）</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：把&quot;评审&quot;从对话记录里独立出来，做成版本化、可行内注释、绑证据的工件；
+给操作分级（0 观察 / 1 可逆 / 2 重要 / 3 关键）并配不同评审强度；审批必须绑定到精确动作与版本。
+做 AI 产品时，&quot;评审层&quot;本身可以是独立产品。</p>
+<p><strong>话术</strong>：可偷一句：&quot;The useful question is not whether a human remains in every loop. It is whether humans can still see, challenge, and govern the work that matters.&quot;</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 框架有增量价值，产品未验证。三个月后拿上面三条回头验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -108,7 +201,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -118,7 +211,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -128,7 +221,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -138,7 +231,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -191,7 +284,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

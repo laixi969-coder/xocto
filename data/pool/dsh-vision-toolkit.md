@@ -15,7 +15,7 @@ summary: '让纯文本模型更好地做视觉任务的DeepSeek Harness插件：
   and Web UI.'
 first_seen: '2026-08-13T12:36:34Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: queued
+status: analyzed
 sources:
 - github
 sightings:

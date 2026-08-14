@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>dsh_workflow</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">把一次性多Agent调度升级为可生成、可保存、可治理的Workflow层。</p>
@@ -82,15 +83,120 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前用 DSH 跑多 Agent 是&#34;一次性调度&#34;：团队每次都要在提示词里重新描述怎么拆任务、 怎么并发、怎么验证、怎么汇总。并行结果散落在会话里，中断了就从零再来；换一个人跑同一件事， 等于把上一次的提示词重写一遍。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：多 Agent 工作流的治理层，可以参考它的三级抽象——一次性调度（prompt）→ 可命名工作流（胶囊）→ 可续跑可审计（run 落盘 + snapshot）。&#34;能续跑&#34;是工作流和脚本的分水岭， 多数人做到第二级就停了。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把 Claude Code 的 UltraCode 模式带到 DSH（DeepSeek Harness），把 DSH 的一次性多 Agent
+调度升级成一套可命名、可保存、可治理、可续跑、可审计的工作流层——让&quot;这次怎么拆任务&quot;
+变成&quot;以后按名字就能再跑一遍&quot;。</p>
+<h2>做这个东西的人</h2>
+<p>icetomoyo，个人开发者，同时维护 DSH 快照仓库。项目致谢 DeepSeek Harness 的能力面、
+KodaX 的 workflow 设计参考和 dsh-external 社区。</p>
+<p><em>判断：DSH 缺的正是&quot;流程产品层&quot;——模型路由、子 Agent、审批、Session 日志这些基础设施
+都有，但没有一个地方把策略沉淀下来。开源生态的规律是&quot;谁疼谁先修&quot;，个人开发者先补这一层，
+符合常理。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>版本化 workflow 胶囊</strong> → 每个 workflow 是带 manifest、source、intent、inputs、requires、
+provenance 的 v1 capsule，统一 <code>async function run(wf, args)</code> 执行模型</li>
+<li><strong>六个标准模式</strong> → classify-and-act、fan-out-and-synthesize、adversarial-verification、
+generate-and-filter、tournament、loop-until-done；两个内置 workflow（parallel-investigation、
+scoped-review）</li>
+<li><strong>三级发现机制</strong> → 内置 → 项目 <code>.dsh/workflows</code> → 个人 <code>$DSH_HOME/workflows</code>，同名覆盖规则
+带符号链接、路径逃逸、版本不兼容等安全检查</li>
+<li><strong>生命周期与落盘</strong> → 每次 run 有稳定 id 和状态机（running → paused/completed/failed/denied/
+stopped），默认落盘 run.json、events.jsonl、不可变快照、results/、artifacts/</li>
+<li><strong>续跑与重跑</strong> → 按 run id 或 saved name 重跑、resume-run 续跑、effect cache 跳过已完成部分</li>
+<li><strong>安全约束</strong> → 生成型脚本只在 capability-only 的 QuickJS WASM VM 里跑，JSON capability RPC，
+确定性 guard，审批分级</li>
+<li><strong>三条路径共享同一引擎</strong> → 斜杠命令（/workflow）、模型工具（workflow_list / run_workflow /
+workflow_manage）、后台 jobs</li>
+</ul>
+<p><strong>它明确不做</strong>：不引入新的编排运行时，不绑定模型，不做云端服务。它是 DSH 的一个插件，
+不是替代品。</p>
+<h2>它在替代什么旧行为</h2>
+<p>以前用 DSH 跑多 Agent 是&quot;一次性调度&quot;：团队每次都要在提示词里重新描述怎么拆任务、
+怎么并发、怎么验证、怎么汇总。并行结果散落在会话里，中断了就从零再来；换一个人跑同一件事，
+等于把上一次的提示词重写一遍。</p>
+<p>DSH 前台原本有个 workflow 工具，但它只是&quot;一次把若干工作并行跑完&quot;的通道，不是资产。
+dsh_workflow 把这层升级成工程资产：策略可命名、可发现、可复用、可审计、可续跑，
+越权脚本还被限制在能力白名单沙箱里。</p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> MIT 开源插件，无定价页，无托管服务。</p>
+<p><em>判断：这类东西的钱不在插件本身，而在它证明的价值——如果 DSH 生态里足够多的人需要
+&quot;可治理的多 Agent 工作流&quot;，这一层迟早被官方或商业化产品收编。开源放出来的是先验证，
+不是先变现。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>49 star / 0 fork / 0 open issue</strong>，仓库 2026-08-12 附近建</li>
+<li>5 个 commit（截至 2026-08-13），但结构完整：179 个 Vitest 测试、覆盖率阈值 80%、
+带安全模型和架构文档</li>
+<li>TypeScript，Node &gt;=22.19，pnpm workspace，QuickJS WASM 沙箱，MIT</li>
+<li>作者背景、实际使用者：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>icetomoyo 是 DSH 生态参与者，痛点真实，但个人项目维护持续性未知</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住了&quot;一次性调度 → 可治理资产&quot;这一跳；六个标准模式和续跑机制不是凑功能</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>179 个测试、带安全检查的发现机制、capability-only 沙箱，工程态度比 5 个 commit 成熟</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>取决于 DSH 生态本身的扩散速度，目前 DSH 远没到主流</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是一次把&quot;多 Agent 调度&quot;物化成&quot;工作流资产&quot;的示范，技术选型很克制。</strong></p>
+<p>最值得注意的是 capability-only VM——生成型脚本默认不可信，只能在受限沙箱里跑。
+多 Agent 工作流一旦可保存、可复用，就意味着会被反复执行，恶意或越权脚本的风险被放大；
+先默认不信，是对的起点。</p>
+<p><strong>规律：任何&quot;把一次性操作变成可复用资产&quot;的升级，都要先回答&quot;复用时的越权风险谁兜底&quot;。</strong>
+dsh_workflow 用沙箱加审批分级兜底，这一步做对了。</p>
+<p><strong>问题是它押注在一个很小的生态上。</strong> DSH 本身用户基数有限，0 fork 说明连拿来复制学习的人
+都没有。除非 DSH 生态起量，否则这个插件是&quot;对的答案，还没到对的场合&quot;。</p>
+<h2>下一步看什么</h2>
+<p>① fork 数能不能起来——0 fork 意味着连复制学习的人都没有
+② 有没有出现第二条消费路径（比如 Claude Code 用户把它当模式参考）——说明价值出了 DSH 圈子
+③ 两个月后的 commit 频率——个人项目最常死于发布后熄火</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：多 Agent 工作流的治理层，可以参考它的三级抽象——一次性调度（prompt）→
+可命名工作流（胶囊）→ 可续跑可审计（run 落盘 + snapshot）。&quot;能续跑&quot;是工作流和脚本的分水岭，
+多数人做到第二级就停了。</p>
+<p><strong>话术</strong>：无。README 是工程文档。</p>
+<p><strong>定价结构</strong>：无。未披露。</p>
+<h2>结论</h2>
+<p><strong>记下来，不急。</strong> 设计有示范价值，但押注的生态太小，49 star / 0 fork 说明现在还只是
+作者自己的工程表达。三个月后拿上面三条回头验证。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +213,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +223,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +233,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +243,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +296,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

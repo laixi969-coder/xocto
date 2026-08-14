@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>mcp-server</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">MCP server for AI agents that need a phone number: order a private number in 200+ countries, read the SMS verification code, hand it back. The widest country coverage in the category, and you can check it with one API call.</p>
@@ -82,18 +83,159 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>When an agent needed to complete a signup (say, an Indonesian-market account), the bottleneck was phone verification: verification services look at the number&#39;s country, and a US number registering an…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: if your product or API is repetitive, autonomous, and usage-priced, seriously consider an agent-native entry (MCP or skill) and price it as pay-per-result with automatic refunds on fail…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An MCP server that hands AI agents a disposable phone number: when an agent needs to
+sign up somewhere, it orders a private number in the right country, waits for the SMS
+code, reads it, and returns the number — no human at the keyboard.</p>
+<h2>Who built it</h2>
+<p>SV Number (sms-verification-number.com), a company already running a phone-verification
+business, repackaged its existing SMS API as an MCP server (<code>sv-number/mcp-server</code>,
+MIT, TypeScript) and aimed it squarely at AI agents. The site has a landing page built
+for agents plus an agent-skill (plain markdown) for Claude Code and Codex.</p>
+<p><em>Read: this is not a new product launch, it is a channel redo. Same SMS-verification
+service, but the user changed from a person to an agent. Nothing new was invented —
+the interface language was switched from a human-facing web page to MCP tools an agent
+can read. Enterprise DNA covered the pivot explicitly, treating it as the reference case
+for &quot;rewrap a vertical API for agents.&quot;</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Order by country</strong> → 211 countries, 1,094 service codes (Telegram, WhatsApp,
+Google, and more). The request carries <code>country=&lt;id&gt;</code>, and the agent picks based on
+live availability (<code>getCountryAndOperators</code>, <code>getServicesAndCostWithStatistics</code>)
+instead of a list pinned in its prompt</li>
+<li><strong>Read the code, not the inbox</strong> → polling <code>getStatus</code> returns <code>STATUS_OK:123456</code>
+directly — the code arrives already parsed, no regex over SMS text</li>
+<li><strong>Number held exclusively for 20 minutes</strong> → while held, no one else can receive it;
+if no code arrives, the money refunds automatically</li>
+<li><strong>Second factor included</strong> → when the service issues an authenticator secret, the
+agent computes the 6-digit code locally per RFC 6238 (30-second windows); the secret
+never leaves the machine</li>
+<li><strong>Nine native MCP tools</strong> → <code>list_countries</code>, <code>list_services</code>, <code>order_number</code>,
+<code>wait_for_code</code>, <code>finish_activation</code>, <code>cancel_activation</code>, <code>totp_code</code>, etc.,
+usable from Claude Code, Codex, and Cursor; without MCP, the underlying methods
+(<code>getNumber</code>, <code>getStatus</code>, <code>setStatus</code>) are the market-standard names, so an existing
+client mostly changes its base URL</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: no SMS sending, no calls. The numbers receive
+verification codes and nothing else.</p>
+<h2>What old behavior it replaces</h2>
+<p>When an agent needed to complete a signup (say, an Indonesian-market account), the
+bottleneck was phone verification: verification services look at the number's country,
+and a US number registering an Indonesian account gets refused before the SMS is sent.</p>
+<p>The old flow was a human at an SMS-activation platform (sms-activate and peers):
+choose a country, place an order, wait for the code, paste it back into the signup —
+minutes of human babysitting per account. Earlier still: buying a physical SIM and
+plugging it in.</p>
+<p>SV Number automates all three steps: one API call orders, polls, and completes the
+signup, with the country decided by request parameter. It replaces the act of a person
+standing by waiting for a code. <strong>More valuable</strong>: it makes &quot;a fresh number per
+account&quot; the default — services remember which numbers already verified an account,
+so a permanent number fails on the second signup, while this market was always priced
+as one-code-per-activation anyway.</p>
+<h2>Business model</h2>
+<p><strong>Pay per code, prepaid balance.</strong> Typical price $0.43 per verification (from $0.01);
+if no code arrives within 20 minutes, the balance refunds automatically. Day-rental for
+accounts that must keep receiving codes. 150 requests per second. No subscription, no
+seat fee.</p>
+<p><em>Read: this pricing is designed for agent customers — agents do not negotiate, do not
+flinch at a few cents per call, and keep running as long as the API is stable. For the
+seller this is the ideal customer: usage grows by itself, near-zero service cost. The
+risk is on the compliance side: phone-verification inherently sits next to batch
+signups and fraud, which is the sword hanging over every provider in this category.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li><strong>573 stars / 3 forks</strong> (2026-08-14), MIT, TypeScript, listed in the official MCP
+Registry</li>
+<li>Enterprise DNA reports: 534 stars gained on GitHub in three days; a companion
+&quot;skills&quot; repo shipped the same week</li>
+<li>211 countries / 1,094 service codes / typical $0.43 / 20-minute exclusive hold /
+150 rps (read from the site on 2026-08-06)</li>
+<li>Comparison pages (vs AgentLine / AgentPhone / AgentNumber / OP): competitors cover
+only the US/Canada; SV Number covers 211 countries</li>
+<li>Team size, revenue, funding: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>An existing verification business turning itself around; the pain (agents need an identity) was fed to them by the market, not invented</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Nailed &quot;the smallest unit of identity is a phone number&quot;; delivering the parsed code as an MCP tool is closer to real demand than the crowd building &quot;call/text for agents&quot;</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>The MCP wrapper itself is low-tech, but the agent-skill, refund policy, comparison pages, and live-availability API make this a finished product, not a demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Good. Agents signing up for accounts at scale is a growing need, and 2026 is MCP's channel-window</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is the textbook case of &quot;rewrap a vertical API for agents,&quot; worth studying by
+anyone running an API business.</strong> SV Number invented no new service. It did three small
+things: changed the interface language to what agents read, changed the docs to what an
+agent can read by itself, and changed the pricing to something an agent never flinches
+at. Together, three small things turned a human-facing niche business into
+agent-facing infrastructure.</p>
+<p><strong>The transferable rule: take any vertical service you already use and run it through
+this template — can an agent call it without waiting for a human, without reading docs,
+and pay per use automatically?</strong> First ask &quot;can this service run autonomously.&quot;
+Only services that can should get their interface redone.</p>
+<p><strong>Three risks to watch</strong>: compliance — verification sits one line away from batch
+signups and fraud, and platform bans or legal action can hit at any time; it is a
+channel business — stars rose because the MCP ecosystem is rising, not because it is
+irreplaceable, and a big player (Twilio and peers) getting into MCP is only a matter
+of time; and agent-facing pricing invites faster price wars than consumer markets
+when competitors arrive.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars pass 1,000 in three months — whether it still grows after MCP hype
+cools is the real demand signal
+② Whether an agent platform (Claude Code, Cursor) builds it in or partners with it —
+being embedded is both absorption and category validation
+③ Whether any ban/compliance incident becomes public — the life-or-death line for
+this kind of business</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: if your product or API is repetitive, autonomous, and usage-priced,
+seriously consider an agent-native entry (MCP or skill) and price it as pay-per-result
+with automatic refunds on failure. Agent customers do not read your site and do not
+call support; they read your API docs and your failure rate.</p>
+<p><strong>Positioning language</strong>: the comparison-page move is worth copying — list each
+competitor, and honestly include the rows where they win. Marketing to agents is just
+laying out the facts.</p>
+<p><strong>Pricing structure</strong>: pay-per-call plus auto-refund on failure plus rate-limit-not-quota.
+This combination persuades agent customers far better than a subscription.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> A clean channel pivot that turned &quot;giving agents an identity&quot; into
+a transparent, usage-priced business. But its moat is not technical — it is compliance
+handling and speed of response to the agent ecosystem, both unproven. Come back in
+three months against the three checks above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -104,6 +246,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -125,22 +277,12 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
@@ -193,7 +335,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

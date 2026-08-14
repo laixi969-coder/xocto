@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>applied-micro-skills</h1>
+      <span class="verdict v-unproven">证据不足</span>
     </div>
 
     <p class="lede">给实证经济学研究用的 Claude Code / Codex 技能包</p>
@@ -82,15 +83,124 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>实证经济学里&#34;数字能否复现&#34;以前靠的是人的肉眼和耐心：审稿人或研究助理打开论文、 对照数据和代码，手动验证每个表格数字；LLM 辅助标注以前靠人抽检； &#34;上周用模型跑的分类结果可信吗&#34;以前靠重跑一次碰运气。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：做 AI 辅助工具时，把&#34;验证&#34;做成显式产品功能而非隐式承诺。 三个动作可以照搬：给每个输出步骤加可复现的检查点（金丝雀测试）； 失败时先诊断是输入质量问题还是模型问题，再决定改哪里； 对证据一致性做字节级保证，不给&#34;大概一致&#34;留空间。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>给实证应用微观经济学研究用的 Claude Code / Codex 技能包：从数据获取、LLM 辅助分类、
+计量估计、论文表格到最终交付，覆盖整条研究管线，核心卖点不是&quot;帮你更快出论文&quot;，
+而是&quot;让已发表的数字真的能从数据复现出来&quot;。</p>
+<h2>做这个东西的人</h2>
+<p>作者 kennethkhoocy，单作者仓库，MIT 协议，2026-07-22 创建，47 star / 0 fork。
+主要语言是 Python 脚本加 Markdown 技能定义。无公司、无团队信息。</p>
+<p><em>判断：这是&quot;研究者给同行写工具&quot;的形态。0 fork、无 issue，说明还没形成社区；
+但技能质量（面向复现性验证的整套方法）更像是作者自己在研究中被咬过后写的解决方案。</em></p>
+<h2>它到底能做哪几件事</h2>
+<p>仓库含 18 个独立技能，按研究管线分五组：</p>
+<ul>
+<li><strong>复现性与验证</strong> → 旗舰技能 <code>adversarial-empirical-review</code>：对抗性审查论文表格里每个数字
+能否从底层数据复现，用确定性检查加跨模型审查者加盲审评委会；也支持从原始数据完整复现模式</li>
+<li><strong>LLM 辅助分类方法</strong> → <code>annotator-input-parity-check</code>（确认模型看到的证据和人工标注者一致）、
+<code>llm-gold-bound-failure-check</code>（门控失败时先诊断是否金标准标签质量的问题，避免盲目烧钱改提示词）、
+<code>llm-campaign-drift-gate</code>（多日标注活动中用廉价金丝雀测试防模型别名漂移）、
+<code>adjudication-sheets</code>（人工裁决表，保证裁决证据和分类器输入字节级一致）、
+<code>asyncopenai-concurrency-httpx-pool</code>（修复批处理评分器约 100 并发上限）</li>
+<li><strong>计量与数据基础设施</strong> → <code>event-study-cars</code>（累计异常收益计算引擎，已对照 Stata 的
+eventstudy2 验证到浮点精度）、<code>wrds</code>（WRDS 查询模式：Compustat/CRSP/FactSet 等）、
+<code>stata</code>（用 pystata 驱动 Stata，内存中交换 pandas 数据）、pyfixest 相关的两个调试技能</li>
+<li><strong>表格、图形与引用</strong> → <code>latex-empirical-tables</code>（estout 风格回归表格）、
+<code>stata-style-figures</code>（matplotlib 样式化成 Stata 风格）、<code>cite-placement</code>（用已核验参考文献，
+明确&quot;绝不虚构引用&quot;）</li>
+<li><strong>文献与交付</strong> → <code>lit-review-orchestrator</code>（文档驱动的文献检索）、<code>latex-to-word</code>、
+<code>markdown-to-pdf</code>、<code>download-gated-pdfs</code>（从机器人拦截网站经 Wayback Machine 拿真实 PDF）</li>
+</ul>
+<h2>它在替代什么旧行为</h2>
+<p>实证经济学里&quot;数字能否复现&quot;以前靠的是人的肉眼和耐心：审稿人或研究助理打开论文、
+对照数据和代码，手动验证每个表格数字；LLM 辅助标注以前靠人抽检；
+&quot;上周用模型跑的分类结果可信吗&quot;以前靠重跑一次碰运气。</p>
+<p>这套技能的替代对象是这条&quot;人工复核链&quot;里的重复劳动——把对抗性复核、标注质量门控、
+表格转换检查变成可重复执行的自动化步骤。同时它也替代了一个更隐蔽的旧行为：
+在 AI 辅助研究里&quot;相信模型输出&quot;的默认动作，换成一层显式的验证门。</p>
+<p><em>判断：这里最值钱的是作者对&quot;验证&quot;的偏执——多数人拿 LLM 做研究是加速生成，
+作者想的是生成之后的每一步都得能证明没坏。这是被顶刊审稿人教育过的人才写得出的东西。</em></p>
+<h2>商业模式</h2>
+<p><strong>未披露。</strong> MIT 开源，无付费服务、无 SaaS、无赞助页。</p>
+<p><em>判断：学术工具的价值一向在&quot;声誉 + 方法论影响&quot;，不在直接收费。技能包如果能进
+几个知名实验室的工作流，作者在学术圈的声誉资本是更实在的回报。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li><strong>47 star / 0 fork / 0 open issue</strong>，仓库 2026-07-22 建，MIT</li>
+<li>18 个技能，覆盖复现性验证、LLM 分类、计量基础设施、表格、文献五段管线</li>
+<li>核心技能有可验证的工程细节（对照 Stata 包到浮点精度、修复 httpx 连接池并发上限）</li>
+<li>用户数、被哪些实验室采用：未披露</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高度匹配。作者显然是被&quot;数字复现不出来&quot;这个问题反复咬过的人</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓住了实证研究里&quot;验证&quot;这个真痛点，且方法设计细致（金丝雀测试、字节级证据一致）</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>技能定义扎实，含可复现的工程细节，不是提示词堆砌</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>偏早。AI 辅助研究刚起步，大部分研究者还在&quot;让 AI 帮干活&quot;阶段，没到&quot;证明 AI 干的活没错&quot;阶段</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是&quot;研究者给 AI 辅助研究上护栏&quot;的样本，洞察真实，但还停留在个人项目阶段。</strong></p>
+<p>它踩中的是真问题：LLM 辅助实证研究的最大争议不是&quot;快不快&quot;而是&quot;能不能信&quot;。
+作者用一整套显式验证机制回应——不是&quot;我保证结果是对的&quot;，而是&quot;每一步都可以被检查&quot;。
+<code>llm-gold-bound-failure-check</code> 这种技能（门控失败先诊断是金标准的问题还是模型的问题）
+说明作者在真实研究里吃过分类质量的亏，这种细节编不出来。</p>
+<p><strong>但证据面很薄。</strong> 47 star、0 fork、单作者、两周前才创建，没有任何采用证据。
+技能包的价值只在被真实研究工作流用起来之后才成立——而在被使用之前，
+它只是&quot;另一个人的笔记&quot;。</p>
+<p><strong>可迁移的规律：给 AI 输出设计&quot;验证层&quot;，比优化提示词更接近研究工作流的真实需求。</strong>
+当错误代价高（论文被撤稿、标注被质疑），用户真正买的是&quot;可证明没坏&quot;，
+不是&quot;通常都对&quot;。任何高容错成本场景（研究、金融、医疗）都值得照这个思路做。</p>
+<h2>下一步看什么</h2>
+<p>① 三个月内是否出现 fork 和真实采用案例——有没有人真的在自己的论文工作流里用它
+② 是否新增技能或更新既有技能（项目还在动说明作者自己还在用）
+③ 是否进入知名实验室/课程的推荐清单——学术工具的传播靠口碑背书，不靠榜单</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做 AI 辅助工具时，把&quot;验证&quot;做成显式产品功能而非隐式承诺。
+三个动作可以照搬：给每个输出步骤加可复现的检查点（金丝雀测试）；
+失败时先诊断是输入质量问题还是模型问题，再决定改哪里；
+对证据一致性做字节级保证，不给&quot;大概一致&quot;留空间。</p>
+<p><strong>话术</strong>：&quot;绝不虚构引用&quot;——用一句否定式承诺建立信任，比一百句&quot;可靠准确&quot;有力。</p>
+<p><strong>定价结构</strong>：无。开源学术工具没有可迁移的定价结构。</p>
+<h2>结论</h2>
+<p><strong>有待观察。</strong> 痛点真实、方法细致，但 47 star、0 fork、零采用证据说明还处于
+&quot;个人项目&quot;阶段。作者是真的懂行的研究者，这点不用怀疑；值得怀疑的是它能不能
+从个人笔记变成被采用的工具。三个月后看上面三条。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
@@ -107,7 +217,7 @@
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,086</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +227,7 @@
             <span class="row-name">human-review</span>
             <span class="row-desc">像批注 Google 文档一样给 AI 的产出留意见</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 958</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 958</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +237,7 @@
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 706</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 706</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +247,7 @@
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 571</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 571</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +300,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

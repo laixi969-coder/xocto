@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>Soup CLI</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">Fine-tune an 8B LLM on a 4 GB laptop GPU</p>
@@ -81,18 +82,166 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>,         <a href="../../p/numbat.html">numbat</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Fine-tuning an 8B model used to need roughly 16 GB of VRAM in standard precision — impossible on an ordinary 4 GB laptop. Three paths remained: rent cloud GPUs (hourly billing, environment setup, queu…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for &#34;lower the barrier&#34; tools, make correctness a verifiable selling point — hard metrics like bit-exactness prove &#34;saved resources without saving worse,&#34; which beats any &#34;30% better&#34; c…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An LLM fine-tuning CLI that runs from one YAML and one command, built around
+&quot;layer streaming&quot;: the frozen base model lives in system RAM and only one decoder
+layer streams into the GPU at a time — so an 8B model fine-tunes on a 4 GB laptop
+GPU.</p>
+<h2>Who built it</h2>
+<p>Independent developer Alpamys Makazhan (GitHub: MakazhanAlpamys/Soup), Apache-2.0.
+His PyPI positioning: &quot;training LLMs is still painful. Even experienced teams spend
+30-50% of their time fighting infrastructure instead of improving models.&quot;</p>
+<p><em>Read: a developer tool built by someone who was first fed up with environment
+setup. He pushed &quot;saving VRAM&quot; to a verifiable, exact number and designed a
+verification protocol that requires streamed and resident runs to be bit-identical.
+That signals a concern for correctness, not demo polish.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Layer-streamed fine-tuning</strong> → frozen model layers live in CPU RAM; one layer
+at a time streams into the GPU during compute, with double-buffered preloading,
+so peak VRAM drops from &quot;the whole model&quot; to &quot;a single layer&quot;; LoRA adapters
+stay resident on the GPU</li>
+<li><strong>NF4 quantization on top</strong> → 4-bit normalfloat compresses the model and pushes
+VRAM lower</li>
+<li><strong>Preference training</strong> → DPO / ORPO / SimPO / KTO all supported, reusing the
+same streamed base as the reference model instead of holding a full extra copy
+of the model in memory</li>
+<li><strong>One YAML for the whole run</strong> → soup init picks a template (chat/code/medical/
+reasoning/vision/audio and more, 16 total), soup train runs it, with auto GPU
+detection, auto batch size, auto quantization</li>
+<li><strong>One command to deployment</strong> → soup chat to test, soup push to HuggingFace,
+soup export to GGUF/ONNX/TensorRT/AWQ/GPTQ, plugging straight into
+Ollama/llama.cpp</li>
+<li><strong>Engineering extras</strong> → VRAM pre-check, NVMe offload when RAM runs out, a &quot;data
+flywheel&quot; loop with canary deploy and auto-rollback, and unlearning training for
+GDPR right-to-be-forgotten</li>
+</ul>
+<p><strong>Nine architectures</strong>: Llama, Qwen, Mistral, Gemma, Phi, and more.</p>
+<h2>What old behavior it replaces</h2>
+<p>Fine-tuning an 8B model used to need roughly 16 GB of VRAM in standard precision —
+impossible on an ordinary 4 GB laptop. Three paths remained: rent cloud GPUs
+(hourly billing, environment setup, queueing); buy a big-VRAM card (thousands of
+dollars); or squeeze in with QLoRA, which only halves the requirement and still
+won't fit 4 GB.</p>
+<p>The second layer of pain was environment configuration: SSH into a GPU box, install
+drivers, set up CUDA, tune parameters — experienced teams spend 30-50% of their
+time there.</p>
+<p>Soup replaces the &quot;rent a cluster and configure the environment&quot; threshold,
+turning fine-tuning from &quot;a server thing&quot; into &quot;one command on a laptop.&quot;
+Layer streaming removes &quot;4 GB VRAM&quot; as the blocker; the YAML config removes
+&quot;environment setup&quot; as a daily tax.</p>
+<h2>Business model</h2>
+<p><strong>None.</strong> Apache-2.0, no paid tier, no hosted service, no company entity disclosed.</p>
+<p><em>Read: a classic &quot;build reputation on correctness&quot; open-source path. At this stage
+the author earns credibility and stars, not money. The predictable route is hosted
+training or enterprise support later, but monetization in the free, open-source
+ecosystem is not an easy road.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>~430 GitHub stars (early Aug 2026), 83k cumulative PyPI downloads, 17,479 tests passing</li>
+<li>Core benchmark: Llama-3.1-8B-Instruct (NF4) on an RTX 3050 Laptop 4 GB at 119.6
+tok/s with 3.32 GB peak VRAM</li>
+<li>8xH100 reproduction: median 113.00 tok/s at the same 3.32 GB peak, bit-exact vs
+the resident run</li>
+<li>v0.73.0 (Aug 5-9, 2026) fixed a silent wrong-gradient bug on NF4 layers above
+~165 MiB</li>
+<li>Layer streaming is beta and ~1.43x slower than resident training; 1M training
+tokens take about 2.3 hours</li>
+<li>Show HN and a launch-site front page in the same week; one-person project</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>The author is the target user; making correctness verification the core selling point means he builds infrastructure seriously</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Caught the insight that peak VRAM is set by one layer, not the whole model — which redefines what a 4 GB card is for</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Bit-exact verification protocol, versioned releases, large test suite — near professional-team engineering</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Local fine-tuning demand is being lit by the &quot;usable by everyone&quot; narrative; this is exactly when the barrier drops from cluster to laptop</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>This is real progress on &quot;dropping fine-tuning from rent-a-cluster to laptop,&quot;
+not a concept.</strong></p>
+<p>The core insight is that the training VRAM bottleneck is the assumption &quot;the model
+must be resident in VRAM.&quot; Layer streaming removes that assumption: the base model
+stays frozen in RAM, one layer streams into the GPU at a time, and the peak drops
+from whole-model to single-layer. 119.6 tok/s on a 4 GB laptop with bit-identical
+results to a resident run separates it from the &quot;VRAM magic&quot; class of projects: it
+demonstrates you can save VRAM without losing quality.</p>
+<p><strong>The transferable rule: make &quot;bit-exactness&quot; your verification protocol.</strong> Every
+release compares streamed and resident runs and requires identical logits — more
+convincing than any &quot;works great&quot; claim, and it lets users train on a laptop and
+reproduce on a cluster. For infrastructure tools, this builds trust better than a
+feature list.</p>
+<p><strong>To be honest: it does not make fine-tuning faster, it makes it reachable.</strong>
+Layer streaming is ~1.43x slower than resident, 1M tokens take about 2.3 hours,
+and Windows numbers are worse — that is the physical price of trading time for
+VRAM. It targets people who could not run at all before, not people who run fast
+enough. The Unsloth relationship is clear too: Unsloth makes qualifying GPUs
+faster; Soup makes non-qualifying GPUs work.</p>
+<p><strong>Risks</strong>: ① layer streaming is still beta — long contexts and larger batches can
+still exceed VRAM, and the boundaries need real users to find them; ② fine-tuning
+frameworks are fiercely competitive (Unsloth, LLaMA-Factory, and others are
+mature), and &quot;saves VRAM&quot; alone may not hold users; ③ a single-maintainer
+open-source project raises iteration-pace and long-term maintenance questions.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars pass 1,500 in three months and layer streaming graduates from
+beta to stable — the project's live-or-dead signal
+② Whether it enters mainstream framework comparisons (head-to-head with Unsloth /
+LLaMA-Factory) — being benchmarked is being recognized
+③ Whether CI/script workflows adopt it as the de facto automated fine-tuning
+standard — YAML-driven and scriptable means it may find its first real home in
+internal enterprise pipelines</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for &quot;lower the barrier&quot; tools, make correctness a verifiable
+selling point — hard metrics like bit-exactness prove &quot;saved resources without
+saving worse,&quot; which beats any &quot;30% better&quot; claim with technical users. The
+precondition is actually achieving it; the verification protocol is itself the
+moat.</p>
+<p><strong>Positioning language</strong>: the PyPI line — &quot;even experienced teams spend 30-50% of
+their time fighting infrastructure&quot; — quantifies the pain with a concrete
+percentage, far stronger than &quot;simplify setup.&quot;</p>
+<p><strong>Pricing structure</strong>: none. Not commercialized.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The technology holds — layer streaming has exact numbers and
+bit-exact verification behind it, turning &quot;fine-tune an 8B on a laptop&quot; from a
+slogan into a reproducible fact. But it does not make training faster, only
+reachable; business model and long-term maintenance are open questions. It is
+currently the most persuasive footnote in the &quot;local fine-tuning for everyone&quot;
+narrative.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -103,6 +252,16 @@ Public information is limited; this view will update as more evidence appears.  
       </a>
     </div>
     <ul class="rows">
+      <li>
+        <a href="../../p/deepseek-harness.html">
+          <div class="row-head">
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-tail">
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 73,360</span>            </span>
+          </div>
+        </a>
+      </li>
       <li>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
@@ -124,31 +283,21 @@ Public information is limited; this view will update as more evidence appears.  
         </a>
       </li>
       <li>
-        <a href="../../p/gendangzou-skill.html">
+        <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
-            <span class="row-name">Gendangzou-skill</span>
-            <span class="row-desc">Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows, companies, and ETFs.</span>
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 238</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../../p/stoaexchange.html">
-          <div class="row-head">
-            <span class="row-name">stoaexchange</span>
-            <span class="row-desc">Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers</span>
-            <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 77</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 696</span>            </span>
           </div>
         </a>
       </li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/sosiee-ai换脸与ai头像.html">
+      <a class="pager-item pager-prev" href="../../p/soloop.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">Sosiee: AI换脸与AI头像</span>
+        <span class="pager-n">Soloop</span>
       </a>
 
       <a class="pager-item pager-next" href="../../p/stepshot.html">
@@ -192,7 +341,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

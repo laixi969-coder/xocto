@@ -8,12 +8,13 @@ inspiration: 组件库翻译器可解决前端技术债，迁移到其他框架�
 summary_en: A Rosetta Stone for UI component libraries, aiding cross-library migration and understanding.
 inspiration_en: Component library translator addresses frontend technical debt, applicable to other framework
   conversion scenarios.
+priority_review: false
 url: https://www.frontfamily.com/
 canonical_url: https://frontfamily.com
 summary: A Rosetta Stone for UI component libraries
 first_seen: '2026-08-13T15:35:08Z'
 last_seen: '2026-08-13T23:03:00Z'
-status: queued
+status: analyzed
 sources:
 - hackernews
 sightings:

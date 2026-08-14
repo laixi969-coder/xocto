@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>designshippers</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">把设计工程外包成订阅服务，按月付费而不是按项目</p>
@@ -83,25 +84,126 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/shuohao-skills.html">shuohao-skills</a>、        <a href="../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>B2B SaaS 公司想让一个功能&#34;既好看又能上线&#34;，以前有三条路，都不顺： 一是全职招一个资深设计工程师——招聘周期长、贵，需求还不一定满负荷； 二是找 agency 做项目制——几周起交付，给的是 Figma 文件，工程师照图还原时 设计细节必然打折（那个&#34;没人 specs 的空态和错误态&#34;第一个丢）； 三是让工程师用 AI 直接做——快，但一眼就是&#34;generated&#34;的味儿。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：把&#34;稀缺技能&#34;做成订阅时，卖点不是工时，是&#34;随时有人 + 质量兜底&#34;； 用&#34;同时只服务一个需求&#34;和&#34;限量接单&#34;同时控制质量与稀缺性——这两条可以直接搬。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>把&quot;资深设计工程师&quot;按订阅卖给 B2B SaaS 团队：$10,000/月，
+同时只有一个需求在飞，设计完直接由同一批人写代码，
+交付物不是 Figma 文件而是 Pull Request——&quot;不用开会，异步 Slack 沟通&quot;。</p>
+<h2>做这个东西的人</h2>
+<p>HN 上以 <code>krm01</code> 名义运营的独立工作室，base 阿姆斯特丹。
+定位自述：&quot;刻意做小的设计工程工作室&quot;，强调&quot;在 AI 之前就手写 HTML/CSS/JS&quot;、
+&quot;Claude Code 写代码，我们指挥它，并在浏览器里像你的用户一样评审一切&quot;。
+官网有 4 个具名案例，包括开源项目 OpenReplay 的仪表盘改版。</p>
+<p><em>判断：krm01 是在 HN 上长期活跃的设计师，&quot;设计师会写代码 + AI 当写手、人当评委&quot;这套
+工作流是真实跑通了的——案例里有&quot;冷启动到 PR 四小时&quot;这种具体数字。
+这不是 PPT 里的方法论，是已经在收钱的工作方式。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>设计与编码一体交付</strong> → 同一个&quot;需求在飞&quot;里，设计、交互细节、动效、空态/错误态做完，直接进你的代码库</li>
+<li><strong>以 PR 交付</strong> → 不用 Figma 文件交接，你的团队像审任何 PR 一样 review 和合并</li>
+<li><strong>单个需求串行</strong> → 同时只做一个 feature，质量上限靠&quot;限量接单&quot;维持</li>
+<li><strong>异步协作</strong> → 共享 Slack 频道、无需会议；阿姆斯特丹时区，和北美时差正好是&quot;你的夜晚是我们的工作日&quot;</li>
+<li><strong>随时暂停/取消</strong> → 明示&quot;无合同、按月&quot;（官网定价区同时标了&quot;6 个月&quot;与&quot;随时取消&quot;，口径有含糊）</li>
+</ul>
+<p><strong>它明确不做</strong>：不接多项目并行，不做纯设计交付（必须连编码一起），不追求规模。</p>
+<h2>它在替代什么旧行为</h2>
+<p>B2B SaaS 公司想让一个功能&quot;既好看又能上线&quot;，以前有三条路，都不顺：
+一是<strong>全职招一个资深设计工程师</strong>——招聘周期长、贵，需求还不一定满负荷；
+二是<strong>找 agency 做项目制</strong>——几周起交付，给的是 Figma 文件，工程师照图还原时
+设计细节必然打折（那个&quot;没人 specs 的空态和错误态&quot;第一个丢）；
+三是<strong>让工程师用 AI 直接做</strong>——快，但一眼就是&quot;generated&quot;的味儿。</p>
+<p>Designshippers 替代的是三件事：<strong>全职招人</strong>（→ 按月按需）、
+<strong>项目制 agency 的 Figma 交接损耗</strong>（→ 设计的人就是写代码的人，翻译环节消失）、
+以及**&quot;没有人在持续打磨&quot;的空白**（→ 订阅买的是&quot;随时有人&quot;，不是&quot;一个项目&quot;）。</p>
+<h2>商业模式</h2>
+<p>订阅制：$10,000/月（标&quot;创始价&quot;），页面同时出现&quot;6 个月&quot;与&quot;随时取消&quot;两种表述，起订期不明确。
+一个客户同时一个需求在飞，限量接单，专攻 B2B SaaS 场景。</p>
+<p><em>判断：这是把稀缺技能（资深设计工程师）切成了订阅商品，用&quot;限量&quot;维持稀缺定价。
+$10k/月意味着目标客户是&quot;已经有 roadmap、缺的是产能&quot;的成长期 SaaS——它卖的不是设计，是产能+品位。
+但注意：刻意小规模 + 单需求串行 = 收入天花板明显，这更像高溢价精品工作室，不是可规模化的生意。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>定价：$10,000/月（创始价），无公开年度折扣</li>
+<li>案例：4 个公开案例，其中 OpenReplay 仪表盘改版自称&quot;冷启动到 PR 四小时&quot;</li>
+<li>客户数、营收、团队规模：未披露（&quot;限量接单&quot;是定位的一部分）</li>
+<li>HN：13 分 / 12 评（pool 采集）</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>设计师本人 + 真实交付记录（具名案例），匹配度满格</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>看准了 AI 让代码生产变快之后留下的&quot;品位差&quot;；用&quot;设计者即写码者&quot;消灭 Figma 交接损耗</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>&quot;AI 当写手、人当评委&quot;的工作流有具体案例支撑，不是话术</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>B2B SaaS 设计债积压 + AI 放大&quot;看起来是生成的&quot;问题，恰好是品位溢价窗口</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>这是个&quot;卖品位+产能&quot;的精品订阅生意，模型本身比生意更有参考价值。</strong></p>
+<p>最值得抄的是它的<strong>工作流定位</strong>：&quot;Claude Code 写代码，我们指挥它并在浏览器里评审&quot;——
+把 AI 定位成打字员而不是设计师，品位层完全留在人这边。
+这回答了一个普遍问题：AI 让&quot;写出来&quot;变便宜之后，什么反而更值钱了？答案是他们给的：判断力。</p>
+<p><strong>其次抄定价结构</strong>：$10k/月的订阅卖的不是工时（一个需求在飞、异步、无会议），
+卖的是&quot;随时有人 + 审美兜底&quot;。这让客户可以把它放进 roadmap 而不是当采购项目走。
+&quot;限量接单&quot;既是质量手段也是稀缺定价——客户知道再晚就要排队。</p>
+<p><strong>两个问题</strong>：一是起订期表述含糊（&quot;6 个月&quot;vs&quot;随时取消&quot;），B 端采购对这种口径很敏感；
+二是这个模式在&quot;规模化&quot;上是死的——扩人必然稀释品位，这就是它刻意不做大的原因。
+对想抄的人，意味着它只能是精品定位，不能当增长故事讲。</p>
+<h2>下一步看什么</h2>
+<p>① 六个月内&quot;创始价 $10k&quot;是否上调——能涨价说明需求真实且供不应求
+② 是否有第 5、6 个具名客户/案例出现——4 个案例的样本还太小
+③ 是否出现同类&quot;设计工程师订阅&quot;工作室跟风（Webflow 生态里已有 DesignShip 等）——
+被跟风说明品类成立，也说明它得靠案例和品位守住价格</p>
+<h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：把&quot;稀缺技能&quot;做成订阅时，卖点不是工时，是&quot;随时有人 + 质量兜底&quot;；
+用&quot;同时只服务一个需求&quot;和&quot;限量接单&quot;同时控制质量与稀缺性——这两条可以直接搬。</p>
+<p><strong>话术</strong>：&quot;AI made your team faster. It didn't make your product look better.&quot;——
+用一句&quot;AI 的边界&quot;做开场，比自夸能力更有冲击力。全文案没有一句&quot;赋能/一站式&quot;。</p>
+<p><strong>定价结构</strong>：$10k/月按产能和品牌溢价定价、不按工时计价；
+&quot;创始价&quot;是个聪明的锚——既给早期客户理由，又为日后提价留了台阶。</p>
+<h2>结论</h2>
+<p><strong>值得关注（作为订阅服务样板）。</strong> 工作流真实（AI 写码、人评品）、案例具体（四小时 PR）、
+定价清晰。生意本身天花板低（刻意小规模），但&quot;设计工程师按订阅卖&quot;+&quot;AI 当打字员&quot;这两个
+机制对做服务型业务的人有直接参考价值。没有能证伪它需求的硬数据，靠上面三条跟进。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
-        AI + 创作 共 16 个 →
+        AI + 创作 共 15 个 →
       </a>
     </div>
     <ul class="rows">
@@ -194,7 +296,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

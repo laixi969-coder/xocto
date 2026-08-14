@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>StepShot</h1>
+      <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
     <p class="lede">AI that turns real workflows into step-by-step guides</p>
@@ -81,25 +82,150 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
-      <p class="noanalysis-sub">
-        Full analyses of similar products:
-        <a href="../../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>The fully manual pipeline of making a tutorial or SOP: perform the steps once, screen capture each screen, crop, draw arrows, number, write the descriptions, format. Four minutes of clicking, an hour …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: for any &#34;AI writes your docs/content&#34; tool, generate a complete, usable draft locally first and put AI on the polish layer (with the user&#39;s own API key). That defuses the data-privacy s…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>Records what you actually do on your Mac and turns it into polished step-by-step
+guides on the spot — processed locally, one-time purchase, no account, no uploads.</p>
+<h2>Who built it</h2>
+<p>Solo indie developer Thomas Ellon (goes by Stewie at launch).
+Self-launched on PH on 2026-08-07: 91 upvotes, daily rank #18. Site: stepshot.app.</p>
+<p><em>Read: the launch line &quot;an hour of work to describe four minutes of clicking&quot; is true
+for anyone who has ever written a tutorial. He positions the browser-extension gap as
+his main differentiation — Scribe and Tango, the category leaders, are browser
+extensions that die the moment a workflow touches System Settings, a native app, or a
+terminal. That is one of the few desktop-native arguments that actually holds.</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Event-driven capture</strong>: listens for clicks and keystrokes, generates one step per
+meaningful action, screenshotting the frame <em>before</em> the click lands (the button you
+are about to press, not the menu that just opened)</li>
+<li><strong>Screen-recording mode</strong>: continuous H.264 video with cursor-pause segmentation,
+keeping the full footage as evidence</li>
+<li><strong>Local AI</strong>: macOS Vision OCR plus the Accessibility tree produce step titles
+(&quot;Click Save Draft&quot;, not &quot;click the third toolbar button&quot;), smart crop, and decide
+which steps to keep or skip</li>
+<li><strong>Editor</strong>: reorder, merge, skip, annotate; redaction is destructive — sensitive
+regions are downsampled and upscaled, burned into the bitmap, not a peelable blur</li>
+<li><strong>Export</strong>: PDF / Markdown / HTML, all three sharing one renderer, so the preview is
+the export</li>
+<li><strong>Privacy</strong>: no account, no telemetry, password fields excluded at the engine level
+(characters never reach memory); cloud AI polish is off by default and uses your own
+OpenAI-compatible endpoint if enabled</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: Notion export, auto-translation, cloud sync,
+team accounts. Windows is a private test build, not a release.</p>
+<h2>What old behavior it replaces</h2>
+<p>The fully manual pipeline of making a tutorial or SOP: perform the steps once, screen
+capture each screen, crop, draw arrows, number, write the descriptions, format. Four
+minutes of clicking, an hour of writing. At the tool level it replaces &quot;screenshot plus
+manual assembly&quot; (the Snagit way) and &quot;record video then cut it into frames by hand&quot;;
+at the human level it replaces the large block of time technical writers, support
+leads, and implementation consultants spend on docs that are usually stale by the time
+they ship.</p>
+<h2>Business model</h2>
+<p>One-time purchase: Pro $129, Team $599 (5 seats), perpetual license including all
+future versions. The free tier is not a trial — capture and editing are unlimited and
+never expire, exports are capped at the first 10 steps (Markdown/HTML). No
+subscription. Paid user count and revenue: not disclosed.</p>
+<p><em>Read: a one-time price is healthy for a solo Mac tool, but it also means no recurring
+revenue to fund development — sustainability rests entirely on word-of-mouth velocity.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>launch 2026-08-07: 91 upvotes, 5 comments, daily rank #18</li>
+<li>Independent third-party review (pidune, 3 days of testing): 3.5/5 — correctly
+identified labeled buttons in 11 of 12 steps; one crash during a 45-step recording
+with autosave recovering only the last 12 steps; complex docs still need 15-20%
+post-processing</li>
+<li>macOS 14+, Apple Silicon and Intel, signed and notarized; UI in English, Simplified
+Chinese, and Japanese</li>
+<li>Team size: 1. Paid users: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>Built from the founder's own recurring pain, and the decisions are specific enough (down to which frame to screenshot) to prove it</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;Preview is the export&quot;, &quot;AI is a polish layer, not a generator&quot;, &quot;redaction must be destructive&quot; — three clean calls</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Native macOS, no telemetry, engine-level password exclusion. Engineered like a real product, not a demo</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Scribe/Tango already educated the market, but they are browser extensions; the native-desktop gap is real but small</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>Among this batch of small tools, the product decisions are the cleanest — and the
+business validation is zero.</strong> Three calls worth copying: &quot;preview is the export&quot; (the
+editor, preview pane, and all three exporters share one renderer, so you cannot approve
+one image and ship another), &quot;AI sits on the polish layer&quot; (a complete local draft
+exists first; the model only refines wording, sidestepping the data-exfiltration
+objection), and &quot;redaction is irreversible&quot; (no fake, peelable security).</p>
+<p><strong>The fatal flaw is a mismatch.</strong> The real buyers for SOP tooling are company document
+teams, who want collaboration, cloud sync, and cross-platform support. StepShot is
+solo, Mac-only, and has no team accounts. Individual knowledge workers will like it —
+but individual knowledge workers rarely pay $129 for a documentation tool. The paying
+audience, if any, is freelancers and independent consultants who deliver documents to
+clients, not enterprises.</p>
+<p><strong>Competitive pressure</strong>: Scribe is free, in the browser, zero setup. StepShot demands
+accessibility permissions, macOS 14+, and caps free exports at 10 steps. The whole
+differentiation rests on the user agreeing that &quot;the browser extension is not enough&quot; —
+and StepShot pays that education cost itself.</p>
+<h2>What to watch next</h2>
+<p>① Whether paid users or independent reviews appear within three months — a one-time
+purchase product with no growth data runs on reputation alone
+② Whether the Team tier ($599) sees any real purchases — enterprise adoption is the
+only thing that proves the replacement story
+③ Whether the Windows build goes public — staying Mac-only caps the market at Mac share</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: for any &quot;AI writes your docs/content&quot; tool, generate a complete,
+usable draft locally first and put AI on the polish layer (with the user's own API
+key). That defuses the data-privacy sales objection and keeps model hallucination from
+contaminating the core flow — AI is garnish, not foundation.</p>
+<p><strong>Pricing structure</strong>: free tier that limits export volume instead of features — putting
+the paywall on output completeness rather than functionality is a more honest tiering
+for content-production tools.</p>
+<p><strong>Positioning language</strong>: nothing worth copying verbatim; the launch pitch earns trust
+through specificity (the pre-click frame decision), not slogans.</p>
+<h2>Verdict</h2>
+<p><strong>Unproven.</strong> The product-level decisions are clean, but business validation is zero and
+the audience (company doc teams) is mismatched with the form (a solo Mac app). Write it
+down and check back in three months against the three tests above.</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
     <div class="sec-head">
       <h2>Similar products</h2>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
-        60 in AI + Productivity →
+        54 in AI + Productivity →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +245,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">genoffice</span>
             <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 3,003</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +255,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">cindy</span>
             <span class="row-desc">Open-source AI agent that works out of the box.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +265,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
             <span class="row-tail">
-<span class="tag sig">Community score 509</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +318,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

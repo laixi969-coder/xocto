@@ -8,12 +8,13 @@ inspiration: 大厂接入第三方模型当卖点，说明这一层已经商品�
 summary_en: Tencent's Yuanbao assistant, in the version that added DeepSeek.
 inspiration_en: A big platform advertising that it plugged in someone else's model tells you that layer
   is commoditized.
+priority_review: false
 url: https://www.aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
 canonical_url: https://aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
 summary: AI拍题答疑P图搜索工具，深度思考写作编程学习办公助手
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-13T11:28:34Z'
-status: pending_filter
+status: analyzed
 sources:
 - aicpb
 sightings:

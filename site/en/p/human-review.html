@@ -59,6 +59,7 @@
     <p class="eyebrow">Global AI product radar</p>
     <div class="pick-id">
       <h1>human-review</h1>
+      <span class="verdict v-notable">Keep watching</span>
     </div>
 
     <p class="lede">A visual tool to edit HTML and Markdown files, leave comments like a Google Doc, and send feedback to your AI agent. Works inside your favorite AI harness.</p>
@@ -82,15 +83,92 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">There is no full analysis of this product yet.</p>
-      <p class="noanalysis-sub">
-Public information is limited; this view will update as more evidence appears.        It was recently added and does not yet have verifiable usage data.
-      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">The step it removes</span>
+        <p>Giving AI feedback used to mean typing into the chat: &#34;in the third paragraph change X to Y,&#34; &#34;cut the right card, it repeats the first one,&#34; &#34;rewrite the CTA&#34; — then waiting, then checking each item …</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">What to borrow</span>
+        <p>Product logic: in any &#34;a human corrects an AI&#34; scenario, first ask what interaction the user already knows — Google Doc comments, Word tracked changes, browser highlight — and make the AI fit that sha…</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>What it is in one line</h2>
+<p>An AI skill: it makes Claude Code, Codex, or ChatGPT open an HTML or Markdown file in a local browser, where you edit directly and leave comments like a Google Doc, then send everything to the agent in one batch.</p>
+<h2>Who built it</h2>
+<p>Peter Yang. He's an influential product person (ex-Reddit growth, now runs the &quot;Behind the Craft&quot; personal AI system — a dozen-plus skills, a YouTube channel, and a newsletter). This is a personal-brand project, not an anonymous open-source one.</p>
+<p><em>Read: the author has built-in distribution, which explains part of why it hit ~958 stars two weeks after launch. But the problem is real — he keeps hammering on &quot;giving AI feedback in chat is painful.&quot;</em></p>
+<h2>What it actually does</h2>
+<ul>
+<li><strong>Visual editing</strong> → edit text and basic formatting (bold, italic, lists, indent) directly in the browser; no more &quot;third paragraph, second sentence&quot;</li>
+<li><strong>Image operations</strong> → resize by dragging a corner, move by dragging, paste new images from clipboard (saved into an assets/ folder and inserted at the cursor)</li>
+<li><strong>Block rearrangement</strong> → drag a block's left-edge handle to move whole sections, no chat explanation needed</li>
+<li><strong>Anchored comments</strong> → select a phrase to comment on it, or click an element to comment on an image, chart, or section — like Google Docs</li>
+<li><strong>Multi-page review</strong> → Command-click links to review several pages without losing your feedback</li>
+<li><strong>One-shot send</strong> → every edit and comment goes to the agent in a single batch; the agent updates the source and the page auto-refreshes</li>
+<li><strong>Runs locally</strong> → no account, no cloud, no database, no API key; the review service listens on localhost and comments/state live on your machine</li>
+<li><strong>Harness-compatible</strong> → installs as a skill into Claude Code, Codex, ChatGPT Work, and any AI harness</li>
+</ul>
+<h2>What old behavior it replaces</h2>
+<p>Giving AI feedback used to mean typing into the chat: &quot;in the third paragraph change X to Y,&quot; &quot;cut the right card, it repeats the first one,&quot; &quot;rewrite the CTA&quot; — then waiting, then checking each item to see if the agent understood. Reviewing a long doc (PRD, landing page, multi-page site) stacks that translate-to-chat-instructions pain on top of itself.</p>
+<p>human-review replaces <strong>the entire &quot;translate visual intent into text instructions&quot; segment</strong> — you edit and comment on the artifact itself, and the agent receives structured feedback instead of a paragraph of natural language. The feedback carrier shifts from description to action.</p>
+<h2>Business model</h2>
+<p><strong>Free and open source (MIT), no monetization.</strong> The author's value flows to personal brand: the skill is content-asset that feeds the &quot;Behind the Craft&quot; ecosystem (courses, YouTube, newsletter).</p>
+<p><em>Read: &quot;free skill + personal brand&quot; is 2026's new economy form for AI developer content — build reputation with high-quality free tools, then monetize reputation via courses and content. It doesn't need to charge for the tool itself.</em></p>
+<h2>Hard numbers</h2>
+<ul>
+<li>GitHub (petergyang/human-review): <strong>959 stars / 61 forks</strong> (2026-08-14, measured); created 2026-07-27; ~958 stars within two weeks of launch</li>
+<li>Passed SkillsLLM's automated security scan (dependency audit + prompt-injection heuristics), no high-severity findings</li>
+<li>Core files: cli.js (commands), server.js (local session), sdk.js (editing/comments), chrome-client.js (visual UI), markdown.js (Markdown rendering)</li>
+<li>Users: not disclosed</li>
+</ul>
+<h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. A heavy AI content creator who spends daily hours on giving agents feedback</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>&quot;The shape of feedback decides whether it gets used&quot; — reuse an interaction humans already know instead of teaching them to write prompts</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>Engineering-complete (clean CLI/server/sdk/frontend layering), passed a security scan, explicit local boundaries</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Exactly when &quot;the final 10% of human polish in human-machine work&quot; is widely discussed. Well timed</td>
+</tr>
+</tbody>
+</table>
+<h2>The call</h2>
+<p><strong>It proves the &quot;feedback interface&quot; is an undervalued product layer.</strong> Everyone optimizes prompts, models, and agent frameworks; almost nobody optimizes the act of a human handing opinions to an AI. human-review substitutes Google-Doc-style annotation — an interaction two billion people already know — for writing precisely-located chat instructions. That's the real reason for 959 stars.</p>
+<p><strong>Its boundary is equally clear</strong>: it only solves text-content feedback (HTML, Markdown, landing pages, PRDs), not code review, data, or audio. The bet is that &quot;text review&quot; is a big enough scenario.</p>
+<p><strong>The extension worth watching</strong>: review is training signal. Every edit and comment you leave on an artifact is a labeled sample of &quot;what good looks like.&quot; If that feedback is captured structurally, the next agent run starts from your standards instead of guessing your taste from zero. That &quot;review-as-data&quot; direction matters more than the tool itself.</p>
+<h2>What to watch next</h2>
+<p>① Whether stars pass 3,000 — it would become the representative project of the &quot;human-machine review interaction&quot; category
+② Whether teams integrate the review-feedback loop into daily delivery, not just individuals
+③ Whether the review data/comments it collects evolve into &quot;style memory&quot; features — the move from tool to standard</p>
+<h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: in any &quot;a human corrects an AI&quot; scenario, first ask what interaction the user already knows — Google Doc comments, Word tracked changes, browser highlight — and make the AI fit that shape instead of making the user fit prompt syntax. Feedback interfaces beat instruction interfaces on adoption.</p>
+<p><strong>Positioning language</strong>: &quot;Stop editing paragraph 3 in chat.&quot; Opening with the user's specific pain outperforms &quot;AI review workflow platform&quot; by an order of magnitude.</p>
+<p><strong>Distribution</strong>: free + open source + personal brand + one pain-point slogan — that three-piece kit took a two-week tool to nearly a thousand stars. Skills are becoming a distribution unit: packaging a feature as a one-line installable skill spreads faster than shipping your own app.</p>
+<h2>Verdict</h2>
+<p><strong>Worth watching.</strong> It validates the feedback-interface layer with an engineering-complete open-source skill and real heat (959 stars in two weeks). It has no business model, but it may define the standard shape of human-machine review interaction. Note it and watch how far it goes toward &quot;review as data.&quot;</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="Keep browsing">
@@ -107,7 +185,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-web-ui</span>
             <span class="row-desc">Plugin and skin collection for DSH Web UI, including task board, git graph, and more.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 1,086</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,086</span>            </span>
           </div>
         </a>
       </li>
@@ -117,7 +195,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">agent-vision-toolkit</span>
             <span class="row-desc">A vision toolkit for text-only LLMs, enabling image Q&amp;A, OCR, and UI restoration.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 706</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 706</span>            </span>
           </div>
         </a>
       </li>
@@ -127,7 +205,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">dsh-TUI</span>
             <span class="row-desc">Claude Code-style full-screen interactive terminal plugin, filling DSH&#39;s TUI gap.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 571</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 571</span>            </span>
           </div>
         </a>
       </li>
@@ -137,7 +215,7 @@ Public information is limited; this view will update as more evidence appears.  
             <span class="row-name">DSH-better-sidebar</span>
             <span class="row-desc">A full workbench in the DSH sidebar, with file editing, terminal, Git, and sub-agents.</span>
             <span class="row-tail">
-<span class="tag sig">Open-source traction 453</span>            </span>
+<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 453</span>            </span>
           </div>
         </a>
       </li>
@@ -190,7 +268,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Global AI product radar</span>
     <span>·</span>
-    <span>186 products · 10 deep dives</span>
+    <span>180 products · 180 deep dives</span>
     <span class="gen">Data through 2026-08-14</span>
     <span>·</span>
     <a href="../../methodology.html">Methodology</a>

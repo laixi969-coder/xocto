@@ -8,12 +8,13 @@ inspiration: 拿一个已经消亡的产品做类比是最省力的解释方式�
 summary_en: ''
 inspiration_en: Comparing yourself to a product that already died is the cheapest explanation there is.
   People get it in one second.
+priority_review: false
 url: https://github.com/JustVugg/lumabri
 canonical_url: https://github.com/JustVugg/lumabri
 summary: What if LLMs worked like Napster?
 first_seen: '2026-08-09T22:24:24Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - hackernews
 sightings:

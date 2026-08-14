@@ -5,6 +5,9 @@ builder: greggman65
 category: ''
 summary_zh: ''
 inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
 url: https://greggman.github.io/tokyo-trains/
 canonical_url: https://greggman.github.io/tokyo-trains
 summary: Semi inspired by the 3d Shinjuku station that was posted again recently, I noticed it was missing
@@ -12,7 +15,7 @@ summary: Semi inspired by the 3d Shinjuku station that was posted again recently
   can walk without st…
 first_seen: '2026-08-11T14:55:18Z'
 last_seen: '2026-08-12T03:21:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

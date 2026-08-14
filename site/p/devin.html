@@ -60,6 +60,7 @@
     <p class="eyebrow">全球 AI 应用雷达</p>
     <div class="pick-id">
       <h1>Devin</h1>
+      <span class="verdict v-notable">持续观察</span>
     </div>
 
     <p class="lede">号称 AI 软件工程师，月访问 297 万，环比涨 80%</p>
@@ -81,25 +82,162 @@
     </div>
   </section>
 
-
   <section class="band">
-    <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
-      <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它已有使用数据，后续更值得看规模和变化能否延续。
-      </p>
-      <p class="noanalysis-sub">
-        同类产品的完整分析：
-        <a href="../p/qm.html">qm</a>      </p>
+    <div class="summary-grid">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>替代的是「雇初级工程师/外包处理高重复性任务」这个动作。 以前修技术债、升依赖、批量改文件、跑验证这些规则明确、量大的活， 要么排人力，要么外包。Devin 把它变成「按用量付钱给 agent」： 1 ACU 约 $2.25，相当于 $8-9/小时，对标一个初级工程师 $150/小时左右的成本。这是把软件工程的人力成本表换成了 云服务的计量表——高盛公布的计划是让 Devin 和 12000 名工…</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>定价结构：如果你做的是「替人干活」型产品，抄它的 ACU 计费—— 按「完成的活」收费而不是按月收费。这样采购方可以直接算 「替代了多少人工」的 ROI，决策人从使用者变成财务。 入门价打低、用量价打高，是获客和变现的最短路径。</p>
+      </div>
     </div>
   </section>
+
+  <article class="prose">
+    <h2>一句话定位</h2>
+<p>自称「世界上第一个 AI 软件工程师」的自主编程 agent：
+在云端沙箱里用自己的终端、浏览器和编辑器，从 Slack 或 GitHub 接任务、
+写代码、跑测试、修 bug、提 PR，定价按「agent 干了多少活」计费，
+而不是按月收人头费。</p>
+<h2>做这个东西的人</h2>
+<p>Cognition AI，2023 年成立，三位创始人 Scott Wu、Steven Hao、Walden Yan
+都是国际信息学奥赛（IOI）金牌选手的华人团队，后引入 8 届 IOI 金牌
+Gennady Korotkevich。产品 Devin 2024 年 3 月发布。
+2025 年 7 月收购了 agentic IDE 公司 Windsurf。</p>
+<p><em>判断：这是把「赌注全押在自主性上」的公司——别人做 copilot（辅助人），
+它做 agent（替人干活）。三位 IOI 金牌的创始人组合在算法竞赛圈
+属于顶配，这是它敢赌「全自主」的底气。团队把自我纠错和规划能力
+视为核心壁垒，而不是代码补全。</em></p>
+<p><em>另注：pool 里的 summary 写的是「Devin Financial Services: Modernizing
+financial services with autonomous AI engineers」，这是数据源把另一家
+公司的产品简介错配到了 Devin 上。真实的 Devin 是 Cognition AI 的
+AI 软件工程师，不是金融服务产品。</em></p>
+<h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>自主执行任务</strong> → 在云端沙箱里规划、写代码、运行测试、调试失败、
+部署应用，从 Slack / GitHub / Linear 接单</li>
+<li><strong>端到端提 PR</strong> → 完成需求后直接提交合并请求，人在旁边审</li>
+<li><strong>Devin 2.0（2025-04）</strong> → 价格从 $500/月降到 $20/月，
+新增类 VS Code 的 IDE 体验、并行开发、交互式规划</li>
+<li><strong>ACU 计费</strong> → 1 ACU 约等于 15 分钟的 agent 工作量，
+按任务复杂度和执行时长收费</li>
+<li><strong>Windsurf 整合（收购后）</strong> → Windsurf IDE 管「人机协作编码」，
+Devin 管「AI 独立执行」，覆盖编程工具全谱系</li>
+<li><strong>自研模型</strong> → SWE-1.5/1.6 编码模型，官方称比 Claude Sonnet 快 13 倍</li>
+</ul>
+<p><strong>它明确不做</strong>：不做本地运行的工具——Devin 是服务不是软件，
+你在云端给它派活，它执行完你审 PR。这跟 Cursor 那种本地实时编辑
+是完全不同的使用方式。</p>
+<h2>它在替代什么旧行为</h2>
+<p><strong>替代的是「雇初级工程师/外包处理高重复性任务」这个动作。</strong>
+以前修技术债、升依赖、批量改文件、跑验证这些规则明确、量大的活，
+要么排人力，要么外包。Devin 把它变成「按用量付钱给 agent」：
+1 ACU 约 $2.25，相当于 $8-9/小时，对标一个初级工程师
+$150/小时左右的成本。这是把软件工程的人力成本表换成了
+云服务的计量表——高盛公布的计划是让 Devin 和 12000 名工程师
+并排工作，目标 20% 的效率提升，相当于白得 2400 个工程师。</p>
+<p><strong>替代的是「人守在 issue 和 PR 前逐条处理」的日常动作。</strong>
+以前开发团队每天花大量时间在 GitHub/Slack 上处理 issue 分类、
+修 lint、解合并冲突；Devin 的设计是「把单派给它」，人只做审阅。</p>
+<h2>商业模式</h2>
+<p><strong>订阅 + 用量计费（SaaS + consumption），结构上更像 AWS 而不是 Cursor。</strong></p>
+<ul>
+<li>Core：$20/月，带基础 ACU 额度（2025-04 降价后）</li>
+<li>Team / Enterprise：自定义，含更高 ACU 和团队管理</li>
+<li>ACU：1 ACU ≈ 15 分钟 agent 工作，约 $2-2.25，叠加在月费之上</li>
+<li>企业客户实际月消费：活跃工程团队可达 $5K-50K+/月</li>
+</ul>
+<p><em>判断：这是它最聪明的一步——用 $20 的入门价做获客，
+真正的钱在 ACU 消耗上。定价和价值交付直接挂钩：
+简单任务便宜，复杂任务贵。它不需要卖「按月订阅的软件」，
+它卖的是「每完成一件工作收一次钱」，企业采购时可以直接
+用「替代多少人工」来算 ROI，采购决策从「软件预算」变成
+「成本替换」。</em></p>
+<h2>硬数字</h2>
+<ul>
+<li>流量榜：月访问 297 万，环比 +80.1%（2026-08）</li>
+<li>ARR：2024-09 为 $100 万 → 2025-06 为 $7300 万（9 个月 73 倍）</li>
+<li>收购 Windsurf（2025-07，约 $8200 万 ARR、350+ 企业客户），合并 ARR 约 $1.55 亿</li>
+<li>2025-09 C 轮估值 $102 亿；2026-04 报道在谈约 $250 亿</li>
+<li>融资总额超 $6.96 亿，净烧钱低于 $2000 万（自报口径）</li>
+<li>客户：Goldman Sachs、Citi、Dell、Cisco、Ramp、Palantir、Nubank、Mercado Libre、NASA-JPL</li>
+<li>企业级实际案例：早期采用者项目成本降幅最高 50%，效率提升超 2 倍</li>
+</ul>
+<h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>IOI 金牌创始团队做 agent 编排，是少数「算法出身 + 做对产品」的组合</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>「自主执行」定位 + ACU 计量定价，把人力替换逻辑做成了销售语言</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>规划、工具使用、自我纠错三层 agent 架构比补全类工具完整；但真实成功率受质疑</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>企业刚开始接受「agent 干活」这个概念，Devin 是第一个做出付费证明的</td>
+</tr>
+</tbody>
+</table>
+<h2>判断</h2>
+<p><strong>值得关注——它是 AI 编程里「自主路线」的定价和商业化样本。</strong></p>
+<p>mom +80.1% 需要拆开看：一是 2025 年 4 月 Devin 2.0 降价到 $20 的
+长尾效应仍在释放，二是 Windsurf 整合带来流量导流，三是 Goldman 等
+大客户新闻带来关注度。这是「产品降价 + 并购整合 + 大客户背书」
+叠加的结果，比单纯自然增长要打折扣，但方向是真实的：
+自主 agent 正在从 demo 变成付费生意。</p>
+<p><strong>最有价值的是它的定价模型，不是它的模型</strong>。ACU 计费把
+「agent 替你干了多少活」变成可计算的账单，这让 CFO 而不是 CTO
+成为采购方——Goldman 算的是「20% 效率提升 = 2400 个免费工程师」。
+这套「按量计费 + 人力替换叙事」是它 9 个月做到 7300 万 ARR 的原因，
+也是后来所有 agent 产品在抄的模板。</p>
+<p><strong>必须承认的争议</strong>：独立分析指出 SWE-bench 有训练数据污染，
+真实世界成功率（约 15%）远低于榜单数字（80%）；早期 demo 被
+逐帧拆出「任务描述被截断」的问题。2025 年后 Cognition 转向
+更诚实的表述（披露 67% PR 合并率、承认限制），这是它重建信任的方式。
+用它的数据要分两档：收入数字（多个独立信源交叉验证）可信，
+能力数字（自报 benchmark）要打折。</p>
+<h2>下一步看什么</h2>
+<p>① 下月 mom +80% 能否延续——降价和并购的红利吃完后还剩多少自然增长
+② 合并后的 ARR 能否从 $1.55 亿继续涨——Windsurf + Devin 的协同是否成立
+③ 真实任务成功率有没有第三方复测的公开数字——这是它估值叙事的地基</p>
+<h2>可借鉴的做法</h2>
+<p><strong>定价结构</strong>：如果你做的是「替人干活」型产品，抄它的 ACU 计费——
+按「完成的活」收费而不是按月收费。这样采购方可以直接算
+「替代了多少人工」的 ROI，决策人从使用者变成财务。
+入门价打低、用量价打高，是获客和变现的最短路径。</p>
+<p><strong>产品逻辑</strong>：挑「规则明确、量大、不需要创造力」的活先自动化
+（技术债、依赖升级、批量修改），这是 agent 唯一能稳定交付的区间。
+Devin 的经历同时证明：别把能力吹到 demo 之上——
+一次性信任崩塌后，要用一整个版本的诚实才能重建。</p>
+<p><strong>话术</strong>：无。官方文案是工程导向，没有可偷的句式。</p>
+<h2>结论</h2>
+<p><strong>值得关注。</strong> 它是「自主编程 agent」商业化的第一个证明：
+收入曲线真实、定价模型可迁移、大客户背书扎实。
+但能力数字要打折看，mom +80% 是多重事件叠加的结果。
+它是所有「卖活不卖软件」类产品的定价模板。</p>
+
+  </article>
 
 
   <nav class="onward" aria-label="继续浏览">
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
-        AI + 效率 共 60 个 →
+        AI + 效率 共 54 个 →
       </a>
     </div>
     <ul class="rows">
@@ -119,7 +257,7 @@
             <span class="row-name">genoffice</span>
             <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 3,003</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 3,003</span>            </span>
           </div>
         </a>
       </li>
@@ -129,7 +267,7 @@
             <span class="row-name">cindy</span>
             <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
             <span class="row-tail">
-<span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
           </div>
         </a>
       </li>
@@ -139,7 +277,7 @@
             <span class="row-name">Needle2</span>
             <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
             <span class="row-tail">
-<span class="tag sig">社区热度 509</span>            </span>
+<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
           </div>
         </a>
       </li>
@@ -192,7 +330,7 @@
   <footer>
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
-    <span>186 个产品 · 10 份深度分析</span>
+    <span>180 个产品 · 180 份深度分析</span>
     <span class="gen">数据截至 2026-08-14</span>
     <span>·</span>
     <a href="../methodology.html">方法与口径</a>

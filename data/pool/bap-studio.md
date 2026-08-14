@@ -8,12 +8,13 @@ inspiration: 零安装是最强的获客手段：把「先下载」这一步砍�
 summary_en: ''
 inspiration_en: Zero install is the strongest acquisition move there is. Deleting “download first” changes
   conversion by an order of magnitude.
+priority_review: false
 url: https://www.producthunt.com/products/bap-studio
 canonical_url: https://producthunt.com/products/bap-studio
 summary: An MPC-style drum machine that runs in a browser tab
 first_seen: '2026-08-06T20:55:58Z'
 last_seen: '2026-08-11T05:03:07Z'
-status: pending_filter
+status: analyzed
 sources:
 - producthunt
 sightings:

@@ -7,12 +7,13 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://www.producthunt.com/products/human-behavior
 canonical_url: https://producthunt.com/products/human-behavior
 summary: Product analytics told you what happened. We handle it.
 first_seen: '2026-08-13T06:47:23Z'
 last_seen: '2026-08-13T11:28:29Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

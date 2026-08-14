@@ -7,12 +7,13 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://www.producthunt.com/products/kivicube
 canonical_url: https://producthunt.com/products/kivicube
 summary: Create AR experiences with AI, no code required!
 first_seen: '2026-08-12T23:52:57Z'
 last_seen: '2026-08-13T11:28:29Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:
