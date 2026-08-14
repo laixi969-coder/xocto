@@ -5,7 +5,8 @@
 {% block body %}
 <div class="wrap">
 
-  <div class="detail-head">
+  <header class="detail-head">
+    <p class="eyebrow">{{ locale.site_tagline }}</p>
     <div class="pick-id">
       <h1>{{ product.name }}</h1>
       {% if analysis and analysis.verdict %}
@@ -35,7 +36,7 @@
       <div><span>{{ t.product.link }}</span><b><a href="{{ product.url }}" target="_blank" rel="noopener">{{ t.product.link_open }}</a></b></div>
       {% endif %}
     </div>
-  </div>
+  </header>
 
   {% if product.inspiration %}
   <section class="band">

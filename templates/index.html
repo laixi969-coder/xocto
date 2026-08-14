@@ -3,18 +3,19 @@
 {% block body %}
 <div class="wrap">
 
-  {# 不做占满一屏的 Hero。用户是来找东西的，不是来读标语的。 #}
-  <div class="lede-bar">
+  {# 这不是营销 Hero，而是当天的编辑台：先交代范围，再把判断递给读者。 #}
+  <header class="lede-bar home-mast">
     <div class="lede-main">
-      <h1>{{ t.home.lede_pre }}<em class="num">{{ stats.analysed }}</em>{{ t.home.lede_post }}</h1>
+      <p class="eyebrow">{{ t.home.eyebrow }}</p>
+      <h1>{{ t.home.lede_title }}</h1>
       <p>{{ t.home.lede_body }}</p>
     </div>
-    <dl class="lede-stats">
+    <dl class="lede-stats" aria-label="{{ t.home.eyebrow }}">
       <div><dt>{{ t.home.stat_total }}</dt><dd class="num">{{ stats.total }}</dd></div>
       <div><dt>{{ locale.stages.early }}</dt><dd class="num">{{ stats.early }}</dd></div>
       <div><dt>{{ locale.stages.proven }}</dt><dd class="num">{{ stats.proven }}</dd></div>
     </dl>
-  </div>
+  </header>
 
   {# 首页的第一件事是告诉读者今天发生了什么；产品卡和目录随后才是证据与延伸。 #}
   {% if reports %}
@@ -49,6 +50,7 @@
     <div class="picks">
       {% for p in picks[:3] %}
       <article class="pick" style="--i: {{ loop.index0 }}">
+        <span class="pick-no num">0{{ loop.index }}</span>
         <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
           <h3>{{ p.name }}</h3>
           {% if p.analysis.verdict %}

@@ -244,9 +244,9 @@ ZH = Locale(
             "updated": "最近数据更新",
         },
         "home": {
-            "lede_pre": "已收录 ",
-            "lede_post": " 个值得研究的产品",
-            "lede_body": "每天都有新的 AI 应用出现。这里优先留下能说清它替人完成哪一步、又有哪些真实信号的产品。",
+            "eyebrow": "GLOBAL PRODUCT INTELLIGENCE · DAILY",
+            "lede_title": "全球 AI 产品，值得继续判断的信号。",
+            "lede_body": "每天筛选新出现与已被验证的 AI 产品，记录它们替人完成了什么，以及哪些公开信号值得继续追踪。",
             "stat_total": "已收录",
             "picks": "编辑精选",
             "picks_note": "从产品中提炼出的可借鉴做法",
@@ -423,10 +423,8 @@ EN = Locale(
             "updated": "Latest data update",
         },
         "home": {
-            # 数字必须打头（它是整屏唯一的高亮件），后面得跟上名词 ——
-            # 只写 "worth your time today" 会变成"0 个什么？"
-            "lede_pre": "",
-            "lede_post": " products worth researching",
+            "eyebrow": "GLOBAL PRODUCT INTELLIGENCE · DAILY",
+            "lede_title": "Global AI products, signals worth pursuing.",
             "lede_body": "New AI products appear every day. We prioritize the ones that make clear "
             "what step they help people complete, and what public signals support the case.",
             "stat_total": "Tracked",

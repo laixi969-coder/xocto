@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#eef2e3" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#032b1f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>All products · x-octo</title>
 <meta name="description" content="All 186 AI products on the radar: what they help people do and the public signals behind them.">
 <link rel="canonical" href="https://xocto.vercel.app/en/products.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/products.html">
@@ -55,15 +55,16 @@
 <main id="main">
 <div class="wrap">
 
-  <div class="lede-bar">
+  <header class="lede-bar directory-mast">
     <div class="lede-main">
+      <p class="eyebrow">Global AI product radar</p>
       <h1 id="ctx-title">All products</h1>
       <p id="ctx-note">This list covers newly released products and apps with public usage data: first see what they help people do, then see whether the signal is holding.</p>
     </div>
     <dl class="lede-stats">
       <div><dt>Showing</dt><dd class="num" id="count">186</dd></div>
     </dl>
-  </div>
+  </header>
 
   <section class="band">
     <div class="controls">
@@ -110,7 +111,7 @@
       </div>
     </div>
 
-    <div class="grid" id="grid">
+    <div class="grid directory" id="grid">
       <a class="card "
          href="../p/deepseek-harness.html"
          data-category="Infrastructure" data-stage="early" data-status="queued"
@@ -2992,7 +2993,7 @@
       return parts.join(' · ');
     }
 
-    function apply(animate) {
+    function apply() {
       var shown = 0;
       cards.forEach(function (card) {
         var ok =
@@ -3010,11 +3011,6 @@
       title.textContent = l || ALL_TITLE;
       note.textContent = STAGE_TEXT[active.stage] || DEFAULT_NOTE;
 
-      if (animate) {
-        grid.classList.remove('settling');
-        void grid.offsetWidth;   // 强制重排，让动画能重放
-        grid.classList.add('settling');
-      }
     }
 
     function reorder() {
@@ -3041,11 +3037,11 @@
         if (group.dataset.dim === 'sort') {
           sort = btn.dataset.val;
           reorder();
-          apply(true);
+          apply();
           syncHash();   // 排序分支原来漏了这一句，换了排序刷新就掉回默认
         } else {
           active[group.dataset.dim] = btn.dataset.val;
-          apply(true);
+          apply();
           syncHash();
         }
       });
@@ -3057,7 +3053,7 @@
         if (g.dataset.dim === 'sort') return;
         mark(g, '');
       });
-      apply(true);
+      apply();
       syncHash();
     });
 
@@ -3123,7 +3119,7 @@
       sort = wantSort;
 
       reorder();
-      apply(false);
+      apply();
     }
 
     fromHash();

@@ -5,15 +5,16 @@
 {% block body %}
 <div class="wrap">
 
-  <div class="lede-bar">
+  <header class="lede-bar directory-mast">
     <div class="lede-main">
+      <p class="eyebrow">{{ locale.site_tagline }}</p>
       <h1 id="ctx-title">{{ t.products.title }}</h1>
       <p id="ctx-note">{{ t.products.note }}</p>
     </div>
     <dl class="lede-stats">
       <div><dt>{{ t.products.count }}</dt><dd class="num" id="count">{{ stats.total }}</dd></div>
     </dl>
-  </div>
+  </header>
 
   <section class="band">
     <div class="controls">
@@ -56,7 +57,7 @@
       </div>
     </div>
 
-    <div class="grid" id="grid">
+    <div class="grid directory" id="grid">
       {% for p in products %}
       <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
          href="{{ root }}p/{{ p.slug }}.html"
@@ -132,7 +133,7 @@
       return parts.join(' · ');
     }
 
-    function apply(animate) {
+    function apply() {
       var shown = 0;
       cards.forEach(function (card) {
         var ok =
@@ -150,11 +151,6 @@
       title.textContent = l || ALL_TITLE;
       note.textContent = STAGE_TEXT[active.stage] || DEFAULT_NOTE;
 
-      if (animate) {
-        grid.classList.remove('settling');
-        void grid.offsetWidth;   // 强制重排，让动画能重放
-        grid.classList.add('settling');
-      }
     }
 
     function reorder() {
@@ -181,11 +177,11 @@
         if (group.dataset.dim === 'sort') {
           sort = btn.dataset.val;
           reorder();
-          apply(true);
+          apply();
           syncHash();   // 排序分支原来漏了这一句，换了排序刷新就掉回默认
         } else {
           active[group.dataset.dim] = btn.dataset.val;
-          apply(true);
+          apply();
           syncHash();
         }
       });
@@ -197,7 +193,7 @@
         if (g.dataset.dim === 'sort') return;
         mark(g, '');
       });
-      apply(true);
+      apply();
       syncHash();
     });
 
@@ -263,7 +259,7 @@
       sort = wantSort;
 
       reorder();
-      apply(false);
+      apply();
     }
 
     fromHash();
