@@ -712,8 +712,8 @@ a:focus-visible, button:focus-visible {
 }
 /* 一句话定位：放大一档，读者扫一眼只看这句 */
 .pick-lead {
-  margin: 16px 0 0; max-width: 52em; font-size: 17px; font-weight: 500;
-  line-height: 1.7; letter-spacing: -.01em;
+  margin: 16px 0 0; max-width: 56em; font-size: 15px; font-weight: 400;
+  line-height: 1.78; letter-spacing: -.005em;
 }
 /* 名字叫 pick-text 而不是 pick-body：后者是首页那个组件的，别撞 */
 .pick-text { margin-top: 15px; max-width: 54em; font-size: 16px; line-height: 1.75; color: var(--ink-soft); }
