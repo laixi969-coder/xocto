@@ -160,8 +160,13 @@ def merge_into_pool(
                 updated = replace(updated, summary=item.summary)
             if not updated.builder and item.extra.get("builder"):
                 updated = replace(updated, builder=item.extra["builder"])
-            if item.extra.get("priority_review") and not updated.priority_review:
-                updated = replace(updated, priority_review=True)
+            # GitHub 每次抓取都会重新合并所有发现通道，因此它对“是否重大”的
+            # 当前判定是权威的。这样可清掉旧规则曾把专题插件误升为重大留下的标记；
+            # 其他来源不能把 GitHub 的重大项目降级。
+            if item.source == "github":
+                priority_review = bool(item.extra.get("priority_review"))
+                if updated.priority_review != priority_review:
+                    updated = replace(updated, priority_review=priority_review)
 
             if _has_material_change(existing, updated):
                 index.add(updated)
