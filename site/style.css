@@ -177,7 +177,7 @@ button { font: inherit; }
 .cat b { color: var(--ink-faint); font-size: 12px; font-weight: 500; }
 .cat:hover { color: var(--signal); }
 
-.tag, .verdict { display: inline-flex; align-items: center; min-height: 20px; padding: 2px 6px; border: 1px solid var(--line); color: var(--ink-soft); font-size: 10px; font-weight: 600; letter-spacing: .035em; line-height: 1.25; }
+.tag, .verdict { display: inline-flex; align-items: center; min-height: 20px; padding: 2px 6px; border: 1px solid var(--line); color: var(--ink-soft); font-size: 11px; font-weight: 600; letter-spacing: .035em; line-height: 1.25; }
 .tag.sig, .verdict.v-strong { border-color: color-mix(in srgb, var(--good) 38%, transparent); color: var(--good); }
 .verdict.v-notable { border-color: color-mix(in srgb, var(--watch) 38%, transparent); color: var(--watch); }
 .verdict.v-unproven { color: var(--ink-faint); }
@@ -199,10 +199,10 @@ button { font: inherit; }
 .card h4 { margin: 0; font-size: 17px; letter-spacing: -.015em; line-height: 1.3; }
 .card:hover h4 { color: var(--signal); }
 .card-top > .num { color: var(--good); font-size: 12px; }
-.card > p { grid-column: 2; margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.62; }
+.card > p { grid-column: 2; margin: 0; color: var(--ink-soft); font-size: 15px; line-height: 1.62; }
 .card .meta { grid-column: 3; grid-row: 1 / span 2; align-content: start; justify-content: flex-end; }
-.card .card-scale { color: var(--ink); font-size: 17px; }
-.card .card-insp { grid-column: 2 / -1; padding-left: 13px; border-left: 2px solid var(--accent); color: var(--ink-soft); }
+.card .card-scale { grid-column: 2; margin: 0; color: var(--ink); font-size: 14px; line-height: 1.5; }
+.card .card-insp { grid-column: 2 / -1; margin: 0; padding-left: 13px; border-left: 2px solid var(--accent); color: var(--ink-soft); font-size: 14px; line-height: 1.55; }
 .empty { padding: 40px 0; color: var(--ink-faint); text-align: center; }
 .linkish { border-bottom: 1px solid currentColor; padding: 0; color: var(--signal); }
 
@@ -367,6 +367,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .card { grid-template-columns: 1fr auto; gap: 10px; padding: 18px 0; }
   .card > p { grid-column: 1 / -1; }
   .card .meta { grid-column: 2; grid-row: 1; }
+  .card .card-scale { grid-column: 1 / -1; }
   .card .card-insp { grid-column: 1 / -1; }
   .detail-head { padding-top: 48px; }
   .detail-head h1 { font-size: clamp(35px, 11vw, 50px); }
