@@ -80,6 +80,19 @@
   </section>
   {% endif %}
 
+  {% if today_takeaway %}
+  <section class="band">
+    <div class="sec-head">
+      <h2>{{ t.home.today_takeaway_title }}</h2>
+      <span class="note">{{ t.home.today_takeaway_note }}</span>
+    </div>
+    <a class="field field-take" href="{{ root }}p/{{ today_takeaway.slug }}.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
+      <span class="field-k">{{ t.home.today_takeaway_from }} · {{ today_takeaway.name }}</span>
+      <p>{{ today_takeaway.text }}</p>
+    </a>
+  </section>
+  {% endif %}
+
   {% if movers %}
   <section class="band">
     <div class="sec-head">

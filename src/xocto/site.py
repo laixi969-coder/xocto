@@ -19,6 +19,7 @@ data/reports/en/ 和 frontmatter 里的 *_en 字段）。模板只有一套，�
 
 from __future__ import annotations
 
+import hashlib
 import html
 import re
 import shutil
@@ -82,6 +83,7 @@ class Analysis:
     excerpt: str
     replaces: str = ""
     takeaway: str = ""
+    takeaway_topics: dict = None
 
 
 # 段首是引言、表格或列表符号 —— 那不是正文段落
@@ -108,6 +110,55 @@ def _section(body: str, *titles: str, limit: int = 200) -> str:
             if text and not _NOT_PROSE.match(text):
                 return _strip_md(text, limit)
     return ""
+
+
+# 「可借鉴的做法」章节里的三个主题标记。中英文都用同一个正则匹配：
+# 中文是 **产品逻辑**：/ **话术**：/ **定价结构**：
+# 英文是 **Product logic**: / **Narrative**: / **Pricing structure**:
+_TOPIC_LABELS = {
+    "产品逻辑": "product", "Product logic": "product",
+    "话术": "narrative", "Narrative": "narrative",
+    "定价结构": "pricing", "Pricing structure": "pricing",
+}
+
+
+def _takeaway_topics(body: str, *titles: str) -> dict[str, str]:
+    """抽出 '可借鉴的做法' 章节里三个主题（product/narrative/pricing）的正文。
+
+    每段以 **产品逻辑**：或 **话术**：或 **定价结构**：开头。返回 dict，缺失的 key 值为空串。
+    """
+    topics: dict[str, str] = {"product": "", "narrative": "", "pricing": ""}
+    section_text = ""
+    for title in titles:
+        match = re.search(
+            rf"^##\s*{re.escape(title)}[^\n]*\n+(.+?)(?=\n#{{1,2}}\s|\Z)",
+            body, re.S | re.M,
+        )
+        if match:
+            section_text = match.group(1)
+            break
+    if not section_text:
+        return topics
+    # 按 **label**：切分
+    pattern = re.compile(
+        r"\*\*(" + "|".join(re.escape(k) for k in _TOPIC_LABELS) + r")\*\*[：:]\s*",
+        re.M,
+    )
+    splits = pattern.split(section_text)
+    # splits 形如 [pre, label, content, label, content, ...]
+    for i in range(1, len(splits) - 1, 2):
+        label = splits[i]
+        key = _TOPIC_LABELS.get(label)
+        if not key:
+            continue
+        # content 到下一个 **label** 或段落结束
+        content = splits[i + 1]
+        # 截到下一个段落开头（**粗体** 或空行）
+        content = re.split(r"\n\s*\n", content, maxsplit=1)[0]
+        text = " ".join(content.split()).strip()
+        if text:
+            topics[key] = text
+    return topics
 
 
 @dataclass(frozen=True)
@@ -201,6 +252,7 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
                 excerpt=excerpt,
                 replaces=_section(body, *locale.heading_replaces),
                 takeaway=_section(body, *locale.heading_takeaway),
+                takeaway_topics=_takeaway_topics(body, *locale.heading_takeaway),
             )
         )
     return sorted(out, key=lambda a: (a.verdict_rank, a.name))
@@ -367,6 +419,39 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         if counts.get(key)
     ]
 
+    # 5. 可借鉴索引：从所有产品的 analysis.takeaway_topics 抽出来，
+    # 按三个主题（产品逻辑 / 话术 / 定价结构）分桶。每条引用来源产品 + 链接。
+    # 这张索引页是给创业者用的导航图——不是产品列表，是"方法列表"。
+    takeaways_by_topic: dict[str, list[dict]] = {"product": [], "narrative": [], "pricing": []}
+    for a in analyses:
+        if a.slug not in view_by_slug:
+            continue
+        v = view_by_slug[a.slug]
+        for key, text in (a.takeaway_topics or {}).items():
+            if not text or key not in takeaways_by_topic:
+                continue
+            # 「无。」或 "无。" 这种诚实承认不可借鉴的，不进索引
+            if re.fullmatch(r"[无N][oOoO]?\s*[。.]?", text):
+                continue
+            takeaways_by_topic[key].append({
+                "slug": a.slug,
+                "name": v["name"],
+                "category": v["category"],
+                "verdict": a.verdict,
+                "verdict_key": a.verdict_key,
+                "text": text,
+            })
+
+    # 6. 今日借鉴：按 latest_day 的日期 hash 选一条产品逻辑类 takeaway。
+    # 每天换一条，强化"给创业者灵感"的定位。用 hash 是为了让中英文同一天选到同一条。
+    latest_day = max((v["last_seen"] for v in views), default="")
+    today_takeaway = None
+    if takeaways_by_topic["product"]:
+        seed = (latest_day or "2026-08-14").replace("-", "")
+        idx = int(hashlib.md5(seed.encode()).hexdigest(), 16) % len(takeaways_by_topic["product"])
+        today_takeaway = takeaways_by_topic["product"][idx]
+
+
     # 读完一份分析之后没有下一步，旅程就断在那里了。
     # 给每个产品算好"同方向的邻居"和"上一个/下一个"，详情页才不是死路。
     ranked = sorted(views, key=lambda v: -v["weight"])
@@ -388,7 +473,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         # 原来填 datetime.now()，于是不采集只重建也会让"更新于"往前走 —— 那是假消息。
         # 顺带修掉一个更烦的后果：时间戳进了 163 个页面，每次构建全部文件都变，
         # git diff 里看不出当天真正改了什么，也违反 CLAUDE.md 的幂等要求。
-        "latest_day": max((v["last_seen"] for v in views), default=""),
+        "latest_day": latest_day,
         "stats": {
             "total": len(views),
             "early": len(early),
@@ -406,6 +491,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "movers": movers,
         "categories": categories,
         "products": sorted(views, key=lambda v: -v["weight"]),
+        "takeaways_by_topic": takeaways_by_topic,
+        "today_takeaway": today_takeaway,
     }
 
 
@@ -580,6 +667,8 @@ def _schema(
     elif page == "methodology":
         webpage["@type"] = "AboutPage"
         graph.append(organization)
+    elif page == "takeaways":
+        webpage["@type"] = "CollectionPage"
     elif page == "privacy":
         webpage["@type"] = "AboutPage"
     return {"@context": "https://schema.org", "@graph": graph}
@@ -640,7 +729,7 @@ def _page_paths(ctx: dict[str, Any]) -> set[str]:
     语言切换按钮要靠它决定跳去哪：产品页两个语种都有，但每日观察不一定 ——
     中文有 2026-08-11 而英文还没写的时候，直接跳过去就是一条死链。
     """
-    paths = {"index.html", "products.html", "methodology.html", "privacy.html"}
+    paths = {"index.html", "products.html", "methodology.html", "privacy.html", "takeaways.html"}
     paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
     paths.update(f"r/{r.day}.html" for r in ctx["reports"])
     return paths
@@ -733,6 +822,13 @@ def _build_locale(
         locale.t["methodology"]["lede"], schema_title=locale.t["methodology"]["title"],
     )
     sitemap.append((locale.path("methodology.html"), ctx["latest_day"]))
+
+    write(
+        "takeaways.html", "takeaways.html", "takeaways",
+        locale.t["takeaways"]["desc"].format(total=len(ctx["takeaways_by_topic"]["product"]) + len(ctx["takeaways_by_topic"]["narrative"]) + len(ctx["takeaways_by_topic"]["pricing"])),
+        schema_title=locale.t["takeaways"]["title"],
+    )
+    sitemap.append((locale.path("takeaways.html"), ctx["latest_day"]))
 
     write(
         "privacy.html", "privacy.html", "privacy",
