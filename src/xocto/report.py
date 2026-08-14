@@ -226,7 +226,7 @@ def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
         inline_picks = _parse_inline_picks(rest)
         if inline_picks:
             # “今天最值得看的 3 个”只是分组标题；真正的卡片由其中三条产品构成。
-            for rank, name, lead in inline_picks:
+            for rank, name, inline_lead in inline_picks:
                 picks.append(
                     Pick(
                         rank=f"{int(rank):02d}",
@@ -234,14 +234,14 @@ def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
                         verdict="",
                         verdict_key="",
                         metas=(),
-                        lead=lead,
+                        lead=inline_lead,
                         body_html="",
                         link="",
                         link_label=locale.cta_default,
                     )
                 )
             continue
-        rank, name, metas, verdict = _parse_pick_head(head, i, locale)
+        rank, name, metas, verdict = _parse_pick_head(head, len(picks) + 1, locale)
 
         rest = _RULE_LINE.sub("", rest)
         link = link_label = ""

@@ -12,6 +12,8 @@ class ReportParsingTests(unittest.TestCase):
 
 ## AI 应用雷达 · 2026-08-14
 
+今天几乎所有候选都围绕 DeepSeek Harness 展开。
+
 ### 今天最值得看的3个
 
 1. deepseek-harness：官方插件化框架。 2. dsh-tui：全屏终端插件。 3. dsh-workflow：可治理的工作流层。
@@ -21,7 +23,8 @@ class ReportParsingTests(unittest.TestCase):
 - other：另一项。
 """
 
-        picks = parse_report(report, ZH).sections[0].picks
+        section = parse_report(report, ZH).sections[0]
+        picks = section.picks
 
         self.assertEqual(
             [pick.name for pick in picks[:3]],
@@ -30,6 +33,7 @@ class ReportParsingTests(unittest.TestCase):
         self.assertEqual(picks[0].rank, "01")
         self.assertNotIn("dsh-tui", picks[0].lead)
         self.assertEqual(picks[1].lead, "全屏终端插件。")
+        self.assertIn("今天几乎所有候选", section.lead_html)
 
 
 if __name__ == "__main__":
