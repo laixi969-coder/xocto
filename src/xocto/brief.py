@@ -126,25 +126,36 @@ def _request(messages: list[dict[str, str]]) -> dict[str, Any]:
         "model": os.environ.get("DEEPSEEK_MODEL") or DEFAULT_MODEL,
         "messages": messages,
         "response_format": {"type": "json_object"},
-        "max_tokens": 12000,
+        # 日报不是开放式推理题；关掉 thinking 能缩短每日发布，也能避免 JSON
+        # 模式里只返回 reasoning、final content 为空的情况。
+        "thinking": {"type": "disabled"},
+        "max_tokens": 8000,
         "temperature": 0.2,
     }
-    try:
-        with httpx.Client(timeout=120) as client:
-            response = client.post(API_URL, headers={"Authorization": f"Bearer {api_key}"}, json=body)
-            response.raise_for_status()
-            content = response.json()["choices"][0]["message"]["content"]
-    except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError) as exc:
-        raise BriefError(f"DeepSeek 请求失败：{exc}") from exc
-    if not content or not content.strip():
-        raise BriefError("DeepSeek 返回了空内容，未写入任何日报")
-    try:
-        result = json.loads(content)
-    except json.JSONDecodeError as exc:
-        raise BriefError("DeepSeek 返回的不是合法 JSON，未写入任何日报") from exc
-    if not isinstance(result, dict):
-        raise BriefError("DeepSeek 返回格式不对，未写入任何日报")
-    return result
+    # DeepSeek 的 JSON 模式偶发空 content；官方文档也建议调用方处理该情形。
+    # 只重试空响应，HTTP/格式问题仍立即失败，避免悄悄烧掉预算。
+    for attempt in range(2):
+        try:
+            with httpx.Client(timeout=120) as client:
+                response = client.post(
+                    API_URL, headers={"Authorization": f"Bearer {api_key}"}, json=body
+                )
+                response.raise_for_status()
+                content = response.json()["choices"][0]["message"]["content"]
+        except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError) as exc:
+            raise BriefError(f"DeepSeek 请求失败：{exc}") from exc
+        if not content or not content.strip():
+            if attempt == 0:
+                continue
+            raise BriefError("DeepSeek 连续两次返回空内容，未写入任何日报")
+        try:
+            result = json.loads(content)
+        except json.JSONDecodeError as exc:
+            raise BriefError("DeepSeek 返回的不是合法 JSON，未写入任何日报") from exc
+        if not isinstance(result, dict):
+            raise BriefError("DeepSeek 返回格式不对，未写入任何日报")
+        return result
+    raise AssertionError("unreachable")
 
 
 def _text(value: Any, field: str, *, required: bool = True) -> str:
