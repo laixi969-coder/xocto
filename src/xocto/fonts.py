@@ -16,7 +16,6 @@ import shutil
 from pathlib import Path
 
 LATIN_FONTS = (
-    "fraunces-700-latin.woff2",
     "inter-400-latin.woff2",
     "inter-500-latin.woff2",
     "inter-600-latin.woff2",
