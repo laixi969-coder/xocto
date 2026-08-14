@@ -13,16 +13,16 @@ canonical_url: https://github.com/Hao0321/ai-short-drama
 summary: AI short-drama story architecture, series continuity, production packs and resumable generation
   workflows for Codex and Claude Code.
 first_seen: '2026-08-09T13:28:48Z'
-last_seen: '2026-08-13T11:28:32Z'
+last_seen: '2026-08-14T04:47:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Hao0321/ai-short-drama
-  seen_at: '2026-08-13T11:28:32Z'
+  seen_at: '2026-08-14T04:47:02Z'
   metrics:
-    stars: 47
+    stars: 48
     forks: 9
     open_issues: 0
 ---

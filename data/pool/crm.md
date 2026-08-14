@@ -11,17 +11,17 @@ url: https://trycrm.ai
 canonical_url: https://trycrm.ai
 summary: Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.
 first_seen: '2026-07-31T21:38:51Z'
-last_seen: '2026-08-13T23:03:01Z'
+last_seen: '2026-08-14T04:47:02Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://trycrm.ai
-  seen_at: '2026-08-13T23:03:01Z'
+  seen_at: '2026-08-14T04:47:02Z'
   metrics:
-    stars: 8387
-    forks: 981
+    stars: 8402
+    forks: 986
     open_issues: 11
 ---
 

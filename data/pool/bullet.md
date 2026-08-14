@@ -12,7 +12,7 @@ url: https://www.producthunt.com/products/bullet-6
 canonical_url: https://producthunt.com/products/bullet-6
 summary: 30-60% faster than Claude Code and Codex
 first_seen: '2026-08-06T06:56:29Z'
-last_seen: '2026-08-13T23:03:00Z'
+last_seen: '2026-08-14T04:47:01Z'
 status: pending_filter
 sources:
 - producthunt
@@ -24,10 +24,10 @@ sightings:
   metrics: {}
 - source: hackernews
   url: https://www.codewithbullet.com
-  seen_at: '2026-08-13T23:03:00Z'
+  seen_at: '2026-08-14T04:47:01Z'
   metrics:
-    points: 73
-    comments: 46
+    points: 90
+    comments: 64
 ---
 
 # Bullet

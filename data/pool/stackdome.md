@@ -11,16 +11,16 @@ url: https://stackdome.com
 canonical_url: https://stackdome.com
 summary: An open source self-hostable Railway alternative on K8s
 first_seen: '2026-08-13T12:43:04Z'
-last_seen: '2026-08-13T23:03:00Z'
+last_seen: '2026-08-14T04:47:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://stackdome.com
-  seen_at: '2026-08-13T23:03:00Z'
+  seen_at: '2026-08-14T04:47:01Z'
   metrics:
-    points: 20
+    points: 21
     comments: 6
 ---
 

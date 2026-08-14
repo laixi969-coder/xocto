@@ -11,17 +11,17 @@ url: https://github.com/itsmeadarsh2008/opencode-senses
 canonical_url: https://github.com/itsmeadarsh2008/opencode-senses
 summary: An insanely fast and highly accurate vision plugin
 first_seen: '2026-08-13T18:13:42Z'
-last_seen: '2026-08-13T23:03:00Z'
+last_seen: '2026-08-14T04:47:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/itsmeadarsh2008/opencode-senses
-  seen_at: '2026-08-13T23:03:00Z'
+  seen_at: '2026-08-14T04:47:01Z'
   metrics:
     points: 8
-    comments: 1
+    comments: 2
 ---
 
 # OpenCode Senses
