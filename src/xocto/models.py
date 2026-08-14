@@ -218,6 +218,9 @@ class Product:
     # 英文站用的灵感。英文页面上缺这句就整块不显示 ——
     # 宁可少一块，也不能在英文页面里混中文。
     inspiration_en: str = ""
+    # 来自专题、官方组织或全局突破通道的重大项目。它们必须进入日报复核，
+    # 不能因普通候选噪音而被静默淘汰。
+    priority_review: bool = False
     notes: str = ""  # 人或 Claude 写的自由笔记，机器不覆盖
 
     @property
@@ -272,4 +275,5 @@ class Product:
             status=STATUS_PENDING_FILTER,
             sightings=(sighting,),
             builder=item.extra.get("builder", ""),
+            priority_review=bool(item.extra.get("priority_review")),
         )

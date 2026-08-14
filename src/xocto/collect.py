@@ -119,6 +119,8 @@ def _has_material_change(old: Product, new: Product) -> bool:
         return True
     if old.summary != new.summary or old.builder != new.builder:
         return True
+    if old.priority_review != new.priority_review:
+        return True
     old_metrics = {(s.source, s.url): s.metrics for s in old.sightings}
     new_metrics = {(s.source, s.url): s.metrics for s in new.sightings}
     return old_metrics != new_metrics
@@ -158,6 +160,8 @@ def merge_into_pool(
                 updated = replace(updated, summary=item.summary)
             if not updated.builder and item.extra.get("builder"):
                 updated = replace(updated, builder=item.extra["builder"])
+            if item.extra.get("priority_review") and not updated.priority_review:
+                updated = replace(updated, priority_review=True)
 
             if _has_material_change(existing, updated):
                 index.add(updated)

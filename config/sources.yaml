@@ -60,6 +60,18 @@ sources:
       - "ai workflow"
       # "llm application" 实测 0 条 —— 没人这么写。用大家真在用的词。
       - "llm app"
+    # 第二条发现链路：专题不会受项目名称和营销文案影响。新专题在发现漏口后加进来。
+    topics:
+      - "dsh"
+      - "dsh-plugin"
+    # 第三条发现链路：发布几天内已经爆发的项目无论关键词为何都必须复核。
+    breakout:
+      enabled: true
+      within_days: 3
+      min_stars: 5000
+    # 第四条发现链路：重点发布方的新仓库按创建时间扫，不依赖 Search。
+    official_organizations:
+      - "deepseek-ai"
 
   # AICPB（AI 产品榜）。中文世界唯一能拿到真实数据的源。
   # 性质和上面三个不同：它给的不是"刚冒出来的新东西"，而是

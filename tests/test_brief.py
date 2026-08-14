@@ -6,7 +6,13 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from xocto.brief import BriefError, _report_markdown, _updates, candidates_for_day
+from xocto.brief import (
+    BriefError,
+    _report_markdown,
+    _require_priority_coverage,
+    _updates,
+    candidates_for_day,
+)
 from xocto.models import Product, STATUS_PENDING_FILTER, Sighting
 from xocto.store import Store
 
@@ -57,6 +63,19 @@ class BriefTests(unittest.TestCase):
         self.assertEqual(updated.status, "watching")
         self.assertEqual(updated.category, "AI + 开发")
         self.assertTrue(updated.inspiration_en)
+
+    def test_priority_candidate_cannot_be_silently_rejected(self) -> None:
+        source = replace(product(), priority_review=True)
+        with self.assertRaises(BriefError):
+            _updates(
+                {"products": [{"slug": "example", "decision": "rejected"}]},
+                [source],
+            )
+
+    def test_priority_candidate_must_appear_in_both_reports(self) -> None:
+        source = replace(product("deepseek-harness"), name="DeepSeek Harness", priority_review=True)
+        with self.assertRaises(BriefError):
+            _require_priority_coverage([source], "## 今日观察\n\nDeepSeek Harness", "## Today")
 
     def test_report_frontmatter_is_created_by_code(self) -> None:
         result = {

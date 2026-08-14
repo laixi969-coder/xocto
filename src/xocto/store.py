@@ -159,6 +159,7 @@ class Store:
             # 而且不会报错 —— 加字段时读写必须成对改。
             "summary_en": product.summary_en,
             "inspiration_en": product.inspiration_en,
+            "priority_review": product.priority_review,
             "url": product.url,
             "canonical_url": product.canonical_url,
             "summary": product.summary,
@@ -225,6 +226,7 @@ class Store:
                 inspiration=front.get("inspiration") or "",
                 summary_en=front.get("summary_en") or "",
                 inspiration_en=front.get("inspiration_en") or "",
+                priority_review=bool(front.get("priority_review")),
                 notes=notes,
             )
         except KeyError as exc:
