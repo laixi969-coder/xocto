@@ -35,6 +35,14 @@ _RULE_LINE = re.compile(r"^-{3,}\s*$", re.M)
 # 整段只有一句加粗（可能带冒号）—— 作者的意思是小标题，不是段落
 _LABEL_ONLY = re.compile(r"^\*\*([^*]+?)\*\*\s*[:：]?$")
 
+# 模型偶尔会把“1. A：… 2. B：…”塞进同一个段落。内容没丢，但卡片解析器
+# 只认 ###，会把三条判断排成一堵墙。这里仅接住完整的连续编号段，避免猜测正文。
+_INLINE_PICK = re.compile(
+    r"(?:^|\s)(?P<rank>\d+)\s*[.、]\s*(?P<name>[^：:\n]+?)\s*[：:]\s*"
+    r"(?P<lead>.*?)(?=(?:\s+\d+\s*[.、]\s*[^：:\n]+?\s*[：:])|\Z)",
+    re.S,
+)
+
 
 @dataclass(frozen=True)
 class Pick:
@@ -184,6 +192,29 @@ def _parse_pick_head(
     return rank, name, tuple(rest), verdict
 
 
+def _parse_inline_picks(text: str) -> tuple[tuple[str, str, str], ...]:
+    """识别一个完整的行内编号产品段；不完整时保持原样交给普通 Markdown。"""
+    text = text.strip()
+    matches = list(_INLINE_PICK.finditer(text))
+    if len(matches) < 2:
+        return ()
+
+    cursor = 0
+    rows: list[tuple[str, str, str]] = []
+    for match in matches:
+        if text[cursor:match.start()].strip():
+            return ()
+        cursor = match.end()
+        rows.append(
+            (
+                match.group("rank"),
+                match.group("name").replace("**", "").strip(),
+                _plain(match.group("lead")),
+            )
+        )
+    return tuple(rows) if not text[cursor:].strip() else ()
+
+
 def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
     """把 ### 拆成产品卡，返回（版块引言, 卡片）。"""
     chunks = re.split(r"^###\s+", body, flags=re.M)
@@ -192,6 +223,24 @@ def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
 
     for i, chunk in enumerate(chunks[1:], start=1):
         head, _, rest = chunk.partition("\n")
+        inline_picks = _parse_inline_picks(rest)
+        if inline_picks:
+            # “今天最值得看的 3 个”只是分组标题；真正的卡片由其中三条产品构成。
+            for rank, name, lead in inline_picks:
+                picks.append(
+                    Pick(
+                        rank=f"{int(rank):02d}",
+                        name=name,
+                        verdict="",
+                        verdict_key="",
+                        metas=(),
+                        lead=lead,
+                        body_html="",
+                        link="",
+                        link_label=locale.cta_default,
+                    )
+                )
+            continue
         rank, name, metas, verdict = _parse_pick_head(head, i, locale)
 
         rest = _RULE_LINE.sub("", rest)
