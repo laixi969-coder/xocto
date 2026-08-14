@@ -13,18 +13,18 @@ canonical_url: https://gallery.dsh-market.com
 summary: Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side
   panel, remote mobile UI, pet, live token stats, and skin center.
 first_seen: '2026-08-12T05:15:20Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T06:18:59Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://gallery.dsh-market.com
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T06:18:59Z'
   metrics:
-    stars: 1063
-    forks: 41
-    open_issues: 18
+    stars: 1077
+    forks: 42
+    open_issues: 19
 ---
 
 # dsh-web-ui

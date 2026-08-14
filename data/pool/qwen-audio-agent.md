@@ -8,21 +8,22 @@ inspiration: 语音让 agent 从「工具」变成「在场的人」，这个体
 summary_en: ''
 inspiration_en: Voice turns an agent from a tool into someone present. That experience gap is bigger than
   the technical one.
+priority_review: false
 url: https://github.com/QwenAudio/qwen-audio-agent
 canonical_url: https://github.com/QwenAudio/qwen-audio-agent
 summary: A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime
   for AI Agents
 first_seen: '2026-07-27T05:04:26Z'
-last_seen: '2026-08-14T04:47:02Z'
+last_seen: '2026-08-14T06:18:59Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/QwenAudio/qwen-audio-agent
-  seen_at: '2026-08-14T04:47:02Z'
+  seen_at: '2026-08-14T06:18:59Z'
   metrics:
-    stars: 2123
+    stars: 2124
     forks: 167
     open_issues: 7
 ---

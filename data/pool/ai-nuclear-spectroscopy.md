@@ -12,16 +12,16 @@ url: https://github.com/JWP-p/ai-nuclear-spectroscopy
 canonical_url: https://github.com/JWP-p/ai-nuclear-spectroscopy
 summary: An auditable human–AI workflow from NNDC/ENSDF data to gamma-ray GCD lifetime inference.
 first_seen: '2026-08-11T08:00:56Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T06:18:59Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JWP-p/ai-nuclear-spectroscopy
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T06:18:59Z'
   metrics:
-    stars: 91
+    stars: 92
     forks: 4
     open_issues: 1
 ---
