@@ -14,16 +14,16 @@ summary: 'MCP server for AI agents that need a phone number: order a private num
   read the SMS verification code, hand it back. The widest country coverage in the category, and you can
   check it with one API call.'
 first_seen: '2026-08-07T11:13:26Z'
-last_seen: '2026-08-14T04:47:02Z'
+last_seen: '2026-08-14T04:55:58Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://sms-verification-number.com/en/number-for-ai-agents/
-  seen_at: '2026-08-14T04:47:02Z'
+  seen_at: '2026-08-14T04:55:58Z'
   metrics:
-    stars: 570
+    stars: 571
     forks: 3
     open_issues: 0
 ---
