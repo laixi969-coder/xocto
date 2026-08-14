@@ -8,21 +8,22 @@ inspiration: AI 参与生产后，「这东西哪来的」变成了新的刚需�
 summary_en: ''
 inspiration_en: Once AI is in the production chain, “where did this come from” becomes a hard requirement.
   Provenance is a category opening up.
+priority_review: false
 url: https://pypi.org/project/trace-file-lineage/
 canonical_url: https://pypi.org/project/trace-file-lineage
 summary: Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence
   and honest uncertainty.
 first_seen: '2026-07-29T22:05:47Z'
-last_seen: '2026-08-14T04:55:58Z'
+last_seen: '2026-08-14T06:12:07Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://pypi.org/project/trace-file-lineage/
-  seen_at: '2026-08-14T04:55:58Z'
+  seen_at: '2026-08-14T06:12:07Z'
   metrics:
-    stars: 533
+    stars: 534
     forks: 8
     open_issues: 0
 ---

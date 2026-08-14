@@ -7,23 +7,24 @@ summary_zh: DeepSeek Harness生态的插件、工具和基础设施精选列表�
 inspiration: 围绕单一模型的生态聚合站，可借鉴其构建开发者工具链的模式。
 summary_en: Curated list of plugins, tools, and infrastructure for the DeepSeek Harness ecosystem.
 inspiration_en: Ecosystem aggregation around a single model offers a pattern for building developer toolchains.
+priority_review: true
 url: https://deepseekdocs.com/
 canonical_url: https://deepseekdocs.com
 summary: 'DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub
   and the public dsh-plugin topic.'
 first_seen: '2026-08-11T13:14:49Z'
-last_seen: '2026-08-14T05:03:08Z'
+last_seen: '2026-08-14T06:12:07Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://deepseekdocs.com/
-  seen_at: '2026-08-14T05:03:08Z'
+  seen_at: '2026-08-14T06:12:07Z'
   metrics:
-    stars: 238
-    forks: 56
-    open_issues: 10
+    stars: 250
+    forks: 61
+    open_issues: 0
 ---
 
 # awesome-deepseek-harness

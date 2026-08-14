@@ -8,20 +8,21 @@ inspiration: 把「什么叫难看」写成机器能执行的规则——审美�
 summary_en: ''
 inspiration_en: Writing down what “ugly” means as rules a machine can check. Taste can be frozen into
   constraints, and that holds for any creative pipeline.
+priority_review: false
 url: https://github.com/miqdadbadjuber/anti-slop
 canonical_url: https://github.com/miqdadbadjuber/anti-slop
 summary: Design rules to stop AI coding agents from generating generic "AI slop" UI.
 first_seen: '2026-08-07T10:29:56Z'
-last_seen: '2026-08-14T04:47:02Z'
+last_seen: '2026-08-14T06:12:07Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/miqdadbadjuber/anti-slop
-  seen_at: '2026-08-14T04:47:02Z'
+  seen_at: '2026-08-14T06:12:07Z'
   metrics:
-    stars: 199
+    stars: 201
     forks: 20
     open_issues: 7
 ---

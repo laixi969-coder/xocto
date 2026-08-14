@@ -8,21 +8,22 @@ inspiration: 文档和表格中间那条界限正在被 AI 抹掉，谁先做成
 summary_en: ''
 inspiration_en: The line between documents and spreadsheets is being erased by AI. Whoever unifies the
   experience first names the category.
+priority_review: false
 url: https://kition.ai
 canonical_url: https://kition.ai
 summary: Kition brings Markdown documents, structured table files, a tool-using AI agent, browser research,
   and visual workflows into one desktop workspace.
 first_seen: '2026-07-25T04:41:35Z'
-last_seen: '2026-08-14T04:47:02Z'
+last_seen: '2026-08-14T06:12:07Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://kition.ai
-  seen_at: '2026-08-14T04:47:02Z'
+  seen_at: '2026-08-14T06:12:07Z'
   metrics:
-    stars: 79
+    stars: 82
     forks: 3
     open_issues: 1
 ---

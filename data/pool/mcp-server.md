@@ -8,22 +8,23 @@ inspiration: agent 要办事就得有身份，而身份的最小单位是手机�
 summary_en: ''
 inspiration_en: An agent that gets things done needs an identity, and the smallest unit of identity is
   a phone number. That is an overlooked business.
+priority_review: false
 url: https://sms-verification-number.com/en/number-for-ai-agents/
 canonical_url: https://sms-verification-number.com/en/number-for-ai-agents
 summary: 'MCP server for AI agents that need a phone number: order a private number in 200+ countries,
   read the SMS verification code, hand it back. The widest country coverage in the category, and you can
   check it with one API call.'
 first_seen: '2026-08-07T11:13:26Z'
-last_seen: '2026-08-14T04:55:58Z'
+last_seen: '2026-08-14T06:12:07Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://sms-verification-number.com/en/number-for-ai-agents/
-  seen_at: '2026-08-14T04:55:58Z'
+  seen_at: '2026-08-14T06:12:07Z'
   metrics:
-    stars: 571
+    stars: 573
     forks: 3
     open_issues: 0
 ---

@@ -8,22 +8,23 @@ inspiration: 把 agent 从「个人助理」改成「公司同事」，难点不
 summary_en: ''
 inspiration_en: Turning an agent from a personal assistant into a company colleague. The hard part is
   not the model, it is scoping memory and permissions per person.
+priority_review: false
 url: https://x.com/qm__dev
 canonical_url: https://x.com/qm__dev
 summary: Multiplayer agent harness for work. https://qm.ycombinator.com
 first_seen: '2026-07-29T20:03:08Z'
-last_seen: '2026-08-14T04:55:58Z'
+last_seen: '2026-08-14T06:12:07Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://x.com/qm__dev
-  seen_at: '2026-08-14T04:55:58Z'
+  seen_at: '2026-08-14T06:12:07Z'
   metrics:
-    stars: 13475
-    forks: 1583
-    open_issues: 214
+    stars: 13482
+    forks: 1584
+    open_issues: 216
 ---
 
 # qm

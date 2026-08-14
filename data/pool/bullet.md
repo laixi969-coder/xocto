@@ -8,11 +8,12 @@ inspiration: 速度是开发者工具的硬通货，可迁移到任何效率类�
 summary_en: AI coding tool claiming to be 30-60% faster than Claude Code and Codex.
 inspiration_en: Speed is the hard currency for developer tools, transferable to any productivity product
   positioning.
+priority_review: false
 url: https://www.producthunt.com/products/bullet-6
 canonical_url: https://producthunt.com/products/bullet-6
 summary: 30-60% faster than Claude Code and Codex
 first_seen: '2026-08-06T06:56:29Z'
-last_seen: '2026-08-14T05:03:07Z'
+last_seen: '2026-08-14T06:12:06Z'
 status: queued
 sources:
 - producthunt
@@ -24,10 +25,10 @@ sightings:
   metrics: {}
 - source: hackernews
   url: https://www.codewithbullet.com
-  seen_at: '2026-08-14T05:03:07Z'
+  seen_at: '2026-08-14T06:12:06Z'
   metrics:
-    points: 92
-    comments: 66
+    points: 93
+    comments: 68
 ---
 
 # Bullet
