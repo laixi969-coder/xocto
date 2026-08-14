@@ -48,6 +48,14 @@ class GithubDiscoveryTests(unittest.TestCase):
         )
         self.assertEqual(rows, [])
 
+    def test_topic_discovery_collects_an_ecosystem_without_forcing_every_plugin_into_report(self) -> None:
+        rows = fetch(
+            {"topics": ["dsh"], "created_within_days": 21, "min_stars": 40},
+            FakeHttp(),
+        )
+        self.assertEqual(len(rows), 1)
+        self.assertFalse(rows[0].extra["priority_review"])
+
     def test_structured_discovery_marks_major_official_project_for_review(self) -> None:
         http = FakeHttp()
         rows = fetch(

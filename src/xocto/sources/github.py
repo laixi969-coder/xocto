@@ -90,7 +90,6 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
         search(
             f"topic:{topic} created:>{since} stars:>={min_stars}",
             f"topic:{topic}",
-            priority_review=True,
         )
 
     # 全局突破项目：新建数日内已经爆发的仓库必须进入人工/模型复核，即使名称和
