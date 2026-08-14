@@ -14,16 +14,16 @@ canonical_url: https://kition.ai
 summary: Kition brings Markdown documents, structured table files, a tool-using AI agent, browser research,
   and visual workflows into one desktop workspace.
 first_seen: '2026-07-25T04:41:35Z'
-last_seen: '2026-08-14T06:12:07Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://kition.ai
-  seen_at: '2026-08-14T06:12:07Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 82
+    stars: 88
     forks: 3
     open_issues: 1
 ---

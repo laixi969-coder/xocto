@@ -12,17 +12,17 @@ url: https://github.com/hewzhew/dsh-agent-rp
 canonical_url: https://github.com/hewzhew/dsh-agent-rp
 summary: SillyTavern migration and next-generation Agent RP for DSH
 first_seen: '2026-08-13T12:49:30Z'
-last_seen: '2026-08-14T06:25:49Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hewzhew/dsh-agent-rp
-  seen_at: '2026-08-14T06:25:49Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 84
-    forks: 2
+    stars: 108
+    forks: 3
     open_issues: 0
 ---
 

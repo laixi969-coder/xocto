@@ -8,22 +8,23 @@ inspiration: 低代码编排 vs 代码编排的路线之争，开发者最终会
 summary_en: ''
 inspiration_en: Low-code orchestration versus code orchestration. Developers end up choosing whatever
   they can put in version control.
+priority_review: false
 url: https://deerwork-ai.github.io/deer-workflow/
 canonical_url: https://deerwork-ai.github.io/deer-workflow
 summary: An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates
   semantic work to replaceable Agent runtimes.
 first_seen: '2026-07-26T04:20:50Z'
-last_seen: '2026-08-13T23:03:01Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://deerwork-ai.github.io/deer-workflow/
-  seen_at: '2026-08-13T23:03:01Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 470
-    forks: 46
+    stars: 472
+    forks: 47
     open_issues: 6
 ---
 

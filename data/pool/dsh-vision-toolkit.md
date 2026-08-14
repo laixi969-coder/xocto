@@ -14,18 +14,18 @@ summary: '让纯文本模型更好地做视觉任务的DeepSeek Harness插件：
   for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts,
   and Web UI.'
 first_seen: '2026-08-13T12:36:34Z'
-last_seen: '2026-08-14T06:25:49Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Anionex/dsh-vision-toolkit
-  seen_at: '2026-08-14T06:25:49Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 253
-    forks: 16
-    open_issues: 5
+    stars: 329
+    forks: 18
+    open_issues: 0
 ---
 
 # dsh-vision-toolkit

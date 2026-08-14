@@ -13,18 +13,18 @@ canonical_url: https://github.com/Ruler4396/dsh-launcher
 summary: 'Lightweight Windows launcher for DeepSeek Harness: silent autostart at logon + a minimal WebView2
   window instead of a full browser'
 first_seen: '2026-08-13T13:27:09Z'
-last_seen: '2026-08-14T06:25:49Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ruler4396/dsh-launcher
-  seen_at: '2026-08-14T06:25:49Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 47
-    forks: 0
-    open_issues: 0
+    stars: 75
+    forks: 3
+    open_issues: 3
 ---
 
 # dsh-launcher

@@ -12,16 +12,16 @@ url: https://github.com/StamManif/mcp-stama
 canonical_url: https://github.com/StamManif/mcp-stama
 summary: An ultra-fast Rust MCP server with no dependencies
 first_seen: '2026-08-13T22:26:25Z'
-last_seen: '2026-08-14T04:47:01Z'
+last_seen: '2026-08-14T22:40:49Z'
 status: analyzed
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/StamManif/mcp-stama
-  seen_at: '2026-08-14T04:47:01Z'
+  seen_at: '2026-08-14T22:40:49Z'
   metrics:
-    points: 71
+    points: 73
     comments: 0
 ---
 

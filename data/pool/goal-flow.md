@@ -8,21 +8,22 @@ inspiration: 框架之上再套框架，说明底层框架还不够好用，中�
 summary_en: ''
 inspiration_en: A framework on top of a framework means the base one isn't good enough yet. The middle
   layer is where the opening is.
+priority_review: false
 url: https://github.com/wanmol/goal-flow
 canonical_url: https://github.com/wanmol/goal-flow
 summary: Graph-Orchestrated Agent Loop — a production-grade framework on LangGraph. Combine workflow graphs
   and agent loops, transpile Dify DSL to runnable code, swap wire protocols (Dify/OpenAI).
 first_seen: '2026-08-06T15:43:24Z'
-last_seen: '2026-08-13T03:25:28Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wanmol/goal-flow
-  seen_at: '2026-08-13T03:25:28Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 131
+    stars: 132
     forks: 2
     open_issues: 0
 ---

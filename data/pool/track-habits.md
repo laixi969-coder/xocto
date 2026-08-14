@@ -12,17 +12,17 @@ url: https://habitpocket.io/
 canonical_url: https://habitpocket.io
 summary: metrics, time and whateven you think worth tracking
 first_seen: '2026-08-13T15:08:54Z'
-last_seen: '2026-08-14T04:47:01Z'
+last_seen: '2026-08-14T22:40:49Z'
 status: analyzed
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://habitpocket.io/
-  seen_at: '2026-08-14T04:47:01Z'
+  seen_at: '2026-08-14T22:40:49Z'
   metrics:
-    points: 6
-    comments: 7
+    points: 7
+    comments: 11
 ---
 
 # Track habits

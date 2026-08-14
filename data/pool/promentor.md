@@ -13,16 +13,16 @@ canonical_url: https://github.com/Lyn-77/ProMentor
 summary: ProMentor 是一个 AI Coding Agent Skill。装上它，你的 AI 编程助手立刻化身为导师——扫描项目架构、生成阶梯式 Chapter、带你手写核心逻辑、自动判题、AI
   Code Review。
 first_seen: '2026-07-31T12:32:05Z'
-last_seen: '2026-08-14T06:25:49Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Lyn-77/ProMentor
-  seen_at: '2026-08-14T06:25:49Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 48
+    stars: 51
     forks: 1
     open_issues: 0
 ---

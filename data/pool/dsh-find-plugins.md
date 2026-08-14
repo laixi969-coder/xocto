@@ -10,25 +10,25 @@ inspiration_en: ''
 priority_review: false
 url: https://github.com/Nagi-ovo/dsh-find-plugins
 canonical_url: https://github.com/Nagi-ovo/dsh-find-plugins
-summary: ''
+summary: 帮 DSH 搜索、安装并验证插件的 Skill｜A DSH skill that finds, installs, and verifies GitHub plugins
 first_seen: '2026-08-13T13:11:56Z'
-last_seen: '2026-08-14T06:25:49Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Nagi-ovo/dsh-find-plugins
-  seen_at: '2026-08-14T06:25:49Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 58
+    stars: 71
     forks: 0
     open_issues: 2
 ---
 
 # dsh-find-plugins
 
-_（源没给简介）_
+帮 DSH 搜索、安装并验证插件的 Skill｜A DSH skill that finds, installs, and verifies GitHub plugins
 
 ## 笔记
 

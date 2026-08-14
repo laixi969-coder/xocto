@@ -1,0 +1,34 @@
+---
+slug: pestle-27b-ternary
+name: Pestle-27B-Ternary
+builder: MalikHAA2
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+url: https://huggingface.co/Doses-AI/Pestle-27B-Ternary-GGUF
+canonical_url: https://huggingface.co/Doses-AI/Pestle-27B-Ternary-GGUF
+summary: ''
+first_seen: '2026-08-14T20:30:53Z'
+last_seen: '2026-08-14T22:40:49Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://huggingface.co/Doses-AI/Pestle-27B-Ternary-GGUF
+  seen_at: '2026-08-14T22:40:49Z'
+  metrics:
+    points: 6
+    comments: 0
+---
+
+# Pestle-27B-Ternary
+
+_（源没给简介）_
+
+## 笔记
+
+

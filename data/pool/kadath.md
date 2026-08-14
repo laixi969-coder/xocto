@@ -8,21 +8,22 @@ inspiration: 进化式方法在 agent 领域重新可行了，因为评估成本
 summary_en: ''
 inspiration_en: Evolutionary methods are viable again in agent land, because evaluation finally got cheap
   enough.
+priority_review: false
 url: https://github.com/i3T4AN/KADATH
 canonical_url: https://github.com/i3T4AN/KADATH
 summary: Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across
   reproducible epochs to converge on optimization of a goal.
 first_seen: '2026-08-08T15:49:55Z'
-last_seen: '2026-08-14T04:47:02Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/i3T4AN/KADATH
-  seen_at: '2026-08-14T04:47:02Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 349
+    stars: 352
     forks: 3
     open_issues: 0
 ---

@@ -13,17 +13,17 @@ url: https://github.com/JustVugg/lumabri
 canonical_url: https://github.com/JustVugg/lumabri
 summary: What if LLMs worked like Napster?
 first_seen: '2026-08-09T22:24:24Z'
-last_seen: '2026-08-11T05:03:07Z'
+last_seen: '2026-08-14T22:40:49Z'
 status: analyzed
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/JustVugg/lumabri
-  seen_at: '2026-08-11T05:03:07Z'
+  seen_at: '2026-08-14T22:40:49Z'
   metrics:
-    points: 8
-    comments: 10
+    points: 44
+    comments: 18
 ---
 
 # Lumabri

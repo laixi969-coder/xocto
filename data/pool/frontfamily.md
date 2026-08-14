@@ -13,16 +13,16 @@ url: https://www.frontfamily.com/
 canonical_url: https://frontfamily.com
 summary: A Rosetta Stone for UI component libraries
 first_seen: '2026-08-13T15:35:08Z'
-last_seen: '2026-08-13T23:03:00Z'
+last_seen: '2026-08-14T22:40:49Z'
 status: analyzed
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.frontfamily.com/
-  seen_at: '2026-08-13T23:03:00Z'
+  seen_at: '2026-08-14T22:40:49Z'
   metrics:
-    points: 13
+    points: 18
     comments: 2
 ---
 

@@ -8,21 +8,22 @@ inspiration: 用 426 个 token 解决记忆问题，说明这一层的技术门�
 summary_en: ''
 inspiration_en: Solving memory in 426 tokens says the technical barrier at this layer is low. The race
   is for mindshare, not capability.
+priority_review: false
 url: https://github.com/VictorTaelin/OptMem
 canonical_url: https://github.com/VictorTaelin/OptMem
 summary: Permanent memory for AI agents. A 426-token prompt, a script, plug and play.
 first_seen: '2026-07-25T16:58:43Z'
-last_seen: '2026-08-13T23:03:01Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/VictorTaelin/OptMem
-  seen_at: '2026-08-13T23:03:01Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 1250
-    forks: 81
+    stars: 1254
+    forks: 82
     open_issues: 8
 ---
 

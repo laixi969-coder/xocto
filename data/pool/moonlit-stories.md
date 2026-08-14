@@ -8,22 +8,23 @@ inspiration: AI 生图的真痛点不是画得好不好，是同一个角色画�
 summary_en: ''
 inspiration_en: The real pain in AI image generation isn't quality. It's whether the same character looks
   the same ten times in a row.
+priority_review: false
 url: https://github.com/lincwang123-bot/moonlit-stories
 canonical_url: https://github.com/lincwang123-bot/moonlit-stories
 summary: Reusable AI English picture-book workflow with consistent illustrations and local Chatterbox
   TTS.
 first_seen: '2026-08-04T09:48:54Z'
-last_seen: '2026-08-13T23:03:01Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lincwang123-bot/moonlit-stories
-  seen_at: '2026-08-13T23:03:01Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 166
-    forks: 32
+    stars: 168
+    forks: 33
     open_issues: 0
 ---
 

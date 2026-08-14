@@ -8,23 +8,24 @@ inspiration: 给 agent 喂对上下文比换更强的模型有效，但这活儿
 summary_en: ''
 inspiration_en: Feeding an agent the right context beats swapping in a stronger model — but the work is
   dirty and unglamorous, so almost nobody does it.
+priority_review: false
 url: https://aws.github.io/context-ontology-accelerator/
 canonical_url: https://aws.github.io/context-ontology-accelerator
 summary: An open-source, ontology-based semantic context accelerator that enables AI agents to make more
   accurate, consistent, and explainable decisions.
 first_seen: '2026-07-28T22:59:24Z'
-last_seen: '2026-08-14T04:47:02Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://aws.github.io/context-ontology-accelerator/
-  seen_at: '2026-08-14T04:47:02Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 474
+    stars: 473
     forks: 43
-    open_issues: 23
+    open_issues: 24
 ---
 
 # context-ontology-accelerator

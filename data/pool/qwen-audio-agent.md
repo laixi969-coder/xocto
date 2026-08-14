@@ -14,17 +14,17 @@ canonical_url: https://github.com/QwenAudio/qwen-audio-agent
 summary: A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime
   for AI Agents
 first_seen: '2026-07-27T05:04:26Z'
-last_seen: '2026-08-14T06:18:59Z'
+last_seen: '2026-08-14T22:40:51Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/QwenAudio/qwen-audio-agent
-  seen_at: '2026-08-14T06:18:59Z'
+  seen_at: '2026-08-14T22:40:51Z'
   metrics:
-    stars: 2124
-    forks: 167
+    stars: 2134
+    forks: 170
     open_issues: 7
 ---
 
