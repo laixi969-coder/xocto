@@ -13,7 +13,7 @@ canonical_url: https://github.com/Nagi-ovo/dsh-ads
 summary: 是兄弟就来蹬我！DSH Web UI 广告：2005 年中文站点风格的侧栏广告 / 对话内信息流 / 角落弹窗 + 一个真实热区比视觉小得多的关闭叉。素材全虚构，域名打码。
 first_seen: '2026-08-09T19:06:36Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://github.com/AdamPlatin123/awesome-dsh-plugins
 summary: 前部索引仓库（Radar）：自动扫描发现的所有 dsh 插件候选；经测试合格的将移入后序精选目录仓库
 first_seen: '2026-08-04T21:46:54Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

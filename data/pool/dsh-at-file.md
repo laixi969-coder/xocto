@@ -14,7 +14,7 @@ summary: 'Codex-style @file mentions for DeepSeek Harness: search workspace file
   attach their contents to prompts.'
 first_seen: '2026-08-13T12:00:09Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

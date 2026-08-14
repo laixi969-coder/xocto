@@ -2,18 +2,18 @@
 slug: phi
 name: phi
 builder: pulseaiclub
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 来自pi的编码agent，支持无限provider、子agent、权限门。
+inspiration: 权限门设计值得借鉴，让agent操作更可控。
+summary_en: A coding agent from pi with infinite providers, sub-agents, and a permission gate.
+inspiration_en: The permission gate design is worth borrowing for more controlled agent operations.
 priority_review: false
 url: https://github.com/pulseaiclub/phi
 canonical_url: https://github.com/pulseaiclub/phi
 summary: a coding Agent from pi. ∞ providers, sub-agents, hashline edits, and a permission gate
 first_seen: '2026-08-03T03:16:48Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

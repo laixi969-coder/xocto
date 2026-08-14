@@ -14,7 +14,7 @@ summary: Cloud-Elastic, Edge-Optimized CrewEngine orchestrates real-time workflo
   and AI-driven predictive failure prevention.
 first_seen: '2026-08-10T06:32:14Z'
 last_seen: '2026-08-14T06:12:07Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

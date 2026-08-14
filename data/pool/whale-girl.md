@@ -14,7 +14,7 @@ summary: DSH Web GUI 桌面宠物插件（QQ 宠物形态）：右下角悬浮�
   安装：github:dsh-external/whale-girl#<ref>&path:/.dsh-plugin
 first_seen: '2026-08-10T15:03:03Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -14,7 +14,7 @@ summary: 'dsh plugin: Chrome sidebar extension that lets DSH operate your browse
   required.'
 first_seen: '2026-08-06T09:05:10Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

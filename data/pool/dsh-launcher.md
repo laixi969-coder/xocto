@@ -14,7 +14,7 @@ summary: 'Lightweight Windows launcher for DeepSeek Harness: silent autostart at
   window instead of a full browser'
 first_seen: '2026-08-13T13:27:09Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

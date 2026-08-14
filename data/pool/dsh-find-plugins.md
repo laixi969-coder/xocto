@@ -13,7 +13,7 @@ canonical_url: https://github.com/Nagi-ovo/dsh-find-plugins
 summary: ''
 first_seen: '2026-08-13T13:11:56Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -2,11 +2,11 @@
 slug: dsh-tui
 name: dsh-TUI
 builder: ccch1mneyyy
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。
+inspiration: 为CLI极客补位，说明工具链的体验分层正在细化。
+summary_en: Claude Code-style full-screen interactive terminal plugin, filling DSH's TUI gap.
+inspiration_en: Filling the gap for CLI enthusiasts shows toolchain experience is becoming more layered.
 priority_review: false
 url: https://github.com/ccch1mneyyy/dsh-TUI
 canonical_url: https://github.com/ccch1mneyyy/dsh-TUI
@@ -14,7 +14,7 @@ summary: 解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cl
   + TPS 仪表。npm 一键安装。
 first_seen: '2026-08-13T12:49:31Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

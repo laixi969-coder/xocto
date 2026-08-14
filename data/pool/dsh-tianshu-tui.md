@@ -2,11 +2,12 @@
 slug: dsh-tianshu-tui
 name: dsh-tianshu-tui
 builder: huiliyi37
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DSH交互式终端UI插件，增加TDD与证据门等工作流。
+inspiration: 在终端UI里内置TDD和证据门，把质量流程嵌入agent工作流。
+summary_en: Interactive terminal UI plugin for DSH, adding TDD and evidence-gate workflows.
+inspiration_en: Embedding TDD and evidence gates into terminal UI integrates quality processes into agent
+  workflows.
 priority_review: false
 url: https://github.com/huiliyi37/dsh-tianshu-tui
 canonical_url: https://github.com/huiliyi37/dsh-tianshu-tui
@@ -14,7 +15,7 @@ summary: dsh-tianshu-tui — DeepSeek Harness terminal UI +harness workflow。�
   UI 插件。渲染核心从本仓库自研的harness agent  Tianshu-Tui 演进而来，在官方的基础上增加了TDD与证据门等工作流。
 first_seen: '2026-08-13T04:20:37Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

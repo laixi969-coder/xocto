@@ -2,11 +2,11 @@
 slug: dsh-web-ui
 name: dsh-web-ui
 builder: zhu1090093659
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DSH Web UI的插件和皮肤集合，含任务板、Git图等。
+inspiration: Web UI的插件化生态，让界面功能可扩展，是社区驱动的力量。
+summary_en: Plugin and skin collection for DSH Web UI, including task board, git graph, and more.
+inspiration_en: A plugin ecosystem for Web UI makes interface features extensible, driven by community.
 priority_review: false
 url: https://gallery.dsh-market.com
 canonical_url: https://gallery.dsh-market.com
@@ -14,7 +14,7 @@ summary: Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task boa
   panel, remote mobile UI, pet, live token stats, and skin center.
 first_seen: '2026-08-12T05:15:20Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

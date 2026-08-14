@@ -2,11 +2,11 @@
 slug: dsh-vision-toolkit
 name: dsh-vision-toolkit
 builder: Anionex
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DSH原生视觉插件，支持图片问答、长截图OCR、UI还原等。
+inspiration: 视觉能力插件化，让纯文本模型也能处理视觉任务，是补足短板的好思路。
+summary_en: DSH-native vision plugin for image Q&A, long-screenshot OCR, UI restoration, and more.
+inspiration_en: Packaging vision as a plugin to fill a model gap is a reusable pattern.
 priority_review: false
 url: https://github.com/Anionex/dsh-vision-toolkit
 canonical_url: https://github.com/Anionex/dsh-vision-toolkit
@@ -15,7 +15,7 @@ summary: '让纯文本模型更好地做视觉任务的DeepSeek Harness插件：
   and Web UI.'
 first_seen: '2026-08-13T12:36:34Z'
 last_seen: '2026-08-14T06:25:49Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:
