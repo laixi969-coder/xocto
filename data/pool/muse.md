@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/muse-19
 summary: Al Visual Bookmark Manager for Mac
 first_seen: '2026-08-11T10:51:23Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

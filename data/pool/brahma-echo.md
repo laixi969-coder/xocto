@@ -15,7 +15,7 @@ summary: Brahma Echo is an open-source Windows desktop AI assistant that combine
   pairing for smarter desktop workflows.
 first_seen: '2026-08-10T10:43:34Z'
 last_seen: '2026-08-14T22:40:51Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

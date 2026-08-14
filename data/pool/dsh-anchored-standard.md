@@ -2,11 +2,11 @@
 slug: dsh-anchored-standard
 name: dsh-anchored-standard
 builder: xiaobright
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DeepSeek Harness两阶段预设配置
+inspiration: 将复杂配置拆成渐进式步骤，让新用户逐步上手
+summary_en: Two-phase DeepSeek Harness preset for gradual onboarding.
+inspiration_en: Breaking complex configs into progressive steps helps new users ramp up.
 priority_review: false
 url: https://github.com/xiaobright/modeltest
 canonical_url: https://github.com/xiaobright/modeltest
@@ -14,7 +14,7 @@ summary: 'Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then ful
   98/99)'
 first_seen: '2026-08-14T14:06:39Z'
 last_seen: '2026-08-14T22:40:51Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

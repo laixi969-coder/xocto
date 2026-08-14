@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/occasio-2
 summary: Pinboard meets citation manager for shared insights.
 first_seen: '2026-08-10T21:46:32Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

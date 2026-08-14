@@ -2,18 +2,18 @@
 slug: graft
 name: Graft
 builder: shrishdwi
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: Claude Code钩子，减少grep token消耗42%
+inspiration: 通过钩子优化上下文，降低token成本，可迁移到其他AI工具
+summary_en: Claude Code hooks that cut grep tokens by 42%.
+inspiration_en: Optimizing context via hooks reduces token costs, transferable to other AI tools.
 priority_review: false
 url: https://github.com/NanoNets/Graft
 canonical_url: https://github.com/NanoNets/Graft
 summary: Claude Code hooks that cut grep tokens by 42%
 first_seen: '2026-08-14T15:22:02Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

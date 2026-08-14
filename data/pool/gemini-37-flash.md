@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/gemini-3-7-flash
 summary: Google's smartest workhorse yet for coding & agents
 first_seen: '2026-08-13T18:16:30Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

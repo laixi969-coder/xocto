@@ -13,7 +13,7 @@ canonical_url: https://mib-viewer.com
 summary: Online SNMP MIB database - upload/view your own MIBs
 first_seen: '2026-08-14T15:49:33Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

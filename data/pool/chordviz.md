@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/chordviz
 summary: Build your own music visualizer for MIDI & audio
 first_seen: '2026-08-14T01:28:45Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

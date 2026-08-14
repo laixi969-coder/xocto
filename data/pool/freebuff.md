@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/freebuff-2
 summary: Free coding agents to kill Claude, Cursor, Replit, and Devin
 first_seen: '2026-08-13T17:04:37Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

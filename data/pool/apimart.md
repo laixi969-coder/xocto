@@ -13,7 +13,7 @@ canonical_url: https://apimart.ai/register?aff=yScTCM
 summary: Discounted AI API Aggregator for GPT-5, Sora 2
 first_seen: '2026-08-14T14:14:13Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

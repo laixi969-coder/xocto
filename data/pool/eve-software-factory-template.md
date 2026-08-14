@@ -2,18 +2,18 @@
 slug: eve-software-factory-template
 name: eve-software-factory-template
 builder: vercel-labs
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: Eve软件工厂模板，名为Foreman
+inspiration: 将软件开发流程模板化，让AI代理按工厂模式运作
+summary_en: Meet Foreman, an eve Software Factory template.
+inspiration_en: Templating software development into a factory pattern for AI agents.
 priority_review: false
 url: https://ask-foreman.dev
 canonical_url: https://ask-foreman.dev
 summary: Meet Foreman, an eve Software Factory.
 first_seen: '2026-08-12T12:34:43Z'
 last_seen: '2026-08-14T22:40:51Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

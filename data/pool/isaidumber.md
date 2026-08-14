@@ -13,7 +13,7 @@ canonical_url: https://isaidumber.today
 summary: Is AI Dumber Today? An index of AI model experience from user's opinion
 first_seen: '2026-08-14T13:50:46Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://github.com/notactuallytreyanastasio/shoehorn
 summary: a library to quantize an LLM to fit your Mac's VRAM
 first_seen: '2026-08-14T14:43:59Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

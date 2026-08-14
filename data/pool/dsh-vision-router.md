@@ -2,11 +2,11 @@
 slug: dsh-vision-router
 name: dsh-vision-router
 builder: ysr666
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 为纯文本DSH代理添加视觉能力
+inspiration: 用免费视觉链扩展文本模型，实现图像问答和OCR
+summary_en: Adds vision capabilities to text-only DSH agents.
+inspiration_en: Extending text models with free vision chain for image Q&A and OCR.
 priority_review: false
 url: https://github.com/ysr666/dsh-vision-router
 canonical_url: https://github.com/ysr666/dsh-vision-router
@@ -15,7 +15,7 @@ summary: 'Eyes for text-only DeepSeek Harness agents: built-in free vision chain
   install, no Python, image turns work like ordinary tool-calling turns.'
 first_seen: '2026-08-13T18:57:47Z'
 last_seen: '2026-08-14T22:40:51Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

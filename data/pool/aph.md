@@ -13,7 +13,7 @@ canonical_url: https://github.com/squillo/aph
 summary: Opensourcing APH Engine and Servers in Rust and N Lang
 first_seen: '2026-08-14T14:25:29Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

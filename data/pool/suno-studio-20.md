@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/suno
 summary: Browser-based generative DAW
 first_seen: '2026-08-13T20:42:41Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

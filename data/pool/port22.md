@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/port22
 summary: Claude Code, Codex & more on your phone
 first_seen: '2026-08-13T13:28:31Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -2,11 +2,11 @@
 slug: dsh-memory-evolve
 name: dsh-memory-evolve
 builder: csyangwen
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DSH跨会话记忆与自我进化插件
+inspiration: 让AI代理拥有长期记忆和技能进化能力，无需改核心
+summary_en: Plugin for cross-session memory and self-evolution in DSH.
+inspiration_en: Giving AI agents long-term memory and skill evolution without core changes.
 priority_review: false
 url: https://github.com/csyangwen/dsh-memory-evolve
 canonical_url: https://github.com/csyangwen/dsh-memory-evolve
@@ -14,7 +14,7 @@ summary: 为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进�
   · COI 调度 · 会话广播 · 会话搜索 · 提示词管理器 · 临时信息便签——零核心修改、零运行时依赖，随装随用、卸载即净。
 first_seen: '2026-08-05T06:53:09Z'
 last_seen: '2026-08-14T22:40:51Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

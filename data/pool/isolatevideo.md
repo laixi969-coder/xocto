@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/isolate-video
 summary: Turn screen recordings into engaging product videos
 first_seen: '2026-08-13T06:31:41Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

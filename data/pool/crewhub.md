@@ -14,7 +14,7 @@ summary: Micro-location aware CrewHub orchestrates real-time project workflows w
   across AtlasPlatform.
 first_seen: '2026-08-10T06:36:46Z'
 last_seen: '2026-08-14T22:40:51Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

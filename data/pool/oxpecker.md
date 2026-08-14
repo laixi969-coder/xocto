@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/oxpecker
 summary: Know which of your lines a vendor just broke
 first_seen: '2026-08-13T14:59:15Z'
 last_seen: '2026-08-14T22:40:49Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:
