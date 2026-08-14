@@ -44,7 +44,7 @@ jobs:
       - name: 清掉过老的原始存档
         run: uv run xocto prune --keep-days 30
 
-      - name: 生成网站
+      - name: 生成网站（采集结果）
         run: uv run xocto build
 
       - name: 复算站点约束
@@ -72,11 +72,34 @@ jobs:
             git push origin HEAD:main
           fi
 
-      # 刻意放在提交推送之后。
-      # 采集层单源失败不中断，好处是当天照样有产出，代价是没人会被通知 ——
-      # 源站改版、加反爬、换域名这三种都表现为"安静地返回 0 条"，
-      # 站点每天照常更新，不查就永远发现不了。
-      # 放在最后是因为它会让 job 变红：要是放在提交之前，
-      # 一变红当天的原始存档就推不上去，而那是唯一不能丢的东西。
+      # 放在采集提交之后：单源失败不能丢掉当天原始存档，但必须让任务变红。
       - name: 检查采集有没有静默变质
         run: uv run xocto health
+
+      # 判断层直接调用 DeepSeek API；密钥只存在于 GitHub Actions Secrets，
+      # 不依赖任何人的电脑、Codex 或 Claude Code 登录态。
+      - name: DeepSeek 每日判断与双语简报
+        run: uv run xocto brief
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # 可选；默认 deepseek-v4-pro。需要控制成本时在 Secrets 中设为 flash 模型。
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+
+      - name: 生成网站（日报结果）
+        run: uv run xocto build
+
+      - name: 复算日报发布约束
+        run: python3 scripts/check_design.py
+
+      - name: 提交并推送日报
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "日报没有新变化，跳过提交"
+            exit 0
+          fi
+          git commit -m "chore: 每日判断 $(TZ=Asia/Shanghai date +%Y-%m-%d)"
+          if ! git push origin HEAD:main; then
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

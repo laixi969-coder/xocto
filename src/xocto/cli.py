@@ -109,6 +109,23 @@ def cmd_build(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_brief(args: argparse.Namespace) -> int:
+    from .brief import BriefError, run
+
+    store = Store()
+    store.ensure_dirs()
+    try:
+        report = run(store, day=_parse_day(args.date), force=args.force)
+    except BriefError as exc:
+        print(f"\n每日判断没有完成：\n  {exc}\n", file=sys.stderr)
+        return 2
+    if report.skipped:
+        print(f"\n  {report.day.isoformat()} 的日报已存在，跳过（加 --force 可重跑）\n")
+    else:
+        print(f"\n  已生成 {report.day.isoformat()} 的双语日报；处理 {report.candidates} 个候选、更新 {report.updated} 个产品\n")
+    return 0
+
+
 def cmd_rebuild(args: argparse.Namespace) -> int:
     store = Store()
     print("\n从原始存档重建产品池")
@@ -237,6 +254,11 @@ def build_parser() -> argparse.ArgumentParser:
 
     p_build = sub.add_parser("build", help="把 data/ 生成成静态网站")
     p_build.set_defaults(func=cmd_build)
+
+    p_brief = sub.add_parser("brief", help="用 DeepSeek 筛选当天候选并生成双语日报")
+    p_brief.add_argument("--date", help="指定日报日期 YYYY-MM-DD，默认今天")
+    p_brief.add_argument("--force", action="store_true", help="当天日报已存在时仍重新生成")
+    p_brief.set_defaults(func=cmd_brief)
 
     p_prune = sub.add_parser("prune", help="清掉过老的原始存档，控制仓库体积")
     p_prune.add_argument("--keep-days", type=int, default=30, help="保留最近几天，默认 30")

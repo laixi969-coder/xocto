@@ -6,14 +6,15 @@
 
 系统分两半，**跑腿的归 Python，动脑的归 AI 判断层**：
 
-- **Python 只做确定性工作**：抓取、去重、存档、渲染简报。不调用任何 LLM，不做任何判断。
-- **判断类工作由 Codex 自动任务执行**（手动时也可用 Claude Code）：读 `config/filter.md`
-  做过滤，读 `config/template.md` 做分析，把结果写回 `data/`。
+- **Python 的采集与建站部分只做确定性工作**：抓取、去重、存档、渲染简报。
+- **判断类工作由 DeepSeek API 执行**：只在 `src/xocto/brief.py` 中调用，读取
+  `config/filter.md` 做过滤、读取 `config/template.md` 组织日报，并把经过 JSON 校验的结果写回 `data/`。
 
-这样做的原因：独立 API 密钥既不稳也碰红线。不要为了"自动化"而在 Python 里引入 LLM SDK。
+接口只使用现有的 `httpx`，不引入模型 SDK；密钥只从 GitHub Actions Secret
+`DEEPSEEK_API_KEY` 读取，绝不落盘或打印。
 
-判断层现在每天北京时间 7 点由 Codex 自动任务运行（GitHub 预采集 6:17，见 README「每天自动更新」），
-跑完直接 push 上线。这不改变分工 —— 判断依然由模型完成，只是触发从"蔡蔡说一句"变成了定时。
+判断层在 GitHub 预采集后由同一条 GitHub Actions 工作流运行，跑完直接 push 上线；
+它不依赖本机 Codex 或 Claude Code。
 它只带来一条新规矩：**宁可写"今天没有值得展开的"，也不许为了凑数硬夸。**
 无人复核的产出，编造一次就把这个站的全部价值废掉了。
 

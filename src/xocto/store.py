@@ -237,6 +237,18 @@ class Store:
         day = day or today()
         return self.reports_dir / f"{day.isoformat()}.md"
 
+    def save_report(self, content: str, day: date | None = None, *, locale: str = "") -> Path:
+        """原子写入每日观察；英文版用 ``locale="en"``。
+
+        每日观察是公开产物，模型请求失败时调用方不会走到这里，因而不会用
+        半截输出覆盖上一版。
+        """
+        day = day or today()
+        directory = self.reports_dir / locale if locale else self.reports_dir
+        path = directory / f"{day.isoformat()}.md"
+        _atomic_write(path, content.rstrip() + "\n")
+        return path
+
     def analysis_path(self, slug: str) -> Path:
         return self.analysis_dir / f"{slug}.md"
 

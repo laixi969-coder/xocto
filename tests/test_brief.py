@@ -1,0 +1,89 @@
+from __future__ import annotations
+
+from dataclasses import replace
+from datetime import date
+from pathlib import Path
+import tempfile
+import unittest
+
+from xocto.brief import BriefError, _report_markdown, _updates, candidates_for_day
+from xocto.models import Product, STATUS_PENDING_FILTER, Sighting
+from xocto.store import Store
+
+
+DAY = date(2026, 8, 14)
+
+
+def product(slug: str = "example", *, last_seen: str = "2026-08-13T23:10:00Z") -> Product:
+    return Product(
+        slug=slug,
+        name="Example",
+        url="https://example.com",
+        canonical_url="https://example.com",
+        summary="A concrete AI product.",
+        first_seen=last_seen,
+        last_seen=last_seen,
+        status=STATUS_PENDING_FILTER,
+        sightings=(Sighting("github", "https://example.com", last_seen, {"stars": 20}),),
+    )
+
+
+class BriefTests(unittest.TestCase):
+    def test_only_today_pending_products_are_candidates(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.save_product(product("today"))
+            store.save_product(product("old", last_seen="2026-08-12T01:00:00Z"))
+            store.save_product(replace(product("rejected"), status="rejected"))
+
+            self.assertEqual([item.slug for item in candidates_for_day(store, DAY)], ["today"])
+
+    def test_updates_require_every_candidate_once(self) -> None:
+        source = product()
+        payload = {
+            "products": [
+                {
+                    "slug": "example",
+                    "decision": "watching",
+                    "category": "AI + 开发",
+                    "summary_zh": "把需求整理成可执行的开发任务",
+                    "inspiration": "把模糊需求先变成可审阅的中间产物，能降低协作返工",
+                    "summary_en": "Turns rough requirements into executable engineering tasks.",
+                    "inspiration_en": "A reviewable intermediate artifact reduces rework in collaboration.",
+                }
+            ]
+        }
+        updated = _updates(payload, [source])["example"]
+        self.assertEqual(updated.status, "watching")
+        self.assertEqual(updated.category, "AI + 开发")
+        self.assertTrue(updated.inspiration_en)
+
+    def test_report_frontmatter_is_created_by_code(self) -> None:
+        result = {
+            "report": {
+                "hook_zh": "今天的工具都在把模糊需求变成可审阅的步骤",
+                "highlights_zh": ["1 个值得继续看"],
+                "body_zh": "## 今天值得看的 1 个\n\n### Example\n\n一句判断。",
+                "hook_en": "Today's tools turn fuzzy requests into reviewable steps",
+                "highlights_en": ["1 worth watching"],
+                "body_en": "## One product worth watching\n\n### Example\n\nA concise call.",
+            }
+        }
+        markdown = _report_markdown(result, DAY, english=False)
+        self.assertTrue(markdown.startswith("---\nday: '2026-08-14'"))
+        self.assertIn("# AI 应用雷达 · 2026-08-14", markdown)
+
+    def test_report_rejects_body_without_section(self) -> None:
+        result = {
+            "report": {
+                "hook_zh": "一条钩子",
+                "highlights_zh": ["一条要点"],
+                "body_zh": "没有二级标题",
+            }
+        }
+        with self.assertRaises(BriefError):
+            _report_markdown(result, DAY, english=False)
+
+
+if __name__ == "__main__":
+    unittest.main()

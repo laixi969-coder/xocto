@@ -38,13 +38,13 @@ cd ~/x-octo && uv run xocto status
 
 ## 为什么分两步
 
-抓取是体力活，交给程序，不花钱、不出错。
-判断是脑力活，交给 Codex 自动任务；临时手动补跑时，Codex 或 Claude Code 都可以。
-仓库本身不接任何 LLM API，也不依赖 `ANTHROPIC_AUTH_TOKEN`。
+抓取是体力活，交给程序。判断是编辑工作，交给 DeepSeek API 在 GitHub Actions 里完成。
+仓库不依赖 Codex、Claude Code 或任何人的电脑；唯一需要的密钥是 GitHub Secret
+`DEEPSEEK_API_KEY`。
 
-两步现在都接了定时，你不用说话也会更新：采集跑在 GitHub Actions 上，判断跑在本机
-Codex 自动任务上，早上七点多打开站就是当天写好的。上面那三条命令一直有效，
-想临时补一次、或者想自己盯着改，随时手动跑。
+整条流程都接了 GitHub Actions 定时：采集、DeepSeek 筛选和双语日报都在云端完成，
+早上七点多打开站就是当天写好的。上面那三条命令一直有效，想临时补一次、
+或者想自己盯着改，随时手动跑。
 
 ---
 
@@ -170,7 +170,7 @@ data/reports/2026-08-11.md   每日简报 ← 你主要看这个
 | 时间 | 谁在跑 | 干什么 |
 |------|--------|--------|
 | **06:17** | GitHub Actions（`.github/workflows/daily.yml`） | 采集 → 清理过老存档 → 生成网站 → 提交推送 |
-| **07:00** | Codex 自动任务「x-octo 每日判断并发布」 | 必要时补采 → 过滤 → 深度分析 → 写中英文简报 → 复算约束 → 提交推送 |
+| **采集完成后** | 同一 GitHub Actions 工作流中的 DeepSeek | 过滤 → 写中英文简报 → 复算约束 → 提交推送 |
 
 推送完 Vercel 自动部署，所以你七点多打开站，看到的是当天已经写好的简报。
 
@@ -182,14 +182,16 @@ data/reports/2026-08-11.md   每日简报 ← 你主要看这个
 代价是 6 点多对应美西前一天下午，Product Hunt 当天的榜单还差几个小时收摊，
 票数比原来 9 点那版更「生」一点。
 
-想立刻跑一次：采集去 GitHub 仓库的 Actions 页面点「每日采集」的 Run workflow；
-判断层在 Codex 的自动任务列表里运行「x-octo 每日判断并发布」。
+首次启用前，在 GitHub 仓库的 **Settings → Secrets and variables → Actions** 新建
+`DEEPSEEK_API_KEY`（可选 `DEEPSEEK_MODEL` 覆盖默认模型）。之后想立刻跑一次，
+去 GitHub 仓库的 Actions 页面点「每日采集」的 Run workflow。
 
 **没有人会复核**。判断层写完直接上线，写歪了也会直接上站，你事后才能改。
 这是拿「每天准时有」换「每天有人把关」，想换回来就把自动任务改成开 PR 而不是直接 push。
 
-Codex 判断层运行在本机项目上，所以电脑需要开机且 Codex 可运行；即使它没跑，云端
-GitHub Actions 仍会完成采集和站点重建，不会让当天原始数据一起断掉。
+DeepSeek 判断层运行在 GitHub Actions；电脑是否开机、Codex 或 Claude Code 是否登录都
+不会影响更新。若密钥缺失或模型调用失败，采集结果会先推送，日报步骤会明确失败，
+不会悄悄把旧日报冒充成新日报。
 
 ### 手动跑
 
