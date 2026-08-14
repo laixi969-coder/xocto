@@ -666,9 +666,9 @@ a:focus-visible, button:focus-visible {
   font-weight: 700; letter-spacing: -.022em; line-height: 1.22;
 }
 .sec-count { font-size: 13px; color: var(--ink-faint); white-space: nowrap; }
-.sec-sub { margin: 16px 0 0; max-width: 46em; font-size: 16px; color: var(--ink-soft); line-height: 1.68; }
+.sec-sub { margin: 16px 0 0; max-width: 50em; font-size: 15px; color: var(--ink-soft); line-height: 1.72; }
 /* 版块正文和产品详情同一个阅读尺度。max-width 管行长，不管容器宽度 */
-.sec-lead, .sec-body { margin-top: 20px; font-size: 16.5px; line-height: 1.75; max-width: 54em; }
+.sec-lead, .sec-body { margin-top: 20px; font-size: 15px; line-height: 1.72; max-width: 58em; }
 
 /* 只有表格用满整栏 —— 数据挤在正文行宽里读不了。
    清单是散文性质的，跟着正文一起收窄，不然一行 57 个字。 */
@@ -712,11 +712,11 @@ a:focus-visible, button:focus-visible {
 }
 /* 一句话定位：放大一档，读者扫一眼只看这句 */
 .pick-lead {
-  margin: 16px 0 0; max-width: 56em; font-size: 15px; font-weight: 400;
-  line-height: 1.78; letter-spacing: -.005em;
+  margin: 15px 0 0; max-width: 60em; font-size: 14px; font-weight: 400;
+  line-height: 1.75; letter-spacing: 0;
 }
 /* 名字叫 pick-text 而不是 pick-body：后者是首页那个组件的，别撞 */
-.pick-text { margin-top: 15px; max-width: 54em; font-size: 16px; line-height: 1.75; color: var(--ink-soft); }
+.pick-text { margin-top: 14px; max-width: 58em; font-size: 14.5px; line-height: 1.72; color: var(--ink-soft); }
 .pick-text strong { color: var(--ink); font-weight: 600; }
 .pick-cta {
   display: inline-flex; align-items: center; gap: 7px; margin-top: 22px;
