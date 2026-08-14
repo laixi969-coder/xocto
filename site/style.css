@@ -148,7 +148,7 @@ button { font: inherit; }
 .pick-id:hover h3 { color: var(--signal); }
 .pick-body { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .field-k { display: block; margin-bottom: 7px; color: var(--ink-faint); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
-.field p { margin: 0; font-size: 17px; line-height: 1.7; }
+.field p { margin: 0; font-size: 16px; line-height: 1.7; }
 .field-take { border-left: 2px solid var(--accent); padding-left: 13px; }
 .field-take p { color: var(--ink-soft); }
 .summary-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(28px, 6vw, 90px); }
@@ -218,7 +218,7 @@ button { font: inherit; }
 .kv div b { font-size: 14px; font-weight: 600; }
 .kv a, .note.onward-all { color: var(--signal); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .detail-head + .band { padding-top: 34px; }
-.prose { max-width: var(--reading); padding: 44px 0 68px; font-size: 17px; line-height: 1.85; }
+.prose { max-width: var(--reading); padding: 44px 0 68px; font-size: 16px; line-height: 1.85; }
 .prose h1, .prose h2, .prose h3 { font-family: var(--sans); line-height: 1.32; letter-spacing: -.015em; }
 .prose h1 { margin: 42px 0 14px; font-size: 27px; }
 .prose h2 { margin: 48px 0 15px; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 23px; }
