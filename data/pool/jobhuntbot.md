@@ -15,17 +15,17 @@ summary: Agent-led job application workflow with a local progress-tracking dashb
   AI coding agent that can read files and follow instructions.AI Agent 驱动的求职投递工作流,配本地进度追踪看板——适配任何能读文件、听懂指令的编程
   Agent。
 first_seen: '2026-08-02T15:20:12Z'
-last_seen: '2026-08-14T22:40:51Z'
+last_seen: '2026-08-15T22:37:13Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DanielPan12/JobHuntBot
-  seen_at: '2026-08-14T22:40:51Z'
+  seen_at: '2026-08-15T22:37:13Z'
   metrics:
-    stars: 423
-    forks: 34
+    stars: 428
+    forks: 35
     open_issues: 0
 ---
 

@@ -12,17 +12,17 @@ url: https://sandbox.bio/training/embed
 canonical_url: https://sandbox.bio/training/embed
 summary: Embed a real Linux terminal on your website
 first_seen: '2026-08-14T18:51:27Z'
-last_seen: '2026-08-14T22:40:49Z'
+last_seen: '2026-08-15T22:37:12Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sandbox.bio/training/embed
-  seen_at: '2026-08-14T22:40:49Z'
+  seen_at: '2026-08-15T22:37:12Z'
   metrics:
     points: 13
-    comments: 11
+    comments: 12
 ---
 
 # sandbox

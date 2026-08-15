@@ -14,16 +14,16 @@ canonical_url: https://deerwork-ai.github.io/deer-workflow
 summary: An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates
   semantic work to replaceable Agent runtimes.
 first_seen: '2026-07-26T04:20:50Z'
-last_seen: '2026-08-14T22:40:51Z'
+last_seen: '2026-08-15T22:37:13Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://deerwork-ai.github.io/deer-workflow/
-  seen_at: '2026-08-14T22:40:51Z'
+  seen_at: '2026-08-15T22:37:13Z'
   metrics:
-    stars: 472
+    stars: 474
     forks: 47
     open_issues: 6
 ---

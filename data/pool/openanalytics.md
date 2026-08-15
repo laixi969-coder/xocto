@@ -12,16 +12,16 @@ url: https://github.com/OpenLabs-so/openanalytics
 canonical_url: https://github.com/OpenLabs-so/openanalytics
 summary: Open-source and AI native web analytics
 first_seen: '2026-08-14T18:17:42Z'
-last_seen: '2026-08-14T22:40:49Z'
+last_seen: '2026-08-15T22:37:12Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/OpenLabs-so/openanalytics
-  seen_at: '2026-08-14T22:40:49Z'
+  seen_at: '2026-08-15T22:37:12Z'
   metrics:
-    points: 5
+    points: 7
     comments: 0
 ---
 

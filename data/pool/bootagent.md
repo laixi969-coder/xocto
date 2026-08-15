@@ -13,16 +13,16 @@ canonical_url: https://bootagent.ai
 summary: BootAgent is a local management tool of AI agents. It turns a fresh machine into a usable, repeatable
   setup without asking you to edit several tool-specific config files by hand.
 first_seen: '2026-07-27T02:45:03Z'
-last_seen: '2026-08-14T22:40:51Z'
+last_seen: '2026-08-15T22:37:13Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://bootagent.ai
-  seen_at: '2026-08-14T22:40:51Z'
+  seen_at: '2026-08-15T22:37:13Z'
   metrics:
-    stars: 87
+    stars: 88
     forks: 5
     open_issues: 5
 ---

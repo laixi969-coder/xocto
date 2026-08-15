@@ -8,6 +8,7 @@ inspiration: 开源社区的适配层是模型厂商的免费渠道，谁被适�
 summary_en: ''
 inspiration_en: Community adapters are a free distribution channel for model vendors. Whoever gets adapted
   most wins the ecosystem.
+priority_review: false
 url: https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI
 canonical_url: https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI
 summary: MiniMax H3 ComfyUI - Run MiniMax turbo lora H3 33B omni-modal AI model locally with ComfyUI workflow.
@@ -15,16 +16,16 @@ summary: MiniMax H3 ComfyUI - Run MiniMax turbo lora H3 33B omni-modal AI model 
   nodes, workflow templates (T2V, I2V, R2V), H3-VisualVAE and H3-AudioVAE decoders. ComfyUI v0.31.0 support.
   4-15s video at 768p. github
 first_seen: '2026-08-08T18:56:53Z'
-last_seen: '2026-08-14T04:47:02Z'
+last_seen: '2026-08-15T22:37:13Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI
-  seen_at: '2026-08-14T04:47:02Z'
+  seen_at: '2026-08-15T22:37:13Z'
   metrics:
-    stars: 93
+    stars: 111
     forks: 0
     open_issues: 0
 ---

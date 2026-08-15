@@ -12,16 +12,16 @@ url: https://burla.dev/
 canonical_url: https://burla.dev
 summary: Distributed computing framework for AI agents
 first_seen: '2026-08-14T14:52:54Z'
-last_seen: '2026-08-14T22:40:49Z'
+last_seen: '2026-08-15T22:37:12Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://burla.dev/
-  seen_at: '2026-08-14T22:40:49Z'
+  seen_at: '2026-08-15T22:37:12Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
 ---
 

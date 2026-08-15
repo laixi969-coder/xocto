@@ -12,16 +12,16 @@ url: https://huggingface.co/Doses-AI/Pestle-27B-Ternary-GGUF
 canonical_url: https://huggingface.co/Doses-AI/Pestle-27B-Ternary-GGUF
 summary: ''
 first_seen: '2026-08-14T20:30:53Z'
-last_seen: '2026-08-14T22:40:49Z'
+last_seen: '2026-08-15T22:37:12Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://huggingface.co/Doses-AI/Pestle-27B-Ternary-GGUF
-  seen_at: '2026-08-14T22:40:49Z'
+  seen_at: '2026-08-15T22:37:12Z'
   metrics:
-    points: 6
+    points: 9
     comments: 0
 ---
 

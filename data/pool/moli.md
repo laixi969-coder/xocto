@@ -12,18 +12,18 @@ url: https://browser.lexmount.com
 canonical_url: https://browser.lexmount.com
 summary: Best browser for AI agents, built in Rust.
 first_seen: '2026-08-10T13:20:30Z'
-last_seen: '2026-08-14T22:40:51Z'
+last_seen: '2026-08-15T22:37:13Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://browser.lexmount.com
-  seen_at: '2026-08-14T22:40:51Z'
+  seen_at: '2026-08-15T22:37:13Z'
   metrics:
-    stars: 278
-    forks: 19
-    open_issues: 7
+    stars: 340
+    forks: 20
+    open_issues: 10
 ---
 
 # moli

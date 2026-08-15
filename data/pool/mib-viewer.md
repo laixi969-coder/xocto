@@ -12,16 +12,16 @@ url: https://mib-viewer.com/
 canonical_url: https://mib-viewer.com
 summary: Online SNMP MIB database - upload/view your own MIBs
 first_seen: '2026-08-14T15:49:33Z'
-last_seen: '2026-08-14T22:40:49Z'
+last_seen: '2026-08-15T22:37:12Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mib-viewer.com/
-  seen_at: '2026-08-14T22:40:49Z'
+  seen_at: '2026-08-15T22:37:12Z'
   metrics:
-    points: 12
+    points: 13
     comments: 0
 ---
 

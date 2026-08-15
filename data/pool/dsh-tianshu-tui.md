@@ -14,17 +14,17 @@ canonical_url: https://github.com/huiliyi37/dsh-tianshu-tui
 summary: dsh-tianshu-tui — DeepSeek Harness terminal UI +harness workflow。是官方 DeepSeek Harness 上的交互式终端
   UI 插件。渲染核心从本仓库自研的harness agent  Tianshu-Tui 演进而来，在官方的基础上增加了TDD与证据门等工作流。
 first_seen: '2026-08-13T04:20:37Z'
-last_seen: '2026-08-14T22:40:51Z'
+last_seen: '2026-08-15T22:37:13Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huiliyi37/dsh-tianshu-tui
-  seen_at: '2026-08-14T22:40:51Z'
+  seen_at: '2026-08-15T22:37:13Z'
   metrics:
-    stars: 133
-    forks: 5
+    stars: 171
+    forks: 6
     open_issues: 2
 ---
 
