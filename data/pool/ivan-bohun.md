@@ -13,7 +13,7 @@ canonical_url: https://github.com/Novotarskyi/ivan-bohun
 summary: I serve my website with a swarm of ESP32 microcontrollers on a shelf
 first_seen: '2026-08-15T02:58:54Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/chronock
 summary: Scheduling and calendar sync, all in one
 first_seen: '2026-08-13T23:57:28Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

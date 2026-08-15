@@ -2,18 +2,18 @@
 slug: useknowable
 name: useknowable
 builder: samuelzxu
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: iOS 上的视觉精准 AI 辅导
+inspiration: 视觉精准辅导，可迁移到教育应用
+summary_en: Visually Precise AI Tutoring on iOS
+inspiration_en: Visually precise tutoring, applicable to educational apps
 priority_review: false
 url: https://useknowable.ai/
 canonical_url: https://useknowable.ai
 summary: Visually Precise AI Tutoring on iOS
 first_seen: '2026-08-15T13:53:17Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

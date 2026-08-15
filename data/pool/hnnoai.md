@@ -13,7 +13,7 @@ canonical_url: https://hnnoai.readpipe.org
 summary: HN Without AI Stories
 first_seen: '2026-08-15T08:17:41Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

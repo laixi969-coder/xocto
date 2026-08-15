@@ -2,18 +2,18 @@
 slug: dsh-market
 name: dsh-market
 builder: dsh-market
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DeepSeek Harness 的可视化插件市场
+inspiration: 为开源工具建立插件市场，可迁移到生态建设
+summary_en: Visual plugin market for DeepSeek Harness
+inspiration_en: Building plugin markets for open-source tools, applicable to ecosystem development
 priority_review: false
 url: https://dshmarket.com
 canonical_url: https://dshmarket.com
 summary: The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
 first_seen: '2026-08-14T04:58:15Z'
 last_seen: '2026-08-15T22:37:13Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

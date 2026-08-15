@@ -13,7 +13,7 @@ canonical_url: https://tempered.to
 summary: AI Powered PC Optimizer
 first_seen: '2026-08-15T12:18:18Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

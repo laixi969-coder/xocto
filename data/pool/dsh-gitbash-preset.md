@@ -2,11 +2,11 @@
 slug: dsh-gitbash-preset
 name: dsh-gitbash-preset
 builder: liceses
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DeepSeek Harness 插件，让极简模式在 Windows 上可用
+inspiration: 为跨平台兼容提供插件，可迁移到工具链适配
+summary_en: DeepSeek Harness plugin enabling minimal mode on Windows
+inspiration_en: Plugins for cross-platform compatibility, applicable to toolchain adaptation
 priority_review: false
 url: https://github.com/liceses/dsh-gitbash-preset
 canonical_url: https://github.com/liceses/dsh-gitbash-preset
@@ -14,7 +14,7 @@ summary: DeepSeek Harness 插件：一键安装「极简模式 (Git Bash)」agen
   的 bash（MSYS），让 Windows 上的极简模式真正可用。
 first_seen: '2026-08-15T01:02:32Z'
 last_seen: '2026-08-15T22:37:13Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://chrisjz.github.io/between-tokens
 summary: an interactive piece where you are the language model
 first_seen: '2026-08-15T15:37:41Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

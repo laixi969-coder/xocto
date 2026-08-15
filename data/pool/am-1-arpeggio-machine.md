@@ -13,7 +13,7 @@ canonical_url: https://crux.garden/zacos/am-1
 summary: A Love Letter to Berlin School Music
 first_seen: '2026-08-14T10:49:23Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -2,18 +2,18 @@
 slug: clamshell
 name: Clamshell
 builder: Matyas
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 合上 MacBook 后继续运行任务
+inspiration: 解决笔记本合盖中断任务的痛点，可迁移到远程任务管理
+summary_en: Close your MacBook. Keep the work running.
+inspiration_en: Solving the pain of tasks interrupting on lid close, applicable to remote task management
 priority_review: false
 url: https://www.producthunt.com/products/clamshell
 canonical_url: https://producthunt.com/products/clamshell
 summary: Close your MacBook. Keep the work running.
 first_seen: '2026-08-09T14:39:57Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 sightings:

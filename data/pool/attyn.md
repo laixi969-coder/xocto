@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/attyn
 summary: Bringing intelligence to your cursor
 first_seen: '2026-08-09T23:00:52Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

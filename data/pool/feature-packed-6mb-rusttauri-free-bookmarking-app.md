@@ -2,11 +2,11 @@
 slug: feature-packed-6mb-rusttauri-free-bookmarking-app
 name: Feature-packed 6MB Rust+Tauri free bookmarking app
 builder: freakynit
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 6MB 的 Rust+Tauri 免费书签应用
+inspiration: 轻量级本地书签管理，可迁移到隐私敏感的个人工具
+summary_en: 6MB Rust+Tauri free bookmarking app
+inspiration_en: Lightweight local bookmark management, applicable to privacy-sensitive personal tools
 priority_review: false
 url: https://news.ycombinator.com/item?id=49310317
 canonical_url: https://news.ycombinator.com/item?id=49310317
@@ -15,7 +15,7 @@ summary: https:&#x2F;&#x2F;shelf-bookmarks.stupidlabs.lol I have been using rain
   too personal... they all…
 first_seen: '2026-08-15T13:21:46Z'
 last_seen: '2026-08-15T22:37:12Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:
