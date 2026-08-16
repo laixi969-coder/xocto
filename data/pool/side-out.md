@@ -13,7 +13,7 @@ canonical_url: https://antics.gg/world/side-out-94df7d
 summary: a Multiplayer Survival Pong
 first_seen: '2026-08-16T06:17:55Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

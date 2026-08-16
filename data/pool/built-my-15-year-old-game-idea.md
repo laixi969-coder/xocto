@@ -14,7 +14,7 @@ summary: 'Distro Fighter: WARS is in closed beta, but HN gets its own door: http
   - the arcade at https:&#x2F;&#x2F;distrofighter.com is open to everyone. Promotions hap…'
 first_seen: '2026-08-16T17:35:26Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

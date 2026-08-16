@@ -2,18 +2,19 @@
 slug: bribesfyi
 name: Bribes.fyi
 builder: neverenderr
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 按部门比较贿赂统计数据的网站。
+inspiration: 数据透明化可应用于其他腐败或合规领域，提供公共监督工具。
+summary_en: A website to compare bribe statistics by department.
+inspiration_en: Data transparency could apply to other corruption or compliance areas, offering public
+  oversight tools.
 priority_review: false
 url: https://bribes.fyi/compare
 canonical_url: https://bribes.fyi/compare
 summary: Compare bribes statistics department wise
 first_seen: '2026-08-15T22:11:16Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

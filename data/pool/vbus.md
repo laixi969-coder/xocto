@@ -13,7 +13,7 @@ canonical_url: https://vbus.dev
 summary: Bench on Your Network
 first_seen: '2026-08-16T12:42:08Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

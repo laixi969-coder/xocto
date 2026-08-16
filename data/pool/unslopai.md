@@ -2,18 +2,18 @@
 slug: unslopai
 name: unslopai
 builder: not_wowinter14
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: 去除AI写作中的AI腔调。
+inspiration: 文本风格转换可应用于内容创作，提升自然度。
+summary_en: Remove AI voice from AI writings.
+inspiration_en: Text style transfer could apply to content creation for more natural tone.
 priority_review: false
 url: https://unslopai.com
 canonical_url: https://unslopai.com
 summary: Remove AI voice from AI writings
 first_seen: '2026-08-16T11:28:50Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

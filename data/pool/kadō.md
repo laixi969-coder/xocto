@@ -13,7 +13,7 @@ canonical_url: https://github.com/scastiel/kado
 summary: open-source habit tracker for iOS
 first_seen: '2026-08-16T14:22:10Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

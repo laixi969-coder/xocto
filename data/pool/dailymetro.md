@@ -13,7 +13,7 @@ canonical_url: https://dailymetro.live/paris
 summary: Wordle for Metro Stations
 first_seen: '2026-08-16T12:22:56Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

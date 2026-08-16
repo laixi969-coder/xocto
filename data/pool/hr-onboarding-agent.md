@@ -2,11 +2,12 @@
 slug: hr-onboarding-agent
 name: hr-onboarding-agent
 builder: z15114664687-dot
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 开源AI辅助HR入职工具，支持飞书，含OCR和提醒。
+inspiration: 将HR流程自动化，可迁移至其他企业流程如离职、转正。
+summary_en: Open-source AI-assisted HR onboarding for Feishu with OCR and reminders.
+inspiration_en: Automating HR processes could extend to other enterprise workflows like offboarding or
+  confirmation.
 priority_review: false
 url: https://github.com/z15114664687-dot/hr-onboarding-agent
 canonical_url: https://github.com/z15114664687-dot/hr-onboarding-agent
@@ -14,7 +15,7 @@ summary: 'Open-source AI-assisted HR onboarding for Feishu/Lark: configurable wo
   and review, Bitable sync, reminders, and a zero-credential demo.'
 first_seen: '2026-08-11T11:22:22Z'
 last_seen: '2026-08-16T22:37:04Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

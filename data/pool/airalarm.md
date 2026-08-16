@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/airalarm
 summary: Wake at the end of your sleep cycle
 first_seen: '2026-08-10T10:41:18Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

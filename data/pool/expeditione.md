@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/expeditione
 summary: The Interactive 3D Encyclopedia
 first_seen: '2026-08-12T06:17:06Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

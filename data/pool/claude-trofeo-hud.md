@@ -13,7 +13,7 @@ canonical_url: https://github.com/christensen143/claude-trofeo-hud
 summary: Live Claude Usage HUD for a $38 Thermalright Trofeo Vision LCD
 first_seen: '2026-08-15T21:42:39Z'
 last_seen: '2026-08-16T22:37:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
