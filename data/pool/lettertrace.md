@@ -12,7 +12,7 @@ url: https://www.producthunt.com/products/lettertrace
 canonical_url: https://producthunt.com/products/lettertrace
 summary: Track your AI visibility for free (using your own API keys!)
 first_seen: '2026-08-09T02:15:06Z'
-last_seen: '2026-08-15T22:37:12Z'
+last_seen: '2026-08-16T22:37:03Z'
 status: rejected
 sources:
 - producthunt
@@ -24,9 +24,9 @@ sightings:
   metrics: {}
 - source: hackernews
   url: https://lettertrace.com
-  seen_at: '2026-08-15T22:37:12Z'
+  seen_at: '2026-08-16T22:37:03Z'
   metrics:
-    points: 7
+    points: 8
     comments: 0
 ---
 

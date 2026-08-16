@@ -12,18 +12,18 @@ url: https://dshdesktop.cn
 canonical_url: https://dshdesktop.cn
 summary: 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验
 first_seen: '2026-08-13T16:30:50Z'
-last_seen: '2026-08-15T22:37:13Z'
+last_seen: '2026-08-16T22:37:04Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://dshdesktop.cn
-  seen_at: '2026-08-15T22:37:13Z'
+  seen_at: '2026-08-16T22:37:04Z'
   metrics:
-    stars: 5771
-    forks: 248
-    open_issues: 81
+    stars: 8833
+    forks: 371
+    open_issues: 138
 - source: github
   url: https://github.com/ChisaAlter/Deepseek-Harness-Desktop
   seen_at: '2026-08-14T22:40:51Z'
@@ -33,18 +33,18 @@ sightings:
     open_issues: 2
 - source: github
   url: https://github.com/hairyf/deepseek-harness-desktop
-  seen_at: '2026-08-15T22:37:13Z'
+  seen_at: '2026-08-16T22:37:04Z'
   metrics:
-    stars: 158
-    forks: 7
-    open_issues: 0
+    stars: 283
+    forks: 13
+    open_issues: 4
 - source: github
   url: https://github.com/vibeinging/deepseek-harness-desktop-app
-  seen_at: '2026-08-15T22:37:13Z'
+  seen_at: '2026-08-16T22:37:04Z'
   metrics:
-    stars: 116
+    stars: 215
     forks: 4
-    open_issues: 4
+    open_issues: 6
 ---
 
 # deepseek-harness-desktop

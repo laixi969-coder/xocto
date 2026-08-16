@@ -12,16 +12,16 @@ url: https://useknowable.ai/
 canonical_url: https://useknowable.ai
 summary: Visually Precise AI Tutoring on iOS
 first_seen: '2026-08-15T13:53:17Z'
-last_seen: '2026-08-15T22:37:12Z'
+last_seen: '2026-08-16T22:37:03Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://useknowable.ai/
-  seen_at: '2026-08-15T22:37:12Z'
+  seen_at: '2026-08-16T22:37:03Z'
   metrics:
-    points: 9
+    points: 10
     comments: 1
 ---
 

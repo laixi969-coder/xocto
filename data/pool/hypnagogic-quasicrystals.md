@@ -12,17 +12,17 @@ url: https://hypnagogic-quasicrystals.github.io/
 canonical_url: https://hypnagogic-quasicrystals.github.io
 summary: Quasicrystals Animation Playground with WebXR
 first_seen: '2026-08-15T13:48:43Z'
-last_seen: '2026-08-15T22:37:12Z'
+last_seen: '2026-08-16T22:37:03Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hypnagogic-quasicrystals.github.io/
-  seen_at: '2026-08-15T22:37:12Z'
+  seen_at: '2026-08-16T22:37:03Z'
   metrics:
-    points: 36
-    comments: 9
+    points: 39
+    comments: 11
 ---
 
 # hypnagogic-quasicrystals

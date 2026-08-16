@@ -7,12 +7,12 @@ summary_zh: DeepSeek官方插件化框架，一切皆插件。
 inspiration: 官方插件生态的爆发，预示agent工具链的标准化方向。
 summary_en: DeepSeek's official plugin framework, everything is a plugin.
 inspiration_en: The explosion of an official plugin ecosystem signals standardization in agent toolchains.
-priority_review: true
+priority_review: false
 url: https://deepseek.com/harness
 canonical_url: https://deepseek.com/harness
 summary: 'DeepSeek Harness: Everything is a Plugin.'
 first_seen: '2026-08-13T11:56:32Z'
-last_seen: '2026-08-15T22:37:13Z'
+last_seen: '2026-08-16T22:37:04Z'
 status: analyzed
 sources:
 - github
@@ -20,15 +20,22 @@ sources:
 sightings:
 - source: github
   url: https://deepseek.com/harness
-  seen_at: '2026-08-15T22:37:13Z'
+  seen_at: '2026-08-16T22:37:04Z'
   metrics:
-    stars: 114670
-    forks: 11157
+    stars: 130817
+    forks: 13096
     open_issues: 0
 - source: producthunt
   url: https://www.producthunt.com/products/deepseek
   seen_at: '2026-08-14T22:40:49Z'
   metrics: {}
+- source: github
+  url: https://www.beyondata.com/
+  seen_at: '2026-08-16T22:37:04Z'
+  metrics:
+    stars: 151
+    forks: 16
+    open_issues: 4
 ---
 
 # deepseek-harness

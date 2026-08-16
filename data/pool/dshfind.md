@@ -12,18 +12,18 @@ url: https://dshfind.com
 canonical_url: https://dshfind.com
 summary: DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices
 first_seen: '2026-08-13T12:16:50Z'
-last_seen: '2026-08-15T22:37:13Z'
+last_seen: '2026-08-16T22:37:04Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://dshfind.com
-  seen_at: '2026-08-15T22:37:13Z'
+  seen_at: '2026-08-16T22:37:04Z'
   metrics:
-    stars: 84
-    forks: 2
-    open_issues: 3
+    stars: 104
+    forks: 6
+    open_issues: 4
 ---
 
 # dshfind

@@ -14,17 +14,17 @@ summary: https:&#x2F;&#x2F;shelf-bookmarks.stupidlabs.lol I have been using rain
   and it has worked perfectly for me. Seriously, no issues. But, bookmarks are something that are a bit
   too personal... they all…
 first_seen: '2026-08-15T13:21:46Z'
-last_seen: '2026-08-15T22:37:12Z'
+last_seen: '2026-08-16T22:37:03Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49310317
-  seen_at: '2026-08-15T22:37:12Z'
+  seen_at: '2026-08-16T22:37:03Z'
   metrics:
-    points: 10
-    comments: 2
+    points: 13
+    comments: 3
 ---
 
 # Feature-packed 6MB Rust+Tauri free bookmarking app

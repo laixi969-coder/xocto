@@ -13,16 +13,16 @@ canonical_url: https://github.com/KevinWong455/CrewHub
 summary: Micro-location aware CrewHub orchestrates real-time project workflows with AI-assisted task allocation
   across AtlasPlatform.
 first_seen: '2026-08-10T06:36:46Z'
-last_seen: '2026-08-14T22:40:51Z'
+last_seen: '2026-08-16T22:37:04Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/KevinWong455/CrewHub
-  seen_at: '2026-08-14T22:40:51Z'
+  seen_at: '2026-08-16T22:37:04Z'
   metrics:
-    stars: 85
+    stars: 86
     forks: 0
     open_issues: 0
 ---

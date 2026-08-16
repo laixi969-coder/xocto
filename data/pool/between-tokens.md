@@ -12,17 +12,17 @@ url: https://chrisjz.github.io/between-tokens/
 canonical_url: https://chrisjz.github.io/between-tokens
 summary: an interactive piece where you are the language model
 first_seen: '2026-08-15T15:37:41Z'
-last_seen: '2026-08-15T22:37:12Z'
+last_seen: '2026-08-16T22:37:03Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://chrisjz.github.io/between-tokens/
-  seen_at: '2026-08-15T22:37:12Z'
+  seen_at: '2026-08-16T22:37:03Z'
   metrics:
-    points: 6
-    comments: 2
+    points: 9
+    comments: 3
 ---
 
 # Between Tokens

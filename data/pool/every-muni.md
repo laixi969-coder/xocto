@@ -12,17 +12,17 @@ url: https://github.com/UtpalJayNadiger/wheres-my-muni
 canonical_url: https://github.com/UtpalJayNadiger/wheres-my-muni
 summary: BART and Caltrain in SF on a Live Map
 first_seen: '2026-08-15T19:09:03Z'
-last_seen: '2026-08-15T22:37:12Z'
+last_seen: '2026-08-16T22:37:03Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/UtpalJayNadiger/wheres-my-muni
-  seen_at: '2026-08-15T22:37:12Z'
+  seen_at: '2026-08-16T22:37:03Z'
   metrics:
-    points: 6
-    comments: 0
+    points: 11
+    comments: 1
 ---
 
 # Every MUNI

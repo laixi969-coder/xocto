@@ -12,7 +12,7 @@ url: https://github.com/hust-open-atom-club/oh-dsh
 canonical_url: https://github.com/hust-open-atom-club/oh-dsh
 summary: 一站式 DeepSeek Harness 社区发行版：TUI、桌面端与 Web UI 三种形态统一体验，支持分层安装、一步到位，免去手工整合打包。
 first_seen: '2026-08-11T05:31:05Z'
-last_seen: '2026-08-15T22:37:13Z'
+last_seen: '2026-08-16T22:37:04Z'
 status: rejected
 sources:
 - github
@@ -26,11 +26,11 @@ sightings:
     open_issues: 8
 - source: github
   url: https://dsh.openatom.club/
-  seen_at: '2026-08-15T22:37:13Z'
+  seen_at: '2026-08-16T22:37:04Z'
   metrics:
-    stars: 193
-    forks: 15
-    open_issues: 14
+    stars: 215
+    forks: 19
+    open_issues: 25
 ---
 
 # oh-dsh
