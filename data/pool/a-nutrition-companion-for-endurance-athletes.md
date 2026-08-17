@@ -15,17 +15,17 @@ summary: 'Hey HN! 6 Months ago I soft launched https:&#x2F;&#x2F;mavr.app&#x2F; 
   for any endurance athletes nutrition. Over the 6 month period we valid some of our key features: 1)
   Gut training during trainin…'
 first_seen: '2026-08-16T13:48:09Z'
-last_seen: '2026-08-16T22:37:03Z'
+last_seen: '2026-08-17T22:41:16Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49320056
-  seen_at: '2026-08-16T22:37:03Z'
+  seen_at: '2026-08-17T22:41:16Z'
   metrics:
     points: 6
-    comments: 1
+    comments: 2
 ---
 
 # A nutrition companion for endurance athletes

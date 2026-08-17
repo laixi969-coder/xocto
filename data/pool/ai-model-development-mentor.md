@@ -13,17 +13,17 @@ canonical_url: https://github.com/guapimm/AI-Model-Development-Mentor
 summary: （LLM-App-Mentor）Turn your AI coding assistant into a cautious 10-year full-stack mentor — pure
   prompts, zero dependencies
 first_seen: '2026-08-09T00:23:31Z'
-last_seen: '2026-08-16T22:37:04Z'
+last_seen: '2026-08-17T22:41:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/guapimm/AI-Model-Development-Mentor
-  seen_at: '2026-08-16T22:37:04Z'
+  seen_at: '2026-08-17T22:41:17Z'
   metrics:
-    stars: 53
-    forks: 8
+    stars: 58
+    forks: 7
     open_issues: 0
 ---
 

@@ -13,7 +13,7 @@ canonical_url: https://github.com/ccch1mneyyy/dsh-TUI
 summary: 解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条
   + TPS 仪表。npm 一键安装。
 first_seen: '2026-08-13T12:49:31Z'
-last_seen: '2026-08-16T22:37:04Z'
+last_seen: '2026-08-17T22:41:17Z'
 status: analyzed
 sources:
 - github
@@ -27,11 +27,11 @@ sightings:
     open_issues: 36
 - source: github
   url: https://dshtui.com/
-  seen_at: '2026-08-16T22:37:04Z'
+  seen_at: '2026-08-17T22:41:17Z'
   metrics:
-    stars: 1537
-    forks: 65
-    open_issues: 20
+    stars: 1809
+    forks: 80
+    open_issues: 55
 ---
 
 # dsh-TUI

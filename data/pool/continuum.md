@@ -13,15 +13,22 @@ url: https://www.producthunt.com/products/continuum-2027
 canonical_url: https://producthunt.com/products/continuum-2027
 summary: Remember what you know about the people you manage
 first_seen: '2026-08-06T12:38:18Z'
-last_seen: '2026-08-11T11:08:03Z'
+last_seen: '2026-08-17T22:41:16Z'
 status: analyzed
 sources:
 - producthunt
+- hackernews
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/continuum-2027
   seen_at: '2026-08-11T11:08:03Z'
   metrics: {}
+- source: hackernews
+  url: https://continuum-app.xyz/
+  seen_at: '2026-08-17T22:41:16Z'
+  metrics:
+    points: 7
+    comments: 9
 ---
 
 # Continuum

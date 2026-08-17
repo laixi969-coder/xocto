@@ -12,17 +12,17 @@ url: https://wildstatic.com/
 canonical_url: https://wildstatic.com
 summary: A public AI whose memory is shared across all users
 first_seen: '2026-08-16T13:21:45Z'
-last_seen: '2026-08-16T22:37:03Z'
+last_seen: '2026-08-17T22:41:16Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wildstatic.com/
-  seen_at: '2026-08-16T22:37:03Z'
+  seen_at: '2026-08-17T22:41:16Z'
   metrics:
-    points: 68
-    comments: 54
+    points: 80
+    comments: 69
 ---
 
 # wildstatic

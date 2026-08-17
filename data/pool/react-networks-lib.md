@@ -12,16 +12,16 @@ url: https://react-networks-lib.rackout.net/otdr-strip
 canonical_url: https://react-networks-lib.rackout.net/otdr-strip
 summary: Interactive component to map fibre breaks (OTDR)
 first_seen: '2026-08-16T20:47:00Z'
-last_seen: '2026-08-16T22:37:03Z'
+last_seen: '2026-08-17T22:41:16Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://react-networks-lib.rackout.net/otdr-strip
-  seen_at: '2026-08-16T22:37:03Z'
+  seen_at: '2026-08-17T22:41:16Z'
   metrics:
-    points: 5
+    points: 8
     comments: 0
 ---
 

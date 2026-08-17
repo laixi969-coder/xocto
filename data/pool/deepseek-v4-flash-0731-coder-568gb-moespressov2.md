@@ -12,17 +12,17 @@ url: https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-Mo
 canonical_url: https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2
 summary: I shrank DeepSeek V4 Flash to 57GB and it wrote a compiler on my Mac
 first_seen: '2026-08-16T17:13:22Z'
-last_seen: '2026-08-16T22:37:03Z'
+last_seen: '2026-08-17T22:41:16Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2
-  seen_at: '2026-08-16T22:37:03Z'
+  seen_at: '2026-08-17T22:41:16Z'
   metrics:
-    points: 12
-    comments: 2
+    points: 20
+    comments: 3
 ---
 
 # DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2

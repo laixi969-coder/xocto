@@ -16,16 +16,16 @@ summary: MiniMax H3 ComfyUI - Run MiniMax turbo lora H3 33B omni-modal AI model 
   nodes, workflow templates (T2V, I2V, R2V), H3-VisualVAE and H3-AudioVAE decoders. ComfyUI v0.31.0 support.
   4-15s video at 768p. github
 first_seen: '2026-08-08T18:56:53Z'
-last_seen: '2026-08-16T22:37:04Z'
+last_seen: '2026-08-17T22:41:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MiniMaxH3ComfyUI/MiniMax-H3-ComfyUI
-  seen_at: '2026-08-16T22:37:04Z'
+  seen_at: '2026-08-17T22:41:17Z'
   metrics:
-    stars: 127
+    stars: 128
     forks: 1
     open_issues: 0
 ---
