@@ -90,8 +90,13 @@ sources:
       # 全球 APP 增速榜 —— iOS / 海外 Google Play / 国内安卓的月活与环比。
       # 图中 WorkBuddy、Dootchi、Viggle 等就在这个专页，不在上面的网页榜里。
       - "ai-global-growth-rate-ranking/apps"
+      # vibe coding 细分榜 —— 存量头部（Lovable、Bolt 等）走这里进来，
+      # 它们已过高增长期，全球增长率榜捞不到。榜单月度更新，重复由去重层兜住。
+      - "vibe-coding-rankings"
+      # AI Agent 细分榜 —— 存量头部 Agent 产品（Manus、Cursor 类）走这里进来。
+      - "ai-agent-rankings"
       # 还有二十多个细分榜可加，比如：
-      #   ai-agent-rankings / ai-search-rankings / vibe-coding-rankings
+      #   ai-search-rankings
       #   ai-video-generators-rankings / ai-ppt-rankings
 
   # ---- 以下暂未启用 ----
