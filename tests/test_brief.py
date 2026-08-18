@@ -8,7 +8,9 @@ import unittest
 
 from xocto.brief import (
     BriefError,
+    PublicSourceLeakError,
     _report_markdown,
+    _require_no_public_source_leaks,
     _require_priority_coverage,
     _updates,
     candidates_for_day,
@@ -102,6 +104,35 @@ class BriefTests(unittest.TestCase):
         }
         with self.assertRaises(BriefError):
             _report_markdown(result, DAY, english=False)
+
+    def test_public_copy_rejects_internal_source_names(self) -> None:
+        updated = replace(
+            product(),
+            summary_zh="在 AICPB 的增速榜上表现突出",
+            inspiration="用增长信号补强产品判断",
+            summary_en="A product with an unusual growth signal.",
+            inspiration_en="Growth signals can strengthen product judgment.",
+        )
+        with self.assertRaises(PublicSourceLeakError):
+            _require_no_public_source_leaks(
+                {updated.slug: updated},
+                "## 今日观察\n\n没有泄漏。",
+                "## Today's notes\n\nNo leak.",
+            )
+
+    def test_public_copy_allows_neutral_evidence_language(self) -> None:
+        updated = replace(
+            product(),
+            summary_zh="在 AI 产品增长榜上出现异常增速",
+            inspiration="用增长信号补强产品判断",
+            summary_en="A product with an unusual growth signal.",
+            inspiration_en="Growth signals can strengthen product judgment.",
+        )
+        _require_no_public_source_leaks(
+            {updated.slug: updated},
+            "## 今日观察\n\n增长数据值得继续观察。",
+            "## Today's notes\n\nThe growth signal is worth watching.",
+        )
 
 
 if __name__ == "__main__":

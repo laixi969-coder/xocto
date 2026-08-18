@@ -21,10 +21,28 @@ from .store import Store
 API_URL = "https://api.deepseek.com/chat/completions"
 DEFAULT_MODEL = "deepseek-v4-pro"
 ALLOWED_DECISIONS = {STATUS_REJECTED, STATUS_QUEUED, STATUS_WATCHING}
+# 采集渠道是实现细节，不是给读者的信息。这里和 check_design.py 保持同一
+# 口径；在落盘前检查模型的公开文案，避免等到整站构建后才发现问题。
+FORBIDDEN_PUBLIC_SOURCE_NAMES = (
+    "Product Hunt",
+    "Hacker News",
+    "AICPB",
+    "producthunt",
+    "hackernews",
+    "aicpb",
+)
 
 
 class BriefError(RuntimeError):
     """模型响应或编辑结果不适合公开发布。"""
+
+
+class PublicSourceLeakError(BriefError):
+    """模型把内部采集渠道写进了面向读者的文案。"""
+
+    def __init__(self, names: tuple[str, ...]) -> None:
+        self.names = names
+        super().__init__(f"公开文案出现采集源名称：{', '.join(names)}")
 
 
 @dataclass(frozen=True, slots=True)
@@ -96,6 +114,10 @@ def _prompt(
 非 rejected 必须有 category（只能逐字使用下列之一：{categories}）、不超过 40 个中文字符的 summary_zh、
 20–60 个中文字符的 inspiration、英文 summary_en 与 inspiration_en。
 priority_review 为 true 的候选是跨通道验证的重大项目：不得 rejected，必须在中英文日报正文里至少点名一次。
+
+采集渠道是内部实现，绝不能出现在任何输出字段（包括产品摘要、灵感、日报钩子、要点和正文）。
+不得写 Product Hunt、Hacker News、AICPB 或它们的变体；不要把候选里的 source 字段照抄到公开文案。
+需要表达证据时，改用对读者有意义的描述，例如“社区讨论”“开源活跃度”或“AI 产品增长榜”。
 
 JSON 结构严格如下：
 {
@@ -246,6 +268,51 @@ def _report_markdown(result: dict[str, Any], day: date, *, english: bool) -> str
     return f"---\n{frontmatter}\n---\n\n# {title}\n\n{body}\n"
 
 
+def _public_source_leaks(texts: list[str]) -> tuple[str, ...]:
+    """返回公开文案中出现的内部采集渠道，大小写不敏感且去重。"""
+    combined = "\n".join(texts).casefold()
+    hits: list[str] = []
+    seen: set[str] = set()
+    for name in FORBIDDEN_PUBLIC_SOURCE_NAMES:
+        key = name.casefold()
+        if key in combined and key not in seen:
+            hits.append(name)
+            seen.add(key)
+    return tuple(hits)
+
+
+def _require_no_public_source_leaks(
+    updates: dict[str, Product], zh_report: str, en_report: str
+) -> None:
+    """在写盘前拦截日报和产品卡片会展示的模型文案。"""
+    texts = [zh_report, en_report]
+    for product in updates.values():
+        texts.extend((product.summary_zh, product.inspiration, product.summary_en, product.inspiration_en))
+    leaks = _public_source_leaks(texts)
+    if leaks:
+        raise PublicSourceLeakError(leaks)
+
+
+def _source_leak_repair_messages(
+    messages: list[dict[str, str]], result: dict[str, Any], leaks: tuple[str, ...]
+) -> list[dict[str, str]]:
+    """让模型只修正一次泄漏，保留原结果中已完成的编辑判断。"""
+    leaked = "、".join(leaks)
+    return [
+        *messages,
+        {"role": "assistant", "content": json.dumps(result, ensure_ascii=False)},
+        {
+            "role": "user",
+            "content": (
+                f"刚才的 JSON 在公开文案中泄漏了内部采集渠道：{leaked}。"
+                "请返回一份完整、合法的替换 JSON；保留原有编辑判断和事实，"
+                "仅把这些渠道名称改成面向读者的中性证据描述。"
+                "所有输出字段都不得包含这些名称或其大小写变体。"
+            ),
+        },
+    ]
+
+
 def _empty_report(day: date, *, english: bool) -> str:
     if english:
         return f"---\nday: {day.isoformat()}\nhook: No new products cleared the editorial bar today\nhighlights:\n  - No product worth expanding today\n---\n\n# AI product radar · {day.isoformat()}\n\n## No editorial pick today\n\nThe collection completed, but no newly surfaced product had enough evidence to publish.\n"
@@ -278,12 +345,23 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     previous_zh = store.report_path(day).read_text(encoding="utf-8") if store.report_path(day).exists() else ""
     previous_en_path = store.reports_dir / "en" / f"{day.isoformat()}.md"
     previous_en = previous_en_path.read_text(encoding="utf-8") if previous_en_path.exists() else ""
-    result = _request(_prompt(store, day, products, previous_zh=previous_zh, previous_en=previous_en))
+    messages = _prompt(store, day, products, previous_zh=previous_zh, previous_en=previous_en)
+    result = _request(messages)
     updates = _updates(result, products)
     zh_report = _report_markdown(result, day, english=False)
     en_report = _report_markdown(result, day, english=True)
     # 先把所有模型输出校验完成，之后才开始写盘；避免半批产品被更新。
     _require_priority_coverage(products, zh_report, en_report)
+    try:
+        _require_no_public_source_leaks(updates, zh_report, en_report)
+    except PublicSourceLeakError as exc:
+        # 提示词仍可能被模型偶发忽略；只为这一类可修复的文案问题自动重写一次。
+        result = _request(_source_leak_repair_messages(messages, result, exc.names))
+        updates = _updates(result, products)
+        zh_report = _report_markdown(result, day, english=False)
+        en_report = _report_markdown(result, day, english=True)
+        _require_priority_coverage(products, zh_report, en_report)
+        _require_no_public_source_leaks(updates, zh_report, en_report)
     for product in updates.values():
         store.save_product(product)
     store.save_report(zh_report, day)
