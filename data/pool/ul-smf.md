@@ -12,17 +12,17 @@ url: https://github.com/liventruth/UL-SMF-Cache-Compression
 canonical_url: https://github.com/liventruth/UL-SMF-Cache-Compression
 summary: Open-source linear-complexity ~300x KV-cache compression
 first_seen: '2026-08-17T15:56:14Z'
-last_seen: '2026-08-17T22:41:16Z'
+last_seen: '2026-08-18T14:52:32Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/liventruth/UL-SMF-Cache-Compression
-  seen_at: '2026-08-17T22:41:16Z'
+  seen_at: '2026-08-18T14:52:32Z'
   metrics:
-    points: 9
-    comments: 0
+    points: 13
+    comments: 1
 ---
 
 # UL-SMF

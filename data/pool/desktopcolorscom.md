@@ -12,17 +12,17 @@ url: https://desktopcolors.com
 canonical_url: https://desktopcolors.com
 summary: A museum for solid background colors of classic OS
 first_seen: '2026-08-17T07:51:22Z'
-last_seen: '2026-08-17T22:41:16Z'
+last_seen: '2026-08-18T14:52:32Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://desktopcolors.com
-  seen_at: '2026-08-17T22:41:16Z'
+  seen_at: '2026-08-18T14:52:32Z'
   metrics:
-    points: 132
-    comments: 59
+    points: 154
+    comments: 69
 ---
 
 # Desktopcolors.com

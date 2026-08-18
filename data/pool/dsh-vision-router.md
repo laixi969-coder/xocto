@@ -14,18 +14,18 @@ summary: 'Eyes for text-only DeepSeek Harness agents: built-in free vision chain
   vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command
   install, no Python, image turns work like ordinary tool-calling turns.'
 first_seen: '2026-08-13T18:57:47Z'
-last_seen: '2026-08-17T22:41:17Z'
+last_seen: '2026-08-18T14:52:33Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ysr666/dsh-vision-router
-  seen_at: '2026-08-17T22:41:17Z'
+  seen_at: '2026-08-18T14:52:33Z'
   metrics:
-    stars: 633
-    forks: 28
-    open_issues: 5
+    stars: 733
+    forks: 32
+    open_issues: 4
 ---
 
 # dsh-vision-router

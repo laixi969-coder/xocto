@@ -7,20 +7,21 @@ summary_zh: ''
 inspiration: ''
 summary_en: ''
 inspiration_en: ''
+priority_review: false
 url: https://harden.run/#firewall-install
 canonical_url: https://harden.run
 summary: On device Firewall for Coding and Personal Agents
 first_seen: '2026-08-01T03:58:55Z'
-last_seen: '2026-08-14T04:55:58Z'
+last_seen: '2026-08-18T14:52:33Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://harden.run/#firewall-install
-  seen_at: '2026-08-14T04:55:58Z'
+  seen_at: '2026-08-18T14:52:33Z'
   metrics:
-    stars: 479
+    stars: 480
     forks: 387
     open_issues: 1
 ---

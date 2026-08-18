@@ -12,16 +12,16 @@ url: https://github.com/vercel-labs/eve-software-factory-template/tree/main
 canonical_url: https://github.com/vercel-labs/eve-software-factory-template/tree/main
 summary: Build a software factory in minutes with this free OSS template
 first_seen: '2026-08-17T14:28:49Z'
-last_seen: '2026-08-17T22:41:16Z'
+last_seen: '2026-08-18T14:52:32Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/vercel-labs/eve-software-factory-template/tree/main
-  seen_at: '2026-08-17T22:41:16Z'
+  seen_at: '2026-08-18T14:52:32Z'
   metrics:
-    points: 9
+    points: 10
     comments: 4
 ---
 

@@ -14,17 +14,17 @@ summary: Brahma Echo is an open-source Windows desktop AI assistant that combine
   voice and text interaction with screen-aware automation, document generation, and local device gateway
   pairing for smarter desktop workflows.
 first_seen: '2026-08-10T10:43:34Z'
-last_seen: '2026-08-17T22:41:17Z'
+last_seen: '2026-08-18T14:52:33Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/titechprabhasolutions/Brahma-Echo
-  seen_at: '2026-08-17T22:41:17Z'
+  seen_at: '2026-08-18T14:52:33Z'
   metrics:
-    stars: 51
-    forks: 21
+    stars: 52
+    forks: 22
     open_issues: 0
 ---
 

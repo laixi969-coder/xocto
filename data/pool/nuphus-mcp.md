@@ -13,18 +13,18 @@ canonical_url: https://github.com/mrpulor-gh/nuphus-mcp
 summary: 'Desktop automation MCP server — computer use for any AI agent: control screen, windows, mouse/keyboard,
   and Chrome via Model Context Protocol (stdio)'
 first_seen: '2026-08-01T08:02:34Z'
-last_seen: '2026-08-17T22:41:17Z'
+last_seen: '2026-08-18T14:52:33Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mrpulor-gh/nuphus-mcp
-  seen_at: '2026-08-17T22:41:17Z'
+  seen_at: '2026-08-18T14:52:33Z'
   metrics:
-    stars: 221
+    stars: 223
     forks: 26
-    open_issues: 1
+    open_issues: 0
 ---
 
 # nuphus-mcp

@@ -12,17 +12,17 @@ url: https://mkornreich.me/projects/sokoban/
 canonical_url: https://mkornreich.me/projects/sokoban
 summary: ''
 first_seen: '2026-08-17T13:07:00Z'
-last_seen: '2026-08-17T22:41:16Z'
+last_seen: '2026-08-18T14:52:32Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mkornreich.me/projects/sokoban/
-  seen_at: '2026-08-17T22:41:16Z'
+  seen_at: '2026-08-18T14:52:32Z'
   metrics:
-    points: 65
-    comments: 38
+    points: 69
+    comments: 42
 ---
 
 # Sokoban AI Solver

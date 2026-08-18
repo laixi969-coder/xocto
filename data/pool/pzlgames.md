@@ -12,7 +12,7 @@ url: https://pzlgames.com/games/headlines/
 canonical_url: https://pzlgames.com/games/headlines
 summary: 3 Scrambled News Headlines
 first_seen: '2026-08-16T12:47:34Z'
-last_seen: '2026-08-16T22:37:03Z'
+last_seen: '2026-08-18T14:52:32Z'
 status: rejected
 sources:
 - hackernews
@@ -23,6 +23,12 @@ sightings:
   metrics:
     points: 7
     comments: 2
+- source: hackernews
+  url: https://pzlgames.com/games/hackernews/
+  seen_at: '2026-08-18T14:52:32Z'
+  metrics:
+    points: 5
+    comments: 0
 ---
 
 # pzlgames

@@ -15,18 +15,18 @@ canonical_url: https://thiientv.github.io/godmode
 summary: Production-grade Agent Skills for AI coding agents—composable workflows for planning, TDD, debugging,
   review, UI/UX, releases, incidents, and evals.
 first_seen: '2026-08-13T04:06:22Z'
-last_seen: '2026-08-17T22:41:17Z'
+last_seen: '2026-08-18T14:52:33Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://thiientv.github.io/godmode
-  seen_at: '2026-08-17T22:41:17Z'
+  seen_at: '2026-08-18T14:52:33Z'
   metrics:
-    stars: 90
-    forks: 84
-    open_issues: 1
+    stars: 89
+    forks: 83
+    open_issues: 0
 ---
 
 # godmode

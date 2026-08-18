@@ -12,17 +12,17 @@ url: https://classify.stylometry.net/
 canonical_url: https://classify.stylometry.net
 summary: Classifier and browser extension to detect rule violating HN comments
 first_seen: '2026-08-17T16:04:30Z'
-last_seen: '2026-08-17T22:41:16Z'
+last_seen: '2026-08-18T14:52:32Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://classify.stylometry.net/
-  seen_at: '2026-08-17T22:41:16Z'
+  seen_at: '2026-08-18T14:52:32Z'
   metrics:
-    points: 7
-    comments: 0
+    points: 10
+    comments: 1
 ---
 
 # classify

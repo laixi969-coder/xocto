@@ -12,16 +12,16 @@ url: https://aitradingcompetition.com/
 canonical_url: https://aitradingcompetition.com
 summary: LLMs each trading $100K vs. a frozen rulebook – the rulebook leads
 first_seen: '2026-08-17T13:20:01Z'
-last_seen: '2026-08-17T22:41:16Z'
+last_seen: '2026-08-18T14:52:32Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://aitradingcompetition.com/
-  seen_at: '2026-08-17T22:41:16Z'
+  seen_at: '2026-08-18T14:52:32Z'
   metrics:
-    points: 11
+    points: 12
     comments: 3
 ---
 
