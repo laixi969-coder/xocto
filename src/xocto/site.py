@@ -19,7 +19,6 @@ data/reports/en/ 和 frontmatter 里的 *_en 字段）。模板只有一套，�
 
 from __future__ import annotations
 
-import hashlib
 import html
 import re
 import shutil
@@ -363,6 +362,17 @@ def _weight(product: Product) -> int:
     return best
 
 
+def _daily_rotation(items: list[Any], day: str, *, limit: int) -> list[Any]:
+    """按数据日期平移一个窗口，让首页每日内容稳定且确实轮换。"""
+    if not items or limit <= 0:
+        return []
+    try:
+        offset = int(day.replace("-", "")) % len(items)
+    except ValueError:
+        offset = 0
+    return [items[(offset + index) % len(items)] for index in range(min(limit, len(items)))]
+
+
 def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     """组装某个语种的整站数据。
 
@@ -383,13 +393,18 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
 
     early = [v for v in views if v["stage_key"] == STAGE_EARLY]
     proven = [v for v in views if v["stage_key"] == STAGE_PROVEN]
+    latest_day = max((v["last_seen"] for v in views), default="")
 
-    # 1. 今日判断：有深度分析的，按推荐度排
-    picks = [
+    # 长期精选按推荐度固定，负责沉淀可信的代表性判断；它不承担日更的新鲜感。
+    long_term_picks = [
         {**view_by_slug.get(a.slug, {"slug": a.slug, "name": a.name}), "analysis": a}
         for a in analyses
         if a.slug in view_by_slug
     ]
+    # 每日新鲜精选从长期精选以外的深度判断里按当天数据日期平移，既每天给回访者
+    # 新入口、也避免在同一页重复长期精选，又不把旧分析伪装成当天新闻。
+    fresh_pool = long_term_picks[3:] or long_term_picks
+    fresh_picks = _daily_rotation(fresh_pool, latest_day, limit=3)
 
     # 2. 值得留意：进了观察名单但还没展开分析的
     notables = sorted(
@@ -442,14 +457,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
                 "text": text,
             })
 
-    # 6. 今日借鉴：按 latest_day 的日期 hash 选一条产品逻辑类 takeaway。
-    # 每天换一条，强化"给创业者灵感"的定位。用 hash 是为了让中英文同一天选到同一条。
-    latest_day = max((v["last_seen"] for v in views), default="")
-    today_takeaway = None
-    if takeaways_by_topic["product"]:
-        seed = (latest_day or "2026-08-14").replace("-", "")
-        idx = int(hashlib.md5(seed.encode()).hexdigest(), 16) % len(takeaways_by_topic["product"])
-        today_takeaway = takeaways_by_topic["product"][idx]
+    # 6. 今日借鉴：同样按数据日期轮换，确保相邻两天不会稳定地撞上同一条。
+    today_takeaway = next(iter(_daily_rotation(takeaways_by_topic["product"], latest_day, limit=1)), None)
 
 
     # 读完一份分析之后没有下一步，旅程就断在那里了。
@@ -486,7 +495,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "analyses": analyses,
         "analysis_by_slug": by_slug,
         "reports": reports,
-        "picks": picks,
+        "fresh_picks": fresh_picks,
+        "long_term_picks": long_term_picks,
         "notables": notables,
         "movers": movers,
         "categories": categories,

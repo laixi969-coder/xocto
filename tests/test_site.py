@@ -8,7 +8,7 @@ from pathlib import Path
 from xocto.i18n import BOARD_EN
 from xocto.i18n import ZH
 from xocto.models import Product, Sighting
-from xocto.site import _is_publishable, _metric_badges, _remove_stale_pages, _schema, product_view
+from xocto.site import _daily_rotation, _is_publishable, _metric_badges, _remove_stale_pages, _schema, product_view
 
 
 def product(*, status: str = "watching", summary_zh: str = "中文说明", inspiration: str = "灵感") -> Product:
@@ -33,12 +33,14 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
 
-        self.assertLess(template.index("t.home.latest_report"), template.index("t.home.picks"))
-        self.assertLess(template.index("t.home.picks"), template.index("t.home.movers"))
+        self.assertLess(template.index("t.home.latest_report"), template.index("t.home.today_takeaway_title"))
+        self.assertLess(template.index("t.home.today_takeaway_title"), template.index("t.home.fresh_picks"))
+        self.assertLess(template.index("t.home.fresh_picks"), template.index("t.home.movers"))
         self.assertLess(template.index("t.home.movers"), template.index("t.home.notables"))
-        self.assertLess(template.index("t.home.notables"), template.index("t.home.cats"))
+        self.assertLess(template.index("t.home.notables"), template.index("t.home.long_term_picks"))
+        self.assertLess(template.index("t.home.long_term_picks"), template.index("t.home.cats"))
         self.assertLess(template.index("t.home.cats"), template.index("t.home.past_reports"))
-        self.assertIn("{% for p in picks[:3] %}", template)
+        self.assertIn("{% for p in items[:3] %}", template)
         self.assertIn("{% for p in movers[:8] %}", template)
         self.assertIn("{% for p in notables[:8] %}", template)
         self.assertNotIn("t.home.col_boards", template)
@@ -47,6 +49,15 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertNotIn("p.boards", products_template)
+
+    def test_daily_rotation_moves_the_window_forward(self) -> None:
+        items = ["one", "two", "three", "four"]
+        first_day = _daily_rotation(items, "2026-08-18", limit=3)
+        second_day = _daily_rotation(items, "2026-08-19", limit=3)
+
+        self.assertEqual(len(first_day), 3)
+        self.assertNotEqual(first_day, second_day)
+        self.assertEqual(_daily_rotation(items, "not-a-date", limit=10), items)
 
     def test_product_page_uses_latest_metric_and_decodes_names(self) -> None:
         product_with_updates = replace(

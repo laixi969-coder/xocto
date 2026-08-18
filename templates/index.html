@@ -1,6 +1,38 @@
 {% extends "base.html" %}
 
 {% block body %}
+{% macro pick_list(items) %}
+<div class="picks">
+  {% for p in items[:3] %}
+  <article class="pick" style="--i: {{ loop.index0 }}">
+    <span class="pick-no num">0{{ loop.index }}</span>
+    <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
+      <h3>{{ p.name }}</h3>
+      {% if p.analysis.verdict %}
+      <span class="verdict v-{{ p.analysis.verdict_key }}">{{ p.analysis.verdict }}</span>
+      {% endif %}
+      {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+    </a>
+    <div class="pick-body">
+      {% if p.analysis.replaces %}
+      <div class="field">
+        <span class="field-k">{{ t.home.replaces }}</span>
+        <p>{{ p.analysis.replaces }}</p>
+      </div>
+      {% else %}
+      <div class="field"><p>{{ p.analysis.excerpt }}</p></div>
+      {% endif %}
+      {% if p.analysis.takeaway %}
+      <div class="field field-take">
+        <span class="field-k">{{ t.home.takeaway }}</span>
+        <p>{{ p.analysis.takeaway }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endmacro %}
 <div class="wrap">
 
   {# 这不是营销 Hero，而是当天的编辑台：先交代范围，再把判断递给读者。 #}
@@ -40,46 +72,6 @@
   </section>
   {% endif %}
 
-  {% if picks %}
-  <section class="band">
-    <div class="sec-head">
-      <h2>{{ t.home.picks }}</h2>
-      <span class="note">{{ t.home.picks_note }}</span>
-    </div>
-
-    <div class="picks">
-      {% for p in picks[:3] %}
-      <article class="pick" style="--i: {{ loop.index0 }}">
-        <span class="pick-no num">0{{ loop.index }}</span>
-        <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
-          <h3>{{ p.name }}</h3>
-          {% if p.analysis.verdict %}
-          <span class="verdict v-{{ p.analysis.verdict_key }}">{{ p.analysis.verdict }}</span>
-          {% endif %}
-          {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
-        </a>
-        <div class="pick-body">
-          {% if p.analysis.replaces %}
-          <div class="field">
-            <span class="field-k">{{ t.home.replaces }}</span>
-            <p>{{ p.analysis.replaces }}</p>
-          </div>
-          {% else %}
-          <div class="field"><p>{{ p.analysis.excerpt }}</p></div>
-          {% endif %}
-          {% if p.analysis.takeaway %}
-          <div class="field field-take">
-            <span class="field-k">{{ t.home.takeaway }}</span>
-            <p>{{ p.analysis.takeaway }}</p>
-          </div>
-          {% endif %}
-        </div>
-      </article>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
   {% if today_takeaway %}
   <section class="band">
     <div class="sec-head">
@@ -90,6 +82,16 @@
       <span class="field-k">{{ t.home.today_takeaway_from }} · {{ today_takeaway.name }}</span>
       <p>{{ today_takeaway.text }}</p>
     </a>
+  </section>
+  {% endif %}
+
+  {% if fresh_picks %}
+  <section class="band">
+    <div class="sec-head">
+      <h2>{{ t.home.fresh_picks }}</h2>
+      <span class="note">{{ t.home.fresh_picks_note }}</span>
+    </div>
+    {{ pick_list(fresh_picks) }}
   </section>
   {% endif %}
 
@@ -151,6 +153,16 @@
       </li>
       {% endfor %}
     </ul>
+  </section>
+  {% endif %}
+
+  {% if long_term_picks %}
+  <section class="band">
+    <div class="sec-head">
+      <h2>{{ t.home.long_term_picks }}</h2>
+      <span class="note">{{ t.home.long_term_picks_note }}</span>
+    </div>
+    {{ pick_list(long_term_picks) }}
   </section>
   {% endif %}
 
