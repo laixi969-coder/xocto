@@ -12,16 +12,16 @@ url: https://github.com/ShawnPana/phone-harness
 canonical_url: https://github.com/ShawnPana/phone-harness
 summary: let your agent control your phone
 first_seen: '2026-08-07T22:28:53Z'
-last_seen: '2026-08-18T14:52:33Z'
+last_seen: '2026-08-18T22:41:53Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ShawnPana/phone-harness
-  seen_at: '2026-08-18T14:52:33Z'
+  seen_at: '2026-08-18T22:41:53Z'
   metrics:
-    stars: 1906
+    stars: 1914
     forks: 180
     open_issues: 22
 ---

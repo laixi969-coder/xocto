@@ -12,16 +12,16 @@ url: https://github.com/inkeep/visimer
 canonical_url: https://github.com/inkeep/visimer
 summary: open-source visual editor for Mermaid diagrams
 first_seen: '2026-08-17T18:26:04Z'
-last_seen: '2026-08-18T14:52:32Z'
+last_seen: '2026-08-18T22:41:52Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/inkeep/visimer
-  seen_at: '2026-08-18T14:52:32Z'
+  seen_at: '2026-08-18T22:41:52Z'
   metrics:
-    points: 15
+    points: 16
     comments: 4
 ---
 

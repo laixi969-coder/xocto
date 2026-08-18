@@ -12,17 +12,17 @@ url: https://wolfoo2931.github.io/declarative-forms/
 canonical_url: https://wolfoo2931.github.io/declarative-forms
 summary: await an object the way prompt() awaits a string
 first_seen: '2026-08-17T18:32:31Z'
-last_seen: '2026-08-18T14:52:32Z'
+last_seen: '2026-08-18T22:41:52Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wolfoo2931.github.io/declarative-forms/
-  seen_at: '2026-08-18T14:52:32Z'
+  seen_at: '2026-08-18T22:41:52Z'
   metrics:
-    points: 5
-    comments: 1
+    points: 6
+    comments: 2
 ---
 
 # Declarative-forms

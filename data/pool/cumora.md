@@ -13,18 +13,18 @@ canonical_url: https://cumora.ai
 summary: Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates
   — with cloud or bring-your-own (Claude Code / Codex) brains.
 first_seen: '2026-08-17T09:13:52Z'
-last_seen: '2026-08-18T14:52:33Z'
+last_seen: '2026-08-18T22:41:53Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://cumora.ai
-  seen_at: '2026-08-18T14:52:33Z'
+  seen_at: '2026-08-18T22:41:53Z'
   metrics:
-    stars: 2241
-    forks: 243
-    open_issues: 4
+    stars: 2343
+    forks: 259
+    open_issues: 9
 ---
 
 # cumora

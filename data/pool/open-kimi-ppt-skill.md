@@ -14,16 +14,16 @@ canonical_url: https://github.com/Binaryify/open-kimi-ppt-skill
 summary: 非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for
   AI agents — generate editable PPTD + PPTX with a local browser editor
 first_seen: '2026-08-05T07:30:56Z'
-last_seen: '2026-08-18T14:52:33Z'
+last_seen: '2026-08-18T22:41:53Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Binaryify/open-kimi-ppt-skill
-  seen_at: '2026-08-18T14:52:33Z'
+  seen_at: '2026-08-18T22:41:53Z'
   metrics:
-    stars: 1602
+    stars: 1603
     forks: 1230
     open_issues: 6
 ---

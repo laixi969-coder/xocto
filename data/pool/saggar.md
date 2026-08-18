@@ -12,17 +12,17 @@ url: https://saggar.marginalutility.dev/
 canonical_url: https://saggar.marginalutility.dev
 summary: a Mac terminal that keeps sessions and your attention organized
 first_seen: '2026-08-17T14:25:54Z'
-last_seen: '2026-08-18T14:52:32Z'
+last_seen: '2026-08-18T22:41:52Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://saggar.marginalutility.dev/
-  seen_at: '2026-08-18T14:52:32Z'
+  seen_at: '2026-08-18T22:41:52Z'
   metrics:
-    points: 40
-    comments: 45
+    points: 59
+    comments: 54
 ---
 
 # Saggar

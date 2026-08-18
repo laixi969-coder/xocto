@@ -13,16 +13,16 @@ canonical_url: https://github.com/csyangwen/dsh-memory-evolve
 summary: 为 DeepSeek Harness 带来「跨会话长期记忆 + 后台自我进化」能力的纯插件实现：五轨记忆 · git 分支感知 · 回合内自我审查 · 技能自我进化与技能管理器 · 四轨待办
   · COI 调度 · 会话广播 · 会话搜索 · 提示词管理器 · 临时信息便签——零核心修改、零运行时依赖，随装随用、卸载即净。
 first_seen: '2026-08-05T06:53:09Z'
-last_seen: '2026-08-18T14:52:33Z'
+last_seen: '2026-08-18T22:41:53Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/csyangwen/dsh-memory-evolve
-  seen_at: '2026-08-18T14:52:33Z'
+  seen_at: '2026-08-18T22:41:53Z'
   metrics:
-    stars: 174
+    stars: 177
     forks: 11
     open_issues: 3
 ---

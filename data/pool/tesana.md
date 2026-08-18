@@ -12,17 +12,17 @@ url: https://tesana.ai/en
 canonical_url: https://tesana.ai/en
 summary: An AI game engine that builds quality games end-to-end
 first_seen: '2026-08-17T17:39:02Z'
-last_seen: '2026-08-18T14:52:32Z'
+last_seen: '2026-08-18T22:41:52Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tesana.ai/en
-  seen_at: '2026-08-18T14:52:32Z'
+  seen_at: '2026-08-18T22:41:52Z'
   metrics:
     points: 16
-    comments: 10
+    comments: 12
 ---
 
 # Tesana

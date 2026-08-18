@@ -12,17 +12,17 @@ url: https://speko.ai/
 canonical_url: https://speko.ai
 summary: OpenRouter for Voice AI
 first_seen: '2026-08-17T15:36:18Z'
-last_seen: '2026-08-18T14:52:32Z'
+last_seen: '2026-08-18T22:41:52Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://speko.ai/
-  seen_at: '2026-08-18T14:52:32Z'
+  seen_at: '2026-08-18T22:41:52Z'
   metrics:
-    points: 110
-    comments: 61
+    points: 113
+    comments: 65
 ---
 
 # Speko (YC S26)

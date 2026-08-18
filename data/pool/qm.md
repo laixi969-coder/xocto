@@ -13,18 +13,18 @@ url: https://x.com/qm__dev
 canonical_url: https://x.com/qm__dev
 summary: Multiplayer agent harness for work. https://qm.ycombinator.com
 first_seen: '2026-07-29T20:03:08Z'
-last_seen: '2026-08-18T14:52:33Z'
+last_seen: '2026-08-18T22:41:53Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://x.com/qm__dev
-  seen_at: '2026-08-18T14:52:33Z'
+  seen_at: '2026-08-18T22:41:53Z'
   metrics:
-    stars: 13859
-    forks: 1645
-    open_issues: 259
+    stars: 13884
+    forks: 1648
+    open_issues: 266
 ---
 
 # qm

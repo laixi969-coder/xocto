@@ -12,17 +12,17 @@ url: https://flagquizzes.com/
 canonical_url: https://flagquizzes.com
 summary: ''
 first_seen: '2026-08-17T14:11:17Z'
-last_seen: '2026-08-18T14:52:32Z'
+last_seen: '2026-08-18T22:41:52Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://flagquizzes.com/
-  seen_at: '2026-08-18T14:52:32Z'
+  seen_at: '2026-08-18T22:41:52Z'
   metrics:
-    points: 55
-    comments: 33
+    points: 56
+    comments: 34
 ---
 
 # Learn Flags Quiz

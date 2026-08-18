@@ -12,17 +12,17 @@ url: https://github.com/ytkoka/impersonate-proxy
 canonical_url: https://github.com/ytkoka/impersonate-proxy
 summary: A local MitM proxy to control TLS fingerprints
 first_seen: '2026-08-18T13:07:50Z'
-last_seen: '2026-08-18T14:52:32Z'
+last_seen: '2026-08-18T22:41:52Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/ytkoka/impersonate-proxy
-  seen_at: '2026-08-18T14:52:32Z'
+  seen_at: '2026-08-18T22:41:52Z'
   metrics:
-    points: 9
-    comments: 1
+    points: 23
+    comments: 5
 ---
 
 # impersonate-proxy
