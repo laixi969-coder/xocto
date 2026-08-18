@@ -14,7 +14,7 @@ summary: DeepSeek V4 × J-Space capability realization report — benchmark evid
   capability-realization loss on DeepSeek V4 (Flash/Pro).
 first_seen: '2026-08-16T11:38:42Z'
 last_seen: '2026-08-18T14:52:33Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

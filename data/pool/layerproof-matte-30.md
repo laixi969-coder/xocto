@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/layerproof-social-content-genera
 summary: 'Grow your social media content: posts, carousels and stories'
 first_seen: '2026-08-13T07:07:02Z'
 last_seen: '2026-08-18T14:52:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

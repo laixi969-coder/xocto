@@ -14,7 +14,7 @@ summary: AI skills大全 mcp ai知识库 Agent 全维度 AI 资源百科，DSH�
   coding 大全、零基础学习路线，持续更新前沿 AI 开源项目，开发者一站式 AI 导航库
 first_seen: '2026-08-03T05:43:30Z'
 last_seen: '2026-08-18T14:52:33Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

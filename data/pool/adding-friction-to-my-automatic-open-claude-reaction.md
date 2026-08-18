@@ -14,7 +14,7 @@ summary: I&#x27;ve been reaching for claude way too often and wanted to add some
   a chance to think about whether or not it&#x27;s actually necessary :&#x27;) https:&#x2F;&#x2F;github.com&#x2F;aqureshi8&#x2F;…
 first_seen: '2026-08-17T01:29:32Z'
 last_seen: '2026-08-17T22:41:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/meridian-16
 summary: Don't let your work go unnoticed. Get promoted!
 first_seen: '2026-08-14T08:42:54Z'
 last_seen: '2026-08-17T22:41:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

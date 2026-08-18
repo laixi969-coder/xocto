@@ -13,7 +13,7 @@ canonical_url: https://aicpb.com/product/Glean/webid1D6F37E99
 summary: Discover how Glean's Work AI Platform up leveled Reddit's sales and enablement processes
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

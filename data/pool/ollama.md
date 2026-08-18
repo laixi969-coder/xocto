@@ -13,7 +13,7 @@ canonical_url: https://aicpb.com/product/Ollama/webid1D6F37241
 summary: A language model created by combining two fine-tuned Llama 2 70B models into one.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

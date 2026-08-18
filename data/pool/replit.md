@@ -13,7 +13,7 @@ canonical_url: https://aicpb.com/product/Replit/webid1D6F37089
 summary: Replit is an AI-powered platform for building professional web apps and websites.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

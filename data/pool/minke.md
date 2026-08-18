@@ -2,18 +2,18 @@
 slug: minke
 name: Minke
 builder: lencx
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DeepSeek Harness 桌面版
+inspiration: 将 AI 开发工具桌面化，可借鉴其桌面应用模式。
+summary_en: DeepSeek Harness Desktop.
+inspiration_en: Desktop client for AI development tools.
 priority_review: false
 url: https://github.com/lencx/Minke
 canonical_url: https://github.com/lencx/Minke
 summary: 🐳 DeepSeek Harness Desktop
 first_seen: '2026-08-15T01:49:38Z'
 last_seen: '2026-08-18T14:52:33Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

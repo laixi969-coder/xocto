@@ -13,7 +13,7 @@ canonical_url: https://xbsheng.github.io/atguigu-note
 summary: 尚硅谷 AI 课程笔记
 first_seen: '2026-07-31T22:44:26Z'
 last_seen: '2026-08-18T14:52:33Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

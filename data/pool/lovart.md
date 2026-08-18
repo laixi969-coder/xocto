@@ -13,7 +13,7 @@ canonical_url: https://aicpb.com/product/Lovart/webid1D6F37DC9
 summary: ''
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

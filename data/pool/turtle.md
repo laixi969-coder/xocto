@@ -13,7 +13,7 @@ canonical_url: https://news.ycombinator.com/item?id=49340294
 summary: Web Browser written from scratch for 2 years
 first_seen: '2026-08-18T02:10:09Z'
 last_seen: '2026-08-18T14:52:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

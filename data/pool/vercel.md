@@ -14,7 +14,7 @@ summary: Vercel gives developers the frameworks, workflows, and infrastructure t
   personalized web.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

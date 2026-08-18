@@ -14,7 +14,7 @@ summary: Discover MiniMax Agent, your AI supercompanion, enhancing creativity an
   for meditation, podcast, coding, analysis, and more!
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

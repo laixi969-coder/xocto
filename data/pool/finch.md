@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/finch-6
 summary: A single place for your health data and tests
 first_seen: '2026-08-17T19:36:34Z'
 last_seen: '2026-08-18T14:52:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

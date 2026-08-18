@@ -13,7 +13,7 @@ canonical_url: https://github.com/tianzizhiming-svg/agentbridge
 summary: I built an M2M payment loop where AI Agents pay for data via x402
 first_seen: '2026-08-18T07:07:00Z'
 last_seen: '2026-08-18T14:52:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

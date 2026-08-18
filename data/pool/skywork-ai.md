@@ -14,7 +14,7 @@ summary: 'In-depth GenSpark AI review (2025): Sparkpages, super agent autonomy, 
   privacy, and real-world competitor tests. See top features, pros, and cons.'
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

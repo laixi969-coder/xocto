@@ -13,7 +13,7 @@ canonical_url: https://aicpb.com/product/OpenClaw/webid1D6F39F51
 summary: 开创了 Claw 智能体品类
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

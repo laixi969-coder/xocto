@@ -13,7 +13,7 @@ canonical_url: https://wolfoo2931.github.io/declarative-forms
 summary: await an object the way prompt() awaits a string
 first_seen: '2026-08-17T18:32:31Z'
 last_seen: '2026-08-18T14:52:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://github.com/marsbos/flynt.js
 summary: 2.2kb, zero-build, CSP-safe reactivity library for MPAs
 first_seen: '2026-08-16T17:40:33Z'
 last_seen: '2026-08-17T22:41:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

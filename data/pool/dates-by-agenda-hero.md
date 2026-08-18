@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/dates-by-agenda-hero
 summary: Create a plan for anything. Share it with anyone.
 first_seen: '2026-08-18T02:30:22Z'
 last_seen: '2026-08-18T14:52:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

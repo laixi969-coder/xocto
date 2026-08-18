@@ -14,7 +14,7 @@ summary: Welcome to Airtable Templates, where you can quickly get started using 
   the template that was built just for you.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

@@ -14,7 +14,7 @@ summary: Join the world's most widely adopted, AI-powered developer platform whe
   businesses, and the largest open source community build software that advances humanity.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

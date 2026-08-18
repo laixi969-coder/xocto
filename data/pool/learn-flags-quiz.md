@@ -13,7 +13,7 @@ canonical_url: https://flagquizzes.com
 summary: ''
 first_seen: '2026-08-17T14:11:17Z'
 last_seen: '2026-08-18T14:52:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

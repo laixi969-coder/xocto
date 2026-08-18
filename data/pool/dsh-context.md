@@ -2,11 +2,11 @@
 slug: dsh-context
 name: dsh-context
 builder: bowenliang123
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DeepSeek Harness 上下文可视化插件
+inspiration: 让 AI 上下文透明化，可借鉴其可视化方法。
+summary_en: DeepSeek Harness plugin for context insight and management.
+inspiration_en: Visualizing AI context for better control.
 priority_review: false
 url: https://www.npmjs.com/package/dsh-context
 canonical_url: https://npmjs.com/package/dsh-context
@@ -16,7 +16,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
 last_seen: '2026-08-18T14:52:33Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

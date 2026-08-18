@@ -14,7 +14,7 @@ summary: Build agents that do more. Composio gives you APIs, SDKs, and prebuilt 
   AI agents interact with apps like Slack, Gmail, HubSpot, GitHub and beyond.
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-17T22:41:21Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://github.com/radium0090/Compute-Gateway
 summary: One API for OpenAI, Anthropic, and Gemini
 first_seen: '2026-08-17T07:21:37Z'
 last_seen: '2026-08-17T22:41:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

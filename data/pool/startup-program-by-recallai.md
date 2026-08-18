@@ -13,7 +13,7 @@ canonical_url: https://producthunt.com/products/recall-ai
 summary: Startup program for meeting recording infrastructure
 first_seen: '2026-08-11T23:38:18Z'
 last_seen: '2026-08-17T22:41:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:
