@@ -13,7 +13,7 @@ canonical_url: https://oxide.build
 summary: the back end (un)framework that won't get in your way
 first_seen: '2026-08-18T15:43:41Z'
 last_seen: '2026-08-18T22:41:52Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
