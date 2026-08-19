@@ -14,16 +14,16 @@ canonical_url: https://github.com/z15114664687-dot/hr-onboarding-agent
 summary: 'Open-source AI-assisted HR onboarding for Feishu/Lark: configurable workflows, document OCR
   and review, Bitable sync, reminders, and a zero-credential demo.'
 first_seen: '2026-08-11T11:22:22Z'
-last_seen: '2026-08-18T22:41:53Z'
+last_seen: '2026-08-19T22:41:22Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/z15114664687-dot/hr-onboarding-agent
-  seen_at: '2026-08-18T22:41:53Z'
+  seen_at: '2026-08-19T22:41:22Z'
   metrics:
-    stars: 68
+    stars: 73
     forks: 0
     open_issues: 16
 ---

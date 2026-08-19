@@ -12,17 +12,17 @@ url: https://machine0.io
 canonical_url: https://machine0.io
 summary: Persistent CPU and GPU VMs from the CLI
 first_seen: '2026-08-18T16:26:42Z'
-last_seen: '2026-08-18T22:41:52Z'
+last_seen: '2026-08-19T22:41:21Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://machine0.io
-  seen_at: '2026-08-18T22:41:52Z'
+  seen_at: '2026-08-19T22:41:21Z'
   metrics:
-    points: 49
-    comments: 33
+    points: 80
+    comments: 44
 ---
 
 # machine0 (YC S26)

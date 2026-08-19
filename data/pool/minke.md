@@ -12,18 +12,18 @@ url: https://github.com/lencx/Minke
 canonical_url: https://github.com/lencx/Minke
 summary: 🐳 DeepSeek Harness Desktop
 first_seen: '2026-08-15T01:49:38Z'
-last_seen: '2026-08-18T22:41:53Z'
+last_seen: '2026-08-19T22:41:22Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lencx/Minke
-  seen_at: '2026-08-18T22:41:53Z'
+  seen_at: '2026-08-19T22:41:22Z'
   metrics:
-    stars: 201
-    forks: 23
-    open_issues: 3
+    stars: 229
+    forks: 25
+    open_issues: 2
 ---
 
 # Minke

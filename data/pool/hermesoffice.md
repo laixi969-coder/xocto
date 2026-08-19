@@ -14,17 +14,17 @@ canonical_url: https://github.com/criptogus/HermesOffice
 summary: HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes
   Agent AI
 first_seen: '2026-08-04T15:55:03Z'
-last_seen: '2026-08-18T22:41:53Z'
+last_seen: '2026-08-19T22:41:22Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/criptogus/HermesOffice
-  seen_at: '2026-08-18T22:41:53Z'
+  seen_at: '2026-08-19T22:41:22Z'
   metrics:
-    stars: 512
-    forks: 68
+    stars: 515
+    forks: 69
     open_issues: 22
 ---
 

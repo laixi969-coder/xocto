@@ -91,9 +91,9 @@
       <h2>今日借鉴</h2>
       <span class="note">每天轮换一条可迁移的方法论——给创业者的灵感点心</span>
     </div>
-    <a class="field field-take" href="p/owlywriter-ai-by-hootsuite.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
-      <span class="field-k">来自 · OwlyWriter AI by Hootsuite</span>
-      <p>成熟产品加 AI 功能，最稳的打法是&#34;不跳出既有工作流&#34;——用户本来就在 Hootsuite 里排期，AI 就长在排期旁边。做增量功能时先问&#34;用户现在的工作流在哪&#34;，把功能放在那里，而不是要求用户为了新功能换地方。</p>
+    <a class="field field-take" href="p/prime-agent.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
+      <span class="field-k">来自 · Prime Agent</span>
+      <p>任何&#34;会自我改进&#34;的功能，参考这个安全设计——永久不可变的基础层 + 可回滚的补丁层。让系统只能改它被允许改的部分，且每次改动留快照， 用户才敢真的让它长期自治。反过来设计（模型自己改写自己的一切）只会在 第一次出错后就失去信任。另一个可抄点：把&#34;沉淀工作方法&#34;做成一等功能 （/refine），而不是藏在配置里。</p>
     </a>
   </section>
 
@@ -105,23 +105,6 @@
     <div class="picks">
   <article class="pick" style="--i: 0">
     <span class="pick-no num">01</span>
-    <a class="pick-id" href="p/ai-courtroom.html">
-      <h3>ai_courtroom</h3>
-      <span class="verdict v-unproven">证据不足</span>
-<span class="tag">基础层</span>    </a>
-    <div class="pick-body">
-      <div class="field">
-        <span class="field-k">它替人省掉了哪一步</span>
-        <p>以前搞清楚&#34;多个 agent 一起干活会不会更好&#34;这个问题，靠的是两件事：</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">可借鉴的做法</span>
-        <p>产品逻辑：做多 agent 系统时，把&#34;谁可以和谁通信&#34;做成显式可配置的拓扑， 而不是让所有 agent 自由发消息。控制通信结构比堆 agent 数量更影响结果—— 这是实验结果直接给出的可迁移结论。</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick" style="--i: 1">
-    <span class="pick-no num">02</span>
     <a class="pick-id" href="p/applied-micro-skills.html">
       <h3>applied-micro-skills</h3>
       <span class="verdict v-unproven">证据不足</span>
@@ -137,8 +120,8 @@
       </div>
     </div>
   </article>
-  <article class="pick" style="--i: 2">
-    <span class="pick-no num">03</span>
+  <article class="pick" style="--i: 1">
+    <span class="pick-no num">02</span>
     <a class="pick-id" href="p/cadre.html">
       <h3>cadre</h3>
       <span class="verdict v-unproven">证据不足</span>
@@ -151,6 +134,23 @@
       <div class="field field-take">
         <span class="field-k">可借鉴的做法</span>
         <p>产品逻辑：如果你做的是工具型产品，照抄&#34;边界画在决策层&#34;——让用户继续用他已有的执行栈 （模型、CLI、订阅），你只收编决策动作（审批、队列、可见性）。替换成本越低，越容易进门。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick" style="--i: 2">
+    <span class="pick-no num">03</span>
+    <a class="pick-id" href="p/debroid.html">
+      <h3>debroid</h3>
+      <span class="verdict v-unproven">证据不足</span>
+<span class="tag">基础层</span>    </a>
+    <div class="pick-body">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前 AI agent 调安卓 bug 基本靠&#34;盲人摸象&#34;：写代码没问题，但运行时调试它做不到—— 它无法像人那样在 Android Studio 里点开 UI 设断点、看内存、暂停执行。 所以 agent 调 bug 只能看 logcat 猜，猜错就改一行跑一次，来回烧钱。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：给 agent&#34;手&#34;时，优先找领域里最成熟的确定性协议（调试协议、脚本协议、CLI）， 包装成 JSON 接口，而不是自建插桩或视觉方案——复用协议省十年试错。</p>
       </div>
     </div>
   </article>
@@ -262,7 +262,7 @@
             <span class="row-name">keychain-store</span>
             <span class="row-desc">为 Electron 应用提供 macOS 数据保护钥匙串</span>
             <span class="row-tail">
-<span class="tag">基础层</span><span class="tag sig">社区热度 20</span>            </span>
+<span class="tag">基础层</span><span class="tag sig">社区热度 24</span>            </span>
           </div>
           <p class="row-insp">安全存储是桌面应用的基础需求，可迁移到其他跨平台框架</p>
         </a>
@@ -273,7 +273,7 @@
             <span class="row-name">PantheonGPU</span>
             <span class="row-desc">GPU 健康测试和 AI 工作负载基准测试</span>
             <span class="row-tail">
-<span class="tag">基础层</span><span class="tag sig">社区热度 10</span>            </span>
+<span class="tag">基础层</span><span class="tag sig">社区热度 13</span>            </span>
           </div>
           <p class="row-insp">GPU 可靠性测试是 AI 基础设施的关键，可迁移到云服务商</p>
         </a>
@@ -430,7 +430,7 @@
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>305 个产品 · 180 份深度分析</span>
-    <span class="gen">数据截至 2026-08-19</span>
+    <span class="gen">数据截至 2026-08-20</span>
     <span>·</span>
     <a href="methodology.html">方法与口径</a>
     <span>·</span>

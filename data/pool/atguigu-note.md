@@ -12,17 +12,17 @@ url: https://xbsheng.github.io/atguigu-note/
 canonical_url: https://xbsheng.github.io/atguigu-note
 summary: 尚硅谷 AI 课程笔记
 first_seen: '2026-07-31T22:44:26Z'
-last_seen: '2026-08-18T22:41:53Z'
+last_seen: '2026-08-19T22:41:22Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://xbsheng.github.io/atguigu-note/
-  seen_at: '2026-08-18T22:41:53Z'
+  seen_at: '2026-08-19T22:41:22Z'
   metrics:
-    stars: 194
-    forks: 90
+    stars: 199
+    forks: 96
     open_issues: 0
 ---
 

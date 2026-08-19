@@ -12,17 +12,17 @@ url: https://github.com/mukundzha/avouch
 canonical_url: https://github.com/mukundzha/avouch
 summary: I canceled my AI code reviewer and wrote a free local one
 first_seen: '2026-08-18T13:13:17Z'
-last_seen: '2026-08-18T22:41:52Z'
+last_seen: '2026-08-19T22:41:21Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mukundzha/avouch
-  seen_at: '2026-08-18T22:41:52Z'
+  seen_at: '2026-08-19T22:41:21Z'
   metrics:
     points: 22
-    comments: 19
+    comments: 25
 ---
 
 # avouch

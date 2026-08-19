@@ -12,16 +12,16 @@ url: https://pantheongpu.com/
 canonical_url: https://pantheongpu.com
 summary: GPU health testing and AI workload benchmarking
 first_seen: '2026-08-18T18:47:51Z'
-last_seen: '2026-08-18T22:41:52Z'
+last_seen: '2026-08-19T22:41:21Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pantheongpu.com/
-  seen_at: '2026-08-18T22:41:52Z'
+  seen_at: '2026-08-19T22:41:21Z'
   metrics:
-    points: 10
+    points: 13
     comments: 0
 ---
 

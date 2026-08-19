@@ -12,17 +12,17 @@ url: https://github.com/atillalab/site-health
 canonical_url: https://github.com/atillalab/site-health
 summary: Go CLI for website health checks, zero dependencies
 first_seen: '2026-08-18T15:06:11Z'
-last_seen: '2026-08-18T22:41:52Z'
+last_seen: '2026-08-19T22:41:21Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/atillalab/site-health
-  seen_at: '2026-08-18T22:41:52Z'
+  seen_at: '2026-08-19T22:41:21Z'
   metrics:
-    points: 10
-    comments: 0
+    points: 13
+    comments: 2
 ---
 
 # site-health

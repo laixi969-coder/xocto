@@ -12,16 +12,16 @@ url: https://github.com/SheberDavid/v4-flash-godmode-opencode-go
 canonical_url: https://github.com/SheberDavid/v4-flash-godmode-opencode-go
 summary: V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
 first_seen: '2026-08-15T06:10:13Z'
-last_seen: '2026-08-18T22:41:53Z'
+last_seen: '2026-08-19T22:41:22Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SheberDavid/v4-flash-godmode-opencode-go
-  seen_at: '2026-08-18T22:41:53Z'
+  seen_at: '2026-08-19T22:41:22Z'
   metrics:
-    stars: 500
+    stars: 499
     forks: 12
     open_issues: 6
 ---

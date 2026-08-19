@@ -13,18 +13,18 @@ canonical_url: https://github.com/xiaobright/modeltest
 summary: 'Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2
   98/99)'
 first_seen: '2026-08-14T14:06:39Z'
-last_seen: '2026-08-18T22:41:53Z'
+last_seen: '2026-08-19T22:41:22Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiaobright/modeltest
-  seen_at: '2026-08-18T22:41:53Z'
+  seen_at: '2026-08-19T22:41:22Z'
   metrics:
-    stars: 3557
-    forks: 106
-    open_issues: 26
+    stars: 3637
+    forks: 109
+    open_issues: 27
 ---
 
 # dsh-anchored-standard

@@ -13,17 +13,17 @@ url: https://github.com/biw/keychain-store
 canonical_url: https://github.com/biw/keychain-store
 summary: macOS data protection keychain for Electron apps
 first_seen: '2026-08-18T17:25:19Z'
-last_seen: '2026-08-18T22:41:52Z'
+last_seen: '2026-08-19T22:41:21Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/biw/keychain-store
-  seen_at: '2026-08-18T22:41:52Z'
+  seen_at: '2026-08-19T22:41:21Z'
   metrics:
-    points: 20
-    comments: 1
+    points: 24
+    comments: 3
 ---
 
 # keychain-store
