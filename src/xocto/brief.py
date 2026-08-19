@@ -27,9 +27,14 @@ FORBIDDEN_PUBLIC_SOURCE_NAMES = (
     "Product Hunt",
     "Hacker News",
     "AICPB",
+    "Hugging Face",
+    "GitHub",
     "producthunt",
     "hackernews",
     "aicpb",
+    "huggingface",
+    "github",
+    "officialfeeds",
 )
 
 
@@ -85,6 +90,26 @@ def _candidate_data(product: Product) -> dict[str, Any]:
     }
 
 
+def news_for_day(store: Store, day: date) -> list[dict[str, Any]]:
+    """整理当天的一手发布信号，供日报作背景，不让它们进入产品池。"""
+    rows: list[dict[str, Any]] = []
+    for item in store.read_raw(day):
+        if item.extra.get("kind") != "news" or not item.extra.get("official"):
+            continue
+        rows.append(
+            {
+                "title": item.title,
+                "url": item.url,
+                "summary": item.summary[:2000],
+                "published_at": item.published_at,
+                "signals": item.metrics,
+            }
+        )
+    # 同一家公司连发多条时仍可由编辑决定不写；这里只限制总量，以免大厂博客
+    # 的密集更新淹没真正的新产品候选。
+    return sorted(rows, key=lambda row: (row["published_at"], row["title"]), reverse=True)[:12]
+
+
 def _read_config(store: Store, filename: str) -> str:
     path = store.config_dir / filename
     try:
@@ -97,6 +122,7 @@ def _prompt(
     store: Store,
     day: date,
     products: list[Product],
+    news: list[dict[str, Any]],
     *,
     previous_zh: str = "",
     previous_en: str = "",
@@ -115,8 +141,11 @@ def _prompt(
 20–60 个中文字符的 inspiration、英文 summary_en 与 inspiration_en。
 priority_review 为 true 的候选是跨通道验证的重大项目：不得 rejected，必须在中英文日报正文里至少点名一次。
 
+一手发布信号只是日报背景，不是产品候选：可在确有影响时用来解释行业变化，
+但不得凭一条公告推断未提供的信息，更不得把公告发布方的新版本改写成一个新产品推荐。
+
 采集渠道是内部实现，绝不能出现在任何输出字段（包括产品摘要、灵感、日报钩子、要点和正文）。
-不得写 Product Hunt、Hacker News、AICPB 或它们的变体；不要把候选里的 source 字段照抄到公开文案。
+不得写 Product Hunt、Hacker News、AICPB、Hugging Face、GitHub 或它们的变体；不要把候选里的 source 字段照抄到公开文案。
 需要表达证据时，改用对读者有意义的描述，例如“社区讨论”“开源活跃度”或“AI 产品增长榜”。
 
 JSON 结构严格如下：
@@ -148,6 +177,12 @@ JSON 结构严格如下：
 <candidates_json>
 {candidates}
 </candidates_json>
+
+以下是一手发布信号。仅在原文摘要足以支持时，将其作为背景观察；公司、项目或版本名可以提及，
+但采集渠道和“RSS / feed / release”等技术来源不得出现在公开文案：
+<official_news_json>
+{json.dumps(news, ensure_ascii=False)}
+</official_news_json>
 
 以下是今天已经发布过的旧版日报（可能为空）。若它不为空，保留其中仍有依据的既有观察，
 并把新候选整合进去；不要因增补一条候选而删空旧日报。旧版仅是编辑材料，不是新增事实来源：
@@ -335,7 +370,8 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     if store.report_path(day).exists() and not force:
         return BriefReport(day=day, candidates=0, updated=0, skipped=True)
     products = candidates_for_day(store, day)
-    if not products:
+    news = news_for_day(store, day)
+    if not products and not news:
         if store.report_path(day).exists():
             return BriefReport(day=day, candidates=0, updated=0, skipped=True)
         store.save_report(_empty_report(day, english=False), day)
@@ -345,7 +381,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     previous_zh = store.report_path(day).read_text(encoding="utf-8") if store.report_path(day).exists() else ""
     previous_en_path = store.reports_dir / "en" / f"{day.isoformat()}.md"
     previous_en = previous_en_path.read_text(encoding="utf-8") if previous_en_path.exists() else ""
-    messages = _prompt(store, day, products, previous_zh=previous_zh, previous_en=previous_en)
+    messages = _prompt(store, day, products, news, previous_zh=previous_zh, previous_en=previous_en)
     result = _request(messages)
     updates = _updates(result, products)
     zh_report = _report_markdown(result, day, english=False)

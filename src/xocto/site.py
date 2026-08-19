@@ -23,6 +23,7 @@ import html
 import re
 import shutil
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -385,6 +386,12 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     products = [p for p in store.iter_products() if _is_publishable(p)]
     analyses = load_analyses(store, locale)
     reports = load_reports(store, locale)
+    report_months: list[dict[str, Any]] = []
+    for report in reports:
+        key = report.day[:7]
+        if not report_months or report_months[-1]["key"] != key:
+            report_months.append({"key": key, "label": locale.month_label(report.day), "reports": []})
+        report_months[-1]["reports"].append(report)
 
     views = [product_view(p, locale) for p in products]
     view_by_slug = {v["slug"]: v for v in views}
@@ -495,6 +502,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "analyses": analyses,
         "analysis_by_slug": by_slug,
         "reports": reports,
+        "report_months": report_months,
         "fresh_picks": fresh_picks,
         "long_term_picks": long_term_picks,
         "notables": notables,
@@ -571,6 +579,7 @@ def write_seo(out_dir: Path, pages: list[tuple[str, str]], contexts: dict[str, d
         f"- [Chinese home]({BASE_URL}/)",
         f"- [English home]({BASE_URL}/en/)",
         f"- [Product directory]({BASE_URL}/products.html)",
+        f"- [Daily-observation archive]({BASE_URL}/reports.html)",
         f"- [Methodology]({BASE_URL}/methodology.html)",
     ]
     if latest_zh:
@@ -739,7 +748,7 @@ def _page_paths(ctx: dict[str, Any]) -> set[str]:
     语言切换按钮要靠它决定跳去哪：产品页两个语种都有，但每日观察不一定 ——
     中文有 2026-08-11 而英文还没写的时候，直接跳过去就是一条死链。
     """
-    paths = {"index.html", "products.html", "methodology.html", "privacy.html", "takeaways.html"}
+    paths = {"index.html", "products.html", "methodology.html", "privacy.html", "takeaways.html", "reports.html"}
     paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
     paths.update(f"r/{r.day}.html" for r in ctx["reports"])
     return paths
@@ -846,6 +855,12 @@ def _build_locale(
     )
     sitemap.append((locale.path("privacy.html"), ctx["latest_day"]))
 
+    write(
+        "reports.html", "reports.html", "reports",
+        locale.t["report"]["archive_lede"], schema_title=locale.t["report"]["archive_title"],
+    )
+    sitemap.append((locale.path("reports.html"), ctx["latest_day"]))
+
     by_slug = ctx["analysis_by_slug"]
     for view in ctx["products"]:
         rel = f"p/{view['slug']}.html"
@@ -867,7 +882,7 @@ def _build_locale(
               report=report, schema_title=f"{report.day} {locale.t['report']['kicker']}")
         sitemap.append((locale.path(rel), report.day))
 
-    return 3 + len(ctx["products"]) + len(ctx["reports"])
+    return 4 + len(ctx["products"]) + len(ctx["reports"])
 
 
 def build(store: Store, out_dir: Path | None = None) -> Path:

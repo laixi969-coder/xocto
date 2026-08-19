@@ -10,17 +10,19 @@
 from __future__ import annotations
 
 from dataclasses import replace
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 
 from ..models import RawItem, now_iso
 from .base import Http, HttpError, register, to_iso, parse_iso
 
 API = "https://api.github.com/search/repositories"
 ORGS_API = "https://api.github.com/orgs"
+REPOS_API = "https://api.github.com/repos"
 PER_PAGE = 30
 MAX_PER_PAGE = 100
 DEFAULT_WITHIN_DAYS = 21
 DEFAULT_MIN_STARS = 40
+DEFAULT_RELEASE_LOOKBACK_HOURS = 72
 
 
 @register("github")
@@ -28,6 +30,7 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
     queries = cfg.get("queries") or []
     topics = cfg.get("topics") or []
     official_organizations = cfg.get("official_organizations") or []
+    official_releases = cfg.get("official_releases") or []
     within_days = int(cfg.get("created_within_days") or DEFAULT_WITHIN_DAYS)
     min_stars = int(cfg.get("min_stars") or DEFAULT_MIN_STARS)
     since = (date.today() - timedelta(days=within_days)).isoformat()
@@ -129,7 +132,63 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
         for repo in recent:
             add(repo, f"official:{organization}", priority_review=True)
 
+    # 重点维护方的 Release 往往比新仓库更有用：它能捕捉模型、SDK、框架的
+    # 重大能力变化，但只作为日报背景信号，不会伪装成一个新产品进入产品池。
+    release_since = datetime.now(timezone.utc) - timedelta(
+        hours=float(cfg.get("release_lookback_hours") or DEFAULT_RELEASE_LOOKBACK_HOURS)
+    )
+    for repository in official_releases:
+        repository = str(repository).strip()
+        if not repository or "/" not in repository:
+            continue
+        try:
+            release = http.get_json(
+                f"{REPOS_API}/{repository}/releases/latest",
+                headers={"Accept": "application/vnd.github+json"},
+            )
+        except HttpError as exc:
+            print(f"    ! 官方 Release「{repository}」失败：{exc}")
+            continue
+        item = _parse_release(release, repository, collected)
+        published = parse_iso(item.published_at) if item else None
+        if item is None or published is None or published < release_since:
+            print(f"    [release:{repository}] 0 条")
+            continue
+        by_id[item.external_id] = item
+        print(f"    [release:{repository}] 1 条")
+
     return list(by_id.values())
+
+
+def _parse_release(release: object, repository: str, collected: str) -> RawItem | None:
+    if not isinstance(release, dict):
+        return None
+    release_id = str(release.get("id") or release.get("tag_name") or "").strip()
+    link = str(release.get("html_url") or "").strip()
+    published = parse_iso(str(release.get("published_at") or release.get("created_at") or ""))
+    if not release_id or not link or published is None:
+        return None
+    tag = str(release.get("tag_name") or "").strip()
+    name = str(release.get("name") or tag or "Release").strip()
+    reactions = release.get("reactions") or {}
+    return RawItem(
+        source="github",
+        external_id=f"release:{repository}:{release_id}",
+        title=f"{repository}: {name}",
+        url=link,
+        summary=str(release.get("body") or "").strip(),
+        published_at=to_iso(published),
+        collected_at=collected,
+        metrics={"reactions": int(reactions.get("total_count") or 0)},
+        extra={
+            "kind": "news",
+            "builder": repository.split("/", 1)[0],
+            "official": True,
+            "official_release": True,
+            "repository": repository,
+        },
+        payload=release,
+    )
 
 
 def _parse_repo(repo: dict, collected: str) -> RawItem | None:

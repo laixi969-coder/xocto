@@ -14,8 +14,9 @@ from xocto.brief import (
     _require_priority_coverage,
     _updates,
     candidates_for_day,
+    news_for_day,
 )
-from xocto.models import Product, STATUS_PENDING_FILTER, Sighting
+from xocto.models import Product, RawItem, STATUS_PENDING_FILTER, Sighting
 from xocto.store import Store
 
 
@@ -45,6 +46,29 @@ class BriefTests(unittest.TestCase):
             store.save_product(replace(product("rejected"), status="rejected"))
 
             self.assertEqual([item.slug for item in candidates_for_day(store, DAY)], ["today"])
+
+    def test_official_news_is_available_to_the_report_but_not_the_product_pool(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.append_raw(
+                [
+                    RawItem(
+                        source="officialfeeds",
+                        external_id="announcement",
+                        title="A documented product update",
+                        url="https://example.com/announcement",
+                        summary="A first-party announcement.",
+                        published_at="2026-08-14T12:00:00Z",
+                        collected_at="2026-08-14T13:00:00Z",
+                        metrics={},
+                        extra={"kind": "news", "official": True},
+                        payload={},
+                    )
+                ],
+                DAY,
+            )
+            self.assertEqual(candidates_for_day(store, DAY), [])
+            self.assertEqual(news_for_day(store, DAY)[0]["title"], "A documented product update")
 
     def test_updates_require_every_candidate_once(self) -> None:
         source = product()

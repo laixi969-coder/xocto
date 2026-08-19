@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime, timezone
 import unittest
 
-from xocto.sources.github import API, ORGS_API, fetch
+from xocto.sources.github import API, ORGS_API, REPOS_API, fetch
 
 
 def harness_repo() -> dict:
@@ -26,6 +26,19 @@ def harness_repo() -> dict:
     }
 
 
+def recent_release() -> dict:
+    published = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return {
+        "id": 456,
+        "name": "v1.2.0",
+        "tag_name": "v1.2.0",
+        "html_url": "https://github.com/openai/openai-python/releases/tag/v1.2.0",
+        "published_at": published,
+        "body": "Adds a documented API capability.",
+        "reactions": {"total_count": 9},
+    }
+
+
 class FakeHttp:
     def __init__(self) -> None:
         self.calls: list[tuple[str, dict | None]] = []
@@ -37,6 +50,8 @@ class FakeHttp:
             return {"items": [harness_repo()]}
         if url == f"{ORGS_API}/deepseek-ai/repos":
             return [harness_repo()]
+        if url == f"{REPOS_API}/openai/openai-python/releases/latest":
+            return recent_release()
         return {"items": []}
 
 
@@ -81,6 +96,18 @@ class GithubDiscoveryTests(unittest.TestCase):
         self.assertTrue(
             any(url == API and params and params.get("per_page") == 100 for url, params in http.calls)
         )
+
+    def test_official_releases_are_news_signals_not_product_candidates(self) -> None:
+        rows = fetch(
+            {"official_releases": ["openai/openai-python"], "release_lookback_hours": 72},
+            FakeHttp(),
+        )
+        self.assertEqual(len(rows), 1)
+        item = rows[0]
+        self.assertEqual(item.source, "github")
+        self.assertEqual(item.extra["kind"], "news")
+        self.assertTrue(item.extra["official_release"])
+        self.assertEqual(item.metrics["reactions"], 9)
 
 
 if __name__ == "__main__":

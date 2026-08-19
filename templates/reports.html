@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}{{ t.report.archive_title }} · {{ locale.site_name }}{% endblock %}
+{% block ogtitle %}{{ t.report.archive_title }} · {{ locale.site_name }}{% endblock %}
+
+{% block body %}
+<div class="wrap">
+  <header class="lede-bar directory-mast">
+    <div class="lede-main">
+      <p class="eyebrow">{{ t.report.kicker }}</p>
+      <h1>{{ t.report.archive_title }}</h1>
+      <p>{{ t.report.archive_lede }}</p>
+    </div>
+    <dl class="lede-stats">
+      <div><dt>{{ t.report.archive_count }}</dt><dd class="num">{{ reports | length }}</dd></div>
+    </dl>
+  </header>
+
+  {% for month in report_months %}
+  <section class="band report-archive-month">
+    <div class="sec-head"><h2>{{ month.label }}</h2></div>
+    <div class="obs">
+      {% for r in month.reports %}
+      <a class="obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
+        <div class="obs-day num">{{ r.day }}</div>
+        <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>
+        {% if r.highlights %}
+        <div class="obs-tags">{% for h in r.highlights %}<span class="tag">{{ h }}</span>{% endfor %}</div>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% else %}
+  <p class="empty">{{ t.report.archive_empty }}</p>
+  {% endfor %}
+</div>
+{% endblock %}

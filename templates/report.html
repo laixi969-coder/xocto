@@ -110,6 +110,7 @@
         <li><a href="{{ root }}r/{{ r.day }}.html" class="{{ 'on' if r.day == report.day }}">{{ r.day }}</a></li>
         {% endfor %}
       </ul>
+      <a class="rail-all" href="{{ root }}reports.html">{{ t.report.rail_all }} →</a>
       {% endif %}
     </aside>
     {% endif %}

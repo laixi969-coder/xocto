@@ -154,6 +154,16 @@ class Locale:
             return f"{_EN_WEEKDAYS[d.weekday()]}, {_EN_MONTHS[d.month - 1]} {d.day}, {d.year}"
         return f"{d.year} 年 {d.month} 月 {d.day} 日 · 星期{'一二三四五六日'[d.weekday()]}"
 
+    def month_label(self, day: str) -> str:
+        """日报归档按月分组时使用的人话标题。"""
+        try:
+            d = date.fromisoformat(day)
+        except ValueError:
+            return day[:7]
+        if self.key == "en":
+            return f"{_EN_MONTHS[d.month - 1]} {d.year}"
+        return f"{d.year} 年 {d.month} 月"
+
     def path(self, rel: str) -> str:
         """站内相对路径加上语种前缀。products.html → en/products.html。"""
         return f"{self.prefix}{rel}"
@@ -348,6 +358,11 @@ ZH = Locale(
             "rail_aria": "版块导航",
             "rail_now": "本期",
             "rail_past": "往期",
+            "rail_all": "查看全部往期",
+            "archive_title": "全部往期观察",
+            "archive_lede": "所有每日判断按日期永久归档；首页列表满了，也不会删除更早的内容。",
+            "archive_count": "已归档",
+            "archive_empty": "还没有可回看的观察。",
         },
     },
 )
@@ -550,6 +565,11 @@ EN = Locale(
             "rail_aria": "Section navigation",
             "rail_now": "This issue",
             "rail_past": "Past issues",
+            "rail_all": "View all issues",
+            "archive_title": "All daily observations",
+            "archive_lede": "Every daily call stays archived by date. Older work is not deleted when the home-page list fills up.",
+            "archive_count": "Archived",
+            "archive_empty": "No observations to revisit yet.",
         },
     },
 )
