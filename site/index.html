@@ -91,9 +91,9 @@
       <h2>今日借鉴</h2>
       <span class="note">每天轮换一条可迁移的方法论——给创业者的灵感点心</span>
     </div>
-    <a class="field field-take" href="p/prime-agent.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
-      <span class="field-k">来自 · Prime Agent</span>
-      <p>任何&#34;会自我改进&#34;的功能，参考这个安全设计——永久不可变的基础层 + 可回滚的补丁层。让系统只能改它被允许改的部分，且每次改动留快照， 用户才敢真的让它长期自治。反过来设计（模型自己改写自己的一切）只会在 第一次出错后就失去信任。另一个可抄点：把&#34;沉淀工作方法&#34;做成一等功能 （/refine），而不是藏在配置里。</p>
+    <a class="field field-take" href="p/progress-ai-observability.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
+      <span class="field-k">来自 · Progress AI Observability</span>
+      <p>如果你做质量评估类功能，参考&#34;评估必须和产生它的执行路径绑定&#34;—— 脱离轨迹的评分是摆设，用户无法判断分数可信。另一个可抄点：把&#34;花费归因&#34; 做成一级功能，因为成本是用户最容易感知的痛点，比&#34;质量&#34;更愿意付钱。</p>
     </a>
   </section>
 
@@ -105,23 +105,6 @@
     <div class="picks">
   <article class="pick" style="--i: 0">
     <span class="pick-no num">01</span>
-    <a class="pick-id" href="p/applied-micro-skills.html">
-      <h3>applied-micro-skills</h3>
-      <span class="verdict v-unproven">证据不足</span>
-<span class="tag">AI + 开发</span>    </a>
-    <div class="pick-body">
-      <div class="field">
-        <span class="field-k">它替人省掉了哪一步</span>
-        <p>实证经济学里&#34;数字能否复现&#34;以前靠的是人的肉眼和耐心：审稿人或研究助理打开论文、 对照数据和代码，手动验证每个表格数字；LLM 辅助标注以前靠人抽检； &#34;上周用模型跑的分类结果可信吗&#34;以前靠重跑一次碰运气。</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">可借鉴的做法</span>
-        <p>产品逻辑：做 AI 辅助工具时，把&#34;验证&#34;做成显式产品功能而非隐式承诺。 三个动作可以照搬：给每个输出步骤加可复现的检查点（金丝雀测试）； 失败时先诊断是输入质量问题还是模型问题，再决定改哪里； 对证据一致性做字节级保证，不给&#34;大概一致&#34;留空间。</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick" style="--i: 1">
-    <span class="pick-no num">02</span>
     <a class="pick-id" href="p/cadre.html">
       <h3>cadre</h3>
       <span class="verdict v-unproven">证据不足</span>
@@ -137,8 +120,8 @@
       </div>
     </div>
   </article>
-  <article class="pick" style="--i: 2">
-    <span class="pick-no num">03</span>
+  <article class="pick" style="--i: 1">
+    <span class="pick-no num">02</span>
     <a class="pick-id" href="p/debroid.html">
       <h3>debroid</h3>
       <span class="verdict v-unproven">证据不足</span>
@@ -151,6 +134,23 @@
       <div class="field field-take">
         <span class="field-k">可借鉴的做法</span>
         <p>产品逻辑：给 agent&#34;手&#34;时，优先找领域里最成熟的确定性协议（调试协议、脚本协议、CLI）， 包装成 JSON 接口，而不是自建插桩或视觉方案——复用协议省十年试错。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick" style="--i: 2">
+    <span class="pick-no num">03</span>
+    <a class="pick-id" href="p/dsh-genui.html">
+      <h3>dsh-genui</h3>
+      <span class="verdict v-unproven">证据不足</span>
+<span class="tag">AI + 开发</span>    </a>
+    <div class="pick-body">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>以前想让 agent 输出可视化结果，是&#34;文本 + 人肉搬运&#34;：模型给你一张 ASCII 表或 markdown，你想要图表就得复制数据去 Excel、图表站，或者让 agent 写个脚本再跑。一次&#34;看到结果&#34;要 3-5 分钟，来回两三轮。Claude Artifacts 和 ChatGPT Canvas 把&#34;可交互的预览&#34;带进主流，但它们是&#34;另开一个画布&#34;，且生成的内容大多是静态的。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：任何面向生成式 AI 的产品，如果要让模型输出结构化界面，照抄这套安全设计：组件白名单制渲染 + 独立解析器（不用 eval）+ 本地优先状态 + action 回传模型。这套组合同时解决安全（模型注不进脚本）、成本（状态判断不烧 token）、体验（组件能点）三个问题。</p>
       </div>
     </div>
   </article>
@@ -430,7 +430,7 @@
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>305 个产品 · 180 份深度分析</span>
-    <span class="gen">数据截至 2026-08-20</span>
+    <span class="gen">数据截至 2026-08-21</span>
     <span>·</span>
     <a href="methodology.html">方法与口径</a>
     <span>·</span>

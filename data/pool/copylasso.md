@@ -12,16 +12,16 @@ url: https://copylasso.com/
 canonical_url: https://copylasso.com
 summary: a free local screen OCR app for macOS
 first_seen: '2026-08-19T18:56:31Z'
-last_seen: '2026-08-19T22:41:21Z'
+last_seen: '2026-08-20T22:45:15Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://copylasso.com/
-  seen_at: '2026-08-19T22:41:21Z'
+  seen_at: '2026-08-20T22:45:15Z'
   metrics:
-    points: 5
+    points: 8
     comments: 0
 ---
 

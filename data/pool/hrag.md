@@ -12,16 +12,16 @@ url: https://hrag.app/
 canonical_url: https://hrag.app
 summary: Hybrid RAG on €116/month of Hetzner, officially benchmarked
 first_seen: '2026-08-19T17:36:01Z'
-last_seen: '2026-08-19T22:41:21Z'
+last_seen: '2026-08-20T22:45:15Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hrag.app/
-  seen_at: '2026-08-19T22:41:21Z'
+  seen_at: '2026-08-20T22:45:15Z'
   metrics:
-    points: 5
+    points: 7
     comments: 0
 ---
 

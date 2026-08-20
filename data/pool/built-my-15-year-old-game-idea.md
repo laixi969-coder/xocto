@@ -13,7 +13,7 @@ canonical_url: https://news.ycombinator.com/item?id=49321985
 summary: 'Distro Fighter: WARS is in closed beta, but HN gets its own door: https:&#x2F;&#x2F;distrofighter.com&#x2F;wars?beta=hackernews-2026
   - the arcade at https:&#x2F;&#x2F;distrofighter.com is open to everyone. Promotions hap…'
 first_seen: '2026-08-16T17:35:26Z'
-last_seen: '2026-08-16T22:37:03Z'
+last_seen: '2026-08-20T22:45:15Z'
 status: rejected
 sources:
 - hackernews
@@ -24,6 +24,12 @@ sightings:
   metrics:
     points: 9
     comments: 4
+- source: hackernews
+  url: https://news.ycombinator.com/item?id=49373158
+  seen_at: '2026-08-20T22:45:15Z'
+  metrics:
+    points: 6
+    comments: 3
 ---
 
 # built my 15-year-old game idea

@@ -13,16 +13,16 @@ url: https://github.com/KieranHoward646/Adversarial-Testing-Skill
 canonical_url: https://github.com/KieranHoward646/Adversarial-Testing-Skill
 summary: Multi-AI collaborative adversarial testing workflow
 first_seen: '2026-08-11T03:39:18Z'
-last_seen: '2026-08-18T14:52:33Z'
+last_seen: '2026-08-20T22:45:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/KieranHoward646/Adversarial-Testing-Skill
-  seen_at: '2026-08-18T14:52:33Z'
+  seen_at: '2026-08-20T22:45:17Z'
   metrics:
-    stars: 43
+    stars: 44
     forks: 0
     open_issues: 0
 ---

@@ -12,17 +12,17 @@ url: https://github.com/danielealbano/android-remote-control-mcp/
 canonical_url: https://github.com/danielealbano/android-remote-control-mcp
 summary: MCP app for Android, drive apps via AI (no root, PII redacted locally)
 first_seen: '2026-08-19T14:23:13Z'
-last_seen: '2026-08-19T22:41:21Z'
+last_seen: '2026-08-20T22:45:15Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/danielealbano/android-remote-control-mcp/
-  seen_at: '2026-08-19T22:41:21Z'
+  seen_at: '2026-08-20T22:45:15Z'
   metrics:
-    points: 5
-    comments: 0
+    points: 6
+    comments: 1
 ---
 
 # android-remote-control-mcp

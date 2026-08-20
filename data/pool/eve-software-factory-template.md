@@ -12,16 +12,16 @@ url: https://ask-foreman.dev
 canonical_url: https://ask-foreman.dev
 summary: Meet Foreman, an eve Software Factory.
 first_seen: '2026-08-12T12:34:43Z'
-last_seen: '2026-08-19T22:41:22Z'
+last_seen: '2026-08-20T22:45:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://ask-foreman.dev
-  seen_at: '2026-08-19T22:41:22Z'
+  seen_at: '2026-08-20T22:45:17Z'
   metrics:
-    stars: 936
+    stars: 950
     forks: 62
     open_issues: 0
 ---
