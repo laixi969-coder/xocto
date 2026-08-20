@@ -2,11 +2,11 @@
 slug: pilot-harness
 name: pilot-harness
 builder: op7418
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 受 CodePilot 启发的 DeepSeek Harness 桌面客户端和插件套件
+inspiration: 为特定 harness 提供桌面客户端可能改善用户体验
+summary_en: CodePilot-inspired desktop client and plugin suite for DeepSeek Harness
+inspiration_en: Desktop clients for specific harnesses could improve user experience
 priority_review: false
 url: https://github.com/op7418/pilot-harness
 canonical_url: https://github.com/op7418/pilot-harness
@@ -14,7 +14,7 @@ summary: Pilot Harness — a CodePilot-inspired desktop client and plugin suite 
   macOS, Windows, and Linux.
 first_seen: '2026-08-17T06:56:42Z'
 last_seen: '2026-08-20T22:45:17Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

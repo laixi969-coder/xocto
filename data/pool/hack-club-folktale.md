@@ -13,7 +13,7 @@ canonical_url: https://folktale.hackclub.com
 summary: Learn Python, Make a Game, Get Free Stickers
 first_seen: '2026-08-19T22:37:52Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

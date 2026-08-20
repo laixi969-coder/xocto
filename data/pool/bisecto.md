@@ -13,7 +13,7 @@ canonical_url: https://bisecto.com
 summary: A minimalist game about cutting shapes into 50/50 halves
 first_seen: '2026-08-20T14:15:29Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -2,18 +2,18 @@
 slug: pub
 name: pub
 builder: knaught
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 检查 The MLC 中 6.56 亿美元未领取版税是否属于你
+inspiration: 帮助用户发现未领取的版税，可能成为新的服务模式
+summary_en: Check if any of the $656M in unclaimed royalties at The MLC is yours
+inspiration_en: Helping users discover unclaimed royalties could become a new service model
 priority_review: false
 url: https://pub.doub.ly/
 canonical_url: https://pub.doub.ly
 summary: Check if any of the $656M in unclaimed royalties at The MLC is yours
 first_seen: '2026-08-20T14:38:28Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

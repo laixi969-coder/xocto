@@ -13,7 +13,7 @@ canonical_url: https://fillgood.io
 summary: Paint-by-numbers pixel art that 24 strangers fill in together
 first_seen: '2026-08-20T19:27:05Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -2,18 +2,18 @@
 slug: epho
 name: Epho
 builder: karakanb
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 用 curl 运行 Claude Code
+inspiration: 将 AI 编码代理 API 化，可能简化集成
+summary_en: Run Claude Code with a curl
+inspiration_en: API-fying AI coding agents could simplify integration
 priority_review: false
 url: https://epho.io
 canonical_url: https://epho.io
 summary: run Claude Code with a curl
 first_seen: '2026-08-20T15:45:51Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

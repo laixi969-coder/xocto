@@ -2,18 +2,18 @@
 slug: sprix-sage-router
 name: sprix-sage-router
 builder: wang2122
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: A2A 代理网络的状态感知路由
+inspiration: 状态感知路由可能提高代理网络的效率
+summary_en: State-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks
+inspiration_en: State-aware routing could improve agent network efficiency
 priority_review: false
 url: https://github.com/wang2122/sprix-sage-router
 canonical_url: https://github.com/wang2122/sprix-sage-router
 summary: Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.
 first_seen: '2026-08-18T04:08:11Z'
 last_seen: '2026-08-20T22:45:17Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

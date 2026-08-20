@@ -13,7 +13,7 @@ canonical_url: https://protobuf.com
 summary: a visual, interactive guide to Protocol Buffers
 first_seen: '2026-08-20T10:53:33Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

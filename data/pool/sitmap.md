@@ -13,7 +13,7 @@ canonical_url: https://tomaytotomato.github.io/sitmap
 summary: a World in Conflict inspired map maker for Cold War scenarios
 first_seen: '2026-08-20T12:59:36Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

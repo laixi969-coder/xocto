@@ -2,18 +2,18 @@
 slug: bitdriftai
 name: bitdrift.ai
 builder: Peter Morelli
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 首个智能体移动端可观测性平台
+inspiration: 移动端可观测性被智能体化，可能成为新的标准
+summary_en: The world's first agentic mobile observability platform
+inspiration_en: Agentic mobile observability could become the new standard
 priority_review: false
 url: https://www.producthunt.com/products/bitdrift
 canonical_url: https://producthunt.com/products/bitdrift
 summary: The world’s first agentic mobile observability platform
 first_seen: '2026-08-17T17:12:19Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 sightings:

@@ -2,18 +2,18 @@
 slug: dsh-pocket
 name: dsh-pocket
 builder: shaobeichen
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 将 DeepSeek Harness 装进口袋，手机扫码同步访问
+inspiration: 移动访问桌面 AI 环境，可能提高工作灵活性
+summary_en: Put DeepSeek Harness in your pocket, sync access via phone scan
+inspiration_en: Mobile access to desktop AI environments could increase work flexibility
 priority_review: false
 url: https://github.com/shaobeichen/dsh-pocket
 canonical_url: https://github.com/shaobeichen/dsh-pocket
 summary: 把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）
 first_seen: '2026-08-15T09:36:29Z'
 last_seen: '2026-08-20T22:45:17Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

@@ -13,7 +13,7 @@ canonical_url: https://chromewebstore.google.com/detail/simple-screenshot-copy/o
 summary: screenshots straight to the clipboard
 first_seen: '2026-08-20T12:23:11Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

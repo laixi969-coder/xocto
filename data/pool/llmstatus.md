@@ -2,18 +2,18 @@
 slug: llmstatus
 name: llmstatus
 builder: taylorgt
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 查找代码调用的每个 AI 模型，并在其退役前警告
+inspiration: 模型退役预警可能成为 AI 依赖管理的新需求
+summary_en: Find every AI model your code calls and warn before it's retired
+inspiration_en: Model retirement warnings could become a new need in AI dependency management
 priority_review: false
 url: https://llmstatus.ai
 canonical_url: https://llmstatus.ai
 summary: Find every AI model your code calls and warn before it's retired
 first_seen: '2026-08-20T13:12:55Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

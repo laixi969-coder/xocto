@@ -13,7 +13,7 @@ canonical_url: https://openterminal-sigma.vercel.app
 summary: global chat built with WebSockets
 first_seen: '2026-08-20T12:43:31Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

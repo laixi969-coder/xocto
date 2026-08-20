@@ -13,7 +13,7 @@ canonical_url: https://olumjs.top
 summary: Components are .html files, attributes are code or strings
 first_seen: '2026-08-20T12:50:41Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

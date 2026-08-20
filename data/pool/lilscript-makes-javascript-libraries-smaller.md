@@ -2,11 +2,11 @@
 slug: lilscript-makes-javascript-libraries-smaller
 name: LilScript makes JavaScript libraries smaller
 builder: yeargun
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 类型化、压缩优先的语言，编译为 JavaScript
+inspiration: 压缩优先的语言可能减少网络传输，优化性能
+summary_en: Typed, compression-first language that compiles into JS
+inspiration_en: Compression-first languages could reduce network transfer and optimize performance
 priority_review: false
 url: https://news.ycombinator.com/item?id=49374554
 canonical_url: https://news.ycombinator.com/item?id=49374554
@@ -15,7 +15,7 @@ summary: https:&#x2F;&#x2F;yeargun.github.io&#x2F;lilscript&#x2F; LilScript is a
   mangles, reshapes the p…
 first_seen: '2026-08-20T13:50:02Z'
 last_seen: '2026-08-20T22:45:15Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:
