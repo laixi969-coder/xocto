@@ -12,16 +12,16 @@ url: https://github.com/urtti/ez
 canonical_url: https://github.com/urtti/ez
 summary: a macOS command runner that flags when a command gets slower
 first_seen: '2026-08-20T11:19:51Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/urtti/ez
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
 ---
 

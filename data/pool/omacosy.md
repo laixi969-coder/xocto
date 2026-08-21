@@ -12,17 +12,17 @@ url: https://github.com/paulsp94/omacosy
 canonical_url: https://github.com/paulsp94/omacosy
 summary: Omarchy-style tiling desktop for macOS, no SIP
 first_seen: '2026-08-20T14:12:08Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/paulsp94/omacosy
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 42
-    comments: 30
+    points: 56
+    comments: 43
 ---
 
 # Omacosy

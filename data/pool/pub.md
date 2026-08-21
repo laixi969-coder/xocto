@@ -12,17 +12,17 @@ url: https://pub.doub.ly/
 canonical_url: https://pub.doub.ly
 summary: Check if any of the $656M in unclaimed royalties at The MLC is yours
 first_seen: '2026-08-20T14:38:28Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pub.doub.ly/
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 56
-    comments: 35
+    points: 75
+    comments: 37
 ---
 
 # pub

@@ -91,9 +91,9 @@
       <h2>今日借鉴</h2>
       <span class="note">每天轮换一条可迁移的方法论——给创业者的灵感点心</span>
     </div>
-    <a class="field field-take" href="p/progress-ai-observability.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
-      <span class="field-k">来自 · Progress AI Observability</span>
-      <p>如果你做质量评估类功能，参考&#34;评估必须和产生它的执行路径绑定&#34;—— 脱离轨迹的评分是摆设，用户无法判断分数可信。另一个可抄点：把&#34;花费归因&#34; 做成一级功能，因为成本是用户最容易感知的痛点，比&#34;质量&#34;更愿意付钱。</p>
+    <a class="field field-take" href="p/qoder-阿里.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
+      <span class="field-k">来自 · Qoder-阿里</span>
+      <p>长任务 agent 的核心问题是上下文丢失，解决办法不是加大窗口，而是&#34;多角色各自独立上下文、最后汇合&#34;。做复杂任务工具时，与其赌更大的上下文窗口，不如把任务拆给相互隔离的执行单元。</p>
     </a>
   </section>
 
@@ -105,23 +105,6 @@
     <div class="picks">
   <article class="pick" style="--i: 0">
     <span class="pick-no num">01</span>
-    <a class="pick-id" href="p/cadre.html">
-      <h3>cadre</h3>
-      <span class="verdict v-unproven">证据不足</span>
-<span class="tag">AI + 开发</span>    </a>
-    <div class="pick-body">
-      <div class="field">
-        <span class="field-k">它替人省掉了哪一步</span>
-        <p>现在团队用编码 agent 的典型混乱：开发者开好几个终端会话，每个跑一个 agent，聊天记录散落 各处。时间一长就出现&#34;哪个会话在跑什么、跑到哪了、谁批准过&#34;三问全答不上来；agent 改完的 代码直接进分支，没人看过 diff；多 agent 并行改同一个仓库，改完合起来才知道撞了。</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">可借鉴的做法</span>
-        <p>产品逻辑：如果你做的是工具型产品，照抄&#34;边界画在决策层&#34;——让用户继续用他已有的执行栈 （模型、CLI、订阅），你只收编决策动作（审批、队列、可见性）。替换成本越低，越容易进门。</p>
-      </div>
-    </div>
-  </article>
-  <article class="pick" style="--i: 1">
-    <span class="pick-no num">02</span>
     <a class="pick-id" href="p/debroid.html">
       <h3>debroid</h3>
       <span class="verdict v-unproven">证据不足</span>
@@ -137,8 +120,8 @@
       </div>
     </div>
   </article>
-  <article class="pick" style="--i: 2">
-    <span class="pick-no num">03</span>
+  <article class="pick" style="--i: 1">
+    <span class="pick-no num">02</span>
     <a class="pick-id" href="p/dsh-genui.html">
       <h3>dsh-genui</h3>
       <span class="verdict v-unproven">证据不足</span>
@@ -151,6 +134,23 @@
       <div class="field field-take">
         <span class="field-k">可借鉴的做法</span>
         <p>产品逻辑：任何面向生成式 AI 的产品，如果要让模型输出结构化界面，照抄这套安全设计：组件白名单制渲染 + 独立解析器（不用 eval）+ 本地优先状态 + action 回传模型。这套组合同时解决安全（模型注不进脚本）、成本（状态判断不烧 token）、体验（组件能点）三个问题。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick" style="--i: 2">
+    <span class="pick-no num">03</span>
+    <a class="pick-id" href="p/dsh-tianshu-tui.html">
+      <h3>dsh-tianshu-tui</h3>
+      <span class="verdict v-unproven">证据不足</span>
+<span class="tag">AI + 开发</span>    </a>
+    <div class="pick-body">
+      <div class="field">
+        <span class="field-k">它替人省掉了哪一步</span>
+        <p>替代的是&#34;希望 agent 会测试&#34;这个隐性假设。以往用 Claude Code/Aider 这类 agent 写代码，质量流程靠人：你口头叮嘱&#34;写完跑下测试&#34;，agent 大概率是写完全部代码最后象征性跑一次，红了再修，甚至不跑。TDD 纪律严格的人（先红后绿再重构）只能靠自己在 IDE 里手动执行——agent 帮不上忙，反而添乱。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">可借鉴的做法</span>
+        <p>产品逻辑：如果你的 agent 产品要对结果负责（写代码、改文档、做报表），照抄&#34;证据门&#34;的最小版本：模型交作业时必须附带可验证证据（测试输出、文件 diff、数据源引用），拿不出证据就标记为&#34;未完成&#34;。这比让模型自评&#34;我做完了&#34;可靠一个数量级。先跑观察模式记录误判率，再决定 enforce。</p>
       </div>
     </div>
   </article>
@@ -430,7 +430,7 @@
     <span>x-octo · 全球 AI 应用雷达</span>
     <span>·</span>
     <span>369 个产品 · 180 份深度分析</span>
-    <span class="gen">数据截至 2026-08-21</span>
+    <span class="gen">数据截至 2026-08-22</span>
     <span>·</span>
     <a href="methodology.html">方法与口径</a>
     <span>·</span>

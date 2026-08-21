@@ -12,7 +12,7 @@ url: https://github.com/pgrundev/pgbot
 canonical_url: https://github.com/pgrundev/pgbot
 summary: pgbot - Postgres intelligence for AI agents & apps
 first_seen: '2026-08-11T23:41:52Z'
-last_seen: '2026-08-20T22:45:17Z'
+last_seen: '2026-08-21T22:41:52Z'
 status: queued
 sources:
 - github
@@ -26,11 +26,11 @@ sightings:
     open_issues: 0
 - source: github
   url: https://pgbot.dev
-  seen_at: '2026-08-20T22:45:17Z'
+  seen_at: '2026-08-21T22:41:52Z'
   metrics:
-    stars: 358
-    forks: 18
-    open_issues: 2
+    stars: 552
+    forks: 25
+    open_issues: 7
 ---
 
 # pgbot

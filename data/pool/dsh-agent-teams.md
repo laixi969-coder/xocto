@@ -13,18 +13,18 @@ url: https://github.com/NanmiCoder/dsh-agent-teams
 canonical_url: https://github.com/NanmiCoder/dsh-agent-teams
 summary: AgentTeams plugin for DeepSeek Harness
 first_seen: '2026-08-12T13:41:50Z'
-last_seen: '2026-08-20T22:45:17Z'
+last_seen: '2026-08-21T22:41:52Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/NanmiCoder/dsh-agent-teams
-  seen_at: '2026-08-20T22:45:17Z'
+  seen_at: '2026-08-21T22:41:52Z'
   metrics:
-    stars: 689
-    forks: 65
-    open_issues: 24
+    stars: 761
+    forks: 67
+    open_issues: 26
 ---
 
 # dsh-agent-teams

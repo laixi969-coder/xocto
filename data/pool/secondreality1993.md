@@ -12,17 +12,17 @@ url: https://www.secondreality1993.com/
 canonical_url: https://secondreality1993.com
 summary: Future Crew's 1993 Second Reality, rebuilt by AI agents, no emulation
 first_seen: '2026-08-20T16:46:48Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.secondreality1993.com/
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
     points: 5
-    comments: 1
+    comments: 5
 ---
 
 # secondreality1993

@@ -14,18 +14,18 @@ summary: Reference architecture for AI agents that propose actions but cannot au
   intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval,
   and a SafeExecutor that consumes a single-use intent-bound grant.
 first_seen: '2026-08-13T21:36:19Z'
-last_seen: '2026-08-20T22:45:17Z'
+last_seen: '2026-08-21T22:41:52Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://decionis.com/docs?utm_source=github&utm_medium=org_readme&utm_campaign=dev_discovery
-  seen_at: '2026-08-20T22:45:17Z'
+  seen_at: '2026-08-21T22:41:52Z'
   metrics:
     stars: 533
     forks: 58
-    open_issues: 10
+    open_issues: 9
 ---
 
 # agent-safe-pipeline

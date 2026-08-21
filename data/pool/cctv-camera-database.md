@@ -12,17 +12,17 @@ url: https://github.com/ch-bas/cctv-camera-database
 canonical_url: https://github.com/ch-bas/cctv-camera-database
 summary: A data viewer for choosing Frigate-compatible IP cameras
 first_seen: '2026-08-20T21:40:39Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/ch-bas/cctv-camera-database
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 34
-    comments: 3
+    points: 48
+    comments: 6
 ---
 
 # cctv-camera-database

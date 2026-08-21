@@ -12,10 +12,11 @@ url: https://epho.io
 canonical_url: https://epho.io
 summary: run Claude Code with a curl
 first_seen: '2026-08-20T15:45:51Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://epho.io
@@ -23,6 +24,10 @@ sightings:
   metrics:
     points: 5
     comments: 0
+- source: producthunt
+  url: https://www.producthunt.com/products/epho-claude-code-in-the-cloud
+  seen_at: '2026-08-21T22:41:50Z'
+  metrics: {}
 ---
 
 # Epho

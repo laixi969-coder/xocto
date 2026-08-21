@@ -12,17 +12,17 @@ url: https://wavehouse.dev
 canonical_url: https://wavehouse.dev
 summary: Supabase for ClickHouse
 first_seen: '2026-08-20T18:00:06Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wavehouse.dev
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 11
-    comments: 3
+    points: 18
+    comments: 4
 ---
 
 # WaveHouse

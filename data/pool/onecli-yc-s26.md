@@ -12,10 +12,11 @@ url: https://github.com/onecli/onecli
 canonical_url: https://github.com/onecli/onecli
 summary: OSS sandboxed agent harness for teams
 first_seen: '2026-08-19T16:29:02Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://github.com/onecli/onecli
@@ -23,6 +24,10 @@ sightings:
   metrics:
     points: 85
     comments: 25
+- source: producthunt
+  url: https://www.producthunt.com/products/onecli
+  seen_at: '2026-08-21T22:41:50Z'
+  metrics: {}
 ---
 
 # OneCLI (YC S26)

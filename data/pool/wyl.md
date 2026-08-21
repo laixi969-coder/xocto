@@ -12,17 +12,17 @@ url: https://wyl.serenedb.com/why-you-lost
 canonical_url: https://wyl.serenedb.com/why-you-lost
 summary: Why You Lost – a Dota 2 post-match autopsy
 first_seen: '2026-08-20T12:31:58Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wyl.serenedb.com/why-you-lost
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 19
-    comments: 3
+    points: 20
+    comments: 4
 ---
 
 # wyl

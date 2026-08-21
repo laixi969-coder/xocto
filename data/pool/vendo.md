@@ -12,7 +12,7 @@ url: https://www.producthunt.com/products/vendo
 canonical_url: https://producthunt.com/products/vendo
 summary: Let your users build their own features inside your product
 first_seen: '2026-08-16T22:13:45Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - producthunt
@@ -24,10 +24,10 @@ sightings:
   metrics: {}
 - source: hackernews
   url: https://github.com/runvendo/vendo
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 31
-    comments: 17
+    points: 57
+    comments: 22
 ---
 
 # Vendo

@@ -1,0 +1,34 @@
+---
+slug: lunar
+name: Lunar
+builder: gszr
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+url: https://github.com/gszr/lunar
+canonical_url: https://github.com/gszr/lunar
+summary: a coding harness extensible with Lua
+first_seen: '2026-08-21T11:07:19Z'
+last_seen: '2026-08-21T22:41:50Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://github.com/gszr/lunar
+  seen_at: '2026-08-21T22:41:50Z'
+  metrics:
+    points: 5
+    comments: 4
+---
+
+# Lunar
+
+a coding harness extensible with Lua
+
+## 笔记
+
+

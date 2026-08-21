@@ -14,16 +14,16 @@ canonical_url: https://github.com/i3T4AN/KADATH
 summary: Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across
   reproducible epochs to converge on optimization of a goal.
 first_seen: '2026-08-08T15:49:55Z'
-last_seen: '2026-08-20T22:45:17Z'
+last_seen: '2026-08-21T22:41:52Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/i3T4AN/KADATH
-  seen_at: '2026-08-20T22:45:17Z'
+  seen_at: '2026-08-21T22:41:52Z'
   metrics:
-    stars: 343
+    stars: 341
     forks: 3
     open_issues: 0
 ---

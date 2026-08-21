@@ -12,17 +12,17 @@ url: https://zoneless.com
 canonical_url: https://zoneless.com
 summary: Open-source Stripe Connect alternative
 first_seen: '2026-08-20T14:38:45Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-21T22:41:50Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://zoneless.com
-  seen_at: '2026-08-20T22:45:15Z'
+  seen_at: '2026-08-21T22:41:50Z'
   metrics:
-    points: 58
-    comments: 24
+    points: 80
+    comments: 35
 ---
 
 # zoneless
