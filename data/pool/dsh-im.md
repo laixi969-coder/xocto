@@ -2,11 +2,11 @@
 slug: dsh-im
 name: dsh-im
 builder: xmanrui
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 将IM机器人接入DeepSeek Harness，支持9个渠道。
+inspiration: 多渠道接入是AI工具普及的关键，可迁移到其他IM集成场景。
+summary_en: Connect IM bots to DeepSeek Harness via QR code or credentials (9 channels).
+inspiration_en: Multi-channel integration is key to AI adoption, applicable to other IM integrations.
 priority_review: false
 url: https://github.com/xmanrui/dsh-im
 canonical_url: https://github.com/xmanrui/dsh-im
@@ -14,7 +14,7 @@ summary: 通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（�
   IM bots to DeepSeek Harness via QR code or credentials (9 channels).
 first_seen: '2026-08-14T20:40:06Z'
 last_seen: '2026-08-21T22:41:52Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

@@ -2,11 +2,11 @@
 slug: sciencediscovery
 name: sciencediscovery
 builder: openJiuwen-ai
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 面向科学研究的AI工作站，整合文献阅读、假设、编码等流程。
+inspiration: 科研工作流整合，可迁移到其他专业领域的研究工具。
+summary_en: All-in-one AI research workstation for scientific research.
+inspiration_en: Integrated research workflow, applicable to other professional research tools.
 priority_review: false
 url: https://github.com/openJiuwen-ai/sciencediscovery
 canonical_url: https://github.com/openJiuwen-ai/sciencediscovery
@@ -16,7 +16,7 @@ summary: ScienceDiscovery is an all‑in‑one AI research workstation built spe
   and parameter tuning" in a single place.
 first_seen: '2026-08-14T09:38:06Z'
 last_seen: '2026-08-21T22:41:52Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

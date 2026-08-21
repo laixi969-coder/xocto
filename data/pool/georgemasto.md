@@ -13,7 +13,7 @@ canonical_url: https://georgemasto.com/odyssey
 summary: Interactive map of the Odyssey with tap-to-gloss Homeric Greek
 first_seen: '2026-08-21T18:11:48Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

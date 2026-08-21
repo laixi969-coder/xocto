@@ -13,7 +13,7 @@ canonical_url: https://trailers.fm
 summary: live channel of movie trailers
 first_seen: '2026-08-20T18:48:54Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

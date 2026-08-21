@@ -13,7 +13,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/forgewm-world-model
 summary: Few-step action-conditioned Minecraft world model
 first_seen: '2026-08-21T02:52:29Z'
 last_seen: '2026-08-21T22:41:56Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

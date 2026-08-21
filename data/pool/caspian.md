@@ -2,18 +2,18 @@
 slug: caspian
 name: Caspian
 builder: dipanshuhappy
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: 为AI智能体提供人工介入工具。
+inspiration: 人机协作的接口层，可迁移到客服、审核等需要人工兜底的场景。
+summary_en: Talk to Human Tool for AI Agents.
+inspiration_en: Human-in-the-loop interface, applicable to support and moderation.
 priority_review: false
 url: https://github.com/TryCaspian/caspian-sdk
 canonical_url: https://github.com/TryCaspian/caspian-sdk
 summary: Talk to Human Tool for AI Agents
 first_seen: '2026-08-21T16:17:58Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

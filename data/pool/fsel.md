@@ -13,7 +13,7 @@ canonical_url: https://github.com/Mjoyufull/fsel
 summary: Fsel –. a Rust TUI launcher, fuzzy picker and clipboard browser
 first_seen: '2026-08-21T02:28:21Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

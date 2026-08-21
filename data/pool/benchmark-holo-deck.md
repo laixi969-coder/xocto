@@ -13,7 +13,7 @@ canonical_url: https://huggingface.co/spaces/SaylorTwift/benchmark-holo-deck
 summary: ''
 first_seen: '2026-08-21T14:27:21Z'
 last_seen: '2026-08-21T22:41:56Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

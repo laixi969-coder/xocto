@@ -15,7 +15,7 @@ summary: I&#x27;ve been playing with trying to get the most out of regular termi
   style game that …
 first_seen: '2026-08-21T11:56:28Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

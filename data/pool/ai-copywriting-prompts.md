@@ -14,7 +14,7 @@ summary: Battle-tested AI prompts and workflows for social media copywriting, lo
   and automated content repurposing. Compatible with ChatGPT, Claude, and Slito EX.
 first_seen: '2026-08-08T07:25:41Z'
 last_seen: '2026-08-21T22:41:52Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

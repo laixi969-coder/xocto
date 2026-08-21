@@ -14,7 +14,7 @@ summary: An in-depth review and workflow walkthrough of The Ultimate Viddeos A.I
   automate text-to-video creation, scriptwriting, and voiceovers for faceless short-form video channels.
 first_seen: '2026-08-07T07:23:15Z'
 last_seen: '2026-08-21T22:41:52Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

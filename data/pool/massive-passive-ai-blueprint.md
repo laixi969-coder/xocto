@@ -14,7 +14,7 @@ summary: 😎 A curated list of awesome AI automation strategies, LLM workflows,
   for building automated digital assets and passive income stream.
 first_seen: '2026-08-07T06:57:09Z'
 last_seen: '2026-08-21T22:41:52Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

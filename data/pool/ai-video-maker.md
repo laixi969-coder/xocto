@@ -13,7 +13,7 @@ canonical_url: https://github.com/wanghui2323/ai-video-maker
 summary: AI 视频制作助手：从想法、文章或音频到脚本、声音、画面和人工审核的中文 Skill + Workflow
 first_seen: '2026-08-15T13:00:24Z'
 last_seen: '2026-08-21T22:41:52Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

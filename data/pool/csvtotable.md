@@ -13,7 +13,7 @@ canonical_url: https://github.com/vividvilla/csvtotable
 summary: turn a CSV/XLSX into one self-contained HTML file
 first_seen: '2026-08-21T18:53:01Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

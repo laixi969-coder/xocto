@@ -13,7 +13,7 @@ canonical_url: https://apps.apple.com/us/app/gramola-music-dock/id6801078031?mt=
 summary: a CoverFlow-style music dock for macOS
 first_seen: '2026-08-21T15:52:56Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

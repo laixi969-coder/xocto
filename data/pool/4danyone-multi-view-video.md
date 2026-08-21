@@ -13,7 +13,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/4danyone-multiview-dem
 summary: Monocular portrait video to multi-view videos
 first_seen: '2026-08-21T15:25:03Z'
 last_seen: '2026-08-21T22:41:56Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

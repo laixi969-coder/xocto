@@ -13,7 +13,7 @@ canonical_url: https://huggingface.co/spaces/mediasynthesismuseum/big-sleep
 summary: CLIP steers BigGAN toward your words (advadnoun, Jan 2021)
 first_seen: '2026-08-21T11:54:16Z'
 last_seen: '2026-08-21T22:41:56Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

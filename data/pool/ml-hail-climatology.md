@@ -13,7 +13,7 @@ canonical_url: https://huggingface.co/spaces/wcui0613/hail-ml-prediction-map
 summary: ''
 first_seen: '2026-08-20T23:43:48Z'
 last_seen: '2026-08-21T22:41:56Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

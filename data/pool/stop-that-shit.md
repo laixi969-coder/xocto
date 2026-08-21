@@ -2,11 +2,11 @@
 slug: stop-that-shit
 name: stop-that-shit
 builder: lennney
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 拦截AI编码智能体的无需求哈希、校验和和任务范围膨胀。
+inspiration: 智能体行为约束，可迁移到AI安全、代码质量管控。
+summary_en: Stop unrequested hashes, checksums, and task-scope creep in AI coding agents.
+inspiration_en: Agent behavior constraints, applicable to AI safety and code quality control.
 priority_review: false
 url: https://github.com/lennney/stop-that-shit
 canonical_url: https://github.com/lennney/stop-that-shit
@@ -15,7 +15,7 @@ summary: 'Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平
   checksums, and task-scope creep.'
 first_seen: '2026-08-11T15:31:45Z'
 last_seen: '2026-08-21T22:41:52Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

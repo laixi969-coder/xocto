@@ -13,7 +13,7 @@ canonical_url: https://github.com/gszr/lunar
 summary: a coding harness extensible with Lua
 first_seen: '2026-08-21T11:07:19Z'
 last_seen: '2026-08-21T22:41:50Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
