@@ -12,7 +12,10 @@
       <p id="ctx-note">{{ t.products.note }}</p>
     </div>
     <dl class="lede-stats">
-      <div><dt>{{ t.products.count }}</dt><dd class="num" id="count">{{ stats.total }}</dd></div>
+      <div>
+        <dt>{{ t.products.count }}</dt>
+        <dd class="num"><a class="results-jump" href="#grid"><span id="count">{{ stats.total }}</span> {{ t.products.results_jump }}</a></dd>
+      </div>
     </dl>
   </header>
 
@@ -146,6 +149,16 @@
     var ALL_TITLE = {{ t.products.title | tojson }};
     var SORT_LOCALE = {{ locale.lang | tojson }};
     var DEFAULT_NOTE = note.textContent;
+    var resultsJump = document.querySelector('.results-jump');
+
+    // 筛选用 hash 保存，不能为了跳到结果区把它替换成 #grid；
+    // 否则用户点「查看结果」反而把刚选好的条件清掉。
+    if (resultsJump) {
+      resultsJump.addEventListener('click', function (event) {
+        event.preventDefault();
+        grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
 
     function label() {
       var parts = [];

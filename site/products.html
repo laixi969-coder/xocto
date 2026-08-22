@@ -20,9 +20,9 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/products.html#webpage", "@type": "CollectionPage", "description": "398 \u4e2a AI \u751f\u610f\u6848\u4f8b\uff1a\u770b\u9700\u6c42\u3001\u4ed8\u8d39\u8def\u5f84\u3001\u8fdb\u5165\u7a97\u53e3\u4e0e\u5f85\u9a8c\u8bc1\u7684\u98ce\u9669\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "\u673a\u4f1a\u5e93", "url": "https://xocto.vercel.app/products.html"}]}</script><link rel="stylesheet" href="style.css">
-<link rel="preload" href="fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2">
+<link rel="preload" href="fonts/inter-600-latin.woff2" as="font" type="font/woff2">
+<link rel="preload" href="fonts/inter-400-latin.woff2" as="font" type="font/woff2">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -63,7 +63,10 @@
       <p id="ctx-note">不是产品目录，而是一张 AI 生意机会地图。先按你要验证的问题找，再进案例看证据与边界。</p>
     </div>
     <dl class="lede-stats">
-      <div><dt>当前结果</dt><dd class="num" id="count">398</dd></div>
+      <div>
+        <dt>当前结果</dt>
+        <dd class="num"><a class="results-jump" href="#grid"><span id="count">398</span> 查看结果 →</a></dd>
+      </div>
     </dl>
   </header>
 
@@ -6752,6 +6755,16 @@
     var ALL_TITLE = "\u673a\u4f1a\u5e93";
     var SORT_LOCALE = "zh-CN";
     var DEFAULT_NOTE = note.textContent;
+    var resultsJump = document.querySelector('.results-jump');
+
+    // 筛选用 hash 保存，不能为了跳到结果区把它替换成 #grid；
+    // 否则用户点「查看结果」反而把刚选好的条件清掉。
+    if (resultsJump) {
+      resultsJump.addEventListener('click', function (event) {
+        event.preventDefault();
+        grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
 
     function label() {
       var parts = [];

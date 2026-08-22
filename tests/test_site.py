@@ -66,6 +66,10 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertNotIn("p.boards", products_template)
+        self.assertIn('href="#grid"', products_template)
+        self.assertIn("t.products.results_jump", products_template)
+        self.assertIn("grid.scrollIntoView", products_template)
+        self.assertIn("event.preventDefault()", products_template)
 
         nav = (Path(__file__).parents[1] / "templates" / "base.html").read_text(encoding="utf-8")
         nav_start = nav.index('<nav class="nav">')
@@ -252,6 +256,21 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("data-share", template)
         self.assertIn("navigator.share", template)
         self.assertIn("navigator.clipboard.writeText", template)
+        self.assertIn("document.execCommand('copy')", template)
+        self.assertIn("window.prompt(manualCopy, url)", template)
+
+    def test_analytics_choice_does_not_cover_reading_content(self) -> None:
+        css = (Path(__file__).parents[1] / "templates" / "style.css").read_text(
+            encoding="utf-8"
+        )
+        consent_rule = css.split(".analytics-consent", 1)[1].split("}", 1)[0]
+        self.assertNotIn("position: fixed", consent_rule)
+
+    def test_local_static_site_does_not_preload_same_origin_fonts_as_cross_origin(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "base.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertNotIn('type="font/woff2" crossorigin', template)
 
     def test_stale_generated_page_is_removed(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

@@ -160,6 +160,23 @@
   (function () {
     var button = document.querySelector('[data-share]');
     if (!button) return;
+    var manualCopy = {{ t.report.share_manual | tojson }};
+    async function copy(url) {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(url);
+        return true;
+      }
+      var input = document.createElement('textarea');
+      input.value = url;
+      input.setAttribute('readonly', '');
+      input.style.position = 'fixed';
+      input.style.opacity = '0';
+      document.body.appendChild(input);
+      input.select();
+      var copied = document.execCommand('copy');
+      input.remove();
+      return copied;
+    }
     button.addEventListener('click', async function () {
       var url = window.location.href;
       try {
@@ -167,12 +184,13 @@
           await navigator.share({ title: document.title, url: url });
           return;
         }
-        await navigator.clipboard.writeText(url);
+        if (!await copy(url)) throw new Error('copy unavailable');
         var original = button.textContent;
         button.textContent = button.dataset.shareCopied;
         window.setTimeout(function () { button.textContent = original; }, 1800);
       } catch (err) {
-        // 用户取消系统分享不是错误；复制被浏览器禁用时保留按钮的原始状态。
+        // 用户取消系统分享不是错误；复制受限时把链接交给用户，不让 CTA 无声失败。
+        if (!navigator.share) window.prompt(manualCopy, url);
       }
     });
   })();

@@ -20,8 +20,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/products.html#webpage", "@type": "CollectionPage", "description": "398 AI business cases: demand, payment path, entry window, and the risk still to be tested.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Opportunity map", "url": "https://xocto.vercel.app/en/products.html"}]}</script><link rel="stylesheet" href="../style.css">
-<link rel="preload" href="../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../fonts/inter-600-latin.woff2" as="font" type="font/woff2">
+<link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -62,7 +62,10 @@
       <p id="ctx-note">Not a product directory: a map of AI business opportunities. Start with the question you need to test, then open a case for evidence and limits.</p>
     </div>
     <dl class="lede-stats">
-      <div><dt>Showing</dt><dd class="num" id="count">398</dd></div>
+      <div>
+        <dt>Showing</dt>
+        <dd class="num"><a class="results-jump" href="#grid"><span id="count">398</span> View results →</a></dd>
+      </div>
     </dl>
   </header>
 
@@ -6751,6 +6754,16 @@
     var ALL_TITLE = "Opportunity map";
     var SORT_LOCALE = "en";
     var DEFAULT_NOTE = note.textContent;
+    var resultsJump = document.querySelector('.results-jump');
+
+    // 筛选用 hash 保存，不能为了跳到结果区把它替换成 #grid；
+    // 否则用户点「查看结果」反而把刚选好的条件清掉。
+    if (resultsJump) {
+      resultsJump.addEventListener('click', function (event) {
+        event.preventDefault();
+        grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    }
 
     function label() {
       var parts = [];

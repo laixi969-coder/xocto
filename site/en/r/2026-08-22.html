@@ -20,8 +20,8 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/r/2026-08-22.html#webpage", "@type": "WebPage", "description": "AI agent infrastructure boom: memory, observability, human-in-the-loop become new battlegrounds", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "2026-08-22 Today\u0027s call", "url": "https://xocto.vercel.app/en/r/2026-08-22.html"}, {"@id": "https://xocto.vercel.app/en/r/2026-08-22.html#article", "@type": "Article", "author": {"@id": "https://xocto.vercel.app/#organization"}, "dateModified": "2026-08-22", "datePublished": "2026-08-22", "description": "AI agent infrastructure boom: memory, observability, human-in-the-loop become new battlegrounds", "headline": "AI agent infrastructure boom: memory, observability, human-in-the-loop become new battlegrounds", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/r/2026-08-22.html#webpage"}, "publisher": {"@id": "https://xocto.vercel.app/#organization"}, "url": "https://xocto.vercel.app/en/r/2026-08-22.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/r/2026-08-22.html", "name": "Saturday, August 22, 2026", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
-<link rel="preload" href="../../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../fonts/inter-600-latin.woff2" as="font" type="font/woff2">
+<link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -310,6 +310,23 @@
   (function () {
     var button = document.querySelector('[data-share]');
     if (!button) return;
+    var manualCopy = "Your browser could not copy automatically. Copy this link:";
+    async function copy(url) {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(url);
+        return true;
+      }
+      var input = document.createElement('textarea');
+      input.value = url;
+      input.setAttribute('readonly', '');
+      input.style.position = 'fixed';
+      input.style.opacity = '0';
+      document.body.appendChild(input);
+      input.select();
+      var copied = document.execCommand('copy');
+      input.remove();
+      return copied;
+    }
     button.addEventListener('click', async function () {
       var url = window.location.href;
       try {
@@ -317,12 +334,13 @@
           await navigator.share({ title: document.title, url: url });
           return;
         }
-        await navigator.clipboard.writeText(url);
+        if (!await copy(url)) throw new Error('copy unavailable');
         var original = button.textContent;
         button.textContent = button.dataset.shareCopied;
         window.setTimeout(function () { button.textContent = original; }, 1800);
       } catch (err) {
-        // 用户取消系统分享不是错误；复制被浏览器禁用时保留按钮的原始状态。
+        // 用户取消系统分享不是错误；复制受限时把链接交给用户，不让 CTA 无声失败。
+        if (!navigator.share) window.prompt(manualCopy, url);
       }
     });
   })();
