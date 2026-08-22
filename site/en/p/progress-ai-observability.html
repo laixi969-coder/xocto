@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Progress AI Observability · x-octo</title>
-<meta name="description" content="Trace, evaluate, and improve AI agents in production">
+<meta name="description" content="Every call an assistant made in production, what it cost, and whether the answer was wrong — one trace shows it all.">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/progress-ai-observability.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/progress-ai-observability.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/progress-ai-observability.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/progress-ai-observability.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Progress AI Observability · x-octo">
-<meta property="og:description" content="Trace, evaluate, and improve AI agents in production">
+<meta property="og:description" content="Every call an assistant made in production, what it cost, and whether the answer was wrong — one trace shows it all.">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/progress-ai-observability.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · Global AI product radar">
+<meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/progress-ai-observability.html#webpage", "@type": "WebPage", "description": "Trace, evaluate, and improve AI agents in production", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Progress AI Observability", "url": "https://xocto.vercel.app/en/p/progress-ai-observability.html"}, {"@id": "https://xocto.vercel.app/en/p/progress-ai-observability.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-05", "description": "Trace, evaluate, and improve AI agents in production", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/progress-ai-observability.html#webpage"}, "name": "Progress AI Observability", "url": "https://xocto.vercel.app/en/p/progress-ai-observability.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Home", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Products", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/progress-ai-observability.html", "name": "Progress AI Observability", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/progress-ai-observability.html#webpage", "@type": "WebPage", "description": "Every call an assistant made in production, what it cost, and whether the answer was wrong \u2014 one trace shows it all.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Progress AI Observability", "url": "https://xocto.vercel.app/en/p/progress-ai-observability.html"}, {"@id": "https://xocto.vercel.app/en/p/progress-ai-observability.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-05", "description": "Every call an assistant made in production, what it cost, and whether the answer was wrong \u2014 one trace shows it all.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/progress-ai-observability.html#webpage"}, "name": "Progress AI Observability", "url": "https://xocto.vercel.app/en/p/progress-ai-observability.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/progress-ai-observability.html", "name": "Progress AI Observability", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
 <link rel="preload" href="../../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
@@ -37,13 +37,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
-      <span class="brand-tag">Global AI product radar</span>
+      <span class="brand-tag">Business judgment on AI products</span>
     </div>
     <nav class="nav">
-      <a href="../../index.html" class="">Home</a>
-      <a href="../../products.html" class="on">Products</a>
-      <a href="../../takeaways.html" class=""></a>
-      <a href="../../reports.html" class="">Daily</a>
+      <a href="../../index.html" class="">Today</a>
+      <a href="../../products.html" class="on">Opportunity map</a>
+      <a href="../../takeaways.html" class="">Playbook</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../../p/progress-ai-observability.html" lang="zh-CN"
@@ -57,16 +56,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">Global AI product radar</p>
+    <p class="eyebrow">Business judgment on AI products</p>
     <div class="pick-id">
       <h1>Progress AI Observability</h1>
       <span class="verdict v-notable">Keep watching</span>
     </div>
 
-    <p class="lede">Trace, evaluate, and improve AI agents in production</p>
+    <p class="lede">Every call an assistant made in production, what it cost, and whether the answer was wrong — one trace shows it all.</p>
 
     <div class="meta">
-      <span class="tag">Early</span>
+<span class="tag sig">Started charging</span>      <span class="tag">Early</span>
 <span class="tag">Infrastructure</span>    </div>
 
     <div class="kv">
@@ -76,27 +75,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">A useful idea here</span>
-      <p>Observability is a billion-dollar category in traditional software. It is replaying, from the start, in agent land.</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60-second business read</p>
+        <h2>Decide if this deserves more of your time</h2>
+      </div>
+      <span class="note">Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">The call</span>
+        <p>Worth watching, as a template of the &#34;established vendor chasing&#34; product. Complete features, real pricing, clear channel (.NET enterprise customers) — this playbook has worked every time in traditional software. But it shows no native insight about the agent era; every capability here exists in Lan…</p>
+      </div>
       <div class="field">
-        <span class="field-k">The step it removes</span>
-        <p>Previously, checking whether an agent was misbehaving meant ordinary APM and logs: you could tell the service was up, how slow it was, and whether it errored — but not why an agent chose a particular …</p>
+        <span class="field-k">Business model</span>
+        <p>SaaS subscription, metered in &#34;units.&#34; Free: 10,000 units, 7-day retention. Starter $29/month; (200,000 units, 30 days). Pro $299/month (1M units, 60 days). Enterprise from $3,000/month with; custom volume. Overages $8 per 100,000 units. On…</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">What to borrow</span>
+        <span class="field-k">Entry window</span>
+        <p>Classic monitoring sees downtime, not confident nonsense. The trend is observability replaying itself in assistant land. The entry is assistants already in production at companies, billed by usage.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">What to validate next</span>
+        <p>① Whether the &#34;has anyone actually tried it&#34; Reddit skepticism gets replaced by real customer; cases and public endorsements; ② Whether .NET/Azure-channel customers show up — the only structural advantage over startups; ③ Whether unit-based billing draws complaints about complexity/cost — the meteri…</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">The step it removes</span>
+      <p>Previously, checking whether an agent was misbehaving meant ordinary APM and logs: you could tell the service was up, how slow it was, and whether it errored — but not why an agent chose a particular …</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Change the lens</p>
+        <h2>One case creates a different next move for each reader</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">If you&#39;re building</span>
         <p>Product logic: if you build evaluation features, follow the rule that scores must be bound to the execution path that produced the output — detached scores are decoration and users can&#39;t trust them. A…</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Window and risk</span>
+        <p>It has started charging. Next: who pays twice, and whether that covers a team.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Does it touch you</span>
+        <p>This is plumbing. You won&#39;t open it, but later apps may sit on it.</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60-second business read · Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</p>
     <h2>What it is in one line</h2>
 <p>An observability platform for production AI agents from Progress, the old-line software company:
 it traces every model call, tool invocation, and retrieval, attributes spend to agents, workflows,
@@ -220,9 +255,9 @@ Re-check channel conversion and real customer endorsements in three months.</p>
         <a href="../../p/deepseek-harness.html">
           <div class="row-head">
             <span class="row-name">deepseek-harness</span>
-            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-desc">DeepSeek splits an assistant&#39;s tools, memory, and interface into swappable add-ons that run on your own computer.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 433</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -230,9 +265,9 @@ Re-check channel conversion and real customer endorsements in three months.</p>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
             <span class="row-name">open-kimi-ppt-skill</span>
-            <span class="row-desc">Unofficial Kimi Slides skill that generates editable decks and ships a local editor.</span>
+            <span class="row-desc">It once let an assistant output a slide deck you could keep editing, then the whole library was wiped for copyright.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,599</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -240,9 +275,9 @@ Re-check channel conversion and real customer endorsements in three months.</p>
         <a href="../../p/numbat.html">
           <div class="row-head">
             <span class="row-name">numbat</span>
-            <span class="row-desc">Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.</span>
+            <span class="row-desc">See what an assistant did on a company computer, block it if needed, and reconstruct the whole episode afterwards.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 919</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -250,9 +285,9 @@ Re-check channel conversion and real customer endorsements in three months.</p>
         <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
             <span class="row-name">LongHorizon-Harness</span>
-            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
+            <span class="row-desc">AI can drive a computer for hours while progress lives on a checkable ledger, not in the model&#39;s claim that it finished.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 864</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -303,14 +338,14 @@ Re-check channel conversion and real customer endorsements in three months.</p>
 
 <div class="wrap">
   <footer>
-    <span>x-octo · Global AI product radar</span>
+    <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>398 products · 180 deep dives</span>
+    <span>398 cases · 180 business reads</span>
     <span class="gen">Data through 2026-08-22</span>
     <span>·</span>
-    <a href="../../methodology.html">Methodology</a>
+    <a href="../../reports.html">Calls archive</a>
     <span>·</span>
-    <a href="../../takeaways.html"></a>
+    <a href="../../methodology.html">Methodology</a>
     <span>·</span>
     <a href="../../privacy.html">Privacy &amp; analytics</a>
   </footer>

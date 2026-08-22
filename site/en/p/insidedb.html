@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Insidedb · x-octo</title>
-<meta name="description" content="an interactive, animated explainer of database internals">
+<meta name="description" content="Insert a key or pull the plug, and watch a database split a node or recover the write you just made.">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/insidedb.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/insidedb.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/insidedb.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/insidedb.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Insidedb · x-octo">
-<meta property="og:description" content="an interactive, animated explainer of database internals">
+<meta property="og:description" content="Insert a key or pull the plug, and watch a database split a node or recover the write you just made.">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/insidedb.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · Global AI product radar">
+<meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/insidedb.html#webpage", "@type": "WebPage", "description": "an interactive, animated explainer of database internals", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Insidedb", "url": "https://xocto.vercel.app/en/p/insidedb.html"}, {"@id": "https://xocto.vercel.app/en/p/insidedb.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "an interactive, animated explainer of database internals", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/insidedb.html#webpage"}, "name": "Insidedb", "sameAs": "https://david-g-3654.github.io/insidedb/", "url": "https://xocto.vercel.app/en/p/insidedb.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Home", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Products", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/insidedb.html", "name": "Insidedb", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/insidedb.html#webpage", "@type": "WebPage", "description": "Insert a key or pull the plug, and watch a database split a node or recover the write you just made.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Insidedb", "url": "https://xocto.vercel.app/en/p/insidedb.html"}, {"@id": "https://xocto.vercel.app/en/p/insidedb.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "Insert a key or pull the plug, and watch a database split a node or recover the write you just made.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/insidedb.html#webpage"}, "name": "Insidedb", "sameAs": "https://david-g-3654.github.io/insidedb/", "url": "https://xocto.vercel.app/en/p/insidedb.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/insidedb.html", "name": "Insidedb", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
 <link rel="preload" href="../../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
@@ -37,13 +37,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
-      <span class="brand-tag">Global AI product radar</span>
+      <span class="brand-tag">Business judgment on AI products</span>
     </div>
     <nav class="nav">
-      <a href="../../index.html" class="">Home</a>
-      <a href="../../products.html" class="on">Products</a>
-      <a href="../../takeaways.html" class=""></a>
-      <a href="../../reports.html" class="">Daily</a>
+      <a href="../../index.html" class="">Today</a>
+      <a href="../../products.html" class="on">Opportunity map</a>
+      <a href="../../takeaways.html" class="">Playbook</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../../p/insidedb.html" lang="zh-CN"
@@ -57,16 +56,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">Global AI product radar</p>
+    <p class="eyebrow">Business judgment on AI products</p>
     <div class="pick-id">
       <h1>Insidedb</h1>
       <span class="verdict v-unproven">Insufficient evidence</span>
     </div>
 
-    <p class="lede">an interactive, animated explainer of database internals</p>
+    <p class="lede">Insert a key or pull the plug, and watch a database split a node or recover the write you just made.</p>
 
     <div class="meta">
-      <span class="tag">Early</span>
+<span class="tag sig">Not a business yet</span>      <span class="tag">Early</span>
 <span class="tag">AI + Productivity</span><span class="tag sig">Community score 5</span>    </div>
 
     <div class="kv">
@@ -77,27 +76,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">A useful idea here</span>
-      <p>Making something hard to grasp interactive is the most direct route from content to product.</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60-second business read</p>
+        <h2>Decide if this deserves more of your time</h2>
+      </div>
+      <span class="note">Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">The call</span>
+        <p>The form judgment is correct, but the sample is tiny. Interactive explainers are almost always more effective than text for &#34;how a complex system works&#34; — that part is settled. The problem is four topics, no growth data, and no sign of becoming a product or a course.</p>
+      </div>
       <div class="field">
-        <span class="field-k">The step it removes</span>
-        <p>Learning database internals used to mean three things: textbooks with static diagrams, long blog posts with ASCII art, and recorded lectures you can only watch. This page swaps &#34;read the figure and im…</p>
+        <span class="field-k">Business model</span>
+        <p>None. Free educational page, no ads, no paywall, no course derivative.</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">What to borrow</span>
+        <span class="field-k">Entry window</span>
+        <p>The trend is hard internals leaving essays and becoming things you can play. Don&#39;t build a full course platform. Start with databases, payment clearing, and warehouse routing — knowledge people only trust after seeing inside. This page is free; how training would be sold is undisclosed.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">What to validate next</span>
+        <p>① Whether the topic count grows past four — staying at four means a one-off; continued updates mean a product; ② Whether GitHub stars break 100 in three months; ③ Whether the author extends it into a course, a paid product, or at least a public roadmap</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">The step it removes</span>
+      <p>Learning database internals used to mean three things: textbooks with static diagrams, long blog posts with ASCII art, and recorded lectures you can only watch. This page swaps &#34;read the figure and im…</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Change the lens</p>
+        <h2>One case creates a different next move for each reader</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">If you&#39;re building</span>
         <p>Content logic: for any process-type knowledge (protocols, algorithms, system mechanics), first ask &#34;can the reader do one step with their own hands?&#34; Turning &#34;watch&#34; into &#34;do&#34; drops comprehension cost…</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Window and risk</span>
+        <p>Not a business yet. Treat it as a signal, not a company.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Does it touch you</span>
+        <p>This changes the repetitive office steps: capture, sort, hand in.</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60-second business read · Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</p>
     <h2>What it is in one line</h2>
 <p>A webpage that turns database internals into playable animations — insert a key and watch the B-tree split; pull the plug and watch the write-ahead log bring data back. It replaces reading with playing, covering B-trees, query planning, the WAL, and MVCC.</p>
 <h2>Who built it</h2>
@@ -179,9 +214,9 @@
         <a href="../../p/qm.html">
           <div class="row-head">
             <span class="row-name">qm</span>
-            <span class="row-desc">Multiplayer agent harness for work. https://qm.ycombinator.com</span>
+            <span class="row-desc">Every employee gets an isolated assistant, and the same one can still be driven together in a channel, with memories that do not leak.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 13,884</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -189,9 +224,9 @@
         <a href="../../p/genoffice.html">
           <div class="row-head">
             <span class="row-name">genoffice</span>
-            <span class="row-desc">Free, open-source AI office suite for Word, Excel, PowerPoint, PDF, and Markdown editing.</span>
+            <span class="row-desc">People editing materials let AI change Word, sheets, and slides from the inside, while untouched bytes stay exactly as they were.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 3,415</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -199,9 +234,9 @@
         <a href="../../p/cindy.html">
           <div class="row-head">
             <span class="row-name">cindy</span>
-            <span class="row-desc">Open-source AI agent that works out of the box.</span>
+            <span class="row-desc">Puts coding assistants from different vendors in one workspace so you can switch models mid-task without losing memory or work.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,995</span>            </span>
+<span class="tag sig">Started charging</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -209,9 +244,9 @@
         <a href="../../p/needle2.html">
           <div class="row-head">
             <span class="row-name">Needle2</span>
-            <span class="row-desc">14MB agentic LLM for phones, wearables, smart home and robots</span>
+            <span class="row-desc">Tell a phone or watch to turn on the light. No network, no cloud wait — the device finishes in tens of milliseconds.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 509</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -262,14 +297,14 @@
 
 <div class="wrap">
   <footer>
-    <span>x-octo · Global AI product radar</span>
+    <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>398 products · 180 deep dives</span>
+    <span>398 cases · 180 business reads</span>
     <span class="gen">Data through 2026-08-22</span>
     <span>·</span>
-    <a href="../../methodology.html">Methodology</a>
+    <a href="../../reports.html">Calls archive</a>
     <span>·</span>
-    <a href="../../takeaways.html"></a>
+    <a href="../../methodology.html">Methodology</a>
     <span>·</span>
     <a href="../../privacy.html">Privacy &amp; analytics</a>
   </footer>

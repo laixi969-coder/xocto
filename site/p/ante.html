@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Ante · x-octo</title>
-<meta name="description" content="单个二进制文件的编程 agent，断网也能跑">
+<meta name="description" content="一个文件就能用的写代码助手，断网也能在本机改代码、跑测试">
 <link rel="canonical" href="https://xocto.vercel.app/p/ante.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/ante.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/ante.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/ante.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Ante · x-octo">
-<meta property="og:description" content="单个二进制文件的编程 agent，断网也能跑">
+<meta property="og:description" content="一个文件就能用的写代码助手，断网也能在本机改代码、跑测试">
 <meta property="og:url" content="https://xocto.vercel.app/p/ante.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · 全球 AI 应用雷达">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ante.html#webpage", "@type": "WebPage", "description": "\u5355\u4e2a\u4e8c\u8fdb\u5236\u6587\u4ef6\u7684\u7f16\u7a0b agent\uff0c\u65ad\u7f51\u4e5f\u80fd\u8dd1", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@id": "https://xocto.vercel.app/p/ante.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-08-12", "datePublished": "2026-08-10", "description": "\u5355\u4e2a\u4e8c\u8fdb\u5236\u6587\u4ef6\u7684\u7f16\u7a0b agent\uff0c\u65ad\u7f51\u4e5f\u80fd\u8dd1", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ante.html#webpage"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u9996\u9875", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u5168\u90e8\u4ea7\u54c1", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ante.html", "name": "Ante", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ante.html#webpage", "@type": "WebPage", "description": "\u4e00\u4e2a\u6587\u4ef6\u5c31\u80fd\u7528\u7684\u5199\u4ee3\u7801\u52a9\u624b\uff0c\u65ad\u7f51\u4e5f\u80fd\u5728\u672c\u673a\u6539\u4ee3\u7801\u3001\u8dd1\u6d4b\u8bd5", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@id": "https://xocto.vercel.app/p/ante.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-08-12", "datePublished": "2026-08-10", "description": "\u4e00\u4e2a\u6587\u4ef6\u5c31\u80fd\u7528\u7684\u5199\u4ee3\u7801\u52a9\u624b\uff0c\u65ad\u7f51\u4e5f\u80fd\u5728\u672c\u673a\u6539\u4ee3\u7801\u3001\u8dd1\u6d4b\u8bd5", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ante.html#webpage"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ante.html", "name": "Ante", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
 <link rel="preload" href="../fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -38,13 +38,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
-      <span class="brand-tag">全球 AI 应用雷达</span>
+      <span class="brand-tag">AI 应用的生意判断</span>
     </div>
     <nav class="nav">
-      <a href="../index.html" class="">首页</a>
-      <a href="../products.html" class="on">全部产品</a>
-      <a href="../takeaways.html" class="">可借鉴</a>
-      <a href="../reports.html" class="">每日观察</a>
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../en/p/ante.html" lang="en"
@@ -58,16 +57,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">全球 AI 应用雷达</p>
+    <p class="eyebrow">AI 应用的生意判断</p>
     <div class="pick-id">
       <h1>Ante</h1>
       <span class="verdict v-notable">持续观察</span>
     </div>
 
-    <p class="lede">单个二进制文件的编程 agent，断网也能跑</p>
+    <p class="lede">一个文件就能用的写代码助手，断网也能在本机改代码、跑测试</p>
 
     <div class="meta">
-      <span class="tag">刚冒头</span>
+<span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
 <span class="tag">AI + 开发</span><span class="tag sig">社区热度 159</span>    </div>
 
     <div class="kv">
@@ -77,27 +76,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">值得借鉴的一点</span>
-      <p>「一个文件、双击就用」在开发者工具里是被低估的卖点，安装成本决定了多少人会试</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60 秒生意判断</p>
+        <h2>先决定它值不值得继续看</h2>
+      </div>
+      <span class="note">结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">一句判断</span>
+        <p>这是&#34;BusyBox/SQLite 哲学应用到 agent&#34;的产物：打包方式本身就是产品主张。 别的 agent 拼模型和提示词，Ante 拼的是&#34;不装环境、不联网、一个文件就跑&#34;。 对想并行跑几十上百个 agent 的团队，harness 的重量从四舍五入变成账单本身， 这个方向成立。</p>
+      </div>
       <div class="field">
-        <span class="field-k">它替人省掉了哪一步</span>
-        <p>用编码 agent 干活，过去默认要装一套运行时和依赖：Node 环境、Python 环境、编辑器插件、 一堆包树，还要配好 API key 或者本地起一个 Ollama 之类的推理守护进程。 &#34;环境漂移&#34;是常态——上周能跑的容器这周就静默失败。</p>
+        <span class="field-k">商业模式</span>
+        <p>alpha 免费。预编译二进制在 alpha 预览期免费（含商用），按 BINARY-TERMS.md 授权；; 开源部分 Apache-2.0。README 提到一个可选的托管服务 antix.antigma.ai，暗示未来商业化方向，; 但无定价。</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">可借鉴的做法</span>
+        <span class="field-k">进入窗口</span>
+        <p>趋势是写代码助手要能离线、免安装，才进得了保密机房。切入做金融、军工、内网研发这类不能联网的团队，先免费圈人；托管是否收费尚未披露。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">接下来验证什么</span>
+        <p>① 核心 harness 的源码是否兑现&#34;progressive&#34;开源承诺——开源进度即信任修复速度; ② 是否提交 Terminal-Bench 官方排行榜——自报 82.7% 上了官方榜才是真数字; ③ 托管服务 antix 的定价与形态——这是从免费圈人到商业模式的第一步</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">它替人省掉了哪一步</span>
+      <p>用编码 agent 干活，过去默认要装一套运行时和依赖：Node 环境、Python 环境、编辑器插件、 一堆包树，还要配好 API key 或者本地起一个 Ollama 之类的推理守护进程。 &#34;环境漂移&#34;是常态——上周能跑的容器这周就静默失败。</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">换一个身份再看</p>
+        <h2>同一案例，对不同人意味着不同的下一步</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">如果你在创业</span>
         <p>产品逻辑：如果你的工具面向&#34;并行跑很多 agent&#34;或&#34;隔网环境&#34;两个场景之一， &#34;单二进制 + 零运行时依赖 + 可选本地推理&#34;是值得复制的架构决策；但要先想清楚 闭源 vs 开源的信任成本——承诺离线隐私的产品，不能给用户一个无法审计的二进制。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">窗口与风险</span>
+        <p>还不是一门生意。可以当信号看，不要当成公司看。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">跟你有没有关系</span>
+        <p>主要改写软件的人怎么干活。除非你靠软件吃饭，否则先不用管。</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60 秒生意判断 · 结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</p>
     <h2>一句话定位</h2>
 <p>一个约 15MB 的 Rust 单二进制编码 agent，把 llama.cpp 推理引擎、grep、git 全塞进一个文件里，
 断网也能用本地 GGUF 模型跑完整条&quot;读代码—改代码—跑测试&quot;的回路，也能接任意云端模型。</p>
@@ -226,9 +261,9 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
         <a href="../p/dsh-web-ui.html">
           <div class="row-head">
             <span class="row-name">dsh-web-ui</span>
-            <span class="row-desc">DSH Web UI的插件和皮肤集合，含任务板、Git图等。</span>
+            <span class="row-desc">用网页跟 AI 写代码的人一次装齐任务板、版本图、手机遥控和几套皮肤</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 5,419</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -236,9 +271,9 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
         <a href="../p/dsh-better-sidebar.html">
           <div class="row-head">
             <span class="row-name">DSH-better-sidebar</span>
-            <span class="row-desc">DSH侧边栏完整工作台，支持文件编辑、终端、Git等。</span>
+            <span class="row-desc">AI 改文件时，目录、编辑、终端和改动对比都在侧边，人不用来回切窗口</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 2,574</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -246,9 +281,9 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
         <a href="../p/dsh-tui.html">
           <div class="row-head">
             <span class="row-name">dsh-TUI</span>
-            <span class="row-desc">Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。</span>
+            <span class="row-desc">不愿换界面的工程师用 AI 写代码，仍按老习惯看状态、撤销，不必改开浏览器</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 2,262</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -256,9 +291,9 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
         <a href="../p/agent-vision-toolkit.html">
           <div class="row-head">
             <span class="row-name">agent-vision-toolkit</span>
-            <span class="row-desc">为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。</span>
+            <span class="row-desc">给只会读字的 AI 装眼睛：带着任务看图，标位置、认字、还原界面</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 1,094</span>            </span>
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -309,14 +344,14 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
 
 <div class="wrap">
   <footer>
-    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>398 个产品 · 180 份深度分析</span>
+    <span>398 个案例 · 180 份生意判断</span>
     <span class="gen">数据截至 2026-08-22</span>
     <span>·</span>
-    <a href="../methodology.html">方法与口径</a>
+    <a href="../reports.html">判断档案</a>
     <span>·</span>
-    <a href="../takeaways.html">可借鉴</a>
+    <a href="../methodology.html">方法与口径</a>
     <span>·</span>
     <a href="../privacy.html">隐私与统计</a>
   </footer>

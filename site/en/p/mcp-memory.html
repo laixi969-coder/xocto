@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>MCP Memory · x-octo</title>
-<meta name="description" content="Fast agent memory using Google&#39;s OKF and SQLite FTS5.">
+<meta name="description" content="Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/mcp-memory.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/mcp-memory.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/mcp-memory.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/mcp-memory.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="MCP Memory · x-octo">
-<meta property="og:description" content="Fast agent memory using Google&#39;s OKF and SQLite FTS5.">
+<meta property="og:description" content="Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/mcp-memory.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · Global AI product radar">
+<meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage", "@type": "WebPage", "description": "Fast agent memory using Google\u0027s OKF and SQLite FTS5.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-15", "datePublished": "2026-08-13", "description": "Fast agent memory using Google\u0027s OKF and SQLite FTS5.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Home", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Products", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-memory.html", "name": "MCP Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage", "@type": "WebPage", "description": "Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-15", "datePublished": "2026-08-13", "description": "Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-memory.html", "name": "MCP Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
 <link rel="preload" href="../../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
@@ -37,13 +37,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
-      <span class="brand-tag">Global AI product radar</span>
+      <span class="brand-tag">Business judgment on AI products</span>
     </div>
     <nav class="nav">
-      <a href="../../index.html" class="">Home</a>
-      <a href="../../products.html" class="on">Products</a>
-      <a href="../../takeaways.html" class=""></a>
-      <a href="../../reports.html" class="">Daily</a>
+      <a href="../../index.html" class="">Today</a>
+      <a href="../../products.html" class="on">Opportunity map</a>
+      <a href="../../takeaways.html" class="">Playbook</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../../p/mcp-memory.html" lang="zh-CN"
@@ -57,16 +56,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">Global AI product radar</p>
+    <p class="eyebrow">Business judgment on AI products</p>
     <div class="pick-id">
       <h1>MCP Memory</h1>
       <span class="verdict v-notable">Keep watching</span>
     </div>
 
-    <p class="lede">Fast agent memory using Google&#39;s OKF and SQLite FTS5.</p>
+    <p class="lede">Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.</p>
 
     <div class="meta">
-      <span class="tag">Early</span>
+<span class="tag sig">Not a business yet</span>      <span class="tag">Early</span>
 <span class="tag">Infrastructure</span><span class="tag sig">Community score 62</span>    </div>
 
     <div class="kv">
@@ -76,27 +75,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">A useful idea here</span>
-      <p>Fast memory mechanism is foundational for agent long-term memory, applicable to personalization.</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60-second business read</p>
+        <h2>Decide if this deserves more of your time</h2>
+      </div>
+      <span class="note">Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">The call</span>
+        <p>A textbook case of &#34;when a standard just ships, be the first decent implementation.&#34; OKF came out in mid-June; by mid-August this project shipped an MCP implementation with spec conformance and dual-layer storage, and used Show HN to get discussion volume far above its star count. Speed is its moat …</p>
+      </div>
       <div class="field">
-        <span class="field-k">The step it removes</span>
-        <p>Agent &#34;memory&#34; today runs on three ad-hoc schemes, each broken in its own way.</p>
+        <span class="field-k">Business model</span>
+        <p>None. Free and open source; no hosted service, no pricing page.</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">What to borrow</span>
+        <span class="field-k">Entry window</span>
+        <p>Once an assistant works across days, no memory means it forgets every morning. The trend is long-term memory as a default. The entry is a local, human-reviewable memory for coding assistants. Pricing is undisclosed.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">What to validate next</span>
+        <p>① Whether a reproducible benchmark appears, proving gains in task-completion over Claude&#39;s; built-in memory or a grep-based approach; ② Whether an ecosystem forms (others following the OKF + MCP combination) or it stays a singleton; ③ Repo activity in three months: Show HN stars decay fast; what mat…</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">The step it removes</span>
+      <p>Agent &#34;memory&#34; today runs on three ad-hoc schemes, each broken in its own way.</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Change the lens</p>
+        <h2>One case creates a different next move for each reader</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">If you&#39;re building</span>
         <p>Product logic: for agent-memory features, ship human-readable, reviewable plain-text storage first and accelerate with an index — do not jump straight to a vector store. Auditability is scarcer than r…</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Window and risk</span>
+        <p>Not a business yet. Treat it as a signal, not a company.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Does it touch you</span>
+        <p>This is plumbing. You won&#39;t open it, but later apps may sit on it.</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60-second business read · Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</p>
     <h2>What it is in one line</h2>
 <p>A persistent memory layer for agents: everything to be remembered is written as an OKF-spec
 Markdown file with metadata (human-readable, diffable, git-managed), while a SQLite FTS5 index
@@ -221,9 +256,9 @@ Come back in three months against the three checks above.</p>
         <a href="../../p/deepseek-harness.html">
           <div class="row-head">
             <span class="row-name">deepseek-harness</span>
-            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-desc">DeepSeek splits an assistant&#39;s tools, memory, and interface into swappable add-ons that run on your own computer.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 433</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -231,9 +266,9 @@ Come back in three months against the three checks above.</p>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
             <span class="row-name">open-kimi-ppt-skill</span>
-            <span class="row-desc">Unofficial Kimi Slides skill that generates editable decks and ships a local editor.</span>
+            <span class="row-desc">It once let an assistant output a slide deck you could keep editing, then the whole library was wiped for copyright.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,599</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -241,9 +276,9 @@ Come back in three months against the three checks above.</p>
         <a href="../../p/numbat.html">
           <div class="row-head">
             <span class="row-name">numbat</span>
-            <span class="row-desc">Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.</span>
+            <span class="row-desc">See what an assistant did on a company computer, block it if needed, and reconstruct the whole episode afterwards.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 919</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -251,9 +286,9 @@ Come back in three months against the three checks above.</p>
         <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
             <span class="row-name">LongHorizon-Harness</span>
-            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
+            <span class="row-desc">AI can drive a computer for hours while progress lives on a checkable ledger, not in the model&#39;s claim that it finished.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 864</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -304,14 +339,14 @@ Come back in three months against the three checks above.</p>
 
 <div class="wrap">
   <footer>
-    <span>x-octo · Global AI product radar</span>
+    <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>398 products · 180 deep dives</span>
+    <span>398 cases · 180 business reads</span>
     <span class="gen">Data through 2026-08-22</span>
     <span>·</span>
-    <a href="../../methodology.html">Methodology</a>
+    <a href="../../reports.html">Calls archive</a>
     <span>·</span>
-    <a href="../../takeaways.html"></a>
+    <a href="../../methodology.html">Methodology</a>
     <span>·</span>
     <a href="../../privacy.html">Privacy &amp; analytics</a>
   </footer>

@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>NanoRL · x-octo</title>
-<meta name="description" content="约1800行代码实现LLM的RL训练。">
+<meta name="description" content="想搞懂大模型怎么用试错变好，一份下午能读完的材料就能上手练。">
 <link rel="canonical" href="https://xocto.vercel.app/p/nanorl.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/nanorl.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/nanorl.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/nanorl.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="NanoRL · x-octo">
-<meta property="og:description" content="约1800行代码实现LLM的RL训练。">
+<meta property="og:description" content="想搞懂大模型怎么用试错变好，一份下午能读完的材料就能上手练。">
 <meta property="og:url" content="https://xocto.vercel.app/p/nanorl.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · 全球 AI 应用雷达">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/nanorl.html#webpage", "@type": "WebPage", "description": "\u7ea61800\u884c\u4ee3\u7801\u5b9e\u73b0LLM\u7684RL\u8bad\u7ec3\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "NanoRL", "url": "https://xocto.vercel.app/p/nanorl.html"}, {"@id": "https://xocto.vercel.app/p/nanorl.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "\u7ea61800\u884c\u4ee3\u7801\u5b9e\u73b0LLM\u7684RL\u8bad\u7ec3\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/nanorl.html#webpage"}, "name": "NanoRL", "url": "https://xocto.vercel.app/p/nanorl.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u9996\u9875", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u5168\u90e8\u4ea7\u54c1", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/nanorl.html", "name": "NanoRL", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/nanorl.html#webpage", "@type": "WebPage", "description": "\u60f3\u641e\u61c2\u5927\u6a21\u578b\u600e\u4e48\u7528\u8bd5\u9519\u53d8\u597d\uff0c\u4e00\u4efd\u4e0b\u5348\u80fd\u8bfb\u5b8c\u7684\u6750\u6599\u5c31\u80fd\u4e0a\u624b\u7ec3\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "NanoRL", "url": "https://xocto.vercel.app/p/nanorl.html"}, {"@id": "https://xocto.vercel.app/p/nanorl.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "\u60f3\u641e\u61c2\u5927\u6a21\u578b\u600e\u4e48\u7528\u8bd5\u9519\u53d8\u597d\uff0c\u4e00\u4efd\u4e0b\u5348\u80fd\u8bfb\u5b8c\u7684\u6750\u6599\u5c31\u80fd\u4e0a\u624b\u7ec3\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/nanorl.html#webpage"}, "name": "NanoRL", "url": "https://xocto.vercel.app/p/nanorl.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/nanorl.html", "name": "NanoRL", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
 <link rel="preload" href="../fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -38,13 +38,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
-      <span class="brand-tag">全球 AI 应用雷达</span>
+      <span class="brand-tag">AI 应用的生意判断</span>
     </div>
     <nav class="nav">
-      <a href="../index.html" class="">首页</a>
-      <a href="../products.html" class="on">全部产品</a>
-      <a href="../takeaways.html" class="">可借鉴</a>
-      <a href="../reports.html" class="">每日观察</a>
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../en/p/nanorl.html" lang="en"
@@ -58,16 +57,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">全球 AI 应用雷达</p>
+    <p class="eyebrow">AI 应用的生意判断</p>
     <div class="pick-id">
       <h1>NanoRL</h1>
       <span class="verdict v-unproven">证据不足</span>
     </div>
 
-    <p class="lede">约1800行代码实现LLM的RL训练。</p>
+    <p class="lede">想搞懂大模型怎么用试错变好，一份下午能读完的材料就能上手练。</p>
 
     <div class="meta">
-      <span class="tag">刚冒头</span>
+<span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
 <span class="tag">基础层</span><span class="tag sig">社区热度 10</span>    </div>
 
     <div class="kv">
@@ -77,27 +76,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">值得借鉴的一点</span>
-      <p>极简RL实现降低研究门槛，可迁移到教育和小规模实验。</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60 秒生意判断</p>
+        <h2>先决定它值不值得继续看</h2>
+      </div>
+      <span class="note">结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">一句判断</span>
+        <p>这是&#34;用极简重写来教育市场&#34;的经典打法，且执行得很干净。 它没有声称能替代 veRL—— 它声称的是&#34;你能读完整份代码、fork 它、改它&#34;。这个定位和 nanoGPT 完全一致： 不是工具，是教科书。</p>
+      </div>
       <div class="field">
-        <span class="field-k">它替人省掉了哪一步</span>
-        <p>做 LLM 强化学习训练，现在的默认姿势是：TRL 或 veRL 加 Ray 加 DeepSpeed，上千个依赖， 文档比代码多，训练循环埋在三层抽象里。想搞明白&#34;GRPO 到底怎么更新的&#34;，你得先读完框架源码。</p>
+        <span class="field-k">商业模式</span>
+        <p>无。 MIT 开源，无托管、无服务。</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">可借鉴的做法</span>
+        <span class="field-k">进入窗口</span>
+        <p>训练框架厚到出了问题只能当玄学调。趋势是把关键手艺写成能读完的教材；切入是高校实验室和自学的人，先读懂再改，不是先上生产。开源免费。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">接下来验证什么</span>
+        <p>① 有没有人 fork 后在真实生产任务上用它，或公开复现它的端到端数字; ② 作者三个月内是否跟进新算法（比如 DPO/Online-DPO 路线）或修复 issue——; 教育项目的生命力在维护; ③ 它会不会被某个生产框架吸收为教学材料或代码来源（被引用 = 真正的成功）</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">它替人省掉了哪一步</span>
+      <p>做 LLM 强化学习训练，现在的默认姿势是：TRL 或 veRL 加 Ray 加 DeepSpeed，上千个依赖， 文档比代码多，训练循环埋在三层抽象里。想搞明白&#34;GRPO 到底怎么更新的&#34;，你得先读完框架源码。</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">换一个身份再看</p>
+        <h2>同一案例，对不同人意味着不同的下一步</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">如果你在创业</span>
         <p>产品逻辑：如果你的领域存在&#34;难以进入&#34;的复杂技能，用一份可读完的最小实现建立权威， 比写一百篇教程有用。教程是单向的，可读的代码是可以被 fork 的资产。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">窗口与风险</span>
+        <p>还不是一门生意。可以当信号看，不要当成公司看。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">跟你有没有关系</span>
+        <p>这是底层零件。你不会直接打开它，但以后很多应用可能长在它上面。</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60 秒生意判断 · 结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</p>
     <h2>一句话定位</h2>
 <p>一份能在笔记本上跑 CartPole、也能在多机 GPU 集群上跑异步 RLVR 训练的强化学习代码，
 总共约 1,800 行、7 个文件，读完它只需一个下午——它是给人读的，不是给人 import 的。</p>
@@ -215,9 +250,9 @@ RL 框架的人&quot;——如果这些人 fork 了它、学会了、用在了 v
         <a href="../p/deepseek-harness.html">
           <div class="row-head">
             <span class="row-name">deepseek-harness</span>
-            <span class="row-desc">DeepSeek官方插件化框架，一切皆插件。</span>
+            <span class="row-desc">DeepSeek 把助手的工具、记忆、界面拆成可替换插件，在自己电脑上跑</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 433</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -225,9 +260,9 @@ RL 框架的人&quot;——如果这些人 fork 了它、学会了、用在了 v
         <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head">
             <span class="row-name">open-kimi-ppt-skill</span>
-            <span class="row-desc">非官方的 Kimi Slides 技能，生成可编辑的 PPT 并带本地编辑器</span>
+            <span class="row-desc">曾让助手直接产出能继续改的演示文稿，后因版权整库被清空。</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 1,599</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -235,9 +270,9 @@ RL 框架的人&quot;——如果这些人 fork 了它、学会了、用在了 v
         <a href="../p/numbat.html">
           <div class="row-head">
             <span class="row-name">numbat</span>
-            <span class="row-desc">监控 AI agent 在电脑上干了什么，能拦截也能事后取证</span>
+            <span class="row-desc">公司电脑上的助手干了什么能看清，必要时拦住，事后还能把全过程还原。</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 919</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -245,9 +280,9 @@ RL 框架的人&quot;——如果这些人 fork 了它、学会了、用在了 v
         <a href="../p/longhorizon-harness.html">
           <div class="row-head">
             <span class="row-name">LongHorizon-Harness</span>
-            <span class="row-desc">让 agent 连续操作电脑几小时而不丢任务状态</span>
+            <span class="row-desc">让 AI 连续操作电脑几小时，进展写在可核对的账本上，不信它自己说做完了</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 864</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -298,14 +333,14 @@ RL 框架的人&quot;——如果这些人 fork 了它、学会了、用在了 v
 
 <div class="wrap">
   <footer>
-    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>398 个产品 · 180 份深度分析</span>
+    <span>398 个案例 · 180 份生意判断</span>
     <span class="gen">数据截至 2026-08-22</span>
     <span>·</span>
-    <a href="../methodology.html">方法与口径</a>
+    <a href="../reports.html">判断档案</a>
     <span>·</span>
-    <a href="../takeaways.html">可借鉴</a>
+    <a href="../methodology.html">方法与口径</a>
     <span>·</span>
     <a href="../privacy.html">隐私与统计</a>
   </footer>

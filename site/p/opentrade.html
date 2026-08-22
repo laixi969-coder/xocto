@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>OpenTrade · x-octo</title>
-<meta name="description" content="Claude Code / Codex 的开源交易框架">
+<meta name="description" content="让编程代理在你电脑上按规则盯盘下单，人只审批越界的那一笔">
 <link rel="canonical" href="https://xocto.vercel.app/p/opentrade.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/opentrade.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/opentrade.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/opentrade.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="OpenTrade · x-octo">
-<meta property="og:description" content="Claude Code / Codex 的开源交易框架">
+<meta property="og:description" content="让编程代理在你电脑上按规则盯盘下单，人只审批越界的那一笔">
 <meta property="og:url" content="https://xocto.vercel.app/p/opentrade.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · 全球 AI 应用雷达">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/opentrade.html#webpage", "@type": "WebPage", "description": "Claude Code / Codex \u7684\u5f00\u6e90\u4ea4\u6613\u6846\u67b6", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OpenTrade", "url": "https://xocto.vercel.app/p/opentrade.html"}, {"@id": "https://xocto.vercel.app/p/opentrade.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5546\u4e1a", "dateModified": "2026-08-18", "datePublished": "2026-08-15", "description": "Claude Code / Codex \u7684\u5f00\u6e90\u4ea4\u6613\u6846\u67b6", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/opentrade.html#webpage"}, "name": "OpenTrade", "url": "https://xocto.vercel.app/p/opentrade.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u9996\u9875", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u5168\u90e8\u4ea7\u54c1", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/opentrade.html", "name": "OpenTrade", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/opentrade.html#webpage", "@type": "WebPage", "description": "\u8ba9\u7f16\u7a0b\u4ee3\u7406\u5728\u4f60\u7535\u8111\u4e0a\u6309\u89c4\u5219\u76ef\u76d8\u4e0b\u5355\uff0c\u4eba\u53ea\u5ba1\u6279\u8d8a\u754c\u7684\u90a3\u4e00\u7b14", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OpenTrade", "url": "https://xocto.vercel.app/p/opentrade.html"}, {"@id": "https://xocto.vercel.app/p/opentrade.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5546\u4e1a", "dateModified": "2026-08-18", "datePublished": "2026-08-15", "description": "\u8ba9\u7f16\u7a0b\u4ee3\u7406\u5728\u4f60\u7535\u8111\u4e0a\u6309\u89c4\u5219\u76ef\u76d8\u4e0b\u5355\uff0c\u4eba\u53ea\u5ba1\u6279\u8d8a\u754c\u7684\u90a3\u4e00\u7b14", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/opentrade.html#webpage"}, "name": "OpenTrade", "url": "https://xocto.vercel.app/p/opentrade.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/opentrade.html", "name": "OpenTrade", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
 <link rel="preload" href="../fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -38,13 +38,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
-      <span class="brand-tag">全球 AI 应用雷达</span>
+      <span class="brand-tag">AI 应用的生意判断</span>
     </div>
     <nav class="nav">
-      <a href="../index.html" class="">首页</a>
-      <a href="../products.html" class="on">全部产品</a>
-      <a href="../takeaways.html" class="">可借鉴</a>
-      <a href="../reports.html" class="">每日观察</a>
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../en/p/opentrade.html" lang="en"
@@ -58,15 +57,15 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">全球 AI 应用雷达</p>
+    <p class="eyebrow">AI 应用的生意判断</p>
     <div class="pick-id">
       <h1>OpenTrade</h1>
     </div>
 
-    <p class="lede">Claude Code / Codex 的开源交易框架</p>
+    <p class="lede">让编程代理在你电脑上按规则盯盘下单，人只审批越界的那一笔</p>
 
     <div class="meta">
-      <span class="tag">刚冒头</span>
+<span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
 <span class="tag">AI + 商业</span>    </div>
 
     <div class="kv">
@@ -76,19 +75,58 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">值得借鉴的一点</span>
-      <p>将 AI 代理用于交易，可借鉴其开源框架设计。</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60 秒生意判断</p>
+        <h2>先决定它值不值得继续看</h2>
+      </div>
+      <span class="note">结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</span>
+    </div>
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">一句判断</span>
+        <p>让编程代理在你电脑上按规则盯盘下单，人只审批越界的那一笔</p>
+      </div>
+      <div class="field">
+        <span class="field-k">商业模式</span>
+        <p>收费未披露。公开信息里看不到定价，不编造。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">进入窗口</span>
+        <p>趋势是交易代理真正难的不是看行情，是越权下单，能设护栏的本地代理会先于全自动炒股出现。切入不要做荐股，先帮自己盯仓的人：本地运行、限额、人工确认。判断：先把护栏卖给已有券商账户的人；牌照决定你能不能把交易本身收成钱。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">接下来验证什么</span>
+        <p>目前公开信息有限，判断会随新证据更新。</p>
+      </div>
     </div>
   </section>
 
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">换一个身份再看</p>
+        <h2>同一案例，对不同人意味着不同的下一步</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field">
+        <span class="field-k">窗口与风险</span>
+        <p>还不是一门生意。可以当信号看，不要当成公司看。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">跟你有没有关系</span>
+        <p>会改公司里成交、客服、招采这些岗位怎么干活。</p>
+      </div>
+    </div>
+  </section>
 
   <section class="band">
     <div class="noanalysis">
-      <p class="noanalysis-lead">这款产品尚未形成完整分析。</p>
+      <p class="noanalysis-lead">完整分析还没写。先看上面的方向判断。</p>
       <p class="noanalysis-sub">
-目前公开信息有限，以下判断会随新证据持续更新。        它刚被收录，尚缺可验证的使用数据。
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
       </p>
       <p class="noanalysis-sub">
         同类产品的完整分析：
@@ -109,9 +147,9 @@
         <a href="../p/gtm-cofounder.html">
           <div class="row-head">
             <span class="row-name">gtm-cofounder</span>
-            <span class="row-desc">给没有合伙人的技术创始人当营销脑子：谁会买、为什么付钱、怎么开口</span>
+            <span class="row-desc">没有商业合伙人的技术创始人，被追问谁会买、为什么付钱、怎么开口</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 205</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -119,9 +157,9 @@
         <a href="../p/discoveredmaterials.html">
           <div class="row-head">
             <span class="row-name">discoveredmaterials</span>
-            <span class="row-desc">用 AI agent 找新材料的实验室</span>
+            <span class="row-desc">用一群 AI 替半导体行业筛新材料，人只审最后能不能进实验室</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 143</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -129,9 +167,9 @@
         <a href="../p/continuum.html">
           <div class="row-head">
             <span class="row-name">Continuum</span>
-            <span class="row-desc">帮管理者记住每个下属的情况：说过什么、在意什么、答应过什么</span>
+            <span class="row-desc">帮管理者记下对每个下属的判断：说过什么、看到什么、信心怎么变</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 7</span>            </span>
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -139,9 +177,9 @@
         <a href="../p/veerhost.html">
           <div class="row-head">
             <span class="row-name">VeerHost</span>
-            <span class="row-desc">每月1美元的网页托管，名额有限。</span>
+            <span class="row-desc">网页托管首年每月一美元，用限量名额把先试一下的门槛压到接近零</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 7</span>            </span>
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -192,14 +230,14 @@
 
 <div class="wrap">
   <footer>
-    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>398 个产品 · 180 份深度分析</span>
+    <span>398 个案例 · 180 份生意判断</span>
     <span class="gen">数据截至 2026-08-22</span>
     <span>·</span>
-    <a href="../methodology.html">方法与口径</a>
+    <a href="../reports.html">判断档案</a>
     <span>·</span>
-    <a href="../takeaways.html">可借鉴</a>
+    <a href="../methodology.html">方法与口径</a>
     <span>·</span>
     <a href="../privacy.html">隐私与统计</a>
   </footer>

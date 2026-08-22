@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Insidedb · x-octo</title>
-<meta name="description" content="交互式动画讲解数据库内部原理">
+<meta name="description" content="插入一个键、拔一次电，亲眼看数据库怎么分裂节点、怎么把刚写入的数据救回来">
 <link rel="canonical" href="https://xocto.vercel.app/p/insidedb.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/insidedb.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/insidedb.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/insidedb.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Insidedb · x-octo">
-<meta property="og:description" content="交互式动画讲解数据库内部原理">
+<meta property="og:description" content="插入一个键、拔一次电，亲眼看数据库怎么分裂节点、怎么把刚写入的数据救回来">
 <meta property="og:url" content="https://xocto.vercel.app/p/insidedb.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · 全球 AI 应用雷达">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/insidedb.html#webpage", "@type": "WebPage", "description": "\u4ea4\u4e92\u5f0f\u52a8\u753b\u8bb2\u89e3\u6570\u636e\u5e93\u5185\u90e8\u539f\u7406", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Insidedb", "url": "https://xocto.vercel.app/p/insidedb.html"}, {"@id": "https://xocto.vercel.app/p/insidedb.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u6548\u7387", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "\u4ea4\u4e92\u5f0f\u52a8\u753b\u8bb2\u89e3\u6570\u636e\u5e93\u5185\u90e8\u539f\u7406", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/insidedb.html#webpage"}, "name": "Insidedb", "sameAs": "https://david-g-3654.github.io/insidedb/", "url": "https://xocto.vercel.app/p/insidedb.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u9996\u9875", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u5168\u90e8\u4ea7\u54c1", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/insidedb.html", "name": "Insidedb", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/insidedb.html#webpage", "@type": "WebPage", "description": "\u63d2\u5165\u4e00\u4e2a\u952e\u3001\u62d4\u4e00\u6b21\u7535\uff0c\u4eb2\u773c\u770b\u6570\u636e\u5e93\u600e\u4e48\u5206\u88c2\u8282\u70b9\u3001\u600e\u4e48\u628a\u521a\u5199\u5165\u7684\u6570\u636e\u6551\u56de\u6765", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Insidedb", "url": "https://xocto.vercel.app/p/insidedb.html"}, {"@id": "https://xocto.vercel.app/p/insidedb.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u6548\u7387", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "\u63d2\u5165\u4e00\u4e2a\u952e\u3001\u62d4\u4e00\u6b21\u7535\uff0c\u4eb2\u773c\u770b\u6570\u636e\u5e93\u600e\u4e48\u5206\u88c2\u8282\u70b9\u3001\u600e\u4e48\u628a\u521a\u5199\u5165\u7684\u6570\u636e\u6551\u56de\u6765", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/insidedb.html#webpage"}, "name": "Insidedb", "sameAs": "https://david-g-3654.github.io/insidedb/", "url": "https://xocto.vercel.app/p/insidedb.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/insidedb.html", "name": "Insidedb", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
 <link rel="preload" href="../fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -38,13 +38,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
-      <span class="brand-tag">全球 AI 应用雷达</span>
+      <span class="brand-tag">AI 应用的生意判断</span>
     </div>
     <nav class="nav">
-      <a href="../index.html" class="">首页</a>
-      <a href="../products.html" class="on">全部产品</a>
-      <a href="../takeaways.html" class="">可借鉴</a>
-      <a href="../reports.html" class="">每日观察</a>
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../en/p/insidedb.html" lang="en"
@@ -58,16 +57,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">全球 AI 应用雷达</p>
+    <p class="eyebrow">AI 应用的生意判断</p>
     <div class="pick-id">
       <h1>Insidedb</h1>
       <span class="verdict v-unproven">证据不足</span>
     </div>
 
-    <p class="lede">交互式动画讲解数据库内部原理</p>
+    <p class="lede">插入一个键、拔一次电，亲眼看数据库怎么分裂节点、怎么把刚写入的数据救回来</p>
 
     <div class="meta">
-      <span class="tag">刚冒头</span>
+<span class="tag sig">开始收费</span>      <span class="tag">刚冒头</span>
 <span class="tag">AI + 效率</span><span class="tag sig">社区热度 5</span>    </div>
 
     <div class="kv">
@@ -78,27 +77,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">值得借鉴的一点</span>
-      <p>把难懂的东西做成可交互的解释，是内容变产品最直接的一条路</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60 秒生意判断</p>
+        <h2>先决定它值不值得继续看</h2>
+      </div>
+      <span class="note">结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">一句判断</span>
+        <p>形式判断正确，但样本太小。 交互式解释器对&#34;复杂系统怎么运转&#34;这类知识几乎总是比文字更有效，这个方向没有疑问。问题是它只有四个主题、没有增长数据，也没有任何转化为产品/课程的迹象。</p>
+      </div>
       <div class="field">
-        <span class="field-k">它替人省掉了哪一步</span>
-        <p>以前学数据库内部原理，靠三样东西：教科书（静态图）、博客长文（ASCII 图和文字描述）、以及别人录的教学视频（只能看不能动）。</p>
+        <span class="field-k">商业模式</span>
+        <p>无。纯免费教育页面，无广告、无付费、无课程衍生。</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">可借鉴的做法</span>
+        <span class="field-k">进入窗口</span>
+        <p>趋势是难懂原理正在从文章变成可玩的东西。不要做完整课程平台，先切数据库、支付清算、仓储调度这种必须看见内部才放心的知识。此页免费，培训怎么卖未披露。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">接下来验证什么</span>
+        <p>① 主题数是否从 4 个继续增长——停在 4 个就是一次性作品，持续更新才谈得上产品; ② GitHub stars 三个月后是否破百; ③ 作者是否把它扩展成课程/付费内容，或至少公开后续计划</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">它替人省掉了哪一步</span>
+      <p>以前学数据库内部原理，靠三样东西：教科书（静态图）、博客长文（ASCII 图和文字描述）、以及别人录的教学视频（只能看不能动）。</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">换一个身份再看</p>
+        <h2>同一案例，对不同人意味着不同的下一步</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">如果你在创业</span>
         <p>内容逻辑：讲任何&#34;过程型&#34;知识（协议、算法、系统机制），先问一句&#34;这个能不能让读者亲手操作一步&#34;。能把&#34;看&#34;变成&#34;做&#34;，理解成本下降一个数量级，而且作品本身自带传播性——录屏比文字摘录好传播。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">窗口与风险</span>
+        <p>已经开始收费。下一步看谁在反复付钱，以及这点钱够不够撑住团队。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">跟你有没有关系</span>
+        <p>会改办公里重复的那几步：记、整理、交文档。</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60 秒生意判断 · 结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</p>
     <h2>一句话定位</h2>
 <p>一个把数据库内部原理做成可交互动画的网页——插入一个键，看 B 树怎么分裂；拔掉电源，看 WAL 怎么把数据救回来。用&quot;玩&quot;替代&quot;读&quot;，讲清楚 B 树、查询计划、预写日志和 MVCC 四个主题。</p>
 <h2>做这个东西的人</h2>
@@ -181,9 +216,9 @@
         <a href="../p/qm.html">
           <div class="row-head">
             <span class="row-name">qm</span>
-            <span class="row-desc">公司内部的多人 AI 助手，每个员工一个独立工作区</span>
+            <span class="row-desc">公司里每个员工一个隔离助手，频道里又能一起使唤同一个，记忆不串味。</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 13,884</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -191,9 +226,9 @@
         <a href="../p/genoffice.html">
           <div class="row-head">
             <span class="row-name">genoffice</span>
-            <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
+            <span class="row-desc">改材料的人让 AI 直接改 Word、表格和幻灯片内部，没动过的部分按原样保留</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 3,415</span>            </span>
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -201,9 +236,9 @@
         <a href="../p/cindy.html">
           <div class="row-head">
             <span class="row-name">cindy</span>
-            <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
+            <span class="row-desc">把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -211,9 +246,9 @@
         <a href="../p/needle2.html">
           <div class="row-head">
             <span class="row-name">Needle2</span>
-            <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
+            <span class="row-desc">对手机、手表说开灯，不必联网、不必等云端，本机几十毫秒就能做完。</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -264,14 +299,14 @@
 
 <div class="wrap">
   <footer>
-    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>398 个产品 · 180 份深度分析</span>
+    <span>398 个案例 · 180 份生意判断</span>
     <span class="gen">数据截至 2026-08-22</span>
     <span>·</span>
-    <a href="../methodology.html">方法与口径</a>
+    <a href="../reports.html">判断档案</a>
     <span>·</span>
-    <a href="../takeaways.html">可借鉴</a>
+    <a href="../methodology.html">方法与口径</a>
     <span>·</span>
     <a href="../privacy.html">隐私与统计</a>
   </footer>

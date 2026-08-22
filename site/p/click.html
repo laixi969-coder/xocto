@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Click · x-octo</title>
-<meta name="description" content="给 ChatGPT 和 Claude 喂实时的研究资料">
+<meta name="description" content="在对话里直接接入销售线索、竞品广告和机票这类普通搜索够不到的数据">
 <link rel="canonical" href="https://xocto.vercel.app/p/click.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/click.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/click.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/click.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Click · x-octo">
-<meta property="og:description" content="给 ChatGPT 和 Claude 喂实时的研究资料">
+<meta property="og:description" content="在对话里直接接入销售线索、竞品广告和机票这类普通搜索够不到的数据">
 <meta property="og:url" content="https://xocto.vercel.app/p/click.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · 全球 AI 应用雷达">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/click.html#webpage", "@type": "WebPage", "description": "\u7ed9 ChatGPT \u548c Claude \u5582\u5b9e\u65f6\u7684\u7814\u7a76\u8d44\u6599", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Click", "url": "https://xocto.vercel.app/p/click.html"}, {"@id": "https://xocto.vercel.app/p/click.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u6548\u7387", "dateModified": "2026-08-13", "datePublished": "2026-08-12", "description": "\u7ed9 ChatGPT \u548c Claude \u5582\u5b9e\u65f6\u7684\u7814\u7a76\u8d44\u6599", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/click.html#webpage"}, "name": "Click", "url": "https://xocto.vercel.app/p/click.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u9996\u9875", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u5168\u90e8\u4ea7\u54c1", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/click.html", "name": "Click", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/click.html#webpage", "@type": "WebPage", "description": "\u5728\u5bf9\u8bdd\u91cc\u76f4\u63a5\u63a5\u5165\u9500\u552e\u7ebf\u7d22\u3001\u7ade\u54c1\u5e7f\u544a\u548c\u673a\u7968\u8fd9\u7c7b\u666e\u901a\u641c\u7d22\u591f\u4e0d\u5230\u7684\u6570\u636e", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Click", "url": "https://xocto.vercel.app/p/click.html"}, {"@id": "https://xocto.vercel.app/p/click.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u6548\u7387", "dateModified": "2026-08-13", "datePublished": "2026-08-12", "description": "\u5728\u5bf9\u8bdd\u91cc\u76f4\u63a5\u63a5\u5165\u9500\u552e\u7ebf\u7d22\u3001\u7ade\u54c1\u5e7f\u544a\u548c\u673a\u7968\u8fd9\u7c7b\u666e\u901a\u641c\u7d22\u591f\u4e0d\u5230\u7684\u6570\u636e", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/click.html#webpage"}, "name": "Click", "url": "https://xocto.vercel.app/p/click.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/click.html", "name": "Click", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
 <link rel="preload" href="../fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -38,13 +38,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
-      <span class="brand-tag">全球 AI 应用雷达</span>
+      <span class="brand-tag">AI 应用的生意判断</span>
     </div>
     <nav class="nav">
-      <a href="../index.html" class="">首页</a>
-      <a href="../products.html" class="on">全部产品</a>
-      <a href="../takeaways.html" class="">可借鉴</a>
-      <a href="../reports.html" class="">每日观察</a>
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../en/p/click.html" lang="en"
@@ -58,16 +57,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">全球 AI 应用雷达</p>
+    <p class="eyebrow">AI 应用的生意判断</p>
     <div class="pick-id">
       <h1>Click</h1>
       <span class="verdict v-unproven">证据不足</span>
     </div>
 
-    <p class="lede">给 ChatGPT 和 Claude 喂实时的研究资料</p>
+    <p class="lede">在对话里直接接入销售线索、竞品广告和机票这类普通搜索够不到的数据</p>
 
     <div class="meta">
-      <span class="tag">刚冒头</span>
+<span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
 <span class="tag">AI + 效率</span>    </div>
 
     <div class="kv">
@@ -77,27 +76,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">值得借鉴的一点</span>
-      <p>通用模型缺的不是能力是当下的上下文，卖上下文比卖模型的生意更稳</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60 秒生意判断</p>
+        <h2>先决定它值不值得继续看</h2>
+      </div>
+      <span class="note">结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">一句判断</span>
+        <p>方向正确，但这是&#34;卖上下文&#34;赛道里的早期小玩家，现在下结论为时过早。</p>
+      </div>
       <div class="field">
-        <span class="field-k">它替人省掉了哪一步</span>
-        <p>以前用 agent 做外部调研有两种尴尬：一是内置联网搜索太浅，拿不到领英、专业平台、市场这类需要登录或结构化的数据，agent 会答非所问或编；二是 agent 提出&#34;借你登录好的浏览器去查&#34;，用户要么把登录态交给 agent（安全上不舒服），要么自己去浏览器查完再贴回来——最重的一步还是人在做。</p>
+        <span class="field-k">商业模式</span>
+        <p>未披露。 没有定价页，没有公开套餐，只有 ProductHunt / YC 发布页。</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">可借鉴的做法</span>
+        <span class="field-k">进入窗口</span>
+        <p>趋势是通用模型缺的不是聪明，是当下搜不到的业务数据。切入先做销售找线索、投放监竞品这种必须盯外部数据的步骤，连接免费、增值数据再订阅；收费未披露。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">接下来验证什么</span>
+        <p>① 连接器数量和品类三个月后是否在扩张（现在只有研究类）——单一场景撑不起订阅; ② 是否公开定价与付费用户数——没有收入模型的产品停留在这个阶段没有意义; ③ 领英线索这类连接器是否有第三方评测或大客户公开采用</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">它替人省掉了哪一步</span>
+      <p>以前用 agent 做外部调研有两种尴尬：一是内置联网搜索太浅，拿不到领英、专业平台、市场这类需要登录或结构化的数据，agent 会答非所问或编；二是 agent 提出&#34;借你登录好的浏览器去查&#34;，用户要么把登录态交给 agent（安全上不舒服），要么自己去浏览器查完再贴回来——最重的一步还是人在做。</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">换一个身份再看</p>
+        <h2>同一案例，对不同人意味着不同的下一步</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">如果你在创业</span>
         <p>产品逻辑：给 AI 产品补&#34;当下上下文&#34;时，先找&#34;内置搜索够不到、又需要登录态&#34;的那条缝（如领英、交易数据、票务），比做通用搜索增值更讨巧——通用的部分大厂会做，缝隙才轮得到你。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">窗口与风险</span>
+        <p>还不是一门生意。可以当信号看，不要当成公司看。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">跟你有没有关系</span>
+        <p>会改办公里重复的那几步：记、整理、交文档。</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60 秒生意判断 · 结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</p>
     <h2>一句话定位</h2>
 <p>一个装在 ChatGPT / Claude / Codex 里的 MCP 连接层：把内置联网搜索够不到的数据
 （领英上的销售线索、竞品广告投放、社媒情绪、实时机票）以连接器的形式直接喂给 agent，
@@ -189,9 +224,9 @@
         <a href="../p/qm.html">
           <div class="row-head">
             <span class="row-name">qm</span>
-            <span class="row-desc">公司内部的多人 AI 助手，每个员工一个独立工作区</span>
+            <span class="row-desc">公司里每个员工一个隔离助手，频道里又能一起使唤同一个，记忆不串味。</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 13,884</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -199,9 +234,9 @@
         <a href="../p/genoffice.html">
           <div class="row-head">
             <span class="row-name">genoffice</span>
-            <span class="row-desc">免费开源的AI办公套件，支持Word、Excel、PPT、PDF和Markdown编辑。</span>
+            <span class="row-desc">改材料的人让 AI 直接改 Word、表格和幻灯片内部，没动过的部分按原样保留</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 3,415</span>            </span>
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -209,9 +244,9 @@
         <a href="../p/cindy.html">
           <div class="row-head">
             <span class="row-name">cindy</span>
-            <span class="row-desc">开箱即用的开源 AI agent，装完就能干活</span>
+            <span class="row-desc">把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">开源关注 1,995</span>            </span>
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -219,9 +254,9 @@
         <a href="../p/needle2.html">
           <div class="row-head">
             <span class="row-name">Needle2</span>
-            <span class="row-desc">14MB 的 agent 模型，能跑在手机、穿戴设备、智能家居和机器人上</span>
+            <span class="row-desc">对手机、手表说开灯，不必联网、不必等云端，本机几十毫秒就能做完。</span>
             <span class="row-tail">
-<span class="tag">已分析</span><span class="tag sig">社区热度 509</span>            </span>
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
@@ -272,14 +307,14 @@
 
 <div class="wrap">
   <footer>
-    <span>x-octo · 全球 AI 应用雷达</span>
+    <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>398 个产品 · 180 份深度分析</span>
+    <span>398 个案例 · 180 份生意判断</span>
     <span class="gen">数据截至 2026-08-22</span>
     <span>·</span>
-    <a href="../methodology.html">方法与口径</a>
+    <a href="../reports.html">判断档案</a>
     <span>·</span>
-    <a href="../takeaways.html">可借鉴</a>
+    <a href="../methodology.html">方法与口径</a>
     <span>·</span>
     <a href="../privacy.html">隐私与统计</a>
   </footer>

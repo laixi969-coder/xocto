@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Git-knife · x-octo</title>
-<meta name="description" content="Edit commit messages, authors, and dates like a spreadsheet">
+<meta name="description" content="Edit a commit&#39;s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/git-knife.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/git-knife.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/git-knife.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/git-knife.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Git-knife · x-octo">
-<meta property="og:description" content="Edit commit messages, authors, and dates like a spreadsheet">
+<meta property="og:description" content="Edit a commit&#39;s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/git-knife.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · Global AI product radar">
+<meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage", "@type": "WebPage", "description": "Edit commit messages, authors, and dates like a spreadsheet", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@id": "https://xocto.vercel.app/en/p/git-knife.html#software", "@type": "SoftwareApplication", "applicationCategory": "", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Edit commit messages, authors, and dates like a spreadsheet", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Home", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Products", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/git-knife.html", "name": "Git-knife", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage", "@type": "WebPage", "description": "Edit a commit\u0027s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@id": "https://xocto.vercel.app/en/p/git-knife.html#software", "@type": "SoftwareApplication", "applicationCategory": "", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Edit a commit\u0027s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/git-knife.html", "name": "Git-knife", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
 <link rel="preload" href="../../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
@@ -37,13 +37,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
-      <span class="brand-tag">Global AI product radar</span>
+      <span class="brand-tag">Business judgment on AI products</span>
     </div>
     <nav class="nav">
-      <a href="../../index.html" class="">Home</a>
-      <a href="../../products.html" class="on">Products</a>
-      <a href="../../takeaways.html" class=""></a>
-      <a href="../../reports.html" class="">Daily</a>
+      <a href="../../index.html" class="">Today</a>
+      <a href="../../products.html" class="on">Opportunity map</a>
+      <a href="../../takeaways.html" class="">Playbook</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../../p/git-knife.html" lang="zh-CN"
@@ -57,16 +56,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">Global AI product radar</p>
+    <p class="eyebrow">Business judgment on AI products</p>
     <div class="pick-id">
       <h1>Git-knife</h1>
       <span class="verdict v-notable">Keep watching</span>
     </div>
 
-    <p class="lede">Edit commit messages, authors, and dates like a spreadsheet</p>
+    <p class="lede">Edit a commit&#39;s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.</p>
 
     <div class="meta">
-      <span class="tag">Early</span>
+<span class="tag sig">Not a business yet</span>      <span class="tag">Early</span>
 <span class="tag sig">Community score 143</span>    </div>
 
     <div class="kv">
@@ -76,27 +75,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">A useful idea here</span>
-      <p>Turning what everyone assumes is impossible into a GUI — the capabilities mainstream tools deliberately give up are open market gaps.</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60-second business read</p>
+        <h2>Decide if this deserves more of your time</h2>
+      </div>
+      <span class="note">Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">The call</span>
+        <p>A textbook sample of &#34;polish the dirty job nobody wants,&#34; and it happens to catch the new pain of the AI era.</p>
+      </div>
       <div class="field">
-        <span class="field-k">The step it removes</span>
-        <p>Editing git history used to mean choosing between two broken options:</p>
+        <span class="field-k">Business model</span>
+        <p>None. Indie open-source project, no pricing, no sponsorship, no hosted service. The README also declares no open-source license (the GitHub API&#39;s license field is null).</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">What to borrow</span>
+        <span class="field-k">Entry window</span>
+        <p>The trend is that dirty jobs mainstream tools refuse are becoming new products. Don&#39;t build a full history editor. Start with fixing emails, aligning historical dates, and cleaning identities AI scrambled — a desktop knife that can undo. Pricing is undisclosed.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">What to validate next</span>
+        <p>① Whether stars cross 1,000 in three months — a measure of how big the &#34;abandoned corner&#34; demand really is; ② Whether a license appears — the switch from personal tool to production tool; ③ Whether a full rebase UI ships (drag reorder / squash / reassignment) — whether it stays narrow or grows towar…</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">The step it removes</span>
+      <p>Editing git history used to mean choosing between two broken options:</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Change the lens</p>
+        <h2>One case creates a different next move for each reader</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">If you&#39;re building</span>
         <p>Product logic: any operation &#34;everyone assumes is impossible&#34; is worth validating — often nobody just did it well. List the fields/capabilities mainstream tools deliberately abandon; that is the white…</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Window and risk</span>
+        <p>Not a business yet. Treat it as a signal, not a company.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Does it touch you</span>
+        <p>This is plumbing. You won&#39;t open it, but later apps may sit on it.</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60-second business read · Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</p>
     <h2>What it is in one line</h2>
 <p>A desktop app that edits git commit metadata like a spreadsheet — commit messages, author name/email, author date, committer date, all editable, with bulk find-and-replace. A scalpel GUI for operating on git history.</p>
 <h2>Who built it</h2>
@@ -184,9 +219,9 @@
         <a href="../../p/writemd.html">
           <div class="row-head">
             <span class="row-name">Write.md</span>
-            <span class="row-desc">A free, open-source, themeable Markdown editor for macOS</span>
+            <span class="row-desc">A free Mac writing board that sells no preset themes—you tune fonts, background, and transparency yourself.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 86</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -194,9 +229,9 @@
         <a href="../../p/keet-yc-s24.html">
           <div class="row-head">
             <span class="row-name">Keet (YC S24)</span>
-            <span class="row-desc">An app to create video courses on anything</span>
+            <span class="row-desc">Type any topic and get a course map with short videos and quizzes, so learners stop assembling the order themselves.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Community score 42</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -247,14 +282,14 @@
 
 <div class="wrap">
   <footer>
-    <span>x-octo · Global AI product radar</span>
+    <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>398 products · 180 deep dives</span>
+    <span>398 cases · 180 business reads</span>
     <span class="gen">Data through 2026-08-22</span>
     <span>·</span>
-    <a href="../../methodology.html">Methodology</a>
+    <a href="../../reports.html">Calls archive</a>
     <span>·</span>
-    <a href="../../takeaways.html"></a>
+    <a href="../../methodology.html">Methodology</a>
     <span>·</span>
     <a href="../../privacy.html">Privacy &amp; analytics</a>
   </footer>

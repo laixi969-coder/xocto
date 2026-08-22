@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>artificialanalysis · x-octo</title>
-<meta name="description" content="Create custom benchmarks to evaluate AI models for specific use cases.">
+<meta name="description" content="Tests models on your own tasks, then shows score, cost, and speed instead of asking you to pick from a public leaderboard.">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/artificialanalysis.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/artificialanalysis.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/artificialanalysis.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/artificialanalysis.html">
@@ -14,12 +14,12 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="artificialanalysis · x-octo">
-<meta property="og:description" content="Create custom benchmarks to evaluate AI models for specific use cases.">
+<meta property="og:description" content="Tests models on your own tasks, then shows score, cost, and speed instead of asking you to pick from a public leaderboard.">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/artificialanalysis.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
-<meta property="og:image:alt" content="x-octo · Global AI product radar">
+<meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/artificialanalysis.html#webpage", "@type": "WebPage", "description": "Create custom benchmarks to evaluate AI models for specific use cases.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "artificialanalysis", "url": "https://xocto.vercel.app/en/p/artificialanalysis.html"}, {"@id": "https://xocto.vercel.app/en/p/artificialanalysis.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-14", "description": "Create custom benchmarks to evaluate AI models for specific use cases.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/artificialanalysis.html#webpage"}, "name": "artificialanalysis", "sameAs": "https://artificialanalysis.ai/optima", "url": "https://xocto.vercel.app/en/p/artificialanalysis.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Home", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Products", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/artificialanalysis.html", "name": "artificialanalysis", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/artificialanalysis.html#webpage", "@type": "WebPage", "description": "Tests models on your own tasks, then shows score, cost, and speed instead of asking you to pick from a public leaderboard.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "artificialanalysis", "url": "https://xocto.vercel.app/en/p/artificialanalysis.html"}, {"@id": "https://xocto.vercel.app/en/p/artificialanalysis.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-14", "description": "Tests models on your own tasks, then shows score, cost, and speed instead of asking you to pick from a public leaderboard.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/artificialanalysis.html#webpage"}, "name": "artificialanalysis", "sameAs": "https://artificialanalysis.ai/optima", "url": "https://xocto.vercel.app/en/p/artificialanalysis.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/artificialanalysis.html", "name": "artificialanalysis", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css">
 <link rel="preload" href="../../fonts/inter-600-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../fonts/inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
 <script>
@@ -37,13 +37,12 @@
   <div class="top-inner">
     <div class="brand-block">
       <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
-      <span class="brand-tag">Global AI product radar</span>
+      <span class="brand-tag">Business judgment on AI products</span>
     </div>
     <nav class="nav">
-      <a href="../../index.html" class="">Home</a>
-      <a href="../../products.html" class="on">Products</a>
-      <a href="../../takeaways.html" class=""></a>
-      <a href="../../reports.html" class="">Daily</a>
+      <a href="../../index.html" class="">Today</a>
+      <a href="../../products.html" class="on">Opportunity map</a>
+      <a href="../../takeaways.html" class="">Playbook</a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="../../p/artificialanalysis.html" lang="zh-CN"
@@ -57,16 +56,16 @@
 <div class="wrap">
 
   <header class="detail-head">
-    <p class="eyebrow">Global AI product radar</p>
+    <p class="eyebrow">Business judgment on AI products</p>
     <div class="pick-id">
       <h1>artificialanalysis</h1>
       <span class="verdict v-notable">Keep watching</span>
     </div>
 
-    <p class="lede">Create custom benchmarks to evaluate AI models for specific use cases.</p>
+    <p class="lede">Tests models on your own tasks, then shows score, cost, and speed instead of asking you to pick from a public leaderboard.</p>
 
     <div class="meta">
-      <span class="tag">Early</span>
+<span class="tag sig">Started charging</span>      <span class="tag">Early</span>
 <span class="tag">Infrastructure</span><span class="tag sig">Community score 10</span>    </div>
 
     <div class="kv">
@@ -77,27 +76,63 @@
     </div>
   </header>
 
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">A useful idea here</span>
-      <p>Custom benchmarks make model evaluation more relevant to real business, transferable to vertical selection.</p>
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60-second business read</p>
+        <h2>Decide if this deserves more of your time</h2>
+      </div>
+      <span class="note">Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</span>
     </div>
-  </section>
-
-  <section class="band">
-    <div class="summary-grid">
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">The call</span>
+        <p>This turns &#34;evaluation&#34; from a public good into a private instrument. Public leaderboards compare across the whole field; Optima compares down one axis — &#34;who is best on your task.&#34; The two do not conflict; Optima actually feeds the leaderboards more users who want to get their hands dirty.</p>
+      </div>
       <div class="field">
-        <span class="field-k">The step it removes</span>
-        <p>Two paths, both bad.</p>
+        <span class="field-k">Business model</span>
+        <p>Usage-based: benchmarks are billed at the raw token cost of the models used, &#34;with nothing added; on top&#34; (their words); rubric grading is $0.125 per criterion per model; pairwise grading is; $0.375 per match. A credit hold is taken against…</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">What to borrow</span>
+        <span class="field-k">Entry window</span>
+        <p>The trend is model choice moving from public boards to tests on your actual work. The entry is vendor selection before a company buys: same job, compared on accuracy, price, and latency, billed per run — not another public ranking.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">What to validate next</span>
+        <p>① Whether Optima publishes growth numbers for paid evaluations in three months (benchmarks run,; enterprise customers); ② Whether results can be exported as reproducible reports — grading method, judge models, version; numbers — since that decides whether enterprises adopt it in formal selection; ③ …</p>
+      </div>
+    </div>
+    <div class="decision-replaces field">
+      <span class="field-k">The step it removes</span>
+      <p>Two paths, both bad.</p>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">Change the lens</p>
+        <h2>One case creates a different next move for each reader</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field field-take">
+        <span class="field-k">If you&#39;re building</span>
         <p>Product logic: if you build anything that &#34;helps the user decide,&#34; give the decision back to the user&#39;s concrete task instead of offering an average. Averages drive traffic; private evaluations earn t…</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Window and risk</span>
+        <p>It has started charging. Next: who pays twice, and whether that covers a team.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Does it touch you</span>
+        <p>This is plumbing. You won&#39;t open it, but later apps may sit on it.</p>
       </div>
     </div>
   </section>
 
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">60-second business read · Keep the call separate from its evidence: these four prompts guide your next move; the full read keeps the reasoning and counterevidence.</p>
     <h2>What it is in one line</h2>
 <p>Instead of picking models by a generic leaderboard, you build a benchmark around your own
 task, run it, and read off score, cost, and latency per model — turning model selection from
@@ -229,9 +264,9 @@ been proven. Write it down and come back against the three checks above.</p>
         <a href="../../p/deepseek-harness.html">
           <div class="row-head">
             <span class="row-name">deepseek-harness</span>
-            <span class="row-desc">DeepSeek&#39;s official plugin framework, everything is a plugin.</span>
+            <span class="row-desc">DeepSeek splits an assistant&#39;s tools, memory, and interface into swappable add-ons that run on your own computer.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 433</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -239,9 +274,9 @@ been proven. Write it down and come back against the three checks above.</p>
         <a href="../../p/open-kimi-ppt-skill.html">
           <div class="row-head">
             <span class="row-name">open-kimi-ppt-skill</span>
-            <span class="row-desc">Unofficial Kimi Slides skill that generates editable decks and ships a local editor.</span>
+            <span class="row-desc">It once let an assistant output a slide deck you could keep editing, then the whole library was wiped for copyright.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 1,599</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -249,9 +284,9 @@ been proven. Write it down and come back against the three checks above.</p>
         <a href="../../p/numbat.html">
           <div class="row-head">
             <span class="row-name">numbat</span>
-            <span class="row-desc">Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.</span>
+            <span class="row-desc">See what an assistant did on a company computer, block it if needed, and reconstruct the whole episode afterwards.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 919</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -259,9 +294,9 @@ been proven. Write it down and come back against the three checks above.</p>
         <a href="../../p/longhorizon-harness.html">
           <div class="row-head">
             <span class="row-name">LongHorizon-Harness</span>
-            <span class="row-desc">The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workflows. Features fresh-context execution, durable verified state, independent auditing, recoverable progress, and native Claude Code / Codex / OpenClaw integration.</span>
+            <span class="row-desc">AI can drive a computer for hours while progress lives on a checkable ledger, not in the model&#39;s claim that it finished.</span>
             <span class="row-tail">
-<span class="tag">Analyzed</span><span class="tag sig">Open-source traction 864</span>            </span>
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
           </div>
         </a>
       </li>
@@ -312,14 +347,14 @@ been proven. Write it down and come back against the three checks above.</p>
 
 <div class="wrap">
   <footer>
-    <span>x-octo · Global AI product radar</span>
+    <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>398 products · 180 deep dives</span>
+    <span>398 cases · 180 business reads</span>
     <span class="gen">Data through 2026-08-22</span>
     <span>·</span>
-    <a href="../../methodology.html">Methodology</a>
+    <a href="../../reports.html">Calls archive</a>
     <span>·</span>
-    <a href="../../takeaways.html"></a>
+    <a href="../../methodology.html">Methodology</a>
     <span>·</span>
     <a href="../../privacy.html">Privacy &amp; analytics</a>
   </footer>
