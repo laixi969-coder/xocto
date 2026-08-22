@@ -28,15 +28,8 @@
 <meta name="robots" content="index,follow,max-image-preview:large">
 {% if schema %}<script type="application/ld+json">{{ schema | tojson }}</script>{% endif %}
 <link rel="stylesheet" href="{{ root }}style.css">
-{# 首屏字体提前取：不预加载的话要等 CSS 解析完才开始下载，
-   font-display: swap 就会在全页最大的标题上闪一次。
-   中文子集只有中文站预加载 —— 英文标题走 Inter（无衬线），30 个中文产品名
-   仍在字体栈里，需要时浏览器自己会去取，不必让每个英文页面都先付这笔钱 #}
-{% if locale.key == 'zh' %}
-<link rel="preload" href="{{ root }}fonts/noto-sans-sc-700-subset.woff2" as="font" type="font/woff2">
-{% endif %}
-<link rel="preload" href="{{ root }}fonts/inter-600-latin.woff2" as="font" type="font/woff2">
-<link rel="preload" href="{{ root }}fonts/inter-400-latin.woff2" as="font" type="font/woff2">
+{# 字体由样式表按实际使用加载。静态 file:// 预览与线上 CORS 预加载的凭据模式不同，
+   强行预加载只会重复请求并在其中一端产生控制台警告。 #}
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');

@@ -266,11 +266,11 @@ class PublishabilityTests(unittest.TestCase):
         consent_rule = css.split(".analytics-consent", 1)[1].split("}", 1)[0]
         self.assertNotIn("position: fixed", consent_rule)
 
-    def test_local_static_site_does_not_preload_same_origin_fonts_as_cross_origin(self) -> None:
+    def test_static_site_has_no_conflicting_font_preloads(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "base.html").read_text(
             encoding="utf-8"
         )
-        self.assertNotIn('type="font/woff2" crossorigin', template)
+        self.assertNotIn('as="font"', template)
 
     def test_stale_generated_page_is_removed(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
