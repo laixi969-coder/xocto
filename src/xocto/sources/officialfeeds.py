@@ -5,6 +5,7 @@
 
 from __future__ import annotations
 
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import html
 import re
@@ -17,11 +18,11 @@ from .base import Http, HttpError, parse_iso, register, to_iso
 
 _TAG = re.compile(r"<[^>]+>")
 DEFAULT_LOOKBACK_HOURS = 72
+DEFAULT_MAX_PARALLEL_FEEDS = 6
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
-@register("officialfeeds")
-def fetch(cfg: dict, http: Http) -> list[RawItem]:
+def _fetch(cfg: dict, http: Http, *, source: str, default_official: bool) -> list[RawItem]:
     feeds = cfg.get("feeds") or []
     lookback = float(cfg.get("lookback_hours") or DEFAULT_LOOKBACK_HOURS)
     since = datetime.now(timezone.utc) - timedelta(hours=lookback)
@@ -29,32 +30,65 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
     items: list[RawItem] = []
     seen: set[str] = set()
 
-    for spec in feeds:
-        if not isinstance(spec, dict):
-            continue
-        name = str(spec.get("name") or "").strip()
-        url = str(spec.get("url") or "").strip()
-        official = True if "official" not in spec else bool(spec.get("official"))
-        if not name or not url:
-            continue
-        try:
-            root = ET.fromstring(http.get_text(url))
-        except (ET.ParseError, OSError, HttpError) as exc:
-            print(f"    ! 源「{name}」解析失败：{exc}")
-            continue
-        count = 0
-        for row in _entries(root):
-            item = _parse_entry(row, name, collected, official=official)
-            if item is None or item.external_id in seen:
+    specs = [spec for spec in feeds if isinstance(spec, dict)]
+    max_workers = max(
+        1, min(int(cfg.get("max_parallel_feeds") or DEFAULT_MAX_PARALLEL_FEEDS), len(specs) or 1)
+    )
+    # 源彼此独立：并行让一两个慢源不会占满每日发布窗口。map 按配置顺序返回，
+    # 所以原始存档和日报仍然可复现，不会因网络快慢改变顺序。
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        results = executor.map(
+            lambda spec: _fetch_feed(spec, http, source, default_official, since, collected), specs
+        )
+        for name, rows, error in results:
+            if error:
+                print(f"    ! 源「{name}」解析失败：{error}")
                 continue
-            published = parse_iso(item.published_at)
-            if published is None or published < since:
-                continue
-            seen.add(item.external_id)
-            items.append(item)
-            count += 1
-        print(f"    [{name}] {count} 条")
+            count = 0
+            for item in rows:
+                if item.external_id in seen:
+                    continue
+                seen.add(item.external_id)
+                items.append(item)
+                count += 1
+            print(f"    [{name}] {count} 条")
     return items
+
+
+def _fetch_feed(
+    spec: dict, http: Http, source: str, default_official: bool, since: datetime, collected: str
+) -> tuple[str, list[RawItem], str]:
+    name = str(spec.get("name") or "").strip()
+    url = str(spec.get("url") or "").strip()
+    official = default_official if "official" not in spec else bool(spec.get("official"))
+    if not name or not url:
+        return name or "未命名", [], "缺少 name 或 url"
+    try:
+        root = ET.fromstring(http.get_text(url))
+    except (ET.ParseError, OSError, HttpError) as exc:
+        return name, [], str(exc)
+
+    rows: list[RawItem] = []
+    for row in _entries(root):
+        item = _parse_entry(row, name, collected, source=source, official=official)
+        if item is None:
+            continue
+        published = parse_iso(item.published_at)
+        if published is not None and published >= since:
+            rows.append(item)
+    return name, rows, ""
+
+
+@register("officialfeeds")
+def fetch(cfg: dict, http: Http) -> list[RawItem]:
+    """公司、基础设施与模型方的一手更新。"""
+    return _fetch(cfg, http, source="officialfeeds", default_official=True)
+
+
+@register("marketfeeds")
+def fetch_market(cfg: dict, http: Http) -> list[RawItem]:
+    """独立研究、开发者观察与行业媒体；与公司公告分开计数和健康检查。"""
+    return _fetch(cfg, http, source="marketfeeds", default_official=False)
 
 
 def _entries(root: ET.Element) -> list[ET.Element]:
@@ -62,7 +96,7 @@ def _entries(root: ET.Element) -> list[ET.Element]:
 
 
 def _parse_entry(
-    entry: ET.Element, publisher: str, collected: str, *, official: bool = True
+    entry: ET.Element, publisher: str, collected: str, *, source: str, official: bool = True
 ) -> RawItem | None:
     atom = entry.tag == f"{ATOM}entry"
     title = _text(entry.find(f"{ATOM}title" if atom else "title"))
@@ -84,7 +118,7 @@ def _parse_entry(
     summary = _clean(_text(entry.find(f"{ATOM}summary" if atom else "description")) or _text(entry.find(f"{ATOM}content")))
     external_id = hashlib.sha1(link.encode("utf-8")).hexdigest()[:20]
     return RawItem(
-        source="officialfeeds",
+        source=source,
         external_id=external_id,
         title=title,
         url=link,

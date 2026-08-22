@@ -1,8 +1,8 @@
 name: 每日采集
 
 # 每天北京时间早上 6:17 跑一次。
-# 时间点是倒推出来的：读者要在早上 7 点看到写好的简报，而写简报的那一步
-# （Codex 自动任务，见 README「每天怎么自动更新」）在 7 点整触发。
+# 时间点是倒推出来的：读者要在早上 7 点看到写好的简报，所以采集、判断、建站
+# 都在同一个工作流里连续完成；不能依赖某台电脑或另一条人工触发的任务。
 # 不放在整点：GitHub 官方明确说整点负载最高，定时容易迟到甚至被丢弃。
 # 代价说清楚：6:17 对应美西前一天下午，Product Hunt 当天的榜单
 # 还差几个小时才收摊，票数比原来 9 点那版更"生"一点。
@@ -46,6 +46,9 @@ jobs:
         run: uv run xocto collect
         env:
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          # Actions 内置的短期 token 提升 GitHub 搜索限额，让关键词、专题、发布方
+          # 和 Release 能同时跑完；它只在本次 runner 内可见。
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: 清掉过老的原始存档
         run: uv run xocto prune --keep-days 30

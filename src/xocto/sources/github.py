@@ -3,12 +3,13 @@
 开源项目常常比闭源产品早半年暴露出一个方向能不能成 —— 一个开发者工具
 在 GitHub 上爆了，通常意味着半年后会有一批公司围着它做商业化。
 
-走公共 Search API。匿名限流是每分钟 10 次，我们一天跑几次，够用。
-如果哪天要提额度再加 token（那时才需要密钥）。
+走 GitHub Search API。每日 Actions 用内置的短期 token，避免更宽的关键词、专题、
+发布方和 Release 巡检互相挤掉；本地无 token 时仍可匿名运行。
 """
 
 from __future__ import annotations
 
+import os
 from dataclasses import replace
 from datetime import date, datetime, timedelta, timezone
 
@@ -25,6 +26,20 @@ DEFAULT_MIN_STARS = 40
 DEFAULT_RELEASE_LOOKBACK_HOURS = 72
 
 
+def _api_headers() -> dict[str, str]:
+    """GitHub Actions 有短期 token 时用它，扩大检索面但不要求本地配置密钥。
+
+    匿名 Search API 的限额很低；一旦关键词、专题和发布方共同跑起来，后面的
+    查询会被限流，所谓“扩大来源”反而只剩前几条查询。Actions 内置的 token
+    只在运行期存在，绝不写入数据、日志或仓库；本地没设时照旧走匿名 API。
+    """
+    headers = {"Accept": "application/vnd.github+json"}
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
 @register("github")
 def fetch(cfg: dict, http: Http) -> list[RawItem]:
     queries = cfg.get("queries") or []
@@ -37,6 +52,7 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
 
     collected = now_iso()
     by_id: dict[str, RawItem] = {}
+    headers = _api_headers()
 
     def add(repo: dict, path: str, *, priority_review: bool = False) -> None:
         item = _parse_repo(repo, collected)
@@ -71,7 +87,7 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
             payload = http.get_json(
                 API,
                 params={"q": query, "sort": "stars", "order": "desc", "per_page": per_page},
-                headers={"Accept": "application/vnd.github+json"},
+                headers=headers,
             )
         except HttpError as exc:
             # 匿名调用很容易撞限流，单个查询失败不该拖垮其他发现通道。
@@ -119,7 +135,7 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
             repos = http.get_json(
                 f"{ORGS_API}/{organization}/repos",
                 params={"type": "sources", "sort": "created", "direction": "desc", "per_page": MAX_PER_PAGE},
-                headers={"Accept": "application/vnd.github+json"},
+                headers=headers,
             )
         except HttpError as exc:
             print(f"    ! 官方组织「{organization}」失败：{exc}")
@@ -144,7 +160,7 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
         try:
             release = http.get_json(
                 f"{REPOS_API}/{repository}/releases/latest",
-                headers={"Accept": "application/vnd.github+json"},
+                headers=headers,
             )
         except HttpError as exc:
             print(f"    ! 官方 Release「{repository}」失败：{exc}")

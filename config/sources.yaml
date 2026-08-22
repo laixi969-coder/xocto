@@ -56,7 +56,8 @@ sources:
         min_points: 20
 
   # GitHub 新建仓库里涨星快的。开源项目往往比闭源产品早半年
-  # 暴露出一个方向能不能成。走公共 Search API，匿名有速率限制但够用。
+  # 暴露出一个方向能不能成。每日 Actions 用短期 GITHUB_TOKEN 扩大搜索面；
+  # 本地未配置时自动退回匿名 API，功能不受阻。
   github:
     enabled: true
     created_within_days: 21
@@ -69,12 +70,22 @@ sources:
       - "mcp server"
       - "coding agent"
       - "ai video"
+      - "ai voice"
+      - "ai search"
+      - "ai education"
+      - "ai healthcare"
+      - "ai legal"
+      - "ai sales"
     # 第二条发现链路：专题不会受项目名称和营销文案影响。新专题在发现漏口后加进来。
     topics:
       - "dsh"
       - "dsh-plugin"
       - "mcp"
       - "ai-agents"
+      - "ai-coding"
+      - "ai-search"
+      - "generative-ai"
+      - "computer-use"
     # 第三条发现链路：发布几天内已经爆发的项目无论关键词为何都必须复核。
     breakout:
       enabled: true
@@ -99,6 +110,11 @@ sources:
       - "mistralai/client-python"
       - "ollama/ollama"
       - "ggerganov/llama.cpp"
+      - "google-gemini/generative-ai-python"
+      - "cohere-ai/cohere-python"
+      - "microsoft/semantic-kernel"
+      - "run-llama/llama_index"
+      - "langgenius/dify"
 
   # Hugging Face Hub。公开 API 不需要密钥；Spaces 偏应用，Models 偏基础能力。
   # 只收近期新建、且已有最低社区信号的项目，避免把镜像和试验仓库塞满产品池。
@@ -114,11 +130,12 @@ sources:
       min_likes: 5
       min_downloads: 50
 
-  # 一手博客、changelog、独立作者与公开平台。全部只补充日报背景，不进产品池。
-  # official: false 的是独立观察；缺省为公司一手。站上不出现这些名字。
+  # 公司一手博客和 changelog。全部只补充日报背景，不进产品池。
+  # 与市场观察分开统计：公司更新源全挂不应掩盖独立研究源的故障，反之亦然。
   officialfeeds:
     enabled: true
     lookback_hours: 72
+    max_parallel_feeds: 6
     feeds:
       - name: "OpenAI"
         url: "https://openai.com/news/rss.xml"
@@ -142,48 +159,41 @@ sources:
         url: "https://machinelearning.apple.com/rss.xml"
       - name: "GitHub AI"
         url: "https://github.blog/ai-and-ml/feed/"
+
+  # 独立研究、开发者观察与行业媒体：补齐产品平台和代码库天然覆盖不到的
+  # 采用、分发、成本与市场结构信号。它们不是公司公告，也不直接当作产品。
+  # 采集器默认标为 independent，健康检查会作为单独的 marketfeeds 源报警。
+  marketfeeds:
+    enabled: true
+    lookback_hours: 72
+    max_parallel_feeds: 6
+    feeds:
       - name: "Latent Space"
         url: "https://www.latent.space/feed"
-        official: false
       - name: "One Useful Thing"
         url: "https://www.oneusefulthing.org/feed"
-        official: false
       - name: "Interconnects"
         url: "https://www.interconnects.ai/feed"
-        official: false
       - name: "Import AI"
         url: "https://importai.substack.com/feed"
-        official: false
-      - name: "Ben's Bites"
-        url: "https://www.bensbites.com/feed"
-        official: false
       - name: "Understanding AI"
         url: "https://www.understandingai.org/feed"
-        official: false
       - name: "Benedict Evans"
         url: "https://www.ben-evans.com/benedictevans?format=rss"
-        official: false
       - name: "Exponential View"
         url: "https://www.exponentialview.co/feed"
-        official: false
       - name: "SemiAnalysis"
         url: "https://www.semianalysis.com/feed"
-        official: false
       - name: "TechCrunch AI"
         url: "https://techcrunch.com/category/artificial-intelligence/feed/"
-        official: false
       - name: "The Verge AI"
         url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-        official: false
       - name: "MIT Technology Review AI"
         url: "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
-        official: false
-      - name: "QbitAI"
-        url: "https://www.qbitai.com/feed"
-        official: false
       - name: "a16z"
         url: "https://feeds.feedburner.com/AndreessenHorowitz"
-        official: false
+      - name: "Simon Willison"
+        url: "https://simonwillison.net/atom/everything/"
 
   # AICPB（AI 产品榜）。中文世界唯一能拿到真实数据的源。
   # 性质和上面三个不同：它给的不是"刚冒出来的新东西"，而是

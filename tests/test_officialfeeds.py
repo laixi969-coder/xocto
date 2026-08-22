@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 import unittest
 
-from xocto.sources.officialfeeds import fetch
+from xocto.sources.officialfeeds import fetch, fetch_market
 
 
 NOW_RSS = format_datetime(datetime.now(timezone.utc))
@@ -52,6 +52,32 @@ class OfficialFeedTests(unittest.TestCase):
         self.assertEqual(len(rows), 1)
         self.assertEqual(rows[0].extra["kind"], "news")
         self.assertFalse(rows[0].extra["official"])
+
+    def test_market_feeds_default_to_independent_and_are_separately_identified(self) -> None:
+        rows = fetch_market(
+            {
+                "lookback_hours": 72,
+                "feeds": [{"name": "Independent", "url": "https://example.com/rss.xml"}],
+            },
+            FakeHttp(),
+        )
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0].source, "marketfeeds")
+        self.assertFalse(rows[0].extra["official"])
+
+    def test_duplicate_entries_across_feeds_are_still_deduplicated(self) -> None:
+        rows = fetch_market(
+            {
+                "lookback_hours": 72,
+                "max_parallel_feeds": 2,
+                "feeds": [
+                    {"name": "Writer A", "url": "https://example.com/rss.xml"},
+                    {"name": "Writer B", "url": "https://example.com/rss.xml"},
+                ],
+            },
+            FakeHttp(),
+        )
+        self.assertEqual(len(rows), 1)
 
 
 if __name__ == "__main__":

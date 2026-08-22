@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 from datetime import date, datetime, timezone
+import os
 import unittest
+from unittest.mock import patch
 
-from xocto.sources.github import API, ORGS_API, REPOS_API, fetch
+from xocto.sources.github import API, ORGS_API, REPOS_API, _api_headers, fetch
 
 
 def harness_repo() -> dict:
@@ -56,6 +58,12 @@ class FakeHttp:
 
 
 class GithubDiscoveryTests(unittest.TestCase):
+    def test_actions_token_is_used_when_available_and_omitted_locally(self) -> None:
+        with patch.dict(os.environ, {"GITHUB_TOKEN": "short-lived-token"}):
+            self.assertEqual(_api_headers()["Authorization"], "Bearer short-lived-token")
+        with patch.dict(os.environ, {"GITHUB_TOKEN": ""}):
+            self.assertNotIn("Authorization", _api_headers())
+
     def test_keyword_only_search_reproduces_official_release_miss(self) -> None:
         rows = fetch(
             {"queries": ["ai agent"], "created_within_days": 21, "min_stars": 40},
