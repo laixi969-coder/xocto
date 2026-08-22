@@ -3,10 +3,14 @@ slug: limioryn
 name: limioryn
 builder: YINGLINGH
 category: 基础层
-summary_zh: 边缘-云多代理执行框架，连接真实设备
-inspiration: 将 AI 代理连接到物理世界，可借鉴其设备集成模式。
-summary_en: Edge-cloud Multi-Agent execution framework for embodied intelligence.
-inspiration_en: Bridging AI agents to real-world devices.
+summary_zh: 让软件代理连上真实设备动手，动作可核对，失手了能收回
+inspiration: 趋势是代理从屏幕走进车间，最大风险是乱动设备，「能核对、能回滚」会成为落地门槛。切入不要做通用机器人大脑，先选产线质检、实验室仪器这种动作少、后果贵的现场。判断：先卖核对和急停，再卖自主。
+summary_en: Let a software agent act on real devices, with each move checkable and a way to pull back
+  if it goes wrong.
+inspiration_en: 'The trend is agents leaving the screen for the shop floor; the risk is touching hardware,
+  so verify-and-rollback becomes the entry ticket. Don’t build a general robot brain. Enter at line inspection
+  and lab instruments: few moves, expensive mistakes. Judgement: sell the check and the emergency stop
+  before you sell autonomy.'
 priority_review: false
 url: https://github.com/YINGLINGH/limioryn
 canonical_url: https://github.com/YINGLINGH/limioryn

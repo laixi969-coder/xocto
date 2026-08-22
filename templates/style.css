@@ -162,11 +162,33 @@ button { font: inherit; }
 .pick-id h3 { width: 100%; margin: 0; font-size: 18px; letter-spacing: -.015em; line-height: 1.3; }
 .pick-id:hover h3 { color: var(--signal); }
 .pick-body { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.pick-body .field-take { grid-column: 1 / -1; }
 .field-k { display: block; margin-bottom: 7px; color: var(--ink-faint); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .field p { margin: 0; font-size: 15px; line-height: 1.7; }
 .field-take { border-left: 2px solid var(--accent); padding-left: 13px; }
 .field-take p { color: var(--ink-soft); }
+.exit-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--ink); }
+.exit-cell { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 4px 16px; padding: 28px 22px 32px 0; border-bottom: 1px solid var(--line-soft); animation: rise .45s var(--ease) backwards; animation-delay: calc(var(--i, 0) * 65ms); }
+.exit-cell + .exit-cell { padding-left: 22px; border-left: 1px solid var(--line-soft); }
+.exit-no { grid-row: 1 / 3; padding-top: 6px; color: var(--signal); font-size: 12px; }
+.exit-cell h3 { margin: 0 0 8px; font-size: 18px; letter-spacing: -.015em; line-height: 1.3; }
+.exit-cell p { margin: 0; color: var(--ink-soft); font-size: 15px; line-height: 1.7; }
+.exit-cell:hover h3 { color: var(--signal); }
 .summary-grid { max-width: var(--reading); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(28px, 6vw, 90px); }
+
+/* A reader chooses a job before a list. These are entry routes, not promotional cards. */
+.reader-routes { padding-top: clamp(30px, 4vw, 54px); }
+.reader-routes .sec-head { margin-bottom: 19px; }
+.reader-routes .eyebrow { margin-bottom: 9px; }
+.route-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--ink); }
+.route-cell { position: relative; display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 5px 15px; min-height: 180px; padding: 24px 26px 28px 0; border-bottom: 1px solid var(--line); animation: rise .45s var(--ease) backwards; animation-delay: calc(var(--i, 0) * 65ms); }
+.route-cell + .route-cell { padding-left: 26px; border-left: 1px solid var(--line-soft); }
+.route-no { grid-row: 1 / 3; padding-top: 4px; color: var(--signal); font-size: 12px; }
+.route-cell h3 { margin: 0; font-family: var(--display); font-size: clamp(19px, 1.8vw, 25px); letter-spacing: -.025em; line-height: 1.2; }
+.route-cell p { grid-column: 2; margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.68; }
+.route-arrow { position: absolute; right: 0; bottom: 22px; color: var(--signal); font-size: 18px; transition: transform .2s var(--ease); }
+.route-cell:hover h3 { color: var(--signal); }
+.route-cell:hover .route-arrow { transform: translateX(5px); }
 
 /* Tables and compact rows turn source material into a scan, not a card wall. */
 .scroll-x { overflow-x: auto; }
@@ -217,6 +239,8 @@ button { font: inherit; }
 .card > p { grid-column: 2; margin: 0; color: var(--ink-soft); font-size: 15px; line-height: 1.62; }
 .card .meta { grid-column: 3; grid-row: 1 / span 2; align-content: start; justify-content: flex-end; }
 .card .card-scale { grid-column: 2; margin: 0; color: var(--ink); font-size: 14px; line-height: 1.5; }
+.card .card-money { grid-column: 2; margin-top: 1px; color: var(--ink-soft); font-size: 13px; line-height: 1.58; }
+.card-money span, .card-insp span { display: block; margin-bottom: 3px; color: var(--ink-faint); font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: .075em; text-transform: uppercase; }
 .card .card-insp { grid-column: 2 / -1; margin: 0; padding-left: 13px; border-left: 2px solid var(--accent); color: var(--ink-soft); font-size: 14px; line-height: 1.55; }
 .empty { padding: 40px 0; color: var(--ink-faint); text-align: center; }
 .linkish { border-bottom: 1px solid currentColor; padding: 0; color: var(--signal); }
@@ -233,6 +257,23 @@ button { font: inherit; }
 .kv div b { font-size: 14px; font-weight: 600; }
 .kv a, .note.onward-all { color: var(--signal); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .detail-head + .band { padding-top: 34px; }
+.decision-brief { padding-top: clamp(36px, 4vw, 58px); }
+.decision-brief .sec-head { margin-bottom: 29px; }
+.decision-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); border-top: 2px solid var(--ink); }
+.decision-grid .field { min-height: 155px; padding: 20px 28px 24px 0; border-bottom: 1px solid var(--line-soft); }
+.decision-grid .field:nth-child(even) { padding-left: 28px; border-left: 1px solid var(--line-soft); }
+.decision-grid .decision-call { background: color-mix(in srgb, var(--surface) 52%, transparent); }
+.decision-grid .field p { max-width: 45em; font-size: 15px; line-height: 1.72; }
+.decision-replaces { max-width: 850px; margin-top: 25px; padding-left: 15px; border-left: 2px solid var(--ink); }
+.decision-replaces p { color: var(--ink-soft); }
+.role-lenses { padding-top: clamp(36px, 4vw, 60px); }
+.role-lenses .sec-head { margin-bottom: 25px; }
+.role-lenses .eyebrow { margin-bottom: 9px; }
+.role-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); }
+.role-grid .field { min-height: 133px; padding: 20px 25px 24px 0; border-bottom: 1px solid var(--line-soft); }
+.role-grid .field + .field { padding-left: 25px; border-left: 1px solid var(--line-soft); }
+.role-grid .field p { color: var(--ink-soft); font-size: 14px; line-height: 1.67; }
+.prose-kicker { margin: 0 0 29px !important; padding-bottom: 12px; border-bottom: 1px solid var(--line); color: var(--ink-faint); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .06em; line-height: 1.55; text-transform: uppercase; }
 .prose { max-width: 850px; padding: 44px 0 68px; font-size: 15px; line-height: 1.85; }
 .prose h1, .prose h2, .prose h3 { font-family: var(--sans); line-height: 1.32; letter-spacing: -.015em; }
 .prose h1 { margin: 42px 0 14px; font-size: 27px; }
@@ -343,6 +384,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .obs-cta { grid-column: 2; justify-self: start; }
   .pick { grid-template-columns: 36px minmax(155px, .8fr) minmax(0, 1.35fr); }
   .pick-body { grid-template-columns: 1fr; gap: 15px; }
+  .route-cell { padding-right: 17px; }
+  .route-cell + .route-cell { padding-left: 17px; }
   .card { grid-template-columns: minmax(150px, .75fr) minmax(0, 1.5fr) minmax(125px, .55fr); }
   .report-layout { grid-template-columns: 1fr; gap: 0; }
   .report-rail { display: none; }
@@ -373,8 +416,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .pick { grid-template-columns: 27px 1fr; gap: 12px; padding: 21px 0; }
   .pick-body { grid-column: 2; margin-top: -2px; }
   .summary-grid { grid-template-columns: 1fr; gap: 24px; }
+  .route-grid, .role-grid, .decision-grid { grid-template-columns: 1fr; }
+  .route-cell { min-height: auto; padding: 20px 0 24px; }
+  .route-cell + .route-cell { padding-left: 0; border-left: 0; }
+  .route-arrow { right: 1px; bottom: 20px; }
   .row-head { grid-template-columns: 1fr; gap: 4px; }
   .row-tail { justify-content: flex-start; margin-top: 4px; }
+  .exit-grid { grid-template-columns: 1fr; }
+  .exit-cell + .exit-cell { padding-left: 0; border-left: 0; }
   .cats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .cat:nth-child(n) { padding-left: 0; border-left: 0; }
   .cat:nth-child(2n) { padding-left: 13px; border-left: 1px solid var(--line-soft); }
@@ -384,9 +433,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .card .meta { grid-column: 2; grid-row: 1; }
   .card .card-scale { grid-column: 1 / -1; }
   .card .card-insp { grid-column: 1 / -1; }
+  .card .card-money { grid-column: 1 / -1; }
   .detail-head { padding-top: 48px; }
   .detail-head h1 { font-size: clamp(35px, 11vw, 50px); }
   .kv { gap: 13px 24px; }
+  .decision-grid .field, .decision-grid .field:nth-child(even) { min-height: 0; padding: 18px 0; border-left: 0; }
+  .decision-grid .decision-call { padding-left: 12px; }
+  .role-grid .field, .role-grid .field + .field { min-height: 0; padding: 18px 0; border-left: 0; }
   .prose { padding-top: 34px; font-size: 15px; }
   .prose h2 { margin-top: 40px; }
   .pager { grid-template-columns: 1fr; gap: 18px; }

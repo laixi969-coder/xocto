@@ -3,11 +3,13 @@ slug: dsh-tianshu-tui
 name: dsh-tianshu-tui
 builder: huiliyi37
 category: AI + 开发
-summary_zh: DSH交互式终端UI插件，增加TDD与证据门等工作流。
-inspiration: 在终端UI里内置TDD和证据门，把质量流程嵌入agent工作流。
-summary_en: Interactive terminal UI plugin for DSH, adding TDD and evidence-gate workflows.
-inspiration_en: Embedding TDD and evidence gates into terminal UI integrates quality processes into agent
-  workflows.
+summary_zh: 让写代码的 AI 先交测试证据，过不了门就不能往下改，不再口头叮嘱
+inspiration: 趋势是「模型说做完了」不再算数。不要做通用质量平台，先给改代码、出报表这种改错会出事的环节加证据门：拿不出对照就不放行。收费未披露。
+summary_en: AI that writes code must hand in test evidence first; if it fails the gate, it cannot keep
+  editing, and verbal nagging stops.
+inspiration_en: 'The trend is that “the model says it''s done” no longer counts. Don''t build a generic
+  quality platform. Put an evidence gate on code changes and reports where a wrong edit hurts: no proof,
+  no next step. Pricing is undisclosed.'
 priority_review: false
 url: https://github.com/huiliyi37/dsh-tianshu-tui
 canonical_url: https://github.com/huiliyi37/dsh-tianshu-tui

@@ -3,10 +3,13 @@ slug: dsh-memory-evolve
 name: dsh-memory-evolve
 builder: csyangwen
 category: AI + 开发
-summary_zh: DSH跨会话记忆与自我进化插件
-inspiration: 让AI代理拥有长期记忆和技能进化能力，无需改核心
-summary_en: Plugin for cross-session memory and self-evolution in DSH.
-inspiration_en: Giving AI agents long-term memory and skill evolution without core changes.
+summary_zh: 让AI隔好几天还记得上次的事，并在后台自己补本事，卸掉就干净
+inspiration: 趋势是AI助手要从每次从零开始变成越用越懂你。切入是先做跨会话记忆这一层，技能进化先别吹满。判断：记忆一旦出错会污染以后所有对话，先卖可关掉、可卸载的记忆，不要做成黑盒进化。
+summary_en: The AI still remembers days later, quietly picks up skills in the background, and uninstalls
+  clean.
+inspiration_en: 'The trend is assistants moving from starting at zero each time to knowing you better
+  with use. The entry is memory across sessions first; do not oversell skill evolution. Judgment: a wrong
+  memory poisons every later chat, so sell memory you can turn off and remove, not a black-box that evolves.'
 priority_review: false
 url: https://github.com/csyangwen/dsh-memory-evolve
 canonical_url: https://github.com/csyangwen/dsh-memory-evolve

@@ -3,11 +3,13 @@ slug: codebuddy-tencetn
 name: CodeBuddy｜Tencetn
 builder: ''
 category: AI + 开发
-summary_zh: 腾讯的 AI 编程助手，月访问 749 万且还在涨
-inspiration: 大厂在编程工具上砸资源，独立产品的空间正在被从下往上挤压
-summary_en: Tencent's AI coding assistant. 7.49M monthly visits and still climbing.
-inspiration_en: Big platforms are pouring resources into coding tools. Independent products are getting
-  squeezed from below.
+summary_zh: 腾讯的写代码助手，插件、独立软件和命令行三种用法都能覆盖
+inspiration: 趋势是大厂把写代码助手绑进自己的云，从写代码一路送到上线。切入独立产品别硬刚免费，去做腾讯云覆盖不到的行业交付，或帮企业把代码接到自家的发布流程。
+summary_en: Tencent's coding assistant, available as a plugin, a standalone app, and a terminal, covering
+  the whole path from writing to shipping.
+inspiration_en: The trend is big platforms tying coding assistants to their own cloud, from first line
+  to go-live. The entry for independents is not matching free — take industry delivery Tencent Cloud does
+  not cover, or connect a company's code to its own release process.
 priority_review: false
 url: https://www.aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51
 canonical_url: https://aicpb.com/product/CodeBuddy｜Tencetn/webid1D6F39E51

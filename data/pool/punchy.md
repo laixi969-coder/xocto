@@ -3,10 +3,12 @@ slug: punchy
 name: punchy
 builder: magnetic
 category: AI + 生活
-summary_zh: 帮助计时家庭小时工的打卡钟。
-inspiration: 将传统打卡数字化，可迁移至其他按小时计费的服务业。
-summary_en: A punch clock for hourly household workers.
-inspiration_en: Digitizing traditional punch clocks could apply to other hourly service industries.
+summary_zh: 给家里请的钟点工一个打卡钟，按小时把工时和费用记清楚
+inspiration: 趋势是按小时的线下服务会被要求留下双方都认的记录，家政工时还靠口头对，月底必吵。切入不要做企业考勤，就做家庭钟点工：两边各看一份工时。判断：按家庭月费收更轻；做起来再卖给中介抽成。
+summary_en: Give household hourly help a punch clock, so hours and pay are written down clearly.
+inspiration_en: 'The trend is hourly offline work being asked for a record both sides accept; domestic
+  hours still live in chat and blow up at month-end. Don’t build office attendance. Enter household hourly
+  work, with a shared timesheet. Judgement: a family monthly fee is lighter; later take a cut from agencies.'
 priority_review: false
 url: https://www.punchy.live/
 canonical_url: https://punchy.live

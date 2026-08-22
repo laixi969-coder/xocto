@@ -3,11 +3,12 @@ slug: getopen
 name: getopen
 builder: rahulbridge
 category: AI + 商业
-summary_zh: Plausible的现代替代品，开源网站分析工具。
-inspiration: 开源替代商业分析工具，可借鉴其隐私友好和自托管的定位。
-summary_en: Modern open-source alternative to Plausible for website analytics.
-inspiration_en: Open-source alternative to commercial analytics, leveraging privacy-friendly and self-hosted
-  positioning.
+summary_zh: 独立站卖家查清哪个页面带来付费，还能开口问昨天到底发生了什么
+inspiration: 趋势是网站统计要从访问量面板，变成能回答「哪页赚了钱」并给 AI 查询。不要做更好看的流量图，先切独立站、课程和插件收款。自托管免费，托管从每月九美元起。
+summary_en: Independent sellers see which page brought a paid order, and can just ask what happened yesterday.
+inspiration_en: The trend is web analytics leaving pageview dashboards for “which page made money,” queryable
+  by AI. Don't polish another traffic chart. Start with indie stores, courses, and plugin checkout. Self-host
+  is free; hosted starts at nine dollars a month.
 priority_review: false
 url: https://getopen.so
 canonical_url: https://getopen.so

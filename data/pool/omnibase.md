@@ -3,11 +3,13 @@ slug: omnibase
 name: omnibase
 builder: lss100200
 category: 基础层
-summary_zh: 自建的 AI 工作台，管知识、RAG 和模型供应商
-inspiration: 企业不想把数据交出去，自建部署是长期存在的一块市场
-summary_en: Self-hosted AI workbench for knowledge, RAG, and model providers.
-inspiration_en: Companies don't want to hand over their data. Self-hosting is a market that isn't going
-  away.
+summary_zh: 企业把助手当数字员工来管：有岗位、有项目、有干活记录，数据留在自己服务器。
+inspiration: 企业不敢把知识和密钥交给别人的云。趋势是自建工作台会长期存在；切入是先管好一个助手在一个项目里干过什么，再谈多人协作。开源预览，收费未披露。
+summary_en: 'Treat assistants as digital employees: a role, a project, a work log, with data staying on
+  your own servers.'
+inspiration_en: Companies will not hand knowledge and keys to someone else's cloud. The trend is that
+  self-hosted workbenches will last. The entry is first accounting for what one assistant did on one project,
+  then multi-person collaboration. Open-source preview; pricing undisclosed.
 priority_review: false
 url: https://omnibase.chat/public-preview
 canonical_url: https://omnibase.chat/public-preview

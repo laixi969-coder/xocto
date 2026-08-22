@@ -3,11 +3,13 @@ slug: 豆包-字节跳动旗下-ai-助手
 name: 豆包 - 字节跳动旗下 AI 助手
 builder: ''
 category: 通用助手
-summary_zh: 字节的豆包，国内 App 月活第一（3.24 亿）
-inspiration: 月活 3.2 亿说明通用助手这一层的格局基本定了，创业公司不该再进这条赛道
-summary_en: ByteDance's Doubao. Number one by monthly actives among Chinese apps, at 324M.
-inspiration_en: 324M monthly actives says the general-assistant layer is settled. Startups shouldn't enter
-  this lane.
+summary_zh: 豆包把聊天搜索写作翻译装进一个入口，国内月活三点二四亿
+inspiration: 通用助手这一层的格局已经定了，再进就是跟字节抢默认位置。切入点不是克隆豆包，而是从全家桶里拆出一个它做不细的岗位——只服务销售写方案，或只服务客服回复杂投诉。
+summary_en: '豆包 puts chat, search, writing, and translation in one door. Monthly actives in China: 324
+  million.'
+inspiration_en: The general-assistant layer is settled. Entering now means fighting ByteDance for the
+  default slot. Don't clone 豆包. Pull one job out of its bundle that it still does loosely—sales proposals,
+  or complex customer replies—and own that job.
 priority_review: false
 url: https://www.aicpb.com/product/豆包-字节跳动旗下-AI-助手/appid1D6F37CC9
 canonical_url: https://aicpb.com/product/豆包-字节跳动旗下-AI-助手/appid1D6F37CC9

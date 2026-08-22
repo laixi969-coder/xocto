@@ -3,11 +3,13 @@ slug: cindy
 name: cindy
 builder: makecindy
 category: AI + 效率
-summary_zh: 开箱即用的开源 AI agent，装完就能干活
-inspiration: 开源产品的最大门槛是配置，谁把「开箱即用」做到位谁就拿走大多数用户
-summary_en: Open-source AI agent that works out of the box.
-inspiration_en: Configuration is the real barrier for open source. Whoever nails “works out of the box”
-  takes most of the users.
+summary_zh: 把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢
+inspiration: 趋势是没人愿意被锁死在一家写代码助手里。切入做已经买过多家订阅的开发者：软件免费，卖统一出口和团队管控，先让人把已买的订阅用起来。
+summary_en: Puts coding assistants from different vendors in one workspace so you can switch models mid-task
+  without losing memory or work.
+inspiration_en: 'The trend is that nobody wants to be stuck with one coding assistant. The entry is developers
+  who already pay several vendors: the app is free, the billed layer is a unified gateway and team controls,
+  after they keep using subscriptions they already bought.'
 priority_review: false
 url: https://cindy.app
 canonical_url: https://cindy.app

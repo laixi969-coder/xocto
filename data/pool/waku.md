@@ -3,10 +3,11 @@ slug: waku
 name: waku
 builder: '0x142857'
 category: AI + 开发
-summary_zh: 用Rust和GPUI构建的编码代理原生应用。
-inspiration: 原生性能可提升编码代理体验，可迁移至其他开发工具。
-summary_en: A native app for coding agents built with Rust and GPUI.
-inspiration_en: Native performance enhances coding agent experience, applicable to other dev tools.
+summary_zh: 给写代码的 AI 做成电脑上的正式应用，反应更快，不像网页那样卡
+inspiration: 趋势是天天开着的 AI 工作台会离开浏览器，变成桌面软件。切入先做必须整天挂机改代码的岗位，卖的是稳、快，不是又一个网页聊天框。
+summary_en: 'The coding AI becomes a real desktop app: snappier, without the lag of a browser tab.'
+inspiration_en: The trend is all-day AI workbenches leaving the browser for the desktop. Enter seats that
+  must keep rewriting code all day, and sell steadiness and speed, not another web chat box.
 priority_review: false
 url: https://waku.sh
 canonical_url: https://waku.sh

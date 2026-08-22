@@ -3,11 +3,13 @@ slug: minimax-通用ai-agent
 name: MiniMax - 通用AI Agent
 builder: ''
 category: AI + 效率
-summary_zh: MiniMax 的通用 AI Agent，定位是「你的 AI 智能伙伴」
-inspiration: 国内厂商都在抢「通用 Agent」这个词，但没人说清它和聊天助手的区别在哪
-summary_en: MiniMax's general-purpose AI agent, positioned as “your AI companion.”
-inspiration_en: Everyone is racing to own the phrase “general agent,” and nobody has explained how it
-  differs from a chat assistant.
+summary_zh: 说一句要网页、小游戏或演示稿，它拆步骤、调工具，交回成品而不是空话。
+inspiration: 聊天助手只回话，做不出能交差的东西。趋势是交成品从聊天里拆成独立产品；切入是不会用设计工具的人要原型和演示稿。个人按月订，企业按用量买。
+summary_en: Ask for a webpage, a mini-game, or a slide deck in one sentence. It breaks down the steps,
+  calls tools, and hands back a deliverable instead of empty talk.
+inspiration_en: Chat assistants only reply; they cannot hand in something you can ship. The trend is splitting
+  “deliver a finished piece” out of chat into its own product. The entry is people who cannot use design
+  tools but need a prototype or deck. Individuals subscribe monthly; companies pay by usage.
 priority_review: false
 url: https://www.aicpb.com/product/MiniMax-通用AI-Agent/appid1D6F35EB9
 canonical_url: https://aicpb.com/product/MiniMax-通用AI-Agent/appid1D6F35EB9

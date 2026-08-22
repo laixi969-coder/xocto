@@ -3,11 +3,12 @@ slug: 秘塔ai搜索
 name: 秘塔AI搜索
 builder: ''
 category: 通用助手
-summary_zh: 秘塔 AI 搜索，主打没有广告直达结果
-inspiration: 「没有广告」是搜索赛道最锋利的一句攻击，因为那正是巨头不能放弃的东西
-summary_en: Metaso AI search, pitched on no ads and straight answers.
-inspiration_en: “No ads” is the sharpest attack available in search, because it's exactly what the incumbents
-  can't give up.
+summary_zh: 秘塔没有广告、直接给带来源的答案，月访问四百五十万
+inspiration: 没有广告击中的是巨头不能放弃的利润，独立搜索入口却在被大厂助手吃掉。切入点不是再做通用搜索，而是把写作或法律这种已经跑通的垂直工具，做到一个职业离不开。
+summary_en: '秘塔 has no ads and answers with sources attached. Monthly visits: 4.5 million.'
+inspiration_en: “No ads” attacks the profit incumbents cannot drop, while independent search doors get
+  eaten by giant assistants. Don't build another general search—take writing or law, verticals 秘塔 already
+  proved, and make one profession unable to leave.
 priority_review: false
 url: https://www.aicpb.com/product/秘塔AI搜索/webid1D6F37359
 canonical_url: https://aicpb.com/product/秘塔AI搜索/webid1D6F37359

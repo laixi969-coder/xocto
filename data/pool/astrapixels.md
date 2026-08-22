@@ -3,11 +3,13 @@ slug: astrapixels
 name: AstraPixels
 builder: Nick Launches
 category: AI + 生活
-summary_zh: 像素风太阳系，按真实位置实时显示
-inspiration: 无用但美的东西有独立的传播力，它不解决问题，它提供分享的理由
-summary_en: ''
-inspiration_en: Useless-but-beautiful travels on its own. It doesn't solve a problem; it hands people
-  a reason to share.
+summary_zh: 一张按真实轨道画的像素太阳系地图，站内还能花钱认领天体
+inspiration: 趋势是数字收藏要绑住「真的稀缺」，程序生成的石头没人买。切入做天文爱好者的认领礼品：卖编目里的月亮和小行星，明说不是官方命名，按件买断。
+summary_en: A pixel map of the solar system at real orbital positions, where you can also pay to claim
+  a body on the site.
+inspiration_en: 'The trend is that digital collectibles only sell when scarcity is real; generated rocks
+  do not. The entry is gifts for astronomy fans: catalog moons and asteroids, said clearly as unofficial
+  names, sold outright per object.'
 priority_review: false
 url: https://www.producthunt.com/products/astrapixels
 canonical_url: https://producthunt.com/products/astrapixels

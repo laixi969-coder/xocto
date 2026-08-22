@@ -3,11 +3,13 @@ slug: continuum
 name: Continuum
 builder: Chris Messina
 category: AI + 商业
-summary_zh: 帮管理者记住每个下属的情况：说过什么、在意什么、答应过什么
-inspiration: 把「关系维护」这件全靠脑子记的事变成系统——这个逻辑在客户管理、招商、渠道上完全通用
-summary_en: ''
-inspiration_en: Turning relationship upkeep from something you hold in your head into a system. The same
-  logic works for client management, channel partners, and sales.
+summary_zh: 帮管理者记下对每个下属的判断：说过什么、看到什么、信心怎么变
+inspiration: 趋势是「管人」从靠脑子记变成可追踪的判断账本。切入做带五到十人的一线经理：一对一前后记信号、改判断，按人订阅；客户管理和渠道招商是相邻切口。
+summary_en: 'Helps a manager remember judgments about each report: what was said, what was seen, and how
+  confidence changed.'
+inspiration_en: 'The trend is people-management leaving memory and becoming a tracked ledger of judgments.
+  The entry is line managers with five to ten reports: log signals around one-on-ones and revise the call,
+  billed per person. Client and channel work are next-door cuts.'
 priority_review: false
 url: https://www.producthunt.com/products/continuum-2027
 canonical_url: https://producthunt.com/products/continuum-2027

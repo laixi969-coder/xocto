@@ -3,10 +3,13 @@ slug: mcp-memory
 name: MCP Memory
 builder: pcbmaker20
 category: 基础层
-summary_zh: 使用Google OKF和SQLite FTS5实现快速agent记忆。
-inspiration: 快速记忆机制是agent长期记忆的基石，可迁移到个性化服务。
-summary_en: Fast agent memory using Google's OKF and SQLite FTS5.
-inspiration_en: Fast memory mechanism is foundational for agent long-term memory, applicable to personalization.
+summary_zh: 助手下次接着干活能接上断点，记下的东西人能打开核对，换工具也不丢。
+inspiration: 助手一旦跨天干活，没有记忆就等于每天失忆。趋势是长期记忆成为标配；切入是给写代码的助手先做一份人能审查、能带走的本地记忆，收费未披露。
+summary_en: Next session the assistant picks up where it left off. Notes are files a human can open and
+  check, and they survive switching tools.
+inspiration_en: Once an assistant works across days, no memory means it forgets every morning. The trend
+  is long-term memory as a default. The entry is a local, human-reviewable memory for coding assistants.
+  Pricing is undisclosed.
 priority_review: false
 url: https://github.com/fellowgeek/mcp-memory
 canonical_url: https://github.com/fellowgeek/mcp-memory

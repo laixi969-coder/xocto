@@ -3,10 +3,13 @@ slug: promentor
 name: ProMentor
 builder: Lyn-77
 category: AI + 开发
-summary_zh: AI编程导师技能，扫描架构、生成阶梯式教学、自动判题。
-inspiration: 把教学法做成agent技能，让AI从工具变成导师，是教育场景的迁移。
-summary_en: AI coding mentor skill that scans architecture, generates step-by-step chapters, and auto-grades.
-inspiration_en: Turning pedagogy into an agent skill makes AI a mentor, a transferable pattern for education.
+summary_zh: 对着真实项目学写代码：先讲再带你手写，用能跑的测试判对错，不直接给答案。
+inspiration: 看视频课不会写，丢给助手又变成代写。趋势是带练加判题从人教搬到助手上；切入是想靠真实项目学系统设计的开发者。开源免费。
+summary_en: 'Learn to code against a real project: first a lesson, then you write it, tests that actually
+  run grade you, and it does not hand you the answer.'
+inspiration_en: Video courses do not make you write; handing the repo to an assistant becomes ghostwriting.
+  The trend is drill-plus-grading moving from a human teacher onto an assistant. The entry is developers
+  who want to learn system design from real projects. Open-source and free.
 priority_review: false
 url: https://github.com/Lyn-77/ProMentor
 canonical_url: https://github.com/Lyn-77/ProMentor

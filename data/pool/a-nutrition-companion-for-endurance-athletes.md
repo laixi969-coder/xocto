@@ -3,11 +3,13 @@ slug: a-nutrition-companion-for-endurance-athletes
 name: A nutrition companion for endurance athletes
 builder: bravang
 category: AI + 生活
-summary_zh: 为耐力运动员提供营养与肠道训练指导的iOS应用。
-inspiration: 将专业营养知识转化为可执行的训练计划，可迁移至其他垂直健康领域。
-summary_en: An iOS companion app for endurance athletes' nutrition and gut training.
-inspiration_en: Turning expert nutrition knowledge into actionable training plans could apply to other
-  vertical health niches.
+summary_zh: 跑马和铁三选手按当天训练量吃饭，自动算出碳水、补水和比赛补给
+inspiration: 趋势是健康应用从记卡路里变成跟训练计划挂钩。切入是先做耐力赛补给这种吃错就会爆掉的场景，卖给跑者和铁三选手，而不是再做一个通用减肥记账。
+summary_en: Runners and triathletes eat to that day's training load; carbs, fluids, and race fuel are
+  calculated for them.
+inspiration_en: The trend is health apps moving from calorie logs to plans tied to training. The entry
+  is race fueling, where a wrong meal can blow up the event, sold to runners and triathletes, not another
+  diet tracker.
 priority_review: false
 url: https://news.ycombinator.com/item?id=49320056
 canonical_url: https://news.ycombinator.com/item?id=49320056

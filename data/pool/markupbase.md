@@ -3,11 +3,13 @@ slug: markupbase
 name: markupbase
 builder: jasondoyle
 category: AI + 开发
-summary_zh: 白皮书：让自主工作变得可审查。
-inspiration: 自主工作可审查性是AI agent落地的关键，可迁移到合规和信任设计。
-summary_en: Whitepaper on making autonomous work reviewable.
-inspiration_en: Reviewability of autonomous work is key for AI agent adoption, applicable to compliance
-  and trust design.
+summary_zh: 给 AI 干完的活立一份可版本、绑证据的说明书，人事后还能看懂、质疑、叫停
+inspiration: 趋势是自主干活要先变得可审查，才进得了真业务。不要加更多流水账，先给支付、退款、上线这种改错会出事的动作做独立评审件。收费未披露。
+summary_en: Work an AI already finished gets its own versioned, evidence-bound brief, so a person can
+  still understand, challenge, or stop it later.
+inspiration_en: The trend is that autonomous work must become reviewable before it enters real operations.
+  Don't add more activity logs. Start with payments, refunds, and launches — actions where a wrong move
+  hurts — as a standalone review artifact. Pricing is undisclosed.
 priority_review: false
 url: https://markupbase.com/whitepapers/making-autonomous-work-reviewable/
 canonical_url: https://markupbase.com/whitepapers/making-autonomous-work-reviewable

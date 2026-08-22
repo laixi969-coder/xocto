@@ -3,10 +3,12 @@ slug: taskfuel
 name: TaskFuel
 builder: interface1860
 category: 基础层
-summary_zh: 代理按调用付费访问100个API
-inspiration: 按调用付费模式让代理按需使用API，降低门槛
-summary_en: Agents discover and pay per call for 100 APIs.
-inspiration_en: Pay-per-call model lets agents use APIs on demand, lowering barriers.
+summary_zh: AI 办事要调用外部接口时，按用一次付一次钱，不用先去谈年费套餐
+inspiration: 趋势是 AI 用工具会按次结算，而不是先签年框。切入先做查企业、查物流、发短信这种单次有价、用量忽高忽低的接口，不要先卖年费套餐。
+summary_en: When an AI needs an outside service, it pays per call instead of negotiating an annual plan
+  first.
+inspiration_en: The trend is AI tools settling per use, not via a yearly contract first. Enter company
+  lookup, shipment tracking, or SMS—calls that have a unit price and spiky volume.
 priority_review: false
 url: https://taskfuel.ai/
 canonical_url: https://taskfuel.ai

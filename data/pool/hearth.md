@@ -3,10 +3,13 @@ slug: hearth
 name: Hearth
 builder: jmtulloss
 category: AI + 生活
-summary_zh: 共享家庭工作空间，agent可在其中构建应用。
-inspiration: 家庭场景的agent工作空间，可探索家庭自动化和协作的新模式。
-summary_en: A shared family workspace where an agent can build apps.
-inspiration_en: Agent workspace for family scenarios explores new modes of home automation and collaboration.
+summary_zh: 全家的计划、笔记和日程放进一个共享空间，AI 读得懂，还能当场做出小工具
+inspiration: 趋势是 AI 该在读得懂上下文的地方自己造工具。不要做通用家庭助手，先切家庭日程同步、工地现场这类高密度共享场景。家庭难收费，行业版怎么卖未披露。
+summary_en: A family's plans, notes, and calendar live in one shared space the AI can read, and it can
+  build a small tool right there.
+inspiration_en: The trend is that AI should mint tools where it already understands the context. Don't
+  build a generic home assistant. Start with family schedules and job-site coordination — dense shared
+  scenes. Households rarely pay; how an industry edition would charge is undisclosed.
 priority_review: false
 url: https://news.ycombinator.com/item?id=49292004
 canonical_url: https://news.ycombinator.com/item?id=49292004

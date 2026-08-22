@@ -3,10 +3,12 @@ slug: bootagent
 name: BootAgent
 builder: MaimoryLab
 category: AI + 开发
-summary_zh: 本地AI代理管理工具，一键配置新机器
-inspiration: 把环境配置变成可重复的自动化流程，减少手工编辑配置文件
-summary_en: Local AI agent manager that turns a fresh machine into a repeatable setup.
-inspiration_en: Turning environment setup into repeatable automation reduces manual config editing.
+summary_zh: 新电脑到手，把常用的AI助手一次配好，不用再逐个改设置
+inspiration: 趋势是AI工具越装越多，换电脑变成一场灾难。独立趋势还不清晰。判断：切入是给经常换机、一人用多套助手的人做开机即用；按配好一台机器来卖，不要做成通用装机软件。
+summary_en: On a new computer, the usual AI assistants are set up once, without hand-editing each tool.
+inspiration_en: 'The trend is AI tools piling up until a new machine becomes a disaster. The independent
+  trend is still unclear. Judgment: the entry is people who switch machines often and run several assistants;
+  sell a ready machine, not a generic installer.'
 priority_review: false
 url: https://bootagent.ai
 canonical_url: https://bootagent.ai

@@ -3,10 +3,13 @@ slug: dsh-context
 name: dsh-context
 builder: bowenliang123
 category: AI + 开发
-summary_zh: DeepSeek Harness 上下文可视化插件
-inspiration: 让 AI 上下文透明化，可借鉴其可视化方法。
-summary_en: DeepSeek Harness plugin for context insight and management.
-inspiration_en: Visualizing AI context for better control.
+summary_zh: 看清AI这轮对话里装了什么、丢掉了什么，免得它悄悄忘了关键信息
+inspiration: 趋势是人开始要看见AI的工作记忆，不然长对话会无声出错。切入是给写长文、审合同、改代码这些必须盯上下文的人做一本看得懂的账。判断：仪表盘难单独卖，可跟上下文用满了就告警绑在一起。
+summary_en: See what this round of AI chat is holding and what it dropped, so key facts do not vanish
+  quietly.
+inspiration_en: 'The trend is people needing to see an AI''s working memory, or long chats fail silently.
+  The entry is long writing, contracts, and code, where context must be watched, as a ledger a person
+  can read. Judgment: a dashboard is hard to sell alone; pair it with an alert when context is full.'
 priority_review: false
 url: https://www.npmjs.com/package/dsh-context
 canonical_url: https://npmjs.com/package/dsh-context

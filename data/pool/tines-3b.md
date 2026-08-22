@@ -3,11 +3,13 @@ slug: tines-3b
 name: Tines 3B
 builder: fmerian
 category: 基础层
-summary_zh: 给 agent、应用和自动化用的安全运行环境
-inspiration: 企业采购里安全合规是入场券，没有它功能再强也进不了门
-summary_en: ''
-inspiration_en: In enterprise procurement security and compliance are the ticket in. Without it no amount
-  of capability gets through the door.
+summary_zh: 把员工随手用AI建出来的流程，收进公司看得见管得住的安全环境
+inspiration: 老板已经要求全员用AI，却看不见密钥贴进了哪段代码。切入点不是再做一个自动化工具，而是把最省事的路径做成被治理的路径，卖给安全和IT负责人。
+summary_en: Takes the automations staff spin up with AI and runs them where the company can see, sandbox,
+  and audit them.
+inspiration_en: Leadership told everyone to use AI, then lost sight of which keys got pasted into which
+  scripts. Don't build another automation toy—make the governed path the easiest path, and sell that to
+  security and IT.
 priority_review: false
 url: https://www.producthunt.com/products/tines
 canonical_url: https://producthunt.com/products/tines

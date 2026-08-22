@@ -3,11 +3,13 @@ slug: gitar
 name: Gitar
 builder: Zac Zuo
 category: AI + 开发
-summary_zh: 代码审查工具，发现问题顺手就改掉
-inspiration: 从「告诉你有问题」到「直接改好」是价值的量级跃迁，也是定价能翻倍的地方
-summary_en: ''
-inspiration_en: Going from “here's a problem” to “it's fixed” is a step change in value, and the place
-  where the price can double.
+summary_zh: 代码审查不只指出问题，会直接改好并跑检查，通过了才交上去，不再等人收尾
+inspiration: 趋势是诊断工具的溢价止步于「告诉你有问题」。不要做评论机器人，先给跟不上修复速度的研发团队把审查接到改完、验完。按人每月二十到四十美元，已被收购。
+summary_en: 'Code review does not stop at findings: it patches the issue, runs checks, and only then commits,
+  so humans stop closing the loop.'
+inspiration_en: The trend is that diagnosis tools cap their price at “here is a problem.” Don't ship another
+  comment bot. Start with engineering teams that cannot keep up with fixes, and carry review through patch
+  and verification. Twenty to forty dollars per user per month; the company has been acquired.
 priority_review: false
 url: https://www.producthunt.com/products/gitar
 canonical_url: https://producthunt.com/products/gitar

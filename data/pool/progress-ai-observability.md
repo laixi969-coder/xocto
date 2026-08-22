@@ -3,11 +3,12 @@ slug: progress-ai-observability
 name: Progress AI Observability
 builder: Lyubomir Atanasov
 category: 基础层
-summary_zh: 追踪、评估并改进生产环境里的 AI agent
-inspiration: 可观测性在传统软件是十亿美元品类，在 agent 领域正在重演一遍
-summary_en: ''
-inspiration_en: Observability is a billion-dollar category in traditional software. It is replaying, from
-  the start, in agent land.
+summary_zh: 生产里助手每一步调用、花了多少钱、答没答错，在同一张轨迹上看清。
+inspiration: 传统监控看得见宕机，看不见一本正经的胡话。趋势是可观测性在助手领域重演一遍；切入是企业里已经上线的助手，按用量订阅。
+summary_en: Every call an assistant made in production, what it cost, and whether the answer was wrong
+  — one trace shows it all.
+inspiration_en: Classic monitoring sees downtime, not confident nonsense. The trend is observability replaying
+  itself in assistant land. The entry is assistants already in production at companies, billed by usage.
 priority_review: false
 url: https://www.producthunt.com/products/progress-ai-observability
 canonical_url: https://producthunt.com/products/progress-ai-observability

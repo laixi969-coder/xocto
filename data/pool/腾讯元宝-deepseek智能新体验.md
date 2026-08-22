@@ -3,11 +3,13 @@ slug: 腾讯元宝-deepseek智能新体验
 name: 腾讯元宝-「DeepSeek+」智能新体验
 builder: ''
 category: AI + 效率
-summary_zh: 腾讯元宝接入 DeepSeek 后的版本
-inspiration: 大厂接入第三方模型当卖点，说明这一层已经商品化了
-summary_en: Tencent's Yuanbao assistant, in the version that added DeepSeek.
-inspiration_en: A big platform advertising that it plugged in someone else's model tells you that layer
-  is commoditized.
+summary_zh: 腾讯元宝手机里接入DeepSeek，拍题写作编程一个入口，月活一亿零四百万
+inspiration: 大厂把别人的模型当卖点，说明模型层已经商品化；补贴能拉月活，换不来每天回来。切入点不是再做国民助手，而是在拍题或办公里挑一个它只是捎带做的活，做到有人愿意为此付钱。
+summary_en: 'The 腾讯元宝 app adds DeepSeek so homework, writing, and coding live in one place. Monthly actives:
+  104 million.'
+inspiration_en: When a giant advertises someone else's model, that layer is already a commodity. Subsidies
+  buy monthly actives, not a daily habit. Don't build another national assistant—pick homework or office
+  work that 腾讯元宝 only does on the side, and make it worth paying for.
 priority_review: false
 url: https://www.aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81
 canonical_url: https://aicpb.com/product/腾讯元宝-「DeepSeek+」智能新体验/appid1D6F37B81

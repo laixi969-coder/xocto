@@ -3,10 +3,13 @@ slug: 千问-qianwencom-阿里
 name: 千问 qianwen.com｜阿里
 builder: ''
 category: 通用助手
-summary_zh: 阿里千问的独立域名版本
-inspiration: 巨头给同一个模型开多个入口，是在测哪个品牌资产更有效
-summary_en: Alibaba Qwen on its own domain.
-inspiration_en: Several front doors for one model is a platform testing which brand asset actually works.
+summary_zh: 在电脑浏览器里用千问，顺手带上输入法和录音转写，月访问四千四百万
+inspiration: 巨头给同一个模型开多扇门，是在测哪个入口真能留住人。切入点不是再做一个通用聊天，而是专做电脑办公里划词、纪要、输入法这些常驻小动作。
+summary_en: 'Use 千问 in the browser, with typing and meeting-notes tools sitting beside it. Monthly visits:
+  44.5 million.'
+inspiration_en: 'A giant opening several doors for one model is testing which door people actually stay
+  in. Don''t clone another general chat—own the tiny high-frequency desktop jobs: look-up, meeting notes,
+  typing. Make them always-on, not a destination.'
 priority_review: false
 url: https://www.aicpb.com/product/千问-qianwen.com｜阿里/webid1D6F375E9
 canonical_url: https://aicpb.com/product/千问-qianwen.com｜阿里/webid1D6F375E9

@@ -3,11 +3,12 @@ slug: ai-agent-book
 name: ai-agent-book
 builder: chemark
 category: AI + 生活
-summary_zh: 讲 AI Agent 设计原理与工程实践的开源教材
-inspiration: 在技术快速变化期，教材本身就是影响力入口，写书的人定义了行业词汇
-summary_en: Open textbook on AI agent design principles and engineering practice.
-inspiration_en: When a field moves this fast the textbook is the influence — whoever writes it defines
-  the vocabulary everyone else argues in.
+summary_zh: 把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验
+inspiration: 趋势是新技术的定义权正在从论文转向教材。切入不要卖空课，先把某一行业的落地步骤写成能跟做的实验手册，用教材占住词汇，钱放在咨询和招人上。
+summary_en: An open textbook on how to design and ship an AI assistant, with experiments you can follow.
+inspiration_en: The trend is that the right to name a new field is moving from papers to textbooks. The
+  entry is not selling empty courses — write a follow-along lab manual for one industry, own the vocabulary,
+  and make money on consulting and hiring.
 priority_review: false
 url: https://github.com/chemark/ai-agent-book
 canonical_url: https://github.com/chemark/ai-agent-book

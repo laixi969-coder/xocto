@@ -48,6 +48,12 @@ sources:
       - tags: "story"
         query: "LLM agent"
         min_points: 25
+      - tags: "story"
+        query: "coding agent"
+        min_points: 20
+      - tags: "story"
+        query: "MCP"
+        min_points: 20
 
   # GitHub 新建仓库里涨星快的。开源项目往往比闭源产品早半年
   # 暴露出一个方向能不能成。走公共 Search API，匿名有速率限制但够用。
@@ -60,10 +66,15 @@ sources:
       - "ai workflow"
       # "llm application" 实测 0 条 —— 没人这么写。用大家真在用的词。
       - "llm app"
+      - "mcp server"
+      - "coding agent"
+      - "ai video"
     # 第二条发现链路：专题不会受项目名称和营销文案影响。新专题在发现漏口后加进来。
     topics:
       - "dsh"
       - "dsh-plugin"
+      - "mcp"
+      - "ai-agents"
     # 第三条发现链路：发布几天内已经爆发的项目无论关键词为何都必须复核。
     breakout:
       enabled: true
@@ -72,6 +83,9 @@ sources:
     # 第四条发现链路：重点发布方的新仓库按创建时间扫，不依赖 Search。
     official_organizations:
       - "deepseek-ai"
+      - "openai"
+      - "anthropics"
+      - "xai-org"
     # 重点官方仓库的新 Release 会作为日报的行业背景，而非伪装成新产品。
     # 只保留稳定、与 AI 应用生态直接相关的官方仓库；不需要 token。
     release_lookback_hours: 72
@@ -83,6 +97,8 @@ sources:
       - "langchain-ai/langchain"
       - "microsoft/autogen"
       - "mistralai/client-python"
+      - "ollama/ollama"
+      - "ggerganov/llama.cpp"
 
   # Hugging Face Hub。公开 API 不需要密钥；Spaces 偏应用，Models 偏基础能力。
   # 只收近期新建、且已有最低社区信号的项目，避免把镜像和试验仓库塞满产品池。
@@ -98,7 +114,8 @@ sources:
       min_likes: 5
       min_downloads: 50
 
-  # AI 公司一手博客与 changelog。它们只补充日报中的市场观察，不进入产品池。
+  # 一手博客、changelog、独立作者与公开平台。全部只补充日报背景，不进产品池。
+  # official: false 的是独立观察；缺省为公司一手。站上不出现这些名字。
   officialfeeds:
     enabled: true
     lookback_hours: 72
@@ -117,6 +134,56 @@ sources:
         url: "https://cohere.com/blog/rss.xml"
       - name: "Vercel"
         url: "https://vercel.com/changelog/rss.xml"
+      - name: "AWS Machine Learning"
+        url: "https://aws.amazon.com/blogs/machine-learning/feed/"
+      - name: "NVIDIA"
+        url: "https://blogs.nvidia.com/feed/"
+      - name: "Apple Machine Learning"
+        url: "https://machinelearning.apple.com/rss.xml"
+      - name: "GitHub AI"
+        url: "https://github.blog/ai-and-ml/feed/"
+      - name: "Latent Space"
+        url: "https://www.latent.space/feed"
+        official: false
+      - name: "One Useful Thing"
+        url: "https://www.oneusefulthing.org/feed"
+        official: false
+      - name: "Interconnects"
+        url: "https://www.interconnects.ai/feed"
+        official: false
+      - name: "Import AI"
+        url: "https://importai.substack.com/feed"
+        official: false
+      - name: "Ben's Bites"
+        url: "https://www.bensbites.com/feed"
+        official: false
+      - name: "Understanding AI"
+        url: "https://www.understandingai.org/feed"
+        official: false
+      - name: "Benedict Evans"
+        url: "https://www.ben-evans.com/benedictevans?format=rss"
+        official: false
+      - name: "Exponential View"
+        url: "https://www.exponentialview.co/feed"
+        official: false
+      - name: "SemiAnalysis"
+        url: "https://www.semianalysis.com/feed"
+        official: false
+      - name: "TechCrunch AI"
+        url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+        official: false
+      - name: "The Verge AI"
+        url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+        official: false
+      - name: "MIT Technology Review AI"
+        url: "https://www.technologyreview.com/topic/artificial-intelligence/feed/"
+        official: false
+      - name: "QbitAI"
+        url: "https://www.qbitai.com/feed"
+        official: false
+      - name: "a16z"
+        url: "https://feeds.feedburner.com/AndreessenHorowitz"
+        official: false
 
   # AICPB（AI 产品榜）。中文世界唯一能拿到真实数据的源。
   # 性质和上面三个不同：它给的不是"刚冒出来的新东西"，而是
@@ -140,9 +207,10 @@ sources:
       - "vibe-coding-rankings"
       # AI Agent 细分榜 —— 存量头部 Agent 产品（Manus、Cursor 类）走这里进来。
       - "ai-agent-rankings"
-      # 还有二十多个细分榜可加，比如：
-      #   ai-search-rankings
-      #   ai-video-generators-rankings / ai-ppt-rankings
+      - "ai-search-rankings"
+      - "ai-video-generators-rankings"
+      - "ai-ppt-rankings"
+      - "ai-chatbot-rankings"
 
   # ---- 以下暂未启用 ----
 

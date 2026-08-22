@@ -3,10 +3,13 @@ slug: manthan
 name: manthan
 builder: mohith-sarma
 category: AI + 效率
-summary_zh: MCP 服务器，存储带前置链接的概念卡
-inspiration: 概念卡片与前置知识链接，可借鉴其知识组织方式。
-summary_en: MCP server to store Concept cards with prerequisite links.
-inspiration_en: Structured knowledge representation with prerequisites.
+summary_zh: 把一个概念写成卡片，并标出学它之前必须先搞懂哪些东西
+inspiration: 还看不清独立趋势，笔记软件已经很挤。判断：不要做又一个笔记本，从考证、编程、医学这种必须按前置知识排队的路径切入，把「不会先学什么」做成卡片卖给培训机构。若趋势成立，知识会从文章变成可检查的依赖图。
+summary_en: Write each idea as a card, and mark what you must already understand before you learn it.
+inspiration_en: 'The independent trend is still unclear in a crowded notes market. Judgement: don’t ship
+  another notebook. Enter certification, coding, and medical paths that must be learned in order, and
+  sell “what to learn first” cards to training shops. If the trend holds, knowledge becomes a checkable
+  dependency graph.'
 priority_review: false
 url: https://manthan.sirune.tech/share.html?token=942df0d3590d422aa74d9b44f5d3ba77
 canonical_url: https://manthan.sirune.tech/share.html?token=942df0d3590d422aa74d9b44f5d3ba77

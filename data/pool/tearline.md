@@ -3,10 +3,13 @@ slug: tearline
 name: Tearline
 builder: kyisaiah47
 category: AI + 效率
-summary_zh: 将任意HTML包装成热敏收据和PNG。
-inspiration: HTML转收据/图片，可迁移到票据生成和网页快照。
-summary_en: Wrap any HTML in one tag, get a thermal receipt and a PNG.
-inspiration_en: HTML to receipt/image conversion applies to ticket generation and web snapshots.
+summary_zh: 把网页里的订单和歌单套成一张能撕下来的收据图，随手就能发出去
+inspiration: 人们习惯把收据当分享物，表格截图却没人想转发。切入点不是做截图工具，而是给想晒出去的数据套一层旧仪式——收据、登机牌、证书都是现成外壳。
+summary_en: Wrap an order or playlist on a page into a tear-off receipt image people actually want to
+  send.
+inspiration_en: 'People already treat a receipt as something worth posting; a table screenshot never is.
+  Don''t build another screenshot tool—wrap data people want to show off in an old ceremonial format:
+  receipt, boarding pass, or certificate.'
 priority_review: false
 url: https://tearline.kynth.studio
 canonical_url: https://tearline.kynth.studio

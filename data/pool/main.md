@@ -3,10 +3,12 @@ slug: main
 name: main
 builder: lahfir
 category: AI + 开发
-summary_zh: 让桌面自动化对 AI agent 更诚实
-inspiration: 解决桌面自动化中的状态一致性问题，可迁移到 agent 工具
-summary_en: Desktop automation that stops lying to AI agents
-inspiration_en: Solving state consistency in desktop automation, applicable to agent tools
+summary_zh: 让代理看清电脑窗口里的真实按钮，点下去不再点错或假装成功
+inspiration: 趋势是代理开始替人点桌面软件，界面说的和实际发生的对不上就会整条链路作废。切入不要做通用录屏机器人，先打每天要点的办公和聊天窗口，并核对每一步。判断：对账式核对比卖脚本更站得住。
+summary_en: Let an agent see the real buttons in a desktop window, so clicks land and do not fake success.
+inspiration_en: 'The trend is agents clicking desktop software for people; if the UI lies about what happened,
+  the whole chain is junk. Don’t sell generic screen robots. Enter at office and chat windows people click
+  every day, and verify each step. Judgement: receipt-style checks outsell script packs.'
 priority_review: false
 url: https://github.com/lahfir/agent-desktop/tree/main
 canonical_url: https://github.com/lahfir/agent-desktop/tree/main

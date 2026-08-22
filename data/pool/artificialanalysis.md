@@ -3,11 +3,13 @@ slug: artificialanalysis
 name: artificialanalysis
 builder: Gcam
 category: 基础层
-summary_zh: 创建自定义基准测试，评估AI模型在特定用例的表现。
-inspiration: 自定义基准测试让模型评估更贴近实际业务，可迁移到垂直领域选型。
-summary_en: Create custom benchmarks to evaluate AI models for specific use cases.
-inspiration_en: Custom benchmarks make model evaluation more relevant to real business, transferable to
-  vertical selection.
+summary_zh: 用你自己的任务测模型：跑完直接看分数、花了多少钱、快还是慢
+inspiration: 趋势是选模型从看总榜变成用自己的活来测。切入做企业采购前的选型：同一任务比准不准、价钱和快慢，按评测场次收费，不要再做一张人人都能看的总榜。
+summary_en: Tests models on your own tasks, then shows score, cost, and speed instead of asking you to
+  pick from a public leaderboard.
+inspiration_en: 'The trend is model choice moving from public boards to tests on your actual work. The
+  entry is vendor selection before a company buys: same job, compared on accuracy, price, and latency,
+  billed per run — not another public ranking.'
 priority_review: false
 url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima

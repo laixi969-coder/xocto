@@ -3,10 +3,13 @@ slug: dsh-super-injector
 name: dsh-super-injector
 builder: yjh051108
 category: AI + 开发
-summary_zh: DeepSeek Harness 的超级注入器插件
-inspiration: 增强 prompt 注入能力，可迁移到 agent 定制
-summary_en: Super injector plugin for DeepSeek Harness
-inspiration_en: Enhancing prompt injection capabilities, applicable to agent customization
+summary_zh: 给DeepSeek Harness加新能力时不用关掉重来，试完也能卸掉
+inspiration: 独立趋势还不清晰：这是给做附加能力的人省掉重启的配件。判断：切入是做插件的人而不是用的人；难直接面向创业者收费，但说明这个生态已经开始要开发者工具了。
+summary_en: Add a new ability to DeepSeek Harness without shutting it down; try it, then remove it if
+  it fails.
+inspiration_en: 'The independent trend is still unclear: this is a part that saves add-on makers from
+  restarting. Judgment: the entry is people who build extras, not people who use them; hard to charge
+  founders directly, but it shows this ecosystem now needs maker tools.'
 priority_review: false
 url: https://github.com/yjh051108/dsh-super-injector
 canonical_url: https://github.com/yjh051108/dsh-super-injector

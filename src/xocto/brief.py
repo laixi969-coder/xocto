@@ -90,24 +90,40 @@ def _candidate_data(product: Product) -> dict[str, Any]:
     }
 
 
+NEWS_LIMIT = 18
+FIRST_PARTY_BUDGET = 12
+
+
 def news_for_day(store: Store, day: date) -> list[dict[str, Any]]:
-    """整理当天的一手发布信号，供日报作背景，不让它们进入产品池。"""
-    rows: list[dict[str, Any]] = []
+    """整理当天的行业信号，供日报作背景，不让它们进入产品池。
+
+    公司一手发布优先，但必须给独立作者和公开讨论留位置；
+    否则大厂 changelog 会把全球观察挤掉。
+    """
+    first_party: list[dict[str, Any]] = []
+    independent: list[dict[str, Any]] = []
     for item in store.read_raw(day):
-        if item.extra.get("kind") != "news" or not item.extra.get("official"):
+        if item.extra.get("kind") != "news":
             continue
-        rows.append(
-            {
-                "title": item.title,
-                "url": item.url,
-                "summary": item.summary[:2000],
-                "published_at": item.published_at,
-                "signals": item.metrics,
-            }
-        )
-    # 同一家公司连发多条时仍可由编辑决定不写；这里只限制总量，以免大厂博客
-    # 的密集更新淹没真正的新产品候选。
-    return sorted(rows, key=lambda row: (row["published_at"], row["title"]), reverse=True)[:12]
+        row = {
+            "title": item.title,
+            "url": item.url,
+            "summary": item.summary[:2000],
+            "published_at": item.published_at,
+            "signals": item.metrics,
+            "first_party": bool(item.extra.get("official")),
+        }
+        if row["first_party"]:
+            first_party.append(row)
+        else:
+            independent.append(row)
+    def recency(row: dict[str, Any]) -> tuple[str, str]:
+        return (row["published_at"], row["title"])
+
+    picked = sorted(first_party, key=recency, reverse=True)[:FIRST_PARTY_BUDGET]
+    remaining = NEWS_LIMIT - len(picked)
+    picked.extend(sorted(independent, key=recency, reverse=True)[:remaining])
+    return picked
 
 
 def _read_config(store: Store, filename: str) -> str:
@@ -137,12 +153,23 @@ def _prompt(
 每个候选必须恰好出现一次。decision 只能是 rejected、queued、watching：
 - rejected：不值得公开收录；其余字段可以为空。
 - queued：值得进一步研究；watching：有信号但证据不足。
-非 rejected 必须有 category（只能逐字使用下列之一：{categories}）、不超过 40 个中文字符的 summary_zh、
-20–60 个中文字符的 inspiration、英文 summary_en 与 inspiration_en。
+非 rejected 必须有 category（只能逐字使用下列之一：{categories}）、
+25–50 个中文字符的 summary_zh、50–110 个中文字符的 inspiration、
+以及同等标准的英文 summary_en 与 inspiration_en。
+
+summary_zh 只允许一种句式：谁，在什么场景，得到什么结果。
+禁止功能黑话（操作系统层、技能集合、整合多种能力、AI 驱动）和官网原话。
+写给不懂技术的创业者，不要写成开发者说明书。
+
+inspiration 必须同时写趋势和切入，这是创业方向，不是产品复述：
+- 趋势：这件事说明市场往哪走，比这个产品大一步
+- 切入：从哪个行业、哪类人或哪个环节进入；可写可能的卖法，但没披露的价格不许编
+禁止「可借鉴」「可迁移到其他场景」「平台化思路」「用 AI 提升效率」这类空话。
 priority_review 为 true 的候选是跨通道验证的重大项目：不得 rejected，必须在中英文日报正文里至少点名一次。
 
-一手发布信号只是日报背景，不是产品候选：可在确有影响时用来解释行业变化，
-但不得凭一条公告推断未提供的信息，更不得把公告发布方的新版本改写成一个新产品推荐。
+行业信号只是日报背景，不是产品候选。first_party 为 true 的是公司自己的发布，
+为 false 的是独立观察或公开讨论。可在原文足以支持时用来解释行业变化，
+但不得凭一条公告或一篇评论推断未提供的信息，更不得把新版本改写成一个新产品推荐。
 
 采集渠道是内部实现，绝不能出现在任何输出字段（包括产品摘要、灵感、日报钩子、要点和正文）。
 不得写 Product Hunt、Hacker News、AICPB、Hugging Face、GitHub 或它们的变体；不要把候选里的 source 字段照抄到公开文案。
@@ -178,11 +205,11 @@ JSON 结构严格如下：
 {candidates}
 </candidates_json>
 
-以下是一手发布信号。仅在原文摘要足以支持时，将其作为背景观察；公司、项目或版本名可以提及，
+以下是行业信号。仅在原文摘要足以支持时，将其作为背景观察；公司、项目或版本名可以提及，
 但采集渠道和“RSS / feed / release”等技术来源不得出现在公开文案：
-<official_news_json>
+<industry_news_json>
 {json.dumps(news, ensure_ascii=False)}
-</official_news_json>
+</industry_news_json>
 
 以下是今天已经发布过的旧版日报（可能为空）。若它不为空，保留其中仍有依据的既有观察，
 并把新候选整合进去；不要因增补一条候选而删空旧日报。旧版仅是编辑材料，不是新增事实来源：

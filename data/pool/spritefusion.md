@@ -3,10 +3,12 @@ slug: spritefusion
 name: spritefusion
 builder: HugoDz
 category: AI + 创作
-summary_zh: 生成像素艺术精灵图。
-inspiration: 像素艺术生成可迁移到游戏资产和复古风格设计。
-summary_en: Generating Pixel Art Sprites.
-inspiration_en: Pixel art generation applies to game assets and retro-style design.
+summary_zh: 独立游戏开发者用一句话生成能直接进引擎的像素精灵图
+inspiration: 像素游戏在回潮，免费素材却让每款游戏长得一样。切入点不是再做一个通用生图，而是把对齐网格、能编辑、能进引擎这条活打包，卖给独立开发者。
+summary_en: Indie game makers type one sentence and get pixel sprites that drop straight into the engine.
+inspiration_en: Pixel games are back, but free asset packs make every title look the same. Don't build
+  another generic image generator—pack grid-aligned, editable, engine-ready sprites and sell that workflow
+  to indie developers.
 priority_review: false
 url: https://www.spritefusion.com/pixel-art-gallery
 canonical_url: https://spritefusion.com/pixel-art-gallery

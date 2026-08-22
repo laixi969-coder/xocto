@@ -3,11 +3,13 @@ slug: anime-find
 name: anime-find
 builder: cocofhu
 category: AI + 生活
-summary_zh: DeepSeek Harness搜番插件，多源搜索并展示评分详情。
-inspiration: 将垂直搜索嵌入聊天界面，可迁移至其他内容领域如漫画、电影。
-summary_en: A DeepSeek Harness plugin for searching anime across multiple sources with ratings.
-inspiration_en: Embedding vertical search into chat interfaces could apply to other content domains like
-  manga or movies.
+summary_zh: 边聊边搜番剧，一次看到评分和详情，找到片源就能把链接带走
+inspiration: 趋势是垂直内容搜索会嵌进聊天，而不是再做一个独立网站。独立趋势还不清晰。判断：切入是先把一个圈搜全——搜得到、看得懂、能带走链接，不要做成通用搜索。
+summary_en: Search anime inside the chat, see ratings and details in one card, and copy the link when
+  you find a source.
+inspiration_en: 'The trend is niche search moving into chat instead of another standalone site. The independent
+  trend is still unclear. Judgment: the entry is owning one fandom end to end—find, understand, leave
+  with a link—not a general search box.'
 priority_review: false
 url: https://github.com/cocofhu/anime-find#readme
 canonical_url: https://github.com/cocofhu/anime-find

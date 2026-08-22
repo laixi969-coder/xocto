@@ -3,10 +3,13 @@ slug: hexis
 name: Hexis
 builder: empire23
 category: AI + 开发
-summary_zh: 开源Claude Skills管理工具
-inspiration: 集中管理AI技能，提升复用性
-summary_en: Open-source Claude Skills management.
-inspiration_en: Centralizing AI skill management improves reusability.
+summary_zh: 把团队的 Claude 技能集中存放和分发，换人换机器还能接着用
+inspiration: 趋势是技能文件正在变成团队资产，模型会换、技能要留下。切入不要做技能市场，先给已经在用 Claude 写代码的小团队做仓库：版本、权限、共享。判断：先解决人走了技能还在，再谈市场。
+summary_en: Keep a team’s Claude skills in one place to share, so they still work when people or machines
+  change.
+inspiration_en: 'The trend is skills becoming team property: models swap, the skills must stay. Don’t
+  build a skill marketplace. Enter with a vault for small teams already coding in Claude—versions, permissions,
+  sharing. Judgement: fix “the person left, the skill remains” before you talk marketplace.'
 priority_review: false
 url: https://github.com/Bevel-Software/Hexis
 canonical_url: https://github.com/Bevel-Software/Hexis

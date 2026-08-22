@@ -3,11 +3,13 @@ slug: lexi
 name: Lexi
 builder: Shyam Sunder
 category: AI + 商业
-summary_zh: 法律工作的操作系统，把案子相关的活儿收进一个系统
-inspiration: 喊「操作系统」的垂直产品，实际卖点是把散落在十几个工具里的流程收回一处
-summary_en: ''
-inspiration_en: 'Vertical products that call themselves an operating system are selling one thing: pulling
-  a process out of a dozen tools into one place.'
+summary_zh: 律所用一个工作台处理研究、起草、审查和案件材料，律师只留下判断和客户
+inspiration: 趋势是垂直工作台真正在卖的，是把散落在十几个工具里的流程收回一处。不要做单点合同审查，先切律所机械活：时间线、初稿、风险条款。企业谈价，公开标价未披露。
+summary_en: A law firm runs research, drafting, review, and case files in one bench, and lawyers keep
+  judgment and the client.
+inspiration_en: 'The trend is that vertical benches sell one thing: pulling a process out of a dozen tools.
+  Don''t ship standalone contract review. Start with firm grunt work — timelines, first drafts, risky
+  clauses. Enterprise pricing; the public list price is undisclosed.'
 priority_review: false
 url: https://www.producthunt.com/products/lexi-5
 canonical_url: https://producthunt.com/products/lexi-5

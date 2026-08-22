@@ -3,11 +3,13 @@ slug: dsh-better-sidebar
 name: DSH-better-sidebar
 builder: omdsh-dev
 category: AI + 开发
-summary_zh: DSH侧边栏完整工作台，支持文件编辑、终端、Git等。
-inspiration: 把IDE能力塞进侧边栏，让agent交互更接近完整开发环境。
-summary_en: A full workbench in the DSH sidebar, with file editing, terminal, Git, and sub-agents.
-inspiration_en: Packing IDE capabilities into a sidebar brings agent interaction closer to a full dev
-  environment.
+summary_zh: AI 改文件时，目录、编辑、终端和改动对比都在侧边，人不用来回切窗口
+inspiration: 趋势是对话式 AI 正在长成完整工位。不要做又一个编辑器，先给写代码、改文档的人把看结果、看改动、回滚收进同一块侧栏。收费未披露。
+summary_en: While AI edits files, the folder tree, editor, terminal, and diffs sit in one sidebar, so
+  people stop hopping across windows.
+inspiration_en: The trend is conversational AI growing into a full workstation. Don't ship another editor.
+  Start with writers of code and documents who need to see results, diffs, and rollback in one side panel.
+  Pricing is undisclosed.
 priority_review: false
 url: https://github.com/omdsh-dev/DSH-better-sidebar
 canonical_url: https://github.com/omdsh-dev/DSH-better-sidebar

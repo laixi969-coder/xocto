@@ -3,11 +3,13 @@ slug: graph-engineering
 name: graph-engineering
 builder: codejunkie99
 category: 基础层
-summary_zh: 给 agent 用的知识图谱工程，九个阶段的流水线
-inspiration: 知识图谱在 AI 时代第二次翻红，这次是因为 agent 需要结构化的世界模型
-summary_en: ''
-inspiration_en: Knowledge graphs are having a second moment, this time because agents need a structured
-  model of the world.
+summary_zh: 把知识图谱九步做法教给写代码的 AI，用你自己的项目当场练，而不是再啃一门课
+inspiration: 趋势是知识图谱因 AI 需要结构化世界模型而二次翻红。不要急着自建图谱，先给知识库、投研、客服判断何时用图、何时检索就够。课程开源，咨询怎么收费未披露。
+summary_en: A nine-step knowledge-graph method is taught to coding AI on your own project, instead of
+  making you sit through another course.
+inspiration_en: The trend is knowledge graphs having a second life because agents need a structured world
+  model. Don't rush to build a graph. Start with knowledge bases, research, and support, and decide when
+  a graph is needed versus search. The course is open; consulting fees are undisclosed.
 priority_review: false
 url: https://github.com/codejunkie99/graph-engineering
 canonical_url: https://github.com/codejunkie99/graph-engineering

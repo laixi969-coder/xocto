@@ -3,11 +3,13 @@ slug: duckdisk
 name: DuckDisk
 builder: puppypi
 category: AI + 效率
-summary_zh: 以表格方式分析 Mac、云端和 SSH 上的存储占用
-inspiration: 老工具换个数据呈现方式就是新产品，表格 vs 图形是两种完全不同的思维
-summary_en: ''
-inspiration_en: An old tool with a new way of presenting the data is a new product. Tables and charts
-  are two different ways of thinking.
+summary_zh: Mac 用户用一张密实表格查清本地盘、云盘和远程盘到底是谁占着空间
+inspiration: 趋势是分析工具从「画得好看」转向「答得清楚」。不要再做磁盘地图，先给反复清理电脑、对账云盘占用的人做能下钻的表格。免费开源，团队报告怎么卖还未披露。
+summary_en: On a Mac, a dense table shows exactly which folders eat space on local disks, cloud drives,
+  and remote machines.
+inspiration_en: The trend is analysis tools moving from pretty pictures to answers you can act on. Don't
+  ship another disk map. Start with people who repeatedly clean machines and reconcile cloud usage, using
+  a drill-down table. It is free and open; a paid team-report path is undisclosed.
 priority_review: false
 url: https://www.producthunt.com/products/duckdisk
 canonical_url: https://producthunt.com/products/duckdisk

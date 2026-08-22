@@ -3,11 +3,13 @@ slug: git-knife
 name: Git-knife
 builder: YonathanTesfaye
 category: ''
-summary_zh: 桌面软件，像编辑电子表格一样改 git 提交的元数据（信息、作者、日期），还能批量查找替换
-inspiration: 把大家都默认做不到的操作做成 GUI——主流工具刻意放弃的能力，就是空白市场
-summary_en: ''
-inspiration_en: Turning what everyone assumes is impossible into a GUI — the capabilities mainstream tools
-  deliberately give up are open market gaps.
+summary_zh: 像改表格一样改代码提交的作者、日期和说明，还能批量替换，并且留备份
+inspiration: 趋势是主流工具放弃的脏活正在变成新产品。不要做完整历史编辑器，先切改错邮箱、对齐历史日期、收拾 AI 写乱的提交身份，做成可撤销的桌面刀。收费未披露。
+summary_en: Edit a commit's author, date, and message like a spreadsheet, with bulk find-replace and a
+  backup before each rewrite.
+inspiration_en: The trend is that dirty jobs mainstream tools refuse are becoming new products. Don't
+  build a full history editor. Start with fixing emails, aligning historical dates, and cleaning identities
+  AI scrambled — a desktop knife that can undo. Pricing is undisclosed.
 priority_review: false
 url: https://github.com/TheRealYT/git-knife
 canonical_url: https://github.com/TheRealYT/git-knife

@@ -3,11 +3,13 @@ slug: dsh-agent-teams
 name: dsh-agent-teams
 builder: NanmiCoder
 category: AI + 开发
-summary_zh: 为DeepSeek Harness提供多agent团队协作插件。
-inspiration: 多agent协作从一次性调度升级为可治理的团队，是agent工程化的方向。
-summary_en: AgentTeams plugin for DeepSeek Harness, enabling multi-agent team collaboration.
-inspiration_en: Multi-agent collaboration evolving from one-off orchestration to governed teams is the
-  direction of agent engineering.
+summary_zh: 一句话拉起一组 AI 帮手，各自领任务、直接通气，不用人来回传话和汇总
+inspiration: 趋势是 AI 从单兵变成可治理的小队。不要做通用多智能体平台，先切调研、审查、客服排班这种必须拆角色、对进度负责的活。收费未披露。
+summary_en: One sentence spins up a team of AI helpers that take tasks and talk to each other, so people
+  stop ferrying messages and stitching results.
+inspiration_en: The trend is AI moving from solo operators to governable squads. Don't build a generic
+  multi-agent platform. Start with research, review, and support staffing — work that must split roles
+  and own progress. Pricing is undisclosed.
 priority_review: false
 url: https://github.com/NanmiCoder/dsh-agent-teams
 canonical_url: https://github.com/NanmiCoder/dsh-agent-teams

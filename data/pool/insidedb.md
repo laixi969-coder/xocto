@@ -3,10 +3,13 @@ slug: insidedb
 name: Insidedb
 builder: davai-g
 category: AI + 效率
-summary_zh: 交互式动画讲解数据库内部原理
-inspiration: 把难懂的东西做成可交互的解释，是内容变产品最直接的一条路
-summary_en: ''
-inspiration_en: Making something hard to grasp interactive is the most direct route from content to product.
+summary_zh: 插入一个键、拔一次电，亲眼看数据库怎么分裂节点、怎么把刚写入的数据救回来
+inspiration: 趋势是难懂原理正在从文章变成可玩的东西。不要做完整课程平台，先切数据库、支付清算、仓储调度这种必须看见内部才放心的知识。此页免费，培训怎么卖未披露。
+summary_en: Insert a key or pull the plug, and watch a database split a node or recover the write you
+  just made.
+inspiration_en: The trend is hard internals leaving essays and becoming things you can play. Don't build
+  a full course platform. Start with databases, payment clearing, and warehouse routing — knowledge people
+  only trust after seeing inside. This page is free; how training would be sold is undisclosed.
 priority_review: false
 url: https://david-g-3654.github.io/insidedb/
 canonical_url: https://david-g-3654.github.io/insidedb

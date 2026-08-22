@@ -3,10 +3,13 @@ slug: awesome-deepseek-harness
 name: awesome-deepseek-harness
 builder: 0xsline
 category: AI + 开发
-summary_zh: DeepSeek Harness生态的插件、工具和基础设施精选列表。
-inspiration: 围绕单一模型的生态聚合站，可借鉴其构建开发者工具链的模式。
-summary_en: Curated list of plugins, tools, and infrastructure for the DeepSeek Harness ecosystem.
-inspiration_en: Ecosystem aggregation around a single model offers a pattern for building developer toolchains.
+summary_zh: 把 DeepSeek 助手能装的插件按用途编成目录，一行一个、持续更新
+inspiration: 趋势是助手生态一散，第一入口就变成目录。切入不要做又一个插件，先做分类索引：按谁在哪一步会用编排，靠收录和咨询变现，现在还没收费。
+summary_en: A living directory of add-ons for the DeepSeek assistant, one line and one link per item,
+  grouped by what they do.
+inspiration_en: The trend is that once an assistant ecosystem scatters, the first door becomes a directory.
+  The entry is not another add-on — an index by who uses it at which step, later money from listing and
+  consulting. No fees yet.
 priority_review: false
 url: https://deepseekdocs.com/
 canonical_url: https://deepseekdocs.com

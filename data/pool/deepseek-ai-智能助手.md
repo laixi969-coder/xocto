@@ -3,11 +3,13 @@ slug: deepseek-ai-智能助手
 name: DeepSeek - AI 智能助手
 builder: ''
 category: 通用助手
-summary_zh: DeepSeek 的移动端助手，搜索写作阅读解题翻译
-inspiration: 同一个模型分网页端和 App 两条产品线，是国内大厂的标准打法
-summary_en: 'DeepSeek''s mobile assistant: search, writing, reading, problem solving, translation.'
-inspiration_en: Splitting one model into a web product and an app product is standard practice for Chinese
-  platforms.
+summary_zh: DeepSeek 的手机助手：同一套模型，用来搜索、写作、阅读、解题和翻译
+inspiration: 趋势是同一模型会拆成网页和 App 两条入口，手机吃碎片时间。切入别再做通用聊天，去做搜题、翻译、通勤写作这种手机上的短任务；C 端免费，变现仍在接口。
+summary_en: 'DeepSeek''s phone assistant: the same model, for search, writing, reading, problem-solving,
+  and translation on the go.'
+inspiration_en: The trend is one model split into a website and a phone app, with the phone taking scraps
+  of time. The entry is not another general chat — homework lookup, translation, and commute writing.
+  Consumer use is free; money still sits on the API.
 priority_review: false
 url: https://www.aicpb.com/product/DeepSeek-AI-智能助手/appid1D6F37A51
 canonical_url: https://aicpb.com/product/DeepSeek-AI-智能助手/appid1D6F37A51

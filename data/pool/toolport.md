@@ -3,11 +3,13 @@ slug: toolport
 name: Toolport
 builder: Tyler
 category: 基础层
-summary_zh: 所有 agent 共用一套 MCP 配置，一个端口接全部工具
-inspiration: 配置的复杂度是采用率的隐形杀手，做「统一入口」的产品经常被低估
-summary_en: ''
-inspiration_en: Configuration complexity quietly kills adoption. Products that build a single front door
-  are routinely underrated.
+summary_zh: 所有AI助手走同一道门接外部工具，密钥锁在电脑里不再到处粘贴
+inspiration: AI每多接一个工具，配置就要在每个软件里重做一遍，密钥还明文乱放。切入点不是再做一个工具集市，而是卖「配一次、处处能用、密钥不出本机」给同时开好几套助手的团队。
+summary_en: One local doorway for every AI assistant to reach its tools, with secrets locked on the machine
+  instead of pasted everywhere.
+inspiration_en: Each extra tool an AI uses gets reconfigured in every app, often with keys in plain text.
+  Don't build another tool bazaar—sell “configure once, use everywhere, keys never leave the machine”
+  to teams running several assistants at once.
 priority_review: false
 url: https://www.producthunt.com/products/conduit-12
 canonical_url: https://producthunt.com/products/conduit-12

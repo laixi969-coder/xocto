@@ -3,10 +3,13 @@ slug: agent-vision-toolkit
 name: agent-vision-toolkit
 builder: Anionex
 category: AI + 开发
-summary_zh: 为纯文本模型提供视觉工具箱，支持图片问答、OCR、UI还原等。
-inspiration: 把视觉能力做成插件，让纯文本模型也能看图，是补足模型短板的思路。
-summary_en: A vision toolkit for text-only LLMs, enabling image Q&A, OCR, and UI restoration.
-inspiration_en: Packaging vision as a plugin to fill a model gap is a reusable pattern.
+summary_zh: 给只会读字的 AI 装眼睛：带着任务看图，标位置、认字、还原界面
+inspiration: 趋势是纯文本助手也要能看截图才能干活。切入做还原网页、客服看图答疑、按界面点软件这类必须看图的步骤，看图费用交给上游模型，自己先别抽成。
+summary_en: 'Gives a text-only AI eyes: it looks at pictures with a task in mind, then locates objects,
+  reads text, and rebuilds screens.'
+inspiration_en: The trend is that text-only assistants cannot finish real work until they can see screenshots.
+  The entry is rebuilding a page, answering from a photo in support, or clicking a UI — pay the vision
+  model upstream and do not skim a cut yet.
 priority_review: false
 url: https://agent-vision.anionex.me
 canonical_url: https://agent-vision.anionex.me

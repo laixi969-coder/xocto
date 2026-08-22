@@ -3,11 +3,13 @@ slug: pyrig
 name: Pyrig
 builder: Winipedia
 category: AI + 效率
-summary_zh: 自动化项目初始化和日常维护的工具
-inspiration: 重复的开头工作是最适合自动化的，因为标准明确、犯错代价低
-summary_en: ''
-inspiration_en: 'Repetitive setup work is the best automation target: the standard is clear and mistakes
-  are cheap.'
+summary_zh: 新项目开工不再每次手工配检查和发布流程，以后规范升级也能跟着更新。
+inspiration: 模板只能生成一次，项目长大后规范全过时。趋势是开工模板要变成持续维护；切入是 Python 团队的项目初始化。开源免费。
+summary_en: A new project no longer means hand-wiring checks and release each time. When the standard
+  moves, the project can catch up.
+inspiration_en: Templates generate once, then the project grows and the standard goes stale. The trend
+  is the start-of-project scaffold becoming ongoing maintenance. The entry is Python teams initializing
+  a repo. Open-source and free.
 priority_review: false
 url: https://github.com/Winipedia/pyrig
 canonical_url: https://github.com/Winipedia/pyrig

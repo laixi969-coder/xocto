@@ -3,11 +3,13 @@ slug: ai-pulse
 name: ai-pulse
 builder: leog_me
 category: AI + 效率
-summary_zh: Mac 程序坞旁边一条假的灯带，显示 agent 在干嘛
-inspiration: agent 在后台跑的时候用户是焦虑的，一个状态指示灯解决的是心理问题不是功能问题
-summary_en: ''
-inspiration_en: People are anxious while an agent works out of sight. A status light solves a feeling,
-  not a function.
+summary_zh: 在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了
+inspiration: 趋势是后台 AI 一干活，人就开始焦虑。切入不要做通用状态大盘，先做桌面助手的「还在跑吗」指示：灯只报状态、不读内容，这需求以后多半被大厂内置。
+summary_en: A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting,
+  or stuck.
+inspiration_en: The trend is that people get anxious the moment an AI works out of sight. The entry is
+  not a generic status board — a “is it still running?” light for desktop assistants, status only, no
+  content. Big vendors will likely bake this in later.
 priority_review: false
 url: https://github.com/leog/ai-pulse
 canonical_url: https://github.com/leog/ai-pulse

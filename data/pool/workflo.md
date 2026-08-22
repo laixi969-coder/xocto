@@ -3,11 +3,13 @@ slug: workflo
 name: Workflo
 builder: Chirag Chopra
 category: AI + 效率
-summary_zh: Mac 工作区自动化，但从不读取你的屏幕
-inspiration: 把「我们不看什么」写进定位，隐私正在从合规项变成营销点
-summary_en: ''
-inspiration_en: Putting “what we don't look at” in the positioning. Privacy is moving from a compliance
-  item to a marketing one.
+summary_zh: 开会前自动把窗口摆到位，并且从根上就读不到你的屏幕内容
+inspiration: 隐私正在从口头承诺变成能被验证的产品边界。切入点不是再做一个窗口排列器，而是把看不见屏幕写成架构事实，卖给每天切场景又不愿被录屏的人。
+summary_en: Lays out your Mac windows before the meeting starts, and is built so it cannot read what is
+  on the screen.
+inspiration_en: Privacy is moving from a verbal promise to a boundary you can verify. Don't ship another
+  window tiler—make “we cannot see the screen” an architectural fact, and sell it to people who switch
+  contexts all day and refuse to be recorded.
 priority_review: false
 url: https://www.producthunt.com/products/workflo-2
 canonical_url: https://producthunt.com/products/workflo-2

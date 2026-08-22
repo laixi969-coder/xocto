@@ -59,9 +59,6 @@
       <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">{{ t.nav.home }}</a>
       <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">{{ t.nav.products }}</a>
       <a href="{{ root }}takeaways.html" class="{{ 'on' if page == 'takeaways' }}">{{ t.nav.takeaways }}</a>
-      {% if reports %}
-      <a href="{{ root }}reports.html" class="{{ 'on' if page == 'reports' }}">{{ t.nav.reports }}</a>
-      {% endif %}
     </nav>
     <div class="top-tools">
       {# lang 属性要标对：读屏遇到「中文」两个字才会切到中文发音 #}
@@ -95,9 +92,9 @@
     <span>{{ t.footer.counts.format(total=stats.total, analysed=stats.analysed) }}</span>
     <span class="gen">{{ t.footer.asof.format(day=latest_day) }}</span>
     <span>·</span>
-    <a href="{{ root }}methodology.html">{{ t.footer.methodology }}</a>
+    <a href="{{ root }}reports.html">{{ t.nav.reports }}</a>
     <span>·</span>
-    <a href="{{ root }}takeaways.html">{{ t.nav.takeaways }}</a>
+    <a href="{{ root }}methodology.html">{{ t.footer.methodology }}</a>
     <span>·</span>
     <a href="{{ root }}privacy.html">{{ t.footer.privacy }}</a>
   </footer>

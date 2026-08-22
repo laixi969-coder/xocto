@@ -3,11 +3,13 @@ slug: ante
 name: Ante
 builder: ubermon
 category: AI + 开发
-summary_zh: 单个二进制文件的编程 agent，断网也能跑
-inspiration: 「一个文件、双击就用」在开发者工具里是被低估的卖点，安装成本决定了多少人会试
-summary_en: ''
-inspiration_en: One file, double-click, done. Install cost is badly underrated in developer tools — it
-  decides how many people ever try.
+summary_zh: 一个文件就能用的写代码助手，断网也能在本机改代码、跑测试
+inspiration: 趋势是写代码助手要能离线、免安装，才进得了保密机房。切入做金融、军工、内网研发这类不能联网的团队，先免费圈人；托管是否收费尚未披露。
+summary_en: A coding assistant in a single file that can edit code and run tests on the machine even with
+  no network.
+inspiration_en: The trend is that coding assistants must run offline and install as one file before they
+  are allowed in locked rooms. The entry is finance, defense, and intranet teams that cannot go online.
+  It is free for now; whether hosting will be billed is undisclosed.
 priority_review: false
 url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante

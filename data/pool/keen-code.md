@@ -3,10 +3,13 @@ slug: keen-code
 name: Keen Code
 builder: mochow13
 category: AI + 开发
-summary_zh: 用 agent 工程方法造出来的编程 agent
-inspiration: 拿自己的产品造自己的产品，这个故事本身就是最好的销售材料
-summary_en: ''
-inspiration_en: Building your product with your product is the best sales material you will ever write.
+summary_zh: 这个写代码助手是用 AI 造出来的：人当编排者，代码交给助手写，过程可公开检查
+inspiration: 趋势是「用自己的产品造自己」正在成为最硬的销售材料。不要再堆功能，先把开发过程公开成可检查的方法，卖流程可信，不是又一个助手。开源免费，付费路径未披露。
+summary_en: 'This coding assistant was built by AI: humans orchestrate, the assistant writes, and the
+  process is open to inspect.'
+inspiration_en: The trend is “built with our own product” becoming the hardest sales proof. Don't pile
+  on features. Publish the development loop as a method you can audit, and sell trust in the process,
+  not another assistant. Open and free; a paid path is undisclosed.
 priority_review: false
 url: https://github.com/mochow13/keen-code
 canonical_url: https://github.com/mochow13/keen-code

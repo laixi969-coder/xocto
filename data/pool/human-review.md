@@ -3,11 +3,13 @@ slug: human-review
 name: human-review
 builder: petergyang
 category: AI + 开发
-summary_zh: 像批注 Google 文档一样给 AI 的产出留意见
-inspiration: 反馈的形态决定采纳率，让人用熟悉的批注方式说话，比教他写 prompt 快
-summary_en: ''
-inspiration_en: The shape of feedback decides whether it gets used. Letting people comment the way they
-  already do beats teaching them to write prompts.
+summary_zh: 像批文档一样在成品上直接改字、留评论，一次打包给 AI 去改，不用口述第几段
+inspiration: 趋势是人把意见交给 AI 的方式，比提示词更决定能不能被听进去。不要教人写指令，先给落地页、方案、手册做熟悉的批注界面。工具免费，靠课程和内容变现。
+summary_en: Edit words and leave comments on the finished page like a shared doc, then send the bundle
+  to AI, instead of describing “paragraph three.”
+inspiration_en: The trend is that the shape of feedback decides whether AI actually takes it, more than
+  the prompt. Don't teach people to write instructions. Start with landing pages, briefs, and manuals
+  using a comment UI they already know. The tool is free; money sits in courses and content.
 priority_review: false
 url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually
 canonical_url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually

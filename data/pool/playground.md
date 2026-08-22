@@ -3,11 +3,13 @@ slug: playground
 name: playground
 builder: zachdotai
 category: 基础层
-summary_zh: 开源的红队演练场，用公开提示词攻击 AI agent
-inspiration: 攻击工具永远先于防御工具成熟，安全测试是 agent 落地前的必经环节
-summary_en: ''
-inspiration_en: Attack tools always mature before defensive ones. Security testing is unavoidable before
-  agents ship.
+summary_zh: 每周公开一场：把带真工具的助手放上台守秘密，谁攻破谁赢，全过程公示。
+inspiration: 雇红队贵、自己测视角死。趋势是助手上线前的安全测试会变成刚需；切入是把攻击做成公开挑战，攒别人攒不出的攻击实录，再卖企业防护。挑战赛免费。
+summary_en: Each week a live assistant with real tools is put on stage to guard a secret. Whoever breaks
+  it wins, and the full record is public.
+inspiration_en: Hiring a red team is expensive; testing yourself has a dead angle. The trend is security
+  tests before an assistant ships becoming a must. The entry is turning attacks into a public challenge,
+  stockpiling records others cannot buy, then selling enterprise defense. The contest is free.
 priority_review: false
 url: https://playground.fabraix.com/
 canonical_url: https://playground.fabraix.com

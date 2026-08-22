@@ -3,11 +3,13 @@ slug: kimi
 name: Kimi
 builder: ''
 category: AI + 效率
-summary_zh: 月之暗面 Kimi 的国际站
-inspiration: 国产模型出海先做的都是网页版，因为绕开了应用商店的审核和分成
-summary_en: The international site for Moonshot's Kimi.
-inspiration_en: Chinese models going abroad start with the web, because it skips app store review and
-  revenue share.
+summary_zh: 海外用户打开网页用上月之暗面的 Kimi，按用量付，价格是闭源巨头的零头
+inspiration: 趋势是国产模型出海先走网页和接口，绕开应用商店。不要正面打聊天习惯，先切海外开发者的编程和代理调用，用低价和开源权换用量。消费订阅十九到三十九美元。
+summary_en: Overseas users open a web page to use Moonshot's Kimi, pay by usage, and spend a fraction
+  of closed-model prices.
+inspiration_en: The trend is Chinese models going abroad first on the web and APIs, skipping app stores.
+  Don't fight chat habits head-on. Start with overseas developers' coding and agent calls, trading low
+  price and open weights for volume. Consumer plans are nineteen to thirty-nine dollars.
 priority_review: false
 url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
 canonical_url: https://aicpb.com/product/Kimi/appid1D6F332E1

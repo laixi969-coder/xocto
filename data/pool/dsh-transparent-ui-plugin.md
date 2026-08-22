@@ -3,11 +3,13 @@ slug: dsh-transparent-ui-plugin
 name: DSH-Transparent-UI-Plugin
 builder: WYH66666666
 category: AI + 效率
-summary_zh: DeepSeek Harness的玻璃质感主题插件，可自定义模糊度。
-inspiration: UI定制化插件可提升工具美观度，类似主题市场，可迁移至其他开发工具。
-summary_en: A glassmorphism theme plugin for DeepSeek Harness with customizable blur.
-inspiration_en: UI customization plugins enhance tool aesthetics, similar to theme marketplaces, applicable
-  to other dev tools.
+summary_zh: 给DeepSeek Harness网页换上可调模糊的玻璃皮肤，关掉就回到原样
+inspiration: 趋势是干活工具也会先被皮肤和主题抢走一批人。独立趋势还不清晰。判断：切入是做可关、不改原软件的一层皮；主题难单独成大生意，除非做成这个生态的默认外观商店。
+summary_en: Give the DeepSeek Harness web page a frosted-glass skin you can tune, and switch it off to
+  go back.
+inspiration_en: 'The trend is work tools losing a first crowd to skins and themes. The independent trend
+  is still unclear. Judgment: the entry is a layer you can turn off without touching the original; themes
+  rarely become a big business unless they become the default look shop.'
 priority_review: false
 url: https://github.com/WYH66666666/DSH-Transparent-UI-Plugin
 canonical_url: https://github.com/WYH66666666/DSH-Transparent-UI-Plugin

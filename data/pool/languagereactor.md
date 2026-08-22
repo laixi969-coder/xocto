@@ -3,11 +3,13 @@ slug: languagereactor
 name: languagereactor
 builder: ''
 category: AI + 生活
-summary_zh: 看剧学语言的工具，月访问 259 万，环比涨 54%
-inspiration: 把学习嵌进原本就会做的娱乐活动，可能比额外安排一段学习时间更容易形成留存
-summary_en: Learn a language from the shows you already watch. 2.59M monthly visits, up 54%.
-inspiration_en: Embedding learning in entertainment people already choose may make retention easier than
-  asking them to add a separate study session.
+summary_zh: 看剧时双语字幕、点词即查、存进复习库，学习发生在本来就要看的片子上
+inspiration: 趋势是学习嵌进已有娱乐，比另开一段学习时间更容易留住。不要做课程，先切看剧学外语这一个环节。免费基本可用，专业版年付约四十美元，维护跟不上会丢口碑。
+summary_en: While you watch a show, dual subtitles, tap-to-define, and a vocab bank ride along, so study
+  happens on the episode you were going to watch anyway.
+inspiration_en: The trend is learning that hitchhikes on entertainment people already choose, beating
+  a separate study block. Don't build a course. Own the watch-and-learn step. The free tier works; Pro
+  is about forty dollars a year. Slow upkeep will spend the reputation.
 priority_review: false
 url: https://www.aicpb.com/product/languagereactor/webid1D6F37AB1
 canonical_url: https://aicpb.com/product/languagereactor/webid1D6F37AB1

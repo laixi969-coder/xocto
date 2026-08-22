@@ -3,11 +3,13 @@ slug: the-new-firecrawl-mcp
 name: The new Firecrawl MCP
 builder: Eric Ciarla
 category: AI + 开发
-summary_zh: 给任意 MCP 客户端提供网页内容抓取
-inspiration: agent 时代的基础设施在重演云计算早期：谁做成默认选项谁通吃
-summary_en: ''
-inspiration_en: 'Agent-era infrastructure is replaying early cloud: whoever becomes the default takes
-  everything.'
+summary_zh: 让任何智能助手直接读到干净的实时网页，不必自己再养抓取
+inspiration: AI要用网页，每家都在重复造同一条抓取能力，谁做成默认谁通吃。切入点不是再做一个爬虫，而是成为助手厂商懒得自建时那条现成的水管。
+summary_en: Lets any AI assistant read a live web page as clean text, so teams stop maintaining their
+  own scrapers.
+inspiration_en: Every AI product now needs the live web, and most are rebuilding the same fetch pipeline.
+  Whoever becomes the default takes the lane. Don't ship another crawler—be the ready-made pipe assistant
+  makers use because building their own is a chore.
 priority_review: false
 url: https://www.producthunt.com/products/extract-by-firecrawl
 canonical_url: https://producthunt.com/products/extract-by-firecrawl

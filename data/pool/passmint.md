@@ -3,11 +3,13 @@ slug: passmint
 name: passmint
 builder: alexpate
 category: AI + 效率
-summary_zh: 用 Node.js 签发苹果和谷歌钱包的卡券
-inspiration: 钱包卡券是被低估的触达渠道——它常驻在手机里，不用装 App 也不会被卸载
-summary_en: ''
-inspiration_en: 'Wallet passes are an underrated channel: they live on the phone permanently, need no
-  app install, and never get deleted.'
+summary_zh: 活动票、会员卡一次生成，同时进苹果钱包和谷歌钱包，不用单独再装应用。
+inspiration: 钱包卡券常驻手机、不会被卸载，是被低估的触达渠道。趋势是免装应用的凭证回暖；切入是活动票和会员卡的签发。库免费，托管服务收费未披露。
+summary_en: Issue event tickets and membership cards once, and they land in Apple Wallet and Google Wallet
+  — no extra app install.
+inspiration_en: Wallet passes live on the phone and never get uninstalled — an underrated channel. The
+  trend is credentials that need no app. The entry is issuing event tickets and membership cards. The
+  library is free; hosted pricing is undisclosed.
 priority_review: false
 url: https://github.com/getpassmint/passmint
 canonical_url: https://github.com/getpassmint/passmint

@@ -3,10 +3,13 @@ slug: thoughtdag
 name: ThoughtDAG
 builder: chatchan
 category: AI + 效率
-summary_zh: LLM 对话的可编辑上下文图
-inspiration: 将对话组织成图结构，可迁移到知识管理或复杂推理
-summary_en: An editable context graph for LLM conversations
-inspiration_en: Organizing conversations as graphs, applicable to knowledge management or complex reasoning
+summary_zh: 跟 AI 聊天不再一条线往下滚，思路可以分叉、合并，改一处不影响别处
+inspiration: 趋势是长对话会把自己绕死，图结构比聊天记录更像思考。切入先做调研、尽调、技术方案这种必须并列多条线索、改一处不能全篇作废的活。
+summary_en: 'Chatting with an AI is no longer one scrolling line: ideas can branch and merge, and editing
+  one node does not wreck the rest.'
+inspiration_en: The trend is long chats tying themselves in knots; a graph looks more like thinking than
+  a transcript. Enter research, due diligence, and technical plans—work that must hold several threads
+  and cannot void the whole draft for one edit.
 priority_review: false
 url: https://chenxiachan.github.io/thoughtdag/
 canonical_url: https://chenxiachan.github.io/thoughtdag

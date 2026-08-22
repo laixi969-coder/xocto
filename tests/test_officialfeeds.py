@@ -35,6 +35,24 @@ class OfficialFeedTests(unittest.TestCase):
         self.assertTrue(all(item.extra["official"] for item in rows))
         self.assertEqual(rows[0].summary, "A first-party update.")
 
+    def test_independent_writer_feed_is_news_but_not_first_party(self) -> None:
+        rows = fetch(
+            {
+                "lookback_hours": 72,
+                "feeds": [
+                    {
+                        "name": "Independent",
+                        "url": "https://example.com/rss.xml",
+                        "official": False,
+                    }
+                ],
+            },
+            FakeHttp(),
+        )
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0].extra["kind"], "news")
+        self.assertFalse(rows[0].extra["official"])
+
 
 if __name__ == "__main__":
     unittest.main()

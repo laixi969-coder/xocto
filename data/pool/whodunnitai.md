@@ -3,10 +3,13 @@ slug: whodunnitai
 name: whodunnitai
 builder: MrRowTheBoat
 category: AI + 生活
-summary_zh: 语音驱动的谋杀推理游戏，用嘴审问 AI 嫌疑人
-inspiration: 语音交互在游戏里比在工具里自然得多，因为「说话」本来就是玩法的一部分
-summary_en: ''
-inspiration_en: Voice fits games far better than tools, because talking is already part of the play.
+summary_zh: 用嘴审问五个会撒谎的AI嫌疑人，十几分钟内指认谁是凶手
+inspiration: 语音在游戏里比在工具里更能容错，说错一句反而像角色在说谎。切入点不是再做侦探游戏，而是把要凑一桌的剧本杀压成一个人对着麦克风就能玩的短局。
+summary_en: Interrogate five AI suspects out loud, catch them lying, and name the killer in about fifteen
+  minutes.
+inspiration_en: Voice is far more forgiving in games than in tools—a wrong word reads as a suspect lying.
+  Don't clone another mystery title—compress “live murder mystery needs a group” into a short session
+  one person can play into a mic.
 priority_review: false
 url: https://www.whodunnitai.com/
 canonical_url: https://whodunnitai.com

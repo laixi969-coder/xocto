@@ -3,11 +3,14 @@ slug: harnessrouter-community-edition
 name: HarnessRouter Community Edition
 builder: Garry Tan
 category: AI + 开发
-summary_zh: 开源统一接口，用于代理工具链。
-inspiration: 统一接口可简化多代理管理，类似API网关，可迁移至其他工具链。
-summary_en: Open-source unified interface for agent harnesses.
-inspiration_en: Unified interfaces simplify multi-agent management, like API gateways, applicable to other
-  toolchains.
+summary_zh: 在自己机器上用同一套接口跑多种编程代理，数据和钥匙不出门
+inspiration: 趋势是同一套代理接口会同时出现云版和自建版，要数据不出门的公司会要后者。切入先帮金融、医疗、政企把编程代理跑在内网。判断：开源自建用来获客，钱在安装、升级和值守。
+summary_en: Run several coding agents on your own machines through the same interface, so data and keys
+  never leave.
+inspiration_en: 'The trend is one agent contract splitting into cloud and self-hosted; firms that cannot
+  let data out will take the latter. Enter by putting coding agents on the internal network for finance,
+  healthcare, and government. Judgement: open self-hosting wins the trial; money is in install, upgrades,
+  and babysitting.'
 priority_review: false
 url: https://www.producthunt.com/products/epsilla
 canonical_url: https://producthunt.com/products/epsilla

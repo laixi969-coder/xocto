@@ -3,11 +3,13 @@ slug: grok-imagine-20
 name: Grok Imagine 2.0
 builder: Sachin Soundar
 category: AI + 创作
-summary_zh: 马斯克 xAI 的图像生成器，支持按区域分割编辑
-inspiration: 大厂把「局部重绘」做成标配后，只做这一个功能的小工具会集体消失
-summary_en: ''
-inspiration_en: Once the big labs ship region-level editing as standard, the single-feature tools built
-  on it disappear together.
+summary_zh: 用 Grok 改图时魔棒点哪改哪，还能抠背景、拼多张，不必再把人带进修图软件
+inspiration: 趋势是局部重绘正在变成大厂标配。不要再做单功能修图小工具，先切电商主图、头像、海报这种必须反复改局部的场景。标准档每张两美分，单功能工具会被吞掉。
+summary_en: In Grok, a wand edits only the spot you point at, plus background removal and multi-image
+  blend, so people leave the retouching app.
+inspiration_en: The trend is region editing becoming table stakes at big labs. Don't ship another single-feature
+  retouch toy. Start with product shots, headshots, and posters that need repeated local edits. Standard
+  API is two cents a still; single-feature tools get swallowed.
 priority_review: false
 url: https://www.producthunt.com/products/grok
 canonical_url: https://producthunt.com/products/grok

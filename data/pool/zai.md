@@ -3,11 +3,12 @@ slug: zai
 name: Z.ai
 builder: ''
 category: 通用助手
-summary_zh: 智谱的 Z.ai 国际站
-inspiration: 国内模型厂商用独立域名做海外版，是在规避品牌关联带来的合规审视
-summary_en: ''
-inspiration_en: A separate domain for the overseas version avoids the compliance scrutiny that comes with
-  the brand association.
+summary_zh: 智谱给海外用户的对话和接口入口Z.ai，月访问已经超过一千万
+inspiration: 国产模型出海，改界面远不如让老用户零成本换过来。切入点不是再做一个中文聊天站，而是做成国外常用编程助手的平替——同一套用法，换个地址就能跑。
+summary_en: Zhipu's overseas door for chat and APIs, Z.ai. Monthly visits already exceed ten million.
+inspiration_en: Taking a Chinese model abroad is less about a new UI than about zero switching cost. Don't
+  clone another Chinese chatbot—become a drop-in stand-in for the coding assistant people already use.
+  Same habits, new address.
 priority_review: false
 url: https://www.aicpb.com/product/Z.ai/webid1D6F37C91
 canonical_url: https://aicpb.com/product/Z.ai/webid1D6F37C91

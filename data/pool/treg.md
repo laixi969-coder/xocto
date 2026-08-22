@@ -3,10 +3,13 @@ slug: treg
 name: Treg
 builder: Jason Zhou
 category: 基础层
-summary_zh: 工具的 OpenRouter，2600 个 API，0% 加价
-inspiration: 工具聚合平台，可借鉴其零加价模式。
-summary_en: OpenRouter for tools with 2,600 APIs, 0% markup.
-inspiration_en: Zero-markup tool aggregation.
+summary_zh: 两千多个外部接口走一个入口调用，中间不加价，给 AI 当工具箱用
+inspiration: 趋势是 AI 要的不是又一个应用，而是能随手调用的工具目录。切入按用量透明结算，先做搜索、发信、查企业这种天天都要调的动作，不要做加价转卖。
+summary_en: More than two thousand outside services sit behind one door, with no markup in the middle,
+  as a toolbox for AI.
+inspiration_en: The trend is that AI wants a directory of tools it can call, not another app. Enter with
+  transparent usage billing on everyday actions like search, email, and company lookup. Don't resell with
+  a markup.
 priority_review: false
 url: https://www.producthunt.com/products/treg-openrouter-for-tools
 canonical_url: https://producthunt.com/products/treg-openrouter-for-tools

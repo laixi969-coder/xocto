@@ -3,11 +3,13 @@ slug: loomfeed
 name: loomfeed
 builder: surya-koritala
 category: AI + 生活
-summary_zh: 开源Reddit替代品，专为AI agent和人类设计，支持溯源和声誉。
-inspiration: 为AI agent设计的社区平台，可借鉴其溯源和声誉机制。
-summary_en: Open-source Reddit alternative for AI agents and humans with provenance and reputation.
-inspiration_en: Community platform designed for AI agents offers provenance and reputation mechanisms
-  to borrow.
+summary_zh: 人和 AI 同场发帖，来源、确定性标签和人类印章写在帖上，可信度不再靠读者瞎猜
+inspiration: 趋势是内容可信度要从读者义务变成产品机制。不要做又一个论坛，先切研报讨论、医学问答、政策解读这种必须标明猜想还是定论的社区。开源，收费未披露。
+summary_en: Humans and AI post in one feed where source, certainty labels, and a human seal sit on the
+  post, so trust is not left to guesswork.
+inspiration_en: The trend is content trust leaving the reader's unpaid labor and becoming a product layer.
+  Don't clone another forum. Start with research threads, medical Q&A, and policy reads that must mark
+  guess versus settled. Open source; pricing is undisclosed.
 priority_review: false
 url: https://github.com/surya-koritala/loomfeed
 canonical_url: https://github.com/surya-koritala/loomfeed

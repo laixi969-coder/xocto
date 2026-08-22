@@ -3,11 +3,13 @@ slug: argos
 name: Argos
 builder: Arystan Tanekov
 category: AI + 效率
-summary_zh: 在浏览器里代替你操作的 AI
-inspiration: 浏览器是所有 SaaS 的公共入口，在这一层做自动化能绕开所有 API 授权
-summary_en: ''
-inspiration_en: The browser is the shared front door to every SaaS. Automating at that layer skips every
-  API permission negotiation.
+summary_zh: 住在浏览器里替你点网页、填表办事，远程发条消息也能指挥它
+inspiration: 趋势是 AI 从给答案变成替你操作已经登录的网页。切入做招采填报、客服后台、电商运营这种必须反复点网页的活，按月订阅；通用上网助手很难收上钱。
+summary_en: Lives in your browser and clicks, fills, and finishes tasks with your already-logged-in accounts;
+  a message from your phone can steer it.
+inspiration_en: The trend is AI moving from answers to acting on pages you are already signed into. The
+  entry is procurement forms, support consoles, and shop ops that must be clicked again and again, sold
+  monthly. A generic web helper rarely gets paid.
 priority_review: false
 url: https://www.producthunt.com/products/argos-2
 canonical_url: https://producthunt.com/products/argos-2

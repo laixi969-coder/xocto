@@ -29,6 +29,16 @@
       </div>
 
       <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_form }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_form_aria }}" data-dim="form">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          {% for key in form_keys %}
+          <button aria-pressed="false" data-val="{{ key }}">{{ locale.form(key) }} <i class="num">{{ form_counts[key] }}</i></button>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="filter-group">
         <span class="filter-k">{{ t.products.f_stage }}</span>
         <div class="filters" role="group" aria-label="{{ t.products.f_stage_aria }}" data-dim="stage">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
@@ -61,7 +71,7 @@
       {% for p in products %}
       <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
          href="{{ root }}p/{{ p.slug }}.html"
-         data-category="{{ p.category }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"
+         data-category="{{ p.category }}" data-form="{{ p.form_key }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"
          data-weight="{{ p.weight }}" data-growth="{{ p.growth if p.growth is not none else -99999 }}"
          data-recent="{{ p.last_seen }}" data-name="{{ p.name }}">
         <div class="card-top">
@@ -74,19 +84,25 @@
         {% if p.stage_key == 'proven' %}
           <p class="card-scale num">{{ p.scale }}</p>
           <div class="meta">
+            {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
             {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
           </div>
         {% else %}
-          <p>{{ p.summary or t.products.no_summary }}</p>
+          <p class="card-summary">{{ p.summary or t.products.no_summary }}</p>
           <div class="meta">
+            {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
             {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
             {% for b in p.badges[:1] %}<span class="tag sig">{{ b }}</span>{% endfor %}
             {% if p.status in ('analyzed', 'watching') %}<span class="tag">{{ p.status_label }}</span>{% endif %}
           </div>
         {% endif %}
 
+        {% if p.money_brief %}
+        <p class="card-money"><span>{{ t.products.money }}</span>{{ p.money_brief }}</p>
+        {% endif %}
+
         {% if p.inspiration %}
-        <p class="card-insp">{{ p.inspiration }}</p>
+        <p class="card-insp"><span>{{ t.products.entry }}</span>{{ p.inspiration }}</p>
         {% endif %}
       </a>
       {% endfor %}
@@ -108,7 +124,7 @@
     var count = document.getElementById('count');
     var title = document.getElementById('ctx-title');
     var note = document.getElementById('ctx-note');
-    var active = { category: '', stage: '', status: '' };
+    var active = { category: '', form: '', stage: '', status: '' };
     var sort = 'weight';
 
     // 文案从语言表注入。tojson 会把引号和尖括号转义好，
@@ -118,6 +134,12 @@
       proven: {{ t.products.stage_proven_note | tojson }}
     };
     var LABELS = {
+      form: {
+        not_business: {{ locale.forms.not_business | tojson }},
+        charging: {{ locale.forms.charging | tojson }},
+        scaled: {{ locale.forms.scaled | tojson }},
+        settled: {{ locale.forms.settled | tojson }}
+      },
       stage: { early: {{ locale.stages.early | tojson }}, proven: {{ locale.stages.proven | tojson }} },
       status: { analyzed: {{ locale.statuses.analyzed | tojson }}, watching: {{ locale.statuses.watching | tojson }} }
     };
@@ -128,6 +150,7 @@
     function label() {
       var parts = [];
       if (active.category) parts.push(active.category);
+      if (LABELS.form[active.form]) parts.push(LABELS.form[active.form]);
       if (LABELS.stage[active.stage]) parts.push(LABELS.stage[active.stage]);
       if (LABELS.status[active.status]) parts.push(LABELS.status[active.status]);
       return parts.join(' · ');
@@ -138,6 +161,7 @@
       cards.forEach(function (card) {
         var ok =
           (!active.category || card.dataset.category === active.category) &&
+          (!active.form || card.dataset.form === active.form) &&
           (!active.stage || card.dataset.stage === active.stage) &&
           (!active.status || card.dataset.status === active.status);
         card.hidden = !ok;
@@ -188,7 +212,7 @@
     });
 
     document.getElementById('reset').addEventListener('click', function () {
-      active = { category: '', stage: '', status: '' };
+      active = { category: '', form: '', stage: '', status: '' };
       document.querySelectorAll('.filters').forEach(function (g) {
         if (g.dataset.dim === 'sort') return;
         mark(g, '');
@@ -202,7 +226,7 @@
     // 全部（3 个变 19 个），把链接发给别人看到的也是另一个结果。
     // 用 replaceState 不用 pushState：筛选是调参不是导航，
     // 每点一次塞一条历史记录的话，想离开这页得连按十几次后退。
-    var DIMS = { c: 'category', s: 'stage', v: 'status' };
+    var DIMS = { c: 'category', f: 'form', s: 'stage', v: 'status' };
 
     function syncHash() {
       var parts = [];

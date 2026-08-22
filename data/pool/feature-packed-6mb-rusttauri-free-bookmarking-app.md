@@ -3,10 +3,13 @@ slug: feature-packed-6mb-rusttauri-free-bookmarking-app
 name: Feature-packed 6MB Rust+Tauri free bookmarking app
 builder: freakynit
 category: AI + 效率
-summary_zh: 6MB 的 Rust+Tauri 免费书签应用
-inspiration: 轻量级本地书签管理，可迁移到隐私敏感的个人工具
-summary_en: 6MB Rust+Tauri free bookmarking app
-inspiration_en: Lightweight local bookmark management, applicable to privacy-sensitive personal tools
+summary_zh: 把网页收藏存在自己电脑上，离线能搜，不把浏览痕迹交给云端
+inspiration: 趋势是越私人的数据越不愿上云，书签正是最不愿交出去的浏览痕迹。切入不要做又一个云收藏夹，先卖给律师、记者、投资人：本地加密、可导出、断网也能搜。
+summary_en: Keep web bookmarks on your own computer so you can search them offline without handing browsing
+  traces to the cloud.
+inspiration_en: 'The trend is that the more personal the data, the less people want it online; bookmarks
+  are browsing traces they will not give away. Enter with lawyers, journalists, and investors: local encryption,
+  export, and offline search—not another cloud locker.'
 priority_review: false
 url: https://news.ycombinator.com/item?id=49310317
 canonical_url: https://news.ycombinator.com/item?id=49310317

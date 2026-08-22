@@ -3,11 +3,13 @@ slug: click
 name: Click
 builder: Garry Tan
 category: AI + 效率
-summary_zh: 给 ChatGPT 和 Claude 喂实时的研究资料
-inspiration: 通用模型缺的不是能力是当下的上下文，卖上下文比卖模型的生意更稳
-summary_en: ''
-inspiration_en: What general models lack is not capability but present-tense context. Selling context
-  is a steadier business than selling models.
+summary_zh: 在对话里直接接入销售线索、竞品广告和机票这类普通搜索够不到的数据
+inspiration: 趋势是通用模型缺的不是聪明，是当下搜不到的业务数据。切入先做销售找线索、投放监竞品这种必须盯外部数据的步骤，连接免费、增值数据再订阅；收费未披露。
+summary_en: Feeds a chat assistant live data that ordinary search cannot reach, such as sales leads, rival
+  ads, and airfares.
+inspiration_en: The trend is that general models lack present-tense business data, not intelligence. The
+  entry is sales prospecting and ad-watch, steps that must stare at outside sources. The connector can
+  be free; extra data is the subscription. Pricing is undisclosed.
 priority_review: false
 url: https://www.producthunt.com/products/click-6
 canonical_url: https://producthunt.com/products/click-6

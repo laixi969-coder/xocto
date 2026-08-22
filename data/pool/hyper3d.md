@@ -3,10 +3,13 @@ slug: hyper3d
 name: Hyper3D
 builder: ''
 category: AI + 效率
-summary_zh: 用 AI 快速生成 3D 模型的工具，面向创作者和开发者
-inspiration: 3D 建模正从专业软件操作，变成更多创作者也能进入的制作环节
-summary_en: An AI tool for quickly generating 3D models for creators and developers.
-inspiration_en: AI is making 3D creation a production step that more creators can enter.
+summary_zh: 用一句话或一张图几秒生成能进游戏和影视流程的三维模型，不用手工慢慢搭
+inspiration: 趋势是三维资产从专业软件操作，变成生成即可用。不要做玩具级模型，先切游戏道具、电商三维、机器人仿真这些必须带结构和贴图的生产环节。免费可试，接口和企业价未公开。
+summary_en: A sentence or a picture becomes, in seconds, a 3D model that can enter game and film pipelines,
+  without hand-building it for days.
+inspiration_en: The trend is 3D assets leaving specialist software and arriving production-ready. Don't
+  make toy meshes. Start with game props, commerce 3D, and robot simulation — jobs that need structure
+  and materials. Free to try; API and enterprise prices are not published.
 priority_review: false
 url: https://www.aicpb.com/product/Hyper3D/webid1D6F37AD1
 canonical_url: https://aicpb.com/product/Hyper3D/webid1D6F37AD1

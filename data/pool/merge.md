@@ -3,11 +3,13 @@ slug: merge
 name: Merge
 builder: Harshith Latchupatula
 category: AI + 开发
-summary_zh: AI 原生的代码审查能力评估
-inspiration: 把「评估人」做成产品，客户是招聘方而不是使用者——付钱的人和用的人不是同一个
-summary_en: ''
-inspiration_en: 'Productizing the assessment of people: the buyer is the hiring side, not the user. Whoever
-  pays and whoever uses are not the same person.'
+summary_zh: 招工程师不再考手写算法题，让候选人像上班一样审一段改动，机器打分。
+inspiration: 助手能写代码之后，招聘还在考手写，考的和干的对不上。趋势是评估判断力而不是产出；切入是技术招聘里的代码审查这一环，卖给招聘方，公开定价未出。
+summary_en: Hiring engineers no longer means handwritten algorithm puzzles. Candidates review a change
+  like they would at work, and the machine scores them.
+inspiration_en: After assistants can write code, hiring still tests handwriting — the exam no longer matches
+  the job. The trend is assessing judgment, not output. The entry is code review in technical hiring,
+  sold to the hiring side. Public pricing is not out.
 priority_review: false
 url: https://www.producthunt.com/products/merge-5
 canonical_url: https://producthunt.com/products/merge-5

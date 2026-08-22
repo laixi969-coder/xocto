@@ -3,11 +3,13 @@ slug: i-vibecoded-a-drone
 name: i-vibecoded-a-drone
 builder: liseman
 category: AI + 效率
-summary_zh: 靠 AI 编程做了一台重载无人机
-inspiration: AI 编程正在往硬件外溢，软件人做硬件的门槛在塌，这会带出一批奇怪的新产品
-summary_en: ''
-inspiration_en: AI coding is spilling into hardware. The barrier for software people building physical
-  things is collapsing, and it will produce a wave of strange products.
+summary_zh: 软件人用聊天窗口加一万五千美元零件，一个月造出重载无人机，并在场上摔了
+inspiration: 趋势是硬件试错成本正在塌到「摔得起」。不要一上来做可靠量产，先切赛事原型、教学套件、小批量特种机这类允许失败的环节。这是样本，不是在售产品。
+summary_en: A software person plus chat windows and fifteen thousand dollars of parts built a heavy-lift
+  drone in a month, then crashed it on the field.
+inspiration_en: The trend is hardware trial cost collapsing to “cheap enough to crash.” Don't start with
+  reliable mass production. Start with contest prototypes, teaching kits, and small special-use machines
+  where failure is allowed. This is a sample, not a product for sale.
 priority_review: false
 url: https://lukeiseman.substack.com/p/i-vibecoded-a-drone
 canonical_url: https://lukeiseman.substack.com/p/i-vibecoded-a-drone

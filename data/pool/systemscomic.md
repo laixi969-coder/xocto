@@ -3,10 +3,13 @@ slug: systemscomic
 name: systemscomic
 builder: samuelxing
 category: AI + 创作
-summary_zh: 用Claude将《数据密集型应用系统设计》改编为漫画。
-inspiration: 技术书籍漫画化，可迁移到教育内容和知识传播。
-summary_en: I asked Claude to write DDIA as a live comic.
-inspiration_en: Comic adaptation of technical books applies to educational content and knowledge dissemination.
+summary_zh: 把硬核技术书里的概念画成可动手的漫画，看完还能把系统推到崩
+inspiration: 学习正在从单向阅读变成读完还能亲手验证。切入点不是再出一本解说，而是把概念、真机器、模拟器绑在一起，卖给原著啃不下来的工程师。
+summary_en: Turns dense systems ideas into comics you can poke, then lets you push a real system until
+  it breaks.
+inspiration_en: Learning is moving from one-way reading to “read it, then prove it.” Don't ship another
+  explainer—bind concept, real machine, and simulator, and sell that stack to engineers who bounce off
+  the original book.
 priority_review: false
 url: https://systemscomic.com/ddia/read
 canonical_url: https://systemscomic.com/ddia/read

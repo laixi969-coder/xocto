@@ -6,9 +6,19 @@ import unittest
 from pathlib import Path
 
 from xocto.i18n import BOARD_EN
+from xocto.i18n import EN
 from xocto.i18n import ZH
 from xocto.models import Product, Sighting
-from xocto.site import _daily_rotation, _is_publishable, _metric_badges, _remove_stale_pages, _schema, product_view
+from xocto.site import (
+    _business_form,
+    _daily_rotation,
+    _is_publishable,
+    _metric_badges,
+    _remove_stale_pages,
+    _schema,
+    _section,
+    product_view,
+)
 
 
 def product(*, status: str = "watching", summary_zh: str = "中文说明", inspiration: str = "灵感") -> Product:
@@ -28,27 +38,79 @@ def product(*, status: str = "watching", summary_zh: str = "中文说明", inspi
 
 
 class PublishabilityTests(unittest.TestCase):
-    def test_home_prioritizes_latest_observation_and_caps_long_lists(self) -> None:
+    def test_home_is_todays_front_page(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
             encoding="utf-8"
         )
-
-        self.assertLess(template.index("t.home.latest_report"), template.index("t.home.today_takeaway_title"))
-        self.assertLess(template.index("t.home.today_takeaway_title"), template.index("t.home.fresh_picks"))
-        self.assertLess(template.index("t.home.fresh_picks"), template.index("t.home.movers"))
-        self.assertLess(template.index("t.home.movers"), template.index("t.home.notables"))
-        self.assertLess(template.index("t.home.notables"), template.index("t.home.long_term_picks"))
-        self.assertLess(template.index("t.home.long_term_picks"), template.index("t.home.cats"))
-        self.assertLess(template.index("t.home.cats"), template.index("t.home.past_reports"))
+        self.assertIn("r.hook", template)
+        self.assertIn("fresh_picks", template)
         self.assertIn("{% for p in items[:3] %}", template)
-        self.assertIn("{% for p in movers[:8] %}", template)
-        self.assertIn("{% for p in notables[:8] %}", template)
-        self.assertNotIn("t.home.col_boards", template)
+        self.assertIn("t.home.what", template)
+        self.assertIn("t.home.money", template)
+        self.assertIn("t.home.meaning", template)
+        self.assertIn("t.home.routes_title", template)
+        self.assertIn("t.home.route_founder", template)
+        self.assertIn("t.home.route_investor", template)
+        self.assertIn("t.home.route_curious", template)
+        self.assertLess(template.index("t.home.routes_title"), template.index("t.home.fresh_picks"))
+        self.assertIn("t.home.today_takeaway_title", template)
+        self.assertIn("t.home.long_term_picks", template)
+        self.assertIn("t.home.past_reports", template)
+        self.assertLess(template.index("t.home.fresh_picks"), template.index("t.home.today_takeaway_title"))
+        self.assertLess(template.index("t.home.today_takeaway_title"), template.index("t.home.long_term_picks"))
+        self.assertLess(template.index("t.home.long_term_picks"), template.index("t.home.past_reports"))
+        self.assertNotIn("t.home.movers", template)
+        self.assertNotIn("t.home.notables", template)
+        self.assertNotIn("t.home.cats", template)
+        self.assertNotIn("p.analysis.replaces", template)
+        self.assertNotIn("stats.total", template)
 
         products_template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(
             encoding="utf-8"
         )
         self.assertNotIn("p.boards", products_template)
+
+        nav = (Path(__file__).parents[1] / "templates" / "base.html").read_text(encoding="utf-8")
+        nav_start = nav.index('<nav class="nav">')
+        nav_end = nav.index("</nav>")
+        main_nav = nav[nav_start:nav_end]
+        self.assertIn("t.nav.home", main_nav)
+        self.assertIn("t.nav.products", main_nav)
+        self.assertIn("t.nav.takeaways", main_nav)
+        self.assertNotIn("t.nav.reports", main_nav)
+
+    def test_methodology_promises_daily_global_collection_without_naming_sources(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "methodology.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("t.methodology.cadence_title", template)
+        self.assertIn("t.methodology.cadence_body", template)
+        self.assertIn("t.methodology.reader_title", template)
+        self.assertIn("t.methodology.decision_title", template)
+        self.assertLess(
+            template.index("t.methodology.reader_title"),
+            template.index("t.methodology.decision_title"),
+        )
+        self.assertIn("每天自动更新", ZH.t["home"]["lede_body"])
+        self.assertIn("every day", EN.t["home"]["lede_body"].lower())
+        forbidden = (
+            "Product Hunt",
+            "Hacker News",
+            "AICPB",
+            "GitHub",
+            "Hugging Face",
+            "Reddit",
+        )
+        for locale in (ZH, EN):
+            blob = " ".join(
+                [
+                    locale.t["home"]["lede_body"],
+                    locale.t["methodology"]["cadence_title"],
+                    locale.t["methodology"]["cadence_body"],
+                ]
+            )
+            for name in forbidden:
+                self.assertNotIn(name, blob)
 
     def test_daily_rotation_moves_the_window_forward(self) -> None:
         items = ["one", "two", "three", "four"]
@@ -103,6 +165,84 @@ class PublishabilityTests(unittest.TestCase):
 
     def test_reader_ready_product_is_published(self) -> None:
         self.assertTrue(_is_publishable(product()))
+
+    def test_money_section_is_extracted_from_analysis(self) -> None:
+        body = (
+            "## 它在替代什么旧行为\n\n"
+            "以前靠人事一个个发资料、核证件。\n\n"
+            "## 商业模式\n\n"
+            "按席位订阅，价格未披露。掏钱的是公司 HR，不是入职的人。\n\n"
+            "## 硬数字\n\n"
+            "未披露\n"
+        )
+        self.assertIn("按席位订阅", _section(body, "商业模式", allow_list=True))
+        self.assertIn("人事", _section(body, "它在替代什么旧行为"))
+
+    def test_money_section_keeps_price_list_not_judgment(self) -> None:
+        body = (
+            "## 商业模式\n\n"
+            "- 面向用户：免费，无广告\n"
+            "- 面向开发者：API 按量计费\n\n"
+            "_判断：网页端本身不产生直接收入。_\n"
+        )
+        text = _section(body, "商业模式", allow_list=True)
+        self.assertIn("免费", text)
+        self.assertIn("按量计费", text)
+        self.assertIn("; ", text)
+        self.assertNotIn("；", text)
+        self.assertNotIn("不产生直接收入", text)
+
+    def test_product_page_shows_undisclosed_money_when_missing(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("t.product.money_unknown", template)
+        self.assertIn("t.product.for_investor_k", template)
+        self.assertIn("product.for_investor", template)
+        self.assertIn("t.product.for_public_k", template)
+        self.assertIn("product.for_public", template)
+
+    def test_business_form_follows_evidence(self) -> None:
+        self.assertEqual(_business_form("proven", "通用助手", 100_000_000, ""), "settled")
+        self.assertEqual(_business_form("proven", "AI + 创作", 50_000_000, ""), "settled")
+        self.assertEqual(_business_form("proven", "AI + 效率", 80_000, ""), "scaled")
+        self.assertEqual(_business_form("early", "AI + 效率", 0, "一次性买断 129 美元"), "charging")
+        self.assertEqual(_business_form("early", "基础层", 0, ""), "not_business")
+        self.assertEqual(_business_form("early", "AI + 开发", 0, "收费未披露。公开信息里看不到定价。"), "not_business")
+
+    def test_product_page_puts_money_and_direction_on_top(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("t.product.money", template)
+        self.assertIn("t.product.money_unknown", template)
+        self.assertIn("t.product.inspiration", template)
+        self.assertIn("analysis.money", template)
+
+    def test_home_picks_surface_direction_not_just_features(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("t.home.what", template)
+        self.assertIn("t.home.money", template)
+        self.assertIn("t.home.meaning", template)
+        self.assertIn("p.summary", template)
+        self.assertIn("p.money_brief", template)
+        self.assertIn("p.inspiration", template)
+
+    def test_product_page_answers_is_it_a_business_first(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("t.product.decision_title", template)
+        self.assertIn("t.product.call", template)
+        self.assertIn("t.product.watch_next", template)
+        self.assertLess(template.index("t.product.call"), template.index("t.product.money"))
+        self.assertLess(template.index("t.product.money"), template.index("t.product.inspiration"))
+        self.assertLess(template.index("t.product.inspiration"), template.index("t.product.watch_next"))
+        self.assertLess(template.index("t.product.watch_next"), template.index("t.product.replaces"))
+        self.assertLess(template.index("t.product.replaces"), template.index("t.product.for_investor_k"))
+        self.assertLess(template.index("t.product.for_investor_k"), template.index("t.product.for_public_k"))
 
     def test_stale_generated_page_is_removed(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

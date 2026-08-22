@@ -3,11 +3,13 @@ slug: open-kimi-ppt-skill
 name: open-kimi-ppt-skill
 builder: Binaryify
 category: 基础层
-summary_zh: 非官方的 Kimi Slides 技能，生成可编辑的 PPT 并带本地编辑器
-inspiration: 「可编辑」三个字是关键——AI 生成物如果不能改，在真实工作里就用不了
-summary_en: Unofficial Kimi Slides skill that generates editable decks and ships a local editor.
-inspiration_en: “Editable” is the whole point. If you can't change what the AI produced, it's unusable
-  in real work.
+summary_zh: 曾让助手直接产出能继续改的演示文稿，后因版权整库被清空。
+inspiration: 可编辑是真需求，挂别人品牌做产品，天花板是对方的容忍度。趋势是助手出办公文件会成刚需；切入是演示稿生成后还能改这一步，但复刻名牌可能一天被清零。
+summary_en: It once let an assistant output a slide deck you could keep editing, then the whole library
+  was wiped for copyright.
+inspiration_en: Editable output is a real need. Building on someone else's brand caps you at their tolerance.
+  The trend is assistants producing office files as a must-have. The entry is slides you can still edit
+  after generation — but cloning a name brand can be zeroed in a day.
 priority_review: false
 url: https://github.com/Binaryify/open-kimi-ppt-skill
 canonical_url: https://github.com/Binaryify/open-kimi-ppt-skill

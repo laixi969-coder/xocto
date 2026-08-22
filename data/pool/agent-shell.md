@@ -3,10 +3,13 @@ slug: agent-shell
 name: Agent-shell
 builder: xenodium
 category: AI + 开发
-summary_zh: 在 Emacs 中与 AI agent 对话的厂商中立客户端
-inspiration: 把 AI 聊天嵌入编辑器，中立多厂商是差异化点，可迁移到其他工具
-summary_en: Vendor-neutral chat with AI agents inside Emacs
-inspiration_en: Embedding AI chat in editors with vendor neutrality as a differentiator
+summary_zh: 写东西的人在自己常用的编辑器里跟多家AI对话，不必绑死一家
+inspiration: 趋势是AI聊天会嵌进正在干活的地方，而不是另开一个网页。切入是先服务死磕某一款老编辑器的人，中立接入多家模型。判断：卖的是不换工具也能用上AI，不要去做又一个通用聊天窗口。
+summary_en: Writers talk with several AI models inside the editor they already use, without locking to
+  one vendor.
+inspiration_en: 'The trend is AI chat moving into the tool where work already happens, not another browser
+  tab. The entry is people who will not leave an old editor, with several models plugged in neutrally.
+  Judgment: sell staying put, not another generic chat window.'
 priority_review: false
 url: https://xenodium.com/agent-shell-0-73-updates#agent-shell-enters-the-chat
 canonical_url: https://xenodium.com/agent-shell-0-73-updates

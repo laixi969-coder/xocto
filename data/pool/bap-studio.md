@@ -3,11 +3,12 @@ slug: bap-studio
 name: BAP Studio
 builder: Max Berggren
 category: AI + 创作
-summary_zh: 浏览器里跑的 MPC 风格鼓机，打开网页就能敲
-inspiration: 零安装是最强的获客手段：把「先下载」这一步砍掉，转化率的量级会变
-summary_en: ''
-inspiration_en: Zero install is the strongest acquisition move there is. Deleting “download first” changes
-  conversion by an order of magnitude.
+summary_zh: 浏览器里就能敲的鼓机：垫子、节奏和采样全在标签页里，不用下载
+inspiration: 趋势是音乐工具正在搬进网页，打开就能玩。切入做短视频配乐、播客片头这种要立刻出一段节奏的人，先免费获客；收费未披露，别一上来做全能工作室。
+summary_en: 'A drum machine in a browser tab: pads, a sequencer, and a sampler, with nothing to download.'
+inspiration_en: The trend is music tools moving into the browser so play starts on open. The entry is
+  people who need a beat now for short video or a podcast sting. Free first; pricing is undisclosed. Do
+  not launch as a full studio.
 priority_review: false
 url: https://www.producthunt.com/products/bap-studio
 canonical_url: https://producthunt.com/products/bap-studio

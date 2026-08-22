@@ -69,6 +69,92 @@ class BriefTests(unittest.TestCase):
             )
             self.assertEqual(candidates_for_day(store, DAY), [])
             self.assertEqual(news_for_day(store, DAY)[0]["title"], "A documented product update")
+            self.assertTrue(news_for_day(store, DAY)[0]["first_party"])
+
+    def test_independent_and_discussion_news_reach_the_daily_brief(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.append_raw(
+                [
+                    RawItem(
+                        source="officialfeeds",
+                        external_id="blogger",
+                        title="An independent observation",
+                        url="https://example.com/notes/observation",
+                        summary="A writer explains who is paying.",
+                        published_at="2026-08-14T11:00:00Z",
+                        collected_at="2026-08-14T13:00:00Z",
+                        metrics={},
+                        extra={"kind": "news", "official": False},
+                    ),
+                    RawItem(
+                        source="hackernews",
+                        external_id="discussion",
+                        title="A widely discussed AI launch",
+                        url="https://example.com/launch",
+                        summary="Public discussion of a new product.",
+                        published_at="2026-08-14T10:00:00Z",
+                        collected_at="2026-08-14T13:00:00Z",
+                        metrics={},
+                        extra={"kind": "news"},
+                    ),
+                    RawItem(
+                        source="producthunt",
+                        external_id="app",
+                        title="A new app",
+                        url="https://example.com/app",
+                        summary="",
+                        published_at="2026-08-14T09:00:00Z",
+                        collected_at="2026-08-14T13:00:00Z",
+                        metrics={},
+                        extra={"kind": "product"},
+                    ),
+                ],
+                DAY,
+            )
+            titles = [row["title"] for row in news_for_day(store, DAY)]
+            self.assertEqual(
+                titles,
+                ["An independent observation", "A widely discussed AI launch"],
+            )
+            self.assertFalse(news_for_day(store, DAY)[0]["first_party"])
+            self.assertFalse(news_for_day(store, DAY)[1]["first_party"])
+
+    def test_first_party_news_does_not_crowd_out_independent_signals(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            items = [
+                RawItem(
+                    source="officialfeeds",
+                    external_id=f"lab-{index}",
+                    title=f"Lab update {index:02d}",
+                    url=f"https://example.com/lab/{index}",
+                    summary="A first-party changelog.",
+                    published_at=f"2026-08-14T{index:02d}:00:00Z",
+                    collected_at="2026-08-14T13:00:00Z",
+                    metrics={},
+                    extra={"kind": "news", "official": True},
+                )
+                for index in range(14)
+            ]
+            items.append(
+                RawItem(
+                    source="officialfeeds",
+                    external_id="writer",
+                    title="Independent window",
+                    url="https://example.com/window",
+                    summary="An independent read of the window.",
+                    published_at="2026-08-14T00:30:00Z",
+                    collected_at="2026-08-14T13:00:00Z",
+                    metrics={},
+                    extra={"kind": "news", "official": False},
+                )
+            )
+            store.append_raw(items, DAY)
+            rows = news_for_day(store, DAY)
+            self.assertLessEqual(len(rows), 18)
+            self.assertTrue(any(row["title"] == "Independent window" for row in rows))
+            self.assertTrue(all(row["first_party"] for row in rows if row["title"].startswith("Lab update")))
 
     def test_updates_require_every_candidate_once(self) -> None:
         source = product()

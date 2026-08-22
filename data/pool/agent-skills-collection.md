@@ -3,11 +3,13 @@ slug: agent-skills-collection
 name: agent-skills-collection
 builder: oliverb-io1902e8
 category: AI + 开发
-summary_zh: 精选模块化agent技能集合，供LLM agent复用。
-inspiration: 模块化技能库是agent生态的乐高积木，可降低开发门槛。
-summary_en: Curated collection of modular agent skills for LLM-based agents.
-inspiration_en: Modular skill libraries are the LEGO blocks of the agent ecosystem, lowering development
-  barriers.
+summary_zh: 自称给 AI 助手装技能，安装却要关杀毒、用管理员权限跑安装包
+inspiration: 趋势是「给 AI 装技能」成了最容易骗人的话术。切入不是做技能市场，而是帮企业审第三方安装包：要关杀毒、要管理员权限的，直接判不合格。
+summary_en: Claims to add skills to an AI assistant, but install asks you to turn off antivirus and run
+  a setup file as administrator.
+inspiration_en: 'The trend is that “install skills for your AI” is becoming an easy con. The entry is
+  not a skill marketplace — it is reviewing third-party installers for companies: anything that needs
+  antivirus off or admin rights should fail the check.'
 priority_review: false
 url: https://github.com/oliverb-io1902e8/agent-skills-collection
 canonical_url: https://github.com/oliverb-io1902e8/agent-skills-collection

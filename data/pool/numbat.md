@@ -3,11 +3,14 @@ slug: numbat
 name: numbat
 builder: perplexityai
 category: 基础层
-summary_zh: 监控 AI agent 在电脑上干了什么，能拦截也能事后取证
-inspiration: 管人的那套——监控、拦截、事后追责——正在原样搬到 agent 身上，这是个新市场
-summary_en: ''
-inspiration_en: The playbook for managing employees — monitoring, blocking, after-the-fact forensics —
-  is being ported to agents as-is. That is a new market.
+summary_zh: 公司电脑上的助手干了什么能看清，必要时拦住，事后还能把全过程还原。
+inspiration: 管员工那套监控、拦截、事后追责，正在原样搬到助手身上。趋势是企业会为说得清助手干过什么买单；切入是安全合规要留证据这一步，先观察再拦截。收费未披露。
+summary_en: See what an assistant did on a company computer, block it if needed, and reconstruct the whole
+  episode afterwards.
+inspiration_en: 'Monitor, block, and forensic replay — the employee playbook is being copied onto assistants.
+  The trend is enterprises paying to explain what an assistant did. The entry is the evidence step in
+  security and compliance: observe first, block later. Pricing undisclosed.'
+priority_review: false
 url: https://github.com/perplexityai/numbat
 canonical_url: https://github.com/perplexityai/numbat
 summary: Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action

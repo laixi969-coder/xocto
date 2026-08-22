@@ -3,11 +3,13 @@ slug: picpocket
 name: PicPocket
 builder: amr_shawky
 category: AI + 创作
-summary_zh: 给照片分享做的专属聊天窗，边分享边归类
-inspiration: 把「整理」藏进「分享」这个动作里，用户不觉得自己在干活，这是行为设计的经典手法
-summary_en: ''
-inspiration_en: Hiding “organize” inside “share” so people never feel like they're doing work. Classic
-  behavior design.
+summary_zh: 出去玩把照片丢进和谁一起的聊天窗，发完相册就按人归好了，不用事后建文件夹。
+inspiration: 整理照片靠人脸识别，巨头没有动力帮你整理干净。趋势是把整理藏进已经会发生的动作里；切入是家人朋友出行后的照片分享，按容量一次买断。
+summary_en: On a trip, drop photos into a chat with whoever was there. Sharing organizes the album by
+  person — no folders after the fact.
+inspiration_en: Photo tidy-up that bets on face recognition leaves giants with no incentive to actually
+  clean your library. The trend is hiding organize inside an action that already happens. The entry is
+  family and friend trip sharing, sold as a one-time capacity purchase.
 priority_review: false
 url: https://picpocket.io/
 canonical_url: https://picpocket.io

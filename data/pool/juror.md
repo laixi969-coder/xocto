@@ -3,11 +3,13 @@ slug: juror
 name: juror
 builder: textcortex
 category: AI + 效率
-summary_zh: 开源的 Greptile 替代品，代码审查方向
-inspiration: 「XX 的开源替代」是一个成熟的定位模板，前提是被对标的那个已经证明了需求
-summary_en: ''
-inspiration_en: “Open-source alternative to X” is a proven positioning template — as long as X already
-  proved the demand.
+summary_zh: 多个模型各自审同一份代码改动，只把大家都同意的问题报给你，并打出花费
+inspiration: 趋势是审查要从托管订阅改成「自己的钥匙、自己的流水线」。不要做更全的审查套餐，先给小团队做多模型多数决，代码不出库。现在免费，托管版还看不清。
+summary_en: Several models review the same code change on their own; only issues they all agree on are
+  reported, with a cost receipt.
+inspiration_en: The trend is review leaving hosted seats for “your keys, your pipeline.” Don't build a
+  bigger review bundle. Start with small teams using majority vote across models, with code staying in-house.
+  Free today; a hosted edition is still unclear.
 priority_review: false
 url: https://github.com/Juror-AI/juror
 canonical_url: https://github.com/Juror-AI/juror

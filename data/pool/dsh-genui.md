@@ -3,12 +3,13 @@ slug: dsh-genui
 name: dsh-genui
 builder: omdsh-dev
 category: AI + 开发
-summary_zh: 在DSH对话中内联渲染交互式UI组件，支持图表、表单等。
-inspiration: 让模型直接生成可交互UI，是对话式应用的新交互范式。
-summary_en: Renders interactive UI components inline in DSH conversations, including charts, forms, and
-  more.
-inspiration_en: Letting models generate interactive UI directly is a new interaction paradigm for conversational
-  apps.
+summary_zh: 跟 AI 对话时，回答里直接长出图表、表单和测验，点一下就能让它接着改
+inspiration: 趋势是对话从纯文字变成可点的界面。不要让模型乱吐网页，先给报表、问卷、培训测验做白名单组件，点选回传、本地判分。收费未披露。
+summary_en: In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next
+  change back.
+inspiration_en: The trend is chat turning from plain text into tappable interfaces. Don't let models dump
+  raw web pages. Start with reports, surveys, and training quizzes using a component whitelist, with clicks
+  sent back and scoring done locally. Pricing is undisclosed.
 priority_review: false
 url: https://github.com/omdsh-dev/dsh-genui
 canonical_url: https://github.com/omdsh-dev/dsh-genui

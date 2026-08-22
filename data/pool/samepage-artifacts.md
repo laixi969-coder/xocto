@@ -3,10 +3,12 @@ slug: samepage-artifacts
 name: Samepage Artifacts
 builder: Ryan Hoover
 category: AI + 效率
-summary_zh: 面向产品团队的上下文感知连接写作面
-inspiration: 团队协作写作，可借鉴其上下文感知设计。
-summary_en: A context-aware, connected writing surface for product teams.
-inspiration_en: Context-aware collaborative writing.
+summary_zh: 产品经理写需求、发版说明时，草稿已经根据团队上下文写好了
+inspiration: 趋势是文档不再从空白页开始，而是从团队已有上下文里长出来。切入先做需求、发版说明、周报这种每周都要交、缺上下文就写空的文件。
+summary_en: When a product manager writes requirements or release notes, a draft is already waiting, built
+  from the team's context.
+inspiration_en: The trend is documents growing out of team context instead of a blank page. Enter requirements,
+  release notes, and weekly updates—files due every week that go hollow without context.
 priority_review: false
 url: https://www.producthunt.com/products/samepage-signals
 canonical_url: https://producthunt.com/products/samepage-signals

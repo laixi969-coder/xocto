@@ -3,10 +3,13 @@ slug: hello-dsh
 name: hello-dsh
 builder: pingfanfan
 category: AI + 开发
-summary_zh: DSH零基础插件开发教程
-inspiration: 用教程降低插件开发门槛，扩大生态参与者
-summary_en: Zero-to-plugin tutorial for DeepSeek Harness.
-inspiration_en: Lowering plugin development barrier with tutorials expands ecosystem contributors.
+summary_zh: 用中文带着新手，给 DeepSeek Harness 写出能跑的第一个插件
+inspiration: 趋势是开源代理框架缺的不是功能，是母语能跟上的入门台阶。切入不要做又一套框架，先给中文开发者写带着可跑实例的教程。判断：教程免费获客，收费发生在企业内训和插件代做。
+summary_en: Walk a beginner through Chinese, until they can ship a working first plugin for DeepSeek Harness.
+inspiration_en: 'The trend is that open agent frameworks lack an on-ramp in the reader’s own language,
+  not more features. Don’t launch another framework. Enter with runnable tutorials for Chinese-speaking
+  builders. Judgement: the lesson is free; company training and plugin-for-hire are where money shows
+  up.'
 priority_review: false
 url: https://github.com/pingfanfan/hello-dsh/blob/main/docs/hello-dsh.md
 canonical_url: https://github.com/pingfanfan/hello-dsh/blob/main/docs/hello-dsh.md

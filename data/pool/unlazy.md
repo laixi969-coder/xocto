@@ -3,11 +3,12 @@ slug: unlazy
 name: unlazy
 builder: Leonxlnx
 category: AI + 开发
-summary_zh: 反懒惰技能，通过深度树方法拆分任务。
-inspiration: 任务分解方法可提升AI代理的完成质量，可迁移至项目管理工具。
-summary_en: Anti-laziness skill using the Depth Tree method to split tasks.
-inspiration_en: Task decomposition improves AI agent output quality, applicable to project management
-  tools.
+summary_zh: 怕 AI 做事偷懒收工，把任务层层拆开，每一小步都按整件活的标准做
+inspiration: 趋势是 AI 会提前说「做完了」。切入先做尽调、验收、审计这种少做一步就等于没做的活，按拆到不能再糊弄收费，不要做又一个待办清单。
+summary_en: To stop an AI from clocking out early, the job is split layer by layer, and every leaf is
+  held to the standard of the whole task.
+inspiration_en: The trend is AIs saying they are done too soon. Enter due diligence, acceptance, and audit—work
+  where skipping a step means the job was never done—and charge for splitting until it cannot be fudged.
 priority_review: false
 url: https://github.com/Leonxlnx/unlazy
 canonical_url: https://github.com/Leonxlnx/unlazy

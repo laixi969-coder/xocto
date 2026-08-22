@@ -3,11 +3,13 @@ slug: maxaime
 name: MaxAI.me
 builder: ''
 category: AI + 效率
-summary_zh: 在浏览器里整合阅读、搜索、写作和翻译等多种 AI 能力
-inspiration: 多模型整合的价值不只在功能更多，更在于让阅读和写作的工作不中断
-summary_en: A browser-based AI assistant for reading, search, writing, translation, and related tasks.
-inspiration_en: The value of combining models is not only more features; it is keeping reading and writing
-  work in one flow.
+summary_zh: 网页上想总结、改写、翻译，不用再复制粘贴切窗口，右键当场办完。
+inspiration: 人已经在浏览器里干活，不会为了问模型再开聊天窗。趋势是助手贴在当前页面上；切入是阅读、回邮件、看外文这种每天反复的小动作，按月订阅。
+summary_en: On a webpage, summarize, rewrite, or translate without copy-paste or tab-switching — right-click
+  and it's done.
+inspiration_en: People already work in the browser; they will not open a chat window just to ask a model.
+  The trend is assistants that live on the current page. The entry is the daily loop of reading, email,
+  and foreign-language pages, sold as a monthly subscription.
 priority_review: false
 url: https://www.aicpb.com/product/MaxAI.me/webid1D6F36D69
 canonical_url: https://aicpb.com/product/MaxAI.me/webid1D6F36D69

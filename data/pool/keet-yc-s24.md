@@ -3,11 +3,13 @@ slug: keet-yc-s24
 name: Keet (YC S24)
 builder: zackashen
 category: ''
-summary_zh: 输入任意主题自动生成一门结构化视频课程的学习应用，连课程表都帮你排好
-inspiration: 做长流程产品，把替用户排好顺序做成显性卖点，顺序即产品
-summary_en: ''
-inspiration_en: For long-journey products, make 'ordering it for the user' the explicit selling point
-  — the sequence is the product.
+summary_zh: 输入任意主题，自动排出带短视频和小测验的课程表，不用自己东拼西凑学习顺序
+inspiration: 趋势是长流程产品要把「替用户排好顺序」做成显性卖点。不要做通用问答，先切冷门技能、职业考证这种找不到现成课的主题。按生成次数卖学分，标价未公布。
+summary_en: Type any topic and get a course map with short videos and quizzes, so learners stop assembling
+  the order themselves.
+inspiration_en: The trend is long-journey products making “we ordered it for you” the explicit offer.
+  Don't be generic Q&A. Start with obscure skills and professional exams that have no ready-made course.
+  Credits sell per generation; the price is unpublished.
 priority_review: false
 url: https://www.trykeet.com/
 canonical_url: https://trykeet.com

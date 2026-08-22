@@ -3,10 +3,13 @@ slug: wildstatic
 name: wildstatic
 builder: adjohu
 category: 通用助手
-summary_zh: 一个记忆在所有用户间共享的公共AI。
-inspiration: 共享记忆可创造集体智能，可应用于社区问答或协作。
-summary_en: A public AI whose memory is shared across all users.
-inspiration_en: Shared memory could create collective intelligence, applicable to community Q&A or collaboration.
+summary_zh: 一个对所有人开放的 AI，大家跟它说过的话会留下来，后来的人接着用
+inspiration: 趋势是 AI 的记忆从个人笔记变成公共资产。切入先做行业问答、地方生活、垂直社区这种越聊越值钱、又不怕被看见的知识，不要做又一个私人助手。
+summary_en: 'A public AI whose memory is shared: what people told it stays, so the next person can pick
+  up the thread.'
+inspiration_en: The trend is AI memory leaving private notes and becoming a public asset. Enter industry
+  Q&A, local life, or vertical communities—knowledge that gets more valuable as people talk, and does
+  not mind being seen.
 priority_review: false
 url: https://wildstatic.com/
 canonical_url: https://wildstatic.com

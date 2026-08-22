@@ -51,6 +51,21 @@ from .store import Store
 STAGE_EARLY = "early"
 STAGE_PROVEN = "proven"
 
+# 生意形态。给创业者、投资者、大众同一把尺子：这还是不是一门生意。
+FORM_NOT_BUSINESS = "not_business"
+FORM_CHARGING = "charging"
+FORM_SCALED = "scaled"
+FORM_SETTLED = "settled"
+FORM_KEYS = (FORM_NOT_BUSINESS, FORM_CHARGING, FORM_SCALED, FORM_SETTLED)
+# 月访问或月活到这个量级，普通用户已经会碰到，新进入者很难正面抢默认位置。
+SETTLED_USAGE = 10_000_000
+_PAID_HINTS = (
+    "订阅", "买断", "按量", "按次", "按席", "按月", "计费", "付费",
+    "美元", "元/", "$", "€", "£",
+    "subscription", "one-time", "per seat", "priced", "billing", "paid tier",
+)
+_NOT_PAID_HINTS = ("收费未披露", "pricing not disclosed", "无商业模式", "没有商业模式", "no business model")
+
 # 线上地址。这是部署事实不是品味，所以放代码里而不是 config/。
 # 用途：canonical、sitemap、og:url —— 三处都必须是绝对地址。
 BASE_URL = "https://xocto.vercel.app"
@@ -66,9 +81,8 @@ _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 class Analysis:
     """一份深度分析。
 
-    replaces 和 takeaway 单独抽出来 —— 那是整份分析里最值钱的两段：
-    "它替代了什么旧行为"是判断真伪的依据，"可迁移点"是读者真正要拿走的东西。
-    埋在正文里等于没有。
+    replaces、money、takeaway 单独抽出来 —— 创业者先要看见这三件：
+    它替代了什么、怎么赚钱、能拿走什么。埋在正文里等于没有。
     """
 
     slug: str
@@ -82,7 +96,10 @@ class Analysis:
     body_html: str
     excerpt: str
     replaces: str = ""
+    money: str = ""
     takeaway: str = ""
+    call: str = ""
+    watch_next: str = ""
     takeaway_topics: dict = None
 
 
@@ -90,12 +107,15 @@ class Analysis:
 _NOT_PROSE = re.compile(r"^(?:[>|]|[-*+]\s)")
 
 
-def _section(body: str, *titles: str, limit: int = 200) -> str:
+def _section(body: str, *titles: str, limit: int = 200, allow_list: bool = False) -> str:
     """抽出某个二级标题下的第一段正文。找不到返回空串。
 
     按空行切段，不按换行切行 —— Markdown 里一段话可以折成好几行，
     原来逐行取会把"它试图把二十年积累的判断力／打包成软件卖给不懂营销的人"
     截成后半句，首页上那张卡就是一个没头没尾的残句。
+
+    商业模式常被写成列表。默认跳过列表是为了「替代了什么」这种段落；
+    抽收费结构时 allow_list=True，否则会跳过定价、落到后面的判断段。
     """
     for title in titles:
         match = re.search(
@@ -106,8 +126,17 @@ def _section(body: str, *titles: str, limit: int = 200) -> str:
         if not match:
             continue
         for para in re.split(r"\n\s*\n", match.group(1)):
-            text = " ".join(para.split())
-            if text and not _NOT_PROSE.match(text):
+            if allow_list:
+                lines = [
+                    re.sub(r"^\s*[-*+]\s+", "", line).strip()
+                    for line in para.splitlines()
+                ]
+                text = "; ".join(line for line in lines if line)
+            else:
+                text = " ".join(para.split())
+                if _NOT_PROSE.match(text):
+                    continue
+            if text:
                 return _strip_md(text, limit)
     return ""
 
@@ -251,7 +280,10 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
                 body_html=_markdown(body),
                 excerpt=excerpt,
                 replaces=_section(body, *locale.heading_replaces),
+                money=_section(body, *locale.heading_money, allow_list=True, limit=240),
                 takeaway=_section(body, *locale.heading_takeaway),
+                call=_section(body, *locale.heading_call, limit=300),
+                watch_next=_section(body, *locale.heading_watch_next, limit=300, allow_list=True),
                 takeaway_topics=_takeaway_topics(body, *locale.heading_takeaway),
             )
         )
@@ -363,6 +395,96 @@ def _weight(product: Product) -> int:
     return best
 
 
+def _usage_value(product: Product) -> float:
+    """公开使用规模的数字。没有就返回 0，不编。"""
+    for sighting in product.sightings:
+        value = sighting.metrics.get("value")
+        if isinstance(value, (int, float)) and value > 0:
+            return float(value)
+    return 0.0
+
+
+def _has_paid_signal(money: str) -> bool:
+    """只认商业模式正文里的收费证据，不把「未披露」读成已经在收费。"""
+    text = (money or "").strip()
+    if not text:
+        return False
+    lower = text.casefold()
+    if any(hint in text or hint in lower for hint in _NOT_PAID_HINTS):
+        if not any(hint in text or hint.casefold() in lower for hint in ("订阅", "买断", "按量", "按次", "$", "€", "subscription", "one-time")):
+            return False
+    return any(hint in text or hint.casefold() in lower for hint in _PAID_HINTS)
+
+
+def _business_form(stage_key: str, category_key: str, usage_value: float, money: str) -> str:
+    """生意形态只由证据来：有规模、有收费、或还没有。"""
+    if stage_key == STAGE_PROVEN:
+        if category_key == "通用助手" or usage_value >= SETTLED_USAGE:
+            return FORM_SETTLED
+        return FORM_SCALED
+    if _has_paid_signal(money):
+        return FORM_CHARGING
+    return FORM_NOT_BUSINESS
+
+
+def _audience_copy(locale: Locale, form_key: str, category_key: str) -> tuple[str, str]:
+    """对投资者、对普通人各一句。按形态和赛道取，不编产品私有数字。"""
+    investor = locale.t["product"]["for_investor"].get(form_key, "")
+    public_map = locale.t["product"]["for_public"]
+    public = public_map.get(category_key) or public_map.get("基础层", "")
+    return investor, public
+
+
+def _pick_sort_key(item: dict[str, Any], *, emerging: bool) -> tuple[Any, ...]:
+    form = item["form_key"]
+    analysis = item.get("analysis")
+    if emerging:
+        form_rank = {FORM_CHARGING: 0, FORM_SCALED: 1, FORM_SETTLED: 2, FORM_NOT_BUSINESS: 3}[form]
+    else:
+        form_rank = {FORM_SETTLED: 0, FORM_SCALED: 1, FORM_CHARGING: 2, FORM_NOT_BUSINESS: 3}[form]
+    verdict = analysis.verdict_rank if analysis else 9
+    niche = 1 if item["category_key"] in {"AI + 开发", "基础层"} and form == FORM_NOT_BUSINESS else 0
+    return (niche, form_rank, verdict, -item["weight"])
+
+
+def _report_blob(report: Report | None) -> str:
+    """把当天判断压成一段可检索文本，用来对齐首页证据案例。"""
+    if report is None:
+        return ""
+    parts: list[str] = [report.hook, *report.highlights]
+    doc = report.doc
+    if doc is not None:
+        parts.append(doc.intro)
+        for section in doc.sections:
+            parts.append(section.title)
+            for pick in section.picks:
+                parts.append(pick.name)
+    return " ".join(part for part in parts if part)
+
+
+def _evidence_picks(analysed_picks: list[dict[str, Any]], report: Report | None) -> list[dict[str, Any]]:
+    """首页证据：先用当天判断里点到的产品，不够再用能讲成生意的案例补齐。"""
+    blob = _report_blob(report).casefold()
+    mentioned: list[dict[str, Any]] = []
+    if blob:
+        for item in analysed_picks:
+            name = (item.get("name") or "").strip()
+            if len(name) >= 4 and name.casefold() in blob:
+                mentioned.append(item)
+    ranked = sorted(analysed_picks, key=lambda item: _pick_sort_key(item, emerging=True))
+    out: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for item in mentioned + ranked:
+        slug = item["slug"]
+        if slug in seen:
+            continue
+        seen.add(slug)
+        out.append(item)
+        if len(out) == 3:
+            break
+    return out
+
+
 def _daily_rotation(items: list[Any], day: str, *, limit: int) -> list[Any]:
     """按数据日期平移一个窗口，让首页每日内容稳定且确实轮换。"""
     if not items or limit <= 0:
@@ -377,9 +499,7 @@ def _daily_rotation(items: list[Any], day: str, *, limit: int) -> list[Any]:
 def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     """组装某个语种的整站数据。
 
-    版块顺序按信息价值密度排：判断 > 数据 > 罗列。
-    有判断的东西全站只有几个，但那是别处拿不到的；
-    罗列谁都能做，所以往后放。
+    首页只放今天的判断和最多三个证据。目录、增长、往期全部是二级档案。
     """
     # 产品池是内部工作队列，不等于公开站点。淘汰项必须消失；还没有中文说明
     # 和灵感的半成品卡片对读者也没有价值，等判断层补齐后再自动上站。
@@ -398,20 +518,42 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     analyses = [a for a in analyses if a.slug in view_by_slug]
     by_slug = {a.slug: a for a in analyses}
 
+    form_counts = {key: 0 for key in FORM_KEYS}
+    for view in views:
+        money = by_slug[view["slug"]].money if view["slug"] in by_slug else ""
+        form_key = _business_form(view["stage_key"], view["category_key"], view["usage_value"], money)
+        investor, public = _audience_copy(locale, form_key, view["category_key"])
+        view["form_key"] = form_key
+        view["form"] = locale.form(form_key)
+        view["for_investor"] = investor
+        view["for_public"] = public
+        analysis = by_slug.get(view["slug"])
+        # 目录页不该只是一排产品名：在决定点上先把「钱从哪来」露出来。
+        # 缺分析时诚实留空，不用泛化文案把未知伪装成洞见。
+        view["money_brief"] = _strip_md(analysis.money, 110) if analysis and analysis.money else ""
+        form_counts[form_key] = form_counts.get(form_key, 0) + 1
+
     early = [v for v in views if v["stage_key"] == STAGE_EARLY]
     proven = [v for v in views if v["stage_key"] == STAGE_PROVEN]
     latest_day = max((v["last_seen"] for v in views), default="")
 
-    # 长期精选按推荐度固定，负责沉淀可信的代表性判断；它不承担日更的新鲜感。
-    long_term_picks = [
-        {**view_by_slug.get(a.slug, {"slug": a.slug, "name": a.name}), "analysis": a}
+    analysed_picks = [
+        {
+            **view_by_slug[a.slug],
+            "analysis": a,
+            "money_brief": _strip_md(a.money, 90) if a.money else "",
+        }
         for a in analyses
         if a.slug in view_by_slug
     ]
-    # 每日新鲜精选从长期精选以外的深度判断里按当天数据日期平移，既每天给回访者
-    # 新入口、也避免在同一页重复长期精选，又不把旧分析伪装成当天新闻。
-    fresh_pool = long_term_picks[3:] or long_term_picks
-    fresh_picks = _daily_rotation(fresh_pool, latest_day, limit=3)
+    # 首页只回答今天：证据案例优先用当日判断点到的产品。
+    fresh_picks = _evidence_picks(analysed_picks, reports[0] if reports else None)
+    used = {item["slug"] for item in fresh_picks}
+    established = sorted(
+        (item for item in analysed_picks if item["slug"] not in used),
+        key=lambda item: _pick_sort_key(item, emerging=False),
+    )
+    long_term_picks = established[:5]
 
     # 2. 值得留意：进了观察名单但还没展开分析的
     notables = sorted(
@@ -464,8 +606,9 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
                 "text": text,
             })
 
-    # 6. 今日借鉴：同样按数据日期轮换，确保相邻两天不会稳定地撞上同一条。
-    today_takeaway = next(iter(_daily_rotation(takeaways_by_topic["product"], latest_day, limit=1)), None)
+    # 6. 创业者能拿走的：定价结构优先，没有再退回产品逻辑。
+    takeaway_pool = takeaways_by_topic["pricing"] or takeaways_by_topic["product"]
+    today_takeaway = next(iter(_daily_rotation(takeaway_pool, latest_day, limit=1)), None)
 
 
     # 读完一份分析之后没有下一步，旅程就断在那里了。
@@ -508,6 +651,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "notables": notables,
         "movers": movers,
         "categories": categories,
+        "form_keys": FORM_KEYS,
+        "form_counts": form_counts,
         "products": sorted(views, key=lambda v: -v["weight"]),
         "takeaways_by_topic": takeaways_by_topic,
         "today_takeaway": today_takeaway,
@@ -737,6 +882,7 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         "last_seen": local_day(product.last_seen),
         "growth": _growth_rate(product),
         "weight": _weight(product),
+        "usage_value": _usage_value(product),
         "seen_count": len(product.sightings),
         "notes": product.notes,
     }

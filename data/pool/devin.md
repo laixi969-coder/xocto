@@ -3,11 +3,13 @@ slug: devin
 name: Devin
 builder: ''
 category: AI + 效率
-summary_zh: 号称 AI 软件工程师，月访问 297 万，环比涨 80%
-inspiration: 喊「替代工程师」拉满了预期也拉满了失望，定位过高是把双刃剑
-summary_en: Bills itself as an AI software engineer. 2.97M monthly visits, up 80%.
-inspiration_en: Claiming to replace engineers maxes out expectations and disappointment at the same time.
-  Positioning too high cuts both ways.
+summary_zh: 在云端自己写代码、跑测试、提合并请求，按它干了多少活来计费
+inspiration: 趋势是编程从「人在旁边写」变成「派给助手、人只审结果」。切入做升版本、还技术债、批量改文件这种规则清楚的活，按工作量计费，让财务用省下的人力算账。
+summary_en: Writes code, runs tests, and opens merge requests in the cloud, and bills for how much work
+  it actually did.
+inspiration_en: The trend is programming moving from a person typing beside the machine to assigning work
+  and only reviewing the result. The entry is upgrades, debt payoff, and bulk file edits — clear rules
+  — billed by work done so finance can count headcount saved.
 priority_review: false
 url: https://www.aicpb.com/product/Devin/webid1D6F36339
 canonical_url: https://aicpb.com/product/Devin/webid1D6F36339

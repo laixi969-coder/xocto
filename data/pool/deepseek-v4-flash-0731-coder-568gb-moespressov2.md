@@ -3,10 +3,13 @@ slug: deepseek-v4-flash-0731-coder-568gb-moespressov2
 name: DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2
 builder: hacklas
 category: 基础层
-summary_zh: 将DeepSeek V4 Flash压缩至57GB，可在Mac上运行。
-inspiration: 模型压缩技术可让大模型在消费级硬件上运行，推动本地AI应用。
-summary_en: Shrunk DeepSeek V4 Flash to 57GB, runs on a Mac.
-inspiration_en: Model compression enables large models on consumer hardware, boosting local AI applications.
+summary_zh: 把大模型压到一台Mac装得下，在自己电脑上就能跑写程序这类活
+inspiration: 趋势是能干活的大模型会往自己电脑上搬，不把代码送上云。切入不是再压一个通用模型，而是先服务代码不能出门的人。判断：卖本地可跑，不要卖榜单分数；压缩后还剩多少真本事仍要看。
+summary_en: A large model is squeezed small enough for a Mac, so coding work can run on your own computer.
+inspiration_en: 'The trend is working-size models moving onto personal machines so code never goes to
+  the cloud. The entry is not another generic shrink, but people whose code cannot leave the building.
+  Judgment: sell runnable locally, not leaderboard scores; how much skill survives compression is still
+  unknown.'
 priority_review: false
 url: https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2
 canonical_url: https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2

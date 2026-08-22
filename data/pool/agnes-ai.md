@@ -3,11 +3,13 @@ slug: agnes-ai
 name: Agnes AI
 builder: ''
 category: AI + 效率
-summary_zh: 面向团队协作的 AI 工作空间，把讨论、资料和任务放在同一处
-inspiration: 团队协作类 AI 正从单人对话走向共享空间，关键在于能否沉淀共同上下文
-summary_en: An AI workspace for teams to keep discussions, material, and tasks together.
-inspiration_en: Team AI is moving from solo chats to shared workspaces. The key is whether shared context
-  can accumulate.
+summary_zh: 把团队的文档、任务和共同记忆放进同一张工作台，AI 跟着项目走
+inspiration: 趋势是团队用的 AI 从单人聊天变成共享工作台。切入做项目制小团队：新人一进就能接手上下文，按席位订阅；免费模型接口只是获客，不要当成主业。
+summary_en: Puts a team's documents, tasks, and shared memory on one desk, so the AI follows the project
+  instead of sitting in a side chat.
+inspiration_en: 'The trend is team AI moving from solo chats to a shared desk. The entry is project squads:
+  a new hire can pick up context on day one, billed per seat. A free model interface is acquisition, not
+  the business.'
 priority_review: false
 url: https://www.aicpb.com/product/Agnes-AI/webid1D6F36F69
 canonical_url: https://aicpb.com/product/Agnes-AI/webid1D6F36F69

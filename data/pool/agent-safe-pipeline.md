@@ -3,10 +3,13 @@ slug: agent-safe-pipeline
 name: agent-safe-pipeline
 builder: decionis
 category: 基础层
-summary_zh: AI代理只能提议不能授权的参考架构
-inspiration: 把人类审批做成不可绕过的安全层，适合所有高风险自动化场景
-summary_en: Reference architecture where AI agents propose but cannot authorize actions.
-inspiration_en: Making human approval an unbypassable safety layer applies to all high-risk automation.
+summary_zh: AI只能提出要做什么，真正动手必须等人点头并拿到一次性授权
+inspiration: 趋势是AI提议、人拍板会变成高风险自动化的标配。切入是先做付款、发货、改权限这类点错一次就赔钱的环节，把审批做成绕不过去的闸，而不是事后再看日志。
+summary_en: AI can only propose an action; a person must approve it and issue a one-time go-ahead before
+  anything runs.
+inspiration_en: The trend is propose-then-approve becoming the default for high-risk automation. The entry
+  is payments, shipping, and permission changes, where one tap costs money; make approval a gate you cannot
+  skip, not a log you read later.
 priority_review: false
 url: https://decionis.com/docs?utm_source=github&utm_medium=org_readme&utm_campaign=dev_discovery
 canonical_url: https://decionis.com/docs

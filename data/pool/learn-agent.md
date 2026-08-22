@@ -3,10 +3,14 @@ slug: learn-agent
 name: learn-agent
 builder: ryzqi
 category: AI + 开发
-summary_zh: 20 章中文 AI Agent 架构实战教程
-inspiration: 系统化 AI Agent 教学，可借鉴其课程结构。
-summary_en: 20-chapter Chinese AI Agent architecture tutorial.
-inspiration_en: Structured AI agent education.
+summary_zh: 用二十章中文课和能跑的代码，把人教会自己搭一套代理
+inspiration: 趋势是学搭代理从会调接口，变成会设计权限、记忆和多人协作，系统课比散落帖子更能收钱。切入不要做聊天入门，按工具、权限、记忆、多代理拆成可跑作业。判断：课免费引流，钱在答疑营和企业内训。
+summary_en: Teach someone to build their own agent, with twenty Chinese chapters and code that actually
+  runs.
+inspiration_en: 'The trend is agent-building moving from calling an API to designing permissions, memory,
+  and multi-agent work; a sequenced course charges better than scattered posts. Don’t teach chat. Enter
+  with runnable homework on tools, permissions, memory, and teams of agents. Judgement: the course is
+  the funnel; office hours and in-house training take the money.'
 priority_review: false
 url: https://github.com/ryzqi/learn-agent
 canonical_url: https://github.com/ryzqi/learn-agent

@@ -3,11 +3,13 @@ slug: 夸克-阿里ai旗舰应用
 name: 夸克-阿里AI旗舰应用
 builder: ''
 category: AI + 效率
-summary_zh: 阿里的 AI 旗舰应用夸克
-inspiration: 从浏览器转型成 AI 入口，是把已有流量重新装进新容器的典型做法
-summary_en: Quark, Alibaba's flagship AI app.
-inspiration_en: 'Turning a browser into an AI front door is the classic move: repackage traffic you already
-  have.'
+summary_zh: 在夸克里搜、存文件、拍题、做文档不用换应用，月活一点五九亿
+inspiration: 夸克没有发明新习惯，只是让旧动作碰到AI。切入点不是再做一个超级应用，而是挑它样样做、样样不深的一环——只管合同扫描，或只管拍题后的错题本。
+summary_en: 'In 夸克, search, store files, photograph homework, and make documents without switching apps.
+  Monthly actives: 159 million.'
+inspiration_en: 夸克 did not invent a new habit—it lets old habits bump into AI. Don't clone the super-app.
+  Pick one job it does widely and shallowly—contract scans, or a wrong-answer book after the homework
+  photo—and do that job completely.
 priority_review: false
 url: https://www.aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139
 canonical_url: https://aicpb.com/product/夸克-阿里AI旗舰应用/appid1D6F36139

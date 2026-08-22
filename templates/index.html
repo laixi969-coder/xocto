@@ -8,24 +8,23 @@
     <span class="pick-no num">0{{ loop.index }}</span>
     <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
       <h3>{{ p.name }}</h3>
-      {% if p.analysis.verdict %}
-      <span class="verdict v-{{ p.analysis.verdict_key }}">{{ p.analysis.verdict }}</span>
-      {% endif %}
-      {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+      {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
     </a>
     <div class="pick-body">
-      {% if p.analysis.replaces %}
+      {% if p.summary %}
       <div class="field">
-        <span class="field-k">{{ t.home.replaces }}</span>
-        <p>{{ p.analysis.replaces }}</p>
+        <span class="field-k">{{ t.home.what }}</span>
+        <p>{{ p.summary }}</p>
       </div>
-      {% else %}
-      <div class="field"><p>{{ p.analysis.excerpt }}</p></div>
       {% endif %}
-      {% if p.analysis.takeaway %}
+      <div class="field">
+        <span class="field-k">{{ t.home.money }}</span>
+        <p>{{ p.money_brief or t.product.money_unknown }}</p>
+      </div>
+      {% if p.inspiration %}
       <div class="field field-take">
-        <span class="field-k">{{ t.home.takeaway }}</span>
-        <p>{{ p.analysis.takeaway }}</p>
+        <span class="field-k">{{ t.home.meaning }}</span>
+        <p>{{ p.inspiration }}</p>
       </div>
       {% endif %}
     </div>
@@ -35,40 +34,66 @@
 {% endmacro %}
 <div class="wrap">
 
-  {# 这不是营销 Hero，而是当天的编辑台：先交代范围，再把判断递给读者。 #}
+  {# 用户打开只问「今天该知道什么」。头版主标题就是今天的判断，站的承诺放在顶栏。 #}
+  {% if reports %}
+  {% set r = reports[0] %}
+  <header class="lede-bar home-mast">
+    <div class="lede-main">
+      <p class="eyebrow">{{ r.day }} · {{ t.home.latest_report }}</p>
+      <h1>{{ r.hook or t.home.lede_title }}</h1>
+      <p>
+        <a class="obs-cta" href="{{ root }}r/{{ r.day }}.html">{{ t.home.latest_report_cta }} <span aria-hidden="true">→</span></a>
+      </p>
+    </div>
+  </header>
+  {% else %}
   <header class="lede-bar home-mast">
     <div class="lede-main">
       <p class="eyebrow">{{ t.home.eyebrow }}</p>
       <h1>{{ t.home.lede_title }}</h1>
       <p>{{ t.home.lede_body }}</p>
     </div>
-    <dl class="lede-stats" aria-label="{{ t.home.eyebrow }}">
-      <div><dt>{{ t.home.stat_total }}</dt><dd class="num">{{ stats.total }}</dd></div>
-      <div><dt>{{ locale.stages.early }}</dt><dd class="num">{{ stats.early }}</dd></div>
-      <div><dt>{{ locale.stages.proven }}</dt><dd class="num">{{ stats.proven }}</dd></div>
-    </dl>
   </header>
+  {% endif %}
 
-  {# 首页的第一件事是告诉读者今天发生了什么；产品卡和目录随后才是证据与延伸。 #}
-  {% if reports %}
+  {# 首页不是内容货架。先问读者要做什么决定，再把人送到合适的深度。 #}
+  <section class="band reader-routes">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">{{ t.home.routes_kicker }}</p>
+        <h2>{{ t.home.routes_title }}</h2>
+      </div>
+      <span class="note">{{ t.home.routes_note }}</span>
+    </div>
+    <nav class="route-grid" aria-label="{{ t.home.routes_title }}">
+      <a class="route-cell" href="{{ root }}products.html#f=charging" style="--i: 0">
+        <span class="route-no num">01</span>
+        <h3>{{ t.home.route_founder }}</h3>
+        <p>{{ t.home.route_founder_note }}</p>
+        <span class="route-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="route-cell" href="{{ root }}products.html#f=scaled" style="--i: 1">
+        <span class="route-no num">02</span>
+        <h3>{{ t.home.route_investor }}</h3>
+        <p>{{ t.home.route_investor_note }}</p>
+        <span class="route-arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="route-cell" href="{{ root }}{{ 'r/' ~ reports[0].day ~ '.html' if reports else 'products.html' }}" style="--i: 2">
+        <span class="route-no num">03</span>
+        <h3>{{ t.home.route_curious }}</h3>
+        <p>{{ t.home.route_curious_note }}</p>
+        <span class="route-arrow" aria-hidden="true">→</span>
+      </a>
+    </nav>
+  </section>
+
+  {% if fresh_picks %}
   <section class="band">
     <div class="sec-head">
-      <h2>{{ t.home.latest_report }}</h2>
-      <span class="note">{{ t.home.latest_report_note }}</span>
+      <h2>{{ t.home.fresh_picks }}</h2>
+      <span class="note">{{ t.home.fresh_picks_note }}</span>
     </div>
-    {% set r = reports[0] %}
-    <div class="obs obs-feature">
-      <a class="obs-item obs-lead" href="{{ root }}r/{{ r.day }}.html" style="--i: 0">
-        <div class="obs-day num">{{ r.day }}</div>
-        <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>
-        {% if r.highlights %}
-        <div class="obs-tags">
-          {% for h in r.highlights %}<span class="tag">{{ h }}</span>{% endfor %}
-        </div>
-        {% endif %}
-        <span class="obs-cta">{{ t.home.latest_report_cta }} <span aria-hidden="true">→</span></span>
-      </a>
-    </div>
+    {{ pick_list(fresh_picks) }}
   </section>
   {% endif %}
 
@@ -85,98 +110,27 @@
   </section>
   {% endif %}
 
-  {% if fresh_picks %}
-  <section class="band">
-    <div class="sec-head">
-      <h2>{{ t.home.fresh_picks }}</h2>
-      <span class="note">{{ t.home.fresh_picks_note }}</span>
-    </div>
-    {{ pick_list(fresh_picks) }}
-  </section>
-  {% endif %}
-
-  {% if movers %}
-  <section class="band">
-    <div class="sec-head">
-      <h2>{{ t.home.movers }}</h2>
-      <span class="note">{{ t.home.movers_note }}</span>
-    </div>
-    <div class="scroll-x">
-      <table class="tbl">
-        <thead>
-          <tr>
-            <th>{{ t.home.col_product }}</th><th>{{ t.home.col_growth }}</th>
-            <th>{{ t.home.col_scale }}</th><th>{{ t.home.col_function }}</th>
-            <th>{{ t.home.col_why }}</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for p in movers[:8] %}
-          <tr>
-            <td class="name"><a href="{{ root }}p/{{ p.slug }}.html">{{ p.name }}</a></td>
-            <td class="num {{ 'up' if p.growth and p.growth > 100 }}">
-              {{ '+' if p.growth and p.growth > 0 }}{{ '%.1f'|format(p.growth) }}%
-            </td>
-            <td class="num">{{ p.scale or '—' }}</td>
-            <td class="desc">{{ p.summary }}</td>
-            <td class="desc">{{ p.inspiration }}</td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-  </section>
-  {% endif %}
-
-  {% if notables %}
-  <section class="band">
-    <div class="sec-head">
-      <h2>{{ t.home.notables }}</h2>
-      <span class="note">{{ t.home.notables_note }}</span>
-    </div>
-    <ul class="rows">
-      {% for p in notables[:8] %}
-      <li>
-        <a href="{{ root }}p/{{ p.slug }}.html">
-          <div class="row-head">
-            <span class="row-name">{{ p.name }}</span>
-            <span class="row-desc">{{ p.summary }}</span>
-            <span class="row-tail">
-              {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
-              {% if p.badges %}<span class="tag sig">{{ p.badges[0] }}</span>{% endif %}
-            </span>
-          </div>
-          {% if p.inspiration %}
-          <p class="row-insp">{{ p.inspiration }}</p>
-          {% endif %}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
-
   {% if long_term_picks %}
   <section class="band">
     <div class="sec-head">
       <h2>{{ t.home.long_term_picks }}</h2>
       <span class="note">{{ t.home.long_term_picks_note }}</span>
     </div>
-    {{ pick_list(long_term_picks) }}
-  </section>
-  {% endif %}
-
-  {% if categories %}
-  <section class="band">
-    <div class="sec-head"><h2>{{ t.home.cats }}</h2></div>
-    <div class="cats">
-      {% for c in categories %}
-      <a class="cat" href="{{ root }}products.html#c={{ c.name | urlencode }}">
-        <span>{{ c.name }}</span>
-        <b class="num">{{ c.count }}</b>
-      </a>
+    <ul class="rows">
+      {% for p in long_term_picks[:5] %}
+      <li>
+        <a href="{{ root }}p/{{ p.slug }}.html">
+          <div class="row-head">
+            <span class="row-name">{{ p.name }}</span>
+            <span class="row-desc">{{ p.summary }}</span>
+            <span class="row-tail">
+              {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
+            </span>
+          </div>
+        </a>
+      </li>
       {% endfor %}
-    </div>
+    </ul>
   </section>
   {% endif %}
 
@@ -191,15 +145,9 @@
       <a class="obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
         <div class="obs-day num">{{ r.day }}</div>
         <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>
-        {% if r.highlights %}
-        <div class="obs-tags">
-          {% for h in r.highlights %}<span class="tag">{{ h }}</span>{% endfor %}
-        </div>
-        {% endif %}
       </a>
       {% endfor %}
     </div>
-    <p class="archive-cta"><a href="{{ root }}reports.html">{{ t.report.rail_all }} <span aria-hidden="true">→</span></a></p>
   </section>
   {% endif %}
 

@@ -1,4 +1,7 @@
-"""重点 AI 公司官方 RSS / Atom 更新：只接一手发布，不抓新闻转载。"""
+"""RSS / Atom 更新：公司一手发布，以及独立作者与公开平台的观察。
+
+全部按新闻处理，不进产品池。公司源标 official=true，独立作者与平台标 false。
+站点上不出现这些源的名字。"""
 
 from __future__ import annotations
 
@@ -31,16 +34,17 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
             continue
         name = str(spec.get("name") or "").strip()
         url = str(spec.get("url") or "").strip()
+        official = True if "official" not in spec else bool(spec.get("official"))
         if not name or not url:
             continue
         try:
             root = ET.fromstring(http.get_text(url))
         except (ET.ParseError, OSError, HttpError) as exc:
-            print(f"    ! 官方源「{name}」解析失败：{exc}")
+            print(f"    ! 源「{name}」解析失败：{exc}")
             continue
         count = 0
         for row in _entries(root):
-            item = _parse_entry(row, name, collected)
+            item = _parse_entry(row, name, collected, official=official)
             if item is None or item.external_id in seen:
                 continue
             published = parse_iso(item.published_at)
@@ -57,7 +61,9 @@ def _entries(root: ET.Element) -> list[ET.Element]:
     return root.findall(".//item") or root.findall(f".//{ATOM}entry")
 
 
-def _parse_entry(entry: ET.Element, publisher: str, collected: str) -> RawItem | None:
+def _parse_entry(
+    entry: ET.Element, publisher: str, collected: str, *, official: bool = True
+) -> RawItem | None:
     atom = entry.tag == f"{ATOM}entry"
     title = _text(entry.find(f"{ATOM}title" if atom else "title"))
     link = ""
@@ -66,8 +72,12 @@ def _parse_entry(entry: ET.Element, publisher: str, collected: str) -> RawItem |
             if candidate.get("rel", "alternate") == "alternate":
                 link = candidate.get("href") or ""
                 break
+        if not link:
+            first = entry.find(f"{ATOM}link")
+            link = (first.get("href") if first is not None else "") or ""
     else:
-        link = _text(entry.find("link"))
+        link_el = entry.find("link")
+        link = _text(link_el) or (link_el.get("href") if link_el is not None else "")
     if not title or not link:
         return None
     published = _date(_text(entry.find(f"{ATOM}published" if atom else "pubDate")) or _text(entry.find(f"{ATOM}updated" if atom else "date")))
@@ -82,7 +92,7 @@ def _parse_entry(entry: ET.Element, publisher: str, collected: str) -> RawItem |
         published_at=to_iso(published) if published else "",
         collected_at=collected,
         metrics={},
-        extra={"kind": "news", "publisher": publisher, "official": True},
+        extra={"kind": "news", "publisher": publisher, "official": official},
         payload={"publisher": publisher, "link": link},
     )
 

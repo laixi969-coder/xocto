@@ -3,11 +3,13 @@ slug: mcp-server
 name: mcp-server
 builder: sv-number
 category: 基础层
-summary_zh: 给 agent 开电话号码，两百多个国家，验证码自动读回来
-inspiration: agent 要办事就得有身份，而身份的最小单位是手机号——这是条被忽略的生意
-summary_en: ''
-inspiration_en: An agent that gets things done needs an identity, and the smallest unit of identity is
-  a phone number. That is an overlooked business.
+summary_zh: 助手要注册账号时，自己下单各国手机号、读回验证码，人不用守着等。
+inspiration: 助手要办事就得有身份，最小单位是手机号。趋势是给人用的接口改成给助手用的接口；切入是跨境注册卡在验证码这一步，按次收费、用完即弃。
+summary_en: When an assistant needs to register an account, it orders a phone number in the right country,
+  reads the SMS code, and no one has to wait.
+inspiration_en: An assistant that gets things done needs an identity, and the smallest unit is a phone
+  number. The trend is human-facing APIs rewritten for assistants. The entry is the SMS-code step in cross-border
+  signup, charged per use and discarded after.
 priority_review: false
 url: https://sms-verification-number.com/en/number-for-ai-agents/
 canonical_url: https://sms-verification-number.com/en/number-for-ai-agents

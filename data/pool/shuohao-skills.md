@@ -3,12 +3,13 @@ slug: shuohao-skills
 name: shuohao-skills
 builder: eternityspring
 category: AI + 创作
-summary_zh: 把一本小说拆成能直接开拍的短剧素材包：角色设定、形象提示词、音色、分集大纲
-inspiration: 所有人卷「生成画面」时，价值沉在上游那个又脏又累的环节：喂给生成器什么
-summary_en: 'Turns a novel into a shoot-ready short-drama kit: character bibles, model sheets, voices,
+summary_zh: 把一本小说拆成能直接开拍的短剧包：人物设定、形象、音色、分集大纲。
+inspiration: 人人都在卷生成画面时，价值沉在开拍前又脏又累的准备。趋势是上游素材准备会单独成生意；切入是小说改编短剧的前期，用开源引流、付费社群变现。
+summary_en: 'Turn a novel into a short-drama kit you can shoot from: character bibles, looks, voices,
   episode outlines.'
-inspiration_en: 'While everyone races on generating footage, the value sits upstream in the dirty, tiring
-  step: what you feed the generator.'
+inspiration_en: While everyone races to generate footage, the value sits in the dirty prep before cameras
+  roll. The trend is upstream asset prep becoming its own business. The entry is adapting novels into
+  short drama, using open source to fill a paid community.
 priority_review: false
 url: https://github.com/eternityspring/shuohao-skills
 canonical_url: https://github.com/eternityspring/shuohao-skills

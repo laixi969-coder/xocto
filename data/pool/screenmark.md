@@ -3,11 +3,13 @@ slug: screenmark
 name: ScreenMark
 builder: Mustafa
 category: AI + 效率
-summary_zh: 菜单栏应用，在屏幕上实时批注、叠加白板
-inspiration: 远程协作里「指着说」这个动作一直没被解决好，工具越轻越好用
-summary_en: ''
-inspiration_en: Pointing at something while you talk has never been solved well in remote work. The lighter
-  the tool, the better it works.
+summary_zh: 共享屏幕讲解时直接在画面上圈重点、放大、冻结，离开座位也能用手机遥控。
+inspiration: 远程协作里指着说一直没被解决好，工具越重越没人用。趋势是演示体验从会议软件里拆出来；切入是培训、路演、在线教学的实时圈画。可买断。
+summary_en: While sharing a screen, circle the point, zoom, and freeze on the picture itself. Step away
+  from the desk and remote from the phone.
+inspiration_en: Pointing while you talk has never been solved well in remote work, and heavier tools go
+  unused. The trend is pulling the demo experience out of the meeting app. The entry is live circling
+  in training, pitches, and online teaching. Available as a buyout.
 priority_review: false
 url: https://www.producthunt.com/products/screenmark-annotation-draw
 canonical_url: https://producthunt.com/products/screenmark-annotation-draw

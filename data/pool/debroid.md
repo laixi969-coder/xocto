@@ -3,11 +3,13 @@ slug: debroid
 name: debroid
 builder: PatilShreyas
 category: 基础层
-summary_zh: 给 AI 编程 agent 用的无头安卓调试器
-inspiration: agent 要真干活就得能操作真实设备，「让 agent 有手」是一整个待开发的品类
-summary_en: ''
-inspiration_en: For an agent to do real work it has to touch real devices. “Giving agents hands” is a
-  whole category waiting to be built.
+summary_zh: 让写代码的 AI 在终端里调试正在运行的安卓应用：下断点、看变量、抓崩溃
+inspiration: 趋势是 AI 要真写手机应用，就必须能进正在运行的真机。切入做安卓出包前的崩溃排查，给助手一双进运行时的手；本工具免费，以后收费会落在云调试上。
+summary_en: 'Lets a coding AI debug a live Android app from the terminal: breakpoints, variables, and
+  crashes, with no on-screen debugger.'
+inspiration_en: The trend is that an AI cannot really ship mobile apps until it can touch a running device.
+  The entry is crash hunts before an Android release — hands into the live runtime. This tool is free;
+  later money sits in hosted debugging.
 priority_review: false
 url: https://github.com/PatilShreyas/debroid
 canonical_url: https://github.com/PatilShreyas/debroid

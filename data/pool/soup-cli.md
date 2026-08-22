@@ -3,11 +3,13 @@ slug: soup-cli
 name: Soup CLI
 builder: Alpamys Makazhan
 category: 基础层
-summary_zh: 在 4GB 显存的笔记本上微调 80 亿参数模型
-inspiration: 把门槛从「租集群」降到「用笔记本」，参与人数会涨一个数量级
-summary_en: ''
-inspiration_en: Dropping the barrier from “rent a cluster” to “use a laptop” changes participation by
-  an order of magnitude.
+summary_zh: 在普通笔记本的小显卡上也能微调大模型，一条命令跑完，不必再租计算集群。
+inspiration: 微调的门槛一直是显存和配环境，不是算法。趋势是参与训练的人会涨一个数量级；切入是只有小显卡的个人研究者和老师。开源免费。
+summary_en: Fine-tune a large model on an ordinary laptop's small GPU with one command. No need to rent
+  a compute cluster.
+inspiration_en: The barrier to fine-tuning has always been memory and environment, not the algorithm.
+  The trend is the number of people who can train jumping an order of magnitude. The entry is individual
+  researchers and teachers with only a small GPU. Open-source and free.
 priority_review: false
 url: https://www.producthunt.com/products/soup-cli
 canonical_url: https://producthunt.com/products/soup-cli

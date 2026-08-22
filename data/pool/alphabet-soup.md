@@ -3,11 +3,12 @@ slug: alphabet-soup
 name: Alphabet Soup
 builder: johnchinjew
 category: AI + 生活
-summary_zh: 多人在线组词游戏，拼谁的词最长
-inspiration: 轻量多人游戏的传播靠的是「叫上朋友」这个动作，不是游戏本身多好玩
-summary_en: ''
-inspiration_en: Light multiplayer games spread on the act of inviting a friend, not on how good the game
-  is.
+summary_zh: 网页上多人用同一组字母拼单词，谁拼出最长的那一个谁赢
+inspiration: 趋势是轻量网页游戏靠「叫上朋友」传播，不靠画面。切入做同事团建、家庭聚会这种十分钟一局、胜负当场见的词游，靠打赏活着即可，别急着做订阅。
+summary_en: A web word game where everyone shares the same letters and the longest word wins.
+inspiration_en: 'The trend is that light web games spread on “invite a friend,” not on graphics. The entry
+  is office icebreakers and family gatherings: ten-minute rounds with a clear winner. Tips can keep it
+  alive; do not rush a subscription.'
 priority_review: false
 url: https://alphabetsoup.club
 canonical_url: https://alphabetsoup.club

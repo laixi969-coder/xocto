@@ -3,10 +3,13 @@ slug: talvo
 name: Talvo
 builder: Philippe Maes
 category: AI + 商业
-summary_zh: 连接 2500+ 欧洲银行追踪支出
-inspiration: 聚合银行数据，可迁移到个人财务管理
-summary_en: Connect 2,500+ European banks to track spending
-inspiration_en: Aggregating bank data, applicable to personal finance management
+summary_zh: 把欧洲两千多家银行账户连起来，日常花销一目了然，不用逐家登录
+inspiration: 趋势是个人财务要从「每个银行一个 App」合成一张图。切入先做跨境打工、欧洲多账户家庭这种月底对不上账就焦虑的人，按看清现金流收费。
+summary_en: Connect 2,500-plus European bank accounts so daily spending is visible without logging into
+  each bank.
+inspiration_en: The trend is personal finance collapsing many bank apps into one picture. Enter cross-border
+  workers and European households with several accounts—people who panic when month-end does not reconcile—and
+  charge for seeing cash flow clearly.
 priority_review: false
 url: https://www.producthunt.com/products/talvo-2
 canonical_url: https://producthunt.com/products/talvo-2

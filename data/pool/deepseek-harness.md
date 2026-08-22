@@ -3,10 +3,13 @@ slug: deepseek-harness
 name: deepseek-harness
 builder: deepseek-ai
 category: 基础层
-summary_zh: DeepSeek官方插件化框架，一切皆插件。
-inspiration: 官方插件生态的爆发，预示agent工具链的标准化方向。
-summary_en: DeepSeek's official plugin framework, everything is a plugin.
-inspiration_en: The explosion of an official plugin ecosystem signals standardization in agent toolchains.
+summary_zh: DeepSeek 把助手的工具、记忆、界面拆成可替换插件，在自己电脑上跑
+inspiration: 趋势是模型公司送壳、靠调用赚钱，换大脑变成改一行配置。切入做企业要留在内网的助手运行时：插件可审计、可替换；壳免费，钱在模型调用。
+summary_en: DeepSeek splits an assistant's tools, memory, and interface into swappable add-ons that run
+  on your own computer.
+inspiration_en: 'The trend is model companies giving away the shell and charging for calls, so swapping
+  the brain is one config line. The entry is an assistant runtime that must stay on a company intranet:
+  add-ons you can audit and replace. The shell is free; money is in model calls.'
 priority_review: false
 url: https://deepseek.com/harness
 canonical_url: https://deepseek.com/harness

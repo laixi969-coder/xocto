@@ -21,6 +21,7 @@
     {% endif %}
 
     <div class="meta">
+      {% if product.form %}<span class="tag sig">{{ product.form }}</span>{% endif %}
       <span class="tag">{{ product.stage }}</span>
       {% if product.category %}<span class="tag">{{ product.category }}</span>{% endif %}
       {% for b in product.badges %}<span class="tag sig">{{ b }}</span>{% endfor %}
@@ -38,29 +39,66 @@
     </div>
   </header>
 
-  {% if product.inspiration %}
-  <section class="band">
-    <div class="field field-take">
-      <span class="field-k">{{ t.product.inspiration }}</span>
-      <p>{{ product.inspiration }}</p>
+  {# 首屏只服务一个任务：值不值得继续花时间。结论、钱、切口和待验证点都在正文之前。 #}
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">{{ t.product.decision_kicker }}</p>
+        <h2>{{ t.product.decision_title }}</h2>
+      </div>
+      <span class="note">{{ t.product.decision_note }}</span>
     </div>
-  </section>
-  {% endif %}
-
-  {% if analysis and (analysis.replaces or analysis.takeaway) %}
-  {# 这两段从正文里抽出来置顶：一个是判断真伪的依据，一个是读者真正要拿走的东西 #}
-  <section class="band">
-    <div class="summary-grid">
-      {% if analysis.replaces %}
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">{{ t.product.call }}</span>
+        <p>{{ analysis.call if analysis and analysis.call else (analysis.excerpt if analysis else product.summary) }}</p>
+      </div>
       <div class="field">
-        <span class="field-k">{{ t.product.replaces }}</span>
-        <p>{{ analysis.replaces }}</p>
+        <span class="field-k">{{ t.product.money }}</span>
+        <p>{{ analysis.money if analysis and analysis.money else t.product.money_unknown }}</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">{{ t.product.inspiration }}</span>
+        <p>{{ product.inspiration }}</p>
+      </div>
+      <div class="field">
+        <span class="field-k">{{ t.product.watch_next }}</span>
+        <p>{{ analysis.watch_next if analysis and analysis.watch_next else t.product.none_sub }}</p>
+      </div>
+    </div>
+    {% if analysis and analysis.replaces %}
+    <div class="decision-replaces field">
+      <span class="field-k">{{ t.product.replaces }}</span>
+      <p>{{ analysis.replaces }}</p>
+    </div>
+    {% endif %}
+  </section>
+
+  {% if product.for_investor or product.for_public or (analysis and analysis.takeaway) %}
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">{{ t.product.roles_kicker }}</p>
+        <h2>{{ t.product.roles_title }}</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      {% if analysis and analysis.takeaway %}
+      <div class="field field-take">
+        <span class="field-k">{{ t.product.for_founder_k }}</span>
+        <p>{{ analysis.takeaway }}</p>
       </div>
       {% endif %}
-      {% if analysis.takeaway %}
-      <div class="field field-take">
-        <span class="field-k">{{ t.product.takeaway }}</span>
-        <p>{{ analysis.takeaway }}</p>
+      {% if product.for_investor %}
+      <div class="field">
+        <span class="field-k">{{ t.product.for_investor_k }}</span>
+        <p>{{ product.for_investor }}</p>
+      </div>
+      {% endif %}
+      {% if product.for_public %}
+      <div class="field">
+        <span class="field-k">{{ t.product.for_public_k }}</span>
+        <p>{{ product.for_public }}</p>
       </div>
       {% endif %}
     </div>
@@ -68,7 +106,8 @@
   {% endif %}
 
   {% if analysis %}
-  <article class="prose">
+  <article class="prose analysis-full">
+    <p class="prose-kicker">{{ t.product.decision_kicker }} · {{ t.product.decision_note }}</p>
     {{ analysis.body_html | safe }}
   </article>
   {% else %}
@@ -123,8 +162,8 @@
             <span class="row-name">{{ s.name }}</span>
             <span class="row-desc">{{ s.summary }}</span>
             <span class="row-tail">
+              {% if s.form %}<span class="tag sig">{{ s.form }}</span>{% endif %}
               {% if s.status == 'analyzed' %}<span class="tag">{{ locale.statuses.analyzed }}</span>{% endif %}
-              {% if s.badges %}<span class="tag sig">{{ s.badges[0] }}</span>{% endif %}
             </span>
           </div>
         </a>

@@ -3,10 +3,13 @@ slug: mole
 name: Mole
 builder: lajosdeme
 category: AI + 效率
-summary_zh: 终端里的深度研究代理
-inspiration: 将深度研究能力带入终端，适合开发者工作流
-summary_en: Deep research agent for your terminal.
-inspiration_en: Bringing deep research into the terminal suits developer workflows.
+summary_zh: 在终端里交代一个课题，代理自己把资料挖深并给回一份结论
+inspiration: 趋势是深度调研从浏览器插件回到命令行，方便嵌进已有工作，「能过夜查完一个题」会成代理标配。切入不要做通用搜索框，先帮咨询、尽调、政策研究这种按报告交货的人。判断：按题目出报告收费，比聊天窗口更容易对上预算。
+summary_en: Give a research brief in the terminal; the agent digs the sources and brings back a conclusion.
+inspiration_en: 'The trend is deep research leaving browser plugins for the terminal, where it can sit
+  inside existing work; finishing one question overnight becomes expected. Don’t build a generic search
+  box. Enter consulting, diligence, and policy shops that deliver reports. Judgement: per-brief reports
+  map to budgets better than a chat window.'
 priority_review: false
 url: https://github.com/lajosdeme/mole
 canonical_url: https://github.com/lajosdeme/mole

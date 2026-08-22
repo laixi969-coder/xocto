@@ -3,11 +3,13 @@ slug: shennongmi
 name: ShenNongMi
 builder: Happy-Chen-CH
 category: AI + 生活
-summary_zh: 中医知识图谱问答，靠两万个节点撑住会自我纠错的查询
-inspiration: 垂直知识图谱是模型抹平不掉的壁垒，谁手上有结构化的行业知识谁就有护城河
-summary_en: Traditional Chinese medicine knowledge navigator built on a graph of 19,000+ entities.
-inspiration_en: A vertical knowledge graph is a moat models cannot flatten. Whoever holds structured domain
-  knowledge holds the defensibility.
+summary_zh: 问中药方剂不再靠模型瞎编，先查结构化图谱里有没有，没有就承认不会。
+inspiration: 垂直行业最怕一本正经的胡话。趋势是结构化行业知识成为模型抹不平的壁垒；切入是中医问答，图谱建成后再卖养生内容或问诊。目前开源教学、未收费。
+summary_en: Questions about herbs and formulas no longer let the model invent. It checks a structured
+  graph first, and admits it if nothing is there.
+inspiration_en: Vertical trades fear confident nonsense most. The trend is structured domain knowledge
+  as a moat models cannot flatten. The entry is traditional Chinese medicine Q&A; once the graph is built,
+  wellness content or consults can be sold. Currently open-source for teaching, not charged.
 priority_review: false
 url: https://github.com/Happy-Chen-CH/ShenNongMi
 canonical_url: https://github.com/Happy-Chen-CH/ShenNongMi

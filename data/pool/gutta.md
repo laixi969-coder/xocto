@@ -3,11 +3,13 @@ slug: gutta
 name: Gutta
 builder: Vaibhav Pathak
 category: AI + 效率
-summary_zh: Mac 菜单栏里的极简待办清单，离线可用
-inspiration: 极小工具靠「一眼看完」取胜，功能越少反而越难被替代
-summary_en: ''
-inspiration_en: Tiny tools win by being readable at a glance. Fewer features actually makes them harder
-  to replace.
+summary_zh: 在 Mac 菜单栏两秒记下明天买面包，本地存放，不用账号也不用订阅
+inspiration: 趋势是极小工具靠「拒绝功能」重新定义品类。不要做团队待办，先切记一件小事的两秒入口，数据放用户自己的云文件夹。免费，还看不清独立变现。
+summary_en: A two-second Mac menu-bar note captures “buy bread tomorrow,” stored on the machine, with
+  no account and no subscription.
+inspiration_en: The trend is tiny tools redefining a category by refusing features. Don't build team to-dos.
+  Start with a two-second capture for one small task, and keep files in the user's own cloud folder. Free;
+  a standalone way to charge is still unclear.
 priority_review: false
 url: https://www.producthunt.com/products/gutta
 canonical_url: https://producthunt.com/products/gutta

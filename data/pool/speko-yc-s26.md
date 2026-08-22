@@ -3,10 +3,13 @@ slug: speko-yc-s26
 name: Speko (YC S26)
 builder: abdik
 category: 基础层
-summary_zh: 语音 AI 的 OpenRouter
-inspiration: 语音 AI 聚合层，可借鉴其路由和计费模式。
-summary_en: OpenRouter for Voice AI.
-inspiration_en: Unified interface for voice AI services.
+summary_zh: 做语音客服时，自动挑最合适的听、想、说组合，不用一家家试模型
+inspiration: 趋势是语音产品拼的是整条链路，不是单一模型。切入先做客服热线、催收、预约挂号这种口音杂、说错一句就投诉的电话，按接通质量收费。
+summary_en: For voice support, it picks the best listen-think-speak combo so you stop trial-and-error
+  across vendors.
+inspiration_en: The trend is voice products competing on the whole chain, not one model. Enter support
+  hotlines, collections, or appointment booking—calls with messy accents where one wrong sentence becomes
+  a complaint—and charge for call quality.
 priority_review: false
 url: https://speko.ai/
 canonical_url: https://speko.ai

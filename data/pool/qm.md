@@ -3,11 +3,13 @@ slug: qm
 name: qm
 builder: yc-software
 category: AI + 效率
-summary_zh: 公司内部的多人 AI 助手，每个员工一个独立工作区
-inspiration: 把 agent 从「个人助理」改成「公司同事」，难点不在模型，在权限和记忆的分域
-summary_en: ''
-inspiration_en: Turning an agent from a personal assistant into a company colleague. The hard part is
-  not the model, it is scoping memory and permissions per person.
+summary_zh: 公司里每个员工一个隔离助手，频道里又能一起使唤同一个，记忆不串味。
+inspiration: 各自开号记忆散、共用一个又不敢给权限。趋势是助手从个人助理变成公司同事；切入是企业里分人分域这一层，先自用再开源，收费未披露。
+summary_en: Every employee gets an isolated assistant, and the same one can still be driven together in
+  a channel, with memories that do not leak.
+inspiration_en: Separate accounts scatter memory; one shared bot is too scary to grant real permission.
+  The trend is assistants becoming company colleagues, not personal aides. The entry is per-person isolation
+  inside a company, used in-house first then opened. Pricing undisclosed.
 priority_review: false
 url: https://x.com/qm__dev
 canonical_url: https://x.com/qm__dev

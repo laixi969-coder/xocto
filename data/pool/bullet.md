@@ -3,11 +3,12 @@ slug: bullet
 name: Bullet
 builder: Garry Tan
 category: AI + 开发
-summary_zh: 声称比Claude Code和Codex快30-60%的AI编码工具。
-inspiration: 速度是开发者工具的硬通货，可迁移到任何效率类产品定位。
-summary_en: AI coding tool claiming to be 30-60% faster than Claude Code and Codex.
-inspiration_en: Speed is the hard currency for developer tools, transferable to any productivity product
-  positioning.
+summary_zh: 不换模型，专把写代码助手的等待压下去，少来回就能快一截
+inspiration: 趋势是写代码助手的瓶颈从模型变到等待。切入做每天要跑几十轮改代码的团队：卖的是省下来的空等，不是更聪明的模型。现为内测免费，收费未披露。
+summary_en: Keeps the same model and speeds up a coding assistant by cutting the wait between steps.
+inspiration_en: 'The trend is that coding assistants are now limited by waiting, not by the model. The
+  entry is teams that run dozens of edit loops a day: sell the saved idle time, not a smarter brain. Private
+  beta is free; pricing is undisclosed.'
 priority_review: false
 url: https://www.producthunt.com/products/bullet-6
 canonical_url: https://producthunt.com/products/bullet-6

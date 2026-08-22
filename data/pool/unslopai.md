@@ -3,10 +3,11 @@ slug: unslopai
 name: unslopai
 builder: not_wowinter14
 category: AI + 创作
-summary_zh: 去除AI写作中的AI腔调。
-inspiration: 文本风格转换可应用于内容创作，提升自然度。
-summary_en: Remove AI voice from AI writings.
-inspiration_en: Text style transfer could apply to content creation for more natural tone.
+summary_zh: 把 AI 写出来的稿子去掉套话腔，读起来像人写的，能直接发出去
+inspiration: 趋势是读者已经能闻出 AI 套话，发出去会掉信任。切入先做官网、融资材料、客户邮件这种露馅就丢脸的对外文本，不要做通用润色器。
+summary_en: Strip the stock AI tone from a draft so it reads like a person wrote it and can go out as-is.
+inspiration_en: The trend is readers smelling AI filler, and sending it costs trust. Enter homepages,
+  fundraising memos, and client email—outward text that humiliates you if the mask slips.
 priority_review: false
 url: https://unslopai.com
 canonical_url: https://unslopai.com

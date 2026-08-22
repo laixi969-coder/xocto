@@ -3,11 +3,13 @@ slug: approving
 name: approving
 builder: cocofhu
 category: AI + 开发
-summary_zh: 把 coding agent 的活变成可审批、可回滚的交付流程
-inspiration: agent 越自动，人越需要一个卡点，审批这一环本身就能做成产品
-summary_en: ''
-inspiration_en: The more autonomous the agent, the more people need a checkpoint. The approval step itself
-  is a product.
+summary_zh: 让写代码的 AI 在隔离环境里干活，关键节点停下来等人批准才能继续
+inspiration: 趋势是 AI 越能自己写代码，人越需要卡点。切入做必须过评审才能合入的研发流程：隔离里干活、批准后才提交，按团队收；定价尚未披露。
+summary_en: Runs a coding AI in an isolated box and pauses at critical steps until a person approves before
+  it continues.
+inspiration_en: 'The trend is that the more a coding AI can act alone, the more people need a gate. The
+  entry is delivery that cannot merge without review: work in isolation, submit only after approval, billed
+  to the team. Pricing is undisclosed.'
 priority_review: false
 url: https://www.approving-ai.com
 canonical_url: https://approving-ai.com

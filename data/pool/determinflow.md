@@ -3,11 +3,13 @@ slug: determinflow
 name: DeterminFlow
 builder: alikon-art
 category: 基础层
-summary_zh: 面向生产的 AI 工作流运行时，能校验也能恢复
-inspiration: 把「可恢复」做成卖点，说明 AI 工作流已经进了不能丢单的场景
-summary_en: Production-oriented AI workflow runtime you can validate and recover.
-inspiration_en: Selling recoverability as the headline feature means AI workflows have entered contexts
-  where losing a job is not acceptable.
+summary_zh: 把复杂 AI 流程钉成可校验、失败能从断点续跑的服务，中途断了不用从头来
+inspiration: 趋势是 AI 流程进入不能丢单的生产场景，可恢复比更聪明值钱。切入做审批、出单、客服工单这种步骤清楚、中断要续跑的流程；开源获客，定制和私有部署收费，价未细披露。
+summary_en: Pins a complex AI workflow into a service you can validate and resume from a breakpoint, so
+  a crash does not mean starting over.
+inspiration_en: The trend is AI workflows entering jobs you cannot drop, so recoverability beats extra
+  cleverness. The entry is approvals, order-out, and support tickets — clear steps that must resume. Open
+  source acquires; custom and private installs bill. Fine prices are undisclosed.
 priority_review: false
 url: https://github.com/alikon-art/DeterminFlow
 canonical_url: https://github.com/alikon-art/DeterminFlow

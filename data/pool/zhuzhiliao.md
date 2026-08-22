@@ -3,10 +3,12 @@ slug: zhuzhiliao
 name: zhuzhiliao
 builder: imsai-sh
 category: AI + 生活
-summary_zh: 竹知了传统玩具的Web模拟版
-inspiration: 用Web技术复刻传统玩具，唤起怀旧情感
-summary_en: Web simulation of the traditional bamboo cicada toy.
-inspiration_en: Recreating traditional toys with web tech evokes nostalgia.
+summary_zh: 在手机网页上转一下竹知了，就能听到那种传统玩具的叫声
+inspiration: 趋势是怀旧体验会先在网页上被做轻、做真。切入先做能用声音唤起记忆的传统玩具、方言、老物件，按可分享的一刻收费，不要做博物馆讲解。
+summary_en: Spin this bamboo-cicada toy in a phone browser and hear the cry of that traditional toy.
+inspiration_en: The trend is nostalgia arriving first as a light, true web moment. Enter traditional toys,
+  dialects, and old objects that wake memory with sound, and charge for a shareable second. Don't build
+  a museum lecture.
 priority_review: false
 url: https://imsai.top
 canonical_url: https://imsai.top

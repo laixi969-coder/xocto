@@ -3,11 +3,13 @@ slug: 可灵ai-ai图片amp视频创作工具
 name: 可灵AI - AI图片&amp;视频创作工具
 builder: ''
 category: AI + 创作
-summary_zh: 快手的图片与视频生成平台，带创作者社区
-inspiration: 工具 + 社区的组合让作品本身成为获客素材，创作类产品几乎都要走这条路
-summary_en: Kuaishou's image and video generation platform, with a creator community attached.
-inspiration_en: Tool plus community turns the output itself into acquisition material. Nearly every creative
-  product ends up here.
+summary_zh: 用可灵把广告片和短剧里最贵的实拍换成生成镜头，月活八百多万
+inspiration: 可灵证明专业场景能收到钱，即梦证明分发能收到人。切入点不是再做一个全民生视频，而是盯住影视广告短剧里仍要外包实拍的那一段，把成本砍下来卖给制作团队。
+summary_en: '可灵 replaces the most expensive live-action shots in ads and short dramas with generated footage.
+  Monthly actives: 8.1 million.'
+inspiration_en: 可灵 shows that pro production pays; 即梦 shows that distribution brings people. Don't build
+  another video app for everyone—take the still-outsourced live-action slice in film, ads, and short drama,
+  and sell the cost cut to production teams.
 priority_review: false
 url: https://www.aicpb.com/product/可灵AI-AI图片视频创作工具/appid1D6F37A09
 canonical_url: https://aicpb.com/product/可灵AI-AI图片视频创作工具/appid1D6F37A09

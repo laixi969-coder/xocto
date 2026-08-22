@@ -3,11 +3,13 @@ slug: applied-micro-skills
 name: applied-micro-skills
 builder: kennethkhoocy
 category: AI + 开发
-summary_zh: 给实证经济学研究用的 Claude Code / Codex 技能包
-inspiration: 学术研究是被忽视的付费市场：流程高度标准化、错误代价大、预算来自科研经费
-summary_en: ''
-inspiration_en: 'Academic research is an overlooked paying market: the workflow is highly standardized,
-  mistakes are expensive, and the budget comes from grants.'
+summary_zh: 帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来
+inspiration: 趋势是学术论文开始要求「数字真能从数据跑出来」。切入做实证经济学的复现审计：期刊投稿前核表、核计算，靠科研经费付咨询，不要做通用论文生成器。
+summary_en: Helps applied economics researchers go from data and regressions to paper tables, and checks
+  that the numbers actually reproduce.
+inspiration_en: 'The trend is journals asking whether published numbers really come from the data. The
+  entry is reproducibility audits in empirical economics: check tables and code before submission, paid
+  from grants — not a generic paper writer.'
 priority_review: false
 url: https://github.com/kennethkhoocy/applied-micro-skills
 canonical_url: https://github.com/kennethkhoocy/applied-micro-skills

@@ -3,12 +3,13 @@ slug: godmode
 name: godmode
 builder: thiientv
 category: AI + 开发
-summary_zh: 生产级Agent技能集，覆盖规划、TDD、调试、审查等可组合工作流。
-inspiration: 将工程实践封装为可组合技能，可迁移到任何AI编码agent的标准化。
-summary_en: Production-grade Agent Skills for AI coding agents, covering planning, TDD, debugging, review,
-  and more.
-inspiration_en: Packaging engineering practices as composable skills standardizes AI coding agents, transferable
-  to any workflow.
+summary_zh: 写代码的 AI 被要求先设计、先测试、再声称完成，纪律不用人每次重新叮嘱
+inspiration: 趋势是工程纪律正从对话里的临时约定，变成可复用的行为包。不要做万能提示词，先给发版、事故处理、评审这些必须按顺序来的环节封装动作。开源，收费未披露。
+summary_en: AI that writes code must design first, test first, and only then claim done, so people stop
+  re-teaching the discipline every chat.
+inspiration_en: The trend is engineering discipline leaving ad-hoc chat rules and becoming reusable behavior
+  packs. Don't sell a giant prompt. Start with release, incident, and review — steps that must happen
+  in order — and wrap them as actions. Open source; pricing is undisclosed.
 priority_review: false
 url: https://thiientv.github.io/godmode
 canonical_url: https://thiientv.github.io/godmode

@@ -3,11 +3,13 @@ slug: orca
 name: Orca
 builder: pcvetkovski
 category: AI + 商业
-summary_zh: 跨平台应用内购买编排工具。
-inspiration: 统一IAP编排简化多平台支付，可迁移到订阅管理场景。
-summary_en: Instant cross-platform in-app purchase orchestration.
-inspiration_en: Unified IAP orchestration simplifies multi-platform payments, applicable to subscription
-  management.
+summary_zh: 用户在手机、电脑或网页任一端订阅，权限在六端同时生效，不按收入抽成。
+inspiration: 跨端产品被订阅状态对不上卡死，桌面端尤其没人管。趋势是订阅账本从移动端扩到全端；切入是同时卖应用和桌面软件的团队，按固定月费而不是抽成。
+summary_en: Subscribe on phone, computer, or web, and access goes live on all six surfaces at once, with
+  no cut of revenue.
+inspiration_en: Cross-platform products die when subscription state disagrees, especially on desktop.
+  The trend is the subscription ledger expanding from mobile to every surface. The entry is teams that
+  sell both an app and desktop software, on a flat monthly fee instead of a cut.
 priority_review: false
 url: https://news.ycombinator.com/item?id=49286271
 canonical_url: https://news.ycombinator.com/item?id=49286271

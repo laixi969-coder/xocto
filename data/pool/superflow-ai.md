@@ -3,10 +3,12 @@ slug: superflow-ai
 name: Superflow AI
 builder: Garry Tan
 category: AI + 开发
-summary_zh: AI 代理在发布前对你的网站进行 QA
-inspiration: 发布前自动化 QA，可借鉴其质量保障流程。
-summary_en: AI agents that QA your website before launch.
-inspiration_en: Pre-launch automated QA.
+summary_zh: 网站正式上线前，让 AI 自己点一遍页面，先把坏掉的入口找出来
+inspiration: 趋势是上线前的人工点检跟不上发版速度。切入先做结账、注册、预约这种点不通就丢钱的页面，按上线前拦住的事故收费。
+summary_en: Before a site goes live, the AI clicks through the pages and finds the broken doors first.
+inspiration_en: The trend is pre-launch human clicking falling behind the release pace. Enter checkout,
+  signup, and booking pages—doors that lose money if they do not open—and charge for incidents caught
+  before launch.
 priority_review: false
 url: https://www.producthunt.com/products/superflow-webflow-plugin-for-revisions
 canonical_url: https://producthunt.com/products/superflow-webflow-plugin-for-revisions

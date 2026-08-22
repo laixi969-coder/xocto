@@ -3,11 +3,13 @@ slug: 纳米ai搜索
 name: 纳米AI搜索
 builder: ''
 category: 通用助手
-summary_zh: 360 纳米 AI 搜索，一句话生成专家级视频、报告、PPT
-inspiration: 从「搜到答案」升级成「直接产出交付物」，这是搜索产品价值链的往上走
-summary_en: '360''s Nano AI search: one sentence in, an expert-grade video, report, or deck out.'
-inspiration_en: Moving from “find the answer” to “produce the deliverable” is search climbing its own
-  value chain.
+summary_zh: 纳米AI搜索把找资料升级成直接交视频、报告和PPT，月访问一亿八千万
+inspiration: 搜索正在从给链接变成交差件，功能铺得越全每条线就越浅。切入点不是再做一个全能搜索，而是把一句话出成品锁死在行业周报或带货短视频，质量打到能直接用。
+summary_en: '纳米AI搜索 turns “find links” into handing over a video, report, or deck. Monthly visits: 180
+  million.'
+inspiration_en: Search is climbing from links to deliverables, and the wider the product, the shallower
+  each line. Don't build another everything-search. Lock “one sentence, finished file” to an industry
+  weekly or a selling video, and make quality good enough to use as-is.
 priority_review: false
 url: https://www.aicpb.com/product/纳米AI搜索/webid1D6F374A1
 canonical_url: https://aicpb.com/product/纳米AI搜索/webid1D6F374A1

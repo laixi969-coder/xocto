@@ -3,10 +3,12 @@ slug: pyscrappy
 name: PyScrappy
 builder: vedaant00
 category: AI + 开发
-summary_zh: 自愈网页抓取选择器，附带MCP服务器。
-inspiration: 自愈选择器可减少爬虫维护成本，可迁移至数据采集工具。
-summary_en: Self-healing web scraping selectors with an MCP server.
-inspiration_en: Self-healing selectors reduce crawler maintenance, applicable to data collection tools.
+summary_zh: 网页一改版，抓价格、库存的规则会自己修好，不用再派人天天盯
+inspiration: 趋势是网页数据会越来越难稳定拿到。切入先做电商比价、招投标公告、招聘岗位这种改一次版就全线停工的采集，按稳住的数据源收费。
+summary_en: When a site redesigns, the rules for pulling prices and stock fix themselves, so you stop
+  babysitting scrapers.
+inspiration_en: The trend is that web data gets harder to keep stable. Enter price comparison, bid notices,
+  or job listings—feeds that halt the whole line after one redesign—and charge for sources that stay up.
 priority_review: false
 url: https://github.com/mldsveda/PyScrappy
 canonical_url: https://github.com/mldsveda/PyScrappy

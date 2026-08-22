@@ -3,10 +3,13 @@ slug: modex-mh-agent
 name: modex-mh-agent
 builder: N-allpass
 category: AI + 开发
-summary_zh: AI 全自动数学建模智能体，覆盖竞赛全流程
-inspiration: 将竞赛流程自动化，可迁移到教育或科研辅助
-summary_en: AI automated math modeling agent covering competition workflow
-inspiration_en: Automating competition workflows, applicable to education or research assistance
+summary_zh: 从赛题一路跑到竞赛论文，把数学建模的过夜赶稿交给代理
+inspiration: 趋势是竞赛里最痛的是固定流程的赶稿，从题目到可交卷会被拆成可过夜跑完的流水线。切入先做格式死、时间紧的数学建模赛，再卖给高校实验室。判断：按赛季或论文篇数收费，比通用写作订阅更硬。
+summary_en: Run from contest prompt to a contest paper, and hand the overnight math-modeling crunch to
+  an agent.
+inspiration_en: 'The trend is contest pain living in a fixed pipeline, not inspiration; prompt-to-submittable
+  will be a job that can run overnight. Enter math-modeling contests with rigid formats and tight clocks,
+  then labs. Judgement: per season or per paper is a harder sale than a generic writing sub.'
 priority_review: false
 url: https://github.com/N-allpass/modex-mh-agent
 canonical_url: https://github.com/N-allpass/modex-mh-agent

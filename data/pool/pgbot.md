@@ -3,10 +3,14 @@ slug: pgbot
 name: pgbot
 builder: pgrundev
 category: AI + 开发
-summary_zh: 为AI代理和应用提供Postgres智能。
-inspiration: 将数据库智能封装成服务，可提升数据交互效率，适用于数据分析。
-summary_en: Postgres intelligence for AI agents and apps.
-inspiration_en: Packaging database intelligence as a service improves data interaction, useful for analytics.
+summary_zh: 替人看 Postgres：哪里慢、哪条该修，先给证据再让代理动手
+inspiration: 趋势是数据库仪表盘没人天天看，而代理开始碰生产库，必须先有只读证据和破坏操作的闸。切入不要做全能库管替代，先帮把库交给代理的团队：检查、解释、删索引前过安全阀。判断：按实例收年费，对得上一次事故的代价。
+summary_en: 'Watch Postgres for people: what is slow, what to fix, evidence first, then let an agent touch
+  it.'
+inspiration_en: 'The trend is database dashboards nobody reads, while agents start touching production:
+  you need read-only evidence and a gate on destructive moves. Don’t replace the whole DBA. Enter teams
+  handing the database to an agent: inspect, explain, lock drops behind a safety valve. Judgement: yearly
+  per instance maps to the cost of one incident.'
 priority_review: false
 url: https://github.com/pgrundev/pgbot
 canonical_url: https://github.com/pgrundev/pgbot

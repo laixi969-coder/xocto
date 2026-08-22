@@ -3,10 +3,13 @@ slug: dsh-tui
 name: dsh-TUI
 builder: ccch1mneyyy
 category: AI + 开发
-summary_zh: Claude Code风格的全屏交互终端插件，解决DSH无TUI痛点。
-inspiration: 为CLI极客补位，说明工具链的体验分层正在细化。
-summary_en: Claude Code-style full-screen interactive terminal plugin, filling DSH's TUI gap.
-inspiration_en: Filling the gap for CLI enthusiasts shows toolchain experience is becoming more layered.
+summary_zh: 不愿换界面的工程师用 AI 写代码，仍按老习惯看状态、撤销，不必改开浏览器
+inspiration: 趋势是新产品要先迁就老用户的工作姿势。不要教人学新界面，先给不愿离开终端的工程师做撤销、状态、进度这些已经会的动作。收费未披露。
+summary_en: Engineers who will not switch interfaces keep writing code with AI in their old posture —
+  status, undo, no browser detour.
+inspiration_en: The trend is that new products must first honor old work posture. Don't teach a new UI.
+  Start with engineers who won't leave the terminal, wrapping undo, status, and progress as moves they
+  already know. Pricing is undisclosed.
 priority_review: false
 url: https://github.com/ccch1mneyyy/dsh-TUI
 canonical_url: https://github.com/ccch1mneyyy/dsh-TUI

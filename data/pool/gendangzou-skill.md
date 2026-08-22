@@ -3,12 +3,13 @@ slug: gendangzou-skill
 name: Gendangzou-skill
 builder: MobiusQuant
 category: 基础层
-summary_zh: 面向 Agent 的 A 股板块研究，串起政策、媒体、资金、公司与 ETF
-inspiration: 把行业研究的信息链条固化成可复用流程，这个结构换个行业照样成立
-summary_en: Agent-facing research on Chinese A-share sectors, tying together policy, media, fund flows,
-  companies, and ETFs.
-inspiration_en: Freezing a research chain into a reusable process. The structure transfers to any other
-  industry unchanged.
+summary_zh: 看政策的投研人员让 AI 交叉核对媒体和资金，找出受影响的 A 股板块和公司
+inspiration: 趋势是行业研究正从给人看的终端，下沉成 AI 可调用的能力。不要去做买卖建议，先给券商研究员和私募做政策到标的的溯源查询，送工具、卖数据和配额。
+summary_en: Policy researchers have AI cross-check media and fund flows to name the A-share sectors and
+  companies a rule actually hits.
+inspiration_en: The trend is industry research sinking from human terminals into capabilities an AI can
+  call. Don't sell buy/sell advice. Start with sell-side and private-fund researchers who need a traceable
+  chain from policy to names; give away the tool and charge for data and quota.
 priority_review: false
 url: https://gendangzou.mobiusquant.ai
 canonical_url: https://gendangzou.mobiusquant.ai

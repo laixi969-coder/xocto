@@ -3,11 +3,13 @@ slug: ai-short-drama
 name: ai-short-drama
 builder: Hao0321
 category: AI + 创作
-summary_zh: AI 短剧的故事骨架、剧集连续性和可续跑的成片流程
-inspiration: 连续性才是短剧工业化的卡点，单集好拍，十集不崩才值钱
-summary_en: ''
-inspiration_en: Continuity is the real bottleneck in industrializing short drama. One good episode is
-  easy; ten that hold together is the valuable part.
+summary_zh: 把短剧题材编成能连载的故事骨架，十集人物不崩，每集留下钩子
+inspiration: 趋势是短剧工业化卡在连续性，不卡在单集画面。切入做竖屏短剧的剧本统筹：管人物关系、集间钩子和续写状态，按部或按集卖模板，不要再卖一次性文案。
+summary_en: Turns short-drama tropes into a serial story spine so characters hold across ten episodes
+  and each one leaves a hook.
+inspiration_en: 'The trend is that industrial short drama fails on continuity, not on a single pretty
+  episode. The entry is script desk for vertical series: relationships, hooks, and resume state, sold
+  per title or episode, not one-off copy.'
 priority_review: false
 url: https://github.com/Hao0321/ai-short-drama
 canonical_url: https://github.com/Hao0321/ai-short-drama

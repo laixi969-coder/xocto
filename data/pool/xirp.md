@@ -3,11 +3,13 @@ slug: xirp
 name: Xirp
 builder: Chris Messina
 category: AI + 效率
-summary_zh: Spotify 内部做出来的 agent 开发环境
-inspiration: 大公司内部工具外放是一条低成本验证路径，用户信任度天然高一截
-summary_en: ''
-inspiration_en: Releasing an internal tool is a cheap validation path, and it starts with more trust than
-  a cold launch ever gets.
+summary_zh: 一个界面同时管好几路编程助手，动手前先读懂这家公司怎么运转
+inspiration: 多助手时代稀缺的不是更聪明的模型，是对公司架构和负责人的记忆。切入点不是再包一层聊天框，而是把开工前能读到的真实情况卖给已经在并用好几家助手的团队。
+summary_en: One screen to run several coding assistants at once, and they read how this company actually
+  works before they start.
+inspiration_en: In a multi-assistant era the scarce asset is not a smarter model—it is memory of architecture
+  and who owns what. Don't wrap another chat box—sell “what the assistant can read before it touches work”
+  to teams already juggling several assistants.
 priority_review: false
 url: https://www.producthunt.com/products/spotify
 canonical_url: https://producthunt.com/products/spotify

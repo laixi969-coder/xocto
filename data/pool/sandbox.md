@@ -3,10 +3,13 @@ slug: sandbox
 name: sandbox
 builder: raboukhalil
 category: AI + 开发
-summary_zh: 在网页上嵌入真实Linux终端
-inspiration: 将真实环境嵌入网页，用于教学和演示
-summary_en: Embed a real Linux terminal on your website.
-inspiration_en: Embedding real environments into web pages for teaching and demos.
+summary_zh: 在网页上就能打开真实操作环境，学生不用装软件也能跟着练
+inspiration: 趋势是技能课必须能当场动手，不能只看演示。切入先做生物信息、数据分析、运维考证这种离开真实环境就学不会的课，按练完能交作业收费。
+summary_en: A real practice environment opens in the browser, so students can follow along without installing
+  software.
+inspiration_en: The trend is that skills courses must let people do the work, not just watch a demo. Enter
+  bioinformatics, data analysis, or ops exams—classes you cannot learn without a live environment—and
+  charge for homework that can actually be submitted.
 priority_review: false
 url: https://sandbox.bio/training/embed
 canonical_url: https://sandbox.bio/training/embed

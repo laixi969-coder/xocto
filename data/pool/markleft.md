@@ -3,10 +3,13 @@ slug: markleft
 name: Markleft
 builder: mlysk
 category: AI + 开发
-summary_zh: 作者分享如何审查Claude的Markdown计划。
-inspiration: 审查AI输出的方法论，可迁移到任何AI生成内容的质检流程。
-summary_en: How the author reviews Claude's Markdown plans.
-inspiration_en: Methodology for reviewing AI output applies to quality checks for any AI-generated content.
+summary_zh: 在文稿上直接批注，AI 只追加修改建议、原文不动，你逐条点头或拒绝
+inspiration: 趋势是给 AI 的反馈要从整篇重写，退回「追加建议」。不要做又一个写作助手，先切方案、合同、手册这种必须看清改了哪句的审查。方法免费，还看不清独立产品。
+summary_en: You annotate the draft in place; AI only appends suggestions, the original stays, and you
+  accept or reject line by line.
+inspiration_en: The trend is AI feedback leaving full rewrites for appended suggestions. Don't ship another
+  writing assistant. Start with briefs, contracts, and manuals where you must see which sentence changed.
+  The method is free; a standalone product is still unclear.
 priority_review: false
 url: https://blog.lysk.tech/markleft-ai-markdown-review/
 canonical_url: https://blog.lysk.tech/markleft-ai-markdown-review

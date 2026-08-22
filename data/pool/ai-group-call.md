@@ -3,11 +3,12 @@ slug: ai-group-call
 name: AI Group Call
 builder: Tash Ahmed
 category: AI + 效率
-summary_zh: 给一个目标，六个 AI 同时开语音会帮你想
-inspiration: 把「开会」这个形式套到 AI 上，形式感本身就是卖点，哪怕效果未必更好
-summary_en: ''
-inspiration_en: Wrapping AI in the shape of a meeting is the product. The format sells even when the output
-  doesn't beat one good answer.
+summary_zh: 输入一个目标，马上和六个 AI 开语音会，它们互相抬杠，你来拍板
+inspiration: 趋势是「开会」这个形式本身被拿来卖 AI。切入别做万能头脑风暴，先做广告选题、品牌命名、危机口径这种必须当场吵出几个方案的会，按分钟收费。
+summary_en: Type a goal and join a live voice call with six AIs who argue with each other while you decide.
+inspiration_en: The trend is selling the shape of a meeting as the AI product. The entry is not generic
+  brainstorming — start with ad concepts, brand names, or crisis lines, meetings that must leave with
+  options, billed by the minute.
 priority_review: false
 url: https://www.producthunt.com/products/ai-group-call
 canonical_url: https://producthunt.com/products/ai-group-call

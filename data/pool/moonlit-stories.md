@@ -3,11 +3,13 @@ slug: moonlit-stories
 name: moonlit-stories
 builder: lincwang123-bot
 category: AI + 创作
-summary_zh: 英语绘本生成工作流，重点解决插图前后不一致
-inspiration: AI 生图的真痛点不是画得好不好，是同一个角色画十次能不能长一样
-summary_en: ''
-inspiration_en: The real pain in AI image generation isn't quality. It's whether the same character looks
-  the same ten times in a row.
+summary_zh: 家长在自己电脑上做英文绘本，十二页画风统一，还能用爸妈的声音念。
+inspiration: 生成图画已经够用，家长要的是同一本故事和熟悉的声音。趋势是一致性和情感连接压过画质；切入是儿童英文启蒙绘本，尤其出差时还能用自己的声音陪读。开源免费。
+summary_en: Parents make an English picture book on their own computer. Twelve pages share one art style,
+  and it can be read in mom or dad's voice.
+inspiration_en: Image generation is already good enough. Parents want the same story and a familiar voice.
+  The trend is consistency and emotional connection beating raw quality. The entry is English picture
+  books for children, especially reading in your own voice while traveling. Open-source and free.
 priority_review: false
 url: https://github.com/lincwang123-bot/moonlit-stories
 canonical_url: https://github.com/lincwang123-bot/moonlit-stories

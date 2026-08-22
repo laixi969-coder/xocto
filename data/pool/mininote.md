@@ -3,10 +3,12 @@ slug: mininote
 name: Mininote
 builder: helba-ai
 category: AI + 效率
-summary_zh: 即时纯文本笔记，无追踪无锁定
-inspiration: 极简笔记工具，强调隐私和便携性
-summary_en: Instant, plain-text note taking without tracking or lock-in.
-inspiration_en: Minimalist note-taking emphasizing privacy and portability.
+summary_zh: 打开就能写下纯文本笔记，不追踪、不绑死，文件随时能带走
+inspiration: 趋势是笔记软件越做越重，人们重新要打开即写、文件能带走。切入不要做全能知识库，先给采访、会议、记录存档这种必须纯文本可归档的人。判断：还看不清能否做大，先找必须可归档的职业用户。
+summary_en: 'Open it and write a plain-text note: no tracking, no lock-in, files you can take with you.'
+inspiration_en: 'The trend is notes apps getting heavier while people want open-and-write files they can
+  leave with. Don’t build an all-in-one brain. Enter interviews, meetings, and archives that must stay
+  plain text. Judgement: scale is still unclear; start with professions that must be able to archive.'
 priority_review: false
 url: https://mininote.ink/
 canonical_url: https://mininote.ink

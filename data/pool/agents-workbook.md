@@ -3,10 +3,11 @@ slug: agents-workbook
 name: agents-workbook
 builder: pradeep1177
 category: AI + 开发
-summary_zh: 记录 Claude Code 和 Codex 工作笔记的工具
-inspiration: 让 AI 代理的工作过程可追溯，类似开发日志，可迁移到任何 AI 辅助开发流程。
-summary_en: Watch Claude Code and Codex write down their working notes.
-inspiration_en: Making AI agent work transparent and auditable.
+summary_zh: 让写代码的AI把工作笔记当场记下来，人回头能看它当时怎么想
+inspiration: 趋势是AI干活越来越快，人越来越看不懂它刚才做了什么。切入是给必须能交代清楚的团队先做过程留痕——交接、审计、出事回放，而不是再做一个更聪明的写代码助手。
+summary_en: Coding AIs write down their working notes as they go, so a person can later see how they thought.
+inspiration_en: 'The trend is AI working faster than people can follow. The entry is teams that must explain
+  what happened: handoff, audit, incident replay, not a smarter coding assistant.'
 priority_review: false
 url: https://github.com/softcane/agents-workbook
 canonical_url: https://github.com/softcane/agents-workbook
