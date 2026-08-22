@@ -1,0 +1,36 @@
+---
+slug: automated-video-marketing-tools
+name: automated-video-marketing-tools
+builder: Ferdinandyes
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+url: https://github.com/Ferdinandyes/automated-video-marketing-tools
+canonical_url: https://github.com/Ferdinandyes/automated-video-marketing-tools
+summary: ⚡ Scale your video marketing with AI. Auto-generate TikToks, Shorts, and promo videos from text
+  in minutes.
+first_seen: '2026-08-08T06:37:13Z'
+last_seen: '2026-08-22T22:38:00Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/Ferdinandyes/automated-video-marketing-tools
+  seen_at: '2026-08-22T22:38:00Z'
+  metrics:
+    stars: 44
+    forks: 1
+    open_issues: 0
+---
+
+# automated-video-marketing-tools
+
+⚡ Scale your video marketing with AI. Auto-generate TikToks, Shorts, and promo videos from text in minutes.
+
+## 笔记
+
+

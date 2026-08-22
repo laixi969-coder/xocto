@@ -12,16 +12,16 @@ url: https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-obser
 canonical_url: https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md
 summary: eBPF observability for AI agents, no code changes
 first_seen: '2026-08-21T15:21:10Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/alibaba/anolisa/blob/main/docs/user-guide/en/agent-observability/agentsight.md
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
-    points: 14
+    points: 16
     comments: 0
 ---
 

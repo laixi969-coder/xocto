@@ -15,17 +15,17 @@ summary: JARVIS AI is an open-source AI assistant built for automation, producti
   interface, it provides a powerful foundation for building personal assistants, AI agents, and next-generation
   applications.
 first_seen: '2026-08-07T16:45:58Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-22T22:38:00Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MAL19INDUSTRIES/JARVIS-OS-V.2
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-22T22:38:00Z'
   metrics:
-    stars: 46
-    forks: 17
+    stars: 47
+    forks: 18
     open_issues: 0
 ---
 

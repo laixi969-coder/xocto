@@ -12,17 +12,17 @@ url: https://github.com/uncognic/steppewm
 canonical_url: https://github.com/uncognic/steppewm
 summary: a stacking IceWM-like Wayland compositor
 first_seen: '2026-08-21T15:27:38Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/uncognic/steppewm
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
-    points: 7
-    comments: 4
+    points: 8
+    comments: 6
 ---
 
 # SteppeWM

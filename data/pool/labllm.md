@@ -1,0 +1,37 @@
+---
+slug: labllm
+name: LabLLM
+builder: Greninja9257
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+url: https://greninja9257.github.io/LabLLM/
+canonical_url: https://greninja9257.github.io/LabLLM
+summary: A native macOS lab for teaching tiny language models to think — build the architecture, train
+  the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers,
+  checkpoints, and MLX acceleration.
+first_seen: '2026-08-15T22:16:40Z'
+last_seen: '2026-08-22T22:38:00Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://greninja9257.github.io/LabLLM/
+  seen_at: '2026-08-22T22:38:00Z'
+  metrics:
+    stars: 65
+    forks: 1
+    open_issues: 1
+---
+
+# LabLLM
+
+A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.
+
+## 笔记
+
+

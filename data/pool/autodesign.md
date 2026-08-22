@@ -1,0 +1,37 @@
+---
+slug: autodesign
+name: AutoDesign
+builder: Yaxin9Luo
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+url: https://autodesign.designanything.ai/
+canonical_url: https://autodesign.designanything.ai
+summary: The open-source design agent and harness, better than Claude Design on academic communication
+  artifacts production. This DesignHarness can also be used with any coding harness you like ( Codex/Claude
+  Code/Kimi Code/Pi/OpenCode etc..) and any agentic model you want.
+first_seen: '2026-08-14T02:38:45Z'
+last_seen: '2026-08-22T22:38:00Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://autodesign.designanything.ai/
+  seen_at: '2026-08-22T22:38:00Z'
+  metrics:
+    stars: 152
+    forks: 9
+    open_issues: 0
+---
+
+# AutoDesign
+
+The open-source design agent and harness, better than Claude Design on academic communication artifacts production. This DesignHarness can also be used with any coding harness you like ( Codex/Claude Code/Kimi Code/Pi/OpenCode etc..) and any agentic model you want.
+
+## 笔记
+
+

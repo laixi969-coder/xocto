@@ -15,18 +15,18 @@ url: https://github.com/omdsh-dev/DSH-better-sidebar
 canonical_url: https://github.com/omdsh-dev/DSH-better-sidebar
 summary: 一个侧边栏的完整工作台，支持三方拓展注册新Tab页面，内置文件渲染编辑/终端/Git/子代理
 first_seen: '2026-08-07T16:04:00Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-22T22:38:00Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/omdsh-dev/DSH-better-sidebar
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-22T22:38:00Z'
   metrics:
-    stars: 2574
-    forks: 197
-    open_issues: 143
+    stars: 2654
+    forks: 210
+    open_issues: 148
 ---
 
 # DSH-better-sidebar

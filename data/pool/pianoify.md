@@ -12,17 +12,17 @@ url: https://www.pianoify.net/
 canonical_url: https://pianoify.net
 summary: Public Muscriptor Instance (latest, most powerful Audio-to-MIDI model)
 first_seen: '2026-08-21T15:44:40Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.pianoify.net/
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
-    points: 8
-    comments: 0
+    points: 18
+    comments: 6
 ---
 
 # pianoify

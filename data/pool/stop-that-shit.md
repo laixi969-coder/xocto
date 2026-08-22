@@ -14,17 +14,17 @@ summary: 'Stop That Shit（别再造史了）｜面向 Codex/GPT 场景的多平
   A multi-platform Hook + Skill Guard for AI coding agents in Codex/GPT workflows: stop unrequested hashes,
   checksums, and task-scope creep.'
 first_seen: '2026-08-11T15:31:45Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-22T22:38:00Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lennney/stop-that-shit
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-22T22:38:00Z'
   metrics:
-    stars: 215
-    forks: 12
+    stars: 238
+    forks: 15
     open_issues: 5
 ---
 

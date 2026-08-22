@@ -16,17 +16,17 @@ canonical_url: https://github.com/alikon-art/DeterminFlow
 summary: A production-oriented AI workflow runtime for building, validating, recovering, and shipping
   complex AI workflows as dependable services. 面向生产的 AI 工作流运行时：快速开发、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。
 first_seen: '2026-08-02T07:40:51Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-22T22:38:00Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/alikon-art/DeterminFlow
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-22T22:38:00Z'
   metrics:
-    stars: 566
-    forks: 85
+    stars: 583
+    forks: 87
     open_issues: 13
 ---
 

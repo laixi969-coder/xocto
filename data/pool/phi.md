@@ -15,18 +15,18 @@ url: https://github.com/pulseaiclub/phi
 canonical_url: https://github.com/pulseaiclub/phi
 summary: a coding Agent from pi. ∞ providers, sub-agents, hashline edits, and a permission gate
 first_seen: '2026-08-03T03:16:48Z'
-last_seen: '2026-08-14T22:40:51Z'
+last_seen: '2026-08-22T22:38:00Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pulseaiclub/phi
-  seen_at: '2026-08-14T22:40:51Z'
+  seen_at: '2026-08-22T22:38:00Z'
   metrics:
-    stars: 79
+    stars: 142
     forks: 5
-    open_issues: 0
+    open_issues: 1
 ---
 
 # phi

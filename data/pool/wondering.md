@@ -12,17 +12,17 @@ url: https://wondering.app/canvas
 canonical_url: https://wondering.app/canvas
 summary: Visual way to understand things in parallel
 first_seen: '2026-08-21T17:06:20Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://wondering.app/canvas
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
     points: 7
-    comments: 4
+    comments: 5
 ---
 
 # wondering

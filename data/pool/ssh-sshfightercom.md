@@ -14,16 +14,16 @@ summary: I&#x27;ve been playing with trying to get the most out of regular termi
   for an mmorpg game for a bit of fun. Thought that I might take a quick detour and make a streetfighter
   style game that …
 first_seen: '2026-08-21T11:56:28Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49386763
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
-    points: 8
+    points: 9
     comments: 3
 ---
 

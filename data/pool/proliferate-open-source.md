@@ -12,17 +12,17 @@ url: https://github.com/proliferate-ai/proliferate
 canonical_url: https://github.com/proliferate-ai/proliferate
 summary: self-hostable Codex for any coding agent
 first_seen: '2026-08-21T16:47:15Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/proliferate-ai/proliferate
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
-    points: 34
-    comments: 14
+    points: 43
+    comments: 15
 ---
 
 # Proliferate- open-source

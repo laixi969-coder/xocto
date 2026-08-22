@@ -14,10 +14,11 @@ url: https://getopen.so
 canonical_url: https://getopen.so
 summary: Modern Alternative to Plausible
 first_seen: '2026-08-13T14:00:09Z'
-last_seen: '2026-08-13T23:03:00Z'
+last_seen: '2026-08-22T22:38:00Z'
 status: analyzed
 sources:
 - hackernews
+- github
 sightings:
 - source: hackernews
   url: https://getopen.so
@@ -25,6 +26,13 @@ sightings:
   metrics:
     points: 6
     comments: 6
+- source: github
+  url: https://getopen.so
+  seen_at: '2026-08-22T22:38:00Z'
+  metrics:
+    stars: 318
+    forks: 31
+    open_issues: 2
 ---
 
 # getopen

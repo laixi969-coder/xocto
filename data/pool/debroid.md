@@ -16,18 +16,18 @@ canonical_url: https://github.com/PatilShreyas/debroid
 summary: Autonomous, headless Android debugger designed for AI coding agents. Inspect runtime memory,
   set breakpoints, and debug live apps.
 first_seen: '2026-08-02T15:58:29Z'
-last_seen: '2026-08-12T03:21:52Z'
+last_seen: '2026-08-22T22:38:00Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PatilShreyas/debroid
-  seen_at: '2026-08-12T03:21:52Z'
+  seen_at: '2026-08-22T22:38:00Z'
   metrics:
-    stars: 162
+    stars: 189
     forks: 7
-    open_issues: 2
+    open_issues: 4
 ---
 
 # debroid

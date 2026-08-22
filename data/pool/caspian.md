@@ -12,16 +12,16 @@ url: https://github.com/TryCaspian/caspian-sdk
 canonical_url: https://github.com/TryCaspian/caspian-sdk
 summary: Talk to Human Tool for AI Agents
 first_seen: '2026-08-21T16:17:58Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/TryCaspian/caspian-sdk
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
 ---
 

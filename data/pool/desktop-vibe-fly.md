@@ -12,17 +12,17 @@ url: https://github.com/kulikov0/desktop-vibe-fly
 canonical_url: https://github.com/kulikov0/desktop-vibe-fly
 summary: A desktop fly drawn to the scent of vibecode
 first_seen: '2026-08-21T15:19:00Z'
-last_seen: '2026-08-21T22:41:50Z'
+last_seen: '2026-08-22T22:37:59Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/kulikov0/desktop-vibe-fly
-  seen_at: '2026-08-21T22:41:50Z'
+  seen_at: '2026-08-22T22:37:59Z'
   metrics:
-    points: 19
-    comments: 8
+    points: 20
+    comments: 10
 ---
 
 # desktop-vibe-fly

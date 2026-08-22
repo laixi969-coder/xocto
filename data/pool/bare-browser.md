@@ -1,0 +1,38 @@
+---
+slug: bare-browser
+name: bare-browser
+builder: Shshtwy
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+url: https://github.com/Shshtwy/bare-browser
+canonical_url: https://github.com/Shshtwy/bare-browser
+summary: Bare is a de-Googled Chromium build for Android, built for privacy, control, and freedom on the
+  web. It strips Google tracking, telemetry, and AI integration while keeping browser extensions and uBlock
+  Origin. It adds background video playback, saving media from sites that normally block it, your choice
+  of download manager, and more.
+first_seen: '2026-08-15T21:42:56Z'
+last_seen: '2026-08-22T22:38:00Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/Shshtwy/bare-browser
+  seen_at: '2026-08-22T22:38:00Z'
+  metrics:
+    stars: 107
+    forks: 0
+    open_issues: 7
+---
+
+# bare-browser
+
+Bare is a de-Googled Chromium build for Android, built for privacy, control, and freedom on the web. It strips Google tracking, telemetry, and AI integration while keeping browser extensions and uBlock Origin. It adds background video playback, saving media from sites that normally block it, your choice of download manager, and more.
+
+## 笔记
+
+
