@@ -24,6 +24,9 @@
     {% endif %}
     <div class="masthead-rule"></div>
     {% if report.doc.intro %}<p class="masthead-lede">{{ report.doc.intro }}</p>{% endif %}
+    <div class="report-actions">
+      <button class="share-btn" type="button" data-share data-share-copied="{{ t.report.share_copied }}">{{ t.report.share }}</button>
+    </div>
   </header>
 
   {% set single_section = report.doc.sections | length == 1 %}
@@ -150,6 +153,28 @@
       if (!ticking) { ticking = true; requestAnimationFrame(update); }
     }, { passive: true });
     update();
+  })();
+
+  // 好判断要能被带走。优先调用系统分享，桌面端退回复制当前页链接；
+  // 不需要注册，也不会替用户向任何平台发布。
+  (function () {
+    var button = document.querySelector('[data-share]');
+    if (!button) return;
+    button.addEventListener('click', async function () {
+      var url = window.location.href;
+      try {
+        if (navigator.share) {
+          await navigator.share({ title: document.title, url: url });
+          return;
+        }
+        await navigator.clipboard.writeText(url);
+        var original = button.textContent;
+        button.textContent = button.dataset.shareCopied;
+        window.setTimeout(function () { button.textContent = original; }, 1800);
+      } catch (err) {
+        // 用户取消系统分享不是错误；复制被浏览器禁用时保留按钮的原始状态。
+      }
+    });
   })();
 </script>
 {% endblock %}

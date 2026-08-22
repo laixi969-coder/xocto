@@ -39,8 +39,9 @@
   {% set r = reports[0] %}
   <header class="lede-bar home-mast">
     <div class="lede-main">
-      <p class="eyebrow">{{ r.day }} · {{ t.home.latest_report }}</p>
+      <p class="eyebrow">{{ r.day }} · {{ t.home.latest_report }} · {{ t.home.daily_minutes }}</p>
       <h1>{{ r.hook or t.home.lede_title }}</h1>
+      <p class="daily-contract">{{ t.home.daily_contract }}</p>
       <p>
         <a class="obs-cta" href="{{ root }}r/{{ r.day }}.html">{{ t.home.latest_report_cta }} <span aria-hidden="true">→</span></a>
       </p>
@@ -57,9 +58,12 @@
   {% endif %}
 
   {% if fresh_picks %}
-  <section class="band">
+  <section class="band" id="today-cases">
     <div class="sec-head">
-      <h2>{{ t.home.fresh_picks }}</h2>
+      <div>
+        <p class="section-index">01 · {{ t.home.fresh_kicker }}</p>
+        <h2>{{ t.home.fresh_picks }}</h2>
+      </div>
       <span class="note">{{ t.home.fresh_picks_note }}</span>
     </div>
     {{ pick_list(fresh_picks) }}
@@ -67,9 +71,12 @@
   {% endif %}
 
   {% if today_takeaway %}
-  <section class="band">
+  <section class="band" id="today-move">
     <div class="sec-head">
-      <h2>{{ t.home.today_takeaway_title }}</h2>
+      <div>
+        <p class="section-index">02 · {{ t.home.takeaway_kicker }}</p>
+        <h2>{{ t.home.today_takeaway_title }}</h2>
+      </div>
       <span class="note">{{ t.home.today_takeaway_note }}</span>
     </div>
     <a class="field field-take" href="{{ root }}p/{{ today_takeaway.slug }}.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
@@ -104,9 +111,12 @@
   {% endif %}
 
   {% if reports | length > 1 %}
-  <section class="band">
+  <section class="band" id="past-calls">
     <div class="sec-head">
-      <h2>{{ t.home.past_reports }}</h2>
+      <div>
+        <p class="section-index">03 · {{ t.home.past_kicker }}</p>
+        <h2>{{ t.home.past_reports }}</h2>
+      </div>
       <span class="note">{{ t.home.past_reports_note }}</span>
     </div>
     <div class="obs">

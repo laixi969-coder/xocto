@@ -223,6 +223,10 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("t.home.what", template)
         self.assertIn("t.home.money", template)
         self.assertIn("t.home.meaning", template)
+        self.assertIn("t.home.daily_contract", template)
+        self.assertIn('id="today-cases"', template)
+        self.assertIn('id="today-move"', template)
+        self.assertIn('id="past-calls"', template)
         self.assertIn("p.summary", template)
         self.assertIn("p.money_brief", template)
         self.assertIn("p.inspiration", template)
@@ -240,6 +244,14 @@ class PublishabilityTests(unittest.TestCase):
         self.assertLess(template.index("t.product.watch_next"), template.index("t.product.replaces"))
         self.assertLess(template.index("t.product.replaces"), template.index("t.product.for_investor_k"))
         self.assertLess(template.index("t.product.for_investor_k"), template.index("t.product.for_public_k"))
+
+    def test_daily_report_can_be_shared_without_an_account(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "report.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("data-share", template)
+        self.assertIn("navigator.share", template)
+        self.assertIn("navigator.clipboard.writeText", template)
 
     def test_stale_generated_page_is_removed(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
