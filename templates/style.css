@@ -176,20 +176,6 @@ button { font: inherit; }
 .exit-cell:hover h3 { color: var(--signal); }
 .summary-grid { max-width: var(--reading); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(28px, 6vw, 90px); }
 
-/* A reader chooses a job before a list. These are entry routes, not promotional cards. */
-.reader-routes { padding-top: clamp(30px, 4vw, 54px); }
-.reader-routes .sec-head { margin-bottom: 19px; }
-.reader-routes .eyebrow { margin-bottom: 9px; }
-.route-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--ink); }
-.route-cell { position: relative; display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 5px 15px; min-height: 180px; padding: 24px 26px 28px 0; border-bottom: 1px solid var(--line); animation: rise .45s var(--ease) backwards; animation-delay: calc(var(--i, 0) * 65ms); }
-.route-cell + .route-cell { padding-left: 26px; border-left: 1px solid var(--line-soft); }
-.route-no { grid-row: 1 / 3; padding-top: 4px; color: var(--signal); font-size: 12px; }
-.route-cell h3 { margin: 0; font-family: var(--display); font-size: clamp(19px, 1.8vw, 25px); letter-spacing: -.025em; line-height: 1.2; }
-.route-cell p { grid-column: 2; margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.68; }
-.route-arrow { position: absolute; right: 0; bottom: 22px; color: var(--signal); font-size: 18px; transition: transform .2s var(--ease); }
-.route-cell:hover h3 { color: var(--signal); }
-.route-cell:hover .route-arrow { transform: translateX(5px); }
-
 /* Tables and compact rows turn source material into a scan, not a card wall. */
 .scroll-x { overflow-x: auto; }
 .tbl { width: 100%; min-width: 690px; border-collapse: collapse; font-size: 14px; }
@@ -384,8 +370,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .obs-cta { grid-column: 2; justify-self: start; }
   .pick { grid-template-columns: 36px minmax(155px, .8fr) minmax(0, 1.35fr); }
   .pick-body { grid-template-columns: 1fr; gap: 15px; }
-  .route-cell { padding-right: 17px; }
-  .route-cell + .route-cell { padding-left: 17px; }
   .card { grid-template-columns: minmax(150px, .75fr) minmax(0, 1.5fr) minmax(125px, .55fr); }
   .report-layout { grid-template-columns: 1fr; gap: 0; }
   .report-rail { display: none; }
@@ -416,10 +400,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .pick { grid-template-columns: 27px 1fr; gap: 12px; padding: 21px 0; }
   .pick-body { grid-column: 2; margin-top: -2px; }
   .summary-grid { grid-template-columns: 1fr; gap: 24px; }
-  .route-grid, .role-grid, .decision-grid { grid-template-columns: 1fr; }
-  .route-cell { min-height: auto; padding: 20px 0 24px; }
-  .route-cell + .route-cell { padding-left: 0; border-left: 0; }
-  .route-arrow { right: 1px; bottom: 20px; }
+  .role-grid, .decision-grid { grid-template-columns: 1fr; }
   .row-head { grid-template-columns: 1fr; gap: 4px; }
   .row-tail { justify-content: flex-start; margin-top: 4px; }
   .exit-grid { grid-template-columns: 1fr; }

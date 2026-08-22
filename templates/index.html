@@ -56,37 +56,6 @@
   </header>
   {% endif %}
 
-  {# 首页不是内容货架。先问读者要做什么决定，再把人送到合适的深度。 #}
-  <section class="band reader-routes">
-    <div class="sec-head">
-      <div>
-        <p class="eyebrow">{{ t.home.routes_kicker }}</p>
-        <h2>{{ t.home.routes_title }}</h2>
-      </div>
-      <span class="note">{{ t.home.routes_note }}</span>
-    </div>
-    <nav class="route-grid" aria-label="{{ t.home.routes_title }}">
-      <a class="route-cell" href="{{ root }}products.html#f=charging" style="--i: 0">
-        <span class="route-no num">01</span>
-        <h3>{{ t.home.route_founder }}</h3>
-        <p>{{ t.home.route_founder_note }}</p>
-        <span class="route-arrow" aria-hidden="true">→</span>
-      </a>
-      <a class="route-cell" href="{{ root }}products.html#f=scaled" style="--i: 1">
-        <span class="route-no num">02</span>
-        <h3>{{ t.home.route_investor }}</h3>
-        <p>{{ t.home.route_investor_note }}</p>
-        <span class="route-arrow" aria-hidden="true">→</span>
-      </a>
-      <a class="route-cell" href="{{ root }}{{ 'r/' ~ reports[0].day ~ '.html' if reports else 'products.html' }}" style="--i: 2">
-        <span class="route-no num">03</span>
-        <h3>{{ t.home.route_curious }}</h3>
-        <p>{{ t.home.route_curious_note }}</p>
-        <span class="route-arrow" aria-hidden="true">→</span>
-      </a>
-    </nav>
-  </section>
-
   {% if fresh_picks %}
   <section class="band">
     <div class="sec-head">
