@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from dataclasses import dataclass, replace
 from datetime import date
 from typing import Any
@@ -37,8 +38,10 @@ from .models import (
 )
 from .store import Store
 
-API_URL = "https://api.deepseek.com/chat/completions"
-DEFAULT_MODEL = "deepseek-v4-pro"
+DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-pro"
+DEFAULT_GEMINI_MODEL = "gemini-3.7-flash"
 ALLOWED_DECISIONS = {STATUS_REJECTED, STATUS_MARKET_CONTEXT, STATUS_QUEUED, STATUS_WATCHING}
 # 采集渠道是实现细节，不是给读者的信息。这里和 check_design.py 保持同一
 # 口径；在落盘前检查模型的公开文案，避免等到整站构建后才发现问题。
@@ -112,6 +115,11 @@ def _candidate_data(store: Store, product: Product) -> dict[str, Any]:
 
 NEWS_LIMIT = 18
 FIRST_PARTY_BUDGET = 12
+# 单个项目的双语摘要、灵感与四道 `/req` 闸门本身就占去较多输出。
+# 每批 12 个能在当前模型的 JSON 输出预算内完整返回；所有当天候选都会
+# 逐批处理，不以截断或固定总数牺牲机会流覆盖。
+BRIEF_BATCH_SIZE = 12
+REPORT_PRODUCT_LIMIT = 18
 
 
 def news_for_day(store: Store, day: date) -> list[dict[str, Any]]:
@@ -230,6 +238,13 @@ JSON 结构严格如下：
 不要为了凑数夸大。每个值得看的产品必须各自使用一个 `### 产品名` 小标题与独立段落，
 绝不能把“1. A、2. B、3. C”塞进同一段。英文内容必须全部是英文（产品专名除外）。"""
     system = system.replace("{categories}", "、".join(CATEGORIES))
+    # 项目筛选和日报分别请求。后面的指令覆盖上面为旧版单请求保留的 report
+    # schema，避免每一个批次都把日报再生成一遍、挤占 JSON 输出空间。
+    system += """
+
+本次仅处理项目字段，不生成 report。输出必须是且只能是一个合法 JSON object：
+{"products":[{"slug":"...","decision":"...", ...}]}
+其中 products 必须逐一覆盖本批全部候选，并完整遵守前述 queued / watching 的字段和 `/req` 规则。"""
     user = f"""编辑日期：{day.isoformat()}
 
 以下是编辑口径。它是参考规则，不包含候选事实：
@@ -264,44 +279,96 @@ JSON 结构严格如下：
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
 
+def _decode_json_object(content: str) -> dict[str, Any]:
+    """解析模型常见的 JSON 包装，拒绝任何不是 object 的结果。"""
+    text = content.strip()
+    fenced = re.fullmatch(r"```(?:json)?\s*(.*?)\s*```", text, re.S | re.I)
+    if fenced:
+        text = fenced.group(1).strip()
+    candidates = [text]
+    # 偶发在 JSON 前后加一句说明时，仍只提取最外层 object；截断内容不会
+    # 被伪装成合法结果，随后由调用方发起一次格式修复重试。
+    start, end = text.find("{"), text.rfind("}")
+    if start >= 0 and end > start and text[start:end + 1] != text:
+        candidates.append(text[start:end + 1])
+    for candidate in candidates:
+        try:
+            result = json.loads(candidate)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(result, dict):
+            return result
+    raise BriefError("DeepSeek 返回的不是合法 JSON，未写入任何日报")
+
+
+def _model_providers() -> list[tuple[str, str, str, str]]:
+    """返回可用模型链；首选可由 MODEL_PROVIDER 指定，另一个自动兜底。"""
+    providers: dict[str, tuple[str, str, str]] = {}
+    if key := os.environ.get("DEEPSEEK_API_KEY"):
+        providers["deepseek"] = (
+            DEEPSEEK_API_URL, key, os.environ.get("DEEPSEEK_MODEL") or DEFAULT_DEEPSEEK_MODEL
+        )
+    if key := os.environ.get("GEMINI_API_KEY"):
+        providers["gemini"] = (
+            GEMINI_API_URL, key, os.environ.get("GEMINI_MODEL") or DEFAULT_GEMINI_MODEL
+        )
+    if not providers:
+        raise BriefError(
+            "缺少可用模型密钥；请配置 DEEPSEEK_API_KEY 或 GEMINI_API_KEY"
+        )
+    preferred = os.environ.get("MODEL_PROVIDER", "deepseek").strip().lower()
+    names = [preferred] if preferred in providers else []
+    names.extend(name for name in providers if name not in names)
+    return [(name, *providers[name]) for name in names]
+
+
 def _request(messages: list[dict[str, str]]) -> dict[str, Any]:
-    api_key = os.environ.get("DEEPSEEK_API_KEY")
-    if not api_key:
-        raise BriefError("缺少 DEEPSEEK_API_KEY；请在 GitHub Actions Secrets 中配置后再跑日报")
-    body = {
-        "model": os.environ.get("DEEPSEEK_MODEL") or DEFAULT_MODEL,
-        "messages": messages,
-        "response_format": {"type": "json_object"},
-        # 日报不是开放式推理题；关掉 thinking 能缩短每日发布，也能避免 JSON
-        # 模式里只返回 reasoning、final content 为空的情况。
-        "thinking": {"type": "disabled"},
-        "max_tokens": 8000,
-        "temperature": 0.2,
-    }
-    # DeepSeek 的 JSON 模式偶发空 content；官方文档也建议调用方处理该情形。
-    # 只重试空响应，HTTP/格式问题仍立即失败，避免悄悄烧掉预算。
-    for attempt in range(2):
-        try:
-            with httpx.Client(timeout=120) as client:
-                response = client.post(
-                    API_URL, headers={"Authorization": f"Bearer {api_key}"}, json=body
-                )
-                response.raise_for_status()
-                content = response.json()["choices"][0]["message"]["content"]
-        except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError) as exc:
-            raise BriefError(f"DeepSeek 请求失败：{exc}") from exc
-        if not content or not content.strip():
-            if attempt == 0:
-                continue
-            raise BriefError("DeepSeek 连续两次返回空内容，未写入任何日报")
-        try:
-            result = json.loads(content)
-        except json.JSONDecodeError as exc:
-            raise BriefError("DeepSeek 返回的不是合法 JSON，未写入任何日报") from exc
-        if not isinstance(result, dict):
-            raise BriefError("DeepSeek 返回格式不对，未写入任何日报")
-        return result
-    raise AssertionError("unreachable")
+    # JSON 模式偶发空 content、Markdown fence 或被额外解释包住。格式修复只
+    # 重试两次；每次都在不写盘的前提下进行，避免异常输出污染当天档案。
+    failures: list[str] = []
+    for provider, api_url, api_key, model in _model_providers():
+        body: dict[str, Any] = {
+            "model": model,
+            "messages": messages,
+            "response_format": {"type": "json_object"},
+            "max_tokens": 8000,
+            "temperature": 0.2,
+        }
+        # DeepSeek 的非思考模式能防止 content 为空；Gemini 的 OpenAI 兼容端点
+        # 不接收这个厂商专用字段。
+        if provider == "deepseek":
+            body["thinking"] = {"type": "disabled"}
+        request_messages = messages
+        for attempt in range(3):
+            body["messages"] = request_messages
+            try:
+                with httpx.Client(timeout=120) as client:
+                    response = client.post(
+                        api_url, headers={"Authorization": f"Bearer {api_key}"}, json=body
+                    )
+                    response.raise_for_status()
+                    content = response.json()["choices"][0]["message"]["content"]
+            except (httpx.HTTPError, KeyError, IndexError, TypeError, ValueError) as exc:
+                failures.append(f"{provider} 请求失败：{exc}")
+                break
+            if not isinstance(content, str) or not content.strip():
+                failures.append(f"{provider} 返回空内容")
+                break
+            try:
+                return _decode_json_object(content)
+            except BriefError:
+                if attempt == 2:
+                    failures.append(f"{provider} 连续返回不完整 JSON")
+                    break
+                request_messages = [
+                    *messages,
+                    {"role": "assistant", "content": content},
+                    {
+                        "role": "user",
+                        "content": "上一条输出无法解析为完整 JSON object。请只返回完整、合法的 JSON，不要 Markdown、解释或省略任何必填记录。",
+                    },
+                ]
+    raise BriefError("；".join(failures) + "；未写入任何日报")
 
 
 def _text(value: Any, field: str, *, required: bool = True) -> str:
@@ -474,6 +541,51 @@ def _report_markdown(result: dict[str, Any], day: date, *, english: bool) -> str
     return f"---\n{frontmatter}\n---\n\n# {title}\n\n{body}\n"
 
 
+def _report_prompt(
+    day: date,
+    products: list[Product],
+    news: list[dict[str, Any]],
+    *,
+    previous_zh: str = "",
+    previous_en: str = "",
+) -> list[dict[str, str]]:
+    """日报与项目编辑分开请求，避免日报挤占全量候选的 JSON 输出。"""
+    priorities = [product for product in products if product.priority_review]
+    selected = list(priorities)
+    for product in products:
+        if len(selected) >= REPORT_PRODUCT_LIMIT:
+            break
+        if product.status in {STATUS_QUEUED, STATUS_WATCHING} and product not in selected:
+            selected.append(product)
+    payload = [
+        {
+            "name": product.name,
+            "decision": product.status,
+            "summary_zh": product.summary_zh,
+            "summary_en": product.summary_en,
+            "inspiration": product.inspiration,
+            "inspiration_en": product.inspiration_en,
+        }
+        for product in selected
+    ]
+    priority_names = "、".join(product.name for product in priorities) or "无"
+    system = f"""你是 xOcto 的每日机会流编辑。只可依据输入内容写日报；不得补造团队、收入、客户、
+价格、市场空白或产品能力。采集渠道属于内部实现，任何输出不得出现渠道名称。
+
+输出仅为合法 JSON object，且只能有 report：
+{{"report":{{"hook_zh":"20–40 字中文钩子","highlights_zh":["1–4 条"],"body_zh":"以 ## 开头的中文 Markdown","hook_en":"English hook","highlights_en":["1–4 items"],"body_en":"English Markdown beginning with ##"}}}}
+
+日报应归纳当天出现的机会与待验证点，不得把产品目录改写成热度榜。必须各用独立 `### 产品名`
+小标题介绍重点项目。以下重大项目必须同时在中英文正文中点名：{priority_names}。"""
+    return [
+        {"role": "system", "content": system},
+        {"role": "user", "content": json.dumps({
+            "date": day.isoformat(), "selected_products": payload, "industry_news": news,
+            "previous_report_zh": previous_zh, "previous_report_en": previous_en,
+        }, ensure_ascii=False)},
+    ]
+
+
 def _public_source_leaks(texts: list[str]) -> tuple[str, ...]:
     """返回公开文案中出现的内部采集渠道，大小写不敏感且去重。"""
     combined = "\n".join(texts).casefold()
@@ -555,23 +667,42 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     previous_zh = store.report_path(day).read_text(encoding="utf-8") if store.report_path(day).exists() else ""
     previous_en_path = store.reports_dir / "en" / f"{day.isoformat()}.md"
     previous_en = previous_en_path.read_text(encoding="utf-8") if previous_en_path.exists() else ""
-    messages = _prompt(store, day, products, news, previous_zh=previous_zh, previous_en=previous_en)
-    result = _request(messages)
-    updates = _updates(result, products)
-    reviews = _req_reviews(result, products, store, day=day)
-    zh_report = _report_markdown(result, day, english=False)
-    en_report = _report_markdown(result, day, english=True)
-    # 先把所有模型输出校验完成，之后才开始写盘；避免半批产品被更新。
+    # 一次请求要求 198 个完整双语 `/req` 结果会超过模型输出上限，表现为
+    # 截断 JSON。所有当天候选按批次逐一编辑，不通过限制总数牺牲覆盖。
+    updates: dict[str, Product] = {}
+    reviews: dict[str, ReqReview] = {}
+    for start in range(0, len(products), BRIEF_BATCH_SIZE):
+        batch = products[start:start + BRIEF_BATCH_SIZE]
+        messages = _prompt(store, day, batch, [], previous_zh="", previous_en="")
+        result = _request(messages)
+        batch_updates = _updates(result, batch)
+        batch_reviews = _req_reviews(result, batch, store, day=day)
+        try:
+            _require_no_public_source_leaks(batch_updates, "", "", batch_reviews)
+        except PublicSourceLeakError as exc:
+            result = _request(_source_leak_repair_messages(messages, result, exc.names))
+            batch_updates = _updates(result, batch)
+            batch_reviews = _req_reviews(result, batch, store, day=day)
+            _require_no_public_source_leaks(batch_updates, "", "", batch_reviews)
+        updates.update(batch_updates)
+        reviews.update(batch_reviews)
+
+    # 日报独立生成，避免它和项目字段争抢同一次 JSON 输出；重大项目仍强制
+    # 同时进入中英文正文。
+    report_messages = _report_prompt(
+        day, [updates[product.slug] for product in products], news,
+        previous_zh=previous_zh, previous_en=previous_en,
+    )
+    report_result = _request(report_messages)
+    zh_report = _report_markdown(report_result, day, english=False)
+    en_report = _report_markdown(report_result, day, english=True)
     _require_priority_coverage(products, zh_report, en_report)
     try:
         _require_no_public_source_leaks(updates, zh_report, en_report, reviews)
     except PublicSourceLeakError as exc:
-        # 提示词仍可能被模型偶发忽略；只为这一类可修复的文案问题自动重写一次。
-        result = _request(_source_leak_repair_messages(messages, result, exc.names))
-        updates = _updates(result, products)
-        reviews = _req_reviews(result, products, store, day=day)
-        zh_report = _report_markdown(result, day, english=False)
-        en_report = _report_markdown(result, day, english=True)
+        report_result = _request(_source_leak_repair_messages(report_messages, report_result, exc.names))
+        zh_report = _report_markdown(report_result, day, english=False)
+        en_report = _report_markdown(report_result, day, english=True)
         _require_priority_coverage(products, zh_report, en_report)
         _require_no_public_source_leaks(updates, zh_report, en_report, reviews)
     for product in updates.values():

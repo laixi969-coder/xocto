@@ -31,6 +31,7 @@ from .store import Store
 
 SEARCH_URL = "https://www.bing.com/search"
 MAX_HITS = 8
+MARKET_BATCH_SIZE = 24
 
 
 @dataclass(frozen=True)
@@ -209,8 +210,18 @@ def run(store: Store, *, day: date, http: Http | None = None) -> MarketReport:
             "query_scope": query,
             "evidence": [item.to_dict() for item in evidence],
         })
-    result = _request(_messages(prompt_rows))
-    observations = _validated_observations(result, expected, allowed, day)
+    # 市场对照同样可能在候选丰富的日子超过 JSON 输出上限。检索证据仍一次
+    # 完整保存，编辑判断则分批逐条返回，避免漏掉后半段项目。
+    observations: list[MarketObservation] = []
+    for start in range(0, len(expected), MARKET_BATCH_SIZE):
+        batch_expected = expected[start:start + MARKET_BATCH_SIZE]
+        batch_rows = prompt_rows[start:start + MARKET_BATCH_SIZE]
+        batch_allowed = {
+            (product.slug, ecosystem): allowed[(product.slug, ecosystem)]
+            for product, ecosystem in batch_expected
+        }
+        result = _request(_messages(batch_rows))
+        observations.extend(_validated_observations(result, batch_expected, batch_allowed, day))
     for observation in observations:
         store.append_market_observation(observation)
     return MarketReport(day, candidates=len({product.slug for product, _ in expected}), observations=len(observations))

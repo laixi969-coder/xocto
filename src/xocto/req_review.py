@@ -29,6 +29,9 @@ from xocto.models import (
 from xocto.store import Store
 
 
+REQ_BATCH_SIZE = 12
+
+
 @dataclass(frozen=True)
 class FullReqReport:
     day: date
@@ -155,7 +158,11 @@ def run(store: Store, *, day: date) -> FullReqReport:
     selected = candidates(store, day)
     if not selected:
         return FullReqReport(day, candidates=0, reviews=0, skipped=True)
-    reviews = _reviews(_request(_messages(selected, store)), selected, store, day)
+    # 完整 `/req` 的单项理由更长；分批保证候选数量增长时也不会截断 JSON。
+    reviews: list[ReqReview] = []
+    for start in range(0, len(selected), REQ_BATCH_SIZE):
+        batch = selected[start:start + REQ_BATCH_SIZE]
+        reviews.extend(_reviews(_request(_messages(batch, store)), batch, store, day))
     for review in reviews:
         old = max(store.read_req_reviews(review.project_slug), key=lambda item: item.reviewed_at, default=None)
         store.append_req_review(review)

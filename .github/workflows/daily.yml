@@ -17,6 +17,11 @@ on:
         required: false
         default: false
         type: boolean
+      retry_date:
+        description: "重跑指定北京日期的判断（YYYY-MM-DD；不重新采集）"
+        required: false
+        default: ""
+        type: string
 
 # 需要写权限才能把采集结果提交回仓库
 permissions:
@@ -29,7 +34,8 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # 全量候选按批完成双语 `/req`，不能用 20 分钟把正常的大日子当作失败。
+    timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@v4
@@ -43,7 +49,12 @@ jobs:
         run: uv sync --frozen
 
       - name: 采集
-        run: uv run xocto collect
+        run: |
+          if [ -n "${{ inputs.retry_date }}" ]; then
+            echo "重跑指定日期的判断，不重新采集"
+          else
+            uv run xocto collect
+          fi
         env:
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           # Actions 内置的短期 token 提升 GitHub 搜索限额，让关键词、专题、发布方
@@ -51,7 +62,10 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
 
       - name: 清掉过老的原始存档
-        run: uv run xocto prune --keep-days 30
+        run: |
+          if [ -z "${{ inputs.retry_date }}" ]; then
+            uv run xocto prune --keep-days 30
+          fi
 
       - name: 看看现状
         run: uv run xocto status
@@ -85,7 +99,9 @@ jobs:
       # 不依赖任何人的电脑、Codex 或 Claude Code 登录态。
       - name: DeepSeek 每日判断与双语简报
         run: |
-          if [ "${{ inputs.revise_daily_brief }}" = "true" ]; then
+          if [ -n "${{ inputs.retry_date }}" ]; then
+            uv run xocto brief --date "${{ inputs.retry_date }}" --force
+          elif [ "${{ inputs.revise_daily_brief }}" = "true" ]; then
             uv run xocto brief --force
           else
             uv run xocto brief
@@ -94,18 +110,39 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           # 可选；默认 deepseek-v4-pro。需要控制成本时在 Secrets 中设为 flash 模型。
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+          # 可选备用链。配置 Gemini 密钥后，DeepSeek 请求或 JSON 连续失败时会自动切换；
+          # 设 MODEL_PROVIDER=gemini 可将其作为主模型。
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 中英文市场核验
-        run: uv run xocto market
+        run: |
+          if [ -n "${{ inputs.retry_date }}" ]; then
+            uv run xocto market --date "${{ inputs.retry_date }}"
+          else
+            uv run xocto market
+          fi
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 高价值项目完整 /req 判断
-        run: uv run xocto req
+        run: |
+          if [ -n "${{ inputs.retry_date }}" ]; then
+            uv run xocto req --date "${{ inputs.retry_date }}"
+          else
+            uv run xocto req
+          fi
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 生成网站（日报结果）
         run: uv run xocto build

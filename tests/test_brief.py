@@ -5,10 +5,14 @@ from datetime import date
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from xocto.brief import (
     BriefError,
     PublicSourceLeakError,
+    _decode_json_object,
+    _model_providers,
+    _report_prompt,
     _report_markdown,
     _require_no_public_source_leaks,
     _require_priority_coverage,
@@ -39,6 +43,31 @@ def product(slug: str = "example", *, last_seen: str = "2026-08-13T23:10:00Z") -
 
 
 class BriefTests(unittest.TestCase):
+    def test_gemini_can_be_the_primary_model_with_deepseek_fallback(self) -> None:
+        with patch.dict(
+            "os.environ",
+            {
+                "GEMINI_API_KEY": "gemini-key",
+                "DEEPSEEK_API_KEY": "deepseek-key",
+                "MODEL_PROVIDER": "gemini",
+            },
+            clear=True,
+        ):
+            providers = _model_providers()
+        self.assertEqual([item[0] for item in providers], ["gemini", "deepseek"])
+        self.assertEqual(providers[0][1], "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions")
+
+    def test_json_decoder_accepts_a_fenced_object_but_rejects_truncation(self) -> None:
+        self.assertEqual(_decode_json_object("```json\n{\"products\": []}\n```"), {"products": []})
+        with self.assertRaises(BriefError):
+            _decode_json_object('{"products": [')
+
+    def test_daily_report_prompt_keeps_priority_products_in_scope(self) -> None:
+        priority = replace(product("priority"), name="Priority project", priority_review=True)
+        prompt = _report_prompt(DAY, [priority], [])
+        self.assertIn("Priority project", prompt[0]["content"])
+        self.assertIn("selected_products", prompt[1]["content"])
+
     def test_only_today_pending_products_are_candidates(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
