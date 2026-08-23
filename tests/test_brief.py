@@ -63,6 +63,15 @@ class BriefTests(unittest.TestCase):
             providers = _model_providers()
         self.assertEqual(providers, [("groq", "https://api.groq.com/openai/v1/chat/completions", "groq-key", "openai/gpt-oss-20b")])
 
+    def test_groq_prefers_gemini_before_deepseek_as_its_fallback(self) -> None:
+        with patch.dict(
+            "os.environ",
+            {"GROQ_API_KEY": "groq-key", "GEMINI_API_KEY": "gemini-key", "DEEPSEEK_API_KEY": "deepseek-key", "MODEL_PROVIDER": "groq"},
+            clear=True,
+        ):
+            providers = _model_providers()
+        self.assertEqual([item[0] for item in providers], ["groq", "gemini", "deepseek"])
+
     def test_json_decoder_accepts_a_fenced_object_but_rejects_truncation(self) -> None:
         self.assertEqual(_decode_json_object("```json\n{\"products\": []}\n```"), {"products": []})
         with self.assertRaises(BriefError):
