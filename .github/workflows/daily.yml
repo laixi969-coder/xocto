@@ -53,12 +53,6 @@ jobs:
       - name: 清掉过老的原始存档
         run: uv run xocto prune --keep-days 30
 
-      - name: 生成网站（采集结果）
-        run: uv run xocto build
-
-      - name: 复算站点约束
-        run: python3 scripts/check_design.py
-
       - name: 看看现状
         run: uv run xocto status
 
@@ -82,6 +76,8 @@ jobs:
           fi
 
       # 放在采集提交之后：单源失败不能丢掉当天原始存档，但必须让任务变红。
+      # 不在编辑前构建英文站：采集原文可以是中文，只有双语编辑完成后才
+      # 生成并检查公开页面，避免未翻译的原始字段阻断整条每日流程。
       - name: 检查采集有没有静默变质
         run: uv run xocto health
 

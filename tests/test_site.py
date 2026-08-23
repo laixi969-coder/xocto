@@ -160,6 +160,26 @@ class PublishabilityTests(unittest.TestCase):
         self.assertEqual(_metric_badges(product_with_updates, ZH), ["开源关注 120"])
         self.assertEqual(product_view(product_with_updates, ZH)["name"], "Safe&Fast")
 
+    def test_english_view_never_falls_back_to_untranslated_raw_fields(self) -> None:
+        untranslated = replace(
+            product(),
+            summary="为货运团队处理异常订单。",
+            summary_en="",
+            builder="中文团队",
+            industries=("物流",),
+            jobs=("异常处理",),
+            regions=("中国",),
+        )
+
+        view = product_view(untranslated, EN)
+
+        self.assertEqual(view["summary"], "")
+        self.assertFalse(view["has_summary"])
+        self.assertEqual(view["builder"], "")
+        self.assertEqual(view["industries"], [])
+        self.assertEqual(view["jobs"], [])
+        self.assertEqual(view["regions"], [])
+
     def test_live_board_names_have_english_labels(self) -> None:
         self.assertEqual(BOARD_EN["角色扮演榜"], "Roleplay")
         self.assertEqual(BOARD_EN["全球降速榜"], "Global fastest-declining")
@@ -353,7 +373,7 @@ class PublishabilityTests(unittest.TestCase):
             store.append_evidence(evidence)
             for market, ecosystem, supply, coverage in (
                 ("US", "en", SUPPLY_EMERGING, "English public coverage checked on 2026-08-14."),
-                ("CN", "zh", SUPPLY_NOT_FOUND, "Chinese public coverage checked on 2026-08-14."),
+                ("CN", "zh", SUPPLY_NOT_FOUND, "已覆盖中文生态公开项目发布与开发者讨论。"),
             ):
                 store.append_market_observation(MarketObservation(
                     project_slug="freight-ai",
@@ -385,9 +405,18 @@ class PublishabilityTests(unittest.TestCase):
 
             self.assertTrue(research["cross_market"])
             self.assertEqual(len(research["markets"]), 2)
-            self.assertTrue(any("Chinese public coverage" in row["coverage"] for row in research["markets"]))
+            self.assertTrue(any("已覆盖中文生态" in row["coverage"] for row in research["markets"]))
             self.assertEqual(research["req"]["gates"][0]["name"], "价值")
             self.assertEqual(research["evidence"][0]["title"], "Freight AI")
+
+            english = _research_view(store, "freight-ai", EN)
+            self.assertEqual(english["req"]["signal"], "Needs validation")
+            self.assertEqual(english["req"]["gates"][0]["reason"], EN.t["product"]["req_reason_pending"])
+            self.assertEqual(english["req"]["next_validation"], EN.t["product"]["req_next_pending"])
+            self.assertTrue(any(
+                row["coverage"] == EN.t["product"]["market_coverage_pending"]
+                for row in english["markets"]
+            ))
 
     def test_product_template_surfaces_req_market_and_evidence_sections(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(

@@ -79,6 +79,38 @@ OG_IMAGE = f"{BASE_URL}/logo/logo-on-light.png"
 # 搜索结果里的摘要长度。中文超过这个数会被截断，不如自己控制在哪断。
 DESC_LIMIT = 150
 
+# 英文站不展示未经翻译的中日韩原始文本。采集层必须保留原文，不能为了
+# 展示而改写证据；因此在渲染边界拦住它，并使用明确的英文待补充文案。
+# 产品名称例外：check_design.py 会按产品档案中的专名白名单处理。
+_CJK_TEXT = re.compile(r"[　-〿㐀-䶿一-鿿＀-￯가-힯]")
+
+
+def _english_text(value: str, fallback: str = "") -> str:
+    """只让已是英文的自由文本进入英文站。"""
+    text = (value or "").strip()
+    return text if text and not _CJK_TEXT.search(text) else fallback
+
+
+def _localized_tags(locale: Locale, english: tuple[str, ...], chinese: tuple[str, ...]) -> list[str]:
+    """英文标签必须逐项已有译文；不能用中文标签悄悄顶替。"""
+    if locale.key != "en":
+        return list(chinese)
+    return [tag for tag in english if _english_text(tag)]
+
+
+_REQ_SIGNAL_EN = {
+    "需求信号明确": "Clear demand signal",
+    "初步成立": "Initial support",
+    "待验证": "Needs validation",
+    "需求存疑": "Demand in question",
+}
+
+
+def _req_signal_label(signal: str, locale: Locale) -> str:
+    if locale.key != "en":
+        return signal
+    return _REQ_SIGNAL_EN.get(signal, _english_text(signal, locale.t["home"]["req_pending"]))
+
 _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
 
@@ -555,9 +587,13 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
         "event_day": local_day(event.discovered_at),
         "occurred_day": local_day(event.occurred_at),
         "signals": [signal_labels.get(signal, signal) for signal in event.signals],
-        "event_summary": event.summary,
-        "req_signal": review.signal_level if review else locale.t["home"]["req_pending"],
-        "req_next": review.next_validation if review else locale.t["home"]["req_pending_note"],
+        "event_summary": event.summary if locale.key != "en" else _english_text(event.summary),
+        "req_signal": _req_signal_label(review.signal_level, locale) if review else locale.t["home"]["req_pending"],
+        "req_next": (
+            review.next_validation if locale.key != "en" else _english_text(
+                review.next_validation, locale.t["home"]["req_pending_note"]
+            )
+        ) if review else locale.t["home"]["req_pending_note"],
         "has_req": review is not None,
     }
 
@@ -593,9 +629,13 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
         {
             "id": item.id,
             "url": item.url,
-            "title": item.title or item.url,
+            "title": (
+                item.title or item.url
+                if locale.key != "en"
+                else _english_text(item.title, locale.t["product"]["evidence_link"])
+            ),
             "kind": evidence_kind.get(item.source_kind, item.source_kind),
-            "fact": item.fact,
+            "fact": item.fact if locale.key != "en" else _english_text(item.fact),
             "published_at": local_day(item.published_at) if item.published_at else "",
         }
         for item in evidence
@@ -619,15 +659,21 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
     if review:
         req = {
             "level": locale.t["product"]["req_initial"] if review.level == "initial" else locale.t["product"]["req_full"],
-            "signal": review.signal_level,
+            "signal": _req_signal_label(review.signal_level, locale),
             "verdict": review.verdict,
-            "next_validation": review.next_validation,
+            "next_validation": (
+                review.next_validation if locale.key != "en" else _english_text(
+                    review.next_validation, locale.t["product"]["req_next_pending"]
+                )
+            ),
             "reviewed_at": local_day(review.reviewed_at),
             "gates": [
                 {
                     "name": gate_labels[gate.gate],
                     "status": gate_statuses[gate.status],
-                    "reason": gate.reason,
+                    "reason": gate.reason if locale.key != "en" else _english_text(
+                        gate.reason, locale.t["product"]["req_reason_pending"]
+                    ),
                     "evidence": [evidence_by_id[eid] for eid in gate.evidence_ids if eid in evidence_by_id],
                 }
                 for gate in review.gates
@@ -658,7 +704,9 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
             "ecosystem": locale.t["product"]["ecosystem_zh"] if observation.ecosystem == "zh" else locale.t["product"]["ecosystem_en"],
             "supply": supply_labels[observation.supply_status],
             "demand": demand_labels[observation.demand_status],
-            "coverage": observation.coverage,
+            "coverage": observation.coverage if locale.key != "en" else _english_text(
+                observation.coverage, locale.t["product"]["market_coverage_pending"]
+            ),
             "observed_at": local_day(observation.observed_at),
             "evidence": [evidence_by_id[eid] for eid in observation.evidence_ids if eid in evidence_by_id],
         })
@@ -1129,14 +1177,14 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         written = bool(product.summary_zh)
     else:
         # 英文站：源自带的英文原句能用就用，说不清的才写 summary_en 覆盖。
-        # 灵感没有兜底 —— 没写就整块不显示，不拿中文顶上。
-        summary = product.summary_en or product.summary
-        inspiration = product.inspiration_en
-        written = bool(product.summary_en or product.summary)
+        # 灵感与标签没有中文兜底；原始字段尚未翻译时不能让它阻断发布。
+        summary = _english_text(product.summary_en) or _english_text(product.summary)
+        inspiration = _english_text(product.inspiration_en)
+        written = bool(summary)
     return {
         "slug": product.slug,
         "name": html.unescape(product.name),
-        "builder": product.builder,
+        "builder": product.builder if locale.key != "en" else _english_text(product.builder),
         "summary": summary,
         "summary_raw": product.summary,
         "has_summary": written,
@@ -1150,9 +1198,9 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         "category_key": product.category,
         "project_type": locale.project_type(product.project_type),
         "project_type_key": product.project_type,
-        "industries": list(product.industries_en if locale.key == "en" and product.industries_en else product.industries),
-        "jobs": list(product.jobs_en if locale.key == "en" and product.jobs_en else product.jobs),
-        "regions": list(product.regions_en if locale.key == "en" and product.regions_en else product.regions),
+        "industries": _localized_tags(locale, product.industries_en, product.industries),
+        "jobs": _localized_tags(locale, product.jobs_en, product.jobs),
+        "regions": _localized_tags(locale, product.regions_en, product.regions),
         "open_source": product.open_source,
         "stage": locale.stage(stage),
         "stage_key": stage,
@@ -1167,7 +1215,7 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         "weight": _weight(product),
         "usage_value": _usage_value(product),
         "seen_count": len(product.sightings),
-        "notes": product.notes,
+        "notes": product.notes if locale.key != "en" else _english_text(product.notes),
     }
 
 
