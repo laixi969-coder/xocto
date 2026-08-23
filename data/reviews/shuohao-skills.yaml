@@ -1,0 +1,26 @@
+- id: req-initial-shuohao-skills-2026-08-24
+  project_slug: shuohao-skills
+  level: initial
+  reviewed_at: '2026-08-23T22:38:28Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 现有公开材料将其描述为“把一本小说拆成能直接开拍的短剧包：人物设定、形象、音色、分集大纲。”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-c632104e82fae241
+  - gate: consensus
+    status: insufficient
+    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价、成交或单位经济证据，商业模式仍待核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 尚缺独立结果、准确率或人工复核边界的证据，产品效果不能先行假定。
+    evidence_ids: []
+  next_validation: 访谈一位处理“把一本小说拆成能直接开拍的短剧包：人物设定、形象、音色、分集大纲。”相关任务的目标用户，确认发生频率、现有替代方案与结果付费意愿。
+  market: ''

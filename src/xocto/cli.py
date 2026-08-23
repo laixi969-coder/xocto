@@ -166,6 +166,17 @@ def cmd_req(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_seed_req(args: argparse.Namespace) -> int:
+    from .req_review import seed_initial_reviews
+
+    store = Store()
+    store.ensure_dirs()
+    day = _parse_day(args.date) or today()
+    report = seed_initial_reviews(store, day=day)
+    print(f"\n  已写入 {day.isoformat()} 的基础 /req 初判：{report.reviews}/{report.candidates} 个项目\n")
+    return 0
+
+
 def cmd_rebuild(args: argparse.Namespace) -> int:
     store = Store()
     print("\n从原始存档重建产品池")
@@ -311,6 +322,10 @@ def build_parser() -> argparse.ArgumentParser:
     p_req = sub.add_parser("req", help="为高价值项目生成完整 /req 判断")
     p_req.add_argument("--date", help="指定日期 YYYY-MM-DD，默认今天")
     p_req.set_defaults(func=cmd_req)
+
+    p_seed_req = sub.add_parser("seed-req", help="为当天事件写入不依赖模型的基础 /req 初判")
+    p_seed_req.add_argument("--date", help="指定日期 YYYY-MM-DD，默认今天")
+    p_seed_req.set_defaults(func=cmd_seed_req)
 
     p_prune = sub.add_parser("prune", help="清掉过老的原始存档，控制仓库体积")
     p_prune.add_argument("--keep-days", type=int, default=30, help="保留最近几天，默认 30")

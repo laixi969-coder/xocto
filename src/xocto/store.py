@@ -374,6 +374,22 @@ class Store:
         self._write_yaml_list(path, rows)
         return True
 
+    def upsert_req_review(self, review: ReqReview) -> bool:
+        """写入一版判断；同一稳定 ID 的后续编辑可替换基础初判。"""
+        path = self.review_path(review.project_slug)
+        rows = self._read_yaml_list(path)
+        replacement = review.to_dict()
+        for index, row in enumerate(rows):
+            if str(row.get("id")) == review.id:
+                if row == replacement:
+                    return False
+                rows[index] = replacement
+                self._write_yaml_list(path, rows)
+                return True
+        rows.append(replacement)
+        self._write_yaml_list(path, rows)
+        return True
+
     @staticmethod
     def _read_yaml_list(path: Path) -> list[dict]:
         if not path.exists():

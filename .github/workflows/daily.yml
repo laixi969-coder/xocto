@@ -70,6 +70,16 @@ jobs:
       - name: 看看现状
         run: uv run xocto status
 
+      # 首页的“是否已有初判”不能依赖一次模型请求成功。先把公开证据能支持
+      # 的已知与未知写入；后面的编辑层只负责将它升级为更具体的判断。
+      - name: 写入基础 /req 初判
+        run: |
+          if [ -n "${{ inputs.retry_date }}" ]; then
+            uv run xocto seed-req --date "${{ inputs.retry_date }}"
+          else
+            uv run xocto seed-req
+          fi
+
       - name: 提交并推送
         run: |
           git config user.name  "x-octo bot"
@@ -100,6 +110,8 @@ jobs:
       # 判断层调用模型 API；密钥只存在于 GitHub Actions Secrets，
       # 不依赖任何人的电脑、Codex 或 Claude Code 登录态。
       - name: 每日判断与双语简报
+        id: brief
+        continue-on-error: true
         run: |
           if [ -n "${{ inputs.retry_date }}" ]; then
             uv run xocto brief --date "${{ inputs.retry_date }}" --force
@@ -121,6 +133,7 @@ jobs:
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 中英文市场核验
+        if: ${{ steps.brief.outcome == 'success' }}
         run: |
           if [ -n "${{ inputs.retry_date }}" ]; then
             uv run xocto market --date "${{ inputs.retry_date }}"
@@ -137,6 +150,7 @@ jobs:
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 高价值项目完整 /req 判断
+        if: ${{ steps.brief.outcome == 'success' }}
         run: |
           if [ -n "${{ inputs.retry_date }}" ]; then
             uv run xocto req --date "${{ inputs.retry_date }}"
@@ -154,6 +168,11 @@ jobs:
 
       - name: 生成网站（日报结果）
         run: uv run xocto build
+
+      - name: 记录编辑降级
+        if: ${{ steps.brief.outcome == 'failure' }}
+        run: |
+          echo "::warning::模型编辑未完成；已发布基于公开证据的基础 /req 初判，下一次运行会自动重试深化判断。"
 
       - name: 复算日报发布约束
         run: python3 scripts/check_design.py

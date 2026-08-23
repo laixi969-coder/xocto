@@ -752,7 +752,9 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     for product in updates.values():
         store.save_product(product)
     for review in reviews.values():
-        store.append_req_review(review)
+        # 采集阶段已写入一个保守的基础初判时，用同一稳定 ID 覆盖它；
+        # 编辑结果是增强，不是另一份相互竞争的“初判”。
+        store.upsert_req_review(review)
     store.save_report(zh_report, day)
     store.save_report(en_report, day, locale="en")
     return BriefReport(day=day, candidates=len(products), updated=len(updates))

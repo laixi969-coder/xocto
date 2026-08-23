@@ -40,6 +40,84 @@ class FullReqReport:
     skipped: bool = False
 
 
+@dataclass(frozen=True)
+class InitialReqSeedReport:
+    """采集后不依赖模型即可写入的公开证据初判。"""
+
+    day: date
+    candidates: int
+    reviews: int
+
+
+def _baseline_initial_review(product: Any, evidence: list[Any], day: date, reviewed_at: str) -> ReqReview:
+    """用“已知什么、尚未证明什么”构造可追溯的最低诚实初判。
+
+    这不是伪装成专家意见的自动评分：没有用户、定价或独立结果证据时明确
+    留在待验证，并把下一次应获取的事实写出来。模型编辑完成后会用相同 ID
+    覆盖此版本。
+    """
+    description = " ".join((product.summary_zh or product.summary or product.name).split())[:90]
+    evidence_ids = (evidence[-1].id,) if evidence else ()
+    latest_metrics = product.sightings[-1].metrics if product.sightings else {}
+    stars = latest_metrics.get("stars")
+    forks = latest_metrics.get("forks")
+    if isinstance(stars, int) and stars > 0:
+        consensus_reason = (
+            f"公开代码仓库记录为 {stars:,} 个收藏" + (f"、{forks:,} 个复刻" if isinstance(forks, int) and forks > 0 else "")
+            + "；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。"
+        )
+    elif any(item.source_kind == "adoption" for item in evidence):
+        consensus_reason = "已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。"
+    else:
+        consensus_reason = "未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。"
+    value_reason = (
+        f"现有公开材料将其描述为“{description}”；尚未见目标用户痛点、发生频率或损失规模的直接证据。"
+        if evidence_ids else "尚无可引用的公开材料，目标用户问题、使用频率与损失规模均待核验。"
+    )
+    gates = (
+        ReqGateReview("value", "insufficient", value_reason, evidence_ids),
+        ReqGateReview("consensus", "insufficient", consensus_reason, evidence_ids if stars else ()),
+        ReqGateReview("model", "insufficient", "未见付费主体、定价、成交或单位经济证据，商业模式仍待核验。"),
+        ReqGateReview("truth", "insufficient", "尚缺独立结果、准确率或人工复核边界的证据，产品效果不能先行假定。"),
+    )
+    return ReqReview(
+        id=f"req-initial-{product.slug}-{day.isoformat()}",
+        project_slug=product.slug,
+        level="initial",
+        reviewed_at=reviewed_at,
+        verdict="needs_validation",
+        signal_level="待验证",
+        gates=gates,
+        next_validation=(
+            f"访谈一位处理“{description}”相关任务的目标用户，确认发生频率、现有替代方案与结果付费意愿。"
+        ),
+    )
+
+
+def seed_initial_reviews(store: Store, *, day: date) -> InitialReqSeedReport:
+    """确保当天事件中的每个项目都有一份 `/req` 初判。
+
+    模型不可用时，网站仍能诚实展示已知与未知，而不是把整条机会流降级为
+    “判断待生成”。已经有当天初判的项目不覆盖；模型随后会以同一 ID 升级
+    此处的基础版本。
+    """
+    events = store.read_events(day)
+    slugs = list(dict.fromkeys(event.project_slug for event in events))
+    reviews = 0
+    for slug in slugs:
+        product = store.load_product(slug)
+        if product is None:
+            continue
+        existing = store.read_req_reviews(slug)
+        if any(review.level == "initial" and local_day(review.reviewed_at) == day.isoformat() for review in existing):
+            continue
+        event = next(item for item in events if item.project_slug == slug)
+        review = _baseline_initial_review(product, store.read_evidence(slug), day, event.discovered_at)
+        if store.upsert_req_review(review):
+            reviews += 1
+    return InitialReqSeedReport(day=day, candidates=len(slugs), reviews=reviews)
+
+
 def _latest_by_ecosystem(store: Store, slug: str) -> dict[str, Any]:
     latest: dict[str, Any] = {}
     for observation in store.read_market_observations(slug):
@@ -166,7 +244,7 @@ def run(store: Store, *, day: date) -> FullReqReport:
         reviews.extend(_reviews(_request(_messages(batch, store)), batch, store, day))
     for review in reviews:
         old = max(store.read_req_reviews(review.project_slug), key=lambda item: item.reviewed_at, default=None)
-        store.append_req_review(review)
+        store.upsert_req_review(review)
         if old is not None and (old.verdict != review.verdict or tuple(g.status for g in old.gates) != tuple(g.status for g in review.gates)):
             store.append_event(DiscoveryEvent(
                 id=f"req-change-{review.project_slug}-{day.isoformat()}", project_slug=review.project_slug,

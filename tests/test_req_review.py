@@ -5,8 +5,8 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from xocto.models import Evidence, Product, ReqGateReview, ReqReview, Sighting
-from xocto.req_review import _reviews, candidates
+from xocto.models import DiscoveryEvent, Evidence, Product, ReqGateReview, ReqReview, Sighting
+from xocto.req_review import _reviews, candidates, seed_initial_reviews
 from xocto.store import Store
 
 
@@ -31,6 +31,31 @@ def result() -> dict:
 
 
 class FullReqReviewTests(unittest.TestCase):
+    def test_seeded_initial_review_exists_without_a_model_call_and_is_replaced_by_the_editor(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.save_product(item)
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            store.append_event(DiscoveryEvent(
+                id="first-freight", project_slug=item.slug, event_type="first_discovered",
+                occurred_at=item.last_seen, discovered_at=item.last_seen, evidence_ids=("ev-1",),
+            ))
+
+            report = seed_initial_reviews(store, day=DAY)
+            seeded = store.read_req_reviews(item.slug)[0]
+
+            self.assertEqual((report.candidates, report.reviews), (1, 1))
+            self.assertEqual(seeded.signal_level, "待验证")
+            self.assertIn("公开材料", seeded.gates[0].reason)
+            revised = ReqReview(
+                id=seeded.id, project_slug=item.slug, level="initial", reviewed_at=item.last_seen,
+                verdict="needs_validation", signal_level="初步成立",
+                gates=seeded.gates, next_validation="验证付费意愿。",
+            )
+            self.assertTrue(store.upsert_req_review(revised))
+            self.assertEqual(store.read_req_reviews(item.slug), [revised])
+
     def test_priority_project_with_initial_review_enters_full_req_queue(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
