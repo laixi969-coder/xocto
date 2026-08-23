@@ -21,7 +21,17 @@ from typing import Iterable, Iterator
 
 import yaml
 
-from .models import Product, RawItem, Sighting, today
+from .models import (
+    DiscoveryEvent,
+    Evidence,
+    MarketObservation,
+    Product,
+    RawItem,
+    ReqReview,
+    Sighting,
+    local_day,
+    today,
+)
 
 # 正文分隔标记。这一行以下是自由区，机器写入时永不覆盖。
 NOTES_MARKER = "## 笔记"
@@ -46,10 +56,18 @@ class Store:
         self.pool_dir = self.data_dir / "pool"
         self.analysis_dir = self.data_dir / "analysis"
         self.reports_dir = self.data_dir / "reports"
+        # 机会流的结构化层。保留产品池兼容层，逐步从单一 Product 档案迁出。
+        self.events_dir = self.data_dir / "events"
+        self.evidence_dir = self.data_dir / "evidence"
+        self.markets_dir = self.data_dir / "markets"
+        self.reviews_dir = self.data_dir / "reviews"
         self.config_dir = self.root / "config"
 
     def ensure_dirs(self) -> None:
-        for d in (self.raw_dir, self.pool_dir, self.analysis_dir, self.reports_dir):
+        for d in (
+            self.raw_dir, self.pool_dir, self.analysis_dir, self.reports_dir,
+            self.events_dir, self.evidence_dir, self.markets_dir, self.reviews_dir,
+        ):
             d.mkdir(parents=True, exist_ok=True)
 
     # ---------- 原始层 ----------
@@ -160,6 +178,14 @@ class Store:
             "summary_en": product.summary_en,
             "inspiration_en": product.inspiration_en,
             "priority_review": product.priority_review,
+            "project_type": product.project_type,
+            "industries": list(product.industries),
+            "industries_en": list(product.industries_en),
+            "jobs": list(product.jobs),
+            "jobs_en": list(product.jobs_en),
+            "regions": list(product.regions),
+            "regions_en": list(product.regions_en),
+            "open_source": product.open_source,
             "url": product.url,
             "canonical_url": product.canonical_url,
             "summary": product.summary,
@@ -227,11 +253,141 @@ class Store:
                 summary_en=front.get("summary_en") or "",
                 inspiration_en=front.get("inspiration_en") or "",
                 priority_review=bool(front.get("priority_review")),
+                project_type=front.get("project_type") or "",
+                industries=tuple(str(value) for value in (front.get("industries") or [])),
+                industries_en=tuple(str(value) for value in (front.get("industries_en") or [])),
+                jobs=tuple(str(value) for value in (front.get("jobs") or [])),
+                jobs_en=tuple(str(value) for value in (front.get("jobs_en") or [])),
+                regions=tuple(str(value) for value in (front.get("regions") or [])),
+                regions_en=tuple(str(value) for value in (front.get("regions_en") or [])),
+                open_source=bool(front.get("open_source")),
                 notes=notes,
             )
         except KeyError as exc:
             print(f"  ! {path.name} 缺字段 {exc}，跳过")
             return None
+
+    # ---------- 机会流结构化层 ----------
+
+    def event_path(self, day: date) -> Path:
+        return self.events_dir / f"{day.isoformat()}.yaml"
+
+    def read_events(self, day: date) -> list[DiscoveryEvent]:
+        rows = self._read_yaml_list(self.event_path(day))
+        out: list[DiscoveryEvent] = []
+        for row in rows:
+            try:
+                out.append(DiscoveryEvent.from_dict(row))
+            except (KeyError, TypeError, ValueError) as exc:
+                print(f"  ! 跳过损坏的事件 {day.isoformat()}：{exc}")
+        return out
+
+    def append_event(self, event: DiscoveryEvent) -> bool:
+        """按事件 ID 幂等追加，返回本次是否写入。"""
+        try:
+            event_day = date.fromisoformat(local_day(event.discovered_at))
+        except ValueError:
+            event_day = today()
+        path = self.event_path(event_day)
+        rows = self._read_yaml_list(path)
+        if any(str(row.get("id")) == event.id for row in rows):
+            return False
+        rows.append(event.to_dict())
+        self._write_yaml_list(path, rows)
+        return True
+
+    def event_days(self) -> list[date]:
+        days: list[date] = []
+        for path in self.events_dir.glob("*.yaml"):
+            try:
+                days.append(date.fromisoformat(path.stem))
+            except ValueError:
+                continue
+        return sorted(days)
+
+    def evidence_path(self, slug: str) -> Path:
+        return self.evidence_dir / f"{slug}.yaml"
+
+    def read_evidence(self, slug: str) -> list[Evidence]:
+        out: list[Evidence] = []
+        for row in self._read_yaml_list(self.evidence_path(slug)):
+            try:
+                out.append(Evidence.from_dict(row))
+            except (KeyError, TypeError, ValueError) as exc:
+                print(f"  ! 跳过损坏的证据 {slug}：{exc}")
+        return out
+
+    def append_evidence(self, evidence: Evidence) -> bool:
+        """按证据 ID 幂等追加，返回本次是否写入。"""
+        path = self.evidence_path(evidence.project_slug)
+        rows = self._read_yaml_list(path)
+        if any(str(row.get("id")) == evidence.id for row in rows):
+            return False
+        rows.append(evidence.to_dict())
+        self._write_yaml_list(path, rows)
+        return True
+
+    def market_path(self, slug: str) -> Path:
+        return self.markets_dir / f"{slug}.yaml"
+
+    def read_market_observations(self, slug: str) -> list[MarketObservation]:
+        out: list[MarketObservation] = []
+        for row in self._read_yaml_list(self.market_path(slug)):
+            try:
+                out.append(MarketObservation.from_dict(row))
+            except (KeyError, TypeError, ValueError) as exc:
+                print(f"  ! 跳过损坏的市场观察 {slug}：{exc}")
+        return out
+
+    def append_market_observation(self, observation: MarketObservation) -> bool:
+        path = self.market_path(observation.project_slug)
+        rows = self._read_yaml_list(path)
+        key = (observation.market, observation.observed_at)
+        if any((str(row.get("market")), str(row.get("observed_at"))) == key for row in rows):
+            return False
+        rows.append(observation.to_dict())
+        self._write_yaml_list(path, rows)
+        return True
+
+    def review_path(self, slug: str) -> Path:
+        return self.reviews_dir / f"{slug}.yaml"
+
+    def read_req_reviews(self, slug: str) -> list[ReqReview]:
+        out: list[ReqReview] = []
+        for row in self._read_yaml_list(self.review_path(slug)):
+            try:
+                out.append(ReqReview.from_dict(row))
+            except (KeyError, TypeError, ValueError) as exc:
+                print(f"  ! 跳过损坏的 `/req` 判断 {slug}：{exc}")
+        return out
+
+    def append_req_review(self, review: ReqReview) -> bool:
+        path = self.review_path(review.project_slug)
+        rows = self._read_yaml_list(path)
+        if any(str(row.get("id")) == review.id for row in rows):
+            return False
+        rows.append(review.to_dict())
+        self._write_yaml_list(path, rows)
+        return True
+
+    @staticmethod
+    def _read_yaml_list(path: Path) -> list[dict]:
+        if not path.exists():
+            return []
+        try:
+            parsed = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+        except (OSError, yaml.YAMLError) as exc:
+            print(f"  ! 读不了 {path.name}：{exc}")
+            return []
+        if not isinstance(parsed, list):
+            print(f"  ! {path.name} 不是列表，跳过")
+            return []
+        return [row for row in parsed if isinstance(row, dict)]
+
+    @staticmethod
+    def _write_yaml_list(path: Path, rows: list[dict]) -> None:
+        body = yaml.safe_dump(rows, allow_unicode=True, sort_keys=False, width=100)
+        _atomic_write(path, body)
 
     # ---------- 简报 ----------
 

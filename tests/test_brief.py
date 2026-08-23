@@ -12,11 +12,12 @@ from xocto.brief import (
     _report_markdown,
     _require_no_public_source_leaks,
     _require_priority_coverage,
+    _req_reviews,
     _updates,
     candidates_for_day,
     news_for_day,
 )
-from xocto.models import Product, RawItem, STATUS_PENDING_FILTER, Sighting
+from xocto.models import Evidence, Product, RawItem, STATUS_MARKET_CONTEXT, STATUS_PENDING_FILTER, Sighting
 from xocto.store import Store
 
 
@@ -164,6 +165,14 @@ class BriefTests(unittest.TestCase):
                     "slug": "example",
                     "decision": "watching",
                     "category": "AI + 开发",
+                    "project_type": "new_application",
+                    "industries": ["软件研发"],
+                    "industries_en": ["Software development"],
+                    "jobs": ["需求梳理"],
+                    "jobs_en": ["Requirements triage"],
+                    "regions": ["英文生态"],
+                    "regions_en": ["English ecosystem"],
+                    "open_source": False,
                     "summary_zh": "把需求整理成可执行的开发任务",
                     "inspiration": "把模糊需求先变成可审阅的中间产物，能降低协作返工",
                     "summary_en": "Turns rough requirements into executable engineering tasks.",
@@ -174,13 +183,98 @@ class BriefTests(unittest.TestCase):
         updated = _updates(payload, [source])["example"]
         self.assertEqual(updated.status, "watching")
         self.assertEqual(updated.category, "AI + 开发")
+        self.assertEqual(updated.industries, ("软件研发",))
         self.assertTrue(updated.inspiration_en)
+
+    def test_settled_general_assistant_is_kept_as_market_context_not_an_opportunity(self) -> None:
+        source = product()
+        updated = _updates(
+            {"products": [{"slug": "example", "decision": "market_context"}]},
+            [source],
+        )["example"]
+        self.assertEqual(updated.status, STATUS_MARKET_CONTEXT)
+        self.assertFalse(updated.summary_zh)
+
+    def test_req_initial_review_requires_all_gates_and_uses_known_evidence(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            source = product()
+            store.append_evidence(
+                Evidence(
+                    id="ev-1",
+                    project_slug="example",
+                    url="https://example.com",
+                    title="Product page",
+                    published_at=source.last_seen,
+                    collected_at=source.last_seen,
+                    source_kind="product",
+                    tier="first_party",
+                )
+            )
+            result = {
+                "products": [
+                    {
+                        "slug": "example",
+                        "decision": "watching",
+                        "req_initial": {
+                            "verdict": "needs_validation",
+                            "signal_level": "待验证",
+                            "gates": [
+                                {"gate": "value", "status": "supported", "reason": "货代每天都需要处理会影响交付和客户关系的运输异常。", "evidence_ids": ["ev-1"]},
+                                {"gate": "consensus", "status": "insufficient", "reason": "公开材料尚未证明货代会持续采用或替换现有人工流程。", "evidence_ids": []},
+                                {"gate": "model", "status": "insufficient", "reason": "尚未披露具体付费者、价格或能够支持单位经济的收费证据。", "evidence_ids": []},
+                                {"gate": "truth", "status": "insufficient", "reason": "异常判断准确率、责任边界和人工复核机制仍缺少可核验信息。", "evidence_ids": []},
+                            ],
+                            "next_validation": "确认至少一家货代是否愿意为减少异常处理时间付费。",
+                        },
+                    }
+                ]
+            }
+
+            review = _req_reviews(result, [source], store, day=DAY)["example"]
+            self.assertEqual(review.verdict, "needs_validation")
+            self.assertEqual(review.gates[0].evidence_ids, ("ev-1",))
+            self.assertEqual(review.id, "req-initial-example-2026-08-14")
+
+    def test_req_initial_review_rejects_hallucinated_evidence(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            source = product()
+            result = {
+                "products": [
+                    {
+                        "slug": "example",
+                        "decision": "watching",
+                        "req_initial": {
+                            "verdict": "needs_validation",
+                            "signal_level": "待验证",
+                            "gates": [
+                                {"gate": "value", "status": "supported", "reason": "货代每天都需要处理会影响交付和客户关系的运输异常。", "evidence_ids": ["made-up"]},
+                                {"gate": "consensus", "status": "insufficient", "reason": "公开材料尚未证明货代会持续采用或替换现有人工流程。", "evidence_ids": []},
+                                {"gate": "model", "status": "insufficient", "reason": "尚未披露具体付费者、价格或能够支持单位经济的收费证据。", "evidence_ids": []},
+                                {"gate": "truth", "status": "insufficient", "reason": "异常判断准确率、责任边界和人工复核机制仍缺少可核验信息。", "evidence_ids": []},
+                            ],
+                            "next_validation": "确认至少一家货代是否愿意为减少异常处理时间付费。",
+                        },
+                    }
+                ]
+            }
+            with self.assertRaises(BriefError):
+                _req_reviews(result, [source], store, day=DAY)
 
     def test_priority_candidate_cannot_be_silently_rejected(self) -> None:
         source = replace(product(), priority_review=True)
         with self.assertRaises(BriefError):
             _updates(
                 {"products": [{"slug": "example", "decision": "rejected"}]},
+                [source],
+            )
+
+    def test_priority_candidate_cannot_be_demoted_to_market_context(self) -> None:
+        source = replace(product(), priority_review=True)
+        with self.assertRaises(BriefError):
+            _updates(
+                {"products": [{"slug": "example", "decision": "market_context"}]},
                 [source],
             )
 

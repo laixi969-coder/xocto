@@ -99,6 +99,18 @@ jobs:
           # 可选；默认 deepseek-v4-pro。需要控制成本时在 Secrets 中设为 flash 模型。
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
 
+      - name: 中英文市场核验
+        run: uv run xocto market
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+
+      - name: 高价值项目完整 /req 判断
+        run: uv run xocto req
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
+
       - name: 生成网站（日报结果）
         run: uv run xocto build
 

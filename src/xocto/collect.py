@@ -8,12 +8,28 @@ from __future__ import annotations
 
 from dataclasses import dataclass, replace
 from datetime import date, datetime, timezone
+import hashlib
+import json
 from pathlib import Path
 
 import yaml
 
 from .dedupe import ProductIndex, canonical_url
-from .models import Product, RawItem, Sighting, slugify, today
+from .models import (
+    DEMAND_EARLY_SIGNAL,
+    DEMAND_UNKNOWN,
+    EVENT_FIRST_DISCOVERED,
+    EVENT_MATERIAL_UPDATE,
+    SUPPLY_EMERGING,
+    DiscoveryEvent,
+    Evidence,
+    MarketObservation,
+    Product,
+    RawItem,
+    Sighting,
+    slugify,
+    today,
+)
 from .sources import Http, get_fetcher, registered_names
 from .store import Store
 
@@ -126,6 +142,88 @@ def _has_material_change(old: Product, new: Product) -> bool:
     return old_metrics != new_metrics
 
 
+def _evidence_from_raw(product: Product, item: RawItem) -> Evidence:
+    """把一次原始发现留成可追溯证据，但不把内部渠道名写进公开字段。"""
+    source_kind = "product"
+    if item.source in {"github", "huggingface", "modelscope"}:
+        source_kind = "open_source"
+    elif any(key in item.metrics for key in ("raw_value", "stars", "points", "mom_percent")):
+        source_kind = "adoption"
+    tier = str(item.extra.get("evidence_tier") or ("behavioural" if source_kind in {"open_source", "adoption"} else "first_party"))
+    evidence_url = str(item.extra.get("evidence_url") or item.url)
+    evidence_title = str(item.extra.get("evidence_title") or item.title)
+    fingerprint = "|".join((product.slug, evidence_url, item.published_at, item.collected_at, evidence_title))
+    evidence_id = "ev-" + hashlib.sha1(fingerprint.encode("utf-8")).hexdigest()[:16]
+    return Evidence(
+        id=evidence_id,
+        project_slug=product.slug,
+        url=evidence_url,
+        title=evidence_title,
+        published_at=item.published_at,
+        collected_at=item.collected_at,
+        source_kind=source_kind,
+        tier=tier,
+        # 原始摘要不是编辑结论；先保存为证据原文，后续 `/req` 只能引用而不能扩写。
+        fact=item.summary[:1200],
+    )
+
+
+def _event_from_raw(product: Product, item: RawItem, *, event_type: str, evidence_id: str) -> DiscoveryEvent:
+    signals = ["release"]
+    if item.source in {"github", "huggingface", "modelscope"}:
+        signals.append("open_source")
+    if any(key in item.metrics for key in ("raw_value", "stars", "points", "mom_percent")):
+        signals.append("adoption")
+    if event_type == EVENT_MATERIAL_UPDATE:
+        signals = ["update", *[signal for signal in signals if signal != "release"]]
+    # 首次发现一项目只有一个稳定事件 ID；更新事件按本次事实指纹幂等。
+    if event_type == EVENT_FIRST_DISCOVERED:
+        event_id = f"first-{product.slug}"
+    else:
+        payload = json.dumps(item.metrics, ensure_ascii=False, sort_keys=True)
+        fingerprint = "|".join((product.slug, event_type, item.url, item.collected_at, payload))
+        event_id = "evt-" + hashlib.sha1(fingerprint.encode("utf-8")).hexdigest()[:16]
+    return DiscoveryEvent(
+        id=event_id,
+        project_slug=product.slug,
+        event_type=event_type,
+        occurred_at=item.published_at or item.collected_at,
+        discovered_at=item.collected_at,
+        signals=tuple(signals),
+        summary="首次发现项目" if event_type == EVENT_FIRST_DISCOVERED else "发现新的公开信号",
+        evidence_ids=(evidence_id,),
+    )
+
+
+def _record_opportunity_event(store: Store, product: Product, item: RawItem, *, event_type: str) -> None:
+    """产品池兼容层之外新增事件与证据，不影响既有采集结果。"""
+    evidence = _evidence_from_raw(product, item)
+    store.append_evidence(evidence)
+    store.append_event(_event_from_raw(product, item, event_type=event_type, evidence_id=evidence.id))
+    ecosystem = str(item.extra.get("ecosystem") or "")
+    market = str(item.extra.get("market") or "")
+    # 英文发布与开源社区不是“美国市场”的代理，但它们构成可单独观察的
+    # 英文生态。国家级结论只在数据源明确给出国家时才写入。
+    if not ecosystem and item.source in {"producthunt", "hackernews", "github", "huggingface"}:
+        ecosystem = "en"
+        market = "English-language market"
+    if ecosystem and market:
+        # 这是“在该生态发现了可核验供给”，不是对另一市场的缺席判断。
+        # 另一方只有在独立检索写入覆盖范围后，才允许标为未发现。
+        coverage = "已覆盖的中文生态公开项目发布与开发者讨论。" if ecosystem == "zh" else "已覆盖的英文生态公开项目发布与开发者讨论。"
+        demand = DEMAND_EARLY_SIGNAL if int(item.metrics.get("comments") or 0) > 0 else DEMAND_UNKNOWN
+        store.append_market_observation(MarketObservation(
+            project_slug=product.slug,
+            market=market,
+            ecosystem=ecosystem,
+            observed_at=item.collected_at,
+            supply_status=SUPPLY_EMERGING,
+            demand_status=demand,
+            coverage=coverage,
+            evidence_ids=(evidence.id,),
+        ))
+
+
 def merge_into_pool(
     store: Store, items: list[RawItem], *, dry_run: bool
 ) -> tuple[int, int, int, int]:
@@ -172,6 +270,7 @@ def merge_into_pool(
                 index.add(updated)
                 if not dry_run:
                     store.save_product(updated)
+                    _record_opportunity_event(store, updated, item, event_type=EVENT_MATERIAL_UPDATE)
                 updated_count += 1
             else:
                 unchanged_count += 1
@@ -182,6 +281,7 @@ def merge_into_pool(
         index.add(product)
         if not dry_run:
             store.save_product(product)
+            _record_opportunity_event(store, product, item, event_type=EVENT_FIRST_DISCOVERED)
         new_count += 1
 
     return new_count, updated_count, unchanged_count, news_count

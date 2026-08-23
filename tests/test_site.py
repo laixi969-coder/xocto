@@ -8,13 +8,35 @@ from pathlib import Path
 from xocto.i18n import BOARD_EN
 from xocto.i18n import EN
 from xocto.i18n import ZH
-from xocto.models import Product, Sighting
+from xocto.models import (
+    DEMAND_EARLY_SIGNAL,
+    REQ_GATE_CONSENSUS,
+    REQ_GATE_INSUFFICIENT,
+    REQ_GATE_MODEL,
+    REQ_GATE_SUPPORTED,
+    REQ_GATE_TRUTH,
+    REQ_GATE_VALUE,
+    REQ_NEEDS_VALIDATION,
+    SUPPLY_EMERGING,
+    SUPPLY_NOT_FOUND,
+    EVENT_FIRST_DISCOVERED,
+    EVENT_MATERIAL_UPDATE,
+    DiscoveryEvent,
+    Evidence,
+    MarketObservation,
+    Product,
+    ReqGateReview,
+    ReqReview,
+    Sighting,
+)
 from xocto.site import (
     _business_form,
+    build_context,
     _daily_rotation,
     _is_publishable,
     _metric_badges,
     _remove_stale_pages,
+    _research_view,
     _schema,
     _section,
     product_view,
@@ -43,19 +65,22 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("r.hook", template)
-        self.assertIn("fresh_picks", template)
-        self.assertIn("{% for p in items[:3] %}", template)
+        self.assertIn("first_discoveries", template)
+        self.assertIn("important_updates", template)
+        self.assertIn("{% for p in items %}", template)
         self.assertIn("t.home.what", template)
-        self.assertIn("t.home.money", template)
-        self.assertIn("t.home.meaning", template)
+        self.assertIn("t.home.req_initial", template)
         self.assertNotIn("reader-routes", template)
-        self.assertLess(template.index("r.hook"), template.index("t.home.fresh_picks"))
-        self.assertIn("t.home.today_takeaway_title", template)
-        self.assertIn("t.home.long_term_picks", template)
+        self.assertIn("event_day", template)
+        self.assertIn("t.home.daily_flow", template)
+        self.assertIn("market_summary", template)
         self.assertIn("t.home.past_reports", template)
-        self.assertLess(template.index("t.home.fresh_picks"), template.index("t.home.today_takeaway_title"))
-        self.assertLess(template.index("t.home.today_takeaway_title"), template.index("t.home.long_term_picks"))
-        self.assertLess(template.index("t.home.long_term_picks"), template.index("t.home.past_reports"))
+        self.assertLess(template.index("first_discoveries"), template.index("important_updates"))
+        self.assertLess(template.index("important_updates"), template.index("market_summary"))
+        self.assertLess(template.index("market_summary"), template.index("t.home.past_reports"))
+        self.assertNotIn("fresh_picks", template)
+        self.assertNotIn("today_takeaway", template)
+        self.assertNotIn("more_opportunities", template)
         self.assertNotIn("t.home.movers", template)
         self.assertNotIn("t.home.notables", template)
         self.assertNotIn("t.home.cats", template)
@@ -167,6 +192,28 @@ class PublishabilityTests(unittest.TestCase):
     def test_reader_ready_product_is_published(self) -> None:
         self.assertTrue(_is_publishable(product()))
 
+    def test_settled_general_assistant_stays_out_of_the_opportunity_library(self) -> None:
+        settled = replace(
+            product(),
+            category="通用助手",
+            sightings=(
+                Sighting("ranking", "https://example.com", "2026-08-13T00:00:00Z", {"value": 40_000_000}),
+            ),
+        )
+        self.assertFalse(_is_publishable(settled))
+
+    def test_large_vertical_product_is_still_publishable(self) -> None:
+        vertical = replace(
+            product(),
+            category="AI + 商业",
+            summary="Automates shipment exception handling for freight forwarders.",
+            summary_zh="给货代处理货运异常的系统",
+            sightings=(
+                Sighting("ranking", "https://example.com", "2026-08-13T00:00:00Z", {"value": 40_000_000}),
+            ),
+        )
+        self.assertTrue(_is_publishable(vertical))
+
     def test_money_section_is_extracted_from_analysis(self) -> None:
         body = (
             "## 它在替代什么旧行为\n\n"
@@ -220,20 +267,138 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("t.product.inspiration", template)
         self.assertIn("analysis.money", template)
 
-    def test_home_picks_surface_direction_not_just_features(self) -> None:
+    def test_home_event_cards_surface_initial_req_and_dates(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
             encoding="utf-8"
         )
         self.assertIn("t.home.what", template)
-        self.assertIn("t.home.money", template)
-        self.assertIn("t.home.meaning", template)
-        self.assertIn("t.home.daily_contract", template)
+        self.assertIn("t.home.event_signal", template)
+        self.assertIn("t.home.req_initial", template)
+        self.assertIn("t.home.discovered_at", template)
         self.assertIn('id="today-cases"', template)
-        self.assertIn('id="today-move"', template)
+        self.assertIn('id="important-updates"', template)
         self.assertIn('id="past-calls"', template)
         self.assertIn("p.summary", template)
-        self.assertIn("p.money_brief", template)
-        self.assertIn("p.inspiration", template)
+        self.assertIn("p.req_signal", template)
+        self.assertIn("p.req_next", template)
+        self.assertIn("p.event_day", template)
+
+    def test_home_uses_only_the_latest_event_day_and_separates_first_discoveries(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            from xocto.store import Store
+
+            store = Store(Path(tmp))
+            historical = product()
+            fresh = replace(product(), slug="fresh", name="Fresh", industries=("货运物流",))
+            store.save_product(historical)
+            store.save_product(fresh)
+            store.append_event(DiscoveryEvent(
+                id="first-example",
+                project_slug="example",
+                event_type=EVENT_FIRST_DISCOVERED,
+                occurred_at="2026-08-13T10:00:00Z",
+                discovered_at="2026-08-13T11:00:00Z",
+            ))
+            store.append_event(DiscoveryEvent(
+                id="update-example",
+                project_slug="example",
+                event_type=EVENT_MATERIAL_UPDATE,
+                occurred_at="2026-08-14T10:00:00Z",
+                discovered_at="2026-08-14T11:00:00Z",
+                summary="A new public adoption signal.",
+            ))
+            store.append_event(DiscoveryEvent(
+                id="first-fresh",
+                project_slug="fresh",
+                event_type=EVENT_FIRST_DISCOVERED,
+                occurred_at="2026-08-14T12:00:00Z",
+                discovered_at="2026-08-14T13:00:00Z",
+            ))
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual(ctx["event_day"], "2026-08-14")
+            self.assertEqual([item["slug"] for item in ctx["first_discoveries"]], ["fresh"])
+            self.assertEqual([item["slug"] for item in ctx["important_updates"]], ["example"])
+            self.assertEqual(ctx["market_summary"][0]["title"], "今日首次发现涉及的行业")
+
+    def test_opportunity_library_offers_parallel_dimensions_and_shareable_date_filters(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(
+            encoding="utf-8"
+        )
+        for dim in ("projectType", "industry", "job", "region", "openSource", "crossMarket", "req"):
+            self.assertIn(f'data-dim="{dim}"', template)
+        self.assertIn('id="date-from"', template)
+        self.assertIn('id="date-to"', template)
+        self.assertIn("data-discovered", template)
+        self.assertIn("dateFrom", template)
+        self.assertIn("dateTo", template)
+
+    def test_detail_research_view_keeps_market_coverage_and_marks_cross_market_only_from_snapshots(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            from xocto.store import Store
+
+            store = Store(Path(tmp))
+            evidence = Evidence(
+                id="ev-product",
+                project_slug="freight-ai",
+                url="https://example.com",
+                title="Freight AI",
+                published_at="2026-08-14T09:00:00Z",
+                collected_at="2026-08-14T10:00:00Z",
+                source_kind="product",
+                tier="first_party",
+                fact="Shipment-exception workflow is publicly described.",
+            )
+            store.append_evidence(evidence)
+            for market, ecosystem, supply, coverage in (
+                ("US", "en", SUPPLY_EMERGING, "English public coverage checked on 2026-08-14."),
+                ("CN", "zh", SUPPLY_NOT_FOUND, "Chinese public coverage checked on 2026-08-14."),
+            ):
+                store.append_market_observation(MarketObservation(
+                    project_slug="freight-ai",
+                    market=market,
+                    ecosystem=ecosystem,
+                    observed_at="2026-08-14T10:00:00Z",
+                    supply_status=supply,
+                    demand_status=DEMAND_EARLY_SIGNAL,
+                    coverage=coverage,
+                    evidence_ids=("ev-product",),
+                ))
+            store.append_req_review(ReqReview(
+                id="req-1",
+                project_slug="freight-ai",
+                level="initial",
+                reviewed_at="2026-08-14T10:00:00Z",
+                verdict=REQ_NEEDS_VALIDATION,
+                signal_level="待验证",
+                gates=(
+                    ReqGateReview(REQ_GATE_VALUE, REQ_GATE_SUPPORTED, "货运异常处理场景具体，现有工作流可识别。", ("ev-product",)),
+                    ReqGateReview(REQ_GATE_CONSENSUS, REQ_GATE_INSUFFICIENT, "重复采用信号尚未公开。"),
+                    ReqGateReview(REQ_GATE_MODEL, REQ_GATE_INSUFFICIENT, "付费主体与定价尚待核验。"),
+                    ReqGateReview(REQ_GATE_TRUTH, REQ_GATE_INSUFFICIENT, "异常交付的责任边界待验证。"),
+                ),
+                next_validation="确认货代是否为异常处理持续付费。",
+            ))
+
+            research = _research_view(store, "freight-ai", ZH)
+
+            self.assertTrue(research["cross_market"])
+            self.assertEqual(len(research["markets"]), 2)
+            self.assertTrue(any("Chinese public coverage" in row["coverage"] for row in research["markets"]))
+            self.assertEqual(research["req"]["gates"][0]["name"], "价值")
+            self.assertEqual(research["evidence"][0]["title"], "Freight AI")
+
+    def test_product_template_surfaces_req_market_and_evidence_sections(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("t.product.req_title", template)
+        self.assertIn("product.req.gates", template)
+        self.assertIn("t.product.markets_title", template)
+        self.assertIn("product.cross_market", template)
+        self.assertIn("t.product.evidence_title", template)
+        self.assertIn("product.evidence", template)
 
     def test_product_page_answers_is_it_a_business_first(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(

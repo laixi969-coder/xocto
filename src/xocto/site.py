@@ -33,7 +33,12 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from .models import (
     CATEGORIES,
+    EVENT_FIRST_DISCOVERED,
+    EVENT_MATERIAL_UPDATE,
+    EVENT_MARKET_CHANGE,
+    EVENT_REQ_CHANGE,
     STATUS_ANALYZED,
+    STATUS_MARKET_CONTEXT,
     STATUS_REJECTED,
     STATUS_WATCHING,
     Product,
@@ -404,6 +409,25 @@ def _usage_value(product: Product) -> float:
     return 0.0
 
 
+_GENERIC_ASSISTANT_HINTS = (
+    "对话", "问答", "聊天", "智能助手", "ai 助手", "ai助手", "大模型", "ai搜索",
+    "chat", "assistant", "general ai", "ai search",
+)
+
+
+def _is_settled_general_assistant(product: Product) -> bool:
+    """识别已是默认入口的通用助手，避免历史数据继续污染机会库。
+
+    新数据应在编辑阶段得到 market_context 状态；这条规则是给已写入档案的
+    历史产品的安全网。它要求同时具备「千万级公开使用量」和通用入口特征，
+    因此不会把已有规模的垂直产品一并藏掉。
+    """
+    if _usage_value(product) < SETTLED_USAGE:
+        return False
+    text = " ".join((product.name, product.summary, product.summary_zh)).casefold()
+    return product.category == "通用助手" or any(hint in text for hint in _GENERIC_ASSISTANT_HINTS)
+
+
 def _has_paid_signal(money: str) -> bool:
     """只认商业模式正文里的收费证据，不把「未披露」读成已经在收费。"""
     text = (money or "").strip()
@@ -445,6 +469,18 @@ def _pick_sort_key(item: dict[str, Any], *, emerging: bool) -> tuple[Any, ...]:
     verdict = analysis.verdict_rank if analysis else 9
     niche = 1 if item["category_key"] in {"AI + 开发", "基础层"} and form == FORM_NOT_BUSINESS else 0
     return (niche, form_rank, verdict, -item["weight"])
+
+
+def _opportunity_rank(item: dict[str, Any]) -> int:
+    """机会库的默认次序：先看还在形成的切口，再看热度。
+
+    热度只是证据，不能再把成熟默认入口排在用户第一次看到的位置。
+    这个分数不展示给用户，也不冒充成功概率；它只负责保护阅读顺序。
+    """
+    rank = 10_000 if item["stage_key"] == STAGE_EARLY else 0
+    rank += {FORM_CHARGING: 600, FORM_NOT_BUSINESS: 300, FORM_SCALED: 120, FORM_SETTLED: 0}[item["form_key"]]
+    rank += {STATUS_ANALYZED: 200, STATUS_WATCHING: 100}.get(item["status"], 0)
+    return rank + min(item["weight"], 99)
 
 
 def _report_blob(report: Report | None) -> str:
@@ -496,6 +532,161 @@ def _daily_rotation(items: list[Any], day: str, *, limit: int) -> list[Any]:
     return [items[(offset + index) % len(items)] for index in range(min(limit, len(items)))]
 
 
+def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) -> dict[str, Any]:
+    """把结构化事件与项目、`/req` 判断组合成首页机会流的一条记录。"""
+    reviews = store.read_req_reviews(event.project_slug)
+    review = max(reviews, key=lambda item: item.reviewed_at, default=None)
+    event_labels = {
+        EVENT_FIRST_DISCOVERED: locale.t["home"]["event_first"],
+        EVENT_MATERIAL_UPDATE: locale.t["home"]["event_update"],
+        EVENT_MARKET_CHANGE: locale.t["home"]["event_market"],
+        EVENT_REQ_CHANGE: locale.t["home"]["event_req"],
+    }
+    signal_labels = {
+        "release": locale.t["home"]["signal_release"],
+        "update": locale.t["home"]["signal_update"],
+        "open_source": locale.t["home"]["signal_open_source"],
+        "adoption": locale.t["home"]["signal_adoption"],
+    }
+    return {
+        **view,
+        "event_type": event.event_type,
+        "event_label": event_labels[event.event_type],
+        "event_day": local_day(event.discovered_at),
+        "occurred_day": local_day(event.occurred_at),
+        "signals": [signal_labels.get(signal, signal) for signal in event.signals],
+        "event_summary": event.summary,
+        "req_signal": review.signal_level if review else locale.t["home"]["req_pending"],
+        "req_next": review.next_validation if review else locale.t["home"]["req_pending_note"],
+        "has_req": review is not None,
+    }
+
+
+def _facet(values: list[str]) -> list[dict[str, Any]]:
+    """为机会库生成可增长的标签筛选项，按覆盖项目数排序。"""
+    counts: dict[str, int] = {}
+    for value in values:
+        if value:
+            counts[value] = counts.get(value, 0) + 1
+    return [
+        {"name": name, "count": count}
+        for name, count in sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    ]
+
+
+def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
+    """将证据、`/req` 版本及市场快照整理为详情页所需的公开信息。
+
+    缺少市场记录时不把空白翻译成“未发现”。“未发现”只来自带覆盖范围和
+    观察时间的 MarketObservation；这是跨国机会判断最重要的边界。
+    """
+    evidence = sorted(store.read_evidence(slug), key=lambda item: item.collected_at, reverse=True)
+    evidence_by_id = {item.id: item for item in evidence}
+    evidence_kind = {
+        "product": locale.t["product"]["evidence_product"],
+        "pricing": locale.t["product"]["evidence_pricing"],
+        "open_source": locale.t["product"]["evidence_open_source"],
+        "adoption": locale.t["product"]["evidence_adoption"],
+        "market_comparison": locale.t["product"]["evidence_market"],
+    }
+    evidence_rows = [
+        {
+            "id": item.id,
+            "url": item.url,
+            "title": item.title or item.url,
+            "kind": evidence_kind.get(item.source_kind, item.source_kind),
+            "fact": item.fact,
+            "published_at": local_day(item.published_at) if item.published_at else "",
+        }
+        for item in evidence
+        if item.url
+    ]
+
+    gate_labels = {
+        "value": locale.t["product"]["req_value"],
+        "consensus": locale.t["product"]["req_consensus"],
+        "model": locale.t["product"]["req_model"],
+        "truth": locale.t["product"]["req_truth"],
+    }
+    gate_statuses = {
+        "supported": locale.t["product"]["req_supported"],
+        "insufficient": locale.t["product"]["req_insufficient"],
+        "challenged": locale.t["product"]["req_challenged"],
+    }
+    reviews = store.read_req_reviews(slug)
+    review = max(reviews, key=lambda item: item.reviewed_at, default=None)
+    req = None
+    if review:
+        req = {
+            "level": locale.t["product"]["req_initial"] if review.level == "initial" else locale.t["product"]["req_full"],
+            "signal": review.signal_level,
+            "verdict": review.verdict,
+            "next_validation": review.next_validation,
+            "reviewed_at": local_day(review.reviewed_at),
+            "gates": [
+                {
+                    "name": gate_labels[gate.gate],
+                    "status": gate_statuses[gate.status],
+                    "reason": gate.reason,
+                    "evidence": [evidence_by_id[eid] for eid in gate.evidence_ids if eid in evidence_by_id],
+                }
+                for gate in review.gates
+            ],
+        }
+
+    supply_labels = {
+        "not_found_in_covered_sources": locale.t["product"]["supply_not_found"],
+        "emerging": locale.t["product"]["supply_emerging"],
+        "established": locale.t["product"]["supply_established"],
+    }
+    demand_labels = {
+        "unknown": locale.t["product"]["demand_unknown"],
+        "early_signal": locale.t["product"]["demand_early"],
+        "validated_signal": locale.t["product"]["demand_validated"],
+    }
+    observations = store.read_market_observations(slug)
+    # 同一市场每天可复查；详情只展示每个市场最新一次结论。
+    latest_by_market: dict[str, Any] = {}
+    for observation in observations:
+        previous = latest_by_market.get(observation.market)
+        if previous is None or observation.observed_at > previous.observed_at:
+            latest_by_market[observation.market] = observation
+    market_rows = []
+    for observation in sorted(latest_by_market.values(), key=lambda item: (item.ecosystem, item.market)):
+        market_rows.append({
+            "market": observation.market,
+            "ecosystem": locale.t["product"]["ecosystem_zh"] if observation.ecosystem == "zh" else locale.t["product"]["ecosystem_en"],
+            "supply": supply_labels[observation.supply_status],
+            "demand": demand_labels[observation.demand_status],
+            "coverage": observation.coverage,
+            "observed_at": local_day(observation.observed_at),
+            "evidence": [evidence_by_id[eid] for eid in observation.evidence_ids if eid in evidence_by_id],
+        })
+
+    # 只在相反生态均存在明确市场快照时标记跨国机会；可访问性从不作为本地供给。
+    latest_by_ecosystem: dict[str, Any] = {}
+    for observation in observations:
+        previous = latest_by_ecosystem.get(observation.ecosystem)
+        if previous is None or observation.observed_at > previous.observed_at:
+            latest_by_ecosystem[observation.ecosystem] = observation
+    zh = latest_by_ecosystem.get("zh")
+    en = latest_by_ecosystem.get("en")
+    cross_market = bool(
+        zh and en and (
+            (zh.supply_status == "not_found_in_covered_sources" and en.supply_status in {"emerging", "established"})
+            or (en.supply_status == "not_found_in_covered_sources" and zh.supply_status in {"emerging", "established"})
+        )
+    )
+    return {
+        "req": req,
+        "evidence": evidence_rows,
+        "markets": market_rows,
+        "cross_market": cross_market,
+        "cross_market_label": locale.t["product"]["cross_market"],
+        "markets_pending": not market_rows,
+    }
+
+
 def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     """组装某个语种的整站数据。
 
@@ -531,6 +722,21 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         # 目录页不该只是一排产品名：在决定点上先把「钱从哪来」露出来。
         # 缺分析时诚实留空，不用泛化文案把未知伪装成洞见。
         view["money_brief"] = _strip_md(analysis.money, 110) if analysis and analysis.money else ""
+        view["opportunity_rank"] = _opportunity_rank(view)
+        view.update(_research_view(store, view["slug"], locale))
+
+    # 发现日期是事件时间而非热度或公开发布时间。旧档案没有事件时才退回
+    # 到历史记录日期，避免因缺失迁移数据让机会库完全不可筛。
+    discovery_days: dict[str, str] = {}
+    for event_day_item in store.event_days():
+        for event in store.read_events(event_day_item):
+            if event.event_type == EVENT_FIRST_DISCOVERED:
+                previous = discovery_days.get(event.project_slug)
+                day_text = local_day(event.discovered_at)
+                if not previous or day_text < previous:
+                    discovery_days[event.project_slug] = day_text
+    for view in views:
+        view["discovered_at"] = discovery_days.get(view["slug"], view["first_seen"])
         form_counts[form_key] = form_counts.get(form_key, 0) + 1
 
     early = [v for v in views if v["stage_key"] == STAGE_EARLY]
@@ -549,11 +755,13 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     # 首页只回答今天：证据案例优先用当日判断点到的产品。
     fresh_picks = _evidence_picks(analysed_picks, reports[0] if reports else None)
     used = {item["slug"] for item in fresh_picks}
-    established = sorted(
-        (item for item in analysed_picks if item["slug"] not in used),
-        key=lambda item: _pick_sort_key(item, emerging=False),
+    more_opportunities = sorted(
+        (
+            item for item in analysed_picks
+            if item["slug"] not in used and item["stage_key"] == STAGE_EARLY
+        ),
+        key=lambda item: _pick_sort_key(item, emerging=True),
     )
-    long_term_picks = established[:5]
 
     # 2. 值得留意：进了观察名单但还没展开分析的
     notables = sorted(
@@ -582,6 +790,20 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         for key in CATEGORIES
         if counts.get(key)
     ]
+    project_types = _facet([view["project_type"] for view in views])
+    industries = _facet([tag for view in views for tag in view["industries"]])
+    jobs = _facet([tag for view in views for tag in view["jobs"]])
+    regions = _facet([tag for view in views for tag in view["regions"]])
+    req_signals = _facet([view["req"]["signal"] for view in views if view["req"]])
+    opportunity_filters = {
+        "project_types": project_types,
+        "industries": industries,
+        "jobs": jobs,
+        "regions": regions,
+        "req_signals": req_signals,
+        "open_source": sum(1 for view in views if view["open_source"]),
+        "cross_market": sum(1 for view in views if view["cross_market"]),
+    }
 
     # 5. 可借鉴索引：从所有产品的 analysis.takeaway_topics 抽出来，
     # 按三个主题（产品逻辑 / 话术 / 定价结构）分桶。每条引用来源产品 + 链接。
@@ -606,9 +828,57 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
                 "text": text,
             })
 
-    # 6. 创业者能拿走的：定价结构优先，没有再退回产品逻辑。
-    takeaway_pool = takeaways_by_topic["pricing"] or takeaways_by_topic["product"]
+    # 6. 创业者能拿走的：首页不再从成熟大产品抽一条「打法」。
+    # 定价结构优先，没有再退回产品逻辑；两者都只取还在形成的早期机会。
+    emerging_takeaways = [
+        item
+        for item in (takeaways_by_topic["pricing"] or takeaways_by_topic["product"])
+        if view_by_slug[item["slug"]]["stage_key"] == STAGE_EARLY
+    ]
+    takeaway_pool = emerging_takeaways
     today_takeaway = next(iter(_daily_rotation(takeaway_pool, latest_day, limit=1)), None)
+
+    # 首页只消费事件，不再从旧日报或历史分析中轮换案例。当天的首次发现是主体；
+    # 旧项目只能以“重要更新”出现，且卡片只陈述新事实和受影响判断。
+    event_days = store.event_days()
+    event_day = event_days[-1].isoformat() if event_days else ""
+    event_rows = store.read_events(event_days[-1]) if event_days else []
+    first_discoveries: list[dict[str, Any]] = []
+    important_updates: list[dict[str, Any]] = []
+    for event in sorted(event_rows, key=lambda item: item.discovered_at, reverse=True):
+        view = view_by_slug.get(event.project_slug)
+        if view is None:
+            continue
+        item = _event_view(event, view, store, locale)
+        if event.event_type == EVENT_FIRST_DISCOVERED:
+            first_discoveries.append(item)
+        else:
+            important_updates.append(item)
+
+    # 当日市场摘要只从当天的事件流归纳，不用旧项目的规模或排行榜替代新变化。
+    # “首次发现涉及”是观察范围，不暗示这是该行业全球第一次使用 AI。
+    market_summary: list[dict[str, Any]] = []
+    industry_counts: dict[str, int] = {}
+    for item in first_discoveries:
+        for industry in item["industries"]:
+            industry_counts[industry] = industry_counts.get(industry, 0) + 1
+    if industry_counts:
+        industries_text = "、".join(
+            name for name, _ in sorted(industry_counts.items(), key=lambda pair: (-pair[1], pair[0]))[:5]
+        )
+        market_summary.append({
+            "kind": "industry",
+            "title": locale.t["home"]["market_industry"],
+            "text": locale.t["home"]["market_industry_text"].format(industries=industries_text),
+        })
+    cross_items = [item for item in first_discoveries + important_updates if item["cross_market"]]
+    if cross_items:
+        names = "、".join(item["name"] for item in cross_items[:5])
+        market_summary.append({
+            "kind": "cross_market",
+            "title": locale.t["home"]["market_cross"],
+            "text": locale.t["home"]["market_cross_text"].format(products=names),
+        })
 
 
     # 读完一份分析之后没有下一步，旅程就断在那里了。
@@ -646,14 +916,20 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "analysis_by_slug": by_slug,
         "reports": reports,
         "report_months": report_months,
+        # 保留下面两个上下文值，直到产品详情与方法库迁移完成；首页模板不再使用。
         "fresh_picks": fresh_picks,
-        "long_term_picks": long_term_picks,
+        "more_opportunities": more_opportunities[:5],
+        "event_day": event_day,
+        "first_discoveries": first_discoveries,
+        "important_updates": important_updates,
+        "market_summary": market_summary,
         "notables": notables,
         "movers": movers,
         "categories": categories,
+        "opportunity_filters": opportunity_filters,
         "form_keys": FORM_KEYS,
         "form_counts": form_counts,
-        "products": sorted(views, key=lambda v: -v["weight"]),
+        "products": sorted(views, key=lambda v: (-v["opportunity_rank"], -v["weight"], v["name"])),
         "takeaways_by_topic": takeaways_by_topic,
         "today_takeaway": today_takeaway,
     }
@@ -662,7 +938,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
 def _is_publishable(product: Product) -> bool:
     """公开站的最低门槛；内部状态和半成品仍完整保留在 data/pool。"""
     return (
-        product.status != STATUS_REJECTED
+        product.status not in {STATUS_REJECTED, STATUS_MARKET_CONTEXT}
+        and not _is_settled_general_assistant(product)
         and bool(product.summary_zh.strip())
         and bool(product.inspiration.strip())
     )
@@ -871,6 +1148,12 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         # 计数和归组一律用键 —— 用显示文字归组，换个语种就分不到一起
         "category": locale.category(product.category),
         "category_key": product.category,
+        "project_type": locale.project_type(product.project_type),
+        "project_type_key": product.project_type,
+        "industries": list(product.industries_en if locale.key == "en" and product.industries_en else product.industries),
+        "jobs": list(product.jobs_en if locale.key == "en" and product.jobs_en else product.jobs),
+        "regions": list(product.regions_en if locale.key == "en" and product.regions_en else product.regions),
+        "open_source": product.open_source,
         "stage": locale.stage(stage),
         "stage_key": stage,
         "badges": _metric_badges(product, locale),

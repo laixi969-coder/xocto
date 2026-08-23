@@ -14,6 +14,7 @@ from .collect import CollectReport, collect, load_config, prune, rebuild
 from .health import check as health_check, format_report as health_report, has_dead
 from .models import (
     STATUS_ANALYZED,
+    STATUS_MARKET_CONTEXT,
     STATUS_PENDING_FILTER,
     STATUS_QUEUED,
     STATUS_WATCHING,
@@ -24,6 +25,7 @@ from .store import Store
 STATUS_LABELS = {
     STATUS_PENDING_FILTER: "待过滤",
     "rejected": "已淘汰",
+    STATUS_MARKET_CONTEXT: "市场背景",
     STATUS_QUEUED: "待分析",
     STATUS_WATCHING: "观察中",
     STATUS_ANALYZED: "已分析",
@@ -126,6 +128,44 @@ def cmd_brief(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_market(args: argparse.Namespace) -> int:
+    from .brief import BriefError
+    from .market import run
+
+    store = Store()
+    store.ensure_dirs()
+    day = _parse_day(args.date) or today()
+    try:
+        report = run(store, day=day)
+    except BriefError as exc:
+        print(f"\n跨市场核验没有完成：\n  {exc}\n", file=sys.stderr)
+        return 2
+    if report.skipped:
+        print(f"\n  {day.isoformat()} 没有待核验的中英文市场记录\n")
+    else:
+        print(f"\n  已完成 {day.isoformat()} 的跨市场核验：{report.candidates} 个项目，{report.observations} 条市场观察\n")
+    return 0
+
+
+def cmd_req(args: argparse.Namespace) -> int:
+    from .brief import BriefError
+    from .req_review import run
+
+    store = Store()
+    store.ensure_dirs()
+    day = _parse_day(args.date) or today()
+    try:
+        report = run(store, day=day)
+    except BriefError as exc:
+        print(f"\n完整 /req 判断没有完成：\n  {exc}\n", file=sys.stderr)
+        return 2
+    if report.skipped:
+        print(f"\n  {day.isoformat()} 没有达到完整 /req 判断门槛的项目\n")
+    else:
+        print(f"\n  已完成 {day.isoformat()} 的完整 /req 判断：{report.reviews} 个项目\n")
+    return 0
+
+
 def cmd_rebuild(args: argparse.Namespace) -> int:
     store = Store()
     print("\n从原始存档重建产品池")
@@ -139,6 +179,9 @@ def cmd_rebuild(args: argparse.Namespace) -> int:
 
 
 def cmd_status(args: argparse.Namespace) -> int:
+    # 与建站用同一发布门槛；否则历史里的成熟通用助手会被误报成“站上产品”。
+    from .site import _is_publishable, _is_settled_general_assistant
+
     store = Store()
     store.ensure_dirs()
 
@@ -163,13 +206,14 @@ def cmd_status(args: argparse.Namespace) -> int:
         if counts.get(status):
             print(f"    {label:<8} {counts[status]}")
 
-    public_products = [
-        p for p in products
-        if p.status != "rejected" and p.summary_zh.strip() and p.inspiration.strip()
-    ]
+    public_products = [p for p in products if _is_publishable(p)]
     incomplete = sum(
         1 for p in products
-        if p.status != "rejected" and (not p.summary_zh.strip() or not p.inspiration.strip())
+        if (
+            p.status not in {"rejected", STATUS_MARKET_CONTEXT}
+            and not _is_settled_general_assistant(p)
+            and (not p.summary_zh.strip() or not p.inspiration.strip())
+        )
     )
     print(f"  站上产品      {len(public_products)} 个（另有 {incomplete} 个半成品暂不发布）")
 
@@ -259,6 +303,14 @@ def build_parser() -> argparse.ArgumentParser:
     p_brief.add_argument("--date", help="指定日报日期 YYYY-MM-DD，默认今天")
     p_brief.add_argument("--force", action="store_true", help="当天日报已存在时仍重新生成")
     p_brief.set_defaults(func=cmd_brief)
+
+    p_market = sub.add_parser("market", help="核验当天保留项目的中英文市场供给")
+    p_market.add_argument("--date", help="指定日期 YYYY-MM-DD，默认今天")
+    p_market.set_defaults(func=cmd_market)
+
+    p_req = sub.add_parser("req", help="为高价值项目生成完整 /req 判断")
+    p_req.add_argument("--date", help="指定日期 YYYY-MM-DD，默认今天")
+    p_req.set_defaults(func=cmd_req)
 
     p_prune = sub.add_parser("prune", help="清掉过老的原始存档，控制仓库体积")
     p_prune.add_argument("--keep-days", type=int, default=30, help="保留最近几天，默认 30")

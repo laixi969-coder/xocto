@@ -31,6 +31,78 @@
         </div>
       </div>
 
+      {% if opportunity_filters.project_types %}
+      <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_type }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_type_aria }}" data-dim="projectType">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          {% for item in opportunity_filters.project_types %}
+          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if opportunity_filters.industries %}
+      <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_industry }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_industry_aria }}" data-dim="industry">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          {% for item in opportunity_filters.industries %}
+          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if opportunity_filters.jobs %}
+      <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_job }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_job_aria }}" data-dim="job">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          {% for item in opportunity_filters.jobs %}
+          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      {% if opportunity_filters.regions %}
+      <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_region }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_region_aria }}" data-dim="region">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          {% for item in opportunity_filters.regions %}
+          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_evidence }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_evidence_aria }}" data-dim="openSource">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          <button aria-pressed="false" data-val="true">{{ t.products.open_source }} <i class="num">{{ opportunity_filters.open_source }}</i></button>
+        </div>
+        <div class="filters filter-sub" role="group" aria-label="{{ t.products.f_cross_aria }}" data-dim="crossMarket">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          <button aria-pressed="false" data-val="true">{{ t.products.cross_market }} <i class="num">{{ opportunity_filters.cross_market }}</i></button>
+        </div>
+      </div>
+
+      {% if opportunity_filters.req_signals %}
+      <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_req }}</span>
+        <div class="filters" role="group" aria-label="{{ t.products.f_req_aria }}" data-dim="req">
+          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+          {% for item in opportunity_filters.req_signals %}
+          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
       <div class="filter-group">
         <span class="filter-k">{{ t.products.f_form }}</span>
         <div class="filters" role="group" aria-label="{{ t.products.f_form_aria }}" data-dim="form">
@@ -38,6 +110,14 @@
           {% for key in form_keys %}
           <button aria-pressed="false" data-val="{{ key }}">{{ locale.form(key) }} <i class="num">{{ form_counts[key] }}</i></button>
           {% endfor %}
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-k">{{ t.products.f_discovered }}</span>
+        <div class="date-range" aria-label="{{ t.products.f_discovered_aria }}">
+          <label>{{ t.products.date_from }} <input id="date-from" type="date"></label>
+          <label>{{ t.products.date_to }} <input id="date-to" type="date"></label>
         </div>
       </div>
 
@@ -62,7 +142,8 @@
       <div class="filter-group">
         <span class="filter-k">{{ t.products.f_sort }}</span>
         <div class="filters" role="group" aria-label="{{ t.products.f_sort_aria }}" data-dim="sort">
-          <button class="on" aria-pressed="true" data-val="weight">{{ t.products.sort_weight }}</button>
+          <button class="on" aria-pressed="true" data-val="opportunity">{{ t.products.sort_opportunity }}</button>
+          <button aria-pressed="false" data-val="weight">{{ t.products.sort_weight }}</button>
           <button aria-pressed="false" data-val="growth">{{ t.products.sort_growth }}</button>
           <button aria-pressed="false" data-val="recent">{{ t.products.sort_recent }}</button>
           <button aria-pressed="false" data-val="name">{{ t.products.sort_name }}</button>
@@ -74,8 +155,8 @@
       {% for p in products %}
       <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
          href="{{ root }}p/{{ p.slug }}.html"
-         data-category="{{ p.category }}" data-form="{{ p.form_key }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"
-         data-weight="{{ p.weight }}" data-growth="{{ p.growth if p.growth is not none else -99999 }}"
+         data-category="{{ p.category }}" data-project-type="{{ p.project_type }}" data-industry="{{ p.industries | join('||') }}" data-job="{{ p.jobs | join('||') }}" data-region="{{ p.regions | join('||') }}" data-open-source="{{ 'true' if p.open_source else '' }}" data-cross-market="{{ 'true' if p.cross_market else '' }}" data-req="{{ p.req.signal if p.req else '' }}" data-discovered="{{ p.discovered_at }}" data-form="{{ p.form_key }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"
+         data-opportunity="{{ p.opportunity_rank }}" data-weight="{{ p.weight }}" data-growth="{{ p.growth if p.growth is not none else -99999 }}"
          data-recent="{{ p.last_seen }}" data-name="{{ p.name }}">
         <div class="card-top">
           <h4>{{ p.name }}</h4>
@@ -88,13 +169,18 @@
           <p class="card-scale num">{{ p.scale }}</p>
           <div class="meta">
             {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
+            {% if p.project_type %}<span class="tag">{{ p.project_type }}</span>{% endif %}
             {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+            {% if p.cross_market %}<span class="tag sig">{{ t.products.cross_market }}</span>{% endif %}
           </div>
         {% else %}
           <p class="card-summary">{{ p.summary or t.products.no_summary }}</p>
           <div class="meta">
             {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
+            {% if p.project_type %}<span class="tag">{{ p.project_type }}</span>{% endif %}
             {% if p.category %}<span class="tag">{{ p.category }}</span>{% endif %}
+            {% for tag in p.industries[:1] %}<span class="tag">{{ tag }}</span>{% endfor %}
+            {% if p.cross_market %}<span class="tag sig">{{ t.products.cross_market }}</span>{% endif %}
             {% for b in p.badges[:1] %}<span class="tag sig">{{ b }}</span>{% endfor %}
             {% if p.status in ('analyzed', 'watching') %}<span class="tag">{{ p.status_label }}</span>{% endif %}
           </div>
@@ -127,8 +213,8 @@
     var count = document.getElementById('count');
     var title = document.getElementById('ctx-title');
     var note = document.getElementById('ctx-note');
-    var active = { category: '', form: '', stage: '', status: '' };
-    var sort = 'weight';
+    var active = { category: '', projectType: '', industry: '', job: '', region: '', openSource: '', crossMarket: '', req: '', form: '', stage: '', status: '', dateFrom: '', dateTo: '' };
+    var sort = 'opportunity';
 
     // 文案从语言表注入。tojson 会把引号和尖括号转义好，
     // 直接插字符串会被 HTML 转义器改成实体，在 JS 里就是一串乱码
@@ -163,6 +249,11 @@
     function label() {
       var parts = [];
       if (active.category) parts.push(active.category);
+      if (active.projectType) parts.push(active.projectType);
+      if (active.industry) parts.push(active.industry);
+      if (active.job) parts.push(active.job);
+      if (active.region) parts.push(active.region);
+      if (active.req) parts.push(active.req);
       if (LABELS.form[active.form]) parts.push(LABELS.form[active.form]);
       if (LABELS.stage[active.stage]) parts.push(LABELS.stage[active.stage]);
       if (LABELS.status[active.status]) parts.push(LABELS.status[active.status]);
@@ -174,9 +265,18 @@
       cards.forEach(function (card) {
         var ok =
           (!active.category || card.dataset.category === active.category) &&
+          (!active.projectType || card.dataset.projectType === active.projectType) &&
+          (!active.industry || card.dataset.industry.split('||').indexOf(active.industry) >= 0) &&
+          (!active.job || card.dataset.job.split('||').indexOf(active.job) >= 0) &&
+          (!active.region || card.dataset.region.split('||').indexOf(active.region) >= 0) &&
+          (!active.openSource || card.dataset.openSource === active.openSource) &&
+          (!active.crossMarket || card.dataset.crossMarket === active.crossMarket) &&
+          (!active.req || card.dataset.req === active.req) &&
           (!active.form || card.dataset.form === active.form) &&
           (!active.stage || card.dataset.stage === active.stage) &&
-          (!active.status || card.dataset.status === active.status);
+          (!active.status || card.dataset.status === active.status) &&
+          (!active.dateFrom || card.dataset.discovered >= active.dateFrom) &&
+          (!active.dateTo || card.dataset.discovered <= active.dateTo);
         card.hidden = !ok;
         if (ok) shown++;
       });
@@ -195,7 +295,7 @@
       visible.sort(function (a, b) {
         if (sort === 'name') return a.dataset.name.localeCompare(b.dataset.name, SORT_LOCALE);
         if (sort === 'recent') return b.dataset.recent.localeCompare(a.dataset.recent);
-        var key = sort === 'growth' ? 'growth' : 'weight';
+        var key = sort === 'growth' ? 'growth' : sort;
         return parseFloat(b.dataset[key]) - parseFloat(a.dataset[key]);
       });
       visible.forEach(function (c) { grid.appendChild(c); });
@@ -225,11 +325,13 @@
     });
 
     document.getElementById('reset').addEventListener('click', function () {
-      active = { category: '', form: '', stage: '', status: '' };
+      active = { category: '', projectType: '', industry: '', job: '', region: '', openSource: '', crossMarket: '', req: '', form: '', stage: '', status: '', dateFrom: '', dateTo: '' };
       document.querySelectorAll('.filters').forEach(function (g) {
         if (g.dataset.dim === 'sort') return;
         mark(g, '');
       });
+      document.getElementById('date-from').value = '';
+      document.getElementById('date-to').value = '';
       apply();
       syncHash();
     });
@@ -239,14 +341,14 @@
     // 全部（3 个变 19 个），把链接发给别人看到的也是另一个结果。
     // 用 replaceState 不用 pushState：筛选是调参不是导航，
     // 每点一次塞一条历史记录的话，想离开这页得连按十几次后退。
-    var DIMS = { c: 'category', f: 'form', s: 'stage', v: 'status' };
+    var DIMS = { c: 'category', t: 'projectType', i: 'industry', j: 'job', r: 'region', x: 'openSource', m: 'crossMarket', q: 'req', f: 'form', s: 'stage', v: 'status', d: 'dateFrom', e: 'dateTo' };
 
     function syncHash() {
       var parts = [];
       Object.keys(DIMS).forEach(function (k) {
         if (active[DIMS[k]]) parts.push(k + '=' + encodeURIComponent(active[DIMS[k]]));
       });
-      if (sort !== 'weight') parts.push('o=' + encodeURIComponent(sort));
+      if (sort !== 'opportunity') parts.push('o=' + encodeURIComponent(sort));
       var url = parts.length ? location.pathname + '#' + parts.join('&') : location.pathname;
       history.replaceState(null, '', url);
     }
@@ -283,6 +385,11 @@
       Object.keys(DIMS).forEach(function (k) {
         var dim = DIMS[k];
         var val = parsed[k] || '';
+        if (dim === 'dateFrom' || dim === 'dateTo') {
+          active[dim] = /^\d{4}-\d{2}-\d{2}$/.test(val) ? val : '';
+          document.getElementById(dim === 'dateFrom' ? 'date-from' : 'date-to').value = active[dim];
+          return;
+        }
         var group = document.querySelector('.filters[data-dim="' + dim + '"]');
         // hash 里给了不存在的值就当没给，不要静默筛出 0 个结果
         if (val && !mark(group, val)) { mark(group, ''); val = ''; }
@@ -291,8 +398,8 @@
       });
 
       var sortGroup = document.querySelector('.filters[data-dim="sort"]');
-      var wantSort = parsed.o || 'weight';
-      if (!mark(sortGroup, wantSort)) { mark(sortGroup, 'weight'); wantSort = 'weight'; }
+      var wantSort = parsed.o || 'opportunity';
+      if (!mark(sortGroup, wantSort)) { mark(sortGroup, 'opportunity'); wantSort = 'opportunity'; }
       sort = wantSort;
 
       reorder();
@@ -300,6 +407,13 @@
     }
 
     fromHash();
+    ['date-from', 'date-to'].forEach(function (id) {
+      document.getElementById(id).addEventListener('change', function (event) {
+        active[id === 'date-from' ? 'dateFrom' : 'dateTo'] = event.target.value || '';
+        apply();
+        syncHash();
+      });
+    });
     window.addEventListener('hashchange', fromHash);
   })();
 </script>

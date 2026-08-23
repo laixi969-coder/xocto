@@ -21,6 +21,8 @@ class DailyWorkflowTests(unittest.TestCase):
         self.assertIn("GITHUB_TOKEN: ${{ github.token }}", text)
         self.assertIn("uv run xocto health", text)
         self.assertIn("uv run xocto brief", text)
+        self.assertIn("uv run xocto market", text)
+        self.assertIn("uv run xocto req", text)
 
 
 if __name__ == "__main__":

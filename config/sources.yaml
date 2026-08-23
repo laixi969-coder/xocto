@@ -9,6 +9,26 @@ http:
 
 sources:
 
+  # V2EX 的 AI SaaS 与开发者发布帖：补上中文生态中尚未进入榜单、
+  # 但已有公开产品链接和早期讨论的项目。帖子只作独立证据，产品官网用于去重。
+  v2ex:
+    enabled: true
+    lookback_hours: 96
+    nodes:
+      - name: "aisaas"
+        strict: false
+      - name: "programmer"
+        strict: true
+
+  # ModelScope：中文开源生态的早期模型与工具采用信号。基础模型仍需经过
+  # 编辑层判断，不能因为下载量或热度自动进入机会库。
+  modelscope:
+    enabled: true
+    lookback_hours: 120
+    limit: 100
+    min_likes: 3
+    min_downloads: 25
+
   # Product Hunt 的 AI 分类 feed。每天新品，是最主要的"新应用"来源。
   # 噪音大，但胜在全、快。
   producthunt:
@@ -54,6 +74,32 @@ sources:
       - tags: "story"
         query: "MCP"
         min_points: 20
+      # 行业原生切口：与 GitHub 的关键词发现并行。这里的讨论、发布和创始人
+      # 自荐常会比通用 AI 产品平台更早暴露具体工作被重新产品化的信号。
+      - tags: "story"
+        query: "AI logistics"
+        min_points: 8
+      - tags: "story"
+        query: "AI legal"
+        min_points: 8
+      - tags: "story"
+        query: "AI accounting"
+        min_points: 8
+      - tags: "story"
+        query: "AI construction"
+        min_points: 8
+      - tags: "story"
+        query: "AI manufacturing"
+        min_points: 8
+      - tags: "story"
+        query: "AI healthcare"
+        min_points: 8
+      - tags: "story"
+        query: "AI insurance"
+        min_points: 8
+      - tags: "story"
+        query: "AI agriculture"
+        min_points: 8
 
   # GitHub 新建仓库里涨星快的。开源项目往往比闭源产品早半年
   # 暴露出一个方向能不能成。每日 Actions 用短期 GITHUB_TOKEN 扩大搜索面；
@@ -76,6 +122,19 @@ sources:
       - "ai healthcare"
       - "ai legal"
       - "ai sales"
+      # 不只盯着 agent / coding：真正的 AI+ 机会会先在行业工作流里露头。
+      # 每条查询都足够具体，避免 “AI for business” 这种泛词又把通用工具捞回来。
+      - "ai accounting"
+      - "ai insurance"
+      - "ai logistics"
+      - "ai construction"
+      - "ai real estate"
+      - "ai manufacturing"
+      - "ai procurement"
+      - "ai security"
+      - "ai agriculture"
+      - "ai energy"
+      - "ai government"
     # 第二条发现链路：专题不会受项目名称和营销文案影响。新专题在发现漏口后加进来。
     topics:
       - "dsh"

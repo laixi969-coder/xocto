@@ -158,6 +158,9 @@ class Sighting:
 # 之后的流转由 Claude Code 在过滤和分析阶段写入。
 STATUS_PENDING_FILTER = "pending_filter"  # 刚采集，还没过滤
 STATUS_REJECTED = "rejected"  # 过滤掉了
+# 已成规模的通用入口仍值得用来解释市场变化，但它们不是创业机会。
+# 单列这个状态，避免「没公开」被误读成「被淘汰」，也避免它们挤进机会库。
+STATUS_MARKET_CONTEXT = "market_context"
 STATUS_QUEUED = "queued"  # 通过过滤，等待分析
 STATUS_WATCHING = "watching"  # 第三档：存疑保留，只记录不展开
 STATUS_ANALYZED = "analyzed"  # 分析完成
@@ -165,6 +168,7 @@ STATUS_ANALYZED = "analyzed"  # 分析完成
 ALL_STATUSES = (
     STATUS_PENDING_FILTER,
     STATUS_REJECTED,
+    STATUS_MARKET_CONTEXT,
     STATUS_QUEUED,
     STATUS_WATCHING,
     STATUS_ANALYZED,
@@ -182,9 +186,277 @@ CATEGORIES = (
     "基础层",  # 给 agent 和模型用的：网关、沙箱、记忆、可观测性、算力
 )
 
+# 项目类型与赛道是两条独立轴：开源代码、已有业务的 AI 改造和新应用都可以
+# 同时属于同一个行业/具体工作。细分行业、工作和地区以自由标签保存，避免每次
+# 出现新领域都要改一套枚举。
+PROJECT_NEW_APPLICATION = "new_application"
+PROJECT_OPEN_SOURCE = "open_source"
+PROJECT_AI_TRANSFORMATION = "ai_transformation"
+PROJECT_TYPES = (
+    PROJECT_NEW_APPLICATION,
+    PROJECT_OPEN_SOURCE,
+    PROJECT_AI_TRANSFORMATION,
+)
+
 # 阶段。替代"数据来源"这个维度 —— 用户关心的是成熟度，不是我们从哪抓的。
 STAGE_EARLY = "刚冒头"  # 还没有可验证的数据，判断只能靠推理需求真伪
 STAGE_PROVEN = "已验证"  # 有真实流量/月活，可以看势
+
+# 机会流事件。项目是稳定实体；事件才是“今天发生了什么”。
+EVENT_FIRST_DISCOVERED = "first_discovered"
+EVENT_MATERIAL_UPDATE = "material_update"
+EVENT_MARKET_CHANGE = "market_change"
+EVENT_REQ_CHANGE = "req_change"
+EVENT_TYPES = (
+    EVENT_FIRST_DISCOVERED,
+    EVENT_MATERIAL_UPDATE,
+    EVENT_MARKET_CHANGE,
+    EVENT_REQ_CHANGE,
+)
+
+# `/req` 的判断结论与四道闸门。结论与展示用信号等级分开：前者忠于
+# 真需求框架，后者让读者一眼知道证据处在什么阶段。
+REQ_TRUE_DEMAND = "true_demand"
+REQ_PSEUDO_DEMAND = "pseudo_demand"
+REQ_NEEDS_VALIDATION = "needs_validation"
+REQ_VERDICTS = (REQ_TRUE_DEMAND, REQ_PSEUDO_DEMAND, REQ_NEEDS_VALIDATION)
+REQ_GATE_VALUE = "value"
+REQ_GATE_CONSENSUS = "consensus"
+REQ_GATE_MODEL = "model"
+REQ_GATE_TRUTH = "truth"
+REQ_GATES = (REQ_GATE_VALUE, REQ_GATE_CONSENSUS, REQ_GATE_MODEL, REQ_GATE_TRUTH)
+REQ_GATE_SUPPORTED = "supported"
+REQ_GATE_INSUFFICIENT = "insufficient"
+REQ_GATE_CHALLENGED = "challenged"
+REQ_GATE_STATUSES = (REQ_GATE_SUPPORTED, REQ_GATE_INSUFFICIENT, REQ_GATE_CHALLENGED)
+
+SUPPLY_NOT_FOUND = "not_found_in_covered_sources"
+SUPPLY_EMERGING = "emerging"
+SUPPLY_ESTABLISHED = "established"
+SUPPLY_STATUSES = (SUPPLY_NOT_FOUND, SUPPLY_EMERGING, SUPPLY_ESTABLISHED)
+DEMAND_UNKNOWN = "unknown"
+DEMAND_EARLY_SIGNAL = "early_signal"
+DEMAND_VALIDATED_SIGNAL = "validated_signal"
+DEMAND_EVIDENCE_STATUSES = (DEMAND_UNKNOWN, DEMAND_EARLY_SIGNAL, DEMAND_VALIDATED_SIGNAL)
+
+
+@dataclass(frozen=True, slots=True)
+class Evidence:
+    """支持公开判断的一条可核验事实。
+
+    `source_kind` 描述证据性质而非内部采集渠道，例如 product、pricing、
+    open_source、adoption、market_comparison。这样可对外展示证据，不泄漏抓取策略。
+    """
+
+    id: str
+    project_slug: str
+    url: str
+    title: str
+    published_at: str
+    collected_at: str
+    source_kind: str
+    tier: str  # first_party / behavioural / independent
+    fact: str = ""
+
+    def to_dict(self) -> dict[str, str]:
+        return {
+            "id": self.id,
+            "project_slug": self.project_slug,
+            "url": self.url,
+            "title": self.title,
+            "published_at": self.published_at,
+            "collected_at": self.collected_at,
+            "source_kind": self.source_kind,
+            "tier": self.tier,
+            "fact": self.fact,
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "Evidence":
+        return cls(
+            id=str(data["id"]),
+            project_slug=str(data["project_slug"]),
+            url=str(data.get("url") or ""),
+            title=str(data.get("title") or ""),
+            published_at=str(data.get("published_at") or ""),
+            collected_at=str(data.get("collected_at") or ""),
+            source_kind=str(data.get("source_kind") or "product"),
+            tier=str(data.get("tier") or "first_party"),
+            fact=str(data.get("fact") or ""),
+        )
+
+
+@dataclass(frozen=True, slots=True)
+class DiscoveryEvent:
+    """一次可在首页出现的新增发现或实质更新。"""
+
+    id: str
+    project_slug: str
+    event_type: str
+    occurred_at: str
+    discovered_at: str
+    signals: tuple[str, ...] = ()
+    summary: str = ""
+    evidence_ids: tuple[str, ...] = ()
+    homepage: bool = True
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "id": self.id,
+            "project_slug": self.project_slug,
+            "event_type": self.event_type,
+            "occurred_at": self.occurred_at,
+            "discovered_at": self.discovered_at,
+            "signals": list(self.signals),
+            "summary": self.summary,
+            "evidence_ids": list(self.evidence_ids),
+            "homepage": self.homepage,
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "DiscoveryEvent":
+        event_type = str(data["event_type"])
+        if event_type not in EVENT_TYPES:
+            raise ValueError(f"未知事件类型：{event_type}")
+        return cls(
+            id=str(data["id"]),
+            project_slug=str(data["project_slug"]),
+            event_type=event_type,
+            occurred_at=str(data.get("occurred_at") or ""),
+            discovered_at=str(data.get("discovered_at") or ""),
+            signals=tuple(str(value) for value in (data.get("signals") or [])),
+            summary=str(data.get("summary") or ""),
+            evidence_ids=tuple(str(value) for value in (data.get("evidence_ids") or [])),
+            homepage=bool(data.get("homepage", True)),
+        )
+
+
+@dataclass(frozen=True, slots=True)
+class MarketObservation:
+    """某项目在一个国家/市场中的供给与需求证据快照。"""
+
+    project_slug: str
+    market: str
+    ecosystem: str  # zh / en
+    observed_at: str
+    supply_status: str
+    demand_status: str
+    coverage: str = ""
+    evidence_ids: tuple[str, ...] = ()
+
+    def __post_init__(self) -> None:
+        if self.supply_status not in SUPPLY_STATUSES:
+            raise ValueError(f"未知本地供给状态：{self.supply_status}")
+        if self.demand_status not in DEMAND_EVIDENCE_STATUSES:
+            raise ValueError(f"未知需求证据状态：{self.demand_status}")
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "project_slug": self.project_slug,
+            "market": self.market,
+            "ecosystem": self.ecosystem,
+            "observed_at": self.observed_at,
+            "supply_status": self.supply_status,
+            "demand_status": self.demand_status,
+            "coverage": self.coverage,
+            "evidence_ids": list(self.evidence_ids),
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "MarketObservation":
+        return cls(
+            project_slug=str(data["project_slug"]),
+            market=str(data["market"]),
+            ecosystem=str(data["ecosystem"]),
+            observed_at=str(data["observed_at"]),
+            supply_status=str(data["supply_status"]),
+            demand_status=str(data["demand_status"]),
+            coverage=str(data.get("coverage") or ""),
+            evidence_ids=tuple(str(value) for value in (data.get("evidence_ids") or [])),
+        )
+
+
+@dataclass(frozen=True, slots=True)
+class ReqGateReview:
+    """`/req` 单道闸门的可追溯结论。"""
+
+    gate: str
+    status: str
+    reason: str
+    evidence_ids: tuple[str, ...] = ()
+
+    def __post_init__(self) -> None:
+        if self.gate not in REQ_GATES:
+            raise ValueError(f"未知 `/req` 闸门：{self.gate}")
+        if self.status not in REQ_GATE_STATUSES:
+            raise ValueError(f"未知 `/req` 闸门状态：{self.status}")
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "gate": self.gate,
+            "status": self.status,
+            "reason": self.reason,
+            "evidence_ids": list(self.evidence_ids),
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "ReqGateReview":
+        return cls(
+            gate=str(data["gate"]),
+            status=str(data["status"]),
+            reason=str(data.get("reason") or ""),
+            evidence_ids=tuple(str(value) for value in (data.get("evidence_ids") or [])),
+        )
+
+
+@dataclass(frozen=True, slots=True)
+class ReqReview:
+    """一次完整或初步的 `/req` 判断版本。"""
+
+    id: str
+    project_slug: str
+    level: str  # initial / full
+    reviewed_at: str
+    verdict: str
+    signal_level: str
+    gates: tuple[ReqGateReview, ...]
+    next_validation: str = ""
+    market: str = ""
+
+    def __post_init__(self) -> None:
+        if self.level not in {"initial", "full"}:
+            raise ValueError(f"未知 `/req` 判断层级：{self.level}")
+        if self.verdict not in REQ_VERDICTS:
+            raise ValueError(f"未知 `/req` 结论：{self.verdict}")
+        if tuple(gate.gate for gate in self.gates) != REQ_GATES:
+            raise ValueError("`/req` 判断必须按价值、共识、模式、求真四道闸门完整记录")
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "id": self.id,
+            "project_slug": self.project_slug,
+            "level": self.level,
+            "reviewed_at": self.reviewed_at,
+            "verdict": self.verdict,
+            "signal_level": self.signal_level,
+            "gates": [gate.to_dict() for gate in self.gates],
+            "next_validation": self.next_validation,
+            "market": self.market,
+        }
+
+    @classmethod
+    def from_dict(cls, data: dict[str, Any]) -> "ReqReview":
+        return cls(
+            id=str(data["id"]),
+            project_slug=str(data["project_slug"]),
+            level=str(data["level"]),
+            reviewed_at=str(data["reviewed_at"]),
+            verdict=str(data["verdict"]),
+            signal_level=str(data.get("signal_level") or "待验证"),
+            gates=tuple(ReqGateReview.from_dict(item) for item in (data.get("gates") or [])),
+            next_validation=str(data.get("next_validation") or ""),
+            market=str(data.get("market") or ""),
+        )
 
 
 @dataclass(frozen=True, slots=True)
@@ -221,6 +493,14 @@ class Product:
     # 来自专题、官方组织或全局突破通道的重大项目。它们必须进入日报复核，
     # 不能因普通候选噪音而被静默淘汰。
     priority_review: bool = False
+    project_type: str = ""
+    industries: tuple[str, ...] = ()
+    industries_en: tuple[str, ...] = ()
+    jobs: tuple[str, ...] = ()
+    jobs_en: tuple[str, ...] = ()
+    regions: tuple[str, ...] = ()
+    regions_en: tuple[str, ...] = ()
+    open_source: bool = False
     notes: str = ""  # 人或 Claude 写的自由笔记，机器不覆盖
 
     @property
@@ -275,5 +555,7 @@ class Product:
             status=STATUS_PENDING_FILTER,
             sightings=(sighting,),
             builder=item.extra.get("builder", ""),
+            project_type=(PROJECT_OPEN_SOURCE if item.source in {"github", "huggingface", "modelscope"} else PROJECT_NEW_APPLICATION),
+            open_source=item.source in {"github", "huggingface", "modelscope"},
             priority_review=bool(item.extra.get("priority_review")),
         )

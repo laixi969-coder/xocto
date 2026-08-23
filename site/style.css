@@ -219,6 +219,10 @@ button { font: inherit; }
 .filter-group { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 18px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--line-soft); }
 .filter-k { color: var(--ink-faint); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .filters { display: flex; flex-wrap: wrap; gap: 7px; }
+.filter-sub { grid-column: 2; margin-top: 7px; }
+.date-range { display: flex; flex-wrap: wrap; gap: 10px 16px; color: var(--ink-soft); font-size: 13px; }
+.date-range label { display: inline-flex; align-items: center; gap: 7px; }
+.date-range input { min-height: 30px; border: 1px solid var(--line); border-radius: 0; background: var(--surface); color: var(--ink); font: inherit; font-size: 13px; padding: 3px 6px; }
 .filters button, .linkish { min-height: 30px; border: 1px solid transparent; background: transparent; color: var(--ink-soft); cursor: pointer; font-size: 13px; line-height: 1.2; }
 .filters button { padding: 5px 8px; }
 .filters button i { margin-left: 3px; color: var(--ink-faint); font-size: 10px; font-style: normal; }

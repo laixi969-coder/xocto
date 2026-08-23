@@ -181,6 +181,9 @@ def _parse_row(row: re.Match, ranking: str, ranking_url: str, collected: str) ->
             "platform": platform,
             "rankings": [ranking],
             "ranking_url": ranking_url,
+            # 中国榜可作为中文生态中已有供给/采用信号；全球榜并不等同于
+            # 英文本地供给，因此不在这里制造英文市场结论。
+            **({"ecosystem": "zh", "market": "CN"} if ranking.startswith("china-") else {}),
         },
         payload={"path": path, "value": raw_value, "mom": raw_mom, "ranking": ranking},
     )

@@ -1,32 +1,36 @@
 {% extends "base.html" %}
 
 {% block body %}
-{% macro pick_list(items) %}
+{% macro opportunity_stream(items, updates=false) %}
 <div class="picks">
-  {% for p in items[:3] %}
+  {% for p in items %}
   <article class="pick" style="--i: {{ loop.index0 }}">
     <span class="pick-no num">0{{ loop.index }}</span>
     <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
       <h3>{{ p.name }}</h3>
-      {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
+      <span class="tag sig">{{ p.event_label }}</span>
     </a>
     <div class="pick-body">
-      {% if p.summary %}
+      <div class="field">
+        <span class="field-k">{{ t.home.event_signal }}</span>
+        <p>{{ p.signals | join(' · ') }}{% if p.event_summary %}。{{ p.event_summary }}{% endif %}</p>
+      </div>
       <div class="field">
         <span class="field-k">{{ t.home.what }}</span>
         <p>{{ p.summary }}</p>
       </div>
-      {% endif %}
       <div class="field">
-        <span class="field-k">{{ t.home.money }}</span>
-        <p>{{ p.money_brief or t.product.money_unknown }}</p>
+        <span class="field-k">{{ t.home.dimensions }}</span>
+        <p>{{ p.project_type }}{% if p.industries %} · {{ p.industries | join(' / ') }}{% endif %}{% if p.jobs %} · {{ p.jobs | join(' / ') }}{% endif %}{% if p.regions %} · {{ p.regions | join(' / ') }}{% endif %}</p>
       </div>
-      {% if p.inspiration %}
       <div class="field field-take">
-        <span class="field-k">{{ t.home.meaning }}</span>
-        <p>{{ p.inspiration }}</p>
+        <span class="field-k">{{ t.home.req_initial }}</span>
+        <p><strong>{{ p.req_signal }}</strong> · {{ p.req_next }}</p>
       </div>
-      {% endif %}
+      <div class="field">
+        <span class="field-k">{{ t.home.discovered_at }}</span>
+        <p class="num">{{ p.event_day }}{% if p.occurred_day and p.occurred_day != p.event_day %} · {{ t.home.published_at }} {{ p.occurred_day }}{% endif %}</p>
+      </div>
     </div>
   </article>
   {% endfor %}
@@ -34,17 +38,13 @@
 {% endmacro %}
 <div class="wrap">
 
-  {# 用户打开只问「今天该知道什么」。头版主标题就是今天的判断，站的承诺放在顶栏。 #}
-  {% if reports %}
-  {% set r = reports[0] %}
+  {# 首页只回答今天的新发现；市场判断不再替代事件流。 #}
+  {% if event_day %}
   <header class="lede-bar home-mast">
     <div class="lede-main">
-      <p class="eyebrow">{{ r.day }} · {{ t.home.latest_report }} · {{ t.home.daily_minutes }}</p>
-      <h1>{{ r.hook or t.home.lede_title }}</h1>
+      <p class="eyebrow">{{ event_day }} · {{ t.home.daily_flow }}</p>
+      <h1>{{ t.home.flow_title }}</h1>
       <p class="daily-contract">{{ t.home.daily_contract }}</p>
-      <p>
-        <a class="obs-cta" href="{{ root }}r/{{ r.day }}.html">{{ t.home.latest_report_cta }} <span aria-hidden="true">→</span></a>
-      </p>
     </div>
   </header>
   {% else %}
@@ -57,56 +57,56 @@
   </header>
   {% endif %}
 
-  {% if fresh_picks %}
+  {% if first_discoveries %}
   <section class="band" id="today-cases">
     <div class="sec-head">
       <div>
-        <p class="section-index">01 · {{ t.home.fresh_kicker }}</p>
-        <h2>{{ t.home.fresh_picks }}</h2>
+        <p class="section-index">01 · {{ t.home.flow_kicker }}</p>
+        <h2>{{ t.home.first_discoveries }}</h2>
       </div>
-      <span class="note">{{ t.home.fresh_picks_note }}</span>
+      <span class="note">{{ t.home.first_discoveries_note }}</span>
     </div>
-    {{ pick_list(fresh_picks) }}
+    {{ opportunity_stream(first_discoveries) }}
   </section>
-  {% endif %}
-
-  {% if today_takeaway %}
-  <section class="band" id="today-move">
+  {% else %}
+  <section class="band" id="today-cases">
     <div class="sec-head">
       <div>
-        <p class="section-index">02 · {{ t.home.takeaway_kicker }}</p>
-        <h2>{{ t.home.today_takeaway_title }}</h2>
+        <p class="section-index">01 · {{ t.home.flow_kicker }}</p>
+        <h2>{{ t.home.first_discoveries }}</h2>
       </div>
-      <span class="note">{{ t.home.today_takeaway_note }}</span>
     </div>
-    <a class="field field-take" href="{{ root }}p/{{ today_takeaway.slug }}.html" style="display: block; text-decoration: none; padding: 22px 0 22px 17px;">
-      <span class="field-k">{{ t.home.today_takeaway_from }} · {{ today_takeaway.name }}</span>
-      <p>{{ today_takeaway.text }}</p>
-    </a>
+    <p class="noanalysis-sub">{{ t.home.first_discoveries_empty }}</p>
   </section>
   {% endif %}
 
-  {% if long_term_picks %}
-  <section class="band">
+  {% if important_updates %}
+  <section class="band" id="important-updates">
     <div class="sec-head">
-      <h2>{{ t.home.long_term_picks }}</h2>
-      <span class="note">{{ t.home.long_term_picks_note }}</span>
+      <div>
+        <p class="section-index">02 · {{ t.home.update_kicker }}</p>
+        <h2>{{ t.home.important_updates }}</h2>
+      </div>
+      <span class="note">{{ t.home.important_updates_note }}</span>
     </div>
-    <ul class="rows">
-      {% for p in long_term_picks[:5] %}
-      <li>
-        <a href="{{ root }}p/{{ p.slug }}.html">
-          <div class="row-head">
-            <span class="row-name">{{ p.name }}</span>
-            <span class="row-desc">{{ p.summary }}</span>
-            <span class="row-tail">
-              {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
-            </span>
-          </div>
-        </a>
-      </li>
+    {{ opportunity_stream(important_updates, true) }}
+  </section>
+  {% endif %}
+
+  {% if market_summary %}
+  <section class="band" id="market-summary">
+    <div class="sec-head">
+      <div>
+        <p class="section-index">03 · {{ t.home.market_kicker }}</p>
+        <h2>{{ t.home.market_summary }}</h2>
+      </div>
+      <span class="note">{{ t.home.market_summary_note }}</span>
+    </div>
+    <div class="decision-grid">
+      {% for item in market_summary %}
+      <div class="field"><span class="field-k">{{ item.title }}</span><p>{{ item.text }}</p></div>
       {% endfor %}
-    </ul>
+    </div>
   </section>
   {% endif %}
 
@@ -114,7 +114,7 @@
   <section class="band" id="past-calls">
     <div class="sec-head">
       <div>
-        <p class="section-index">03 · {{ t.home.past_kicker }}</p>
+        <p class="section-index">04 · {{ t.home.past_kicker }}</p>
         <h2>{{ t.home.past_reports }}</h2>
       </div>
       <span class="note">{{ t.home.past_reports_note }}</span>
