@@ -40,8 +40,12 @@ from .store import Store
 
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-pro"
 DEFAULT_GEMINI_MODEL = "gemini-3.7-flash"
+# Groq 将 Qwen 3.6 列为预览模型；日报是生产定时任务，默认使用其生产
+# 模型中仍可落在免费层配额内的 GPT-OSS 20B，而不是追逐随时可能下线的预览版。
+DEFAULT_GROQ_MODEL = "openai/gpt-oss-20b"
 ALLOWED_DECISIONS = {STATUS_REJECTED, STATUS_MARKET_CONTEXT, STATUS_QUEUED, STATUS_WATCHING}
 # 采集渠道是实现细节，不是给读者的信息。这里和 check_design.py 保持同一
 # 口径；在落盘前检查模型的公开文案，避免等到整站构建后才发现问题。
@@ -312,9 +316,13 @@ def _model_providers() -> list[tuple[str, str, str, str]]:
         providers["gemini"] = (
             GEMINI_API_URL, key, os.environ.get("GEMINI_MODEL") or DEFAULT_GEMINI_MODEL
         )
+    if key := os.environ.get("GROQ_API_KEY"):
+        providers["groq"] = (
+            GROQ_API_URL, key, os.environ.get("GROQ_MODEL") or DEFAULT_GROQ_MODEL
+        )
     if not providers:
         raise BriefError(
-            "缺少可用模型密钥；请配置 DEEPSEEK_API_KEY 或 GEMINI_API_KEY"
+            "缺少可用模型密钥；请配置 DEEPSEEK_API_KEY、GEMINI_API_KEY 或 GROQ_API_KEY"
         )
     preferred = os.environ.get("MODEL_PROVIDER", "deepseek").strip().lower()
     names = [preferred] if preferred in providers else []

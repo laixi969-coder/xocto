@@ -97,9 +97,9 @@ jobs:
         if: ${{ inputs.retry_date == '' }}
         run: uv run xocto health
 
-      # 判断层直接调用 DeepSeek API；密钥只存在于 GitHub Actions Secrets，
+      # 判断层调用模型 API；密钥只存在于 GitHub Actions Secrets，
       # 不依赖任何人的电脑、Codex 或 Claude Code 登录态。
-      - name: DeepSeek 每日判断与双语简报
+      - name: 每日判断与双语简报
         run: |
           if [ -n "${{ inputs.retry_date }}" ]; then
             uv run xocto brief --date "${{ inputs.retry_date }}" --force
@@ -116,6 +116,8 @@ jobs:
           # 设 MODEL_PROVIDER=gemini 可将其作为主模型。
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 中英文市场核验
@@ -130,6 +132,8 @@ jobs:
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 高价值项目完整 /req 判断
@@ -144,6 +148,8 @@ jobs:
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 生成网站（日报结果）

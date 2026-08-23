@@ -58,6 +58,11 @@ class BriefTests(unittest.TestCase):
         self.assertEqual([item[0] for item in providers], ["gemini", "deepseek"])
         self.assertEqual(providers[0][1], "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions")
 
+    def test_groq_defaults_to_a_production_free_model(self) -> None:
+        with patch.dict("os.environ", {"GROQ_API_KEY": "groq-key", "MODEL_PROVIDER": "groq"}, clear=True):
+            providers = _model_providers()
+        self.assertEqual(providers, [("groq", "https://api.groq.com/openai/v1/chat/completions", "groq-key", "openai/gpt-oss-20b")])
+
     def test_json_decoder_accepts_a_fenced_object_but_rejects_truncation(self) -> None:
         self.assertEqual(_decode_json_object("```json\n{\"products\": []}\n```"), {"products": []})
         with self.assertRaises(BriefError):
