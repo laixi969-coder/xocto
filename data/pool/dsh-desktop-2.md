@@ -20,16 +20,16 @@ url: https://dshdesktop.com
 canonical_url: https://dshdesktop.com
 summary: DSHDesktop：DeepSeek Harness Desktop
 first_seen: '2026-08-13T13:45:50Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T14:45:44Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://dshdesktop.com
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T14:45:44Z'
   metrics:
-    stars: 1951
+    stars: 1954
     forks: 133
     open_issues: 34
 - source: github

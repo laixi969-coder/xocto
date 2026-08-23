@@ -20,18 +20,18 @@ url: https://github.com/KimGLee/Cambium
 canonical_url: https://github.com/KimGLee/Cambium
 summary: Governance standard and reference toolset for LLM-maintained knowledge corpora
 first_seen: '2026-08-04T03:54:22Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T14:45:44Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/KimGLee/Cambium
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T14:45:44Z'
   metrics:
     stars: 235
     forks: 11
-    open_issues: 7
+    open_issues: 8
 ---
 
 # Cambium

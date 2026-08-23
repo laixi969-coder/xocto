@@ -20,17 +20,17 @@ url: https://www.soverybright.com/
 canonical_url: https://soverybright.com
 summary: Make your logo extra bright on HDR screens
 first_seen: '2026-08-22T18:43:03Z'
-last_seen: '2026-08-23T14:11:13Z'
+last_seen: '2026-08-23T14:45:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.soverybright.com/
-  seen_at: '2026-08-23T14:11:13Z'
+  seen_at: '2026-08-23T14:45:40Z'
   metrics:
-    points: 63
-    comments: 84
+    points: 64
+    comments: 85
 ---
 
 # soverybright

@@ -20,17 +20,17 @@ url: https://skylens.yantraai.app/
 canonical_url: https://skylens.yantraai.app
 summary: Live 3D satellite tracker and the declassified Pentagon UFO archive
 first_seen: '2026-08-23T09:27:40Z'
-last_seen: '2026-08-23T14:11:13Z'
+last_seen: '2026-08-23T14:45:40Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://skylens.yantraai.app/
-  seen_at: '2026-08-23T14:11:13Z'
+  seen_at: '2026-08-23T14:45:40Z'
   metrics:
-    points: 31
-    comments: 4
+    points: 35
+    comments: 13
 ---
 
 # skylens

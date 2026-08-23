@@ -21,16 +21,16 @@ canonical_url: https://github.com/dondai44423/donsetch
 summary: Web fetch, search, and crawl for AI agents. Built from scratch in Rust. No keys, no accounts.
   AGPL v3.
 first_seen: '2026-08-07T10:13:16Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T14:45:44Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/dondai44423/donsetch
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T14:45:44Z'
   metrics:
-    stars: 90
+    stars: 94
     forks: 5
     open_issues: 0
 ---

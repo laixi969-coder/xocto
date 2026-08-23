@@ -24,17 +24,17 @@ summary: 'Anti-laziness skill for AI agents. Core: the Depth Tree method, which 
   deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded
   in 2025-2026 research on model laziness, underthinking and premature completion.'
 first_seen: '2026-08-09T23:39:12Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T14:45:44Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Leonxlnx/unlazy
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T14:45:44Z'
   metrics:
-    stars: 1308
-    forks: 84
+    stars: 1328
+    forks: 87
     open_issues: 3
 ---
 
