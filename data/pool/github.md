@@ -39,7 +39,7 @@ summary: "大家好，最近做了一个原生 Windows 开发框架，叫做 **M
   \r\n项目地址：\r\n\r\nhttps://github.com/mwfl/mwfl\r\n\r\n文档：\r\n\r\nhttps://mwfl.github.io/\r\n\r\n业余 AI\
   \ 项目，欢迎尽情交流。"
 first_seen: '2026-08-23T06:15:09Z'
-last_seen: '2026-08-23T14:45:38Z'
+last_seen: '2026-08-23T22:38:22Z'
 status: pending_filter
 sources:
 - v2ex
@@ -49,6 +49,11 @@ sightings:
   seen_at: '2026-08-23T14:45:38Z'
   metrics:
     comments: 3
+- source: v2ex
+  url: https://github.com/aipayim/codex-proxy
+  seen_at: '2026-08-23T22:38:22Z'
+  metrics:
+    comments: 0
 ---
 
 # Github

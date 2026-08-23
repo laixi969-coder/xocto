@@ -11,22 +11,30 @@ inspiration_en: The trend is filters moving from a bit prettier to a look you ca
   Enter posters, covers, and event key visuals—images that must stick—and charge for a house style, not
   a one-off effect.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/2998980-hue/surreal-pop-collage
 canonical_url: https://github.com/2998980-hue/surreal-pop-collage
 summary: 把照片变成超现实波普拼贴的 AI agent skill：黑白现实锚点 + 平涂色形 + 全图只有一个不可能的巨物。An agent skill that turns photos into
   surreal pop collages.
 first_seen: '2026-08-08T18:11:15Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/2998980-hue/surreal-pop-collage
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 245
-    forks: 11
+    stars: 246
+    forks: 12
     open_issues: 0
 ---
 

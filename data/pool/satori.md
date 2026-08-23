@@ -20,17 +20,17 @@ url: https://github.com/yuxino/satori
 canonical_url: https://github.com/yuxino/satori
 summary: A local-first macOS workspace for understanding PDFs with AI
 first_seen: '2026-08-03T16:53:06Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yuxino/satori
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 77
-    forks: 11
+    stars: 78
+    forks: 12
     open_issues: 0
 ---
 

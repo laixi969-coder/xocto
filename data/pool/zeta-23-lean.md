@@ -20,16 +20,16 @@ url: https://github.com/anthropics/zeta-23-lean
 canonical_url: https://github.com/anthropics/zeta-23-lean
 summary: ''
 first_seen: '2026-08-06T23:56:11Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/zeta-23-lean
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 186
+    stars: 187
     forks: 27
     open_issues: 8
 ---

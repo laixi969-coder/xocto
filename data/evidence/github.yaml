@@ -40,3 +40,12 @@
     \ UI, modern C++20.\");\r\n        ui.Add(close_, L\"Close\");\r\n\r\n        SetLayout(mwfl::Column()\r\
     \n            .Margin(24_dip).Gap(12_dip)\r\n            .Add(message_, mwfl::Auto())\r\n        \
     \    .Add(close_, mwfl::Fi"
+- id: ev-ac3fb102ff4995a7
+  project_slug: github
+  url: https://www.v2ex.com/t/1236639
+  title: 多协议转换、智能 Key 调度与可观测 AI 网关
+  published_at: '2026-08-23T15:17:15Z'
+  collected_at: '2026-08-23T22:38:22Z'
+  source_kind: product
+  tier: independent
+  fact: 自己开发的，原则上可以接任何上下游的本地代理，开源 https://github.com/aipayim/codex-proxy ，如果好用，给个🌟

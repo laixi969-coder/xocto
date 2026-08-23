@@ -8,20 +8,28 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://openenvision.github.io/ScholarTube/
 canonical_url: https://openenvision.github.io/ScholarTube
 summary: ScholarTube - A curated, source-linked video knowledge index for AI researchers.
 first_seen: '2026-08-11T03:19:35Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://openenvision.github.io/ScholarTube/
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 42
+    stars: 44
     forks: 0
     open_issues: 0
 ---

@@ -9,21 +9,29 @@ summary_en: ''
 inspiration_en: Evolutionary methods are viable again in agent land, because evaluation finally got cheap
   enough.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/i3T4AN/KADATH
 canonical_url: https://github.com/i3T4AN/KADATH
 summary: Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across
   reproducible epochs to converge on optimization of a goal.
 first_seen: '2026-08-08T15:49:55Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/i3T4AN/KADATH
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 341
+    stars: 340
     forks: 3
     open_issues: 0
 ---

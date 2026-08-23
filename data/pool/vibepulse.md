@@ -22,18 +22,18 @@ summary: A shelf-top AMOLED screen showing your Claude Code & Codex usage, live 
   NEEDS YOU alert when an agent waits for your input. ESP32-S3 + a pure-stdlib Mac service. Nothing leaves
   your LAN.
 first_seen: '2026-08-12T10:30:31Z'
-last_seen: '2026-08-23T14:45:44Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://vibeonchip.com
-  seen_at: '2026-08-23T14:45:44Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 150
+    stars: 154
     forks: 27
-    open_issues: 7
+    open_issues: 8
 ---
 
 # vibepulse

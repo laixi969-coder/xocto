@@ -23,16 +23,16 @@ summary: A source-grounded course and architectural reference for engineers desi
   system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical
   infrastructure.
 first_seen: '2026-08-12T04:03:15Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/DrHazemAli/enterprise-system-design
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 572
+    stars: 573
     forks: 118
     open_issues: 3
 ---

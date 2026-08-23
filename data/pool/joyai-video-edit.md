@@ -20,16 +20,16 @@ url: https://github.com/jd-opensource/JoyAI-Video-Edit
 canonical_url: https://github.com/jd-opensource/JoyAI-Video-Edit
 summary: '[Official Repo] JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion'
 first_seen: '2026-08-04T08:22:24Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jd-opensource/JoyAI-Video-Edit
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 1640
+    stars: 1641
     forks: 73
     open_issues: 10
 ---

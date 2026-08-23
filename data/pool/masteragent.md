@@ -12,20 +12,28 @@ inspiration_en: 'The trend is on-device data that cannot go to the cloud and can
   and shop-floor tablets that cannot drop offline. Judgement: chip or device licenses to hardware makers
   beat a software subscription.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.opensparx.ai
 canonical_url: https://opensparx.ai
 summary: Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.
 first_seen: '2026-08-10T18:43:36Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.opensparx.ai
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 416
+    stars: 417
     forks: 19
     open_issues: 3
 ---

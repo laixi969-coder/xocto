@@ -21,16 +21,16 @@ canonical_url: https://jesstalisman-ia.github.io/intentional-arrangement-skos
 summary: Build, validate, visualize, and publish SKOS taxonomies in your browser — standards-first, single
   self-contained file, with a REST API and MCP server.
 first_seen: '2026-08-06T01:44:42Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://jesstalisman-ia.github.io/intentional-arrangement-skos/
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 46
+    stars: 48
     forks: 13
     open_issues: 0
 ---

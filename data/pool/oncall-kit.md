@@ -22,16 +22,16 @@ summary: 'Starter kit for a Claude-assisted on-call: mines your incident history
   sets up through human-approved gates, and runs read-only in your Slack channel — humans deploy every
   fix.'
 first_seen: '2026-08-03T22:18:23Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/oncall-kit
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 21
+    stars: 22
     forks: 0
     open_issues: 0
 ---

@@ -21,18 +21,18 @@ canonical_url: https://github.com/AI4CharityPL/kancelaria-lex
 summary: Fully local AI for Polish legal case files - zero fabricated citations by construction. Free;
   please support a Wroclaw animal shelter instead.
 first_seen: '2026-08-17T09:27:27Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/AI4CharityPL/kancelaria-lex
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 46
+    stars: 48
     forks: 6
-    open_issues: 1
+    open_issues: 2
 ---
 
 # kancelaria-lex

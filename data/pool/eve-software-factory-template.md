@@ -12,20 +12,28 @@ inspiration_en: 'The trend is software factories spreading as ready templates; w
   they can start today. Judgment: this is the template shell of Eve Software Factory; difference has to
   live in station duties and human review.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://ask-foreman.dev
 canonical_url: https://ask-foreman.dev
 summary: Meet Foreman, an eve Software Factory.
 first_seen: '2026-08-12T12:34:43Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://ask-foreman.dev
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 992
+    stars: 993
     forks: 62
     open_issues: 0
 ---

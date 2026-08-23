@@ -21,16 +21,16 @@ canonical_url: https://docs.comfy.org/tutorials/video/minimax/minimax-h3
 summary: ComfyUI nodes and tested workflows for MiniMax H3 still-image generation, reference editing,
   and Qwen detail refinement.
 first_seen: '2026-08-03T14:28:46Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://docs.comfy.org/tutorials/video/minimax/minimax-h3
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 122
+    stars: 123
     forks: 7
     open_issues: 1
 ---

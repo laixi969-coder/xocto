@@ -11,21 +11,29 @@ inspiration_en: 'The trend is that industrial short drama fails on continuity, n
   episode. The entry is script desk for vertical series: relationships, hooks, and resume state, sold
   per title or episode, not one-off copy.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/Hao0321/ai-short-drama
 canonical_url: https://github.com/Hao0321/ai-short-drama
 summary: AI short-drama story architecture, series continuity, production packs and resumable generation
   workflows for Codex and Claude Code.
 first_seen: '2026-08-09T13:28:48Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Hao0321/ai-short-drama
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 51
+    stars: 52
     forks: 11
     open_issues: 0
 ---

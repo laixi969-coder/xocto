@@ -8,21 +8,29 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/Sateezg/codex-bridge#readme
 canonical_url: https://github.com/Sateezg/codex-bridge
 summary: Image generation (gpt-image-2) and GPT-5 subagents for Claude Code — through the Codex CLI login
   you already have. No OpenAI API key.
 first_seen: '2026-08-09T06:57:08Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Sateezg/codex-bridge#readme
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 251
+    stars: 250
     forks: 2
     open_issues: 0
 ---

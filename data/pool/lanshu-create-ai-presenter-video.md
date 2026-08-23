@@ -21,17 +21,17 @@ canonical_url: https://github.com/cclank/lanshu-create-ai-presenter-video
 summary: Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an
   authorized presenter image.
 first_seen: '2026-08-20T13:40:06Z'
-last_seen: '2026-08-23T14:45:44Z'
+last_seen: '2026-08-23T22:38:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cclank/lanshu-create-ai-presenter-video
-  seen_at: '2026-08-23T14:45:44Z'
+  seen_at: '2026-08-23T22:38:28Z'
   metrics:
-    stars: 542
-    forks: 86
+    stars: 637
+    forks: 102
     open_issues: 0
 ---
 
