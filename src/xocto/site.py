@@ -252,7 +252,9 @@ def _split_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     """拆出 YAML frontmatter 和正文。没有 frontmatter 就整篇当正文。"""
     if not text.startswith("---"):
         return {}, text
-    parts = text.split("---", 2)
+    # 正文里的 Markdown 表格会包含 "| --- |"；只有独占一行的 --- 才是
+    # frontmatter 边界，不能用普通字符串 split。
+    parts = re.split(r"^---\s*$", text, maxsplit=2, flags=re.MULTILINE)
     if len(parts) < 3:
         return {}, text
     try:

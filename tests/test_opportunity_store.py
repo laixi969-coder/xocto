@@ -16,6 +16,7 @@ from xocto.models import (
     SUPPLY_NOT_FOUND,
     Evidence,
     MarketObservation,
+    Product,
     ReqGateReview,
     ReqReview,
 )
@@ -71,6 +72,27 @@ class OpportunityStoreTests(unittest.TestCase):
             self.assertTrue(store.append_req_review(review))
             self.assertFalse(store.append_req_review(review))
             self.assertEqual(store.read_req_reviews("freight-ai"), [review])
+
+    def test_product_frontmatter_ignores_markdown_table_dividers_in_summary(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            product = Product(
+                slug="comparison",
+                name="Comparison",
+                url="https://example.com",
+                canonical_url="https://example.com",
+                summary="Model comparison:\n\n| Model | Cost |\n| --- | --- |\n| A | $1 |",
+                first_seen="2026-08-23T00:00:00Z",
+                last_seen="2026-08-23T00:00:00Z",
+                status="pending_filter",
+                sightings=(),
+            )
+            store.save_product(product)
+
+            loaded = store.load_product("comparison")
+
+            self.assertIsNotNone(loaded)
+            self.assertEqual(loaded.summary, product.summary)
 
 
 if __name__ == "__main__":

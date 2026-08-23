@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import tempfile
 from datetime import date
 from pathlib import Path
@@ -35,6 +36,7 @@ from .models import (
 
 # 正文分隔标记。这一行以下是自由区，机器写入时永不覆盖。
 NOTES_MARKER = "## 笔记"
+_FRONTMATTER_DELIMITER = re.compile(r"^---\s*$", re.MULTILINE)
 
 
 def project_root() -> Path:
@@ -218,7 +220,9 @@ class Store:
             print(f"  ! {path.name} 缺少 frontmatter，跳过")
             return None
 
-        parts = text.split("---", 2)
+        # 不能按任意 "---" 切分：原始摘要可以带 Markdown 表格分隔线，
+        # 例如 "| --- |"。只认独占一行的 YAML frontmatter 分隔符。
+        parts = _FRONTMATTER_DELIMITER.split(text, maxsplit=2)
         if len(parts) < 3:
             print(f"  ! {path.name} frontmatter 不完整，跳过")
             return None
