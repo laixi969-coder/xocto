@@ -190,7 +190,10 @@ def _event_from_raw(product: Product, item: RawItem, *, event_type: str, evidenc
         occurred_at=item.published_at or item.collected_at,
         discovered_at=item.collected_at,
         signals=tuple(signals),
-        summary="首次发现项目" if event_type == EVENT_FIRST_DISCOVERED else "发现新的公开信号",
+        # “发现新的公开信号”只是在说采集器做了什么，并不是读者需要的
+        # 产品变化。没有可核实的具体变化时宁可留空，首页会把空间留给
+        # 产品定位、机会方向和 /req 判断。
+        summary="",
         evidence_ids=(evidence_id,),
     )
 

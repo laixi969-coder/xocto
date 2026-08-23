@@ -12,13 +12,21 @@
     </a>
     <div class="pick-body">
       <div class="field">
-        <span class="field-k">{{ t.home.event_signal }}</span>
-        <p>{{ p.signals | join(' · ') }}{% if p.event_summary %}。{{ p.event_summary }}{% endif %}</p>
-      </div>
-      <div class="field">
         <span class="field-k">{{ t.home.what }}</span>
         <p>{{ p.summary }}</p>
       </div>
+      {% if updates and p.event_summary %}
+      <div class="field">
+        <span class="field-k">{{ t.home.update_detail }}</span>
+        <p>{{ p.event_summary }}</p>
+      </div>
+      {% endif %}
+      {% if p.inspiration %}
+      <div class="field field-take">
+        <span class="field-k">{{ t.home.direction }}</span>
+        <p>{{ p.inspiration }}</p>
+      </div>
+      {% endif %}
       <div class="field">
         <span class="field-k">{{ t.home.dimensions }}</span>
         <p>{{ p.project_type }}{% if p.industries %} · {{ p.industries | join(' / ') }}{% endif %}{% if p.jobs %} · {{ p.jobs | join(' / ') }}{% endif %}{% if p.regions %} · {{ p.regions | join(' / ') }}{% endif %}</p>

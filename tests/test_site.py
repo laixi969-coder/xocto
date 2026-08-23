@@ -292,13 +292,14 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("t.home.what", template)
-        self.assertIn("t.home.event_signal", template)
+        self.assertIn("t.home.direction", template)
         self.assertIn("t.home.req_initial", template)
         self.assertIn("t.home.discovered_at", template)
         self.assertIn('id="today-cases"', template)
         self.assertIn('id="important-updates"', template)
         self.assertIn('id="past-calls"', template)
         self.assertIn("p.summary", template)
+        self.assertIn("p.inspiration", template)
         self.assertIn("p.req_signal", template)
         self.assertIn("p.req_next", template)
         self.assertIn("p.event_day", template)
@@ -341,6 +342,25 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual([item["slug"] for item in ctx["first_discoveries"]], ["fresh"])
             self.assertEqual([item["slug"] for item in ctx["important_updates"]], ["example"])
             self.assertEqual(ctx["market_summary"][0]["title"], "今日首次发现涉及的行业")
+
+    def test_home_hides_collector_status_as_event_summary(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            from xocto.store import Store
+
+            store = Store(Path(tmp))
+            store.save_product(product())
+            store.append_event(DiscoveryEvent(
+                id="generic-update",
+                project_slug="example",
+                event_type=EVENT_MATERIAL_UPDATE,
+                occurred_at="2026-08-14T10:00:00Z",
+                discovered_at="2026-08-14T11:00:00Z",
+                summary="发现新的公开信号",
+            ))
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual(ctx["important_updates"][0]["event_summary"], "")
 
     def test_opportunity_library_offers_parallel_dimensions_and_shareable_date_filters(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(

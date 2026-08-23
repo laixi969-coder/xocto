@@ -576,20 +576,19 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
         EVENT_MARKET_CHANGE: locale.t["home"]["event_market"],
         EVENT_REQ_CHANGE: locale.t["home"]["event_req"],
     }
-    signal_labels = {
-        "release": locale.t["home"]["signal_release"],
-        "update": locale.t["home"]["signal_update"],
-        "open_source": locale.t["home"]["signal_open_source"],
-        "adoption": locale.t["home"]["signal_adoption"],
-    }
+    raw_summary = (event.summary or "").strip()
+    # 旧档案中曾以采集器状态充当事件摘要；它没有解释产品发生了什么，
+    # 不应占用首页的阅读空间。保留有事实内容的人工/模型摘要。
+    if raw_summary in {"首次发现项目", "发现新的公开信号"}:
+        raw_summary = ""
+    event_summary = raw_summary if locale.key != "en" else _english_text(raw_summary)
     return {
         **view,
         "event_type": event.event_type,
         "event_label": event_labels[event.event_type],
         "event_day": local_day(event.discovered_at),
         "occurred_day": local_day(event.occurred_at),
-        "signals": [signal_labels.get(signal, signal) for signal in event.signals],
-        "event_summary": event.summary if locale.key != "en" else _english_text(event.summary),
+        "event_summary": event_summary,
         "req_signal": _req_signal_label(review.signal_level, locale) if review else locale.t["home"]["req_pending"],
         "req_next": (
             review.next_validation if locale.key != "en" else _english_text(
