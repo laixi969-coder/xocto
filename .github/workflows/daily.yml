@@ -93,6 +93,8 @@ jobs:
       # 不在编辑前构建英文站：采集原文可以是中文，只有双语编辑完成后才
       # 生成并检查公开页面，避免未翻译的原始字段阻断整条每日流程。
       - name: 检查采集有没有静默变质
+        # 历史重跑刻意不采集“今天”，因此不能用只检查今天原始存档的健康规则。
+        if: ${{ inputs.retry_date == '' }}
         run: uv run xocto health
 
       # 判断层直接调用 DeepSeek API；密钥只存在于 GitHub Actions Secrets，
