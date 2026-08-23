@@ -285,7 +285,7 @@ class BriefTests(unittest.TestCase):
                             "verdict": "needs_validation",
                             "signal_level": "待验证",
                             "gates": [
-                                {"gate": "value", "status": "supported", "reason": "货代每天都需要处理会影响交付和客户关系的运输异常。", "evidence_ids": ["ev-1"]},
+                                {"gate": "value", "status": "supported", "reason": "公开材料称能处理运单异常", "evidence_ids": ["ev-1"]},
                                 {"gate": "consensus", "status": "insufficient", "reason": "公开材料尚未证明货代会持续采用或替换现有人工流程。", "evidence_ids": []},
                                 {"gate": "model", "status": "insufficient", "reason": "尚未披露具体付费者、价格或能够支持单位经济的收费证据。", "evidence_ids": []},
                                 {"gate": "truth", "status": "insufficient", "reason": "异常判断准确率、责任边界和人工复核机制仍缺少可核验信息。", "evidence_ids": []},
