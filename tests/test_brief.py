@@ -18,6 +18,7 @@ from xocto.brief import (
     _require_priority_coverage,
     _req_reviews,
     _updates,
+    _validation_repair_messages,
     candidates_for_day,
     news_for_day,
 )
@@ -61,6 +62,12 @@ class BriefTests(unittest.TestCase):
         self.assertEqual(_decode_json_object("```json\n{\"products\": []}\n```"), {"products": []})
         with self.assertRaises(BriefError):
             _decode_json_object('{"products": [')
+
+    def test_validation_repair_keeps_the_original_result_and_names_the_failure(self) -> None:
+        messages = [{"role": "system", "content": "rules"}]
+        repaired = _validation_repair_messages(messages, {"products": []}, BriefError("field is too short"))
+        self.assertEqual(repaired[-2]["role"], "assistant")
+        self.assertIn("field is too short", repaired[-1]["content"])
 
     def test_daily_report_prompt_keeps_priority_products_in_scope(self) -> None:
         priority = replace(product("priority"), name="Priority project", priority_review=True)

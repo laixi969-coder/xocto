@@ -634,6 +634,24 @@ def _source_leak_repair_messages(
     ]
 
 
+def _validation_repair_messages(
+    messages: list[dict[str, str]], result: dict[str, Any], error: BriefError
+) -> list[dict[str, str]]:
+    """对可修复的模型格式错误做一次定点返工，不写盘半成品。"""
+    return [
+        *messages,
+        {"role": "assistant", "content": json.dumps(result, ensure_ascii=False)},
+        {
+            "role": "user",
+            "content": (
+                f"上一条 JSON 未通过发布校验：{error}。请返回完整、合法的替换 JSON，"
+                "保持所有候选逐一覆盖和已有事实，只修正不符合字段约束的记录；"
+                "不要添加解释或 Markdown 代码块。"
+            ),
+        },
+    ]
+
+
 def _empty_report(day: date, *, english: bool) -> str:
     if english:
         return f"---\nday: {day.isoformat()}\nhook: No new products cleared the editorial bar today\nhighlights:\n  - No product worth expanding today\n---\n\n# AI product radar · {day.isoformat()}\n\n## No editorial pick today\n\nThe collection completed, but no newly surfaced product had enough evidence to publish.\n"
@@ -675,8 +693,13 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         batch = products[start:start + BRIEF_BATCH_SIZE]
         messages = _prompt(store, day, batch, [], previous_zh="", previous_en="")
         result = _request(messages)
-        batch_updates = _updates(result, batch)
-        batch_reviews = _req_reviews(result, batch, store, day=day)
+        try:
+            batch_updates = _updates(result, batch)
+            batch_reviews = _req_reviews(result, batch, store, day=day)
+        except BriefError as exc:
+            result = _request(_validation_repair_messages(messages, result, exc))
+            batch_updates = _updates(result, batch)
+            batch_reviews = _req_reviews(result, batch, store, day=day)
         try:
             _require_no_public_source_leaks(batch_updates, "", "", batch_reviews)
         except PublicSourceLeakError as exc:
