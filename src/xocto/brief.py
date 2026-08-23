@@ -120,10 +120,11 @@ def _candidate_data(store: Store, product: Product) -> dict[str, Any]:
 
 NEWS_LIMIT = 18
 FIRST_PARTY_BUDGET = 12
-# 单个项目的双语摘要、灵感与四道 `/req` 闸门本身就占去较多输出。
-# 每批 12 个能在当前模型的 JSON 输出预算内完整返回；所有当天候选都会
-# 逐批处理，不以截断或固定总数牺牲机会流覆盖。
-BRIEF_BATCH_SIZE = 12
+# 工作流级双语说明、灵感与四道 `/req` 闸门本身就占去较多输出。8 个一批
+# 给免费模型留出格式修复余量；所有当天候选仍会逐批处理，不能用固定总数
+# 换取一次看似成功的日报。
+BRIEF_BATCH_SIZE = 8
+MAX_BATCH_REPAIRS = 2
 REPORT_PRODUCT_LIMIT = 18
 
 
@@ -509,11 +510,10 @@ def _req_reviews(
             if status not in REQ_GATE_STATUSES:
                 raise BriefError(f"{slug}.{gate} 的 `/req` 状态不合法")
             reason = _text(raw_gate.get("reason"), f"{slug}.{gate}.reason")
-            # 初判的价值在于四道闸门各有可追溯理由，而不是凑够字数。此前
-            # 20 字下限会让“公开材料称能处理运单异常”这类已足够明确的短句
-            # 直接中止整日写入，令所有项目退回“判断待生成”。
-            if not 12 <= len(reason) <= 120:
-                raise BriefError(f"{slug}.{gate} 的 `/req` 理由应为 12–120 个字符")
+            # 初判的价值在于四道闸门各有可追溯理由，而不是凑够字数。模型
+            # 偶尔会偏离字数要求；非空理由保留，过长时仅截到可读上限，不能
+            # 因排版瑕疵让所有项目退回“判断待生成”。
+            reason = reason[:320].rstrip()
             evidence_ids = raw_gate.get("evidence_ids") or []
             if not isinstance(evidence_ids, list) or not all(isinstance(item, str) for item in evidence_ids):
                 raise BriefError(f"{slug}.{gate} 的 evidence_ids 格式不对")
@@ -709,13 +709,18 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         batch = products[start:start + BRIEF_BATCH_SIZE]
         messages = _prompt(store, day, batch, [], previous_zh="", previous_en="")
         result = _request(messages)
-        try:
-            batch_updates = _updates(result, batch)
-            batch_reviews = _req_reviews(result, batch, store, day=day)
-        except BriefError as exc:
-            result = _request(_validation_repair_messages(messages, result, exc))
-            batch_updates = _updates(result, batch)
-            batch_reviews = _req_reviews(result, batch, store, day=day)
+        # 模型一次输出里偶发一条过短理由、遗漏字段等格式瑕疵，不能让它
+        # 抹掉当天所有已完成的判断。保留事实和枚举校验，给完整 JSON 两次
+        # 定向修复机会；只有仍无法得到可验证结构时才使任务失败。
+        for attempt in range(MAX_BATCH_REPAIRS + 1):
+            try:
+                batch_updates = _updates(result, batch)
+                batch_reviews = _req_reviews(result, batch, store, day=day)
+                break
+            except BriefError as exc:
+                if attempt >= MAX_BATCH_REPAIRS:
+                    raise
+                result = _request(_validation_repair_messages(messages, result, exc))
         try:
             _require_no_public_source_leaks(batch_updates, "", "", batch_reviews)
         except PublicSourceLeakError as exc:

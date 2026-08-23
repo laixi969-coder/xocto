@@ -138,8 +138,9 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
             status = str(raw.get("status") or "")
             reason = str(raw.get("reason") or "").strip()
             ids = raw.get("evidence_ids") or []
-            if status not in REQ_GATE_STATUSES or not 40 <= len(reason) <= 160:
+            if status not in REQ_GATE_STATUSES or not reason:
                 raise BriefError("完整 `/req` 判断的闸门内容不合法")
+            reason = reason[:480].rstrip()
             if not isinstance(ids, list) or not all(isinstance(item, str) for item in ids) or set(ids) - allowed:
                 raise BriefError("完整 `/req` 判断引用了不存在的证据")
             gates.append(ReqGateReview(expected, status, reason, tuple(ids)))

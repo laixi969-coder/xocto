@@ -301,6 +301,29 @@ class BriefTests(unittest.TestCase):
             self.assertEqual(review.gates[0].evidence_ids, ("ev-1",))
             self.assertEqual(review.id, "req-initial-example-2026-08-14")
 
+    def test_req_initial_review_keeps_a_nonempty_reason_outside_the_target_length(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            source = product()
+            long_reason = "公开材料仅说明了产品能力，尚无用户持续使用或付费的证据。" * 30
+            result = {
+                "products": [{
+                    "slug": "example", "decision": "watching",
+                    "req_initial": {
+                        "verdict": "needs_validation", "signal_level": "待验证",
+                        "gates": [
+                            {"gate": gate, "status": "insufficient", "reason": long_reason, "evidence_ids": []}
+                            for gate in ("value", "consensus", "model", "truth")
+                        ],
+                        "next_validation": "核验是否有目标用户持续使用该产品。",
+                    },
+                }],
+            }
+
+            review = _req_reviews(result, [source], store, day=DAY)["example"]
+
+            self.assertEqual(len(review.gates[0].reason), 320)
+
     def test_req_initial_review_rejects_hallucinated_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
