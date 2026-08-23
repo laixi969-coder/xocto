@@ -192,8 +192,8 @@ queued 和 watching 必须有 category（只能逐字使用下列之一：{categ
 project_type（new_application、open_source、ai_transformation 之一），以及 industries、jobs、regions
 及其英文对应 fields（industries_en、jobs_en、regions_en）六个字符串数组（不确定时可为空数组；
 不得用技术名词替代具体行业或工作；同位置的中英文标签必须互译对应）、
-25–50 个中文字符的 summary_zh、50–110 个中文字符的 inspiration、
-以及同等标准的英文 summary_en 与 inspiration_en。
+60–130 个中文字符的 summary_zh、50–110 个中文字符的 inspiration、
+以及 120–260 个英文字符的 summary_en 与同等标准的英文 inspiration_en。
 
 每个 queued 或 watching 候选还必须输出 req_initial。它是 `/req` 的公开信息初判，
 不是热度评分：严格按 value、consensus、model、truth 四道闸门依序填写。
@@ -212,9 +212,13 @@ project_type（new_application、open_source、ai_transformation 之一），以
 在 queued / watching 之间优先垂直行业、明确旧工作流、非模型壁垒、结果收费、
 早期付费或异常采用信号；尽量覆盖不同领域，不要让编码、通用助手或 agent 基础设施垄断当天名单。
 
-summary_zh 只允许一种句式：谁，在什么场景，得到什么结果。
-禁止功能黑话（操作系统层、技能集合、整合多种能力、AI 驱动）和官网原话。
-写给不懂技术的创业者，不要写成开发者说明书。
+summary_zh 是“这是什么”的产品说明，可用 1–2 句，必须依次交代：
+- 谁会在什么具体工作节点打开它，以及原来要处理的对象或材料；
+- AI 具体接收什么、执行什么动作（不是“赋能”“辅助”之类的词）；
+- 用户最终拿到什么交付、动作或可核对结果；如人工仍需确认，也应写明。
+只写候选资料直接支持的事实；资料不足时明确“具体流程或交付仍待核验”，不可补造。
+禁止功能黑话（操作系统层、技能集合、整合多种能力、AI 驱动）、官网原话和泛泛结果词。
+写给不懂技术的创业者，让其能据此判断自己是否处于同一工作流，不要写成开发者说明书。
 
 inspiration 必须同时写趋势和切入，这是创业方向，不是产品复述：
 - 趋势：这件事说明市场往哪走，比这个产品大一步

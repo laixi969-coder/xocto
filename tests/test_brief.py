@@ -12,6 +12,7 @@ from xocto.brief import (
     PublicSourceLeakError,
     _decode_json_object,
     _model_providers,
+    _prompt,
     _report_prompt,
     _report_markdown,
     _require_no_public_source_leaks,
@@ -44,6 +45,20 @@ def product(slug: str = "example", *, last_seen: str = "2026-08-13T23:10:00Z") -
 
 
 class BriefTests(unittest.TestCase):
+    def test_product_prompt_requires_a_workflow_level_summary(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            store.config_dir.mkdir(parents=True, exist_ok=True)
+            (store.config_dir / "filter.md").write_text("筛选规则", encoding="utf-8")
+            (store.config_dir / "template.md").write_text("编辑模板", encoding="utf-8")
+
+            prompt = _prompt(store, DAY, [product()], [])
+
+            self.assertIn("60–130 个中文字符", prompt[0]["content"])
+            self.assertIn("具体工作节点", prompt[0]["content"])
+            self.assertIn("用户最终拿到什么", prompt[0]["content"])
+
     def test_gemini_can_be_the_primary_model_with_deepseek_fallback(self) -> None:
         with patch.dict(
             "os.environ",

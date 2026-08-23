@@ -298,6 +298,7 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn('id="today-cases"', template)
         self.assertIn('id="important-updates"', template)
         self.assertIn('id="past-calls"', template)
+        self.assertIn("field-what", template)
         self.assertIn("p.summary", template)
         self.assertIn("p.inspiration", template)
         self.assertIn("p.req_signal", template)

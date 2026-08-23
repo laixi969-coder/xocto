@@ -1171,8 +1171,8 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
     """
     stage = _stage(product)
     if locale.key == "zh":
-        # 中文站一律优先中文。源给的多半是英文营销话术，
-        # 摆在列表里读者一行扫过去等于没看见。
+        # 中文站一律优先经编辑的中文产品说明。源给的多半是英文营销话术，
+        # 读者需要看到具体工作流与交付，而不是一句抽象定位。
         summary = product.summary_zh or product.summary
         inspiration = product.inspiration
         written = bool(product.summary_zh)
