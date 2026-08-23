@@ -10,11 +10,19 @@ inspiration_en: The trend is web analytics leaving pageview dashboards for “wh
   by AI. Don't polish another traffic chart. Start with indie stores, courses, and plugin checkout. Self-host
   is free; hosted starts at nine dollars a month.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://getopen.so
 canonical_url: https://getopen.so
 summary: Modern Alternative to Plausible
 first_seen: '2026-08-13T14:00:09Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - hackernews
@@ -28,9 +36,9 @@ sightings:
     comments: 6
 - source: github
   url: https://getopen.so
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 318
+    stars: 324
     forks: 31
     open_issues: 2
 ---

@@ -11,22 +11,30 @@ inspiration_en: The trend is conversational AI growing into a full workstation. 
   Start with writers of code and documents who need to see results, diffs, and rollback in one side panel.
   Pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/omdsh-dev/DSH-better-sidebar
 canonical_url: https://github.com/omdsh-dev/DSH-better-sidebar
 summary: 一个侧边栏的完整工作台，支持三方拓展注册新Tab页面，内置文件渲染编辑/终端/Git/子代理
 first_seen: '2026-08-07T16:04:00Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/omdsh-dev/DSH-better-sidebar
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 2654
-    forks: 210
-    open_issues: 148
+    stars: 2702
+    forks: 214
+    open_issues: 139
 ---
 
 # DSH-better-sidebar

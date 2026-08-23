@@ -11,21 +11,29 @@ inspiration_en: 'The trend is capable open agent frameworks repeating the old pa
   DeepSeek Harness. Judgement: the shell can be free; money is an installer for small teams that will
   not live in a terminal.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/lencx/Minke
 canonical_url: https://github.com/lencx/Minke
 summary: 🐳 DeepSeek Harness Desktop
 first_seen: '2026-08-15T01:49:38Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lencx/Minke
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 400
-    forks: 47
+    stars: 419
+    forks: 48
     open_issues: 2
 ---
 

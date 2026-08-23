@@ -8,12 +8,20 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/omdsh-dev/dsh-at-file
 canonical_url: https://github.com/omdsh-dev/dsh-at-file
 summary: 'Codex-style @file mentions for DeepSeek Harness: search workspace files in the composer and
   attach their contents to prompts.'
 first_seen: '2026-08-13T12:00:09Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: rejected
 sources:
 - github
@@ -27,10 +35,10 @@ sightings:
     open_issues: 0
 - source: github
   url: https://github.com/FSMargoo/dsh-at-file
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 454
-    forks: 18
+    stars: 458
+    forks: 17
     open_issues: 0
 ---
 

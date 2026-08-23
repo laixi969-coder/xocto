@@ -8,6 +8,14 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/google/artemis
 canonical_url: https://github.com/google/artemis
 summary: ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end
@@ -15,16 +23,16 @@ summary: ARTEMIS turns natural-language instructions into reliable Android autom
   such as Antigravity, Codex, and Claude Code. On the AndroidWorld benchmark, ARTEMIS achieves a success
   rate of over 99%.
 first_seen: '2026-08-13T17:59:37Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/google/artemis
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 46
+    stars: 53
     forks: 7
     open_issues: 3
 ---

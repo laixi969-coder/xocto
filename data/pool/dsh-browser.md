@@ -8,23 +8,31 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/Lum1104/dsh-browser
 canonical_url: https://github.com/Lum1104/dsh-browser
 summary: 'dsh plugin: Chrome sidebar extension that lets DSH operate your browser directly—no vision capabilities
   required.'
 first_seen: '2026-08-06T09:05:10Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Lum1104/dsh-browser
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 392
-    forks: 22
-    open_issues: 3
+    stars: 402
+    forks: 21
+    open_issues: 4
 ---
 
 # dsh-browser

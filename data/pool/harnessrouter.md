@@ -11,11 +11,19 @@ inspiration_en: 'The trend is agents being switched like payment rails: products
   a locked vendor. Don’t wrap another chat box. Enter with software companies that need a file-changing
   agent inside the product—one integration, swappable engines. Judgement: charge per run, not per seat.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/harnessrouter/harnessrouter
 canonical_url: https://github.com/harnessrouter/harnessrouter
 summary: Unified interface for agent harnesses
 first_seen: '2026-08-17T18:33:38Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - hackernews
@@ -29,11 +37,11 @@ sightings:
     comments: 13
 - source: github
   url: https://harnessrouter.ai/
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 387
-    forks: 28
-    open_issues: 0
+    stars: 507
+    forks: 44
+    open_issues: 3
 ---
 
 # HarnessRouter

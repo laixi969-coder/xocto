@@ -11,11 +11,19 @@ inspiration_en: 'The trend is model companies giving away the shell and charging
   the brain is one config line. The entry is an assistant runtime that must stay on a company intranet:
   add-ons you can audit and replace. The shell is free; money is in model calls.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://deepseek.com/harness
 canonical_url: https://deepseek.com/harness
 summary: 'DeepSeek Harness: Everything is a Plugin.'
 first_seen: '2026-08-13T11:56:32Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
@@ -23,10 +31,10 @@ sources:
 sightings:
 - source: github
   url: https://deepseek.com/harness
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 184944
-    forks: 20437
+    stars: 187021
+    forks: 20768
     open_issues: 0
 - source: producthunt
   url: https://www.producthunt.com/products/deepseek
@@ -34,10 +42,10 @@ sightings:
   metrics: {}
 - source: github
   url: https://www.beyondata.com/
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 456
-    forks: 45
+    stars: 474
+    forks: 47
     open_issues: 2
 ---
 

@@ -8,20 +8,28 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://grep.codemod.com/
 canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
-last_seen: '2026-08-22T22:37:59Z'
+last_seen: '2026-08-23T14:11:13Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://grep.codemod.com/
-  seen_at: '2026-08-22T22:37:59Z'
+  seen_at: '2026-08-23T14:11:13Z'
   metrics:
-    points: 12
+    points: 15
     comments: 0
 ---
 

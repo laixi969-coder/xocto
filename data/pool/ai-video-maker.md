@@ -8,20 +8,28 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/wanghui2323/ai-video-maker
 canonical_url: https://github.com/wanghui2323/ai-video-maker
 summary: AI 视频制作助手：从想法、文章或音频到脚本、声音、画面和人工审核的中文 Skill + Workflow
 first_seen: '2026-08-15T13:00:24Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wanghui2323/ai-video-maker
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 42
+    stars: 47
     forks: 0
     open_issues: 0
 ---

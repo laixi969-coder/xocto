@@ -8,11 +8,19 @@ inspiration: 开源机器人可能促进代理生态的互操作性
 summary_en: An open-source Grok Bot that works with any agent harness
 inspiration_en: Open-source bots could promote interoperability in the agent ecosystem
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/copilotkit/openbot
 canonical_url: https://github.com/copilotkit/openbot
 summary: an open-source Grok Bot that works with any agent harness
 first_seen: '2026-08-19T18:45:48Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - hackernews
@@ -26,11 +34,11 @@ sightings:
     comments: 1
 - source: github
   url: https://www.copilotkit.ai/openbot
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 2311
-    forks: 265
-    open_issues: 28
+    stars: 2417
+    forks: 274
+    open_issues: 32
 ---
 
 # Open Bot

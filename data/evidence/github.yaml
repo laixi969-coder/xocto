@@ -1,0 +1,21 @@
+- id: ev-4c3d4f6d62dad806
+  project_slug: github
+  url: https://www.v2ex.com/t/1236554
+  title: 工作十多年后重新做 Windows 开发，我用 C++20 和 Codex 写了一个轻量级原生框架 MWFL
+  published_at: '2026-08-23T06:15:09Z'
+  collected_at: '2026-08-23T14:11:11Z'
+  source_kind: product
+  tier: independent
+  fact: "大家好，最近做了一个原生 Windows 开发框架，叫做 **MWFL （ Modern Windows Foundation Layer ）**，想在这里简单分享一下它的来历。\r\n\
+    \r\n我刚毕业时做的就是 Windows 桌面程序开发。当时用过 Qt 、MFC ，也用过 WTL 。\r\n\r\n如果追求轻量，比如需要把程序放进 U 盘或光盘里直接运行，尽量减少依赖并控制程序体积，当时我通常会选择\
+    \ WTL ；如果不太在意依赖和安装包大小，则会考虑 MFC 或 Qt 。我也接触过 DuiLib 一类相对轻量的方案，但整体开发体验始终没有特别满意。\r\n\r\n后来十多年里，我的工作重心转到了移动端，基本没有再系统地做\
+    \ Windows 桌面开发。直到最近，工作中又遇到了一些 Windows 开发需求。\r\n\r\n重新回头看这个领域，我发现当年的一些问题似乎还在：\r\n\r\n直接使用 Win32 API\
+    \ ，代码比较繁琐，需要处理大量窗口消息和样板代码； MFC 、Qt 这样的方案相对完整，但有时又显得偏重； WTL 足够轻量，不过大量宏以及偏传统的编程方式，放在今天来看，代码的可读性和开发体验都还有改进空间。\r\
+    \n\r\n于是我开始思考：能不能利用 C++20 的一些现代语言特性，在 Win32 之上构建一个更现代、轻量而且容易理解的基础库？\r\n\r\n这个项目只面向 Windows ，不考虑跨平台。跨平台有它的价值，但也会带来更多抽象层和复杂度。对我的需求来说，既然目标就是\
+    \ Windows 10 及以上系统，那保留 Windows 的原生控件、原生行为和系统集成能力，更直接。\r\n\r\n最近我和 Codex 反复讨论和迭代，逐渐把这个想法做成了现在的 MWFL\
+    \ 。\r\n\r\n```\r\n#include <mwfl/mwfl.h>\r\n\r\nusing mwfl::operator\"\"_dip;\r\n\r\nclass MainWindow\
+    \ final : public mwfl::WindowBase {\r\npublic:\r\n    void BuildUI() override {\r\n        SetTitle(L\"\
+    Hello, mwfl\");\r\n\r\n        mwfl::ControlHost ui{*this};\r\n        ui.Add(message_, L\"Native\
+    \ UI, modern C++20.\");\r\n        ui.Add(close_, L\"Close\");\r\n\r\n        SetLayout(mwfl::Column()\r\
+    \n            .Margin(24_dip).Gap(12_dip)\r\n            .Add(message_, mwfl::Auto())\r\n        \
+    \    .Add(close_, mwfl::Fi"

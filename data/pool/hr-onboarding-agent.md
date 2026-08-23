@@ -11,21 +11,29 @@ inspiration_en: 'The trend is HR agents moving from chat to the legal step you c
   reads, form write-back, overdue reminders—then sell offboarding and confirmation. Judgement: charge
   per hire, which maps to HR budgets better than seats.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/z15114664687-dot/hr-onboarding-agent
 canonical_url: https://github.com/z15114664687-dot/hr-onboarding-agent
 summary: 'Open-source AI-assisted HR onboarding for Feishu/Lark: configurable workflows, document OCR
   and review, Bitable sync, reminders, and a zero-credential demo.'
 first_seen: '2026-08-11T11:22:22Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/z15114664687-dot/hr-onboarding-agent
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 94
+    stars: 98
     forks: 0
     open_issues: 16
 ---

@@ -11,12 +11,20 @@ inspiration_en: The trend is that new products must first honor old work posture
   Start with engineers who won't leave the terminal, wrapping undo, status, and progress as moves they
   already know. Pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/ccch1mneyyy/dsh-TUI
 canonical_url: https://github.com/ccch1mneyyy/dsh-TUI
 summary: 解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条
   + TPS 仪表。npm 一键安装。
 first_seen: '2026-08-13T12:49:31Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
@@ -30,11 +38,11 @@ sightings:
     open_issues: 36
 - source: github
   url: https://dshtui.com/
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 2315
-    forks: 107
-    open_issues: 81
+    stars: 2356
+    forks: 108
+    open_issues: 85
 ---
 
 # dsh-TUI

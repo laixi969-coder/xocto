@@ -9,21 +9,29 @@ summary_en: ''
 inspiration_en: A framework on top of a framework means the base one isn't good enough yet. The middle
   layer is where the opening is.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/wanmol/goal-flow
 canonical_url: https://github.com/wanmol/goal-flow
 summary: Graph-Orchestrated Agent Loop — a production-grade framework on LangGraph. Combine workflow graphs
   and agent loops, transpile Dify DSL to runnable code, swap wire protocols (Dify/OpenAI).
 first_seen: '2026-08-06T15:43:24Z'
-last_seen: '2026-08-20T22:45:17Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wanmol/goal-flow
-  seen_at: '2026-08-20T22:45:17Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 132
+    stars: 133
     forks: 2
     open_issues: 0
 ---

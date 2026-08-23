@@ -11,22 +11,30 @@ inspiration_en: Editable output is a real need. Building on someone else's brand
   The trend is assistants producing office files as a must-have. The entry is slides you can still edit
   after generation — but cloning a name brand can be zeroed in a day.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/Binaryify/open-kimi-ppt-skill
 canonical_url: https://github.com/Binaryify/open-kimi-ppt-skill
 summary: 非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for
   AI agents — generate editable PPTD + PPTX with a local browser editor
 first_seen: '2026-08-05T07:30:56Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Binaryify/open-kimi-ppt-skill
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 1599
-    forks: 1235
+    stars: 1597
+    forks: 1237
     open_issues: 6
 ---
 

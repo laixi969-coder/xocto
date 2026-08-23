@@ -11,21 +11,29 @@ inspiration_en: 'The trend is complex AI tools splitting onboarding into first i
   or beginners never enter. The entry is a staged preset for DeepSeek Harness. Judgment: the preset itself
   is hard to charge for; the value is keeping people through week one.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/xiaobright/modeltest
 canonical_url: https://github.com/xiaobright/modeltest
 summary: 'Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2
   98/99)'
 first_seen: '2026-08-14T14:06:39Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiaobright/modeltest
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 3714
+    stars: 3724
     forks: 111
     open_issues: 29
 ---

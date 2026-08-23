@@ -11,22 +11,30 @@ inspiration_en: While everyone races to generate footage, the value sits in the 
   roll. The trend is upstream asset prep becoming its own business. The entry is adapting novels into
   short drama, using open source to fill a paid community.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/eternityspring/shuohao-skills
 canonical_url: https://github.com/eternityspring/shuohao-skills
 summary: AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles,
   model sheets, adaptation outlines. Runs in Claude Code & codex.
 first_seen: '2026-08-06T10:38:49Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/eternityspring/shuohao-skills
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 1893
-    forks: 234
+    stars: 1912
+    forks: 237
     open_issues: 2
 ---
 

@@ -11,6 +11,14 @@ inspiration_en: The trend is chat turning from plain text into tappable interfac
   raw web pages. Start with reports, surveys, and training quizzes using a component whitelist, with clicks
   sent back and scoring done locally. Pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/omdsh-dev/dsh-genui
 canonical_url: https://github.com/omdsh-dev/dsh-genui
 summary: 'GenUI for DeepSeek Harness: interactive UI components rendered inline in assistant replies via
@@ -18,7 +26,7 @@ summary: 'GenUI for DeepSeek Harness: interactive UI components rendered inline 
   back to the model. Ships the fence-teaching host plugin, the browser renderer (client half), and the
   genui skill.'
 first_seen: '2026-08-13T13:07:52Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
@@ -32,10 +40,10 @@ sightings:
     open_issues: 3
 - source: github
   url: https://omdsh-dev.github.io/dsh-genui/
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 297
-    forks: 27
+    stars: 302
+    forks: 26
     open_issues: 0
 ---
 

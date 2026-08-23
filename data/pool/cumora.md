@@ -11,22 +11,30 @@ inspiration_en: The trend is AI leaving the sidebar and taking a seat on the tea
   teams already running several assistants, giving them names, status, and a task board, not bolting one
   more bot onto existing chat.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://cumora.ai
 canonical_url: https://cumora.ai
 summary: Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates
   — with cloud or bring-your-own (Claude Code / Codex) brains.
 first_seen: '2026-08-17T09:13:52Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://cumora.ai
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 2899
-    forks: 350
+    stars: 2917
+    forks: 353
     open_issues: 6
 ---
 

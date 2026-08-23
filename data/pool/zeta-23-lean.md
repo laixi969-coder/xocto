@@ -8,22 +8,30 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: true
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/anthropics/zeta-23-lean
 canonical_url: https://github.com/anthropics/zeta-23-lean
 summary: ''
 first_seen: '2026-08-06T23:56:11Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/zeta-23-lean
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 185
+    stars: 186
     forks: 27
-    open_issues: 7
+    open_issues: 8
 ---
 
 # zeta-23-lean

@@ -11,30 +11,38 @@ inspiration_en: The trend is that once an assistant ecosystem scatters, the firs
   The entry is not another add-on — an index by who uses it at which step, later money from listing and
   consulting. No fees yet.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://deepseekdocs.com/
 canonical_url: https://deepseekdocs.com
 summary: 'DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub
   and the public dsh-plugin topic.'
 first_seen: '2026-08-11T13:14:49Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://deepseekdocs.com/
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 832
-    forks: 302
-    open_issues: 8
+    stars: 850
+    forks: 308
+    open_issues: 0
 - source: github
   url: https://github.com/Dominic789654/awesome-deepseek-harness
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 181
+    stars: 184
     forks: 119
-    open_issues: 4
+    open_issues: 3
 ---
 
 # awesome-deepseek-harness

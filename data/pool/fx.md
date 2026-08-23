@@ -8,22 +8,30 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://fx.sh
 canonical_url: https://fx.sh
 summary: Unix like coding agent
 first_seen: '2026-08-11T08:57:04Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://fx.sh
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 2076
-    forks: 219
-    open_issues: 131
+    stars: 2179
+    forks: 231
+    open_issues: 142
 ---
 
 # fx

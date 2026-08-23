@@ -11,6 +11,14 @@ inspiration_en: 'The trend is that agents split on how long they can finish a jo
   step is. Don''t lengthen the chat. Start with computer use and workflows whose environment can be audited:
   believe only facts on the machine. Open and free.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://lh-harness.pages.dev
 canonical_url: https://lh-harness.pages.dev
 summary: The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended
@@ -18,18 +26,18 @@ summary: The long-horizon computer-use harness. Run AI agents across desktop app
   execution, durable verified state, independent auditing, recoverable progress, and native Claude Code
   / Codex / OpenClaw integration.
 first_seen: '2026-08-04T04:30:58Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://lh-harness.pages.dev
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 871
-    forks: 103
-    open_issues: 22
+    stars: 994
+    forks: 112
+    open_issues: 24
 ---
 
 # LongHorizon-Harness

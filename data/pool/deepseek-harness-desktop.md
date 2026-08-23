@@ -11,22 +11,30 @@ inspiration_en: 'The trend is open AI work tools needing a normal desktop a pers
   is wrapping the typed interface in a window for people who want it but cannot set up the environment.
   Judgment: the window itself is hard to charge for; money is more likely in later add-ons and hosting.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://dshdesktop.cn
 canonical_url: https://dshdesktop.cn
 summary: 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验
 first_seen: '2026-08-13T16:30:50Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://dshdesktop.cn
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 18289
-    forks: 892
-    open_issues: 165
+    stars: 18794
+    forks: 917
+    open_issues: 179
 - source: github
   url: https://github.com/ChisaAlter/Deepseek-Harness-Desktop
   seen_at: '2026-08-14T22:40:51Z'
@@ -48,6 +56,13 @@ sightings:
     stars: 616
     forks: 34
     open_issues: 6
+- source: github
+  url: https://github.com/dsh-tauri-desk/deepseek-harness-desktop
+  seen_at: '2026-08-23T14:11:17Z'
+  metrics:
+    stars: 989
+    forks: 59
+    open_issues: 7
 ---
 
 # deepseek-harness-desktop

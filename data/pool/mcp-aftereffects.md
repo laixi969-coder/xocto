@@ -8,21 +8,29 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/kumoproductions/mcp-aftereffects
 canonical_url: https://github.com/kumoproductions/mcp-aftereffects
 summary: TypeScript MCP server for Adobe After Effects (Windows & macOS) — project/comp/layer introspection,
   atomic undo-grouped operations, JSON project export/import, and single-frame rendering via file IPC.
 first_seen: '2026-08-08T14:47:28Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kumoproductions/mcp-aftereffects
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 45
+    stars: 46
     forks: 0
     open_issues: 1
 ---

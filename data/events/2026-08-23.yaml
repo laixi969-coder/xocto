@@ -1,0 +1,2261 @@
+- id: first-reapi
+  project_slug: reapi
+  event_type: first_discovered
+  occurred_at: '2026-08-23T00:10:45Z'
+  discovered_at: '2026-08-23T14:11:11Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-1b531aff4ffa597a
+  homepage: true
+- id: evt-8c5fc097f60ca95f
+  project_slug: reapi
+  event_type: material_update
+  occurred_at: '2026-08-22T22:41:42Z'
+  discovered_at: '2026-08-23T14:11:11Z'
+  signals:
+  - update
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-c80a1faf5e566e81
+  homepage: true
+- id: first-cinelyo
+  project_slug: cinelyo
+  event_type: first_discovered
+  occurred_at: '2026-08-20T09:00:29Z'
+  discovered_at: '2026-08-23T14:11:11Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-4f3be6975e983ce3
+  homepage: true
+- id: evt-3d9219abb4dd7c6b
+  project_slug: reapi
+  event_type: material_update
+  occurred_at: '2026-08-20T02:20:49Z'
+  discovered_at: '2026-08-23T14:11:11Z'
+  signals:
+  - update
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-da035f4343d0899c
+  homepage: true
+- id: first-github
+  project_slug: github
+  event_type: first_discovered
+  occurred_at: '2026-08-23T06:15:09Z'
+  discovered_at: '2026-08-23T14:11:11Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-4c3d4f6d62dad806
+  homepage: true
+- id: first-claude-academy
+  project_slug: claude-academy
+  event_type: first_discovered
+  occurred_at: '2026-08-21T00:47:05Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-0629101aa025a6fe
+  homepage: true
+- id: first-plask
+  project_slug: plask
+  event_type: first_discovered
+  occurred_at: '2026-08-18T21:46:27Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-2c01409774dde0d9
+  homepage: true
+- id: first-yattayo
+  project_slug: yattayo
+  event_type: first_discovered
+  occurred_at: '2026-08-17T01:36:09Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-8e29dfa467e0144d
+  homepage: true
+- id: first-yatko
+  project_slug: yatko
+  event_type: first_discovered
+  occurred_at: '2026-08-20T02:28:21Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-09eac57fd9d89298
+  homepage: true
+- id: first-openlogi
+  project_slug: openlogi
+  event_type: first_discovered
+  occurred_at: '2026-08-22T17:13:58Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-feddf3abc3a19726
+  homepage: true
+- id: first-kanasensei
+  project_slug: kanasensei
+  event_type: first_discovered
+  occurred_at: '2026-08-20T19:24:28Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-355758b4ddca23b5
+  homepage: true
+- id: first-declarative
+  project_slug: declarative
+  event_type: first_discovered
+  occurred_at: '2026-08-23T11:48:23Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-a42639a555ebb9d7
+  homepage: true
+- id: first-skylens
+  project_slug: skylens
+  event_type: first_discovered
+  occurred_at: '2026-08-23T09:27:40Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-2819e4b7aa8d0cd7
+  homepage: true
+- id: evt-77d233fd5ef48b65
+  project_slug: soverybright
+  event_type: material_update
+  occurred_at: '2026-08-22T18:43:03Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - update
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-7e5ba0ff25d1d76c
+  homepage: true
+- id: evt-a06a2bf6b702ce7c
+  project_slug: grep
+  event_type: material_update
+  occurred_at: '2026-08-22T16:21:21Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - update
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f8fb71ef4b9dbc5d
+  homepage: true
+- id: first-pgextassure
+  project_slug: pgextassure
+  event_type: first_discovered
+  occurred_at: '2026-08-22T07:28:39Z'
+  discovered_at: '2026-08-23T14:11:13Z'
+  signals:
+  - release
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-2e079120988e75e1
+  homepage: true
+- id: evt-80661dfb27007049
+  project_slug: cumora
+  event_type: material_update
+  occurred_at: '2026-08-17T09:13:52Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-0d7030e07583efcd
+  homepage: true
+- id: evt-ddd59e65615b3181
+  project_slug: open-bot
+  event_type: material_update
+  occurred_at: '2026-08-17T00:44:59Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ed0c30ba257d22f4
+  homepage: true
+- id: evt-feb224a82451f8d9
+  project_slug: phone-harness
+  event_type: material_update
+  occurred_at: '2026-08-07T22:28:53Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f41ac28437e98dc0
+  homepage: true
+- id: evt-514a3fecfd43da2b
+  project_slug: shuohao-skills
+  event_type: material_update
+  occurred_at: '2026-08-06T10:38:49Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-8a42693424afb41d
+  homepage: true
+- id: evt-6458df67c8a65653
+  project_slug: fuxi
+  event_type: material_update
+  occurred_at: '2026-08-04T07:32:11Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-3160554a590822da
+  homepage: true
+- id: evt-6182072c0a1e05a1
+  project_slug: open-kimi-ppt-skill
+  event_type: material_update
+  occurred_at: '2026-08-05T07:30:56Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-4ac8e99a550bc958
+  homepage: true
+- id: evt-4406094d8ee033c5
+  project_slug: sprix-sage-router
+  event_type: material_update
+  occurred_at: '2026-08-18T04:08:11Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6a2b606b2e21e2a3
+  homepage: true
+- id: evt-d713815e8e9cbb70
+  project_slug: unlazy
+  event_type: material_update
+  occurred_at: '2026-08-09T23:39:12Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-00eb756cd7d7fa30
+  homepage: true
+- id: evt-0fb9a18f6bd4d326
+  project_slug: longhorizon-harness
+  event_type: material_update
+  occurred_at: '2026-08-04T04:30:58Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-2c2ea99b2f9b551f
+  homepage: true
+- id: evt-420b8b0ed254e935
+  project_slug: moli
+  event_type: material_update
+  occurred_at: '2026-08-10T13:20:30Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-500aef399bdd8831
+  homepage: true
+- id: evt-70a7315f2866e8f8
+  project_slug: awesome-deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-11T13:14:49Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-fd76abf81017d989
+  homepage: true
+- id: evt-ad32d9f304700d3f
+  project_slug: pgbot
+  event_type: material_update
+  occurred_at: '2026-08-11T23:41:52Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-e5e148097a1a2368
+  homepage: true
+- id: evt-e45f62d7b76e2f5a
+  project_slug: mcp-server
+  event_type: material_update
+  occurred_at: '2026-08-07T11:13:26Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a0ba56d10483cf89
+  homepage: true
+- id: evt-34a26a4a7700906e
+  project_slug: hermesoffice
+  event_type: material_update
+  occurred_at: '2026-08-04T15:55:03Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-07e9fda73bb33f67
+  homepage: true
+- id: evt-417495b805d7255c
+  project_slug: anti-slop
+  event_type: material_update
+  occurred_at: '2026-08-07T10:29:56Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-fbe1a86dbfd0d819
+  homepage: true
+- id: evt-873915bf7adffdc8
+  project_slug: skills
+  event_type: material_update
+  occurred_at: '2026-08-04T22:14:35Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f22aa2e766ad0093
+  homepage: true
+- id: evt-0089da42f8c59803
+  project_slug: fullstack-agent
+  event_type: material_update
+  occurred_at: '2026-08-17T04:00:03Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-35ac62ff4ff0d3f7
+  homepage: true
+- id: evt-24304ea364247cbc
+  project_slug: stop-that-shit
+  event_type: material_update
+  occurred_at: '2026-08-11T15:31:45Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-cc33f5fc87028845
+  homepage: true
+- id: evt-e9809aece01828f6
+  project_slug: hunter-community
+  event_type: material_update
+  occurred_at: '2026-08-10T10:37:07Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-afa874f9ae7fe198
+  homepage: true
+- id: evt-aa2de98fa8de680e
+  project_slug: awesome-ai-pedia
+  event_type: material_update
+  occurred_at: '2026-08-03T05:43:30Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-48d4bf7660862d72
+  homepage: true
+- id: first-formcms
+  project_slug: formcms
+  event_type: first_discovered
+  occurred_at: '2026-08-13T11:48:48Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-1cbac18f7d502610
+  homepage: true
+- id: first-cra-agent
+  project_slug: cra-agent
+  event_type: first_discovered
+  occurred_at: '2026-08-10T03:22:24Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-1a392ba46e0cdea1
+  homepage: true
+- id: evt-75a6feff438781ca
+  project_slug: goal-flow
+  event_type: material_update
+  occurred_at: '2026-08-06T15:43:24Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b6845309e8544cec
+  homepage: true
+- id: evt-3c484a2919d760b5
+  project_slug: hr-onboarding-agent
+  event_type: material_update
+  occurred_at: '2026-08-11T11:22:22Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-96231eedf31fc276
+  homepage: true
+- id: evt-2ffbd869f1feeb5e
+  project_slug: brahma-echo
+  event_type: material_update
+  occurred_at: '2026-08-10T10:43:34Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-0c29bb6ea5282cc3
+  homepage: true
+- id: evt-629646d52a930e11
+  project_slug: jobflow
+  event_type: material_update
+  occurred_at: '2026-08-15T08:03:04Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-3748b56fe4b86680
+  homepage: true
+- id: evt-a7bc00424c5cd2bb
+  project_slug: artemis
+  event_type: material_update
+  occurred_at: '2026-08-13T17:59:37Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-9b912a4b294ae1bd
+  homepage: true
+- id: evt-c9208e1494d19dc1
+  project_slug: massive-passive-ai-blueprint
+  event_type: material_update
+  occurred_at: '2026-08-07T06:57:09Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-5dc1911eb35fedfe
+  homepage: true
+- id: evt-4f7e97a46c16b7c2
+  project_slug: ai-copywriting-prompts
+  event_type: material_update
+  occurred_at: '2026-08-08T07:25:41Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-e165216b1d68b8aa
+  homepage: true
+- id: evt-ae61c06d85a7ff4e
+  project_slug: jarvis-os-v2
+  event_type: material_update
+  occurred_at: '2026-08-07T16:45:58Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-bcc174b7686adfb5
+  homepage: true
+- id: evt-b88e9584d3909597
+  project_slug: ai-video-maker
+  event_type: material_update
+  occurred_at: '2026-08-15T13:00:24Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-1f4ba6e2b6eebe61
+  homepage: true
+- id: evt-69e503a1453ea1f0
+  project_slug: ultimate-viddeos-ai-review-2026
+  event_type: material_update
+  occurred_at: '2026-08-07T07:23:15Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b62f5ce0773ce829
+  homepage: true
+- id: evt-1c09207fb96e3558
+  project_slug: bridgic-agent
+  event_type: material_update
+  occurred_at: '2026-08-11T06:53:07Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-8de187d23b2204b0
+  homepage: true
+- id: evt-bbf7e7dcaf7f600a
+  project_slug: easy-ai-ebook-writer-kdp-generator
+  event_type: material_update
+  occurred_at: '2026-08-11T17:09:32Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f9e3fa00e97bd97e
+  homepage: true
+- id: first-anvilwiki
+  project_slug: anvilwiki
+  event_type: first_discovered
+  occurred_at: '2026-08-11T15:25:42Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-4674f9aca94500af
+  homepage: true
+- id: first-ai-model-development-ment
+  project_slug: ai-model-development-ment
+  event_type: first_discovered
+  occurred_at: '2026-08-09T00:23:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-080167972acd6ecb
+  homepage: true
+- id: evt-4c8265f40688ab9b
+  project_slug: northcinder
+  event_type: material_update
+  occurred_at: '2026-08-17T11:42:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b65b594d0348ab54
+  homepage: true
+- id: first-x64dbg-mcp-server
+  project_slug: x64dbg-mcp-server
+  event_type: first_discovered
+  occurred_at: '2026-08-22T14:28:41Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-30e87a11a898c51d
+  homepage: true
+- id: evt-eeea294444753f16
+  project_slug: getopen
+  event_type: material_update
+  occurred_at: '2026-08-11T17:53:51Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-c716da977f018a6d
+  homepage: true
+- id: evt-1ad0aad5f33e08b3
+  project_slug: awesome-deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-13T13:54:05Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-11a11246052ce348
+  homepage: true
+- id: evt-72d5a7e0b5756f04
+  project_slug: cove-sensory-mcp
+  event_type: material_update
+  occurred_at: '2026-08-08T09:05:59Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-031c09e74b94ac91
+  homepage: true
+- id: evt-39dac966ef7c89c6
+  project_slug: intentional-arrangement-skos
+  event_type: material_update
+  occurred_at: '2026-08-06T01:44:42Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a9d08d176eacf2c8
+  homepage: true
+- id: evt-18852d45a788d3a5
+  project_slug: mcp-aftereffects
+  event_type: material_update
+  occurred_at: '2026-08-08T14:47:28Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ce754f48b763de69
+  homepage: true
+- id: evt-115e957a48ad89bc
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-14T03:54:20Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f83ed88973ec384b
+  homepage: true
+- id: evt-2587617d9cbce542
+  project_slug: fx
+  event_type: material_update
+  occurred_at: '2026-08-11T08:57:04Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6ddb971a882f6c84
+  homepage: true
+- id: evt-2ece0c806fd3334a
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-17T22:40:47Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b8af0ea898dd763d
+  homepage: true
+- id: evt-dbee85f4ce044b05
+  project_slug: herdrm
+  event_type: material_update
+  occurred_at: '2026-08-19T06:55:39Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-24efa2b5eadfc384
+  homepage: true
+- id: evt-b35c90a6db0576e3
+  project_slug: wake
+  event_type: material_update
+  occurred_at: '2026-08-18T09:46:23Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-0e0fd433fae27614
+  homepage: true
+- id: evt-6500f0cf723b64bb
+  project_slug: harnessrouter
+  event_type: material_update
+  occurred_at: '2026-08-09T20:19:14Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-8c01c62574e3fdf8
+  homepage: true
+- id: evt-28f7b176247c73d6
+  project_slug: hero-anti-overdefense
+  event_type: material_update
+  occurred_at: '2026-08-11T05:08:30Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-5b646929c1550c28
+  homepage: true
+- id: evt-3eda3efe40c01823
+  project_slug: diri
+  event_type: material_update
+  occurred_at: '2026-08-04T10:08:23Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6a14fd83cb3d4861
+  homepage: true
+- id: evt-557677138bb9852b
+  project_slug: benjamin-plus-skill
+  event_type: material_update
+  occurred_at: '2026-08-17T11:00:29Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-d6e05d1affbccb41
+  homepage: true
+- id: evt-499d4fad1b71e98b
+  project_slug: nopus
+  event_type: material_update
+  occurred_at: '2026-08-15T12:53:20Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a0eba44ecbf9dd78
+  homepage: true
+- id: evt-b056d7ec0fc43627
+  project_slug: zoetrope
+  event_type: material_update
+  occurred_at: '2026-08-18T10:48:39Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-89ff0ee8ed0af568
+  homepage: true
+- id: evt-b582cffbafdfd85f
+  project_slug: mcp-server
+  event_type: material_update
+  occurred_at: '2026-08-07T08:14:34Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-48ce0f59a326351c
+  homepage: true
+- id: evt-0fd8f32f28d02147
+  project_slug: autodesign
+  event_type: material_update
+  occurred_at: '2026-08-14T02:38:45Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-4f7422831066da95
+  homepage: true
+- id: evt-0360dcc42f506307
+  project_slug: vibepulse
+  event_type: material_update
+  occurred_at: '2026-08-12T10:30:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b2b1c21d1c08caab
+  homepage: true
+- id: evt-81425615a75a6685
+  project_slug: phi
+  event_type: material_update
+  occurred_at: '2026-08-03T03:16:48Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b189f9e34cc0e1fd
+  homepage: true
+- id: evt-6ad2b9630432bd05
+  project_slug: procoder
+  event_type: material_update
+  occurred_at: '2026-08-16T07:47:17Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-3aa06611a1333b0c
+  homepage: true
+- id: first-lore
+  project_slug: lore
+  event_type: first_discovered
+  occurred_at: '2026-08-10T22:07:29Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-214716d6022a0e72
+  homepage: true
+- id: first-agentic-playwright
+  project_slug: agentic-playwright
+  event_type: first_discovered
+  occurred_at: '2026-08-13T08:12:20Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-4417c29ed53a7e5c
+  homepage: true
+- id: evt-65875cf1993d2700
+  project_slug: joyai-video-edit
+  event_type: material_update
+  occurred_at: '2026-08-04T08:22:24Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-fbcc237db6a12025
+  homepage: true
+- id: evt-b323fedc82158ddd
+  project_slug: bloub
+  event_type: material_update
+  occurred_at: '2026-08-15T13:21:23Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-453432e15ab04292
+  homepage: true
+- id: evt-891b4f24e603cdbb
+  project_slug: lanshu-create-ai-presenter-video
+  event_type: material_update
+  occurred_at: '2026-08-20T13:40:06Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-53e9838feb34cfa3
+  homepage: true
+- id: evt-88643eed1ae4215e
+  project_slug: te-speed-minimaxh3-oss
+  event_type: material_update
+  occurred_at: '2026-08-03T19:56:28Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-691f52c7cc044ced
+  homepage: true
+- id: evt-5c4183f56c226793
+  project_slug: mixamo-llm-mocap
+  event_type: material_update
+  occurred_at: '2026-08-17T21:05:02Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-255ec31f1bef49fa
+  homepage: true
+- id: evt-4957e26c19cc59b6
+  project_slug: lazy-frames
+  event_type: material_update
+  occurred_at: '2026-08-15T13:27:06Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-efee2e478aaa0652
+  homepage: true
+- id: evt-78e81a55d91f1726
+  project_slug: bare-browser
+  event_type: material_update
+  occurred_at: '2026-08-15T21:42:56Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a1156678b86f0097
+  homepage: true
+- id: evt-73eb216e08b15648
+  project_slug: dance-video-to-prompt
+  event_type: material_update
+  occurred_at: '2026-08-17T06:32:34Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-7df6042c5dba156f
+  homepage: true
+- id: evt-c4a11b64c0c0460b
+  project_slug: film-studio-skills
+  event_type: material_update
+  occurred_at: '2026-08-14T02:24:25Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-1cee74dd01e7d0fd
+  homepage: true
+- id: evt-7e0aaadfe6280cf5
+  project_slug: clipfactory
+  event_type: material_update
+  occurred_at: '2026-08-22T12:07:47Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b9c4b5e423279ae5
+  homepage: true
+- id: evt-9a51af6b328ff0d5
+  project_slug: slate
+  event_type: material_update
+  occurred_at: '2026-08-04T07:33:09Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a7cf74f07ee0ead8
+  homepage: true
+- id: evt-ca5e9cf548f6845f
+  project_slug: ra-bench
+  event_type: material_update
+  occurred_at: '2026-08-13T01:50:44Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-eca757e44821cc43
+  homepage: true
+- id: evt-71512a1a295de981
+  project_slug: h3-game-sprites
+  event_type: material_update
+  occurred_at: '2026-08-17T19:29:39Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-4782395a012a91ca
+  homepage: true
+- id: evt-e7f6ad7edcbe9ced
+  project_slug: automated-video-marketing-tools
+  event_type: material_update
+  occurred_at: '2026-08-08T06:37:13Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-d962082e86bd92ab
+  homepage: true
+- id: evt-43d2e379894a6441
+  project_slug: dsgvo-ki-video-studio-guide
+  event_type: material_update
+  occurred_at: '2026-08-10T08:34:38Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-83504b53c81cc7a5
+  homepage: true
+- id: evt-1955bf34357aea98
+  project_slug: avatar-speak-pro-download
+  event_type: material_update
+  occurred_at: '2026-08-07T09:25:15Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-110e40b2b2e39449
+  homepage: true
+- id: evt-9978593f139d12a8
+  project_slug: ev-assistant
+  event_type: material_update
+  occurred_at: '2026-08-09T13:21:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-35baec4a3f72495b
+  homepage: true
+- id: first-dsh-omi-voice
+  project_slug: dsh-omi-voice
+  event_type: first_discovered
+  occurred_at: '2026-08-18T04:33:48Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-b5fa092d579ba305
+  homepage: true
+- id: evt-656fddf7900a052c
+  project_slug: qiaomu-seo
+  event_type: material_update
+  occurred_at: '2026-08-03T09:57:25Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b886351f13caf781
+  homepage: true
+- id: evt-0d88d739570313fa
+  project_slug: ai-job-search-cn
+  event_type: material_update
+  occurred_at: '2026-08-07T04:06:38Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-338d3653f1c686e8
+  homepage: true
+- id: evt-c2181422e76e0b96
+  project_slug: donsetch
+  event_type: material_update
+  occurred_at: '2026-08-07T10:13:16Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-4259e00f379a79a0
+  homepage: true
+- id: evt-addc63851407004d
+  project_slug: openhistory
+  event_type: material_update
+  occurred_at: '2026-08-16T21:17:24Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f95fff682f5c143b
+  homepage: true
+- id: evt-ee37ec1b22091427
+  project_slug: multiagent-search
+  event_type: material_update
+  occurred_at: '2026-08-07T04:19:43Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-fcb13413bd3acc80
+  homepage: true
+- id: evt-db57a66bab88914d
+  project_slug: satori
+  event_type: material_update
+  occurred_at: '2026-08-03T16:53:06Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-d9e5f6a252018eb1
+  homepage: true
+- id: evt-ac8fd99fc3e15b9b
+  project_slug: legal-ai-skills
+  event_type: material_update
+  occurred_at: '2026-08-04T07:41:24Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-86995c7ba98ad355
+  homepage: true
+- id: evt-6715579a66f24b4e
+  project_slug: kancelaria-lex
+  event_type: material_update
+  occurred_at: '2026-08-17T09:27:27Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-1ea01788c2a542c1
+  homepage: true
+- id: evt-d9b40dac2aa65ed2
+  project_slug: business-builder-ai-deutsch
+  event_type: material_update
+  occurred_at: '2026-08-08T08:51:50Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-bfe0965a9afcc0c6
+  homepage: true
+- id: first-grok-register
+  project_slug: grok-register
+  event_type: first_discovered
+  occurred_at: '2026-08-12T11:56:57Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-d3840033d4da1ec6
+  homepage: true
+- id: first-bansos-router
+  project_slug: bansos-router
+  event_type: first_discovered
+  occurred_at: '2026-08-17T23:53:59Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-8061f398a44abffc
+  homepage: true
+- id: first-enterprise-system-design
+  project_slug: enterprise-system-design
+  event_type: first_discovered
+  occurred_at: '2026-08-12T04:03:15Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-5b7f4a5f7dee91b5
+  homepage: true
+- id: first-airsec
+  project_slug: airsec
+  event_type: first_discovered
+  occurred_at: '2026-08-14T19:31:55Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-ca671a1cebd6eb36
+  homepage: true
+- id: first-oss-pr-reviewer
+  project_slug: oss-pr-reviewer
+  event_type: first_discovered
+  occurred_at: '2026-08-13T01:59:03Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-fe638510aed17cc1
+  homepage: true
+- id: first-fde-guide
+  project_slug: fde-guide
+  event_type: first_discovered
+  occurred_at: '2026-08-07T19:58:20Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-0f76b24a0eb2fb9c
+  homepage: true
+- id: first-deepseek-harness-handbook
+  project_slug: deepseek-harness-handbook
+  event_type: first_discovered
+  occurred_at: '2026-08-14T06:25:52Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-31dd84f27d5135d2
+  homepage: true
+- id: first-ai-security-projects
+  project_slug: ai-security-projects
+  event_type: first_discovered
+  occurred_at: '2026-08-07T06:25:48Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-fbdbacf882138495
+  homepage: true
+- id: first-dhunter
+  project_slug: dhunter
+  event_type: first_discovered
+  occurred_at: '2026-08-15T15:28:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-90039211a4cab613
+  homepage: true
+- id: evt-8db436b9c565214d
+  project_slug: deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-13T11:56:32Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-441631bcbbe98188
+  homepage: true
+- id: evt-995e098ceeb388de
+  project_slug: deepseek-harness-desktop
+  event_type: material_update
+  occurred_at: '2026-08-13T16:30:50Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-fff1f19f451793df
+  homepage: true
+- id: evt-8662fb5b90c4a90f
+  project_slug: awesome-dsh-plugin
+  event_type: material_update
+  occurred_at: '2026-08-13T13:55:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6f8edd7c1d4a2d44
+  homepage: true
+- id: evt-165125343bc3d96e
+  project_slug: dsh-routing-suite
+  event_type: material_update
+  occurred_at: '2026-08-14T21:20:55Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-447a06a9bb8e2cc9
+  homepage: true
+- id: evt-f1cfc9ef3b71c393
+  project_slug: dsh-web-ui
+  event_type: material_update
+  occurred_at: '2026-08-12T05:15:20Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-c8051d3103308431
+  homepage: true
+- id: evt-1169b3805427333e
+  project_slug: dsh-better-sidebar
+  event_type: material_update
+  occurred_at: '2026-08-07T16:04:00Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-eebc750e44441cc8
+  homepage: true
+- id: evt-ce86d9c46e6ea5ca
+  project_slug: dsh-deep-whale
+  event_type: material_update
+  occurred_at: '2026-08-13T13:02:14Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-05979a913bbd78b5
+  homepage: true
+- id: evt-e10b48630c293004
+  project_slug: awesome-dsh-plugins
+  event_type: material_update
+  occurred_at: '2026-08-04T21:46:54Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ade09b7f0e8d9656
+  homepage: true
+- id: evt-5dfa0ef37a838e63
+  project_slug: deepseek-harness-eac
+  event_type: material_update
+  occurred_at: '2026-08-14T16:29:54Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f71d8bf754f9de5a
+  homepage: true
+- id: evt-57c9cd04409e4289
+  project_slug: deepseek-v4-j-space-capability-realization-report
+  event_type: material_update
+  occurred_at: '2026-08-16T11:38:42Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-1405fd44c873f29d
+  homepage: true
+- id: evt-dcac59a88963f4f8
+  project_slug: deepseek-harness-desktop
+  event_type: material_update
+  occurred_at: '2026-08-14T02:36:29Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-99b5bd74a0a0c089
+  homepage: true
+- id: evt-b2c438d659f94ed5
+  project_slug: dsh-vision-router
+  event_type: material_update
+  occurred_at: '2026-08-13T18:57:47Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-68b242426cde180b
+  homepage: true
+- id: evt-d4db8dc4a3c4ea47
+  project_slug: dsh-agent-teams
+  event_type: material_update
+  occurred_at: '2026-08-12T13:41:50Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ac132b30b50d7e87
+  homepage: true
+- id: evt-65d186effa6d7470
+  project_slug: agent-vision-toolkit
+  event_type: material_update
+  occurred_at: '2026-08-13T12:36:34Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-31f4e43a6b1d6006
+  homepage: true
+- id: evt-5c33f189049c30e3
+  project_slug: deepseek-balance-whale-widget
+  event_type: material_update
+  occurred_at: '2026-08-18T03:13:51Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b7fb570b50e64330
+  homepage: true
+- id: evt-bab450eec67783a5
+  project_slug: dsh-im
+  event_type: material_update
+  occurred_at: '2026-08-14T20:40:06Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-475ff7c503aa6bad
+  homepage: true
+- id: evt-082f3c5a2fd7fb38
+  project_slug: dsh-desktop-2
+  event_type: material_update
+  occurred_at: '2026-08-13T10:41:33Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-71343baefd81c5df
+  homepage: true
+- id: evt-185b5230958f33c1
+  project_slug: dsh-desktop
+  event_type: material_update
+  occurred_at: '2026-08-13T16:00:16Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b4a5fee19a04adb7
+  homepage: true
+- id: evt-de5ac84da052aeb4
+  project_slug: dsh-pocket
+  event_type: material_update
+  occurred_at: '2026-08-15T09:36:29Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-8bba941edcb4775e
+  homepage: true
+- id: evt-569ec019d56674c3
+  project_slug: v4-flash-godmode-opencode-go
+  event_type: material_update
+  occurred_at: '2026-08-15T06:10:13Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-530d5c44e57b66ef
+  homepage: true
+- id: evt-7d1a36543a67ac58
+  project_slug: deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-15T03:00:06Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a4e4469a86dcec6c
+  homepage: true
+- id: evt-c2ebd220b19b61f8
+  project_slug: dsh-at-file
+  event_type: material_update
+  occurred_at: '2026-08-13T12:00:09Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ec29b1a09d60f192
+  homepage: true
+- id: evt-6d61113cb025afb3
+  project_slug: minke
+  event_type: material_update
+  occurred_at: '2026-08-15T01:49:38Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-c088e46e2ba89fb0
+  homepage: true
+- id: evt-824368f3b93b584b
+  project_slug: dsh-browser
+  event_type: material_update
+  occurred_at: '2026-08-06T09:05:10Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6d48359da81ef27f
+  homepage: true
+- id: evt-f12e7f02dca19e33
+  project_slug: dsh-transparent-ui-plugin
+  event_type: material_update
+  occurred_at: '2026-08-14T14:10:42Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ceb0c6c38575cc52
+  homepage: true
+- id: evt-419ef10f8d87ab49
+  project_slug: dsh-router-standard
+  event_type: material_update
+  occurred_at: '2026-08-14T18:14:16Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-1548c85a5e717b37
+  homepage: true
+- id: evt-409b381751fad123
+  project_slug: dsh-pet
+  event_type: material_update
+  occurred_at: '2026-08-14T00:38:45Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-cbd580dc1a02f1b4
+  homepage: true
+- id: evt-6425ac58a8cc67f9
+  project_slug: dsh-genui
+  event_type: material_update
+  occurred_at: '2026-08-13T13:07:52Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-b9aa4bfca9ab4760
+  homepage: true
+- id: evt-8e18550053753297
+  project_slug: whale-girl
+  event_type: material_update
+  occurred_at: '2026-08-10T15:03:03Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-153314a2a7a79511
+  homepage: true
+- id: evt-894cdaa335bf931d
+  project_slug: dsh-anchored-standard
+  event_type: material_update
+  occurred_at: '2026-08-14T14:06:39Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-c2fc98f3919fd556
+  homepage: true
+- id: evt-51b37557ad8ce8ef
+  project_slug: dsh-tui
+  event_type: material_update
+  occurred_at: '2026-08-13T12:49:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ae0ed80723795ac3
+  homepage: true
+- id: evt-a994ec56252fafaa
+  project_slug: dsh-market
+  event_type: material_update
+  occurred_at: '2026-08-14T04:58:15Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-9957ae74ab482297
+  homepage: true
+- id: evt-95b266ab747bfcd6
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-14T08:23:28Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-4c962ff95e5926bb
+  homepage: true
+- id: evt-d02bf80b48be77bc
+  project_slug: dsh-handbook
+  event_type: material_update
+  occurred_at: '2026-08-13T15:22:29Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-dab3ea312073cbde
+  homepage: true
+- id: evt-0bf3abd3a4bef546
+  project_slug: dsh-ads
+  event_type: material_update
+  occurred_at: '2026-08-09T19:06:36Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-2cc5addc692badbb
+  homepage: true
+- id: evt-bed46f5dd3344935
+  project_slug: cambium
+  event_type: material_update
+  occurred_at: '2026-08-04T03:54:22Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-360f5e06ff322b39
+  homepage: true
+- id: evt-3dada328d21fa572
+  project_slug: dsh-ios
+  event_type: material_update
+  occurred_at: '2026-08-19T18:02:50Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6619ea710245be6d
+  homepage: true
+- id: evt-d4b23210cff65150
+  project_slug: jarvis-assistant-vocal
+  event_type: material_update
+  occurred_at: '2026-08-07T15:30:20Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-e52264d531cdf0df
+  homepage: true
+- id: evt-4582f01f9b408099
+  project_slug: awesome-ai-harness
+  event_type: material_update
+  occurred_at: '2026-08-16T04:57:52Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-ae8b6a83a275284d
+  homepage: true
+- id: evt-9f168cd1b314a4b8
+  project_slug: dsh-noema
+  event_type: material_update
+  occurred_at: '2026-08-14T12:38:51Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-2233cbe4f88d4904
+  homepage: true
+- id: evt-ec4d991e5afbab7d
+  project_slug: jixu
+  event_type: material_update
+  occurred_at: '2026-08-18T11:43:25Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6122a345f8cdedfb
+  homepage: true
+- id: evt-a578005d6d827395
+  project_slug: dsh-crew
+  event_type: material_update
+  occurred_at: '2026-08-16T15:19:41Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-625f515f152f9fdc
+  homepage: true
+- id: evt-29d841bc12e23ac1
+  project_slug: xinchao-nian
+  event_type: material_update
+  occurred_at: '2026-08-09T05:29:33Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a9a05eea001cd214
+  homepage: true
+- id: first-appllama-skills
+  project_slug: appllama-skills
+  event_type: first_discovered
+  occurred_at: '2026-08-13T07:19:54Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: 首次发现项目
+  evidence_ids:
+  - ev-9b5b9dfa490b2e58
+  homepage: true
+- id: evt-4f343b6b3c7e1da7
+  project_slug: heisenberg
+  event_type: material_update
+  occurred_at: '2026-08-05T11:05:07Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-0e29d9d34defceb1
+  homepage: true
+- id: evt-8bd162c7b20f6ea1
+  project_slug: dsh-skill-mcp-panel
+  event_type: material_update
+  occurred_at: '2026-08-14T01:18:04Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-d2cc67c2f9c98fb1
+  homepage: true
+- id: evt-4c534e97cddd8738
+  project_slug: dsh-desktop-2
+  event_type: material_update
+  occurred_at: '2026-08-13T13:45:50Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-2b2e5995c145694d
+  homepage: true
+- id: evt-3f495dd79e4ff652
+  project_slug: rakazo
+  event_type: material_update
+  occurred_at: '2026-08-13T06:28:56Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-7fe0868831fa5146
+  homepage: true
+- id: evt-0110c07feb34252a
+  project_slug: partmode
+  event_type: material_update
+  occurred_at: '2026-08-06T04:51:12Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-affee3c9cb5cf24f
+  homepage: true
+- id: evt-2395a27c046727a9
+  project_slug: awesome-deepseek-harness-plugins
+  event_type: material_update
+  occurred_at: '2026-08-13T13:52:04Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-29f51df77f668847
+  homepage: true
+- id: evt-9dd6cb8950aeaa32
+  project_slug: vibe-coding-toolkit
+  event_type: material_update
+  occurred_at: '2026-08-14T23:41:31Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-9bed7de3aaef97cd
+  homepage: true
+- id: evt-7e6bb2d760bea4b1
+  project_slug: private-house-code-v25
+  event_type: material_update
+  occurred_at: '2026-08-05T19:04:09Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a913e0373f002fdb
+  homepage: true
+- id: evt-0ff83be5284cd7b2
+  project_slug: repo-context-ledger
+  event_type: material_update
+  occurred_at: '2026-08-11T10:14:00Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-6b7be125c5b55a55
+  homepage: true
+- id: evt-c18ba819872bc2db
+  project_slug: spotpatch
+  event_type: material_update
+  occurred_at: '2026-08-07T17:21:08Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-9eb4a5344fd9f787
+  homepage: true
+- id: evt-153494b945650b49
+  project_slug: codex-command-center
+  event_type: material_update
+  occurred_at: '2026-08-17T16:45:32Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-828d4349734f2fdd
+  homepage: true
+- id: evt-f23f9a76702b832c
+  project_slug: 4danyone
+  event_type: material_update
+  occurred_at: '2026-08-10T07:46:06Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-51404e6b9fd2e519
+  homepage: true
+- id: evt-20cacd5b21c018c9
+  project_slug: comfyui-h3-facerefine
+  event_type: material_update
+  occurred_at: '2026-08-12T11:18:15Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-708213b81a1df81c
+  homepage: true
+- id: evt-f6b3db2e20dab9b1
+  project_slug: helixworld
+  event_type: material_update
+  occurred_at: '2026-08-03T03:34:11Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a28148ea5ba1bcb7
+  homepage: true
+- id: evt-3a58670061e8d0f8
+  project_slug: comfyui-minimax-h3-image-studio
+  event_type: material_update
+  occurred_at: '2026-08-03T14:28:46Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-8569ab92f90b5371
+  homepage: true
+- id: evt-990fb659680a7d31
+  project_slug: labllm
+  event_type: material_update
+  occurred_at: '2026-08-15T22:16:40Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-3b79ca1672308a8b
+  homepage: true
+- id: evt-1d280bf34baf9add
+  project_slug: ten-proofs
+  event_type: material_update
+  occurred_at: '2026-08-05T21:07:49Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-82d5aac113c62910
+  homepage: true
+- id: evt-aba71be02f91b73c
+  project_slug: zeta-23-lean
+  event_type: material_update
+  occurred_at: '2026-08-06T23:56:11Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-f7af52d7f064f0c0
+  homepage: true
+- id: evt-0a7e5d297a3bec91
+  project_slug: oncall-kit
+  event_type: material_update
+  occurred_at: '2026-08-03T22:18:23Z'
+  discovered_at: '2026-08-23T14:11:17Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: 发现新的公开信号
+  evidence_ids:
+  - ev-a420d1a69864293d
+  homepage: true

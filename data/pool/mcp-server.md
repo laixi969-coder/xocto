@@ -11,22 +11,30 @@ inspiration_en: An assistant that gets things done needs an identity, and the sm
   number. The trend is human-facing APIs rewritten for assistants. The entry is the SMS-code step in cross-border
   signup, charged per use and discarded after.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://sms-verification-number.com/en/number-for-ai-agents/
 canonical_url: https://sms-verification-number.com/en/number-for-ai-agents
 summary: 'MCP server for AI agents that need a phone number: order a private number in 200+ countries,
   read the SMS verification code, hand it back. The widest country coverage in the category, and you can
   check it with one API call.'
 first_seen: '2026-08-07T11:13:26Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://sms-verification-number.com/en/number-for-ai-agents/
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 162
+    stars: 164
     forks: 2
     open_issues: 0
 ---

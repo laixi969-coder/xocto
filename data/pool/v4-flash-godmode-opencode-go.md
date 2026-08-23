@@ -9,21 +9,29 @@ summary_en: Switch a coding AI from a lazy default to a serious mode with a read
 inspiration_en: The trend is the same model delivering a different grade of work once the settings change.
   Enter coding assistants that clock out early by default, and sell a tuned behavior, not a new model.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/SheberDavid/v4-flash-godmode-opencode-go
 canonical_url: https://github.com/SheberDavid/v4-flash-godmode-opencode-go
 summary: V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset
 first_seen: '2026-08-15T06:10:13Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SheberDavid/v4-flash-godmode-opencode-go
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 488
-    forks: 13
+    stars: 489
+    forks: 12
     open_issues: 6
 ---
 

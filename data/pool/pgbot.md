@@ -12,11 +12,19 @@ inspiration_en: 'The trend is database dashboards nobody reads, while agents sta
   handing the database to an agent: inspect, explain, lock drops behind a safety valve. Judgement: yearly
   per instance maps to the cost of one incident.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/pgrundev/pgbot
 canonical_url: https://github.com/pgrundev/pgbot
 summary: pgbot - Postgres intelligence for AI agents & apps
 first_seen: '2026-08-11T23:41:52Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
@@ -30,10 +38,10 @@ sightings:
     open_issues: 0
 - source: github
   url: https://pgbot.dev
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 575
-    forks: 28
+    stars: 589
+    forks: 30
     open_issues: 5
 ---
 

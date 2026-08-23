@@ -8,22 +8,30 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/titechprabhasolutions/Brahma-Echo
 canonical_url: https://github.com/titechprabhasolutions/Brahma-Echo
 summary: Brahma Echo is an open-source Windows desktop AI assistant that combines Gemini/OpenRouter-powered
   voice and text interaction with screen-aware automation, document generation, and local device gateway
   pairing for smarter desktop workflows.
 first_seen: '2026-08-10T10:43:34Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/titechprabhasolutions/Brahma-Echo
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 62
+    stars: 65
     forks: 23
     open_issues: 0
 ---

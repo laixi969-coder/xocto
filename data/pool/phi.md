@@ -11,22 +11,30 @@ inspiration_en: The expensive part is not the model — it is editing the wrong 
   the chat. The trend is taking error-prone steps back from the model. The entry is people who code in
   the terminal, at the permission-confirm step. Open-source and free.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/pulseaiclub/phi
 canonical_url: https://github.com/pulseaiclub/phi
 summary: a coding Agent from pi. ∞ providers, sub-agents, hashline edits, and a permission gate
 first_seen: '2026-08-03T03:16:48Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pulseaiclub/phi
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 142
-    forks: 5
-    open_issues: 1
+    stars: 147
+    forks: 6
+    open_issues: 2
 ---
 
 # phi

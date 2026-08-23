@@ -8,20 +8,28 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/jayergood/MultiAgent-Search
 canonical_url: https://github.com/jayergood/MultiAgent-Search
 summary: 轻量级多智能体协作系统 —— AI Agent 开发入门实战项目
 first_seen: '2026-08-07T04:19:43Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jayergood/MultiAgent-Search
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 46
+    stars: 49
     forks: 8
     open_issues: 0
 ---

@@ -10,24 +10,32 @@ summary_en: To stop an AI from clocking out early, the job is split layer by lay
 inspiration_en: The trend is AIs saying they are done too soon. Enter due diligence, acceptance, and audit—work
   where skipping a step means the job was never done—and charge for splitting until it cannot be fudged.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/Leonxlnx/unlazy
 canonical_url: https://github.com/Leonxlnx/unlazy
 summary: 'Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers
   deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded
   in 2025-2026 research on model laziness, underthinking and premature completion.'
 first_seen: '2026-08-09T23:39:12Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Leonxlnx/unlazy
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 973
-    forks: 66
-    open_issues: 10
+    stars: 1308
+    forks: 84
+    open_issues: 3
 ---
 
 # unlazy

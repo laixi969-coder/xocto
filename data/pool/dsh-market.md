@@ -11,22 +11,30 @@ inspiration_en: 'The trend is open AI tools growing a shop you can browse and in
   shelf collects the toll. The entry is discovery and one-click install first, revenue share later. Judgment:
   a market needs review and quality, or a pile of extras scares people off.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://dshmarket.com
 canonical_url: https://dshmarket.com
 summary: The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
 first_seen: '2026-08-14T04:58:15Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://dshmarket.com
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 1832
-    forks: 97
-    open_issues: 38
+    stars: 1971
+    forks: 103
+    open_issues: 36
 ---
 
 # dsh-market

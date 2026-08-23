@@ -11,12 +11,20 @@ inspiration_en: The trend is that empty edges around a platform get eaten by the
   stop. Don't go deeper on core features. Start with scheduling, watching progress from a phone, and skins
   — the extras the official product skips. Pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://gallery.dsh-market.com
 canonical_url: https://gallery.dsh-market.com
 summary: Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side
   panel, remote mobile UI, pet, live token stats, and skin center.
 first_seen: '2026-08-12T05:15:20Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-23T14:11:17Z'
 status: analyzed
 sources:
 - github
@@ -30,11 +38,11 @@ sightings:
     open_issues: 43
 - source: github
   url: https://dsh-market.com
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-23T14:11:17Z'
   metrics:
-    stars: 5594
-    forks: 344
-    open_issues: 17
+    stars: 5705
+    forks: 352
+    open_issues: 8
 ---
 
 # dsh-web-ui

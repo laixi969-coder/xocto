@@ -1,0 +1,62 @@
+- id: ev-1b531aff4ffa597a
+  project_slug: reapi
+  url: https://www.v2ex.com/t/1236501
+  title: 'MiniMax H3 vs Seedance 2.5: choose by shot length, not demo-reel quality'
+  published_at: '2026-08-23T00:10:45Z'
+  collected_at: '2026-08-23T14:11:11Z'
+  source_kind: product
+  tier: independent
+  fact: "I do not think “which model is better?” is answerable from the H3 and Seedance 2.5 launch videos.\
+    \ The useful question is which one fails less expensively on the shot you need.\r\n\r\nThese models\
+    \ have different production envelopes:\r\n\r\n| Requirement | MiniMax H3 | Seedance 2.5 |\r\n| ---\
+    \ | --- | --- |\r\n| One-pass duration | 4–15 seconds | 4–30 seconds |\r\n| Highest current reAPI\
+    \ tier | 2K | 1080p |\r\n| Reference capacity | 9 images, 3 videos, 3 audio files | 30 images, 10\
+    \ videos, 10 audio files |\r\n| Strong reason to choose it | 2K, cheaper short shots | Longer takes,\
+    \ editing and larger reference sets |\r\n\r\nBoth generate sound. Both can be directed with several\
+    \ kinds of reference. The decision changes when the scene crosses 15 seconds.\r\n\r\n## A one-minute\
+    \ scene is not four equal 15-second clips\r\n\r\nH3 tops out at 15 seconds. A 60-second sequence therefore\
+    \ needs at least four generations, and usually more because the edit needs handles. Seedance 2.5 can\
+    \ cover the same timeline in two 30-second generations.\r\n\r\nThat does not automatically make Seedance\
+    \ better. A failed second 28 can make a 30-second render expensive to rerun. H3 lets you isolate the\
+    \ bad shot and regenerate a smaller unit. Seedanc"
+- id: ev-c80a1faf5e566e81
+  project_slug: reapi
+  url: https://www.v2ex.com/t/1236498
+  title: OpenAI image API too expensive for n8n? Four cheaper options for product ads
+  published_at: '2026-08-22T22:41:42Z'
+  collected_at: '2026-08-23T14:11:11Z'
+  source_kind: product
+  tier: independent
+  fact: "A user described a workflow that generates five product-ad creatives with the OpenAI image API.\
+    \ Each run costs close to USD 2. They wanted something cheaper, preferably free.\r\n\r\nFree tiers\
+    \ are useful while wiring the flow. I would not build a production ad pipeline around one; limits\
+    \ and pricing tend to move. The useful target here is five workable drafts for well under a dollar,\
+    \ with no rebuild each time a different model is tested.\r\n\r\nAt the public reAPI prices checked\
+    \ on August 22, 2026, five 1K images cost between USD 0.12 and USD 0.15 on the four models below.\r\
+    \n\r\n| Model | Price for one 1K image | Price for five | I would test it on |\r\n| --- | ---: | ---:\
+    \ | --- |\r\n| [Qwen Image 3.0 Standard]( https://reapi.ai/models/qwen-image-3) | USD 0.024 | USD\
+    \ 0.120 | Ads with headlines, prices, or a dense layout |\r\n| [Gemini 3.1 Flash Image]( https://reapi.ai/models/gemini-3-1-flash-image-preview)\
+    \ | USD 0.028 | USD 0.140 | General ad variants and unusual aspect ratios |\r\n| [FLUX.2 Pro]( https://reapi.ai/models/flux-2)\
+    \ | USD 0.028 | USD 0.140 | Product scenes built from reference photos |\r\n| [GPT Image 2 basic](\
+    \ https://reapi.ai/models/gpt-image-2) | USD 0.030 | USD 0.150 | Low-cost drafts"
+- id: ev-da035f4343d0899c
+  project_slug: reapi
+  url: https://www.v2ex.com/t/1235790
+  title: 'fal.ai Alternatives in 2026: Seedance Priced Per Second'
+  published_at: '2026-08-20T02:20:49Z'
+  collected_at: '2026-08-23T14:11:11Z'
+  source_kind: product
+  tier: independent
+  fact: "## Is there a cheaper fal alternative for Seedance?\r\n\r\nYes. reAPI.ai runs every Seedance\
+    \ tier below fal, by 44% to 77%. Both platforms bill per second of output. Figures are USD per second\
+    \ at 720p, text-to-video, 16:9, audio on:\r\n\r\n| Model | fal | reAPI.ai | Diff |\r\n|---|---|---|---|\r\
+    \n| [Seedance 2.5]( https://reapi.ai/models/seedance-2-5) | 0.4730 | 0.2668 | −44% |\r\n| [Seedance\
+    \ 2.0]( https://reapi.ai/models/seedance-2-0) | 0.3034 | 0.1538 | −49% |\r\n| [Seedance 2.0 Fast](\
+    \ https://reapi.ai/models/seedance-2-0) | 0.2419 | 0.1122 | −54% |\r\n| [Seedance 2.0 Mini]( https://reapi.ai/models/seedance-2-0-mini)\
+    \ | 0.1547 | 0.0359 | −77% |\r\n\r\nreAPI.ai is a pay-as-you-go multimodal API. One key covers Seedance\
+    \ alongside image, video and chat models, one credit is 0.001 USD, credits never expire, and a failed\
+    \ generation refunds in full automatically.\r\n\r\n## Why those per-second numbers carry a caveat\r\
+    \n\r\nfal bills Seedance by token rather than by second: `tokens = height × width × duration × 24\
+    \ / 1024`. The fal column is its own published per-second figure for the common 16:9 case, but its\
+    \ docs call the token formula authoritative, so a 9:16 clip has a different frame area and a different\
+    \ effectiv"
