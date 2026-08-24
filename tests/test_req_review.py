@@ -103,6 +103,21 @@ class FullReqReviewTests(unittest.TestCase):
             with self.assertRaises(Exception):
                 _reviews(shallow, [item], store, DAY)
 
+    def test_full_review_allows_concise_unentered_gates_after_block(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            blocked = result()
+            gates = blocked["reviews"][0]["gates"]
+            gates[2]["reason"] = "共识闸门未通过，商业模型暂不进入。"
+            gates[3]["reason"] = "共识闸门未通过，真需求暂不进入。"
+            self.assertEqual(_reviews(blocked, [item], store, DAY)[0].level, "full")
+
+            gates[2]["status"] = "supported"
+            with self.assertRaises(Exception):
+                _reviews(blocked, [item], store, DAY)
+
     def test_low_quality_same_day_full_review_is_queued_for_repair(self) -> None:
         shallow_gates = tuple(
             ReqGateReview(gate, "insufficient", "公开信息不足。")

@@ -32,7 +32,8 @@ from xocto.store import Store
 
 REQ_BATCH_SIZE = 12
 MAX_FULL_REQ_REPAIRS = 2
-MIN_FULL_GATE_REASON = 32
+MIN_ACTIVE_GATE_REASON = 24
+MIN_BLOCKED_GATE_REASON = 10
 _READER_DELEGATION = ("访谈", "找一位用户", "询问用户", "请用户", "让读者")
 
 
@@ -153,9 +154,23 @@ def _is_substantive_full_review(review: ReqReview) -> bool:
     """低于公开质量契约的旧判断必须在重跑时重新进入队列。"""
     return (
         review.level == "full"
-        and all(len(gate.reason) >= MIN_FULL_GATE_REASON for gate in review.gates)
+        and _has_substantive_gate_reasons(review.gates)
         and not any(fragment in review.next_validation for fragment in _READER_DELEGATION)
     )
+
+
+def _has_substantive_gate_reasons(gates: tuple[ReqGateReview, ...] | list[ReqGateReview]) -> bool:
+    """前序未过后允许简洁说明“未进入”，但活动闸门必须给出充分理由。"""
+    blocked = False
+    for gate in gates:
+        minimum = MIN_BLOCKED_GATE_REASON if blocked else MIN_ACTIVE_GATE_REASON
+        if len(gate.reason) < minimum:
+            return False
+        if blocked and gate.status == "supported":
+            return False
+        if gate.status != "supported":
+            blocked = True
+    return True
 
 
 def candidates(store: Store, day: date) -> list[Any]:
@@ -252,14 +267,15 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
             status = str(raw.get("status") or "")
             reason = str(raw.get("reason") or "").strip()
             ids = raw.get("evidence_ids") or []
-            if status not in REQ_GATE_STATUSES or len(reason) < MIN_FULL_GATE_REASON:
-                raise BriefError("完整 `/req` 判断的闸门内容不合法")
+            if status not in REQ_GATE_STATUSES or not reason:
+                raise BriefError(f"{slug}.{expected} 的完整 `/req` 闸门内容不合法")
             reason = reason[:480].rstrip()
             if not isinstance(ids, list) or not all(isinstance(item, str) for item in ids) or set(ids) - allowed:
                 raise BriefError("完整 `/req` 判断引用了不存在的证据")
             gates.append(ReqGateReview(expected, status, reason, tuple(ids)))
-        if gates[0].status != "supported" and any(gate.status == "supported" for gate in gates[1:]):
-            raise BriefError("价值闸门未通过时，完整 `/req` 不得将后续闸门标为 supported")
+        if not _has_substantive_gate_reasons(gates):
+            lengths = "/".join(str(len(gate.reason)) for gate in gates)
+            raise BriefError(f"{slug} 的完整 `/req` 理由不足或违反先拦后续规则（长度 {lengths}）")
         next_validation = str(row.get("next_validation") or "").strip()
         if not next_validation:
             raise BriefError("完整 `/req` 判断缺少下一项验证")
