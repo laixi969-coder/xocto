@@ -30,29 +30,26 @@
 - id: req-full-biosecurity-agent-2026-08-24
   project_slug: biosecurity-agent
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:21:26Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 描述模糊，未明确具体应用场景和用户价值。
+    reason: 项目描述仅称围绕任意目标构建实时生物安全世界，未说明具体功能、输入输出或交付形式，无法确认买方价值或使用场景。
     evidence_ids:
     - ev-ba10784605d5e740
   - gate: consensus
     status: insufficient
-    reason: 无用户反馈或社区讨论，共识未建立。
-    evidence_ids:
-    - ev-ba10784605d5e740
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式，无付费路径。
-    evidence_ids:
-    - ev-ba10784605d5e740
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未验证实际功能和效果，交付确定性存疑。
-    evidence_ids:
-    - ev-ba10784605d5e740
-  next_validation: 查看项目 README 或文档，了解具体功能和输入输出。
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查看 GitHub 仓库 README 或文档，确认具体功能、输入输出和部署方式。
   market: ''
