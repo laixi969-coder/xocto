@@ -131,6 +131,20 @@ class FullReqReviewTests(unittest.TestCase):
             self.assertNotIn("描述模糊", review.gates[0].reason)
             self.assertIn("shipment exceptions", review.gates[0].reason)
 
+    def test_fallback_reason_stops_at_a_complete_sentence(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = replace(product(), summary_zh=(
+                "GamePhanes 是一个面向 Godot 游戏引擎的开源游戏编码代理环境与基准。"
+                "游戏开发者可让代理编写、运行和测试游戏代码，并依据多项指标评估表现。"
+            ))
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            generic = result()
+            generic["reviews"][0]["gates"][0]["reason"] = "价值主张不明确，具体痛点与使用场景尚未得到证明。"
+            reason = _reviews(generic, [item], store, DAY)[0].gates[0].reason
+            self.assertIn("环境与基准。", reason)
+            self.assertNotIn("并依”，", reason)
+
     def test_full_review_allows_concise_unentered_gates_after_block(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))

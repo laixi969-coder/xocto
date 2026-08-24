@@ -8,6 +8,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from datetime import date
 from typing import Any
@@ -42,6 +43,7 @@ _PUBLIC_EVIDENCE_CHANNELS = (
     "评价", "评论", "榜单", "招聘", "采购", "合同", "财报", "增长", "留存", "复购",
 )
 _GATE_LABELS = {"value": "价值", "consensus": "共识", "model": "模式", "truth": "求真"}
+_TRUNCATED_FALLBACK = re.compile(r"[并及或与和依为在将把对向从由以]”，尚未充分证明")
 
 
 @dataclass(frozen=True)
@@ -176,6 +178,8 @@ def _has_substantive_gate_reasons(gates: tuple[ReqGateReview, ...] | list[ReqGat
             return False
         if not blocked and any(fragment in gate.reason for fragment in _GENERIC_GATE_PHRASES):
             return False
+        if _TRUNCATED_FALLBACK.search(gate.reason):
+            return False
         if blocked and gate.status == "supported":
             return False
         if gate.status in {"supported", "challenged"} and not gate.evidence_ids:
@@ -201,7 +205,14 @@ def _has_public_validation_step(next_validation: str) -> bool:
 
 def _fallback_gate_reason(product: Any, gate: str) -> str:
     """把不可采信的模型理由降级为项目特定、可公开核验的诚实表述。"""
-    description = " ".join((product.summary_zh or product.summary or product.name).split())[:90]
+    text = " ".join((product.summary_zh or product.summary or product.name).split())
+    description = text
+    if len(text) > 90:
+        sentence_end = next(
+            (match.end() for match in re.finditer(r"[。！？!?\.]", text) if match.end() >= 18),
+            None,
+        )
+        description = text[:sentence_end] if sentence_end and sentence_end <= 90 else text[:90].rstrip("，、；;:： ")
     if gate == "value":
         return f"公开材料仅说明“{description}”，尚未充分证明目标用户、不采用代价与问题发生频率。"
     if gate == "consensus":
@@ -371,6 +382,7 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
                     len(reason) < MIN_ACTIVE_GATE_REASON
                     or normalized in active_reasons
                     or any(fragment in reason for fragment in _GENERIC_GATE_PHRASES)
+                    or bool(_TRUNCATED_FALLBACK.search(reason))
                 )
                 if unsupported_claim or weak_reason:
                     status = "insufficient"

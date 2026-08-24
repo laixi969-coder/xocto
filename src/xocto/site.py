@@ -103,6 +103,17 @@ def _chinese_text(value: str, fallback: str = "") -> str:
     return " ".join(text.split()) or fallback
 
 
+def _sentence_excerpt(value: str, limit: int = 100) -> str:
+    text = " ".join((value or "").split())
+    if len(text) <= limit:
+        return text.rstrip("。；; ")
+    sentence_end = next(
+        (match.end() for match in re.finditer(r"[。！？!?\.]", text) if match.end() >= 18),
+        None,
+    )
+    return (text[:sentence_end] if sentence_end and sentence_end <= limit else text[:limit]).rstrip("。；，、;:： ")
+
+
 def _localized_tags(locale: Locale, english: tuple[str, ...], chinese: tuple[str, ...]) -> list[str]:
     """英文标签必须逐项已有译文；不能用中文标签悄悄顶替。"""
     if locale.key != "en":
@@ -147,7 +158,7 @@ def _req_decision_reason(review: Any, locale: Locale, product_summary: str = "")
         return review.next_validation if locale.key != "en" else locale.t["home"]["req_pending_note"]
     if locale.key != "en":
         if product_summary and any(fragment in decisive.reason for fragment in _GENERIC_REQ_REASON_HINTS):
-            summary = " ".join(product_summary.split())[:100].rstrip("。；; ")
+            summary = _sentence_excerpt(product_summary)
             return f"目前只确认“{summary}”；尚未证明目标用户会在该工作中持续采用或付费。"
         return decisive.reason
     gate = locale.t["product"][f"req_{decisive.gate}"]
