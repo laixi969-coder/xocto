@@ -23,6 +23,11 @@ class DailyWorkflowTests(unittest.TestCase):
         self.assertIn("uv run xocto brief", text)
         self.assertIn("uv run xocto market", text)
         self.assertIn("uv run xocto req", text)
+        self.assertIn("- name: 保存判断数据", text)
+        self.assertIn("git add data/pool data/reports data/reviews data/markets data/evidence data/events", text)
+        self.assertIn("id: market", text)
+        self.assertIn("id: full_req", text)
+        self.assertIn("- name: 检查判断链是否完整", text)
 
 
 if __name__ == "__main__":

@@ -431,6 +431,12 @@ class ReqReview:
         if tuple(gate.gate for gate in self.gates) != REQ_GATES:
             raise ValueError("`/req` 判断必须按价值、共识、模式、求真四道闸门完整记录")
 
+    @property
+    def day(self) -> str:
+        """判断所属的业务日期；稳定 ID 优先，时间戳只作旧数据兜底。"""
+        match = re.search(r"-(\d{4}-\d{2}-\d{2})$", self.id)
+        return match.group(1) if match else local_day(self.reviewed_at)
+
     def to_dict(self) -> dict[str, Any]:
         return {
             "id": self.id,

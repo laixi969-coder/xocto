@@ -25,6 +25,7 @@ from xocto.models import (
     ReqGateReview,
     ReqReview,
     local_day,
+    now_iso,
 )
 from xocto.store import Store
 
@@ -115,7 +116,7 @@ def seed_initial_reviews(store: Store, *, day: date) -> InitialReqSeedReport:
         if product is None:
             continue
         existing = store.read_req_reviews(slug)
-        current = [review for review in existing if review.level == "initial" and local_day(review.reviewed_at) == day.isoformat()]
+        current = [review for review in existing if review.level == "initial" and review.day == day.isoformat()]
         # 旧版基础初判以“访谈一位……”作统一动作；它不是 REQ 在公开证据
         # 场景中的正确落点，允许本次重写。已由模型完成的初判保持不动。
         if current and not all(review.next_validation.startswith("访谈一位处理“") for review in current):
@@ -154,7 +155,7 @@ def candidates(store: Store, day: date) -> list[Any]:
         if local_day(product.last_seen) != day.isoformat():
             continue
         reviews = store.read_req_reviews(product.slug)
-        if any(review.level == "full" and local_day(review.reviewed_at) == day.isoformat() for review in reviews):
+        if any(review.level == "full" and review.day == day.isoformat() for review in reviews):
             continue
         initial = [review for review in reviews if review.level == "initial"]
         if not initial:
@@ -247,7 +248,7 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
             raise BriefError("完整 `/req` 判断缺少下一项验证")
         out.append(ReqReview(
             id=f"req-full-{slug}-{day.isoformat()}", project_slug=slug, level="full",
-            reviewed_at=f"{day.isoformat()}T18:00:00Z", verdict=verdict, signal_level=signal,
+            reviewed_at=now_iso(), verdict=verdict, signal_level=signal,
             gates=tuple(gates), next_validation=next_validation,
         ))
     return out
@@ -263,13 +264,26 @@ def run(store: Store, *, day: date) -> FullReqReport:
         batch = selected[start:start + REQ_BATCH_SIZE]
         reviews.extend(_reviews(_request(_messages(batch, store)), batch, store, day))
     for review in reviews:
-        old = max(store.read_req_reviews(review.project_slug), key=lambda item: item.reviewed_at, default=None)
+        previous_full = max(
+            (item for item in store.read_req_reviews(review.project_slug) if item.level == "full"),
+            key=lambda item: item.reviewed_at,
+            default=None,
+        )
         store.upsert_req_review(review)
-        if old is not None and (old.verdict != review.verdict or tuple(g.status for g in old.gates) != tuple(g.status for g in review.gates)):
+        if previous_full is not None and (
+            previous_full.verdict != review.verdict
+            or tuple(g.status for g in previous_full.gates) != tuple(g.status for g in review.gates)
+        ):
+            old_gates = "/".join(g.status for g in previous_full.gates)
+            new_gates = "/".join(g.status for g in review.gates)
             store.append_event(DiscoveryEvent(
                 id=f"req-change-{review.project_slug}-{day.isoformat()}", project_slug=review.project_slug,
                 event_type=EVENT_REQ_CHANGE, occurred_at=review.reviewed_at, discovered_at=review.reviewed_at,
-                signals=("update",), summary="新增证据改变了 `/req` 判断。",
+                signals=("update",),
+                summary=(
+                    f"`/req` 信号由“{previous_full.signal_level}”调整为“{review.signal_level}”；"
+                    f"四道闸门由 {old_gates} 变为 {new_gates}。"
+                ),
                 evidence_ids=tuple(eid for gate in review.gates for eid in gate.evidence_ids),
             ))
     return FullReqReport(day, candidates=len(selected), reviews=len(reviews))

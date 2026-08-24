@@ -133,6 +133,8 @@ jobs:
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 中英文市场核验
+        id: market
+        continue-on-error: true
         if: ${{ steps.brief.outcome == 'success' }}
         run: |
           if [ -n "${{ inputs.retry_date }}" ]; then
@@ -150,6 +152,8 @@ jobs:
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 高价值项目完整 /req 判断
+        id: full_req
+        continue-on-error: true
         if: ${{ steps.brief.outcome == 'success' }}
         run: |
           if [ -n "${{ inputs.retry_date }}" ]; then
@@ -165,6 +169,23 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
+
+      # 模型判断、市场观察和完整 /req 都是已经通过各自结构校验的数据资产。
+      # 先单独保存它们，再进入静态站渲染；这样一个页面级门禁失败不会抹掉
+      # 前面十分钟已经完成的研究结果，修复后也不必从头调用全部模型。
+      - name: 保存判断数据
+        if: ${{ always() && steps.brief.outcome == 'success' }}
+        run: |
+          git add data/pool data/reports data/reviews data/markets data/evidence data/events
+          if git diff --staged --quiet; then
+            echo "判断数据没有新变化，跳过提交"
+          else
+            git commit -m "chore: 保存每日判断 $(TZ=Asia/Shanghai date +%Y-%m-%d)"
+            if ! git push origin HEAD:main; then
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
+          fi
 
       - name: 生成网站（日报结果）
         run: uv run xocto build
@@ -188,4 +209,18 @@ jobs:
           if ! git push origin HEAD:main; then
             git pull --rebase origin main
             git push origin HEAD:main
+          fi
+
+      # 可以发布基础初判，但不能把模型、市场或完整 /req 的失败静默成绿灯。
+      # 放在数据与站点提交之后：用户先得到当日可用结果，维护者仍能看到红灯。
+      - name: 检查判断链是否完整
+        if: ${{ always() }}
+        run: |
+          failed=""
+          if [ "${{ steps.brief.outcome }}" = "failure" ]; then failed="$failed brief"; fi
+          if [ "${{ steps.market.outcome }}" = "failure" ]; then failed="$failed market"; fi
+          if [ "${{ steps.full_req.outcome }}" = "failure" ]; then failed="$failed full_req"; fi
+          if [ -n "$failed" ]; then
+            echo "以下判断阶段未完成：$failed"
+            exit 1
           fi

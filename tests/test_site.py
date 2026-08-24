@@ -34,6 +34,7 @@ from xocto.site import (
     build_context,
     _daily_rotation,
     _is_publishable,
+    _latest_req_review,
     _metric_badges,
     _remove_stale_pages,
     _research_view,
@@ -302,7 +303,8 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("p.summary", template)
         self.assertIn("p.inspiration", template)
         self.assertIn("p.req_signal", template)
-        self.assertIn("p.req_next", template)
+        self.assertIn("p.req_reason", template)
+        self.assertNotIn("p.req_next", template)
         self.assertIn("p.event_day", template)
 
     def test_home_uses_only_the_latest_event_day_and_separates_first_discoveries(self) -> None:
@@ -344,6 +346,9 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual([item["slug"] for item in ctx["important_updates"]], ["example"])
             self.assertEqual(ctx["market_summary"][0]["title"], "今日首次发现涉及的行业")
 
+            english = build_context(store, EN)
+            self.assertNotIn("、", " ".join(item["text"] for item in english["market_summary"]))
+
     def test_home_hides_collector_status_as_event_summary(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             from xocto.store import Store
@@ -361,7 +366,45 @@ class PublishabilityTests(unittest.TestCase):
 
             ctx = build_context(store, ZH)
 
-            self.assertEqual(ctx["important_updates"][0]["event_summary"], "")
+            self.assertEqual(ctx["important_updates"], [])
+
+    def test_home_deduplicates_updates_and_honors_homepage_flag(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            from xocto.store import Store
+
+            store = Store(Path(tmp))
+            store.save_product(product())
+            for event_id, discovered_at, summary, homepage in (
+                ("old", "2026-08-14T10:00:00Z", "采用数据首次跨过公开阈值。", True),
+                ("new", "2026-08-14T11:00:00Z", "付费方案从免费测试改为按席收费。", True),
+                ("hidden", "2026-08-14T12:00:00Z", "不应公开的内部观察。", False),
+            ):
+                store.append_event(DiscoveryEvent(
+                    id=event_id,
+                    project_slug="example",
+                    event_type=EVENT_MATERIAL_UPDATE,
+                    occurred_at=discovered_at,
+                    discovered_at=discovered_at,
+                    summary=summary,
+                    homepage=homepage,
+                ))
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual(len(ctx["important_updates"]), 1)
+            self.assertEqual(ctx["important_updates"][0]["event_summary"], "付费方案从免费测试改为按席收费。")
+
+    def test_same_day_full_req_review_wins_over_later_initial_timestamp(self) -> None:
+        initial = ReqReview(
+            id="initial", project_slug="example", level="initial",
+            reviewed_at="2026-08-14T23:00:00Z", verdict=REQ_NEEDS_VALIDATION,
+            signal_level="待验证", gates=tuple(
+                ReqGateReview(gate, REQ_GATE_INSUFFICIENT, "基础初判")
+                for gate in (REQ_GATE_VALUE, REQ_GATE_CONSENSUS, REQ_GATE_MODEL, REQ_GATE_TRUTH)
+            ),
+        )
+        full = replace(initial, id="full", level="full", reviewed_at="2026-08-14T18:00:00Z")
+        self.assertIs(_latest_req_review([initial, full]), full)
 
     def test_opportunity_library_offers_parallel_dimensions_and_shareable_date_filters(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(

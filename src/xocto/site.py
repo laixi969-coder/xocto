@@ -111,6 +111,30 @@ def _req_signal_label(signal: str, locale: Locale) -> str:
         return signal
     return _REQ_SIGNAL_EN.get(signal, _english_text(signal, locale.t["home"]["req_pending"]))
 
+
+def _latest_req_review(reviews: list[Any]) -> Any | None:
+    """选出应公开的一版判断：先看日期，同一天完整判断优先于初判。"""
+    if not reviews:
+        return None
+    return max(
+        reviews,
+        key=lambda item: (
+            item.day,
+            1 if item.level == "full" else 0,
+            item.reviewed_at,
+        ),
+    )
+
+
+def _req_decision_reason(review: Any, locale: Locale) -> str:
+    """首页展示导致当前结论的闸门理由，而不是把补证任务冒充结论。"""
+    if locale.key == "en":
+        return locale.t["home"]["req_pending_note"]
+    challenged = next((gate for gate in review.gates if gate.status == "challenged"), None)
+    blocking = challenged or next((gate for gate in review.gates if gate.status == "insufficient"), None)
+    decisive = blocking or (review.gates[-1] if review.gates else None)
+    return decisive.reason if decisive else review.next_validation
+
 _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
 
@@ -569,7 +593,7 @@ def _daily_rotation(items: list[Any], day: str, *, limit: int) -> list[Any]:
 def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) -> dict[str, Any]:
     """把结构化事件与项目、`/req` 判断组合成首页机会流的一条记录。"""
     reviews = store.read_req_reviews(event.project_slug)
-    review = max(reviews, key=lambda item: item.reviewed_at, default=None)
+    review = _latest_req_review(reviews)
     event_labels = {
         EVENT_FIRST_DISCOVERED: locale.t["home"]["event_first"],
         EVENT_MATERIAL_UPDATE: locale.t["home"]["event_update"],
@@ -590,6 +614,7 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
         "occurred_day": local_day(event.occurred_at),
         "event_summary": event_summary,
         "req_signal": _req_signal_label(review.signal_level, locale) if review else locale.t["home"]["req_pending"],
+        "req_reason": _req_decision_reason(review, locale) if review else locale.t["home"]["req_pending_note"],
         "req_next": (
             review.next_validation if locale.key != "en" else _english_text(
                 review.next_validation, locale.t["home"]["req_pending_note"]
@@ -655,7 +680,7 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
         "challenged": locale.t["product"]["req_challenged"],
     }
     reviews = store.read_req_reviews(slug)
-    review = max(reviews, key=lambda item: item.reviewed_at, default=None)
+    review = _latest_req_review(reviews)
     req = None
     if review:
         req = {
@@ -667,7 +692,7 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
                     review.next_validation, locale.t["product"]["req_next_pending"]
                 )
             ),
-            "reviewed_at": local_day(review.reviewed_at),
+            "reviewed_at": review.day,
             "gates": [
                 {
                     "name": gate_labels[gate.gate],
@@ -894,15 +919,35 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     event_rows = store.read_events(event_days[-1]) if event_days else []
     first_discoveries: list[dict[str, Any]] = []
     important_updates: list[dict[str, Any]] = []
-    for event in sorted(event_rows, key=lambda item: item.discovered_at, reverse=True):
+    ordered_events = sorted(event_rows, key=lambda item: item.discovered_at, reverse=True)
+    first_slugs: set[str] = set()
+    for event in ordered_events:
+        if event.event_type != EVENT_FIRST_DISCOVERED or not event.homepage or event.project_slug in first_slugs:
+            continue
         view = view_by_slug.get(event.project_slug)
         if view is None:
             continue
-        item = _event_view(event, view, store, locale)
-        if event.event_type == EVENT_FIRST_DISCOVERED:
-            first_discoveries.append(item)
-        else:
-            important_updates.append(item)
+        first_slugs.add(event.project_slug)
+        first_discoveries.append(_event_view(event, view, store, locale))
+
+    # “重要更新”必须同时满足：明确允许上首页、有可陈述的新事实、同一项目
+    # 当天只出现一次。首次发现优先，不能又在更新区重复出现。
+    update_slugs: set[str] = set()
+    generic_summaries = {"", "首次发现项目", "发现新的公开信号", "新增证据改变了 `/req` 判断。"}
+    for event in ordered_events:
+        if (
+            event.event_type == EVENT_FIRST_DISCOVERED
+            or not event.homepage
+            or event.project_slug in first_slugs
+            or event.project_slug in update_slugs
+            or event.summary.strip() in generic_summaries
+        ):
+            continue
+        view = view_by_slug.get(event.project_slug)
+        if view is None:
+            continue
+        update_slugs.add(event.project_slug)
+        important_updates.append(_event_view(event, view, store, locale))
 
     # 当日市场摘要只从当天的事件流归纳，不用旧项目的规模或排行榜替代新变化。
     # “首次发现涉及”是观察范围，不暗示这是该行业全球第一次使用 AI。
@@ -912,7 +957,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         for industry in item["industries"]:
             industry_counts[industry] = industry_counts.get(industry, 0) + 1
     if industry_counts:
-        industries_text = "、".join(
+        separator = "、" if locale.key != "en" else ", "
+        industries_text = separator.join(
             name for name, _ in sorted(industry_counts.items(), key=lambda pair: (-pair[1], pair[0]))[:5]
         )
         market_summary.append({
@@ -922,7 +968,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         })
     cross_items = [item for item in first_discoveries + important_updates if item["cross_market"]]
     if cross_items:
-        names = "、".join(item["name"] for item in cross_items[:5])
+        separator = "、" if locale.key != "en" else ", "
+        names = separator.join(item["name"] for item in cross_items[:5])
         market_summary.append({
             "kind": "cross_market",
             "title": locale.t["home"]["market_cross"],

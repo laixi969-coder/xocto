@@ -1,0 +1,42 @@
+# Bug Hunt: xOcto 每日机会流与 `/req` 发布链路
+
+**Date:** 2026-08-24
+**Scope:** `.github/workflows/daily.yml`、`src/xocto/brief.py`、`src/xocto/req_review.py`、`src/xocto/site.py`、`templates/index.html` 及对应测试
+**Failures:** 1（最初把英文顿号归因于模型字段；集成构建证明实际来自确定性市场摘要分隔符）
+
+## Summary
+
+| # | Bug | Severity | File | Fix |
+|---|-----|----------|------|-----|
+| 1 | 页面级门禁失败会丢掉此前已成功生成的全部判断数据 | MEDIUM | `.github/workflows/daily.yml` | 在建站前提交结构化判断数据；阶段失败继续发布可用结果，最终仍以红灯报告 |
+| 2 | 首页把补证动作展示成 `/req` 判断 | MEDIUM | `templates/index.html`、`src/xocto/site.py` | 展示导致当前结论的首个阻塞/挑战闸门理由 |
+| 3 | 同一项目一天重复出现，且 `homepage` 标志未生效 | MEDIUM | `src/xocto/site.py` | 首次发现优先、按项目去重、过滤未授权与无事实更新 |
+| 4 | 第一次完整 `/req` 被误报为“判断发生变化” | MEDIUM | `src/xocto/req_review.py` | 只有存在历史完整判断且结论确实变化时才产生更新事件 |
+| 5 | 同日较晚的初判时间可能盖住完整判断 | MEDIUM | `src/xocto/site.py` | 按本地日期选择，同日完整判断优先 |
+| 6 | 第十条以后编号显示为 `010` | LOW | `templates/index.html` | 使用两位数字格式化 |
+| 7 | 英文首页市场摘要使用中文顿号，阻断全站发布 | MEDIUM | `src/xocto/site.py` | 按页面语言选择列表分隔符，并加入英文上下文回归测试 |
+
+## Root Cause
+
+系统把“采集成功”“研究成功”“页面可发布”压成了一个最终事务，同时首页视图直接复用了内部字段，缺少面向读者的语义投影与事件流不变量。结果是：任何末端错误都能抹掉前面成功结果；内部的 `next_validation` 被当成外部判断；事件记录的多条事实被原样当成多张产品卡。
+
+问题由 2026-08-23 的全球机会流改造（`be6978d7`）引入首页字段映射与事件循环，随后 `d077db98` 增加基础初判兜底，但仍保留单一最终提交边界。
+
+## Pass 1 — Surface
+
+**Bugs fixed:** 7
+**False positives:** 0
+**Deferred:** 0
+**Evidence:** GitHub Actions `32679613727` 中模型、市场、完整 `/req` 和建站均成功，最后仅因英文顿号门禁失败，最终提交被跳过；线上因此继续读取基础初判。
+
+## Pass 2 — Re-read
+
+重新阅读首页事件组合、完整判断事件生成与工作流条件后，补充发现并修复“首次完整判断误报更新”“同日初判覆盖完整判断”两项同类缺陷。
+
+## Pass 3 — Integration
+
+新增回归覆盖：判断字段映射、事件去重、`homepage` 标志、空更新过滤、同日完整判断优先、英文列表分隔符、判断数据阶段性提交。第一次集成构建由英文顿号测试揭示真实来源，修正后重新执行全套验证。
+
+## Pass 4 — Verify
+
+待 GitHub Actions 在真实密钥与 Linux 构建环境完成最终端到端验证后记录运行链接与提交。

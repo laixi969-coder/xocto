@@ -5,7 +5,7 @@
 <div class="picks">
   {% for p in items %}
   <article class="pick" style="--i: {{ loop.index0 }}">
-    <span class="pick-no num">0{{ loop.index }}</span>
+    <span class="pick-no num">{{ "%02d" | format(loop.index) }}</span>
     <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
       <h3>{{ p.name }}</h3>
       <span class="tag sig">{{ p.event_label }}</span>
@@ -33,7 +33,7 @@
       </div>
       <div class="field field-take">
         <span class="field-k">{{ t.home.req_initial }}</span>
-        <p><strong>{{ p.req_signal }}</strong> · {{ p.req_next }}</p>
+        <p><strong>{{ p.req_signal }}</strong> · {{ p.req_reason }}</p>
       </div>
       <div class="field">
         <span class="field-k">{{ t.home.discovered_at }}</span>
