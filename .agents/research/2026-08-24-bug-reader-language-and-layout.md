@@ -107,3 +107,10 @@ could leave a narrow or off-screen companion column. Both grids now render one
 full-width, content-sized row per judgment; this applies at every viewport,
 not only below a mobile breakpoint. A regression test rejects a return to
 desktop side columns.
+
+### Emphasis inset correction
+
+The yellow rule used for `field-take` started at the same left boundary as the
+content grid. The requested issue was this flush emphasis treatment, rather
+than the column count. Every `field-take` now has a shared 16px left inset, so
+the rule and its text are visibly nested inside the content area.

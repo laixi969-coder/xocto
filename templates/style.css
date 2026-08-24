@@ -178,7 +178,7 @@ button { font: inherit; }
 .dimension-item + .dimension-item::before { content: " · "; }
 .field-k { display: block; margin-bottom: 7px; color: var(--ink-faint); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .field p { margin: 0; font-size: 15px; line-height: 1.7; }
-.field-take { border-left: 2px solid var(--accent); padding-left: 13px; }
+.field-take { margin-left: 16px; border-left: 2px solid var(--accent); padding-left: 13px; }
 .field-take p { color: var(--ink-soft); }
 .exit-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--ink); }
 .exit-cell { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 4px 16px; padding: 28px 22px 32px 0; border-bottom: 1px solid var(--line-soft); animation: rise .45s var(--ease) backwards; animation-delay: calc(var(--i, 0) * 65ms); }

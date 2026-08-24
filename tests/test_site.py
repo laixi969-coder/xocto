@@ -84,6 +84,12 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn(".decision-overview { grid-template-columns: 1fr;", css)
         self.assertIn(".role-grid { display: grid; grid-template-columns: 1fr;", css)
 
+    def test_emphasised_fields_are_not_flush_with_the_content_edge(self) -> None:
+        css = (Path(__file__).parents[1] / "templates" / "style.css").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn(".field-take { margin-left: 16px;", css)
+
     def test_home_is_todays_front_page(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
             encoding="utf-8"
