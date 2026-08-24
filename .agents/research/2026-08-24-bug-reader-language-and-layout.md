@@ -97,3 +97,13 @@ could therefore retain an older stylesheet after Vercel had served the updated
 HTML, reproducing the retired two-column layout online. The build now hashes
 the stylesheet and appends that hash to every stylesheet URL, so a style change
 always has a new URL and cannot be hidden by an old browser cache.
+
+### Content-grid correction
+
+The screenshot of the business judgment section exposed a second unresolved
+layout family: desktop `decision-grid` and `role-grid` split prose across fixed
+side columns. These were a poor fit for variable-length Chinese analysis and
+could leave a narrow or off-screen companion column. Both grids now render one
+full-width, content-sized row per judgment; this applies at every viewport,
+not only below a mobile breakpoint. A regression test rejects a return to
+desktop side columns.

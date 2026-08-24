@@ -76,6 +76,14 @@ class PublishabilityTests(unittest.TestCase):
         )
         self.assertIn(".sec-head .note { grid-column: 1 / -1;", css)
 
+    def test_decision_content_does_not_use_desktop_side_columns(self) -> None:
+        css = (Path(__file__).parents[1] / "templates" / "style.css").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn(".decision-grid { display: grid; grid-template-columns: 1fr;", css)
+        self.assertIn(".decision-overview { grid-template-columns: 1fr;", css)
+        self.assertIn(".role-grid { display: grid; grid-template-columns: 1fr;", css)
+
     def test_home_is_todays_front_page(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
             encoding="utf-8"

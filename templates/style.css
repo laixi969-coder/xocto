@@ -262,23 +262,22 @@ button { font: inherit; }
 .detail-head + .band { padding-top: 34px; }
 .decision-brief { padding-top: clamp(36px, 4vw, 58px); }
 .decision-brief .sec-head { margin-bottom: 29px; }
-.decision-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); border-top: 2px solid var(--ink); }
-.decision-grid .field { min-height: 155px; padding: 20px 28px 24px 0; border-bottom: 1px solid var(--line-soft); }
-.decision-grid .field:nth-child(even) { padding-left: 28px; border-left: 1px solid var(--line-soft); }
-.decision-grid .decision-call { background: color-mix(in srgb, var(--surface) 52%, transparent); }
+.decision-grid { display: grid; grid-template-columns: 1fr; border-top: 2px solid var(--ink); }
+.decision-grid .field { min-height: 0; padding: 20px 0 24px; border-bottom: 1px solid var(--line-soft); }
+.decision-grid .field:nth-child(even) { padding-left: 0; border-left: 0; }
+.decision-grid .decision-call { padding-left: 12px; background: color-mix(in srgb, var(--surface) 52%, transparent); }
 .decision-grid .field p { max-width: 45em; font-size: 15px; line-height: 1.72; }
-.decision-overview { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.decision-overview .field { min-height: 0; }
-.decision-overview .field:nth-child(n) { padding-left: 0; border-left: 0; }
-.decision-overview .field + .field { padding-left: 28px; border-left: 1px solid var(--line-soft); }
+.decision-overview { grid-template-columns: 1fr; }
+.decision-overview .field:nth-child(n), .decision-overview .field + .field { padding-left: 0; border-left: 0; }
+.decision-overview .field-take { padding-left: 13px; border-left: 2px solid var(--accent); }
 .decision-replaces { max-width: 850px; margin-top: 25px; padding-left: 15px; border-left: 2px solid var(--ink); }
 .decision-replaces p { color: var(--ink-soft); }
 .role-lenses { padding-top: clamp(36px, 4vw, 60px); }
 .role-lenses .sec-head { margin-bottom: 25px; }
 .role-lenses .eyebrow { margin-bottom: 9px; }
-.role-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); }
-.role-grid .field { min-height: 133px; padding: 20px 25px 24px 0; border-bottom: 1px solid var(--line-soft); }
-.role-grid .field + .field { padding-left: 25px; border-left: 1px solid var(--line-soft); }
+.role-grid { display: grid; grid-template-columns: 1fr; gap: 0; border-top: 1px solid var(--line); }
+.role-grid .field { min-height: 0; padding: 20px 0 24px; border-bottom: 1px solid var(--line-soft); }
+.role-grid .field + .field { padding-left: 0; border-left: 0; }
 .role-grid .field p { color: var(--ink-soft); font-size: 14px; line-height: 1.67; }
 .prose-kicker { margin: 0 0 29px !important; padding-bottom: 12px; border-bottom: 1px solid var(--line); color: var(--ink-faint); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .06em; line-height: 1.55; text-transform: uppercase; }
 .prose { max-width: 850px; padding: 44px 0 68px; font-size: 15px; line-height: 1.85; }
@@ -391,8 +390,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .obs-cta { grid-column: 2; justify-self: start; }
   .pick { grid-template-columns: 36px minmax(155px, .8fr) minmax(0, 1.35fr); }
   .pick-body { grid-template-columns: 1fr; gap: 15px; }
-  .decision-overview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .decision-overview .field:nth-child(3) { grid-column: 1 / -1; padding-left: 0; border-left: 0; }
   .card { grid-template-columns: minmax(150px, .75fr) minmax(0, 1.5fr) minmax(125px, .55fr); }
   .report-layout { grid-template-columns: 1fr; gap: 0; }
   .report-rail { display: none; }
@@ -424,7 +421,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .pick-body { grid-column: 2; margin-top: -2px; }
   .summary-grid { grid-template-columns: 1fr; gap: 24px; }
   .role-grid, .decision-grid { grid-template-columns: 1fr; }
-  .decision-overview .field:nth-child(3) { grid-column: auto; }
   .row-head { grid-template-columns: 1fr; gap: 4px; }
   .row-tail { justify-content: flex-start; margin-top: 4px; }
   .exit-grid { grid-template-columns: 1fr; }
@@ -442,9 +438,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .detail-head { padding-top: 48px; }
   .detail-head h1 { font-size: clamp(35px, 11vw, 50px); }
   .kv { gap: 13px 24px; }
-  .decision-grid .field, .decision-grid .field:nth-child(even) { min-height: 0; padding: 18px 0; border-left: 0; }
+  .decision-grid .field, .decision-grid .field:nth-child(even) { padding: 18px 0; border-left: 0; }
   .decision-grid .decision-call { padding-left: 12px; }
-  .decision-overview .field + .field { padding-left: 0; border-left: 0; }
+  .decision-grid .field-take { padding-left: 13px; border-left: 2px solid var(--accent); }
   .role-grid .field, .role-grid .field + .field { min-height: 0; padding: 18px 0; border-left: 0; }
   .prose { padding-top: 34px; font-size: 15px; }
   .prose h2 { margin-top: 40px; }
