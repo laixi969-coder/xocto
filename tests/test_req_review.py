@@ -7,7 +7,15 @@ import tempfile
 import unittest
 
 from xocto.models import DiscoveryEvent, Evidence, Product, ReqGateReview, ReqReview, Sighting
-from xocto.req_review import _is_substantive_full_review, _messages, _reviews, candidates, seed_initial_reviews
+from xocto.req_review import (
+    _decision_change_summary,
+    _decision_signature,
+    _is_substantive_full_review,
+    _messages,
+    _reviews,
+    candidates,
+    seed_initial_reviews,
+)
 from xocto.store import Store
 
 
@@ -159,6 +167,33 @@ class FullReqReviewTests(unittest.TestCase):
             review = _reviews(delegated, [item], store, DAY)[0]
             self.assertNotIn("访谈", review.next_validation)
             self.assertIn("公开部署文档", review.next_validation)
+
+    def test_internal_downstream_normalization_is_not_a_decision_change(self) -> None:
+        reason = "现有公开材料能够支持当前闸门判断，并可回溯至项目证据。"
+        previous = ReqReview(
+            id="old", project_slug="freight-ai", level="full", reviewed_at="2026-08-23T01:00:00Z",
+            verdict="needs_validation", signal_level="初步成立",
+            gates=(
+                ReqGateReview("value", "supported", reason, ("ev-1",)),
+                ReqGateReview("consensus", "insufficient", reason),
+                ReqGateReview("model", "insufficient", reason),
+                ReqGateReview("truth", "supported", reason, ("ev-1",)),
+            ),
+        )
+        normalized = replace(previous, id="new", gates=(
+            previous.gates[0], previous.gates[1], previous.gates[2],
+            ReqGateReview("truth", "insufficient", "共识闸门未通过，求真闸门未进入。"),
+        ))
+        self.assertEqual(_decision_signature(previous), _decision_signature(normalized))
+
+        advanced = replace(normalized, gates=tuple(
+            replace(gate, status="supported", evidence_ids=("ev-1",)) if gate.gate == "consensus" else gate
+            for gate in normalized.gates
+        ))
+        self.assertNotEqual(_decision_signature(normalized), _decision_signature(advanced))
+        summary = _decision_change_summary(normalized, advanced)
+        self.assertIn("连续通过阶段由 1 道调整为 2 道", summary)
+        self.assertIn("当前停在模式闸门", summary)
 
     def test_low_quality_same_day_full_review_is_queued_for_repair(self) -> None:
         shallow_gates = tuple(

@@ -220,6 +220,35 @@ def _fallback_validation_step(product: Any, blocked_gate: str | None) -> str:
     )
 
 
+def _decision_signature(review: ReqReview) -> tuple[str, int, str]:
+    """只把真正改变 REQ 阶段位置的变化视为机会事件。"""
+    supported_prefix = 0
+    blocker = "supported"
+    for gate in review.gates:
+        if gate.status == "supported":
+            supported_prefix += 1
+            continue
+        blocker = gate.status
+        break
+    return review.verdict, supported_prefix, blocker
+
+
+def _decision_change_summary(previous: ReqReview, current: ReqReview) -> str:
+    decisive = next((gate for gate in current.gates if gate.status != "supported"), current.gates[-1])
+    previous_prefix = _decision_signature(previous)[1]
+    current_prefix = _decision_signature(current)[1]
+    if previous.signal_level != current.signal_level:
+        change = f"信号由“{previous.signal_level}”调整为“{current.signal_level}”"
+    elif previous_prefix != current_prefix:
+        change = f"连续通过阶段由 {previous_prefix} 道调整为 {current_prefix} 道"
+    else:
+        change = "关键闸门状态发生变化"
+    return (
+        f"`/req` {change}；"
+        f"当前停在{_GATE_LABELS[decisive.gate]}闸门：{decisive.reason}"
+    )
+
+
 def candidates(store: Store, day: date) -> list[Any]:
     """选择值得投入完整研究的当天项目，且同一项目每日最多一版完整判断。"""
     selected: list[Any] = []
@@ -397,20 +426,12 @@ def run(store: Store, *, day: date) -> FullReqReport:
             default=None,
         )
         store.upsert_req_review(review)
-        if previous_full is not None and (
-            previous_full.verdict != review.verdict
-            or tuple(g.status for g in previous_full.gates) != tuple(g.status for g in review.gates)
-        ):
-            old_gates = "/".join(g.status for g in previous_full.gates)
-            new_gates = "/".join(g.status for g in review.gates)
+        if previous_full is not None and _decision_signature(previous_full) != _decision_signature(review):
             store.append_event(DiscoveryEvent(
                 id=f"req-change-{review.project_slug}-{day.isoformat()}", project_slug=review.project_slug,
                 event_type=EVENT_REQ_CHANGE, occurred_at=review.reviewed_at, discovered_at=review.reviewed_at,
                 signals=("update",),
-                summary=(
-                    f"`/req` 信号由“{previous_full.signal_level}”调整为“{review.signal_level}”；"
-                    f"四道闸门由 {old_gates} 变为 {new_gates}。"
-                ),
+                summary=_decision_change_summary(previous_full, review),
                 evidence_ids=tuple(eid for gate in review.gates for eid in gate.evidence_ids),
             ))
     return FullReqReport(day, candidates=len(selected), reviews=len(reviews))
