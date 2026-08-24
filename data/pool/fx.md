@@ -21,7 +21,7 @@ canonical_url: https://fx.sh
 summary: Unix like coding agent
 first_seen: '2026-08-11T08:57:04Z'
 last_seen: '2026-08-23T22:52:50Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

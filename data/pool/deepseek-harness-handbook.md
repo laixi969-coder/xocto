@@ -22,7 +22,7 @@ summary: 'Independent, source-backed handbook for DeepSeek AI''s official DeepSe
   plugins, security, troubleshooting, and runbooks.'
 first_seen: '2026-08-14T06:25:52Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

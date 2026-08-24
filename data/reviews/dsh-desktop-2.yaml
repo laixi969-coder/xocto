@@ -1,27 +1,53 @@
 - id: req-initial-dsh-desktop-2-2026-08-24
   project_slug: dsh-desktop-2
   level: initial
-  reviewed_at: '2026-08-23T22:38:28Z'
+  reviewed_at: '2026-08-23T22:52:50Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 本地 AI 工作区有明确需求，集成管理提升效率。
+    evidence_ids:
+    - ev-71343baefd81c5df
+  - gate: consensus
+    status: supported
+    reason: 开源社区星标近两千，显示开发者强烈关注。
+    evidence_ids:
+    - ev-71343baefd81c5df
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能靠托管或支持。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 实际使用效果未验证。
+    evidence_ids: []
+  next_validation: 查找用户评价或使用数据，验证实际采用。
+  market: ''
+- id: req-full-dsh-desktop-2-2026-08-24
+  project_slug: dsh-desktop-2
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DSHDesktop：DeepSeek Harness Desktop”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 仅列出支持会话、文件与网页研究的本地 AI 桌面工作区，缺乏对用户工作效率提升或替代传统工具的实证材料。
     evidence_ids:
-    - ev-e7bbb9d1dda0eda8
+    - ev-71343baefd81c5df
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 622 个收藏、35 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
-    evidence_ids:
-    - ev-e7bbb9d1dda0eda8
+    reason: 未进入：价值证据不足。公开材料仅有官网与仓库链接，缺乏活跃用户规模及持续使用行为证据。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未进入：价值证据不足。未提供软件授权、订阅收费或企业托管等商业变现路径证据。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未进入：价值证据不足。本地多模块集成操作的安全边界与确定性交付效果缺乏公开测试数据。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 官方网站的定价/商业方案页面及开源仓库中的活跃用户使用数据与评价
   market: ''

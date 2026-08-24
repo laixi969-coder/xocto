@@ -25,3 +25,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-market-2026-08-24
+  project_slug: dsh-market
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为 DSH 插件市场与一键安装工具，缺少对插件生态开发者及最终买方产生直接经济价值的证据。
+    evidence_ids:
+    - ev-9957ae74ab482297
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。缺少上架插件数量、分发规模及开发者活跃度的公开统计数据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。未见市场抽成、插件付费机制或托管收费等商业路径。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。插件安装流程的兼容性校验与安全隔离机制缺乏公开技术材料支撑。
+    evidence_ids: []
+  next_validation: dshmarket.com 平台上的插件总数、安装量统计及开发者提交流程文档
+  market: ''

@@ -1,28 +1,58 @@
 - id: req-initial-benjamin-plus-skill-2026-08-24
   project_slug: benjamin-plus-skill
   level: initial
-  reviewed_at: '2026-08-23T22:38:28Z'
+  reviewed_at: '2026-08-23T22:52:50Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: '价值闸门未过证据门槛：现有公开材料将其描述为“Benjamin-Plus: a measured token-efficiency skill for coding agents
-      (−17.9% cost median, qu”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+    status: supported
+    reason: 明确降低 token 成本且质量不变，对开发者有直接价值。
     evidence_ids:
-    - ev-a2f50ef3dfd027fd
+    - ev-d6e05d1affbccb41
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 243 个收藏、11 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 来自 JetBrains，但社区反馈和采用情况未知。
     evidence_ids:
-    - ev-a2f50ef3dfd027fd
+    - ev-d6e05d1affbccb41
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 未披露商业模式，可能作为开源项目免费提供。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+    reason: 成本降低数据来自官方，但独立验证和实际部署效果未知。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
+  next_validation: 查找独立用户或社区的实测报告，验证成本降低效果。
+  market: ''
+- id: req-full-benjamin-plus-skill-2026-08-24
+  project_slug: benjamin-plus-skill
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 明确降低 token 成本且质量不变，对开发者有直接价值。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
+  - gate: consensus
+    status: insufficient
+    reason: 来自 JetBrains，但社区反馈和采用情况未知。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源项目免费提供。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
+  - gate: truth
+    status: insufficient
+    reason: 成本降低数据来自官方，但独立验证和实际部署效果未知。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
+  next_validation: 查找独立用户或社区的实测报告，验证成本降低效果。
   market: ''

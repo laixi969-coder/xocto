@@ -7,22 +7,47 @@
   gates:
   - gate: value
     status: insufficient
-    reason: '价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude
-      Code / Codex — nati”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+    reason: 插件价值依赖 DSH 生态，但 DSH 本身采用未验证。
     evidence_ids:
-    - ev-5a71e8b5ad11e5db
+    - ev-625f515f152f9fdc
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 104 个收藏、4 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 星标数少，社区讨论不足。
     evidence_ids:
-    - ev-5a71e8b5ad11e5db
+    - ev-625f515f152f9fdc
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 插件功能未实际测试。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 查找 DSH 生态采用数据或用户反馈。
+  market: ''
+- id: req-full-dsh-crew-2026-08-24
+  project_slug: dsh-crew
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅显示可将任务从 Claude Code/Codex 分发给 DSH 代理，未证明多代理协同解决的具体商业痛点与损失。
+    evidence_ids:
+    - ev-625f515f152f9fdc
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。仅有 GitHub 仓库简介，未见开发者社群实际落地讨论或持续复用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。无明确付费主体与盈利模式公开信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。跨环境子代理进度调度及多模态桥接的执行成功率与确定性交付缺乏第三方实测。
+    evidence_ids: []
+  next_validation: GitHub 仓库 issue/PR 记录及第三方多代理任务调度实测案例
   market: ''

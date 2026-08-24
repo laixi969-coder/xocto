@@ -3,26 +3,54 @@
   level: initial
   reviewed_at: '2026-08-23T22:38:28Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Open Agent Skill that keeps repository context, feature specs, change
-      handoffs, and README”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 跨工具上下文同步是实际痛点，有明确价值。
     evidence_ids:
-    - ev-3d1874b8bfc86fa7
+    - ev-6b7be125c5b55a55
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 84 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 项目有 84 星，但缺乏用户采用或付费证据。
     evidence_ids:
-    - ev-3d1874b8bfc86fa7
+    - ev-6b7be125c5b55a55
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，可能作为开源工具或企业服务。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 项目处于早期，未验证实际效果和稳定性。
+    evidence_ids:
+    - ev-6b7be125c5b55a55
+  next_validation: 查看是否有团队在真实项目中采用该 Skill 的公开讨论或案例。
+  market: ''
+- id: req-full-repo-context-ledger-2026-08-24
+  project_slug: repo-context-ledger
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 跨工具上下文同步是实际痛点，有明确价值。
+    evidence_ids:
+    - ev-6b7be125c5b55a55
+  - gate: consensus
+    status: insufficient
+    reason: 项目有84星，但缺乏用户采用或付费证据，共识未验证。
+    evidence_ids:
+    - ev-6b7be125c5b55a55
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源工具或企业服务，但无付费路径证据。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  - gate: truth
+    status: insufficient
+    reason: 项目处于早期，未验证实际效果和稳定性。
+    evidence_ids:
+    - ev-6b7be125c5b55a55
+  next_validation: 查看是否有团队在真实项目中采用该Skill的公开讨论或案例。
   market: ''

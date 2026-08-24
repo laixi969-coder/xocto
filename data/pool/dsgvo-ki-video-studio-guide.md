@@ -22,7 +22,7 @@ summary: A curated list of GDPR/DSGVO-compliant AI video generators and localize
   marketers, and developers. Featuring Silver Screen Lab — Dein lokales KI-Studio.
 first_seen: '2026-08-10T08:34:38Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

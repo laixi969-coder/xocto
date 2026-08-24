@@ -7,22 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: '价值闸门未过证据门槛：现有公开材料将其描述为“dsh-routing-suite — injector + router-standard kit: install the runtime
-      injector first, th”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+    reason: 套件可能简化配置，但缺乏实际应用案例。
     evidence_ids:
-    - ev-d36124b9dc8f1865
+    - ev-447a06a9bb8e2cc9
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 6,703 个收藏、129 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 星标数较高，但 open issues 较多，社区反馈待观察。
     evidence_ids:
-    - ev-d36124b9dc8f1865
+    - ev-447a06a9bb8e2cc9
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，可能作为开源项目。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  - gate: truth
+    status: insufficient
+    reason: 测量数据存在，但未独立验证。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  next_validation: 查找用户评测或实际部署案例，验证套件效果。
+  market: ''
+- id: req-full-dsh-routing-suite-2026-08-24
+  project_slug: dsh-routing-suite
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅说明是注入器与路由套件的安装工具包，缺少解决工程痛点、降低故障率及买方意愿的直接证据。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。仅有安装预设描述，缺乏开发者社区广泛部署或依赖引用的证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。无明确收费设计或企业级服务支持商业规划。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未进入：价值证据不足。P1-P23 测量预设在不同复杂任务下的稳定性与确定性交付未经公开验证。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 开源仓库中针对 P1-P23 预设调优结果的实验数据报告与用户部署反馈
   market: ''

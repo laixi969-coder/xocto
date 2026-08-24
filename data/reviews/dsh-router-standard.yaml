@@ -7,22 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: '价值闸门未过证据门槛：现有公开材料将其描述为“Task-aware reasoning-mode router for DeepSeek Harness: three measured
-      behavior bands (spec”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+    reason: 路由机制可能提升代理性能，但缺乏实际应用数据。
     evidence_ids:
-    - ev-a2577c1c6ec5c3b5
+    - ev-1548c85a5e717b37
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 370 个收藏、33 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 星标数中等，但 open issues 较多，社区活跃度待观察。
     evidence_ids:
-    - ev-a2577c1c6ec5c3b5
+    - ev-1548c85a5e717b37
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，可能作为开源项目。
+    evidence_ids:
+    - ev-1548c85a5e717b37
+  - gate: truth
+    status: insufficient
+    reason: 论文和测量证据存在，但未独立验证。
+    evidence_ids:
+    - ev-1548c85a5e717b37
+  next_validation: 查找独立评测或用户报告，验证路由效果。
+  market: ''
+- id: req-full-dsh-router-standard-2026-08-24
+  project_slug: dsh-router-standard
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料提到任务感知推理模式路由与策略论文，但未证明该行为调优在实际应用场景中带来的确定性价值。
+    evidence_ids:
+    - ev-1548c85a5e717b37
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。虽有论文提及，但缺乏实际工程落地、社区规模化采纳及复现反馈。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。开源策略研究未展现商业变现或付费软件服务路径。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未进入：价值证据不足。三种行为模式相变证据与首轮工具注入效果缺乏第三方复现实测。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 配套双吸引子策略论文全文及公开基准测试的复现脚本与日志
   market: ''

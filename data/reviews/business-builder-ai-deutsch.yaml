@@ -7,22 +7,52 @@
   gates:
   - gate: value
     status: insufficient
-    reason: '价值闸门未过证据门槛：现有公开材料将其描述为“Business Builder AI (Deutsche Version): Automated Business System
-      for Indie Hackers in DAC”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+    reason: 仅描述生成落地页和文案，未提供实际使用案例或效果数据，买方价值未证实。
     evidence_ids:
-    - ev-2060c596a7ba93bc
+    - ev-bfe0965a9afcc0c6
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 48 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 无用户反馈或采用数据，仅项目描述，无法判断市场共识。
     evidence_ids:
-    - ev-2060c596a7ba93bc
+    - ev-bfe0965a9afcc0c6
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 未披露商业模式，可能面向开发者收费，但无定价或付费路径证据。
+    evidence_ids:
+    - ev-bfe0965a9afcc0c6
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+    reason: 未验证生成内容质量，是否真正解决零收入问题未知。
+    evidence_ids:
+    - ev-bfe0965a9afcc0c6
+  next_validation: 查找项目文档或演示，确认生成落地页和文案的实际效果与用户反馈。
+  market: ''
+- id: req-full-business-builder-ai-deutsch-2026-08-24
+  project_slug: business-builder-ai-deutsch
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 仅描述生成落地页和文案，未提供实际使用案例或效果数据，买方价值未证实。
+    evidence_ids:
+    - ev-bfe0965a9afcc0c6
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用数据，仅项目描述，无法判断市场共识。
+    evidence_ids:
+    - ev-bfe0965a9afcc0c6
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者收费，但无定价或付费路径证据。
+    evidence_ids:
+    - ev-bfe0965a9afcc0c6
+  - gate: truth
+    status: insufficient
+    reason: 未验证生成内容质量，是否真正解决零收入问题未知。
+    evidence_ids:
+    - ev-bfe0965a9afcc0c6
+  next_validation: 查找项目文档或演示，确认生成落地页和文案的实际效果与用户反馈。
   market: ''

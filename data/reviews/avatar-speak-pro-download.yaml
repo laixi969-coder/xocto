@@ -7,22 +7,52 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“An automated AI avatar video generation pipeline designed to boost
-      conversion rates for Ti”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 声称提升转化率，但无实际案例或数据支持。
     evidence_ids:
-    - ev-8c45c5201650660f
+    - ev-110e40b2b2e39449
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 48 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 无用户反馈或社区讨论，共识未建立。
     evidence_ids:
-    - ev-8c45c5201650660f
+    - ev-110e40b2b2e39449
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 未披露商业模式，无定价或付费路径。
+    evidence_ids:
+    - ev-110e40b2b2e39449
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+    reason: 未验证视频质量和转化效果，交付确定性存疑。
+    evidence_ids:
+    - ev-110e40b2b2e39449
+  next_validation: 查看项目 README 或演示视频，确认生成视频的样例和实际效果。
+  market: ''
+- id: req-full-avatar-speak-pro-download-2026-08-24
+  project_slug: avatar-speak-pro-download
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 声称提升转化率，但无实际案例或数据支持。
+    evidence_ids:
+    - ev-110e40b2b2e39449
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或社区讨论，共识未建立。
+    evidence_ids:
+    - ev-110e40b2b2e39449
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，无定价或付费路径。
+    evidence_ids:
+    - ev-110e40b2b2e39449
+  - gate: truth
+    status: insufficient
+    reason: 未验证视频质量和转化效果，交付确定性存疑。
+    evidence_ids:
+    - ev-110e40b2b2e39449
+  next_validation: 查看项目 README 或演示视频，确认生成视频的样例和实际效果。
   market: ''

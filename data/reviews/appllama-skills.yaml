@@ -7,22 +7,52 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“A builder, not just a researcher. Agent skills that turn top-grossing
-      app patterns into na”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值主张明确但缺乏用户反馈，实际效果未验证。
     evidence_ids:
-    - ev-3a0ec35f8dc8789b
+    - ev-9b5b9dfa490b2e58
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 109 个收藏、5 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区星标 109，但社区讨论有限，共识未形成。
     evidence_ids:
-    - ev-3a0ec35f8dc8789b
+    - ev-9b5b9dfa490b2e58
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 未披露商业模式，开源项目可能无直接收入路径。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+    reason: 生成质量是否达到原生水平未验证，需测试。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  next_validation: 查看项目示例或运行测试，评估生成屏幕的质量和原生性。
+  market: ''
+- id: req-full-appllama-skills-2026-08-24
+  project_slug: appllama-skills
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值主张明确但缺乏用户反馈，实际效果未验证。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星标 109，但社区讨论有限，共识未形成。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能无直接收入路径。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  - gate: truth
+    status: insufficient
+    reason: 生成质量是否达到原生水平未验证，需测试。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  next_validation: 查看项目示例或运行测试，评估生成屏幕的质量和原生性。
   market: ''

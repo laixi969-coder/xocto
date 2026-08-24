@@ -7,22 +7,46 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Lazy Frames — agentic video generation. Feed the skill URL to your
-      AI agent; it captures, ”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 缺乏具体用户场景和交付物描述，价值主张不明确。
     evidence_ids:
-    - ev-7077222d12c15319
+    - ev-efee2e478aaa0652
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 118 个收藏、16 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
-    evidence_ids:
-    - ev-7077222d12c15319
+    reason: 没有用户反馈或采用证据，无法判断共识。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，无法判断付费方。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未进入：价值证据不足。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 查找官方文档或演示，明确输入输出和实际应用场景。
+  market: ''
+- id: req-full-lazy-frames-2026-08-24
+  project_slug: lazy-frames
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏具体用户场景和交付物描述，价值主张不明确。
+    evidence_ids:
+    - ev-efee2e478aaa0652
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户反馈或采用证据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，无法判断付费方。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。
+    evidence_ids: []
+  next_validation: 查找官方文档或演示，明确输入输出和实际应用场景。
   market: ''

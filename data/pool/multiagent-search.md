@@ -21,7 +21,7 @@ canonical_url: https://github.com/jayergood/MultiAgent-Search
 summary: 轻量级多智能体协作系统 —— AI Agent 开发入门实战项目
 first_seen: '2026-08-07T04:19:43Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -23,7 +23,7 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

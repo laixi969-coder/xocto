@@ -25,3 +25,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-transparent-ui-plugin-2026-08-24
+  project_slug: dsh-transparent-ui-plugin
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料描述为前端玻璃磨砂质感主题，属于纯视觉外观定制，缺乏买方功能、情绪或资产价值支撑。
+    evidence_ids:
+    - ev-ceb0c6c38575cc52
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。未证明开发者或用户对此类 UI 定制插件存在持续使用或买单共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。开源主题未包含任何付费主题或商业变现路径。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。主题在不同分辨率与浏览器上的渲染性能与无障碍兼容性未见实测。
+    evidence_ids: []
+  next_validation: 开源仓库的实际安装统计数据及前端渲染性能开销 issue 讨论
+  market: ''

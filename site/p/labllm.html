@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
+<title>LabLLM · x-octo</title>
+<meta name="description" content="教师或学生在 macOS 上使用 LabLLM 教学小型语言模型；它接收模型架构和数据，训练权重，并可视化模型涌现过程，输出训练好的模型和检查点。">
+<link rel="canonical" href="https://xocto.vercel.app/p/labllm.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/labllm.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/labllm.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/labllm.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="LabLLM · x-octo">
+<meta property="og:description" content="教师或学生在 macOS 上使用 LabLLM 教学小型语言模型；它接收模型架构和数据，训练权重，并可视化模型涌现过程，输出训练好的模型和检查点。">
+<meta property="og:url" content="https://xocto.vercel.app/p/labllm.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/labllm.html#webpage", "@type": "WebPage", "description": "\u6559\u5e08\u6216\u5b66\u751f\u5728 macOS \u4e0a\u4f7f\u7528 LabLLM \u6559\u5b66\u5c0f\u578b\u8bed\u8a00\u6a21\u578b\uff1b\u5b83\u63a5\u6536\u6a21\u578b\u67b6\u6784\u548c\u6570\u636e\uff0c\u8bad\u7ec3\u6743\u91cd\uff0c\u5e76\u53ef\u89c6\u5316\u6a21\u578b\u6d8c\u73b0\u8fc7\u7a0b\uff0c\u8f93\u51fa\u8bad\u7ec3\u597d\u7684\u6a21\u578b\u548c\u68c0\u67e5\u70b9\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "LabLLM", "url": "https://xocto.vercel.app/p/labllm.html"}, {"@id": "https://xocto.vercel.app/p/labllm.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u6548\u7387", "dateModified": "2026-08-24", "datePublished": "2026-08-16", "description": "\u6559\u5e08\u6216\u5b66\u751f\u5728 macOS \u4e0a\u4f7f\u7528 LabLLM \u6559\u5b66\u5c0f\u578b\u8bed\u8a00\u6a21\u578b\uff1b\u5b83\u63a5\u6536\u6a21\u578b\u67b6\u6784\u548c\u6570\u636e\uff0c\u8bad\u7ec3\u6743\u91cd\uff0c\u5e76\u53ef\u89c6\u5316\u6a21\u578b\u6d8c\u73b0\u8fc7\u7a0b\uff0c\u8f93\u51fa\u8bad\u7ec3\u597d\u7684\u6a21\u578b\u548c\u68c0\u67e5\u70b9\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/labllm.html#webpage"}, "name": "LabLLM", "sameAs": "https://greninja9257.github.io/LabLLM/", "url": "https://xocto.vercel.app/p/labllm.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/labllm.html", "name": "LabLLM", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/labllm.html" lang="en"
+         hreflang="en" aria-label="Switch to English">EN</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap">
+
+  <header class="detail-head">
+    <p class="eyebrow">AI 应用的生意判断</p>
+    <div class="pick-id">
+      <h1>LabLLM</h1>
+    </div>
+
+    <p class="lede">教师或学生在 macOS 上使用 LabLLM 教学小型语言模型；它接收模型架构和数据，训练权重，并可视化模型涌现过程，输出训练好的模型和检查点。</p>
+
+    <div class="meta">
+<span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
+<span class="tag">开源项目</span><span class="tag">AI + 效率</span><span class="tag">教育</span><span class="tag">人工智能培训</span><span class="tag">教师</span><span class="tag">学生</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 68</span>    </div>
+
+    <div class="kv">
+      <div><span>团队 / 作者</span><b>Greninja9257</b></div>
+      <div><span>本站首次收录</span><b class="num">2026-08-16</b></div>
+      <div><span>本站最近更新</span><b class="num">2026-08-24</b></div>
+      <div><span>产品官网</span><b><a href="https://greninja9257.github.io/LabLLM/" target="_blank" rel="noopener">查看官网 ↗</a></b></div>
+    </div>
+  </header>
+
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">/req</p>
+        <h2>/req 需求判断</h2>
+      </div>
+      <span class="note">按照价值、共识、模式、求真四道闸门记录；证据不足不等于否定需求。</span>
+    </div>
+    <div class="decision-grid">
+      <div class="field decision-call"><span class="field-k">初步结论</span><p><strong>待验证</strong></p></div>
+      <div class="field"><span class="field-k">判断层级 / 日期</span><p>完整判断 · 2026-08-25</p></div>
+      <div class="field field-take"><span class="field-k">下一项验证</span><p>查找官方定价页或用户案例，确认是否有付费用户。</p></div>
+    </div>
+    <div class="decision-grid">
+      <div class="field"><span class="field-k">价值 · 证据不足</span><p>项目描述为macOS上教学小型语言模型的工具，但未提供教师或学生使用、付费或教学效果证据，买方价值不明确。</p></div>
+      <div class="field"><span class="field-k">共识 · 证据不足</span><p>未进入：价值证据不足。</p></div>
+      <div class="field"><span class="field-k">模式 · 证据不足</span><p>未进入：价值证据不足。</p></div>
+      <div class="field"><span class="field-k">求真 · 证据不足</span><p>未进入：价值证据不足。</p></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">市场对照</p>
+        <h2>中英文生态与跨国机会</h2>
+      </div>
+<span class="tag sig">跨国机会</span>    </div>
+    <div class="decision-grid">
+      <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：早期出现<br>需求证据：待验证</p><p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-08-24</p></div>
+      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：待验证</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-24。未发现仅限该覆盖范围。 · 2026-08-24</p></div>
+    </div>
+  </section>
+
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60 秒生意判断</p>
+        <h2>先决定它值不值得继续看</h2>
+      </div>
+      <span class="note">结论与证据分开：前四项帮助你做下一步选择，全文保留判断依据与反例。</span>
+    </div>
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">一句判断</span>
+        <p>教师或学生在 macOS 上使用 LabLLM 教学小型语言模型；它接收模型架构和数据，训练权重，并可视化模型涌现过程，输出训练好的模型和检查点。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">商业模式</span>
+        <p>收费未披露。公开信息里看不到定价，不编造。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">进入窗口</span>
+        <p>趋势是 AI 教育从理论走向实践。切入点是教育机构，提供本地化、可视化的模型训练工具，但需验证付费场景。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">接下来验证什么</span>
+        <p>目前公开信息有限，判断会随新证据更新。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">把同一事实拆成三个判断</p>
+        <h2>不选身份，按此刻关心的问题读</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field">
+        <span class="field-k">证据与风险</span>
+        <p>还不是一门生意。可以当信号看，不要当成公司看。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">会改变什么</span>
+        <p>会改办公里重复的那几步：记、整理、交文档。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析还没写。先看上面的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/qm.html">qm</a>、        <a href="../p/genoffice.html">genoffice</a>      </p>
+    </div>
+  </section>
+
+
+  <section class="band">
+    <div class="sec-head"><div><p class="eyebrow">证据链</p><h2>可核验公开证据</h2></div></div>
+    <ul class="rows">
+      <li><a href="https://www.bing.com/search?format=rss&amp;q=AI+%E6%95%99%E8%82%B2+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%9F%B9%E8%AE%AD+%E6%95%99%E5%B8%88+%E5%AD%A6%E7%94%9F" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">Public market coverage query</span><span class="row-desc">市场对照 · Public-material coverage query for zh: AI 教育 人工智能培训 教师 学生</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">OpenAI | Research &amp; Deployment</span><span class="row-desc">市场对照 · We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems.</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">ChatGPT: Chat, Work, Create &amp; Code with AI</span><span class="row-desc">市场对照 · Use ChatGPT to answer questions, write, create images, complete work, and code—all in one place. Get started for free or download the app.</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">‎Google Gemini</span><span class="row-desc">市场对照 · Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more. Experience the power of generative AI.</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">Google AI - How we&#39;re making AI helpful for everyone</span><span class="row-desc">市场对照 · Discover how Google AI is committed to enriching knowledge, solving complex challenges and helping people grow by building useful AI tools and technologies.</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">Perplexity AI</span><span class="row-desc">市场对照 · Perplexity is a free AI-powered answer engine that provides accurate, trusted, and real-time answers to any question.</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">DeepAI</span><span class="row-desc">市场对照 · DeepAI is the all-in-one creative AI platform built for everyone. We got our start in late 2016 with the first browser-based text-to-image generator (and some other generative tools). Since then, we have greatly expanded: with a single prompt, you can generate images, edit photos, chat with an AI that browses the internet, create short videos, compose original music, or chat with a realistic ...</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://copilot.microsoft.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">Microsoft Copilot: Your AI companion</span><span class="row-desc">市场对照 · Microsoft Copilot is your companion to inform, entertain and inspire. Get advice, feedback and straightforward answers. Try Copilot now.</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">Artificial intelligence - Wikipedia</span><span class="row-desc">市场对照 · Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://greninja9257.github.io/LabLLM/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">LabLLM</span><span class="row-desc">开源信息 · A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.</span><span class="row-tail">2026-08-16</span></div></a></li>
+      <li><a href="https://greninja9257.github.io/LabLLM/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">LabLLM</span><span class="row-desc">开源信息 · A native macOS lab for teaching tiny language models to think — build the architecture, train the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers, checkpoints, and MLX acceleration.</span><span class="row-tail">2026-08-16</span></div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward" aria-label="继续浏览">
+    <div class="sec-head">
+      <h2>同类产品</h2>
+      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
+        AI + 效率 共 98 个 →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../p/qm.html">
+          <div class="row-head">
+            <span class="row-name">qm</span>
+            <span class="row-desc">公司里每个员工一个隔离助手，频道里又能一起使唤同一个，记忆不串味。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/genoffice.html">
+          <div class="row-head">
+            <span class="row-name">genoffice</span>
+            <span class="row-desc">改材料的人让 AI 直接改 Word、表格和幻灯片内部，没动过的部分按原样保留</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/cindy.html">
+          <div class="row-head">
+            <span class="row-name">cindy</span>
+            <span class="row-desc">把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/needle2.html">
+          <div class="row-head">
+            <span class="row-name">Needle2</span>
+            <span class="row-desc">对手机、手表说开灯，不必联网、不必等云端，本机几十毫秒就能做完。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/sokoban-ai-solver.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">Sokoban AI Solver</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/clipfactory.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">clipfactory</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">不用，谢谢</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>446 个案例 · 165 份生意判断</span>
+    <span class="gen">数据截至 2026-08-24</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

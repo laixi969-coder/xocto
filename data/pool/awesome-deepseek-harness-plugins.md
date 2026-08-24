@@ -22,7 +22,7 @@ summary: Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clie
   and verified references — English and Chinese.
 first_seen: '2026-08-13T13:52:04Z'
 last_seen: '2026-08-23T22:52:50Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

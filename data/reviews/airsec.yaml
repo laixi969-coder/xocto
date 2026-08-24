@@ -1,28 +1,58 @@
 - id: req-initial-airsec-2026-08-24
   project_slug: airsec
   level: initial
-  reviewed_at: '2026-08-23T22:38:28Z'
+  reviewed_at: '2026-08-23T22:52:50Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Find Security Issues in your code by using coding CLIs like Claude,
-      Codex & CommandCode”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 安全漏洞扫描是明确需求，替代人工代码审查的部分工作，价值清晰。
     evidence_ids:
-    - ev-b85bf5ed9877848e
+    - ev-ca671a1cebd6eb36
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 150 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区星标 150，但缺乏社区讨论或用户反馈，共识未充分验证。
     evidence_ids:
-    - ev-b85bf5ed9877848e
+    - ev-ca671a1cebd6eb36
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 未披露商业模式，开源项目可能无直接收入路径。
+    evidence_ids:
+    - ev-ca671a1cebd6eb36
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+    reason: 实际扫描准确率和误报率未验证，需测试。
+    evidence_ids:
+    - ev-ca671a1cebd6eb36
+  next_validation: 查看项目文档或运行测试，评估扫描准确率和误报率。
+  market: ''
+- id: req-full-airsec-2026-08-24
+  project_slug: airsec
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 安全漏洞扫描是明确需求，替代人工代码审查的部分工作，价值清晰。
+    evidence_ids:
+    - ev-ca671a1cebd6eb36
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星标 150，但缺乏社区讨论或用户反馈，共识未充分验证。
+    evidence_ids:
+    - ev-ca671a1cebd6eb36
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能无直接收入路径。
+    evidence_ids:
+    - ev-ca671a1cebd6eb36
+  - gate: truth
+    status: insufficient
+    reason: 实际扫描准确率和误报率未验证，需测试。
+    evidence_ids:
+    - ev-ca671a1cebd6eb36
+  next_validation: 查看项目文档或运行测试，评估扫描准确率和误报率。
   market: ''

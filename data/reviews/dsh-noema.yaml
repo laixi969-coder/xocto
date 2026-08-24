@@ -7,22 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: '价值闸门未过证据门槛：现有公开材料将其描述为“Noema long-term memory plugin for DSH: durable, inspectable agent
-      memory with recall tools”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+    reason: 记忆功能对代理的价值明确，但缺乏实际应用案例。
     evidence_ids:
-    - ev-f0af5fbbac63706f
+    - ev-2233cbe4f88d4904
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 123 个收藏、7 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 星标数较少，社区共识未形成。
     evidence_ids:
-    - ev-f0af5fbbac63706f
+    - ev-2233cbe4f88d4904
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，无法判断付费方。
+    evidence_ids:
+    - ev-2233cbe4f88d4904
+  - gate: truth
+    status: insufficient
+    reason: 未验证记忆的持久性和可靠性。
+    evidence_ids:
+    - ev-2233cbe4f88d4904
+  next_validation: 查看开源仓库的 issue 和讨论，了解用户反馈和使用场景。
+  market: ''
+- id: req-full-dsh-noema-2026-08-24
+  project_slug: dsh-noema
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及长期记忆与检索工具，未提供代理开发者因解决上下文遗忘而获得明确业务收益或付费的证据。
+    evidence_ids:
+    - ev-2233cbe4f88d4904
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。仅有仓库说明，缺乏社区多场景落地及生产环境调用量的佐证。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。未披露任何商业模式或面向 B/C 端的付费设计。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未进入：价值证据不足。长期记忆持久化存储、召回准确率及抗噪声能力缺乏量化基准测试。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 开源仓库中关于长期记忆召回效果的 Benchmark 评测数据与 issue 讨论
   market: ''

@@ -25,3 +25,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-im-2026-08-24
+  project_slug: dsh-im
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅说明支持 9 个渠道扫码或凭据接入 IM 机器人，缺乏买方付费意愿、使用频次及不可替代性证据。
+    evidence_ids:
+    - ev-475ff7c503aa6bad
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。仅有开源仓库功能描述，无法证明企业或个人用户在生产环境长期采用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。无商业化方案、技术支持收费或增值服务信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。多 IM 平台消息收发的稳定性、鉴权安全与边界防护缺乏公开实测报告。
+    evidence_ids: []
+  next_validation: 开源仓库中企业或开发者部署运行的 issue 讨论、配置文档及版本更新记录
+  market: ''

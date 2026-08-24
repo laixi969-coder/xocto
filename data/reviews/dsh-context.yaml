@@ -25,3 +25,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-context-2026-08-24
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为上下文可视化与管理插件，未提供实际买方痛点、信息丢失损失规模或付费意愿证据。
+    evidence_ids:
+    - ev-4c962ff95e5926bb
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。公开材料仅见 npm 基础功能声明，缺乏真实开发者采用与工作流留存数据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。无定价表、收费方案或商业化模式的公开材料。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。缺乏上下文剪枝、压缩与分析动作在实际生产环境中交付确定性的评测数据。
+    evidence_ids: []
+  next_validation: npm 下载量统计及公开仓库中关于上下文调试故障排查的 issue/discussion 记录
+  market: ''

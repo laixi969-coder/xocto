@@ -7,21 +7,52 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“大家好，最近做了一个原生 Windows 开发框架，叫做 **MWFL （ Modern Windows Foundation Layer
-      ）**，想在这里简单分享一下它的来历。 ”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 未明确开发者使用该框架的具体收益或替代场景，价值主张不清晰。
     evidence_ids:
-    - ev-ac3fb102ff4995a7
+    - ev-4c3d4f6d62dad806
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 缺乏社区讨论或采用证据。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 未披露商业模式或付费路径。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+    reason: 未进入：价值证据不足。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  next_validation: 查看仓库文档，确认其是否提供可运行的示例、使用案例及性能数据。
+  market: ''
+- id: req-full-github-2026-08-24
+  project_slug: github
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未明确开发者使用该框架的具体收益或替代场景，价值主张不清晰。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏社区讨论或采用证据。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或付费路径。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  next_validation: 查看仓库文档，确认其是否提供可运行的示例、使用案例及性能数据。
   market: ''

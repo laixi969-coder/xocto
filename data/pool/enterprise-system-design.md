@@ -24,7 +24,7 @@ summary: A source-grounded course and architectural reference for engineers desi
   infrastructure.
 first_seen: '2026-08-12T04:03:15Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

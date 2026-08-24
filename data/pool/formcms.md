@@ -22,7 +22,7 @@ summary: 'AI Agent: Open-source headless CMS built with ASP.NET Core (C#) and Re
   GraphQL, and a GrapesJS page designer.'
 first_seen: '2026-08-13T11:48:48Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

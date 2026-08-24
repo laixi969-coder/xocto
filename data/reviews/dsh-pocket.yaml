@@ -25,3 +25,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-pocket-2026-08-24
+  project_slug: dsh-pocket
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料描述为手机扫码同步访问桌面 DSH 会话，未提供移动端远程监控或控制 AI 流程的强需求与付费证据。
+    evidence_ids:
+    - ev-8bba941edcb4775e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。仅有功能描述，未形成稳定的多设备协同使用共识或高频部署证明。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。无商业化方案或企业级远程运维服务定价。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。公网穿透安全性、实时同屏延迟与网络中断恢复机制缺乏实测公开证据。
+    evidence_ids: []
+  next_validation: 项目仓库中关于公网穿透配置指南、网络延迟测试数据及 issue 记录
+  market: ''

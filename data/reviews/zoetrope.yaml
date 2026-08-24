@@ -1,28 +1,54 @@
 - id: req-initial-zoetrope-2026-08-24
   project_slug: zoetrope
   level: initial
-  reviewed_at: '2026-08-23T22:38:28Z'
+  reviewed_at: '2026-08-23T22:52:50Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Watch a Claude Code session as a live flow graph, in your terminal
-      or your browser.”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值主张明确：可视化 AI 编码会话，但缺乏实际使用案例或用户反馈。
     evidence_ids:
-    - ev-ef061825330748d7
+    - ev-89ff0ee8ed0af568
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 188 个收藏、10 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 仅 188 star，无社区讨论或采用证据，共识未形成。
     evidence_ids:
-    - ev-ef061825330748d7
+    - ev-89ff0ee8ed0af568
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未进入：价值证据不足，商业模式未披露。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未进入：价值证据不足，无法验证交付确定性。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 查看 README 中的使用示例、截图或演示，确认其实际效果和用户反馈。
+  market: ''
+- id: req-full-zoetrope-2026-08-24
+  project_slug: zoetrope
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值主张明确：可视化 AI 编码会话，但缺乏实际使用案例或用户反馈，买方价值未证实。
+    evidence_ids:
+    - ev-89ff0ee8ed0af568
+  - gate: consensus
+    status: insufficient
+    reason: 仅 188 star，无社区讨论或采用证据，共识未形成，卡在感知与想象环节。
+    evidence_ids:
+    - ev-89ff0ee8ed0af568
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足，商业模式未披露，无法判断付费方。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足，无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 查看 README 中的使用示例、截图或演示，确认其实际效果和用户反馈。
   market: ''

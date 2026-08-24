@@ -24,7 +24,7 @@ summary: ARTEMIS turns natural-language instructions into reliable Android autom
   rate of over 99%.
 first_seen: '2026-08-13T17:59:37Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

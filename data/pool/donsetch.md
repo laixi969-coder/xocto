@@ -22,7 +22,7 @@ summary: Web fetch, search, and crawl for AI agents. Built from scratch in Rust.
   AGPL v3.
 first_seen: '2026-08-07T10:13:16Z'
 last_seen: '2026-08-23T22:52:50Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -24,7 +24,7 @@ summary: Bare is a de-Googled Chromium build for Android, built for privacy, con
   of download manager, and more.
 first_seen: '2026-08-15T21:42:56Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

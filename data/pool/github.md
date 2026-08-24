@@ -2,20 +2,32 @@
 slug: github
 name: Github
 builder: everettjf
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: MWFL 是一个基于 C++20 的轻量级原生 Windows 开发框架，在 Win32 之上提供现代封装，保留原生控件和系统能力。Windows 桌面开发者可用它构建原生应用，并让
+  AI 生成的代码更规整。具体流程与交付物仍需核验。
+inspiration: 趋势是 AI 辅助开发需要更规范的基础库。切入点是 Windows 桌面开发，可提供框架和配套工具，帮助开发者用 AI 生成更可维护的代码。
+summary_en: MWFL is a lightweight native Windows development framework based on C++20, providing modern
+  wrappers over Win32 while retaining native controls and system capabilities. Windows desktop developers
+  can use it to build native apps and make AI-generated code more structured. Specific workflow and deliverables
+  still need verification.
+inspiration_en: The trend is AI-assisted development requiring more standardized base libraries. The entry
+  point is Windows desktop development, offering frameworks and companion tools to help developers generate
+  more maintainable code with AI.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: open_source
+industries:
+- 软件开发
+industries_en:
+- Software development
+jobs:
+- Windows 桌面开发者
+jobs_en:
+- Windows desktop developer
+regions:
+- 全球
+regions_en:
+- Global
+open_source: true
 url: https://github.com/mwfl/mwfl
 canonical_url: https://github.com/mwfl/mwfl
 summary: "大家好，最近做了一个原生 Windows 开发框架，叫做 **MWFL （ Modern Windows Foundation Layer ）**，想在这里简单分享一下它的来历。\r\n\
@@ -40,7 +52,7 @@ summary: "大家好，最近做了一个原生 Windows 开发框架，叫做 **M
   \ 项目，欢迎尽情交流。"
 first_seen: '2026-08-23T06:15:09Z'
 last_seen: '2026-08-23T22:38:22Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 sightings:

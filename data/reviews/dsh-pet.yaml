@@ -25,3 +25,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-pet-2026-08-24
+  project_slug: dsh-pet
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料显示为提供透明动画与素材链的桌面宠物，属于娱乐/装扮功能，缺乏持续买方价值与付费证据。
+    evidence_ids:
+    - ev-cbd580dc1a02f1b4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值证据不足。仅有单行命令安装与素材制作描述，缺乏用户长期留存与活跃数据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值证据不足。未展示任何增值道具售卖或订阅收费机制。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。视频自动生成透明宠物动画管线的生成成功率与资源消耗未见实测。
+    evidence_ids: []
+  next_validation: 开源仓库中关于用户自定义素材制作成功率的反馈及版本更新日志
+  market: ''

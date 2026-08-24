@@ -23,7 +23,7 @@ summary: 'Give your AI a full stack: memory, voice, face, and hands. This is the
   you want or do it all!'
 first_seen: '2026-08-17T04:00:03Z'
 last_seen: '2026-08-23T22:52:50Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

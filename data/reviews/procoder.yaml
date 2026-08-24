@@ -3,26 +3,54 @@
   level: initial
   reviewed_at: '2026-08-23T22:38:28Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Senior-developer discipline for AI coding agents. A commit gate that
-      counts unchecked as f”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: AI 编码代理的代码质量问题是实际痛点，质量门禁和教训循环有明确价值。
     evidence_ids:
-    - ev-16911d7a4470ef74
+    - ev-3aa06611a1333b0c
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 155 个收藏、11 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源项目有 155 星，但缺乏用户采用或付费证据，共识未验证。
     evidence_ids:
-    - ev-16911d7a4470ef74
+    - ev-3aa06611a1333b0c
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，可能面向团队收费，但无定价或付费路径。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 项目处于早期，未验证实际效果和稳定性。
+    evidence_ids:
+    - ev-3aa06611a1333b0c
+  next_validation: 查看官方定价页或客户案例，确认是否有团队付费使用。
+  market: ''
+- id: req-full-procoder-2026-08-24
+  project_slug: procoder
+  level: full
+  reviewed_at: '2026-08-24T18:00:00Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: AI编码代理的代码质量问题是实际痛点，质量门禁和教训循环有明确价值。
+    evidence_ids:
+    - ev-3aa06611a1333b0c
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有155星，但缺乏用户采用或付费证据，共识未验证。
+    evidence_ids:
+    - ev-3aa06611a1333b0c
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向团队收费，但无定价或付费路径。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  - gate: truth
+    status: insufficient
+    reason: 项目处于早期，未验证实际效果和稳定性。
+    evidence_ids:
+    - ev-3aa06611a1333b0c
+  next_validation: 查看官方定价页或客户案例，确认是否有团队付费使用。
   market: ''

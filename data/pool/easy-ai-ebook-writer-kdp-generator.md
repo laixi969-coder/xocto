@@ -23,7 +23,7 @@ summary: '📚 **Easy AI eBook Writer**: The ultimate guide & system for writing
   magnet creation. Includes automated PDF/EPUB formatting & step-by-step workflow.'
 first_seen: '2026-08-11T17:09:32Z'
 last_seen: '2026-08-23T22:38:28Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
