@@ -1,12 +1,13 @@
 from __future__ import annotations
 
+from dataclasses import replace
 from datetime import date
 from pathlib import Path
 import tempfile
 import unittest
 
 from xocto.models import DiscoveryEvent, Evidence, Product, ReqGateReview, ReqReview, Sighting
-from xocto.req_review import _messages, _reviews, candidates, seed_initial_reviews
+from xocto.req_review import _is_substantive_full_review, _messages, _reviews, candidates, seed_initial_reviews
 from xocto.store import Store
 
 
@@ -91,3 +92,32 @@ class FullReqReviewTests(unittest.TestCase):
             bad["reviews"][0]["gates"][0]["evidence_ids"] = ["invented"]
             with self.assertRaises(Exception):
                 _reviews(bad, [item], store, DAY)
+
+    def test_full_review_rejects_generic_short_gate_reasons(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            shallow = result()
+            shallow["reviews"][0]["gates"][0]["reason"] = "信息不足。"
+            with self.assertRaises(Exception):
+                _reviews(shallow, [item], store, DAY)
+
+    def test_low_quality_same_day_full_review_is_queued_for_repair(self) -> None:
+        shallow_gates = tuple(
+            ReqGateReview(gate, "insufficient", "公开信息不足。")
+            for gate in ("value", "consensus", "model", "truth")
+        )
+        shallow = ReqReview(
+            id="req-full-freight-ai-2026-08-23", project_slug="freight-ai", level="full",
+            reviewed_at="2026-08-23T10:00:00Z", verdict="needs_validation", signal_level="待验证",
+            gates=shallow_gates, next_validation="查看公开资料。",
+        )
+        self.assertFalse(_is_substantive_full_review(shallow))
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.save_product(item)
+            store.append_req_review(replace(shallow, id="initial", level="initial"))
+            store.append_req_review(shallow)
+            self.assertEqual(candidates(store, DAY), [item])

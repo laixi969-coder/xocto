@@ -12,7 +12,7 @@ from dataclasses import dataclass
 from datetime import date
 from typing import Any
 
-from xocto.brief import BriefError, _request
+from xocto.brief import BriefError, _request, _validation_repair_messages
 from xocto.models import (
     EVENT_REQ_CHANGE,
     REQ_GATE_STATUSES,
@@ -31,6 +31,9 @@ from xocto.store import Store
 
 
 REQ_BATCH_SIZE = 12
+MAX_FULL_REQ_REPAIRS = 2
+MIN_FULL_GATE_REASON = 32
+_READER_DELEGATION = ("访谈", "找一位用户", "询问用户", "请用户", "让读者")
 
 
 @dataclass(frozen=True)
@@ -146,6 +149,15 @@ def _is_cross_market(store: Store, slug: str) -> bool:
     ))
 
 
+def _is_substantive_full_review(review: ReqReview) -> bool:
+    """低于公开质量契约的旧判断必须在重跑时重新进入队列。"""
+    return (
+        review.level == "full"
+        and all(len(gate.reason) >= MIN_FULL_GATE_REASON for gate in review.gates)
+        and not any(fragment in review.next_validation for fragment in _READER_DELEGATION)
+    )
+
+
 def candidates(store: Store, day: date) -> list[Any]:
     """选择值得投入完整研究的当天项目，且同一项目每日最多一版完整判断。"""
     selected: list[Any] = []
@@ -155,7 +167,10 @@ def candidates(store: Store, day: date) -> list[Any]:
         if local_day(product.last_seen) != day.isoformat():
             continue
         reviews = store.read_req_reviews(product.slug)
-        if any(review.level == "full" and review.day == day.isoformat() for review in reviews):
+        if any(
+            review.day == day.isoformat() and _is_substantive_full_review(review)
+            for review in reviews
+        ):
             continue
         initial = [review for review in reviews if review.level == "initial"]
         if not initial:
@@ -237,15 +252,19 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
             status = str(raw.get("status") or "")
             reason = str(raw.get("reason") or "").strip()
             ids = raw.get("evidence_ids") or []
-            if status not in REQ_GATE_STATUSES or not reason:
+            if status not in REQ_GATE_STATUSES or len(reason) < MIN_FULL_GATE_REASON:
                 raise BriefError("完整 `/req` 判断的闸门内容不合法")
             reason = reason[:480].rstrip()
             if not isinstance(ids, list) or not all(isinstance(item, str) for item in ids) or set(ids) - allowed:
                 raise BriefError("完整 `/req` 判断引用了不存在的证据")
             gates.append(ReqGateReview(expected, status, reason, tuple(ids)))
+        if gates[0].status != "supported" and any(gate.status == "supported" for gate in gates[1:]):
+            raise BriefError("价值闸门未通过时，完整 `/req` 不得将后续闸门标为 supported")
         next_validation = str(row.get("next_validation") or "").strip()
         if not next_validation:
             raise BriefError("完整 `/req` 判断缺少下一项验证")
+        if any(fragment in next_validation for fragment in _READER_DELEGATION):
+            raise BriefError("完整 `/req` 的下一项验证不得要求网站读者执行访谈")
         out.append(ReqReview(
             id=f"req-full-{slug}-{day.isoformat()}", project_slug=slug, level="full",
             reviewed_at=now_iso(), verdict=verdict, signal_level=signal,
@@ -262,7 +281,17 @@ def run(store: Store, *, day: date) -> FullReqReport:
     reviews: list[ReqReview] = []
     for start in range(0, len(selected), REQ_BATCH_SIZE):
         batch = selected[start:start + REQ_BATCH_SIZE]
-        reviews.extend(_reviews(_request(_messages(batch, store)), batch, store, day))
+        messages = _messages(batch, store)
+        result = _request(messages)
+        for attempt in range(MAX_FULL_REQ_REPAIRS + 1):
+            try:
+                batch_reviews = _reviews(result, batch, store, day)
+                break
+            except BriefError as exc:
+                if attempt >= MAX_FULL_REQ_REPAIRS:
+                    raise
+                result = _request(_validation_repair_messages(messages, result, exc))
+        reviews.extend(batch_reviews)
     for review in reviews:
         previous_full = max(
             (item for item in store.read_req_reviews(review.project_slug) if item.level == "full"),
