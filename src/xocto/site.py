@@ -20,6 +20,7 @@ data/reports/en/ 和 frontmatter 里的 *_en 字段）。模板只有一套，�
 from __future__ import annotations
 
 import html
+import hashlib
 import re
 import shutil
 from dataclasses import dataclass
@@ -1403,6 +1404,7 @@ def _build_locale(
     alt_paths: set[str],
     rendered: list[str],
     sitemap: list[tuple[str, str]],
+    asset_version: str,
 ) -> int:
     """渲染一个语种的全部页面，返回页面数。"""
     alt = other(locale)
@@ -1440,6 +1442,7 @@ def _build_locale(
             alt_locale=alt,
             alt_href=f"{root}{alt.prefix}{alt_rel}",
             alt_canonical=_canonical(alt.path(alt_rel)) if alt_exact else "",
+            asset_version=asset_version,
             **extra,
         )
         (base / rel).write_text(html, encoding="utf-8")
@@ -1520,6 +1523,8 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
     )
 
     out_dir.mkdir(parents=True, exist_ok=True)
+    css_src = templates_dir / "style.css"
+    asset_version = hashlib.sha256(css_src.read_bytes()).hexdigest()[:12] if css_src.exists() else "0"
 
     # 两个语种的数据先各自组好，再开始渲染 —— 语言切换要知道对面有没有这一页
     contexts = {loc.key: build_context(store, loc) for loc in LOCALES}
@@ -1533,7 +1538,7 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
     for locale in LOCALES:
         pages += _build_locale(
             env, out_dir, locale, contexts[locale.key],
-            paths[other(locale).key], rendered, sitemap,
+            paths[other(locale).key], rendered, sitemap, asset_version,
         )
 
     expected = {
@@ -1545,7 +1550,6 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
     if stale:
         print(f"  清掉 {stale} 个不再发布的旧页面")
 
-    css_src = templates_dir / "style.css"
     if css_src.exists():
         shutil.copy2(css_src, out_dir / "style.css")
 

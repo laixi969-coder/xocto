@@ -89,3 +89,11 @@ copy was left-aligned but still constrained to 32% of the section width, so it
 continued to wrap despite unused horizontal space. The note now explicitly
 spans the entire grid row (`templates/style.css`), and a regression test
 asserts that invariant. This is a corrected root cause, not a copy change.
+
+### Deployment correction
+
+The rendered HTML referenced the shared stylesheet only as `style.css`. Browsers
+could therefore retain an older stylesheet after Vercel had served the updated
+HTML, reproducing the retired two-column layout online. The build now hashes
+the stylesheet and appends that hash to every stylesheet URL, so a style change
+always has a new URL and cannot be hidden by an old browser cache.

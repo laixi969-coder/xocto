@@ -592,6 +592,12 @@ class PublishabilityTests(unittest.TestCase):
         )
         self.assertNotIn('as="font"', template)
 
+    def test_static_site_versions_its_stylesheet(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "base.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn('style.css?v={{ asset_version }}', template)
+
     def test_stale_generated_page_is_removed(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

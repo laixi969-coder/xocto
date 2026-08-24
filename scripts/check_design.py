@@ -5,7 +5,7 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算九件事：
+复算十件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
   2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
@@ -16,12 +16,14 @@
   7. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
   8. 发布门槛      —— rejected 和缺中文说明/灵感的半成品没有残留页面
   9. 内部术语泄漏  —— 面向读者的页面不出现内部方法名 /req
+ 10. 样式版本      —— 每次样式变更都使用新 URL，不能被浏览器旧缓存覆盖
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
 
 from __future__ import annotations
 
+import hashlib
 import html as html_lib
 import re
 import sys
@@ -234,6 +236,26 @@ def check_internal_method_terms() -> list[str]:
     return problems[:20]
 
 
+def check_stylesheet_version() -> list[str]:
+    """样式文件没指纹时，HTML 更新后浏览器仍可能拿到旧 CSS。"""
+    if not SITE.is_dir():
+        return ["site/ 不存在，先跑 uv run xocto build"]
+    expected = hashlib.sha256(CSS.read_bytes()).hexdigest()[:12]
+    pattern = re.compile(r'<link rel="stylesheet" href="[^"]*style\.css\?v=([0-9a-f]{12})">')
+    problems: list[str] = []
+    for path in sorted(SITE.rglob("*.html")):
+        raw = path.read_text(encoding="utf-8", errors="ignore")
+        # 搜索平台的所有权验证文件不是读者页面，也没有页面壳。
+        if raw.startswith("google-site-verification:"):
+            continue
+        match = pattern.search(raw)
+        if not match:
+            problems.append(f"{path.relative_to(SITE)} 没有带版本的样式链接")
+        elif match.group(1) != expected:
+            problems.append(f"{path.relative_to(SITE)} 的样式版本不是当前版本")
+    return problems[:20]
+
+
 def check_links() -> list[str]:
     if not SITE.is_dir():
         return []
@@ -323,6 +345,7 @@ def main() -> int:
         ("英文漏进中文证据", check_zh_evidence_english()),
         ("私人指涉泄漏", check_private_refs()),
         ("内部术语泄漏", check_internal_method_terms()),
+        ("样式版本", check_stylesheet_version()),
         ("站内死链", check_links()),
         ("sitemap 自洽", check_sitemap()),
         ("发布门槛", check_publishability()),
