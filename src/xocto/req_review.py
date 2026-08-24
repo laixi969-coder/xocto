@@ -61,12 +61,14 @@ def _baseline_initial_review(product: Any, evidence: list[Any], day: date, revie
     latest_metrics = product.sightings[-1].metrics if product.sightings else {}
     stars = latest_metrics.get("stars")
     forks = latest_metrics.get("forks")
+    has_open_source = any(item.source_kind == "open_source" for item in evidence)
+    has_adoption = any(item.source_kind == "adoption" for item in evidence)
     if isinstance(stars, int) and stars > 0:
         consensus_reason = (
             f"公开代码仓库记录为 {stars:,} 个收藏" + (f"、{forks:,} 个复刻" if isinstance(forks, int) and forks > 0 else "")
             + "；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。"
         )
-    elif any(item.source_kind == "adoption" for item in evidence):
+    elif has_adoption:
         consensus_reason = "已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。"
     else:
         consensus_reason = "未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。"
@@ -75,11 +77,17 @@ def _baseline_initial_review(product: Any, evidence: list[Any], day: date, revie
         if evidence_ids else "尚无可引用的公开材料，目标用户问题、使用频率与损失规模均待核验。"
     )
     gates = (
-        ReqGateReview("value", "insufficient", value_reason, evidence_ids),
-        ReqGateReview("consensus", "insufficient", consensus_reason, evidence_ids if stars else ()),
-        ReqGateReview("model", "insufficient", "未见付费主体、定价、成交或单位经济证据，商业模式仍待核验。"),
-        ReqGateReview("truth", "insufficient", "尚缺独立结果、准确率或人工复核边界的证据，产品效果不能先行假定。"),
+        ReqGateReview("value", "insufficient", f"价值闸门未过证据门槛：{value_reason}", evidence_ids),
+        ReqGateReview("consensus", "insufficient", f"未进入共识闸门：价值证据不足；{consensus_reason}", evidence_ids if stars else ()),
+        ReqGateReview("model", "insufficient", "未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。"),
+        ReqGateReview("truth", "insufficient", "未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。"),
     )
+    if has_open_source:
+        next_validation = "公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。"
+    elif has_adoption:
+        next_validation = "公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。"
+    else:
+        next_validation = "公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。"
     return ReqReview(
         id=f"req-initial-{product.slug}-{day.isoformat()}",
         project_slug=product.slug,
@@ -88,9 +96,7 @@ def _baseline_initial_review(product: Any, evidence: list[Any], day: date, revie
         verdict="needs_validation",
         signal_level="待验证",
         gates=gates,
-        next_validation=(
-            f"访谈一位处理“{description}”相关任务的目标用户，确认发生频率、现有替代方案与结果付费意愿。"
-        ),
+        next_validation=next_validation,
     )
 
 
@@ -109,7 +115,10 @@ def seed_initial_reviews(store: Store, *, day: date) -> InitialReqSeedReport:
         if product is None:
             continue
         existing = store.read_req_reviews(slug)
-        if any(review.level == "initial" and local_day(review.reviewed_at) == day.isoformat() for review in existing):
+        current = [review for review in existing if review.level == "initial" and local_day(review.reviewed_at) == day.isoformat()]
+        # 旧版基础初判以“访谈一位……”作统一动作；它不是 REQ 在公开证据
+        # 场景中的正确落点，允许本次重写。已由模型完成的初判保持不动。
+        if current and not all(review.next_validation.startswith("访谈一位处理“") for review in current):
             continue
         event = next(item for item in events if item.project_slug == slug)
         review = _baseline_initial_review(product, store.read_evidence(slug), day, event.discovered_at)

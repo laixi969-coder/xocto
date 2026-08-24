@@ -52,12 +52,14 @@ class BriefTests(unittest.TestCase):
             store.config_dir.mkdir(parents=True, exist_ok=True)
             (store.config_dir / "filter.md").write_text("筛选规则", encoding="utf-8")
             (store.config_dir / "template.md").write_text("编辑模板", encoding="utf-8")
+            (store.config_dir / "req.md").write_text("REQ 公开证据模式", encoding="utf-8")
 
             prompt = _prompt(store, DAY, [product()], [])
 
             self.assertIn("60–130 个中文字符", prompt[0]["content"])
             self.assertIn("具体工作节点", prompt[0]["content"])
             self.assertIn("用户最终拿到什么", prompt[0]["content"])
+            self.assertIn("REQ 公开证据模式", prompt[0]["content"])
 
     def test_gemini_can_be_the_primary_model_with_deepseek_fallback(self) -> None:
         with patch.dict(
@@ -396,6 +398,17 @@ class BriefTests(unittest.TestCase):
         }
         with self.assertRaises(BriefError):
             _report_markdown(result, DAY, english=False)
+
+    def test_report_rejects_untranslated_cjk_in_english_copy(self) -> None:
+        result = {
+            "report": {
+                "hook_en": "A new workflow、with a leaked punctuation mark",
+                "highlights_en": ["One observation"],
+                "body_en": "## One product worth watching\n\nA concise call.",
+            }
+        }
+        with self.assertRaises(BriefError):
+            _report_markdown(result, DAY, english=True)
 
     def test_public_copy_rejects_internal_source_names(self) -> None:
         updated = replace(

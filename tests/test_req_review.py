@@ -47,7 +47,9 @@ class FullReqReviewTests(unittest.TestCase):
 
             self.assertEqual((report.candidates, report.reviews), (1, 1))
             self.assertEqual(seeded.signal_level, "待验证")
-            self.assertIn("公开材料", seeded.gates[0].reason)
+            self.assertIn("价值闸门", seeded.gates[0].reason)
+            self.assertIn("公开补证", seeded.next_validation)
+            self.assertNotIn("访谈", seeded.next_validation)
             revised = ReqReview(
                 id=seeded.id, project_slug=item.slug, level="initial", reviewed_at=item.last_seen,
                 verdict="needs_validation", signal_level="初步成立",
