@@ -95,18 +95,21 @@ class FullReqReviewTests(unittest.TestCase):
             self.assertEqual(reviews[0].id, "req-full-freight-ai-2026-08-23")
             bad = result()
             bad["reviews"][0]["gates"][0]["evidence_ids"] = ["invented"]
-            with self.assertRaises(Exception):
-                _reviews(bad, [item], store, DAY)
+            normalized = _reviews(bad, [item], store, DAY)[0]
+            self.assertEqual(normalized.gates[0].status, "insufficient")
+            self.assertEqual(normalized.gates[0].evidence_ids, ())
 
-    def test_full_review_rejects_generic_short_gate_reasons(self) -> None:
+    def test_full_review_conservatively_downgrades_generic_short_gate_reasons(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
             item = product()
             store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
             shallow = result()
             shallow["reviews"][0]["gates"][0]["reason"] = "信息不足。"
-            with self.assertRaises(Exception):
-                _reviews(shallow, [item], store, DAY)
+            review = _reviews(shallow, [item], store, DAY)[0]
+            self.assertEqual(review.gates[0].status, "insufficient")
+            self.assertIn("shipment exceptions", review.gates[0].reason)
+            self.assertEqual(review.gates[1].reason, "价值闸门未通过，共识闸门未进入。")
 
     def test_full_review_allows_concise_unentered_gates_after_block(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -120,38 +123,42 @@ class FullReqReviewTests(unittest.TestCase):
             self.assertEqual(_reviews(blocked, [item], store, DAY)[0].level, "full")
 
             gates[2]["status"] = "supported"
-            with self.assertRaises(Exception):
-                _reviews(blocked, [item], store, DAY)
+            normalized = _reviews(blocked, [item], store, DAY)[0]
+            self.assertEqual(normalized.gates[2].status, "insufficient")
+            self.assertEqual(normalized.gates[2].evidence_ids, ())
 
-    def test_full_review_requires_evidence_for_supported_gate(self) -> None:
+    def test_full_review_downgrades_unsupported_claim_without_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
             item = product()
             store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
             unsupported = result()
             unsupported["reviews"][0]["gates"][0]["evidence_ids"] = []
-            with self.assertRaises(Exception):
-                _reviews(unsupported, [item], store, DAY)
+            review = _reviews(unsupported, [item], store, DAY)[0]
+            self.assertEqual(review.gates[0].status, "insufficient")
+            self.assertEqual(review.verdict, "needs_validation")
 
-    def test_full_review_requires_project_specific_distinct_reasons(self) -> None:
+    def test_full_review_replaces_duplicated_active_reason(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
             item = product()
             store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
             duplicated = result()
             duplicated["reviews"][0]["gates"][1]["reason"] = duplicated["reviews"][0]["gates"][0]["reason"]
-            with self.assertRaises(Exception):
-                _reviews(duplicated, [item], store, DAY)
+            review = _reviews(duplicated, [item], store, DAY)[0]
+            self.assertNotEqual(review.gates[0].reason, review.gates[1].reason)
+            self.assertIn("持续部署", review.gates[1].reason)
 
-    def test_full_review_requires_public_evidence_next_step(self) -> None:
+    def test_full_review_replaces_reader_delegation_with_public_evidence_step(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
             item = product()
             store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
             delegated = result()
             delegated["reviews"][0]["next_validation"] = "访谈一位货代，询问是否愿意为此付费。"
-            with self.assertRaises(Exception):
-                _reviews(delegated, [item], store, DAY)
+            review = _reviews(delegated, [item], store, DAY)[0]
+            self.assertNotIn("访谈", review.next_validation)
+            self.assertIn("公开部署文档", review.next_validation)
 
     def test_low_quality_same_day_full_review_is_queued_for_repair(self) -> None:
         shallow_gates = tuple(

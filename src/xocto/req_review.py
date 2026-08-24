@@ -40,6 +40,7 @@ _PUBLIC_EVIDENCE_CHANNELS = (
     "公开", "官网", "文档", "定价", "案例", "客户", "部署", "仓库", "issue", "discussion",
     "评价", "评论", "榜单", "招聘", "采购", "合同", "财报", "增长", "留存", "复购",
 )
+_GATE_LABELS = {"value": "价值", "consensus": "共识", "model": "模式", "truth": "求真"}
 
 
 @dataclass(frozen=True)
@@ -195,6 +196,30 @@ def _has_public_validation_step(next_validation: str) -> bool:
     )
 
 
+def _fallback_gate_reason(product: Any, gate: str) -> str:
+    """把不可采信的模型理由降级为项目特定、可公开核验的诚实表述。"""
+    description = " ".join((product.summary_zh or product.summary or product.name).split())[:90]
+    if gate == "value":
+        return f"公开材料仅说明“{description}”，尚未充分证明目标用户、不采用代价与问题发生频率。"
+    if gate == "consensus":
+        return f"关于“{description}”的公开材料尚未给出持续部署、复购或独立用户评价。"
+    if gate == "model":
+        return f"关于“{description}”的公开材料尚未披露付费主体、定价与单位经济。"
+    return f"关于“{description}”的公开材料尚未给出可复现结果、确定性交付及人工边界。"
+
+
+def _blocked_gate_reason(blocked_gate: str, gate: str) -> str:
+    return f"{_GATE_LABELS[blocked_gate]}闸门未通过，{_GATE_LABELS[gate]}闸门未进入。"
+
+
+def _fallback_validation_step(product: Any, blocked_gate: str | None) -> str:
+    target = f"，补足{_GATE_LABELS[blocked_gate]}闸门证据" if blocked_gate else ""
+    return (
+        f"追踪 {product.name} 的官网定价、客户案例、公开部署文档及 issue/discussion"
+        f"{target}。"
+    )
+
+
 def candidates(store: Store, day: date) -> list[Any]:
     """选择值得投入完整研究的当天项目，且同一项目每日最多一版完整判断。"""
     selected: list[Any] = []
@@ -287,24 +312,57 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
             raise BriefError("完整 `/req` 判断必须完整返回四道闸门")
         allowed = {item.id for item in store.read_evidence(slug)}
         gates: list[ReqGateReview] = []
+        blocked_gate: str | None = None
+        active_reasons: set[str] = set()
         for expected, raw in zip(REQ_GATES, raw_gates):
             if not isinstance(raw, dict) or raw.get("gate") != expected:
                 raise BriefError("完整 `/req` 判断的闸门顺序不合法")
             status = str(raw.get("status") or "")
             reason = str(raw.get("reason") or "").strip()
             ids = raw.get("evidence_ids") or []
-            if status not in REQ_GATE_STATUSES or not reason:
+            if status not in REQ_GATE_STATUSES:
                 raise BriefError(f"{slug}.{expected} 的完整 `/req` 闸门内容不合法")
             reason = reason[:480].rstrip()
-            if not isinstance(ids, list) or not all(isinstance(item, str) for item in ids) or set(ids) - allowed:
-                raise BriefError("完整 `/req` 判断引用了不存在的证据")
-            gates.append(ReqGateReview(expected, status, reason, tuple(ids)))
+            if not isinstance(ids, list) or not all(isinstance(item, str) for item in ids):
+                raise BriefError("完整 `/req` 判断的 evidence_ids 格式不正确")
+            # 模型可能混入不存在的 ID。引用边界由程序拥有：过滤无效引用，
+            # 随后把失去证据的 supported/challenged 保守降级。
+            evidence_ids = tuple(dict.fromkeys(item for item in ids if item in allowed))
+            if blocked_gate is not None:
+                status = "insufficient"
+                reason = _blocked_gate_reason(blocked_gate, expected)
+                evidence_ids = ()
+            else:
+                normalized = "".join(reason.split()).rstrip("。；，,. ;")
+                unsupported_claim = status in {"supported", "challenged"} and not evidence_ids
+                weak_reason = len(reason) < MIN_ACTIVE_GATE_REASON or normalized in active_reasons
+                if unsupported_claim or weak_reason:
+                    status = "insufficient"
+                    reason = _fallback_gate_reason(by_slug[slug], expected)
+                    evidence_ids = ()
+                    normalized = "".join(reason.split()).rstrip("。；，,. ;")
+                active_reasons.add(normalized)
+                if status != "supported":
+                    blocked_gate = expected
+            gates.append(ReqGateReview(expected, status, reason, evidence_ids))
         if not _has_substantive_gate_reasons(gates):
             lengths = "/".join(str(len(gate.reason)) for gate in gates)
-            raise BriefError(f"{slug} 的完整 `/req` 理由不足或违反先拦后续规则（长度 {lengths}）")
+            raise BriefError(f"{slug} 的完整 `/req` 归一化结果违反内部约束（长度 {lengths}）")
         next_validation = str(row.get("next_validation") or "").strip()
         if not _has_public_validation_step(next_validation):
-            raise BriefError(f"{slug} 的下一项验证必须指向具体公开证据来源，且不得转交网站读者")
+            next_validation = _fallback_validation_step(by_slug[slug], blocked_gate)
+        challenged = any(gate.status == "challenged" for gate in gates)
+        all_supported = all(gate.status == "supported" for gate in gates)
+        if verdict == "pseudo_demand" and not challenged:
+            verdict = "needs_validation"
+        if verdict == "true_demand" and not all_supported:
+            verdict = "needs_validation"
+        if verdict == "pseudo_demand":
+            signal = "需求存疑"
+        elif verdict == "true_demand":
+            signal = "需求信号明确"
+        else:
+            signal = "初步成立" if any(gate.status == "supported" for gate in gates) else "待验证"
         out.append(ReqReview(
             id=f"req-full-{slug}-{day.isoformat()}", project_slug=slug, level="full",
             reviewed_at=now_iso(), verdict=verdict, signal_level=signal,
