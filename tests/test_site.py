@@ -63,6 +63,13 @@ def product(*, status: str = "watching", summary_zh: str = "中文说明", inspi
 
 
 class PublishabilityTests(unittest.TestCase):
+    def test_reader_facing_copy_does_not_expose_internal_req_name(self) -> None:
+        for locale in (ZH, EN):
+            for section in ("home", "products", "product"):
+                for value in locale.t[section].values():
+                    if isinstance(value, str):
+                        self.assertNotIn("/req", value.lower())
+
     def test_home_is_todays_front_page(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
             encoding="utf-8"
@@ -78,6 +85,7 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("t.home.daily_flow", template)
         self.assertIn("market_summary", template)
         self.assertIn("t.home.past_reports", template)
+        self.assertIn("dimension-list", template)
         self.assertLess(template.index("first_discoveries"), template.index("important_updates"))
         self.assertLess(template.index("important_updates"), template.index("market_summary"))
         self.assertLess(template.index("market_summary"), template.index("t.home.past_reports"))
@@ -534,6 +542,7 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("t.product.req_title", template)
+        self.assertIn("t.product.req_kicker", template)
         self.assertIn("product.req.gates", template)
         self.assertIn("t.product.markets_title", template)
         self.assertIn("product.cross_market", template)

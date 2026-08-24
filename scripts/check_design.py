@@ -5,7 +5,7 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算八件事：
+复算九件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
   2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
@@ -15,6 +15,7 @@
   6. 站内死链      —— 相对链接都要指向真实存在的文件
   7. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
   8. 发布门槛      —— rejected 和缺中文说明/灵感的半成品没有残留页面
+  9. 内部术语泄漏  —— 面向读者的页面不出现内部方法名 /req
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
@@ -46,6 +47,7 @@ FORBIDDEN = ("Product Hunt", "Hacker News", "AICPB", "producthunt", "hackernews"
 # 读者不知道 songo 是什么，也不认识作者。
 # data/ 里没有私人角落：写进去什么，站上就出什么。
 PRIVATE_REFS = ("songo", "octo", "蔡蔡", "你二十年", "你的短剧业务")
+INTERNAL_METHOD_TERMS = ("/req",)
 
 
 def _luminance(hex_color: str) -> float:
@@ -220,6 +222,18 @@ def check_private_refs() -> list[str]:
     return problems
 
 
+def check_internal_method_terms() -> list[str]:
+    """内部工作方法可以留在代码和工作流，但不能成为读者的页面术语。"""
+    problems: list[str] = []
+    for path in sorted(SITE.rglob("*.html")):
+        raw = path.read_text(encoding="utf-8", errors="ignore")
+        visible = html_lib.unescape(_SCRIPT.sub(" ", _TAG.sub(" ", raw)))
+        for term in INTERNAL_METHOD_TERMS:
+            if term.lower() in visible.lower():
+                problems.append(f"{path.relative_to(SITE)} 出现内部术语「{term}」")
+    return problems[:20]
+
+
 def check_links() -> list[str]:
     if not SITE.is_dir():
         return []
@@ -308,6 +322,7 @@ def main() -> int:
         ("中文漏进英文站", check_en_chinese()),
         ("英文漏进中文证据", check_zh_evidence_english()),
         ("私人指涉泄漏", check_private_refs()),
+        ("内部术语泄漏", check_internal_method_terms()),
         ("站内死链", check_links()),
         ("sitemap 自洽", check_sitemap()),
         ("发布门槛", check_publishability()),

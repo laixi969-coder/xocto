@@ -141,9 +141,9 @@ button { font: inherit; }
 /* Sections use the rhythm of a printed brief, not a dashboard of cards. */
 .band { padding: clamp(40px, 5.5vw, 76px) 0; border-bottom: 1px solid var(--line); }
 .band:last-of-type { border-bottom: 0; }
-.sec-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 28%); gap: 18px; align-items: end; margin-bottom: 25px; }
+.sec-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, 32%); gap: 18px; align-items: start; margin-bottom: 25px; }
 .sec-head h2 { margin: 0; font-family: var(--display); font-size: clamp(26px, 3.1vw, 42px); font-weight: 700; letter-spacing: -.03em; line-height: 1.08; }
-.sec-head .note { color: var(--ink-faint); font-size: 12px; line-height: 1.55; text-align: right; }
+.sec-head .note { max-width: 42em; margin-top: 5px; color: var(--ink-faint); font-size: 12px; line-height: 1.55; text-align: left; text-wrap: pretty; }
 .section-index { margin: 0 0 8px; color: var(--signal); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; }
 
 /* Daily signal on the front page. */
@@ -173,6 +173,9 @@ button { font: inherit; }
 .pick-body { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
 .pick-body .field-what { grid-column: 1 / -1; max-width: 68ch; }
 .pick-body .field-take { grid-column: 1 / -1; }
+.dimension-list { display: flex; flex-wrap: wrap; gap: 0; }
+.dimension-item { white-space: nowrap; }
+.dimension-item + .dimension-item::before { content: " · "; }
 .field-k { display: block; margin-bottom: 7px; color: var(--ink-faint); font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
 .field p { margin: 0; font-size: 15px; line-height: 1.7; }
 .field-take { border-left: 2px solid var(--accent); padding-left: 13px; }
@@ -264,6 +267,10 @@ button { font: inherit; }
 .decision-grid .field:nth-child(even) { padding-left: 28px; border-left: 1px solid var(--line-soft); }
 .decision-grid .decision-call { background: color-mix(in srgb, var(--surface) 52%, transparent); }
 .decision-grid .field p { max-width: 45em; font-size: 15px; line-height: 1.72; }
+.decision-overview { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.decision-overview .field { min-height: 0; }
+.decision-overview .field:nth-child(n) { padding-left: 0; border-left: 0; }
+.decision-overview .field + .field { padding-left: 28px; border-left: 1px solid var(--line-soft); }
 .decision-replaces { max-width: 850px; margin-top: 25px; padding-left: 15px; border-left: 2px solid var(--ink); }
 .decision-replaces p { color: var(--ink-soft); }
 .role-lenses { padding-top: clamp(36px, 4vw, 60px); }
@@ -384,6 +391,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .obs-cta { grid-column: 2; justify-self: start; }
   .pick { grid-template-columns: 36px minmax(155px, .8fr) minmax(0, 1.35fr); }
   .pick-body { grid-template-columns: 1fr; gap: 15px; }
+  .decision-overview { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .decision-overview .field:nth-child(3) { grid-column: 1 / -1; padding-left: 0; border-left: 0; }
   .card { grid-template-columns: minmax(150px, .75fr) minmax(0, 1.5fr) minmax(125px, .55fr); }
   .report-layout { grid-template-columns: 1fr; gap: 0; }
   .report-rail { display: none; }
@@ -415,6 +424,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .pick-body { grid-column: 2; margin-top: -2px; }
   .summary-grid { grid-template-columns: 1fr; gap: 24px; }
   .role-grid, .decision-grid { grid-template-columns: 1fr; }
+  .decision-overview .field:nth-child(3) { grid-column: auto; }
   .row-head { grid-template-columns: 1fr; gap: 4px; }
   .row-tail { justify-content: flex-start; margin-top: 4px; }
   .exit-grid { grid-template-columns: 1fr; }
@@ -434,6 +444,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .kv { gap: 13px 24px; }
   .decision-grid .field, .decision-grid .field:nth-child(even) { min-height: 0; padding: 18px 0; border-left: 0; }
   .decision-grid .decision-call { padding-left: 12px; }
+  .decision-overview .field + .field { padding-left: 0; border-left: 0; }
   .role-grid .field, .role-grid .field + .field { min-height: 0; padding: 18px 0; border-left: 0; }
   .prose { padding-top: 34px; font-size: 15px; }
   .prose h2 { margin-top: 40px; }
