@@ -81,3 +81,11 @@ the dimensions were emitted as one unrestricted text node.
 One `fix_failed_tests` event: the first version of the new localisation test
 assumed every localisation value was a string. It was narrowed to direct
 strings and then passed. No root-cause or design hypothesis failed.
+
+## Follow-up: 2026-08-24
+
+The first layout correction left `.sec-head .note` in the second column. The
+copy was left-aligned but still constrained to 32% of the section width, so it
+continued to wrap despite unused horizontal space. The note now explicitly
+spans the entire grid row (`templates/style.css`), and a regression test
+asserts that invariant. This is a corrected root cause, not a copy change.

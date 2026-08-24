@@ -70,6 +70,12 @@ class PublishabilityTests(unittest.TestCase):
                     if isinstance(value, str):
                         self.assertNotIn("/req", value.lower())
 
+    def test_section_notes_use_the_full_available_line(self) -> None:
+        css = (Path(__file__).parents[1] / "templates" / "style.css").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn(".sec-head .note { grid-column: 1 / -1;", css)
+
     def test_home_is_todays_front_page(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "index.html").read_text(
             encoding="utf-8"
