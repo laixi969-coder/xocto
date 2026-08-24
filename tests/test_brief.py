@@ -368,6 +368,24 @@ class BriefTests(unittest.TestCase):
                 [source],
             )
 
+    def test_product_update_rejects_untranslated_cjk_in_english_copy(self) -> None:
+        row = {
+            "slug": "example",
+            "decision": "queued",
+            "category": "AI + 开发",
+            "project_type": "product",
+            "summary_zh": "把需求整理成可执行的开发任务",
+            "inspiration": "先形成可审阅的中间产物，再进入交付。",
+            "summary_en": "Turns requirements、into build-ready development tasks.",
+            "inspiration_en": "Create a reviewable intermediate artifact before delivery.",
+            "industries": ["软件研发"], "industries_en": ["Software development"],
+            "jobs": ["需求梳理"], "jobs_en": ["Requirements analysis"],
+            "regions": ["英文生态"], "regions_en": ["English-speaking markets"],
+            "open_source": True,
+        }
+        with self.assertRaises(BriefError):
+            _updates({"products": [row]}, [product()])
+
     def test_priority_candidate_must_appear_in_both_reports(self) -> None:
         source = replace(product("deepseek-harness"), name="DeepSeek Harness", priority_review=True)
         with self.assertRaises(BriefError):

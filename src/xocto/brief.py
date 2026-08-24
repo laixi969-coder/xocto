@@ -460,6 +460,15 @@ def _updates(result: dict[str, Any], products: list[Product]) -> dict[str, Produ
         regions_en = tags("regions_en")
         if len(industries) != len(industries_en) or len(jobs) != len(jobs_en) or len(regions) != len(regions_en):
             raise BriefError(f"{slug} 的中英文维度标签数量必须对应")
+        english_public_copy = (
+            fields["summary_en"],
+            fields["inspiration_en"],
+            *industries_en,
+            *jobs_en,
+            *regions_en,
+        )
+        if any(_CJK_TEXT.search(text) for text in english_public_copy):
+            raise BriefError(f"{slug} 的英文公开字段包含未翻译的中文字符或标点")
         updates[slug] = replace(
             product,
             status=decision,

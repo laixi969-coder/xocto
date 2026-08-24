@@ -6,7 +6,7 @@ import tempfile
 import unittest
 
 from xocto.models import DiscoveryEvent, Evidence, Product, ReqGateReview, ReqReview, Sighting
-from xocto.req_review import _reviews, candidates, seed_initial_reviews
+from xocto.req_review import _messages, _reviews, candidates, seed_initial_reviews
 from xocto.store import Store
 
 
@@ -31,6 +31,15 @@ def result() -> dict:
 
 
 class FullReqReviewTests(unittest.TestCase):
+    def test_full_review_prompt_uses_req_public_evidence_protocol(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.config_dir.mkdir(parents=True, exist_ok=True)
+            (store.config_dir / "req.md").write_text("# REQ 公开证据模式\n\n不得要求读者访谈。", encoding="utf-8")
+            prompt = _messages([product()], store)
+            self.assertIn("REQ 公开证据模式", prompt[0]["content"])
+            self.assertIn("不得要求读者访谈", prompt[0]["content"])
+
     def test_seeded_initial_review_exists_without_a_model_call_and_is_replaced_by_the_editor(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
