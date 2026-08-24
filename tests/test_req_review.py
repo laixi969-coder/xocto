@@ -24,11 +24,16 @@ def product() -> Product:
 
 
 def result() -> dict:
-    reason = "货运异常处理的对象、旧流程与交付结果已有公开说明，但仍需核验不同规模货代是否愿意把该环节持续交给产品处理。"
+    reasons = {
+        "value": "货运异常处理的对象、旧流程与交付结果已有公开说明，目标问题可以被清晰定位。",
+        "consensus": "现有材料尚未给出持续部署、复购或独立用户评价，采用共识仍待公开证据确认。",
+        "model": "共识闸门未通过，付费主体、定价和单位经济暂不进入判断。",
+        "truth": "共识闸门未通过，可复现结果和人工边界暂不进入判断。",
+    }
     return {"reviews": [{"slug": "freight-ai", "verdict": "needs_validation", "signal_level": "待验证", "gates": [
-        {"gate": gate, "status": "supported" if gate == "value" else "insufficient", "reason": reason, "evidence_ids": ["ev-1"]}
+        {"gate": gate, "status": "supported" if gate == "value" else "insufficient", "reason": reasons[gate], "evidence_ids": ["ev-1"]}
         for gate in ("value", "consensus", "model", "truth")
-    ], "next_validation": "确认至少两家货代是否愿意为降低异常处理时长持续付费。"}]}
+    ], "next_validation": "追踪官网客户案例与公开部署文档，确认货代是否持续采用并为降低异常处理时长付费。"}]}
 
 
 class FullReqReviewTests(unittest.TestCase):
@@ -117,6 +122,36 @@ class FullReqReviewTests(unittest.TestCase):
             gates[2]["status"] = "supported"
             with self.assertRaises(Exception):
                 _reviews(blocked, [item], store, DAY)
+
+    def test_full_review_requires_evidence_for_supported_gate(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            unsupported = result()
+            unsupported["reviews"][0]["gates"][0]["evidence_ids"] = []
+            with self.assertRaises(Exception):
+                _reviews(unsupported, [item], store, DAY)
+
+    def test_full_review_requires_project_specific_distinct_reasons(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            duplicated = result()
+            duplicated["reviews"][0]["gates"][1]["reason"] = duplicated["reviews"][0]["gates"][0]["reason"]
+            with self.assertRaises(Exception):
+                _reviews(duplicated, [item], store, DAY)
+
+    def test_full_review_requires_public_evidence_next_step(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            delegated = result()
+            delegated["reviews"][0]["next_validation"] = "访谈一位货代，询问是否愿意为此付费。"
+            with self.assertRaises(Exception):
+                _reviews(delegated, [item], store, DAY)
 
     def test_low_quality_same_day_full_review_is_queued_for_repair(self) -> None:
         shallow_gates = tuple(
