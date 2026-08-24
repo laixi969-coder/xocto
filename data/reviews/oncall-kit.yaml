@@ -28,27 +28,26 @@
 - id: req-full-oncall-kit-2026-08-24
   project_slug: oncall-kit
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:01:02Z'
   verdict: needs_validation
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 明确替代on-call分诊流程，从事故历史生成手册，有具体场景和交付物，价值成立。
+    reason: 明确替代on-call分诊流程，从事故历史生成手册，有具体场景和交付物，买方价值清晰。
     evidence_ids:
     - ev-a420d1a69864293d
   - gate: consensus
     status: insufficient
-    reason: 缺乏用户反馈或采用证据，但Anthropic官方发布有一定背书，共识未验证。
+    reason: 缺乏用户反馈或采用证据，但Anthropic官方发布有一定背书，共识未完全形成。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式，开源工具可能通过云服务盈利，但无付费路径证据。
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
-    status: supported
-    reason: 贴近运维第一性目标，人工部署保证安全，承诺可验证，求真成立。
-    evidence_ids:
-    - ev-a420d1a69864293d
+    status: insufficient
+    reason: 共识闸门未通过，求真闸门未进入。
+    evidence_ids: []
   next_validation: 查找官方文档或案例，了解实际部署和使用效果。
   market: ''

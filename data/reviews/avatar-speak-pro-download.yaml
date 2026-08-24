@@ -30,29 +30,26 @@
 - id: req-full-avatar-speak-pro-download-2026-08-24
   project_slug: avatar-speak-pro-download
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:00:56Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 声称提升转化率，但无实际案例或数据支持。
+    reason: 声称提升转化率，但无实际案例或数据支持，价值主张未获公开证据验证。
     evidence_ids:
     - ev-110e40b2b2e39449
   - gate: consensus
     status: insufficient
-    reason: 无用户反馈或社区讨论，共识未建立。
-    evidence_ids:
-    - ev-110e40b2b2e39449
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式，无定价或付费路径。
-    evidence_ids:
-    - ev-110e40b2b2e39449
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未验证视频质量和转化效果，交付确定性存疑。
-    evidence_ids:
-    - ev-110e40b2b2e39449
-  next_validation: 查看项目 README 或演示视频，确认生成视频的样例和实际效果。
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 avatar-speak-pro-download 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
   market: ''

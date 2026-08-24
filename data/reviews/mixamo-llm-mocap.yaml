@@ -27,26 +27,26 @@
 - id: req-full-mixamo-llm-mocap-2026-08-24
   project_slug: mixamo-llm-mocap
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:01:02Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 具体工作流程和交付物未详细说明，价值不明确。
+    reason: 项目描述声称可将任意视频转为Mixamo骨骼动画，但未提供具体工作流程、交付物质量或实际应用案例，买方价值不明确。
     evidence_ids:
     - ev-255ec31f1bef49fa
   - gate: consensus
     status: insufficient
-    reason: 缺乏用户反馈或采用证据。
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值证据不足。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 查看文档和示例，了解输入输出和实际应用场景。
+  next_validation: 查看项目README中的使用示例、演示视频或用户评论，确认实际输出质量和应用场景。
   market: ''

@@ -30,29 +30,27 @@
 - id: req-full-benjamin-plus-skill-2026-08-24
   project_slug: benjamin-plus-skill
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:00:56Z'
   verdict: needs_validation
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 明确降低 token 成本且质量不变，对开发者有直接价值。
+    reason: 明确降低token成本且质量不变，对开发者有直接价值，但缺乏独立验证。
     evidence_ids:
     - ev-d6e05d1affbccb41
   - gate: consensus
     status: insufficient
-    reason: 来自 JetBrains，但社区反馈和采用情况未知。
+    reason: 来自JetBrains，但社区反馈和采用情况未知。
     evidence_ids:
     - ev-d6e05d1affbccb41
   - gate: model
     status: insufficient
-    reason: 未披露商业模式，可能作为开源项目免费提供。
-    evidence_ids:
-    - ev-d6e05d1affbccb41
+    reason: 共识闸门未通过，模式闸门未进入。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 成本降低数据来自官方，但独立验证和实际部署效果未知。
-    evidence_ids:
-    - ev-d6e05d1affbccb41
-  next_validation: 查找独立用户或社区的实测报告，验证成本降低效果。
+    reason: 共识闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 benjamin-plus-skill 的官网定价、客户案例、公开部署文档及 issue/discussion，补足共识闸门证据。
   market: ''

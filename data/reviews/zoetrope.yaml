@@ -28,27 +28,26 @@
 - id: req-full-zoetrope-2026-08-24
   project_slug: zoetrope
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:01:02Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 价值主张明确：可视化 AI 编码会话，但缺乏实际使用案例或用户反馈，买方价值未证实。
+    reason: 价值主张明确：可视化AI编码会话，但缺乏实际使用案例或用户反馈，买方价值未证实。
     evidence_ids:
     - ev-89ff0ee8ed0af568
   - gate: consensus
     status: insufficient
-    reason: 仅 188 star，无社区讨论或采用证据，共识未形成，卡在感知与想象环节。
-    evidence_ids:
-    - ev-89ff0ee8ed0af568
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入：价值证据不足，商业模式未披露，无法判断付费方。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值证据不足，无法验证交付确定性。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 查看 README 中的使用示例、截图或演示，确认其实际效果和用户反馈。
+  next_validation: 追踪 zoetrope 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
   market: ''

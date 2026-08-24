@@ -30,29 +30,26 @@
 - id: req-full-autodesign-2026-08-24
   project_slug: autodesign
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:00:56Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 价值主张明确但缺乏用户反馈，实际效果未验证。
+    reason: 项目声称优于Claude Design，但未提供用户反馈或实际案例，学术材料生成的价值主张缺乏公开证据。
     evidence_ids:
     - ev-4f7422831066da95
   - gate: consensus
     status: insufficient
-    reason: 开源社区星标 155 但社区讨论有限，共识未形成。
-    evidence_ids:
-    - ev-4f7422831066da95
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式，开源项目可能无直接收入路径。
-    evidence_ids:
-    - ev-4f7422831066da95
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 生成质量是否达到学术标准未验证，需测试。
-    evidence_ids:
-    - ev-4f7422831066da95
-  next_validation: 查看项目示例或运行测试，评估生成材料的质量。
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目示例或用户评价，验证生成材料的学术质量。
   market: ''

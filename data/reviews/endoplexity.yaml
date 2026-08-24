@@ -30,29 +30,26 @@
 - id: req-full-endoplexity-2026-08-24
   project_slug: endoplexity
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:00:56Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 价值主张明确但缺乏实际应用案例。
+    reason: 价值主张明确但缺乏实际应用案例，浏览器控制的价值未获公开证据支撑。
     evidence_ids:
     - ev-595e5a06def00060
   - gate: consensus
     status: insufficient
-    reason: 星标数中等，但社区讨论不足。
-    evidence_ids:
-    - ev-595e5a06def00060
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式。
-    evidence_ids:
-    - ev-595e5a06def00060
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未验证浏览器控制的可靠性。
-    evidence_ids:
-    - ev-595e5a06def00060
-  next_validation: 查看开源仓库的 issue 和演示，验证浏览器控制功能。
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪开源仓库的issue和演示，验证浏览器控制功能。
   market: ''

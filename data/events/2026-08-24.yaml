@@ -2400,3 +2400,14 @@
   evidence_ids:
   - ev-18cb8101502344e6
   homepage: true
+- id: req-change-oncall-kit-2026-08-24
+  project_slug: oncall-kit
+  event_type: req_change
+  occurred_at: '2026-08-24T04:01:02Z'
+  discovered_at: '2026-08-24T04:01:02Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“初步成立”；四道闸门由 supported/insufficient/insufficient/supported 变为 supported/insufficient/insufficient/insufficient。'
+  evidence_ids:
+  - ev-a420d1a69864293d
+  homepage: true

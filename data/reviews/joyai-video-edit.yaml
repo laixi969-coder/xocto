@@ -27,7 +27,7 @@
 - id: req-full-joyai-video-edit-2026-08-24
   project_slug: joyai-video-edit
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:00:56Z'
   verdict: needs_validation
   signal_level: 初步成立
   gates:
@@ -38,15 +38,15 @@
     - ev-fbcc237db6a12025
   - gate: consensus
     status: insufficient
-    reason: 未进入：价值证据不足。
+    reason: 关于“视频编辑师使用 JoyAI-Video-Edit 进行实时开放式视频编辑；它接收视频和编辑指令，通过自回归扩散模型生成编辑后的视频，输出可直接使用的视频片段。”的公开材料尚未给出持续部署、复购或独立用户评价。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入：价值证据不足。
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值证据不足。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 查找官方定价页或用户案例，确认是否有付费用户。
+  next_validation: 追踪官方定价页或用户案例，确认是否有付费用户。
   market: ''

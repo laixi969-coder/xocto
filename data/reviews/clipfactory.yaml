@@ -30,7 +30,7 @@
 - id: req-full-clipfactory-2026-08-24
   project_slug: clipfactory
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:00:56Z'
   verdict: needs_validation
   signal_level: 初步成立
   gates:
@@ -41,18 +41,15 @@
     - ev-b9c4b5e423279ae5
   - gate: consensus
     status: insufficient
-    reason: 无用户反馈或采用数据，仅项目描述。
-    evidence_ids:
-    - ev-b9c4b5e423279ae5
+    reason: 关于“输入主题和模板，从用户自己的B-roll素材生成竖屏短视频：AI写脚本、配音、规划场景、加字幕，并用FFmpeg渲染。支持多角色、AI镜头列表、AI B-roll和批量生成。”的公开材料尚未给出持续部署、复购或独立用户评价。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式，可能开源+云服务，但无证据。
-    evidence_ids:
-    - ev-b9c4b5e423279ae5
+    reason: 共识闸门未通过，模式闸门未进入。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未验证生成视频质量，是否真正可用未知。
-    evidence_ids:
-    - ev-b9c4b5e423279ae5
-  next_validation: 查找项目演示或用户案例，验证生成视频的质量和实际使用效果。
+    reason: 共识闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目演示或用户案例，验证生成视频的质量和实际使用效果。
   market: ''

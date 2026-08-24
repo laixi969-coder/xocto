@@ -30,29 +30,26 @@
 - id: req-full-appllama-skills-2026-08-24
   project_slug: appllama-skills
   level: full
-  reviewed_at: '2026-08-24T18:00:00Z'
+  reviewed_at: '2026-08-24T04:00:56Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 价值主张明确但缺乏用户反馈，实际效果未验证。
+    reason: 项目描述声称将头部应用模式转化为原生质量屏幕，但未提供任何用户反馈、案例或效果数据，买方价值未获公开证据支撑。
     evidence_ids:
     - ev-9b5b9dfa490b2e58
   - gate: consensus
     status: insufficient
-    reason: 开源社区星标 109，但社区讨论有限，共识未形成。
-    evidence_ids:
-    - ev-9b5b9dfa490b2e58
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未披露商业模式，开源项目可能无直接收入路径。
-    evidence_ids:
-    - ev-9b5b9dfa490b2e58
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 生成质量是否达到原生水平未验证，需测试。
-    evidence_ids:
-    - ev-9b5b9dfa490b2e58
-  next_validation: 查看项目示例或运行测试，评估生成屏幕的质量和原生性。
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目官方文档或示例，验证生成屏幕的实际质量和原生性。
   market: ''
