@@ -208,7 +208,9 @@ project_type（new_application、open_source、ai_transformation 之一），以
 - verdict 只能是 true_demand、pseudo_demand、needs_validation。新项目的默认结论应是
   needs_validation；pseudo_demand 只能用于价值、具体场景或付费逻辑已有直接反证的情况。
 - gates 必须恰有四项，顺序固定为 value、consensus、model、truth；每项 reason 为 12–120 个中文字符，
-  evidence_ids 只能引用候选 evidence 中给出的 id。next_validation 写下一项需要核验的事实或最小动作。
+  evidence_ids 只能引用候选 evidence 中给出的 id。reason 不能只写“描述模糊”“价值主张不明确”或
+  “缺乏采用证据”：必须先写目前公开材料已经证明的具体产品事实，再指出缺少哪类用户、工作流、采用、
+  付费或交付证据。next_validation 必须写 xOcto 可继续追踪的公开来源与会改变判断的事实，不得把验证工作交给读者。
 - signal_level 只能是“需求信号明确”“初步成立”“待验证”“需求存疑”。
 
 <req_public_evidence_protocol>

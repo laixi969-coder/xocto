@@ -119,6 +119,18 @@ class FullReqReviewTests(unittest.TestCase):
             self.assertIn("shipment exceptions", review.gates[0].reason)
             self.assertEqual(review.gates[1].reason, "价值闸门未通过，共识闸门未进入。")
 
+    def test_full_review_replaces_long_but_generic_value_reason(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            generic = result()
+            generic["reviews"][0]["gates"][0]["reason"] = "描述模糊，未明确具体应用场景和用户价值。"
+            review = _reviews(generic, [item], store, DAY)[0]
+            self.assertEqual(review.gates[0].status, "insufficient")
+            self.assertNotIn("描述模糊", review.gates[0].reason)
+            self.assertIn("shipment exceptions", review.gates[0].reason)
+
     def test_full_review_allows_concise_unentered_gates_after_block(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))

@@ -5,15 +5,16 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算七件事：
+复算八件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
   2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
   3. 中文漏进英文站 —— site/en/ 里除了产品名不许有中文
-  4. 私人指涉泄漏  —— 站点里不许出现只有作者本人看得懂的自有项目名和身世指代
-  5. 站内死链      —— 相对链接都要指向真实存在的文件
-  6. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
-  7. 发布门槛      —— rejected 和缺中文说明/灵感的半成品没有残留页面
+  4. 英文漏进中文证据 —— 中文证据链不许直接展示整段英文采集摘要
+  5. 私人指涉泄漏  —— 站点里不许出现只有作者本人看得懂的自有项目名和身世指代
+  6. 站内死链      —— 相对链接都要指向真实存在的文件
+  7. sitemap 自洽  —— 每个 URL 都存在，页面数对得上，robots 指向它
+  8. 发布门槛      —— rejected 和缺中文说明/灵感的半成品没有残留页面
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
@@ -184,6 +185,25 @@ def check_en_chinese() -> list[str]:
     return problems[:20]
 
 
+_EVIDENCE_SECTION = re.compile(r"<h2>可核验公开证据</h2>(.*?)</section>", re.S)
+_ENGLISH_PROSE = re.compile(r"\b[A-Za-z][A-Za-z'’-]*\b(?:[\s,;:—]+[A-Za-z][A-Za-z'’-]*\b){4,}")
+
+
+def check_zh_evidence_english() -> list[str]:
+    """中文证据页可保留产品专名，但不能直接倾倒英文标题和摘要。"""
+    problems: list[str] = []
+    for path in sorted((SITE / "p").glob("*.html")):
+        raw = path.read_text(encoding="utf-8", errors="ignore")
+        match = _EVIDENCE_SECTION.search(raw)
+        if not match:
+            continue
+        visible = html_lib.unescape(_TAG.sub(" ", match.group(1)))
+        prose = _ENGLISH_PROSE.search(visible)
+        if prose:
+            problems.append(f"{path.relative_to(SITE)} 中文证据链出现英文段落：{prose.group(0)[:80]}")
+    return problems[:20]
+
+
 def check_private_refs() -> list[str]:
     """站点里不许出现只有作者本人看得懂的指代。
 
@@ -286,6 +306,7 @@ def main() -> int:
         ("token 对比度", check_contrast()),
         ("来源泄漏", check_leaks()),
         ("中文漏进英文站", check_en_chinese()),
+        ("英文漏进中文证据", check_zh_evidence_english()),
         ("私人指涉泄漏", check_private_refs()),
         ("站内死链", check_links()),
         ("sitemap 自洽", check_sitemap()),

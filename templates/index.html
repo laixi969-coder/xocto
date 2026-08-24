@@ -21,19 +21,14 @@
         <p>{{ p.event_summary }}</p>
       </div>
       {% endif %}
-      {% if p.inspiration %}
-      <div class="field field-take">
-        <span class="field-k">{{ t.home.direction }}</span>
-        <p>{{ p.inspiration }}</p>
-      </div>
-      {% endif %}
       <div class="field">
         <span class="field-k">{{ t.home.dimensions }}</span>
         <p>{{ p.project_type }}{% if p.industries %} · {{ p.industries | join(' / ') }}{% endif %}{% if p.jobs %} · {{ p.jobs | join(' / ') }}{% endif %}{% if p.regions %} · {{ p.regions | join(' / ') }}{% endif %}</p>
       </div>
       <div class="field field-take">
-        <span class="field-k">{{ t.home.req_initial }}</span>
-        <p><strong>{{ p.req_signal }}</strong> · {{ p.req_reason }}</p>
+        <span class="field-k">{{ t.home.opportunity_judgment }}</span>
+        <p><strong>{{ p.opportunity_action }}</strong> · {{ p.opportunity_text }}</p>
+        <p class="note">{{ p.opportunity_boundary }}</p>
       </div>
       <div class="field">
         <span class="field-k">{{ t.home.discovered_at }}</span>

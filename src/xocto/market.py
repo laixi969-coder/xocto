@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import date
@@ -32,6 +33,11 @@ from .store import Store
 SEARCH_URL = "https://www.bing.com/search"
 MAX_HITS = 8
 MARKET_BATCH_SIZE = 24
+_QUERY_STOPWORDS = {
+    "ai", "agent", "agents", "assistant", "assistants", "tool", "tools", "software", "platform",
+    "development", "developer", "developers", "technical", "user", "users", "team", "teams",
+    "helps", "help", "with", "that", "from", "into", "using", "public", "global",
+}
 
 
 @dataclass(frozen=True)
@@ -73,6 +79,19 @@ def _search_url(query: str) -> str:
     return f"{SEARCH_URL}?{urlencode({'format': 'rss', 'q': query})}"
 
 
+def _relevant_hit(hit: dict[str, str], query: str) -> bool:
+    """搜索结果至少命中一个具体行业/工作词，通用 AI 首页不算市场证据。"""
+    terms = {
+        token.casefold()
+        for token in re.findall(r"[\u3400-\u9fff]{2,}|[a-zA-Z0-9][a-zA-Z0-9-]{2,}", query)
+        if token.casefold() not in _QUERY_STOPWORDS
+    }
+    if not terms:
+        return False
+    haystack = f"{hit.get('title', '')} {hit.get('summary', '')}".casefold()
+    return any(term in haystack for term in terms)
+
+
 def _scan_evidence(store: Store, product: Any, ecosystem: str, query: str, http: Http) -> list[Evidence]:
     """保存市场检索的查询入口和结果。即使结果为空也留查询证据。"""
     collected = now_iso()
@@ -90,7 +109,12 @@ def _scan_evidence(store: Store, product: Any, ecosystem: str, query: str, http:
         fact=f"Public-material coverage query for {ecosystem}: {query}",
     )
     evidence = [query_evidence]
-    for index, hit in enumerate(_rss_hits(http.get_text(SEARCH_URL, params={"format": "rss", "q": query})), 1):
+    hits = [
+        hit
+        for hit in _rss_hits(http.get_text(SEARCH_URL, params={"format": "rss", "q": query}))
+        if _relevant_hit(hit, query)
+    ]
+    for index, hit in enumerate(hits, 1):
         evidence.append(Evidence(
             id=f"ev-{hashlib.sha1((prefix + '-' + str(index) + hit['url']).encode()).hexdigest()[:16]}",
             project_slug=product.slug,

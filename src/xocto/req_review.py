@@ -36,6 +36,7 @@ MIN_ACTIVE_GATE_REASON = 18
 MIN_BLOCKED_GATE_REASON = 10
 MIN_NEXT_VALIDATION = 18
 _READER_DELEGATION = ("访谈", "找一位用户", "询问用户", "请用户", "让读者")
+_GENERIC_GATE_PHRASES = ("描述模糊", "价值主张不明确", "具体痛点与使用场景", "无用户反馈或社区讨论")
 _PUBLIC_EVIDENCE_CHANNELS = (
     "公开", "官网", "文档", "定价", "案例", "客户", "部署", "仓库", "issue", "discussion",
     "评价", "评论", "榜单", "招聘", "采购", "合同", "财报", "增长", "留存", "复购",
@@ -172,6 +173,8 @@ def _has_substantive_gate_reasons(gates: tuple[ReqGateReview, ...] | list[ReqGat
     for gate in gates:
         minimum = MIN_BLOCKED_GATE_REASON if blocked else MIN_ACTIVE_GATE_REASON
         if len(gate.reason) < minimum:
+            return False
+        if not blocked and any(fragment in gate.reason for fragment in _GENERIC_GATE_PHRASES):
             return False
         if blocked and gate.status == "supported":
             return False
@@ -364,7 +367,11 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
             else:
                 normalized = "".join(reason.split()).rstrip("。；，,. ;")
                 unsupported_claim = status in {"supported", "challenged"} and not evidence_ids
-                weak_reason = len(reason) < MIN_ACTIVE_GATE_REASON or normalized in active_reasons
+                weak_reason = (
+                    len(reason) < MIN_ACTIVE_GATE_REASON
+                    or normalized in active_reasons
+                    or any(fragment in reason for fragment in _GENERIC_GATE_PHRASES)
+                )
                 if unsupported_claim or weak_reason:
                     status = "insufficient"
                     reason = _fallback_gate_reason(by_slug[slug], expected)

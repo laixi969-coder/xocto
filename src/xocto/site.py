@@ -83,12 +83,24 @@ DESC_LIMIT = 150
 # 展示而改写证据；因此在渲染边界拦住它，并使用明确的英文待补充文案。
 # 产品名称例外：check_design.py 会按产品档案中的专名白名单处理。
 _CJK_TEXT = re.compile(r"[　-〿㐀-䶿一-鿿＀-￯가-힯]")
+_ENGLISH_PROSE = re.compile(r"\b[A-Za-z][A-Za-z'’-]*\b(?:[\s,;:—]+[A-Za-z][A-Za-z'’-]*\b){4,}")
+_GENERIC_REQ_REASON_HINTS = ("描述模糊", "价值主张不明确", "具体痛点与使用场景")
 
 
 def _english_text(value: str, fallback: str = "") -> str:
     """只让已是英文的自由文本进入英文站。"""
     text = (value or "").strip()
     return text if text and not _CJK_TEXT.search(text) else fallback
+
+
+def _chinese_text(value: str, fallback: str = "") -> str:
+    """保留中文与必要专名，移除旧数据中用分隔符拼入的英文说明段。"""
+    text = (value or "").strip()
+    if not text or not _CJK_TEXT.search(text):
+        return fallback
+    text = _ENGLISH_PROSE.sub("", text)
+    text = re.sub(r"\s*[|｜]+\s*$", "", text).strip()
+    return " ".join(text.split()) or fallback
 
 
 def _localized_tags(locale: Locale, english: tuple[str, ...], chinese: tuple[str, ...]) -> list[str]:
@@ -126,14 +138,68 @@ def _latest_req_review(reviews: list[Any]) -> Any | None:
     )
 
 
-def _req_decision_reason(review: Any, locale: Locale) -> str:
-    """首页展示导致当前结论的闸门理由，而不是把补证任务冒充结论。"""
-    if locale.key == "en":
-        return locale.t["home"]["req_pending_note"]
+def _req_decision_reason(review: Any, locale: Locale, product_summary: str = "") -> str:
+    """首页展示当前停在哪道闸门；英文站只输出英文边界说明。"""
     challenged = next((gate for gate in review.gates if gate.status == "challenged"), None)
     blocking = challenged or next((gate for gate in review.gates if gate.status == "insufficient"), None)
     decisive = blocking or (review.gates[-1] if review.gates else None)
-    return decisive.reason if decisive else review.next_validation
+    if decisive is None:
+        return review.next_validation if locale.key != "en" else locale.t["home"]["req_pending_note"]
+    if locale.key != "en":
+        if product_summary and any(fragment in decisive.reason for fragment in _GENERIC_REQ_REASON_HINTS):
+            summary = " ".join(product_summary.split())[:100].rstrip("。；; ")
+            return f"目前只确认“{summary}”；尚未证明目标用户会在该工作中持续采用或付费。"
+        return decisive.reason
+    gate = locale.t["product"][f"req_{decisive.gate}"]
+    return locale.t["home"][f"boundary_{decisive.status}"].format(gate=gate)
+
+
+def _opportunity_action(review: Any | None, locale: Locale) -> str:
+    """把内部闸门转换为创业者可执行的注意力决策。"""
+    if review is None:
+        key = "clue"
+    elif any(gate.status == "challenged" for gate in review.gates):
+        key = "avoid"
+    else:
+        supported_prefix = 0
+        for gate in review.gates:
+            if gate.status != "supported":
+                break
+            supported_prefix += 1
+        key = "investigate" if supported_prefix >= 2 else "watch" if supported_prefix == 1 else "clue"
+    return locale.t["home"][f"action_{key}"]
+
+
+def _is_market_query_evidence(item: Any) -> bool:
+    return item.title == "Public market coverage query" or (
+        url_host(item.url).endswith("bing.com") and "format=rss" in item.url
+    )
+
+
+def _localized_evidence_copy(item: Any, product: Any | None, locale: Locale) -> tuple[str, str]:
+    """证据事实保持原始存档，页面只投影当前语种，不展示双语拼接。"""
+    raw_title = (item.title or "").strip()
+    raw_fact = (item.fact or "").strip()
+    product_name = product.name if product is not None else ""
+    host = url_host(item.url).removeprefix("www.")
+    is_product_title = bool(product_name and raw_title.casefold() == product_name.casefold())
+    if locale.key == "en":
+        title = _english_text(raw_title) if is_product_title else (_english_text(raw_title) or host)
+        fact = _english_text(raw_fact)
+        if not fact and product is not None and item.source_kind in {"product", "open_source"}:
+            fact = _english_text(product.summary_en) or _english_text(product.summary)
+        return title or locale.t["product"]["evidence_link"], fact
+    if _CJK_TEXT.search(raw_title):
+        title = raw_title
+    elif is_product_title:
+        title = product_name
+    else:
+        title = host or locale.t["product"]["evidence_link"]
+    if product is not None and item.source_kind in {"product", "open_source"}:
+        fact = _chinese_text(product.summary_zh)
+    else:
+        fact = _chinese_text(raw_fact)
+    return title, fact
 
 _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
@@ -606,6 +672,7 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
     if raw_summary in {"首次发现项目", "发现新的公开信号"}:
         raw_summary = ""
     event_summary = raw_summary if locale.key != "en" else _english_text(raw_summary)
+    decision_reason = _req_decision_reason(review, locale, view["summary"]) if review else locale.t["home"]["req_pending_note"]
     return {
         **view,
         "event_type": event.event_type,
@@ -614,7 +681,10 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
         "occurred_day": local_day(event.occurred_at),
         "event_summary": event_summary,
         "req_signal": _req_signal_label(review.signal_level, locale) if review else locale.t["home"]["req_pending"],
-        "req_reason": _req_decision_reason(review, locale) if review else locale.t["home"]["req_pending_note"],
+        "req_reason": decision_reason,
+        "opportunity_action": _opportunity_action(review, locale),
+        "opportunity_text": view["inspiration"] or view["summary"],
+        "opportunity_boundary": locale.t["home"]["evidence_boundary"].format(reason=decision_reason),
         "req_next": (
             review.next_validation if locale.key != "en" else _english_text(
                 review.next_validation, locale.t["home"]["req_pending_note"]
@@ -642,6 +712,7 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
     缺少市场记录时不把空白翻译成“未发现”。“未发现”只来自带覆盖范围和
     观察时间的 MarketObservation；这是跨国机会判断最重要的边界。
     """
+    product = store.load_product(slug)
     evidence = sorted(store.read_evidence(slug), key=lambda item: item.collected_at, reverse=True)
     evidence_by_id = {item.id: item for item in evidence}
     evidence_kind = {
@@ -651,23 +722,6 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
         "adoption": locale.t["product"]["evidence_adoption"],
         "market_comparison": locale.t["product"]["evidence_market"],
     }
-    evidence_rows = [
-        {
-            "id": item.id,
-            "url": item.url,
-            "title": (
-                item.title or item.url
-                if locale.key != "en"
-                else _english_text(item.title, locale.t["product"]["evidence_link"])
-            ),
-            "kind": evidence_kind.get(item.source_kind, item.source_kind),
-            "fact": item.fact if locale.key != "en" else _english_text(item.fact),
-            "published_at": local_day(item.published_at) if item.published_at else "",
-        }
-        for item in evidence
-        if item.url
-    ]
-
     gate_labels = {
         "value": locale.t["product"]["req_value"],
         "consensus": locale.t["product"]["req_consensus"],
@@ -681,6 +735,42 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
     }
     reviews = store.read_req_reviews(slug)
     review = _latest_req_review(reviews)
+    observations = store.read_market_observations(slug)
+    latest_by_market: dict[str, Any] = {}
+    for observation in observations:
+        previous = latest_by_market.get(observation.market)
+        if previous is None or observation.observed_at > previous.observed_at:
+            latest_by_market[observation.market] = observation
+    cited_ids = {
+        evidence_id
+        for gate in (review.gates if review else ())
+        for evidence_id in gate.evidence_ids
+    }
+    cited_ids.update(
+        evidence_id
+        for observation in latest_by_market.values()
+        for evidence_id in observation.evidence_ids
+    )
+    evidence_rows = []
+    seen_evidence_urls: set[str] = set()
+    for item in evidence:
+        if not item.url or _is_market_query_evidence(item):
+            continue
+        if item.source_kind == "market_comparison" and item.id not in cited_ids:
+            continue
+        kind = evidence_kind.get(item.source_kind, item.source_kind)
+        title, fact = _localized_evidence_copy(item, product, locale)
+        if item.url in seen_evidence_urls:
+            continue
+        seen_evidence_urls.add(item.url)
+        evidence_rows.append({
+            "id": item.id,
+            "url": item.url,
+            "title": title,
+            "kind": kind,
+            "fact": fact,
+            "published_at": local_day(item.published_at) if item.published_at else "",
+        })
     req = None
     if review:
         req = {
@@ -716,13 +806,7 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
         "early_signal": locale.t["product"]["demand_early"],
         "validated_signal": locale.t["product"]["demand_validated"],
     }
-    observations = store.read_market_observations(slug)
     # 同一市场每天可复查；详情只展示每个市场最新一次结论。
-    latest_by_market: dict[str, Any] = {}
-    for observation in observations:
-        previous = latest_by_market.get(observation.market)
-        if previous is None or observation.observed_at > previous.observed_at:
-            latest_by_market[observation.market] = observation
     market_rows = []
     for observation in sorted(latest_by_market.values(), key=lambda item: (item.ecosystem, item.market)):
         market_rows.append({

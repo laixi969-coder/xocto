@@ -36,7 +36,9 @@ from xocto.site import (
     _is_publishable,
     _latest_req_review,
     _metric_badges,
+    _opportunity_action,
     _remove_stale_pages,
+    _req_decision_reason,
     _research_view,
     _schema,
     _section,
@@ -70,7 +72,7 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("important_updates", template)
         self.assertIn("{% for p in items %}", template)
         self.assertIn("t.home.what", template)
-        self.assertIn("t.home.req_initial", template)
+        self.assertIn("t.home.opportunity_judgment", template)
         self.assertNotIn("reader-routes", template)
         self.assertIn("event_day", template)
         self.assertIn("t.home.daily_flow", template)
@@ -293,19 +295,43 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("t.home.what", template)
-        self.assertIn("t.home.direction", template)
-        self.assertIn("t.home.req_initial", template)
+        self.assertIn("t.home.opportunity_judgment", template)
         self.assertIn("t.home.discovered_at", template)
         self.assertIn('id="today-cases"', template)
         self.assertIn('id="important-updates"', template)
         self.assertIn('id="past-calls"', template)
         self.assertIn("field-what", template)
         self.assertIn("p.summary", template)
-        self.assertIn("p.inspiration", template)
-        self.assertIn("p.req_signal", template)
-        self.assertIn("p.req_reason", template)
+        self.assertIn("p.opportunity_action", template)
+        self.assertIn("p.opportunity_text", template)
+        self.assertIn("p.opportunity_boundary", template)
+        self.assertNotIn("p.req_signal", template)
+        self.assertNotIn("p.req_reason", template)
         self.assertNotIn("p.req_next", template)
         self.assertIn("p.event_day", template)
+
+    def test_opportunity_action_converts_req_gates_into_attention_decision(self) -> None:
+        gates = tuple(
+            ReqGateReview(gate, REQ_GATE_SUPPORTED if gate == REQ_GATE_VALUE else REQ_GATE_INSUFFICIENT, "具体理由")
+            for gate in (REQ_GATE_VALUE, REQ_GATE_CONSENSUS, REQ_GATE_MODEL, REQ_GATE_TRUTH)
+        )
+        review = ReqReview(
+            id="req", project_slug="example", level="initial", reviewed_at="2026-08-24T00:00:00Z",
+            verdict=REQ_NEEDS_VALIDATION, signal_level="初步成立", gates=gates,
+        )
+        self.assertEqual(_opportunity_action(review, ZH), "继续跟踪")
+        self.assertEqual(_opportunity_action(review, EN), "Keep watching")
+        clue = replace(review, gates=tuple(replace(gate, status=REQ_GATE_INSUFFICIENT) for gate in gates))
+        self.assertEqual(_opportunity_action(clue, ZH), "仅作方向线索")
+
+        generic = replace(review, gates=(
+            replace(gates[0], status=REQ_GATE_INSUFFICIENT, reason="描述模糊，未明确具体应用场景和用户价值。"),
+            *gates[1:],
+        ))
+        reason = _req_decision_reason(generic, ZH, "货代输入异常运单，系统输出待处置清单。")
+        self.assertIn("目前只确认", reason)
+        self.assertIn("持续采用或付费", reason)
+        self.assertNotIn("描述模糊", reason)
 
     def test_home_uses_only_the_latest_event_day_and_separates_first_discoveries(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -423,6 +449,11 @@ class PublishabilityTests(unittest.TestCase):
             from xocto.store import Store
 
             store = Store(Path(tmp))
+            store.save_product(replace(
+                product(), slug="freight-ai", name="Freight AI",
+                summary="Helps freight teams resolve shipment exceptions.",
+                summary_zh="货代团队用它处理运输异常并输出待处置清单。",
+            ))
             evidence = Evidence(
                 id="ev-product",
                 project_slug="freight-ai",
@@ -435,6 +466,18 @@ class PublishabilityTests(unittest.TestCase):
                 fact="Shipment-exception workflow is publicly described.",
             )
             store.append_evidence(evidence)
+            store.append_evidence(replace(evidence, id="ev-product-duplicate"))
+            store.append_evidence(Evidence(
+                id="ev-query", project_slug="freight-ai",
+                url="https://www.bing.com/search?format=rss&q=freight",
+                title="Public market coverage query", published_at="", collected_at="2026-08-14T10:00:00Z",
+                source_kind="market_comparison", tier="independent", fact="Public query",
+            ))
+            store.append_evidence(Evidence(
+                id="ev-generic", project_slug="freight-ai", url="https://chatgpt.com",
+                title="ChatGPT: Chat, Work, Create & Code with AI", published_at="", collected_at="2026-08-14T10:00:00Z",
+                source_kind="market_comparison", tier="independent", fact="Answer questions, write, and code.",
+            ))
             for market, ecosystem, supply, coverage in (
                 ("US", "en", SUPPLY_EMERGING, "English public coverage checked on 2026-08-14."),
                 ("CN", "zh", SUPPLY_NOT_FOUND, "已覆盖中文生态公开项目发布与开发者讨论。"),
@@ -472,11 +515,15 @@ class PublishabilityTests(unittest.TestCase):
             self.assertTrue(any("已覆盖中文生态" in row["coverage"] for row in research["markets"]))
             self.assertEqual(research["req"]["gates"][0]["name"], "价值")
             self.assertEqual(research["evidence"][0]["title"], "Freight AI")
+            self.assertEqual(len(research["evidence"]), 1)
+            self.assertIn("货代团队", research["evidence"][0]["fact"])
+            self.assertNotIn("Shipment-exception", research["evidence"][0]["fact"])
 
             english = _research_view(store, "freight-ai", EN)
             self.assertEqual(english["req"]["signal"], "Needs validation")
             self.assertEqual(english["req"]["gates"][0]["reason"], EN.t["product"]["req_reason_pending"])
             self.assertEqual(english["req"]["next_validation"], EN.t["product"]["req_next_pending"])
+            self.assertNotRegex(english["evidence"][0]["fact"], r"[一-鿿]")
             self.assertTrue(any(
                 row["coverage"] == EN.t["product"]["market_coverage_pending"]
                 for row in english["markets"]

@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import date
 import unittest
 
-from xocto.market import _query, _rss_hits, _validated_observations
+from xocto.market import _query, _relevant_hit, _rss_hits, _validated_observations
 from xocto.models import Product, Sighting
 
 
@@ -26,6 +26,21 @@ class MarketReviewTests(unittest.TestCase):
     def test_rss_search_results_become_evidence_candidates(self) -> None:
         rows = _rss_hits("""<rss><channel><item><title>Local freight AI</title><link>https://example.cn</link><description>Product</description></item></channel></rss>""")
         self.assertEqual(rows, [{"title": "Local freight AI", "url": "https://example.cn", "summary": "Product"}])
+
+    def test_generic_ai_homepages_are_not_market_evidence(self) -> None:
+        generic = {
+            "title": "ChatGPT: Chat, Work, Create & Code with AI",
+            "url": "https://chatgpt.com",
+            "summary": "Answer questions, write, create images, and code.",
+        }
+        relevant = {
+            "title": "Shipment exception automation for freight teams",
+            "url": "https://example.com/freight",
+            "summary": "Resolve freight shipment exceptions.",
+        }
+        self.assertFalse(_relevant_hit(generic, "AI freight shipment exceptions"))
+        self.assertTrue(_relevant_hit(relevant, "AI freight shipment exceptions"))
+        self.assertFalse(_relevant_hit(generic, "AI 生物安全 公共卫生"))
 
     def test_market_editor_cannot_reference_unknown_evidence_or_skip_ecosystem(self) -> None:
         item = product()
