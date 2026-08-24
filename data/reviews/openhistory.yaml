@@ -3,25 +3,54 @@
   level: initial
   reviewed_at: '2026-08-24T22:44:36Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Your private, searchable work timeline for macOS and local AI agents.”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 公开材料明确提供本地 AI 代理的可搜索时间线，解决代理行为不可见的问题，有明确价值主张。
     evidence_ids:
-    - ev-65618a0550a50a43
+    - ev-f95fff682f5c143b
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 92 个收藏、5 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区关注度有限，无讨论或采用证据，社区共识未形成。
     evidence_ids:
-    - ev-65618a0550a50a43
+    - ev-f95fff682f5c143b
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，开源免费，无付费路径。
+    evidence_ids:
+    - ev-f95fff682f5c143b
+  - gate: truth
+    status: insufficient
+    reason: 未验证记录完整性和搜索准确性，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-f95fff682f5c143b
+  next_validation: 关注开源仓库的 issue 和用户反馈，看是否有真实使用案例和功能改进。
+  market: ''
+- id: req-full-openhistory-2026-08-25
+  project_slug: openhistory
+  level: full
+  reviewed_at: '2026-08-24T23:09:59Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 公开材料明确提供本地 AI 代理的可搜索时间线，解决代理行为不可见的问题，有明确价值主张。
+    evidence_ids:
+    - ev-f95fff682f5c143b
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区关注度有限，无讨论或采用证据，社区共识未形成。
+    evidence_ids:
+    - ev-f95fff682f5c143b
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注开源仓库的 issue 和用户反馈，看是否有真实使用案例和功能改进。
   market: ''

@@ -6,21 +6,51 @@
   signal_level: 待验证
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Create macOS native automations using plain language”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 产品提供自然语言创建 macOS 自动化的能力，替代手动配置 Automator 或 AppleScript，对非技术用户有价值。
     evidence_ids:
     - ev-5044a7e525ffd102
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 缺乏用户采用证据，仅产品页面描述，未显示实际使用反馈。
+    evidence_ids:
+    - ev-5044a7e525ffd102
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 商业模式未披露，未明确收费方式。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  - gate: truth
+    status: insufficient
+    reason: 未验证自动化生成的准确性和对复杂任务的支持。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  next_validation: 关注产品官网的更新，查看是否提供定价页或用户案例，以及是否有第三方评测。
+  market: ''
+- id: req-full-trama-2026-08-25
+  project_slug: trama
+  level: full
+  reviewed_at: '2026-08-24T23:10:32Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品提供自然语言创建 macOS 自动化的能力，替代手动配置 Automator 或 AppleScript，对非技术用户有价值。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用证据，仅产品页面描述，未显示实际使用反馈。
+    evidence_ids:
+    - ev-5044a7e525ffd102
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  next_validation: 关注产品官网的更新，查看是否提供定价页或用户案例，以及是否有第三方评测。
   market: ''

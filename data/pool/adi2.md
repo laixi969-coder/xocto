@@ -21,7 +21,7 @@ canonical_url: https://github.com/ovenpasta/adi2
 summary: 'A Modern GUI Library for Ada: CSS Styling, XML UI, SDL3'
 first_seen: '2026-08-24T16:30:51Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

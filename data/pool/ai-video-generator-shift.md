@@ -21,7 +21,7 @@ canonical_url: https://github.com/silvermonitorpliers/ai-video-generator-shift
 summary: Ai Video Generator Shift
 first_seen: '2026-08-06T02:14:07Z'
 last_seen: '2026-08-24T22:44:36Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

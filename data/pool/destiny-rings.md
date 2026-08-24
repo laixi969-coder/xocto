@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/destiny-rings
 summary: Proximity-powered dating, social & networking
 first_seen: '2026-08-20T02:09:37Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

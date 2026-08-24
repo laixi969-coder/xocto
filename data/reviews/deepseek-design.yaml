@@ -7,22 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness 可编辑设计系统：AI 生成、可视化编辑、模板市场与 PPT｜Native Design & PPT
-      Studio for DeepSeek Har”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 产品提供 AI 生成和编辑功能，但未说明替代的具体旧工作流，如手动设计 PPT 的具体步骤。
     evidence_ids:
     - ev-fde3948fc70fdd1b
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 406 个收藏、118 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 公开代码仓库获 406 次收藏，但缺乏实际用户采用或生产环境反馈证据。
     evidence_ids:
     - ev-fde3948fc70fdd1b
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 开源项目未披露商业化路径，付费主体与模式不明。
+    evidence_ids:
+    - ev-fde3948fc70fdd1b
+  - gate: truth
+    status: insufficient
+    reason: 尚未提供独立实测用例或导出成果的质量核验数据。
+    evidence_ids:
+    - ev-fde3948fc70fdd1b
+  next_validation: 查看公开代码仓库的说明文档与 issue 讨论，确认功能完整性与用户反馈。
+  market: ''
+- id: req-full-deepseek-design-2026-08-25
+  project_slug: deepseek-design
+  level: full
+  reviewed_at: '2026-08-24T23:07:42Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品提供AI生成和编辑功能，但未说明替代的具体旧工作流，如手动设计PPT的具体步骤。
+    evidence_ids:
+    - ev-fde3948fc70fdd1b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 查看公开代码仓库的说明文档与issue讨论，确认功能完整性与用户反馈。
   market: ''

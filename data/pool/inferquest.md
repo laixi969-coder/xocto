@@ -21,7 +21,7 @@ canonical_url: https://inferquest.org
 summary: Free Inference Engineer and Model Training Roadmap
 first_seen: '2026-08-24T15:02:01Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

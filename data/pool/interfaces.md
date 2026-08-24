@@ -21,7 +21,7 @@ canonical_url: https://interfaces.kylejeong.com
 summary: I built a museum of AI interfaces
 first_seen: '2026-08-24T16:33:46Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

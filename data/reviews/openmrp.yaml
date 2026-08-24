@@ -3,24 +3,54 @@
   level: initial
   reviewed_at: '2026-08-24T22:44:32Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“an open-source manufacturing ERP built over 4 years”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 公开材料明确为制造 ERP，解决生产计划和管理问题，有明确价值主张。
     evidence_ids:
     - ev-962013e20796822d
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
-    evidence_ids: []
+    reason: 社区讨论仅 2 条，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-962013e20796822d
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，开源免费，无付费路径。
+    evidence_ids:
+    - ev-962013e20796822d
+  - gate: truth
+    status: insufficient
+    reason: 未验证实际部署和使用效果，承诺能否确定性交付未知。
+    evidence_ids:
+    - ev-962013e20796822d
+  next_validation: 查看开源仓库的文档和 issue，了解功能完整性和实际部署案例。
+  market: ''
+- id: req-full-openmrp-2026-08-25
+  project_slug: openmrp
+  level: full
+  reviewed_at: '2026-08-24T23:09:59Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 公开材料明确为制造 ERP，解决生产计划和管理问题，有明确价值主张。
+    evidence_ids:
+    - ev-962013e20796822d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 2 条，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-962013e20796822d
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  next_validation: 查看开源仓库的文档和 issue，了解功能完整性和实际部署案例。
   market: ''

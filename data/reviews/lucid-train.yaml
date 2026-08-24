@@ -7,20 +7,48 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Build system design for new and existing codebase”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 公开材料仅说明生成系统设计，未提供具体用户场景或交付物证据，价值主张不明确。
     evidence_ids:
     - ev-c6acc3bc3cb2c636
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    reason: 无用户采用或反馈证据，共识未建立。
+    evidence_ids:
+    - ev-c6acc3bc3cb2c636
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或付费路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-c6acc3bc3cb2c636
+  - gate: truth
+    status: insufficient
+    reason: 未验证系统设计是否贴近第一性目标，交付确定性未知。
+    evidence_ids:
+    - ev-c6acc3bc3cb2c636
+  next_validation: 关注产品官网或公开发布页面，看是否有用户评论或案例。
+  market: ''
+- id: req-full-lucid-train-2026-08-25
+  project_slug: lucid-train
+  level: full
+  reviewed_at: '2026-08-24T23:09:42Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明“Lucid Train 为新建或现有代码库生成系统设计。开发者输入代码库或需求，它输出系统架构设计文档，但具体输入输出和交付形式未详细披露。”，尚未充分证明目标用户、不采用代价与问题发生频率。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  next_validation: 关注产品官网或公开发布页面，看是否有用户评论或案例。
   market: ''

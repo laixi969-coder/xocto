@@ -7,20 +7,46 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Billing that survives a processor shutdown”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 产品定位为计费韧性，但公开资料仅有一句描述，未说明具体用户场景、替代的旧流程或交付结果，价值主张缺乏细节。
     evidence_ids:
     - ev-c118ea9b57459d55
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    reason: 没有用户讨论、采用数据或社区反馈，无法判断市场共识。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露定价、付费方或商业模式，无法判断收入来源。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未进入：价值证据不足，无法验证产品是否真正解决支付中断问题。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  next_validation: 关注 PaymentKit 官网是否发布定价页、客户案例或技术文档，以验证其实际功能和采用情况。
+  market: ''
+- id: req-full-paymentkit-2026-08-25
+  project_slug: paymentkit
+  level: full
+  reviewed_at: '2026-08-24T23:09:59Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品定位为计费韧性，但公开资料仅有一句描述，未说明具体用户场景、替代的旧流程或交付结果，价值主张缺乏细节。
+    evidence_ids:
+    - ev-c118ea9b57459d55
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 PaymentKit 官网是否发布定价页、客户案例或技术文档，以验证其实际功能和采用情况。
   market: ''

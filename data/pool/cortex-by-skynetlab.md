@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cortex-by-skynetlab
 summary: The memory layer that decides what's worth remembering
 first_seen: '2026-08-23T11:18:32Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

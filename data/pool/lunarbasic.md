@@ -21,7 +21,7 @@ canonical_url: https://lunarbasic.com
 summary: a BASIC that compiles 2D games to native executables
 first_seen: '2026-08-24T13:48:11Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

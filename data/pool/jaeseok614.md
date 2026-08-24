@@ -21,7 +21,7 @@ canonical_url: https://jaeseok614.github.io/llm-gpu-checker-ko
 summary: Open-source calculator for "will my GPU run this LLM?"
 first_seen: '2026-08-24T05:04:22Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

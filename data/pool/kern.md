@@ -21,7 +21,7 @@ canonical_url: https://github.com/getkern/kern
 summary: container and resource runtime in a 1.5 MB binary, no daemon
 first_seen: '2026-08-24T18:24:59Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

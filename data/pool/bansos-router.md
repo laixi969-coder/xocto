@@ -22,7 +22,7 @@ summary: Free, keyless coding models routed to every coding harness through one 
   no keys, no cost.
 first_seen: '2026-08-17T23:53:59Z'
 last_seen: '2026-08-24T22:44:36Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

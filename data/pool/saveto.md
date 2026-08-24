@@ -2,19 +2,40 @@
 slug: saveto
 name: Saveto
 builder: cxf37905
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: Saveto.ai 是一个将视频、音频、PDF、PPT 等文档转换为逐字稿、摘要和学习材料的 AI 网站。用户上传文件或提供链接，AI 生成摘要、思维导图、知识卡片、测验等。它面向学生、记者、创作者和团队，提供多语言支持。具体流程和交付细节待核验。
+inspiration: 趋势是 AI 从内容生成转向内容理解和知识管理。切入点是面向学生和创作者，提供从转录到学习材料的完整链路，可能按订阅或按量收费。
+summary_en: Saveto.ai is an AI website that converts videos, audio, PDFs, PPTs, and other documents into
+  transcripts, summaries, and learning materials. Users upload files or provide links, and AI generates
+  summaries, mind maps, knowledge cards, quizzes, etc. It targets students, journalists, creators, and
+  teams, offering multi-language support. Specific workflow and delivery details pending verification.
+inspiration_en: The trend is AI moving from content generation to content understanding and knowledge
+  management. The entry point is targeting students and creators, providing a complete pipeline from transcription
+  to learning materials, possibly charging by subscription or usage.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 教育
+- 媒体
+- 企业服务
+industries_en:
+- Education
+- Media
+- Enterprise Services
+jobs:
+- 学生
+- 记者
+- 创作者
+- 产品经理
+jobs_en:
+- Student
+- Journalist
+- Creator
+- Product Manager
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://saveto.ai/
 canonical_url: https://saveto.ai
@@ -172,7 +193,7 @@ summary: "比如我们想要深入了解 https://saveto.ai/ 这个网站具体�
   \n## 12. 市面上解决这个问题的产品都有什么？\r\n## 13. 所有产品的功能差异、营销与转化策略、定价与核心收费功能、真实用户评论是什么？每个产品分别回答\r\n## 14. 结合真实用户讨论和所有产品资料，是否存在产品没有覆盖的需求痛点？"
 first_seen: '2026-08-24T10:10:03Z'
 last_seen: '2026-08-24T22:44:30Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 sightings:

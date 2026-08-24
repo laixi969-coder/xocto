@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/AtomixLabs/Neo-Open-SLM-Leaderboard
 summary: Open, transparent benchmarking for sub-150M language models.
 first_seen: '2026-08-24T07:26:13Z'
 last_seen: '2026-08-24T22:44:57Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

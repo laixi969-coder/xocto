@@ -6,22 +6,57 @@
   signal_level: 待验证
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“一个面向中国求职者的开源求职助手:JD 评估、定制简历、投递规划,内置职位搜索与评估框架,纯 Python 零依赖。”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 已证明具备职位描述匹配与定制化简历生成功能，但缺乏求职面试转化率提升的实际交付证据
     evidence_ids:
+    - ev-338d3653f1c686e8
     - ev-df28fd1600f223ae
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 92 个收藏、5 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 求职者对定制简历有持续需求，但零依赖脚本形式仍卡在非技术用户的安装与使用门槛上
     evidence_ids:
+    - ev-338d3653f1c686e8
     - ev-df28fd1600f223ae
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 目前为开源轻量脚本，尚未提供 SaaS 托管或求职增值服务的商业化定价方案
+    evidence_ids:
+    - ev-338d3653f1c686e8
+    - ev-df28fd1600f223ae
+  - gate: truth
+    status: insufficient
+    reason: 简历匹配规则依赖大模型推理，真实招聘 HR 系统的解析通过率与防穿帮效果仍待实测
+    evidence_ids:
+    - ev-338d3653f1c686e8
+    - ev-df28fd1600f223ae
+  next_validation: 追踪项目部署文档与公开更新，观察是否上线 Web 端界面或求职成功案例
+  market: ''
+- id: req-full-ai-job-search-cn-2026-08-25
+  project_slug: ai-job-search-cn
+  level: full
+  reviewed_at: '2026-08-24T23:07:05Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 已证明具备职位描述匹配与定制化简历生成功能，但缺乏求职面试转化率提升的实际交付证据。
+    evidence_ids:
+    - ev-338d3653f1c686e8
+    - ev-df28fd1600f223ae
+  - gate: consensus
+    status: insufficient
+    reason: 求职者对定制简历有持续需求，但零依赖脚本形式仍卡在非技术用户的安装与使用门槛上。
+    evidence_ids:
+    - ev-338d3653f1c686e8
+    - ev-df28fd1600f223ae
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 追踪项目部署文档与公开更新，观察是否上线Web端界面或求职成功案例。
   market: ''

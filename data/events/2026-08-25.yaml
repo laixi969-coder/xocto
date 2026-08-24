@@ -2781,3 +2781,126 @@
   evidence_ids:
   - ev-08b82c5c5292d546
   homepage: true
+- id: req-change-airsec-2026-08-25
+  project_slug: airsec
+  event_type: req_change
+  occurred_at: '2026-08-24T23:07:05Z'
+  discovered_at: '2026-08-24T23:07:05Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料仅描述为利用编码CLI扫描代码安全问题的工具，未提供目标用户痛点、发生频率或损失规模的直接证据，买方价值未证实。'
+  evidence_ids:
+  - ev-946db068b5697bb9
+  homepage: true
+- id: req-change-benjamin-plus-skill-2026-08-25
+  project_slug: benjamin-plus-skill
+  event_type: req_change
+  occurred_at: '2026-08-24T23:07:05Z'
+  discovered_at: '2026-08-24T23:07:05Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料仅描述为降低token成本的技能，未提供目标用户痛点、发生频率或损失规模的直接证据，买方价值未证实。'
+  evidence_ids:
+  - ev-8950c4261e0c03db
+  homepage: true
+- id: req-change-clipfactory-2026-08-25
+  project_slug: clipfactory
+  event_type: req_change
+  occurred_at: '2026-08-24T23:07:25Z'
+  discovered_at: '2026-08-24T23:07:25Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：价值闸门未过证据门槛：现有公开材料将其描述为“输入主题和模板，从用户自己的B-roll素材生成竖屏短视频：AI写脚本、配音、规划场景、加字幕，并用FFmpeg渲染。支持多角色、AI镜头列表、AI
+    B-roll和批量生成。”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+  evidence_ids:
+  - ev-844fcfe3d7191bc2
+  homepage: true
+- id: req-change-comfyui-h3-facerefine-2026-08-25
+  project_slug: comfyui-h3-facerefine
+  event_type: req_change
+  occurred_at: '2026-08-24T23:07:25Z'
+  discovered_at: '2026-08-24T23:07:25Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：价值闸门未过证据门槛：现有公开材料将其描述为“用于改善MiniMax H3视频中小脸的质量：逐帧人脸跟踪、裁剪、用H3精修，再拼接回去。解决AI生成视频中面部模糊问题，具体效果待验证。”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+  evidence_ids:
+  - ev-a0f770d74bf02c8b
+  homepage: true
+- id: req-change-cra-agent-2026-08-25
+  project_slug: cra-agent
+  event_type: req_change
+  occurred_at: '2026-08-24T23:07:25Z'
+  discovered_at: '2026-08-24T23:07:25Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：价值闸门未过证据门槛：现有公开材料将其描述为“面向欧盟《网络弹性法案》合规的自主代理：开发团队将代码仓库交给它，它扫描漏洞、分类问题、自动创建
+    Jira 工单，并通过拉取请求直接修复。交付是可核对的修复补丁，但合并与否仍由工程”；尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+  evidence_ids:
+  - ev-c1a73d7e9330fbe5
+  homepage: true
+- id: req-change-doop-2026-08-25
+  project_slug: doop
+  event_type: req_change
+  occurred_at: '2026-08-24T23:07:42Z'
+  discovered_at: '2026-08-24T23:07:42Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料仅描述多人在线设计画布功能，未提供目标用户痛点、发生频率或损失规模的直接证据。'
+  evidence_ids:
+  - ev-55168927ef16107e
+  homepage: true
+- id: req-change-joyai-video-edit-2026-08-25
+  project_slug: joyai-video-edit
+  event_type: req_change
+  occurred_at: '2026-08-24T23:09:42Z'
+  discovered_at: '2026-08-24T23:09:42Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料仅描述产品功能，未提供目标用户痛点、发生频率或损失规模的直接证据，买方价值未确立。'
+  evidence_ids:
+  - ev-6627d3b5c8aac942
+  homepage: true
+- id: req-change-kancelaria-lex-2026-08-25
+  project_slug: kancelaria-lex
+  event_type: req_change
+  occurred_at: '2026-08-24T23:09:42Z'
+  discovered_at: '2026-08-24T23:09:42Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料仅描述产品功能，未提供目标用户痛点、发生频率或损失规模的直接证据，买方价值未确立。'
+  evidence_ids:
+  - ev-fbc107b30e130f94
+  homepage: true
+- id: req-change-lanshu-create-ai-presenter-video-2026-08-25
+  project_slug: lanshu-create-ai-presenter-video
+  event_type: req_change
+  occurred_at: '2026-08-24T23:09:42Z'
+  discovered_at: '2026-08-24T23:09:42Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料仅描述产品功能，未提供目标用户痛点、发生频率或损失规模的直接证据，买方价值未确立。'
+  evidence_ids:
+  - ev-53a1d71d092f2de8
+  homepage: true
+- id: req-change-procoder-2026-08-25
+  project_slug: procoder
+  event_type: req_change
+  occurred_at: '2026-08-24T23:10:15Z'
+  discovered_at: '2026-08-24T23:10:15Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料描述为“面向 AI 编码代理的纪律层工具”，但尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+  evidence_ids:
+  - ev-ae3cd65a24e785f6
+  homepage: true
+- id: req-change-repo-context-ledger-2026-08-25
+  project_slug: repo-context-ledger
+  event_type: req_change
+  occurred_at: '2026-08-24T23:10:15Z'
+  discovered_at: '2026-08-24T23:10:15Z'
+  signals:
+  - update
+  summary: '`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料描述为“用于在 AI 编码工具之间同步仓库上下文”，但尚未见目标用户痛点、发生频率或损失规模的直接证据。'
+  evidence_ids:
+  - ev-043f7c2f2d8de679
+  homepage: true

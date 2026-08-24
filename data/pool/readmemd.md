@@ -21,7 +21,7 @@ canonical_url: https://github.com/KallDrexx/emacs-zero-to-ide-journey/blob/main/
 summary: My Emacs Zero to IDE Journey
 first_seen: '2026-08-24T14:10:55Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

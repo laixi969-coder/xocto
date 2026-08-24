@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/worldmap-lol
 summary: Put your startup on the map. Literally.
 first_seen: '2026-08-23T13:07:55Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

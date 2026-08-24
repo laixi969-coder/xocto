@@ -22,7 +22,7 @@ summary: Automated reconnaissance framework with AI-powered report generation. A
   subdomains, crawls endpoints for security assessments.
 first_seen: '2026-08-04T08:19:10Z'
 last_seen: '2026-08-24T22:44:36Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

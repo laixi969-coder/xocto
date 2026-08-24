@@ -21,7 +21,7 @@ canonical_url: https://vorjdux.github.io/zmq-arena
 summary: a benchmark harness for ZeroMQ/ZMTP implementations
 first_seen: '2026-08-23T19:01:00Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

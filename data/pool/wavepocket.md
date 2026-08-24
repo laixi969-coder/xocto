@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/wavepocket-free-ios-app
 summary: Synth, drum kit, a 4-track tape loop, and FX app
 first_seen: '2026-08-23T22:52:00Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

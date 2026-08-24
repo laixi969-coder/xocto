@@ -7,21 +7,48 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“A GUI for your coding agents”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 公开材料仅说明提供 GUI，未提供具体用户场景或交付物证据，价值主张不明确。
     evidence_ids:
     - ev-3256334550f253b0
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 128 个收藏、9 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 有少量开源关注度，但无用户采用或反馈证据，共识未建立。
     evidence_ids:
     - ev-3256334550f253b0
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式或付费路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-3256334550f253b0
+  - gate: truth
+    status: insufficient
+    reason: 未验证 GUI 是否贴近第一性目标，交付确定性未知。
+    evidence_ids:
+    - ev-3256334550f253b0
+  next_validation: 关注开源代码仓库的议题和讨论，看是否有用户实际使用并反馈。
+  market: ''
+- id: req-full-monocode-2026-08-25
+  project_slug: monocode
+  level: full
+  reviewed_at: '2026-08-24T23:09:59Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明“monocode 是一个为编码代理提供图形界面的开源工具。开发者通过 GUI 操作编码代理，但具体功能和工作流程未详细披露。”，尚未充分证明目标用户、不采用代价与问题发生频率。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注开源代码仓库的议题和讨论，看是否有用户实际使用并反馈。
   market: ''

@@ -21,7 +21,7 @@ canonical_url: https://trydashi.app
 summary: a 214KB Chrome new tab dashboard with no servers or analytics
 first_seen: '2026-08-24T13:55:21Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

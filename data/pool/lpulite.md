@@ -21,7 +21,7 @@ canonical_url: https://lpulite.com
 summary: I built a lite LPU that can do inference on Karpathy's MicroGPT
 first_seen: '2026-08-24T18:11:30Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

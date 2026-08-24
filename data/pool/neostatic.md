@@ -21,7 +21,7 @@ canonical_url: https://github.com/giannitedesco/neostatic
 summary: a tiny site/blog generator for neocities
 first_seen: '2026-08-23T23:51:59Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

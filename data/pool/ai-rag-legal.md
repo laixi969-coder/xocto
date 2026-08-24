@@ -21,7 +21,7 @@ canonical_url: https://github.com/noskaiser2310/AI_RAG_LEGAL
 summary: ''
 first_seen: '2026-08-06T17:36:22Z'
 last_seen: '2026-08-24T22:44:36Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

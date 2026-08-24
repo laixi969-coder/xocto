@@ -79,3 +79,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-cumora-2026-08-25
+  project_slug: cumora
+  level: full
+  reviewed_at: '2026-08-24T23:07:42Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述产品形态为AI代理团队聊天，未提供目标用户痛点、发生频率或损失规模的直接证据，买方价值未获证实。
+    evidence_ids:
+    - ev-8275fe99c86bbb45
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪cumora.ai官网定价页、客户案例与部署文档，确认付费方与使用场景。
+  market: ''

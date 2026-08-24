@@ -6,23 +6,57 @@
   signal_level: 待验证
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“⚒️ Open-source game wiki template. Astro + Cloudflare Pages. Free,
-      fast, beginner-friendly”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 已证明提供基于 Astro 的游戏百科静态模板及 AI 内容工作流，但缺乏大型维基社区实际采用与长期维护证据
     evidence_ids:
+    - ev-4674f9aca94500af
     - ev-b9bb759135ab100f
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 44 个收藏、31 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 个人站长对免费静态建站有兴趣，但大型游戏维基对多人协作与版本审校的诉求尚未在此形成共识
     evidence_ids:
+    - ev-4674f9aca94500af
     - ev-b9bb759135ab100f
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 属于开源模板，依靠免费基础设施，未披露托管服务或增值插件等商业模式
+    evidence_ids:
+    - ev-4674f9aca94500af
+    - ev-b9bb759135ab100f
+  - gate: truth
+    status: insufficient
+    reason: 静态生成能保证基础浏览性能，但 AI 提取游戏文本的准确性与反侵权边界仍需案例验证
+    evidence_ids:
+    - ev-4674f9aca94500af
+    - ev-b9bb759135ab100f
+  next_validation: 追踪开源代码库的模板复刻案例与社区维基搭建的真实站点链接
+  market: ''
+- id: req-full-anvilwiki-2026-08-25
+  project_slug: anvilwiki
+  level: full
+  reviewed_at: '2026-08-24T23:07:05Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 已证明提供基于Astro的游戏百科静态模板及AI内容工作流，但缺乏大型维基社区实际采用与长期维护证据。
+    evidence_ids:
+    - ev-4674f9aca94500af
+    - ev-b9bb759135ab100f
+  - gate: consensus
+    status: insufficient
+    reason: 个人站长对免费静态建站有兴趣，但大型游戏维基对多人协作与版本审校的诉求尚未在此形成共识。
+    evidence_ids:
+    - ev-4674f9aca94500af
+    - ev-b9bb759135ab100f
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 追踪开源代码库的模板复刻案例与社区维基搭建的真实站点链接。
   market: ''

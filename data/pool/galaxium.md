@@ -21,7 +21,7 @@ canonical_url: https://galaxium.app
 summary: an experimental WebGPU space explorer
 first_seen: '2026-08-24T14:44:20Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

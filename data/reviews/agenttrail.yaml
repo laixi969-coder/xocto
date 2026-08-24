@@ -6,23 +6,51 @@
   signal_level: 待验证
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Local observability map for AI coding agents. Watch Claude Code, Codex,
-      and Cursor plans, ”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 已证明可本地实时追踪 Claude Code 与 Cursor 等编码智能体的工具调用与文件变更，但缺乏长期排障效率提升的数据
     evidence_ids:
     - ev-e0d322059c7ad238
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 159 个收藏、7 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区获得一定关注，但尚未形成多 agent 编排场景下的主流审计共识，仍停留在个人开发者早期尝鲜阶段
     evidence_ids:
     - ev-e0d322059c7ad238
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 目前为免费开源本地工具，未披露团队支持、企业合规审计等商业化收费模式
+    evidence_ids:
+    - ev-e0d322059c7ad238
+  - gate: truth
+    status: insufficient
+    reason: 能对支持的 agent 执行过程做基础抓取，但复杂环境下的多并发调用拦截与安全边界仍待实测检验
+    evidence_ids:
+    - ev-e0d322059c7ad238
+  next_validation: 追踪开源代码库对新版本 Agent 工具协议的适配支持及活跃问题讨论
+  market: ''
+- id: req-full-agenttrail-2026-08-25
+  project_slug: agenttrail
+  level: full
+  reviewed_at: '2026-08-24T23:07:05Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 已证明可本地实时追踪Claude Code等编码智能体的工具调用与文件变更，但缺乏长期排障效率提升的数据。
+    evidence_ids:
+    - ev-e0d322059c7ad238
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区获得一定关注，但尚未形成多agent编排场景下的主流审计共识，仍停留在个人开发者早期尝鲜阶段。
+    evidence_ids:
+    - ev-e0d322059c7ad238
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 追踪 agenttrail 的官网定价、客户案例、公开部署文档及 issue/discussion，补足共识闸门证据。
   market: ''

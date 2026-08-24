@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/TomMoeras/contragand-demo
 summary: ''
 first_seen: '2026-08-24T14:24:55Z'
 last_seen: '2026-08-24T22:44:57Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

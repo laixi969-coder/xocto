@@ -22,7 +22,7 @@ summary: Automated account registration toolkit for x.ai (Grok) with SSO extract
   and auto-replenish daemon
 first_seen: '2026-08-12T11:56:57Z'
 last_seen: '2026-08-24T22:44:36Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/treebar-where-is-codex
 summary: Treebar gives you one view of every active worktree
 first_seen: '2026-08-23T16:03:52Z'
 last_seen: '2026-08-24T22:44:32Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

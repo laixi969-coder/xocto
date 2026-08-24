@@ -7,21 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness 语音朗读插件：沉浸式听朗读，用豆包 TTS 自然音色读 AI 回复（BYOK · 点读/暂停/继续）”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 产品提供 TTS 朗读功能，但缺少对重度阅读场景真实留存与替代价值的公开证据。
     evidence_ids:
-    - ev-8ec9c4679f7bcd73
+    - ev-b5fa092d579ba305
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 44 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 公开代码仓库仅有 44 次收藏，尚未形成广泛采用或社区讨论共识。
     evidence_ids:
-    - ev-8ec9c4679f7bcd73
+    - ev-b5fa092d579ba305
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: BYOK 模式的开源小插件，未披露商业模式与独立付费点。
+    evidence_ids:
+    - ev-b5fa092d579ba305
+  - gate: truth
+    status: insufficient
+    reason: 缺少长文本语音合成稳定性与断点续读效果的实测记录。
+    evidence_ids:
+    - ev-b5fa092d579ba305
+  next_validation: 查看公开代码仓库的说明与 issue 讨论，确认语音合成接口调用与交互体验。
+  market: ''
+- id: req-full-dsh-omi-voice-2026-08-25
+  project_slug: dsh-omi-voice
+  level: full
+  reviewed_at: '2026-08-24T23:07:59Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述 TTS 朗读功能，未提供目标用户痛点、使用频率或损失规模等直接证据，无法确认买方价值。
+    evidence_ids:
+    - ev-b5fa092d579ba305
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 追踪 GitHub 仓库的 issue 与 discussion，确认开发者实际部署场景与替代的旧流程。
   market: ''

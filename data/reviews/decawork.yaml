@@ -7,20 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Control your company's internal AI agents and tools”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 产品定位为内部 AI 代理控制台，但未说明具体管理动作和用户痛点，缺少对现有工作流的替代证据。
     evidence_ids:
     - ev-d0effb274eaebfe5
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    reason: 仅有单页产品介绍，无公开用户采用或社区讨论证据，无法判断市场共识。
+    evidence_ids:
+    - ev-d0effb274eaebfe5
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，付费方和付款触发点不明。
+    evidence_ids:
+    - ev-d0effb274eaebfe5
+  - gate: truth
+    status: insufficient
+    reason: 未提供实际控制功能的演示或部署案例，交付确定性无法验证。
+    evidence_ids:
+    - ev-d0effb274eaebfe5
+  next_validation: 关注官方文档或演示发布，确认具体管理功能与企业落地案例。
+  market: ''
+- id: req-full-decawork-2026-08-25
+  project_slug: decawork
+  level: full
+  reviewed_at: '2026-08-24T23:07:42Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品定位为内部AI代理控制台，但未说明具体管理动作和用户痛点，缺少对现有工作流的替代证据。
+    evidence_ids:
+    - ev-d0effb274eaebfe5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  next_validation: 关注官方文档或演示发布，确认具体管理功能与企业落地案例。
   market: ''

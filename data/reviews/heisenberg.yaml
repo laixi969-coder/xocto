@@ -7,22 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“A block-based content engine and bilingual blog backend for Laravel
-      Gutenberg-style editor”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 产品提供块状编辑器和 AI 写作助手，但未说明 AI 具体如何改进写作流程，缺乏用户使用案例或工作流证据。
     evidence_ids:
-    - ev-f41b3539e35fce90
+    - ev-0e29d9d34defceb1
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 103 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区星标 103，但无用户讨论或采用数据，无法判断市场共识。
     evidence_ids:
-    - ev-f41b3539e35fce90
+    - ev-0e29d9d34defceb1
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，开源项目可能通过托管或支持服务盈利，但无证据。
+    evidence_ids:
+    - ev-0e29d9d34defceb1
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述清晰，但未验证 AI 写作助手的实际效果和可靠性。
+    evidence_ids:
+    - ev-0e29d9d34defceb1
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际部署案例或用户反馈。
+  market: ''
+- id: req-full-heisenberg-2026-08-25
+  project_slug: heisenberg
+  level: full
+  reviewed_at: '2026-08-24T23:08:33Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 提供块状编辑器和 AI 写作助手，但未说明 AI 如何改进写作流程，缺乏用户使用案例或工作流证据。
+    evidence_ids:
+    - ev-0e29d9d34defceb1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 追踪 GitHub 仓库的 issue、discussion 和部署案例，寻找用户反馈。
   market: ''

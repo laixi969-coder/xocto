@@ -80,3 +80,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-routing-suite-2026-08-25
+  project_slug: dsh-routing-suite
+  level: full
+  reviewed_at: '2026-08-24T23:07:59Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述安装套件功能，未提供目标用户痛点、使用频率或损失规模等直接证据，无法确认买方价值。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 与 discussion，确认开发者实际部署场景与替代的旧流程。
+  market: ''

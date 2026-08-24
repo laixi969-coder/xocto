@@ -24,7 +24,7 @@ summary: VoiceMod Pro is a leading real-time voice changer, soundboard, and audi
   Zoom, and in-game voice channels.
 first_seen: '2026-08-19T08:09:02Z'
 last_seen: '2026-08-24T22:44:36Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
