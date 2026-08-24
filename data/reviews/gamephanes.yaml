@@ -30,14 +30,13 @@
 - id: req-full-gamephanes-2026-08-24
   project_slug: gamephanes
   level: full
-  reviewed_at: '2026-08-24T04:21:26Z'
+  reviewed_at: '2026-08-24T04:24:30Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 公开材料仅说明“GamePhanes 是一个面向 Godot 游戏引擎的开源游戏编码代理环境与基准。游戏开发者或 AI 代理研究者可在此环境中让编码代理编写、运行和测试 Godot
-      游戏代码，并依”，尚未充分证明目标用户、不采用代价与问题发生频率。
+    reason: 公开材料仅说明“GamePhanes 是一个面向 Godot 游戏引擎的开源游戏编码代理环境与基准。”，尚未充分证明目标用户、不采用代价与问题发生频率。
     evidence_ids: []
   - gate: consensus
     status: insufficient
@@ -51,5 +50,5 @@
     status: insufficient
     reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 查看仓库 README 或文档，确认是否提供可运行的示例、基准指标及使用案例。
+  next_validation: 查看仓库 README 或文档，确认其是否提供可运行的示例、基准指标及使用案例。
   market: ''
