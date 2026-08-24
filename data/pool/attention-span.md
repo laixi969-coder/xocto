@@ -31,16 +31,16 @@ canonical_url: https://alexgreenshpun.com
 summary: Make your agents talk human. ADHD-friendly output styles for Claude Code, Codex, and others.
   So you can pay attention, not tokens.
 first_seen: '2026-08-04T23:20:01Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://alexgreenshpun.com
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 846
+    stars: 858
     forks: 25
     open_issues: 1
 ---

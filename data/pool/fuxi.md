@@ -21,17 +21,17 @@ canonical_url: https://fuxicode.com
 summary: FuXi is a fast, self-contained AI coding agent that lives in your terminal — edit code, run commands,
   and drive tools, with cost-aware routing across LLM providers.
 first_seen: '2026-08-04T07:32:11Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://www.fuxicode.com
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 1829
-    forks: 58
+    stars: 1964
+    forks: 62
     open_issues: 1
 ---
 

@@ -51,3 +51,31 @@
     evidence_ids: []
   next_validation: 追踪 zoetrope 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
   market: ''
+- id: req-initial-zoetrope-2026-08-25
+  project_slug: zoetrope
+  level: initial
+  reviewed_at: '2026-08-24T22:44:36Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“zoetrope 是一个开源工具，让开发者或技术负责人在终端或浏览器中，将 Claude Code 的一次会话过程实时可视化为流程图。它接收
+      Claude Code 会话数据，将其”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-1c01db3b5916050f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 403 个收藏、22 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-1c01db3b5916050f
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

@@ -11,22 +11,30 @@ inspiration_en: The trend is engineering discipline leaving ad-hoc chat rules an
   packs. Don't sell a giant prompt. Start with release, incident, and review — steps that must happen
   in order — and wrap them as actions. Open source; pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://thiientv.github.io/godmode
 canonical_url: https://thiientv.github.io/godmode
 summary: Production-grade Agent Skills for AI coding agents—composable workflows for planning, TDD, debugging,
   review, UI/UX, releases, incidents, and evals.
 first_seen: '2026-08-13T04:06:22Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://thiientv.github.io/godmode
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 89
-    forks: 82
+    stars: 92
+    forks: 81
     open_issues: 0
 ---
 

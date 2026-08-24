@@ -21,16 +21,16 @@ canonical_url: https://github.com/tedydonel/Heisenberg
 summary: A block-based content engine and bilingual blog backend for Laravel  Gutenberg-style editor,
   media library, post templates, roles, and an AI writing assistant, with zero host coupling.
 first_seen: '2026-08-05T11:05:07Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tedydonel/Heisenberg
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 97
+    stars: 103
     forks: 0
     open_issues: 0
 ---

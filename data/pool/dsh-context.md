@@ -26,25 +26,25 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.npmjs.com/package/dsh-context
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 939
-    forks: 25
-    open_issues: 0
+    stars: 1001
+    forks: 27
+    open_issues: 1
 - source: github
   url: https://www.npmjs.com/package/autoprompt-skill
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 767
-    forks: 50
-    open_issues: 4
+    stars: 821
+    forks: 54
+    open_issues: 7
 - source: github
   url: https://www.npmjs.com/package/opencode-mobile-use
   seen_at: '2026-08-22T22:38:00Z'
@@ -54,17 +54,24 @@ sightings:
     open_issues: 2
 - source: github
   url: https://www.npmjs.com/package/dsh-mcp-panel
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 42
+    stars: 43
     forks: 4
     open_issues: 0
 - source: github
   url: https://www.npmjs.com/package/mediagen
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 54
+    stars: 55
     forks: 0
+    open_issues: 0
+- source: github
+  url: https://www.npmjs.com/package/@arihantdeva/heimdall
+  seen_at: '2026-08-24T22:44:36Z'
+  metrics:
+    stars: 40
+    forks: 2
     open_issues: 0
 ---
 

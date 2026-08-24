@@ -8,6 +8,14 @@ inspiration: 科研工作流整合，可迁移到其他专业领域的研究工�
 summary_en: All-in-one AI research workstation for scientific research.
 inspiration_en: Integrated research workflow, applicable to other professional research tools.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/openJiuwen-ai/sciencediscovery
 canonical_url: https://github.com/openJiuwen-ai/sciencediscovery
 summary: ScienceDiscovery is an all‑in‑one AI research workstation built specifically for scientific research.
@@ -15,16 +23,16 @@ summary: ScienceDiscovery is an all‑in‑one AI research workstation built spe
   workflow of "literature reading, hypothesis formulation, code writing, experimental trial‑and‑error,
   and parameter tuning" in a single place.
 first_seen: '2026-08-14T09:38:06Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openJiuwen-ai/sciencediscovery
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 9
     open_issues: 1
 ---

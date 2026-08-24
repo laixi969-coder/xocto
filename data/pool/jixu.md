@@ -29,16 +29,16 @@ canonical_url: https://github.com/joe960913/Jixu
 summary: A durable single-Agent Harness for TypeScript with recoverable Threads, explicit side-effect
   boundaries, and a native terminal UI.
 first_seen: '2026-08-18T11:43:25Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/joe960913/Jixu
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 113
+    stars: 115
     forks: 7
     open_issues: 0
 ---

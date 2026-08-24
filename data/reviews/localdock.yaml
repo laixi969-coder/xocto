@@ -1,0 +1,26 @@
+- id: req-initial-localdock-2026-08-25
+  project_slug: localdock
+  level: initial
+  reviewed_at: '2026-08-24T22:44:32Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Every local project gets a real address.”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-4b99a709740623e8
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  market: ''

@@ -30,18 +30,18 @@ url: https://github.com/moonlin1213/cove-sensory-mcp
 canonical_url: https://github.com/moonlin1213/cove-sensory-mcp
 summary: Give text-only LLMs eyes and ears through a privacy-safe local MCP server.
 first_seen: '2026-08-08T09:05:59Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/moonlin1213/cove-sensory-mcp
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 64
-    forks: 17
-    open_issues: 0
+    stars: 66
+    forks: 18
+    open_issues: 1
 ---
 
 # cove-sensory-mcp

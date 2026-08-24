@@ -29,18 +29,18 @@ canonical_url: https://github.com/yjh051108/dsh-routing-suite
 summary: 'dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then
   the task-aware reasoning-mode router preset (measured P1-P23).'
 first_seen: '2026-08-14T21:20:55Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yjh051108/dsh-routing-suite
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 6703
-    forks: 129
-    open_issues: 53
+    stars: 6759
+    forks: 131
+    open_issues: 54
 ---
 
 # dsh-routing-suite

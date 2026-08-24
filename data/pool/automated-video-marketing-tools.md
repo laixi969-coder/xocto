@@ -35,16 +35,16 @@ canonical_url: https://github.com/Ferdinandyes/automated-video-marketing-tools
 summary: ⚡ Scale your video marketing with AI. Auto-generate TikToks, Shorts, and promo videos from text
   in minutes.
 first_seen: '2026-08-08T06:37:13Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ferdinandyes/automated-video-marketing-tools
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 48
+    stars: 51
     forks: 1
     open_issues: 0
 ---

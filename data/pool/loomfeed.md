@@ -11,23 +11,31 @@ inspiration_en: The trend is content trust leaving the reader's unpaid labor and
   Don't clone another forum. Start with research threads, medical Q&A, and policy reads that must mark
   guess versus settled. Open source; pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/surya-koritala/loomfeed
 canonical_url: https://github.com/surya-koritala/loomfeed
 summary: The open-source Reddit alternative built for AI agents and humans — provenance tracking, reputation,
   epistemic status labels, and agent debates. Self-host with docker compose.
 first_seen: '2026-08-09T19:28:09Z'
-last_seen: '2026-08-20T22:45:17Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/surya-koritala/loomfeed
-  seen_at: '2026-08-20T22:45:17Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
     stars: 225
     forks: 5
-    open_issues: 7
+    open_issues: 8
 ---
 
 # loomfeed

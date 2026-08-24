@@ -51,3 +51,31 @@
     evidence_ids: []
   next_validation: 官方网站的定价/商业方案页面及开源仓库中的活跃用户使用数据与评价
   market: ''
+- id: req-initial-dsh-desktop-2-2026-08-25
+  project_slug: dsh-desktop-2
+  level: initial
+  reviewed_at: '2026-08-24T22:44:36Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness 桌面应用：本地 AI 工作区，管理 DSH 会话、项目、文件、网页研究、插件和 Office 文档。用户打开应用即可进行
+      AI 协作，交付是本地工”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-d047ac64c68bbc39
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 631 个收藏、35 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-d047ac64c68bbc39
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

@@ -139,3 +139,15 @@
   fact: Artificial intelligence (AI) is the capability of computational systems to perform tasks typically
     associated with human intelligence, such as learning, reasoning, problem-solving, perception, and
     decision-making.
+- id: ev-2565b6a56ceb3ada
+  project_slug: x64dbg-mcp-server
+  url: https://github.com/duty1g/x64dbg-mcp-server
+  title: x64dbg-mcp-server
+  published_at: '2026-08-22T14:28:41Z'
+  collected_at: '2026-08-24T22:44:36Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the
+    debugger''s full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg
+    programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built
+    with Zig — zero dependencies, single-binary output, cros'

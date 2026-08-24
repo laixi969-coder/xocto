@@ -24,17 +24,17 @@ canonical_url: https://github.com/eternityspring/shuohao-skills
 summary: AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles,
   model sheets, adaptation outlines. Runs in Claude Code & codex.
 first_seen: '2026-08-06T10:38:49Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/eternityspring/shuohao-skills
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 1920
-    forks: 237
+    stars: 1973
+    forks: 243
     open_issues: 2
 ---
 

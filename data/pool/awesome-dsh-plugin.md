@@ -20,18 +20,18 @@ url: https://awesome-dsh-plugin.com
 canonical_url: https://awesome-dsh-plugin.com
 summary: A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表
 first_seen: '2026-08-13T13:55:31Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://awesome-dsh-plugin.com
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 11864
-    forks: 1876
-    open_issues: 370
+    stars: 12253
+    forks: 1976
+    open_issues: 404
 - source: github
   url: https://github.com/bruc3van/awesome-dsh-plugin
   seen_at: '2026-08-15T22:37:13Z'

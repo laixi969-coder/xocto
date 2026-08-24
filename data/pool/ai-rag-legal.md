@@ -8,21 +8,29 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/noskaiser2310/AI_RAG_LEGAL
 canonical_url: https://github.com/noskaiser2310/AI_RAG_LEGAL
 summary: ''
 first_seen: '2026-08-06T17:36:22Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/noskaiser2310/AI_RAG_LEGAL
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 80
-    forks: 56
+    stars: 79
+    forks: 55
     open_issues: 0
 ---
 

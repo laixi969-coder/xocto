@@ -12,21 +12,29 @@ inspiration_en: 'The trend is agent-building moving from calling an API to desig
   with runnable homework on tools, permissions, memory, and teams of agents. Judgement: the course is
   the funnel; office hours and in-house training take the money.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/ryzqi/learn-agent
 canonical_url: https://github.com/ryzqi/learn-agent
 summary: 20 章中文 AI Agent 架构实战教程，配套可运行 TypeScript 代码，覆盖工具、权限、记忆、多 Agent、Worktree 与 MCP。
 first_seen: '2026-08-13T15:26:55Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ryzqi/learn-agent
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 254
-    forks: 35
+    stars: 263
+    forks: 37
     open_issues: 0
 ---
 

@@ -21,16 +21,16 @@ canonical_url: https://formcms.com
 summary: 'AI Agent: Open-source headless CMS built with ASP.NET Core (C#) and React, featuring REST APIs,
   GraphQL, and a GrapesJS page designer.'
 first_seen: '2026-08-13T11:48:48Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://formcms.com
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 227
+    stars: 237
     forks: 0
     open_issues: 0
 ---

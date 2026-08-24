@@ -32,18 +32,18 @@ url: https://github.com/furkankly/zoetrope
 canonical_url: https://github.com/furkankly/zoetrope
 summary: Watch a Claude Code session as a live flow graph, in your terminal or your browser.
 first_seen: '2026-08-18T10:48:39Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/furkankly/zoetrope
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 188
-    forks: 10
-    open_issues: 1
+    stars: 403
+    forks: 22
+    open_issues: 3
 ---
 
 # zoetrope

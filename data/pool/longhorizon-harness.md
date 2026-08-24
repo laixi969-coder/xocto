@@ -26,18 +26,18 @@ summary: The long-horizon computer-use harness. Run AI agents across desktop app
   execution, durable verified state, independent auditing, recoverable progress, and native Claude Code
   / Codex / OpenClaw integration.
 first_seen: '2026-08-04T04:30:58Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://lh-harness.pages.dev
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 1092
-    forks: 117
-    open_issues: 24
+    stars: 1237
+    forks: 132
+    open_issues: 27
 ---
 
 # LongHorizon-Harness

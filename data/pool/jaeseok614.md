@@ -1,0 +1,42 @@
+---
+slug: jaeseok614
+name: jaeseok614
+builder: jaeseok614
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://jaeseok614.github.io/llm-gpu-checker-ko/
+canonical_url: https://jaeseok614.github.io/llm-gpu-checker-ko
+summary: Open-source calculator for "will my GPU run this LLM?"
+first_seen: '2026-08-24T05:04:22Z'
+last_seen: '2026-08-24T22:44:32Z'
+status: pending_filter
+sources:
+- hackernews
+sightings:
+- source: hackernews
+  url: https://jaeseok614.github.io/llm-gpu-checker-ko/
+  seen_at: '2026-08-24T22:44:32Z'
+  metrics:
+    points: 5
+    comments: 3
+---
+
+# jaeseok614
+
+Open-source calculator for "will my GPU run this LLM?"
+
+## 笔记
+
+

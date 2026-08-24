@@ -28,16 +28,16 @@ canonical_url: https://github.com/ZSeven-W/dsh-noema
 summary: 'Noema long-term memory plugin for DSH: durable, inspectable agent memory with recall tools and
   a settings page.'
 first_seen: '2026-08-14T12:38:51Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZSeven-W/dsh-noema
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 123
+    stars: 125
     forks: 7
     open_issues: 0
 ---

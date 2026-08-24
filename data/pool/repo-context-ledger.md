@@ -35,16 +35,16 @@ canonical_url: https://github.com/gviiisen/repo-context-ledger
 summary: Open Agent Skill that keeps repository context, feature specs, change handoffs, and README summaries
   synchronized across AI coding tools.
 first_seen: '2026-08-11T10:14:00Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/gviiisen/repo-context-ledger
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 84
+    stars: 87
     forks: 0
     open_issues: 0
 ---

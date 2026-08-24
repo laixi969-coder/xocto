@@ -37,16 +37,16 @@ canonical_url: https://github.com/gary149/h3-game-sprites
 summary: 'Agent Skill: turn AI-generated video into 2D game sprite sheets (the Mortal Kombat method, with
   MiniMax H3 as the actor)'
 first_seen: '2026-08-17T19:29:39Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/gary149/h3-game-sprites
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 59
+    stars: 67
     forks: 4
     open_issues: 0
 ---

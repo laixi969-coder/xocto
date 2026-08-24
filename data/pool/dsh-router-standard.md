@@ -32,18 +32,18 @@ summary: 'Task-aware reasoning-mode router for DeepSeek Harness: three measured 
   with phase-transition evidence, persona + first-turn tool injection, agent-visible tuning. Dual-attractor
   policy paper included.'
 first_seen: '2026-08-14T18:14:16Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yjh051108/dsh-router-standard
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 370
-    forks: 33
-    open_issues: 43
+    stars: 373
+    forks: 34
+    open_issues: 44
 ---
 
 # dsh-router-standard

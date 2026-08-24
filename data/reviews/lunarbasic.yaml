@@ -1,0 +1,26 @@
+- id: req-initial-lunarbasic-2026-08-25
+  project_slug: lunarbasic
+  level: initial
+  reviewed_at: '2026-08-24T22:44:32Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“a BASIC that compiles 2D games to native executables”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-3678f2426c7e09ca
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值证据不足；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''

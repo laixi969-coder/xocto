@@ -23,17 +23,17 @@ canonical_url: https://github.com/coleam00/skills
 summary: The agent skills I actually use to build software with coding agents. The PIV loop, planning,
   worktrees, and the meta-skills for building your own AI Layer.
 first_seen: '2026-08-04T22:14:35Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/coleam00/skills
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 384
-    forks: 121
+    stars: 390
+    forks: 123
     open_issues: 3
 ---
 

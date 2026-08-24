@@ -11,11 +11,19 @@ inspiration_en: Once an assistant works across days, no memory means it forgets 
   is long-term memory as a default. The entry is a local, human-reviewable memory for coding assistants.
   Pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/fellowgeek/mcp-memory
 canonical_url: https://github.com/fellowgeek/mcp-memory
 summary: Fast Agent Memory Using Google's OKF and SQLite FTS5
 first_seen: '2026-08-13T13:57:47Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: analyzed
 sources:
 - hackernews
@@ -29,9 +37,9 @@ sightings:
     comments: 35
 - source: github
   url: https://github.com/fellowgeek/mcp-memory
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 193
+    stars: 194
     forks: 12
     open_issues: 1
 ---

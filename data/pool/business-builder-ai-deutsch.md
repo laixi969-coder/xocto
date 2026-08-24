@@ -35,16 +35,16 @@ summary: 'Business Builder AI (Deutsche Version): Automated Business System for 
   Automatisierte Landingpages, Sales Copy & Funnels für Software-Entwickler. Schluss mit $0 MRR trotz
   perfektem Code!'
 first_seen: '2026-08-08T08:51:50Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Alexandriayes/business-builder-ai-deutsch
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 48
+    stars: 51
     forks: 0
     open_issues: 0
 ---

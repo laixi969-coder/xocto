@@ -52,3 +52,30 @@
     evidence_ids: []
   next_validation: 查找官方定价页或企业客户案例，验证付费意愿。
   market: ''
+- id: req-initial-cra-agent-2026-08-25
+  project_slug: cra-agent
+  level: initial
+  reviewed_at: '2026-08-24T22:44:36Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“面向欧盟《网络弹性法案》合规的自主代理：开发团队将代码仓库交给它，它扫描漏洞、分类问题、自动创建 Jira 工单，并通过拉取请求直接修复。交付是可核对的修复补丁，但合并与否仍由工程”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-c1a73d7e9330fbe5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 217 个收藏、124 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-c1a73d7e9330fbe5
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

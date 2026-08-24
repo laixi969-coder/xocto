@@ -20,18 +20,18 @@ url: https://fx.sh
 canonical_url: https://fx.sh
 summary: Unix like coding agent
 first_seen: '2026-08-11T08:57:04Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: market_context
 sources:
 - github
 sightings:
 - source: github
   url: https://fx.sh
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 2234
-    forks: 236
-    open_issues: 136
+    stars: 2353
+    forks: 247
+    open_issues: 148
 ---
 
 # fx

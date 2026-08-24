@@ -8,20 +8,28 @@ inspiration: 参考实现可加速特定行业的 AI 应用开发
 summary_en: AI harness reference implementation for on-demand delivery workflows
 inspiration_en: Reference implementations can accelerate AI adoption in specific industries
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/diudiu-tech/delivery-harness
 canonical_url: https://github.com/diudiu-tech/delivery-harness
 summary: AI harness reference implementation for on-demand delivery workflows
 first_seen: '2026-08-13T08:38:58Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/diudiu-tech/delivery-harness
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 101
+    stars: 102
     forks: 4
     open_issues: 8
 ---

@@ -23,7 +23,7 @@ url: https://github.com/harnessrouter/harnessrouter
 canonical_url: https://github.com/harnessrouter/harnessrouter
 summary: Unified interface for agent harnesses
 first_seen: '2026-08-17T18:33:38Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - hackernews
@@ -37,11 +37,11 @@ sightings:
     comments: 13
 - source: github
   url: https://harnessrouter.ai/
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 536
-    forks: 47
-    open_issues: 3
+    stars: 576
+    forks: 54
+    open_issues: 2
 ---
 
 # HarnessRouter

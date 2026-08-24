@@ -29,18 +29,18 @@ canonical_url: https://only-cli.com
 summary: Turn any website into a compact CLI tailored for AI agents. Browse the web in hundreds of tokens,
   not tens of thousands.
 first_seen: '2026-08-18T13:00:30Z'
-last_seen: '2026-08-23T22:52:50Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://only-cli.com
-  seen_at: '2026-08-23T22:52:50Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 209
-    forks: 9
-    open_issues: 6
+    stars: 281
+    forks: 13
+    open_issues: 4
 ---
 
 # oc

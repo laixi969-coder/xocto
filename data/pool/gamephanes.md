@@ -32,17 +32,17 @@ url: https://github.com/GamePhanes/GamePhanes
 canonical_url: https://github.com/GamePhanes/GamePhanes
 summary: An open-source game coding agent environment and benchmark for Godot.
 first_seen: '2026-08-21T02:57:42Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/GamePhanes/GamePhanes
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 151
-    forks: 2
+    stars: 234
+    forks: 7
     open_issues: 0
 ---
 

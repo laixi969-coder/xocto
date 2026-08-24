@@ -11,24 +11,32 @@ inspiration_en: The trend is propose-then-approve becoming the default for high-
   is payments, shipping, and permission changes, where one tap costs money; make approval a gate you cannot
   skip, not a log you read later.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://decionis.com/docs?utm_source=github&utm_medium=org_readme&utm_campaign=dev_discovery
 canonical_url: https://decionis.com/docs
 summary: Reference architecture for AI agents that propose actions but cannot authorize them — immutable
   intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval,
   and a SafeExecutor that consumes a single-use intent-bound grant.
 first_seen: '2026-08-13T21:36:19Z'
-last_seen: '2026-08-21T22:41:52Z'
+last_seen: '2026-08-24T22:44:36Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://decionis.com/docs?utm_source=github&utm_medium=org_readme&utm_campaign=dev_discovery
-  seen_at: '2026-08-21T22:41:52Z'
+  seen_at: '2026-08-24T22:44:36Z'
   metrics:
-    stars: 533
+    stars: 534
     forks: 58
-    open_issues: 9
+    open_issues: 13
 ---
 
 # agent-safe-pipeline
