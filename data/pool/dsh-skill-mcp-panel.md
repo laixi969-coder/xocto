@@ -20,17 +20,17 @@ url: https://github.com/Fishquito7/dsh-skill-mcp-panel
 canonical_url: https://github.com/Fishquito7/dsh-skill-mcp-panel
 summary: 'DSH Web UI plugin: skill and MCP management（Web界面的skill/MCP管理工具）'
 first_seen: '2026-08-14T01:18:04Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Fishquito7/dsh-skill-mcp-panel
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 97
-    forks: 8
+    stars: 104
+    forks: 9
     open_issues: 0
 ---
 

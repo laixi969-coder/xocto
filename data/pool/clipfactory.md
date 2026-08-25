@@ -33,16 +33,16 @@ summary: 'Topic + template → short vertical video from your own B-roll: AI scr
   captions, FFmpeg render. Multi-persona, AI shot lists, AI B-roll, batch generation. Source-available
   (Elastic 2.0).'
 first_seen: '2026-08-22T12:07:47Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/feyzilim/clipfactory
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 71
+    stars: 75
     forks: 10
     open_issues: 0
 ---

@@ -106,3 +106,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-biosecurity-agent-2026-08-26
+  project_slug: biosecurity-agent
+  level: initial
+  reviewed_at: '2026-08-25T22:45:11Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“AI 代理围绕任意目标构建实时生物安全世界，可能用于监测和预警。具体功能、输入输出和交付形式未详细披露，项目刚发布，需进一步研究。”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-7c3014f19b506d09
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 514 个收藏、17 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-7c3014f19b506d09
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

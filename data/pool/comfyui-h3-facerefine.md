@@ -31,18 +31,18 @@ canonical_url: https://github.com/Carasibana/ComfyUI-H3-FaceRefine
 summary: Refine and improve the quality of small faces in MiniMax H3 video. Per-frame face tracking, crop,
   refine with H3, stitch back.
 first_seen: '2026-08-12T11:18:15Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Carasibana/ComfyUI-H3-FaceRefine
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 291
+    stars: 293
     forks: 20
-    open_issues: 2
+    open_issues: 1
 ---
 
 # ComfyUI-H3-FaceRefine

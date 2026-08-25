@@ -33,17 +33,17 @@ url: https://picomq.com/
 canonical_url: https://picomq.com
 summary: Durable Streams over HTTP, on object storage
 first_seen: '2026-08-24T16:08:17Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-25T22:45:07Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://picomq.com/
-  seen_at: '2026-08-24T22:44:32Z'
+  seen_at: '2026-08-25T22:45:07Z'
   metrics:
-    points: 75
-    comments: 13
+    points: 146
+    comments: 28
 ---
 
 # PicoMQ

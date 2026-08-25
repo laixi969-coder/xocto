@@ -37,17 +37,17 @@ url: https://bidsonar.com/mcp
 canonical_url: https://bidsonar.com/mcp
 summary: MCP server for UK/EU government contracts and grants
 first_seen: '2026-08-24T13:39:58Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-25T22:45:07Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://bidsonar.com/mcp
-  seen_at: '2026-08-24T22:44:32Z'
+  seen_at: '2026-08-25T22:45:07Z'
   metrics:
     points: 8
-    comments: 0
+    comments: 1
 ---
 
 # BidSonar

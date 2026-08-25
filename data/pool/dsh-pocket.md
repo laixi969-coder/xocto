@@ -20,18 +20,18 @@ url: https://github.com/shaobeichen/dsh-pocket
 canonical_url: https://github.com/shaobeichen/dsh-pocket
 summary: 把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）
 first_seen: '2026-08-15T09:36:29Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/shaobeichen/dsh-pocket
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 593
-    forks: 34
-    open_issues: 12
+    stars: 652
+    forks: 36
+    open_issues: 9
 ---
 
 # dsh-pocket

@@ -20,16 +20,16 @@ url: https://github.com/taimurijlal/AI-Security-Projects
 canonical_url: https://github.com/taimurijlal/AI-Security-Projects
 summary: ''
 first_seen: '2026-08-07T06:25:48Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/taimurijlal/AI-Security-Projects
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 44
+    stars: 45
     forks: 20
     open_issues: 0
 ---

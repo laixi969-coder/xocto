@@ -20,17 +20,17 @@ url: https://github.com/hsusul/lore
 canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hsusul/lore
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
     stars: 141
-    forks: 39
+    forks: 40
     open_issues: 0
 ---
 

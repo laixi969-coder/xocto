@@ -27,16 +27,16 @@ canonical_url: https://github.com/sevensir888/codex-command-center
 summary: A local desktop control center for organizing Codex projects, engineering tasks, sessions, Git
   changes, Skills, and MCP configuration.
 first_seen: '2026-08-17T16:45:32Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sevensir888/codex-command-center
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 57
+    stars: 64
     forks: 1
     open_issues: 0
 ---

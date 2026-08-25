@@ -20,17 +20,17 @@ url: https://github.com/Vistyy/nopus
 canonical_url: https://github.com/Vistyy/nopus
 summary: Deterministic prose checks for clearer coding-agent responses
 first_seen: '2026-08-15T12:53:20Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Vistyy/nopus
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 216
-    forks: 12
+    stars: 232
+    forks: 11
     open_issues: 0
 ---
 

@@ -32,16 +32,16 @@ url: https://openhistory.sh
 canonical_url: https://openhistory.sh
 summary: Your private, searchable work timeline for macOS and local AI agents.
 first_seen: '2026-08-16T21:17:24Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://openhistory.sh
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 92
+    stars: 99
     forks: 5
     open_issues: 2
 ---

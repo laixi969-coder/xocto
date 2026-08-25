@@ -267,3 +267,86 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-3cc358db493c2c76
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/uisight
+  title: uisight
+  published_at: '2026-08-17T20:37:41Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Your AI can''t see the screen. uisight gives it eyes: live mobile+desktop sessions, a measurement
+    engine (contrast, touch targets, theme drift) reporting findings as text, and a shared panel for human+AI.
+    MCP server included.'
+- id: ev-f36d2e1fa173d8bb
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/mediagen
+  title: mediagen
+  published_at: '2026-08-22T23:49:10Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: AI image and video generation skill for Claude Code and other coding agents — Gemini, OpenAI and
+    Kie AI behind one CLI and MCP server, with EU AI Act content marking.
+- id: ev-a695370266557c24
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-mcp-panel
+  title: dsh-mcp-panel
+  published_at: '2026-08-14T03:54:20Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'MCP management console for the official DeepSeek Harness MCP client: /mcp command with health
+    diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes,
+    automatic backups) and a tool trial console over the official tool pipeline (Apache-2.0, dsh-plugin).'
+- id: ev-a89b7518b5842078
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/autoprompt-skill
+  title: autoprompt-skill
+  published_at: '2026-08-17T22:40:47Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks.
+- id: ev-1aca6be5d5ace999
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/ownmem
+  title: ownmem
+  published_at: '2026-08-16T12:45:36Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: Local, deterministic, git-native memory for coding agents — one set of Markdown files serves Claude
+    Code, Codex, Gemini CLI, Cursor, and Grok CLI.
+- id: ev-56a4f4e4b2611045
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@arihantdeva/heimdall
+  title: heimdall
+  published_at: '2026-08-20T16:22:22Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: Persistent memory for AI coding agents — one verified kb_search replaces the grep/find/ls orientation
+    loop. Cross-repo, CPU-only, zero token spend.
+- id: ev-08b42d8f4f7e025f
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-context
+  title: dsh-context
+  published_at: '2026-08-14T08:23:28Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: The best DeepSeek Harness plugin for context insight and management, with context dashboard /
+    browser and context command, for context statistics, composition, breakdown, evolution details, understanding
+    how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
+    命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
+- id: ev-69dff69c0b53b74a
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@open-sheet/core
+  title: open-sheet
+  published_at: '2026-08-18T07:15:17Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: The spreadsheet framework built for agents — write the model as React, export a live .xlsx. The
+    third medium, after open-slide and open-doc.

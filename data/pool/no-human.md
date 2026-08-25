@@ -31,16 +31,16 @@ url: https://getnohuman.com
 canonical_url: https://getnohuman.com
 summary: From ticket to reviewed pull request. Free and open-source, on your machine.
 first_seen: '2026-08-05T14:51:58Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://getnohuman.com
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 41
+    stars: 49
     forks: 1
     open_issues: 6
 ---

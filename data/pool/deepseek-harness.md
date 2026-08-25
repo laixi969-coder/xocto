@@ -23,7 +23,7 @@ url: https://deepseek.com/harness
 canonical_url: https://deepseek.com/harness
 summary: 'DeepSeek Harness: Everything is a Plugin.'
 first_seen: '2026-08-13T11:56:32Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: analyzed
 sources:
 - github
@@ -31,10 +31,10 @@ sources:
 sightings:
 - source: github
   url: https://deepseek.com/harness
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 191839
-    forks: 21497
+    stars: 195160
+    forks: 22039
     open_issues: 0
 - source: producthunt
   url: https://www.producthunt.com/products/deepseek
@@ -42,11 +42,11 @@ sightings:
   metrics: {}
 - source: github
   url: https://www.beyondata.com/
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 504
-    forks: 49
-    open_issues: 2
+    stars: 521
+    forks: 52
+    open_issues: 0
 ---
 
 # deepseek-harness

@@ -30,16 +30,16 @@ url: https://github.com/open-mrp/api
 canonical_url: https://github.com/open-mrp/api
 summary: an open-source manufacturing ERP built over 4 years
 first_seen: '2026-08-24T13:38:34Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-25T22:45:07Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/open-mrp/api
-  seen_at: '2026-08-24T22:44:32Z'
+  seen_at: '2026-08-25T22:45:07Z'
   metrics:
-    points: 7
+    points: 8
     comments: 2
 ---
 

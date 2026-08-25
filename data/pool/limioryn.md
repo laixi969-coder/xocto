@@ -12,21 +12,29 @@ inspiration_en: 'The trend is agents leaving the screen for the shop floor; the 
   and lab instruments: few moves, expensive mistakes. Judgement: sell the check and the emergency stop
   before you sell autonomy.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/YINGLINGH/limioryn
 canonical_url: https://github.com/YINGLINGH/limioryn
 summary: Edge-cloud Multi-Agent execution framework for embodied intelligence, connecting AI agents to
   real devices with verifiable actuation and entropy-bounded recovery.
 first_seen: '2026-08-07T08:38:44Z'
-last_seen: '2026-08-18T14:52:33Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/YINGLINGH/limioryn
-  seen_at: '2026-08-18T14:52:33Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 195
+    stars: 205
     forks: 3
     open_issues: 0
 ---

@@ -24,18 +24,18 @@ canonical_url: https://github.com/zouyuxuan122/Deepseek-Harness-EAC/releases
 summary: 'DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch,
   10 built-in UI skins. EAC: Embracing All Creation 揽尽万象'
 first_seen: '2026-08-14T16:29:54Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zouyuxuan122/Deepseek-Harness-EAC/releases
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 1265
-    forks: 45
-    open_issues: 15
+    stars: 1305
+    forks: 46
+    open_issues: 22
 ---
 
 # Deepseek-Harness-EAC

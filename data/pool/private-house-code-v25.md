@@ -20,16 +20,16 @@ url: https://github.com/See-Sol-Lab/private-house-code-v2.5
 canonical_url: https://github.com/See-Sol-Lab/private-house-code-v2.5
 summary: 让 Codex 少烧 Token、少造复杂度，同时不降智的代码约束 Skill
 first_seen: '2026-08-05T19:04:09Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/See-Sol-Lab/private-house-code-v2.5
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 78
+    stars: 79
     forks: 2
     open_issues: 0
 ---

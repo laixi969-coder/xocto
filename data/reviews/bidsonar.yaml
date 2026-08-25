@@ -53,3 +53,29 @@
     evidence_ids: []
   next_validation: 关注官网是否提供定价页、客户案例或数据源文档，以及是否有用户评价或使用数据。
   market: ''
+- id: req-initial-bidsonar-2026-08-26
+  project_slug: bidsonar
+  level: initial
+  reviewed_at: '2026-08-25T22:45:07Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“BidSonar 是一个面向英国和欧盟政府合同与拨款信息的 MCP 服务器。投标专员在寻找商机时，可将合同和拨款数据接入其 AI 工作流，由系统筛选、匹配并返回相关招标信息，辅助投”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-32f0a9ac6d7e6631
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值证据不足；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''

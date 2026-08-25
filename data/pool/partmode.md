@@ -21,17 +21,17 @@ canonical_url: https://partmode.com
 summary: Open-source, local-first 3D parametric CAD that runs in the browser for people and permissioned
   typed agents, powered by OpenCascade WASM.
 first_seen: '2026-08-06T04:51:12Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://partmode.com/
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 641
-    forks: 26
+    stars: 567
+    forks: 25
     open_issues: 11
 ---
 

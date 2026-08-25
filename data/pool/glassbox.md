@@ -28,17 +28,17 @@ url: https://glassbox.codecanary.org
 canonical_url: https://glassbox.codecanary.org
 summary: what the browser reveals, and how identifiable you are
 first_seen: '2026-08-24T16:15:10Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-25T22:45:07Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://glassbox.codecanary.org
-  seen_at: '2026-08-24T22:44:32Z'
+  seen_at: '2026-08-25T22:45:07Z'
   metrics:
-    points: 80
-    comments: 39
+    points: 124
+    comments: 59
 ---
 
 # GlassBox

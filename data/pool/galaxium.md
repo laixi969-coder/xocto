@@ -20,17 +20,17 @@ url: https://galaxium.app
 canonical_url: https://galaxium.app
 summary: an experimental WebGPU space explorer
 first_seen: '2026-08-24T14:44:20Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-25T22:45:07Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://galaxium.app
-  seen_at: '2026-08-24T22:44:32Z'
+  seen_at: '2026-08-25T22:45:07Z'
   metrics:
-    points: 5
-    comments: 2
+    points: 8
+    comments: 8
 ---
 
 # Galaxium

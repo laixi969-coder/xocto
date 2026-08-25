@@ -60,3 +60,24 @@
     \ / 1024`. The fal column is its own published per-second figure for the common 16:9 case, but its\
     \ docs call the token formula authoritative, so a 9:16 clip has a different frame area and a different\
     \ effectiv"
+- id: ev-db0fa351e0ba9130
+  project_slug: reapi
+  url: https://www.v2ex.com/t/1236501
+  title: 'MiniMax H3 vs Seedance 2.5: choose by shot length, not demo-reel quality'
+  published_at: '2026-08-23T00:10:45Z'
+  collected_at: '2026-08-25T22:45:06Z'
+  source_kind: product
+  tier: independent
+  fact: "I do not think “which model is better?” is answerable from the H3 and Seedance 2.5 launch videos.\
+    \ The useful question is which one fails less expensively on the shot you need.\r\n\r\nThese models\
+    \ have different production envelopes:\r\n\r\n| Requirement | MiniMax H3 | Seedance 2.5 |\r\n| ---\
+    \ | --- | --- |\r\n| One-pass duration | 4–15 seconds | 4–30 seconds |\r\n| Highest current reAPI\
+    \ tier | 2K | 1080p |\r\n| Reference capacity | 9 images, 3 videos, 3 audio files | 30 images, 10\
+    \ videos, 10 audio files |\r\n| Strong reason to choose it | 2K, cheaper short shots | Longer takes,\
+    \ editing and larger reference sets |\r\n\r\nBoth generate sound. Both can be directed with several\
+    \ kinds of reference. The decision changes when the scene crosses 15 seconds.\r\n\r\n## A one-minute\
+    \ scene is not four equal 15-second clips\r\n\r\nH3 tops out at 15 seconds. A 60-second sequence therefore\
+    \ needs at least four generations, and usually more because the edit needs handles. Seedance 2.5 can\
+    \ cover the same timeline in two 30-second generations.\r\n\r\nThat does not automatically make Seedance\
+    \ better. A failed second 28 can make a 30-second render expensive to rerun. H3 lets you isolate the\
+    \ bad shot and regenerate a smaller unit. Seedanc"

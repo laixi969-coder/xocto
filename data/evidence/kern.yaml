@@ -7,3 +7,12 @@
   source_kind: adoption
   tier: behavioural
   fact: container and resource runtime in a 1.5 MB binary, no daemon
+- id: ev-a1d8e275be43f403
+  project_slug: kern
+  url: https://github.com/getkern/kern
+  title: Kern
+  published_at: '2026-08-24T18:24:59Z'
+  collected_at: '2026-08-25T22:45:07Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: container and resource runtime in a 1.5 MB binary, no daemon

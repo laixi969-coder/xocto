@@ -35,17 +35,17 @@ canonical_url: https://github.com/sosoj92/jarvis-assistant-vocal
 summary: 'Assistant vocal local en francais : Claude ou Ollama (offline), domotique Hue, OBS, agenda,
   navigateur, appels Twilio, serveur MCP. Python.'
 first_seen: '2026-08-07T15:30:20Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sosoj92/jarvis-assistant-vocal
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 183
-    forks: 38
+    stars: 186
+    forks: 39
     open_issues: 5
 ---
 

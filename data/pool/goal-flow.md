@@ -22,16 +22,16 @@ canonical_url: https://github.com/wanmol/goal-flow
 summary: Graph-Orchestrated Agent Loop — a production-grade framework on LangGraph. Combine workflow graphs
   and agent loops, transpile Dify DSL to runnable code, swap wire protocols (Dify/OpenAI).
 first_seen: '2026-08-06T15:43:24Z'
-last_seen: '2026-08-23T22:38:28Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wanmol/goal-flow
-  seen_at: '2026-08-23T22:38:28Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 134
+    stars: 135
     forks: 2
     open_issues: 0
 ---

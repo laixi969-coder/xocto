@@ -20,17 +20,17 @@ url: https://tinkerandsee.com/weekday/
 canonical_url: https://tinkerandsee.com/weekday
 summary: How to Mentally Calculate the Day of the Week for Any Date
 first_seen: '2026-08-24T14:57:45Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-25T22:45:07Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tinkerandsee.com/weekday/
-  seen_at: '2026-08-24T22:44:32Z'
+  seen_at: '2026-08-25T22:45:07Z'
   metrics:
-    points: 28
-    comments: 6
+    points: 80
+    comments: 24
 ---
 
 # tinkerandsee

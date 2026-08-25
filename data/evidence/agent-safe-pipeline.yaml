@@ -18,3 +18,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-909e73bfbe2ef8f9
+  project_slug: agent-safe-pipeline
+  url: https://decionis.com/docs?utm_source=github&utm_medium=org_readme&utm_campaign=dev_discovery
+  title: agent-safe-pipeline
+  published_at: '2026-08-13T21:36:19Z'
+  collected_at: '2026-08-25T22:45:11Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: Reference architecture for AI agents that propose actions but cannot authorize them — immutable
+    intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval,
+    and a SafeExecutor that consumes a single-use intent-bound grant.

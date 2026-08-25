@@ -33,17 +33,17 @@ url: https://github.com/taylannuhogluofficial-png/Tblue
 canonical_url: https://github.com/taylannuhogluofficial-png/Tblue
 summary: 614 passive security scanners for any website, runs locally
 first_seen: '2026-08-24T14:53:22Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-25T22:45:07Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/taylannuhogluofficial-png/Tblue
-  seen_at: '2026-08-24T22:44:32Z'
+  seen_at: '2026-08-25T22:45:07Z'
   metrics:
-    points: 10
-    comments: 2
+    points: 14
+    comments: 4
 ---
 
 # Tblue

@@ -21,16 +21,16 @@ canonical_url: https://github.com/Montgomery66/ultimate-viddeos-ai-review-2026
 summary: An in-depth review and workflow walkthrough of The Ultimate Viddeos A.I. System. Learn how to
   automate text-to-video creation, scriptwriting, and voiceovers for faceless short-form video channels.
 first_seen: '2026-08-07T07:23:15Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Montgomery66/ultimate-viddeos-ai-review-2026
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 52
+    stars: 54
     forks: 0
     open_issues: 0
 ---

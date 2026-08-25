@@ -58,16 +58,16 @@ summary: "I do not think “which model is better?” is answerable from the H3 
   \ and [Seedance 2.5]( https://reapi.ai/models/seedance-2-5) are available. The published model pages\
   \ are linked so the prices can be checked independently."
 first_seen: '2026-08-23T00:10:45Z'
-last_seen: '2026-08-23T14:11:11Z'
+last_seen: '2026-08-25T22:45:06Z'
 status: pending_filter
 sources:
 - v2ex
 sightings:
 - source: v2ex
   url: https://reapi.ai/models/minimax-h3
-  seen_at: '2026-08-23T14:11:11Z'
+  seen_at: '2026-08-25T22:45:06Z'
   metrics:
-    comments: 2
+    comments: 4
 - source: v2ex
   url: https://reapi.ai/models/qwen-image-3
   seen_at: '2026-08-23T14:11:11Z'

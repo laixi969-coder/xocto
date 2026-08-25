@@ -21,18 +21,18 @@ canonical_url: https://github.com/PC2005-cloud/dsh-pet
 summary: DSH 桌面宠物：一行命令安装现成宠物（28 个透明动画，即装即用），或内置素材链从 AI 视频自造专属宠物 | One-line install desktop pet for DeepSeek
   Harness + DIY asset pipeline
 first_seen: '2026-08-14T00:38:45Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-25T22:45:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PC2005-cloud/dsh-pet
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-25T22:45:11Z'
   metrics:
-    stars: 396
-    forks: 26
-    open_issues: 13
+    stars: 417
+    forks: 27
+    open_issues: 11
 ---
 
 # dsh-pet
