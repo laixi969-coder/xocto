@@ -21,7 +21,7 @@ canonical_url: https://outmap.lol
 summary: a live map of 235 countries where anyone can place a link
 first_seen: '2026-08-24T18:31:52Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

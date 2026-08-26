@@ -24,7 +24,7 @@ summary: 'Give your AI agent a face. Four full-screen visualizers. A living circ
   with backtalk out of the box.'
 first_seen: '2026-08-16T19:45:33Z'
 last_seen: '2026-08-26T04:53:32Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

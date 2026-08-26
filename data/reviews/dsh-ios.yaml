@@ -135,3 +135,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-ios-2026-08-26
+  project_slug: dsh-ios
+  level: full
+  reviewed_at: '2026-08-26T05:18:12Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料描述为iOS模拟器或真机接入对话并提供22个代理工具，但未提供目标用户痛点、使用频率或损失规模的直接证据，买方价值不明确。
+    evidence_ids:
+    - ev-6619ea710245be6d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪GitHub仓库的README、issue和discussion，寻找用户部署案例或使用场景描述。
+  market: ''

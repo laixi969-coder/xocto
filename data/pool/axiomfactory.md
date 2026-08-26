@@ -21,7 +21,7 @@ canonical_url: https://axiomfactory.co/wishbone
 summary: 'Building USoC Part 1: The Wishbone Bus'
 first_seen: '2026-08-25T11:44:20Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

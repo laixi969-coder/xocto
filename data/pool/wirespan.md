@@ -21,7 +21,7 @@ canonical_url: https://wirespan.app?r=hnn
 summary: a daily power grid optimization puzzle I made for my son
 first_seen: '2026-08-25T13:03:09Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

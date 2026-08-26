@@ -21,7 +21,7 @@ canonical_url: https://undercover.games/play
 summary: Hire top talent through games
 first_seen: '2026-08-24T13:23:15Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

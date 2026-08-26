@@ -21,7 +21,7 @@ canonical_url: https://iam-niranjan.github.io/docdrop
 summary: Drop a document. Get clean Markdown. No AI, no account, no history.
 first_seen: '2026-08-05T16:58:19Z'
 last_seen: '2026-08-25T22:45:11Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

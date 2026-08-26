@@ -1,26 +1,64 @@
 - id: req-initial-carwatch-2026-08-26
   project_slug: carwatch
   level: initial
-  reviewed_at: '2026-08-25T22:45:07Z'
+  reviewed_at: '2026-08-26T04:53:28Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“I made a Raspberry with Qwen my local car AI”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 项目展示了本地车载 AI 的可行性，替代了依赖云端的旧方案，价值主张有一定基础。
     evidence_ids:
     - ev-ea064ad4aa0d2b50
+    - ev-e1c6eec57dac4d2d
   - gate: consensus
-    status: insufficient
-    reason: 未进入共识闸门：价值证据不足；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
-    evidence_ids: []
+    status: supported
+    reason: 在开发者社区获得 117 分和 30 条评论，表明关注度高，但需区分关注与持续采用。
+    evidence_ids:
+    - ev-ea064ad4aa0d2b50
+    - ev-e1c6eec57dac4d2d
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 未披露商业模式，可能为开源项目，但缺乏付费路径。
+    evidence_ids:
+    - ev-ea064ad4aa0d2b50
+    - ev-e1c6eec57dac4d2d
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 未提供实际使用效果或性能数据，无法验证本地 AI 的可靠性。
+    evidence_ids:
+    - ev-ea064ad4aa0d2b50
+    - ev-e1c6eec57dac4d2d
+  next_validation: 关注项目代码仓库是否发布详细文档、演示视频和用户反馈，以验证实际功能和采用情况。
+  market: ''
+- id: req-full-carwatch-2026-08-26
+  project_slug: carwatch
+  level: full
+  reviewed_at: '2026-08-26T05:17:02Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 项目展示了本地车载 AI 的可行性，替代了依赖云端的旧方案，价值主张有一定基础。
+    evidence_ids:
+    - ev-ea064ad4aa0d2b50
+    - ev-e1c6eec57dac4d2d
+  - gate: consensus
+    status: supported
+    reason: 在开发者社区获得 117 分和 30 条评论，表明关注度高，但需区分关注与持续采用。
+    evidence_ids:
+    - ev-ea064ad4aa0d2b50
+    - ev-e1c6eec57dac4d2d
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能为开源项目，但缺乏付费路径。
+    evidence_ids:
+    - ev-ea064ad4aa0d2b50
+    - ev-e1c6eec57dac4d2d
+  - gate: truth
+    status: insufficient
+    reason: 模式闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  next_validation: 关注项目代码仓库是否发布详细文档、演示视频和用户反馈，以验证实际功能和采用情况。
   market: ''

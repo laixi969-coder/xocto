@@ -1,28 +1,56 @@
 - id: req-initial-swissdevjobs-cli-2026-08-26
   project_slug: swissdevjobs-cli
   level: initial
-  reviewed_at: '2026-08-25T22:45:11Z'
+  reviewed_at: '2026-08-26T04:53:32Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Search & apply to ~4,700 salary-transparent tech jobs across 7 countries
-      (🇨🇭🇩🇪🇬🇧🇺🇸🇨🇦🇳🇱🇫🇷) ”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 产品提供约 4700 个薪资透明的技术职位搜索与申请功能，覆盖 7 个国家，直接解决求职者寻找透明薪资职位的痛点，价值明确。
     evidence_ids:
     - ev-2841d4d2b2a865f5
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 63 个收藏、8 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源仓库有 64 星，但缺乏用户讨论或采用证据，共识尚未形成。
     evidence_ids:
     - ev-2841d4d2b2a865f5
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，开源项目可能无直接收入，需观察是否有付费功能或企业合作。
+    evidence_ids:
+    - ev-2841d4d2b2a865f5
+  - gate: truth
+    status: insufficient
+    reason: 未提供实际使用案例或申请成功率数据，无法验证其投递功能的有效性。
+    evidence_ids:
+    - ev-2841d4d2b2a865f5
+  next_validation: 关注开源仓库的 issue 讨论、用户反馈和是否有实际投递成功的案例，以验证需求真实性。
+  market: ''
+- id: req-full-swissdevjobs-cli-2026-08-26
+  project_slug: swissdevjobs-cli
+  level: full
+  reviewed_at: '2026-08-26T05:20:03Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品提供约 4700 个薪资透明的技术职位搜索与申请功能，覆盖 7 个国家，直接解决求职者寻找透明薪资职位的痛点，价值明确。
+    evidence_ids:
+    - ev-2841d4d2b2a865f5
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 64 星，但缺乏用户讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-2841d4d2b2a865f5
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注开源仓库的 issue 讨论、用户反馈和是否有实际投递成功的案例，以验证需求真实性。
   market: ''

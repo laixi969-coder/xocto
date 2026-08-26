@@ -3,25 +3,27 @@
   level: initial
   reviewed_at: '2026-08-25T22:45:06Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“上次我做了一份 2023 年的 AI 论文数据集，有 7000 多篇，没想到还挺受欢迎的👉https://www.v2ex.com/t/1229793?p=1#reply9
-      ，还有”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 数据集提供 24 个字段和原文片段，解决论文筛选和比较的痛点，价值明确；但缺少用户实际使用后的效果反馈。
     evidence_ids:
     - ev-bc628dbe54808090
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 技术社区帖子有少量评论，但未显示大规模采用或持续使用证据。
+    evidence_ids:
+    - ev-bc628dbe54808090
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
-    evidence_ids: []
+    reason: 数据集免费提供，未披露商业模式；可能靠 Knowhere 工具或后续服务收费，但无证据。
+    evidence_ids:
+    - ev-bc628dbe54808090
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+    reason: 声称可追溯原文，但未提供独立验证或使用案例；数据质量待核验。
+    evidence_ids:
+    - ev-bc628dbe54808090
+  next_validation: 关注数据集的下载量和社区反馈，以及是否出现基于该数据的商业服务或工具。
   market: ''

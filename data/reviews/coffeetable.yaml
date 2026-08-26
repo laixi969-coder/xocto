@@ -1,26 +1,55 @@
 - id: req-initial-coffeetable-2026-08-26
   project_slug: coffeetable
   level: initial
-  reviewed_at: '2026-08-25T22:45:07Z'
+  reviewed_at: '2026-08-26T04:53:28Z'
   verdict: needs_validation
   signal_level: 待验证
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“A new UX to discover books inside Claude”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 目前公开材料仅说明这是一个在 Claude 内发现书籍的新 UX，未提供具体用户场景、推荐机制或交付物，缺少对旧流程（如书店浏览、书评网站）的替代证据。
     evidence_ids:
     - ev-20ad7f5f9d19e27d
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    reason: 仅有少量社区讨论（15 分、10 评论），未显示持续采用或用户口碑，无法判断是否卡在感知或场景环节。
+    evidence_ids:
+    - ev-20ad7f5f9d19e27d
+  - gate: model
+    status: insufficient
+    reason: 未披露任何商业模式或付费路径，无法判断钱可能来自 to C、to B 还是 to VC。
+    evidence_ids:
+    - ev-20ad7f5f9d19e27d
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。产品是否贴近读者找书的第一性目标、推荐能否确定性交付均无公开证据。
+    evidence_ids:
+    - ev-20ad7f5f9d19e27d
+  next_validation: 关注 Claude 目录中该产品的用户评价和更新，以及是否有独立书店或出版社的采用案例。
+  market: ''
+- id: req-full-coffeetable-2026-08-26
+  project_slug: coffeetable
+  level: full
+  reviewed_at: '2026-08-26T05:17:21Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为在Claude内发现书籍的新UX，但未提供具体用户场景、推荐机制或交付物，缺少对旧流程的替代证据。
+    evidence_ids:
+    - ev-20ad7f5f9d19e27d
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  next_validation: 关注Claude目录中该产品的用户评价和更新，以及是否有独立书店或出版社的采用案例。
   market: ''

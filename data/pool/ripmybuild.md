@@ -21,7 +21,7 @@ canonical_url: https://ripmybuild.com
 summary: A cemetery for failed side projects and what founders build next
 first_seen: '2026-08-25T14:08:12Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

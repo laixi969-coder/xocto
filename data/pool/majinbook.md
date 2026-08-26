@@ -21,7 +21,7 @@ canonical_url: https://github.com/mazieres/MajinBook
 summary: MajinBook = Anna's Archive and Goodreads
 first_seen: '2026-08-25T09:16:36Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -7,20 +7,49 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Never get blindsided by Claude's usage limits again”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 公开材料仅称其能避免 Claude 使用限制，未说明具体机制、输入输出或交付物，缺少对旧工作流（如手动管理使用量）的替代证据。
     evidence_ids:
     - ev-b74afc018559e5df
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    reason: 无采用数据或社区讨论，无法判断用户是否认可。
+    evidence_ids:
+    - ev-b74afc018559e5df
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，无法判断付费方和付费触发点。
+    evidence_ids:
+    - ev-b74afc018559e5df
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值证据不足。产品是否贴近用户避免限制的第一性目标、能否确定性交付均无公开证据。
+    evidence_ids:
+    - ev-b74afc018559e5df
+  next_validation: 关注产品发布页上的用户评论和评分，以及是否有开发者公开分享使用体验。
+  market: ''
+- id: req-full-diet-claude-2026-08-26
+  project_slug: diet-claude
+  level: full
+  reviewed_at: '2026-08-26T05:17:41Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称其能避免Claude使用限制，未说明具体机制、输入输出或交付物，缺少对旧工作流的替代证据。
+    evidence_ids:
+    - ev-b74afc018559e5df
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  next_validation: 关注产品发布页上的用户评论和评分，以及是否有开发者公开分享使用体验。
   market: ''

@@ -21,7 +21,7 @@ canonical_url: https://github.com/yeet-src/pktscope
 summary: Wireshark in a TUI
 first_seen: '2026-08-25T18:27:53Z'
 last_seen: '2026-08-26T04:53:28Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

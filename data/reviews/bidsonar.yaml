@@ -79,3 +79,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-full-bidsonar-2026-08-26
+  project_slug: bidsonar
+  level: full
+  reviewed_at: '2026-08-26T05:17:02Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述 MCP 服务器功能，未提供目标用户痛点、发生频率或损失规模的直接证据，价值主张缺乏买方视角。
+    evidence_ids:
+    - ev-32f0a9ac6d7e6631
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''

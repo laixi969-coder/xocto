@@ -7,20 +7,48 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Block-diffusion zero-shot text-to-speech by Resemble AI”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 仅提供模型演示，未说明具体应用场景或用户工作流，价值主张不明确。
     evidence_ids:
     - ev-aa2bdf96779c758e
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    reason: 缺乏社区讨论或采用数据，无法判断市场共识。
+    evidence_ids:
+    - ev-aa2bdf96779c758e
+  - gate: model
+    status: insufficient
+    reason: 开源模型，商业模式未披露，可能依赖云服务或支持，但未明确。
+    evidence_ids:
+    - ev-aa2bdf96779c758e
+  - gate: truth
+    status: insufficient
+    reason: 未提供模型性能或实际使用效果数据，无法验证生成质量。
+    evidence_ids:
+    - ev-aa2bdf96779c758e
+  next_validation: 关注模型托管页面是否发布技术报告、示例音频和社区使用案例，以验证模型性能和实际应用。
+  market: ''
+- id: req-full-chatterbox-flash-tts-2026-08-26
+  project_slug: chatterbox-flash-tts
+  level: full
+  reviewed_at: '2026-08-26T05:17:02Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明“Chatterbox-Flash TTS 是一个基于块扩散的零样本文本到语音模型，由 Resemble AI 开发。”，尚未充分证明目标用户、不采用代价与问题发生频率。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注模型托管页面是否发布技术报告、示例音频和社区使用案例，以验证模型性能和实际应用。
   market: ''

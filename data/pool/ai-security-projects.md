@@ -21,7 +21,7 @@ canonical_url: https://github.com/taimurijlal/AI-Security-Projects
 summary: ''
 first_seen: '2026-08-07T06:25:48Z'
 last_seen: '2026-08-25T22:45:11Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

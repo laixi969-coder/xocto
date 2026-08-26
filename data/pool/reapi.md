@@ -59,7 +59,7 @@ summary: "I do not think “which model is better?” is answerable from the H3 
   \ are linked so the prices can be checked independently."
 first_seen: '2026-08-23T00:10:45Z'
 last_seen: '2026-08-25T22:45:06Z'
-status: pending_filter
+status: market_context
 sources:
 - v2ex
 sightings:

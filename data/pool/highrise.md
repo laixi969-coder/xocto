@@ -21,7 +21,7 @@ canonical_url: https://highrise.lol
 summary: one-tap tower stacker, every height is a real building
 first_seen: '2026-08-25T23:21:50Z'
 last_seen: '2026-08-26T04:53:28Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

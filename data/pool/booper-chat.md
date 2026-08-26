@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/ProCreations/booper-chat
 summary: Chat with a 34M-parameter transformer trained on Discord
 first_seen: '2026-08-25T04:59:41Z'
 last_seen: '2026-08-25T22:45:32Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

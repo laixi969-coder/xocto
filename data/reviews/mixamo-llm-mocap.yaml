@@ -132,3 +132,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-mixamo-llm-mocap-2026-08-26
+  project_slug: mixamo-llm-mocap
+  level: full
+  reviewed_at: '2026-08-26T05:19:08Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“mixamo-llm-mocap 是一个开源工具，可将任何视频转换为 Mixamo 骨骼动画。它使用 GVHMR 估计器、规范驱动的重定向，并通过
+      MCP 在 Blender 中应”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    evidence_ids:
+    - ev-3b5b78ccccca78cd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

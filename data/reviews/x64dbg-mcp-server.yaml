@@ -130,3 +130,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-x64dbg-mcp-server-2026-08-26
+  project_slug: x64dbg-mcp-server
+  level: full
+  reviewed_at: '2026-08-26T05:20:21Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为调试器控制插件，未提供目标用户痛点、发生频率或损失规模的直接证据，买方价值未证实。
+    evidence_ids:
+    - ev-42f29e99008cdd91
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署及替代旧流程。
+  market: ''

@@ -22,7 +22,7 @@ summary: 'Forward deployed engineering guide for production AI systems: value, a
   deployment, and operations.'
 first_seen: '2026-08-07T19:58:20Z'
 last_seen: '2026-08-25T22:45:11Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

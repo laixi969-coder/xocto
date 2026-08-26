@@ -21,7 +21,7 @@ canonical_url: https://github.com/hodstack/hodstack
 summary: Hodstack makes coding agents more productive.
 first_seen: '2026-08-09T12:09:03Z'
 last_seen: '2026-08-26T04:53:32Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

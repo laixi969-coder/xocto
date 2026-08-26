@@ -3,24 +3,54 @@
   level: initial
   reviewed_at: '2026-08-25T22:45:07Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Manage your CMS content from Claude, Cursor, and Codex”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: CMS 管理与 AI 编码工具集成有明确价值，减少上下文切换，已有产品页面说明功能。
     evidence_ids:
     - ev-a0e328f35ebfe111
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 产品发布页面无评分或评论，缺乏用户反馈，共识未形成。
+    evidence_ids:
+    - ev-a0e328f35ebfe111
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露定价或商业模式，需观察是否按席位或 API 收费。
+    evidence_ids:
+    - ev-a0e328f35ebfe111
+  - gate: truth
+    status: supported
+    reason: 产品已上线，功能描述具体，但需验证实际集成效果。
+    evidence_ids:
+    - ev-a0e328f35ebfe111
+  next_validation: 关注产品发布页面是否出现用户评论，以及官网是否提供定价和集成文档。
+  market: ''
+- id: req-full-marble-mcp-2026-08-26
+  project_slug: marble-mcp
+  level: full
+  reviewed_at: '2026-08-26T05:19:08Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: CMS 管理与 AI 编码工具集成有明确价值，减少上下文切换，已有产品页面说明功能。
+    evidence_ids:
+    - ev-a0e328f35ebfe111
+  - gate: consensus
+    status: insufficient
+    reason: 产品发布页面无评分或评论，缺乏用户反馈，共识未形成。
+    evidence_ids:
+    - ev-a0e328f35ebfe111
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  next_validation: 关注产品发布页面是否出现用户评论，以及官网是否提供定价和集成文档。
   market: ''

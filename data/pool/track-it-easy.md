@@ -21,7 +21,7 @@ canonical_url: https://trackiteasy.app
 summary: Log food and count calories in one simple chat
 first_seen: '2026-08-24T14:17:27Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

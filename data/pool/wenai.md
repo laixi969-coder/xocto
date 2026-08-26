@@ -22,7 +22,7 @@ summary: An intimate AI companion skill for OpenClaw — fall in love with your 
   V6 XL powered visual workflow.
 first_seen: '2026-08-25T02:59:59Z'
 last_seen: '2026-08-26T04:53:32Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

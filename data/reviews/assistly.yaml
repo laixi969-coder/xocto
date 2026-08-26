@@ -7,20 +7,48 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Real-time AI meeting overlay with no bots, 100% private”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 产品描述仅提及实时 AI 会议覆盖层和隐私，未说明具体功能、用户工作流或交付物，价值主张不明确。
     evidence_ids:
     - ev-ad7f5dbb831545a6
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    reason: 缺乏用户采用、社区讨论或评价数据，无法判断市场共识。
+    evidence_ids:
+    - ev-ad7f5dbb831545a6
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式、定价或付费方，无法判断收入来源。
+    evidence_ids:
+    - ev-ad7f5dbb831545a6
+  - gate: truth
+    status: insufficient
+    reason: 未提供技术实现细节或实际使用证据，无法验证承诺的隐私和实时性。
+    evidence_ids:
+    - ev-ad7f5dbb831545a6
+  next_validation: 关注 Assistly 官网或产品页面是否发布定价、功能列表和用户案例，以验证价值主张和商业模式。
+  market: ''
+- id: req-full-assistly-2026-08-26
+  project_slug: assistly
+  level: full
+  reviewed_at: '2026-08-26T05:16:45Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明“Assistly 是一个实时 AI 会议覆盖层，无需机器人参与，强调 100% 隐私。”，尚未充分证明目标用户、不采用代价与问题发生频率。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。
+  next_validation: 关注Assistly官网或产品页面是否发布定价、功能列表和用户案例，以验证价值主张和商业模式。
   market: ''

@@ -21,7 +21,7 @@ canonical_url: https://devtools.fit
 summary: Dev tools in one static site, no framework, no server
 first_seen: '2026-08-24T17:20:40Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

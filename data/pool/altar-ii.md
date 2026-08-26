@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/electronic-materials-office-alta
 summary: The mechanical keyboard Apple never made
 first_seen: '2026-08-24T12:11:14Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

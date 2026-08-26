@@ -3,26 +3,54 @@
   level: initial
   reviewed_at: '2026-08-25T22:45:11Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Free interactive course on world models in AI. Nine visual chapters
-      on prediction, latent ”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 提供九个可视化章节的交互式课程，覆盖世界模型核心概念，对 AI 学习者有明确学习价值。
     evidence_ids:
     - ev-e182ad0eb11bf923
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 67 个收藏、39 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区 67 星，反馈有限，缺乏用户完成课程或推荐证据。
     evidence_ids:
     - ev-e182ad0eb11bf923
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 课程免费，未披露商业模式，付费路径不明。
+    evidence_ids:
+    - ev-e182ad0eb11bf923
+  - gate: truth
+    status: insufficient
+    reason: 未提供课程完成率或学习效果数据，交付质量待验证。
+    evidence_ids:
+    - ev-e182ad0eb11bf923
+  next_validation: 关注 worldmodels101.com 是否发布用户反馈、完成数据或付费课程，以及开源仓库的讨论和 star 增长。
+  market: ''
+- id: req-full-worldmodels101-2026-08-26
+  project_slug: worldmodels101
+  level: full
+  reviewed_at: '2026-08-26T05:20:21Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 提供九个可视化章节的交互式课程，覆盖世界模型核心概念，对 AI 学习者有明确学习价值。
+    evidence_ids:
+    - ev-e182ad0eb11bf923
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区 67 星，反馈有限，缺乏用户完成课程或推荐证据。
+    evidence_ids:
+    - ev-e182ad0eb11bf923
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注 worldmodels101.com 是否发布用户反馈、完成数据或付费课程，以及开源仓库的讨论和 star 增长。
   market: ''

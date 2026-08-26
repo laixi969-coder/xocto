@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/whoisthegoat-lol
 summary: Bid $ for the GOAT (trash only)
 first_seen: '2026-08-24T18:03:23Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -3,25 +3,54 @@
   level: initial
   reviewed_at: '2026-08-26T04:53:32Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Read-only mirror of The-OpenROAD-Project/OpenROAD-flow-scripts (release
-      tags only). No cha”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 开源芯片设计流程有明确价值，OpenROAD 项目已存在并用于实际设计，脚本仓库提供自动化流程。
     evidence_ids:
     - ev-1c093280b94e0a51
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 开源社区星数少，但项目是 OpenROAD 的镜像，社区基础存在，但采用证据不足。
+    evidence_ids:
+    - ev-1c093280b94e0a51
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，开源项目可能无直接收入，需探索支持服务或企业定制。
+    evidence_ids:
+    - ev-1c093280b94e0a51
+  - gate: truth
+    status: supported
+    reason: 项目是 OpenROAD 的官方镜像，流程可验证，但需确认脚本的完整性和可用性。
+    evidence_ids:
+    - ev-1c093280b94e0a51
+  next_validation: 关注 OpenROAD 项目官网和开源社区讨论，看是否有实际芯片设计案例或用户反馈。
+  market: ''
+- id: req-full-openroad-flow-scripts-2026-08-26
+  project_slug: openroad-flow-scripts
+  level: full
+  reviewed_at: '2026-08-26T05:19:26Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 开源芯片设计流程有明确价值，OpenROAD 项目已存在并用于实际设计，脚本仓库提供自动化流程。
+    evidence_ids:
+    - ev-1c093280b94e0a51
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星数少，但项目是 OpenROAD 的镜像，社区基础存在，但采用证据不足。
+    evidence_ids:
+    - ev-1c093280b94e0a51
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注 OpenROAD 项目官网和开源社区讨论，看是否有实际芯片设计案例或用户反馈。
   market: ''

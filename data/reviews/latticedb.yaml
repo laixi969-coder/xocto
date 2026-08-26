@@ -1,26 +1,56 @@
 - id: req-initial-latticedb-2026-08-26
   project_slug: latticedb
   level: initial
-  reviewed_at: '2026-08-25T22:45:07Z'
+  reviewed_at: '2026-08-26T04:53:28Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
+    status: supported
+    reason: 定位清晰：嵌入式图数据库，解决图数据存储的轻量需求，价值主张明确；但缺少实际使用案例。
+    evidence_ids:
+    - ev-35889ddd16cfd6ea
+  - gate: consensus
+    status: supported
+    reason: 社区讨论 128 分 36 评论，显示关注度高，但未证明持续采用。
+    evidence_ids:
+    - ev-35889ddd16cfd6ea
+  - gate: model
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Like SQLite but for graph databases”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 开源项目，未披露商业模式；可能靠云托管或支持服务收费，但无证据。
+    evidence_ids:
+    - ev-35889ddd16cfd6ea
+  - gate: truth
+    status: insufficient
+    reason: 未提供性能基准或实际应用案例，承诺能否实现待核验。
+    evidence_ids:
+    - ev-35889ddd16cfd6ea
+  next_validation: 关注开源仓库的 star 增长、issue 讨论和是否出现生产环境使用案例。
+  market: ''
+- id: req-full-latticedb-2026-08-26
+  project_slug: latticedb
+  level: full
+  reviewed_at: '2026-08-26T05:19:08Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 定位清晰：嵌入式图数据库，解决图数据存储的轻量需求，价值主张明确；但缺少实际使用案例。
     evidence_ids:
     - ev-35889ddd16cfd6ea
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
-    evidence_ids: []
+    reason: 社区讨论 128 分 36 评论，显示关注度高，但未证明持续采用。
+    evidence_ids:
+    - ev-35889ddd16cfd6ea
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  next_validation: 关注开源仓库的 star 增长、issue 讨论和是否出现生产环境使用案例。
   market: ''

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/chatgpt-ad-library
 summary: See every ad running inside ChatGPT
 first_seen: '2026-08-24T15:40:38Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: market_context
 sources:
 - producthunt
 sightings:

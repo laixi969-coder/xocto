@@ -150,3 +150,12 @@
   tier: behavioural
   fact: 'Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2
     98/99)'
+- id: ev-743819f7e86b1d9e
+  project_slug: dsh-anchored-standard
+  url: https://www.bing.com/search?format=rss&q=AI
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-08-26T05:15:16Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI'

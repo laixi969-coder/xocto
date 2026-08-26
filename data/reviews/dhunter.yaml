@@ -3,26 +3,54 @@
   level: initial
   reviewed_at: '2026-08-25T22:45:11Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“AI 驱动的自主渗透测试平台：输入目标，AI agent 自动完成侦察→规划→主动测试→漏洞验证→报告生成。黑板引擎+多 worker+SRC
-      验收门禁。仅供学术与安全研究使用。”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 公开材料显示其能自动完成渗透测试的多个步骤，包括侦察、规划、测试、验证和报告，替代了传统人工渗透测试的部分工作，价值主张明确。
     evidence_ids:
-    - ev-3c70061d9b2600a1
+    - ev-90039211a4cab613
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；公开代码仓库记录为 45 个收藏、5 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源仓库有 45 星、5 fork，有一定关注，但未显示持续采用或实际使用案例，共识证据不足。
     evidence_ids:
-    - ev-3c70061d9b2600a1
+    - ev-90039211a4cab613
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露商业模式，开源项目可能无直接收入，需观察是否有云服务或企业版。
+    evidence_ids:
+    - ev-90039211a4cab613
+  - gate: truth
+    status: insufficient
+    reason: 产品是否贴近渗透测试的第一性目标、自主测试能否确定性交付均无公开证据，且存在安全与合规风险。
+    evidence_ids:
+    - ev-90039211a4cab613
+  next_validation: 关注开源仓库的 star 增长、issue 讨论和是否有安全团队采用案例。
+  market: ''
+- id: req-full-dhunter-2026-08-26
+  project_slug: dhunter
+  level: full
+  reviewed_at: '2026-08-26T05:17:41Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 公开材料显示其能自动完成渗透测试的多个步骤，包括侦察、规划、测试、验证和报告，替代了传统人工渗透测试的部分工作，价值主张明确。
+    evidence_ids:
+    - ev-90039211a4cab613
+  - gate: consensus
+    status: insufficient
+    reason: 仓库有45星、5复刻，关注度有限，且无实际采用案例或持续使用证据。
+    evidence_ids:
+    - ev-90039211a4cab613
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注开源仓库的star增长、issue讨论和是否有安全团队采用案例。
   market: ''

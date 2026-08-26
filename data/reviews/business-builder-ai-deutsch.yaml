@@ -136,3 +136,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-business-builder-ai-deutsch-2026-08-26
+  project_slug: business-builder-ai-deutsch
+  level: full
+  reviewed_at: '2026-08-26T05:17:02Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述自动生成落地页等功能，未提供目标用户痛点、发生频率或损失规模的直接证据，价值主张缺乏买方视角。
+    evidence_ids:
+    - ev-c487b26fa925504a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

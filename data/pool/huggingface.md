@@ -2,20 +2,39 @@
 slug: huggingface
 name: Huggingface
 builder: cs1707
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 研究者或工程师在寻找实验方向或做技术选型时，可下载这份包含 9817 篇 2024 年四大 AI 顶会论文的数据集；每条记录含研究领域、任务、方法、基线等 24 个字段，并保留原文片段和章节位置，可交给
+  Research Agent 梳理技术路线、找出研究空白，也能回到原文核对。
+inspiration: 趋势是 AI 论文从「读摘要」变成「可筛选、可比较、可追溯的结构化数据」。切入点是科研工具链，把论文解析成带章节路径的数据库，再卖给需要做技术选型或找 research gap
+  的团队，按数据集或 API 收费。
+summary_en: Researchers or engineers looking for experimental directions or tech selection can download
+  this dataset containing 9817 papers from four top AI conferences in 2024; each record includes 24 fields
+  like research area, task, method, baseline, and retains original text snippets with section positions,
+  which can be fed to a Research Agent to map technical routes, find research gaps, and verify against
+  the original papers.
+inspiration_en: The trend is AI papers moving from 'reading abstracts' to 'filterable, comparable, traceable
+  structured data'. The entry point is the research toolchain, turning papers into a database with section
+  paths, then selling to teams needing tech selection or research gap identification, charging per dataset
+  or API.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: open_source
+industries:
+- 科研
+- 人工智能
+industries_en:
+- Research
+- Artificial Intelligence
+jobs:
+- 研究员
+- 工程师
+jobs_en:
+- Researcher
+- Engineer
+regions:
+- 全球
+regions_en:
+- Global
+open_source: true
 url: https://huggingface.co/datasets/JensCS/top-ml-conference-papers-2024
 canonical_url: https://huggingface.co/datasets/JensCS/top-ml-conference-papers-2024
 summary: "上次我做了一份 2023 年的 AI 论文数据集，有 7000 多篇，没想到还挺受欢迎的\U0001F449https://www.v2ex.com/t/1229793?p=1#reply9\
@@ -42,7 +61,7 @@ summary: "上次我做了一份 2023 年的 AI 论文数据集，有 7000 多篇
   \n\r\n有需要的老哥可以先关注一下，谢谢。"
 first_seen: '2026-08-25T11:56:36Z'
 last_seen: '2026-08-25T22:45:06Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 sightings:

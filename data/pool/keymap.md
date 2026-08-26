@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/keymap
 summary: Every shortcut, one ⌘⌘ away.
 first_seen: '2026-08-25T02:20:27Z'
 last_seen: '2026-08-25T22:45:07Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

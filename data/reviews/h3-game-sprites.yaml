@@ -138,3 +138,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-h3-game-sprites-2026-08-26
+  project_slug: h3-game-sprites
+  level: full
+  reviewed_at: '2026-08-26T05:18:30Z'
+  verdict: needs_validation
+  signal_level: 待验证
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为将 AI 视频转为精灵表，未展示目标用户痛点、发生频率或损失规模，价值证据不足。
+    evidence_ids:
+    - ev-4782395a012a91ca
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 与 discussion，确认是否有开发者描述实际部署场景与替代的旧流程。
+  market: ''

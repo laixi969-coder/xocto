@@ -3,24 +3,54 @@
   level: initial
   reviewed_at: '2026-08-25T22:45:07Z'
   verdict: needs_validation
-  signal_level: 待验证
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“Spanish stories built around the words you're learning”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    status: supported
+    reason: 产品针对语言学习中的词汇记忆问题，提供个性化故事，价值主张明确。
     evidence_ids:
     - ev-51ea035c6cb06584
   - gate: consensus
     status: insufficient
-    reason: 未进入共识闸门：价值证据不足；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
-    evidence_ids: []
+    reason: 社区讨论有 7 条评论，但缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-51ea035c6cb06584
   - gate: model
     status: insufficient
-    reason: 未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。
+    reason: 未披露定价，可能订阅制，但无公开信息。
+    evidence_ids:
+    - ev-51ea035c6cb06584
+  - gate: truth
+    status: insufficient
+    reason: 产品描述为生成故事，但缺少实际效果验证或用户反馈。
+    evidence_ids:
+    - ev-51ea035c6cb06584
+  next_validation: 关注官网是否提供定价和示例故事，以及用户评价。
+  market: ''
+- id: req-full-readplusone-2026-08-26
+  project_slug: readplusone
+  level: full
+  reviewed_at: '2026-08-26T05:19:43Z'
+  verdict: needs_validation
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品针对语言学习中的词汇记忆问题，提供个性化故事，价值主张明确。
+    evidence_ids:
+    - ev-51ea035c6cb06584
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 7 条评论，但缺乏用户采用或付费证据，共识未形成。
+    evidence_ids:
+    - ev-51ea035c6cb06584
+  - gate: model
+    status: insufficient
+    reason: 共识闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。
+    reason: 共识闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  next_validation: 关注官网是否提供定价和示例故事，以及用户评价。
   market: ''
