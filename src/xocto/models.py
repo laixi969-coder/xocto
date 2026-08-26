@@ -409,6 +409,65 @@ class ReqGateReview:
         )
 
 
+REQ_SIGNAL_CLEAR = "需求信号明确"
+REQ_SIGNAL_INITIAL = "初步成立"
+REQ_SIGNAL_DOUBT = "需求存疑"
+REQ_SIGNALS = (REQ_SIGNAL_CLEAR, REQ_SIGNAL_INITIAL, REQ_SIGNAL_DOUBT)
+REQ_PUBLIC_VERDICT = {
+    REQ_TRUE_DEMAND: "真需求",
+    REQ_PSEUDO_DEMAND: "伪需求",
+    REQ_NEEDS_VALIDATION: "需求不成立",
+}
+
+
+def req_conclusion(gates: tuple[ReqGateReview, ...] | list[ReqGateReview]) -> tuple[str, str]:
+    """从闸门状态推出需求判定和证据档。结构判断与证据成熟度分开。
+
+    真需求不要求四关全过。价值成立即可判真需求；说不清需求和痛点才是
+    需求不成立。说不清谁付钱不是需求不成立。公开层不得写成「待验证」。
+    """
+    by_gate = {gate.gate: gate for gate in gates}
+    value = by_gate.get(REQ_GATE_VALUE)
+    consensus = by_gate.get(REQ_GATE_CONSENSUS)
+    model = by_gate.get(REQ_GATE_MODEL)
+    value_status = value.status if value else REQ_GATE_INSUFFICIENT
+    if value_status == REQ_GATE_CHALLENGED:
+        return REQ_PSEUDO_DEMAND, REQ_SIGNAL_DOUBT
+    if value_status == REQ_GATE_SUPPORTED:
+        paid_or_adopted = any(
+            gate is not None and gate.status == REQ_GATE_SUPPORTED
+            for gate in (consensus, model)
+        )
+        return REQ_TRUE_DEMAND, REQ_SIGNAL_CLEAR if paid_or_adopted else REQ_SIGNAL_INITIAL
+    return REQ_NEEDS_VALIDATION, REQ_SIGNAL_DOUBT
+
+
+def scrub_pending_phrase(text: str) -> str:
+    """公开文案禁止「待验证」：证据缺口写成尚未核验，不当成延期结论。"""
+    if not text:
+        return text
+    return (
+        text.replace("待验证点", "证据缺口")
+        .replace("“待验证”", "“需求不成立”")
+        .replace("待验证", "尚未核验")
+        .replace("Needs validation", "Not yet verified")
+    )
+
+
+def public_req_labels(
+    verdict: str,
+    signal: str,
+    gates: tuple[ReqGateReview, ...] | list[ReqGateReview] | None = None,
+) -> tuple[str, str]:
+    """对外标签。有闸门时按结构重算，永远不输出「待验证」。"""
+    if gates:
+        verdict, signal = req_conclusion(gates)
+    verdict_label = REQ_PUBLIC_VERDICT.get(verdict, REQ_PUBLIC_VERDICT[REQ_NEEDS_VALIDATION])
+    if signal not in REQ_SIGNALS or signal == "待验证":
+        signal = REQ_SIGNAL_DOUBT if verdict != REQ_TRUE_DEMAND else REQ_SIGNAL_INITIAL
+    return verdict_label, signal
+
+
 @dataclass(frozen=True, slots=True)
 class ReqReview:
     """一次完整或初步的 `/req` 判断版本。"""
@@ -458,7 +517,7 @@ class ReqReview:
             level=str(data["level"]),
             reviewed_at=str(data["reviewed_at"]),
             verdict=str(data["verdict"]),
-            signal_level=str(data.get("signal_level") or "待验证"),
+            signal_level=str(data.get("signal_level") or REQ_SIGNAL_DOUBT),
             gates=tuple(ReqGateReview.from_dict(item) for item in (data.get("gates") or [])),
             next_validation=str(data.get("next_validation") or ""),
             market=str(data.get("market") or ""),

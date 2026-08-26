@@ -20,9 +20,7 @@ from .models import (
     CATEGORIES,
     REQ_GATE_STATUSES,
     REQ_GATES,
-    REQ_NEEDS_VALIDATION,
-    REQ_PSEUDO_DEMAND,
-    REQ_TRUE_DEMAND,
+    REQ_SIGNALS,
     REQ_VERDICTS,
     PROJECT_TYPES,
     ReqGateReview,
@@ -34,6 +32,7 @@ from .models import (
     STATUS_WATCHING,
     Product,
     local_day,
+    req_conclusion,
     today,
 )
 from .store import Store
@@ -198,8 +197,9 @@ def _prompt(
 
 每个候选必须恰好出现一次。decision 只能是 rejected、market_context、queued、watching：
 - rejected：不值得公开收录；其余字段可以为空。
-- market_context：已经成为大众默认入口或行业背景，不是创业机会；保留在内部观察，
-  只在它改变市场结构时写进日报背景，绝不做产品推荐；其余字段可以为空。
+- market_context：不是独立产品的行业变化（模型发布、价格战、监管、平台政策）；
+  只在它改变市场结构时写进日报背景，不做真需求判定书；其余字段可以为空。
+  豆包、Kimi、DeepSeek 这类已跑出来的独立产品不得标为 market_context，必须 queued 或 watching 并给出真需求判定。
 - queued：值得进一步研究；watching：有信号但证据不足。
 queued 和 watching 必须有 category（只能逐字使用下列之一：{categories}）、
 project_type（new_application、open_source、ai_transformation 之一），以及 industries、jobs、regions
@@ -213,22 +213,24 @@ project_type（new_application、open_source、ai_transformation 之一），以
 下面的 REQ 公开证据模式。
 - 每道闸门 status 只能是 supported、insufficient、challenged。没有证据就写 insufficient；
   不得因为材料不全而猜测或判为 challenged。
-- verdict 只能是 true_demand、pseudo_demand、needs_validation。新项目的默认结论应是
-  needs_validation；pseudo_demand 只能用于价值、具体场景或付费逻辑已有直接反证的情况。
+- verdict 只能是 true_demand、pseudo_demand、needs_validation。每个进入机会流的产品都必须判断，禁止用“待验证”当结论。
+  价值结构成立（能说清它解决什么需求、什么痛点，且痛点刚性、交付可确定）即 true_demand，不要求四关全过，也不要求已有定价或已确认买方。
+  看着挺好但没有也行、自嗨拼凑或只能靠融资续命 → pseudo_demand。
+  连需求和痛点都写不出来 → needs_validation，表示需求不成立。禁止用“说不清买方”代替痛点判断。
 - gates 必须恰有四项，顺序固定为 value、consensus、model、truth；每项 reason 为 12–120 个中文字符，
   evidence_ids 只能引用候选 evidence 中给出的 id。reason 不能只写“描述模糊”“价值主张不明确”或
   “缺乏采用证据”：必须先写目前公开材料已经证明的具体产品事实，再指出缺少哪类用户、工作流、采用、
-  付费或交付证据。next_validation 必须写 xOcto 可继续追踪的公开来源与会改变判断的事实，不得把验证工作交给读者。
-- signal_level 只能是“需求信号明确”“初步成立”“待验证”“需求存疑”。
+  付费或交付证据。价值关成立后，后面三关必须各自判断。next_validation 必须写 xOcto 可继续追踪的公开来源与会改变判断的事实，不得把验证工作交给读者。
+- signal_level 只能是“需求信号明确”“初步成立”“需求存疑”。禁止“待验证”。真需求但付费未核验用“初步成立”。
 
 <req_public_evidence_protocol>
 {req_framework}
 </req_public_evidence_protocol>
 
 本刊要找的是「AI + 一个具体行业 / 人群 / 旧流程」刚刚开始成立的机会，不是 AI 工具总榜。
-下列情况一律 market_context，不得因为规模、热度或品牌而进机会库：大众已知的通用对话助手、
-搜索入口、模型厂商的主产品、以及没有新切入点的头部产品。它们最多用一句事实说明
-哪个市场结构被改变。不要把“不要和它正面竞争”伪装成创业灵感。
+下列情况一律 market_context：不是独立产品的模型发布、价格战、监管或平台政策。
+大众已知的通用对话助手、搜索入口、模型厂商主产品只要是可核验产品，就必须进机会流并做真需求判断。
+切入写清窗口是否已关、不该从哪打、还可以从哪切。不要把“不要和它正面竞争”当成把它藏进市场背景的理由。
 在 queued / watching 之间优先垂直行业、明确旧工作流、非模型壁垒、结果收费、
 早期付费或异常采用信号；尽量覆盖不同领域，不要让编码、通用助手或 agent 基础设施垄断当天名单。
 
@@ -256,7 +258,7 @@ priority_review 为 true 的候选是跨通道验证的重大项目：不得 rej
 
 JSON 结构严格如下：
 {
-  "products": [{"slug":"...","decision":"rejected|market_context|queued|watching","category":"...","project_type":"new_application|open_source|ai_transformation","industries":["..."],"industries_en":["..."],"jobs":["..."],"jobs_en":["..."],"regions":["..."],"regions_en":["..."],"open_source":false,"summary_zh":"...","inspiration":"...","summary_en":"...","inspiration_en":"...","req_initial":{"verdict":"true_demand|pseudo_demand|needs_validation","signal_level":"需求信号明确|初步成立|待验证|需求存疑","gates":[{"gate":"value|consensus|model|truth","status":"supported|insufficient|challenged","reason":"...","evidence_ids":["ev-..."]}],"next_validation":"..."}}],
+  "products": [{"slug":"...","decision":"rejected|market_context|queued|watching","category":"...","project_type":"new_application|open_source|ai_transformation","industries":["..."],"industries_en":["..."],"jobs":["..."],"jobs_en":["..."],"regions":["..."],"regions_en":["..."],"open_source":false,"summary_zh":"...","inspiration":"...","summary_en":"...","inspiration_en":"...","req_initial":{"verdict":"true_demand|pseudo_demand|needs_validation","signal_level":"需求信号明确|初步成立|需求存疑","gates":[{"gate":"value|consensus|model|truth","status":"supported|insufficient|challenged","reason":"...","evidence_ids":["ev-..."]}],"next_validation":"..."}}],
   "report": {
     "hook_zh":"20–40 字的中文钩子", "highlights_zh":["..."], "body_zh":"以 ## 开头的中文 Markdown 正文",
     "hook_en":"English hook", "highlights_en":["..."], "body_en":"English Markdown body beginning with ##"
@@ -524,7 +526,7 @@ def _req_reviews(
         if verdict not in REQ_VERDICTS:
             raise BriefError(f"{slug} 的 `/req` 结论不合法")
         signal_level = _text(raw.get("signal_level"), f"{slug}.req_initial.signal_level")
-        if signal_level not in {"需求信号明确", "初步成立", "待验证", "需求存疑"}:
+        if signal_level not in {*REQ_SIGNALS, "待验证"}:
             raise BriefError(f"{slug} 的 `/req` 信号等级不合法")
         raw_gates = raw.get("gates")
         if not isinstance(raw_gates, list) or len(raw_gates) != len(REQ_GATES):
@@ -553,6 +555,7 @@ def _req_reviews(
                 raise BriefError(f"{slug}.{gate} 引用了不存在的证据：{', '.join(sorted(unknown_evidence))}")
             gates.append(ReqGateReview(gate, status, reason, tuple(evidence_ids)))
         next_validation = _text(raw.get("next_validation"), f"{slug}.req_initial.next_validation")
+        verdict, signal_level = req_conclusion(gates)
         reviews[slug] = ReqReview(
             id=f"req-initial-{slug}-{day.isoformat()}",
             project_slug=slug,
@@ -625,7 +628,7 @@ def _report_prompt(
 输出仅为合法 JSON object，且只能有 report：
 {{"report":{{"hook_zh":"20–40 字中文钩子","highlights_zh":["1–4 条"],"body_zh":"以 ## 开头的中文 Markdown","hook_en":"English hook","highlights_en":["1–4 items"],"body_en":"English Markdown beginning with ##"}}}}
 
-日报应归纳当天出现的机会与待验证点，不得把产品目录改写成热度榜。必须先给一条正向方向判断，
+日报应归纳当天出现的机会与真需求结论，不得把产品目录改写成热度榜。必须先给一条正向方向判断，
 禁止以「今天没有值得展开的」或同义句作为开头或结论。必须各用独立 `### 产品名`
 小标题介绍重点项目。以下重大项目必须同时在中英文正文中点名：{priority_names}。"""
     return [

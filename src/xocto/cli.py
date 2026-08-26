@@ -190,8 +190,8 @@ def cmd_rebuild(args: argparse.Namespace) -> int:
 
 
 def cmd_status(args: argparse.Namespace) -> int:
-    # 与建站用同一发布门槛；否则历史里的成熟通用助手会被误报成“站上产品”。
-    from .site import _is_publishable, _is_settled_general_assistant
+    # 与建站用同一发布门槛，避免把未写完的半成品算进公开库存。
+    from .site import _is_publishable
 
     store = Store()
     store.ensure_dirs()
@@ -222,7 +222,6 @@ def cmd_status(args: argparse.Namespace) -> int:
         1 for p in products
         if (
             p.status not in {"rejected", STATUS_MARKET_CONTEXT}
-            and not _is_settled_general_assistant(p)
             and (not p.summary_zh.strip() or not p.inspiration.strip())
         )
     )

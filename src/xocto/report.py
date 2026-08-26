@@ -20,8 +20,13 @@ from dataclasses import dataclass
 import mistune
 
 from .i18n import Locale
+from .models import scrub_pending_phrase
 
-_markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
+_render_markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
+
+
+def _markdown(text: str) -> str:
+    return scrub_pending_phrase(_render_markdown(text) if text else "")
 
 # 报告里指向 data/ 的相对链接在网站上打不开，得指回站内产品页
 _DATA_LINK = re.compile(r"\((?:\.{1,2}/)*(?:data/)?(?:analysis|pool)/([^)\s/]+?)\.md\)")
@@ -245,7 +250,7 @@ def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
                         verdict="",
                         verdict_key="",
                         metas=(),
-                        lead=inline_lead,
+                        lead=scrub_pending_phrase(inline_lead),
                         body_html="",
                         link="",
                         link_label=locale.cta_default,
@@ -275,7 +280,7 @@ def _parse_picks(body: str, locale: Locale) -> tuple[str, tuple[Pick, ...]]:
                 verdict=locale.verdict_label(verdict),
                 verdict_key=verdict_key,
                 metas=metas,
-                lead=lead_text,
+                lead=scrub_pending_phrase(lead_text),
                 body_html=_markdown(body_md) if body_md else "",
                 link=link,
                 link_label=link_label or locale.cta_default,
@@ -295,7 +300,7 @@ def parse_report(md: str, locale: Locale) -> ReportDoc:
     for para in re.split(r"\n\s*\n", _RULE_LINE.sub("", chunks[0])):
         text = _plain(para)
         if text:
-            intro = text
+            intro = scrub_pending_phrase(text)
             break
 
     sections: list[Section] = []

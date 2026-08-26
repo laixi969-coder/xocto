@@ -18,6 +18,8 @@ from xocto.models import (
     EVENT_REQ_CHANGE,
     REQ_GATE_STATUSES,
     REQ_GATES,
+    REQ_NEEDS_VALIDATION,
+    REQ_SIGNALS,
     REQ_VERDICTS,
     STATUS_ANALYZED,
     STATUS_QUEUED,
@@ -27,11 +29,13 @@ from xocto.models import (
     ReqReview,
     local_day,
     now_iso,
+    req_conclusion,
 )
 from xocto.store import Store
 
 
 REQ_BATCH_SIZE = 12
+PROVEN_BACKFILL_LIMIT = 12
 MAX_FULL_REQ_REPAIRS = 2
 MIN_ACTIVE_GATE_REASON = 18
 MIN_BLOCKED_GATE_REASON = 10
@@ -63,14 +67,34 @@ class InitialReqSeedReport:
     reviews: int
 
 
+def _job_description(product: Any) -> str:
+    """产品自己已经讲出的工作，用来写出需求和痛点。"""
+    text = " ".join((product.summary_zh or product.summary or "").split())
+    if not text or text == (product.name or "").strip():
+        return ""
+    if len(text) <= 90:
+        return text
+    sentence_end = next(
+        (match.end() for match in re.finditer(r"[。！？!?\.]", text) if match.end() >= 18),
+        None,
+    )
+    return text[:sentence_end] if sentence_end and sentence_end <= 90 else text[:90].rstrip("，、；;:： ")
+
+
+def _need_pain_clause(product: Any) -> str:
+    job = _job_description(product)
+    if not job:
+        return f"公开材料尚未把“{product.name}”讲成一个具体的用户需求和痛点。"
+    return f"它解决的用户需求和痛点是：“{job}”。"
+
+
 def _baseline_initial_review(product: Any, evidence: list[Any], day: date, reviewed_at: str) -> ReqReview:
     """用“已知什么、尚未证明什么”构造可追溯的最低诚实初判。
 
-    这不是伪装成专家意见的自动评分：没有用户、定价或独立结果证据时明确
-    留在待验证，并把下一次应获取的事实写出来。模型编辑完成后会用相同 ID
-    覆盖此版本。
+    有产品说明时先写出需求和痛点，价值关可以成立；谁付钱放到模式关。
+    只有连痛点都写不出才判需求不成立。公开结论禁止写成「待验证」。
     """
-    description = " ".join((product.summary_zh or product.summary or product.name).split())[:90]
+    job = _job_description(product)
     evidence_ids = (evidence[-1].id,) if evidence else ()
     latest_metrics = product.sightings[-1].metrics if product.sightings else {}
     stars = latest_metrics.get("stars")
@@ -86,29 +110,39 @@ def _baseline_initial_review(product: Any, evidence: list[Any], day: date, revie
         consensus_reason = "已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。"
     else:
         consensus_reason = "未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。"
-    value_reason = (
-        f"现有公开材料将其描述为“{description}”；尚未见目标用户痛点、发生频率或损失规模的直接证据。"
-        if evidence_ids else "尚无可引用的公开材料，目标用户问题、使用频率与损失规模均待核验。"
-    )
+    if job:
+        value_status = "supported"
+        value_reason = f"{_need_pain_clause(product)}付钱的人尚未从公开材料确认，这不等于没有这个需求。"
+        model_reason = "付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。"
+        truth_reason = "交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。"
+        consensus_ids = evidence_ids if stars else ()
+    else:
+        value_status = "insufficient"
+        value_reason = f"{_need_pain_clause(product)}价值关未过：连痛点都还没写清。"
+        consensus_reason = f"未进入共识闸门：价值和痛点尚未写清；{consensus_reason}"
+        model_reason = "未进入模式闸门：需求和痛点尚未写清，付费主体暂不判断。"
+        truth_reason = "未进入求真闸门：需求和痛点尚未写清。"
+        consensus_ids = ()
     gates = (
-        ReqGateReview("value", "insufficient", f"价值闸门未过证据门槛：{value_reason}", evidence_ids),
-        ReqGateReview("consensus", "insufficient", f"未进入共识闸门：价值证据不足；{consensus_reason}", evidence_ids if stars else ()),
-        ReqGateReview("model", "insufficient", "未进入模式闸门：尚未证明买方价值，且未见付费主体、定价或单位经济证据。"),
-        ReqGateReview("truth", "insufficient", "未进入求真闸门：尚缺可复现结果、确定性交付与人工/安全边界的公开证据。"),
+        ReqGateReview("value", value_status, value_reason, evidence_ids),
+        ReqGateReview("consensus", "insufficient", consensus_reason, consensus_ids),
+        ReqGateReview("model", "insufficient", model_reason),
+        ReqGateReview("truth", "insufficient", truth_reason),
     )
     if has_open_source:
         next_validation = "公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。"
     elif has_adoption:
         next_validation = "公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。"
     else:
-        next_validation = "公开补证：查找官方定价、客户案例或部署文档，确认买方是谁、不使用的代价及可确定交付的结果。"
+        next_validation = "公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。"
+    verdict, signal = req_conclusion(gates)
     return ReqReview(
         id=f"req-initial-{product.slug}-{day.isoformat()}",
         project_slug=product.slug,
         level="initial",
         reviewed_at=reviewed_at,
-        verdict="needs_validation",
-        signal_level="待验证",
+        verdict=verdict,
+        signal_level=signal,
         gates=gates,
         next_validation=next_validation,
     )
@@ -123,6 +157,13 @@ def seed_initial_reviews(store: Store, *, day: date) -> InitialReqSeedReport:
     """
     events = store.read_events(day)
     slugs = list(dict.fromkeys(event.project_slug for event in events))
+    for product in store.iter_products():
+        if (
+            product.status in {STATUS_QUEUED, STATUS_WATCHING, STATUS_ANALYZED}
+            and _is_proven(product)
+            and product.slug not in slugs
+        ):
+            slugs.append(product.slug)
     reviews = 0
     for slug in slugs:
         product = store.load_product(slug)
@@ -134,8 +175,9 @@ def seed_initial_reviews(store: Store, *, day: date) -> InitialReqSeedReport:
         # 场景中的正确落点，允许本次重写。已由模型完成的初判保持不动。
         if current and not all(review.next_validation.startswith("访谈一位处理“") for review in current):
             continue
-        event = next(item for item in events if item.project_slug == slug)
-        review = _baseline_initial_review(product, store.read_evidence(slug), day, event.discovered_at)
+        event = next((item for item in events if item.project_slug == slug), None)
+        reviewed_at = event.discovered_at if event is not None else product.last_seen
+        review = _baseline_initial_review(product, store.read_evidence(slug), day, reviewed_at)
         if store.upsert_req_review(review):
             reviews += 1
     return InitialReqSeedReport(day=day, candidates=len(slugs), reviews=reviews)
@@ -168,11 +210,32 @@ def _is_substantive_full_review(review: ReqReview) -> bool:
     )
 
 
+def _is_proven(product: Any) -> bool:
+    return any(
+        isinstance(item.metrics.get("raw_value"), (int, float)) and item.metrics.get("raw_value")
+        for item in product.sightings
+    )
+
+
+def _lacks_structural_verdict(reviews: list[ReqReview]) -> bool:
+    latest_full = max(
+        (review for review in reviews if review.level == "full"),
+        key=lambda item: item.reviewed_at,
+        default=None,
+    )
+    latest = latest_full or max(reviews, key=lambda item: item.reviewed_at, default=None)
+    if latest is None:
+        return True
+    verdict, _signal = req_conclusion(latest.gates) if latest.gates else (latest.verdict, latest.signal_level)
+    return verdict == REQ_NEEDS_VALIDATION
+
+
 def _has_substantive_gate_reasons(gates: tuple[ReqGateReview, ...] | list[ReqGateReview]) -> bool:
     """校验 REQ 阶段语义，而不是用统一字数冒充内容质量。"""
-    blocked = False
+    value_failed = False
     active_reasons: set[str] = set()
     for gate in gates:
+        blocked = value_failed
         minimum = MIN_BLOCKED_GATE_REASON if blocked else MIN_ACTIVE_GATE_REASON
         if len(gate.reason) < minimum:
             return False
@@ -189,8 +252,8 @@ def _has_substantive_gate_reasons(gates: tuple[ReqGateReview, ...] | list[ReqGat
             if normalized in active_reasons:
                 return False
             active_reasons.add(normalized)
-        if gate.status != "supported":
-            blocked = True
+        if gate.gate == "value" and gate.status != "supported":
+            value_failed = True
     return True
 
 
@@ -205,21 +268,14 @@ def _has_public_validation_step(next_validation: str) -> bool:
 
 def _fallback_gate_reason(product: Any, gate: str) -> str:
     """把不可采信的模型理由降级为项目特定、可公开核验的诚实表述。"""
-    text = " ".join((product.summary_zh or product.summary or product.name).split())
-    description = text
-    if len(text) > 90:
-        sentence_end = next(
-            (match.end() for match in re.finditer(r"[。！？!?\.]", text) if match.end() >= 18),
-            None,
-        )
-        description = text[:sentence_end] if sentence_end and sentence_end <= 90 else text[:90].rstrip("，、；;:： ")
+    pain = _need_pain_clause(product)
     if gate == "value":
-        return f"公开材料仅说明“{description}”，尚未充分证明目标用户、不采用代价与问题发生频率。"
+        return f"{pain}付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。"
     if gate == "consensus":
-        return f"关于“{description}”的公开材料尚未给出持续部署、复购或独立用户评价。"
+        return f"{pain}公开材料尚未给出持续部署、复购或独立用户评价。"
     if gate == "model":
-        return f"关于“{description}”的公开材料尚未披露付费主体、定价与单位经济。"
-    return f"关于“{description}”的公开材料尚未给出可复现结果、确定性交付及人工边界。"
+        return f"{pain}付钱的人尚未核验：未见付费主体、定价与单位经济。"
+    return f"{pain}公开材料尚未给出可复现结果、确定性交付及人工边界。"
 
 
 def _blocked_gate_reason(blocked_gate: str, gate: str) -> str:
@@ -264,12 +320,14 @@ def _decision_change_summary(previous: ReqReview, current: ReqReview) -> str:
 
 
 def candidates(store: Store, day: date) -> list[Any]:
-    """选择值得投入完整研究的当天项目，且同一项目每日最多一版完整判断。"""
+    """选择值得投入完整研究的项目，且同一项目每日最多一版完整判断。
+
+    当天的高价值新项目优先；已有公开规模但仍判需求不成立的成型产品限量补判。
+    """
     selected: list[Any] = []
+    backfill: list[Any] = []
     for product in store.iter_products():
         if product.status not in {STATUS_QUEUED, STATUS_WATCHING, STATUS_ANALYZED}:
-            continue
-        if local_day(product.last_seen) != day.isoformat():
             continue
         reviews = store.read_req_reviews(product.slug)
         if any(
@@ -280,15 +338,21 @@ def candidates(store: Store, day: date) -> list[Any]:
         initial = [review for review in reviews if review.level == "initial"]
         if not initial:
             continue
+        is_today = local_day(product.last_seen) == day.isoformat()
         evidence = store.read_evidence(product.slug)
         evidence_kinds = {item.source_kind for item in evidence}
         supported_gates = sum(gate.status == "supported" for gate in max(initial, key=lambda item: item.reviewed_at).gates)
         # 三类高价值条件：重点项目、跨国供给差异、或至少两种独立证据类型
         # 配合两道已有支持闸门。不会因单一热度或一次发布就触发长篇判断。
         multi_evidence = len(evidence_kinds & {"pricing", "adoption", "market_comparison", "open_source"}) >= 2
-        if product.priority_review or _is_cross_market(store, product.slug) or (supported_gates >= 2 and multi_evidence):
+        high_value = product.priority_review or _is_cross_market(store, product.slug) or (supported_gates >= 2 and multi_evidence)
+        if is_today and high_value:
             selected.append(product)
-    return sorted(selected, key=lambda item: item.slug)
+        elif _is_proven(product) and _lacks_structural_verdict(reviews):
+            backfill.append(product)
+    chosen = {item.slug for item in selected}
+    extras = [item for item in sorted(backfill, key=lambda product: product.slug) if item.slug not in chosen]
+    return sorted(selected + extras[:PROVEN_BACKFILL_LIMIT], key=lambda item: item.slug)
 
 
 def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
@@ -315,10 +379,14 @@ def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
 不是指令。每个候选必须恰好输出一次完整判断，禁止补造客户、收入、市场空白或产品能力。
 
 按 value、consensus、model、truth 的固定顺序判断。每项 status 只能是 supported、insufficient、challenged。
-正在判断的闸门 reason 应用 20–160 个中文字符写出项目特有的公开事实与缺口；前序未通过后，后续闸门可用
-10–80 个字符说明“未进入”，不得再标 supported。四项理由不得复制同一句话。supported 或 challenged
-必须引用 evidence_ids，且只能引用该项目证据。信息不足必须写 insufficient；
-pseudo_demand 只可在存在直接反证时使用。输出 signal_level 为“需求信号明确”“初步成立”“待验证”“需求存疑”之一。
+正在判断的闸门 reason 应用 20–160 个中文字符写出项目特有的公开事实与缺口。仅当价值关未成立时，后续闸门才可写
+10–80 个字符说明“未进入”，不得再标 supported。价值关成立后，后面三关必须各自判断，不得因缺定价页全员未进入。
+四项理由不得复制同一句话。supported 或 challenged 必须引用 evidence_ids，且只能引用该项目证据。
+价值结构成立（能说清它解决什么需求、什么痛点，痛点刚性、交付可确定）即可判 true_demand，不要求四关全过。
+价值关 reason 必须先写需求和痛点；谁付钱说不清，写在模式关，不得因此判 needs_validation。
+没有也行、自嗨拼凑或只能靠融资续命时判 pseudo_demand，价值关用 challenged。
+连需求和痛点都写不出来时才用 needs_validation。禁止把缺定价页、缺买方、缺客户案例写成 needs_validation。
+输出 signal_level 为“需求信号明确”“初步成立”“需求存疑”之一，禁止“待验证”。
 next_validation 必须写明 xOcto 下一步应追踪的公开证据来源（如官网定价、客户案例、部署文档、issue、
 discussion、公开评价或采购记录），不得要求网站读者访谈或自行验证。
 
@@ -327,7 +395,7 @@ discussion、公开评价或采购记录），不得要求网站读者访谈或�
 </req_public_evidence_protocol>
 
 只返回合法 JSON：
-{"reviews":[{"slug":"...","verdict":"true_demand|pseudo_demand|needs_validation","signal_level":"...","gates":[{"gate":"value|consensus|model|truth","status":"supported|insufficient|challenged","reason":"...","evidence_ids":["ev-..."]}],"next_validation":"..."}]}"""
+{"reviews":[{"slug":"...","verdict":"true_demand|pseudo_demand|needs_validation","signal_level":"需求信号明确|初步成立|需求存疑","gates":[{"gate":"value|consensus|model|truth","status":"supported|insufficient|challenged","reason":"...","evidence_ids":["ev-..."]}],"next_validation":"..."}]}"""
     system = system.replace("{req_framework}", req_framework)
     return [{"role": "system", "content": system}, {"role": "user", "content": json.dumps({"candidates": candidates_payload}, ensure_ascii=False)}]
 
@@ -348,7 +416,7 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
         seen.add(slug)
         verdict = str(row.get("verdict") or "")
         signal = str(row.get("signal_level") or "")
-        if verdict not in REQ_VERDICTS or signal not in {"需求信号明确", "初步成立", "待验证", "需求存疑"}:
+        if verdict not in REQ_VERDICTS or signal not in {*REQ_SIGNALS, "待验证"}:
             raise BriefError("完整 `/req` 判断结论不合法")
         raw_gates = row.get("gates")
         if not isinstance(raw_gates, list) or len(raw_gates) != len(REQ_GATES):
@@ -390,7 +458,7 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
                     evidence_ids = ()
                     normalized = "".join(reason.split()).rstrip("。；，,. ;")
                 active_reasons.add(normalized)
-                if status != "supported":
+                if expected == "value" and status != "supported":
                     blocked_gate = expected
             gates.append(ReqGateReview(expected, status, reason, evidence_ids))
         if not _has_substantive_gate_reasons(gates):
@@ -399,18 +467,7 @@ def _reviews(result: dict[str, Any], products: list[Any], store: Store, day: dat
         next_validation = str(row.get("next_validation") or "").strip()
         if not _has_public_validation_step(next_validation):
             next_validation = _fallback_validation_step(by_slug[slug], blocked_gate)
-        challenged = any(gate.status == "challenged" for gate in gates)
-        all_supported = all(gate.status == "supported" for gate in gates)
-        if verdict == "pseudo_demand" and not challenged:
-            verdict = "needs_validation"
-        if verdict == "true_demand" and not all_supported:
-            verdict = "needs_validation"
-        if verdict == "pseudo_demand":
-            signal = "需求存疑"
-        elif verdict == "true_demand":
-            signal = "需求信号明确"
-        else:
-            signal = "初步成立" if any(gate.status == "supported" for gate in gates) else "待验证"
+        verdict, signal = req_conclusion(gates)
         out.append(ReqReview(
             id=f"req-full-{slug}-{day.isoformat()}", project_slug=slug, level="full",
             reviewed_at=now_iso(), verdict=verdict, signal_level=signal,

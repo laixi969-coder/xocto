@@ -44,6 +44,8 @@ from .models import (
     STATUS_WATCHING,
     Product,
     local_day,
+    public_req_labels,
+    scrub_pending_phrase,
 )
 from .dedupe import is_aggregator, url_host
 from .i18n import LOCALES, Locale, other
@@ -125,15 +127,29 @@ def _localized_tags(locale: Locale, english: tuple[str, ...], chinese: tuple[str
 _REQ_SIGNAL_EN = {
     "需求信号明确": "Clear demand signal",
     "初步成立": "Initial support",
-    "待验证": "Needs validation",
     "需求存疑": "Demand in question",
+    "真需求": "True demand",
+    "伪需求": "Pseudo demand",
+    "需求不成立": "Demand does not hold",
 }
 
 
+def _scrub_pending_phrase(text: str) -> str:
+    return scrub_pending_phrase(text)
+
+
 def _req_signal_label(signal: str, locale: Locale) -> str:
+    if signal == "待验证":
+        signal = "需求存疑"
     if locale.key != "en":
         return signal
     return _REQ_SIGNAL_EN.get(signal, _english_text(signal, locale.t["home"]["req_pending"]))
+
+
+def _public_req(review: Any, locale: Locale) -> tuple[str, str]:
+    """对外需求判定与证据档；旧档案里的「待验证」在这里被重算掉。"""
+    verdict_label, signal = public_req_labels(review.verdict, review.signal_level, review.gates)
+    return _req_signal_label(verdict_label, locale), _req_signal_label(signal, locale)
 
 
 def _latest_req_review(reviews: list[Any]) -> Any | None:
@@ -158,27 +174,55 @@ def _req_decision_reason(review: Any, locale: Locale, product_summary: str = "")
     if decisive is None:
         return review.next_validation if locale.key != "en" else locale.t["home"]["req_pending_note"]
     if locale.key != "en":
+        value_gate = review.gates[0] if review.gates else None
+        if product_summary and (value_gate is None or value_gate.status != "supported"):
+            summary = _sentence_excerpt(product_summary)
+            return (
+                f"它解决的用户需求和痛点是：“{summary}”。"
+                "付钱的人尚未核验，不等于没有这个需求。"
+            )
         if product_summary and any(fragment in decisive.reason for fragment in _GENERIC_REQ_REASON_HINTS):
             summary = _sentence_excerpt(product_summary)
-            return f"目前只确认“{summary}”；尚未证明目标用户会在该工作中持续采用或付费。"
-        return decisive.reason
+            return f"它解决的用户需求和痛点是：“{summary}”。付钱的人尚未核验，不等于没有这个需求。"
+        return _scrub_pending_phrase(decisive.reason)
     gate = locale.t["product"][f"req_{decisive.gate}"]
     return locale.t["home"][f"boundary_{decisive.status}"].format(gate=gate)
+
+
+def _gate_reason_for_display(gate: Any, product: Any | None, locale: Locale) -> str:
+    """价值关即使买方不清，也要先写出需求和痛点。"""
+    raw = gate.reason if locale.key != "en" else _english_text(
+        gate.reason, locale.t["product"]["req_reason_pending"]
+    )
+    summary = ""
+    if product is not None:
+        summary = product.summary_zh if locale.key != "en" else (product.summary_en or product.summary)
+        summary = _sentence_excerpt(" ".join((summary or "").split()))
+    if (
+        gate.gate == "value"
+        and gate.status != "supported"
+        and summary
+        and "它解决的用户需求和痛点" not in (raw or "")
+        and "user need and pain" not in (raw or "").casefold()
+    ):
+        if locale.key != "en":
+            return f"它解决的用户需求和痛点是：“{summary}”。付钱的人尚未核验，不等于没有这个需求。"
+        return f"The user need and pain it addresses: “{summary}”. Who pays is not yet verified; that is not the same as no demand."
+    return _scrub_pending_phrase(raw)
 
 
 def _opportunity_action(review: Any | None, locale: Locale) -> str:
     """把内部闸门转换为创业者可执行的注意力决策。"""
     if review is None:
         key = "clue"
-    elif any(gate.status == "challenged" for gate in review.gates):
-        key = "avoid"
     else:
-        supported_prefix = 0
-        for gate in review.gates:
-            if gate.status != "supported":
-                break
-            supported_prefix += 1
-        key = "investigate" if supported_prefix >= 2 else "watch" if supported_prefix == 1 else "clue"
+        verdict_label, signal = public_req_labels(review.verdict, review.signal_level, review.gates)
+        if verdict_label == "伪需求" or any(gate.status == "challenged" for gate in review.gates):
+            key = "avoid"
+        elif verdict_label == "真需求":
+            key = "investigate" if signal == "需求信号明确" else "watch"
+        else:
+            key = "clue"
     return locale.t["home"][f"action_{key}"]
 
 
@@ -200,7 +244,7 @@ def _localized_evidence_copy(item: Any, product: Any | None, locale: Locale) -> 
         fact = _english_text(raw_fact)
         if not fact and product is not None and item.source_kind in {"product", "open_source"}:
             fact = _english_text(product.summary_en) or _english_text(product.summary)
-        return title or locale.t["product"]["evidence_link"], fact
+        return title or locale.t["product"]["evidence_link"], scrub_pending_phrase(fact)
     if _CJK_TEXT.search(raw_title):
         title = raw_title
     elif is_product_title:
@@ -211,7 +255,7 @@ def _localized_evidence_copy(item: Any, product: Any | None, locale: Locale) -> 
         fact = _chinese_text(product.summary_zh)
     else:
         fact = _chinese_text(raw_fact)
-    return title, fact
+    return title, scrub_pending_phrase(fact)
 
 _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
@@ -418,13 +462,13 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
                 verdict_key=locale.verdict_key(verdict),
                 verdict_rank=locale.verdict_rank(verdict),
                 analyzed_at=str(front.get("analyzed_at") or ""),
-                body_html=_markdown(body),
-                excerpt=excerpt,
-                replaces=_section(body, *locale.heading_replaces),
-                money=_section(body, *locale.heading_money, allow_list=True, limit=240),
-                takeaway=_section(body, *locale.heading_takeaway),
-                call=_section(body, *locale.heading_call, limit=300),
-                watch_next=_section(body, *locale.heading_watch_next, limit=300, allow_list=True),
+                body_html=scrub_pending_phrase(_markdown(body)),
+                excerpt=scrub_pending_phrase(excerpt),
+                replaces=scrub_pending_phrase(_section(body, *locale.heading_replaces)),
+                money=scrub_pending_phrase(_section(body, *locale.heading_money, allow_list=True, limit=240)),
+                takeaway=scrub_pending_phrase(_section(body, *locale.heading_takeaway)),
+                call=scrub_pending_phrase(_section(body, *locale.heading_call, limit=300)),
+                watch_next=scrub_pending_phrase(_section(body, *locale.heading_watch_next, limit=300, allow_list=True)),
                 takeaway_topics=_takeaway_topics(body, *locale.heading_takeaway),
             )
         )
@@ -440,14 +484,14 @@ def load_reports(store: Store, locale: Locale) -> list[Report]:
             continue
 
         front, body = _split_frontmatter(text)
-        highlights = tuple(str(h) for h in (front.get("highlights") or []))
+        highlights = tuple(_scrub_pending_phrase(str(h)) for h in (front.get("highlights") or []))
         day = str(front.get("day") or path.stem)
         out.append(
             Report(
                 day=day,
                 doc=parse_report(body, locale),
                 label=locale.date_label(day),
-                hook=str(front.get("hook") or ""),
+                hook=_scrub_pending_phrase(str(front.get("hook") or "")),
                 highlights=highlights,
                 # 每条 highlight 开头那个数字单独抽出来 —— 数字放大才是数字
                 stats=tuple(split_stat(h) for h in highlights),
@@ -682,6 +726,30 @@ def _daily_rotation(items: list[Any], day: str, *, limit: int) -> list[Any]:
     return [items[(offset + index) % len(items)] for index in range(min(limit, len(items)))]
 
 
+def _business_card_view(view: dict[str, Any], store: Store, locale: Locale) -> dict[str, Any]:
+    """把已验证产品收成与机会流相同的卡片结构。"""
+    reviews = store.read_req_reviews(view["slug"])
+    review = _latest_req_review(reviews)
+    decision_reason = (
+        _req_decision_reason(review, locale, view["summary"]) if review else locale.t["home"]["req_pending_note"]
+    )
+    verdict_label = _public_req(review, locale)[0] if review else locale.t["home"]["req_pending"]
+    return {
+        **view,
+        "event_type": "proven_business",
+        "event_label": locale.t["home"]["event_proven"],
+        "event_day": view["last_seen"],
+        "occurred_day": view["first_seen"],
+        "event_summary": "",
+        "req_signal": verdict_label,
+        "req_reason": decision_reason,
+        "opportunity_action": _opportunity_action(review, locale),
+        "opportunity_text": view["inspiration"] or view["summary"],
+        "opportunity_boundary": locale.t["home"]["evidence_boundary"].format(reason=decision_reason),
+        "has_req": review is not None,
+    }
+
+
 def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) -> dict[str, Any]:
     """把结构化事件与项目、`/req` 判断组合成首页机会流的一条记录。"""
     reviews = store.read_req_reviews(event.project_slug)
@@ -698,6 +766,7 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
     if raw_summary in {"首次发现项目", "发现新的公开信号"}:
         raw_summary = ""
     event_summary = raw_summary if locale.key != "en" else _english_text(raw_summary)
+    event_summary = _scrub_pending_phrase(event_summary)
     decision_reason = _req_decision_reason(review, locale, view["summary"]) if review else locale.t["home"]["req_pending_note"]
     return {
         **view,
@@ -706,7 +775,7 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
         "event_day": local_day(event.discovered_at),
         "occurred_day": local_day(event.occurred_at),
         "event_summary": event_summary,
-        "req_signal": _req_signal_label(review.signal_level, locale) if review else locale.t["home"]["req_pending"],
+        "req_signal": (_public_req(review, locale)[0] if review else locale.t["home"]["req_pending"]),
         "req_reason": decision_reason,
         "opportunity_action": _opportunity_action(review, locale),
         "opportunity_text": view["inspiration"] or view["summary"],
@@ -800,11 +869,14 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
         })
     req = None
     if review:
+        verdict_label, evidence_signal = _public_req(review, locale)
         req = {
             "level": locale.t["product"]["req_initial"] if review.level == "initial" else locale.t["product"]["req_full"],
-            "signal": _req_signal_label(review.signal_level, locale),
+            "signal": verdict_label,
+            "evidence_signal": evidence_signal,
             "verdict": review.verdict,
-            "next_validation": (
+            "verdict_label": verdict_label,
+            "next_validation": _scrub_pending_phrase(
                 review.next_validation if locale.key != "en" else _english_text(
                     review.next_validation, locale.t["product"]["req_next_pending"]
                 )
@@ -814,9 +886,7 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
                 {
                     "name": gate_labels[gate.gate],
                     "status": gate_statuses[gate.status],
-                    "reason": gate.reason if locale.key != "en" else _english_text(
-                        gate.reason, locale.t["product"]["req_reason_pending"]
-                    ),
+                    "reason": _gate_reason_for_display(gate, product, locale),
                     "evidence": [evidence_by_id[eid] for eid in gate.evidence_ids if eid in evidence_by_id],
                 }
                 for gate in review.gates
@@ -963,6 +1033,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         (v for v in proven if v["growth"] is not None),
         key=lambda v: -(v["growth"] or 0),
     )[:10]
+    ranked_proven = movers or sorted(proven, key=lambda v: -v["usage_value"])[:10]
+    proven_businesses = [_business_card_view(item, store, locale) for item in ranked_proven]
 
     # 4. 赛道分布：给一个进入方式，不在首页罗列产品。
     # 按规范键计数，按 CATEGORIES 的顺序输出显示名 —— 顺序是编排过的，
@@ -1135,6 +1207,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "more_opportunities": more_opportunities[:5],
         "event_day": event_day,
         "first_discoveries": first_discoveries,
+        "proven_businesses": proven_businesses,
         "important_updates": important_updates,
         "market_summary": market_summary,
         "notables": notables,
@@ -1153,7 +1226,6 @@ def _is_publishable(product: Product) -> bool:
     """公开站的最低门槛；内部状态和半成品仍完整保留在 data/pool。"""
     return (
         product.status not in {STATUS_REJECTED, STATUS_MARKET_CONTEXT}
-        and not _is_settled_general_assistant(product)
         and bool(product.summary_zh.strip())
         and bool(product.inspiration.strip())
     )
@@ -1338,14 +1410,14 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
     if locale.key == "zh":
         # 中文站一律优先经编辑的中文产品说明。源给的多半是英文营销话术，
         # 读者需要看到具体工作流与交付，而不是一句抽象定位。
-        summary = product.summary_zh or product.summary
-        inspiration = product.inspiration
+        summary = _scrub_pending_phrase(product.summary_zh or product.summary)
+        inspiration = _scrub_pending_phrase(product.inspiration)
         written = bool(product.summary_zh)
     else:
         # 英文站：源自带的英文原句能用就用，说不清的才写 summary_en 覆盖。
         # 灵感与标签没有中文兜底；原始字段尚未翻译时不能让它阻断发布。
-        summary = _english_text(product.summary_en) or _english_text(product.summary)
-        inspiration = _english_text(product.inspiration_en)
+        summary = _scrub_pending_phrase(_english_text(product.summary_en) or _english_text(product.summary))
+        inspiration = _scrub_pending_phrase(_english_text(product.inspiration_en))
         written = bool(summary)
     return {
         "slug": product.slug,

@@ -87,11 +87,24 @@
   </section>
   {% endif %}
 
+  {% if proven_businesses %}
+  <section class="band" id="proven-businesses">
+    <div class="sec-head">
+      <div>
+        <p class="section-index">02 · {{ t.home.proven_kicker }}</p>
+        <h2>{{ t.home.proven_businesses }}</h2>
+      </div>
+      <span class="note">{{ t.home.proven_businesses_note }}</span>
+    </div>
+    {{ opportunity_stream(proven_businesses) }}
+  </section>
+  {% endif %}
+
   {% if important_updates %}
   <section class="band" id="important-updates">
     <div class="sec-head">
       <div>
-        <p class="section-index">02 · {{ t.home.update_kicker }}</p>
+        <p class="section-index">03 · {{ t.home.update_kicker }}</p>
         <h2>{{ t.home.important_updates }}</h2>
       </div>
       <span class="note">{{ t.home.important_updates_note }}</span>
@@ -104,7 +117,7 @@
   <section class="band" id="market-summary">
     <div class="sec-head">
       <div>
-        <p class="section-index">03 · {{ t.home.market_kicker }}</p>
+        <p class="section-index">04 · {{ t.home.market_kicker }}</p>
         <h2>{{ t.home.market_summary }}</h2>
       </div>
       <span class="note">{{ t.home.market_summary_note }}</span>
@@ -121,7 +134,7 @@
   <section class="band" id="past-calls">
     <div class="sec-head">
       <div>
-        <p class="section-index">04 · {{ t.home.past_kicker }}</p>
+        <p class="section-index">05 · {{ t.home.past_kicker }}</p>
         <h2>{{ t.home.past_reports }}</h2>
       </div>
       <span class="note">{{ t.home.past_reports_note }}</span>

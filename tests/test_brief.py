@@ -327,7 +327,8 @@ class BriefTests(unittest.TestCase):
             }
 
             review = _req_reviews(result, [source], store, day=DAY)["example"]
-            self.assertEqual(review.verdict, "needs_validation")
+            self.assertEqual(review.verdict, "true_demand")
+            self.assertEqual(review.signal_level, "初步成立")
             self.assertEqual(review.gates[0].evidence_ids, ("ev-1",))
             self.assertEqual(review.id, "req-initial-example-2026-08-14")
 

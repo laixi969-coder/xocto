@@ -63,6 +63,18 @@ def product(*, status: str = "watching", summary_zh: str = "中文说明", inspi
 
 
 class PublishabilityTests(unittest.TestCase):
+    def test_reader_facing_copy_does_not_use_pending_validation(self) -> None:
+        for locale in (ZH, EN):
+            blob = " ".join(
+                value
+                for section in locale.t.values()
+                if isinstance(section, dict)
+                for value in section.values()
+                if isinstance(value, str)
+            )
+            self.assertNotIn("待验证", blob)
+            self.assertNotIn("Needs validation", blob)
+
     def test_reader_facing_copy_does_not_expose_internal_req_name(self) -> None:
         for locale in (ZH, EN):
             for section in ("home", "products", "product"):
@@ -90,7 +102,8 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual(len(ctx["important_updates"]), 1)
             summary = ctx["important_updates"][0]["event_summary"]
             self.assertNotIn("/req", summary)
-            self.assertIn("信号由“初步成立”调整为“待验证”", summary)
+            self.assertNotIn("待验证", summary)
+            self.assertIn("信号由“初步成立”调整为“需求不成立”", summary)
 
     def test_section_notes_use_the_full_available_line(self) -> None:
         css = (Path(__file__).parents[1] / "templates" / "style.css").read_text(
@@ -128,7 +141,8 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("market_summary", template)
         self.assertIn("t.home.past_reports", template)
         self.assertIn("dimension-list", template)
-        self.assertLess(template.index("first_discoveries"), template.index("important_updates"))
+        self.assertLess(template.index("first_discoveries"), template.index("proven_businesses"))
+        self.assertLess(template.index("proven_businesses"), template.index("important_updates"))
         self.assertLess(template.index("important_updates"), template.index("market_summary"))
         self.assertLess(template.index("market_summary"), template.index("t.home.past_reports"))
         self.assertNotIn("fresh_picks", template)
@@ -265,15 +279,15 @@ class PublishabilityTests(unittest.TestCase):
     def test_reader_ready_product_is_published(self) -> None:
         self.assertTrue(_is_publishable(product()))
 
-    def test_settled_general_assistant_stays_out_of_the_opportunity_library(self) -> None:
+    def test_settled_general_assistant_is_published_as_a_proven_business(self) -> None:
         settled = replace(
             product(),
             category="通用助手",
             sightings=(
-                Sighting("ranking", "https://example.com", "2026-08-13T00:00:00Z", {"value": 40_000_000}),
+                Sighting("ranking", "https://example.com", "2026-08-13T00:00:00Z", {"value": 40_000_000, "raw_value": 40_000_000}),
             ),
         )
-        self.assertFalse(_is_publishable(settled))
+        self.assertTrue(_is_publishable(settled))
 
     def test_large_vertical_product_is_still_publishable(self) -> None:
         vertical = replace(
@@ -371,6 +385,8 @@ class PublishabilityTests(unittest.TestCase):
         )
         self.assertEqual(_opportunity_action(review, ZH), "继续跟踪")
         self.assertEqual(_opportunity_action(review, EN), "Keep watching")
+        true_demand = replace(review, verdict="true_demand", signal_level="初步成立")
+        self.assertEqual(_opportunity_action(true_demand, ZH), "继续跟踪")
         clue = replace(review, gates=tuple(replace(gate, status=REQ_GATE_INSUFFICIENT) for gate in gates))
         self.assertEqual(_opportunity_action(clue, ZH), "仅作方向线索")
 
@@ -379,8 +395,8 @@ class PublishabilityTests(unittest.TestCase):
             *gates[1:],
         ))
         reason = _req_decision_reason(generic, ZH, "货代输入异常运单，系统输出待处置清单。")
-        self.assertIn("目前只确认", reason)
-        self.assertIn("持续采用或付费", reason)
+        self.assertIn("需求和痛点", reason)
+        self.assertIn("货代输入异常运单", reason)
         self.assertNotIn("描述模糊", reason)
 
     def test_home_uses_only_the_latest_event_day_and_separates_first_discoveries(self) -> None:
@@ -420,6 +436,7 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual(ctx["event_day"], "2026-08-14")
             self.assertEqual([item["slug"] for item in ctx["first_discoveries"]], ["fresh"])
             self.assertEqual([item["slug"] for item in ctx["important_updates"]], ["example"])
+            self.assertIn("proven_businesses", ctx)
             self.assertEqual(ctx["market_summary"][0]["title"], "今日首次发现涉及的行业")
 
             english = build_context(store, EN)
@@ -578,7 +595,9 @@ class PublishabilityTests(unittest.TestCase):
             self.assertNotIn("Shipment-exception", research["evidence"][0]["fact"])
 
             english = _research_view(store, "freight-ai", EN)
-            self.assertEqual(english["req"]["signal"], "Needs validation")
+            self.assertEqual(english["req"]["signal"], "True demand")
+            self.assertEqual(english["req"]["verdict_label"], "True demand")
+            self.assertEqual(english["req"]["evidence_signal"], "Initial support")
             self.assertEqual(english["req"]["gates"][0]["reason"], EN.t["product"]["req_reason_pending"])
             self.assertEqual(english["req"]["next_validation"], EN.t["product"]["req_next_pending"])
             self.assertNotRegex(english["evidence"][0]["fact"], r"[一-鿿]")

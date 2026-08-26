@@ -6,7 +6,21 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from xocto.models import DiscoveryEvent, Evidence, Product, ReqGateReview, ReqReview, Sighting
+from xocto.models import (
+    DiscoveryEvent,
+    Evidence,
+    Product,
+    REQ_NEEDS_VALIDATION,
+    REQ_PSEUDO_DEMAND,
+    REQ_SIGNAL_DOUBT,
+    REQ_SIGNAL_INITIAL,
+    REQ_TRUE_DEMAND,
+    ReqGateReview,
+    ReqReview,
+    Sighting,
+    public_req_labels,
+    req_conclusion,
+)
 from xocto.req_review import (
     _decision_change_summary,
     _decision_signature,
@@ -69,8 +83,11 @@ class FullReqReviewTests(unittest.TestCase):
             seeded = store.read_req_reviews(item.slug)[0]
 
             self.assertEqual((report.candidates, report.reviews), (1, 1))
-            self.assertEqual(seeded.signal_level, "待验证")
-            self.assertIn("价值闸门", seeded.gates[0].reason)
+            self.assertEqual(seeded.verdict, REQ_TRUE_DEMAND)
+            self.assertEqual(seeded.signal_level, REQ_SIGNAL_INITIAL)
+            self.assertIn("需求和痛点", seeded.gates[0].reason)
+            self.assertEqual(seeded.gates[0].status, "supported")
+            self.assertEqual(seeded.gates[2].status, "insufficient")
             self.assertIn("公开补证", seeded.next_validation)
             self.assertNotIn("访谈", seeded.next_validation)
             revised = ReqReview(
@@ -80,6 +97,20 @@ class FullReqReviewTests(unittest.TestCase):
             )
             self.assertTrue(store.upsert_req_review(revised))
             self.assertEqual(store.read_req_reviews(item.slug), [revised])
+
+    def test_seeded_review_without_a_job_description_stays_unfounded(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = replace(product(), summary="", summary_zh="")
+            store.save_product(item)
+            store.append_event(DiscoveryEvent(
+                id="first-freight", project_slug=item.slug, event_type="first_discovered",
+                occurred_at=item.last_seen, discovered_at=item.last_seen,
+            ))
+            seed_initial_reviews(store, day=DAY)
+            seeded = store.read_req_reviews(item.slug)[0]
+            self.assertEqual(seeded.verdict, REQ_NEEDS_VALIDATION)
+            self.assertIn("需求和痛点", seeded.gates[0].reason)
 
     def test_priority_project_with_initial_review_enters_full_req_queue(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -145,21 +176,61 @@ class FullReqReviewTests(unittest.TestCase):
             self.assertIn("环境与基准。", reason)
             self.assertNotIn("并依”，", reason)
 
-    def test_full_review_allows_concise_unentered_gates_after_block(self) -> None:
+    def test_later_gates_are_blocked_only_when_value_fails(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))
             item = product()
             store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
             blocked = result()
-            gates = blocked["reviews"][0]["gates"]
-            gates[2]["reason"] = "共识闸门未通过，商业模型暂不进入。"
-            gates[3]["reason"] = "共识闸门未通过，真需求暂不进入。"
-            self.assertEqual(_reviews(blocked, [item], store, DAY)[0].level, "full")
+            blocked["reviews"][0]["gates"][0]["status"] = "insufficient"
+            blocked["reviews"][0]["gates"][0]["reason"] = "公开材料尚未说明货运异常由谁处理、不处理会失去什么。"
+            blocked["reviews"][0]["gates"][1]["status"] = "supported"
+            review = _reviews(blocked, [item], store, DAY)[0]
+            self.assertEqual(review.gates[1].status, "insufficient")
+            self.assertEqual(review.verdict, REQ_NEEDS_VALIDATION)
 
-            gates[2]["status"] = "supported"
-            normalized = _reviews(blocked, [item], store, DAY)[0]
-            self.assertEqual(normalized.gates[2].status, "insufficient")
-            self.assertEqual(normalized.gates[2].evidence_ids, ())
+    def test_value_pass_keeps_later_gate_judgments(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            payload = result()
+            payload["reviews"][0]["gates"][2] = {
+                "gate": "model",
+                "status": "supported",
+                "reason": "货代按异常处理次数付费的路径已在公开材料中写明，钱来自货代企业。",
+                "evidence_ids": ["ev-1"],
+            }
+            review = _reviews(payload, [item], store, DAY)[0]
+            self.assertEqual(review.gates[2].status, "supported")
+            self.assertEqual(review.verdict, REQ_TRUE_DEMAND)
+            self.assertEqual(review.signal_level, "需求信号明确")
+
+    def test_value_supported_without_pricing_is_true_demand(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.append_evidence(Evidence("ev-1", item.slug, "https://example.com", "Product", item.last_seen, item.last_seen, "product", "first_party"))
+            review = _reviews(result(), [item], store, DAY)[0]
+            self.assertEqual(review.verdict, REQ_TRUE_DEMAND)
+            self.assertEqual(review.signal_level, REQ_SIGNAL_INITIAL)
+
+    def test_challenged_value_is_pseudo_demand(self) -> None:
+        gates = (
+            ReqGateReview("value", "challenged", "看着挺好但没有也行，货代不处理异常也能过完今天。", ("ev-1",)),
+            ReqGateReview("consensus", "insufficient", "价值闸门未通过，共识闸门未进入。"),
+            ReqGateReview("model", "insufficient", "价值闸门未通过，模式闸门未进入。"),
+            ReqGateReview("truth", "insufficient", "价值闸门未通过，求真闸门未进入。"),
+        )
+        self.assertEqual(req_conclusion(gates), (REQ_PSEUDO_DEMAND, REQ_SIGNAL_DOUBT))
+        self.assertEqual(public_req_labels("needs_validation", "待验证", gates), ("伪需求", REQ_SIGNAL_DOUBT))
+
+    def test_public_labels_never_say_pending_validation(self) -> None:
+        gates = tuple(ReqGateReview(gate, "insufficient", "公开材料尚未说明买方和工作。") for gate in ("value", "consensus", "model", "truth"))
+        verdict_label, signal = public_req_labels("needs_validation", "待验证", gates)
+        self.assertEqual(verdict_label, "需求不成立")
+        self.assertNotEqual(signal, "待验证")
+        self.assertNotIn("待验证", verdict_label)
 
     def test_full_review_downgrades_unsupported_claim_without_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
