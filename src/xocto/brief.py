@@ -48,6 +48,14 @@ DEFAULT_GEMINI_MODEL = "gemini-3.7-flash"
 DEFAULT_GROQ_MODEL = "openai/gpt-oss-20b"
 FALLBACK_PROVIDER_ORDER = ("groq", "gemini", "deepseek")
 ALLOWED_DECISIONS = {STATUS_REJECTED, STATUS_MARKET_CONTEXT, STATUS_QUEUED, STATUS_WATCHING}
+EMPTY_DAY_MARKERS = (
+    "今天没有值得展开",
+    "今日无值得展开",
+    "没有产品跨过公开观察",
+    "no product worth expanding",
+    "no editorial pick today",
+    "no new products cleared the editorial bar",
+)
 # 采集渠道是实现细节，不是给读者的信息。这里和 check_design.py 保持同一
 # 口径；在落盘前检查模型的公开文案，避免等到整站构建后才发现问题。
 FORBIDDEN_PUBLIC_SOURCE_NAMES = (
@@ -255,9 +263,11 @@ JSON 结构严格如下：
   }
 }
 
-日报必须可在三分钟内读完。没有值得展开的内容时，明确写出当天没有值得展开的产品；
-不要为了凑数夸大。每个值得看的产品必须各自使用一个 `### 产品名` 小标题与独立段落，
-绝不能把“1. A、2. B、3. C”塞进同一段。英文内容必须全部是英文（产品专名除外）。"""
+日报必须可在三分钟内读完。每天必须先给一条正向的方向判断：市场往哪走、从哪切、
+证据到哪一步。证据弱就写切口还早、证据停在哪一闸门，不许硬夸，也禁止写
+「今天没有值得展开的」及同义句——那不是合法交卷。每个值得看的产品必须各自使用一个
+`### 产品名` 小标题与独立段落，绝不能把“1. A、2. B、3. C”塞进同一段。
+英文内容必须全部是英文（产品专名除外）。"""
     system = system.replace("{categories}", "、".join(CATEGORIES))
     system = system.replace("{req_framework}", req_framework)
     # 项目筛选和日报分别请求。后面的指令覆盖上面为旧版单请求保留的 report
@@ -569,6 +579,7 @@ def _report_markdown(result: dict[str, Any], day: date, *, english: bool) -> str
     if not isinstance(highlights, list) or not 1 <= len(highlights) <= 4:
         raise BriefError(f"report.highlights_{suffix} 必须有 1–4 条")
     clean_highlights = [_text(item, f"report.highlights_{suffix}") for item in highlights]
+    _reject_empty_day_copy([hook, body, *clean_highlights], f"report.{suffix}")
     if english and _CJK_TEXT.search("\n".join([hook, body, *clean_highlights])):
         raise BriefError("英文日报包含未翻译的中文字符或标点")
     frontmatter = yaml.safe_dump(
@@ -614,7 +625,8 @@ def _report_prompt(
 输出仅为合法 JSON object，且只能有 report：
 {{"report":{{"hook_zh":"20–40 字中文钩子","highlights_zh":["1–4 条"],"body_zh":"以 ## 开头的中文 Markdown","hook_en":"English hook","highlights_en":["1–4 items"],"body_en":"English Markdown beginning with ##"}}}}
 
-日报应归纳当天出现的机会与待验证点，不得把产品目录改写成热度榜。必须各用独立 `### 产品名`
+日报应归纳当天出现的机会与待验证点，不得把产品目录改写成热度榜。必须先给一条正向方向判断，
+禁止以「今天没有值得展开的」或同义句作为开头或结论。必须各用独立 `### 产品名`
 小标题介绍重点项目。以下重大项目必须同时在中英文正文中点名：{priority_names}。"""
     return [
         {"role": "system", "content": system},
@@ -691,10 +703,19 @@ def _validation_repair_messages(
     ]
 
 
-def _empty_report(day: date, *, english: bool) -> str:
-    if english:
-        return f"---\nday: {day.isoformat()}\nhook: No new products cleared the editorial bar today\nhighlights:\n  - No product worth expanding today\n---\n\n# AI product radar · {day.isoformat()}\n\n## No editorial pick today\n\nThe collection completed, but no newly surfaced product had enough evidence to publish.\n"
-    return f"---\nday: {day.isoformat()}\nhook: 今天没有产品跨过公开观察的证据门槛\nhighlights:\n  - 今日无值得展开的产品\n---\n\n# AI 应用雷达 · {day.isoformat()}\n\n## 今天没有值得展开的产品\n\n采集已完成，但今天新出现的产品没有足够证据进入公开观察。\n"
+def _reject_empty_day_copy(texts: list[str], field: str) -> None:
+    """空简报不是合法交卷：采集网开着时，写「今天没有」说明过滤没看见。"""
+    blob = "\n".join(texts).casefold()
+    for marker in EMPTY_DAY_MARKERS:
+        if marker.casefold() in blob:
+            raise BriefError(f"{field} 把空简报当成了合法交卷")
+
+
+def _empty_day_error(day: date) -> BriefError:
+    return BriefError(
+        f"{day.isoformat()} 没有可编辑的产品或行业信号。"
+        "这是过滤或采集故障，不能写成「今天没有值得展开的」公开简报。"
+    )
 
 
 def _require_priority_coverage(products: list[Product], zh_report: str, en_report: str) -> None:
@@ -715,11 +736,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     products = candidates_for_day(store, day)
     news = news_for_day(store, day)
     if not products and not news:
-        if store.report_path(day).exists():
-            return BriefReport(day=day, candidates=0, updated=0, skipped=True)
-        store.save_report(_empty_report(day, english=False), day)
-        store.save_report(_empty_report(day, english=True), day, locale="en")
-        return BriefReport(day=day, candidates=0, updated=0)
+        raise _empty_day_error(day)
 
     previous_zh = store.report_path(day).read_text(encoding="utf-8") if store.report_path(day).exists() else ""
     previous_en_path = store.reports_dir / "en" / f"{day.isoformat()}.md"

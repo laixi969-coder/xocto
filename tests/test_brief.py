@@ -22,6 +22,7 @@ from xocto.brief import (
     _validation_repair_messages,
     candidates_for_day,
     news_for_day,
+    run,
 )
 from xocto.models import Evidence, Product, RawItem, STATUS_MARKET_CONTEXT, STATUS_PENDING_FILTER, Sighting
 from xocto.store import Store
@@ -105,6 +106,33 @@ class BriefTests(unittest.TestCase):
         prompt = _report_prompt(DAY, [priority], [])
         self.assertIn("Priority project", prompt[0]["content"])
         self.assertIn("selected_products", prompt[1]["content"])
+        self.assertIn("正向方向判断", prompt[0]["content"])
+        self.assertNotIn("今天没有值得展开的内容时", prompt[0]["content"])
+
+    def test_report_markdown_rejects_empty_day_copy(self) -> None:
+        result = {
+            "report": {
+                "hook_zh": "今天没有值得展开的产品",
+                "highlights_zh": ["采集完成"],
+                "body_zh": "## 今日观察\n\n今天没有值得展开的产品。",
+                "hook_en": "No product worth expanding today",
+                "highlights_en": ["Collection finished"],
+                "body_en": "## Today's note\n\nNo editorial pick today.",
+            }
+        }
+        with self.assertRaises(BriefError):
+            _report_markdown(result, DAY, english=False)
+        with self.assertRaises(BriefError):
+            _report_markdown(result, DAY, english=True)
+
+    def test_empty_candidate_day_is_a_filter_failure_not_a_publishable_edition(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            with self.assertRaises(BriefError) as ctx:
+                run(store, day=DAY)
+            self.assertIn("过滤或采集故障", str(ctx.exception))
+            self.assertFalse(store.report_path(DAY).exists())
 
     def test_only_today_pending_products_are_candidates(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

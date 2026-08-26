@@ -70,6 +70,28 @@ class PublishabilityTests(unittest.TestCase):
                     if isinstance(value, str):
                         self.assertNotIn("/req", value.lower())
 
+    def test_home_strips_internal_req_name_from_event_summaries(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            from xocto.store import Store
+
+            store = Store(Path(tmp))
+            store.save_product(product())
+            store.append_event(DiscoveryEvent(
+                id="req-change",
+                project_slug="example",
+                event_type=EVENT_MATERIAL_UPDATE,
+                occurred_at="2026-08-25T10:00:00Z",
+                discovered_at="2026-08-25T11:00:00Z",
+                summary="`/req` 信号由“初步成立”调整为“待验证”；当前停在价值闸门：公开材料仅描述产品功能。",
+            ))
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual(len(ctx["important_updates"]), 1)
+            summary = ctx["important_updates"][0]["event_summary"]
+            self.assertNotIn("/req", summary)
+            self.assertIn("信号由“初步成立”调整为“待验证”", summary)
+
     def test_section_notes_use_the_full_available_line(self) -> None:
         css = (Path(__file__).parents[1] / "templates" / "style.css").read_text(
             encoding="utf-8"
@@ -506,6 +528,13 @@ class PublishabilityTests(unittest.TestCase):
                 title="ChatGPT: Chat, Work, Create & Code with AI", published_at="", collected_at="2026-08-14T10:00:00Z",
                 source_kind="market_comparison", tier="independent", fact="Answer questions, write, and code.",
             ))
+            store.append_evidence(Evidence(
+                id="ev-aggregator", project_slug="freight-ai",
+                url="https://www.producthunt.com/products/freight-ai",
+                title="Freight AI", published_at="2026-08-14T09:00:00Z",
+                collected_at="2026-08-14T10:00:00Z", source_kind="product",
+                tier="independent", fact="Launch page.",
+            ))
             for market, ecosystem, supply, coverage in (
                 ("US", "en", SUPPLY_EMERGING, "English public coverage checked on 2026-08-14."),
                 ("CN", "zh", SUPPLY_NOT_FOUND, "已覆盖中文生态公开项目发布与开发者讨论。"),
@@ -544,6 +573,7 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual(research["req"]["gates"][0]["name"], "价值")
             self.assertEqual(research["evidence"][0]["title"], "Freight AI")
             self.assertEqual(len(research["evidence"]), 1)
+            self.assertNotIn("producthunt", research["evidence"][0]["url"])
             self.assertIn("货代团队", research["evidence"][0]["fact"])
             self.assertNotIn("Shipment-exception", research["evidence"][0]["fact"])
 

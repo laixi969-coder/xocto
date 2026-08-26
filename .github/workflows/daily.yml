@@ -103,7 +103,10 @@ jobs:
       # 不在编辑前构建英文站：采集原文可以是中文，只有双语编辑完成后才
       # 生成并检查公开页面，避免未翻译的原始字段阻断整条每日流程。
       - name: 检查采集有没有静默变质
+        # 单源挂了不能丢掉当天简报和站点。先记红灯，发布完成后再让任务失败。
         # 历史重跑刻意不采集“今天”，因此不能用只检查今天原始存档的健康规则。
+        id: health
+        continue-on-error: true
         if: ${{ inputs.retry_date == '' }}
         run: uv run xocto health
 
@@ -196,9 +199,13 @@ jobs:
           echo "::warning::模型编辑未完成；已发布基于公开证据的基础 /req 初判，下一次运行会自动重试深化判断。"
 
       - name: 复算日报发布约束
+        # 检查失败也要出站：更新不能停。红灯留到最后，不把大门关上。
+        id: design
+        continue-on-error: true
         run: python3 scripts/check_design.py
 
       - name: 提交并推送日报
+        if: ${{ always() }}
         run: |
           git add -A
           if git diff --staged --quiet; then
@@ -211,16 +218,17 @@ jobs:
             git push origin HEAD:main
           fi
 
-      # 可以发布基础初判，但不能把模型、市场或完整 /req 的失败静默成绿灯。
-      # 放在数据与站点提交之后：用户先得到当日可用结果，维护者仍能看到红灯。
+      # 用户先得到当日站点；采集、判断或页面检查失败仍必须亮红灯。
       - name: 检查判断链是否完整
         if: ${{ always() }}
         run: |
           failed=""
+          if [ "${{ steps.health.outcome }}" = "failure" ]; then failed="$failed health"; fi
           if [ "${{ steps.brief.outcome }}" = "failure" ]; then failed="$failed brief"; fi
           if [ "${{ steps.market.outcome }}" = "failure" ]; then failed="$failed market"; fi
           if [ "${{ steps.full_req.outcome }}" = "failure" ]; then failed="$failed full_req"; fi
+          if [ "${{ steps.design.outcome }}" = "failure" ]; then failed="$failed design"; fi
           if [ -n "$failed" ]; then
-            echo "以下判断阶段未完成：$failed"
+            echo "以下阶段未完成，但当日站点如有新内容已推送：$failed"
             exit 1
           fi

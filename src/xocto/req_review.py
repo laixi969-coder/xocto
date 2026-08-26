@@ -258,7 +258,7 @@ def _decision_change_summary(previous: ReqReview, current: ReqReview) -> str:
     else:
         change = "关键闸门状态发生变化"
     return (
-        f"`/req` {change}；"
+        f"{change}；"
         f"当前停在{_GATE_LABELS[decisive.gate]}闸门：{decisive.reason}"
     )
 

@@ -28,6 +28,17 @@ class DailyWorkflowTests(unittest.TestCase):
         self.assertIn("id: market", text)
         self.assertIn("id: full_req", text)
         self.assertIn("- name: 检查判断链是否完整", text)
+        self.assertRegex(
+            text,
+            r"- name: 检查采集有没有静默变质(?:\n\s+#.*)*\n\s+id: health\n\s+continue-on-error: true",
+        )
+        self.assertIn("steps.health.outcome", text)
+        self.assertRegex(
+            text,
+            r"- name: 复算日报发布约束(?:\n\s+#.*)*\n\s+id: design\n\s+continue-on-error: true",
+        )
+        self.assertIn("steps.design.outcome", text)
+        self.assertIn("if: ${{ always() }}", text)
 
 
 if __name__ == "__main__":

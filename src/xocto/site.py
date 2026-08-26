@@ -479,15 +479,29 @@ def _metric_badges(product: Product, locale: Locale) -> list[str]:
     return [latest[key][1] for key in ("points", "stars", "scale", "growth") if key in latest]
 
 
+_INTERNAL_METHOD_RE = re.compile(r"`?/req`?")
+
+
+def _public_page_url(url: str) -> str:
+    """读者能看到的外链。聚合站链接既暴露来源，也不是产品自己的页面。"""
+    if not url or is_aggregator(url_host(url)):
+        return ""
+    return url
+
+
+def _public_event_summary(text: str) -> str:
+    """事件摘要可以保留判断变化，但不能把内部方法名带上首页。"""
+    cleaned = _INTERNAL_METHOD_RE.sub("", text or "")
+    return re.sub(r"\s+", " ", cleaned).strip().lstrip("；;").strip()
+
+
 def _external_url(product: Product) -> str:
     """对外展示的链接。
 
     只在它是产品自己的域名时才给 —— 指向聚合站页面的链接既暴露了采集来源，
     对用户也没价值（那不是产品官网）。
     """
-    if not product.url or is_aggregator(url_host(product.url)):
-        return ""
-    return product.url
+    return _public_page_url(product.url)
 
 
 def _stage(product: Product) -> str:
@@ -678,7 +692,7 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
         EVENT_MARKET_CHANGE: locale.t["home"]["event_market"],
         EVENT_REQ_CHANGE: locale.t["home"]["event_req"],
     }
-    raw_summary = (event.summary or "").strip()
+    raw_summary = _public_event_summary(event.summary or "")
     # 旧档案中曾以采集器状态充当事件摘要；它没有解释产品发生了什么，
     # 不应占用首页的阅读空间。保留有事实内容的人工/模型摘要。
     if raw_summary in {"首次发现项目", "发现新的公开信号"}:
@@ -766,18 +780,19 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
     evidence_rows = []
     seen_evidence_urls: set[str] = set()
     for item in evidence:
-        if not item.url or _is_market_query_evidence(item):
+        public_url = _public_page_url(item.url)
+        if not public_url or _is_market_query_evidence(item):
             continue
         if item.source_kind == "market_comparison" and item.id not in cited_ids:
             continue
         kind = evidence_kind.get(item.source_kind, item.source_kind)
         title, fact = _localized_evidence_copy(item, product, locale)
-        if item.url in seen_evidence_urls:
+        if public_url in seen_evidence_urls:
             continue
-        seen_evidence_urls.add(item.url)
+        seen_evidence_urls.add(public_url)
         evidence_rows.append({
             "id": item.id,
-            "url": item.url,
+            "url": public_url,
             "title": title,
             "kind": kind,
             "fact": fact,
@@ -1029,7 +1044,13 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     # “重要更新”必须同时满足：明确允许上首页、有可陈述的新事实、同一项目
     # 当天只出现一次。首次发现优先，不能又在更新区重复出现。
     update_slugs: set[str] = set()
-    generic_summaries = {"", "首次发现项目", "发现新的公开信号", "新增证据改变了 `/req` 判断。"}
+    generic_summaries = {
+        "",
+        "首次发现项目",
+        "发现新的公开信号",
+        "新增证据改变了 `/req` 判断。",
+        "新增证据改变了 判断",
+    }
     for event in ordered_events:
         if (
             event.event_type == EVENT_FIRST_DISCOVERED
@@ -1037,6 +1058,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
             or event.project_slug in first_slugs
             or event.project_slug in update_slugs
             or event.summary.strip() in generic_summaries
+            or _public_event_summary(event.summary) in generic_summaries
         ):
             continue
         view = view_by_slug.get(event.project_slug)

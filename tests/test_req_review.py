@@ -220,6 +220,7 @@ class FullReqReviewTests(unittest.TestCase):
         summary = _decision_change_summary(normalized, advanced)
         self.assertIn("连续通过阶段由 1 道调整为 2 道", summary)
         self.assertIn("当前停在模式闸门", summary)
+        self.assertNotIn("/req", summary)
 
     def test_low_quality_same_day_full_review_is_queued_for_repair(self) -> None:
         shallow_gates = tuple(
