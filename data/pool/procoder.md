@@ -35,16 +35,16 @@ summary: Senior-developer discipline for AI coding agents. A commit gate that co
   quality controllers that refuse to call unfinished work done, and a lessons loop that closes each escaped
   bug's class. One Go binary, no runtime deps, works with 20+ agents.
 first_seen: '2026-08-16T07:47:17Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-26T04:53:32Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://procoder.azrty.com/
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-26T04:53:32Z'
   metrics:
-    stars: 182
+    stars: 184
     forks: 14
     open_issues: 18
 ---

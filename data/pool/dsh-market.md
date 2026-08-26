@@ -23,18 +23,18 @@ url: https://dshmarket.com
 canonical_url: https://dshmarket.com
 summary: The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场
 first_seen: '2026-08-14T04:58:15Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-26T04:53:32Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://dshmarket.com
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-26T04:53:32Z'
   metrics:
-    stars: 2371
+    stars: 2411
     forks: 122
-    open_issues: 15
+    open_issues: 22
 ---
 
 # dsh-market

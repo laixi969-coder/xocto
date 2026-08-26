@@ -21,18 +21,18 @@ canonical_url: https://github.com/konnga/skill-buddy
 summary: AI Skills Buddy, A desktop workspace for managing, installing, and synchronizing Skills and MCP
   Servers across AI agents.
 first_seen: '2026-08-06T10:06:16Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-26T04:53:32Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/konnga/skill-buddy
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-26T04:53:32Z'
   metrics:
-    stars: 55
-    forks: 3
-    open_issues: 3
+    stars: 57
+    forks: 4
+    open_issues: 2
 ---
 
 # skill-buddy

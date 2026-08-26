@@ -20,17 +20,17 @@ url: https://github.com/jeffhajewski/latticedb
 canonical_url: https://github.com/jeffhajewski/latticedb
 summary: Like SQLite but for graph databases
 first_seen: '2026-08-25T16:52:05Z'
-last_seen: '2026-08-25T22:45:07Z'
+last_seen: '2026-08-26T04:53:28Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/jeffhajewski/latticedb
-  seen_at: '2026-08-25T22:45:07Z'
+  seen_at: '2026-08-26T04:53:28Z'
   metrics:
-    points: 89
-    comments: 28
+    points: 128
+    comments: 36
 ---
 
 # LatticeDB

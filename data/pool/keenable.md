@@ -20,17 +20,17 @@ url: https://keenable.ai/
 canonical_url: https://keenable.ai
 summary: A different web search API for AI agents
 first_seen: '2026-08-25T15:12:52Z'
-last_seen: '2026-08-25T22:45:07Z'
+last_seen: '2026-08-26T04:53:28Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://keenable.ai/
-  seen_at: '2026-08-25T22:45:07Z'
+  seen_at: '2026-08-26T04:53:28Z'
   metrics:
-    points: 9
-    comments: 4
+    points: 10
+    comments: 5
 ---
 
 # Keenable

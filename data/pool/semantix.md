@@ -33,16 +33,16 @@ url: https://semantix.ensureok.ai
 canonical_url: https://semantix.ensureok.ai
 summary: semantic agent kernel which make agent efficient and self-evolve
 first_seen: '2026-08-06T16:05:30Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-26T04:53:32Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://semantix.ensureok.ai
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-26T04:53:32Z'
   metrics:
-    stars: 146
+    stars: 151
     forks: 4
     open_issues: 10
 ---

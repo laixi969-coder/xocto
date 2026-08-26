@@ -38,16 +38,16 @@ summary: 'x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for 
   programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built
   with Zig — zero dependencies, single-binary output, cros'
 first_seen: '2026-08-22T14:28:41Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-26T04:53:32Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/duty1g/x64dbg-mcp-server
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-26T04:53:32Z'
   metrics:
-    stars: 1376
+    stars: 1404
     forks: 135
     open_issues: 0
 ---

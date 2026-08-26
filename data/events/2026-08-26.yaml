@@ -3042,3 +3042,1808 @@
   evidence_ids:
   - ev-5665c4b34bdf4493
   homepage: true
+- id: first-declaude
+  project_slug: declaude
+  event_type: first_discovered
+  occurred_at: '2026-08-26T02:04:04Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-469c44642ed2fe31
+  homepage: true
+- id: first-highrise
+  project_slug: highrise
+  event_type: first_discovered
+  occurred_at: '2026-08-25T23:21:50Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-9eb7d0523b8e4863
+  homepage: true
+- id: evt-80ea875f8e3e6bef
+  project_slug: texbrain
+  event_type: material_update
+  occurred_at: '2026-08-25T22:08:50Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-160fb7469bccc7be
+  homepage: true
+- id: first-mulmoterminal
+  project_slug: mulmoterminal
+  event_type: first_discovered
+  occurred_at: '2026-08-25T19:20:48Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-38d03ecb11d7050e
+  homepage: true
+- id: first-ifso
+  project_slug: ifso
+  event_type: first_discovered
+  occurred_at: '2026-08-25T18:48:42Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d6a267a705d27e80
+  homepage: true
+- id: first-pktscope
+  project_slug: pktscope
+  event_type: first_discovered
+  occurred_at: '2026-08-25T18:27:53Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - release
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-98183e2f582a4776
+  homepage: true
+- id: evt-463d65e33a884bd0
+  project_slug: vpsmon
+  event_type: material_update
+  occurred_at: '2026-08-25T17:13:59Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-7f0af26a8d11c24d
+  homepage: true
+- id: evt-3c43e9c92abf76b6
+  project_slug: latticedb
+  event_type: material_update
+  occurred_at: '2026-08-25T16:52:05Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-4e2b1e7d0ae3af19
+  homepage: true
+- id: evt-1021f34034403646
+  project_slug: carwatch
+  event_type: material_update
+  occurred_at: '2026-08-25T15:20:20Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e1c6eec57dac4d2d
+  homepage: true
+- id: evt-97b5c3d0c1fb545f
+  project_slug: keenable
+  event_type: material_update
+  occurred_at: '2026-08-25T15:12:52Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-eb8cdb29618ae5cc
+  homepage: true
+- id: evt-62c9c93b2a744ca1
+  project_slug: coffeetable
+  event_type: material_update
+  occurred_at: '2026-08-25T11:07:22Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-37e2e3ca43453950
+  homepage: true
+- id: evt-8e05fb7b6d77f167
+  project_slug: fdeploy
+  event_type: material_update
+  occurred_at: '2026-08-25T07:32:11Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-aef27ab8ae9cb72a
+  homepage: true
+- id: evt-12508ac90fa1c801
+  project_slug: flostep
+  event_type: material_update
+  occurred_at: '2026-08-24T22:45:24Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d675dd079086e48a
+  homepage: true
+- id: evt-08591d9d4270cf06
+  project_slug: kern
+  event_type: material_update
+  occurred_at: '2026-08-24T18:24:59Z'
+  discovered_at: '2026-08-26T04:53:28Z'
+  signals:
+  - update
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f68b24933abf7eff
+  homepage: true
+- id: evt-1660e42e74c31423
+  project_slug: cumora
+  event_type: material_update
+  occurred_at: '2026-08-17T09:13:52Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d0e866f851755e61
+  homepage: true
+- id: evt-99cb219ff0d9c8e3
+  project_slug: open-bot
+  event_type: material_update
+  occurred_at: '2026-08-17T00:44:59Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-77fadc21d2078fd1
+  homepage: true
+- id: evt-ca1a5a0ce235f684
+  project_slug: unlazy
+  event_type: material_update
+  occurred_at: '2026-08-09T23:39:12Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-5723e5df77fc3b7d
+  homepage: true
+- id: evt-196d4450a522fa9e
+  project_slug: sprix-sage-router
+  event_type: material_update
+  occurred_at: '2026-08-18T04:08:11Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-559eb364d2874db0
+  homepage: true
+- id: evt-f785cab25c944bec
+  project_slug: phone-harness
+  event_type: material_update
+  occurred_at: '2026-08-07T22:28:53Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-98e786fad453ec4a
+  homepage: true
+- id: evt-42d33904359ae402
+  project_slug: shuohao-skills
+  event_type: material_update
+  occurred_at: '2026-08-06T10:38:49Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-98d73ab236987cda
+  homepage: true
+- id: evt-a3fcc1b943aff6a7
+  project_slug: moli
+  event_type: material_update
+  occurred_at: '2026-08-10T13:20:30Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-b8a62261b556ed85
+  homepage: true
+- id: evt-d69f2b07d5a390df
+  project_slug: marketing-team-eve-template
+  event_type: material_update
+  occurred_at: '2026-08-12T12:34:43Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-663adfef647c7984
+  homepage: true
+- id: evt-289705ec5b98c33a
+  project_slug: awesome-deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-11T13:14:49Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-200f5400cff6395b
+  homepage: true
+- id: evt-3367ae7d82586c3a
+  project_slug: pgbot
+  event_type: material_update
+  occurred_at: '2026-08-11T23:41:52Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-0548805c9b4d633f
+  homepage: true
+- id: evt-92396ecbfc46ae40
+  project_slug: wake
+  event_type: material_update
+  occurred_at: '2026-08-18T09:46:23Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-8812c5a9efe823bf
+  homepage: true
+- id: evt-229ffcc34ac476f7
+  project_slug: mcp-server
+  event_type: material_update
+  occurred_at: '2026-08-07T11:13:26Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-425ce467eb31f788
+  homepage: true
+- id: evt-026963e43b12378a
+  project_slug: anti-slop
+  event_type: material_update
+  occurred_at: '2026-08-07T10:29:56Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-db4697e72c10e0e5
+  homepage: true
+- id: evt-1fa5b707981ea9b9
+  project_slug: stop-that-shit
+  event_type: material_update
+  occurred_at: '2026-08-11T15:31:45Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-604bde958f4adcd7
+  homepage: true
+- id: evt-44862c3edb94d327
+  project_slug: doop
+  event_type: material_update
+  occurred_at: '2026-08-22T15:40:51Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-129f2bf5215d996e
+  homepage: true
+- id: evt-ee30b4d6ce4d85b7
+  project_slug: fullstack-agent
+  event_type: material_update
+  occurred_at: '2026-08-17T04:00:03Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-3f7d62f71cea7d5a
+  homepage: true
+- id: evt-02275ce36337d795
+  project_slug: oc
+  event_type: material_update
+  occurred_at: '2026-08-18T13:00:30Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-ef7a7b48515627da
+  homepage: true
+- id: evt-b0bc68cf47aebd95
+  project_slug: hunter-community
+  event_type: material_update
+  occurred_at: '2026-08-10T10:37:07Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-5351020ebaa97cd7
+  homepage: true
+- id: evt-530cd3bdecf04380
+  project_slug: huashu-excel
+  event_type: material_update
+  occurred_at: '2026-08-23T05:38:43Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f75a283d738e3d39
+  homepage: true
+- id: evt-e20c20d0d2841730
+  project_slug: surreal-pop-collage
+  event_type: material_update
+  occurred_at: '2026-08-08T18:11:15Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-ab4ff961183a733a
+  homepage: true
+- id: evt-96453ea2534986e2
+  project_slug: agenttrail
+  event_type: material_update
+  occurred_at: '2026-08-21T21:14:33Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f56eae82c912b127
+  homepage: true
+- id: first-halofy
+  project_slug: halofy
+  event_type: first_discovered
+  occurred_at: '2026-08-22T06:09:53Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-23943d8a98f68590
+  homepage: true
+- id: evt-75195aff12463de5
+  project_slug: modex-mh-agent
+  event_type: material_update
+  occurred_at: '2026-08-14T01:42:04Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-2a539dd1fa924978
+  homepage: true
+- id: evt-dc0b58df096f99ad
+  project_slug: wenai
+  event_type: material_update
+  occurred_at: '2026-08-25T02:59:59Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-83621fd8897b7468
+  homepage: true
+- id: evt-a9879943056430c1
+  project_slug: artemis
+  event_type: material_update
+  occurred_at: '2026-08-13T17:59:37Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-9560b42c2d985bf9
+  homepage: true
+- id: evt-b6614032e2ca4cba
+  project_slug: godmode
+  event_type: material_update
+  occurred_at: '2026-08-13T04:06:22Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-a8755c52013fdb3e
+  homepage: true
+- id: evt-85f0eb1424adf244
+  project_slug: jobflow
+  event_type: material_update
+  occurred_at: '2026-08-15T08:03:04Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d3b54cc4d8efe053
+  homepage: true
+- id: evt-e99fbd0f4d1d5647
+  project_slug: brahma-echo
+  event_type: material_update
+  occurred_at: '2026-08-10T10:43:34Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-5f5b85840477c815
+  homepage: true
+- id: evt-61eff5776a860b16
+  project_slug: ai-video-maker
+  event_type: material_update
+  occurred_at: '2026-08-15T13:00:24Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-a4990a69ef19b42e
+  homepage: true
+- id: evt-f21b3f783cc6191d
+  project_slug: anvilwiki
+  event_type: material_update
+  occurred_at: '2026-08-11T15:25:42Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-2cbf5a2300362f56
+  homepage: true
+- id: evt-968b79239769baad
+  project_slug: dualforge-workflow
+  event_type: material_update
+  occurred_at: '2026-08-15T17:58:17Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e66467d3cf8ea44a
+  homepage: true
+- id: evt-8ceaf4d719b04ae4
+  project_slug: x64dbg-mcp-server
+  event_type: material_update
+  occurred_at: '2026-08-22T14:28:41Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-051bb0029a396152
+  homepage: true
+- id: evt-76e1d3c0cb1e6da8
+  project_slug: northcinder
+  event_type: material_update
+  occurred_at: '2026-08-17T11:42:31Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f2fb0a407361b1a7
+  homepage: true
+- id: evt-0dccfca5ca0e4e19
+  project_slug: getopen
+  event_type: material_update
+  occurred_at: '2026-08-11T17:53:51Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-55ac96aa3ce47007
+  homepage: true
+- id: evt-3051e28641d4e3f4
+  project_slug: awesome-deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-13T13:54:05Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-68d337b845ad8766
+  homepage: true
+- id: evt-ed3a22d93eb68818
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-17T20:37:41Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-192afe16561f2b1a
+  homepage: true
+- id: evt-980ac4e9ac576aa4
+  project_slug: cove-sensory-mcp
+  event_type: material_update
+  occurred_at: '2026-08-08T09:05:59Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-c3d494f69da23669
+  homepage: true
+- id: evt-6fd0efa7cd151235
+  project_slug: swissdevjobs-cli
+  event_type: material_update
+  occurred_at: '2026-08-24T19:59:58Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-06e9cb961f89ecb2
+  homepage: true
+- id: first-wordpress-mcp-elementor-wppilot
+  project_slug: wordpress-mcp-elementor-wppilot
+  event_type: first_discovered
+  occurred_at: '2026-08-10T21:50:19Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-a96531fc9470f565
+  homepage: true
+- id: evt-5b416622969693bb
+  project_slug: skill-buddy
+  event_type: material_update
+  occurred_at: '2026-08-06T10:06:16Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-065b5b90204c2f36
+  homepage: true
+- id: evt-b6edb9a475ce343b
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-14T03:54:20Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e0746c5ae3c72345
+  homepage: true
+- id: evt-e03e7b04ab33cd61
+  project_slug: fx
+  event_type: material_update
+  occurred_at: '2026-08-11T08:57:04Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-02756364a940e28f
+  homepage: true
+- id: evt-2a32fc1bb268c1d1
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-17T22:40:47Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-a1963b121d55e57f
+  homepage: true
+- id: evt-c60f69c104c82c03
+  project_slug: herdrm
+  event_type: material_update
+  occurred_at: '2026-08-19T06:55:39Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-16e2aa1aa8903523
+  homepage: true
+- id: evt-f83ba295d5b8016a
+  project_slug: harnessrouter
+  event_type: material_update
+  occurred_at: '2026-08-09T20:19:14Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-fe27fe58c9cc4ff5
+  homepage: true
+- id: evt-90a716a41549479a
+  project_slug: zoetrope
+  event_type: material_update
+  occurred_at: '2026-08-18T10:48:39Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-674fef7189ee3dc5
+  homepage: true
+- id: evt-ec2cf09582ed5b8a
+  project_slug: gamephanes
+  event_type: material_update
+  occurred_at: '2026-08-21T02:57:42Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f875de7f7c2d93e0
+  homepage: true
+- id: evt-ae3a08ba3c376230
+  project_slug: hero-anti-overdefense
+  event_type: material_update
+  occurred_at: '2026-08-11T05:08:30Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-bfe7940dfa9a130e
+  homepage: true
+- id: evt-29df491976e63004
+  project_slug: benjamin-plus-skill
+  event_type: material_update
+  occurred_at: '2026-08-17T11:00:29Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-2f21d4f953eef9ed
+  homepage: true
+- id: evt-241e69ff9789c352
+  project_slug: procoder
+  event_type: material_update
+  occurred_at: '2026-08-16T07:47:17Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-617a62421455ee1e
+  homepage: true
+- id: evt-a9addf05b42f0bf3
+  project_slug: mcp-server
+  event_type: material_update
+  occurred_at: '2026-08-07T08:14:34Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-1c01da251867f6ec
+  homepage: true
+- id: evt-bb538d213cb3e415
+  project_slug: vibepulse
+  event_type: material_update
+  occurred_at: '2026-08-12T10:30:31Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-4c57df74a3d16ea8
+  homepage: true
+- id: evt-34469fae5613658f
+  project_slug: peerbridge-mcp
+  event_type: material_update
+  occurred_at: '2026-08-17T18:17:08Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-9b4fe0939f6c4440
+  homepage: true
+- id: evt-e4951564b1a2c6d5
+  project_slug: monocode
+  event_type: material_update
+  occurred_at: '2026-08-20T09:16:02Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-c448ae91dbb84d69
+  homepage: true
+- id: evt-b3e455077f077c95
+  project_slug: aoci-code
+  event_type: material_update
+  occurred_at: '2026-08-08T11:33:08Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-12aa19e75c51ffe8
+  homepage: true
+- id: evt-1986fabc330f2cf5
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-16T12:45:36Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e5fb16d94ed5e2a6
+  homepage: true
+- id: evt-1aeddf5aeefbf4d4
+  project_slug: agentic-playwright
+  event_type: material_update
+  occurred_at: '2026-08-13T08:12:20Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-3a12156312dd3133
+  homepage: true
+- id: evt-504dc8d21cf67830
+  project_slug: getopen
+  event_type: material_update
+  occurred_at: '2026-08-20T18:28:10Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f7e69bc151fa040e
+  homepage: true
+- id: evt-86124ed4162568e2
+  project_slug: dsh-crew
+  event_type: material_update
+  occurred_at: '2026-08-16T15:19:41Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e9347a102cb3fed5
+  homepage: true
+- id: evt-c87a1b9988b10ece
+  project_slug: lanshu-create-ai-presenter-video
+  event_type: material_update
+  occurred_at: '2026-08-20T13:40:06Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-163d6f716fbe2ce8
+  homepage: true
+- id: evt-f46b7a491c50609c
+  project_slug: bloub
+  event_type: material_update
+  occurred_at: '2026-08-15T13:21:23Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-853a87559199cf55
+  homepage: true
+- id: evt-17849918e00e0f53
+  project_slug: mixamo-llm-mocap
+  event_type: material_update
+  occurred_at: '2026-08-17T21:05:02Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-7858852a64412654
+  homepage: true
+- id: evt-528942038eb82961
+  project_slug: bare-browser
+  event_type: material_update
+  occurred_at: '2026-08-15T21:42:56Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-636b21ffb870b4af
+  homepage: true
+- id: evt-0413df729059844f
+  project_slug: ra-bench
+  event_type: material_update
+  occurred_at: '2026-08-13T01:50:44Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-53be7df4a17604f1
+  homepage: true
+- id: evt-d69b3f395a25a9f4
+  project_slug: h3-game-sprites
+  event_type: material_update
+  occurred_at: '2026-08-17T19:29:39Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-901fabe0e100ba1c
+  homepage: true
+- id: evt-229836d78e14cf95
+  project_slug: scholartube
+  event_type: material_update
+  occurred_at: '2026-08-11T03:19:35Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-93184b484d8a0ad3
+  homepage: true
+- id: evt-206055758ba7ac38
+  project_slug: dsh-omi-voice
+  event_type: material_update
+  occurred_at: '2026-08-18T04:33:48Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-4778b949e2c948f5
+  homepage: true
+- id: evt-7def65bd62bfeb76
+  project_slug: ai-visualizer
+  event_type: material_update
+  occurred_at: '2026-08-16T19:45:33Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-0e4b5f2e145cf2e3
+  homepage: true
+- id: evt-0dd8bbe383f25159
+  project_slug: donsetch
+  event_type: material_update
+  occurred_at: '2026-08-07T10:13:16Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-ea29da0e22a616c5
+  homepage: true
+- id: evt-6426a6519b6eebd6
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-20T16:22:22Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-3944510f2bbb07ee
+  homepage: true
+- id: evt-6242e9e6560e7eea
+  project_slug: multiagent-search
+  event_type: material_update
+  occurred_at: '2026-08-07T04:19:43Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-4220e9cdfd5d771c
+  homepage: true
+- id: evt-a49544083cee0c3e
+  project_slug: bansos-router
+  event_type: material_update
+  occurred_at: '2026-08-17T23:53:59Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-eb027c8486b938ad
+  homepage: true
+- id: evt-fa1e5fca524b63f6
+  project_slug: enterprise-system-design
+  event_type: material_update
+  occurred_at: '2026-08-12T04:03:15Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-0b0a8ff82ad93e24
+  homepage: true
+- id: evt-9fcb396068149106
+  project_slug: deepseek-harness-handbook
+  event_type: material_update
+  occurred_at: '2026-08-14T06:25:52Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f979b9afbedad816
+  homepage: true
+- id: evt-d92d3ab63515c3ac
+  project_slug: deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-13T11:56:32Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-5d6274bf1e085757
+  homepage: true
+- id: evt-9b451e4121bcfb2a
+  project_slug: deepseek-harness-desktop
+  event_type: material_update
+  occurred_at: '2026-08-13T16:30:50Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-7e267a2378ed09c8
+  homepage: true
+- id: evt-70c8cc92b921b6ee
+  project_slug: awesome-dsh-plugin
+  event_type: material_update
+  occurred_at: '2026-08-13T13:55:31Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-8a6e7f04dad6006f
+  homepage: true
+- id: evt-85f05aa501e18257
+  project_slug: dsh-routing-suite
+  event_type: material_update
+  occurred_at: '2026-08-14T21:20:55Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-0302e3ae2425de39
+  homepage: true
+- id: evt-36a55b397ddcefe2
+  project_slug: dsh-web
+  event_type: material_update
+  occurred_at: '2026-08-12T05:15:20Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-67a0a0ace902f6b3
+  homepage: true
+- id: evt-4a4afcd9949baed1
+  project_slug: dsh-better-sidebar
+  event_type: material_update
+  occurred_at: '2026-08-07T16:04:00Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-ac33f75adf4a41a2
+  homepage: true
+- id: evt-a7847d8fe52fedae
+  project_slug: dsh-deep-whale
+  event_type: material_update
+  occurred_at: '2026-08-13T13:02:14Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-1e13c4c172b70cff
+  homepage: true
+- id: evt-d7daaa6cb411c128
+  project_slug: deepseek-harness-eac
+  event_type: material_update
+  occurred_at: '2026-08-14T16:29:54Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-bfe1c69364cfe40e
+  homepage: true
+- id: evt-c9384e230787ec9c
+  project_slug: deepseek-harness-desktop
+  event_type: material_update
+  occurred_at: '2026-08-14T02:36:29Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e0bd3c32b310509e
+  homepage: true
+- id: evt-acdbc4c1eafa1fc0
+  project_slug: dsh-agent-teams
+  event_type: material_update
+  occurred_at: '2026-08-12T13:41:50Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-387af1fe62d8f296
+  homepage: true
+- id: evt-209a2b303c649307
+  project_slug: deepseek-balance-whale-widget
+  event_type: material_update
+  occurred_at: '2026-08-18T03:13:51Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-9bdd090d0fa4da34
+  homepage: true
+- id: evt-cacec861db436ee1
+  project_slug: dsh-vision-router
+  event_type: material_update
+  occurred_at: '2026-08-13T18:57:47Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d642899735c37046
+  homepage: true
+- id: evt-c080c8e2c25e0744
+  project_slug: dsh-im
+  event_type: material_update
+  occurred_at: '2026-08-14T20:40:06Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-338c4bffc76c4b7b
+  homepage: true
+- id: evt-33c46546aba2f2e2
+  project_slug: agent-vision-toolkit
+  event_type: material_update
+  occurred_at: '2026-08-13T12:36:34Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-a68103568e88fe57
+  homepage: true
+- id: evt-5e22c0c7e163307d
+  project_slug: dsh-pocket
+  event_type: material_update
+  occurred_at: '2026-08-15T09:36:29Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d87fe92b40efc7c4
+  homepage: true
+- id: evt-8e20c305d0eab094
+  project_slug: dsh-desktop-2
+  event_type: material_update
+  occurred_at: '2026-08-13T10:41:33Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e756af204bc3b4c4
+  homepage: true
+- id: evt-4366263709213f9e
+  project_slug: dsh-desktop
+  event_type: material_update
+  occurred_at: '2026-08-13T16:00:16Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-cf8a395b58727a7d
+  homepage: true
+- id: evt-c56b4a2a48182823
+  project_slug: minke
+  event_type: material_update
+  occurred_at: '2026-08-15T01:49:38Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-dbd40448fdd7dce5
+  homepage: true
+- id: evt-1e2231d62fb71280
+  project_slug: deepseek-harness
+  event_type: material_update
+  occurred_at: '2026-08-15T03:00:06Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-9934cc6b6e86ca2c
+  homepage: true
+- id: evt-c4d7a01fb29ac661
+  project_slug: dsh-at-file
+  event_type: material_update
+  occurred_at: '2026-08-13T12:00:09Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-6384d311747c5f68
+  homepage: true
+- id: evt-82bd355a4b1392c5
+  project_slug: dsh-browser
+  event_type: material_update
+  occurred_at: '2026-08-06T09:05:10Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-151bfed807f83edc
+  homepage: true
+- id: evt-cbe8bcda350e051d
+  project_slug: dsh-pet
+  event_type: material_update
+  occurred_at: '2026-08-14T00:38:45Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-9bdf208048df4f2b
+  homepage: true
+- id: evt-5ef170857061ab90
+  project_slug: dsh-transparent-ui-plugin
+  event_type: material_update
+  occurred_at: '2026-08-14T14:10:42Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-8d64ed0fd81cff63
+  homepage: true
+- id: evt-89ac35cd82b0e6c4
+  project_slug: dsh-genui
+  event_type: material_update
+  occurred_at: '2026-08-13T13:07:52Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-46eec7cffdddb219
+  homepage: true
+- id: evt-6756eccc1458ad50
+  project_slug: awesome-deepseek-harness-plugins
+  event_type: material_update
+  occurred_at: '2026-08-13T13:52:04Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-a5f06228382d9834
+  homepage: true
+- id: evt-92ac273330893dd8
+  project_slug: whale-girl
+  event_type: material_update
+  occurred_at: '2026-08-10T15:03:03Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-60d8d004c48a17d8
+  homepage: true
+- id: evt-9e747681853c63ed
+  project_slug: dsh-anchored-standard
+  event_type: material_update
+  occurred_at: '2026-08-14T14:06:39Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-f8193e16369af36c
+  homepage: true
+- id: evt-afb0c46f0f573a7b
+  project_slug: dsh-tui
+  event_type: material_update
+  occurred_at: '2026-08-13T12:49:31Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-021fc8401d43dce7
+  homepage: true
+- id: evt-cbf17f1f56e8a855
+  project_slug: dsh-market
+  event_type: material_update
+  occurred_at: '2026-08-14T04:58:15Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-8db2dbd79d35e90b
+  homepage: true
+- id: evt-c6aea5d8f66c7580
+  project_slug: dsh-context
+  event_type: material_update
+  occurred_at: '2026-08-14T08:23:28Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-70391e7db512017e
+  homepage: true
+- id: evt-776a2a808eda72f1
+  project_slug: dsh-handbook
+  event_type: material_update
+  occurred_at: '2026-08-13T15:22:29Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-24be52a74a7ab7f6
+  homepage: true
+- id: evt-2355752e126b7ff8
+  project_slug: dsh-ads
+  event_type: material_update
+  occurred_at: '2026-08-09T19:06:36Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-ef748f45c4c6b7cb
+  homepage: true
+- id: evt-b5b0dae5f73c3941
+  project_slug: deepseek-design
+  event_type: material_update
+  occurred_at: '2026-08-15T13:08:53Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-824159546f8267b9
+  homepage: true
+- id: evt-649318651d69f8cc
+  project_slug: dsh-ios
+  event_type: material_update
+  occurred_at: '2026-08-19T18:02:50Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d53e13320a68e512
+  homepage: true
+- id: evt-f7370d1964735e1d
+  project_slug: appllama-skills
+  event_type: material_update
+  occurred_at: '2026-08-13T07:19:54Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-b9fc993e6956b902
+  homepage: true
+- id: evt-636de0548609856e
+  project_slug: jarvis-assistant-vocal
+  event_type: material_update
+  occurred_at: '2026-08-07T15:30:20Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-469e012c5677a39f
+  homepage: true
+- id: evt-778614ebc7963dae
+  project_slug: awesome-ai-harness
+  event_type: material_update
+  occurred_at: '2026-08-16T04:57:52Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-a82ee6998ceb8e4d
+  homepage: true
+- id: evt-42013db334d51f2e
+  project_slug: xinchao-nian
+  event_type: material_update
+  occurred_at: '2026-08-09T05:29:33Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-0f762fc6d9bb51ed
+  homepage: true
+- id: evt-37a8228519bad252
+  project_slug: dsh-skill-mcp-panel
+  event_type: material_update
+  occurred_at: '2026-08-14T01:18:04Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-3a5ee8a0d438cb9c
+  homepage: true
+- id: evt-5b244c5f6d3e59e8
+  project_slug: rakazo
+  event_type: material_update
+  occurred_at: '2026-08-13T06:28:56Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-2c0d8f1a058d1780
+  homepage: true
+- id: evt-2ebc23c2f5651368
+  project_slug: frontieragent
+  event_type: material_update
+  occurred_at: '2026-08-22T05:07:35Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-8ff43c821f5e5f96
+  homepage: true
+- id: evt-20193f6916b5fdd9
+  project_slug: vibe-coding-toolkit
+  event_type: material_update
+  occurred_at: '2026-08-14T23:41:31Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-dbd1416e534efcb5
+  homepage: true
+- id: evt-ef924291a51d623e
+  project_slug: semantix
+  event_type: material_update
+  occurred_at: '2026-08-06T16:05:30Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-1cacf01de2e3ad9d
+  homepage: true
+- id: evt-775c41e22f9db730
+  project_slug: repo-context-ledger
+  event_type: material_update
+  occurred_at: '2026-08-11T10:14:00Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-b452780e387dfa40
+  homepage: true
+- id: evt-109db166319125eb
+  project_slug: spotpatch
+  event_type: material_update
+  occurred_at: '2026-08-07T17:21:08Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-d27a154084723cff
+  homepage: true
+- id: evt-5c03e78a14878239
+  project_slug: codex-command-center
+  event_type: material_update
+  occurred_at: '2026-08-17T16:45:32Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-25f95b46f1d0e57d
+  homepage: true
+- id: first-hodstack
+  project_slug: hodstack
+  event_type: first_discovered
+  occurred_at: '2026-08-09T12:09:03Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - release
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-6f733a3f47fbf8b7
+  homepage: true
+- id: evt-bcd7a9b4bdd0b249
+  project_slug: 4danyone
+  event_type: material_update
+  occurred_at: '2026-08-10T07:46:06Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-2405b1cb5175067e
+  homepage: true
+- id: evt-83b40f4d1f8ec26c
+  project_slug: comfyui-h3-facerefine
+  event_type: material_update
+  occurred_at: '2026-08-12T11:18:15Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-fea3bcffa5927480
+  homepage: true
+- id: evt-bfc3aa6d8bda5469
+  project_slug: openroad-flow-scripts
+  event_type: material_update
+  occurred_at: '2026-08-12T19:39:48Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-1c093280b94e0a51
+  homepage: true
+- id: evt-9927387590caa52a
+  project_slug: zeta-23-lean
+  event_type: material_update
+  occurred_at: '2026-08-06T23:56:11Z'
+  discovered_at: '2026-08-26T04:53:32Z'
+  signals:
+  - update
+  - open_source
+  - adoption
+  summary: ''
+  evidence_ids:
+  - ev-e082fea008e75248
+  homepage: true
+- id: evt-65afb7307077fc5e
+  project_slug: canter-t2i-demo
+  event_type: material_update
+  occurred_at: '2026-08-25T11:48:09Z'
+  discovered_at: '2026-08-26T04:53:53Z'
+  signals:
+  - update
+  - open_source
+  summary: ''
+  evidence_ids:
+  - ev-9cb22d18aca45279
+  homepage: true

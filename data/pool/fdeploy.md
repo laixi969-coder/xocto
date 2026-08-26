@@ -20,17 +20,17 @@ url: https://fdeploy.com/
 canonical_url: https://fdeploy.com
 summary: I built self-hosted deployment automation tool for Windows and IIS
 first_seen: '2026-08-25T07:32:11Z'
-last_seen: '2026-08-25T22:45:07Z'
+last_seen: '2026-08-26T04:53:28Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://fdeploy.com/
-  seen_at: '2026-08-25T22:45:07Z'
+  seen_at: '2026-08-26T04:53:28Z'
   metrics:
-    points: 5
-    comments: 1
+    points: 27
+    comments: 13
 ---
 
 # fdeploy

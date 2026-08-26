@@ -20,17 +20,17 @@ url: https://github.com/leodeim/vpsmon
 canonical_url: https://github.com/leodeim/vpsmon
 summary: Lightweight system monitor for Linux VPS written in Go
 first_seen: '2026-08-25T17:13:59Z'
-last_seen: '2026-08-25T22:45:07Z'
+last_seen: '2026-08-26T04:53:28Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/leodeim/vpsmon
-  seen_at: '2026-08-25T22:45:07Z'
+  seen_at: '2026-08-26T04:53:28Z'
   metrics:
-    points: 41
-    comments: 14
+    points: 52
+    comments: 16
 ---
 
 # vpsmon

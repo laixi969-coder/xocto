@@ -20,17 +20,17 @@ url: https://flostep.dev/
 canonical_url: https://flostep.dev
 summary: Diagrams people can actually walk through
 first_seen: '2026-08-24T22:45:24Z'
-last_seen: '2026-08-25T22:45:07Z'
+last_seen: '2026-08-26T04:53:28Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://flostep.dev/
-  seen_at: '2026-08-25T22:45:07Z'
+  seen_at: '2026-08-26T04:53:28Z'
   metrics:
-    points: 25
-    comments: 9
+    points: 26
+    comments: 13
 ---
 
 # Flostep

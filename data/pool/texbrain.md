@@ -20,17 +20,17 @@ url: https://github.com/swimmingbrain/texbrain
 canonical_url: https://github.com/swimmingbrain/texbrain
 summary: a LaTeX editor that runs pdfTeX in the browser via WASM
 first_seen: '2026-08-25T22:08:50Z'
-last_seen: '2026-08-25T22:45:07Z'
+last_seen: '2026-08-26T04:53:28Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/swimmingbrain/texbrain
-  seen_at: '2026-08-25T22:45:07Z'
+  seen_at: '2026-08-26T04:53:28Z'
   metrics:
-    points: 6
-    comments: 1
+    points: 70
+    comments: 11
 ---
 
 # TeXbrain

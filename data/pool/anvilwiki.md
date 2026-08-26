@@ -33,17 +33,17 @@ canonical_url: https://github.com/PNGTRID/AnvilWiki
 summary: ⚒️ Open-source game wiki template. Astro + Cloudflare Pages. Free, fast, beginner-friendly. Static-first,
   zero-JS, AI-native content workflow, unlimited bandwidth.
 first_seen: '2026-08-11T15:25:42Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-26T04:53:32Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PNGTRID/AnvilWiki
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-26T04:53:32Z'
   metrics:
-    stars: 48
-    forks: 33
+    stars: 53
+    forks: 35
     open_issues: 1
 ---
 
