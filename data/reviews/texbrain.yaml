@@ -80,3 +80,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-full-texbrain-2026-08-27
+  project_slug: texbrain
+  level: full
+  reviewed_at: '2026-08-27T03:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户无需安装本地环境即可编译 LaTeX 文档的痛点，交付浏览器内实时预览和编译，痛点刚性中等。
+    evidence_ids:
+    - ev-e1a3c78dd370e018
+  - gate: consensus
+    status: insufficient
+    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未公开定价或付费主体，商业模式不明确，但需求结构成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性缺乏可复现的公开证据，需进一步验证。
+    evidence_ids: []
+  next_validation: 追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''

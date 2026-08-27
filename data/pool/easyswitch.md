@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/easyswitch
 summary: One mouse, keyboard and second screen for all your computers
 first_seen: '2026-08-22T19:07:18Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

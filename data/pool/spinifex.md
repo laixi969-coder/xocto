@@ -21,7 +21,7 @@ canonical_url: https://github.com/mulgadc/spinifex
 summary: run EC2/S3/IAM/EKS on your own hardware, AWS CLI unchanged
 first_seen: '2026-08-26T06:23:18Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

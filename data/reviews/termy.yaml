@@ -2,25 +2,51 @@
   project_slug: termy
   level: initial
   reviewed_at: '2026-08-27T03:18:34Z'
-  verdict: true_demand
-  signal_level: 初步成立
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 它解决的用户需求和痛点是：“Learn languages from games, videos, and websites”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    status: insufficient
+    reason: 公开材料仅描述为从游戏、视频和网站学习语言，未明确解决的具体痛点或替代的旧工作流，缺乏用户场景。
     evidence_ids:
     - ev-84813961dffcba70
   - gate: consensus
     status: insufficient
-    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    reason: 未进入：价值不成立。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    reason: 未进入：价值不成立。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    reason: 未进入：价值不成立。
     evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  next_validation: 关注产品官网是否提供详细功能说明、支持的语言列表或用户评价。
+  market: ''
+- id: req-full-termy-2026-08-27
+  project_slug: termy
+  level: full
+  reviewed_at: '2026-08-27T03:34:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为从游戏、视频和网站学习语言，未明确解决的具体痛点或替代的旧工作流，缺乏用户场景。
+    evidence_ids:
+    - ev-84813961dffcba70
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品官网是否提供详细功能说明、支持的语言列表或用户评价。
   market: ''

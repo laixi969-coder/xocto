@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/zing-0-5-world-model
 summary: Walk through a world Zing-0.5 hallucinates live around you
 first_seen: '2026-08-26T22:48:06Z'
 last_seen: '2026-08-27T03:18:58Z'
-status: pending_filter
+status: market_context
 sources:
 - huggingface
 sightings:

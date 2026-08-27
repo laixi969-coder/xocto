@@ -2,25 +2,54 @@
   project_slug: calibrarobotics
   level: initial
   reviewed_at: '2026-08-27T03:18:34Z'
-  verdict: true_demand
-  signal_level: 初步成立
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 它解决的用户需求和痛点是：“A Layer for robotics dataset quality”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    status: insufficient
+    reason: 它解决机器人数据集质量评估的需求，但痛点不明确：现有工具与流程是否不足，以及质量检测是否刚性，尚不清楚。
     evidence_ids:
     - ev-52cd01e75bd86f31
   - gate: consensus
     status: insufficient
-    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    reason: 社区讨论仅 5 分和 4 条评论，缺乏广泛共识或采用证据。
+    evidence_ids:
+    - ev-52cd01e75bd86f31
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，无法判断付费方与收费方式。
+    evidence_ids:
+    - ev-52cd01e75bd86f31
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体检测指标与交付物，承诺能否确定性交付无法核验。
+    evidence_ids:
+    - ev-52cd01e75bd86f31
+  next_validation: 关注官网是否披露具体检测指标、客户案例或定价，以及是否有机器人团队采用或付费的证据。
+  market: ''
+- id: req-full-calibrarobotics-2026-08-27
+  project_slug: calibrarobotics
+  level: full
+  reviewed_at: '2026-08-27T03:31:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决机器人数据集质量评估的需求，但痛点不明确：现有工具与流程是否不足，以及质量检测是否刚性，尚不清楚。
+    evidence_ids:
+    - ev-52cd01e75bd86f31
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
     evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  next_validation: 关注官网是否披露具体检测指标、客户案例或定价，以及是否有机器人团队采用或付费的证据。
   market: ''

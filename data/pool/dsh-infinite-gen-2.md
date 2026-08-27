@@ -22,7 +22,7 @@ summary: DeepSeek 专用破甲插件「无限二代」dsh-infinite-gen-2 — arm
   ⭐
 first_seen: '2026-08-15T15:47:15Z'
 last_seen: '2026-08-27T03:18:37Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -184,3 +184,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-pocket-2026-08-27
+  project_slug: dsh-pocket
+  level: full
+  reviewed_at: '2026-08-27T03:32:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户远程访问DSH的需求，痛点在于电脑不在身边，交付为手机扫码同步访问，可确定发生。
+    evidence_ids:
+    - ev-8bba941edcb4775e
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有696星37复刻，社区关注但缺乏持续采用证据。
+    evidence_ids:
+    - ev-8bba941edcb4775e
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向to C，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，缺少可复现的部署文档或用户案例。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue和discussion，确认实际部署场景和用户反馈。
+  market: ''

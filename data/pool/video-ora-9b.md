@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/OraRL/video-ora-9b-demo
 summary: Explore all seven Video-ORA task families
 first_seen: '2026-08-26T05:23:36Z'
 last_seen: '2026-08-27T03:18:58Z'
-status: pending_filter
+status: market_context
 sources:
 - huggingface
 sightings:

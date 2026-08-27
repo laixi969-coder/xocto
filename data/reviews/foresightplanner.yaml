@@ -7,20 +7,52 @@
   gates:
   - gate: value
     status: supported
-    reason: '它解决的用户需求和痛点是：“I made a retirement simulator: 125 years of data, 25 countries”。付钱的人尚未从公开材料确认，这不等于没有这个需求。'
+    reason: 它解决个人和顾问在退休规划中缺乏长期数据支撑、难以评估不同策略风险的问题。痛点在于传统计算器过于简化，模拟可提供更可靠的决策依据。
     evidence_ids:
     - ev-e7330c5b2f967b0f
   - gate: consensus
     status: insufficient
-    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
-    evidence_ids: []
+    reason: 社区讨论有 15 分和 33 条评论，表明有一定兴趣，但缺乏持续采用或付费证据。
+    evidence_ids:
+    - ev-e7330c5b2f967b0f
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
-    evidence_ids: []
+    reason: 潜在买方可能是个人用户或财务顾问，但未披露定价或商业模式。
+    evidence_ids:
+    - ev-e7330c5b2f967b0f
   - gate: truth
+    status: supported
+    reason: 产品贴近退休规划的第一性目标：确保财务安全。基于历史数据的模拟可提供确定性交付，但需验证模型准确性。
+    evidence_ids:
+    - ev-e7330c5b2f967b0f
+  next_validation: 检查官网是否提供定价或免费试用，以及用户评论或案例研究。
+  market: ''
+- id: req-full-foresightplanner-2026-08-27
+  project_slug: foresightplanner
+  level: full
+  reviewed_at: '2026-08-27T03:32:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人和顾问在退休规划中缺乏长期数据支撑、难以评估不同策略风险的问题。痛点在于传统计算器过于简化，模拟可提供更可靠的决策依据。
+    evidence_ids:
+    - ev-e7330c5b2f967b0f
+  - gate: consensus
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+    reason: 社区讨论有 15 分和 33 条评论，表明有一定兴趣，但缺乏持续采用或付费证据。
+    evidence_ids:
+    - ev-e7330c5b2f967b0f
+  - gate: model
+    status: insufficient
+    reason: 潜在买方可能是个人用户或财务顾问，但未披露定价或商业模式。
+    evidence_ids:
+    - ev-e7330c5b2f967b0f
+  - gate: truth
+    status: supported
+    reason: 产品贴近退休规划的第一性目标：确保财务安全。基于历史数据的模拟可提供确定性交付，但需验证模型准确性。
+    evidence_ids:
+    - ev-e7330c5b2f967b0f
+  next_validation: 检查官网是否提供定价或免费试用，以及用户评论或案例研究。
   market: ''

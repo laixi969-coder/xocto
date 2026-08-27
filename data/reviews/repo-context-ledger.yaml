@@ -190,3 +190,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-repo-context-ledger-2026-08-27
+  project_slug: repo-context-ledger
+  level: full
+  reviewed_at: '2026-08-27T03:33:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在 AI 编码工具间切换时上下文丢失的痛点，通过同步仓库上下文、功能规格和变更交接，确保项目状态一致，痛点明确且交付可确定。
+    evidence_ids:
+    - ev-8a73db80be9943ba
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 104 收藏，说明社区关注，但缺乏持续采用或付费证据。
+    evidence_ids:
+    - ev-8a73db80be9943ba
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，可能面向开发者或企业，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

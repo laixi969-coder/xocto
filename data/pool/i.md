@@ -22,7 +22,7 @@ summary: "- AI 辅助\r\n- SFTP 拖拽上传下载\r\n- docker 容器管理\r\n-
   \n\r\nhttps://github.com/xinghelee/Berth"
 first_seen: '2026-08-27T03:08:34Z'
 last_seen: '2026-08-27T03:18:32Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

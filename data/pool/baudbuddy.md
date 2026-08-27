@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/baudbuddy-serial-terminal
 summary: A native macOS serial terminal with a file server built in
 first_seen: '2026-08-25T20:15:51Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/minimax-h3-prompt-rewr
 summary: Rewrite prompts into structured MiniMax-H3 video prompts
 first_seen: '2026-08-26T13:28:34Z'
 last_seen: '2026-08-27T03:18:58Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

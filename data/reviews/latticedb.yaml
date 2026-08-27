@@ -80,3 +80,31 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-full-latticedb-2026-08-27
+  project_slug: latticedb
+  level: full
+  reviewed_at: '2026-08-27T03:33:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者需要嵌入式图数据库时，能像 SQLite 一样轻量嵌入应用、存储和查询图结构数据的需求；痛点在于现有图数据库部署重、集成难，而 LatticeDB 提供轻量级体验。交付可确定，但具体功能和性能待核验。
+    evidence_ids:
+    - ev-1a151efb32f1018b
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅有项目描述，未见星标、复刻或讨论数据，无法判断社区共识是否形成。
+    evidence_ids:
+    - ev-1a151efb32f1018b
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或商业模式，买方可能是开发者或企业，但付费路径不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品是否贴近图数据库的第一性目标（高效图查询）尚可，但交付能否确定（性能、稳定性）未验证。
+    evidence_ids:
+    - ev-1a151efb32f1018b
+  next_validation: 追踪 GitHub 仓库的 issue、discussion 和 release 记录，确认是否有真实用户部署案例或性能测试报告。
+  market: ''

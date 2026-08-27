@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/choclift-workflow-sweetener
 summary: A touch-bar to control your Mac from your iPad
 first_seen: '2026-08-24T18:06:20Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

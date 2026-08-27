@@ -7,20 +7,52 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“Video editor built for humans & AI. Edit with GPT & Claude.”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决视频剪辑师在剪辑中重复操作、效率低下的痛点，通过自然语言指令直接执行剪辑动作，交付可核对的视频结果。
     evidence_ids:
     - ev-50bd8a05b0666f57
   - gate: consensus
     status: insufficient
-    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 产品发布信息有限，缺乏用户采用或社区讨论证据，共识未建立。
+    evidence_ids:
+    - ev-50bd8a05b0666f57
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
-    evidence_ids: []
+    reason: 未披露定价与付费方，无法判断商业模式。
+    evidence_ids:
+    - ev-50bd8a05b0666f57
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+    reason: 未披露实际剪辑效果与用户反馈，交付质量无法核验。
+    evidence_ids:
+    - ev-50bd8a05b0666f57
+  next_validation: 关注官网是否提供定价、客户案例或试用版，以及用户对剪辑效果的反馈。
+  market: ''
+- id: req-full-chatcut-desktop-2026-08-27
+  project_slug: chatcut-desktop
+  level: full
+  reviewed_at: '2026-08-27T03:31:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑师在剪辑中重复操作、效率低下的痛点，通过自然语言指令直接执行剪辑动作，交付可核对的视频结果。
+    evidence_ids:
+    - ev-50bd8a05b0666f57
+  - gate: consensus
+    status: insufficient
+    reason: 产品发布信息有限，缺乏用户采用或社区讨论证据，共识未建立。
+    evidence_ids:
+    - ev-50bd8a05b0666f57
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方，无法判断商业模式。
+    evidence_ids:
+    - ev-50bd8a05b0666f57
+  - gate: truth
+    status: insufficient
+    reason: 未披露实际剪辑效果与用户反馈，交付质量无法核验。
+    evidence_ids:
+    - ev-50bd8a05b0666f57
+  next_validation: 关注官网是否提供定价、客户案例或试用版，以及用户对剪辑效果的反馈。
   market: ''

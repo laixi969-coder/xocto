@@ -186,3 +186,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-zoetrope-2026-08-27
+  project_slug: zoetrope
+  level: full
+  reviewed_at: '2026-08-27T03:34:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者或技术负责人在使用 Claude Code 时难以直观理解 AI 代理执行过程、难以调试和审查的痛点，将会话实时可视化为流程图，提升可观察性和可控性，交付可确定。
+    evidence_ids:
+    - ev-89ff0ee8ed0af568
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 580 个收藏和 28 个复刻，显示社区关注，但缺乏持续使用或付费的公开证据，共识尚未形成。
+    evidence_ids:
+    - ev-5f64bb85915135d2
+  - gate: model
+    status: insufficient
+    reason: 未公开定价或付费主体，商业模式不明确，可能面向开发者个人或企业，但无公开证据支持。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺乏部署文档、复现步骤或实际使用案例，无法确认交付的确定性和安全边界。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue、discussion 和部署文档，确认实际使用场景和用户反馈。
+  market: ''

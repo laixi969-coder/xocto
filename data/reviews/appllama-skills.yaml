@@ -188,3 +188,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-appllama-skills-2026-08-27
+  project_slug: appllama-skills
+  level: full
+  reviewed_at: '2026-08-27T03:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动开发者与UI设计师手工绘制原生界面、难以快速复用头部应用模式的痛点，将头部应用模式转化为原生质量屏幕，交付可确定。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有313收藏、18复刻，显示社区关注，但缺乏持续采用或付费证据，共识未形成。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济，商业模式不清晰，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现的部署文档或基准，交付质量与人工边界未验证。
+    evidence_ids: []
+  next_validation: 追踪官网或仓库的部署文档、issue 和 discussion，确认开发者实际使用场景与效果。
+  market: ''

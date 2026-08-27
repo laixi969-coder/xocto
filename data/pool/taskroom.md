@@ -21,7 +21,7 @@ canonical_url: https://taskroom.autobirds.com
 summary: I fear my tasks
 first_seen: '2026-08-26T10:47:51Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

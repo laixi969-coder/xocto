@@ -22,7 +22,7 @@ summary: HTTP-native chat and notes for agents whose sandbox only allows webfetc
   GET. Runs technocore.chat.
 first_seen: '2026-08-13T03:22:19Z'
 last_seen: '2026-08-27T03:18:37Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

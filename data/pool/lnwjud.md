@@ -2,17 +2,29 @@
 slug: lnwjud
 name: lnwjud
 builder: engasnm111
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: lnwjud 是一个面向 Windows 的本地 AI 代理运行时与 MCP 网关，提供 223 个可配置工具，支持持久目标、多工作区自动化、安全 MCP 隧道以及 Git、进程、WSL、浏览器和桌面工具。开发者可在本地运行
+  AI 代理，连接多种工具，实现自动化操作。具体流程和交付仍待核验。
+inspiration: 趋势是 AI 代理从云端走向本地，强调数据隐私和离线运行。切入点是面向 Windows 开发者，提供开箱即用的本地代理环境，但需验证其工具生态和稳定性。
+summary_en: lnwjud is a Windows-first local AI agent runtime and MCP gateway with 223 configurable tools,
+  supporting durable goals, multi-workspace automation, secure MCP tunnel, and Git/process/WSL/browser/desktop
+  tools. Developers can run AI agents locally and connect various tools for automation. Specific workflows
+  and deliverables remain to be verified.
+inspiration_en: The trend is AI agents moving from cloud to local, emphasizing data privacy and offline
+  operation. The entry point is targeting Windows developers with an out-of-the-box local agent environment,
+  but its tool ecosystem and stability need validation.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+- 运维工程师
+jobs_en:
+- Developer
+- DevOps Engineer
 regions: []
 regions_en: []
 open_source: true
@@ -23,7 +35,7 @@ summary: Windows-first local AI-agent runtime & MCP gateway with 223 configurabl
   tools.
 first_seen: '2026-08-10T13:00:18Z'
 last_seen: '2026-08-27T03:18:37Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

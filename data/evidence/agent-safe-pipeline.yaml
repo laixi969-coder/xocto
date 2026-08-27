@@ -49,3 +49,12 @@
   fact: Reference architecture for AI agents that propose actions but cannot authorize them — immutable
     intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval,
     and a SafeExecutor that consumes a single-use intent-bound grant.
+- id: ev-e4eea3787bee6a13
+  project_slug: agent-safe-pipeline
+  url: https://www.bing.com/search?format=rss&q=AI
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-08-27T03:28:39Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI'

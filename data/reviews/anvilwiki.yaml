@@ -140,3 +140,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-anvilwiki-2026-08-27
+  project_slug: anvilwiki
+  level: full
+  reviewed_at: '2026-08-27T03:30:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏社区管理员搭建攻略百科时内容生成和发布的痛点，需求是快速创建结构化条目和静态页面，交付可确定（可发布的百科页面）。
+    evidence_ids:
+    - ev-6f1b96a95f8b951e
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 53 个收藏、36 个复刻，说明社区关注，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-6f1b96a95f8b951e
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

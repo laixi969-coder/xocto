@@ -7,20 +7,52 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“MAC address intelligence for apps, networks and AI agents”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决识别网络设备的需求，痛点在于网络管理员和安全分析师需要快速了解设备信息以进行管理和安全分析。
     evidence_ids:
     - ev-178d365bc31c67de
   - gate: consensus
     status: insufficient
-    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 缺乏公开讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-178d365bc31c67de
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
-    evidence_ids: []
+    reason: 未披露商业模式，买方可能是企业或开发者，但付费路径不清晰。
+    evidence_ids:
+    - ev-178d365bc31c67de
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+    reason: 产品是否贴近第一性目标（设备识别）尚可，但数据准确性未验证。
+    evidence_ids:
+    - ev-178d365bc31c67de
+  next_validation: 关注产品官网或产品发布页面，看是否有用户评论和实际使用案例；检查是否有公开的数据准确率或覆盖范围说明。
+  market: ''
+- id: req-full-macadress-2026-08-27
+  project_slug: macadress
+  level: full
+  reviewed_at: '2026-08-27T03:33:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决识别网络设备的需求，痛点在于网络管理员和安全分析师需要快速了解设备信息以进行管理和安全分析。
+    evidence_ids:
+    - ev-178d365bc31c67de
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-178d365bc31c67de
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，买方可能是企业或开发者，但付费路径不清晰。
+    evidence_ids:
+    - ev-178d365bc31c67de
+  - gate: truth
+    status: insufficient
+    reason: 产品是否贴近第一性目标（设备识别）尚可，但数据准确性未验证。
+    evidence_ids:
+    - ev-178d365bc31c67de
+  next_validation: 关注产品官网或产品发布页面，看是否有用户评论和实际使用案例；检查是否有公开的数据准确率或覆盖范围说明。
   market: ''

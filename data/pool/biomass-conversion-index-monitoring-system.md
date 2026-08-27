@@ -21,7 +21,7 @@ canonical_url: https://github.com/fireinbelly/biomass-conversion-index-monitorin
 summary: A local tool that logs every time you swear at your AI coding assistant
 first_seen: '2026-08-26T11:23:13Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

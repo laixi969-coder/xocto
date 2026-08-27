@@ -2,17 +2,25 @@
 slug: whip
 name: whip
 builder: context-labs
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: whip 是一个用 Go 编写的快速编码代理框架，提供工具调用循环、TUI 界面、模型路由和 MCP 支持。开发者可在终端中运行它，连接开源模型，执行编码任务。单一二进制，无需运行时。
+inspiration: 趋势是编码代理从云端服务走向本地轻量工具。可从开源社区切入，提供可定制、可自托管的代理框架，通过企业支持或云托管服务变现。
+summary_en: whip is a fast coding-agent harness written in Go, offering a tool-use loop, TUI, model routing,
+  and MCP support. Developers can run it in the terminal, connect open-source models, and execute coding
+  tasks. Single binary, no runtime.
+inspiration_en: The trend is coding agents moving from cloud services to local lightweight tools. Entry
+  could be through the open-source community, offering customizable, self-hosted agent frameworks, monetized
+  via enterprise support or cloud hosting.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 软件开发
+industries_en:
+- Software development
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
 open_source: true
@@ -23,7 +31,7 @@ summary: A fast coding-agent harness in Go. Tool-use loop, bubbletea TUI, provid
   models.
 first_seen: '2026-08-20T22:57:11Z'
 last_seen: '2026-08-27T03:18:37Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

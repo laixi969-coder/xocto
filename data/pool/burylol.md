@@ -21,7 +21,7 @@ canonical_url: https://bury.lol
 summary: a $2 pixel-art graveyard for things that died
 first_seen: '2026-08-26T14:55:06Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

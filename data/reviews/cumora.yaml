@@ -185,3 +185,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-cumora-2026-08-27
+  project_slug: cumora
+  level: full
+  reviewed_at: '2026-08-27T03:31:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队协作中人与AI助手协同工作的痛点，通过跨平台团队聊天让AI代理成为一等公民，交付可核对的协作任务结果。
+    evidence_ids:
+    - ev-d4e0a2b4e87a1049
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 3,155 个收藏、380 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-d4e0a2b4e87a1049
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

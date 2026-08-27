@@ -21,7 +21,7 @@ canonical_url: https://hnstats.com
 summary: How much of Hacker News is about AI?
 first_seen: '2026-08-26T14:16:05Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

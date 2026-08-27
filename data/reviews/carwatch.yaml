@@ -88,3 +88,29 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-full-carwatch-2026-08-27
+  project_slug: carwatch
+  level: full
+  reviewed_at: '2026-08-27T03:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决车主与汽车爱好者对本地车载AI的需求，基于Raspberry Pi和Qwen提供本地智能响应，交付可确定。
+    evidence_ids:
+    - ev-ea064ad4aa0d2b50
+  - gate: consensus
+    status: insufficient
+    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济，商业模式不清晰，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现的部署文档或基准，交付质量与人工边界未验证。
+    evidence_ids: []
+  next_validation: 追踪仓库的部署文档、issue 和 discussion，确认车主实际使用场景与效果。
+  market: ''

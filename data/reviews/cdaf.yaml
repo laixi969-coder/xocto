@@ -2,27 +2,54 @@
   project_slug: cdaf
   level: initial
   reviewed_at: '2026-08-27T03:18:37Z'
-  verdict: true_demand
-  signal_level: 初步成立
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 它解决的用户需求和痛点是：“CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI
-      agents stop re”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    status: insufficient
+    reason: 它解决 AI 代理重复分析视频的痛点，但需求是否刚性尚不明确：重复分析的成本是否足够高，以及缓存格式是否被广泛需要，缺乏证据。
     evidence_ids:
     - ev-dfd3b9ff5e8a62c5
   - gate: consensus
     status: insufficient
-    reason: 公开代码仓库记录为 74 个收藏、6 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区 74 星和 6 fork 显示一定关注，但缺乏持续采用或社区共识证据。
     evidence_ids:
     - ev-dfd3b9ff5e8a62c5
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    reason: 开源项目，未披露商业模式，无法判断付费方。
+    evidence_ids:
+    - ev-dfd3b9ff5e8a62c5
+  - gate: truth
+    status: insufficient
+    reason: 提供了规范与基准，但实际效果与广泛适用性未经验证。
+    evidence_ids:
+    - ev-dfd3b9ff5e8a62c5
+  next_validation: 关注开源仓库的 issue 讨论、star 增长以及是否有视频分析工具集成该格式。
+  market: ''
+- id: req-full-cdaf-2026-08-27
+  project_slug: cdaf
+  level: full
+  reviewed_at: '2026-08-27T03:31:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决AI代理重复分析视频的痛点，但需求是否刚性尚不明确：重复分析的成本是否足够高，以及缓存格式是否被广泛需要，缺乏证据。
+    evidence_ids:
+    - ev-dfd3b9ff5e8a62c5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 关注开源仓库的 issue 讨论、star 增长以及是否有视频分析工具集成该格式。
   market: ''

@@ -9,3 +9,12 @@
   fact: DeepSeek V4-Flash Vision Video RAG 让 AI 真正"看懂" 一段视频，然后你对它提问：它告诉你答案、答案发生在 第几分几秒，并切出那一段的可播放片段和关键帧给你核对。  基于
     DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的视频理解与问答 （video RAG）agent skill。先按时间轴抽帧阅读、建立索引（一次性），再对问题做
     本地粗筛 → 视觉精排 → 深读回答；回答带 [MM:SS] 时间戳引用，自动生成 自包含 HTML 预览页（内嵌可播放片段 + 关键帧 + 答案），双击浏览器即看。
+- id: ev-d91525928bf35eb6
+  project_slug: deepseek-v4-flash-vision-video-rag
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%A7%86%E9%A2%91%E5%88%86%E6%9E%90+%E8%A7%86%E9%A2%91%E5%86%85%E5%AE%B9%E5%88%86%E6%9E%90%E5%B8%88
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-08-27T03:28:47Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 视频分析 视频内容分析师'

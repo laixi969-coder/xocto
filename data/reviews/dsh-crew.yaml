@@ -184,3 +184,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-crew-2026-08-27
+  project_slug: dsh-crew
+  level: full
+  reviewed_at: '2026-08-27T03:31:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的用户需求和痛点是：开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，支持子代理进度、分档预设和多模态桥接。痛点在于多代理协作复杂、任务分发低效，交付可确定（插件、代理执行）。
+    evidence_ids:
+    - ev-625f515f152f9fdc
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 116 个收藏、5 个复刻，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-625f515f152f9fdc
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

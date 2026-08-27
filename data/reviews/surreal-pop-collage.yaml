@@ -185,3 +185,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-surreal-pop-collage-2026-08-27
+  project_slug: surreal-pop-collage
+  level: full
+  reviewed_at: '2026-08-27T03:34:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户将日常照片转化为超现实波普拼贴的创意表达需求，交付确定的视觉风格，痛点刚性中等。
+    evidence_ids:
+    - ev-e6a03a73315388d9
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有收藏和复刻，但缺乏持续使用或付费证据，社区关注不等于采用。
+    evidence_ids:
+    - ev-e6a03a73315388d9
+  - gate: model
+    status: insufficient
+    reason: 未公开定价或付费主体，商业模式不明确，但需求结构成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性缺乏可复现的公开证据，需进一步验证。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认用户实际使用场景和替代的旧流程。
+  market: ''

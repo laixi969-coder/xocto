@@ -22,7 +22,7 @@ summary: Autonomous multi-account daily check-in toolkit for GoRouter, Tabi AI, 
   YesCaptcha Turnstile bypass.
 first_seen: '2026-08-25T16:43:06Z'
 last_seen: '2026-08-27T03:18:37Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

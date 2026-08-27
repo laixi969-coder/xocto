@@ -183,3 +183,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-northcinder-2026-08-27
+  project_slug: northcinder
+  level: full
+  reviewed_at: '2026-08-27T03:33:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采购决策中产品比较和购买前确认的需求，痛点在于信息分散、决策不透明，交付是 MCP 服务器，价值明确。
+    evidence_ids:
+    - ev-b350c600d9f184d9
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 1214 星、8 fork，说明社区关注，但缺乏持续使用或付费证据，共识停留在早期。
+    evidence_ids:
+    - ev-b350c600d9f184d9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体、定价或单位经济，商业模式未披露，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

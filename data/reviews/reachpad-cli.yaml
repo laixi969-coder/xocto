@@ -7,20 +7,52 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“Spin up free sandboxes in seconds to develop apps”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决开发者搭建开发环境耗时的问题，通过命令行快速创建沙箱，提供即用环境，痛点明确且交付可确定。
     evidence_ids:
     - ev-e58e06a2f2603b5d
   - gate: consensus
     status: insufficient
-    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
-    evidence_ids: []
+    reason: 公开材料仅展示基本功能，缺乏用户采用数据或社区讨论，共识未建立。
+    evidence_ids:
+    - ev-e58e06a2f2603b5d
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
-    evidence_ids: []
+    reason: 未披露商业模式，可能面向开发者收费，但付费意愿未验证。
+    evidence_ids:
+    - ev-e58e06a2f2603b5d
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+    reason: 产品贴近开发效率目标，但沙箱稳定性、安全性和资源限制未证实。
+    evidence_ids:
+    - ev-e58e06a2f2603b5d
+  next_validation: 关注代码仓库的 star 增长、issue 反馈以及官方文档中关于资源限制和定价的说明。
+  market: ''
+- id: req-full-reachpad-cli-2026-08-27
+  project_slug: reachpad-cli
+  level: full
+  reviewed_at: '2026-08-27T03:33:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者搭建开发环境耗时的问题，通过命令行快速创建沙箱，提供即用环境，痛点明确且交付可确定。
+    evidence_ids:
+    - ev-e58e06a2f2603b5d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅展示基本功能，缺乏用户采用数据或社区讨论，共识未建立。
+    evidence_ids:
+    - ev-e58e06a2f2603b5d
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者收费，但付费意愿未验证。
+    evidence_ids:
+    - ev-e58e06a2f2603b5d
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近开发效率目标，但沙箱稳定性、安全性和资源限制未证实。
+    evidence_ids:
+    - ev-e58e06a2f2603b5d
+  next_validation: 关注代码仓库的 star 增长、issue 反馈以及官方文档中关于资源限制和定价的说明。
   market: ''

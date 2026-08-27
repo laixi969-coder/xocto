@@ -185,3 +185,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-pgbot-2026-08-27
+  project_slug: pgbot
+  level: full
+  reviewed_at: '2026-08-27T03:33:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据库管理员和开发者排查 Postgres 性能问题的痛点：定位慢查询、识别该修的索引，先给证据再让代理动手，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-4e61ef5d66fc3609
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 770 收藏、35 复刻，说明社区关注，但缺乏持续采用或付费证据，共识停留在关注层面。
+    evidence_ids:
+    - ev-4e61ef5d66fc3609
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，可能面向开发者或企业，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

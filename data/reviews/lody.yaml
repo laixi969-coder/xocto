@@ -7,21 +7,52 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“Share coding agents with your team on phone and desktop”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决团队中编码代理的共享和协作需求，痛点在于编码代理通常是个人的，团队协作时难以共享上下文和结果。
     evidence_ids:
     - ev-95012913c88940bf
   - gate: consensus
     status: insufficient
-    reason: 公开代码仓库记录为 405 个收藏、34 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    reason: 开源社区星标 405，但缺乏公开讨论或采用证据，共识尚未形成。
     evidence_ids:
     - ev-95012913c88940bf
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
-    evidence_ids: []
+    reason: 未披露商业模式，买方可能是团队或企业，但付费路径不清晰。
+    evidence_ids:
+    - ev-95012913c88940bf
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+    reason: 产品是否贴近开发者的第一性目标（提高编码效率）尚可，但交付能否确定（共享是否顺畅）未验证。
+    evidence_ids:
+    - ev-95012913c88940bf
+  next_validation: 关注开源仓库的 issue 和讨论，看是否有真实用户反馈和用例；检查文档是否明确目标用户和典型工作流。
+  market: ''
+- id: req-full-lody-2026-08-27
+  project_slug: lody
+  level: full
+  reviewed_at: '2026-08-27T03:33:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队中编码代理的共享和协作需求，痛点在于编码代理通常是个人的，团队协作时难以共享上下文和结果。
+    evidence_ids:
+    - ev-95012913c88940bf
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星标 405，但缺乏公开讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-95012913c88940bf
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，买方可能是团队或企业，但付费路径不清晰。
+    evidence_ids:
+    - ev-95012913c88940bf
+  - gate: truth
+    status: insufficient
+    reason: 产品是否贴近开发者的第一性目标（提高编码效率）尚可，但交付能否确定（共享是否顺畅）未验证。
+    evidence_ids:
+    - ev-95012913c88940bf
+  next_validation: 关注开源仓库的 issue 和讨论，看是否有真实用户反馈和用例；检查文档是否明确目标用户和典型工作流。
   market: ''

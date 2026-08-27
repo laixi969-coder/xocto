@@ -7,20 +7,52 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“Drift score for any GitHub repo”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决开发者难以追踪代码偏离的问题，通过漂移分数提供量化指标，痛点明确且交付可确定。
     evidence_ids:
     - ev-b7bd0bc076783782
   - gate: consensus
     status: insufficient
-    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
-    evidence_ids: []
+    reason: 公开材料仅展示产品概念，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-b7bd0bc076783782
   - gate: model
     status: insufficient
-    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
-    evidence_ids: []
+    reason: 未披露定价或付费路径，可能面向 B 端，但商业模式未验证。
+    evidence_ids:
+    - ev-b7bd0bc076783782
   - gate: truth
     status: insufficient
-    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
-    evidence_ids: []
-  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+    reason: 产品贴近代码质量目标，但漂移分数的准确性和实用性未证实。
+    evidence_ids:
+    - ev-b7bd0bc076783782
+  next_validation: 关注官方定价页、客户案例以及代码托管平台上关于漂移分数有效性的讨论。
+  market: ''
+- id: req-full-reweaver-ai-driftdetector-2026-08-27
+  project_slug: reweaver-ai-driftdetector
+  level: full
+  reviewed_at: '2026-08-27T03:33:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者难以追踪代码偏离的问题，通过漂移分数提供量化指标，痛点明确且交付可确定。
+    evidence_ids:
+    - ev-b7bd0bc076783782
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅展示产品概念，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-b7bd0bc076783782
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，可能面向 B 端，但商业模式未验证。
+    evidence_ids:
+    - ev-b7bd0bc076783782
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近代码质量目标，但漂移分数的准确性和实用性未证实。
+    evidence_ids:
+    - ev-b7bd0bc076783782
+  next_validation: 关注官方定价页、客户案例以及代码托管平台上关于漂移分数有效性的讨论。
   market: ''

@@ -185,3 +185,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-jarvis-assistant-vocal-2026-08-27
+  project_slug: jarvis-assistant-vocal
+  level: full
+  reviewed_at: '2026-08-27T03:32:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法语用户需要本地语音助手控制智能家居和日常任务的需求，痛点在于对隐私和离线使用的需求。提供本地运行、多设备控制，交付可确定。
+    evidence_ids:
+    - ev-b26e1948560b2b64
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 189 个收藏、40 个复刻，显示社区关注，但缺乏持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-b26e1948560b2b64
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或商业模式，可能是 to C 工具，但尚无公开验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现的部署文档或案例，交付确定性和安全边界未获公开证据支持。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue、discussion 和文档，确认实际使用场景和用户反馈。
+  market: ''

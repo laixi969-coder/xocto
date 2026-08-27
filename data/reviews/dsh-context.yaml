@@ -184,3 +184,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-dsh-context-2026-08-27
+  project_slug: dsh-context
+  level: full
+  reviewed_at: '2026-08-27T03:31:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的用户需求和痛点是：看清 AI 这轮对话里装了什么、丢掉了什么，免得它悄悄忘了关键信息。痛点在于上下文不透明、关键信息丢失，交付可确定（上下文面板、统计）。
+    evidence_ids:
+    - ev-4c962ff95e5926bb
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 102 个收藏、10 个复刻，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-4c962ff95e5926bb
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

@@ -131,3 +131,31 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-learn-agent-2026-08-27
+  project_slug: learn-agent
+  level: full
+  reviewed_at: '2026-08-27T03:33:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者学习 AI Agent 架构的需求，痛点在于缺乏系统化、可运行的教程，而 learn-agent 提供 20 章中文实战课和可运行代码，交付可确定。
+    evidence_ids:
+    - ev-91587ca1e87c5f46
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 267 星和 39 fork，表明一定关注，但缺乏持续使用或付费证据。
+    evidence_ids:
+    - ev-91587ca1e87c5f46
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体或定价，买方可能是开发者或企业，但付费路径不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近学习的第一性目标（掌握技能），但交付能否确定（教程质量、代码可运行性）未验证。
+    evidence_ids:
+    - ev-91587ca1e87c5f46
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认是否有用户反馈教程有效性或实际使用案例。
+  market: ''

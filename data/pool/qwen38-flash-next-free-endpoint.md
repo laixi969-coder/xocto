@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/victor/Qwen3.8-Flash-Next-free-endp
 summary: ''
 first_seen: '2026-08-26T13:23:03Z'
 last_seen: '2026-08-27T03:18:58Z'
-status: pending_filter
+status: market_context
 sources:
 - huggingface
 sightings:

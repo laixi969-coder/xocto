@@ -21,7 +21,7 @@ canonical_url: https://routebase.dev
 summary: One OpenAPI spec drives your docs, mocks, tests, monitors
 first_seen: '2026-08-26T11:49:59Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://globalsolo.global/data/banking-access-index
 summary: 19 US banking providers, 8 countries, CC-BY
 first_seen: '2026-08-26T09:01:49Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

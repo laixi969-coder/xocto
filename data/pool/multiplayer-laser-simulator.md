@@ -21,7 +21,7 @@ canonical_url: https://prismaduel.com
 summary: ''
 first_seen: '2026-08-26T05:57:33Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

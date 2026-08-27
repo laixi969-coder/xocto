@@ -185,3 +185,30 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-full-hunter-community-2026-08-27
+  project_slug: hunter-community
+  level: full
+  reviewed_at: '2026-08-27T03:32:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人或团队需要私有化金融 AI 助手的需求，痛点在于数据隐私和定制化不足。提供自托管、15 分钟 Docker 启动，交付可确定。
+    evidence_ids:
+    - ev-c95c608e9998cb55
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 294 个收藏、3 个复刻，显示社区关注，但缺乏持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-c95c608e9998cb55
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或商业模式，可能是 to B 或 to C 工具，但尚无公开验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少可复现的部署文档或案例，交付确定性和安全边界未获公开证据支持。
+    evidence_ids: []
+  next_validation: 追踪官网或仓库的部署文档、issue 和 discussion，确认实际使用场景和用户反馈。
+  market: ''

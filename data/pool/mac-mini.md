@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/apple
 summary: Now with M6 and M5 Pro chips
 first_seen: '2026-08-25T18:29:04Z'
 last_seen: '2026-08-27T03:18:34Z'
-status: pending_filter
+status: market_context
 sources:
 - producthunt
 sightings:
