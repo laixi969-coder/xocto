@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
+<title>foresightplanner · x-octo</title>
+<meta name="description" content="这是一个退休模拟器，使用 125 年的历史数据，覆盖 25 个国家，帮助用户模拟不同退休策略下的财务结果。用户输入储蓄、投资和退休目标，它基于历史数据模拟多种情景，输出退休成功率或资金耗尽概率。具体交互和输出细节仍待核验。">
+<link rel="canonical" href="https://xocto.vercel.app/p/foresightplanner.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/foresightplanner.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/foresightplanner.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/foresightplanner.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="foresightplanner · x-octo">
+<meta property="og:description" content="这是一个退休模拟器，使用 125 年的历史数据，覆盖 25 个国家，帮助用户模拟不同退休策略下的财务结果。用户输入储蓄、投资和退休目标，它基于历史数据模拟多种情景，输出退休成功率或资金耗尽概率。具体交互和输出细节仍待核验。">
+<meta property="og:url" content="https://xocto.vercel.app/p/foresightplanner.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/foresightplanner.html#webpage", "@type": "WebPage", "description": "\u8fd9\u662f\u4e00\u4e2a\u9000\u4f11\u6a21\u62df\u5668\uff0c\u4f7f\u7528 125 \u5e74\u7684\u5386\u53f2\u6570\u636e\uff0c\u8986\u76d6 25 \u4e2a\u56fd\u5bb6\uff0c\u5e2e\u52a9\u7528\u6237\u6a21\u62df\u4e0d\u540c\u9000\u4f11\u7b56\u7565\u4e0b\u7684\u8d22\u52a1\u7ed3\u679c\u3002\u7528\u6237\u8f93\u5165\u50a8\u84c4\u3001\u6295\u8d44\u548c\u9000\u4f11\u76ee\u6807\uff0c\u5b83\u57fa\u4e8e\u5386\u53f2\u6570\u636e\u6a21\u62df\u591a\u79cd\u60c5\u666f\uff0c\u8f93\u51fa\u9000\u4f11\u6210\u529f\u7387\u6216\u8d44\u91d1\u8017\u5c3d\u6982\u7387\u3002\u5177\u4f53\u4ea4\u4e92\u548c\u8f93\u51fa\u7ec6\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "foresightplanner", "url": "https://xocto.vercel.app/p/foresightplanner.html"}, {"@id": "https://xocto.vercel.app/p/foresightplanner.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u751f\u6d3b", "dateModified": "2026-08-27", "datePublished": "2026-08-27", "description": "\u8fd9\u662f\u4e00\u4e2a\u9000\u4f11\u6a21\u62df\u5668\uff0c\u4f7f\u7528 125 \u5e74\u7684\u5386\u53f2\u6570\u636e\uff0c\u8986\u76d6 25 \u4e2a\u56fd\u5bb6\uff0c\u5e2e\u52a9\u7528\u6237\u6a21\u62df\u4e0d\u540c\u9000\u4f11\u7b56\u7565\u4e0b\u7684\u8d22\u52a1\u7ed3\u679c\u3002\u7528\u6237\u8f93\u5165\u50a8\u84c4\u3001\u6295\u8d44\u548c\u9000\u4f11\u76ee\u6807\uff0c\u5b83\u57fa\u4e8e\u5386\u53f2\u6570\u636e\u6a21\u62df\u591a\u79cd\u60c5\u666f\uff0c\u8f93\u51fa\u9000\u4f11\u6210\u529f\u7387\u6216\u8d44\u91d1\u8017\u5c3d\u6982\u7387\u3002\u5177\u4f53\u4ea4\u4e92\u548c\u8f93\u51fa\u7ec6\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/foresightplanner.html#webpage"}, "name": "foresightplanner", "sameAs": "https://foresightplanner.com/", "url": "https://xocto.vercel.app/p/foresightplanner.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/foresightplanner.html", "name": "foresightplanner", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=bbf74ccd7c57">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/foresightplanner.html" lang="en"
+         hreflang="en" aria-label="Switch to English">EN</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap">
+
+  <header class="detail-head">
+    <p class="eyebrow">AI 应用的生意判断</p>
+    <div class="pick-id">
+      <h1>foresightplanner</h1>
+    </div>
+
+    <p class="lede">这是一个退休模拟器，使用 125 年的历史数据，覆盖 25 个国家，帮助用户模拟不同退休策略下的财务结果。用户输入储蓄、投资和退休目标，它基于历史数据模拟多种情景，输出退休成功率或资金耗尽概率。具体交互和输出细节仍待核验。</p>
+
+    <div class="meta">
+<span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
+<span class="tag">新应用 / 服务</span><span class="tag">AI + 生活</span><span class="tag">个人理财</span><span class="tag">退休规划</span><span class="tag">个人投资者</span><span class="tag">财务顾问</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 15</span>    </div>
+
+    <div class="kv">
+      <div><span>团队 / 作者</span><b>nhootan</b></div>
+      <div><span>本站首次收录</span><b class="num">2026-08-27</b></div>
+      <div><span>本站最近更新</span><b class="num">2026-08-27</b></div>
+      <div><span>产品官网</span><b><a href="https://foresightplanner.com/" target="_blank" rel="noopener">查看官网 ↗</a></b></div>
+    </div>
+  </header>
+
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">真需求</p>
+        <h2>真需求判断</h2>
+      </div>
+      <span class="note">依公开证据核验价值、采用、付费和交付；证据不足不等于需求不存在。</span>
+    </div>
+    <div class="decision-grid decision-overview">
+      <div class="field decision-call"><span class="field-k">需求判定</span><p><strong>真需求</strong></p></div>
+      <div class="field"><span class="field-k">证据把握</span><p>初步成立</p></div>
+      <div class="field"><span class="field-k">判断层级 / 日期</span><p>完整判断 · 2026-08-27</p></div>
+      <div class="field field-take"><span class="field-k">下一步核验</span><p>检查官网是否提供定价或免费试用，以及用户评论或案例研究。</p></div>
+    </div>
+    <div class="decision-grid">
+      <div class="field"><span class="field-k">价值 · 已有支持</span><p>它解决个人和顾问在退休规划中缺乏长期数据支撑、难以评估不同策略风险的问题。痛点在于传统计算器过于简化，模拟可提供更可靠的决策依据。</p></div>
+      <div class="field"><span class="field-k">共识 · 证据不足</span><p>社区讨论有 15 分和 33 条评论，表明有一定兴趣，但缺乏持续采用或付费证据。</p></div>
+      <div class="field"><span class="field-k">模式 · 证据不足</span><p>潜在买方可能是个人用户或财务顾问，但未披露定价或商业模式。</p></div>
+      <div class="field"><span class="field-k">求真 · 已有支持</span><p>产品贴近退休规划的第一性目标：确保财务安全。基于历史数据的模拟可提供确定性交付，但需验证模型准确性。</p></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">市场对照</p>
+        <h2>中英文生态与跨国机会</h2>
+      </div>
+<span class="tag sig">跨国机会</span>    </div>
+    <div class="decision-grid">
+      <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：早期出现<br>需求证据：初步成立</p><p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-08-27</p></div>
+      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-27。未发现仅限该覆盖范围。 · 2026-08-27</p></div>
+    </div>
+  </section>
+
+  <section class="band decision-brief">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">60 秒生意判断</p>
+        <h2>先决定它值不值得继续看</h2>
+      </div>
+      <span class="note">先给出判断与下一步，再保留完整证据和反例。</span>
+    </div>
+    <div class="decision-grid">
+      <div class="field decision-call">
+        <span class="field-k">一句判断</span>
+        <p>这是一个退休模拟器，使用 125 年的历史数据，覆盖 25 个国家，帮助用户模拟不同退休策略下的财务结果。用户输入储蓄、投资和退休目标，它基于历史数据模拟多种情景，输出退休成功率或资金耗尽概率。具体交互和输出细节仍待核验。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">商业模式</span>
+        <p>收费未披露。公开信息里看不到定价，不编造。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">进入窗口</span>
+        <p>趋势是个人财务规划工具从静态计算器转向基于大数据的情景模拟。切入点：从退休规划这一具体决策切入，可面向财务顾问作为客户沟通工具，按订阅或按报告收费。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">接下来验证什么</span>
+        <p>目前公开信息有限，判断会随新证据更新。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band role-lenses">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">把同一事实拆成三个判断</p>
+        <h2>不选身份，按此刻关心的问题读</h2>
+      </div>
+    </div>
+    <div class="role-grid">
+      <div class="field">
+        <span class="field-k">证据与风险</span>
+        <p>还不是一门生意。可以当信号看，不要当成公司看。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">会改变什么</span>
+        <p>可能碰到学、吃、玩、出行，但多数还只是尝鲜。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析还没写。先看上面的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/everycube.html">everycube</a>、        <a href="../p/ai-agent-book.html">ai-agent-book</a>      </p>
+    </div>
+  </section>
+
+
+  <section class="band">
+    <div class="sec-head"><div><p class="eyebrow">证据链</p><h2>可核验公开证据</h2></div></div>
+    <ul class="rows">
+      <li><a href="https://foresightplanner.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">foresightplanner</span><span class="row-desc">采用信号</span><span class="row-tail">2026-08-27</span></div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward" aria-label="继续浏览">
+    <div class="sec-head">
+      <h2>同类产品</h2>
+      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
+        AI + 生活 共 54 个 →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../p/everycube.html">
+          <div class="row-head">
+            <span class="row-name">everycube</span>
+            <span class="row-desc">普通人滚动鼠标，就能亲手穿过魔方全部四十多垓种状态，像走一条长廊</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/ai-agent-book.html">
+          <div class="row-head">
+            <span class="row-name">ai-agent-book</span>
+            <span class="row-desc">把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/whodunnitai.html">
+          <div class="row-head">
+            <span class="row-name">whodunnitai</span>
+            <span class="row-desc">用嘴审问五个会撒谎的AI嫌疑人，十几分钟内指认谁是凶手</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/loomfeed.html">
+          <div class="row-head">
+            <span class="row-name">loomfeed</span>
+            <span class="row-desc">人和 AI 同场发帖，来源、确定性标签和人类印章写在帖上，可信度不再靠读者瞎猜</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/coffeetable.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">Coffeetable</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/loginwithone.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">loginwithone</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">不用，谢谢</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>597 个案例 · 180 份生意判断</span>
+    <span class="gen">数据截至 2026-08-27</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
