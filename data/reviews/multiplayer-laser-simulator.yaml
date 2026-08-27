@@ -1,0 +1,26 @@
+- id: req-initial-multiplayer-laser-simulator-2026-08-27
+  project_slug: multiplayer-laser-simulator
+  level: initial
+  reviewed_at: '2026-08-27T03:18:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料尚未把“Multiplayer Laser Simulator”讲成一个具体的用户需求和痛点。价值关未过：连痛点都还没写清。
+    evidence_ids:
+    - ev-2bfb9228eca33649
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值和痛点尚未写清；已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：需求和痛点尚未写清，付费主体暂不判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：需求和痛点尚未写清。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''

@@ -23,7 +23,7 @@ url: https://github.com/fellowgeek/mcp-memory
 canonical_url: https://github.com/fellowgeek/mcp-memory
 summary: Fast Agent Memory Using Google's OKF and SQLite FTS5
 first_seen: '2026-08-13T13:57:47Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: analyzed
 sources:
 - hackernews
@@ -37,9 +37,9 @@ sightings:
     comments: 35
 - source: github
   url: https://github.com/fellowgeek/mcp-memory
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 196
+    stars: 197
     forks: 12
     open_issues: 1
 ---

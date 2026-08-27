@@ -31,16 +31,16 @@ url: https://github.com/SeeRay11/OpenFlow#readme
 canonical_url: https://github.com/SeeRay11/OpenFlow
 summary: OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode engine
 first_seen: '2026-08-18T00:28:46Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SeeRay11/OpenFlow#readme
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 51
+    stars: 55
     forks: 2
     open_issues: 0
 ---

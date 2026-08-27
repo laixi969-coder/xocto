@@ -38,17 +38,17 @@ url: https://github.com/ant-research/4DAnyone
 canonical_url: https://github.com/ant-research/4DAnyone
 summary: '[SIGGRAPH Asia 2026] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video'
 first_seen: '2026-08-10T07:46:06Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ant-research/4DAnyone
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 759
-    forks: 60
+    stars: 822
+    forks: 63
     open_issues: 3
 ---
 

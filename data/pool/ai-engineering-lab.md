@@ -22,17 +22,17 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://zorost.com/ai-engineering-lab
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 120
-    forks: 114
+    stars: 141
+    forks: 117
     open_issues: 0
 ---
 

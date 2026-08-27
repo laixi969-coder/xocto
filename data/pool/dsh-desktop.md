@@ -20,18 +20,18 @@ url: https://github.com/myYangyunfan/dsh_desktop/releases
 canonical_url: https://github.com/myYangyunfan/dsh_desktop/releases
 summary: DeepSeek Harness (dsh) Windows desktop client - bundled Node.js + dsh CLI, one-click launch
 first_seen: '2026-08-13T16:00:16Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/myYangyunfan/dsh_desktop/releases
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 575
-    forks: 28
-    open_issues: 6
+    stars: 588
+    forks: 29
+    open_issues: 2
 ---
 
 # dsh_desktop

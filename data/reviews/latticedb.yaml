@@ -54,3 +54,29 @@
     evidence_ids: []
   next_validation: 关注开源仓库的 star 增长、issue 讨论和是否出现生产环境使用案例。
   market: ''
+- id: req-initial-latticedb-2026-08-27
+  project_slug: latticedb
+  level: initial
+  reviewed_at: '2026-08-27T03:18:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的用户需求和痛点是：“开发者需要嵌入式图数据库时，可用 LatticeDB 像 SQLite 一样直接嵌入应用，存储和查询图结构数据；它提供类似 SQLite 的轻量级体验，但针对图数据优化。”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    evidence_ids:
+    - ev-1a151efb32f1018b
+  - gate: consensus
+    status: insufficient
+    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''

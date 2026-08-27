@@ -35,16 +35,16 @@ canonical_url: https://github.com/kulkarnirohit123/cra-agent
 summary: 'Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings,
   opens Jira tickets, and auto-fixes vulnerabilities via PR.'
 first_seen: '2026-08-10T03:22:24Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/kulkarnirohit123/cra-agent
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 293
+    stars: 403
     forks: 172
     open_issues: 0
 ---

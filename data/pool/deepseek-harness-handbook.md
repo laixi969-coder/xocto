@@ -21,18 +21,18 @@ canonical_url: https://sandbaseai.github.io/deepseek-harness-handbook
 summary: 'Independent, source-backed handbook for DeepSeek AI''s official DeepSeek Harness (dsh): agents,
   plugins, security, troubleshooting, and runbooks.'
 first_seen: '2026-08-14T06:25:52Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://sandbaseai.github.io/deepseek-harness-handbook/
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 62
-    forks: 9
-    open_issues: 7
+    stars: 67
+    forks: 10
+    open_issues: 3
 ---
 
 # deepseek-harness-handbook

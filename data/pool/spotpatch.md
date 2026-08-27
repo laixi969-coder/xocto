@@ -31,16 +31,16 @@ canonical_url: https://spotpatch.dev
 summary: Click any React UI element, jump to its exact JSX/TSX source, inspect proven API data flow, and
   prepare reviewable AI patches. Local-first and development-only.
 first_seen: '2026-08-07T17:21:08Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://spotpatch.dev/
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 96
+    stars: 107
     forks: 3
     open_issues: 0
 ---

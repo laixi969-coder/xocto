@@ -37,17 +37,17 @@ summary: I had to develop a course related to quantum chemistry and unfortunatel
   it in its own very annoying claude-speak. It actually cost our team a lot of time and tokens to wrestle
   it to just speak …
 first_seen: '2026-08-26T02:04:04Z'
-last_seen: '2026-08-26T04:53:28Z'
+last_seen: '2026-08-27T03:18:34Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://speak-english.tenken.co/
-  seen_at: '2026-08-26T04:53:28Z'
+  seen_at: '2026-08-27T03:18:34Z'
   metrics:
-    points: 6
-    comments: 1
+    points: 7
+    comments: 2
 ---
 
 # Declaude

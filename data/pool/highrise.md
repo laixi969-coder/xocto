@@ -20,16 +20,16 @@ url: https://highrise.lol
 canonical_url: https://highrise.lol
 summary: one-tap tower stacker, every height is a real building
 first_seen: '2026-08-25T23:21:50Z'
-last_seen: '2026-08-26T04:53:28Z'
+last_seen: '2026-08-27T03:18:34Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://highrise.lol
-  seen_at: '2026-08-26T04:53:28Z'
+  seen_at: '2026-08-27T03:18:34Z'
   metrics:
-    points: 5
+    points: 7
     comments: 0
 ---
 

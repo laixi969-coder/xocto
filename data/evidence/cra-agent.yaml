@@ -149,3 +149,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 网络安全 软件研发 安全合规工程师 开发运维工程师'
+- id: ev-c2e4dafee85ac780
+  project_slug: cra-agent
+  url: https://github.com/kulkarnirohit123/cra-agent
+  title: cra-agent
+  published_at: '2026-08-10T03:22:24Z'
+  collected_at: '2026-08-27T03:18:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Autonomous agentic AI for CRA (Cyber Resilience Act) compliance: scans repos, triages findings,
+    opens Jira tickets, and auto-fixes vulnerabilities via PR.'

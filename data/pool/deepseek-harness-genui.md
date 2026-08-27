@@ -32,18 +32,18 @@ url: https://github.com/pengyue-polaron/deepseek-harness-genui
 canonical_url: https://github.com/pengyue-polaron/deepseek-harness-genui
 summary: Task-specific React apps for DeepSeek Harness with state carried into the next Agent turn
 first_seen: '2026-08-14T20:28:02Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/pengyue-polaron/deepseek-harness-genui
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 106
+    stars: 107
     forks: 11
-    open_issues: 1
+    open_issues: 0
 ---
 
 # deepseek-harness-genui

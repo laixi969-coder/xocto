@@ -25,18 +25,18 @@ summary: 为纯文本模型"看图“设计更好的视觉工具箱和技能，�
   and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and
   GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode
 first_seen: '2026-08-01T10:00:13Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://agent-vision.anionex.me
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 826
-    forks: 36
-    open_issues: 10
+    stars: 835
+    forks: 38
+    open_issues: 11
 ---
 
 # agent-vision-toolkit

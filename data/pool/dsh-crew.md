@@ -34,17 +34,17 @@ summary: 'DeepSeek Harness (DSH) plugin: dispatch work to DSH agents from Claude
   subagent progress, in-host worker sessions with per-tier presets, and a multimodal bridge that lends
   the text-only harness vision and image generation.'
 first_seen: '2026-08-16T15:19:41Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZSeven-W/dsh-crew
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 113
-    forks: 4
+    stars: 116
+    forks: 5
     open_issues: 2
 ---
 

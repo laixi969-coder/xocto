@@ -154,3 +154,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 媒体 公共安全 内容审核员 事实核查员'
+- id: ev-bab0d2436bfa47d8
+  project_slug: ra-bench
+  url: https://ra-bench-crisis-video.yxgma811120.chatgpt.site/
+  title: RA-Bench
+  published_at: '2026-08-13T01:50:44Z'
+  collected_at: '2026-08-27T03:18:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: Real-event-anchored benchmark for detecting AI-generated videos in real-world crisis settings.

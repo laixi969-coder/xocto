@@ -32,16 +32,16 @@ url: https://ai-job-search-cn.pages.dev/
 canonical_url: https://ai-job-search-cn.pages.dev
 summary: 一个面向中国求职者的开源求职助手:JD 评估、定制简历、投递规划,内置职位搜索与评估框架,纯 Python 零依赖。
 first_seen: '2026-08-07T04:06:38Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://ai-job-search-cn.pages.dev/
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 92
+    stars: 95
     forks: 5
     open_issues: 0
 ---

@@ -1,0 +1,26 @@
+- id: req-initial-mockturtle-2026-08-27
+  project_slug: mockturtle
+  level: initial
+  reviewed_at: '2026-08-27T03:18:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料尚未把“mockturtle”讲成一个具体的用户需求和痛点。价值关未过：连痛点都还没写清。
+    evidence_ids:
+    - ev-243f80551605ca33
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值和痛点尚未写清；公开代码仓库记录为 4 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：需求和痛点尚未写清，付费主体暂不判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：需求和痛点尚未写清。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

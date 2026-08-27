@@ -21,16 +21,16 @@ canonical_url: https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability
 summary: DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces
   capability-realization loss on DeepSeek V4 (Flash/Pro).
 first_seen: '2026-08-16T11:38:42Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 1034
+    stars: 1033
     forks: 66
     open_issues: 13
 ---

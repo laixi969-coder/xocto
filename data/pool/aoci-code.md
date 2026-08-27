@@ -32,18 +32,18 @@ canonical_url: https://github.com/aoci-spec/aoci-code
 summary: Distills code and database knowledge into a persistent, governed map of the entire repository—helping
   AI coding agents understand complex systems faster and carry development forward with greater precision.
 first_seen: '2026-08-08T11:33:08Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/aoci-spec/aoci-code
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 133
-    forks: 6
-    open_issues: 9
+    stars: 139
+    forks: 27
+    open_issues: 10
 ---
 
 # aoci-code

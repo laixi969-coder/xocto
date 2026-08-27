@@ -24,25 +24,25 @@ canonical_url: https://deepseekdocs.com
 summary: 'DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub
   and the public dsh-plugin topic.'
 first_seen: '2026-08-11T13:14:49Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: analyzed
 sources:
 - github
 sightings:
 - source: github
   url: https://deepseekdocs.com/
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 902
-    forks: 328
-    open_issues: 4
+    stars: 911
+    forks: 331
+    open_issues: 5
 - source: github
   url: https://github.com/Dominic789654/awesome-deepseek-harness
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 198
+    stars: 203
     forks: 125
-    open_issues: 2
+    open_issues: 5
 ---
 
 # awesome-deepseek-harness

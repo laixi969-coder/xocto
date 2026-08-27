@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: ''
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-08-24T22:44:32Z'
+last_seen: '2026-08-27T03:18:33Z'
 status: rejected
 sources:
 - modelscope
@@ -31,6 +31,18 @@ sightings:
   metrics:
     likes: 9
     downloads: 8009
+- source: modelscope
+  url: https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next
+  seen_at: '2026-08-27T03:18:33Z'
+  metrics:
+    likes: 869
+    downloads: 1070
+- source: modelscope
+  url: https://modelscope.cn/models/ZhipuAI/GLM-5.3-Flash
+  seen_at: '2026-08-27T03:18:33Z'
+  metrics:
+    likes: 38
+    downloads: 11176
 ---
 
 # Ornith-1.5-35B-A3B-GGUF

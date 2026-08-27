@@ -1,0 +1,26 @@
+- id: req-initial-choclift-for-ipad-2026-08-27
+  project_slug: choclift-for-ipad
+  level: initial
+  reviewed_at: '2026-08-27T03:18:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的用户需求和痛点是：“A touch-bar to control your Mac from your iPad”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    evidence_ids:
+    - ev-a5373041aa512bdf
+  - gate: consensus
+    status: insufficient
+    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''

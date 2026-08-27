@@ -8,21 +8,29 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/n0bele/AntiAIMark
 canonical_url: https://github.com/n0bele/AntiAIMark
 summary: Removing AI watermarks from text, images, and audio/video files.
 first_seen: '2026-08-15T18:36:19Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/n0bele/AntiAIMark
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
     stars: 61
-    forks: 52
+    forks: 51
     open_issues: 0
 ---
 

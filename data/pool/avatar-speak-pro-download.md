@@ -35,16 +35,16 @@ canonical_url: https://github.com/Nathanielyseterday/avatar-speak-pro-download
 summary: An automated AI avatar video generation pipeline designed to boost conversion rates for TikTok
   ads and Shopify funnels via text scripts.
 first_seen: '2026-08-07T09:25:15Z'
-last_seen: '2026-08-25T22:45:11Z'
+last_seen: '2026-08-27T03:18:37Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Nathanielyseterday/avatar-speak-pro-download
-  seen_at: '2026-08-25T22:45:11Z'
+  seen_at: '2026-08-27T03:18:37Z'
   metrics:
-    stars: 53
+    stars: 54
     forks: 0
     open_issues: 0
 ---

@@ -164,3 +164,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-1c8653682d033f45
+  project_slug: dsh-vision-router
+  url: https://github.com/ysr666/dsh-vision-router
+  title: dsh-vision-router
+  published_at: '2026-08-13T18:57:47Z'
+  collected_at: '2026-08-27T03:18:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level
+    vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command
+    install, no Python, image turns work like ordinary tool-calling turns.'

@@ -153,3 +153,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 教育 人工智能培训 教师 学生'
+- id: ev-7a7728e070af3ce9
+  project_slug: labllm
+  url: https://greninja9257.github.io/LabLLM/
+  title: LabLLM
+  published_at: '2026-08-15T22:16:40Z'
+  collected_at: '2026-08-27T03:18:37Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: A native macOS lab for teaching tiny language models to think — build the architecture, train
+    the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data,
+    tokenizers, checkpoints, and MLX acceleration.
