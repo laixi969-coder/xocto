@@ -300,6 +300,29 @@ class Store:
         self._write_yaml_list(path, rows)
         return True
 
+    def update_latest_event_summary(
+        self, project_slug: str, day: date, summary: str, summary_en: str
+    ) -> bool:
+        """补齐项目当天最新事件的双语事实摘要；没有对应事件时不写。"""
+        path = self.event_path(day)
+        rows = self._read_yaml_list(path)
+        candidates = [
+            (index, row) for index, row in enumerate(rows)
+            if str(row.get("project_slug")) == project_slug
+        ]
+        if not candidates:
+            return False
+        index, row = max(
+            candidates,
+            key=lambda pair: str(pair[1].get("discovered_at") or ""),
+        )
+        updated = {**row, "summary": summary, "summary_en": summary_en}
+        if updated == row:
+            return False
+        rows[index] = updated
+        self._write_yaml_list(path, rows)
+        return True
+
     def event_days(self) -> list[date]:
         days: list[date] = []
         for path in self.events_dir.glob("*.yaml"):

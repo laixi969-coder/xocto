@@ -124,7 +124,10 @@
     </div>
     <div class="decision-grid">
       {% for item in market_summary %}
-      <div class="field"><span class="field-k">{{ item.title }}</span><p>{{ item.text }}</p></div>
+      <div class="field">
+        <span class="field-k">{% if item.url %}<a href="{{ item.url }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span>
+        <p>{{ item.text }}</p>
+      </div>
       {% endfor %}
     </div>
   </section>

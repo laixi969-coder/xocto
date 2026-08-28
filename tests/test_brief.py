@@ -11,6 +11,8 @@ from xocto.brief import (
     BriefError,
     PublicSourceLeakError,
     _decode_json_object,
+    _interpretation_prompt,
+    _interpretations,
     _model_providers,
     _prompt,
     _report_prompt,
@@ -22,6 +24,7 @@ from xocto.brief import (
     _validation_repair_messages,
     candidates_for_day,
     news_for_day,
+    report_context,
     run,
 )
 from xocto.models import Evidence, Product, RawItem, STATUS_MARKET_CONTEXT, STATUS_PENDING_FILTER, Sighting
@@ -61,6 +64,51 @@ class BriefTests(unittest.TestCase):
             self.assertIn("具体工作节点", prompt[0]["content"])
             self.assertIn("用户最终拿到什么", prompt[0]["content"])
             self.assertIn("REQ 公开证据模式", prompt[0]["content"])
+
+    def test_news_interpretation_separates_entities_from_public_market_context(self) -> None:
+        entity = replace(
+            product("entity"),
+            name="A revenue headline",
+            sightings=(Sighting("marketfeeds", "https://news.example/entity", "2026-08-13T23:10:00Z", {}, kind="news"),),
+        )
+        context = replace(
+            product("context"),
+            sightings=(Sighting("newssearch", "https://news.example/context", "2026-08-13T23:10:00Z", {}, kind="news"),),
+        )
+        result = {
+            "products": [
+                {
+                    "slug": "entity",
+                    "name": "Stable AI Company",
+                    "decision": "entity",
+                    "event_summary_zh": "公司披露企业智能体业务收入与客户复购增长。",
+                    "event_summary_en": "The company disclosed revenue growth and repeat purchases for its enterprise agent business.",
+                },
+                {
+                    "slug": "context",
+                    "name": "Enterprise agent pricing",
+                    "decision": "market_context",
+                    "summary_zh": "企业智能体采购正在从试点转向持续服务与结果付费。",
+                    "summary_en": "Enterprise agent procurement is moving from pilots to recurring services and outcome-based spending.",
+                    "event_summary_zh": "多家供应商开始披露持续服务与结果收费安排。",
+                    "event_summary_en": "Multiple vendors began disclosing recurring service and outcome-based pricing arrangements.",
+                },
+            ]
+        }
+
+        updates, entities, events = _interpretations(result, [entity, context])
+
+        self.assertEqual([item.name for item in entities], ["Stable AI Company"])
+        self.assertEqual(updates["context"].status, STATUS_MARKET_CONTEXT)
+        self.assertEqual(set(events), {"entity", "context"})
+
+    def test_news_interpretation_prompt_is_lightweight_and_entity_first(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            prompt = _interpretation_prompt(store, [product()])
+        self.assertIn("载体不等于对象", prompt[0]["content"])
+        self.assertIn("entity|market_context|rejected", prompt[0]["content"])
+        self.assertNotIn("req_initial", prompt[0]["content"])
 
     def test_gemini_can_be_the_primary_model_with_deepseek_fallback(self) -> None:
         with patch.dict(
@@ -108,6 +156,64 @@ class BriefTests(unittest.TestCase):
         self.assertIn("selected_products", prompt[1]["content"])
         self.assertIn("正向方向判断", prompt[0]["content"])
         self.assertNotIn("今天没有值得展开的内容时", prompt[0]["content"])
+
+    def test_editorial_market_context_is_a_first_class_report_input(self) -> None:
+        context = replace(
+            product("agent-economics"),
+            name="Agent economics",
+            status=STATUS_MARKET_CONTEXT,
+            summary_zh="企业智能体采购正在从试点转向按结果持续付费。",
+            summary_en="Enterprise agent procurement is shifting from pilots to recurring outcome-based spending.",
+        )
+        rows = report_context(
+            [context],
+            [
+                {"title": "duplicate raw report", "url": context.url},
+                {"title": "legacy raw report", "url": "https://news.example/legacy"},
+            ],
+        )
+        self.assertEqual([row.get("kind") for row in rows], ["market_context", None])
+        prompt = _report_prompt(DAY, [context], rows)
+        self.assertIn("正式市场背景", prompt[0]["content"])
+        self.assertIn("企业智能体采购", prompt[1]["content"])
+
+    def test_existing_daily_report_is_revised_when_a_later_candidate_arrives(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            store.config_dir.mkdir(parents=True, exist_ok=True)
+            (store.config_dir / "filter.md").write_text("筛选规则", encoding="utf-8")
+            (store.config_dir / "template.md").write_text("编辑模板", encoding="utf-8")
+            (store.config_dir / "req.md").write_text("REQ 公开证据模式", encoding="utf-8")
+            store.save_product(product())
+            store.save_report("旧版观察", DAY)
+            store.save_report("Previous edition", DAY, locale="en")
+            product_result = {
+                "products": [{
+                    "slug": "example",
+                    "name": "Example",
+                    "decision": "market_context",
+                    "summary_zh": "这项新变化改变了企业采用智能工具的采购与交付方式。",
+                    "summary_en": "This new shift changes how enterprises procure and deploy intelligent tools.",
+                }]
+            }
+            report_result = {
+                "report": {
+                    "hook_zh": "企业采购信号正在从试用走向持续交付",
+                    "highlights_zh": ["一项新增市场变化已进入当日观察"],
+                    "body_zh": "## 当日变化\n\n新增事实已合并进晚间版本。",
+                    "hook_en": "Enterprise buying signals are moving from trials to recurring delivery",
+                    "highlights_en": ["A new market shift entered today's view"],
+                    "body_en": "## Daily shift\n\nThe new fact is included in the evening revision.",
+                }
+            }
+            with patch("xocto.brief._request", side_effect=[product_result, report_result]) as request:
+                result = run(store, day=DAY)
+
+            self.assertFalse(result.skipped)
+            self.assertEqual(request.call_count, 2)
+            self.assertIn("旧版观察", request.call_args_list[1].args[0][1]["content"])
+            self.assertIn("晚间版本", store.report_path(DAY).read_text(encoding="utf-8"))
 
     def test_report_markdown_rejects_empty_day_copy(self) -> None:
         result = {
@@ -281,14 +387,29 @@ class BriefTests(unittest.TestCase):
         self.assertEqual(updated.industries, ("软件研发",))
         self.assertTrue(updated.inspiration_en)
 
-    def test_settled_general_assistant_is_kept_as_market_context_not_an_opportunity(self) -> None:
+    def test_market_context_keeps_a_public_bilingual_record_and_stable_entity_name(self) -> None:
         source = product()
         updated = _updates(
-            {"products": [{"slug": "example", "decision": "market_context"}]},
+            {"products": [{
+                "slug": "example",
+                "name": "Example AI",
+                "decision": "market_context",
+                "summary_zh": "这项变化改变了企业采用 AI 的成本与交付方式。",
+                "summary_en": "This change alters the cost and delivery model of enterprise AI adoption.",
+            }]},
             [source],
         )["example"]
         self.assertEqual(updated.status, STATUS_MARKET_CONTEXT)
-        self.assertFalse(updated.summary_zh)
+        self.assertEqual(updated.name, "Example AI")
+        self.assertIn("企业采用", updated.summary_zh)
+        self.assertIn("enterprise AI", updated.summary_en)
+
+    def test_market_context_without_public_copy_is_rejected(self) -> None:
+        with self.assertRaises(BriefError):
+            _updates(
+                {"products": [{"slug": "example", "decision": "market_context"}]},
+                [product()],
+            )
 
     def test_req_initial_review_requires_all_gates_and_uses_known_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

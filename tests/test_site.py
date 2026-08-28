@@ -442,6 +442,36 @@ class PublishabilityTests(unittest.TestCase):
             english = build_context(store, EN)
             self.assertNotIn("、", " ".join(item["text"] for item in english["market_summary"]))
 
+    def test_home_publishes_editorial_market_context_instead_of_hiding_it(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            from xocto.store import Store
+
+            store = Store(Path(tmp))
+            context = replace(
+                product(),
+                slug="agent-economics",
+                name="Agent economics",
+                status="market_context",
+                summary_zh="企业智能体收入与复购上升，说明采购正在从试验转向持续服务。",
+                summary_en="Rising agent revenue and repeat purchases show procurement moving from trials to recurring service.",
+                inspiration="",
+                inspiration_en="",
+            )
+            store.save_product(context)
+            store.append_event(DiscoveryEvent(
+                id="first-agent-economics",
+                project_slug=context.slug,
+                event_type=EVENT_FIRST_DISCOVERED,
+                occurred_at="2026-08-14T12:00:00Z",
+                discovered_at="2026-08-14T13:00:00Z",
+            ))
+
+            chinese = build_context(store, ZH)
+            english = build_context(store, EN)
+
+            self.assertTrue(any(item["title"] == "Agent economics" for item in chinese["market_summary"]))
+            self.assertTrue(any("repeat purchases" in item["text"] for item in english["market_summary"]))
+
     def test_home_hides_collector_status_as_event_summary(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             from xocto.store import Store

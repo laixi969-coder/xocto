@@ -1,6 +1,7 @@
 name: 每日采集
 
-# 每天北京时间早上 6:17 跑一次。
+# 每天北京时间早晚各跑一次。早报保证固定交付，晚报收进当天白天发布的
+# 产品、财报和行业变化；brief 会在没有新候选时幂等跳过。
 # 时间点是倒推出来的：读者要在早上 7 点看到写好的简报，所以采集、判断、建站
 # 都在同一个工作流里连续完成；不能依赖某台电脑或另一条人工触发的任务。
 # 不放在整点：GitHub 官方明确说整点负载最高，定时容易迟到甚至被丢弃。
@@ -9,6 +10,8 @@ name: 每日采集
 on:
   schedule:
     - cron: "17 6 * * *"
+      timezone: "Asia/Shanghai"
+    - cron: "17 18 * * *"
       timezone: "Asia/Shanghai"
   workflow_dispatch:
     inputs:
@@ -116,12 +119,18 @@ jobs:
         id: brief
         continue-on-error: true
         run: |
-          if [ -n "${{ inputs.retry_date }}" ]; then
-            uv run xocto brief --date "${{ inputs.retry_date }}" --force
-          elif [ "${{ inputs.revise_daily_brief }}" = "true" ]; then
-            uv run xocto brief --force
-          else
-            uv run xocto brief
+          run_brief() {
+            if [ -n "${{ inputs.retry_date }}" ]; then
+              uv run xocto brief --date "${{ inputs.retry_date }}" --force
+            elif [ "${{ inputs.revise_daily_brief }}" = "true" ]; then
+              uv run xocto brief --force
+            else
+              uv run xocto brief
+            fi
+          }
+          if ! run_brief; then
+            echo "::warning::第一次编辑未完成；保留原始数据并立即完整重试一次。"
+            run_brief
           fi
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -193,6 +202,18 @@ jobs:
       - name: 生成网站（日报结果）
         run: uv run xocto build
 
+      - name: 检查当日交付是否存在
+        id: freshness
+        continue-on-error: true
+        run: |
+          target_date="${{ inputs.retry_date }}"
+          if [ -z "$target_date" ]; then
+            target_date="$(TZ=Asia/Shanghai date +%Y-%m-%d)"
+          fi
+          test -s "data/raw/$target_date.jsonl"
+          test -s "data/reports/$target_date.md"
+          test -s "data/reports/en/$target_date.md"
+
       - name: 记录编辑降级
         if: ${{ steps.brief.outcome == 'failure' }}
         run: |
@@ -227,6 +248,7 @@ jobs:
           if [ "${{ steps.brief.outcome }}" = "failure" ]; then failed="$failed brief"; fi
           if [ "${{ steps.market.outcome }}" = "failure" ]; then failed="$failed market"; fi
           if [ "${{ steps.full_req.outcome }}" = "failure" ]; then failed="$failed full_req"; fi
+          if [ "${{ steps.freshness.outcome }}" = "failure" ]; then failed="$failed freshness"; fi
           if [ "${{ steps.design.outcome }}" = "failure" ]; then failed="$failed design"; fi
           if [ -n "$failed" ]; then
             echo "以下阶段未完成，但当日站点如有新内容已推送：$failed"

@@ -61,6 +61,7 @@ _TITLE_NOISE = re.compile(
 _NON_WORD = re.compile(r"[^\w一-鿿]+")
 
 MIN_TITLE_KEY_LEN = 4
+MIN_CJK_MENTION_LEN = 3
 
 
 def canonical_url(url: str) -> str:
@@ -128,6 +129,22 @@ def title_key(title: str) -> str:
     return key if len(key) >= MIN_TITLE_KEY_LEN else ""
 
 
+def mention_key(name: str) -> str:
+    """实体名用于报道内提及时，可接受三个以上的中日韩字符。
+
+    标题判同仍维持四字符的保守阈值；否则短标题太容易把不同产品合并。
+    但中文公司名常见三字（例如“云知声”），若沿用标题阈值，报道永远无法
+    回挂到已经实体化的档案。这里只用于“唯一实体被正文提到”的弱关联。
+    """
+    key = title_key(name)
+    if key:
+        return key
+    compact = _NON_WORD.sub("", name.strip().lower())
+    if len(compact) >= MIN_CJK_MENTION_LEN and re.search(r"[一-鿿]", compact):
+        return compact
+    return ""
+
+
 class ProductIndex:
     """产品池的判同索引。
 
@@ -139,6 +156,7 @@ class ProductIndex:
         self._by_url: dict[str, str] = {}  # canonical_url -> slug
         self._by_host: dict[str, str] = {}  # host -> slug
         self._by_title: dict[str, str] = {}  # title_key -> slug
+        self._mention_names: dict[str, str] = {}  # stable entity key -> slug
         for product in products or []:
             self.add(product)
 
@@ -151,12 +169,18 @@ class ProductIndex:
                 self._by_url.setdefault(url, product.slug)
 
         host = url_host(product.canonical_url or product.url)
-        if host and not is_aggregator(host):
+        observation_only = bool(product.sightings) and all(
+            sighting.kind == "news" for sighting in product.sightings
+        )
+        if host and not observation_only and not is_aggregator(host):
             self._by_host.setdefault(host, product.slug)
 
         key = title_key(product.name)
         if key:
             self._by_title.setdefault(key, product.slug)
+        entity = mention_key(product.name)
+        if entity:
+            self._mention_names.setdefault(entity, product.slug)
 
     def get(self, slug: str) -> Product | None:
         return self._by_slug.get(slug)
@@ -172,12 +196,28 @@ class ProductIndex:
             return self._by_slug.get(self._by_url[canon])
 
         host = url_host(item.url)
-        if host and not is_aggregator(host) and host in self._by_host:
+        if (
+            item.extra.get("kind") != "news"
+            and host
+            and not is_aggregator(host)
+            and host in self._by_host
+        ):
             return self._by_slug.get(self._by_host[host])
 
         key = title_key(item.title)
         if key and key in self._by_title:
             return self._by_slug.get(self._by_title[key])
+
+        # 报道标题通常不是实体名，但会明确提到已有公司/产品。只在唯一稳定
+        # 名称命中时关联；多实体报道保守地留作新候选，交给编辑层判断。
+        if item.extra.get("kind") == "news":
+            haystack = title_key(f"{item.title} {item.summary}")
+            mentioned = {
+                slug for entity, slug in self._mention_names.items()
+                if entity and entity in haystack
+            }
+            if len(mentioned) == 1:
+                return self._by_slug.get(next(iter(mentioned)))
 
         return None
 

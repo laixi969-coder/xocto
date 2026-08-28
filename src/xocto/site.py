@@ -760,7 +760,9 @@ def _event_view(event: Any, view: dict[str, Any], store: Store, locale: Locale) 
         EVENT_MARKET_CHANGE: locale.t["home"]["event_market"],
         EVENT_REQ_CHANGE: locale.t["home"]["event_req"],
     }
-    raw_summary = _public_event_summary(event.summary or "")
+    raw_summary = _public_event_summary(
+        (event.summary_en if locale.key == "en" else event.summary) or ""
+    )
     # 旧档案中曾以采集器状态充当事件摘要；它没有解释产品发生了什么，
     # 不应占用首页的阅读空间。保留有事实内容的人工/模型摘要。
     if raw_summary in {"首次发现项目", "发现新的公开信号"}:
@@ -949,7 +951,13 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     """
     # 产品池是内部工作队列，不等于公开站点。淘汰项必须消失；还没有中文说明
     # 和灵感的半成品卡片对读者也没有价值，等判断层补齐后再自动上站。
-    products = [p for p in store.iter_products() if _is_publishable(p)]
+    all_products = list(store.iter_products())
+    products = [p for p in all_products if _is_publishable(p)]
+    market_context_products = {
+        p.slug: p for p in all_products
+        if p.status == STATUS_MARKET_CONTEXT
+        and bool((p.summary_en if locale.key == "en" else p.summary_zh).strip())
+    }
     analyses = load_analyses(store, locale)
     reports = load_reports(store, locale)
     report_months: list[dict[str, Any]] = []
@@ -1142,6 +1150,18 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     # 当日市场摘要只从当天的事件流归纳，不用旧项目的规模或排行榜替代新变化。
     # “首次发现涉及”是观察范围，不暗示这是该行业全球第一次使用 AI。
     market_summary: list[dict[str, Any]] = []
+    context_slugs: set[str] = set()
+    for event in ordered_events:
+        product = market_context_products.get(event.project_slug)
+        if product is None or product.slug in context_slugs or not event.homepage:
+            continue
+        context_slugs.add(product.slug)
+        market_summary.append({
+            "kind": "context",
+            "title": product.name,
+            "text": product.summary_en if locale.key == "en" else product.summary_zh,
+            "url": product.url,
+        })
     industry_counts: dict[str, int] = {}
     for item in first_discoveries:
         for industry in item["industries"]:

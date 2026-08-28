@@ -40,7 +40,12 @@ POOL = ROOT / "data" / "pool"
 MIN_RATIO = 4.5
 
 # 网站上不许出现的采集源名称（见 CLAUDE.md）
-FORBIDDEN = ("Product Hunt", "Hacker News", "AICPB", "producthunt", "hackernews", "aicpb")
+FORBIDDEN = (
+    "Product Hunt", "Hacker News", "AICPB", "producthunt", "hackernews", "aicpb",
+    "officialfeeds", "marketfeeds", "newssearch", "searchfeeds", "QbitAI", "量子位",
+    "GeekPark", "TechCrunch", "VentureBeat", "Crunchbase News", "Sifted", "Tech.eu",
+    "Ars Technica",
+)
 
 # 只有作者本人看得懂的指代。
 # 这一条防的是 2026-08-13 发现的事故：分析模板第五部分原本写着"这一栏是给蔡蔡写的"，

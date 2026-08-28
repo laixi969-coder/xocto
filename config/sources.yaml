@@ -220,13 +220,20 @@ sources:
         url: "https://github.blog/ai-and-ml/feed/"
 
   # 独立研究、开发者观察与行业媒体：补齐产品平台和代码库天然覆盖不到的
-  # 采用、分发、成本与市场结构信号。它们不是公司公告，也不直接当作产品。
+  # 采用、分发、成本与市场结构信号。报道载体不等于市场背景：每条都先进入
+  # 统一候选池，再识别为产品、公司实质事件或正式市场背景。
   # 采集器默认标为 independent，健康检查会作为单独的 marketfeeds 源报警。
   marketfeeds:
     enabled: true
     lookback_hours: 72
     max_parallel_feeds: 6
     feeds:
+      # 中文产业与产品变化。量子位和极客公园均为实测可用的原生 RSS；
+      # 报道会进入统一候选池，不再只占“背景”槽位。
+      - name: "QbitAI"
+        url: "https://www.qbitai.com/feed"
+      - name: "GeekPark"
+        url: "https://www.geekpark.net/rss"
       - name: "Latent Space"
         url: "https://www.latent.space/feed"
       - name: "One Useful Thing"
@@ -253,6 +260,55 @@ sources:
         url: "https://feeds.feedburner.com/AndreessenHorowitz"
       - name: "Simon Willison"
         url: "https://simonwillison.net/atom/everything/"
+      # 美国及欧洲的创业、融资、商业化与行业落地；补足只看大厂新闻和
+      # 开源仓库时看不到的闭源产品与收入信号。
+      - name: "Ars Technica AI"
+        url: "https://arstechnica.com/ai/feed/"
+      - name: "VentureBeat AI"
+        url: "https://venturebeat.com/category/ai/feed/"
+      - name: "Crunchbase News"
+        url: "https://news.crunchbase.com/feed/"
+      - name: "Sifted"
+        url: "https://sifted.eu/feed"
+      - name: "Tech.eu"
+        url: "https://tech.eu/feed/"
+
+  # 固定媒体只能覆盖“已经知道要看谁”。跨媒体新闻搜索补未知公司、
+  # 财报、融资和行业工作流变化；搜索结果仍只是发现信号，是否构成项目或
+  # 市场变化由同一个编辑层判断。
+  newssearch:
+    enabled: true
+    lookback_hours: 72
+    max_results_per_query: 30
+    queries:
+      - name: "US AI commercial signals"
+        query: 'AI startup (revenue OR ARR OR customers OR users OR funding) when:3d'
+        hl: "en-US"
+        gl: "US"
+        ceid: "US:en"
+        ecosystem: "en"
+        market: "US"
+      - name: "US vertical AI launches"
+        query: 'AI product (launched OR deployment OR customer) (healthcare OR legal OR logistics OR manufacturing OR insurance) when:3d'
+        hl: "en-US"
+        gl: "US"
+        ceid: "US:en"
+        ecosystem: "en"
+        market: "US"
+      - name: "China AI commercial signals"
+        query: 'AI (营收 OR 收入 OR 用户 OR 客户 OR 订单 OR 融资 OR 复购) when:3d'
+        hl: "zh-CN"
+        gl: "CN"
+        ceid: "CN:zh-Hans"
+        ecosystem: "zh"
+        market: "CN"
+      - name: "China agent deployments"
+        query: '智能体 (发布 OR 落地 OR 医疗 OR 保险 OR 制造 OR 物流 OR 收入 OR 客户) when:3d'
+        hl: "zh-CN"
+        gl: "CN"
+        ceid: "CN:zh-Hans"
+        ecosystem: "zh"
+        market: "CN"
 
   # AICPB（AI 产品榜）。中文世界唯一能拿到真实数据的源。
   # 性质和上面三个不同：它给的不是"刚冒出来的新东西"，而是

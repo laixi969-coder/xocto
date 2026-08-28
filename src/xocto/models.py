@@ -135,6 +135,9 @@ class Sighting:
     url: str
     seen_at: str
     metrics: dict[str, Any]
+    # 载体类型不是对象类型。保留它只为去重时避免把同一媒体域名下的不同
+    # 报道合成一个“产品”；最终是项目还是市场变化仍由编辑层判断。
+    kind: str = "product"
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -142,6 +145,7 @@ class Sighting:
             "url": self.url,
             "seen_at": self.seen_at,
             "metrics": self.metrics,
+            "kind": self.kind,
         }
 
     @classmethod
@@ -151,6 +155,7 @@ class Sighting:
             url=data.get("url", ""),
             seen_at=data.get("seen_at", ""),
             metrics=data.get("metrics") or {},
+            kind=str(data.get("kind") or "product"),
         )
 
 
@@ -297,6 +302,7 @@ class DiscoveryEvent:
     discovered_at: str
     signals: tuple[str, ...] = ()
     summary: str = ""
+    summary_en: str = ""
     evidence_ids: tuple[str, ...] = ()
     homepage: bool = True
 
@@ -309,6 +315,7 @@ class DiscoveryEvent:
             "discovered_at": self.discovered_at,
             "signals": list(self.signals),
             "summary": self.summary,
+            "summary_en": self.summary_en,
             "evidence_ids": list(self.evidence_ids),
             "homepage": self.homepage,
         }
@@ -326,6 +333,7 @@ class DiscoveryEvent:
             discovered_at=str(data.get("discovered_at") or ""),
             signals=tuple(str(value) for value in (data.get("signals") or [])),
             summary=str(data.get("summary") or ""),
+            summary_en=str(data.get("summary_en") or ""),
             evidence_ids=tuple(str(value) for value in (data.get("evidence_ids") or [])),
             homepage=bool(data.get("homepage", True)),
         )
@@ -609,6 +617,7 @@ class Product:
             url=item.url,
             seen_at=item.collected_at,
             metrics=item.metrics,
+            kind=str(item.extra.get("kind") or "product"),
         )
         return cls(
             slug=slugify(item.title),

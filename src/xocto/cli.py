@@ -70,7 +70,7 @@ def _print_report(report: CollectReport) -> None:
     print(f"  有新动态      {report.updated_products} 个（热度变了或多了一个源）")
     print(f"  没变化        {report.unchanged_products} 个")
     if report.news_items:
-        print(f"  新闻报道      {report.news_items} 条（不进产品池，留给趋势那一节）")
+        print(f"  报道信号      {report.news_items} 条（已进统一候选池，等待实体化与分流）")
 
     if report.failed:
         print()

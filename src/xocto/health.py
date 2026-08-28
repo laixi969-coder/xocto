@@ -72,6 +72,43 @@ def enabled_sources(config: dict) -> list[str]:
     )
 
 
+def _newssearch_lane_findings(store: Store, config: dict, day: date) -> list[Finding]:
+    """逐条检查中美搜索车道，防止一个市场失效却被另一个市场总量掩盖。"""
+    source_cfg = ((config.get("sources") or {}).get("newssearch") or {})
+    if not isinstance(source_cfg, dict) or not source_cfg.get("enabled"):
+        return []
+    expected = {
+        str(spec.get("name") or "").strip()
+        for spec in (source_cfg.get("queries") or [])
+        if isinstance(spec, dict) and str(spec.get("name") or "").strip()
+    }
+    actual = {
+        str(item.extra.get("query_lane") or "").strip()
+        for item in store.read_raw(day)
+        if item.source == "newssearch" and str(item.extra.get("query_lane") or "").strip()
+    }
+    # 整个 newssearch 为零时，源级检查已经给出更直接的死源结论。
+    if not actual:
+        return []
+    findings = [
+        Finding(
+            SEVERITY_DEAD,
+            f"newssearch:{lane}",
+            "同一轮其他新闻搜索有产出，但这条语言/市场车道为 0 —— 查询可能失效或被限流",
+        )
+        for lane in sorted(expected - actual)
+    ]
+    findings.extend(
+        Finding(
+            SEVERITY_WARN,
+            f"newssearch:{lane}",
+            "原始数据出现未配置的搜索车道 —— 配置和实际不一致",
+        )
+        for lane in sorted(actual - expected)
+    )
+    return findings
+
+
 def check(store: Store, config: dict, today: date | None = None) -> list[Finding]:
     """比对今天和历史，返回发现。空列表 = 健康。"""
     today = today or today_cst()
@@ -128,6 +165,8 @@ def check(store: Store, config: dict, today: date | None = None) -> list[Finding
             SEVERITY_WARN, source,
             f"数据里有 {now[source]} 条，但配置里没有 enabled —— 配置和实际不一致",
         ))
+
+    findings.extend(_newssearch_lane_findings(store, config, today))
 
     return findings
 

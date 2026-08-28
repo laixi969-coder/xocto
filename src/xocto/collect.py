@@ -145,7 +145,9 @@ def _has_material_change(old: Product, new: Product) -> bool:
 def _evidence_from_raw(product: Product, item: RawItem) -> Evidence:
     """把一次原始发现留成可追溯证据，但不把内部渠道名写进公开字段。"""
     source_kind = "product"
-    if item.source in {"github", "huggingface", "modelscope"}:
+    if item.extra.get("kind") == "news":
+        source_kind = "market_signal"
+    elif item.source in {"github", "huggingface", "modelscope"}:
         source_kind = "open_source"
     elif any(key in item.metrics for key in ("raw_value", "stars", "points", "mom_percent")):
         source_kind = "adoption"
@@ -232,8 +234,9 @@ def merge_into_pool(
 ) -> tuple[int, int, int, int]:
     """把原始记录合并进产品池，返回 (新建数, 实质更新数, 无变化数, 新闻数)。
 
-    标记为 news 的不进产品池 —— 那是报道不是产品。但它仍然留在
-    data/raw/ 里，简报的"大厂动作/趋势"那一节要用。
+    `news` 只描述载体是报道，不能替我们判断对象是不是产品、公司 AI 改造
+    或市场变化。报道同样进入候选池，由编辑层完成实体化和分流；否则媒体、
+    财报和行业原生渠道发现的产品会在判断之前就被静默丢掉。
     """
     index = ProductIndex(list(store.iter_products()))
     new_count = 0
@@ -244,7 +247,6 @@ def merge_into_pool(
     for item in items:
         if item.extra.get("kind") == "news":
             news_count += 1
-            continue
 
         existing = index.match(item)
 
@@ -254,6 +256,7 @@ def merge_into_pool(
                 url=item.url,
                 seen_at=item.collected_at,
                 metrics=item.metrics,
+                kind=str(item.extra.get("kind") or "product"),
             )
             updated = existing.with_sighting(sighting)
             # 原本缺的字段，这次源给了就补上（已有的不覆盖）
@@ -261,6 +264,10 @@ def merge_into_pool(
                 updated = replace(updated, summary=item.summary)
             if not updated.builder and item.extra.get("builder"):
                 updated = replace(updated, builder=item.extra["builder"])
+            # 报道/公告命中已有实体时，它是待解释的实质更新候选。重新放回
+            # 编辑队列，但保留旧档案的全部事实与双语字段。
+            if item.extra.get("kind") == "news" and updated.status != "pending_filter":
+                updated = replace(updated, status="pending_filter")
             # GitHub 每次抓取都会重新合并所有发现通道，因此它对“是否重大”的
             # 当前判定是权威的。这样可清掉旧规则曾把专题插件误升为重大留下的标记；
             # 其他来源不能把 GitHub 的重大项目降级。
