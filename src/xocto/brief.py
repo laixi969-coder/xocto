@@ -16,6 +16,7 @@ from typing import Any
 import httpx
 import yaml
 
+from .demand import demand_read
 from .models import (
     CATEGORIES,
     REQ_GATE_STATUSES,
@@ -358,6 +359,9 @@ project_type（new_application、open_source、ai_transformation 之一），以
   “缺乏采用证据”：必须先写目前公开材料已经证明的具体产品事实，再指出缺少哪类用户、工作流、采用、
   付费或交付证据。价值关成立后，后面三关必须各自判断。next_validation 必须写 xOcto 可继续追踪的公开来源与会改变判断的事实，不得把验证工作交给读者。
 - signal_level 只能是“需求信号明确”“初步成立”“需求存疑”。禁止“待验证”。真需求但付费未核验用“初步成立”。
+- req_initial.demand_read 无论 verdict 是什么都必须完整回答：用户要完成什么、什么痛点、当前替代方式、
+  为什么有人采用或关注。每项同时给中英文。产品说明只能证明产品主张，不能独自证明痛点；访问、收藏、
+  增长可以解释采用或关注，但不能冒充付费与留存。没有公开证据时明确写“尚未核验”，禁止留空或编造。
 
 <req_public_evidence_protocol>
 {req_framework}
@@ -393,7 +397,7 @@ priority_review 为 true 的候选是跨通道验证的重大项目：不得 rej
 
 JSON 结构严格如下：
 {
-  "products": [{"slug":"...","name":"稳定实体名","decision":"rejected|market_context|queued|watching","event_summary_zh":"本次新增事实","event_summary_en":"New fact in this event","category":"...","project_type":"new_application|open_source|ai_transformation","industries":["..."],"industries_en":["..."],"jobs":["..."],"jobs_en":["..."],"regions":["..."],"regions_en":["..."],"open_source":false,"summary_zh":"...","inspiration":"...","summary_en":"...","inspiration_en":"...","req_initial":{"verdict":"true_demand|pseudo_demand|needs_validation","signal_level":"需求信号明确|初步成立|需求存疑","gates":[{"gate":"value|consensus|model|truth","status":"supported|insufficient|challenged","reason":"...","evidence_ids":["ev-..."]}],"next_validation":"..."}}],
+  "products": [{"slug":"...","name":"稳定实体名","decision":"rejected|market_context|queued|watching","event_summary_zh":"本次新增事实","event_summary_en":"New fact in this event","category":"...","project_type":"new_application|open_source|ai_transformation","industries":["..."],"industries_en":["..."],"jobs":["..."],"jobs_en":["..."],"regions":["..."],"regions_en":["..."],"open_source":false,"summary_zh":"...","inspiration":"...","summary_en":"...","inspiration_en":"...","req_initial":{"verdict":"true_demand|pseudo_demand|needs_validation","signal_level":"需求信号明确|初步成立|需求存疑","demand_read":{"job_zh":"...","job_en":"...","pain_zh":"...","pain_en":"...","current_alternative_zh":"...","current_alternative_en":"...","usage_reason_zh":"...","usage_reason_en":"..."},"gates":[{"gate":"value|consensus|model|truth","status":"supported|insufficient|challenged","reason":"...","evidence_ids":["ev-..."]}],"next_validation":"..."}}],
   "report": {
     "hook_zh":"20–40 字的中文钩子", "highlights_zh":["..."], "body_zh":"以 ## 开头的中文 Markdown 正文",
     "hook_en":"English hook", "highlights_en":["..."], "body_en":"English Markdown body beginning with ##"
@@ -707,6 +711,16 @@ def _req_reviews(
                 raise BriefError(f"{slug}.{gate} 引用了不存在的证据：{', '.join(sorted(unknown_evidence))}")
             gates.append(ReqGateReview(gate, status, reason, tuple(evidence_ids)))
         next_validation = _text(raw.get("next_validation"), f"{slug}.req_initial.next_validation")
+        fallback_zh = demand_read(product, None, store.read_evidence(slug), english=False)
+        fallback_en = demand_read(product, None, store.read_evidence(slug), english=True)
+        raw_read = raw.get("demand_read") if isinstance(raw.get("demand_read"), dict) else {}
+
+        def narrative(key: str, fallback: str, *, english: bool = False) -> str:
+            value = str(raw_read.get(key) or "").strip()[:480]
+            if not value or (english and _CJK_TEXT.search(value)):
+                return fallback
+            return value
+
         verdict, signal_level = req_conclusion(gates)
         reviews[slug] = ReqReview(
             id=f"req-initial-{slug}-{day.isoformat()}",
@@ -717,6 +731,14 @@ def _req_reviews(
             signal_level=signal_level,
             gates=tuple(gates),
             next_validation=next_validation,
+            job=narrative("job_zh", fallback_zh.job),
+            job_en=narrative("job_en", fallback_en.job, english=True),
+            pain=narrative("pain_zh", fallback_zh.pain),
+            pain_en=narrative("pain_en", fallback_en.pain, english=True),
+            current_alternative=narrative("current_alternative_zh", fallback_zh.current_alternative),
+            current_alternative_en=narrative("current_alternative_en", fallback_en.current_alternative, english=True),
+            usage_reason=narrative("usage_reason_zh", fallback_zh.usage_reason),
+            usage_reason_en=narrative("usage_reason_en", fallback_en.usage_reason, english=True),
         )
     return reviews
 

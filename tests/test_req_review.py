@@ -24,6 +24,7 @@ from xocto.models import (
 from xocto.req_review import (
     _decision_change_summary,
     _decision_signature,
+    _is_proven,
     _is_substantive_full_review,
     _messages,
     _reviews,
@@ -83,11 +84,15 @@ class FullReqReviewTests(unittest.TestCase):
             seeded = store.read_req_reviews(item.slug)[0]
 
             self.assertEqual((report.candidates, report.reviews), (1, 1))
-            self.assertEqual(seeded.verdict, REQ_TRUE_DEMAND)
-            self.assertEqual(seeded.signal_level, REQ_SIGNAL_INITIAL)
-            self.assertIn("需求和痛点", seeded.gates[0].reason)
-            self.assertEqual(seeded.gates[0].status, "supported")
+            self.assertEqual(seeded.verdict, REQ_NEEDS_VALIDATION)
+            self.assertEqual(seeded.signal_level, REQ_SIGNAL_DOUBT)
+            self.assertIn("产品说明不能代替用户证据", seeded.gates[0].reason)
+            self.assertEqual(seeded.gates[0].status, "insufficient")
             self.assertEqual(seeded.gates[2].status, "insufficient")
+            self.assertTrue(seeded.job)
+            self.assertTrue(seeded.pain)
+            self.assertTrue(seeded.current_alternative)
+            self.assertTrue(seeded.usage_reason)
             self.assertIn("公开补证", seeded.next_validation)
             self.assertNotIn("访谈", seeded.next_validation)
             revised = ReqReview(
@@ -110,7 +115,7 @@ class FullReqReviewTests(unittest.TestCase):
             seed_initial_reviews(store, day=DAY)
             seeded = store.read_req_reviews(item.slug)[0]
             self.assertEqual(seeded.verdict, REQ_NEEDS_VALIDATION)
-            self.assertIn("需求和痛点", seeded.gates[0].reason)
+            self.assertIn("具体用户任务", seeded.gates[0].reason)
 
     def test_priority_project_with_initial_review_enters_full_req_queue(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -223,14 +228,21 @@ class FullReqReviewTests(unittest.TestCase):
             ReqGateReview("truth", "insufficient", "价值闸门未通过，求真闸门未进入。"),
         )
         self.assertEqual(req_conclusion(gates), (REQ_PSEUDO_DEMAND, REQ_SIGNAL_DOUBT))
-        self.assertEqual(public_req_labels("needs_validation", "待验证", gates), ("伪需求", REQ_SIGNAL_DOUBT))
+        self.assertEqual(public_req_labels("needs_validation", "待验证", gates), ("解决问题，但需求刚性不足", REQ_SIGNAL_DOUBT))
 
     def test_public_labels_never_say_pending_validation(self) -> None:
         gates = tuple(ReqGateReview(gate, "insufficient", "公开材料尚未说明买方和工作。") for gate in ("value", "consensus", "model", "truth"))
         verdict_label, signal = public_req_labels("needs_validation", "待验证", gates)
-        self.assertEqual(verdict_label, "需求不成立")
+        self.assertEqual(verdict_label, "问题已识别，需求强度未明")
         self.assertNotEqual(signal, "待验证")
         self.assertNotIn("待验证", verdict_label)
+
+    def test_normalized_numeric_value_counts_as_proven_even_when_raw_value_is_text(self) -> None:
+        item = replace(product(), sightings=(Sighting(
+            "ranking", "https://example.com", "2026-08-23T10:00:00Z",
+            {"raw_value": "2.79M", "value": 2_790_000.0, "metric": "visits"},
+        ),))
+        self.assertTrue(_is_proven(item))
 
     def test_full_review_downgrades_unsupported_claim_without_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

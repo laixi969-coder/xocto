@@ -1,0 +1,38 @@
+- id: req-initial-har-2026-08-28
+  project_slug: har
+  level: initial
+  reviewed_at: '2026-08-11T05:03:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“多个 AI 同时改同一份代码时分开工位，用检查证据证明测过，而不是口说做完”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''
+  job: 多个 AI 同时改同一份代码时分开工位，用检查证据证明测过，而不是口说做完
+  job_en: When several AIs edit the same codebase, each gets an isolated bench, and passing checks — not
+    self-report — prove the work was tested.
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：多个 AI 同时改同一份代码时分开工位，用检查证据证明测过，而不是口说做完；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: When several AIs edit the same codebase,
+    each gets an isolated bench, and passing checks — not self-report — prove the work was tested. The
+    exact adoption motive and repeat use are not yet verified.'

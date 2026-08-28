@@ -27,6 +27,17 @@
     - ev-4c3d4f6d62dad806
   next_validation: 查看仓库文档，确认其是否提供可运行的示例、使用案例及性能数据。
   market: ''
+  job: Windows 桌面开发者
+  job_en: Windows desktop developer
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：Windows 桌面开发者；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Windows desktop developer The exact
+    adoption motive and repeat use are not yet verified.'
 - id: req-full-github-2026-08-24
   project_slug: github
   level: full
@@ -56,6 +67,17 @@
     - ev-4c3d4f6d62dad806
   next_validation: 查看仓库文档，确认其是否提供可运行的示例、使用案例及性能数据。
   market: ''
+  job: Windows 桌面开发者
+  job_en: Windows desktop developer
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：Windows 桌面开发者；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Windows desktop developer The exact
+    adoption motive and repeat use are not yet verified.'
 - id: req-initial-github-2026-08-27
   project_slug: github
   level: initial
@@ -65,7 +87,7 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“MWFL 是一个基于 C++20 的轻量级原生 Windows 开发框架，在 Win32 之上提供现代封装，保留原生控件和系统能力。”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“MWFL 是一个基于 C++20 的轻量级原生 Windows 开发框架，在 Win32 之上提供现代封装，保留原生控件和系统能力”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-8ec01074e62e5a90
   - gate: consensus
@@ -82,6 +104,17 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+  job: Windows 桌面开发者
+  job_en: Windows desktop developer
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：Windows 桌面开发者；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Windows desktop developer The exact
+    adoption motive and repeat use are not yet verified.'
 - id: req-full-github-2026-08-27
   project_slug: github
   level: full
@@ -108,3 +141,14 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+  job: Windows 桌面开发者
+  job_en: Windows desktop developer
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：Windows 桌面开发者；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Windows desktop developer The exact
+    adoption motive and repeat use are not yet verified.'

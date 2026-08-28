@@ -3,7 +3,7 @@ from __future__ import annotations
 from datetime import date
 import unittest
 
-from xocto.market import _query, _relevant_hit, _rss_hits, _validated_observations
+from xocto.market import _mentions_product, _query, _relevant_hit, _rss_hits, _validated_observations
 from xocto.models import Product, Sighting
 
 
@@ -41,6 +41,12 @@ class MarketReviewTests(unittest.TestCase):
         self.assertFalse(_relevant_hit(generic, "AI freight shipment exceptions"))
         self.assertTrue(_relevant_hit(relevant, "AI freight shipment exceptions"))
         self.assertFalse(_relevant_hit(generic, "AI 生物安全 公共卫生"))
+
+    def test_demand_evidence_must_name_the_product(self) -> None:
+        generic = {"title": "Best AI product reviews", "url": "https://example.com", "summary": "Common user complaints."}
+        specific = {"title": "Freight AI customer review", "url": "https://example.com/freight-ai", "summary": "Shipment teams report results."}
+        self.assertFalse(_mentions_product(generic, product()))
+        self.assertTrue(_mentions_product(specific, product()))
 
     def test_market_editor_cannot_reference_unknown_evidence_or_skip_ecosystem(self) -> None:
         item = product()

@@ -144,18 +144,43 @@ def _has_material_change(old: Product, new: Product) -> bool:
 
 def _evidence_from_raw(product: Product, item: RawItem) -> Evidence:
     """把一次原始发现留成可追溯证据，但不把内部渠道名写进公开字段。"""
-    source_kind = "product"
-    if item.extra.get("kind") == "news":
+    declared_kind = str(item.extra.get("evidence_kind") or "")
+    semantic_kinds = {
+        "pain", "workaround", "customer_case", "pricing", "payment", "procurement",
+        "revenue", "retention", "repeat_purchase", "delivery", "adoption",
+    }
+    source_kind = declared_kind if declared_kind in semantic_kinds else "product"
+    if source_kind == "product" and item.extra.get("kind") == "news":
         source_kind = "market_signal"
-    elif item.source in {"github", "huggingface", "modelscope"}:
+    elif source_kind == "product" and item.source in {"github", "huggingface", "modelscope"}:
         source_kind = "open_source"
-    elif any(key in item.metrics for key in ("raw_value", "stars", "points", "mom_percent")):
+    elif source_kind == "product" and any(key in item.metrics for key in ("raw_value", "value", "stars", "points", "mom_percent")):
         source_kind = "adoption"
-    tier = str(item.extra.get("evidence_tier") or ("behavioural" if source_kind in {"open_source", "adoption"} else "first_party"))
+    if source_kind in {"open_source", "adoption"}:
+        default_tier = "behavioural"
+    elif item.extra.get("official") is False or source_kind in {"pain", "workaround", "retention", "repeat_purchase"}:
+        default_tier = "independent"
+    else:
+        default_tier = "first_party"
+    tier = str(item.extra.get("evidence_tier") or default_tier)
     evidence_url = str(item.extra.get("evidence_url") or item.url)
     evidence_title = str(item.extra.get("evidence_title") or item.title)
     fingerprint = "|".join((product.slug, evidence_url, item.published_at, item.collected_at, evidence_title))
     evidence_id = "ev-" + hashlib.sha1(fingerprint.encode("utf-8")).hexdigest()[:16]
+    facts = [item.summary[:1000].strip()]
+    metric = str(item.metrics.get("metric") or "公开指标")
+    amount = item.metrics.get("raw_value")
+    if amount in (None, ""):
+        amount = item.metrics.get("value")
+    growth = item.metrics.get("mom_percent")
+    if amount not in (None, "", 0, 0.0):
+        metric_fact = f"{metric}: {amount}"
+        if isinstance(growth, (int, float)):
+            metric_fact += f"; month-over-month: {growth:g}%"
+        facts.append(metric_fact)
+    stars = item.metrics.get("stars")
+    if isinstance(stars, (int, float)) and stars > 0:
+        facts.append(f"repository stars: {int(stars):,}")
     return Evidence(
         id=evidence_id,
         project_slug=product.slug,
@@ -165,8 +190,9 @@ def _evidence_from_raw(product: Product, item: RawItem) -> Evidence:
         collected_at=item.collected_at,
         source_kind=source_kind,
         tier=tier,
-        # 原始摘要不是编辑结论；先保存为证据原文，后续 `/req` 只能引用而不能扩写。
-        fact=item.summary[:1200],
+        # 原始摘要不是编辑结论；同时保留标准化公开指标，避免模型只看到
+        # “有采用信号”却看不到规模与变化。
+        fact=" | ".join(part for part in facts if part)[:1200],
     )
 
 

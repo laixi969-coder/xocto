@@ -422,9 +422,9 @@ REQ_SIGNAL_INITIAL = "初步成立"
 REQ_SIGNAL_DOUBT = "需求存疑"
 REQ_SIGNALS = (REQ_SIGNAL_CLEAR, REQ_SIGNAL_INITIAL, REQ_SIGNAL_DOUBT)
 REQ_PUBLIC_VERDICT = {
-    REQ_TRUE_DEMAND: "真需求",
-    REQ_PSEUDO_DEMAND: "伪需求",
-    REQ_NEEDS_VALIDATION: "需求不成立",
+    REQ_TRUE_DEMAND: "需求有依据",
+    REQ_PSEUDO_DEMAND: "解决问题，但需求刚性不足",
+    REQ_NEEDS_VALIDATION: "问题已识别，需求强度未明",
 }
 
 
@@ -489,6 +489,17 @@ class ReqReview:
     gates: tuple[ReqGateReview, ...]
     next_validation: str = ""
     market: str = ""
+    # Demand Read：无论最终是否判为真需求，都必须回答用户要完成什么、
+    # 痛在哪里、目前如何替代，以及为何会采用。中英文字段分开，避免英文站
+    # 用机器猜译中文判断。旧档案缺少这些字段时由公开投影层诚实补位。
+    job: str = ""
+    job_en: str = ""
+    pain: str = ""
+    pain_en: str = ""
+    current_alternative: str = ""
+    current_alternative_en: str = ""
+    usage_reason: str = ""
+    usage_reason_en: str = ""
 
     def __post_init__(self) -> None:
         if self.level not in {"initial", "full"}:
@@ -515,6 +526,14 @@ class ReqReview:
             "gates": [gate.to_dict() for gate in self.gates],
             "next_validation": self.next_validation,
             "market": self.market,
+            "job": self.job,
+            "job_en": self.job_en,
+            "pain": self.pain,
+            "pain_en": self.pain_en,
+            "current_alternative": self.current_alternative,
+            "current_alternative_en": self.current_alternative_en,
+            "usage_reason": self.usage_reason,
+            "usage_reason_en": self.usage_reason_en,
         }
 
     @classmethod
@@ -529,6 +548,14 @@ class ReqReview:
             gates=tuple(ReqGateReview.from_dict(item) for item in (data.get("gates") or [])),
             next_validation=str(data.get("next_validation") or ""),
             market=str(data.get("market") or ""),
+            job=str(data.get("job") or ""),
+            job_en=str(data.get("job_en") or ""),
+            pain=str(data.get("pain") or ""),
+            pain_en=str(data.get("pain_en") or ""),
+            current_alternative=str(data.get("current_alternative") or ""),
+            current_alternative_en=str(data.get("current_alternative_en") or ""),
+            usage_reason=str(data.get("usage_reason") or ""),
+            usage_reason_en=str(data.get("usage_reason_en") or ""),
         )
 
 

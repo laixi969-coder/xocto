@@ -35,3 +35,22 @@ new candidates the run is idempotent.
 The hosted workflow collects and revises in the morning and evening, retries a failed
 editorial pass once, and checks that raw data plus both language editions exist for
 the target date before considering the daily chain complete.
+
+## Demand Assessment Module
+
+The public demand assessment has one deep projection seam, the **Demand Read**.
+It combines the stable product record, the latest non-downgraded review, normalized
+usage metrics, and semantic evidence into four user-centred answers: the job, the
+pain or problem, the current alternative, and the reason people adopt or attend to
+the product. Every verdict receives this read; a negative or uncertain verdict may
+not erase the problem the product attempts to solve.
+
+Demand and business evidence are separate interfaces. **Demand Maturity** describes
+whether the user job, pain intensity, and existing behaviour are supported.
+**Business Evidence Maturity** describes adoption, pricing, actual payment,
+retention, and renewal. Product copy is not pain evidence, traffic is not payment,
+and missing commercial evidence is unknown rather than failure.
+
+Full reviews are deeper revisions and always outrank later baseline reviews. A
+baseline review is created for every public Entity, refreshed only when the Entity
+or its evidence changes, and never generated daily merely to advance a date.

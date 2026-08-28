@@ -89,6 +89,9 @@ def fetch(cfg: dict, http: Http) -> list[RawItem]:
                     "official": False,
                     "publisher": publisher,
                     "query_lane": name,
+                    # 有些查询专门寻找用户或商业证据；只传递语义，不把查询
+                    # 命中本身当成结论，后续编辑仍需核验原文。
+                    "evidence_kind": str(spec.get("evidence_kind") or ""),
                     # 查询语言是发现覆盖，不等于产品已在该市场形成供给。
                     "content_ecosystem": str(spec.get("ecosystem") or ""),
                     "search_market": str(spec.get("market") or ""),

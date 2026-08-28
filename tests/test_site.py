@@ -395,7 +395,7 @@ class PublishabilityTests(unittest.TestCase):
             *gates[1:],
         ))
         reason = _req_decision_reason(generic, ZH, "货代输入异常运单，系统输出待处置清单。")
-        self.assertIn("需求和痛点", reason)
+        self.assertIn("痛点强度", reason)
         self.assertIn("货代输入异常运单", reason)
         self.assertNotIn("描述模糊", reason)
 
@@ -529,6 +529,18 @@ class PublishabilityTests(unittest.TestCase):
         full = replace(initial, id="full", level="full", reviewed_at="2026-08-14T18:00:00Z")
         self.assertIs(_latest_req_review([initial, full]), full)
 
+    def test_full_req_review_is_not_downgraded_by_a_newer_day_initial_review(self) -> None:
+        initial = ReqReview(
+            id="req-initial-example-2026-08-15", project_slug="example", level="initial",
+            reviewed_at="2026-08-15T10:00:00Z", verdict=REQ_NEEDS_VALIDATION,
+            signal_level="需求存疑", gates=tuple(
+                ReqGateReview(gate, REQ_GATE_INSUFFICIENT, "基础初判")
+                for gate in (REQ_GATE_VALUE, REQ_GATE_CONSENSUS, REQ_GATE_MODEL, REQ_GATE_TRUTH)
+            ),
+        )
+        full = replace(initial, id="req-full-example-2026-08-14", level="full", reviewed_at="2026-08-14T18:00:00Z")
+        self.assertIs(_latest_req_review([initial, full]), full)
+
     def test_opportunity_library_offers_parallel_dimensions_and_shareable_date_filters(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(
             encoding="utf-8"
@@ -625,8 +637,8 @@ class PublishabilityTests(unittest.TestCase):
             self.assertNotIn("Shipment-exception", research["evidence"][0]["fact"])
 
             english = _research_view(store, "freight-ai", EN)
-            self.assertEqual(english["req"]["signal"], "True demand")
-            self.assertEqual(english["req"]["verdict_label"], "True demand")
+            self.assertEqual(english["req"]["signal"], "Demand is evidenced")
+            self.assertEqual(english["req"]["verdict_label"], "Demand is evidenced")
             self.assertEqual(english["req"]["evidence_signal"], "Initial support")
             self.assertEqual(english["req"]["gates"][0]["reason"], EN.t["product"]["req_reason_pending"])
             self.assertEqual(english["req"]["next_validation"], EN.t["product"]["req_next_pending"])
@@ -635,6 +647,10 @@ class PublishabilityTests(unittest.TestCase):
                 row["coverage"] == EN.t["product"]["market_coverage_pending"]
                 for row in english["markets"]
             ))
+            self.assertTrue(research["req"]["job"])
+            self.assertTrue(research["req"]["pain"])
+            self.assertTrue(research["req"]["usage_reason"])
+            self.assertEqual(len(research["research_links"]), 5)
 
     def test_product_template_surfaces_req_market_and_evidence_sections(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
@@ -643,10 +659,13 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("t.product.req_title", template)
         self.assertIn("t.product.req_kicker", template)
         self.assertIn("product.req.gates", template)
+        self.assertIn("product.req.usage_reason", template)
+        self.assertIn("product.req.business_maturity", template)
         self.assertIn("t.product.markets_title", template)
         self.assertIn("product.cross_market", template)
         self.assertIn("t.product.evidence_title", template)
         self.assertIn("product.evidence", template)
+        self.assertIn("product.research_links", template)
 
     def test_product_page_answers_is_it_a_business_first(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(

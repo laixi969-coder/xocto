@@ -27,11 +27,13 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote_plus
 
 import mistune
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from .demand import demand_read
 from .models import (
     CATEGORIES,
     EVENT_FIRST_DISCOVERED,
@@ -45,6 +47,7 @@ from .models import (
     Product,
     local_day,
     public_req_labels,
+    req_conclusion,
     scrub_pending_phrase,
 )
 from .dedupe import is_aggregator, url_host
@@ -128,9 +131,9 @@ _REQ_SIGNAL_EN = {
     "需求信号明确": "Clear demand signal",
     "初步成立": "Initial support",
     "需求存疑": "Demand in question",
-    "真需求": "True demand",
-    "伪需求": "Pseudo demand",
-    "需求不成立": "Demand does not hold",
+    "需求有依据": "Demand is evidenced",
+    "解决问题，但需求刚性不足": "Useful problem, weak urgency",
+    "问题已识别，需求强度未明": "Problem identified, demand strength unclear",
 }
 
 
@@ -153,14 +156,14 @@ def _public_req(review: Any, locale: Locale) -> tuple[str, str]:
 
 
 def _latest_req_review(reviews: list[Any]) -> Any | None:
-    """选出应公开的一版判断：先看日期，同一天完整判断优先于初判。"""
+    """选出应公开的一版判断：完整判断永远不被较新的基础初判降级。"""
     if not reviews:
         return None
     return max(
         reviews,
         key=lambda item: (
-            item.day,
             1 if item.level == "full" else 0,
+            item.day,
             item.reviewed_at,
         ),
     )
@@ -178,12 +181,12 @@ def _req_decision_reason(review: Any, locale: Locale, product_summary: str = "")
         if product_summary and (value_gate is None or value_gate.status != "supported"):
             summary = _sentence_excerpt(product_summary)
             return (
-                f"它解决的用户需求和痛点是：“{summary}”。"
-                "付钱的人尚未核验，不等于没有这个需求。"
+                f"产品主张帮助用户完成：“{summary}”。"
+                "具体痛点强度与不采用代价尚未由用户证据核验。"
             )
         if product_summary and any(fragment in decisive.reason for fragment in _GENERIC_REQ_REASON_HINTS):
             summary = _sentence_excerpt(product_summary)
-            return f"它解决的用户需求和痛点是：“{summary}”。付钱的人尚未核验，不等于没有这个需求。"
+            return f"产品主张帮助用户完成：“{summary}”。具体痛点强度与不采用代价尚未由用户证据核验。"
         return _scrub_pending_phrase(decisive.reason)
     gate = locale.t["product"][f"req_{decisive.gate}"]
     return locale.t["home"][f"boundary_{decisive.status}"].format(gate=gate)
@@ -206,8 +209,8 @@ def _gate_reason_for_display(gate: Any, product: Any | None, locale: Locale) -> 
         and "user need and pain" not in (raw or "").casefold()
     ):
         if locale.key != "en":
-            return f"它解决的用户需求和痛点是：“{summary}”。付钱的人尚未核验，不等于没有这个需求。"
-        return f"The user need and pain it addresses: “{summary}”. Who pays is not yet verified; that is not the same as no demand."
+            return f"产品主张帮助用户完成：“{summary}”。具体痛点强度与不采用代价尚未由用户证据核验。"
+        return f"The product claims to help users complete: “{summary}”. User evidence has not yet verified pain intensity or the cost of doing without it."
     return _scrub_pending_phrase(raw)
 
 
@@ -216,10 +219,10 @@ def _opportunity_action(review: Any | None, locale: Locale) -> str:
     if review is None:
         key = "clue"
     else:
-        verdict_label, signal = public_req_labels(review.verdict, review.signal_level, review.gates)
-        if verdict_label == "伪需求" or any(gate.status == "challenged" for gate in review.gates):
+        verdict, signal = req_conclusion(review.gates) if review.gates else (review.verdict, review.signal_level)
+        if verdict == "pseudo_demand" or any(gate.status == "challenged" for gate in review.gates):
             key = "avoid"
-        elif verdict_label == "真需求":
+        elif verdict == "true_demand":
             key = "investigate" if signal == "需求信号明确" else "watch"
         else:
             key = "clue"
@@ -818,6 +821,15 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
         "open_source": locale.t["product"]["evidence_open_source"],
         "adoption": locale.t["product"]["evidence_adoption"],
         "market_comparison": locale.t["product"]["evidence_market"],
+        "pain": locale.t["product"]["evidence_pain"],
+        "workaround": locale.t["product"]["evidence_workaround"],
+        "customer_case": locale.t["product"]["evidence_customer_case"],
+        "payment": locale.t["product"]["evidence_payment"],
+        "procurement": locale.t["product"]["evidence_payment"],
+        "revenue": locale.t["product"]["evidence_payment"],
+        "retention": locale.t["product"]["evidence_retention"],
+        "repeat_purchase": locale.t["product"]["evidence_retention"],
+        "delivery": locale.t["product"]["evidence_delivery"],
     }
     gate_labels = {
         "value": locale.t["product"]["req_value"],
@@ -869,6 +881,20 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
             "fact": fact,
             "published_at": local_day(item.published_at) if item.published_at else "",
         })
+    public_read = demand_read(product, review, evidence, english=locale.key == "en")
+    demand_maturity_labels = {
+        "unclear": locale.t["product"]["demand_maturity_unclear"],
+        "job_only": locale.t["product"]["demand_maturity_job"],
+        "evidenced": locale.t["product"]["demand_maturity_evidenced"],
+        "challenged": locale.t["product"]["demand_maturity_challenged"],
+    }
+    business_maturity_labels = {
+        "unverified": locale.t["product"]["business_maturity_unverified"],
+        "pricing": locale.t["product"]["business_maturity_pricing"],
+        "adoption": locale.t["product"]["business_maturity_adoption"],
+        "paid": locale.t["product"]["business_maturity_paid"],
+        "retained": locale.t["product"]["business_maturity_retained"],
+    }
     req = None
     if review:
         verdict_label, evidence_signal = _public_req(review, locale)
@@ -884,6 +910,12 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
                 )
             ),
             "reviewed_at": review.day,
+            "job": public_read.job,
+            "pain": public_read.pain,
+            "current_alternative": public_read.current_alternative,
+            "usage_reason": public_read.usage_reason,
+            "demand_maturity": demand_maturity_labels[public_read.demand_maturity],
+            "business_maturity": business_maturity_labels[public_read.business_maturity],
             "gates": [
                 {
                     "name": gate_labels[gate.gate],
@@ -937,6 +969,19 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
     return {
         "req": req,
         "evidence": evidence_rows,
+        "research_links": [
+            {
+                "label": locale.t["product"][key],
+                "url": f"https://www.google.com/search?q={quote_plus(query)}",
+            }
+            for key, query in (
+                ("research_official", f'"{product.name}" official documentation'),
+                ("research_pricing", f'"{product.name}" pricing plans'),
+                ("research_reviews", f'"{product.name}" customer reviews complaints'),
+                ("research_cases", f'"{product.name}" customer case study results'),
+                ("research_alternatives", f'"{product.name}" alternatives comparison'),
+            )
+        ],
         "markets": market_rows,
         "cross_market": cross_market,
         "cross_market_label": locale.t["product"]["cross_market"],

@@ -27,6 +27,17 @@
     - ev-73ad90517ad93ff8
   next_validation: 关注官方定价页或应用商店下载量，以及用户评论中关于动作识别准确率和留存率的反馈。
   market: ''
+  job: 健身爱好者、游戏玩家
+  job_en: Fitness enthusiasts, Gamers
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：健身爱好者、游戏玩家；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Fitness enthusiasts, Gamers The exact
+    adoption motive and repeat use are not yet verified.'
 - id: req-full-pushup-2026-08-27
   project_slug: pushup
   level: full
@@ -56,6 +67,17 @@
     - ev-73ad90517ad93ff8
   next_validation: 关注官方定价页或应用商店下载量，以及用户评论中关于动作识别准确率和留存率的反馈。
   market: ''
+  job: 健身爱好者、游戏玩家
+  job_en: Fitness enthusiasts, Gamers
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：健身爱好者、游戏玩家；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Fitness enthusiasts, Gamers The exact
+    adoption motive and repeat use are not yet verified.'
 - id: req-initial-pushup-2026-08-28
   project_slug: pushup
   level: initial
@@ -65,7 +87,7 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“健身者做俯卧撑时，摄像头实时计数并将每次动作转化为 RPG 游戏中的攻击；AI 识别动作幅度与次数，输出游戏进度与反馈。具体计分规则与防作弊机制仍待核验。”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“健身者做俯卧撑时，摄像头实时计数并将每次动作转化为 RPG 游戏中的攻击；AI 识别动作幅度与次数，输出游戏进度与反馈。具体计分规则与防作弊机制仍待核验”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-c031e84053952916
   - gate: consensus
@@ -82,3 +104,14 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+  job: 健身爱好者、游戏玩家
+  job_en: Fitness enthusiasts, Gamers
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：健身爱好者、游戏玩家；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Fitness enthusiasts, Gamers The exact
+    adoption motive and repeat use are not yet verified.'

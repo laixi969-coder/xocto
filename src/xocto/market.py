@@ -22,6 +22,7 @@ from .models import (
     SUPPLY_STATUSES,
     Evidence,
     MarketObservation,
+    STATUS_ANALYZED,
     STATUS_QUEUED,
     STATUS_WATCHING,
     local_day,
@@ -33,6 +34,7 @@ from .store import Store
 SEARCH_URL = "https://www.bing.com/search"
 MAX_HITS = 8
 MARKET_BATCH_SIZE = 24
+DEMAND_BACKFILL_LIMIT = 4
 _QUERY_STOPWORDS = {
     "ai", "agent", "agents", "assistant", "assistants", "tool", "tools", "software", "platform",
     "development", "developer", "developers", "technical", "user", "users", "team", "teams",
@@ -131,6 +133,79 @@ def _scan_evidence(store: Store, product: Any, ecosystem: str, query: str, http:
     return evidence
 
 
+def _demand_query_specs(product: Any) -> tuple[tuple[str, str], ...]:
+    """Queries that seek user and business evidence, not more launch coverage."""
+    name = product.name.replace('"', " ").strip()
+    return (
+        ("pain", f'"{name}" user reviews complaints problem'),
+        ("workaround", f'"{name}" alternatives existing workflow'),
+        ("customer_case", f'"{name}" customer case study results'),
+        ("pricing", f'"{name}" pricing plans procurement'),
+        ("retention", f'"{name}" retention renewal repeat usage'),
+    )
+
+
+def _mentions_product(hit: dict[str, str], product: Any) -> bool:
+    """Demand evidence must name the product; generic advice cannot attach to it."""
+    tokens = {
+        token.casefold()
+        for token in re.findall(r"[\u3400-\u9fff]{2,}|[a-zA-Z0-9][a-zA-Z0-9-]{2,}", product.name)
+        if token.casefold() not in _QUERY_STOPWORDS and token.casefold() not in {"the", "for", "from", "with"}
+    }
+    if not tokens:
+        return False
+    haystack = f"{hit.get('title', '')} {hit.get('summary', '')} {hit.get('url', '')}".casefold()
+    return any(token in haystack for token in tokens)
+
+
+def _scan_demand_evidence(store: Store, product: Any, http: Http) -> int:
+    """Store a small semantic evidence set for Demand Read and business maturity."""
+    collected = now_iso()
+    written = 0
+    for source_kind, query in _demand_query_specs(product):
+        hits = [
+            hit
+            for hit in _rss_hits(http.get_text(SEARCH_URL, params={"format": "rss", "q": query}))
+            if _mentions_product(hit, product)
+        ][:3]
+        for hit in hits:
+            fingerprint = "|".join((product.slug, source_kind, hit["url"], local_day(collected)))
+            evidence = Evidence(
+                id=f"ev-{hashlib.sha1(fingerprint.encode()).hexdigest()[:16]}",
+                project_slug=product.slug,
+                url=hit["url"],
+                title=hit["title"],
+                published_at="",
+                collected_at=collected,
+                source_kind=source_kind,
+                tier="independent",
+                fact=hit["summary"][:1000],
+            )
+            if store.append_evidence(evidence):
+                written += 1
+    return written
+
+
+def _demand_evidence_candidates(store: Store, expected: list[tuple[Any, str]], day: date) -> list[Any]:
+    """Cover today's projects, then rotate through the historical blind spot."""
+    selected = {product.slug: product for product, _ecosystem in expected}
+    semantic = {"pain", "workaround", "customer_case", "pricing", "payment", "retention", "delivery"}
+    backlog = [
+        product
+        for product in store.iter_products()
+        if product.status in {STATUS_QUEUED, STATUS_WATCHING, STATUS_ANALYZED}
+        and not ({item.source_kind for item in store.read_evidence(product.slug)} & semantic)
+        and product.slug not in selected
+    ]
+    backlog.sort(key=lambda item: item.slug)
+    if backlog:
+        offset = int(day.strftime("%Y%m%d")) % len(backlog)
+        for index in range(min(DEMAND_BACKFILL_LIMIT, len(backlog))):
+            product = backlog[(offset + index) % len(backlog)]
+            selected[product.slug] = product
+    return list(selected.values())
+
+
 def _market_candidates(store: Store, day: date) -> list[tuple[Any, str]]:
     """只核验当天经编辑保留、且另一生态还没有当日观察的项目。"""
     candidates: list[tuple[Any, str]] = []
@@ -216,9 +291,13 @@ def _validated_observations(
 
 def run(store: Store, *, day: date, http: Http | None = None) -> MarketReport:
     expected = _market_candidates(store, day)
+    http = http or Http()
+    # 用户需求与商业证据不是“市场背景”。每天随新项目采集，并轮换回填旧
+    # 产品，避免历史条目永久只有发布文案或流量数字。
+    for product in _demand_evidence_candidates(store, expected, day):
+        _scan_demand_evidence(store, product, http)
     if not expected:
         return MarketReport(day, candidates=0, observations=0, skipped=True)
-    http = http or Http()
     prompt_rows: list[dict[str, Any]] = []
     allowed: dict[tuple[str, str], set[str]] = {}
     for product, ecosystem in expected:

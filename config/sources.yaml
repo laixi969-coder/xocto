@@ -295,6 +295,22 @@ sources:
         ceid: "US:en"
         ecosystem: "en"
         market: "US"
+      - name: "US AI customer outcomes"
+        query: 'AI software "case study" (customer OR deployment OR results OR workflow) when:7d'
+        hl: "en-US"
+        gl: "US"
+        ceid: "US:en"
+        ecosystem: "en"
+        market: "US"
+        evidence_kind: "customer_case"
+      - name: "US AI user pain"
+        query: 'AI product (reviews OR complaints OR workaround OR alternatives) when:7d'
+        hl: "en-US"
+        gl: "US"
+        ceid: "US:en"
+        ecosystem: "en"
+        market: "US"
+        evidence_kind: "pain"
       - name: "China AI commercial signals"
         query: 'AI (营收 OR 收入 OR 用户 OR 客户 OR 订单 OR 融资 OR 复购) when:3d'
         hl: "zh-CN"
@@ -309,6 +325,22 @@ sources:
         ceid: "CN:zh-Hans"
         ecosystem: "zh"
         market: "CN"
+      - name: "China AI customer outcomes"
+        query: 'AI 产品 (客户案例 OR 落地成效 OR 部署 OR 续费 OR 复购) when:7d'
+        hl: "zh-CN"
+        gl: "CN"
+        ceid: "CN:zh-Hans"
+        ecosystem: "zh"
+        market: "CN"
+        evidence_kind: "customer_case"
+      - name: "China AI user pain"
+        query: 'AI 产品 (用户评价 OR 抱怨 OR 痛点 OR 替代方案) when:7d'
+        hl: "zh-CN"
+        gl: "CN"
+        ceid: "CN:zh-Hans"
+        ecosystem: "zh"
+        market: "CN"
+        evidence_kind: "pain"
 
   # AICPB（AI 产品榜）。中文世界唯一能拿到真实数据的源。
   # 性质和上面三个不同：它给的不是"刚冒出来的新东西"，而是
