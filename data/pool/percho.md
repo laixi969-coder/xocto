@@ -32,17 +32,17 @@ canonical_url: https://percho.org
 summary: 'Percho: Minimalist desktop GUI for the Pi coding agent — the same engine as the Pi CLI, in a
   clean visual interface. Multi-session chat, visual tool approvals, and custom themes.'
 first_seen: '2026-08-08T04:37:46Z'
-last_seen: '2026-08-27T03:18:37Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.percho.org/
-  seen_at: '2026-08-27T03:18:37Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 117
-    forks: 7
+    stars: 129
+    forks: 9
     open_issues: 2
 ---
 

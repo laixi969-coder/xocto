@@ -32,16 +32,16 @@ url: https://github.com/Reality-JH/FailoverAI
 canonical_url: https://github.com/Reality-JH/FailoverAI
 summary: Open-source gateway for reliable image, video and LLM jobs. | 面向可靠图片、视频和 LLM 任务的开源网关。
 first_seen: '2026-08-25T11:22:11Z'
-last_seen: '2026-08-27T03:18:37Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Reality-JH/FailoverAI
-  seen_at: '2026-08-27T03:18:37Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 47
+    stars: 58
     forks: 2
     open_issues: 0
 ---

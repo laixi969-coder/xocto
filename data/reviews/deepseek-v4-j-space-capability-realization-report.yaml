@@ -110,3 +110,31 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-deepseek-v4-j-space-capability-realization-report-2026-08-28
+  project_slug: deepseek-v4-j-space-capability-realization-report
+  level: initial
+  reviewed_at: '2026-08-28T06:07:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的用户需求和痛点是：“DeepSeek V4 × J-Space capability realization report — benchmark evidence that
+      J-Space redu”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    evidence_ids:
+    - ev-9993fc07fcb645a1
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 1,034 个收藏、66 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-9993fc07fcb645a1
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

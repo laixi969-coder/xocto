@@ -21,16 +21,16 @@ canonical_url: https://github.com/ihsan-ramadhan/bansos-router
 summary: Free, keyless coding models routed to every coding harness through one local endpoint. No accounts,
   no keys, no cost.
 first_seen: '2026-08-17T23:53:59Z'
-last_seen: '2026-08-27T03:18:37Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ihsan-ramadhan/bansos-router
-  seen_at: '2026-08-27T03:18:37Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 86
+    stars: 89
     forks: 15
     open_issues: 0
 ---

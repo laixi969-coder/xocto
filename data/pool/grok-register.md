@@ -21,16 +21,16 @@ canonical_url: https://github.com/xinxinshuhao-create/grok-register
 summary: Automated account registration toolkit for x.ai (Grok) with SSO extraction, OAuth Device Flow,
   and auto-replenish daemon
 first_seen: '2026-08-12T11:56:57Z'
-last_seen: '2026-08-27T03:18:37Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xinxinshuhao-create/grok-register
-  seen_at: '2026-08-27T03:18:37Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 475
+    stars: 477
     forks: 128
     open_issues: 1
 ---

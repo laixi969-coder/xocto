@@ -18,3 +18,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 开发者'
+- id: ev-da0214f5d9a94d1f
+  project_slug: whip
+  url: https://github.com/context-labs/whip
+  title: whip
+  published_at: '2026-08-20T22:57:11Z'
+  collected_at: '2026-08-28T06:07:21Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: A fast coding-agent harness in Go. Tool-use loop, bubbletea TUI, provider-routable models with
+    live catalog discovery, MCP support, background subagents. One binary, no runtime, built for open-source
+    models.

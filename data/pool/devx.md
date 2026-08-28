@@ -30,16 +30,16 @@ url: https://github.com/apvcode/Termux-Dev
 canonical_url: https://github.com/apvcode/Termux-Dev
 summary: Autonomous AI coding agent built for Android Termux and desktop
 first_seen: '2026-08-26T20:37:12Z'
-last_seen: '2026-08-27T03:18:34Z'
+last_seen: '2026-08-28T06:07:17Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/apvcode/Termux-Dev
-  seen_at: '2026-08-27T03:18:34Z'
+  seen_at: '2026-08-28T06:07:17Z'
   metrics:
-    points: 9
+    points: 12
     comments: 1
 ---
 

@@ -8,21 +8,29 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: true
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/anthropics/amulet2
 canonical_url: https://github.com/anthropics/amulet2
 summary: ''
 first_seen: '2026-08-15T23:50:25Z'
-last_seen: '2026-08-22T22:38:00Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/amulet2
-  seen_at: '2026-08-22T22:38:00Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
     stars: 0
-    forks: 0
+    forks: 1
     open_issues: 0
 ---
 

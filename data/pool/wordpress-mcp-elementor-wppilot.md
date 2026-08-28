@@ -42,16 +42,16 @@ summary: 'WordPress MCP server, Elementor MCP server and WooCommerce MCP server.
   Pro adds Elementor MCP, Bricks MCP, Divi MCP, Beaver Builder MCP, Oxygen MCP, WPBakery MCP and WooCommerce
   MCP: 968 builder-aware abilities.'
 first_seen: '2026-08-10T21:50:19Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://wppilot.co
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 63
+    stars: 64
     forks: 1
     open_issues: 0
 ---

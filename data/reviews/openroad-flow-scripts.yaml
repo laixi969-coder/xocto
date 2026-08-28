@@ -54,3 +54,29 @@
     evidence_ids: []
   next_validation: 关注 OpenROAD 项目官网和开源社区讨论，看是否有实际芯片设计案例或用户反馈。
   market: ''
+- id: req-initial-openroad-flow-scripts-2026-08-28
+  project_slug: openroad-flow-scripts
+  level: initial
+  reviewed_at: '2026-08-28T06:07:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的用户需求和痛点是：“OpenROAD-flow-scripts 是开源芯片设计流程的脚本仓库，提供从 RTL 到 GDSII 的自动化流程，供芯片设计工程师使用。”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    evidence_ids:
+    - ev-9f2af34076a3c43c
+  - gate: consensus
+    status: insufficient
+    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

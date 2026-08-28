@@ -23,16 +23,16 @@ url: https://github.com/N-allpass/modex-mh-agent
 canonical_url: https://github.com/N-allpass/modex-mh-agent
 summary: Modex · MH Agent — AI 全自动数学建模智能体,兼顾科研全流程:从赛题到竞赛级论文一夜跑完,国赛/美赛/华为杯全覆盖(架构展示)
 first_seen: '2026-08-14T01:42:04Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/N-allpass/modex-mh-agent
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 220
+    stars: 224
     forks: 0
     open_issues: 0
 ---

@@ -51,3 +51,30 @@
     evidence_ids: []
   next_validation: 关注 repo-context-mcp 公开仓库是否发布文档、使用案例或性能基准。
   market: ''
+- id: req-initial-repo-context-mcp-2026-08-28
+  project_slug: repo-context-mcp
+  level: initial
+  reviewed_at: '2026-08-28T06:07:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的用户需求和痛点是：“repo-context-mcp 是一个 MCP 服务器，为 AI 编码代理提供仓库地图、代码搜索和 token 感知的上下文包。”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    evidence_ids:
+    - ev-6a28018c470da05d
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 103 个收藏、88 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-6a28018c470da05d
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

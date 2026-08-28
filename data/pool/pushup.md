@@ -32,17 +32,17 @@ url: https://pushup.quest/
 canonical_url: https://pushup.quest
 summary: Every push-up becomes an attack in a camera-counted RPG game
 first_seen: '2026-08-26T20:48:48Z'
-last_seen: '2026-08-27T03:18:34Z'
+last_seen: '2026-08-28T06:07:17Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://pushup.quest/
-  seen_at: '2026-08-27T03:18:34Z'
+  seen_at: '2026-08-28T06:07:17Z'
   metrics:
-    points: 19
-    comments: 6
+    points: 21
+    comments: 7
 ---
 
 # pushup

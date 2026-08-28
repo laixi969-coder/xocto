@@ -33,17 +33,17 @@ canonical_url: https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 summary: Read-only mirror of The-OpenROAD-Project/OpenROAD-flow-scripts (release tags only). No changes
   accepted here — contribute upstream.
 first_seen: '2026-08-12T19:39:48Z'
-last_seen: '2026-08-26T04:53:32Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
-  seen_at: '2026-08-26T04:53:32Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
     stars: 0
-    forks: 1
+    forks: 2
     open_issues: 1
 ---
 

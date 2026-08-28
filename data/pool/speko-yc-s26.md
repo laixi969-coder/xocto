@@ -11,14 +11,23 @@ inspiration_en: The trend is voice products competing on the whole chain, not on
   hotlines, collections, or appointment booking—calls with messy accents where one wrong sentence becomes
   a complaint—and charge for call quality.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://speko.ai/
 canonical_url: https://speko.ai
 summary: OpenRouter for Voice AI
 first_seen: '2026-08-17T15:36:18Z'
-last_seen: '2026-08-18T22:41:52Z'
+last_seen: '2026-08-28T06:07:17Z'
 status: queued
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://speko.ai/
@@ -26,6 +35,10 @@ sightings:
   metrics:
     points: 113
     comments: 65
+- source: producthunt
+  url: https://www.producthunt.com/products/speko
+  seen_at: '2026-08-28T06:07:17Z'
+  metrics: {}
 ---
 
 # Speko (YC S26)

@@ -28,16 +28,16 @@ url: https://github.com/icesixgod/codex-trajectory#readme
 canonical_url: https://github.com/icesixgod/codex-trajectory
 summary: Privacy-aware trajectory viewer for local Codex task logs
 first_seen: '2026-08-13T17:16:42Z'
-last_seen: '2026-08-27T03:18:37Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/icesixgod/codex-trajectory#readme
-  seen_at: '2026-08-27T03:18:37Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 240
+    stars: 241
     forks: 16
     open_issues: 0
 ---

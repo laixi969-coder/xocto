@@ -1,0 +1,26 @@
+- id: req-initial-amulet2-2026-08-28
+  project_slug: amulet2
+  level: initial
+  reviewed_at: '2026-08-28T06:07:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料尚未把“amulet2”讲成一个具体的用户需求和痛点。价值关未过：连痛点都还没写清。
+    evidence_ids:
+    - ev-f49627c890d18742
+  - gate: consensus
+    status: insufficient
+    reason: 未进入共识闸门：价值和痛点尚未写清；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入模式闸门：需求和痛点尚未写清，付费主体暂不判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入求真闸门：需求和痛点尚未写清。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''

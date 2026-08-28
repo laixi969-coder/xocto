@@ -33,16 +33,16 @@ summary: 'DeepSeek Harness (DSH) plugin: a live iOS Simulator — and a USB-conn
   conversation. 22 agent tools for booting, building, driving the UI by accessibility identity, OCR text
   or list rows, plus a streaming sidebar panel you can tap and drag on.'
 first_seen: '2026-08-19T18:02:50Z'
-last_seen: '2026-08-27T03:18:37Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZSeven-W/dsh-ios
-  seen_at: '2026-08-27T03:18:37Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 257
+    stars: 261
     forks: 22
     open_issues: 1
 ---

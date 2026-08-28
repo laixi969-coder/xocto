@@ -31,16 +31,16 @@ url: https://github.com/cinderline/northcinder
 canonical_url: https://github.com/cinderline/northcinder
 summary: Open-source MCP server for comparing products and asking the buyer before purchase.
 first_seen: '2026-08-17T11:42:31Z'
-last_seen: '2026-08-27T03:18:37Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cinderline/northcinder
-  seen_at: '2026-08-27T03:18:37Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 1214
+    stars: 1215
     forks: 8
     open_issues: 5
 ---

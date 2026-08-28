@@ -21,17 +21,17 @@ canonical_url: https://github.com/vuphongle/oss-pr-reviewer
 summary: AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks,
   regressions, and missing tests, with structured Markdown reports for open-source maintainers.
 first_seen: '2026-08-13T01:59:03Z'
-last_seen: '2026-08-23T14:11:17Z'
+last_seen: '2026-08-28T06:07:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/vuphongle/oss-pr-reviewer
-  seen_at: '2026-08-23T14:11:17Z'
+  seen_at: '2026-08-28T06:07:21Z'
   metrics:
-    stars: 109
-    forks: 95
+    stars: 110
+    forks: 93
     open_issues: 7
 ---
 
