@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import tempfile
 from dataclasses import replace
 import unittest
@@ -63,6 +64,13 @@ def product(*, status: str = "watching", summary_zh: str = "中文说明", inspi
 
 
 class PublishabilityTests(unittest.TestCase):
+    def test_html_is_never_served_stale_after_a_deployment(self) -> None:
+        config = json.loads((Path(__file__).parents[1] / "vercel.json").read_text(encoding="utf-8"))
+        rules = {rule["source"]: rule["headers"] for rule in config["headers"]}
+        for source in ("/", "/(.*).html"):
+            cache = next(header["value"] for header in rules[source] if header["key"] == "Cache-Control")
+            self.assertEqual(cache, "no-store, max-age=0")
+
     def test_reader_facing_copy_does_not_use_pending_validation(self) -> None:
         for locale in (ZH, EN):
             blob = " ".join(
