@@ -1,0 +1,78 @@
+- id: req-initial-opengrok-2026-08-29
+  project_slug: opengrok
+  level: initial
+  reviewed_at: '2026-08-29T15:06:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者无法在 Grok Bot 中自由选择模型的问题，提供一键配置和模型选择界面，交付可核对的连接状态。工作流结构判断：开发者需要灵活模型选择，旧方式是手动配置，痛点明确。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  - gate: consensus
+    status: insufficient
+    reason: 项目在代码托管平台获得 345 个星标，说明有一定关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，可能通过支持或云服务盈利，但无公开信息。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  - gate: truth
+    status: supported
+    reason: 项目提供实际功能，非虚构，但交付质量需进一步验证。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户报告实际使用案例。
+  market: ''
+  job: 开发者希望在 Grok Bot 中使用非默认的 AI 模型，以适配特定任务或偏好。
+  job_en: Developers want to use non-default AI models in Grok Bot to suit specific tasks or preferences.
+  pain: 默认模型可能不满足特定需求，切换模型需要复杂配置和连接管理。
+  pain_en: Default models may not meet specific needs, and switching models requires complex configuration
+    and connection management.
+  current_alternative: 手动修改配置文件或使用其他聊天机器人平台。
+  current_alternative_en: Manually editing configuration files or using other chatbot platforms.
+  usage_reason: 开源项目提供了一键配置和模型选择界面，降低了切换门槛，吸引了开发者关注。
+  usage_reason_en: The open-source project offers one-command setup and a model picker UI, lowering the
+    barrier to switching, attracting developer attention.
+- id: req-full-opengrok-2026-08-29
+  project_slug: opengrok
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者无法在 Grok Bot 中自由选择模型的问题，提供一键配置和模型选择界面，交付可核对的连接状态。工作流结构判断：开发者需要灵活模型选择，旧方式是手动配置，痛点明确。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  - gate: consensus
+    status: insufficient
+    reason: 项目在代码托管平台获得 345 个星标，说明有一定关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，可能通过支持或云服务盈利，但无公开信息。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  - gate: truth
+    status: supported
+    reason: 项目提供实际功能，非虚构，但交付质量需进一步验证。
+    evidence_ids:
+    - ev-a425b32c194d23e9
+  next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户报告实际使用案例。
+  market: ''
+  job: 开发者希望在 Grok Bot 中使用非默认的 AI 模型，以适配特定任务或偏好。
+  job_en: Developers want to use non-default AI models in Grok Bot to suit specific tasks or preferences.
+  pain: 默认模型可能不满足特定需求，切换模型需要复杂配置和连接管理。
+  pain_en: Default models may not meet specific needs, and switching models requires complex configuration
+    and connection management.
+  current_alternative: 手动修改配置文件或使用其他聊天机器人平台。
+  current_alternative_en: Manually editing configuration files or using other chatbot platforms.
+  usage_reason: 开源项目提供了一键配置和模型选择界面，降低了切换门槛，吸引了开发者关注。
+  usage_reason_en: The open-source project offers one-command setup and a model picker UI, lowering the
+    barrier to switching, attracting developer attention.

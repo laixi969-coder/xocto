@@ -1,0 +1,82 @@
+- id: req-initial-socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves-2-2026-08-29
+  project_slug: socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves-2
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决金融机构实时识别欺诈的刚性需求，痛点明确，交付可确定（风险评分）。工作流结构判断：替代人工审核和规则引擎，价值成立。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  - gate: consensus
+    status: supported
+    reason: 融资和收购表明市场认可，但公开材料未提供用户规模或采用数据，共识部分基于行业认知。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能按交易或订阅收费，但缺乏公开定价和付费客户证据。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  - gate: truth
+    status: supported
+    reason: 产品贴近金融反欺诈第一性目标，AI 评分可确定性交付，安全边界明确。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  next_validation: 关注 Socure 官网的定价页和客户案例，以及 Fravity 产品整合后的具体功能说明。
+  market: ''
+  job: 金融机构需要实时识别欺诈交易，防止资金损失和合规风险。
+  job_en: Financial institutions need to identify fraudulent transactions in real time to prevent financial
+    loss and compliance risk.
+  pain: 传统规则引擎误报率高，人工审核耗时且成本高，欺诈手段不断演变。
+  pain_en: Traditional rule engines have high false positive rates, manual review is time-consuming and
+    costly, and fraud tactics evolve constantly.
+  current_alternative: 目前许多机构仍依赖人工审核和静态规则，或使用传统评分卡。
+  current_alternative_en: Many institutions still rely on manual review and static rules, or use traditional
+    scorecards.
+  usage_reason: Socure 的 AI 模型能处理海量数据并实时评分，降低误报，提高效率，因此金融机构有采用动力。
+  usage_reason_en: Socure's AI models can process massive data and score in real time, reducing false
+    positives and improving efficiency, driving adoption by financial institutions.
+- id: req-full-socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves-2-2026-08-29
+  project_slug: socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves-2
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决金融机构实时识别欺诈的刚性需求，痛点明确，交付可确定（风险评分）。工作流结构判断：替代人工审核和规则引擎，价值成立。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  - gate: consensus
+    status: supported
+    reason: 融资和收购表明市场认可，但公开材料未提供用户规模或采用数据，共识部分基于行业认知。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能按交易或订阅收费，但缺乏公开定价和付费客户证据。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  - gate: truth
+    status: supported
+    reason: 产品贴近金融反欺诈第一性目标，AI 评分可确定性交付，安全边界明确。
+    evidence_ids:
+    - ev-d893a2eff7c86129
+  next_validation: 关注 Socure 官网的定价页和客户案例，以及 Fravity 产品整合后的具体功能说明。
+  market: ''
+  job: 金融机构需要实时识别欺诈交易，防止资金损失和合规风险。
+  job_en: Financial institutions need to identify fraudulent transactions in real time to prevent financial
+    loss and compliance risk.
+  pain: 传统规则引擎误报率高，人工审核耗时且成本高，欺诈手段不断演变。
+  pain_en: Traditional rule engines have high false positive rates, manual review is time-consuming and
+    costly, and fraud tactics evolve constantly.
+  current_alternative: 目前许多机构仍依赖人工审核和静态规则，或使用传统评分卡。
+  current_alternative_en: Many institutions still rely on manual review and static rules, or use traditional
+    scorecards.
+  usage_reason: Socure 的 AI 模型能处理海量数据并实时评分，降低误报，提高效率，因此金融机构有采用动力。
+  usage_reason_en: Socure's AI models can process massive data and score in real time, reducing false
+    positives and improving efficiency, driving adoption by financial institutions.

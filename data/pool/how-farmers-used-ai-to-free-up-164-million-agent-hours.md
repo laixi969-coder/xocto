@@ -1,11 +1,12 @@
 ---
 slug: how-farmers-used-ai-to-free-up-164-million-agent-hours
-name: How Farmers used AI to free up 16.4 million agent hours
+name: Farmers Insurance
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条关于 Farmers Insurance 应用 AI 的行业报道，属于企业内部的数字化转型案例，并非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: This is an industry report on Farmers Insurance's AI adoption, an internal digital transformation
+  case, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxONW1UT2Z2QW00
 summary: How Farmers used AI to free up 16.4 million agent hours Insurance Business
 first_seen: '2026-08-26T15:13:45Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# How Farmers used AI to free up 16.4 million agent hours
+# Farmers Insurance
 
 How Farmers used AI to free up 16.4 million agent hours Insurance Business
 

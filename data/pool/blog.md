@@ -3,10 +3,10 @@ slug: blog
 name: Brokk AI
 builder: jbellis
 category: ''
-summary_zh: Brokk AI 的技术博客深入分析 musl 库在性能上的劣势，为开发者提供选择 C 标准库时的参考，帮助其避免性能陷阱。
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: Brokk AI's technical blog analyzes the performance disadvantages of musl, providing developers
-  with a reference when choosing a C standard library to avoid performance pitfalls.
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance
 summary: Don't use musl if you care about performance
 first_seen: '2026-08-28T15:16:07Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: 7-top-ai-agent-development-companies-for-fintech-in-2026
-name: 7 Top AI Agent Development Companies for Fintech in 2026
+name: AI Agent Development Companies for Fintech
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年金融科技领域AI智能体开发公司排名，反映金融行业对AI智能体的需求增长。
 inspiration: ''
-summary_en: ''
+summary_en: Ranking of top AI agent development companies for fintech in 2026, reflecting growing demand
+  for AI agents in the financial industry.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPaVFzdHNxOFBD
 summary: 7 Top AI Agent Development Companies for Fintech in 2026 Tech Critter
 first_seen: '2026-08-29T10:11:03Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 7 Top AI Agent Development Companies for Fintech in 2026
+# AI Agent Development Companies for Fintech
 
 7 Top AI Agent Development Companies for Fintech in 2026 Tech Critter
 

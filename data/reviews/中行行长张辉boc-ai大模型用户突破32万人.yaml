@@ -1,0 +1,77 @@
+- id: req-initial-中行行长张辉boc-ai大模型用户突破32万人-2026-08-29
+  project_slug: 中行行长张辉boc-ai大模型用户突破32万人
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行客户和员工在信息获取和业务处理上的效率问题，痛点明确，交付为智能问答和业务辅助，但具体流程待核验。
+    evidence_ids:
+    - ev-07cc5be26f225c60
+  - gate: consensus
+    status: insufficient
+    reason: 仅有用户数，无更多采用或反馈数据。
+    evidence_ids:
+    - ev-07cc5be26f225c60
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能为内部工具或客户服务，付费方不明确。
+    evidence_ids:
+    - ev-07cc5be26f225c60
+  - gate: truth
+    status: insufficient
+    reason: 具体功能和交付结果未披露，需进一步验证。
+    evidence_ids:
+    - ev-07cc5be26f225c60
+  next_validation: 关注中国银行官方发布或财报中关于 BOC AI 的功能细节和用户增长数据。
+  market: ''
+  job: 银行员工和客户需要快速获取信息、处理业务，BOC AI 提供智能问答和业务辅助。
+  job_en: Bank employees and customers need quick information access and business processing; BOC AI provides
+    intelligent Q&A and business assistance.
+  pain: 传统银行服务中，客户咨询等待时间长，员工处理重复性问题耗时。
+  pain_en: In traditional banking, customers wait long for inquiries, and employees spend time on repetitive
+    questions.
+  current_alternative: 替代人工客服和传统搜索，但具体替代程度未披露。
+  current_alternative_en: Replaces human customer service and traditional search, but the extent is undisclosed.
+  usage_reason: 用户数突破 3.2 万，显示银行内部或客户开始采用，但具体采用原因未披露。
+  usage_reason_en: User count exceeding 32,000 indicates adoption, but specific reasons are undisclosed.
+- id: req-full-中行行长张辉boc-ai大模型用户突破32万人-2026-08-29
+  project_slug: 中行行长张辉boc-ai大模型用户突破32万人
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行客户和员工在信息获取和业务处理上的效率问题，痛点明确，交付为智能问答和业务辅助，但具体流程待核验。
+    evidence_ids:
+    - ev-07cc5be26f225c60
+  - gate: consensus
+    status: insufficient
+    reason: 它试图帮助用户完成：“中国银行推出 BOC AI 大模型，面向银行内部员工和客户，提供智能问答、业务处理等功能，用户数已突破 3.2 万人。具体应用场景和交付物仍待核验”。公开材料尚未给出持续部署、复购或独立用户评价。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能为内部工具或客户服务，付费方不明确。
+    evidence_ids:
+    - ev-07cc5be26f225c60
+  - gate: truth
+    status: insufficient
+    reason: 具体功能和交付结果未披露，需进一步验证。
+    evidence_ids:
+    - ev-07cc5be26f225c60
+  next_validation: 关注中国银行官方发布或财报中关于 BOC AI 的功能细节和用户增长数据。
+  market: ''
+  job: 银行员工和客户需要快速获取信息、处理业务，BOC AI 提供智能问答和业务辅助。
+  job_en: Bank employees and customers need quick information access and business processing; BOC AI provides
+    intelligent Q&A and business assistance.
+  pain: 传统银行服务中，客户咨询等待时间长，员工处理重复性问题耗时。
+  pain_en: In traditional banking, customers wait long for inquiries, and employees spend time on repetitive
+    questions.
+  current_alternative: 替代人工客服和传统搜索，但具体替代程度未披露。
+  current_alternative_en: Replaces human customer service and traditional search, but the extent is undisclosed.
+  usage_reason: 用户数突破 3.2 万，显示银行内部或客户开始采用，但具体采用原因未披露。
+  usage_reason_en: User count exceeding 32,000 indicates adoption, but specific reasons are undisclosed.

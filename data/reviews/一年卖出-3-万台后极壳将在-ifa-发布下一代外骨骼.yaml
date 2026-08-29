@@ -1,0 +1,84 @@
+- id: req-initial-一年卖出-3-万台后极壳将在-ifa-发布下一代外骨骼-2026-08-29
+  project_slug: 一年卖出-3-万台后极壳将在-ifa-发布下一代外骨骼
+  level: initial
+  reviewed_at: '2026-08-29T15:06:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决户外运动、户外作业和银发人群在行走、上下坡等场景中的体力负担和行动不便问题，痛点刚性，交付为可穿戴设备，效果可感知。工作流结构判断：替代登山杖、护膝等被动辅助，提供主动助力。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  - gate: consensus
+    status: supported
+    reason: 已有近 3 万台交付，京东品类成交同比增长超 15 倍，显示市场接受度。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  - gate: model
+    status: supported
+    reason: 面向 C 端消费者，通过电商和线下体验店销售，价格约 5800 元，有明确付费方。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  - gate: truth
+    status: supported
+    reason: 产品已量产交付，技术路线明确，AI 算法提升助力效果，交付确定性高。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  next_validation: 关注 IFA 发布后 Halo 的实际订单和用户反馈，以及线下体验店的转化率。
+  market: ''
+  job: 户外运动爱好者、户外作业人员和银发人群在行走、上下坡、蹲起等场景中需要减轻身体负担，增强行动能力。
+  job_en: Outdoor sports enthusiasts, outdoor workers, and elderly people need to reduce physical burden
+    and enhance mobility in walking, uphill/downhill, squatting, etc.
+  pain: 长时间行走或上下坡导致肌肉疲劳和关节压力，银发人群行动不便，户外作业人员体力消耗大。
+  pain_en: Long walking or uphill/downhill causes muscle fatigue and joint stress; elderly have mobility
+    issues; outdoor workers face high physical exertion.
+  current_alternative: 目前替代方式包括登山杖、护膝、轮椅或人工辅助，但无法提供主动助力。
+  current_alternative_en: Current alternatives include hiking poles, knee braces, wheelchairs, or human
+    assistance, but they do not provide active assistance.
+  usage_reason: 极壳已交付近 3 万台，2025 年出货量占消费助力赛道 73%，京东品类成交同比增长超 15 倍，显示用户愿意购买和尝试。
+  usage_reason_en: Hypershell has delivered nearly 30,000 units, accounting for 73% of consumer assistive
+    exoskeleton shipments in 2025, and JD.com category sales grew over 15x YoY, indicating user willingness
+    to purchase and try.
+- id: req-full-一年卖出-3-万台后极壳将在-ifa-发布下一代外骨骼-2026-08-29
+  project_slug: 一年卖出-3-万台后极壳将在-ifa-发布下一代外骨骼
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决户外运动、户外作业和银发人群在行走、上下坡等场景中的体力负担和行动不便问题，痛点刚性，交付为可穿戴设备，效果可感知。工作流结构判断：替代登山杖、护膝等被动辅助，提供主动助力。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  - gate: consensus
+    status: supported
+    reason: 已有近 3 万台交付，京东品类成交同比增长超 15 倍，显示市场接受度。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  - gate: model
+    status: supported
+    reason: 面向 C 端消费者，通过电商和线下体验店销售，价格约 5800 元，有明确付费方。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  - gate: truth
+    status: supported
+    reason: 产品已量产交付，技术路线明确，AI 算法提升助力效果，交付确定性高。
+    evidence_ids:
+    - ev-2ac0d49c7768f431
+  next_validation: 追踪 极壳（Hypershell） 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 户外运动爱好者、户外作业人员和银发人群在行走、上下坡、蹲起等场景中需要减轻身体负担，增强行动能力。
+  job_en: Outdoor sports enthusiasts, outdoor workers, and elderly people need to reduce physical burden
+    and enhance mobility in walking, uphill/downhill, squatting, etc.
+  pain: 长时间行走或上下坡导致肌肉疲劳和关节压力，银发人群行动不便，户外作业人员体力消耗大。
+  pain_en: Long walking or uphill/downhill causes muscle fatigue and joint stress; elderly have mobility
+    issues; outdoor workers face high physical exertion.
+  current_alternative: 目前替代方式包括登山杖、护膝、轮椅或人工辅助，但无法提供主动助力。
+  current_alternative_en: Current alternatives include hiking poles, knee braces, wheelchairs, or human
+    assistance, but they do not provide active assistance.
+  usage_reason: 极壳已交付近 3 万台，2025 年出货量占消费助力赛道 73%，京东品类成交同比增长超 15 倍，显示用户愿意购买和尝试。
+  usage_reason_en: Hypershell has delivered nearly 30,000 units, accounting for 73% of consumer assistive
+    exoskeleton shipments in 2025, and JD.com category sales grew over 15x YoY, indicating user willingness
+    to purchase and try.

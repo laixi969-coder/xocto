@@ -21,7 +21,7 @@ canonical_url: https://github.com/chrisgreg/boop
 summary: tiny, self-hosted push notifications for your apps built in Go
 first_seen: '2026-08-28T19:03:38Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

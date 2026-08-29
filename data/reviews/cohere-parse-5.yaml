@@ -1,0 +1,82 @@
+- id: req-initial-cohere-parse-5-2026-08-29
+  project_slug: cohere-parse-5
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者将复杂文档转化为 AI 就绪数据的任务，痛点在于手动处理耗时且易错，交付为结构化数据，价值结构成立。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品发布，缺乏用户评价、采用数据或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业开发者，但付费路径未公开。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称的能力尚未有独立验证或实际交付案例，真实性待核验。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  next_validation: 关注 Cohere 官方文档和定价页面，以及开发者社区的实际使用反馈。
+  market: ''
+  job: 开发者需要将非结构化的文档、表格和图像转化为 AI 模型可用的结构化数据。
+  job_en: Developers need to convert unstructured documents, tables, and images into structured data usable
+    by AI models.
+  pain: 手动处理复杂文档耗时且易错，影响 AI 应用的数据质量和开发效率。
+  pain_en: Manual processing of complex documents is time-consuming and error-prone, affecting data quality
+    and development efficiency of AI applications.
+  current_alternative: 目前开发者可能使用开源解析库或人工录入，但处理复杂格式时效果不佳。
+  current_alternative_en: Currently developers may use open-source parsing libraries or manual entry,
+    but these are ineffective with complex formats.
+  usage_reason: Cohere 的品牌信誉和 Parse 5 宣称的复杂文档处理能力可能吸引开发者试用，但采用证据尚未核验。
+  usage_reason_en: Cohere's brand reputation and Parse 5's claimed complex document handling may attract
+    developers to try, but adoption evidence is not yet verified.
+- id: req-full-cohere-parse-5-2026-08-29
+  project_slug: cohere-parse-5
+  level: full
+  reviewed_at: '2026-08-29T15:48:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者将复杂文档转化为 AI 就绪数据的任务，痛点在于手动处理耗时且易错，交付为结构化数据，价值结构成立。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品发布，缺乏用户评价、采用数据或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业开发者，但付费路径未公开。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称的能力尚未有独立验证或实际交付案例，真实性待核验。
+    evidence_ids:
+    - ev-c5469a53faa9bb54
+  next_validation: 关注 Cohere 官方文档和定价页面，以及开发者社区的实际使用反馈。
+  market: ''
+  job: 开发者需要将非结构化的文档、表格和图像转化为 AI 模型可用的结构化数据。
+  job_en: Developers need to convert unstructured documents, tables, and images into structured data usable
+    by AI models.
+  pain: 手动处理复杂文档耗时且易错，影响 AI 应用的数据质量和开发效率。
+  pain_en: Manual processing of complex documents is time-consuming and error-prone, affecting data quality
+    and development efficiency of AI applications.
+  current_alternative: 目前开发者可能使用开源解析库或人工录入，但处理复杂格式时效果不佳。
+  current_alternative_en: Currently developers may use open-source parsing libraries or manual entry,
+    but these are ineffective with complex formats.
+  usage_reason: Cohere 的品牌信誉和 Parse 5 宣称的复杂文档处理能力可能吸引开发者试用，但采用证据尚未核验。
+  usage_reason_en: Cohere's brand reputation and Parse 5's claimed complex document handling may attract
+    developers to try, but adoption evidence is not yet verified.

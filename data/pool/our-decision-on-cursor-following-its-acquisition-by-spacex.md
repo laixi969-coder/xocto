@@ -1,11 +1,11 @@
 ---
 slug: our-decision-on-cursor-following-its-acquisition-by-spacex
-name: Our decision on Cursor following its acquisition by SpaceX
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 终止向被 SpaceX 收购的 Cursor 提供模型。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI ends model supply to Cursor after SpaceX acquisition.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ summary: Our decision to wind down our contract providing OpenAI models to Curso
   by SpaceX.
 first_seen: '2026-08-28T06:00:00Z'
 last_seen: '2026-08-29T15:06:32Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Our decision on Cursor following its acquisition by SpaceX
+# OpenAI
 
 Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.
 

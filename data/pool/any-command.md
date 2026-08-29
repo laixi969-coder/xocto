@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/any-command-remote-control-for-p
 summary: Turn your phone into a second screen and trackpad for PC
 first_seen: '2026-08-24T06:49:27Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

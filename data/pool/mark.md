@@ -2,24 +2,28 @@
 slug: mark
 name: mark
 builder: byte1
-category: AI + 开发
-summary_zh: 一个工具，能够在不改变可见文本的情况下，将 SynthID 水印检测率从 188/192 降至 0/192，可能用于测试或绕过 AI 内容水印。具体用途和交付仍待核验。
-inspiration: 趋势是 AI 内容水印的攻防博弈。切入点是开发更鲁棒的水印技术或检测工具，面向内容平台和监管机构。
-summary_en: A tool that can reduce SynthID watermark detection from 188/192 to 0/192 without changing
-  visible text, possibly for testing or bypassing AI content watermarks. Specific use and deliverables
-  are yet to be verified.
-inspiration_en: The trend is the attack-defense game of AI content watermarking. The entry point is developing
-  more robust watermarking or detection tools for content platforms and regulators.
+category: 基础层
+summary_zh: mark 是一个工具，据称能将 SynthID 水印检测率从 188/192 降至 0/192，且不改变可见文本。具体使用场景和交付物仍待核验，可能用于测试或绕过 AI 内容水印。
+inspiration: 趋势是 AI 内容水印的攻防战。切入可从水印鲁棒性测试工具入手，为内容平台提供检测绕过评估，但需明确合规边界。
+summary_en: mark is a tool that reportedly reduces SynthID watermark detection from 188/192 to 0/192 without
+  changing visible text. Specific use cases and deliverables remain unverified; possibly for testing or
+  bypassing AI content watermarks.
+inspiration_en: 'Trend: the arms race of AI content watermarking. Entry: build robustness testing tools
+  for watermarking, offering bypass assessment for platforms, but with clear compliance boundaries.'
 priority_review: false
 project_type: new_application
 industries:
-- 人工智能
+- AI安全
+- 内容审核
 industries_en:
-- Artificial Intelligence
+- AI safety
+- Content moderation
 jobs:
-- AI 安全研究员
+- AI安全研究员
+- 内容审核员
 jobs_en:
-- AI Safety Researchers
+- AI safety researcher
+- Content moderator
 regions: []
 regions_en: []
 open_source: false
@@ -28,7 +32,7 @@ canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

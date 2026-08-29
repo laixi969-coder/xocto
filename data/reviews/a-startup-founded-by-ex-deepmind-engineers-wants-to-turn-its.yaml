@@ -1,0 +1,79 @@
+- id: req-initial-a-startup-founded-by-ex-deepmind-engineers-wants-to-turn-its-2026-08-29
+  project_slug: a-startup-founded-by-ex-deepmind-engineers-wants-to-turn-its
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及公司方向，未说明具体产品功能、用户任务或交付结果，需求强度无法判断。
+    evidence_ids:
+    - ev-460572661310bde2
+  - gate: consensus
+    status: insufficient
+    reason: 无产品、无用户、无采用数据，共识证据完全缺失。
+    evidence_ids:
+    - ev-460572661310bde2
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或定价，无法判断付费路径。
+    evidence_ids:
+    - ev-460572661310bde2
+  - gate: truth
+    status: insufficient
+    reason: 产品尚未发布，技术可行性和实际效果均未验证。
+    evidence_ids:
+    - ev-460572661310bde2
+  next_validation: 关注该初创公司的官网或新闻发布，查看产品原型和首批客户案例。
+  market: ''
+  job: 用户需要让机器人执行特定任务，但缺乏编程技能，希望通过教学方式定制。
+  job_en: Users need robots to perform specific tasks but lack programming skills, hoping to customize
+    via teaching.
+  pain: 传统机器人需要专业编程，成本高且难以适应个性化需求。
+  pain_en: Traditional robots require professional programming, which is costly and hard to adapt to individual
+    needs.
+  current_alternative: 用户通常雇佣专业人员编程或使用固定功能机器人，灵活性差。
+  current_alternative_en: Users typically hire professionals to program or use fixed-function robots,
+    which lack flexibility.
+  usage_reason: 前 DeepMind 团队背景可能吸引关注，但产品尚未发布，采用原因不明。
+  usage_reason_en: The ex-DeepMind team background may attract attention, but the product is not yet released,
+    and adoption reasons are unclear.
+- id: req-full-a-startup-founded-by-ex-deepmind-engineers-wants-to-turn-its-2026-08-29
+  project_slug: a-startup-founded-by-ex-deepmind-engineers-wants-to-turn-its
+  level: full
+  reviewed_at: '2026-08-29T15:48:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及公司方向，未说明具体产品功能、用户任务或交付结果，需求强度无法判断。
+    evidence_ids:
+    - ev-460572661310bde2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注该初创公司的官网或新闻发布，查看产品原型和首批客户案例。
+  market: ''
+  job: 用户需要让机器人执行特定任务，但缺乏编程技能，希望通过教学方式定制。
+  job_en: Users need robots to perform specific tasks but lack programming skills, hoping to customize
+    via teaching.
+  pain: 传统机器人需要专业编程，成本高且难以适应个性化需求。
+  pain_en: Traditional robots require professional programming, which is costly and hard to adapt to individual
+    needs.
+  current_alternative: 用户通常雇佣专业人员编程或使用固定功能机器人，灵活性差。
+  current_alternative_en: Users typically hire professionals to program or use fixed-function robots,
+    which lack flexibility.
+  usage_reason: 前 DeepMind 团队背景可能吸引关注，但产品尚未发布，采用原因不明。
+  usage_reason_en: The ex-DeepMind team background may attract attention, but the product is not yet released,
+    and adoption reasons are unclear.

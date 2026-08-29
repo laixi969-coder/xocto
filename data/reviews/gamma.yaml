@@ -1,0 +1,80 @@
+- id: req-initial-gamma-2026-08-29
+  project_slug: gamma
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速创建演示文稿的任务，痛点在于手动排版耗时，交付为自动生成的演示文稿，价值结构成立。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  - gate: consensus
+    status: supported
+    reason: Gamma 拥有 24.73M 月访问量，尽管环比下降，但用户规模表明市场认可。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，但作为独立产品，可能采用订阅制，付费路径未公开。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  - gate: truth
+    status: insufficient
+    reason: 收购 Lica 和成立 AI 研究实验室的长期影响未明，产品能力真实性待核验。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  next_validation: 关注 Gamma 官方公告和产品更新，以及收购后新功能的实际效果。
+  market: ''
+  job: 用户需要快速创建美观的演示文稿，无需手动排版和设计。
+  job_en: Users need to quickly create beautiful presentations without manual formatting and design.
+  pain: 传统演示工具需要大量时间进行排版和设计，影响效率。
+  pain_en: Traditional presentation tools require significant time for formatting and design, affecting
+    efficiency.
+  current_alternative: 目前用户可能使用 PowerPoint 或 Google Slides，但需要手动设计。
+  current_alternative_en: Currently users may use PowerPoint or Google Slides, but they require manual
+    design.
+  usage_reason: Gamma 已有 24.73M 月访问量，尽管环比下降 20.58%，但用户基础庞大，收购 Lica 可能带来新功能，吸引关注。
+  usage_reason_en: Gamma has 24.73M monthly visits, despite a 20.58% MoM decline, but has a large user
+    base; the acquisition of Lica may bring new features and attract attention.
+- id: req-full-gamma-2026-08-29
+  project_slug: gamma
+  level: full
+  reviewed_at: '2026-08-29T15:49:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速创建演示文稿的任务，痛点在于手动排版耗时，交付为自动生成的演示文稿，价值结构成立。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  - gate: consensus
+    status: supported
+    reason: Gamma 拥有 24.73M 月访问量，尽管环比下降，但用户规模表明市场认可。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，但作为独立产品，可能采用订阅制，付费路径未公开。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  - gate: truth
+    status: insufficient
+    reason: 收购 Lica 和成立 AI 研究实验室的长期影响未明，产品能力真实性待核验。
+    evidence_ids:
+    - ev-cbeb4dc29ef0e2a7
+  next_validation: 追踪 Gamma 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 用户需要快速创建美观的演示文稿，无需手动排版和设计。
+  job_en: Users need to quickly create beautiful presentations without manual formatting and design.
+  pain: 传统演示工具需要大量时间进行排版和设计，影响效率。
+  pain_en: Traditional presentation tools require significant time for formatting and design, affecting
+    efficiency.
+  current_alternative: 目前用户可能使用 PowerPoint 或 Google Slides，但需要手动设计。
+  current_alternative_en: Currently users may use PowerPoint or Google Slides, but they require manual
+    design.
+  usage_reason: Gamma 已有 24.73M 月访问量，尽管环比下降 20.58%，但用户基础庞大，收购 Lica 可能带来新功能，吸引关注。
+  usage_reason_en: Gamma has 24.73M monthly visits, despite a 20.58% MoM decline, but has a large user
+    base; the acquisition of Lica may bring new features and attract attention.

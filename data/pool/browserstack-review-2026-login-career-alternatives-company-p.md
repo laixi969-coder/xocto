@@ -1,6 +1,6 @@
 ---
 slug: browserstack-review-2026-login-career-alternatives-company-p
-name: 'BrowserStack Review 2026: Login, Career, Alternatives, Company profile, AI'
+name: BrowserStack
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE9vN1NoeVZGd0xf
 summary: 'BrowserStack Review 2026: Login, Career, Alternatives, Company profile, AI Nubia Magazine!'
 first_seen: '2026-08-27T12:34:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# BrowserStack Review 2026: Login, Career, Alternatives, Company profile, AI
+# BrowserStack
 
 BrowserStack Review 2026: Login, Career, Alternatives, Company profile, AI Nubia Magazine!
 

@@ -1,11 +1,13 @@
 ---
 slug: subscription-revenues-ai-investments-aid-vrsk-amid-high-debt
-name: Subscription Revenues & AI Investments Aid VRSK Amid High Debt
+name: Verisk Analytics
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Verisk Analytics 是一家数据分析公司，为保险等行业提供风险评估和决策支持。其订阅模式带来稳定收入，AI 投资增强分析能力，但高债务是潜在风险。
 inspiration: ''
-summary_en: ''
+summary_en: Verisk Analytics is a data analytics company providing risk assessment and decision support
+  for industries like insurance. Its subscription model generates stable revenue, and AI investments enhance
+  analytics capabilities, but high debt is a potential risk.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPVzVJOHpKVmg4
 summary: Subscription Revenues & AI Investments Aid VRSK Amid High Debt TradingView
 first_seen: '2026-08-28T15:29:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Subscription Revenues & AI Investments Aid VRSK Amid High Debt
+# Verisk Analytics
 
 Subscription Revenues & AI Investments Aid VRSK Amid High Debt TradingView
 

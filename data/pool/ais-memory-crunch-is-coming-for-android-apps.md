@@ -1,11 +1,12 @@
 ---
 slug: ais-memory-crunch-is-coming-for-android-apps
-name: AI’s memory crunch is coming for Android apps
+name: Android
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google为Android应用设置新的内存使用限制，因为AI数据中心导致硬件短缺，可能使低成本手机内存更少。
 inspiration: ''
-summary_en: ''
+summary_en: Google sets new memory-use limits for Android apps as AI data centers contribute to hardware
+  shortages, potentially leaving lower-cost phones with less memory.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Google is setting new memory-use limits for Android apps as AI data cen
   shortages that could leave lower-cost phones with less memory.
 first_seen: '2026-08-27T14:27:04Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AI’s memory crunch is coming for Android apps
+# Android
 
 Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.
 

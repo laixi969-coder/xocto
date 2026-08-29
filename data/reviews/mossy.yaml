@@ -1,0 +1,68 @@
+- id: req-initial-mossy-2026-08-29
+  project_slug: mossy
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述产品概念，未说明用户任务、痛点或交付物，需求结构不成立。
+    evidence_ids:
+    - ev-5ba90c513481fe55
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注产品官网或众筹页面，获取详细功能、定价和用户反馈。
+  market: ''
+  job: 用户可能希望获得休息提醒，但具体任务不明确。
+  job_en: Users may want break reminders, but the specific task is unclear.
+  pain: 痛点可能是久坐疲劳，但未明确。
+  pain_en: Pain point may be sedentary fatigue, but unclear.
+  current_alternative: 现有替代包括手机提醒或健康应用。
+  current_alternative_en: Existing alternatives include phone reminders or health apps.
+  usage_reason: 关注可能源于新颖性，但采用原因未核验。
+  usage_reason_en: Attention may stem from novelty, but adoption reasons unverified.
+- id: req-full-mossy-2026-08-29
+  project_slug: mossy
+  level: full
+  reviewed_at: '2026-08-29T15:49:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述产品概念，未说明用户任务、痛点或交付物，需求结构不成立。
+    evidence_ids:
+    - ev-5ba90c513481fe55
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品官网或众筹页面，获取详细功能、定价和用户反馈。
+  market: ''
+  job: 用户可能希望获得休息提醒，但具体任务不明确。
+  job_en: Users may want break reminders, but the specific task is unclear.
+  pain: 痛点可能是久坐疲劳，但未明确。
+  pain_en: Pain point may be sedentary fatigue, but unclear.
+  current_alternative: 现有替代包括手机提醒或健康应用。
+  current_alternative_en: Existing alternatives include phone reminders or health apps.
+  usage_reason: 关注可能源于新颖性，但采用原因未核验。
+  usage_reason_en: Attention may stem from novelty, but adoption reasons unverified.

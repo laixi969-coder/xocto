@@ -1,44 +1,42 @@
 - id: req-initial-chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a-2026-08-29
   project_slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
   level: initial
-  reviewed_at: '2026-08-29T03:43:33Z'
+  reviewed_at: '2026-08-29T15:06:37Z'
   verdict: true_demand
   signal_level: 需求信号明确
   gates:
   - gate: value
     status: supported
-    reason: 它解决用户即时获取信息和生成内容的需求，痛点在于传统方式效率低；工作流结构判断：AI 助手直接提供答案或内容，交付可确定。
+    reason: MiniMax 提供多模态 AI 服务，解决内容创作、对话等需求，痛点明确，交付可确定。工作流结构判断。
     evidence_ids:
     - ev-a5d7d724e3953e31
+    - ev-91259957efe3bdd0
   - gate: consensus
     status: supported
-    reason: 收入近四倍增长表明市场广泛接受，但缺乏具体用户数或留存数据，共识基于收入信号。
+    reason: 收入增长近四倍，显示市场广泛采用。
     evidence_ids:
     - ev-a5d7d724e3953e31
   - gate: model
-    status: insufficient
-    reason: 未披露定价或付费模式，买方可能是 C 端用户或企业，但具体路径不清。
+    status: supported
+    reason: 面向企业和开发者提供开放平台，有 API 服务，商业模式清晰。
     evidence_ids:
-    - ev-a5d7d724e3953e31
+    - ev-91259957efe3bdd0
   - gate: truth
     status: supported
-    reason: 产品贴近用户信息获取的第一性目标，交付确定性高，但需关注内容准确性和安全边界。
+    reason: 产品已上线并服务全球用户，交付能力有验证。
     evidence_ids:
-    - ev-a5d7d724e3953e31
-  next_validation: 关注 MiniMax 官方定价页或财报，以确认付费模式与用户规模。
+    - ev-91259957efe3bdd0
+  next_validation: 关注 MiniMax 官方财报和产品更新，验证收入增长的具体来源和可持续性。
   market: ''
-  job: 用户需要快速获取信息、生成内容或进行对话，完成日常问答、写作、翻译等任务。
-  job_en: Users need quick access to information, content generation, or conversation to complete daily
-    Q&A, writing, translation, and other tasks.
-  pain: 传统搜索引擎或人工写作耗时费力，难以满足即时、个性化的内容需求。
-  pain_en: Traditional search engines or manual writing are time-consuming and fail to meet immediate,
-    personalized content needs.
-  current_alternative: 用户可能使用搜索引擎、其他 AI 助手（如 ChatGPT）或人工服务。
-  current_alternative_en: Users may use search engines, other AI assistants (e.g., ChatGPT), or human
-    services.
-  usage_reason: 收入激增表明大量用户采用，可能因其多模态能力或本地化优势；具体采用原因尚未核验。
-  usage_reason_en: Revenue surge indicates widespread adoption, possibly due to multimodal capabilities
-    or localization advantages; specific reasons not yet verified.
+  job: 用户需要智能对话、内容创作、代码生成等多模态 AI 服务。
+  job_en: Users need multimodal AI services such as intelligent dialogue, content creation, and code generation.
+  pain: 传统工具无法高效处理多模态内容，需要统一平台。
+  pain_en: Traditional tools cannot efficiently handle multimodal content, requiring a unified platform.
+  current_alternative: 可能使用多个单一功能工具或通用 AI 助手。
+  current_alternative_en: May use multiple single-purpose tools or general AI assistants.
+  usage_reason: 收入增长近四倍显示市场强劲需求，产品线丰富覆盖多种场景。
+  usage_reason_en: Revenue nearly quadrupling indicates strong market demand, with a rich product line
+    covering multiple scenarios.
 - id: req-full-chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a-2026-08-29
   project_slug: chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-a
   level: full

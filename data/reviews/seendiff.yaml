@@ -1,0 +1,75 @@
+- id: req-initial-seendiff-2026-08-29
+  project_slug: seendiff
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码审查中 diff 查看与进度追踪的痛点，旧替代是手动记录，结构上成立。
+    evidence_ids:
+    - ev-5c83feae2bb0fe67
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅描述功能，缺乏用户评价或采用数据，共识未验证。
+    evidence_ids:
+    - ev-5c83feae2bb0fe67
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是团队或企业，但无公开证据。
+    evidence_ids:
+    - ev-5c83feae2bb0fe67
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，需更多使用案例。
+    evidence_ids:
+    - ev-5c83feae2bb0fe67
+  next_validation: 关注官方定价页或用户评测，验证付费意愿与交付效果。
+  market: ''
+  job: 程序员在代码审查时查看 diff 并跟踪审查进度。
+  job_en: Programmers review code diffs and track review progress.
+  pain: 大型 diff 容易遗漏文件，审查进度难以同步。
+  pain_en: Large diffs are prone to missing files, and review progress is hard to sync.
+  current_alternative: 目前使用代码托管平台的 diff 界面，但进度追踪需手动记录。
+  current_alternative_en: Currently using code hosting platform diff views, but progress tracking is manual.
+  usage_reason: 开发者关注它是因为能减少审查遗漏，但采用证据尚未核验。
+  usage_reason_en: Developers are interested because it reduces review misses, but adoption evidence is
+    unverified.
+- id: req-full-seendiff-2026-08-29
+  project_slug: seendiff
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码审查中 diff 查看与进度追踪的痛点，旧替代是手动记录，结构上成立。
+    evidence_ids:
+    - ev-5c83feae2bb0fe67
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅描述功能，缺乏用户评价或采用数据，共识未验证。
+    evidence_ids:
+    - ev-5c83feae2bb0fe67
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是团队或企业，但无公开证据。
+    evidence_ids:
+    - ev-5c83feae2bb0fe67
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“程序员在代码审查时，将代码差异（diff）交给 seendiff，它提供带进度追踪的查看器，帮助跟踪审查进度。具体如何追踪、是否自动分析变更影响仍待核验”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注官方定价页或用户评测，验证付费意愿与交付效果。
+  market: ''
+  job: 程序员在代码审查时查看 diff 并跟踪审查进度。
+  job_en: Programmers review code diffs and track review progress.
+  pain: 大型 diff 容易遗漏文件，审查进度难以同步。
+  pain_en: Large diffs are prone to missing files, and review progress is hard to sync.
+  current_alternative: 目前使用代码托管平台的 diff 界面，但进度追踪需手动记录。
+  current_alternative_en: Currently using code hosting platform diff views, but progress tracking is manual.
+  usage_reason: 开发者关注它是因为能减少审查遗漏，但采用证据尚未核验。
+  usage_reason_en: Developers are interested because it reduces review misses, but adoption evidence is
+    unverified.

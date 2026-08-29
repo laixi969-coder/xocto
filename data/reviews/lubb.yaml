@@ -1,0 +1,69 @@
+- id: req-initial-lubb-2026-08-29
+  project_slug: lubb
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及提供心跳声助眠，但未说明具体使用场景、用户任务或交付成果，无法判断需求强度。
+    evidence_ids:
+    - ev-7ba0c70afc9fea2b
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用证据。
+    evidence_ids:
+    - ev-7ba0c70afc9fea2b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注应用商店评价和下载量，以及是否有用户实际使用。
+  market: ''
+  job: 用户想要通过播放心跳声来放松并入睡。
+  job_en: Users want to relax and fall asleep by playing heartbeat sounds.
+  pain: 失眠或焦虑人群难以入睡，需要辅助声音。
+  pain_en: People with insomnia or anxiety have difficulty falling asleep and need auxiliary sounds.
+  current_alternative: 白噪音应用、冥想应用、ASMR 音频。
+  current_alternative_en: White noise apps, meditation apps, ASMR audio.
+  usage_reason: 目前仅有产品页面，缺乏用户反馈或采用证据。
+  usage_reason_en: Currently only a product page exists, lacking user feedback or adoption evidence.
+- id: req-full-lubb-2026-08-29
+  project_slug: lubb
+  level: full
+  reviewed_at: '2026-08-29T15:49:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及提供心跳声助眠，但未说明具体使用场景、用户任务或交付成果，无法判断需求强度。
+    evidence_ids:
+    - ev-7ba0c70afc9fea2b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注应用商店评价和下载量，以及是否有用户实际使用。
+  market: ''
+  job: 用户想要通过播放心跳声来放松并入睡。
+  job_en: Users want to relax and fall asleep by playing heartbeat sounds.
+  pain: 失眠或焦虑人群难以入睡，需要辅助声音。
+  pain_en: People with insomnia or anxiety have difficulty falling asleep and need auxiliary sounds.
+  current_alternative: 白噪音应用、冥想应用、ASMR 音频。
+  current_alternative_en: White noise apps, meditation apps, ASMR audio.
+  usage_reason: 目前仅有产品页面，缺乏用户反馈或采用证据。
+  usage_reason_en: Currently only a product page exists, lacking user feedback or adoption evidence.

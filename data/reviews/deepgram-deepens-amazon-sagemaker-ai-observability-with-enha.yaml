@@ -1,0 +1,80 @@
+- id: req-initial-deepgram-deepens-amazon-sagemaker-ai-observability-with-enha-2026-08-29
+  project_slug: deepgram-deepens-amazon-sagemaker-ai-observability-with-enha
+  level: initial
+  reviewed_at: '2026-08-29T15:06:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自托管语音AI的可观测性痛点，将关键指标输出到客户自己的CloudWatch，工作流结构判断成立。
+    evidence_ids:
+    - ev-df88c3b0b96b2d1c
+  - gate: consensus
+    status: insufficient
+    reason: 官方博客宣布功能，但尚无用户采用或反馈数据。
+    evidence_ids:
+    - ev-df88c3b0b96b2d1c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，但可能作为Deepgram服务的一部分。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 功能已发布，交付可验证，但实际效果需用户测试。
+    evidence_ids:
+    - ev-df88c3b0b96b2d1c
+  next_validation: 关注Deepgram官方文档和客户案例，验证增强指标的实际采用和效果。
+  market: ''
+  job: DevOps和机器学习工程师需要监控自托管语音AI的容量和成本，以优化资源分配。
+  job_en: DevOps and ML engineers need to monitor capacity and cost of self-hosted speech AI to optimize
+    resource allocation.
+  pain: 自托管语音AI的可观测性数据被锁定在供应商容器内，导致容量规划和成本管理困难。
+  pain_en: Observability data of self-hosted speech AI is locked inside vendor containers, making capacity
+    planning and cost management difficult.
+  current_alternative: 工程师可能依赖供应商提供的有限指标或手动收集日志，效率低且不全面。
+  current_alternative_en: Engineers may rely on limited vendor-provided metrics or manually collect logs,
+    which is inefficient and incomplete.
+  usage_reason: 企业采用自托管AI时，需要与现有监控栈集成，Deepgram的增强指标直接解决这一需求。
+  usage_reason_en: Enterprises adopting self-hosted AI need integration with existing monitoring stacks;
+    Deepgram's enhanced metrics directly address this need.
+- id: req-full-deepgram-deepens-amazon-sagemaker-ai-observability-with-enha-2026-08-29
+  project_slug: deepgram-deepens-amazon-sagemaker-ai-observability-with-enha
+  level: full
+  reviewed_at: '2026-08-29T15:48:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自托管语音AI的可观测性痛点，将关键指标输出到客户自己的CloudWatch，工作流结构判断成立。
+    evidence_ids:
+    - ev-df88c3b0b96b2d1c
+  - gate: consensus
+    status: insufficient
+    reason: 官方博客宣布功能，但尚无用户采用或反馈数据。
+    evidence_ids:
+    - ev-df88c3b0b96b2d1c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，但可能作为Deepgram服务的一部分。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 功能已发布，交付可验证，但实际效果需用户测试。
+    evidence_ids:
+    - ev-df88c3b0b96b2d1c
+  next_validation: 关注Deepgram官方文档和客户案例，验证增强指标的实际采用和效果。
+  market: ''
+  job: DevOps和机器学习工程师需要监控自托管语音AI的容量和成本，以优化资源分配。
+  job_en: DevOps and ML engineers need to monitor capacity and cost of self-hosted speech AI to optimize
+    resource allocation.
+  pain: 自托管语音AI的可观测性数据被锁定在供应商容器内，导致容量规划和成本管理困难。
+  pain_en: Observability data of self-hosted speech AI is locked inside vendor containers, making capacity
+    planning and cost management difficult.
+  current_alternative: 工程师可能依赖供应商提供的有限指标或手动收集日志，效率低且不全面。
+  current_alternative_en: Engineers may rely on limited vendor-provided metrics or manually collect logs,
+    which is inefficient and incomplete.
+  usage_reason: 企业采用自托管AI时，需要与现有监控栈集成，Deepgram的增强指标直接解决这一需求。
+  usage_reason_en: Enterprises adopting self-hosted AI need integration with existing monitoring stacks;
+    Deepgram's enhanced metrics directly address this need.

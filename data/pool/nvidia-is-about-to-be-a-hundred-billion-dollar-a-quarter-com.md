@@ -1,11 +1,12 @@
 ---
 slug: nvidia-is-about-to-be-a-hundred-billion-dollar-a-quarter-com
-name: Nvidia is about to be a hundred-billion-dollar-a-quarter company
+name: Nvidia
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 英伟达预计未来几个月季度营收将达1080亿美元，最新财报显示本季度营收创纪录达962亿美元。
 inspiration: ''
-summary_en: ''
+summary_en: Nvidia forecasts quarterly revenue of $108 billion in coming months, after reporting a record
+  $96.2 billion in its latest quarter.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: Nvidia's predicting it will pull in $108 billion in revenue within just
   a record $96.2 billion […]
 first_seen: '2026-08-26T21:40:53Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia is about to be a hundred-billion-dollar-a-quarter company
+# Nvidia
 
 Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a record $96.2 billion […]
 

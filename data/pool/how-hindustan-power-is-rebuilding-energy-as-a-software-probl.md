@@ -1,11 +1,12 @@
 ---
 slug: how-hindustan-power-is-rebuilding-energy-as-a-software-probl
-name: How Hindustan Power is rebuilding energy as a software problem
+name: Hindustan Power
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条关于 Hindustan Power 将能源业务视为软件问题的行业报道，属于企业战略转型，并非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: This is an industry report on Hindustan Power treating energy as a software problem, a corporate
+  strategic shift, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb2lpMzM2SDVS
 summary: How Hindustan Power is rebuilding energy as a software problem ET CIO
 first_seen: '2026-08-29T02:30:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# How Hindustan Power is rebuilding energy as a software problem
+# Hindustan Power
 
 How Hindustan Power is rebuilding energy as a software problem ET CIO
 

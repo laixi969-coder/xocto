@@ -1,11 +1,12 @@
 ---
 slug: openai-chatgpt-sam-altman-microsoft
-name: OpenAI | ChatGPT, Sam Altman, & Microsoft
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI是人工智能研究公司，开发了ChatGPT等产品，与微软有深度合作。此条目为背景介绍，无新增产品事实。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI is an AI research company that developed ChatGPT and has deep collaboration with Microsoft.
+  This entry is background information with no new product facts.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Ba1QyTkx0cjRq
 summary: OpenAI | ChatGPT, Sam Altman, & Microsoft Britannica
 first_seen: '2026-08-27T17:43:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI | ChatGPT, Sam Altman, & Microsoft
+# OpenAI
 
 OpenAI | ChatGPT, Sam Altman, & Microsoft Britannica
 

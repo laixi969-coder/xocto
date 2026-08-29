@@ -34,3 +34,78 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：面向设计师和程序员的智能体 IDE；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: The agentic IDE for designers and
     programmers The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-shape-2026-08-29
+  project_slug: shape
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法从公开材料还原具体用户任务和痛点，价值主张模糊。
+    evidence_ids:
+    - ev-4e04edad8cabd374
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用数据。
+    evidence_ids:
+    - ev-4e04edad8cabd374
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids:
+    - ev-4e04edad8cabd374
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证。
+    evidence_ids:
+    - ev-4e04edad8cabd374
+  next_validation: 查找官方文档或产品页面，明确具体工作流和交付物。
+  market: ''
+  job: 设计师和程序员在 IDE 中协作开发，但具体任务未明确。
+  job_en: Designers and programmers collaborate in an IDE, but specific tasks are unclear.
+  pain: 未明确具体痛点，可能涉及设计-代码转换或协作效率。
+  pain_en: Specific pain points are unclear, possibly involving design-to-code conversion or collaboration
+    efficiency.
+  current_alternative: 现有工具如 Figma、VS Code 等，但替代关系未说明。
+  current_alternative_en: Existing tools like Figma, VS Code, but the substitution relationship is not
+    stated.
+  usage_reason: 关注源于 agentic IDE 趋势，但产品本身证据不足。
+  usage_reason_en: Interest stems from the agentic IDE trend, but product evidence is insufficient.
+- id: req-full-shape-2026-08-29
+  project_slug: shape
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法从公开材料还原具体用户任务和痛点，价值主张模糊。
+    evidence_ids:
+    - ev-4e04edad8cabd374
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找官方文档或产品页面，明确具体工作流和交付物。
+  market: ''
+  job: 设计师和程序员在 IDE 中协作开发，但具体任务未明确。
+  job_en: Designers and programmers collaborate in an IDE, but specific tasks are unclear.
+  pain: 未明确具体痛点，可能涉及设计-代码转换或协作效率。
+  pain_en: Specific pain points are unclear, possibly involving design-to-code conversion or collaboration
+    efficiency.
+  current_alternative: 现有工具如 Figma、VS Code 等，但替代关系未说明。
+  current_alternative_en: Existing tools like Figma, VS Code, but the substitution relationship is not
+    stated.
+  usage_reason: 关注源于 agentic IDE 趋势，但产品本身证据不足。
+  usage_reason_en: Interest stems from the agentic IDE trend, but product evidence is insufficient.

@@ -1,11 +1,12 @@
 ---
 slug: weekly-funding-roundup-the-startup-deals-you-may-have-missed
-name: 'Weekly funding roundup: The startup deals you may have missed in week of August 30'
+name: Startup funding
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 每周融资综述，汇总 8 月 30 日当周可能错过的初创公司交易。
 inspiration: ''
-summary_en: ''
+summary_en: Weekly funding roundup summarizing startup deals you may have missed in the week of August
+  30.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6
 summary: 'Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com'
 first_seen: '2026-08-29T13:52:47Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Weekly funding roundup: The startup deals you may have missed in week of August 30
+# Startup funding
 
 Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com
 

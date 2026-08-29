@@ -1,0 +1,80 @@
+- id: req-initial-plaud-is-launching-ai-earbuds-2026-08-29
+  project_slug: plaud-is-launching-ai-earbuds
+  level: initial
+  reviewed_at: '2026-08-29T15:06:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议、采访中记录和整理对话的痛点，旧替代是手动笔记或录音笔，交付为转写文本和摘要，价值结构成立。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示产品发布，但缺乏用户采用、评价或规模数据，共识尚未验证。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是消费者或企业，但尚无公开证据。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  - gate: truth
+    status: supported
+    reason: 产品贴近记录对话的第一性目标，交付可确定，但需验证实际转写准确性和隐私边界。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  next_validation: 关注 Plaud 官方定价页和用户评价，验证付费意愿和实际使用效果。
+  market: ''
+  job: 用户需要在会议、采访等场景中记录对话并快速获取要点。
+  job_en: Users need to record conversations in meetings, interviews, and quickly get key points.
+  pain: 手动记录费时且易遗漏，传统录音笔需事后回听整理。
+  pain_en: Manual note-taking is time-consuming and error-prone; traditional recorders require later playback
+    and transcription.
+  current_alternative: 使用手机录音应用或传统录音笔，之后手动转写或使用通用转录工具。
+  current_alternative_en: Using phone recording apps or traditional voice recorders, then manually transcribing
+    or using generic transcription tools.
+  usage_reason: 佩戴式设计减少操作步骤，4G 上传实现即时处理，适合移动场景。
+  usage_reason_en: Wearable design reduces steps, 4G upload enables immediate processing, suitable for
+    mobile scenarios.
+- id: req-full-plaud-is-launching-ai-earbuds-2026-08-29
+  project_slug: plaud-is-launching-ai-earbuds
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议、采访中记录和整理对话的痛点，旧替代是手动笔记或录音笔，交付为转写文本和摘要，价值结构成立。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示产品发布，但缺乏用户采用、评价或规模数据，共识尚未验证。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是消费者或企业，但尚无公开证据。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  - gate: truth
+    status: supported
+    reason: 产品贴近记录对话的第一性目标，交付可确定，但需验证实际转写准确性和隐私边界。
+    evidence_ids:
+    - ev-1acfebf70737a35e
+  next_validation: 关注 Plaud 官方定价页和用户评价，验证付费意愿和实际使用效果。
+  market: ''
+  job: 用户需要在会议、采访等场景中记录对话并快速获取要点。
+  job_en: Users need to record conversations in meetings, interviews, and quickly get key points.
+  pain: 手动记录费时且易遗漏，传统录音笔需事后回听整理。
+  pain_en: Manual note-taking is time-consuming and error-prone; traditional recorders require later playback
+    and transcription.
+  current_alternative: 使用手机录音应用或传统录音笔，之后手动转写或使用通用转录工具。
+  current_alternative_en: Using phone recording apps or traditional voice recorders, then manually transcribing
+    or using generic transcription tools.
+  usage_reason: 佩戴式设计减少操作步骤，4G 上传实现即时处理，适合移动场景。
+  usage_reason_en: Wearable design reduces steps, 4G upload enables immediate processing, suitable for
+    mobile scenarios.

@@ -1,11 +1,12 @@
 ---
 slug: clare-liguori-the-5-habits-behind-amazons-20x-ai-engineering
-name: 'Clare Liguori: The 5 Habits Behind Amazon''s 20x AI Engineering Gains'
+name: Amazon
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 亚马逊 AI 工程效率提升 20 倍，Clare Liguori 分享五个习惯。具体实践和工具未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Amazon's AI engineering efficiency improved 20x, with Clare Liguori sharing five habits. Specific
+  practices and tools are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VMkVTc2lsdEtU
 summary: 'Clare Liguori: The 5 Habits Behind Amazon''s 20x AI Engineering Gains finance.biggo.com'
 first_seen: '2026-08-28T18:08:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Clare Liguori: The 5 Habits Behind Amazon's 20x AI Engineering Gains
+# Amazon
 
 Clare Liguori: The 5 Habits Behind Amazon's 20x AI Engineering Gains finance.biggo.com
 

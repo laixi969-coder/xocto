@@ -3,10 +3,10 @@ slug: wsj
 name: Nvidia
 builder: root-parent
 category: ''
-summary_zh: Nvidia 作为 AI 芯片主要供应商，其现金流状况影响整个 AI 基础设施投资规模。
+summary_zh: Nvidia 是 AI 芯片巨头，本次报道强调其持续为 AI 热潮提供资金的能力，属于行业背景。
 inspiration: ''
-summary_en: Nvidia, as a major AI chip supplier, its cash flow situation affects the scale of AI infrastructure
-  investment.
+summary_en: Nvidia is an AI chip giant; this report emphasizes its ability to fund the AI boom, which
+  is industry background.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money
 summary: Nvidia Insists It Can Keep Printing Money to Fund the AI Boom
 first_seen: '2026-08-28T15:57:40Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

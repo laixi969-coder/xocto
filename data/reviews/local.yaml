@@ -34,3 +34,81 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：Mac上零摩擦的本地AI工具。；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Zero friction local AI for your Mac.
     The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-local-2026-08-29
+  project_slug: local
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地 AI 配置复杂、数据隐私担忧的问题，通过零摩擦安装和本地推理提供便捷的 AI 体验。工作流结构判断：用户需要本地运行 AI 模型。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: consensus
+    status: supported
+    reason: 技术社区的高讨论度表明社区对本地 AI 有广泛兴趣，且市场已有多个本地 AI 产品，共识初步形成。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能采用免费增值或订阅制，但尚未验证付费意愿。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 本地 AI 技术成熟，交付确定性高，但需验证其易用性和性能是否真的零摩擦。
+    evidence_ids:
+    - ev-6e48908aca4826d8
+  next_validation: 关注产品官网是否提供定价、下载和使用案例，以及用户评价。
+  market: ''
+  job: 用户希望在 Mac 上本地运行 AI 模型，避免数据上传云端，同时获得流畅的 AI 体验。
+  job_en: Users want to run AI models locally on their Mac to avoid uploading data to the cloud while
+    getting a smooth AI experience.
+  pain: 现有本地 AI 工具配置复杂，需要手动安装依赖和模型，对非技术用户不友好。
+  pain_en: Existing local AI tools are complex to configure, requiring manual installation of dependencies
+    and models, which is unfriendly to non-technical users.
+  current_alternative: Ollama、LM Studio 等本地模型运行工具，或云端 AI 服务。
+  current_alternative_en: Local model runners like Ollama, LM Studio, or cloud AI services.
+  usage_reason: 在技术社区获得 160 分和 45 条评论，表明社区对本地 AI 有强烈兴趣，但实际采用尚未核验。
+  usage_reason_en: Scored 160 points and 45 comments in a tech community, indicating strong community
+    interest in local AI, but actual adoption not yet verified.
+- id: req-full-local-2026-08-29
+  project_slug: local
+  level: full
+  reviewed_at: '2026-08-29T15:49:28Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地 AI 配置复杂、数据隐私担忧的问题，通过零摩擦安装和本地推理提供便捷的 AI 体验。工作流结构判断：用户需要本地运行 AI 模型。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: consensus
+    status: supported
+    reason: 技术社区的高讨论度表明社区对本地 AI 有广泛兴趣，且市场已有多个本地 AI 产品，共识初步形成。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能采用免费增值或订阅制，但尚未验证付费意愿。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 本地 AI 技术成熟，交付确定性高，但需验证其易用性和性能是否真的零摩擦。
+    evidence_ids:
+    - ev-6e48908aca4826d8
+  next_validation: 关注产品官网是否提供定价、下载和使用案例，以及用户评价。
+  market: ''
+  job: 用户希望在 Mac 上本地运行 AI 模型，避免数据上传云端，同时获得流畅的 AI 体验。
+  job_en: Users want to run AI models locally on their Mac to avoid uploading data to the cloud while
+    getting a smooth AI experience.
+  pain: 现有本地 AI 工具配置复杂，需要手动安装依赖和模型，对非技术用户不友好。
+  pain_en: Existing local AI tools are complex to configure, requiring manual installation of dependencies
+    and models, which is unfriendly to non-technical users.
+  current_alternative: Ollama、LM Studio 等本地模型运行工具，或云端 AI 服务。
+  current_alternative_en: Local model runners like Ollama, LM Studio, or cloud AI services.
+  usage_reason: 在技术社区获得 160 分和 45 条评论，表明社区对本地 AI 有强烈兴趣，但实际采用尚未核验。
+  usage_reason_en: Scored 160 points and 45 comments in a tech community, indicating strong community
+    interest in local AI, but actual adoption not yet verified.

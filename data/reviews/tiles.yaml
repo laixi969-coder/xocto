@@ -1,0 +1,71 @@
+- id: req-initial-tiles-2026-08-29
+  project_slug: tiles
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及整理桌面，未说明具体痛点、旧流程或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-b86a6e2081ce2d05
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、采用数据或社区讨论，无法判断共识。
+    evidence_ids:
+    - ev-b86a6e2081ce2d05
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Tiles 官网或产品页是否补充具体功能、定价和用户案例，以验证需求。
+  market: ''
+  job: 用户整理桌面图标和窗口，使其更有序。
+  job_en: Users organize desktop icons and windows to make them tidier.
+  pain: 桌面杂乱导致查找文件效率低，但整理本身耗时且非刚性需求。
+  pain_en: Cluttered desktop reduces file-finding efficiency, but organizing is time-consuming and not
+    a rigid need.
+  current_alternative: 手动拖拽整理，或使用系统自带的文件夹和分组功能。
+  current_alternative_en: Manual drag-and-drop, or using built-in folders and grouping features.
+  usage_reason: 目前仅有产品描述，无用户采用证据，关注度低。
+  usage_reason_en: Only product description exists, no adoption evidence, low attention.
+- id: req-full-tiles-2026-08-29
+  project_slug: tiles
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及整理桌面，未说明具体痛点、旧流程或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-b86a6e2081ce2d05
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Tiles 官网或产品页是否补充具体功能、定价和用户案例，以验证需求。
+  market: ''
+  job: 用户整理桌面图标和窗口，使其更有序。
+  job_en: Users organize desktop icons and windows to make them tidier.
+  pain: 桌面杂乱导致查找文件效率低，但整理本身耗时且非刚性需求。
+  pain_en: Cluttered desktop reduces file-finding efficiency, but organizing is time-consuming and not
+    a rigid need.
+  current_alternative: 手动拖拽整理，或使用系统自带的文件夹和分组功能。
+  current_alternative_en: Manual drag-and-drop, or using built-in folders and grouping features.
+  usage_reason: 目前仅有产品描述，无用户采用证据，关注度低。
+  usage_reason_en: Only product description exists, no adoption evidence, low attention.

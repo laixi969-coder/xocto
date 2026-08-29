@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE9pOFhZSVJPZ0JM
 summary: 这家港股AI公司，订阅及API收入增长94% ZAKER新闻
 first_seen: '2026-08-28T09:17:52Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

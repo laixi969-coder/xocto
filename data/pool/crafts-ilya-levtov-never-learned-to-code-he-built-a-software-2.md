@@ -1,6 +1,6 @@
 ---
 slug: crafts-ilya-levtov-never-learned-to-code-he-built-a-software-2
-name: Craft’s Ilya Levtov Never Learned To Code. He Built A Software Company Anyway.
+name: Craft
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FTMGpTWGtO
 summary: Craft’s Ilya Levtov Never Learned To Code. He Built A Software Company Anyway. Crunchbase News
 first_seen: '2026-08-27T11:00:20Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Craft’s Ilya Levtov Never Learned To Code. He Built A Software Company Anyway.
+# Craft
 
 Craft’s Ilya Levtov Never Learned To Code. He Built A Software Company Anyway. Crunchbase News
 

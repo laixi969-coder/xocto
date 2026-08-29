@@ -1,0 +1,76 @@
+- id: req-initial-myratefx-2026-08-29
+  project_slug: myratefx
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行汇率不透明、用户难以比较的痛点，替代手动查询的旧流程，交付为实时汇率数据。工作流结构判断。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示创始人自述，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向个人或企业，但商业模式未验证。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  - gate: truth
+    status: insufficient
+    reason: 数据准确性未验证，交付是否可靠未知。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  next_validation: 关注官网是否提供免费试用或定价页，以及用户评价。
+  market: ''
+  job: 用户需要比较不同银行的汇率和费用，以进行最优外汇兑换。
+  job_en: Users need to compare exchange rates and fees across banks to make optimal currency conversions.
+  pain: 银行汇率不透明，用户难以快速比较，可能支付高额费用。
+  pain_en: Bank rates are opaque, making it hard to compare quickly, potentially paying high fees.
+  current_alternative: 现有替代包括手动查询银行网站或使用汇率比较网站。
+  current_alternative_en: Existing alternatives include manually checking bank websites or using rate
+    comparison sites.
+  usage_reason: 关注源于对汇率透明度的需求，但付费和留存尚未核验。
+  usage_reason_en: Attention stems from the need for rate transparency, but payment and retention unverified.
+- id: req-full-myratefx-2026-08-29
+  project_slug: myratefx
+  level: full
+  reviewed_at: '2026-08-29T15:49:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行汇率不透明、用户难以比较的痛点，替代手动查询的旧流程，交付为实时汇率数据。工作流结构判断。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示创始人自述，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向个人或企业，但商业模式未验证。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  - gate: truth
+    status: insufficient
+    reason: 数据准确性未验证，交付是否可靠未知。
+    evidence_ids:
+    - ev-5c13503d8c427b5f
+  next_validation: 关注官网是否提供免费试用或定价页，以及用户评价。
+  market: ''
+  job: 用户需要比较不同银行的汇率和费用，以进行最优外汇兑换。
+  job_en: Users need to compare exchange rates and fees across banks to make optimal currency conversions.
+  pain: 银行汇率不透明，用户难以快速比较，可能支付高额费用。
+  pain_en: Bank rates are opaque, making it hard to compare quickly, potentially paying high fees.
+  current_alternative: 现有替代包括手动查询银行网站或使用汇率比较网站。
+  current_alternative_en: Existing alternatives include manually checking bank websites or using rate
+    comparison sites.
+  usage_reason: 关注源于对汇率透明度的需求，但付费和留存尚未核验。
+  usage_reason_en: Attention stems from the need for rate transparency, but payment and retention unverified.

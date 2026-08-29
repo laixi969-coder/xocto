@@ -3,9 +3,9 @@ slug: find-deployments-faster-with-redesigned-filters
 name: Vercel
 builder: ''
 category: ''
-summary_zh: Vercel 更新了部署过滤器，帮助用户更快找到部署。
+summary_zh: Vercel 更新了部署筛选器，并支持从控制台构建和部署 eve agents。
 inspiration: ''
-summary_en: Vercel updated deployment filters to help users find deployments faster.
+summary_en: Vercel updated deployment filters and enabled building and deploying eve agents from the dashboard.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/find-deployments-faster-with-redesig
 summary: ''
 first_seen: '2026-08-27T13:00:00Z'
 last_seen: '2026-08-29T15:06:32Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:

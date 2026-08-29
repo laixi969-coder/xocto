@@ -1,0 +1,80 @@
+- id: req-initial-看新股优地机器人赴港ipo商用服务机器人头部企业阿里君联资本等入股-2026-08-29
+  project_slug: 看新股优地机器人赴港ipo商用服务机器人头部企业阿里君联资本等入股
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决餐饮酒店配送的人力成本高和效率低问题，机器人自主导航完成配送，交付明确，价值结构成立。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及IPO和资本入股，缺乏用户采用率、客户案例或行业共识的具体数据。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是餐饮酒店企业，但具体付费路径不明确。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  - gate: truth
+    status: insufficient
+    reason: 机器人实际运行效果和可靠性缺乏公开验证，需更多部署案例或实测数据。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  next_validation: 关注优地机器人招股书或官方披露的客户案例，以验证服务机器人的实际部署规模和付费模式。
+  market: ''
+  job: 餐厅或酒店需要高效、低成本的配送服务，减少人力依赖。
+  job_en: Restaurants and hotels need efficient, low-cost delivery services to reduce reliance on human
+    labor.
+  pain: 人工配送成本高、效率低，且高峰期人手不足。
+  pain_en: Manual delivery is costly, inefficient, and understaffed during peak hours.
+  current_alternative: 目前主要依赖人工服务员或配送员，成本高且管理复杂。
+  current_alternative_en: Currently relies on human waiters or delivery staff, which is costly and complex
+    to manage.
+  usage_reason: 服务机器人能降低长期人力成本，提升配送效率，且IPO和资本背书增强了市场信心。
+  usage_reason_en: Service robots can reduce long-term labor costs and improve delivery efficiency, and
+    the IPO and capital backing boost market confidence.
+- id: req-full-看新股优地机器人赴港ipo商用服务机器人头部企业阿里君联资本等入股-2026-08-29
+  project_slug: 看新股优地机器人赴港ipo商用服务机器人头部企业阿里君联资本等入股
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决餐饮酒店配送的人力成本高和效率低问题，机器人自主导航完成配送，交付明确，价值结构成立。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及IPO和资本入股，缺乏用户采用率、客户案例或行业共识的具体数据。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是餐饮酒店企业，但具体付费路径不明确。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  - gate: truth
+    status: insufficient
+    reason: 机器人实际运行效果和可靠性缺乏公开验证，需更多部署案例或实测数据。
+    evidence_ids:
+    - ev-99d171b1b7564e47
+  next_validation: 关注优地机器人招股书或官方披露的客户案例，以验证服务机器人的实际部署规模和付费模式。
+  market: ''
+  job: 餐厅或酒店需要高效、低成本的配送服务，减少人力依赖。
+  job_en: Restaurants and hotels need efficient, low-cost delivery services to reduce reliance on human
+    labor.
+  pain: 人工配送成本高、效率低，且高峰期人手不足。
+  pain_en: Manual delivery is costly, inefficient, and understaffed during peak hours.
+  current_alternative: 目前主要依赖人工服务员或配送员，成本高且管理复杂。
+  current_alternative_en: Currently relies on human waiters or delivery staff, which is costly and complex
+    to manage.
+  usage_reason: 服务机器人能降低长期人力成本，提升配送效率，且IPO和资本背书增强了市场信心。
+  usage_reason_en: Service robots can reduce long-term labor costs and improve delivery efficiency, and
+    the IPO and capital backing boost market confidence.

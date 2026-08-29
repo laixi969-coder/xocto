@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/publicdesktop-lol
 summary: Public computer of the internet
 first_seen: '2026-08-27T18:58:45Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

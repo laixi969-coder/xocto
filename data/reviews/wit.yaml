@@ -1,0 +1,75 @@
+- id: req-initial-wit-2026-08-29
+  project_slug: wit
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明产品用于识别全球英语变体间的误解，但未描述具体输入、动作和交付，无法判断痛点刚性与交付确定性。
+    evidence_ids:
+    - ev-991de17357b6acee
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、采用数据或社区讨论，无法判断感知或场景是否成立。
+    evidence_ids:
+    - ev-991de17357b6acee
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费方，无法判断商业模式。
+    evidence_ids:
+    - ev-991de17357b6acee
+  - gate: truth
+    status: insufficient
+    reason: 未披露技术实现或交付验证，无法判断承诺能否确定性交付。
+    evidence_ids:
+    - ev-991de17357b6acee
+  next_validation: 关注 WIT 官网或产品页是否补充具体工作流、定价或客户案例，以验证需求强度。
+  market: ''
+  job: 跨国沟通中识别不同英语变体可能产生的误解。
+  job_en: Identify potential misunderstandings across global Englishes in cross-border communication.
+  pain: 不同英语变体（如美式、英式、印度英语）在表达上存在差异，可能导致误解，影响商务合作。
+  pain_en: Differences in English variants (e.g., American, British, Indian) can cause misunderstandings,
+    affecting business collaboration.
+  current_alternative: 目前主要依赖人工经验或事后沟通澄清，缺乏系统性工具。
+  current_alternative_en: Currently relies on human experience or post-hoc clarification, lacking systematic
+    tools.
+  usage_reason: 尚未核验，公开信息仅描述产品意图，无用户采用或关注证据。
+  usage_reason_en: Not yet verified; public info only describes intent, no adoption or traction evidence.
+- id: req-full-wit-2026-08-29
+  project_slug: wit
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明产品用于识别全球英语变体间的误解，但未描述具体输入、动作和交付，无法判断痛点刚性与交付确定性。
+    evidence_ids:
+    - ev-991de17357b6acee
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 WIT 官网或产品页是否补充具体工作流、定价或客户案例，以验证需求强度。
+  market: ''
+  job: 跨国沟通中识别不同英语变体可能产生的误解。
+  job_en: Identify potential misunderstandings across global Englishes in cross-border communication.
+  pain: 不同英语变体（如美式、英式、印度英语）在表达上存在差异，可能导致误解，影响商务合作。
+  pain_en: Differences in English variants (e.g., American, British, Indian) can cause misunderstandings,
+    affecting business collaboration.
+  current_alternative: 目前主要依赖人工经验或事后沟通澄清，缺乏系统性工具。
+  current_alternative_en: Currently relies on human experience or post-hoc clarification, lacking systematic
+    tools.
+  usage_reason: 尚未核验，公开信息仅描述产品意图，无用户采用或关注证据。
+  usage_reason_en: Not yet verified; public info only describes intent, no adoption or traction evidence.

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/rawtoheic
 summary: Convert RAW to HEIC inside Apple Photos
 first_seen: '2026-08-26T01:00:21Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

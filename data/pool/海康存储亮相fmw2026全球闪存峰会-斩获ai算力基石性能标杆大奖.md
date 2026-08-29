@@ -1,6 +1,6 @@
 ---
 slug: 海康存储亮相fmw2026全球闪存峰会-斩获ai算力基石性能标杆大奖
-name: 海康存储亮相FMW2026全球闪存峰会 斩获AI算力基石性能标杆大奖
+name: 海康存储
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE5pU1R6Undwa0lm
 summary: 海康存储亮相FMW2026全球闪存峰会 斩获AI算力基石性能标杆大奖 金融界
 first_seen: '2026-08-28T09:13:05Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 海康存储亮相FMW2026全球闪存峰会 斩获AI算力基石性能标杆大奖
+# 海康存储
 
 海康存储亮相FMW2026全球闪存峰会 斩获AI算力基石性能标杆大奖 金融界
 

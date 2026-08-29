@@ -1,0 +1,82 @@
+- id: req-initial-腾讯重金投入-ai-之后混元-hy4-preview-交出了什么答卷-2026-08-29
+  project_slug: 腾讯重金投入-ai-之后混元-hy4-preview-交出了什么答卷
+  level: initial
+  reviewed_at: '2026-08-29T15:06:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长链任务中AI无法自主执行和修复的痛点，通过测试验证了费用审核和代码开发能力，交付可运行结果，价值成立。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示其能力测试表现良好，但缺乏真实用户采用和持续使用数据，共识尚未形成。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  - gate: model
+    status: insufficient
+    reason: 定价已公布，但付费方和付费意愿未明确，商业模式尚待验证。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  - gate: truth
+    status: supported
+    reason: 产品贴近生产力任务的第一性目标，交付确定性较高，但人工复核仍必要。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  next_validation: 关注腾讯云TokenHub的API调用量数据和用户反馈，以及WorkBuddy等产品的实际使用情况。
+  market: ''
+  job: 用户需要完成长链任务，如费用审核、代码开发，要求AI理解需求、执行步骤、验证结果并修复错误。
+  job_en: Users need to complete long-horizon tasks such as expense auditing and code development, requiring
+    AI to understand requirements, execute steps, verify results, and fix errors.
+  pain: 传统AI只能生成内容，无法自主处理多步骤任务，用户仍需手动检查、调试和修复，耗时且易出错。
+  pain_en: Traditional AI only generates content and cannot autonomously handle multi-step tasks; users
+    still need to manually check, debug, and fix, which is time-consuming and error-prone.
+  current_alternative: 目前用户依赖人工审核、手动编码或使用多个工具组合，效率低且成本高。
+  current_alternative_en: Currently users rely on manual review, manual coding, or multiple tool combinations,
+    which is inefficient and costly.
+  usage_reason: Hy4 preview能自主执行长链任务并迭代修复，降低人工干预，提高效率，因此受到关注。
+  usage_reason_en: Hy4 preview can autonomously execute long-horizon tasks and iterate fixes, reducing
+    manual intervention and improving efficiency, hence attracting attention.
+- id: req-full-腾讯重金投入-ai-之后混元-hy4-preview-交出了什么答卷-2026-08-29
+  project_slug: 腾讯重金投入-ai-之后混元-hy4-preview-交出了什么答卷
+  level: full
+  reviewed_at: '2026-08-29T15:50:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长链任务中AI无法自主执行和修复的痛点，通过测试验证了费用审核和代码开发能力，交付可运行结果，价值成立。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示其能力测试表现良好，但缺乏真实用户采用和持续使用数据，共识尚未形成。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  - gate: model
+    status: insufficient
+    reason: 定价已公布，但付费方和付费意愿未明确，商业模式尚待验证。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  - gate: truth
+    status: supported
+    reason: 产品贴近生产力任务的第一性目标，交付确定性较高，但人工复核仍必要。
+    evidence_ids:
+    - ev-15be1bda49411e1d
+  next_validation: 追踪 腾讯混元 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 用户需要完成长链任务，如费用审核、代码开发，要求AI理解需求、执行步骤、验证结果并修复错误。
+  job_en: Users need to complete long-horizon tasks such as expense auditing and code development, requiring
+    AI to understand requirements, execute steps, verify results, and fix errors.
+  pain: 传统AI只能生成内容，无法自主处理多步骤任务，用户仍需手动检查、调试和修复，耗时且易出错。
+  pain_en: Traditional AI only generates content and cannot autonomously handle multi-step tasks; users
+    still need to manually check, debug, and fix, which is time-consuming and error-prone.
+  current_alternative: 目前用户依赖人工审核、手动编码或使用多个工具组合，效率低且成本高。
+  current_alternative_en: Currently users rely on manual review, manual coding, or multiple tool combinations,
+    which is inefficient and costly.
+  usage_reason: Hy4 preview能自主执行长链任务并迭代修复，降低人工干预，提高效率，因此受到关注。
+  usage_reason_en: Hy4 preview can autonomously execute long-horizon tasks and iterate fixes, reducing
+    manual intervention and improving efficiency, hence attracting attention.

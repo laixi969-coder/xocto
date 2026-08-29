@@ -1,0 +1,77 @@
+- id: req-initial-weir-2026-08-29
+  project_slug: weir
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决 AI Agent 测试难题，痛点明确，交付为测试结果，结构上成立。
+    evidence_ids:
+    - ev-d2f2a13877811b09
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无用户评价或采用数据。
+    evidence_ids:
+    - ev-d2f2a13877811b09
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能无直接付费路径。
+    evidence_ids:
+    - ev-d2f2a13877811b09
+  - gate: truth
+    status: insufficient
+    reason: 测试有效性未验证，需实际使用案例。
+    evidence_ids:
+    - ev-d2f2a13877811b09
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有用户分享测试案例。
+  market: ''
+  job: 开发者测试 AI Agent 的行为是否正确。
+  job_en: Developers test whether AI agent behaviors are correct.
+  pain: AI Agent 行为不可预测，传统测试工具不适用，调试困难。
+  pain_en: AI agent behavior is unpredictable, traditional testing tools are not applicable, and debugging
+    is difficult.
+  current_alternative: 手动测试或使用通用测试框架，但无法模拟 Agent 环境。
+  current_alternative_en: Manual testing or general testing frameworks, but they cannot simulate agent
+    environments.
+  usage_reason: 在开发者社区有讨论，但采用证据不足。
+  usage_reason_en: Discussed in developer communities, but adoption evidence is insufficient.
+- id: req-full-weir-2026-08-29
+  project_slug: weir
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决 AI Agent 测试难题，痛点明确，交付为测试结果，结构上成立。
+    evidence_ids:
+    - ev-d2f2a13877811b09
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无用户评价或采用数据。
+    evidence_ids:
+    - ev-d2f2a13877811b09
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能无直接付费路径。
+    evidence_ids:
+    - ev-d2f2a13877811b09
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“weir 是一个开源工具，用于测试 AI Agent，不依赖 LLM。开发者将 Agent 的行为输入工具，它模拟环境并验证输出，帮助发现逻辑错误。具体测试流程和交付物仍待核验”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有用户分享测试案例。
+  market: ''
+  job: 开发者测试 AI Agent 的行为是否正确。
+  job_en: Developers test whether AI agent behaviors are correct.
+  pain: AI Agent 行为不可预测，传统测试工具不适用，调试困难。
+  pain_en: AI agent behavior is unpredictable, traditional testing tools are not applicable, and debugging
+    is difficult.
+  current_alternative: 手动测试或使用通用测试框架，但无法模拟 Agent 环境。
+  current_alternative_en: Manual testing or general testing frameworks, but they cannot simulate agent
+    environments.
+  usage_reason: 在开发者社区有讨论，但采用证据不足。
+  usage_reason_en: Discussed in developer communities, but adoption evidence is insufficient.

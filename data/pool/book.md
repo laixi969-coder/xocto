@@ -1,13 +1,12 @@
 ---
 slug: book
-name: book
+name: Google AI Mode
 builder: pentagram
 category: AI + 效率
-summary_zh: 本次事件是 Google 在 AI Mode 中新增航班价格追踪和酒店预订功能，使其从信息搜索转向旅行规划与预订代理。同时还有一本《Analytical AI Handbook》发布，但两者都不是独立产品。
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: 改变阅读的交互方式，可能重塑数字阅读体验
-summary_en: This event covers Google adding flight price tracking and hotel booking to AI Mode, shifting
-  from information search to a travel planning and booking agent. Also, an 'Analytical AI Handbook' was
-  released, but neither is a standalone product.
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: Changing reading interaction could reshape digital reading experience
 priority_review: false
 project_type: ''
@@ -23,7 +22,7 @@ canonical_url: https://book.curiora.space
 summary: A new way to read books, magnifying in and out
 first_seen: '2026-08-19T22:21:41Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - officialfeeds
@@ -68,7 +67,7 @@ sightings:
   kind: news
 ---
 
-# book
+# Google AI Mode
 
 A new way to read books, magnifying in and out
 

@@ -1,11 +1,11 @@
 ---
 slug: openai8217s-executive-exodus-has-one-big-winner
-name: OpenAI&#8217;s executive exodus has one big winner
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 高管离职潮引发关注，权力集中于总裁 Greg Brockman。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI's executive exodus draws attention, with power consolidating under president Greg Brockman.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +24,7 @@ summary: 'Today on Decoder, I’m talking to Verge senior AI reporter Hayden Fie
   most public face, Brockman has amassed […]'
 first_seen: '2026-08-27T14:00:00Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI&#8217;s executive exodus has one big winner
+# OpenAI
 
 Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face, Brockman has amassed […]
 

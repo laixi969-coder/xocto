@@ -3,9 +3,11 @@ slug: hostinger
 name: Hostinger
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Hostinger 是一家虚拟主机服务商，提供 VPS 模板（如 Grafana），并发布电商策略内容。其出现在 AI 产品榜可能因 AI 相关服务或内容，但本身不是 AI 产品。
 inspiration: ''
-summary_en: ''
+summary_en: Hostinger is a web hosting provider offering VPS templates (e.g., Grafana) and ecommerce strategy
+  content. Its presence on AI product list may be due to AI-related services or content, but it is not
+  an AI product itself.
 inspiration_en: ''
 priority_review: false
 project_type: ''
@@ -21,7 +23,7 @@ canonical_url: https://aicpb.com/product/Hostinger/webid1D6F377C9
 summary: Getting started with Grafana VPS template
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - aicpb
 - newssearch

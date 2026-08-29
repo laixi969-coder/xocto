@@ -1,27 +1,35 @@
 ---
 slug: funding-wrap-scooby-club-nexedge-capital-instaastro-raise-fr
-name: 'Funding Wrap: Scooby Club, Nexedge Capital, InstaAstro raise fresh capital'
+name: Scooby Club
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: 宠物主人通过 Scooby Club 平台预约宠物护理服务，AI 根据宠物档案匹配服务并安排日程，交付可预约的护理方案，具体流程仍待核验。
+inspiration: 趋势是 AI 进入本地生活服务匹配。切入宠物护理垂直场景，按服务结果收费，先做单一城市验证。
+summary_en: Pet owners use Scooby Club to book pet care services; AI matches services based on pet profiles
+  and schedules appointments, delivering bookable care plans. Specific workflow pending verification.
+inspiration_en: 'Trend: AI entering local service matching. Enter via pet care vertical, charge per outcome,
+  validate in one city first.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 宠物服务
+industries_en:
+- Pet services
+jobs:
+- 宠物主人
+jobs_en:
+- Pet owners
+regions:
+- 印度
+regions_en:
+- India
 open_source: false
 url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcEM1MkduSTFWUk85Z0F0VjRkM3pFaE1ubm1keHE4clBOenlNdHQyQm90RUtUclBlR0FodFRtY0hhaktvS09vZDFQTE5IMXhiaDRLNEJwQnJWM0g3aWhLVmNCTHJiZFlCUElnRjhwTkpZaUdySTZEN21VcFREbkVsb28tY0Y1R2ZVTmx5VTJTbDRwYmtROVVySXkwaE5keVROeEwxb3RJNk1temo0aGVzY09JaHRsb0FkUnN3M1VoX3NldVRLQ2R5a3h0bzRha1hQREY0YllXcEtGYmtO0gHiAUFVX3lxTE11OFJSV25iR2pUU2JTdTBBZ1otYzJ6NjRyT1NNZlJyTlEwZEpfb3JhVGlGY3dMRnc1a25tbWVZSERWdVB0MHE1bHpncnVUTUlJTk9ydDg2YW4tTUVqVDBuc0JYRFRBWjdZcGc2b3pCRHItYTlZZXRSRXlua0lKckwxdHp2bzdjcWVleV9sVnM4NGQxYmZLckRsbHRwaF9BTzlaQktjU25ZdUJ3MDBnVVZreEFLTFUzUlZrRWpvV1V0aG9QdlFORmVKamtxbkFiZ1RVR0ZtMExpMERMTENGYzR0VXc?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcEM1MkduSTFWUk85Z0F0VjRkM3pFaE1ubm1keHE4clBOenlNdHQyQm90RUtUclBlR0FodFRtY0hhaktvS09vZDFQTE5IMXhiaDRLNEJwQnJWM0g3aWhLVmNCTHJiZFlCUElnRjhwTkpZaUdySTZEN21VcFREbkVsb28tY0Y1R2ZVTmx5VTJTbDRwYmtROVVySXkwaE5keVROeEwxb3RJNk1temo0aGVzY09JaHRsb0FkUnN3M1VoX3NldVRLQ2R5a3h0bzRha1hQREY0YllXcEtGYmtO0gHiAUFVX3lxTE11OFJSV25iR2pUU2JTdTBBZ1otYzJ6NjRyT1NNZlJyTlEwZEpfb3JhVGlGY3dMRnc1a25tbWVZSERWdVB0MHE1bHpncnVUTUlJTk9ydDg2YW4tTUVqVDBuc0JYRFRBWjdZcGc2b3pCRHItYTlZZXRSRXlua0lKckwxdHp2bzdjcWVleV9sVnM4NGQxYmZLckRsbHRwaF9BTzlaQktjU25ZdUJ3MDBnVVZreEFLTFUzUlZrRWpvV1V0aG9QdlFORmVKamtxbkFiZ1RVR0ZtMExpMERMTENGYzR0VXc?oc=5
 summary: 'Funding Wrap: Scooby Club, Nexedge Capital, InstaAstro raise fresh capital ET Entrepreneur'
 first_seen: '2026-08-29T06:32:49Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:
@@ -32,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# Funding Wrap: Scooby Club, Nexedge Capital, InstaAstro raise fresh capital
+# Scooby Club
 
 Funding Wrap: Scooby Club, Nexedge Capital, InstaAstro raise fresh capital ET Entrepreneur
 

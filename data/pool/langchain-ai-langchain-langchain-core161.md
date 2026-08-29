@@ -1,11 +1,13 @@
 ---
 slug: langchain-ai-langchain-langchain-core161
-name: 'langchain-ai/langchain: langchain-core==1.6.1'
+name: LangChain
 builder: langchain-ai
 category: ''
-summary_zh: ''
+summary_zh: LangChain 发布 langchain-core 1.6.1，修复了流式内容索引、StructuredTool 序列化等问题，并更新依赖。这是开发者工具链的常规更新，不构成独立产品机会。
 inspiration: ''
-summary_en: ''
+summary_en: LangChain released langchain-core 1.6.1, fixing streaming content indexing, StructuredTool
+  serialization, and updating dependencies. This is a routine update to a developer tool, not an independent
+  product opportunity.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -36,7 +38,7 @@ summary: 'Changes since langchain-core==1.6.0
   feat(core): propagate gateway information on error path (#39829)'
 first_seen: '2026-08-27T19:31:34Z'
 last_seen: '2026-08-29T15:06:08Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -48,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.1
+# LangChain
 
 Changes since langchain-core==1.6.0
 

@@ -1,0 +1,77 @@
+- id: req-initial-github-2-2026-08-29
+  project_slug: github-2
+  level: initial
+  reviewed_at: '2026-08-29T15:06:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决提示词翻译问题，但痛点强度未明，且现有替代（手动翻译）可能已足够。
+    evidence_ids:
+    - ev-4962a79112dacaec
+  - gate: consensus
+    status: insufficient
+    reason: 无公开采用数据，社区讨论为零，无法判断共识。
+    evidence_ids:
+    - ev-4962a79112dacaec
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源免费，无付费路径。
+    evidence_ids:
+    - ev-4962a79112dacaec
+  - gate: truth
+    status: insufficient
+    reason: 未验证实际使用效果，无用户反馈。
+    evidence_ids:
+    - ev-4962a79112dacaec
+  next_validation: 关注开源仓库的 star 和 issue 讨论，以及是否有用户分享使用案例。
+  market: ''
+  job: 开发者需要将中文提示词转换为更利于大模型理解的英文，以减少输出偏差。
+  job_en: Developers need to convert Chinese prompts into English that is better understood by LLMs to
+    reduce output bias.
+  pain: 中英文表达差异可能导致模型理解偏差，且输入语言可能影响地区判断。
+  pain_en: Differences between Chinese and English expression may cause model misunderstanding, and input
+    language may affect regional judgment.
+  current_alternative: 目前开发者可能手动翻译或使用通用翻译工具，但可能不够精准或未针对提示词优化。
+  current_alternative_en: Currently developers may manually translate or use general translation tools,
+    which may not be precise or optimized for prompts.
+  usage_reason: 开源免费，可自配模型，但尚未核验实际采用情况。
+  usage_reason_en: Open-source and free, configurable with own model, but actual adoption not yet verified.
+- id: req-full-github-2-2026-08-29
+  project_slug: github-2
+  level: full
+  reviewed_at: '2026-08-29T15:49:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决提示词翻译问题，但痛点强度未明，且现有替代（手动翻译）可能已足够。
+    evidence_ids:
+    - ev-4962a79112dacaec
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注开源仓库的 star 和 issue 讨论，以及是否有用户分享使用案例。
+  market: ''
+  job: 开发者需要将中文提示词转换为更利于大模型理解的英文，以减少输出偏差。
+  job_en: Developers need to convert Chinese prompts into English that is better understood by LLMs to
+    reduce output bias.
+  pain: 中英文表达差异可能导致模型理解偏差，且输入语言可能影响地区判断。
+  pain_en: Differences between Chinese and English expression may cause model misunderstanding, and input
+    language may affect regional judgment.
+  current_alternative: 目前开发者可能手动翻译或使用通用翻译工具，但可能不够精准或未针对提示词优化。
+  current_alternative_en: Currently developers may manually translate or use general translation tools,
+    which may not be precise or optimized for prompts.
+  usage_reason: 开源免费，可自配模型，但尚未核验实际采用情况。
+  usage_reason_en: Open-source and free, configurable with own model, but actual adoption not yet verified.

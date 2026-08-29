@@ -1,0 +1,73 @@
+- id: req-initial-funding-wrap-scooby-club-nexedge-capital-instaastro-raise-fr-2026-08-29
+  project_slug: funding-wrap-scooby-club-nexedge-capital-instaastro-raise-fr
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资，未说明具体服务流程、用户痛点或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-46a30c4349434270
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户评价、使用数据或行业讨论，共识度无法评估。
+    evidence_ids:
+    - ev-46a30c4349434270
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式、定价或付费方，无法判断商业可行性。
+    evidence_ids:
+    - ev-46a30c4349434270
+  - gate: truth
+    status: insufficient
+    reason: 无产品细节或交付证据，真实性待核验。
+    evidence_ids:
+    - ev-46a30c4349434270
+  next_validation: 关注 Scooby Club 官网或应用商店页面，获取服务流程、定价和用户评价。
+  market: ''
+  job: 宠物主人需要为宠物找到可靠的护理服务并完成预约。
+  job_en: Pet owners need to find reliable pet care services and book appointments.
+  pain: 寻找可信赖的宠物护理服务耗时且信息不透明。
+  pain_en: Finding trustworthy pet care services is time-consuming and opaque.
+  current_alternative: 目前可能通过本地口碑或通用平台寻找，但具体替代方式未披露。
+  current_alternative_en: Currently may rely on local word-of-mouth or general platforms; specific alternatives
+    undisclosed.
+  usage_reason: 融资新闻带来关注，但实际采用情况尚未核验。
+  usage_reason_en: Funding news brings attention, but actual adoption unverified.
+- id: req-full-funding-wrap-scooby-club-nexedge-capital-instaastro-raise-fr-2026-08-29
+  project_slug: funding-wrap-scooby-club-nexedge-capital-instaastro-raise-fr
+  level: full
+  reviewed_at: '2026-08-29T15:49:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资，未说明具体服务流程、用户痛点或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-46a30c4349434270
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Scooby Club 官网或应用商店页面，获取服务流程、定价和用户评价。
+  market: ''
+  job: 宠物主人需要为宠物找到可靠的护理服务并完成预约。
+  job_en: Pet owners need to find reliable pet care services and book appointments.
+  pain: 寻找可信赖的宠物护理服务耗时且信息不透明。
+  pain_en: Finding trustworthy pet care services is time-consuming and opaque.
+  current_alternative: 目前可能通过本地口碑或通用平台寻找，但具体替代方式未披露。
+  current_alternative_en: Currently may rely on local word-of-mouth or general platforms; specific alternatives
+    undisclosed.
+  usage_reason: 融资新闻带来关注，但实际采用情况尚未核验。
+  usage_reason_en: Funding news brings attention, but actual adoption unverified.

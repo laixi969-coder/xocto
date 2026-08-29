@@ -1,0 +1,80 @@
+- id: req-initial-rootstock-deploys-procurement-and-sales-ai-agents-in-summer-2026-08-29
+  project_slug: rootstock-deploys-procurement-and-sales-ai-agents-in-summer
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采购和销售流程中重复性工作，旧替代是人工处理，交付为自动化流程，价值结构成立。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户采用或效果数据，共识未验证。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是制造企业，但无公开证据。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  - gate: truth
+    status: supported
+    reason: 产品贴近流程自动化目标，交付可确定，但需验证实际效果和集成质量。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  next_validation: 关注 Rootstock 官方文档和客户案例，验证 AI 代理的实际功能和采用情况。
+  market: ''
+  job: 制造企业需要自动化采购和销售流程，减少人工处理订单和报价的时间。
+  job_en: Manufacturing companies need to automate procurement and sales processes to reduce time spent
+    on manual order and quote handling.
+  pain: 采购和销售流程涉及大量重复性数据录入和审批，效率低且易出错。
+  pain_en: Procurement and sales involve repetitive data entry and approvals, which are inefficient and
+    error-prone.
+  current_alternative: 使用传统 ERP 模块或人工处理，依赖邮件和电子表格。
+  current_alternative_en: Using traditional ERP modules or manual processing, relying on email and spreadsheets.
+  usage_reason: AI 代理可自动处理标准流程，减少人工干预，提高响应速度。
+  usage_reason_en: AI agents can automate standard processes, reduce manual intervention, and improve
+    response speed.
+- id: req-full-rootstock-deploys-procurement-and-sales-ai-agents-in-summer-2026-08-29
+  project_slug: rootstock-deploys-procurement-and-sales-ai-agents-in-summer
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采购和销售流程中重复性工作，旧替代是人工处理，交付为自动化流程，价值结构成立。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户采用或效果数据，共识未验证。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是制造企业，但无公开证据。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  - gate: truth
+    status: supported
+    reason: 产品贴近流程自动化目标，交付可确定，但需验证实际效果和集成质量。
+    evidence_ids:
+    - ev-ec263418d6ac7667
+  next_validation: 关注 Rootstock 官方文档和客户案例，验证 AI 代理的实际功能和采用情况。
+  market: ''
+  job: 制造企业需要自动化采购和销售流程，减少人工处理订单和报价的时间。
+  job_en: Manufacturing companies need to automate procurement and sales processes to reduce time spent
+    on manual order and quote handling.
+  pain: 采购和销售流程涉及大量重复性数据录入和审批，效率低且易出错。
+  pain_en: Procurement and sales involve repetitive data entry and approvals, which are inefficient and
+    error-prone.
+  current_alternative: 使用传统 ERP 模块或人工处理，依赖邮件和电子表格。
+  current_alternative_en: Using traditional ERP modules or manual processing, relying on email and spreadsheets.
+  usage_reason: AI 代理可自动处理标准流程，减少人工干预，提高响应速度。
+  usage_reason_en: AI agents can automate standard processes, reduce manual intervention, and improve
+    response speed.

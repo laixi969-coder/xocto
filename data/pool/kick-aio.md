@@ -24,7 +24,7 @@ summary: Kick ViewBot is an all-in-one open-source streaming automation toolkit 
   engagement, stream analytics, and growth
 first_seen: '2026-08-09T08:37:32Z'
 last_seen: '2026-08-29T15:06:08Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

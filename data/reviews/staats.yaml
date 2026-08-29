@@ -1,0 +1,74 @@
+- id: req-initial-staats-2026-08-29
+  project_slug: staats
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网站状态查询的痛点，旧替代是专业监控工具，结构上成立。
+    evidence_ids:
+    - ev-d54b19c87a791ea0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅描述功能，缺乏用户评价或采用数据。
+    evidence_ids:
+    - ev-d54b19c87a791ea0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式。
+    evidence_ids:
+    - ev-d54b19c87a791ea0
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证。
+    evidence_ids:
+    - ev-d54b19c87a791ea0
+  next_validation: 关注官方文档或定价页，验证实际功能与付费意愿。
+  market: ''
+  job: 网站管理员或程序员想了解网站运行状况，通过自然语言向编码 agent 提问。
+  job_en: Web admins or programmers want to know website status, asking coding agents in natural language.
+  pain: 传统监控工具需要配置和解读，不够直观。
+  pain_en: Traditional monitoring tools require configuration and interpretation, not intuitive.
+  current_alternative: 使用监控面板如 Grafana 或日志查询，但需要专业知识。
+  current_alternative_en: Using monitoring dashboards like Grafana or log queries, but requires expertise.
+  usage_reason: 开发者关注是因为能降低监控门槛，但采用证据未核验。
+  usage_reason_en: Developers are interested because it lowers monitoring barriers, but adoption evidence
+    is unverified.
+- id: req-full-staats-2026-08-29
+  project_slug: staats
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决网站状态查询的痛点，旧替代是专业监控工具，结构上成立。
+    evidence_ids:
+    - ev-d54b19c87a791ea0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅描述功能，缺乏用户评价或采用数据。
+    evidence_ids:
+    - ev-d54b19c87a791ea0
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“Staats 让用户向编码 agent 询问网站运行状况，但具体输入、分析动作和输出报告形式未在公开材料中说明，需进一步核验”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Staats 让用户向编码 agent 询问网站运行状况，但具体输入、分析动作和输出报告形式未在公开材料中说明，需进一步核验”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注官方文档或定价页，验证实际功能与付费意愿。
+  market: ''
+  job: 网站管理员或程序员想了解网站运行状况，通过自然语言向编码 agent 提问。
+  job_en: Web admins or programmers want to know website status, asking coding agents in natural language.
+  pain: 传统监控工具需要配置和解读，不够直观。
+  pain_en: Traditional monitoring tools require configuration and interpretation, not intuitive.
+  current_alternative: 使用监控面板如 Grafana 或日志查询，但需要专业知识。
+  current_alternative_en: Using monitoring dashboards like Grafana or log queries, but requires expertise.
+  usage_reason: 开发者关注是因为能降低监控门槛，但采用证据未核验。
+  usage_reason_en: Developers are interested because it lowers monitoring barriers, but adoption evidence
+    is unverified.

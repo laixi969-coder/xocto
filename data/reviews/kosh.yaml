@@ -1,0 +1,80 @@
+- id: req-initial-kosh-2026-08-29
+  project_slug: kosh
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Bash 脚本缺乏实时检查的痛点，通过内置 LSP 和高速静态检查提供即时反馈，交付可运行的脚本，价值结构成立。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅有少量社区讨论，缺乏广泛采用或社区共识证据，需观察后续 star 和用户反馈。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未明确，可能通过支持或云服务收费，但尚无公开定价或付费路径。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  - gate: truth
+    status: insufficient
+    reason: 承诺 100 倍速度提升，但缺乏独立基准验证，需实际测试确认。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  next_validation: 关注代码托管平台上的 star 增长、issue 讨论和用户实测反馈，验证性能承诺和实际采用。
+  market: ''
+  job: 开发者编写和调试 Bash 脚本，需要快速发现语法和逻辑错误。
+  job_en: Developers write and debug Bash scripts, needing to quickly find syntax and logic errors.
+  pain: Bash 脚本缺乏现代 IDE 的实时检查，错误常在运行时才暴露，调试耗时。
+  pain_en: Bash scripts lack real-time checks of modern IDEs; errors often surface at runtime, making
+    debugging time-consuming.
+  current_alternative: 目前开发者依赖 Shellcheck 等静态工具或反复运行脚本试错。
+  current_alternative_en: Currently developers rely on static tools like Shellcheck or repeatedly run
+    scripts to debug.
+  usage_reason: 开发者关注 Kosh 因为它承诺更快的检查和内置 LSP，能减少调试时间。
+  usage_reason_en: Developers are interested in Kosh because it promises faster checks and built-in LSP,
+    reducing debugging time.
+- id: req-full-kosh-2026-08-29
+  project_slug: kosh
+  level: full
+  reviewed_at: '2026-08-29T15:49:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Bash 脚本缺乏实时检查的痛点，通过内置 LSP 和高速静态检查提供即时反馈，交付可运行的脚本，价值结构成立。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅有少量社区讨论，缺乏广泛采用或社区共识证据，需观察后续 star 和用户反馈。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未明确，可能通过支持或云服务收费，但尚无公开定价或付费路径。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  - gate: truth
+    status: insufficient
+    reason: 承诺 100 倍速度提升，但缺乏独立基准验证，需实际测试确认。
+    evidence_ids:
+    - ev-d9fda806797c3876
+  next_validation: 关注代码托管平台上的 star 增长、issue 讨论和用户实测反馈，验证性能承诺和实际采用。
+  market: ''
+  job: 开发者编写和调试 Bash 脚本，需要快速发现语法和逻辑错误。
+  job_en: Developers write and debug Bash scripts, needing to quickly find syntax and logic errors.
+  pain: Bash 脚本缺乏现代 IDE 的实时检查，错误常在运行时才暴露，调试耗时。
+  pain_en: Bash scripts lack real-time checks of modern IDEs; errors often surface at runtime, making
+    debugging time-consuming.
+  current_alternative: 目前开发者依赖 Shellcheck 等静态工具或反复运行脚本试错。
+  current_alternative_en: Currently developers rely on static tools like Shellcheck or repeatedly run
+    scripts to debug.
+  usage_reason: 开发者关注 Kosh 因为它承诺更快的检查和内置 LSP，能减少调试时间。
+  usage_reason_en: Developers are interested in Kosh because it promises faster checks and built-in LSP,
+    reducing debugging time.

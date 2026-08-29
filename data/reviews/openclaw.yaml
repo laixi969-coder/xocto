@@ -1,0 +1,73 @@
+- id: req-initial-openclaw-2026-08-29
+  project_slug: openclaw
+  level: initial
+  reviewed_at: '2026-08-29T15:06:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自动化任务需求，替代人工操作，交付为智能体执行结果。工作流结构判断。
+    evidence_ids:
+    - ev-ff165434f6782aab
+  - gate: consensus
+    status: supported
+    reason: 月访问量 478 万，表明有用户采用，但环比下降需关注。
+    evidence_ids:
+    - ev-ff165434f6782aab
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，商业模式未验证。
+    evidence_ids:
+    - ev-ff165434f6782aab
+  - gate: truth
+    status: insufficient
+    reason: 交付可靠性未验证，具体功能未披露。
+    evidence_ids:
+    - ev-ff165434f6782aab
+  next_validation: 关注官方文档或产品页面，获取具体功能、定价和用户案例。
+  market: ''
+  job: 用户可能使用智能体完成自动化任务，但具体任务未披露。
+  job_en: Users may use agents for automation tasks, but specific tasks undisclosed.
+  pain: 痛点可能是重复性工作耗时，但未明确。
+  pain_en: Pain point may be time-consuming repetitive work, but unclear.
+  current_alternative: 现有替代包括传统自动化工具或人工操作。
+  current_alternative_en: Existing alternatives include traditional automation tools or manual work.
+  usage_reason: 关注源于品类开创和访问量，但付费和留存未核验。
+  usage_reason_en: Attention stems from category creation and traffic, but payment and retention unverified.
+- id: req-full-openclaw-2026-08-29
+  project_slug: openclaw
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自动化任务需求，替代人工操作，交付为智能体执行结果。工作流结构判断。
+    evidence_ids:
+    - ev-ff165434f6782aab
+  - gate: consensus
+    status: supported
+    reason: 月访问量 478 万，表明有用户采用，但环比下降需关注。
+    evidence_ids:
+    - ev-ff165434f6782aab
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，商业模式未验证。
+    evidence_ids:
+    - ev-ff165434f6782aab
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“OpenClaw 开创了 Claw 智能体品类，月访问量 478 万，但环比下降 39.27%。具体功能和工作流程未披露，可能涉及智能体应用”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注官方文档或产品页面，获取具体功能、定价和用户案例。
+  market: ''
+  job: 用户可能使用智能体完成自动化任务，但具体任务未披露。
+  job_en: Users may use agents for automation tasks, but specific tasks undisclosed.
+  pain: 痛点可能是重复性工作耗时，但未明确。
+  pain_en: Pain point may be time-consuming repetitive work, but unclear.
+  current_alternative: 现有替代包括传统自动化工具或人工操作。
+  current_alternative_en: Existing alternatives include traditional automation tools or manual work.
+  usage_reason: 关注源于品类开创和访问量，但付费和留存未核验。
+  usage_reason_en: Attention stems from category creation and traffic, but payment and retention unverified.

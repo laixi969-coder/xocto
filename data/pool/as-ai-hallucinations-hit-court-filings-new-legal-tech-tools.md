@@ -1,11 +1,12 @@
 ---
 slug: as-ai-hallucinations-hit-court-filings-new-legal-tech-tools
-name: As AI hallucinations hit court filings, new legal tech tools aim to keep lawyers out of trouble
+name: Legal Tech Tools
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI幻觉影响法庭文件，新的法律科技工具旨在帮助律师避免麻烦。
 inspiration: ''
-summary_en: ''
+summary_en: As AI hallucinations affect court filings, new legal tech tools aim to keep lawyers out of
+  trouble.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: As AI hallucinations hit court filings, new legal tech tools aim to kee
   Maryland Daily Record
 first_seen: '2026-08-28T09:00:58Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# As AI hallucinations hit court filings, new legal tech tools aim to keep lawyers out of trouble
+# Legal Tech Tools
 
 As AI hallucinations hit court filings, new legal tech tools aim to keep lawyers out of trouble Maryland Daily Record
 

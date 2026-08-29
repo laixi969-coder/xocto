@@ -1,11 +1,12 @@
 ---
 slug: the-weeks-10-biggest-funding-rounds-ai-tools-and-assistants-2
-name: 'The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals'
+name: AI funding rounds
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 本周十大融资轮次中，AI 工具和助手领先，但大型交易数量减少。
 inspiration: ''
-summary_en: ''
+summary_en: This week's top 10 funding rounds led by AI tools and assistants, with a sparser lineup of
+  megadeals.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: 'The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead S
   Crunchbase News'
 first_seen: '2026-08-28T17:21:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals
+# AI funding rounds
 
 The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals Crunchbase News
 

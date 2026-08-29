@@ -21,7 +21,7 @@ canonical_url: https://buddyiconarchive.com
 summary: 500,000+ AOL Instant Messenger Buddy Icons All at Once
 first_seen: '2026-08-28T23:01:39Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,80 @@
+- id: req-initial-einfall-2026-08-29
+  project_slug: einfall
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速捕捉想法并自动路由的任务，痛点在于手动整理耗时且易丢失，交付为自动分发，价值结构成立。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品发布，缺乏用户评价或采用数据，共识证据不足。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是个人用户，但付费路径未公开。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称的自动路由能力尚未有独立验证或实际使用案例，真实性待核验。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  next_validation: 关注 Einfall 的官方文档和用户评价，以及其与主流笔记应用的集成情况。
+  market: ''
+  job: 用户需要快速捕捉转瞬即逝的想法，并将其发送到合适的应用或位置。
+  job_en: Users need to quickly capture fleeting thoughts and send them to appropriate apps or locations.
+  pain: 想法稍纵即逝，手动记录和分类耗时且容易丢失。
+  pain_en: Thoughts are fleeting, and manual recording and categorization are time-consuming and prone
+    to loss.
+  current_alternative: 目前用户可能使用快速笔记应用或语音备忘录，但需要手动整理和分发。
+  current_alternative_en: Currently users may use quick note apps or voice memos, but they require manual
+    organization and distribution.
+  usage_reason: Einfall 的自动路由功能可能吸引知识工作者试用，但采用证据尚未核验。
+  usage_reason_en: Einfall's automatic routing may attract knowledge workers to try, but adoption evidence
+    is not yet verified.
+- id: req-full-einfall-2026-08-29
+  project_slug: einfall
+  level: full
+  reviewed_at: '2026-08-29T15:48:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速捕捉想法并自动路由的任务，痛点在于手动整理耗时且易丢失，交付为自动分发，价值结构成立。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品发布，缺乏用户评价或采用数据，共识证据不足。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是个人用户，但付费路径未公开。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称的自动路由能力尚未有独立验证或实际使用案例，真实性待核验。
+    evidence_ids:
+    - ev-5b51efb8b9579a25
+  next_validation: 关注 Einfall 的官方文档和用户评价，以及其与主流笔记应用的集成情况。
+  market: ''
+  job: 用户需要快速捕捉转瞬即逝的想法，并将其发送到合适的应用或位置。
+  job_en: Users need to quickly capture fleeting thoughts and send them to appropriate apps or locations.
+  pain: 想法稍纵即逝，手动记录和分类耗时且容易丢失。
+  pain_en: Thoughts are fleeting, and manual recording and categorization are time-consuming and prone
+    to loss.
+  current_alternative: 目前用户可能使用快速笔记应用或语音备忘录，但需要手动整理和分发。
+  current_alternative_en: Currently users may use quick note apps or voice memos, but they require manual
+    organization and distribution.
+  usage_reason: Einfall 的自动路由功能可能吸引知识工作者试用，但采用证据尚未核验。
+  usage_reason_en: Einfall's automatic routing may attract knowledge workers to try, but adoption evidence
+    is not yet verified.

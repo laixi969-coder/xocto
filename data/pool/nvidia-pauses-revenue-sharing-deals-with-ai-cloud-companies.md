@@ -1,11 +1,11 @@
 ---
 slug: nvidia-pauses-revenue-sharing-deals-with-ai-cloud-companies
-name: Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports
+name: Nvidia
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 据《华尔街日报》报道，英伟达暂停与AI云公司的收入分成协议。
 inspiration: ''
-summary_en: ''
+summary_en: Nvidia pauses revenue-sharing deals with AI cloud companies, as reported by WSJ.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT05Sa2c1Yklm
 summary: Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports Yahoo Finance
 first_seen: '2026-08-27T22:31:40Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports
+# Nvidia
 
 Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports Yahoo Finance
 

@@ -21,7 +21,7 @@ canonical_url: https://infernalcode.com/posts/your-ai-agent-has-root
 summary: AI Agent Has Root
 first_seen: '2026-08-28T12:03:09Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: anthropic-continues-compute-gobbling-streak-in-45b-deal-with
-name: Anthropic continues compute-gobbling streak in $45B deal with Nscale
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic与基础设施提供商Nscale达成45亿美元算力交易，延续其大规模算力采购趋势。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic signed a $4.5 billion compute deal with infrastructure provider Nscale, continuing
+  its massive compute procurement streak.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: The new deal with the infrastructure provider is the latest example of 
   compute-gobbling streak.
 first_seen: '2026-08-26T21:37:39Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic continues compute-gobbling streak in $45B deal with Nscale
+# Anthropic
 
 The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.
 

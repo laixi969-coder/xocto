@@ -1,41 +1,45 @@
 - id: req-initial-观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗-2026-08-29
   project_slug: 观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗
   level: initial
-  reviewed_at: '2026-08-29T03:43:33Z'
+  reviewed_at: '2026-08-29T15:06:37Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 办公任务明确，AI能接收文档等输入并执行动作，交付可核对；工作流结构判断成立。
+    reason: 它解决办公室职员跨应用、跨文件重复任务的痛点，旧替代是人工手动操作，耗时易错；产品能看见屏幕、操作软件、处理文件，交付可核验的任务结果，风险操作二次确认，价值结构成立。
     evidence_ids:
-    - ev-fd7eafe37ac21b79
+    - ev-874cf892fb8eb551
+    - ev-cfa09f54e4fef104
   - gate: consensus
     status: insufficient
-    reason: 用户增长近9倍是采用信号，但缺乏持续使用和留存证据，且可能受推广影响。
+    reason: 报道称用户增长近9倍，但缺乏具体用户数、留存或付费数据；市场关注度高，但持续采用证据不足。
     evidence_ids:
     - ev-fd7eafe37ac21b79
   - gate: model
     status: insufficient
-    reason: 未披露定价和付费方，可能是免费推广阶段，商业模式未验证。
-    evidence_ids: []
+    reason: 未披露定价与付费模式，买方可能是个人或企业，但付费路径未公开；需进一步核验。
+    evidence_ids:
+    - ev-3db850f11534e4e5
   - gate: truth
-    status: insufficient
-    reason: 未披露具体功能细节和交付质量，需进一步验证是否真正解决办公痛点。
-    evidence_ids: []
-  next_validation: 关注百度官方产品页面或应用商店，获取“搭子”的功能列表、定价和用户评价。
+    status: supported
+    reason: 产品贴近办公第一性目标，能确定性交付任务结果，但安全边界（风险操作二次确认）已考虑，人工确认环节保留，求真性较好。
+    evidence_ids:
+    - ev-874cf892fb8eb551
+  next_validation: 关注百度智能云官方定价页或企业客户案例，以核验付费模式与真实采用情况。
   market: ''
-  job: 办公人员需要处理文档、数据、日程等重复性任务，提高工作效率。
-  job_en: Office workers need to handle repetitive tasks like documents, data, and schedules to improve
-    efficiency.
-  pain: 重复性办公任务耗时且易出错，但具体痛点强度未量化。
-  pain_en: Repetitive office tasks are time-consuming and error-prone, but pain intensity is not quantified.
-  current_alternative: 目前可能使用传统办公软件或人工处理，但未披露具体替代方式。
-  current_alternative_en: Currently may use traditional office software or manual processing, but specific
-    alternatives are undisclosed.
-  usage_reason: 用户增长近9倍表明有采用，但可能受巨头推广影响，付费和留存未核验。
-  usage_reason_en: Nearly 9x user growth indicates adoption, but may be influenced by giant promotion;
-    monetization and retention are unverified.
+  job: 办公室职员要完成跨应用、跨文件的重复性办公任务，如整理资料、生成报告、处理数据。
+  job_en: Office workers need to complete repetitive cross-app, cross-file office tasks such as organizing
+    materials, generating reports, and processing data.
+  pain: 手动切换多个软件、复制粘贴、重复操作耗时且易出错，占用大量工作时间。
+  pain_en: Manually switching between multiple apps, copy-pasting, and repetitive operations are time-consuming
+    and error-prone, consuming significant work hours.
+  current_alternative: 目前主要靠人工手动操作，或使用简单的宏、脚本，但门槛高且不通用。
+  current_alternative_en: Currently relies on manual operation or simple macros/scripts, which are high-barrier
+    and not universal.
+  usage_reason: 用户增长近9倍表明市场关注度高，产品定位解决真实办公痛点，但付费与留存尚未核验。
+  usage_reason_en: The reported 9x user growth indicates high market interest; the product addresses real
+    office pain points, but monetization and retention are not yet verified.
 - id: req-full-观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗-2026-08-29
   project_slug: 观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗
   level: full

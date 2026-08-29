@@ -1,6 +1,6 @@
 ---
 slug: 有娃家庭双11千元预算能买慕思智能床垫吗真相替代方案faq
-name: 有娃家庭双11千元预算能买慕思智能床垫吗？真相+替代方案+FAQ
+name: 慕思智能床垫
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxQbm5UQWk4bm0w
 summary: 有娃家庭双11千元预算能买慕思智能床垫吗？真相+替代方案+FAQ 新浪网
 first_seen: '2026-08-28T08:51:46Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 有娃家庭双11千元预算能买慕思智能床垫吗？真相+替代方案+FAQ
+# 慕思智能床垫
 
 有娃家庭双11千元预算能买慕思智能床垫吗？真相+替代方案+FAQ 新浪网
 

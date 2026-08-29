@@ -1,0 +1,80 @@
+- id: req-initial-6000多名教师人手一个ai助教莱州启动教育智能体全域部署-2026-08-29
+  project_slug: 6000多名教师人手一个ai助教莱州启动教育智能体全域部署
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教师备课、批改等重复性工作的痛点，AI 助教可生成教案、批改建议，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅报道部署规模，无教师反馈或使用数据，共识证据不足。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  - gate: model
+    status: insufficient
+    reason: 未披露采购方和付费模式，可能由政府或学校出资，但尚无公开证据。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  - gate: truth
+    status: insufficient
+    reason: AI 助教的实际教学质量影响和教师接受度尚待验证。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  next_validation: 关注莱州教育局或相关报道，查看教师使用反馈和教学成果数据。
+  market: ''
+  job: 教师需要完成备课、批改作业、学情分析等重复性工作，AI 助教可减轻负担。
+  job_en: Teachers need to complete repetitive tasks like lesson prep, grading, and student analysis;
+    AI assistants can reduce the burden.
+  pain: 教师工作量大，时间紧张，传统工具无法提供个性化支持。
+  pain_en: Teachers face heavy workloads and time pressure; traditional tools lack personalized support.
+  current_alternative: 教师通常手工备课和批改，或使用通用办公软件，效率较低。
+  current_alternative_en: Teachers typically prepare lessons and grade manually or use generic office
+    software, which is inefficient.
+  usage_reason: 政府推动和规模化部署可能促使教师采用，但实际使用效果和持续性尚未核验。
+  usage_reason_en: Government push and large-scale deployment may drive adoption, but actual effectiveness
+    and sustainability are not yet verified.
+- id: req-full-6000多名教师人手一个ai助教莱州启动教育智能体全域部署-2026-08-29
+  project_slug: 6000多名教师人手一个ai助教莱州启动教育智能体全域部署
+  level: full
+  reviewed_at: '2026-08-29T15:48:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教师备课、批改等重复性工作的痛点，AI 助教可生成教案、批改建议，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅报道部署规模，无教师反馈或使用数据，共识证据不足。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  - gate: model
+    status: insufficient
+    reason: 未披露采购方和付费模式，可能由政府或学校出资，但尚无公开证据。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  - gate: truth
+    status: insufficient
+    reason: AI 助教的实际教学质量影响和教师接受度尚待验证。
+    evidence_ids:
+    - ev-96a6e45ef05ebeba
+  next_validation: 追踪 莱州教育智能体 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 教师需要完成备课、批改作业、学情分析等重复性工作，AI 助教可减轻负担。
+  job_en: Teachers need to complete repetitive tasks like lesson prep, grading, and student analysis;
+    AI assistants can reduce the burden.
+  pain: 教师工作量大，时间紧张，传统工具无法提供个性化支持。
+  pain_en: Teachers face heavy workloads and time pressure; traditional tools lack personalized support.
+  current_alternative: 教师通常手工备课和批改，或使用通用办公软件，效率较低。
+  current_alternative_en: Teachers typically prepare lessons and grade manually or use generic office
+    software, which is inefficient.
+  usage_reason: 政府推动和规模化部署可能促使教师采用，但实际使用效果和持续性尚未核验。
+  usage_reason_en: Government push and large-scale deployment may drive adoption, but actual effectiveness
+    and sustainability are not yet verified.

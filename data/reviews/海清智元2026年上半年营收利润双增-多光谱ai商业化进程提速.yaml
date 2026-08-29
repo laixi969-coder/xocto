@@ -1,0 +1,82 @@
+- id: req-initial-海清智元2026年上半年营收利润双增-多光谱ai商业化进程提速-2026-08-29
+  project_slug: 海清智元2026年上半年营收利润双增-多光谱ai商业化进程提速
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安防和工业检测中可见光无法覆盖的痛点，多光谱AI能识别隐蔽目标或早期缺陷，交付异常告警或缺陷标记，价值结构成立。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及营收利润双增，缺乏用户采用、客户案例或行业共识的具体证据。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是安防或工业企业，但具体付费路径不明确。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  - gate: truth
+    status: insufficient
+    reason: 多光谱AI技术成熟度及实际交付效果缺乏公开验证，需更多案例或实测数据。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  next_validation: 关注海清智元官方发布的客户案例或产品文档，以验证多光谱AI的实际交付效果和付费模式。
+  market: ''
+  job: 安防或工业检测人员需要识别可见光之外的异常，如隐蔽目标或早期缺陷。
+  job_en: Security or industrial inspection personnel need to identify anomalies beyond visible light,
+    such as concealed targets or early defects.
+  pain: 传统可见光监控和检测无法捕捉多光谱信息，导致漏检和误判。
+  pain_en: Traditional visible-light monitoring and inspection cannot capture multispectral information,
+    leading to missed detections and misjudgments.
+  current_alternative: 目前主要依赖人工巡检或单一可见光设备，效率低且覆盖有限。
+  current_alternative_en: Currently relies on manual inspection or single visible-light equipment, which
+    is inefficient and limited in coverage.
+  usage_reason: 多光谱AI能提供更全面的检测能力，减少漏检，提高安全性，因此受到关注。
+  usage_reason_en: Multispectral AI offers more comprehensive detection capabilities, reducing missed
+    detections and improving safety, hence attracting attention.
+- id: req-full-海清智元2026年上半年营收利润双增-多光谱ai商业化进程提速-2026-08-29
+  project_slug: 海清智元2026年上半年营收利润双增-多光谱ai商业化进程提速
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安防和工业检测中可见光无法覆盖的痛点，多光谱AI能识别隐蔽目标或早期缺陷，交付异常告警或缺陷标记，价值结构成立。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及营收利润双增，缺乏用户采用、客户案例或行业共识的具体证据。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是安防或工业企业，但具体付费路径不明确。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  - gate: truth
+    status: insufficient
+    reason: 多光谱AI技术成熟度及实际交付效果缺乏公开验证，需更多案例或实测数据。
+    evidence_ids:
+    - ev-a8a0e6fe054071f3
+  next_validation: 关注海清智元官方发布的客户案例或产品文档，以验证多光谱AI的实际交付效果和付费模式。
+  market: ''
+  job: 安防或工业检测人员需要识别可见光之外的异常，如隐蔽目标或早期缺陷。
+  job_en: Security or industrial inspection personnel need to identify anomalies beyond visible light,
+    such as concealed targets or early defects.
+  pain: 传统可见光监控和检测无法捕捉多光谱信息，导致漏检和误判。
+  pain_en: Traditional visible-light monitoring and inspection cannot capture multispectral information,
+    leading to missed detections and misjudgments.
+  current_alternative: 目前主要依赖人工巡检或单一可见光设备，效率低且覆盖有限。
+  current_alternative_en: Currently relies on manual inspection or single visible-light equipment, which
+    is inefficient and limited in coverage.
+  usage_reason: 多光谱AI能提供更全面的检测能力，减少漏检，提高安全性，因此受到关注。
+  usage_reason_en: Multispectral AI offers more comprehensive detection capabilities, reducing missed
+    detections and improving safety, hence attracting attention.

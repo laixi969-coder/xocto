@@ -1,11 +1,12 @@
 ---
 slug: anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch
-name: Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026
+name: TechCrunch Disrupt 2026
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic和OpenAI将参加公开资料 Disrupt 2026的AI舞台，该活动由Google for Startups呈现，聚焦AI热点话题。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic and OpenAI will join the AI Stage at public reporting Disrupt 2026, presented by
+  Google for Startups, focusing on hot AI topics.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single
   community for the past few years, presented by Google for Startups.
 first_seen: '2026-08-27T23:16:45Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026
+# TechCrunch Disrupt 2026
 
 At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.
 

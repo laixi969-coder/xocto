@@ -1,0 +1,82 @@
+- id: req-initial-星谷云-deepsales正式发布端到端交付的出海-ai-销售智能体-2026-08-29
+  project_slug: 星谷云-deepsales正式发布端到端交付的出海-ai-销售智能体
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出海销售团队开发海外客户时重复触达、跟进效率低下的痛点，交付可追踪的销售机会，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品发布，缺乏用户规模、采用率或行业反馈，共识尚未形成。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是出海企业，但付费路径和触发点不明确。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，尚无实际交付结果或客户案例，真实性待验证。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  next_validation: 关注星谷云官网或官方渠道是否公布定价、客户案例或试用数据，以验证付费意愿和实际效果。
+  market: ''
+  job: 出海销售团队需要开发海外客户，完成从线索挖掘、初次触达到跟进转化的全流程。
+  job_en: Overseas sales teams need to develop international clients, completing the full process from
+    lead generation, initial outreach, to follow-up and conversion.
+  pain: 人工开发海外客户耗时且效率低，跨时区沟通、语言障碍和大量重复性工作导致销售周期长、成本高。
+  pain_en: Manual overseas client development is time-consuming and inefficient; cross-time-zone communication,
+    language barriers, and repetitive tasks lengthen sales cycles and increase costs.
+  current_alternative: 传统方式依赖销售团队手动搜索客户、发送邮件、跟进电话，或使用CRM系统记录，但缺乏自动化。
+  current_alternative_en: Traditionally, sales teams manually search for clients, send emails, and make
+    follow-up calls, or use CRM systems for recording, but lack automation.
+  usage_reason: 产品宣称提供端到端自动化，能减少人工重复劳动，因此吸引出海企业关注；实际采用和付费情况尚未核验。
+  usage_reason_en: The product claims end-to-end automation, reducing manual repetitive work, thus attracting
+    attention from overseas-focused enterprises; actual adoption and payment are not yet verified.
+- id: req-full-星谷云-deepsales正式发布端到端交付的出海-ai-销售智能体-2026-08-29
+  project_slug: 星谷云-deepsales正式发布端到端交付的出海-ai-销售智能体
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出海销售团队开发海外客户时重复触达、跟进效率低下的痛点，交付可追踪的销售机会，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品发布，缺乏用户规模、采用率或行业反馈，共识尚未形成。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是出海企业，但付费路径和触发点不明确。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，尚无实际交付结果或客户案例，真实性待验证。
+    evidence_ids:
+    - ev-40aa8bad05d6f05d
+  next_validation: 关注星谷云官网或官方渠道是否公布定价、客户案例或试用数据，以验证付费意愿和实际效果。
+  market: ''
+  job: 出海销售团队需要开发海外客户，完成从线索挖掘、初次触达到跟进转化的全流程。
+  job_en: Overseas sales teams need to develop international clients, completing the full process from
+    lead generation, initial outreach, to follow-up and conversion.
+  pain: 人工开发海外客户耗时且效率低，跨时区沟通、语言障碍和大量重复性工作导致销售周期长、成本高。
+  pain_en: Manual overseas client development is time-consuming and inefficient; cross-time-zone communication,
+    language barriers, and repetitive tasks lengthen sales cycles and increase costs.
+  current_alternative: 传统方式依赖销售团队手动搜索客户、发送邮件、跟进电话，或使用CRM系统记录，但缺乏自动化。
+  current_alternative_en: Traditionally, sales teams manually search for clients, send emails, and make
+    follow-up calls, or use CRM systems for recording, but lack automation.
+  usage_reason: 产品宣称提供端到端自动化，能减少人工重复劳动，因此吸引出海企业关注；实际采用和付费情况尚未核验。
+  usage_reason_en: The product claims end-to-end automation, reducing manual repetitive work, thus attracting
+    attention from overseas-focused enterprises; actual adoption and payment are not yet verified.

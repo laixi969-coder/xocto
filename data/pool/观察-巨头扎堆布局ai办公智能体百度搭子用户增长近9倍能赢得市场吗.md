@@ -3,20 +3,22 @@ slug: 观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍�
 name: 百度搭子
 builder: ''
 category: AI + 效率
-summary_zh: 办公人员在日常工作中，将文档、表格或会议记录交给“搭子”智能体，它协助处理办公任务；具体功能如文档生成、数据分析或日程管理仍待核验，交付形式未知。
-inspiration: 趋势是AI办公智能体成为巨头标配，用户增长快但市场未定。切入可从垂直办公场景如合同审核、报销流程入手，避免与巨头正面竞争，按任务或结果收费。
-summary_en: Office workers hand documents, spreadsheets, or meeting notes to the 'Dazi' agent for assistance
-  with office tasks; specific features like document generation, data analysis, or schedule management
-  remain unverified, and deliverables are unknown.
-inspiration_en: The trend is AI office agents becoming standard for tech giants, with fast user growth
-  but an unsettled market. Entry could focus on vertical office scenarios like contract review or expense
-  reimbursement, avoiding head-on competition with giants, charging per task or outcome.
+summary_zh: 办公室职员在处理跨应用、跨文件的重复任务时，把需求用自然语言交给百度搭子；它可看见屏幕、操作软件、处理文件、串联业务系统，自动执行从想法到结果的流程，交付完成的任务结果，风险操作需二次确认。
+inspiration: 趋势是AI从对话助手走向能操作真实软件、跨系统执行任务的智能体。切入可从垂直办公场景如财务对账、人事流程开始，按任务结果收费，而非通用月费。
+summary_en: Office workers hand cross-app, cross-file repetitive tasks to Baidu Dazi in natural language;
+  it can see the screen, operate software, process files, and connect business systems to execute from
+  idea to result, with risk operations requiring confirmation.
+inspiration_en: The trend is AI moving from conversational assistants to agents that operate real software
+  and execute tasks across systems. Entry could start with vertical office scenarios like financial reconciliation
+  or HR processes, charging per outcome rather than flat subscription.
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
 - 办公服务
+- 企业服务
 industries_en:
 - Office services
+- Enterprise services
 jobs:
 - 办公室职员
 - 行政人员
@@ -33,7 +35,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5
 summary: 观察｜巨头扎堆布局AI办公智能体，百度搭子用户增长近9倍，能赢得市场吗？ thepaper.cn
 first_seen: '2026-08-27T13:42:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:

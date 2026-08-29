@@ -1,0 +1,79 @@
+- id: req-initial-鲁班到家再登cctv财经频道聚焦报道ai落地现代服务业领域运用-2026-08-29
+  project_slug: 鲁班到家再登cctv财经频道聚焦报道ai落地现代服务业领域运用
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及鲁班到家被央视报道AI应用，但未说明具体解决什么用户任务、痛点及交付结果，无法判断价值结构。
+    evidence_ids:
+    - ev-3ad006a51f117299
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用、评价或市场反馈的公开证据，无法判断共识。
+    evidence_ids:
+    - ev-3ad006a51f117299
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式、定价或付费方，无法判断模式。
+    evidence_ids:
+    - ev-3ad006a51f117299
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-3ad006a51f117299
+  next_validation: 关注鲁班到家官网或公开资料，获取其AI功能的具体描述、用户评价及商业模式信息。
+  market: ''
+  job: 用户需要预约家居安装、维修等上门服务，并希望服务高效、可靠。
+  job_en: Users need to book home installation, repair, and other on-site services, expecting efficiency
+    and reliability.
+  pain: 传统家居服务存在信息不透明、预约难、服务质量参差不齐等问题。
+  pain_en: Traditional home services suffer from opaque information, difficult booking, and inconsistent
+    service quality.
+  current_alternative: 用户可能通过电话、线下门店或非专业平台预约服务，缺乏标准化和保障。
+  current_alternative_en: Users may book through phone calls, offline stores, or non-professional platforms,
+    lacking standardization and assurance.
+  usage_reason: 鲁班到家作为平台，可能通过AI优化匹配和调度，提供更便捷的服务体验，但具体采用情况尚未核验。
+  usage_reason_en: As a platform, Luban Daojia may use AI to optimize matching and scheduling, offering
+    a more convenient experience, but adoption specifics are unverified.
+- id: req-full-鲁班到家再登cctv财经频道聚焦报道ai落地现代服务业领域运用-2026-08-29
+  project_slug: 鲁班到家再登cctv财经频道聚焦报道ai落地现代服务业领域运用
+  level: full
+  reviewed_at: '2026-08-29T15:50:45Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及鲁班到家被央视报道AI应用，但未说明具体解决什么用户任务、痛点及交付结果，无法判断价值结构。
+    evidence_ids:
+    - ev-3ad006a51f117299
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注鲁班到家官网或公开资料，获取其AI功能的具体描述、用户评价及商业模式信息。
+  market: ''
+  job: 用户需要预约家居安装、维修等上门服务，并希望服务高效、可靠。
+  job_en: Users need to book home installation, repair, and other on-site services, expecting efficiency
+    and reliability.
+  pain: 传统家居服务存在信息不透明、预约难、服务质量参差不齐等问题。
+  pain_en: Traditional home services suffer from opaque information, difficult booking, and inconsistent
+    service quality.
+  current_alternative: 用户可能通过电话、线下门店或非专业平台预约服务，缺乏标准化和保障。
+  current_alternative_en: Users may book through phone calls, offline stores, or non-professional platforms,
+    lacking standardization and assurance.
+  usage_reason: 鲁班到家作为平台，可能通过AI优化匹配和调度，提供更便捷的服务体验，但具体采用情况尚未核验。
+  usage_reason_en: As a platform, Luban Daojia may use AI to optimize matching and scheduling, offering
+    a more convenient experience, but adoption specifics are unverified.

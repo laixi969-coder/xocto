@@ -2,19 +2,33 @@
 slug: gamma
 name: Gamma
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: Gamma 是一个 AI 驱动的演示文稿工具，用户输入内容，AI 自动生成美观的演示文稿，无需手动排版。本次收购 Lica 并成立 AI 研究实验室，可能增强其设计能力。
+inspiration: 趋势是 AI 从生成内容扩展到自动设计。切入可从特定行业如营销、教育的演示需求入手，提供模板和品牌定制，而非通用工具。
+summary_en: Gamma is an AI-powered presentation tool where users input content and AI automatically generates
+  beautiful presentations without manual formatting. This acquisition of Lica and launch of an AI research
+  lab may enhance its design capabilities.
+inspiration_en: The trend is AI expanding from content generation to automatic design. Entry could focus
+  on specific industries like marketing and education for presentation needs, offering templates and brand
+  customization rather than a generic tool.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 内容创作
+- 设计
+industries_en:
+- Content Creation
+- Design
+jobs:
+- 内容创作者
+- 设计师
+jobs_en:
+- Content Creators
+- Designers
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://www.aicpb.com/product/Gamma/webid1D6F37751
 canonical_url: https://aicpb.com/product/Gamma/webid1D6F37751
@@ -22,7 +36,7 @@ summary: a new medium for presenting ideas, powered by ai. create beautiful, eng
   of the formatting and design work.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

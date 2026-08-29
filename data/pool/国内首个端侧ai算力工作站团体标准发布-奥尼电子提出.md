@@ -3,10 +3,11 @@ slug: 国内首个端侧ai算力工作站团体标准发布-奥尼电子提出
 name: 奥尼电子
 builder: ''
 category: ''
-summary_zh: 奥尼电子提出国内首个端侧AI算力工作站团体标准，为端侧AI算力设备的性能、接口和评测提供统一规范，推动行业标准化。
+summary_zh: 奥尼电子发布端侧AI算力工作站团体标准，并推出企业级AI微节点，面向企业提供端边云协同的算力基础设施。具体产品形态、交付流程和客户案例仍待核验。
 inspiration: ''
-summary_en: Aoni Electronics proposed China's first group standard for edge AI computing workstations,
-  providing unified specifications for performance, interfaces, and evaluation, driving industry standardization.
+summary_en: Aoni Electronics released a group standard for edge AI computing workstations and launched
+  enterprise-grade AI micro-nodes, providing edge-cloud collaborative computing infrastructure for enterprises.
+  Specific product forms, delivery processes, and customer cases are yet to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UX3JyRE83UFNY
 summary: 国内首个端侧AI算力工作站团体标准发布 奥尼电子提出 观点网
 first_seen: '2026-08-27T06:48:57Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

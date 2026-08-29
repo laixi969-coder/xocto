@@ -9,3 +9,182 @@
   fact: 'A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental
     derivation, and an MCP server that lets your harness use it as a shared brain. | repository stars:
     97'
+- id: ev-093e19b8b7907fb3
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog
+  title: Lemmalog - GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: pain
+  tier: independent
+  fact: Lemmalog's per-question cost is constant (~2.5K tokens) regardless of history length; full-context
+    grows linearly and overflows. The extraction cost is proportional to new input (you only pay for what
+    you read once), not to queries. For a long-running agent, the cumulative ratio reaches 150x by turn
+    500 — and the agent never runs out of window.
+- id: ev-9808cc232811e076
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/blob/main/README.md
+  title: lemmalog/README.md at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: pain
+  tier: independent
+  fact: The lemmalog skill skills/lemmalog/SKILL.md in this crate is a generic agent skill that makes
+    the engine the task's working memory for any long-running work — investigations, debugging, audits,
+    multi-agent searches — not just one hardcoded workflow.
+- id: ev-652b530c8aef9e48
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/tree/main/skills/lemmalog
+  title: lemmalog/skills/lemmalog at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: pain
+  tier: independent
+  fact: 'A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental
+    derivation, and an MCP server that lets your harness use it as a shared brain. - lemmalog/skills/lemmalog
+    at main · JordyZomer/lemmalog'
+- id: ev-cb0f3746439460f4
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog
+  title: Lemmalog - GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: workaround
+  tier: independent
+  fact: Lemmalog's per-question cost is constant (~2.5K tokens) regardless of history length; full-context
+    grows linearly and overflows. The extraction cost is proportional to new input (you only pay for what
+    you read once), not to queries. For a long-running agent, the cumulative ratio reaches 150x by turn
+    500 — and the agent never runs out of window.
+- id: ev-f48ea4656f751312
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/blob/main/README.md
+  title: lemmalog/README.md at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: workaround
+  tier: independent
+  fact: The lemmalog skill skills/lemmalog/SKILL.md in this crate is a generic agent skill that makes
+    the engine the task's working memory for any long-running work — investigations, debugging, audits,
+    multi-agent searches — not just one hardcoded workflow.
+- id: ev-837c427aec29e152
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/tree/main/skills/lemmalog
+  title: lemmalog/skills/lemmalog at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental
+    derivation, and an MCP server that lets your harness use it as a shared brain. - lemmalog/skills/lemmalog
+    at main · JordyZomer/lemmalog'
+- id: ev-48f11c2982b4f207
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog
+  title: Lemmalog - GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Lemmalog's per-question cost is constant (~2.5K tokens) regardless of history length; full-context
+    grows linearly and overflows. The extraction cost is proportional to new input (you only pay for what
+    you read once), not to queries. For a long-running agent, the cumulative ratio reaches 150x by turn
+    500 — and the agent never runs out of window.
+- id: ev-90599397a295c796
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/blob/main/README.md
+  title: lemmalog/README.md at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: customer_case
+  tier: independent
+  fact: The lemmalog skill skills/lemmalog/SKILL.md in this crate is a generic agent skill that makes
+    the engine the task's working memory for any long-running work — investigations, debugging, audits,
+    multi-agent searches — not just one hardcoded workflow.
+- id: ev-bc09fe31d00b940b
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/tree/main/skills/lemmalog
+  title: lemmalog/skills/lemmalog at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental
+    derivation, and an MCP server that lets your harness use it as a shared brain. - lemmalog/skills/lemmalog
+    at main · JordyZomer/lemmalog'
+- id: ev-e334958dd545d746
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog
+  title: Lemmalog - GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: pricing
+  tier: independent
+  fact: Lemmalog's per-question cost is constant (~2.5K tokens) regardless of history length; full-context
+    grows linearly and overflows. The extraction cost is proportional to new input (you only pay for what
+    you read once), not to queries. For a long-running agent, the cumulative ratio reaches 150x by turn
+    500 — and the agent never runs out of window.
+- id: ev-e1a5d99ed6d8d825
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/blob/main/README.md
+  title: lemmalog/README.md at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: pricing
+  tier: independent
+  fact: The lemmalog skill skills/lemmalog/SKILL.md in this crate is a generic agent skill that makes
+    the engine the task's working memory for any long-running work — investigations, debugging, audits,
+    multi-agent searches — not just one hardcoded workflow.
+- id: ev-69f15940e52e267f
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/tree/main/skills/lemmalog
+  title: lemmalog/skills/lemmalog at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental
+    derivation, and an MCP server that lets your harness use it as a shared brain. - lemmalog/skills/lemmalog
+    at main · JordyZomer/lemmalog'
+- id: ev-57a318cc81874579
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog
+  title: Lemmalog - GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: retention
+  tier: independent
+  fact: Lemmalog's per-question cost is constant (~2.5K tokens) regardless of history length; full-context
+    grows linearly and overflows. The extraction cost is proportional to new input (you only pay for what
+    you read once), not to queries. For a long-running agent, the cumulative ratio reaches 150x by turn
+    500 — and the agent never runs out of window.
+- id: ev-30473e1063bde5d0
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/blob/main/README.md
+  title: lemmalog/README.md at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: retention
+  tier: independent
+  fact: The lemmalog skill skills/lemmalog/SKILL.md in this crate is a generic agent skill that makes
+    the engine the task's working memory for any long-running work — investigations, debugging, audits,
+    multi-agent searches — not just one hardcoded workflow.
+- id: ev-577d376fd0cd9b4f
+  project_slug: lemmalog
+  url: https://github.com/JordyZomer/lemmalog/tree/main/skills/lemmalog
+  title: lemmalog/skills/lemmalog at main · JordyZomer/lemmalog · GitHub
+  published_at: ''
+  collected_at: '2026-08-29T15:46:16Z'
+  source_kind: retention
+  tier: independent
+  fact: 'A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental
+    derivation, and an MCP server that lets your harness use it as a shared brain. - lemmalog/skills/lemmalog
+    at main · JordyZomer/lemmalog'
+- id: ev-f71b4a0af9af9df3
+  project_slug: lemmalog
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91+AI+%E5%B7%A5%E7%A8%8B%E5%B8%88+%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%B7%A5%E7%A8%8B%E5%B8%88
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-08-29T15:47:07Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件开发 AI 工程师 机器学习工程师'

@@ -1,0 +1,80 @@
+- id: req-initial-阿尔特上半年实现营收625亿元-智能体工具斩获商业订单-2026-08-29
+  project_slug: 阿尔特上半年实现营收625亿元-智能体工具斩获商业订单
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决汽车设计行业设计周期长、人工成本高的痛点，旧替代是设计师手动操作CAD，耗时且依赖经验；智能体工具能辅助设计任务，已获商业订单，价值结构成立。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有营收和订单信息，缺乏客户案例、使用数据或行业反馈，共识证据不足。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价模式，买方可能是汽车制造商或设计公司，但付费路径不清晰。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  - gate: truth
+    status: supported
+    reason: 产品贴近设计第一性目标，能确定性交付设计成果，但需人工审核，求真性较好。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  next_validation: 关注阿尔特官方财报或客户案例，以核验智能体工具的具体应用场景和交付效果。
+  market: ''
+  job: 汽车设计师需要完成复杂的设计任务，如概念生成、方案优化、图纸绘制。
+  job_en: Automotive designers need to complete complex design tasks such as concept generation, solution
+    optimization, and drawing creation.
+  pain: 设计周期长、人工成本高，重复性工作多，效率瓶颈明显。
+  pain_en: Long design cycles, high labor costs, and many repetitive tasks create efficiency bottlenecks.
+  current_alternative: 传统上依赖设计师手动操作CAD等软件，耗时且依赖个人经验。
+  current_alternative_en: Traditionally relies on designers manually operating CAD software, which is
+    time-consuming and dependent on individual experience.
+  usage_reason: 智能体工具已获商业订单，表明有实际付费客户，但具体采用规模和效果未披露。
+  usage_reason_en: Agent tools have secured commercial orders, indicating paying customers, but adoption
+    scale and results are undisclosed.
+- id: req-full-阿尔特上半年实现营收625亿元-智能体工具斩获商业订单-2026-08-29
+  project_slug: 阿尔特上半年实现营收625亿元-智能体工具斩获商业订单
+  level: full
+  reviewed_at: '2026-08-29T15:50:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决汽车设计行业设计周期长、人工成本高的痛点，旧替代是设计师手动操作CAD，耗时且依赖经验；智能体工具能辅助设计任务，已获商业订单，价值结构成立。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有营收和订单信息，缺乏客户案例、使用数据或行业反馈，共识证据不足。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价模式，买方可能是汽车制造商或设计公司，但付费路径不清晰。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  - gate: truth
+    status: supported
+    reason: 产品贴近设计第一性目标，能确定性交付设计成果，但需人工审核，求真性较好。
+    evidence_ids:
+    - ev-546afd234ce0246c
+  next_validation: 关注阿尔特官方财报或客户案例，以核验智能体工具的具体应用场景和交付效果。
+  market: ''
+  job: 汽车设计师需要完成复杂的设计任务，如概念生成、方案优化、图纸绘制。
+  job_en: Automotive designers need to complete complex design tasks such as concept generation, solution
+    optimization, and drawing creation.
+  pain: 设计周期长、人工成本高，重复性工作多，效率瓶颈明显。
+  pain_en: Long design cycles, high labor costs, and many repetitive tasks create efficiency bottlenecks.
+  current_alternative: 传统上依赖设计师手动操作CAD等软件，耗时且依赖个人经验。
+  current_alternative_en: Traditionally relies on designers manually operating CAD software, which is
+    time-consuming and dependent on individual experience.
+  usage_reason: 智能体工具已获商业订单，表明有实际付费客户，但具体采用规模和效果未披露。
+  usage_reason_en: Agent tools have secured commercial orders, indicating paying customers, but adoption
+    scale and results are undisclosed.

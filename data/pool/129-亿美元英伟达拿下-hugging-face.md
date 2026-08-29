@@ -3,11 +3,10 @@ slug: 129-亿美元英伟达拿下-hugging-face
 name: NVIDIA
 builder: ''
 category: ''
-summary_zh: 英伟达收购公开模型社区，获得开源AI模型分发平台。开发者上传和下载模型、数据集，平台提供托管、推理和协作工具。交易后平台归属芯片巨头，其独立性和开放性面临考验。
+summary_zh: 英伟达收购 公开模型社区，获得开源 AI 模型分发平台，意图整合硬件、模型与分发层。
 inspiration: ''
-summary_en: NVIDIA acquires public model community, gaining the leading open-source AI model distribution
-  platform. Developers upload and download models and datasets; the platform provides hosting, inference,
-  and collaboration tools. The deal raises questions about platform neutrality under a chip giant.
+summary_en: NVIDIA acquires public model community, gaining the open-source AI model distribution platform,
+  aiming to integrate hardware, models, and distribution.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -56,7 +55,7 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇   \n \n \n 129 亿美元，英�
   \ \n *头图来源：英伟达 \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-27T07:09:02Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

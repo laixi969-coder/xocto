@@ -1,20 +1,45 @@
 ---
 slug: 一年卖出-3-万台后极壳将在-ifa-发布下一代外骨骼
-name: 一年卖出 3 万台后，极壳将在 IFA 发布下一代外骨骼
+name: 极壳（Hypershell）
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: 极壳（Hypershell）推出新一代下肢外骨骼 Halo，面向户外运动、户外作业和银发人群。用户穿戴后，系统通过髋膝四电机协同提供助力，支持复杂地形行走、蹲起、跳跃等动作，并采用端到端算法自适应不同运动状态。交付的是可穿戴设备，提供物理助力，用户仍需自身控制平衡。
+inspiration: 趋势：外骨骼从医疗军用走向消费电子，AI 深度介入助力算法是方向。切入：从户外运动和银发人群切入，线下体验店和租赁模式可降低尝试门槛，但需注意产品重量和成本平衡。
+summary_en: Hypershell launches the next-generation lower-limb exoskeleton Halo, targeting outdoor sports,
+  outdoor work, and elderly users. When worn, the system provides assistance through coordinated hip and
+  knee motors, supporting complex terrain walking, squatting, jumping, and adapts to different motion
+  states via end-to-end algorithms. The deliverable is a wearable device providing physical assistance;
+  users still control balance themselves.
+inspiration_en: 'Trend: Exoskeletons are moving from medical/military to consumer electronics, with AI
+  deeply involved in assistive algorithms. Entry: Start with outdoor sports and elderly users; offline
+  experience stores and rental models can lower trial barriers, but attention must be paid to weight and
+  cost balance.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 户外运动
+- 户外作业
+- 银发人群
+industries_en:
+- Outdoor sports
+- Outdoor work
+- Elderly
+jobs:
+- 户外运动爱好者
+- 户外作业人员
+- 老年人
+jobs_en:
+- Outdoor sports enthusiasts
+- Outdoor workers
+- Elderly
+regions:
+- 北美
+- 欧洲
+- 中国
+regions_en:
+- North America
+- Europe
+- China
 open_source: false
 url: http://www.geekpark.net/news/369478
 canonical_url: https://geekpark.net/news/369478
@@ -50,7 +75,7 @@ summary: "作者 | siqi \n 编辑 | 郑玄 \n   \n 据 Hardwire 了解，消费
   \ \n 「只有把产品体验继续提升 10 倍、100 倍，才有可能让可穿戴外骨骼从小众极客产品，进一步变成『国民级』的消费产品。」"
 first_seen: '2026-08-27T11:57:55Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -61,7 +86,7 @@ sightings:
   kind: news
 ---
 
-# 一年卖出 3 万台后，极壳将在 IFA 发布下一代外骨骼
+# 极壳（Hypershell）
 
 作者 | siqi 
  编辑 | 郑玄 

@@ -1,0 +1,73 @@
+- id: req-initial-ai眼镜为何吃灰雷鸟ceo产品功能非必需-非优质日常眼镜-2026-08-29
+  project_slug: ai眼镜为何吃灰雷鸟ceo产品功能非必需-非优质日常眼镜
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者对便携 AI 辅助的需求，但痛点刚性不足，因为功能非必需，且基础眼镜质量不佳。
+    evidence_ids:
+    - ev-e3ea6a518f53a093
+  - gate: consensus
+    status: insufficient
+    reason: CEO 的公开言论表明产品存在缺陷，但缺乏用户反馈或采用数据。
+    evidence_ids:
+    - ev-e3ea6a518f53a093
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方是消费者，但付费意愿存疑。
+    evidence_ids:
+    - ev-e3ea6a518f53a093
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真正解决用户问题，交付是否确定，缺乏公开验证。
+    evidence_ids:
+    - ev-e3ea6a518f53a093
+  next_validation: 关注雷鸟官方产品页面或用户评测，获取实际使用数据和用户反馈。
+  market: ''
+  job: 消费者希望眼镜既能日常佩戴，又能提供 AI 辅助功能。
+  job_en: Consumers want glasses that can be worn daily and provide AI-assisted features.
+  pain: 现有 AI 眼镜功能非必需，且作为日常眼镜质量不佳，导致用户不愿长期佩戴。
+  pain_en: Existing AI glasses have non-essential features and poor quality as daily glasses, discouraging
+    long-term wear.
+  current_alternative: 用户可能选择普通眼镜或智能手机替代 AI 功能。
+  current_alternative_en: Users may choose regular glasses or smartphones as alternatives for AI features.
+  usage_reason: 尽管存在不足，但 AI 眼镜作为新兴品类仍吸引科技爱好者关注。
+  usage_reason_en: Despite shortcomings, AI glasses as an emerging category still attract tech enthusiasts.
+- id: req-full-ai眼镜为何吃灰雷鸟ceo产品功能非必需-非优质日常眼镜-2026-08-29
+  project_slug: ai眼镜为何吃灰雷鸟ceo产品功能非必需-非优质日常眼镜
+  level: full
+  reviewed_at: '2026-08-29T15:48:29Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决消费者对便携 AI 辅助的需求，但痛点刚性不足，因为功能非必需，且基础眼镜质量不佳。
+    evidence_ids:
+    - ev-e3ea6a518f53a093
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 雷鸟 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 消费者希望眼镜既能日常佩戴，又能提供 AI 辅助功能。
+  job_en: Consumers want glasses that can be worn daily and provide AI-assisted features.
+  pain: 现有 AI 眼镜功能非必需，且作为日常眼镜质量不佳，导致用户不愿长期佩戴。
+  pain_en: Existing AI glasses have non-essential features and poor quality as daily glasses, discouraging
+    long-term wear.
+  current_alternative: 用户可能选择普通眼镜或智能手机替代 AI 功能。
+  current_alternative_en: Users may choose regular glasses or smartphones as alternatives for AI features.
+  usage_reason: 尽管存在不足，但 AI 眼镜作为新兴品类仍吸引科技爱好者关注。
+  usage_reason_en: Despite shortcomings, AI glasses as an emerging category still attract tech enthusiasts.

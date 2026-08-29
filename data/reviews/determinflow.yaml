@@ -35,3 +35,40 @@
   usage_reason: 公开代码仓库有 583 个收藏、87 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 583 stars and 87 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-determinflow-2026-08-29
+  project_slug: determinflow
+  level: full
+  reviewed_at: '2026-08-29T15:48:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把复杂 AI 流程钉成可校验、失败能从断点续跑的服务，中途断了不用从头来”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''
+  job: 把复杂 AI 流程钉成可校验、失败能从断点续跑的服务，中途断了不用从头来
+  job_en: Pins a complex AI workflow into a service you can validate and resume from a breakpoint, so
+    a crash does not mean starting over.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果，痛点强度尚未核验。
+  pain_en: Public materials do not show the cost, frequency, or consequence of leaving this unsolved;
+    pain intensity is not yet verified.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 公开代码仓库有 583 个收藏、87 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 583 stars and 87 forks, showing developer attention; repeat
+    use and payment are not yet verified.

@@ -1,11 +1,12 @@
 ---
 slug: ai新产品成数博会亮点助力教育场景应用发展
-name: AI新产品成数博会亮点，助力教育场景应用发展
+name: AI教育产品
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 在数博会上，AI新产品成为亮点，助力教育场景应用发展，显示AI在教育领域的渗透加速。
 inspiration: ''
-summary_en: ''
+summary_en: At the Big Data Expo, new AI products became highlights, boosting educational applications,
+  indicating accelerated AI penetration in education.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPUXo2dWlKaWU1
 summary: AI新产品成数博会亮点，助力教育场景应用发展 搜狐网
 first_seen: '2026-08-28T06:32:32Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI新产品成数博会亮点，助力教育场景应用发展
+# AI教育产品
 
 AI新产品成数博会亮点，助力教育场景应用发展 搜狐网
 

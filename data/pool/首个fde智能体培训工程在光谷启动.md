@@ -3,11 +3,10 @@ slug: 首个fde智能体培训工程在光谷启动
 name: FDE+智能体培训工程
 builder: ''
 category: ''
-summary_zh: FDE+智能体培训工程是在武汉光谷启动的培训项目，面向希望掌握智能体开发技能的人群，提供系统化培训，具体课程内容和交付形式仍待核验。
+summary_zh: 光谷启动首个FDE+智能体培训工程，旨在破解AI落地难，反映AI人才培养和落地的政策推动。
 inspiration: ''
-summary_en: The FDE+ agent training program is a training initiative launched in Wuhan Optics Valley,
-  targeting individuals who want to master agent development skills, offering systematic training. Specific
-  curriculum and delivery forms remain to be verified.
+summary_en: Optics Valley launched the first FDE+ agent training project, aiming to solve AI implementation
+  difficulties, reflecting policy push for AI talent cultivation and implementation.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNRU9aX3pFbklh
 summary: 首个FDE+智能体培训工程在光谷启动 新浪财经
 first_seen: '2026-08-28T22:51:45Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

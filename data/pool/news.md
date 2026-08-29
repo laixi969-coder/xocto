@@ -1,11 +1,12 @@
 ---
 slug: news
-name: news
+name: Nvidia
 builder: rarisma
 category: ''
-summary_zh: ''
+summary_zh: Nvidia 成立政治行动委员会（PAC），加强在华盛顿的影响力，反映 AI 芯片巨头对政策参与的增加。
 inspiration: ''
-summary_en: ''
+summary_en: Nvidia starts a PAC to build influence in DC, reflecting increased policy engagement by AI
+  chip giant.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-p
 summary: Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force
 first_seen: '2026-08-27T18:34:40Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - newssearch
@@ -100,7 +101,7 @@ sightings:
   kind: news
 ---
 
-# news
+# Nvidia
 
 Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force
 

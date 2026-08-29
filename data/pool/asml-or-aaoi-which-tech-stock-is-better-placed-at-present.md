@@ -1,11 +1,12 @@
 ---
 slug: asml-or-aaoi-which-tech-stock-is-better-placed-at-present
-name: 'ASML or AAOI: Which Tech Stock Is Better-Placed at Present?'
+name: ASML
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: TradingView 文章对比 ASML 与 AAOI 两只科技股，分析其当前市场地位。ASML 是光刻机巨头，AAOI 是光模块供应商，两者均受 AI 算力需求影响。
 inspiration: ''
-summary_en: ''
+summary_en: TradingView article compares ASML and AAOI tech stocks, analyzing their market position. ASML
+  is a lithography giant, AAOI is an optical module supplier, both impacted by AI compute demand.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOVG9FeEhMYlJ4
 summary: 'ASML or AAOI: Which Tech Stock Is Better-Placed at Present? TradingView'
 first_seen: '2026-08-26T16:27:00Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# ASML or AAOI: Which Tech Stock Is Better-Placed at Present?
+# ASML
 
 ASML or AAOI: Which Tech Stock Is Better-Placed at Present? TradingView
 

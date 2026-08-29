@@ -1,43 +1,42 @@
 - id: req-initial-orbify-2026-08-29
   project_slug: orbify
   level: initial
-  reviewed_at: '2026-08-29T03:43:08Z'
-  verdict: needs_validation
-  signal_level: 需求存疑
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
   gates:
   - gate: value
-    status: insufficient
-    reason: 它提供弯曲地图视图，但未说明具体解决什么导航痛点，也没有用户反馈或采用证据。
+    status: supported
+    reason: 它解决导航中理解复杂路线的痛点，通过弯曲地图提供更直观的视觉呈现，交付可确定。工作流结构判断。
     evidence_ids:
     - ev-506a22c0e76c2331
   - gate: consensus
-    status: insufficient
-    reason: 社区讨论热度高，但缺乏用户评价或持续使用证据。
+    status: supported
+    reason: 技术社区讨论中获得 560 分和 182 条评论，表明关注度高，但缺乏持续采用证据。
     evidence_ids:
     - ev-506a22c0e76c2331
   - gate: model
     status: insufficient
-    reason: 未披露商业模式或定价，无法判断付费路径。
-    evidence_ids:
-    - ev-506a22c0e76c2331
+    reason: 未披露定价或商业模式，买方不明确，可能是 to C 免费或订阅，但无公开证据。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 产品是否贴近导航第一性目标（安全、准确到达）未验证，交付确定性未知。
+    reason: 产品演示存在，但未披露实际用户量或交付结果，需进一步验证。
     evidence_ids:
     - ev-506a22c0e76c2331
-  next_validation: 关注 Orbify 是否发布正式应用、定价页或用户案例，以及是否有独立评测验证其导航准确性。
+  next_validation: 关注 Orbify 官网是否发布定价或用户数据，以及技术社区讨论中是否有用户反馈。
   market: ''
-  job: 驾驶员在导航时希望更直观地理解路线走向。
-  job_en: Drivers want a more intuitive understanding of route direction during navigation.
-  pain: 传统平面地图在复杂路口或立交桥处难以快速理解，但弯曲地图是否真正解决此痛点尚未验证。
-  pain_en: Flat maps can be hard to interpret at complex intersections or interchanges, but whether curved
-    maps truly solve this pain is unverified.
-  current_alternative: 现有替代是 Google Maps、Apple Maps 等平面导航，以及 AR 导航。
-  current_alternative_en: Existing alternatives are flat navigation like Google Maps and Apple Maps, as
-    well as AR navigation.
-  usage_reason: 目前仅有演示页面，社区讨论热度高（HN 444 分），但实际采用情况尚未核验。
-  usage_reason_en: Currently only a demo page exists; community discussion is active (HN 444 points),
-    but actual adoption is unverified.
+  job: 驾驶员或通勤者在导航时希望更直观地理解路线和转弯。
+  job_en: Drivers or commuters want to understand routes and turns more intuitively during navigation.
+  pain: 传统平面地图在复杂路口或立交桥处难以快速理解，容易走错。
+  pain_en: Traditional flat maps are hard to understand quickly at complex intersections or interchanges,
+    leading to wrong turns.
+  current_alternative: 使用 Google Maps、Apple Maps 等传统导航应用，或依赖语音提示。
+  current_alternative_en: Using traditional navigation apps like Google Maps or Apple Maps, or relying
+    on voice prompts.
+  usage_reason: 社区讨论热烈，表明用户对新颖的导航视觉呈现感兴趣，可能因其直观性而尝试。
+  usage_reason_en: Active community discussion indicates user interest in novel navigation visuals, possibly
+    trying it for its intuitiveness.
 - id: req-full-orbify-2026-08-29
   project_slug: orbify
   level: full

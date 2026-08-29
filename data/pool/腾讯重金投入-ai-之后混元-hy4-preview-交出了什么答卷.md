@@ -1,21 +1,45 @@
 ---
 slug: 腾讯重金投入-ai-之后混元-hy4-preview-交出了什么答卷
-name: 腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷
+name: 腾讯混元
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: 腾讯混元Hy4 preview是新一代大模型，面向软件工程、办公分析、游戏开发和科学研究等长任务场景。用户将需求、代码或文档交给它，它执行理解、拆解、调用工具、验证结果并迭代修复，最终交付可运行的代码、审核报告或游戏文件，但关键步骤仍需人工复核。
+inspiration: 趋势是AI从生成内容转向长链任务执行，能自主测试和修复。切入点是垂直场景如费用审核、代码调试，按结果收费。避免与通用模型正面竞争，应聚焦具体工作流。
+summary_en: Tencent Hunyuan Hy4 preview is a new-generation large model targeting long-horizon tasks in
+  software engineering, office analysis, game development, and scientific research. Users provide requirements,
+  code, or documents; it executes understanding, decomposition, tool invocation, result verification,
+  and iterative fixes, delivering runnable code, audit reports, or game files, but key steps still require
+  human review.
+inspiration_en: The trend is AI moving from content generation to long-chain task execution with self-testing
+  and fixing. The entry point is vertical scenarios like expense auditing and code debugging, charging
+  by outcome. Avoid head-on competition with general models; focus on specific workflows.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: ai_transformation
+industries:
+- 软件工程
+- 办公
+- 游戏开发
+- 科学研究
+industries_en:
+- Software Engineering
+- Office
+- Game Development
+- Scientific Research
+jobs:
+- 软件工程师
+- 办公人员
+- 游戏开发者
+- 科研人员
+jobs_en:
+- Software Engineer
+- Office Worker
+- Game Developer
+- Researcher
+regions:
+- 中国
+regions_en:
+- China
+open_source: true
 url: http://www.geekpark.net/news/369550
 canonical_url: https://geekpark.net/news/369550
 summary: "8 月 28 日，腾讯发布并开源混元 Hy4 preview。 \n 这是继 Hy3 正式版之后，腾讯推出的新一代大模型：总参数从 295B 增加到 770B，激活参数从 21B 增加到\
@@ -74,7 +98,7 @@ summary: "8 月 28 日，腾讯发布并开源混元 Hy4 preview。 \n 这是继
   \ - 不依赖付费素材，资源应可本地运行； - 最终输出可运行项目，并说明启动方式和已完成的功能。"
 first_seen: '2026-08-29T05:58:53Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -85,7 +109,7 @@ sightings:
   kind: news
 ---
 
-# 腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷
+# 腾讯混元
 
 8 月 28 日，腾讯发布并开源混元 Hy4 preview。 
  这是继 Hy3 正式版之后，腾讯推出的新一代大模型：总参数从 295B 增加到 770B，激活参数从 21B 增加到 49B，上下文长度也从 256K 扩展至 1M。模型已经同步进入 WorkBuddy、CodeBuddy、元宝和 ima，并可通过腾讯云 TokenHub 及 OpenRouter 调用。 

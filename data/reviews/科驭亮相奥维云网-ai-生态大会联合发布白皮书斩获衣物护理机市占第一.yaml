@@ -1,0 +1,79 @@
+- id: req-initial-科驭亮相奥维云网-ai-生态大会联合发布白皮书斩获衣物护理机市占第一-2026-08-29
+  project_slug: 科驭亮相奥维云网-ai-生态大会联合发布白皮书斩获衣物护理机市占第一
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭衣物护理的便利性和成本问题，AI自动识别材质并执行护理，交付明确，价值结构成立。
+    evidence_ids:
+    - ev-47644460b343c39e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及市占第一的宣称，缺乏用户评价、复购率或第三方验证数据。
+    evidence_ids:
+    - ev-47644460b343c39e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是家庭用户，但具体付费路径不明确。
+    evidence_ids:
+    - ev-47644460b343c39e
+  - gate: truth
+    status: insufficient
+    reason: AI识别和护理效果缺乏公开实测或用户反馈，需更多验证。
+    evidence_ids:
+    - ev-47644460b343c39e
+  next_validation: 关注科驭官方产品页面或用户评价，以验证AI护理的实际效果和用户付费意愿。
+  market: ''
+  job: 家庭用户需要便捷、高效的衣物护理，减少干洗店依赖。
+  job_en: Household users need convenient, efficient clothing care to reduce reliance on dry cleaners.
+  pain: 传统干洗费时费力，且部分材质护理不当易损坏。
+  pain_en: Traditional dry cleaning is time-consuming and labor-intensive, and improper care can damage
+    certain fabrics.
+  current_alternative: 目前主要依赖干洗店或手动熨烫，成本高且效果不稳定。
+  current_alternative_en: Currently relies on dry cleaners or manual ironing, which is costly and inconsistent.
+  usage_reason: AI衣物护理机提供便捷的居家护理方案，节省时间和成本，市占第一的宣称增强了关注度。
+  usage_reason_en: AI clothing care machines offer convenient home care solutions, saving time and cost,
+    and the claim of top market share boosts attention.
+- id: req-full-科驭亮相奥维云网-ai-生态大会联合发布白皮书斩获衣物护理机市占第一-2026-08-29
+  project_slug: 科驭亮相奥维云网-ai-生态大会联合发布白皮书斩获衣物护理机市占第一
+  level: full
+  reviewed_at: '2026-08-29T15:50:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭衣物护理的便利性和成本问题，AI自动识别材质并执行护理，交付明确，价值结构成立。
+    evidence_ids:
+    - ev-47644460b343c39e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及市占第一的宣称，缺乏用户评价、复购率或第三方验证数据。
+    evidence_ids:
+    - ev-47644460b343c39e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是家庭用户，但具体付费路径不明确。
+    evidence_ids:
+    - ev-47644460b343c39e
+  - gate: truth
+    status: insufficient
+    reason: AI识别和护理效果缺乏公开实测或用户反馈，需更多验证。
+    evidence_ids:
+    - ev-47644460b343c39e
+  next_validation: 关注科驭官方产品页面或用户评价，以验证AI护理的实际效果和用户付费意愿。
+  market: ''
+  job: 家庭用户需要便捷、高效的衣物护理，减少对干洗店的依赖，在家完成除皱、除味等护理。
+  job_en: Household users need convenient, efficient clothing care to reduce reliance on dry cleaners
+    and handle wrinkle removal, odor elimination, etc., at home.
+  pain: 传统干洗费时费力、成本高，且部分材质护理不当易损坏；手动熨烫效果不稳定。
+  pain_en: Traditional dry cleaning is time-consuming, labor-intensive, and costly, and improper care
+    can damage certain fabrics; manual ironing is inconsistent.
+  current_alternative: 目前主要依赖干洗店或手动熨烫，成本高且效果不稳定。
+  current_alternative_en: Currently relies on dry cleaners or manual ironing, which is costly and inconsistent.
+  usage_reason: AI衣物护理机提供便捷的居家护理方案，节省时间和成本，市占第一的宣称增强了关注度。
+  usage_reason_en: AI clothing care machines offer convenient home care solutions, saving time and cost,
+    and the claim of top market share boosts attention.

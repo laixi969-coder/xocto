@@ -3,10 +3,10 @@ slug: jd-power-studies-ai-use-trends-in-auto-home-insurance-claims
 name: JD Power
 builder: ''
 category: ''
-summary_zh: JD Power 的研究分析了 AI 在车险和家财险理赔申请及购物中的使用趋势，为保险行业提供市场洞察。它不是产品，而是行业研究。
+summary_zh: JD Power 研究显示，汽车和家庭保险消费者在理赔和购物过程中逐渐接受 AI 工具。该研究揭示了消费者对 AI 的接受度变化，但未指明具体产品。
 inspiration: ''
-summary_en: JD Power's study analyzes AI usage trends in auto and home insurance claims filing and shopping,
-  providing market insights for the insurance industry. It is not a product but industry research.
+summary_en: JD Power research shows auto and home insurance consumers are increasingly accepting AI tools
+  in claims and shopping. The study reveals changing consumer acceptance but does not specify a product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxPTzIzeDdLMXp0
 summary: JD Power studies AI use trends in auto, home insurance claims filing and shopping repairerdrivennews.com
 first_seen: '2026-08-28T10:00:47Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

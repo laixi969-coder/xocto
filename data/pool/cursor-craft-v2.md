@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/cursor-craft
 summary: Custom Mac cursors, rebuilt for v2
 first_seen: '2026-08-22T22:04:25Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

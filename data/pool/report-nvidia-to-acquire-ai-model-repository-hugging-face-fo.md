@@ -1,11 +1,12 @@
 ---
 slug: report-nvidia-to-acquire-ai-model-repository-hugging-face-fo
-name: 'Report: Nvidia to acquire AI model repository Hugging Face for $13 billion'
+name: Nvidia
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Nvidia 是 AI 芯片和计算平台供应商，据报道拟收购 AI 模型库 公开模型社区，以加强开源模型基础设施。
 inspiration: ''
-summary_en: ''
+summary_en: Nvidia is a supplier of AI chips and computing platforms; reportedly plans to acquire AI model
+  repository public model community to strengthen open model infrastructure.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-mo
 summary: Nvidia is nabbing critical infrastructure for open models as interest grows.
 first_seen: '2026-08-27T19:55:22Z'
 last_seen: '2026-08-29T15:06:33Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Report: Nvidia to acquire AI model repository Hugging Face for $13 billion
+# Nvidia
 
 Nvidia is nabbing critical infrastructure for open models as interest grows.
 

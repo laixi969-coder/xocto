@@ -3,22 +3,23 @@ slug: orbify
 name: Orbify
 builder: smoser
 category: AI + 生活
-summary_zh: Orbify 提供一种类似《盗梦空间》风格的弯曲地图，用于逐向导航。驾驶员在导航时看到的是弯曲变形的路线视图，而非传统平面地图。具体如何生成、是否支持实时交通或语音提示等细节仍待核验。
-inspiration: 趋势是导航界面从平面转向沉浸式三维呈现，但仅改变视觉风格不足以构成壁垒。切入可从特定场景如景区导览、停车场寻车或室内导航入手，结合 AR 或实时数据，而非与主流地图正面竞争。
-summary_en: Orbify offers an Inception-style curved map for turn-by-turn directions, presenting drivers
-  with a distorted, immersive route view instead of a flat map. Details on generation, real-time traffic,
-  or voice guidance remain unverified.
-inspiration_en: The trend is navigation interfaces moving from flat to immersive 3D, but visual style
-  alone is not a moat. Enter via specific scenarios like scenic guides, parking lot wayfinding, or indoor
-  navigation, combined with AR or real-time data, rather than head-on competition with mainstream maps.
+summary_zh: Orbify 是一款面向驾驶员和通勤者的导航应用，采用弯曲地图界面呈现逐向导航。用户输入目的地后，AI 生成类似《盗梦空间》的弯曲路线视图，帮助用户更直观地理解转弯和方向。具体流程和交付细节仍待核验。
+inspiration: 趋势是导航从平面地图转向沉浸式、空间化的视觉呈现。切入点可考虑为特定场景（如复杂立交、步行导航）提供增强现实或弯曲地图视图，或与车载系统集成。
+summary_en: Orbify is a navigation app for drivers and commuters, featuring a curved map interface for
+  turn-by-turn directions. After users input a destination, AI generates an Inception-style curved route
+  view to help users intuitively understand turns and directions. Specific workflow and deliverables are
+  yet to be verified.
+inspiration_en: The trend is navigation moving from flat maps to immersive, spatial visual presentations.
+  Entry points could be providing AR or curved map views for specific scenarios like complex interchanges
+  or pedestrian navigation, or integrating with in-car systems.
 priority_review: false
 project_type: new_application
 industries:
 - 出行
-- 导航
+- 地图导航
 industries_en:
-- Travel
-- Navigation
+- Mobility
+- Mapping and Navigation
 jobs:
 - 驾驶员
 - 通勤者
@@ -33,7 +34,7 @@ canonical_url: https://orbify.eu/demo
 summary: Inception-style curved map for turn-by-turn directions
 first_seen: '2026-08-28T12:29:05Z'
 last_seen: '2026-08-29T15:06:03Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

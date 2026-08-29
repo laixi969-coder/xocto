@@ -1,40 +1,40 @@
 - id: req-initial-consumer-focused-ai-assistant-startup-instinct-reportedly-ra-2026-08-29
   project_slug: consumer-focused-ai-assistant-startup-instinct-reportedly-ra
   level: initial
-  reviewed_at: '2026-08-29T03:43:33Z'
+  reviewed_at: '2026-08-29T15:06:37Z'
   verdict: needs_validation
   signal_level: 需求存疑
   gates:
   - gate: value
     status: insufficient
-    reason: 仅报道融资，未披露产品功能、目标用户或工作流程，无法判断需求。
+    reason: 报道仅提及融资，未说明产品功能、用户任务或痛点，无法判断需求。
     evidence_ids:
     - ev-714814a5d69e3391
   - gate: consensus
     status: insufficient
-    reason: 未进入：价值不成立
-    evidence_ids: []
+    reason: 仅有融资新闻，无用户或市场反馈。
+    evidence_ids:
+    - ev-714814a5d69e3391
   - gate: model
     status: insufficient
-    reason: 未进入：价值不成立
+    reason: 未披露商业模式或定价。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值不成立
+    reason: 产品未公开，无法验证交付能力。
     evidence_ids: []
-  next_validation: 关注 Instinct 的官方网站或产品发布，获取功能、定价和用户反馈。
+  next_validation: 关注Instinct官方发布或产品上线，获取功能、定价和用户反馈。
   market: ''
-  job: 消费者需要一个智能助手来处理日常任务，如日程管理、信息查询等。
-  job_en: Consumers need an intelligent assistant to handle daily tasks like scheduling, information lookup,
-    etc.
-  pain: 现有助手往往不够个性化或不够智能，无法满足复杂需求。
-  pain_en: Existing assistants are often not personalized or intelligent enough to handle complex needs.
-  current_alternative: 目前消费者可能使用 Siri、Google Assistant 等通用助手，但体验有限。
-  current_alternative_en: Consumers currently use general assistants like Siri or Google Assistant, but
-    with limited experience.
-  usage_reason: 融资消息引发关注，但产品尚未公开，采用原因无法核验。
-  usage_reason_en: Funding news attracts attention, but the product is not public, so usage reasons cannot
-    be verified.
+  job: 用户希望AI助手帮助完成日常任务，但具体任务未明确。
+  job_en: Users want AI assistants to help with daily tasks, but specific tasks are unclear.
+  pain: 现有助手可能不够个性化或不够主动，但痛点未具体化。
+  pain_en: Existing assistants may lack personalization or proactivity, but pain points are not specified.
+  current_alternative: 用户可能使用ChatGPT、Gemini等通用助手，但替代行为未披露。
+  current_alternative_en: Users may use general assistants like ChatGPT, Gemini, but alternative behaviors
+    are not disclosed.
+  usage_reason: 融资消息引发关注，但无用户采用或付费证据。
+  usage_reason_en: Funding news has attracted attention, but there is no evidence of user adoption or
+    payment.
 - id: req-full-consumer-focused-ai-assistant-startup-instinct-reportedly-ra-2026-08-29
   project_slug: consumer-focused-ai-assistant-startup-instinct-reportedly-ra
   level: full

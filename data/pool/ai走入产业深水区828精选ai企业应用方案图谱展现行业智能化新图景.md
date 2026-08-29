@@ -1,11 +1,12 @@
 ---
 slug: ai走入产业深水区828精选ai企业应用方案图谱展现行业智能化新图景
-name: AI走入产业深水区，828精选AI企业应用方案图谱展现行业智能化新图景
+name: 828精选AI企业应用方案
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 828精选AI企业应用方案图谱发布，展现行业智能化新图景，AI深入产业应用。
 inspiration: ''
-summary_en: ''
+summary_en: The 828 Selected AI Enterprise Application Solutions map is released, showing a new picture
+  of industry intelligence, with AI deeply penetrating industrial applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE93aXZhZXBUdnlB
 summary: AI走入产业深水区，828精选AI企业应用方案图谱展现行业智能化新图景 搜狐网
 first_seen: '2026-08-29T14:15:49Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI走入产业深水区，828精选AI企业应用方案图谱展现行业智能化新图景
+# 828精选AI企业应用方案
 
 AI走入产业深水区，828精选AI企业应用方案图谱展现行业智能化新图景 搜狐网
 

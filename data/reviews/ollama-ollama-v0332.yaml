@@ -1,0 +1,80 @@
+- id: req-initial-ollama-ollama-v0332-2026-08-29
+  project_slug: ollama-ollama-v0332
+  level: initial
+  reviewed_at: '2026-08-29T15:06:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者本地运行模型的需求，痛点包括云端API延迟、成本和隐私。工作流结构判断：开发者需要本地推理，Ollama提供一键部署和API，交付确定。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  - gate: consensus
+    status: supported
+    reason: 开源社区活跃，代码仓库上有大量star和讨论，更新频繁，说明开发者认可其价值。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  - gate: model
+    status: insufficient
+    reason: Ollama本身免费开源，商业模式可能通过企业支持或云服务，但公开材料未披露。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者本地部署的第一性目标，交付确定性高，安全边界清晰。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  next_validation: 关注Ollama的官方文档和社区讨论，看是否有企业版或商业支持计划，以及用户付费意愿。
+  market: ''
+  job: 开发者在本地运行和管理大语言模型，用于开发、测试或隐私敏感场景。
+  job_en: Developers run and manage large language models locally for development, testing, or privacy-sensitive
+    scenarios.
+  pain: 云端API有延迟、成本高、数据隐私风险，且依赖网络。
+  pain_en: Cloud APIs have latency, high cost, data privacy risks, and network dependency.
+  current_alternative: 使用云端API如OpenAI，或手动配置Python环境运行模型。
+  current_alternative_en: Using cloud APIs like OpenAI, or manually configuring Python environments to
+    run models.
+  usage_reason: Ollama简化了本地模型部署，提供统一命令行和API，社区活跃，更新频繁。
+  usage_reason_en: Ollama simplifies local model deployment with unified CLI and API, active community,
+    and frequent updates.
+- id: req-full-ollama-ollama-v0332-2026-08-29
+  project_slug: ollama-ollama-v0332
+  level: full
+  reviewed_at: '2026-08-29T15:49:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者本地运行模型的需求，痛点包括云端API延迟、成本和隐私。工作流结构判断：开发者需要本地推理，Ollama提供一键部署和API，交付确定。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  - gate: consensus
+    status: supported
+    reason: 开源社区活跃，代码仓库上有大量star和讨论，更新频繁，说明开发者认可其价值。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  - gate: model
+    status: insufficient
+    reason: Ollama本身免费开源，商业模式可能通过企业支持或云服务，但公开材料未披露。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者本地部署的第一性目标，交付确定性高，安全边界清晰。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+  next_validation: 关注Ollama的官方文档和社区讨论，看是否有企业版或商业支持计划，以及用户付费意愿。
+  market: ''
+  job: 开发者在本地运行和管理大语言模型，用于开发、测试或隐私敏感场景。
+  job_en: Developers run and manage large language models locally for development, testing, or privacy-sensitive
+    scenarios.
+  pain: 云端API有延迟、成本高、数据隐私风险，且依赖网络。
+  pain_en: Cloud APIs have latency, high cost, data privacy risks, and network dependency.
+  current_alternative: 使用云端API如OpenAI，或手动配置Python环境运行模型。
+  current_alternative_en: Using cloud APIs like OpenAI, or manually configuring Python environments to
+    run models.
+  usage_reason: Ollama简化了本地模型部署，提供统一命令行和API，社区活跃，更新频繁。
+  usage_reason_en: Ollama simplifies local model deployment with unified CLI and API, active community,
+    and frequent updates.

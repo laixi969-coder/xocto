@@ -1,6 +1,6 @@
 ---
 slug: 通问智脑市民通两大ai平台正式发布农夫铺子构建数实融合新生态
-name: 通问智脑、市民通两大AI平台正式发布——农夫铺子构建数实融合新生态
+name: 农夫铺子
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBpckRCUUc3NFdh
 summary: 通问智脑、市民通两大AI平台正式发布——农夫铺子构建数实融合新生态 新浪网
 first_seen: '2026-08-28T23:22:37Z'
 last_seen: '2026-08-29T15:06:37Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 通问智脑、市民通两大AI平台正式发布——农夫铺子构建数实融合新生态
+# 农夫铺子
 
 通问智脑、市民通两大AI平台正式发布——农夫铺子构建数实融合新生态 新浪网
 

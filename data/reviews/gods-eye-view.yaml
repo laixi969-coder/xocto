@@ -1,0 +1,71 @@
+- id: req-initial-gods-eye-view-2026-08-29
+  project_slug: gods-eye-view
+  level: initial
+  reviewed_at: '2026-08-29T15:06:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它提供卫星视角模拟，但用户任务和痛点不明确，价值主张模糊。
+    evidence_ids:
+    - ev-19cec57674fbcbf6
+  - gate: consensus
+    status: insufficient
+    reason: 无公开讨论或采用数据。
+    evidence_ids:
+    - ev-19cec57674fbcbf6
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids:
+    - ev-19cec57674fbcbf6
+  - gate: truth
+    status: insufficient
+    reason: 未验证数据真实性和用户体验。
+    evidence_ids:
+    - ev-19cec57674fbcbf6
+  next_validation: 关注产品页面更新，寻找用户评价或演示视频。
+  market: ''
+  job: 用户希望以卫星视角观察地球，但具体任务和痛点未明。
+  job_en: Users want to observe Earth from satellite view, but specific tasks and pain points unclear.
+  pain: 未知，可能缺乏真实卫星数据的访问途径。
+  pain_en: Unknown, possibly lack of access to real satellite data.
+  current_alternative: 可能使用 Google Earth 等现有工具。
+  current_alternative_en: May use existing tools like Google Earth.
+  usage_reason: 新颖概念可能吸引关注，但实际采用未核验。
+  usage_reason_en: Novel concept may attract attention, but actual adoption not verified.
+- id: req-full-gods-eye-view-2026-08-29
+  project_slug: gods-eye-view
+  level: full
+  reviewed_at: '2026-08-29T15:49:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它提供卫星视角模拟，但用户任务和痛点不明确，价值主张模糊。
+    evidence_ids:
+    - ev-19cec57674fbcbf6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品页面更新，寻找用户评价或演示视频。
+  market: ''
+  job: 用户希望以卫星视角观察地球，但具体任务和痛点未明。
+  job_en: Users want to observe Earth from satellite view, but specific tasks and pain points unclear.
+  pain: 未知，可能缺乏真实卫星数据的访问途径。
+  pain_en: Unknown, possibly lack of access to real satellite data.
+  current_alternative: 可能使用 Google Earth 等现有工具。
+  current_alternative_en: May use existing tools like Google Earth.
+  usage_reason: 新颖概念可能吸引关注，但实际采用未核验。
+  usage_reason_en: Novel concept may attract attention, but actual adoption not verified.

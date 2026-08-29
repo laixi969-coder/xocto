@@ -1,0 +1,82 @@
+- id: req-initial-仁济泌尿智能体服务80万人次65来自三线及以下城市-2026-08-29
+  project_slug: 仁济泌尿智能体服务80万人次65来自三线及以下城市
+  level: initial
+  reviewed_at: '2026-08-29T15:06:37Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决基层患者获取泌尿专科咨询难的问题，痛点刚性，交付为初步分诊和健康建议，虽需医生确认但结构成立。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: consensus
+    status: supported
+    reason: 80万人次服务量显示患者已广泛使用，65%来自基层城市，说明场景被认可，但缺乏持续使用或复购数据。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露收费模式，可能由医院采购或医保支付，但付费方和定价未明确，需进一步核验。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: truth
+    status: supported
+    reason: 产品贴近医疗第一性目标，交付确定性高，但需确保医疗安全边界，人工确认环节明确。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  next_validation: 关注仁济医院官方公告或后续报道，确认智能体的收费模式、患者满意度及复诊率等数据。
+  market: ''
+  job: 患者需要获得泌尿科相关的初步医疗咨询和分诊，尤其是在医疗资源不足的地区。
+  job_en: Patients need initial urology consultation and triage, especially in areas with scarce medical
+    resources.
+  pain: 基层医疗资源不足，患者难以获得专科医生及时指导，常需长途奔波或延误治疗。
+  pain_en: Primary care lacks specialist resources, making timely specialist guidance difficult, often
+    requiring long travel or delayed treatment.
+  current_alternative: 患者通常直接去医院挂号，或使用通用搜索引擎查询症状，但信息不专业且无法个性化。
+  current_alternative_en: Patients typically visit hospitals directly or use general search engines for
+    symptoms, which lack professional and personalized guidance.
+  usage_reason: 服务已累计80万人次，且65%来自三线及以下城市，表明基层患者有实际使用意愿，可能因便捷性和专业性而采用。
+  usage_reason_en: The service has handled 800,000 visits with 65% from lower-tier cities, indicating
+    real adoption intent among primary patients, likely due to convenience and professional guidance.
+- id: req-full-仁济泌尿智能体服务80万人次65来自三线及以下城市-2026-08-29
+  project_slug: 仁济泌尿智能体服务80万人次65来自三线及以下城市
+  level: full
+  reviewed_at: '2026-08-29T15:50:32Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决基层患者获取泌尿专科咨询难的问题，痛点刚性，交付为初步分诊和健康建议，虽需医生确认但结构成立。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: consensus
+    status: supported
+    reason: 80万人次服务量显示患者已广泛使用，65%来自基层城市，说明场景被认可，但缺乏持续使用或复购数据。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露收费模式，可能由医院采购或医保支付，但付费方和定价未明确，需进一步核验。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: truth
+    status: supported
+    reason: 产品贴近医疗第一性目标，交付确定性高，但需确保医疗安全边界，人工确认环节明确。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  next_validation: 追踪 仁济泌尿智能体 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 患者需要获得泌尿科相关的初步医疗咨询和分诊，尤其是在医疗资源不足的地区。
+  job_en: Patients need initial urology consultation and triage, especially in areas with scarce medical
+    resources.
+  pain: 基层医疗资源不足，患者难以获得专科医生及时指导，常需长途奔波或延误治疗。
+  pain_en: Primary care lacks specialist resources, making timely specialist guidance difficult, often
+    requiring long travel or delayed treatment.
+  current_alternative: 患者通常直接去医院挂号，或使用通用搜索引擎查询症状，但信息不专业且无法个性化。
+  current_alternative_en: Patients typically visit hospitals directly or use general search engines for
+    symptoms, which lack professional and personalized guidance.
+  usage_reason: 服务已累计80万人次，且65%来自三线及以下城市，表明基层患者有实际使用意愿，可能因便捷性和专业性而采用。
+  usage_reason_en: The service has handled 800,000 visits with 65% from lower-tier cities, indicating
+    real adoption intent among primary patients, likely due to convenience and professional guidance.
