@@ -25,6 +25,10 @@
         <span class="field-k">{{ t.home.why_today }}</span>
         <p>{{ p.opportunity_text }}</p>
       </div>
+      <div class="field field-call">
+        <span class="field-k">{{ t.home.opportunity_judgment }}</span>
+        <p><strong>{{ p.opportunity_action }}</strong><span class="decision-sep"> · </span>{{ p.req_signal }}</p>
+      </div>
       {% if p.req_next %}
       <div class="field home-question">
         <span class="field-k">{{ t.home.keep_asking }}</span>
@@ -44,9 +48,20 @@
   <header class="lede-bar home-mast">
     <div class="lede-main">
       <p class="eyebrow">{{ event_day }} · {{ t.home.daily_flow }}</p>
-      <h1>{{ t.home.flow_title }}</h1>
+      <h1>{{ daily_report.hook if daily_report and daily_report.hook else t.home.flow_title }}</h1>
       <p class="daily-contract">{{ t.home.daily_contract }}</p>
+      {% if daily_report %}
+      <a class="daily-cta" href="{{ root }}r/{{ daily_report.day }}.html">{{ t.home.latest_report_cta }} →</a>
+      {% endif %}
     </div>
+    {% if daily_report and daily_report.highlights %}
+    <aside class="mast-evidence" aria-label="{{ t.home.fresh_kicker }}">
+      <p class="field-k">{{ t.home.fresh_kicker }}</p>
+      {% for highlight in daily_report.highlights[:3] %}
+      <p><span class="num">0{{ loop.index }}</span>{{ highlight }}</p>
+      {% endfor %}
+    </aside>
+    {% endif %}
   </header>
   {% else %}
   <header class="lede-bar home-mast">
@@ -58,30 +73,11 @@
   </header>
   {% endif %}
 
-  {% if daily_report %}
-  <section class="band daily-edition" id="daily-edition">
-    <div class="sec-head">
-      <div>
-        <p class="section-index">01 · {{ t.home.latest_report }}</p>
-        <h2>{{ daily_report.hook or t.home.report_fallback }}</h2>
-      </div>
-      <a class="note" href="{{ root }}r/{{ daily_report.day }}.html">{{ t.home.latest_report_cta }} →</a>
-    </div>
-    {% if daily_report.highlights %}
-    <div class="edition-highlights">
-      {% for highlight in daily_report.highlights[:3] %}
-      <p><span class="num">0{{ loop.index }}</span>{{ highlight }}</p>
-      {% endfor %}
-    </div>
-    {% endif %}
-  </section>
-  {% endif %}
-
   {% if first_discoveries %}
   <section class="band" id="today-cases">
     <div class="sec-head">
       <div>
-        <p class="section-index">02 · {{ t.home.flow_kicker }}</p>
+        <p class="section-index">01 · {{ t.home.flow_kicker }}</p>
         <h2>{{ t.home.first_discoveries }}</h2>
       </div>
       <span class="note">{{ t.home.first_discoveries_note }}</span>
@@ -92,11 +88,24 @@
   <section class="band" id="today-cases">
     <div class="sec-head">
       <div>
-        <p class="section-index">02 · {{ t.home.flow_kicker }}</p>
+        <p class="section-index">01 · {{ t.home.flow_kicker }}</p>
         <h2>{{ t.home.first_discoveries }}</h2>
       </div>
     </div>
     <p class="noanalysis-sub">{{ t.home.first_discoveries_empty }}</p>
+  </section>
+  {% endif %}
+
+  {% if proven_businesses %}
+  <section class="band" id="proven-businesses">
+    <div class="sec-head">
+      <div>
+        <p class="section-index">02 · {{ t.home.proven_kicker }}</p>
+        <h2>{{ t.home.proven_businesses }}</h2>
+      </div>
+      <span class="note">{{ t.home.proven_businesses_note }}</span>
+    </div>
+    {{ opportunity_stream(proven_businesses[:3]) }}
   </section>
   {% endif %}
 

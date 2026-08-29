@@ -32,6 +32,15 @@ STATUS_LABELS = {
 }
 
 
+def _structured_coverage(store: Store, products: list[object]) -> dict[str, int]:
+    """Count public projects with each decision-support record type."""
+    return {
+        "evidence": sum(bool(store.read_evidence(product.slug)) for product in products),
+        "markets": sum(bool(store.read_market_observations(product.slug)) for product in products),
+        "reviews": sum(bool(store.read_req_reviews(product.slug)) for product in products),
+    }
+
+
 def _parse_day(text: str | None) -> date | None:
     if not text:
         return None
@@ -226,6 +235,12 @@ def cmd_status(args: argparse.Namespace) -> int:
         )
     )
     print(f"  站上产品      {len(public_products)} 个（另有 {incomplete} 个半成品暂不发布）")
+    coverage = _structured_coverage(store, public_products)
+    print(
+        f"  判断链路      初判 {coverage['reviews']}/{len(public_products)} · "
+        f"证据 {coverage['evidence']}/{len(public_products)} · "
+        f"市场 {coverage['markets']}/{len(public_products)}"
+    )
 
     reports = sorted(store.reports_dir.glob("*.md"))
     print(f"  已出简报      {len(reports)} 份" + (f"（最新 {reports[-1].stem}）" if reports else ""))

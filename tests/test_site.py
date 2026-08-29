@@ -38,7 +38,9 @@ from xocto.site import (
     _is_publishable,
     _latest_req_review,
     _metric_badges,
+    _neutralize_public_source_names,
     _opportunity_action,
+    _proven_business_selection,
     _remove_stale_pages,
     _req_decision_reason,
     _research_view,
@@ -66,12 +68,27 @@ def product(*, status: str = "watching", summary_zh: str = "中文说明", inspi
 
 
 class PublishabilityTests(unittest.TestCase):
+    def test_public_evidence_copy_removes_collection_channel_names(self) -> None:
+        headline = "Visa patches production code before review VentureBeat"
+        self.assertEqual(
+            _neutralize_public_source_names(headline, EN),
+            "Visa patches production code before review",
+        )
+        self.assertEqual(
+            _neutralize_public_source_names("VentureBeat 报道了新产品", ZH),
+            "公开资料 报道了新产品",
+        )
+
     def test_html_is_never_served_stale_after_a_deployment(self) -> None:
         config = json.loads((Path(__file__).parents[1] / "vercel.json").read_text(encoding="utf-8"))
         rules = {rule["source"]: rule["headers"] for rule in config["headers"]}
         for source in ("/", "/(.*).html"):
             cache = next(header["value"] for header in rules[source] if header["key"] == "Cache-Control")
             self.assertEqual(cache, "no-store, max-age=0")
+
+    def test_pages_declare_the_existing_brand_mark_as_favicon(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "base.html").read_text(encoding="utf-8")
+        self.assertIn('rel="icon" type="image/png" href="{{ root }}logo/mark-on-light.png"', template)
 
     def test_reader_facing_copy_does_not_use_pending_validation(self) -> None:
         for locale in (ZH, EN):
@@ -151,9 +168,10 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("t.home.daily_flow", template)
         self.assertIn("market_summary", template)
         self.assertIn("t.home.past_reports", template)
-        self.assertNotIn("proven_businesses", template)
+        self.assertIn("proven_businesses", template)
         self.assertLess(template.index("daily_report"), template.index("first_discoveries"))
-        self.assertLess(template.index("first_discoveries"), template.index("important_updates"))
+        self.assertLess(template.index("first_discoveries"), template.index("proven_businesses"))
+        self.assertLess(template.index("proven_businesses"), template.index("important_updates"))
         self.assertLess(template.index("important_updates"), template.index("market_summary"))
         self.assertLess(template.index("market_summary"), template.index("t.home.past_reports"))
         self.assertNotIn("fresh_picks", template)
@@ -219,6 +237,18 @@ class PublishabilityTests(unittest.TestCase):
         selected = _daily_event_selection(items, limit=2)
 
         self.assertEqual({item["category_key"] for item in selected}, {"AI + 开发", "AI + 商业"})
+
+    def test_proven_businesses_prefer_scaled_and_category_variety(self) -> None:
+        items = [
+            {"name": "Settled", "category_key": "通用助手", "form_key": "settled", "usage_value": 100_000_000},
+            {"name": "Work A", "category_key": "AI + 效率", "form_key": "scaled", "usage_value": 8_000_000},
+            {"name": "Work B", "category_key": "AI + 效率", "form_key": "scaled", "usage_value": 7_000_000},
+            {"name": "Creative", "category_key": "AI + 创作", "form_key": "scaled", "usage_value": 5_000_000},
+        ]
+
+        selected = _proven_business_selection(items, limit=2)
+
+        self.assertEqual([item["name"] for item in selected], ["Work A", "Creative"])
 
         products_template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(
             encoding="utf-8"
@@ -328,6 +358,28 @@ class PublishabilityTests(unittest.TestCase):
         self.assertEqual(view["industries"], [])
         self.assertEqual(view["jobs"], [])
         self.assertEqual(view["regions"], [])
+
+    def test_public_tags_merge_obvious_aliases_but_keep_search_synonyms(self) -> None:
+        fragmented = replace(
+            product(),
+            industries=("软件", "软件开发", "电子商务"),
+            industries_en=("Software development", "Software Development", "E-commerce"),
+            jobs=("开发者", "程序员", "AI工程师"),
+            jobs_en=("Developers", "Programmer", "AI Engineers"),
+            regions=("美国",),
+            regions_en=("USA",),
+        )
+
+        chinese = product_view(fragmented, ZH)
+        english = product_view(fragmented, EN)
+
+        self.assertEqual(chinese["industries"], ["软件开发", "电商"])
+        self.assertEqual(chinese["jobs"], ["软件开发者", "AI 工程师"])
+        self.assertIn("程序员", chinese["search_terms"])
+        self.assertEqual(english["industries"], ["Software Development", "E-commerce"])
+        self.assertEqual(english["jobs"], ["Software Developer", "AI Engineer"])
+        self.assertEqual(english["regions"], ["United States"])
+        self.assertIn("USA", english["search_terms"])
 
     def test_live_board_names_have_english_labels(self) -> None:
         self.assertEqual(BOARD_EN["角色扮演榜"], "Roleplay")
@@ -449,7 +501,8 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("p.summary", template)
         self.assertIn("p.opportunity_text", template)
         self.assertIn("p.req_next", template)
-        self.assertNotIn("p.req_signal", template)
+        self.assertIn("p.req_signal", template)
+        self.assertIn("p.opportunity_action", template)
         self.assertNotIn("p.req_reason", template)
         self.assertIn("p.event_day", template)
 
@@ -516,7 +569,7 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual([item["slug"] for item in ctx["first_discoveries"]], ["fresh"])
             self.assertEqual([item["slug"] for item in ctx["important_updates"]], ["example"])
             self.assertIn("proven_businesses", ctx)
-            self.assertEqual(ctx["market_summary"][0]["title"], "今日首次发现涉及的行业")
+            self.assertEqual(ctx["market_summary"][0]["title"], "本期首次发现涉及的行业")
 
             english = build_context(store, EN)
             self.assertNotIn("、", " ".join(item["text"] for item in english["market_summary"]))
@@ -624,13 +677,42 @@ class PublishabilityTests(unittest.TestCase):
         template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(
             encoding="utf-8"
         )
-        for dim in ("projectType", "industry", "job", "region", "openSource", "crossMarket", "req"):
+        for dim in ("projectType", "openSource", "crossMarket", "req"):
             self.assertIn(f'data-dim="{dim}"', template)
+        for dim in ("industry", "job", "region"):
+            self.assertIn(f"('{dim}', opportunity_filters.", template)
         self.assertIn('id="date-from"', template)
         self.assertIn('id="date-to"', template)
         self.assertIn("data-discovered", template)
         self.assertIn("dateFrom", template)
         self.assertIn("dateTo", template)
+        self.assertIn('id="product-search"', template)
+        self.assertIn('class="advanced-controls"', template)
+        self.assertIn('class="facet-select"', template)
+        self.assertIn("active.search", template)
+        self.assertIn("var PAGE_SIZE = 40", template)
+        self.assertIn('id="load-more"', template)
+        self.assertIn("visibleLimit += PAGE_SIZE", template)
+
+    def test_opportunity_library_counts_each_business_form_bucket(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            early = product()
+            settled = replace(
+                product(), slug="settled", name="Settled", category="通用助手",
+                sightings=(Sighting(
+                    "ranking", "https://example.com/settled", "2026-08-13T00:00:00Z",
+                    {"value": 40_000_000, "raw_value": 40_000_000},
+                ),),
+            )
+            store.save_product(early)
+            store.save_product(settled)
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual(ctx["form_counts"]["not_business"], 1)
+            self.assertEqual(ctx["form_counts"]["settled"], 1)
+            self.assertEqual(sum(ctx["form_counts"].values()), 2)
 
     def test_detail_research_view_keeps_market_coverage_and_marks_cross_market_only_from_snapshots(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -709,6 +791,7 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual(len(research["markets"]), 2)
             self.assertTrue(any("已覆盖中文生态" in row["coverage"] for row in research["markets"]))
             self.assertEqual(research["req"]["gates"][0]["name"], "价值")
+            self.assertEqual(research["req"]["gates"][0]["evidence"][0]["url"], "https://example.com")
             self.assertEqual(research["evidence"][0]["title"], "Freight AI")
             self.assertEqual(len(research["evidence"]), 1)
             self.assertNotIn("producthunt", research["evidence"][0]["url"])
@@ -741,7 +824,9 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("product.req.known_fact", template)
         self.assertIn("product.req.inference", template)
         self.assertIn("product.req.unknown", template)
-        self.assertNotIn("product.req.gates", template)
+        self.assertIn("product.req.gates", template)
+        self.assertIn("gate.evidence", template)
+        self.assertIn('class="research-notes evidence-boundary" open', template)
         self.assertNotIn("product.req.business_maturity", template)
         self.assertIn("t.product.markets_title", template)
         self.assertIn("product.cross_market", template)

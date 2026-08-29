@@ -20,6 +20,16 @@
   </header>
 
   <section class="band">
+    <div class="map-toolbar">
+      <label class="map-search" for="product-search">
+        <span class="filter-k">{{ t.products.search_label }}</span>
+        <span class="search-input-wrap">
+          <svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg>
+          <input id="product-search" type="search" autocomplete="off" placeholder="{{ t.products.search_placeholder }}">
+        </span>
+      </label>
+    </div>
+
     <div class="controls">
       <div class="filter-group">
         <span class="filter-k">{{ t.products.f_category }}</span>
@@ -31,63 +41,17 @@
         </div>
       </div>
 
-      {% if opportunity_filters.project_types %}
-      <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_type }}</span>
-        <div class="filters" role="group" aria-label="{{ t.products.f_type_aria }}" data-dim="projectType">
-          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
-          {% for item in opportunity_filters.project_types %}
-          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-
-      {% if opportunity_filters.industries %}
-      <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_industry }}</span>
-        <div class="filters" role="group" aria-label="{{ t.products.f_industry_aria }}" data-dim="industry">
-          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
-          {% for item in opportunity_filters.industries %}
-          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-
-      {% if opportunity_filters.jobs %}
-      <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_job }}</span>
-        <div class="filters" role="group" aria-label="{{ t.products.f_job_aria }}" data-dim="job">
-          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
-          {% for item in opportunity_filters.jobs %}
-          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-
-      {% if opportunity_filters.regions %}
-      <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_region }}</span>
-        <div class="filters" role="group" aria-label="{{ t.products.f_region_aria }}" data-dim="region">
-          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
-          {% for item in opportunity_filters.regions %}
-          <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-
       <div class="filter-group">
         <span class="filter-k">{{ t.products.f_evidence }}</span>
+        <div class="filter-stack">
         <div class="filters" role="group" aria-label="{{ t.products.f_evidence_aria }}" data-dim="openSource">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
           <button aria-pressed="false" data-val="true">{{ t.products.open_source }} <i class="num">{{ opportunity_filters.open_source }}</i></button>
         </div>
-        <div class="filters filter-sub" role="group" aria-label="{{ t.products.f_cross_aria }}" data-dim="crossMarket">
+        <div class="filters" role="group" aria-label="{{ t.products.f_cross_aria }}" data-dim="crossMarket">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
           <button aria-pressed="false" data-val="true">{{ t.products.cross_market }} <i class="num">{{ opportunity_filters.cross_market }}</i></button>
+        </div>
         </div>
       </div>
 
@@ -114,14 +78,6 @@
       </div>
 
       <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_discovered }}</span>
-        <div class="date-range" aria-label="{{ t.products.f_discovered_aria }}">
-          <label>{{ t.products.date_from }} <input id="date-from" type="date"></label>
-          <label>{{ t.products.date_to }} <input id="date-to" type="date"></label>
-        </div>
-      </div>
-
-      <div class="filter-group">
         <span class="filter-k">{{ t.products.f_stage }}</span>
         <div class="filters" role="group" aria-label="{{ t.products.f_stage_aria }}" data-dim="stage">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
@@ -130,14 +86,55 @@
         </div>
       </div>
 
-      <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_status }}</span>
-        <div class="filters" role="group" aria-label="{{ t.products.f_status_aria }}" data-dim="status">
-          <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
-          <button aria-pressed="false" data-val="analyzed">{{ locale.statuses.analyzed }} <i class="num">{{ stats.analysed }}</i></button>
-          <button aria-pressed="false" data-val="watching">{{ locale.statuses.watching }} <i class="num">{{ stats.watching }}</i></button>
+      <details class="advanced-controls">
+        <summary>{{ t.products.advanced_filters }}</summary>
+        <div class="advanced-body">
+          {% if opportunity_filters.project_types %}
+          <div class="filter-group">
+            <span class="filter-k">{{ t.products.f_type }}</span>
+            <div class="filters" role="group" aria-label="{{ t.products.f_type_aria }}" data-dim="projectType">
+              <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+              {% for item in opportunity_filters.project_types %}
+              <button aria-pressed="false" data-val="{{ item.name }}">{{ item.name }} <i class="num">{{ item.count }}</i></button>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
+
+          {% for key, items, label, aria in [
+            ('industry', opportunity_filters.industries, t.products.f_industry, t.products.f_industry_aria),
+            ('job', opportunity_filters.jobs, t.products.f_job, t.products.f_job_aria),
+            ('region', opportunity_filters.regions, t.products.f_region, t.products.f_region_aria)
+          ] %}
+          {% if items %}
+          <label class="filter-group select-group">
+            <span class="filter-k">{{ label }}</span>
+            <select class="facet-select" data-dim="{{ key }}" aria-label="{{ aria }}">
+              <option value="">{{ t.products.all }}</option>
+              {% for item in items %}<option value="{{ item.name }}">{{ item.name }} · {{ item.count }}</option>{% endfor %}
+            </select>
+          </label>
+          {% endif %}
+          {% endfor %}
+
+          <div class="filter-group">
+            <span class="filter-k">{{ t.products.f_discovered }}</span>
+            <div class="date-range" aria-label="{{ t.products.f_discovered_aria }}">
+              <label>{{ t.products.date_from }} <input id="date-from" type="date"></label>
+              <label>{{ t.products.date_to }} <input id="date-to" type="date"></label>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <span class="filter-k">{{ t.products.f_status }}</span>
+            <div class="filters" role="group" aria-label="{{ t.products.f_status_aria }}" data-dim="status">
+              <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
+              <button aria-pressed="false" data-val="analyzed">{{ locale.statuses.analyzed }} <i class="num">{{ stats.analysed }}</i></button>
+              <button aria-pressed="false" data-val="watching">{{ locale.statuses.watching }} <i class="num">{{ stats.watching }}</i></button>
+            </div>
+          </div>
         </div>
-      </div>
+      </details>
 
       <div class="filter-group">
         <span class="filter-k">{{ t.products.f_sort }}</span>
@@ -155,6 +152,7 @@
       {% for p in products %}
       <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
          href="{{ root }}p/{{ p.slug }}.html"
+         data-search="{{ ([p.name, p.summary, p.category, p.project_type] + p.search_terms) | join(' ') | lower }}"
          data-category="{{ p.category }}" data-project-type="{{ p.project_type }}" data-industry="{{ p.industries | join('||') }}" data-job="{{ p.jobs | join('||') }}" data-region="{{ p.regions | join('||') }}" data-open-source="{{ 'true' if p.open_source else '' }}" data-cross-market="{{ 'true' if p.cross_market else '' }}" data-req="{{ p.req.signal if p.req else '' }}" data-discovered="{{ p.discovered_at }}" data-form="{{ p.form_key }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"
          data-opportunity="{{ p.opportunity_rank }}" data-weight="{{ p.weight }}" data-growth="{{ p.growth if p.growth is not none else -99999 }}"
          data-recent="{{ p.last_seen }}" data-name="{{ p.name }}">
@@ -197,6 +195,11 @@
       {% endfor %}
     </div>
 
+    <div class="directory-more" id="directory-more" hidden>
+      <p id="shown-count" aria-live="polite"></p>
+      <button id="load-more" type="button">{{ t.products.show_more }}</button>
+    </div>
+
     <p class="empty" id="empty" hidden>
       {{ t.products.empty }}<br>
       <button class="linkish" id="reset">{{ t.products.reset.format(total=stats.total) }}</button>
@@ -213,8 +216,13 @@
     var count = document.getElementById('count');
     var title = document.getElementById('ctx-title');
     var note = document.getElementById('ctx-note');
-    var active = { category: '', projectType: '', industry: '', job: '', region: '', openSource: '', crossMarket: '', req: '', form: '', stage: '', status: '', dateFrom: '', dateTo: '' };
+    var more = document.getElementById('directory-more');
+    var shownCount = document.getElementById('shown-count');
+    var active = { search: '', category: '', projectType: '', industry: '', job: '', region: '', openSource: '', crossMarket: '', req: '', form: '', stage: '', status: '', dateFrom: '', dateTo: '' };
     var sort = 'opportunity';
+    var PAGE_SIZE = 40;
+    var visibleLimit = PAGE_SIZE;
+    var SHOWING_TEXT = {{ t.products.showing | tojson }};
 
     // 文案从语言表注入。tojson 会把引号和尖括号转义好，
     // 直接插字符串会被 HTML 转义器改成实体，在 JS 里就是一串乱码
@@ -248,6 +256,7 @@
 
     function label() {
       var parts = [];
+      if (active.search) parts.push('“' + active.search + '”');
       if (active.category) parts.push(active.category);
       if (active.projectType) parts.push(active.projectType);
       if (active.industry) parts.push(active.industry);
@@ -261,9 +270,12 @@
     }
 
     function apply() {
-      var shown = 0;
+      var matched = 0;
+      var rendered = 0;
+      var query = active.search.trim().toLocaleLowerCase(SORT_LOCALE);
       cards.forEach(function (card) {
         var ok =
+          (!query || card.dataset.search.toLocaleLowerCase(SORT_LOCALE).indexOf(query) >= 0) &&
           (!active.category || card.dataset.category === active.category) &&
           (!active.projectType || card.dataset.projectType === active.projectType) &&
           (!active.industry || card.dataset.industry.split('||').indexOf(active.industry) >= 0) &&
@@ -277,12 +289,18 @@
           (!active.status || card.dataset.status === active.status) &&
           (!active.dateFrom || card.dataset.discovered >= active.dateFrom) &&
           (!active.dateTo || card.dataset.discovered <= active.dateTo);
-        card.hidden = !ok;
-        if (ok) shown++;
+        if (ok) matched++;
+        var show = ok && rendered < visibleLimit;
+        card.hidden = !show;
+        if (show) rendered++;
       });
 
-      count.textContent = shown;
-      empty.hidden = shown > 0;
+      count.textContent = matched;
+      empty.hidden = matched > 0;
+      more.hidden = matched <= rendered;
+      shownCount.textContent = SHOWING_TEXT
+        .replace('{shown}', rendered)
+        .replace('{total}', matched);
 
       var l = label();
       title.textContent = l || ALL_TITLE;
@@ -313,25 +331,46 @@
 
         if (group.dataset.dim === 'sort') {
           sort = btn.dataset.val;
+          visibleLimit = PAGE_SIZE;
           reorder();
           apply();
           syncHash();   // 排序分支原来漏了这一句，换了排序刷新就掉回默认
         } else {
           active[group.dataset.dim] = btn.dataset.val;
+          visibleLimit = PAGE_SIZE;
           apply();
           syncHash();
         }
       });
     });
 
+    document.querySelectorAll('.facet-select').forEach(function (select) {
+      select.addEventListener('change', function () {
+        active[select.dataset.dim] = select.value;
+        visibleLimit = PAGE_SIZE;
+        apply();
+        syncHash();
+      });
+    });
+
+    document.getElementById('product-search').addEventListener('input', function (event) {
+      active.search = event.target.value.trim();
+      visibleLimit = PAGE_SIZE;
+      apply();
+      syncHash();
+    });
+
     document.getElementById('reset').addEventListener('click', function () {
-      active = { category: '', projectType: '', industry: '', job: '', region: '', openSource: '', crossMarket: '', req: '', form: '', stage: '', status: '', dateFrom: '', dateTo: '' };
+      active = { search: '', category: '', projectType: '', industry: '', job: '', region: '', openSource: '', crossMarket: '', req: '', form: '', stage: '', status: '', dateFrom: '', dateTo: '' };
+      visibleLimit = PAGE_SIZE;
       document.querySelectorAll('.filters').forEach(function (g) {
         if (g.dataset.dim === 'sort') return;
         mark(g, '');
       });
       document.getElementById('date-from').value = '';
       document.getElementById('date-to').value = '';
+      document.getElementById('product-search').value = '';
+      document.querySelectorAll('.facet-select').forEach(function (select) { select.value = ''; });
       apply();
       syncHash();
     });
@@ -341,7 +380,7 @@
     // 全部（3 个变 19 个），把链接发给别人看到的也是另一个结果。
     // 用 replaceState 不用 pushState：筛选是调参不是导航，
     // 每点一次塞一条历史记录的话，想离开这页得连按十几次后退。
-    var DIMS = { c: 'category', t: 'projectType', i: 'industry', j: 'job', r: 'region', x: 'openSource', m: 'crossMarket', q: 'req', f: 'form', s: 'stage', v: 'status', d: 'dateFrom', e: 'dateTo' };
+    var DIMS = { k: 'search', c: 'category', t: 'projectType', i: 'industry', j: 'job', r: 'region', x: 'openSource', m: 'crossMarket', q: 'req', f: 'form', s: 'stage', v: 'status', d: 'dateFrom', e: 'dateTo' };
 
     function syncHash() {
       var parts = [];
@@ -368,13 +407,14 @@
 
     function fromHash() {
       var raw = (location.hash || '').replace('#', '');
-      if (!raw) return;
       var parsed = {};
-      raw.split('&').forEach(function (pair) {
-        var i = pair.indexOf('=');
-        if (i < 0) return;
-        try { parsed[pair.slice(0, i)] = decodeURIComponent(pair.slice(i + 1)); } catch (e) {}
-      });
+      if (raw) {
+        raw.split('&').forEach(function (pair) {
+          var i = pair.indexOf('=');
+          if (i < 0) return;
+          try { parsed[pair.slice(0, i)] = decodeURIComponent(pair.slice(i + 1)); } catch (e) {}
+        });
+      }
 
       // 老格式兼容：以前 hash 里是裸的赛道名，没有 k=v。
       // 别人存过的书签不能一升级就打不开。
@@ -385,9 +425,22 @@
       Object.keys(DIMS).forEach(function (k) {
         var dim = DIMS[k];
         var val = parsed[k] || '';
+        if (dim === 'search') {
+          active.search = val;
+          document.getElementById('product-search').value = val;
+          return;
+        }
         if (dim === 'dateFrom' || dim === 'dateTo') {
           active[dim] = /^\d{4}-\d{2}-\d{2}$/.test(val) ? val : '';
           document.getElementById(dim === 'dateFrom' ? 'date-from' : 'date-to').value = active[dim];
+          return;
+        }
+        var select = document.querySelector('.facet-select[data-dim="' + dim + '"]');
+        if (select) {
+          var exists = Array.prototype.some.call(select.options, function (option) { return option.value === val; });
+          select.value = exists ? val : '';
+          active[dim] = select.value;
+          if (select.value) document.querySelector('.advanced-controls').open = true;
           return;
         }
         var group = document.querySelector('.filters[data-dim="' + dim + '"]');
@@ -395,6 +448,7 @@
         if (val && !mark(group, val)) { mark(group, ''); val = ''; }
         else if (!val) mark(group, '');
         active[dim] = val;
+        if (val && ['projectType', 'status'].indexOf(dim) >= 0) document.querySelector('.advanced-controls').open = true;
       });
 
       var sortGroup = document.querySelector('.filters[data-dim="sort"]');
@@ -402,6 +456,7 @@
       if (!mark(sortGroup, wantSort)) { mark(sortGroup, 'opportunity'); wantSort = 'opportunity'; }
       sort = wantSort;
 
+      visibleLimit = PAGE_SIZE;
       reorder();
       apply();
     }
@@ -410,9 +465,14 @@
     ['date-from', 'date-to'].forEach(function (id) {
       document.getElementById(id).addEventListener('change', function (event) {
         active[id === 'date-from' ? 'dateFrom' : 'dateTo'] = event.target.value || '';
+        visibleLimit = PAGE_SIZE;
         apply();
         syncHash();
       });
+    });
+    document.getElementById('load-more').addEventListener('click', function () {
+      visibleLimit += PAGE_SIZE;
+      apply();
     });
     window.addEventListener('hashchange', fromHash);
   })();

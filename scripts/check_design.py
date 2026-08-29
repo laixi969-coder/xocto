@@ -5,7 +5,7 @@
 实测只有 3.72:1。文档里的承诺没人复算，回归就这么溜进去了。
 凡是写成数字的约束，都得有一条命令能验。
 
-复算十件事：
+复算十一件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
   2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
@@ -17,6 +17,7 @@
   8. 发布门槛      —— rejected 和缺中文说明/灵感的半成品没有残留页面
   9. 内部术语泄漏  —— 面向读者的页面不出现内部方法名 /req
  10. 样式版本      —— 每次样式变更都使用新 URL，不能被浏览器旧缓存覆盖
+ 11. 任务与性能预算 —— 首页不退化成目录，详情判断可追溯，机会库初始成本受控
 
 只读，不改任何东西。有问题返回退出码 1，能挂在 CI 上。
 """
@@ -342,6 +343,61 @@ def check_publishability() -> list[str]:
     return problems
 
 
+def check_experience_contract() -> list[str]:
+    """关键用户任务与静态体积预算不能在日常生成中悄悄退化。"""
+    problems: list[str] = []
+    home_rules = (
+        (SITE / "index.html", "今天为什么值得点开"),
+        (SITE / "en" / "index.html", "Why it is worth opening today"),
+    )
+    for path, stale_copy in home_rules:
+        if not path.exists():
+            problems.append(f"缺 {path.relative_to(ROOT)}")
+            continue
+        raw = path.read_text(encoding="utf-8", errors="ignore")
+        if stale_copy in raw:
+            problems.append(f"{path.relative_to(SITE)} 把最近完成版误写成“今天”")
+        for section_id in ("today-cases", "proven-businesses"):
+            match = re.search(rf'<section class="band" id="{section_id}">(.*?)</section>', raw, re.S)
+            if not match:
+                continue
+            count = len(re.findall(r'<article class="pick"', match.group(1)))
+            if count > 3:
+                problems.append(f"{path.relative_to(SITE)} 的 {section_id} 有 {count} 条，超过一屏 3 条预算")
+        first = re.search(r'<section class="band" id="today-cases">(.*?)</section>', raw, re.S)
+        if first:
+            cards = len(re.findall(r'<article class="pick"', first.group(1)))
+            calls = len(re.findall(r'class="field field-call"', first.group(1)))
+            if cards and calls != cards:
+                problems.append(f"{path.relative_to(SITE)} 有新发现未给注意力判断（{calls}/{cards}）")
+
+    # The map grows every day.  Compression reduces transfer size, but parsing a
+    # megabyte-scale HTML document still has a cost; leave explicit headroom and
+    # force a data-index migration before the page becomes unbounded again.
+    for path in (SITE / "products.html", SITE / "en" / "products.html"):
+        if not path.exists():
+            problems.append(f"缺 {path.relative_to(ROOT)}")
+            continue
+        raw = path.read_text(encoding="utf-8", errors="ignore")
+        if path.stat().st_size > 1_100_000:
+            problems.append(f"{path.relative_to(SITE)} 为 {path.stat().st_size // 1024}KB，超过 1100KB 解析预算")
+        for marker in ('id="product-search"', 'id="load-more"', 'var PAGE_SIZE = 40'):
+            if marker not in raw:
+                problems.append(f"{path.relative_to(SITE)} 缺机会库渐进加载约束：{marker}")
+
+    for directory in (SITE / "p", SITE / "en" / "p"):
+        for path in sorted(directory.glob("*.html")):
+            raw = path.read_text(encoding="utf-8", errors="ignore")
+            gates = raw.count('class="gate-row"')
+            if gates != 4:
+                problems.append(
+                    f"{path.relative_to(SITE)} 公开判断只有 {gates}/4 道可追溯闸门"
+                )
+                if len(problems) >= 20:
+                    return problems
+    return problems
+
+
 def main() -> int:
     groups = (
         ("token 对比度", check_contrast()),
@@ -354,6 +410,7 @@ def main() -> int:
         ("站内死链", check_links()),
         ("sitemap 自洽", check_sitemap()),
         ("发布门槛", check_publishability()),
+        ("任务与性能预算", check_experience_contract()),
     )
     failed = False
     for name, problems in groups:

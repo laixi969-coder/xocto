@@ -97,12 +97,30 @@
       {% endif %}
     </div>
 
-    <details class="research-notes evidence-boundary">
+    <details class="research-notes evidence-boundary" open>
       <summary>{{ t.product.story_evidence }}</summary>
       <div class="evidence-boundary-grid">
         <div><span class="field-k">{{ t.product.story_known }}</span><p>{{ product.req.known_fact }}</p></div>
         <div><span class="field-k">{{ t.product.story_inferred }}</span><p>{{ product.req.inference }}</p></div>
         <div><span class="field-k">{{ t.product.story_unknown }}</span><p>{{ product.req.unknown }}</p></div>
+      </div>
+      <div class="gate-audit">
+        {% for gate in product.req.gates %}
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">{{ "%02d" | format(loop.index) }} · {{ gate.name }}</span>
+            <strong>{{ gate.status }}</strong>
+          </div>
+          <p>{{ gate.reason }}</p>
+          {% if gate.evidence %}
+          <div class="gate-links" aria-label="{{ t.product.req_evidence }}">
+            {% for evidence in gate.evidence %}
+            <a href="{{ evidence.url }}" target="_blank" rel="noopener">{{ evidence.title }}{% if evidence.published_at %} · {{ evidence.published_at }}{% endif %} ↗</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </article>
+        {% endfor %}
       </div>
     </details>
     {% else %}

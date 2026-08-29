@@ -26,6 +26,7 @@
 <meta property="og:image:alt" content="{{ locale.site_name }} · {{ locale.site_tagline }}">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="{{ root }}logo/mark-on-light.png">
 {% if schema %}<script type="application/ld+json">{{ schema | tojson }}</script>{% endif %}
 <link rel="stylesheet" href="{{ root }}style.css?v={{ asset_version }}">
 {# 字体由样式表按实际使用加载。静态 file:// 预览与线上 CORS 预加载的凭据模式不同，

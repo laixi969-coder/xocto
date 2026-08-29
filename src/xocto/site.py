@@ -92,6 +92,11 @@ DESC_LIMIT = 150
 _CJK_TEXT = re.compile(r"[　-〿㐀-䶿一-鿿＀-￯가-힯]")
 _ENGLISH_PROSE = re.compile(r"\b[A-Za-z][A-Za-z'’-]*\b(?:[\s,;:—]+[A-Za-z][A-Za-z'’-]*\b){4,}")
 _GENERIC_REQ_REASON_HINTS = ("描述模糊", "价值主张不明确", "具体痛点与使用场景")
+_PUBLIC_SOURCE_NAMES = (
+    "Product Hunt", "Hacker News", "AICPB", "officialfeeds", "marketfeeds",
+    "newssearch", "searchfeeds", "QbitAI", "量子位", "GeekPark", "TechCrunch",
+    "VentureBeat", "Crunchbase News", "Sifted", "Tech.eu", "Ars Technica",
+)
 
 
 def _english_text(value: str, fallback: str = "") -> str:
@@ -121,11 +126,85 @@ def _sentence_excerpt(value: str, limit: int = 100) -> str:
     return (text[:sentence_end] if sentence_end and sentence_end <= limit else text[:limit]).rstrip("。；，、;:： ")
 
 
-def _localized_tags(locale: Locale, english: tuple[str, ...], chinese: tuple[str, ...]) -> list[str]:
-    """英文标签必须逐项已有译文；不能用中文标签悄悄顶替。"""
+def _neutralize_public_source_names(value: str, locale: Locale) -> str:
+    """Remove collection-channel names at the final public rendering boundary."""
+    text = value or ""
+    replacement = "public reporting" if locale.key == "en" else "公开资料"
+    for name in sorted(_PUBLIC_SOURCE_NAMES, key=len, reverse=True):
+        # Feed headlines commonly append the publisher as a bare suffix. Removing
+        # that suffix reads better than replacing it with another noun phrase.
+        suffix = re.compile(rf"\s*(?:[-—|·:]\s*)?{re.escape(name)}\s*$", re.IGNORECASE)
+        if suffix.search(text):
+            text = suffix.sub("", text)
+        text = re.sub(re.escape(name), replacement, text, flags=re.IGNORECASE)
+    return " ".join(text.split())
+
+
+_TAG_ALIASES_ZH = {
+    "industry": {
+        "软件": "软件开发", "软件研发": "软件开发", "软件开发者": "软件开发",
+        "软件与信息技术服务": "软件开发", "电子商务": "电商",
+        "市场营销": "营销", "数字营销": "营销", "影视": "影视制作",
+        "视频制作": "影视制作", "视频创作": "影视制作", "学术研究": "科研",
+        "办公": "办公效率", "个人效率": "办公效率", "办公自动化": "办公效率",
+        "通用办公": "办公效率", "远程办公": "办公效率", "游戏开发": "游戏",
+        "数字内容创作": "内容创作",
+    },
+    "job": {
+        "开发者": "软件开发者", "开发人员": "软件开发者", "软件工程师": "软件开发者",
+        "程序员": "软件开发者", "AI工程师": "AI 工程师", "研究员": "研究人员",
+        "开发运维工程师": "DevOps 工程师", "运维工程师": "DevOps 工程师",
+        "普通用户": "个人用户", "视频制作人": "视频创作者",
+    },
+    "region": {},
+}
+
+_TAG_ALIASES_EN = {
+    "industry": {
+        "software development": "Software Development", "software": "Software Development",
+        "software developers": "Software Development", "software & it services": "Software Development",
+        "film": "Film & Video Production", "film production": "Film & Video Production",
+        "video production": "Film & Video Production", "video creation": "Film & Video Production",
+        "digital marketing": "Marketing", "academic research": "Research",
+        "office": "Workplace Productivity", "personal productivity": "Workplace Productivity",
+        "remote work": "Workplace Productivity", "games": "Gaming", "game development": "Gaming",
+        "digital content creation": "Content Creation",
+    },
+    "job": {
+        "developer": "Software Developer", "developers": "Software Developer",
+        "software engineer": "Software Developer", "software engineers": "Software Developer",
+        "software developer": "Software Developer", "programmer": "Software Developer",
+        "ai engineers": "AI Engineer", "researchers": "Researcher",
+        "content creators": "Content Creator", "video editors": "Video Editor",
+        "security engineers": "Security Engineer", "penetration testers": "Penetration Tester",
+        "students": "Student", "animators": "Animator", "job seekers": "Job Seeker",
+        "project managers": "Project Manager", "designers": "Designer",
+        "frontend developers": "Frontend Developer", "qa engineers": "QA Engineer",
+        "live stream operators": "Live Stream Operator", "video creators": "Video Creator",
+        "video creator": "Video Creator",
+    },
+    "region": {"us": "United States", "usa": "United States", "united states": "United States"},
+}
+
+
+def _raw_localized_tags(locale: Locale, english: tuple[str, ...], chinese: tuple[str, ...]) -> list[str]:
+    """Return only tags that really exist in this edition; never cross-language fallback."""
     if locale.key != "en":
-        return list(chinese)
-    return [tag for tag in english if _english_text(tag)]
+        return [tag.strip() for tag in chinese if tag.strip()]
+    return [tag.strip() for tag in english if _english_text(tag)]
+
+
+def _localized_tags(
+    locale: Locale,
+    english: tuple[str, ...],
+    chinese: tuple[str, ...],
+    dimension: str = "",
+) -> list[str]:
+    """Normalize obvious public-label duplicates without changing archived source tags."""
+    raw = _raw_localized_tags(locale, english, chinese)
+    aliases = (_TAG_ALIASES_EN if locale.key == "en" else _TAG_ALIASES_ZH).get(dimension, {})
+    normalized = [aliases.get(tag.casefold() if locale.key == "en" else tag, tag) for tag in raw]
+    return list(dict.fromkeys(normalized))
 
 
 _REQ_SIGNAL_EN = {
@@ -248,7 +327,10 @@ def _localized_evidence_copy(item: Any, product: Any | None, locale: Locale) -> 
         fact = _english_text(raw_fact)
         if not fact and product is not None and item.source_kind in {"product", "open_source"}:
             fact = _english_text(product.summary_en) or _english_text(product.summary)
-        return title or locale.t["product"]["evidence_link"], scrub_pending_phrase(fact)
+        return (
+            _neutralize_public_source_names(title or locale.t["product"]["evidence_link"], locale),
+            scrub_pending_phrase(_neutralize_public_source_names(fact, locale)),
+        )
     if _CJK_TEXT.search(raw_title):
         title = raw_title
     elif is_product_title:
@@ -259,7 +341,10 @@ def _localized_evidence_copy(item: Any, product: Any | None, locale: Locale) -> 
         fact = _chinese_text(product.summary_zh)
     else:
         fact = _chinese_text(raw_fact)
-    return title, scrub_pending_phrase(fact)
+    return (
+        _neutralize_public_source_names(title, locale),
+        scrub_pending_phrase(_neutralize_public_source_names(fact, locale)),
+    )
 
 _markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
@@ -777,6 +862,41 @@ def _daily_event_selection(items: list[dict[str, Any]], *, limit: int = 6) -> li
     return selected
 
 
+def _proven_business_selection(
+    items: list[dict[str, Any]], *, limit: int = 3
+) -> list[dict[str, Any]]:
+    """Choose useful benchmarks, not the loudest growth leaderboard.
+
+    Scaled businesses retain more entry value than settled default products.  Within
+    that boundary, public usage scale is the strongest deterministic signal.  Give
+    distinct categories a chance before filling any remaining slots.
+    """
+    ranked = sorted(
+        items,
+        key=lambda item: (
+            item.get("form_key") != FORM_SCALED,
+            -float(item.get("usage_value") or 0),
+            item.get("name") or "",
+        ),
+    )
+    selected: list[dict[str, Any]] = []
+    categories: set[str] = set()
+    for item in ranked:
+        category = str(item.get("category_key") or "")
+        if category and category in categories:
+            continue
+        selected.append(item)
+        categories.add(category)
+        if len(selected) == limit:
+            return selected
+    for item in ranked:
+        if item not in selected:
+            selected.append(item)
+        if len(selected) == limit:
+            break
+    return selected
+
+
 def _business_card_view(view: dict[str, Any], store: Store, locale: Locale) -> dict[str, Any]:
     """把已验证产品收成与机会流相同的卡片结构。"""
     reviews = store.read_req_reviews(view["slug"])
@@ -929,6 +1049,7 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
             "fact": fact,
             "published_at": local_day(item.published_at) if item.published_at else "",
         })
+    public_evidence_by_id = {item["id"]: item for item in evidence_rows}
     public_read = demand_read(product, review, evidence, english=locale.key == "en")
     demand_maturity_labels = {
         "unclear": locale.t["product"]["demand_maturity_unclear"],
@@ -990,7 +1111,13 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
                     "name": gate_labels[gate.gate],
                     "status": gate_statuses[gate.status],
                     "reason": _gate_reason_for_display(gate, product, locale),
-                    "evidence": [evidence_by_id[eid] for eid in gate.evidence_ids if eid in evidence_by_id],
+                    # Only expose evidence that survived the public URL,
+                    # aggregator, language, and deduplication boundary above.
+                    "evidence": [
+                        public_evidence_by_id[eid]
+                        for eid in gate.evidence_ids
+                        if eid in public_evidence_by_id
+                    ],
                 }
                 for gate in review.gates
             ],
@@ -1114,7 +1241,11 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
                     discovery_days[event.project_slug] = day_text
     for view in views:
         view["discovered_at"] = discovery_days.get(view["slug"], view["first_seen"])
-        form_counts[form_key] = form_counts.get(form_key, 0) + 1
+        # Count the form assigned to this view.  `form_key` from the previous
+        # loop only describes its final item and used to put every product in
+        # one bucket on the opportunity-map filter.
+        view_form = view["form_key"]
+        form_counts[view_form] = form_counts.get(view_form, 0) + 1
 
     early = [v for v in views if v["stage_key"] == STAGE_EARLY]
     proven = [v for v in views if v["stage_key"] == STAGE_PROVEN]
@@ -1155,7 +1286,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         (v for v in proven if v["growth"] is not None),
         key=lambda v: -(v["growth"] or 0),
     )[:10]
-    ranked_proven = movers or sorted(proven, key=lambda v: -v["usage_value"])[:10]
+    ranked_proven = _proven_business_selection(proven, limit=3)
     proven_businesses = [_business_card_view(item, store, locale) for item in ranked_proven]
 
     # 4. 赛道分布：给一个进入方式，不在首页罗列产品。
@@ -1275,7 +1406,9 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
             continue
         first_slugs.add(event.project_slug)
         first_discoveries.append(_event_view(event, view, store, locale))
-    first_discoveries = _daily_event_selection(first_discoveries, limit=6)
+    # The front page promises three evidence cases, not a second directory.
+    # Everything else remains discoverable in the opportunity map the next day.
+    first_discoveries = _daily_event_selection(first_discoveries, limit=3)
 
     # “重要更新”必须同时满足：明确允许上首页、有可陈述的新事实、同一项目
     # 当天只出现一次。首次发现优先，不能又在更新区重复出现。
@@ -1591,6 +1724,12 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         summary = _scrub_pending_phrase(_english_text(product.summary_en) or _english_text(product.summary))
         inspiration = _scrub_pending_phrase(_english_text(product.inspiration_en))
         written = bool(summary)
+    raw_industries = _raw_localized_tags(locale, product.industries_en, product.industries)
+    raw_jobs = _raw_localized_tags(locale, product.jobs_en, product.jobs)
+    raw_regions = _raw_localized_tags(locale, product.regions_en, product.regions)
+    industries = _localized_tags(locale, product.industries_en, product.industries, "industry")
+    jobs = _localized_tags(locale, product.jobs_en, product.jobs, "job")
+    regions = _localized_tags(locale, product.regions_en, product.regions, "region")
     return {
         "slug": product.slug,
         "name": html.unescape(product.name),
@@ -1608,9 +1747,12 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
         "category_key": product.category,
         "project_type": locale.project_type(product.project_type),
         "project_type_key": product.project_type,
-        "industries": _localized_tags(locale, product.industries_en, product.industries),
-        "jobs": _localized_tags(locale, product.jobs_en, product.jobs),
-        "regions": _localized_tags(locale, product.regions_en, product.regions),
+        "industries": industries,
+        "jobs": jobs,
+        "regions": regions,
+        # Search keeps the original editorial vocabulary as synonyms, while
+        # filters and visible tags use the normalized public label.
+        "search_terms": list(dict.fromkeys(raw_industries + raw_jobs + raw_regions + industries + jobs + regions)),
         "open_source": product.open_source,
         "stage": locale.stage(stage),
         "stage_key": stage,
