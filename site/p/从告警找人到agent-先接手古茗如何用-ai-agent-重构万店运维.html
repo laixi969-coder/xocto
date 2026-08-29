@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
+<title>阿里云 AIDBS · x-octo</title>
+<meta name="description" content="阿里云AIDBS面向企业数据库运维，DBA在收到告警后，Agent自动诊断、定位问题SQL并给出建议，DBA确认后执行；同时Meta Agent在IDE中辅助SQL编写和变更审批，低风险操作自动执行。交付包括诊断报告和可执行建议，人工保留决策权。">
+<link rel="canonical" href="https://xocto.vercel.app/p/从告警找人到agent-先接手古茗如何用-ai-agent-重构万店运维.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/从告警找人到agent-先接手古茗如何用-ai-agent-重构万店运维.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/从告警找人到agent-先接手古茗如何用-ai-agent-重构万店运维.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/从告警找人到agent-先接手古茗如何用-ai-agent-重构万店运维.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="阿里云 AIDBS · x-octo">
+<meta property="og:description" content="阿里云AIDBS面向企业数据库运维，DBA在收到告警后，Agent自动诊断、定位问题SQL并给出建议，DBA确认后执行；同时Meta Agent在IDE中辅助SQL编写和变更审批，低风险操作自动执行。交付包括诊断报告和可执行建议，人工保留决策权。">
+<meta property="og:url" content="https://xocto.vercel.app/p/从告警找人到agent-先接手古茗如何用-ai-agent-重构万店运维.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/\u4ece\u544a\u8b66\u627e\u4eba\u5230agent-\u5148\u63a5\u624b\u53e4\u8317\u5982\u4f55\u7528-ai-agent-\u91cd\u6784\u4e07\u5e97\u8fd0\u7ef4.html#webpage", "@type": "WebPage", "description": "\u963f\u91cc\u4e91AIDBS\u9762\u5411\u4f01\u4e1a\u6570\u636e\u5e93\u8fd0\u7ef4\uff0cDBA\u5728\u6536\u5230\u544a\u8b66\u540e\uff0cAgent\u81ea\u52a8\u8bca\u65ad\u3001\u5b9a\u4f4d\u95ee\u9898SQL\u5e76\u7ed9\u51fa\u5efa\u8bae\uff0cDBA\u786e\u8ba4\u540e\u6267\u884c\uff1b\u540c\u65f6Meta Agent\u5728IDE\u4e2d\u8f85\u52a9SQL\u7f16\u5199\u548c\u53d8\u66f4\u5ba1\u6279\uff0c\u4f4e\u98ce\u9669\u64cd\u4f5c\u81ea\u52a8\u6267\u884c\u3002\u4ea4\u4ed8\u5305\u62ec\u8bca\u65ad\u62a5\u544a\u548c\u53ef\u6267\u884c\u5efa\u8bae\uff0c\u4eba\u5de5\u4fdd\u7559\u51b3\u7b56\u6743\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "\u963f\u91cc\u4e91 AIDBS", "url": "https://xocto.vercel.app/p/\u4ece\u544a\u8b66\u627e\u4eba\u5230agent-\u5148\u63a5\u624b\u53e4\u8317\u5982\u4f55\u7528-ai-agent-\u91cd\u6784\u4e07\u5e97\u8fd0\u7ef4.html"}, {"@id": "https://xocto.vercel.app/p/\u4ece\u544a\u8b66\u627e\u4eba\u5230agent-\u5148\u63a5\u624b\u53e4\u8317\u5982\u4f55\u7528-ai-agent-\u91cd\u6784\u4e07\u5e97\u8fd0\u7ef4.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-08-29", "datePublished": "2026-08-26", "description": "\u963f\u91cc\u4e91AIDBS\u9762\u5411\u4f01\u4e1a\u6570\u636e\u5e93\u8fd0\u7ef4\uff0cDBA\u5728\u6536\u5230\u544a\u8b66\u540e\uff0cAgent\u81ea\u52a8\u8bca\u65ad\u3001\u5b9a\u4f4d\u95ee\u9898SQL\u5e76\u7ed9\u51fa\u5efa\u8bae\uff0cDBA\u786e\u8ba4\u540e\u6267\u884c\uff1b\u540c\u65f6Meta Agent\u5728IDE\u4e2d\u8f85\u52a9SQL\u7f16\u5199\u548c\u53d8\u66f4\u5ba1\u6279\uff0c\u4f4e\u98ce\u9669\u64cd\u4f5c\u81ea\u52a8\u6267\u884c\u3002\u4ea4\u4ed8\u5305\u62ec\u8bca\u65ad\u62a5\u544a\u548c\u53ef\u6267\u884c\u5efa\u8bae\uff0c\u4eba\u5de5\u4fdd\u7559\u51b3\u7b56\u6743\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/\u4ece\u544a\u8b66\u627e\u4eba\u5230agent-\u5148\u63a5\u624b\u53e4\u8317\u5982\u4f55\u7528-ai-agent-\u91cd\u6784\u4e07\u5e97\u8fd0\u7ef4.html#webpage"}, "name": "\u963f\u91cc\u4e91 AIDBS", "sameAs": "http://www.geekpark.net/news/369401", "url": "https://xocto.vercel.app/p/\u4ece\u544a\u8b66\u627e\u4eba\u5230agent-\u5148\u63a5\u624b\u53e4\u8317\u5982\u4f55\u7528-ai-agent-\u91cd\u6784\u4e07\u5e97\u8fd0\u7ef4.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/\u4ece\u544a\u8b66\u627e\u4eba\u5230agent-\u5148\u63a5\u624b\u53e4\u8317\u5982\u4f55\u7528-ai-agent-\u91cd\u6784\u4e07\u5e97\u8fd0\u7ef4.html", "name": "\u963f\u91cc\u4e91 AIDBS", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=b45536f6fa21">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class="">今日机会</a>
+      <a href="../products.html" class="on">机会库</a>
+      <a href="../takeaways.html" class="">打法库</a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/从告警找人到agent-先接手古茗如何用-ai-agent-重构万店运维.html" lang="en"
+         hreflang="en" aria-label="Switch to English">EN</a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap">
+
+  <header class="detail-head">
+    <p class="eyebrow">AI 应用的生意判断</p>
+    <div class="pick-id">
+      <h1>阿里云 AIDBS</h1>
+    </div>
+
+    <p class="lede">阿里云AIDBS面向企业数据库运维，DBA在收到告警后，Agent自动诊断、定位问题SQL并给出建议，DBA确认后执行；同时Meta Agent在IDE中辅助SQL编写和变更审批，低风险操作自动执行。交付包括诊断报告和可执行建议，人工保留决策权。</p>
+
+    <div class="meta">
+<span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
+<span class="tag">AI 改造</span><span class="tag">AI + 开发</span><span class="tag">数据库</span><span class="tag">云计算</span><span class="tag">餐饮</span><span class="tag">DBA</span><span class="tag">DevOps 工程师</span><span class="tag">研发人员</span><span class="tag">中国</span>    </div>
+
+    <div class="kv">
+      <div><span>本站首次收录</span><b class="num">2026-08-26</b></div>
+      <div><span>本站最近更新</span><b class="num">2026-08-29</b></div>
+      <div><span>产品官网</span><b><a href="http://www.geekpark.net/news/369401" target="_blank" rel="noopener">查看官网 ↗</a></b></div>
+    </div>
+  </header>
+
+  <section class="band demand-story">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">从用户的一天开始</p>
+        <h2>它为什么会被需要</h2>
+      </div>
+<span class="note">公开事实 + 工作流推理 · 2026-08-29</span>    </div>
+    <article class="story-flow">
+      <div class="story-opening">
+        <span class="field-k">工作现场</span>
+        <p class="story-lead">DBA需要处理数据库告警、慢SQL、变更审批等日常运维任务，确保系统稳定。</p>
+        <p>传统方式是人工接警、登跳板机、看Process List、Kill慢SQL、判断扩容。</p>
+        <p>告警频繁，人工处理耗时（10-20分钟），且DBA团队人力有限，70%时间用于救火。</p>
+      </div>
+
+      <div class="story-turn">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>需求有依据</h3>
+        <p>趋势是AI Agent从辅助转向自主执行，切入点是数据库运维这一高价值、可标准化的场景，按结果或订阅收费。</p>
+      </div>
+
+      <div class="story-chapter">
+        <span class="field-k">采用动机</span>
+        <h3>为什么有人会把它留在工作流里</h3>
+        <p>古茗采用后DDL审批时间下降30%-40%，大促处置时间缩短至5分钟内，证明效率提升。</p>
+      </div>
+
+      <div class="story-chapter story-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>关注阿里云AIDBS官方产品页，获取定价和更多客户案例。</p>
+      </div>
+    </article>
+
+    <div class="role-grid story-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。古茗采用后DDL审批时间下降30%-40%，大促处置时间缩短至5分钟内，证明效率提升。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>趋势是AI Agent从辅助转向自主执行，切入点是数据库运维这一高价值、可标准化的场景，按结果或订阅收费。</p>
+      </div>
+    </div>
+
+    <details class="research-notes evidence-boundary" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="evidence-boundary-grid">
+        <div><span class="field-k">公开事实</span><p>解决DBA救火痛点，替代人工诊断和审批流程，交付可核对的诊断建议和自动执行，工作流结构判断成立。</p></div>
+        <div><span class="field-k">工作流推理</span><p>古茗采用后DDL审批时间下降30%-40%，大促处置时间缩短至5分钟内，证明效率提升。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>关注阿里云AIDBS官方产品页，获取定价和更多客户案例。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>解决DBA救火痛点，替代人工诊断和审批流程，交付可核对的诊断建议和自动执行，工作流结构判断成立。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369401" target="_blank" rel="noopener">从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？ · 2026-08-26 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>古茗案例显示采用后效率提升，研发自主变更比例过半，说明场景被接受。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369401" target="_blank" rel="noopener">从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？ · 2026-08-26 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>未披露定价，但阿里云作为云服务商可能按订阅或资源收费，买方为企业IT部门。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369401" target="_blank" rel="noopener">从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？ · 2026-08-26 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>Agent执行有数据网关和人工确认边界，确保安全，交付确定。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369401" target="_blank" rel="noopener">从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？ · 2026-08-26 ↗</a>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band">
+    <div class="sec-head">
+      <div>
+        <p class="eyebrow">市场对照</p>
+        <h2>中英文生态与跨国机会</h2>
+      </div>
+    </div>
+    <div class="decision-grid">
+      <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-29。未发现仅限该覆盖范围。 · 2026-08-29</p></div>
+      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-29。未发现仅限该覆盖范围。 · 2026-08-29</p></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析还没写。先看上面的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/dsh-web-ui.html">dsh-web-ui</a>、        <a href="../p/dsh-better-sidebar.html">DSH-better-sidebar</a>      </p>
+    </div>
+  </section>
+
+
+  <section class="band">
+    <div class="sec-head"><div><p class="eyebrow">证据链</p><h2>可核验公开证据</h2></div></div>
+    <ul class="rows">
+      <li><a href="https://cn.aliyun.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">阿里云-计算，为了无法计算的价值</span><span class="row-desc">用户痛点 · 阿里云——阿里巴巴集团旗下全球领先的云计算及人工智能科技公司之一。 提供全栈云服务，包括弹性计算、高性能数据库、网络与存储方案，以及AI大模型、向量检索、大数据分析等智能化能力。</span><span class="row-tail"></span></div></a></li>
+      <li><a href="http://account.aliyun.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">阿里云登录页</span><span class="row-desc">用户痛点 · 欢迎登录阿里云，全球领先的云计算及人工智能科技公司，阿里云为200多个国家和地区的企业、开发者和政府机构提供云计算基础服务及解决方案。 阿里云云计算、安全、大数据、人工智能、企业应用、物联网等云计算服务。</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://www.alibabacloud.com/zh/product?_p_lc=1" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">阿里云 - 全球领先云计算_云服务器_云产品 - Alibaba Cloud</span><span class="row-desc">用户痛点 · 阿里云面向全球用户，提供包括云计算、数据库、安全、大数据、人工智能、企业应用、物联网、开发者服务等多种高性能的云产品，助力您以低成本快速安全发展业务。 更有云大学助您深入了解产品！</span><span class="row-tail"></span></div></a></li>
+      <li><a href="http://www.geekpark.net/news/369401" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？</span><span class="row-desc">market_signal · AI to B，要真的能「救火」。 去年年底的一个深夜，古茗科技集团运维负责人刘星光再次被手机震动惊醒——屏幕上跳动着上百条数据库告警短信。 「这不是什么意外。」刘星光说，「古茗全国上万家门店，每一杯奶茶的下单、库存调度、会员积分、联名营销，都跑在 100 多个数据库实例上——RDS、Redis、MongoDB、PolarDB，什么都有。门店在扩，订单在涨，联名活动的频率比以往翻了一倍，尖刺流量来得快去得也快。」 而支撑这一切的 DBA 团队，一共就那么几个人。 「每天 70% 的时间耗在『接警—登跳板机—看 Process List—Kill 慢 SQL—判断是否扩容』这套流程上。」刘星光回忆，「一次大促处置，最快也要 10 到 20 分钟。要是人不在电脑前，时间更长。而这 10 分钟里，客户下单有延迟，门店出杯有卡顿——这是我们不能接受的。」 好钢全用来救火了。 01 每天都在重复的三件事 让刘星光下定决心做改变的痛点，不是一天攒出来的，而是每天都在重复。 MySQL 主库 CPU 飙高，几乎每次新业务上线必现。 DBA 来不及看完所有慢查询就被下一波告警淹没。 元数据散落各处。 研发新人入职后写 SQL，对历史字段的业务含义是什么、有没有关联数据，需要来回沟通。回答的人疲惫，问的人也不好意思。 变更审批流程长得让人崩溃。 加个索引、加个权限，走完审批可能要等上一天。DBA 成了整个研发链路的瓶颈——但他们自己也不想当这个瓶颈。 「这些事情，有共性、有规则、有标准答案——能不能让 Agent 来做？」刘星光开始想这个问题。 02 人做判断，Agent 做执行 去年下半年，古茗与阿里云瑶池数据库团队合作，引入了阿里云的 AI 原生数据库服务（AIDBS），让 Agent 接管救火和答疑这两件最耗人的事。 目标很朴素：人来做判断和决策，Agent 来调度和执行。 具体落了三个方向。 第一步是让数据资产「活」过来。 古茗之前也搞过静态元数据平台，做出来就是个数据字典，半年之后基本没人用了——因为它只能展示信息，不能解决问题。这次思路变了：不让人来查它，让它主动出现在研发的工作流里。 在 IDE 里写 SQL，Meta Agent 自动识别涉及哪些表、字段口径是</span><span class="row-tail">2026-08-26</span></div></a></li>
+    </ul>
+  </section>
+
+  <section class="band">
+    <div class="sec-head">
+      <div><p class="eyebrow">继续查找</p><h2>从产品名直接追到一手材料</h2></div>
+      <span class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</span>
+    </div>
+    <ul class="rows">
+      <li><a href="https://www.google.com/search?q=%22%E9%98%BF%E9%87%8C%E4%BA%91+AIDBS%22+official+documentation" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">官网与文档</span><span class="row-tail">↗</span></div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E9%98%BF%E9%87%8C%E4%BA%91+AIDBS%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">定价与套餐</span><span class="row-tail">↗</span></div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E9%98%BF%E9%87%8C%E4%BA%91+AIDBS%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">用户评价与抱怨</span><span class="row-tail">↗</span></div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E9%98%BF%E9%87%8C%E4%BA%91+AIDBS%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">客户案例与结果</span><span class="row-tail">↗</span></div></a></li>
+      <li><a href="https://www.google.com/search?q=%22%E9%98%BF%E9%87%8C%E4%BA%91+AIDBS%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">替代品与对比</span><span class="row-tail">↗</span></div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward" aria-label="继续浏览">
+    <div class="sec-head">
+      <h2>同类产品</h2>
+      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
+        AI + 开发 共 233 个 →
+      </a>
+    </div>
+    <ul class="rows">
+      <li>
+        <a href="../p/dsh-web-ui.html">
+          <div class="row-head">
+            <span class="row-name">dsh-web-ui</span>
+            <span class="row-desc">用网页跟 AI 写代码的人一次装齐任务板、版本图、手机遥控和几套皮肤</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/dsh-better-sidebar.html">
+          <div class="row-head">
+            <span class="row-name">DSH-better-sidebar</span>
+            <span class="row-desc">AI 改文件时，目录、编辑、终端和改动对比都在侧边，人不用来回切窗口</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/dsh-tui.html">
+          <div class="row-head">
+            <span class="row-name">dsh-TUI</span>
+            <span class="row-desc">不愿换界面的工程师用 AI 写代码，仍按老习惯看状态、撤销，不必改开浏览器</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/dsh-agent-teams.html">
+          <div class="row-head">
+            <span class="row-name">dsh-agent-teams</span>
+            <span class="row-desc">一句话拉起一组 AI 帮手，各自领任务、直接通气，不用人来回传话和汇总</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/从信息入口迈向行动入口-全新家庭智能体多多正式发布.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">多多</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/企业ai落地没有标准答案-每日互动打出本地化组合拳.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">每日互动</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  // 键盘翻页：左右方向键在产品之间走，不用回到列表
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">不用，谢谢</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>726 个案例 · 179 份生意判断</span>
+    <span class="gen">数据截至 2026-08-29</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

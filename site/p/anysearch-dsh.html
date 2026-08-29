@@ -80,38 +80,38 @@
         <p class="eyebrow">从用户的一天开始</p>
         <h2>它为什么会被需要</h2>
       </div>
-<span class="note">公开事实 + 可观察行为 · 2026-08-27</span>    </div>
+<span class="note">公开事实 + 可观察行为 · 2026-08-29</span>    </div>
     <article class="story-flow">
       <div class="story-opening">
         <span class="field-k">工作现场</span>
-        <p class="story-lead">开发者、AI 工程师</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="story-lead">开发者需要为 DeepSeek Harness (DSH) 集成网页搜索能力，以执行需要实时信息的任务。</p>
+        <p>公开材料未说明当前替代方式；常见替代是使用通用搜索 API 或手动搜索。</p>
+        <p>公开材料未说明不解决的代价、频率或后果；但缺乏搜索能力会限制 AI 助手获取最新信息，影响任务完成质量。</p>
       </div>
 
       <div class="story-turn">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>趋势：AI 代理需要实时信息，搜索集成成为基础能力。切入：可从特定垂直领域（如金融、医疗）提供定制搜索服务，但需注意与现有搜索 API 的竞争。</p>
       </div>
 
       <div class="story-chapter">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>公开代码仓库有 318 个收藏、6 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p>仓库有 332 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。</p>
       </div>
 
       <div class="story-chapter story-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>查看开源仓库的 issue 和讨论，看开发者是否明确需要此类搜索集成，以及它相比其他搜索 API 的优势。</p>
+        <p>追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p>
       </div>
     </article>
 
     <div class="role-grid story-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。公开代码仓库有 318 个收藏、6 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p><strong>值得试用</strong>。仓库有 332 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -122,38 +122,44 @@
     <details class="research-notes evidence-boundary" open>
       <summary>我们凭什么这样判断</summary>
       <div class="evidence-boundary-grid">
-        <div><span class="field-k">公开事实</span><p>开发者将 AnySearch 作为 DeepSeek Harness (DSH) 的网页搜索提供方，集成高级搜索工具。它接收搜索查询，执行网络搜索，返回结果供 DSH 使用。具体集成方式和功能范围仍待核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开代码仓库有 318 个收藏、6 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>查看开源仓库的 issue 和讨论，看开发者是否明确需要此类搜索集成，以及它相比其他搜索 API 的优势。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决开发者将网页搜索集成到 DeepSeek Harness 的需求，痛点在于缺少搜索会限制 AI 获取实时信息；产品作为搜索提供方提供可确定的集成交付，结构上成立。</p></div>
+        <div><span class="field-k">工作流推理</span><p>仓库有 332 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“开发者将 AnySearch 作为 DeepSeek Harness (DSH) 的网页搜索提供方，集成高级搜索工具”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决开发者将网页搜索集成到 DeepSeek Harness 的需求，痛点在于缺少搜索会限制 AI 获取实时信息；产品作为搜索提供方提供可确定的集成交付，结构上成立。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://www.anysearch.com" target="_blank" rel="noopener">anysearch-dsh · 2026-08-13 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>公开代码仓库记录为 332 个收藏、6 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://www.anysearch.com" target="_blank" rel="noopener">anysearch-dsh · 2026-08-13 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。</p>
         </article>
       </div>
     </details>
@@ -168,7 +174,7 @@
 <span class="tag sig">跨国机会</span>    </div>
     <div class="decision-grid">
       <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：早期出现<br>需求证据：尚未核验</p><p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-08-29</p></div>
-      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-27。未发现仅限该覆盖范围。 · 2026-08-27</p></div>
+      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-29。未发现仅限该覆盖范围。 · 2026-08-29</p></div>
     </div>
   </section>
 
@@ -210,7 +216,7 @@
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 77 个 →
+        基础层 共 85 个 →
       </a>
     </div>
     <ul class="rows">
@@ -303,7 +309,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>597 个案例 · 180 份生意判断</span>
+    <span>726 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-08-29</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

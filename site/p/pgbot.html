@@ -79,13 +79,13 @@
         <p class="eyebrow">从用户的一天开始</p>
         <h2>它为什么会被需要</h2>
       </div>
-<span class="note">公开事实 + 可观察行为 · 2026-08-27</span>    </div>
+<span class="note">公开事实 + 可观察行为 · 2026-08-29</span>    </div>
     <article class="story-flow">
       <div class="story-opening">
         <span class="field-k">工作现场</span>
-        <p class="story-lead">替人看 Postgres：哪里慢、哪条该修，先给证据再让代理动手</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="story-lead">开发者需要监控 Postgres 性能，识别慢查询和需要修复的问题，并让 AI 代理基于证据执行操作。</p>
+        <p>目前开发者可能使用 pg_stat_statements 或第三方监控工具，但缺乏智能分析。</p>
+        <p>数据库性能问题难以定位，需要专业知识，手动分析耗时。</p>
       </div>
 
       <div class="story-turn">
@@ -97,20 +97,20 @@
       <div class="story-chapter">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>公开代码仓库有 793 个收藏、36 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p>仓库 802 星显示关注；但采用和付费未核验。</p>
       </div>
 
       <div class="story-chapter story-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p>
+        <p>追踪 pgbot 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。</p>
       </div>
     </article>
 
     <div class="role-grid story-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。公开代码仓库有 793 个收藏、36 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p><strong>值得试用</strong>。仓库 802 星显示关注；但采用和付费未核验。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -121,9 +121,9 @@
     <details class="research-notes evidence-boundary" open>
       <summary>我们凭什么这样判断</summary>
       <div class="evidence-boundary-grid">
-        <div><span class="field-k">公开事实</span><p>它解决数据库管理员和开发者排查 Postgres 性能问题的痛点：定位慢查询、识别该修的索引，先给证据再让代理动手，痛点刚性且交付可确定。</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开代码仓库有 793 个收藏、36 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决 Postgres 性能监控和优化的问题，提供证据驱动的智能分析，交付可操作的修复建议。工作流结构推理：旧流程依赖手动查询和专家经验，效率低。</p></div>
+        <div><span class="field-k">工作流推理</span><p>仓库 802 星显示关注；但采用和付费未核验。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 pgbot 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -131,28 +131,34 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它解决数据库管理员和开发者排查 Postgres 性能问题的痛点：定位慢查询、识别该修的索引，先给证据再让代理动手，痛点刚性且交付可确定。</p>
+          <p>它解决 Postgres 性能监控和优化的问题，提供证据驱动的智能分析，交付可操作的修复建议。工作流结构推理：旧流程依赖手动查询和专家经验，效率低。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://pgbot.dev" target="_blank" rel="noopener">pgbot · 2026-08-12 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>公开仓库有 770 收藏、35 复刻，说明社区关注，但缺乏持续采用或付费证据，共识停留在关注层面。</p>
+          <p>802 星显示关注，但缺乏用户评价或持续使用证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://pgbot.dev" target="_blank" rel="noopener">pgbot · 2026-08-12 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>未见付费主体、定价或单位经济，可能面向开发者或企业，但商业模式未验证。</p>
+          <p>未披露定价或付费主体，开源项目可能无直接商业模式。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。</p>
+          <p>交付确定性未验证，缺少可复现的公开测试或文档。</p>
         </article>
       </div>
     </details>
@@ -167,7 +173,7 @@
 <span class="tag sig">跨国机会</span>    </div>
     <div class="decision-grid">
       <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：早期出现<br>需求证据：尚未核验</p><p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-08-29</p></div>
-      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-27。未发现仅限该覆盖范围。 · 2026-08-27</p></div>
+      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-29。未发现仅限该覆盖范围。 · 2026-08-29</p></div>
     </div>
   </section>
 
@@ -209,7 +215,7 @@
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 198 个 →
+        AI + 开发 共 233 个 →
       </a>
     </div>
     <ul class="rows">
@@ -302,7 +308,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>597 个案例 · 180 份生意判断</span>
+    <span>726 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-08-29</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
