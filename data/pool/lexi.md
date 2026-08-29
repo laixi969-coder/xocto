@@ -11,19 +11,34 @@ inspiration_en: 'The trend is that vertical benches sell one thing: pulling a pr
   Don''t ship standalone contract review. Start with firm grunt work — timelines, first drafts, risky
   clauses. Enterprise pricing; the public list price is undisclosed.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/lexi-5
 canonical_url: https://producthunt.com/products/lexi-5
 summary: The operating system for legal work
 first_seen: '2026-08-10T18:11:41Z'
-last_seen: '2026-08-11T11:08:03Z'
-status: analyzed
+last_seen: '2026-08-29T03:43:28Z'
+status: pending_filter
 sources:
 - producthunt
+- officialfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/lexi-5
   seen_at: '2026-08-11T11:08:03Z'
   metrics: {}
+  kind: product
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/
+  seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
 ---
 
 # Lexi

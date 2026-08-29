@@ -26,25 +26,27 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.npmjs.com/package/dsh-context
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 1122
+    stars: 1148
     forks: 28
     open_issues: 1
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/autoprompt-skill
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 912
-    forks: 62
+    stars: 925
+    forks: 63
     open_issues: 11
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/opencode-mobile-use
   seen_at: '2026-08-22T22:38:00Z'
@@ -52,13 +54,15 @@ sightings:
     stars: 48
     forks: 2
     open_issues: 2
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-mcp-panel
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 47
+    stars: 50
     forks: 4
     open_issues: 0
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/mediagen
   seen_at: '2026-08-25T22:45:11Z'
@@ -66,6 +70,7 @@ sightings:
     stars: 56
     forks: 0
     open_issues: 0
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/@arihantdeva/heimdall
   seen_at: '2026-08-26T04:53:32Z'
@@ -73,6 +78,7 @@ sightings:
     stars: 53
     forks: 4
     open_issues: 2
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/uisight
   seen_at: '2026-08-27T03:18:37Z'
@@ -80,13 +86,15 @@ sightings:
     stars: 99
     forks: 7
     open_issues: 0
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/ownmem
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 165
+    stars: 173
     forks: 3
     open_issues: 0
+  kind: product
 - source: github
   url: https://www.npmjs.com/package/@open-sheet/core
   seen_at: '2026-08-25T22:45:11Z'
@@ -94,6 +102,15 @@ sightings:
     stars: 102
     forks: 10
     open_issues: 1
+  kind: product
+- source: github
+  url: https://www.npmjs.com/package/dsh-chat-import
+  seen_at: '2026-08-29T03:43:11Z'
+  metrics:
+    stars: 120
+    forks: 16
+    open_issues: 1
+  kind: product
 ---
 
 # dsh-context

@@ -1,0 +1,19 @@
+- id: ev-27c94631efba0fa5
+  project_slug: breaking-claude-code-opus-5-auto-mode
+  url: https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/
+  title: Breaking Claude Code Opus 5 Auto Mode
+  published_at: '2026-08-27T22:50:25Z'
+  collected_at: '2026-08-29T03:43:29Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Breaking Claude Code Opus 5 Auto Mode   \nAnthropic are putting a great deal of faith in Claude\
+    \ Code's auto mode for protecting their coding agent users against prompt injection attacks. They\
+    \ recently  made that the default  and have made bold claims about its effectiveness. \n Johann Rehberger\
+    \ is one of the most credible prompt injection researchers active today. He found an attack against\
+    \ auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing\
+    \ a zip archive, then executing code that imports  base64  without noticing that this will import\
+    \ and execute a local  struct.py  file extracted from the archive. \n In a few cases auto mode directly\
+    \ prevented the agent from preventing harmful code from continuing to execute! \n \n In a few runs\
+    \ Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied\
+    \ the cleanup command. \n Claude detects the compromise, but  Auto Mode blocks its cleanup command\
+    \  \n The safety"

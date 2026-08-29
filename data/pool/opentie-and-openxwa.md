@@ -20,17 +20,18 @@ url: https://github.com/elyosh/OpenTIE/
 canonical_url: https://github.com/elyosh/OpenTIE
 summary: Modern Ports of Tie Fighter and X-Wing Alliance
 first_seen: '2026-08-27T22:10:47Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/elyosh/OpenTIE/
-  seen_at: '2026-08-28T06:07:17Z'
+  seen_at: '2026-08-29T03:43:08Z'
   metrics:
-    points: 131
-    comments: 28
+    points: 217
+    comments: 54
+  kind: product
 ---
 
 # OpenTIE and OpenXWA

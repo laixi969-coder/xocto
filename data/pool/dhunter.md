@@ -34,18 +34,19 @@ url: https://github.com/Dest1ny-Sec/dhunter
 canonical_url: https://github.com/Dest1ny-Sec/dhunter
 summary: AI 驱动的自主渗透测试平台：输入目标，AI agent 自动完成侦察→规划→主动测试→漏洞验证→报告生成。黑板引擎+多 worker+SRC 验收门禁。仅供学术与安全研究使用。
 first_seen: '2026-08-15T15:28:31Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Dest1ny-Sec/dhunter
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 51
+    stars: 52
     forks: 7
     open_issues: 2
+  kind: product
 ---
 
 # dhunter

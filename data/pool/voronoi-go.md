@@ -22,17 +22,18 @@ summary: I posted once before but wanted to share again because a lot has change
   fairly strong bot to play against (contributed by a community member) and also correspondence games.
   The combination of these t…
 first_seen: '2026-08-27T18:03:37Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://voronoigo.com/
-  seen_at: '2026-08-28T06:07:17Z'
+  seen_at: '2026-08-29T03:43:08Z'
   metrics:
-    points: 108
-    comments: 15
+    points: 154
+    comments: 26
+  kind: product
 ---
 
 # Voronoi Go

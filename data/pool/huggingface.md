@@ -60,16 +60,64 @@ summary: "上次我做了一份 2023 年的 AI 论文数据集，有 7000 多篇
   \ CoRL 、ICRA 、IROS 、RSS 等机器人领域的重要会议。除了核心问题、方法和实验结果，还会继续往下拆动作空间、观测空间、传感器配置、真实机器人平台，以及 sim-to-real 方法。\r\
   \n\r\n有需要的老哥可以先关注一下，谢谢。"
 first_seen: '2026-08-25T11:56:36Z'
-last_seen: '2026-08-25T22:45:06Z'
-status: queued
+last_seen: '2026-08-29T03:43:33Z'
+status: pending_filter
 sources:
 - v2ex
+- marketfeeds
+- newssearch
 sightings:
 - source: v2ex
   url: https://huggingface.co/datasets/JensCS/top-ml-conference-papers-2024
   seen_at: '2026-08-25T22:45:06Z'
   metrics:
     comments: 1
+  kind: product
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-nvidia-buys-huggingface-for
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/nvidia-hugging-face-acquisition-deal/
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAFBVV95cUxNajlLTTI2MDh1WmN2QmR2dlBlS1Jxb2hyU0pPOXh1dGRSand0TnFENlRNZ0dmay1pRVY3aC1aenQtblpIQi1oeXBYSk5zZHJJalVScVQ5WjlTY0xHYWd5M1dIQ1NzMzdYM0Nlb1RHNDBXX0RNUXNvYTFiTnZ5Ym56Rg?oc=5
+  seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
 ---
 
 # Huggingface

@@ -8,11 +8,19 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://modelmap.cc
 canonical_url: https://modelmap.cc
 summary: animated architecture of any HuggingFace models
 first_seen: '2026-08-18T23:57:36Z'
-last_seen: '2026-08-19T22:41:21Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - hackernews
@@ -23,6 +31,14 @@ sightings:
   metrics:
     points: 106
     comments: 11
+  kind: product
+- source: hackernews
+  url: https://cartographia40k.com/
+  seen_at: '2026-08-29T03:43:08Z'
+  metrics:
+    points: 129
+    comments: 43
+  kind: news
 ---
 
 # Interactive

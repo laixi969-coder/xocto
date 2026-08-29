@@ -1,0 +1,12 @@
+- id: ev-6ab7e0713fd80a3d
+  project_slug: reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-e
+  url: https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/
+  title: Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2
+  published_at: '2026-08-27T16:05:10Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Serving automatic speech recognition (ASR) models at scale is costly when each request uses only
+    a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference
+    Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency
+    at 92.1 requests per second per GPU.

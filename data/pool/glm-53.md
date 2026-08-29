@@ -10,19 +10,49 @@ inspiration_en: 'The trend is that post-training, not a bigger base, is how labs
   Don’t train a foundation model. Enter by selling verifiable expert environments—coding, finding bugs,
   finishing long jobs. Judgement: environments get paid before another model does.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/z-ai
 canonical_url: https://producthunt.com/products/z-ai
 summary: Coding leap from scaled post-training on the same base
 first_seen: '2026-08-14T06:21:52Z'
-last_seen: '2026-08-15T22:37:12Z'
-status: queued
+last_seen: '2026-08-29T03:43:29Z'
+status: pending_filter
 sources:
 - producthunt
+- hackernews
+- huggingface
+- marketfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/z-ai
   seen_at: '2026-08-15T22:37:12Z'
   metrics: {}
+  kind: product
+- source: hackernews
+  url: https://huggingface.co/zai-org/GLM-5.3
+  seen_at: '2026-08-29T03:43:08Z'
+  metrics:
+    points: 616
+    comments: 216
+  kind: news
+- source: huggingface
+  url: https://huggingface.co/spaces/akhaliq/GLM-5.3
+  seen_at: '2026-08-29T03:43:27Z'
+  metrics:
+    likes: 2
+  kind: product
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/08/480223.html
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
 ---
 
 # GLM-5.3

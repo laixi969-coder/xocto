@@ -11,26 +11,42 @@ inspiration_en: The trend is custom requests never clearing the backlog, so let 
   your product. Enter reports, approval flows, and personal dashboards—modules every company wants and
   no two companies share.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/vendo
 canonical_url: https://producthunt.com/products/vendo
 summary: Let your users build their own features inside your product
 first_seen: '2026-08-16T22:13:45Z'
-last_seen: '2026-08-21T22:41:50Z'
-status: queued
+last_seen: '2026-08-29T03:43:28Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
+- officialfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/vendo
   seen_at: '2026-08-17T22:41:16Z'
   metrics: {}
+  kind: product
 - source: hackernews
   url: https://github.com/runvendo/vendo
   seen_at: '2026-08-21T22:41:50Z'
   metrics:
     points: 57
     comments: 22
+  kind: product
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/deepgram-deepens-amazon-sagemaker-ai-observability-with-enhanced-metrics/
+  seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
 ---
 
 # Vendo

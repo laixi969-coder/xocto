@@ -21,18 +21,19 @@ canonical_url: https://github.com/Vendredi218/awesome-ai-harness
 summary: The model is the engine; the harness is the car. Curated knowledge on harness engineering — context
   management, tool design, agent loops, memory, sandboxing, evals. EN/中文
 first_seen: '2026-08-16T04:57:52Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Vendredi218/awesome-ai-harness
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 154
+    stars: 164
     forks: 3
     open_issues: 0
+  kind: product
 ---
 
 # awesome-ai-harness

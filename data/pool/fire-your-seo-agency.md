@@ -39,7 +39,7 @@ canonical_url: https://github.com/leopard627/fire-your-seo-agency
 summary: Fire your SEO·GEO agency 🔥 A Claude Code skill that audits and optimizes SEO·AEO·GEO·LLMO·NEO(Naver)
   by itself — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다
 first_seen: '2026-08-26T23:47:02Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: queued
 sources:
 - github
@@ -51,13 +51,15 @@ sightings:
     stars: 48
     forks: 17
     open_issues: 0
+  kind: product
 - source: github
   url: https://www.chickstockfi.com
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 275
-    forks: 74
+    stars: 333
+    forks: 87
     open_issues: 0
+  kind: product
 ---
 
 # fire-your-seo-agency

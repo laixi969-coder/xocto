@@ -35,18 +35,19 @@ canonical_url: https://open-sheet.dev
 summary: The spreadsheet framework built for agents — write the model as React, export a live .xlsx. The
   third medium, after open-slide and open-doc.
 first_seen: '2026-08-18T07:15:17Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://open-sheet.dev
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 117
-    forks: 11
+    stars: 119
+    forks: 12
     open_issues: 1
+  kind: product
 ---
 
 # open-sheet

@@ -28,18 +28,19 @@ canonical_url: https://github.com/Ouru77/ev-assistant
 summary: '🕸️ E.V. — Peter Parker''s homemade AI from Spider-Man: Brand New Day, running locally on YOUR
   PC. Voice assistant + cyber HUD, real PC control, long-term memory. Whisper + Ollama, no cloud. TR/EN.'
 first_seen: '2026-08-09T13:21:31Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Ouru77/ev-assistant
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 51
+    stars: 52
     forks: 10
     open_issues: 0
+  kind: product
 ---
 
 # ev-assistant

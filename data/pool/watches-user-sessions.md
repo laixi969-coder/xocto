@@ -20,17 +20,18 @@ url: https://github.com/opslane/opslane
 canonical_url: https://github.com/opslane/opslane
 summary: finds bugs that matter, and fixes them
 first_seen: '2026-08-27T15:45:16Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/opslane/opslane
-  seen_at: '2026-08-28T06:07:17Z'
+  seen_at: '2026-08-29T03:43:08Z'
   metrics:
-    points: 18
-    comments: 4
+    points: 35
+    comments: 11
+  kind: product
 ---
 
 # Watches user sessions

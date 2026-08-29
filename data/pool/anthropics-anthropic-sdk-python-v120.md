@@ -1,0 +1,100 @@
+---
+slug: anthropics-anthropic-sdk-python-v120
+name: 'anthropics/anthropic-sdk-python: v1.2.0'
+builder: anthropics
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: open_source
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: true
+url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0
+canonical_url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0
+summary: '## 1.2.0 (2026-08-27)
+
+
+  Full Changelog: [v1.1.0...v1.2.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.1.0...v1.2.0)
+
+
+  ### Features
+
+
+  * **api:** beta files/skills namespaces use GA shapes; drop dated beta header pins ([9df4565](https://github.com/anthropics/anthropic-sdk-python/commit/9df4565fdfe4eec941809a0a3d1615ee11e16b68))
+
+
+
+  ### Bug Fixes
+
+
+  * **aws,bedrock:** sign raw request bytes so binary file uploads work ([#531](https://github.com/anthropics/anthropic-sdk-python/issues/531))
+  ([f50e910](https://github.com/anthropics/anthropic-sdk-python/commit/f50e9106c002d71966f5f8027758b3d703999936))
+
+  * **ci:** resolve assignment aliases in detect-breaking-changes ([f2c4925](https://github.com/anthropics/anthropic-sdk-python/commit/f2c49254941b4d700fe97cbe6bb85205b06a6460))
+
+  * **sessions:** make event accumulator forward-compatible with new event types ([#533](https://github.com/anthropics/anthropic-sdk-python/issues/533))
+  ([cbbaf6e](https://github.com/anthropics/anthropic-sdk-python/commit/cbbaf6e46358d5c844eac01ed3c50a797daf93a7))
+
+  * **tools:** let read return a view_range of a file over the size cap ([#538](https://github.com/anthropics/anthropic-sdk-python/issues/538))
+  ([b68e876](https://github.com/anthropics/anthropic-sdk-python/commit/b68e876345bde1ecc099ef245e87b1319dc8d080))
+
+  * **tools:** preserve exact file bytes in the agent toolset and memory tool (no newline translation)
+  ([#540](https://github.com/anthropics/anthropic-sdk-python/issues/540)) ([56921a8](https://github.com/anthropics/anthropic-sdk-python/commit/56921a8c04e0ec71192fcd22dd28db2a5e1306f7))
+
+  * **webhooks:** require headers to be passed to `unwrap()` ([0baa902](https://github.com/anthropics/anthropic-sdk-python/commit/0baa90225359f6b4bec50476c19bb52c2ad4250d))
+
+
+
+  ### Documentation
+
+
+  * **api:** clarify pagination on the organization rate-limit list endpoints ([1832b27](https://github.com/anthropics/anthropic-sdk-python/commit/1832b27d0751943640cb898bb77c088ea3f24acb))'
+first_seen: '2026-08-27T20:28:58Z'
+last_seen: '2026-08-29T03:43:11Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.2.0
+  seen_at: '2026-08-29T03:43:11Z'
+  metrics:
+    reactions: 0
+  kind: news
+---
+
+# anthropics/anthropic-sdk-python: v1.2.0
+
+## 1.2.0 (2026-08-27)
+
+Full Changelog: [v1.1.0...v1.2.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.1.0...v1.2.0)
+
+### Features
+
+* **api:** beta files/skills namespaces use GA shapes; drop dated beta header pins ([9df4565](https://github.com/anthropics/anthropic-sdk-python/commit/9df4565fdfe4eec941809a0a3d1615ee11e16b68))
+
+
+### Bug Fixes
+
+* **aws,bedrock:** sign raw request bytes so binary file uploads work ([#531](https://github.com/anthropics/anthropic-sdk-python/issues/531)) ([f50e910](https://github.com/anthropics/anthropic-sdk-python/commit/f50e9106c002d71966f5f8027758b3d703999936))
+* **ci:** resolve assignment aliases in detect-breaking-changes ([f2c4925](https://github.com/anthropics/anthropic-sdk-python/commit/f2c49254941b4d700fe97cbe6bb85205b06a6460))
+* **sessions:** make event accumulator forward-compatible with new event types ([#533](https://github.com/anthropics/anthropic-sdk-python/issues/533)) ([cbbaf6e](https://github.com/anthropics/anthropic-sdk-python/commit/cbbaf6e46358d5c844eac01ed3c50a797daf93a7))
+* **tools:** let read return a view_range of a file over the size cap ([#538](https://github.com/anthropics/anthropic-sdk-python/issues/538)) ([b68e876](https://github.com/anthropics/anthropic-sdk-python/commit/b68e876345bde1ecc099ef245e87b1319dc8d080))
+* **tools:** preserve exact file bytes in the agent toolset and memory tool (no newline translation) ([#540](https://github.com/anthropics/anthropic-sdk-python/issues/540)) ([56921a8](https://github.com/anthropics/anthropic-sdk-python/commit/56921a8c04e0ec71192fcd22dd28db2a5e1306f7))
+* **webhooks:** require headers to be passed to `unwrap()` ([0baa902](https://github.com/anthropics/anthropic-sdk-python/commit/0baa90225359f6b4bec50476c19bb52c2ad4250d))
+
+
+### Documentation
+
+* **api:** clarify pagination on the organization rate-limit list endpoints ([1832b27](https://github.com/anthropics/anthropic-sdk-python/commit/1832b27d0751943640cb898bb77c088ea3f24acb))
+
+## 笔记
+
+

@@ -34,7 +34,7 @@ url: https://github.com/ThinkOffApp/CarWatch
 canonical_url: https://github.com/ThinkOffApp/CarWatch
 summary: I made a Raspberry with Qwen my local car AI
 first_seen: '2026-08-25T15:20:20Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: queued
 sources:
 - hackernews
@@ -46,13 +46,15 @@ sightings:
   metrics:
     points: 144
     comments: 55
+  kind: product
 - source: github
   url: https://carwatch.dev
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 233
-    forks: 10
-    open_issues: 3
+    stars: 248
+    forks: 13
+    open_issues: 5
+  kind: product
 ---
 
 # CarWatch

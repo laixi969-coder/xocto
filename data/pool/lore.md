@@ -28,10 +28,12 @@ url: https://github.com/hsusul/lore
 canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
-last_seen: '2026-08-28T06:07:21Z'
-status: queued
+last_seen: '2026-08-29T03:43:33Z'
+status: pending_filter
 sources:
 - github
+- marketfeeds
+- newssearch
 sightings:
 - source: github
   url: https://github.com/hsusul/lore
@@ -40,6 +42,17 @@ sightings:
     stars: 143
     forks: 40
     open_issues: 0
+  kind: product
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSFVWN3FKLWZZbHNqUGUxaUZlZ1pOb1oxU0dJbFNNLTVPWHJkY01jeXNjWFE3TE5DOEVCaU92N2E2T1FNeDJ5N2tmVHFwcHVFb1J2RWhpZjRIdmhpMTBBX3pqRjQ0ZGkwVVZJak1qQUZUWXc4OEVWc3lYZ1U5WHhnaGFqUUpFQ0FmcEFvSjFzMU9HdWxLb2l2ankycFV0ekFrN1RlQ09Ha2oyeUU?oc=5
+  seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
 ---
 
 # lore

@@ -1,0 +1,11 @@
+- id: ev-557cc6a0ecf81740
+  project_slug: spreading-the-load-how-salesforce-met-multi-az-ha-with-sagem
+  url: https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/
+  title: 'Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components'
+  published_at: '2026-08-28T16:20:40Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig
+    parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high
+    availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.

@@ -11,14 +11,23 @@ inspiration_en: 'The trend is code shipping faster than testers can follow. The 
   writes and humans cannot verify in time. Judgment: start with login, checkout, and payment paths that
   fail loudly, not an all-purpose test platform.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/argus-testing/argus
 canonical_url: https://github.com/argus-testing/argus
 summary: agentic QA for teams whose coding agents move faster than QA
 first_seen: '2026-08-18T19:10:16Z'
-last_seen: '2026-08-19T22:41:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: queued
 sources:
 - hackernews
+- github
 sightings:
 - source: hackernews
   url: https://github.com/argus-testing/argus
@@ -26,6 +35,15 @@ sightings:
   metrics:
     points: 8
     comments: 9
+  kind: product
+- source: github
+  url: https://argustest.com
+  seen_at: '2026-08-29T03:43:11Z'
+  metrics:
+    stars: 40
+    forks: 0
+    open_issues: 0
+  kind: product
 ---
 
 # Argus

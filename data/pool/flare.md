@@ -31,11 +31,12 @@ url: https://github.com/AlgoNoRhythm/Flare
 canonical_url: https://github.com/AlgoNoRhythm/Flare
 summary: The graph based agentic IDE
 first_seen: '2026-08-02T17:49:32Z'
-last_seen: '2026-08-25T22:45:07Z'
-status: queued
+last_seen: '2026-08-29T03:43:33Z'
+status: pending_filter
 sources:
 - github
 - producthunt
+- newssearch
 sightings:
 - source: github
   url: https://github.com/AlgoNoRhythm/Flare
@@ -44,10 +45,17 @@ sightings:
     stars: 123
     forks: 23
     open_issues: 2
+  kind: product
 - source: producthunt
   url: https://www.producthunt.com/products/flare-11
   seen_at: '2026-08-25T22:45:07Z'
   metrics: {}
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOU0NJaUpRUk9FX3JpYnFpMUdUN3R6eXZvYmRPbTNhVjlyTFZqRmtNeUdnMXJKNjJBS194alJmWTlSbkNjSjM1WGtvNGhsaFFQZXJRdEx5TG1rQnpDRXc?oc=5
+  seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
 ---
 
 # Flare

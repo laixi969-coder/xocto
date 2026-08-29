@@ -1,0 +1,41 @@
+---
+slug: ai-deployment-by-logistics-firms-cuts-rtos-by-up-to-20-for-d
+name: AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaFhiYXlKb2R3OFZ1UEFOWnBhSDBob3lHZE1fZlVfcUxMZkhwYVg2bXkyQ3h5OExxVWlfS2MxZDU0MV9wRGl5QmFJZTBDRl9uMGp3d1lGbDRTSEd1b2V0UWZuVFNlVHhCR0ZZLW41VUl0UWc0cTVleE9rMUszME91emZkWWdLdFhYQmRmLTlMQUEwQlpYTHAwZzVxODNKVmNoeFhjQXdKUkdMa1FrOEk3V3MwWnFyRTZCUzkwZ0JMV2RFcHR1OFd3M3pDb3hXalRJazY40gHYAUFVX3lxTE90T2JRRkc2RElYTjR2OFNZUnZubzJBRWNMcmtCVU5QOWwtdEpLYzVtdjl3YkF1UVZMUzgxbjBuQ3c5d25HR2JuY3V5NjFYeTFuU2tHWGxZVWc4ZjhmVE8yQjFEQTY3NFl0M0Vvc0NXQkJXSzQzcnpFYjlFSFJFR2Zqc1ZKYWtwVElpWk5zOWFMSzl3SEJIMTVtQnQxZ0o1QnlGOGc0S24xT2IxSXJhVmNYRnZseFJIOUtZTVVtaWJMa3VkMXcyMGkwTFdxdENqMURFNTRGbElKVw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaFhiYXlKb2R3OFZ1UEFOWnBhSDBob3lHZE1fZlVfcUxMZkhwYVg2bXkyQ3h5OExxVWlfS2MxZDU0MV9wRGl5QmFJZTBDRl9uMGp3d1lGbDRTSEd1b2V0UWZuVFNlVHhCR0ZZLW41VUl0UWc0cTVleE9rMUszME91emZkWWdLdFhYQmRmLTlMQUEwQlpYTHAwZzVxODNKVmNoeFhjQXdKUkdMa1FrOEk3V3MwWnFyRTZCUzkwZ0JMV2RFcHR1OFd3M3pDb3hXalRJazY40gHYAUFVX3lxTE90T2JRRkc2RElYTjR2OFNZUnZubzJBRWNMcmtCVU5QOWwtdEpLYzVtdjl3YkF1UVZMUzgxbjBuQ3c5d25HR2JuY3V5NjFYeTFuU2tHWGxZVWc4ZjhmVE8yQjFEQTY3NFl0M0Vvc0NXQkJXSzQzcnpFYjlFSFJFR2Zqc1ZKYWtwVElpWk5zOWFMSzl3SEJIMTVtQnQxZ0o1QnlGOGc0S24xT2IxSXJhVmNYRnZseFJIOUtZTVVtaWJMa3VkMXcyMGkwTFdxdENqMURFNTRGbElKVw?oc=5
+summary: AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups Business Standard
+first_seen: '2026-08-28T03:58:59Z'
+last_seen: '2026-08-29T03:43:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaFhiYXlKb2R3OFZ1UEFOWnBhSDBob3lHZE1fZlVfcUxMZkhwYVg2bXkyQ3h5OExxVWlfS2MxZDU0MV9wRGl5QmFJZTBDRl9uMGp3d1lGbDRTSEd1b2V0UWZuVFNlVHhCR0ZZLW41VUl0UWc0cTVleE9rMUszME91emZkWWdLdFhYQmRmLTlMQUEwQlpYTHAwZzVxODNKVmNoeFhjQXdKUkdMa1FrOEk3V3MwWnFyRTZCUzkwZ0JMV2RFcHR1OFd3M3pDb3hXalRJazY40gHYAUFVX3lxTE90T2JRRkc2RElYTjR2OFNZUnZubzJBRWNMcmtCVU5QOWwtdEpLYzVtdjl3YkF1UVZMUzgxbjBuQ3c5d25HR2JuY3V5NjFYeTFuU2tHWGxZVWc4ZjhmVE8yQjFEQTY3NFl0M0Vvc0NXQkJXSzQzcnpFYjlFSFJFR2Zqc1ZKYWtwVElpWk5zOWFMSzl3SEJIMTVtQnQxZ0o1QnlGOGc0S24xT2IxSXJhVmNYRnZseFJIOUtZTVVtaWJMa3VkMXcyMGkwTFdxdENqMURFNTRGbElKVw?oc=5
+  seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+---
+
+# AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups
+
+AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups Business Standard
+
+## 笔记
+
+

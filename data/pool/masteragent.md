@@ -24,18 +24,19 @@ url: https://www.opensparx.ai
 canonical_url: https://opensparx.ai
 summary: Build AI agents that run 100% on-device. Sub-100ms latency on Qualcomm NPU. Zero cloud dependency.
 first_seen: '2026-08-10T18:43:36Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.opensparx.ai
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
     stars: 390
-    forks: 11
+    forks: 12
     open_issues: 3
+  kind: product
 ---
 
 # MasterAgent

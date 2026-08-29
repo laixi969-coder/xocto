@@ -1,0 +1,32 @@
+- id: ev-b5300e6f39505076
+  project_slug: local
+  url: https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/
+  title: Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India
+  published_at: '2026-08-27T18:36:08Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic
+    cross-Region inference. If you have local data processing requirements, you can now use these models
+    at scale while Amazon Bedrock keeps inference requests and data within India.
+- id: ev-cd13b8720ba5a56e
+  project_slug: local
+  url: https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/
+  title: 'Bring your own model with Amazon SageMaker AI: Script mode in SDK v3'
+  published_at: '2026-08-26T16:31:32Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes.
+    This post walks through two end-to-end examples, a scikit-learn Random Forest and a multi-GPU Stable
+    Diffusion 3.5 LoRA fine-tune, showing how SourceCode syncs your local code into any container at runtime
+    so you can iterate without rebuilding Docker images.
+- id: ev-771770deb3377daf
+  project_slug: local
+  url: https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/
+  title: IBM's new Granite 4.2 models ride the wave of interest in local LLMs
+  published_at: '2026-08-26T11:10:49Z'
+  collected_at: '2026-08-29T03:43:29Z'
+  source_kind: market_signal
+  tier: independent
+  fact: The focus is on agentic capability and predictable enterprise deployment.

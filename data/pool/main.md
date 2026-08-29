@@ -10,14 +10,23 @@ inspiration_en: 'The trend is agents clicking desktop software for people; if th
   the whole chain is junk. Don’t sell generic screen robots. Enter at office and chat windows people click
   every day, and verify each step. Judgement: receipt-style checks outsell script packs.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/lahfir/agent-desktop/tree/main
 canonical_url: https://github.com/lahfir/agent-desktop/tree/main
 summary: I spent 3 months making desktop automation stop lying to AI agents
 first_seen: '2026-08-15T05:07:25Z'
-last_seen: '2026-08-15T22:37:12Z'
-status: queued
+last_seen: '2026-08-29T03:43:28Z'
+status: pending_filter
 sources:
 - hackernews
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://github.com/lahfir/agent-desktop/tree/main
@@ -25,6 +34,12 @@ sightings:
   metrics:
     points: 6
     comments: 0
+  kind: product
+- source: officialfeeds
+  url: https://machinelearning.apple.com/research/llms-not-consistently-bayesian
+  seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
 ---
 
 # main

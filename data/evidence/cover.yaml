@@ -16,3 +16,43 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 网络安全 开发者 安全工程师'
+- id: ev-e89cc95c9b4310a5
+  project_slug: cover
+  url: https://aws.amazon.com/blogs/machine-learning/batch-write-and-discover-records-in-amazon-sagemaker-feature-store/
+  title: Batch write and discover records in Amazon SageMaker Feature Store
+  published_at: '2026-08-28T19:31:05Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Amazon SageMaker Feature Store now supports two new APIs: BatchWriteRecord writes up to 25 records
+    across multiple feature groups in a single call, and ListRecords enumerates record identifiers within
+    a feature group. In this post, we walk through each API with code examples you can use to get started.'
+- id: ev-dbcb8383c53ca8c6
+  project_slug: cover
+  url: https://aws.amazon.com/blogs/machine-learning/preparing-data-for-supervised-fine-tuning-part-1-formatting-and-quality/
+  title: 'Preparing data for supervised fine-tuning Part 1: Formatting and quality'
+  published_at: '2026-08-26T16:24:02Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Data preparation determines the ceiling of any supervised fine-tuning project. This first post
+    in a two-part series covers the foundations of SFT data prep: quality checks, conversational (JSONL)
+    formatting, reasoning and tool-calling schemas, and a representative train/evaluation split.'
+- id: ev-51bdd10a41243dbc
+  project_slug: cover
+  url: https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/
+  title: Meta makes AI glasses slightly less creepy with limit on nonconsensual recording
+  published_at: '2026-08-28T15:42:24Z'
+  collected_at: '2026-08-29T03:43:29Z'
+  source_kind: market_signal
+  tier: independent
+  fact: Meta fixes AI glasses to stop recording any time users cover up the safety light.
+- id: ev-cc41ae3e26b30e21
+  project_slug: cover
+  url: https://news.google.com/rss/articles/CBMi-gFBVV95cUxNQ3BiVU54T3ZUbDdUMWstU01lN090eFJ5QjVDVnluTHRIR2RBUUNNZ01oSS02ZG9VZ3dLUTlPRWpqS21KM1dmS184cWN5RThZbkdySWVhQW43ZFI3VFpLcVZFTkZnRWY1dGFoYUxZcnJmZ0x1ck9HZGJ1Tl9seW05dm1WQW1nUVc1OXh6aVlXOEludllqMklGMUk3bk1uaE1RUnhmaTdnMHpMYzZqV05tX2ZQRm9IUndTZWYyUGpYWWE5bFRyTWMybnQtNjdobjJLOUNHTVRxTjJhZl9KVmRxUWZOVGVSNzc2NHNqcmhDSmtrOU81TUJNY3pR?oc=5
+  title: How Digital Growth Agencies Are Adapting SEO to AEO for an AI-First Discovery World
+  published_at: '2026-08-27T15:12:00Z'
+  collected_at: '2026-08-29T03:43:33Z'
+  source_kind: pain
+  tier: independent
+  fact: How Digital Growth Agencies Are Adapting SEO to AEO for an AI-First Discovery World USA Today

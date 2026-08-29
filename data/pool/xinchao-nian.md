@@ -30,18 +30,19 @@ url: https://github.com/tianyupaipai-cmd/xinchao-nian
 canonical_url: https://github.com/tianyupaipai-cmd/xinchao-nian
 summary: 心潮念（Xinchao·Nian）— 会惦记你的AI心智：心潮动态驱力引擎 + Ombre Brain 记忆库深度融合，一键联合部署。非商业(含OB二改约束)。
 first_seen: '2026-08-09T05:29:33Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tianyupaipai-cmd/xinchao-nian
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 122
-    forks: 56
+    stars: 125
+    forks: 58
     open_issues: 2
+  kind: product
 ---
 
 # xinchao-nian

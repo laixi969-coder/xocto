@@ -1,0 +1,12 @@
+- id: ev-2f395415bf6ee64f
+  project_slug: connect-amazon-bedrock-agentcore-to-cross-account-knowledge
+  url: https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-to-cross-account-knowledge-bases/
+  title: Connect Amazon Bedrock AgentCore to cross-account knowledge bases
+  published_at: '2026-08-26T15:48:10Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon
+    Bedrock knowledge base backed by Amazon Redshift Serverless in another account, without copying source
+    data. This post covers the architecture, security boundary, and two orchestration models: a code-based
+    Strands agent and a declarative AgentCore harness.'

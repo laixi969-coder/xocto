@@ -33,18 +33,19 @@ canonical_url: https://appllama.io/mcp
 summary: A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality
   mobile screens.
 first_seen: '2026-08-13T07:19:54Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://appllama.io/mcp
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 364
-    forks: 27
+    stars: 386
+    forks: 30
     open_issues: 0
+  kind: product
 ---
 
 # appllama-skills

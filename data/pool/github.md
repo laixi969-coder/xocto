@@ -51,26 +51,42 @@ summary: "大家好，最近做了一个原生 Windows 开发框架，叫做 **M
   \r\n项目地址：\r\n\r\nhttps://github.com/mwfl/mwfl\r\n\r\n文档：\r\n\r\nhttps://mwfl.github.io/\r\n\r\n业余 AI\
   \ 项目，欢迎尽情交流。"
 first_seen: '2026-08-23T06:15:09Z'
-last_seen: '2026-08-27T03:18:32Z'
-status: queued
+last_seen: '2026-08-29T03:43:11Z'
+status: pending_filter
 sources:
 - v2ex
+- github
 sightings:
 - source: v2ex
   url: https://github.com/mwfl/mwfl
   seen_at: '2026-08-23T14:45:38Z'
   metrics:
     comments: 3
+  kind: product
 - source: v2ex
   url: https://github.com/aipayim/codex-proxy
   seen_at: '2026-08-23T22:38:22Z'
   metrics:
     comments: 0
+  kind: product
 - source: v2ex
   url: https://github.com/seekskyworld/CreatPPT
   seen_at: '2026-08-27T03:18:32Z'
   metrics:
     comments: 1
+  kind: product
+- source: v2ex
+  url: https://github.com/gOODiDEA2002/lighttrans
+  seen_at: '2026-08-29T03:43:06Z'
+  metrics:
+    comments: 0
+  kind: product
+- source: github
+  url: https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0
+  seen_at: '2026-08-29T03:43:11Z'
+  metrics:
+    reactions: 0
+  kind: news
 ---
 
 # Github

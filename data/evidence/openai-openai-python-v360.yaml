@@ -1,0 +1,36 @@
+- id: ev-9cc25f11a0800ae3
+  project_slug: openai-openai-python-v360
+  url: https://github.com/openai/openai-python/releases/tag/v3.6.0
+  title: 'openai/openai-python: v3.6.0'
+  published_at: '2026-08-28T22:28:31Z'
+  collected_at: '2026-08-29T03:43:11Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## [3.6.0](https://github.com/openai/openai-python/compare/v3.5.0...v3.6.0) (2026-08-27)
+
+
+
+    ### Features
+
+
+    * **api:** add compute_units to Responses and Chat Completions usage ([#3749](https://github.com/openai/openai-python/issues/3749))
+    ([52421d1](https://github.com/openai/openai-python/commit/52421d197e96b4480fcc16e78345578996452c79))
+
+
+
+    ### Bug Fixes
+
+
+    * **auth:** harden X.509 workload identity integration ([#3740](https://github.com/openai/openai-python/issues/3740))
+    ([fc3ad6c](https://github.com/openai/openai-python/commit/fc3ad6c55a1a250e16707396e86d7373f690a0fc))
+
+
+
+    ### Chores
+
+
+    * **deps-dev:** bump @stdy/cli from 0.22.1 to 0.22.2 ([#3719](https://github.com/openai/openai-python/issues/3719))
+    ([4f5598c](https://github.com/openai/openai-python/commit/4f5598c8d822fcc281bb8862e424fa6ead310ca8))
+
+    * **deps-dev:** bump mypy from 1.17 to 2.3.1 ([#3747](https://github.com/openai/openai-python/issues/3747))
+    ([0b52c9e](https://github.com/openai/openai-python/commit/0b52c9ecbc2bfe7059a1273674dff'

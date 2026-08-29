@@ -32,18 +32,19 @@ canonical_url: https://github.com/sodiumsun/agenttrail
 summary: Local observability map for AI coding agents. Watch Claude Code, Codex, and Cursor plans, tool
   calls, file changes, and progress in real time.
 first_seen: '2026-08-21T21:14:33Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sodiumsun/agenttrail
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 284
-    forks: 17
+    stars: 332
+    forks: 22
     open_issues: 4
+  kind: product
 ---
 
 # agenttrail

@@ -20,17 +20,18 @@ url: https://news.ycombinator.com/item?id=49466715
 canonical_url: https://news.ycombinator.com/item?id=49466715
 summary: Software for industrial inspection robots
 first_seen: '2026-08-27T15:46:04Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49466715
-  seen_at: '2026-08-28T06:07:17Z'
+  seen_at: '2026-08-29T03:43:08Z'
   metrics:
-    points: 44
-    comments: 27
+    points: 47
+    comments: 31
+  kind: product
 ---
 
 # Salem Robotics (YC S26) – Software for industrial inspection

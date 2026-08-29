@@ -34,18 +34,19 @@ url: https://www.anysearch.com
 canonical_url: https://anysearch.com
 summary: AnySearch web search provider and advanced search tools for DeepSeek Harness (DSH)
 first_seen: '2026-08-13T15:10:10Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T03:43:11Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.anysearch.com
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T03:43:11Z'
   metrics:
-    stars: 318
-    forks: 6
+    stars: 332
+    forks: 7
     open_issues: 0
+  kind: product
 ---
 
 # anysearch-dsh

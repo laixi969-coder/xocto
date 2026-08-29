@@ -26,10 +26,54 @@
   next_validation: 追踪 Hootsuite 官方客户案例、产品更新或财报，寻找 Wisdom 功能级采用、重复使用或客户结果。
   market: ''
   job: 社媒团队要持续把实时受众讨论转成符合品牌语气、可跨渠道发布并能进入排期的内容。
-  job_en: Social teams need to turn live audience conversations into on-brand, cross-channel content that is ready to schedule.
+  job_en: Social teams need to turn live audience conversations into on-brand, cross-channel content that
+    is ready to schedule.
   pain: 创意枯竭会让内容生产停顿；逐个平台研究趋势、起草不同版本并整理日历，又带来高频重复劳动。
-  pain_en: Creative block stalls publishing, while researching trends, drafting channel variants, and assembling calendars creates recurring manual work.
+  pain_en: Creative block stalls publishing, while researching trends, drafting channel variants, and
+    assembling calendars creates recurring manual work.
   current_alternative: 运营人员手动浏览社交对话和历史内容，开会想选题，为各渠道分别写稿，再回到 Hootsuite 排期。
-  current_alternative_en: Operators manually scan conversations and past posts, brainstorm topics, draft each channel version, then return to Hootsuite to schedule.
+  current_alternative_en: Operators manually scan conversations and past posts, brainstorm topics, draft
+    each channel version, then return to Hootsuite to schedule.
   usage_reason: Wisdom 直接位于已有的监测、写作与排期环境，并使用社交趋势和品牌上下文；因此可减少在通用写作工具与 Hootsuite 之间切换。这是工作流结构判断，不是使用率数据。
-  usage_reason_en: Wisdom sits inside the monitoring, writing, and scheduling environment and uses social and brand context, reducing switches to a generic writer. This is workflow reasoning, not usage-rate data.
+  usage_reason_en: Wisdom sits inside the monitoring, writing, and scheduling environment and uses social
+    and brand context, reducing switches to a generic writer. This is workflow reasoning, not usage-rate
+    data.
+- id: req-initial-owlywriter-ai-by-hootsuite-2026-08-29
+  project_slug: owlywriter-ai-by-hootsuite
+  level: initial
+  reviewed_at: '2026-08-28T16:00:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它试图帮助用户完成：“社媒团队在 Hootsuite 内调用 Wisdom，从实时社交对话识别趋势，生成符合品牌语气的帖子，并整理活动与内容日历”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。
+    evidence_ids:
+    - ev-wisdom-content-ideation-pain
+  - gate: consensus
+    status: insufficient
+    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''
+  job: 社媒团队在 Hootsuite 内调用 Wisdom，从实时社交对话识别趋势，生成符合品牌语气的帖子，并整理活动与内容日历。
+  job_en: Social teams use Wisdom inside Hootsuite to identify trends from live social conversations,
+    draft on-brand posts, and assemble campaigns and content calendars.
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：社媒团队在 Hootsuite 内调用 Wisdom，从实时社交对话识别趋势，生成符合品牌语气的帖子，并整理活动与内容日历。；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Social teams use Wisdom inside Hootsuite
+    to identify trends from live social conversations, draft on-brand posts, and assemble campaigns and
+    content calendars. The exact adoption motive and repeat use are not yet verified.'

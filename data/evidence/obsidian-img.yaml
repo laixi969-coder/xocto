@@ -1,0 +1,17 @@
+- id: ev-86292c05ec3130ff
+  project_slug: obsidian-img
+  url: https://www.v2ex.com/t/1237893
+  title: 把千万级 Google Ads 标题的模糊查询从 6 秒压到 0.6 秒，我做了什么？
+  published_at: '2026-08-28T07:30:03Z'
+  collected_at: '2026-08-29T03:43:06Z'
+  source_kind: product
+  tier: independent
+  fact: "![公众号封面图]( https://obsidian-img.prodbox.cc/images/2026/08/27/a6940db7-99f2-473f-afa0-ac105dd5da53.png)\r\
+    \n\r\n> 发布摘要：SiteData 原来一次 Google Ads 标题模糊查询最快也要约 6 秒，我最后把搜索层换成 Manticore ，把查询压到约 0.6 秒，也让免费的 Ads\
+    \ 投放站点数从手动触发变成可以自然展示。\r\n\r\n大家好，我是饭特稀。\r\n\r\n最近给 SiteData 做了一次性能优化。\r\n\r\n这次优化不是为了让页面看起来更快一点，而是为了解决一个非常具体的问题：\r\
+    \n\r\n**千万级以上 Google Ads 标题和关键词数据，怎么做到可以实时模糊查询？**\r\n\r\n其实之前这个功能已经有了。\r\n\r\n比如你在 Google 搜索一个关键词，SiteData\
+    \ 插件会在搜索结果页里显示这个关键词最近 4 周大概有多少家网站在投放相关广告。\r\n\r\n![Google 搜索页里的 SiteData Ads 网站数]( https://obsidian-img.prodbox.cc/images/2026/08/27/ba37e15e-8cbf-4983-b2e6-da7eb00d2090.png)\r\
+    \n\r\n在插件里的热门关键词模块，也会显示每个关键词对应的 Ads 数量。\r\n\r\n这里的数字不是搜索量，也不是 CPC 。\r\n\r\n它更接近一个广告竞争信号：\r\n\r\n**最近\
+    \ 4 周，有多少个网站围绕这个关键词投过 Google Ads 。**\r\n\r\n![SiteData 插件热门关键词里的 Ads 数量]( https://obsidian-img.prodbox.cc/images/2026/08/27/56a22033-db66-4a88-8327-fe882eef1496.png)\r\
+    \n\r\n还有一点需要说明：\r\n\r\n**这个最近 4 周指定关键词投放站点的功能，目前是免费给用户看的。**\r\n\r\n它也不是一个只能看一眼的静态数字。\r\n\r\n用户可以直接点击这个数字，进入\
+    \ SiteData 的 Google Ads Analysis 详情页，看最近 4 周有哪些网站在围绕这个关键词投放广告。\r\n\r\n详情页里会列出相关站点、广告主、流量、DR ，以及进一步查看域名分析的"

@@ -20,17 +20,18 @@ url: https://github.com/patriceckhart/hrdx
 canonical_url: https://github.com/patriceckhart/hrdx
 summary: Yet another minimal and lightweight terminal multiplexer written in Go.
 first_seen: '2026-08-27T17:44:53Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/patriceckhart/hrdx
-  seen_at: '2026-08-28T06:07:17Z'
+  seen_at: '2026-08-29T03:43:08Z'
   metrics:
-    points: 33
+    points: 34
     comments: 16
+  kind: product
 ---
 
 # hrdx

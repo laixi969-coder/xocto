@@ -20,15 +20,24 @@ url: https://www.producthunt.com/products/gemini-3-5-transcribe
 canonical_url: https://producthunt.com/products/gemini-3-5-transcribe
 summary: Our most precise speech-to-text model yet
 first_seen: '2026-08-26T19:07:31Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - producthunt
+- hackernews
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/gemini-3-5-transcribe
   seen_at: '2026-08-28T06:07:17Z'
   metrics: {}
+  kind: product
+- source: hackernews
+  url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/
+  seen_at: '2026-08-29T03:43:08Z'
+  metrics:
+    points: 354
+    comments: 122
+  kind: news
 ---
 
 # Gemini 3.5 Transcribe

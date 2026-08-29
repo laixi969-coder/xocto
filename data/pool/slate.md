@@ -34,10 +34,12 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   production-ready prompts for any image, video, music, or voice generator. No API keys. Suggested Donation
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
-last_seen: '2026-08-23T22:38:28Z'
-status: queued
+last_seen: '2026-08-29T03:43:33Z'
+status: pending_filter
 sources:
 - github
+- marketfeeds
+- newssearch
 sightings:
 - source: github
   url: https://github.com/wassermanproductions/slate
@@ -46,6 +48,17 @@ sightings:
     stars: 61
     forks: 6
     open_issues: 1
+  kind: product
+- source: marketfeeds
+  url: https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue
+  seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQR3dyVGlzQ0VtVnlGbEpkNXdCRDdOa1VFMzJVMDlCakVJM1RLdG44bEQ1SktJeGcyeFRQUEFpRXYyNkw3TmRhMUxMeEoxM3E2WXZIQ09TOEhlbDNMc0FXem85Mm1ibGFBdUgzTDNPRHJzTTNKaHlUOWxERmtJOGNTR1ZXZmNVTWxMam13U2dfeVFNMGExdVF4c1pCZENlYzVNM1lHdDZlcXI4RjZyb3Y4WkNtTmhabm41N0xTVUo2UEtiUmwxTnd1dkhOQQ?oc=5
+  seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
 ---
 
 # slate

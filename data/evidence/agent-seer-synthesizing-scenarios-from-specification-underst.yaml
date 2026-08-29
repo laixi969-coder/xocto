@@ -1,0 +1,14 @@
+- id: ev-51b564e335695741
+  project_slug: agent-seer-synthesizing-scenarios-from-specification-underst
+  url: https://machinelearning.apple.com/research/agent-seer-synthesizing-scenarios
+  title: 'Agent Seer: Synthesizing Scenarios from Specification Understanding'
+  published_at: '2026-08-28T00:00:00Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Evaluating AI agents that use external tools requires realistic test scenarios that capture how
+    practitioners compose tools and iterate across conversation turns. Constructing such scenarios by
+    hand demands deep domain expertise, does not scale across tool ecosystems, and produces static benchmarks
+    that cannot track evolving APIs. We observe that tool specifications—function names, natural-language
+    descriptions, and typed parameter schemas—already encode sufficient semantic information to synthesize
+    realistic evaluation scenarios without manual curation or live tool execution. Agent Seer…

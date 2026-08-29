@@ -1,0 +1,14 @@
+- id: ev-92009167b8e45af4
+  project_slug: from-preferences-to-principles-rubric-based-alignment-for-gr
+  url: https://machinelearning.apple.com/research/rubric-based-alignment
+  title: 'From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers'
+  published_at: '2026-08-27T00:00:00Z'
+  collected_at: '2026-08-29T03:43:28Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Designing effective reward signals for open-domain question answering is challenging because high-quality
+    responses must simultaneously satisfy multiple aspects of answer quality that are difficult to capture
+    with a holistic scalar objective. We introduce a rubric-based reward framework that generates query-specific
+    rubrics grounded in retrieved evidence and decomposed into multiple quality dimensions, providing
+    fine-grained supervision during post-training. Averaged across three evaluation axes (composition,
+    grounding, and instruction-following), our approach improves over the…

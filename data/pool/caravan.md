@@ -20,17 +20,18 @@ url: https://github.com/carlos-menezes/caravan
 canonical_url: https://github.com/carlos-menezes/caravan
 summary: a flexible TypeScript-first logger for JavaScript applications
 first_seen: '2026-08-28T00:09:19Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-29T03:43:08Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/carlos-menezes/caravan
-  seen_at: '2026-08-28T06:07:17Z'
+  seen_at: '2026-08-29T03:43:08Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
+  kind: product
 ---
 
 # Caravan
