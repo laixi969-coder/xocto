@@ -742,6 +742,41 @@ def _daily_rotation(items: list[Any], day: str, *, limit: int) -> list[Any]:
     return [items[(offset + index) % len(items)] for index in range(min(limit, len(items)))]
 
 
+def _daily_event_selection(items: list[dict[str, Any]], *, limit: int = 6) -> list[dict[str, Any]]:
+    """Pick a varied, finite front page from one day's publishable events.
+
+    A daily edition should not become a raw dump.  Prefer items with an actual
+    editorial read, then give different categories a chance before filling the
+    remaining slots.  Every selected item still comes from the same content day.
+    """
+    ranked = sorted(
+        items,
+        key=lambda item: (
+            item.get("status") != STATUS_ANALYZED,
+            item.get("status") == STATUS_WATCHING,
+            -int(item.get("opportunity_rank") or 0),
+            -int(item.get("weight") or 0),
+            item.get("name") or "",
+        ),
+    )
+    selected: list[dict[str, Any]] = []
+    used_categories: set[str] = set()
+    for item in ranked:
+        category = str(item.get("category_key") or "")
+        if category and category in used_categories:
+            continue
+        selected.append(item)
+        used_categories.add(category)
+        if len(selected) == limit:
+            return selected
+    for item in ranked:
+        if item not in selected:
+            selected.append(item)
+        if len(selected) == limit:
+            break
+    return selected
+
+
 def _business_card_view(view: dict[str, Any], store: Store, locale: Locale) -> dict[str, Any]:
     """把已验证产品收成与机会流相同的卡片结构。"""
     reviews = store.read_req_reviews(view["slug"])
@@ -919,17 +954,25 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
     req = None
     if review:
         verdict_label, evidence_signal = _public_req(review, locale)
+        supported_gate = next((gate for gate in review.gates if gate.status == "supported"), None)
+        if locale.key == "en":
+            known_fact = _english_text(product.summary_en) or public_read.job
+        elif supported_gate is not None:
+            known_fact = _gate_reason_for_display(supported_gate, product, locale)
+        else:
+            known_fact = product.summary_zh or public_read.job
+        localized_next = _scrub_pending_phrase(
+            review.next_validation if locale.key != "en" else _english_text(
+                review.next_validation, locale.t["product"]["req_next_pending"]
+            )
+        )
         req = {
             "level": locale.t["product"]["req_initial"] if review.level == "initial" else locale.t["product"]["req_full"],
             "signal": verdict_label,
             "evidence_signal": evidence_signal,
             "verdict": review.verdict,
             "verdict_label": verdict_label,
-            "next_validation": _scrub_pending_phrase(
-                review.next_validation if locale.key != "en" else _english_text(
-                    review.next_validation, locale.t["product"]["req_next_pending"]
-                )
-            ),
+            "next_validation": localized_next,
             "reviewed_at": review.day,
             "job": public_read.job,
             "pain": public_read.pain,
@@ -939,6 +982,9 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
             "business_maturity": business_maturity_labels[public_read.business_maturity],
             "judgment_basis": judgment_basis_labels[public_read.judgment_basis],
             "recommended_action": action_labels[public_read.recommended_action],
+            "known_fact": known_fact,
+            "inference": public_read.usage_reason,
+            "unknown": localized_next,
             "gates": [
                 {
                     "name": gate_labels[gate.gate],
@@ -1171,11 +1217,52 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     takeaway_pool = emerging_takeaways
     today_takeaway = next(iter(_daily_rotation(takeaway_pool, latest_day, limit=1)), None)
 
-    # 首页只消费事件，不再从旧日报或历史分析中轮换案例。当天的首次发现是主体；
-    # 旧项目只能以“重要更新”出现，且卡片只陈述新事实和受影响判断。
+    # 首页使用“最近一个已经形成公开内容的日期”，而不是最新原始采集日期。
+    # 采集通常早于编辑：若最新批次还全是半成品，直接拿它当今日会得到一个
+    # 空的“首次发现”区，再由固定历史产品补位，看起来就像日期变了内容没变。
+    generic_summaries = {
+        "",
+        "首次发现项目",
+        "发现新的公开信号",
+        "新增证据改变了 `/req` 判断。",
+        "新增证据改变了 判断",
+    }
     event_days = store.event_days()
-    event_day = event_days[-1].isoformat() if event_days else ""
-    event_rows = store.read_events(event_days[-1]) if event_days else []
+    publishable_event_days: list[str] = []
+    for candidate_day in event_days:
+        if any(
+            event.homepage
+            and (
+                (
+                    event.project_slug in view_by_slug
+                    and (
+                        event.event_type == EVENT_FIRST_DISCOVERED
+                        or (
+                            event.summary.strip() not in generic_summaries
+                            and _public_event_summary(event.summary) not in generic_summaries
+                        )
+                    )
+                )
+                or (
+                    event.project_slug in market_context_products
+                    and event.event_type == EVENT_FIRST_DISCOVERED
+                )
+            )
+            for event in store.read_events(candidate_day)
+        ):
+            publishable_event_days.append(candidate_day.isoformat())
+    completed_days = set(publishable_event_days) | {report.day for report in reports}
+    event_day = max(completed_days, default="")
+    event_rows = (
+        store.read_events(date.fromisoformat(event_day))
+        if event_day and event_day in publishable_event_days
+        else []
+    )
+    daily_report = next((report for report in reports if report.day == event_day), None)
+    past_reports = [report for report in reports if report.day != event_day]
+
+    # 首页只消费这一版的事件。首次发现是主体；旧项目只能以“重要更新”出现，
+    # 且卡片只陈述新事实和受影响判断。
     first_discoveries: list[dict[str, Any]] = []
     important_updates: list[dict[str, Any]] = []
     ordered_events = sorted(event_rows, key=lambda item: item.discovered_at, reverse=True)
@@ -1188,17 +1275,11 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
             continue
         first_slugs.add(event.project_slug)
         first_discoveries.append(_event_view(event, view, store, locale))
+    first_discoveries = _daily_event_selection(first_discoveries, limit=6)
 
     # “重要更新”必须同时满足：明确允许上首页、有可陈述的新事实、同一项目
     # 当天只出现一次。首次发现优先，不能又在更新区重复出现。
     update_slugs: set[str] = set()
-    generic_summaries = {
-        "",
-        "首次发现项目",
-        "发现新的公开信号",
-        "新增证据改变了 `/req` 判断。",
-        "新增证据改变了 判断",
-    }
     for event in ordered_events:
         if (
             event.event_type == EVENT_FIRST_DISCOVERED
@@ -1214,6 +1295,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
             continue
         update_slugs.add(event.project_slug)
         important_updates.append(_event_view(event, view, store, locale))
+    important_updates = important_updates[:4]
 
     # 当日市场摘要只从当天的事件流归纳，不用旧项目的规模或排行榜替代新变化。
     # “首次发现涉及”是观察范围，不暗示这是该行业全球第一次使用 AI。
@@ -1294,6 +1376,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "fresh_picks": fresh_picks,
         "more_opportunities": more_opportunities[:5],
         "event_day": event_day,
+        "daily_report": daily_report,
+        "past_reports": past_reports,
         "first_discoveries": first_discoveries,
         "proven_businesses": proven_businesses,
         "important_updates": important_updates,

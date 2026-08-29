@@ -44,37 +44,65 @@
     </div>
   </header>
 
-  <section class="band decision-brief">
+  <section class="band demand-story">
     <div class="sec-head">
       <div>
-        <p class="eyebrow">{{ t.product.req_kicker }}</p>
-        <h2>{{ t.product.req_title }}</h2>
+        <p class="eyebrow">{{ t.product.story_kicker }}</p>
+        <h2>{{ t.product.story_title }}</h2>
       </div>
-      <span class="note">{{ t.product.req_note }}</span>
+      {% if product.req %}<span class="note">{{ product.req.judgment_basis }} · {{ product.req.reviewed_at }}</span>{% endif %}
     </div>
     {% if product.req %}
-    <div class="decision-grid decision-overview">
-      <div class="field decision-call"><span class="field-k">{{ t.product.req_signal }}</span><p><strong>{{ product.req.verdict_label }}</strong></p></div>
-      <div class="field"><span class="field-k">{{ t.product.req_evidence }}</span><p>{{ product.req.evidence_signal }}</p></div>
-      <div class="field"><span class="field-k">{{ t.product.req_demand_maturity }}</span><p>{{ product.req.demand_maturity }}</p></div>
-      <div class="field"><span class="field-k">{{ t.product.req_business_maturity }}</span><p>{{ product.req.business_maturity }}</p></div>
-      <div class="field"><span class="field-k">{{ t.product.req_basis }}</span><p>{{ product.req.judgment_basis }}</p></div>
-      <div class="field decision-call"><span class="field-k">{{ t.product.req_action }}</span><p><strong>{{ product.req.recommended_action }}</strong></p></div>
-      <div class="field"><span class="field-k">{{ t.product.req_level }}</span><p>{{ product.req.level }} · {{ product.req.reviewed_at }}</p></div>
+    <article class="story-flow">
+      <div class="story-opening">
+        <span class="field-k">{{ t.product.story_scene }}</span>
+        <p class="story-lead">{{ product.req.job }}</p>
+        <p>{{ product.req.current_alternative }}</p>
+        <p>{{ product.req.pain }}</p>
+      </div>
+
+      <div class="story-turn">
+        <span class="field-k">{{ t.product.story_call }}</span>
+        <h3>{{ analysis.call if analysis and analysis.call else product.req.verdict_label }}</h3>
+        <p>{{ product.inspiration }}</p>
+      </div>
+
+      <div class="story-chapter">
+        <span class="field-k">{{ t.product.story_adoption }}</span>
+        <h3>{{ t.product.story_adoption_title }}</h3>
+        <p>{{ product.req.usage_reason }}</p>
+      </div>
+
+      <div class="story-chapter story-question">
+        <span class="field-k">{{ t.product.story_tension }}</span>
+        <h3>{{ t.product.story_tension_title }}</h3>
+        <p>{{ analysis.watch_next if analysis and analysis.watch_next else product.req.next_validation }}</p>
+      </div>
+    </article>
+
+    <div class="role-grid story-audiences">
+      <div class="field field-take">
+        <span class="field-k">{{ t.product.story_for_user }}</span>
+        <p><strong>{{ product.req.recommended_action }}</strong>{{ t.product.story_action_sep }}{{ product.req.usage_reason }}</p>
+      </div>
+      <div class="field">
+        <span class="field-k">{{ t.product.for_founder_k }}</span>
+        <p>{{ analysis.takeaway if analysis and analysis.takeaway else product.inspiration }}</p>
+      </div>
+      {% if analysis and (analysis.money or analysis.watch_next) %}
+      <div class="field">
+        <span class="field-k">{{ t.product.for_investor_k }}</span>
+        <p>{% if analysis.money %}{{ analysis.money }}{% endif %}{% if analysis.money and analysis.watch_next %} {{ analysis.watch_next }}{% elif analysis.watch_next %}{{ analysis.watch_next }}{% endif %}</p>
+      </div>
+      {% endif %}
     </div>
-    <div class="decision-grid demand-read">
-      <div class="field decision-call"><span class="field-k">{{ t.product.req_job }}</span><p>{{ product.req.job }}</p></div>
-      <div class="field"><span class="field-k">{{ t.product.req_pain }}</span><p>{{ product.req.pain }}</p></div>
-      <div class="field"><span class="field-k">{{ t.product.req_alternative }}</span><p>{{ product.req.current_alternative }}</p></div>
-      <div class="field field-take"><span class="field-k">{{ t.product.req_usage_reason }}</span><p>{{ product.req.usage_reason }}</p></div>
-      <div class="field field-take"><span class="field-k">{{ t.product.req_next }}</span><p>{{ product.req.next_validation }}</p></div>
-    </div>
-    <details class="research-notes">
-      <summary>{{ t.product.req_working_notes }}</summary>
-      <div class="decision-grid">
-        {% for gate in product.req.gates %}
-        <div class="field"><span class="field-k">{{ gate.name }} · {{ gate.status }}</span><p>{{ gate.reason }}</p></div>
-        {% endfor %}
+
+    <details class="research-notes evidence-boundary">
+      <summary>{{ t.product.story_evidence }}</summary>
+      <div class="evidence-boundary-grid">
+        <div><span class="field-k">{{ t.product.story_known }}</span><p>{{ product.req.known_fact }}</p></div>
+        <div><span class="field-k">{{ t.product.story_inferred }}</span><p>{{ product.req.inference }}</p></div>
+        <div><span class="field-k">{{ t.product.story_unknown }}</span><p>{{ product.req.unknown }}</p></div>
       </div>
     </details>
     {% else %}
@@ -100,72 +128,6 @@
     <p class="noanalysis-sub">{{ t.product.markets_pending }}</p>
     {% endif %}
   </section>
-
-  {# 首屏只服务一个任务：值不值得继续花时间。结论、钱、切口和待验证点都在正文之前。 #}
-  <section class="band decision-brief">
-    <div class="sec-head">
-      <div>
-        <p class="eyebrow">{{ t.product.decision_kicker }}</p>
-        <h2>{{ t.product.decision_title }}</h2>
-      </div>
-      <span class="note">{{ t.product.decision_note }}</span>
-    </div>
-    <div class="decision-grid">
-      <div class="field decision-call">
-        <span class="field-k">{{ t.product.call }}</span>
-        <p>{{ analysis.call if analysis and analysis.call else (analysis.excerpt if analysis else product.summary) }}</p>
-      </div>
-      <div class="field">
-        <span class="field-k">{{ t.product.money }}</span>
-        <p>{{ analysis.money if analysis and analysis.money else t.product.money_unknown }}</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">{{ t.product.inspiration }}</span>
-        <p>{{ product.inspiration }}</p>
-      </div>
-      <div class="field">
-        <span class="field-k">{{ t.product.watch_next }}</span>
-        <p>{{ analysis.watch_next if analysis and analysis.watch_next else t.product.none_sub }}</p>
-      </div>
-    </div>
-    {% if analysis and analysis.replaces %}
-    <div class="decision-replaces field">
-      <span class="field-k">{{ t.product.replaces }}</span>
-      <p>{{ analysis.replaces }}</p>
-    </div>
-    {% endif %}
-  </section>
-
-  {% if product.for_investor or product.for_public or (analysis and analysis.takeaway) %}
-  <section class="band role-lenses">
-    <div class="sec-head">
-      <div>
-        <p class="eyebrow">{{ t.product.roles_kicker }}</p>
-        <h2>{{ t.product.roles_title }}</h2>
-      </div>
-    </div>
-    <div class="role-grid">
-      {% if analysis and analysis.takeaway %}
-      <div class="field field-take">
-        <span class="field-k">{{ t.product.for_founder_k }}</span>
-        <p>{{ analysis.takeaway }}</p>
-      </div>
-      {% endif %}
-      {% if product.for_investor %}
-      <div class="field">
-        <span class="field-k">{{ t.product.for_investor_k }}</span>
-        <p>{{ product.for_investor }}</p>
-      </div>
-      {% endif %}
-      {% if product.for_public %}
-      <div class="field">
-        <span class="field-k">{{ t.product.for_public_k }}</span>
-        <p>{{ product.for_public }}</p>
-      </div>
-      {% endif %}
-    </div>
-  </section>
-  {% endif %}
 
   {% if analysis %}
   <article class="prose analysis-full">

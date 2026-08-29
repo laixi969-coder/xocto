@@ -21,23 +21,17 @@
         <p>{{ p.event_summary }}</p>
       </div>
       {% endif %}
-      <div class="field">
-        <span class="field-k">{{ t.home.dimensions }}</span>
-        <p class="dimension-list">
-          <span class="dimension-item">{{ p.project_type }}</span>{% if p.industries %}
-          <span class="dimension-item">{{ p.industries | join(' / ') }}</span>{% endif %}{% if p.jobs or p.regions %}
-          <span class="dimension-item dimension-work">{% if p.jobs %}{{ p.jobs | join(' / ') }}{% endif %}{% if p.jobs and p.regions %} · {% endif %}{% if p.regions %}{{ p.regions | join(' / ') }}{% endif %}</span>{% endif %}
-        </p>
-      </div>
       <div class="field field-take">
-        <span class="field-k">{{ t.home.opportunity_judgment }}</span>
-        <p><strong>{{ p.opportunity_action }}</strong> · {{ p.opportunity_text }}</p>
-        <p class="note">{{ p.opportunity_boundary }}</p>
+        <span class="field-k">{{ t.home.why_today }}</span>
+        <p>{{ p.opportunity_text }}</p>
       </div>
-      <div class="field">
-        <span class="field-k">{{ t.home.discovered_at }}</span>
-        <p class="num">{{ p.event_day }}{% if p.occurred_day and p.occurred_day != p.event_day %} · {{ t.home.published_at }} {{ p.occurred_day }}{% endif %}</p>
+      {% if p.req_next %}
+      <div class="field home-question">
+        <span class="field-k">{{ t.home.keep_asking }}</span>
+        <p>{{ p.req_next }}</p>
       </div>
+      {% endif %}
+      <p class="pick-meta num">{{ p.event_day }} · {{ p.project_type }}{% if p.industries %} · {{ p.industries | join(' / ') }}{% endif %}</p>
     </div>
   </article>
   {% endfor %}
@@ -64,11 +58,30 @@
   </header>
   {% endif %}
 
+  {% if daily_report %}
+  <section class="band daily-edition" id="daily-edition">
+    <div class="sec-head">
+      <div>
+        <p class="section-index">01 · {{ t.home.latest_report }}</p>
+        <h2>{{ daily_report.hook or t.home.report_fallback }}</h2>
+      </div>
+      <a class="note" href="{{ root }}r/{{ daily_report.day }}.html">{{ t.home.latest_report_cta }} →</a>
+    </div>
+    {% if daily_report.highlights %}
+    <div class="edition-highlights">
+      {% for highlight in daily_report.highlights[:3] %}
+      <p><span class="num">0{{ loop.index }}</span>{{ highlight }}</p>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
   {% if first_discoveries %}
   <section class="band" id="today-cases">
     <div class="sec-head">
       <div>
-        <p class="section-index">01 · {{ t.home.flow_kicker }}</p>
+        <p class="section-index">02 · {{ t.home.flow_kicker }}</p>
         <h2>{{ t.home.first_discoveries }}</h2>
       </div>
       <span class="note">{{ t.home.first_discoveries_note }}</span>
@@ -79,24 +92,11 @@
   <section class="band" id="today-cases">
     <div class="sec-head">
       <div>
-        <p class="section-index">01 · {{ t.home.flow_kicker }}</p>
+        <p class="section-index">02 · {{ t.home.flow_kicker }}</p>
         <h2>{{ t.home.first_discoveries }}</h2>
       </div>
     </div>
     <p class="noanalysis-sub">{{ t.home.first_discoveries_empty }}</p>
-  </section>
-  {% endif %}
-
-  {% if proven_businesses %}
-  <section class="band" id="proven-businesses">
-    <div class="sec-head">
-      <div>
-        <p class="section-index">02 · {{ t.home.proven_kicker }}</p>
-        <h2>{{ t.home.proven_businesses }}</h2>
-      </div>
-      <span class="note">{{ t.home.proven_businesses_note }}</span>
-    </div>
-    {{ opportunity_stream(proven_businesses) }}
   </section>
   {% endif %}
 
@@ -133,7 +133,7 @@
   </section>
   {% endif %}
 
-  {% if reports | length > 1 %}
+  {% if past_reports %}
   <section class="band" id="past-calls">
     <div class="sec-head">
       <div>
@@ -143,7 +143,7 @@
       <span class="note">{{ t.home.past_reports_note }}</span>
     </div>
     <div class="obs">
-      {% for r in reports[1:5] %}
+      {% for r in past_reports[:4] %}
       <a class="obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
         <div class="obs-day num">{{ r.day }}</div>
         <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>

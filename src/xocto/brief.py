@@ -860,6 +860,28 @@ def _public_source_leaks(texts: list[str]) -> tuple[str, ...]:
     return tuple(hits)
 
 
+def _neutralize_public_source_names(text: str, *, english: bool) -> str:
+    """Deterministically rewrite a leaked collection channel as evidence language.
+
+    The model gets repair attempts first.  This final, deliberately boring
+    fallback keeps one stubborn channel name from cancelling an entire daily
+    edition after the underlying judgments have already passed validation.
+    """
+    code_names = {"github"}
+    model_names = {"hugging face", "huggingface"}
+    output = text
+    for name in sorted(set(FORBIDDEN_PUBLIC_SOURCE_NAMES), key=len, reverse=True):
+        folded = name.casefold()
+        if folded in code_names:
+            replacement = "public code repository" if english else "公开代码仓库"
+        elif folded in model_names:
+            replacement = "public model community" if english else "公开模型社区"
+        else:
+            replacement = "public reporting" if english else "公开资料"
+        output = re.sub(re.escape(name), replacement, output, flags=re.IGNORECASE)
+    return output
+
+
 def _require_no_public_source_leaks(
     updates: dict[str, Product],
     zh_report: str,
@@ -1053,7 +1075,12 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
             break
         except PublicSourceLeakError as exc:
             if attempt >= MAX_BATCH_REPAIRS:
-                raise
+                zh_report = _neutralize_public_source_names(zh_report, english=False)
+                en_report = _neutralize_public_source_names(en_report, english=True)
+                _require_no_public_source_leaks(
+                    updates, zh_report, en_report, reviews, event_summaries
+                )
+                break
             report_result = _request(_source_leak_repair_messages(report_messages, report_result, exc.names))
             zh_report = _report_markdown(report_result, day, english=False)
             en_report = _report_markdown(report_result, day, english=True)

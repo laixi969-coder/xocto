@@ -14,7 +14,9 @@ from xocto.brief import (
     _interpretation_prompt,
     _interpretations,
     _model_providers,
+    _neutralize_public_source_names,
     _prompt,
+    _public_source_leaks,
     _report_prompt,
     _report_markdown,
     _require_no_public_source_leaks,
@@ -606,6 +608,14 @@ class BriefTests(unittest.TestCase):
             "## 今日观察\n\n增长数据值得继续观察。",
             "## Today's notes\n\nThe growth signal is worth watching.",
         )
+
+    def test_source_name_fallback_preserves_daily_copy_without_leaking_channel(self) -> None:
+        zh = _neutralize_public_source_names("项目在 GitHub 发布，随后被 TechCrunch 报道。", english=False)
+        en = _neutralize_public_source_names("Released on GitHub and covered by TechCrunch.", english=True)
+
+        self.assertEqual(zh, "项目在 公开代码仓库 发布，随后被 公开资料 报道。")
+        self.assertEqual(en, "Released on public code repository and covered by public reporting.")
+        self.assertEqual(_public_source_leaks([zh, en]), ())
 
 
 if __name__ == "__main__":

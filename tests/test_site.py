@@ -33,6 +33,7 @@ from xocto.models import (
 from xocto.site import (
     _business_form,
     build_context,
+    _daily_event_selection,
     _daily_rotation,
     _is_publishable,
     _latest_req_review,
@@ -45,6 +46,7 @@ from xocto.site import (
     _section,
     product_view,
 )
+from xocto.store import Store
 
 
 def product(*, status: str = "watching", summary_zh: str = "中文说明", inspiration: str = "灵感") -> Product:
@@ -142,15 +144,16 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("important_updates", template)
         self.assertIn("{% for p in items %}", template)
         self.assertIn("t.home.what", template)
-        self.assertIn("t.home.opportunity_judgment", template)
+        self.assertIn("t.home.why_today", template)
+        self.assertIn("daily_report", template)
         self.assertNotIn("reader-routes", template)
         self.assertIn("event_day", template)
         self.assertIn("t.home.daily_flow", template)
         self.assertIn("market_summary", template)
         self.assertIn("t.home.past_reports", template)
-        self.assertIn("dimension-list", template)
-        self.assertLess(template.index("first_discoveries"), template.index("proven_businesses"))
-        self.assertLess(template.index("proven_businesses"), template.index("important_updates"))
+        self.assertNotIn("proven_businesses", template)
+        self.assertLess(template.index("daily_report"), template.index("first_discoveries"))
+        self.assertLess(template.index("first_discoveries"), template.index("important_updates"))
         self.assertLess(template.index("important_updates"), template.index("market_summary"))
         self.assertLess(template.index("market_summary"), template.index("t.home.past_reports"))
         self.assertNotIn("fresh_picks", template)
@@ -161,6 +164,61 @@ class PublishabilityTests(unittest.TestCase):
         self.assertNotIn("t.home.cats", template)
         self.assertNotIn("p.analysis.replaces", template)
         self.assertNotIn("stats.total", template)
+
+    def test_home_uses_latest_publishable_day_instead_of_empty_raw_batch(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            ready = product()
+            hidden = replace(
+                product(), slug="hidden", name="Hidden", summary_zh="", inspiration="",
+                first_seen="2026-08-26T10:00:00Z", last_seen="2026-08-26T10:00:00Z",
+            )
+            store.save_product(ready)
+            store.save_product(hidden)
+            store.append_event(DiscoveryEvent(
+                id="ready", project_slug=ready.slug, event_type=EVENT_FIRST_DISCOVERED,
+                occurred_at="2026-08-25T10:00:00Z", discovered_at="2026-08-25T11:00:00Z",
+            ))
+            store.append_event(DiscoveryEvent(
+                id="hidden", project_slug=hidden.slug, event_type=EVENT_FIRST_DISCOVERED,
+                occurred_at="2026-08-26T10:00:00Z", discovered_at="2026-08-26T11:00:00Z",
+            ))
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual(ctx["event_day"], "2026-08-25")
+            self.assertEqual([item["slug"] for item in ctx["first_discoveries"]], [ready.slug])
+
+    def test_home_ignores_newer_updates_without_an_editorial_fact(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            ready = product()
+            store.save_product(ready)
+            store.append_event(DiscoveryEvent(
+                id="ready", project_slug=ready.slug, event_type=EVENT_FIRST_DISCOVERED,
+                occurred_at="2026-08-25T10:00:00Z", discovered_at="2026-08-25T11:00:00Z",
+            ))
+            store.append_event(DiscoveryEvent(
+                id="empty-update", project_slug=ready.slug, event_type=EVENT_MATERIAL_UPDATE,
+                occurred_at="2026-08-26T10:00:00Z", discovered_at="2026-08-26T11:00:00Z",
+                summary="",
+            ))
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual(ctx["event_day"], "2026-08-25")
+            self.assertEqual([item["slug"] for item in ctx["first_discoveries"]], [ready.slug])
+
+    def test_daily_event_selection_prefers_category_variety(self) -> None:
+        items = [
+            {"name": "A", "category_key": "AI + 开发", "status": "queued", "opportunity_rank": 9, "weight": 0},
+            {"name": "B", "category_key": "AI + 开发", "status": "queued", "opportunity_rank": 8, "weight": 0},
+            {"name": "C", "category_key": "AI + 商业", "status": "queued", "opportunity_rank": 7, "weight": 0},
+        ]
+
+        selected = _daily_event_selection(items, limit=2)
+
+        self.assertEqual({item["category_key"] for item in selected}, {"AI + 开发", "AI + 商业"})
 
         products_template = (Path(__file__).parents[1] / "templates" / "products.html").read_text(
             encoding="utf-8"
@@ -355,11 +413,10 @@ class PublishabilityTests(unittest.TestCase):
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
             encoding="utf-8"
         )
-        self.assertIn("t.product.money_unknown", template)
+        self.assertNotIn("t.product.money_unknown", template)
+        self.assertIn("analysis and (analysis.money or analysis.watch_next)", template)
         self.assertIn("t.product.for_investor_k", template)
-        self.assertIn("product.for_investor", template)
-        self.assertIn("t.product.for_public_k", template)
-        self.assertIn("product.for_public", template)
+        self.assertIn("analysis.money", template)
 
     def test_business_form_follows_evidence(self) -> None:
         self.assertEqual(_business_form("proven", "通用助手", 100_000_000, ""), "settled")
@@ -373,9 +430,9 @@ class PublishabilityTests(unittest.TestCase):
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
             encoding="utf-8"
         )
-        self.assertIn("t.product.money", template)
-        self.assertIn("t.product.money_unknown", template)
-        self.assertIn("t.product.inspiration", template)
+        self.assertIn("t.product.story_call", template)
+        self.assertIn("t.product.story_tension", template)
+        self.assertIn("product.inspiration", template)
         self.assertIn("analysis.money", template)
 
     def test_home_event_cards_surface_initial_req_and_dates(self) -> None:
@@ -383,19 +440,17 @@ class PublishabilityTests(unittest.TestCase):
             encoding="utf-8"
         )
         self.assertIn("t.home.what", template)
-        self.assertIn("t.home.opportunity_judgment", template)
-        self.assertIn("t.home.discovered_at", template)
+        self.assertIn("t.home.why_today", template)
+        self.assertIn("t.home.keep_asking", template)
         self.assertIn('id="today-cases"', template)
         self.assertIn('id="important-updates"', template)
         self.assertIn('id="past-calls"', template)
         self.assertIn("field-what", template)
         self.assertIn("p.summary", template)
-        self.assertIn("p.opportunity_action", template)
         self.assertIn("p.opportunity_text", template)
-        self.assertIn("p.opportunity_boundary", template)
+        self.assertIn("p.req_next", template)
         self.assertNotIn("p.req_signal", template)
         self.assertNotIn("p.req_reason", template)
-        self.assertNotIn("p.req_next", template)
         self.assertIn("p.event_day", template)
 
     def test_opportunity_action_converts_req_gates_into_attention_decision(self) -> None:
@@ -680,11 +735,14 @@ class PublishabilityTests(unittest.TestCase):
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
             encoding="utf-8"
         )
-        self.assertIn("t.product.req_title", template)
-        self.assertIn("t.product.req_kicker", template)
-        self.assertIn("product.req.gates", template)
+        self.assertIn("t.product.story_title", template)
+        self.assertIn("t.product.story_kicker", template)
         self.assertIn("product.req.usage_reason", template)
-        self.assertIn("product.req.business_maturity", template)
+        self.assertIn("product.req.known_fact", template)
+        self.assertIn("product.req.inference", template)
+        self.assertIn("product.req.unknown", template)
+        self.assertNotIn("product.req.gates", template)
+        self.assertNotIn("product.req.business_maturity", template)
         self.assertIn("t.product.markets_title", template)
         self.assertIn("product.cross_market", template)
         self.assertIn("t.product.evidence_title", template)
@@ -695,15 +753,15 @@ class PublishabilityTests(unittest.TestCase):
         template = (Path(__file__).parents[1] / "templates" / "product.html").read_text(
             encoding="utf-8"
         )
-        self.assertIn("t.product.decision_title", template)
-        self.assertIn("t.product.call", template)
-        self.assertIn("t.product.watch_next", template)
-        self.assertLess(template.index("t.product.call"), template.index("t.product.money"))
-        self.assertLess(template.index("t.product.money"), template.index("t.product.inspiration"))
-        self.assertLess(template.index("t.product.inspiration"), template.index("t.product.watch_next"))
-        self.assertLess(template.index("t.product.watch_next"), template.index("t.product.replaces"))
-        self.assertLess(template.index("t.product.replaces"), template.index("t.product.for_investor_k"))
-        self.assertLess(template.index("t.product.for_investor_k"), template.index("t.product.for_public_k"))
+        self.assertIn("t.product.story_scene", template)
+        self.assertIn("t.product.story_call", template)
+        self.assertIn("t.product.story_adoption", template)
+        self.assertIn("t.product.story_tension", template)
+        self.assertLess(template.index("t.product.story_scene"), template.index("t.product.story_call"))
+        self.assertLess(template.index("t.product.story_call"), template.index("t.product.story_adoption"))
+        self.assertLess(template.index("t.product.story_adoption"), template.index("t.product.story_tension"))
+        self.assertLess(template.index("t.product.story_tension"), template.index("t.product.story_for_user"))
+        self.assertLess(template.index("t.product.story_for_user"), template.index("t.product.story_evidence"))
 
     def test_daily_report_can_be_shared_without_an_account(self) -> None:
         template = (Path(__file__).parents[1] / "templates" / "report.html").read_text(

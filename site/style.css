@@ -180,6 +180,13 @@ button { font: inherit; }
 .field p { margin: 0; font-size: 15px; line-height: 1.7; }
 .field-take { margin-left: 16px; border-left: 2px solid var(--accent); padding-left: 13px; }
 .field-take p { color: var(--ink-soft); }
+.daily-edition { padding-top: clamp(38px, 6vw, 72px); }
+.daily-edition .sec-head h2 { max-width: 22ch; font-family: var(--display); font-size: clamp(30px, 4vw, 50px); letter-spacing: -.035em; line-height: 1.12; }
+.edition-highlights { max-width: 850px; border-top: 2px solid var(--ink); }
+.edition-highlights p { display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 14px; margin: 0; padding: 17px 0; border-bottom: 1px solid var(--line-soft); color: var(--ink-soft); font-size: 15px; line-height: 1.68; }
+.edition-highlights .num { padding-top: 2px; color: var(--signal); font-size: 11px; }
+.home-question { border-left-color: var(--line); }
+.pick-meta { margin: 4px 0 0; color: var(--ink-faint); font-size: 11px; }
 .exit-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--ink); }
 .exit-cell { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 4px 16px; padding: 28px 22px 32px 0; border-bottom: 1px solid var(--line-soft); animation: rise .45s var(--ease) backwards; animation-delay: calc(var(--i, 0) * 65ms); }
 .exit-cell + .exit-cell { padding-left: 22px; border-left: 1px solid var(--line-soft); }
@@ -260,6 +267,23 @@ button { font: inherit; }
 .kv div b { font-size: 14px; font-weight: 600; }
 .kv a, .note.onward-all { color: var(--signal); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .detail-head + .band { padding-top: 34px; }
+.demand-story { max-width: 980px; padding-top: clamp(44px, 7vw, 82px); }
+.demand-story .sec-head { margin-bottom: clamp(30px, 5vw, 58px); }
+.demand-story .sec-head h2 { font-family: var(--display); font-size: clamp(32px, 4.4vw, 54px); letter-spacing: -.035em; line-height: 1.08; }
+.story-flow { max-width: 780px; }
+.story-flow p { margin: 0 0 17px; color: var(--ink-soft); font-size: 16px; line-height: 1.85; }
+.story-opening, .story-chapter { padding: 0 0 42px; }
+.story-lead { color: var(--ink) !important; font-family: var(--display); font-size: clamp(24px, 3vw, 36px) !important; letter-spacing: -.025em; line-height: 1.35 !important; }
+.story-turn { margin: 5px 0 47px; padding: 28px 30px 30px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--surface) 55%, transparent); }
+.story-turn h3, .story-chapter h3 { max-width: 27em; margin: 8px 0 13px; font-size: clamp(20px, 2.5vw, 29px); letter-spacing: -.02em; line-height: 1.35; }
+.story-turn p { margin-bottom: 0; }
+.story-question { padding-left: 18px; border-left: 2px solid var(--accent); }
+.story-audiences { max-width: 850px; margin-top: 4px; border-top-width: 2px; }
+.evidence-boundary { max-width: 850px; margin-top: 35px; }
+.evidence-boundary-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line-soft); }
+.evidence-boundary-grid > div { padding: 19px 22px 22px 0; }
+.evidence-boundary-grid > div + div { padding-left: 22px; border-left: 1px solid var(--line-soft); }
+.evidence-boundary-grid p { margin: 7px 0 0; color: var(--ink-soft); font-size: 13px; line-height: 1.68; }
 .decision-brief { padding-top: clamp(36px, 4vw, 58px); }
 .decision-brief .sec-head { margin-bottom: 29px; }
 .decision-grid { display: grid; grid-template-columns: 1fr; border-top: 2px solid var(--ink); }
@@ -424,6 +448,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outlin
   .pick-body { grid-column: 2; margin-top: -2px; }
   .summary-grid { grid-template-columns: 1fr; gap: 24px; }
   .role-grid, .decision-grid { grid-template-columns: 1fr; }
+  .evidence-boundary-grid { grid-template-columns: 1fr; }
+  .evidence-boundary-grid > div, .evidence-boundary-grid > div + div { padding: 17px 0; border-left: 0; border-bottom: 1px solid var(--line-soft); }
+  .story-turn { padding: 23px 20px 25px; }
+  .story-question { padding-left: 14px; }
   .row-head { grid-template-columns: 1fr; gap: 4px; }
   .row-tail { justify-content: flex-start; margin-top: 4px; }
   .exit-grid { grid-template-columns: 1fr; }
