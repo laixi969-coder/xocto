@@ -45,6 +45,7 @@ from .models import (
     STATUS_REJECTED,
     STATUS_WATCHING,
     Product,
+    is_product_attributed_metric,
     local_day,
     public_req_labels,
     req_conclusion,
@@ -513,6 +514,8 @@ def _metric_badges(product: Product, locale: Locale) -> list[str]:
 
     for sighting in product.sightings:
         m = sighting.metrics
+        if not is_product_attributed_metric(m):
+            continue
         if m.get("points") is not None:
             record("points", sighting.seen_at, f"{locale.metrics['points']} {m['points']}")
         if m.get("stars") is not None:
@@ -554,7 +557,7 @@ def _external_url(product: Product) -> str:
 def _stage(product: Product) -> str:
     """成熟度。有真实流量数据的算已验证，其余都是刚冒头。返回稳定键。"""
     for sighting in product.sightings:
-        if sighting.metrics.get("raw_value"):
+        if is_product_attributed_metric(sighting.metrics) and sighting.metrics.get("raw_value"):
             return STAGE_PROVEN
     return STAGE_EARLY
 
@@ -563,6 +566,8 @@ def _boards(product: Product, locale: Locale) -> list[str]:
     """产品上过的细分榜，去重保序。这是它的品类地位证明。"""
     seen: list[str] = []
     for sighting in product.sightings:
+        if not is_product_attributed_metric(sighting.metrics):
+            continue
         for board in sighting.metrics.get("boards") or []:
             label = locale.board(board)
             if label not in seen:
@@ -574,6 +579,8 @@ def _scale_badge(product: Product, locale: Locale) -> str:
     """规模标签（访问量 / 月活）。只有榜单源才有。"""
     for sighting in product.sightings:
         m = sighting.metrics
+        if not is_product_attributed_metric(m):
+            continue
         if m.get("raw_value"):
             unit = locale.metrics["mau" if m.get("metric") == "mau" else "visits"]
             return f"{unit} {m['raw_value']}"
@@ -582,6 +589,8 @@ def _scale_badge(product: Product, locale: Locale) -> str:
 
 def _growth_rate(product: Product) -> float | None:
     for sighting in product.sightings:
+        if not is_product_attributed_metric(sighting.metrics):
+            continue
         pct = sighting.metrics.get("mom_percent")
         if pct is not None:
             return pct
@@ -593,6 +602,8 @@ def _weight(product: Product) -> int:
     best = 0
     for sighting in product.sightings:
         m = sighting.metrics
+        if not is_product_attributed_metric(m):
+            continue
         best = max(best, m.get("points") or 0, m.get("stars") or 0)
     return best
 
@@ -600,6 +611,8 @@ def _weight(product: Product) -> int:
 def _usage_value(product: Product) -> float:
     """公开使用规模的数字。没有就返回 0，不编。"""
     for sighting in product.sightings:
+        if not is_product_attributed_metric(sighting.metrics):
+            continue
         value = sighting.metrics.get("value")
         if isinstance(value, (int, float)) and value > 0:
             return float(value)
@@ -895,6 +908,14 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
         "paid": locale.t["product"]["business_maturity_paid"],
         "retained": locale.t["product"]["business_maturity_retained"],
     }
+    judgment_basis_labels = {
+        key: locale.t["product"][f"basis_{key}"]
+        for key in ("facts_only", "reasoned", "behavioral", "commercial")
+    }
+    action_labels = {
+        key: locale.t["product"][f"action_{key}"]
+        for key in ("investigate", "try", "dissect", "watch", "clue")
+    }
     req = None
     if review:
         verdict_label, evidence_signal = _public_req(review, locale)
@@ -916,6 +937,8 @@ def _research_view(store: Store, slug: str, locale: Locale) -> dict[str, Any]:
             "usage_reason": public_read.usage_reason,
             "demand_maturity": demand_maturity_labels[public_read.demand_maturity],
             "business_maturity": business_maturity_labels[public_read.business_maturity],
+            "judgment_basis": judgment_basis_labels[public_read.judgment_basis],
+            "recommended_action": action_labels[public_read.recommended_action],
             "gates": [
                 {
                     "name": gate_labels[gate.gate],

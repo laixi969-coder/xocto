@@ -28,6 +28,7 @@ from xocto.models import (
     DiscoveryEvent,
     ReqGateReview,
     ReqReview,
+    is_product_attributed_metric,
     local_day,
     now_iso,
     req_conclusion,
@@ -102,7 +103,14 @@ def _baseline_initial_review(product: Any, evidence: list[Any], day: date, revie
     pain_evidence = [item for item in evidence if item.source_kind in {"pain", "workaround"}]
     adoption_evidence = [item for item in evidence if item.source_kind in {"adoption", "open_source", "customer_case"}]
     value_ids = (pain_evidence[-1].id,) if pain_evidence else ()
-    latest_metrics = product.sightings[-1].metrics if product.sightings else {}
+    latest_metrics = next(
+        (
+            sighting.metrics
+            for sighting in reversed(product.sightings)
+            if is_product_attributed_metric(sighting.metrics)
+        ),
+        {},
+    )
     stars = latest_metrics.get("stars")
     forks = latest_metrics.get("forks")
     has_open_source = any(item.source_kind == "open_source" for item in evidence)
@@ -262,6 +270,7 @@ def _is_proven(product: Any) -> bool:
             isinstance(item.metrics.get("stars"), (int, float)) and item.metrics.get("stars", 0) > 0
         )
         for item in product.sightings
+        if is_product_attributed_metric(item.metrics)
     )
 
 
@@ -433,6 +442,8 @@ def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
 正在判断的闸门 reason 应用 20–160 个中文字符写出项目特有的公开事实与缺口。仅当价值关未成立时，后续闸门才可写
 10–80 个字符说明“未进入”，不得再标 supported。价值关成立后，后面三关必须各自判断，不得因缺定价页全员未进入。
 四项理由不得复制同一句话。supported 或 challenged 必须引用 evidence_ids，且只能引用该项目证据。
+判断依据必须区分公开事实、工作流结构推理、量化验证。没有量化数据不等于不能判断；能从有引用的公开事实
+说清用户任务、旧替代、不解决的后果与产品如何完成交付时，价值关可以成立，但必须明确这是结构推理。
 价值结构成立（能说清它解决什么需求、什么痛点，痛点刚性、交付可确定）即可判 true_demand，不要求四关全过。
 价值关 reason 必须先写需求和痛点；谁付钱说不清，写在模式关，不得因此判 needs_validation。
 无论 verdict 是什么，demand_read 都必须回答四件事，不能留空：用户要完成的任务、公开材料支持的痛点、

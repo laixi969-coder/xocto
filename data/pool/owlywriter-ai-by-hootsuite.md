@@ -1,25 +1,24 @@
 ---
 slug: owlywriter-ai-by-hootsuite
-name: OwlyWriter AI by Hootsuite
-builder: ''
-category: AI + 效率
-summary_zh: 社媒运营给一个主题，一次出各平台文案，还能把爆款旧帖改写成新帖。
-inspiration: 成熟工具加新能力，最稳的是不让人跳出原工作流。趋势是社媒文案变成排期软件里的一个按钮；切入是已在用 Hootsuite 排期的运营团队，不单独卖、绑在主订阅里。
-summary_en: Give social operators one topic and get copy for every platform, plus rewrite a hit old post
-  into a new one.
-inspiration_en: When a mature tool adds a new capability, the safest move is not making people leave the
-  old workflow. The trend is social copy becoming a button inside the scheduler. The entry is teams already
-  planning in Hootsuite — not sold separately, bundled into the main subscription.
+name: Wisdom
+builder: Hootsuite
+category: AI + 商业
+summary_zh: 社媒团队在 Hootsuite 内调用 Wisdom，从实时社交对话识别趋势，生成符合品牌语气的帖子，并整理活动与内容日历。
+inspiration: AI 不必成为独立工具；它可以长在用户原本监测、写作和排期的工作流里，用品牌与社交上下文减少切换和重复劳动。
+summary_en: Social teams use Wisdom inside Hootsuite to identify trends from live social conversations,
+  draft on-brand posts, and assemble campaigns and content calendars.
+inspiration_en: AI does not have to be a standalone tool. It can live inside the workflow where users
+  already monitor, write, and schedule, using brand and social context to reduce switching and repetition.
 priority_review: false
-url: https://www.aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
-canonical_url: https://aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
-summary: Stay ahead of the competition with social media resources from Hootsuite, including social media
-  strategy templates, case studies, toolkits, and more.
+url: https://www.hootsuite.com/platform/ai
+canonical_url: https://www.hootsuite.com/platform/ai
+summary: Wisdom is Hootsuite's social AI assistant, formerly known as OwlyWriter AI.
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-13T11:28:34Z'
+last_seen: '2026-08-28T16:00:00Z'
 status: analyzed
 sources:
 - aicpb
+- official_web
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/OwlyWriter-AI-by-Hootsuite/webid1D6F37E31
@@ -33,12 +32,19 @@ sightings:
     boards:
     - 全球增速榜
     - 全球总榜
+    product_attribution: false
+    attribution_note: Historical third-party traffic was measured on a broader Hootsuite content surface
+      and cannot be attributed to Wisdom product usage.
+- source: official_web
+  url: https://www.hootsuite.com/platform/ai
+  seen_at: '2026-08-28T16:00:00Z'
+  metrics: {}
 ---
 
-# OwlyWriter AI by Hootsuite
+# Wisdom
 
-Stay ahead of the competition with social media resources from Hootsuite, including social media strategy templates, case studies, toolkits, and more.
+Wisdom is Hootsuite's social AI assistant, formerly known as OwlyWriter AI.
 
 ## 笔记
 
-
+旧名：OwlyWriter AI（部分官方材料也曾称 OwlyGPT）。页面主标题使用当前官方名称。

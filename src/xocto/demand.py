@@ -11,6 +11,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any, Iterable
 
+from xocto.models import is_product_attributed_metric
+
 
 @dataclass(frozen=True, slots=True)
 class DemandRead:
@@ -20,6 +22,8 @@ class DemandRead:
     usage_reason: str
     demand_maturity: str
     business_maturity: str
+    judgment_basis: str
+    recommended_action: str
 
 
 def _clean(value: Any) -> str:
@@ -30,6 +34,8 @@ def _metric_reason(product: Any, *, english: bool) -> str:
     """Explain attention/adoption without pretending that traffic proves retention."""
     for sighting in reversed(product.sightings or ()):
         metrics = sighting.metrics or {}
+        if not is_product_attributed_metric(metrics):
+            continue
         raw = metrics.get("raw_value")
         value = metrics.get("value")
         amount = raw if raw not in (None, "") else value
@@ -125,11 +131,34 @@ def demand_read(product: Any, review: Any | None, evidence: Iterable[Any], *, en
     else:
         demand_maturity = "unclear"
 
+    business_maturity = _business_maturity(product, review, evidence)
+    if business_maturity in {"paid", "retained"}:
+        judgment_basis = "commercial"
+    elif business_maturity == "adoption":
+        judgment_basis = "behavioral"
+    elif summary or jobs or review:
+        judgment_basis = "reasoned"
+    else:
+        judgment_basis = "facts_only"
+
+    if demand_maturity == "evidenced" and business_maturity in {"paid", "retained"}:
+        recommended_action = "investigate"
+    elif demand_maturity == "evidenced":
+        recommended_action = "try"
+    elif business_maturity == "adoption":
+        recommended_action = "dissect"
+    elif demand_maturity == "job_only":
+        recommended_action = "watch"
+    else:
+        recommended_action = "clue"
+
     return DemandRead(
         job=job,
         pain=pain,
         current_alternative=alternative,
         usage_reason=usage_reason,
         demand_maturity=demand_maturity,
-        business_maturity=_business_maturity(product, review, evidence),
+        business_maturity=business_maturity,
+        judgment_basis=judgment_basis,
+        recommended_action=recommended_action,
     )

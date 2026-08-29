@@ -244,6 +244,18 @@ class FullReqReviewTests(unittest.TestCase):
         ),))
         self.assertTrue(_is_proven(item))
 
+    def test_unattributed_parent_site_metric_does_not_make_feature_proven(self) -> None:
+        item = replace(product(), sightings=(Sighting(
+            "ranking", "https://example.com", "2026-08-23T10:00:00Z",
+            {
+                "raw_value": "2.79M",
+                "value": 2_790_000.0,
+                "metric": "visits",
+                "product_attribution": False,
+            },
+        ),))
+        self.assertFalse(_is_proven(item))
+
     def test_full_review_downgrades_unsupported_claim_without_evidence(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             store = Store(Path(tmp))

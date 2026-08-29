@@ -267,6 +267,9 @@ button { font: inherit; }
 .decision-grid .field:nth-child(even) { padding-left: 0; border-left: 0; }
 .decision-grid .decision-call { padding-left: 12px; background: color-mix(in srgb, var(--surface) 52%, transparent); }
 .decision-grid .field p { max-width: 45em; font-size: 15px; line-height: 1.72; }
+.research-notes { margin-top: 24px; border-top: 1px solid var(--line-soft); }
+.research-notes summary { padding: 15px 0; cursor: pointer; color: var(--muted); font-size: 13px; font-weight: 650; }
+.research-notes[open] summary { color: var(--ink); }
 .decision-overview { grid-template-columns: 1fr; }
 .decision-overview .field:nth-child(n), .decision-overview .field + .field { padding-left: 0; border-left: 0; }
 .decision-overview .field-take { padding-left: 13px; border-left: 2px solid var(--accent); }

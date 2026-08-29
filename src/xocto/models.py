@@ -159,6 +159,17 @@ class Sighting:
         )
 
 
+def is_product_attributed_metric(metrics: dict[str, Any] | None) -> bool:
+    """Whether a source metric can honestly be assigned to this product.
+
+    Aggregators sometimes attach a company, parent-domain, or content-site metric
+    to a feature page.  Preserve that raw record for provenance, but keep it out
+    of product maturity, ranking, and demand projections when attribution is
+    explicitly false.
+    """
+    return bool(metrics is not None and metrics.get("product_attribution") is not False)
+
+
 # 产品在流水线里的状态。Python 只负责把状态推到 pending_filter，
 # 之后的流转由 Claude Code 在过滤和分析阶段写入。
 STATUS_PENDING_FILTER = "pending_filter"  # 刚采集，还没过滤

@@ -235,6 +235,22 @@ class PublishabilityTests(unittest.TestCase):
         self.assertEqual(_metric_badges(product_with_updates, ZH), ["开源关注 120"])
         self.assertEqual(product_view(product_with_updates, ZH)["name"], "Safe&Fast")
 
+    def test_product_page_hides_metric_that_is_not_product_attributed(self) -> None:
+        feature = replace(
+            product(),
+            sightings=(Sighting(
+                "ranking", "https://example.com", "2026-08-13T00:00:00Z",
+                {
+                    "raw_value": "2.79M",
+                    "value": 2_790_000.0,
+                    "mom_percent": 49.37,
+                    "product_attribution": False,
+                },
+            ),),
+        )
+
+        self.assertEqual(_metric_badges(feature, ZH), [])
+
     def test_english_view_never_falls_back_to_untranslated_raw_fields(self) -> None:
         untranslated = replace(
             product(),

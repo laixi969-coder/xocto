@@ -171,7 +171,7 @@ decision 只能是：
 - market_context：模型发布、价格战、监管、平台政策或行业结构变化，不是独立产品；
 - rejected：没有足够事实形成实体或有意义的市场观察。
 
-priority_review=true 必须是 entity。name 必须是原文明示的稳定实体名，不得沿用“收入暴涨”“刚刚发布”
+priority_review=true 必须是 entity。name 必须是原文明示的当前官方实体名，不得沿用旧名或“收入暴涨”“刚刚发布”
 等新闻标题。entity 与 market_context 都必须给 event_summary_zh/event_summary_en，只写本次新增的发布、
 采用、收入、客户、融资、定价或政策事实，两者互译。market_context 还必须给 summary_zh/summary_en，
 说明变化本身及市场影响；它是正式公开内容，不是淘汰桶。英文不得混入中文字符或中文标点。
@@ -329,7 +329,8 @@ def _prompt(
 每个候选必须恰好出现一次。decision 只能是 rejected、market_context、queued、watching。
 候选可能是产品页、代码库，也可能是报道、财报或公告：载体不是对象。先识别原文实际指向的
 稳定公司、产品或业务；若候选标题是新闻标题，name 必须改成原文明确出现的实体名，禁止把
-“收入暴涨”“刚刚发布”等标题当产品名。无法确认稳定实体时保留原名：
+“收入暴涨”“刚刚发布”等标题当产品名。若材料同时出现当前官方名和旧名，name 必须使用当前
+官方页面的名称，旧名只作为历史别名写进事件摘要。无法确认稳定实体时保留原名：
 - rejected：不值得公开收录；其余字段可以为空。
 - market_context：不是独立产品的行业变化（模型发布、价格战、监管、平台政策）；
   不做真需求判定书，但必须保留 name、summary_zh、summary_en，进入公开的市场背景流；
@@ -348,8 +349,10 @@ project_type（new_application、open_source、ai_transformation 之一），以
 每个 queued 或 watching 候选还必须输出 req_initial。它是 `/req` 的公开信息初判，
 不是热度评分：严格按 value、consensus、model、truth 四道闸门依序填写，并遵守
 下面的 REQ 公开证据模式。
-- 每道闸门 status 只能是 supported、insufficient、challenged。没有证据就写 insufficient；
-  不得因为材料不全而猜测或判为 challenged。
+- 每道闸门 status 只能是 supported、insufficient、challenged。判断依据分为公开事实、工作流结构推理、
+  量化验证三层。没有量化数据不等于不能判断；能从有引用的公开事实说清任务、旧替代、不解决的后果和
+  产品如何完成交付时，价值关可以 supported，但 reason 必须明确标注“工作流结构判断”。
+  完全没有可引用公开事实时才写 insufficient；不得因为材料不全而猜测或判为 challenged。
 - verdict 只能是 true_demand、pseudo_demand、needs_validation。每个进入机会流的产品都必须判断，禁止用“待验证”当结论。
   价值结构成立（能说清它解决什么需求、什么痛点，且痛点刚性、交付可确定）即 true_demand，不要求四关全过，也不要求已有定价或已确认买方。
   看着挺好但没有也行、自嗨拼凑或只能靠融资续命 → pseudo_demand。
@@ -360,7 +363,7 @@ project_type（new_application、open_source、ai_transformation 之一），以
   付费或交付证据。价值关成立后，后面三关必须各自判断。next_validation 必须写 xOcto 可继续追踪的公开来源与会改变判断的事实，不得把验证工作交给读者。
 - signal_level 只能是“需求信号明确”“初步成立”“需求存疑”。禁止“待验证”。真需求但付费未核验用“初步成立”。
 - req_initial.demand_read 无论 verdict 是什么都必须完整回答：用户要完成什么、什么痛点、当前替代方式、
-  为什么有人采用或关注。每项同时给中英文。产品说明只能证明产品主张，不能独自证明痛点；访问、收藏、
+  为什么有人采用或关注。每项同时给中英文。产品说明是公开事实，可用于推导工作流结构，但不能伪装成用户采用；访问、收藏、
   增长可以解释采用或关注，但不能冒充付费与留存。没有公开证据时明确写“尚未核验”，禁止留空或编造。
 
 <req_public_evidence_protocol>
