@@ -693,6 +693,26 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("var PAGE_SIZE = 40", template)
         self.assertIn('id="load-more"', template)
         self.assertIn("visibleLimit += PAGE_SIZE", template)
+        self.assertNotIn("data-search=", template)
+        self.assertIn("card._searchText", template)
+        self.assertNotIn('class="card-insp"', template)
+        self.assertNotIn("p.inspiration", template)
+
+    def test_public_product_view_neutralizes_collection_channel_names(self) -> None:
+        source_named = replace(
+            product(),
+            name="Crunchbase News",
+            summary_zh="TechCrunch 报道了一项市场变化。",
+            summary_en="TechCrunch reported a market development.",
+        )
+
+        chinese = product_view(source_named, ZH)
+        english = product_view(source_named, EN)
+
+        self.assertEqual(chinese["name"], "市场动态")
+        self.assertEqual(english["name"], "Market development")
+        self.assertNotIn("TechCrunch", chinese["summary"])
+        self.assertNotIn("TechCrunch", english["summary"])
 
     def test_opportunity_library_counts_each_business_form_bucket(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

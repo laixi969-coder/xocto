@@ -132,6 +132,11 @@ def check_leaks() -> list[str]:
     for pattern in ("*.html", "*.xml", "*.txt"):
         for path in SITE.rglob(pattern):
             text = path.read_text(encoding="utf-8", errors="ignore")
+            if path.suffix == ".html":
+                # External evidence URLs may naturally contain a publisher's
+                # domain. The rule protects reader-facing copy, not link targets.
+                text = re.sub(r"<script.*?</script>", " ", text, flags=re.S | re.I)
+                text = html_lib.unescape(re.sub(r"<[^>]+>", " ", text))
             for name in FORBIDDEN:
                 if name in text:
                     hits.append(f"{path.relative_to(SITE)} 里出现了采集源名称 “{name}”")

@@ -140,6 +140,11 @@ def _neutralize_public_source_names(value: str, locale: Locale) -> str:
     return " ".join(text.split())
 
 
+def _public_product_name(value: str, locale: Locale) -> str:
+    name = _neutralize_public_source_names(html.unescape(value), locale)
+    return name or ("Market development" if locale.key == "en" else "市场动态")
+
+
 _TAG_ALIASES_ZH = {
     "industry": {
         "软件": "软件开发", "软件研发": "软件开发", "软件开发者": "软件开发",
@@ -1439,10 +1444,11 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         if product is None or product.slug in context_slugs or not event.homepage:
             continue
         context_slugs.add(product.slug)
+        context_summary = product.summary_en if locale.key == "en" else product.summary_zh
         market_summary.append({
             "kind": "context",
-            "title": product.name,
-            "text": product.summary_en if locale.key == "en" else product.summary_zh,
+            "title": _public_product_name(product.name, locale),
+            "text": _neutralize_public_source_names(context_summary, locale),
             "url": product.url,
         })
     industry_counts: dict[str, int] = {}
@@ -1730,9 +1736,12 @@ def product_view(product: Product, locale: Locale) -> dict[str, Any]:
     industries = _localized_tags(locale, product.industries_en, product.industries, "industry")
     jobs = _localized_tags(locale, product.jobs_en, product.jobs, "job")
     regions = _localized_tags(locale, product.regions_en, product.regions, "region")
+    public_name = _public_product_name(product.name, locale)
+    summary = _neutralize_public_source_names(summary, locale)
+    inspiration = _neutralize_public_source_names(inspiration, locale)
     return {
         "slug": product.slug,
-        "name": html.unescape(product.name),
+        "name": public_name,
         "builder": product.builder if locale.key != "en" else _english_text(product.builder),
         "summary": summary,
         "summary_raw": product.summary,

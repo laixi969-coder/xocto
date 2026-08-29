@@ -152,7 +152,6 @@
       {% for p in products %}
       <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
          href="{{ root }}p/{{ p.slug }}.html"
-         data-search="{{ ([p.name, p.summary, p.category, p.project_type] + p.search_terms) | join(' ') | lower }}"
          data-category="{{ p.category }}" data-project-type="{{ p.project_type }}" data-industry="{{ p.industries | join('||') }}" data-job="{{ p.jobs | join('||') }}" data-region="{{ p.regions | join('||') }}" data-open-source="{{ 'true' if p.open_source else '' }}" data-cross-market="{{ 'true' if p.cross_market else '' }}" data-req="{{ p.req.signal if p.req else '' }}" data-discovered="{{ p.discovered_at }}" data-form="{{ p.form_key }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"
          data-opportunity="{{ p.opportunity_rank }}" data-weight="{{ p.weight }}" data-growth="{{ p.growth if p.growth is not none else -99999 }}"
          data-recent="{{ p.last_seen }}" data-name="{{ p.name }}">
@@ -188,9 +187,6 @@
         <p class="card-money"><span>{{ t.products.money }}</span>{{ p.money_brief }}</p>
         {% endif %}
 
-        {% if p.inspiration %}
-        <p class="card-insp"><span>{{ t.products.entry }}</span>{{ p.inspiration }}</p>
-        {% endif %}
       </a>
       {% endfor %}
     </div>
@@ -242,6 +238,16 @@
     };
     var ALL_TITLE = {{ t.products.title | tojson }};
     var SORT_LOCALE = {{ locale.lang | tojson }};
+    cards.forEach(function (card) {
+      card._searchText = [
+        card.textContent,
+        card.dataset.category,
+        card.dataset.projectType,
+        card.dataset.industry,
+        card.dataset.job,
+        card.dataset.region
+      ].join(' ').toLocaleLowerCase(SORT_LOCALE);
+    });
     var DEFAULT_NOTE = note.textContent;
     var resultsJump = document.querySelector('.results-jump');
 
@@ -275,7 +281,7 @@
       var query = active.search.trim().toLocaleLowerCase(SORT_LOCALE);
       cards.forEach(function (card) {
         var ok =
-          (!query || card.dataset.search.toLocaleLowerCase(SORT_LOCALE).indexOf(query) >= 0) &&
+          (!query || card._searchText.indexOf(query) >= 0) &&
           (!active.category || card.dataset.category === active.category) &&
           (!active.projectType || card.dataset.projectType === active.projectType) &&
           (!active.industry || card.dataset.industry.split('||').indexOf(active.industry) >= 0) &&
