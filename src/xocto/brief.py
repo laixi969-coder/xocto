@@ -944,6 +944,66 @@ def _neutralize_model_public_copy(result: dict[str, Any]) -> dict[str, Any]:
     return cleaned
 
 
+def _coerce_public_text(value: Any) -> Any:
+    """Recover text wrapped in a list/object without stringifying arbitrary data."""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, list) and value and all(isinstance(item, str) for item in value):
+        return " ".join(item.strip() for item in value if item.strip())
+    if isinstance(value, dict):
+        preferred = ("text", "summary", "description", "value")
+        for key in preferred:
+            if isinstance(value.get(key), str) and value[key].strip():
+                return value[key].strip()
+        strings = [item.strip() for item in value.values() if isinstance(item, str) and item.strip()]
+        if strings:
+            return " ".join(strings)
+    return value
+
+
+def _normalize_model_public_text_types(result: dict[str, Any]) -> dict[str, Any]:
+    """Normalize common JSON-shape drift only in fields whose schema is public text."""
+    cleaned = deepcopy(result)
+    rows = cleaned.get("products")
+    scalar_fields = (
+        "summary_zh", "inspiration", "summary_en", "inspiration_en",
+        "event_summary_zh", "event_summary_en",
+    )
+    list_fields = ("industries", "industries_en", "jobs", "jobs_en", "regions", "regions_en")
+    if isinstance(rows, list):
+        for row in rows:
+            if not isinstance(row, dict):
+                continue
+            for field in scalar_fields:
+                if field in row:
+                    row[field] = _coerce_public_text(row[field])
+            for field in list_fields:
+                if isinstance(row.get(field), list):
+                    row[field] = [_coerce_public_text(value) for value in row[field]]
+            review = row.get("req_initial")
+            if not isinstance(review, dict):
+                continue
+            if "next_validation" in review:
+                review["next_validation"] = _coerce_public_text(review["next_validation"])
+            if isinstance(review.get("gates"), list):
+                for gate in review["gates"]:
+                    if isinstance(gate, dict) and "reason" in gate:
+                        gate["reason"] = _coerce_public_text(gate["reason"])
+            if isinstance(review.get("demand_read"), dict):
+                for field, value in tuple(review["demand_read"].items()):
+                    review["demand_read"][field] = _coerce_public_text(value)
+    report = cleaned.get("report")
+    if isinstance(report, dict):
+        for suffix in ("zh", "en"):
+            for field in (f"hook_{suffix}", f"body_{suffix}"):
+                if field in report:
+                    report[field] = _coerce_public_text(report[field])
+            highlights = report.get(f"highlights_{suffix}")
+            if isinstance(highlights, list):
+                report[f"highlights_{suffix}"] = [_coerce_public_text(value) for value in highlights]
+    return cleaned
+
+
 def _require_no_public_source_leaks(
     updates: dict[str, Product],
     zh_report: str,
@@ -1086,7 +1146,12 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                 break
             except BriefError as exc:
                 if attempt >= MAX_BATCH_REPAIRS:
-                    raise
+                    normalized = _normalize_model_public_text_types(result)
+                    if normalized == result:
+                        raise
+                    result = normalized
+                    interpreted, entities, interpreted_events = _interpretations(result, batch)
+                    break
                 result = _request(_validation_repair_messages(messages, result, exc))
         for attempt in range(MAX_BATCH_REPAIRS + 1):
             try:
@@ -1136,7 +1201,14 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                 break
             except BriefError as exc:
                 if attempt >= MAX_BATCH_REPAIRS:
-                    raise
+                    normalized = _normalize_model_public_text_types(result)
+                    if normalized == result:
+                        raise
+                    result = normalized
+                    batch_updates = _updates(result, batch)
+                    batch_reviews = _req_reviews(result, batch, store, day=day)
+                    batch_event_summaries = _event_summaries(result, batch)
+                    break
                 result = _request(_validation_repair_messages(messages, result, exc))
         for attempt in range(MAX_BATCH_REPAIRS + 1):
             try:
@@ -1176,8 +1248,13 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         en_report = _report_markdown(report_result, day, english=True)
     except BriefError as exc:
         report_result = _request(_validation_repair_messages(report_messages, report_result, exc))
-        zh_report = _report_markdown(report_result, day, english=False)
-        en_report = _report_markdown(report_result, day, english=True)
+        try:
+            zh_report = _report_markdown(report_result, day, english=False)
+            en_report = _report_markdown(report_result, day, english=True)
+        except BriefError:
+            report_result = _normalize_model_public_text_types(report_result)
+            zh_report = _report_markdown(report_result, day, english=False)
+            en_report = _report_markdown(report_result, day, english=True)
     _require_priority_coverage(edited_products, zh_report, en_report)
     for attempt in range(MAX_BATCH_REPAIRS + 1):
         try:

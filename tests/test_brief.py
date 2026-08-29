@@ -16,6 +16,7 @@ from xocto.brief import (
     _model_providers,
     _neutralize_model_public_copy,
     _neutralize_public_source_names,
+    _normalize_model_public_text_types,
     _prompt,
     _public_source_leaks,
     _report_prompt,
@@ -644,6 +645,33 @@ class BriefTests(unittest.TestCase):
             "TechCrunch",
             cleaned["products"][0]["req_initial"]["demand_read"]["job_en"],
         )
+
+    def test_structured_text_fallback_unwraps_common_json_shape_drift(self) -> None:
+        result = {
+            "products": [{
+                "slug": "apps",
+                "summary_zh": {"text": "面向团队的应用交付方式发生变化。"},
+                "summary_en": ["Application delivery", "is changing for teams."],
+                "req_initial": {
+                    "next_validation": {"value": "核验目标团队是否持续采用。"},
+                    "gates": [{"reason": ["公开材料尚未证明", "持续付费。"]}],
+                },
+            }],
+            "report": {
+                "hook_zh": {"summary": "本期出现新的交付信号"},
+                "highlights_en": [{"text": "One new delivery signal"}],
+            },
+        }
+
+        cleaned = _normalize_model_public_text_types(result)
+
+        row = cleaned["products"][0]
+        self.assertEqual(row["summary_zh"], "面向团队的应用交付方式发生变化。")
+        self.assertEqual(row["summary_en"], "Application delivery is changing for teams.")
+        self.assertEqual(row["req_initial"]["next_validation"], "核验目标团队是否持续采用。")
+        self.assertEqual(row["req_initial"]["gates"][0]["reason"], "公开材料尚未证明 持续付费。")
+        self.assertEqual(cleaned["report"]["hook_zh"], "本期出现新的交付信号")
+        self.assertEqual(cleaned["report"]["highlights_en"], ["One new delivery signal"])
 
     def test_failed_run_resumes_from_the_first_unfinished_batch(self) -> None:
         def market_context(slug: str) -> dict:
