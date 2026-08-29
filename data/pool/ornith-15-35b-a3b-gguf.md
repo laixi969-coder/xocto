@@ -20,7 +20,7 @@ url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 canonical_url: https://modelscope.cn/models/ornith-ai/Ornith-1.5-35B-A3B-GGUF
 summary: ''
 first_seen: '2026-08-20T02:08:16Z'
-last_seen: '2026-08-29T03:43:07Z'
+last_seen: '2026-08-29T15:06:03Z'
 status: rejected
 sources:
 - modelscope
@@ -48,17 +48,17 @@ sightings:
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/seedleap/Zing-0.5
-  seen_at: '2026-08-29T03:43:07Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
-    likes: 12
-    downloads: 479
+    likes: 13
+    downloads: 515
   kind: product
 - source: modelscope
   url: https://modelscope.cn/models/ZhipuAI/GLM-5.3
-  seen_at: '2026-08-29T03:43:07Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
-    likes: 58
-    downloads: 211
+    likes: 62
+    downloads: 1059
   kind: product
 ---
 

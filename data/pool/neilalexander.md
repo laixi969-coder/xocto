@@ -21,16 +21,16 @@ url: https://neilalexander.dev/2026/06/30/flooding-contributions
 canonical_url: https://neilalexander.dev/2026/06/30/flooding-contributions
 summary: Please stop flooding our projects with AI slop to furnish your CV
 first_seen: '2026-08-28T03:49:33Z'
-last_seen: '2026-08-29T03:43:08Z'
-status: market_context
+last_seen: '2026-08-29T15:06:03Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://neilalexander.dev/2026/06/30/flooding-contributions
-  seen_at: '2026-08-29T03:43:08Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
-    points: 208
+    points: 212
     comments: 141
   kind: news
 ---

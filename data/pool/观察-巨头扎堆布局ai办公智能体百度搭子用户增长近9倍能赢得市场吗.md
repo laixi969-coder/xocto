@@ -32,14 +32,19 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5NVFOVHVUZE
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5NVFOVHVUZE1WNGNnSmZhZDA2MHJhWE1oX1VqUFNwQVVRU2l5WmV1OHJIdHVBQnJXaUpRV191T25ZR2NjY2ZaT2lLWFlUMHh0ZjNMTmdsMw?oc=5
 summary: 观察｜巨头扎堆布局AI办公智能体，百度搭子用户增长近9倍，能赢得市场吗？ thepaper.cn
 first_seen: '2026-08-27T13:42:00Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQaXdzUU5PTmM5NVFOVHVUZE1WNGNnSmZhZDA2MHJhWE1oX1VqUFNwQVVRU2l5WmV1OHJIdHVBQnJXaUpRV191T25ZR2NjY2ZaT2lLWFlUMHh0ZjNMTmdsMw?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sMF93WEJneXBGSTd2cDduV0FtRk9zQjhMWEFTaWpqWF8zZWFJXzdIUmNGeHBsNXZKb1J0NWZBcEp2N2JNZ2h5VzhfTkJCMEZvclRJQUFDYXhkSm1zXy1qU2lJSnVMNjg?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
   metrics: {}
   kind: news
 ---

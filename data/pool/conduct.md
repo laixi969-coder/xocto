@@ -30,17 +30,17 @@ url: https://github.com/sseshachala/conductai
 canonical_url: https://github.com/sseshachala/conductai
 summary: open-source guardrails for LLM and MCP tool calls
 first_seen: '2026-08-28T19:29:20Z'
-last_seen: '2026-08-29T03:43:08Z'
+last_seen: '2026-08-29T15:06:03Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/sseshachala/conductai
-  seen_at: '2026-08-29T03:43:08Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
-    points: 20
-    comments: 3
+    points: 22
+    comments: 4
   kind: product
 ---
 

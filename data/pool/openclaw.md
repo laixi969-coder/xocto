@@ -8,14 +8,23 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/OpenClaw/webid1D6F39F51
 canonical_url: https://aicpb.com/product/OpenClaw/webid1D6F39F51
 summary: 开创了 Claw 智能体品类
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-08-17T22:41:21Z'
-status: rejected
+last_seen: '2026-08-29T15:06:33Z'
+status: pending_filter
 sources:
 - aicpb
+- marketfeeds
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/OpenClaw/webid1D6F39F51
@@ -32,6 +41,12 @@ sightings:
     - 全球降速榜
     - AI龙虾增速榜
     - 全球总榜
+  kind: product
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/08/480855.html
+  seen_at: '2026-08-29T15:06:33Z'
+  metrics: {}
+  kind: news
 ---
 
 # OpenClaw

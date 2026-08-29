@@ -37,18 +37,19 @@ canonical_url: https://worldmodels101.com
 summary: Free interactive course on world models in AI. Nine visual chapters on prediction, latent dynamics,
   planning, JEPA, video models, and failure modes.
 first_seen: '2026-08-19T10:39:11Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://worldmodels101.com
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T15:06:08Z'
   metrics:
-    stars: 86
-    forks: 57
+    stars: 93
+    forks: 64
     open_issues: 0
+  kind: product
 ---
 
 # worldmodels101

@@ -20,16 +20,16 @@ url: https://github.com/MehranMarxian/OpenLayer
 canonical_url: https://github.com/MehranMarxian/OpenLayer
 summary: local Photoshop plugin for ComfyUI (inpaint/outpaint demo)
 first_seen: '2026-08-28T15:44:42Z'
-last_seen: '2026-08-29T03:43:08Z'
+last_seen: '2026-08-29T15:06:03Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/MehranMarxian/OpenLayer
-  seen_at: '2026-08-29T03:43:08Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

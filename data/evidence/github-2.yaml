@@ -1,0 +1,20 @@
+- id: ev-4962a79112dacaec
+  project_slug: github-2
+  url: https://www.v2ex.com/t/1238005
+  title: 做了个翻译中文提示词的小工具
+  published_at: '2026-08-29T02:22:46Z'
+  collected_at: '2026-08-29T15:06:00Z'
+  source_kind: product
+  tier: independent
+  fact: "主要功能是将中文提示词同时转换为：  \r\n- 忠于原意的英文直译\r\n- 更适合大模型理解的英文 Prompt\r\n\r\n目的是减少中英文表达偏差，也降低仅因输入语言而被误判为特定地区用户的风险(你懂的)\r\
+    \n\r\n开源、轻量，可配置自己的模型 API 。  \r\nhttps://github.com/gOODiDEA2002/lighttrans"
+- id: ev-b0483948fdd6fe04
+  project_slug: github-2
+  url: https://github.com/cohere-ai/cohere-python/releases/tag/7.1.0
+  title: 'cohere-ai/cohere-python: 7.1.0'
+  published_at: '2026-08-26T21:35:00Z'
+  collected_at: '2026-08-29T15:06:08Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## What's Changed\r\n* SDK regeneration by @fern-api[bot] in https://github.com/cohere-ai/cohere-python/pull/803\r\
+    \n* Support for new /parse endpoint\r\n\r\n\r\n**Full Changelog**: https://github.com/cohere-ai/cohere-python/compare/7.0.9...7.1.0"

@@ -31,14 +31,19 @@ url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TSTNmX0ZXMHE4QnlOSWdSaV
 canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TSTNmX0ZXMHE4QnlOSWdSaV9LX0NYUGUyck1iUjBNZm05ckVTRWpZTUdoNjZIXzBrMDN0V05DTUV6S3RraTI2NzVUX1hmRThZZ3VMTkY3QjBXZ0dZUkRPd0JFRXk1OVoy?oc=5
 summary: Greenberg Traurig Deploys the Next Generation of CoCounsel Legal WebWire
 first_seen: '2026-08-27T14:23:44Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TSTNmX0ZXMHE4QnlOSWdSaV9LX0NYUGUyck1iUjBNZm05ckVTRWpZTUdoNjZIXzBrMDN0V05DTUV6S3RraTI2NzVUX1hmRThZZ3VMTkY3QjBXZ0dZUkRPd0JFRXk1OVoy?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimwFBVV95cUxQN0g2a1c1emwtMVY2OS16SzFEbDZsTXRYT2RYb291TTlXbk9LNWEzSWRwS0JmMmx4LWVyV241bjZHeXI5bVpId0JqWmtrTVIwSjNKX1lKUkJMMU5PMWZFZzlnQlcxNTZ2ZVlmeFhsWGFmYnpQbHQ4SUJUUGhQdkJtWGhRS3JONzhick1Dck9tMlpjaUdzLTNoUFM5OA?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
   metrics: {}
   kind: news
 ---

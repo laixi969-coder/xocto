@@ -97,3 +97,21 @@
   tier: independent
   fact: Artificial Intelligence (AI) is a term coined in 1955 by John McCarthy, Stanford's first faculty
     member in AI, who described it as "the science and engineering of making intelligent machines."
+- id: ev-a27b59afb1ea861f
+  project_slug: flyxl
+  url: https://www.v2ex.com/t/1237986
+  title: 公司不让装 Navicat 了，就自己写了一个数据库客户端
+  published_at: '2026-08-28T15:55:19Z'
+  collected_at: '2026-08-29T15:06:00Z'
+  source_kind: product
+  tier: independent
+  fact: "![DataZen 主界面]( https://flyxl.github.io/datazen/assets/screenshots/01-main-window.png)\r\n\r\n\
+    写代码十几年了。之前也给孩子们做过几个 Android 小应用，背单词、练口算那种，他们用得还行。\r\n\r\n但那些说到底还是「给别人用」。**DataZen 是我第一次想只为自己做一个软件。**\r\
+    \n\r\n起因很现实：公司合规不让装 Navicat 了。DBeaver 能用，但日常用起来总觉得差点意思。正好赶上 vibe coding 这股风，心想不如自己试一把，看能不能做出一个**真正工业级、能天天拿来干活**的数据库客户端。\r\
+    \n\r\n不是玩票，也不是 demo 。就是给自己用。\r\n\r\n---\r\n\r\n## 两个具体痛点\r\n\r\n### 1. 查线上问题，经常要串好几张表，还跨库\r\n\r\n\
+    处理投诉、排查线上问题，流程大概是这样：\r\n\r\n- 先查表 A ，拿到某个 ID 或状态\r\n- 用这个值去查表 B\r\n- 再查 C 、D……\r\n- 更麻烦的是，这些表往往不在同一个库，没法直接\
+    \ JOIN\r\n- 只能等上一条 SQL 跑完，把结果里的字段复制出来，填到下一条 SQL 的 WHERE 里\r\n\r\n一条链路下来，复制粘贴十几次是常态。烦，还容易填错。\r\n\r\n\
+    所以做了 **Workflow**：用 YAML 把多步查询串起来，上一步的结果可以直接传给下一步，不同步骤还可以连不同的库。查一次，整条链路跑完。\r\n\r\n![Workflow 编辑器](\
+    \ https://flyxl.github.io/datazen/assets/screenshots/04-workflow.png)\r\n\r\n![跨数据库 Workflow]( https://flyxl.github.io/datazen/assets/screenshots/12-workflow-crossdb.png)\r\
+    \n\r\n### 2. 老板要数据，要报表\r\n\r\n做开发的都懂。临时要个数字、要张图，经常就是「帮查一下上周 xxx 」「对比一下这个月和上个月」。每次打开客户端、写 SQL 、导出、贴到\
+    \ PPT 或飞书里，重复劳动很多。\r\n\r\n所以做了 **运营看板（ Dashboard ）**：把常用 SQL 和图表保存下来，定时刷新，多个指标放在一页。老板要看"

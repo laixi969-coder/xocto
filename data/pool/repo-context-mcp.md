@@ -31,18 +31,19 @@ url: https://github.com/nduc99911/repo-context-mcp
 canonical_url: https://github.com/nduc99911/repo-context-mcp
 summary: 'MCP server: repo map, code search, and token-aware context packs for AI coding agents'
 first_seen: '2026-08-12T08:22:31Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nduc99911/repo-context-mcp
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-29T15:06:08Z'
   metrics:
-    stars: 103
+    stars: 104
     forks: 88
     open_issues: 0
+  kind: product
 ---
 
 # repo-context-mcp

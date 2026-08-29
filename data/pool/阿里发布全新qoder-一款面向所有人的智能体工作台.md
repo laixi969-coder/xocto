@@ -37,14 +37,25 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vYWoyR0EtVVoxa3RjaG54b0
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vYWoyR0EtVVoxa3RjaG54b0VxOW15VlVZc3kzZmdTNXFmaWYwSW94d0V1NGxOTzhGd0RhU19Pa2FudTFxLWh0MmY4YVA1OU5jbDNlcGdpWVRTM3hTb1VtNw?oc=5
 summary: 阿里发布全新Qoder 一款面向所有人的智能体工作台 东方财富
 first_seen: '2026-08-27T05:53:43Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1vYWoyR0EtVVoxa3RjaG54b0VxOW15VlVZc3kzZmdTNXFmaWYwSW94d0V1NGxOTzhGd0RhU19Pa2FudTFxLWh0MmY4YVA1OU5jbDNlcGdpWVRTM3hTb1VtNw?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/08/480940.html
+  seen_at: '2026-08-29T15:06:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTE1fajZTVHNwX2JRNlNOXy05QXg1aXBlV3dKdDlFZ2UtMklsQ25xVVFaR0ZXemM4akZPdk5PTmNNcU82NkVqYmFsb05CSlhYVWRSWWJVM0trVF9Ga3JrRmVEMEpzSTZnd2xabjQ0aDhtTHNveFp0?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
   metrics: {}
   kind: news
 ---

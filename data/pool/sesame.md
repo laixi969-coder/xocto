@@ -28,17 +28,17 @@ url: https://usesesame.app/
 canonical_url: https://usesesame.app
 summary: a local-first, open-source password manager
 first_seen: '2026-08-28T19:14:14Z'
-last_seen: '2026-08-29T03:43:08Z'
+last_seen: '2026-08-29T15:06:03Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://usesesame.app/
-  seen_at: '2026-08-29T03:43:08Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
-    points: 43
-    comments: 49
+    points: 54
+    comments: 73
   kind: product
 ---
 

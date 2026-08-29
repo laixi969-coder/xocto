@@ -21,16 +21,16 @@ url: https://huggingface.co/spaces/hugging-apps/fasth3-4step-preview-demo
 canonical_url: https://huggingface.co/spaces/hugging-apps/fasth3-4step-preview-demo
 summary: 4-step MiniMax-H3 with sparse attention — video + audio
 first_seen: '2026-08-28T19:52:59Z'
-last_seen: '2026-08-29T03:43:27Z'
+last_seen: '2026-08-29T15:06:31Z'
 status: market_context
 sources:
 - huggingface
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/hugging-apps/fasth3-4step-preview-demo
-  seen_at: '2026-08-29T03:43:27Z'
+  seen_at: '2026-08-29T15:06:31Z'
   metrics:
-    likes: 4
+    likes: 8
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://llm-inference-calculator-delta.vercel.app/
 canonical_url: https://llm-inference-calculator-delta.vercel.app
 summary: Estimate VRAM, Latency, and Throughput
 first_seen: '2026-08-28T13:05:17Z'
-last_seen: '2026-08-29T03:43:08Z'
+last_seen: '2026-08-29T15:06:03Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://llm-inference-calculator-delta.vercel.app/
-  seen_at: '2026-08-29T03:43:08Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
     points: 6
-    comments: 3
+    comments: 4
   kind: product
 ---
 

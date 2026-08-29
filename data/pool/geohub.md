@@ -36,16 +36,16 @@ canonical_url: https://htmlpreview.github.io
 summary: 'GEOHub: open, evidence-bounded GEO and SEO agent skills for AI Search, with research-grounded
   discovery, diagnosis, content, measurement, and one-line SEO planning.'
 first_seen: '2026-08-09T01:55:16Z'
-last_seen: '2026-08-29T03:43:11Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://htmlpreview.github.io/?https://raw.githubusercontent.com/yaojingang/GEOHub/main/reports/geohub-visual-guide.html
-  seen_at: '2026-08-29T03:43:11Z'
+  seen_at: '2026-08-29T15:06:08Z'
   metrics:
-    stars: 107
+    stars: 108
     forks: 19
     open_issues: 0
   kind: product

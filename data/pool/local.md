@@ -20,12 +20,14 @@ url: https://www.producthunt.com/products/local-7
 canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: rejected
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
 sources:
 - producthunt
 - officialfeeds
 - marketfeeds
+- hackernews
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/local-7
@@ -45,6 +47,18 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms/
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://github.com/stemdeckapp/stemdeck
+  seen_at: '2026-08-29T15:06:03Z'
+  metrics:
+    points: 160
+    comments: 45
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SWTNwU3RrbUlRdTdhaEFKdW9oQ2xoVXhvcnZLRVlfWm9RUXhOS1ItcmVXRTYxNGRLaHVEY195N0hWZWtvUm54MVFaay15Q2g3bHZHMEVnRUxhTG1yeDA0bg?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
   metrics: {}
   kind: news
 ---

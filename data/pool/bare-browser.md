@@ -23,7 +23,7 @@ summary: Bare is a de-Googled Chromium build for Android, built for privacy, con
   Origin. It adds background video playback, saving media from sites that normally block it, your choice
   of download manager, and more.
 first_seen: '2026-08-15T21:42:56Z'
-last_seen: '2026-08-29T03:43:11Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: rejected
 sources:
 - github
@@ -35,6 +35,14 @@ sightings:
     stars: 223
     forks: 1
     open_issues: 22
+  kind: product
+- source: github
+  url: https://github.com/BareBrowser/bare-browser
+  seen_at: '2026-08-29T15:06:08Z'
+  metrics:
+    stars: 230
+    forks: 1
+    open_issues: 25
   kind: product
 ---
 

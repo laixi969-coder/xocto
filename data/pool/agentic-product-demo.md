@@ -33,16 +33,16 @@ canonical_url: https://github.com/Alexwtlf/agentic-product-demo
 summary: Create polished product demo videos with AI coding agents and Remotion. The UI is code, not a
   screen recording.
 first_seen: '2026-08-24T18:38:19Z'
-last_seen: '2026-08-29T03:43:11Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Alexwtlf/agentic-product-demo
-  seen_at: '2026-08-29T03:43:11Z'
+  seen_at: '2026-08-29T15:06:08Z'
   metrics:
-    stars: 51
+    stars: 53
     forks: 0
     open_issues: 0
   kind: product

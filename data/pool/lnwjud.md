@@ -34,18 +34,18 @@ summary: Windows-first local AI-agent runtime & MCP gateway with 223 configurabl
   by default), durable goal continuation, multi-workspace automation, Secure MCP Tunnel, Git/process/WSL/browser/desktop
   tools.
 first_seen: '2026-08-10T13:00:18Z'
-last_seen: '2026-08-29T03:43:11Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/engasnm111/lnwjud#quick-start-install-the-windows-release-%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2
-  seen_at: '2026-08-29T03:43:11Z'
+  seen_at: '2026-08-29T15:06:08Z'
   metrics:
-    stars: 122
-    forks: 61
-    open_issues: 1
+    stars: 126
+    forks: 62
+    open_issues: 2
   kind: product
 ---
 

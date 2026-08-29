@@ -22,14 +22,26 @@ canonical_url: https://openai.com/index/expanding-our-presence-in-brazil
 summary: OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses,
   and communities to support AI adoption across the country.
 first_seen: '2026-08-27T03:00:00Z'
-last_seen: '2026-08-29T03:43:28Z'
-status: market_context
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
 sources:
 - officialfeeds
+- marketfeeds
+- newssearch
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/expanding-our-presence-in-brazil
   seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by
+  seen_at: '2026-08-29T15:06:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTE9tRm9iT0h5ZzlndHdoZGxMSGNhX2RtanVQd3ZVS045V19fQ3d6NThoNzNxdGt1d3VqYU40VmtCTktiU3FTMnJ5TWN3NHVhRnczcW0tSGQ2cUNIVlpSN0QwQVd0Q1JpNUUtTE9hZVVqVE9XUjlOdzVjT3FMYkF2dw?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
   metrics: {}
   kind: news
 ---

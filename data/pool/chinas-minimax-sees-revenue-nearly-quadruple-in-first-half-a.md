@@ -35,14 +35,19 @@ url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9XTVRCWWZFSD
 canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9XTVRCWWZFSDFzLVhwdTI0NEhzRjJSTnpkWG00d1FWNElMTE11Qldvd1JzMHFEMzFySVh4eWI1b1NXUDNJc01tbmtBSGVjVm04X0Rrekp5VUE3WlZaaW8zUExqLU5JMDdrU0pEeGdTNVJ0aDU5RzR0TXJvbVoxRWJ4ZS1HYXYtaWh2aVd4QnB1dndTYXhUN052WEIwcXQtRHVXTE5CRmc?oc=5
 summary: China’s MiniMax sees revenue nearly quadruple in first half as AI demand surges WTVB
 first_seen: '2026-08-26T11:23:49Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9XTVRCWWZFSDFzLVhwdTI0NEhzRjJSTnpkWG00d1FWNElMTE11Qldvd1JzMHFEMzFySVh4eWI1b1NXUDNJc01tbmtBSGVjVm04X0Rrekp5VUE3WlZaaW8zUExqLU5JMDdrU0pEeGdTNVJ0aDU5RzR0TXJvbVoxRWJ4ZS1HYXYtaWh2aVd4QnB1dndTYXhUN052WEIwcXQtRHVXTE5CRmc?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbHhSV3NuSzlhOHctN3BVRXhEUFB1Z0poN3VFUmhmTzRXQTJ0RmVEbGZISC1ZYlE5NlV4TGR5OHlCU0NVNHhFZkJFekljRF9EQm1aZEU2Q1NUeTRTa1JGZEV2Z1JyS2gwNG9iajlRNlhmN0d3czlVNGk2ZXBWcVU4SlRKSUhUWnhNWnFqQk11V1M1SkN1ZDRBUjJZT05kMy1Xb2wxbjQ3aUxfLWs?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
   metrics: {}
   kind: news
 ---

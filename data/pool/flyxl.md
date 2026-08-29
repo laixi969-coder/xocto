@@ -68,16 +68,16 @@ summary: "![DataZen 主界面]( https://flyxl.github.io/datazen/assets/screensho
   \n- 下载： https://github.com/flyxl/datazen/releases\r\n- 中文文档： https://flyxl.github.io/datazen/zh/manual.html\r\
   \n\r\n也想听听大家：**你平时用数据库客户端，最烦的一件事是什么？** 这个对我比任何功能清单都有用。"
 first_seen: '2026-08-28T15:55:19Z'
-last_seen: '2026-08-29T03:43:06Z'
+last_seen: '2026-08-29T15:06:00Z'
 status: queued
 sources:
 - v2ex
 sightings:
 - source: v2ex
   url: https://flyxl.github.io/datazen/assets/screenshots/01-main-window.png
-  seen_at: '2026-08-29T03:43:06Z'
+  seen_at: '2026-08-29T15:06:00Z'
   metrics:
-    comments: 23
+    comments: 40
   kind: product
 ---
 

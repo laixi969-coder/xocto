@@ -33,17 +33,17 @@ canonical_url: https://halofy.ai
 summary: Halofy is the open access and governance layer for AI agents across your organization. Identity,
   policy, provenance, audit, and signed erasure.
 first_seen: '2026-08-22T06:09:53Z'
-last_seen: '2026-08-29T03:43:11Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://halofy.ai
-  seen_at: '2026-08-29T03:43:11Z'
+  seen_at: '2026-08-29T15:06:08Z'
   metrics:
-    stars: 463
-    forks: 43
+    stars: 473
+    forks: 57
     open_issues: 8
   kind: product
 ---

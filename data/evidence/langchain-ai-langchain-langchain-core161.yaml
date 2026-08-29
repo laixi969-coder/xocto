@@ -1,0 +1,24 @@
+- id: ev-cd2630783f50b4c7
+  project_slug: langchain-ai-langchain-langchain-core161
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.1
+  title: 'langchain-ai/langchain: langchain-core==1.6.1'
+  published_at: '2026-08-27T19:31:34Z'
+  collected_at: '2026-08-29T15:06:08Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Changes since langchain-core==1.6.0
+
+
+    revert: release(core): 1.6.2 (#39971)
+
+    release(core): 1.6.2 (#39967)
+
+    fix(core): shore up indexing in genai v1 streaming content (#39964)
+
+    fix(core): make `StructuredTool` JSON-serializable (#39631)
+
+    chore(deps): bump minor and patch dependencies (#39869)
+
+    release(core): 1.6.1 (#39832)
+
+    feat(core): propagate gateway information on error path (#39829)'

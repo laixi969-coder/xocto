@@ -21,17 +21,17 @@ url: https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/
 canonical_url: https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance
 summary: Don't use musl if you care about performance
 first_seen: '2026-08-28T15:16:07Z'
-last_seen: '2026-08-29T03:43:08Z'
-status: market_context
+last_seen: '2026-08-29T15:06:03Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance/
-  seen_at: '2026-08-29T03:43:08Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
-    points: 92
-    comments: 59
+    points: 98
+    comments: 64
   kind: news
 - source: hackernews
   url: https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/

@@ -20,8 +20,8 @@ url: https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-c
 canonical_url: https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-pac-as-ai-chip-maker-buids-influence-force-in-dc
 summary: Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force
 first_seen: '2026-08-27T18:34:40Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: rejected
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
 sources:
 - hackernews
 - newssearch
@@ -71,6 +71,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMioAFBVV95cUxPRE9JVlBocmZ1MGVxSGRoSUJ6blBJNDFfNnpzUWhBbjlCQ2NWcE5HSHdPQzJkclljSXUwd1FKQmlsUGpTZG12dENIWVlwUzNvbUtKaldvai1IbGZLanVtMmZPRThPSVFRck5oWDExNFpNYzZHVU0tTGUwYWVSYlV3Tmx4SXdWbXI4NDFsUW1IcWVaUDI2OElVRGIzVXdhd183?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV1NKNVM5YzhJdDFQSVAzOUEzbFBEdVZnSk5IZHBtaC1DRUV4Q0RWdDMyTk9EdXpjWnBYbDRpeThoZ2pZTjlLVkJKcEVPWmdzMS1TeXRqNnlNVnU2ZVo3SDUxSlo0dGRfV1dOcC1nQ3JDUlB6dXBoTDBPN2tVX05wSTlxYWVldGdzdzk1QmxTbUFPeUpKaWhGZi0xdGtHZFFiU0FudG9ZejdFSWRYcVJNUFItY0Y5Y0M0U0ViU1h3VHl5ZU1tVVhtSVc2UTlFQ2RnVzRxRko3aDg2alXSAdsBQVVfeXFMTldTSjVTOWM4SXQxUElQMzlBM2xQRHVWZ0pOSGRwbWgtQ0VFeENEVnQzMk5PRHV6Y1pwWGw0aXk4aGdqWU45S1ZCSnBFT1pnczEtU3l0ajZ5TVZ1NmVaN0g1MUpaNHRkX1dXTnAtZ0NyQ1JQenVwaEwwTzdrVV9OcEk5cWFlZXRnc3c5NUJsU21BT3lKSmloRmYtMXRrR2RRYlNBbnRvWXo3RUlkWHFSTVBSLWNGOWNDNFNFYlNYd1R5eWVNbVVYbUlXNlE5RUNkZ1c0cUZKN2g4NmpV?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQRzFmSVNCMW1YbTFaVExXd3J0RE9rb2htbXlXUkg4VVh1YmphcmZZT1drdGQySlJNTmljMkN4cDNGSjFLYXFCY280a18zZ2Nnb3lhb05BeVUzRVUwcFIzRVNLWmRhTzVQMmVBUFJfVTdjNmJsR19sQjlyQnZtelI1a01hajd1NXNMdHpQdjhla2NsR2JhYnBFeHBYVXdXc2U3SU9uMm11YUM0REt6MFN0SU530gGyAUFVX3lxTFBHMWZJU0IxbVhtMVpUTFd3cnRET2tvaG1teVdSSDhVWHViamFyZllPV2t0ZDJKUk1OaWMyQ3hwM0ZKMUthcUJjbzRrXzNnY2dveWFvTkF5VTNFVTBwUjNFU0taZGFPNVAyZUFQUl9VN2M2YmxHX2xCOXJCdm16UjVrTWFqN3U1c0x0elB2OGVrY2xHYmFicEV4cFhVd1dzZTdJT24ybXVhQzRES3owU3RJTnc?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPcTJQdHhZS0tIRUw1bVFRQ0Z0SzFxWkhtZlV5X1k5RUR1cDM0RzZmQ2xYUGNva0k3R2NFMWJhaFNqal9BRDI5azVuZ3RiejBnZURfMW5seUxOdDJOc2JyeFNFN093c0N2OXE2NzNaLThLNExmSUthaF9FaC0wOE16LWljckdpa1FCSTQ4ZkoyWWt3bmdCd1JjUnVxTWtFcFNnZ0hF?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOWThVX0x4dFBZdDNoUDRsOXFxS0sxM2xnalQ1dnQyUWN5YWlKcHl0TU91RUVvdU5TX01lbElwaVhTTzZwXzRQU0hWWjRocWpwa25pZlpobVdsdW1TZDE2OU52MDdpUERuTWM4Rjg4djFDZWJYSTF6Mi1DZkVReXVqVWFQWXItWGQ2TnpMZ3ZIclJaSzlCbXpxTW9ZdHJNaGVVaHdRRlU3MVNCNWxiaVRlbA?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPWWZEdE85LVdGbC1VbGxXX2hTWXMwZUpUclRjWTBTemNSNXY1Rk5NN3kycVpFbVhzSGZaUkFHQnM2TzQ0a0JxRW5fd2wzZ2VQczlSeUFwQXppNnBYTDNoSjdSWFdqbjRSVnhjVXo1N244OXEzYXd5RW5lNDJMSnk5b3dvcVBQM2k1RExjRnpEYnQ4T2F0b0ZwN3ZRMDVFNzVpb3VYa010dEl4REszd0E?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
   metrics: {}
   kind: news
 ---

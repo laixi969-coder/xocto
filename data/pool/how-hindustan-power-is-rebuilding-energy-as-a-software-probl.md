@@ -1,0 +1,41 @@
+---
+slug: how-hindustan-power-is-rebuilding-energy-as-a-software-probl
+name: How Hindustan Power is rebuilding energy as a software problem
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb2lpMzM2SDVSY2taVk1DNkg0TEJCbHQ5S0lEZWhLY3FqaU1OUlVOcG1LMlhlellRVk5KSUNDeExqQlJDcWlCQnUzVVZwMG1wd0FfX3NRR1NuOWtVX2kwcDRxNzc0QnhzQWVTT0czWXpUMGtlUzQxSXNIaExvdU4ySVRHb1V3Z2ZCa0FmNzlFa3dPUUQ2U2N4Nm51czZ0ME81REs4S2JZcG9Mci1tYWhFOVlmQWlBR21LRU5uNElFN3M2Y3EySVdfUG5ZVzBxdkFZNXpQT2w3MNIB3AFBVV95cUxOT2Y0MHhxakhNWEQyUV9hanVaRjRhUXVmZ3VlQVpWQ3Z1c3BWTi1sYmcwa19MTHFscVYwZHhDZ1d4dC1aT09lQW1uYzJteDVqLTQ5WjB3ZjlUeG80dnltWmRQRGhudkZoWGVBWThwbUZXRWNTSE5MR0xDVEdNajFvckhBSFJKZFhCcTdxYXVjbUJObFNIZDMxTTJGdVMtaThJQ1dkc3ptUzBDLXZ0MU9Gd3d3QmRraHZOVzl3R0NsRDYxdXoxMDA3azA5Z3dfYjhxQkhGZnpNU2VnekJj?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb2lpMzM2SDVSY2taVk1DNkg0TEJCbHQ5S0lEZWhLY3FqaU1OUlVOcG1LMlhlellRVk5KSUNDeExqQlJDcWlCQnUzVVZwMG1wd0FfX3NRR1NuOWtVX2kwcDRxNzc0QnhzQWVTT0czWXpUMGtlUzQxSXNIaExvdU4ySVRHb1V3Z2ZCa0FmNzlFa3dPUUQ2U2N4Nm51czZ0ME81REs4S2JZcG9Mci1tYWhFOVlmQWlBR21LRU5uNElFN3M2Y3EySVdfUG5ZVzBxdkFZNXpQT2w3MNIB3AFBVV95cUxOT2Y0MHhxakhNWEQyUV9hanVaRjRhUXVmZ3VlQVpWQ3Z1c3BWTi1sYmcwa19MTHFscVYwZHhDZ1d4dC1aT09lQW1uYzJteDVqLTQ5WjB3ZjlUeG80dnltWmRQRGhudkZoWGVBWThwbUZXRWNTSE5MR0xDVEdNajFvckhBSFJKZFhCcTdxYXVjbUJObFNIZDMxTTJGdVMtaThJQ1dkc3ptUzBDLXZ0MU9Gd3d3QmRraHZOVzl3R0NsRDYxdXoxMDA3azA5Z3dfYjhxQkhGZnpNU2VnekJj?oc=5
+summary: How Hindustan Power is rebuilding energy as a software problem ET CIO
+first_seen: '2026-08-29T02:30:00Z'
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb2lpMzM2SDVSY2taVk1DNkg0TEJCbHQ5S0lEZWhLY3FqaU1OUlVOcG1LMlhlellRVk5KSUNDeExqQlJDcWlCQnUzVVZwMG1wd0FfX3NRR1NuOWtVX2kwcDRxNzc0QnhzQWVTT0czWXpUMGtlUzQxSXNIaExvdU4ySVRHb1V3Z2ZCa0FmNzlFa3dPUUQ2U2N4Nm51czZ0ME81REs4S2JZcG9Mci1tYWhFOVlmQWlBR21LRU5uNElFN3M2Y3EySVdfUG5ZVzBxdkFZNXpQT2w3MNIB3AFBVV95cUxOT2Y0MHhxakhNWEQyUV9hanVaRjRhUXVmZ3VlQVpWQ3Z1c3BWTi1sYmcwa19MTHFscVYwZHhDZ1d4dC1aT09lQW1uYzJteDVqLTQ5WjB3ZjlUeG80dnltWmRQRGhudkZoWGVBWThwbUZXRWNTSE5MR0xDVEdNajFvckhBSFJKZFhCcTdxYXVjbUJObFNIZDMxTTJGdVMtaThJQ1dkc3ptUzBDLXZ0MU9Gd3d3QmRraHZOVzl3R0NsRDYxdXoxMDA3azA5Z3dfYjhxQkhGZnpNU2VnekJj?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+---
+
+# How Hindustan Power is rebuilding energy as a software problem
+
+How Hindustan Power is rebuilding energy as a software problem ET CIO
+
+## 笔记
+
+

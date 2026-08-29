@@ -1,0 +1,41 @@
+---
+slug: weekly-funding-roundup-the-startup-deals-you-may-have-missed
+name: 'Weekly funding roundup: The startup deals you may have missed in week of August 30'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOGZjXzNNeW1BbmZUMHdPeWFiWmlEMDB2Y3dMUnBJS1V3ekROMGR6aFZyd2RSaHNfRGs0di1XMThtMGtGeHlfZkNmSWR3aURoUENOV3d1b0ctSFA0Q2NtWHFfX1N2bVVEQUY2YU9qZHE4YWhYS2M2WEhqSEtxNHlWa0JWS2thZ041SXZGR3ZzMmFvWkZGeWc0eHpIR1IteDRZWVhHWVEtMWpvSncxWHVVQ01Ib3cyUlJrWURYOWxqRjREbnBMUHp3UWtvZmFHUjVN0gHkAUFVX3lxTE1MSXI2d0puVUtmQ2hQdnYzNHlKRU5DYVRQU29uOWRfSGZLNU9WT2pvSTQ1ZW00enFMNjVZUXZjZlpLcTRBRWpjQ21HVGFkNW9iQUo2QnIyejBnbDVqVUhOaGJNTGZzUDFIWTBodmZoNVlGQlladWJ4b3RPUlBKWkNmUUNFci1CWTQxVndJUWctbTU5MkJzRURoYkhBWHJFVFRVSzVNWDYzWUNiXzRmQmZMc01CcjVjWncxZ2ZvNXgwa2VrYm9pN25vNFhaQWxSbmFSUEZPeGVUcUlnY0pNcWUwZkVMRg?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOGZjXzNNeW1BbmZUMHdPeWFiWmlEMDB2Y3dMUnBJS1V3ekROMGR6aFZyd2RSaHNfRGs0di1XMThtMGtGeHlfZkNmSWR3aURoUENOV3d1b0ctSFA0Q2NtWHFfX1N2bVVEQUY2YU9qZHE4YWhYS2M2WEhqSEtxNHlWa0JWS2thZ041SXZGR3ZzMmFvWkZGeWc0eHpIR1IteDRZWVhHWVEtMWpvSncxWHVVQ01Ib3cyUlJrWURYOWxqRjREbnBMUHp3UWtvZmFHUjVN0gHkAUFVX3lxTE1MSXI2d0puVUtmQ2hQdnYzNHlKRU5DYVRQU29uOWRfSGZLNU9WT2pvSTQ1ZW00enFMNjVZUXZjZlpLcTRBRWpjQ21HVGFkNW9iQUo2QnIyejBnbDVqVUhOaGJNTGZzUDFIWTBodmZoNVlGQlladWJ4b3RPUlBKWkNmUUNFci1CWTQxVndJUWctbTU5MkJzRURoYkhBWHJFVFRVSzVNWDYzWUNiXzRmQmZMc01CcjVjWncxZ2ZvNXgwa2VrYm9pN25vNFhaQWxSbmFSUEZPeGVUcUlnY0pNcWUwZkVMRg?oc=5
+summary: 'Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com'
+first_seen: '2026-08-29T13:52:47Z'
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOGZjXzNNeW1BbmZUMHdPeWFiWmlEMDB2Y3dMUnBJS1V3ekROMGR6aFZyd2RSaHNfRGs0di1XMThtMGtGeHlfZkNmSWR3aURoUENOV3d1b0ctSFA0Q2NtWHFfX1N2bVVEQUY2YU9qZHE4YWhYS2M2WEhqSEtxNHlWa0JWS2thZ041SXZGR3ZzMmFvWkZGeWc0eHpIR1IteDRZWVhHWVEtMWpvSncxWHVVQ01Ib3cyUlJrWURYOWxqRjREbnBMUHp3UWtvZmFHUjVN0gHkAUFVX3lxTE1MSXI2d0puVUtmQ2hQdnYzNHlKRU5DYVRQU29uOWRfSGZLNU9WT2pvSTQ1ZW00enFMNjVZUXZjZlpLcTRBRWpjQ21HVGFkNW9iQUo2QnIyejBnbDVqVUhOaGJNTGZzUDFIWTBodmZoNVlGQlladWJ4b3RPUlBKWkNmUUNFci1CWTQxVndJUWctbTU5MkJzRURoYkhBWHJFVFRVSzVNWDYzWUNiXzRmQmZMc01CcjVjWncxZ2ZvNXgwa2VrYm9pN25vNFhaQWxSbmFSUEZPeGVUcUlnY0pNcWUwZkVMRg?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+---
+
+# Weekly funding roundup: The startup deals you may have missed in week of August 30
+
+Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com
+
+## 笔记
+
+

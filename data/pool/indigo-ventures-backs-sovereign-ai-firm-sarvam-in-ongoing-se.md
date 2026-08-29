@@ -1,0 +1,42 @@
+---
+slug: indigo-ventures-backs-sovereign-ai-firm-sarvam-in-ongoing-se
+name: IndiGo Ventures backs sovereign AI firm Sarvam in ongoing Series B funding round
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdEJkcUU5eEd5YXlDMS1OaEhEQVpfS3dMZnZ5VmQ1YUROSkpWa09zNl9IeEpUWndxUU1Ec1F6WWEzOTNtT1Yza1FnZE5mMU9HdUk5N2ZhMklhOUhlNXJkVWpxR1FkNEUySTNKaFpFbzJQcnVXRE9ZcTNZb1VMYjJ1emZWTVZFbGQ1WnE1STE2aG5ya2lJOUJkM29uS2d3QXJ1N01YMVBMemY0R1RVTkJzNGp3R0pxUndhd0Iza1V5WjRLc3FXRHdoT1NOMmpMSGlSUjg0N0NqdXoya1NlbGVVOdIB5gFBVV95cUxQSnZ1NjlaRHJLNWVYTkZ1U3VOLWJVOUhZRDkwdnRkWGdHX0JBY3RKUmV1V0FMUTVQX0J2T1ljZ0IzQ2Z2R09scF9hc3dfLUpqY3hNc3U5UW5zdGhxQkltRXUxMFlpX085Z0xzVXVtNmgtTzlpYWhFeHZsNF90ai1aWHZTSEJ0VWlJb1A2V3hZNkVzdFpraHVxY3ZQbDdBUzZnM2NZOW9zamRHTTk0N2VTWS0xNEp3UmVfdE9zdXAzc1F4NmJucGQweTZKQlp3MTJYb0FMT2ZOVkxMdlhkTkROaHJRTmM4QQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdEJkcUU5eEd5YXlDMS1OaEhEQVpfS3dMZnZ5VmQ1YUROSkpWa09zNl9IeEpUWndxUU1Ec1F6WWEzOTNtT1Yza1FnZE5mMU9HdUk5N2ZhMklhOUhlNXJkVWpxR1FkNEUySTNKaFpFbzJQcnVXRE9ZcTNZb1VMYjJ1emZWTVZFbGQ1WnE1STE2aG5ya2lJOUJkM29uS2d3QXJ1N01YMVBMemY0R1RVTkJzNGp3R0pxUndhd0Iza1V5WjRLc3FXRHdoT1NOMmpMSGlSUjg0N0NqdXoya1NlbGVVOdIB5gFBVV95cUxQSnZ1NjlaRHJLNWVYTkZ1U3VOLWJVOUhZRDkwdnRkWGdHX0JBY3RKUmV1V0FMUTVQX0J2T1ljZ0IzQ2Z2R09scF9hc3dfLUpqY3hNc3U5UW5zdGhxQkltRXUxMFlpX085Z0xzVXVtNmgtTzlpYWhFeHZsNF90ai1aWHZTSEJ0VWlJb1A2V3hZNkVzdFpraHVxY3ZQbDdBUzZnM2NZOW9zamRHTTk0N2VTWS0xNEp3UmVfdE9zdXAzc1F4NmJucGQweTZKQlp3MTJYb0FMT2ZOVkxMdlhkTkROaHJRTmM4QQ?oc=5
+summary: IndiGo Ventures backs sovereign AI firm Sarvam in ongoing Series B funding round The Economic
+  Times
+first_seen: '2026-08-29T03:07:14Z'
+last_seen: '2026-08-29T15:06:37Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdEJkcUU5eEd5YXlDMS1OaEhEQVpfS3dMZnZ5VmQ1YUROSkpWa09zNl9IeEpUWndxUU1Ec1F6WWEzOTNtT1Yza1FnZE5mMU9HdUk5N2ZhMklhOUhlNXJkVWpxR1FkNEUySTNKaFpFbzJQcnVXRE9ZcTNZb1VMYjJ1emZWTVZFbGQ1WnE1STE2aG5ya2lJOUJkM29uS2d3QXJ1N01YMVBMemY0R1RVTkJzNGp3R0pxUndhd0Iza1V5WjRLc3FXRHdoT1NOMmpMSGlSUjg0N0NqdXoya1NlbGVVOdIB5gFBVV95cUxQSnZ1NjlaRHJLNWVYTkZ1U3VOLWJVOUhZRDkwdnRkWGdHX0JBY3RKUmV1V0FMUTVQX0J2T1ljZ0IzQ2Z2R09scF9hc3dfLUpqY3hNc3U5UW5zdGhxQkltRXUxMFlpX085Z0xzVXVtNmgtTzlpYWhFeHZsNF90ai1aWHZTSEJ0VWlJb1A2V3hZNkVzdFpraHVxY3ZQbDdBUzZnM2NZOW9zamRHTTk0N2VTWS0xNEp3UmVfdE9zdXAzc1F4NmJucGQweTZKQlp3MTJYb0FMT2ZOVkxMdlhkTkROaHJRTmM4QQ?oc=5
+  seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+---
+
+# IndiGo Ventures backs sovereign AI firm Sarvam in ongoing Series B funding round
+
+IndiGo Ventures backs sovereign AI firm Sarvam in ongoing Series B funding round The Economic Times
+
+## 笔记
+
+

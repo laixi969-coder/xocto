@@ -29,16 +29,16 @@ canonical_url: https://zenodo.org/records/22110594
 summary: CDAF (Cached Descriptive Asset Files) - open sidecar format for video so AI agents stop re-analyzing
   the same footage. Spec, CLI, agent skill, reproducible benchmark.
 first_seen: '2026-08-26T09:12:41Z'
-last_seen: '2026-08-29T03:43:11Z'
+last_seen: '2026-08-29T15:06:08Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://zenodo.org/records/22110594
-  seen_at: '2026-08-29T03:43:11Z'
+  seen_at: '2026-08-29T15:06:08Z'
   metrics:
-    stars: 98
+    stars: 99
     forks: 6
     open_issues: 1
   kind: product

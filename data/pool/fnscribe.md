@@ -28,17 +28,17 @@ url: https://github.com/AlgorithmicResearchGroup/fnscribe
 canonical_url: https://github.com/AlgorithmicResearchGroup/fnscribe
 summary: Open-source, offline dictation for macOS
 first_seen: '2026-08-28T06:45:47Z'
-last_seen: '2026-08-29T03:43:08Z'
+last_seen: '2026-08-29T15:06:03Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/AlgorithmicResearchGroup/fnscribe
-  seen_at: '2026-08-29T03:43:08Z'
+  seen_at: '2026-08-29T15:06:03Z'
   metrics:
     points: 20
-    comments: 14
+    comments: 16
   kind: product
 ---
 
