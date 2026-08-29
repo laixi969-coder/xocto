@@ -37,3 +37,42 @@
   usage_reason: 公开代码仓库有 5,741 个收藏、360 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 5,741 stars and 360 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-web-ui-2026-08-29
+  project_slug: dsh-web-ui
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSH Web GUI 功能不足的问题，痛点在于缺少任务板等工具，不解决则影响开发效率。产品提供插件生态，交付可确定。
+    evidence_ids:
+    - ev-bc9b3445dcf7d648
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 5,741 个收藏和 360 个复刻，说明社区关注，但缺乏持续使用或付费证据，共识尚未核验。
+    evidence_ids:
+    - ev-bc9b3445dcf7d648
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对 Web UI 功能的需求。
+  market: ''
+  job: 用网页跟 AI 写代码的人一次装齐任务板、版本图、手机遥控和几套皮肤
+  job_en: People who code with AI in the browser install a task board, version graph, phone remote, and
+    a few skins in one go.
+  pain: DSH Web GUI 缺乏任务板、版本图等工具，用户需要分别安装或使用其他工具，造成不便。
+  pain_en: DSH Web GUI lacks task board, version graph, etc., requiring separate installation or other
+    tools, causing inconvenience.
+  current_alternative: 用户可能使用其他看板工具或手动管理，但公开材料未明确说明。
+  current_alternative_en: Users may use other board tools or manual management, but public materials do
+    not specify.
+  usage_reason: 公开仓库有 5,741 个收藏和 360 个复刻，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 5,741 stars and 360 forks, showing developer attention, but
+    sustained use and payment are not verified.

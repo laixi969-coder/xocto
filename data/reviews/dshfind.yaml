@@ -35,3 +35,39 @@
   usage_reason: 公开代码仓库有 158 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 158 stars and 8 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dshfind-2026-08-29
+  project_slug: dshfind
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“一处学DeepSeek Harness怎么用、去哪找附加能力、别人怎么用才对”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对学习资源的需求。
+  market: ''
+  job: 一处学DeepSeek Harness怎么用、去哪找附加能力、别人怎么用才对
+  job_en: One place to learn how DeepSeek Harness works, where extra abilities live, and how others actually
+    use them.
+  pain: DSH 学习资源分散，用户难以找到教程和最佳实践，导致上手困难。
+  pain_en: DSH learning resources are scattered, making it hard to find tutorials and best practices,
+    causing onboarding difficulty.
+  current_alternative: 用户可能搜索文档或社区，但公开材料未明确说明。
+  current_alternative_en: Users may search docs or community, but public materials do not specify.
+  usage_reason: 公开仓库有 158 个收藏和 8 个复刻，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 158 stars and 8 forks, showing developer attention, but sustained
+    use and payment are not verified.

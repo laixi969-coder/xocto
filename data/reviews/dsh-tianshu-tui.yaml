@@ -35,3 +35,39 @@
   usage_reason: 公开代码仓库有 220 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 220 stars and 8 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-tianshu-tui-2026-08-29
+  project_slug: dsh-tianshu-tui
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 先交测试证据，过不了门就不能往下改，不再口头叮嘱”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对测试门控的实际需求。
+  market: ''
+  job: 让写代码的 AI 先交测试证据，过不了门就不能往下改，不再口头叮嘱
+  job_en: AI that writes code must hand in test evidence first; if it fails the gate, it cannot keep editing,
+    and verbal nagging stops.
+  pain: AI 写代码时缺乏测试验证，导致代码质量不可控，需要人工口头叮嘱。
+  pain_en: AI writing code lacks test verification, leading to uncontrolled code quality, requiring verbal
+    nagging.
+  current_alternative: 用户可能手动检查或使用其他工具，但公开材料未明确说明。
+  current_alternative_en: Users may manually check or use other tools, but public materials do not specify.
+  usage_reason: 公开仓库有 220 个收藏和 8 个复刻，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 220 stars and 8 forks, showing developer attention, but sustained
+    use and payment are not verified.

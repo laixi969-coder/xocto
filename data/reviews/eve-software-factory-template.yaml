@@ -149,3 +149,39 @@
   usage_reason: 公开代码仓库有 997 个收藏、64 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 997 stars and 64 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-eve-software-factory-template-2026-08-29
+  project_slug: eve-software-factory-template
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决搭建 AI 写代码流水线耗时的问题，痛点在于配置复杂，不解决则影响效率。产品提供现成模板，交付可确定。
+    evidence_ids:
+    - ev-5d20b7b465a452b3
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 997 个收藏和 64 个复刻，说明社区关注，但缺乏持续使用或付费证据，共识尚未核验。
+    evidence_ids:
+    - ev-5d20b7b465a452b3
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对软件工厂模板的需求。
+  market: ''
+  job: 用Foreman这套现成模板，几分钟搭起一条AI写代码、人来拍板的流水线
+  job_en: 'Foreman is a ready template: in minutes you stand up a line where AI writes and a person decides.'
+  pain: 搭建 AI 写代码的流水线需要大量配置和时间，缺乏现成模板。
+  pain_en: Setting up an AI coding pipeline requires extensive configuration and time, lacking ready templates.
+  current_alternative: 用户可能手动搭建或使用其他工具，但公开材料未明确说明。
+  current_alternative_en: Users may manually set up or use other tools, but public materials do not specify.
+  usage_reason: 公开仓库有 997 个收藏和 64 个复刻，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 997 stars and 64 forks, showing developer attention, but
+    sustained use and payment are not verified.

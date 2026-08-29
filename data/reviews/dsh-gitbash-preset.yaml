@@ -34,3 +34,39 @@
   usage_reason: 公开代码仓库有 121 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 121 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-dsh-gitbash-preset-2026-08-29
+  project_slug: dsh-gitbash-preset
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让Windows电脑也能用上DeepSeek Harness最简单的那一档，不必为此换系统”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认 Windows 用户实际使用和反馈。
+  market: ''
+  job: 让Windows电脑也能用上DeepSeek Harness最简单的那一档，不必为此换系统
+  job_en: Windows PCs can use DeepSeek Harness in its simplest mode without switching operating systems.
+  pain: Windows 用户无法直接使用 DSH 极简模式中的 bash 调用，导致该模式不可用，需要换系统或手动配置，造成摩擦和成本。
+  pain_en: Windows users cannot directly use the bash calls in DSH's minimal mode, making it unusable,
+    requiring OS switch or manual configuration, causing friction and cost.
+  current_alternative: 用户可能手动配置 Git Bash 或使用 WSL，或放弃使用极简模式，但公开材料未明确说明。
+  current_alternative_en: Users may manually configure Git Bash or use WSL, or abandon the minimal mode,
+    but public materials do not specify.
+  usage_reason: 公开仓库有 121 个收藏，说明开发者关注此问题，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 121 stars, showing developer attention, but sustained use
+    and payment are not verified.

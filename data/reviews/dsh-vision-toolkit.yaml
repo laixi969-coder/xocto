@@ -35,3 +35,39 @@
   usage_reason: 公开代码仓库有 525 个收藏、26 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 525 stars and 26 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-vision-toolkit-2026-08-29
+  project_slug: dsh-vision-toolkit
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“不会看图的文字模型被装上可调用的眼睛，能读长截图、核对界面改没改对”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对视觉功能的需求。
+  market: ''
+  job: 不会看图的文字模型被装上可调用的眼睛，能读长截图、核对界面改没改对
+  job_en: 'A text-only model gets a pair of callable eyes: it can read long screenshots and check whether
+    an interface actually changed.'
+  pain: 纯文本模型无法处理视觉任务，导致无法进行图片问答、OCR 和 UI 验证。
+  pain_en: Text-only models cannot handle visual tasks, preventing image Q&A, OCR, and UI verification.
+  current_alternative: 用户可能使用其他视觉模型或手动检查，但公开材料未明确说明。
+  current_alternative_en: Users may use other vision models or manual checks, but public materials do
+    not specify.
+  usage_reason: 公开仓库有 525 个收藏和 26 个复刻，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 525 stars and 26 forks, showing developer attention, but
+    sustained use and payment are not verified.

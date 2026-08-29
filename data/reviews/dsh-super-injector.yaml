@@ -35,3 +35,39 @@
   usage_reason: 公开代码仓库有 71 个收藏、6 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 71 stars and 6 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-super-injector-2026-08-29
+  project_slug: dsh-super-injector
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“给DeepSeek Harness加新能力时不用关掉重来，试完也能卸掉”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对热插拔的实际需求。
+  market: ''
+  job: 给DeepSeek Harness加新能力时不用关掉重来，试完也能卸掉
+  job_en: Add a new ability to DeepSeek Harness without shutting it down; try it, then remove it if it
+    fails.
+  pain: 添加新能力需要重启 DSH，且无法轻松卸载，导致试错成本高。
+  pain_en: Adding new abilities requires restarting DSH, and cannot be easily uninstalled, causing high
+    trial-and-error cost.
+  current_alternative: 用户可能手动修改配置或重启，但公开材料未明确说明。
+  current_alternative_en: Users may manually modify config or restart, but public materials do not specify.
+  usage_reason: 公开仓库有 71 个收藏和 6 个复刻，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 71 stars and 6 forks, showing developer attention, but sustained
+    use and payment are not verified.

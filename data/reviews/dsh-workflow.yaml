@@ -35,3 +35,40 @@
   usage_reason: 公开代码仓库有 54 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 54 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-dsh-workflow-2026-08-29
+  project_slug: dsh-workflow
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把这次怎么拆任务存成可再跑的流程，换人也能按名字重跑，中断了可接着干”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对可复用工作流的需求。
+  market: ''
+  job: 把这次怎么拆任务存成可再跑的流程，换人也能按名字重跑，中断了可接着干
+  job_en: How a job was split is saved as a named flow others can rerun, and a stoppage can resume instead
+    of starting over.
+  pain: DSH 的一次性多 Agent 调度无法复用，中断后需从头开始，导致效率低下。
+  pain_en: DSH's one-time multi-agent scheduling cannot be reused, and stoppages require restarting, causing
+    inefficiency.
+  current_alternative: 用户可能手动记录流程或使用其他工具，但公开材料未明确说明。
+  current_alternative_en: Users may manually record flows or use other tools, but public materials do
+    not specify.
+  usage_reason: 公开仓库有 54 个收藏，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 54 stars, showing developer attention, but sustained use
+    and payment are not verified.

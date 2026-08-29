@@ -35,3 +35,40 @@
   usage_reason: 公开代码仓库有 204 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 204 stars and 8 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-fyagent-2026-08-29
+  project_slug: fyagent
+  level: full
+  reviewed_at: '2026-08-29T16:04:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把模型、账号、技能和提示词收进本地行李，换一套 AI 工具也不用从头配置”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档或 issue，确认用户对配置迁移的需求。
+  market: ''
+  job: 把模型、账号、技能和提示词收进本地行李，换一套 AI 工具也不用从头配置
+  job_en: Models, accounts, skills, and prompts pack into local luggage, so switching AI tools does not
+    mean configuring everything from scratch.
+  pain: 切换 AI 工具时需要重新配置模型、账号和提示词，耗时且易出错。
+  pain_en: Switching AI tools requires reconfiguring models, accounts, and prompts, which is time-consuming
+    and error-prone.
+  current_alternative: 用户可能手动配置或使用其他工具，但公开材料未明确说明。
+  current_alternative_en: Users may manually configure or use other tools, but public materials do not
+    specify.
+  usage_reason: 公开仓库有 204 个收藏和 8 个复刻，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 204 stars and 8 forks, showing developer attention, but sustained
+    use and payment are not verified.
