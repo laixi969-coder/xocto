@@ -650,7 +650,9 @@ class BriefTests(unittest.TestCase):
         result = {
             "products": [{
                 "slug": "apps",
-                "summary_zh": {"text": "面向团队的应用交付方式发生变化。"},
+                "summary_zh": {
+                    "content": [{"type": "text", "text": "面向团队的应用交付方式发生变化。"}]
+                },
                 "summary_en": ["Application delivery", "is changing for teams."],
                 "req_initial": {
                     "next_validation": {"value": "核验目标团队是否持续采用。"},

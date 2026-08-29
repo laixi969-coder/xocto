@@ -945,19 +945,29 @@ def _neutralize_model_public_copy(result: dict[str, Any]) -> dict[str, Any]:
 
 
 def _coerce_public_text(value: Any) -> Any:
-    """Recover text wrapped in a list/object without stringifying arbitrary data."""
+    """Recover public copy wrapped in nested JSON without stringifying metadata."""
     if isinstance(value, str):
         return value
-    if isinstance(value, list) and value and all(isinstance(item, str) for item in value):
-        return " ".join(item.strip() for item in value if item.strip())
-    if isinstance(value, dict):
-        preferred = ("text", "summary", "description", "value")
-        for key in preferred:
-            if isinstance(value.get(key), str) and value[key].strip():
-                return value[key].strip()
-        strings = [item.strip() for item in value.values() if isinstance(item, str) and item.strip()]
-        if strings:
-            return " ".join(strings)
+
+    def fragments(item: Any) -> list[str]:
+        if isinstance(item, str):
+            text = item.strip()
+            return [text] if text else []
+        if isinstance(item, list):
+            return [text for child in item for text in fragments(child)]
+        if isinstance(item, dict):
+            # Model APIs often wrap copy as content -> [{type, text}]. Prefer
+            # semantic text keys so wrapper metadata such as type="text" is
+            # never published. Fall back to all nested values for novel wrappers.
+            preferred = ("text", "summary", "description", "value", "content")
+            selected = [item[key] for key in preferred if key in item]
+            values = selected or list(item.values())
+            return [text for child in values for text in fragments(child)]
+        return []
+
+    texts = fragments(value)
+    if texts:
+        return " ".join(dict.fromkeys(texts))
     return value
 
 
