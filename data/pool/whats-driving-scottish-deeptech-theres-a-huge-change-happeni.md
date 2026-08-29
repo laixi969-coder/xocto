@@ -1,11 +1,11 @@
 ---
 slug: whats-driving-scottish-deeptech-theres-a-huge-change-happeni
-name: 'What’s driving Scottish deeptech?: ‘There’s a huge change happening’'
+name: Scottish deeptech
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 苏格兰深科技领域正在发生巨大变化，文章探讨其驱动因素。
 inspiration: ''
-summary_en: ''
+summary_en: Scottish deeptech is undergoing a huge change; article explores drivers.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/whats-driving-scottish-deeptech-brnd
 summary: ''
 first_seen: '2026-08-26T09:03:57Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# What’s driving Scottish deeptech?: ‘There’s a huge change happening’
+# Scottish deeptech
 
 _（源没给简介）_
 

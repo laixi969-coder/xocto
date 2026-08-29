@@ -112,3 +112,42 @@
   usage_reason: 公开代码仓库有 118 个收藏、60 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 118 stars and 60 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-lnwjud-2026-08-29
+  project_slug: lnwjud
+  level: full
+  reviewed_at: '2026-08-29T12:36:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者和运维工程师在 Windows 本地运行 AI 代理并集成工具的需求，痛点在于云依赖和工具集成复杂，交付可确定，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-7eba72d6b4be0661
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 122 星，显示社区关注，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-1881b55358a7cd42
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济，付费路径不明确，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者和运维工程师需要在 Windows 本地运行 AI 代理，并通过 MCP 网关连接多种工具实现自动化。
+  job_en: Developers and DevOps engineers need to run AI agents locally on Windows and connect multiple
+    tools via an MCP gateway for automation.
+  pain: 现有 AI 代理运行时依赖云或跨平台，Windows 本地支持不足，且工具集成复杂。
+  pain_en: Existing AI agent runtimes rely on cloud or cross-platform, with insufficient Windows local
+    support and complex tool integration.
+  current_alternative: 目前可能使用云端代理或手动脚本，缺乏 Windows 优先的本地运行时和统一工具网关。
+  current_alternative_en: Currently may use cloud agents or manual scripts, lacking a Windows-first local
+    runtime and unified tool gateway.
+  usage_reason: 开源仓库获得 122 星，显示开发者对 Windows 本地 AI 代理的兴趣，但付费和持续采用尚未核验。
+  usage_reason_en: The open-source repository has 122 stars, showing developer interest in Windows local
+    AI agents, but payment and sustained adoption are not yet verified.

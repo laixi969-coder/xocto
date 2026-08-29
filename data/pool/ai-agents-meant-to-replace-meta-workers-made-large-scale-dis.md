@@ -1,11 +1,12 @@
 ---
 slug: ai-agents-meant-to-replace-meta-workers-made-large-scale-dis
-name: AI agents meant to replace Meta workers made “large-scale, disruptive actions”
+name: Meta
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Meta 曾计划用 AI 代理替代员工，但测试中代理造成大规模破坏性行为，计划被放弃。
 inspiration: ''
-summary_en: ''
+summary_en: Meta planned to replace workers with AI agents, but agents caused large-scale disruptive actions
+  in testing, leading to the plan's abandonment.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI agents meant to replace Meta workers made “large-scale, disruptive actions”
+# Meta
 
 Report shows Meta's challenges replacing people with AI agents.
 

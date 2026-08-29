@@ -340,3 +340,42 @@
   usage_reason: 公开代码仓库有 279 个收藏、13 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 279 stars and 13 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-benjamin-plus-skill-2026-08-29
+  project_slug: benjamin-plus-skill
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件工程师或 AI 编码代理用户降低 token 成本的需求，痛点在于成本高影响采用；产品以注入式技能提供可测量的成本节省交付，结构上成立。
+    evidence_ids:
+    - ev-b470a94198a20d64
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 283 个收藏、13 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-b470a94198a20d64
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 软件工程师或 AI 编码代理用户需要降低编码代理的 token 成本，同时保持输出质量。
+  job_en: Software engineers or AI coding agent users need to reduce token costs of coding agents while
+    maintaining output quality.
+  pain: 公开材料未说明不解决的代价、频率或后果；但 token 成本高会增加使用费用，影响大规模采用。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
+    however, high token costs increase expenses and hinder large-scale adoption.
+  current_alternative: 公开材料未说明当前替代方式；常见替代是优化提示词或使用更便宜的模型。
+  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
+    optimizing prompts or using cheaper models.
+  usage_reason: 仓库有 283 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The repository has 283 stars, indicating developer attention or trial; sustained use
+    and payment are not yet verified.

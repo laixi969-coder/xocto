@@ -118,3 +118,42 @@
   usage_reason: 公开代码仓库有 51 个收藏、10 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 51 stars and 10 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-ev-assistant-2026-08-29
+  project_slug: ev-assistant
+  level: full
+  reviewed_at: '2026-08-29T12:34:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地语音助手需求，痛点在于云端依赖；工作流结构推理显示，交付为本地应用，可确定。
+    evidence_ids:
+    - ev-35baec4a3f72495b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为52个收藏、10个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-871d67b91ea53a4a
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 个人用户
+  job_en: Individual users
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；但工作流结构推理显示，本地语音助手解决隐私和离线需求，痛点在于云端依赖。
+  pain_en: Public materials do not show the cost, frequency, or consequence of leaving it unsolved; but
+    workflow reasoning suggests a local voice assistant addresses privacy and offline needs, with pain
+    in cloud dependency.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；但可推理为使用云端助手，替代方式未核验。
+  current_alternative_en: Public materials do not show how users complete this job today; but it can be
+    inferred as using cloud assistants; alternatives unverified.
+  usage_reason: 公开代码仓库有52个收藏、10次复刻，说明开发者关注；持续使用与付费仍未核验。
+  usage_reason_en: The public repository has 52 stars and 10 forks, showing developer attention; repeat
+    use and payment are not yet verified.

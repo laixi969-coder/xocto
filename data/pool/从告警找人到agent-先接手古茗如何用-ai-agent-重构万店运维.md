@@ -1,20 +1,38 @@
 ---
 slug: 从告警找人到agent-先接手古茗如何用-ai-agent-重构万店运维
-name: 从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？
+name: 阿里云 AIDBS
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 阿里云AIDBS面向企业数据库运维，DBA在收到告警后，Agent自动诊断、定位问题SQL并给出建议，DBA确认后执行；同时Meta Agent在IDE中辅助SQL编写和变更审批，低风险操作自动执行。交付包括诊断报告和可执行建议，人工保留决策权。
+inspiration: 趋势是AI Agent从辅助转向自主执行，切入点是数据库运维这一高价值、可标准化的场景，按结果或订阅收费。
+summary_en: Alibaba Cloud AIDBS targets enterprise database operations. After alerts, the agent auto-diagnoses,
+  locates problematic SQL, and provides recommendations; DBA confirms before execution. Meta Agent assists
+  SQL writing and change approval in IDE, auto-executing low-risk operations. Deliverables include diagnostic
+  reports and actionable suggestions, with human decision-making retained.
+inspiration_en: The trend is AI agents moving from assistance to autonomous execution. The entry point
+  is database operations, a high-value, standardizable scenario, charging by results or subscription.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 数据库
+- 云计算
+- 餐饮
+industries_en:
+- Database
+- Cloud Computing
+- Food & Beverage
+jobs:
+- DBA
+- 运维工程师
+- 研发人员
+jobs_en:
+- DBA
+- Operations Engineer
+- R&D Staff
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: http://www.geekpark.net/news/369401
 canonical_url: https://geekpark.net/news/369401
@@ -45,7 +63,7 @@ summary: "AI to B，要真的能「救火」。 \n 去年年底的一个深夜�
   \ 先标准化，再自动化；先划好边界，再放开权限。这个顺序反了，再好的工具也白搭。 \n *头图来源：阿里巴巴"
 first_seen: '2026-08-26T08:02:33Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -56,7 +74,7 @@ sightings:
   kind: news
 ---
 
-# 从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？
+# 阿里云 AIDBS
 
 AI to B，要真的能「救火」。 
  去年年底的一个深夜，古茗科技集团运维负责人刘星光再次被手机震动惊醒——屏幕上跳动着上百条数据库告警短信。 

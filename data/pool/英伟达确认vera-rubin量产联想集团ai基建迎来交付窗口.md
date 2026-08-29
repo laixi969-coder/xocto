@@ -1,11 +1,12 @@
 ---
 slug: 英伟达确认vera-rubin量产联想集团ai基建迎来交付窗口
-name: 英伟达确认Vera Rubin量产，联想集团AI基建迎来交付窗口
+name: 英伟达
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 英伟达确认新一代Vera Rubin芯片进入量产阶段，为AI基础设施的交付提供了新的硬件窗口。
 inspiration: ''
-summary_en: ''
+summary_en: Nvidia confirmed that its next-generation Vera Rubin chip has entered mass production, providing
+  a new hardware window for AI infrastructure delivery.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNeFg5YWNPZ2tD
 summary: 英伟达确认Vera Rubin量产，联想集团AI基建迎来交付窗口 新浪网
 first_seen: '2026-08-27T08:34:40Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 英伟达确认Vera Rubin量产，联想集团AI基建迎来交付窗口
+# 英伟达
 
 英伟达确认Vera Rubin量产，联想集团AI基建迎来交付窗口 新浪网
 

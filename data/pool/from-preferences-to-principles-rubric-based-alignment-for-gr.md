@@ -1,11 +1,12 @@
 ---
 slug: from-preferences-to-principles-rubric-based-alignment-for-gr
-name: 'From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers'
+name: Apple
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Apple 发布研究论文，提出基于评分标准的对齐框架，用于改进开放域问答的奖励信号。
 inspiration: ''
-summary_en: ''
+summary_en: Apple published a research paper proposing a rubric-based alignment framework to improve reward
+  signals for open-domain question answering.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +27,7 @@ summary: Designing effective reward signals for open-domain question answering i
   grounding, and instruction-following), our approach improves over the…
 first_seen: '2026-08-27T00:00:00Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -37,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers
+# Apple
 
 Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality that are difficult to capture with a holistic scalar objective. We introduce a rubric-based reward framework that generates query-specific rubrics grounded in retrieved evidence and decomposed into multiple quality dimensions, providing fine-grained supervision during post-training. Averaged across three evaluation axes (composition, grounding, and instruction-following), our approach improves over the…
 

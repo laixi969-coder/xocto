@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxPek5BZkU4M2Rh
 summary: 'The Next Frontier: AI And Humans Creating Value Chief Executive'
 first_seen: '2026-08-27T15:32:01Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

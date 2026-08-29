@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/notchdrop
 summary: A Dynamic Island experience for your Mac notch
 first_seen: '2026-08-26T08:16:24Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

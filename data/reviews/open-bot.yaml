@@ -338,3 +338,41 @@
   usage_reason: 公开代码仓库有 3,213 个收藏、389 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 3,213 stars and 389 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-open-bot-2026-08-29
+  project_slug: open-bot
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理运行环境隔离与操作审计的需求，提供浏览器、文件和工具，并记录每个动作，交付可验证的代理工作环境。工作流结构推理：旧流程依赖手动配置环境，效率低。
+    evidence_ids:
+    - ev-da7c08f4740b667c
+  - gate: consensus
+    status: supported
+    reason: 3319 星和 389 fork 显示社区广泛关注，但持续使用未证实。
+    evidence_ids:
+    - ev-da7c08f4740b667c
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能通过企业版或支持服务收费，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，缺少可复现的公开测试或文档。
+    evidence_ids: []
+  next_validation: 追踪 OpenBot 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
+  market: ''
+  job: 开发者需要为 AI 代理提供独立的计算环境（浏览器、文件、工具），并记录所有操作。
+  job_en: Developers need to provide AI agents with an isolated computing environment (browser, files,
+    tools) and record all actions.
+  pain: AI 代理在共享环境中运行存在安全风险，且难以审计操作。
+  pain_en: Running AI agents in shared environments poses security risks and makes auditing difficult.
+  current_alternative: 目前开发者可能使用虚拟机或容器，但配置复杂且缺乏集成。
+  current_alternative_en: Currently, developers may use VMs or containers, but they are complex to configure
+    and lack integration.
+  usage_reason: 仓库 3319 星表明开发者高度关注；但付费和留存未核验。
+  usage_reason_en: The repository's 3,319 stars indicate high developer interest; payment and retention
+    are not verified.

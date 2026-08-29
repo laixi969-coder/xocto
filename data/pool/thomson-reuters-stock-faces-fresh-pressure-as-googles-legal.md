@@ -1,11 +1,12 @@
 ---
 slug: thomson-reuters-stock-faces-fresh-pressure-as-googles-legal
-name: Thomson Reuters Stock Faces Fresh Pressure as Google’s Legal AI Push Tests Its Premium Story
+name: Thomson Reuters
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Thomson Reuters Stock Faces Fresh Pressure as Google’s Legal AI Push 
   kalkine.ca
 first_seen: '2026-08-26T12:54:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Thomson Reuters Stock Faces Fresh Pressure as Google’s Legal AI Push Tests Its Premium Story
+# Thomson Reuters
 
 Thomson Reuters Stock Faces Fresh Pressure as Google’s Legal AI Push Tests Its Premium Story kalkine.ca
 

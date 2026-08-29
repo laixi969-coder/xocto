@@ -116,3 +116,42 @@
   usage_reason: 公开代码仓库有 48 个收藏、2 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 48 stars and 2 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-deepseek-v4-flash-vision-video-rag-2026-08-29
+  project_slug: deepseek-v4-flash-vision-video-rag
+  level: full
+  reviewed_at: '2026-08-29T12:32:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频内容分析师快速定位视频中信息的需求，痛点在于人工观看视频耗时，交付为带时间戳的答案和片段，结构上成立。
+    evidence_ids:
+    - ev-a77140ba1924403b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 49 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-a77140ba1924403b
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 视频内容分析师需要对视频进行理解与问答，获取带时间戳的答案和可播放片段。
+  job_en: Video content analysts need to understand and query videos, obtaining timestamped answers and
+    playable clips.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；痛点强度尚未核验。
+  pain_en: Public materials do not show the specific cost, frequency, or consequence of leaving it unsolved;
+    pain intensity is not yet verified.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作或替代方案。
+  current_alternative_en: Public materials do not show how users currently accomplish this or what alternatives
+    exist.
+  usage_reason: 公开代码仓库有 49 个收藏，说明开发者关注，但持续使用与付费未核验。
+  usage_reason_en: The public repository has 49 stars, showing developer attention, but repeat use and
+    payment are not verified.

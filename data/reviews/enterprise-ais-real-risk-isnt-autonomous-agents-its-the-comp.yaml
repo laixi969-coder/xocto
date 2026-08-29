@@ -1,0 +1,82 @@
+- id: req-initial-enterprise-ais-real-risk-isnt-autonomous-agents-its-the-comp-2026-08-29
+  project_slug: enterprise-ais-real-risk-isnt-autonomous-agents-its-the-comp
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业多代理环境下的权限管理和可见性问题，痛点在于代理链式调用难以追踪，交付为治理平台，价值结构成立。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  - gate: consensus
+    status: insufficient
+    reason: 文章为赞助内容，缺乏独立用户评价或采用数据，但问题描述具体，场景明确。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能按订阅或使用量收费，但买方（安全团队）明确。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  - gate: truth
+    status: supported
+    reason: Gravitee 已有 API 管理产品，技术基础扎实，交付确定性较高。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  next_validation: 关注 Gravitee 官网的代理治理产品文档和客户案例。
+  market: ''
+  job: 企业需要管理多个 AI 代理的权限和交互，确保安全合规。
+  job_en: Enterprises need to manage permissions and interactions of multiple AI agents to ensure security
+    and compliance.
+  pain: 代理数量增加导致权限蔓延和链式调用难以追踪，安全团队无法回答谁访问了什么。
+  pain_en: Increasing agent count leads to permission creep and untraceable chained calls, security teams
+    cannot answer who accessed what.
+  current_alternative: 目前依赖人工审批和日志审计，但无法实时阻止越权行为。
+  current_alternative_en: Currently relying on manual approvals and log audits, but unable to block unauthorized
+    actions in real time.
+  usage_reason: 企业 AI 代理部署增多，治理需求迫切，Gravitee 作为现有 API 管理厂商有客户基础。
+  usage_reason_en: Enterprises are deploying more AI agents, governance needs are urgent, and Gravitee
+    has an existing customer base as an API management vendor.
+- id: req-full-enterprise-ais-real-risk-isnt-autonomous-agents-its-the-comp-2026-08-29
+  project_slug: enterprise-ais-real-risk-isnt-autonomous-agents-its-the-comp
+  level: full
+  reviewed_at: '2026-08-29T12:34:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业多代理环境下的权限管理和可见性问题，痛点在于代理链式调用难以追踪，交付为治理平台，价值结构成立。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  - gate: consensus
+    status: insufficient
+    reason: 文章为赞助内容，缺乏独立用户评价或采用数据，但问题描述具体，场景明确。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能按订阅或使用量收费，但买方（安全团队）明确。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  - gate: truth
+    status: supported
+    reason: Gravitee 已有 API 管理产品，技术基础扎实，交付确定性较高。
+    evidence_ids:
+    - ev-5f9b6bf7a94f4d15
+  next_validation: 关注 Gravitee 官网的代理治理产品文档和客户案例。
+  market: ''
+  job: 企业需要管理多个 AI 代理的权限和交互，确保安全合规。
+  job_en: Enterprises need to manage permissions and interactions of multiple AI agents to ensure security
+    and compliance.
+  pain: 代理数量增加导致权限蔓延和链式调用难以追踪，安全团队无法回答谁访问了什么。
+  pain_en: Increasing agent count leads to permission creep and untraceable chained calls, security teams
+    cannot answer who accessed what.
+  current_alternative: 目前依赖人工审批和日志审计，但无法实时阻止越权行为。
+  current_alternative_en: Currently relying on manual approvals and log audits, but unable to block unauthorized
+    actions in real time.
+  usage_reason: 企业 AI 代理部署增多，治理需求迫切，Gravitee 作为现有 API 管理厂商有客户基础。
+  usage_reason_en: Enterprises are deploying more AI agents, governance needs are urgent, and Gravitee
+    has an existing customer base as an API management vendor.

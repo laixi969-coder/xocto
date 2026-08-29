@@ -269,3 +269,41 @@
   usage_reason: 公开代码仓库有 390 个收藏、11 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 390 stars and 11 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-masteragent-2026-08-29
+  project_slug: masteragent
+  level: full
+  reviewed_at: '2026-08-29T12:36:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者需要端侧 AI 代理的需求，痛点在于云依赖导致延迟、隐私和成本问题，交付可确定，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-1236158da86d9568
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 390 星，显示社区关注，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-c725ab093a7c62b0
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济，付费路径不明确，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者需要将 AI 代理完全运行在设备上，实现低延迟、无云依赖的响应。
+  job_en: Developers need to run AI agents entirely on-device, achieving low latency and zero cloud dependency.
+  pain: 云依赖导致延迟、隐私和成本问题，现有方案难以在设备端实现快速响应。
+  pain_en: Cloud dependency causes latency, privacy, and cost issues, and existing solutions struggle
+    to achieve fast on-device responses.
+  current_alternative: 目前可能使用云端 AI 服务或本地模型，但缺乏针对 NPU 优化的低延迟方案。
+  current_alternative_en: Currently may use cloud AI services or local models, but lack low-latency solutions
+    optimized for NPUs.
+  usage_reason: 开源仓库获得 390 星，显示开发者对端侧 AI 代理的兴趣，但付费和持续采用尚未核验。
+  usage_reason_en: The open-source repository has 390 stars, showing developer interest in on-device AI
+    agents, but payment and sustained adoption are not yet verified.

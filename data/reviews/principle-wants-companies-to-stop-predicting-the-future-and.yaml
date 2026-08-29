@@ -1,0 +1,72 @@
+- id: req-initial-principle-wants-companies-to-stop-predicting-the-future-and-2026-08-29
+  project_slug: principle-wants-companies-to-stop-predicting-the-future-and
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及模拟未来情景，未说明具体输入、动作和交付，无法判断需求痛点。
+    evidence_ids:
+    - ev-4910fd07df70fb81
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Principle 官网或产品文档，获取具体功能、定价和客户案例。
+  market: ''
+  job: 企业战略团队需要预测未来市场变化并制定应对策略。
+  job_en: Corporate strategy teams need to predict market changes and develop strategies.
+  pain: 传统预测方法难以应对不确定性，决策缺乏依据。
+  pain_en: Traditional forecasting methods struggle with uncertainty, leaving decisions without solid
+    basis.
+  current_alternative: 目前企业使用市场研究报告、专家咨询和内部规划流程。
+  current_alternative_en: Currently, companies use market research reports, expert consulting, and internal
+    planning processes.
+  usage_reason: 尚未核验，报道未提供用户采用或关注证据。
+  usage_reason_en: Not yet verified; the report provides no evidence of user adoption or interest.
+- id: req-full-principle-wants-companies-to-stop-predicting-the-future-and-2026-08-29
+  project_slug: principle-wants-companies-to-stop-predicting-the-future-and
+  level: full
+  reviewed_at: '2026-08-29T12:38:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及模拟未来情景，未说明具体输入、动作和交付，无法判断需求痛点。
+    evidence_ids:
+    - ev-4910fd07df70fb81
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Principle 官网或产品文档，获取具体功能、定价和客户案例。
+  market: ''
+  job: 企业战略团队需要预测未来市场变化并制定应对策略。
+  job_en: Corporate strategy teams need to predict market changes and develop strategies.
+  pain: 传统预测方法难以应对不确定性，决策缺乏依据。
+  pain_en: Traditional forecasting methods struggle with uncertainty, leaving decisions without solid
+    basis.
+  current_alternative: 目前企业使用市场研究报告、专家咨询和内部规划流程。
+  current_alternative_en: Currently, companies use market research reports, expert consulting, and internal
+    planning processes.
+  usage_reason: 尚未核验，报道未提供用户采用或关注证据。
+  usage_reason_en: Not yet verified; the report provides no evidence of user adoption or interest.

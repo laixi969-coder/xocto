@@ -1,11 +1,12 @@
 ---
 slug: starlings-ai-gamble-sparks-staff-concerns
-name: Starling's AI gamble sparks staff concerns
+name: Starling Bank
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 有报道称 Starling Bank 的 AI 战略引发员工担忧，但具体内容未提供。
 inspiration: ''
-summary_en: ''
+summary_en: A report indicated that Starling Bank's AI strategy sparked staff concerns, but specific details
+  were not provided.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://sifted.eu/articles/starlings-ai-gamble-sparks-staff-conce
 summary: ''
 first_seen: '2026-08-27T05:00:29Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Starling's AI gamble sparks staff concerns
+# Starling Bank
 
 _（源没给简介）_
 

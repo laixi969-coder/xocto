@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXZCTU50S2xX
 summary: 'Exposing the Hidden Cost of Design Reviews: Here’s How AI Helps Teams Move Faster Quality Magazine'
 first_seen: '2026-08-27T04:00:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,11 @@
 ---
 slug: ai-shopping-doesnt-move-as-quickly-as-brands-believe
-name: AI Shopping Doesn’t Move As Quickly As Brands Believe
+name: AI购物
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI购物的发展速度不如品牌预期，文章分析原因。
 inspiration: ''
-summary_en: ''
+summary_en: AI shopping doesn't move as quickly as brands believe; article analyzes reasons.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE00dkxYNVV6Zmt3
 summary: AI Shopping Doesn’t Move As Quickly As Brands Believe Unite.AI
 first_seen: '2026-08-28T11:38:56Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Shopping Doesn’t Move As Quickly As Brands Believe
+# AI购物
 
 AI Shopping Doesn’t Move As Quickly As Brands Believe Unite.AI
 

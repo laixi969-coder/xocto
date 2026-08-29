@@ -24,7 +24,7 @@ summary: When my oldest child was born, I immediately set up Gmail and Twitter a
   a couple…
 first_seen: '2026-08-26T09:00:00Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,82 @@
+- id: req-initial-obsidian-img-2026-08-29
+  project_slug: obsidian-img
+  level: initial
+  reviewed_at: '2026-08-29T03:43:06Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决关键词决策中缺乏真实商业验证的痛点，用广告投放网站数补充搜索量，交付可核对的竞争信号。工作流结构判断：旧流程依赖搜索量和 CPC，无法直接反映持续预算。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  - gate: consensus
+    status: supported
+    reason: 社区讨论和作者自述表明用户对广告信号有需求，功能从手动触发变为默认展示，说明采用意愿增强。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  - gate: model
+    status: insufficient
+    reason: 目前该功能免费，未披露付费模式；可能向 SEO 工具订阅收费，但尚未验证。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  - gate: truth
+    status: supported
+    reason: 数据来自 Google Ads 真实投放，查询结果可核对，交付确定性高。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  next_validation: 关注 SiteData 是否推出付费套餐或定价页，以及用户对广告信号功能的持续使用反馈。
+  market: ''
+  job: SEO、AFF、media buying 从业者需要判断关键词是否值得投入，避免盲目选择。
+  job_en: SEO, affiliate, and media buying professionals need to assess whether a keyword is worth investing
+    in, avoiding blind choices.
+  pain: 搜索量只反映兴趣，不能反映真实商业行为；缺乏广告投放数据导致决策盲猜。
+  pain_en: Search volume only reflects interest, not real commercial behavior; lack of ad spend data leads
+    to guesswork.
+  current_alternative: 手动查看 Google Ads 或使用其他工具，但数据不全面或查询慢。
+  current_alternative_en: Manually checking Google Ads or using other tools, but data is incomplete or
+    queries are slow.
+  usage_reason: 免费提供广告投放站点数，且查询速度快，能直接嵌入搜索流程，提供额外信号。
+  usage_reason_en: Free ad-spend site count with fast queries, seamlessly integrated into search flow,
+    providing extra signal.
+- id: req-full-obsidian-img-2026-08-29
+  project_slug: obsidian-img
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决关键词决策中缺乏真实商业验证的痛点，用广告投放网站数补充搜索量，交付可核对的竞争信号。工作流结构判断：旧流程依赖搜索量和 CPC，无法直接反映持续预算。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  - gate: consensus
+    status: supported
+    reason: 社区讨论和作者自述表明用户对广告信号有需求，功能从手动触发变为默认展示，说明采用意愿增强。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  - gate: model
+    status: insufficient
+    reason: 目前该功能免费，未披露付费模式；可能向 SEO 工具订阅收费，但尚未验证。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  - gate: truth
+    status: supported
+    reason: 数据来自 Google Ads 真实投放，查询结果可核对，交付确定性高。
+    evidence_ids:
+    - ev-86292c05ec3130ff
+  next_validation: 关注 SiteData 是否推出付费套餐或定价页，以及用户对广告信号功能的持续使用反馈。
+  market: ''
+  job: SEO、AFF、media buying 从业者需要判断关键词是否值得投入，避免盲目选择。
+  job_en: SEO, affiliate, and media buying professionals need to assess whether a keyword is worth investing
+    in, avoiding blind choices.
+  pain: 搜索量只反映兴趣，不能反映真实商业行为；缺乏广告投放数据导致决策盲猜。
+  pain_en: Search volume only reflects interest, not real commercial behavior; lack of ad spend data leads
+    to guesswork.
+  current_alternative: 手动查看 Google Ads 或使用其他工具，但数据不全面或查询慢。
+  current_alternative_en: Manually checking Google Ads or using other tools, but data is incomplete or
+    queries are slow.
+  usage_reason: 免费提供广告投放站点数，且查询速度快，能直接嵌入搜索流程，提供额外信号。
+  usage_reason_en: Free ad-spend site count with fast queries, seamlessly integrated into search flow,
+    providing extra signal.

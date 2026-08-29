@@ -22,7 +22,7 @@ summary: See and manage what your coding assistants load — skills, commands, s
   servers, with real usage.
 first_seen: '2026-08-15T21:58:45Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

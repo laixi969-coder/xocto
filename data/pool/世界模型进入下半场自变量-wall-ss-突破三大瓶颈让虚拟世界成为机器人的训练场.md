@@ -1,21 +1,36 @@
 ---
 slug: 世界模型进入下半场自变量-wall-ss-突破三大瓶颈让虚拟世界成为机器人的训练场
-name: 世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」
+name: 自变量机器人
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: 自变量机器人发布世界模型 WALL-SS，采用下一尺度自回归架构，输入历史观察和动作，输出未来状态预测，支持最长 60 秒连续推演，动作跟随得分 0.29，虚实配对实验相关系数 0.926，可用于机器人策略的虚拟验证。
+inspiration: 趋势是世界模型从生成逼真画面转向因果预测，成为机器人训练基础设施。切入点是面向机器人公司提供虚拟测试服务，按验证次数收费，或开源模型吸引生态。
+summary_en: XZ Robot releases world model WALL-SS, using next-scale autoregressive architecture, taking
+  historical observations and actions as input, outputting future state predictions, supporting up to
+  60 seconds of continuous rollout, action following score 0.29, virtual-real paired experiment correlation
+  coefficient 0.926, for virtual validation of robot policies.
+inspiration_en: The trend is world models shifting from generating realistic images to causal prediction,
+  becoming robot training infrastructure. The entry point is offering virtual testing services to robotics
+  companies, charging per validation, or open-sourcing the model to attract an ecosystem.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: open_source
+industries:
+- 机器人
+- 制造业
+industries_en:
+- Robotics
+- Manufacturing
+jobs:
+- 机器人工程师
+- AI 研究员
+jobs_en:
+- Robotics Engineers
+- AI Researchers
+regions:
+- 中国
+regions_en:
+- China
+open_source: true
 url: http://www.geekpark.net/news/369508
 canonical_url: https://geekpark.net/news/369508
 summary: "机器人世界模型的下一场竞争，可能不是画质，是架构。 \n \n  作者｜Li Yuan  \n  编辑｜郑玄  \n \n 一只机械臂的夹爪明明没有夹住杯子，杯子却像被磁铁吸住一样，跟着夹爪升了起来。这个看似荒诞的问题，正在困扰机器人世界模型，业内甚至将其称为「磁铁式抓取」。\
@@ -52,7 +67,7 @@ summary: "机器人世界模型的下一场竞争，可能不是画质，是架�
   \  \n  实现真实可用的机器人虚拟训练？"
 first_seen: '2026-08-28T05:10:32Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -63,7 +78,7 @@ sightings:
   kind: news
 ---
 
-# 世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」
+# 自变量机器人
 
 机器人世界模型的下一场竞争，可能不是画质，是架构。 
  

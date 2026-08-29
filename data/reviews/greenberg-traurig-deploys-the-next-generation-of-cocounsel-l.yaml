@@ -1,0 +1,72 @@
+- id: req-initial-greenberg-traurig-deploys-the-next-generation-of-cocounsel-l-2026-08-29
+  project_slug: greenberg-traurig-deploys-the-next-generation-of-cocounsel-l
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决法律研究和文档审查的痛点，工作流结构清晰：输入法律材料，输出分析结果。
+    evidence_ids:
+    - ev-884300c0b6fab156
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈和采用数据，仅宣布部署。
+    evidence_ids:
+    - ev-884300c0b6fab156
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式和定价。
+    evidence_ids:
+    - ev-884300c0b6fab156
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体功能和交付质量验证。
+    evidence_ids:
+    - ev-884300c0b6fab156
+  next_validation: 关注 CoCounsel Legal 的公开案例和客户反馈。
+  market: ''
+  job: 律师需要快速进行法律研究和文档审查。
+  job_en: Lawyers need to conduct legal research and document review quickly.
+  pain: 法律文档量大，人工审查耗时且易出错。
+  pain_en: Legal documents are voluminous; manual review is time-consuming and error-prone.
+  current_alternative: 律师可能使用传统法律数据库或人工团队。
+  current_alternative_en: Lawyers may use traditional legal databases or manual teams.
+  usage_reason: 大型律所部署表明有实际需求，且 AI 可提高效率。
+  usage_reason_en: Deployment by a large law firm indicates real demand, and AI can improve efficiency.
+- id: req-full-greenberg-traurig-deploys-the-next-generation-of-cocounsel-l-2026-08-29
+  project_slug: greenberg-traurig-deploys-the-next-generation-of-cocounsel-l
+  level: full
+  reviewed_at: '2026-08-29T12:35:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决法律研究和文档审查的痛点，工作流结构清晰：输入法律材料，输出分析结果。
+    evidence_ids:
+    - ev-884300c0b6fab156
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈和采用数据，仅宣布部署。
+    evidence_ids:
+    - ev-884300c0b6fab156
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“CoCounsel Legal 是面向法律行业的 AI 助手，现被 Greenberg Traurig 部署。具体功能包括法律研究、文档审查等，但本次公告未披露详细工作流和交付”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“CoCounsel Legal 是面向法律行业的 AI 助手，现被 Greenberg Traurig 部署。具体功能包括法律研究、文档审查等，但本次公告未披露详细工作流和交付”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注 CoCounsel Legal 的公开案例和客户反馈。
+  market: ''
+  job: 律师需要快速进行法律研究和文档审查。
+  job_en: Lawyers need to conduct legal research and document review quickly.
+  pain: 法律文档量大，人工审查耗时且易出错。
+  pain_en: Legal documents are voluminous; manual review is time-consuming and error-prone.
+  current_alternative: 律师可能使用传统法律数据库或人工团队。
+  current_alternative_en: Lawyers may use traditional legal databases or manual teams.
+  usage_reason: 大型律所部署表明有实际需求，且 AI 可提高效率。
+  usage_reason_en: Deployment by a large law firm indicates real demand, and AI can improve efficiency.

@@ -1,0 +1,78 @@
+- id: req-initial-cursor-2026-08-29
+  project_slug: cursor
+  level: initial
+  reviewed_at: '2026-08-29T03:43:28Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决程序员编写和修改代码的效率问题，痛点明确，交付为代码变更，可验证。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  - gate: consensus
+    status: supported
+    reason: 高访问量和增长表明开发者认可，但需区分访问与持续付费。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  - gate: model
+    status: supported
+    reason: 采用订阅制，面向开发者，付费意愿强，但具体定价未披露。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  - gate: truth
+    status: supported
+    reason: 产品已成熟，交付确定，但模型供应变化可能影响服务稳定性。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  next_validation: 关注 OpenAI 终止合作后 Cursor 的模型替代方案和用户留存数据。
+  market: ''
+  job: 程序员需要更快地编写和修改代码，减少重复劳动。
+  job_en: Programmers need to write and modify code faster, reducing repetitive work.
+  pain: 手动编写代码耗时，容易出错，查找文档和示例费时。
+  pain_en: Manual coding is time-consuming, error-prone, and searching for documentation and examples
+    is slow.
+  current_alternative: 传统代码编辑器如 VS Code，配合手动搜索和复制粘贴。
+  current_alternative_en: Traditional code editors like VS Code, with manual search and copy-paste.
+  usage_reason: 已有大规模访问量（2318 万次/月），环比增长 7.22%，表明开发者广泛采用。
+  usage_reason_en: Large-scale traffic (23.18M visits/month), 7.22% MoM growth, indicating widespread
+    developer adoption.
+- id: req-full-cursor-2026-08-29
+  project_slug: cursor
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决程序员编写和修改代码的效率问题，痛点明确，交付为代码变更，可验证。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  - gate: consensus
+    status: supported
+    reason: 高访问量和增长表明开发者认可，但需区分访问与持续付费。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  - gate: model
+    status: supported
+    reason: 采用订阅制，面向开发者，付费意愿强，但具体定价未披露。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  - gate: truth
+    status: supported
+    reason: 产品已成熟，交付确定，但模型供应变化可能影响服务稳定性。
+    evidence_ids:
+    - ev-ceb39995005fb0dc
+  next_validation: 关注 OpenAI 终止合作后 Cursor 的模型替代方案和用户留存数据。
+  market: ''
+  job: 程序员需要更快地编写和修改代码，减少重复劳动。
+  job_en: Programmers need to write and modify code faster, reducing repetitive work.
+  pain: 手动编写代码耗时，容易出错，查找文档和示例费时。
+  pain_en: Manual coding is time-consuming, error-prone, and searching for documentation and examples
+    is slow.
+  current_alternative: 传统代码编辑器如 VS Code，配合手动搜索和复制粘贴。
+  current_alternative_en: Traditional code editors like VS Code, with manual search and copy-paste.
+  usage_reason: 已有大规模访问量（2318 万次/月），环比增长 7.22%，表明开发者广泛采用。
+  usage_reason_en: Large-scale traffic (23.18M visits/month), 7.22% MoM growth, indicating widespread
+    developer adoption.

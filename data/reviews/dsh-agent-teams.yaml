@@ -230,3 +230,41 @@
   usage_reason: 公开代码仓库有 1,156 个收藏、95 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,156 stars and 95 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-agent-teams-2026-08-29
+  project_slug: dsh-agent-teams
+  level: full
+  reviewed_at: '2026-08-29T12:32:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户通过一句话创建 AI 团队协作，但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids:
+    - ev-9242392a803fc8aa
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 用户需要一句话拉起一组 AI 帮手，各自领任务并直接沟通，减少人工传话和汇总。
+  job_en: Users need to spin up a team of AI helpers with one sentence, each taking tasks and communicating
+    directly, reducing manual message passing and aggregation.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；痛点强度尚未核验。
+  pain_en: Public materials do not show the specific cost, frequency, or consequence of leaving it unsolved;
+    pain intensity is not yet verified.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作或替代方案。
+  current_alternative_en: Public materials do not show how users currently accomplish this or what alternatives
+    exist.
+  usage_reason: 公开代码仓库有 1,156 个收藏，说明开发者关注，但持续使用与付费未核验。
+  usage_reason_en: The public repository has 1,156 stars, showing developer attention, but repeat use
+    and payment are not verified.

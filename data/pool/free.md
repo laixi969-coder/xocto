@@ -1,11 +1,12 @@
 ---
 slug: free
-name: Free
+name: PublicAML
 builder: publicaml
 category: AI + 商业
-summary_zh: 非营利加密货币反洗钱筛查，无需密钥或试用。
+summary_zh: PublicAML 是一个非营利加密货币反洗钱筛查服务，用户无需注册或付费即可进行地址筛查，用于合规检查。具体筛查范围和准确性待核验。
 inspiration: 合规即服务，免费模式可吸引早期用户，再通过增值服务变现。
-summary_en: Non-profit crypto AML screening – no key, no trial.
+summary_en: PublicAML is a non-profit crypto AML screening service. Users can screen addresses without
+  registration or payment for compliance checks. Specific screening scope and accuracy are to be verified.
 inspiration_en: Compliance as a service; free tier attracts users, monetize via value-add.
 priority_review: false
 project_type: ''
@@ -21,7 +22,7 @@ canonical_url: https://publicaml.org/free-crypto-aml
 summary: non-profit crypto AML screening – no key, no trial
 first_seen: '2026-08-21T12:17:03Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - officialfeeds
@@ -51,7 +52,7 @@ sightings:
   kind: news
 ---
 
-# Free
+# PublicAML
 
 non-profit crypto AML screening – no key, no trial
 

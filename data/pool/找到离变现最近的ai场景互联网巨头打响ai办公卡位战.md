@@ -1,11 +1,11 @@
 ---
 slug: 找到离变现最近的ai场景互联网巨头打响ai办公卡位战
-name: 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战
+name: AI办公
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 互联网巨头在AI办公领域展开卡位战，寻找离变现最近的AI场景。
 inspiration: ''
-summary_en: ''
+summary_en: Internet giants are competing in AI office space, seeking AI scenarios closest to monetization.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE0yR0pwOWduNmps
 summary: 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 first_seen: '2026-08-26T11:44:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战
+# AI办公
 
 找到离变现最近的AI场景，互联网巨头打响AI办公卡位战 京报网
 

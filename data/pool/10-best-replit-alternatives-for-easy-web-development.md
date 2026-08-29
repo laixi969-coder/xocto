@@ -1,11 +1,12 @@
 ---
 slug: 10-best-replit-alternatives-for-easy-web-development
-name: 10 best Replit alternatives for easy web development
+name: Replit
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Hostinger 发布了一篇关于 Replit 替代品的列表文章，属于行业内容，不是独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Hostinger published a list article about Replit alternatives, which is industry content, not
+  a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFBnTEtVd3RxUEVy
 summary: 10 best Replit alternatives for easy web development Hostinger
 first_seen: '2026-08-26T07:00:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 10 best Replit alternatives for easy web development
+# Replit
 
 10 best Replit alternatives for easy web development Hostinger
 

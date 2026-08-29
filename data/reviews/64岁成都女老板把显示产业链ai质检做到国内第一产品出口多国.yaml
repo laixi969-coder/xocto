@@ -1,0 +1,82 @@
+- id: req-initial-64岁成都女老板把显示产业链ai质检做到国内第一产品出口多国-2026-08-29
+  project_slug: 64岁成都女老板把显示产业链ai质检做到国内第一产品出口多国
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决显示产线质检的效率和漏检痛点，替代人工目检，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-856da928f06eea62
+  - gate: consensus
+    status: insufficient
+    reason: 报道称国内第一，但缺乏具体客户数、使用量或第三方验证。
+    evidence_ids:
+    - ev-856da928f06eea62
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，但B2B制造客户通常按项目或年费付费。
+    evidence_ids:
+    - ev-856da928f06eea62
+  - gate: truth
+    status: supported
+    reason: AI质检是真实需求，产品出口多国表明交付能力。
+    evidence_ids:
+    - ev-856da928f06eea62
+  next_validation: 查找该公司官网或公开案例，获取具体产品名称、客户案例和定价信息。
+  market: ''
+  job: 显示面板产线需要检测缺陷，传统人工目检效率低、漏检率高。
+  job_en: Display panel production lines need defect detection; traditional manual inspection is inefficient
+    and prone to misses.
+  pain: 人工目检速度慢、标准不一，漏检导致客户投诉和成本损失。
+  pain_en: Manual inspection is slow and inconsistent, leading to missed defects, customer complaints,
+    and cost losses.
+  current_alternative: 人工目检或传统机器视觉，依赖人工经验和规则。
+  current_alternative_en: Manual inspection or traditional machine vision, relying on human experience
+    and rules.
+  usage_reason: AI质检提高检测速度和一致性，降低漏检率，国内第一和出口多国表明采用。
+  usage_reason_en: AI inspection improves speed and consistency, reduces miss rates; domestic leadership
+    and exports indicate adoption.
+- id: req-full-64岁成都女老板把显示产业链ai质检做到国内第一产品出口多国-2026-08-29
+  project_slug: 64岁成都女老板把显示产业链ai质检做到国内第一产品出口多国
+  level: full
+  reviewed_at: '2026-08-29T12:29:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决显示产线质检的效率和漏检痛点，替代人工目检，交付可确定；工作流结构推理。
+    evidence_ids:
+    - ev-856da928f06eea62
+  - gate: consensus
+    status: insufficient
+    reason: 报道称国内第一，但缺乏具体客户数、使用量或第三方验证。
+    evidence_ids:
+    - ev-856da928f06eea62
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，但B2B制造客户通常按项目或年费付费；这是判断而非已验证事实。
+    evidence_ids:
+    - ev-856da928f06eea62
+  - gate: truth
+    status: supported
+    reason: AI质检是真实需求，产品出口多国表明交付能力。
+    evidence_ids:
+    - ev-856da928f06eea62
+  next_validation: 查找该公司官网或公开案例，获取具体产品名称、客户案例和定价信息。
+  market: ''
+  job: 显示面板产线需要检测缺陷，传统人工目检效率低、漏检率高。
+  job_en: Display panel production lines need defect detection; traditional manual inspection is inefficient
+    and prone to misses.
+  pain: 人工目检速度慢、标准不一，漏检导致客户投诉和成本损失。
+  pain_en: Manual inspection is slow and inconsistent, leading to missed defects, customer complaints,
+    and cost losses.
+  current_alternative: 人工目检或传统机器视觉，依赖人工经验和规则。
+  current_alternative_en: Manual inspection or traditional machine vision, relying on human experience
+    and rules.
+  usage_reason: 报道称国内第一和出口多国，表明采用；但具体客户数和第三方验证未核验。
+  usage_reason_en: Reports claim domestic leadership and exports, indicating adoption; specific customer
+    numbers and third-party verification are not verified.

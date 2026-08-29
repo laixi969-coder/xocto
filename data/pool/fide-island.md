@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/fide-island
 summary: Make your MacBook notch actually useful
 first_seen: '2026-08-27T13:53:00Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

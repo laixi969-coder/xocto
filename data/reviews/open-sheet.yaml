@@ -116,3 +116,41 @@
   usage_reason: 公开代码仓库有 117 个收藏、11 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 117 stars and 11 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-open-sheet-2026-08-29
+  project_slug: open-sheet
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理生成电子表格时缺乏实时性和集成的问题，用 React 编写模型并导出 .xlsx，交付可编辑文件。工作流结构推理：旧流程依赖手动或脚本生成，效率低。
+    evidence_ids:
+    - ev-641ef0d59cb308b1
+  - gate: consensus
+    status: insufficient
+    reason: 119 星显示关注，但缺乏用户评价或持续使用证据。
+    evidence_ids:
+    - ev-641ef0d59cb308b1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，开源项目可能无直接商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，缺少可复现的公开测试或文档。
+    evidence_ids: []
+  next_validation: 追踪 open-sheet 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
+  market: ''
+  job: 开发者需要为 AI 代理生成可编辑的电子表格文件，并保持模型与数据同步。
+  job_en: Developers need to generate editable spreadsheet files for AI agents, keeping the model and
+    data in sync.
+  pain: 传统表格生成方式难以与 AI 代理工作流集成，且更新不实时。
+  pain_en: Traditional spreadsheet generation is hard to integrate with AI agent workflows and lacks real-time
+    updates.
+  current_alternative: 目前开发者可能使用 Python 库或手动创建表格，但缺乏实时性和灵活性。
+  current_alternative_en: Currently, developers may use Python libraries or manual creation, lacking real-time
+    and flexibility.
+  usage_reason: 仓库 119 星显示初步关注；但采用和付费未核验。
+  usage_reason_en: The repository's 119 stars show initial interest; adoption and payment are not verified.

@@ -1,0 +1,82 @@
+- id: req-initial-how-utility-warehouse-secured-its-software-supply-chain-acro-2026-08-29
+  project_slug: how-utility-warehouse-secured-its-software-supply-chain-acro
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件供应链安全痛点，替代人工审计，交付可确定的加固建议，价值结构成立。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  - gate: consensus
+    status: insufficient
+    reason: 有客户案例但缺乏公开采用规模、用户评价或行业共识证据。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是企业安全团队，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  - gate: truth
+    status: supported
+    reason: 产品贴近安全第一性目标，交付可验证，但需更多独立验证。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  next_validation: 关注 StepSecurity 官网定价页和更多客户案例，以及安全社区讨论。
+  market: ''
+  job: 保护软件供应链，防止恶意代码和漏洞进入 CI/CD、依赖和开发者环境。
+  job_en: Secure the software supply chain to prevent malicious code and vulnerabilities from entering
+    CI/CD, dependencies, and developer environments.
+  pain: 供应链攻击频发，手动审计配置耗时且易漏，一旦被攻破可能导致严重安全事故。
+  pain_en: Supply chain attacks are frequent; manual configuration auditing is time-consuming and error-prone,
+    and a breach can lead to severe security incidents.
+  current_alternative: 传统安全工具或人工审计，缺乏对 CI/CD 和依赖链的自动化覆盖。
+  current_alternative_en: Traditional security tools or manual audits lack automated coverage of CI/CD
+    and dependency chains.
+  usage_reason: 客户案例显示企业有实际需求，但采用规模、付费和留存数据尚未核验。
+  usage_reason_en: Customer case study indicates real demand, but adoption scale, payment, and retention
+    data are not yet verified.
+- id: req-full-how-utility-warehouse-secured-its-software-supply-chain-acro-2026-08-29
+  project_slug: how-utility-warehouse-secured-its-software-supply-chain-acro
+  level: full
+  reviewed_at: '2026-08-29T12:35:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件供应链安全痛点，替代人工审计，交付可确定的加固建议，价值结构成立。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  - gate: consensus
+    status: insufficient
+    reason: 有客户案例但缺乏公开采用规模、用户评价或行业共识证据。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是企业安全团队，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  - gate: truth
+    status: supported
+    reason: 产品贴近安全第一性目标，交付可验证，但需更多独立验证。
+    evidence_ids:
+    - ev-fd915184b439ae5e
+  next_validation: 关注 StepSecurity 官网定价页和更多客户案例，以及安全社区讨论。
+  market: ''
+  job: DevOps 工程师、安全工程师需要保护软件供应链，防止恶意代码和漏洞进入 CI/CD、依赖和开发者环境。
+  job_en: DevOps and security engineers need to secure the software supply chain to prevent malicious
+    code and vulnerabilities from entering CI/CD, dependencies, and developer environments.
+  pain: 供应链攻击频发，手动审计配置耗时且易漏，一旦被攻破可能导致严重安全事故。
+  pain_en: Supply chain attacks are frequent; manual configuration auditing is time-consuming and error-prone,
+    and a breach can lead to severe security incidents.
+  current_alternative: 传统安全工具或人工审计，缺乏对 CI/CD 和依赖链的自动化覆盖。
+  current_alternative_en: Traditional security tools or manual audits lack automated coverage of CI/CD
+    and dependency chains.
+  usage_reason: 客户案例显示企业有实际需求，但采用规模、付费和留存数据尚未核验。
+  usage_reason_en: Customer case study indicates real demand, but adoption scale, payment, and retention
+    data are not yet verified.

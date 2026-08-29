@@ -1,0 +1,77 @@
+- id: req-initial-创新奇智发布三位一体智能体开发范式-破解制造企业智能体落地难题-2026-08-29
+  project_slug: 创新奇智发布三位一体智能体开发范式-破解制造企业智能体落地难题
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决制造企业智能体落地难的问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-8fa4d8a1b0e37621
+  - gate: consensus
+    status: insufficient
+    reason: 发布范式但缺乏采用数据，共识未验证。
+    evidence_ids:
+    - ev-8fa4d8a1b0e37621
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，但可能按项目收费。
+    evidence_ids:
+    - ev-8fa4d8a1b0e37621
+  - gate: truth
+    status: supported
+    reason: 范式贴近实际需求，但需验证实际效果。
+    evidence_ids:
+    - ev-8fa4d8a1b0e37621
+  next_validation: 关注创新奇智的客户案例和部署文档，验证范式的实际效果。
+  market: ''
+  job: 制造企业需要将生产流程智能化，减少人工干预。
+  job_en: Manufacturing enterprises need to intelligently automate production processes to reduce manual
+    intervention.
+  pain: 智能体落地难，缺乏标准化方法。
+  pain_en: Agent implementation is difficult due to lack of standardized methods.
+  current_alternative: 企业可能自行开发或依赖定制化服务，成本高。
+  current_alternative_en: Enterprises may develop in-house or rely on custom services, which is costly.
+  usage_reason: 创新奇智提供标准化范式，且有行业经验，可能吸引企业采用。
+  usage_reason_en: AInnovation offers a standardized paradigm with industry experience, potentially attracting
+    adoption.
+- id: req-full-创新奇智发布三位一体智能体开发范式-破解制造企业智能体落地难题-2026-08-29
+  project_slug: 创新奇智发布三位一体智能体开发范式-破解制造企业智能体落地难题
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决制造企业智能体落地难的问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-8fa4d8a1b0e37621
+  - gate: consensus
+    status: insufficient
+    reason: 发布范式但缺乏采用数据，共识未验证。
+    evidence_ids:
+    - ev-8fa4d8a1b0e37621
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“创新奇智提出三位一体智能体开发范式，帮助制造企业将生产数据、设备状态等输入智能体平台，平台生成可执行的自动化流程，交付效率提升，但具体流程细节待核验”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 范式贴近实际需求，但需验证实际效果。
+    evidence_ids:
+    - ev-8fa4d8a1b0e37621
+  next_validation: 关注创新奇智的客户案例和部署文档，验证范式的实际效果。
+  market: ''
+  job: 制造企业需要将生产流程智能化，减少人工干预。
+  job_en: Manufacturing enterprises need to intelligently automate production processes to reduce manual
+    intervention.
+  pain: 智能体落地难，缺乏标准化方法。
+  pain_en: Agent implementation is difficult due to lack of standardized methods.
+  current_alternative: 企业可能自行开发或依赖定制化服务，成本高。
+  current_alternative_en: Enterprises may develop in-house or rely on custom services, which is costly.
+  usage_reason: 创新奇智提供标准化范式，且有行业经验，可能吸引企业采用。
+  usage_reason_en: AInnovation offers a standardized paradigm with industry experience, potentially attracting
+    adoption.

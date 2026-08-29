@@ -1,0 +1,80 @@
+- id: req-initial-世界模型进入下半场自变量-wall-ss-突破三大瓶颈让虚拟世界成为机器人的训练场-2026-08-29
+  project_slug: 世界模型进入下半场自变量-wall-ss-突破三大瓶颈让虚拟世界成为机器人的训练场
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人策略验证的高成本痛点，替代部分真机测试，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  - gate: consensus
+    status: insufficient
+    reason: 有行业媒体报道，但缺乏机器人公司采用或社区讨论的公开证据。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是机器人公司，但付费路径未公开。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  - gate: truth
+    status: supported
+    reason: 世界模型用于虚拟验证是明确需求，产品提供高相关性预测，交付确定性高。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  next_validation: 关注 WALL-SS 的开源仓库、论文和机器人公司的采用案例。
+  market: ''
+  job: 机器人公司需要在不进行大量真机测试的情况下评估和验证机器人策略。
+  job_en: Robotics companies need to evaluate and validate robot policies without extensive physical testing.
+  pain: 真机测试成本高、周期长，传统仿真难以覆盖真实世界的复杂性。
+  pain_en: Physical testing is costly and time-consuming, and traditional simulation cannot cover the
+    complexity of the real world.
+  current_alternative: 目前依赖真机测试或传统仿真，但成本高或不够真实。
+  current_alternative_en: Currently relying on physical testing or traditional simulation, which is costly
+    or not realistic enough.
+  usage_reason: WALL-SS 提供高相关性的虚拟预测，可替代部分真机测试，降低迭代成本。
+  usage_reason_en: WALL-SS provides highly correlated virtual predictions, potentially replacing some
+    physical tests and reducing iteration costs.
+- id: req-full-世界模型进入下半场自变量-wall-ss-突破三大瓶颈让虚拟世界成为机器人的训练场-2026-08-29
+  project_slug: 世界模型进入下半场自变量-wall-ss-突破三大瓶颈让虚拟世界成为机器人的训练场
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人策略验证的高成本痛点，替代部分真机测试，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  - gate: consensus
+    status: insufficient
+    reason: 有行业媒体报道，但缺乏机器人公司采用或社区讨论的公开证据。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是机器人公司，但付费路径未公开。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  - gate: truth
+    status: supported
+    reason: 世界模型用于虚拟验证是明确需求，产品提供高相关性预测，交付确定性高。
+    evidence_ids:
+    - ev-facf51b3165b3921
+  next_validation: 关注 WALL-SS 的开源仓库、论文和机器人公司的采用案例。
+  market: ''
+  job: 机器人公司需要在不进行大量真机测试的情况下评估和验证机器人策略。
+  job_en: Robotics companies need to evaluate and validate robot policies without extensive physical testing.
+  pain: 真机测试成本高、周期长，传统仿真难以覆盖真实世界的复杂性。
+  pain_en: Physical testing is costly and time-consuming, and traditional simulation cannot cover the
+    complexity of the real world.
+  current_alternative: 目前依赖真机测试或传统仿真，但成本高或不够真实。
+  current_alternative_en: Currently relying on physical testing or traditional simulation, which is costly
+    or not realistic enough.
+  usage_reason: WALL-SS 提供高相关性的虚拟预测，可替代部分真机测试，降低迭代成本。
+  usage_reason_en: WALL-SS provides highly correlated virtual predictions, potentially replacing some
+    physical tests and reducing iteration costs.

@@ -22,7 +22,7 @@ summary: （LLM-App-Mentor）Turn your AI coding assistant into a cautious 10-ye
   prompts, zero dependencies
 first_seen: '2026-08-09T00:23:31Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

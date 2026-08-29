@@ -1,11 +1,14 @@
 ---
 slug: connect-amazon-bedrock-agentcore-to-cross-account-knowledge
-name: Connect Amazon Bedrock AgentCore to cross-account knowledge bases
+name: Amazon Bedrock AgentCore
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AWS 官方技术说明，介绍 Bedrock AgentCore 智能体如何跨账户访问由 Redshift Serverless 支撑的知识库，无需复制源数据。文中给出两种编排模式：基于代码的
+  Strands 智能体和声明式 AgentCore 框架。
 inspiration: ''
-summary_en: ''
+summary_en: 'AWS official technical guide on how Bedrock AgentCore agents can access knowledge bases backed
+  by Redshift Serverless across accounts without copying data, covering two orchestration models: a code-based
+  Strands agent and a declarative AgentCore harness.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +27,7 @@ summary: 'Learn how Amazon Bedrock AgentCore agents in one account can generate 
   Strands agent and a declarative AgentCore harness.'
 first_seen: '2026-08-26T15:48:10Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# Connect Amazon Bedrock AgentCore to cross-account knowledge bases
+# Amazon Bedrock AgentCore
 
 Learn how Amazon Bedrock AgentCore agents in one account can generate answers from an Amazon Bedrock knowledge base backed by Amazon Redshift Serverless in another account, without copying source data. This post covers the architecture, security boundary, and two orchestration models: a code-based Strands agent and a declarative AgentCore harness.
 

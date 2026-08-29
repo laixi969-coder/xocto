@@ -1,0 +1,84 @@
+- id: req-initial-格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力-2026-08-29
+  project_slug: 格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生产异常响应慢和参数优化依赖经验的问题，替代人工巡检和事后分析，交付可执行的决策建议。工作流结构判断：痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: consensus
+    status: insufficient
+    reason: 获奖是行业认可，但缺乏用户采用、部署规模或客户案例的公开证据，共识不足。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向B端制造企业，但商业模式不清晰。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: truth
+    status: supported
+    reason: 产品贴近制造第一性目标，自主决策闭环有明确交付，但安全边界需人工确认，符合工业场景要求。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  next_validation: 关注格创东智官网或行业报告，获取具体客户案例、部署数量和效果数据。
+  market: ''
+  job: 制造企业需要实时监控生产过程，快速响应异常，优化工艺参数以提高良率和设备利用率。
+  job_en: Manufacturers need real-time process monitoring, rapid response to anomalies, and optimization
+    of process parameters to improve yield and equipment utilization.
+  pain: 传统人工巡检和事后分析响应慢，参数调整依赖老师傅经验，导致废品率高、停机时间长。
+  pain_en: Traditional manual inspection and post-hoc analysis are slow, parameter adjustment relies on
+    experienced workers, leading to high scrap rates and long downtime.
+  current_alternative: 目前多依赖人工巡检、SCADA系统报警和事后根因分析，缺乏实时自主决策能力。
+  current_alternative_en: Currently relies on manual inspection, SCADA alarms, and post-hoc root cause
+    analysis, lacking real-time autonomous decision-making.
+  usage_reason: 获奖表明行业认可其技术方向，但具体采用规模未披露；工业场景对自主决策有明确需求，但需验证实际效果。
+  usage_reason_en: The award indicates industry recognition of the technical direction, but specific adoption
+    scale is undisclosed; there is clear demand for autonomous decision-making in industrial settings,
+    but actual effectiveness needs validation.
+- id: req-full-格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力-2026-08-29
+  project_slug: 格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力
+  level: full
+  reviewed_at: '2026-08-29T12:41:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生产异常响应慢和参数优化依赖经验的问题，替代人工巡检和事后分析，交付可执行的决策建议。工作流结构判断：痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: consensus
+    status: insufficient
+    reason: 获奖是行业认可，但缺乏用户采用、部署规模或客户案例的公开证据，共识不足。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向B端制造企业，但商业模式不清晰。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: truth
+    status: supported
+    reason: 产品贴近制造第一性目标，自主决策闭环有明确交付，但安全边界需人工确认，符合工业场景要求。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  next_validation: 关注格创东智官网或行业报告，获取具体客户案例、部署数量和效果数据。
+  market: ''
+  job: 制造企业需要实时监控生产过程，快速响应异常，优化工艺参数以提高良率和设备利用率。
+  job_en: Manufacturers need real-time process monitoring, rapid response to anomalies, and optimization
+    of process parameters to improve yield and equipment utilization.
+  pain: 传统人工巡检和事后分析响应慢，参数调整依赖老师傅经验，导致废品率高、停机时间长。
+  pain_en: Traditional manual inspection and post-hoc analysis are slow, parameter adjustment relies on
+    experienced workers, leading to high scrap rates and long downtime.
+  current_alternative: 目前多依赖人工巡检、SCADA系统报警和事后根因分析，缺乏实时自主决策能力。
+  current_alternative_en: Currently relies on manual inspection, SCADA alarms, and post-hoc root cause
+    analysis, lacking real-time autonomous decision-making.
+  usage_reason: 获奖表明行业认可其技术方向，但具体采用规模未披露；工业场景对自主决策有明确需求，但需验证实际效果。
+  usage_reason_en: The award indicates industry recognition of the technical direction, but specific adoption
+    scale is undisclosed; there is clear demand for autonomous decision-making in industrial settings,
+    but actual effectiveness needs validation.

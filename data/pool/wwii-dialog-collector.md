@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/wayneworkman2012/ww2-dialog-collect
 summary: ''
 first_seen: '2026-08-28T20:17:34Z'
 last_seen: '2026-08-29T03:43:27Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

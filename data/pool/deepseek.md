@@ -3,28 +3,38 @@ slug: deepseek
 name: DeepSeek
 builder: ''
 category: 通用助手
-summary_zh: DeepSeek 的网页对话：免费、无广告，用来深度问答，也把行业定价打到地板
-inspiration: 趋势是开源模型加免费产品正在改写整个行业怎么收费。切入不要跟它拼免费问答，去做要账号、要合规、要私有数据的企业场景；它的钱在接口和企业，不在网页。
-summary_en: 'DeepSeek''s web chat: free, no ads, built for deep Q&A, and the product that pushed industry
-  pricing to the floor.'
-inspiration_en: The trend is open models plus a free product rewriting how the whole category charges.
-  The entry is not racing it on free Q&A — take companies that need accounts, compliance, and private
-  data. DeepSeek makes money on the API and on businesses, not on the webpage.
+summary_zh: DeepSeek 是 AI 聊天助手，用户通过对话获取信息、解决问题。本次事件：据报道 DeepSeek 估值有望达到 740 亿美元，显示其市场地位。
+inspiration: 趋势是 AI 助手成为流量入口，估值飙升反映资本看好。切入可从垂直行业定制助手或企业级应用入手，但需与巨头竞争。
+summary_en: 'DeepSeek is an AI chat assistant that users interact with to get information and solve problems.
+  This event: DeepSeek is reportedly poised to reach a $74 billion valuation, indicating its market position.'
+inspiration_en: The trend is AI assistants becoming traffic gateways, with soaring valuations reflecting
+  capital optimism. Entry could focus on vertical industry custom assistants or enterprise applications,
+  but must compete with giants.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 互联网
+industries_en:
+- Internet
+jobs:
+- 普通用户
+- 开发者
+jobs_en:
+- General users
+- Developers
+regions:
+- 中国
+- 全球
+regions_en:
+- China
+- Global
 open_source: false
 url: https://www.aicpb.com/product/DeepSeek/webid1D6F374B1
 canonical_url: https://aicpb.com/product/DeepSeek/webid1D6F374B1
 summary: Chat with DeepSeek AI.
 first_seen: '2026-08-11T05:03:23Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

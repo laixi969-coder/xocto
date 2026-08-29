@@ -24,3 +24,85 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-tare-2026-08-29
+  project_slug: tare
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码助手配额消耗不透明的问题，提供分析报告，价值结构成立。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: consensus
+    status: supported
+    reason: 在开发者社区获得 86 分和 62 条评论，社区关注度高，共识成立。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: model
+    status: insufficient
+    reason: 开源工具，未披露商业模式，可能通过企业版或支持服务盈利，但未核验。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: truth
+    status: insufficient
+    reason: 工具是否有效、分析准确性如何，缺乏公开验证。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  next_validation: 关注 tare 的代码仓库 star 数和 issue 讨论，以及用户反馈。
+  market: ''
+  job: 开发者使用 AI 编码助手时，需要了解配额消耗原因，避免超额费用。
+  job_en: Developers using AI coding assistants need to understand quota consumption to avoid overage
+    charges.
+  pain: AI 编码助手配额消耗快，缺乏透明度，开发者难以优化使用。
+  pain_en: AI coding assistant quotas deplete quickly, lacking transparency, making it hard for developers
+    to optimize usage.
+  current_alternative: 手动查看使用记录，或依赖官方仪表盘，但不够详细。
+  current_alternative_en: Manually checking usage logs, or relying on official dashboards, but not detailed
+    enough.
+  usage_reason: tare 提供详细分析，帮助开发者找出消耗配额的操作，优化使用。
+  usage_reason_en: tare provides detailed analysis, helping developers identify quota-consuming operations
+    and optimize usage.
+- id: req-full-tare-2026-08-29
+  project_slug: tare
+  level: full
+  reviewed_at: '2026-08-29T12:39:47Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码助手配额消耗不透明的问题，提供分析报告，价值结构成立。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: consensus
+    status: supported
+    reason: 在开发者社区获得 86 分和 62 条评论，社区关注度高，共识成立。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: model
+    status: insufficient
+    reason: 开源工具，未披露商业模式，可能通过企业版或支持服务盈利，但未核验。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: truth
+    status: insufficient
+    reason: 工具是否有效、分析准确性如何，缺乏公开验证。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  next_validation: 关注 tare 的代码仓库 star 数和 issue 讨论，以及用户反馈。
+  market: ''
+  job: 开发者使用 AI 编码助手时，需要了解配额消耗原因，避免超额费用。
+  job_en: Developers using AI coding assistants need to understand quota consumption to avoid overage
+    charges.
+  pain: AI 编码助手配额消耗快，缺乏透明度，开发者难以优化使用。
+  pain_en: AI coding assistant quotas deplete quickly, lacking transparency, making it hard for developers
+    to optimize usage.
+  current_alternative: 手动查看使用记录，或依赖官方仪表盘，但不够详细。
+  current_alternative_en: Manually checking usage logs, or relying on official dashboards, but not detailed
+    enough.
+  usage_reason: tare 提供详细分析，帮助开发者找出消耗配额的操作，优化使用。
+  usage_reason_en: tare provides detailed analysis, helping developers identify quota-consuming operations
+    and optimize usage.

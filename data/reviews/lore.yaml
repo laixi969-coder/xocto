@@ -191,3 +191,85 @@
   usage_reason: 公开代码仓库有 143 个收藏、40 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 143 stars and 40 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-lore-2026-08-29
+  project_slug: lore
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理会话历史难以检索和复用的痛点，替代手动记录和内置历史的低效方式，交付可搜索的本地档案，价值结构成立。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 143 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者个人或团队，但付费路径不明确。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  - gate: truth
+    status: supported
+    reason: 作为本地工具，交付确定性高，不依赖外部服务，安全边界清晰。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有团队采用或付费案例。
+  market: ''
+  job: 开发者需要回顾和复用编码代理的会话历史，以保持上下文连续性和决策一致性。
+  job_en: Developers need to review and reuse coding agent session history to maintain context continuity
+    and decision consistency.
+  pain: 编码代理的会话记录分散且难以检索，导致重复提问、上下文丢失和决策不连贯。
+  pain_en: Coding agent session logs are scattered and hard to search, leading to repeated questions,
+    lost context, and inconsistent decisions.
+  current_alternative: 目前开发者依赖代理内置的会话历史或手动记录，缺乏统一搜索和长期记忆。
+  current_alternative_en: Currently developers rely on built-in session history or manual notes, lacking
+    unified search and long-term memory.
+  usage_reason: 开源项目获得 143 星，显示开发者对会话记忆管理的初步关注，但采用规模尚未核验。
+  usage_reason_en: The open-source project has 143 stars, showing initial developer interest in session
+    memory management, but adoption scale is not yet verified.
+- id: req-full-lore-2026-08-29
+  project_slug: lore
+  level: full
+  reviewed_at: '2026-08-29T12:36:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理会话历史难以检索和复用的痛点，替代手动记录和内置历史的低效方式，交付可搜索的本地档案，价值结构成立。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 143 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者个人或团队，但付费路径不明确。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  - gate: truth
+    status: supported
+    reason: 作为本地工具，交付确定性高，不依赖外部服务，安全边界清晰。
+    evidence_ids:
+    - ev-214716d6022a0e72
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有团队采用或付费案例。
+  market: ''
+  job: 开发者需要回顾和复用编码代理的会话历史，以保持上下文连续性和决策一致性。
+  job_en: Developers need to review and reuse coding agent session history to maintain context continuity
+    and decision consistency.
+  pain: 编码代理的会话记录分散且难以检索，导致重复提问、上下文丢失和决策不连贯。
+  pain_en: Coding agent session logs are scattered and hard to search, leading to repeated questions,
+    lost context, and inconsistent decisions.
+  current_alternative: 目前开发者依赖代理内置的会话历史或手动记录，缺乏统一搜索和长期记忆。
+  current_alternative_en: Currently developers rely on built-in session history or manual notes, lacking
+    unified search and long-term memory.
+  usage_reason: 开源项目获得 143 星，显示开发者对会话记忆管理的初步关注，但采用规模尚未核验。
+  usage_reason_en: The open-source project has 143 stars, showing initial developer interest in session
+    memory management, but adoption scale is not yet verified.

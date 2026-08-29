@@ -1,11 +1,12 @@
 ---
 slug: tcs-porsche-announce-partnership-to-accelerate-ai-powered-mo
-name: TCS, Porsche announce partnership to accelerate AI-powered mobility
+name: Tata Consultancy Services
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: TCS 与保时捷合作，共同推进 AI 在出行领域的应用，具体合作内容与交付成果尚未披露。
 inspiration: ''
-summary_en: ''
+summary_en: TCS and Porsche partnered to advance AI applications in mobility; specific collaboration details
+  and deliverables are not yet disclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxOSVYzMWtHSU9y
 summary: TCS, Porsche announce partnership to accelerate AI-powered mobility internationalfinance.com
 first_seen: '2026-08-26T04:00:22Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# TCS, Porsche announce partnership to accelerate AI-powered mobility
+# Tata Consultancy Services
 
 TCS, Porsche announce partnership to accelerate AI-powered mobility internationalfinance.com
 

@@ -1,0 +1,75 @@
+- id: req-initial-consensus-2026-08-29
+  project_slug: consensus
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学术搜索中信息过载的问题，通过 AI 总结提供带引用的结论，交付可核对的答案。工作流结构判断：旧流程是手动搜索和阅读，此方案显著降低时间成本。
+    evidence_ids: []
+  - gate: consensus
+    status: supported
+    reason: 月访问量 516 万显示大规模采用，但环比下降需关注。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向个人订阅或机构授权，但具体模式不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近学术研究的第一性目标，交付的答案可验证，但需确保引用准确性。
+    evidence_ids: []
+  next_validation: 关注官方定价页和用户评价，以及访问量下滑的原因。
+  market: ''
+  job: 研究人员和学生需要快速从大量学术论文中找到相关证据和结论。
+  job_en: Researchers and students need to quickly find relevant evidence and conclusions from a large
+    volume of academic papers.
+  pain: 手动搜索和阅读论文耗时费力，且容易遗漏关键信息。
+  pain_en: Manual search and reading of papers is time-consuming and prone to missing key information.
+  current_alternative: 目前主要依赖 Google Scholar 或 PubMed 等传统搜索，缺乏 AI 总结。
+  current_alternative_en: Currently relies on traditional search like Google Scholar or PubMed, lacking
+    AI summarization.
+  usage_reason: AI 产品增长榜显示月访问量 516 万，环比下降 12.37%，说明已有规模但近期下滑，需关注原因。
+  usage_reason_en: AI product growth charts show 5.16 million monthly visits, down 12.37% month-over-month,
+    indicating existing scale but recent decline, requiring attention.
+- id: req-full-consensus-2026-08-29
+  project_slug: consensus
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学术搜索中信息过载的问题，通过 AI 总结提供带引用的结论，交付可核对的答案。工作流结构判断：旧流程是手动搜索和阅读，此方案显著降低时间成本。
+    evidence_ids:
+    - ev-101abe21b1e2a520
+  - gate: consensus
+    status: supported
+    reason: 月访问量 516 万显示大规模采用，但环比下降需关注。
+    evidence_ids:
+    - ev-101abe21b1e2a520
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向个人订阅或机构授权，但具体模式不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近学术研究的第一性目标，交付的答案可验证，但需确保引用准确性。
+    evidence_ids:
+    - ev-101abe21b1e2a520
+  next_validation: 关注官方定价页和用户评价，以及访问量下滑的原因。
+  market: ''
+  job: 研究人员和学生需要快速从大量学术论文中找到相关证据和结论。
+  job_en: Researchers and students need to quickly find relevant evidence and conclusions from a large
+    volume of academic papers.
+  pain: 手动搜索和阅读论文耗时费力，且容易遗漏关键信息。
+  pain_en: Manual search and reading of papers is time-consuming and prone to missing key information.
+  current_alternative: 目前主要依赖 Google Scholar 或 PubMed 等传统搜索，缺乏 AI 总结。
+  current_alternative_en: Currently relies on traditional search like Google Scholar or PubMed, lacking
+    AI summarization.
+  usage_reason: AI 产品增长榜显示月访问量 516 万，环比下降 12.37%，说明已有规模但近期下滑，需关注原因。
+  usage_reason_en: AI product growth charts show 5.16 million monthly visits, down 12.37% month-over-month,
+    indicating existing scale but recent decline, requiring attention.

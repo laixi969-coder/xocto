@@ -35,3 +35,77 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Let an agent see the real buttons
     in a desktop window, so clicks land and do not fake success. The exact adoption motive and repeat
     use are not yet verified.'
+- id: req-initial-main-2026-08-29
+  project_slug: main
+  level: initial
+  reviewed_at: '2026-08-29T03:43:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 项目描述模糊，未明确解决的具体任务和痛点，价值主张不清晰。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈和采用数据，共识未形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 项目信息不足，无法判断交付确定性。
+    evidence_ids: []
+  next_validation: 关注项目文档和代码更新，以及是否有实际使用案例。
+  market: ''
+  job: 开发者希望 AI 代理能可靠地执行桌面自动化任务，如操作软件界面。
+  job_en: Developers want AI agents to reliably perform desktop automation tasks, such as operating software
+    interfaces.
+  pain: 现有桌面自动化工具对 AI 代理的反馈不准确，导致任务失败或需要人工干预。
+  pain_en: Existing desktop automation tools provide inaccurate feedback to AI agents, causing task failures
+    or requiring manual intervention.
+  current_alternative: 目前开发者可能使用传统自动化脚本或人工操作，缺乏与 AI 代理的无缝集成。
+  current_alternative_en: Currently developers may use traditional automation scripts or manual operations,
+    lacking seamless integration with AI agents.
+  usage_reason: 项目在技术社区仅有 6 分，关注度低，采用证据不足。
+  usage_reason_en: The project has only 6 points on a tech community, indicating low attention and insufficient
+    adoption evidence.
+- id: req-full-main-2026-08-29
+  project_slug: main
+  level: full
+  reviewed_at: '2026-08-29T12:36:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“一个开源项目，旨在让桌面自动化对 AI 代理更可靠。它可能提供更准确的桌面操作反馈，但具体流程和交付仍待核验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目文档和代码更新，以及是否有实际使用案例。
+  market: ''
+  job: 开发者希望 AI 代理能可靠地执行桌面自动化任务，如操作软件界面。
+  job_en: Developers want AI agents to reliably perform desktop automation tasks, such as operating software
+    interfaces.
+  pain: 现有桌面自动化工具对 AI 代理的反馈不准确，导致任务失败或需要人工干预。
+  pain_en: Existing desktop automation tools provide inaccurate feedback to AI agents, causing task failures
+    or requiring manual intervention.
+  current_alternative: 目前开发者可能使用传统自动化脚本或人工操作，缺乏与 AI 代理的无缝集成。
+  current_alternative_en: Currently developers may use traditional automation scripts or manual operations,
+    lacking seamless integration with AI agents.
+  usage_reason: 项目在技术社区仅有 6 分，关注度低，采用证据不足。
+  usage_reason_en: The project has only 6 points on a tech community, indicating low attention and insufficient
+    adoption evidence.

@@ -1,0 +1,75 @@
+- id: req-initial-从信息入口迈向行动入口-全新家庭智能体多多正式发布-2026-08-29
+  project_slug: 从信息入口迈向行动入口-全新家庭智能体多多正式发布
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及发布，未说明具体功能、用户任务或痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-68e429108c31a5cb
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，仅有发布新闻。
+    evidence_ids:
+    - ev-68e429108c31a5cb
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或定价。
+    evidence_ids:
+    - ev-68e429108c31a5cb
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-68e429108c31a5cb
+  next_validation: 关注多多官方页面或应用商店，获取功能列表和用户评价。
+  market: ''
+  job: 家庭成员需要管理家庭设备和日程，希望用自然语言直接让系统执行操作。
+  job_en: Household members need to manage devices and schedules, wishing to use natural language to directly
+    have the system execute operations.
+  pain: 传统智能家居需要多个App或手动操作，流程繁琐。
+  pain_en: Traditional smart home requires multiple apps or manual operation, which is cumbersome.
+  current_alternative: 目前用户可能使用智能音箱、手机App或手动控制。
+  current_alternative_en: Currently users may use smart speakers, mobile apps, or manual control.
+  usage_reason: 尚未核验，但家庭智能体概念受关注，可能因便捷性吸引用户试用。
+  usage_reason_en: Not yet verified, but the concept of home agents attracts attention, possibly due to
+    convenience for trial.
+- id: req-full-从信息入口迈向行动入口-全新家庭智能体多多正式发布-2026-08-29
+  project_slug: 从信息入口迈向行动入口-全新家庭智能体多多正式发布
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及发布，未说明具体功能、用户任务或痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-68e429108c31a5cb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注多多官方页面或应用商店，获取功能列表和用户评价。
+  market: ''
+  job: 家庭成员需要管理家庭设备和日程，希望用自然语言直接让系统执行操作。
+  job_en: Household members need to manage devices and schedules, wishing to use natural language to directly
+    have the system execute operations.
+  pain: 传统智能家居需要多个App或手动操作，流程繁琐。
+  pain_en: Traditional smart home requires multiple apps or manual operation, which is cumbersome.
+  current_alternative: 目前用户可能使用智能音箱、手机App或手动控制。
+  current_alternative_en: Currently users may use smart speakers, mobile apps, or manual control.
+  usage_reason: 尚未核验，但家庭智能体概念受关注，可能因便捷性吸引用户试用。
+  usage_reason_en: Not yet verified, but the concept of home agents attracts attention, possibly due to
+    convenience for trial.

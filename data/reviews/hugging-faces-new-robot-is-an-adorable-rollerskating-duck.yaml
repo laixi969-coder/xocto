@@ -1,0 +1,80 @@
+- id: req-initial-hugging-faces-new-robot-is-an-adorable-rollerskating-duck-2026-08-29
+  project_slug: hugging-faces-new-robot-is-an-adorable-rollerskating-duck
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人学习门槛高的问题，提供开源可编程实体，交付可确定。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: consensus
+    status: insufficient
+    reason: 有媒体报道和预购，但缺乏用户评价和持续采用证据。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，但商业模式和付费路径未详细披露。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: truth
+    status: supported
+    reason: 产品贴近教育需求，交付可验证，但需更多实际使用数据。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  next_validation: 关注 Microduck 发货后的用户评测和社区使用案例。
+  market: ''
+  job: 为爱好者和教育者提供一个可编程、可学习的实体机器人平台。
+  job_en: Provide a programmable, learnable physical robot platform for enthusiasts and educators.
+  pain: 现有机器人开发平台昂贵且封闭，缺乏开源和可定制性。
+  pain_en: Existing robot development platforms are expensive and closed, lacking openness and customizability.
+  current_alternative: 传统教育机器人或 DIY 套件，但缺乏 AI 集成和社区支持。
+  current_alternative_en: Traditional educational robots or DIY kits, but lack AI integration and community
+    support.
+  usage_reason: 预购和媒体报道显示关注度，但实际使用和付费数据尚未核验。
+  usage_reason_en: Preorders and media coverage show interest, but actual usage and payment data are not
+    yet verified.
+- id: req-full-hugging-faces-new-robot-is-an-adorable-rollerskating-duck-2026-08-29
+  project_slug: hugging-faces-new-robot-is-an-adorable-rollerskating-duck
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人学习门槛高的问题，提供开源可编程实体，交付可确定（预购、发货计划）。痛点刚性：现有平台昂贵封闭，学习门槛高。这是结构推理，基于公开报道。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: consensus
+    status: insufficient
+    reason: 有媒体报道和预购，但缺乏用户评价和持续采用证据，共识卡在场景环节。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，但商业模式和付费路径未详细披露，可能面向 to C 或 to B，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: truth
+    status: supported
+    reason: 产品贴近教育需求，交付可验证（预购、发货计划），但需更多实际使用数据。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  next_validation: 关注 Microduck 发货后的用户评测和社区使用案例。
+  market: ''
+  job: 机器人爱好者和教育工作者需要一个可编程、可学习的实体机器人平台，用于教学和实验。
+  job_en: Robot enthusiasts and educators need a programmable, learnable physical robot platform for teaching
+    and experimentation.
+  pain: 现有机器人开发平台昂贵且封闭，缺乏开源和可定制性，学习门槛高。
+  pain_en: Existing robot development platforms are expensive and closed, lacking openness and customizability,
+    with high learning barriers.
+  current_alternative: 传统教育机器人或 DIY 套件，但缺乏 AI 集成和社区支持。
+  current_alternative_en: Traditional educational robots or DIY kits, but lack AI integration and community
+    support.
+  usage_reason: 预购和媒体报道显示关注度，但实际使用和付费数据尚未核验。
+  usage_reason_en: Preorders and media coverage show interest, but actual usage and payment data are not
+    yet verified.

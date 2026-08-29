@@ -1,0 +1,82 @@
+- id: req-initial-talos-2026-08-29
+  project_slug: talos
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI agent 执行命令的安全风险，权限内核提供控制，价值结构成立。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  - gate: consensus
+    status: insufficient
+    reason: 在开发者社区仅获得 14 分和 7 条评论，关注度低，共识证据不足。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是开发者或企业，付费路径未核验。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已实际交付、权限内核的有效性如何，缺乏公开验证。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  next_validation: 关注 Talos 的官方文档或代码仓库，以及社区中关于权限控制的讨论。
+  market: ''
+  job: 开发者使用 AI agent 执行系统命令时，需要确保操作安全，防止误操作或恶意行为。
+  job_en: Developers using AI agents to execute system commands need to ensure safety, preventing mistakes
+    or malicious actions.
+  pain: AI agent 可能执行危险命令，导致系统损坏或数据泄露，缺乏权限控制。
+  pain_en: AI agents may execute dangerous commands, causing system damage or data leaks, lacking permission
+    control.
+  current_alternative: 人工审查 AI 生成的命令，或使用沙箱环境，但效率低或限制功能。
+  current_alternative_en: Manually reviewing AI-generated commands, or using sandbox environments, but
+    inefficient or limited.
+  usage_reason: 权限内核提供细粒度控制，让 AI 在安全边界内执行任务，降低风险。
+  usage_reason_en: The permission kernel provides fine-grained control, allowing AI to execute tasks within
+    safe boundaries, reducing risk.
+- id: req-full-talos-2026-08-29
+  project_slug: talos
+  level: full
+  reviewed_at: '2026-08-29T12:39:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI agent 执行命令的安全风险，权限内核提供控制，价值结构成立。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  - gate: consensus
+    status: insufficient
+    reason: 在开发者社区仅获得 14 分和 7 条评论，关注度低，共识证据不足。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是开发者或企业，付费路径未核验。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已实际交付、权限内核的有效性如何，缺乏公开验证。
+    evidence_ids:
+    - ev-dc576cc253e7c8f7
+  next_validation: 关注 Talos 的官方文档或代码仓库，以及社区中关于权限控制的讨论。
+  market: ''
+  job: 开发者使用 AI agent 执行系统命令时，需要确保操作安全，防止误操作或恶意行为。
+  job_en: Developers using AI agents to execute system commands need to ensure safety, preventing mistakes
+    or malicious actions.
+  pain: AI agent 可能执行危险命令，导致系统损坏或数据泄露，缺乏权限控制。
+  pain_en: AI agents may execute dangerous commands, causing system damage or data leaks, lacking permission
+    control.
+  current_alternative: 人工审查 AI 生成的命令，或使用沙箱环境，但效率低或限制功能。
+  current_alternative_en: Manually reviewing AI-generated commands, or using sandbox environments, but
+    inefficient or limited.
+  usage_reason: 权限内核提供细粒度控制，让 AI 在安全边界内执行任务，降低风险。
+  usage_reason_en: The permission kernel provides fine-grained control, allowing AI to execute tasks within
+    safe boundaries, reducing risk.

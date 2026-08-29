@@ -1,0 +1,75 @@
+- id: req-initial-harden-2026-08-29
+  project_slug: harden
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称解决编码 agent 的安全问题，但未说明具体任务、输入输出和交付物，无法判断痛点刚性。
+    evidence_ids:
+    - ev-0601b216c2815ba9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有博客声明，无用户评价或采用证据，关注度低。
+    evidence_ids:
+    - ev-0601b216c2815ba9
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 harden 官网或文档，获取具体功能、定价和客户案例。
+  market: ''
+  job: 用户需要保护编码 agent 免受安全威胁，确保其输出可靠且无漏洞。
+  job_en: Users need to protect coding agents from security threats and ensure their outputs are reliable
+    and vulnerability-free.
+  pain: 编码 agent 可能生成不安全代码或执行恶意操作，造成安全风险。
+  pain_en: Coding agents may generate insecure code or execute malicious actions, posing security risks.
+  current_alternative: 目前可能依赖人工代码审查或传统安全工具，但尚未核验。
+  current_alternative_en: Currently may rely on manual code review or traditional security tools, but
+    not verified.
+  usage_reason: 关注度来自其声称在安全基准上超越 GPT5.5-xhigh，但实际采用情况尚未核验。
+  usage_reason_en: Attention comes from its claim to beat GPT5.5-xhigh on security benchmarks, but actual
+    adoption is not verified.
+- id: req-full-harden-2026-08-29
+  project_slug: harden
+  level: full
+  reviewed_at: '2026-08-29T12:35:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称解决编码 agent 的安全问题，但未说明具体任务、输入输出和交付物，无法判断痛点刚性。
+    evidence_ids:
+    - ev-0601b216c2815ba9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 harden 官网或文档，获取具体功能、定价和客户案例。
+  market: ''
+  job: 用户需要保护编码 agent 免受安全威胁，确保其输出可靠且无漏洞。
+  job_en: Users need to protect coding agents from security threats and ensure their outputs are reliable
+    and vulnerability-free.
+  pain: 编码 agent 可能生成不安全代码或执行恶意操作，造成安全风险。
+  pain_en: Coding agents may generate insecure code or execute malicious actions, posing security risks.
+  current_alternative: 目前可能依赖人工代码审查或传统安全工具，但尚未核验。
+  current_alternative_en: Currently may rely on manual code review or traditional security tools, but
+    not verified.
+  usage_reason: 关注度来自其声称在安全基准上超越 GPT5.5-xhigh，但实际采用情况尚未核验。
+  usage_reason_en: Attention comes from its claim to beat GPT5.5-xhigh on security benchmarks, but actual
+    adoption is not verified.

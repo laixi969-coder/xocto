@@ -1,0 +1,73 @@
+- id: req-initial-a2acast-2026-08-29
+  project_slug: a2acast
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明让不同电脑上的 AI 代理协同工作，未明确具体任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-24e2f3bcde7982b7
+  - gate: consensus
+    status: insufficient
+    reason: 无用户讨论或采用数据，仅 5 分 HN 帖子，共识未建立。
+    evidence_ids:
+    - ev-24e2f3bcde7982b7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue 和讨论，看是否有真实使用场景和用户反馈。
+  market: ''
+  job: 让不同电脑上的 AI 代理协同工作。
+  job_en: Enable AI agents on different computers to work together.
+  pain: 当前缺乏标准化的跨设备代理通信机制，开发者需自行构建。
+  pain_en: Currently lacks standardized cross-device agent communication, forcing developers to build
+    custom solutions.
+  current_alternative: 开发者可能使用自定义网络协议或消息队列。
+  current_alternative_en: Developers may use custom network protocols or message queues.
+  usage_reason: 开源项目，可能吸引尝试分布式代理的开发者，但采用证据不足。
+  usage_reason_en: Open-source project may attract developers experimenting with distributed agents, but
+    adoption evidence is insufficient.
+- id: req-full-a2acast-2026-08-29
+  project_slug: a2acast
+  level: full
+  reviewed_at: '2026-08-29T12:29:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明让不同电脑上的 AI 代理协同工作，未明确具体任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-24e2f3bcde7982b7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue 和讨论，看是否有真实使用场景和用户反馈。
+  market: ''
+  job: 让不同电脑上的 AI 代理协同工作。
+  job_en: Enable AI agents on different computers to work together.
+  pain: 当前缺乏标准化的跨设备代理通信机制，开发者需自行构建。
+  pain_en: Currently lacks standardized cross-device agent communication, forcing developers to build
+    custom solutions.
+  current_alternative: 开发者可能使用自定义网络协议或消息队列。
+  current_alternative_en: Developers may use custom network protocols or message queues.
+  usage_reason: 开源项目，可能吸引尝试分布式代理的开发者，但采用证据不足。
+  usage_reason_en: Open-source project may attract developers experimenting with distributed agents, but
+    adoption evidence is insufficient.

@@ -1,11 +1,11 @@
 ---
 slug: nvidia-in-talks-to-invest-in-perplexity-in-a-funding-round-r
-name: 'Nvidia in talks to invest in Perplexity in a funding round: report'
+name: Perplexity
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 据报道，Nvidia 正洽谈投资 Perplexity 的新一轮融资。
 inspiration: ''
-summary_en: ''
+summary_en: Nvidia is reportedly in talks to invest in Perplexity's funding round.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNVWtkNkEwWGlD
 summary: 'Nvidia in talks to invest in Perplexity in a funding round: report The Daily Star'
 first_seen: '2026-08-28T20:13:59Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia in talks to invest in Perplexity in a funding round: report
+# Perplexity
 
 Nvidia in talks to invest in Perplexity in a funding round: report The Daily Star
 

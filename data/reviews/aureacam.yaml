@@ -1,0 +1,78 @@
+- id: req-initial-aureacam-2026-08-29
+  project_slug: aureacam
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决摄影新手在拍摄现场缺乏即时构图反馈的痛点，旧替代是事后分析或请教他人，反馈滞后。工作流结构判断：实时评分能直接改善学习体验。
+    evidence_ids:
+    - ev-ddd5f7010ff79364
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句宣传语，没有用户评价、采用数据或社区讨论，无法判断共识强度。
+    evidence_ids:
+    - ev-ddd5f7010ff79364
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是 to C 订阅或免费工具，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露评分算法的准确性和教学效果，需要验证是否真正提升用户技能。
+    evidence_ids: []
+  next_validation: 关注 AureaCam 的官方页面或应用商店，看是否披露用户评价、定价和教学效果数据。
+  market: ''
+  job: 摄影学习者希望在拍摄时获得即时构图反馈，以掌握三分法等基础构图规则。
+  job_en: Photography learners want immediate composition feedback while shooting to master basic rules
+    like the rule of thirds.
+  pain: 传统学习方式需要事后分析照片或依赖老师点评，反馈滞后，难以在拍摄现场调整。
+  pain_en: Traditional learning requires post-hoc analysis or instructor feedback, which is delayed and
+    doesn't allow real-time adjustment.
+  current_alternative: 替代方式是事后用修图软件查看网格线，或请教有经验的摄影师。
+  current_alternative_en: Alternatives include checking gridlines in post-processing software or consulting
+    experienced photographers.
+  usage_reason: 实时评分提供了即时反馈，降低了学习门槛，可能吸引摄影新手尝试。
+  usage_reason_en: Real-time scoring provides immediate feedback, lowering the learning barrier and potentially
+    attracting beginners.
+- id: req-full-aureacam-2026-08-29
+  project_slug: aureacam
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决摄影新手在拍摄现场缺乏即时构图反馈的痛点，旧替代是事后分析或请教他人，反馈滞后。工作流结构判断：实时评分能直接改善学习体验。
+    evidence_ids:
+    - ev-ddd5f7010ff79364
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句宣传语，没有用户评价、采用数据或社区讨论，无法判断共识强度。
+    evidence_ids:
+    - ev-ddd5f7010ff79364
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是 to C 订阅或免费工具，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露评分算法的准确性和教学效果，需要验证是否真正提升用户技能。
+    evidence_ids: []
+  next_validation: 关注 AureaCam 的官方页面或应用商店，看是否披露用户评价、定价和教学效果数据。
+  market: ''
+  job: 摄影学习者希望在拍摄时获得即时构图反馈，以掌握三分法等基础构图规则。
+  job_en: Photography learners want immediate composition feedback while shooting to master basic rules
+    like the rule of thirds.
+  pain: 传统学习方式需要事后分析照片或依赖老师点评，反馈滞后，难以在拍摄现场调整。
+  pain_en: Traditional learning requires post-hoc analysis or instructor feedback, which is delayed and
+    doesn't allow real-time adjustment.
+  current_alternative: 替代方式是事后用修图软件查看网格线，或请教有经验的摄影师。
+  current_alternative_en: Alternatives include checking gridlines in post-processing software or consulting
+    experienced photographers.
+  usage_reason: 实时评分提供了即时反馈，降低了学习门槛，可能吸引摄影新手尝试。
+  usage_reason_en: Real-time scoring provides immediate feedback, lowering the learning barrier and potentially
+    attracting beginners.

@@ -339,3 +339,44 @@
   usage_reason: 公开代码仓库有 207 个收藏、45 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 207 stars and 45 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-mixamo-llm-mocap-2026-08-29
+  project_slug: mixamo-llm-mocap
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频转 Mixamo 动画的需求，痛点在于传统动捕成本高、手动制作耗时，交付是自动生成的动画，可确定。工作流结构推理。
+    evidence_ids:
+    - ev-9525e2b8388c60be
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 213 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-9525e2b8388c60be
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或游戏公司，但付费路径不明确。
+    evidence_ids:
+    - ev-9525e2b8388c60be
+  - gate: truth
+    status: supported
+    reason: 作为开源工具，交付确定性高，但生成质量可能不稳定。
+    evidence_ids:
+    - ev-9525e2b8388c60be
+  next_validation: 追踪 mixamo-llm-mocap 仓库的 issue 和 discussion，确认用户实际使用场景和替代的旧流程。
+  market: ''
+  job: 动画师、游戏开发者需要将视频转换为 Mixamo 骨骼动画，用于游戏或动画制作。
+  job_en: Animators and game developers need to convert videos into Mixamo-rigged animations for game
+    or animation production.
+  pain: 传统动作捕捉设备昂贵且流程复杂，手动制作动画耗时，不解决会限制中小团队快速生成动画。
+  pain_en: Traditional motion capture equipment is expensive and complex; manual animation is time-consuming,
+    limiting small teams' ability to generate animations quickly.
+  current_alternative: 目前可能使用专业动捕设备或手动关键帧动画，但成本高或效率低。
+  current_alternative_en: Currently may use professional motion capture or manual keyframe animation,
+    which is costly or inefficient.
+  usage_reason: 公开仓库有 213 星，显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 213 stars, showing developer attention, but repeat use and
+    payment are not yet verified.

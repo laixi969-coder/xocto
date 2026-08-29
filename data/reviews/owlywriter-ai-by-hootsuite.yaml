@@ -77,3 +77,43 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Social teams use Wisdom inside Hootsuite
     to identify trends from live social conversations, draft on-brand posts, and assemble campaigns and
     content calendars. The exact adoption motive and repeat use are not yet verified.'
+- id: req-full-owlywriter-ai-by-hootsuite-2026-08-29
+  project_slug: owlywriter-ai-by-hootsuite
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社媒团队持续产出内容的痛点，官方调查显示创意枯竭是最大挑战，产品形成从趋势识别到起草排期的闭环。
+    evidence_ids:
+    - ev-wisdom-content-ideation-pain
+    - ev-wisdom-current-official
+  - gate: consensus
+    status: insufficient
+    reason: Wisdom 已嵌入社媒监测、写作和排期工作流；这是基于产品结构的采用动机判断，产品级持续使用情况未单独披露。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 它随 Hootsuite 工作流交付，付费路径来自主平台订阅；Wisdom 对购买、续费或客单价的独立贡献未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成帖子、活动和日历是可检查交付，但品牌准确性、事实性与最终发布仍需人工审核，公开材料没有功能级结果数据。
+    evidence_ids: []
+  next_validation: 追踪 Hootsuite 官方客户案例、产品更新或财报，寻找 Wisdom 功能级采用、重复使用或客户结果。
+  market: ''
+  job: 社媒团队要持续把实时受众讨论转成符合品牌语气、可跨渠道发布并能进入排期的内容。
+  job_en: Social teams need to turn live audience conversations into on-brand, cross-channel content that
+    is ready to schedule.
+  pain: 创意枯竭会让内容生产停顿；逐个平台研究趋势、起草不同版本并整理日历，又带来高频重复劳动。
+  pain_en: Creative block stalls publishing, while researching trends, drafting channel variants, and
+    assembling calendars creates recurring manual work.
+  current_alternative: 运营人员手动浏览社交对话和历史内容，开会想选题，为各渠道分别写稿，再回到 Hootsuite 排期。
+  current_alternative_en: Operators manually scan conversations and past posts, brainstorm topics, draft
+    each channel version, then return to Hootsuite to schedule.
+  usage_reason: Wisdom 直接位于已有的监测、写作与排期环境，并使用社交趋势和品牌上下文；因此可减少在通用写作工具与 Hootsuite 之间切换。这是工作流结构判断，不是使用率数据。
+  usage_reason_en: Wisdom sits inside the monitoring, writing, and scheduling environment and uses social
+    and brand context, reducing switches to a generic writer. This is workflow reasoning, not usage-rate
+    data.

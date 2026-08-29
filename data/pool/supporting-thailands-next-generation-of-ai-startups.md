@@ -1,11 +1,12 @@
 ---
 slug: supporting-thailands-next-generation-of-ai-startups
-name: Supporting Thailand’s next generation of AI startups
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 与泰国 MHESI 合作，为 10 家健康、保健和教育初创公司提供为期八周的加速器，帮助它们将 AI 原型转化为可信赖的产品。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI partnered with Thailand's MHESI to run an eight-week accelerator for 10 health, wellness,
+  and education startups, helping them turn AI prototypes into trusted products.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 
   education startups turn AI prototypes into trusted products.
 first_seen: '2026-08-28T02:00:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - newssearch
@@ -39,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# Supporting Thailand’s next generation of AI startups
+# OpenAI
 
 OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.
 

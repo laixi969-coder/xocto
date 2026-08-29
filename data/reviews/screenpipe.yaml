@@ -1,0 +1,82 @@
+- id: req-initial-screenpipe-2026-08-29
+  project_slug: screenpipe
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理缺乏上下文的问题，通过持续记录屏幕和操作，提供结构化工作日志，使代理能更准确地执行任务。工作流结构判断：旧方式是手动提供上下文，效率低且不完整。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品描述，缺乏用户评价或采用数据。社区讨论可能提供线索，但尚未核验。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，无法判断付费方。可能面向开发者或企业，但缺乏证据。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实运行并产生价值尚未验证，需要更多用户反馈或实际使用数据。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  next_validation: 关注开源仓库的 issue 和讨论，以及用户在实际工作流中的反馈。
+  market: ''
+  job: 用户希望 AI 代理能理解其工作上下文，从而自动执行任务或提供辅助。
+  job_en: Users want AI agents to understand their work context to autonomously perform tasks or provide
+    assistance.
+  pain: AI 代理缺乏对用户工作环境的了解，导致自动化不准确或需要大量手动配置。
+  pain_en: AI agents lack awareness of the user's work environment, leading to inaccurate automation or
+    extensive manual configuration.
+  current_alternative: 目前用户手动提供上下文，或使用简单的屏幕截图工具，但缺乏持续、结构化的记录。
+  current_alternative_en: Currently, users manually provide context or use simple screenshot tools, but
+    lack continuous, structured recording.
+  usage_reason: 开发者关注它，因为它为 AI 代理提供真实工作数据，可能提升自动化效果。
+  usage_reason_en: Developers are interested because it provides real work data to AI agents, potentially
+    improving automation.
+- id: req-full-screenpipe-2026-08-29
+  project_slug: screenpipe
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理缺乏上下文的问题，通过持续记录屏幕和操作，提供结构化工作日志，使代理能更准确地执行任务。工作流结构判断：旧方式是手动提供上下文，效率低且不完整。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品描述，缺乏用户评价或采用数据。社区讨论可能提供线索，但尚未核验。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，无法判断付费方。可能面向开发者或企业，但缺乏证据。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实运行并产生价值尚未验证，需要更多用户反馈或实际使用数据。
+    evidence_ids:
+    - ev-566747f7824ffecd
+  next_validation: 关注开源仓库的 issue 和讨论，以及用户在实际工作流中的反馈。
+  market: ''
+  job: 用户希望 AI 代理能理解其工作上下文，从而自动执行任务或提供辅助。
+  job_en: Users want AI agents to understand their work context to autonomously perform tasks or provide
+    assistance.
+  pain: AI 代理缺乏对用户工作环境的了解，导致自动化不准确或需要大量手动配置。
+  pain_en: AI agents lack awareness of the user's work environment, leading to inaccurate automation or
+    extensive manual configuration.
+  current_alternative: 目前用户手动提供上下文，或使用简单的屏幕截图工具，但缺乏持续、结构化的记录。
+  current_alternative_en: Currently, users manually provide context or use simple screenshot tools, but
+    lack continuous, structured recording.
+  usage_reason: 开发者关注它，因为它为 AI 代理提供真实工作数据，可能提升自动化效果。
+  usage_reason_en: Developers are interested because it provides real work data to AI agents, potentially
+    improving automation.

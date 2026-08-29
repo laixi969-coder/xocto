@@ -336,3 +336,42 @@
   usage_reason: 公开代码仓库有 93 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 93 stars and 12 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-jobflow-2026-08-29
+  project_slug: jobflow
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者管理求职流程的需求：接收职位信息、生成申请材料、跟踪申请状态，痛点刚性（求职流程繁琐、材料质量影响机会），交付可确定（生成材料、跟踪状态）。这是工作流结构推理，公开材料未提供用户评价或采用数据。
+    evidence_ids:
+    - ev-c9e8995682e7b427
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有 96 个收藏，说明社区注意到它，但缺乏用户评价、持续采用或付费证据，共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-c9e8995682e7b427
+  - gate: model
+    status: insufficient
+    reason: 谁付钱尚未核验：未见付费主体、定价或单位经济，可能面向 to C，但这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据，如部署文档或实际使用案例。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 求职者需要管理求职流程，包括接收职位信息、生成申请材料、跟踪申请状态。
+  job_en: Job seekers need to manage the job application process, including receiving job information,
+    generating application materials, and tracking application status.
+  pain: 求职流程繁琐，申请材料质量参差不齐，缺乏系统化管理。
+  pain_en: The job application process is cumbersome, application materials vary in quality, and there
+    is a lack of systematic management.
+  current_alternative: 尚未核验：公开材料未说明用户当前如何完成这项工作，可能依赖手动管理或通用工具。
+  current_alternative_en: 'Not yet verified: public materials do not specify current methods, possibly
+    manual management or general tools.'
+  usage_reason: 公开代码仓库有 96 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The public repository has 96 stars, showing developer attention; repeat use and payment
+    are not yet verified.

@@ -271,3 +271,43 @@
   usage_reason: 公开代码仓库有 54 个收藏、39 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 54 stars and 39 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-anvilwiki-2026-08-29
+  project_slug: anvilwiki
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏社区管理员或内容创作者搭建攻略百科的需求，痛点在于手工维护静态站点耗时且易出错；产品以静态模板加 AI 内容工作流提供可确定的交付，结构上成立。
+    evidence_ids:
+    - ev-969abb114b8dd455
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 54 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-969abb114b8dd455
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 游戏社区管理员或内容创作者需要搭建并维护游戏攻略百科，将结构化条目发布为静态页面。
+  job_en: Game community managers or content creators need to build and maintain game wikis, publishing
+    structured entries as static pages.
+  pain: 公开材料未说明不解决的代价、频率或后果；但手工搭建和维护静态百科耗时且易出错，AI 辅助可减少重复劳动。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
+    however, manually building and maintaining static wikis is time-consuming and error-prone, and AI
+    assistance can reduce repetitive work.
+  current_alternative: 公开材料未说明当前替代方式；常见替代是使用通用 CMS 或手工编写 HTML。
+  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
+    generic CMS or hand-written HTML.
+  usage_reason: 仓库有 54 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The repository has 54 stars, indicating developer attention or trial; sustained use
+    and payment are not yet verified.

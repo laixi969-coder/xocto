@@ -1,6 +1,6 @@
 ---
 slug: 40-agentic-ai-use-cases-with-real-life-examples
-name: 40+ Agentic AI Use Cases with Real-life Examples
+name: AIMultiple
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tZ3ZlYWRiTjIt
 summary: 40+ Agentic AI Use Cases with Real-life Examples AIMultiple
 first_seen: '2026-08-26T07:00:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 40+ Agentic AI Use Cases with Real-life Examples
+# AIMultiple
 
 40+ Agentic AI Use Cases with Real-life Examples AIMultiple
 

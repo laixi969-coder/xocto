@@ -1,0 +1,80 @@
+- id: req-initial-revlab-2026-08-29
+  project_slug: revlab
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决恶意软件分析流程繁琐、工具分散的痛点，提供整合平台和可复用流水线，交付分析结果。工作流结构判断。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区关注度有限，社区讨论不足，共识尚未形成。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费路径不明确。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  - gate: truth
+    status: insufficient
+    reason: 功能描述全面，但实际分析准确性和交付确定性未验证。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有安全团队采用。
+  market: ''
+  job: 安全研究员需要分析恶意 Windows PE 文件，理解其行为。
+  job_en: Security researchers need to analyze malicious Windows PE files to understand their behavior.
+  pain: 传统逆向分析依赖多种工具和手工操作，流程繁琐且难以复用。
+  pain_en: Traditional reverse engineering relies on multiple tools and manual steps, which is tedious
+    and hard to reuse.
+  current_alternative: 目前研究员通常使用 IDA、x64dbg 等工具手动分析，或编写一次性脚本。
+  current_alternative_en: Researchers currently use tools like IDA and x64dbg manually, or write one-off
+    scripts.
+  usage_reason: REVLab 整合多种分析功能并支持流水线复用，能提高分析效率和一致性。
+  usage_reason_en: REVLab integrates multiple analysis functions and supports pipeline reuse, improving
+    efficiency and consistency.
+- id: req-full-revlab-2026-08-29
+  project_slug: revlab
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决恶意软件分析流程繁琐、工具分散的痛点，提供整合平台和可复用流水线，交付分析结果。工作流结构判断。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区关注度有限，社区讨论不足，共识尚未形成。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费路径不明确。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  - gate: truth
+    status: insufficient
+    reason: 功能描述全面，但实际分析准确性和交付确定性未验证。
+    evidence_ids:
+    - ev-64ffd481189daaae
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有安全团队采用。
+  market: ''
+  job: 安全研究员需要分析恶意 Windows PE 文件，理解其行为。
+  job_en: Security researchers need to analyze malicious Windows PE files to understand their behavior.
+  pain: 传统逆向分析依赖多种工具和手工操作，流程繁琐且难以复用。
+  pain_en: Traditional reverse engineering relies on multiple tools and manual steps, which is tedious
+    and hard to reuse.
+  current_alternative: 目前研究员通常使用 IDA、x64dbg 等工具手动分析，或编写一次性脚本。
+  current_alternative_en: Researchers currently use tools like IDA and x64dbg manually, or write one-off
+    scripts.
+  usage_reason: REVLab 整合多种分析功能并支持流水线复用，能提高分析效率和一致性。
+  usage_reason_en: REVLab integrates multiple analysis functions and supports pipeline reuse, improving
+    efficiency and consistency.

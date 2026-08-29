@@ -1,0 +1,71 @@
+- id: req-initial-汤道生谈腾讯ai产品路线workbuddy源于自由探索-2026-08-29
+  project_slug: 汤道生谈腾讯ai产品路线workbuddy源于自由探索
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及产品名称和来源，未说明解决什么具体任务、痛点或交付物，无法形成工作流结构判断。
+    evidence_ids:
+    - ev-0a7c9c31ff61c272
+  - gate: consensus
+    status: insufficient
+    reason: 无用户采用、社区讨论或第三方评价，仅有高管访谈，共识证据缺失。
+    evidence_ids:
+    - ev-0a7c9c31ff61c272
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或商业模式，无法判断钱从哪来。
+    evidence_ids:
+    - ev-0a7c9c31ff61c272
+  - gate: truth
+    status: insufficient
+    reason: 无交付结果或实际使用证据，无法验证产品是否贴近第一性目标。
+    evidence_ids:
+    - ev-0a7c9c31ff61c272
+  next_validation: 关注腾讯官方产品页面或文档，获取WorkBuddy的功能说明、定价和客户案例。
+  market: ''
+  job: 企业员工需要完成日常工作任务，但具体任务类型未明确。
+  job_en: Enterprise employees need to complete daily work tasks, but specific task types are not specified.
+  pain: 未明确具体痛点，缺乏用户反馈或工作流描述。
+  pain_en: Specific pain points are not identified, lacking user feedback or workflow descriptions.
+  current_alternative: 未披露，可能依赖现有办公软件或人工流程。
+  current_alternative_en: Not disclosed; may rely on existing office software or manual processes.
+  usage_reason: 尚未核验，仅因腾讯品牌和高管访谈引起关注。
+  usage_reason_en: Not yet verified; attention is due to Tencent's brand and executive interviews.
+- id: req-full-汤道生谈腾讯ai产品路线workbuddy源于自由探索-2026-08-29
+  project_slug: 汤道生谈腾讯ai产品路线workbuddy源于自由探索
+  level: full
+  reviewed_at: '2026-08-29T12:41:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及产品名称和来源，未说明解决什么具体任务、痛点或交付物，无法形成工作流结构判断。
+    evidence_ids:
+    - ev-0a7c9c31ff61c272
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注腾讯官方产品页面或文档，获取WorkBuddy的功能说明、定价和客户案例。
+  market: ''
+  job: 企业员工需要完成日常工作任务，但具体任务类型未明确。
+  job_en: Enterprise employees need to complete daily work tasks, but specific task types are not specified.
+  pain: 未明确具体痛点，缺乏用户反馈或工作流描述。
+  pain_en: Specific pain points are not identified, lacking user feedback or workflow descriptions.
+  current_alternative: 未披露，可能依赖现有办公软件或人工流程。
+  current_alternative_en: Not disclosed; may rely on existing office software or manual processes.
+  usage_reason: 尚未核验，仅因腾讯品牌和高管访谈引起关注。
+  usage_reason_en: Not yet verified; attention is due to Tencent's brand and executive interviews.

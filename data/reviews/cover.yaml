@@ -75,3 +75,83 @@
   usage_reason: 公开代码仓库有 41 个收藏、4 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 41 stars and 4 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-cover-2026-08-29
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理数据隐私问题，通过可逆代理发送假数据并恢复原始数据，交付隐私保护的交互。工作流结构判断：旧流程是数据脱敏或缺失保护，此方案提供可逆方案。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星数显示关注，但缺乏用户评价或采用案例。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源工具免费使用，但企业付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近隐私保护的第一性目标，交付的隐私保护可验证，但需关注性能开销。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。
+  market: ''
+  job: AI 工程师在开发 AI 代理时，需要保护用户数据隐私，防止敏感信息泄露给外部服务。
+  job_en: AI engineers need to protect user data privacy when developing AI agents, preventing sensitive
+    information from leaking to external services.
+  pain: AI 代理与外部服务交互时可能泄露敏感数据，缺乏有效的隐私保护机制。
+  pain_en: AI agents may leak sensitive data when interacting with external services, lacking effective
+    privacy protection.
+  current_alternative: 目前可能依赖数据脱敏或人工审查，但缺乏可逆的隐私保护方案。
+  current_alternative_en: Currently relies on data masking or manual review, lacking reversible privacy
+    protection.
+  usage_reason: 开源社区 41 星显示初步关注，但尚未核验实际采用。
+  usage_reason_en: 41 stars in the open-source community show initial interest, but actual adoption is
+    not yet verified.
+- id: req-full-cover-2026-08-29
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理数据隐私问题，通过可逆代理发送假数据并恢复原始数据，交付隐私保护的交互。工作流结构判断：旧流程是数据脱敏或缺失保护，此方案提供可逆方案。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星数显示关注，但缺乏用户评价或采用案例。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源工具免费使用，但企业付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近隐私保护的第一性目标，交付的隐私保护可验证，但需关注性能开销。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。
+  market: ''
+  job: AI 工程师在开发 AI 代理时，需要保护用户数据隐私，防止敏感信息泄露给外部服务。
+  job_en: AI engineers need to protect user data privacy when developing AI agents, preventing sensitive
+    information from leaking to external services.
+  pain: AI 代理与外部服务交互时可能泄露敏感数据，缺乏有效的隐私保护机制。
+  pain_en: AI agents may leak sensitive data when interacting with external services, lacking effective
+    privacy protection.
+  current_alternative: 目前可能依赖数据脱敏或人工审查，但缺乏可逆的隐私保护方案。
+  current_alternative_en: Currently relies on data masking or manual review, lacking reversible privacy
+    protection.
+  usage_reason: 开源社区 41 星显示初步关注，但尚未核验实际采用。
+  usage_reason_en: 41 stars in the open-source community show initial interest, but actual adoption is
+    not yet verified.

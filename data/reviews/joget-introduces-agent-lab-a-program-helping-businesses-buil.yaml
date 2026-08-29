@@ -1,0 +1,74 @@
+- id: req-initial-joget-introduces-agent-lab-a-program-helping-businesses-buil-2026-08-29
+  project_slug: joget-introduces-agent-lab-a-program-helping-businesses-buil
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决业务人员构建 AI 代理的需求，但具体痛点、交付和用户场景未在公开材料中明确。
+    evidence_ids:
+    - ev-e54ffe80ac130afd
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Joget 官网和产品文档，以及用户评价和案例研究。
+  market: ''
+  job: 业务人员需要构建 AI 代理来自动化工作流程，但缺乏编程技能。
+  job_en: Business users need to build AI agents to automate workflows but lack programming skills.
+  pain: 传统 AI 开发需要专业团队，周期长、成本高，业务人员难以参与。
+  pain_en: Traditional AI development requires specialized teams, is time-consuming and costly, and business
+    users find it hard to participate.
+  current_alternative: 当前替代包括聘请开发人员、使用通用自动化工具或外包。
+  current_alternative_en: Current alternatives include hiring developers, using general automation tools,
+    or outsourcing.
+  usage_reason: 尚未核验，但无代码 AI 代理构建工具可能因降低门槛而受到关注。
+  usage_reason_en: Not yet verified, but no-code AI agent builders may gain attention for lowering the
+    barrier.
+- id: req-full-joget-introduces-agent-lab-a-program-helping-businesses-buil-2026-08-29
+  project_slug: joget-introduces-agent-lab-a-program-helping-businesses-buil
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决业务人员构建 AI 代理的需求，但具体痛点、交付和用户场景未在公开材料中明确，无法判断价值结构。
+    evidence_ids:
+    - ev-e54ffe80ac130afd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Joget 官网和产品文档，以及用户评价和案例研究。
+  market: ''
+  job: 业务人员需要构建 AI 代理来自动化工作流程，但缺乏编程技能。
+  job_en: Business users need to build AI agents to automate workflows but lack programming skills.
+  pain: 传统 AI 开发需要专业团队，周期长、成本高，业务人员难以参与。
+  pain_en: Traditional AI development requires specialized teams, is time-consuming and costly, and business
+    users find it hard to participate.
+  current_alternative: 当前替代包括聘请开发人员、使用通用自动化工具或外包。
+  current_alternative_en: Current alternatives include hiring developers, using general automation tools,
+    or outsourcing.
+  usage_reason: 尚未核验，但无代码 AI 代理构建工具可能因降低门槛而受到关注。
+  usage_reason_en: Not yet verified, but no-code AI agent builders may gain attention for lowering the
+    barrier.

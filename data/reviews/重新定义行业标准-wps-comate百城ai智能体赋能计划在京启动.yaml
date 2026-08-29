@@ -1,0 +1,74 @@
+- id: req-initial-重新定义行业标准-wps-comate百城ai智能体赋能计划在京启动-2026-08-29
+  project_slug: 重新定义行业标准-wps-comate百城ai智能体赋能计划在京启动
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 办公任务明确，AI能接收文档等输入并执行动作，交付可核对；工作流结构判断成立。
+    evidence_ids:
+    - ev-76840fa0d07f2e5a
+  - gate: consensus
+    status: insufficient
+    reason: 计划启动是信号，但缺乏用户采用和留存数据。
+    evidence_ids:
+    - ev-76840fa0d07f2e5a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是生态推广阶段，商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体功能细节和交付质量，需进一步验证是否真正解决办公痛点。
+    evidence_ids: []
+  next_validation: 关注WPS官方产品页面或更新日志，获取Comate的功能列表、定价和用户反馈。
+  market: ''
+  job: 办公人员需要高效处理文档、表格和演示文稿，提升办公效率。
+  job_en: Office workers need to efficiently handle documents, spreadsheets, and presentations to improve
+    productivity.
+  pain: 办公任务繁琐耗时，但具体痛点强度未量化。
+  pain_en: Office tasks are tedious and time-consuming, but pain intensity is not quantified.
+  current_alternative: 目前可能使用WPS传统功能或人工处理，但未披露具体替代方式。
+  current_alternative_en: Currently may use traditional WPS features or manual processing, but specific
+    alternatives are undisclosed.
+  usage_reason: WPS用户基数大，智能体可能吸引关注，但实际采用和效果未核验。
+  usage_reason_en: WPS's large user base may attract attention, but actual adoption and effects are unverified.
+- id: req-full-重新定义行业标准-wps-comate百城ai智能体赋能计划在京启动-2026-08-29
+  project_slug: 重新定义行业标准-wps-comate百城ai智能体赋能计划在京启动
+  level: full
+  reviewed_at: '2026-08-29T12:41:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公场景中重复性、流程性任务的效率问题，痛点明确，交付可确定（生成文档、纪要等）。工作流结构判断：替代人工手动整理和跨系统操作。
+    evidence_ids:
+    - ev-76840fa0d07f2e5a
+  - gate: consensus
+    status: insufficient
+    reason: 计划启动是信号，但缺乏用户采用和留存数据。
+    evidence_ids:
+    - ev-76840fa0d07f2e5a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是生态推广阶段，商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体功能细节和交付质量，需进一步验证是否真正解决办公痛点。
+    evidence_ids: []
+  next_validation: 关注WPS官方产品页面或更新日志，获取Comate的功能列表、定价和用户反馈。
+  market: ''
+  job: 办公人员需要高效处理文档、表格和演示文稿，提升办公效率。
+  job_en: Office workers need to efficiently handle documents, spreadsheets, and presentations to improve
+    productivity.
+  pain: 办公任务繁琐耗时，但具体痛点强度未量化。
+  pain_en: Office tasks are tedious and time-consuming, but pain intensity is not quantified.
+  current_alternative: 目前可能使用WPS传统功能或人工处理，但未披露具体替代方式。
+  current_alternative_en: Currently may use traditional WPS features or manual processing, but specific
+    alternatives are undisclosed.
+  usage_reason: WPS用户基数大，智能体可能吸引关注，但实际采用和效果未核验。
+  usage_reason_en: WPS's large user base may attract attention, but actual adoption and effects are unverified.

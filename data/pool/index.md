@@ -1,27 +1,34 @@
 ---
 slug: index
-name: index
+name: Mintlify Index
 builder: mintlify
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: Mintlify Index 是一个检索引擎和 MCP 服务器，用于帮助 AI 代理检索文档。具体工作流程和交付物尚未披露。
+inspiration: AI 代理需要更好的文档检索能力，但具体应用场景需进一步验证。
+summary_en: Mintlify Index is a retrieval engine and MCP server to help AI agents retrieve documentation.
+  Specific workflows and deliverables are not yet disclosed.
+inspiration_en: AI agents need better documentation retrieval, but specific use cases need further validation.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: new_application
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+jobs_en:
+- Developers
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://index.mintlify.com
 canonical_url: https://index.mintlify.com
 summary: 'Mintlify Index: retrieval engine and MCP server. Install: npx mint index'
 first_seen: '2026-08-05T22:27:42Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:
@@ -41,7 +48,7 @@ sightings:
   kind: news
 ---
 
-# index
+# Mintlify Index
 
 Mintlify Index: retrieval engine and MCP server. Install: npx mint index
 

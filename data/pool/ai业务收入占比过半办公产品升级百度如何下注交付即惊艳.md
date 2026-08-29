@@ -1,11 +1,13 @@
 ---
 slug: ai业务收入占比过半办公产品升级百度如何下注交付即惊艳
-name: AI业务收入占比过半，办公产品升级，百度如何下注“交付即惊艳”
+name: 百度
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 百度AI业务收入占比过半，办公产品升级，强调“交付即惊艳”。这是百度整体业务的结构性变化，涉及多个产品线，不构成单一独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Baidu's AI business revenue accounts for over half, office products upgraded, emphasizing
+  'delivery that impresses'. This is a structural change across Baidu's business lines, not a single independent
+  product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE1EWGZqUE9lUWdJ
 summary: AI业务收入占比过半，办公产品升级，百度如何下注“交付即惊艳” 新浪网
 first_seen: '2026-08-28T14:55:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AI业务收入占比过半，办公产品升级，百度如何下注“交付即惊艳”
+# 百度
 
 AI业务收入占比过半，办公产品升级，百度如何下注“交付即惊艳” 新浪网
 

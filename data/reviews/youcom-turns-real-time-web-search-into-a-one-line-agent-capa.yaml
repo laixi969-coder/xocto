@@ -1,0 +1,82 @@
+- id: req-initial-youcom-turns-real-time-web-search-into-a-one-line-agent-capa-2026-08-29
+  project_slug: youcom-turns-real-time-web-search-into-a-one-line-agent-capa
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建实时信息 agent 的痛点，替代手动爬虫或复杂 API 集成，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  - gate: consensus
+    status: insufficient
+    reason: 有行业分析报道，但缺乏开发者采用或社区讨论的公开证据。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或企业，但付费路径未公开。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  - gate: truth
+    status: supported
+    reason: 实时搜索是明确需求，产品提供简单集成，交付确定性高，符合第一性目标。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  next_validation: 关注 You.com 官方定价页和开发者文档，以及开发者社区的集成案例。
+  market: ''
+  job: 开发者需要让 AI 代理获取实时网络信息，以完成需要最新数据的任务。
+  job_en: Developers need AI agents to access real-time web information to complete tasks requiring up-to-date
+    data.
+  pain: 传统搜索 API 集成复杂，且 AI 代理常因缺乏实时数据而给出过时答案。
+  pain_en: Traditional search APIs are complex to integrate, and AI agents often provide outdated answers
+    due to lack of real-time data.
+  current_alternative: 开发者可能自行构建爬虫或使用通用搜索 API，但维护成本高且响应不及时。
+  current_alternative_en: Developers may build custom scrapers or use general search APIs, but these are
+    costly to maintain and not real-time.
+  usage_reason: You.com 提供简单的一行集成，降低开发门槛，且实时搜索能力直接解决 agent 的信息时效问题。
+  usage_reason_en: You.com offers simple one-line integration, lowering development barriers, and real-time
+    search directly addresses the information freshness problem for agents.
+- id: req-full-youcom-turns-real-time-web-search-into-a-one-line-agent-capa-2026-08-29
+  project_slug: youcom-turns-real-time-web-search-into-a-one-line-agent-capa
+  level: full
+  reviewed_at: '2026-08-29T12:40:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建实时信息 agent 的痛点，替代手动爬虫或复杂 API 集成，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  - gate: consensus
+    status: insufficient
+    reason: 有行业分析报道，但缺乏开发者采用或社区讨论的公开证据。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或企业，但付费路径未公开。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  - gate: truth
+    status: supported
+    reason: 实时搜索是明确需求，产品提供简单集成，交付确定性高，符合第一性目标。
+    evidence_ids:
+    - ev-387c400ef75bc2af
+  next_validation: 关注 You.com 官方定价页和开发者文档，以及开发者社区的集成案例。
+  market: ''
+  job: 开发者需要让 AI 代理获取实时网络信息，以完成需要最新数据的任务。
+  job_en: Developers need AI agents to access real-time web information to complete tasks requiring up-to-date
+    data.
+  pain: 传统搜索 API 集成复杂，且 AI 代理常因缺乏实时数据而给出过时答案。
+  pain_en: Traditional search APIs are complex to integrate, and AI agents often provide outdated answers
+    due to lack of real-time data.
+  current_alternative: 开发者可能自行构建爬虫或使用通用搜索 API，但维护成本高且响应不及时。
+  current_alternative_en: Developers may build custom scrapers or use general search APIs, but these are
+    costly to maintain and not real-time.
+  usage_reason: You.com 提供简单的一行集成，降低开发门槛，且实时搜索能力直接解决 agent 的信息时效问题。
+  usage_reason_en: You.com offers simple one-line integration, lowering development barriers, and real-time
+    search directly addresses the information freshness problem for agents.

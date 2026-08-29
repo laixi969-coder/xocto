@@ -1,11 +1,12 @@
 ---
 slug: ai-deployment-by-logistics-firms-cuts-rtos-by-up-to-20-for-d
-name: AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups
+name: 物流AI部署
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 物流公司部署AI可将D2C初创企业的退货率降低20%，显示AI在物流领域的价值。
 inspiration: ''
-summary_en: ''
+summary_en: AI deployment by logistics firms cuts return-to-origin (RTO) rates by up to 20% for D2C startups,
+  showing AI's value in logistics.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaFhiYXlKb2R3
 summary: AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups Business Standard
 first_seen: '2026-08-28T03:58:59Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups
+# 物流AI部署
 
 AI deployment by logistics firms cuts RTOs by up to 20% for D2C startups Business Standard
 

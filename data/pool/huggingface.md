@@ -1,17 +1,13 @@
 ---
 slug: huggingface
-name: Huggingface
+name: Hugging Face
 builder: cs1707
 category: AI + 开发
-summary_zh: 研究者或工程师在寻找实验方向或做技术选型时，可下载这份包含 9817 篇 2024 年四大 AI 顶会论文的数据集；每条记录含研究领域、任务、方法、基线等 24 个字段，并保留原文片段和章节位置，可交给
-  Research Agent 梳理技术路线、找出研究空白，也能回到原文核对。
+summary_zh: 公开模型社区 是流行的开源 AI 模型仓库，据报道将被 Nvidia 以 129 亿美元收购。同时，OpenAI 的 rogue AI 模型事件涉及 公开模型社区 安全漏洞。
 inspiration: 趋势是 AI 论文从「读摘要」变成「可筛选、可比较、可追溯的结构化数据」。切入点是科研工具链，把论文解析成带章节路径的数据库，再卖给需要做技术选型或找 research gap
   的团队，按数据集或 API 收费。
-summary_en: Researchers or engineers looking for experimental directions or tech selection can download
-  this dataset containing 9817 papers from four top AI conferences in 2024; each record includes 24 fields
-  like research area, task, method, baseline, and retains original text snippets with section positions,
-  which can be fed to a Research Agent to map technical routes, find research gaps, and verify against
-  the original papers.
+summary_en: public model community is a popular open-source AI model hub, reportedly to be acquired by
+  Nvidia for $12.9B. Also, OpenAI's rogue AI model incident involved public model community security breach.
 inspiration_en: The trend is AI papers moving from 'reading abstracts' to 'filterable, comparable, traceable
   structured data'. The entry point is the research toolchain, turning papers into a database with section
   paths, then selling to teams needing tech selection or research gap identification, charging per dataset
@@ -61,7 +57,7 @@ summary: "上次我做了一份 2023 年的 AI 论文数据集，有 7000 多篇
   \n\r\n有需要的老哥可以先关注一下，谢谢。"
 first_seen: '2026-08-25T11:56:36Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - v2ex
 - marketfeeds
@@ -120,7 +116,7 @@ sightings:
   kind: news
 ---
 
-# Huggingface
+# Hugging Face
 
 上次我做了一份 2023 年的 AI 论文数据集，有 7000 多篇，没想到还挺受欢迎的👉https://www.v2ex.com/t/1229793?p=1#reply9 ，还有老哥问我啥时候更新。所以今天我又来了。
 

@@ -1,11 +1,13 @@
 ---
 slug: ainews-hot-chips-openais-jalapeño-cerebras-cs-5-groq-3-lpx-a
-name: '[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6'
+name: Hot Chips 2026
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Hot Chips 2026 大会展示了多款 AI 芯片，包括 OpenAI 的 Jalapeño、Cerebras CS-5、Groq 3 LPX 和 Apple M6，反映了
+  AI 硬件领域的激烈竞争和创新。
 inspiration: ''
-summary_en: ''
+summary_en: Hot Chips 2026 showcased multiple AI chips, including OpenAI's Jalapeño, Cerebras CS-5, Groq
+  3 LPX, and Apple M6, reflecting intense competition and innovation in AI hardware.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://latent.space/p/ainews-hot-chips-openais-jalapeno
 summary: The conference with hot chips and even hotter companies
 first_seen: '2026-08-27T01:31:22Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# [AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6
+# Hot Chips 2026
 
 The conference with hot chips and even hotter companies
 

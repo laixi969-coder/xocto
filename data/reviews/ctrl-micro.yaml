@@ -1,0 +1,70 @@
+- id: req-initial-ctrl-micro-2026-08-29
+  project_slug: ctrl-micro
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述为触觉控制面板，但未说明具体解决什么任务、痛点或替代流程，交付不明确。
+    evidence_ids:
+    - ev-a0be94e1e83e6117
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注官方产品页是否补充具体使用场景、定价和用户案例。
+  market: ''
+  job: 用户需要一种更直观、物理的方式控制 Mac 和 AI 代理，减少对键盘和鼠标的依赖。
+  job_en: Users need a more intuitive, physical way to control Mac and AI agents, reducing reliance on
+    keyboard and mouse.
+  pain: 现有交互方式效率低，缺乏触觉反馈，操作复杂。
+  pain_en: Current interaction methods are inefficient, lack haptic feedback, and are complex.
+  current_alternative: 目前用户使用键盘、鼠标或触摸板，或通过语音助手。
+  current_alternative_en: Currently users use keyboard, mouse, or trackpad, or voice assistants.
+  usage_reason: 尚未核验，产品刚发布，缺乏用户采用证据。
+  usage_reason_en: Not yet verified; product just launched, no adoption evidence.
+- id: req-full-ctrl-micro-2026-08-29
+  project_slug: ctrl-micro
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述为触觉控制面板，但未说明具体解决什么任务、痛点或替代流程，交付不明确。
+    evidence_ids:
+    - ev-a0be94e1e83e6117
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注官方产品页是否补充具体使用场景、定价和用户案例。
+  market: ''
+  job: 用户需要一种更直观、物理的方式控制 Mac 和 AI 代理，减少对键盘和鼠标的依赖。
+  job_en: Users need a more intuitive, physical way to control Mac and AI agents, reducing reliance on
+    keyboard and mouse.
+  pain: 现有交互方式效率低，缺乏触觉反馈，操作复杂。
+  pain_en: Current interaction methods are inefficient, lack haptic feedback, and are complex.
+  current_alternative: 目前用户使用键盘、鼠标或触摸板，或通过语音助手。
+  current_alternative_en: Currently users use keyboard, mouse, or trackpad, or voice assistants.
+  usage_reason: 尚未核验，产品刚发布，缺乏用户采用证据。
+  usage_reason_en: Not yet verified; product just launched, no adoption evidence.

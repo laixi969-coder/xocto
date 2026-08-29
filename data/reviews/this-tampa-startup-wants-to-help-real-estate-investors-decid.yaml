@@ -1,0 +1,72 @@
+- id: req-initial-this-tampa-startup-wants-to-help-real-estate-investors-decid-2026-08-29
+  project_slug: this-tampa-startup-wants-to-help-real-estate-investors-decid
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明帮助房地产投资者决策，但未提供具体工作流、痛点或交付物，无法判断需求强度。
+    evidence_ids:
+    - ev-3c928f72bcfe0df4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注该公司官网或产品页面，获取具体功能、定价和客户案例。
+  market: ''
+  job: 房地产投资者需要评估潜在交易是否适合自己。
+  job_en: Real estate investors need to evaluate whether potential deals fit them.
+  pain: 投资者可能面临信息过载和决策不确定性，但具体痛点未披露。
+  pain_en: Investors may face information overload and decision uncertainty, but specific pain points
+    are not disclosed.
+  current_alternative: 目前投资者可能依赖人工分析或传统工具，但具体替代方式未披露。
+  current_alternative_en: Currently, investors may rely on manual analysis or traditional tools, but specific
+    alternatives are not disclosed.
+  usage_reason: 尚未核验，缺乏公开证据说明为何采用。
+  usage_reason_en: Not yet verified; lack of public evidence on why it would be adopted.
+- id: req-full-this-tampa-startup-wants-to-help-real-estate-investors-decid-2026-08-29
+  project_slug: this-tampa-startup-wants-to-help-real-estate-investors-decid
+  level: full
+  reviewed_at: '2026-08-29T12:39:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明帮助房地产投资者决策，但未提供具体工作流、痛点或交付物，无法判断需求强度。
+    evidence_ids:
+    - ev-3c928f72bcfe0df4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注该公司官网或产品页面，获取具体功能、定价和客户案例。
+  market: ''
+  job: 房地产投资者需要评估潜在交易是否适合自己。
+  job_en: Real estate investors need to evaluate whether potential deals fit them.
+  pain: 投资者可能面临信息过载和决策不确定性，但具体痛点未披露。
+  pain_en: Investors may face information overload and decision uncertainty, but specific pain points
+    are not disclosed.
+  current_alternative: 目前投资者可能依赖人工分析或传统工具，但具体替代方式未披露。
+  current_alternative_en: Currently, investors may rely on manual analysis or traditional tools, but specific
+    alternatives are not disclosed.
+  usage_reason: 尚未核验，缺乏公开证据说明为何采用。
+  usage_reason_en: Not yet verified; lack of public evidence on why it would be adopted.

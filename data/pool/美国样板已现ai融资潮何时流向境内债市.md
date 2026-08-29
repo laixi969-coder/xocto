@@ -1,11 +1,12 @@
 ---
 slug: 美国样板已现ai融资潮何时流向境内债市
-name: 美国样板已现，AI融资潮何时流向境内债市？
+name: AI融资潮
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 美国AI融资潮已现，讨论何时流向境内债市，反映AI投资热潮的全球扩散。
 inspiration: ''
-summary_en: ''
+summary_en: The US AI financing wave has emerged, discussing when it will flow into domestic bond markets,
+  reflecting the global spread of AI investment boom.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xUk1KWTJXaENm
 summary: 美国样板已现，AI融资潮何时流向境内债市？ 华尔街见闻
 first_seen: '2026-08-27T03:52:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 美国样板已现，AI融资潮何时流向境内债市？
+# AI融资潮
 
 美国样板已现，AI融资潮何时流向境内债市？ 华尔街见闻
 

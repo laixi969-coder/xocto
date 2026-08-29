@@ -1,0 +1,78 @@
+- id: req-initial-保险业加速拥抱ai-中国人寿已打造超500个智能体-2026-08-29
+  project_slug: 保险业加速拥抱ai-中国人寿已打造超500个智能体
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决保险业重复性工作痛点，替代人工处理，交付可核对的自动化结果，工作流结构判断成立。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  - gate: consensus
+    status: supported
+    reason: 中国人寿作为头部险企已部署超500个智能体，显示行业共识。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，但可能为内部自建或与科技公司合作，买方为保险公司。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  - gate: truth
+    status: supported
+    reason: 智能体在保险场景有明确交付，如理赔处理，且有人工审核边界。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  next_validation: 关注中国人寿官方公告或财报，获取智能体具体应用案例和效果数据。
+  market: ''
+  job: 保险公司需要处理大量理赔、核保、客服等重复性工作，提高效率和准确性。
+  job_en: Insurance companies need to handle repetitive tasks like claims, underwriting, and customer
+    service, improving efficiency and accuracy.
+  pain: 人工处理耗时且易出错，客户等待时间长。
+  pain_en: Manual processing is time-consuming and error-prone, leading to long customer wait times.
+  current_alternative: 传统方式依赖人工审核和客服。
+  current_alternative_en: Traditional approach relies on manual review and customer service.
+  usage_reason: 中国人寿已打造超500个智能体，表明大型险企在积极采用，可能因效率提升和成本降低。
+  usage_reason_en: China Life has built over 500 agents, indicating active adoption by large insurers,
+    likely due to efficiency gains and cost reduction.
+- id: req-full-保险业加速拥抱ai-中国人寿已打造超500个智能体-2026-08-29
+  project_slug: 保险业加速拥抱ai-中国人寿已打造超500个智能体
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决保险业重复性工作痛点，替代人工处理，交付可核对的自动化结果，工作流结构判断成立。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  - gate: consensus
+    status: supported
+    reason: 中国人寿作为头部险企已部署超500个智能体，显示行业共识。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，但可能为内部自建或与科技公司合作，买方为保险公司。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  - gate: truth
+    status: supported
+    reason: 智能体在保险场景有明确交付，如理赔处理，且有人工审核边界。
+    evidence_ids:
+    - ev-272cdea24535e7d3
+  next_validation: 关注中国人寿官方公告或财报，获取智能体具体应用案例和效果数据。
+  market: ''
+  job: 保险公司需要处理大量理赔、核保、客服等重复性工作，提高效率和准确性。
+  job_en: Insurance companies need to handle repetitive tasks like claims, underwriting, and customer
+    service, improving efficiency and accuracy.
+  pain: 人工处理耗时且易出错，客户等待时间长。
+  pain_en: Manual processing is time-consuming and error-prone, leading to long customer wait times.
+  current_alternative: 传统方式依赖人工审核和客服。
+  current_alternative_en: Traditional approach relies on manual review and customer service.
+  usage_reason: 中国人寿已打造超500个智能体，表明大型险企在积极采用，可能因效率提升和成本降低。
+  usage_reason_en: China Life has built over 500 agents, indicating active adoption by large insurers,
+    likely due to efficiency gains and cost reduction.

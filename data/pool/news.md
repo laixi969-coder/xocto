@@ -21,7 +21,7 @@ canonical_url: https://news.bgov.com/bloomberg-government-news/nvidia-starts-a-p
 summary: Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force
 first_seen: '2026-08-27T18:34:40Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

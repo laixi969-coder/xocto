@@ -1,0 +1,68 @@
+- id: req-initial-runable-hits-21m-to-bet-ai-agents-can-go-from-building-busin-2026-08-29
+  project_slug: runable-hits-21m-to-bet-ai-agents-can-go-from-building-busin
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 融资新闻未提供具体用户任务、痛点或交付细节，无法判断需求强度。
+    evidence_ids:
+    - ev-682151211c6ad2fd
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Runable 官网和产品文档，寻找具体工作流和客户案例。
+  market: ''
+  job: 创业者希望 AI 代理帮助其业务增长。
+  job_en: Entrepreneurs want AI agents to help grow their businesses.
+  pain: 尚未核验具体痛点。
+  pain_en: Specific pain points not yet verified.
+  current_alternative: 尚未核验。
+  current_alternative_en: Not yet verified.
+  usage_reason: 融资新闻引起关注，但产品细节和采用证据不足。
+  usage_reason_en: Funding news attracts attention, but product details and adoption evidence are insufficient.
+- id: req-full-runable-hits-21m-to-bet-ai-agents-can-go-from-building-busin-2026-08-29
+  project_slug: runable-hits-21m-to-bet-ai-agents-can-go-from-building-busin
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 融资新闻未提供具体用户任务、痛点或交付细节，无法判断需求强度。
+    evidence_ids:
+    - ev-682151211c6ad2fd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Runable 官网和产品文档，寻找具体工作流和客户案例。
+  market: ''
+  job: 创业者希望 AI 代理帮助其业务增长。
+  job_en: Entrepreneurs want AI agents to help grow their businesses.
+  pain: 尚未核验具体痛点。
+  pain_en: Specific pain points not yet verified.
+  current_alternative: 尚未核验。
+  current_alternative_en: Not yet verified.
+  usage_reason: 融资新闻引起关注，但产品细节和采用证据不足。
+  usage_reason_en: Funding news attracts attention, but product details and adoption evidence are insufficient.

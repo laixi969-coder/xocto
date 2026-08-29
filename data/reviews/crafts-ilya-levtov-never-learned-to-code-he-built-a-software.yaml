@@ -1,0 +1,72 @@
+- id: req-initial-crafts-ilya-levtov-never-learned-to-code-he-built-a-software-2026-08-29
+  project_slug: crafts-ilya-levtov-never-learned-to-code-he-built-a-software
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及创始人背景和融资，未披露产品功能、用户案例或工作流程，无法判断需求。
+    evidence_ids:
+    - ev-3ccb80d62eba8333
+    - ev-20b2fb6adbe8cb67
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  next_validation: 关注 Craft 的官方网站或产品文档，获取功能、定价和客户案例。
+  market: ''
+  job: 供应链管理者需要实时了解供应链状态、风险和机会。
+  job_en: Supply chain managers need real-time visibility into supply chain status, risks, and opportunities.
+  pain: 供应链数据分散，缺乏整合分析，决策滞后。
+  pain_en: Supply chain data is fragmented, lacking integrated analysis, leading to delayed decisions.
+  current_alternative: 目前可能依赖人工 Excel 分析或传统供应链软件，但效率低。
+  current_alternative_en: Currently, teams may rely on manual Excel analysis or traditional supply chain
+    software, which is inefficient.
+  usage_reason: 创始人背景和融资消息引发关注，但产品采用情况尚未核验。
+  usage_reason_en: Founder background and funding news attract attention, but product adoption is unverified.
+- id: req-full-crafts-ilya-levtov-never-learned-to-code-he-built-a-software-2026-08-29
+  project_slug: crafts-ilya-levtov-never-learned-to-code-he-built-a-software
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及创始人背景和融资，未披露产品功能、用户案例或工作流程，无法判断需求。
+    evidence_ids:
+    - ev-3ccb80d62eba8333
+    - ev-20b2fb6adbe8cb67
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Craft 的官方网站或产品文档，获取功能、定价和客户案例。
+  market: ''
+  job: 供应链管理者需要实时了解供应链状态、风险和机会。
+  job_en: Supply chain managers need real-time visibility into supply chain status, risks, and opportunities.
+  pain: 供应链数据分散，缺乏整合分析，决策滞后。
+  pain_en: Supply chain data is fragmented, lacking integrated analysis, leading to delayed decisions.
+  current_alternative: 目前可能依赖人工 Excel 分析或传统供应链软件，但效率低。
+  current_alternative_en: Currently, teams may rely on manual Excel analysis or traditional supply chain
+    software, which is inefficient.
+  usage_reason: 创始人背景和融资消息引发关注，但产品采用情况尚未核验。
+  usage_reason_en: Founder background and funding news attract attention, but product adoption is unverified.

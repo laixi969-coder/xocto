@@ -35,3 +35,40 @@
   usage_reason: 公开代码仓库有 77 个收藏、3 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 77 stars and 3 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-approving-2026-08-29
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助开发者让编码 AI 在隔离环境运行并等待人工批准，但公开材料只有产品说明，没有用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''
+  job: 开发者需要让编码 AI 在隔离环境中运行，并在关键节点暂停等待人工批准。
+  job_en: Developers need to run coding AI in isolated environments and pause at critical nodes for human
+    approval.
+  pain: 公开材料未说明不解决的代价、频率或后果；但缺乏人工审批可能导致 AI 执行错误操作，造成损失。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
+    however, lack of human approval may lead to erroneous AI actions causing losses.
+  current_alternative: 公开材料未说明当前替代方式；常见替代是手动审查代码或使用 CI/CD 流程。
+  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
+    manual code review or CI/CD pipelines.
+  usage_reason: 仓库有 77 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The repository has 77 stars, indicating developer attention or trial; sustained use
+    and payment are not yet verified.

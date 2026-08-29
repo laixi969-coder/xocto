@@ -264,3 +264,39 @@
   usage_reason: 公开代码仓库有 56 个收藏、3 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 56 stars and 3 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-openflow-2026-08-29
+  project_slug: openflow
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理 AI 工作流编排复杂的问题，提供可视化构建界面，交付可运行的工作流。工作流结构推理：旧流程依赖代码配置，学习成本高。
+    evidence_ids:
+    - ev-dda08cf8156cdb90
+  - gate: consensus
+    status: insufficient
+    reason: 59 星显示关注，但缺乏用户评价或持续使用证据。
+    evidence_ids:
+    - ev-dda08cf8156cdb90
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，开源项目可能无直接商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，缺少可复现的公开测试或文档。
+    evidence_ids: []
+  next_validation: 追踪 OpenFlow 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
+  market: ''
+  job: 开发者需要可视化地构建和编排多代理 AI 工作流。
+  job_en: Developers need to visually build and orchestrate multi-agent AI workflows.
+  pain: 多代理工作流配置复杂，缺乏可视化工具，难以管理和调试。
+  pain_en: Multi-agent workflow configuration is complex, lacking visual tools, making management and
+    debugging difficult.
+  current_alternative: 目前开发者可能使用代码或 YAML 配置，但不够直观。
+  current_alternative_en: Currently, developers may use code or YAML configuration, which is not intuitive.
+  usage_reason: 仓库 59 星显示初步关注；但采用和付费未核验。
+  usage_reason_en: The repository's 59 stars show initial interest; adoption and payment are not verified.

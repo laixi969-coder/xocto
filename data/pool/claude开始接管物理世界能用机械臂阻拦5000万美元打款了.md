@@ -1,11 +1,12 @@
 ---
 slug: claude开始接管物理世界能用机械臂阻拦5000万美元打款了
-name: Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了
+name: Claude
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该事件展示Claude模型与机械臂结合执行物理动作，具体产品流程未详述。
 inspiration: ''
-summary_en: ''
+summary_en: The event demonstrates Claude model combined with robotic arm to perform physical actions;
+  specific product workflow not detailed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://qbitai.com/2026/08/480487.html
 summary: Claude觉醒超体
 first_seen: '2026-08-28T06:13:59Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了
+# Claude
 
 Claude觉醒超体
 

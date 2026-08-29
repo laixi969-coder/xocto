@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBu
 summary: 'Funding Tracker ''26: Ours Privacy, Arintra and Happy Health Fierce Healthcare'
 first_seen: '2026-08-27T07:00:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

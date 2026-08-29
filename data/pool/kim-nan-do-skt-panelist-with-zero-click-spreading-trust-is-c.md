@@ -1,11 +1,12 @@
 ---
 slug: kim-nan-do-skt-panelist-with-zero-click-spreading-trust-is-c
-name: 'Kim Nan-do, SKT panelist: With ''zero click'' spreading, trust is companies'' asset in AI era'
+name: SKT
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条行业观点，不是独立产品。SKT小组成员Kim Nan-do在讨论中提出，随着“零点击”行为普及，信任成为AI时代企业的关键资产。
 inspiration: ''
-summary_en: ''
+summary_en: This is an industry opinion, not a standalone product. SKT panelist Kim Nan-do suggested that
+  with the spread of 'zero click' behavior, trust becomes a key asset for companies in the AI era.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: 'Kim Nan-do, SKT panelist: With ''zero click'' spreading, trust is comp
   디지털투데이'
 first_seen: '2026-08-27T04:38:33Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Kim Nan-do, SKT panelist: With 'zero click' spreading, trust is companies' asset in AI era
+# SKT
 
 Kim Nan-do, SKT panelist: With 'zero click' spreading, trust is companies' asset in AI era 디지털투데이
 

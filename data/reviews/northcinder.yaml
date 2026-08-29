@@ -336,3 +336,43 @@
   usage_reason: 公开代码仓库有 1,215 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,215 stars and 8 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-northcinder-2026-08-29
+  project_slug: northcinder
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产品比较和购买前咨询的需求，痛点在于信息分散、决策困难，交付是 MCP 服务器，可确定。工作流结构推理。
+    evidence_ids:
+    - ev-5629ba061648aa34
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 1,217 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-5629ba061648aa34
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向消费者或电商平台，但付费路径不明确。
+    evidence_ids:
+    - ev-5629ba061648aa34
+  - gate: truth
+    status: supported
+    reason: 作为开源 MCP 服务器，交付确定性高，但依赖数据源质量。
+    evidence_ids:
+    - ev-5629ba061648aa34
+  next_validation: 追踪 northcinder 仓库的 issue 和 discussion，确认用户实际使用场景和替代的旧流程。
+  market: ''
+  job: 采购员、消费者需要比较产品并在购买前咨询买家。
+  job_en: Purchasers and consumers need to compare products and consult buyers before purchase.
+  pain: 产品比较和购买决策缺乏结构化信息，容易遗漏关键因素。
+  pain_en: Product comparison and purchase decisions lack structured information, making it easy to miss
+    key factors.
+  current_alternative: 目前可能手动搜索和比较，或依赖电商平台评论，但缺乏自动化。
+  current_alternative_en: Currently may manually search and compare, or rely on e-commerce reviews, lacking
+    automation.
+  usage_reason: 公开仓库有 1,217 星，显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 1,217 stars, showing developer attention, but repeat use
+    and payment are not yet verified.

@@ -1,12 +1,12 @@
 ---
 slug: eurosummer-is-a-thing-of-the-past-10-under-the-radar-rounds
-name: 'Eurosummer is a thing of the past: 10 under-the-radar rounds you may have missed in Europe''s second-busiest
-  August ever'
+name: European startup funding
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 欧洲初创企业融资活动在八月创下历史第二高，显示市场活跃。
 inspiration: ''
-summary_en: ''
+summary_en: European startup funding activity in August reached the second-highest ever, indicating a
+  vibrant market.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://sifted.eu/articles/eurosummer-is-a-thing-of-the-past-10-u
 summary: ''
 first_seen: '2026-08-28T05:00:44Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Eurosummer is a thing of the past: 10 under-the-radar rounds you may have missed in Europe's second-busiest August ever
+# European startup funding
 
 _（源没给简介）_
 

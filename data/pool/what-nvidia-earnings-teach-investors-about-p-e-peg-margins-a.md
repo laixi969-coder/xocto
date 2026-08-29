@@ -1,11 +1,12 @@
 ---
 slug: what-nvidia-earnings-teach-investors-about-p-e-peg-margins-a
-name: What Nvidia Earnings Teach Investors About P/E, PEG, Margins and Growth
+name: Nvidia
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 英伟达财报发布后，投资分析文章讨论其市盈率、PEG、利润率与增长指标。
 inspiration: ''
-summary_en: ''
+summary_en: After Nvidia's earnings release, an investment analysis article discusses its P/E, PEG, margins,
+  and growth metrics.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR1kzTk5QRDFw
 summary: What Nvidia Earnings Teach Investors About P/E, PEG, Margins and Growth investingLive
 first_seen: '2026-08-27T07:02:43Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# What Nvidia Earnings Teach Investors About P/E, PEG, Margins and Growth
+# Nvidia
 
 What Nvidia Earnings Teach Investors About P/E, PEG, Margins and Growth investingLive
 

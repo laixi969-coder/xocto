@@ -24,3 +24,72 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-experiential-2026-08-29
+  project_slug: experiential
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 描述模糊，未说明具体解决什么任务、痛点或替代流程，交付不明确。
+    evidence_ids:
+    - ev-f2e8bee8a7ef02e2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注项目文档和代码，验证其技术实现和实际效果。
+  market: ''
+  job: 开发者需要更智能的模型路由，以优化成本和性能。
+  job_en: Developers need smarter model routing to optimize cost and performance.
+  pain: 现有模型路由不够智能，无法根据使用情况优化。
+  pain_en: Current model routing is not smart enough to optimize based on usage.
+  current_alternative: 使用 OpenRouter 等商业服务或手动选择模型。
+  current_alternative_en: Using commercial services like OpenRouter or manually selecting models.
+  usage_reason: HN 上 208 分，46 条评论，表明社区关注，但产品细节不足。
+  usage_reason_en: 208 points and 46 comments on HN, indicating community interest, but product details
+    are insufficient.
+- id: req-full-experiential-2026-08-29
+  project_slug: experiential
+  level: full
+  reviewed_at: '2026-08-29T12:34:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“experiential 是一个开源项目，自称“开放的 OpenRouter”，将使用转化为更好的模型。具体工作流程和交付仍待核验”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目文档和代码，验证其技术实现和实际效果。
+  market: ''
+  job: 开发者需要更智能的模型路由，以优化成本和性能。
+  job_en: Developers need smarter model routing to optimize cost and performance.
+  pain: 现有模型路由不够智能，无法根据使用情况优化。
+  pain_en: Current model routing is not smart enough to optimize based on usage.
+  current_alternative: 使用 OpenRouter 等商业服务或手动选择模型。
+  current_alternative_en: Using commercial services like OpenRouter or manually selecting models.
+  usage_reason: HN 上 208 分，46 条评论，表明社区关注，但产品细节不足。
+  usage_reason_en: 208 points and 46 comments on HN, indicating community interest, but product details
+    are insufficient.

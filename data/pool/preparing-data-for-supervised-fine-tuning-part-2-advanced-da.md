@@ -23,7 +23,7 @@ summary: The advanced side of supervised fine-tuning data prep. This second post
   data with synthetic and distilled examples, and mixing data sources to prevent catastrophic forgetting.
 first_seen: '2026-08-26T16:24:05Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

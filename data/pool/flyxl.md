@@ -1,21 +1,37 @@
 ---
 slug: flyxl
-name: Flyxl
+name: DataZen
 builder: flyxl
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: DataZen 是一个开源的数据库客户端，面向日常查库和跨库查询场景。开发者输入多步 SQL 查询，用 YAML 串联工作流，上一步结果自动传给下一步，支持跨数据库执行；同时提供运营看板，保存常用
+  SQL 和图表定时刷新。AI 辅助生成 SQL 和错误诊断，但核心是工作流和看板。
+inspiration: 趋势是数据库工具从单机客户端走向可编程工作流和自动化看板。切入点是合规限制催生的自建工具需求，可面向中小团队提供跨库查询和报表自动化，按席位或功能收费。
+summary_en: DataZen is an open-source database client for daily queries and cross-database workflows.
+  Developers chain multi-step SQL queries via YAML, passing results automatically between steps, and use
+  dashboards to save frequent queries and charts with scheduled refresh. AI assists SQL generation and
+  error diagnosis, but the core is workflow and dashboard.
+inspiration_en: The trend is database tools evolving from standalone clients to programmable workflows
+  and automated dashboards. The entry point is compliance-driven self-built tooling, targeting small teams
+  with cross-database query and reporting automation, charging per seat or feature.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: open_source
+industries:
+- 软件开发
+- 信息技术服务
+industries_en:
+- Software Development
+- IT Services
+jobs:
+- 数据库管理员
+- 后端开发者
+jobs_en:
+- Database Administrators
+- Backend Developers
+regions:
+- 中国
+regions_en:
+- China
+open_source: true
 url: https://flyxl.github.io/datazen/assets/screenshots/01-main-window.png
 canonical_url: https://flyxl.github.io/datazen/assets/screenshots/01-main-window.png
 summary: "![DataZen 主界面]( https://flyxl.github.io/datazen/assets/screenshots/01-main-window.png)\r\n\r\
@@ -53,7 +69,7 @@ summary: "![DataZen 主界面]( https://flyxl.github.io/datazen/assets/screensho
   \n\r\n也想听听大家：**你平时用数据库客户端，最烦的一件事是什么？** 这个对我比任何功能清单都有用。"
 first_seen: '2026-08-28T15:55:19Z'
 last_seen: '2026-08-29T03:43:06Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 sightings:
@@ -65,7 +81,7 @@ sightings:
   kind: product
 ---
 
-# Flyxl
+# DataZen
 
 ![DataZen 主界面]( https://flyxl.github.io/datazen/assets/screenshots/01-main-window.png)
 

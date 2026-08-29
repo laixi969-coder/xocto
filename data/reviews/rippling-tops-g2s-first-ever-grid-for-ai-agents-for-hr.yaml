@@ -1,0 +1,76 @@
+- id: req-initial-rippling-tops-g2s-first-ever-grid-for-ai-agents-for-hr-2026-08-29
+  project_slug: rippling-tops-g2s-first-ever-grid-for-ai-agents-for-hr
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 HR 流程繁琐、易错的痛点，替代手动或外包，交付可核对的流程结果。工作流结构判断：HR 流程是刚需。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  - gate: consensus
+    status: supported
+    reason: G2 网格排名第一表明市场认可，但具体用户评价未提供。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业 HR 部门，但具体付费路径未公开。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  - gate: truth
+    status: supported
+    reason: AI 代理可确定性执行 HR 流程，但需人工审批，安全边界明确。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  next_validation: 关注 Rippling 官网或 G2 页面，查看 AI Agents for HR 的定价、客户案例及用户评价。
+  market: ''
+  job: HR 经理需要处理员工入职、离职、福利等流程，确保合规且高效。
+  job_en: HR managers need to handle onboarding, offboarding, benefits, ensuring compliance and efficiency.
+  pain: 手动处理 HR 流程耗时且易出错，尤其是多国法规合规。
+  pain_en: Manual HR processes are time-consuming and error-prone, especially with multi-country compliance.
+  current_alternative: 传统 HR 软件或外包给人力资源服务商。
+  current_alternative_en: Traditional HR software or outsourcing to HR service providers.
+  usage_reason: 企业采用 AI 代理是为了自动化重复性 HR 任务，减少错误，并提升员工体验。
+  usage_reason_en: Enterprises adopt AI agents to automate repetitive HR tasks, reduce errors, and improve
+    employee experience.
+- id: req-full-rippling-tops-g2s-first-ever-grid-for-ai-agents-for-hr-2026-08-29
+  project_slug: rippling-tops-g2s-first-ever-grid-for-ai-agents-for-hr
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 HR 流程繁琐、易错的痛点，替代手动或外包，交付可核对的流程结果。工作流结构判断：HR 流程是刚需。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  - gate: consensus
+    status: supported
+    reason: G2 网格排名第一表明市场认可，但具体用户评价未提供。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业 HR 部门，但具体付费路径未公开。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  - gate: truth
+    status: supported
+    reason: AI 代理可确定性执行 HR 流程，但需人工审批，安全边界明确。
+    evidence_ids:
+    - ev-34a32f169c1807b3
+  next_validation: 关注 Rippling 官网或 G2 页面，查看 AI Agents for HR 的定价、客户案例及用户评价。
+  market: ''
+  job: HR 经理需要处理员工入职、离职、福利等流程，确保合规且高效。
+  job_en: HR managers need to handle onboarding, offboarding, benefits, ensuring compliance and efficiency.
+  pain: 手动处理 HR 流程耗时且易出错，尤其是多国法规合规。
+  pain_en: Manual HR processes are time-consuming and error-prone, especially with multi-country compliance.
+  current_alternative: 传统 HR 软件或外包给人力资源服务商。
+  current_alternative_en: Traditional HR software or outsourcing to HR service providers.
+  usage_reason: 企业采用 AI 代理是为了自动化重复性 HR 任务，减少错误，并提升员工体验。
+  usage_reason_en: Enterprises adopt AI agents to automate repetitive HR tasks, reduce errors, and improve
+    employee experience.

@@ -3,9 +3,10 @@ slug: gemini-35-transcribe
 name: Gemini 3.5 Transcribe
 builder: Ankit Sharma
 category: ''
-summary_zh: ''
+summary_zh: Gemini 3.5 Transcribe 是 Google 发布的语音转文字模型，宣称精度最高，用于转录音频。具体 API 和定价待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Gemini 3.5 Transcribe is Google's speech-to-text model claiming highest precision, used for
+  transcribing audio. API and pricing details are to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://producthunt.com/products/gemini-3-5-transcribe
 summary: Our most precise speech-to-text model yet
 first_seen: '2026-08-26T19:07:31Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: market_context
 sources:
 - producthunt
 - hackernews

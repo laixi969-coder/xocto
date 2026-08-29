@@ -1,11 +1,12 @@
 ---
 slug: openai-openai-python-v360
-name: 'openai/openai-python: v3.6.0'
+name: openai-python
 builder: openai
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 官方 Python 库更新，属于开发者工具维护，不构成独立产品机会。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI's official Python library update is developer tool maintenance, not an independent
+  product opportunity.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -77,7 +78,7 @@ summary: '## [3.6.0](https://github.com/openai/openai-python/compare/v3.5.0...v3
   ([dacbb66](https://github.com/openai/openai-python/commit/dacbb6646d1b18257545dbb29badf8a9311ed0ae))'
 first_seen: '2026-08-28T22:28:31Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -89,7 +90,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.6.0
+# openai-python
 
 ## [3.6.0](https://github.com/openai/openai-python/compare/v3.5.0...v3.6.0) (2026-08-27)
 

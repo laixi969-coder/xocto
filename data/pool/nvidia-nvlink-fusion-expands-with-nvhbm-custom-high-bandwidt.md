@@ -1,11 +1,12 @@
 ---
 slug: nvidia-nvlink-fusion-expands-with-nvhbm-custom-high-bandwidt
-name: NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory
+name: NVLink Fusion
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: NVIDIA 宣布 NVLink Fusion 扩展，新增 NVHBM 定制高带宽内存，面向超大规模和 AI 创新者。
 inspiration: ''
-summary_en: ''
+summary_en: NVIDIA announces NVLink Fusion expansion with NVHBM custom high-bandwidth memory for hyperscalers
+  and AI innovators.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: The next wave of AI is placing new demands on infrastructure.  As AI a
   help hyperscalers and AI innovators build the next generation […]
 first_seen: '2026-08-26T21:05:30Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA NVLink Fusion Expands With NVHBM Custom High-Bandwidth Memory
+# NVLink Fusion
 
 The next wave of AI is placing new demands on infrastructure.  As AI agents and trillion-parameter workloads become mainstream, the performance of AI infrastructure depends not only on compute, but on how compute, memory, storage, networking and software are designed together as a unified system. To help hyperscalers and AI innovators build the next generation […]
 

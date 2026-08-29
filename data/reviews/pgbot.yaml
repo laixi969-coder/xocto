@@ -347,3 +347,41 @@
   usage_reason: 公开代码仓库有 793 个收藏、36 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 793 stars and 36 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-pgbot-2026-08-29
+  project_slug: pgbot
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Postgres 性能监控和优化的问题，提供证据驱动的智能分析，交付可操作的修复建议。工作流结构推理：旧流程依赖手动查询和专家经验，效率低。
+    evidence_ids:
+    - ev-3409ba07b382464b
+  - gate: consensus
+    status: insufficient
+    reason: 802 星显示关注，但缺乏用户评价或持续使用证据。
+    evidence_ids:
+    - ev-3409ba07b382464b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，开源项目可能无直接商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，缺少可复现的公开测试或文档。
+    evidence_ids: []
+  next_validation: 追踪 pgbot 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
+  market: ''
+  job: 开发者需要监控 Postgres 性能，识别慢查询和需要修复的问题，并让 AI 代理基于证据执行操作。
+  job_en: Developers need to monitor Postgres performance, identify slow queries and issues to fix, and
+    let AI agents act based on evidence.
+  pain: 数据库性能问题难以定位，需要专业知识，手动分析耗时。
+  pain_en: Database performance issues are hard to diagnose, requiring expertise, and manual analysis
+    is time-consuming.
+  current_alternative: 目前开发者可能使用 pg_stat_statements 或第三方监控工具，但缺乏智能分析。
+  current_alternative_en: Currently, developers may use pg_stat_statements or third-party monitoring tools,
+    but lack intelligent analysis.
+  usage_reason: 仓库 802 星显示关注；但采用和付费未核验。
+  usage_reason_en: The repository's 802 stars show interest; adoption and payment are not verified.

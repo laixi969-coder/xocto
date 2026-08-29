@@ -110,3 +110,43 @@
   usage_reason: 公开代码仓库有 318 个收藏、6 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 318 stars and 6 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-anysearch-dsh-2026-08-29
+  project_slug: anysearch-dsh
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者将网页搜索集成到 DeepSeek Harness 的需求，痛点在于缺少搜索会限制 AI 获取实时信息；产品作为搜索提供方提供可确定的集成交付，结构上成立。
+    evidence_ids:
+    - ev-24f267eb699488ea
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 332 个收藏、6 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-24f267eb699488ea
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者需要为 DeepSeek Harness (DSH) 集成网页搜索能力，以执行需要实时信息的任务。
+  job_en: Developers need to integrate web search into DeepSeek Harness (DSH) to perform tasks requiring
+    real-time information.
+  pain: 公开材料未说明不解决的代价、频率或后果；但缺乏搜索能力会限制 AI 助手获取最新信息，影响任务完成质量。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
+    however, lacking search capability limits the AI assistant's access to up-to-date information, affecting
+    task quality.
+  current_alternative: 公开材料未说明当前替代方式；常见替代是使用通用搜索 API 或手动搜索。
+  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
+    generic search APIs or manual searching.
+  usage_reason: 仓库有 332 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The repository has 332 stars, indicating developer attention or trial; sustained use
+    and payment are not yet verified.

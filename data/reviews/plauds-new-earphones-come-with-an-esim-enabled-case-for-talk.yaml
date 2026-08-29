@@ -1,0 +1,76 @@
+- id: req-initial-plauds-new-earphones-come-with-an-esim-enabled-case-for-talk-2026-08-29
+  project_slug: plauds-new-earphones-come-with-an-esim-enabled-case-for-talk
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决通话和交谈记录痛点，旧替代是手动笔记或录音后整理，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  - gate: consensus
+    status: insufficient
+    reason: 报道未提供用户采用或关注数据，仅有产品发布信息。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是消费者或企业，但无公开证据。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  - gate: truth
+    status: insufficient
+    reason: 产品已发布，但未披露实际使用效果和用户反馈。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  next_validation: 关注 Plaud 官网获取定价、订阅模式和用户评价。
+  market: ''
+  job: 用户需要在通话或面对面交谈时记录内容，并整理成笔记。
+  job_en: Users need to record calls or in-person conversations and organize them into notes.
+  pain: 手动记笔记容易遗漏，录音后整理耗时。
+  pain_en: Manual note-taking is prone to omissions, and organizing recordings is time-consuming.
+  current_alternative: 目前用户使用手机录音、笔记应用或人工速记。
+  current_alternative_en: Currently, users use phone recorders, note apps, or human transcription.
+  usage_reason: Plaud 已有录音硬件产品线，此次新品延续其场景，关注度可能来自对 AI 硬件的兴趣。
+  usage_reason_en: Plaud already has a recording hardware line; this new product extends its scenario,
+    and interest may come from AI hardware enthusiasm.
+- id: req-full-plauds-new-earphones-come-with-an-esim-enabled-case-for-talk-2026-08-29
+  project_slug: plauds-new-earphones-come-with-an-esim-enabled-case-for-talk
+  level: full
+  reviewed_at: '2026-08-29T12:38:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决通话和交谈记录痛点，旧替代是手动笔记或录音后整理，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  - gate: consensus
+    status: insufficient
+    reason: 报道未提供用户采用或关注数据，仅有产品发布信息。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是消费者或企业，但无公开证据。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  - gate: truth
+    status: insufficient
+    reason: 产品已发布，但未披露实际使用效果和用户反馈。
+    evidence_ids:
+    - ev-1fbe74009e943eeb
+  next_validation: 关注 Plaud 官网获取定价、订阅模式和用户评价。
+  market: ''
+  job: 用户需要在通话或面对面交谈时记录内容，并整理成笔记。
+  job_en: Users need to record calls or in-person conversations and organize them into notes.
+  pain: 手动记笔记容易遗漏，录音后整理耗时。
+  pain_en: Manual note-taking is prone to omissions, and organizing recordings is time-consuming.
+  current_alternative: 目前用户使用手机录音、笔记应用或人工速记。
+  current_alternative_en: Currently, users use phone recorders, note apps, or human transcription.
+  usage_reason: Plaud 已有录音硬件产品线，此次新品延续其场景，关注度可能来自对 AI 硬件的兴趣。
+  usage_reason_en: Plaud already has a recording hardware line; this new product extends its scenario,
+    and interest may come from AI hardware enthusiasm.

@@ -192,3 +192,42 @@
   usage_reason: 公开代码仓库有 322 个收藏、51 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 322 stars and 51 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-huashu-excel-2026-08-29
+  project_slug: huashu-excel
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据分析师或财务人员处理脏乱 Excel 表的需求：体检表结构、清洗、对齐需求、分析、对账、交付可核对报告，痛点刚性（数据不可靠影响决策），交付可确定（输出报告）。这是工作流结构推理，公开材料未提供用户评价或采用数据。
+    evidence_ids:
+    - ev-5743729f0a6d59ce
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有 334 个收藏，说明社区注意到它，但缺乏用户评价、持续采用或付费证据，共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-5743729f0a6d59ce
+  - gate: model
+    status: insufficient
+    reason: 谁付钱尚未核验：未见付费主体、定价或单位经济，可能面向 to B 或 to C，但这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据，如部署文档或实际使用案例。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 数据分析师或财务人员拿到一份脏乱 Excel 表后，需要清洗数据、对齐需求、进行分析和对账，并交付可核对的报告。
+  job_en: Data analysts or finance staff need to clean messy Excel data, align requirements, perform analysis
+    and reconciliation, and deliver verifiable reports.
+  pain: 脏乱 Excel 表导致数据清洗耗时、分析结果不可靠，AI 生成的数字可能经不起追问，影响决策质量。
+  pain_en: Messy Excel data causes time-consuming cleaning and unreliable analysis; AI-generated numbers
+    may not withstand scrutiny, affecting decision quality.
+  current_alternative: 尚未核验：公开材料未说明用户当前如何完成这项工作，可能依赖手工清洗或通用工具。
+  current_alternative_en: 'Not yet verified: public materials do not specify current methods, possibly
+    manual cleaning or general tools.'
+  usage_reason: 公开代码仓库有 334 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The public repository has 334 stars, showing developer attention; repeat use and payment
+    are not yet verified.

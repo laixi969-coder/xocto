@@ -1,11 +1,12 @@
 ---
 slug: builders-firstsource-teams-up-with-ai-startup-digs-on-digita
-name: Builders FirstSource Teams Up With AI Startup Digs on ‘Digital Twin’ Platform for Homes
+name: Builders FirstSource
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Builders FirstSource 与 AI 初创公司 Digs 合作，为住宅项目开发数字孪生平台，通过 AI 技术创建房屋的数字化模型，用于设计、施工和运维管理。
 inspiration: ''
-summary_en: ''
+summary_en: Builders FirstSource partners with AI startup Digs to develop a digital twin platform for
+  homes, using AI to create digital models of houses for design, construction, and maintenance management.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Builders FirstSource Teams Up With AI Startup Digs on ‘Digital Twin�
   Innovates
 first_seen: '2026-08-26T20:25:48Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Builders FirstSource Teams Up With AI Startup Digs on ‘Digital Twin’ Platform for Homes
+# Builders FirstSource
 
 Builders FirstSource Teams Up With AI Startup Digs on ‘Digital Twin’ Platform for Homes Dallas Innovates
 

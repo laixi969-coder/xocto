@@ -1,0 +1,68 @@
+- id: req-initial-almanac-2026-08-29
+  project_slug: almanac
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 目前公开材料只有一句宣传语，无法还原用户任务、痛点、旧替代或交付闭环，需求结构无法判断。
+    evidence_ids:
+    - ev-5021b17727a375c2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Almanac 官方页面或产品文档，看是否披露具体工作流、目标用户和交付物。
+  market: ''
+  job: 用户要完成什么任务尚不明确，可能涉及需要长期记忆的复杂任务。
+  job_en: The user's task is unclear, possibly involving complex tasks requiring long-term memory.
+  pain: 痛点未披露，无法判断。
+  pain_en: Pain points are undisclosed and cannot be assessed.
+  current_alternative: 替代方式未披露。
+  current_alternative_en: Alternative solutions are undisclosed.
+  usage_reason: 采用或关注原因未披露，仅有一句宣传语。
+  usage_reason_en: Reasons for adoption or attention are undisclosed; only a tagline exists.
+- id: req-full-almanac-2026-08-29
+  project_slug: almanac
+  level: full
+  reviewed_at: '2026-08-29T12:30:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 目前公开材料只有一句宣传语，无法还原用户任务、痛点、旧替代或交付闭环，需求结构无法判断。
+    evidence_ids:
+    - ev-5021b17727a375c2
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Almanac 官方页面或产品文档，看是否披露具体工作流、目标用户和交付物。
+  market: ''
+  job: 用户要完成什么任务尚不明确，可能涉及需要长期记忆的复杂任务。
+  job_en: The user's task is unclear, possibly involving complex tasks requiring long-term memory.
+  pain: 痛点未披露，无法判断。
+  pain_en: Pain points are undisclosed and cannot be assessed.
+  current_alternative: 替代方式未披露。
+  current_alternative_en: Alternative solutions are undisclosed.
+  usage_reason: 采用或关注原因未披露，仅有一句宣传语。
+  usage_reason_en: Reasons for adoption or attention are undisclosed; only a tagline exists.

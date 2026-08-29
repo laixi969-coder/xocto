@@ -21,7 +21,7 @@ canonical_url: https://prmpt.cash
 summary: Passively Earn BTC/Sol/Anthropic for Using Claude Code
 first_seen: '2026-08-28T20:48:38Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: learning-never-stops-how-ai-makes-learning-continuous
-name: 'Learning never stops: How AI makes learning continuous'
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI发布报告，展示ChatGPT在教育场景中的使用案例，强调学习连续性。这是行业报告，不是独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI released a report showcasing ChatGPT usage in educational settings, emphasizing continuous
+  learning. This is an industry report, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: OpenAI’s new report explores how students and educators use ChatGPT t
   with support that extends beyond the classroom.
 first_seen: '2026-08-26T10:00:00Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Learning never stops: How AI makes learning continuous
+# OpenAI
 
 OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.
 

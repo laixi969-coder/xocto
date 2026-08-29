@@ -1,20 +1,37 @@
 ---
 slug: obsidian-img
-name: Obsidian Img
+name: SiteData
 builder: fantexi178
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: SiteData 是浏览器插件，用户在 Google 搜索关键词时，它展示该词最近 4 周有多少网站投放 Google Ads，点击可查看具体投放站点、广告主、流量和 DR。AI
+  接收关键词查询，返回广告竞争信号，帮助判断关键词是否经过真金白银验证。
+inspiration: 趋势是广告情报从搜索量转向真实投放行为，用投放网站数验证商业意图。切入点是面向 SEO、AFF 和 media buying 人群，把广告竞争信号做成默认展示，按查询或订阅收费。
+summary_en: SiteData is a browser extension that shows how many sites have run Google Ads for a keyword
+  in the last 4 weeks, with clickable details on advertisers, traffic, and DR. AI processes keyword queries
+  to return ad competition signals, helping users gauge if a keyword is backed by real ad spend.
+inspiration_en: 'Trend: ad intelligence shifts from search volume to actual ad spend, using site count
+  to validate commercial intent. Entry: target SEO, affiliate, and media buying professionals, make ad
+  competition signals default, and charge per query or subscription.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 数字营销
+- SEO
+industries_en:
+- Digital Marketing
+- SEO
+jobs:
+- SEO 专家
+- 联盟营销人员
+- 媒体购买人员
+jobs_en:
+- SEO specialists
+- Affiliate marketers
+- Media buyers
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://obsidian-img.prodbox.cc/images/2026/08/27/a6940db7-99f2-473f-afa0-ac105dd5da53.png
 canonical_url: https://obsidian-img.prodbox.cc/images/2026/08/27/a6940db7-99f2-473f-afa0-ac105dd5da53.png
@@ -80,7 +97,7 @@ summary: "![公众号封面图]( https://obsidian-img.prodbox.cc/images/2026/08/
   - [一个 API ，查遍对手的流量、外链和广告打法]( https://mp.weixin.qq.com/s/DqG6Otdqmz76BXzC0kgytg)\r\n\r\n![]( https://obsidian-img.prodbox.cc/images/2026/08/21/83aecc69-75de-49f4-8ac2-bc1a6f1e69c2.png)"
 first_seen: '2026-08-28T07:30:03Z'
 last_seen: '2026-08-29T03:43:06Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 sightings:
@@ -92,7 +109,7 @@ sightings:
   kind: product
 ---
 
-# Obsidian Img
+# SiteData
 
 ![公众号封面图]( https://obsidian-img.prodbox.cc/images/2026/08/27/a6940db7-99f2-473f-afa0-ac105dd5da53.png)
 

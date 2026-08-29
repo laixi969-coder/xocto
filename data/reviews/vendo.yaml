@@ -36,3 +36,75 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Customers describe the feature they
     need inside your product and get it, without waiting on your roadmap. The exact adoption motive and
     repeat use are not yet verified.'
+- id: req-initial-vendo-2026-08-29
+  project_slug: vendo
+  level: initial
+  reviewed_at: '2026-08-29T03:43:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及概念，未说明具体工作流程、输入输出或交付，无法判断需求痛点。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 有少量社区讨论，但无用户反馈或采用数据，共识程度未知。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 关注 Vendo 官方产品页面或文档，获取具体功能、使用案例和定价信息。
+  market: ''
+  job: 用户希望在不离开产品的情况下，根据自己的需求创建或修改功能。
+  job_en: Users want to create or modify features according to their needs without leaving the product.
+  pain: 现有产品功能固定，用户无法满足个性化需求，需要等待开发或使用外部工具。
+  pain_en: Existing product features are fixed, users cannot meet personalized needs, requiring waiting
+    for development or using external tools.
+  current_alternative: 用户可能提交功能请求、使用外部工具或自行开发，但过程缓慢且成本高。
+  current_alternative_en: Users may submit feature requests, use external tools, or develop themselves,
+    but the process is slow and costly.
+  usage_reason: 关注度来自产品定制化趋势，但缺乏具体采用证据，需求强度未明。
+  usage_reason_en: Attention stems from the trend of product customization, but specific adoption evidence
+    is lacking, and demand intensity is unclear.
+- id: req-full-vendo-2026-08-29
+  project_slug: vendo
+  level: full
+  reviewed_at: '2026-08-29T12:39:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及概念，未说明具体工作流程、输入输出或交付，无法判断需求痛点。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Vendo 官方产品页面或文档，获取具体功能、使用案例和定价信息。
+  market: ''
+  job: 用户希望在不离开产品的情况下，根据自己的需求创建或修改功能。
+  job_en: Users want to create or modify features according to their needs without leaving the product.
+  pain: 现有产品功能固定，用户无法满足个性化需求，需要等待开发或使用外部工具。
+  pain_en: Existing product features are fixed, users cannot meet personalized needs, requiring waiting
+    for development or using external tools.
+  current_alternative: 用户可能提交功能请求、使用外部工具或自行开发，但过程缓慢且成本高。
+  current_alternative_en: Users may submit feature requests, use external tools, or develop themselves,
+    but the process is slow and costly.
+  usage_reason: 关注度来自产品定制化趋势，但缺乏具体采用证据，需求强度未明。
+  usage_reason_en: Attention stems from the trend of product customization, but specific adoption evidence
+    is lacking, and demand intensity is unclear.

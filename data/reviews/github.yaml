@@ -152,3 +152,79 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：Windows 桌面开发者；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Windows desktop developer The exact
     adoption motive and repeat use are not yet verified.'
+- id: req-initial-github-2026-08-29
+  project_slug: github
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决 Windows 桌面开发中 Win32 繁琐、MFC/Qt 偏重、WTL 可读性差的问题，提供现代 C++20 封装，交付可编译运行的框架和示例。工作流结构判断。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有少量评论，但缺乏广泛采用证据，尚未形成共识。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: model
+    status: insufficient
+    reason: 开源 MIT 协议，无明确商业模式，付费路径未披露。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: truth
+    status: supported
+    reason: 框架已用于真实工具，交付确定性高，贴近开发者的第一性目标。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  next_validation: 关注代码仓库的 star 增长和 issue 讨论，以及是否有更多开发者采用。
+  market: ''
+  job: Windows 桌面开发者需要构建原生桌面应用，同时希望代码简洁、易于维护。
+  job_en: Windows desktop developers need to build native desktop apps with clean, maintainable code.
+  pain: Win32 API 繁琐，MFC/Qt 偏重，WTL 宏多且可读性差。
+  pain_en: Win32 API is verbose, MFC/Qt are heavy, WTL has many macros and poor readability.
+  current_alternative: 使用 Win32 API、MFC、Qt 或 WTL 进行开发。
+  current_alternative_en: Using Win32 API, MFC, Qt, or WTL for development.
+  usage_reason: 开发者因自身需求创建，并已用于多个真实工具，社区讨论显示关注。
+  usage_reason_en: Created by a developer for his own needs, used in real tools, and community discussion
+    shows interest.
+- id: req-full-github-2026-08-29
+  project_slug: github
+  level: full
+  reviewed_at: '2026-08-29T12:35:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决 Windows 桌面开发中 Win32 繁琐、MFC/Qt 偏重、WTL 可读性差的问题，提供现代 C++20 封装，交付可编译运行的框架和示例。工作流结构判断。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有少量评论，但缺乏广泛采用证据，尚未形成共识。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: model
+    status: insufficient
+    reason: 开源 MIT 协议，无明确商业模式，付费路径未披露。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  - gate: truth
+    status: supported
+    reason: 框架已用于真实工具，交付确定性高，贴近开发者的第一性目标。
+    evidence_ids:
+    - ev-4c3d4f6d62dad806
+  next_validation: 关注代码仓库的 star 增长和 issue 讨论，以及是否有更多开发者采用。
+  market: ''
+  job: Windows 桌面开发者需要构建原生桌面应用，同时希望代码简洁、易于维护。
+  job_en: Windows desktop developers need to build native desktop apps with clean, maintainable code.
+  pain: Win32 API 繁琐，MFC/Qt 偏重，WTL 宏多且可读性差。
+  pain_en: Win32 API is verbose, MFC/Qt are heavy, WTL has many macros and poor readability.
+  current_alternative: 使用 Win32 API、MFC、Qt 或 WTL 进行开发。
+  current_alternative_en: Using Win32 API, MFC, Qt, or WTL for development.
+  usage_reason: 开发者因自身需求创建，并已用于多个真实工具，社区讨论显示关注。
+  usage_reason_en: Created by a developer for his own needs, used in real tools, and community discussion
+    shows interest.

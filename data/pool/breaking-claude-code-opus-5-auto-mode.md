@@ -1,11 +1,13 @@
 ---
 slug: breaking-claude-code-opus-5-auto-mode
-name: Breaking Claude Code Opus 5 Auto Mode
+name: Claude Code
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Claude Code 的自动模式被曝存在提示注入漏洞，攻击者可通过构造恶意压缩包诱导代理执行代码，且自动模式可能阻止清理命令，增加安全风险。
 inspiration: ''
-summary_en: ''
+summary_en: Claude Code's auto mode has a prompt injection vulnerability, where attackers can craft malicious
+  archives to trick the agent into executing code, and auto mode may block cleanup commands, increasing
+  security risks.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -37,7 +39,7 @@ summary: "Breaking Claude Code Opus 5 Auto Mode   \nAnthropic are putting a grea
   \ prompt-injection ,  generative-ai ,  llms ,  anthropic ,  claude ,  johann-rehberger ,  claude-code"
 first_seen: '2026-08-27T22:50:25Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -48,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# Breaking Claude Code Opus 5 Auto Mode
+# Claude Code
 
 Breaking Claude Code Opus 5 Auto Mode   
 Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently  made that the default  and have made bold claims about its effectiveness. 

@@ -1,0 +1,80 @@
+- id: req-initial-play-with-putty-2026-08-29
+  project_slug: play-with-putty
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发团队快速原型和协作编码的痛点，替代手动编码和 Git 分支合并的旧流程，交付可运行的代码，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  - gate: consensus
+    status: insufficient
+    reason: 目前公开材料仅显示产品发布，缺乏用户采用、社区讨论或收藏数据，无法判断共识强度。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是团队或企业，但付费路径和触发点尚未公开。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  - gate: truth
+    status: insufficient
+    reason: 产品由 Google Labs 推出，技术可行性较高，但实际交付质量和用户满意度缺乏公开验证。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  next_validation: 关注 Google Labs 官方博客或产品页面，查看定价、用户案例和协作功能的实际演示。
+  market: ''
+  job: 开发团队需要快速将想法转化为可运行的代码，并多人协作调整。
+  job_en: Development teams need to quickly turn ideas into runnable code and collaborate on adjustments.
+  pain: 传统编码需要手动编写大量代码，协作时版本冲突和沟通成本高。
+  pain_en: Traditional coding requires manual code writing, and collaboration suffers from version conflicts
+    and high communication overhead.
+  current_alternative: 使用 公开代码仓库 Copilot 等单人生成工具，或通过 Git 分支管理协作，但缺乏实时同步。
+  current_alternative_en: Using single-user generation tools like public code repository Copilot, or collaborating
+    via Git branches, but lacking real-time sync.
+  usage_reason: 多人实时协作能减少等待和冲突，适合快速原型和团队 hackathon，但付费意愿和留存尚未核验。
+  usage_reason_en: Real-time multi-user collaboration reduces waiting and conflicts, suitable for rapid
+    prototyping and team hackathons, but willingness to pay and retention are not yet verified.
+- id: req-full-play-with-putty-2026-08-29
+  project_slug: play-with-putty
+  level: full
+  reviewed_at: '2026-08-29T12:38:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发团队快速原型和协作编码的痛点，替代手动编码和 Git 分支合并的旧流程，交付可运行的代码，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  - gate: consensus
+    status: insufficient
+    reason: 目前公开材料仅显示产品发布，缺乏用户采用、社区讨论或收藏数据，无法判断共识强度。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是团队或企业，但付费路径和触发点尚未公开。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  - gate: truth
+    status: insufficient
+    reason: 产品由 Google Labs 推出，技术可行性较高，但实际交付质量和用户满意度缺乏公开验证。
+    evidence_ids:
+    - ev-cf489c798647f5ea
+  next_validation: 关注 Google Labs 官方博客或产品页面，查看定价、用户案例和协作功能的实际演示。
+  market: ''
+  job: 开发团队需要快速将想法转化为可运行的代码，并多人协作调整。
+  job_en: Development teams need to quickly turn ideas into runnable code and collaborate on adjustments.
+  pain: 传统编码需要手动编写大量代码，协作时版本冲突和沟通成本高。
+  pain_en: Traditional coding requires manual code writing, and collaboration suffers from version conflicts
+    and high communication overhead.
+  current_alternative: 使用 公开代码仓库 Copilot 等单人生成工具，或通过 Git 分支管理协作，但缺乏实时同步。
+  current_alternative_en: Using single-user generation tools like public code repository Copilot, or collaborating
+    via Git branches, but lacking real-time sync.
+  usage_reason: 多人实时协作能减少等待和冲突，适合快速原型和团队 hackathon，但付费意愿和留存尚未核验。
+  usage_reason_en: Real-time multi-user collaboration reduces waiting and conflicts, suitable for rapid
+    prototyping and team hackathons, but willingness to pay and retention are not yet verified.

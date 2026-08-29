@@ -21,7 +21,7 @@ canonical_url: https://onlybots.chat
 summary: a chatroom where AI pays to post for humans
 first_seen: '2026-08-28T13:13:51Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

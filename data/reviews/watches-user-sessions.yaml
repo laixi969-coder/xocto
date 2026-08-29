@@ -24,3 +24,83 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-watches-user-sessions-2026-08-29
+  project_slug: watches-user-sessions
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者手动排查 bug 的痛点，AI 自动分析会话并生成修复，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  - gate: consensus
+    status: supported
+    reason: 技术社区讨论和开源仓库关注表明开发者兴趣，但实际采用和付费未核验。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能靠支持或云服务，但无公开定价。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者的核心需求，自动修复可确定交付，但需注意误修风险。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  next_validation: 关注开源仓库的 star 数、issue 讨论和 release 更新，以及是否有云托管服务。
+  market: ''
+  job: 开发者需要快速定位并修复用户会话中出现的 bug，以保证产品质量。
+  job_en: Developers need to quickly identify and fix bugs appearing in user sessions to ensure product
+    quality.
+  pain: 手动查看会话录像耗时，bug 复现困难，修复周期长。
+  pain_en: Manually reviewing session recordings is time-consuming, bugs are hard to reproduce, and fix
+    cycles are long.
+  current_alternative: 使用日志分析工具、错误追踪系统（如 Sentry）或手动测试。
+  current_alternative_en: Using log analysis tools, error tracking systems (e.g., Sentry), or manual testing.
+  usage_reason: 开源项目在技术社区获得关注，说明开发者对自动化修复有需求。
+  usage_reason_en: The open-source project gained attention in the tech community, indicating developer
+    demand for automated fixes.
+- id: req-full-watches-user-sessions-2026-08-29
+  project_slug: watches-user-sessions
+  level: full
+  reviewed_at: '2026-08-29T12:40:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者手动排查 bug 的痛点，AI 自动分析会话并生成修复，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  - gate: consensus
+    status: supported
+    reason: 技术社区讨论和开源仓库关注表明开发者兴趣，但实际采用和付费未核验。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能靠支持或云服务，但无公开定价。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者的核心需求，自动修复可确定交付，但需注意误修风险。
+    evidence_ids:
+    - ev-deca8485efeba4de
+  next_validation: 关注开源仓库的 star 数、issue 讨论和 release 更新，以及是否有云托管服务。
+  market: ''
+  job: 开发者需要快速定位并修复用户会话中出现的 bug，以保证产品质量。
+  job_en: Developers need to quickly identify and fix bugs appearing in user sessions to ensure product
+    quality.
+  pain: 手动查看会话录像耗时，bug 复现困难，修复周期长。
+  pain_en: Manually reviewing session recordings is time-consuming, bugs are hard to reproduce, and fix
+    cycles are long.
+  current_alternative: 使用日志分析工具、错误追踪系统（如 Sentry）或手动测试。
+  current_alternative_en: Using log analysis tools, error tracking systems (e.g., Sentry), or manual testing.
+  usage_reason: 开源项目在技术社区获得关注，说明开发者对自动化修复有需求。
+  usage_reason_en: The open-source project gained attention in the tech community, indicating developer
+    demand for automated fixes.

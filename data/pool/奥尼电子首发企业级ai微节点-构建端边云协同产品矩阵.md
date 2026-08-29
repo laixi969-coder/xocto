@@ -1,11 +1,12 @@
 ---
 slug: 奥尼电子首发企业级ai微节点-构建端边云协同产品矩阵
-name: 奥尼电子首发企业级AI微节点 构建端边云协同产品矩阵
+name: 奥尼电子
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 奥尼电子首发企业级AI微节点，构建端边云协同产品矩阵。
 inspiration: ''
-summary_en: ''
+summary_en: Aoni Electronics launched enterprise-grade AI micro-nodes, building an edge-cloud collaborative
+  product matrix.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lUGUtU0RyZUNR
 summary: 奥尼电子首发企业级AI微节点 构建端边云协同产品矩阵 东方财富
 first_seen: '2026-08-27T07:26:02Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 奥尼电子首发企业级AI微节点 构建端边云协同产品矩阵
+# 奥尼电子
 
 奥尼电子首发企业级AI微节点 构建端边云协同产品矩阵 东方财富
 

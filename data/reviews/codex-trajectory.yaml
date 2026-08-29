@@ -265,3 +265,40 @@
   usage_reason: 公开代码仓库有 241 个收藏、16 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 241 stars and 16 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-codex-trajectory-2026-08-29
+  project_slug: codex-trajectory
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者审查本地 Codex 任务日志、理解 AI 执行轨迹的需求，痛点是不透明导致调试困难；交付为轨迹可视化，可确定。工作流结构推理：旧流程是手动查看原始日志，此工具提供结构化视图。
+    evidence_ids:
+    - ev-c99d8e9f02189160
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 240 星显示关注，但缺乏用户评价或采用案例，不足以证明持续使用。
+    evidence_ids:
+    - ev-da75f792803b9188
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源工具免费使用，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性尚缺可复现的公开证据，如文档或演示。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认开发者实际使用场景和替代流程。
+  market: ''
+  job: 开发者需要审查和调试本地 Codex 任务日志，理解 AI 的执行轨迹。
+  job_en: Developers need to review and debug local Codex task logs to understand AI execution trajectories.
+  pain: AI 编码工具执行过程不透明，难以定位问题，影响调试效率。
+  pain_en: AI coding tool execution is opaque, making it hard to locate issues and reducing debugging
+    efficiency.
+  current_alternative: 目前开发者可能直接查看原始日志或依赖 AI 工具自带界面，缺乏专门的轨迹可视化。
+  current_alternative_en: Developers may currently view raw logs or rely on built-in AI tool interfaces,
+    lacking dedicated trajectory visualization.
+  usage_reason: 仓库 240 星显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: 240 stars show developer interest, but sustained usage and payment are not yet verified.

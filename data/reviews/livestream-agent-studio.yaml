@@ -116,3 +116,42 @@
   usage_reason: 公开代码仓库有 302 个收藏、45 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 302 stars and 45 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-livestream-agent-studio-2026-08-29
+  project_slug: livestream-agent-studio
+  level: full
+  reviewed_at: '2026-08-29T12:36:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决直播运营和内容编导需要统一智能工作流的需求，痛点在于工具分散、效率低下，交付可确定，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-99f9659b09148fd0
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 342 星，显示社区关注，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-04f4e32e99249f2c
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济，付费路径不明确，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 直播运营和内容编导需要整合主播发现、直播洞察、复盘和短视频编导的统一工作流。
+  job_en: Live stream operators and content directors need a unified workflow integrating host discovery,
+    live insights, review, and short video direction.
+  pain: 直播电商运营工具分散，缺乏统一智能工作流，导致效率低下和决策不连贯。
+  pain_en: Live e-commerce operations tools are fragmented, lacking a unified intelligent workflow, causing
+    inefficiency and inconsistent decisions.
+  current_alternative: 目前可能使用多个独立工具或人工分析，缺乏本地 AI 集成方案。
+  current_alternative_en: Currently may use multiple separate tools or manual analysis, lacking a local
+    AI-integrated solution.
+  usage_reason: 开源仓库获得 342 星，显示开发者对直播电商 AI 工具的兴趣，但付费和持续采用尚未核验。
+  usage_reason_en: The open-source repository has 342 stars, showing developer interest in live e-commerce
+    AI tools, but payment and sustained adoption are not yet verified.

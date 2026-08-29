@@ -1,0 +1,68 @@
+- id: req-initial-index-2026-08-29
+  project_slug: index
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 未提供具体用户任务、痛点或交付细节，无法判断价值结构。
+    evidence_ids:
+    - ev-98bd40f42d3ccd9b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注官方文档和用户反馈，获取具体使用案例。
+  market: ''
+  job: AI 代理需要检索文档以回答问题。
+  job_en: AI agents need to retrieve documentation to answer questions.
+  pain: 文档检索效率低，影响 AI 代理性能。
+  pain_en: Inefficient documentation retrieval affects AI agent performance.
+  current_alternative: 使用传统搜索引擎或向量数据库。
+  current_alternative_en: Using traditional search engines or vector databases.
+  usage_reason: 项目刚发布，采用情况未核验。
+  usage_reason_en: Project just released, adoption not verified.
+- id: req-full-index-2026-08-29
+  project_slug: index
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决 AI 代理文档检索效率低的问题，但公开材料未提供具体用户任务、痛点或交付细节，无法判断价值结构。
+    evidence_ids:
+    - ev-98bd40f42d3ccd9b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注官方文档和用户反馈，获取具体使用案例。
+  market: ''
+  job: AI 代理需要检索文档以回答问题。
+  job_en: AI agents need to retrieve documentation to answer questions.
+  pain: 文档检索效率低，影响 AI 代理性能。
+  pain_en: Inefficient documentation retrieval affects AI agent performance.
+  current_alternative: 使用传统搜索引擎或向量数据库。
+  current_alternative_en: Using traditional search engines or vector databases.
+  usage_reason: 项目刚发布，采用情况未核验。
+  usage_reason_en: Project just released, adoption not verified.

@@ -301,3 +301,43 @@
   usage_reason: 公开代码仓库有 512 个收藏、17 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 512 stars and 17 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-biosecurity-agent-2026-08-29
+  project_slug: biosecurity-agent
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生物安全研究员或公共卫生官员构建实时生物安全监测的需求，痛点在于数据整合和实时分析困难；产品以 AI 代理提供可确定的监测构建交付，结构上成立。
+    evidence_ids:
+    - ev-42f86889695ebe8c
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 513 个收藏、17 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-42f86889695ebe8c
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 生物安全研究员或公共卫生官员需要围绕特定目标构建实时生物安全监测和预警。
+  job_en: Biosecurity researchers or public health officials need to build real-time biosecurity monitoring
+    and early warning around specific targets.
+  pain: 公开材料未说明不解决的代价、频率或后果；但生物安全威胁监测通常需要大量数据整合和实时分析，人工处理困难。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
+    however, biosecurity threat monitoring typically requires extensive data integration and real-time
+    analysis, which is difficult manually.
+  current_alternative: 公开材料未说明当前替代方式；常见替代是使用传统监测系统或人工分析。
+  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
+    traditional monitoring systems or manual analysis.
+  usage_reason: 仓库有 513 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The repository has 513 stars, indicating developer attention or trial; sustained use
+    and payment are not yet verified.

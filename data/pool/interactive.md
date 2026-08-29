@@ -21,7 +21,7 @@ canonical_url: https://modelmap.cc
 summary: animated architecture of any HuggingFace models
 first_seen: '2026-08-18T23:57:36Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

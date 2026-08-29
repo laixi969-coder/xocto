@@ -1,11 +1,11 @@
 ---
 slug: find-deployments-faster-with-redesigned-filters
-name: Find deployments faster with redesigned filters
+name: Vercel
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Vercel 更新了部署过滤器，帮助用户更快找到部署。
 inspiration: ''
-summary_en: ''
+summary_en: Vercel updated deployment filters to help users find deployments faster.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/find-deployments-faster-with-redesig
 summary: ''
 first_seen: '2026-08-27T13:00:00Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Find deployments faster with redesigned filters
+# Vercel
 
 _（源没给简介）_
 

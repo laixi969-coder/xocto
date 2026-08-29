@@ -113,3 +113,41 @@
   usage_reason: 公开代码仓库有 143 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 143 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-peerbridge-mcp-2026-08-29
+  project_slug: peerbridge-mcp
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理编码工作流缺乏治理和审计的问题，提供适配层统一管理审查、证据和发布，交付可审计的日志。工作流结构推理：旧流程依赖手动记录，易出错。
+    evidence_ids:
+    - ev-b5a0a277ec8fb999
+  - gate: consensus
+    status: insufficient
+    reason: 150 星显示关注，但缺乏用户评价或持续使用证据。
+    evidence_ids:
+    - ev-b5a0a277ec8fb999
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，开源项目可能无直接商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，缺少可复现的公开测试或文档。
+    evidence_ids: []
+  next_validation: 追踪 peerbridge-mcp 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
+  market: ''
+  job: 软件团队需要管理多代理编码工作流中的代码审查、证据记录和发布流程。
+  job_en: Software teams need to manage code review, evidence recording, and release workflows in multi-agent
+    coding.
+  pain: 多代理编码缺乏统一治理，审计困难，发布流程不透明。
+  pain_en: Multi-agent coding lacks unified governance, making auditing difficult and release processes
+    opaque.
+  current_alternative: 目前团队可能使用分散的工具和手动流程，但缺乏集成和可审计性。
+  current_alternative_en: Currently, teams may use scattered tools and manual processes, lacking integration
+    and auditability.
+  usage_reason: 仓库 150 星显示关注；但采用和付费未核验。
+  usage_reason_en: The repository's 150 stars show interest; adoption and payment are not verified.

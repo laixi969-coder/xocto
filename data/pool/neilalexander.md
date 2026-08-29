@@ -3,9 +3,10 @@ slug: neilalexander
 name: neilalexander
 builder: signa11
 category: ''
-summary_zh: ''
+summary_zh: 开发者 neilalexander 发文呼吁停止用 AI 生成的大量低质量贡献刷简历，引发社区讨论。
 inspiration: ''
-summary_en: ''
+summary_en: Developer neilalexander posts plea to stop flooding projects with AI-generated slop for CV
+  padding, sparking community discussion.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://neilalexander.dev/2026/06/30/flooding-contributions
 summary: Please stop flooding our projects with AI slop to furnish your CV
 first_seen: '2026-08-28T03:49:33Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

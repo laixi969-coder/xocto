@@ -1,0 +1,82 @@
+- id: req-initial-sentio-2026-08-29
+  project_slug: sentio
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理需要独立邮箱的问题，通过提供完整的邮件服务器和 API，使代理能收发邮件。工作流结构判断：旧方式需要开发者自己搭建或集成邮件服务，成本高。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星标 225，但缺乏用户评价或采用案例。社区讨论可能提供线索，但尚未核验。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能开源免费或提供云服务，但缺乏证据。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  - gate: truth
+    status: insufficient
+    reason: 产品是否稳定运行并满足生产需求尚未验证，需要更多部署案例或测试。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有生产环境部署案例。
+  market: ''
+  job: 开发者需要为 AI 代理提供独立的邮箱地址，以便代理能收发邮件并参与对话。
+  job_en: Developers need to provide AI agents with independent email addresses so agents can send/receive
+    emails and participate in conversations.
+  pain: 现有邮件服务不适合代理，缺乏 API 集成和结构化处理，导致代理难以自动处理邮件。
+  pain_en: Existing email services are not suitable for agents, lacking API integration and structured
+    processing, making it difficult for agents to handle emails automatically.
+  current_alternative: 开发者通常使用通用邮件 API 或手动处理，但需要额外开发工作。
+  current_alternative_en: Developers typically use generic email APIs or manual processing, requiring
+    additional development effort.
+  usage_reason: 开源社区关注它，因为它为代理提供专用邮箱基础设施，简化了邮件自动化。
+  usage_reason_en: The open-source community is interested because it provides dedicated mailbox infrastructure
+    for agents, simplifying email automation.
+- id: req-full-sentio-2026-08-29
+  project_slug: sentio
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理需要独立邮箱的问题，通过提供完整的邮件服务器和 API，使代理能收发邮件。工作流结构判断：旧方式需要开发者自己搭建或集成邮件服务，成本高。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星标 225，但缺乏用户评价或采用案例。社区讨论可能提供线索，但尚未核验。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能开源免费或提供云服务，但缺乏证据。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  - gate: truth
+    status: insufficient
+    reason: 产品是否稳定运行并满足生产需求尚未验证，需要更多部署案例或测试。
+    evidence_ids:
+    - ev-bca8b050f368f326
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有生产环境部署案例。
+  market: ''
+  job: 开发者需要为 AI 代理提供独立的邮箱地址，以便代理能收发邮件并参与对话。
+  job_en: Developers need to provide AI agents with independent email addresses so agents can send/receive
+    emails and participate in conversations.
+  pain: 现有邮件服务不适合代理，缺乏 API 集成和结构化处理，导致代理难以自动处理邮件。
+  pain_en: Existing email services are not suitable for agents, lacking API integration and structured
+    processing, making it difficult for agents to handle emails automatically.
+  current_alternative: 开发者通常使用通用邮件 API 或手动处理，但需要额外开发工作。
+  current_alternative_en: Developers typically use generic email APIs or manual processing, requiring
+    additional development effort.
+  usage_reason: 开源社区关注它，因为它为代理提供专用邮箱基础设施，简化了邮件自动化。
+  usage_reason_en: The open-source community is interested because it provides dedicated mailbox infrastructure
+    for agents, simplifying email automation.

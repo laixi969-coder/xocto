@@ -268,3 +268,44 @@
   usage_reason: 公开代码仓库有 98 个收藏、17 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 98 stars and 17 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-film-studio-skills-2026-08-29
+  project_slug: film-studio-skills
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作中从剧本到可生成镜头提示词的流程痛点，替代人工编写提示词的旧流程，交付可安装的代理技能，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-1cee74dd01e7d0fd
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 99 星显示初步关注，但缺乏用户评价或持续采用数据，共识尚未形成。
+    evidence_ids:
+    - ev-7d346dd55ea3bc2a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费方和付费路径不明确。
+    evidence_ids:
+    - ev-1cee74dd01e7d0fd
+  - gate: truth
+    status: insufficient
+    reason: 产品早期，未验证其提示词质量能否达到专业制作标准，交付确定性待核验。
+    evidence_ids:
+    - ev-1cee74dd01e7d0fd
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，看用户是否报告实际使用效果和替代的旧流程。
+  market: ''
+  job: 视频制作人和 AI 视频创作者需要将剧本转化为可直接用于 AI 视频生成的镜头提示词，并管理整个制作流程。
+  job_en: Video producers and AI video creators need to convert scripts into generation-ready shot prompts
+    and manage the production pipeline.
+  pain: 从剧本到可生成提示词的过程耗时且易出错，手动编写提示词难以保证一致性和质量，影响制作效率。
+  pain_en: The process from script to generation-ready prompts is time-consuming and error-prone; manual
+    prompt writing lacks consistency and quality, affecting production efficiency.
+  current_alternative: 目前可能依赖人工编写提示词或使用通用 AI 工具，但缺乏针对影视制作的专门流程。
+  current_alternative_en: Currently, users may rely on manual prompt writing or general AI tools, lacking
+    a specialized pipeline for film production.
+  usage_reason: 公开仓库有 99 星，显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 99 stars, showing developer attention, but sustained use
+    and payment are not yet verified.

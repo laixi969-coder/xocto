@@ -1,0 +1,80 @@
+- id: req-initial-claude-tag-wif-gateway-sample-2026-08-29
+  project_slug: claude-tag-wif-gateway-sample
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业集成 Claude Tag 身份联合的配置复杂问题，通过官方示例降低集成门槛。工作流结构判断：旧流程是手动配置或第三方方案，此示例提供参考实现。
+    evidence_ids:
+    - ev-38950856907418d0
+  - gate: consensus
+    status: insufficient
+    reason: 作为官方示例，缺乏用户评价或采用案例，无法确认实际使用情况。
+    evidence_ids:
+    - ev-38950856907418d0
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，作为示例代码免费提供，但企业集成服务可能成为付费点。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近身份集成的第一性目标，交付的示例可验证，但明确不维护，需关注长期支持。
+    evidence_ids:
+    - ev-38950856907418d0
+  next_validation: 关注 Anthropic 官方文档和客户案例，以及是否有企业采用该示例的公开信息。
+  market: ''
+  job: 企业平台工程师需要将 Claude Tag 与现有身份系统集成，实现单点登录和身份联合。
+  job_en: Enterprise platform engineers need to integrate Claude Tag with existing identity systems for
+    single sign-on and identity federation.
+  pain: 身份联合配置复杂，缺乏官方参考实现，集成成本高。
+  pain_en: Identity federation configuration is complex, lacking official reference implementations, leading
+    to high integration costs.
+  current_alternative: 目前可能依赖手动配置或第三方身份提供商，缺乏官方示例。
+  current_alternative_en: Currently relies on manual configuration or third-party identity providers,
+    lacking official examples.
+  usage_reason: 作为 Anthropic 官方发布的示例，显示平台对身份联合的重视，但尚未核验实际采用。
+  usage_reason_en: As an official Anthropic release, it shows the platform's emphasis on identity federation,
+    but actual adoption is not yet verified.
+- id: req-full-claude-tag-wif-gateway-sample-2026-08-29
+  project_slug: claude-tag-wif-gateway-sample
+  level: full
+  reviewed_at: '2026-08-29T12:31:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业集成 Claude Tag 身份联合的配置复杂问题，通过官方示例降低集成门槛。工作流结构判断：旧流程是手动配置或第三方方案，此示例提供参考实现。
+    evidence_ids:
+    - ev-38950856907418d0
+  - gate: consensus
+    status: insufficient
+    reason: 作为官方示例，缺乏用户评价或采用案例，无法确认实际使用情况。
+    evidence_ids:
+    - ev-38950856907418d0
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，作为示例代码免费提供，但企业集成服务可能成为付费点。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近身份集成的第一性目标，交付的示例可验证，但明确不维护，需关注长期支持。
+    evidence_ids:
+    - ev-38950856907418d0
+  next_validation: 关注 Anthropic 官方文档和客户案例，以及是否有企业采用该示例的公开信息。
+  market: ''
+  job: 企业平台工程师需要将 Claude Tag 与现有身份系统集成，实现单点登录和身份联合。
+  job_en: Enterprise platform engineers need to integrate Claude Tag with existing identity systems for
+    single sign-on and identity federation.
+  pain: 身份联合配置复杂，缺乏官方参考实现，集成成本高。
+  pain_en: Identity federation configuration is complex, lacking official reference implementations, leading
+    to high integration costs.
+  current_alternative: 目前可能依赖手动配置或第三方身份提供商，缺乏官方示例。
+  current_alternative_en: Currently relies on manual configuration or third-party identity providers,
+    lacking official examples.
+  usage_reason: 作为 Anthropic 官方发布的示例，显示平台对身份联合的重视，但尚未核验实际采用。
+  usage_reason_en: As an official Anthropic release, it shows the platform's emphasis on identity federation,
+    but actual adoption is not yet verified.

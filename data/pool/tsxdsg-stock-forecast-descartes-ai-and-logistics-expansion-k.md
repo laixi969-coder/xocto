@@ -1,11 +1,14 @@
 ---
 slug: tsxdsg-stock-forecast-descartes-ai-and-logistics-expansion-k
-name: 'TSX:DSG Stock Forecast: Descartes’ AI and Logistics Expansion Keeps Investors Watching'
+name: Descartes
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Descartes 是一家物流与供应链技术公司，其产品帮助货主和物流服务商管理运输、海关和合规流程。本次报道聚焦其 AI 应用和业务扩张，但未提供具体产品功能或用户工作流的细节。
 inspiration: ''
-summary_en: ''
+summary_en: Descartes is a logistics and supply chain technology company whose products help shippers
+  and logistics providers manage transportation, customs, and compliance processes. This report focuses
+  on its AI applications and business expansion, but does not provide details on specific product features
+  or user workflows.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDZOMFNIT01s
 summary: 'TSX:DSG Stock Forecast: Descartes’ AI and Logistics Expansion Keeps Investors Watching kalkine.ca'
 first_seen: '2026-08-27T15:14:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# TSX:DSG Stock Forecast: Descartes’ AI and Logistics Expansion Keeps Investors Watching
+# Descartes
 
 TSX:DSG Stock Forecast: Descartes’ AI and Logistics Expansion Keeps Investors Watching kalkine.ca
 

@@ -1,11 +1,12 @@
 ---
 slug: expanding-openais-presence-in-brazil
-name: Expanding OpenAI’s presence in Brazil
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 扩大在巴西的业务，深化与开发者、企业和社区的合作，以支持该国 AI 采用。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses,
+  and communities to support AI adoption in the country.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: OpenAI is expanding its presence in Brazil, deepening engagement with d
   and communities to support AI adoption across the country.
 first_seen: '2026-08-27T03:00:00Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Expanding OpenAI’s presence in Brazil
+# OpenAI
 
 OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.
 

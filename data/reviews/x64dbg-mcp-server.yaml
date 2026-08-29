@@ -336,3 +336,44 @@
   usage_reason: 公开代码仓库有 1,579 个收藏、158 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,579 stars and 158 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-x64dbg-mcp-server-2026-08-29
+  project_slug: x64dbg-mcp-server
+  level: full
+  reviewed_at: '2026-08-29T12:40:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向工程师手动调试重复性高、AI 无法直接控制调试器的痛点，通过 MCP 协议提供程序化控制，交付可确定。工作流结构推理。
+    evidence_ids:
+    - ev-8f513671a69b37e1
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 1,672 个星标，显示社区关注，但缺乏持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-8f513671a69b37e1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或安全团队，但付费路径未公开。
+    evidence_ids:
+    - ev-8f513671a69b37e1
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性高，但安全边界和人工监督机制尚未在公开材料中说明。
+    evidence_ids:
+    - ev-8f513671a69b37e1
+  next_validation: 追踪 x64dbg-mcp-server 的 GitHub issue 和 discussion，确认开发者实际使用场景和替代的旧流程。
+  market: ''
+  job: 逆向工程师需要让 AI 助手控制 x64dbg 调试器，以自动化设置断点、单步执行、读取内存和寄存器等调试操作。
+  job_en: Reverse engineers need AI assistants to control the x64dbg debugger for automating breakpoints,
+    stepping, memory reads, and register dumps.
+  pain: 手动调试重复性高，耗时且易出错；AI 助手无法直接操作调试器，缺乏程序化控制接口。
+  pain_en: Manual debugging is repetitive, time-consuming, and error-prone; AI assistants cannot directly
+    control the debugger without a programmatic interface.
+  current_alternative: 目前逆向工程师可能手动操作 x64dbg 或使用脚本，但缺乏与 AI 助手的集成。
+  current_alternative_en: Currently, reverse engineers may manually operate x64dbg or use scripts, but
+    lack integration with AI assistants.
+  usage_reason: 仓库获得 1,672 个星标，表明开发者关注；但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 1,672 stars, indicating developer interest; sustained use and payment
+    are not yet verified.

@@ -25,3 +25,80 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-voicemem-2026-08-29
+  project_slug: voicemem
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为记忆系统，未说明具体工作流程、输入输出或交付，无法判断需求痛点。
+    evidence_ids:
+    - ev-5b687c744a4f16a1
+  - gate: consensus
+    status: insufficient
+    reason: 有少量星标，但无用户反馈或采用数据，共识程度未知。
+    evidence_ids:
+    - ev-5b687c744a4f16a1
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 关注 VoiceMem 的代码仓库，获取详细文档、使用案例和社区讨论。
+  market: ''
+  job: 语音助手需要记住用户信息并做出共情回应，以提升用户体验。
+  job_en: Voice assistants need to remember user information and respond empathetically to enhance user
+    experience.
+  pain: 现有语音助手缺乏长期记忆，无法提供个性化服务，用户感到疏离。
+  pain_en: Current voice assistants lack long-term memory, cannot provide personalized service, and users
+    feel disconnected.
+  current_alternative: 用户可能手动设置偏好或使用其他工具，但无法实现真正的共情记忆。
+  current_alternative_en: Users may manually set preferences or use other tools, but true empathetic memory
+    is not achieved.
+  usage_reason: 开源项目获得 151 星，表明开发者社区关注，但实际采用和用户反馈未核验。
+  usage_reason_en: The open-source project has 151 stars, indicating developer community interest, but
+    actual adoption and user feedback are unverified.
+- id: req-full-voicemem-2026-08-29
+  project_slug: voicemem
+  level: full
+  reviewed_at: '2026-08-29T12:40:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为记忆系统，未说明具体工作流程、输入输出或交付，无法判断需求痛点。
+    evidence_ids:
+    - ev-5b687c744a4f16a1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 VoiceMem 的代码仓库，获取详细文档、使用案例和社区讨论。
+  market: ''
+  job: 语音助手需要记住用户信息并做出共情回应，以提升用户体验。
+  job_en: Voice assistants need to remember user information and respond empathetically to enhance user
+    experience.
+  pain: 现有语音助手缺乏长期记忆，无法提供个性化服务，用户感到疏离。
+  pain_en: Current voice assistants lack long-term memory, cannot provide personalized service, and users
+    feel disconnected.
+  current_alternative: 用户可能手动设置偏好或使用其他工具，但无法实现真正的共情记忆。
+  current_alternative_en: Users may manually set preferences or use other tools, but true empathetic memory
+    is not achieved.
+  usage_reason: 开源项目获得 151 星，表明开发者社区关注，但实际采用和用户反馈未核验。
+  usage_reason_en: The open-source project has 151 stars, indicating developer community interest, but
+    actual adoption and user feedback are unverified.

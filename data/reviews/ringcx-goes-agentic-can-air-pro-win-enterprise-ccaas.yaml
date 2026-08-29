@@ -1,0 +1,78 @@
+- id: req-initial-ringcx-goes-agentic-can-air-pro-win-enterprise-ccaas-2026-08-29
+  project_slug: ringcx-goes-agentic-can-air-pro-win-enterprise-ccaas
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客服响应慢、成本高的痛点，替代人工处理常见咨询，交付可核对的响应或工单。工作流结构判断：客服是高频刚需。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料为分析文章，缺乏客户采用或评价数据。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业客服部门，但具体付费路径未公开。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  - gate: truth
+    status: supported
+    reason: AI 代理可确定性处理常见咨询，但复杂问题需人工介入，安全边界明确。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  next_validation: 关注 RingCentral 官网或产品页，查看 RingCX AIR Pro 的定价、客户案例及实际部署效果。
+  market: ''
+  job: 客服主管需要管理大量客户咨询，确保响应及时且符合服务标准。
+  job_en: Customer service managers need to handle high volumes of inquiries, ensuring timely responses
+    and service standards.
+  pain: 人工客服成本高、响应慢，且难以 24/7 覆盖，高峰期容易积压。
+  pain_en: Human agents are costly, slow, and cannot cover 24/7, leading to backlogs during peak times.
+  current_alternative: 传统 IVR 系统或外包客服团队。
+  current_alternative_en: Traditional IVR systems or outsourced customer service teams.
+  usage_reason: 企业采用 AI 代理是为了自动化常见咨询，降低人力成本，并提升客户满意度。
+  usage_reason_en: Enterprises adopt AI agents to automate common inquiries, reduce labor costs, and improve
+    customer satisfaction.
+- id: req-full-ringcx-goes-agentic-can-air-pro-win-enterprise-ccaas-2026-08-29
+  project_slug: ringcx-goes-agentic-can-air-pro-win-enterprise-ccaas
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客服响应慢、成本高的痛点，替代人工处理常见咨询，交付可核对的响应或工单。工作流结构判断：客服是高频刚需。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料为分析文章，缺乏客户采用或评价数据。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业客服部门，但具体付费路径未公开。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  - gate: truth
+    status: supported
+    reason: AI 代理可确定性处理常见咨询，但复杂问题需人工介入，安全边界明确。
+    evidence_ids:
+    - ev-c70a69256dc6ecd6
+  next_validation: 关注 RingCentral 官网或产品页，查看 RingCX AIR Pro 的定价、客户案例及实际部署效果。
+  market: ''
+  job: 客服主管需要管理大量客户咨询，确保响应及时且符合服务标准。
+  job_en: Customer service managers need to handle high volumes of inquiries, ensuring timely responses
+    and service standards.
+  pain: 人工客服成本高、响应慢，且难以 24/7 覆盖，高峰期容易积压。
+  pain_en: Human agents are costly, slow, and cannot cover 24/7, leading to backlogs during peak times.
+  current_alternative: 传统 IVR 系统或外包客服团队。
+  current_alternative_en: Traditional IVR systems or outsourced customer service teams.
+  usage_reason: 企业采用 AI 代理是为了自动化常见咨询，降低人力成本，并提升客户满意度。
+  usage_reason_en: Enterprises adopt AI agents to automate common inquiries, reduce labor costs, and improve
+    customer satisfaction.

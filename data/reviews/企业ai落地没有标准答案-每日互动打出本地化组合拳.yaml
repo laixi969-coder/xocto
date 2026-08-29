@@ -1,0 +1,75 @@
+- id: req-initial-企业ai落地没有标准答案-每日互动打出本地化组合拳-2026-08-29
+  project_slug: 企业ai落地没有标准答案-每日互动打出本地化组合拳
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及“本地化组合拳”，未说明具体产品功能或客户痛点。
+    evidence_ids:
+    - ev-8dba595be74f4194
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏采用或客户反馈数据。
+    evidence_ids:
+    - ev-8dba595be74f4194
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids:
+    - ev-8dba595be74f4194
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-8dba595be74f4194
+  next_validation: 关注每日互动官方公告或产品发布，获取具体方案细节。
+  market: ''
+  job: 企业需要将AI落地到自身业务，但面临数据安全、合规等挑战。
+  job_en: Enterprises need to implement AI in their business, facing challenges like data security and
+    compliance.
+  pain: 通用AI方案可能不满足本地化需求，数据隐私和合规风险高。
+  pain_en: Generic AI solutions may not meet localization needs, with high data privacy and compliance
+    risks.
+  current_alternative: 企业可能自建AI团队或使用公有云服务。
+  current_alternative_en: Enterprises may build in-house AI teams or use public cloud services.
+  usage_reason: 尚未核验，但本地化需求可能吸引关注。
+  usage_reason_en: Not yet verified, but localization needs may attract attention.
+- id: req-full-企业ai落地没有标准答案-每日互动打出本地化组合拳-2026-08-29
+  project_slug: 企业ai落地没有标准答案-每日互动打出本地化组合拳
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及“本地化组合拳”，未说明具体产品功能或客户痛点。
+    evidence_ids:
+    - ev-8dba595be74f4194
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 每日互动 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 企业需要将AI落地到自身业务，但面临数据安全、合规等挑战。
+  job_en: Enterprises need to implement AI in their business, facing challenges like data security and
+    compliance.
+  pain: 通用AI方案可能不满足本地化需求，数据隐私和合规风险高。
+  pain_en: Generic AI solutions may not meet localization needs, with high data privacy and compliance
+    risks.
+  current_alternative: 企业可能自建AI团队或使用公有云服务。
+  current_alternative_en: Enterprises may build in-house AI teams or use public cloud services.
+  usage_reason: 尚未核验，但本地化需求可能吸引关注。
+  usage_reason_en: Not yet verified, but localization needs may attract attention.

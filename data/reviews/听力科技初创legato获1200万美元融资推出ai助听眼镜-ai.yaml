@@ -1,0 +1,76 @@
+- id: req-initial-听力科技初创legato获1200万美元融资推出ai助听眼镜-ai-2026-08-29
+  project_slug: 听力科技初创legato获1200万美元融资推出ai助听眼镜-ai
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决听障人士佩戴体验痛点，需求明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及融资和发布，缺乏用户采用数据。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能依赖硬件销售。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  - gate: truth
+    status: supported
+    reason: 产品贴近听障人士第一性目标，交付可确定，但需验证实际效果。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  next_validation: 关注Legato官网或产品评测，验证实际使用效果和用户反馈。
+  market: ''
+  job: 听障人士需要在不显眼的情况下获得助听功能，同时保持社交形象。
+  job_en: Hearing-impaired individuals need discreet hearing assistance while maintaining social image.
+  pain: 传统助听器佩戴不舒适且显眼，社交尴尬。
+  pain_en: Traditional hearing aids are uncomfortable and conspicuous, causing social embarrassment.
+  current_alternative: 目前使用传统助听器或人工耳蜗，但存在佩戴体验差的问题。
+  current_alternative_en: Currently using traditional hearing aids or cochlear implants, but with poor
+    wearing experience.
+  usage_reason: 融资和产品发布表明市场关注，但需验证用户接受度。
+  usage_reason_en: Funding and product launch indicate market attention, but user acceptance needs verification.
+- id: req-full-听力科技初创legato获1200万美元融资推出ai助听眼镜-ai-2026-08-29
+  project_slug: 听力科技初创legato获1200万美元融资推出ai助听眼镜-ai
+  level: full
+  reviewed_at: '2026-08-29T12:41:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决听障人士佩戴体验痛点，需求明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及融资和发布，缺乏用户采用数据。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能依赖硬件销售。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  - gate: truth
+    status: supported
+    reason: 产品贴近听障人士第一性目标，交付可确定，但需验证实际效果。
+    evidence_ids:
+    - ev-ca99597b1c63613a
+  next_validation: 关注Legato官网或产品评测，验证实际使用效果和用户反馈。
+  market: ''
+  job: 听障人士需要在不显眼的情况下获得助听功能，同时保持社交形象。
+  job_en: Hearing-impaired individuals need discreet hearing assistance while maintaining social image.
+  pain: 传统助听器佩戴不舒适且显眼，社交尴尬。
+  pain_en: Traditional hearing aids are uncomfortable and conspicuous, causing social embarrassment.
+  current_alternative: 目前使用传统助听器或人工耳蜗，但存在佩戴体验差的问题。
+  current_alternative_en: Currently using traditional hearing aids or cochlear implants, but with poor
+    wearing experience.
+  usage_reason: 融资和产品发布表明市场关注，但需验证用户接受度。
+  usage_reason_en: Funding and product launch indicate market attention, but user acceptance needs verification.

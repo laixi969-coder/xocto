@@ -35,3 +35,80 @@
   usage_reason: 公开代码仓库有 1,022 个收藏、69 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,022 stars and 69 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-human-review-2026-08-29
+  project_slug: human-review
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决 AI 生成内容的人工审查需求，提供可视化编辑和评论功能，交付可验证。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  - gate: consensus
+    status: supported
+    reason: 代码仓库星标超过 1000，显示社区认可。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，付费路径不明确。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  - gate: truth
+    status: supported
+    reason: 工具功能明确，交付确定性高。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  next_validation: 关注代码仓库的 issue 和用户反馈，以及是否有付费版本。
+  market: ''
+  job: 用户需要审查和修改 AI 生成的 HTML/Markdown 内容。
+  job_en: Users need to review and modify AI-generated HTML/Markdown content.
+  pain: AI 生成内容需要人工校对，但现有工具缺乏可视化反馈机制。
+  pain_en: AI-generated content requires human proofreading, but existing tools lack visual feedback mechanisms.
+  current_alternative: 使用文本编辑器或代码审查工具。
+  current_alternative_en: Using text editors or code review tools.
+  usage_reason: 代码仓库星标超过 1000，显示社区关注。
+  usage_reason_en: Over 1000 stars in the code repository, showing community interest.
+- id: req-full-human-review-2026-08-29
+  project_slug: human-review
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成内容的人工审查需求，提供可视化编辑和评论功能，交付可验证（工具功能明确）。痛点刚性：AI 内容需要人工校对，现有工具缺乏可视化反馈。这是结构推理，基于公开报道。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  - gate: consensus
+    status: supported
+    reason: 代码仓库星标超过 1000，显示社区认可，但缺乏用户评价和持续采用证据。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，付费路径不明确，可能面向 to C 或 to B，这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  - gate: truth
+    status: supported
+    reason: 工具功能明确，交付确定性高，但需更多实际使用数据。
+    evidence_ids:
+    - ev-5eed2a7d6e8a7be6
+  next_validation: 关注代码仓库的 issue 和用户反馈，以及是否有付费版本。
+  market: ''
+  job: 开发者或内容编辑需要审查和修改 AI 生成的 HTML/Markdown 内容，并发送反馈给 AI agent。
+  job_en: Developers or content editors need to review and modify AI-generated HTML/Markdown content and
+    send feedback to AI agents.
+  pain: AI 生成内容需要人工校对，但现有工具缺乏可视化反馈机制，导致审查效率低。
+  pain_en: AI-generated content requires human proofreading, but existing tools lack visual feedback mechanisms,
+    leading to low review efficiency.
+  current_alternative: 使用文本编辑器或代码审查工具，但缺乏与 AI agent 的集成。
+  current_alternative_en: Using text editors or code review tools, but lacking integration with AI agents.
+  usage_reason: 代码仓库星标超过 1000，显示社区关注，但付费和留存尚未核验。
+  usage_reason_en: Over 1000 stars in the code repository, showing community interest, but payment and
+    retention are not yet verified.

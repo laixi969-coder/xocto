@@ -1,12 +1,12 @@
 ---
 slug: accenture-nyseacn-why-is-it-in-focus-after-it-agreed-to-acqu
-name: 'Accenture (NYSE:ACN): Why Is It in Focus After It agreed to acquire a specialist that strengthens
-  enterprise software and artificial-intelligence capabilities?'
+name: Accenture
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 埃森哲是一家全球专业服务公司，此次收购旨在增强其企业软件和人工智能能力。
 inspiration: ''
-summary_en: ''
+summary_en: Accenture is a global professional services firm; this acquisition aims to strengthen its
+  enterprise software and AI capabilities.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: 'Accenture (NYSE:ACN): Why Is It in Focus After It agreed to acquire a 
   enterprise software and artificial-intelligence capabilities? Kalkine Media'
 first_seen: '2026-08-26T09:16:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Accenture (NYSE:ACN): Why Is It in Focus After It agreed to acquire a specialist that strengthens enterprise software and artificial-intelligence capabilities?
+# Accenture
 
 Accenture (NYSE:ACN): Why Is It in Focus After It agreed to acquire a specialist that strengthens enterprise software and artificial-intelligence capabilities? Kalkine Media
 

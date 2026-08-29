@@ -75,3 +75,85 @@
   usage_reason: 公开代码仓库有 123 个收藏、23 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 123 stars and 23 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-flare-2026-08-29
+  project_slug: flare
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理编码时任务依赖不可见、冲突难定位的痛点，替代手动跟踪日志和任务列表的旧流程，交付可视化图谱，价值结构成立。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  - gate: consensus
+    status: insufficient
+    reason: 代码仓库 123 星和社区发布显示初步关注，但缺乏用户评价或持续采用数据，共识尚未形成。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费方和付费路径不明确。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  - gate: truth
+    status: insufficient
+    reason: 产品尚在早期，未验证其图谱能否准确反映真实代理行为，交付确定性待核验。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  next_validation: 关注代码仓库的 issue 和讨论，看用户是否报告实际使用中的冲突检测效果。
+  market: ''
+  job: 开发者需要理解和管理多个 AI 编码代理并行执行的任务，确保它们不冲突、不重复。
+  job_en: Developers need to understand and manage tasks executed in parallel by multiple AI coding agents,
+    ensuring no conflicts or duplication.
+  pain: 现有 IDE 和终端难以展示代理间的依赖和状态，任务失败时难以定位原因。
+  pain_en: Existing IDEs and terminals struggle to show dependencies and status among agents, making it
+    hard to diagnose failures.
+  current_alternative: 开发者通常手动跟踪代理输出，或使用简单的日志和任务列表。
+  current_alternative_en: Developers typically track agent outputs manually, or use simple logs and task
+    lists.
+  usage_reason: Flare 提供可视化的任务图谱，可能减少手动跟踪的负担，但采用证据尚未核验。
+  usage_reason_en: Flare offers a visual task graph that may reduce manual tracking overhead, but adoption
+    evidence is not yet verified.
+- id: req-full-flare-2026-08-29
+  project_slug: flare
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理编码时任务依赖不可见、冲突难定位的痛点，替代手动跟踪日志和任务列表的旧流程，交付可视化图谱，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  - gate: consensus
+    status: insufficient
+    reason: 代码仓库 123 星和社区发布显示初步关注，但缺乏用户评价或持续采用数据，共识尚未形成。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费方和付费路径不明确。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  - gate: truth
+    status: insufficient
+    reason: 产品尚在早期，未验证其图谱能否准确反映真实代理行为，交付确定性待核验。
+    evidence_ids:
+    - ev-0d5ccc5c483727de
+  next_validation: 关注代码仓库的 issue 和讨论，看用户是否报告实际使用中的冲突检测效果。
+  market: ''
+  job: 软件开发者需要理解和管理多个 AI 编码代理并行执行的任务，确保它们不冲突、不重复。
+  job_en: Developers need to understand and manage tasks executed in parallel by multiple AI coding agents,
+    ensuring no conflicts or duplication.
+  pain: 现有 IDE 和终端难以展示代理间的依赖和状态，任务失败时难以定位原因。
+  pain_en: Existing IDEs and terminals struggle to show dependencies and status among agents, making it
+    hard to diagnose failures.
+  current_alternative: 开发者通常手动跟踪代理输出，或使用简单的日志和任务列表。
+  current_alternative_en: Developers typically track agent outputs manually, or use simple logs and task
+    lists.
+  usage_reason: Flare 提供可视化的任务图谱，可能减少手动跟踪的负担，但采用证据尚未核验。
+  usage_reason_en: Flare offers a visual task graph that may reduce manual tracking overhead, but adoption
+    evidence is not yet verified.

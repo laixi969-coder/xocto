@@ -1,0 +1,82 @@
+- id: req-initial-阿里发布全新qoder智能体工作台-支持自然语言开发-2026-08-29
+  project_slug: 阿里发布全新qoder智能体工作台-支持自然语言开发
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业开发者创建应用的需求，痛点明确（开发门槛高、周期长），交付可确定（生成代码或应用）。工作流结构判断：替代传统编码和低代码平台。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户反馈和采用数据，共识度未明。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是企业或个人，但付费路径不清晰。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，交付质量和实际效果未经验证，需观察后续用户评价。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  next_validation: 关注Qoder官方文档或用户社区，验证实际开发能力和采用情况。
+  market: ''
+  job: 非专业开发者或业务人员需要快速创建简单的应用程序或自动化流程。
+  job_en: Non-professional developers or business users need to quickly create simple applications or
+    automation workflows.
+  pain: 传统开发需要编程技能，周期长，业务人员难以独立实现需求。
+  pain_en: Traditional development requires coding skills and long cycles, making it difficult for business
+    users to independently implement needs.
+  current_alternative: 目前依赖IT部门或外包开发，或使用低代码平台，但仍有学习成本。
+  current_alternative_en: Currently relying on IT departments or outsourcing, or using low-code platforms,
+    which still have learning curves.
+  usage_reason: Qoder的自然语言开发可能降低门槛，但具体采用情况尚未核验。
+  usage_reason_en: Qoder's natural language development may lower the barrier, but actual adoption is
+    not yet verified.
+- id: req-full-阿里发布全新qoder智能体工作台-支持自然语言开发-2026-08-29
+  project_slug: 阿里发布全新qoder智能体工作台-支持自然语言开发
+  level: full
+  reviewed_at: '2026-08-29T12:41:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业开发者创建应用的需求，痛点明确（开发门槛高、周期长），交付可确定（生成代码或应用）。工作流结构判断：替代传统编码和低代码平台。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户反馈和采用数据，共识度未明。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是企业或个人，但付费路径不清晰。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，交付质量和实际效果未经验证，需观察后续用户评价。
+    evidence_ids:
+    - ev-9c07ade2e2672061
+  next_validation: 关注Qoder官方文档或用户社区，验证实际开发能力和采用情况。
+  market: ''
+  job: 非专业开发者或业务人员需要快速创建简单的应用程序或自动化流程。
+  job_en: Non-professional developers or business users need to quickly create simple applications or
+    automation workflows.
+  pain: 传统开发需要编程技能，周期长，业务人员难以独立实现需求。
+  pain_en: Traditional development requires coding skills and long cycles, making it difficult for business
+    users to independently implement needs.
+  current_alternative: 目前依赖IT部门或外包开发，或使用低代码平台，但仍有学习成本。
+  current_alternative_en: Currently relying on IT departments or outsourcing, or using low-code platforms,
+    which still have learning curves.
+  usage_reason: Qoder的自然语言开发可能降低门槛，但具体采用情况尚未核验。
+  usage_reason_en: Qoder's natural language development may lower the barrier, but actual adoption is
+    not yet verified.

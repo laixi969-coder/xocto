@@ -1,0 +1,78 @@
+- id: req-initial-revalvo-2026-08-29
+  project_slug: revalvo
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型评估和提示词版本管理的痛点，替代手动测试和脚本，交付可核对的对比结果。工作流结构判断。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅描述功能，缺乏用户采用或社区讨论证据，无法确认共识。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是开发团队，但付费路径未核验。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺可核对的评分和版本管理，但具体实现和交付确定性未验证。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  next_validation: 关注官方定价页和用户案例，验证付费意愿和实际采用。
+  market: ''
+  job: 开发团队需要评估多个模型对同一提示词的表现，并管理提示词版本。
+  job_en: Development teams need to evaluate multiple models on the same prompt and manage prompt versions.
+  pain: 手动逐个模型测试耗时且结果不一致，难以追溯版本变化。
+  pain_en: Manual per-model testing is time-consuming and inconsistent, making version tracking difficult.
+  current_alternative: 目前团队通常手动在多个平台测试，或用脚本批量调用，但缺乏统一评分和版本管理。
+  current_alternative_en: Teams currently test manually on multiple platforms or use scripts, lacking
+    unified scoring and version control.
+  usage_reason: 产品提供并行评估和版本管理，能减少重复劳动，提高模型选择效率。
+  usage_reason_en: The product offers parallel evaluation and version management, reducing repetitive
+    work and improving model selection efficiency.
+- id: req-full-revalvo-2026-08-29
+  project_slug: revalvo
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多模型评估和提示词版本管理的痛点，替代手动测试和脚本，交付可核对的对比结果。工作流结构判断。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅描述功能，缺乏用户采用或社区讨论证据，无法确认共识。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是开发团队，但付费路径未核验。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺可核对的评分和版本管理，但具体实现和交付确定性未验证。
+    evidence_ids:
+    - ev-57a2a50c32442e0d
+  next_validation: 关注官方定价页和用户案例，验证付费意愿和实际采用。
+  market: ''
+  job: 开发团队需要评估多个模型对同一提示词的表现，并管理提示词版本。
+  job_en: Development teams need to evaluate multiple models on the same prompt and manage prompt versions.
+  pain: 手动逐个模型测试耗时且结果不一致，难以追溯版本变化。
+  pain_en: Manual per-model testing is time-consuming and inconsistent, making version tracking difficult.
+  current_alternative: 目前团队通常手动在多个平台测试，或用脚本批量调用，但缺乏统一评分和版本管理。
+  current_alternative_en: Teams currently test manually on multiple platforms or use scripts, lacking
+    unified scoring and version control.
+  usage_reason: 产品提供并行评估和版本管理，能减少重复劳动，提高模型选择效率。
+  usage_reason_en: The product offers parallel evaluation and version management, reducing repetitive
+    work and improving model selection efficiency.

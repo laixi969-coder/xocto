@@ -1,0 +1,70 @@
+- id: req-initial-procom-co-founders-reunite-to-launch-ontrade-an-ai-startup-f-2026-08-29
+  project_slug: procom-co-founders-reunite-to-launch-ontrade-an-ai-startup-f
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及面向财富管理行业，未说明具体功能、流程和交付，无法判断需求痛点。
+    evidence_ids:
+    - ev-dbb7264749212c24
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 OnTrade 官网或产品文档，获取具体功能、定价和客户案例。
+  market: ''
+  job: 财富管理行业需要为客户提供投资建议和资产配置。
+  job_en: The wealth management industry needs to provide investment advice and asset allocation to clients.
+  pain: 人工投顾成本高，服务难以规模化。
+  pain_en: Human advisors are costly and hard to scale.
+  current_alternative: 目前由理财顾问人工分析市场、制定投资方案。
+  current_alternative_en: Currently, financial advisors manually analyze markets and create investment
+    plans.
+  usage_reason: 尚未核验，报道未提供用户采用或关注证据。
+  usage_reason_en: Not yet verified; the report provides no evidence of user adoption or interest.
+- id: req-full-procom-co-founders-reunite-to-launch-ontrade-an-ai-startup-f-2026-08-29
+  project_slug: procom-co-founders-reunite-to-launch-ontrade-an-ai-startup-f
+  level: full
+  reviewed_at: '2026-08-29T12:38:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及面向财富管理行业，未说明具体功能、流程和交付，无法判断需求痛点。
+    evidence_ids:
+    - ev-dbb7264749212c24
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 OnTrade 官网或产品文档，获取具体功能、定价和客户案例。
+  market: ''
+  job: 财富管理行业需要为客户提供投资建议和资产配置。
+  job_en: The wealth management industry needs to provide investment advice and asset allocation to clients.
+  pain: 人工投顾成本高，服务难以规模化。
+  pain_en: Human advisors are costly and hard to scale.
+  current_alternative: 目前由理财顾问人工分析市场、制定投资方案。
+  current_alternative_en: Currently, financial advisors manually analyze markets and create investment
+    plans.
+  usage_reason: 尚未核验，报道未提供用户采用或关注证据。
+  usage_reason_en: Not yet verified; the report provides no evidence of user adoption or interest.

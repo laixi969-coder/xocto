@@ -1,0 +1,76 @@
+- id: req-initial-chat-on-steroids-2026-08-29
+  project_slug: chat-on-steroids
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者希望 ChatGPT 操作本地环境的需求，旧替代是手动复制粘贴或使用浏览器扩展，效率低。工作流结构判断：MCP 本地集成是 AI 助手落地的关键一步。
+    evidence_ids:
+    - ev-a43c9ae9e4bbb29a
+  - gate: consensus
+    status: supported
+    reason: 开源社区 508 星表明开发者有一定关注，但尚未形成大规模采用。
+    evidence_ids:
+    - ev-a43c9ae9e4bbb29a
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，通过捐赠或托管服务盈利，但尚无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露安全性和稳定性，本地 MCP 可能带来安全风险，需要验证。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 issue 和讨论，看用户反馈和安全性问题。
+  market: ''
+  job: 开发者希望让 ChatGPT 能访问本地文件和浏览器，执行需要本地上下文的复杂任务。
+  job_en: Developers want ChatGPT to access local files and browsers to perform complex tasks requiring
+    local context.
+  pain: ChatGPT 默认无法直接操作本地环境，用户需要手动复制粘贴或使用第三方工具，效率低。
+  pain_en: ChatGPT cannot directly operate local environments by default, forcing users to manually copy-paste
+    or use third-party tools, which is inefficient.
+  current_alternative: 替代方式是使用浏览器扩展、文件上传或手动复制代码。
+  current_alternative_en: Alternatives include browser extensions, file uploads, or manual copy-paste.
+  usage_reason: 开源项目获得 508 星，说明开发者对扩展 ChatGPT 本地能力有需求。
+  usage_reason_en: The open-source project has 508 stars, indicating developer demand for extending ChatGPT's
+    local capabilities.
+- id: req-full-chat-on-steroids-2026-08-29
+  project_slug: chat-on-steroids
+  level: full
+  reviewed_at: '2026-08-29T12:31:42Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者希望 ChatGPT 操作本地环境的需求，旧替代是手动复制粘贴或使用浏览器扩展，效率低。工作流结构判断：MCP 本地集成是 AI 助手落地的关键一步。
+    evidence_ids:
+    - ev-a43c9ae9e4bbb29a
+  - gate: consensus
+    status: supported
+    reason: 开源社区 508 星表明开发者有一定关注，但尚未形成大规模采用。
+    evidence_ids:
+    - ev-a43c9ae9e4bbb29a
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，通过捐赠或托管服务盈利，但尚无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露安全性和稳定性，本地 MCP 可能带来安全风险，需要验证。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 issue 和讨论，看用户反馈和安全性问题。
+  market: ''
+  job: 开发者希望让 ChatGPT 能访问本地文件和浏览器，执行需要本地上下文的复杂任务。
+  job_en: Developers want ChatGPT to access local files and browsers to perform complex tasks requiring
+    local context.
+  pain: ChatGPT 默认无法直接操作本地环境，用户需要手动复制粘贴或使用第三方工具，效率低。
+  pain_en: ChatGPT cannot directly operate local environments by default, forcing users to manually copy-paste
+    or use third-party tools, which is inefficient.
+  current_alternative: 替代方式是使用浏览器扩展、文件上传或手动复制代码。
+  current_alternative_en: Alternatives include browser extensions, file uploads, or manual copy-paste.
+  usage_reason: 开源项目获得 508 星，说明开发者对扩展 ChatGPT 本地能力有需求。
+  usage_reason_en: The open-source project has 508 stars, indicating developer demand for extending ChatGPT's
+    local capabilities.

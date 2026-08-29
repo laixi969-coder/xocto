@@ -342,3 +342,43 @@
   usage_reason: 公开代码仓库有 884 个收藏、67 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 884 stars and 67 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-4danyone-2026-08-29
+  project_slug: 4danyone
+  level: full
+  reviewed_at: '2026-08-29T12:29:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从单目视频生成 4D 人物的需求，痛点在于传统相机阵列成本高、部署受限；工作流结构推理显示交付可确定（生成多视角视频并重建 4DGS）。
+    evidence_ids:
+    - ev-06cde0ed30f60b74
+    - ev-e57829f2fdb039d0
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 917 星显示社区关注，但缺乏用户讨论、部署或持续采用证据，共识未充分建立。
+    evidence_ids:
+    - ev-a0068c3e7d832bbc
+  - gate: model
+    status: insufficient
+    reason: 未发现定价或付费主体，开源项目可能靠捐赠或企业支持，但这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付结果（4D 模型质量）缺乏可复现的公开验证，人工边界和安全问题未说明。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找真实使用场景和用户反馈。
+  market: ''
+  job: 从一段随意拍摄的单目视频生成可旋转、可动画的 4D 人物模型，用于影视、游戏等场景。
+  job_en: Create a rotatable, animatable 4D human model from a casual monocular video for film, games,
+    and similar uses.
+  pain: 传统方法需要校准的同步相机阵列，严重限制实际应用；单目视频重建 4D 人物缺乏高效方案。
+  pain_en: Traditional methods require calibrated synchronized camera arrays, severely limiting real-world
+    use; efficient 4D human reconstruction from monocular video is lacking.
+  current_alternative: 使用校准的同步相机阵列进行重建，成本高、部署受限。
+  current_alternative_en: Using calibrated synchronized camera arrays for reconstruction, which is costly
+    and deployment-limited.
+  usage_reason: 开源仓库获得 917 星，说明开发者关注；但持续使用和付费尚未核验。
+  usage_reason_en: The open-source repository has 917 stars, showing developer attention; repeat use and
+    payment are not yet verified.

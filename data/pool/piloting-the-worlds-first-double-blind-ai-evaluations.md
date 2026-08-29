@@ -1,11 +1,12 @@
 ---
 slug: piloting-the-worlds-first-double-blind-ai-evaluations
-name: Piloting the world's first double-blind AI evaluations
+name: Google DeepMind
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google DeepMind 启动全球首个双盲 AI 评测机制试点，以提升前沿大模型评估的客观性与防作弊能力。
 inspiration: ''
-summary_en: ''
+summary_en: Google DeepMind piloted the world's first double-blind AI evaluation framework to improve
+  objectivity in frontier model benchmarking.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://deepmind.google/blog/piloting-the-worlds-first-double-bli
 summary: Piloting the world's first double-blind AI evaluations
 first_seen: '2026-08-27T12:59:16Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Piloting the world's first double-blind AI evaluations
+# Google DeepMind
 
 Piloting the world's first double-blind AI evaluations
 

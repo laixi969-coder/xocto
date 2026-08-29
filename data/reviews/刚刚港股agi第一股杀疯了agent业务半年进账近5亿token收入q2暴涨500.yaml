@@ -1,0 +1,80 @@
+- id: req-initial-刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500-2026-08-29
+  project_slug: 刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制造企业业务流程自动化的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: consensus
+    status: supported
+    reason: 收入增长和客户采用表明市场认可，但具体客户案例未披露。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: model
+    status: insufficient
+    reason: 商业模式未详细披露，但收入增长暗示有付费路径。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: truth
+    status: supported
+    reason: 产品贴近企业核心业务，交付可验证，但需更多客户反馈。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  next_validation: 关注创新奇智官方财报和客户案例，验证智能体业务的持续增长和客户留存。
+  market: ''
+  job: 制造企业需要将生产、供应链等业务流程自动化，减少人工干预。
+  job_en: Manufacturing enterprises need to automate business processes like production and supply chain
+    to reduce manual intervention.
+  pain: 传统流程依赖大量人工协调，效率低且易出错。
+  pain_en: Traditional processes rely heavily on manual coordination, which is inefficient and error-prone.
+  current_alternative: 目前企业多采用人工管理或传统软件，缺乏智能化。
+  current_alternative_en: Currently, enterprises often use manual management or traditional software,
+    lacking intelligence.
+  usage_reason: 创新奇智提供成熟的智能体平台，且有显著收入增长，表明企业愿意采用。
+  usage_reason_en: AInnovation offers a mature agent platform with significant revenue growth, indicating
+    enterprise adoption.
+- id: req-full-刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500-2026-08-29
+  project_slug: 刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制造企业业务流程自动化的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: consensus
+    status: supported
+    reason: 收入增长和客户采用表明市场认可，但具体客户案例未披露。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: model
+    status: insufficient
+    reason: 商业模式未详细披露，但收入增长暗示有付费路径。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: truth
+    status: supported
+    reason: 产品贴近企业核心业务，交付可验证，但需更多客户反馈。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  next_validation: 关注创新奇智官方财报和客户案例，验证智能体业务的持续增长和客户留存。
+  market: ''
+  job: 制造企业需要将生产、供应链等业务流程自动化，减少人工干预。
+  job_en: Manufacturing enterprises need to automate business processes like production and supply chain
+    to reduce manual intervention.
+  pain: 传统流程依赖大量人工协调，效率低且易出错。
+  pain_en: Traditional processes rely heavily on manual coordination, which is inefficient and error-prone.
+  current_alternative: 目前企业多采用人工管理或传统软件，缺乏智能化。
+  current_alternative_en: Currently, enterprises often use manual management or traditional software,
+    lacking intelligence.
+  usage_reason: 创新奇智提供成熟的智能体平台，且有显著收入增长，表明企业愿意采用。
+  usage_reason_en: AInnovation offers a mature agent platform with significant revenue growth, indicating
+    enterprise adoption.

@@ -1,0 +1,74 @@
+- id: req-initial-grok-2026-08-29
+  project_slug: grok
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决用户获取实时信息和生成内容的需求，提供集成式助手，交付可验证。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  - gate: consensus
+    status: supported
+    reason: 拥有大量访问量，用户关注度高，但诉讼可能影响共识。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  - gate: model
+    status: insufficient
+    reason: 免费使用，商业模式未披露，付费路径不明确。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  - gate: truth
+    status: challenged
+    reason: 训练数据合法性受到质疑，可能影响产品可信度。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  next_validation: 关注诉讼进展和 xAI 的官方回应，以及用户反馈。
+  market: ''
+  job: 用户需要获取实时信息、生成图像和分析趋势。
+  job_en: Users need real-time information, image generation, and trend analysis.
+  pain: 传统搜索引擎信息滞后，图像生成工具不集成。
+  pain_en: Traditional search engines lag, and image generation tools are not integrated.
+  current_alternative: 使用 ChatGPT、Google Gemini 等通用助手。
+  current_alternative_en: Using general assistants like ChatGPT, Google Gemini.
+  usage_reason: Grok 拥有大量访问量，但近期诉讼可能影响采用。
+  usage_reason_en: Grok has significant traffic, but the lawsuit may affect adoption.
+- id: req-full-grok-2026-08-29
+  project_slug: grok
+  level: full
+  reviewed_at: '2026-08-29T12:35:18Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决用户获取实时信息和生成内容的需求，提供集成式助手，交付可验证。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  - gate: consensus
+    status: supported
+    reason: 拥有大量访问量，用户关注度高，但诉讼可能影响共识。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  - gate: model
+    status: insufficient
+    reason: 免费使用，商业模式未披露，付费路径不明确。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  - gate: truth
+    status: challenged
+    reason: 训练数据合法性受到质疑，可能影响产品可信度。
+    evidence_ids:
+    - ev-b4c985fcd9018ced
+  next_validation: 追踪 Grok 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 用户需要获取实时信息、生成图像和分析趋势。
+  job_en: Users need real-time information, image generation, and trend analysis.
+  pain: 传统搜索引擎信息滞后，图像生成工具不集成。
+  pain_en: Traditional search engines lag, and image generation tools are not integrated.
+  current_alternative: 使用 ChatGPT、Google Gemini 等通用助手。
+  current_alternative_en: Using general assistants like ChatGPT, Google Gemini.
+  usage_reason: Grok 拥有大量访问量，但近期诉讼可能影响采用。
+  usage_reason_en: Grok has significant traffic, but the lawsuit may affect adoption.

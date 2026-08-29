@@ -1,11 +1,12 @@
 ---
 slug: anthropic-was-illegally-blacklisted-by-the-trump-administrat
-name: Anthropic was illegally blacklisted by the Trump administration, court rules
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 法院裁定美国国防部将 Anthropic 列入黑名单违宪，Anthropic 在与特朗普政府的法律战中获胜。
 inspiration: ''
-summary_en: ''
+summary_en: A court ruled that the Pentagon's blacklisting of Anthropic was unconstitutional, giving Anthropic
+  a win in its legal battle with the Trump administration.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropi
   of unlawfully retaliating against Anthropic for setting "red […]
 first_seen: '2026-08-28T03:14:06Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic was illegally blacklisted by the Trump administration, court rules
+# Anthropic
 
 On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration. The lawsuit, filed in March in a California district court, accused the Trump administration of unlawfully retaliating against Anthropic for setting "red […]
 

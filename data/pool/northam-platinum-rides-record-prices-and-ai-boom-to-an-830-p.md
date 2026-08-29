@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQT1ZtekNzb2dp
 summary: Northam Platinum rides record prices and AI boom to an 830% profit surge innovation-village.com
 first_seen: '2026-08-28T10:46:57Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

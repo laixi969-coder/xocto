@@ -1,0 +1,82 @@
+- id: req-initial-simplify-codebase-2026-08-29
+  project_slug: simplify-codebase
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件工程师在重构时识别意外复杂度的需求，痛点明确，交付可验证（不改变行为）。工作流结构判断。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  - gate: consensus
+    status: insufficient
+    reason: 有 322 星但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，买方可能是开发者或企业，但付费路径不明。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  - gate: truth
+    status: supported
+    reason: 贴近开发第一性目标，承诺可验证，但安全边界需进一步确认。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  next_validation: 关注开源社区的 issue 和讨论，以及是否有企业采用案例或付费版本发布。
+  market: ''
+  job: 软件工程师在重构或维护代码库时，需要识别并移除意外复杂度，同时确保不改变系统行为。
+  job_en: Software engineers, when refactoring or maintaining a codebase, need to identify and remove
+    accidental complexity while ensuring no behavioral change.
+  pain: 手动识别代码中的意外复杂度耗时且容易遗漏，重构风险高，可能导致回归错误。
+  pain_en: Manually identifying accidental complexity is time-consuming and error-prone, with high refactoring
+    risk and potential regressions.
+  current_alternative: 目前主要依靠人工代码审查、静态分析工具或重构经验，缺乏自动化验证。
+  current_alternative_en: Currently relies on manual code review, static analysis tools, or refactoring
+    experience, lacking automated verification.
+  usage_reason: 开源项目获得 322 星，说明开发者关注代码简化自动化，但采用和付费尚未核验。
+  usage_reason_en: The open-source project has 322 stars, indicating developer interest in automated code
+    simplification, but adoption and payment are not yet verified.
+- id: req-full-simplify-codebase-2026-08-29
+  project_slug: simplify-codebase
+  level: full
+  reviewed_at: '2026-08-29T12:39:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件工程师在重构时识别意外复杂度的需求，痛点明确，交付可验证（不改变行为）。工作流结构判断。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  - gate: consensus
+    status: insufficient
+    reason: 有 322 星但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，买方可能是开发者或企业，但付费路径不明。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  - gate: truth
+    status: supported
+    reason: 贴近开发第一性目标，承诺可验证，但安全边界需进一步确认。
+    evidence_ids:
+    - ev-9cd565cb0ee2daca
+  next_validation: 关注开源社区的 issue 和讨论，以及是否有企业采用案例或付费版本发布。
+  market: ''
+  job: 软件工程师在重构或维护代码库时，需要识别并移除意外复杂度，同时确保不改变系统行为。
+  job_en: Software engineers, when refactoring or maintaining a codebase, need to identify and remove
+    accidental complexity while ensuring no behavioral change.
+  pain: 手动识别代码中的意外复杂度耗时且容易遗漏，重构风险高，可能导致回归错误。
+  pain_en: Manually identifying accidental complexity is time-consuming and error-prone, with high refactoring
+    risk and potential regressions.
+  current_alternative: 目前主要依靠人工代码审查、静态分析工具或重构经验，缺乏自动化验证。
+  current_alternative_en: Currently relies on manual code review, static analysis tools, or refactoring
+    experience, lacking automated verification.
+  usage_reason: 开源项目获得 322 星，说明开发者关注代码简化自动化，但采用和付费尚未核验。
+  usage_reason_en: The open-source project has 322 stars, indicating developer interest in automated code
+    simplification, but adoption and payment are not yet verified.

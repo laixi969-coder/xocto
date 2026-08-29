@@ -1,0 +1,82 @@
+- id: req-initial-群核科技上半年ai收入增177空间智能提速有望填补港股世界模型空白-2026-08-29
+  project_slug: 群核科技上半年ai收入增177空间智能提速有望填补港股世界模型空白
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师快速生成和修改方案的需求，痛点在于传统设计周期长、成本高，AI生成可即时交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  - gate: consensus
+    status: supported
+    reason: AI收入增长177%显示用户付费意愿强，但缺乏留存数据，共识部分成立。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露具体定价和付费方，但收入增长暗示有付费路径，需进一步核验。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  - gate: truth
+    status: supported
+    reason: 产品贴近设计工作的第一性目标，AI生成结果可确定性交付，安全边界清晰。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  next_validation: 关注群核科技官方财报或产品页，获取AI功能的具体定价和用户付费数据。
+  market: ''
+  job: 设计师需要快速生成和修改设计方案，以响应客户需求并提高出图效率。
+  job_en: Designers need to quickly generate and modify design schemes to respond to client needs and
+    improve drawing efficiency.
+  pain: 传统设计流程耗时且成本高，AI生成方案可大幅缩短周期，降低修改成本。
+  pain_en: Traditional design processes are time-consuming and costly; AI-generated schemes can significantly
+    shorten cycles and reduce revision costs.
+  current_alternative: 设计师可能使用CAD、SketchUp等专业软件，或外包给效果图公司。
+  current_alternative_en: Designers may use professional software like CAD, SketchUp, or outsource to
+    rendering companies.
+  usage_reason: AI收入增长177%表明市场对AI设计工具的采用在加速，空间智能提速引发关注。
+  usage_reason_en: The 177% growth in AI revenue indicates accelerating adoption of AI design tools, and
+    the acceleration of spatial intelligence has drawn attention.
+- id: req-full-群核科技上半年ai收入增177空间智能提速有望填补港股世界模型空白-2026-08-29
+  project_slug: 群核科技上半年ai收入增177空间智能提速有望填补港股世界模型空白
+  level: full
+  reviewed_at: '2026-08-29T12:41:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师快速生成和修改方案的需求，痛点在于传统设计周期长、成本高，AI生成可即时交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  - gate: consensus
+    status: supported
+    reason: AI收入增长177%显示用户付费意愿强，但缺乏留存数据，共识部分成立。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露具体定价和付费方，但收入增长暗示有付费路径，需进一步核验。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  - gate: truth
+    status: supported
+    reason: 产品贴近设计工作的第一性目标，AI生成结果可确定性交付，安全边界清晰。
+    evidence_ids:
+    - ev-201127ffe52e5c63
+  next_validation: 关注群核科技官方财报或产品页，获取AI功能的具体定价和用户付费数据。
+  market: ''
+  job: 设计师需要快速生成和修改设计方案，以响应客户需求并提高出图效率。
+  job_en: Designers need to quickly generate and modify design schemes to respond to client needs and
+    improve drawing efficiency.
+  pain: 传统设计流程耗时且成本高，AI生成方案可大幅缩短周期，降低修改成本。
+  pain_en: Traditional design processes are time-consuming and costly; AI-generated schemes can significantly
+    shorten cycles and reduce revision costs.
+  current_alternative: 设计师可能使用CAD、SketchUp等专业软件，或外包给效果图公司。
+  current_alternative_en: Designers may use professional software like CAD, SketchUp, or outsource to
+    rendering companies.
+  usage_reason: AI收入增长177%表明市场对AI设计工具的采用在加速，空间智能提速引发关注。
+  usage_reason_en: The 177% growth in AI revenue indicates accelerating adoption of AI design tools, and
+    the acceleration of spatial intelligence has drawn attention.

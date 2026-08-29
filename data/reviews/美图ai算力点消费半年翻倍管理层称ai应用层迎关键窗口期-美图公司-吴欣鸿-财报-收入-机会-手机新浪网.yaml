@@ -1,0 +1,82 @@
+- id: req-initial-美图ai算力点消费半年翻倍管理层称ai应用层迎关键窗口期-美图公司-吴欣鸿-财报-收入-机会-手机新浪网-2026-08-29
+  project_slug: 美图ai算力点消费半年翻倍管理层称ai应用层迎关键窗口期-美图公司-吴欣鸿-财报-收入-机会-手机新浪网
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速获得可用图像成品的需求，痛点在于传统修图耗时且需专业技能，AI生成可即时交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  - gate: consensus
+    status: supported
+    reason: 算力点消费半年翻倍显示用户实际使用和付费在增长，但缺乏留存或复购数据，共识部分成立。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露具体定价和付费方，但消费增长暗示有付费路径，需进一步核验。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  - gate: truth
+    status: supported
+    reason: 产品贴近用户创作的第一性目标，AI生成结果可确定性交付，安全边界清晰。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  next_validation: 关注美图官方财报或产品页，获取AI功能的具体定价和用户付费数据。
+  market: ''
+  job: 用户需要快速完成图片美化、生成或设计，以获得可用于社交、电商或工作的成品。
+  job_en: Users need to quickly beautify, generate, or design images to obtain finished products for social
+    media, e-commerce, or work.
+  pain: 传统修图或设计需要专业软件技能和大量时间，AI工具能显著降低门槛和耗时。
+  pain_en: Traditional photo editing or design requires professional software skills and significant time;
+    AI tools can significantly lower the barrier and time cost.
+  current_alternative: 用户可能使用Photoshop等专业软件、外包给设计师，或使用免费但功能有限的在线工具。
+  current_alternative_en: Users may use professional software like Photoshop, outsource to designers,
+    or use free but limited online tools.
+  usage_reason: AI工具提供即时、低成本的创作结果，吸引大量非专业用户尝试，算力点消费翻倍表明采用在增长。
+  usage_reason_en: AI tools offer instant, low-cost creative results, attracting many non-professional
+    users; the doubling of compute point consumption indicates growing adoption.
+- id: req-full-美图ai算力点消费半年翻倍管理层称ai应用层迎关键窗口期-美图公司-吴欣鸿-财报-收入-机会-手机新浪网-2026-08-29
+  project_slug: 美图ai算力点消费半年翻倍管理层称ai应用层迎关键窗口期-美图公司-吴欣鸿-财报-收入-机会-手机新浪网
+  level: full
+  reviewed_at: '2026-08-29T12:41:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速获得可用图像成品的需求，痛点在于传统修图耗时且需专业技能，AI生成可即时交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  - gate: consensus
+    status: supported
+    reason: 算力点消费半年翻倍显示用户实际使用和付费在增长，但缺乏留存或复购数据，共识部分成立。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露具体定价和付费方，但消费增长暗示有付费路径，需进一步核验。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  - gate: truth
+    status: supported
+    reason: 产品贴近用户创作的第一性目标，AI生成结果可确定性交付，安全边界清晰。
+    evidence_ids:
+    - ev-13533bb8e44237c5
+  next_validation: 关注美图官方财报或产品页，获取AI功能的具体定价和用户付费数据。
+  market: ''
+  job: 用户需要快速完成图片美化、生成或设计，以获得可用于社交、电商或工作的成品。
+  job_en: Users need to quickly beautify, generate, or design images to obtain finished products for social
+    media, e-commerce, or work.
+  pain: 传统修图或设计需要专业软件技能和大量时间，AI工具能显著降低门槛和耗时。
+  pain_en: Traditional photo editing or design requires professional software skills and significant time;
+    AI tools can significantly lower the barrier and time cost.
+  current_alternative: 用户可能使用Photoshop等专业软件、外包给设计师，或使用免费但功能有限的在线工具。
+  current_alternative_en: Users may use professional software like Photoshop, outsource to designers,
+    or use free but limited online tools.
+  usage_reason: AI工具提供即时、低成本的创作结果，吸引大量非专业用户尝试，算力点消费翻倍表明采用在增长。
+  usage_reason_en: AI tools offer instant, low-cost creative results, attracting many non-professional
+    users; the doubling of compute point consumption indicates growing adoption.

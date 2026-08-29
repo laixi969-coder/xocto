@@ -2,20 +2,28 @@
 slug: vendo
 name: Vendo
 builder: Garry Tan
-category: AI + 商业
-summary_zh: 客户在你的软件里用一句话做出自己要的功能，不用等你排期开发
-inspiration: 趋势是定制需求永远排不完，与其做功能，不如让客户在你的产品里自建。切入先做报表、审批流、客户自己的看板这种每个公司都不一样、却又人人要的模块。
-summary_en: Customers describe the feature they need inside your product and get it, without waiting on
-  your roadmap.
-inspiration_en: The trend is custom requests never clearing the backlog, so let customers build inside
-  your product. Enter reports, approval flows, and personal dashboards—modules every company wants and
-  no two companies share.
+category: AI + 开发
+summary_zh: Vendo 允许用户在自己的产品内构建自定义功能，具体实现方式、输入输出和交付物仍待核验。公开信息仅提及这一概念，缺乏详细说明。
+inspiration: 趋势是产品从固定功能转向用户可扩展，平台化能力成为竞争点。切入可从特定行业（如内部工具、垂直 SaaS）入手，提供可定制的功能构建体验，但需先验证用户真实需求。
+summary_en: Vendo lets users build their own features inside your product. Specific implementation, inputs,
+  outputs, and deliverables are yet to be verified; public info only mentions this concept without details.
+inspiration_en: The trend is products shifting from fixed features to user extensibility, making platform
+  capabilities a competitive edge. Entry could target specific industries like internal tools or vertical
+  SaaS, offering customizable feature-building experiences, but user demand must be validated first.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 软件开发
+- SaaS
+industries_en:
+- Software Development
+- SaaS
+jobs:
+- 产品经理
+- 开发者
+jobs_en:
+- Product Managers
+- Developers
 regions: []
 regions_en: []
 open_source: false
@@ -24,7 +32,7 @@ canonical_url: https://producthunt.com/products/vendo
 summary: Let your users build their own features inside your product
 first_seen: '2026-08-16T22:13:45Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - hackernews

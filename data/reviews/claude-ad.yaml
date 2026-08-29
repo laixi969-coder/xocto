@@ -26,3 +26,81 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-claude-ad-2026-08-29
+  project_slug: claude-ad
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队工程师在 AD 渗透测试中手动执行攻击步骤耗时且易错的问题，通过 AI 驱动现有工具自动化流程，交付可复用的攻击方法。工作流结构判断：旧流程是手动或脚本化，AI 能显著降低门槛。
+    evidence_ids:
+    - ev-60a4341681d7d7f2
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区 137 星显示关注，但缺乏用户评价、采用案例或讨论，无法确认是否被实际使用。
+    evidence_ids:
+    - ev-b758473b11682d31
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向安全服务公司或内部红队，但付费方和定价未公开。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近渗透测试的第一性目标，交付的攻击流程可验证，但安全边界和误用风险需关注。
+    evidence_ids:
+    - ev-60a4341681d7d7f2
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有安全公司采用或付费的公开案例。
+  market: ''
+  job: 红队工程师在内部网络渗透测试中，需要高效执行 Active Directory 攻击手法并规避检测。
+  job_en: Red team engineers need to efficiently execute Active Directory attack techniques and evade
+    detection during internal penetration tests.
+  pain: 手动执行这些攻击步骤耗时且容易出错，且需要深厚的专业知识。
+  pain_en: Manual execution of these attack steps is time-consuming, error-prone, and requires deep expertise.
+  current_alternative: 目前主要依赖手动操作或编写自定义脚本，缺乏系统化的流程。
+  current_alternative_en: Currently relies on manual operations or custom scripts, lacking a systematic
+    workflow.
+  usage_reason: 开源项目获得 137 星，说明安全社区对 AI 辅助渗透测试有初步兴趣，但尚未核验实际采用和付费情况。
+  usage_reason_en: The open-source project has 137 stars, indicating initial interest from the security
+    community in AI-assisted penetration testing, but actual adoption and payment are not yet verified.
+- id: req-full-claude-ad-2026-08-29
+  project_slug: claude-ad
+  level: full
+  reviewed_at: '2026-08-29T12:31:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决红队工程师在 AD 渗透测试中手动执行攻击步骤耗时且易错的问题，通过 AI 驱动现有工具自动化流程，交付可复用的攻击方法。工作流结构判断：旧流程是手动或脚本化，AI 能显著降低门槛。
+    evidence_ids:
+    - ev-60a4341681d7d7f2
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区 137 星显示关注，但缺乏用户评价、采用案例或讨论，无法确认是否被实际使用。
+    evidence_ids:
+    - ev-b758473b11682d31
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向安全服务公司或内部红队，但付费方和定价未公开。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近渗透测试的第一性目标，交付的攻击流程可验证，但安全边界和误用风险需关注。
+    evidence_ids:
+    - ev-60a4341681d7d7f2
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有安全公司采用或付费的公开案例。
+  market: ''
+  job: 红队工程师在内部网络渗透测试中，需要高效执行 Active Directory 攻击手法并规避检测。
+  job_en: Red team engineers need to efficiently execute Active Directory attack techniques and evade
+    detection during internal penetration tests.
+  pain: 手动执行这些攻击步骤耗时且容易出错，且需要深厚的专业知识。
+  pain_en: Manual execution of these attack steps is time-consuming, error-prone, and requires deep expertise.
+  current_alternative: 目前主要依赖手动操作或编写自定义脚本，缺乏系统化的流程。
+  current_alternative_en: Currently relies on manual operations or custom scripts, lacking a systematic
+    workflow.
+  usage_reason: 开源项目获得 137 星，说明安全社区对 AI 辅助渗透测试有初步兴趣，但尚未核验实际采用和付费情况。
+  usage_reason_en: The open-source project has 137 stars, indicating initial interest from the security
+    community in AI-assisted penetration testing, but actual adoption and payment are not yet verified.

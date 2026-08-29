@@ -25,3 +25,74 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-alego-2026-08-29
+  project_slug: alego
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明插件化构建代理，未明确具体任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-4ba6344570fa6cc7
+  - gate: consensus
+    status: insufficient
+    reason: 有 79 星，但无用户讨论或采用数据，共识未建立。
+    evidence_ids:
+    - ev-4ba6344570fa6cc7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue 和讨论，看是否有真实使用场景和用户反馈。
+  market: ''
+  job: 构建 AI 代理。
+  job_en: Build AI agents.
+  pain: 现有代理构建框架缺乏灵活性。
+  pain_en: Existing agent frameworks lack flexibility.
+  current_alternative: 使用 LangChain 等现有框架。
+  current_alternative_en: Using existing frameworks like LangChain.
+  usage_reason: 开源项目，79 星，可能吸引尝试新框架的开发者，但采用证据不足。
+  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks, but adoption
+    evidence is insufficient.
+- id: req-full-alego-2026-08-29
+  project_slug: alego
+  level: full
+  reviewed_at: '2026-08-29T12:30:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明插件化构建代理，未明确具体任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-4ba6344570fa6cc7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue 和讨论，看是否有真实使用场景和用户反馈。
+  market: ''
+  job: 构建 AI 代理。
+  job_en: Build AI agents.
+  pain: 现有代理构建框架缺乏灵活性。
+  pain_en: Existing agent frameworks lack flexibility.
+  current_alternative: 使用 LangChain 等现有框架。
+  current_alternative_en: Using existing frameworks like LangChain.
+  usage_reason: 开源项目，79 星，可能吸引尝试新框架的开发者，但采用证据不足。
+  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks, but adoption
+    evidence is insufficient.

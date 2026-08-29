@@ -21,7 +21,7 @@ canonical_url: https://github.com/elyosh/OpenTIE
 summary: Modern Ports of Tie Fighter and X-Wing Alliance
 first_seen: '2026-08-27T22:10:47Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

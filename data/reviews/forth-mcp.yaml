@@ -1,0 +1,75 @@
+- id: req-initial-forth-mcp-2026-08-29
+  project_slug: forth-mcp
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决远程 agent 无法访问本地资源的痛点，替代手动暴露和内网穿透，交付安全的桥接，价值结构成立。
+    evidence_ids:
+    - ev-c8085ebe610c2ab6
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区 5 分和 1 条评论显示关注度低，缺乏用户评价。
+    evidence_ids:
+    - ev-c8085ebe610c2ab6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，付费方和路径不明确。
+    evidence_ids:
+    - ev-c8085ebe610c2ab6
+  - gate: truth
+    status: insufficient
+    reason: 产品早期，未验证其安全性和稳定性。
+    evidence_ids:
+    - ev-c8085ebe610c2ab6
+  next_validation: 关注官网文档和用户反馈，看是否有企业采用案例。
+  market: ''
+  job: 开发者希望远程 AI agent 能使用本地 MCP 服务器提供的工具和数据。
+  job_en: Developers want remote AI agents to use tools and data from local MCP servers.
+  pain: 云端 agent 无法直接访问本地资源，导致功能受限。
+  pain_en: Cloud agents cannot directly access local resources, limiting functionality.
+  current_alternative: 手动将本地工具暴露到公网，或使用内网穿透。
+  current_alternative_en: Manually exposing local tools to the public internet, or using NAT traversal.
+  usage_reason: 技术社区讨论显示对本地-远程桥接的兴趣，但采用证据不足。
+  usage_reason_en: Tech community discussion shows interest in local-remote bridging, but adoption evidence
+    is insufficient.
+- id: req-full-forth-mcp-2026-08-29
+  project_slug: forth-mcp
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决远程 agent 无法访问本地资源的痛点，替代手动暴露和内网穿透，交付安全的桥接，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-c8085ebe610c2ab6
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区 5 分和 1 条评论显示关注度低，缺乏用户评价。
+    evidence_ids:
+    - ev-c8085ebe610c2ab6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，付费方和路径不明确。
+    evidence_ids:
+    - ev-c8085ebe610c2ab6
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Forth MCP 是一个服务，允许远程 AI 客户端（如云端 agent）访问用户本地的 MCP 服务器，从而利用本地工具和数据。具体实现和安全性待核验”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注官网文档和用户反馈，看是否有企业采用案例。
+  market: ''
+  job: 开发者希望远程 AI agent 能使用本地 MCP 服务器提供的工具和数据。
+  job_en: Developers want remote AI agents to use tools and data from local MCP servers.
+  pain: 云端 agent 无法直接访问本地资源，导致功能受限。
+  pain_en: Cloud agents cannot directly access local resources, limiting functionality.
+  current_alternative: 手动将本地工具暴露到公网，或使用内网穿透。
+  current_alternative_en: Manually exposing local tools to the public internet, or using NAT traversal.
+  usage_reason: 技术社区讨论显示对本地-远程桥接的兴趣，但采用证据不足。
+  usage_reason_en: Tech community discussion shows interest in local-remote bridging, but adoption evidence
+    is insufficient.

@@ -1,11 +1,12 @@
 ---
 slug: 硬件挣钱软件承压-ai板块中报业绩分化
-name: 硬件挣钱软件承压 AI板块中报业绩分化
+name: AI板块
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI板块中报业绩分化，硬件企业盈利，软件企业承压，反映AI产业链不同环节的景气差异。
 inspiration: ''
-summary_en: ''
+summary_en: 'AI sector interim results diverge: hardware companies profit while software companies face
+  pressure, reflecting different prosperity across the AI industry chain.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPNEFQNmRHQU1B
 summary: 硬件挣钱软件承压 AI板块中报业绩分化 经济参考报
 first_seen: '2026-08-28T01:01:31Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 硬件挣钱软件承压 AI板块中报业绩分化
+# AI板块
 
 硬件挣钱软件承压 AI板块中报业绩分化 经济参考报
 

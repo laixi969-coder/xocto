@@ -1,0 +1,71 @@
+- id: req-initial-kenyan-ai-startup-flowt-raises-pre-seed-funding-round-2026-08-29
+  project_slug: kenyan-ai-startup-flowt-raises-pre-seed-funding-round
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资事件，未说明产品功能、目标用户或交付流程，无法判断其解决的具体需求与痛点。
+    evidence_ids:
+    - ev-08e1f2ff8f39c814
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏产品细节与用户反馈。
+    evidence_ids:
+    - ev-08e1f2ff8f39c814
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未披露。
+    evidence_ids:
+    - ev-08e1f2ff8f39c814
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，产品真实性未验证。
+    evidence_ids:
+    - ev-08e1f2ff8f39c814
+  next_validation: 关注Flowt的官方网站或后续新闻报道，获取产品详情、目标客户及商业模式信息。
+  market: ''
+  job: 尚未核验：Flowt的具体用户任务未披露。
+  job_en: 'Not yet verified: Flowt''s specific user tasks are undisclosed.'
+  pain: 尚未核验：具体痛点未披露。
+  pain_en: 'Not yet verified: Specific pain points are undisclosed.'
+  current_alternative: 尚未核验：现有替代方式未披露。
+  current_alternative_en: 'Not yet verified: Current alternatives are undisclosed.'
+  usage_reason: 尚未核验：采用或关注原因未披露。
+  usage_reason_en: 'Not yet verified: Reasons for adoption or attention are undisclosed.'
+- id: req-full-kenyan-ai-startup-flowt-raises-pre-seed-funding-round-2026-08-29
+  project_slug: kenyan-ai-startup-flowt-raises-pre-seed-funding-round
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资事件，未说明产品功能、目标用户或交付流程，无法判断其解决的具体需求与痛点。
+    evidence_ids:
+    - ev-08e1f2ff8f39c814
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注Flowt的官方网站或后续新闻报道，获取产品详情、目标客户及商业模式信息。
+  market: ''
+  job: 尚未核验：Flowt的具体用户任务未披露。
+  job_en: 'Not yet verified: Flowt''s specific user tasks are undisclosed.'
+  pain: 尚未核验：具体痛点未披露。
+  pain_en: 'Not yet verified: Specific pain points are undisclosed.'
+  current_alternative: 尚未核验：现有替代方式未披露。
+  current_alternative_en: 'Not yet verified: Current alternatives are undisclosed.'
+  usage_reason: 尚未核验：采用或关注原因未披露。
+  usage_reason_en: 'Not yet verified: Reasons for adoption or attention are undisclosed.'

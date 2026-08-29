@@ -340,3 +340,44 @@
   usage_reason: 公开代码仓库有 494 个收藏、7 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 494 stars and 7 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-gamephanes-2026-08-29
+  project_slug: gamephanes
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Godot 游戏编码代理缺乏测试环境的痛点，替代通用基准和手动测试，交付开源环境和基准，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-77b88d91fe0b87f7
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 539 星显示初步关注，但缺乏用户评价或持续采用数据，共识尚未形成。
+    evidence_ids:
+    - ev-698a09319d169379
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费方和付费路径不明确。
+    evidence_ids:
+    - ev-77b88d91fe0b87f7
+  - gate: truth
+    status: insufficient
+    reason: 产品早期，未验证其基准的准确性和实用性，交付确定性待核验。
+    evidence_ids:
+    - ev-77b88d91fe0b87f7
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，看用户是否报告实际使用效果和替代的旧流程。
+  market: ''
+  job: 游戏程序员和 AI 编码代理开发者需要在 Godot 环境中编写、运行和测试游戏代码，并评估代理表现。
+  job_en: Game programmers and AI coding agent developers need to write, run, and test game code in Godot,
+    and evaluate agent performance.
+  pain: 缺乏针对 Godot 的编码代理测试环境，难以评估代理在游戏开发中的表现。
+  pain_en: Lack of a coding agent environment for Godot makes it hard to evaluate agent performance in
+    game development.
+  current_alternative: 可能使用通用编码基准或手动测试，但缺乏游戏特定环境。
+  current_alternative_en: May use general coding benchmarks or manual testing, but lack game-specific
+    environments.
+  usage_reason: 公开仓库 539 星显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 539 stars, showing developer attention, but sustained use
+    and payment are not yet verified.

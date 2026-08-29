@@ -1,0 +1,78 @@
+- id: req-initial-owlywriter-ai-by-hootsuite-2-2026-08-29
+  project_slug: owlywriter-ai-by-hootsuite-2
+  level: initial
+  reviewed_at: '2026-08-29T03:43:36Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社交媒体内容创作耗时问题，AI 生成文案，交付可编辑的帖子。工作流结构判断：旧流程依赖手动撰写或外包，效率低。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  - gate: consensus
+    status: supported
+    reason: 月访问量 279 万，环比增长 49.37%，表明用户关注和采用。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  - gate: model
+    status: supported
+    reason: Hootsuite 已有订阅模式，OwlyWriter 作为增值功能，付费路径清晰。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  - gate: truth
+    status: supported
+    reason: Hootsuite 是成熟平台，AI 功能交付确定性高。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  next_validation: 关注 OwlyWriter 的付费转化率和用户留存数据，以及是否独立定价。
+  market: ''
+  job: 社交媒体经理需要快速生成多平台内容，保持活跃度。
+  job_en: Social media managers need to quickly generate content for multiple platforms to maintain activity.
+  pain: 内容创作耗时，缺乏灵感，难以保持一致性。
+  pain_en: Content creation is time-consuming, lacks inspiration, and hard to maintain consistency.
+  current_alternative: 手动撰写或使用通用 AI 工具，但缺乏平台集成和优化。
+  current_alternative_en: Manual writing or using generic AI tools, but lacking platform integration and
+    optimization.
+  usage_reason: 集成在 Hootsuite，用户已在使用，AI 生成降低创作门槛，访问量增长表明采用。
+  usage_reason_en: Integrated into Hootsuite, users already on the platform; AI generation lowers creation
+    barrier, and traffic growth indicates adoption.
+- id: req-full-owlywriter-ai-by-hootsuite-2-2026-08-29
+  project_slug: owlywriter-ai-by-hootsuite-2
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社交媒体内容创作耗时问题，AI 生成文案，交付可编辑的帖子。工作流结构判断：旧流程依赖手动撰写或外包，效率低。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  - gate: consensus
+    status: supported
+    reason: 月访问量 279 万，环比增长 49.37%，表明用户关注和采用。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  - gate: model
+    status: supported
+    reason: Hootsuite 已有订阅模式，OwlyWriter 作为增值功能，付费路径清晰。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  - gate: truth
+    status: supported
+    reason: Hootsuite 是成熟平台，AI 功能交付确定性高。
+    evidence_ids:
+    - ev-fc87c2dc541bff2d
+  next_validation: 关注 OwlyWriter 的付费转化率和用户留存数据，以及是否独立定价。
+  market: ''
+  job: 社交媒体经理需要快速生成多平台内容，保持活跃度。
+  job_en: Social media managers need to quickly generate content for multiple platforms to maintain activity.
+  pain: 内容创作耗时，缺乏灵感，难以保持一致性。
+  pain_en: Content creation is time-consuming, lacks inspiration, and hard to maintain consistency.
+  current_alternative: 手动撰写或使用通用 AI 工具，但缺乏平台集成和优化。
+  current_alternative_en: Manual writing or using generic AI tools, but lacking platform integration and
+    optimization.
+  usage_reason: 集成在 Hootsuite，用户已在使用，AI 生成降低创作门槛，访问量增长表明采用。
+  usage_reason_en: Integrated into Hootsuite, users already on the platform; AI generation lowers creation
+    barrier, and traffic growth indicates adoption.

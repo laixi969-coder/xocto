@@ -36,3 +36,79 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Lays out your Mac windows before the
     meeting starts, and is built so it cannot read what is on the screen. The exact adoption motive and
     repeat use are not yet verified.'
+- id: req-initial-workflo-2026-08-29
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-08-29T03:43:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者和研究人员重复电脑操作的痛点，旧替代是手动或脚本，工作流结构判断需求成立。
+    evidence_ids:
+    - ev-0c8db83d295e0797
+  - gate: consensus
+    status: insufficient
+    reason: HN 有 113 分和 35 条评论，显示社区关注，但缺乏持续采用或付费证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，商业模式不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称不查看屏幕，但具体实现和交付确定性未验证。
+    evidence_ids: []
+  next_validation: 关注 Workflo 官网或文档，查看具体支持的工作流类型、定价页和用户案例。
+  market: ''
+  job: 开发者和研究人员需要自动化重复的电脑操作，如文件整理、环境配置、数据预处理。
+  job_en: Developers and researchers need to automate repetitive computer operations such as file organization,
+    environment setup, and data preprocessing.
+  pain: 这些操作耗时且易错，手动执行会打断专注状态，降低工作效率。
+  pain_en: These operations are time-consuming and error-prone; doing them manually interrupts focus and
+    reduces productivity.
+  current_alternative: 目前替代方式包括手动操作、编写脚本或使用其他自动化工具（如 AppleScript、Keyboard Maestro）。
+  current_alternative_en: Current alternatives include manual operation, writing scripts, or using other
+    automation tools (e.g., AppleScript, Keyboard Maestro).
+  usage_reason: Workflo 宣称不查看屏幕，可能更注重隐私和安全性，吸引对敏感信息在意的用户；但具体采用情况尚未核验。
+  usage_reason_en: Workflo claims not to see the screen, which may appeal to privacy-conscious users;
+    however, actual adoption is not yet verified.
+- id: req-full-workflo-2026-08-29
+  project_slug: workflo
+  level: full
+  reviewed_at: '2026-08-29T12:40:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者和研究人员重复电脑操作的痛点，旧替代是手动或脚本，工作流结构判断需求成立。
+    evidence_ids:
+    - ev-0c8db83d295e0797
+  - gate: consensus
+    status: insufficient
+    reason: HN 有 113 分和 35 条评论，显示社区关注，但缺乏持续采用或付费证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，商业模式不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称不查看屏幕，但具体实现和交付确定性未验证。
+    evidence_ids: []
+  next_validation: 关注 Workflo 官网或文档，查看具体支持的工作流类型、定价页和用户案例。
+  market: ''
+  job: 开发者和研究人员需要自动化重复的电脑操作，如文件整理、环境配置、数据预处理。
+  job_en: Developers and researchers need to automate repetitive computer operations such as file organization,
+    environment setup, and data preprocessing.
+  pain: 这些操作耗时且易错，手动执行会打断专注状态，降低工作效率。
+  pain_en: These operations are time-consuming and error-prone; doing them manually interrupts focus and
+    reduces productivity.
+  current_alternative: 目前替代方式包括手动操作、编写脚本或使用其他自动化工具（如 AppleScript、Keyboard Maestro）。
+  current_alternative_en: Current alternatives include manual operation, writing scripts, or using other
+    automation tools (e.g., AppleScript, Keyboard Maestro).
+  usage_reason: Workflo 宣称不查看屏幕，可能更注重隐私和安全性，吸引对敏感信息在意的用户；但具体采用情况尚未核验。
+  usage_reason_en: Workflo claims not to see the screen, which may appeal to privacy-conscious users;
+    however, actual adoption is not yet verified.

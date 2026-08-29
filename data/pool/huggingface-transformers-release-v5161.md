@@ -1,11 +1,12 @@
 ---
 slug: huggingface-transformers-release-v5161
-name: 'huggingface/transformers: Release v5.16.1'
+name: Hugging Face Transformers
 builder: huggingface
 category: ''
-summary_zh: ''
+summary_zh: 公开模型社区 Transformers 是一个开源深度学习模型库，本次更新加入对 GLM-5.3-Flash 的支持，这是一个高效的多模态模型，适合长上下文和编码任务。
 inspiration: ''
-summary_en: ''
+summary_en: public model community Transformers is an open-source deep learning model library. This update
+  adds support for GLM-5.3-Flash, an efficient multimodal model suitable for long-context and coding tasks.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -36,7 +37,7 @@ summary: "# Release v5.16.1\r\n\r\nThis is a special release as we include GLM! 
   \ kernel commit and repo paths for ESMFold2 (#48186) by @Rocketknight1 \r\n\r\n**Full Changelog**: https://github.com/huggingface/transformers/compare/v5.16.0...v5.16.1"
 first_seen: '2026-08-26T14:50:01Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -48,7 +49,7 @@ sightings:
   kind: news
 ---
 
-# huggingface/transformers: Release v5.16.1
+# Hugging Face Transformers
 
 # Release v5.16.1
 

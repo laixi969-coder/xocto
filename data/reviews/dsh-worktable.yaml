@@ -26,3 +26,76 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-dsh-worktable-2026-08-29
+  project_slug: dsh-worktable
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决多项目管理的痛点，任务明确，交付为项目监控界面。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  - gate: consensus
+    status: insufficient
+    reason: 星标数中等，缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确商业模式。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  - gate: truth
+    status: supported
+    reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 生态。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  next_validation: 关注星标增长和用户 issue 反馈。
+  market: ''
+  job: DeepSeek Harness 用户需要管理多个代理项目，监控其状态。
+  job_en: DeepSeek Harness users need to manage multiple agent projects and monitor their status.
+  pain: 缺乏统一界面管理多个项目，难以实时监控。
+  pain_en: Lack of a unified interface to manage multiple projects, making real-time monitoring difficult.
+  current_alternative: 使用终端或单独窗口管理。
+  current_alternative_en: Using terminal or separate windows.
+  usage_reason: 339 个星标，表明有一定关注，但采用证据有限。
+  usage_reason_en: 339 stars, indicating some interest, but adoption evidence is limited.
+- id: req-full-dsh-worktable-2026-08-29
+  project_slug: dsh-worktable
+  level: full
+  reviewed_at: '2026-08-29T12:34:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多项目管理的痛点，任务明确，交付为项目监控界面。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  - gate: consensus
+    status: insufficient
+    reason: 星标数中等，缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“dsh-worktable 是 DeepSeek Harness 的代理项目工作台，提供侧边栏应用抽屉、可停靠的分割工作区和实时控制室，用于监控每个项目”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 生态。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  next_validation: 关注星标增长和用户 issue 反馈。
+  market: ''
+  job: DeepSeek Harness 用户需要管理多个代理项目，监控其状态。
+  job_en: DeepSeek Harness users need to manage multiple agent projects and monitor their status.
+  pain: 缺乏统一界面管理多个项目，难以实时监控。
+  pain_en: Lack of a unified interface to manage multiple projects, making real-time monitoring difficult.
+  current_alternative: 使用终端或单独窗口管理。
+  current_alternative_en: Using terminal or separate windows.
+  usage_reason: 339 个星标，表明有一定关注，但采用证据有限。
+  usage_reason_en: 339 stars, indicating some interest, but adoption evidence is limited.

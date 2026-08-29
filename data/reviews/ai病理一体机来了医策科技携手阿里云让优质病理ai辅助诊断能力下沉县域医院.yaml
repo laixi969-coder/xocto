@@ -1,0 +1,82 @@
+- id: req-initial-ai病理一体机来了医策科技携手阿里云让优质病理ai辅助诊断能力下沉县域医院-2026-08-29
+  project_slug: ai病理一体机来了医策科技携手阿里云让优质病理ai辅助诊断能力下沉县域医院
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决县域医院病理诊断资源不足的痛点，AI接收数字切片并输出可疑区域标记，医生确认后出报告，交付可核对。工作流结构判断：旧流程依赖人工阅片或远程会诊，AI一体机可即时辅助，痛点刚性。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示医策科技与阿里云合作推出产品，但缺乏实际部署量、医生使用反馈或临床验证数据，共识证据不足。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费模式，买方可能是县域医院或政府项目，但付费路径未公开，需进一步核验。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称AI辅助诊断，但缺乏临床准确性、合规认证或实际效果数据，交付确定性未验证。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  next_validation: 关注医策科技官网或新闻，获取产品部署案例、临床验证数据或定价信息。
+  market: ''
+  job: 县域医院病理科医生需要完成切片诊断，但缺乏上级专家支持。
+  job_en: Pathologists in county hospitals need to complete slide diagnosis without support from senior
+    experts.
+  pain: 病理医生短缺，诊断经验不足，误诊风险高，患者需转诊上级医院。
+  pain_en: Pathologist shortage, lack of diagnostic experience, high misdiagnosis risk, patients need
+    referral to higher-level hospitals.
+  current_alternative: 目前主要依赖人工阅片，或远程会诊，但远程会诊响应慢、成本高。
+  current_alternative_en: Currently relies on manual slide review or teleconsultation, which is slow and
+    costly.
+  usage_reason: AI一体机可即时提供辅助诊断建议，减少对上级专家的依赖，提高诊断效率和准确性。
+  usage_reason_en: The AI all-in-one machine provides immediate auxiliary suggestions, reducing reliance
+    on senior experts and improving efficiency and accuracy.
+- id: req-full-ai病理一体机来了医策科技携手阿里云让优质病理ai辅助诊断能力下沉县域医院-2026-08-29
+  project_slug: ai病理一体机来了医策科技携手阿里云让优质病理ai辅助诊断能力下沉县域医院
+  level: full
+  reviewed_at: '2026-08-29T12:30:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决县域医院病理诊断资源不足的痛点，AI接收数字切片并输出可疑区域标记，医生确认后出报告，交付可核对。工作流结构判断：旧流程依赖人工阅片或远程会诊，AI一体机可即时辅助，痛点刚性。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示医策科技与阿里云合作推出产品，但缺乏实际部署量、医生使用反馈或临床验证数据，共识证据不足。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费模式，买方可能是县域医院或政府项目，但付费路径未公开，需进一步核验。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称AI辅助诊断，但缺乏临床准确性、合规认证或实际效果数据，交付确定性未验证。
+    evidence_ids:
+    - ev-da49ab0861aaa4f1
+  next_validation: 关注医策科技官网或新闻，获取产品部署案例、临床验证数据或定价信息。
+  market: ''
+  job: 县域医院病理科医生需要完成切片诊断，但缺乏上级专家支持。
+  job_en: Pathologists in county hospitals need to complete slide diagnosis without support from senior
+    experts.
+  pain: 病理医生短缺，诊断经验不足，误诊风险高，患者需转诊上级医院。
+  pain_en: Pathologist shortage, lack of diagnostic experience, high misdiagnosis risk, patients need
+    referral to higher-level hospitals.
+  current_alternative: 目前主要依赖人工阅片，或远程会诊，但远程会诊响应慢、成本高。
+  current_alternative_en: Currently relies on manual slide review or teleconsultation, which is slow and
+    costly.
+  usage_reason: AI一体机可即时提供辅助诊断建议，减少对上级专家的依赖，提高诊断效率和准确性。
+  usage_reason_en: The AI all-in-one machine provides immediate auxiliary suggestions, reducing reliance
+    on senior experts and improving efficiency and accuracy.

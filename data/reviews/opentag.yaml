@@ -1,0 +1,80 @@
+- id: req-initial-opentag-2026-08-29
+  project_slug: opentag
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队在聊天工具中处理任务的需求，减少切换成本，交付即时结果。工作流结构判断：旧流程依赖多应用切换，效率低。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，仅产品页面描述。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，可能按席位订阅，但未验证。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  - gate: truth
+    status: insufficient
+    reason: 具体功能边界和交付质量未披露，需进一步验证。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  next_validation: 查看 OpenTag 官网或文档，确认具体功能、定价和客户案例。
+  market: ''
+  job: 团队成员需要在聊天工具中快速完成任务，如查找信息、管理任务，无需切换应用。
+  job_en: Team members need to complete tasks quickly within chat tools, such as finding information or
+    managing tasks, without switching apps.
+  pain: 频繁切换工具打断工作流，信息分散，协作效率低。
+  pain_en: Frequent tool switching disrupts workflow, information is scattered, and collaboration efficiency
+    is low.
+  current_alternative: 使用多个独立应用或手动搜索，缺乏统一入口。
+  current_alternative_en: Using multiple standalone apps or manual searches, lacking a unified entry point.
+  usage_reason: 集成在现有聊天平台，降低采用门槛，提供即时帮助。
+  usage_reason_en: Integrated into existing chat platforms, lowering adoption barriers and providing immediate
+    assistance.
+- id: req-full-opentag-2026-08-29
+  project_slug: opentag
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队在聊天工具中处理任务的需求，减少切换成本，交付即时结果。工作流结构判断：旧流程依赖多应用切换，效率低。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，仅产品页面描述。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，可能按席位订阅，但未验证。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  - gate: truth
+    status: insufficient
+    reason: 具体功能边界和交付质量未披露，需进一步验证。
+    evidence_ids:
+    - ev-3b00f69c0213c53c
+  next_validation: 查看 OpenTag 官网或文档，确认具体功能、定价和客户案例。
+  market: ''
+  job: 团队成员需要在聊天工具中快速完成任务，如查找信息、管理任务，无需切换应用。
+  job_en: Team members need to complete tasks quickly within chat tools, such as finding information or
+    managing tasks, without switching apps.
+  pain: 频繁切换工具打断工作流，信息分散，协作效率低。
+  pain_en: Frequent tool switching disrupts workflow, information is scattered, and collaboration efficiency
+    is low.
+  current_alternative: 使用多个独立应用或手动搜索，缺乏统一入口。
+  current_alternative_en: Using multiple standalone apps or manual searches, lacking a unified entry point.
+  usage_reason: 集成在现有聊天平台，降低采用门槛，提供即时帮助。
+  usage_reason_en: Integrated into existing chat platforms, lowering adoption barriers and providing immediate
+    assistance.

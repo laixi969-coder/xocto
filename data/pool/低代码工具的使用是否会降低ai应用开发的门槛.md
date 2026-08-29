@@ -1,11 +1,12 @@
 ---
 slug: 低代码工具的使用是否会降低ai应用开发的门槛
-name: 低代码工具的使用是否会降低AI应用开发的门槛？
+name: 低代码工具
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 讨论低代码工具是否降低 AI 应用开发门槛，反映行业趋势。
 inspiration: ''
-summary_en: ''
+summary_en: Discussion on whether low-code tools lower the barrier for AI app development, reflecting
+  industry trend.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5LQTZiV2tFVkRI
 summary: 低代码工具的使用是否会降低AI应用开发的门槛？ 新浪网
 first_seen: '2026-08-26T05:44:17Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 低代码工具的使用是否会降低AI应用开发的门槛？
+# 低代码工具
 
 低代码工具的使用是否会降低AI应用开发的门槛？ 新浪网
 

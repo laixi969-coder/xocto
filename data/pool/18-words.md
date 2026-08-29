@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49476090
 summary: Zanagrams and Sunflowers Are Now PZL Games
 first_seen: '2026-08-28T08:51:12Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

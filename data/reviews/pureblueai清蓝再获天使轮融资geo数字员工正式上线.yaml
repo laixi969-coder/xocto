@@ -1,0 +1,75 @@
+- id: req-initial-pureblueai清蓝再获天使轮融资geo数字员工正式上线-2026-08-29
+  project_slug: pureblueai清蓝再获天使轮融资geo数字员工正式上线
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料未说明数字员工具体解决什么任务、痛点是什么，无法判断价值结构。
+    evidence_ids:
+    - ev-90f98a25e86029e7
+  - gate: consensus
+    status: insufficient
+    reason: 只有融资和上线新闻，无用户反馈或采用数据。
+    evidence_ids:
+    - ev-90f98a25e86029e7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式。
+    evidence_ids:
+    - ev-90f98a25e86029e7
+  - gate: truth
+    status: insufficient
+    reason: 产品实际能力未验证，需更多细节。
+    evidence_ids:
+    - ev-90f98a25e86029e7
+  next_validation: 查找PureblueAI官网或产品文档，了解GEO数字员工的具体功能、适用场景和定价。
+  market: ''
+  job: 企业希望用数字员工自动化重复性业务流程，减少人力成本。
+  job_en: Enterprises want to automate repetitive business processes with digital employees to reduce
+    labor costs.
+  pain: 人工处理重复任务成本高、效率低，且容易出错。
+  pain_en: Manual handling of repetitive tasks is costly, inefficient, and error-prone.
+  current_alternative: 目前企业可能使用RPA或外包，但具体替代方式未披露。
+  current_alternative_en: Currently enterprises may use RPA or outsourcing, but specific alternatives
+    are not disclosed.
+  usage_reason: 融资和产品上线表明市场关注，但实际采用情况尚未核验。
+  usage_reason_en: Funding and product launch indicate market attention, but actual adoption is unverified.
+- id: req-full-pureblueai清蓝再获天使轮融资geo数字员工正式上线-2026-08-29
+  project_slug: pureblueai清蓝再获天使轮融资geo数字员工正式上线
+  level: full
+  reviewed_at: '2026-08-29T12:38:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料未说明数字员工具体解决什么任务、痛点是什么，无法判断价值结构。
+    evidence_ids:
+    - ev-90f98a25e86029e7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找PureblueAI官网或产品文档，了解GEO数字员工的具体功能、适用场景和定价。
+  market: ''
+  job: 企业希望用数字员工自动化重复性业务流程，减少人力成本。
+  job_en: Enterprises want to automate repetitive business processes with digital employees to reduce
+    labor costs.
+  pain: 人工处理重复任务成本高、效率低，且容易出错。
+  pain_en: Manual handling of repetitive tasks is costly, inefficient, and error-prone.
+  current_alternative: 目前企业可能使用RPA或外包，但具体替代方式未披露。
+  current_alternative_en: Currently enterprises may use RPA or outsourcing, but specific alternatives
+    are not disclosed.
+  usage_reason: 融资和产品上线表明市场关注，但实际采用情况尚未核验。
+  usage_reason_en: Funding and product launch indicate market attention, but actual adoption is unverified.

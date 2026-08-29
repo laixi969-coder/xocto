@@ -1,0 +1,74 @@
+- id: req-initial-viral-ai-startup-instinct-has-raised-350m-at-a-25b-valuation-2026-08-29
+  project_slug: viral-ai-startup-instinct-has-raised-350m-at-a-25b-valuation
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资和隐私担忧，未说明产品功能、用户任务或交付物，无法判断需求结构。
+    evidence_ids:
+    - ev-ba5efa158498f794
+    - ev-0417f9b723b7b98c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Instinct 官方产品页面或应用商店描述，以获取功能、定价和用户评价。
+  market: ''
+  job: 用户希望获得一个智能助手来处理日常任务，但具体任务类型未披露。
+  job_en: Users seek an intelligent assistant for daily tasks, but specific tasks are undisclosed.
+  pain: 用户可能面临信息过载或效率低下的问题，但具体痛点未明确。
+  pain_en: Users may face information overload or inefficiency, but specific pain points are unclear.
+  current_alternative: 现有替代方式包括通用 AI 助手（如 ChatGPT）或手动处理，但未披露具体对比。
+  current_alternative_en: Existing alternatives include general AI assistants (e.g., ChatGPT) or manual
+    handling, but specific comparisons are undisclosed.
+  usage_reason: 用户可能因病毒式传播和融资新闻而关注，但实际采用原因尚未核验。
+  usage_reason_en: Users may be drawn by viral growth and funding news, but actual adoption reasons are
+    unverified.
+- id: req-full-viral-ai-startup-instinct-has-raised-350m-at-a-25b-valuation-2026-08-29
+  project_slug: viral-ai-startup-instinct-has-raised-350m-at-a-25b-valuation
+  level: full
+  reviewed_at: '2026-08-29T12:40:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资和隐私担忧，未说明产品功能、用户任务或交付物，无法判断需求结构。
+    evidence_ids:
+    - ev-ba5efa158498f794
+    - ev-0417f9b723b7b98c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Instinct 官方产品页面或应用商店描述，以获取功能、定价和用户评价。
+  market: ''
+  job: 用户希望获得一个智能助手来处理日常任务，但具体任务类型未披露。
+  job_en: Users seek an intelligent assistant for daily tasks, but specific tasks are undisclosed.
+  pain: 用户可能面临信息过载或效率低下的问题，但具体痛点未明确。
+  pain_en: Users may face information overload or inefficiency, but specific pain points are unclear.
+  current_alternative: 现有替代方式包括通用 AI 助手（如 ChatGPT）或手动处理，但未披露具体对比。
+  current_alternative_en: Existing alternatives include general AI assistants (e.g., ChatGPT) or manual
+    handling, but specific comparisons are undisclosed.
+  usage_reason: 用户可能因病毒式传播和融资新闻而关注，但实际采用原因尚未核验。
+  usage_reason_en: Users may be drawn by viral growth and funding news, but actual adoption reasons are
+    unverified.

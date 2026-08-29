@@ -1,0 +1,82 @@
+- id: req-initial-public-procurement-service-launches-pilot-test-of-ai-based-t-2026-08-29
+  project_slug: public-procurement-service-launches-pilot-test-of-ai-based-t
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采购评估中人工评审耗时、主观、标准不一的问题，痛点刚性，交付可确定（评分和建议）。工作流结构判断。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有试点启动的公开事实，尚无评估员使用反馈或采用数据，共识证据不足。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费方，可能是政府预算内项目，商业模式未明。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  - gate: truth
+    status: insufficient
+    reason: AI评估的准确性和公平性尚未有公开验证，需关注试点结果。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  next_validation: 关注韩国调达厅试点结果公告或评估报告，以及是否扩大应用范围。
+  market: ''
+  job: 采购评估员需要快速、客观地评估大量投标技术方案，并给出可解释的评分。
+  job_en: Procurement evaluators need to quickly and objectively assess numerous bid technical proposals
+    and provide explainable scores.
+  pain: 人工评估耗时且易受主观影响，标准不一致，难以处理大量投标。
+  pain_en: Manual evaluation is time-consuming and subjective, with inconsistent standards, making it
+    difficult to handle large volumes of bids.
+  current_alternative: 目前主要依赖人工评审委员会，逐份阅读和打分，效率低且一致性差。
+  current_alternative_en: Currently relies on human review committees reading and scoring each proposal,
+    which is inefficient and inconsistent.
+  usage_reason: 政府机构寻求提高采购透明度和效率，AI试点是政策驱动下的尝试，可能因试点成功而推广。
+  usage_reason_en: Government agencies seek to improve procurement transparency and efficiency; the AI
+    pilot is a policy-driven attempt that may scale if successful.
+- id: req-full-public-procurement-service-launches-pilot-test-of-ai-based-t-2026-08-29
+  project_slug: public-procurement-service-launches-pilot-test-of-ai-based-t
+  level: full
+  reviewed_at: '2026-08-29T12:38:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采购评估中人工评审耗时、主观、标准不一的问题，痛点刚性，交付可确定（评分和建议）。工作流结构判断。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有试点启动的公开事实，尚无评估员使用反馈或采用数据，共识证据不足。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费方，可能是政府预算内项目，商业模式未明。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  - gate: truth
+    status: insufficient
+    reason: AI评估的准确性和公平性尚未有公开验证，需关注试点结果。
+    evidence_ids:
+    - ev-9c2f82978eded7ca
+  next_validation: 追踪 Public Procurement Service AI Evaluation System 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 采购评估员需要快速、客观地评估大量投标技术方案，并给出可解释的评分。
+  job_en: Procurement evaluators need to quickly and objectively assess numerous bid technical proposals
+    and provide explainable scores.
+  pain: 人工评估耗时且易受主观影响，标准不一致，难以处理大量投标。
+  pain_en: Manual evaluation is time-consuming and subjective, with inconsistent standards, making it
+    difficult to handle large volumes of bids.
+  current_alternative: 目前主要依赖人工评审委员会，逐份阅读和打分，效率低且一致性差。
+  current_alternative_en: Currently relies on human review committees reading and scoring each proposal,
+    which is inefficient and inconsistent.
+  usage_reason: 政府机构寻求提高采购透明度和效率，AI试点是政策驱动下的尝试，可能因试点成功而推广。
+  usage_reason_en: Government agencies seek to improve procurement transparency and efficiency; the AI
+    pilot is a policy-driven attempt that may scale if successful.

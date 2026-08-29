@@ -35,3 +35,80 @@
   usage_reason: 公开记录显示月访问 483.80M、环比 -10.59%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 483.80M monthly visits and -10.59% month-over-month growth. That
     explains the attention, but product-level retention and payment are not yet verified.
+- id: req-initial-deepseek-2026-08-29
+  project_slug: deepseek
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决信息获取和问题解决的需求，痛点明确，交付为对话答案，可验证。
+    evidence_ids:
+    - ev-94926ce1960648eb
+  - gate: consensus
+    status: supported
+    reason: 巨大访问量表明用户认可，但环比下降需关注。
+    evidence_ids:
+    - ev-94926ce1960648eb
+  - gate: model
+    status: supported
+    reason: 免费使用，可能通过企业服务或 API 收费，但具体模式未披露。
+    evidence_ids:
+    - ev-94926ce1960648eb
+  - gate: truth
+    status: supported
+    reason: 产品成熟，交付确定，但竞争激烈。
+    evidence_ids:
+    - ev-94926ce1960648eb
+  next_validation: 关注 DeepSeek 的商业模式和用户留存数据。
+  market: ''
+  job: 用户需要快速获取信息、解决问题，进行对话式交互。
+  job_en: Users need quick access to information and problem-solving through conversational interaction.
+  pain: 传统搜索返回大量链接，需要用户自行筛选，效率低。
+  pain_en: Traditional search returns many links, requiring users to filter, which is inefficient.
+  current_alternative: 使用搜索引擎如 Google、百度，或咨询他人。
+  current_alternative_en: Using search engines like Google, Baidu, or asking others.
+  usage_reason: 月访问量 4.838 亿次，尽管环比下降 10.59%，但规模巨大，表明广泛采用。
+  usage_reason_en: Monthly visits of 483.8M, despite a 10.59% MoM decline, the scale is huge, indicating
+    widespread adoption.
+- id: req-full-deepseek-2026-08-29
+  project_slug: deepseek
+  level: full
+  reviewed_at: '2026-08-29T12:32:52Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决信息获取和问题解决的需求，痛点明确（传统搜索效率低），交付为对话答案，可验证。
+    evidence_ids:
+    - ev-94926ce1960648eb
+  - gate: consensus
+    status: supported
+    reason: 巨大访问量表明用户认可，但环比下降需关注。
+    evidence_ids:
+    - ev-94926ce1960648eb
+  - gate: model
+    status: supported
+    reason: 免费使用，可能通过企业服务或 API 收费，但具体模式未披露。
+    evidence_ids:
+    - ev-94926ce1960648eb
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“DeepSeek 是 AI 聊天助手，用户通过对话获取信息、解决问题。本次事件：据报道 DeepSeek 估值有望达到 740 亿美元，显示其市场地位”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注 DeepSeek 的商业模式和用户留存数据。
+  market: ''
+  job: 用户需要通过对话式交互快速获取信息、解决问题，包括编码、内容创作、文件阅读等。
+  job_en: Users need to quickly obtain information and solve problems through conversational interaction,
+    including coding, content creation, file reading, etc.
+  pain: 传统搜索返回大量链接，用户需自行筛选，效率低；DeepSeek 提供直接答案，减少筛选成本。
+  pain_en: Traditional search returns many links requiring manual filtering, which is inefficient; DeepSeek
+    provides direct answers, reducing filtering cost.
+  current_alternative: 使用搜索引擎如 Google、百度，或咨询他人。
+  current_alternative_en: Using search engines like Google, Baidu, or asking others.
+  usage_reason: 月访问量 4.838 亿次，尽管环比下降 10.59%，但规模巨大，表明广泛采用。
+  usage_reason_en: Monthly visits of 483.8M, despite a 10.59% MoM decline, the scale is huge, indicating
+    widespread adoption.

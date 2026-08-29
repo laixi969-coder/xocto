@@ -1,0 +1,82 @@
+- id: req-initial-everyone-says-software-is-dead-saas-startup-linear-just-doub-2026-08-29
+  project_slug: everyone-says-software-is-dead-saas-startup-linear-just-doub
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件团队任务跟踪与协作的痛点，旧替代是 Jira 或电子表格，痛点刚性，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  - gate: consensus
+    status: supported
+    reason: 估值翻倍表明市场认可，但公开采用数据未披露，需进一步验证持续使用。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  - gate: model
+    status: insufficient
+    reason: 商业模式为订阅制，但具体定价和付费客户未披露，买方为软件团队，付费路径待核验。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  - gate: truth
+    status: supported
+    reason: 产品贴近研发管理的第一性目标，交付可确定，但 AI 功能的具体效果需实测。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  next_validation: 关注 Linear 官方定价页和客户案例，以及公开的用户评价和采用数据。
+  market: ''
+  job: 软件团队在迭代规划中需要跟踪任务、缺陷和进度，协调多个角色。
+  job_en: Software teams need to track tasks, bugs, and progress during sprint planning, coordinating
+    multiple roles.
+  pain: 任务分散在多个工具中，状态更新滞后，优先级不透明，导致协作效率低。
+  pain_en: Tasks are scattered across multiple tools, status updates lag, priorities are opaque, leading
+    to low collaboration efficiency.
+  current_alternative: 传统工具如 Jira 配置复杂，或使用电子表格和邮件沟通，缺乏实时同步。
+  current_alternative_en: Traditional tools like Jira are complex to configure, or teams use spreadsheets
+    and email, lacking real-time sync.
+  usage_reason: Linear 提供简洁的界面和 AI 辅助的自动化，能减少手动更新，提升团队响应速度，因此受到关注。
+  usage_reason_en: Linear offers a clean interface and AI-assisted automation, reducing manual updates
+    and improving team responsiveness, hence gaining attention.
+- id: req-full-everyone-says-software-is-dead-saas-startup-linear-just-doub-2026-08-29
+  project_slug: everyone-says-software-is-dead-saas-startup-linear-just-doub
+  level: full
+  reviewed_at: '2026-08-29T12:34:06Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件团队任务跟踪与协作的痛点，旧替代是 Jira 或电子表格，痛点刚性，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  - gate: consensus
+    status: supported
+    reason: 估值翻倍表明市场认可，但公开采用数据未披露，需进一步验证持续使用。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  - gate: model
+    status: insufficient
+    reason: 商业模式为订阅制，但具体定价和付费客户未披露，买方为软件团队，付费路径待核验。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  - gate: truth
+    status: supported
+    reason: 产品贴近研发管理的第一性目标，交付可确定，但 AI 功能的具体效果需实测。
+    evidence_ids:
+    - ev-8287fe27e79f469a
+  next_validation: 关注 Linear 官方定价页和客户案例，以及公开的用户评价和采用数据。
+  market: ''
+  job: 软件团队在迭代规划中需要跟踪任务、缺陷和进度，协调多个角色。
+  job_en: Software teams need to track tasks, bugs, and progress during sprint planning, coordinating
+    multiple roles.
+  pain: 任务分散在多个工具中，状态更新滞后，优先级不透明，导致协作效率低。
+  pain_en: Tasks are scattered across multiple tools, status updates lag, priorities are opaque, leading
+    to low collaboration efficiency.
+  current_alternative: 传统工具如 Jira 配置复杂，或使用电子表格和邮件沟通，缺乏实时同步。
+  current_alternative_en: Traditional tools like Jira are complex to configure, or teams use spreadsheets
+    and email, lacking real-time sync.
+  usage_reason: Linear 提供简洁的界面和 AI 辅助的自动化，能减少手动更新，提升团队响应速度，因此受到关注。
+  usage_reason_en: Linear offers a clean interface and AI-assisted automation, reducing manual updates
+    and improving team responsiveness, hence gaining attention.

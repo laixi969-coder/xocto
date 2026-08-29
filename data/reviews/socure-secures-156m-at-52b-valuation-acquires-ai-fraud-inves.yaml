@@ -1,0 +1,82 @@
+- id: req-initial-socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves-2026-08-29
+  project_slug: socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决欺诈调查耗时长、规则引擎漏检的痛点；输入可疑交易，AI 代理执行调查，输出结果供分析师审核，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-4671726546ca1986
+  - gate: consensus
+    status: supported
+    reason: Socure 已获 52 亿美元估值和 1.56 亿美元投资，说明资本市场认可其方向；但公开材料未提供客户采用或效果数据。
+    evidence_ids:
+    - ev-4671726546ca1986
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费模式；可能向金融机构按订阅或按调查收费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-4671726546ca1986
+  - gate: truth
+    status: supported
+    reason: 产品贴近欺诈调查的第一性目标，AI 代理能确定性执行调查步骤，但人工审核边界需明确。
+    evidence_ids:
+    - ev-4671726546ca1986
+  next_validation: 关注 Socure 官网或新闻稿中关于 RiskOS_Agents 的客户案例、定价信息或部署数据。
+  market: ''
+  job: 金融机构的欺诈分析师需要调查可疑交易和身份欺诈案件，以决定是否拒绝交易或标记账户。
+  job_en: Fraud analysts at financial institutions need to investigate suspicious transactions and identity
+    fraud cases to decide whether to decline transactions or flag accounts.
+  pain: 手动调查耗时且容易遗漏，欺诈手段不断演变，规则引擎难以捕捉复杂模式。
+  pain_en: Manual investigation is time-consuming and prone to oversight; fraud tactics evolve rapidly,
+    and rule engines struggle to capture complex patterns.
+  current_alternative: 目前主要依赖人工调查和基于规则的自动化系统，部分使用机器学习模型辅助评分。
+  current_alternative_en: Currently relies on manual investigation and rule-based automation, with some
+    use of machine learning models for scoring.
+  usage_reason: Socure 的既有客户基础和 RiskOS 平台提供了采用基础，agentic AI 能提升调查效率，吸引关注。
+  usage_reason_en: Socure's existing customer base and RiskOS platform provide adoption foundation; agentic
+    AI promises efficiency gains, attracting attention.
+- id: req-full-socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves-2026-08-29
+  project_slug: socure-secures-156m-at-52b-valuation-acquires-ai-fraud-inves
+  level: full
+  reviewed_at: '2026-08-29T12:39:15Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决欺诈调查耗时长、规则引擎漏检的痛点；输入可疑交易，AI 代理执行调查，输出结果供分析师审核，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-4671726546ca1986
+  - gate: consensus
+    status: supported
+    reason: Socure 已获 52 亿美元估值和 1.56 亿美元投资，说明资本市场认可其方向；但公开材料未提供客户采用或效果数据。
+    evidence_ids:
+    - ev-4671726546ca1986
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费模式；可能向金融机构按订阅或按调查收费，但这是判断，不是已验证事实。
+    evidence_ids:
+    - ev-4671726546ca1986
+  - gate: truth
+    status: supported
+    reason: 产品贴近欺诈调查的第一性目标，AI 代理能确定性执行调查步骤，但人工审核边界需明确。
+    evidence_ids:
+    - ev-4671726546ca1986
+  next_validation: 关注 Socure 官网或新闻稿中关于 RiskOS_Agents 的客户案例、定价信息或部署数据。
+  market: ''
+  job: 金融机构的欺诈分析师需要调查可疑交易和身份欺诈案件，以决定是否拒绝交易或标记账户。
+  job_en: Fraud analysts at financial institutions need to investigate suspicious transactions and identity
+    fraud cases to decide whether to decline transactions or flag accounts.
+  pain: 手动调查耗时且容易遗漏，欺诈手段不断演变，规则引擎难以捕捉复杂模式。
+  pain_en: Manual investigation is time-consuming and prone to oversight; fraud tactics evolve rapidly,
+    and rule engines struggle to capture complex patterns.
+  current_alternative: 目前主要依赖人工调查和基于规则的自动化系统，部分使用机器学习模型辅助评分。
+  current_alternative_en: Currently relies on manual investigation and rule-based automation, with some
+    use of machine learning models for scoring.
+  usage_reason: Socure 的既有客户基础和 RiskOS 平台提供了采用基础，agentic AI 能提升调查效率，吸引关注。
+  usage_reason_en: Socure's existing customer base and RiskOS platform provide adoption foundation; agentic
+    AI promises efficiency gains, attracting attention.

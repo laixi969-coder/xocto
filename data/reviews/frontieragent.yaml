@@ -191,3 +191,43 @@
   usage_reason: 公开代码仓库有 1,167 个收藏、96 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,167 stars and 96 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-frontieragent-2026-08-29
+  project_slug: frontieragent
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 框架部署复杂、依赖 Docker 的痛点，替代需要预装和 Docker 的旧框架，交付一键运行的命令行 TUI，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-6eff8e0acf0d5998
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 1,229 星显示初步关注，但缺乏用户评价或持续采用数据，共识尚未形成。
+    evidence_ids:
+    - ev-10f14084286b4618
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费方和付费路径不明确。
+    evidence_ids:
+    - ev-6eff8e0acf0d5998
+  - gate: truth
+    status: insufficient
+    reason: 产品早期，未验证其稳定性和安全性，交付确定性待核验。
+    evidence_ids:
+    - ev-6eff8e0acf0d5998
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，看用户是否报告实际使用效果和替代的旧框架。
+  market: ''
+  job: AI 工程师和软件开发者需要构建和运行 AI 代理，支持命令行操作和团队协作。
+  job_en: AI engineers and software developers need to build and run AI agents with CLI support and team
+    collaboration.
+  pain: 现有 agent 框架安装复杂、依赖 Docker，难以快速部署和跨平台使用。
+  pain_en: Existing agent frameworks have complex installation and Docker dependencies, hindering quick
+    deployment and cross-platform use.
+  current_alternative: 使用其他 agent 框架，但需要预装和 Docker 依赖。
+  current_alternative_en: Using other agent frameworks, but requiring preinstall and Docker dependencies.
+  usage_reason: 公开仓库 1,229 星显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 1,229 stars, showing developer attention, but sustained use
+    and payment are not yet verified.

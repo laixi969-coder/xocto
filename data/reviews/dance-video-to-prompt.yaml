@@ -224,3 +224,41 @@
   usage_reason: 公开代码仓库有 133 个收藏、1 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 133 stars and 1 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dance-video-to-prompt-2026-08-29
+  project_slug: dance-video-to-prompt
+  level: full
+  reviewed_at: '2026-08-29T12:32:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的需求是反推舞蹈视频为 AI 视频生成提示词，但公开材料未展示用户痛点、频率或不采用代价，无法确认需求刚性。
+    evidence_ids:
+    - ev-02ec5e126b24a6a4
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户是否在真实工作流中使用及替代了什么旧流程。
+  market: ''
+  job: 短视频创作者或 AI 视频提示词工程师需要从一段舞蹈短视频反推出可用于 AI 视频生成的提示词。
+  job_en: Short video creators or AI video prompt engineers need to reverse-engineer a dance video into
+    a prompt for AI video generation.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；痛点强度尚未核验。
+  pain_en: Public materials do not show the specific cost, frequency, or consequence of leaving it unsolved;
+    pain intensity is not yet verified.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作或替代方案。
+  current_alternative_en: Public materials do not show how users currently accomplish this or what alternatives
+    exist.
+  usage_reason: 公开代码仓库有 134 个收藏，说明开发者关注，但持续使用与付费未核验。
+  usage_reason_en: The public repository has 134 stars, showing developer attention, but repeat use and
+    payment are not verified.

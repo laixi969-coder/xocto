@@ -1,0 +1,76 @@
+- id: req-initial-ai-赋能个性化康养首个一人一方智能酒养食养平台龟山堂在汉上线-2026-08-29
+  project_slug: ai-赋能个性化康养首个一人一方智能酒养食养平台龟山堂在汉上线
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅宣称AI个性化康养，未说明具体输入、动作与交付，无法还原工作流结构，痛点刚性未知。
+    evidence_ids:
+    - ev-a5f6bf54c46c1e8b
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、采用数据或行业讨论，仅一篇新闻稿，共识未建立。
+    evidence_ids:
+    - ev-a5f6bf54c46c1e8b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方不明确，商业模式未验证。
+    evidence_ids:
+    - ev-a5f6bf54c46c1e8b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注龟山堂官网或官方公众号，获取具体产品流程、定价及用户案例。
+  market: ''
+  job: 用户希望获得针对个人体质和健康状况的定制化酒养或食养方案。
+  job_en: Users seek customized wine or food wellness plans tailored to their individual constitution
+    and health status.
+  pain: 传统养生方案多为通用建议，缺乏个性化，用户难以判断是否适合自己。
+  pain_en: Traditional wellness advice is often generic, lacking personalization, making it hard for users
+    to judge suitability.
+  current_alternative: 用户可能咨询中医师或营养师，或自行搜索养生知识。
+  current_alternative_en: Users may consult TCM practitioners or nutritionists, or search for wellness
+    knowledge themselves.
+  usage_reason: 尚未核验。报道称平台上线，但无用户采用或付费证据。
+  usage_reason_en: Not yet verified. The report claims launch, but no user adoption or payment evidence.
+- id: req-full-ai-赋能个性化康养首个一人一方智能酒养食养平台龟山堂在汉上线-2026-08-29
+  project_slug: ai-赋能个性化康养首个一人一方智能酒养食养平台龟山堂在汉上线
+  level: full
+  reviewed_at: '2026-08-29T12:30:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅宣称AI个性化康养，未说明具体输入、动作与交付，无法还原工作流结构，痛点刚性未知。
+    evidence_ids:
+    - ev-a5f6bf54c46c1e8b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注龟山堂官网或官方公众号，获取具体产品流程、定价及用户案例。
+  market: ''
+  job: 用户希望获得针对个人体质和健康状况的定制化酒养或食养方案。
+  job_en: Users seek customized wine or food wellness plans tailored to their individual constitution
+    and health status.
+  pain: 传统养生方案多为通用建议，缺乏个性化，用户难以判断是否适合自己。
+  pain_en: Traditional wellness advice is often generic, lacking personalization, making it hard for users
+    to judge suitability.
+  current_alternative: 用户可能咨询中医师或营养师，或自行搜索养生知识。
+  current_alternative_en: Users may consult TCM practitioners or nutritionists, or search for wellness
+    knowledge themselves.
+  usage_reason: 尚未核验。报道称平台上线，但无用户采用或付费证据。
+  usage_reason_en: Not yet verified. The report claims launch, but no user adoption or payment evidence.

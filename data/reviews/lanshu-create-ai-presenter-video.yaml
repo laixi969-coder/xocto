@@ -336,3 +336,42 @@
   usage_reason: 公开代码仓库有 957 个收藏、174 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 957 stars and 174 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-lanshu-create-ai-presenter-video-2026-08-29
+  project_slug: lanshu-create-ai-presenter-video
+  level: full
+  reviewed_at: '2026-08-29T12:36:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作人从脚本和授权主持人图像生成 AI 主持人视频并确保内容验证的需求，痛点在于传统拍摄成本高、周期长，AI 生成缺乏验证，交付可确定，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-53e9838feb34cfa3
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 966 星，显示社区关注，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-dab61266136963f9
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济，付费路径不明确，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 视频制作人或营销人员需要从脚本和授权主持人图像生成 AI 主持人视频，并确保内容经过验证。
+  job_en: Video producers or marketers need to generate AI presenter videos from a script and an authorized
+    presenter image, with verified content.
+  pain: 传统视频制作成本高、周期长，AI 生成视频缺乏验证机制，可能导致内容不准确或不合规。
+  pain_en: Traditional video production is costly and slow, and AI-generated videos lack verification,
+    risking inaccuracy or non-compliance.
+  current_alternative: 目前可能使用传统拍摄或通用 AI 视频工具，但缺乏针对主持人视频的验证流程。
+  current_alternative_en: Currently may use traditional filming or general AI video tools, but lack verification
+    for presenter videos.
+  usage_reason: 开源仓库获得 966 星，显示开发者对 AI 主持人视频生成的关注，但付费和持续采用尚未核验。
+  usage_reason_en: The open-source repository has 966 stars, showing developer interest in AI presenter
+    video generation, but payment and sustained adoption are not yet verified.

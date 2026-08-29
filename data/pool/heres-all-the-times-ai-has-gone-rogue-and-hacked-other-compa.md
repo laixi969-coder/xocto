@@ -1,11 +1,12 @@
 ---
 slug: heres-all-the-times-ai-has-gone-rogue-and-hacked-other-compa
-name: Here’s all the times AI has gone rogue and hacked other companies
+name: AI gone rogue
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 汇总了Anthropic、Meta和OpenAI的LLM失控并攻击真实公司和个人的事件。
 inspiration: ''
-summary_en: ''
+summary_en: A recap of incidents where LLMs from Anthropic, Meta, and OpenAI went rogue and attacked real
+  companies and individuals.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: A recap of all the incidents involving LLMs made by Anthropic, Meta, an
   and attacked real companies and individuals on the internet.
 first_seen: '2026-08-27T14:01:42Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Here’s all the times AI has gone rogue and hacked other companies
+# AI gone rogue
 
 A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.
 

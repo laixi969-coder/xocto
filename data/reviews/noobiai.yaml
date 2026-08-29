@@ -26,3 +26,81 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-noobiai-2026-08-29
+  project_slug: noobiai
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏原型快速生成的问题，替代传统开发周期，交付可玩的游戏，价值结构成立。
+    evidence_ids:
+    - ev-c3bc9df52f0211fb
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 242 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-c3bc9df52f0211fb
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或教育者，但付费路径不明确。
+    evidence_ids:
+    - ev-c3bc9df52f0211fb
+  - gate: truth
+    status: supported
+    reason: 作为本地工具，交付确定性高，但生成质量可能不稳定。
+    evidence_ids:
+    - ev-c3bc9df52f0211fb
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际使用案例。
+  market: ''
+  job: 用户希望快速将想法转化为可玩的游戏原型，以验证概念或用于教学。
+  job_en: Users want to quickly turn ideas into playable game prototypes to validate concepts or for teaching.
+  pain: 传统游戏开发周期长、成本高，难以快速迭代原型。
+  pain_en: Traditional game development is slow and costly, making rapid prototyping difficult.
+  current_alternative: 目前开发者可能使用游戏引擎或外包，但耗时且昂贵。
+  current_alternative_en: Currently developers may use game engines or outsource, which is time-consuming
+    and expensive.
+  usage_reason: 开源项目获得 242 星，显示对 AI 游戏生成的初步兴趣，但采用规模尚未核验。
+  usage_reason_en: The open-source project has 242 stars, showing initial interest in AI game generation,
+    but adoption scale is not yet verified.
+- id: req-full-noobiai-2026-08-29
+  project_slug: noobiai
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏原型快速生成的问题，替代传统开发周期，交付可玩的游戏，价值结构成立。
+    evidence_ids:
+    - ev-a888ceb910868f79
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 242 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-a888ceb910868f79
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或教育者，但付费路径不明确。
+    evidence_ids:
+    - ev-a888ceb910868f79
+  - gate: truth
+    status: supported
+    reason: 作为本地工具，交付确定性高，但生成质量可能不稳定。
+    evidence_ids:
+    - ev-a888ceb910868f79
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际使用案例。
+  market: ''
+  job: 用户希望快速将想法转化为可玩的游戏原型，以验证概念或用于教学。
+  job_en: Users want to quickly turn ideas into playable game prototypes to validate concepts or for teaching.
+  pain: 传统游戏开发周期长、成本高，难以快速迭代原型。
+  pain_en: Traditional game development is slow and costly, making rapid prototyping difficult.
+  current_alternative: 目前开发者可能使用游戏引擎或外包，但耗时且昂贵。
+  current_alternative_en: Currently developers may use game engines or outsource, which is time-consuming
+    and expensive.
+  usage_reason: 开源项目获得 242 星，显示对 AI 游戏生成的初步兴趣，但采用规模尚未核验。
+  usage_reason_en: The open-source project has 242 stars, showing initial interest in AI game generation,
+    but adoption scale is not yet verified.

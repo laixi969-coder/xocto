@@ -1,11 +1,13 @@
 ---
 slug: 影响了两代人后meta-被判赔-180-亿美元
-name: 影响了两代人后，Meta 被判赔 180 亿美元
+name: Meta
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Meta与美国52个州和领地达成和解，同意支付最高约180亿美元，并对Instagram和Facebook实施一系列强制性产品变更，包括限制青少年使用时长、夜间封锁、隐藏点赞等。
 inspiration: ''
-summary_en: ''
+summary_en: Meta reached a settlement with 52 US states and territories, agreeing to pay up to $18 billion
+  and implement mandatory product changes on Instagram and Facebook, including time limits for teens,
+  nighttime blocking, and hiding likes.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -55,7 +57,7 @@ summary: "作者｜桦林舞王 \n 编辑｜靖宇 \n \n 1998 年，美国 46 �
   \ geekparkGO"
 first_seen: '2026-08-27T07:33:48Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -66,7 +68,7 @@ sightings:
   kind: news
 ---
 
-# 影响了两代人后，Meta 被判赔 180 亿美元
+# Meta
 
 作者｜桦林舞王 
  编辑｜靖宇 

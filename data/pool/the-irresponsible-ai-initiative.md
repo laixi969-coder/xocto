@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQbnowc1l4eUFG
 summary: The Irresponsible AI Initiative Visual Studio Magazine
 first_seen: '2026-08-27T21:59:51Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

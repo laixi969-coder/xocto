@@ -1,11 +1,12 @@
 ---
 slug: trump-blacklisting-of-woke-anthropic-deemed-illegal-by-feder
-name: Trump blacklisting of "woke" Anthropic deemed illegal by federal judge
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of
 summary: Anthropic refused to support lethal autonomous warfare and mass surveillance.
 first_seen: '2026-08-28T18:07:55Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Trump blacklisting of "woke" Anthropic deemed illegal by federal judge
+# Anthropic
 
 Anthropic refused to support lethal autonomous warfare and mass surveillance.
 

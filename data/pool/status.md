@@ -1,6 +1,6 @@
 ---
 slug: status
-name: status
+name: Flock
 builder: lorecore
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://twitter.com/LocumRex/status/2092993787605717176
 summary: Flock CEO gets his house blurred out on Google Maps and Zillow
 first_seen: '2026-08-27T16:53:01Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# status
+# Flock
 
 Flock CEO gets his house blurred out on Google Maps and Zillow
 

@@ -339,3 +339,43 @@
   usage_reason: 公开代码仓库有 181 个收藏、10 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 181 stars and 10 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-autodesign-2026-08-29
+  project_slug: autodesign
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研究人员或学术作者生成学术交流材料的需求，痛点在于手工制作耗时且需设计技能；产品作为开源设计代理提供可确定的生成交付，结构上成立。
+    evidence_ids:
+    - ev-646370a32a19a600
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 181 个收藏、10 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-646370a32a19a600
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 研究人员或学术作者需要生成学术交流材料，如论文图表、演示文稿等。
+  job_en: Researchers or academic authors need to produce academic communication artifacts such as paper
+    figures and presentations.
+  pain: 公开材料未说明不解决的代价、频率或后果；但手工制作学术图表和演示文稿耗时且需要设计技能，AI 辅助可提高效率。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
+    however, manually creating academic figures and presentations is time-consuming and requires design
+    skills, and AI assistance can improve efficiency.
+  current_alternative: 公开材料未说明当前替代方式；常见替代是使用通用设计工具或模板。
+  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
+    using generic design tools or templates.
+  usage_reason: 仓库有 181 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The repository has 181 stars, indicating developer attention or trial; sustained use
+    and payment are not yet verified.

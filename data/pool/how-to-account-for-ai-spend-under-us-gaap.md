@@ -1,11 +1,11 @@
 ---
 slug: how-to-account-for-ai-spend-under-us-gaap
-name: How To Account for AI Spend Under U.S. GAAP
+name: AI spend accounting
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 讨论美国GAAP下如何核算AI支出。
 inspiration: ''
-summary_en: ''
+summary_en: Discussion on how to account for AI spend under US GAAP.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE9wSHNOVXhSajJ1
 summary: How To Account for AI Spend Under U.S. GAAP Crowe
 first_seen: '2026-08-26T18:48:01Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# How To Account for AI Spend Under U.S. GAAP
+# AI spend accounting
 
 How To Account for AI Spend Under U.S. GAAP Crowe
 

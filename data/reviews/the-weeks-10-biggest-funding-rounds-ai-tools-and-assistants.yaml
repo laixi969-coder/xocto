@@ -1,0 +1,79 @@
+- id: req-initial-the-weeks-10-biggest-funding-rounds-ai-tools-and-assistants-2026-08-29
+  project_slug: the-weeks-10-biggest-funding-rounds-ai-tools-and-assistants
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资，未提供产品功能、用户任务或交付细节，无法判断其解决的具体需求和痛点。
+    evidence_ids:
+    - ev-2f372d3f8783306f
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、采用数据或社区讨论，无法判断市场共识。
+    evidence_ids:
+    - ev-2f372d3f8783306f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式、定价或付费路径，无法判断买方。
+    evidence_ids:
+    - ev-2f372d3f8783306f
+  - gate: truth
+    status: insufficient
+    reason: 无交付证据或用户反馈，无法验证产品是否真实可用。
+    evidence_ids:
+    - ev-2f372d3f8783306f
+  next_validation: 关注 Instinct 的官方产品页面或定价页，以获取功能、目标用户和商业模式信息。
+  market: ''
+  job: 软件工程师在编码、调试或代码审查等环节需要 AI 辅助，以提高效率或减少错误。
+  job_en: Software engineers need AI assistance in coding, debugging, or code review to improve efficiency
+    or reduce errors.
+  pain: 开发工作耗时且易出错，工程师可能面临重复性任务和知识盲区。
+  pain_en: Development work is time-consuming and error-prone; engineers may face repetitive tasks and
+    knowledge gaps.
+  current_alternative: 工程师可能使用通用 AI 助手（如 ChatGPT）或现有 IDE 插件，但具体替代方式尚未核验。
+  current_alternative_en: Engineers may use general AI assistants like ChatGPT or existing IDE plugins,
+    but the specific alternatives are not yet verified.
+  usage_reason: 融资事件表明投资者关注 AI 助手赛道，但产品采用和用户关注度尚未核验。
+  usage_reason_en: The funding event indicates investor interest in AI assistants, but product adoption
+    and user attention are not yet verified.
+- id: req-full-the-weeks-10-biggest-funding-rounds-ai-tools-and-assistants-2026-08-29
+  project_slug: the-weeks-10-biggest-funding-rounds-ai-tools-and-assistants
+  level: full
+  reviewed_at: '2026-08-29T12:39:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资，未提供产品功能、用户任务或交付细节，无法判断其解决的具体需求和痛点。
+    evidence_ids:
+    - ev-2f372d3f8783306f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Instinct 的官方产品页面或定价页，以获取功能、目标用户和商业模式信息。
+  market: ''
+  job: 软件工程师在编码、调试或代码审查等环节需要 AI 辅助，以提高效率或减少错误。
+  job_en: Software engineers need AI assistance in coding, debugging, or code review to improve efficiency
+    or reduce errors.
+  pain: 开发工作耗时且易出错，工程师可能面临重复性任务和知识盲区。
+  pain_en: Development work is time-consuming and error-prone; engineers may face repetitive tasks and
+    knowledge gaps.
+  current_alternative: 工程师可能使用通用 AI 助手（如 ChatGPT）或现有 IDE 插件，但具体替代方式尚未核验。
+  current_alternative_en: Engineers may use general AI assistants like ChatGPT or existing IDE plugins,
+    but the specific alternatives are not yet verified.
+  usage_reason: 融资事件表明投资者关注 AI 助手赛道，但产品采用和用户关注度尚未核验。
+  usage_reason_en: The funding event indicates investor interest in AI assistants, but product adoption
+    and user attention are not yet verified.

@@ -1,20 +1,41 @@
 ---
 slug: 离开剪映后创业她想把一支设计团队装进-ai-工作台
-name: 离开剪映后创业，她想把一支设计团队装进 AI 工作台
+name: OJO
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: OJO是一个AI产品原型设计工作台，面向有设计需求但缺乏完整设计团队的产品经理、市场人员和创业者。用户用自然语言描述产品想法，OJO通过多个角色化Agent（如乔布斯、梵高）协作，完成产品思考、界面设计、迭代和代码交付，输出可运行的动态原型和代码。它试图减少设计判断在角色交接中的稀释，但具体流程和交付质量仍需验证。
+inspiration: 趋势是AI从生成单张图片转向模拟完整设计团队的协作流程。切入点是服务非专业设计师但需要设计结果的用户，如产品经理和创业者。可考虑按项目或结果收费，但需先验证多Agent协作是否真能提高设计采纳率。
+summary_en: OJO is an AI product prototyping design workspace for product managers, marketers, and founders
+  who need design but lack a full design team. Users describe ideas in natural language, and OJO uses
+  multiple role-based agents (e.g., Jobs, Van Gogh) to collaborate, completing product thinking, UI design,
+  iteration, and code delivery, outputting runnable dynamic prototypes and code. It aims to reduce dilution
+  of design judgment across handoffs, but specific workflows and delivery quality remain unverified.
+inspiration_en: The trend is AI moving from generating single images to simulating a full design team's
+  collaborative workflow. The entry point is serving non-professional designers who need design outcomes,
+  such as product managers and founders. Consider charging per project or outcome, but first validate
+  whether multi-agent collaboration truly improves design adoption.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 软件产品设计
+- 互联网
+industries_en:
+- Software product design
+- Internet
+jobs:
+- 产品经理
+- 设计师
+- 前端开发者
+jobs_en:
+- Product managers
+- Designers
+- Frontend developers
+regions:
+- 中国
+- 海外
+regions_en:
+- China
+- Overseas
 open_source: false
 url: http://www.geekpark.net/news/369395
 canonical_url: https://geekpark.net/news/369395
@@ -62,7 +83,7 @@ summary: "头图来源：OJO 官网 \n   \n 极客公园获悉，前剪映中�
   \ \n 代码生成降低了做产品的门槛，但并没有自动补齐产品生产的完整链路。产品结构、审美判断、角色协作和最终交付，仍然需要被持续组织。OJO 试图切入的，正是这层尚未被充分产品化的空间：当 AI 越来越擅长生成，谁来负责判断？"
 first_seen: '2026-08-26T07:10:12Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -73,7 +94,7 @@ sightings:
   kind: news
 ---
 
-# 离开剪映后创业，她想把一支设计团队装进 AI 工作台
+# OJO
 
 头图来源：OJO 官网 
    

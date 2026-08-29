@@ -337,3 +337,42 @@
   usage_reason: 公开代码仓库有 138 个收藏、17 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 138 stars and 17 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-lazy-frames-2026-08-29
+  project_slug: lazy-frames
+  level: full
+  reviewed_at: '2026-08-29T12:36:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频编辑和动画师需要本地、字节稳定的 AI 视频生成需求，痛点在于云服务隐私和稳定性问题，交付可确定，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-efee2e478aaa0652
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 140 星，显示社区关注，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-f0d5315042e20fa2
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济，付费路径不明确，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 视频编辑或动画师需要让 AI 代理根据技能 URL 生成视频，实现本地、字节稳定的自动化视频生成。
+  job_en: Video editors or animators need AI agents to generate videos from a skill URL, enabling local,
+    byte-stable automated video generation.
+  pain: 现有 AI 视频生成依赖云服务，存在隐私和稳定性问题，且难以集成到代理工作流。
+  pain_en: Existing AI video generation relies on cloud services, raising privacy and stability concerns,
+    and is hard to integrate into agent workflows.
+  current_alternative: 目前可能使用云端 AI 视频工具或手动编辑，缺乏本地、字节稳定的代理驱动方案。
+  current_alternative_en: Currently may use cloud AI video tools or manual editing, lacking a local, byte-stable
+    agent-driven solution.
+  usage_reason: 开源仓库获得 140 星，显示开发者对本地 AI 视频生成的兴趣，但付费和持续采用尚未核验。
+  usage_reason_en: The open-source repository has 140 stars, showing developer interest in local AI video
+    generation, but payment and sustained adoption are not yet verified.

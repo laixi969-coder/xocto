@@ -1,11 +1,12 @@
 ---
 slug: tech-giants-unite-against-ai-cyber-threats
-name: Tech giants unite against AI cyber threats
+name: Tech Giants
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 多家科技巨头联合应对 AI 网络威胁，反映了行业对 AI 安全合作的重视。
 inspiration: ''
-summary_en: ''
+summary_en: Tech giants are uniting to address AI cyber threats, reflecting industry-wide collaboration
+  on AI security.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9fM2JtYUc1QURB
 summary: Tech giants unite against AI cyber threats innovation-village.com
 first_seen: '2026-08-28T08:13:36Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Tech giants unite against AI cyber threats
+# Tech Giants
 
 Tech giants unite against AI cyber threats innovation-village.com
 

@@ -24,3 +24,83 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-voronoi-go-2026-08-29
+  project_slug: voronoi-go
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决围棋爱好者找对手难、水平不匹配的痛点，AI 机器人提供随时可对弈的替代，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  - gate: consensus
+    status: supported
+    reason: 社区成员贡献机器人并参与讨论，说明有真实用户参与，但持续采用和付费尚未核验。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能靠订阅或捐赠，但无公开定价或付费证据。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  - gate: truth
+    status: supported
+    reason: 产品贴近围棋对弈的第一性目标，AI 交付可确定，无安全风险。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  next_validation: 关注 Voronoi Go 官网是否增加定价或用户数，以及社区讨论中的付费意愿。
+  market: ''
+  job: 围棋爱好者需要随时找到水平相当的对手进行对局，以练习和娱乐。
+  job_en: Go enthusiasts need to find opponents of similar skill at any time for practice and fun.
+  pain: 线下或在线找对手困难，水平不匹配，等待时间长。
+  pain_en: Finding opponents offline or online is difficult, skill levels mismatch, and waiting times
+    are long.
+  current_alternative: 使用其他在线围棋平台（如 KGS、OGS）或与朋友面对面下棋。
+  current_alternative_en: Using other online Go platforms (e.g., KGS, OGS) or playing face-to-face with
+    friends.
+  usage_reason: 社区贡献的 AI 机器人提供稳定对手，异步对局增加灵活性，社区讨论显示活跃度。
+  usage_reason_en: Community-contributed AI bot provides a stable opponent, correspondence games add flexibility,
+    and community discussion shows engagement.
+- id: req-full-voronoi-go-2026-08-29
+  project_slug: voronoi-go
+  level: full
+  reviewed_at: '2026-08-29T12:40:19Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决围棋爱好者找对手难、水平不匹配的痛点，AI 机器人提供随时可对弈的替代，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  - gate: consensus
+    status: supported
+    reason: 社区成员贡献机器人并参与讨论，说明有真实用户参与，但持续采用和付费尚未核验。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能靠订阅或捐赠，但无公开定价或付费证据。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  - gate: truth
+    status: supported
+    reason: 产品贴近围棋对弈的第一性目标，AI 交付可确定，无安全风险。
+    evidence_ids:
+    - ev-74a6d2f5221ac325
+  next_validation: 关注 Voronoi Go 官网是否增加定价或用户数，以及社区讨论中的付费意愿。
+  market: ''
+  job: 围棋爱好者需要随时找到水平相当的对手进行对局，以练习和娱乐。
+  job_en: Go enthusiasts need to find opponents of similar skill at any time for practice and fun.
+  pain: 线下或在线找对手困难，水平不匹配，等待时间长。
+  pain_en: Finding opponents offline or online is difficult, skill levels mismatch, and waiting times
+    are long.
+  current_alternative: 使用其他在线围棋平台（如 KGS、OGS）或与朋友面对面下棋。
+  current_alternative_en: Using other online Go platforms (e.g., KGS, OGS) or playing face-to-face with
+    friends.
+  usage_reason: 社区贡献的 AI 机器人提供稳定对手，异步对局增加灵活性，社区讨论显示活跃度。
+  usage_reason_en: Community-contributed AI bot provides a stable opponent, correspondence games add flexibility,
+    and community discussion shows engagement.

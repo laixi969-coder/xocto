@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - officialfeeds

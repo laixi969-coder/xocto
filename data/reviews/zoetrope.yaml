@@ -339,3 +339,44 @@
   usage_reason: 公开代码仓库有 634 个收藏、33 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 634 stars and 33 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-zoetrope-2026-08-29
+  project_slug: zoetrope
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者观察 AI 编码代理执行过程的痛点，替代日志或终端输出，交付可确定。工作流结构推理。
+    evidence_ids:
+    - ev-90793392c7f55b1e
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 654 个星标，显示社区关注，但缺乏持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-90793392c7f55b1e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或企业，但付费路径未公开。
+    evidence_ids:
+    - ev-90793392c7f55b1e
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性高，但安全边界和人工监督机制尚未在公开材料中说明。
+    evidence_ids:
+    - ev-90793392c7f55b1e
+  next_validation: 追踪 zoetrope 的 GitHub issue 和 discussion，确认开发者实际使用场景和替代的旧流程。
+  market: ''
+  job: 开发者或技术负责人需要实时可视化 Claude Code 会话，以观察 AI 编码代理的执行过程。
+  job_en: Developers or tech leads need to visualize Claude Code sessions in real-time to observe AI coding
+    agent execution.
+  pain: AI 编码代理执行过程不透明，难以调试和审查，缺乏直观的流程可视化。
+  pain_en: AI coding agent execution is opaque, making debugging and review difficult, lacking intuitive
+    process visualization.
+  current_alternative: 目前开发者可能依赖日志或终端输出，但难以理解整体流程。
+  current_alternative_en: Currently, developers may rely on logs or terminal output, but it's hard to
+    understand the overall flow.
+  usage_reason: 仓库获得 654 个星标，显示关注；但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 654 stars, showing interest; sustained use and payment are not yet
+    verified.

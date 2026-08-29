@@ -1,11 +1,12 @@
 ---
 slug: shoppers-welcome-ai-assistance-but-resist-automated-buying
-name: Shoppers welcome AI assistance but resist automated buying
+name: AI shopping behavior
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 消费者欢迎AI辅助购物，但抵制自动化购买，这影响电商AI应用的设计。
 inspiration: ''
-summary_en: ''
+summary_en: Shoppers welcome AI assistance but resist automated buying, influencing the design of e-commerce
+  AI applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGtvLVFMQ0tF
 summary: Shoppers welcome AI assistance but resist automated buying Retail Asia
 first_seen: '2026-08-26T22:00:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Shoppers welcome AI assistance but resist automated buying
+# AI shopping behavior
 
 Shoppers welcome AI assistance but resist automated buying Retail Asia
 

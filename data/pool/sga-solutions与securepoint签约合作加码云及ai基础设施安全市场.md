@@ -1,11 +1,13 @@
 ---
 slug: sga-solutions与securepoint签约合作加码云及ai基础设施安全市场
-name: SGA Solutions与SecurePoint签约合作，加码云及AI基础设施安全市场
+name: SGA Solutions
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: SGA Solutions 与 SecurePoint 达成合作，共同加码云及 AI 基础设施安全市场。这属于企业间的战略合作，反映安全服务商对 AI 基础设施安全需求的布局，而非独立产品发布。
 inspiration: ''
-summary_en: ''
+summary_en: SGA Solutions and SecurePoint have partnered to strengthen the cloud and AI infrastructure
+  security market. This is a strategic collaboration between enterprises, reflecting security providers'
+  positioning for AI infrastructure security needs, rather than a standalone product launch.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxQSV9PaUF5VG9h
 summary: SGA Solutions与SecurePoint签约合作，加码云及AI基础设施安全市场 디지털투데이
 first_seen: '2026-08-27T04:05:58Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# SGA Solutions与SecurePoint签约合作，加码云及AI基础设施安全市场
+# SGA Solutions
 
 SGA Solutions与SecurePoint签约合作，加码云及AI基础设施安全市场 디지털투데이
 

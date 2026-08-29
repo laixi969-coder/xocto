@@ -1,0 +1,76 @@
+- id: req-initial-蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间-2026-08-29
+  project_slug: 蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及发布智能体，未说明具体输入、动作和交付，无法还原旧工作流和痛点强度。
+    evidence_ids:
+    - ev-20f85f3c8ce6fd61
+  - gate: consensus
+    status: insufficient
+    reason: 未进入价值判断，共识无从谈起。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入价值判断，模式无从谈起。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入价值判断，求真无从谈起。
+    evidence_ids: []
+  next_validation: 关注蒙草生态官网或公告，获取“问草”智能体的功能说明、试点案例或客户反馈。
+  market: ''
+  job: 生态修复企业需要制定修复方案，涉及土壤、植被、气候等多源数据分析。
+  job_en: Ecological restoration firms need to formulate restoration plans involving multi-source data
+    analysis of soil, vegetation, and climate.
+  pain: 传统方案依赖专家经验，耗时长且难以量化，但具体痛点强度未披露。
+  pain_en: Traditional planning relies on expert experience, time-consuming and hard to quantify, but
+    pain intensity is undisclosed.
+  current_alternative: 目前可能依赖生态修复工程师人工勘察和数据分析，但未披露具体工具。
+  current_alternative_en: Currently may rely on manual surveys and data analysis by restoration engineers,
+    but specific tools are undisclosed.
+  usage_reason: 关注度来自企业数智化转型宣传，实际采用和效果尚未核验。
+  usage_reason_en: Attention stems from corporate digital transformation publicity; actual adoption and
+    effects are unverified.
+- id: req-full-蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间-2026-08-29
+  project_slug: 蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间
+  level: full
+  reviewed_at: '2026-08-29T12:41:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及发布智能体，未说明具体输入、动作和交付，无法还原旧工作流和痛点强度。
+    evidence_ids:
+    - ev-20f85f3c8ce6fd61
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注蒙草生态官网或公告，获取“问草”智能体的功能说明、试点案例或客户反馈。
+  market: ''
+  job: 生态修复企业需要制定修复方案，涉及土壤、植被、气候等多源数据分析。
+  job_en: Ecological restoration firms need to formulate restoration plans involving multi-source data
+    analysis of soil, vegetation, and climate.
+  pain: 传统方案依赖专家经验，耗时长且难以量化，但具体痛点强度未披露。
+  pain_en: Traditional planning relies on expert experience, time-consuming and hard to quantify, but
+    pain intensity is undisclosed.
+  current_alternative: 目前可能依赖生态修复工程师人工勘察和数据分析，但未披露具体工具。
+  current_alternative_en: Currently may rely on manual surveys and data analysis by restoration engineers,
+    but specific tools are undisclosed.
+  usage_reason: 关注度来自企业数智化转型宣传，实际采用和效果尚未核验。
+  usage_reason_en: Attention stems from corporate digital transformation publicity; actual adoption and
+    effects are unverified.

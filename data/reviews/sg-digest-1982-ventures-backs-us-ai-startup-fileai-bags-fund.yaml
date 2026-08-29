@@ -1,0 +1,76 @@
+- id: req-initial-sg-digest-1982-ventures-backs-us-ai-startup-fileai-bags-fund-2026-08-29
+  project_slug: sg-digest-1982-ventures-backs-us-ai-startup-fileai-bags-fund
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资，未说明产品解决的具体任务、痛点或交付，无法判断价值结构。
+    evidence_ids:
+    - ev-46349fed3a9e8402
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 fileAI 的官方网站或产品页面，获取其功能描述、目标用户和定价信息。
+  market: ''
+  job: 用户需要处理大量文件，可能涉及分类、检索、提取信息等任务。
+  job_en: Users need to handle large volumes of files, possibly involving classification, retrieval, and
+    information extraction.
+  pain: 文件处理耗时且易出错，但具体痛点未在公开材料中说明。
+  pain_en: File processing is time-consuming and error-prone, but specific pain points are not detailed
+    in public materials.
+  current_alternative: 当前替代方式可能是手动处理或使用传统文件管理软件，但未披露。
+  current_alternative_en: Current alternatives may include manual processing or traditional file management
+    software, but not disclosed.
+  usage_reason: 获得融资表明投资者关注，但用户采用原因尚未核验。
+  usage_reason_en: Securing funding indicates investor interest, but user adoption reasons are not yet
+    verified.
+- id: req-full-sg-digest-1982-ventures-backs-us-ai-startup-fileai-bags-fund-2026-08-29
+  project_slug: sg-digest-1982-ventures-backs-us-ai-startup-fileai-bags-fund
+  level: full
+  reviewed_at: '2026-08-29T12:38:42Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资，未说明产品解决的具体任务、痛点或交付，无法判断价值结构。
+    evidence_ids:
+    - ev-46349fed3a9e8402
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 fileAI 的官方网站或产品页面，获取其功能描述、目标用户和定价信息。
+  market: ''
+  job: 用户需要处理大量文件，可能涉及分类、检索、提取信息等任务。
+  job_en: Users need to handle large volumes of files, possibly involving classification, retrieval, and
+    information extraction.
+  pain: 文件处理耗时且易出错，但具体痛点未在公开材料中说明。
+  pain_en: File processing is time-consuming and error-prone, but specific pain points are not detailed
+    in public materials.
+  current_alternative: 当前替代方式可能是手动处理或使用传统文件管理软件，但未披露。
+  current_alternative_en: Current alternatives may include manual processing or traditional file management
+    software, but not disclosed.
+  usage_reason: 获得融资表明投资者关注，但用户采用原因尚未核验。
+  usage_reason_en: Securing funding indicates investor interest, but user adoption reasons are not yet
+    verified.

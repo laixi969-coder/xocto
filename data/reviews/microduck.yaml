@@ -1,0 +1,75 @@
+- id: req-initial-microduck-2026-08-29
+  project_slug: microduck
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及可训练的双足机器人，未明确用户任务和痛点，价值主张不清晰。
+    evidence_ids:
+    - ev-b0430d75d82cdfcd
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈和采用数据，共识未形成。
+    evidence_ids:
+    - ev-b0430d75d82cdfcd
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，付费路径不明。
+    evidence_ids:
+    - ev-b0430d75d82cdfcd
+  - gate: truth
+    status: insufficient
+    reason: 产品信息不足，无法判断交付确定性。
+    evidence_ids:
+    - ev-b0430d75d82cdfcd
+  next_validation: 关注产品页面和社区反馈，以及是否有实际使用案例。
+  market: ''
+  job: 用户可能希望学习机器人技术或进行娱乐，但具体任务和痛点不明确。
+  job_en: Users may want to learn robotics or for entertainment, but specific tasks and pain points are
+    unclear.
+  pain: 现有机器人套件价格高或封闭，缺乏开源可训练的选择。
+  pain_en: Existing robot kits are expensive or closed, lacking open-source trainable options.
+  current_alternative: 目前用户可能使用乐高或其他商业机器人套件，但定制性差。
+  current_alternative_en: Currently users may use LEGO or other commercial robot kits, but customization
+    is poor.
+  usage_reason: 产品在发布平台上线，但缺乏具体数据和用户反馈。
+  usage_reason_en: The product was launched on a platform, but lacks specific data and user feedback.
+- id: req-full-microduck-2026-08-29
+  project_slug: microduck
+  level: full
+  reviewed_at: '2026-08-29T12:36:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及可训练的双足机器人，未明确用户任务和痛点，价值主张不清晰。
+    evidence_ids:
+    - ev-b0430d75d82cdfcd
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品页面和社区反馈，以及是否有实际使用案例。
+  market: ''
+  job: 用户可能希望学习机器人技术或进行娱乐，但具体任务和痛点不明确。
+  job_en: Users may want to learn robotics or for entertainment, but specific tasks and pain points are
+    unclear.
+  pain: 现有机器人套件价格高或封闭，缺乏开源可训练的选择。
+  pain_en: Existing robot kits are expensive or closed, lacking open-source trainable options.
+  current_alternative: 目前用户可能使用乐高或其他商业机器人套件，但定制性差。
+  current_alternative_en: Currently users may use LEGO or other commercial robot kits, but customization
+    is poor.
+  usage_reason: 产品在发布平台上线，但缺乏具体数据和用户反馈。
+  usage_reason_en: The product was launched on a platform, but lacks specific data and user feedback.

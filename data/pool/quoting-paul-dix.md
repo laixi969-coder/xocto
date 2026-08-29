@@ -28,7 +28,7 @@ summary: "The fact that AI wrote 1M LOC and then refined it over the course of t
   \ ,  generative-ai ,  bun ,  ai ,  llms"
 first_seen: '2026-08-26T08:07:55Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

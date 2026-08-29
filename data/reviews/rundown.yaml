@@ -1,0 +1,73 @@
+- id: req-initial-rundown-2026-08-29
+  project_slug: rundown
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决信息筛选的痛点，但现有新闻客户端已满足基本需求，AI 集成是否带来额外价值不明确。
+    evidence_ids:
+    - ev-7e09a76c8a5854bc
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低，无评论，反应冷淡。
+    evidence_ids:
+    - ev-7e09a76c8a5854bc
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，付费路径不明。
+    evidence_ids:
+    - ev-7e09a76c8a5854bc
+  - gate: truth
+    status: insufficient
+    reason: 产品描述简单，实际功能和交付未验证。
+    evidence_ids:
+    - ev-7e09a76c8a5854bc
+  next_validation: 关注开源仓库的更新和用户反馈，验证 AI 集成的实际价值。
+  market: ''
+  job: 开发者浏览开发者新闻并可能使用 AI 辅助阅读或总结。
+  job_en: Developers browse developer news and may use AI to assist reading or summarizing.
+  pain: 信息过载，难以快速筛选相关内容。
+  pain_en: Information overload makes it hard to quickly filter relevant content.
+  current_alternative: 目前开发者直接使用新闻网站或第三方客户端，AI 集成并非必需。
+  current_alternative_en: Developers currently use news websites or third-party clients; AI integration
+    is not essential.
+  usage_reason: AI 集成可能提供摘要或推荐，但需求强度未明。
+  usage_reason_en: AI integration may offer summaries or recommendations, but demand intensity is unclear.
+- id: req-full-rundown-2026-08-29
+  project_slug: rundown
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决信息筛选的痛点，但现有新闻客户端已满足基本需求，AI 集成是否带来额外价值不明确。
+    evidence_ids:
+    - ev-7e09a76c8a5854bc
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注开源仓库的更新和用户反馈，验证 AI 集成的实际价值。
+  market: ''
+  job: 开发者浏览开发者新闻并可能使用 AI 辅助阅读或总结。
+  job_en: Developers browse developer news and may use AI to assist reading or summarizing.
+  pain: 信息过载，难以快速筛选相关内容。
+  pain_en: Information overload makes it hard to quickly filter relevant content.
+  current_alternative: 目前开发者直接使用新闻网站或第三方客户端，AI 集成并非必需。
+  current_alternative_en: Developers currently use news websites or third-party clients; AI integration
+    is not essential.
+  usage_reason: AI 集成可能提供摘要或推荐，但需求强度未明。
+  usage_reason_en: AI integration may offer summaries or recommendations, but demand intensity is unclear.

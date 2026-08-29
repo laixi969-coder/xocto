@@ -1,11 +1,13 @@
 ---
 slug: indiafirst-lifes-ai-driven-transformation-with-salesforce-ag
-name: IndiaFirst Life’s AI-Driven Transformation with Salesforce Agentforce
+name: Salesforce Agentforce
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Salesforce Agentforce 是 Salesforce 的 AI 代理平台，本次案例显示 IndiaFirst Life 利用其进行转型。具体流程为 AI 代理处理客户咨询或后台任务，但细节未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Salesforce Agentforce is Salesforce's AI agent platform. This case shows IndiaFirst Life using
+  it for transformation. The specific process involves AI agents handling customer inquiries or back-office
+  tasks, but details are not disclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxOMEtFYmtkajlx
 summary: IndiaFirst Life’s AI-Driven Transformation with Salesforce Agentforce Salesforce
 first_seen: '2026-08-27T12:21:51Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# IndiaFirst Life’s AI-Driven Transformation with Salesforce Agentforce
+# Salesforce Agentforce
 
 IndiaFirst Life’s AI-Driven Transformation with Salesforce Agentforce Salesforce
 

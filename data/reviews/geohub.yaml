@@ -154,3 +154,44 @@
   usage_reason: 公开代码仓库有 106 个收藏、19 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 106 stars and 19 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-geohub-2026-08-29
+  project_slug: geohub
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 搜索优化缺乏系统化工具的痛点，替代传统 SEO 工具和手动分析，交付基于研究的代理技能，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-075c9558b33f80dc
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 107 星显示初步关注，但缺乏用户评价或持续采用数据，共识尚未形成。
+    evidence_ids:
+    - ev-5ca03e1875687fc2
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，付费方和付费路径不明确。
+    evidence_ids:
+    - ev-075c9558b33f80dc
+  - gate: truth
+    status: insufficient
+    reason: 产品早期，未验证其优化效果能否提升 AI 搜索可见度，交付确定性待核验。
+    evidence_ids:
+    - ev-075c9558b33f80dc
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，看用户是否报告实际优化效果和替代的旧流程。
+  market: ''
+  job: SEO 专员和内容营销人员需要优化内容在 AI 搜索中的可见度，包括发现、诊断、内容、测量和规划。
+  job_en: SEO specialists and content marketers need to optimize content visibility in AI search, including
+    discovery, diagnosis, content, measurement, and planning.
+  pain: AI 搜索的优化方法不同于传统 SEO，缺乏系统化工具，难以评估和提升 AI 搜索表现。
+  pain_en: AI search optimization differs from traditional SEO, lacking systematic tools to evaluate and
+    improve AI search performance.
+  current_alternative: 可能依赖传统 SEO 工具或手动分析，但缺乏针对 AI 搜索的专门方法。
+  current_alternative_en: May rely on traditional SEO tools or manual analysis, but lack specialized methods
+    for AI search.
+  usage_reason: 公开仓库 107 星显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 107 stars, showing developer attention, but sustained use
+    and payment are not yet verified.

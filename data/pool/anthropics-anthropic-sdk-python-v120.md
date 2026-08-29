@@ -1,11 +1,12 @@
 ---
 slug: anthropics-anthropic-sdk-python-v120
-name: 'anthropics/anthropic-sdk-python: v1.2.0'
+name: Anthropic
 builder: anthropics
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 发布 Python SDK v1.2.0，将 files/skills 命名空间从 beta 转为 GA，并修复 AWS/Bedrock 二进制上传、工具读取等多项问题。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic released Python SDK v1.2.0, promoting files/skills namespaces to GA and fixing AWS/Bedrock
+  binary uploads, tool reading, and other issues.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -58,7 +59,7 @@ summary: '## 1.2.0 (2026-08-27)
   * **api:** clarify pagination on the organization rate-limit list endpoints ([1832b27](https://github.com/anthropics/anthropic-sdk-python/commit/1832b27d0751943640cb898bb77c088ea3f24acb))'
 first_seen: '2026-08-27T20:28:58Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -70,7 +71,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.2.0
+# Anthropic
 
 ## 1.2.0 (2026-08-27)
 

@@ -1,0 +1,75 @@
+- id: req-initial-qumulusai-q2-fy-2026-118-revenue-growth-for-hyperspeed-ai-co-2026-08-29
+  project_slug: qumulusai-q2-fy-2026-118-revenue-growth-for-hyperspeed-ai-co
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料未说明具体解决什么任务、痛点是什么，无法判断价值结构。
+    evidence_ids:
+    - ev-f55de0f8412121cf
+  - gate: consensus
+    status: insufficient
+    reason: 只有收入增长数据，无客户反馈或采用细节。
+    evidence_ids:
+    - ev-f55de0f8412121cf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式。
+    evidence_ids:
+    - ev-f55de0f8412121cf
+  - gate: truth
+    status: insufficient
+    reason: 产品实际能力未验证，需更多细节。
+    evidence_ids:
+    - ev-f55de0f8412121cf
+  next_validation: 查找QumulusAI官网或客户案例，了解具体服务内容、部署流程和定价。
+  market: ''
+  job: 企业需要快速部署AI算力，以支持模型训练和推理。
+  job_en: Enterprises need to quickly deploy AI compute to support model training and inference.
+  pain: AI算力部署复杂、周期长，且成本高昂。
+  pain_en: AI compute deployment is complex, time-consuming, and costly.
+  current_alternative: 企业可能自建数据中心或使用云服务商，但具体替代方式未披露。
+  current_alternative_en: Enterprises may build their own data centers or use cloud providers, but specific
+    alternatives are not disclosed.
+  usage_reason: 收入增长表明有市场需求，但缺乏客户案例和产品细节，采用原因未核验。
+  usage_reason_en: Revenue growth indicates market demand, but lack of customer cases and product details
+    means adoption reasons are unverified.
+- id: req-full-qumulusai-q2-fy-2026-118-revenue-growth-for-hyperspeed-ai-co-2026-08-29
+  project_slug: qumulusai-q2-fy-2026-118-revenue-growth-for-hyperspeed-ai-co
+  level: full
+  reviewed_at: '2026-08-29T12:38:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料未说明具体解决什么任务、痛点是什么，无法判断价值结构。
+    evidence_ids:
+    - ev-f55de0f8412121cf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找QumulusAI官网或客户案例，了解具体服务内容、部署流程和定价。
+  market: ''
+  job: 企业需要快速部署AI算力，以支持模型训练和推理。
+  job_en: Enterprises need to quickly deploy AI compute to support model training and inference.
+  pain: AI算力部署复杂、周期长，且成本高昂。
+  pain_en: AI compute deployment is complex, time-consuming, and costly.
+  current_alternative: 企业可能自建数据中心或使用云服务商，但具体替代方式未披露。
+  current_alternative_en: Enterprises may build their own data centers or use cloud providers, but specific
+    alternatives are not disclosed.
+  usage_reason: 收入增长表明有市场需求，但缺乏客户案例和产品细节，采用原因未核验。
+  usage_reason_en: Revenue growth indicates market demand, but lack of customer cases and product details
+    means adoption reasons are unverified.

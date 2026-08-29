@@ -1,11 +1,12 @@
 ---
 slug: agent-seer-synthesizing-scenarios-from-specification-underst
-name: 'Agent Seer: Synthesizing Scenarios from Specification Understanding'
+name: Agent Seer
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Agent Seer 是苹果研究团队提出的方法，从工具规范自动生成 AI 代理评估场景，减少人工构建成本。
 inspiration: ''
-summary_en: ''
+summary_en: Agent Seer is a method proposed by Apple's research team to automatically generate AI agent
+  evaluation scenarios from tool specifications, reducing manual curation costs.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +27,7 @@ summary: Evaluating AI agents that use external tools requires realistic test sc
   realistic evaluation scenarios without manual curation or live tool execution. Agent Seer…
 first_seen: '2026-08-28T00:00:00Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -37,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# Agent Seer: Synthesizing Scenarios from Specification Understanding
+# Agent Seer
 
 Evaluating AI agents that use external tools requires realistic test scenarios that capture how practitioners compose tools and iterate across conversation turns. Constructing such scenarios by hand demands deep domain expertise, does not scale across tool ecosystems, and produces static benchmarks that cannot track evolving APIs. We observe that tool specifications—function names, natural-language descriptions, and typed parameter schemas—already encode sufficient semantic information to synthesize realistic evaluation scenarios without manual curation or live tool execution. Agent Seer…
 

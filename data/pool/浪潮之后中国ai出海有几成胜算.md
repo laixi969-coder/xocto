@@ -1,11 +1,12 @@
 ---
 slug: 浪潮之后中国ai出海有几成胜算
-name: 浪潮之后，中国AI出海有几成胜算？
+name: 中国AI出海
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章讨论中国AI企业出海的胜算，分析在浪潮之后中国AI出海的机遇与挑战，涉及市场竞争、政策环境等因素。
 inspiration: ''
-summary_en: ''
+summary_en: The article discusses the odds of Chinese AI companies going global, analyzing opportunities
+  and challenges after the wave, including market competition and policy environment.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPQlExUEk0Znhi
 summary: 浪潮之后，中国AI出海有几成胜算？ 新浪网
 first_seen: '2026-08-27T13:56:46Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 浪潮之后，中国AI出海有几成胜算？
+# 中国AI出海
 
 浪潮之后，中国AI出海有几成胜算？ 新浪网
 

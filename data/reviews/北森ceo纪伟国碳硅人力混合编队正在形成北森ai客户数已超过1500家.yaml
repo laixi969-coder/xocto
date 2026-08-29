@@ -1,0 +1,73 @@
+- id: req-initial-北森ceo纪伟国碳硅人力混合编队正在形成北森ai客户数已超过1500家-2026-08-29
+  project_slug: 北森ceo纪伟国碳硅人力混合编队正在形成北森ai客户数已超过1500家
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决HR流程效率问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-0a1225d04c225a79
+  - gate: consensus
+    status: supported
+    reason: 客户数超1500家，表明市场共识。
+    evidence_ids:
+    - ev-0a1225d04c225a79
+  - gate: model
+    status: insufficient
+    reason: 商业模式未详细披露，但客户数暗示有付费。
+    evidence_ids:
+    - ev-0a1225d04c225a79
+  - gate: truth
+    status: supported
+    reason: 产品贴近HR工作，交付可验证，但需更多客户反馈。
+    evidence_ids:
+    - ev-0a1225d04c225a79
+  next_validation: 关注北森官方客户案例和续费数据，验证AI产品的长期价值。
+  market: ''
+  job: HR需要高效处理招聘、绩效等事务，减少人工成本。
+  job_en: HR needs to efficiently handle recruitment and performance tasks to reduce labor costs.
+  pain: 传统HR流程耗时且易出错。
+  pain_en: Traditional HR processes are time-consuming and error-prone.
+  current_alternative: 企业可能使用传统HR软件或人工处理。
+  current_alternative_en: Enterprises may use traditional HR software or manual processing.
+  usage_reason: 北森AI客户数超1500家，表明市场认可。
+  usage_reason_en: Beisen's AI customer base exceeds 1,500, indicating market acceptance.
+- id: req-full-北森ceo纪伟国碳硅人力混合编队正在形成北森ai客户数已超过1500家-2026-08-29
+  project_slug: 北森ceo纪伟国碳硅人力混合编队正在形成北森ai客户数已超过1500家
+  level: full
+  reviewed_at: '2026-08-29T12:40:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决HR流程效率问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-0a1225d04c225a79
+  - gate: consensus
+    status: insufficient
+    reason: 它试图帮助用户完成：“北森将AI融入人力资源管理，企业HR将招聘、绩效等数据交给系统，系统生成候选人筛选、绩效分析等结果，HR进行最终决策，客户数已超1500家”。公开材料尚未给出持续部署、复购或独立用户评价。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 商业模式未详细披露，但客户数暗示有付费。
+    evidence_ids:
+    - ev-0a1225d04c225a79
+  - gate: truth
+    status: supported
+    reason: 产品贴近HR工作，交付可验证，但需更多客户反馈。
+    evidence_ids:
+    - ev-0a1225d04c225a79
+  next_validation: 关注北森官方客户案例和续费数据，验证AI产品的长期价值。
+  market: ''
+  job: HR需要高效处理招聘、绩效等事务，减少人工成本。
+  job_en: HR needs to efficiently handle recruitment and performance tasks to reduce labor costs.
+  pain: 传统HR流程耗时且易出错。
+  pain_en: Traditional HR processes are time-consuming and error-prone.
+  current_alternative: 企业可能使用传统HR软件或人工处理。
+  current_alternative_en: Enterprises may use traditional HR software or manual processing.
+  usage_reason: 北森AI客户数超1500家，表明市场认可。
+  usage_reason_en: Beisen's AI customer base exceeds 1,500, indicating market acceptance.

@@ -1,0 +1,76 @@
+- id: req-initial-googles-ai-note-taking-app-now-allows-you-to-interact-with-b-2026-08-29
+  project_slug: googles-ai-note-taking-app-now-allows-you-to-interact-with-b
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决从书籍中提取知识并生成学习材料的痛点，工作流结构清晰：导入书籍、提问、生成计划。
+    evidence_ids:
+    - ev-0da22fdab7d42fb8
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用数据，仅宣布新功能。
+    evidence_ids:
+    - ev-0da22fdab7d42fb8
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为免费功能。
+    evidence_ids:
+    - ev-0da22fdab7d42fb8
+  - gate: truth
+    status: insufficient
+    reason: 未披露生成内容的质量和准确性验证。
+    evidence_ids:
+    - ev-0da22fdab7d42fb8
+  next_validation: 关注用户对生成内容质量的反馈和实际使用数据。
+  market: ''
+  job: 用户需要从已购书籍中提取知识、生成学习材料。
+  job_en: Users need to extract knowledge from purchased books and generate study materials.
+  pain: 阅读书籍后难以系统化整理和复习，手动做笔记耗时。
+  pain_en: It's hard to systematically organize and review after reading; manual note-taking is time-consuming.
+  current_alternative: 用户可能手动做笔记、使用摘要工具或搜索引擎。
+  current_alternative_en: Users may take manual notes, use summarization tools, or search engines.
+  usage_reason: Google 的品牌和现有用户基础可能吸引采用，且与 Play Books 的集成降低使用门槛。
+  usage_reason_en: Google's brand and existing user base may drive adoption, and integration with Play
+    Books lowers the barrier.
+- id: req-full-googles-ai-note-taking-app-now-allows-you-to-interact-with-b-2026-08-29
+  project_slug: googles-ai-note-taking-app-now-allows-you-to-interact-with-b
+  level: full
+  reviewed_at: '2026-08-29T12:35:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决从书籍中提取知识并生成学习材料的痛点，工作流结构清晰：导入书籍、提问、生成计划。
+    evidence_ids:
+    - ev-0da22fdab7d42fb8
+  - gate: consensus
+    status: insufficient
+    reason: 它试图帮助用户完成：“Gemini Notebook 是 Google 的 AI 笔记应用，现新增“Expert Intelligence”功能，用户可将已购的 Google Play
+      Books 导入”。公开材料尚未给出持续部署、复购或独立用户评价。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“Gemini Notebook 是 Google 的 AI 笔记应用，现新增“Expert Intelligence”功能，用户可将已购的 Google Play
+      Books 导入”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Gemini Notebook 是 Google 的 AI 笔记应用，现新增“Expert Intelligence”功能，用户可将已购的 Google Play
+      Books 导入”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 追踪 Gemini Notebook 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 用户需要从已购书籍中提取知识、生成学习材料。
+  job_en: Users need to extract knowledge from purchased books and generate study materials.
+  pain: 阅读书籍后难以系统化整理和复习，手动做笔记耗时。
+  pain_en: It's hard to systematically organize and review after reading; manual note-taking is time-consuming.
+  current_alternative: 用户可能手动做笔记、使用摘要工具或搜索引擎。
+  current_alternative_en: Users may take manual notes, use summarization tools, or search engines.
+  usage_reason: Google 的品牌和现有用户基础可能吸引采用，且与 Play Books 的集成降低使用门槛。
+  usage_reason_en: Google's brand and existing user base may drive adoption, and integration with Play
+    Books lowers the barrier.

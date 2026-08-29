@@ -1,0 +1,76 @@
+- id: req-initial-观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗-2026-08-29
+  project_slug: 观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 办公任务明确，AI能接收文档等输入并执行动作，交付可核对；工作流结构判断成立。
+    evidence_ids:
+    - ev-fd7eafe37ac21b79
+  - gate: consensus
+    status: insufficient
+    reason: 用户增长近9倍是采用信号，但缺乏持续使用和留存证据，且可能受推广影响。
+    evidence_ids:
+    - ev-fd7eafe37ac21b79
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是免费推广阶段，商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体功能细节和交付质量，需进一步验证是否真正解决办公痛点。
+    evidence_ids: []
+  next_validation: 关注百度官方产品页面或应用商店，获取“搭子”的功能列表、定价和用户评价。
+  market: ''
+  job: 办公人员需要处理文档、数据、日程等重复性任务，提高工作效率。
+  job_en: Office workers need to handle repetitive tasks like documents, data, and schedules to improve
+    efficiency.
+  pain: 重复性办公任务耗时且易出错，但具体痛点强度未量化。
+  pain_en: Repetitive office tasks are time-consuming and error-prone, but pain intensity is not quantified.
+  current_alternative: 目前可能使用传统办公软件或人工处理，但未披露具体替代方式。
+  current_alternative_en: Currently may use traditional office software or manual processing, but specific
+    alternatives are undisclosed.
+  usage_reason: 用户增长近9倍表明有采用，但可能受巨头推广影响，付费和留存未核验。
+  usage_reason_en: Nearly 9x user growth indicates adoption, but may be influenced by giant promotion;
+    monetization and retention are unverified.
+- id: req-full-观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗-2026-08-29
+  project_slug: 观察-巨头扎堆布局ai办公智能体百度搭子用户增长近9倍能赢得市场吗
+  level: full
+  reviewed_at: '2026-08-29T12:41:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公场景中重复性、流程性任务的效率问题，痛点明确，交付可确定（生成文档、纪要等）。工作流结构判断：替代人工手动整理和跨系统操作。
+    evidence_ids:
+    - ev-fd7eafe37ac21b79
+  - gate: consensus
+    status: insufficient
+    reason: 用户增长近9倍是采用信号，但缺乏持续使用和留存证据，且可能受推广影响。
+    evidence_ids:
+    - ev-fd7eafe37ac21b79
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是免费推广阶段，商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体功能细节和交付质量，需进一步验证是否真正解决办公痛点。
+    evidence_ids: []
+  next_validation: 关注百度官方产品页面或应用商店，获取“搭子”的功能列表、定价和用户评价。
+  market: ''
+  job: 办公人员需要处理文档、数据、日程等重复性任务，提高工作效率。
+  job_en: Office workers need to handle repetitive tasks like documents, data, and schedules to improve
+    efficiency.
+  pain: 重复性办公任务耗时且易出错，但具体痛点强度未量化。
+  pain_en: Repetitive office tasks are time-consuming and error-prone, but pain intensity is not quantified.
+  current_alternative: 目前可能使用传统办公软件或人工处理，但未披露具体替代方式。
+  current_alternative_en: Currently may use traditional office software or manual processing, but specific
+    alternatives are undisclosed.
+  usage_reason: 用户增长近9倍表明有采用，但可能受巨头推广影响，付费和留存未核验。
+  usage_reason_en: Nearly 9x user growth indicates adoption, but may be influenced by giant promotion;
+    monetization and retention are unverified.

@@ -1,0 +1,68 @@
+- id: req-initial-india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc-2026-08-29
+  project_slug: india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决开发流程中的某些问题，但产品功能未披露，无法判断需求与痛点。
+    evidence_ids:
+    - ev-5c1f5e3b9f87c768
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Runable 的官方网站或产品发布，以获取具体功能、目标用户和商业模式信息。
+  market: ''
+  job: 开发者可能使用 Runable 来简化开发流程，但具体任务未明确。
+  job_en: Developers might use Runable to streamline development processes, but the specific task is unclear.
+  pain: 未知，因为产品功能未披露。
+  pain_en: Unknown, as product features are not disclosed.
+  current_alternative: 未知，因为产品功能未披露。
+  current_alternative_en: Unknown, as product features are not disclosed.
+  usage_reason: 融资新闻引发关注，但尚无产品采用证据。
+  usage_reason_en: Funding news attracts attention, but no product adoption evidence yet.
+- id: req-full-india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc-2026-08-29
+  project_slug: india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资事件，未说明产品功能、目标用户或交付流程，无法判断其解决的具体需求与痛点。
+    evidence_ids:
+    - ev-5c1f5e3b9f87c768
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Runable 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 开发者可能使用 Runable 来简化开发流程，但具体任务未明确。
+  job_en: Developers might use Runable to streamline development processes, but the specific task is unclear.
+  pain: 未知，因为产品功能未披露。
+  pain_en: Unknown, as product features are not disclosed.
+  current_alternative: 未知，因为产品功能未披露。
+  current_alternative_en: Unknown, as product features are not disclosed.
+  usage_reason: 融资新闻引发关注，但尚无产品采用证据。
+  usage_reason_en: Funding news attracts attention, but no product adoption evidence yet.

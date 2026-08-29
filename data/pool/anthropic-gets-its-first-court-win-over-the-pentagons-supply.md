@@ -1,11 +1,12 @@
 ---
 slug: anthropic-gets-its-first-court-win-over-the-pentagons-supply
-name: Anthropic gets its first court win over the Pentagon’s supply-chain risk label
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic是一家AI公司，其在与美国政府的诉讼中赢得首场胜利，法院裁定政府将其标记为供应链风险的行为非法。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic is an AI company that won its first court victory against the US government, with
+  a judge ruling that the government's labeling of it as a supply-chain risk was illegal.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: A federal judge ruled the Trump administration illegally labeled Anthro
   handing the AI company a victory as its second Pentagon lawsuit continues in Washington.
 first_seen: '2026-08-28T12:46:12Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic gets its first court win over the Pentagon’s supply-chain risk label
+# Anthropic
 
 A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.
 

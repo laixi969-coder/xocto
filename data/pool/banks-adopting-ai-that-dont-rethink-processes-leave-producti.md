@@ -1,11 +1,12 @@
 ---
 slug: banks-adopting-ai-that-dont-rethink-processes-leave-producti
-name: Banks Adopting AI that Don't Rethink Processes Leave Productivity — and Money — on the Table
+name: 银行业AI应用
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 银行采用 AI 但不重新思考流程，会留下生产力和金钱，强调流程再造的重要性。
 inspiration: ''
-summary_en: ''
+summary_en: Banks adopting AI without rethinking processes leave productivity and money on the table,
+  emphasizing the importance of process reengineering.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Banks Adopting AI that Don't Rethink Processes Leave Productivity — a
   The Financial Brand
 first_seen: '2026-08-26T15:02:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Banks Adopting AI that Don't Rethink Processes Leave Productivity — and Money — on the Table
+# 银行业AI应用
 
 Banks Adopting AI that Don't Rethink Processes Leave Productivity — and Money — on the Table The Financial Brand
 

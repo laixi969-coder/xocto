@@ -22,7 +22,7 @@ summary: 'New Product Roundup: Copilot Manufacturing Solutions, ARGON Measuring 
   Industry'
 first_seen: '2026-08-28T11:10:59Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

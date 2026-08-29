@@ -1,0 +1,86 @@
+- id: req-initial-chatgpt-2026-08-29
+  project_slug: chatgpt
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教师工作量大、学生缺乏即时反馈的痛点，旧替代是人工辅导和传统工具。工作流结构判断：AI 能提供个性化学习支持，价值明确。
+    evidence_ids:
+    - ev-264420b836847d0a
+    - ev-abfdd2e2f24630f4
+  - gate: consensus
+    status: supported
+    reason: ChatGPT 已有 55 个学区采用，超过 10 万教育工作者，且有随机研究支持，共识较强。
+    evidence_ids:
+    - ev-abfdd2e2f24630f4
+    - ev-264420b836847d0a
+  - gate: model
+    status: supported
+    reason: OpenAI 通过 B2B 销售给学区，有明确付费方，商业模式清晰。
+    evidence_ids:
+    - ev-abfdd2e2f24630f4
+  - gate: truth
+    status: supported
+    reason: 随机研究显示 ChatGPT 结合批判性思维训练能提升学生表现，交付效果有初步验证。
+    evidence_ids:
+    - ev-264420b836847d0a
+  next_validation: 关注 OpenAI 教育产品的定价和更多学区采用案例，以及研究论文的详细数据。
+  market: ''
+  job: 教师需要 AI 工具来辅助教学、批改作业和提供个性化学习支持；学生需要 AI 帮助学习。
+  job_en: Teachers need AI tools to assist with teaching, grading, and personalized learning support;
+    students need AI for learning.
+  pain: 教师工作量大，难以个性化关注每个学生；学生缺乏即时反馈。
+  pain_en: Teachers have heavy workloads and struggle to personalize attention; students lack immediate
+    feedback.
+  current_alternative: 替代方式是传统教学工具、人工辅导或通用搜索引擎。
+  current_alternative_en: Alternatives include traditional teaching tools, human tutoring, or general
+    search engines.
+  usage_reason: ChatGPT 已有大规模用户基础，教育领域扩展有官方推动和实证研究支持，采用有据可依。
+  usage_reason_en: ChatGPT has a massive user base, and education expansion is backed by official initiatives
+    and empirical research, providing evidence for adoption.
+- id: req-full-chatgpt-2026-08-29
+  project_slug: chatgpt
+  level: full
+  reviewed_at: '2026-08-29T12:31:42Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教师工作量大、学生缺乏即时反馈的痛点，旧替代是人工辅导和传统工具。工作流结构判断：AI 能提供个性化学习支持，价值明确。
+    evidence_ids:
+    - ev-264420b836847d0a
+    - ev-abfdd2e2f24630f4
+  - gate: consensus
+    status: supported
+    reason: ChatGPT 已有 55 个学区采用，超过 10 万教育工作者，且有随机研究支持，共识较强。
+    evidence_ids:
+    - ev-abfdd2e2f24630f4
+    - ev-264420b836847d0a
+  - gate: model
+    status: supported
+    reason: OpenAI 通过 B2B 销售给学区，有明确付费方，商业模式清晰。
+    evidence_ids:
+    - ev-abfdd2e2f24630f4
+  - gate: truth
+    status: supported
+    reason: 随机研究显示 ChatGPT 结合批判性思维训练能提升学生表现，交付效果有初步验证。
+    evidence_ids:
+    - ev-264420b836847d0a
+  next_validation: 关注 OpenAI 教育产品的定价和更多学区采用案例，以及研究论文的详细数据。
+  market: ''
+  job: 教师需要 AI 工具来辅助教学、批改作业和提供个性化学习支持；学生需要 AI 帮助学习。
+  job_en: Teachers need AI tools to assist with teaching, grading, and personalized learning support;
+    students need AI for learning.
+  pain: 教师工作量大，难以个性化关注每个学生；学生缺乏即时反馈。
+  pain_en: Teachers have heavy workloads and struggle to personalize attention; students lack immediate
+    feedback.
+  current_alternative: 替代方式是传统教学工具、人工辅导或通用搜索引擎。
+  current_alternative_en: Alternatives include traditional teaching tools, human tutoring, or general
+    search engines.
+  usage_reason: ChatGPT 已有大规模用户基础，教育领域扩展有官方推动和实证研究支持，采用有据可依。
+  usage_reason_en: ChatGPT has a massive user base, and education expansion is backed by official initiatives
+    and empirical research, providing evidence for adoption.

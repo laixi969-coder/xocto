@@ -1,0 +1,75 @@
+- id: req-initial-fnscribe-2026-08-29
+  project_slug: fnscribe
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决云端听写的隐私和延迟痛点，替代自带听写和云端服务，交付本地语音转文字，价值结构成立。
+    evidence_ids:
+    - ev-c4997122f3149f1f
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区 20 分和 14 条评论显示初步关注，但缺乏用户评价或持续采用数据。
+    evidence_ids:
+    - ev-c4997122f3149f1f
+  - gate: model
+    status: insufficient
+    reason: 开源免费，商业模式未披露。
+    evidence_ids:
+    - ev-c4997122f3149f1f
+  - gate: truth
+    status: insufficient
+    reason: 产品早期，未验证其识别准确率和用户体验。
+    evidence_ids:
+    - ev-c4997122f3149f1f
+  next_validation: 关注代码仓库的 star 增长和 issue 反馈，看用户是否报告识别准确率问题。
+  market: ''
+  job: 用户需要在 Mac 上快速将语音转为文字，用于笔记、写作或输入。
+  job_en: Users need to quickly convert speech to text on Mac for notes, writing, or input.
+  pain: 云端听写有隐私顾虑和网络延迟，且可能不支持离线场景。
+  pain_en: Cloud dictation has privacy concerns and network latency, and may not work offline.
+  current_alternative: 使用 macOS 自带听写或第三方云端服务。
+  current_alternative_en: Using macOS built-in dictation or third-party cloud services.
+  usage_reason: 技术社区讨论显示对离线听写的兴趣，但采用证据不足。
+  usage_reason_en: Tech community discussion shows interest in offline dictation, but adoption evidence
+    is insufficient.
+- id: req-full-fnscribe-2026-08-29
+  project_slug: fnscribe
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决云端听写的隐私和延迟痛点，替代自带听写和云端服务，交付本地语音转文字，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-c4997122f3149f1f
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区 20 分和 14 条评论显示初步关注，但缺乏用户评价或持续采用数据。
+    evidence_ids:
+    - ev-c4997122f3149f1f
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“FnScribe 是一个开源的 macOS 离线听写工具，用户按下快捷键说话，它本地将语音转为文字，无需联网。具体支持的语言和输出格式待核验”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品早期，未验证其识别准确率和用户体验。
+    evidence_ids:
+    - ev-c4997122f3149f1f
+  next_validation: 关注代码仓库的 star 增长和 issue 反馈，看用户是否报告识别准确率问题。
+  market: ''
+  job: 用户需要在 Mac 上快速将语音转为文字，用于笔记、写作或输入。
+  job_en: Users need to quickly convert speech to text on Mac for notes, writing, or input.
+  pain: 云端听写有隐私顾虑和网络延迟，且可能不支持离线场景。
+  pain_en: Cloud dictation has privacy concerns and network latency, and may not work offline.
+  current_alternative: 使用 macOS 自带听写或第三方云端服务。
+  current_alternative_en: Using macOS built-in dictation or third-party cloud services.
+  usage_reason: 技术社区讨论显示对离线听写的兴趣，但采用证据不足。
+  usage_reason_en: Tech community discussion shows interest in offline dictation, but adoption evidence
+    is insufficient.

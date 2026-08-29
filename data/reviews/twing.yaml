@@ -1,0 +1,76 @@
+- id: req-initial-twing-2026-08-29
+  project_slug: twing
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明它是编码代理的协调层，未描述具体输入、动作和交付，无法还原旧工作流或痛点。
+    evidence_ids:
+    - ev-4b39e3bce1f58a51
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无用户反馈或采用数据，无法判断共识程度。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式未披露，无法判断付费方。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 关注 twing 官方文档或代码仓库，获取具体功能描述、使用案例和用户反馈。
+  market: ''
+  job: 开发者需要协调多个编码代理或任务，确保它们高效协作完成复杂开发工作。
+  job_en: Developers need to coordinate multiple coding agents or tasks to ensure efficient collaboration
+    on complex development work.
+  pain: 多代理协作时可能出现任务冲突、资源竞争或结果不一致，缺乏统一协调机制。
+  pain_en: Multi-agent collaboration may suffer from task conflicts, resource contention, or inconsistent
+    results without a unified coordination mechanism.
+  current_alternative: 目前开发者可能手动管理代理任务，或依赖单一代理处理所有工作，缺乏专门的协调工具。
+  current_alternative_en: Currently developers may manually manage agent tasks or rely on a single agent
+    for all work, lacking dedicated coordination tools.
+  usage_reason: 关注度来自编码代理生态的快速发展，开发者对协调层的需求可能上升，但具体采用证据尚未核验。
+  usage_reason_en: Attention stems from the rapid growth of coding agent ecosystems; developer demand
+    for coordination layers may rise, but specific adoption evidence is unverified.
+- id: req-full-twing-2026-08-29
+  project_slug: twing
+  level: full
+  reviewed_at: '2026-08-29T12:39:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明它是编码代理的协调层，未描述具体输入、动作和交付，无法还原旧工作流或痛点。
+    evidence_ids:
+    - ev-4b39e3bce1f58a51
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 twing 官方文档或代码仓库，获取具体功能描述、使用案例和用户反馈。
+  market: ''
+  job: 开发者需要协调多个编码代理或任务，确保它们高效协作完成复杂开发工作。
+  job_en: Developers need to coordinate multiple coding agents or tasks to ensure efficient collaboration
+    on complex development work.
+  pain: 多代理协作时可能出现任务冲突、资源竞争或结果不一致，缺乏统一协调机制。
+  pain_en: Multi-agent collaboration may suffer from task conflicts, resource contention, or inconsistent
+    results without a unified coordination mechanism.
+  current_alternative: 目前开发者可能手动管理代理任务，或依赖单一代理处理所有工作，缺乏专门的协调工具。
+  current_alternative_en: Currently developers may manually manage agent tasks or rely on a single agent
+    for all work, lacking dedicated coordination tools.
+  usage_reason: 关注度来自编码代理生态的快速发展，开发者对协调层的需求可能上升，但具体采用证据尚未核验。
+  usage_reason_en: Attention stems from the rapid growth of coding agent ecosystems; developer demand
+    for coordination layers may rise, but specific adoption evidence is unverified.

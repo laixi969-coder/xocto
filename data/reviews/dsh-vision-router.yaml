@@ -347,3 +347,43 @@
   usage_reason: 公开代码仓库有 1,009 个收藏、44 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,009 stars and 44 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-vision-router-2026-08-29
+  project_slug: dsh-vision-router
+  level: full
+  reviewed_at: '2026-08-29T12:34:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决文本模型无法处理图像任务的需求，痛点在于图像任务需手动转换或外部工具；工作流结构推理显示，交付为视觉工具链，可确定。
+    evidence_ids:
+    - ev-68b242426cde180b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为1,016个收藏、44个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-f3a32dc4a9ebb6f9
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 给只会读文字的AI接上眼睛，看图、认字、截屏都能当普通一步来做
+  job_en: Give a text-only AI eyes, so looking at a picture, reading text, or grabbing a screenshot is
+    just another step.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；但工作流结构推理显示，文本模型无法处理图像任务，导致用户需手动转换或外部工具。
+  pain_en: Public materials do not show the cost, frequency, or consequence of leaving it unsolved; but
+    workflow reasoning suggests text-only models cannot handle image tasks, forcing manual conversion
+    or external tools.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；但可推理为使用外部OCR或手动描述，替代方式未核验。
+  current_alternative_en: Public materials do not show how users complete this job today; but it can be
+    inferred as using external OCR or manual description; alternatives unverified.
+  usage_reason: 公开代码仓库有1,016个收藏，说明开发者关注；持续使用与付费仍未核验。
+  usage_reason_en: The public repository has 1,016 stars, showing developer attention; repeat use and
+    payment are not yet verified.

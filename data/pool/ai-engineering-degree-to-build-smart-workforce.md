@@ -1,11 +1,12 @@
 ---
 slug: ai-engineering-degree-to-build-smart-workforce
-name: AI Engineering Degree To Build Smart Workforce
+name: AI工程学位
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 推出AI工程学位以培养智能劳动力，反映教育领域对AI技能的需求。
 inspiration: ''
-summary_en: ''
+summary_en: AI engineering degree launched to build smart workforce, reflecting demand for AI skills in
+  education.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPc1JhZklrOU9s
 summary: AI Engineering Degree To Build Smart Workforce Mirage News
 first_seen: '2026-08-26T23:49:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI Engineering Degree To Build Smart Workforce
+# AI工程学位
 
 AI Engineering Degree To Build Smart Workforce Mirage News
 

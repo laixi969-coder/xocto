@@ -1,11 +1,13 @@
 ---
 slug: intelligent-transcription-with-gemini-35-transcribe
-name: Intelligent transcription with Gemini 3.5 Transcribe
+name: Gemini 3.5 Transcribe
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Gemini 3.5 Transcribe 是 Google DeepMind 发布的语音转文字模型，面向需要将音频或视频内容转为文本的用户。它接收语音输入，输出更智能的转录文本，具体流程和交付细节仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Gemini 3.5 Transcribe is a speech-to-text model from Google DeepMind, targeting users who
+  need to convert audio or video content into text. It takes speech input and outputs more intelligent
+  transcription, with specific workflow and delivery details still to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://deepmind.google/blog/intelligent-transcription-with-gemin
 summary: Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.
 first_seen: '2026-08-26T17:01:00Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Intelligent transcription with Gemini 3.5 Transcribe
+# Gemini 3.5 Transcribe
 
 Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.
 

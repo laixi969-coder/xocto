@@ -1,0 +1,84 @@
+- id: req-initial-gemini-2026-08-29
+  project_slug: gemini
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常任务效率和企业客服、法律文档处理的痛点，替代搜索引擎和人工服务，交付生成式 AI 响应，价值结构成立。
+    evidence_ids:
+    - ev-dd9e03631b9a98d1
+    - ev-c28a28f38e1ec185
+    - ev-52b8240fc601cd6b
+  - gate: consensus
+    status: supported
+    reason: 月访问量 29.5 亿，Verizon 等企业案例，显示广泛采用。
+    evidence_ids:
+    - ev-52b8240fc601cd6b
+  - gate: model
+    status: supported
+    reason: Google 通过订阅和云服务收费，企业客户如 Verizon 付费，模式清晰。
+    evidence_ids:
+    - ev-52b8240fc601cd6b
+  - gate: truth
+    status: supported
+    reason: 产品成熟，交付稳定，企业案例验证了可靠性。
+    evidence_ids:
+    - ev-52b8240fc601cd6b
+  next_validation: 关注 Gemini Enterprise 的客户案例和行业渗透率。
+  market: ''
+  job: 用户需要 AI 助手完成写作、规划、信息查询等日常任务，企业需要自动化客服和法律文档处理。
+  job_en: Users need AI assistants for writing, planning, information lookup, and enterprises need automated
+    customer service and legal document processing.
+  pain: 传统工具效率低，人工客服成本高，法律文档审查耗时。
+  pain_en: Traditional tools are inefficient, human customer service is costly, and legal document review
+    is time-consuming.
+  current_alternative: 使用搜索引擎、人工客服和传统法律软件。
+  current_alternative_en: Using search engines, human customer service, and traditional legal software.
+  usage_reason: Gemini 月访问量 29.5 亿，Verizon 等企业采用，显示广泛使用。
+  usage_reason_en: Gemini has 2.95B monthly visits and enterprise adoption like Verizon, showing widespread
+    use.
+- id: req-full-gemini-2026-08-29
+  project_slug: gemini
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决日常任务效率和企业客服、法律文档处理的痛点，替代搜索引擎和人工服务，交付生成式 AI 响应，价值结构成立。
+    evidence_ids:
+    - ev-dd9e03631b9a98d1
+    - ev-c28a28f38e1ec185
+    - ev-52b8240fc601cd6b
+  - gate: consensus
+    status: supported
+    reason: 月访问量 29.5 亿，Verizon 等企业案例，显示广泛采用。
+    evidence_ids:
+    - ev-52b8240fc601cd6b
+  - gate: model
+    status: supported
+    reason: Google 通过订阅和云服务收费，企业客户如 Verizon 付费，模式清晰。
+    evidence_ids:
+    - ev-52b8240fc601cd6b
+  - gate: truth
+    status: supported
+    reason: 产品成熟，交付稳定，企业案例验证了可靠性。
+    evidence_ids:
+    - ev-52b8240fc601cd6b
+  next_validation: 关注 Gemini Enterprise 的客户案例和行业渗透率。
+  market: ''
+  job: 用户需要 AI 助手完成写作、规划、信息查询等日常任务，企业需要自动化客服和法律文档处理。
+  job_en: Users need AI assistants for writing, planning, information lookup, and enterprises need automated
+    customer service and legal document processing.
+  pain: 传统工具效率低，人工客服成本高，法律文档审查耗时。
+  pain_en: Traditional tools are inefficient, human customer service is costly, and legal document review
+    is time-consuming.
+  current_alternative: 使用搜索引擎、人工客服和传统法律软件。
+  current_alternative_en: Using search engines, human customer service, and traditional legal software.
+  usage_reason: Gemini 月访问量 29.5 亿，Verizon 等企业采用，显示广泛使用。
+  usage_reason_en: Gemini has 2.95B monthly visits and enterprise adoption like Verizon, showing widespread
+    use.

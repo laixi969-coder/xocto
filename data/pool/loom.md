@@ -22,7 +22,7 @@ summary: Use Loom to record quick videos of your screen and cam. Explain anythin
   and skip the meeting. An essential tool for hybrid workplaces.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - aicpb
 - newssearch

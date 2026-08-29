@@ -1,0 +1,82 @@
+- id: req-initial-极智嘉上半年订单高增ai订阅式服务订单增753年具身出货超万台-2026-08-29
+  project_slug: 极智嘉上半年订单高增ai订阅式服务订单增753年具身出货超万台
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决仓储搬运和调度的效率与成本痛点，替代人工和传统WMS，交付可追踪的搬运结果。工作流结构判断：痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  - gate: consensus
+    status: supported
+    reason: 订单增长75%和出货超万台表明市场已有采用，但缺乏具体客户留存或复购数据，共识部分成立。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  - gate: model
+    status: insufficient
+    reason: AI订阅式服务订单增长，但未披露定价和付费方细节；可能面向B端仓储企业，但具体收费模式未公开。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  - gate: truth
+    status: supported
+    reason: 产品贴近仓储物流第一性目标，机器人调度可确定性交付，安全边界明确（人工监控）。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  next_validation: 关注极智嘉官方财报或新闻稿，获取AI订阅服务的具体定价、客户案例和续费率。
+  market: ''
+  job: 仓储物流企业需要高效完成仓库内的搬运、分拣和调度，以应对订单波动和人力成本上升。
+  job_en: Warehouse and logistics companies need to efficiently handle material handling, sorting, and
+    scheduling to cope with order fluctuations and rising labor costs.
+  pain: 传统人工搬运效率低、成本高，且难以应对高峰期订单波动；人工管理容易出错，导致发货延迟。
+  pain_en: Traditional manual handling is inefficient and costly, struggles with peak-season fluctuations,
+    and is prone to errors causing shipment delays.
+  current_alternative: 目前多数仓库仍依赖人工叉车、传送带和人工调度，或使用传统WMS系统但缺乏智能调度。
+  current_alternative_en: Most warehouses still rely on manual forklifts, conveyors, and manual scheduling,
+    or use traditional WMS systems without intelligent dispatch.
+  usage_reason: 极智嘉的AI订阅服务降低了初始投入，且订单增长75%表明市场认可其价值；具身出货超万台说明已有规模化部署。
+  usage_reason_en: Geek+'s AI subscription service lowers upfront investment, and the 75% order growth
+    indicates market acceptance; over 10,000 embodied units shipped shows scaled deployment.
+- id: req-full-极智嘉上半年订单高增ai订阅式服务订单增753年具身出货超万台-2026-08-29
+  project_slug: 极智嘉上半年订单高增ai订阅式服务订单增753年具身出货超万台
+  level: full
+  reviewed_at: '2026-08-29T12:41:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决仓储搬运和调度的效率与成本痛点，替代人工和传统WMS，交付可追踪的搬运结果。工作流结构判断：痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  - gate: consensus
+    status: supported
+    reason: 订单增长75%和出货超万台表明市场已有采用，但缺乏具体客户留存或复购数据，共识部分成立。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  - gate: model
+    status: insufficient
+    reason: AI订阅式服务订单增长，但未披露定价和付费方细节；可能面向B端仓储企业，但具体收费模式未公开。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  - gate: truth
+    status: supported
+    reason: 产品贴近仓储物流第一性目标，机器人调度可确定性交付，安全边界明确（人工监控）。
+    evidence_ids:
+    - ev-0cfb4eba8bf40d63
+  next_validation: 关注极智嘉官方财报或新闻稿，获取AI订阅服务的具体定价、客户案例和续费率。
+  market: ''
+  job: 仓储物流企业需要高效完成仓库内的搬运、分拣和调度，以应对订单波动和人力成本上升。
+  job_en: Warehouse and logistics companies need to efficiently handle material handling, sorting, and
+    scheduling to cope with order fluctuations and rising labor costs.
+  pain: 传统人工搬运效率低、成本高，且难以应对高峰期订单波动；人工管理容易出错，导致发货延迟。
+  pain_en: Traditional manual handling is inefficient and costly, struggles with peak-season fluctuations,
+    and is prone to errors causing shipment delays.
+  current_alternative: 目前多数仓库仍依赖人工叉车、传送带和人工调度，或使用传统WMS系统但缺乏智能调度。
+  current_alternative_en: Most warehouses still rely on manual forklifts, conveyors, and manual scheduling,
+    or use traditional WMS systems without intelligent dispatch.
+  usage_reason: 极智嘉的AI订阅服务降低了初始投入，且订单增长75%表明市场认可其价值；具身出货超万台说明已有规模化部署。
+  usage_reason_en: Geek+'s AI subscription service lowers upfront investment, and the 75% order growth
+    indicates market acceptance; over 10,000 embodied units shipped shows scaled deployment.

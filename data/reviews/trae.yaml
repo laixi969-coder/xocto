@@ -1,0 +1,80 @@
+- id: req-initial-trae-2026-08-29
+  project_slug: trae
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非程序员快速实现想法的需求，痛点明确：编程门槛高，替代方式是低代码或外包，工作流结构判断成立。
+    evidence_ids:
+    - ev-d2665717d48dc56a
+  - gate: consensus
+    status: supported
+    reason: 报道显示用户实际使用并产出应用，但缺乏大规模采用数据；访问量环比下降需关注。
+    evidence_ids:
+    - ev-d2665717d48dc56a
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能为订阅制，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 产品能生成可运行的应用，交付可确定；但需注意代码质量和安全性。
+    evidence_ids:
+    - ev-d2665717d48dc56a
+  next_validation: 关注 Trae 的官方定价页和用户案例，以及访问量变化趋势。
+  market: ''
+  job: 非程序员或快速原型开发者需要将想法快速转化为可运行的产品，无需深入学习编程。
+  job_en: Non-programmers or rapid prototypers need to turn ideas into runnable products quickly without
+    deep programming knowledge.
+  pain: 传统编程需要学习语法、框架和调试，耗时且门槛高，阻碍创意实现。
+  pain_en: Traditional programming requires learning syntax, frameworks, and debugging, which is time-consuming
+    and high-barrier, hindering idea realization.
+  current_alternative: 用户可能使用低代码平台、外包开发或放弃想法，但这些方式成本高或周期长。
+  current_alternative_en: Users may use low-code platforms, outsource development, or abandon ideas, but
+    these are costly or slow.
+  usage_reason: 报道显示用户实际用 Trae 在一周内做出应用，表明采用；但访问量环比下降 9.08%，需关注趋势。
+  usage_reason_en: The report shows users actually built apps in a week with Trae, indicating adoption;
+    but visits declined 9.08% MoM, needing attention.
+- id: req-full-trae-2026-08-29
+  project_slug: trae
+  level: full
+  reviewed_at: '2026-08-29T12:39:47Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非程序员快速实现想法的需求，痛点明确：编程门槛高，替代方式是低代码或外包，工作流结构判断成立。
+    evidence_ids:
+    - ev-d2665717d48dc56a
+  - gate: consensus
+    status: supported
+    reason: 报道显示用户实际使用并产出应用，但缺乏大规模采用数据；访问量环比下降需关注。
+    evidence_ids:
+    - ev-d2665717d48dc56a
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能为订阅制，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 产品能生成可运行的应用，交付可确定；但需注意代码质量和安全性。
+    evidence_ids:
+    - ev-d2665717d48dc56a
+  next_validation: 关注 Trae 的官方定价页和用户案例，以及访问量变化趋势。
+  market: ''
+  job: 非程序员或快速原型开发者需要将想法快速转化为可运行的产品，无需深入学习编程。
+  job_en: Non-programmers or rapid prototypers need to turn ideas into runnable products quickly without
+    deep programming knowledge.
+  pain: 传统编程需要学习语法、框架和调试，耗时且门槛高，阻碍创意实现。
+  pain_en: Traditional programming requires learning syntax, frameworks, and debugging, which is time-consuming
+    and high-barrier, hindering idea realization.
+  current_alternative: 用户可能使用低代码平台、外包开发或放弃想法，但这些方式成本高或周期长。
+  current_alternative_en: Users may use low-code platforms, outsource development, or abandon ideas, but
+    these are costly or slow.
+  usage_reason: 报道显示用户实际用 Trae 在一周内做出应用，表明采用；但访问量环比下降 9.08%，需关注趋势。
+  usage_reason_en: The report shows users actually built apps in a week with Trae, indicating adoption;
+    but visits declined 9.08% MoM, needing attention.

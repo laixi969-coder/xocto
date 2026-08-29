@@ -1,0 +1,68 @@
+- id: req-initial-week-35-asia-top-startup-funding-rounds-led-by-gestala-2026-08-29
+  project_slug: week-35-asia-top-startup-funding-rounds-led-by-gestala
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资领先，未说明产品功能、用户任务或交付物，无法判断需求结构。
+    evidence_ids:
+    - ev-4ba72d5b62e7b7d1
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Gestala 的官方网站或融资公告，以获取业务描述和产品信息。
+  market: ''
+  job: 用户希望获得某种企业服务，但具体任务未披露。
+  job_en: Users seek some enterprise service, but specific tasks are undisclosed.
+  pain: 企业可能面临效率或管理问题，但具体痛点未明确。
+  pain_en: Enterprises may face efficiency or management issues, but specific pain points are unclear.
+  current_alternative: 现有替代方式未知，未披露。
+  current_alternative_en: Existing alternatives unknown, undisclosed.
+  usage_reason: 用户可能因融资新闻而关注，但实际采用原因尚未核验。
+  usage_reason_en: Users may be drawn by funding news, but actual adoption reasons are unverified.
+- id: req-full-week-35-asia-top-startup-funding-rounds-led-by-gestala-2026-08-29
+  project_slug: week-35-asia-top-startup-funding-rounds-led-by-gestala
+  level: full
+  reviewed_at: '2026-08-29T12:40:19Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资领先，未说明产品功能、用户任务或交付物，无法判断需求结构。
+    evidence_ids:
+    - ev-4ba72d5b62e7b7d1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Gestala 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 用户希望获得某种企业服务，但具体任务未披露。
+  job_en: Users seek some enterprise service, but specific tasks are undisclosed.
+  pain: 企业可能面临效率或管理问题，但具体痛点未明确。
+  pain_en: Enterprises may face efficiency or management issues, but specific pain points are unclear.
+  current_alternative: 现有替代方式未知，未披露。
+  current_alternative_en: Existing alternatives unknown, undisclosed.
+  usage_reason: 用户可能因融资新闻而关注，但实际采用原因尚未核验。
+  usage_reason_en: Users may be drawn by funding news, but actual adoption reasons are unverified.

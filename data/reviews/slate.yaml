@@ -72,3 +72,85 @@
   usage_reason: 公开代码仓库有 61 个收藏、6 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 61 stars and 6 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-slate-2026-08-29
+  project_slug: slate
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 影视制作中镜头规划和提示词编写的痛点，交付可验证（生产级提示词）。工作流结构判断。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: consensus
+    status: insufficient
+    reason: 有 61 星但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: model
+    status: insufficient
+    reason: 采用捐赠模式，未形成稳定商业模式，买方可能是独立创作者，但付费意愿未验证。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: truth
+    status: supported
+    reason: 贴近影视制作的第一性目标，承诺可验证，但安全边界需进一步确认。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  next_validation: 关注开源社区的 issue 和讨论，以及是否有用户案例或付费版本发布。
+  market: ''
+  job: AI 影视创作者在制作影片时，需要规划镜头、保持连续性，并生成适用于不同生成器的提示词。
+  job_en: AI filmmakers need to plan shots, maintain continuity, and generate prompts for various generators
+    when producing films.
+  pain: 手动规划镜头和编写提示词耗时且难以保持连续性，影响成片质量。
+  pain_en: Manual shot planning and prompt writing are time-consuming and hard to maintain continuity,
+    affecting final quality.
+  current_alternative: 目前主要靠手动编写提示词或使用通用工具，缺乏针对影视制作的专业规划。
+  current_alternative_en: Currently relies on manual prompt writing or general tools, lacking professional
+    planning for filmmaking.
+  usage_reason: 开源项目获得 61 星，社区关注度有限，但捐赠模式显示早期用户支持，采用和付费尚未核验。
+  usage_reason_en: The open-source project has 61 stars, limited community attention, but donation model
+    shows early user support; adoption and payment are not yet verified.
+- id: req-full-slate-2026-08-29
+  project_slug: slate
+  level: full
+  reviewed_at: '2026-08-29T12:39:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 影视制作中镜头规划和提示词编写的痛点，交付可验证（生产级提示词）。工作流结构判断。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: consensus
+    status: insufficient
+    reason: 有 61 星但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: model
+    status: insufficient
+    reason: 采用捐赠模式，未形成稳定商业模式，买方可能是独立创作者，但付费意愿未验证。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: truth
+    status: supported
+    reason: 贴近影视制作的第一性目标，承诺可验证，但安全边界需进一步确认。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  next_validation: 关注开源社区的 issue 和讨论，以及是否有用户案例或付费版本发布。
+  market: ''
+  job: AI 影视创作者在制作影片时，需要规划镜头、保持连续性，并生成适用于不同生成器的提示词。
+  job_en: AI filmmakers need to plan shots, maintain continuity, and generate prompts for various generators
+    when producing films.
+  pain: 手动规划镜头和编写提示词耗时且难以保持连续性，影响成片质量。
+  pain_en: Manual shot planning and prompt writing are time-consuming and hard to maintain continuity,
+    affecting final quality.
+  current_alternative: 目前主要靠手动编写提示词或使用通用工具，缺乏针对影视制作的专业规划。
+  current_alternative_en: Currently relies on manual prompt writing or general tools, lacking professional
+    planning for filmmaking.
+  usage_reason: 开源项目获得 61 星，社区关注度有限，但捐赠模式显示早期用户支持，采用和付费尚未核验。
+  usage_reason_en: The open-source project has 61 stars, limited community attention, but donation model
+    shows early user support; adoption and payment are not yet verified.

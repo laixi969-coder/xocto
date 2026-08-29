@@ -3,26 +3,32 @@ slug: slate
 name: slate
 builder: wassermanproductions
 category: AI + 创作
-summary_zh: 影视制作团队在规划 AI 生成镜头时，用 slate 规划分镜、保持连续性，并编译可直接用于图像、视频、音乐或语音生成器的提示词。无需 API 密钥，交付的是生产就绪的提示词集，但最终生成效果仍需人工确认。
-inspiration: 趋势是 AI 电影制作从单点生成走向全流程规划。切入点是面向独立制片人和小型工作室，提供从分镜到提示词编译的标准化工具，可按项目或订阅收费，但定价未披露。
-summary_en: Film production teams use slate to plan shots, maintain continuity, and compile production-ready
-  prompts for image, video, music, or voice generators when creating AI-generated footage. No API keys
-  required; delivers a set of prompts, but final output needs human review.
-inspiration_en: The trend is AI filmmaking moving from single-shot generation to full workflow planning.
-  The entry point is independent filmmakers and small studios, offering a standardized tool from storyboard
-  to prompt compilation, possibly priced per project or subscription, though pricing is undisclosed.
+summary_zh: slate 是一个面向 AI 影视制作的提示词工作室，导演或分镜师在规划镜头时，可输入剧本或场景描述，它帮助规划镜头、指导覆盖、保持连续性，并编译适用于图像、视频、音乐或语音生成器的生产级提示词。无需
+  API 密钥，建议捐赠 30 美元。
+inspiration: 趋势是 AI 影视制作从单点生成走向全流程规划，提示词成为核心资产。切入可从分镜和连续性管理入手，为独立创作者提供低成本工具，未来可发展协作和资产库。
+summary_en: slate is a prompt studio for AI filmmaking. Directors or storyboard artists can input scripts
+  or scene descriptions, and it helps plan shots, direct coverage, maintain continuity, and compile production-ready
+  prompts for any image, video, music, or voice generator. No API keys required, suggested donation of
+  $30.
+inspiration_en: The trend is AI filmmaking moving from single-point generation to full-process planning,
+  with prompts as core assets. Entry point could be storyboarding and continuity management, offering
+  low-cost tools for independent creators, with potential for collaboration and asset libraries.
 priority_review: false
 project_type: open_source
 industries:
 - 影视制作
+- 内容创作
 industries_en:
-- Film production
+- Film Production
+- Content Creation
 jobs:
 - 导演
 - 分镜师
+- AI 影视创作者
 jobs_en:
 - Director
-- Storyboard artist
+- Storyboard Artist
+- AI Filmmaker
 regions:
 - 全球
 regions_en:
@@ -35,7 +41,7 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - marketfeeds

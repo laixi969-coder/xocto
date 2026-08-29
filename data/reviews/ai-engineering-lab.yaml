@@ -138,3 +138,77 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-ai-engineering-lab-2026-08-29
+  project_slug: ai-engineering-lab
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 工程系统学习的需求，痛点在于课程碎片化，交付完整路径和可运行代码，价值结构成立。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: consensus
+    status: supported
+    reason: 177 星和持续收集表明社区认可，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: model
+    status: insufficient
+    reason: 免费开源，无明确商业模式，付费路径未披露。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: truth
+    status: supported
+    reason: 内容真实可运行，MIT 许可，交付确定。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  next_validation: 关注仓库的 issue 和讨论，看是否有用户反馈和持续使用。
+  market: ''
+  job: 系统学习 AI 工程技能。
+  job_en: Systematically learn AI engineering skills.
+  pain: 现有课程碎片化或昂贵，缺乏完整路径。
+  pain_en: Existing courses are fragmented or expensive, lacking a complete path.
+  current_alternative: 付费课程、书籍或在线教程。
+  current_alternative_en: Paid courses, books, or online tutorials.
+  usage_reason: 开源项目，177 星，社区关注，免费且系统。
+  usage_reason_en: Open-source with 177 stars, community attention, free and systematic.
+- id: req-full-ai-engineering-lab-2026-08-29
+  project_slug: ai-engineering-lab
+  level: full
+  reviewed_at: '2026-08-29T12:30:31Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 工程系统学习的需求，痛点在于课程碎片化，交付完整路径和可运行代码，价值结构成立。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: consensus
+    status: supported
+    reason: 177 星和持续收集表明社区认可，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: model
+    status: insufficient
+    reason: 免费开源，无明确商业模式，付费路径未披露。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: truth
+    status: supported
+    reason: 内容真实可运行，MIT 许可，交付确定。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  next_validation: 关注仓库的 issue 和讨论，看是否有用户反馈和持续使用。
+  market: ''
+  job: 系统学习 AI 工程技能。
+  job_en: Systematically learn AI engineering skills.
+  pain: 现有课程碎片化或昂贵，缺乏完整路径。
+  pain_en: Existing courses are fragmented or expensive, lacking a complete path.
+  current_alternative: 付费课程、书籍或在线教程。
+  current_alternative_en: Paid courses, books, or online tutorials.
+  usage_reason: 开源项目，177 星，社区关注，免费且系统。
+  usage_reason_en: Open-source with 177 stars, community attention, free and systematic.

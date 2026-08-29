@@ -1,11 +1,12 @@
 ---
 slug: 细思极恐起底openai智能体入侵事件约700个ai代理合作参与
-name: 细思极恐？起底OpenAI智能体入侵事件：约700个AI代理合作参与！
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该事件涉及约700个AI代理合作参与，可能指AI代理被用于恶意活动或安全漏洞，引发对AI代理安全性的关注。
 inspiration: ''
-summary_en: ''
+summary_en: The incident involves about 700 AI agents cooperating, possibly indicating AI agents used
+  for malicious activities or security vulnerabilities, raising concerns about AI agent security.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GcnFRYk9TbE0z
 summary: 细思极恐？起底OpenAI智能体入侵事件：约700个AI代理合作参与！ 财联社
 first_seen: '2026-08-28T10:47:35Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 细思极恐？起底OpenAI智能体入侵事件：约700个AI代理合作参与！
+# OpenAI
 
 细思极恐？起底OpenAI智能体入侵事件：约700个AI代理合作参与！ 财联社
 

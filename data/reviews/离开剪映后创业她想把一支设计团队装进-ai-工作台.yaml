@@ -1,0 +1,86 @@
+- id: req-initial-离开剪映后创业她想把一支设计团队装进-ai-工作台-2026-08-29
+  project_slug: 离开剪映后创业她想把一支设计团队装进-ai-工作台
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业设计师用户将想法转化为可交互原型和代码的需求，痛点明确：传统流程周期长、判断稀释。工作流结构判断：输入自然语言，输出动态原型和代码，交付可确定。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  - gate: consensus
+    status: insufficient
+    reason: 有内测案例和融资，但缺乏公开用户规模或持续采用数据。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，买方可能是产品经理、创业者或中小企业，但付费路径未验证。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  - gate: truth
+    status: insufficient
+    reason: 多Agent协作是否真能提高设计采纳率、减少返工，尚无公开对照数据。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  next_validation: 关注OJO官网是否发布定价、客户案例或公开使用数据，以及年底验证节点时团队公布的需求信号。
+  market: ''
+  job: 产品经理、创业者等需要将模糊想法转化为可交互原型和代码，但缺乏专业设计团队。
+  job_en: Product managers, founders, etc. need to turn vague ideas into interactive prototypes and code
+    but lack professional design teams.
+  pain: 传统流程中，产品经理写需求文档，设计师做静态页面，开发再实现，方案验证周期长，判断在交接中稀释。
+  pain_en: In traditional workflows, PMs write requirements, designers create static pages, developers
+    implement, validation cycles are long, and judgment is diluted across handoffs.
+  current_alternative: 目前他们可能外包给设计师，或使用Figma、Lovable等工具，但外包成本高、沟通成本大，现有工具需要专业设计能力。
+  current_alternative_en: Currently they may outsource to designers or use tools like Figma, Lovable,
+    but outsourcing is costly and communication-heavy, and existing tools require professional design
+    skills.
+  usage_reason: 内测用户中，无设计经验的内容运营用一小时做出带动效的个人网站；另一用户将Codex生成的结果导入OJO调整视觉，项目准备上线。这些案例显示用户因快速获得可交互原型而采用。
+  usage_reason_en: In beta, a content operator with no design experience built a personal website with
+    animations in an hour; another user imported Codex-generated results into OJO to adjust visuals, and
+    the project is about to launch. These cases show adoption due to quickly getting interactive prototypes.
+- id: req-full-离开剪映后创业她想把一支设计团队装进-ai-工作台-2026-08-29
+  project_slug: 离开剪映后创业她想把一支设计团队装进-ai-工作台
+  level: full
+  reviewed_at: '2026-08-29T12:41:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非专业设计师用户将想法转化为可交互原型和代码的需求，痛点明确：传统流程周期长、判断稀释。工作流结构判断：输入自然语言，输出动态原型和代码，交付可确定。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  - gate: consensus
+    status: insufficient
+    reason: 有内测案例和融资，但缺乏公开用户规模或持续采用数据。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，买方可能是产品经理、创业者或中小企业，但付费路径未验证。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  - gate: truth
+    status: insufficient
+    reason: 多Agent协作是否真能提高设计采纳率、减少返工，尚无公开对照数据。
+    evidence_ids:
+    - ev-7d91bb26184d12d8
+  next_validation: 关注OJO官网是否发布定价、客户案例或公开使用数据，以及年底验证节点时团队公布的需求信号。
+  market: ''
+  job: 产品经理、创业者等需要将模糊想法转化为可交互原型和代码，但缺乏专业设计团队。
+  job_en: Product managers, founders, etc. need to turn vague ideas into interactive prototypes and code
+    but lack professional design teams.
+  pain: 传统流程中，产品经理写需求文档，设计师做静态页面，开发再实现，方案验证周期长，判断在交接中稀释。
+  pain_en: In traditional workflows, PMs write requirements, designers create static pages, developers
+    implement, validation cycles are long, and judgment is diluted across handoffs.
+  current_alternative: 目前他们可能外包给设计师，或使用Figma、Lovable等工具，但外包成本高、沟通成本大，现有工具需要专业设计能力。
+  current_alternative_en: Currently they may outsource to designers or use tools like Figma, Lovable,
+    but outsourcing is costly and communication-heavy, and existing tools require professional design
+    skills.
+  usage_reason: 内测用户中，无设计经验的内容运营用一小时做出带动效的个人网站；另一用户将Codex生成的结果导入OJO调整视觉，项目准备上线。这些案例显示用户因快速获得可交互原型而采用。
+  usage_reason_en: In beta, a content operator with no design experience built a personal website with
+    animations in an hour; another user imported Codex-generated results into OJO to adjust visuals, and
+    the project is about to launch. These cases show adoption due to quickly getting interactive prototypes.

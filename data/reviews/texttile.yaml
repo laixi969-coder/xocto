@@ -1,0 +1,77 @@
+- id: req-initial-texttile-2026-08-29
+  project_slug: texttile
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及多人博客引擎，未说明具体解决什么痛点、替代什么旧流程，缺乏工作流结构推理依据。
+    evidence_ids:
+    - ev-2e44cc48509f4df3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 13 个社区讨论点数和 3 条评论，无用户采用或关注证据。
+    evidence_ids:
+    - ev-2e44cc48509f4df3
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Texttile 官网是否提供详细功能说明、定价或客户案例，以及代码仓库的活跃度和 issue 讨论。
+  market: ''
+  job: 多人共同维护一个博客，需要协调写作、编辑和发布流程。
+  job_en: Multiple people jointly maintain a blog, needing to coordinate writing, editing, and publishing
+    workflows.
+  pain: 现有博客平台多为单人设计，多人协作时缺乏权限管理和编辑流程支持。
+  pain_en: Existing blog platforms are mostly single-user, lacking permission management and editorial
+    workflow support for multi-author collaboration.
+  current_alternative: 团队可能使用共享文档（如 Google Docs）或版本控制（如 Git）来协作，但都不是为博客发布设计的。
+  current_alternative_en: Teams may use shared documents like Google Docs or version control like Git
+    for collaboration, but these are not designed for blog publishing.
+  usage_reason: 尚未核验。仅有少量社区讨论，未见实际采用或付费证据。
+  usage_reason_en: Not yet verified. Only minimal community discussion, no evidence of actual adoption
+    or payment.
+- id: req-full-texttile-2026-08-29
+  project_slug: texttile
+  level: full
+  reviewed_at: '2026-08-29T12:39:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及多人博客引擎，未说明具体解决什么痛点、替代什么旧流程，缺乏工作流结构推理依据。
+    evidence_ids:
+    - ev-2e44cc48509f4df3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Texttile 官网是否提供详细功能说明、定价或客户案例，以及代码仓库的活跃度和 issue 讨论。
+  market: ''
+  job: 多人共同维护一个博客，需要协调写作、编辑和发布流程。
+  job_en: Multiple people jointly maintain a blog, needing to coordinate writing, editing, and publishing
+    workflows.
+  pain: 现有博客平台多为单人设计，多人协作时缺乏权限管理和编辑流程支持。
+  pain_en: Existing blog platforms are mostly single-user, lacking permission management and editorial
+    workflow support for multi-author collaboration.
+  current_alternative: 团队可能使用共享文档（如 Google Docs）或版本控制（如 Git）来协作，但都不是为博客发布设计的。
+  current_alternative_en: Teams may use shared documents like Google Docs or version control like Git
+    for collaboration, but these are not designed for blog publishing.
+  usage_reason: 尚未核验。仅有少量社区讨论，未见实际采用或付费证据。
+  usage_reason_en: Not yet verified. Only minimal community discussion, no evidence of actual adoption
+    or payment.

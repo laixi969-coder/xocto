@@ -1,0 +1,80 @@
+- id: req-initial-spline-v2-2026-08-29
+  project_slug: spline-v2
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 3D 建模耗时、门槛高的问题，AI 接收设计意图生成模型和材质，交付可交互场景，价值结构成立。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品定位，缺乏用户采用、社区讨论或增长数据，共识证据不足。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是设计师或企业，但付费路径未核验。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已实际交付、生成质量如何，缺乏公开验证。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  next_validation: 关注 Spline 官方定价页和用户案例，以及社区中关于生成质量的讨论。
+  market: ''
+  job: 设计师在创建 3D 场景时，需要快速生成和修改模型、材质和动画。
+  job_en: Designers creating 3D scenes need to quickly generate and modify models, materials, and animations.
+  pain: 传统 3D 建模软件学习曲线陡峭，手动操作耗时，迭代慢。
+  pain_en: Traditional 3D modeling software has a steep learning curve, manual operations are time-consuming,
+    and iteration is slow.
+  current_alternative: 使用 Blender、Maya 等专业软件手动建模，或外包给 3D 设计师。
+  current_alternative_en: Manually modeling with professional software like Blender or Maya, or outsourcing
+    to 3D designers.
+  usage_reason: AI 生成 3D 资产可大幅缩短建模时间，降低门槛，吸引非专业用户尝试。
+  usage_reason_en: AI-generated 3D assets can significantly reduce modeling time, lower the barrier, and
+    attract non-professional users.
+- id: req-full-spline-v2-2026-08-29
+  project_slug: spline-v2
+  level: full
+  reviewed_at: '2026-08-29T12:39:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 3D 建模耗时、门槛高的问题，AI 接收设计意图生成模型和材质，交付可交互场景，价值结构成立。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品定位，缺乏用户采用、社区讨论或增长数据，共识证据不足。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是设计师或企业，但付费路径未核验。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已实际交付、生成质量如何，缺乏公开验证。
+    evidence_ids:
+    - ev-6f3b43db49a54b12
+  next_validation: 关注 Spline 官方定价页和用户案例，以及社区中关于生成质量的讨论。
+  market: ''
+  job: 设计师在创建 3D 场景时，需要快速生成和修改模型、材质和动画。
+  job_en: Designers creating 3D scenes need to quickly generate and modify models, materials, and animations.
+  pain: 传统 3D 建模软件学习曲线陡峭，手动操作耗时，迭代慢。
+  pain_en: Traditional 3D modeling software has a steep learning curve, manual operations are time-consuming,
+    and iteration is slow.
+  current_alternative: 使用 Blender、Maya 等专业软件手动建模，或外包给 3D 设计师。
+  current_alternative_en: Manually modeling with professional software like Blender or Maya, or outsourcing
+    to 3D designers.
+  usage_reason: AI 生成 3D 资产可大幅缩短建模时间，降低门槛，吸引非专业用户尝试。
+  usage_reason_en: AI-generated 3D assets can significantly reduce modeling time, lower the barrier, and
+    attract non-professional users.

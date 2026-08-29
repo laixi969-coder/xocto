@@ -1,0 +1,82 @@
+- id: req-initial-闪电快讯-加注ai办公百度搭子发布15个行业套件96项技能-百度ai-上海市-沈抖-图文-升级-手机新浪网-2026-08-29
+  project_slug: 闪电快讯-加注ai办公百度搭子发布15个行业套件96项技能-百度ai-上海市-沈抖-图文-升级-手机新浪网
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公场景中重复性、流程性任务的效率问题，痛点明确，交付可确定（生成文档、纪要等）。工作流结构判断：替代人工手动整理和跨系统操作。
+    evidence_ids:
+    - ev-41326556056cd31c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户反馈、采用数据或场景验证，共识度未明。
+    evidence_ids:
+    - ev-41326556056cd31c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是企业，但付费路径不清晰。
+    evidence_ids:
+    - ev-41326556056cd31c
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，交付质量和实际效果未经验证，需观察后续用户评价。
+    evidence_ids:
+    - ev-41326556056cd31c
+  next_validation: 关注百度搭子官方页面或企业客户案例，验证实际采用和付费情况。
+  market: ''
+  job: 企业办公人员需要在文档处理、会议纪要、数据分析等具体任务上提高效率。
+  job_en: Office workers need to improve efficiency in specific tasks such as document processing, meeting
+    minutes, and data analysis.
+  pain: 传统办公软件操作繁琐，重复性工作耗时，跨系统协作效率低。
+  pain_en: Traditional office software is cumbersome, repetitive tasks are time-consuming, and cross-system
+    collaboration is inefficient.
+  current_alternative: 目前主要依赖通用办公套件（如Microsoft Office）和人工手动处理，部分使用通用AI助手。
+  current_alternative_en: Currently relying on general office suites (e.g., Microsoft Office) and manual
+    processing, with some use of general AI assistants.
+  usage_reason: 百度搭子提供行业化技能，可能减少切换成本，但具体采用情况尚未核验。
+  usage_reason_en: Baidu Dazi offers industry-specific skills that may reduce switching costs, but actual
+    adoption is not yet verified.
+- id: req-full-闪电快讯-加注ai办公百度搭子发布15个行业套件96项技能-百度ai-上海市-沈抖-图文-升级-手机新浪网-2026-08-29
+  project_slug: 闪电快讯-加注ai办公百度搭子发布15个行业套件96项技能-百度ai-上海市-沈抖-图文-升级-手机新浪网
+  level: full
+  reviewed_at: '2026-08-29T12:41:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公场景中重复性、流程性任务的效率问题，痛点明确，交付可确定（生成文档、纪要等）。工作流结构判断：替代人工手动整理和跨系统操作。
+    evidence_ids:
+    - ev-41326556056cd31c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户反馈、采用数据或场景验证，共识度未明。
+    evidence_ids:
+    - ev-41326556056cd31c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是企业，但付费路径不清晰。
+    evidence_ids:
+    - ev-41326556056cd31c
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，交付质量和实际效果未经验证，需观察后续用户评价。
+    evidence_ids:
+    - ev-41326556056cd31c
+  next_validation: 关注百度搭子官方页面或企业客户案例，验证实际采用和付费情况。
+  market: ''
+  job: 企业办公人员需要在文档处理、会议纪要、数据分析等具体任务上提高效率。
+  job_en: Office workers need to improve efficiency in specific tasks such as document processing, meeting
+    minutes, and data analysis.
+  pain: 传统办公软件操作繁琐，重复性工作耗时，跨系统协作效率低。
+  pain_en: Traditional office software is cumbersome, repetitive tasks are time-consuming, and cross-system
+    collaboration is inefficient.
+  current_alternative: 目前主要依赖通用办公套件（如Microsoft Office）和人工手动处理，部分使用通用AI助手。
+  current_alternative_en: Currently relying on general office suites (e.g., Microsoft Office) and manual
+    processing, with some use of general AI assistants.
+  usage_reason: 百度搭子提供行业化技能，可能减少切换成本，但具体采用情况尚未核验。
+  usage_reason_en: Baidu Dazi offers industry-specific skills that may reduce switching costs, but actual
+    adoption is not yet verified.

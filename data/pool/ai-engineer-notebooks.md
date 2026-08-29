@@ -1,18 +1,30 @@
 ---
 slug: ai-engineer-notebooks
-name: ai-engineer-notebooks
+name: AI Engineer Notebooks
 builder: calmrocks
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 想转行或提升 AI 工程技能的人，通过 Colab 笔记本学习模型 API、RAG、代理、微调等，无需本地环境，免费运行在 Groq API 上。交付的是可运行的代码和练习。
+inspiration: 趋势是 AI 工程技能培训从理论转向动手实践。切入点是面向转行者提供免费、框架无关的实战笔记本，但需考虑如何变现，如企业培训或认证。
+summary_en: People looking to transition into or advance AI engineering skills learn model APIs, RAG,
+  agents, fine-tuning via Colab notebooks, no local environment needed, running free on Groq API. Deliverables
+  are runnable code and exercises.
+inspiration_en: The trend is AI engineering training moving from theory to hands-on practice. The entry
+  point is offering free, framework-free practical notebooks for career switchers, but monetization needs
+  consideration, such as enterprise training or certification.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 教育
+- 软件开发
+industries_en:
+- Education
+- Software Development
+jobs:
+- AI 工程师
+- 学生
+jobs_en:
+- AI Engineers
+- Students
 regions: []
 regions_en: []
 open_source: true
@@ -24,7 +36,7 @@ summary: Hands-on, framework-free Colab notebooks for the AI Engineer / Forward 
   and customer craft. Runs on the free Groq API.
 first_seen: '2026-08-11T23:17:17Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - hackernews
@@ -46,7 +58,7 @@ sightings:
   kind: news
 ---
 
-# ai-engineer-notebooks
+# AI Engineer Notebooks
 
 Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from scratch, tool design, guardrails, MCP, Skills), fine-tuning vs LoRA, prompt-injection/security, LLMOps, and customer craft. Runs on the free Groq API.
 

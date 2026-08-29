@@ -1,29 +1,35 @@
 ---
 slug: main
-name: main
+name: agent-desktop
 builder: lahfir
 category: AI + 开发
-summary_zh: 让代理看清电脑窗口里的真实按钮，点下去不再点错或假装成功
-inspiration: 趋势是代理开始替人点桌面软件，界面说的和实际发生的对不上就会整条链路作废。切入不要做通用录屏机器人，先打每天要点的办公和聊天窗口，并核对每一步。判断：对账式核对比卖脚本更站得住。
-summary_en: Let an agent see the real buttons in a desktop window, so clicks land and do not fake success.
-inspiration_en: 'The trend is agents clicking desktop software for people; if the UI lies about what happened,
-  the whole chain is junk. Don’t sell generic screen robots. Enter at office and chat windows people click
-  every day, and verify each step. Judgement: receipt-style checks outsell script packs.'
+summary_zh: 一个开源项目，旨在让桌面自动化对 AI 代理更可靠。它可能提供更准确的桌面操作反馈，但具体流程和交付仍待核验。
+inspiration: 趋势是 AI 代理从云端走向桌面操作。切入点是解决桌面自动化的可靠性问题，可考虑为特定行业（如测试、运维）提供定制化方案。
+summary_en: An open-source project aiming to make desktop automation more reliable for AI agents. It may
+  provide more accurate desktop operation feedback, but specific workflow and deliverables are yet to
+  be verified.
+inspiration_en: The trend is AI agents moving from cloud to desktop operations. The entry point is solving
+  desktop automation reliability, possibly offering customized solutions for specific industries like
+  testing or operations.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/lahfir/agent-desktop/tree/main
 canonical_url: https://github.com/lahfir/agent-desktop/tree/main
 summary: I spent 3 months making desktop automation stop lying to AI agents
 first_seen: '2026-08-15T05:07:25Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - officialfeeds
@@ -42,7 +48,7 @@ sightings:
   kind: news
 ---
 
-# main
+# agent-desktop
 
 I spent 3 months making desktop automation stop lying to AI agents
 

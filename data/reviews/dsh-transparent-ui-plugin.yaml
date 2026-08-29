@@ -346,3 +346,41 @@
   usage_reason: 公开代码仓库有 388 个收藏、21 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 388 stars and 21 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-transparent-ui-plugin-2026-08-29
+  project_slug: dsh-transparent-ui-plugin
+  level: full
+  reviewed_at: '2026-08-29T12:34:06Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决的是界面美观需求，但公开材料未显示不换皮肤的代价或痛点刚性；产品功能说明是公开事实，不是用户采用证据。工作流结构推理显示，用户任务仅是视觉偏好，没有也行，属于自嗨拼凑。
+    evidence_ids:
+    - ev-ceb0c6c38575cc52
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认是否有用户主动要求玻璃皮肤或将其作为默认配置。
+  market: ''
+  job: 给DeepSeek Harness网页换上可调模糊的玻璃皮肤，关掉就回到原样
+  job_en: Give the DeepSeek Harness web page a frosted-glass skin you can tune, and switch it off to go
+    back.
+  pain: 公开材料未说明不换皮肤的具体代价、发生频率或后果；痛点强度未核验。
+  pain_en: Public materials do not show the cost, frequency, or consequence of not using the skin; pain
+    intensity unverified.
+  current_alternative: 公开材料未说明用户目前如何美化界面或是否在意；替代方式未核验。
+  current_alternative_en: Public materials do not show how users currently customize the interface or
+    whether they care; alternatives unverified.
+  usage_reason: 公开代码仓库有389个收藏，说明开发者关注，但收藏不等于持续使用或付费；采用原因未核验。
+  usage_reason_en: The public repository has 389 stars, showing developer attention, but stars do not
+    equal sustained use or payment; adoption reason unverified.

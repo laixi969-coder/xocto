@@ -3,19 +3,29 @@ slug: workflo
 name: Workflo
 builder: Chirag Chopra
 category: AI + 效率
-summary_zh: 开会前自动把窗口摆到位，并且从根上就读不到你的屏幕内容
-inspiration: 隐私正在从口头承诺变成能被验证的产品边界。切入点不是再做一个窗口排列器，而是把看不见屏幕写成架构事实，卖给每天切场景又不愿被录屏的人。
-summary_en: Lays out your Mac windows before the meeting starts, and is built so it cannot read what is
-  on the screen.
-inspiration_en: Privacy is moving from a verbal promise to a boundary you can verify. Don't ship another
-  window tiler—make “we cannot see the screen” an architectural fact, and sell it to people who switch
-  contexts all day and refuse to be recorded.
+summary_zh: Workflo 是一款 Mac 工作区自动化工具，宣称“永不看到你的屏幕”。开发者在日常编码或研究流程中，将重复性操作交给它执行，它通过模拟操作完成自动化任务，最终交付可复用的工作流。具体支持的任务类型和交付物仍待核验。
+inspiration: 趋势是 AI 从“帮你写”转向“替你操作电脑”。不要做通用自动化，先切入开发者或科研人员的高频重复环节，如环境配置、数据整理，按工作流模板或结果收费。
+summary_en: Workflo is a Mac workspace automation tool that claims to 'never see your screen'. Developers
+  hand over repetitive operations in their daily coding or research workflows; it executes automation
+  by simulating actions and delivers reusable workflows. Specific supported tasks and deliverables remain
+  to be verified.
+inspiration_en: The trend is AI shifting from 'helping you write' to 'operating your computer for you'.
+  Don't build a general automation tool; start with high-frequency repetitive steps for developers or
+  researchers, such as environment setup or data cleaning, and charge per workflow template or outcome.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 软件开发
+- 知识工作
+industries_en:
+- Software Development
+- Knowledge Work
+jobs:
+- 开发者
+- 研究人员
+jobs_en:
+- Developers
+- Researchers
 regions: []
 regions_en: []
 open_source: false
@@ -24,7 +34,7 @@ canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
 last_seen: '2026-08-29T03:43:28Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 - hackernews

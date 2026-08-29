@@ -1,0 +1,80 @@
+- id: req-initial-suki-launches-ai-dictation-tool-with-ehr-integration-capabil-2026-08-29
+  project_slug: suki-launches-ai-dictation-tool-with-ehr-integration-capabil
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医生手动录入 EHR 的痛点，旧替代是打字或传统听写，交付是结构化文档写入 EHR，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅报道产品发布，缺乏医生或医院的采用数据、用户评价或工作流验证，共识证据不足。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是医院或医生，但付费路径未公开，需进一步核验。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近医疗文档第一性目标，但交付确定性（EHR 集成稳定性、准确性）尚未有公开验证。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  next_validation: 关注 Suki 官网的定价页和客户案例，以及 EHR 集成文档和医生评价。
+  market: ''
+  job: 医生在接诊后需要将口头诊疗记录整理成结构化文档并写入 EHR。
+  job_en: Physicians need to turn spoken encounter notes into structured documentation and enter them
+    into EHRs.
+  pain: 手动录入耗时且容易出错，占用医生大量时间。
+  pain_en: Manual entry is time-consuming and error-prone, taking significant physician time.
+  current_alternative: 医生手动打字或使用传统听写软件，再复制粘贴到 EHR。
+  current_alternative_en: Physicians type manually or use traditional dictation software, then copy-paste
+    into EHR.
+  usage_reason: AI 听写能减少打字时间，且 EHR 集成省去复制粘贴步骤，因此医生和医疗机构会关注。
+  usage_reason_en: AI dictation reduces typing time, and EHR integration eliminates copy-paste, so physicians
+    and institutions are interested.
+- id: req-full-suki-launches-ai-dictation-tool-with-ehr-integration-capabil-2026-08-29
+  project_slug: suki-launches-ai-dictation-tool-with-ehr-integration-capabil
+  level: full
+  reviewed_at: '2026-08-29T12:39:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医生手动录入 EHR 的痛点，旧替代是打字或传统听写，交付是结构化文档写入 EHR，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅报道产品发布，缺乏医生或医院的采用数据、用户评价或工作流验证，共识证据不足。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是医院或医生，但付费路径未公开，需进一步核验。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近医疗文档第一性目标，但交付确定性（EHR 集成稳定性、准确性）尚未有公开验证。
+    evidence_ids:
+    - ev-ef96da4ecaaebbb9
+  next_validation: 关注 Suki 官网的定价页和客户案例，以及 EHR 集成文档和医生评价。
+  market: ''
+  job: 医生在接诊后需要将口头诊疗记录整理成结构化文档并写入 EHR。
+  job_en: Physicians need to turn spoken encounter notes into structured documentation and enter them
+    into EHRs.
+  pain: 手动录入耗时且容易出错，占用医生大量时间。
+  pain_en: Manual entry is time-consuming and error-prone, taking significant physician time.
+  current_alternative: 医生手动打字或使用传统听写软件，再复制粘贴到 EHR。
+  current_alternative_en: Physicians type manually or use traditional dictation software, then copy-paste
+    into EHR.
+  usage_reason: AI 听写能减少打字时间，且 EHR 集成省去复制粘贴步骤，因此医生和医疗机构会关注。
+  usage_reason_en: AI dictation reduces typing time, and EHR integration eliminates copy-paste, so physicians
+    and institutions are interested.

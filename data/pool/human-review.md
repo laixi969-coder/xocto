@@ -3,21 +3,30 @@ slug: human-review
 name: human-review
 builder: petergyang
 category: AI + 开发
-summary_zh: 像批文档一样在成品上直接改字、留评论，一次打包给 AI 去改，不用口述第几段
-inspiration: 趋势是人把意见交给 AI 的方式，比提示词更决定能不能被听进去。不要教人写指令，先给落地页、方案、手册做熟悉的批注界面。工具免费，靠课程和内容变现。
-summary_en: Edit words and leave comments on the finished page like a shared doc, then send the bundle
-  to AI, instead of describing “paragraph three.”
-inspiration_en: The trend is that the shape of feedback decides whether AI actually takes it, more than
-  the prompt. Don't teach people to write instructions. Start with landing pages, briefs, and manuals
-  using a comment UI they already know. The tool is free; money sits in courses and content.
+summary_zh: human-review 是一个可视化工具，允许用户在 HTML 和 Markdown 文件上编辑和评论，类似 Google Docs，并将反馈发送给 AI agent。它集成在
+  AI 工作流中，帮助用户审查和修改 AI 生成的内容。
+inspiration: 趋势是 AI 生成内容需要人工审查环节。切入点是提供可视化审查工具，连接人类反馈与 AI agent，可应用于文档、代码审查等场景。
+summary_en: human-review is a visual tool that lets users edit and comment on HTML and Markdown files,
+  like Google Docs, and send feedback to AI agents. It integrates into AI workflows to help review and
+  modify AI-generated content.
+inspiration_en: 'Trend: AI-generated content needs human review. Entry: provide visual review tools that
+  connect human feedback to AI agents, applicable to document and code review.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: new_application
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+- 内容编辑
+jobs_en:
+- Developers
+- Content Editors
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually
 canonical_url: https://creatoreconomy.so/p/use-my-human-review-skill-to-edit-html-markdown-visually
@@ -25,7 +34,7 @@ summary: A visual tool to edit HTML and Markdown files, leave comments like a Go
   to your AI agent. Works inside your favorite AI harness.
 first_seen: '2026-07-27T14:58:36Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - newssearch

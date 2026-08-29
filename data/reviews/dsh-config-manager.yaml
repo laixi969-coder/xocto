@@ -1,0 +1,76 @@
+- id: req-initial-dsh-config-manager-2026-08-29
+  project_slug: dsh-config-manager
+  level: initial
+  reviewed_at: '2026-08-29T03:43:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决配置备份和迁移的痛点，任务明确，交付为可恢复的配置。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  - gate: consensus
+    status: insufficient
+    reason: 星标数少，缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确商业模式。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  - gate: truth
+    status: supported
+    reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 生态。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  next_validation: 关注星标增长和用户 issue 反馈。
+  market: ''
+  job: DeepSeek Harness 用户需要备份和迁移他们的配置，以避免重复设置。
+  job_en: DeepSeek Harness users need to back up and migrate their configurations to avoid re-setting
+    up.
+  pain: 手动备份和迁移配置耗时且容易出错。
+  pain_en: Manual backup and migration is time-consuming and error-prone.
+  current_alternative: 手动复制配置文件或重新配置。
+  current_alternative_en: Manually copying config files or reconfiguring.
+  usage_reason: 41 个星标，表明有一定关注，但采用证据有限。
+  usage_reason_en: 41 stars, indicating some interest, but adoption evidence is limited.
+- id: req-full-dsh-config-manager-2026-08-29
+  project_slug: dsh-config-manager
+  level: full
+  reviewed_at: '2026-08-29T12:33:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DeepSeek Harness 用户配置备份与迁移的需求，痛点在于手动复制或重配耗时易错；交付为可恢复的配置导出导入，结构上成立。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库仅 41 星，无用户评价或 issue 反馈，社区共识尚未形成。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体、定价或商业模式，买方未核验。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  - gate: truth
+    status: supported
+    reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 生态，安全边界未说明。
+    evidence_ids:
+    - ev-8036cb33c1b281bf
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际使用场景和反馈。
+  market: ''
+  job: DeepSeek Harness 用户需要备份和迁移他们的配置，以避免重复设置。
+  job_en: DeepSeek Harness users need to back up and migrate their configurations to avoid re-setting
+    up.
+  pain: 手动备份和迁移配置耗时且容易出错。
+  pain_en: Manual backup and migration is time-consuming and error-prone.
+  current_alternative: 手动复制配置文件或重新配置。
+  current_alternative_en: Manually copying config files or reconfiguring.
+  usage_reason: 41 个星标，表明有一定关注，但采用证据有限。
+  usage_reason_en: 41 stars, indicating some interest, but adoption evidence is limited.

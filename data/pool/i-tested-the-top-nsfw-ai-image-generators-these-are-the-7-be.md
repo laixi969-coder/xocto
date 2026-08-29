@@ -1,11 +1,12 @@
 ---
 slug: i-tested-the-top-nsfw-ai-image-generators-these-are-the-7-be
-name: I Tested the Top NSFW AI Image Generators. These Are the 7 Best
+name: NSFW AI image generators
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 一篇评测文章评出了 7 款最佳 NSFW AI 图像生成器，反映了该细分市场的活跃和竞争。
 inspiration: ''
-summary_en: ''
+summary_en: A review article named the 7 best NSFW AI image generators, reflecting the active and competitive
+  niche market.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE9Sb0t3eXV4ZlZq
 summary: I Tested the Top NSFW AI Image Generators. These Are the 7 Best PCMag
 first_seen: '2026-08-26T07:00:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# I Tested the Top NSFW AI Image Generators. These Are the 7 Best
+# NSFW AI image generators
 
 I Tested the Top NSFW AI Image Generators. These Are the 7 Best PCMag
 

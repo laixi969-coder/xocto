@@ -1,0 +1,78 @@
+- id: req-initial-北森mavens集体亮相用户英雄大会真人hr指挥数字hr碳硅人力混合编队正在形成-2026-08-29
+  project_slug: 北森mavens集体亮相用户英雄大会真人hr指挥数字hr碳硅人力混合编队正在形成
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决HR重复性事务耗时问题，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品亮相，缺乏用户采用或规模数据。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业HR部门，但具体路径未明。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  - gate: truth
+    status: supported
+    reason: 产品贴近HR工作第一性目标，交付可确定，但需验证实际效果。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  next_validation: 关注北森官方定价页或客户案例，验证实际采用和付费情况。
+  market: ''
+  job: HR需要处理大量重复性事务，如简历筛选、面试安排、绩效数据整理。
+  job_en: HR professionals need to handle repetitive tasks such as resume screening, interview scheduling,
+    and performance data compilation.
+  pain: 这些工作耗时且易出错，影响HR聚焦战略决策。
+  pain_en: These tasks are time-consuming and error-prone, hindering HR from focusing on strategic decisions.
+  current_alternative: 目前主要依赖人工操作或传统HR软件，效率低。
+  current_alternative_en: Currently relies on manual operations or traditional HR software, which is inefficient.
+  usage_reason: 北森作为国内HR SaaS头部，Mavens的推出可能吸引现有客户升级，提升效率。
+  usage_reason_en: As a leading HR SaaS provider in China, Beisen's Mavens may attract existing customers
+    to upgrade for efficiency.
+- id: req-full-北森mavens集体亮相用户英雄大会真人hr指挥数字hr碳硅人力混合编队正在形成-2026-08-29
+  project_slug: 北森mavens集体亮相用户英雄大会真人hr指挥数字hr碳硅人力混合编队正在形成
+  level: full
+  reviewed_at: '2026-08-29T12:41:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决HR重复性事务耗时问题，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品亮相，缺乏用户采用或规模数据。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业HR部门，但具体路径未明。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  - gate: truth
+    status: supported
+    reason: 产品贴近HR工作第一性目标，交付可确定，但需验证实际效果。
+    evidence_ids:
+    - ev-40c3882eed3be3da
+  next_validation: 关注北森官方定价页或客户案例，验证实际采用和付费情况。
+  market: ''
+  job: HR需要处理大量重复性事务，如简历筛选、面试安排、绩效数据整理。
+  job_en: HR professionals need to handle repetitive tasks such as resume screening, interview scheduling,
+    and performance data compilation.
+  pain: 这些工作耗时且易出错，影响HR聚焦战略决策。
+  pain_en: These tasks are time-consuming and error-prone, hindering HR from focusing on strategic decisions.
+  current_alternative: 目前主要依赖人工操作或传统HR软件，效率低。
+  current_alternative_en: Currently relies on manual operations or traditional HR software, which is inefficient.
+  usage_reason: 北森作为国内HR SaaS头部，Mavens的推出可能吸引现有客户升级，提升效率。
+  usage_reason_en: As a leading HR SaaS provider in China, Beisen's Mavens may attract existing customers
+    to upgrade for efficiency.

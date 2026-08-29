@@ -2,19 +2,27 @@
 slug: grok
 name: Grok
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: Grok 是 xAI 设计的免费 AI 助手，提供实时搜索、图像生成、趋势分析等功能。近期因训练数据问题面临法律诉讼。
+inspiration: AI 助手的合规风险成为关键，创业者需关注数据来源合法性。
+summary_en: Grok is a free AI assistant by xAI offering real-time search, image generation, and trend
+  analysis. It faces a lawsuit over training data issues.
+inspiration_en: Compliance risks in AI assistants are critical; entrepreneurs must ensure data source
+  legality.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: new_application
+industries:
+- 互联网
+industries_en:
+- Internet
+jobs:
+- 普通用户
+jobs_en:
+- General Users
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://www.aicpb.com/product/Grok/webid1D6F37429
 canonical_url: https://aicpb.com/product/Grok/webid1D6F37429
@@ -22,7 +30,7 @@ summary: Grok is a free AI assistant designed by xAI to maximize truth and objec
   searching, image generation, trend analysis, and more.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: watching
 sources:
 - aicpb
 - marketfeeds

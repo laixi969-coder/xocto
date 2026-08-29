@@ -1,0 +1,72 @@
+- id: req-initial-长嬴数据旗下铸信司打造ai时代品牌信任基础设施-2026-08-29
+  project_slug: 长嬴数据旗下铸信司打造ai时代品牌信任基础设施
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及定位，未说明具体输入、动作和交付，无法还原旧工作流和痛点。
+    evidence_ids:
+    - ev-a2ef2ea928271e28
+  - gate: consensus
+    status: insufficient
+    reason: 未进入价值判断，共识无从谈起。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入价值判断，模式无从谈起。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入价值判断，求真无从谈起。
+    evidence_ids: []
+  next_validation: 关注铸信司官网或长嬴数据公告，获取产品功能、客户案例或定价信息。
+  market: ''
+  job: 品牌方需要监测和维护品牌信任，可能涉及舆情分析和用户反馈处理。
+  job_en: Brands need to monitor and maintain brand trust, possibly involving public opinion analysis
+    and user feedback handling.
+  pain: 品牌信任管理复杂，但具体痛点未披露。
+  pain_en: Brand trust management is complex, but specific pain points are undisclosed.
+  current_alternative: 目前可能依赖舆情监测工具或人工分析，但未披露具体替代方式。
+  current_alternative_en: Currently may rely on public opinion monitoring tools or manual analysis, but
+    specific alternatives are undisclosed.
+  usage_reason: 关注度来自概念宣传，实际采用和效果未核验。
+  usage_reason_en: Attention stems from conceptual publicity; actual adoption and effects are unverified.
+- id: req-full-长嬴数据旗下铸信司打造ai时代品牌信任基础设施-2026-08-29
+  project_slug: 长嬴数据旗下铸信司打造ai时代品牌信任基础设施
+  level: full
+  reviewed_at: '2026-08-29T12:41:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及定位，未说明具体输入、动作和交付，无法还原旧工作流和痛点。
+    evidence_ids:
+    - ev-a2ef2ea928271e28
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注铸信司官网或长嬴数据公告，获取产品功能、客户案例或定价信息。
+  market: ''
+  job: 品牌方需要监测和维护品牌信任，可能涉及舆情分析和用户反馈处理。
+  job_en: Brands need to monitor and maintain brand trust, possibly involving public opinion analysis
+    and user feedback handling.
+  pain: 品牌信任管理复杂，但具体痛点未披露。
+  pain_en: Brand trust management is complex, but specific pain points are undisclosed.
+  current_alternative: 目前可能依赖舆情监测工具或人工分析，但未披露具体替代方式。
+  current_alternative_en: Currently may rely on public opinion monitoring tools or manual analysis, but
+    specific alternatives are undisclosed.
+  usage_reason: 关注度来自概念宣传，实际采用和效果未核验。
+  usage_reason_en: Attention stems from conceptual publicity; actual adoption and effects are unverified.

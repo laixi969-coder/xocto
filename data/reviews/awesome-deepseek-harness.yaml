@@ -230,3 +230,39 @@
   usage_reason: 公开代码仓库有 205 个收藏、132 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 205 stars and 132 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-awesome-deepseek-harness-2026-08-29
+  project_slug: awesome-deepseek-harness
+  level: full
+  reviewed_at: '2026-08-29T12:31:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户发现 DeepSeek Harness 的插件，但公开材料只有产品说明，没有用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: DeepSeek Harness 用户需要发现和选择可用的插件、技能和工具。
+  job_en: DeepSeek Harness users need to discover and select available plugins, skills, and tools.
+  pain: 公开材料未说明不解决的代价、频率或后果；但插件生态分散可能导致用户难以找到合适的工具。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
+    however, a fragmented plugin ecosystem may make it difficult for users to find suitable tools.
+  current_alternative: 公开材料未说明当前替代方式；常见替代是搜索 GitHub 或社区推荐。
+  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
+    searching GitHub or community recommendations.
+  usage_reason: 仓库有 205 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
+  usage_reason_en: The repository has 205 stars, indicating developer attention or trial; sustained use
+    and payment are not yet verified.

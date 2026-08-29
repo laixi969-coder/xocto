@@ -1,0 +1,78 @@
+- id: req-initial-conduct-2026-08-29
+  project_slug: conduct
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理工具调用的安全问题，通过防护层限制危险操作，交付更安全的代理行为。工作流结构判断：旧流程是人工审查或缺失防护，此方案提供自动化防护。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区讨论显示关注，但缺乏用户评价或采用案例。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源工具免费使用，但企业付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近 AI 代理安全的第一性目标，交付的防护可验证，但需关注误报和性能影响。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。
+  market: ''
+  job: AI 工程师在部署 AI 代理时，需要确保工具调用的安全性，防止恶意操作或数据泄露。
+  job_en: AI engineers need to ensure the security of tool calls when deploying AI agents, preventing
+    malicious operations or data leaks.
+  pain: AI 代理可能执行危险操作，缺乏有效的安全防护机制。
+  pain_en: AI agents may execute dangerous operations, lacking effective security guardrails.
+  current_alternative: 目前可能依赖人工审查或自定义安全策略，缺乏系统化的防护层。
+  current_alternative_en: Currently relies on manual review or custom security policies, lacking a systematic
+    guardrails layer.
+  usage_reason: 技术社区讨论中获得 20 分和 3 条评论，显示社区关注，但尚未核验实际采用。
+  usage_reason_en: 20 points and 3 comments in technical community discussions show community interest,
+    but actual adoption is not yet verified.
+- id: req-full-conduct-2026-08-29
+  project_slug: conduct
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理工具调用的安全问题，通过防护层限制危险操作，交付更安全的代理行为。工作流结构判断：旧流程是人工审查或缺失防护，此方案提供自动化防护。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区讨论显示关注，但缺乏用户评价或采用案例。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源工具免费使用，但企业付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近 AI 代理安全的第一性目标，交付的防护可验证，但需关注误报和性能影响。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。
+  market: ''
+  job: AI 工程师在部署 AI 代理时，需要确保工具调用的安全性，防止恶意操作或数据泄露。
+  job_en: AI engineers need to ensure the security of tool calls when deploying AI agents, preventing
+    malicious operations or data leaks.
+  pain: AI 代理可能执行危险操作，缺乏有效的安全防护机制。
+  pain_en: AI agents may execute dangerous operations, lacking effective security guardrails.
+  current_alternative: 目前可能依赖人工审查或自定义安全策略，缺乏系统化的防护层。
+  current_alternative_en: Currently relies on manual review or custom security policies, lacking a systematic
+    guardrails layer.
+  usage_reason: 技术社区讨论中获得 20 分和 3 条评论，显示社区关注，但尚未核验实际采用。
+  usage_reason_en: 20 points and 3 comments in technical community discussions show community interest,
+    but actual adoption is not yet verified.

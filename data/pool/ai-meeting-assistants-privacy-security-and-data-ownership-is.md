@@ -1,11 +1,12 @@
 ---
 slug: ai-meeting-assistants-privacy-security-and-data-ownership-is
-name: 'AI Meeting Assistants: Privacy, Security and Data Ownership Issues Companies Are Missing'
+name: AI会议助手
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI会议助手存在隐私、安全和数据所有权问题，企业需关注。
 inspiration: ''
-summary_en: ''
+summary_en: AI meeting assistants have privacy, security, and data ownership issues that companies are
+  missing.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: 'AI Meeting Assistants: Privacy, Security and Data Ownership Issues Com
   & Knight'
 first_seen: '2026-08-26T14:36:13Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AI Meeting Assistants: Privacy, Security and Data Ownership Issues Companies Are Missing
+# AI会议助手
 
 AI Meeting Assistants: Privacy, Security and Data Ownership Issues Companies Are Missing Holland & Knight
 

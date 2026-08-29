@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPMmFuUk5xeWZj
 summary: Exclusive | The Latest Viral AI Assistant Rocketing Across Silicon Valley WSJ
 first_seen: '2026-08-26T18:03:45Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

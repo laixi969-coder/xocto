@@ -336,3 +336,41 @@
   usage_reason: 公开代码仓库有 337 个收藏、16 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 337 stars and 16 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-oc-2026-08-29
+  project_slug: oc
+  level: full
+  reviewed_at: '2026-08-29T12:37:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理浏览网页时 token 消耗过大的痛点，通过将网站转换为紧凑 CLI 减少 token 使用，交付可确定的浏览能力。工作流结构推理：旧流程依赖完整网页抓取，成本高。
+    evidence_ids:
+    - ev-ee58803c8d30e746
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 393 星显示关注，但缺乏用户评价或持续使用证据。
+    evidence_ids:
+    - ev-fc2f2133fc9a4ff6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，开源项目可能无直接商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，缺少可复现的公开测试或文档。
+    evidence_ids: []
+  next_validation: 追踪 oc 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
+  market: ''
+  job: 开发者需要让 AI 代理高效浏览网页，以少量 token 获取关键信息。
+  job_en: Developers need AI agents to browse the web efficiently, extracting key information with minimal
+    tokens.
+  pain: 网页内容冗长，AI 代理处理时消耗大量 token，成本高且速度慢。
+  pain_en: Web pages are verbose, causing high token consumption and slow processing for AI agents.
+  current_alternative: 目前开发者可能使用通用浏览器工具或手动提取网页内容，但效率低。
+  current_alternative_en: Currently, developers may use generic browser tools or manually extract web
+    content, which is inefficient.
+  usage_reason: 开源仓库获得 393 星，表明开发者关注；但持续使用和付费尚未核验。
+  usage_reason_en: The open-source repository has 393 stars, showing developer interest; repeat use and
+    payment are not yet verified.

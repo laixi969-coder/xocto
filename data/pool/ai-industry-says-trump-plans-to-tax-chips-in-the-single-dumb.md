@@ -1,11 +1,11 @@
 ---
 slug: ai-industry-says-trump-plans-to-tax-chips-in-the-single-dumb
-name: AI industry says Trump plans to tax chips in the “single dumbest way imaginable”
+name: 特朗普芯片税计划
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI行业批评特朗普计划对芯片征税，认为这是赢得AI竞赛的愚蠢方式。
 inspiration: ''
-summary_en: ''
+summary_en: AI industry criticizes Trump's plan to tax chips as a dumb way to win the AI race.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/tech-policy/2026/08/ai-industry-says-trum
 summary: Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.
 first_seen: '2026-08-27T18:57:08Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI industry says Trump plans to tax chips in the “single dumbest way imaginable”
+# 特朗普芯片税计划
 
 Tech industry is perplexed by Trump’s plan to win AI race by taxing data centers.
 

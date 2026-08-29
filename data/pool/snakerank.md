@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/snakerank
 summary: The leaderboard is a snake. Bid your way to the head.
 first_seen: '2026-08-27T06:19:41Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

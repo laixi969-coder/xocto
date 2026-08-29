@@ -337,3 +337,79 @@
   usage_reason: 公开代码仓库有 921 个收藏、95 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 921 stars and 95 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-dsh-im-2026-08-29
+  project_slug: dsh-im
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决在 IM 中直接使用 AI 的需求，痛点明确，交付为 IM 中的 AI 回复。
+    evidence_ids:
+    - ev-475ff7c503aa6bad
+  - gate: consensus
+    status: supported
+    reason: 高星标和 fork 表明社区认可，但需区分关注与实际使用。
+    evidence_ids:
+    - ev-475ff7c503aa6bad
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确商业模式，可能通过捐赠或企业支持。
+    evidence_ids:
+    - ev-475ff7c503aa6bad
+  - gate: truth
+    status: supported
+    reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 和 IM 平台。
+    evidence_ids:
+    - ev-475ff7c503aa6bad
+  next_validation: 关注星标增长和用户 issue 反馈。
+  market: ''
+  job: 用户希望在常用的 IM 工具中直接使用 AI 助手，无需切换应用。
+  job_en: Users want to use AI assistants directly in their common IM tools without switching apps.
+  pain: 切换应用打断工作流，IM 中无法直接获取 AI 帮助。
+  pain_en: Switching apps disrupts workflow, and AI help is not directly available in IM.
+  current_alternative: 在 IM 和 AI 应用之间切换，或使用 IM 内置的简单机器人。
+  current_alternative_en: Switching between IM and AI apps, or using simple built-in bots in IM.
+  usage_reason: 966 个星标，99 个 fork，表明社区关注度高，且多次采集显示持续活跃。
+  usage_reason_en: 966 stars, 99 forks, indicating high community interest and sustained activity across
+    multiple collections.
+- id: req-full-dsh-im-2026-08-29
+  project_slug: dsh-im
+  level: full
+  reviewed_at: '2026-08-29T12:33:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在 IM 中直接使用 AI 的需求，痛点在于切换应用打断工作流；交付为 IM 中的 AI 回复，结构上成立。
+    evidence_ids:
+    - ev-67eba36640ede24f
+  - gate: consensus
+    status: supported
+    reason: 966 星和 99 fork 显示社区认可，多次采集显示持续活跃，共识较强。
+    evidence_ids:
+    - ev-67eba36640ede24f
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确商业模式，可能通过捐赠或企业支持，但未核验。
+    evidence_ids:
+    - ev-67eba36640ede24f
+  - gate: truth
+    status: supported
+    reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 和 IM 平台，安全边界未说明。
+    evidence_ids:
+    - ev-67eba36640ede24f
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际使用场景和反馈。
+  market: ''
+  job: 用户希望在常用的 IM 工具中直接使用 AI 助手，无需切换应用。
+  job_en: Users want to use AI assistants directly in their common IM tools without switching apps.
+  pain: 切换应用打断工作流，IM 中无法直接获取 AI 帮助。
+  pain_en: Switching apps disrupts workflow, and AI help is not directly available in IM.
+  current_alternative: 在 IM 和 AI 应用之间切换，或使用 IM 内置的简单机器人。
+  current_alternative_en: Switching between IM and AI apps, or using simple built-in bots in IM.
+  usage_reason: 966 个星标，99 个 fork，表明社区关注度高，且多次采集显示持续活跃。
+  usage_reason_en: 966 stars, 99 forks, indicating high community interest and sustained activity across
+    multiple collections.

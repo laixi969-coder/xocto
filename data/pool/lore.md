@@ -3,14 +3,14 @@ slug: lore
 name: lore
 builder: hsusul
 category: AI + 开发
-summary_zh: lore 是一个本地、可搜索的编码代理会话存档工具，自动记录 Claude Code 和 Codex 的会话，开发者可随时检索历史操作。它解决的是编码代理缺乏记忆的问题，让开发者能回溯之前的决策和操作。
-inspiration: 趋势是编码代理成为日常工具，但缺乏长期记忆。切入点是提供本地存档和搜索，成为开发者的‘git 记忆’，可集成到现有工作流，可能通过开源免费、企业版收费的模式。
-summary_en: lore is a local, searchable archive for coding agent sessions, automatically recording Claude
-  Code and Codex sessions, allowing developers to retrieve past operations. It addresses the lack of memory
-  in coding agents, enabling developers to trace previous decisions and actions.
-inspiration_en: The trend is coding agents becoming daily tools but lacking long-term memory. The entry
-  point is providing local archiving and search, acting as 'git memory' for developers, integrating into
-  existing workflows, possibly with open-source free and enterprise paid models.
+summary_zh: 开发者在使用 Claude Code 或 Codex 等编码代理时，将每次会话记录保存为本地可搜索的 git 记忆库。它接收会话历史，整理成可检索的档案，供后续查询和复用，帮助开发者回顾之前的决策和上下文。
+inspiration: 趋势是编码代理的会话记忆成为新资产。切入点是做跨代理的会话记忆标准，而非单一工具。可考虑为团队提供共享记忆库，按席位或存储收费。
+summary_en: Developers using coding agents like Claude Code or Codex save each session as a local, searchable
+  git memory archive. It ingests session history, organizes it into a retrievable archive for later query
+  and reuse, helping developers recall past decisions and context.
+inspiration_en: The trend is that session memory of coding agents becomes a new asset. The entry point
+  is to create a cross-agent session memory standard rather than a single tool. Consider offering shared
+  memory repositories for teams, charging per seat or storage.
 priority_review: false
 project_type: open_source
 industries:
@@ -29,7 +29,7 @@ canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - marketfeeds

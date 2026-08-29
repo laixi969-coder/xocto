@@ -24,3 +24,89 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-salem-robotics-yc-s26-software-for-industrial-inspection-2026-08-29
+  project_slug: salem-robotics-yc-s26-software-for-industrial-inspection
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决人工检测效率低、漏检的痛点，用机器人+AI 替代，交付缺陷报告。工作流结构判断。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有一定热度，但缺乏实际采用证据。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，买方可能是制造企业，但付费路径未核验。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺检测自动化，但实际检测准确性和交付确定性未验证。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  next_validation: 关注 Salem Robotics 官网和客户案例，验证实际部署和效果。
+  market: ''
+  job: 工厂质检员需要检测产品缺陷，确保质量。
+  job_en: Factory quality inspectors need to detect product defects to ensure quality.
+  pain: 人工目检效率低、易疲劳，漏检率高。
+  pain_en: Manual visual inspection is inefficient, tiring, and prone to missed defects.
+  current_alternative: 目前许多工厂仍依赖人工目检或传统机器视觉系统，后者配置复杂。
+  current_alternative_en: Many factories still rely on manual inspection or traditional machine vision
+    systems, which are complex to configure.
+  usage_reason: 机器人+AI 检测能提高效率和准确性，减少漏检，吸引工厂采用。
+  usage_reason_en: Robot+AI inspection improves efficiency and accuracy, reducing missed defects, attracting
+    factory adoption.
+- id: req-full-salem-robotics-yc-s26-software-for-industrial-inspection-2026-08-29
+  project_slug: salem-robotics-yc-s26-software-for-industrial-inspection
+  level: full
+  reviewed_at: '2026-08-29T12:38:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决人工检测效率低、漏检的痛点，用机器人+AI 替代，交付缺陷报告。工作流结构判断。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有一定热度，但缺乏实际采用证据。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，买方可能是制造企业，但付费路径未核验。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺检测自动化，但实际检测准确性和交付确定性未验证。
+    evidence_ids:
+    - ev-038ad3dad51a9b36
+    - ev-740ca1947a4e6bc4
+  next_validation: 关注 Salem Robotics 官网和客户案例，验证实际部署和效果。
+  market: ''
+  job: 工厂质检员需要检测产品缺陷，确保质量。
+  job_en: Factory quality inspectors need to detect product defects to ensure quality.
+  pain: 人工目检效率低、易疲劳，漏检率高。
+  pain_en: Manual visual inspection is inefficient, tiring, and prone to missed defects.
+  current_alternative: 目前许多工厂仍依赖人工目检或传统机器视觉系统，后者配置复杂。
+  current_alternative_en: Many factories still rely on manual inspection or traditional machine vision
+    systems, which are complex to configure.
+  usage_reason: 机器人+AI 检测能提高效率和准确性，减少漏检，吸引工厂采用。
+  usage_reason_en: Robot+AI inspection improves efficiency and accuracy, reducing missed defects, attracting
+    factory adoption.

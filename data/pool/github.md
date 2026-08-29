@@ -1,28 +1,29 @@
 ---
 slug: github
-name: Github
+name: MWFL
 builder: everettjf
 category: AI + 开发
-summary_zh: MWFL 是一个基于 C++20 的轻量级原生 Windows 开发框架，在 Win32 之上提供现代封装，保留原生控件和系统能力。Windows 桌面开发者可用它构建原生应用，并让
-  AI 生成的代码更规整。具体流程与交付物仍需核验。
-inspiration: 趋势是 AI 辅助开发需要更规范的基础库。切入点是 Windows 桌面开发，可提供框架和配套工具，帮助开发者用 AI 生成更可维护的代码。
+summary_zh: MWFL 是一个基于 C++20 的轻量级原生 Windows 开发框架，在 Win32 之上提供现代封装，保留原生控件和系统能力。开发者可用它构建 Windows 10 及以上系统的桌面应用，框架提供类型化事件、RAII
+  资源管理和 DPI 感知布局，减少样板代码。仓库包含 62 个可编译示例，并已用于构建十六进制编辑器、Markdown 编辑器等真实工具。
+inspiration: 趋势是 AI 辅助代码生成需要更规整的底层框架。切入点是面向 Windows 桌面开发者的轻量框架，可结合 AI 代码生成工具，提供更易读的代码结构。
 summary_en: MWFL is a lightweight native Windows development framework based on C++20, providing modern
-  wrappers over Win32 while retaining native controls and system capabilities. Windows desktop developers
-  can use it to build native apps and make AI-generated code more structured. Specific workflow and deliverables
-  still need verification.
-inspiration_en: The trend is AI-assisted development requiring more standardized base libraries. The entry
-  point is Windows desktop development, offering frameworks and companion tools to help developers generate
-  more maintainable code with AI.
+  wrappers over Win32 while retaining native controls and system capabilities. Developers can build desktop
+  apps for Windows 10 and above, with typed events, RAII resource management, and DPI-aware layout, reducing
+  boilerplate. The repo includes 62 compilable examples and has been used to build real tools like hex
+  editor and Markdown editor.
+inspiration_en: 'Trend: AI-assisted code generation needs more structured underlying frameworks. Entry:
+  target Windows desktop developers with a lightweight framework that integrates with AI code generation
+  tools for cleaner code.'
 priority_review: false
 project_type: open_source
 industries:
 - 软件开发
 industries_en:
-- Software development
+- Software Development
 jobs:
 - Windows 桌面开发者
 jobs_en:
-- Windows desktop developer
+- Windows Desktop Developers
 regions:
 - 全球
 regions_en:
@@ -52,7 +53,7 @@ summary: "大家好，最近做了一个原生 Windows 开发框架，叫做 **M
   \ 项目，欢迎尽情交流。"
 first_seen: '2026-08-23T06:15:09Z'
 last_seen: '2026-08-29T03:43:11Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 - github
@@ -89,7 +90,7 @@ sightings:
   kind: news
 ---
 
-# Github
+# MWFL
 
 大家好，最近做了一个原生 Windows 开发框架，叫做 **MWFL （ Modern Windows Foundation Layer ）**，想在这里简单分享一下它的来历。
 

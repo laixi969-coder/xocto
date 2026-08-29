@@ -1,0 +1,76 @@
+- id: req-initial-intron-launches-sahara-v25-for-african-voice-ai-2026-08-29
+  project_slug: intron-launches-sahara-v25-for-african-voice-ai
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决非洲本地语言语音交互的需求，但具体痛点、交付和用户场景未在公开材料中明确。
+    evidence_ids:
+    - ev-1a27a4ff5eecfe83
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Intron 官网和产品文档，以及非洲本地媒体报道，了解具体功能和客户案例。
+  market: ''
+  job: 非洲用户或企业需要语音 AI 来处理本地语言交互，如客服、信息查询等。
+  job_en: African users or businesses need voice AI to handle local language interactions, such as customer
+    service and information queries.
+  pain: 非洲语言多样性高，通用语音模型覆盖不足，本地化需求强烈。
+  pain_en: Africa's high linguistic diversity means general voice models have poor coverage, creating
+    strong localization needs.
+  current_alternative: 当前替代包括人工客服、英语为主的语音助手，以及有限的本地语言工具。
+  current_alternative_en: Current alternatives include human customer service, English-centric voice assistants,
+    and limited local language tools.
+  usage_reason: 尚未核验，但非洲市场对本地化语音 AI 有潜在需求，可能因解决语言障碍而受到关注。
+  usage_reason_en: Not yet verified, but Africa has potential demand for localized voice AI, which may
+    gain attention for addressing language barriers.
+- id: req-full-intron-launches-sahara-v25-for-african-voice-ai-2026-08-29
+  project_slug: intron-launches-sahara-v25-for-african-voice-ai
+  level: full
+  reviewed_at: '2026-08-29T12:35:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决非洲本地语言语音交互的需求，但具体痛点、交付和用户场景未在公开材料中明确，无法判断价值结构。
+    evidence_ids:
+    - ev-1a27a4ff5eecfe83
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Intron 官网和产品文档，以及非洲本地媒体报道，了解具体功能和客户案例。
+  market: ''
+  job: 非洲用户或企业需要语音 AI 来处理本地语言交互，如客服、信息查询等。
+  job_en: African users or businesses need voice AI to handle local language interactions, such as customer
+    service and information queries.
+  pain: 非洲语言多样性高，通用语音模型覆盖不足，本地化需求强烈。
+  pain_en: Africa's high linguistic diversity means general voice models have poor coverage, creating
+    strong localization needs.
+  current_alternative: 当前替代包括人工客服、英语为主的语音助手，以及有限的本地语言工具。
+  current_alternative_en: Current alternatives include human customer service, English-centric voice assistants,
+    and limited local language tools.
+  usage_reason: 尚未核验，但非洲市场对本地化语音 AI 有潜在需求，可能因解决语言障碍而受到关注。
+  usage_reason_en: Not yet verified, but Africa has potential demand for localized voice AI, which may
+    gain attention for addressing language barriers.

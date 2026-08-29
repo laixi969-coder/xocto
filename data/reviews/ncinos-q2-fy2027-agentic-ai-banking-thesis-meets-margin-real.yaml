@@ -1,0 +1,78 @@
+- id: req-initial-ncinos-q2-fy2027-agentic-ai-banking-thesis-meets-margin-real-2026-08-29
+  project_slug: ncinos-q2-fy2027-agentic-ai-banking-thesis-meets-margin-real
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行信贷和合规流程的耗时和成本痛点，AI 代理可自动化文档审核，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料为分析师评论，缺乏客户采用或效果数据，共识未验证。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  - gate: model
+    status: insufficient
+    reason: nCino 作为 SaaS 平台，可能按订阅收费，但具体 AI 功能定价未披露。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  - gate: truth
+    status: insufficient
+    reason: AI 代理在银行场景的准确性和可靠性需验证，利润率现实表明可能面临挑战。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  next_validation: 关注 nCino 官方财报和客户案例，寻找 AI 功能的具体采用和效果数据。
+  market: ''
+  job: 银行需要处理贷款审批和合规检查，涉及大量文档审核和人工判断。
+  job_en: Banks need to handle loan approvals and compliance checks, involving extensive document review
+    and human judgment.
+  pain: 流程耗时、人力成本高、合规风险大。
+  pain_en: Processes are time-consuming, labor-intensive, and carry compliance risks.
+  current_alternative: 目前主要依赖人工审核和传统软件，AI 代理可加速流程。
+  current_alternative_en: Currently relies on manual review and traditional software; AI agents can accelerate
+    processes.
+  usage_reason: 银行采用 AI 代理以提高效率、降低成本，并应对监管压力。
+  usage_reason_en: Banks adopt AI agents to improve efficiency, reduce costs, and meet regulatory pressure.
+- id: req-full-ncinos-q2-fy2027-agentic-ai-banking-thesis-meets-margin-real-2026-08-29
+  project_slug: ncinos-q2-fy2027-agentic-ai-banking-thesis-meets-margin-real
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决银行信贷和合规流程的耗时和成本痛点，AI 代理可自动化文档审核，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料为分析师评论，缺乏客户采用或效果数据，共识未验证。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  - gate: model
+    status: insufficient
+    reason: nCino 作为 SaaS 平台，可能按订阅收费，但具体 AI 功能定价未披露。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  - gate: truth
+    status: insufficient
+    reason: AI 代理在银行场景的准确性和可靠性需验证，利润率现实表明可能面临挑战。
+    evidence_ids:
+    - ev-886587dbf1a8ed8a
+  next_validation: 关注 nCino 官方财报和客户案例，寻找 AI 功能的具体采用和效果数据。
+  market: ''
+  job: 银行需要处理贷款审批和合规检查，涉及大量文档审核和人工判断。
+  job_en: Banks need to handle loan approvals and compliance checks, involving extensive document review
+    and human judgment.
+  pain: 流程耗时、人力成本高、合规风险大。
+  pain_en: Processes are time-consuming, labor-intensive, and carry compliance risks.
+  current_alternative: 目前主要依赖人工审核和传统软件，AI 代理可加速流程。
+  current_alternative_en: Currently relies on manual review and traditional software; AI agents can accelerate
+    processes.
+  usage_reason: 银行采用 AI 代理以提高效率、降低成本，并应对监管压力。
+  usage_reason_en: Banks adopt AI agents to improve efficiency, reduce costs, and meet regulatory pressure.

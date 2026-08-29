@@ -1,11 +1,11 @@
 ---
 slug: workday第二季度业绩超预期ai智能体成新增长引擎
-name: Workday第二季度业绩超预期，AI智能体成新增长引擎
+name: Workday
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Workday 公布第二季度业绩超预期，AI 智能体成为新的增长引擎。
 inspiration: ''
-summary_en: ''
+summary_en: Workday reported better-than-expected Q2 results, with AI agents becoming a new growth engine.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc29hREJPQkw1
 summary: Workday第二季度业绩超预期，AI智能体成新增长引擎 搜狐网
 first_seen: '2026-08-28T13:43:00Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Workday第二季度业绩超预期，AI智能体成新增长引擎
+# Workday
 
 Workday第二季度业绩超预期，AI智能体成新增长引擎 搜狐网
 

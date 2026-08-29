@@ -21,7 +21,7 @@ canonical_url: https://figshare.com/articles/online_resource/NonPU_or_Neuronal_P
 summary: I compressed videos by upto 78x while preserving faces,text and details
 first_seen: '2026-08-28T07:41:09Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

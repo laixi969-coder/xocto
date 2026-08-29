@@ -265,3 +265,42 @@
   usage_reason: 公开代码仓库有 586 个收藏、140 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 586 stars and 140 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-deepseek-design-2026-08-29
+  project_slug: deepseek-design
+  level: full
+  reviewed_at: '2026-08-29T12:32:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师和 PPT 制作者快速生成和编辑设计的需求，痛点在于传统设计流程耗时，交付为可编辑设计文件和 PPT，结构上成立。
+    evidence_ids:
+    - ev-63ce16c29b1fb979
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 607 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-63ce16c29b1fb979
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 设计师或 PPT 制作者需要利用 AI 生成设计初稿，并通过可视化编辑和模板市场快速制作 PPT 或设计文件。
+  job_en: Designers or PPT creators need to use AI to generate design drafts, then use visual editing
+    and template marketplace to quickly produce PPTs or design files.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；痛点强度尚未核验。
+  pain_en: Public materials do not show the specific cost, frequency, or consequence of leaving it unsolved;
+    pain intensity is not yet verified.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作或替代方案。
+  current_alternative_en: Public materials do not show how users currently accomplish this or what alternatives
+    exist.
+  usage_reason: 公开代码仓库有 607 个收藏，说明开发者关注，但持续使用与付费未核验。
+  usage_reason_en: The public repository has 607 stars, showing developer attention, but repeat use and
+    payment are not verified.

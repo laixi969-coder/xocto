@@ -343,3 +343,42 @@
   usage_reason: 公开代码仓库有 261 个收藏、22 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 261 stars and 22 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-ios-2026-08-29
+  project_slug: dsh-ios
+  level: full
+  reviewed_at: '2026-08-29T12:33:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 iOS 调试中模拟器/真机控制与 AI 协作的需求，痛点在于手动操作界面耗时；交付为实时界面控制，结构上成立。
+    evidence_ids:
+    - ev-e303773ede7cf768
+  - gate: consensus
+    status: insufficient
+    reason: 265 星显示关注，但无用户评价或 issue 反馈，共识未充分验证。
+    evidence_ids:
+    - ev-e303773ede7cf768
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际使用场景和反馈。
+  market: ''
+  job: iOS 开发者、移动应用测试工程师需要在调试应用时，将模拟器或 iPhone 接入对话，通过代理工具驱动界面。
+  job_en: iOS developers and mobile app test engineers need to connect simulators or iPhones to conversations
+    and drive UI via agent tools during debugging.
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 公开代码仓库有 265 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 265 stars, showing developer attention; repeat use and payment
+    are not yet verified.

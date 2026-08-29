@@ -21,7 +21,7 @@ canonical_url: https://github.com/IndexFlowing/IndexFlow-core
 summary: Open-source indexing infrastructure built with Rust
 first_seen: '2026-08-28T02:46:39Z'
 last_seen: '2026-08-29T03:43:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

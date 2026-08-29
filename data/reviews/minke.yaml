@@ -338,3 +338,43 @@
   usage_reason: 公开代码仓库有 569 个收藏、62 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 569 stars and 62 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-minke-2026-08-29
+  project_slug: minke
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户需要图形界面操作 DeepSeek Harness 的需求，痛点是非技术用户或偏好 GUI 的用户被命令行门槛阻挡，交付是桌面窗口封装，可确定。工作流结构推理。
+    evidence_ids:
+    - ev-7ba02726a410e7a6
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 578 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-7ba02726a410e7a6
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或终端用户，但付费路径不明确。
+    evidence_ids:
+    - ev-7ba02726a410e7a6
+  - gate: truth
+    status: supported
+    reason: 作为开源桌面封装，交付确定性高，但依赖 DeepSeek Harness 的稳定性。
+    evidence_ids:
+    - ev-7ba02726a410e7a6
+  next_validation: 追踪 Minke 仓库的 issue 和 discussion，确认用户实际使用场景和替代的旧流程。
+  market: ''
+  job: 把 DeepSeek Harness 装成桌面窗口，不用对着命令行也能用
+  job_en: Put DeepSeek Harness in a desktop window, so you can use it without living in the terminal.
+  pain: 命令行界面对于非技术用户或偏好图形界面的用户来说门槛高，不解决会阻碍这些用户使用 DeepSeek Harness。
+  pain_en: The command-line interface is a barrier for non-technical users or those preferring a GUI;
+    not solving it hinders their use of DeepSeek Harness.
+  current_alternative: 目前用户可能直接使用命令行或依赖其他桌面封装工具，但公开材料未明确说明。
+  current_alternative_en: Users may currently use the command line directly or rely on other desktop wrappers,
+    but public materials do not specify.
+  usage_reason: 公开仓库有 578 星，显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 578 stars, showing developer attention, but repeat use and
+    payment are not yet verified.

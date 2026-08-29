@@ -1,0 +1,80 @@
+- id: req-initial-truefoundry发布开源智能体框架trueforge宣称可降低75成本-2026-08-29
+  project_slug: truefoundry发布开源智能体框架trueforge宣称可降低75成本
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建智能体的成本问题，宣称降低75%成本，工作流结构判断：成本是刚需，交付可确定。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源框架可能通过云服务或支持收费，但未证实。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: truth
+    status: insufficient
+    reason: 成本降低75%的宣称需验证，缺乏实际案例或基准测试。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  next_validation: 查看TrueForge的官方代码仓库或文档，获取实际使用案例和成本对比数据。
+  market: ''
+  job: 开发者需要构建和部署AI智能体，同时控制成本。
+  job_en: Developers need to build and deploy AI agents while controlling costs.
+  pain: 构建智能体可能涉及高昂的模型调用和基础设施成本，但具体痛点未披露。
+  pain_en: Building agents may involve high model invocation and infrastructure costs, but specific pain
+    points are not disclosed.
+  current_alternative: 开发者可能使用其他智能体框架或自建，但具体替代方式未披露。
+  current_alternative_en: Developers may use other agent frameworks or build in-house, but specific alternatives
+    are not disclosed.
+  usage_reason: 开源框架可能吸引开发者尝试，但采用证据尚未核验。
+  usage_reason_en: Open-source framework may attract developers to try, but adoption evidence is not yet
+    verified.
+- id: req-full-truefoundry发布开源智能体框架trueforge宣称可降低75成本-2026-08-29
+  project_slug: truefoundry发布开源智能体框架trueforge宣称可降低75成本
+  level: full
+  reviewed_at: '2026-08-29T12:39:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建智能体的成本问题，宣称降低75%成本，工作流结构判断：成本是刚需，交付可确定。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源框架可能通过云服务或支持收费，但未证实。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: truth
+    status: insufficient
+    reason: 成本降低75%的宣称需验证，缺乏实际案例或基准测试。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  next_validation: 查看TrueForge的官方代码仓库或文档，获取实际使用案例和成本对比数据。
+  market: ''
+  job: 开发者需要构建和部署AI智能体，同时控制成本。
+  job_en: Developers need to build and deploy AI agents while controlling costs.
+  pain: 构建智能体可能涉及高昂的模型调用和基础设施成本，但具体痛点未披露。
+  pain_en: Building agents may involve high model invocation and infrastructure costs, but specific pain
+    points are not disclosed.
+  current_alternative: 开发者可能使用其他智能体框架或自建，但具体替代方式未披露。
+  current_alternative_en: Developers may use other agent frameworks or build in-house, but specific alternatives
+    are not disclosed.
+  usage_reason: 开源框架可能吸引开发者尝试，但采用证据尚未核验。
+  usage_reason_en: Open-source framework may attract developers to try, but adoption evidence is not yet
+    verified.

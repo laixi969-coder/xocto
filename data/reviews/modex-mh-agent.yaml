@@ -114,3 +114,44 @@
   usage_reason: 公开代码仓库有 224 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 224 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-modex-mh-agent-2026-08-29
+  project_slug: modex-mh-agent
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学建模竞赛论文生成的需求，痛点在于时间紧迫、手动写作耗时，交付是竞赛级论文，可确定。工作流结构推理。
+    evidence_ids:
+    - ev-9847b604f7fd1473
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 225 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-9847b604f7fd1473
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向学生或教育机构，但付费路径不明确。
+    evidence_ids:
+    - ev-9847b604f7fd1473
+  - gate: truth
+    status: supported
+    reason: 作为开源工具，交付确定性高，但论文质量可能不稳定。
+    evidence_ids:
+    - ev-9847b604f7fd1473
+  next_validation: 追踪 modex-mh-agent 仓库的 issue 和 discussion，确认用户实际使用场景和替代的旧流程。
+  market: ''
+  job: 学生或参赛者需要从数学建模赛题生成竞赛论文，通常时间紧迫。
+  job_en: Students or contestants need to generate a competition paper from a math modeling prompt, often
+    under time pressure.
+  pain: 数学建模竞赛时间紧、任务重，手动完成论文耗时且压力大，不解决会导致参赛者难以按时完成。
+  pain_en: Math modeling competitions are time-constrained and demanding; manual paper writing is time-consuming
+    and stressful, making it hard to finish on time.
+  current_alternative: 目前可能依赖团队手动分工或使用通用 AI 工具，但缺乏全流程自动化。
+  current_alternative_en: Currently may rely on manual teamwork or generic AI tools, lacking end-to-end
+    automation.
+  usage_reason: 公开仓库有 225 星，显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 225 stars, showing developer attention, but repeat use and
+    payment are not yet verified.

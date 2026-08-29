@@ -1,0 +1,77 @@
+- id: req-initial-sparrow-2-2026-08-29
+  project_slug: sparrow-2
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 官方仅提及解决鸡尾酒会问题，未说明具体输入、动作和交付，无法判断需求强度和交付确定性。
+    evidence_ids:
+    - ev-ade78bfdc9d89270
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官方博客和少量社区讨论，缺乏用户反馈或行业采用证据。
+    evidence_ids:
+    - ev-ade78bfdc9d89270
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Tavus 官网关于 Sparrow-2 的技术文档、演示或客户案例，以明确其具体功能和交付。
+  market: ''
+  job: 用户需要在嘈杂环境中听清或识别特定说话人的声音，例如会议中多人同时发言。
+  job_en: Users need to hear or identify a specific speaker's voice in noisy environments, such as multiple
+    people speaking simultaneously in a meeting.
+  pain: 人类听觉在嘈杂环境中难以聚焦，现有音频处理工具分离效果有限。
+  pain_en: Human hearing struggles to focus in noisy environments, and existing audio tools have limited
+    separation capability.
+  current_alternative: 目前使用定向麦克风、降噪耳机或人工转录服务，但效果有限。
+  current_alternative_en: Currently uses directional microphones, noise-canceling headphones, or manual
+    transcription services, but with limited effectiveness.
+  usage_reason: Tavus 在 AI 视频生成领域已有知名度，Sparrow-2 作为新方向引起关注，但具体采用情况尚未核验。
+  usage_reason_en: Tavus is known in AI video generation, and Sparrow-2 as a new direction attracts attention,
+    but adoption is unverified.
+- id: req-full-sparrow-2-2026-08-29
+  project_slug: sparrow-2
+  level: full
+  reviewed_at: '2026-08-29T12:39:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 官方仅提及解决鸡尾酒会问题，未说明具体输入、动作和交付，无法判断需求强度和交付确定性。
+    evidence_ids:
+    - ev-ade78bfdc9d89270
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Tavus 官网关于 Sparrow-2 的技术文档、演示或客户案例，以明确其具体功能和交付。
+  market: ''
+  job: 用户需要在嘈杂环境中听清或识别特定说话人的声音，例如会议中多人同时发言。
+  job_en: Users need to hear or identify a specific speaker's voice in noisy environments, such as multiple
+    people speaking simultaneously in a meeting.
+  pain: 人类听觉在嘈杂环境中难以聚焦，现有音频处理工具分离效果有限。
+  pain_en: Human hearing struggles to focus in noisy environments, and existing audio tools have limited
+    separation capability.
+  current_alternative: 目前使用定向麦克风、降噪耳机或人工转录服务，但效果有限。
+  current_alternative_en: Currently uses directional microphones, noise-canceling headphones, or manual
+    transcription services, but with limited effectiveness.
+  usage_reason: Tavus 在 AI 视频生成领域已有知名度，Sparrow-2 作为新方向引起关注，但具体采用情况尚未核验。
+  usage_reason_en: Tavus is known in AI video generation, and Sparrow-2 as a new direction attracts attention,
+    but adoption is unverified.

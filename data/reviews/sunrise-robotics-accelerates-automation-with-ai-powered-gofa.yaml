@@ -1,0 +1,80 @@
+- id: req-initial-sunrise-robotics-accelerates-automation-with-ai-powered-gofa-2026-08-29
+  project_slug: sunrise-robotics-accelerates-automation-with-ai-powered-gofa
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决传统机器人编程复杂、部署慢的痛点，旧替代是专业工程师编程，交付是自动执行任务，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅报道产品发布，缺乏客户采用数据或实际部署案例，共识证据不足。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是制造企业，但付费路径未公开。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近自动化第一性目标，但交付确定性（AI 规划可靠性、安全性）尚未有公开验证。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  next_validation: 关注 Sunrise Robotics 官网的客户案例、部署文档和实际使用数据。
+  market: ''
+  job: 制造企业需要部署协作机器人完成重复性任务，如上下料、装配。
+  job_en: Manufacturers need to deploy cobots for repetitive tasks like machine tending and assembly.
+  pain: 传统机器人编程复杂、部署周期长，难以适应多品种小批量生产。
+  pain_en: Traditional robot programming is complex and slow to deploy, struggling with high-mix low-volume
+    production.
+  current_alternative: 使用传统工业机器人，需要专业工程师编程和调试。
+  current_alternative_en: Using traditional industrial robots requires specialized engineers for programming
+    and setup.
+  usage_reason: AI 驱动的协作机器人能降低编程门槛、加快部署，因此制造企业会关注。
+  usage_reason_en: AI-driven cobots lower programming barriers and speed deployment, so manufacturers
+    are interested.
+- id: req-full-sunrise-robotics-accelerates-automation-with-ai-powered-gofa-2026-08-29
+  project_slug: sunrise-robotics-accelerates-automation-with-ai-powered-gofa
+  level: full
+  reviewed_at: '2026-08-29T12:39:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决传统机器人编程复杂、部署慢的痛点，旧替代是专业工程师编程，交付是自动执行任务，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅报道产品发布，缺乏客户采用数据或实际部署案例，共识证据不足。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是制造企业，但付费路径未公开。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近自动化第一性目标，但交付确定性（AI 规划可靠性、安全性）尚未有公开验证。
+    evidence_ids:
+    - ev-a708d9830bfff45e
+  next_validation: 关注 Sunrise Robotics 官网的客户案例、部署文档和实际使用数据。
+  market: ''
+  job: 制造企业需要部署协作机器人完成重复性任务，如上下料、装配。
+  job_en: Manufacturers need to deploy cobots for repetitive tasks like machine tending and assembly.
+  pain: 传统机器人编程复杂、部署周期长，难以适应多品种小批量生产。
+  pain_en: Traditional robot programming is complex and slow to deploy, struggling with high-mix low-volume
+    production.
+  current_alternative: 使用传统工业机器人，需要专业工程师编程和调试。
+  current_alternative_en: Using traditional industrial robots requires specialized engineers for programming
+    and setup.
+  usage_reason: AI 驱动的协作机器人能降低编程门槛、加快部署，因此制造企业会关注。
+  usage_reason_en: AI-driven cobots lower programming barriers and speed deployment, so manufacturers
+    are interested.

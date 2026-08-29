@@ -338,3 +338,43 @@
   usage_reason: 公开代码仓库有 122 个收藏、56 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 122 stars and 56 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-xinchao-nian-2026-08-29
+  project_slug: xinchao-nian
+  level: full
+  reviewed_at: '2026-08-29T12:40:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人用户对 AI 陪伴和长期记忆的需求，痛点在于现有 AI 缺乏情感连接，交付可确定。工作流结构推理。
+    evidence_ids:
+    - ev-f8f7ff7f3908729f
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 125 个星标，显示社区关注，但缺乏持续使用或付费的公开证据。
+    evidence_ids:
+    - ev-f8f7ff7f3908729f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是个人用户，但付费路径未公开。
+    evidence_ids:
+    - ev-f8f7ff7f3908729f
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性高，但安全边界和人工监督机制尚未在公开材料中说明。
+    evidence_ids:
+    - ev-f8f7ff7f3908729f
+  next_validation: 追踪 xinchao-nian 的 GitHub issue 和 discussion，确认用户实际使用场景和替代的旧流程。
+  market: ''
+  job: 个人用户希望部署一个会“惦记”自己的 AI 心智，提供个性化陪伴和记忆功能。
+  job_en: Individual users want to deploy an AI mind that 'remembers' them, providing personalized companionship
+    and memory.
+  pain: 现有 AI 助手缺乏长期记忆和情感连接，无法提供持续的个性化互动。
+  pain_en: Existing AI assistants lack long-term memory and emotional connection, failing to provide sustained
+    personalized interaction.
+  current_alternative: 用户可能使用通用 AI 聊天机器人，但缺乏深度记忆和个性化。
+  current_alternative_en: Users may use general AI chatbots, but they lack deep memory and personalization.
+  usage_reason: 仓库获得 125 个星标，显示关注；但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 125 stars, showing interest; sustained use and payment are not yet
+    verified.

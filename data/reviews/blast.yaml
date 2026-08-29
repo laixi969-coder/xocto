@@ -1,0 +1,74 @@
+- id: req-initial-blast-2026-08-29
+  project_slug: blast
+  level: initial
+  reviewed_at: '2026-08-29T03:43:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者快速创建隔离执行环境的需求，旧替代是手动配置 Docker 或虚拟机，耗时且复杂。工作流结构判断：沙箱是 AI 代理测试的刚需。
+    evidence_ids:
+    - ev-ed85e25798909699
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句描述，没有用户评价、采用数据或社区讨论，无法判断共识强度。
+    evidence_ids:
+    - ev-ed85e25798909699
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，通过托管服务盈利，但尚无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露沙箱的安全性和性能表现，需要验证是否可靠。
+    evidence_ids: []
+  next_validation: 关注 Blast 的代码仓库，看是否有文档、使用案例和社区反馈。
+  market: ''
+  job: 开发者需要快速创建隔离环境来运行不可信代码或测试 AI 代理，避免影响本地系统。
+  job_en: Developers need to quickly create isolated environments to run untrusted code or test AI agents
+    without affecting local systems.
+  pain: 手动配置沙箱耗时且复杂，现有云沙箱服务可能成本高或不够灵活。
+  pain_en: Manual sandbox setup is time-consuming and complex; existing cloud sandbox services may be
+    costly or inflexible.
+  current_alternative: 替代方式是使用 Docker 容器、虚拟机或云服务商的沙箱产品。
+  current_alternative_en: Alternatives include Docker containers, VMs, or cloud provider sandbox products.
+  usage_reason: 开源项目可能吸引开发者尝试，尤其是需要自托管沙箱的团队。
+  usage_reason_en: Open-source nature may attract developers, especially teams needing self-hosted sandboxes.
+- id: req-full-blast-2026-08-29
+  project_slug: blast
+  level: full
+  reviewed_at: '2026-08-29T12:31:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者快速创建隔离执行环境的需求，旧替代是手动配置 Docker 或虚拟机，耗时且复杂。工作流结构判断：沙箱是 AI 代理测试的刚需。
+    evidence_ids:
+    - ev-ed85e25798909699
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有一句描述，没有用户评价、采用数据或社区讨论，无法判断共识强度。
+    evidence_ids:
+    - ev-ed85e25798909699
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，通过托管服务盈利，但尚无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露沙箱的安全性和性能表现，需要验证是否可靠。
+    evidence_ids: []
+  next_validation: 关注 Blast 的代码仓库，看是否有文档、使用案例和社区反馈。
+  market: ''
+  job: 开发者需要快速创建隔离环境来运行不可信代码或测试 AI 代理，避免影响本地系统。
+  job_en: Developers need to quickly create isolated environments to run untrusted code or test AI agents
+    without affecting local systems.
+  pain: 手动配置沙箱耗时且复杂，现有云沙箱服务可能成本高或不够灵活。
+  pain_en: Manual sandbox setup is time-consuming and complex; existing cloud sandbox services may be
+    costly or inflexible.
+  current_alternative: 替代方式是使用 Docker 容器、虚拟机或云服务商的沙箱产品。
+  current_alternative_en: Alternatives include Docker containers, VMs, or cloud provider sandbox products.
+  usage_reason: 开源项目可能吸引开发者尝试，尤其是需要自托管沙箱的团队。
+  usage_reason_en: Open-source nature may attract developers, especially teams needing self-hosted sandboxes.

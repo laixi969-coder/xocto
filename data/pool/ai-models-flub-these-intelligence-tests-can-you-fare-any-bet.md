@@ -1,11 +1,11 @@
 ---
 slug: ai-models-flub-these-intelligence-tests-can-you-fare-any-bet
-name: AI models flub these intelligence tests. Can you fare any better?
+name: AI模型智力测试
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI模型在智力测试中表现不佳，文章探讨人类与AI的对比。
 inspiration: ''
-summary_en: ''
+summary_en: AI models flub intelligence tests; article explores human vs AI comparison.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +24,7 @@ summary: Puzzles and games have been central to AI development since the very be
   scientist Arthur…
 first_seen: '2026-08-26T09:00:00Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# AI models flub these intelligence tests. Can you fare any better?
+# AI模型智力测试
 
 Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur…
 

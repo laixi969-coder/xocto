@@ -1,11 +1,14 @@
 ---
 slug: ox-alpha牛来-身份揭晓黄仁勋ai-已迈过商业化拐点世界人形机器人运动会闭幕天工-ultra-百米跑出-8-秒-6
-name: Ox Alpha「牛来」 身份揭晓；黄仁勋：AI 已迈过商业化拐点；世界人形机器人运动会闭幕：天工 Ultra 百米跑出 8 秒 64｜极客早知道
+name: GLM-5.3-Flash
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: GLM-5.3-Flash 是智谱发布的 320B 参数 MoE 模型，激活 18B，原生多模态，综合智能指数 57 分，编程能力与 Claude Opus 4.8 相当，定价仅为
+  GLM-5.3 的 1/10，以 MIT 许可证开源。
 inspiration: ''
-summary_en: ''
+summary_en: GLM-5.3-Flash is Zhipu's 320B-parameter MoE model with 18B active, natively multimodal, scoring
+  57 on the comprehensive intelligence index, matching Claude Opus 4.8 in coding, priced at 1/10 of GLM-5.3,
+  open-sourced under MIT.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -86,7 +89,7 @@ summary: "智谱正式发布并开源 GLM-5.3-Flash，Ox Alpha「牛来」 身�
   \ \n 盖茨在文章中还提到，他将在华盛顿与国会议员就 AI 技术展开讨论：「在失业率急剧上升、社区遭受重创、公众信任被侵蚀之前，你们现在还有机会采取行动。」（来源：cnBeta）"
 first_seen: '2026-08-27T00:27:05Z'
 last_seen: '2026-08-29T03:43:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -97,7 +100,7 @@ sightings:
   kind: news
 ---
 
-# Ox Alpha「牛来」 身份揭晓；黄仁勋：AI 已迈过商业化拐点；世界人形机器人运动会闭幕：天工 Ultra 百米跑出 8 秒 64｜极客早知道
+# GLM-5.3-Flash
 
 智谱正式发布并开源 GLM-5.3-Flash，Ox Alpha「牛来」 身份揭晓 
  8 月 26 日，智谱正式上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列的首个原生多模态模型，也正是上周以来匿名登顶 OpenRouter、被社区称为 "牛来" 的 Ox Alpha 的正式身份。 

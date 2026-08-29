@@ -263,3 +263,43 @@
   usage_reason: 公开代码仓库有 188 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 188 stars and 12 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-monocode-2026-08-29
+  project_slug: monocode
+  level: full
+  reviewed_at: '2026-08-29T12:37:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理图形界面操作的需求，痛点在于命令行门槛，交付是 GUI 工具，可确定。工作流结构推理。
+    evidence_ids:
+    - ev-50f5af848212553f
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 208 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-50f5af848212553f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或企业，但付费路径不明确。
+    evidence_ids:
+    - ev-50f5af848212553f
+  - gate: truth
+    status: supported
+    reason: 作为开源工具，交付确定性高，但依赖编码代理的稳定性。
+    evidence_ids:
+    - ev-50f5af848212553f
+  next_validation: 追踪 monocode 仓库的 issue 和 discussion，确认用户实际使用场景和替代的旧流程。
+  market: ''
+  job: 开发人员需要通过图形界面操作编码代理，以提高开发效率。
+  job_en: Developers need to operate coding agents through a GUI to improve development efficiency.
+  pain: 命令行操作编码代理对部分开发者不友好，缺乏可视化界面会增加使用门槛。
+  pain_en: Command-line operation of coding agents is not friendly for some developers; lack of a visual
+    interface increases the barrier to use.
+  current_alternative: 目前可能直接使用命令行或 IDE 插件，但公开材料未明确说明。
+  current_alternative_en: Currently may use command line directly or IDE plugins, but public materials
+    do not specify.
+  usage_reason: 公开仓库有 208 星，显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 208 stars, showing developer attention, but repeat use and
+    payment are not yet verified.

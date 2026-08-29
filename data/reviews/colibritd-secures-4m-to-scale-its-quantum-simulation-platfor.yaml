@@ -1,0 +1,80 @@
+- id: req-initial-colibritd-secures-4m-to-scale-its-quantum-simulation-platfor-2026-08-29
+  project_slug: colibritd-secures-4m-to-scale-its-quantum-simulation-platfor
+  level: initial
+  reviewed_at: '2026-08-29T03:43:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工程仿真计算慢的痛点，传统HPC资源有限，量子仿真有潜力加速，工作流结构判断。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资新闻，缺乏用户反馈或行业共识。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是工程企业，但付费路径不清晰。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  - gate: truth
+    status: insufficient
+    reason: 量子仿真技术尚在早期，交付确定性未验证。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  next_validation: 关注ColibriTD官网是否发布定价或客户案例，以及量子仿真性能基准测试。
+  market: ''
+  job: 工程师需要进行多物理场仿真以验证产品设计，传统仿真耗时且成本高。
+  job_en: Engineers need multiphysics simulation to validate product designs; traditional simulation is
+    time-consuming and costly.
+  pain: 传统仿真计算时间长，限制设计迭代速度。
+  pain_en: Traditional simulation takes long computation time, limiting design iteration speed.
+  current_alternative: 目前使用传统HPC集群或云仿真服务，但计算资源有限。
+  current_alternative_en: Currently use traditional HPC clusters or cloud simulation services, but computing
+    resources are limited.
+  usage_reason: 融资表明投资者看好量子仿真市场，但产品采用尚未公开。
+  usage_reason_en: Funding indicates investor confidence in quantum simulation market, but product adoption
+    not yet public.
+- id: req-full-colibritd-secures-4m-to-scale-its-quantum-simulation-platfor-2026-08-29
+  project_slug: colibritd-secures-4m-to-scale-its-quantum-simulation-platfor
+  level: full
+  reviewed_at: '2026-08-29T12:32:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工程仿真计算慢的痛点，传统HPC资源有限，量子仿真有潜力加速，工作流结构判断。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资新闻，缺乏用户反馈或行业共识。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是工程企业，但付费路径不清晰。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  - gate: truth
+    status: insufficient
+    reason: 量子仿真技术尚在早期，交付确定性未验证。
+    evidence_ids:
+    - ev-c8fc6fe53f90cef1
+  next_validation: 关注ColibriTD官网是否发布定价或客户案例，以及量子仿真性能基准测试。
+  market: ''
+  job: 工程师需要进行多物理场仿真以验证产品设计，传统仿真耗时且成本高。
+  job_en: Engineers need multiphysics simulation to validate product designs; traditional simulation is
+    time-consuming and costly.
+  pain: 传统仿真计算时间长，限制设计迭代速度。
+  pain_en: Traditional simulation takes long computation time, limiting design iteration speed.
+  current_alternative: 目前使用传统HPC集群或云仿真服务，但计算资源有限。
+  current_alternative_en: Currently use traditional HPC clusters or cloud simulation services, but computing
+    resources are limited.
+  usage_reason: 融资表明投资者看好量子仿真市场，但产品采用尚未公开。
+  usage_reason_en: Funding indicates investor confidence in quantum simulation market, but product adoption
+    not yet public.

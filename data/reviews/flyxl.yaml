@@ -1,0 +1,82 @@
+- id: req-initial-flyxl-2026-08-29
+  project_slug: flyxl
+  level: initial
+  reviewed_at: '2026-08-29T03:43:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨库查询需手动复制粘贴和临时报表重复劳动的痛点，替代 Navicat/DBeaver 的旧流程，交付可运行的工作流和看板，价值结构成立。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区 23 条评论显示初步关注，但缺乏用户评价或持续采用数据。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  - gate: model
+    status: insufficient
+    reason: 开源免费，商业模式未披露，付费方和路径不明确。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  - gate: truth
+    status: insufficient
+    reason: 产品由个人开发，尚未验证其工业级稳定性和广泛适用性。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  next_validation: 关注代码仓库的 star 增长和 issue 反馈，看是否有企业用户采用。
+  market: ''
+  job: 开发者在排查线上问题时需要跨表、跨库查询，并频繁向老板提供临时报表。
+  job_en: Developers need cross-table and cross-database queries when troubleshooting, and frequently
+    provide ad-hoc reports to managers.
+  pain: 跨库无法直接 JOIN，需手动复制粘贴字段，耗时且易错；临时报表重复劳动多。
+  pain_en: Cross-database JOIN is impossible, requiring manual copy-paste of fields, time-consuming and
+    error-prone; ad-hoc reports are repetitive.
+  current_alternative: 使用 Navicat 或 DBeaver 等客户端，但 Navicat 被禁用，DBeaver 体验不佳。
+  current_alternative_en: Using clients like Navicat or DBeaver, but Navicat is banned and DBeaver's experience
+    is subpar.
+  usage_reason: 开发者自述痛点真实，技术社区评论显示关注，但采用和付费尚未核验。
+  usage_reason_en: The developer's pain points are real, tech community comments show interest, but adoption
+    and payment are not verified.
+- id: req-full-flyxl-2026-08-29
+  project_slug: flyxl
+  level: full
+  reviewed_at: '2026-08-29T12:34:45Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨库查询需手动复制粘贴和临时报表重复劳动的痛点，替代 Navicat/DBeaver 的旧流程，交付可运行的工作流和看板，价值结构成立（工作流推理）。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  - gate: consensus
+    status: insufficient
+    reason: 技术社区 23 条评论显示初步关注，但缺乏用户评价或持续采用数据。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  - gate: model
+    status: insufficient
+    reason: 开源免费，商业模式未披露，付费方和路径不明确。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  - gate: truth
+    status: insufficient
+    reason: 产品由个人开发，尚未验证其工业级稳定性和广泛适用性。
+    evidence_ids:
+    - ev-d3d8b2cf711f8dea
+  next_validation: 关注代码仓库的 star 增长和 issue 反馈，看是否有企业用户采用。
+  market: ''
+  job: 开发者在排查线上问题时需要跨表、跨库查询，并频繁向老板提供临时报表。
+  job_en: Developers need cross-table and cross-database queries when troubleshooting, and frequently
+    provide ad-hoc reports to managers.
+  pain: 跨库无法直接 JOIN，需手动复制粘贴字段，耗时且易错；临时报表重复劳动多。
+  pain_en: Cross-database JOIN is impossible, requiring manual copy-paste of fields, time-consuming and
+    error-prone; ad-hoc reports are repetitive.
+  current_alternative: 使用 Navicat 或 DBeaver 等客户端，但 Navicat 被禁用，DBeaver 体验不佳。
+  current_alternative_en: Using clients like Navicat or DBeaver, but Navicat is banned and DBeaver's experience
+    is subpar.
+  usage_reason: 开发者自述痛点真实，技术社区评论显示关注，但采用和付费尚未核验。
+  usage_reason_en: The developer's pain points are real, tech community comments show interest, but adoption
+    and payment are not verified.

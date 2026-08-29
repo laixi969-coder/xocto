@@ -2,19 +2,32 @@
 slug: gemini
 name: Gemini
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: Gemini 是 Google 的 AI 助手，提供写作、规划、头脑风暴等生成式 AI 功能。近期推出面向律师的专用工具和 Gemini Enterprise，并已被 Verizon
+  用于处理大部分来电。
+inspiration: 趋势是通用助手向垂直行业渗透，如法律和客服。切入点是针对特定行业提供定制化工具，如法律文档审查和客服自动化，而非与通用助手正面竞争。
+summary_en: Gemini is Google's AI assistant offering writing, planning, brainstorming, and other generative
+  AI features. Recently launched specialized tools for lawyers and Gemini Enterprise, and is used by Verizon
+  to handle most inbound calls.
+inspiration_en: The trend is general assistants penetrating vertical industries like law and customer
+  service. The entry point is providing customized tools for specific industries, such as legal document
+  review and customer service automation, rather than competing head-on with general assistants.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 通用
+industries_en:
+- General
+jobs:
+- 消费者
+- 企业员工
+jobs_en:
+- Consumers
+- Enterprise Employees
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://www.aicpb.com/product/Gemini/webid1D6F37519
 canonical_url: https://aicpb.com/product/Gemini/webid1D6F37519
@@ -22,7 +35,7 @@ summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, 
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

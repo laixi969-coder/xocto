@@ -1,0 +1,77 @@
+- id: req-initial-ai-restaurant-tech-startup-owner-lands-240-million-2026-08-29
+  project_slug: ai-restaurant-tech-startup-owner-lands-240-million
+  level: initial
+  reviewed_at: '2026-08-29T03:43:33Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提到融资，未说明具体解决什么需求、什么痛点，无法判断价值结构。
+    evidence_ids:
+    - ev-e0fe21a9a0bb8598
+  - gate: consensus
+    status: insufficient
+    reason: 没有用户、采用或关注数据，无法判断共识。
+    evidence_ids:
+    - ev-e0fe21a9a0bb8598
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或定价，无法判断付费路径。
+    evidence_ids:
+    - ev-e0fe21a9a0bb8598
+  - gate: truth
+    status: insufficient
+    reason: 未披露产品实际交付或效果，无法判断真实性。
+    evidence_ids:
+    - ev-e0fe21a9a0bb8598
+  next_validation: 关注该公司官网或融资报道，获取产品功能、定价和客户案例。
+  market: ''
+  job: 餐厅经营者需要管理点单、库存、排班等日常运营，以减少浪费、控制成本。
+  job_en: Restaurant operators need to manage daily operations like ordering, inventory, and scheduling
+    to reduce waste and control costs.
+  pain: 人工处理这些环节耗时且易出错，导致食材浪费、人力成本高。
+  pain_en: Manual handling is time-consuming and error-prone, leading to food waste and high labor costs.
+  current_alternative: 目前多数餐厅仍用传统 POS 系统、Excel 或人工排班，缺乏智能化。
+  current_alternative_en: Most restaurants still use traditional POS systems, Excel, or manual scheduling,
+    lacking intelligence.
+  usage_reason: 融资额高说明资本关注，但产品细节未披露，实际采用情况尚未核验。
+  usage_reason_en: High funding indicates capital interest, but product details are undisclosed and actual
+    adoption is unverified.
+- id: req-full-ai-restaurant-tech-startup-owner-lands-240-million-2026-08-29
+  project_slug: ai-restaurant-tech-startup-owner-lands-240-million
+  level: full
+  reviewed_at: '2026-08-29T12:30:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提到融资，未说明具体解决什么需求、什么痛点，无法判断价值结构。
+    evidence_ids:
+    - ev-e0fe21a9a0bb8598
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注该公司官网或融资报道，获取产品功能、定价和客户案例。
+  market: ''
+  job: 餐厅经营者需要管理点单、库存、排班等日常运营，以减少浪费、控制成本。
+  job_en: Restaurant operators need to manage daily operations like ordering, inventory, and scheduling
+    to reduce waste and control costs.
+  pain: 人工处理这些环节耗时且易出错，导致食材浪费、人力成本高。
+  pain_en: Manual handling is time-consuming and error-prone, leading to food waste and high labor costs.
+  current_alternative: 目前多数餐厅仍用传统 POS 系统、Excel 或人工排班，缺乏智能化。
+  current_alternative_en: Most restaurants still use traditional POS systems, Excel, or manual scheduling,
+    lacking intelligence.
+  usage_reason: 融资额高说明资本关注，但产品细节未披露，实际采用情况尚未核验。
+  usage_reason_en: High funding indicates capital interest, but product details are undisclosed and actual
+    adoption is unverified.

@@ -1,11 +1,13 @@
 ---
 slug: usdai-secures-100-million-credit-facility-from-bullish-to-po
-name: USD.AI Secures $100 Million Credit Facility From Bullish to Power AI Buildout
+name: USD.AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: USD.AI 是一家获得 1 亿美元信贷额度的公司，资金将用于其 AI 建设。报道未提供产品细节、目标用户或具体应用场景，仅表明这是一笔融资事件。
 inspiration: ''
-summary_en: ''
+summary_en: USD.AI is a company that secured a $100 million credit facility to power its AI buildout.
+  The report does not provide product details, target users, or specific application scenarios, only indicating
+  this is a financing event.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSDJ0N3ZsdGVn
 summary: USD.AI Secures $100 Million Credit Facility From Bullish to Power AI Buildout PYMNTS.com
 first_seen: '2026-08-28T18:25:25Z'
 last_seen: '2026-08-29T03:43:33Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# USD.AI Secures $100 Million Credit Facility From Bullish to Power AI Buildout
+# USD.AI
 
 USD.AI Secures $100 Million Credit Facility From Bullish to Power AI Buildout PYMNTS.com
 
