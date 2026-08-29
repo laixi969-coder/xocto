@@ -14,6 +14,7 @@ from xocto.brief import (
     _interpretation_prompt,
     _interpretations,
     _model_providers,
+    _neutralize_model_public_copy,
     _neutralize_public_source_names,
     _prompt,
     _public_source_leaks,
@@ -616,6 +617,88 @@ class BriefTests(unittest.TestCase):
         self.assertEqual(zh, "项目在 公开代码仓库 发布，随后被 公开资料 报道。")
         self.assertEqual(en, "Released on public code repository and covered by public reporting.")
         self.assertEqual(_public_source_leaks([zh, en]), ())
+
+    def test_structured_source_fallback_cleans_only_public_copy(self) -> None:
+        result = {
+            "products": [{
+                "slug": "example",
+                "name": "Example",
+                "url": "https://github.com/example/repo",
+                "summary_zh": "项目在 GitHub 发布",
+                "summary_en": "The model is hosted on Hugging Face.",
+                "req_initial": {
+                    "next_validation": "核验 GitHub 之外的采用证据",
+                    "gates": [{"reason": "目前只有 GitHub 数据"}],
+                    "demand_read": {"job_en": "Teams discover it through TechCrunch."},
+                },
+            }]
+        }
+
+        cleaned = _neutralize_model_public_copy(result)
+
+        self.assertIn("GitHub", result["products"][0]["summary_zh"])
+        self.assertEqual(cleaned["products"][0]["url"], "https://github.com/example/repo")
+        self.assertNotIn("GitHub", cleaned["products"][0]["summary_zh"])
+        self.assertNotIn("Hugging Face", cleaned["products"][0]["summary_en"])
+        self.assertNotIn(
+            "TechCrunch",
+            cleaned["products"][0]["req_initial"]["demand_read"]["job_en"],
+        )
+
+    def test_failed_run_resumes_from_the_first_unfinished_batch(self) -> None:
+        def market_context(slug: str) -> dict:
+            return {
+                "products": [{
+                    "slug": slug,
+                    "name": slug.title(),
+                    "decision": "market_context",
+                    "summary_zh": f"{slug} 改变了企业采购与交付方式。",
+                    "summary_en": f"{slug.title()} changes enterprise buying and delivery patterns.",
+                }]
+            }
+
+        report = {
+            "report": {
+                "hook_zh": "企业采购正在转向可持续交付",
+                "highlights_zh": ["两个市场变化已完成判断"],
+                "body_zh": "## 本期判断\n\n采购与交付方式正在变化。",
+                "hook_en": "Enterprise buying is shifting toward durable delivery",
+                "highlights_en": ["Two market shifts completed assessment"],
+                "body_en": "## Edition call\n\nBuying and delivery patterns are changing.",
+            }
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            store.config_dir.mkdir(parents=True, exist_ok=True)
+            (store.config_dir / "filter.md").write_text("筛选规则", encoding="utf-8")
+            (store.config_dir / "template.md").write_text("编辑模板", encoding="utf-8")
+            (store.config_dir / "req.md").write_text("REQ 公开证据模式", encoding="utf-8")
+            store.save_product(product("alpha"))
+            store.save_product(product("beta"))
+
+            with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
+                "xocto.brief._request",
+                side_effect=[market_context("alpha"), BriefError("second batch failed")],
+            ):
+                with self.assertRaises(BriefError):
+                    run(store, day=DAY)
+
+            progress = store.read_brief_progress(DAY)
+            self.assertEqual(set(progress["full"]), {"alpha"})
+            self.assertEqual(store.load_product("alpha").status, STATUS_PENDING_FILTER)
+
+            with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
+                "xocto.brief._request",
+                side_effect=[market_context("beta"), report],
+            ) as request:
+                result = run(store, day=DAY)
+
+            self.assertEqual(request.call_count, 2)
+            self.assertEqual(result.updated, 2)
+            self.assertEqual(store.load_product("alpha").status, STATUS_MARKET_CONTEXT)
+            self.assertEqual(store.load_product("beta").status, STATUS_MARKET_CONTEXT)
+            self.assertFalse(store.brief_progress_path(DAY).exists())
 
 
 if __name__ == "__main__":

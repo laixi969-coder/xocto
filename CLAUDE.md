@@ -35,6 +35,7 @@ data/
   analysis/en/<slug>.md   同一份分析的英文版
   reports/YYYY-MM-DD.md   每日中文简报
   reports/en/YYYY-MM-DD.md 每日英文简报
+  brief-progress/YYYY-MM-DD.yaml 未完成日报的批次断点；成功发布后自动删除
 ```
 
 ## 两个语种

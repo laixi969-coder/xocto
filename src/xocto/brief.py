@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from copy import deepcopy
 from dataclasses import dataclass, replace
 from datetime import date
 from typing import Any
@@ -882,6 +883,67 @@ def _neutralize_public_source_names(text: str, *, english: bool) -> str:
     return output
 
 
+def _neutralize_model_public_copy(result: dict[str, Any]) -> dict[str, Any]:
+    """Clean only reader-facing fields in a structured model result.
+
+    URLs, evidence IDs, entity names and control fields remain untouched. This
+    deterministic fallback runs only after model repair attempts are exhausted.
+    """
+    cleaned = deepcopy(result)
+    rows = cleaned.get("products")
+    if not isinstance(rows, list):
+        return cleaned
+    zh_fields = ("summary_zh", "inspiration", "event_summary_zh")
+    en_fields = ("summary_en", "inspiration_en", "event_summary_en")
+    zh_lists = ("industries", "jobs", "regions")
+    en_lists = ("industries_en", "jobs_en", "regions_en")
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        for field in zh_fields:
+            if isinstance(row.get(field), str):
+                row[field] = _neutralize_public_source_names(row[field], english=False)
+        for field in en_fields:
+            if isinstance(row.get(field), str):
+                row[field] = _neutralize_public_source_names(row[field], english=True)
+        for field in zh_lists:
+            if isinstance(row.get(field), list):
+                row[field] = [
+                    _neutralize_public_source_names(value, english=False)
+                    if isinstance(value, str) else value
+                    for value in row[field]
+                ]
+        for field in en_lists:
+            if isinstance(row.get(field), list):
+                row[field] = [
+                    _neutralize_public_source_names(value, english=True)
+                    if isinstance(value, str) else value
+                    for value in row[field]
+                ]
+        review = row.get("req_initial")
+        if not isinstance(review, dict):
+            continue
+        if isinstance(review.get("next_validation"), str):
+            review["next_validation"] = _neutralize_public_source_names(
+                review["next_validation"], english=False
+            )
+        gates = review.get("gates")
+        if isinstance(gates, list):
+            for gate in gates:
+                if isinstance(gate, dict) and isinstance(gate.get("reason"), str):
+                    gate["reason"] = _neutralize_public_source_names(
+                        gate["reason"], english=False
+                    )
+        demand = review.get("demand_read")
+        if isinstance(demand, dict):
+            for field, value in tuple(demand.items()):
+                if isinstance(value, str):
+                    demand[field] = _neutralize_public_source_names(
+                        value, english=field.endswith("_en")
+                    )
+    return cleaned
+
+
 def _require_no_public_source_leaks(
     updates: dict[str, Product],
     zh_report: str,
@@ -896,6 +958,11 @@ def _require_no_public_source_leaks(
     for review in (reviews or {}).values():
         texts.append(review.next_validation)
         texts.extend(gate.reason for gate in review.gates)
+        texts.extend((
+            review.job, review.job_en, review.pain, review.pain_en,
+            review.current_alternative, review.current_alternative_en,
+            review.usage_reason, review.usage_reason_en,
+        ))
     for summary_zh, summary_en in (event_summaries or {}).values():
         texts.extend((summary_zh, summary_en))
     leaks = _public_source_leaks(texts)
@@ -982,14 +1049,35 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     previous_en_path = store.reports_dir / "en" / f"{day.isoformat()}.md"
     previous_en = previous_en_path.read_text(encoding="utf-8") if previous_en_path.exists() else ""
     # 报道先过轻量对象解释：市场背景和无效信号在这里终止，只有稳定实体
-    # 才进入完整 `/req`。这样扩大媒体覆盖不会线性放大昂贵判断请求。
+    # 才进入完整 `/req`。每个合法批次先写断点；若后续失败，下一次运行只
+    # 请求未完成的批次，正式产品与日报仍等全部完成后再一起发布。
     updates: dict[str, Product] = {}
     reviews: dict[str, ReqReview] = {}
     event_summaries: dict[str, tuple[str, str]] = {}
+    progress = store.read_brief_progress(day)
     observation_products = [product for product in products if _observation_only(product)]
     full_products = [product for product in products if not _observation_only(product)]
-    for start in range(0, len(observation_products), INTERPRETATION_BATCH_SIZE):
-        batch = observation_products[start:start + INTERPRETATION_BATCH_SIZE]
+
+    cached_observation = [
+        product for product in observation_products
+        if product.slug in progress["interpretation"]
+    ]
+    if cached_observation:
+        cached_result = _neutralize_model_public_copy({
+            "products": [progress["interpretation"][product.slug] for product in cached_observation]
+        })
+        interpreted, entities, interpreted_events = _interpretations(cached_result, cached_observation)
+        _require_no_public_source_leaks(interpreted, "", "", event_summaries=interpreted_events)
+        updates.update(interpreted)
+        event_summaries.update(interpreted_events)
+        full_products.extend(entities)
+
+    pending_observation = [
+        product for product in observation_products
+        if product.slug not in progress["interpretation"]
+    ]
+    for start in range(0, len(pending_observation), INTERPRETATION_BATCH_SIZE):
+        batch = pending_observation[start:start + INTERPRETATION_BATCH_SIZE]
         messages = _interpretation_prompt(store, batch)
         result = _request(messages)
         for attempt in range(MAX_BATCH_REPAIRS + 1):
@@ -1008,22 +1096,38 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                 break
             except PublicSourceLeakError as exc:
                 if attempt >= MAX_BATCH_REPAIRS:
-                    raise
+                    result = _neutralize_model_public_copy(result)
+                    interpreted, entities, interpreted_events = _interpretations(result, batch)
+                    _require_no_public_source_leaks(
+                        interpreted, "", "", event_summaries=interpreted_events
+                    )
+                    break
                 result = _request(_source_leak_repair_messages(messages, result, exc.names))
                 interpreted, entities, interpreted_events = _interpretations(result, batch)
+        store.save_brief_batch(day, "interpretation", result)
         updates.update(interpreted)
         event_summaries.update(interpreted_events)
         full_products.extend(entities)
 
-    # 完整双语说明、灵感和四道真需求闸门输出很长，仍以小批次逐一编辑；
-    # 不能用固定总候选数换取一次看似成功、实际漏项的日报。
-    for start in range(0, len(full_products), BRIEF_BATCH_SIZE):
-        batch = full_products[start:start + BRIEF_BATCH_SIZE]
+    # 完整双语说明、灵感和四道真需求闸门输出很长，仍以小批次逐一编辑。
+    cached_full = [product for product in full_products if product.slug in progress["full"]]
+    if cached_full:
+        cached_result = _neutralize_model_public_copy({
+            "products": [progress["full"][product.slug] for product in cached_full]
+        })
+        cached_updates = _updates(cached_result, cached_full)
+        cached_reviews = _req_reviews(cached_result, cached_full, store, day=day)
+        cached_events = _event_summaries(cached_result, cached_full)
+        _require_no_public_source_leaks(cached_updates, "", "", cached_reviews, cached_events)
+        updates.update(cached_updates)
+        reviews.update(cached_reviews)
+        event_summaries.update(cached_events)
+
+    pending_full = [product for product in full_products if product.slug not in progress["full"]]
+    for start in range(0, len(pending_full), BRIEF_BATCH_SIZE):
+        batch = pending_full[start:start + BRIEF_BATCH_SIZE]
         messages = _prompt(store, day, batch, [], previous_zh="", previous_en="")
         result = _request(messages)
-        # 模型一次输出里偶发一条过短理由、遗漏字段等格式瑕疵，不能让它
-        # 抹掉当天所有已完成的判断。保留事实和枚举校验，给完整 JSON 两次
-        # 定向修复机会；只有仍无法得到可验证结构时才使任务失败。
         for attempt in range(MAX_BATCH_REPAIRS + 1):
             try:
                 batch_updates = _updates(result, batch)
@@ -1042,11 +1146,19 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                 break
             except PublicSourceLeakError as exc:
                 if attempt >= MAX_BATCH_REPAIRS:
-                    raise
+                    result = _neutralize_model_public_copy(result)
+                    batch_updates = _updates(result, batch)
+                    batch_reviews = _req_reviews(result, batch, store, day=day)
+                    batch_event_summaries = _event_summaries(result, batch)
+                    _require_no_public_source_leaks(
+                        batch_updates, "", "", batch_reviews, batch_event_summaries
+                    )
+                    break
                 result = _request(_source_leak_repair_messages(messages, result, exc.names))
                 batch_updates = _updates(result, batch)
                 batch_reviews = _req_reviews(result, batch, store, day=day)
                 batch_event_summaries = _event_summaries(result, batch)
+        store.save_brief_batch(day, "full", result)
         updates.update(batch_updates)
         reviews.update(batch_reviews)
         event_summaries.update(batch_event_summaries)
@@ -1095,4 +1207,5 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         store.update_latest_event_summary(slug, day, summary, summary_en)
     store.save_report(zh_report, day)
     store.save_report(en_report, day, locale="en")
+    store.clear_brief_progress(day)
     return BriefReport(day=day, candidates=len(products), updated=len(updates))

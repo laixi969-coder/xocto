@@ -233,7 +233,12 @@ jobs:
             echo "日报没有新变化，跳过提交"
             exit 0
           fi
-          git commit -m "chore: 每日判断 $(TZ=Asia/Shanghai date +%Y-%m-%d)"
+          if [ "${{ steps.brief.outcome }}" = "success" ]; then
+            commit_label="每日判断"
+          else
+            commit_label="每日降级构建"
+          fi
+          git commit -m "chore: $commit_label $(TZ=Asia/Shanghai date +%Y-%m-%d)"
           if ! git push origin HEAD:main; then
             git pull --rebase origin main
             git push origin HEAD:main

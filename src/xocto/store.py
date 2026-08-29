@@ -8,6 +8,7 @@
     data/pool/<slug>.md         产品档案，frontmatter 存结构化数据，正文留给人写
     data/analysis/<slug>.md     分析结果
     data/reports/YYYY-MM-DD.md  每日简报
+    data/brief-progress/*.yaml  未完成日报的批次断点，成功后删除
 """
 
 from __future__ import annotations
@@ -18,7 +19,7 @@ import re
 import tempfile
 from datetime import date
 from pathlib import Path
-from typing import Iterable, Iterator
+from typing import Any, Iterable, Iterator
 
 import yaml
 
@@ -63,12 +64,14 @@ class Store:
         self.evidence_dir = self.data_dir / "evidence"
         self.markets_dir = self.data_dir / "markets"
         self.reviews_dir = self.data_dir / "reviews"
+        self.brief_progress_dir = self.data_dir / "brief-progress"
         self.config_dir = self.root / "config"
 
     def ensure_dirs(self) -> None:
         for d in (
             self.raw_dir, self.pool_dir, self.analysis_dir, self.reports_dir,
             self.events_dir, self.evidence_dir, self.markets_dir, self.reviews_dir,
+            self.brief_progress_dir,
         ):
             d.mkdir(parents=True, exist_ok=True)
 
@@ -433,6 +436,49 @@ class Store:
         _atomic_write(path, body)
 
     # ---------- 简报 ----------
+
+    def brief_progress_path(self, day: date) -> Path:
+        return self.brief_progress_dir / f"{day.isoformat()}.yaml"
+
+    def read_brief_progress(self, day: date) -> dict[str, dict[str, dict[str, Any]]]:
+        """读取日报批次断点；损坏的断点按空处理，不能污染正式数据。"""
+        path = self.brief_progress_path(day)
+        if not path.exists():
+            return {"interpretation": {}, "full": {}}
+        try:
+            raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+        except (OSError, yaml.YAMLError) as exc:
+            print(f"  ! 读不了日报断点 {path.name}：{exc}")
+            return {"interpretation": {}, "full": {}}
+        result: dict[str, dict[str, dict[str, Any]]] = {"interpretation": {}, "full": {}}
+        for kind in result:
+            rows = raw.get(kind) if isinstance(raw, dict) else None
+            if not isinstance(rows, dict):
+                continue
+            result[kind] = {
+                str(slug): row for slug, row in rows.items()
+                if isinstance(row, dict)
+            }
+        return result
+
+    def save_brief_batch(self, day: date, kind: str, result: dict[str, Any]) -> None:
+        """原子保存一个已通过校验的模型批次，供失败后的下一次运行续接。"""
+        if kind not in {"interpretation", "full"}:
+            raise ValueError(f"未知日报断点类型：{kind}")
+        rows = result.get("products")
+        if not isinstance(rows, list):
+            raise ValueError("日报断点缺少 products 列表")
+        progress = self.read_brief_progress(day)
+        for row in rows:
+            if not isinstance(row, dict) or not str(row.get("slug") or "").strip():
+                raise ValueError("日报断点包含无效产品结果")
+            progress[kind][str(row["slug"])] = row
+        body = yaml.safe_dump(progress, allow_unicode=True, sort_keys=False, width=100)
+        _atomic_write(self.brief_progress_path(day), body)
+
+    def clear_brief_progress(self, day: date) -> None:
+        """正式双语日报完成后删除临时断点。"""
+        self.brief_progress_path(day).unlink(missing_ok=True)
 
     def report_path(self, day: date | None = None) -> Path:
         day = day or today()

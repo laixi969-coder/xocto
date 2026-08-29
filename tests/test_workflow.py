@@ -44,6 +44,8 @@ class DailyWorkflowTests(unittest.TestCase):
         )
         self.assertIn("steps.design.outcome", text)
         self.assertIn("if: ${{ always() }}", text)
+        self.assertIn('commit_label="每日降级构建"', text)
+        self.assertIn('steps.brief.outcome', text)
 
 
 if __name__ == "__main__":
