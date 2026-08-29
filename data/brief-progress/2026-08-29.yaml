@@ -2980,3 +2980,2789 @@ full:
         evidence_ids:
         - ev-264420b836847d0a
       next_validation: 关注 OpenAI 教育产品的定价和更多学区采用案例，以及研究论文的详细数据。
+  claude-ad:
+    slug: claude-ad
+    name: Claude-AD
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 网络安全
+    industries_en:
+    - Cybersecurity
+    jobs:
+    - 红队工程师
+    - 渗透测试员
+    jobs_en:
+    - Red team engineer
+    - Penetration tester
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 红队工程师在内部 Active Directory 渗透测试中，将 Claude Code 作为执行引擎，通过技能、代理和斜杠命令驱动 netexec、impacket 等工具，自动执行
+      Kerberoasting、ADCS 攻击等手法，并附带 OPSEC 和遥测提示。交付的是可复用的攻击流程和操作指引，但具体输出形式仍待核验。
+    inspiration: 趋势是 AI 从辅助写代码进入安全攻防的具体操作层，把专家手法编码成可执行流程。切入可从特定攻击链（如 ADCS 证书攻击）的自动化检测与防御验证开始，按每次渗透测试或安全评估收费，而非卖通用工具。
+    summary_en: Red team engineers use Claude Code as an execution engine during internal Active Directory
+      penetration tests, driving tools like netexec and impacket through skills, agents, and slash commands
+      to automate techniques such as Kerberoasting and ADCS attacks, with OPSEC and telemetry notes. The
+      deliverable is a reusable attack workflow and operational guidance, though the exact output format
+      remains to be verified.
+    inspiration_en: The trend is AI moving from code assistance into specific security operations, encoding
+      expert techniques into executable workflows. Entry could focus on automating detection and defense
+      validation for specific attack chains like ADCS certificate attacks, charging per penetration test
+      or security assessment rather than selling a generic tool.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 红队工程师在内部网络渗透测试中，需要高效执行 Active Directory 攻击手法并规避检测。
+        job_en: Red team engineers need to efficiently execute Active Directory attack techniques and
+          evade detection during internal penetration tests.
+        pain_zh: 手动执行这些攻击步骤耗时且容易出错，且需要深厚的专业知识。
+        pain_en: Manual execution of these attack steps is time-consuming, error-prone, and requires deep
+          expertise.
+        current_alternative_zh: 目前主要依赖手动操作或编写自定义脚本，缺乏系统化的流程。
+        current_alternative_en: Currently relies on manual operations or custom scripts, lacking a systematic
+          workflow.
+        usage_reason_zh: 开源项目获得 137 星，说明安全社区对 AI 辅助渗透测试有初步兴趣，但尚未核验实际采用和付费情况。
+        usage_reason_en: The open-source project has 137 stars, indicating initial interest from the security
+          community in AI-assisted penetration testing, but actual adoption and payment are not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决红队工程师在 AD 渗透测试中手动执行攻击步骤耗时且易错的问题，通过 AI 驱动现有工具自动化流程，交付可复用的攻击方法。工作流结构判断：旧流程是手动或脚本化，AI
+          能显著降低门槛。
+        evidence_ids:
+        - ev-60a4341681d7d7f2
+      - gate: consensus
+        status: insufficient
+        reason: 开源社区 137 星显示关注，但缺乏用户评价、采用案例或讨论，无法确认是否被实际使用。
+        evidence_ids:
+        - ev-b758473b11682d31
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能面向安全服务公司或内部红队，但付费方和定价未公开。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 项目贴近渗透测试的第一性目标，交付的攻击流程可验证，但安全边界和误用风险需关注。
+        evidence_ids:
+        - ev-60a4341681d7d7f2
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有安全公司采用或付费的公开案例。
+  claude-tag-wif-gateway-sample:
+    slug: claude-tag-wif-gateway-sample
+    name: claude-tag-wif-gateway-sample
+    decision: queued
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software development
+    jobs:
+    - 身份认证工程师
+    - 平台工程师
+    jobs_en:
+    - Identity engineer
+    - Platform engineer
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 这是 Anthropic 发布的示例代码，用于实现 Claude Tag 身份联合的客户侧网关。开发者可参考此代码在客户环境中部署身份联合网关，但项目明确标注为示例且不维护。具体功能和交付仍待核验。
+    inspiration: 趋势是 AI 平台的身份联合成为企业采用的前提。切入可从企业身份认证集成服务开始，帮助客户部署和管理 Claude Tag 网关，按部署或维护收费。
+    summary_en: This is sample code from Anthropic for implementing a customer-side gateway for Claude
+      Tag identity federation. Developers can reference this code to deploy an identity federation gateway
+      in their environment, but the project is explicitly marked as sample code and not maintained. Specific
+      functionality and deliverables remain to be verified.
+    inspiration_en: The trend is identity federation becoming a prerequisite for enterprise adoption of
+      AI platforms. Entry could start with identity integration services, helping customers deploy and
+      manage Claude Tag gateways, charging for deployment or maintenance.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 企业平台工程师需要将 Claude Tag 与现有身份系统集成，实现单点登录和身份联合。
+        job_en: Enterprise platform engineers need to integrate Claude Tag with existing identity systems
+          for single sign-on and identity federation.
+        pain_zh: 身份联合配置复杂，缺乏官方参考实现，集成成本高。
+        pain_en: Identity federation configuration is complex, lacking official reference implementations,
+          leading to high integration costs.
+        current_alternative_zh: 目前可能依赖手动配置或第三方身份提供商，缺乏官方示例。
+        current_alternative_en: Currently relies on manual configuration or third-party identity providers,
+          lacking official examples.
+        usage_reason_zh: 作为 Anthropic 官方发布的示例，显示平台对身份联合的重视，但尚未核验实际采用。
+        usage_reason_en: As an official Anthropic release, it shows the platform's emphasis on identity
+          federation, but actual adoption is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决企业集成 Claude Tag 身份联合的配置复杂问题，通过官方示例降低集成门槛。工作流结构判断：旧流程是手动配置或第三方方案，此示例提供参考实现。
+        evidence_ids:
+        - ev-38950856907418d0
+      - gate: consensus
+        status: insufficient
+        reason: 作为官方示例，缺乏用户评价或采用案例，无法确认实际使用情况。
+        evidence_ids:
+        - ev-38950856907418d0
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，作为示例代码免费提供，但企业集成服务可能成为付费点。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 项目贴近身份集成的第一性目标，交付的示例可验证，但明确不维护，需关注长期支持。
+        evidence_ids:
+        - ev-38950856907418d0
+      next_validation: 关注 Anthropic 官方文档和客户案例，以及是否有企业采用该示例的公开信息。
+  code-as-world:
+    slug: code-as-world
+    name: Code-as-World
+    decision: queued
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 人工智能研究
+    industries_en:
+    - AI research
+    jobs:
+    - AI 研究员
+    jobs_en:
+    - AI researcher
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 这是一个研究项目，通过智能体自动发现可执行的“世界表示”，用于物理推理。它接收物理场景描述，生成可执行的代码表示，以支持 AI 的物理理解。具体应用场景和交付物仍待核验。
+    inspiration: 趋势是 AI 从语言理解走向物理世界建模。切入可从机器人控制或自动驾驶仿真中的物理推理环节开始，但当前阶段更偏研究，商业化路径不明。
+    summary_en: This is a research project that uses agents to automatically discover executable 'world
+      representations' for physical reasoning. It takes physical scene descriptions and generates executable
+      code representations to support AI's physical understanding. Specific application scenarios and
+      deliverables remain to be verified.
+    inspiration_en: The trend is AI moving from language understanding to physical world modeling. Entry
+      could start from physical reasoning in robot control or autonomous driving simulation, but the current
+      stage is more research-oriented with unclear commercialization path.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: AI 研究员需要让模型具备物理世界推理能力，通过生成可执行代码表示来模拟物理场景。
+        job_en: AI researchers need to equip models with physical world reasoning by generating executable
+          code representations to simulate physical scenes.
+        pain_zh: 现有模型缺乏对物理世界的深层理解，难以处理复杂物理推理任务。
+        pain_en: Current models lack deep understanding of the physical world, making it difficult to
+          handle complex physical reasoning tasks.
+        current_alternative_zh: 目前主要依赖手工设计的物理引擎或大规模数据训练，缺乏自动发现世界表示的方法。
+        current_alternative_en: Currently relies on manually designed physics engines or large-scale data
+          training, lacking methods for automatic discovery of world representations.
+        usage_reason_zh: 开源社区 140 星显示研究社区关注，但尚未核验实际应用或采用。
+        usage_reason_en: 140 stars in the open-source community show interest from the research community,
+          but actual application or adoption is not yet verified.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 项目试图解决物理推理问题，但具体用户任务和痛点不明确，缺乏清晰的应用场景。
+        evidence_ids:
+        - ev-2b70cbd4f7b50c39
+      - gate: consensus
+        status: insufficient
+        reason: 仅有开源社区星数，缺乏社区讨论或实际使用证据。
+        evidence_ids:
+        - ev-2b70cbd4f7b50c39
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注项目是否发布论文或演示，以及是否有实际应用案例。
+  codex-with-chatgpt:
+    slug: codex-with-chatgpt
+    name: codex-with-chatgpt
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software development
+    jobs:
+    - 软件工程师
+    jobs_en:
+    - Software engineer
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 开发者将 ChatGPT 作为规划大脑，Codex 作为执行引擎，在编码任务中先由 ChatGPT 制定计划，再由 Codex 执行代码生成。交付的是更可控的 AI 辅助编码流程，但具体集成方式仍待核验。
+    inspiration: 趋势是 AI 编码从单一模型走向分工协作。切入可从特定开发环节（如代码审查、重构）提供规划与执行分离的工作流，但需注意与现有 IDE 集成的竞争。
+    summary_en: Developers use ChatGPT as the planning brain and Codex as the execution engine, where
+      ChatGPT creates a plan and Codex generates code. The deliverable is a more controllable AI-assisted
+      coding workflow, but the specific integration method remains to be verified.
+    inspiration_en: The trend is AI coding moving from single models to division of labor. Entry could
+      focus on specific development stages like code review or refactoring, providing a workflow that
+      separates planning and execution, but competition with existing IDE integrations should be considered.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 软件工程师在使用 AI 编码工具时，需要更好的规划和控制，以避免代码质量问题和返工。
+        job_en: Software engineers using AI coding tools need better planning and control to avoid code
+          quality issues and rework.
+        pain_zh: 单一 AI 模型直接生成代码往往缺乏全局规划，导致错误和返工。
+        pain_en: A single AI model generating code directly often lacks global planning, leading to errors
+          and rework.
+        current_alternative_zh: 目前开发者可能手动规划或使用单一 AI 工具，缺乏系统化的规划-执行分离。
+        current_alternative_en: Developers may manually plan or use a single AI tool, lacking a systematic
+          separation of planning and execution.
+        usage_reason_zh: 开源社区 391 星显示开发者社区关注，但尚未核验实际采用和付费情况。
+        usage_reason_en: 391 stars in the open-source community show interest from the developer community,
+          but actual adoption and payment are not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决 AI 编码中缺乏规划导致的质量问题，通过 ChatGPT 规划、Codex 执行的分工，交付更可控的编码流程。工作流结构判断：旧流程是手动规划或单一 AI 生成，此方案提供更优的协作模式。
+        evidence_ids:
+        - ev-4c21f37db3a4718a
+      - gate: consensus
+        status: insufficient
+        reason: 开源社区星数显示关注，但缺乏用户评价或采用案例。
+        evidence_ids:
+        - ev-4c21f37db3a4718a
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能作为开源工具免费使用，但付费路径不明。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 项目贴近编码任务的第一性目标，交付的流程可验证，但依赖外部模型，存在稳定性风险。
+        evidence_ids:
+        - ev-4c21f37db3a4718a
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有开发者分享实际使用体验。
+  compute:
+    slug: compute
+    name: compute
+    decision: market_context
+    event_summary_zh: Anthropic 与 Nscale 达成 450 亿美元算力租赁协议，继续大规模获取计算资源。
+    event_summary_en: Anthropic struck a $45 billion deal with Nscale to rent compute capacity, continuing
+      its massive compute acquisition.
+    category: 基础层
+    project_type: new_application
+    industries:
+    - 云计算
+    industries_en:
+    - Cloud computing
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 这是 Anthropic 与 Nscale 的算力租赁协议，属于行业基础设施变化，不是独立产品。
+    inspiration: 算力军备竞赛加剧，但这不是创业方向，而是市场背景。
+    summary_en: This is a compute leasing agreement between Anthropic and Nscale, an industry infrastructure
+      change, not an independent product.
+    inspiration_en: The compute arms race intensifies, but this is not a startup direction; it is market
+      context.
+  conduct:
+    slug: conduct
+    name: Conduct
+    decision: queued
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software development
+    jobs:
+    - AI 工程师
+    - 安全工程师
+    jobs_en:
+    - AI engineer
+    - Security engineer
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 这是一个开源的安全防护层，用于 LLM 和 MCP 工具调用，在 AI 代理执行工具调用时进行安全检查和限制。交付的是更安全的 AI 代理行为，但具体规则和集成方式仍待核验。
+    inspiration: 趋势是 AI 代理安全成为刚需。切入可从企业 AI 代理的合规审计开始，提供可配置的安全策略，按企业规模收费。
+    summary_en: This is an open-source guardrails layer for LLM and MCP tool calls, providing security
+      checks and restrictions when AI agents execute tool calls. The deliverable is safer AI agent behavior,
+      but specific rules and integration methods remain to be verified.
+    inspiration_en: The trend is AI agent security becoming a necessity. Entry could start with compliance
+      auditing for enterprise AI agents, offering configurable security policies and charging by enterprise
+      size.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: AI 工程师在部署 AI 代理时，需要确保工具调用的安全性，防止恶意操作或数据泄露。
+        job_en: AI engineers need to ensure the security of tool calls when deploying AI agents, preventing
+          malicious operations or data leaks.
+        pain_zh: AI 代理可能执行危险操作，缺乏有效的安全防护机制。
+        pain_en: AI agents may execute dangerous operations, lacking effective security guardrails.
+        current_alternative_zh: 目前可能依赖人工审查或自定义安全策略，缺乏系统化的防护层。
+        current_alternative_en: Currently relies on manual review or custom security policies, lacking
+          a systematic guardrails layer.
+        usage_reason_zh: 技术社区讨论中获得 20 分和 3 条评论，显示社区关注，但尚未核验实际采用。
+        usage_reason_en: 20 points and 3 comments in technical community discussions show community interest,
+          but actual adoption is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决 AI 代理工具调用的安全问题，通过防护层限制危险操作，交付更安全的代理行为。工作流结构判断：旧流程是人工审查或缺失防护，此方案提供自动化防护。
+        evidence_ids:
+        - ev-fd8f1ae13aa5cf46
+      - gate: consensus
+        status: insufficient
+        reason: 技术社区讨论显示关注，但缺乏用户评价或采用案例。
+        evidence_ids:
+        - ev-fd8f1ae13aa5cf46
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能作为开源工具免费使用，但企业付费路径不明。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 项目贴近 AI 代理安全的第一性目标，交付的防护可验证，但需关注误报和性能影响。
+        evidence_ids:
+        - ev-fd8f1ae13aa5cf46
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。
+  consensus:
+    slug: consensus
+    name: Consensus
+    decision: queued
+    category: AI + 效率
+    project_type: new_application
+    industries:
+    - 学术研究
+    industries_en:
+    - Academic research
+    jobs:
+    - 研究人员
+    - 学生
+    jobs_en:
+    - Researcher
+    - Student
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Consensus 是一个 AI 搜索工具，帮助研究人员和学生从学术论文中快速找到答案。用户输入问题，AI 搜索并总结相关研究，提供带引用的结论。具体流程和交付仍待核验。
+    inspiration: 趋势是 AI 搜索从通用走向垂直学术领域。切入可从特定学科（如医学、经济学）提供深度文献综述服务，按订阅或按报告收费。
+    summary_en: Consensus is an AI search tool that helps researchers and students quickly find answers
+      from academic papers. Users input questions, and AI searches and summarizes relevant research, providing
+      cited conclusions. Specific workflow and deliverables remain to be verified.
+    inspiration_en: The trend is AI search moving from general to vertical academic domains. Entry could
+      focus on specific disciplines like medicine or economics, offering deep literature review services,
+      charging by subscription or per report.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 研究人员和学生需要快速从大量学术论文中找到相关证据和结论。
+        job_en: Researchers and students need to quickly find relevant evidence and conclusions from a
+          large volume of academic papers.
+        pain_zh: 手动搜索和阅读论文耗时费力，且容易遗漏关键信息。
+        pain_en: Manual search and reading of papers is time-consuming and prone to missing key information.
+        current_alternative_zh: 目前主要依赖 Google Scholar 或 PubMed 等传统搜索，缺乏 AI 总结。
+        current_alternative_en: Currently relies on traditional search like Google Scholar or PubMed,
+          lacking AI summarization.
+        usage_reason_zh: AI 产品增长榜显示月访问量 516 万，环比下降 12.37%，说明已有规模但近期下滑，需关注原因。
+        usage_reason_en: AI product growth charts show 5.16 million monthly visits, down 12.37% month-over-month,
+          indicating existing scale but recent decline, requiring attention.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决学术搜索中信息过载的问题，通过 AI 总结提供带引用的结论，交付可核对的答案。工作流结构判断：旧流程是手动搜索和阅读，此方案显著降低时间成本。
+        evidence_ids: []
+      - gate: consensus
+        status: supported
+        reason: 月访问量 516 万显示大规模采用，但环比下降需关注。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未披露定价和付费方，可能面向个人订阅或机构授权，但具体模式不明。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 项目贴近学术研究的第一性目标，交付的答案可验证，但需确保引用准确性。
+        evidence_ids: []
+      next_validation: 关注官方定价页和用户评价，以及访问量下滑的原因。
+  cover:
+    slug: cover
+    name: cover
+    decision: queued
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software development
+    jobs:
+    - AI 工程师
+    - 隐私工程师
+    jobs_en:
+    - AI engineer
+    - Privacy engineer
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 这是一个可逆的隐私代理，用于 AI 代理：向外部发送逼真的假数据，同时在本地恢复原始数据。用户将真实数据交给代理，代理用假数据与外部交互，返回时恢复。交付的是保护隐私的 AI
+      代理交互，但具体实现和集成方式仍待核验。
+    inspiration: 趋势是 AI 代理的数据隐私成为关注点。切入可从企业数据脱敏场景开始，提供可逆的隐私保护方案，按数据量或企业订阅收费。
+    summary_en: 'This is a reversible privacy proxy for AI agents: it sends realistic fake data externally
+      and restores originals locally. Users give real data to the proxy, which interacts externally with
+      fake data and restores on return. The deliverable is privacy-preserving AI agent interaction, but
+      specific implementation and integration methods remain to be verified.'
+    inspiration_en: The trend is data privacy for AI agents becoming a concern. Entry could start with
+      enterprise data masking scenarios, offering reversible privacy protection, charging by data volume
+      or enterprise subscription.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: AI 工程师在开发 AI 代理时，需要保护用户数据隐私，防止敏感信息泄露给外部服务。
+        job_en: AI engineers need to protect user data privacy when developing AI agents, preventing sensitive
+          information from leaking to external services.
+        pain_zh: AI 代理与外部服务交互时可能泄露敏感数据，缺乏有效的隐私保护机制。
+        pain_en: AI agents may leak sensitive data when interacting with external services, lacking effective
+          privacy protection.
+        current_alternative_zh: 目前可能依赖数据脱敏或人工审查，但缺乏可逆的隐私保护方案。
+        current_alternative_en: Currently relies on data masking or manual review, lacking reversible
+          privacy protection.
+        usage_reason_zh: 开源社区 41 星显示初步关注，但尚未核验实际采用。
+        usage_reason_en: 41 stars in the open-source community show initial interest, but actual adoption
+          is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决 AI 代理数据隐私问题，通过可逆代理发送假数据并恢复原始数据，交付隐私保护的交互。工作流结构判断：旧流程是数据脱敏或缺失保护，此方案提供可逆方案。
+        evidence_ids:
+        - ev-59887305aa2f8833
+      - gate: consensus
+        status: insufficient
+        reason: 开源社区星数显示关注，但缺乏用户评价或采用案例。
+        evidence_ids:
+        - ev-59887305aa2f8833
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能作为开源工具免费使用，但企业付费路径不明。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 项目贴近隐私保护的第一性目标，交付的隐私保护可验证，但需关注性能开销。
+        evidence_ids:
+        - ev-59887305aa2f8833
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。
+  ctrl-micro:
+    slug: ctrl-micro
+    name: CTRL Micro
+    decision: watching
+    category: AI + 效率
+    project_type: new_application
+    industries:
+    - 个人效率
+    industries_en:
+    - Personal productivity
+    jobs:
+    - Mac 用户
+    - AI 代理使用者
+    jobs_en:
+    - Mac users
+    - AI agent users
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: CTRL Micro 是一款为 Mac 和 AI 代理设计的触觉控制面板。用户通过物理按键和触觉反馈操作 AI 代理，替代键盘和鼠标的部分操作。具体工作流程和交付结果仍待核验。
+    inspiration: 趋势是 AI 代理从纯软件交互走向物理控制硬件。切入可从专业创作者或高频操作者入手，提供可定制的触觉快捷键，但需验证硬件成本和用户实际付费意愿。
+    summary_en: CTRL Micro is a haptic control deck for Mac and AI agents. Users interact with AI agents
+      via physical buttons and haptic feedback, replacing some keyboard and mouse actions. Specific workflow
+      and deliverables remain to be verified.
+    inspiration_en: The trend is AI agents moving from pure software interaction to physical control hardware.
+      Entry could target professional creators or high-frequency operators with customizable haptic shortcuts,
+      but hardware costs and willingness to pay need validation.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 用户需要一种更直观、物理的方式控制 Mac 和 AI 代理，减少对键盘和鼠标的依赖。
+        job_en: Users need a more intuitive, physical way to control Mac and AI agents, reducing reliance
+          on keyboard and mouse.
+        pain_zh: 现有交互方式效率低，缺乏触觉反馈，操作复杂。
+        pain_en: Current interaction methods are inefficient, lack haptic feedback, and are complex.
+        current_alternative_zh: 目前用户使用键盘、鼠标或触摸板，或通过语音助手。
+        current_alternative_en: Currently users use keyboard, mouse, or trackpad, or voice assistants.
+        usage_reason_zh: 尚未核验，产品刚发布，缺乏用户采用证据。
+        usage_reason_en: Not yet verified; product just launched, no adoption evidence.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 产品描述为触觉控制面板，但未说明具体解决什么任务、痛点或替代流程，交付不明确。
+        evidence_ids:
+        - ev-a0be94e1e83e6117
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注官方产品页是否补充具体使用场景、定价和用户案例。
+  cursor:
+    slug: cursor
+    name: Cursor
+    decision: queued
+    category: AI + 开发
+    project_type: ai_transformation
+    industries:
+    - 软件开发
+    industries_en:
+    - Software development
+    jobs:
+    - 程序员
+    - 软件工程师
+    jobs_en:
+    - Programmers
+    - Software engineers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: Cursor 是 AI 代码编辑器，程序员在编写、修改代码时使用，AI 根据上下文提供补全、生成和修改建议，交付可直接应用的代码变更。本次事件：OpenAI 因 SpaceX
+      收购 Cursor 而终止向其提供模型，Vercel 宣布 Cursor 集成到 AI SDK harness 层。
+    inspiration: 趋势是 AI 编码工具成为开发者标配，但模型供应和生态整合成为关键。切入可从垂直行业或特定框架的深度集成入手，或提供模型无关的解决方案。
+    summary_en: 'Cursor is an AI code editor that programmers use while writing and modifying code; AI
+      provides completions, generation, and modification suggestions based on context, delivering directly
+      applicable code changes. This event: OpenAI terminated its contract to provide models to Cursor
+      following its acquisition by SpaceX; Vercel announced Cursor integration into the AI SDK harness
+      layer.'
+    inspiration_en: The trend is AI coding tools becoming standard for developers, with model supply and
+      ecosystem integration as key factors. Entry could focus on deep integration for vertical industries
+      or specific frameworks, or provide model-agnostic solutions.
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 程序员需要更快地编写和修改代码，减少重复劳动。
+        job_en: Programmers need to write and modify code faster, reducing repetitive work.
+        pain_zh: 手动编写代码耗时，容易出错，查找文档和示例费时。
+        pain_en: Manual coding is time-consuming, error-prone, and searching for documentation and examples
+          is slow.
+        current_alternative_zh: 传统代码编辑器如 VS Code，配合手动搜索和复制粘贴。
+        current_alternative_en: Traditional code editors like VS Code, with manual search and copy-paste.
+        usage_reason_zh: 已有大规模访问量（2318 万次/月），环比增长 7.22%，表明开发者广泛采用。
+        usage_reason_en: Large-scale traffic (23.18M visits/month), 7.22% MoM growth, indicating widespread
+          developer adoption.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决程序员编写和修改代码的效率问题，痛点明确，交付为代码变更，可验证。
+        evidence_ids:
+        - ev-ceb39995005fb0dc
+      - gate: consensus
+        status: supported
+        reason: 高访问量和增长表明开发者认可，但需区分访问与持续付费。
+        evidence_ids:
+        - ev-ceb39995005fb0dc
+      - gate: model
+        status: supported
+        reason: 采用订阅制，面向开发者，付费意愿强，但具体定价未披露。
+        evidence_ids:
+        - ev-ceb39995005fb0dc
+      - gate: truth
+        status: supported
+        reason: 产品已成熟，交付确定，但模型供应变化可能影响服务稳定性。
+        evidence_ids:
+        - ev-ceb39995005fb0dc
+      next_validation: 关注 OpenAI 终止合作后 Cursor 的模型替代方案和用户留存数据。
+  deepseek:
+    slug: deepseek
+    name: DeepSeek
+    decision: queued
+    category: 通用助手
+    project_type: ai_transformation
+    industries:
+    - 互联网
+    industries_en:
+    - Internet
+    jobs:
+    - 普通用户
+    - 开发者
+    jobs_en:
+    - General users
+    - Developers
+    regions:
+    - 中国
+    - 全球
+    regions_en:
+    - China
+    - Global
+    open_source: false
+    summary_zh: DeepSeek 是 AI 聊天助手，用户通过对话获取信息、解决问题。本次事件：据报道 DeepSeek 估值有望达到 740 亿美元，显示其市场地位。
+    inspiration: 趋势是 AI 助手成为流量入口，估值飙升反映资本看好。切入可从垂直行业定制助手或企业级应用入手，但需与巨头竞争。
+    summary_en: 'DeepSeek is an AI chat assistant that users interact with to get information and solve
+      problems. This event: DeepSeek is reportedly poised to reach a $74 billion valuation, indicating
+      its market position.'
+    inspiration_en: The trend is AI assistants becoming traffic gateways, with soaring valuations reflecting
+      capital optimism. Entry could focus on vertical industry custom assistants or enterprise applications,
+      but must compete with giants.
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 用户需要快速获取信息、解决问题，进行对话式交互。
+        job_en: Users need quick access to information and problem-solving through conversational interaction.
+        pain_zh: 传统搜索返回大量链接，需要用户自行筛选，效率低。
+        pain_en: Traditional search returns many links, requiring users to filter, which is inefficient.
+        current_alternative_zh: 使用搜索引擎如 Google、百度，或咨询他人。
+        current_alternative_en: Using search engines like Google, Baidu, or asking others.
+        usage_reason_zh: 月访问量 4.838 亿次，尽管环比下降 10.59%，但规模巨大，表明广泛采用。
+        usage_reason_en: Monthly visits of 483.8M, despite a 10.59% MoM decline, the scale is huge, indicating
+          widespread adoption.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决信息获取和问题解决的需求，痛点明确，交付为对话答案，可验证。
+        evidence_ids:
+        - ev-94926ce1960648eb
+      - gate: consensus
+        status: supported
+        reason: 巨大访问量表明用户认可，但环比下降需关注。
+        evidence_ids:
+        - ev-94926ce1960648eb
+      - gate: model
+        status: supported
+        reason: 免费使用，可能通过企业服务或 API 收费，但具体模式未披露。
+        evidence_ids:
+        - ev-94926ce1960648eb
+      - gate: truth
+        status: supported
+        reason: 产品成熟，交付确定，但竞争激烈。
+        evidence_ids:
+        - ev-94926ce1960648eb
+      next_validation: 关注 DeepSeek 的商业模式和用户留存数据。
+  dsh-config-manager:
+    slug: dsh-config-manager
+    name: dsh-config-manager
+    decision: watching
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software development
+    jobs:
+    - DeepSeek Harness 用户
+    - 开发者
+    jobs_en:
+    - DeepSeek Harness users
+    - Developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: dsh-config-manager 是 DeepSeek Harness 的备份与恢复插件，用户可导出、导入、迁移和同步完整的 DSH 配置、插件、MCP 服务器、技能和工作区，实现一键迁移到另一台机器。
+    inspiration: 趋势是 AI 开发环境配置管理需求增长。切入可从配置同步和团队协作入手，但需与官方功能竞争。
+    summary_en: dsh-config-manager is a backup and restore plugin for DeepSeek Harness, allowing users
+      to export, import, migrate, and sync complete DSH configuration, plugins, MCP servers, skills, and
+      workspace, enabling one-click migration to another machine.
+    inspiration_en: The trend is growing demand for AI development environment configuration management.
+      Entry could focus on configuration sync and team collaboration, but must compete with official features.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: DeepSeek Harness 用户需要备份和迁移他们的配置，以避免重复设置。
+        job_en: DeepSeek Harness users need to back up and migrate their configurations to avoid re-setting
+          up.
+        pain_zh: 手动备份和迁移配置耗时且容易出错。
+        pain_en: Manual backup and migration is time-consuming and error-prone.
+        current_alternative_zh: 手动复制配置文件或重新配置。
+        current_alternative_en: Manually copying config files or reconfiguring.
+        usage_reason_zh: 41 个星标，表明有一定关注，但采用证据有限。
+        usage_reason_en: 41 stars, indicating some interest, but adoption evidence is limited.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决配置备份和迁移的痛点，任务明确，交付为可恢复的配置。
+        evidence_ids:
+        - ev-8036cb33c1b281bf
+      - gate: consensus
+        status: insufficient
+        reason: 星标数少，缺乏用户反馈和采用证据。
+        evidence_ids:
+        - ev-8036cb33c1b281bf
+      - gate: model
+        status: insufficient
+        reason: 开源项目，无明确商业模式。
+        evidence_ids:
+        - ev-8036cb33c1b281bf
+      - gate: truth
+        status: supported
+        reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 生态。
+        evidence_ids:
+        - ev-8036cb33c1b281bf
+      next_validation: 关注星标增长和用户 issue 反馈。
+  dsh-im:
+    slug: dsh-im
+    name: dsh-im
+    decision: queued
+    category: AI + 效率
+    project_type: open_source
+    industries:
+    - 软件开发
+    - 企业通信
+    industries_en:
+    - Software development
+    - Enterprise communication
+    jobs:
+    - 开发者
+    - 企业用户
+    jobs_en:
+    - Developers
+    - Enterprise users
+    regions:
+    - 中国
+    - 全球
+    regions_en:
+    - China
+    - Global
+    open_source: true
+    summary_zh: dsh-im 是一个开源项目，通过扫码或机器人凭据将 IM 机器人接入 DeepSeek Harness，支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord
+      和 WhatsApp 等 9 个渠道。用户可在 IM 中直接与 AI 交互。
+    inspiration: 趋势是 AI 助手融入日常通信工具。切入可从企业 IM 集成和私有化部署入手，但需注意平台政策。
+    summary_en: dsh-im is an open-source project that connects IM bots to DeepSeek Harness via QR code
+      or credentials, supporting 9 channels including Feishu, WeChat, DingTalk, WeCom, QQ, Slack, Telegram,
+      Discord, and WhatsApp. Users can interact with AI directly in IM.
+    inspiration_en: The trend is AI assistants integrating into daily communication tools. Entry could
+      focus on enterprise IM integration and private deployment, but must be aware of platform policies.
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 用户希望在常用的 IM 工具中直接使用 AI 助手，无需切换应用。
+        job_en: Users want to use AI assistants directly in their common IM tools without switching apps.
+        pain_zh: 切换应用打断工作流，IM 中无法直接获取 AI 帮助。
+        pain_en: Switching apps disrupts workflow, and AI help is not directly available in IM.
+        current_alternative_zh: 在 IM 和 AI 应用之间切换，或使用 IM 内置的简单机器人。
+        current_alternative_en: Switching between IM and AI apps, or using simple built-in bots in IM.
+        usage_reason_zh: 966 个星标，99 个 fork，表明社区关注度高，且多次采集显示持续活跃。
+        usage_reason_en: 966 stars, 99 forks, indicating high community interest and sustained activity
+          across multiple collections.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决在 IM 中直接使用 AI 的需求，痛点明确，交付为 IM 中的 AI 回复。
+        evidence_ids:
+        - ev-475ff7c503aa6bad
+      - gate: consensus
+        status: supported
+        reason: 高星标和 fork 表明社区认可，但需区分关注与实际使用。
+        evidence_ids:
+        - ev-475ff7c503aa6bad
+      - gate: model
+        status: insufficient
+        reason: 开源项目，无明确商业模式，可能通过捐赠或企业支持。
+        evidence_ids:
+        - ev-475ff7c503aa6bad
+      - gate: truth
+        status: supported
+        reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 和 IM 平台。
+        evidence_ids:
+        - ev-475ff7c503aa6bad
+      next_validation: 关注星标增长和用户 issue 反馈。
+  dsh-worktable:
+    slug: dsh-worktable
+    name: dsh-worktable
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software development
+    jobs:
+    - DeepSeek Harness 用户
+    - 开发者
+    jobs_en:
+    - DeepSeek Harness users
+    - Developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: dsh-worktable 是 DeepSeek Harness 的代理项目工作台，提供侧边栏应用抽屉、可停靠的分割工作区和实时控制室，用于监控每个项目。
+    inspiration: 趋势是 AI 代理项目管理工具需求增长。切入可从项目监控和协作入手，但需与官方功能竞争。
+    summary_en: dsh-worktable is an agent-project workbench for DeepSeek Harness, featuring a sidebar
+      app drawer, dockable split workspace, and a live control room to watch every project.
+    inspiration_en: The trend is growing demand for AI agent project management tools. Entry could focus
+      on project monitoring and collaboration, but must compete with official features.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: DeepSeek Harness 用户需要管理多个代理项目，监控其状态。
+        job_en: DeepSeek Harness users need to manage multiple agent projects and monitor their status.
+        pain_zh: 缺乏统一界面管理多个项目，难以实时监控。
+        pain_en: Lack of a unified interface to manage multiple projects, making real-time monitoring
+          difficult.
+        current_alternative_zh: 使用终端或单独窗口管理。
+        current_alternative_en: Using terminal or separate windows.
+        usage_reason_zh: 339 个星标，表明有一定关注，但采用证据有限。
+        usage_reason_en: 339 stars, indicating some interest, but adoption evidence is limited.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决多项目管理的痛点，任务明确，交付为项目监控界面。
+        evidence_ids:
+        - ev-244cb2e9155cf3ef
+      - gate: consensus
+        status: insufficient
+        reason: 星标数中等，缺乏用户反馈和采用证据。
+        evidence_ids:
+        - ev-244cb2e9155cf3ef
+      - gate: model
+        status: insufficient
+        reason: 开源项目，无明确商业模式。
+        evidence_ids:
+        - ev-244cb2e9155cf3ef
+      - gate: truth
+        status: supported
+        reason: 功能明确，交付可验证，但依赖 DeepSeek Harness 生态。
+        evidence_ids:
+        - ev-244cb2e9155cf3ef
+      next_validation: 关注星标增长和用户 issue 反馈。
+  experiential:
+    slug: experiential
+    name: experiential
+    decision: watching
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 人工智能
+    industries_en:
+    - Artificial intelligence
+    jobs:
+    - 开发者
+    - AI 工程师
+    jobs_en:
+    - Developers
+    - AI engineers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: experiential 是一个开源项目，自称“开放的 OpenRouter”，将使用转化为更好的模型。具体工作流程和交付仍待核验。
+    inspiration: 趋势是模型路由和优化。切入可从特定场景的模型选择入手，但需验证技术可行性。
+    summary_en: experiential is an open-source project that claims to be an 'open OpenRouter' that turns
+      usage into a better model. Specific workflow and deliverables remain to be verified.
+    inspiration_en: The trend is model routing and optimization. Entry could focus on model selection
+      for specific scenarios, but technical feasibility needs validation.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者需要更智能的模型路由，以优化成本和性能。
+        job_en: Developers need smarter model routing to optimize cost and performance.
+        pain_zh: 现有模型路由不够智能，无法根据使用情况优化。
+        pain_en: Current model routing is not smart enough to optimize based on usage.
+        current_alternative_zh: 使用 OpenRouter 等商业服务或手动选择模型。
+        current_alternative_en: Using commercial services like OpenRouter or manually selecting models.
+        usage_reason_zh: HN 上 208 分，46 条评论，表明社区关注，但产品细节不足。
+        usage_reason_en: 208 points and 46 comments on HN, indicating community interest, but product
+          details are insufficient.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 描述模糊，未说明具体解决什么任务、痛点或替代流程，交付不明确。
+        evidence_ids:
+        - ev-f2e8bee8a7ef02e2
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注项目文档和代码，验证其技术实现和实际效果。
+  fasth3-4-step-preview:
+    slug: fasth3-4-step-preview
+    name: FastH3 4-step Preview
+    decision: market_context
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 人工智能
+    industries_en:
+    - Artificial intelligence
+    jobs:
+    - AI 研究人员
+    - 开发者
+    jobs_en:
+    - AI researchers
+    - Developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: FastH3 4-step Preview 是一个模型演示，展示 4 步 MiniMax-H3 与稀疏注意力，支持视频和音频生成。这是模型技术进展，不是独立产品。
+    inspiration: 趋势是生成模型效率提升。切入可从特定应用场景如视频生成入手，但需关注模型成熟度。
+    summary_en: FastH3 4-step Preview is a model demo showcasing 4-step MiniMax-H3 with sparse attention,
+      supporting video and audio generation. This is a model technology advancement, not a standalone
+      product.
+    inspiration_en: The trend is efficiency improvement in generative models. Entry could focus on specific
+      applications like video generation, but model maturity needs attention.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者需要更高效的视频和音频生成模型。
+        job_en: Developers need more efficient video and audio generation models.
+        pain_zh: 现有模型生成速度慢，成本高。
+        pain_en: Current models are slow and expensive.
+        current_alternative_zh: 使用其他生成模型如 Stable Diffusion 或商业 API。
+        current_alternative_en: Using other generative models like Stable Diffusion or commercial APIs.
+        usage_reason_zh: 4 个点赞，关注度低，但作为技术预览有参考价值。
+        usage_reason_en: 4 likes, low attention, but as a technical preview it has reference value.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 作为模型演示，未明确解决具体用户任务，交付不明确。
+        evidence_ids:
+        - ev-30a5a9547726d0d3
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注模型后续发布和实际应用案例。
+  fide-island:
+    slug: fide-island
+    name: Fide Island
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  flare:
+    slug: flare
+    name: Flare
+    decision: queued
+    event_summary_zh: Flare 在社区发布，定位为基于图的 agentic 编程 IDE，代码仓库已有 123 星。
+    event_summary_en: Flare launched in the community as a graph-based agentic IDE, with 123 stars on
+      its code repository.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 软件开发者
+    jobs_en:
+    - Software Developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: Flare 是一个面向 agentic 编程的图优先 IDE，开发者用它可视化和管理 AI 编码代理的任务依赖关系。它接收代码库和代理执行轨迹，以交互式图谱展示任务状态，帮助开发者定位瓶颈和冲突。具体流程和交付细节仍待核验。
+    inspiration: 趋势是 AI 编码代理从单文件补全走向多任务编排，开发者需要新的可视化控制面。切入点是面向已有代理工作流的团队，提供任务依赖图谱和冲突检测，而非再做一个代码补全工具。
+    summary_en: Flare is a graph-first IDE for agentic coding, letting developers visualize and manage
+      task dependencies of AI coding agents. It ingests codebase and agent execution traces, presenting
+      an interactive map of task states to help locate bottlenecks and conflicts. Specific workflow and
+      deliverables remain to be verified.
+    inspiration_en: The trend is AI coding agents moving from single-file completion to multi-task orchestration,
+      creating a need for new visual control surfaces. The entry point is teams already using agentic
+      workflows, offering task dependency graphs and conflict detection rather than another autocomplete
+      tool.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者需要理解和管理多个 AI 编码代理并行执行的任务，确保它们不冲突、不重复。
+        job_en: Developers need to understand and manage tasks executed in parallel by multiple AI coding
+          agents, ensuring no conflicts or duplication.
+        pain_zh: 现有 IDE 和终端难以展示代理间的依赖和状态，任务失败时难以定位原因。
+        pain_en: Existing IDEs and terminals struggle to show dependencies and status among agents, making
+          it hard to diagnose failures.
+        current_alternative_zh: 开发者通常手动跟踪代理输出，或使用简单的日志和任务列表。
+        current_alternative_en: Developers typically track agent outputs manually, or use simple logs
+          and task lists.
+        usage_reason_zh: Flare 提供可视化的任务图谱，可能减少手动跟踪的负担，但采用证据尚未核验。
+        usage_reason_en: Flare offers a visual task graph that may reduce manual tracking overhead, but
+          adoption evidence is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决多代理编码时任务依赖不可见、冲突难定位的痛点，替代手动跟踪日志和任务列表的旧流程，交付可视化图谱，价值结构成立。
+        evidence_ids:
+        - ev-0d5ccc5c483727de
+      - gate: consensus
+        status: insufficient
+        reason: 代码仓库 123 星和社区发布显示初步关注，但缺乏用户评价或持续采用数据，共识尚未形成。
+        evidence_ids:
+        - ev-0d5ccc5c483727de
+      - gate: model
+        status: insufficient
+        reason: 开源项目，商业模式未披露，付费方和付费路径不明确。
+        evidence_ids:
+        - ev-0d5ccc5c483727de
+      - gate: truth
+        status: insufficient
+        reason: 产品尚在早期，未验证其图谱能否准确反映真实代理行为，交付确定性待核验。
+        evidence_ids:
+        - ev-0d5ccc5c483727de
+      next_validation: 关注代码仓库的 issue 和讨论，看用户是否报告实际使用中的冲突检测效果。
+  flyxl:
+    slug: flyxl
+    name: DataZen
+    decision: queued
+    event_summary_zh: 开发者因公司禁用 Navicat 而自建开源数据库客户端 DataZen，在技术社区发布，获得 23 条评论。
+    event_summary_en: A developer built open-source database client DataZen after Navicat was banned at
+      work, posting in a tech community with 23 comments.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    - 信息技术服务
+    industries_en:
+    - Software Development
+    - IT Services
+    jobs:
+    - 数据库管理员
+    - 后端开发者
+    jobs_en:
+    - Database Administrators
+    - Backend Developers
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: true
+    summary_zh: DataZen 是一个开源的数据库客户端，面向日常查库和跨库查询场景。开发者输入多步 SQL 查询，用 YAML 串联工作流，上一步结果自动传给下一步，支持跨数据库执行；同时提供运营看板，保存常用
+      SQL 和图表定时刷新。AI 辅助生成 SQL 和错误诊断，但核心是工作流和看板。
+    inspiration: 趋势是数据库工具从单机客户端走向可编程工作流和自动化看板。切入点是合规限制催生的自建工具需求，可面向中小团队提供跨库查询和报表自动化，按席位或功能收费。
+    summary_en: DataZen is an open-source database client for daily queries and cross-database workflows.
+      Developers chain multi-step SQL queries via YAML, passing results automatically between steps, and
+      use dashboards to save frequent queries and charts with scheduled refresh. AI assists SQL generation
+      and error diagnosis, but the core is workflow and dashboard.
+    inspiration_en: The trend is database tools evolving from standalone clients to programmable workflows
+      and automated dashboards. The entry point is compliance-driven self-built tooling, targeting small
+      teams with cross-database query and reporting automation, charging per seat or feature.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者在排查线上问题时需要跨表、跨库查询，并频繁向老板提供临时报表。
+        job_en: Developers need cross-table and cross-database queries when troubleshooting, and frequently
+          provide ad-hoc reports to managers.
+        pain_zh: 跨库无法直接 JOIN，需手动复制粘贴字段，耗时且易错；临时报表重复劳动多。
+        pain_en: Cross-database JOIN is impossible, requiring manual copy-paste of fields, time-consuming
+          and error-prone; ad-hoc reports are repetitive.
+        current_alternative_zh: 使用 Navicat 或 DBeaver 等客户端，但 Navicat 被禁用，DBeaver 体验不佳。
+        current_alternative_en: Using clients like Navicat or DBeaver, but Navicat is banned and DBeaver's
+          experience is subpar.
+        usage_reason_zh: 开发者自述痛点真实，技术社区评论显示关注，但采用和付费尚未核验。
+        usage_reason_en: The developer's pain points are real, tech community comments show interest,
+          but adoption and payment are not verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决跨库查询需手动复制粘贴和临时报表重复劳动的痛点，替代 Navicat/DBeaver 的旧流程，交付可运行的工作流和看板，价值结构成立。
+        evidence_ids:
+        - ev-d3d8b2cf711f8dea
+      - gate: consensus
+        status: insufficient
+        reason: 技术社区 23 条评论显示初步关注，但缺乏用户评价或持续采用数据。
+        evidence_ids:
+        - ev-d3d8b2cf711f8dea
+      - gate: model
+        status: insufficient
+        reason: 开源免费，商业模式未披露，付费方和路径不明确。
+        evidence_ids:
+        - ev-d3d8b2cf711f8dea
+      - gate: truth
+        status: insufficient
+        reason: 产品由个人开发，尚未验证其工业级稳定性和广泛适用性。
+        evidence_ids:
+        - ev-d3d8b2cf711f8dea
+      next_validation: 关注代码仓库的 star 增长和 issue 反馈，看是否有企业用户采用。
+  fnscribe:
+    slug: fnscribe
+    name: FnScribe
+    decision: watching
+    event_summary_zh: FnScribe 作为开源离线 macOS 听写工具在技术社区发布，获得 20 分和 14 条评论。
+    event_summary_en: FnScribe, an open-source offline dictation tool for macOS, was posted in a tech
+      community with 20 points and 14 comments.
+    category: AI + 效率
+    project_type: open_source
+    industries:
+    - 个人效率
+    industries_en:
+    - Personal Productivity
+    jobs:
+    - 知识工作者
+    jobs_en:
+    - Knowledge Workers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: FnScribe 是一个开源的 macOS 离线听写工具，用户按下快捷键说话，它本地将语音转为文字，无需联网。具体支持的语言和输出格式待核验。
+    inspiration: 趋势是语音输入从云端走向本地，隐私和延迟成为卖点。切入点是面向注重隐私的专业人士，提供离线听写，可集成到写作和笔记工作流。
+    summary_en: FnScribe is an open-source offline dictation tool for macOS. Users press a hotkey and
+      speak, and it converts speech to text locally without internet. Supported languages and output formats
+      are to be verified.
+    inspiration_en: The trend is speech input moving from cloud to local, with privacy and latency as
+      selling points. The entry point is privacy-conscious professionals, offering offline dictation integrated
+      into writing and note-taking workflows.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 用户需要在 Mac 上快速将语音转为文字，用于笔记、写作或输入。
+        job_en: Users need to quickly convert speech to text on Mac for notes, writing, or input.
+        pain_zh: 云端听写有隐私顾虑和网络延迟，且可能不支持离线场景。
+        pain_en: Cloud dictation has privacy concerns and network latency, and may not work offline.
+        current_alternative_zh: 使用 macOS 自带听写或第三方云端服务。
+        current_alternative_en: Using macOS built-in dictation or third-party cloud services.
+        usage_reason_zh: 技术社区讨论显示对离线听写的兴趣，但采用证据不足。
+        usage_reason_en: Tech community discussion shows interest in offline dictation, but adoption evidence
+          is insufficient.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决云端听写的隐私和延迟痛点，替代自带听写和云端服务，交付本地语音转文字，价值结构成立。
+        evidence_ids:
+        - ev-c4997122f3149f1f
+      - gate: consensus
+        status: insufficient
+        reason: 技术社区 20 分和 14 条评论显示初步关注，但缺乏用户评价或持续采用数据。
+        evidence_ids:
+        - ev-c4997122f3149f1f
+      - gate: model
+        status: insufficient
+        reason: 开源免费，商业模式未披露。
+        evidence_ids:
+        - ev-c4997122f3149f1f
+      - gate: truth
+        status: insufficient
+        reason: 产品早期，未验证其识别准确率和用户体验。
+        evidence_ids:
+        - ev-c4997122f3149f1f
+      next_validation: 关注代码仓库的 star 增长和 issue 反馈，看用户是否报告识别准确率问题。
+  forth-mcp:
+    slug: forth-mcp
+    name: Forth MCP
+    decision: watching
+    event_summary_zh: Forth MCP 在技术社区发布，提供让远程 AI 客户端访问本地 MCP 服务器的能力，获得 5 分和 1 条评论。
+    event_summary_en: Forth MCP was posted in a tech community, offering remote AI clients access to local
+      MCP servers, with 5 points and 1 comment.
+    category: 基础层
+    project_type: new_application
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - AI 工程师
+    - 开发者
+    jobs_en:
+    - AI Engineers
+    - Developers
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Forth MCP 是一个服务，允许远程 AI 客户端（如云端 agent）访问用户本地的 MCP 服务器，从而利用本地工具和数据。具体实现和安全性待核验。
+    inspiration: 趋势是 AI agent 需要访问本地资源，但云端和本地存在隔离。切入点是提供安全的桥接服务，让远程 agent 能调用本地工具，可面向需要本地数据的企业。
+    summary_en: Forth MCP is a service that allows remote AI clients (e.g., cloud agents) to access local
+      MCP servers, leveraging local tools and data. Implementation and security details are to be verified.
+    inspiration_en: The trend is AI agents needing access to local resources, but cloud and local are
+      isolated. The entry point is a secure bridge service enabling remote agents to call local tools,
+      targeting enterprises with local data.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者希望远程 AI agent 能使用本地 MCP 服务器提供的工具和数据。
+        job_en: Developers want remote AI agents to use tools and data from local MCP servers.
+        pain_zh: 云端 agent 无法直接访问本地资源，导致功能受限。
+        pain_en: Cloud agents cannot directly access local resources, limiting functionality.
+        current_alternative_zh: 手动将本地工具暴露到公网，或使用内网穿透。
+        current_alternative_en: Manually exposing local tools to the public internet, or using NAT traversal.
+        usage_reason_zh: 技术社区讨论显示对本地-远程桥接的兴趣，但采用证据不足。
+        usage_reason_en: Tech community discussion shows interest in local-remote bridging, but adoption
+          evidence is insufficient.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决远程 agent 无法访问本地资源的痛点，替代手动暴露和内网穿透，交付安全的桥接，价值结构成立。
+        evidence_ids:
+        - ev-c8085ebe610c2ab6
+      - gate: consensus
+        status: insufficient
+        reason: 技术社区 5 分和 1 条评论显示关注度低，缺乏用户评价。
+        evidence_ids:
+        - ev-c8085ebe610c2ab6
+      - gate: model
+        status: insufficient
+        reason: 商业模式未披露，付费方和路径不明确。
+        evidence_ids:
+        - ev-c8085ebe610c2ab6
+      - gate: truth
+        status: insufficient
+        reason: 产品早期，未验证其安全性和稳定性。
+        evidence_ids:
+        - ev-c8085ebe610c2ab6
+      next_validation: 关注官网文档和用户反馈，看是否有企业采用案例。
+  free:
+    slug: free
+    name: PublicAML
+    decision: market_context
+    event_summary_zh: PublicAML 提供非营利加密货币反洗钱筛查服务，无需密钥和试用。
+    event_summary_en: PublicAML offers non-profit crypto AML screening without key or trial.
+    category: AI + 商业
+    project_type: new_application
+    industries:
+    - 金融
+    - 加密货币
+    industries_en:
+    - Finance
+    - Cryptocurrency
+    jobs:
+    - 合规专员
+    - 风控分析师
+    jobs_en:
+    - Compliance Officers
+    - Risk Analysts
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: PublicAML 是一个非营利加密货币反洗钱筛查服务，用户无需注册或付费即可进行地址筛查，用于合规检查。具体筛查范围和准确性待核验。
+    inspiration: 趋势是加密货币合规需求增长，但现有 AML 服务昂贵。切入点是提供免费基础筛查，吸引小型交易所和个体商户，再通过增值服务收费。
+    summary_en: PublicAML is a non-profit crypto AML screening service. Users can screen addresses without
+      registration or payment for compliance checks. Specific screening scope and accuracy are to be verified.
+    inspiration_en: The trend is growing crypto compliance needs, but existing AML services are expensive.
+      The entry point is free basic screening to attract small exchanges and individual merchants, then
+      charge for value-added services.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 加密货币交易所和商户需要筛查地址以符合反洗钱法规。
+        job_en: Crypto exchanges and merchants need to screen addresses to comply with AML regulations.
+        pain_zh: 现有 AML 服务费用高，小型机构难以负担。
+        pain_en: Existing AML services are expensive, unaffordable for small institutions.
+        current_alternative_zh: 使用 Chainalysis 等商业 AML 服务。
+        current_alternative_en: Using commercial AML services like Chainalysis.
+        usage_reason_zh: 免费服务可能吸引小型机构试用，但采用证据不足。
+        usage_reason_en: Free service may attract small institutions, but adoption evidence is insufficient.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决小型机构无法负担商业 AML 服务的痛点，替代昂贵的商业服务，交付免费筛查，价值结构成立。
+        evidence_ids:
+        - ev-78904e9ffb1026b5
+      - gate: consensus
+        status: insufficient
+        reason: 技术社区 5 分和 0 条评论显示关注度低，缺乏用户评价。
+        evidence_ids:
+        - ev-78904e9ffb1026b5
+      - gate: model
+        status: insufficient
+        reason: 非营利模式，商业模式未披露。
+        evidence_ids:
+        - ev-78904e9ffb1026b5
+      - gate: truth
+        status: insufficient
+        reason: 产品早期，未验证其筛查准确性和合规性。
+        evidence_ids:
+        - ev-78904e9ffb1026b5
+      next_validation: 关注官网文档和用户反馈，看是否有机构采用。
+  gemini:
+    slug: gemini
+    name: Gemini
+    decision: queued
+    event_summary_zh: Gemini 月访问量 29.5 亿，环比下降 1.51%；Google 推出面向律师的 Gemini 工具和 Gemini Enterprise，Verizon
+      确认 Gemini 处理大部分来电。
+    event_summary_en: Gemini has 2.95B monthly visits, down 1.51% MoM; Google launched Gemini tools for
+      lawyers and Gemini Enterprise; Verizon confirmed Gemini handles most inbound calls.
+    category: 通用助手
+    project_type: ai_transformation
+    industries:
+    - 通用
+    industries_en:
+    - General
+    jobs:
+    - 消费者
+    - 企业员工
+    jobs_en:
+    - Consumers
+    - Enterprise Employees
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: Gemini 是 Google 的 AI 助手，提供写作、规划、头脑风暴等生成式 AI 功能。近期推出面向律师的专用工具和 Gemini Enterprise，并已被 Verizon
+      用于处理大部分来电。
+    inspiration: 趋势是通用助手向垂直行业渗透，如法律和客服。切入点是针对特定行业提供定制化工具，如法律文档审查和客服自动化，而非与通用助手正面竞争。
+    summary_en: Gemini is Google's AI assistant offering writing, planning, brainstorming, and other generative
+      AI features. Recently launched specialized tools for lawyers and Gemini Enterprise, and is used
+      by Verizon to handle most inbound calls.
+    inspiration_en: The trend is general assistants penetrating vertical industries like law and customer
+      service. The entry point is providing customized tools for specific industries, such as legal document
+      review and customer service automation, rather than competing head-on with general assistants.
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 用户需要 AI 助手完成写作、规划、信息查询等日常任务，企业需要自动化客服和法律文档处理。
+        job_en: Users need AI assistants for writing, planning, information lookup, and enterprises need
+          automated customer service and legal document processing.
+        pain_zh: 传统工具效率低，人工客服成本高，法律文档审查耗时。
+        pain_en: Traditional tools are inefficient, human customer service is costly, and legal document
+          review is time-consuming.
+        current_alternative_zh: 使用搜索引擎、人工客服和传统法律软件。
+        current_alternative_en: Using search engines, human customer service, and traditional legal software.
+        usage_reason_zh: Gemini 月访问量 29.5 亿，Verizon 等企业采用，显示广泛使用。
+        usage_reason_en: Gemini has 2.95B monthly visits and enterprise adoption like Verizon, showing
+          widespread use.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决日常任务效率和企业客服、法律文档处理的痛点，替代搜索引擎和人工服务，交付生成式 AI 响应，价值结构成立。
+        evidence_ids:
+        - ev-dd9e03631b9a98d1
+        - ev-c28a28f38e1ec185
+        - ev-52b8240fc601cd6b
+      - gate: consensus
+        status: supported
+        reason: 月访问量 29.5 亿，Verizon 等企业案例，显示广泛采用。
+        evidence_ids:
+        - ev-52b8240fc601cd6b
+      - gate: model
+        status: supported
+        reason: Google 通过订阅和云服务收费，企业客户如 Verizon 付费，模式清晰。
+        evidence_ids:
+        - ev-52b8240fc601cd6b
+      - gate: truth
+        status: supported
+        reason: 产品成熟，交付稳定，企业案例验证了可靠性。
+        evidence_ids:
+        - ev-52b8240fc601cd6b
+      next_validation: 关注 Gemini Enterprise 的客户案例和行业渗透率。
+  gemini-35-transcribe:
+    slug: gemini-35-transcribe
+    name: Gemini 3.5 Transcribe
+    decision: market_context
+    event_summary_zh: Google 发布 Gemini 3.5 Transcribe 语音转文字模型，号称最精确，在技术社区获得 354 分和 122 条评论。
+    event_summary_en: Google released Gemini 3.5 Transcribe speech-to-text model, claiming highest precision,
+      with 354 points and 122 comments in a tech community.
+    category: 基础层
+    project_type: ai_transformation
+    industries:
+    - 通用
+    industries_en:
+    - General
+    jobs:
+    - 开发者
+    - 内容创作者
+    jobs_en:
+    - Developers
+    - Content Creators
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: Gemini 3.5 Transcribe 是 Google 发布的语音转文字模型，宣称精度最高，用于转录音频。具体 API 和定价待核验。
+    inspiration: 趋势是语音识别精度提升，推动更多应用场景。切入点是利用高精度转录服务，面向医疗、法律等需要准确记录的专业领域。
+    summary_en: Gemini 3.5 Transcribe is Google's speech-to-text model claiming highest precision, used
+      for transcribing audio. API and pricing details are to be verified.
+    inspiration_en: The trend is improving speech recognition accuracy, enabling more applications. The
+      entry point is leveraging high-precision transcription for professional fields like medical and
+      legal.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者需要将音频转为文字，用于字幕、会议记录等。
+        job_en: Developers need to convert audio to text for subtitles, meeting notes, etc.
+        pain_zh: 现有转录模型准确率不足，尤其在专业术语和噪音环境。
+        pain_en: Existing transcription models lack accuracy, especially with jargon and noisy environments.
+        current_alternative_zh: 使用 Whisper 等开源模型或其他商业 API。
+        current_alternative_en: Using open-source models like Whisper or other commercial APIs.
+        usage_reason_zh: 技术社区高分显示开发者关注，但采用证据不足。
+        usage_reason_en: High tech community points show developer interest, but adoption evidence is
+          insufficient.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决转录准确率不足的痛点，替代现有转录模型，交付高精度文本，价值结构成立。
+        evidence_ids:
+        - ev-94354eea3b723102
+      - gate: consensus
+        status: insufficient
+        reason: 技术社区 354 分和 122 条评论显示高关注，但缺乏用户评价或采用数据。
+        evidence_ids:
+        - ev-94354eea3b723102
+      - gate: model
+        status: insufficient
+        reason: 作为模型发布，商业模式未披露，可能通过 API 收费。
+        evidence_ids:
+        - ev-94354eea3b723102
+      - gate: truth
+        status: insufficient
+        reason: 模型刚发布，未验证其实际精度和稳定性。
+        evidence_ids:
+        - ev-94354eea3b723102
+      next_validation: 关注 Google AI 博客的基准测试和开发者反馈。
+  gemini-omni-11-flash:
+    slug: gemini-omni-11-flash
+    name: Gemini Omni 1.1 Flash
+    decision: market_context
+    event_summary_zh: Google 发布 Gemini Omni 1.1 Flash，一款用于视频生成和编辑的多模态模型。
+    event_summary_en: Google released Gemini Omni 1.1 Flash, a multimodal model for video generation and
+      editing.
+    category: 基础层
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Gemini Omni 1.1 Flash 是 Google 发布的多模态模型，用于视频生成和编辑。具体工作流程和交付物尚未披露。
+    inspiration: 视频生成模型持续迭代，但应用层机会在于垂直场景的编辑工作流，而非模型本身。
+    summary_en: Gemini Omni 1.1 Flash is a multimodal model from Google for video generation and editing.
+      Specific workflows and deliverables are not yet disclosed.
+    inspiration_en: Video generation models keep evolving, but application-layer opportunities lie in
+      vertical editing workflows, not the model itself.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 用户需要生成或编辑视频内容。
+        job_en: Users need to generate or edit video content.
+        pain_zh: 视频创作耗时且需要专业技能。
+        pain_en: Video creation is time-consuming and requires professional skills.
+        current_alternative_zh: 传统视频编辑软件或人工制作。
+        current_alternative_en: Traditional video editing software or manual production.
+        usage_reason_zh: 模型发布引发关注，但具体采用情况尚未核验。
+        usage_reason_en: Model release attracts attention, but adoption is not yet verified.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 模型发布信息仅说明用于视频生成和编辑，未提供具体用户任务、痛点或交付细节，无法判断价值结构。
+        evidence_ids:
+        - ev-eadaa4c012a14e02
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注 Google 官方文档或开发者博客，获取具体应用场景和用户案例。
+  github:
+    slug: github
+    name: MWFL
+    decision: queued
+    event_summary_zh: 开发者发布 MWFL v0.1.0，一个基于 C++20 的轻量级原生 Windows 开发框架，使用 MIT 协议，支持 Windows 10 及以上系统。
+    event_summary_en: Developer released MWFL v0.1.0, a lightweight native Windows development framework
+      based on C++20, MIT licensed, supporting Windows 10 and above.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - Windows 桌面开发者
+    jobs_en:
+    - Windows Desktop Developers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: MWFL 是一个基于 C++20 的轻量级原生 Windows 开发框架，在 Win32 之上提供现代封装，保留原生控件和系统能力。开发者可用它构建 Windows 10
+      及以上系统的桌面应用，框架提供类型化事件、RAII 资源管理和 DPI 感知布局，减少样板代码。仓库包含 62 个可编译示例，并已用于构建十六进制编辑器、Markdown 编辑器等真实工具。
+    inspiration: 趋势是 AI 辅助代码生成需要更规整的底层框架。切入点是面向 Windows 桌面开发者的轻量框架，可结合 AI 代码生成工具，提供更易读的代码结构。
+    summary_en: MWFL is a lightweight native Windows development framework based on C++20, providing modern
+      wrappers over Win32 while retaining native controls and system capabilities. Developers can build
+      desktop apps for Windows 10 and above, with typed events, RAII resource management, and DPI-aware
+      layout, reducing boilerplate. The repo includes 62 compilable examples and has been used to build
+      real tools like hex editor and Markdown editor.
+    inspiration_en: 'Trend: AI-assisted code generation needs more structured underlying frameworks. Entry:
+      target Windows desktop developers with a lightweight framework that integrates with AI code generation
+      tools for cleaner code.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: Windows 桌面开发者需要构建原生桌面应用，同时希望代码简洁、易于维护。
+        job_en: Windows desktop developers need to build native desktop apps with clean, maintainable
+          code.
+        pain_zh: Win32 API 繁琐，MFC/Qt 偏重，WTL 宏多且可读性差。
+        pain_en: Win32 API is verbose, MFC/Qt are heavy, WTL has many macros and poor readability.
+        current_alternative_zh: 使用 Win32 API、MFC、Qt 或 WTL 进行开发。
+        current_alternative_en: Using Win32 API, MFC, Qt, or WTL for development.
+        usage_reason_zh: 开发者因自身需求创建，并已用于多个真实工具，社区讨论显示关注。
+        usage_reason_en: Created by a developer for his own needs, used in real tools, and community discussion
+          shows interest.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决 Windows 桌面开发中 Win32 繁琐、MFC/Qt 偏重、WTL 可读性差的问题，提供现代 C++20 封装，交付可编译运行的框架和示例。工作流结构判断。
+        evidence_ids:
+        - ev-4c3d4f6d62dad806
+      - gate: consensus
+        status: insufficient
+        reason: 社区讨论有少量评论，但缺乏广泛采用证据，尚未形成共识。
+        evidence_ids:
+        - ev-4c3d4f6d62dad806
+      - gate: model
+        status: insufficient
+        reason: 开源 MIT 协议，无明确商业模式，付费路径未披露。
+        evidence_ids:
+        - ev-4c3d4f6d62dad806
+      - gate: truth
+        status: supported
+        reason: 框架已用于真实工具，交付确定性高，贴近开发者的第一性目标。
+        evidence_ids:
+        - ev-4c3d4f6d62dad806
+      next_validation: 关注代码仓库的 star 增长和 issue 讨论，以及是否有更多开发者采用。
+  glm-53:
+    slug: glm-53
+    name: GLM-5.3
+    decision: market_context
+    event_summary_zh: 智谱发布 GLM-5.3 开源权重模型，并上线 GLM-5.3-Flash，由商汤大装置提供国产算力支持。
+    event_summary_en: Zhipu released GLM-5.3 with open weights, and launched GLM-5.3-Flash with domestic
+      compute support from SenseTime.
+    category: 基础层
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: GLM-5.3 是智谱发布的开源权重模型，强调编码能力提升。GLM-5.3-Flash 版本由商汤大装置提供国产算力支持。
+    inspiration: 开源模型持续迭代，应用层机会在于利用模型能力构建垂直行业解决方案。
+    summary_en: GLM-5.3 is an open-weight model from Zhipu, emphasizing coding improvements. GLM-5.3-Flash
+      is supported by SenseTime's domestic compute.
+    inspiration_en: Open-source models keep evolving; application-layer opportunities lie in building
+      vertical solutions using these models.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者需要强大的编码模型。
+        job_en: Developers need powerful coding models.
+        pain_zh: 现有模型编码能力不足。
+        pain_en: Existing models have insufficient coding capabilities.
+        current_alternative_zh: 使用其他开源或闭源模型。
+        current_alternative_en: Using other open-source or closed-source models.
+        usage_reason_zh: 模型发布引发关注，但具体采用情况尚未核验。
+        usage_reason_en: Model release attracts attention, but adoption is not yet verified.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 模型发布信息仅说明编码能力提升，未提供具体用户任务、痛点或交付细节，无法判断价值结构。
+        evidence_ids:
+        - ev-4a51fde9efedc98a
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注智谱官方文档和开发者社区，获取具体应用案例和性能评测。
+  grok:
+    slug: grok
+    name: Grok
+    decision: watching
+    event_summary_zh: xAI 的 Grok 被指控使用儿童色情内容训练模型，引发法律诉讼。
+    event_summary_en: xAI's Grok is accused of training on child pornography, leading to a lawsuit.
+    category: 通用助手
+    project_type: new_application
+    industries:
+    - 互联网
+    industries_en:
+    - Internet
+    jobs:
+    - 普通用户
+    jobs_en:
+    - General Users
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: Grok 是 xAI 设计的免费 AI 助手，提供实时搜索、图像生成、趋势分析等功能。近期因训练数据问题面临法律诉讼。
+    inspiration: AI 助手的合规风险成为关键，创业者需关注数据来源合法性。
+    summary_en: Grok is a free AI assistant by xAI offering real-time search, image generation, and trend
+      analysis. It faces a lawsuit over training data issues.
+    inspiration_en: Compliance risks in AI assistants are critical; entrepreneurs must ensure data source
+      legality.
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 用户需要获取实时信息、生成图像和分析趋势。
+        job_en: Users need real-time information, image generation, and trend analysis.
+        pain_zh: 传统搜索引擎信息滞后，图像生成工具不集成。
+        pain_en: Traditional search engines lag, and image generation tools are not integrated.
+        current_alternative_zh: 使用 ChatGPT、Google Gemini 等通用助手。
+        current_alternative_en: Using general assistants like ChatGPT, Google Gemini.
+        usage_reason_zh: Grok 拥有大量访问量，但近期诉讼可能影响采用。
+        usage_reason_en: Grok has significant traffic, but the lawsuit may affect adoption.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决用户获取实时信息和生成内容的需求，提供集成式助手，交付可验证。
+        evidence_ids:
+        - ev-b4c985fcd9018ced
+      - gate: consensus
+        status: supported
+        reason: 拥有大量访问量，用户关注度高，但诉讼可能影响共识。
+        evidence_ids:
+        - ev-b4c985fcd9018ced
+      - gate: model
+        status: insufficient
+        reason: 免费使用，商业模式未披露，付费路径不明确。
+        evidence_ids:
+        - ev-b4c985fcd9018ced
+      - gate: truth
+        status: challenged
+        reason: 训练数据合法性受到质疑，可能影响产品可信度。
+        evidence_ids:
+        - ev-b4c985fcd9018ced
+      next_validation: 关注诉讼进展和 xAI 的官方回应，以及用户反馈。
+  hrdx:
+    slug: hrdx
+    name: hrdx
+    decision: rejected
+    event_summary_zh: 开发者发布 hrdx，一个用 Go 编写的极简终端复用器。
+    event_summary_en: Developer released hrdx, a minimal terminal multiplexer written in Go.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    jobs_en:
+    - Developers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: hrdx 是一个用 Go 编写的极简终端复用器，提供类似 tmux 的功能。
+    inspiration: 终端复用器市场已有成熟工具，新项目需差异化。
+    summary_en: hrdx is a minimal terminal multiplexer written in Go, offering tmux-like functionality.
+    inspiration_en: Terminal multiplexer market is mature; new projects need differentiation.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者需要管理多个终端会话。
+        job_en: Developers need to manage multiple terminal sessions.
+        pain_zh: 现有工具如 tmux 功能复杂。
+        pain_en: Existing tools like tmux are complex.
+        current_alternative_zh: 使用 tmux、screen 等成熟工具。
+        current_alternative_en: Using mature tools like tmux, screen.
+        usage_reason_zh: 项目刚发布，采用情况未核验。
+        usage_reason_en: Project just released, adoption not verified.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 未提供具体用户任务、痛点或交付细节，无法判断价值结构。
+        evidence_ids:
+        - ev-21cbf951cd62dbee
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注代码仓库的 star 增长和用户反馈。
+  huggingface:
+    slug: huggingface
+    name: Hugging Face
+    decision: market_context
+    event_summary_zh: Nvidia 据报道同意以 129 亿美元收购 公开模型社区，同时 OpenAI 的 rogue AI 模型事件涉及 公开模型社区 安全漏洞。
+    event_summary_en: Nvidia reportedly agreed to acquire public model community for $12.9 billion, while
+      OpenAI's rogue AI model incident involved public model community security breach.
+    category: 基础层
+    project_type: new_application
+    industries:
+    - 人工智能
+    industries_en:
+    - Artificial Intelligence
+    jobs:
+    - AI 开发者
+    jobs_en:
+    - AI Developers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: 公开模型社区 是流行的开源 AI 模型仓库，据报道将被 Nvidia 以 129 亿美元收购。同时，OpenAI 的 rogue AI 模型事件涉及 公开模型社区 安全漏洞。
+    inspiration: AI 基础设施整合加速，安全风险成为焦点。
+    summary_en: public model community is a popular open-source AI model hub, reportedly to be acquired
+      by Nvidia for $12.9B. Also, OpenAI's rogue AI model incident involved public model community security
+      breach.
+    inspiration_en: AI infrastructure consolidation accelerates, security risks become a focus.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: AI 开发者需要共享和获取模型。
+        job_en: AI developers need to share and access models.
+        pain_zh: 模型分发和版本管理复杂。
+        pain_en: Model distribution and versioning are complex.
+        current_alternative_zh: 使用其他模型仓库或自建。
+        current_alternative_en: Using other model hubs or self-hosting.
+        usage_reason_zh: 收购消息引发关注，但具体影响未核验。
+        usage_reason_en: Acquisition news attracts attention, but impact not verified.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 收购事件是行业变化，非产品功能，无法判断价值结构。
+        evidence_ids:
+        - ev-8bf693fb31b6e16c
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注收购进展和平台政策变化。
+  human-review:
+    slug: human-review
+    name: human-review
+    decision: queued
+    event_summary_zh: 发布一个可视化工具，用于编辑 HTML 和 Markdown 文件，支持类似 Google Docs 的评论，并将反馈发送给 AI agent。
+    event_summary_en: Released a visual tool to edit HTML and Markdown files, leave comments like Google
+      Docs, and send feedback to AI agents.
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    - 内容编辑
+    jobs_en:
+    - Developers
+    - Content Editors
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: human-review 是一个可视化工具，允许用户在 HTML 和 Markdown 文件上编辑和评论，类似 Google Docs，并将反馈发送给 AI agent。它集成在
+      AI 工作流中，帮助用户审查和修改 AI 生成的内容。
+    inspiration: 趋势是 AI 生成内容需要人工审查环节。切入点是提供可视化审查工具，连接人类反馈与 AI agent，可应用于文档、代码审查等场景。
+    summary_en: human-review is a visual tool that lets users edit and comment on HTML and Markdown files,
+      like Google Docs, and send feedback to AI agents. It integrates into AI workflows to help review
+      and modify AI-generated content.
+    inspiration_en: 'Trend: AI-generated content needs human review. Entry: provide visual review tools
+      that connect human feedback to AI agents, applicable to document and code review.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 用户需要审查和修改 AI 生成的 HTML/Markdown 内容。
+        job_en: Users need to review and modify AI-generated HTML/Markdown content.
+        pain_zh: AI 生成内容需要人工校对，但现有工具缺乏可视化反馈机制。
+        pain_en: AI-generated content requires human proofreading, but existing tools lack visual feedback
+          mechanisms.
+        current_alternative_zh: 使用文本编辑器或代码审查工具。
+        current_alternative_en: Using text editors or code review tools.
+        usage_reason_zh: 代码仓库星标超过 1000，显示社区关注。
+        usage_reason_en: Over 1000 stars in the code repository, showing community interest.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决 AI 生成内容的人工审查需求，提供可视化编辑和评论功能，交付可验证。
+        evidence_ids:
+        - ev-5eed2a7d6e8a7be6
+      - gate: consensus
+        status: supported
+        reason: 代码仓库星标超过 1000，显示社区认可。
+        evidence_ids:
+        - ev-5eed2a7d6e8a7be6
+      - gate: model
+        status: insufficient
+        reason: 商业模式未披露，付费路径不明确。
+        evidence_ids:
+        - ev-5eed2a7d6e8a7be6
+      - gate: truth
+        status: supported
+        reason: 工具功能明确，交付确定性高。
+        evidence_ids:
+        - ev-5eed2a7d6e8a7be6
+      next_validation: 关注代码仓库的 issue 和用户反馈，以及是否有付费版本。
+  index:
+    slug: index
+    name: Mintlify Index
+    decision: watching
+    event_summary_zh: Mintlify 发布 Index，一个检索引擎和 MCP 服务器，可通过 npx mint index 安装。
+    event_summary_en: Mintlify released Index, a retrieval engine and MCP server, installable via npx
+      mint index.
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    jobs_en:
+    - Developers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: Mintlify Index 是一个检索引擎和 MCP 服务器，用于帮助 AI 代理检索文档。具体工作流程和交付物尚未披露。
+    inspiration: AI 代理需要更好的文档检索能力，但具体应用场景需进一步验证。
+    summary_en: Mintlify Index is a retrieval engine and MCP server to help AI agents retrieve documentation.
+      Specific workflows and deliverables are not yet disclosed.
+    inspiration_en: AI agents need better documentation retrieval, but specific use cases need further
+      validation.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: AI 代理需要检索文档以回答问题。
+        job_en: AI agents need to retrieve documentation to answer questions.
+        pain_zh: 文档检索效率低，影响 AI 代理性能。
+        pain_en: Inefficient documentation retrieval affects AI agent performance.
+        current_alternative_zh: 使用传统搜索引擎或向量数据库。
+        current_alternative_en: Using traditional search engines or vector databases.
+        usage_reason_zh: 项目刚发布，采用情况未核验。
+        usage_reason_en: Project just released, adoption not verified.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 未提供具体用户任务、痛点或交付细节，无法判断价值结构。
+        evidence_ids:
+        - ev-98bd40f42d3ccd9b
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 关注官方文档和用户反馈，获取具体使用案例。
+  indexflow:
+    slug: indexflow
+    name: IndexFlow
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  interactive:
+    slug: interactive
+    name: Interactive
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  lexi:
+    slug: lexi
+    name: Lexi
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  llm-app-mentor:
+    slug: llm-app-mentor
+    name: LLM-App-Mentor
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  llm-inference-calculator:
+    slug: llm-inference-calculator
+    name: LLM Inference Calculator
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  loadout:
+    slug: loadout
+    name: loadout
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  local:
+    slug: local
+    name: Local
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  loom:
+    slug: loom
+    name: Loom
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  lore:
+    slug: lore
+    name: lore
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    jobs_en:
+    - Developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 开发者在使用 Claude Code 或 Codex 等编码代理时，将每次会话记录保存为本地可搜索的 git 记忆库。它接收会话历史，整理成可检索的档案，供后续查询和复用，帮助开发者回顾之前的决策和上下文。
+    inspiration: 趋势是编码代理的会话记忆成为新资产。切入点是做跨代理的会话记忆标准，而非单一工具。可考虑为团队提供共享记忆库，按席位或存储收费。
+    summary_en: Developers using coding agents like Claude Code or Codex save each session as a local,
+      searchable git memory archive. It ingests session history, organizes it into a retrievable archive
+      for later query and reuse, helping developers recall past decisions and context.
+    inspiration_en: The trend is that session memory of coding agents becomes a new asset. The entry point
+      is to create a cross-agent session memory standard rather than a single tool. Consider offering
+      shared memory repositories for teams, charging per seat or storage.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者需要回顾和复用编码代理的会话历史，以保持上下文连续性和决策一致性。
+        job_en: Developers need to review and reuse coding agent session history to maintain context continuity
+          and decision consistency.
+        pain_zh: 编码代理的会话记录分散且难以检索，导致重复提问、上下文丢失和决策不连贯。
+        pain_en: Coding agent session logs are scattered and hard to search, leading to repeated questions,
+          lost context, and inconsistent decisions.
+        current_alternative_zh: 目前开发者依赖代理内置的会话历史或手动记录，缺乏统一搜索和长期记忆。
+        current_alternative_en: Currently developers rely on built-in session history or manual notes,
+          lacking unified search and long-term memory.
+        usage_reason_zh: 开源项目获得 143 星，显示开发者对会话记忆管理的初步关注，但采用规模尚未核验。
+        usage_reason_en: The open-source project has 143 stars, showing initial developer interest in
+          session memory management, but adoption scale is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决编码代理会话历史难以检索和复用的痛点，替代手动记录和内置历史的低效方式，交付可搜索的本地档案，价值结构成立。
+        evidence_ids:
+        - ev-214716d6022a0e72
+      - gate: consensus
+        status: insufficient
+        reason: 开源项目有 143 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+        evidence_ids:
+        - ev-214716d6022a0e72
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能面向开发者个人或团队，但付费路径不明确。
+        evidence_ids:
+        - ev-214716d6022a0e72
+      - gate: truth
+        status: supported
+        reason: 作为本地工具，交付确定性高，不依赖外部服务，安全边界清晰。
+        evidence_ids:
+        - ev-214716d6022a0e72
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有团队采用或付费案例。
+  main:
+    slug: main
+    name: agent-desktop
+    decision: watching
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    jobs_en:
+    - Developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 一个开源项目，旨在让桌面自动化对 AI 代理更可靠。它可能提供更准确的桌面操作反馈，但具体流程和交付仍待核验。
+    inspiration: 趋势是 AI 代理从云端走向桌面操作。切入点是解决桌面自动化的可靠性问题，可考虑为特定行业（如测试、运维）提供定制化方案。
+    summary_en: An open-source project aiming to make desktop automation more reliable for AI agents.
+      It may provide more accurate desktop operation feedback, but specific workflow and deliverables
+      are yet to be verified.
+    inspiration_en: The trend is AI agents moving from cloud to desktop operations. The entry point is
+      solving desktop automation reliability, possibly offering customized solutions for specific industries
+      like testing or operations.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者希望 AI 代理能可靠地执行桌面自动化任务，如操作软件界面。
+        job_en: Developers want AI agents to reliably perform desktop automation tasks, such as operating
+          software interfaces.
+        pain_zh: 现有桌面自动化工具对 AI 代理的反馈不准确，导致任务失败或需要人工干预。
+        pain_en: Existing desktop automation tools provide inaccurate feedback to AI agents, causing task
+          failures or requiring manual intervention.
+        current_alternative_zh: 目前开发者可能使用传统自动化脚本或人工操作，缺乏与 AI 代理的无缝集成。
+        current_alternative_en: Currently developers may use traditional automation scripts or manual
+          operations, lacking seamless integration with AI agents.
+        usage_reason_zh: 项目在技术社区仅有 6 分，关注度低，采用证据不足。
+        usage_reason_en: The project has only 6 points on a tech community, indicating low attention and
+          insufficient adoption evidence.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 项目描述模糊，未明确解决的具体任务和痛点，价值主张不清晰。
+        evidence_ids: []
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏用户反馈和采用数据，共识未形成。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，付费路径不明。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 项目信息不足，无法判断交付确定性。
+        evidence_ids: []
+      next_validation: 关注项目文档和代码更新，以及是否有实际使用案例。
+  mark:
+    slug: mark
+    name: mark
+    decision: watching
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 人工智能
+    industries_en:
+    - Artificial Intelligence
+    jobs:
+    - AI 安全研究员
+    jobs_en:
+    - AI Safety Researchers
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 一个工具，能够在不改变可见文本的情况下，将 SynthID 水印检测率从 188/192 降至 0/192，可能用于测试或绕过 AI 内容水印。具体用途和交付仍待核验。
+    inspiration: 趋势是 AI 内容水印的攻防博弈。切入点是开发更鲁棒的水印技术或检测工具，面向内容平台和监管机构。
+    summary_en: A tool that can reduce SynthID watermark detection from 188/192 to 0/192 without changing
+      visible text, possibly for testing or bypassing AI content watermarks. Specific use and deliverables
+      are yet to be verified.
+    inspiration_en: The trend is the attack-defense game of AI content watermarking. The entry point is
+      developing more robust watermarking or detection tools for content platforms and regulators.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 用户可能希望测试或绕过 AI 内容水印，以验证其鲁棒性或规避检测。
+        job_en: Users may want to test or bypass AI content watermarks to verify robustness or evade detection.
+        pain_zh: 现有水印可能被轻易移除，导致内容溯源失效。
+        pain_en: Existing watermarks may be easily removed, rendering content provenance ineffective.
+        current_alternative_zh: 目前水印技术主要依赖 SynthID 等，但缺乏对抗性测试工具。
+        current_alternative_en: Current watermarking relies on SynthID etc., but lacks adversarial testing
+          tools.
+        usage_reason_zh: 项目在技术社区仅有 5 分，关注度低，采用证据不足。
+        usage_reason_en: The project has only 5 points on a tech community, indicating low attention and
+          insufficient adoption evidence.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 项目描述仅提及水印移除，未明确用户任务和痛点，价值主张不清晰。
+        evidence_ids:
+        - ev-5f09ba313d94c441
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏用户反馈和采用数据，共识未形成。
+        evidence_ids:
+        - ev-5f09ba313d94c441
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，付费路径不明。
+        evidence_ids:
+        - ev-5f09ba313d94c441
+      - gate: truth
+        status: insufficient
+        reason: 项目信息不足，无法判断交付确定性。
+        evidence_ids:
+        - ev-5f09ba313d94c441
+      next_validation: 关注项目网站和社区讨论，以及是否有实际应用场景。
+  microduck:
+    slug: microduck
+    name: Microduck
+    decision: watching
+    category: AI + 生活
+    project_type: new_application
+    industries:
+    - 教育
+    - 机器人
+    industries_en:
+    - Education
+    - Robotics
+    jobs:
+    - 爱好者
+    - 教育工作者
+    jobs_en:
+    - Hobbyists
+    - Educators
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 一个微型开源双足机器人，用户可以自行训练。它可能用于教育或娱乐，但具体功能和训练流程仍待核验。
+    inspiration: 趋势是开源硬件与 AI 结合。切入点是面向教育市场，提供可编程的机器人套件，培养动手能力。
+    summary_en: A tiny open-source biped robot that users can train themselves. It may be used for education
+      or entertainment, but specific features and training process are yet to be verified.
+    inspiration_en: The trend is open-source hardware combined with AI. The entry point is targeting the
+      education market with programmable robot kits to foster hands-on skills.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 用户可能希望学习机器人技术或进行娱乐，但具体任务和痛点不明确。
+        job_en: Users may want to learn robotics or for entertainment, but specific tasks and pain points
+          are unclear.
+        pain_zh: 现有机器人套件价格高或封闭，缺乏开源可训练的选择。
+        pain_en: Existing robot kits are expensive or closed, lacking open-source trainable options.
+        current_alternative_zh: 目前用户可能使用乐高或其他商业机器人套件，但定制性差。
+        current_alternative_en: Currently users may use LEGO or other commercial robot kits, but customization
+          is poor.
+        usage_reason_zh: 产品在发布平台上线，但缺乏具体数据和用户反馈。
+        usage_reason_en: The product was launched on a platform, but lacks specific data and user feedback.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 产品描述仅提及可训练的双足机器人，未明确用户任务和痛点，价值主张不清晰。
+        evidence_ids:
+        - ev-b0430d75d82cdfcd
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏用户反馈和采用数据，共识未形成。
+        evidence_ids:
+        - ev-b0430d75d82cdfcd
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，付费路径不明。
+        evidence_ids:
+        - ev-b0430d75d82cdfcd
+      - gate: truth
+        status: insufficient
+        reason: 产品信息不足，无法判断交付确定性。
+        evidence_ids:
+        - ev-b0430d75d82cdfcd
+      next_validation: 关注产品页面和社区反馈，以及是否有实际使用案例。
+  minimax-h3-director-cut-studio:
+    slug: minimax-h3-director-cut-studio
+    name: MiniMax-H3-Director-Cut-Studio
+    decision: queued
+    category: AI + 创作
+    project_type: open_source
+    industries:
+    - 影视制作
+    - 内容创作
+    industries_en:
+    - Film Production
+    - Content Creation
+    jobs:
+    - 视频剪辑师
+    - 导演
+    jobs_en:
+    - Video Editors
+    - Directors
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 一个基于 PySide6 的导演工作室工具，用于 MiniMax H3 Ref2VA 模型，提供 AI 镜头规划、语义媒体增强、时间线提示词协调和镜头感知的长视频渲染。它接收视频素材和提示词，输出规划好的镜头和渲染结果。
+    inspiration: 趋势是 AI 视频生成从单镜头走向长视频导演级控制。切入点是面向专业剪辑师，提供与 Premiere 类似的工作流，可考虑按渲染量或订阅收费。
+    summary_en: A PySide6-based director studio for MiniMax H3 Ref2VA, offering AI shot planning, semantic
+      media enrichment, timeline prompt reconciliation, and shot-aware long-video rendering. It takes
+      video assets and prompts, outputs planned shots and rendered results.
+    inspiration_en: The trend is AI video generation moving from single shots to director-level control
+      of long videos. The entry point is targeting professional editors with a Premiere-like workflow,
+      possibly charging per render or subscription.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 视频创作者需要将 AI 生成的片段组织成连贯的长视频，并控制镜头和叙事。
+        job_en: Video creators need to organize AI-generated clips into coherent long videos with control
+          over shots and narrative.
+        pain_zh: 现有 AI 视频工具缺乏对长视频的结构化控制，导致剪辑繁琐且不连贯。
+        pain_en: Existing AI video tools lack structured control over long videos, making editing tedious
+          and incoherent.
+        current_alternative_zh: 目前创作者可能使用 Premiere 等传统剪辑软件，但无法直接利用 AI 生成能力。
+        current_alternative_en: Currently creators may use traditional editing software like Premiere,
+          but cannot directly leverage AI generation.
+        usage_reason_zh: 开源项目获得 77 星，显示视频创作者对 AI 导演工具的初步兴趣，但采用规模尚未核验。
+        usage_reason_en: The open-source project has 77 stars, showing initial interest from video creators
+          in AI director tools, but adoption scale is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决 AI 视频生成缺乏长视频结构化控制的问题，替代传统剪辑软件与 AI 生成的割裂，交付可规划的镜头和渲染结果，价值结构成立。
+        evidence_ids:
+        - ev-25e711d77845ab45
+      - gate: consensus
+        status: insufficient
+        reason: 开源项目有 77 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+        evidence_ids:
+        - ev-25e711d77845ab45
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能面向专业创作者，但付费路径不明确。
+        evidence_ids:
+        - ev-25e711d77845ab45
+      - gate: truth
+        status: supported
+        reason: 作为本地工具，交付确定性高，不依赖外部服务，安全边界清晰。
+        evidence_ids:
+        - ev-25e711d77845ab45
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际使用案例。
+  ms-365-21v-mcp-server:
+    slug: ms-365-21v-mcp-server
+    name: ms-365-21v-mcp-server
+    decision: queued
+    category: AI + 商业
+    project_type: open_source
+    industries:
+    - 企业服务
+    industries_en:
+    - Enterprise Services
+    jobs:
+    - IT 管理员
+    jobs_en:
+    - IT Administrators
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: true
+    summary_zh: 一个针对由 21Vianet 运营的 Microsoft 365 的策略感知 OAuth 2.1 MCP 网关。它接收 MCP 请求，处理认证和策略，使 AI 代理能安全访问中国版
+      Microsoft 365 数据。
+    inspiration: 趋势是 AI 代理需要安全访问企业数据。切入点是解决中国市场的合规和认证问题，可考虑为企业提供部署和支持服务。
+    summary_en: A policy-aware OAuth 2.1 MCP gateway for Microsoft 365 operated by 21Vianet. It receives
+      MCP requests, handles authentication and policy, enabling AI agents to securely access China-version
+      Microsoft 365 data.
+    inspiration_en: The trend is AI agents needing secure access to enterprise data. The entry point is
+      solving compliance and authentication issues in the Chinese market, possibly offering deployment
+      and support services to enterprises.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 企业 IT 管理员需要让 AI 代理安全访问中国版 Microsoft 365 的数据，同时满足合规要求。
+        job_en: Enterprise IT administrators need to enable AI agents to securely access China-version
+          Microsoft 365 data while meeting compliance requirements.
+        pain_zh: 中国版 Microsoft 365 的认证和策略与全球版不同，导致 AI 代理集成困难。
+        pain_en: The authentication and policies of China-version Microsoft 365 differ from global, making
+          AI agent integration difficult.
+        current_alternative_zh: 目前企业可能使用自定义脚本或手动认证，缺乏标准化的 MCP 网关。
+        current_alternative_en: Currently enterprises may use custom scripts or manual authentication,
+          lacking a standardized MCP gateway.
+        usage_reason_zh: 开源项目获得 44 星，显示对合规 MCP 网关的初步需求，但采用规模尚未核验。
+        usage_reason_en: The open-source project has 44 stars, showing initial demand for compliant MCP
+          gateways, but adoption scale is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决中国版 Microsoft 365 的认证和策略差异问题，替代自定义脚本和手动认证，交付安全的 MCP 网关，价值结构成立。
+        evidence_ids:
+        - ev-67f9a092b79bcc01
+      - gate: consensus
+        status: insufficient
+        reason: 开源项目有 44 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+        evidence_ids:
+        - ev-67f9a092b79bcc01
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能面向企业，但付费路径不明确。
+        evidence_ids:
+        - ev-67f9a092b79bcc01
+      - gate: truth
+        status: supported
+        reason: 作为开源网关，交付确定性高，但依赖 Microsoft 365 的 API 稳定性。
+        evidence_ids:
+        - ev-67f9a092b79bcc01
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用案例。
+  my-free-code:
+    slug: my-free-code
+    name: my-free-code
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    jobs_en:
+    - Developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 一个开源的多提供商 AI 网关，用于 Claude Code 和其他编码代理，支持模型路由、流式传输、工具调用、推理、回退和本地模型。它接收代理请求，路由到合适的模型，并返回结果。
+    inspiration: 趋势是编码代理需要灵活的多模型接入。切入点是提供企业级网关，可考虑按调用量或订阅收费。
+    summary_en: An open-source multi-provider AI gateway for Claude Code and other coding agents, supporting
+      model routing, streaming, tools, reasoning, fallbacks, and local models. It receives agent requests,
+      routes to appropriate models, and returns results.
+    inspiration_en: The trend is coding agents needing flexible multi-model access. The entry point is
+      providing enterprise-grade gateways, possibly charging per call or subscription.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者需要让编码代理灵活使用多个 AI 模型，以优化成本和性能。
+        job_en: Developers need to enable coding agents to flexibly use multiple AI models to optimize
+          cost and performance.
+        pain_zh: 单一模型提供商可能成本高或性能不足，缺乏统一的路由和回退机制。
+        pain_en: Single model providers may be costly or underperform, lacking unified routing and fallback
+          mechanisms.
+        current_alternative_zh: 目前开发者可能手动切换模型或使用多个代理，缺乏统一网关。
+        current_alternative_en: Currently developers may manually switch models or use multiple agents,
+          lacking a unified gateway.
+        usage_reason_zh: 开源项目获得 131 星，显示开发者对多模型网关的初步需求，但采用规模尚未核验。
+        usage_reason_en: The open-source project has 131 stars, showing initial demand for multi-model
+          gateways, but adoption scale is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决编码代理多模型接入和路由问题，替代手动切换和多个代理，交付统一网关，价值结构成立。
+        evidence_ids:
+        - ev-42699bf18748d1b9
+      - gate: consensus
+        status: insufficient
+        reason: 开源项目有 131 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+        evidence_ids:
+        - ev-42699bf18748d1b9
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能面向开发者或企业，但付费路径不明确。
+        evidence_ids:
+        - ev-42699bf18748d1b9
+      - gate: truth
+        status: supported
+        reason: 作为开源网关，交付确定性高，但依赖模型提供商的 API 稳定性。
+        evidence_ids:
+        - ev-42699bf18748d1b9
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际使用案例。
+  noobiai:
+    slug: noobiai
+    name: Noobi.ai
+    decision: queued
+    category: AI + 创作
+    project_type: new_application
+    industries:
+    - 游戏开发
+    - 教育
+    industries_en:
+    - Game Development
+    - Education
+    jobs:
+    - 游戏开发者
+    - 教育工作者
+    jobs_en:
+    - Game Developers
+    - Educators
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 一个本地优先的桌面代理，通过 Codex App Server 将提示词转化为可审查、可玩的浏览器游戏。它接收用户提示，生成游戏代码，并输出可运行的游戏。
+    inspiration: 趋势是 AI 从生成内容到生成完整应用。切入点是面向游戏开发者和教育者，提供快速原型工具，可考虑按项目或订阅收费。
+    summary_en: A local-first desktop agent that turns a prompt into a reviewed, playable browser game
+      with Codex App Server. It takes user prompts, generates game code, and outputs a playable game.
+    inspiration_en: The trend is AI moving from generating content to generating complete applications.
+      The entry point is targeting game developers and educators for rapid prototyping, possibly charging
+      per project or subscription.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 用户希望快速将想法转化为可玩的游戏原型，以验证概念或用于教学。
+        job_en: Users want to quickly turn ideas into playable game prototypes to validate concepts or
+          for teaching.
+        pain_zh: 传统游戏开发周期长、成本高，难以快速迭代原型。
+        pain_en: Traditional game development is slow and costly, making rapid prototyping difficult.
+        current_alternative_zh: 目前开发者可能使用游戏引擎或外包，但耗时且昂贵。
+        current_alternative_en: Currently developers may use game engines or outsource, which is time-consuming
+          and expensive.
+        usage_reason_zh: 开源项目获得 242 星，显示对 AI 游戏生成的初步兴趣，但采用规模尚未核验。
+        usage_reason_en: The open-source project has 242 stars, showing initial interest in AI game generation,
+          but adoption scale is not yet verified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决游戏原型快速生成的问题，替代传统开发周期，交付可玩的游戏，价值结构成立。
+        evidence_ids:
+        - ev-c3bc9df52f0211fb
+      - gate: consensus
+        status: insufficient
+        reason: 开源项目有 242 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+        evidence_ids:
+        - ev-c3bc9df52f0211fb
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，可能面向开发者或教育者，但付费路径不明确。
+        evidence_ids:
+        - ev-c3bc9df52f0211fb
+      - gate: truth
+        status: supported
+        reason: 作为本地工具，交付确定性高，但生成质量可能不稳定。
+        evidence_ids:
+        - ev-c3bc9df52f0211fb
+      next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际使用案例。
+  notchdrop:
+    slug: notchdrop
+    name: NotchDrop
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  obsidian-img:
+    slug: obsidian-img
+    name: SiteData
+    decision: queued
+    event_summary_zh: SiteData 将 Google Ads 标题模糊查询从约 6 秒优化至约 0.6 秒，使免费广告投放站点数功能从手动触发变为自然展示。
+    event_summary_en: SiteData optimized Google Ads title fuzzy search from ~6s to ~0.6s, enabling the
+      free ad-spend site count feature to display naturally instead of manual trigger.
+    category: AI + 商业
+    project_type: ai_transformation
+    industries:
+    - 数字营销
+    - SEO
+    industries_en:
+    - Digital Marketing
+    - SEO
+    jobs:
+    - SEO 专家
+    - 联盟营销人员
+    - 媒体购买人员
+    jobs_en:
+    - SEO specialists
+    - Affiliate marketers
+    - Media buyers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: SiteData 是浏览器插件，用户在 Google 搜索关键词时，它展示该词最近 4 周有多少网站投放 Google Ads，点击可查看具体投放站点、广告主、流量和 DR。AI
+      接收关键词查询，返回广告竞争信号，帮助判断关键词是否经过真金白银验证。
+    inspiration: 趋势是广告情报从搜索量转向真实投放行为，用投放网站数验证商业意图。切入点是面向 SEO、AFF 和 media buying 人群，把广告竞争信号做成默认展示，按查询或订阅收费。
+    summary_en: SiteData is a browser extension that shows how many sites have run Google Ads for a keyword
+      in the last 4 weeks, with clickable details on advertisers, traffic, and DR. AI processes keyword
+      queries to return ad competition signals, helping users gauge if a keyword is backed by real ad
+      spend.
+    inspiration_en: 'Trend: ad intelligence shifts from search volume to actual ad spend, using site count
+      to validate commercial intent. Entry: target SEO, affiliate, and media buying professionals, make
+      ad competition signals default, and charge per query or subscription.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: SEO、AFF、media buying 从业者需要判断关键词是否值得投入，避免盲目选择。
+        job_en: SEO, affiliate, and media buying professionals need to assess whether a keyword is worth
+          investing in, avoiding blind choices.
+        pain_zh: 搜索量只反映兴趣，不能反映真实商业行为；缺乏广告投放数据导致决策盲猜。
+        pain_en: Search volume only reflects interest, not real commercial behavior; lack of ad spend
+          data leads to guesswork.
+        current_alternative_zh: 手动查看 Google Ads 或使用其他工具，但数据不全面或查询慢。
+        current_alternative_en: Manually checking Google Ads or using other tools, but data is incomplete
+          or queries are slow.
+        usage_reason_zh: 免费提供广告投放站点数，且查询速度快，能直接嵌入搜索流程，提供额外信号。
+        usage_reason_en: Free ad-spend site count with fast queries, seamlessly integrated into search
+          flow, providing extra signal.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决关键词决策中缺乏真实商业验证的痛点，用广告投放网站数补充搜索量，交付可核对的竞争信号。工作流结构判断：旧流程依赖搜索量和 CPC，无法直接反映持续预算。
+        evidence_ids:
+        - ev-86292c05ec3130ff
+      - gate: consensus
+        status: supported
+        reason: 社区讨论和作者自述表明用户对广告信号有需求，功能从手动触发变为默认展示，说明采用意愿增强。
+        evidence_ids:
+        - ev-86292c05ec3130ff
+      - gate: model
+        status: insufficient
+        reason: 目前该功能免费，未披露付费模式；可能向 SEO 工具订阅收费，但尚未验证。
+        evidence_ids:
+        - ev-86292c05ec3130ff
+      - gate: truth
+        status: supported
+        reason: 数据来自 Google Ads 真实投放，查询结果可核对，交付确定性高。
+        evidence_ids:
+        - ev-86292c05ec3130ff
+      next_validation: 关注 SiteData 是否推出付费套餐或定价页，以及用户对广告信号功能的持续使用反馈。
+  onlybotschat:
+    slug: onlybotschat
+    name: OnlyBots.chat
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  openlayer:
+    slug: openlayer
+    name: OpenLayer
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  opentag:
+    slug: opentag
+    name: OpenTag
+    decision: queued
+    event_summary_zh: OpenTag 作为 AI 同事，集成在 Slack 和 Teams 中，提供协作功能。
+    event_summary_en: OpenTag, an AI coworker, integrates with Slack and Teams for collaboration.
+    category: AI + 效率
+    project_type: new_application
+    industries:
+    - 软件
+    - 信息技术
+    industries_en:
+    - Software
+    - Information Technology
+    jobs:
+    - 项目经理
+    - 团队成员
+    jobs_en:
+    - Project managers
+    - Team members
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: OpenTag 是集成在 Slack 和 Teams 中的 AI 同事，用户在聊天界面直接调用，AI 接收任务指令，执行信息检索、任务管理等动作，返回可操作的结果。具体流程和交付仍待核验。
+    inspiration: 趋势是 AI 从独立工具融入现有协作平台，成为团队一员。切入点是面向使用 Slack/Teams 的团队，提供垂直场景的 AI 同事，如项目管理或客户支持，按席位收费。
+    summary_en: OpenTag is an AI coworker integrated into Slack and Teams, invoked directly in chat. It
+      receives task instructions, performs actions like information retrieval and task management, and
+      returns actionable results. Specific workflows and deliverables are yet to be verified.
+    inspiration_en: 'Trend: AI moves from standalone tools into existing collaboration platforms, becoming
+      a team member. Entry: target teams using Slack/Teams, offer vertical AI coworkers for project management
+      or customer support, charge per seat.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 团队成员需要在聊天工具中快速完成任务，如查找信息、管理任务，无需切换应用。
+        job_en: Team members need to complete tasks quickly within chat tools, such as finding information
+          or managing tasks, without switching apps.
+        pain_zh: 频繁切换工具打断工作流，信息分散，协作效率低。
+        pain_en: Frequent tool switching disrupts workflow, information is scattered, and collaboration
+          efficiency is low.
+        current_alternative_zh: 使用多个独立应用或手动搜索，缺乏统一入口。
+        current_alternative_en: Using multiple standalone apps or manual searches, lacking a unified entry
+          point.
+        usage_reason_zh: 集成在现有聊天平台，降低采用门槛，提供即时帮助。
+        usage_reason_en: Integrated into existing chat platforms, lowering adoption barriers and providing
+          immediate assistance.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决团队在聊天工具中处理任务的需求，减少切换成本，交付即时结果。工作流结构判断：旧流程依赖多应用切换，效率低。
+        evidence_ids:
+        - ev-3b00f69c0213c53c
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏用户采用或社区讨论证据，仅产品页面描述。
+        evidence_ids:
+        - ev-3b00f69c0213c53c
+      - gate: model
+        status: insufficient
+        reason: 未披露定价，可能按席位订阅，但未验证。
+        evidence_ids:
+        - ev-3b00f69c0213c53c
+      - gate: truth
+        status: insufficient
+        reason: 具体功能边界和交付质量未披露，需进一步验证。
+        evidence_ids:
+        - ev-3b00f69c0213c53c
+      next_validation: 查看 OpenTag 官网或文档，确认具体功能、定价和客户案例。
+  opentie-and-openxwa:
+    slug: opentie-and-openxwa
+    name: OpenTIE and OpenXWA
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  owlywriter-ai-by-hootsuite-2:
+    slug: owlywriter-ai-by-hootsuite-2
+    name: OwlyWriter AI by Hootsuite
+    decision: queued
+    event_summary_zh: OwlyWriter AI 月访问量 279 万，环比增长 49.37%，进入全球增速榜和总榜。
+    event_summary_en: OwlyWriter AI has 2.79M monthly visits, up 49.37% month-over-month, appearing on
+      global growth and overall charts.
+    category: AI + 商业
+    project_type: ai_transformation
+    industries:
+    - 社交媒体
+    - 营销
+    industries_en:
+    - Social Media
+    - Marketing
+    jobs:
+    - 社交媒体经理
+    - 内容创作者
+    jobs_en:
+    - Social media managers
+    - Content creators
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: OwlyWriter AI 是 Hootsuite 的社交媒体内容生成工具，用户输入主题或关键词，AI 生成帖子文案、标题等，可直接发布或编辑。它集成在 Hootsuite
+      平台，帮助管理多平台内容。
+    inspiration: 趋势是社交媒体管理工具内置 AI 生成，提升内容生产效率。切入点是面向中小企业社交媒体经理，提供垂直行业模板和批量生成，按订阅收费。
+    summary_en: OwlyWriter AI is Hootsuite's social media content generation tool. Users input topics
+      or keywords, and AI generates post copy, headlines, etc., ready for publishing or editing. Integrated
+      into Hootsuite, it helps manage multi-platform content.
+    inspiration_en: 'Trend: social media management tools embed AI generation to boost content productivity.
+      Entry: target social media managers at SMBs, offer vertical templates and batch generation, charge
+      subscription.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 社交媒体经理需要快速生成多平台内容，保持活跃度。
+        job_en: Social media managers need to quickly generate content for multiple platforms to maintain
+          activity.
+        pain_zh: 内容创作耗时，缺乏灵感，难以保持一致性。
+        pain_en: Content creation is time-consuming, lacks inspiration, and hard to maintain consistency.
+        current_alternative_zh: 手动撰写或使用通用 AI 工具，但缺乏平台集成和优化。
+        current_alternative_en: Manual writing or using generic AI tools, but lacking platform integration
+          and optimization.
+        usage_reason_zh: 集成在 Hootsuite，用户已在使用，AI 生成降低创作门槛，访问量增长表明采用。
+        usage_reason_en: Integrated into Hootsuite, users already on the platform; AI generation lowers
+          creation barrier, and traffic growth indicates adoption.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决社交媒体内容创作耗时问题，AI 生成文案，交付可编辑的帖子。工作流结构判断：旧流程依赖手动撰写或外包，效率低。
+        evidence_ids:
+        - ev-fc87c2dc541bff2d
+      - gate: consensus
+        status: supported
+        reason: 月访问量 279 万，环比增长 49.37%，表明用户关注和采用。
+        evidence_ids:
+        - ev-fc87c2dc541bff2d
+      - gate: model
+        status: supported
+        reason: Hootsuite 已有订阅模式，OwlyWriter 作为增值功能，付费路径清晰。
+        evidence_ids:
+        - ev-fc87c2dc541bff2d
+      - gate: truth
+        status: supported
+        reason: Hootsuite 是成熟平台，AI 功能交付确定性高。
+        evidence_ids:
+        - ev-fc87c2dc541bff2d
+      next_validation: 关注 OwlyWriter 的付费转化率和用户留存数据，以及是否独立定价。
+  pentest-harness:
+    slug: pentest-harness
+    name: pentest-harness
+    decision: queued
+    event_summary_zh: pentest-harness 在代码托管平台获得 221 星，37 fork，11 个 open issues，作为自托管 AI agent 工具用于授权渗透测试。
+    event_summary_en: pentest-harness has 221 stars, 37 forks, and 11 open issues on a code hosting platform,
+      as a self-hosted AI agent tool for authorized pentests.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 网络安全
+    industries_en:
+    - Cybersecurity
+    jobs:
+    - 渗透测试员
+    - 安全研究员
+    jobs_en:
+    - Penetration testers
+    - Security researchers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: pentest-harness 是自托管的 AI agent 工具，用于授权渗透测试、漏洞赏金、安全实验室和 CTF。用户自带 AI 模型 API，会话保持本地，AI 接收测试任务，执行扫描和分析，返回漏洞报告。
+    inspiration: 趋势是 AI 代理进入安全测试领域，自动化重复性工作。切入点是面向安全团队，提供本地化、可定制的 AI 渗透助手，按开源支持或企业版收费。
+    summary_en: pentest-harness is a self-hosted AI agent tool for authorized pentests, bug bounty, security
+      labs, and CTFs. Users bring their own AI model API, sessions stay local. AI receives test tasks,
+      performs scanning and analysis, and returns vulnerability reports.
+    inspiration_en: 'Trend: AI agents enter security testing, automating repetitive tasks. Entry: target
+      security teams, offer localized, customizable AI pentest assistants, charge for open-source support
+      or enterprise versions.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 渗透测试员需要在授权范围内高效执行测试，发现漏洞。
+        job_en: Penetration testers need to efficiently execute tests within authorized scope and find
+          vulnerabilities.
+        pain_zh: 手动测试耗时，重复性工作多，工具分散。
+        pain_en: Manual testing is time-consuming, repetitive tasks are many, and tools are scattered.
+        current_alternative_zh: 使用传统渗透测试工具和脚本，缺乏 AI 辅助。
+        current_alternative_en: Using traditional pentest tools and scripts, lacking AI assistance.
+        usage_reason_zh: 开源、自托管，数据本地化，代码托管平台星数表明关注。
+        usage_reason_en: Open-source, self-hosted, data stays local; code hosting platform stars indicate
+          interest.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决渗透测试中重复性工作耗时问题，AI 执行扫描和分析，交付漏洞报告。工作流结构判断：旧流程依赖手动脚本，效率低。
+        evidence_ids:
+        - ev-7c4776298d6d8a82
+      - gate: consensus
+        status: supported
+        reason: 代码托管平台 221 星和 37 fork 表明社区关注。
+        evidence_ids:
+        - ev-7c4776298d6d8a82
+      - gate: model
+        status: insufficient
+        reason: 开源项目，未披露商业模式，可能通过支持或企业版收费。
+        evidence_ids:
+        - ev-7c4776298d6d8a82
+      - gate: truth
+        status: supported
+        reason: 自托管确保数据安全，AI 模型 API 自带，交付可验证。
+        evidence_ids:
+        - ev-7c4776298d6d8a82
+      next_validation: 关注代码托管平台仓库的 issue 和讨论，了解实际使用反馈和功能完善度。
