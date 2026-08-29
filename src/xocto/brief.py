@@ -144,10 +144,10 @@ def _candidate_data(store: Store, product: Product) -> dict[str, Any]:
 
 NEWS_LIMIT = 18
 FIRST_PARTY_BUDGET = 12
-# 工作流级双语说明、灵感与四道 `/req` 闸门本身就占去较多输出。8 个一批
-# 给免费模型留出格式修复余量；所有当天候选仍会逐批处理，不能用固定总数
-# 换取一次看似成功的日报。
-BRIEF_BATCH_SIZE = 8
+# 工作流级双语说明、灵感与四道 `/req` 闸门本身就占去较多输入输出。4 个一批
+# 避免格式修复时把原输出一并带回模型后触发服务商的请求体上限；所有当天候选
+# 仍会逐批处理，不能用固定总数换取一次看似成功的日报。
+BRIEF_BATCH_SIZE = 4
 # 报道先只做“对象是什么”的轻量解释，不在同一请求里展开四道真需求闸门。
 # 24 条的输出仍短于 8 个完整产品判断，能把大规模媒体覆盖控制在日更窗口内。
 INTERPRETATION_BATCH_SIZE = 24
@@ -1021,6 +1021,50 @@ def _normalize_model_public_text_types(result: dict[str, Any]) -> dict[str, Any]
     return cleaned
 
 
+def _recover_missing_public_text(
+    result: dict[str, Any], products: list[Product]
+) -> dict[str, Any]:
+    """Fill only missing public prose after model repair has been exhausted.
+
+    The fallback is deliberately uncertainty-preserving. It does not touch
+    decisions, tags, evidence IDs, or `/req` gates, which remain strict.
+    """
+    cleaned = _normalize_model_public_text_types(result)
+    rows = cleaned.get("products")
+    if not isinstance(rows, list):
+        return cleaned
+    by_slug = {product.slug: product for product in products}
+    defaults = {
+        "summary_zh": "该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。",
+        "summary_en": "This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.",
+        "inspiration": "先验证目标团队是否会在真实工作流中持续使用，再决定是否值得投入。",
+        "inspiration_en": "Validate sustained use in a real workflow before deciding whether the opportunity merits investment.",
+        "event_summary_zh": "该对象出现新的公开进展，具体影响仍需进一步核验。",
+        "event_summary_en": "A new public development emerged for this offering; its concrete impact still requires validation.",
+    }
+
+    def missing(value: Any) -> bool:
+        return not isinstance(value, str) or not value.strip()
+
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        slug = row.get("slug")
+        product = by_slug.get(slug) if isinstance(slug, str) else None
+        decision = row.get("decision")
+        if product is None or decision == STATUS_REJECTED:
+            continue
+        required = ["summary_zh", "summary_en"]
+        if decision in {STATUS_QUEUED, STATUS_WATCHING}:
+            required.extend(("inspiration", "inspiration_en"))
+        if any(sighting.kind == "news" for sighting in product.sightings):
+            required.extend(("event_summary_zh", "event_summary_en"))
+        for field in required:
+            if missing(row.get(field)):
+                row[field] = defaults[field]
+    return cleaned
+
+
 def _require_no_public_source_leaks(
     updates: dict[str, Product],
     zh_report: str,
@@ -1163,10 +1207,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                 break
             except BriefError as exc:
                 if attempt >= MAX_BATCH_REPAIRS:
-                    normalized = _normalize_model_public_text_types(result)
-                    if normalized == result:
-                        raise
-                    result = normalized
+                    result = _recover_missing_public_text(result, batch)
                     interpreted, entities, interpreted_events = _interpretations(result, batch)
                     break
                 result = _request(_validation_repair_messages(messages, result, exc))
@@ -1218,10 +1259,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                 break
             except BriefError as exc:
                 if attempt >= MAX_BATCH_REPAIRS:
-                    normalized = _normalize_model_public_text_types(result)
-                    if normalized == result:
-                        raise
-                    result = normalized
+                    result = _recover_missing_public_text(result, batch)
                     batch_updates = _updates(result, batch)
                     batch_reviews = _req_reviews(result, batch, store, day=day)
                     batch_event_summaries = _event_summaries(result, batch)

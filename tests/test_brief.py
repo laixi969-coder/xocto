@@ -22,6 +22,7 @@ from xocto.brief import (
     _public_source_leaks,
     _report_prompt,
     _report_markdown,
+    _recover_missing_public_text,
     _require_no_public_source_leaks,
     _require_priority_coverage,
     _req_reviews,
@@ -704,6 +705,33 @@ class BriefTests(unittest.TestCase):
         self.assertEqual(row["req_initial"]["gates"][0]["reason"], "公开材料尚未证明 持续付费。")
         self.assertEqual(cleaned["report"]["hook_zh"], "本期出现新的交付信号")
         self.assertEqual(cleaned["report"]["highlights_en"], ["One new delivery signal"])
+
+    def test_terminal_public_copy_fallback_preserves_uncertainty(self) -> None:
+        candidate = replace(
+            product("qwen38-flash-next"),
+            sightings=(
+                Sighting("producthunt", "https://example.com", "2026-08-13T23:10:00Z", {}),
+                Sighting("marketfeeds", "https://news.example/qwen", "2026-08-13T23:10:00Z", {}, kind="news"),
+            ),
+        )
+        result = {
+            "products": [{
+                "slug": candidate.slug,
+                "decision": "watching",
+                "summary_zh": None,
+                "summary_en": "A compact open-weight model preview.",
+                "inspiration": [],
+                "inspiration_en": "Validate production use before investing.",
+            }]
+        }
+
+        recovered = _recover_missing_public_text(result, [candidate])["products"][0]
+
+        self.assertIn("尚不足以确认", recovered["summary_zh"])
+        self.assertEqual(recovered["summary_en"], "A compact open-weight model preview.")
+        self.assertIn("真实工作流", recovered["inspiration"])
+        self.assertIn("进一步核验", recovered["event_summary_zh"])
+        self.assertIn("requires validation", recovered["event_summary_en"])
 
     def test_failed_run_resumes_from_the_first_unfinished_batch(self) -> None:
         def market_context(slug: str) -> dict:
