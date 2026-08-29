@@ -11,6 +11,7 @@ from xocto.brief import (
     BriefError,
     PublicSourceLeakError,
     _decode_json_object,
+    _event_summaries,
     _interpretation_prompt,
     _interpretations,
     _model_providers,
@@ -113,6 +114,35 @@ class BriefTests(unittest.TestCase):
         self.assertIn("载体不等于对象", prompt[0]["content"])
         self.assertIn("entity|market_context|rejected", prompt[0]["content"])
         self.assertNotIn("req_initial", prompt[0]["content"])
+
+    def test_news_event_summary_falls_back_to_validated_product_copy(self) -> None:
+        news = replace(
+            product("cover"),
+            sightings=(
+                Sighting(
+                    "marketfeeds",
+                    "https://news.example/cover",
+                    "2026-08-13T23:10:00Z",
+                    {},
+                    kind="news",
+                ),
+            ),
+        )
+        result = {
+            "products": [{
+                "slug": "cover",
+                "decision": "watching",
+                "summary_zh": "企业正在改变内容审核与发布流程。",
+                "summary_en": "Enterprises are changing content review and publishing workflows.",
+            }]
+        }
+
+        summaries = _event_summaries(result, [news])
+
+        self.assertEqual(summaries["cover"], (
+            "企业正在改变内容审核与发布流程。",
+            "Enterprises are changing content review and publishing workflows.",
+        ))
 
     def test_gemini_can_be_the_primary_model_with_deepseek_fallback(self) -> None:
         with patch.dict(

@@ -766,8 +766,15 @@ def _event_summaries(
         is_observation = any(sighting.kind == "news" for sighting in product.sightings)
         zh = str(row.get("event_summary_zh") or "").strip()
         en = str(row.get("event_summary_en") or "").strip()
-        if is_observation and (not zh or not en):
-            raise BriefError(f"{slug} 来自报道或公告，但缺少双语事件摘要")
+        if is_observation:
+            # Full editing already validated both product summaries. If the
+            # model still omits a dedicated event summary after repair, reuse
+            # its own validated bilingual explanation instead of blocking the
+            # entire day for one optional presentation field.
+            zh = zh or str(row.get("summary_zh") or "").strip()
+            en = en or str(row.get("summary_en") or "").strip()
+            if not zh or not en:
+                raise BriefError(f"{slug} 来自报道或公告，但缺少可回退的双语事件摘要")
         if en and _CJK_TEXT.search(en):
             raise BriefError(f"{slug}.event_summary_en 包含未翻译的中文字符或标点")
         if zh or en:
