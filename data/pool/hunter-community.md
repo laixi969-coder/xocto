@@ -21,16 +21,16 @@ canonical_url: https://hunter.agentpit.io
 summary: Hunter Community Edition · your private financial AI team · open-source self-hosted · powered
   by opencode + MCP + multi-agent · 15 min docker start
 first_seen: '2026-08-10T10:37:07Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://hunter.agentpit.io
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 330
+    stars: 343
     forks: 3
     open_issues: 0
   kind: product

@@ -34,7 +34,7 @@ summary: Windows-first local AI-agent runtime & MCP gateway with 223 configurabl
   by default), durable goal continuation, multi-workspace automation, Secure MCP Tunnel, Git/process/WSL/browser/desktop
   tools.
 first_seen: '2026-08-10T13:00:18Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: watching
 sources:
 - github
@@ -49,10 +49,10 @@ sightings:
   kind: product
 - source: github
   url: https://www.ezdn.app/abcz
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 127
-    forks: 63
+    stars: 129
+    forks: 65
     open_issues: 2
   kind: product
 ---

@@ -35,16 +35,16 @@ canonical_url: https://remarc.app
 summary: Your feedback layer for AI collaboration. Point at anything on your Mac - text, screenshots,
   web elements, or voice - and your agent reads and resolves your comments over MCP.
 first_seen: '2026-08-10T16:47:07Z'
-last_seen: '2026-08-29T03:43:11Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://remarc.app
-  seen_at: '2026-08-29T03:43:11Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 65
+    stars: 66
     forks: 3
     open_issues: 0
   kind: product

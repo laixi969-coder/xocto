@@ -677,3 +677,56 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-a2d737d8559b9f31
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/uisight
+  title: uisight
+  published_at: '2026-08-17T20:37:41Z'
+  collected_at: '2026-08-30T14:53:20Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Your AI can''t see the screen. uisight gives it eyes: live mobile+desktop sessions, a measurement
+    engine (contrast, touch targets, theme drift) reporting findings as text, and a shared panel for human+AI.
+    MCP server included. | repository stars: 100'
+- id: ev-39498f1d6daf588b
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/mediagen
+  title: mediagen
+  published_at: '2026-08-22T23:49:10Z'
+  collected_at: '2026-08-30T14:53:20Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'AI image and video generation skill for Claude Code and other coding agents — Gemini, OpenAI
+    and Kie AI behind one CLI and MCP server, with EU AI Act content marking. | repository stars: 54'
+- id: ev-900a27789ff56630
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/autoprompt-skill
+  title: autoprompt-skill
+  published_at: '2026-08-17T22:40:47Z'
+  collected_at: '2026-08-30T14:53:20Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. | repository
+    stars: 943'
+- id: ev-f80c4060b089f5d2
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/ownmem
+  title: ownmem
+  published_at: '2026-08-16T12:45:36Z'
+  collected_at: '2026-08-30T14:53:20Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Local, deterministic, git-native memory for coding agents — one set of Markdown files serves
+    Claude Code, Codex, Gemini CLI, Cursor, and Grok CLI. | repository stars: 189'
+- id: ev-65bbc225fd22942d
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-context
+  title: dsh-context
+  published_at: '2026-08-14T08:23:28Z'
+  collected_at: '2026-08-30T14:53:20Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'The best DeepSeek Harness plugin for context insight and management, with context dashboard /
+    browser and context command, for context statistics, composition, breakdown, evolution details, understanding
+    how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
+    命令，透视上下文组成、演进、压缩、剪枝等事件与动作。 | repository stars: 1,178'

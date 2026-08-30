@@ -20,8 +20,8 @@ url: https://twitter.com/LocumRex/status/2092993787605717176
 canonical_url: https://twitter.com/LocumRex/status/2092993787605717176
 summary: Flock CEO gets his house blurred out on Google Maps and Zillow
 first_seen: '2026-08-27T16:53:01Z'
-last_seen: '2026-08-29T03:43:08Z'
-status: rejected
+last_seen: '2026-08-30T14:53:16Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 159
     comments: 43
+  kind: news
+- source: hackernews
+  url: https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/
+  seen_at: '2026-08-30T14:53:16Z'
+  metrics:
+    points: 366
+    comments: 240
   kind: news
 ---
 

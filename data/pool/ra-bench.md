@@ -34,16 +34,16 @@ url: https://ra-bench-crisis-video.yxgma811120.chatgpt.site/
 canonical_url: https://ra-bench-crisis-video.yxgma811120.chatgpt.site
 summary: Real-event-anchored benchmark for detecting AI-generated videos in real-world crisis settings.
 first_seen: '2026-08-13T01:50:44Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://ra-bench-crisis-video.yxgma811120.chatgpt.site/
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 89
+    stars: 92
     forks: 0
     open_issues: 0
   kind: product

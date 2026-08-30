@@ -20,10 +20,11 @@ url: https://www.ripmybuild.com
 canonical_url: https://ripmybuild.com
 summary: A cemetery for failed side projects and what founders build next
 first_seen: '2026-08-25T14:08:12Z'
-last_seen: '2026-08-25T22:45:07Z'
+last_seen: '2026-08-30T14:53:16Z'
 status: rejected
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://www.ripmybuild.com
@@ -31,6 +32,12 @@ sightings:
   metrics:
     points: 5
     comments: 2
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/rip-my-build
+  seen_at: '2026-08-30T14:53:16Z'
+  metrics: {}
+  kind: product
 ---
 
 # ripmybuild

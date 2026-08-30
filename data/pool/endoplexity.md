@@ -26,18 +26,19 @@ url: https://github.com/Endokelp/Endoplexity
 canonical_url: https://github.com/Endokelp/Endoplexity
 summary: Agentic browser control driven by your own Claude / Cursor subscriptions
 first_seen: '2026-08-14T17:37:36Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Endokelp/Endoplexity
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 180
+    stars: 173
     forks: 2
     open_issues: 0
+  kind: product
 ---
 
 # Endoplexity

@@ -1,0 +1,43 @@
+---
+slug: 10-retail-digital-transformation-case-studies-in-2026-ai-dat
+name: '10 Retail Digital Transformation Case Studies in 2026: AI, Data and Automation Deliver Measurable
+  Results'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaDBIa3BBVVI0TUNNSjdSY1JfakFwTG0wYjZZZU45bDBGeFlPMW1Za3lydmt1cmZhVzlPcWE0czIybG9ralBfdVhiU2p5MGFyYmFyOTBrZURHVWhkN2JleFpsVW1OWnNkNDBiUEJ1cUFwODQ2WThjZFpPYWFlTGRMLVNHTTU1V1FpUUtKM0NqT0tjNjJXaXJIUWVHNWJlMGw4aDh2X1lQRkVmQWwxcXc1UkotM2IxY3lIS1hSanlZMmd1T2RkUmt4LWUtamw4bEdEbXBtQ9IB3AFBVV95cUxQeG52TU5MbnBXVTBqNkhMbjFlNDNnc3V5cXdWYXNCNkcydk13aElXeDE3QVhUSmRkTVQzbEY4azYzcEIxYjVackh2MnZTNlNqWUNSdk43OWR2MWF4SUVNNUtkRjIxMUw5VXlKQjBRdWc0UHRfQkVxcHZhU2JpdmQzVy1WLVZhVVRLYjU2SW03aFpNN0V1REZOc0VkN281TC1sTlVZUk9TN2djWUpabkE4NTE4ajZ5dEQ4a2NGSDNLMnVKVjJDbWZuTHh1VVhhVGFDNGxwc0dOMW4tSmRL?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaDBIa3BBVVI0TUNNSjdSY1JfakFwTG0wYjZZZU45bDBGeFlPMW1Za3lydmt1cmZhVzlPcWE0czIybG9ralBfdVhiU2p5MGFyYmFyOTBrZURHVWhkN2JleFpsVW1OWnNkNDBiUEJ1cUFwODQ2WThjZFpPYWFlTGRMLVNHTTU1V1FpUUtKM0NqT0tjNjJXaXJIUWVHNWJlMGw4aDh2X1lQRkVmQWwxcXc1UkotM2IxY3lIS1hSanlZMmd1T2RkUmt4LWUtamw4bEdEbXBtQ9IB3AFBVV95cUxQeG52TU5MbnBXVTBqNkhMbjFlNDNnc3V5cXdWYXNCNkcydk13aElXeDE3QVhUSmRkTVQzbEY4azYzcEIxYjVackh2MnZTNlNqWUNSdk43OWR2MWF4SUVNNUtkRjIxMUw5VXlKQjBRdWc0UHRfQkVxcHZhU2JpdmQzVy1WLVZhVVRLYjU2SW03aFpNN0V1REZOc0VkN281TC1sTlVZUk9TN2djWUpabkE4NTE4ajZ5dEQ4a2NGSDNLMnVKVjJDbWZuTHh1VVhhVGFDNGxwc0dOMW4tSmRL?oc=5
+summary: '10 Retail Digital Transformation Case Studies in 2026: AI, Data and Automation Deliver Measurable
+  Results InfotechLead'
+first_seen: '2026-08-30T06:22:15Z'
+last_seen: '2026-08-30T14:53:44Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxOaDBIa3BBVVI0TUNNSjdSY1JfakFwTG0wYjZZZU45bDBGeFlPMW1Za3lydmt1cmZhVzlPcWE0czIybG9ralBfdVhiU2p5MGFyYmFyOTBrZURHVWhkN2JleFpsVW1OWnNkNDBiUEJ1cUFwODQ2WThjZFpPYWFlTGRMLVNHTTU1V1FpUUtKM0NqT0tjNjJXaXJIUWVHNWJlMGw4aDh2X1lQRkVmQWwxcXc1UkotM2IxY3lIS1hSanlZMmd1T2RkUmt4LWUtamw4bEdEbXBtQ9IB3AFBVV95cUxQeG52TU5MbnBXVTBqNkhMbjFlNDNnc3V5cXdWYXNCNkcydk13aElXeDE3QVhUSmRkTVQzbEY4azYzcEIxYjVackh2MnZTNlNqWUNSdk43OWR2MWF4SUVNNUtkRjIxMUw5VXlKQjBRdWc0UHRfQkVxcHZhU2JpdmQzVy1WLVZhVVRLYjU2SW03aFpNN0V1REZOc0VkN281TC1sTlVZUk9TN2djWUpabkE4NTE4ajZ5dEQ4a2NGSDNLMnVKVjJDbWZuTHh1VVhhVGFDNGxwc0dOMW4tSmRL?oc=5
+  seen_at: '2026-08-30T14:53:44Z'
+  metrics: {}
+  kind: news
+---
+
+# 10 Retail Digital Transformation Case Studies in 2026: AI, Data and Automation Deliver Measurable Results
+
+10 Retail Digital Transformation Case Studies in 2026: AI, Data and Automation Deliver Measurable Results InfotechLead
+
+## 笔记
+
+

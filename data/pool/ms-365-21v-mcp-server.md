@@ -31,16 +31,16 @@ url: https://github.com/mdwsk88/ms-365-21v-mcp-server
 canonical_url: https://github.com/mdwsk88/ms-365-21v-mcp-server
 summary: Policy-aware OAuth 2.1 MCP gateway for Microsoft 365 operated by 21Vianet
 first_seen: '2026-08-11T06:33:29Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mdwsk88/ms-365-21v-mcp-server
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 51
+    stars: 57
     forks: 0
     open_issues: 7
   kind: product

@@ -20,16 +20,16 @@ url: https://www.socialdownloader.space
 canonical_url: https://socialdownloader.space
 summary: A downloader for public social posts, no sign-up and no ads
 first_seen: '2026-08-29T13:58:43Z'
-last_seen: '2026-08-30T00:20:04Z'
+last_seen: '2026-08-30T14:53:16Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.socialdownloader.space
-  seen_at: '2026-08-30T00:20:04Z'
+  seen_at: '2026-08-30T14:53:16Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

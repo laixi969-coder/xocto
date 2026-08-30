@@ -34,16 +34,16 @@ summary: "## What's Changed\r\n\r\n* Ollama's app now follows the system appeara
   \ of starting a second one\r\n* The Claude Desktop proxy no longer interrupts in-flight requests when\
   \ the model catalog updates\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2"
 first_seen: '2026-08-27T20:31:47Z'
-last_seen: '2026-08-30T00:20:08Z'
-status: queued
+last_seen: '2026-08-30T14:53:20Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.33.2
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    reactions: 46
+    reactions: 47
   kind: news
 ---
 

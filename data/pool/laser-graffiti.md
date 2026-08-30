@@ -32,17 +32,17 @@ url: https://laser.consti.de
 canonical_url: https://laser.consti.de
 summary: ''
 first_seen: '2026-08-29T12:28:11Z'
-last_seen: '2026-08-30T00:20:04Z'
+last_seen: '2026-08-30T14:53:16Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://laser.consti.de
-  seen_at: '2026-08-30T00:20:04Z'
+  seen_at: '2026-08-30T14:53:16Z'
   metrics:
-    points: 8
-    comments: 3
+    points: 10
+    comments: 6
   kind: product
 ---
 

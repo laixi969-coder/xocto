@@ -20,16 +20,16 @@ url: https://github.com/ExecutiveExcite/ai-video-gen
 canonical_url: https://github.com/ExecutiveExcite/ai-video-gen
 summary: Best AI Generating Free Video and Images! Get For Free - https://aireview.fun/paras
 first_seen: '2026-08-18T12:19:22Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ExecutiveExcite/ai-video-gen
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 56
+    stars: 57
     forks: 0
     open_issues: 0
   kind: product

@@ -34,17 +34,17 @@ summary: REVLab - Windows PE reverse engineering workflow platform (static analy
   decompile, dynamic sandbox, network capture, custom pipelines, MCP + AI agent integration). For lab/legal
   compliance testing only.
 first_seen: '2026-08-11T17:26:50Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiaoyeuzixi/revlab
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
     stars: 43
-    forks: 14
+    forks: 15
     open_issues: 0
   kind: product
 ---

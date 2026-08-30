@@ -20,17 +20,17 @@ url: https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-product
 canonical_url: https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity
 summary: Good Culture Is the Biggest Productivity Hack, Not AI
 first_seen: '2026-08-29T17:19:47Z'
-last_seen: '2026-08-30T00:20:04Z'
-status: rejected
+last_seen: '2026-08-30T14:53:16Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity
-  seen_at: '2026-08-30T00:20:04Z'
+  seen_at: '2026-08-30T14:53:16Z'
   metrics:
-    points: 224
-    comments: 49
+    points: 419
+    comments: 102
   kind: news
 ---
 

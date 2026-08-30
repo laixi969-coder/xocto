@@ -33,18 +33,18 @@ canonical_url: https://youtube.com/@imbiplazaASUS
 summary: Premiere-inspired PySide6 director studio for MiniMax H3 Ref2VA with AI shot planning, semantic
   media enrichment, timeline prompt reconciliation and shot-aware long-video rendering through ComfyUI.
 first_seen: '2026-08-23T16:29:36Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-08-30T14:53:20Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.youtube.com/@imbiplazaASUS
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-30T14:53:20Z'
   metrics:
-    stars: 83
-    forks: 15
-    open_issues: 1
+    stars: 87
+    forks: 16
+    open_issues: 3
   kind: product
 ---
 
