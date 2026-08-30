@@ -28,18 +28,18 @@ url: https://github.com/XiaoDuoYa/codex-with-chatgpt
 canonical_url: https://github.com/XiaoDuoYa/codex-with-chatgpt
 summary: ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.
 first_seen: '2026-08-28T12:57:24Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/XiaoDuoYa/codex-with-chatgpt
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 763
-    forks: 86
-    open_issues: 6
+    stars: 916
+    forks: 105
+    open_issues: 13
   kind: product
 ---
 

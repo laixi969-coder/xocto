@@ -22,14 +22,19 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sX3NaNE5BaFY3MUpPR2lBYn
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sX3NaNE5BaFY3MUpPR2lBYnNTNS1UeG42eURTQk1TU05WWUZXSmxvZFF1bVA2Zk9kRDVFUnNlNTR5aHVQMU5mUzlFbWlHaGlpbmxV?oc=5
 summary: “AI央行”or“资产负债表即服务”质疑甚嚣尘上？英伟达叫停“收入分享换融资”模式 华尔街见闻
 first_seen: '2026-08-28T00:34:40Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: market_context
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sX3NaNE5BaFY3MUpPR2lBYnNTNS1UeG42eURTQk1TU05WWUZXSmxvZFF1bVA2Zk9kRDVFUnNlNTR5aHVQMU5mUzlFbWlHaGlpbmxV?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXUGRtOFhuVzhfbVlRLUs4QXpRZlZGNGtDcU9WbmxsTDFXSFN1d2JBcFVCTzRUa2l5NDhxWGxOTGJqclV6dnJNbE9ERmxJLXRCbGREeGZrbHNwME90cWFtNkt1Tlc?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
   metrics: {}
   kind: news
 ---

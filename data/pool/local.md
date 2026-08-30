@@ -30,8 +30,8 @@ url: https://www.producthunt.com/products/local-7
 canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: queued
+last_seen: '2026-08-30T00:20:04Z'
+status: pending_filter
 sources:
 - producthunt
 - officialfeeds
@@ -61,10 +61,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://github.com/stemdeckapp/stemdeck
-  seen_at: '2026-08-29T15:06:03Z'
+  seen_at: '2026-08-30T00:20:04Z'
   metrics:
-    points: 160
-    comments: 45
+    points: 199
+    comments: 58
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SWTNwU3RrbUlRdTdhaEFKdW9oQ2xoVXhvcnZLRVlfWm9RUXhOS1ItcmVXRTYxNGRLaHVEY195N0hWZWtvUm54MVFaay15Q2g3bHZHMEVnRUxhTG1yeDA0bg?oc=5

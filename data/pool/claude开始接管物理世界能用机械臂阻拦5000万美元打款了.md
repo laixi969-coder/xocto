@@ -22,8 +22,8 @@ url: https://www.qbitai.com/2026/08/480487.html
 canonical_url: https://qbitai.com/2026/08/480487.html
 summary: Claude觉醒超体
 first_seen: '2026-08-28T06:13:59Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: market_context
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -41,6 +41,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeFZ4V09EN3ZTM21ubEtqaW90ZGROYTVLLUNPRTJvWVFRRkFQRlRJalVrUnJTT0R4dlNKVEhJengwcmtpN0EwUFluQ3FZUVpVS2xfVXVqcVpzYUc1UDNERmZ1LS13ZFhRR0pZWHJ5NWNfUnFNbEVkX183SktqV3lqNmJXYmM5bVFvUHA4?oc=5
   seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQdkJOVU5OWWNnZW5Lbmd0ckczVEtPYm11UzVqUTFXR05PT195c3J1YURZN1V3NUF0MkV4WnVvOVdCMGFPcEdUbDl1SHJ2bE5OeERkMThrWDFwSUl2czRzaHNMdjVucVMwc2JEbTNxYlVkTnpzazNOZTlNSF9fYUh5N3hadUxNVFNLUUxXWA?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
   metrics: {}
   kind: news
 ---

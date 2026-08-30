@@ -20,10 +20,11 @@ url: https://github.com/derive-to/derive
 canonical_url: https://github.com/derive-to/derive
 summary: An open home for AI artifacts and workflows
 first_seen: '2026-08-27T13:02:46Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-08-30T00:20:27Z'
 status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://github.com/derive-to/derive
@@ -31,6 +32,12 @@ sightings:
   metrics:
     points: 11
     comments: 3
+  kind: product
+- source: marketfeeds
+  url: https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai
+  seen_at: '2026-08-30T00:20:27Z'
+  metrics: {}
+  kind: news
 ---
 
 # Derive

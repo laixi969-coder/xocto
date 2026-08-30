@@ -36,17 +36,17 @@ canonical_url: https://doop.design
 summary: The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI
   agents design together, live. MCP built in.
 first_seen: '2026-08-22T15:40:51Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://doop.design
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 495
-    forks: 52
+    stars: 501
+    forks: 54
     open_issues: 0
   kind: product
 ---

@@ -33,17 +33,17 @@ url: https://www.orbify.eu/demo/
 canonical_url: https://orbify.eu/demo
 summary: Inception-style curved map for turn-by-turn directions
 first_seen: '2026-08-28T12:29:05Z'
-last_seen: '2026-08-29T15:06:03Z'
-status: queued
+last_seen: '2026-08-30T00:20:04Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.orbify.eu/demo/
-  seen_at: '2026-08-29T15:06:03Z'
+  seen_at: '2026-08-30T00:20:04Z'
   metrics:
-    points: 560
-    comments: 182
+    points: 604
+    comments: 188
   kind: news
 ---
 

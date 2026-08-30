@@ -36,14 +36,20 @@ canonical_url: https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-
 summary: Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach
   new tricks with reinforcement learning.”
 first_seen: '2026-08-27T14:56:52Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: watching
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE54eHRwdkhxU3UxczlHRDJJaDhFdHpnRERCSEItOTh4Z0NFUHdQUHgwdXhXZ3JaY0k4WkZwZktueFJIY2RfUDlYcFBqMmh6R2loMGx3?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
   metrics: {}
   kind: news
 ---

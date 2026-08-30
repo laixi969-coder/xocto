@@ -35,8 +35,8 @@ canonical_url: https://aicpb.com/product/ChatGPT/webid1D6F37591
 summary: chatgpt resources and news. learn how artificial intelligence is changing the world, and use
   ai chat bots to discover what you can do with them.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
 sources:
 - aicpb
 - hackernews
@@ -76,6 +76,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNQXRGcXpLZzdmUXBudFdtS3JzMUczbEF3ZUxVXzdHTENMUEplWVFQazBwU1NCNlFSN0FFYURWQ2NpMFZaVVJKMEluaVBqNFBmXzdqMDA4TllSUm03Smd5YUJiYURheVZxajZOaDhJVkZjTEp3MHVrVmc4dTNVQWVNS0g5Y3NBVlVoY3YwRlhXcEtSS2NTU2FqaGdDYzVVMVAyX1N1aVl6ZlYwUDNCWXZiRkRR?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxPS3BHLUNyTVR0NXhkTHFSTnh6NHE2UFhBYkFQOXhzUFAwbmVYTVVnM2E1MERRSEZ1MVFvdU9KRURSU0NxMXZ1Z2FVdzVwOGVOeVZ2RllYZ29wSXpIZTlhVDc0Q1FFUUlqOHBZUEJwYkxaUWkwTjN0MnF3amU2aWlmeU9oVy1fbnBIa25TR2E2V0RQLVFCQTRQbXEyTE5hX28?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
   metrics: {}
   kind: news
 ---

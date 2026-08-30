@@ -34,14 +34,19 @@ url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fNVNxMUhZd1BwcjlVLTJoZ2
 canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fNVNxMUhZd1BwcjlVLTJoZ2Q5OXVhbDJKNXV5VndrRDFvMFRpSVVSaWtzSGFrUkJRWmJmclRlUzJlbFB0U2NzM1EtcEI4dHlqaXlCUndR?oc=5
 summary: AI办公群雄逐鹿，百度搭子发布专业办公一揽子升级 国际金融报
 first_seen: '2026-08-27T10:03:00Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: queued
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fNVNxMUhZd1BwcjlVLTJoZ2Q5OXVhbDJKNXV5VndrRDFvMFRpSVVSaWtzSGFrUkJRWmJmclRlUzJlbFB0U2NzM1EtcEI4dHlqaXlCUndR?oc=5
   seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sMF93WEJneXBGSTd2cDduV0FtRk9zQjhMWEFTaWpqWF8zZWFJXzdIUmNGeHBsNXZKb1J0NWZBcEp2N2JNZ2h5VzhfTkJCMEZvclRJQUFDYXhkSm1zXy1qU2lJSnVMNjg?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
   metrics: {}
   kind: news
 ---

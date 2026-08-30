@@ -36,17 +36,17 @@ canonical_url: https://evermind.ai/skillhub
 summary: Open-source infrastructure that turns scattered SKILL.md files into curated, retrieval-ready
   agent-skill corpora—with retrieval and evaluation tooling included.
 first_seen: '2026-08-11T02:48:55Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://evermind.ai/skillhub
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 310
-    forks: 54
+    stars: 323
+    forks: 57
     open_issues: 1
   kind: product
 ---

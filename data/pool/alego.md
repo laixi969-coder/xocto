@@ -28,16 +28,16 @@ url: https://github.com/singula-ai/alego
 canonical_url: https://github.com/singula-ai/alego
 summary: Build AI Agents like playing LEGOs. Everything is a Plugin.
 first_seen: '2026-08-22T17:19:45Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/singula-ai/alego
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 100
+    stars: 109
     forks: 18
     open_issues: 12
   kind: product

@@ -33,17 +33,17 @@ canonical_url: https://github.com/idavidov13/agentic-playwright
 summary: Production-grade Playwright + TypeScript Scaffold for Agentic Testing. Harness for all major
   AI coding agents baked in.
 first_seen: '2026-08-13T08:12:20Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/idavidov13/agentic-playwright
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 132
-    forks: 38
+    stars: 133
+    forks: 39
     open_issues: 1
   kind: product
 ---

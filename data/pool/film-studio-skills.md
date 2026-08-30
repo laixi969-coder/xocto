@@ -31,17 +31,17 @@ canonical_url: https://github.com/machina-exm/film-studio-skills
 summary: 7 installable agent skills that run the pipeline behind $2M AI video productions — script to
   locked, generation-ready shot prompts. Claude Code · Codex · Hermes · OpenCode
 first_seen: '2026-08-14T02:24:25Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/machina-exm/film-studio-skills
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 100
-    forks: 17
+    stars: 102
+    forks: 19
     open_issues: 0
   kind: product
 ---

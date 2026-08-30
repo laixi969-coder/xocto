@@ -31,10 +31,11 @@ url: https://keenable.ai/
 canonical_url: https://keenable.ai
 summary: A different web search API for AI agents
 first_seen: '2026-08-25T15:12:52Z'
-last_seen: '2026-08-26T04:53:28Z'
-status: queued
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://keenable.ai/
@@ -42,6 +43,12 @@ sightings:
   metrics:
     points: 10
     comments: 5
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxOY2w3VS1iY19fZVNpMUYyRFZzdWt0Nk9MTVVCZVdld05TdVhjbTBzYkpYMU1zQnhpVEZrd2FCTl9QWHRNcXVOWmJWQmNwcG5UeHUzN1ZBSzhkUUFodUttR194bkRsSGhPRFExREZHT29pWnFxRjMzZ3hvNWhKN1pSUjl5ZHJ0RVVKUXRtN0FKc19SSTcyWmIxRDhVSzlOdU5hUkJoRHVQLTdfTXBqRjVIQ2tkMXNzcENRY3Z5aWdEakgzZXNRZzNXWnphdXc1Mkk?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
+  metrics: {}
+  kind: news
 ---
 
 # Keenable

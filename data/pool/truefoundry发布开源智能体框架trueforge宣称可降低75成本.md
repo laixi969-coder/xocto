@@ -29,14 +29,19 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYVpKMXNlZ0g5UUJDbWI1ci
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYVpKMXNlZ0g5UUJDbWI1ci1ZRkItdFRoNFlMSDM2RmpmVm9hazNFZ0JGR1VMdjlGeHNIQVRjWF8zcy1XNVNmMXJfMFFtQWFOcjJKMVVNa0Q4U1A0d2JsbEs1dHRKNk56b0JDY3FzTmxfQU03QjZVRjVFS2Zkd201MFJ6ZXM0R0FM?oc=5
 summary: TrueFoundry发布开源智能体框架TrueForge，宣称可降低75%成本 搜狐网
 first_seen: '2026-08-28T13:45:00Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYVpKMXNlZ0g5UUJDbWI1ci1ZRkItdFRoNFlMSDM2RmpmVm9hazNFZ0JGR1VMdjlGeHNIQVRjWF8zcy1XNVNmMXJfMFFtQWFOcjJKMVVNa0Q4U1A0d2JsbEs1dHRKNk56b0JDY3FzTmxfQU03QjZVRjVFS2Zkd201MFJ6ZXM0R0FM?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTE0tQS1zV0xwQ3BXc3hhZDdqWl9uQWV6WEFmWk9Sel9vakVncE9TeWRBYndDeTF2dU5FOG1aTF9hRFlTNC1peWJNeGdrT1lJdmRHc2hjNl9sMXBTTnZaR01nbHNudHQ2eEhINEE4UHNkOHRKdw?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
   metrics: {}
   kind: news
 ---

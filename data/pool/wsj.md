@@ -21,16 +21,16 @@ url: https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fu
 canonical_url: https://wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e
 summary: Nvidia Insists It Can Keep Printing Money to Fund the AI Boom
 first_seen: '2026-08-28T15:57:40Z'
-last_seen: '2026-08-29T15:06:03Z'
-status: market_context
+last_seen: '2026-08-30T00:20:04Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e
-  seen_at: '2026-08-29T15:06:03Z'
+  seen_at: '2026-08-30T00:20:04Z'
   metrics:
-    points: 45
+    points: 46
     comments: 47
   kind: news
 ---

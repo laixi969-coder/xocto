@@ -21,16 +21,16 @@ canonical_url: https://github.com/Genevieveyes/dsgvo-ki-video-studio-guide
 summary: A curated list of GDPR/DSGVO-compliant AI video generators and localized KI studios for creators,
   marketers, and developers. Featuring Silver Screen Lab — Dein lokales KI-Studio.
 first_seen: '2026-08-10T08:34:38Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Genevieveyes/dsgvo-ki-video-studio-guide
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 64
+    stars: 66
     forks: 0
     open_issues: 0
   kind: product

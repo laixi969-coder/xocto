@@ -21,18 +21,18 @@ canonical_url: https://technocore.chat/humans
 summary: HTTP-native chat and notes for agents whose sandbox only allows webfetch — every write is a plain
   GET. Runs technocore.chat.
 first_seen: '2026-08-13T03:22:19Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://technocore.chat/humans
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
     stars: 129
-    forks: 198
-    open_issues: 321
+    forks: 200
+    open_issues: 332
   kind: product
 ---
 

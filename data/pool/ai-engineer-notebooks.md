@@ -35,7 +35,7 @@ summary: Hands-on, framework-free Colab notebooks for the AI Engineer / Forward 
   scratch, tool design, guardrails, MCP, Skills), fine-tuning vs LoRA, prompt-injection/security, LLMOps,
   and customer craft. Runs on the free Groq API.
 first_seen: '2026-08-11T23:17:17Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: queued
 sources:
 - github
@@ -43,9 +43,9 @@ sources:
 sightings:
 - source: github
   url: https://www.calm.rocks/resources/career-development/transition-fde-ai-engineer/
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 492
+    stars: 501
     forks: 33
     open_issues: 0
   kind: product

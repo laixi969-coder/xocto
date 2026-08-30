@@ -26,16 +26,16 @@ url: https://github.com/nilbuild/rundown
 canonical_url: https://github.com/nilbuild/rundown
 summary: Hacker News Client with Claude Code and Codex Integration
 first_seen: '2026-08-28T19:55:47Z'
-last_seen: '2026-08-29T15:06:03Z'
+last_seen: '2026-08-30T00:20:04Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/nilbuild/rundown
-  seen_at: '2026-08-29T15:06:03Z'
+  seen_at: '2026-08-30T00:20:04Z'
   metrics:
-    points: 8
+    points: 10
     comments: 0
   kind: product
 ---

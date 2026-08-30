@@ -1,0 +1,19 @@
+- id: ev-572a514e4205e0e7
+  project_slug: introducing-hy4-preview
+  url: https://simonwillison.net/2026/Aug/29/hy4/
+  title: Introducing Hy4 Preview
+  published_at: '2026-08-29T23:53:13Z'
+  collected_at: '2026-08-30T00:20:27Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Introducing Hy4 Preview   \nNew open weight text input (no vision)  LLM from Chinese company\
+    \ Tencent today: 770B total parameters, 49B active parameters, 1M token context window,  1.56TB on\
+    \ Hugging Face . \n This is a big size increase from their previous  Hy3  in July, which was 295B,\
+    \ 21B active, 256,000 context, 598GB. \n I recently started using model chat templates to better understand\
+    \ their capabilities. Here's Hy4's   chat_template.jinja  on Hugging Face, which includes this section:\
+    \ \n   {% -  if   not   reasoning_effort   is   defined   %} \n     {% -  set   reasoning_effort \
+    \ =  'high'   %} \n {% -  elif   reasoning_effort   not   in  [ 'high' ,  'no_think' ]  %} \n    \
+    \ {% -  if   reasoning_effort   is   none   %} \n        {{- raise_exception('reasoning_effort error\
+    \ : None, should be no_think/high') }}\n     {% -  else   %} \n        {{- raise_exception('reasoning_effort\
+    \ error : ' + reasoning_effort + ', should be no_think/high') }}\n     {% -  endif   %} \n {% -  endif\
+    \   %}   \n So it loo"

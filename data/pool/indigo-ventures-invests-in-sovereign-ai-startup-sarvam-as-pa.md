@@ -1,0 +1,42 @@
+---
+slug: indigo-ventures-invests-in-sovereign-ai-startup-sarvam-as-pa
+name: Indigo Ventures invests in sovereign AI startup Sarvam as part of ongoing Series B funding round
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV1NKNVM5YzhJdDFQSVAzOUEzbFBEdVZnSk5IZHBtaC1DRUV4Q0RWdDMyTk9EdXpjWnBYbDRpeThoZ2pZTjlLVkJKcEVPWmdzMS1TeXRqNnlNVnU2ZVo3SDUxSlo0dGRfV1dOcC1nQ3JDUlB6dXBoTDBPN2tVX05wSTlxYWVldGdzdzk1QmxTbUFPeUpKaWhGZi0xdGtHZFFiU0FudG9ZejdFSWRYcVJNUFItY0Y5Y0M0U0ViU1h3VHl5ZU1tVVhtSVc2UTlFQ2RnVzRxRko3aDg2alXSAdsBQVVfeXFMTldTSjVTOWM4SXQxUElQMzlBM2xQRHVWZ0pOSGRwbWgtQ0VFeENEVnQzMk5PRHV6Y1pwWGw0aXk4aGdqWU45S1ZCSnBFT1pnczEtU3l0ajZ5TVZ1NmVaN0g1MUpaNHRkX1dXTnAtZ0NyQ1JQenVwaEwwTzdrVV9OcEk5cWFlZXRnc3c5NUJsU21BT3lKSmloRmYtMXRrR2RRYlNBbnRvWXo3RUlkWHFSTVBSLWNGOWNDNFNFYlNYd1R5eWVNbVVYbUlXNlE5RUNkZ1c0cUZKN2g4NmpV?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV1NKNVM5YzhJdDFQSVAzOUEzbFBEdVZnSk5IZHBtaC1DRUV4Q0RWdDMyTk9EdXpjWnBYbDRpeThoZ2pZTjlLVkJKcEVPWmdzMS1TeXRqNnlNVnU2ZVo3SDUxSlo0dGRfV1dOcC1nQ3JDUlB6dXBoTDBPN2tVX05wSTlxYWVldGdzdzk1QmxTbUFPeUpKaWhGZi0xdGtHZFFiU0FudG9ZejdFSWRYcVJNUFItY0Y5Y0M0U0ViU1h3VHl5ZU1tVVhtSVc2UTlFQ2RnVzRxRko3aDg2alXSAdsBQVVfeXFMTldTSjVTOWM4SXQxUElQMzlBM2xQRHVWZ0pOSGRwbWgtQ0VFeENEVnQzMk5PRHV6Y1pwWGw0aXk4aGdqWU45S1ZCSnBFT1pnczEtU3l0ajZ5TVZ1NmVaN0g1MUpaNHRkX1dXTnAtZ0NyQ1JQenVwaEwwTzdrVV9OcEk5cWFlZXRnc3c5NUJsU21BT3lKSmloRmYtMXRrR2RRYlNBbnRvWXo3RUlkWHFSTVBSLWNGOWNDNFNFYlNYd1R5eWVNbVVYbUlXNlE5RUNkZ1c0cUZKN2g4NmpV?oc=5
+summary: Indigo Ventures invests in sovereign AI startup Sarvam as part of ongoing Series B funding round
+  Indian Startup News
+first_seen: '2026-08-29T09:51:56Z'
+last_seen: '2026-08-30T00:20:30Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV1NKNVM5YzhJdDFQSVAzOUEzbFBEdVZnSk5IZHBtaC1DRUV4Q0RWdDMyTk9EdXpjWnBYbDRpeThoZ2pZTjlLVkJKcEVPWmdzMS1TeXRqNnlNVnU2ZVo3SDUxSlo0dGRfV1dOcC1nQ3JDUlB6dXBoTDBPN2tVX05wSTlxYWVldGdzdzk1QmxTbUFPeUpKaWhGZi0xdGtHZFFiU0FudG9ZejdFSWRYcVJNUFItY0Y5Y0M0U0ViU1h3VHl5ZU1tVVhtSVc2UTlFQ2RnVzRxRko3aDg2alXSAdsBQVVfeXFMTldTSjVTOWM4SXQxUElQMzlBM2xQRHVWZ0pOSGRwbWgtQ0VFeENEVnQzMk5PRHV6Y1pwWGw0aXk4aGdqWU45S1ZCSnBFT1pnczEtU3l0ajZ5TVZ1NmVaN0g1MUpaNHRkX1dXTnAtZ0NyQ1JQenVwaEwwTzdrVV9OcEk5cWFlZXRnc3c5NUJsU21BT3lKSmloRmYtMXRrR2RRYlNBbnRvWXo3RUlkWHFSTVBSLWNGOWNDNFNFYlNYd1R5eWVNbVVYbUlXNlE5RUNkZ1c0cUZKN2g4NmpV?oc=5
+  seen_at: '2026-08-30T00:20:30Z'
+  metrics: {}
+  kind: news
+---
+
+# Indigo Ventures invests in sovereign AI startup Sarvam as part of ongoing Series B funding round
+
+Indigo Ventures invests in sovereign AI startup Sarvam as part of ongoing Series B funding round Indian Startup News
+
+## 笔记
+
+

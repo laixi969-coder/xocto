@@ -28,16 +28,16 @@ url: https://github.com/whitelonng/dshcode
 canonical_url: https://github.com/whitelonng/dshcode
 summary: Community desktop companion for DeepSeek Harness — one-click Electron app for macOS and Windows
 first_seen: '2026-08-13T13:23:11Z'
-last_seen: '2026-08-29T15:06:08Z'
+last_seen: '2026-08-30T00:20:08Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/whitelonng/dshcode
-  seen_at: '2026-08-29T15:06:08Z'
+  seen_at: '2026-08-30T00:20:08Z'
   metrics:
-    stars: 501
+    stars: 522
     forks: 22
     open_issues: 0
   kind: product

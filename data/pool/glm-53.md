@@ -24,8 +24,8 @@ url: https://www.producthunt.com/products/z-ai
 canonical_url: https://producthunt.com/products/z-ai
 summary: Coding leap from scaled post-training on the same base
 first_seen: '2026-08-14T06:21:52Z'
-last_seen: '2026-08-29T15:06:03Z'
-status: market_context
+last_seen: '2026-08-30T00:20:04Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
@@ -39,10 +39,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://huggingface.co/zai-org/GLM-5.3
-  seen_at: '2026-08-29T15:06:03Z'
+  seen_at: '2026-08-30T00:20:04Z'
   metrics:
-    points: 743
-    comments: 252
+    points: 780
+    comments: 268
   kind: news
 - source: huggingface
   url: https://huggingface.co/spaces/akhaliq/GLM-5.3
