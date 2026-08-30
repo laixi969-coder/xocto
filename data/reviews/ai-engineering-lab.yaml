@@ -270,45 +270,44 @@
 - id: req-initial-ai-engineering-lab-2026-08-30
   project_slug: ai-engineering-lab
   level: initial
-  reviewed_at: '2026-08-30T00:20:08Z'
+  reviewed_at: '2026-08-30T14:53:20Z'
   verdict: true_demand
   signal_level: 需求信号明确
   gates:
   - gate: value
     status: supported
-    reason: 它解决学生和转行者缺乏系统 AI 工程学习路径和可运行实践的问题。痛点在于现有教程碎片化，不解决会导致学习效率低、难以就业。课程提供结构化内容和可运行笔记本，交付可确定。工作流结构判断。
+    reason: 它解决开发者系统学习 AI 工程的需求，痛点在于现有教程碎片化。课程提供结构化路径和可运行案例，交付明确。工作流结构判断。
     evidence_ids:
     - ev-5e0cdd3015485de2
   - gate: consensus
     status: supported
-    reason: 开源社区星标 204，技术讨论区 59 分 74 评论，表明社区关注度高。但关注不等于持续采用，需进一步观察学习完成率和用户反馈。
+    reason: 开源社区星标增长和开发者讨论表明关注，但缺乏持续采用证据。
     evidence_ids:
     - ev-5e0cdd3015485de2
-    - ev-463259ee2fe97368
+    - ev-34fc33553a8dd688
   - gate: model
     status: insufficient
-    reason: 目前完全免费，无定价页或付费路径。可能的商业模式包括认证、企业培训或高级内容，但均未披露。这是判断，不是已验证事实。
+    reason: 免费开源，无直接收入模式。可能的变现路径包括企业培训或认证，但未披露。
     evidence_ids:
     - ev-5e0cdd3015485de2
   - gate: truth
     status: supported
-    reason: 课程内容贴近 AI 工程实际需求，覆盖主流云平台和工具，承诺可运行，交付确定性高。安全边界清晰，无人工介入风险。
+    reason: 课程内容贴近 AI 工程实际需求，交付可确定，但需验证学习者是否真正完成并受益。
     evidence_ids:
     - ev-5e0cdd3015485de2
-  next_validation: 关注开源仓库的 issue 和 discussion，以及是否有用户完成课程后获得就业或认证的公开案例。
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业或高校采用该课程的公开案例。
   market: ''
-  job: 学生或转行者需要系统学习 AI 工程技能，从基础到实战。
-  job_en: Students or career switchers need to systematically learn AI engineering skills from basics
-    to practice.
-  pain: 现有教程碎片化，缺乏可运行的实践环境和完整案例。
-  pain_en: Existing tutorials are fragmented, lacking runnable practice environments and complete case
-    studies.
-  current_alternative: 通过零散博客、视频和付费课程自学，但难以获得动手经验和系统知识。
-  current_alternative_en: Self-learning via scattered blogs, videos, and paid courses, but hard to gain
-    hands-on experience and systematic knowledge.
-  usage_reason: 免费、开源、包含可运行笔记本和案例，降低了学习门槛，吸引了关注。
-  usage_reason_en: Free, open-source, with runnable notebooks and case studies, lowering the learning
-    barrier and attracting attention.
+  job: 开发者希望系统学习 AI 工程技能，从基础到 agent 开发，并能在真实案例中实践。
+  job_en: Developers want to systematically learn AI engineering skills, from basics to agent development,
+    with hands-on practice.
+  pain: 现有教程碎片化，缺乏连贯案例，难以从理论过渡到实际项目。
+  pain_en: Existing tutorials are fragmented, lack a continuous case, and make it hard to transition from
+    theory to real projects.
+  current_alternative: 付费课程、零散博客、官方文档。
+  current_alternative_en: Paid courses, scattered blogs, official docs.
+  usage_reason: 免费、开源、包含可运行 notebook，降低学习门槛，吸引开发者关注。
+  usage_reason_en: Free, open-source, with runnable notebooks, lowering the barrier and attracting developer
+    attention.
 - id: req-full-ai-engineering-lab-2026-08-30
   project_slug: ai-engineering-lab
   level: full

@@ -1,11 +1,12 @@
 ---
 slug: chinese-open-source-ai-is-starting-to-win-over-us-businesses
-name: Chinese open-source AI is starting to win over U.S. businesses
+name: Chinese open-source AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 中国开源AI模型开始赢得美国企业客户，反映中国AI技术在全球市场的竞争力提升。
 inspiration: ''
-summary_en: ''
+summary_en: Chinese open-source AI models are beginning to win over U.S. businesses, reflecting the growing
+  global competitiveness of Chinese AI technology.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNVmVrSGRxWWFZ
 summary: Chinese open-source AI is starting to win over U.S. businesses Fortune
 first_seen: '2026-08-27T16:09:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Chinese open-source AI is starting to win over U.S. businesses
+# Chinese open-source AI
 
 Chinese open-source AI is starting to win over U.S. businesses Fortune
 

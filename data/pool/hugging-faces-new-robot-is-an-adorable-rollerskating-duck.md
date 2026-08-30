@@ -3,28 +3,27 @@ slug: hugging-faces-new-robot-is-an-adorable-rollerskating-duck
 name: Hugging Face
 builder: ''
 category: AI + 生活
-summary_zh: Microduck 是 公开模型社区 与 Pollen Robotics 合作推出的开源桌面机器人，单眼双足，高约 25 厘米，可预购，售价 399 美元。用户可通过强化学习教它新技能，适合机器人爱好者和教育场景。具体交互流程和交付细节仍待核验。
-inspiration: 趋势是开源硬件与 AI 结合，降低机器人开发门槛。切入点是面向教育和个人开发者，提供可编程的实体机器人，按硬件销售和课程订阅收费。
-summary_en: Microduck is an open-source desktop robot launched by public model community in collaboration
-  with Pollen Robotics, a one-eyed biped about 10 inches tall, available for preorder at $399. Users can
-  teach it new tricks via reinforcement learning, suitable for robot enthusiasts and education. Specific
-  interaction and delivery details are yet to be verified.
-inspiration_en: The trend is the combination of open-source hardware and AI, lowering the barrier to robot
-  development. The entry point is education and individual developers, offering programmable physical
-  robots, charging for hardware and course subscriptions.
+summary_zh: 公开模型社区 与 Pollen Robotics 合作推出 Microduck，一款约 10 英寸高的独眼双足机器人，可预购，售价 399 美元。它面向机器人爱好者和教育工作者，具体功能包括滚动和互动，但详细工作流和交付物尚未披露。
+inspiration: 趋势是 AI 从软件走向实体，开源硬件降低机器人入门门槛。切入可从教育市场开始，提供编程教学和互动体验，但需注意价格和功能定位。
+summary_en: public model community and Pollen Robotics launched Microduck, a one-eyed biped robot about
+  10 inches tall, available for preorder at $399. It targets robot enthusiasts and educators, with features
+  like rolling and interaction, but detailed workflows and deliverables are not yet disclosed.
+inspiration_en: Trend is AI moving from software to hardware, open-source hardware lowers entry barrier.
+  Entry could start with education market, offering programming teaching and interactive experience, but
+  note pricing and functionality positioning.
 priority_review: false
 project_type: new_application
 industries:
 - 消费电子
 - 教育
 industries_en:
-- Consumer Electronics
+- Consumer electronics
 - Education
 jobs:
 - 机器人爱好者
 - 教育工作者
 jobs_en:
-- Robot Enthusiasts
+- Robot enthusiasts
 - Educators
 regions:
 - 全球
@@ -39,7 +38,7 @@ summary: Hugging Face's Pollen Robotics has launched its second cute AI robot, t
   Christmas 2026." Video demos of the […]
 first_seen: '2026-08-27T13:44:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch

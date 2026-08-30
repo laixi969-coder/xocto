@@ -1,0 +1,76 @@
+- id: req-initial-remove-your-data-2026-08-30
+  project_slug: remove-your-data
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户从数据经纪商删除个人信息的痛点，痛点刚性，交付可确定（删除请求提交）。工作流结构判断。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低（17分），缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  - gate: model
+    status: insufficient
+    reason: 无定价和付费路径，开源免费，商业模式未明。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  - gate: truth
+    status: insufficient
+    reason: 未验证删除请求是否被经纪商响应，交付结果未核验。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  next_validation: 关注项目仓库的 issue 和用户反馈，验证删除成功率。
+  market: ''
+  job: 用户要从数据经纪商处删除自己的个人信息，以减少隐私泄露风险。
+  job_en: Users want to delete their personal information from data brokers to reduce privacy risks.
+  pain: 手动删除流程繁琐，且数据经纪商可能不响应或反复收集。
+  pain_en: Manual deletion is tedious, and brokers may ignore requests or re-collect data.
+  current_alternative: 用户手动逐个提交删除请求，或使用付费订阅服务。
+  current_alternative_en: Users manually submit deletion requests one by one, or use paid subscription
+    services.
+  usage_reason: 开源免费且无需订阅，吸引注重隐私的用户尝试。
+  usage_reason_en: Open-source and free without subscription, attracting privacy-conscious users.
+- id: req-full-remove-your-data-2026-08-30
+  project_slug: remove-your-data
+  level: full
+  reviewed_at: '2026-08-30T15:20:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户从数据经纪商删除个人信息的痛点，痛点刚性，交付可确定（删除请求提交）。工作流结构判断。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低（17分），缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  - gate: model
+    status: insufficient
+    reason: 无定价和付费路径，开源免费，商业模式未明。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  - gate: truth
+    status: insufficient
+    reason: 未验证删除请求是否被经纪商响应，交付结果未核验。
+    evidence_ids:
+    - ev-8db6ad048fc0f745
+  next_validation: 关注项目仓库的 issue 和用户反馈，验证删除成功率。
+  market: ''
+  job: 用户要从数据经纪商处删除自己的个人信息，以减少隐私泄露风险。
+  job_en: Users want to delete their personal information from data brokers to reduce privacy risks.
+  pain: 手动删除流程繁琐，且数据经纪商可能不响应或反复收集。
+  pain_en: Manual deletion is tedious, and brokers may ignore requests or re-collect data.
+  current_alternative: 用户手动逐个提交删除请求，或使用付费订阅服务。
+  current_alternative_en: Users manually submit deletion requests one by one, or use paid subscription
+    services.
+  usage_reason: 开源免费且无需订阅，吸引注重隐私的用户尝试。
+  usage_reason_en: Open-source and free without subscription, attracting privacy-conscious users.

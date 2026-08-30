@@ -3,10 +3,10 @@ slug: luxshare-precision-reports-402-revenue-growth-in-first-half
 name: Luxshare Precision
 builder: ''
 category: ''
-summary_zh: 立讯精密2026年上半年营收同比增长40.2%，业务结构改善推动利润率扩张。
+summary_zh: 立讯精密是电子制造服务商，其财报显示营收增长，但这是公司财务事件，非独立 AI 产品。
 inspiration: ''
-summary_en: Luxshare Precision's first-half 2026 revenue grew 40.2% year-over-year, with an improved business
-  mix driving margin expansion.
+summary_en: Luxshare Precision is an electronics manufacturing services company; its financial results
+  are a corporate event, not an independent AI product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: Luxshare Precision Reports 40.2% Revenue Growth in First Half 2026; Bus
   Expansion TradingView
 first_seen: '2026-08-28T00:00:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

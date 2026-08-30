@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/prequel-2
 summary: Create cinematic screen recordings on your Mac
 first_seen: '2026-08-29T09:09:16Z'
 last_seen: '2026-08-30T14:53:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

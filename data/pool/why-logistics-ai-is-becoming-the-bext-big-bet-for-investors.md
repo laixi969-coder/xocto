@@ -3,9 +3,10 @@ slug: why-logistics-ai-is-becoming-the-bext-big-bet-for-investors
 name: Logistics AI
 builder: ''
 category: ''
-summary_zh: 物流AI正成为投资者关注的新兴投资领域，行业整体吸引资本涌入。
+summary_zh: 物流 AI 成为投资者关注的新领域，AI 部署可减少 D2C 初创公司的 RTO 高达 20%。
 inspiration: ''
-summary_en: Logistics AI is emerging as a new investment focus, attracting capital inflows into the sector.
+summary_en: Logistics AI is becoming a big bet for investors; AI deployment cuts RTOs by up to 20% for
+  D2C startups.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3Y3eHRiSXNN
 summary: Why logistics AI is becoming the bext big bet for investors YourStory.com
 first_seen: '2026-08-29T02:42:15Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

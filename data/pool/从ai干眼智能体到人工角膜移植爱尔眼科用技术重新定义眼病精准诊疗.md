@@ -1,11 +1,12 @@
 ---
 slug: 从ai干眼智能体到人工角膜移植爱尔眼科用技术重新定义眼病精准诊疗
-name: 从AI干眼智能体到人工角膜移植，爱尔眼科用技术重新定义眼病精准诊疗
+name: 爱尔眼科
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 爱尔眼科将AI干眼智能体用于干眼症筛查与诊断，同时推进人工角膜移植技术，旨在提升眼病精准诊疗水平。
 inspiration: ''
-summary_en: ''
+summary_en: Aier Eye Hospital applies AI dry eye agents for dry eye screening and diagnosis, while advancing
+  artificial cornea transplantation to enhance precision ophthalmic care.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkMVdrYkNnQ2x2
 summary: 从AI干眼智能体到人工角膜移植，爱尔眼科用技术重新定义眼病精准诊疗 thepaper.cn
 first_seen: '2026-08-30T01:35:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 从AI干眼智能体到人工角膜移植，爱尔眼科用技术重新定义眼病精准诊疗
+# 爱尔眼科
 
 从AI干眼智能体到人工角膜移植，爱尔眼科用技术重新定义眼病精准诊疗 thepaper.cn
 

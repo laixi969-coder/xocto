@@ -302,3 +302,43 @@
   usage_reason: 公开代码仓库有 71 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 71 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-dsh-omi-voice-2026-08-30
+  project_slug: dsh-omi-voice
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决知识工作者在多任务场景下阅读 AI 回复的痛点，通过语音朗读实现边听边看，交付可确定（工作流结构推理）。
+    evidence_ids:
+    - ev-b5fa092d579ba305
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 71-75 个星标，显示社区关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-ff1fad0a344060de
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，可能面向个人用户或企业，但付费路径不明确。
+    evidence_ids:
+    - ev-b5fa092d579ba305
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述明确，但实际朗读质量和稳定性缺乏公开实测证据。
+    evidence_ids:
+    - ev-b5fa092d579ba305
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
+  market: ''
+  job: 知识工作者在 DeepSeek Harness 中阅读 AI 回复时，希望边听边看，以便在多任务场景下获取信息。
+  job_en: Knowledge workers reading AI responses in DeepSeek Harness want to listen while viewing, to
+    consume information during multitasking.
+  pain: 长时间阅读屏幕上的长文本回复容易疲劳，且在多任务时无法专注于阅读。
+  pain_en: Reading long text responses on screen causes fatigue, and multitasking prevents focused reading.
+  current_alternative: 用户可能使用系统自带的文本朗读功能或复制文本到其他 TTS 工具，但这些方式缺乏与 AI 回复的集成和自然音色。
+  current_alternative_en: Users may use built-in text-to-speech or copy text to other TTS tools, but these
+    lack integration with AI responses and natural voices.
+  usage_reason: 仓库获得 71-75 个星标，表明开发者社区关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 71-75 stars, showing developer attention, but sustained use and
+    payment are not yet verified.

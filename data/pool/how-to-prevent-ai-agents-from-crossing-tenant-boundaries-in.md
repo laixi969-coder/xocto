@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxOWThVX0x4dFBZ
 summary: How to Prevent AI Agents From Crossing Tenant Boundaries in SaaS Breaking AC News
 first_seen: '2026-08-29T01:45:58Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

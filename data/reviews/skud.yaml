@@ -1,0 +1,80 @@
+- id: req-initial-skud-2026-08-30
+  project_slug: skud
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决文件发送后无法追踪查看的痛点，替代邮件附件和网盘分享，交付带品牌和追踪的链接，价值结构成立。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品功能，缺乏用户评价、采用数据或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，无法判断商业模式，但可能面向销售和营销人员按量收费。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  - gate: truth
+    status: insufficient
+    reason: 产品功能简单，交付确定性高，但缺乏实际使用数据验证其是否真正被采用。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  next_validation: 关注官方定价页和用户评价，验证付费意愿和实际使用情况。
+  market: ''
+  job: 用户需要向客户或合作伙伴发送文件，并了解对方是否查看。
+  job_en: Users need to send files to clients or partners and know if they have been viewed.
+  pain: 传统邮件附件有大小限制，网盘链接缺乏品牌感和追踪能力，发送后无法知道对方是否打开。
+  pain_en: Traditional email attachments have size limits, cloud links lack branding and tracking, and
+    senders cannot know if the recipient opened the file.
+  current_alternative: 使用邮件附件、网盘分享或 FTP，但这些方式要么有大小限制，要么缺乏追踪。
+  current_alternative_en: Using email attachments, cloud storage, or FTP, which either have size limits
+    or lack tracking.
+  usage_reason: 尚未核验，但产品定位明确，可能因便捷性和品牌化而吸引用户。
+  usage_reason_en: Not yet verified, but the product positioning is clear and may attract users due to
+    convenience and branding.
+- id: req-full-skud-2026-08-30
+  project_slug: skud
+  level: full
+  reviewed_at: '2026-08-30T15:20:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决文件发送后无法追踪查看的痛点，替代邮件附件和网盘分享，交付带品牌和追踪的链接，价值结构成立。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品功能，缺乏用户评价、采用数据或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，无法判断商业模式，但可能面向销售和营销人员按量收费。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  - gate: truth
+    status: insufficient
+    reason: 产品功能简单，交付确定性高，但缺乏实际使用数据验证其是否真正被采用。
+    evidence_ids:
+    - ev-25e9c2534de1734d
+  next_validation: 关注官方定价页和用户评价，验证付费意愿和实际使用情况。
+  market: ''
+  job: 用户需要向客户或合作伙伴发送文件，并了解对方是否查看。
+  job_en: Users need to send files to clients or partners and know if they have been viewed.
+  pain: 传统邮件附件有大小限制，网盘链接缺乏品牌感和追踪能力，发送后无法知道对方是否打开。
+  pain_en: Traditional email attachments have size limits, cloud links lack branding and tracking, and
+    senders cannot know if the recipient opened the file.
+  current_alternative: 使用邮件附件、网盘分享或 FTP，但这些方式要么有大小限制，要么缺乏追踪。
+  current_alternative_en: Using email attachments, cloud storage, or FTP, which either have size limits
+    or lack tracking.
+  usage_reason: 尚未核验，但产品定位明确，可能因便捷性和品牌化而吸引用户。
+  usage_reason_en: Not yet verified, but the product positioning is clear and may attract users due to
+    convenience and branding.

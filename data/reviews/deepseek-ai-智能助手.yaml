@@ -72,3 +72,40 @@
   usage_reason: 公开记录显示 mau 139.08M、环比 -1.5%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 139.08M mau and -1.5% month-over-month growth. That explains
     the attention, but product-level retention and payment are not yet verified.
+- id: req-full-deepseek-ai-智能助手-2026-08-30
+  project_slug: deepseek-ai-智能助手
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“DeepSeek 的手机助手：同一套模型，用来搜索、写作、阅读、解题和翻译”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找DeepSeek官方定价页和用户评价，确认付费模式和用户满意度。
+  market: ''
+  job: 用户需要一个AI助手来完成搜索、写作、阅读、解题和翻译等任务。
+  job_en: Users need an AI assistant to perform tasks such as search, writing, reading, problem-solving,
+    and translation.
+  pain: 用户需要多个工具完成不同任务，效率低，公开材料未明确说明不解决的具体代价，但统一助手可减少切换成本。
+  pain_en: Users need multiple tools for different tasks, which is inefficient; public materials do not
+    specify the cost of leaving it unsolved, but a unified assistant can reduce switching costs.
+  current_alternative: 用户可能使用多个独立应用或搜索引擎，公开材料未说明具体替代方式。
+  current_alternative_en: Users might use multiple standalone apps or search engines; public materials
+    do not specify the exact alternative.
+  usage_reason: 公开记录显示月活跃用户1.39亿，环比-1.5%，说明大量用户使用，但产品级留存和付费尚未核验。
+  usage_reason_en: Public records show 139.08M MAU and -1.5% MoM, indicating large usage, but product-level
+    retention and payment are not yet verified.

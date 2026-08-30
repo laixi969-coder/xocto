@@ -112,3 +112,44 @@
   usage_reason: 公开代码仓库有 271 个收藏、23 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 271 stars and 23 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-diri-2026-08-30
+  project_slug: diri
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件工程师并行运行编码代理的需求，痛点在于串行效率低，交付是并行编排器，价值结构成立（工作流结构推理）。
+    evidence_ids:
+    - ev-6a14fd83cb3d4861
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有271个收藏和23次复刻，显示社区关注，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-6a14fd83cb3d4861
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费主体和定价未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6a14fd83cb3d4861
+  - gate: truth
+    status: insufficient
+    reason: 并行执行稳定性和冲突解决未验证，缺少可复现的公开测试结果，交付确定性待核验。
+    evidence_ids:
+    - ev-6a14fd83cb3d4861
+  next_validation: 追踪该项目的GitHub仓库issue和discussion，查看用户反馈和实际使用情况，以及star增长趋势。
+  market: ''
+  job: 软件工程师需要并行运行多个编码代理，跨git worktrees和远程主机执行任务。
+  job_en: Software engineers need to run multiple coding agents in parallel across git worktrees and remote
+    hosts.
+  pain: 串行运行多个代理效率低，公开材料未明确说明不解决的具体代价，但并行可提高效率。
+  pain_en: Running agents serially is inefficient; public materials do not specify the cost of leaving
+    it unsolved, but parallelism can improve efficiency.
+  current_alternative: 用户可能手动切换代理或使用多个终端，公开材料未说明具体替代方式。
+  current_alternative_en: Users might manually switch agents or use multiple terminals; public materials
+    do not specify the exact alternative.
+  usage_reason: 公开代码仓库有271个收藏和23次复刻，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 271 stars and 23 forks, indicating developer attention or
+    trial, but sustained use and payment are not yet verified.

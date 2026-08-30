@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/retro-y2k-theme-90s-web-aestheti
 summary: Customize any website with a vintage 90s & Y2K retro theme
 first_seen: '2026-08-24T15:35:12Z'
 last_seen: '2026-08-30T14:53:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

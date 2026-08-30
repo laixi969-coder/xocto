@@ -3,9 +3,10 @@ slug: ai-begins-to-wield-significant-influence-on-consumers-auto-a
 name: AI Begins to Wield Significant Influence on Consumers’ Auto and Home Insurance Decisions
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI开始显著影响消费者在汽车和家庭保险上的决策，表明AI在保险行业中的应用正在改变消费者行为。
 inspiration: ''
-summary_en: ''
+summary_en: AI is beginning to significantly influence consumers' auto and home insurance decisions, indicating
+  AI applications in the insurance industry are changing consumer behavior.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHJoVnhELTFZ
 summary: AI Begins to Wield Significant Influence on Consumers’ Auto and Home Insurance Decisions 01net
 first_seen: '2026-08-27T15:00:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

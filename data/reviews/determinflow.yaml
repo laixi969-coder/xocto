@@ -72,3 +72,40 @@
   usage_reason: 公开代码仓库有 583 个收藏、87 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 583 stars and 87 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-determinflow-2026-08-30
+  project_slug: determinflow
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把复杂 AI 流程钉成可校验、失败能从断点续跑的服务，中途断了不用从头来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该项目的官方文档、issue和discussion，确认实际使用情况和稳定性。
+  market: ''
+  job: 开发者需要将复杂AI工作流部署为可校验、可断点续跑的服务。
+  job_en: Developers need to deploy complex AI workflows as services that are validatable and resumable
+    from breakpoints.
+  pain: 复杂AI工作流失败后需要从头开始，耗时且成本高，公开材料未明确说明不解决的具体代价，但断点续跑可减少损失。
+  pain_en: Complex AI workflows restart from scratch on failure, which is time-consuming and costly; public
+    materials do not specify the cost of leaving it unsolved, but resumability can reduce losses.
+  current_alternative: 用户可能手动重跑或使用其他工作流引擎，公开材料未说明具体替代方式。
+  current_alternative_en: Users might manually rerun or use other workflow engines; public materials do
+    not specify the exact alternative.
+  usage_reason: 公开代码仓库有583个收藏和87次复刻，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 583 stars and 87 forks, indicating developer attention or
+    trial, but sustained use and payment are not yet verified.

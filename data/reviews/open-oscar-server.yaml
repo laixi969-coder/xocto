@@ -1,0 +1,70 @@
+- id: req-initial-open-oscar-server-2026-08-30
+  project_slug: open-oscar-server
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明兼容 AIM/ICQ，未说明用户任务、痛点或交付，无法判断价值。
+    evidence_ids:
+    - ev-9cf4b3e6eadc365c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注该开源仓库的 issue 和讨论，了解用户实际使用场景和需求。
+  market: ''
+  job: 未明确：用户使用 AIM/ICQ 客户端的具体任务未说明。
+  job_en: 'Unclear: The specific task of users using AIM/ICQ clients is not stated.'
+  pain: 未明确：没有公开信息说明其解决的痛点。
+  pain_en: 'Unclear: No public information on the pain point it addresses.'
+  current_alternative: 未明确：没有公开信息说明当前替代方式。
+  current_alternative_en: 'Unclear: No public information on current alternatives.'
+  usage_reason: 关注源于开发者社区讨论，可能出于怀旧或技术兴趣，而非实际需求。
+  usage_reason_en: Attention stems from developer community discussion, possibly nostalgia or technical
+    interest, not actual demand.
+- id: req-full-open-oscar-server-2026-08-30
+  project_slug: open-oscar-server
+  level: full
+  reviewed_at: '2026-08-30T15:20:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明兼容 AIM/ICQ，未说明用户任务、痛点或交付，无法判断价值。
+    evidence_ids:
+    - ev-9cf4b3e6eadc365c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注该开源仓库的 issue 和讨论，了解用户实际使用场景和需求。
+  market: ''
+  job: 未明确：用户使用 AIM/ICQ 客户端的具体任务未说明。
+  job_en: 'Unclear: The specific task of users using AIM/ICQ clients is not stated.'
+  pain: 未明确：没有公开信息说明其解决的痛点。
+  pain_en: 'Unclear: No public information on the pain point it addresses.'
+  current_alternative: 未明确：没有公开信息说明当前替代方式。
+  current_alternative_en: 'Unclear: No public information on current alternatives.'
+  usage_reason: 关注源于开发者社区讨论，可能出于怀旧或技术兴趣，而非实际需求。
+  usage_reason_en: Attention stems from developer community discussion, possibly nostalgia or technical
+    interest, not actual demand.

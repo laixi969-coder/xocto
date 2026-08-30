@@ -3,10 +3,11 @@ slug: ainews-openai-shuts-off-cursor
 name: OpenAI
 builder: ''
 category: ''
-summary_zh: OpenAI 切断对 Cursor 的服务是平台政策变化，影响 AI 编程工具生态，属于行业背景而非独立产品。
+summary_zh: OpenAI 切断对 Cursor 的访问，显示其平台政策收紧；同时预测 2026 年底达到 AGI，并在泰国支持 AI 初创、发布“AI 上岗”能力，覆盖股票研究和投行路演等专业场景。
 inspiration: ''
-summary_en: OpenAI cutting off Cursor is a platform policy change affecting the AI coding tool ecosystem,
-  representing industry background rather than a standalone product.
+summary_en: OpenAI cut off Cursor access, signaling tightened platform policies; it also predicted AGI
+  by end-2026, supported Thai AI startups, and launched 'AI at Work' capabilities covering stock research
+  and investment banking roadshows.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ canonical_url: https://latent.space/p/ainews-openai-shuts-off-cursor
 summary: Elon v Altman has a real consequence.
 first_seen: '2026-08-29T05:11:52Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

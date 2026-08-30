@@ -1,11 +1,12 @@
 ---
 slug: 大厂ai变阵竞赛智能体站上c位
-name: 大厂AI变阵竞赛，智能体站上C位
+name: AI智能体行业
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 中国大型科技公司正在调整AI战略，智能体成为竞争焦点。
 inspiration: ''
-summary_en: ''
+summary_en: Major Chinese tech companies are shifting AI strategies, with agents becoming the competitive
+  focus.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1pZ05zOFNJczBw
 summary: 大厂AI变阵竞赛，智能体站上C位 新浪网
 first_seen: '2026-08-30T13:58:51Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 大厂AI变阵竞赛，智能体站上C位
+# AI智能体行业
 
 大厂AI变阵竞赛，智能体站上C位 新浪网
 

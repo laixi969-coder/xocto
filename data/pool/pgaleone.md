@@ -21,7 +21,7 @@ canonical_url: https://pgaleone.eu/ai/2026/08/29/losing-savviness
 summary: LLMs are making me lose my savviness
 first_seen: '2026-08-29T18:38:52Z'
 last_seen: '2026-08-30T14:53:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

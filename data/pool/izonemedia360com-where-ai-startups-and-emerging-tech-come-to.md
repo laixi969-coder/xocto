@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aRmVUc2szRmFh
 summary: 'iZoneMedia360.com: Where AI, Startups and Emerging Tech Come Together Tycoonstory Media'
 first_seen: '2026-08-30T08:03:25Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

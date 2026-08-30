@@ -1,0 +1,80 @@
+- id: req-initial-sopro-v2-turbo-tts-2026-08-30
+  project_slug: sopro-v2-turbo-tts
+  level: initial
+  reviewed_at: '2026-08-30T14:53:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音克隆需要大量样本的痛点，零样本克隆降低门槛，交付是可直接使用的模型，价值成立。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示模型参数和功能，缺乏社区讨论、使用案例或下载数据，共识证据不足。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源模型可能通过云服务或支持收费，但未验证。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  - gate: truth
+    status: insufficient
+    reason: 模型交付确定性高，但缺乏实际使用数据验证其性能和采用情况。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  next_validation: 关注模型下载量、社区讨论和实际应用案例，验证性能和市场接受度。
+  market: ''
+  job: 开发者需要为应用生成特定人物的语音，而无需大量录音数据。
+  job_en: Developers need to generate speech for specific characters without large amounts of recording
+    data.
+  pain: 传统 TTS 需要大量录音和训练，成本高且耗时，零样本克隆能快速生成个性化语音。
+  pain_en: Traditional TTS requires extensive recordings and training, which is costly and time-consuming;
+    zero-shot cloning can quickly generate personalized speech.
+  current_alternative: 使用商业 TTS 服务或需要大量样本的克隆工具。
+  current_alternative_en: Using commercial TTS services or cloning tools that require large samples.
+  usage_reason: 尚未核验，但开源模型可能吸引开发者尝试，社区关注度低但潜力存在。
+  usage_reason_en: Not yet verified, but open-source models may attract developers; community attention
+    is low but potential exists.
+- id: req-full-sopro-v2-turbo-tts-2026-08-30
+  project_slug: sopro-v2-turbo-tts
+  level: full
+  reviewed_at: '2026-08-30T15:20:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音克隆需要大量样本的痛点，零样本克隆降低门槛，交付是可直接使用的模型，价值成立。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示模型参数和功能，缺乏社区讨论、使用案例或下载数据，共识证据不足。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源模型可能通过云服务或支持收费，但未验证。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  - gate: truth
+    status: insufficient
+    reason: 模型交付确定性高，但缺乏实际使用数据验证其性能和采用情况。
+    evidence_ids:
+    - ev-81ae6a317774180a
+  next_validation: 关注模型下载量、社区讨论和实际应用案例，验证性能和市场接受度。
+  market: ''
+  job: 开发者需要为应用生成特定人物的语音，而无需大量录音数据。
+  job_en: Developers need to generate speech for specific characters without large amounts of recording
+    data.
+  pain: 传统 TTS 需要大量录音和训练，成本高且耗时，零样本克隆能快速生成个性化语音。
+  pain_en: Traditional TTS requires extensive recordings and training, which is costly and time-consuming;
+    zero-shot cloning can quickly generate personalized speech.
+  current_alternative: 使用商业 TTS 服务或需要大量样本的克隆工具。
+  current_alternative_en: Using commercial TTS services or cloning tools that require large samples.
+  usage_reason: 尚未核验，但开源模型可能吸引开发者尝试，社区关注度低但潜力存在。
+  usage_reason_en: Not yet verified, but open-source models may attract developers; community attention
+    is low but potential exists.

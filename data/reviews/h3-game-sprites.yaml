@@ -384,3 +384,44 @@
   usage_reason: 公开代码仓库有 98 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 98 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-h3-game-sprites-2026-08-30
+  project_slug: h3-game-sprites
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏美术制作精灵表效率低的痛点，通过 AI 视频转换实现，交付可确定（工作流结构推理）。
+    evidence_ids:
+    - ev-4782395a012a91ca
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 98-106 个星标，显示社区关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-dc8275372b832a9a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，可能面向个人开发者，但付费路径不明确。
+    evidence_ids:
+    - ev-4782395a012a91ca
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述明确，但实际转换质量和流程稳定性缺乏公开实测证据。
+    evidence_ids:
+    - ev-4782395a012a91ca
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
+  market: ''
+  job: 游戏美术和独立游戏开发者需要将 AI 生成的视频转换为 2D 游戏精灵表，以快速创建动画资源。
+  job_en: Game artists and indie developers need to convert AI-generated videos into 2D game sprite sheets
+    to quickly create animation assets.
+  pain: 手动制作精灵表耗时且繁琐，AI 视频生成后需要额外处理才能用于游戏。
+  pain_en: Manually creating sprite sheets is time-consuming and tedious; AI-generated videos need extra
+    processing for game use.
+  current_alternative: 开发者可能手动逐帧截取或使用专业软件，但这些方法效率低或成本高。
+  current_alternative_en: Developers may manually capture frames or use professional software, but these
+    are inefficient or costly.
+  usage_reason: 仓库获得 98-106 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 98-106 stars, showing developer attention, but sustained use and
+    payment are not yet verified.

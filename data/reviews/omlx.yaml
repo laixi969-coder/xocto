@@ -1,0 +1,73 @@
+- id: req-initial-omlx-2026-08-30
+  project_slug: omlx
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称解决 AI agent 推理等待时间长的问题，但未说明具体优化机制和交付结果，无法确认痛点是否刚性。
+    evidence_ids:
+    - ev-965628dac60c094b
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，无法判断共识。
+    evidence_ids:
+    - ev-965628dac60c094b
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，无法判断付费方。
+    evidence_ids:
+    - ev-965628dac60c094b
+  - gate: truth
+    status: insufficient
+    reason: 延迟数据未经验证，交付确定性存疑。
+    evidence_ids:
+    - ev-965628dac60c094b
+  next_validation: 关注项目官方仓库的 issue 和讨论，验证延迟数据是否可复现，以及是否有实际用户采用。
+  market: ''
+  job: 开发者希望减少 AI agent 在推理时的等待时间，提升开发效率。
+  job_en: Developers want to reduce waiting time during AI agent inference to improve development efficiency.
+  pain: AI agent 推理等待时间长，拖慢开发迭代。
+  pain_en: Long inference wait times slow down development iteration.
+  current_alternative: 目前可能使用云端 API 或未优化的本地推理，等待时间较长。
+  current_alternative_en: Currently may use cloud APIs or unoptimized local inference, with longer wait
+    times.
+  usage_reason: 尚未核验，但开发者可能因延迟优化而关注。
+  usage_reason_en: Not yet verified, but developers may be interested due to latency optimization.
+- id: req-full-omlx-2026-08-30
+  project_slug: omlx
+  level: full
+  reviewed_at: '2026-08-30T15:20:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称解决 AI agent 推理等待时间长的问题，但未说明具体优化机制和交付结果，无法确认痛点是否刚性。
+    evidence_ids:
+    - ev-965628dac60c094b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目官方仓库的 issue 和讨论，验证延迟数据是否可复现，以及是否有实际用户采用。
+  market: ''
+  job: 开发者希望减少 AI agent 在推理时的等待时间，提升开发效率。
+  job_en: Developers want to reduce waiting time during AI agent inference to improve development efficiency.
+  pain: AI agent 推理等待时间长，拖慢开发迭代。
+  pain_en: Long inference wait times slow down development iteration.
+  current_alternative: 目前可能使用云端 API 或未优化的本地推理，等待时间较长。
+  current_alternative_en: Currently may use cloud APIs or unoptimized local inference, with longer wait
+    times.
+  usage_reason: 尚未核验，但开发者可能因延迟优化而关注。
+  usage_reason_en: Not yet verified, but developers may be interested due to latency optimization.

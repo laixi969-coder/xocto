@@ -1,11 +1,12 @@
 ---
 slug: enablence-technologies-news-today-ena-gains-231-on-new-ai-da
-name: 'Enablence Technologies News Today: ENA Gains 2.31% on New AI Data-Centre Manufacturing Milestone'
+name: Enablence Technologies
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Enablence Technologies 是光通信组件制造商，本次新闻仅报道其股价变动和制造里程碑，未提供产品细节。
 inspiration: ''
-summary_en: ''
+summary_en: Enablence Technologies is an optical communication component manufacturer. This news only
+  reports stock movement and manufacturing milestone, without product details.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: 'Enablence Technologies News Today: ENA Gains 2.31% on New AI Data-Cent
   kalkine.ca'
 first_seen: '2026-08-27T15:27:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Enablence Technologies News Today: ENA Gains 2.31% on New AI Data-Centre Manufacturing Milestone
+# Enablence Technologies
 
 Enablence Technologies News Today: ENA Gains 2.31% on New AI Data-Centre Manufacturing Milestone kalkine.ca
 

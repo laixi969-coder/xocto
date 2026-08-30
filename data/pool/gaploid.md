@@ -21,7 +21,7 @@ canonical_url: https://gaploid.github.io/cosmic-collisions
 summary: The impact that made the Moon, 262k particles in a browser tab
 first_seen: '2026-08-29T13:20:11Z'
 last_seen: '2026-08-30T14:53:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

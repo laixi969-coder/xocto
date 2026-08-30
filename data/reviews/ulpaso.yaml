@@ -1,0 +1,76 @@
+- id: req-initial-ulpaso-2026-08-30
+  project_slug: ulpaso
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议记录耗时、易遗漏的痛点，AI 接收音频或文字稿，输出结构化笔记，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有一句宣传语，缺乏用户评价或采用数据，场景感知尚不明确。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是 to C 或 to B，但无公开证据。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付质量如何，均未公开验证。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  next_validation: 关注 Ulpaso 官网是否上线定价页和产品演示，以及发布平台评论区用户反馈。
+  market: ''
+  job: 用户需要将会议内容整理成可用的笔记或纪要。
+  job_en: Users need to turn meeting content into usable notes or minutes.
+  pain: 手动记录会议耗时且容易遗漏关键信息。
+  pain_en: Manual note-taking is time-consuming and prone to missing key information.
+  current_alternative: 目前通常由人工记录或使用通用录音转文字工具，再手动整理。
+  current_alternative_en: Currently, people manually take notes or use generic transcription tools, then
+    organize manually.
+  usage_reason: AI 可自动生成结构化笔记，节省时间，但具体采用情况尚未核验。
+  usage_reason_en: AI can auto-generate structured notes, saving time, but adoption is not yet verified.
+- id: req-full-ulpaso-2026-08-30
+  project_slug: ulpaso
+  level: full
+  reviewed_at: '2026-08-30T15:20:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议记录耗时、易遗漏的痛点，AI 接收音频或文字稿，输出结构化笔记，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有一句宣传语，缺乏用户评价或采用数据，场景感知尚不明确。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是 to C 或 to B，但无公开证据。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付质量如何，均未公开验证。
+    evidence_ids:
+    - ev-b4f75b68b313951c
+  next_validation: 关注 Ulpaso 官网是否上线定价页和产品演示，以及发布平台评论区用户反馈。
+  market: ''
+  job: 用户需要将会议内容整理成可用的笔记或纪要。
+  job_en: Users need to turn meeting content into usable notes or minutes.
+  pain: 手动记录会议耗时且容易遗漏关键信息。
+  pain_en: Manual note-taking is time-consuming and prone to missing key information.
+  current_alternative: 目前通常由人工记录或使用通用录音转文字工具，再手动整理。
+  current_alternative_en: Currently, people manually take notes or use generic transcription tools, then
+    organize manually.
+  usage_reason: AI 可自动生成结构化笔记，节省时间，但具体采用情况尚未核验。
+  usage_reason_en: AI can auto-generate structured notes, saving time, but adoption is not yet verified.

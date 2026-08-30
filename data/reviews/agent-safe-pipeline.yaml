@@ -269,3 +269,43 @@
   usage_reason: 公开代码仓库有 165 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 165 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-agent-safe-pipeline-2026-08-30
+  project_slug: agent-safe-pipeline
+  level: full
+  reviewed_at: '2026-08-30T15:18:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI代理自主执行高风险操作缺乏人工审批的安全痛点，通过不可变意图捕获、策略裁决、人工批准和一次性授权确保交付可确定；工作流结构推理成立，但公开材料未量化痛点频率与代价。
+    evidence_ids:
+    - ev-5fb621ba6ea21036
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库166星显示社区关注，但缺乏用户评价、采用案例或讨论，无法确认目标用户持续使用或付费。
+    evidence_ids:
+    - ev-2f80629827040181
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济；可能面向企业或开发者，但买方未核验，这是模式缺口而非需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据；需验证实际部署效果。
+    evidence_ids: []
+  next_validation: 追踪官方文档、GitHub issue 和 discussion，寻找企业部署案例或安全审计报告，确认谁在何种强场景使用及替代的旧流程。
+  market: ''
+  job: AI只能提出要做什么，真正动手必须等人点头并拿到一次性授权
+  job_en: AI can only propose an action; a person must approve it and issue a one-time go-ahead before
+    anything runs.
+  pain: AI代理自主执行高风险操作可能导致不可逆后果，缺乏人工审批机制会带来安全与合规风险；公开材料未量化不解决的代价与频率。
+  pain_en: AI agents acting autonomously on high-stakes operations can cause irreversible harm; without
+    human approval, security and compliance risks arise. Public materials do not quantify the cost or
+    frequency of leaving this unsolved.
+  current_alternative: 公开材料未说明用户当前如何完成此任务，可能依赖人工手动审批或完全信任AI，但尚未核验。
+  current_alternative_en: Public materials do not show how users currently handle this; they may rely
+    on manual approval or full AI trust, but this is unverified.
+  usage_reason: 公开仓库有166星，显示开发者关注AI代理安全治理，但持续使用与付费未核验。
+  usage_reason_en: The public repository has 166 stars, showing developer interest in AI agent safety
+    governance, but repeat use and payment are not verified.

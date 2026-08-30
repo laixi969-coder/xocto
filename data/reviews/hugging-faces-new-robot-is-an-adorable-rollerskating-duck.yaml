@@ -78,3 +78,81 @@
   usage_reason: 预购和媒体报道显示关注度，但实际使用和付费数据尚未核验。
   usage_reason_en: Preorders and media coverage show interest, but actual usage and payment data are not
     yet verified.
+- id: req-initial-hugging-faces-new-robot-is-an-adorable-rollerskating-duck-2026-08-30
+  project_slug: hugging-faces-new-robot-is-an-adorable-rollerskating-duck
+  level: initial
+  reviewed_at: '2026-08-30T14:53:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户对低成本、有趣、可互动机器人的需求，痛点在于现有产品价格高或缺乏互动性。工作流结构判断：用户购买后用于娱乐或教育，交付可确定。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: consensus
+    status: insufficient
+    reason: 有预购和媒体报道，但缺乏用户评价和持续采用数据。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，但付费方和付费触发点未明确。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: truth
+    status: insufficient
+    reason: 产品尚未发货，交付能力未验证。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  next_validation: 关注 Microduck 发货后的用户评价和实际使用数据。
+  market: ''
+  job: 用户想要一个可爱的、可互动的桌面机器人，用于娱乐或教育。
+  job_en: Users want a cute, interactive desktop robot for entertainment or education.
+  pain: 现有机器人要么昂贵复杂，要么缺乏趣味性。
+  pain_en: Existing robots are either expensive and complex, or lack fun.
+  current_alternative: 传统教育机器人或玩具，但功能单一或价格高。
+  current_alternative_en: Traditional educational robots or toys, but with limited features or high price.
+  usage_reason: 预购和媒体报道表明有早期兴趣，但实际采用和付费尚未核验。
+  usage_reason_en: Preorders and media coverage indicate early interest, but actual adoption and payment
+    not yet verified.
+- id: req-full-hugging-faces-new-robot-is-an-adorable-rollerskating-duck-2026-08-30
+  project_slug: hugging-faces-new-robot-is-an-adorable-rollerskating-duck
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户对低成本、有趣、可互动机器人的需求，痛点在于现有产品价格高或缺乏互动性，交付可确定（工作流结构推理）。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: consensus
+    status: insufficient
+    reason: 有预购和媒体报道，但缺乏用户评价和持续采用数据。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，但付费方和付费触发点未明确。
+    evidence_ids:
+    - ev-3932983cc9915d1c
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“公开模型社区 与 Pollen Robotics 合作推出 Microduck，一款约 10 英寸高的独眼双足机器人，可预购，售价 399 美元”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注 Microduck 发货后的用户评价和实际使用数据。
+  market: ''
+  job: 机器人爱好者和教育工作者希望获得一个可爱、可互动的桌面机器人，用于娱乐或教育。
+  job_en: Robot enthusiasts and educators want a cute, interactive desktop robot for entertainment or
+    education.
+  pain: 现有机器人产品价格高或缺乏趣味性，难以满足低成本、有趣的需求。
+  pain_en: Existing robots are expensive or lack fun, failing to meet the need for low-cost, engaging
+    options.
+  current_alternative: 用户可能购买传统教育机器人或玩具，但这些功能单一或价格高。
+  current_alternative_en: Users may buy traditional educational robots or toys, but these have limited
+    features or high prices.
+  usage_reason: 预购和媒体报道显示早期兴趣，但实际采用和付费尚未核验。
+  usage_reason_en: Preorders and media coverage indicate early interest, but actual adoption and payment
+    are not yet verified.

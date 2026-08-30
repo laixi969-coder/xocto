@@ -21,7 +21,7 @@ canonical_url: https://newsletter.eng-leadership.com/p/good-culture-is-the-bigge
 summary: Good Culture Is the Biggest Productivity Hack, Not AI
 first_seen: '2026-08-29T17:19:47Z'
 last_seen: '2026-08-30T14:53:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

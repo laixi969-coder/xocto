@@ -7,3 +7,177 @@
   source_kind: product
   tier: first_party
   fact: Mac LLM server that cuts agent wait times from 90s to 5s
+- id: ev-a3e1bede1aa030c4
+  project_slug: omlx
+  url: https://omlx.ai/
+  title: oMLX — LLM inference, optimized for your Mac
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: pain
+  tier: independent
+  fact: Yes. oMLX provides both OpenAI-compatible (/v1/chat/completions) and Anthropic-compatible (/v1/messages)
+    API endpoints. It works as a drop-in backend for all three. The web dashboard has a one-click config
+    generator — select your model, copy the command, paste into terminal.
+- id: ev-1a1d59add6c5d667
+  project_slug: omlx
+  url: https://github.com/jundot/omlx
+  title: 'GitHub - jundot/omlx: LLM inference server with continuous batching ...'
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: pain
+  tier: independent
+  fact: oMLX persists KV cache across a hot in-memory tier and cold SSD tier - even when context changes
+    mid-conversation, all past context stays cached and reusable across requests, making local LLMs practical
+    for real coding work with tools like Claude Code.
+- id: ev-4901c6b7caf5484a
+  project_slug: omlx
+  url: https://github.com/jundot/omlx/releases
+  title: Releases · jundot/omlx - GitHub
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: pain
+  tier: independent
+  fact: oMLX 0.6.0 introduces experimental distributed serving, more responsive concurrent inference,
+    lower long-context memory use, new model families, built-in web search, speech-to-text, and community
+    intelligence benchmark publishing.
+- id: ev-02b8334b6e6bf3e6
+  project_slug: omlx
+  url: https://omlx.ai/
+  title: oMLX — LLM inference, optimized for your Mac
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: workaround
+  tier: independent
+  fact: Yes. oMLX provides both OpenAI-compatible (/v1/chat/completions) and Anthropic-compatible (/v1/messages)
+    API endpoints. It works as a drop-in backend for all three. The web dashboard has a one-click config
+    generator — select your model, copy the command, paste into terminal.
+- id: ev-6e12fe2081468747
+  project_slug: omlx
+  url: https://github.com/jundot/omlx
+  title: 'GitHub - jundot/omlx: LLM inference server with continuous batching ...'
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: workaround
+  tier: independent
+  fact: oMLX persists KV cache across a hot in-memory tier and cold SSD tier - even when context changes
+    mid-conversation, all past context stays cached and reusable across requests, making local LLMs practical
+    for real coding work with tools like Claude Code.
+- id: ev-b6bca2503e9e2573
+  project_slug: omlx
+  url: https://github.com/jundot/omlx/releases
+  title: Releases · jundot/omlx - GitHub
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: workaround
+  tier: independent
+  fact: oMLX 0.6.0 introduces experimental distributed serving, more responsive concurrent inference,
+    lower long-context memory use, new model families, built-in web search, speech-to-text, and community
+    intelligence benchmark publishing.
+- id: ev-e569bd3eea67a9ea
+  project_slug: omlx
+  url: https://omlx.ai/
+  title: oMLX — LLM inference, optimized for your Mac
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: customer_case
+  tier: independent
+  fact: Yes. oMLX provides both OpenAI-compatible (/v1/chat/completions) and Anthropic-compatible (/v1/messages)
+    API endpoints. It works as a drop-in backend for all three. The web dashboard has a one-click config
+    generator — select your model, copy the command, paste into terminal.
+- id: ev-7c0f254f40381839
+  project_slug: omlx
+  url: https://github.com/jundot/omlx
+  title: 'GitHub - jundot/omlx: LLM inference server with continuous batching ...'
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: customer_case
+  tier: independent
+  fact: oMLX persists KV cache across a hot in-memory tier and cold SSD tier - even when context changes
+    mid-conversation, all past context stays cached and reusable across requests, making local LLMs practical
+    for real coding work with tools like Claude Code.
+- id: ev-2f7408b01a00ab1c
+  project_slug: omlx
+  url: https://github.com/jundot/omlx/releases
+  title: Releases · jundot/omlx - GitHub
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: customer_case
+  tier: independent
+  fact: oMLX 0.6.0 introduces experimental distributed serving, more responsive concurrent inference,
+    lower long-context memory use, new model families, built-in web search, speech-to-text, and community
+    intelligence benchmark publishing.
+- id: ev-7867bba31bbfe041
+  project_slug: omlx
+  url: https://omlx.ai/
+  title: oMLX — LLM inference, optimized for your Mac
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: pricing
+  tier: independent
+  fact: Yes. oMLX provides both OpenAI-compatible (/v1/chat/completions) and Anthropic-compatible (/v1/messages)
+    API endpoints. It works as a drop-in backend for all three. The web dashboard has a one-click config
+    generator — select your model, copy the command, paste into terminal.
+- id: ev-71c16c6ec6646541
+  project_slug: omlx
+  url: https://github.com/jundot/omlx
+  title: 'GitHub - jundot/omlx: LLM inference server with continuous batching ...'
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: pricing
+  tier: independent
+  fact: oMLX persists KV cache across a hot in-memory tier and cold SSD tier - even when context changes
+    mid-conversation, all past context stays cached and reusable across requests, making local LLMs practical
+    for real coding work with tools like Claude Code.
+- id: ev-4916a5b4876d93ae
+  project_slug: omlx
+  url: https://github.com/jundot/omlx/releases
+  title: Releases · jundot/omlx - GitHub
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: pricing
+  tier: independent
+  fact: oMLX 0.6.0 introduces experimental distributed serving, more responsive concurrent inference,
+    lower long-context memory use, new model families, built-in web search, speech-to-text, and community
+    intelligence benchmark publishing.
+- id: ev-6dd10bb306492298
+  project_slug: omlx
+  url: https://omlx.ai/
+  title: oMLX — LLM inference, optimized for your Mac
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: retention
+  tier: independent
+  fact: Yes. oMLX provides both OpenAI-compatible (/v1/chat/completions) and Anthropic-compatible (/v1/messages)
+    API endpoints. It works as a drop-in backend for all three. The web dashboard has a one-click config
+    generator — select your model, copy the command, paste into terminal.
+- id: ev-59ed7226760a8dc5
+  project_slug: omlx
+  url: https://github.com/jundot/omlx
+  title: 'GitHub - jundot/omlx: LLM inference server with continuous batching ...'
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: retention
+  tier: independent
+  fact: oMLX persists KV cache across a hot in-memory tier and cold SSD tier - even when context changes
+    mid-conversation, all past context stays cached and reusable across requests, making local LLMs practical
+    for real coding work with tools like Claude Code.
+- id: ev-6df8f65c071c7b19
+  project_slug: omlx
+  url: https://github.com/jundot/omlx/releases
+  title: Releases · jundot/omlx - GitHub
+  published_at: ''
+  collected_at: '2026-08-30T15:16:50Z'
+  source_kind: retention
+  tier: independent
+  fact: oMLX 0.6.0 introduces experimental distributed serving, more responsive concurrent inference,
+    lower long-context memory use, new model families, built-in web search, speech-to-text, and community
+    intelligence benchmark publishing.
+- id: ev-ded9dfae9ea3fad3
+  project_slug: omlx
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91+AI%E5%B7%A5%E7%A8%8B%E5%B8%88+%E5%BC%80%E5%8F%91%E8%80%85
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-08-30T15:17:17Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件开发 AI工程师 开发者'

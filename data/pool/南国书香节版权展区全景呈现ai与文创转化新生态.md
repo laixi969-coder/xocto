@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xYnNFZFUwZ1pz
 summary: 南国书香节版权展区：全景呈现AI与文创转化新生态 rss.jingjiribao.cn
 first_seen: '2026-08-29T12:23:09Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

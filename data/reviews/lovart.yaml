@@ -1,0 +1,80 @@
+- id: req-initial-lovart-2026-08-30
+  project_slug: lovart
+  level: initial
+  reviewed_at: '2026-08-30T14:53:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创意团队设计产出效率低、迭代慢的痛点，替代手动设计或外包流程，交付可编辑设计稿，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示科技媒体报道和访问量，缺乏用户评价、采用率或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是创意团队或企业，但付费路径不明确。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实交付、效果如何，缺乏公开案例或实测证据，需进一步验证。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  next_validation: 关注 Lovart 官网是否上线定价页和客户案例，以及是否有公开的用户评测或设计社区讨论。
+  market: ''
+  job: 创意团队需要快速产出设计初稿和迭代方案，以满足项目交付周期。
+  job_en: Creative teams need to quickly produce design drafts and iterations to meet project deadlines.
+  pain: 设计流程耗时，人工反复修改，成本高，交付周期压力大。
+  pain_en: Design processes are time-consuming, require repetitive manual revisions, high costs, and tight
+    delivery schedules.
+  current_alternative: 目前主要依赖设计师手动使用设计软件（如 Photoshop、Figma）完成，或外包给第三方设计公司。
+  current_alternative_en: Currently relies on designers manually using design software (e.g., Photoshop,
+    Figma) or outsourcing to third-party design agencies.
+  usage_reason: Lovart 提供单一平台整合 AI 设计能力，可能减少工具切换和重复劳动，吸引创意团队试用。
+  usage_reason_en: Lovart offers a single platform integrating AI design capabilities, potentially reducing
+    tool switching and repetitive work, attracting creative teams to try.
+- id: req-full-lovart-2026-08-30
+  project_slug: lovart
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创意团队设计产出效率低、迭代慢的痛点，替代手动设计或外包流程，交付可编辑设计稿，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示科技媒体报道和访问量，缺乏用户评价、采用率或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是创意团队或企业，但付费路径不明确。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实交付、效果如何，缺乏公开案例或实测证据，需进一步验证。
+    evidence_ids:
+    - ev-c24f324c6d49c1a8
+  next_validation: 关注 Lovart 官网是否上线定价页和客户案例，以及是否有公开的用户评测或设计社区讨论。
+  market: ''
+  job: 创意团队需要快速产出设计初稿和迭代方案，以满足项目交付周期。
+  job_en: Creative teams need to quickly produce design drafts and iterations to meet project deadlines.
+  pain: 设计流程耗时，人工反复修改，成本高，交付周期压力大。
+  pain_en: Design processes are time-consuming, require repetitive manual revisions, high costs, and tight
+    delivery schedules.
+  current_alternative: 目前主要依赖设计师手动使用设计软件（如 Photoshop、Figma）完成，或外包给第三方设计公司。
+  current_alternative_en: Currently relies on designers manually using design software (e.g., Photoshop,
+    Figma) or outsourcing to third-party design agencies.
+  usage_reason: Lovart 提供单一平台整合 AI 设计能力，可能减少工具切换和重复劳动，吸引创意团队试用。
+  usage_reason_en: Lovart offers a single platform integrating AI design capabilities, potentially reducing
+    tool switching and repetitive work, attracting creative teams to try.

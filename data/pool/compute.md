@@ -3,10 +3,10 @@ slug: compute
 name: compute
 builder: hargup
 category: 基础层
-summary_zh: 这是 Anthropic 与 Nscale 的算力租赁协议，属于行业基础设施变化，不是独立产品。
+summary_zh: Compute.cx 提供类似 Modal 的按需 GPU 接口，但本次候选主要关联 Anthropic 与 Nscale 的算力交易，属于行业算力市场变化。
 inspiration: 简化 GPU 访问，可能使更多开发者使用 AI 计算
-summary_en: This is a compute leasing agreement between Anthropic and Nscale, an industry infrastructure
-  change, not an independent product.
+summary_en: Compute.cx offers a Modal-like interface for on-demand GPUs, but this candidate is primarily
+  associated with the Anthropic-Nscale compute deal, reflecting industry compute market changes.
 inspiration_en: Simplifying GPU access could enable more developers to use AI compute
 priority_review: false
 project_type: ''
@@ -22,7 +22,7 @@ canonical_url: https://compute.cx
 summary: Compute.cx is simple (modal.com like) interface for on-demand GPUs
 first_seen: '2026-08-20T15:47:24Z'
 last_seen: '2026-08-30T14:53:42Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - marketfeeds

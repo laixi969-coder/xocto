@@ -72,3 +72,40 @@
   usage_reason: 公开代码仓库有 189 个收藏、7 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 189 stars and 7 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-debroid-2026-08-30
+  project_slug: debroid
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在终端里调试正在运行的安卓应用：下断点、看变量、抓崩溃”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该项目的官方文档、issue和discussion，确认实际使用情况和稳定性。
+  market: ''
+  job: 开发者需要让AI编码代理在终端中调试正在运行的安卓应用，包括下断点、查看变量和抓取崩溃。
+  job_en: Developers need AI coding agents to debug live Android apps from the terminal, including setting
+    breakpoints, inspecting variables, and capturing crashes.
+  pain: 传统调试需要图形界面，AI代理难以直接操作，公开材料未明确说明不解决的具体代价，但缺乏无头调试工具会增加摩擦。
+  pain_en: Traditional debugging requires a GUI, which AI agents cannot easily operate; public materials
+    do not specify the cost of leaving it unsolved, but lack of headless debugging tools increases friction.
+  current_alternative: 开发者可能使用Android Studio等图形调试器，但AI代理无法直接使用，公开材料未说明具体替代方式。
+  current_alternative_en: Developers might use GUI debuggers like Android Studio, but AI agents cannot
+    directly use them; public materials do not specify the exact alternative.
+  usage_reason: 公开代码仓库有189个收藏和7次复刻，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 189 stars and 7 forks, indicating developer attention or
+    trial, but sustained use and payment are not yet verified.

@@ -384,3 +384,44 @@
   usage_reason: 公开代码仓库有389个收藏，说明开发者关注，但收藏不等于持续使用或付费；采用原因未核验。
   usage_reason_en: The public repository has 389 stars, showing developer attention, but stars do not
     equal sustained use or payment; adoption reason unverified.
+- id: req-full-dsh-transparent-ui-plugin-2026-08-30
+  project_slug: dsh-transparent-ui-plugin
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户对界面美观和个性化的需求，通过可调玻璃皮肤实现，交付可确定（工作流结构推理）。
+    evidence_ids:
+    - ev-ceb0c6c38575cc52
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 389-391 个星标和 21 个复刻，显示社区关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-f7f066e50e4d48d6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，可能面向个人用户，但付费路径不明确。
+    evidence_ids:
+    - ev-ceb0c6c38575cc52
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述明确，但实际视觉效果和兼容性缺乏公开实测证据。
+    evidence_ids:
+    - ev-ceb0c6c38575cc52
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
+  market: ''
+  job: DeepSeek Harness 用户希望自定义界面外观，以获得更美观或个性化的视觉体验。
+  job_en: DeepSeek Harness users want to customize the interface appearance for a more aesthetic or personalized
+    visual experience.
+  pain: 默认界面可能单调或不符合用户审美，缺乏个性化选项。
+  pain_en: The default interface may be monotonous or not match user aesthetics, lacking personalization
+    options.
+  current_alternative: 用户可能使用浏览器扩展或用户样式工具，但这些工具可能不兼容或难以调整。
+  current_alternative_en: Users may use browser extensions or user style tools, but these may be incompatible
+    or hard to adjust.
+  usage_reason: 仓库获得 389-391 个星标和 21 个复刻，显示开发者社区关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 389-391 stars and 21 forks, showing developer attention, but sustained
+    use and payment are not yet verified.

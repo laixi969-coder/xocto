@@ -1,0 +1,84 @@
+- id: req-initial-status-2026-08-30
+  project_slug: status
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决执法部门车辆追踪的痛点，通过 AI 自动识别车牌并生成警报，交付可核对的监控结果，价值结构成立。
+    evidence_ids:
+    - ev-9d5343910d086cb1
+    - ev-d7f5a9b7cfb05d8d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料提及保险费用资助摄像头，但缺乏用户采用、留存或付费证据，共识尚未形成。
+    evidence_ids:
+    - ev-d7f5a9b7cfb05d8d
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是政府或保险机构，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-d7f5a9b7cfb05d8d
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付是否可靠尚未有公开验证，需进一步观察。
+    evidence_ids:
+    - ev-9d5343910d086cb1
+  next_validation: 关注 Flock 官方定价页和客户案例，以验证付费路径和实际采用。
+  market: ''
+  job: 执法部门需要追踪车辆以调查犯罪，保险公司需要监控风险。
+  job_en: Law enforcement needs to track vehicles to investigate crimes, and insurance companies need
+    to monitor risks.
+  pain: 传统监控依赖人工查看录像，效率低且容易遗漏。
+  pain_en: Traditional surveillance relies on manual video review, which is inefficient and prone to missing
+    details.
+  current_alternative: 目前执法部门使用传统监控摄像头和人工巡查，保险公司依赖历史数据评估风险。
+  current_alternative_en: Currently, law enforcement uses traditional surveillance cameras and manual
+    patrols, while insurance companies rely on historical data for risk assessment.
+  usage_reason: Flock 的 AI 摄像头能自动识别车牌并生成警报，提高效率，但公开证据有限，实际采用和付费情况尚未核验。
+  usage_reason_en: Flock's AI cameras can automatically recognize plates and generate alerts, improving
+    efficiency, but public evidence is limited; actual adoption and payment are not yet verified.
+- id: req-full-status-2026-08-30
+  project_slug: status
+  level: full
+  reviewed_at: '2026-08-30T15:20:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决执法部门车辆追踪的痛点，通过 AI 自动识别车牌并生成警报，交付可核对的监控结果，价值结构成立。
+    evidence_ids:
+    - ev-9d5343910d086cb1
+    - ev-d7f5a9b7cfb05d8d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料提及保险费用资助摄像头，但缺乏用户采用、留存或付费证据，共识尚未形成。
+    evidence_ids:
+    - ev-d7f5a9b7cfb05d8d
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是政府或保险机构，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-d7f5a9b7cfb05d8d
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付是否可靠尚未有公开验证，需进一步观察。
+    evidence_ids:
+    - ev-9d5343910d086cb1
+  next_validation: 关注 Flock 官方定价页和客户案例，以验证付费路径和实际采用。
+  market: ''
+  job: 执法部门需要追踪车辆以调查犯罪，保险公司需要监控风险。
+  job_en: Law enforcement needs to track vehicles to investigate crimes, and insurance companies need
+    to monitor risks.
+  pain: 传统监控依赖人工查看录像，效率低且容易遗漏。
+  pain_en: Traditional surveillance relies on manual video review, which is inefficient and prone to missing
+    details.
+  current_alternative: 目前执法部门使用传统监控摄像头和人工巡查，保险公司依赖历史数据评估风险。
+  current_alternative_en: Currently, law enforcement uses traditional surveillance cameras and manual
+    patrols, while insurance companies rely on historical data for risk assessment.
+  usage_reason: Flock 的 AI 摄像头能自动识别车牌并生成警报，提高效率，但公开证据有限，实际采用和付费情况尚未核验。
+  usage_reason_en: Flock's AI cameras can automatically recognize plates and generate alerts, improving
+    efficiency, but public evidence is limited; actual adoption and payment are not yet verified.

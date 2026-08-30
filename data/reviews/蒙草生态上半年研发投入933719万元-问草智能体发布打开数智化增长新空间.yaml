@@ -80,40 +80,44 @@
 - id: req-initial-蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间-2026-08-30
   project_slug: 蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间
   level: initial
-  reviewed_at: '2026-08-30T00:20:30Z'
-  verdict: needs_validation
-  signal_level: 需求存疑
+  reviewed_at: '2026-08-30T14:53:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 公开材料仅提及智能体发布，未说明具体功能、输入输出和交付物，无法判断价值。
+    status: supported
+    reason: 它解决生态修复中数据分析与方案制定的痛点，替代人工专家，交付修复建议，价值结构成立。
     evidence_ids:
     - ev-20f85f3c8ce6fd61
     - ev-ad458051f842ce03
   - gate: consensus
     status: insufficient
-    reason: 未进入：价值不成立。
-    evidence_ids: []
+    reason: 公开材料显示有媒体报道，但缺乏用户采用或付费证据，共识尚未形成。
+    evidence_ids:
+    - ev-20f85f3c8ce6fd61
   - gate: model
     status: insufficient
-    reason: 未进入：价值不成立。
+    reason: 未披露商业模式，买方可能是生态修复企业或政府，但付费路径不明确。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值不成立。
-    evidence_ids: []
-  next_validation: 关注问草智能体的官方产品页面或演示，获取具体功能、定价和客户案例。
+    reason: 产品刚发布，交付能力未验证，需关注实际使用效果。
+    evidence_ids:
+    - ev-ad458051f842ce03
+  next_validation: 关注蒙草生态官网或官方公告，获取“问草”智能体的详细功能、定价及客户案例。
   market: ''
-  job: 生态修复工程师和农业技术员需要分析土壤、植被、气候数据，制定修复方案。
-  job_en: Ecological restoration engineers and agricultural technicians need to analyze soil, vegetation,
-    and climate data to develop restoration plans.
-  pain: 数据收集和分析耗时，专家经验难以复制。
-  pain_en: Data collection and analysis are time-consuming, and expert experience is hard to replicate.
-  current_alternative: 目前主要依赖人工实地考察和专家咨询。
-  current_alternative_en: Currently relies on manual field surveys and expert consultation.
-  usage_reason: 蒙草生态作为上市公司发布智能体，可能吸引关注，但具体采用情况尚未核验。
-  usage_reason_en: As a listed company, Mengcao Ecology's agent release may attract attention, but specific
-    adoption is unverified.
+  job: 生态修复工程师需要分析土壤、植被、气候数据，制定修复方案。
+  job_en: Ecological restoration engineers need to analyze soil, vegetation, and climate data to develop
+    restoration plans.
+  pain: 传统方法依赖专家经验，耗时且成本高，数据分散难以整合。
+  pain_en: Traditional methods rely on expert experience, are time-consuming and costly, and data is scattered
+    and hard to integrate.
+  current_alternative: 目前主要依靠人工实地勘察和专家咨询，缺乏系统性工具。
+  current_alternative_en: Currently relies on manual field surveys and expert consultation, lacking systematic
+    tools.
+  usage_reason: “问草”智能体由蒙草生态联合发布，有企业背书，且针对具体行业，可能提供更专业的分析。
+  usage_reason_en: The 'Wencao' agent is co-released by Mengcao Ecology, has corporate backing, and targets
+    a specific industry, potentially offering more professional analysis.
 - id: req-full-蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间-2026-08-30
   project_slug: 蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间
   level: full

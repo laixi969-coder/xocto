@@ -3,9 +3,10 @@ slug: 海康存储亮相fmw2026全球闪存峰会-斩获ai算力基石性能标�
 name: 海康存储
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE5pU1R6Undwa0lm
 summary: 海康存储亮相FMW2026全球闪存峰会 斩获AI算力基石性能标杆大奖 金融界
 first_seen: '2026-08-28T09:13:05Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

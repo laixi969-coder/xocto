@@ -1,0 +1,73 @@
+- id: req-initial-shepherdr-2026-08-30
+  project_slug: shepherdr
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决开发者移动管理 agent 的痛点，交付可确定（移动 UI）。工作流结构判断。
+    evidence_ids:
+    - ev-1402aaf0e7ea54ce
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低（5分），缺乏用户反馈。
+    evidence_ids:
+    - ev-1402aaf0e7ea54ce
+  - gate: model
+    status: insufficient
+    reason: 无定价和付费路径，开源免费，商业模式未明。
+    evidence_ids:
+    - ev-1402aaf0e7ea54ce
+  - gate: truth
+    status: insufficient
+    reason: 未验证 UI 的可用性和稳定性。
+    evidence_ids:
+    - ev-1402aaf0e7ea54ce
+  next_validation: 关注项目仓库的 issue 和用户反馈，验证 UI 的可用性和稳定性。
+  market: ''
+  job: 开发者需要在移动端管理 Herdr agents，以便随时查看状态。
+  job_en: Developers need to manage Herdr agents on mobile to check status anytime.
+  pain: 现有管理界面可能不适合移动端，无法随时监控。
+  pain_en: Existing management UI may not be mobile-friendly, hindering monitoring.
+  current_alternative: 使用桌面端或命令行管理 agent。
+  current_alternative_en: Using desktop or CLI to manage agents.
+  usage_reason: 自托管且移动友好，吸引开发者尝试。
+  usage_reason_en: Self-hosted and mobile-friendly, attracting developers.
+- id: req-full-shepherdr-2026-08-30
+  project_slug: shepherdr
+  level: full
+  reviewed_at: '2026-08-30T15:20:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决开发者移动管理 agent 的痛点，交付可确定（移动 UI）。工作流结构判断。
+    evidence_ids:
+    - ev-1402aaf0e7ea54ce
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低（5分），缺乏用户反馈。
+    evidence_ids:
+    - ev-1402aaf0e7ea54ce
+  - gate: model
+    status: insufficient
+    reason: 无定价和付费路径，开源免费，商业模式未明。
+    evidence_ids:
+    - ev-1402aaf0e7ea54ce
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“开发者自托管 Herdr agents 的移动端 Web UI，用于在手机上管理和查看 agent 状态；具体功能和交付仍待核验”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和用户反馈，验证 UI 的可用性和稳定性。
+  market: ''
+  job: 开发者需要在移动端管理 Herdr agents，以便随时查看状态。
+  job_en: Developers need to manage Herdr agents on mobile to check status anytime.
+  pain: 现有管理界面可能不适合移动端，无法随时监控。
+  pain_en: Existing management UI may not be mobile-friendly, hindering monitoring.
+  current_alternative: 使用桌面端或命令行管理 agent。
+  current_alternative_en: Using desktop or CLI to manage agents.
+  usage_reason: 自托管且移动友好，吸引开发者尝试。
+  usage_reason_en: Self-hosted and mobile-friendly, attracting developers.

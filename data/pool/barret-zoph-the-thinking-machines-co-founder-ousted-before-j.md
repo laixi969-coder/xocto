@@ -3,12 +3,10 @@ slug: barret-zoph-the-thinking-machines-co-founder-ousted-before-j
 name: Google
 builder: lr0
 category: ''
-summary_zh: Barret Zoph 曾与 Mira Murati 共同创立 Thinking Machines Lab 并担任 CTO，后短暂加入 OpenAI，现已加入 Google。该人事变动反映
-  AI 人才流动，但具体职责和影响未披露。
+summary_zh: 这是关于 AI 人才流动的新闻，不涉及具体产品。Google 是大型科技公司，其 AI 产品线广泛，但本次事件仅涉及人事变动。
 inspiration: ''
-summary_en: Barret Zoph co-founded Thinking Machines Lab with Mira Murati and served as CTO, then briefly
-  joined OpenAI, and has now joined Google. This personnel move reflects AI talent flow, but specific
-  responsibilities and impact are undisclosed.
+summary_en: This is news about AI talent movement, not a specific product. Google is a large tech company
+  with broad AI products, but this event is only about personnel changes.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +23,7 @@ summary: Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and al
   CTO, led a brief stint at OpenAI and is now at Google.
 first_seen: '2026-08-27T19:52:52Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews

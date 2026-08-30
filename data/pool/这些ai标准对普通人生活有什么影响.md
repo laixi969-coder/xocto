@@ -1,11 +1,12 @@
 ---
 slug: 这些ai标准对普通人生活有什么影响
-name: 这些AI标准对普通人生活有什么影响？
+name: AI标准
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章讨论AI标准对普通人生活的影响，涉及监管和标准化。
 inspiration: ''
-summary_en: ''
+summary_en: The article discusses the impact of AI standards on ordinary people's lives, involving regulation
+  and standardization.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNY1FlTG5jUjRk
 summary: 这些AI标准对普通人生活有什么影响？ finance.sina.com.cn
 first_seen: '2026-08-29T16:32:59Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 这些AI标准对普通人生活有什么影响？
+# AI标准
 
 这些AI标准对普通人生活有什么影响？ finance.sina.com.cn
 

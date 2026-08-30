@@ -1,11 +1,13 @@
 ---
 slug: openai-芯片实测跑分揭晓为模型造芯片时代来了
-name: OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 发布自研推理芯片 Jalapeño 的跑分，在每瓦吞吐量和低延迟性能上超越英伟达 Blackwell 系统，标志着模型厂商自研芯片时代的开始。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI released benchmarks for its custom inference chip Jalapeño, surpassing NVIDIA Blackwell
+  in per-watt throughput and low-latency performance, marking the beginning of model makers designing
+  their own chips.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -59,7 +61,7 @@ summary: "9 个月之后，OpenAI 的首款芯片成绩单终于揭晓了。 \n 
   \ 赌垂直与专用，把自家模型的需求直接硬化进电路，换取极致的每 token 成本。 \n 三条路在技术上互不兼容，但他们已经把算力这门生意，从一家公司的主导，变成三种势力的博弈。从这份成绩单公布的那一刻起，模型企业的最大买家第一次用自己的芯片、自己的考题、自己的成本结构，给出了另一个答案。"
 first_seen: '2026-08-30T10:53:09Z'
 last_seen: '2026-08-30T14:53:42Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -70,7 +72,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了
+# OpenAI
 
 9 个月之后，OpenAI 的首款芯片成绩单终于揭晓了。 
  8 月 25 日，在 Hot Chips 大会上，OpenAI 硬件负责人 Richard Ho 站上讲台，公布了 Jalapeño 芯片的第一份公开跑分。 

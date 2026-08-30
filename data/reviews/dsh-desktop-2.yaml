@@ -264,3 +264,44 @@
   usage_reason: 公开代码仓库有 634 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 634 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-dsh-desktop-2-2026-08-30
+  project_slug: dsh-desktop-2
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者和AI工程师的本地工作区需求，痛点在于工具分散，交付是统一桌面应用，价值结构成立（工作流结构推理）。
+    evidence_ids:
+    - ev-cb35bdd53d1dd6b4
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有635个收藏，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-cb35bdd53d1dd6b4
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费主体和定价未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cb35bdd53d1dd6b4
+  - gate: truth
+    status: insufficient
+    reason: 应用稳定性和功能完整性未验证，缺少可复现的公开测试结果，交付确定性待核验。
+    evidence_ids:
+    - ev-cb35bdd53d1dd6b4
+  next_validation: 追踪该项目的GitHub仓库issue和discussion，查看用户反馈和实际使用情况，以及star增长趋势。
+  market: ''
+  job: 开发者和AI工程师需要一个本地AI桌面工作区，管理会话、项目、文件和网页研究。
+  job_en: Developers and AI engineers need a local AI desktop workspace to manage sessions, projects,
+    files, and web research.
+  pain: 多个工具分散管理效率低，公开材料未明确说明不解决的具体代价，但统一工作区可提高效率。
+  pain_en: Managing multiple tools separately is inefficient; public materials do not specify the cost
+    of leaving it unsolved, but a unified workspace can improve efficiency.
+  current_alternative: 用户可能使用多个独立应用或浏览器，公开材料未说明具体替代方式。
+  current_alternative_en: Users might use multiple standalone apps or browsers; public materials do not
+    specify the exact alternative.
+  usage_reason: 公开代码仓库有635个收藏，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 635 stars, indicating developer attention or trial, but sustained
+    use and payment are not yet verified.

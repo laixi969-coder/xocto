@@ -1,11 +1,12 @@
 ---
 slug: 聚焦2026数博会-祥云至达携手华为云agent智能体从能思考走向能动手
-name: 聚焦2026数博会｜祥云至达携手华为云：Agent智能体从“能思考”走向“能动手”
+name: 祥云至达
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOYU5BUTJVZ3dT
 summary: 聚焦2026数博会｜祥云至达携手华为云：Agent智能体从“能思考”走向“能动手” 搜狐网
 first_seen: '2026-08-30T07:12:14Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 聚焦2026数博会｜祥云至达携手华为云：Agent智能体从“能思考”走向“能动手”
+# 祥云至达
 
 聚焦2026数博会｜祥云至达携手华为云：Agent智能体从“能思考”走向“能动手” 搜狐网
 

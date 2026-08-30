@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oTmVHN2x3WjlL
 summary: 南加州書商拒AI訂單 不認同「毀書掃描」 大纪元
 first_seen: '2026-08-30T12:04:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

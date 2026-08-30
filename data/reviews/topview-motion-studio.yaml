@@ -1,0 +1,79 @@
+- id: req-initial-topview-motion-studio-2026-08-30
+  project_slug: topview-motion-studio
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作门槛高的痛点，替代 After Effects，交付可发布的视频，价值成立。
+    evidence_ids:
+    - ev-0406c0150b38f418
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有一句描述，缺乏用户评价、采用数据或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-0406c0150b38f418
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和商业模式，可能按视频数量收费，但未验证。
+    evidence_ids:
+    - ev-0406c0150b38f418
+  - gate: truth
+    status: insufficient
+    reason: 产品描述模糊，交付质量未验证，缺乏实际使用数据。
+    evidence_ids:
+    - ev-0406c0150b38f418
+  next_validation: 关注官方定价页和用户案例，验证视频质量和付费意愿。
+  market: ''
+  job: 营销人员需要快速创建产品发布视频，而无需掌握 After Effects 等专业工具。
+  job_en: Marketers need to quickly create product launch videos without mastering professional tools
+    like After Effects.
+  pain: 传统视频制作需要专业技能和时间，成本高，Topview 提供自动化生成降低门槛。
+  pain_en: Traditional video production requires professional skills and time, which is costly; Topview
+    offers automated generation to lower the barrier.
+  current_alternative: 使用 After Effects 或外包给视频制作公司，成本高且周期长。
+  current_alternative_en: Using After Effects or outsourcing to video production companies, which is costly
+    and time-consuming.
+  usage_reason: 尚未核验，但定位明确，可能吸引营销团队尝试。
+  usage_reason_en: Not yet verified, but the positioning is clear and may attract marketing teams.
+- id: req-full-topview-motion-studio-2026-08-30
+  project_slug: topview-motion-studio
+  level: full
+  reviewed_at: '2026-08-30T15:20:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作门槛高的痛点，替代 After Effects，交付可发布的视频，价值成立。
+    evidence_ids:
+    - ev-0406c0150b38f418
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有一句描述，缺乏用户评价、采用数据或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-0406c0150b38f418
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和商业模式，可能按视频数量收费，但未验证。
+    evidence_ids:
+    - ev-0406c0150b38f418
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Topview Motion Studio 让用户无需使用 After Effects 即可创建产品发布视频”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注官方定价页和用户案例，验证视频质量和付费意愿。
+  market: ''
+  job: 营销人员需要快速创建产品发布视频，而无需掌握 After Effects 等专业工具。
+  job_en: Marketers need to quickly create product launch videos without mastering professional tools
+    like After Effects.
+  pain: 传统视频制作需要专业技能和时间，成本高，Topview 提供自动化生成降低门槛。
+  pain_en: Traditional video production requires professional skills and time, which is costly; Topview
+    offers automated generation to lower the barrier.
+  current_alternative: 使用 After Effects 或外包给视频制作公司，成本高且周期长。
+  current_alternative_en: Using After Effects or outsourcing to video production companies, which is costly
+    and time-consuming.
+  usage_reason: 尚未核验，但定位明确，可能吸引营销团队尝试。
+  usage_reason_en: Not yet verified, but the positioning is clear and may attract marketing teams.

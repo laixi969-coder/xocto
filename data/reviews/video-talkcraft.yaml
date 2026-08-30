@@ -1,0 +1,76 @@
+- id: req-initial-video-talkcraft-2026-08-30
+  project_slug: video-talkcraft
+  level: initial
+  reviewed_at: '2026-08-30T14:53:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作耗时、技能门槛高的痛点，AI 接收脚本和配音，输出视频，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 134 星，但缺乏用户实际使用反馈或作品展示，共识证据不足。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  - gate: model
+    status: insufficient
+    reason: 开源项目无直接商业模式，可能通过云托管或服务收费，但未披露。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  - gate: truth
+    status: insufficient
+    reason: 项目是否稳定可用、输出质量如何，需实际测试验证。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  next_validation: 检查代码仓库的 issue 和讨论，看用户是否分享生成视频案例，以及是否有云托管服务。
+  market: ''
+  job: 用户需要将配音脚本转化为带同步动画的解说视频。
+  job_en: Users need to turn voiceover scripts into explainer videos with synchronized animation.
+  pain: 传统动画制作耗时且需要专业技能，成本高。
+  pain_en: Traditional animation is time-consuming, requires specialized skills, and is costly.
+  current_alternative: 通常由动画师手动制作，或使用模板化工具但缺乏定制性。
+  current_alternative_en: Usually done manually by animators or with templated tools lacking customization.
+  usage_reason: AI 可自动生成视频，降低门槛，开源社区已有 134 星，显示关注。
+  usage_reason_en: AI can auto-generate videos, lowering barriers; open-source community shows 134 stars,
+    indicating interest.
+- id: req-full-video-talkcraft-2026-08-30
+  project_slug: video-talkcraft
+  level: full
+  reviewed_at: '2026-08-30T15:20:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作耗时、技能门槛高的痛点，AI 接收脚本和配音，输出视频，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 134 星，但缺乏用户实际使用反馈或作品展示，共识证据不足。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  - gate: model
+    status: insufficient
+    reason: 开源项目无直接商业模式，可能通过云托管或服务收费，但未披露。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  - gate: truth
+    status: insufficient
+    reason: 项目是否稳定可用、输出质量如何，需实际测试验证。
+    evidence_ids:
+    - ev-df98d98c0c12b141
+  next_validation: 检查代码仓库的 issue 和讨论，看用户是否分享生成视频案例，以及是否有云托管服务。
+  market: ''
+  job: 用户需要将配音脚本转化为带同步动画的解说视频。
+  job_en: Users need to turn voiceover scripts into explainer videos with synchronized animation.
+  pain: 传统动画制作耗时且需要专业技能，成本高。
+  pain_en: Traditional animation is time-consuming, requires specialized skills, and is costly.
+  current_alternative: 通常由动画师手动制作，或使用模板化工具但缺乏定制性。
+  current_alternative_en: Usually done manually by animators or with templated tools lacking customization.
+  usage_reason: AI 可自动生成视频，降低门槛，开源社区已有 134 星，显示关注。
+  usage_reason_en: AI can auto-generate videos, lowering barriers; open-source community shows 134 stars,
+    indicating interest.

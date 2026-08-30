@@ -80,3 +80,44 @@
   usage_reason: 开源项目获得 44 星，显示对合规 MCP 网关的初步需求，但采用规模尚未核验。
   usage_reason_en: The open-source project has 44 stars, showing initial demand for compliant MCP gateways,
     but adoption scale is not yet verified.
+- id: req-full-ms-365-21v-mcp-server-2026-08-30
+  project_slug: ms-365-21v-mcp-server
+  level: full
+  reviewed_at: '2026-08-30T15:20:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中国版 Microsoft 365 的认证和策略差异问题，替代自定义脚本和手动认证，交付安全的 MCP 网关，价值结构成立。
+    evidence_ids:
+    - ev-67f9a092b79bcc01
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 44 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-67f9a092b79bcc01
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向企业，但付费路径不明确。
+    evidence_ids:
+    - ev-67f9a092b79bcc01
+  - gate: truth
+    status: supported
+    reason: 作为开源网关，交付确定性高，但依赖 Microsoft 365 的 API 稳定性。
+    evidence_ids:
+    - ev-67f9a092b79bcc01
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用案例。
+  market: ''
+  job: 企业 IT 管理员需要让 AI 代理安全访问中国版 Microsoft 365 的数据，同时满足合规要求。
+  job_en: Enterprise IT administrators need to enable AI agents to securely access China-version Microsoft
+    365 data while meeting compliance requirements.
+  pain: 中国版 Microsoft 365 的认证和策略与全球版不同，导致 AI 代理集成困难。
+  pain_en: The authentication and policies of China-version Microsoft 365 differ from global, making AI
+    agent integration difficult.
+  current_alternative: 目前企业可能使用自定义脚本或手动认证，缺乏标准化的 MCP 网关。
+  current_alternative_en: Currently enterprises may use custom scripts or manual authentication, lacking
+    a standardized MCP gateway.
+  usage_reason: 开源项目获得 44 星，显示对合规 MCP 网关的初步需求，但采用规模尚未核验。
+  usage_reason_en: The open-source project has 44 stars, showing initial demand for compliant MCP gateways,
+    but adoption scale is not yet verified.

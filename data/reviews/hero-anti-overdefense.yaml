@@ -383,3 +383,43 @@
   usage_reason: 公开代码仓库有 346 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 346 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-hero-anti-overdefense-2026-08-30
+  project_slug: hero-anti-overdefense
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理过度防御导致效率低下的痛点，通过粘贴契约约束行为，交付可确定（工作流结构推理）。
+    evidence_ids:
+    - ev-5b646929c1550c28
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 346-351 个星标，显示社区关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-ffa5c09eb6deb08f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，可能面向开发者，但付费路径不明确。
+    evidence_ids:
+    - ev-5b646929c1550c28
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述明确，但实际约束效果和兼容性缺乏公开实测证据。
+    evidence_ids:
+    - ev-5b646929c1550c28
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
+  market: ''
+  job: 软件工程师和 AI 编码代理用户希望阻止编码代理过度防御，避免不必要的代码生成。
+  job_en: Software engineers and AI coding agent users want to stop coding agents from over-defending,
+    avoiding unnecessary code generation.
+  pain: 编码代理可能过度处理边界情况或过度构建，导致代码冗余和效率降低。
+  pain_en: Coding agents may over-handle edge cases or overbuild, causing redundant code and reduced efficiency.
+  current_alternative: 用户可能手动审查和修改代理输出，或使用提示词约束，但这些方法不系统。
+  current_alternative_en: Users may manually review and modify agent output, or use prompt constraints,
+    but these are unsystematic.
+  usage_reason: 仓库获得 346-351 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 346-351 stars, showing developer attention, but sustained use and
+    payment are not yet verified.

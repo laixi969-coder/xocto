@@ -262,3 +262,44 @@
   usage_reason: 公开代码仓库有 134 个收藏，说明开发者关注，但持续使用与付费未核验。
   usage_reason_en: The public repository has 134 stars, showing developer attention, but repeat use and
     payment are not verified.
+- id: req-full-dance-video-to-prompt-2026-08-30
+  project_slug: dance-video-to-prompt
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短视频创作者从舞蹈视频提取AI视频生成提示词的需求，痛点在于手动分析耗时，交付是可直接复用的提示词，价值结构成立（工作流结构推理）。
+    evidence_ids:
+    - ev-02ec5e126b24a6a4
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有134个收藏，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-02ec5e126b24a6a4
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费主体和定价未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-02ec5e126b24a6a4
+  - gate: truth
+    status: insufficient
+    reason: 提示词生成效果需用户自行验证，缺少可复现的公开测试结果，交付确定性待核验。
+    evidence_ids:
+    - ev-02ec5e126b24a6a4
+  next_validation: 追踪该项目的GitHub仓库issue和discussion，查看用户反馈和实际使用情况，以及star增长趋势。
+  market: ''
+  job: 短视频创作者和AI视频提示词工程师需要从舞蹈视频中提取提示词，用于AI视频生成。
+  job_en: Short video creators and AI video prompt engineers need to extract prompts from dance videos
+    for AI video generation.
+  pain: 手动分析视频的清晰度和节奏卡点耗时且困难，公开材料未明确说明不解决的具体代价，但工作流中缺乏自动化工具会增加摩擦。
+  pain_en: Manually analyzing video clarity and rhythm is time-consuming and difficult; public materials
+    do not specify the cost of leaving it unsolved, but lack of automation increases friction.
+  current_alternative: 用户可能手动观看视频并编写提示词，但公开材料未说明具体替代方式。
+  current_alternative_en: Users might manually watch videos and write prompts, but public materials do
+    not specify the exact alternative.
+  usage_reason: 公开代码仓库有134个收藏，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 134 stars, indicating developer attention or trial, but sustained
+    use and payment are not yet verified.

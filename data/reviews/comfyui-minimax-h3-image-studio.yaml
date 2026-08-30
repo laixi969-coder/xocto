@@ -115,3 +115,44 @@
   usage_reason: 公开代码仓库有 123 个收藏、7 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 123 stars and 7 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-comfyui-minimax-h3-image-studio-2026-08-30
+  project_slug: comfyui-minimax-h3-image-studio
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决图像创作者在ComfyUI中生成和编辑图像的需求，提供节点和测试工作流降低使用门槛，痛点在于缺乏现成工具，交付可确定（节点和工作流），价值结构成立（工作流结构推理）。
+    evidence_ids:
+    - ev-8569ab92f90b5371
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有123个收藏和7次复刻，显示社区关注，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-8569ab92f90b5371
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费主体和定价未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-8569ab92f90b5371
+  - gate: truth
+    status: insufficient
+    reason: 节点稳定性和生成质量未验证，缺少可复现的公开测试结果，交付确定性待核验。
+    evidence_ids:
+    - ev-8569ab92f90b5371
+  next_validation: 追踪该项目的GitHub仓库issue和discussion，查看用户反馈和实际使用情况，以及star增长趋势。
+  market: ''
+  job: 图像创作者和AI艺术家需要在ComfyUI中生成静态图像、进行参考编辑和细节精修。
+  job_en: Image creators and AI artists need to generate still images, perform reference editing, and
+    refine details within ComfyUI.
+  pain: 公开材料未明确说明不解决的具体代价、发生频率或后果，但工作流中缺乏现成节点和测试流程会增加使用门槛。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved,
+    but lacking ready-made nodes and tested workflows raises the barrier to use.
+  current_alternative: 用户可能手动编写节点或使用其他工具，但公开材料未说明具体替代方式。
+  current_alternative_en: Users might manually write nodes or use other tools, but public materials do
+    not specify the exact alternative.
+  usage_reason: 公开代码仓库有123个收藏和7次复刻，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 123 stars and 7 forks, indicating developer attention or
+    trial, but sustained use and payment are not yet verified.

@@ -3,10 +3,10 @@ slug: 海外研选-小摩英伟达2028财年增长指引仍偏保守-vera-rubin�
 name: 英伟达
 builder: ''
 category: ''
-summary_zh: 摩根大通对英伟达的研报：认为2028财年增长指引保守，Vera Rubin芯片放量快于预期。这是对芯片厂商的市场分析，非独立产品。
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: 'JPMorgan''s report on Nvidia: considers FY2028 growth guidance conservative, with Vera Rubin
-  chip ramp faster than expected. This is market analysis of a chipmaker, not a standalone product.'
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5DNDhtakR0aEll
 summary: 海外研选 | 小摩：英伟达2028财年增长指引仍偏保守 Vera Rubin放量快于预期 财联社
 first_seen: '2026-08-28T12:04:56Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

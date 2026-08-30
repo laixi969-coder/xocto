@@ -1,0 +1,82 @@
+- id: req-initial-maritime-2026-08-30
+  project_slug: maritime
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理部署环境成本高、配置复杂的问题，替代通用云服务器，提供低价专用计算，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布平台信息和少量开发者社区讨论，缺乏用户评价或采用数据。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  - gate: model
+    status: insufficient
+    reason: 定价明确（$1/月起），但付费模式（订阅还是按量）和买方规模未披露。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  - gate: truth
+    status: insufficient
+    reason: 产品是否稳定运行、性能如何，缺乏公开实测或用户反馈。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  next_validation: 关注 Maritime 官网是否提供详细配置、定价页和客户案例，以及开发者社区是否有实际使用评测。
+  market: ''
+  job: 开发者需要为 AI 代理提供稳定、隔离的计算环境，以便部署和运行自动化任务。
+  job_en: Developers need stable, isolated computing environments for AI agents to deploy and run automated
+    tasks.
+  pain: 通用云服务器成本高、配置复杂，不适合轻量级代理任务。
+  pain_en: General-purpose cloud servers are costly and complex to configure, unsuitable for lightweight
+    agent tasks.
+  current_alternative: 目前开发者常使用自己的机器、通用云 VM 或容器服务，但存在成本或管理负担。
+  current_alternative_en: Developers often use their own machines, general cloud VMs, or container services,
+    but these have cost or management overhead.
+  usage_reason: 低价和专用性可能吸引开发者尝试，尤其是个人开发者和小团队。
+  usage_reason_en: Low price and specialization may attract developers, especially individuals and small
+    teams.
+- id: req-full-maritime-2026-08-30
+  project_slug: maritime
+  level: full
+  reviewed_at: '2026-08-30T15:20:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理部署环境成本高、配置复杂的问题，替代通用云服务器，提供低价专用计算，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布平台信息和少量开发者社区讨论，缺乏用户评价或采用数据。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  - gate: model
+    status: insufficient
+    reason: 定价明确（$1/月起），但付费模式（订阅还是按量）和买方规模未披露。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  - gate: truth
+    status: insufficient
+    reason: 产品是否稳定运行、性能如何，缺乏公开实测或用户反馈。
+    evidence_ids:
+    - ev-dfe15eb75e4df8b4
+  next_validation: 关注 Maritime 官网是否提供详细配置、定价页和客户案例，以及开发者社区是否有实际使用评测。
+  market: ''
+  job: 开发者需要为 AI 代理提供稳定、隔离的计算环境，以便部署和运行自动化任务。
+  job_en: Developers need stable, isolated computing environments for AI agents to deploy and run automated
+    tasks.
+  pain: 通用云服务器成本高、配置复杂，不适合轻量级代理任务。
+  pain_en: General-purpose cloud servers are costly and complex to configure, unsuitable for lightweight
+    agent tasks.
+  current_alternative: 目前开发者常使用自己的机器、通用云 VM 或容器服务，但存在成本或管理负担。
+  current_alternative_en: Developers often use their own machines, general cloud VMs, or container services,
+    but these have cost or management overhead.
+  usage_reason: 低价和专用性可能吸引开发者尝试，尤其是个人开发者和小团队。
+  usage_reason_en: Low price and specialization may attract developers, especially individuals and small
+    teams.

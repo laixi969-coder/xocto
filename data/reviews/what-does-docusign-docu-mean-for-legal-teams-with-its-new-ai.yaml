@@ -1,0 +1,76 @@
+- id: req-initial-what-does-docusign-docu-mean-for-legal-teams-with-its-new-ai-2026-08-30
+  project_slug: what-does-docusign-docu-mean-for-legal-teams-with-its-new-ai
+  level: initial
+  reviewed_at: '2026-08-30T14:53:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决法律团队合同审查的痛点，旧流程为人工审查，耗时且易遗漏，AI 可自动化提取条款和风险提示，交付可确定。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  - gate: consensus
+    status: insufficient
+    reason: 报道未提供具体功能或用户反馈，共识证据不足。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是企业法务部门，但具体路径未明。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  - gate: truth
+    status: insufficient
+    reason: AI 功能的具体交付和准确性未验证，需进一步信息。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  next_validation: 关注 DocuSign 官方博客或产品页面，获取 AI 集成的具体功能、定价和客户案例。
+  market: ''
+  job: 法律团队需要审查合同，识别风险条款，确保合规。
+  job_en: Legal teams need to review contracts, identify risky clauses, and ensure compliance.
+  pain: 合同审查耗时且容易遗漏风险点。
+  pain_en: Contract review is time-consuming and prone to missing risks.
+  current_alternative: 人工逐条审查，或使用传统合同管理软件。
+  current_alternative_en: Manual review or traditional contract management software.
+  usage_reason: DocuSign 已有大量企业客户，AI 集成可降低合同审查成本，提高效率。
+  usage_reason_en: DocuSign has a large enterprise customer base; AI integration can reduce contract review
+    costs and improve efficiency.
+- id: req-full-what-does-docusign-docu-mean-for-legal-teams-with-its-new-ai-2026-08-30
+  project_slug: what-does-docusign-docu-mean-for-legal-teams-with-its-new-ai
+  level: full
+  reviewed_at: '2026-08-30T15:20:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决法律团队合同审查的痛点，旧流程为人工审查，耗时且易遗漏，AI 可自动化提取条款和风险提示，交付可确定。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  - gate: consensus
+    status: insufficient
+    reason: 报道未提供具体功能或用户反馈，共识证据不足。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是企业法务部门，但具体路径未明。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  - gate: truth
+    status: insufficient
+    reason: AI 功能的具体交付和准确性未验证，需进一步信息。
+    evidence_ids:
+    - ev-e7fb954d691166f3
+  next_validation: 关注 DocuSign 官方博客或产品页面，获取 AI 集成的具体功能、定价和客户案例。
+  market: ''
+  job: 法律团队需要审查合同，识别风险条款，确保合规。
+  job_en: Legal teams need to review contracts, identify risky clauses, and ensure compliance.
+  pain: 合同审查耗时且容易遗漏风险点。
+  pain_en: Contract review is time-consuming and prone to missing risks.
+  current_alternative: 人工逐条审查，或使用传统合同管理软件。
+  current_alternative_en: Manual review or traditional contract management software.
+  usage_reason: DocuSign 已有大量企业客户，AI 集成可降低合同审查成本，提高效率。
+  usage_reason_en: DocuSign has a large enterprise customer base; AI integration can reduce contract review
+    costs and improve efficiency.

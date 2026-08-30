@@ -311,3 +311,43 @@
   usage_reason: 仓库有 54 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The repository has 54 stars, indicating developer attention or trial; sustained use
     and payment are not yet verified.
+- id: req-full-anvilwiki-2026-08-30
+  project_slug: anvilwiki
+  level: full
+  reviewed_at: '2026-08-30T15:18:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏社区搭建攻略百科耗时且需技术知识的问题，通过静态模板和AI内容工作流降低门槛，交付可确定的静态页面；工作流结构推理成立，但公开材料未量化痛点。
+    evidence_ids:
+    - ev-969abb114b8dd455
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库57星和39次复刻显示社区关注，但缺乏用户评价或采用案例，无法确认持续使用或付费。
+    evidence_ids:
+    - ev-31c37269d42b89c6
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体、定价或单位经济；可能面向游戏社区或内容创作者，但买方未核验，这是模式缺口。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据；需验证实际部署效果。
+    evidence_ids: []
+  next_validation: 追踪官方文档、GitHub issue 和 discussion，寻找游戏社区部署案例或用户反馈，确认谁在何种强场景使用及替代的旧流程。
+  market: ''
+  job: 游戏创作者或社区管理者在搭建攻略百科时，使用该静态模板结合 AI 内容工作流；系统辅助生成结构化条目与静态页面，管理员审核后直接发布上线。
+  job_en: Game creators or community managers use this static template with an AI content workflow to
+    build a wiki; the system helps generate structured entries and static pages, which admins review and
+    publish.
+  pain: 搭建游戏百科需要技术知识且耗时，AI辅助可降低门槛，但公开材料未说明不解决的代价、频率或后果。
+  pain_en: Building a game wiki requires technical skill and time; AI assistance can lower the barrier,
+    but public materials do not show the cost, frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料未说明用户当前如何搭建百科，可能使用传统CMS或手动编写，但尚未核验。
+  current_alternative_en: Public materials do not show how users currently build wikis; they may use traditional
+    CMS or manual coding, but this is unverified.
+  usage_reason: 公开仓库有57星和39次复刻，显示开发者关注，但持续使用与付费未核验。
+  usage_reason_en: The public repository has 57 stars and 39 forks, showing developer attention, but repeat
+    use and payment are not verified.

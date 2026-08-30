@@ -3,9 +3,10 @@ slug: the-signal-layer-is-the-new-moat
 name: The Signal Layer Is the New Moat
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章讨论信号层作为新的竞争护城河，反映 AI 时代数据与信号的重要性。
 inspiration: ''
-summary_en: ''
+summary_en: Article discusses signal layer as the new competitive moat, reflecting the importance of data
+  and signals in the AI era.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxOOEtwb0RzNmtG
 summary: The Signal Layer Is the New Moat StartupHub.ai
 first_seen: '2026-08-29T19:04:22Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

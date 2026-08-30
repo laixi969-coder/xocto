@@ -148,3 +148,43 @@
   usage_reason: 公开代码仓库有64个收藏、2次复刻，说明开发者关注；持续使用与付费仍未核验。
   usage_reason_en: The public repository has 64 stars and 2 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-failoverai-2026-08-30
+  project_slug: failoverai
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 任务执行中单点故障的痛点，通过网关调度和故障转移确保任务完成，交付可确定（工作流结构推理）。
+    evidence_ids:
+    - ev-6e1ca69973ef2fb2
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 64-76 个星标，显示社区关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-db4635e4d7b9c351
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，可能面向企业，但付费路径不明确。
+    evidence_ids:
+    - ev-6e1ca69973ef2fb2
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述明确，但实际调度和故障转移效果缺乏公开实测证据。
+    evidence_ids:
+    - ev-6e1ca69973ef2fb2
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
+  market: ''
+  job: 软件工程师和 AI 工程师需要可靠地执行图片、视频和 LLM 任务，避免因单点故障导致任务失败。
+  job_en: Software and AI engineers need to reliably execute image, video, and LLM jobs, avoiding failures
+    due to single points of failure.
+  pain: 依赖单一模型或服务时，故障会导致任务中断，影响生产环境。
+  pain_en: Relying on a single model or service can cause interruptions and affect production.
+  current_alternative: 工程师可能手动实现重试逻辑或使用云服务的高可用性，但这些缺乏统一管理。
+  current_alternative_en: Engineers may manually implement retry logic or use cloud high availability,
+    but these lack unified management.
+  usage_reason: 仓库获得 64-76 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 64-76 stars, showing developer attention, but sustained use and
+    payment are not yet verified.

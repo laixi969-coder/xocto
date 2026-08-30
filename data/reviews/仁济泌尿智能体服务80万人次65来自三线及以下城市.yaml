@@ -80,3 +80,85 @@
   usage_reason: 服务已累计80万人次，且65%来自三线及以下城市，表明基层患者有实际使用意愿，可能因便捷性和专业性而采用。
   usage_reason_en: The service has handled 800,000 visits with 65% from lower-tier cities, indicating
     real adoption intent among primary patients, likely due to convenience and professional guidance.
+- id: req-initial-仁济泌尿智能体服务80万人次65来自三线及以下城市-2026-08-30
+  project_slug: 仁济泌尿智能体服务80万人次65来自三线及以下城市
+  level: initial
+  reviewed_at: '2026-08-30T14:53:44Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决基层患者泌尿科就医难的问题，旧流程为线下挂号就诊，耗时且资源不足，AI 提供初步分诊和咨询，交付为分诊建议，可确定。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+    - ev-4c7d09b02377fbe5
+  - gate: consensus
+    status: supported
+    reason: 服务超 80 万人次，65% 来自三线及以下城市，表明有大量用户采用。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+    - ev-4c7d09b02377fbe5
+  - gate: model
+    status: insufficient
+    reason: 未披露付费模式，可能由医院或政府买单，但具体路径未明。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: truth
+    status: insufficient
+    reason: AI 分诊的准确性和安全性未验证，需关注医疗合规和实际效果。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  next_validation: 关注仁济医院官方发布或相关报道，获取智能体的具体功能、分诊准确率、合作医院和收费模式。
+  market: ''
+  job: 患者需要便捷的泌尿科初步诊断和健康咨询，尤其是基层地区医疗资源不足。
+  job_en: Patients need convenient urology initial diagnosis and health consultation, especially in areas
+    with scarce medical resources.
+  pain: 基层医疗资源不足，患者就医难，缺乏专业泌尿科医生。
+  pain_en: Insufficient primary care resources, difficulty accessing specialists, lack of urology expertise.
+  current_alternative: 患者前往医院挂号就诊，或使用通用健康咨询平台。
+  current_alternative_en: Patients visit hospitals or use general health consultation platforms.
+  usage_reason: 服务量巨大且来自基层，表明患者有强烈需求，AI 提供初步分诊可节省时间和成本。
+  usage_reason_en: Huge volume and grassroots origin indicate strong demand; AI triage saves time and
+    cost.
+- id: req-full-仁济泌尿智能体服务80万人次65来自三线及以下城市-2026-08-30
+  project_slug: 仁济泌尿智能体服务80万人次65来自三线及以下城市
+  level: full
+  reviewed_at: '2026-08-30T15:20:38Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决基层患者泌尿科就医难的问题，旧流程为线下挂号就诊，耗时且资源不足，AI 提供初步分诊和咨询，交付为分诊建议，可确定。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+    - ev-4c7d09b02377fbe5
+  - gate: consensus
+    status: supported
+    reason: 服务超 80 万人次，65% 来自三线及以下城市，表明有大量用户采用。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+    - ev-4c7d09b02377fbe5
+  - gate: model
+    status: insufficient
+    reason: 未披露付费模式，可能由医院或政府买单，但具体路径未明。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  - gate: truth
+    status: insufficient
+    reason: AI 分诊的准确性和安全性未验证，需关注医疗合规和实际效果。
+    evidence_ids:
+    - ev-7f8dbd36a1d97749
+  next_validation: 追踪 仁济泌尿智能体 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 患者需要便捷的泌尿科初步诊断和健康咨询，尤其是基层地区医疗资源不足。
+  job_en: Patients need convenient urology initial diagnosis and health consultation, especially in areas
+    with scarce medical resources.
+  pain: 基层医疗资源不足，患者就医难，缺乏专业泌尿科医生。
+  pain_en: Insufficient primary care resources, difficulty accessing specialists, lack of urology expertise.
+  current_alternative: 患者前往医院挂号就诊，或使用通用健康咨询平台。
+  current_alternative_en: Patients visit hospitals or use general health consultation platforms.
+  usage_reason: 服务量巨大且来自基层，表明患者有强烈需求，AI 提供初步分诊可节省时间和成本。
+  usage_reason_en: Huge volume and grassroots origin indicate strong demand; AI triage saves time and
+    cost.

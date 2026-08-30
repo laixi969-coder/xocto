@@ -1,11 +1,12 @@
 ---
 slug: trust-levels-for-generative-ai-drops-below-40-yet-consumers
-name: 'Trust levels for generative AI drops below 40%, yet consumers rely on AI product advice: McKinsey'
+name: Generative AI Trust
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 麦肯锡报告显示生成式 AI 的信任度降至 40% 以下，但消费者仍依赖 AI 产品建议，反映信任与使用之间的悖论。
 inspiration: ''
-summary_en: ''
+summary_en: McKinsey report shows trust in generative AI drops below 40%, yet consumers still rely on
+  AI product advice, reflecting a paradox between trust and usage.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: 'Trust levels for generative AI drops below 40%, yet consumers rely on 
   lokmattimes.com'
 first_seen: '2026-08-30T05:45:04Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Trust levels for generative AI drops below 40%, yet consumers rely on AI product advice: McKinsey
+# Generative AI Trust
 
 Trust levels for generative AI drops below 40%, yet consumers rely on AI product advice: McKinsey lokmattimes.com
 

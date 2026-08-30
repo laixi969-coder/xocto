@@ -72,3 +72,40 @@
   usage_reason: 公开记录显示月访问 2.97M、环比 80.1%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 2.97M monthly visits and 80.1% month-over-month growth. That
     explains the attention, but product-level retention and payment are not yet verified.
+- id: req-full-devin-2026-08-30
+  project_slug: devin
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“在云端自己写代码、跑测试、提合并请求，按它干了多少活来计费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找Devin官方定价页和客户案例，确认付费模式和实际使用效果。
+  market: ''
+  job: 开发者需要AI代理在云端自主编写代码、运行测试和提交合并请求。
+  job_en: Developers need AI agents to autonomously write code, run tests, and open merge requests in
+    the cloud.
+  pain: 手动编码和测试耗时，公开材料未明确说明不解决的具体代价，但AI代理可提高效率。
+  pain_en: Manual coding and testing is time-consuming; public materials do not specify the cost of leaving
+    it unsolved, but AI agents can improve efficiency.
+  current_alternative: 用户可能手动编码或使用其他AI编码工具，公开材料未说明具体替代方式。
+  current_alternative_en: Users might manually code or use other AI coding tools; public materials do
+    not specify the exact alternative.
+  usage_reason: 公开记录显示月访问量297万，环比增长80.1%，说明大量关注，但产品级留存和付费尚未核验。
+  usage_reason_en: Public records show 2.97M monthly visits and 80.1% MoM growth, indicating significant
+    attention, but product-level retention and payment are not yet verified.

@@ -339,3 +339,43 @@
   usage_reason: 公开代码仓库有 180 个收藏、2 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 180 stars and 2 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-endoplexity-2026-08-30
+  project_slug: endoplexity
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者浏览器自动化成本高和配置复杂的痛点，通过复用现有订阅驱动，交付可确定（工作流结构推理）。
+    evidence_ids:
+    - ev-595e5a06def00060
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 173 个星标，显示社区关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-703465297c1c6b46
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费主体，可能面向开发者，但付费路径不明确。
+    evidence_ids:
+    - ev-595e5a06def00060
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述明确，但实际浏览器控制效果和稳定性缺乏公开实测证据。
+    evidence_ids:
+    - ev-595e5a06def00060
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
+  market: ''
+  job: 开发者希望利用现有的 Claude 或 Cursor 订阅，实现浏览器自动化控制。
+  job_en: Developers want to leverage existing Claude or Cursor subscriptions for browser automation control.
+  pain: 浏览器自动化通常需要额外付费或复杂配置，开发者希望复用现有订阅降低成本。
+  pain_en: Browser automation often requires extra payment or complex setup; developers want to reuse
+    existing subscriptions to reduce costs.
+  current_alternative: 开发者可能使用 Playwright 或 Puppeteer 等工具，但这些需要编写代码和配置。
+  current_alternative_en: Developers may use tools like Playwright or Puppeteer, but these require coding
+    and configuration.
+  usage_reason: 仓库获得 173 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 173 stars, showing developer attention, but sustained use and payment
+    are not yet verified.

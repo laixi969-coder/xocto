@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTFA2Q25aSGx0Tlhf
 summary: 工信部教考中心AI智能体应用工程师证书报考渠道、授权合作推荐机构：深圳卓睿文化 中华网
 first_seen: '2026-08-30T01:52:35Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

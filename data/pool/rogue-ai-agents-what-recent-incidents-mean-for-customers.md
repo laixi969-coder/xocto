@@ -1,11 +1,12 @@
 ---
 slug: rogue-ai-agents-what-recent-incidents-mean-for-customers
-name: '“Rogue” AI Agents: What Recent Incidents Mean for Customers'
+name: Rogue AI Agents
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 关于“流氓”AI 代理的近期事件对客户的影响分析，涉及 AI 代理的安全与责任问题。
 inspiration: ''
-summary_en: ''
+summary_en: Analysis of recent incidents of 'rogue' AI agents and their implications for customers, addressing
+  AI agent safety and liability.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlY2RGRQMGZz
 summary: '“Rogue” AI Agents: What Recent Incidents Mean for Customers Hunton Andrews Kurth LLP'
 first_seen: '2026-08-27T16:43:20Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# “Rogue” AI Agents: What Recent Incidents Mean for Customers
+# Rogue AI Agents
 
 “Rogue” AI Agents: What Recent Incidents Mean for Customers Hunton Andrews Kurth LLP
 

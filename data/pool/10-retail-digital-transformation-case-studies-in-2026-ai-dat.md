@@ -23,7 +23,7 @@ summary: '10 Retail Digital Transformation Case Studies in 2026: AI, Data and Au
   Results InfotechLead'
 first_seen: '2026-08-30T06:22:15Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

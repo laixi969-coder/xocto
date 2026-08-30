@@ -1,11 +1,14 @@
 ---
 slug: openai-终止与-cursor-合作雷军2600名小米车主行程超-10-万公里华纳与索尼起诉-anthropic索赔
-name: OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 终止与 Cursor 的合作，因 SpaceX 收购后信任问题；索尼音乐与华纳音乐起诉 Anthropic 版权侵权，索赔可能达数十亿美元；Anthropic CEO
+  回应无意摧毁 SaaS 行业。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI terminated partnership with Cursor due to trust issues after SpaceX acquisition; Sony
+  Music and Warner Music sued Anthropic for copyright infringement seeking potentially billions; Anthropic
+  CEO responded that they have no intention to destroy the SaaS industry.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -82,7 +85,7 @@ summary: "OpenAI 终止与 Cursor 合作 \n 8 月 29 日消息，OpenAI 以「�
   \ \n 不少数码爱好者也提醒，不要指望靠这个壳子就随便摔手机。极限环境测试只代表特定条件下的结果，不能直接等价于日常使用防护表现。不过这场实验，也把手机壳防护的宣传拉到了一个新的高度。（来源：快科技）"
 first_seen: '2026-08-30T00:28:43Z'
 last_seen: '2026-08-30T14:53:42Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -93,7 +96,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元
+# OpenAI
 
 OpenAI 终止与 Cursor 合作 
  8 月 29 日消息，OpenAI 以「无法信任 SpaceX 遵守服务条款」为由，终止向已被 SpaceX 收购的 AI 编程工具 Cursor 提供模型支持。Cursor 对 OpenAI 模型的直接访问权限将于 11 月 12 日终止。 

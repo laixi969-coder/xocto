@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE9NQXpWc3p0clVV
 summary: 'Best AI Writing Tools for 2026: Which One Fits Your Needs? eWeek'
 first_seen: '2026-08-28T07:00:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

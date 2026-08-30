@@ -1,11 +1,12 @@
 ---
 slug: what-could-a-digital-co-worker-actually-do-in-a-dental-pract
-name: What could a digital co-worker actually do in a dental practice?
+name: Digital Co-worker in Dental Practice
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章探讨数字同事在牙科诊所中的实际应用，反映 AI 在垂直行业的落地。
 inspiration: ''
-summary_en: ''
+summary_en: Article explores what a digital co-worker could do in a dental practice, reflecting AI adoption
+  in vertical industries.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRDRVenA1eXBS
 summary: What could a digital co-worker actually do in a dental practice? DrBicuspid.com
 first_seen: '2026-08-28T07:50:27Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# What could a digital co-worker actually do in a dental practice?
+# Digital Co-worker in Dental Practice
 
 What could a digital co-worker actually do in a dental practice? DrBicuspid.com
 

@@ -1,0 +1,71 @@
+- id: req-initial-referent-2026-08-30
+  project_slug: referent
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称服务律所，但未说明解决什么具体需求、什么痛点，无法判断价值。
+    evidence_ids:
+    - ev-af68a863c51a91db
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或行业讨论证据。
+    evidence_ids:
+    - ev-af68a863c51a91db
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，无法判断付费方。
+    evidence_ids:
+    - ev-af68a863c51a91db
+  - gate: truth
+    status: insufficient
+    reason: 产品功能未明确，交付确定性无法评估。
+    evidence_ids:
+    - ev-af68a863c51a91db
+  next_validation: 关注官方产品页更新，获取具体功能描述、定价或客户案例。
+  market: ''
+  job: 律所希望利用 AI 提升工作效率，但具体任务不明确。
+  job_en: Law firms hope to use AI to improve efficiency, but specific tasks are unclear.
+  pain: 律所工作流程繁琐，但具体痛点未说明。
+  pain_en: Law firm workflows are complex, but specific pain points are not stated.
+  current_alternative: 未知，可能依赖传统法律软件或人工流程。
+  current_alternative_en: Unknown, may rely on traditional legal software or manual processes.
+  usage_reason: 尚未核验，但律所对 AI 的关注可能带来初步兴趣。
+  usage_reason_en: Not yet verified, but law firms' interest in AI may generate initial attention.
+- id: req-full-referent-2026-08-30
+  project_slug: referent
+  level: full
+  reviewed_at: '2026-08-30T15:20:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称服务律所，但未说明解决什么具体需求、什么痛点，无法判断价值。
+    evidence_ids:
+    - ev-af68a863c51a91db
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注官方产品页更新，获取具体功能描述、定价或客户案例。
+  market: ''
+  job: 律所希望利用 AI 提升工作效率，但具体任务不明确。
+  job_en: Law firms hope to use AI to improve efficiency, but specific tasks are unclear.
+  pain: 律所工作流程繁琐，但具体痛点未说明。
+  pain_en: Law firm workflows are complex, but specific pain points are not stated.
+  current_alternative: 未知，可能依赖传统法律软件或人工流程。
+  current_alternative_en: Unknown, may rely on traditional legal software or manual processes.
+  usage_reason: 尚未核验，但律所对 AI 的关注可能带来初步兴趣。
+  usage_reason_en: Not yet verified, but law firms' interest in AI may generate initial attention.

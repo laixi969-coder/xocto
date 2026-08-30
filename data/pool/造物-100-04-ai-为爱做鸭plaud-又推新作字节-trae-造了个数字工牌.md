@@ -1,11 +1,12 @@
 ---
 slug: 造物-100-04-ai-为爱做鸭plaud-又推新作字节-trae-造了个数字工牌
-name: '造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌'
+name: AI硬件行业
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章介绍多款AI硬件新品，包括开源社区推出的鸭子机器人、Plaud录音耳机、字节TRAE数字工牌等，反映AI硬件趋势。
 inspiration: ''
-summary_en: ''
+summary_en: The article introduces multiple new AI hardware products, including a duck robot from an open-source
+  community, Plaud recording earbuds, ByteDance TRAE digital badge, reflecting AI hardware trends.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -68,7 +69,7 @@ summary: "如果给模型安装个身体？你会选择什么。 \n 这道题过
   \ \n 「我想要，我就能自己得到」正在成为这个时代新的注脚。 \n 我们相信，一个属于造物者的时代正在到来，而「造物 100」，就是我们为它留下的记录。"
 first_seen: '2026-08-30T10:58:17Z'
 last_seen: '2026-08-30T14:53:42Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -79,7 +80,7 @@ sightings:
   kind: news
 ---
 
-# 造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌
+# AI硬件行业
 
 如果给模型安装个身体？你会选择什么。 
  这道题过去只属于硬件创业者，这个八月，它摆到了所有软件公司桌上。Hugging Face 交卷一只走路摇摇晃晃的鸭子，OpenAI 正在造自己的智能音箱，字节跳动旗下 TRAE 联名 FoloToy 开始改造自己挂在胸口的工牌。 

@@ -3,27 +3,28 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 这是一个可逆的隐私代理，用于 AI 代理：向外部发送逼真的假数据，同时在本地恢复原始数据。用户将真实数据交给代理，代理用假数据与外部交互，返回时恢复。交付的是保护隐私的 AI 代理交互，但具体实现和集成方式仍待核验。
-inspiration: 趋势是 AI 代理的数据隐私成为关注点。切入可从企业数据脱敏场景开始，提供可逆的隐私保护方案，按数据量或企业订阅收费。
-summary_en: 'This is a reversible privacy proxy for AI agents: it sends realistic fake data externally
-  and restores originals locally. Users give real data to the proxy, which interacts externally with fake
-  data and restores on return. The deliverable is privacy-preserving AI agent interaction, but specific
-  implementation and integration methods remain to be verified.'
-inspiration_en: The trend is data privacy for AI agents becoming a concern. Entry could start with enterprise
-  data masking scenarios, offering reversible privacy protection, charging by data volume or enterprise
-  subscription.
+summary_zh: 开发者将真实数据交给 cover，它作为可逆隐私代理，向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据。它保护 AI 代理交互中的敏感信息，交付一个隐私保护层，具体集成方式仍待核验。
+inspiration: 趋势是 AI 代理处理敏感数据时隐私保护需求上升。切入点是做数据脱敏的代理层，但需验证开发者是否愿意采用，以及能否处理复杂数据映射。
+summary_en: Developers give real data to cover, which acts as a reversible privacy proxy, sending realistic
+  fake data to external AI agents and restoring originals locally. It protects sensitive information in
+  AI agent interactions, delivering a privacy layer; specific integration details remain to be verified.
+inspiration_en: The trend is rising privacy protection needs when AI agents handle sensitive data. The
+  entry point is a data masking proxy layer, but it needs validation on developer adoption and handling
+  complex data mappings.
 priority_review: false
 project_type: open_source
 industries:
 - 软件开发
+- 网络安全
 industries_en:
-- Software development
+- Software Development
+- Cybersecurity
 jobs:
-- AI 工程师
-- 隐私工程师
+- 开发者
+- 安全工程师
 jobs_en:
-- AI engineer
-- Privacy engineer
+- Developers
+- Security Engineers
 regions: []
 regions_en: []
 open_source: true
@@ -32,7 +33,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - officialfeeds

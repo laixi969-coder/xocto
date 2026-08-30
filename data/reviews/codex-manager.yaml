@@ -1,0 +1,83 @@
+- id: req-initial-codex-manager-2026-08-30
+  project_slug: codex-manager
+  level: initial
+  reviewed_at: '2026-08-30T14:53:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者管理多个 Codex 会话和配置的痛点，替代手动编辑配置文件的旧流程，交付集中控制面板，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 53 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者收费，但付费意愿未验证。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者的实际工作流，交付可确定，但需验证是否被真实使用。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  next_validation: 关注该开源项目的 issue 和讨论，看是否有用户提出功能需求或报告使用问题，以及 star 增长趋势。
+  market: ''
+  job: 开发者需要管理多个 Codex 会话、模型、令牌和账户配置，确保编码代理任务顺利执行。
+  job_en: Developers need to manage multiple Codex sessions, models, tokens, and account configurations
+    to ensure smooth execution of coding agent tasks.
+  pain: 随着 Codex 使用增多，配置分散在命令行和文件中，切换和管理繁琐，容易出错。
+  pain_en: As Codex usage grows, configurations are scattered across CLI and files, making switching and
+    management cumbersome and error-prone.
+  current_alternative: 目前开发者主要依赖命令行和手动编辑配置文件来管理 Codex。
+  current_alternative_en: Currently developers rely on CLI and manual editing of config files to manage
+    Codex.
+  usage_reason: 开源项目获得 53 星，说明开发者对集中管理 Codex 配置有初步兴趣，但尚未核验实际采用和付费。
+  usage_reason_en: The open-source project has 53 stars, indicating initial interest in centralized Codex
+    configuration management, but actual adoption and payment are not yet verified.
+- id: req-full-codex-manager-2026-08-30
+  project_slug: codex-manager
+  level: full
+  reviewed_at: '2026-08-30T15:18:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者管理多个 Codex 会话和配置的痛点，替代手动编辑配置文件的旧流程，交付集中控制面板；工作流结构推理成立，但公开材料未量化痛点。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 53 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者收费，但付费意愿未验证。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者的实际工作流，交付可确定，但需验证是否被真实使用。
+    evidence_ids:
+    - ev-46ef249ed97493cf
+  next_validation: 关注该开源项目的 issue 和讨论，看是否有用户提出功能需求或报告使用问题，以及 star 增长趋势。
+  market: ''
+  job: 开发者需要管理多个 Codex 会话、模型、令牌和账户配置，确保编码代理任务顺利执行。
+  job_en: Developers need to manage multiple Codex sessions, models, tokens, and account configurations
+    to ensure smooth execution of coding agent tasks.
+  pain: 随着 Codex 使用增多，配置分散在命令行和文件中，切换和管理繁琐，容易出错；公开材料未量化不解决的代价或频率。
+  pain_en: As Codex usage grows, configurations are scattered across CLI and files, making switching and
+    management cumbersome and error-prone; public materials do not quantify the cost or frequency of leaving
+    this unsolved.
+  current_alternative: 目前开发者主要依赖命令行和手动编辑配置文件来管理 Codex。
+  current_alternative_en: Currently developers rely on CLI and manual editing of config files to manage
+    Codex.
+  usage_reason: 开源项目获得 53 星，说明开发者对集中管理 Codex 配置有初步兴趣，但尚未核验实际采用和付费。
+  usage_reason_en: The open-source project has 53 stars, indicating initial interest in centralized Codex
+    configuration management, but actual adoption and payment are not yet verified.

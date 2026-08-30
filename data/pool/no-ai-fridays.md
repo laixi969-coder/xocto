@@ -21,7 +21,7 @@ canonical_url: https://noaifridays.com
 summary: ''
 first_seen: '2026-08-30T12:31:05Z'
 last_seen: '2026-08-30T14:53:16Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

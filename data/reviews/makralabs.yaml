@@ -1,0 +1,82 @@
+- id: req-initial-makralabs-2026-08-30
+  project_slug: makralabs
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决情报分析中信息收集和关联的痛点，替代手动搜索和整理，交付情报报告，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网简介和少量开发者社区讨论，缺乏用户反馈或采用证据。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是政府、企业或安全机构，但付费路径不明确。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、效果如何，缺乏公开案例或实测证据。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  next_validation: 关注 makralabs 是否发布产品文档、客户案例或公开演示，以及安全社区是否有实际使用反馈。
+  market: ''
+  job: 情报分析师需要从大量公开和信号数据中提取关键信息，生成可行动的情报。
+  job_en: Intelligence analysts need to extract key information from vast open and signal data to generate
+    actionable intelligence.
+  pain: 手动收集和关联数据耗时费力，容易遗漏关键线索，分析周期长。
+  pain_en: Manual collection and correlation are time-consuming, prone to missing key leads, and analysis
+    cycles are long.
+  current_alternative: 目前主要依赖分析师手动使用搜索引擎、数据库和专用工具，或外包给情报服务公司。
+  current_alternative_en: Currently relies on analysts manually using search engines, databases, and specialized
+    tools, or outsourcing to intelligence service firms.
+  usage_reason: AI 代理可能自动化重复性收集工作，提高分析效率，吸引安全领域用户关注。
+  usage_reason_en: AI agents may automate repetitive collection tasks, improving analysis efficiency,
+    attracting security professionals.
+- id: req-full-makralabs-2026-08-30
+  project_slug: makralabs
+  level: full
+  reviewed_at: '2026-08-30T15:19:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决情报分析中信息收集和关联的痛点，替代手动搜索和整理，交付情报报告，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  - gate: consensus
+    status: insufficient
+    reason: 仅有官网简介和少量开发者社区讨论，缺乏用户反馈或采用证据。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是政府、企业或安全机构，但付费路径不明确。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、效果如何，缺乏公开案例或实测证据。
+    evidence_ids:
+    - ev-abe57b2718e3cd58
+  next_validation: 关注 makralabs 是否发布产品文档、客户案例或公开演示，以及安全社区是否有实际使用反馈。
+  market: ''
+  job: 情报分析师需要从大量公开和信号数据中提取关键信息，生成可行动的情报。
+  job_en: Intelligence analysts need to extract key information from vast open and signal data to generate
+    actionable intelligence.
+  pain: 手动收集和关联数据耗时费力，容易遗漏关键线索，分析周期长。
+  pain_en: Manual collection and correlation are time-consuming, prone to missing key leads, and analysis
+    cycles are long.
+  current_alternative: 目前主要依赖分析师手动使用搜索引擎、数据库和专用工具，或外包给情报服务公司。
+  current_alternative_en: Currently relies on analysts manually using search engines, databases, and specialized
+    tools, or outsourcing to intelligence service firms.
+  usage_reason: AI 代理可能自动化重复性收集工作，提高分析效率，吸引安全领域用户关注。
+  usage_reason_en: AI agents may automate repetitive collection tasks, improving analysis efficiency,
+    attracting security professionals.

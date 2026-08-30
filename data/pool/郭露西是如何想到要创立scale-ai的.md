@@ -1,11 +1,12 @@
 ---
 slug: 郭露西是如何想到要创立scale-ai的
-name: 郭露西是如何想到要创立Scale AI的？
+name: Scale AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 报道回顾了郭露西创立Scale AI的历程，但未提供关于Scale AI当前产品、服务或市场表现的新事实。
 inspiration: ''
-summary_en: ''
+summary_en: The article reviews Lucy Guo's journey in founding Scale AI, but does not provide new facts
+  about Scale AI's current products, services, or market performance.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEy
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 郭露西是如何想到要创立Scale AI的？
+# Scale AI
 
 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 

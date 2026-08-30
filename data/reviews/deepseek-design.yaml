@@ -304,3 +304,44 @@
   usage_reason: 公开代码仓库有 607 个收藏，说明开发者关注，但持续使用与付费未核验。
   usage_reason_en: The public repository has 607 stars, showing developer attention, but repeat use and
     payment are not verified.
+- id: req-full-deepseek-design-2026-08-30
+  project_slug: deepseek-design
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师和PPT制作者的设计需求，痛点在于从零设计耗时，交付是AI生成和编辑工具，价值结构成立（工作流结构推理）。
+    evidence_ids:
+    - ev-5d7f2832f34984ce
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有611个收藏，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-5d7f2832f34984ce
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费主体和定价未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-5d7f2832f34984ce
+  - gate: truth
+    status: insufficient
+    reason: 生成质量和导出格式未验证，缺少可复现的公开测试结果，交付确定性待核验。
+    evidence_ids:
+    - ev-5d7f2832f34984ce
+  next_validation: 追踪该项目的GitHub仓库issue和discussion，查看用户反馈和实际使用情况，以及star增长趋势。
+  market: ''
+  job: 设计师和PPT制作者需要AI生成设计初稿，并进行可视化编辑和导出PPT。
+  job_en: Designers and PPT creators need AI to generate design drafts, then visually edit and export
+    to PPT.
+  pain: 从零开始设计耗时，公开材料未明确说明不解决的具体代价，但AI生成可提高效率。
+  pain_en: Designing from scratch is time-consuming; public materials do not specify the cost of leaving
+    it unsolved, but AI generation can improve efficiency.
+  current_alternative: 用户可能使用传统设计软件或手动制作PPT，公开材料未说明具体替代方式。
+  current_alternative_en: Users might use traditional design software or manually create PPTs; public
+    materials do not specify the exact alternative.
+  usage_reason: 公开代码仓库有611个收藏，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 611 stars, indicating developer attention or trial, but sustained
+    use and payment are not yet verified.

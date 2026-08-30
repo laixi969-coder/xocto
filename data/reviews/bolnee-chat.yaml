@@ -1,0 +1,71 @@
+- id: req-initial-bolnee-chat-2026-08-30
+  project_slug: bolnee-chat
+  level: initial
+  reviewed_at: '2026-08-30T14:53:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决企业聊天机器人的数据隐私问题，但痛点不明确，现有开源项目可能已覆盖。
+    evidence_ids:
+    - ev-b629ea45fc649b9c
+  - gate: consensus
+    status: insufficient
+    reason: 开发者社区 29 分，但缺乏用户反馈或采用证据。
+    evidence_ids:
+    - ev-b629ea45fc649b9c
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有企业采用案例。
+  market: ''
+  job: 企业希望在网站上部署聊天机器人，同时保持数据控制权。
+  job_en: Businesses want to deploy chatbots on their websites while maintaining data control.
+  pain: SaaS 聊天机器人可能涉及数据隐私问题，且定制性有限。
+  pain_en: SaaS chatbots may raise data privacy concerns and offer limited customization.
+  current_alternative: 使用 SaaS 聊天机器人服务或开源项目。
+  current_alternative_en: Using SaaS chatbot services or open-source projects.
+  usage_reason: 自托管提供数据控制，但需求强度未明。
+  usage_reason_en: Self-hosting offers data control, but demand intensity is unclear.
+- id: req-full-bolnee-chat-2026-08-30
+  project_slug: bolnee-chat
+  level: full
+  reviewed_at: '2026-08-30T15:18:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决企业聊天机器人的数据隐私问题，但痛点不明确，现有开源项目可能已覆盖；公开材料未说明不解决的代价或频率。
+    evidence_ids:
+    - ev-b629ea45fc649b9c
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪该开源仓库的 issue 和 discussion，寻找企业采用案例或用户反馈，确认自托管聊天机器人的实际需求。
+  market: ''
+  job: 企业希望在网站上部署聊天机器人，同时保持数据控制权。
+  job_en: Businesses want to deploy chatbots on their websites while maintaining data control.
+  pain: SaaS 聊天机器人可能涉及数据隐私问题，且定制性有限；但公开材料未说明不解决的代价或频率。
+  pain_en: SaaS chatbots may raise data privacy concerns and offer limited customization; public materials
+    do not show the cost or frequency of leaving this unsolved.
+  current_alternative: 使用 SaaS 聊天机器人服务或开源项目。
+  current_alternative_en: Using SaaS chatbot services or open-source projects.
+  usage_reason: 开发者社区有29分，显示一定关注，但缺乏用户反馈或采用证据，需求强度未明。
+  usage_reason_en: The developer community has 29 points, showing some attention, but lacks user feedback
+    or adoption evidence; demand intensity is unclear.

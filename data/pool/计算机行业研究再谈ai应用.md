@@ -1,11 +1,11 @@
 ---
 slug: 计算机行业研究再谈ai应用
-name: 计算机行业研究：再谈AI应用
+name: AI应用行业
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 计算机行业研究再次聚焦AI应用，探讨其发展前景。
 inspiration: ''
-summary_en: ''
+summary_en: Computer industry research revisits AI applications, exploring their prospects.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ndFJKZDhVaU5o
 summary: 计算机行业研究：再谈AI应用 发现报告
 first_seen: '2026-08-30T04:11:37Z'
 last_seen: '2026-08-30T14:53:44Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 计算机行业研究：再谈AI应用
+# AI应用行业
 
 计算机行业研究：再谈AI应用 发现报告
 

@@ -301,3 +301,44 @@
   usage_reason: 公开代码仓库有 127 个收藏、7 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 127 stars and 7 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-noema-2026-08-30
+  project_slug: dsh-noema
+  level: full
+  reviewed_at: '2026-08-30T15:18:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI代理长期记忆的需求，痛点在于上下文丢失，交付是持久化记忆插件，价值结构成立（工作流结构推理）。
+    evidence_ids:
+    - ev-ffc56e12765687ef
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库有129个收藏，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-ffc56e12765687ef
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费主体和定价未核验，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ffc56e12765687ef
+  - gate: truth
+    status: insufficient
+    reason: 记忆持久性和检索准确性未验证，缺少可复现的公开测试结果，交付确定性待核验。
+    evidence_ids:
+    - ev-ffc56e12765687ef
+  next_validation: 追踪该项目的GitHub仓库issue和discussion，查看用户反馈和实际使用情况，以及star增长趋势。
+  market: ''
+  job: AI代理开发者需要为DeepSeek Harness提供长期记忆插件，实现持久化存储和检索。
+  job_en: AI agent developers need a long-term memory plugin for DeepSeek Harness to enable persistent
+    storage and retrieval.
+  pain: AI代理缺乏长期记忆会导致上下文丢失，公开材料未明确说明不解决的具体代价，但持久记忆可提高代理性能。
+  pain_en: AI agents lacking long-term memory lose context; public materials do not specify the cost of
+    leaving it unsolved, but persistent memory can improve agent performance.
+  current_alternative: 用户可能使用外部存储或手动管理上下文，公开材料未说明具体替代方式。
+  current_alternative_en: Users might use external storage or manually manage context; public materials
+    do not specify the exact alternative.
+  usage_reason: 公开代码仓库有129个收藏，说明开发者关注或试用，但持续使用和付费尚未核验。
+  usage_reason_en: The public repository has 129 stars, indicating developer attention or trial, but sustained
+    use and payment are not yet verified.

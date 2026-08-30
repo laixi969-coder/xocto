@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/ravioli-2
 summary: Create custom stamp shapes
 first_seen: '2026-08-25T13:55:03Z'
 last_seen: '2026-08-30T14:53:16Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

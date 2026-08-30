@@ -1,0 +1,82 @@
+- id: req-initial-rillet-turned-an-unsolicited-board-update-into-a-1-billion-a-2026-08-30
+  project_slug: rillet-turned-an-unsolicited-board-update-into-a-1-billion-a
+  level: initial
+  reviewed_at: '2026-08-30T14:53:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会计师手工编制财务报告的痛点，通过 AI 自动生成草稿，交付可核对的报告，价值结构成立。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及估值，缺乏用户采用、留存或付费证据，共识尚未形成。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是企业财务部门，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付是否可靠尚未有公开验证，需进一步观察。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  next_validation: 关注 Rillet 官方定价页和客户案例，以验证付费路径和实际采用。
+  market: ''
+  job: 会计师需要定期编制董事会更新等财务报告，向管理层和董事会汇报公司财务状况。
+  job_en: Accountants need to periodically prepare financial reports such as board updates to communicate
+    the company's financial status to management and the board.
+  pain: 手工编制财务报告耗时且易出错，需要从多个数据源汇总数据并确保格式合规。
+  pain_en: Manual preparation of financial reports is time-consuming and error-prone, requiring data aggregation
+    from multiple sources and ensuring format compliance.
+  current_alternative: 目前会计师通常使用 Excel 和财务软件手工编制报告，或外包给专业机构。
+  current_alternative_en: Currently, accountants typically use Excel and financial software to prepare
+    reports manually, or outsource to professional firms.
+  usage_reason: Rillet 能自动生成报告草稿，减少手工工作量，但公开证据有限，实际采用和付费情况尚未核验。
+  usage_reason_en: Rillet can automatically generate report drafts, reducing manual work, but public evidence
+    is limited; actual adoption and payment are not yet verified.
+- id: req-full-rillet-turned-an-unsolicited-board-update-into-a-1-billion-a-2026-08-30
+  project_slug: rillet-turned-an-unsolicited-board-update-into-a-1-billion-a
+  level: full
+  reviewed_at: '2026-08-30T15:20:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会计师手工编制财务报告的痛点，通过 AI 自动生成草稿，交付可核对的报告，价值结构成立。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及估值，缺乏用户采用、留存或付费证据，共识尚未形成。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是企业财务部门，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付是否可靠尚未有公开验证，需进一步观察。
+    evidence_ids:
+    - ev-1051441d3d5fe376
+  next_validation: 关注 Rillet 官方定价页和客户案例，以验证付费路径和实际采用。
+  market: ''
+  job: 会计师需要定期编制董事会更新等财务报告，向管理层和董事会汇报公司财务状况。
+  job_en: Accountants need to periodically prepare financial reports such as board updates to communicate
+    the company's financial status to management and the board.
+  pain: 手工编制财务报告耗时且易出错，需要从多个数据源汇总数据并确保格式合规。
+  pain_en: Manual preparation of financial reports is time-consuming and error-prone, requiring data aggregation
+    from multiple sources and ensuring format compliance.
+  current_alternative: 目前会计师通常使用 Excel 和财务软件手工编制报告，或外包给专业机构。
+  current_alternative_en: Currently, accountants typically use Excel and financial software to prepare
+    reports manually, or outsource to professional firms.
+  usage_reason: Rillet 能自动生成报告草稿，减少手工工作量，但公开证据有限，实际采用和付费情况尚未核验。
+  usage_reason_en: Rillet can automatically generate report drafts, reducing manual work, but public evidence
+    is limited; actual adoption and payment are not yet verified.

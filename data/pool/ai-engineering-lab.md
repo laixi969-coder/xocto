@@ -2,16 +2,16 @@
 slug: ai-engineering-lab
 name: AI-Engineering-Lab
 builder: zorost
-category: AI + 效率
-summary_zh: 面向想系统学习 AI 工程的学生和开发者，提供 24 周免费课程，覆盖 Python、机器学习、LLM、RAG、微调、agent 和 MCP，以及 Azure、Vertex、Bedrock
-  和 Databricks。包含 43 个可运行笔记本和一个连续案例研究，MIT 许可，无需注册。
-inspiration: 趋势是 AI 工程教育从零散教程走向系统化、可运行的课程体系。切入点是面向转行者和学生的免费开源课程，通过案例驱动和云平台实操建立口碑，后续可提供认证或企业培训收费。
-summary_en: A free 24-week AI engineering course for students and developers, covering Python, ML, LLMs,
-  RAG, fine-tuning, agents, MCP, and major cloud platforms. Includes 43 runnable notebooks and a continuous
-  case study, MIT licensed, no signup.
-inspiration_en: 'Trend: AI engineering education is moving from scattered tutorials to systematic, runnable
-  curricula. Entry: target career switchers and students with free open-source courses, build reputation
-  through case-driven cloud practice, then monetize via certification or enterprise training.'
+category: AI + 开发
+summary_zh: 面向想系统学习 AI 工程的开发者，提供 24 周免费课程，覆盖 Python、机器学习、LLM、RAG、微调、agent 与 MCP，以及 Azure、Vertex、Bedrock
+  和 Databricks。包含 43 个可运行 notebook，并贯穿一个连续案例。MIT 许可，无需注册，学习者可自行安排进度。
+inspiration: 趋势是 AI 工程技能从零散教程走向系统化课程，但免费开源课程难以直接变现。切入点是面向企业内训或高校，提供基于该课程的认证、企业定制或实训服务，按结果收费。
+summary_en: A free 24-week AI engineering course for developers, covering Python, ML, LLMs, RAG, fine-tuning,
+  agents, MCP, and cloud platforms. Includes 43 runnable notebooks and a continuous case study. MIT licensed,
+  no signup required.
+inspiration_en: 'Trend: AI engineering skills are moving from scattered tutorials to structured curricula.
+  Entry point: offer certification, enterprise training, or hands-on labs based on this course, charging
+  for outcomes.'
 priority_review: false
 project_type: open_source
 industries:
@@ -22,12 +22,12 @@ industries_en:
 - Software Development
 jobs:
 - AI 工程师
-- 学生
 - 软件开发者
+- 学生
 jobs_en:
 - AI Engineer
-- Student
 - Software Developer
+- Student
 regions:
 - 全球
 regions_en:
@@ -40,7 +40,7 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
 last_seen: '2026-08-30T14:53:20Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - newssearch
