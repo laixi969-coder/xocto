@@ -19,6 +19,8 @@ LATIN_FONTS = (
     "inter-400-latin.woff2",
     "inter-500-latin.woff2",
     "inter-600-latin.woff2",
+    "fraunces-400-latin.woff2",
+    "fraunces-700-latin.woff2",
 )
 CJK_SOURCE = "NotoSansCJKsc-Bold.otf"
 CJK_OUT = "noto-sans-sc-700-subset.woff2"

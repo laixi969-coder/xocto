@@ -33,6 +33,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CSS = ROOT / "templates" / "style.css"
+TOKENS = ROOT / "tokens.css"
 SITE = ROOT / "site"
 POOL = ROOT / "data" / "pool"
 
@@ -58,13 +59,39 @@ PRIVATE_REFS = ("songo", "octo", "蔡蔡", "你二十年", "你的短剧业务")
 INTERNAL_METHOD_TERMS = ("/req",)
 
 
-def _luminance(hex_color: str) -> float:
-    h = hex_color.lstrip("#")
-    if len(h) == 3:
-        h = "".join(c * 2 for c in h)
-    channels = [int(h[i : i + 2], 16) / 255 for i in (0, 2, 4)]
-    linear = [c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4 for c in channels]
-    return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+def _luminance(color: str) -> float:
+    """Return relative luminance for hex or CSS OKLCH colours."""
+    if color.startswith("#"):
+        h = color.lstrip("#")
+        if len(h) == 3:
+            h = "".join(c * 2 for c in h)
+        channels = [int(h[i : i + 2], 16) / 255 for i in (0, 2, 4)]
+        linear = [c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4 for c in channels]
+        return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2]
+
+    match = re.fullmatch(
+        r"oklch\(\s*([\d.]+)%?\s+([\d.]+)\s+([\d.]+)(?:\s*/\s*[\d.]+%?)?\s*\)",
+        color,
+    )
+    if not match:
+        raise ValueError(f"不支持的颜色格式：{color}")
+    lightness, chroma, hue = map(float, match.groups())
+    if lightness > 1:
+        lightness /= 100
+    import math
+
+    angle = math.radians(hue)
+    a = chroma * math.cos(angle)
+    b = chroma * math.sin(angle)
+    l_ = lightness + 0.3963377774 * a + 0.2158037573 * b
+    m_ = lightness - 0.1055613458 * a - 0.0638541728 * b
+    s_ = lightness - 0.0894841775 * a - 1.2914855480 * b
+    l, m, s = l_ ** 3, m_ ** 3, s_ ** 3
+    red = 4.0767416621 * l - 3.3077115913 * m + 0.2309699292 * s
+    green = -1.2684380046 * l + 2.6097574011 * m - 0.3413193965 * s
+    blue = -0.0041960863 * l - 0.7034186147 * m + 1.7076147010 * s
+    red, green, blue = (max(0.0, min(1.0, channel)) for channel in (red, green, blue))
+    return 0.2126 * red + 0.7152 * green + 0.0722 * blue
 
 
 def contrast(fg: str, bg: str) -> float:
@@ -73,12 +100,14 @@ def contrast(fg: str, bg: str) -> float:
 
 
 def _resolve(tokens: dict[str, str], name: str, depth: int = 0) -> str | None:
-    """把 --x: var(--y) 一路解到具体的 hex。解不出（比如 rgba）返回 None。"""
+    """把 --x: var(--y) 一路解到具体的 hex / OKLCH。"""
     value = tokens.get(name)
     if value is None or depth > 6:
         return None
     value = value.strip()
     if value.startswith("#"):
+        return value
+    if value.startswith("oklch("):
         return value
     match = re.fullmatch(r"var\(\s*(--[\w-]+)\s*\)", value)
     if match:
@@ -92,13 +121,13 @@ def _tokens_in(block: str) -> dict[str, str]:
 
 def check_contrast() -> list[str]:
     """浅色和暗色各自的 token 表，逐个对 paper / surface 复算。"""
-    css = CSS.read_text(encoding="utf-8")
+    css = TOKENS.read_text(encoding="utf-8")
     fails: list[str] = []
 
     root = re.search(r":root\s*\{(.*?)\n\}", css, re.S)
     dark = re.search(r':root\[data-theme="dark"\]\s*\{(.*?)\n\}', css, re.S)
     if not root or not dark:
-        return [":root 或 [data-theme=dark] 块解析不出来，检查 style.css 结构"]
+        return [":root 或 [data-theme=dark] 块解析不出来，检查 tokens.css 结构"]
 
     light_tokens = _tokens_in(root.group(1))
     dark_tokens = {**light_tokens, **_tokens_in(dark.group(1))}
@@ -251,7 +280,7 @@ def check_stylesheet_version() -> list[str]:
     """样式文件没指纹时，HTML 更新后浏览器仍可能拿到旧 CSS。"""
     if not SITE.is_dir():
         return ["site/ 不存在，先跑 uv run xocto build"]
-    expected = hashlib.sha256(CSS.read_bytes()).hexdigest()[:12]
+    expected = hashlib.sha256(CSS.read_bytes() + TOKENS.read_bytes()).hexdigest()[:12]
     pattern = re.compile(r'<link rel="stylesheet" href="[^"]*style\.css\?v=([0-9a-f]{12})">')
     problems: list[str] = []
     for path in sorted(SITE.rglob("*.html")):

@@ -1941,7 +1941,12 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
 
     out_dir.mkdir(parents=True, exist_ok=True)
     css_src = templates_dir / "style.css"
-    asset_version = hashlib.sha256(css_src.read_bytes()).hexdigest()[:12] if css_src.exists() else "0"
+    tokens_src = store.root / "tokens.css"
+    asset_bytes = b""
+    for asset in (css_src, tokens_src):
+        if asset.exists():
+            asset_bytes += asset.read_bytes()
+    asset_version = hashlib.sha256(asset_bytes).hexdigest()[:12] if asset_bytes else "0"
 
     # 两个语种的数据先各自组好，再开始渲染 —— 语言切换要知道对面有没有这一页
     contexts = {loc.key: build_context(store, loc) for loc in LOCALES}
@@ -1969,6 +1974,8 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
 
     if css_src.exists():
         shutil.copy2(css_src, out_dir / "style.css")
+    if tokens_src.exists():
+        shutil.copy2(tokens_src, out_dir / "tokens.css")
 
     # 品牌标识：两个版本（浅色底 / 暗色底），由 CSS 的 --logo token 挑
     logo_src = templates_dir / "logo"
