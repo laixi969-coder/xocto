@@ -78,3 +78,87 @@
   usage_reason: 百度搭子作为大厂产品，有品牌和生态优势，可能吸引用户尝试。
   usage_reason_en: As a major tech product, Baidu Dazi has brand and ecosystem advantages, potentially
     attracting users to try.
+- id: req-initial-ai办公群雄逐鹿百度搭子发布专业办公一揽子升级-2026-08-30
+  project_slug: ai办公群雄逐鹿百度搭子发布专业办公一揽子升级
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公人员跨应用处理重复任务的痛点，旧替代是人工或 RPA，工作流结构判断需求成立。
+    evidence_ids:
+    - ev-105cbe4242bb7bd1
+    - ev-4aae7f296581c155
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示百度发布 15 个行业套件，但缺乏用户采用、收藏或增长数据，共识证据不足。
+    evidence_ids:
+    - ev-577d82a44be45162
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是 to B 或 to C，但缺乏明确付费路径证据。
+    evidence_ids:
+    - ev-a004147fbcacf392
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称能跨应用执行，但实际交付的确定性和安全边界未公开验证。
+    evidence_ids:
+    - ev-105cbe4242bb7bd1
+  next_validation: 关注百度智能云官网的 DuMate 定价页和客户案例，以及行业套件的实际部署文档。
+  market: ''
+  job: 办公人员需要处理跨应用、跨文件的重复性任务，如整理资料、填写表格、生成报告。
+  job_en: Office workers need to handle repetitive tasks across applications and files, such as organizing
+    materials, filling forms, and generating reports.
+  pain: 手动切换多个软件、复制粘贴数据耗时且易出错，影响工作效率。
+  pain_en: Manually switching between multiple software and copy-pasting data is time-consuming and error-prone,
+    reducing productivity.
+  current_alternative: 目前主要依靠人工操作，或使用 RPA、宏等工具，但配置复杂、维护成本高。
+  current_alternative_en: Currently, tasks are done manually or with RPA/macros, which are complex to
+    configure and maintain.
+  usage_reason: 百度品牌和生态可能吸引企业用户，但付费和留存证据尚未核验。
+  usage_reason_en: Baidu's brand and ecosystem may attract enterprise users, but payment and retention
+    evidence is unverified.
+- id: req-full-ai办公群雄逐鹿百度搭子发布专业办公一揽子升级-2026-08-30
+  project_slug: ai办公群雄逐鹿百度搭子发布专业办公一揽子升级
+  level: full
+  reviewed_at: '2026-08-30T00:44:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公人员跨应用处理重复任务的痛点，旧替代是人工或 RPA，工作流结构判断需求成立。
+    evidence_ids:
+    - ev-105cbe4242bb7bd1
+    - ev-4aae7f296581c155
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示百度发布 15 个行业套件，但缺乏用户采用、收藏或增长数据，共识证据不足。
+    evidence_ids:
+    - ev-577d82a44be45162
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是 to B 或 to C，但缺乏明确付费路径证据。
+    evidence_ids:
+    - ev-a004147fbcacf392
+  - gate: truth
+    status: insufficient
+    reason: 产品宣称能跨应用执行，但实际交付的确定性和安全边界未公开验证。
+    evidence_ids:
+    - ev-105cbe4242bb7bd1
+  next_validation: 关注百度智能云官网的 DuMate 定价页和客户案例，以及行业套件的实际部署文档。
+  market: ''
+  job: 办公人员需要处理跨应用、跨文件的重复性任务，如整理资料、填写表格、生成报告。
+  job_en: Office workers need to handle repetitive tasks across applications and files, such as organizing
+    materials, filling forms, and generating reports.
+  pain: 手动切换多个软件、复制粘贴数据耗时且易出错，影响工作效率。
+  pain_en: Manually switching between multiple software and copy-pasting data is time-consuming and error-prone,
+    reducing productivity.
+  current_alternative: 目前主要依靠人工操作，或使用 RPA、宏等工具，但配置复杂、维护成本高。
+  current_alternative_en: Currently, tasks are done manually or with RPA/macros, which are complex to
+    configure and maintain.
+  usage_reason: 百度品牌和生态可能吸引企业用户，但付费和留存证据尚未核验。
+  usage_reason_en: Baidu's brand and ecosystem may attract enterprise users, but payment and retention
+    evidence is unverified.

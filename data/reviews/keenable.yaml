@@ -75,3 +75,81 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：AI 工程师、开发者；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: AI Engineer, Developer The exact adoption
     motive and repeat use are not yet verified.'
+- id: req-initial-keenable-2026-08-30
+  project_slug: keenable
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: AI agent 需要实时信息，通用搜索 API 返回结果不适合直接使用，Keenable 提供结构化结果，解决明确痛点。工作流结构判断。
+    evidence_ids:
+    - ev-2c51d7db3379c36d
+    - ev-42335dd9e437683b
+  - gate: consensus
+    status: supported
+    reason: 融资 2600 万美元表明市场认可，但用户采用数据尚未公开。
+    evidence_ids:
+    - ev-42335dd9e437683b
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能是按 API 调用收费，但未披露定价，买方为开发者。
+    evidence_ids:
+    - ev-42335dd9e437683b
+  - gate: truth
+    status: insufficient
+    reason: 产品已上线，但交付质量和可靠性尚未有公开验证。
+    evidence_ids:
+    - ev-2c51d7db3379c36d
+  next_validation: 关注 Keenable 官网是否提供定价页、客户案例或公开 API 文档。
+  market: ''
+  job: AI agent 需要实时获取网页信息以完成用户任务。
+  job_en: AI agents need real-time web information to complete user tasks.
+  pain: 通用搜索 API 返回结果冗余、非结构化，不适合 agent 直接消费。
+  pain_en: General search APIs return redundant, unstructured results, not suitable for direct agent consumption.
+  current_alternative: 开发者通常使用通用搜索 API 或自行爬取网页。
+  current_alternative_en: Developers typically use general search APIs or scrape web pages themselves.
+  usage_reason: 融资 2600 万美元表明投资者看好该方向，但公开采用数据尚未核验。
+  usage_reason_en: The $26M funding indicates investor confidence, but public adoption data is not yet
+    verified.
+- id: req-full-keenable-2026-08-30
+  project_slug: keenable
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: AI agent 需要实时信息，通用搜索 API 返回结果不适合直接使用，Keenable 提供结构化结果，解决明确痛点。工作流结构判断。
+    evidence_ids:
+    - ev-2c51d7db3379c36d
+    - ev-42335dd9e437683b
+  - gate: consensus
+    status: supported
+    reason: 融资 2600 万美元表明市场认可，但用户采用数据尚未公开。
+    evidence_ids:
+    - ev-42335dd9e437683b
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能是按 API 调用收费，但未披露定价，买方为开发者。
+    evidence_ids:
+    - ev-42335dd9e437683b
+  - gate: truth
+    status: insufficient
+    reason: 产品已上线，但交付质量和可靠性尚未有公开验证。
+    evidence_ids:
+    - ev-2c51d7db3379c36d
+  next_validation: 关注 Keenable 官网是否提供定价页、客户案例或公开 API 文档。
+  market: ''
+  job: AI agent 需要实时获取网页信息以完成用户任务。
+  job_en: AI agents need real-time web information to complete user tasks.
+  pain: 通用搜索 API 返回结果冗余、非结构化，不适合 agent 直接消费。
+  pain_en: General search APIs return redundant, unstructured results, not suitable for direct agent consumption.
+  current_alternative: 开发者通常使用通用搜索 API 或自行爬取网页。
+  current_alternative_en: Developers typically use general search APIs or scrape web pages themselves.
+  usage_reason: 融资 2600 万美元表明投资者看好该方向，但公开采用数据尚未核验。
+  usage_reason_en: The $26M funding indicates investor confidence, but public adoption data is not yet
+    verified.

@@ -71,3 +71,39 @@
   usage_reason: 目前仅有少量社区讨论，尚未核验实际使用或商业采用。
   usage_reason_en: Currently only a small amount of community discussion, actual usage or commercial adoption
     not yet verified.
+- id: req-full-laser-graffiti-2026-08-30
+  project_slug: laser-graffiti
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及激光涂鸦概念，未说明具体使用场景、用户任务或交付成果，无法判断需求强度。
+    evidence_ids:
+    - ev-b19fd55451880370
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注官方页面是否补充演示视频、使用案例或定价信息。
+  market: ''
+  job: 用户想要在公共空间或活动中创作和展示动态涂鸦艺术。
+  job_en: Users want to create and display dynamic graffiti art in public spaces or events.
+  pain: 传统涂鸦受限于墙面和颜料，难以在夜间或临时场地展示，且不可逆。
+  pain_en: Traditional graffiti is limited by walls and paint, difficult to display at night or in temporary
+    venues, and irreversible.
+  current_alternative: 传统涂鸦、投影映射、LED 屏幕展示。
+  current_alternative_en: Traditional graffiti, projection mapping, LED screen displays.
+  usage_reason: 目前仅有少量社区讨论，尚未核验实际使用或商业采用。
+  usage_reason_en: Currently only a small amount of community discussion, actual usage or commercial adoption
+    not yet verified.

@@ -1,13 +1,12 @@
 ---
 slug: ai央行or资产负债表即服务质疑甚嚣尘上英伟达叫停收入分享换融资模式
-name: 英伟达
+name: 英伟达算力投资业务
 builder: ''
 category: ''
-summary_zh: 英伟达调整其AI基础设施融资策略，叫停以收入分享换取融资的模式。此举引发市场对其角色演变的讨论，即是否从芯片供应商转向类似“AI央行”或“资产负债表即服务”的金融角色。
+summary_zh: 英伟达调整算力投资策略，叫停通过收入分成向AI企业提供算力融资支持的合作模式。
 inspiration: ''
-summary_en: Nvidia adjusted its AI infrastructure financing strategy, halting the model of exchanging
-  revenue sharing for financing. This move sparked market discussion about its evolving role, from chip
-  supplier to a financial role akin to an 'AI central bank' or 'balance sheet as a service'.
+summary_en: NVIDIA adjusted its compute investment strategy, halting the revenue-sharing model that provided
+  GPU financing to AI startups.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sX3NaNE5BaFY3
 summary: “AI央行”or“资产负债表即服务”质疑甚嚣尘上？英伟达叫停“收入分享换融资”模式 华尔街见闻
 first_seen: '2026-08-28T00:34:40Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -39,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# 英伟达
+# 英伟达算力投资业务
 
 “AI央行”or“资产负债表即服务”质疑甚嚣尘上？英伟达叫停“收入分享换融资”模式 华尔街见闻
 

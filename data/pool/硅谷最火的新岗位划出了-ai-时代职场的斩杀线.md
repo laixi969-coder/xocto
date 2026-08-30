@@ -1,11 +1,12 @@
 ---
 slug: 硅谷最火的新岗位划出了-ai-时代职场的斩杀线
-name: 硅谷最火的新岗位，划出了 AI 时代职场的斩杀线
+name: 硅谷新岗位
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 硅谷最火的新岗位划出AI时代职场的斩杀线，反映AI对就业市场的影响。
 inspiration: ''
-summary_en: ''
+summary_en: The hottest new jobs in Silicon Valley draw the line for AI-era careers, reflecting AI's impact
+  on the job market.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1oSmpFSEJ1TTUz
 summary: 硅谷最火的新岗位，划出了 AI 时代职场的斩杀线 36Kr
 first_seen: '2026-08-28T12:14:00Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 硅谷最火的新岗位，划出了 AI 时代职场的斩杀线
+# 硅谷新岗位
 
 硅谷最火的新岗位，划出了 AI 时代职场的斩杀线 36Kr
 

@@ -1,11 +1,11 @@
 ---
 slug: national-gypsum-cfo-leads-ai-transformation-at-century-old-m
-name: National Gypsum CFO leads AI transformation at century-old manufacturer
+name: National Gypsum
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 信息不足
 inspiration: ''
-summary_en: ''
+summary_en: Insufficient information
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ0lWSG5nZThZ
 summary: National Gypsum CFO leads AI transformation at century-old manufacturer The Business Journals
 first_seen: '2026-08-28T11:59:00Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# National Gypsum CFO leads AI transformation at century-old manufacturer
+# National Gypsum
 
 National Gypsum CFO leads AI transformation at century-old manufacturer The Business Journals
 

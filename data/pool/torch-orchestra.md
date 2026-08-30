@@ -21,7 +21,7 @@ canonical_url: https://github.com/hazard0942/torch-orchestra
 summary: 'Zero-Code PyTorch Model Accelerator Toolkit 2026: Supercharge AI Training Workflows'
 first_seen: '2026-08-25T10:18:02Z'
 last_seen: '2026-08-30T00:20:08Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

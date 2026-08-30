@@ -70,3 +70,39 @@
   usage_reason: 公开代码仓库有 88 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 88 stars and 5 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-bootagent-2026-08-30
+  project_slug: bootagent
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决新电脑配置AI助手的问题，但痛点强度和不采用代价未核验，用户可能手动配置。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找BootAgent的GitHub仓库issue和discussion，看用户是否报告实际使用场景。
+  market: ''
+  job: 用户在新电脑上需要配置多个AI助手工具，希望一次性完成设置。
+  job_en: Users need to configure multiple AI assistant tools on a new computer, hoping to complete setup
+    in one go.
+  pain: 手动逐个配置工具耗时且易出错，但痛点强度未核验。
+  pain_en: Manually configuring tools one by one is time-consuming and error-prone, but the pain intensity
+    is not verified.
+  current_alternative: 用户可能手动配置或使用脚本，但公开材料未说明。
+  current_alternative_en: Users may configure manually or use scripts, but public materials do not specify.
+  usage_reason: 仓库获得88星，显示开发者关注，但持续使用和付费未核验。
+  usage_reason_en: The repository has 88 stars, showing developer interest, but sustained usage and payment
+    are not verified.

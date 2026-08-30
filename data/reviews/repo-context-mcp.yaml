@@ -149,3 +149,41 @@
   usage_reason: 公开代码仓库有 103 个收藏、88 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 103 stars and 88 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-repo-context-mcp-2026-08-30
+  project_slug: repo-context-mcp
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理缺乏仓库上下文的问题，提供仓库地图、代码搜索和 token 感知上下文包，交付可提升准确性的上下文。工作流结构推理：开发者需要准确代码生成，旧方式是手动提供上下文，痛点明确。
+    evidence_ids:
+    - ev-6a28018c470da05d
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 105 个收藏、88 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-3f684acd372f2301
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者需要为 AI 编码代理提供仓库上下文，提升代码生成和修改的准确性。
+  job_en: Developers need to provide repository context to AI coding agents to improve code generation
+    and modification accuracy.
+  pain: AI 编码代理缺乏仓库上下文，导致生成代码不准确或不符合项目结构。
+  pain_en: AI coding agents lack repository context, leading to inaccurate code generation or non-compliance
+    with project structure.
+  current_alternative: 开发者手动提供上下文或使用简单的代码搜索工具。
+  current_alternative_en: Developers manually provide context or use simple code search tools.
+  usage_reason: 开源仓库星标 105，显示开发者对上下文增强的兴趣，但持续使用和付费未核验。
+  usage_reason_en: The open-source repository has 105 stars, showing developer interest in context enhancement,
+    but sustained usage and payment are not verified.

@@ -1,11 +1,12 @@
 ---
 slug: indias-ai-ambitions-20b-bet-meets-power
-name: India AI
+name: 印度AI产业投资与基础设施建设
 builder: ''
 category: ''
-summary_zh: 印度 200 亿美元 AI 投资计划面临电力瓶颈，反映 AI 基础设施的能源挑战。
+summary_zh: 印度AI生态迎来200亿美元级投资潮，初创企业融资规模扩大，同时面临算力中心电力与基础设施配套的挑战。
 inspiration: ''
-summary_en: India's $20B AI bet meets power constraints, highlighting energy challenges for AI infrastructure.
+summary_en: India's AI ecosystem is experiencing a $20 billion investment wave with larger funding rounds
+  for startups alongside power and infrastructure challenges.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxObm1lcmtaeDJT
 summary: 'India''s AI Ambitions: $20B Bet Meets Power StartupHub.ai'
 first_seen: '2026-08-28T18:03:57Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -42,7 +43,7 @@ sightings:
   kind: news
 ---
 
-# India AI
+# 印度AI产业投资与基础设施建设
 
 India's AI Ambitions: $20B Bet Meets Power StartupHub.ai
 

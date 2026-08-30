@@ -112,3 +112,75 @@
   usage_reason: 在技术社区获得 160 分和 45 条评论，表明社区对本地 AI 有强烈兴趣，但实际采用尚未核验。
   usage_reason_en: Scored 160 points and 45 comments in a tech community, indicating strong community
     interest in local AI, but actual adoption not yet verified.
+- id: req-initial-local-2026-08-30
+  project_slug: local
+  level: initial
+  reviewed_at: '2026-08-30T00:20:04Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 本地 AI 需求明确，痛点在于配置复杂，Local 提供零摩擦体验，解决该痛点。工作流结构判断。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: consensus
+    status: supported
+    reason: HN 高关注度表明社区认可，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能面向个人用户订阅，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品已发布，但交付质量和稳定性尚未有公开验证。
+    evidence_ids: []
+  next_validation: 关注 Local 官网是否提供定价、用户评价或详细功能说明。
+  market: ''
+  job: Mac 用户希望在本地运行 AI 模型，避免数据上传云端。
+  job_en: Mac users want to run AI models locally to avoid uploading data to the cloud.
+  pain: 现有本地 AI 工具配置复杂，对非技术用户不友好。
+  pain_en: Existing local AI tools are complex to configure, unfriendly to non-technical users.
+  current_alternative: 用户通常使用云端 AI 服务或手动配置本地模型。
+  current_alternative_en: Users typically use cloud AI services or manually configure local models.
+  usage_reason: HN 上 199 分和 58 条评论表明开发者社区关注，但实际采用数据未核验。
+  usage_reason_en: 199 points and 58 comments on HN indicate developer community interest, but actual
+    adoption is unverified.
+- id: req-full-local-2026-08-30
+  project_slug: local
+  level: full
+  reviewed_at: '2026-08-30T00:49:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Mac 用户本地运行 AI 模型的需求，痛点在于配置复杂和数据隐私；交付零摩擦的本地 AI 体验，价值结构成立。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: consensus
+    status: supported
+    reason: HN 高关注度表明社区认可，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-771770deb3377daf
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能面向个人用户订阅，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品已发布，但交付质量和稳定性尚未有公开验证。
+    evidence_ids: []
+  next_validation: 关注 Local 官网是否提供定价、用户评价或详细功能说明。
+  market: ''
+  job: Mac 用户希望在本地运行 AI 模型，避免数据上传云端。
+  job_en: Mac users want to run AI models locally to avoid uploading data to the cloud.
+  pain: 现有本地 AI 工具配置复杂，对非技术用户不友好。
+  pain_en: Existing local AI tools are complex to configure, unfriendly to non-technical users.
+  current_alternative: 用户通常使用云端 AI 服务或手动配置本地模型。
+  current_alternative_en: Users typically use cloud AI services or manually configure local models.
+  usage_reason: HN 上 199 分和 58 条评论表明开发者社区关注，但实际采用数据未核验。
+  usage_reason_en: 199 points and 58 comments on HN indicate developer community interest, but actual
+    adoption is unverified.

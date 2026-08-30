@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQNzlhc1NsaGpF
 summary: 'Global Supply Chain Disruption: AI in Industrials [In-Depth Analysis, 2026] Klover.ai'
 first_seen: '2026-08-29T21:13:21Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

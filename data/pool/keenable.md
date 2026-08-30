@@ -3,36 +3,35 @@ slug: keenable
 name: Keenable
 builder: matt4711
 category: 基础层
-summary_zh: AI 代理在需要实时信息时，调用 Keenable 的搜索 API 获取网页结果；它提供与传统搜索不同的接口，可能更注重结构化输出或对 agent 友好的格式。具体差异和交付仍待核验。
-inspiration: 趋势是 AI 代理需要专用搜索基础设施。切入点是做面向 agent 的搜索 API，按调用量收费，但需证明与现有搜索 API 的差异化。
-summary_en: When AI agents need real-time information, they call Keenable's search API to get web results;
-  it offers a different interface from traditional search, possibly focusing on structured output or agent-friendly
-  formats. Specific differences and deliverables still need verification.
-inspiration_en: The trend is AI agents needing dedicated search infrastructure. The entry point is building
-  agent-oriented search APIs, charging per call, but must prove differentiation from existing search APIs.
+summary_zh: Keenable 为 AI agent 提供专用的网页搜索 API。开发者将查询请求发送给 Keenable，它返回结构化、去重的搜索结果，供 agent 使用。已获 2600 万美元融资。
+inspiration: 趋势是 AI agent 需要实时、可靠的信息检索。切入点是搜索基础设施，可向 agent 开发者按调用量收费。
+summary_en: Keenable provides a web search API designed for AI agents. Developers send queries, and Keenable
+  returns structured, deduplicated results for agent use. It has raised $26M in funding.
+inspiration_en: The trend is AI agents needing real-time, reliable information retrieval. The entry point
+  is search infrastructure; can charge developers per API call.
 priority_review: false
 project_type: new_application
 industries:
 - 软件开发
+- 人工智能
 industries_en:
 - Software Development
+- Artificial Intelligence
 jobs:
 - AI 工程师
 - 开发者
 jobs_en:
-- AI Engineer
-- Developer
-regions:
-- 全球
-regions_en:
-- Global
+- AI Engineers
+- Developers
+regions: []
+regions_en: []
 open_source: false
 url: https://keenable.ai/
 canonical_url: https://keenable.ai
 summary: A different web search API for AI agents
 first_seen: '2026-08-25T15:12:52Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 - newssearch

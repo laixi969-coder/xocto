@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE9iYVNhZDZCczBC
 summary: 'Moustapha Cissé: The 100 Most Influential People in AI 2026 Time Magazine'
 first_seen: '2026-08-27T12:02:20Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

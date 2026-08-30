@@ -1,11 +1,12 @@
 ---
 slug: why-every-commercial-lines-agency-needs-ai-risk-fluency
-name: Why Every Commercial-Lines Agency Needs AI Risk Fluency
+name: AI Risk Fluency
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 商业险代理机构需要具备AI风险素养，以应对AI带来的新型风险，这反映了保险行业对AI风险管理的需求增长。
 inspiration: ''
-summary_en: ''
+summary_en: Commercial-lines agencies need AI risk fluency to address new risks from AI, reflecting growing
+  demand for AI risk management in the insurance industry.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE54Tm5EdUJpbjJF
 summary: Why Every Commercial-Lines Agency Needs AI Risk Fluency Insurance Journal
 first_seen: '2026-08-28T09:05:12Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Why Every Commercial-Lines Agency Needs AI Risk Fluency
+# AI Risk Fluency
 
 Why Every Commercial-Lines Agency Needs AI Risk Fluency Insurance Journal
 

@@ -78,3 +78,43 @@
   usage_reason: 开源项目获得 97 星，表明开发者对 agent 记忆推理有初步兴趣，但尚未核验实际采用。
   usage_reason_en: The open-source project has 97 stars, indicating initial interest from developers in
     agent memory reasoning, but actual adoption not yet verified.
+- id: req-full-lemmalog-2026-08-30
+  project_slug: lemmalog
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LLM agent 记忆缺乏逻辑推理和溯源的问题，通过 Datalog 引擎提供规则推理和事实溯源，交付可验证的推导结果。工作流结构判断。
+    evidence_ids:
+    - ev-202c1eed090eb727
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 144 星，但缺乏用户反馈或采用案例，共识尚未形成。
+    evidence_ids:
+    - ev-202c1eed090eb727
+  - gate: model
+    status: insufficient
+    reason: 作为开源项目，商业模式未明确，可能通过云服务或企业支持盈利，但尚未披露。
+    evidence_ids:
+    - ev-202c1eed090eb727
+  - gate: truth
+    status: supported
+    reason: Datalog 引擎技术成熟，交付确定性高，但需验证其在实际 agent 场景中的性能和易用性。
+    evidence_ids:
+    - ev-202c1eed090eb727
+  next_validation: 关注开源仓库的 issue 讨论和后续版本，以及是否有实际 agent 项目采用。
+  market: ''
+  job: 开发者需要为 LLM agent 提供持久、可推理的记忆，以支持复杂任务和多轮交互。
+  job_en: Developers need persistent, reasoning-capable memory for LLM agents to support complex tasks
+    and multi-turn interactions.
+  pain: 现有 agent 记忆方案多为向量检索，缺乏逻辑推理和事实一致性，难以处理规则约束和溯源需求。
+  pain_en: Existing agent memory solutions are mostly vector retrieval, lacking logical reasoning and
+    fact consistency, making it difficult to handle rule constraints and provenance requirements.
+  current_alternative: 向量数据库、图数据库、简单的键值存储。
+  current_alternative_en: Vector databases, graph databases, simple key-value stores.
+  usage_reason: 开源项目获得 144 星，表明开发者对 agent 记忆推理有初步兴趣，但尚未核验实际采用。
+  usage_reason_en: The open-source project has 144 stars, indicating initial interest from developers
+    in agent memory reasoning, but actual adoption not yet verified.

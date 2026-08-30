@@ -377,3 +377,43 @@
   usage_reason: 公开代码仓库有 6,933 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 6,933 stars, showing developer attention; repeat use and
     payment are not yet verified.
+- id: req-full-dsh-routing-suite-2026-08-30
+  project_slug: dsh-routing-suite
+  level: full
+  reviewed_at: '2026-08-30T00:46:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理任务感知路由的需求，痛点在于手动配置复杂，交付为可配置的路由预设，结构上成立。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  - gate: consensus
+    status: insufficient
+    reason: 6951 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-5f043c2dc79b59eb
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 和路由预设效果，人工边界未明确。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: AI 代理开发者安装运行时注入器和任务感知路由预设，以调整代理行为。
+  job_en: AI agent developers install a runtime injector and task-aware routing presets to adjust agent
+    behavior.
+  pain: 代理在不同任务下需要不同的推理模式，手动配置复杂且效率低。
+  pain_en: Agents require different reasoning modes for different tasks, and manual configuration is complex
+    and inefficient.
+  current_alternative: 手动调整代理配置或使用其他路由工具。
+  current_alternative_en: Manually adjusting agent configurations or using other routing tools.
+  usage_reason: 6951 个星标显示开发者高度关注，但持续使用和付费尚未核验。
+  usage_reason_en: 6951 stars indicate high developer interest, but sustained usage and payment are not
+    yet verified.

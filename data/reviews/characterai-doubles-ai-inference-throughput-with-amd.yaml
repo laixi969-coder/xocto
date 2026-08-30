@@ -1,0 +1,82 @@
+- id: req-initial-characterai-doubles-ai-inference-throughput-with-amd-2026-08-30
+  project_slug: characterai-doubles-ai-inference-throughput-with-amd
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户对角色扮演对话的需求，痛点在于响应延迟和成本，优化推理能直接改善体验，价值结构成立。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  - gate: consensus
+    status: insufficient
+    reason: 新闻显示技术合作，但缺乏用户反馈或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能是免费增值或订阅，但未披露，付费路径不明确。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  - gate: truth
+    status: insufficient
+    reason: 吞吐量翻倍是技术指标，但实际用户可感知的提升和业务影响未验证。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  next_validation: 关注 Character.AI 的官方博客或财报，查看用户增长和付费数据，以及 AMD 合作的具体技术细节。
+  market: ''
+  job: 用户希望与 AI 角色进行自然、沉浸的对话，获得娱乐或情感陪伴。
+  job_en: Users want natural, immersive conversations with AI characters for entertainment or emotional
+    companionship.
+  pain: 高并发对话导致响应延迟和成本高昂，影响用户体验和平台可持续性。
+  pain_en: High-concurrency conversations cause response latency and high costs, affecting user experience
+    and platform sustainability.
+  current_alternative: 用户可能使用其他聊天机器人或社交应用，但缺乏角色扮演的深度和个性化。
+  current_alternative_en: Users may use other chatbots or social apps, but they lack the depth and personalization
+    of role-playing.
+  usage_reason: Character.AI 已有大量用户，此次技术优化可能提升性能，吸引更多用户，但具体采用和付费数据未披露。
+  usage_reason_en: Character.AI already has a large user base, and this optimization may improve performance,
+    attracting more users, but specific adoption and payment data are not disclosed.
+- id: req-full-characterai-doubles-ai-inference-throughput-with-amd-2026-08-30
+  project_slug: characterai-doubles-ai-inference-throughput-with-amd
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户对角色扮演对话的需求，痛点在于响应延迟和成本，优化推理能直接改善体验，价值结构成立。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  - gate: consensus
+    status: insufficient
+    reason: 新闻显示技术合作，但缺乏用户反馈或社区讨论。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能是免费增值或订阅，但未披露，付费路径不明确。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  - gate: truth
+    status: insufficient
+    reason: 吞吐量翻倍是技术指标，但实际用户可感知的提升和业务影响未验证。
+    evidence_ids:
+    - ev-4243e2dcc2fe72ed
+  next_validation: 关注Character.AI官方博客或财报，查看用户增长和付费数据。
+  market: ''
+  job: 用户希望与AI角色进行自然、沉浸的对话，获得娱乐或情感陪伴。
+  job_en: Users want natural, immersive conversations with AI characters for entertainment or emotional
+    companionship.
+  pain: 高并发对话导致响应延迟和成本高昂，影响用户体验和平台可持续性。
+  pain_en: High-concurrency conversations cause response latency and high costs, affecting user experience
+    and platform sustainability.
+  current_alternative: 用户可能使用其他聊天机器人或社交应用，但缺乏角色扮演的深度和个性化。
+  current_alternative_en: Users may use other chatbots or social apps, but they lack the depth and personalization
+    of role-playing.
+  usage_reason: Character.AI已有大量用户，此次技术优化可能提升性能，但具体采用和付费数据未披露。
+  usage_reason_en: Character.AI already has a large user base, and this optimization may improve performance,
+    but specific adoption and payment data are not disclosed.

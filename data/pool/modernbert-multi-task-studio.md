@@ -21,7 +21,7 @@ canonical_url: https://github.com/Leb947/modernbert-multi-task-studio
 summary: 'ModernBERT Multi-Task Fine-Tuning Hub 2026: Streamlined AI Workflows'
 first_seen: '2026-08-25T10:35:22Z'
 last_seen: '2026-08-30T00:20:08Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

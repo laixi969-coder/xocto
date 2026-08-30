@@ -3,22 +3,21 @@ slug: ollama-ollama-v0332
 name: Ollama
 builder: ollama
 category: 基础层
-summary_zh: Ollama是本地运行大语言模型的开源工具，开发者下载后可在个人电脑上启动和管理模型，通过命令行或API调用。本次更新修复了macOS应用重复启动和深色模式问题，并优化了Claude
-  Desktop代理的请求处理。具体工作流：开发者安装Ollama后，拉取模型镜像，在本地启动服务，应用通过API发送提示词并接收生成结果。交付是本地可用的模型推理服务，无需联网。
-inspiration: 趋势是AI模型部署从云端走向本地，开发者工具链日益成熟。切入点是面向开发者的本地模型管理工具，可借鉴其开源社区驱动和跨平台支持策略，但需注意与云服务的差异化。
-summary_en: Ollama is an open-source tool for running large language models locally. Developers download
-  it, pull model images, and start a local service, then applications send prompts via API and receive
-  generated results. This update fixes macOS app duplicate launch and dark mode, and improves Claude Desktop
-  proxy request handling. The deliverable is a local model inference service without internet dependency.
-inspiration_en: The trend is AI model deployment moving from cloud to local, with developer toolchains
-  maturing. The entry point is local model management tools for developers, leveraging open-source community
-  and cross-platform support, but differentiation from cloud services is key.
+summary_zh: 开发者在本地运行开源模型时，把模型下载、启动和 API 暴露交给 Ollama；它接收模型名和运行指令，在本地启动推理服务，并可与 Claude Code、Codex 等代理工具对接，交付一个本地可用的模型运行环境。具体流程或交付仍待核验。
+inspiration: 趋势是本地运行开源模型成为开发者默认选项，数据留在本机。切入可从企业内网部署、离线环境或数据敏感行业入手，提供预配置模型包和运维支持，按节点或服务收费。
+summary_en: Developers running open-source models locally hand model download, startup, and API exposure
+  to Ollama; it receives model names and run commands, starts a local inference service, and can integrate
+  with agents like Claude Code and Codex, delivering a local model runtime. Specific workflow or deliverables
+  still to be verified.
+inspiration_en: 'Trend: local open-source model running becomes a developer default, keeping data on-device.
+  Entry: target enterprise intranet, offline environments, or data-sensitive industries with pre-configured
+  model packs and ops support, charging per node or service.'
 priority_review: false
 project_type: open_source
 industries:
-- 软件开发者
+- 软件开发
 industries_en:
-- Software Developers
+- Software Development
 jobs:
 - 开发者
 jobs_en:
@@ -36,7 +35,7 @@ summary: "## What's Changed\r\n\r\n* Ollama's app now follows the system appeara
   \ the model catalog updates\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.1...v0.33.2"
 first_seen: '2026-08-27T20:31:47Z'
 last_seen: '2026-08-30T00:20:08Z'
-status: pending_filter
+status: queued
 sources:
 - github
 sightings:

@@ -24,3 +24,76 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-derive-2026-08-30
+  project_slug: derive
+  level: initial
+  reviewed_at: '2026-08-30T00:20:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明它是 AI 工件与工作流的开源平台，未描述具体输入、动作和交付，无法判断其解决的需求和痛点。
+    evidence_ids:
+    - ev-4dc0ff27b3b0d9b0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 11 个 HN 点数和 3 条评论，缺乏用户反馈或采用证据。
+    evidence_ids:
+    - ev-4dc0ff27b3b0d9b0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 README 更新和 issue 讨论，看是否补充具体使用场景和用户案例。
+  market: ''
+  job: 开发者需要管理 AI 生成的代码、配置和文档等工件，并复用相关的工作流。
+  job_en: Developers need to manage AI-generated artifacts such as code, configs, and documents, and reuse
+    related workflows.
+  pain: AI 产物散落在聊天记录和本地文件中，难以版本管理和复用。
+  pain_en: AI artifacts are scattered across chat logs and local files, making versioning and reuse difficult.
+  current_alternative: 目前开发者通常手动复制粘贴到代码仓库或笔记工具中。
+  current_alternative_en: Currently developers often manually copy-paste into code repositories or note-taking
+    tools.
+  usage_reason: 尚未核验，项目刚发布，仅有少量社区讨论。
+  usage_reason_en: Not yet verified; the project is newly released with minimal community discussion.
+- id: req-full-derive-2026-08-30
+  project_slug: derive
+  level: full
+  reviewed_at: '2026-08-30T00:46:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明它是 AI 工件与工作流的开源平台，未描述具体输入、动作和交付，无法判断其解决的需求和痛点。
+    evidence_ids:
+    - ev-4dc0ff27b3b0d9b0
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 README 更新和 issue 讨论，看是否补充具体使用场景和用户案例。
+  market: ''
+  job: 开发者需要管理 AI 生成的代码、配置和文档等工件，并复用相关的工作流。
+  job_en: Developers need to manage AI-generated artifacts such as code, configs, and documents, and reuse
+    related workflows.
+  pain: AI 产物散落在聊天记录和本地文件中，难以版本管理和复用。
+  pain_en: AI artifacts are scattered across chat logs and local files, making versioning and reuse difficult.
+  current_alternative: 目前开发者通常手动复制粘贴到代码仓库或笔记工具中。
+  current_alternative_en: Currently developers often manually copy-paste into code repositories or note-taking
+    tools.
+  usage_reason: 尚未核验，项目刚发布，仅有少量社区讨论。
+  usage_reason_en: Not yet verified; the project is newly released with minimal community discussion.

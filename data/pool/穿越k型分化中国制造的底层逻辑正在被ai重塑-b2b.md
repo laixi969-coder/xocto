@@ -1,11 +1,12 @@
 ---
 slug: 穿越k型分化中国制造的底层逻辑正在被ai重塑-b2b
-name: 穿越K型分化，中国制造的底层逻辑正在被AI重塑- B2B
+name: 中国制造
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 中国制造的底层逻辑正在被AI重塑，反映AI对制造业的变革。
 inspiration: ''
-summary_en: ''
+summary_en: The underlying logic of Chinese manufacturing is being reshaped by AI, reflecting AI's transformation
+  of the manufacturing industry.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE5KRU1QNFNFdmlH
 summary: 穿越K型分化，中国制造的底层逻辑正在被AI重塑- B2B 亿邦动力网
 first_seen: '2026-08-29T09:21:00Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 穿越K型分化，中国制造的底层逻辑正在被AI重塑- B2B
+# 中国制造
 
 穿越K型分化，中国制造的底层逻辑正在被AI重塑- B2B 亿邦动力网
 

@@ -74,3 +74,75 @@
   usage_reason: 目前仅有演示页面，社区讨论热度高（HN 444 分），但实际采用情况尚未核验。
   usage_reason_en: Currently only a demo page exists; community discussion is active (HN 444 points),
     but actual adoption is unverified.
+- id: req-initial-orbify-2026-08-30
+  project_slug: orbify
+  level: initial
+  reviewed_at: '2026-08-30T00:20:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图改善导航视觉，但痛点强度未明，传统导航已够用，缺乏明确旧流程替代证据。
+    evidence_ids:
+    - ev-506a22c0e76c2331
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热烈，但未显示持续采用或付费信号。
+    evidence_ids:
+    - ev-506a22c0e76c2331
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，付费方不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近导航第一性目标，但交付准确性未验证，安全边界需确认。
+    evidence_ids:
+    - ev-506a22c0e76c2331
+  next_validation: 关注 Orbify 是否发布实际导航测试数据或用户反馈，以及是否与地图数据提供商合作。
+  market: ''
+  job: 驾驶员在导航时获得更直观的转弯指示。
+  job_en: Drivers get more intuitive turn-by-turn directions during navigation.
+  pain: 传统平面地图在复杂路口可能难以快速理解。
+  pain_en: Traditional flat maps may be hard to understand quickly at complex intersections.
+  current_alternative: 使用 Google Maps、Apple Maps 等平面导航。
+  current_alternative_en: Using flat navigation like Google Maps or Apple Maps.
+  usage_reason: 新颖的视觉呈现引发社区关注，但实际采用和付费未核验。
+  usage_reason_en: Novel visual presentation attracts community attention, but actual adoption and payment
+    are unverified.
+- id: req-full-orbify-2026-08-30
+  project_slug: orbify
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图改善导航视觉，但痛点强度未明，传统导航已够用，缺乏明确旧流程替代证据。
+    evidence_ids:
+    - ev-506a22c0e76c2331
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Orbify 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 驾驶员在导航时获得更直观的转弯指示。
+  job_en: Drivers get more intuitive turn-by-turn directions during navigation.
+  pain: 传统平面地图在复杂路口可能难以快速理解。
+  pain_en: Traditional flat maps may be hard to understand quickly at complex intersections.
+  current_alternative: 使用 Google Maps、Apple Maps 等平面导航。
+  current_alternative_en: Using flat navigation like Google Maps or Apple Maps.
+  usage_reason: 新颖的视觉呈现引发社区关注，但实际采用和付费未核验。
+  usage_reason_en: Novel visual presentation attracts community attention, but actual adoption and payment
+    are unverified.

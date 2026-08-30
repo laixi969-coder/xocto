@@ -375,3 +375,42 @@
   usage_reason: 公开代码仓库有 463 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 463 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-dsh-pet-2026-08-30
+  project_slug: dsh-pet
+  level: full
+  reviewed_at: '2026-08-30T00:46:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决桌面宠物安装和定制的需求，痛点在于安装复杂和缺乏定制，交付为可运行的桌面宠物，结构上成立。
+    evidence_ids:
+    - ev-cbd580dc1a02f1b4
+  - gate: consensus
+    status: insufficient
+    reason: 469 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-76b982549b8fe5e7
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-cbd580dc1a02f1b4
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 和 AI 视频生成，人工边界未明确。
+    evidence_ids:
+    - ev-cbd580dc1a02f1b4
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: 在桌面上安装并配置一个透明动画的桌面宠物，或从 AI 视频自造专属宠物。
+  job_en: Install and configure a transparent animated desktop pet, or create a custom pet from AI video.
+  pain: 用户想要个性化桌面，但现有桌面宠物安装复杂或缺乏定制能力。
+  pain_en: Users want to personalize their desktop, but existing desktop pets are complex to install or
+    lack customization.
+  current_alternative: 使用其他桌面宠物软件，或手动制作动画素材。
+  current_alternative_en: Using other desktop pet software, or manually creating animation assets.
+  usage_reason: 469 个星标显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: 469 stars indicate developer interest, but sustained usage and payment are not yet
+    verified.

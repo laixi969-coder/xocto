@@ -1,11 +1,12 @@
 ---
 slug: servicenow-says-ai-is-driving-growth-not-budget-pressure
-name: ServiceNow Says AI Is Driving Growth, Not Budget Pressure
+name: ServiceNow
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: ServiceNow 是一家提供企业工作流自动化平台的公司，其 AI 业务正推动增长。
 inspiration: ''
-summary_en: ''
+summary_en: ServiceNow is a company providing enterprise workflow automation platforms; its AI business
+  is driving growth.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmRFbzJVc3c4
 summary: ServiceNow Says AI Is Driving Growth, Not Budget Pressure TradingView
 first_seen: '2026-08-28T00:02:47Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# ServiceNow Says AI Is Driving Growth, Not Budget Pressure
+# ServiceNow
 
 ServiceNow Says AI Is Driving Growth, Not Budget Pressure TradingView
 

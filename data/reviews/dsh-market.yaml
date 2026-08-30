@@ -385,3 +385,41 @@
   usage_reason: 公开代码仓库有 2,709 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 2,709 stars, showing developer attention; repeat use and
     payment are not yet verified.
+- id: req-full-dsh-market-2026-08-30
+  project_slug: dsh-market
+  level: full
+  reviewed_at: '2026-08-30T00:46:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决在 DSH 中一键安装插件的需求，痛点在于手动寻找和配置的繁琐，交付为插件市场界面，结构上成立。
+    evidence_ids:
+    - ev-9957ae74ab482297
+  - gate: consensus
+    status: insufficient
+    reason: 2769 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-25da8068f1602331
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-9957ae74ab482297
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 生态，人工边界未明确。
+    evidence_ids:
+    - ev-9957ae74ab482297
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: 在 DeepSeek Harness 中浏览、搜索并一键安装插件。
+  job_en: Browse, search, and one-click install plugins inside DeepSeek Harness.
+  pain: 用户需要手动寻找和安装插件，过程繁琐且容易出错。
+  pain_en: Users need to manually find and install plugins, which is cumbersome and error-prone.
+  current_alternative: 手动从 GitHub 或其他网站下载插件并配置。
+  current_alternative_en: Manually downloading plugins from GitHub or other websites and configuring them.
+  usage_reason: 2769 个星标显示开发者高度关注，但持续使用和付费尚未核验。
+  usage_reason_en: 2769 stars indicate high developer interest, but sustained usage and payment are not
+    yet verified.

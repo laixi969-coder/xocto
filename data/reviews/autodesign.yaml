@@ -379,3 +379,42 @@
   usage_reason: 仓库有 181 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The repository has 181 stars, indicating developer attention or trial; sustained use
     and payment are not yet verified.
+- id: req-full-autodesign-2026-08-30
+  project_slug: autodesign
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研究人员和学术作者制作学术交流材料的需求，痛点在于耗时且需设计技能，不解决会拖慢研究传播。产品输入研究内容，输出符合学术规范的视觉材料，交付可确定。工作流结构推理。
+    evidence_ids:
+    - ev-4f7422831066da95
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库181星显示社区关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-646370a32a19a600
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体或定价，可能是开源免费或商业授权，但尚无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付质量与学术规范符合度未经验证，缺乏可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪AutoDesign的GitHub仓库issue和discussion，寻找用户部署案例或学术机构采用证据。
+  market: ''
+  job: 研究人员和学术作者需要将研究内容转化为符合学术规范的视觉材料，如图表、演示文稿等。
+  job_en: Researchers and academic authors need to transform research content into academically compliant
+    visual materials such as figures and presentations.
+  pain: 学术交流材料的制作耗时且需要专业设计技能，现有工具难以自动化生成符合学术规范的视觉内容。
+  pain_en: Creating academic communication materials is time-consuming and requires design skills; existing
+    tools struggle to automate the generation of academically compliant visuals.
+  current_alternative: 目前用户可能手动使用设计软件或通用AI工具，但缺乏针对学术场景的自动化流程。
+  current_alternative_en: Currently users may manually use design software or general AI tools, but lack
+    an automated workflow tailored to academic contexts.
+  usage_reason: 开源仓库获得181星，表明开发者社区关注，但持续使用和付费尚未核验。
+  usage_reason_en: The open-source repository has 181 stars, indicating developer interest, but sustained
+    usage and payment are not yet verified.

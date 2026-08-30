@@ -1,11 +1,12 @@
 ---
 slug: lam-research-breaks-ground-on-new-oregon-lab-to-strengthen-a
-name: Lam Research Breaks Ground on New Oregon Lab to Strengthen AI Chip Manufacturing Capabilities
+name: Lam Research
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Lam Research 是半导体设备制造商，新实验室将用于开发 AI 芯片制造相关技术，具体细节未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Lam Research is a semiconductor equipment maker; the new lab will develop AI chip manufacturing
+  technologies, details undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Lam Research Breaks Ground on New Oregon Lab to Strengthen AI Chip Manu
   thelec.net
 first_seen: '2026-08-27T08:03:13Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Lam Research Breaks Ground on New Oregon Lab to Strengthen AI Chip Manufacturing Capabilities
+# Lam Research
 
 Lam Research Breaks Ground on New Oregon Lab to Strengthen AI Chip Manufacturing Capabilities thelec.net
 

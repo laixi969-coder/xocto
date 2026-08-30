@@ -21,7 +21,7 @@ canonical_url: https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.
 summary: Identifying fake cosmetics using AI
 first_seen: '2026-08-28T22:18:27Z'
 last_seen: '2026-08-30T00:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

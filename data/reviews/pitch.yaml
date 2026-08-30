@@ -1,0 +1,82 @@
+- id: req-initial-pitch-2026-08-30
+  project_slug: pitch
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决商务人士制作演示文稿耗时、设计能力不足的痛点；输入内容或选择模板，AI 辅助生成幻灯片，交付可分享的演示文稿。工作流结构判断：旧替代是手工排版，Pitch 提供模板和协作，降低时间成本。
+    evidence_ids:
+    - ev-a948243fa314817e
+  - gate: consensus
+    status: supported
+    reason: 月访问量 144 万且环比增长 16.63%，说明有大量用户使用，但付费用户比例未披露。
+    evidence_ids:
+    - ev-a948243fa314817e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，可能通过免费模板吸引用户，再通过高级功能或团队版收费，但具体路径不明。
+    evidence_ids:
+    - ev-a948243fa314817e
+  - gate: truth
+    status: supported
+    reason: 演示文稿制作是高频需求，Pitch 提供模板和协作功能，贴近用户目标，但 AI 生成质量需持续验证。
+    evidence_ids:
+    - ev-a948243fa314817e
+  next_validation: 关注 Pitch 的定价页面和用户评价，看是否有明确的付费转化和客户案例。
+  market: ''
+  job: 商务人士需要快速制作专业演示文稿，但传统工具耗时且设计能力不足。
+  job_en: Business professionals need to create professional presentations quickly, but traditional tools
+    are time-consuming and lack design capability.
+  pain: 制作演示文稿耗时，且非设计人员难以做出美观的排版。
+  pain_en: Creating presentations is time-consuming, and non-designers struggle to produce aesthetically
+    pleasing layouts.
+  current_alternative: 目前主要使用 PowerPoint、Google Slides 等传统工具，模板质量参差不齐。
+  current_alternative_en: Currently using traditional tools like PowerPoint and Google Slides, with varying
+    template quality.
+  usage_reason: Pitch 月访问量 144 万，环比增长 16.63%，说明大量用户使用其模板和协作功能，但付费转化未披露。
+  usage_reason_en: Pitch has 1.44 million monthly visits, up 16.63% month-over-month, indicating significant
+    usage of its templates and collaboration features, but paid conversion is undisclosed.
+- id: req-full-pitch-2026-08-30
+  project_slug: pitch
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决商务人士制作演示文稿耗时、设计能力不足的痛点；输入内容或选择模板，AI 辅助生成幻灯片，交付可分享的演示文稿。工作流结构推理：旧替代是手工排版，Pitch 提供模板和协作，降低时间成本。
+    evidence_ids:
+    - ev-a948243fa314817e
+  - gate: consensus
+    status: supported
+    reason: 月访问量 144 万且环比增长 16.63%，说明有大量用户使用，但付费用户比例未披露。
+    evidence_ids:
+    - ev-a948243fa314817e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，可能通过免费模板吸引用户，再通过高级功能或团队版收费，但具体路径不明。
+    evidence_ids:
+    - ev-a948243fa314817e
+  - gate: truth
+    status: supported
+    reason: 演示文稿制作是高频需求，Pitch 提供模板和协作功能，贴近用户目标，但 AI 生成质量需持续验证。
+    evidence_ids:
+    - ev-a948243fa314817e
+  next_validation: 关注 Pitch 的定价页面和用户评价，看是否有明确的付费转化和客户案例。
+  market: ''
+  job: 商务人士需要快速制作专业演示文稿，但传统工具耗时且设计能力不足。
+  job_en: Business professionals need to create professional presentations quickly, but traditional tools
+    are time-consuming and lack design capability.
+  pain: 制作演示文稿耗时，且非设计人员难以做出美观的排版。
+  pain_en: Creating presentations is time-consuming, and non-designers struggle to produce aesthetically
+    pleasing layouts.
+  current_alternative: 目前主要使用 PowerPoint、Google Slides 等传统工具，模板质量参差不齐。
+  current_alternative_en: Currently using traditional tools like PowerPoint and Google Slides, with varying
+    template quality.
+  usage_reason: Pitch 月访问量 144 万，环比增长 16.63%，说明大量用户使用其模板和协作功能，但付费转化未披露。
+  usage_reason_en: Pitch has 1.44 million monthly visits, up 16.63% month-over-month, indicating significant
+    usage of its templates and collaboration features, but paid conversion is undisclosed.

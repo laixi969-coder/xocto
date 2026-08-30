@@ -375,3 +375,41 @@
   usage_reason: 公开代码仓库有 777 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 777 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-dsh-pocket-2026-08-30
+  project_slug: dsh-pocket
+  level: full
+  reviewed_at: '2026-08-30T00:46:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决远程访问 DSH 的需求，痛点在于缺乏便捷的远程访问方式，交付为手机同步访问界面，结构上成立。
+    evidence_ids:
+    - ev-8bba941edcb4775e
+  - gate: consensus
+    status: insufficient
+    reason: 808 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-477d228a38de11f5
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-8bba941edcb4775e
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖网络和 DSH 服务，人工边界未明确。
+    evidence_ids:
+    - ev-8bba941edcb4775e
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: 通过手机扫码同步访问电脑上运行的 DeepSeek Harness。
+  job_en: Access DeepSeek Harness running on a computer synchronously by scanning a QR code with a phone.
+  pain: 用户需要在外出时访问电脑上的 AI 工具，但缺乏便捷的远程访问方式。
+  pain_en: Users need to access AI tools on their computer while away, but lack convenient remote access.
+  current_alternative: 使用远程桌面软件或 SSH 连接。
+  current_alternative_en: Using remote desktop software or SSH connections.
+  usage_reason: 808 个星标显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: 808 stars indicate developer interest, but sustained usage and payment are not yet
+    verified.

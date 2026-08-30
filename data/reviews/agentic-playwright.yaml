@@ -227,3 +227,41 @@
   usage_reason: 公开代码仓库有 130 个收藏、34 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 130 stars and 34 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-agentic-playwright-2026-08-30
+  project_slug: agentic-playwright
+  level: full
+  reviewed_at: '2026-08-30T00:44:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决测试工程师编写自动化测试耗时的问题，痛点在于测试代码重复且易出错，不解决则测试效率低。产品提供标准脚手架和代理适配层，交付可执行的测试代码，结构上成立（工作流推理）。
+    evidence_ids:
+    - ev-4417c29ed53a7e5c
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库星标 130+，但缺乏用户讨论或采用数据，共识未充分建立。
+    evidence_ids:
+    - ev-1bae8ef332a72f31
+  - gate: model
+    status: insufficient
+    reason: 未发现付费主体或定价，开源项目可能依赖社区贡献，商业模式未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性尚缺可复现的公开验证，如详细文档或用户实测结果。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或实际使用反馈。
+  market: ''
+  job: 为 AI 编码代理提供 Playwright 与 TypeScript 脚手架，使代理能生成和运行端到端测试。
+  job_en: Provide a Playwright and TypeScript scaffold for AI coding agents to generate and run end-to-end
+    tests.
+  pain: 测试工程师编写自动化测试耗时，且代理生成的测试缺乏标准结构。
+  pain_en: Test engineers spend significant time writing automated tests, and agent-generated tests lack
+    standard structure.
+  current_alternative: 手动编写 Playwright 测试或使用传统测试框架。
+  current_alternative_en: Manually writing Playwright tests or using traditional testing frameworks.
+  usage_reason: 开源仓库有 130+ 星，说明开发者关注，但持续使用和付费未核验。
+  usage_reason_en: Open-source with 130+ stars, showing developer attention; repeat use and payment not
+    verified.

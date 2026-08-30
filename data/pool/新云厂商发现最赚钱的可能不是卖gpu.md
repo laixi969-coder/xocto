@@ -3,10 +3,10 @@ slug: 新云厂商发现最赚钱的可能不是卖gpu
 name: 云厂商
 builder: ''
 category: ''
-summary_zh: 新云厂商发现最赚钱的可能不是卖GPU，反映云服务商业模式变化。
+summary_zh: 云厂商发现最赚钱的业务可能不是卖GPU，而是提供AI服务，反映了云市场商业模式的变化。
 inspiration: ''
-summary_en: New cloud vendors find that selling GPUs may not be the most profitable, reflecting changes
-  in cloud service business models.
+summary_en: Cloud vendors find that the most profitable business may not be selling GPUs but providing
+  AI services, reflecting a shift in cloud market business models.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE44cExTYm9Del8w
 summary: 新云厂商发现，最赚钱的可能不是卖GPU 雷峰网
 first_seen: '2026-08-28T11:17:00Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9DbGdFRURLR2ZJ
 summary: 'The 5 Best LG TVs of 2026: Reviews and Smart Features RTINGS.com'
 first_seen: '2026-08-28T22:23:34Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

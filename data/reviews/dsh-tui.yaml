@@ -270,3 +270,42 @@
   usage_reason: 公开代码仓库有2,666个收藏、135次复刻，且被DSH官方公众号收录，说明开发者关注；持续使用与付费仍未核验。
   usage_reason_en: The public repository has 2,666 stars and 135 forks, and is featured by DSH official
     WeChat, showing developer attention; repeat use and payment are not yet verified.
+- id: req-full-dsh-tui-2026-08-30
+  project_slug: dsh-tui
+  level: full
+  reviewed_at: '2026-08-30T00:46:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSH 缺少终端 TUI 的痛点，满足 CLI 偏好用户的需求，交付为终端界面，结构上成立。
+    evidence_ids:
+    - ev-ae0ed80723795ac3
+  - gate: consensus
+    status: insufficient
+    reason: 2689 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-3ec5a3dfcfba6e08
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-ae0ed80723795ac3
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 和终端环境，人工边界未明确。
+    evidence_ids:
+    - ev-ae0ed80723795ac3
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: 在终端中使用 Claude Code 风格的全屏交互界面操作 DeepSeek Harness。
+  job_en: Use a Claude Code-style full-screen interactive terminal interface to operate DeepSeek Harness.
+  pain: DSH 官方没有终端 TUI，偏好 CLI 的开发者需要切换界面或使用浏览器。
+  pain_en: DSH lacks an official terminal TUI, forcing CLI-preferring developers to switch interfaces
+    or use a browser.
+  current_alternative: 使用浏览器界面或其他终端工具。
+  current_alternative_en: Using browser interface or other terminal tools.
+  usage_reason: 2689 个星标显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: 2689 stars indicate developer interest, but sustained usage and payment are not yet
+    verified.

@@ -1,0 +1,78 @@
+- id: req-initial-wso2-launches-self-managed-ai-platform-for-regulated-firms-2026-08-30
+  project_slug: wso2-launches-self-managed-ai-platform-for-regulated-firms
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管企业无法安全使用 AI 的痛点，通过本地部署满足数据主权，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-9680a057630486cf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户采用或行业反馈证据。
+    evidence_ids:
+    - ev-9680a057630486cf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业 IT 预算，但尚未核验。
+    evidence_ids:
+    - ev-9680a057630486cf
+  - gate: truth
+    status: supported
+    reason: 产品定位清晰，自托管 AI 平台符合监管趋势，交付确定性高。
+    evidence_ids:
+    - ev-9680a057630486cf
+  next_validation: 关注 WSO2 官方定价页和客户案例，以验证付费意愿和实际采用。
+  market: ''
+  job: 受监管企业需要在不违反数据合规要求的前提下使用 AI 能力。
+  job_en: Regulated enterprises need to use AI capabilities without violating data compliance requirements.
+  pain: 公共云 AI 服务可能违反数据主权或行业监管，导致企业无法采用。
+  pain_en: Public cloud AI services may violate data sovereignty or industry regulations, preventing adoption.
+  current_alternative: 目前企业可能因合规风险而放弃 AI，或使用内部开发的简单模型。
+  current_alternative_en: Currently, enterprises may forgo AI due to compliance risks or use simple in-house
+    models.
+  usage_reason: 自托管平台提供合规的 AI 能力，吸引受监管企业关注。
+  usage_reason_en: Self-managed platform offers compliant AI capabilities, attracting attention from regulated
+    firms.
+- id: req-full-wso2-launches-self-managed-ai-platform-for-regulated-firms-2026-08-30
+  project_slug: wso2-launches-self-managed-ai-platform-for-regulated-firms
+  level: full
+  reviewed_at: '2026-08-30T00:50:49Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管企业无法安全使用 AI 的痛点，通过本地部署满足数据主权，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-9680a057630486cf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户采用或行业反馈证据。
+    evidence_ids:
+    - ev-9680a057630486cf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业 IT 预算，但尚未核验。
+    evidence_ids:
+    - ev-9680a057630486cf
+  - gate: truth
+    status: supported
+    reason: 产品定位清晰，自托管 AI 平台符合监管趋势，交付确定性高。
+    evidence_ids:
+    - ev-9680a057630486cf
+  next_validation: 关注 WSO2 官方定价页和客户案例，以验证付费意愿和实际采用。
+  market: ''
+  job: 受监管企业需要在不违反数据合规要求的前提下使用 AI 能力。
+  job_en: Regulated enterprises need to use AI capabilities without violating data compliance requirements.
+  pain: 公共云 AI 服务可能违反数据主权或行业监管，导致企业无法采用。
+  pain_en: Public cloud AI services may violate data sovereignty or industry regulations, preventing adoption.
+  current_alternative: 目前企业可能因合规风险而放弃 AI，或使用内部开发的简单模型。
+  current_alternative_en: Currently, enterprises may forgo AI due to compliance risks or use simple in-house
+    models.
+  usage_reason: 自托管平台提供合规的 AI 能力，吸引受监管企业关注。
+  usage_reason_en: Self-managed platform offers compliant AI capabilities, attracting attention from regulated
+    firms.

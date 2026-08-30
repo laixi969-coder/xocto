@@ -84,3 +84,85 @@
   usage_reason: ChatGPT 已有大规模用户基础，教育领域扩展有官方推动和实证研究支持，采用有据可依。
   usage_reason_en: ChatGPT has a massive user base, and education expansion is backed by official initiatives
     and empirical research, providing evidence for adoption.
+- id: req-initial-chatgpt-2026-08-30
+  project_slug: chatgpt
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速获取信息、完成写作和编程等任务的需求。痛点在于传统工具效率低，不解决会浪费时间。ChatGPT 提供对话式交互，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-0839596a1b3e0cf1
+  - gate: consensus
+    status: supported
+    reason: 月访问量 55.6 亿，环比 -3.29%，显示大规模采用但增长平稳。教育领域扩展和随机研究提供额外共识。
+    evidence_ids:
+    - ev-264420b836847d0a
+    - ev-abfdd2e2f24630f4
+  - gate: model
+    status: supported
+    reason: 免费增值模式，Plus 订阅提供更多功能。付费用户是 to C 消费者和 to B 企业。定价页存在，但具体价格未在证据中。
+    evidence_ids:
+    - ev-ba006d7f7de2262e
+  - gate: truth
+    status: supported
+    reason: ChatGPT 是成熟产品，承诺的对话、写作、编程等功能可确定性交付。安全边界明确，有内容审核。
+    evidence_ids:
+    - ev-d577f15f8fa96a9e
+  next_validation: 关注 OpenAI 官方博客关于教育领域扩展的后续效果，以及是否有更多学区采用或学生成绩提升的公开数据。
+  market: ''
+  job: 用户需要快速获取信息、完成写作、编程和创意任务。
+  job_en: Users need to quickly obtain information, complete writing, coding, and creative tasks.
+  pain: 传统搜索引擎和工具难以处理复杂、多步骤的任务，需要大量时间和专业知识。
+  pain_en: Traditional search engines and tools struggle with complex, multi-step tasks, requiring significant
+    time and expertise.
+  current_alternative: 使用搜索引擎、专业软件或人工服务，但效率低、成本高。
+  current_alternative_en: Using search engines, specialized software, or human services, but inefficient
+    and costly.
+  usage_reason: ChatGPT 提供一站式解决方案，免费入门，月访问量 55.6 亿，显示广泛采用。
+  usage_reason_en: ChatGPT offers a one-stop solution, free to start, with 5.56 billion monthly visits,
+    indicating widespread adoption.
+- id: req-full-chatgpt-2026-08-30
+  project_slug: chatgpt
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速获取信息、完成写作和编程等任务的需求。痛点在于传统工具效率低，不解决会浪费时间。ChatGPT提供对话式交互，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-0839596a1b3e0cf1
+  - gate: consensus
+    status: supported
+    reason: 月访问量55.6亿，环比-3.29%，显示大规模采用但增长平稳。教育领域扩展和随机研究提供额外共识。
+    evidence_ids:
+    - ev-264420b836847d0a
+    - ev-abfdd2e2f24630f4
+  - gate: model
+    status: supported
+    reason: 免费增值模式，Plus订阅提供更多功能。付费用户是to C消费者和to B企业。定价页存在，但具体价格未在证据中。
+    evidence_ids:
+    - ev-ba006d7f7de2262e
+  - gate: truth
+    status: supported
+    reason: ChatGPT是成熟产品，承诺的对话、写作、编程等功能可确定性交付。安全边界明确，有内容审核。
+    evidence_ids:
+    - ev-d577f15f8fa96a9e
+  next_validation: 关注OpenAI官方博客关于教育领域扩展的后续效果，以及是否有更多学区采用或学生成绩提升的公开数据。
+  market: ''
+  job: 用户需要快速获取信息、完成写作、编程和创意任务。
+  job_en: Users need to quickly obtain information, complete writing, coding, and creative tasks.
+  pain: 传统搜索引擎和工具难以处理复杂、多步骤的任务，需要大量时间和专业知识。
+  pain_en: Traditional search engines and tools struggle with complex, multi-step tasks, requiring significant
+    time and expertise.
+  current_alternative: 使用搜索引擎、专业软件或人工服务，但效率低、成本高。
+  current_alternative_en: Using search engines, specialized software, or human services, but inefficient
+    and costly.
+  usage_reason: ChatGPT提供一站式解决方案，免费入门，月访问量55.6亿，显示广泛采用。
+  usage_reason_en: ChatGPT offers a one-stop solution, free to start, with 5.56 billion monthly visits,
+    indicating widespread adoption.

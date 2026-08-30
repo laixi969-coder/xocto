@@ -1,0 +1,82 @@
+- id: req-initial-indigo-ventures-invests-in-sovereign-ai-startup-sarvam-as-pa-2026-08-30
+  project_slug: indigo-ventures-invests-in-sovereign-ai-startup-sarvam-as-pa
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决印度本地语言 AI 模型缺失的痛点，替代国际模型在本地场景的不足，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-1727d030241c1900
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示融资，未披露用户采用或客户案例，共识证据不足。
+    evidence_ids:
+    - ev-1727d030241c1900
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向政府或企业收费，但尚未核验。
+    evidence_ids:
+    - ev-1727d030241c1900
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体产品交付和效果，需进一步验证。
+    evidence_ids:
+    - ev-1727d030241c1900
+  next_validation: 关注 Sarvam AI 官网或官方公告，获取其模型性能、客户案例和定价信息。
+  market: ''
+  job: 为印度企业和政府提供符合本地语言和法规的 AI 模型，减少对国外模型的依赖。
+  job_en: Provide AI models tailored to Indian languages and regulations for enterprises and government,
+    reducing dependence on foreign models.
+  pain: 现有国际模型在印度语言上表现不佳，且数据主权和合规风险高。
+  pain_en: Current international models perform poorly on Indian languages, and there are data sovereignty
+    and compliance risks.
+  current_alternative: 使用国际通用模型（如 GPT）或自建团队开发，但成本高、效果差。
+  current_alternative_en: Using international general models (e.g., GPT) or building in-house teams, which
+    is costly and less effective.
+  usage_reason: 印度政府和企业对数据主权和本地化需求强烈，Sarvam 获得融资表明市场关注。
+  usage_reason_en: Indian government and enterprises have strong needs for data sovereignty and localization;
+    Sarvam's funding indicates market attention.
+- id: req-full-indigo-ventures-invests-in-sovereign-ai-startup-sarvam-as-pa-2026-08-30
+  project_slug: indigo-ventures-invests-in-sovereign-ai-startup-sarvam-as-pa
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决印度本地语言 AI 模型缺失的痛点，替代国际模型在本地场景的不足，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-1727d030241c1900
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示融资，未披露用户采用或客户案例，共识证据不足。
+    evidence_ids:
+    - ev-1727d030241c1900
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向政府或企业收费，但尚未核验。
+    evidence_ids:
+    - ev-1727d030241c1900
+  - gate: truth
+    status: insufficient
+    reason: 未披露具体产品交付和效果，需进一步验证。
+    evidence_ids:
+    - ev-1727d030241c1900
+  next_validation: 关注 Sarvam AI 官网或官方公告，获取其模型性能、客户案例和定价信息。
+  market: ''
+  job: 为印度企业和政府提供符合本地语言和法规的 AI 模型，减少对国外模型的依赖。
+  job_en: Provide AI models tailored to Indian languages and regulations for enterprises and government,
+    reducing dependence on foreign models.
+  pain: 现有国际模型在印度语言上表现不佳，且数据主权和合规风险高。
+  pain_en: Current international models perform poorly on Indian languages, and there are data sovereignty
+    and compliance risks.
+  current_alternative: 使用国际通用模型（如 GPT）或自建团队开发，但成本高、效果差。
+  current_alternative_en: Using international general models (e.g., GPT) or building in-house teams, which
+    is costly and less effective.
+  usage_reason: 印度政府和企业对数据主权和本地化需求强烈，Sarvam 获得融资表明市场关注。
+  usage_reason_en: Indian government and enterprises have strong needs for data sovereignty and localization;
+    Sarvam's funding indicates market attention.

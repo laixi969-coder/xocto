@@ -78,3 +78,83 @@
   usage_reason: 开源框架可能吸引开发者尝试，但采用证据尚未核验。
   usage_reason_en: Open-source framework may attract developers to try, but adoption evidence is not yet
     verified.
+- id: req-initial-truefoundry发布开源智能体框架trueforge宣称可降低75成本-2026-08-30
+  project_slug: truefoundry发布开源智能体框架trueforge宣称可降低75成本
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在现有基础设施上部署智能体的高成本和高复杂度问题，通过开源框架提供可复用的部署方案，降低集成成本。工作流结构判断：旧方式是手动集成或使用昂贵云服务，TrueForge提供替代。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: consensus
+    status: insufficient
+    reason: 开源发布获得媒体报道，但缺乏用户采用、社区活跃度或实际部署案例的公开证据，共识尚未形成。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: model
+    status: insufficient
+    reason: 开源框架的商业模式可能是托管服务或企业支持，但未披露定价或付费路径，买方不明确。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: truth
+    status: insufficient
+    reason: 宣称的75%成本降低缺乏量化验证，需独立测试或用户报告确认。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  next_validation: 关注TrueForge的代码仓库star数、issue讨论和用户部署案例，以及官方文档中的定价或企业版信息。
+  market: ''
+  job: 开发者在现有基础设施上部署和管理AI智能体，以自动化业务流程。
+  job_en: Developers deploy and manage AI agents on existing infrastructure to automate business processes.
+  pain: 现有智能体框架部署复杂、成本高，难以在已有系统中集成。
+  pain_en: Existing agent frameworks are complex to deploy, costly, and hard to integrate into existing
+    systems.
+  current_alternative: 目前开发者可能使用云服务商的自建智能体或手动编写集成代码，成本高且耗时。
+  current_alternative_en: Currently, developers may use cloud providers' custom agents or manually write
+    integration code, which is costly and time-consuming.
+  usage_reason: 开源框架降低部署门槛和成本，吸引开发者尝试；宣称的75%成本降低是关注点。
+  usage_reason_en: Open-source framework lowers deployment barriers and costs, attracting developers;
+    the claimed 75% cost reduction draws attention.
+- id: req-full-truefoundry发布开源智能体框架trueforge宣称可降低75成本-2026-08-30
+  project_slug: truefoundry发布开源智能体框架trueforge宣称可降低75成本
+  level: full
+  reviewed_at: '2026-08-30T00:50:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在现有基础设施上部署智能体的高成本和高复杂度问题，通过开源框架提供可复用的部署方案，降低集成成本。工作流结构判断：旧方式是手动集成或使用昂贵云服务，TrueForge提供替代。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: consensus
+    status: insufficient
+    reason: 开源发布获得媒体报道，但缺乏用户采用、社区活跃度或实际部署案例的公开证据，共识尚未形成。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: model
+    status: insufficient
+    reason: 开源框架的商业模式可能是托管服务或企业支持，但未披露定价或付费路径，买方不明确。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  - gate: truth
+    status: insufficient
+    reason: 宣称的75%成本降低缺乏量化验证，需独立测试或用户报告确认。
+    evidence_ids:
+    - ev-f6dfef3ae7890ba0
+  next_validation: 关注TrueForge的代码仓库star数、issue讨论和用户部署案例，以及官方文档中的定价或企业版信息。
+  market: ''
+  job: 开发者在现有基础设施上部署和管理AI智能体，以自动化业务流程。
+  job_en: Developers deploy and manage AI agents on existing infrastructure to automate business processes.
+  pain: 现有智能体框架部署复杂、成本高，难以在已有系统中集成。
+  pain_en: Existing agent frameworks are complex to deploy, costly, and hard to integrate into existing
+    systems.
+  current_alternative: 目前开发者可能使用云服务商的自建智能体或手动编写集成代码，成本高且耗时。
+  current_alternative_en: Currently, developers may use cloud providers' custom agents or manually write
+    integration code, which is costly and time-consuming.
+  usage_reason: 开源框架降低部署门槛和成本，吸引开发者尝试；宣称的75%成本降低是关注点。
+  usage_reason_en: Open-source framework lowers deployment barriers and costs, attracting developers;
+    the claimed 75% cost reduction draws attention.

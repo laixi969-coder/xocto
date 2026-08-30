@@ -375,3 +375,41 @@
   usage_reason: 公开代码仓库有 83 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The public repository has 83 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-labllm-2026-08-30
+  project_slug: labllm
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教师或学生教学小型语言模型的需求，痛点在于现有工具复杂或需云端，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-0a08edc1d8658da5
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 82 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-0a08edc1d8658da5
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 教师或学生需要在 macOS 上教学或学习小型语言模型的构建和训练。
+  job_en: Teachers or students need to teach or learn building and training tiny language models on macOS.
+  pain: 现有工具复杂或需要云端，难以在本地直观展示模型训练过程。
+  pain_en: Existing tools are complex or require cloud, making it difficult to visually demonstrate model
+    training locally.
+  current_alternative: 目前可能使用云端平台或手动编写代码，但缺乏可视化教学环境。
+  current_alternative_en: Currently may use cloud platforms or manually write code, but lack visual teaching
+    environments.
+  usage_reason: 公开代码仓库有 82 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 82 stars, showing developer attention; repeat use and payment
+    are not yet verified.

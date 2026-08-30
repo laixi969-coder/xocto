@@ -78,3 +78,85 @@
   usage_reason: 预购和媒体报道显示关注度，但实际使用和付费数据尚未核验。
   usage_reason_en: Preorders and media coverage show interest, but actual usage and payment data are not
     yet verified.
+- id: req-initial-hugging-face-is-selling-a-cute-399-open-source-duck-robot-mi-2026-08-30
+  project_slug: hugging-face-is-selling-a-cute-399-open-source-duck-robot-mi
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教育机器人价格高、封闭的问题，痛点在于学习 AI 和机器人技术的门槛，开源和低价能降低门槛，价值结构成立。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  - gate: consensus
+    status: insufficient
+    reason: 新闻和社区讨论可能关注，但缺乏用户评价和实际使用数据，共识证据不足。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，但商业模式未披露，可能靠硬件销售和配件，付费路径不明确。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已交付并可用未验证，需要查看用户反馈和实际使用案例。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  next_validation: 关注 Microduck 的预购页面和用户评价，以及开源模型社区中的讨论和教程。
+  market: ''
+  job: 机器人爱好者和教育工作者需要一个低成本、可编程的机器人平台来学习 AI 和机器人技术。
+  job_en: Robot enthusiasts and educators need a low-cost, programmable robot platform to learn AI and
+    robotics.
+  pain: 现有教育机器人价格高、封闭，难以进行深度定制和学习强化学习。
+  pain_en: Existing educational robots are expensive and closed, making deep customization and reinforcement
+    learning difficult.
+  current_alternative: 用户可能使用 LEGO Mindstorms、树莓派等平台，但缺乏 AI 集成和开源生态。
+  current_alternative_en: Users may use platforms like LEGO Mindstorms or Raspberry Pi, but they lack
+    AI integration and open-source ecosystems.
+  usage_reason: 开源模型社区的品牌和开源社区可能吸引爱好者预购，但实际使用和付费留存尚未核验。
+  usage_reason_en: The open-source model community's brand and open-source community may attract enthusiasts
+    to pre-order, but actual usage and paid retention are not yet verified.
+- id: req-full-hugging-face-is-selling-a-cute-399-open-source-duck-robot-mi-2026-08-30
+  project_slug: hugging-face-is-selling-a-cute-399-open-source-duck-robot-mi
+  level: full
+  reviewed_at: '2026-08-30T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教育机器人价格高、封闭的问题，痛点在于学习 AI 和机器人技术的门槛，开源和低价能降低门槛，价值结构成立。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  - gate: consensus
+    status: insufficient
+    reason: 新闻和社区讨论可能关注，但缺乏用户评价和实际使用数据，共识证据不足。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，但商业模式未披露，可能靠硬件销售和配件，付费路径不明确。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已交付并可用未验证，需要查看用户反馈和实际使用案例。
+    evidence_ids:
+    - ev-b5c0bf693bf35cac
+  next_validation: 关注 Microduck 的预购页面和用户评价，以及开源模型社区中的讨论和教程。
+  market: ''
+  job: 机器人爱好者和教育工作者需要一个低成本、可编程的机器人平台来学习 AI 和机器人技术。
+  job_en: Robot enthusiasts and educators need a low-cost, programmable robot platform to learn AI and
+    robotics.
+  pain: 现有教育机器人价格高、封闭，难以进行深度定制和学习强化学习。
+  pain_en: Existing educational robots are expensive and closed, making deep customization and reinforcement
+    learning difficult.
+  current_alternative: 用户可能使用 LEGO Mindstorms、树莓派等平台，但缺乏 AI 集成和开源生态。
+  current_alternative_en: Users may use platforms like LEGO Mindstorms or Raspberry Pi, but they lack
+    AI integration and open-source ecosystems.
+  usage_reason: 开源模型社区的品牌和开源社区可能吸引爱好者预购，但实际使用和付费留存尚未核验。
+  usage_reason_en: The open-source model community's brand and open-source community may attract enthusiasts
+    to pre-order, but actual usage and paid retention are not yet verified.

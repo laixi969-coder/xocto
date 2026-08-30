@@ -1,11 +1,12 @@
 ---
 slug: introducing-hy4-preview
-name: Introducing Hy4 Preview
+name: Tencent Hunyuan
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 腾讯混元 Hy4 是开源权重的大语言模型，770B 总参数、49B 激活，支持 1M token 上下文，仅文本输入。相比 Hy3 规模大幅提升。
 inspiration: ''
-summary_en: ''
+summary_en: Tencent Hunyuan Hy4 is an open-weight LLM with 770B total params, 49B active, 1M token context,
+  text-only. Significant size increase from Hy3.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -39,7 +40,7 @@ summary: "Introducing Hy4 Preview   \nNew open weight text input (no vision)  LL
   \ ,  pelican-riding-a-bicycle ,  llm-reasoning ,  llm-release ,  ai-in-china"
 first_seen: '2026-08-29T23:53:13Z'
 last_seen: '2026-08-30T00:20:27Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -50,7 +51,7 @@ sightings:
   kind: news
 ---
 
-# Introducing Hy4 Preview
+# Tencent Hunyuan
 
 Introducing Hy4 Preview   
 New open weight text input (no vision)  LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window,  1.56TB on Hugging Face . 

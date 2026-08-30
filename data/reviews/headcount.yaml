@@ -1,0 +1,78 @@
+- id: req-initial-headcount-2026-08-30
+  project_slug: headcount
+  level: initial
+  reviewed_at: '2026-08-30T00:20:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在使用编码助手时缺乏领域专长的问题，通过预定义技能减少提示词调试，交付可执行的代码修改。工作流结构判断：痛点明确，交付可确定。
+    evidence_ids:
+    - ev-56aaa7bf6fced035
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区 220 星显示初步关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-56aaa7bf6fced035
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是开发者或团队，但尚无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和安全边界，需进一步验证技能的实际效果。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈技能效果和实际使用案例。
+  market: ''
+  job: 开发者在使用 Claude Code 时，需要针对不同任务（如重构、测试、文档）调用专门技能，而不是手动编写提示词。
+  job_en: Developers using Claude Code need to invoke specialized skills for different tasks (e.g., refactoring,
+    testing, documentation) rather than manually writing prompts.
+  pain: 通用编码助手缺乏领域专长，复杂任务需要反复调整提示词，效率低。
+  pain_en: General coding assistants lack domain expertise, requiring repeated prompt adjustments for
+    complex tasks, which is inefficient.
+  current_alternative: 目前开发者手动编写或复制提示词，或使用零散的自定义指令。
+  current_alternative_en: Currently developers manually write or copy prompts, or use scattered custom
+    instructions.
+  usage_reason: 开源社区 220 星和 30 fork 表明开发者关注，但尚未核验实际采用和付费。
+  usage_reason_en: 220 stars and 30 forks in the open-source community indicate developer interest, but
+    actual adoption and payment are not yet verified.
+- id: req-full-headcount-2026-08-30
+  project_slug: headcount
+  level: full
+  reviewed_at: '2026-08-30T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在使用编码助手时缺乏领域专长的问题，通过预定义技能减少提示词调试，交付可执行的代码修改。工作流结构判断：痛点明确，交付可确定。
+    evidence_ids:
+    - ev-56aaa7bf6fced035
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区 220 星显示初步关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-56aaa7bf6fced035
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是开发者或团队，但尚无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和安全边界，需进一步验证技能的实际效果。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈技能效果和实际使用案例。
+  market: ''
+  job: 开发者在使用 Claude Code 时，需要针对不同任务调用专门技能，而不是手动编写提示词。
+  job_en: Developers using Claude Code need to invoke specialized skills for different tasks rather than
+    manually writing prompts.
+  pain: 通用编码助手缺乏领域专长，复杂任务需要反复调整提示词，效率低。
+  pain_en: General coding assistants lack domain expertise, requiring repeated prompt adjustments for
+    complex tasks, which is inefficient.
+  current_alternative: 目前开发者手动编写或复制提示词，或使用零散的自定义指令。
+  current_alternative_en: Currently developers manually write or copy prompts, or use scattered custom
+    instructions.
+  usage_reason: 开源社区 220 星表明开发者关注，但尚未核验实际采用和付费。
+  usage_reason_en: 220 stars in the open-source community indicate developer interest, but actual adoption
+    and payment are not yet verified.

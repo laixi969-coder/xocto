@@ -375,3 +375,43 @@
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-crew-2026-08-30
+  project_slug: dsh-crew
+  level: full
+  reviewed_at: '2026-08-30T00:46:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者从 Claude Code/Codex 分发任务给 DSH 代理并查看子代理进度的需求，痛点在于工具切换和任务管理摩擦，交付为代理执行结果，结构上成立。
+    evidence_ids:
+    - ev-625f515f152f9fdc
+  - gate: consensus
+    status: insufficient
+    reason: 120 个星标显示社区关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-2505d6df31b219cb
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-625f515f152f9fdc
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 和 Claude Code/Codex 的稳定性，人工边界未明确。
+    evidence_ids:
+    - ev-625f515f152f9fdc
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: 开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，并查看子代理进度。
+  job_en: Developers dispatch work to DSH agents from Claude Code or Codex and view subagent progress.
+  pain: 在 Claude Code 或 Codex 中无法直接利用 DSH 代理，需要切换工具或手动管理任务分发。
+  pain_en: Inability to directly leverage DSH agents within Claude Code or Codex, requiring tool switching
+    or manual task management.
+  current_alternative: 手动在终端或浏览器中操作 DSH，或使用其他代理调度工具。
+  current_alternative_en: Manually operating DSH in terminal or browser, or using other agent orchestration
+    tools.
+  usage_reason: 仓库有 120 个星标，表明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 120 stars, indicating developer interest, but sustained usage and
+    payment are not yet verified.

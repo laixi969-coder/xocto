@@ -1,11 +1,12 @@
 ---
 slug: paylocity-stock-gains-on-ai-recruiting-deal-and-strong-inves
-name: Paylocity stock gains on AI recruiting deal and strong investor interest
+name: Paylocity
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Paylocity 是一家提供人力资本管理软件的上市公司，其股价因 AI 招聘合作和投资者兴趣上涨。
 inspiration: ''
-summary_en: ''
+summary_en: Paylocity is a public company providing human capital management software; its stock rose
+  on an AI recruiting deal and strong investor interest.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd0VPalhzeU9S
 summary: Paylocity stock gains on AI recruiting deal and strong investor interest AD HOC NEWS
 first_seen: '2026-08-27T16:05:49Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Paylocity stock gains on AI recruiting deal and strong investor interest
+# Paylocity
 
 Paylocity stock gains on AI recruiting deal and strong investor interest AD HOC NEWS
 

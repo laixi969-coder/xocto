@@ -110,3 +110,41 @@
   current_alternative_en: Using terminal or separate windows.
   usage_reason: 339 个星标，表明有一定关注，但采用证据有限。
   usage_reason_en: 339 stars, indicating some interest, but adoption evidence is limited.
+- id: req-full-dsh-worktable-2026-08-30
+  project_slug: dsh-worktable
+  level: full
+  reviewed_at: '2026-08-30T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多项目管理的痛点，任务明确，交付为项目监控界面，结构上成立。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  - gate: consensus
+    status: insufficient
+    reason: 357 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-c430c9d0b8cd38cf
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 生态，人工边界未明确。
+    evidence_ids:
+    - ev-244cb2e9155cf3ef
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: DeepSeek Harness 用户管理多个代理项目，监控其状态。
+  job_en: DeepSeek Harness users manage multiple agent projects and monitor their status.
+  pain: 缺乏统一界面管理多个项目，难以实时监控。
+  pain_en: Lack of a unified interface to manage multiple projects, making real-time monitoring difficult.
+  current_alternative: 使用终端或单独窗口管理。
+  current_alternative_en: Using terminal or separate windows.
+  usage_reason: 357 个星标显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: 357 stars indicate developer interest, but sustained usage and payment are not yet
+    verified.

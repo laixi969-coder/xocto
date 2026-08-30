@@ -151,3 +151,44 @@
   usage_reason: 开源仓库获得 122 星，显示开发者对 Windows 本地 AI 代理的兴趣，但付费和持续采用尚未核验。
   usage_reason_en: The open-source repository has 122 stars, showing developer interest in Windows local
     AI agents, but payment and sustained adoption are not yet verified.
+- id: req-full-lnwjud-2026-08-30
+  project_slug: lnwjud
+  level: full
+  reviewed_at: '2026-08-30T00:49:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在 Windows 上运行本地 AI 代理并连接多种工具的需求，痛点在于手动配置繁琐、缺乏统一网关；交付可确定的本地运行时和工具集成，价值结构成立。
+    evidence_ids:
+    - ev-1881b55358a7cd42
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 126 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-1881b55358a7cd42
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或企业，但付费路径不明确。
+    evidence_ids:
+    - ev-1881b55358a7cd42
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids:
+    - ev-1881b55358a7cd42
+  next_validation: 追踪 lnwjud 的 GitHub 仓库 issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者和运维工程师需要在 Windows 上运行本地 AI 代理，并连接多种工具实现自动化操作。
+  job_en: Developers and DevOps engineers need to run local AI agents on Windows and connect various tools
+    for automation.
+  pain: 手动配置 AI 代理和工具集成繁琐，缺乏统一的运行时和网关。
+  pain_en: Manual configuration of AI agents and tool integrations is tedious, lacking a unified runtime
+    and gateway.
+  current_alternative: 目前开发者可能手动配置多个工具或使用云端服务，缺乏本地统一方案。
+  current_alternative_en: Currently developers may manually configure multiple tools or use cloud services,
+    lacking a unified local solution.
+  usage_reason: 开源仓库获得 126 星，显示开发者对本地 AI 代理运行时的关注，但持续使用和付费尚未核验。
+  usage_reason_en: The open-source repository has 126 stars, showing developer interest in local AI agent
+    runtimes, but sustained usage and payment are not yet verified.

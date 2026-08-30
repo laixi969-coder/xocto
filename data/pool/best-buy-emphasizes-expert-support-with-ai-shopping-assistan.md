@@ -3,11 +3,10 @@ slug: best-buy-emphasizes-expert-support-with-ai-shopping-assistan
 name: Best Buy
 builder: ''
 category: ''
-summary_zh: Best Buy 在客户购物时引入 AI 购物助手，结合专家支持提供商品推荐与答疑，帮助顾客在选购过程中获得即时信息，最终提升购买决策效率。
+summary_zh: 百思买推出 AI 购物助手，强调专家支持，旨在帮助顾客在选购电子产品时获得个性化建议，但具体功能和工作流未详细披露。
 inspiration: ''
-summary_en: Best Buy introduces an AI shopping assistant combined with expert support to provide product
-  recommendations and answers during shopping, helping customers get instant information and improve purchase
-  decisions.
+summary_en: Best Buy launched an AI shopping assistant emphasizing expert support, aiming to provide personalized
+  recommendations for electronics shoppers, but specific features and workflows are not detailed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQRWhoejlmYU9Z
 summary: Best Buy emphasizes expert support with AI shopping assistant Customer Experience Dive
 first_seen: '2026-08-27T17:50:23Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

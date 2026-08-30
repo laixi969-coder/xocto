@@ -1,0 +1,83 @@
+- id: req-initial-blazetech-secures-85-mn-pre-seed-funding-to-accelerate-ai-po-2026-08-30
+  project_slug: blazetech-secures-85-mn-pre-seed-funding-to-accelerate-ai-po
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医疗机构快速构建应用的需求，痛点在于开发周期长和合规要求高，低代码平台能缩短交付时间，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示投资者认可，但缺乏用户采用、客户案例或社区讨论的公开证据，共识尚未形成。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是医疗机构，但定价和付费触发点不明确，需要进一步验证。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已交付并产生实际效果未披露，需要查看官网或客户案例来验证。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  next_validation: 关注 Blaze.tech 官网的定价页和客户案例，以及是否有公开的部署案例或用户评价。
+  market: ''
+  job: 医疗机构需要快速构建内部应用来管理患者数据、预约和临床流程，但传统开发周期长、成本高。
+  job_en: Healthcare organizations need to quickly build internal applications to manage patient data,
+    appointments, and clinical workflows, but traditional development is slow and costly.
+  pain: 医疗行业 IT 资源有限，合规要求高，定制应用开发周期长，难以快速响应业务变化。
+  pain_en: Healthcare IT resources are limited, compliance requirements are high, and custom application
+    development takes long, making it hard to respond quickly to business changes.
+  current_alternative: 目前医疗机构通常使用通用低代码平台（如 OutSystems）或定制开发，但前者缺乏医疗行业特定功能，后者成本高。
+  current_alternative_en: Currently, healthcare organizations often use general low-code platforms (e.g.,
+    OutSystems) or custom development, but the former lacks healthcare-specific features and the latter
+    is costly.
+  usage_reason: Blaze.tech 获得融资表明投资者看好医疗低代码市场，其 AI 集成能力可能吸引医疗机构尝试，但实际采用和付费尚未核验。
+  usage_reason_en: Blaze.tech's funding indicates investor confidence in the healthcare low-code market,
+    and its AI integration may attract healthcare organizations to try, but actual adoption and payment
+    are not yet verified.
+- id: req-full-blazetech-secures-85-mn-pre-seed-funding-to-accelerate-ai-po-2026-08-30
+  project_slug: blazetech-secures-85-mn-pre-seed-funding-to-accelerate-ai-po
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医疗机构快速构建应用的需求，痛点在于开发周期长和合规要求高，低代码平台能缩短交付时间，价值结构成立。工作流结构推理。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示投资者认可，但缺乏用户采用或客户案例。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是医疗机构，但定价和付费触发点不明确。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  - gate: truth
+    status: insufficient
+    reason: 产品是否已交付并产生实际效果未披露，需要官网或客户案例验证。
+    evidence_ids:
+    - ev-b15d8b6496edf0e9
+  next_validation: 关注Blaze.tech官网的定价页和客户案例，以及是否有公开部署案例。
+  market: ''
+  job: 医疗机构需要快速构建AI驱动的内部应用，如患者数据管理、预约和临床流程。
+  job_en: Healthcare organizations need to quickly build AI-powered internal applications for patient
+    data management, appointments, and clinical workflows.
+  pain: 医疗行业IT资源有限，合规要求高，传统开发周期长，难以快速响应业务变化。
+  pain_en: Healthcare IT resources are limited, compliance requirements are high, and traditional development
+    is slow, making it hard to respond quickly to business changes.
+  current_alternative: 目前可能使用通用低代码平台或定制开发，但前者缺乏医疗特定功能，后者成本高。
+  current_alternative_en: Currently may use general low-code platforms or custom development, but the
+    former lacks healthcare-specific features and the latter is costly.
+  usage_reason: 融资新闻显示投资者看好，但实际采用和付费未核验。
+  usage_reason_en: Funding news shows investor confidence, but actual adoption and payment are not verified.

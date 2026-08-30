@@ -379,3 +379,41 @@
   usage_reason: 仓库有 283 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The repository has 283 stars, indicating developer attention or trial; sustained use
     and payment are not yet verified.
+- id: req-full-benjamin-plus-skill-2026-08-30
+  project_slug: benjamin-plus-skill
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI编码代理token成本高的痛点，通过注入技能降低17.9%成本且质量不变，交付可确定。工作流结构推理。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
+  - gate: consensus
+    status: insufficient
+    reason: 283星显示关注，但缺乏用户评价或采用案例。
+    evidence_ids:
+    - ev-b470a94198a20d64
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 成本降低数据来自官方，但独立验证和适用范围未公开。
+    evidence_ids: []
+  next_validation: 查看GitHub仓库的issue和discussion，寻找用户实测数据或独立评测。
+  market: ''
+  job: 软件工程师使用AI编码代理时，需要降低token消耗成本而不牺牲输出质量。
+  job_en: Software engineers using AI coding agents need to reduce token consumption costs without sacrificing
+    output quality.
+  pain: AI编码代理的token成本高，影响使用频率和成本效益。
+  pain_en: Token costs for AI coding agents are high, affecting usage frequency and cost-effectiveness.
+  current_alternative: 用户可能手动优化提示词或使用其他成本优化工具，但缺乏系统性方案。
+  current_alternative_en: Users may manually optimize prompts or use other cost-optimization tools, but
+    lack a systematic solution.
+  usage_reason: 仓库获得283星，显示开发者关注，但实际采用和付费未核验。
+  usage_reason_en: The repository has 283 stars, showing developer interest, but actual adoption and payment
+    are not verified.

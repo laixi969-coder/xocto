@@ -21,7 +21,7 @@ canonical_url: https://mcsweeneys.net/articles/im-the-guy-who-destroys-antique-b
 summary: I'm the Guy Who Destroys Antique Books After We Scan Them into Our Company's AI
 first_seen: '2026-08-29T02:58:12Z'
 last_seen: '2026-08-30T00:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,76 @@
+- id: req-initial-豆神教育2026半年报ai教育营收大增但整体亏损-2026-08-30
+  project_slug: 豆神教育2026半年报ai教育营收大增但整体亏损
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生个性化学习和教师负担问题，替代部分人工辅导，交付学习成果。工作流结构判断。
+    evidence_ids:
+    - ev-a16d378000281d74
+  - gate: consensus
+    status: insufficient
+    reason: 营收增长显示关注，但缺乏用户采用和留存数据。
+    evidence_ids:
+    - ev-a16d378000281d74
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是学生家长或学校，但尚无公开证据。
+    evidence_ids:
+    - ev-a16d378000281d74
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近教育第一性目标，但整体亏损显示交付和成本控制待验证。
+    evidence_ids:
+    - ev-a16d378000281d74
+  next_validation: 关注豆神教育官方财报和产品发布，验证AI教育业务的具体产品和盈利路径。
+  market: ''
+  job: 学生需要个性化学习辅导，教师需要教学辅助。
+  job_en: Students need personalized tutoring, teachers need teaching assistance.
+  pain: 传统教育难以规模化提供个性化辅导，教师负担重。
+  pain_en: Traditional education struggles to scale personalized tutoring, and teachers are overburdened.
+  current_alternative: 目前主要依赖人工辅导和传统教育软件。
+  current_alternative_en: Currently relies on human tutoring and traditional educational software.
+  usage_reason: AI教育营收大增表明市场有需求，但整体亏损显示盈利模式未成熟。
+  usage_reason_en: Significant AI education revenue growth indicates market demand, but overall losses
+    suggest immature profit models.
+- id: req-full-豆神教育2026半年报ai教育营收大增但整体亏损-2026-08-30
+  project_slug: 豆神教育2026半年报ai教育营收大增但整体亏损
+  level: full
+  reviewed_at: '2026-08-30T00:50:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生个性化学习和教师负担问题，替代部分人工辅导，交付学习成果。工作流结构判断。
+    evidence_ids:
+    - ev-a16d378000281d74
+  - gate: consensus
+    status: insufficient
+    reason: 营收增长显示关注，但缺乏用户采用和留存数据。
+    evidence_ids:
+    - ev-a16d378000281d74
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是学生家长或学校，但尚无公开证据。
+    evidence_ids:
+    - ev-a16d378000281d74
+  - gate: truth
+    status: insufficient
+    reason: 产品贴近教育第一性目标，但整体亏损显示交付和成本控制待验证。
+    evidence_ids:
+    - ev-a16d378000281d74
+  next_validation: 关注豆神教育官方财报和产品发布，验证AI教育业务的具体产品和盈利路径。
+  market: ''
+  job: 学生需要个性化学习辅导，教师需要教学辅助。
+  job_en: Students need personalized tutoring, teachers need teaching assistance.
+  pain: 传统教育难以规模化提供个性化辅导，教师负担重。
+  pain_en: Traditional education struggles to scale personalized tutoring, and teachers are overburdened.
+  current_alternative: 目前主要依赖人工辅导和传统教育软件。
+  current_alternative_en: Currently relies on human tutoring and traditional educational software.
+  usage_reason: AI教育营收大增表明市场有需求，但整体亏损显示盈利模式未成熟。
+  usage_reason_en: Significant AI education revenue growth indicates market demand, but overall losses
+    suggest immature profit models.

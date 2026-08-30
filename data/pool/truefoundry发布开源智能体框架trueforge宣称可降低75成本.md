@@ -1,15 +1,17 @@
 ---
 slug: truefoundry发布开源智能体框架trueforge宣称可降低75成本
-name: TrueFoundry
+name: TrueForge
 builder: ''
 category: AI + 开发
-summary_zh: TrueFoundry发布开源智能体框架TrueForge，宣称可降低75%成本。开发者可在其现有基础设施上部署智能体，具体功能和工作流待核验。
-inspiration: 趋势是开源智能体框架降低企业AI应用成本。切入点是面向开发者的开源工具，但需验证成本降低的具体机制和适用场景。
-summary_en: TrueFoundry released open-source agent framework TrueForge, claiming to reduce costs by 75%.
-  Developers can deploy agents on existing infrastructure; specific features and workflow need verification.
-inspiration_en: The trend is open-source agent frameworks reducing enterprise AI costs. The entry point
-  is an open-source tool for developers, but the specific cost reduction mechanism and use cases need
-  validation.
+summary_zh: TrueForge是TrueFoundry发布的开源智能体框架，面向开发者在现有基础设施上部署AI智能体。它接收任务描述，编排多个模型和工具执行，输出自动化工作流结果，宣称可降低最高75%成本。具体功能细节和交付流程仍待核验。
+inspiration: 趋势是AI智能体从演示走向生产部署，成本成为关键瓶颈。不要做通用智能体框架，从特定行业如金融、医疗的合规部署切入，按降低的运维成本收费，或提供托管服务。
+summary_en: TrueForge is an open-source agent framework by TrueFoundry, enabling developers to deploy
+  AI agents on existing infrastructure. It takes task descriptions, orchestrates models and tools, and
+  outputs automated workflows, claiming up to 75% cost reduction. Specific features and delivery details
+  remain unverified.
+inspiration_en: The trend is AI agents moving from demo to production, with cost as a key bottleneck.
+  Don't build a general-purpose agent framework; enter via compliance-heavy industries like finance or
+  healthcare, charging based on reduced operational costs or offering managed services.
 priority_review: false
 project_type: open_source
 industries:
@@ -18,8 +20,10 @@ industries_en:
 - Software Development
 jobs:
 - 开发者
+- DevOps工程师
 jobs_en:
 - Developers
+- DevOps Engineers
 regions:
 - 全球
 regions_en:
@@ -30,7 +34,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPYVpKMXNlZ0g5
 summary: TrueFoundry发布开源智能体框架TrueForge，宣称可降低75%成本 搜狐网
 first_seen: '2026-08-28T13:45:00Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:
@@ -46,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# TrueFoundry
+# TrueForge
 
 TrueFoundry发布开源智能体框架TrueForge，宣称可降低75%成本 搜狐网
 

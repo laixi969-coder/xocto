@@ -385,3 +385,40 @@
     but lack intelligent analysis.
   usage_reason: 仓库 802 星显示关注；但采用和付费未核验。
   usage_reason_en: The repository's 802 stars show interest; adoption and payment are not verified.
+- id: req-full-pgbot-2026-08-30
+  project_slug: pgbot
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Postgres 性能问题定位困难、缺乏证据驱动建议的痛点，提供智能分析和证据优先的修复建议，交付可核对的诊断。工作流结构推理：DBA 需要高效诊断，旧方式是手动分析，痛点明确。
+    evidence_ids:
+    - ev-c198e026dfa7d1eb
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 810 个收藏、36 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-814167ae249910ad
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 替人看 Postgres：哪里慢、哪条该修，先给证据再让代理动手。
+  job_en: 'Watch Postgres for people: what is slow, what to fix, evidence first, then let an agent touch
+    it.'
+  pain: 数据库性能问题难以定位，缺乏证据驱动的优化建议。
+  pain_en: Database performance issues are hard to diagnose, lacking evidence-driven optimization suggestions.
+  current_alternative: 依赖 DBA 手动分析慢查询和配置。
+  current_alternative_en: Relying on DBAs to manually analyze slow queries and configurations.
+  usage_reason: 公开代码仓库有 810 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 810 stars, showing developer attention; repeat use and payment
+    are not yet verified.

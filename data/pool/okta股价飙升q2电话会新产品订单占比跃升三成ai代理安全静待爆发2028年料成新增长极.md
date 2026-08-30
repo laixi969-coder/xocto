@@ -1,11 +1,11 @@
 ---
 slug: okta股价飙升q2电话会新产品订单占比跃升三成ai代理安全静待爆发2028年料成新增长极
-name: Okta股价飙升！Q2电话会：新产品订单占比跃升三成，AI代理安全静待爆发，2028年料成新增长极
+name: Okta
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 信息不足
 inspiration: ''
-summary_en: ''
+summary_en: Insufficient information
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxPUXZPNXVfSVUx
 summary: Okta股价飙升！Q2电话会：新产品订单占比跃升三成，AI代理安全静待爆发，2028年料成新增长极 富途牛牛
 first_seen: '2026-08-27T13:43:00Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Okta股价飙升！Q2电话会：新产品订单占比跃升三成，AI代理安全静待爆发，2028年料成新增长极
+# Okta
 
 Okta股价飙升！Q2电话会：新产品订单占比跃升三成，AI代理安全静待爆发，2028年料成新增长极 富途牛牛
 

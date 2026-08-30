@@ -266,3 +266,41 @@
   usage_reason: 仓库有 205 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The repository has 205 stars, indicating developer attention or trial; sustained use
     and payment are not yet verified.
+- id: req-full-awesome-deepseek-harness-2026-08-30
+  project_slug: awesome-deepseek-harness
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决DeepSeek Harness扩展发现的问题，但痛点强度未核验，用户可能通过其他方式解决，不采用代价不明确。
+    evidence_ids:
+    - ev-11a11246052ce348
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 检查该目录的更新频率和issue讨论，看是否有用户依赖它作为主要发现渠道。
+  market: ''
+  job: 开发者需要为DeepSeek Harness查找和选择插件、技能、MCP服务器等扩展。
+  job_en: Developers need to find and select plugins, skills, MCP servers, and other extensions for DeepSeek
+    Harness.
+  pain: DeepSeek Harness生态分散，缺乏集中目录，用户难以发现和比较可用扩展。
+  pain_en: The DeepSeek Harness ecosystem is fragmented, lacking a centralized directory, making it hard
+    for users to discover and compare available extensions.
+  current_alternative: 用户可能通过搜索引擎、GitHub搜索或社区推荐来寻找扩展，但效率低且不全面。
+  current_alternative_en: Users may rely on search engines, GitHub search, or community recommendations
+    to find extensions, which is inefficient and incomplete.
+  usage_reason: 仓库获得205星，显示开发者关注，但目录类项目可能只是收藏，持续使用和付费未核验。
+  usage_reason_en: The repository has 205 stars, showing developer attention, but directory projects may
+    be bookmarked rather than actively used; sustained usage and payment are not verified.

@@ -1,30 +1,30 @@
 ---
 slug: hugging-face-is-selling-a-cute-399-open-source-duck-robot-mi
-name: Hugging Face
+name: Microduck
 builder: ''
 category: AI + 生活
-summary_zh: Microduck 是 公开模型社区 与 Pollen Robotics 合作推出的开源桌面机器人，高约 25 厘米，可预购，售价 399 美元。用户可通过强化学习教它新技能，适合机器人爱好者和教育场景。具体交互流程和交付细节仍待核验。
-inspiration: 趋势是开源硬件与 AI 结合，降低机器人开发门槛。切入点是面向教育和个人开发者，提供可编程的实体机器人，按硬件销售和课程订阅收费。
-summary_en: Microduck is an open-source desktop robot launched by public model community in collaboration
-  with Pollen Robotics, about 10 inches tall, available for preorder at $399. Users can teach it new tricks
-  via reinforcement learning, suitable for robot enthusiasts and education. Specific interaction and delivery
-  details are yet to be verified.
-inspiration_en: The trend is the combination of open-source hardware and AI, lowering the barrier to robot
-  development. The entry point is education and individual developers, offering programmable physical
-  robots, charging for hardware and course subscriptions.
+summary_zh: Microduck 是开源模型社区与 Pollen Robotics 合作推出的开源桌面机器人，约 10 英寸高，售价 399 美元。用户可以通过强化学习教它新技能，适合机器人爱好者和教育场景。具体功能和学习流程仍待核验。
+inspiration: 趋势是开源硬件与 AI 结合，降低机器人开发门槛。切入点是面向教育和爱好者市场的低成本机器人平台，可围绕课程设计、技能库和社区生态提供增值服务。
+summary_en: Microduck is an open-source desktop robot launched by an open-source model community in collaboration
+  with Pollen Robotics, about 10 inches tall, priced at $399. Users can teach it new tricks with reinforcement
+  learning, suitable for robot enthusiasts and education. Specific features and learning processes still
+  need verification.
+inspiration_en: The trend is open-source hardware combined with AI, lowering the barrier to robot development.
+  The entry point is a low-cost robot platform for education and hobbyists, with value-added services
+  around curriculum design, skill libraries, and community ecosystems.
 priority_review: false
 project_type: new_application
 industries:
 - 消费电子
 - 教育
 industries_en:
-- Consumer Electronics
+- Consumer electronics
 - Education
 jobs:
 - 机器人爱好者
 - 教育工作者
 jobs_en:
-- Robot Enthusiasts
+- Robot enthusiasts
 - Educators
 regions:
 - 全球
@@ -37,7 +37,7 @@ summary: Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-so
   new tricks with reinforcement learning.”
 first_seen: '2026-08-27T14:56:52Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch
@@ -54,7 +54,7 @@ sightings:
   kind: news
 ---
 
-# Hugging Face
+# Microduck
 
 Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”
 

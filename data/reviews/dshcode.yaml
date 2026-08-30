@@ -149,3 +149,42 @@
   usage_reason: 公开代码仓库有476个收藏、19次复刻，说明开发者关注；持续使用与付费仍未核验。
   usage_reason_en: The public repository has 476 stars and 19 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dshcode-2026-08-30
+  project_slug: dshcode
+  level: full
+  reviewed_at: '2026-08-30T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决软件工程师在桌面端使用 DeepSeek Harness 时环境配置繁琐的痛点，提供一键安装的 Electron 应用，降低使用门槛。工作流结构推理：交付可确定，痛点刚性。
+    evidence_ids:
+    - ev-a13872a089266f97
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 522 星显示社区关注，但缺乏用户评价或持续采用证据，共识不足。
+    evidence_ids:
+    - ev-6edcf08a3fea940c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是开发者或团队，但尚无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和安全边界，需进一步验证应用的实际效果。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈应用效果和实际使用案例。
+  market: ''
+  job: 软件工程师需要一种更简单的方式在桌面端使用 DeepSeek Harness，避免手动配置环境。
+  job_en: Software engineers need a simpler way to use DeepSeek Harness on the desktop, avoiding manual
+    environment setup.
+  pain: 手动配置 DeepSeek Harness 环境繁琐，需要处理依赖和命令行操作，增加使用门槛。
+  pain_en: Manually configuring DeepSeek Harness is tedious, requiring dependency handling and command-line
+    operations, raising the barrier to use.
+  current_alternative: 用户可能直接使用命令行或自行搭建环境，但公开材料未明确说明。
+  current_alternative_en: Users may use the command line or set up the environment themselves, but public
+    materials do not specify.
+  usage_reason: 仓库获得 522 星，表明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 522 stars, showing developer interest, but sustained use and payment
+    are not yet verified.

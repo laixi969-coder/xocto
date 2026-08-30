@@ -303,3 +303,39 @@
   usage_reason: 公开代码仓库有 284 个收藏、17 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 284 stars and 17 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-agenttrail-2026-08-30
+  project_slug: agenttrail
+  level: full
+  reviewed_at: '2026-08-30T00:44:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者对编码代理缺乏可见性的痛点，不解决则难以信任代理的修改。产品实时捕获并可视化代理行为，交付确定，结构上成立（工作流推理）。
+    evidence_ids:
+    - ev-e0d322059c7ad238
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库星标 400+，但缺乏用户讨论或采用数据，共识未充分建立。
+    evidence_ids:
+    - ev-f6e3067b62ea07c8
+  - gate: model
+    status: insufficient
+    reason: 未发现付费主体或定价，开源项目可能依赖社区贡献，商业模式未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性尚缺可复现的公开验证，如详细文档或用户实测结果。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或实际使用反馈。
+  market: ''
+  job: 实时监控 AI 编码代理的执行计划、工具调用和文件变更。
+  job_en: Monitor AI coding agents' plans, tool calls, and file changes in real time.
+  pain: 开发者难以跟踪编码代理在后台的修改，缺乏可见性。
+  pain_en: Developers struggle to track coding agents' background modifications, lacking visibility.
+  current_alternative: 依赖代理的日志或手动检查代码变更。
+  current_alternative_en: Relying on agent logs or manually checking code changes.
+  usage_reason: 开源仓库星标快速增长至 400+，说明开发者关注，但持续使用和付费未核验。
+  usage_reason_en: Open-source with stars rapidly growing to 400+, showing developer attention; repeat
+    use and payment not verified.

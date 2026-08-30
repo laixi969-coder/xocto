@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivAFBVV95cUxORy14UlBmaW5q
 summary: 'Insurance AI Adoption: How Customers Use AI Today Collision Repair Mag'
 first_seen: '2026-08-28T17:05:11Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

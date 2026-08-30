@@ -1,12 +1,12 @@
 ---
 slug: personal-assistants-are-suddenly-venture-capitals-new-obsess
-name: Personal Assistants Are Suddenly Venture Capital’s New Obsession. Startup Town Is Closing In on
-  a $1 Billion Valuation
+name: Startup Town
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Startup Town 是一家开发个人助理产品的公司，正接近 10 亿美元估值。
 inspiration: ''
-summary_en: ''
+summary_en: Startup Town is a company developing personal assistant products, closing in on a $1 billion
+  valuation.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: Personal Assistants Are Suddenly Venture Capital’s New Obsession. Sta
   on a $1 Billion Valuation inc.com
 first_seen: '2026-08-29T21:54:46Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Personal Assistants Are Suddenly Venture Capital’s New Obsession. Startup Town Is Closing In on a $1 Billion Valuation
+# Startup Town
 
 Personal Assistants Are Suddenly Venture Capital’s New Obsession. Startup Town Is Closing In on a $1 Billion Valuation inc.com
 

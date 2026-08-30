@@ -377,3 +377,41 @@
   usage_reason: 公开代码仓库有 322 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The public repository has 322 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-hunter-community-2026-08-30
+  project_slug: hunter-community
+  level: full
+  reviewed_at: '2026-08-30T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决金融数据敏感和部署复杂的痛点，提供开源自托管的解决方案，15 分钟 Docker 启动。工作流结构推理：痛点明确，交付可确定。
+    evidence_ids:
+    - ev-afa874f9ae7fe198
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 330 星显示社区关注，但缺乏用户评价或持续采用证据，共识不足。
+    evidence_ids:
+    - ev-7a76320a4291c904
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是个人或企业，但尚无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和安全边界，需进一步验证工具的实际效果。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈工具效果和实际使用案例。
+  market: ''
+  job: 用户需要自托管的私人金融 AI 团队，用于财务分析和决策支持。
+  job_en: Users need a self-hosted private financial AI team for financial analysis and decision support.
+  pain: 金融数据敏感，用户不愿使用云端服务，且现有工具部署复杂。
+  pain_en: Financial data is sensitive, users are reluctant to use cloud services, and existing tools
+    are complex to deploy.
+  current_alternative: 用户可能使用云端金融工具或手动分析，但公开材料未明确说明。
+  current_alternative_en: Users may use cloud financial tools or manual analysis, but public materials
+    do not specify.
+  usage_reason: 仓库获得 330 星，表明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 330 stars, showing developer interest, but sustained use and payment
+    are not yet verified.

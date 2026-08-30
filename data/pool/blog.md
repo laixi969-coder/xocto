@@ -22,7 +22,7 @@ canonical_url: https://blog.brokk.ai/dont-use-musl-if-you-care-about-performance
 summary: Don't use musl if you care about performance
 first_seen: '2026-08-28T15:16:07Z'
 last_seen: '2026-08-30T00:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

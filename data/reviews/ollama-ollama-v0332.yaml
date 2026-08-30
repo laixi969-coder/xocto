@@ -78,3 +78,83 @@
   usage_reason: Ollama简化了本地模型部署，提供统一命令行和API，社区活跃，更新频繁。
   usage_reason_en: Ollama simplifies local model deployment with unified CLI and API, active community,
     and frequent updates.
+- id: req-initial-ollama-ollama-v0332-2026-08-30
+  project_slug: ollama-ollama-v0332
+  level: initial
+  reviewed_at: '2026-08-30T00:20:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者本地运行开源模型的配置繁琐和数据隐私痛点，交付可确定的本地推理服务，工作流结构判断成立。
+    evidence_ids:
+    - ev-d73ebc4ac92978f9
+    - ev-e4c1b4a4c6eeb47c
+  - gate: consensus
+    status: supported
+    reason: 开源社区活跃，版本更新频繁，与多个代理工具集成，表明开发者认可其场景。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+    - ev-e4c1b4a4c6eeb47c
+  - gate: model
+    status: insufficient
+    reason: 开源免费，商业模式未披露，付费路径不明确，可能靠企业服务或云托管。
+    evidence_ids:
+    - ev-a01db3a13a10b857
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者本地运行模型的第一性目标，交付确定性高，安全边界清晰。
+    evidence_ids:
+    - ev-d73ebc4ac92978f9
+  next_validation: 关注 Ollama 官方是否推出企业版或托管服务，以及开源社区讨论趋势。
+  market: ''
+  job: 开发者在本地运行开源模型，并接入现有代理工具。
+  job_en: Developers run open-source models locally and integrate with existing agent tools.
+  pain: 手动配置模型环境繁琐，且云端调用有数据隐私顾虑。
+  pain_en: Manual model environment setup is tedious, and cloud calls raise data privacy concerns.
+  current_alternative: 直接使用云端 API 或手动配置 Python 环境。
+  current_alternative_en: Using cloud APIs directly or manually configuring Python environments.
+  usage_reason: Ollama 简化了本地模型运行，且与主流代理工具集成，社区关注度高。
+  usage_reason_en: Ollama simplifies local model running and integrates with major agent tools, gaining
+    high community attention.
+- id: req-full-ollama-ollama-v0332-2026-08-30
+  project_slug: ollama-ollama-v0332
+  level: full
+  reviewed_at: '2026-08-30T00:49:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者本地运行开源模型的配置繁琐和数据隐私痛点，交付可确定的本地推理服务，工作流结构判断成立。
+    evidence_ids:
+    - ev-d73ebc4ac92978f9
+    - ev-e4c1b4a4c6eeb47c
+  - gate: consensus
+    status: supported
+    reason: 开源社区活跃，版本更新频繁，与多个代理工具集成，表明开发者认可其场景。
+    evidence_ids:
+    - ev-b24924fef77b21aa
+    - ev-e4c1b4a4c6eeb47c
+  - gate: model
+    status: insufficient
+    reason: 开源免费，商业模式未披露，付费路径不明确，可能靠企业服务或云托管。
+    evidence_ids:
+    - ev-a01db3a13a10b857
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者本地运行模型的第一性目标，交付确定性高，安全边界清晰。
+    evidence_ids:
+    - ev-d73ebc4ac92978f9
+  next_validation: 追踪 Ollama 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 开发者在本地运行开源模型，并接入现有代理工具。
+  job_en: Developers run open-source models locally and integrate with existing agent tools.
+  pain: 手动配置模型环境繁琐，且云端调用有数据隐私顾虑。
+  pain_en: Manual model environment setup is tedious, and cloud calls raise data privacy concerns.
+  current_alternative: 直接使用云端 API 或手动配置 Python 环境。
+  current_alternative_en: Using cloud APIs directly or manually configuring Python environments.
+  usage_reason: Ollama 简化了本地模型运行，且与主流代理工具集成，社区关注度高。
+  usage_reason_en: Ollama simplifies local model running and integrates with major agent tools, gaining
+    high community attention.

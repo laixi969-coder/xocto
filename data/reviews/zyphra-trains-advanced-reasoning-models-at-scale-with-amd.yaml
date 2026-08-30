@@ -1,0 +1,75 @@
+- id: req-initial-zyphra-trains-advanced-reasoning-models-at-scale-with-amd-2026-08-30
+  project_slug: zyphra-trains-advanced-reasoning-models-at-scale-with-amd
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及训练模型，未说明解决什么需求或痛点。
+    evidence_ids:
+    - ev-9af42f7593689f66
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户或行业反馈。
+    evidence_ids:
+    - ev-9af42f7593689f66
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids:
+    - ev-9af42f7593689f66
+  - gate: truth
+    status: insufficient
+    reason: 无法判断交付确定性。
+    evidence_ids:
+    - ev-9af42f7593689f66
+  next_validation: 关注 Zyphra 官方发布或模型开源信息，以了解其实际应用和用户价值。
+  market: ''
+  job: Zyphra 旨在训练高级推理模型，但具体用户任务和痛点未明确。
+  job_en: Zyphra aims to train advanced reasoning models, but specific user tasks and pain points are
+    unclear.
+  pain: 未披露。
+  pain_en: Not disclosed.
+  current_alternative: 未披露。
+  current_alternative_en: Not disclosed.
+  usage_reason: 关注度来自 AMD 合作新闻，但产品本身尚未展示实际应用。
+  usage_reason_en: Attention comes from AMD partnership news, but the product itself has not shown practical
+    application.
+- id: req-full-zyphra-trains-advanced-reasoning-models-at-scale-with-amd-2026-08-30
+  project_slug: zyphra-trains-advanced-reasoning-models-at-scale-with-amd
+  level: full
+  reviewed_at: '2026-08-30T00:50:49Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及训练模型，未说明解决什么需求或痛点。
+    evidence_ids:
+    - ev-9af42f7593689f66
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Zyphra 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: Zyphra 旨在训练高级推理模型，但具体用户任务和痛点未明确。
+  job_en: Zyphra aims to train advanced reasoning models, but specific user tasks and pain points are
+    unclear.
+  pain: 未披露。
+  pain_en: Not disclosed.
+  current_alternative: 未披露。
+  current_alternative_en: Not disclosed.
+  usage_reason: 关注度来自 AMD 合作新闻，但产品本身尚未展示实际应用。
+  usage_reason_en: Attention comes from AMD partnership news, but the product itself has not shown practical
+    application.

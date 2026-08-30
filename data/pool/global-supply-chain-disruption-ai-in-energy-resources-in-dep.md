@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOdDlJbUdzaWtw
 summary: 'Global Supply Chain Disruption: AI in Energy, Resources [In-Depth Analysis, 2026] Klover.ai'
 first_seen: '2026-08-29T21:11:21Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -378,3 +378,40 @@
   usage_reason: 公开代码仓库有 82 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 82 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-ra-bench-2026-08-30
+  project_slug: ra-bench
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决危机场景中 AI 生成视频难以检测的问题，提供锚定真实事件的基准测试，交付可评估的检测工具性能。工作流结构推理：审核员需要可靠检测，旧方式是人工或通用工具，痛点明确。
+    evidence_ids:
+    - ev-db518e7abe012c63
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 89 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-66bcc9d43ddc3044
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 内容审核员和事实核查员需要检测危机场景中 AI 生成的视频。
+  job_en: Content moderators and fact-checkers need to detect AI-generated videos in crisis settings.
+  pain: AI 生成视频难以识别，尤其在危机事件中可能造成误导。
+  pain_en: AI-generated videos are hard to identify, especially in crisis events where they can mislead.
+  current_alternative: 依赖人工审查或通用检测工具，缺乏针对真实事件的基准。
+  current_alternative_en: Relying on manual review or generic detection tools, lacking benchmarks anchored
+    to real events.
+  usage_reason: 开源仓库获得 89 个星标，显示研究人员关注，但实际采用和付费未核验。
+  usage_reason_en: The open-source repository has 89 stars, showing researcher interest, but actual adoption
+    and payment are unverified.

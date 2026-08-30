@@ -115,3 +115,42 @@
   usage_reason: AI 工具能自动检测多种问题并生成结构化报告，提高审查效率，吸引维护者关注。
   usage_reason_en: AI tools can automatically detect various issues and generate structured reports, improving
     review efficiency, attracting maintainers' attention.
+- id: req-full-oss-pr-reviewer-2026-08-30
+  project_slug: oss-pr-reviewer
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开源维护者审查 PR 耗时且易遗漏的问题，提供自动检测和结构化报告，交付可核对的结果。工作流结构推理：维护者需要高效审查，旧方式是人工，痛点明确。
+    evidence_ids:
+    - ev-fe638510aed17cc1
+  - gate: consensus
+    status: insufficient
+    reason: 项目在代码托管平台获得 110 个星标，关注度有限，缺乏用户评价或采用证据。
+    evidence_ids:
+    - ev-f96a5a6ab01fa6bd
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，可能通过支持或云服务盈利，但无公开信息。
+    evidence_ids:
+    - ev-fe638510aed17cc1
+  - gate: truth
+    status: supported
+    reason: 项目提供实际功能，非虚构，但检测准确性需进一步验证。
+    evidence_ids:
+    - ev-fe638510aed17cc1
+  next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户报告实际使用案例。
+  market: ''
+  job: 开源维护者需要快速审查大量 PR，识别潜在问题。
+  job_en: Open-source maintainers need to quickly review many PRs and identify potential issues.
+  pain: 人工审查耗时且容易遗漏，尤其是安全风险和回归问题。
+  pain_en: Manual review is time-consuming and prone to missing issues, especially security risks and
+    regressions.
+  current_alternative: 依赖人工审查或使用简单的静态分析工具。
+  current_alternative_en: Relying on manual review or using simple static analysis tools.
+  usage_reason: AI 工具能自动检测多种问题并生成结构化报告，提高审查效率，吸引维护者关注，星标 110。
+  usage_reason_en: AI tools can automatically detect various issues and generate structured reports, improving
+    review efficiency, attracting maintainers' attention, with 110 stars.

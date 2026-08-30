@@ -309,3 +309,42 @@
   usage_reason: 公开仓库有 99 星，显示开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The public repository has 99 stars, showing developer attention, but sustained use
     and payment are not yet verified.
+- id: req-full-film-studio-skills-2026-08-30
+  project_slug: film-studio-skills
+  level: full
+  reviewed_at: '2026-08-30T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 视频创作者从剧本生成镜头提示词的痛点，提供 7 个可安装技能，覆盖完整流程。工作流结构推理：痛点明确，交付可确定。
+    evidence_ids:
+    - ev-1cee74dd01e7d0fd
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 102 星显示社区关注，但缺乏用户评价或持续采用证据，共识不足。
+    evidence_ids:
+    - ev-7d346dd55ea3bc2a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是视频制作人或团队，但尚无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和安全边界，需进一步验证技能的实际效果。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈技能效果和实际使用案例。
+  market: ''
+  job: AI 视频创作者需要从剧本生成可用的镜头提示词，以驱动视频生成工具。
+  job_en: AI video creators need to generate usable shot prompts from scripts to drive video generation
+    tools.
+  pain: 手动编写镜头提示词耗时且不专业，难以保证生成质量。
+  pain_en: Manually writing shot prompts is time-consuming and unprofessional, making it hard to ensure
+    generation quality.
+  current_alternative: 用户可能手动编写提示词或使用通用工具，但公开材料未明确说明。
+  current_alternative_en: Users may write prompts manually or use general tools, but public materials
+    do not specify.
+  usage_reason: 仓库获得 102 星，表明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 102 stars, showing developer interest, but sustained use and payment
+    are not yet verified.

@@ -300,3 +300,45 @@
   current_alternative_en: Currently, developers may use code or YAML configuration, which is not intuitive.
   usage_reason: 仓库 59 星显示初步关注；但采用和付费未核验。
   usage_reason_en: The repository's 59 stars show initial interest; adoption and payment are not verified.
+- id: req-full-openflow-2026-08-30
+  project_slug: openflow
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者编排多代理 AI 工作流时流程复杂、难以可视化的问题，提供拖拽界面和基于 opencode 引擎的构建能力，交付可确定的编排结果。工作流结构推理：开发者需要多代理协作，旧方式是手动脚本，痛点明确。
+    evidence_ids:
+    - ev-5b5ca04c4615e31a
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库星标从 59 增长到 64，显示一定关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-dda08cf8156cdb90
+    - ev-9618036e9b252c02
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，可能通过支持或云服务盈利，但无公开信息。
+    evidence_ids:
+    - ev-5b5ca04c4615e31a
+  - gate: truth
+    status: insufficient
+    reason: 项目提供实际功能，但交付质量和安全边界未验证，需进一步测试。
+    evidence_ids:
+    - ev-5b5ca04c4615e31a
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认开发者实际使用场景和反馈。
+  market: ''
+  job: 开发者需要编排多个 AI 代理协同完成复杂任务，例如代码生成、测试、审查等。
+  job_en: Developers need to orchestrate multiple AI agents to collaborate on complex tasks such as code
+    generation, testing, and review.
+  pain: 手动编排多个 AI 代理的流程复杂、易出错，且难以可视化和调试。
+  pain_en: Manually orchestrating multiple AI agents is complex, error-prone, and hard to visualize and
+    debug.
+  current_alternative: 目前开发者可能使用脚本或命令行工具手动串联各代理，或依赖单一代理处理所有任务。
+  current_alternative_en: Developers may currently use scripts or CLI tools to manually chain agents,
+    or rely on a single agent for all tasks.
+  usage_reason: 开源仓库获得 64 个星标，说明开发者对可视化多代理编排有初步兴趣，但持续使用和付费尚未核验。
+  usage_reason_en: The open-source repository has 64 stars, indicating initial developer interest in visual
+    multi-agent orchestration, but sustained usage and payment are not yet verified.

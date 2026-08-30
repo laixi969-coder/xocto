@@ -387,3 +387,41 @@
   usage_reason: 公开代码仓库有1,016个收藏，说明开发者关注；持续使用与付费仍未核验。
   usage_reason_en: The public repository has 1,016 stars, showing developer attention; repeat use and
     payment are not yet verified.
+- id: req-full-dsh-vision-router-2026-08-30
+  project_slug: dsh-vision-router
+  level: full
+  reviewed_at: '2026-08-30T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决纯文本代理缺乏视觉能力的痛点，交付为视觉工具链，结构上成立。
+    evidence_ids:
+    - ev-68b242426cde180b
+  - gate: consensus
+    status: insufficient
+    reason: 1022 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-a0724d948f3eb481
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-68b242426cde180b
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 和视觉链，人工边界未明确。
+    evidence_ids:
+    - ev-68b242426cde180b
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: 为纯文本的 DeepSeek Harness 代理提供视觉能力，如图像问答、OCR、截图等。
+  job_en: Provide vision capabilities to text-only DeepSeek Harness agents, such as image Q&A, OCR, screenshots.
+  pain: 纯文本代理无法处理图像任务，限制了应用场景。
+  pain_en: Text-only agents cannot handle image tasks, limiting application scenarios.
+  current_alternative: 使用其他多模态 AI 工具或手动处理图像。
+  current_alternative_en: Using other multimodal AI tools or manually processing images.
+  usage_reason: 1022 个星标显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: 1022 stars indicate developer interest, but sustained usage and payment are not yet
+    verified.

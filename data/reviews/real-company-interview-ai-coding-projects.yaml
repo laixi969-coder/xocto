@@ -154,3 +154,41 @@
   usage_reason: 公开代码仓库有 195 个收藏、14 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 195 stars and 14 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-real-company-interview-ai-coding-projects-2026-08-30
+  project_slug: real-company-interview-ai-coding-projects
+  level: full
+  reviewed_at: '2026-08-30T00:49:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者缺乏真实 AI 编码面试题和解题方法的问题，提供匿名化真实题目和通用方法，交付可练习的准备材料。工作流结构推理：求职者需要实战准备，旧方式是通用算法题，痛点明确。
+    evidence_ids:
+    - ev-0359f74880a0b3f3
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 244 个收藏、14 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-8b038defe83042e9
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 求职者需要准备 AI 编码面试，获取真实项目题和解题方法。
+  job_en: Job seekers need to prepare for AI coding interviews, obtaining real project questions and solving
+    methods.
+  pain: 面试准备缺乏真实题目，通用解题方法难以获取。
+  pain_en: Interview preparation lacks real questions, and general solving methods are hard to obtain.
+  current_alternative: 依赖公开的算法题或付费课程，但缺乏针对 AI 编码的实战项目。
+  current_alternative_en: Relying on public algorithm questions or paid courses, but lacking hands-on
+    projects for AI coding.
+  usage_reason: 开源仓库星标从 229 增长到 244，显示求职者关注，但持续使用和付费未核验。
+  usage_reason_en: The open-source repository stars grew from 229 to 244, showing job seeker interest,
+    but sustained usage and payment are not verified.

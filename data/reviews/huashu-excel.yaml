@@ -231,3 +231,42 @@
   usage_reason: 公开代码仓库有 334 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The public repository has 334 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-huashu-excel-2026-08-30
+  project_slug: huashu-excel
+  level: full
+  reviewed_at: '2026-08-30T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据分析师处理脏乱 Excel 表时清洗和分析繁琐的痛点，提供全流程 skill，确保数字可核对。工作流结构推理：痛点明确，交付可确定。
+    evidence_ids:
+    - ev-9ec3001b5929ab17
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 341 星显示社区关注，但缺乏用户评价或持续采用证据，共识不足。
+    evidence_ids:
+    - ev-5743729f0a6d59ce
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是数据分析师或企业，但尚无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和安全边界，需进一步验证 skill 的实际效果。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈 skill 效果和实际使用案例。
+  market: ''
+  job: 数据分析师或财务人员需要处理脏乱 Excel 表，进行清洗、分析、对账并交付可核对的报告。
+  job_en: Data analysts or finance staff need to process messy Excel sheets, clean, analyze, reconcile,
+    and deliver verifiable reports.
+  pain: 手动清洗和分析 Excel 数据耗时且易出错，AI 生成的结果难以核对。
+  pain_en: Manually cleaning and analyzing Excel data is time-consuming and error-prone, and AI-generated
+    results are hard to verify.
+  current_alternative: 用户可能使用 Excel 公式或手动处理，但公开材料未明确说明。
+  current_alternative_en: Users may use Excel formulas or manual processing, but public materials do not
+    specify.
+  usage_reason: 仓库获得 341 星，表明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 341 stars, showing developer interest, but sustained use and payment
+    are not yet verified.

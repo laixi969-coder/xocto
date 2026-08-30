@@ -342,3 +342,42 @@
   usage_reason: 公开代码仓库有 76 个收藏、10 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 76 stars and 10 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-clipfactory-2026-08-30
+  project_slug: clipfactory
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频创作者从B-roll生成短视频的需求，痛点在于手动剪辑耗时，产品自动化脚本、配音、字幕等步骤，交付可确定。工作流结构推理。
+    evidence_ids:
+    - ev-b9c4b5e423279ae5
+  - gate: consensus
+    status: insufficient
+    reason: 91星显示关注，但缺乏用户评价或采用案例。
+    evidence_ids:
+    - ev-173ce80c888a43f0
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能开源免费，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付质量未经验证，缺乏可复现的公开证据。
+    evidence_ids: []
+  next_validation: 查看GitHub仓库的issue和discussion，寻找用户使用案例或输出示例。
+  market: ''
+  job: 视频创作者和内容营销人员需要从自己的B-roll素材快速生成竖屏短视频。
+  job_en: Video creators and content marketers need to quickly generate short vertical videos from their
+    own B-roll footage.
+  pain: 手动剪辑短视频耗时，需要脚本、配音、字幕等多步骤，效率低。
+  pain_en: Manually editing short videos is time-consuming, requiring scripting, voiceover, captions,
+    and other steps, which is inefficient.
+  current_alternative: 用户可能使用专业剪辑软件或外包，但成本高或周期长。
+  current_alternative_en: Users may use professional editing software or outsource, but it is costly or
+    slow.
+  usage_reason: 开源仓库获得91星，显示开发者关注，但持续使用和付费未核验。
+  usage_reason_en: The open-source repository has 91 stars, showing developer interest, but sustained
+    usage and payment are not verified.

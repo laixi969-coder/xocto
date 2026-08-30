@@ -1,0 +1,69 @@
+- id: req-initial-idea-miner-2026-08-30
+  project_slug: idea-miner
+  level: initial
+  reviewed_at: '2026-08-30T00:20:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明产品用于创意排序，但未说明具体输入、输出和旧流程，无法判断需求强度。
+    evidence_ids:
+    - ev-f4c69aa5772d7b6f
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈和采用数据，无法判断共识。
+    evidence_ids:
+    - ev-f4c69aa5772d7b6f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注 Idea Miner 官网是否提供定价、客户案例或详细工作流说明。
+  market: ''
+  job: 创业者需要从多个想法中筛选出最有潜力的一个进行开发。
+  job_en: Founders need to select the most promising idea from multiple options to develop.
+  pain: 想法太多，难以客观评估，容易凭直觉决策。
+  pain_en: Too many ideas, hard to evaluate objectively, often decisions are made by intuition.
+  current_alternative: 目前创业者通常依靠个人经验、市场调研或咨询顾问来筛选。
+  current_alternative_en: Currently founders rely on personal experience, market research, or consultants.
+  usage_reason: 尚未核验，但 AI 排序可能提供更客观的参考。
+  usage_reason_en: Not yet verified, but AI ranking may provide a more objective reference.
+- id: req-full-idea-miner-2026-08-30
+  project_slug: idea-miner
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明产品用于创意排序，但未说明具体输入、输出和旧流程，无法判断需求强度。
+    evidence_ids:
+    - ev-f4c69aa5772d7b6f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Idea Miner 官网是否提供定价、客户案例或详细工作流说明。
+  market: ''
+  job: 创业者需要从多个想法中筛选出最有潜力的一个进行开发。
+  job_en: Founders need to select the most promising idea from multiple options to develop.
+  pain: 想法太多，难以客观评估，容易凭直觉决策。
+  pain_en: Too many ideas, hard to evaluate objectively, often decisions are made by intuition.
+  current_alternative: 目前创业者通常依靠个人经验、市场调研或咨询顾问来筛选。
+  current_alternative_en: Currently founders rely on personal experience, market research, or consultants.
+  usage_reason: 尚未核验，但 AI 排序可能提供更客观的参考。
+  usage_reason_en: Not yet verified, but AI ranking may provide a more objective reference.

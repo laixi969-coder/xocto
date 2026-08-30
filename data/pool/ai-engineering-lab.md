@@ -2,15 +2,16 @@
 slug: ai-engineering-lab
 name: AI-Engineering-Lab
 builder: zorost
-category: AI + 开发
-summary_zh: 想系统学习 AI 工程的人，通过 24 周课程和 43 个笔记本，从 Python 到 LLM、RAG、微调、代理，覆盖主流云平台，无需注册，MIT 许可。交付的是完整学习路径和可运行代码。
-inspiration: 趋势是 AI 工程教育走向免费、系统化。切入点是面向转行者提供完整课程，但需考虑如何与付费课程竞争，如与企业合作提供认证。
-summary_en: People wanting to systematically learn AI engineering go through a 24-week course with 43
-  notebooks, from Python to LLMs, RAG, fine-tuning, agents, covering major cloud platforms, no signup,
-  MIT licensed. Deliverables are a complete learning path and runnable code.
-inspiration_en: The trend is AI engineering education moving towards free, systematic offerings. The entry
-  point is providing a complete course for career switchers, but must consider competing with paid courses,
-  such as partnering with enterprises for certification.
+category: AI + 效率
+summary_zh: 面向想系统学习 AI 工程的学生和开发者，提供 24 周免费课程，覆盖 Python、机器学习、LLM、RAG、微调、agent 和 MCP，以及 Azure、Vertex、Bedrock
+  和 Databricks。包含 43 个可运行笔记本和一个连续案例研究，MIT 许可，无需注册。
+inspiration: 趋势是 AI 工程教育从零散教程走向系统化、可运行的课程体系。切入点是面向转行者和学生的免费开源课程，通过案例驱动和云平台实操建立口碑，后续可提供认证或企业培训收费。
+summary_en: A free 24-week AI engineering course for students and developers, covering Python, ML, LLMs,
+  RAG, fine-tuning, agents, MCP, and major cloud platforms. Includes 43 runnable notebooks and a continuous
+  case study, MIT licensed, no signup.
+inspiration_en: 'Trend: AI engineering education is moving from scattered tutorials to systematic, runnable
+  curricula. Entry: target career switchers and students with free open-source courses, build reputation
+  through case-driven cloud practice, then monetize via certification or enterprise training.'
 priority_review: false
 project_type: open_source
 industries:
@@ -22,11 +23,15 @@ industries_en:
 jobs:
 - AI 工程师
 - 学生
+- 软件开发者
 jobs_en:
-- AI Engineers
-- Students
-regions: []
-regions_en: []
+- AI Engineer
+- Student
+- Software Developer
+regions:
+- 全球
+regions_en:
+- Global
 open_source: true
 url: https://zorost.com/ai-engineering-lab
 canonical_url: https://zorost.com/ai-engineering-lab
@@ -35,7 +40,7 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
 last_seen: '2026-08-30T00:20:08Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - newssearch

@@ -119,3 +119,44 @@
   usage_reason: 开源项目获得 77 星，显示视频创作者对 AI 导演工具的初步兴趣，但采用规模尚未核验。
   usage_reason_en: The open-source project has 77 stars, showing initial interest from video creators
     in AI director tools, but adoption scale is not yet verified.
+- id: req-full-minimax-h3-director-cut-studio-2026-08-30
+  project_slug: minimax-h3-director-cut-studio
+  level: full
+  reviewed_at: '2026-08-30T00:49:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 视频生成缺乏长视频结构化控制的问题，替代传统剪辑软件与 AI 生成的割裂，交付可规划的镜头和渲染结果，价值结构成立。
+    evidence_ids:
+    - ev-25e711d77845ab45
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 77 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-25e711d77845ab45
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向专业创作者，但付费路径不明确。
+    evidence_ids:
+    - ev-25e711d77845ab45
+  - gate: truth
+    status: supported
+    reason: 作为本地工具，交付确定性高，不依赖外部服务，安全边界清晰。
+    evidence_ids:
+    - ev-25e711d77845ab45
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际使用案例。
+  market: ''
+  job: 视频创作者需要将 AI 生成的片段组织成连贯的长视频，并控制镜头和叙事。
+  job_en: Video creators need to organize AI-generated clips into coherent long videos with control over
+    shots and narrative.
+  pain: 现有 AI 视频工具缺乏对长视频的结构化控制，导致剪辑繁琐且不连贯。
+  pain_en: Existing AI video tools lack structured control over long videos, making editing tedious and
+    incoherent.
+  current_alternative: 目前创作者可能使用 Premiere 等传统剪辑软件，但无法直接利用 AI 生成能力。
+  current_alternative_en: Currently creators may use traditional editing software like Premiere, but cannot
+    directly leverage AI generation.
+  usage_reason: 开源项目获得 77 星，显示视频创作者对 AI 导演工具的初步兴趣，但采用规模尚未核验。
+  usage_reason_en: The open-source project has 77 stars, showing initial interest from video creators
+    in AI director tools, but adoption scale is not yet verified.

@@ -117,3 +117,43 @@
   current_alternative_en: Paid courses, books, or online tutorials.
   usage_reason: 开源项目，486 星，HN 111 分，社区关注度高，免费且实用。
   usage_reason_en: Open-source with 486 stars, 111 HN points, high community attention, free and practical.
+- id: req-full-ai-engineer-notebooks-2026-08-30
+  project_slug: ai-engineer-notebooks
+  level: full
+  reviewed_at: '2026-08-30T00:44:22Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 工程师技能学习的需求，痛点在于现有课程缺乏实践，交付可运行的笔记本，价值结构成立。
+    evidence_ids:
+    - ev-91e58df1e70f1522
+    - ev-6a95b4618bf48d53
+  - gate: consensus
+    status: supported
+    reason: 486 星和 111 HN 分表明社区认可，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-91e58df1e70f1522
+    - ev-6a95b4618bf48d53
+  - gate: model
+    status: insufficient
+    reason: 免费开源，无明确商业模式，付费路径未披露。
+    evidence_ids:
+    - ev-91e58df1e70f1522
+  - gate: truth
+    status: supported
+    reason: 内容真实可运行，基于 Groq API，交付确定。
+    evidence_ids:
+    - ev-91e58df1e70f1522
+  next_validation: 关注仓库的 issue 和讨论，看是否有用户反馈和持续使用。
+  market: ''
+  job: 学习 AI 工程技能，包括模型 API、RAG、代理等。
+  job_en: Learn AI engineering skills including model APIs, RAG, agents, etc.
+  pain: 现有课程昂贵或缺乏实践，转行者难以获得动手经验。
+  pain_en: Existing courses are expensive or lack practice, making it hard for career switchers to gain
+    hands-on experience.
+  current_alternative: 付费课程、书籍或在线教程。
+  current_alternative_en: Paid courses, books, or online tutorials.
+  usage_reason: 开源项目，486 星，HN 111 分，社区关注度高，免费且实用。
+  usage_reason_en: Open-source with 486 stars, 111 HN points, high community attention, free and practical.

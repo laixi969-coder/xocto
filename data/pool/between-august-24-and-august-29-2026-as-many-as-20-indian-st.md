@@ -25,7 +25,7 @@ summary: Between August 24 and August 29, 2026, as many as 20 Indian startups fr
   EV, Petcare, Autotech, Healthtech, Wellness, and Cl instagram.com
 first_seen: '2026-08-29T16:01:11Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

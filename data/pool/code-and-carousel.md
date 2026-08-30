@@ -21,7 +21,7 @@ canonical_url: https://github.com/apoorwa-induwara/code-and-carousel
 summary: 'Practical IT Skills Lab 2026: Learn, Teach & Build Real-World Projects'
 first_seen: '2026-08-25T10:03:02Z'
 last_seen: '2026-08-30T00:20:08Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

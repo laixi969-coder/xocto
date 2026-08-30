@@ -21,7 +21,7 @@ canonical_url: https://github.com/krisraven/qwiksi
 summary: Qwiksi a CLI tool for adding your signature to a PDFs
 first_seen: '2026-08-29T11:24:33Z'
 last_seen: '2026-08-30T00:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

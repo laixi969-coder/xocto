@@ -77,3 +77,77 @@
   usage_reason: 关注度来自企业数智化转型宣传，实际采用和效果尚未核验。
   usage_reason_en: Attention stems from corporate digital transformation publicity; actual adoption and
     effects are unverified.
+- id: req-initial-蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间-2026-08-30
+  project_slug: 蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及智能体发布，未说明具体功能、输入输出和交付物，无法判断价值。
+    evidence_ids:
+    - ev-20f85f3c8ce6fd61
+    - ev-ad458051f842ce03
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注问草智能体的官方产品页面或演示，获取具体功能、定价和客户案例。
+  market: ''
+  job: 生态修复工程师和农业技术员需要分析土壤、植被、气候数据，制定修复方案。
+  job_en: Ecological restoration engineers and agricultural technicians need to analyze soil, vegetation,
+    and climate data to develop restoration plans.
+  pain: 数据收集和分析耗时，专家经验难以复制。
+  pain_en: Data collection and analysis are time-consuming, and expert experience is hard to replicate.
+  current_alternative: 目前主要依赖人工实地考察和专家咨询。
+  current_alternative_en: Currently relies on manual field surveys and expert consultation.
+  usage_reason: 蒙草生态作为上市公司发布智能体，可能吸引关注，但具体采用情况尚未核验。
+  usage_reason_en: As a listed company, Mengcao Ecology's agent release may attract attention, but specific
+    adoption is unverified.
+- id: req-full-蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间-2026-08-30
+  project_slug: 蒙草生态上半年研发投入933719万元-问草智能体发布打开数智化增长新空间
+  level: full
+  reviewed_at: '2026-08-30T00:50:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及智能体发布，未说明具体功能、输入输出和交付物，无法判断价值。
+    evidence_ids:
+    - ev-20f85f3c8ce6fd61
+    - ev-ad458051f842ce03
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注问草智能体的官方产品页面或演示，获取具体功能、定价和客户案例。
+  market: ''
+  job: 生态修复工程师和农业技术员需要分析土壤、植被、气候数据，制定修复方案。
+  job_en: Ecological restoration engineers and agricultural technicians need to analyze soil, vegetation,
+    and climate data to develop restoration plans.
+  pain: 数据收集和分析耗时，专家经验难以复制。
+  pain_en: Data collection and analysis are time-consuming, and expert experience is hard to replicate.
+  current_alternative: 目前主要依赖人工实地考察和专家咨询。
+  current_alternative_en: Currently relies on manual field surveys and expert consultation.
+  usage_reason: 蒙草生态作为上市公司发布智能体，可能吸引关注，但具体采用情况尚未核验。
+  usage_reason_en: As a listed company, Mengcao Ecology's agent release may attract attention, but specific
+    adoption is unverified.

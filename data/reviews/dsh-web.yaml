@@ -304,3 +304,41 @@
   usage_reason: 公开代码仓库有6,394个收藏、414个复刻，说明开发者关注；持续使用与付费仍未核验。
   usage_reason_en: The public repository has 6,394 stars and 414 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-dsh-web-2026-08-30
+  project_slug: dsh-web
+  level: full
+  reviewed_at: '2026-08-30T00:46:44Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSH 插件分发和安装的需求，痛点在于缺乏统一渠道，交付为插件聚合平台，结构上成立。
+    evidence_ids:
+    - ev-a796f55b8658de6e
+  - gate: consensus
+    status: insufficient
+    reason: 6454 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-bd3a4d6d03db2fe6
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-a796f55b8658de6e
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 生态，人工边界未明确。
+    evidence_ids:
+    - ev-a796f55b8658de6e
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: 通过插件扩展 DeepSeek Harness 的功能，使用创意工坊分发平台。
+  job_en: Extend DeepSeek Harness functionality through plugins, using a workshop distribution platform.
+  pain: 用户需要手动寻找和安装插件，缺乏统一的分发渠道。
+  pain_en: Users need to manually find and install plugins, lacking a unified distribution channel.
+  current_alternative: 手动从 GitHub 或其他网站下载插件并配置。
+  current_alternative_en: Manually downloading plugins from GitHub or other websites and configuring them.
+  usage_reason: 6454 个星标显示开发者高度关注，但持续使用和付费尚未核验。
+  usage_reason_en: 6454 stars indicate high developer interest, but sustained usage and payment are not
+    yet verified.

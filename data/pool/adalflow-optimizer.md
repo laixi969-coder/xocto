@@ -21,7 +21,7 @@ canonical_url: https://github.com/genoskietv/AdalFlow-Optimizer
 summary: 'Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide'
 first_seen: '2026-08-25T08:57:31Z'
 last_seen: '2026-08-30T00:20:08Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

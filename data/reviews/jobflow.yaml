@@ -375,3 +375,42 @@
   usage_reason: 公开代码仓库有 96 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The public repository has 96 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-jobflow-2026-08-30
+  project_slug: jobflow
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者管理求职流程的需求，痛点在于手动生成材料耗时，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-941511c78470c196
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 104 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-941511c78470c196
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 求职者需要管理求职流程，包括生成申请材料和跟踪申请状态。
+  job_en: Job seekers need to manage the job application process, including generating application materials
+    and tracking application status.
+  pain: 求职过程繁琐，手动生成定制申请材料耗时，且难以跟踪多个申请。
+  pain_en: The job application process is tedious, manually generating tailored materials is time-consuming,
+    and tracking multiple applications is difficult.
+  current_alternative: 目前求职者可能使用通用 AI 工具（如 ChatGPT）辅助写作，或手动管理申请记录。
+  current_alternative_en: Currently job seekers may use general AI tools (e.g., ChatGPT) for writing assistance,
+    or manually manage application records.
+  usage_reason: 公开代码仓库有 104 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 104 stars, showing developer attention; repeat use and payment
+    are not yet verified.

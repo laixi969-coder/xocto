@@ -1,0 +1,80 @@
+- id: req-initial-tokensift-2026-08-30
+  project_slug: tokensift
+  level: initial
+  reviewed_at: '2026-08-30T00:20:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者优化提示词以降低 token 成本的需求，痛点明确且交付可确定（输出优化建议）。工作流结构判断：旧方式是手动精简，效率低。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目，社区讨论有限（HN 6 分 3 评论），尚未见广泛采用或用户反馈，共识证据不足。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确商业模式，付费方未披露。可能通过企业支持或云服务变现，但未证实。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的第一性目标（降低成本），交付确定性高，安全风险低。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  next_validation: 关注仓库的 star 增长、issue 讨论和用户反馈，以及是否出现企业采用案例。
+  market: ''
+  job: 开发者需要降低 LLM 调用的 token 成本，同时保持提示词效果。
+  job_en: Developers need to reduce token costs of LLM calls while maintaining prompt effectiveness.
+  pain: 提示词冗长或低效导致 token 消耗增加，成本上升，且手动优化费时费力。
+  pain_en: Verbose or inefficient prompts increase token consumption and costs, and manual optimization
+    is time-consuming and laborious.
+  current_alternative: 开发者通常手动精简提示词，或依赖经验反复测试，缺乏系统性工具。
+  current_alternative_en: Developers typically manually trim prompts or rely on experience and repeated
+    testing, lacking systematic tools.
+  usage_reason: 开源工具免费且可直接集成到开发流程，能快速获得优化建议，降低使用门槛。
+  usage_reason_en: Open-source tool is free and can be directly integrated into development workflows,
+    providing quick optimization suggestions and lowering the barrier to use.
+- id: req-full-tokensift-2026-08-30
+  project_slug: tokensift
+  level: full
+  reviewed_at: '2026-08-30T00:50:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者优化提示词以降低 token 成本的需求，痛点明确且交付可确定（输出优化建议）。工作流结构判断：旧方式是手动精简，效率低。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目，社区讨论有限（HN 6 分 3 评论），尚未见广泛采用或用户反馈，共识证据不足。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确商业模式，付费方未披露。可能通过企业支持或云服务变现，但未证实。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的第一性目标（降低成本），交付确定性高，安全风险低。
+    evidence_ids:
+    - ev-a82f76964df47dff
+  next_validation: 关注仓库的 star 增长、issue 讨论和用户反馈，以及是否出现企业采用案例。
+  market: ''
+  job: 开发者需要降低 LLM 调用的 token 成本，同时保持提示词效果。
+  job_en: Developers need to reduce token costs of LLM calls while maintaining prompt effectiveness.
+  pain: 提示词冗长或低效导致 token 消耗增加，成本上升，且手动优化费时费力。
+  pain_en: Verbose or inefficient prompts increase token consumption and costs, and manual optimization
+    is time-consuming and laborious.
+  current_alternative: 开发者通常手动精简提示词，或依赖经验反复测试，缺乏系统性工具。
+  current_alternative_en: Developers typically manually trim prompts or rely on experience and repeated
+    testing, lacking systematic tools.
+  usage_reason: 开源工具免费且可直接集成到开发流程，能快速获得优化建议，降低使用门槛。
+  usage_reason_en: Open-source tool is free and can be directly integrated into development workflows,
+    providing quick optimization suggestions and lowering the barrier to use.

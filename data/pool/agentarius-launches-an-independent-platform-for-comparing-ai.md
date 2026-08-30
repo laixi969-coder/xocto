@@ -1,6 +1,6 @@
 ---
 slug: agentarius-launches-an-independent-platform-for-comparing-ai
-name: Agentarius Launches an Independent Platform for Comparing AI Tools
+name: Agentarius
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPWWZEdE85LVdG
 summary: Agentarius Launches an Independent Platform for Comparing AI Tools EIN News
 first_seen: '2026-08-27T05:22:46Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Agentarius Launches an Independent Platform for Comparing AI Tools
+# Agentarius
 
 Agentarius Launches an Independent Platform for Comparing AI Tools EIN News
 

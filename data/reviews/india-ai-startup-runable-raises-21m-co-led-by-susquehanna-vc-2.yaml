@@ -1,0 +1,79 @@
+- id: req-initial-india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc-2-2026-08-30
+  project_slug: india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc-2
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅披露融资信息，未说明产品功能、目标用户或工作流，无法判断其解决什么需求。
+    evidence_ids:
+    - ev-bb003084dca14347
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户或市场共识证据。
+    evidence_ids:
+    - ev-bb003084dca14347
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断商业模式。
+    evidence_ids:
+    - ev-bb003084dca14347
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付真实性。
+    evidence_ids:
+    - ev-bb003084dca14347
+  next_validation: 关注 Runable 官方发布的产品介绍或官网，以获取具体功能、目标客户和定价信息。
+  market: ''
+  job: 未明确：Runable 试图解决什么用户任务尚未披露。
+  job_en: 'Unclear: What user job Runable aims to solve is not disclosed.'
+  pain: 未明确：没有公开信息说明其针对的痛点。
+  pain_en: 'Unclear: No public information on the pain point it addresses.'
+  current_alternative: 未明确：没有公开信息说明现有替代方式。
+  current_alternative_en: 'Unclear: No public information on current alternatives.'
+  usage_reason: 未核验：仅有融资新闻，没有用户采用或关注证据。
+  usage_reason_en: 'Not verified: Only funding news, no evidence of user adoption or attention.'
+- id: req-full-india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc-2-2026-08-30
+  project_slug: india-ai-startup-runable-raises-21m-co-led-by-susquehanna-vc-2
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户需要自动化端到端工作流的需求，痛点在于手动执行耗时易错，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-3ebea2105a267ff6
+    - ev-7fec38bdc2c5b57d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示融资，未披露用户采用或客户案例，共识证据不足。
+    evidence_ids:
+    - ev-bb003084dca14347
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能是订阅或按使用量收费，但未披露定价，买方为开发者或企业。
+    evidence_ids:
+    - ev-bb003084dca14347
+  - gate: truth
+    status: insufficient
+    reason: 产品已上线，但交付质量和可靠性尚未有公开验证。
+    evidence_ids:
+    - ev-3ebea2105a267ff6
+  next_validation: 关注 Runable 官方发布的产品介绍或官网，以获取具体功能、目标客户和定价信息。
+  market: ''
+  job: 开发者和企业需要 AI 通用代理来自动化端到端的工作流程，包括构建、运行和增长业务。
+  job_en: Developers and businesses need an AI general agent to automate end-to-end workflows, including
+    building, running, and growing their business.
+  pain: 手动执行重复性任务耗时且易出错，缺乏自动化工具来规划和执行复杂工作流。
+  pain_en: Manually performing repetitive tasks is time-consuming and error-prone, lacking automation
+    tools to plan and execute complex workflows.
+  current_alternative: 目前开发者可能使用脚本、RPA 工具或通用 AI 助手（如 ChatGPT）来辅助，但这些工具缺乏端到端的执行能力。
+  current_alternative_en: Currently developers may use scripts, RPA tools, or general AI assistants (e.g.,
+    ChatGPT) to assist, but these lack end-to-end execution capabilities.
+  usage_reason: Runable 获得 2100 万美元融资，表明投资者看好 AI 代理市场，但公开采用数据尚未核验。
+  usage_reason_en: Runable raised $21M, indicating investor confidence in the AI agent market, but public
+    adoption data is not yet verified.

@@ -21,7 +21,7 @@ canonical_url: https://github.com/mainak55512/flint
 summary: A minimal C/C++ package manager and build tool written in C
 first_seen: '2026-08-29T17:44:37Z'
 last_seen: '2026-08-30T00:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

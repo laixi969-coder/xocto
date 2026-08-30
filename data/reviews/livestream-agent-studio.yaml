@@ -155,3 +155,42 @@
   usage_reason: 开源仓库获得 342 星，显示开发者对直播电商 AI 工具的兴趣，但付费和持续采用尚未核验。
   usage_reason_en: The open-source repository has 342 stars, showing developer interest in live e-commerce
     AI tools, but payment and sustained adoption are not yet verified.
+- id: req-full-livestream-agent-studio-2026-08-30
+  project_slug: livestream-agent-studio
+  level: full
+  reviewed_at: '2026-08-30T00:48:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决直播运营和内容编导管理抖音直播电商工作流的需求，痛点在于多环节手动分析耗时，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-c70c057849145a8e
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 389 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-c70c057849145a8e
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 直播运营和内容编导需要管理抖音直播电商的完整工作流，包括主播发现、直播洞察、复盘和短视频编导。
+  job_en: Live stream operators and content directors need to manage the complete workflow for Douyin
+    live commerce, including streamer discovery, live insights, review, and short video direction.
+  pain: 直播运营涉及多个环节，手动分析数据耗时，且缺乏统一工具。
+  pain_en: Live stream operations involve multiple steps, manual data analysis is time-consuming, and
+    there is a lack of unified tools.
+  current_alternative: 目前可能使用多个分散工具（如数据分析平台、内容编辑软件）或手动操作。
+  current_alternative_en: Currently may use multiple scattered tools (e.g., data analytics platforms,
+    content editing software) or manual operations.
+  usage_reason: 公开代码仓库有 389 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 389 stars, showing developer attention; repeat use and payment
+    are not yet verified.

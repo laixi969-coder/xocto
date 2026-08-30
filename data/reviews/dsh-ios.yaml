@@ -382,3 +382,44 @@
   usage_reason: 公开代码仓库有 265 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 265 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-dsh-ios-2026-08-30
+  project_slug: dsh-ios
+  level: full
+  reviewed_at: '2026-08-30T00:46:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 iOS 调试中在对话内直接控制模拟器或真机的需求，痛点在于减少手动操作和工具切换，交付为实时界面控制，结构上成立。
+    evidence_ids:
+    - ev-6619ea710245be6d
+  - gate: consensus
+    status: insufficient
+    reason: 266 个星标显示关注，但缺乏用户评价或持续采用证据。
+    evidence_ids:
+    - ev-97e1641a8d409111
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-6619ea710245be6d
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性依赖 DSH 和 iOS 模拟器/设备，人工边界未明确。
+    evidence_ids:
+    - ev-6619ea710245be6d
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  market: ''
+  job: iOS 开发者或测试工程师在调试应用时，将模拟器或 USB 连接的 iPhone 接入对话，通过代理工具驱动界面。
+  job_en: iOS developers or test engineers connect a simulator or USB-connected iPhone to a conversation
+    and drive the UI via agent tools during debugging.
+  pain: 传统调试需要手动操作模拟器或设备，无法在对话中直接控制，效率低。
+  pain_en: Traditional debugging requires manual operation of simulator or device, lacking direct control
+    in conversation, reducing efficiency.
+  current_alternative: 使用 Xcode 或 Appium 等工具手动操作模拟器，或编写自动化脚本。
+  current_alternative_en: Using tools like Xcode or Appium to manually operate simulators, or writing
+    automation scripts.
+  usage_reason: 266 个星标显示开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: 266 stars indicate developer interest, but sustained usage and payment are not yet
+    verified.

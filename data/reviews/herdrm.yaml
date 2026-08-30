@@ -304,3 +304,42 @@
   usage_reason: 公开代码仓库有 640 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 640 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-herdrm-2026-08-30
+  project_slug: herdrm
+  level: full
+  reviewed_at: '2026-08-30T00:47:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者管理多个编码代理时窗口切换繁琐的痛点，提供统一控制台和跨设备访问。工作流结构推理：痛点明确，交付可确定。
+    evidence_ids:
+    - ev-24efa2b5eadfc384
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库 640 星显示社区关注，但缺乏用户评价或持续采用证据，共识不足。
+    evidence_ids:
+    - ev-5b86e50199b1ba07
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是开发者或团队，但尚无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和安全边界，需进一步验证应用的实际效果。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈应用效果和实际使用案例。
+  market: ''
+  job: 软件工程师需要管理多个编码代理及其实时终端，并支持跨设备访问。
+  job_en: Software engineers need to manage multiple coding agents and their live terminals, with cross-device
+    access.
+  pain: 同时运行多个编码代理时，需要切换多个窗口查看状态和输出，效率低。
+  pain_en: Running multiple coding agents requires switching between windows to view status and output,
+    which is inefficient.
+  current_alternative: 用户可能使用多个终端窗口或远程桌面，但公开材料未明确说明。
+  current_alternative_en: Users may use multiple terminal windows or remote desktops, but public materials
+    do not specify.
+  usage_reason: 仓库获得 640 星，表明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 640 stars, showing developer interest, but sustained use and payment
+    are not yet verified.

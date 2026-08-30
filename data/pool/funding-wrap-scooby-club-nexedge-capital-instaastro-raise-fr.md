@@ -29,7 +29,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcEM1MkduSTFW
 summary: 'Funding Wrap: Scooby Club, Nexedge Capital, InstaAstro raise fresh capital ET Entrepreneur'
 first_seen: '2026-08-29T06:32:49Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -80,3 +80,85 @@
   usage_reason: AI收入增长177%表明市场对AI设计工具的采用在加速，世界模型内测引发关注。
   usage_reason_en: The 177% growth in AI revenue indicates accelerating adoption of AI design tools, and
     the world model internal testing has drawn attention.
+- id: req-initial-群核上半年ai收入增177世界模型开启内测-9月初有望进入港股通-2026-08-30
+  project_slug: 群核上半年ai收入增177世界模型开启内测-9月初有望进入港股通
+  level: initial
+  reviewed_at: '2026-08-30T00:20:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师快速出图和方案修改的痛点，替代传统人工建模渲染，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-02062ac81714343f
+    - ev-353f1b36c8f6bff3
+  - gate: consensus
+    status: supported
+    reason: AI收入增长177%和进入港股通预期表明市场认可，但需区分收入增长是否来自AI新应用。
+    evidence_ids:
+    - ev-81d89a161f3710df
+  - gate: model
+    status: supported
+    reason: 面向B端设计师和C端用户，通过SaaS订阅和增值服务收费，具体定价未披露。
+    evidence_ids:
+    - ev-5d555ab10a389491
+  - gate: truth
+    status: supported
+    reason: 产品已广泛应用，AI收入增长验证了真实需求，但世界模型内测效果待观察。
+    evidence_ids:
+    - ev-4fd76eb26d906100
+  next_validation: 关注群核科技财报中AI收入的持续增长和世界模型内测的用户反馈。
+  market: ''
+  job: 室内设计师和建筑师需要快速生成设计方案和效果图，以提升效率和客户沟通。
+  job_en: Interior designers and architects need to quickly generate design schemes and renderings to
+    improve efficiency and client communication.
+  pain: 传统设计流程耗时，修改方案成本高。
+  pain_en: Traditional design processes are time-consuming, and revisions are costly.
+  current_alternative: 目前主要使用CAD、SketchUp等传统设计软件，人工建模和渲染。
+  current_alternative_en: Currently using traditional design software like CAD and SketchUp, with manual
+    modeling and rendering.
+  usage_reason: AI收入增长177%表明已有大量用户采用，且世界模型内测显示技术持续迭代。
+  usage_reason_en: The 177% AI revenue growth indicates significant adoption, and the world model beta
+    shows ongoing iteration.
+- id: req-full-群核上半年ai收入增177世界模型开启内测-9月初有望进入港股通-2026-08-30
+  project_slug: 群核上半年ai收入增177世界模型开启内测-9月初有望进入港股通
+  level: full
+  reviewed_at: '2026-08-30T00:50:49Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师快速出图和方案修改的痛点，替代传统人工建模渲染，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-02062ac81714343f
+    - ev-353f1b36c8f6bff3
+  - gate: consensus
+    status: supported
+    reason: AI收入增长177%和进入港股通预期表明市场认可，但需区分收入增长是否来自AI新应用。
+    evidence_ids:
+    - ev-81d89a161f3710df
+  - gate: model
+    status: supported
+    reason: 面向B端设计师和C端用户，通过SaaS订阅和增值服务收费，具体定价未披露。
+    evidence_ids:
+    - ev-5d555ab10a389491
+  - gate: truth
+    status: supported
+    reason: 产品已广泛应用，AI收入增长验证了真实需求，但世界模型内测效果待观察。
+    evidence_ids:
+    - ev-4fd76eb26d906100
+  next_validation: 关注群核科技财报中AI收入的持续增长和世界模型内测的用户反馈。
+  market: ''
+  job: 室内设计师和建筑师需要快速生成设计方案和效果图，以提升效率和客户沟通。
+  job_en: Interior designers and architects need to quickly generate design schemes and renderings to
+    improve efficiency and client communication.
+  pain: 传统设计流程耗时，修改方案成本高。
+  pain_en: Traditional design processes are time-consuming, and revisions are costly.
+  current_alternative: 目前主要使用CAD、SketchUp等传统设计软件，人工建模和渲染。
+  current_alternative_en: Currently using traditional design software like CAD and SketchUp, with manual
+    modeling and rendering.
+  usage_reason: AI收入增长177%表明已有大量用户采用，且世界模型内测显示技术持续迭代。
+  usage_reason_en: The 177% AI revenue growth indicates significant adoption, and the world model beta
+    shows ongoing iteration.

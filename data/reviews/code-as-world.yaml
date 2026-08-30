@@ -75,3 +75,41 @@
   usage_reason: 开源社区 140 星显示研究社区关注，但尚未核验实际应用或采用。
   usage_reason_en: 140 stars in the open-source community show interest from the research community, but
     actual application or adoption is not yet verified.
+- id: req-full-code-as-world-2026-08-30
+  project_slug: code-as-world
+  level: full
+  reviewed_at: '2026-08-30T00:45:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 项目试图解决物理推理问题，但具体用户任务和痛点不明确，缺乏清晰的应用场景。
+    evidence_ids:
+    - ev-2b70cbd4f7b50c39
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目是否发布论文或演示，以及是否有实际应用案例。
+  market: ''
+  job: AI研究员需要让模型具备物理世界推理能力，通过生成可执行代码表示来模拟物理场景。
+  job_en: AI researchers need to equip models with physical world reasoning by generating executable code
+    representations to simulate physical scenes.
+  pain: 现有模型缺乏对物理世界的深层理解，难以处理复杂物理推理任务。
+  pain_en: Current models lack deep understanding of the physical world, making it difficult to handle
+    complex physical reasoning tasks.
+  current_alternative: 目前主要依赖手工设计的物理引擎或大规模数据训练，缺乏自动发现世界表示的方法。
+  current_alternative_en: Currently relies on manually designed physics engines or large-scale data training,
+    lacking methods for automatic discovery of world representations.
+  usage_reason: 开源社区140星显示研究社区关注，但尚未核验实际应用或采用。
+  usage_reason_en: 140 stars in the open-source community show interest from the research community, but
+    actual application or adoption is not yet verified.

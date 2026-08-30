@@ -21,7 +21,7 @@ canonical_url: https://handbook.sutro.sh
 summary: The Analytical AI Handbook
 first_seen: '2026-08-28T19:01:47Z'
 last_seen: '2026-08-30T00:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

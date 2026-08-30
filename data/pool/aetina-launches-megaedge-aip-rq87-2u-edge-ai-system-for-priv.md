@@ -1,12 +1,13 @@
 ---
 slug: aetina-launches-megaedge-aip-rq87-2u-edge-ai-system-for-priv
-name: Aetina Launches MegaEdge AIP-RQ87 2U Edge AI System for Private LLMs, AI Agents and Intelligent
-  Automation
+name: MegaEdge AIP-RQ87
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Aetina 推出的 2U 边缘 AI 服务器，面向需要本地部署私有 LLM 和 AI 代理的企业。它接收本地数据，在边缘侧执行推理和自动化任务，交付低延迟的 AI 处理能力，但具体工作流和交付物仍需核验。
 inspiration: ''
-summary_en: ''
+summary_en: Aetina's 2U edge AI server targets enterprises needing on-premises private LLMs and AI agents.
+  It processes local data at the edge for low-latency inference and automation, but specific workflows
+  and deliverables remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ summary: Aetina Launches MegaEdge AIP-RQ87 2U Edge AI System for Private LLMs, A
   Automation Security Informed
 first_seen: '2026-08-28T13:41:02Z'
 last_seen: '2026-08-30T00:20:30Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Aetina Launches MegaEdge AIP-RQ87 2U Edge AI System for Private LLMs, AI Agents and Intelligent Automation
+# MegaEdge AIP-RQ87
 
 Aetina Launches MegaEdge AIP-RQ87 2U Edge AI System for Private LLMs, AI Agents and Intelligent Automation Security Informed
 

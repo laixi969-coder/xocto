@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/FoxLoverAI/TurboCustomImageEditing
 summary: Image Editing on steroids
 first_seen: '2026-08-29T08:33:12Z'
 last_seen: '2026-08-30T00:20:26Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:
