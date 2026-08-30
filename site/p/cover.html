@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>cover · x-octo</title>
-<meta name="description" content="这是一个可逆的隐私代理，用于 AI 代理：向外部发送逼真的假数据，同时在本地恢复原始数据。用户将真实数据交给代理，代理用假数据与外部交互，返回时恢复。交付的是保护隐私的 AI 代理交互，但具体实现和集成方式仍待核验。">
+<meta name="description" content="开发者将真实数据交给 cover，它作为可逆隐私代理，向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据。它保护 AI 代理交互中的敏感信息，交付一个隐私保护层，具体集成方式仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/cover.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/cover.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/cover.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/cover.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="cover · x-octo">
-<meta property="og:description" content="这是一个可逆的隐私代理，用于 AI 代理：向外部发送逼真的假数据，同时在本地恢复原始数据。用户将真实数据交给代理，代理用假数据与外部交互，返回时恢复。交付的是保护隐私的 AI 代理交互，但具体实现和集成方式仍待核验。">
+<meta property="og:description" content="开发者将真实数据交给 cover，它作为可逆隐私代理，向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据。它保护 AI 代理交互中的敏感信息，交付一个隐私保护层，具体集成方式仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/cover.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/cover.html#webpage", "@type": "WebPage", "description": "\u8fd9\u662f\u4e00\u4e2a\u53ef\u9006\u7684\u9690\u79c1\u4ee3\u7406\uff0c\u7528\u4e8e AI \u4ee3\u7406\uff1a\u5411\u5916\u90e8\u53d1\u9001\u903c\u771f\u7684\u5047\u6570\u636e\uff0c\u540c\u65f6\u5728\u672c\u5730\u6062\u590d\u539f\u59cb\u6570\u636e\u3002\u7528\u6237\u5c06\u771f\u5b9e\u6570\u636e\u4ea4\u7ed9\u4ee3\u7406\uff0c\u4ee3\u7406\u7528\u5047\u6570\u636e\u4e0e\u5916\u90e8\u4ea4\u4e92\uff0c\u8fd4\u56de\u65f6\u6062\u590d\u3002\u4ea4\u4ed8\u7684\u662f\u4fdd\u62a4\u9690\u79c1\u7684 AI \u4ee3\u7406\u4ea4\u4e92\uff0c\u4f46\u5177\u4f53\u5b9e\u73b0\u548c\u96c6\u6210\u65b9\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@id": "https://xocto.vercel.app/p/cover.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-29", "datePublished": "2026-08-22", "description": "\u8fd9\u662f\u4e00\u4e2a\u53ef\u9006\u7684\u9690\u79c1\u4ee3\u7406\uff0c\u7528\u4e8e AI \u4ee3\u7406\uff1a\u5411\u5916\u90e8\u53d1\u9001\u903c\u771f\u7684\u5047\u6570\u636e\uff0c\u540c\u65f6\u5728\u672c\u5730\u6062\u590d\u539f\u59cb\u6570\u636e\u3002\u7528\u6237\u5c06\u771f\u5b9e\u6570\u636e\u4ea4\u7ed9\u4ee3\u7406\uff0c\u4ee3\u7406\u7528\u5047\u6570\u636e\u4e0e\u5916\u90e8\u4ea4\u4e92\uff0c\u8fd4\u56de\u65f6\u6062\u590d\u3002\u4ea4\u4ed8\u7684\u662f\u4fdd\u62a4\u9690\u79c1\u7684 AI \u4ee3\u7406\u4ea4\u4e92\uff0c\u4f46\u5177\u4f53\u5b9e\u73b0\u548c\u96c6\u6210\u65b9\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/cover.html#webpage"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/cover.html", "name": "cover", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/cover.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5c06\u771f\u5b9e\u6570\u636e\u4ea4\u7ed9 cover\uff0c\u5b83\u4f5c\u4e3a\u53ef\u9006\u9690\u79c1\u4ee3\u7406\uff0c\u5411\u5916\u90e8 AI \u4ee3\u7406\u53d1\u9001\u903c\u771f\u7684\u5047\u6570\u636e\uff0c\u5e76\u5728\u672c\u5730\u6062\u590d\u539f\u59cb\u6570\u636e\u3002\u5b83\u4fdd\u62a4 AI \u4ee3\u7406\u4ea4\u4e92\u4e2d\u7684\u654f\u611f\u4fe1\u606f\uff0c\u4ea4\u4ed8\u4e00\u4e2a\u9690\u79c1\u4fdd\u62a4\u5c42\uff0c\u5177\u4f53\u96c6\u6210\u65b9\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@id": "https://xocto.vercel.app/p/cover.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-30", "datePublished": "2026-08-22", "description": "\u5f00\u53d1\u8005\u5c06\u771f\u5b9e\u6570\u636e\u4ea4\u7ed9 cover\uff0c\u5b83\u4f5c\u4e3a\u53ef\u9006\u9690\u79c1\u4ee3\u7406\uff0c\u5411\u5916\u90e8 AI \u4ee3\u7406\u53d1\u9001\u903c\u771f\u7684\u5047\u6570\u636e\uff0c\u5e76\u5728\u672c\u5730\u6062\u590d\u539f\u59cb\u6570\u636e\u3002\u5b83\u4fdd\u62a4 AI \u4ee3\u7406\u4ea4\u4e92\u4e2d\u7684\u654f\u611f\u4fe1\u606f\uff0c\u4ea4\u4ed8\u4e00\u4e2a\u9690\u79c1\u4fdd\u62a4\u5c42\uff0c\u5177\u4f53\u96c6\u6210\u65b9\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/cover.html#webpage"}, "name": "cover", "url": "https://xocto.vercel.app/p/cover.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/cover.html", "name": "cover", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -60,16 +60,16 @@
       <h1>cover</h1>
     </div>
 
-    <p class="lede">这是一个可逆的隐私代理，用于 AI 代理：向外部发送逼真的假数据，同时在本地恢复原始数据。用户将真实数据交给代理，代理用假数据与外部交互，返回时恢复。交付的是保护隐私的 AI 代理交互，但具体实现和集成方式仍待核验。</p>
+    <p class="lede">开发者将真实数据交给 cover，它作为可逆隐私代理，向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据。它保护 AI 代理交互中的敏感信息，交付一个隐私保护层，具体集成方式仍待核验。</p>
 
     <div class="meta">
 <span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">AI 工程师</span><span class="tag">隐私工程师</span><span class="tag sig">开源关注 41</span>    </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">网络安全</span><span class="tag">软件开发者</span><span class="tag">安全工程师</span><span class="tag sig">开源关注 41</span>    </div>
 
     <div class="kv">
       <div><span>团队 / 作者</span><b>DavidCarliez</b></div>
       <div><span>本站首次收录</span><b class="num">2026-08-22</b></div>
-      <div><span>本站最近更新</span><b class="num">2026-08-29</b></div>
+      <div><span>本站最近更新</span><b class="num">2026-08-30</b></div>
     </div>
   </header>
 
@@ -79,51 +79,51 @@
         <p class="eyebrow">从用户的一天开始</p>
         <h2>它为什么会被需要</h2>
       </div>
-<span class="note">公开事实 + 可观察行为 · 2026-08-29</span>    </div>
+<span class="note">公开事实 + 可观察行为 · 2026-08-30</span>    </div>
     <article class="story-flow">
       <div class="story-opening">
         <span class="field-k">工作现场</span>
-        <p class="story-lead">AI 工程师在开发 AI 代理时，需要保护用户数据隐私，防止敏感信息泄露给外部服务。</p>
-        <p>目前可能依赖数据脱敏或人工审查，但缺乏可逆的隐私保护方案。</p>
-        <p>AI 代理与外部服务交互时可能泄露敏感数据，缺乏有效的隐私保护机制。</p>
+        <p class="story-lead">开发者需要在不泄露敏感数据的前提下，让AI代理处理真实数据。</p>
+        <p>目前开发者可能手动脱敏或避免使用外部AI代理处理敏感数据。</p>
+        <p>直接发送真实数据给外部AI代理存在隐私泄露风险，而手动脱敏又耗时且易出错。</p>
       </div>
 
       <div class="story-turn">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是 AI 代理的数据隐私成为关注点。切入可从企业数据脱敏场景开始，提供可逆的隐私保护方案，按数据量或企业订阅收费。</p>
+        <p>趋势是 AI 代理处理敏感数据时隐私保护需求上升。切入点是做数据脱敏的代理层，但需验证开发者是否愿意采用，以及能否处理复杂数据映射。</p>
       </div>
 
       <div class="story-chapter">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>开源社区 41 星显示初步关注，但尚未核验实际采用。</p>
+        <p>开源项目有41星，说明开发者对隐私保护有初步兴趣，但尚未核验实际采用。</p>
       </div>
 
       <div class="story-chapter story-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。</p>
+        <p>关注该开源项目的issue和讨论，看是否有用户提出功能需求或报告使用问题，以及star增长趋势。</p>
       </div>
     </article>
 
     <div class="role-grid story-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。开源社区 41 星显示初步关注，但尚未核验实际采用。</p>
+        <p><strong>值得试用</strong>。开源项目有41星，说明开发者对隐私保护有初步兴趣，但尚未核验实际采用。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是 AI 代理的数据隐私成为关注点。切入可从企业数据脱敏场景开始，提供可逆的隐私保护方案，按数据量或企业订阅收费。</p>
+        <p>趋势是 AI 代理处理敏感数据时隐私保护需求上升。切入点是做数据脱敏的代理层，但需验证开发者是否愿意采用，以及能否处理复杂数据映射。</p>
       </div>
     </div>
 
     <details class="research-notes evidence-boundary" open>
       <summary>我们凭什么这样判断</summary>
       <div class="evidence-boundary-grid">
-        <div><span class="field-k">公开事实</span><p>它解决 AI 代理数据隐私问题，通过可逆代理发送假数据并恢复原始数据，交付隐私保护的交互。工作流结构判断：旧流程是数据脱敏或缺失保护，此方案提供可逆方案。</p></div>
-        <div><span class="field-k">工作流推理</span><p>开源社区 41 星显示初步关注，但尚未核验实际采用。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>关注开源仓库的 issue 和讨论，以及是否有企业采用或付费的公开案例。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决AI代理处理敏感数据时的隐私泄露痛点，替代手动脱敏的旧流程，交付可逆的隐私保护层，价值结构成立（工作流结构判断）。</p></div>
+        <div><span class="field-k">工作流推理</span><p>开源项目有41星，说明开发者对隐私保护有初步兴趣，但尚未核验实际采用。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>关注该开源项目的issue和讨论，看是否有用户提出功能需求或报告使用问题，以及star增长趋势。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -131,28 +131,28 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它解决 AI 代理数据隐私问题，通过可逆代理发送假数据并恢复原始数据，交付隐私保护的交互。工作流结构判断：旧流程是数据脱敏或缺失保护，此方案提供可逆方案。</p>
+          <p>它解决AI代理处理敏感数据时的隐私泄露痛点，替代手动脱敏的旧流程，交付可逆的隐私保护层，价值结构成立（工作流结构判断）。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>开源社区星数显示关注，但缺乏用户评价或采用案例。</p>
+          <p>开源项目有41星，但缺乏用户评价和持续采用证据，共识尚未形成。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>未披露商业模式，可能作为开源工具免费使用，但企业付费路径不明。</p>
+          <p>未披露商业模式，可能面向开发者收费，但付费意愿未验证。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>已有支持</strong>
           </div>
-          <p>项目贴近隐私保护的第一性目标，交付的隐私保护可验证，但需关注性能开销。</p>
+          <p>产品贴近开发者的实际工作流，交付可确定，但需验证是否被真实使用。</p>
         </article>
       </div>
     </details>
@@ -166,8 +166,8 @@
       </div>
     </div>
     <div class="decision-grid">
-      <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-29。未发现仅限该覆盖范围。 · 2026-08-29</p></div>
-      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-29。未发现仅限该覆盖范围。 · 2026-08-29</p></div>
+      <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-30。未发现仅限该覆盖范围。 · 2026-08-30</p></div>
+      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-08-30。未发现仅限该覆盖范围。 · 2026-08-30</p></div>
     </div>
   </section>
 
@@ -187,8 +187,16 @@
   <section class="band">
     <div class="sec-head"><div><p class="eyebrow">证据链</p><h2>可核验公开证据</h2></div></div>
     <ul class="rows">
+      <li><a href="https://www.reuters.com/technology/artificial-intelligence/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">reuters.com</span><span class="row-desc">市场对照</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://www.reuters.com/investigations/mark-zuckerberg-had-bold-plan-replace-meta-staff-with-ai-heres-how-it-imploded-2026-08-26/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">reuters.com</span><span class="row-desc">市场对照</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://plus.reuters.com/tdk-body-of-ai" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">plus.reuters.com</span><span class="row-desc">市场对照</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://plus.reuters.com/td-bank-future-of-ai-in-banking-depends-on-technology-that-stays-human" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">plus.reuters.com</span><span class="row-desc">市场对照</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://newslink.reuters.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">newslink.reuters.com</span><span class="row-desc">市场对照</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://newslink.reuters.com/public/35172777" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">newslink.reuters.com</span><span class="row-desc">市场对照</span><span class="row-tail"></span></div></a></li>
       <li><a href="https://account.covermymeds.com/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">account.covermymeds.com</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://account.covermymeds.com/login" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">account.covermymeds.com</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
       <li><a href="https://coverr.co/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">coverr.co</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jQjJRWEh1aVBzZDJYUnBoM0JSMUdKZFhHMExkTm9GUXN3a1MtalRXZDFhNWd6Z1BQaVVEdG5fT3VFc1JKcVdCazR1Vkx4NXFPLTI4WU5VVjdNaEMzdXp2ZzJrcklEdw?oc=5" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">news.google.com</span><span class="row-desc">market_signal</span><span class="row-tail">2026-08-28</span></div></a></li>
       <li><a href="https://www.account.covermymeds.com/login" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">account.covermymeds.com</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
       <li><a href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxNQ3BiVU54T3ZUbDdUMWstU01lN090eFJ5QjVDVnluTHRIR2RBUUNNZ01oSS02ZG9VZ3dLUTlPRWpqS21KM1dmS184cWN5RThZbkdySWVhQW43ZFI3VFpLcVZFTkZnRWY1dGFoYUxZcnJmZ0x1ck9HZGJ1Tl9seW05dm1WQW1nUVc1OXh6aVlXOEludllqMklGMUk3bk1uaE1RUnhmaTdnMHpMYzZqV05tX2ZQRm9IUndTZWYyUGpYWWE5bFRyTWMybnQtNjdobjJLOUNHTVRxTjJhZl9KVmRxUWZOVGVSNzc2NHNqcmhDSmtrOU81TUJNY3pR?oc=5" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">news.google.com</span><span class="row-desc">用户痛点</span><span class="row-tail">2026-08-27</span></div></a></li>
       <li><a href="https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">arstechnica.com</span><span class="row-desc">market_signal</span><span class="row-tail">2026-08-28</span></div></a></li>
@@ -215,7 +223,7 @@
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 94 个 →
+        基础层 共 97 个 →
       </a>
     </div>
     <ul class="rows">
@@ -308,7 +316,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>782 个案例 · 179 份生意判断</span>
+    <span>804 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-08-30</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

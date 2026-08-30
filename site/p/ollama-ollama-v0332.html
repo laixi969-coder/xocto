@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Ollama · x-octo</title>
-<meta name="description" content="开发者在本地运行开源模型时，把模型下载、启动和 API 暴露交给 Ollama；它接收模型名和运行指令，在本地启动推理服务，并可与 Claude Code、Codex 等代理工具对接，交付一个本地可用的模型运行环境。具体流程或交付仍待核验。">
+<meta name="description" content="Ollama 是一个开源工具，让开发者在本地运行开源大模型，并连接 Claude Code、Codex 等代理应用。用户下载安装后，通过命令行或 API 调用模型，数据保留在本机。本次更新修复了界面和代理稳定性问题。">
 <link rel="canonical" href="https://xocto.vercel.app/p/ollama-ollama-v0332.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/ollama-ollama-v0332.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/ollama-ollama-v0332.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/ollama-ollama-v0332.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Ollama · x-octo">
-<meta property="og:description" content="开发者在本地运行开源模型时，把模型下载、启动和 API 暴露交给 Ollama；它接收模型名和运行指令，在本地启动推理服务，并可与 Claude Code、Codex 等代理工具对接，交付一个本地可用的模型运行环境。具体流程或交付仍待核验。">
+<meta property="og:description" content="Ollama 是一个开源工具，让开发者在本地运行开源大模型，并连接 Claude Code、Codex 等代理应用。用户下载安装后，通过命令行或 API 调用模型，数据保留在本机。本次更新修复了界面和代理稳定性问题。">
 <meta property="og:url" content="https://xocto.vercel.app/p/ollama-ollama-v0332.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ollama-ollama-v0332.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u672c\u5730\u8fd0\u884c\u5f00\u6e90\u6a21\u578b\u65f6\uff0c\u628a\u6a21\u578b\u4e0b\u8f7d\u3001\u542f\u52a8\u548c API \u66b4\u9732\u4ea4\u7ed9 Ollama\uff1b\u5b83\u63a5\u6536\u6a21\u578b\u540d\u548c\u8fd0\u884c\u6307\u4ee4\uff0c\u5728\u672c\u5730\u542f\u52a8\u63a8\u7406\u670d\u52a1\uff0c\u5e76\u53ef\u4e0e Claude Code\u3001Codex \u7b49\u4ee3\u7406\u5de5\u5177\u5bf9\u63a5\uff0c\u4ea4\u4ed8\u4e00\u4e2a\u672c\u5730\u53ef\u7528\u7684\u6a21\u578b\u8fd0\u884c\u73af\u5883\u3002\u5177\u4f53\u6d41\u7a0b\u6216\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Ollama", "url": "https://xocto.vercel.app/p/ollama-ollama-v0332.html"}, {"@id": "https://xocto.vercel.app/p/ollama-ollama-v0332.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-30", "datePublished": "2026-08-28", "description": "\u5f00\u53d1\u8005\u5728\u672c\u5730\u8fd0\u884c\u5f00\u6e90\u6a21\u578b\u65f6\uff0c\u628a\u6a21\u578b\u4e0b\u8f7d\u3001\u542f\u52a8\u548c API \u66b4\u9732\u4ea4\u7ed9 Ollama\uff1b\u5b83\u63a5\u6536\u6a21\u578b\u540d\u548c\u8fd0\u884c\u6307\u4ee4\uff0c\u5728\u672c\u5730\u542f\u52a8\u63a8\u7406\u670d\u52a1\uff0c\u5e76\u53ef\u4e0e Claude Code\u3001Codex \u7b49\u4ee3\u7406\u5de5\u5177\u5bf9\u63a5\uff0c\u4ea4\u4ed8\u4e00\u4e2a\u672c\u5730\u53ef\u7528\u7684\u6a21\u578b\u8fd0\u884c\u73af\u5883\u3002\u5177\u4f53\u6d41\u7a0b\u6216\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ollama-ollama-v0332.html#webpage"}, "name": "Ollama", "url": "https://xocto.vercel.app/p/ollama-ollama-v0332.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ollama-ollama-v0332.html", "name": "Ollama", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ollama-ollama-v0332.html#webpage", "@type": "WebPage", "description": "Ollama \u662f\u4e00\u4e2a\u5f00\u6e90\u5de5\u5177\uff0c\u8ba9\u5f00\u53d1\u8005\u5728\u672c\u5730\u8fd0\u884c\u5f00\u6e90\u5927\u6a21\u578b\uff0c\u5e76\u8fde\u63a5 Claude Code\u3001Codex \u7b49\u4ee3\u7406\u5e94\u7528\u3002\u7528\u6237\u4e0b\u8f7d\u5b89\u88c5\u540e\uff0c\u901a\u8fc7\u547d\u4ee4\u884c\u6216 API \u8c03\u7528\u6a21\u578b\uff0c\u6570\u636e\u4fdd\u7559\u5728\u672c\u673a\u3002\u672c\u6b21\u66f4\u65b0\u4fee\u590d\u4e86\u754c\u9762\u548c\u4ee3\u7406\u7a33\u5b9a\u6027\u95ee\u9898\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Ollama", "url": "https://xocto.vercel.app/p/ollama-ollama-v0332.html"}, {"@id": "https://xocto.vercel.app/p/ollama-ollama-v0332.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-30", "datePublished": "2026-08-28", "description": "Ollama \u662f\u4e00\u4e2a\u5f00\u6e90\u5de5\u5177\uff0c\u8ba9\u5f00\u53d1\u8005\u5728\u672c\u5730\u8fd0\u884c\u5f00\u6e90\u5927\u6a21\u578b\uff0c\u5e76\u8fde\u63a5 Claude Code\u3001Codex \u7b49\u4ee3\u7406\u5e94\u7528\u3002\u7528\u6237\u4e0b\u8f7d\u5b89\u88c5\u540e\uff0c\u901a\u8fc7\u547d\u4ee4\u884c\u6216 API \u8c03\u7528\u6a21\u578b\uff0c\u6570\u636e\u4fdd\u7559\u5728\u672c\u673a\u3002\u672c\u6b21\u66f4\u65b0\u4fee\u590d\u4e86\u754c\u9762\u548c\u4ee3\u7406\u7a33\u5b9a\u6027\u95ee\u9898\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ollama-ollama-v0332.html#webpage"}, "name": "Ollama", "url": "https://xocto.vercel.app/p/ollama-ollama-v0332.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ollama-ollama-v0332.html", "name": "Ollama", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -60,11 +60,11 @@
       <h1>Ollama</h1>
     </div>
 
-    <p class="lede">开发者在本地运行开源模型时，把模型下载、启动和 API 暴露交给 Ollama；它接收模型名和运行指令，在本地启动推理服务，并可与 Claude Code、Codex 等代理工具对接，交付一个本地可用的模型运行环境。具体流程或交付仍待核验。</p>
+    <p class="lede">Ollama 是一个开源工具，让开发者在本地运行开源大模型，并连接 Claude Code、Codex 等代理应用。用户下载安装后，通过命令行或 API 调用模型，数据保留在本机。本次更新修复了界面和代理稳定性问题。</p>
 
     <div class="meta">
 <span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">全球</span><span class="tag sig">跨国机会</span>    </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag sig">跨国机会</span>    </div>
 
     <div class="kv">
       <div><span>团队 / 作者</span><b>ollama</b></div>
@@ -91,7 +91,7 @@
       <div class="story-turn">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是本地运行开源模型成为开发者默认选项，数据留在本机。切入可从企业内网部署、离线环境或数据敏感行业入手，提供预配置模型包和运维支持，按节点或服务收费。</p>
+        <p>趋势是本地化 AI 运行成为数据敏感场景的默认选择。切入可从企业数据合规需求出发，提供基于 Ollama 的私有化部署服务，而非与 Ollama 本身竞争。</p>
       </div>
 
       <div class="story-chapter">
@@ -114,7 +114,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是本地运行开源模型成为开发者默认选项，数据留在本机。切入可从企业内网部署、离线环境或数据敏感行业入手，提供预配置模型包和运维支持，按节点或服务收费。</p>
+        <p>趋势是本地化 AI 运行成为数据敏感场景的默认选择。切入可从企业数据合规需求出发，提供基于 Ollama 的私有化部署服务，而非与 Ollama 本身竞争。</p>
       </div>
     </div>
 
@@ -211,7 +211,7 @@
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 94 个 →
+        基础层 共 97 个 →
       </a>
     </div>
     <ul class="rows">
@@ -263,9 +263,9 @@
         <span class="pager-n">Offloop</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/omni-by-xpander.html">
+      <a class="pager-item pager-next" href="../p/omlx.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">Omni by xpander</span>
+        <span class="pager-n">oMLX</span>
       </a>
     </div>
   </nav>
@@ -304,7 +304,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>782 个案例 · 179 份生意判断</span>
+    <span>804 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-08-30</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
