@@ -23,11 +23,12 @@ url: https://www.producthunt.com/products/lexi-5
 canonical_url: https://producthunt.com/products/lexi-5
 summary: The operating system for legal work
 first_seen: '2026-08-10T18:11:41Z'
-last_seen: '2026-08-29T03:43:28Z'
-status: rejected
+last_seen: '2026-08-31T17:38:59Z'
+status: pending_filter
 sources:
 - producthunt
 - officialfeeds
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/lexi-5
@@ -37,6 +38,11 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/
   seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBFN28xbkc5UXRlQldpWi1jVjgzWHFiSTU5SGtZZFJPNVNZejlYc2Frd1BvemRSN2JwRThvZm1HU2RWX1hPZjNiUE10dzBxa2g1b25uNlFVZDJYQWFZejJ5ZWJDZG0zSGdiYzM0WVRuY2tPTW1w?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
   metrics: {}
   kind: news
 ---

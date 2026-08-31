@@ -21,18 +21,19 @@ canonical_url: https://github.com/bitsky-tech/bridgic-agent
 summary: Bridgic Agent turns what you want into workflows that actually work — and keep working. `/build`
   It. Run It. Evolve It.
 first_seen: '2026-08-11T06:53:07Z'
-last_seen: '2026-08-28T06:07:21Z'
+last_seen: '2026-08-31T17:38:30Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bitsky-tech/bridgic-agent
-  seen_at: '2026-08-28T06:07:21Z'
+  seen_at: '2026-08-31T17:38:30Z'
   metrics:
-    stars: 46
+    stars: 47
     forks: 3
-    open_issues: 0
+    open_issues: 2
+  kind: product
 ---
 
 # bridgic-agent

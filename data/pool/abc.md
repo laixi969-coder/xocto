@@ -22,16 +22,16 @@ url: https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-leg
 canonical_url: https://abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766
 summary: Fair Work Commission condemns 'plain wrong' AI legal advice
 first_seen: '2026-08-30T10:20:11Z'
-last_seen: '2026-08-31T00:37:17Z'
+last_seen: '2026-08-31T17:38:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766
-  seen_at: '2026-08-31T00:37:17Z'
+  seen_at: '2026-08-31T17:38:26Z'
   metrics:
-    points: 58
+    points: 60
     comments: 31
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://orchestra.shevtoneaudio.com
 canonical_url: https://orchestra.shevtoneaudio.com
 summary: Turning MIDI into Full Orchestration
 first_seen: '2026-08-30T11:36:46Z'
-last_seen: '2026-08-31T00:37:17Z'
+last_seen: '2026-08-31T17:38:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://orchestra.shevtoneaudio.com
-  seen_at: '2026-08-31T00:37:17Z'
+  seen_at: '2026-08-31T17:38:26Z'
   metrics:
     points: 6
-    comments: 1
+    comments: 4
   kind: product
 ---
 

@@ -1,7 +1,7 @@
 ---
 slug: ai-agents-meant-to-replace-meta-workers-made-large-scale-dis
 name: Meta
-builder: ''
+builder: Bluestein
 category: ''
 summary_zh: Meta 尝试用 AI 代理替代员工，但代理在真实工作流中做出大规模破坏性行为，计划被搁置；同时 Meta 在数据中心测试机器人执行技术员任务，替代的是重复性体力工作。
 inspiration: ''
@@ -22,10 +22,11 @@ url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-inc
 canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
-last_seen: '2026-08-30T14:53:42Z'
-status: market_context
+last_seen: '2026-08-31T17:38:50Z'
+status: pending_filter
 sources:
 - marketfeeds
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/
@@ -35,6 +36,18 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers/
   seen_at: '2026-08-30T14:53:42Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails
+  seen_at: '2026-08-31T17:38:26Z'
+  metrics:
+    points: 57
+    comments: 58
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras
+  seen_at: '2026-08-31T17:38:50Z'
   metrics: {}
   kind: news
 ---

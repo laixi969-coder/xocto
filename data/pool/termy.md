@@ -33,15 +33,22 @@ url: https://www.producthunt.com/products/termy-language-learning
 canonical_url: https://producthunt.com/products/termy-language-learning
 summary: Learn languages from games, videos, and websites
 first_seen: '2026-08-24T18:24:24Z'
-last_seen: '2026-08-27T03:18:34Z'
-status: watching
+last_seen: '2026-08-31T17:38:50Z'
+status: pending_filter
 sources:
 - producthunt
+- marketfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/termy-language-learning
   seen_at: '2026-08-27T03:18:34Z'
   metrics: {}
+  kind: product
+- source: marketfeeds
+  url: https://tech.eu/2026/08/31/former-ukraine-defence-minister-mykhailo-fedorov-plans-new-defence-tech-investment-fund/
+  seen_at: '2026-08-31T17:38:50Z'
+  metrics: {}
+  kind: news
 ---
 
 # Termy

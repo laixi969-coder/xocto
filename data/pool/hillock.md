@@ -20,17 +20,17 @@ url: https://github.com/roandejager/Hillock
 canonical_url: https://github.com/roandejager/Hillock
 summary: Local neuro-symbolic memory engine in <1.2GB VRAM
 first_seen: '2026-08-30T18:10:46Z'
-last_seen: '2026-08-31T00:37:17Z'
+last_seen: '2026-08-31T17:38:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/roandejager/Hillock
-  seen_at: '2026-08-31T00:37:17Z'
+  seen_at: '2026-08-31T17:38:26Z'
   metrics:
-    points: 8
-    comments: 1
+    points: 11
+    comments: 2
   kind: product
 ---
 

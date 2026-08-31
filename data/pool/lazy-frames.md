@@ -33,17 +33,17 @@ canonical_url: https://github.com/cosmicstack-labs/lazy-frames
 summary: Lazy Frames — agentic video generation. Feed the skill URL to your AI agent; it captures, authors,
   renders. Fully local, byte-stable, no cloud. npm install lazy-frames
 first_seen: '2026-08-15T13:27:06Z'
-last_seen: '2026-08-31T00:37:21Z'
+last_seen: '2026-08-31T17:38:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cosmicstack-labs/lazy-frames
-  seen_at: '2026-08-31T00:37:21Z'
+  seen_at: '2026-08-31T17:38:30Z'
   metrics:
     stars: 144
-    forks: 17
+    forks: 18
     open_issues: 0
   kind: product
 ---

@@ -30,8 +30,8 @@ url: https://github.com/kelviq/tare
 canonical_url: https://github.com/kelviq/tare
 summary: My Claude quota ran out in 10 minutes, so I made a tool to find out why
 first_seen: '2026-08-27T16:37:44Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: queued
+last_seen: '2026-08-31T17:38:50Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -46,6 +46,11 @@ sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/venture/legal-tech-startuo-funding-down-ai-acquisitions-2026/
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop
+  seen_at: '2026-08-31T17:38:50Z'
   metrics: {}
   kind: news
 ---

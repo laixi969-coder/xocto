@@ -8,14 +8,23 @@ inspiration: 跨平台消息同步可能解决多设备用户的痛点
 summary_en: Linux and iPhone Continuity (iMessage / SMS)
 inspiration_en: Cross-platform message sync could solve multi-device user pain points
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/zackb/tether
 canonical_url: https://github.com/zackb/tether
 summary: Linux and iPhone Continuity (iMessage / SMS)
 first_seen: '2026-08-20T04:53:51Z'
-last_seen: '2026-08-20T22:45:15Z'
+last_seen: '2026-08-31T17:38:26Z'
 status: queued
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://github.com/zackb/tether
@@ -23,6 +32,12 @@ sightings:
   metrics:
     points: 9
     comments: 2
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/tether-a-ball-for-boring-meetings
+  seen_at: '2026-08-31T17:38:26Z'
+  metrics: {}
+  kind: product
 ---
 
 # tether

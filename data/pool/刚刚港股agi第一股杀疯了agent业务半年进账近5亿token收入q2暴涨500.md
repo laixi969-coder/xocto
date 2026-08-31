@@ -34,14 +34,20 @@ url: https://www.qbitai.com/2026/08/480600.html
 canonical_url: https://qbitai.com/2026/08/480600.html
 summary: 企业智能化服务撑起基本盘，第二增长曲线冒头
 first_seen: '2026-08-28T09:45:19Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: queued
+last_seen: '2026-08-31T17:38:59Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/08/480600.html
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOd2doMXZxUEV4WjZTV2VpVy1MaTlocU5tWkJ6MHlfRGhoOXg5X1FwYkJna3dyQjZxMjBOaG13WDN1a3I4dWdHUExEbTRqMjR1blFrYnJOWjZTUGdrNjNxMWMybmhKQjZXR2JnUWhpdjV4VHFrWlJ6VTJjc3kwZmc1U3FfQVhYMzAxTk1IVw?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
   metrics: {}
   kind: news
 ---

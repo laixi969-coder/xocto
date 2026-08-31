@@ -35,14 +35,19 @@ url: https://news.google.com/rss/articles/CBMia0FVX3lxTFA3NjYzNjl4OTgyNUtHSlZhc3
 canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFA3NjYzNjl4OTgyNUtHSlZhc3pRX25oOFlNSnBpMlJUYnpIbXdWR2c2TnROclBEUE9uendZYjJRa2g4ZV9lbDFYakRDMXNIa2Mwc2FqY1d5dlkyV05lSFpJUFl1U0otaF9yRE4w?oc=5
 summary: 格创东智“制造场景自主智能体”项目获奖，解锁工业 AI自主决策闭环能力 新华报业网
 first_seen: '2026-08-28T08:44:00Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-31T17:38:59Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMia0FVX3lxTFA3NjYzNjl4OTgyNUtHSlZhc3pRX25oOFlNSnBpMlJUYnpIbXdWR2c2TnROclBEUE9uendZYjJRa2g4ZV9lbDFYakRDMXNIa2Mwc2FqY1d5dlkyV05lSFpJUFl1U0otaF9yRE4w?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXEFVX3lxTE91MjhudTVvNTNsSkpZbzFmZ0o1SmpGb0FCck9zMk51b3FFNWZWMFFwbFZxM2VmR2RwRE5VQ1lkdDFaeGZCcnB0WkJBWEdmdEViTE5POEwzYmhPQTNw?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
   metrics: {}
   kind: news
 ---

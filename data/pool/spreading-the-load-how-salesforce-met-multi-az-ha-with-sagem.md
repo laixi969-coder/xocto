@@ -24,14 +24,25 @@ summary: Learn how Salesforce used Amazon SageMaker AI Inference Component place
   parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high
   availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.
 first_seen: '2026-08-28T16:20:40Z'
-last_seen: '2026-08-29T03:43:28Z'
-status: market_context
+last_seen: '2026-08-31T17:38:59Z'
+status: pending_filter
 sources:
 - officialfeeds
+- newssearch
 sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/
   seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xdmF1X25aSGhuUS1lQlg2VlQ4b2xTczV3OVFnUW4zWTNQaHc4am1ibXdxUXRRblBlT05BV2VsLVloUkYzMVBUN0VodTc5YWFwSXZJ?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNbzFHTkZCUVA1WW4zS2tpR082M2VfbV9BNklQSXRJWlpqNHMwWGdadElTX2JZUGduSHFDamExX1VUU1ppaFlDaG1xNTBEcjBUZW9xMzJnR1l6TU90QkVqTE13azZseWU3bnNkMFlveFpQTVdMTXA4Ykp6bUNzbUtkdnN0clNxdjA?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
   metrics: {}
   kind: news
 ---

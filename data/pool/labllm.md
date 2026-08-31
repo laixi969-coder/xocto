@@ -32,16 +32,16 @@ summary: A native macOS lab for teaching tiny language models to think — build
   the weights, and watch a small LLM emerge from scratch, locally on Apple Silicon with custom data, tokenizers,
   checkpoints, and MLX acceleration.
 first_seen: '2026-08-15T22:16:40Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-08-31T17:38:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://greninja9257.github.io/LabLLM/
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-08-31T17:38:30Z'
   metrics:
-    stars: 82
+    stars: 75
     forks: 1
     open_issues: 0
   kind: product

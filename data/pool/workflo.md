@@ -33,12 +33,13 @@ url: https://www.producthunt.com/products/workflo-2
 canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
-last_seen: '2026-08-29T03:43:28Z'
-status: queued
+last_seen: '2026-08-31T17:38:59Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
 - officialfeeds
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/workflo-2
@@ -60,6 +61,16 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/
   seen_at: '2026-08-29T03:43:28Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogJBVV95cUxNYi11aHE2QWtYTllKdVJqbmI4UWVDUWRveFhwaGlkcXU3NHJZNlNnX2lSRXpBZndBeC02UjBIOV9KNjhJMEp1NkFyc2RiOGZoS01OdkttVFZzYTZHczV4cHQ0TXUyMl9BRlhyeUk0V1drY0xEamFxdmVKX1VUOHA4UEdYMFF1VEVESER2OTBlMExTc21fWjdaMEVTZW1pb0FhOFNUX0djb3h1ZHozR25YTE5RZmVtZjZJM0doUXcydzBpczNyN3Y2RXQxQkpkTnNxSjc2M3JxcEpYdTl5RDduV3hTNU5GUzBlRks4SjNiTy1WSHFKc2xkbzdIRnpWa3JIVnc5QmYxa05uTFBOaDhtUkNDUEVEeE9RaEh0N3U1cmZnZ9IBpwJBVV95cUxQdTNqclJMd0x1MlFKRWVqQ1pTTVBSU3EweUd4Zm9LNk80bGw0TWNId2NtTUJ0Vi1RRndidFFwZTRkcUp6ckVMczVEUlFzYlEwcmtrREswXzI1MzRSZHV0UDBqS09RRlYwdmctNFJmZkNlVEI4SDJWdTczT3ltTEU4ZTB5WXlTWnNOYXk2NWdMeWZRM1dZemVzQm53a1JJRl9SRkFrWXdPc3FUdjktYkh1c1ZBMHdIUFgzUnRpeGM0UTNmTXNoQzkwZkVWdnJtamhqem11b3lKaVZHNi1pb0o0Qi1ydVB2a0xGMERIWTE1QVBGNHlkWm40NHJTRURodjFYOVVHLURaTk90VHhlWlFQLTN6eF83Q2pUS1prZFAxYWtNZjRQbTVj?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMTV0a3lyOFZDVjc4bEd1dFpjRzFfOGpmem1BMzc1MmpDSzNKMzlUSzkwV3MxQ05BSGtaZXBTcHA4ZTBiYnF0WldBaWZ2c0JkdDY5S2J3WTllbEktdE95b2VQMWl1MTJwOXdhTEh4aGJacXhqUGtqcFhaVHlGTTh1c1VQVE5HdWVyUzVXZ2lDLW4tV214YWNvaFBlN2pfcVpDSDlGM0F6T24ycGZJbXRxNGJSX19yNXRVaWRtRXhOWm5TVnFkZVE1SEMwcGM3WnRZMVZkRjlpWjBVQkZ3SF9PSnFGZw?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
   metrics: {}
   kind: news
 ---

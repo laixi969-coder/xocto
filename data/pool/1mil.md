@@ -20,16 +20,16 @@ url: https://1mil.app/
 canonical_url: https://1mil.app
 summary: My startup-idea scanner scored 500 ideas; the best got 6.3/10
 first_seen: '2026-08-30T11:35:01Z'
-last_seen: '2026-08-31T00:37:17Z'
+last_seen: '2026-08-31T17:38:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://1mil.app/
-  seen_at: '2026-08-31T00:37:17Z'
+  seen_at: '2026-08-31T17:38:26Z'
   metrics:
-    points: 5
+    points: 7
     comments: 4
   kind: product
 ---

@@ -1,0 +1,41 @@
+---
+slug: funding-and-acquisitions-in-indian-startups-this-week-aug-24
+name: Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29]
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzBXTGRrYzNjeTY4RmhwdVVqa0RpdWJlVEp5TlhETUFaaFp3b2p3bXVlZ3FhYlhqeW1FSTc5QTl4WUdFTW80Y0VraTJjRDBjVi16U1VqVmpibXJfS0hRNGJUN1R4TDVHSzdHMlJoZ0h3VDdBb3pGVUEyM3owajNoQ1ZodWI1bUhhTG9hNExISkdULVJGT3hIaEl2TGRYRkZFXzFWLUhoZzVKLTFuaXBDOUtRTFMySGVBWHY5ZUpzcGdRSUJx0gHEAUFVX3lxTE9fMFdMZGtjM2N5NjhGaHB1VWprRGl1YmVUSnlOWERNQVpoWndvandtdWVncWFiWGp5bUVJNzlBOXhZR0VNbzRjRWtpMmNEMGNWLXpTVWpWamJtcl9LSFE0YlQ3VHhMNUdLN0cyUmhnSHdUN0FvekZVQTIzejBqM2hDVmh1YjVtSGFMb2E0TEhKR1QtUkZPeEhoSXZMZFhGRkVfMVYtSGhnNUotMW5pcEM5S1FMUzJIZUFYdjllSnNwZ1FJQnE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzBXTGRrYzNjeTY4RmhwdVVqa0RpdWJlVEp5TlhETUFaaFp3b2p3bXVlZ3FhYlhqeW1FSTc5QTl4WUdFTW80Y0VraTJjRDBjVi16U1VqVmpibXJfS0hRNGJUN1R4TDVHSzdHMlJoZ0h3VDdBb3pGVUEyM3owajNoQ1ZodWI1bUhhTG9hNExISkdULVJGT3hIaEl2TGRYRkZFXzFWLUhoZzVKLTFuaXBDOUtRTFMySGVBWHY5ZUpzcGdRSUJx0gHEAUFVX3lxTE9fMFdMZGtjM2N5NjhGaHB1VWprRGl1YmVUSnlOWERNQVpoWndvandtdWVncWFiWGp5bUVJNzlBOXhZR0VNbzRjRWtpMmNEMGNWLXpTVWpWamJtcl9LSFE0YlQ3VHhMNUdLN0cyUmhnSHdUN0FvekZVQTIzejBqM2hDVmh1YjVtSGFMb2E0TEhKR1QtUkZPeEhoSXZMZFhGRkVfMVYtSGhnNUotMW5pcEM5S1FMUzJIZUFYdjllSnNwZ1FJQnE?oc=5
+summary: Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29] Entrackr
+first_seen: '2026-08-29T09:18:56Z'
+last_seen: '2026-08-31T17:38:59Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzBXTGRrYzNjeTY4RmhwdVVqa0RpdWJlVEp5TlhETUFaaFp3b2p3bXVlZ3FhYlhqeW1FSTc5QTl4WUdFTW80Y0VraTJjRDBjVi16U1VqVmpibXJfS0hRNGJUN1R4TDVHSzdHMlJoZ0h3VDdBb3pGVUEyM3owajNoQ1ZodWI1bUhhTG9hNExISkdULVJGT3hIaEl2TGRYRkZFXzFWLUhoZzVKLTFuaXBDOUtRTFMySGVBWHY5ZUpzcGdRSUJx0gHEAUFVX3lxTE9fMFdMZGtjM2N5NjhGaHB1VWprRGl1YmVUSnlOWERNQVpoWndvandtdWVncWFiWGp5bUVJNzlBOXhZR0VNbzRjRWtpMmNEMGNWLXpTVWpWamJtcl9LSFE0YlQ3VHhMNUdLN0cyUmhnSHdUN0FvekZVQTIzejBqM2hDVmh1YjVtSGFMb2E0TEhKR1QtUkZPeEhoSXZMZFhGRkVfMVYtSGhnNUotMW5pcEM5S1FMUzJIZUFYdjllSnNwZ1FJQnE?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+---
+
+# Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29]
+
+Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29] Entrackr
+
+## 笔记
+
+

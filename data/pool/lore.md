@@ -28,8 +28,8 @@ url: https://github.com/hsusul/lore
 canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-31T17:38:59Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -51,6 +51,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSFVWN3FKLWZZbHNqUGUxaUZlZ1pOb1oxU0dJbFNNLTVPWHJkY01jeXNjWFE3TE5DOEVCaU92N2E2T1FNeDJ5N2tmVHFwcHVFb1J2RWhpZjRIdmhpMTBBX3pqRjQ0ZGkwVVZJak1qQUZUWXc4OEVWc3lYZ1U5WHhnaGFqUUpFQ0FmcEFvSjFzMU9HdWxLb2l2ankycFV0ekFrN1RlQ09Ha2oyeUU?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTE16ZFg4RkUtT3JobDZiX3JBRUo4SFIyWm9UUlllazJFMXhfYThxU2ZmdXZHc3ZsblZ5Qmd5WFJoWXBwSmxZOTRBbXBKeHB1aFpjT1ZOMVN2djlnNzZMckRQdnBNTUpQUGJ4WlpQLW5uQ0ozUQ?oc=5
+  seen_at: '2026-08-31T17:38:59Z'
   metrics: {}
   kind: news
 ---

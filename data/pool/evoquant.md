@@ -21,16 +21,16 @@ canonical_url: https://github.com/CamusGIT/EvoQuant
 summary: EvoQuant is a self-evolving AI research agent specialized in quantitative investment research.
   It runs the full research loop autonomously
 first_seen: '2026-08-17T13:42:07Z'
-last_seen: '2026-08-31T00:37:21Z'
+last_seen: '2026-08-31T17:38:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CamusGIT/EvoQuant
-  seen_at: '2026-08-31T00:37:21Z'
+  seen_at: '2026-08-31T17:38:30Z'
   metrics:
-    stars: 204
+    stars: 215
     forks: 3
     open_issues: 0
   kind: product

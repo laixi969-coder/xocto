@@ -40,8 +40,8 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   production-ready prompts for any image, video, music, or voice generator. No API keys. Suggested Donation
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-08-31T17:38:50Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -63,6 +63,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQR3dyVGlzQ0VtVnlGbEpkNXdCRDdOa1VFMzJVMDlCakVJM1RLdG44bEQ1SktJeGcyeFRQUEFpRXYyNkw3TmRhMUxMeEoxM3E2WXZIQ09TOEhlbDNMc0FXem85Mm1ibGFBdUgzTDNPRHJzTTNKaHlUOWxERmtJOGNTR1ZXZmNVTWxMam13U2dfeVFNMGExdVF4c1pCZENlYzVNM1lHdDZlcXI4RjZyb3Y4WkNtTmhabm41N0xTVUo2UEtiUmwxTnd1dkhOQQ?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/
+  seen_at: '2026-08-31T17:38:50Z'
   metrics: {}
   kind: news
 ---
