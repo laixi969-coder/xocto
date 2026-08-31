@@ -37,8 +37,8 @@ summary: Hugging Face's Pollen Robotics has launched its second cute AI robot, t
   lavender, and sky blue, and Pollen Robotics says it plans to start shipping the little robot "before
   Christmas 2026." Video demos of the […]
 first_seen: '2026-08-27T13:44:00Z'
-last_seen: '2026-08-30T14:53:44Z'
-status: queued
+last_seen: '2026-08-31T00:37:42Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -51,6 +51,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE54eHRwdkhxU3UxczlHRDJJaDhFdHpnRERCSEItOTh4Z0NFUHdQUHgwdXhXZ3JaY0k4WkZwZktueFJIY2RfUDlYcFBqMmh6R2loMGx3?oc=5
   seen_at: '2026-08-30T14:53:44Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.oneusefulthing.org/p/agency-and-agents
+  seen_at: '2026-08-31T00:37:42Z'
   metrics: {}
   kind: news
 ---

@@ -20,17 +20,17 @@ url: https://noaifridays.com/
 canonical_url: https://noaifridays.com
 summary: ''
 first_seen: '2026-08-30T12:31:05Z'
-last_seen: '2026-08-30T14:53:16Z'
-status: rejected
+last_seen: '2026-08-31T00:37:17Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://noaifridays.com/
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
-    points: 72
-    comments: 27
+    points: 261
+    comments: 184
   kind: news
 ---
 

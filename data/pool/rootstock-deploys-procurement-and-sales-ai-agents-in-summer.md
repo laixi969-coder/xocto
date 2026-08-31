@@ -34,14 +34,19 @@ url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQRV9sN2M4RlcwcGZXWEZfNG
 canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQRV9sN2M4RlcwcGZXWEZfNGhOY2s4U0tUZGhXTkdhM3RiLWZRYzQwLVlGNkZqYWgtSFowc3VXQS1CWWloTGE4QXBHeHpTQnRjMmZaNGNPUDlYZW5yeWJWc3o3T1E4TVFCVDZ1a0laT3ZDcFNqZ0hPR25jUmNYZnVSQlhxaUN0NTdveVZRSkgtb3RjU3RWMGgzbk45bHZiYTh4UGFMcw?oc=5
 summary: Rootstock deploys procurement and sales AI agents in Summer 2026 release Portal ERP
 first_seen: '2026-08-29T03:04:02Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: queued
+last_seen: '2026-08-31T00:37:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQRV9sN2M4RlcwcGZXWEZfNGhOY2s4U0tUZGhXTkdhM3RiLWZRYzQwLVlGNkZqYWgtSFowc3VXQS1CWWloTGE4QXBHeHpTQnRjMmZaNGNPUDlYZW5yeWJWc3o3T1E4TVFCVDZ1a0laT3ZDcFNqZ0hPR25jUmNYZnVSQlhxaUN0NTdveVZRSkgtb3RjU3RWMGgzbk45bHZiYTh4UGFMcw?oc=5
   seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNczZhREpRVUluUV82MlpYWFlNeW9ESWhJaXk4VjNvSHVwWGVxSHBtcEJUd0JRVGxpOG5Wd1NTTHZFMjNieVZCcktGTTdHM2w0RzRVV0dWX3ZLVGxNMWRTbUVrazlOamVHYk9RazgtVVYtOThtNTBRS0tkb2VsWHlBQ1VYblkzZkx2ZGdMYllSMkdXdUlKRFlYaW81QkttQXlE?oc=5
+  seen_at: '2026-08-31T00:37:44Z'
   metrics: {}
   kind: news
 ---

@@ -22,8 +22,8 @@ canonical_url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxQSUNuYmtxbmtm
 summary: Luxshare Precision Reports 40.2% Revenue Growth in First Half 2026; Business Mix Supports Margin
   Expansion TradingView
 first_seen: '2026-08-28T00:00:00Z'
-last_seen: '2026-08-30T14:53:44Z'
-status: market_context
+last_seen: '2026-08-31T00:37:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -35,6 +35,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizAFBVV95cUxQM0FaTTJsS3RKU1JRVHRJNVMxTk9TdDFyVnVjYmdfam9UQm5fdm02S1doSEJ1WXdiU2FEWWNsTkxFd3RNY3BLaGg2Q0VDVFNfWlZjU184QjRJM3NVVjNIbnZydk1yWWY2Q2NqTEVIRkFMNzNxc2pHMnd2UHpFbGljQktJa3pXUnc2eUxjZVJjUi14SUZKNGFWSFVla1hheFU2UHdHZ3BNR0lnMUdLZFJvRFVOQWdVZHRXX3FIbjlmTy1KUnVHb29UQ000VVc?oc=5
   seen_at: '2026-08-30T14:53:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxPNHhjMkd3NXQzSHJuWWxMbGxEd3ZObWhfWUc4SFZueDdhdlR0Mk1aWTI3bXhoVzRDUFdqUTJzWXdXQ1RBbC1UZVRTeGs4bEE0cHNLaTlfTGozbDlEcVEtSzFZMWltUmcteXhocWlyNndJdkF1MzJuTE5CNDlSZTBjMkxOSFlBV0NDT1hYaUU2U2E2aVpFOXM2WjVlSDlJMFROai0wdkFYdE9nRUt2QmIxdV9PTVFHRXhJZExFaEpSYXNPaXViNUQ4?oc=5
+  seen_at: '2026-08-31T00:37:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxPeEt2akwwMWFnRGxBYk55Njk0TkZhN1BFbDhTZEgzS0tvb3RocmtERmRfdkV0QzVQTjA1OVF5STdtTjM0eER3dmZ4dnlnYVcwUGl6YVYybHI3NWdaRVNCeGlSd1RNZ2N4UXNmbzl4dUtPWWNWRVVsSno5ZHFSWWlaRHNrOFZjaDI1b0lWZVMwTGNTUkZJanF5WXlHWEZINlg3STNCbU9ZcGtnWFdENG5OcWlGZG1ydjBjRS1nTzk1a3pZTHBTSGFISTdwM0ZOQkhBLUdsZlpodXNZSUlsVUV6azB3?oc=5
+  seen_at: '2026-08-31T00:37:44Z'
   metrics: {}
   kind: news
 ---

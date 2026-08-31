@@ -24,16 +24,16 @@ canonical_url: https://github.com/xiaobright/modeltest
 summary: 'Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2
   98/99)'
 first_seen: '2026-08-14T14:06:39Z'
-last_seen: '2026-08-30T14:53:20Z'
+last_seen: '2026-08-31T00:37:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiaobright/modeltest
-  seen_at: '2026-08-30T14:53:20Z'
+  seen_at: '2026-08-31T00:37:21Z'
   metrics:
-    stars: 3802
+    stars: 3805
     forks: 115
     open_issues: 17
   kind: product

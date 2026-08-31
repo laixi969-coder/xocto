@@ -34,16 +34,16 @@ summary: HERO = Hashing · Edge cases · Rubrics · Overbuild — the four shape
   in. A paste-in contract that stops them. Works with Claude Code, Codex, Antigravity, Cursor, Copilot,
   Windsurf, Gemini CLI.
 first_seen: '2026-08-11T05:08:30Z'
-last_seen: '2026-08-30T14:53:20Z'
+last_seen: '2026-08-31T00:37:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wanshuiyin/HERO-Anti-OverDefense
-  seen_at: '2026-08-30T14:53:20Z'
+  seen_at: '2026-08-31T00:37:21Z'
   metrics:
-    stars: 351
+    stars: 352
     forks: 8
     open_issues: 0
   kind: product

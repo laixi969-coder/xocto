@@ -21,14 +21,20 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaH
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5
 summary: 【早报】深夜，美股半导体板块剧烈分化；高盛：SpaceX的AI收入将激增100倍 财联社
 first_seen: '2026-08-29T06:03:25Z'
-last_seen: '2026-08-30T14:53:44Z'
-status: market_context
+last_seen: '2026-08-31T00:37:42Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5
   seen_at: '2026-08-30T14:53:44Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/
+  seen_at: '2026-08-31T00:37:42Z'
   metrics: {}
   kind: news
 ---

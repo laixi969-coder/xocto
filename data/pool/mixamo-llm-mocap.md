@@ -34,17 +34,17 @@ canonical_url: https://github.com/squall01337/mixamo-llm-mocap
 summary: Turn any video into a Mixamo-rig animation - GVHMR estimator, spec-driven retarget, FK apply
   in Blender via MCP. Works with any Mixamo character; built to be operated end-to-end by an AI agent.
 first_seen: '2026-08-17T21:05:02Z'
-last_seen: '2026-08-30T14:53:20Z'
+last_seen: '2026-08-31T00:37:21Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/squall01337/mixamo-llm-mocap
-  seen_at: '2026-08-30T14:53:20Z'
+  seen_at: '2026-08-31T00:37:21Z'
   metrics:
-    stars: 220
-    forks: 47
+    stars: 223
+    forks: 48
     open_issues: 2
   kind: product
 ---

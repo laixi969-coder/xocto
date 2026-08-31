@@ -28,16 +28,16 @@ url: https://huggingface.co/spaces/hugging-apps/sopro-v2-turbo-tts
 canonical_url: https://huggingface.co/spaces/hugging-apps/sopro-v2-turbo-tts
 summary: Zero-shot voice cloning TTS with 120M params
 first_seen: '2026-08-29T23:33:30Z'
-last_seen: '2026-08-30T14:53:40Z'
+last_seen: '2026-08-31T00:37:40Z'
 status: watching
 sources:
 - huggingface
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/hugging-apps/sopro-v2-turbo-tts
-  seen_at: '2026-08-30T14:53:40Z'
+  seen_at: '2026-08-31T00:37:40Z'
   metrics:
-    likes: 3
+    likes: 5
   kind: product
 ---
 

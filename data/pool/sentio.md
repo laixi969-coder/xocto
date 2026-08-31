@@ -36,18 +36,18 @@ summary: 'Email inbox API for AI agents. Give every agent its own real email add
   structured webhooks, and reply in-thread over REST. A complete multi-tenant mail server in Rust: inbound
   and outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, three-tier anti-spam.'
 first_seen: '2026-08-23T21:36:25Z'
-last_seen: '2026-08-30T14:53:20Z'
+last_seen: '2026-08-31T00:37:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://truespar.com/sentio
-  seen_at: '2026-08-30T14:53:20Z'
+  seen_at: '2026-08-31T00:37:21Z'
   metrics:
-    stars: 229
+    stars: 230
     forks: 16
-    open_issues: 0
+    open_issues: 2
   kind: product
 ---
 

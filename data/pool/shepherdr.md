@@ -26,16 +26,16 @@ url: https://github.com/luiscleto/shepherdr
 canonical_url: https://github.com/luiscleto/shepherdr
 summary: Self-hosted mobile-friendly web UI for Herdr agents
 first_seen: '2026-08-30T11:49:12Z'
-last_seen: '2026-08-30T14:53:16Z'
+last_seen: '2026-08-31T00:37:17Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/luiscleto/shepherdr
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

@@ -30,16 +30,16 @@ url: https://github.com/AniketWathore/bolnee-chat
 canonical_url: https://github.com/AniketWathore/bolnee-chat
 summary: Self Hosted Chatbot Integration in Your Business Website
 first_seen: '2026-08-30T09:56:05Z'
-last_seen: '2026-08-30T14:53:16Z'
+last_seen: '2026-08-31T00:37:17Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/AniketWathore/bolnee-chat
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
-    points: 29
+    points: 32
     comments: 0
   kind: product
 ---

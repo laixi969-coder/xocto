@@ -175,3 +175,24 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 公共安全 保险 执法人员 保险监管人员'
+- id: ev-c5b4fb073113fe9c
+  project_slug: status
+  url: https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/
+  title: texastribune
+  published_at: '2026-08-29T23:17:17Z'
+  collected_at: '2026-08-31T00:37:17Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Lawmakers added $1 to car insurance policies. That money paid for Flock cameras
+- id: ev-316ecd4eecdf5999
+  project_slug: status
+  url: https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras
+  title: Texas Governor Abbott blocks funding for more Flock cameras
+  published_at: '2026-08-30T15:35:10Z'
+  collected_at: '2026-08-31T00:37:42Z'
+  source_kind: market_signal
+  tier: independent
+  fact: As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen
+    state spending on them. The move came just ahead of the publication of a Texas Tribune investigation
+    that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by
+    tacking a $1 fee onto insurance policies, […]

@@ -21,17 +21,17 @@ url: https://lwn.net/Articles/1091231/
 canonical_url: https://lwn.net/Articles/1091231
 summary: Debian votes to allow "responsible use of generative AI"
 first_seen: '2026-08-29T14:02:10Z'
-last_seen: '2026-08-30T14:53:16Z'
-status: market_context
+last_seen: '2026-08-31T00:37:17Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lwn.net/Articles/1091231/
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
-    points: 491
-    comments: 459
+    points: 495
+    comments: 465
   kind: news
 ---
 

@@ -20,16 +20,16 @@ url: https://github.com/QcFe/phpEZ
 canonical_url: https://github.com/QcFe/phpEZ
 summary: A tiny PHP framework for shared LAMP hosting
 first_seen: '2026-08-29T18:09:43Z'
-last_seen: '2026-08-30T14:53:16Z'
+last_seen: '2026-08-31T00:37:17Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/QcFe/phpEZ
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
-    points: 9
+    points: 10
     comments: 2
   kind: product
 ---

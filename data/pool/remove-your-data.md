@@ -26,16 +26,16 @@ url: https://github.com/k7cfo/remove-your-data
 canonical_url: https://github.com/k7cfo/remove-your-data
 summary: Delete yourself from data brokers without a subscription
 first_seen: '2026-08-29T22:31:56Z'
-last_seen: '2026-08-30T14:53:16Z'
+last_seen: '2026-08-31T00:37:17Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/k7cfo/remove-your-data
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
-    points: 17
+    points: 22
     comments: 6
   kind: product
 ---

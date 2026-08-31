@@ -39,8 +39,8 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
-last_seen: '2026-08-30T14:53:20Z'
-status: queued
+last_seen: '2026-08-31T00:37:17Z'
+status: pending_filter
 sources:
 - github
 - newssearch
@@ -61,10 +61,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
     points: 64
-    comments: 84
+    comments: 87
   kind: news
 ---
 

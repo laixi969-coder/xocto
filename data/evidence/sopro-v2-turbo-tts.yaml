@@ -166,3 +166,12 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 语音应用开发者'
+- id: ev-ec3744fac2e60380
+  project_slug: sopro-v2-turbo-tts
+  url: https://huggingface.co/spaces/hugging-apps/sopro-v2-turbo-tts
+  title: Sopro v2 Turbo TTS
+  published_at: '2026-08-29T23:33:30Z'
+  collected_at: '2026-08-31T00:37:40Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: Zero-shot voice cloning TTS with 120M params

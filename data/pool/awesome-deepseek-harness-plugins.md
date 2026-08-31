@@ -21,17 +21,17 @@ canonical_url: https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins
 summary: Curated DeepSeek Harness (DSH) plugins, extensions, tools, skills, clients, runtimes, integrations,
   and verified references — English and Chinese.
 first_seen: '2026-08-13T13:52:04Z'
-last_seen: '2026-08-30T14:53:20Z'
+last_seen: '2026-08-31T00:37:21Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Zhiyuan-Fan/Awesome-DeepSeek-Harness-Plugins
-  seen_at: '2026-08-30T14:53:20Z'
+  seen_at: '2026-08-31T00:37:21Z'
   metrics:
-    stars: 465
-    forks: 42
+    stars: 477
+    forks: 43
     open_issues: 6
   kind: product
 ---

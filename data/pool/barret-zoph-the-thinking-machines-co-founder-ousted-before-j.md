@@ -22,8 +22,8 @@ canonical_url: https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machin
 summary: Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's
   CTO, led a brief stint at OpenAI and is now at Google.
 first_seen: '2026-08-27T19:52:52Z'
-last_seen: '2026-08-30T14:53:44Z'
-status: market_context
+last_seen: '2026-08-31T00:37:17Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -36,15 +36,36 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.google/products-and-platforms/products/maps/gnis-lake-ontario-lake-america-name-change/
-  seen_at: '2026-08-30T14:53:16Z'
+  seen_at: '2026-08-31T00:37:17Z'
   metrics:
-    points: 47
-    comments: 21
+    points: 77
+    comments: 47
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZSDBOd0tHYlpxOC1yMmYycHFQb2V0MnNVaHh0SWVoblFNS2RmV0s2c2NxWnRRclBiTndsQTNNQldSUklMbjBGTW51a3l6Wjg4azI1VGpzWW5Hd2JLZ0hsQmZKaEdKa3MybWRQSnhPbFdGMWRudDhSQnczX2lvN3M?oc=5
   seen_at: '2026-08-30T14:53:44Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.cnn.com/2026/08/30/politics/google-maps-changes-lake-ontario-to-lake-america
+  seen_at: '2026-08-31T00:37:17Z'
+  metrics:
+    points: 36
+    comments: 34
+  kind: news
+- source: hackernews
+  url: https://www.wired.com/story/google-maps-now-shows-lake-america-instead-of-lake-ontario/
+  seen_at: '2026-08-31T00:37:17Z'
+  metrics:
+    points: 26
+    comments: 13
+  kind: news
+- source: hackernews
+  url: https://www.motherjones.com/politics/2026/08/google-lake-ontario-america-maps-rename-capitulation/
+  seen_at: '2026-08-31T00:37:17Z'
+  metrics:
+    points: 37
+    comments: 14
   kind: news
 ---
 

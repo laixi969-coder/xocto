@@ -20,7 +20,7 @@ url: https://vercel.com/templates/eve/eve-marketing-team
 canonical_url: https://vercel.com/templates/eve/eve-marketing-team
 summary: Team of marketing agents built on eve.
 first_seen: '2026-07-26T06:27:51Z'
-last_seen: '2026-08-30T14:53:20Z'
+last_seen: '2026-08-31T00:37:21Z'
 status: rejected
 sources:
 - github
@@ -35,9 +35,9 @@ sightings:
   kind: product
 - source: github
   url: https://vercel.com/templates/eve/eve-software-factory
-  seen_at: '2026-08-30T14:53:20Z'
+  seen_at: '2026-08-31T00:37:21Z'
   metrics:
-    stars: 1070
+    stars: 1074
     forks: 59
     open_issues: 0
   kind: product

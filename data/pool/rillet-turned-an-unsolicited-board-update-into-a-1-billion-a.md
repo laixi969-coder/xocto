@@ -35,14 +35,19 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaHV4THR4U3Bf
 summary: Rillet turned an unsolicited board update into a $1 billion accounting startup in 48 hours Startup
   Fortune
 first_seen: '2026-08-30T05:36:32Z'
-last_seen: '2026-08-30T14:53:44Z'
-status: queued
+last_seen: '2026-08-31T00:37:44Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaHV4THR4U3BfT29hc25FeG9NTk9RTjJFWFFOZnZxeTBxc1ZybDRndTNHSllSQ09ESE0zdGdjRVJqZlpTQThqMFR2OWlMZklwQndzcHplV0cwcGZRODV4bkIwU1BJM204TUVORVVxMjgwZGl1U3hKcVNkUGllbFcyaXN1eWMxQlJjdGlnMjdCVGdDSjNiOExPNnI3Z3pfMjU0c25Pc2pyYzBYRmI4cy1mNDBEaDVqMFFz?oc=5
   seen_at: '2026-08-30T14:53:44Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNOXZOMUJNMHdIUGlvRWFCWGo2cGtvZjNxQjdRRlhsRm4tdHMyeUk3U3RSS3BRRGFzZUszYkZNSWdDT2pjbDA5YUFwS3E2QWE5cXZPbFluTDRySWlTcXl4OWNUak1WRzcxZWhJY0k4SE5VeFRWelJ2SFQydjlMMUpKUFlYUzhTM0I1TWZ1cWxfMGNhSENlWGhGTFZzcGFkTmp4WmVWZw?oc=5
+  seen_at: '2026-08-31T00:37:44Z'
   metrics: {}
   kind: news
 ---

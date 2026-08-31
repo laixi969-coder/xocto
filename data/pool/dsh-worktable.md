@@ -29,17 +29,17 @@ canonical_url: https://github.com/Aisland-SJL/dsh-worktable
 summary: 🖥️ Agent-project workbench for DeepSeek Harness — sidebar app drawer + dockable split workspace
   + a live control room watching every project.
 first_seen: '2026-08-16T15:43:27Z'
-last_seen: '2026-08-30T14:53:20Z'
+last_seen: '2026-08-31T00:37:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Aisland-SJL/dsh-worktable
-  seen_at: '2026-08-30T14:53:20Z'
+  seen_at: '2026-08-31T00:37:21Z'
   metrics:
-    stars: 376
-    forks: 50
+    stars: 387
+    forks: 51
     open_issues: 2
   kind: product
 ---
