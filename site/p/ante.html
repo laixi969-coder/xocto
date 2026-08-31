@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Ante · x-octo</title>
-<meta name="description" content="一个文件就能用的写代码助手，断网也能在本机改代码、跑测试">
+<meta name="description" content="一个单二进制文件、可离线运行的编码代理。开发者将其作为命令行工具使用，在本地环境中接收代码任务，执行编码操作，无需联网。具体支持的语言、任务类型和交付形式仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/ante.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/ante.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/ante.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/ante.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Ante · x-octo">
-<meta property="og:description" content="一个文件就能用的写代码助手，断网也能在本机改代码、跑测试">
+<meta property="og:description" content="一个单二进制文件、可离线运行的编码代理。开发者将其作为命令行工具使用，在本地环境中接收代码任务，执行编码操作，无需联网。具体支持的语言、任务类型和交付形式仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/ante.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ante.html#webpage", "@type": "WebPage", "description": "\u4e00\u4e2a\u6587\u4ef6\u5c31\u80fd\u7528\u7684\u5199\u4ee3\u7801\u52a9\u624b\uff0c\u65ad\u7f51\u4e5f\u80fd\u5728\u672c\u673a\u6539\u4ee3\u7801\u3001\u8dd1\u6d4b\u8bd5", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@id": "https://xocto.vercel.app/p/ante.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-08-12", "datePublished": "2026-08-10", "description": "\u4e00\u4e2a\u6587\u4ef6\u5c31\u80fd\u7528\u7684\u5199\u4ee3\u7801\u52a9\u624b\uff0c\u65ad\u7f51\u4e5f\u80fd\u5728\u672c\u673a\u6539\u4ee3\u7801\u3001\u8dd1\u6d4b\u8bd5", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ante.html#webpage"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ante.html", "name": "Ante", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ante.html#webpage", "@type": "WebPage", "description": "\u4e00\u4e2a\u5355\u4e8c\u8fdb\u5236\u6587\u4ef6\u3001\u53ef\u79bb\u7ebf\u8fd0\u884c\u7684\u7f16\u7801\u4ee3\u7406\u3002\u5f00\u53d1\u8005\u5c06\u5176\u4f5c\u4e3a\u547d\u4ee4\u884c\u5de5\u5177\u4f7f\u7528\uff0c\u5728\u672c\u5730\u73af\u5883\u4e2d\u63a5\u6536\u4ee3\u7801\u4efb\u52a1\uff0c\u6267\u884c\u7f16\u7801\u64cd\u4f5c\uff0c\u65e0\u9700\u8054\u7f51\u3002\u5177\u4f53\u652f\u6301\u7684\u8bed\u8a00\u3001\u4efb\u52a1\u7c7b\u578b\u548c\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@id": "https://xocto.vercel.app/p/ante.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-01", "datePublished": "2026-08-10", "description": "\u4e00\u4e2a\u5355\u4e8c\u8fdb\u5236\u6587\u4ef6\u3001\u53ef\u79bb\u7ebf\u8fd0\u884c\u7684\u7f16\u7801\u4ee3\u7406\u3002\u5f00\u53d1\u8005\u5c06\u5176\u4f5c\u4e3a\u547d\u4ee4\u884c\u5de5\u5177\u4f7f\u7528\uff0c\u5728\u672c\u5730\u73af\u5883\u4e2d\u63a5\u6536\u4ee3\u7801\u4efb\u52a1\uff0c\u6267\u884c\u7f16\u7801\u64cd\u4f5c\uff0c\u65e0\u9700\u8054\u7f51\u3002\u5177\u4f53\u652f\u6301\u7684\u8bed\u8a00\u3001\u4efb\u52a1\u7c7b\u578b\u548c\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ante.html#webpage"}, "name": "Ante", "url": "https://xocto.vercel.app/p/ante.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ante.html", "name": "Ante", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -61,16 +61,16 @@
       <span class="verdict v-notable">持续观察</span>
     </div>
 
-    <p class="lede">一个文件就能用的写代码助手，断网也能在本机改代码、跑测试</p>
+    <p class="lede">一个单二进制文件、可离线运行的编码代理。开发者将其作为命令行工具使用，在本地环境中接收代码任务，执行编码操作，无需联网。具体支持的语言、任务类型和交付形式仍待核验。</p>
 
     <div class="meta">
 <span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
-<span class="tag">AI + 开发</span><span class="tag sig">社区热度 159</span>    </div>
+<span class="tag">新应用 / 服务</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 159</span>    </div>
 
     <div class="kv">
       <div><span>团队 / 作者</span><b>ubermon</b></div>
       <div><span>本站首次收录</span><b class="num">2026-08-10</b></div>
-      <div><span>本站最近更新</span><b class="num">2026-08-12</b></div>
+      <div><span>本站最近更新</span><b class="num">2026-09-01</b></div>
     </div>
   </header>
 
@@ -80,25 +80,25 @@
         <p class="eyebrow">从用户的一天开始</p>
         <h2>它为什么会被需要</h2>
       </div>
-<span class="note">公开事实 + 工作流推理 · 2026-08-28</span>    </div>
+<span class="note">公开事实 + 工作流推理 · 2026-09-01</span>    </div>
     <article class="story-flow">
       <div class="story-opening">
         <span class="field-k">工作现场</span>
-        <p class="story-lead">一个文件就能用的写代码助手，断网也能在本机改代码、跑测试</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="story-lead">开发者需要在无网络或敏感环境下完成编码任务。</p>
+        <p>本地 IDE 插件、手动编码、云端编码代理。</p>
+        <p>云端编码代理依赖网络，存在数据泄露风险，且响应延迟。</p>
       </div>
 
       <div class="story-turn">
         <span class="field-k">xOcto 的判断</span>
         <h3>这是&#34;BusyBox/SQLite 哲学应用到 agent&#34;的产物：打包方式本身就是产品主张。 别的 agent 拼模型和提示词，Ante 拼的是&#34;不装环境、不联网、一个文件就跑&#34;。 对想并行跑几十上百个 agent 的团队，harness 的重量从四舍五入变成账单本身， 这个方向成立。</h3>
-        <p>趋势是写代码助手要能离线、免安装，才进得了保密机房。切入做金融、军工、内网研发这类不能联网的团队，先免费圈人；托管是否收费尚未披露。</p>
+        <p>趋势是编码代理从云端走向本地，强调隐私和离线能力。切入可从安全敏感行业（如金融、政府）入手，提供本地化部署的编码助手，按席位或项目收费。</p>
       </div>
 
       <div class="story-chapter">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>它承诺用更直接的方式完成这项任务：一个文件就能用的写代码助手，断网也能在本机改代码、跑测试；具体采用动机与持续使用情况尚未核验。</p>
+        <p>开发者社区讨论热烈，显示对离线编码代理有强烈兴趣。</p>
       </div>
 
       <div class="story-chapter story-question">
@@ -111,7 +111,7 @@
     <div class="role-grid story-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>继续观察</strong>。它承诺用更直接的方式完成这项任务：一个文件就能用的写代码助手，断网也能在本机改代码、跑测试；具体采用动机与持续使用情况尚未核验。</p>
+        <p><strong>值得试用</strong>。开发者社区讨论热烈，显示对离线编码代理有强烈兴趣。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -126,38 +126,50 @@
     <details class="research-notes evidence-boundary" open>
       <summary>我们凭什么这样判断</summary>
       <div class="evidence-boundary-grid">
-        <div><span class="field-k">公开事实</span><p>一个文件就能用的写代码助手，断网也能在本机改代码、跑测试</p></div>
-        <div><span class="field-k">工作流推理</span><p>它承诺用更直接的方式完成这项任务：一个文件就能用的写代码助手，断网也能在本机改代码、跑测试；具体采用动机与持续使用情况尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决敏感环境下无法使用云端编码代理的痛点，提供本地离线执行，交付编码结果。工作流结构判断：替代云端代理和手动编码。</p></div>
+        <div><span class="field-k">工作流推理</span><p>开发者社区讨论热烈，显示对离线编码代理有强烈兴趣。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>查看代码仓库的 README、issue 和 release，确认支持的语言、模型和实际使用案例。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“一个文件就能用的写代码助手，断网也能在本机改代码、跑测试”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决敏感环境下无法使用云端编码代理的痛点，提供本地离线执行，交付编码结果。工作流结构判断：替代云端代理和手动编码。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://tech.eu/2026/08/31/european-tech-weekly-recap-over-eur475m-invested-across-35-deals/" target="_blank" rel="noopener"> · 2026-08-31 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>已有采用或关注仍应记录，但不能替代痛点证据；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。</p>
+          <p>开发者社区讨论热烈，表明认可其价值，但缺乏实际采用数据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://tech.eu/2026/08/31/european-tech-weekly-recap-over-eur475m-invested-across-35-deals/" target="_blank" rel="noopener"> · 2026-08-31 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。</p>
+          <p>未披露定价和商业模式，可能开源免费，付费路径不明。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://tech.eu/2026/08/31/european-tech-weekly-recap-over-eur475m-invested-across-35-deals/" target="_blank" rel="noopener"> · 2026-08-31 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。</p>
+          <p>单二进制和离线运行承诺明确，但实际编码能力和稳定性未验证。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://tech.eu/2026/08/31/european-tech-weekly-recap-over-eur475m-invested-across-35-deals/" target="_blank" rel="noopener"> · 2026-08-31 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -169,8 +181,11 @@
         <p class="eyebrow">市场对照</p>
         <h2>中英文生态与跨国机会</h2>
       </div>
+<span class="tag sig">跨国机会</span>    </div>
+    <div class="decision-grid">
+      <div class="field"><span class="field-k">英文生态 · English-language market</span><p>本地供给：早期出现<br>需求证据：初步成立</p><p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-01。未发现仅限该覆盖范围。 · 2026-09-01</p></div>
+      <div class="field"><span class="field-k">中文生态 · CN</span><p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p><p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-01。未发现仅限该覆盖范围。 · 2026-09-01</p></div>
     </div>
-    <p class="noanalysis-sub">尚未完成中英文市场对照。待覆盖范围和可核验证据补齐后再给出结论。</p>
   </section>
 
   <article class="prose analysis-full">
@@ -291,6 +306,15 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
   </article>
 
 
+  <section class="band">
+    <div class="sec-head"><div><p class="eyebrow">证据链</p><h2>可核验公开证据</h2></div></div>
+    <ul class="rows">
+      <li><a href="https://www.merriam-webster.com/dictionary/ante" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">merriam-webster.com</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://www.dictionary.com/browse/ante" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">dictionary.com</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Ante" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">en.wikipedia.org</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
+      <li><a href="https://tech.eu/2026/08/31/european-tech-weekly-recap-over-eur475m-invested-across-35-deals/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name"></span><span class="row-desc">market_signal</span><span class="row-tail">2026-08-31</span></div></a></li>
+    </ul>
+  </section>
 
   <section class="band">
     <div class="sec-head">
@@ -310,7 +334,7 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 248 个 →
+        AI + 开发 共 256 个 →
       </a>
     </div>
     <ul class="rows">
@@ -357,9 +381,9 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/peerbridge-mcp.html">
+      <a class="pager-item pager-prev" href="../p/loomfeed.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">peerbridge-mcp</span>
+        <span class="pager-n">loomfeed</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/dshfind.html">
@@ -403,8 +427,8 @@ Ante 未提交官方榜，82.7% 是自报数字</li>
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>804 个案例 · 179 份生意判断</span>
-    <span class="gen">数据截至 2026-08-31</span>
+    <span>868 个案例 · 179 份生意判断</span>
+    <span class="gen">数据截至 2026-09-01</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
