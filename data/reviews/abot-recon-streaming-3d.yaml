@@ -1,0 +1,76 @@
+- id: req-initial-abot-recon-streaming-3d-2026-09-01
+  project_slug: abot-recon-streaming-3d
+  level: initial
+  reviewed_at: '2026-08-31T17:38:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明这是一个流式 3D 重建项目，未提供具体应用场景、性能数据或用户反馈，价值结构不清晰。
+    evidence_ids:
+    - ev-97144958449c1a2f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 README、演示视频或论文，以了解具体性能和应用场景。
+  market: ''
+  job: 机器人或 AR 系统需要实时从视频流中重建 3D 场景，以进行导航或交互。
+  job_en: Robotics or AR systems need real-time 3D scene reconstruction from video streams for navigation
+    or interaction.
+  pain: 传统 3D 重建需要离线处理，延迟高，无法满足实时应用需求。
+  pain_en: Traditional 3D reconstruction requires offline processing, high latency, unable to meet real-time
+    application needs.
+  current_alternative: 目前可能使用 SLAM 算法或离线重建软件（如 COLMAP）。
+  current_alternative_en: Currently may use SLAM algorithms or offline reconstruction software (e.g.,
+    COLMAP).
+  usage_reason: 开源项目可能吸引研究者和开发者尝试，但采用证据不足。
+  usage_reason_en: Open-source project may attract researchers and developers to try, but adoption evidence
+    is insufficient.
+- id: req-full-abot-recon-streaming-3d-2026-09-01
+  project_slug: abot-recon-streaming-3d
+  level: full
+  reviewed_at: '2026-08-31T18:37:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明这是一个流式 3D 重建项目，未提供具体应用场景、性能数据或用户反馈，价值结构不清晰。
+    evidence_ids:
+    - ev-97144958449c1a2f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 README、演示视频或论文，以了解具体性能和应用场景。
+  market: ''
+  job: 机器人或 AR 系统需要实时从视频流中重建 3D 场景，以进行导航或交互。
+  job_en: Robotics or AR systems need real-time 3D scene reconstruction from video streams for navigation
+    or interaction.
+  pain: 传统 3D 重建需要离线处理，延迟高，无法满足实时应用需求。
+  pain_en: Traditional 3D reconstruction requires offline processing, high latency, unable to meet real-time
+    application needs.
+  current_alternative: 目前可能使用 SLAM 算法或离线重建软件（如 COLMAP）。
+  current_alternative_en: Currently may use SLAM algorithms or offline reconstruction software (e.g.,
+    COLMAP).
+  usage_reason: 开源项目可能吸引研究者和开发者尝试，但采用证据不足。
+  usage_reason_en: Open-source project may attract researchers and developers to try, but adoption evidence
+    is insufficient.

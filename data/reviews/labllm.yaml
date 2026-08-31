@@ -413,3 +413,43 @@
   usage_reason: 公开代码仓库有 82 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 82 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-labllm-2026-09-01
+  project_slug: labllm
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决教师或学生在 macOS 上教学小型语言模型的需求，痛点是需要本地、可交互的训练环境，交付可确定（训练好的模型和检查点）。工作流结构推理：输入架构和数据，训练权重，可视化涌现，输出模型。
+    evidence_ids:
+    - ev-3b79ca1672308a8b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 83 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-85dd69ea25b9c595
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 LabLLM 的 GitHub 仓库 issue 和 discussion，确认是否有教师或学生实际部署并替代了旧流程。
+  market: ''
+  job: 教师或学生在 macOS 上使用 LabLLM 教学小型语言模型；它接收模型架构和数据，训练权重，并可视化模型涌现过程，输出训练好的模型和检查点。
+  job_en: Teachers or students use LabLLM on macOS to teach tiny language models; it takes model architecture
+    and data, trains weights, and visualizes the emergence process, outputting trained models and checkpoints.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；但教学小型语言模型需要本地、可交互的训练环境，现有工具可能复杂或需云端。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of not solving it; but
+    teaching tiny language models requires a local, interactive training environment, and existing tools
+    may be complex or cloud-based.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；可能使用云端训练平台或手动配置本地环境。
+  current_alternative_en: Public materials do not show how users complete this job today; they may use
+    cloud training platforms or manually configure local environments.
+  usage_reason: 公开代码仓库有 83 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 83 stars, showing developer attention; repeat use and payment
+    are not yet verified.

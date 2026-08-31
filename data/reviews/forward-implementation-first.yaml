@@ -1,0 +1,82 @@
+- id: req-initial-forward-implementation-first-2026-09-01
+  project_slug: forward-implementation-first
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理在自我管理上浪费算力和时间的问题，痛点明确，交付可确定（跳过记账直接产出代码）。工作流结构判断。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 152 星，但缺乏用户反馈或采用证据，社区共识尚未形成。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无定价或付费路径，商业模式未验证。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的第一性目标：快速交付代码。承诺可确定交付，安全边界明确（验证后置）。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  next_validation: 关注该开源项目的 issue 和讨论，看是否有用户报告实际使用效果或提出改进需求。
+  market: ''
+  job: 开发者使用 AI 编码代理时，希望代理快速产出可运行的代码，而不是陷入自我管理的记账、哈希、锁等仪式。
+  job_en: Developers using AI coding agents want agents to quickly produce runnable code, not get stuck
+    in self-invented bookkeeping, hashes, locks, and certification rituals.
+  pain: 代理在编码过程中花费大量时间在自我验证和记账上，导致实际工作停滞，交付延迟。
+  pain_en: Agents spend significant time on self-verification and bookkeeping during coding, stalling
+    real work and delaying delivery.
+  current_alternative: 目前开发者手动调整代理的提示词或工作流，或忍受代理的低效行为。
+  current_alternative_en: Currently developers manually adjust agent prompts or workflows, or tolerate
+    inefficient agent behavior.
+  usage_reason: 该技能包直接针对代理的常见低效行为，提供即插即用的解决方案，开源且免费，开发者容易尝试。
+  usage_reason_en: This skill pack directly targets common agent inefficiencies, offering a plug-and-play
+    solution, open-source and free, easy for developers to try.
+- id: req-full-forward-implementation-first-2026-09-01
+  project_slug: forward-implementation-first
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理在自我管理上浪费算力和时间的问题，痛点明确，交付可确定（跳过记账直接产出代码）。工作流结构判断。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 152 星，但缺乏用户反馈或采用证据，社区共识尚未形成。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无定价或付费路径，商业模式未验证。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的第一性目标：快速交付代码。承诺可确定交付，安全边界明确（验证后置）。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  next_validation: 关注该开源项目的 issue 和讨论，看是否有用户报告实际使用效果或提出改进需求。
+  market: ''
+  job: 开发者使用 AI 编码代理时，希望代理快速产出可运行的代码，而不是陷入自我管理的记账、哈希、锁等仪式。
+  job_en: Developers using AI coding agents want agents to quickly produce runnable code, not get stuck
+    in self-invented bookkeeping, hashes, locks, and certification rituals.
+  pain: 代理在编码过程中花费大量时间在自我验证和记账上，导致实际工作停滞，交付延迟。
+  pain_en: Agents spend significant time on self-verification and bookkeeping during coding, stalling
+    real work and delaying delivery.
+  current_alternative: 目前开发者手动调整代理的提示词或工作流，或忍受代理的低效行为。
+  current_alternative_en: Currently developers manually adjust agent prompts or workflows, or tolerate
+    inefficient agent behavior.
+  usage_reason: 该技能包直接针对代理的常见低效行为，提供即插即用的解决方案，开源且免费，开发者容易尝试。
+  usage_reason_en: This skill pack directly targets common agent inefficiencies, offering a plug-and-play
+    solution, open-source and free, easy for developers to try.

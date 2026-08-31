@@ -192,3 +192,41 @@
   usage_reason: 公开代码仓库有 166 个收藏、14 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 166 stars and 14 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-whip-2026-09-01
+  project_slug: whip
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理工具配置复杂、依赖重的痛点，通过单一二进制、无运行时、支持开源模型，交付可确定的编码代理能力。工作流结构推理。
+    evidence_ids:
+    - ev-6f4c1d8af4332cdf
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 179 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-6f4c1d8af4332cdf
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者需要快速、可配置的编码代理框架，以执行编码任务。
+  job_en: Developers need a fast, configurable coding-agent harness to execute coding tasks.
+  pain: 现有编码代理工具配置复杂、依赖重，难以适配开源模型。
+  pain_en: Existing coding-agent tools are complex to configure, heavy on dependencies, and hard to adapt
+    to open-source models.
+  current_alternative: 开发者可能使用其他编码代理工具或手动编写脚本，但缺乏灵活性和效率。
+  current_alternative_en: Developers may use other coding-agent tools or manually write scripts, lacking
+    flexibility and efficiency.
+  usage_reason: 开源项目获得 179 星，表明开发者社区关注，但实际采用和用户反馈未核验。
+  usage_reason_en: The open-source project has 179 stars, indicating developer community interest, but
+    actual adoption and user feedback are unverified.

@@ -1,0 +1,70 @@
+- id: req-initial-tash-2026-09-01
+  project_slug: tash
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅一句话，无法确认具体功能、用户任务和痛点，需求强度未明。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 无公开讨论或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法确认产品是否贴近第一性目标或交付是否确定。
+    evidence_ids: []
+  next_validation: 查找 tash 的官方网站或产品页面，获取详细功能、定价和用户案例。
+  market: ''
+  job: 交易卡投资者或收藏家需要管理投资组合、评估卡片价值或进行交易。
+  job_en: Trading card investors or collectors need to manage portfolios, assess card values, or trade.
+  pain: 交易卡市场信息不透明，估值困难，投资决策缺乏数据支持。
+  pain_en: The trading card market is opaque, valuation is difficult, and investment decisions lack data
+    support.
+  current_alternative: 目前可能使用 eBay、PWCC 等平台或手动跟踪价格，缺乏专业投资工具。
+  current_alternative_en: Currently, they may use platforms like eBay or PWCC or manually track prices,
+    lacking professional investment tools.
+  usage_reason: 尚未核验，产品信息不足，无法判断采用原因。
+  usage_reason_en: Not yet verified; product information is insufficient to determine adoption reasons.
+- id: req-full-tash-2026-09-01
+  project_slug: tash
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅一句话，无法确认具体功能、用户任务和痛点，需求强度未明。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找 tash 的官方网站或产品页面，获取详细功能、定价和用户案例。
+  market: ''
+  job: 交易卡投资者或收藏家需要管理投资组合、评估卡片价值或进行交易。
+  job_en: Trading card investors or collectors need to manage portfolios, assess card values, or trade.
+  pain: 交易卡市场信息不透明，估值困难，投资决策缺乏数据支持。
+  pain_en: The trading card market is opaque, valuation is difficult, and investment decisions lack data
+    support.
+  current_alternative: 目前可能使用 eBay、PWCC 等平台或手动跟踪价格，缺乏专业投资工具。
+  current_alternative_en: Currently, they may use platforms like eBay or PWCC or manually track prices,
+    lacking professional investment tools.
+  usage_reason: 尚未核验，产品信息不足，无法判断采用原因。
+  usage_reason_en: Not yet verified; product information is insufficient to determine adoption reasons.

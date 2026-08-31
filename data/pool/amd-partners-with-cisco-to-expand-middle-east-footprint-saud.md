@@ -1,12 +1,12 @@
 ---
 slug: amd-partners-with-cisco-to-expand-middle-east-footprint-saud
-name: 'AMD Partners with Cisco to Expand Middle East Footprint: Saudi AI Compute Platform Goes Live, Targeting
-  1GW by 2030'
+name: AMD
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AMD 与思科合作，在沙特阿拉伯推出 AI 计算平台，目标到 2030 年达到 1GW 容量。
 inspiration: ''
-summary_en: ''
+summary_en: AMD partners with Cisco to launch an AI compute platform in Saudi Arabia, targeting 1GW capacity
+  by 2030.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: 'AMD Partners with Cisco to Expand Middle East Footprint: Saudi AI Comp
   Targeting 1GW by 2030 finance.biggo.com'
 first_seen: '2026-08-31T15:05:00Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AMD Partners with Cisco to Expand Middle East Footprint: Saudi AI Compute Platform Goes Live, Targeting 1GW by 2030
+# AMD
 
 AMD Partners with Cisco to Expand Middle East Footprint: Saudi AI Compute Platform Goes Live, Targeting 1GW by 2030 finance.biggo.com
 

@@ -1,11 +1,11 @@
 ---
 slug: 智能体ai推动企业定价模式变革cio如何应对-ai应用
-name: 智能体AI推动企业定价模式变革，CIO如何应对？-AI应用
+name: 智能体AI推动企业定价模式变革
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 智能体AI正在推动企业定价模式变革，CIO需要应对这一趋势。
 inspiration: ''
-summary_en: ''
+summary_en: Agentic AI is driving changes in enterprise pricing models, and CIOs need to respond.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE04TTFqbWtzS1da
 summary: 智能体AI推动企业定价模式变革，CIO如何应对？-AI应用 至顶网
 first_seen: '2026-08-31T15:03:33Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 智能体AI推动企业定价模式变革，CIO如何应对？-AI应用
+# 智能体AI推动企业定价模式变革
 
 智能体AI推动企业定价模式变革，CIO如何应对？-AI应用 至顶网
 

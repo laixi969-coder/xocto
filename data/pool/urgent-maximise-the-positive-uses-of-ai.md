@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/urgent-maximise-the-positive-uses-of-a
 summary: ''
 first_seen: '2026-08-31T05:00:25Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

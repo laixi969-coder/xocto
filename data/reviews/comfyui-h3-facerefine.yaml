@@ -414,3 +414,41 @@
   usage_reason: 公开代码仓库有 303 个收藏、22 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 303 stars and 22 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-comfyui-h3-facerefine-2026-09-01
+  project_slug: comfyui-h3-facerefine
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成视频中小脸模糊的痛点，通过逐帧跟踪、裁剪、精修、拼接的闭环交付可确定的成片质量改善。工作流结构判断：旧流程是手动修复或接受模糊，此方案自动化修复。
+    evidence_ids:
+    - ev-16436628496bfd5b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 303 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-16436628496bfd5b
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 视频编辑、AI视频创作者需要改善AI生成视频中小脸的质量。
+  job_en: Video editors and AI video creators need to improve the quality of small faces in AI-generated
+    videos.
+  pain: AI生成视频中面部模糊，影响成片质量，需要后期修复。
+  pain_en: Faces in AI-generated videos are blurry, affecting final quality and requiring post-fix.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作，可能手动逐帧修复或使用其他工具。
+  current_alternative_en: Public materials do not yet show how users complete this job today; they may
+    manually fix frame by frame or use other tools.
+  usage_reason: 公开代码仓库有 303 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 303 stars, showing developer attention; repeat use and payment
+    are not yet verified.

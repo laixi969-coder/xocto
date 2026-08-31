@@ -1,11 +1,12 @@
 ---
 slug: q2-2026-e-commerce-hit-3402b-as-ai-assistants-move-toward-pl
-name: Q2 2026 e-commerce hit $340.2B as AI assistants move toward placing orders
+name: E-commerce
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026 年第二季度美国电商销售额达 3402 亿美元，AI 助手开始转向直接下单，预示 AI 在电商中的角色增强。
 inspiration: ''
-summary_en: ''
+summary_en: Q2 2026 e-commerce hit $340.2B as AI assistants move toward placing orders, indicating AI's
+  growing role in e-commerce.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdEJZdXN0YWFp
 summary: Q2 2026 e-commerce hit $340.2B as AI assistants move toward placing orders MarketScale
 first_seen: '2026-08-31T14:22:18Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Q2 2026 e-commerce hit $340.2B as AI assistants move toward placing orders
+# E-commerce
 
 Q2 2026 e-commerce hit $340.2B as AI assistants move toward placing orders MarketScale
 

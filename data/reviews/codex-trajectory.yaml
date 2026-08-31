@@ -302,3 +302,41 @@
     lacking dedicated trajectory visualization.
   usage_reason: 仓库 240 星显示开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: 240 stars show developer interest, but sustained usage and payment are not yet verified.
+- id: req-full-codex-trajectory-2026-09-01
+  project_slug: codex-trajectory
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Codex 任务日志可视化需求：提供隐私感知的轨迹查看器。痛点刚性：开发者需要理解 AI 执行过程以调试。交付可确定：解析日志并可视化。工作流结构推理成立。
+    evidence_ids:
+    - ev-c99d8e9f02189160
+  - gate: consensus
+    status: insufficient
+    reason: 星标 242，无用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-9d8e2483609034c7
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，付费方不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性和隐私保护机制未验证，需可复现证据。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户使用案例。
+  market: ''
+  job: 开发者需要查看和分析本地 Codex 任务日志，以审查和调试 AI 执行轨迹。
+  job_en: Developers need to view and analyze local Codex task logs to review and debug AI execution trajectories.
+  pain: Codex 任务日志难以直观理解，缺乏可视化工具，调试困难。
+  pain_en: Codex task logs are difficult to understand intuitively, lacking visualization tools, making
+    debugging hard.
+  current_alternative: 目前可能手动查看日志文件或使用文本编辑器，但缺乏轨迹视图。
+  current_alternative_en: Currently may manually view log files or use text editors, but lack trajectory
+    views.
+  usage_reason: 仓库星标从 240 增至 242，显示开发者关注；但采用和付费未核验。
+  usage_reason_en: Repository stars grew from 240 to 242, showing developer attention; adoption and payment
+    not verified.

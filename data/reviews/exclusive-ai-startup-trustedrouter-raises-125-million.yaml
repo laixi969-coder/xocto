@@ -1,0 +1,83 @@
+- id: req-initial-exclusive-ai-startup-trustedrouter-raises-125-million-2026-09-01
+  project_slug: exclusive-ai-startup-trustedrouter-raises-125-million
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及融资，未说明产品解决的具体任务、痛点或交付方式，无法判断价值结构。
+    evidence_ids:
+    - ev-e1f36b077932829d
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈、采用数据或社区讨论，无法判断共识。
+    evidence_ids:
+    - ev-e1f36b077932829d
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，无法判断付费方和收入路径。
+    evidence_ids:
+    - ev-e1f36b077932829d
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性未验证，缺乏技术细节或实际交付证据。
+    evidence_ids:
+    - ev-e1f36b077932829d
+  next_validation: 关注 TrustedRouter 官方发布的产品文档或定价页，以明确其功能、目标客户和商业模式。
+  market: ''
+  job: 用户需要将 AI 请求路由到合适的模型或服务，但具体任务未明确。
+  job_en: Users need to route AI requests to appropriate models or services, but the specific task is
+    unclear.
+  pain: 痛点未明确，可能涉及模型选择、成本或性能，但缺乏具体描述。
+  pain_en: Pain points are unclear, possibly involving model selection, cost, or performance, but lack
+    specific description.
+  current_alternative: 现有替代方式未知，可能包括直接调用 API 或使用其他路由工具。
+  current_alternative_en: Current alternatives are unknown, possibly including direct API calls or other
+    routing tools.
+  usage_reason: 采用原因未披露，融资新闻表明市场关注，但实际使用情况未核验。
+  usage_reason_en: Adoption reasons are undisclosed; funding news indicates market interest, but actual
+    usage is unverified.
+- id: req-full-exclusive-ai-startup-trustedrouter-raises-125-million-2026-09-01
+  project_slug: exclusive-ai-startup-trustedrouter-raises-125-million
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发团队在多模型测试和路由中的痛点：无需重写应用即可测试数百模型，并提供可验证的隐私保护；痛点刚性，交付可确定（改一个 base URL 即可运行）。工作流结构判断。
+    evidence_ids:
+    - ev-bf1095b5f302cdd0
+    - ev-d3bd546b1c5b045e
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示市场关注，但缺乏用户评价、采用案例或社区讨论，共识尚未形成。
+    evidence_ids:
+    - ev-e1f36b077932829d
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能向开发者或企业按使用量收费，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-bf1095b5f302cdd0
+  - gate: truth
+    status: insufficient
+    reason: 隐私证明的技术实现需验证，控制平面不接收提示词和输出体的声明需独立核实。
+    evidence_ids:
+    - ev-1c5899dd5001d9c6
+  next_validation: 关注 TrustedRouter 官方发布的产品文档或定价页，以明确其功能、目标客户和商业模式。
+  market: ''
+  job: 开发团队需要用一个 API 测试和路由数百个 AI 模型，同时确保隐私可验证。
+  job_en: Development teams need to test and route hundreds of AI models with one API while ensuring verifiable
+    privacy.
+  pain: 直接调用多个模型 API 需要重写应用，且难以比较价格、速度、隐私和可靠性，隐私保护缺乏可验证性。
+  pain_en: Directly calling multiple model APIs requires rewriting apps, and it's hard to compare price,
+    speed, privacy, and reliability; privacy protection lacks verifiability.
+  current_alternative: 目前团队可能直接调用各模型 API，或使用 OpenRouter 等聚合服务，但隐私和成本控制不足。
+  current_alternative_en: Currently teams may call model APIs directly or use aggregators like OpenRouter,
+    but privacy and cost control are insufficient.
+  usage_reason: 融资新闻和官网展示表明市场关注，但实际采用和付费尚未核验。
+  usage_reason_en: Funding news and official site indicate market interest, but actual adoption and payment
+    are not yet verified.

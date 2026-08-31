@@ -3,11 +3,11 @@ slug: spreading-the-load-how-salesforce-met-multi-az-ha-with-sagem
 name: Salesforce
 builder: ''
 category: ''
-summary_zh: 这是 AWS 博客发布的技术案例，展示 Salesforce 如何利用 SageMaker 的 Inference Component 放置参数，在多个可用区分布模型副本，以满足高可用合规要求，同时不牺牲多模型共置的成本效率。
+summary_zh: Salesforce 是客户关系管理软件公司，此次使用 AWS SageMaker 推理组件实现多可用区高可用部署，满足合规要求。另有报道讨论其 AI 收费模式变化，但具体细节未披露。
 inspiration: ''
-summary_en: This is a technical case study on AWS blog showing how Salesforce used SageMaker's Inference
-  Component placement to distribute model copies across Availability Zones, meeting HA compliance while
-  maintaining cost efficiency of multi-model co-hosting.
+summary_en: Salesforce is a CRM software company. It used AWS SageMaker inference components to achieve
+  Multi-AZ high availability, meeting compliance. Reports also discuss its AI pricing model changes, but
+  details are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +25,7 @@ summary: Learn how Salesforce used Amazon SageMaker AI Inference Component place
   availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.
 first_seen: '2026-08-28T16:20:40Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - newssearch

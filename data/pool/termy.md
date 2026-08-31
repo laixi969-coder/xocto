@@ -3,38 +3,37 @@ slug: termy
 name: Termy
 builder: Ayushi
 category: AI + 生活
-summary_zh: 通过游戏、视频和网站学习语言的产品。具体如何将内容转化为学习材料、支持哪些语言和交付物未详细说明，需进一步验证。
-inspiration: 趋势：语言学习正从课本转向沉浸式内容。切入：可聚焦特定语言或游戏类型，提供基于真实内容的互动学习，按订阅或课程收费。
-summary_en: Learn languages from games, videos, and websites. Specific methods, supported languages, and
-  deliverables not detailed; further validation needed.
-inspiration_en: 'Trend: language learning is shifting from textbooks to immersive content. Entry: focus
-  on specific languages or game genres, offering interactive learning based on real content, charging
-  by subscription or course.'
+summary_zh: 语言学习者在玩游戏、看视频或浏览网站时，将遇到的生词或句子交给 Termy，它结合上下文生成解释和练习，帮助在真实语境中记忆。具体流程和交付形式仍待核验。
+inspiration: 趋势是语言学习从课本转向沉浸式内容消费。切入点是利用游戏和视频的天然语境，但需明确学习目标和效果追踪，避免沦为翻译工具。
+summary_en: Language learners use Termy while playing games, watching videos, or browsing websites, submitting
+  unfamiliar words or sentences for contextual explanations and practice. Specific workflow and deliverables
+  remain to be verified.
+inspiration_en: The trend is language learning shifting from textbooks to immersive content consumption.
+  The entry point is leveraging natural contexts in games and videos, but clear learning goals and progress
+  tracking are needed to avoid becoming a mere translation tool.
 priority_review: false
 project_type: new_application
 industries:
 - 教育
-- 游戏
+- 语言学习
 industries_en:
 - Education
-- Gaming
+- Language Learning
 jobs:
 - 语言学习者
 - 游戏玩家
 jobs_en:
-- Language Learner
-- Gamer
-regions:
-- 全球
-regions_en:
-- Global
+- Language learners
+- Gamers
+regions: []
+regions_en: []
 open_source: false
 url: https://www.producthunt.com/products/termy-language-learning
 canonical_url: https://producthunt.com/products/termy-language-learning
 summary: Learn languages from games, videos, and websites
 first_seen: '2026-08-24T18:24:24Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 - marketfeeds

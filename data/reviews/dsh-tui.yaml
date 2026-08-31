@@ -309,3 +309,43 @@
   usage_reason: 2689 个星标显示开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: 2689 stars indicate developer interest, but sustained usage and payment are not yet
     verified.
+- id: req-full-dsh-tui-2026-09-01
+  project_slug: dsh-tui
+  level: full
+  reviewed_at: '2026-08-31T18:41:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 CLI 偏好工程师在终端使用 AI 工具的需求，痛点在于官方缺少 TUI，交付为全屏终端插件，结构上成立。
+    evidence_ids:
+    - ev-ae0ed80723795ac3
+  - gate: consensus
+    status: insufficient
+    reason: 星标数高且增长快，显示社区强烈关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-7b0690bf96c5dcb9
+    - ev-ab8cec2765052c81
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为 TUI 插件，但终端交互的稳定性和功能完整性缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对 TUI 体验、功能需求的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 在终端中全屏交互使用 DeepSeek Harness，提供状态查看、撤销等操作，无需切换浏览器。
+  job_en: Use DeepSeek Harness in a full-screen terminal with status viewing, undo, etc., without switching
+    to a browser.
+  pain: 偏好 CLI 的工程师不愿切换界面，但官方缺少终端 TUI，影响工作流效率。
+  pain_en: CLI-preferring engineers dislike switching interfaces, but official TUI is missing, impacting
+    workflow efficiency.
+  current_alternative: 用户可能使用浏览器或第三方终端工具，但不符合 CLI 习惯或功能不全。
+  current_alternative_en: Users may use browser or third-party terminal tools, but they don't fit CLI
+    habits or lack features.
+  usage_reason: 仓库星标从 2,666 增长到 2,743，显示高关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 2,666 to 2,743, showing high interest, but sustained
+    use and payment are unverified.

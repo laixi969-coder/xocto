@@ -1,0 +1,72 @@
+- id: req-initial-shevtoneaudio-orchestrator-2026-09-01
+  project_slug: shevtoneaudio-orchestrator
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称将 MIDI 转为完整编曲，未说明具体输出、质量或用户痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-8cb430aca4c8725a
+    - ev-bb3b64d939eea5da
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注官网是否提供演示音频、定价和用户评价。
+  market: ''
+  job: 作曲家希望将简单的 MIDI 草稿扩展为完整的管弦乐编曲。
+  job_en: Composers want to expand simple MIDI drafts into full orchestral arrangements.
+  pain: 手工编曲耗时且需要专业知识，现有工具复杂。
+  pain_en: Manual orchestration is time-consuming and requires expertise; existing tools are complex.
+  current_alternative: 目前作曲家使用 DAW 和音色库手动编曲，或雇佣编曲师。
+  current_alternative_en: Currently, composers use DAWs and sample libraries to arrange manually, or hire
+    orchestrators.
+  usage_reason: 尚未核验，但 HN 上有少量讨论，表明音乐技术社区有一定兴趣。
+  usage_reason_en: Not yet verified, but some discussion on HN indicates interest in the music tech community.
+- id: req-full-shevtoneaudio-orchestrator-2026-09-01
+  project_slug: shevtoneaudio-orchestrator
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称将 MIDI 转为完整编曲，未说明具体输出、质量或用户痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-8cb430aca4c8725a
+    - ev-bb3b64d939eea5da
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注官网是否提供演示音频、定价和用户评价。
+  market: ''
+  job: 作曲家希望将简单的 MIDI 草稿扩展为完整的管弦乐编曲。
+  job_en: Composers want to expand simple MIDI drafts into full orchestral arrangements.
+  pain: 手工编曲耗时且需要专业知识，现有工具复杂。
+  pain_en: Manual orchestration is time-consuming and requires expertise; existing tools are complex.
+  current_alternative: 目前作曲家使用 DAW 和音色库手动编曲，或雇佣编曲师。
+  current_alternative_en: Currently, composers use DAWs and sample libraries to arrange manually, or hire
+    orchestrators.
+  usage_reason: 尚未核验，但 HN 上有少量讨论，表明音乐技术社区有一定兴趣。
+  usage_reason_en: Not yet verified, but some discussion on HN indicates interest in the music tech community.

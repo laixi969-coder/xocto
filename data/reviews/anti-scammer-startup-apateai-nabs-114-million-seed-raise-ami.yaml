@@ -1,0 +1,80 @@
+- id: req-initial-anti-scammer-startup-apateai-nabs-114-million-seed-raise-ami-2026-09-01
+  project_slug: anti-scammer-startup-apateai-nabs-114-million-seed-raise-ami
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诈骗进行中无法干预的痛点，通过 AI 拖延和证据收集提供实时防护，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示融资和监管背景，缺乏用户采用、留存或效果数据，共识尚未形成。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能向金融机构或安全团队收费，但商业模式未验证。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实部署并产生效果未公开，需进一步验证。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  next_validation: 关注 Apate.AI 官网或客户案例，看是否有金融机构采用和效果数据。
+  market: ''
+  job: 用户要完成的是在诈骗发生时保护财产并保留证据。
+  job_en: Users need to protect assets and preserve evidence during a scam.
+  pain: 诈骗一旦发生，用户往往难以识别，且缺乏实时干预手段，导致财产损失。
+  pain_en: Once a scam occurs, users often fail to recognize it and lack real-time intervention, leading
+    to financial loss.
+  current_alternative: 当前替代方式是事后报警或依赖银行风控，但无法在诈骗进行中阻止。
+  current_alternative_en: Current alternatives are post-incident reporting or bank risk controls, which
+    cannot stop scams in progress.
+  usage_reason: 融资和监管关注表明市场有需求，但产品采用和效果尚未公开核验。
+  usage_reason_en: Funding and regulatory attention indicate market demand, but adoption and effectiveness
+    are not yet publicly verified.
+- id: req-full-anti-scammer-startup-apateai-nabs-114-million-seed-raise-ami-2026-09-01
+  project_slug: anti-scammer-startup-apateai-nabs-114-million-seed-raise-ami
+  level: full
+  reviewed_at: '2026-08-31T18:38:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决诈骗进行中无法干预的痛点，通过 AI 拖延和证据收集提供实时防护，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示融资和监管背景，缺乏用户采用、留存或效果数据，共识尚未形成。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能向金融机构或安全团队收费，但商业模式未验证。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实部署并产生效果未公开，需进一步验证。
+    evidence_ids:
+    - ev-ff4cbf68bad72026
+  next_validation: 关注 Apate.AI 官网或客户案例，看是否有金融机构采用和效果数据。
+  market: ''
+  job: 用户要完成的是在诈骗发生时保护财产并保留证据。
+  job_en: Users need to protect assets and preserve evidence during a scam.
+  pain: 诈骗一旦发生，用户往往难以识别，且缺乏实时干预手段，导致财产损失。
+  pain_en: Once a scam occurs, users often fail to recognize it and lack real-time intervention, leading
+    to financial loss.
+  current_alternative: 当前替代方式是事后报警或依赖银行风控，但无法在诈骗进行中阻止。
+  current_alternative_en: Current alternatives are post-incident reporting or bank risk controls, which
+    cannot stop scams in progress.
+  usage_reason: 融资和监管关注表明市场有需求，但产品采用和效果尚未公开核验。
+  usage_reason_en: Funding and regulatory attention indicate market demand, but adoption and effectiveness
+    are not yet publicly verified.

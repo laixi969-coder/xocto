@@ -381,3 +381,42 @@
   usage_reason: 开源仓库获得91星，显示开发者关注，但持续使用和付费未核验。
   usage_reason_en: The open-source repository has 91 stars, showing developer interest, but sustained
     usage and payment are not verified.
+- id: req-full-clipfactory-2026-09-01
+  project_slug: clipfactory
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从 B-roll 生成短视频的痛点：AI 自动写脚本、配音、规划场景、加字幕并渲染。痛点刚性：内容营销需要高频产出。交付可确定：FFmpeg 渲染输出视频。工作流结构推理成立。
+    evidence_ids:
+    - ev-b9c4b5e423279ae5
+  - gate: consensus
+    status: insufficient
+    reason: 星标 101，无用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-fd4f530a8affe287
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，付费方不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性和输出质量未验证，需可复现证据。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户生成视频的案例。
+  market: ''
+  job: 视频创作者和内容营销人员需要从自己的 B-roll 素材快速生成竖屏短视频。
+  job_en: Video creators and content marketers need to quickly generate short vertical videos from their
+    own B-roll footage.
+  pain: 手动剪辑短视频耗时且需要专业技能，批量生成困难。
+  pain_en: Manual editing of short videos is time-consuming and requires professional skills, making batch
+    generation difficult.
+  current_alternative: 目前可能使用专业剪辑软件或外包，但成本高、效率低。
+  current_alternative_en: Currently may use professional editing software or outsourcing, but costly and
+    inefficient.
+  usage_reason: 仓库星标从 77 增至 101，显示创作者关注；但采用和付费未核验。
+  usage_reason_en: Repository stars grew from 77 to 101, showing creator interest; adoption and payment
+    not verified.

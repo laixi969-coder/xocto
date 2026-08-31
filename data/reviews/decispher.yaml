@@ -1,0 +1,77 @@
+- id: req-initial-decispher-2026-09-01
+  project_slug: decispher
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明提供持久上下文和记忆，但未具体说明如何实现、集成方式或用户工作流，无法判断需求强度。
+    evidence_ids:
+    - ev-c38df3bdbbf13990
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，无用户讨论，共识未形成。
+    evidence_ids:
+    - ev-c38df3bdbbf13990
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供实际应用案例或效果验证，交付确定性无法核验。
+    evidence_ids: []
+  next_validation: 关注产品官网是否发布定价、客户案例或部署文档。
+  market: ''
+  job: 开发者在用 AI 编码代理处理大型项目时，需要代理记住之前的决策和上下文。
+  job_en: Developers using AI coding agents on large projects need the agent to remember previous decisions
+    and context.
+  pain: AI 编码代理缺乏持久记忆，每次任务都要重新解释项目背景，效率低且易出错。
+  pain_en: AI coding agents lack persistent memory, requiring re-explanation of project context each task,
+    inefficient and error-prone.
+  current_alternative: 目前开发者通常手动维护文档或重复输入上下文，耗时且不完整。
+  current_alternative_en: Currently developers often manually maintain documentation or re-enter context,
+    which is time-consuming and incomplete.
+  usage_reason: 在开发者社区仅有极少量讨论，关注度极低，无采用证据。
+  usage_reason_en: Very little discussion in the developer community, very low attention, no adoption
+    evidence.
+- id: req-full-decispher-2026-09-01
+  project_slug: decispher
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明提供持久上下文和记忆，但未具体说明如何实现、集成方式或用户工作流，无法判断需求强度。
+    evidence_ids:
+    - ev-c38df3bdbbf13990
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品官网是否发布定价、客户案例或部署文档。
+  market: ''
+  job: 开发者在用 AI 编码代理处理大型项目时，需要代理记住之前的决策和上下文。
+  job_en: Developers using AI coding agents on large projects need the agent to remember previous decisions
+    and context.
+  pain: AI 编码代理缺乏持久记忆，每次任务都要重新解释项目背景，效率低且易出错。
+  pain_en: AI coding agents lack persistent memory, requiring re-explanation of project context each task,
+    inefficient and error-prone.
+  current_alternative: 目前开发者通常手动维护文档或重复输入上下文，耗时且不完整。
+  current_alternative_en: Currently developers often manually maintain documentation or re-enter context,
+    which is time-consuming and incomplete.
+  usage_reason: 在开发者社区仅有极少量讨论，关注度极低，无采用证据。
+  usage_reason_en: Very little discussion in the developer community, very low attention, no adoption
+    evidence.

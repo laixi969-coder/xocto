@@ -1,0 +1,73 @@
+- id: req-initial-whatwetellai-2026-09-01
+  project_slug: whatwetellai
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法从公开材料确定它解决什么具体需求或痛点，官网信息不足，无法还原工作流。
+    evidence_ids:
+    - ev-7b2efcbfff573f56
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开发者社区上的少量讨论，无用户采用或规模证据。
+    evidence_ids:
+    - ev-7b2efcbfff573f56
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，无定价或付费路径。
+    evidence_ids:
+    - ev-7b2efcbfff573f56
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付是否确定均未核验。
+    evidence_ids:
+    - ev-7b2efcbfff573f56
+  next_validation: 访问官网或查看社区讨论，寻找功能描述或用户反馈。
+  market: ''
+  job: 用户可能希望了解或控制他们向AI提供的信息。
+  job_en: Users may want to understand or control the information they provide to AI.
+  pain: AI服务中数据隐私和透明度不足，用户担心信息被滥用。
+  pain_en: Lack of data privacy and transparency in AI services, users worry about misuse.
+  current_alternative: 用户可能依赖隐私政策或手动避免分享敏感信息。
+  current_alternative_en: Users may rely on privacy policies or manually avoid sharing sensitive information.
+  usage_reason: 社区讨论表明有好奇心，但产品功能不明确，采用原因未核验。
+  usage_reason_en: Community discussion indicates curiosity, but product functionality is unclear, adoption
+    reasons unverified.
+- id: req-full-whatwetellai-2026-09-01
+  project_slug: whatwetellai
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法从公开材料确定它解决什么具体需求或痛点，官网信息不足，无法还原工作流。
+    evidence_ids:
+    - ev-7b2efcbfff573f56
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 访问官网或查看社区讨论，寻找功能描述或用户反馈。
+  market: ''
+  job: 用户可能希望了解或控制他们向AI提供的信息。
+  job_en: Users may want to understand or control the information they provide to AI.
+  pain: AI服务中数据隐私和透明度不足，用户担心信息被滥用。
+  pain_en: Lack of data privacy and transparency in AI services, users worry about misuse.
+  current_alternative: 用户可能依赖隐私政策或手动避免分享敏感信息。
+  current_alternative_en: Users may rely on privacy policies or manually avoid sharing sensitive information.
+  usage_reason: 社区讨论表明有好奇心，但产品功能不明确，采用原因未核验。
+  usage_reason_en: Community discussion indicates curiosity, but product functionality is unclear, adoption
+    reasons unverified.

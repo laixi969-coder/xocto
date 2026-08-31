@@ -266,3 +266,39 @@
   usage_reason: 公开代码仓库有 86 个收藏、57 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 86 stars and 57 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-worldmodels101-2026-09-01
+  project_slug: worldmodels101
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决世界模型学习资源稀缺、缺乏互动性的痛点，通过九个可视化章节提供结构化学习，交付可确定的学习材料。工作流结构推理。
+    evidence_ids:
+    - ev-c25813c5eac29d0a
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 93 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-c25813c5eac29d0a
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: AI 学习者需要学习世界模型的概念和应用。
+  job_en: AI learners need to learn the concepts and applications of world models.
+  pain: 世界模型是前沿主题，缺乏系统化、交互式的学习资源。
+  pain_en: World models are a cutting-edge topic, lacking systematic, interactive learning resources.
+  current_alternative: 学习者可能依赖论文、博客或视频，但缺乏互动性和结构化。
+  current_alternative_en: Learners may rely on papers, blogs, or videos, but lack interactivity and structure.
+  usage_reason: 开源项目获得 93 星，表明开发者社区关注，但实际采用和用户反馈未核验。
+  usage_reason_en: The open-source project has 93 stars, indicating developer community interest, but
+    actual adoption and user feedback are unverified.

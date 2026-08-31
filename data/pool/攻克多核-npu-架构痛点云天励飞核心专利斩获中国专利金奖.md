@@ -1,11 +1,12 @@
 ---
 slug: 攻克多核-npu-架构痛点云天励飞核心专利斩获中国专利金奖
-name: 攻克多核 NPU 架构痛点，云天励飞核心专利斩获中国专利金奖
+name: 云天励飞
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PeEhVcDhYNGY2
 summary: 攻克多核 NPU 架构痛点，云天励飞核心专利斩获中国专利金奖 电子工程专辑
 first_seen: '2026-08-31T05:15:00Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 攻克多核 NPU 架构痛点，云天励飞核心专利斩获中国专利金奖
+# 云天励飞
 
 攻克多核 NPU 架构痛点，云天励飞核心专利斩获中国专利金奖 电子工程专辑
 

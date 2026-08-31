@@ -194,3 +194,42 @@
   usage_reason: 仓库获得 48 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 48 stars, showing developer attention, but sustained use and payment
     are not yet verified.
+- id: req-full-dsh-voice-ai-girlfriend-2026-09-01
+  project_slug: dsh-voice-ai-girlfriend
+  level: full
+  reviewed_at: '2026-08-31T18:41:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户情感陪伴和娱乐的需求，痛点在于现有方案缺乏语音和个性化，交付为语音交互和数字人动画，结构上成立。
+    evidence_ids:
+    - ev-b80251d35189ca58
+  - gate: consensus
+    status: insufficient
+    reason: 星标数较低但增长，显示一定关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-6ba6c08b93b1992d
+    - ev-ff1bf30420f8f654
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为语音交互和动画，但语音识别和合成的质量缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对语音交互体验、情感陪伴效果的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 通过语音与 AI 虚拟角色对话，获得实时语音回复和动画反馈。
+  job_en: Have voice conversations with an AI virtual character, receiving real-time voice replies and
+    animated feedback.
+  pain: 用户寻求情感陪伴或娱乐，但现有 AI 伴侣缺乏语音交互和个性化。
+  pain_en: Users seek emotional companionship or entertainment, but existing AI companions lack voice
+    interaction and personalization.
+  current_alternative: 用户可能使用文字聊天机器人或语音助手，但缺乏沉浸感和个性化。
+  current_alternative_en: Users may use text chatbots or voice assistants, lacking immersion and personalization.
+  usage_reason: 仓库星标从 48 增长到 56，显示一定关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 48 to 56, showing some interest, but sustained use and
+    payment are unverified.

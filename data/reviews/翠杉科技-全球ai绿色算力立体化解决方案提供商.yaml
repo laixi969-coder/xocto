@@ -1,0 +1,73 @@
+- id: req-initial-翠杉科技-全球ai绿色算力立体化解决方案提供商-2026-09-01
+  project_slug: 翠杉科技-全球ai绿色算力立体化解决方案提供商
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及公司定位，未说明具体解决什么需求、什么痛点，无法判断价值结构。
+    evidence_ids:
+    - ev-a0438c21a89bfd44
+  - gate: consensus
+    status: insufficient
+    reason: 无用户、客户或采用证据。
+    evidence_ids:
+    - ev-a0438c21a89bfd44
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或定价。
+    evidence_ids:
+    - ev-a0438c21a89bfd44
+  - gate: truth
+    status: insufficient
+    reason: 无产品细节或交付证据。
+    evidence_ids:
+    - ev-a0438c21a89bfd44
+  next_validation: 查找翠杉科技官网或产品文档，了解其具体解决方案、客户案例和定价。
+  market: ''
+  job: 未明确用户要完成什么任务，可能涉及数据中心降低能耗或使用绿色能源。
+  job_en: Unclear what task users need to accomplish; possibly reducing data center energy consumption
+    or using green energy.
+  pain: 未明确具体痛点，可能包括能耗成本高、碳排放压力。
+  pain_en: Specific pain points unclear; possibly high energy costs or carbon emission pressure.
+  current_alternative: 未披露，可能使用传统冷却或能源管理方案。
+  current_alternative_en: Not disclosed; possibly traditional cooling or energy management solutions.
+  usage_reason: 报道未提供采用或关注证据，需求强度未明。
+  usage_reason_en: No adoption or attention evidence provided; demand intensity unclear.
+- id: req-full-翠杉科技-全球ai绿色算力立体化解决方案提供商-2026-09-01
+  project_slug: 翠杉科技-全球ai绿色算力立体化解决方案提供商
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道仅提及公司定位，未说明具体解决什么需求、什么痛点，无法判断价值结构。
+    evidence_ids:
+    - ev-a0438c21a89bfd44
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找翠杉科技官网或产品文档，了解其具体解决方案、客户案例和定价。
+  market: ''
+  job: 未明确用户要完成什么任务，可能涉及数据中心降低能耗或使用绿色能源。
+  job_en: Unclear what task users need to accomplish; possibly reducing data center energy consumption
+    or using green energy.
+  pain: 未明确具体痛点，可能包括能耗成本高、碳排放压力。
+  pain_en: Specific pain points unclear; possibly high energy costs or carbon emission pressure.
+  current_alternative: 未披露，可能使用传统冷却或能源管理方案。
+  current_alternative_en: Not disclosed; possibly traditional cooling or energy management solutions.
+  usage_reason: 报道未提供采用或关注证据，需求强度未明。
+  usage_reason_en: No adoption or attention evidence provided; demand intensity unclear.

@@ -21,7 +21,7 @@ canonical_url: https://mikeushakov.github.io/doglm
 summary: Can you pet the dog in an AI-generated game?
 first_seen: '2026-08-31T13:37:10Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

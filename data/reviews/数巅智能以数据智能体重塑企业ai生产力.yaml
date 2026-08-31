@@ -1,0 +1,82 @@
+- id: req-initial-数巅智能以数据智能体重塑企业ai生产力-2026-09-01
+  project_slug: 数巅智能以数据智能体重塑企业ai生产力
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业数据分析师整合多源数据、生成报告的痛点，旧流程依赖人工Excel/SQL处理，耗时且易错；产品自动整合数据并输出报告，交付可核对，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品定位，未见用户规模、采用案例或行业共识证据，需进一步观察市场反馈。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业IT或业务部门，但付费路径不明确，需官方定价或客户案例验证。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺自动整合数据并生成报告，但交付质量依赖数据质量和模型能力，需公开演示或客户反馈验证。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  next_validation: 关注数巅智能官网是否发布定价页、客户案例或产品演示，以验证付费意愿和交付质量。
+  market: ''
+  job: 企业数据分析师要完成经营分析报告，需要整合多个数据源并提炼结论。
+  job_en: Enterprise data analysts need to produce business analysis reports by integrating multiple data
+    sources and extracting conclusions.
+  pain: 数据分散、整合耗时，且分析结论需要反复核对，人工成本高。
+  pain_en: Data is scattered, integration is time-consuming, and conclusions require repeated verification,
+    leading to high labor costs.
+  current_alternative: 目前主要依赖人工使用Excel、SQL等工具手动处理数据，或外包给咨询公司。
+  current_alternative_en: Currently, data is manually processed using tools like Excel and SQL, or outsourced
+    to consulting firms.
+  usage_reason: 企业关注AI能否减少报告生成时间并提升数据一致性，但付费意愿尚未公开核验。
+  usage_reason_en: Enterprises are interested in whether AI can reduce report generation time and improve
+    data consistency, but willingness to pay has not been publicly verified.
+- id: req-full-数巅智能以数据智能体重塑企业ai生产力-2026-09-01
+  project_slug: 数巅智能以数据智能体重塑企业ai生产力
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业数据分析师整合多源数据、生成报告的痛点，旧流程依赖人工Excel/SQL处理，耗时且易错；产品自动整合数据并输出报告，交付可核对，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及产品定位，未见用户规模、采用案例或行业共识证据，需进一步观察市场反馈。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业IT或业务部门，但付费路径不明确，需官方定价或客户案例验证。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺自动整合数据并生成报告，但交付质量依赖数据质量和模型能力，需公开演示或客户反馈验证。
+    evidence_ids:
+    - ev-1b4091f10d7c13c9
+  next_validation: 关注数巅智能官网是否发布定价页、客户案例或产品演示，以验证付费意愿和交付质量。
+  market: ''
+  job: 企业数据分析师要完成经营分析报告，需要整合多个数据源并提炼结论。
+  job_en: Enterprise data analysts need to produce business analysis reports by integrating multiple data
+    sources and extracting conclusions.
+  pain: 数据分散、整合耗时，且分析结论需要反复核对，人工成本高。
+  pain_en: Data is scattered, integration is time-consuming, and conclusions require repeated verification,
+    leading to high labor costs.
+  current_alternative: 目前主要依赖人工使用Excel、SQL等工具手动处理数据，或外包给咨询公司。
+  current_alternative_en: Currently, data is manually processed using tools like Excel and SQL, or outsourced
+    to consulting firms.
+  usage_reason: 企业关注AI能否减少报告生成时间并提升数据一致性，但付费意愿尚未公开核验。
+  usage_reason_en: Enterprises are interested in whether AI can reduce report generation time and improve
+    data consistency, but willingness to pay has not been publicly verified.

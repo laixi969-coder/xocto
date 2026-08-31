@@ -1,0 +1,79 @@
+- id: req-initial-首轮融资数千万美元估值25亿美元aippy正在打造下一代ai游戏社区-36氪首发-2026-09-01
+  project_slug: 首轮融资数千万美元估值25亿美元aippy正在打造下一代ai游戏社区-36氪首发
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明 Aippy 定位为 AI 游戏社区，但未披露具体功能、用户任务或交付结果，无法判断其解决什么痛点。
+    evidence_ids:
+    - ev-3cea1bdcdfd89abc
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。无用户反馈、社区讨论或采用数据。
+    evidence_ids:
+    - ev-3cea1bdcdfd89abc
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。无定价、付费路径或买方信息。
+    evidence_ids:
+    - ev-3cea1bdcdfd89abc
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无交付证据或用户验证。
+    evidence_ids:
+    - ev-3cea1bdcdfd89abc
+  next_validation: 关注 Aippy 官方产品页或应用商店页面，获取功能描述、定价和用户评价。
+  market: ''
+  job: 玩家在游戏社区中寻找互动、娱乐和内容消费。
+  job_en: Gamers seek interaction, entertainment, and content consumption in game communities.
+  pain: 传统游戏社区缺乏动态内容，玩家互动有限，容易厌倦。
+  pain_en: Traditional game communities lack dynamic content, limited player interaction, and are prone
+    to boredom.
+  current_alternative: 玩家使用 Discord、Reddit 等传统社区，或游戏内置的社交功能。
+  current_alternative_en: Gamers use traditional communities like Discord, Reddit, or in-game social features.
+  usage_reason: 尚未核验：公开信息仅提及融资，未披露用户采用或关注的具体证据。
+  usage_reason_en: 'Not yet verified: public information only mentions funding, with no specific evidence
+    of user adoption or attention.'
+- id: req-full-首轮融资数千万美元估值25亿美元aippy正在打造下一代ai游戏社区-36氪首发-2026-09-01
+  project_slug: 首轮融资数千万美元估值25亿美元aippy正在打造下一代ai游戏社区-36氪首发
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决玩家在社区中缺乏动态内容和互动的问题，AI可生成游戏和交互内容，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-3cea1bdcdfd89abc
+    - ev-1f431c6eb6fe0c26
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及融资和产品定位，缺乏用户反馈、社区讨论或采用数据。
+    evidence_ids:
+    - ev-3cea1bdcdfd89abc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是玩家或游戏开发者，但未证实。
+    evidence_ids:
+    - ev-3cea1bdcdfd89abc
+  - gate: truth
+    status: insufficient
+    reason: 产品刚上线，交付能力未经大规模验证，需观察实际效果。
+    evidence_ids:
+    - ev-1f431c6eb6fe0c26
+  next_validation: 关注 Aippy 官方产品页或应用商店页面，获取功能描述、定价和用户评价。
+  market: ''
+  job: 玩家在游戏社区中寻找互动、娱乐和内容消费。
+  job_en: Gamers seek interaction, entertainment, and content consumption in game communities.
+  pain: 传统游戏社区缺乏动态内容，玩家互动有限，容易厌倦。
+  pain_en: Traditional game communities lack dynamic content, limited player interaction, and are prone
+    to boredom.
+  current_alternative: 玩家使用 Discord、Reddit 等传统社区，或游戏内置的社交功能。
+  current_alternative_en: Gamers use traditional communities like Discord, Reddit, or in-game social features.
+  usage_reason: Aippy 提供 AI 生成游戏和社区功能，可能吸引玩家尝试，但具体采用情况未核验。
+  usage_reason_en: Aippy offers AI-generated games and community features, which may attract players,
+    but specific adoption is not verified.

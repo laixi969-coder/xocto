@@ -1,11 +1,13 @@
 ---
 slug: 从工具到超级智能体cadence重新定义芯片设计生产力-semi大半导体产业网
-name: 从工具到超级智能体，Cadence重新定义芯片设计生产力- SEMI大半导体产业网
+name: Cadence
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Cadence 被报道从工具转向超级智能体，重新定义芯片设计生产力，但未披露具体产品功能、客户或采用数据，无法确认其实际交付内容。
 inspiration: ''
-summary_en: ''
+summary_en: Cadence is reported to be shifting from tools to super agents, redefining chip design productivity,
+  but without disclosing specific product features, customers, or adoption data, its actual deliverables
+  cannot be confirmed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxPM3phNWlWSWNK
 summary: 从工具到超级智能体，Cadence重新定义芯片设计生产力- SEMI大半导体产业网 ecar.semi.org.cn
 first_seen: '2026-08-31T10:40:50Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# 从工具到超级智能体，Cadence重新定义芯片设计生产力- SEMI大半导体产业网
+# Cadence
 
 从工具到超级智能体，Cadence重新定义芯片设计生产力- SEMI大半导体产业网 ecar.semi.org.cn
 

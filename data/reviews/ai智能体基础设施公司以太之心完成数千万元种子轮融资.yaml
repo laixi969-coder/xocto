@@ -1,0 +1,75 @@
+- id: req-initial-ai智能体基础设施公司以太之心完成数千万元种子轮融资-2026-09-01
+  project_slug: ai智能体基础设施公司以太之心完成数千万元种子轮融资
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及公司定位为AI智能体基础设施，未说明具体解决什么用户任务、痛点或交付方式，无法判断需求强度。
+    evidence_ids:
+    - ev-414d45be8457b8f7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资新闻，无用户、开发者或行业讨论证据，共识度未知。
+    evidence_ids:
+    - ev-414d45be8457b8f7
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式、定价或付费方，无法判断商业可行性。
+    evidence_ids:
+    - ev-414d45be8457b8f7
+  - gate: truth
+    status: insufficient
+    reason: 产品未公开，无法验证其真实性和交付能力。
+    evidence_ids:
+    - ev-414d45be8457b8f7
+  next_validation: 关注以太之心官网或官方公告，获取产品文档、定价页或客户案例。
+  market: ''
+  job: 为AI智能体提供运行所需的基础设施，如部署、监控、调度等。
+  job_en: Provide infrastructure for AI agents, such as deployment, monitoring, and orchestration.
+  pain: 智能体应用在规模化部署时面临稳定性、可观测性和治理难题。
+  pain_en: Agent applications face stability, observability, and governance challenges when deployed at
+    scale.
+  current_alternative: 目前企业可能自建或使用云厂商的通用服务，但缺乏专门针对智能体的优化。
+  current_alternative_en: Currently, enterprises may build in-house or use generic cloud services, but
+    lack agent-specific optimization.
+  usage_reason: 融资消息引发关注，但产品尚未公开，采用情况未核验。
+  usage_reason_en: Funding news attracts attention, but product is not public and adoption is unverified.
+- id: req-full-ai智能体基础设施公司以太之心完成数千万元种子轮融资-2026-09-01
+  project_slug: ai智能体基础设施公司以太之心完成数千万元种子轮融资
+  level: full
+  reviewed_at: '2026-08-31T18:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及公司定位为AI智能体基础设施，未说明具体解决什么用户任务、痛点或交付方式，无法判断需求强度。
+    evidence_ids:
+    - ev-414d45be8457b8f7
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注以太之心官网或官方公告，获取产品文档、定价页或客户案例。
+  market: ''
+  job: 为AI智能体提供运行所需的基础设施，如部署、监控、调度等。
+  job_en: Provide infrastructure for AI agents, such as deployment, monitoring, and orchestration.
+  pain: 智能体应用在规模化部署时面临稳定性、可观测性和治理难题。
+  pain_en: Agent applications face stability, observability, and governance challenges when deployed at
+    scale.
+  current_alternative: 目前企业可能自建或使用云厂商的通用服务，但缺乏专门针对智能体的优化。
+  current_alternative_en: Currently, enterprises may build in-house or use generic cloud services, but
+    lack agent-specific optimization.
+  usage_reason: 融资消息引发关注，但产品尚未公开，采用情况未核验。
+  usage_reason_en: Funding news attracts attention, but product is not public and adoption is unverified.

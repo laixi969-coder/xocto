@@ -1,12 +1,14 @@
 ---
 slug: whatwetellai
-name: whatwetellai
+name: What We Tell AI
 builder: thm
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: What We Tell AI是一个网站，但具体功能不明确。从名称推测可能与用户向AI透露的信息相关，但缺乏详细说明。具体流程或交付仍待核验。
+inspiration: 趋势可能是AI与用户数据隐私的交叉点。但信息不足，需深挖官网或社区讨论才能判断方向。
+summary_en: What We Tell AI is a website with unclear functionality. The name suggests it relates to information
+  users share with AI, but details are lacking. Specific workflows and deliverables pending verification.
+inspiration_en: Trend may be at the intersection of AI and user data privacy. But insufficient information;
+  need to explore the website or community discussions to judge direction.
 priority_review: false
 project_type: new_application
 industries: []
@@ -21,7 +23,7 @@ canonical_url: https://whatwetellai.com
 summary: What We Tell AI
 first_seen: '2026-08-30T10:16:14Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 sightings:
@@ -34,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# whatwetellai
+# What We Tell AI
 
 What We Tell AI
 

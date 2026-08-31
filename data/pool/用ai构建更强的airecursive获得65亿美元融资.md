@@ -1,11 +1,12 @@
 ---
 slug: 用ai构建更强的airecursive获得65亿美元融资
-name: 用AI构建更强的AI，Recursive获得6.5亿美元融资
+name: Recursive
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Recursive是一家AI公司，获得6.5亿美元融资，专注于用AI技术构建更强的AI系统。具体产品形态和交付未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Recursive is an AI company that raised $650 million to build stronger AI systems using AI.
+  Specific product form and deliverables are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZM2pIeUx1WHBm
 summary: 用AI构建更强的AI，Recursive获得6.5亿美元融资 36 Kr
 first_seen: '2026-08-31T13:01:56Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 用AI构建更强的AI，Recursive获得6.5亿美元融资
+# Recursive
 
 用AI构建更强的AI，Recursive获得6.5亿美元融资 36 Kr
 

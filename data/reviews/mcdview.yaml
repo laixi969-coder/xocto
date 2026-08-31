@@ -1,0 +1,80 @@
+- id: req-initial-mcdview-2026-09-01
+  project_slug: mcdview
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者快速理解数据库结构的需求，痛点明确，交付可确定，属于工作流结构判断。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  - gate: consensus
+    status: insufficient
+    reason: 开发者社区有少量讨论，但缺乏持续采用或广泛认可的证据。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或团队，但付费路径未验证。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  - gate: truth
+    status: supported
+    reason: 产品贴近数据库设计的第一性目标，交付确定性高，无安全风险。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  next_validation: 关注 mcdview 官网是否增加定价页或客户案例，以及开发者社区中的使用反馈。
+  market: ''
+  job: 开发者需要快速理解现有数据库结构，以便进行维护或开发。
+  job_en: Developers need to quickly understand existing database structures for maintenance or development.
+  pain: 手动阅读 SQL schema 或绘制 ER 图耗时且容易出错，尤其在大库中。
+  pain_en: Manually reading SQL schemas or drawing ER diagrams is time-consuming and error-prone, especially
+    with large databases.
+  current_alternative: 目前开发者常使用数据库客户端自带的可视化功能，或手工绘制 ER 图。
+  current_alternative_en: Currently, developers often use built-in visualization features of database
+    clients or manually draw ER diagrams.
+  usage_reason: mcdview 提供即时、自动化的 ER 图生成，节省时间，因此开发者会试用。
+  usage_reason_en: mcdview offers instant, automated ER diagram generation, saving time, so developers
+    will try it.
+- id: req-full-mcdview-2026-09-01
+  project_slug: mcdview
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者快速理解数据库结构的需求，痛点明确，交付可确定，属于工作流结构判断。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  - gate: consensus
+    status: insufficient
+    reason: 开发者社区有少量讨论，但缺乏持续采用或广泛认可的证据。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或团队，但付费路径未验证。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  - gate: truth
+    status: supported
+    reason: 产品贴近数据库设计的第一性目标，交付确定性高，无安全风险。
+    evidence_ids:
+    - ev-5785f98d8070ea3f
+  next_validation: 关注 mcdview 官网是否增加定价页或客户案例，以及开发者社区中的使用反馈。
+  market: ''
+  job: 开发者需要快速理解现有数据库结构，以便进行维护或开发。
+  job_en: Developers need to quickly understand existing database structures for maintenance or development.
+  pain: 手动阅读 SQL schema 或绘制 ER 图耗时且容易出错，尤其在大库中。
+  pain_en: Manually reading SQL schemas or drawing ER diagrams is time-consuming and error-prone, especially
+    with large databases.
+  current_alternative: 目前开发者常使用数据库客户端自带的可视化功能，或手工绘制 ER 图。
+  current_alternative_en: Currently, developers often use built-in visualization features of database
+    clients or manually draw ER diagrams.
+  usage_reason: mcdview 提供即时、自动化的 ER 图生成，节省时间，因此开发者会试用。
+  usage_reason_en: mcdview offers instant, automated ER diagram generation, saving time, so developers
+    will try it.

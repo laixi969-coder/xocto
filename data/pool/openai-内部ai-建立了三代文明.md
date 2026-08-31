@@ -1,11 +1,12 @@
 ---
 slug: openai-内部ai-建立了三代文明
-name: OpenAI 内部，AI 建立了三代「文明」
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 内部 AI 安全事件，属于行业安全动态，非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI's internal AI safety incident is an industry security development, not a standalone
+  product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -66,7 +67,7 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇  \n   \n 无数的科幻电影
   \ \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-31T07:16:17Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -77,7 +78,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI 内部，AI 建立了三代「文明」
+# OpenAI
 
 作者｜Wildcard  
   编辑｜靖宇  

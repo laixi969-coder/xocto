@@ -2,19 +2,33 @@
 slug: mindsee
 name: Mindsee
 builder: cdx
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 创作
+summary_zh: 用户注册后获得生图次数，在 Mindsee 输入提示词生成图片；交付的是 AI 生成的图像，具体生成流程和输出规格仍待核验。
+inspiration: 趋势是 AI 生图工具从通用走向垂直。可从电商产品图、营销素材等具体场景切入，按生成次数或订阅收费，但需先验证生成质量和用户留存。
+summary_en: After registration, users receive generation credits and input prompts into Mindsee to generate
+  images; the deliverable is an AI-generated image, though the specific generation process and output
+  specifications remain to be verified.
+inspiration_en: The trend is AI image generation moving from general to vertical. One could enter through
+  specific scenarios like e-commerce product images or marketing assets, charging per generation or via
+  subscription, but generation quality and user retention must first be validated.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 设计
+- 营销
+industries_en:
+- Design
+- Marketing
+jobs:
+- 平面设计师
+- 内容创作者
+jobs_en:
+- Graphic Designer
+- Content Creator
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: https://mindsee.app
 canonical_url: https://mindsee.app
@@ -31,7 +45,7 @@ summary: "# 起因\r\n我在周六也就是 8 月 29 号下午 2 点左右发布
   \ 3 次生图机会，还可以使用兑换码兑换更多使用次数  \r\n在上个帖询问方向后，目前打算往垂直领域的工具深入，主要目标应该是 B 端用户，和部分 C 端用户"
 first_seen: '2026-08-31T09:00:24Z'
 last_seen: '2026-08-31T17:38:24Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 sightings:

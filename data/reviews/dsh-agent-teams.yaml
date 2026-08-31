@@ -307,3 +307,44 @@
   usage_reason: 公开代码仓库有 1,156 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,156 stars, showing developer attention; repeat use and
     payment are not yet verified.
+- id: req-full-dsh-agent-teams-2026-09-01
+  project_slug: dsh-agent-teams
+  level: full
+  reviewed_at: '2026-08-31T18:40:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者协调多个AI代理的需求，痛点在于手动传话和汇总耗时易错；交付为自动协作的代理团队，可确定发生。
+    evidence_ids:
+    - ev-ac132b30b50d7e87
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有1,233星，说明社区关注，但缺乏用户反馈和持续采用证据。
+    evidence_ids:
+    - ev-1d1d9fb4f1ae4700
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-ac132b30b50d7e87
+  - gate: truth
+    status: insufficient
+    reason: 功能明确，但交付稳定性和安全边界缺乏可复现的公开证据。
+    evidence_ids:
+    - ev-ac132b30b50d7e87
+  next_validation: 追踪GitHub仓库的issue和discussion，确认开发者实际使用场景和替代的旧流程。
+  market: ''
+  job: 开发者需要一句话拉起一组AI帮手，各自领任务、直接通气，不用人来回传话和汇总。
+  job_en: Developers need to spin up a team of AI helpers with one sentence, each taking tasks and communicating
+    directly, without human ferrying messages and stitching results.
+  pain: 手动协调多个AI代理耗时且容易出错；公开材料未说明不解决的具体代价、频率或后果。
+  pain_en: Manually coordinating multiple AI agents is time-consuming and error-prone; public materials
+    do not detail the cost, frequency, or consequences.
+  current_alternative: 用户可能手动管理多个AI会话或使用其他编排工具；公开材料未明确说明替代方式。
+  current_alternative_en: Users may manually manage multiple AI sessions or use other orchestration tools;
+    public materials do not specify the alternative.
+  usage_reason: 仓库有1,233星，表明开发者关注；但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 1,233 stars, indicating developer interest; repeat use and payment
+    are not yet verified.

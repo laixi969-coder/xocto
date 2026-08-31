@@ -1,11 +1,12 @@
 ---
 slug: siliconindia-startup-funding-report-cleantech-ev-ai-deeptech
-name: 'siliconindia Startup Funding Report: CleanTech, EV, AI, DeepTech and Logistics'
+name: siliconindia Startup Funding Report
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 一份创业融资报告涵盖清洁技术、电动汽车、AI、深度科技和物流领域，反映印度创业投资趋势。
 inspiration: ''
-summary_en: ''
+summary_en: A startup funding report covers CleanTech, EV, AI, DeepTech, and Logistics, reflecting Indian
+  startup investment trends.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMDdvTmFiWHpI
 summary: 'siliconindia Startup Funding Report: CleanTech, EV, AI, DeepTech and Logistics siliconindia.com'
 first_seen: '2026-08-31T10:04:16Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# siliconindia Startup Funding Report: CleanTech, EV, AI, DeepTech and Logistics
+# siliconindia Startup Funding Report
 
 siliconindia Startup Funding Report: CleanTech, EV, AI, DeepTech and Logistics siliconindia.com
 

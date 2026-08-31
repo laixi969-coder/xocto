@@ -1,11 +1,12 @@
 ---
 slug: nvidia-vs-tsmc-ai-computing-platform-vs-semiconductor-foundr
-name: 'NVIDIA vs TSMC: AI Computing Platform vs Semiconductor Foundry — What’s the Difference?'
+name: NVIDIA vs TSMC
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章比较 NVIDIA 和 TSMC 在 AI 计算平台与半导体代工方面的差异，反映 AI 芯片产业链的分工与竞争。
 inspiration: ''
-summary_en: ''
+summary_en: The article compares NVIDIA and TSMC in AI computing platform vs semiconductor foundry, reflecting
+  the division and competition in the AI chip supply chain.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVndlME1Gc0Q3
 summary: 'NVIDIA vs TSMC: AI Computing Platform vs Semiconductor Foundry — What’s the Difference? MEXC'
 first_seen: '2026-08-31T12:09:25Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA vs TSMC: AI Computing Platform vs Semiconductor Foundry — What’s the Difference?
+# NVIDIA vs TSMC
 
 NVIDIA vs TSMC: AI Computing Platform vs Semiconductor Foundry — What’s the Difference? MEXC
 

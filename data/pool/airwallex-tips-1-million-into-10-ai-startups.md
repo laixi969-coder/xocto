@@ -1,11 +1,11 @@
 ---
 slug: airwallex-tips-1-million-into-10-ai-startups
-name: Airwallex tips $1 million into 10 AI startups
+name: Airwallex
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Airwallex 向 10 家 AI 初创公司投资 100 万美元。
 inspiration: ''
-summary_en: ''
+summary_en: Airwallex invested $1 million into 10 AI startups.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPR1VvWlFjbnhu
 summary: Airwallex tips $1 million into 10 AI startups Startup Daily
 first_seen: '2026-08-31T03:20:15Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Airwallex tips $1 million into 10 AI startups
+# Airwallex
 
 Airwallex tips $1 million into 10 AI startups Startup Daily
 

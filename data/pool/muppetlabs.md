@@ -21,7 +21,7 @@ canonical_url: https://muppetlabs.com/~breadbox/software/windows.html
 summary: An implementation of Conway's Game of Life for Windows 3.1x and later
 first_seen: '2026-08-30T11:41:40Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

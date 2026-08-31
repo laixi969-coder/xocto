@@ -1,0 +1,71 @@
+- id: req-initial-orato-2026-09-01
+  project_slug: orato
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决口语练习需求，但痛点强度未明，旧替代行为多样，产品差异化不清晰。
+    evidence_ids:
+    - ev-49bd65f974e2a9e6
+  - gate: consensus
+    status: insufficient
+    reason: 仅发布在社区平台，无用户评价或采用数据。
+    evidence_ids:
+    - ev-49bd65f974e2a9e6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露。
+    evidence_ids:
+    - ev-49bd65f974e2a9e6
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述过于简单，无法确认交付确定性。
+    evidence_ids:
+    - ev-49bd65f974e2a9e6
+  next_validation: 关注产品发布页面上的评论和评分，以及是否有用户分享使用体验。
+  market: ''
+  job: 用户希望练习口语，提高流利度和自信心。
+  job_en: Users want to practice speaking to improve fluency and confidence.
+  pain: 缺乏真实对话伙伴，或付费外教昂贵。
+  pain_en: Lack of real conversation partners, or paid tutors are expensive.
+  current_alternative: 用户可能使用语言交换应用、付费外教或自我练习。
+  current_alternative_en: Users may use language exchange apps, paid tutors, or self-practice.
+  usage_reason: AI 提供随时可用的练习伙伴，降低练习门槛。
+  usage_reason_en: AI provides an always-available practice partner, lowering the barrier to practice.
+- id: req-full-orato-2026-09-01
+  project_slug: orato
+  level: full
+  reviewed_at: '2026-08-31T18:44:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决口语练习需求，但痛点强度未明，旧替代行为多样，产品差异化不清晰。
+    evidence_ids:
+    - ev-49bd65f974e2a9e6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品发布页面上的评论和评分，以及是否有用户分享使用体验。
+  market: ''
+  job: 用户希望练习口语，提高流利度和自信心。
+  job_en: Users want to practice speaking to improve fluency and confidence.
+  pain: 缺乏真实对话伙伴，或付费外教昂贵。
+  pain_en: Lack of real conversation partners, or paid tutors are expensive.
+  current_alternative: 用户可能使用语言交换应用、付费外教或自我练习。
+  current_alternative_en: Users may use language exchange apps, paid tutors, or self-practice.
+  usage_reason: AI 提供随时可用的练习伙伴，降低练习门槛。
+  usage_reason_en: AI provides an always-available practice partner, lowering the barrier to practice.

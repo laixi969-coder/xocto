@@ -1,0 +1,72 @@
+- id: req-initial-radar-by-particle-2026-09-01
+  project_slug: radar-by-particle
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称其为播客搜索引擎，未说明具体检索对象、交付形式或用户痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-e32ec3d4ff977052
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注官方产品页是否补充搜索范围、定价和用户案例。
+  market: ''
+  job: 用户想从海量播客中找到特定主题或人物的内容。
+  job_en: Users want to find specific topics or people in the vast podcast landscape.
+  pain: 播客内容缺乏统一索引，手动搜索费时且容易遗漏。
+  pain_en: Podcast content lacks unified indexing, making manual search time-consuming and prone to missing
+    relevant episodes.
+  current_alternative: 目前用户依赖平台内搜索、社交媒体推荐或朋友推荐。
+  current_alternative_en: Currently, users rely on in-platform search, social media recommendations, or
+    word-of-mouth.
+  usage_reason: 尚未核验，但播客搜索需求可能因内容增长而存在。
+  usage_reason_en: Not yet verified, but podcast search demand may exist due to content growth.
+- id: req-full-radar-by-particle-2026-09-01
+  project_slug: radar-by-particle
+  level: full
+  reviewed_at: '2026-08-31T18:44:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称其为播客搜索引擎，未说明具体检索对象、交付形式或用户痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-e32ec3d4ff977052
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注官方产品页是否补充搜索范围、定价和用户案例。
+  market: ''
+  job: 用户想从海量播客中找到特定主题或人物的内容。
+  job_en: Users want to find specific topics or people in the vast podcast landscape.
+  pain: 播客内容缺乏统一索引，手动搜索费时且容易遗漏。
+  pain_en: Podcast content lacks unified indexing, making manual search time-consuming and prone to missing
+    relevant episodes.
+  current_alternative: 目前用户依赖平台内搜索、社交媒体推荐或朋友推荐。
+  current_alternative_en: Currently, users rely on in-platform search, social media recommendations, or
+    word-of-mouth.
+  usage_reason: 尚未核验，但播客搜索需求可能因内容增长而存在。
+  usage_reason_en: Not yet verified, but podcast search demand may exist due to content growth.

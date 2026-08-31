@@ -1,16 +1,19 @@
 ---
 slug: harden
-name: harden
+name: Harden
 builder: se4u
 category: AI + 开发
-summary_zh: harden 是一个面向编码 agent 的安全工具，据其博客称使用小型语言模型和 IRM 技术，在编码 agent 安全基准上超过 GPT5.5-xhigh。具体工作流程、输入输出和交付物尚未披露，需进一步核验。
-inspiration: 趋势是 AI 编码 agent 的安全防护成为刚需，但当前证据不足。切入可从编码 agent 的安全审计、漏洞检测或合规检查入手，但需先验证产品实际功能和效果。
-summary_en: harden is a security tool for coding agents, claiming to beat GPT5.5-xhigh on coding agent
-  security benchmarks using SLMs and IRM. Specific workflow, inputs, outputs, and deliverables are not
-  yet disclosed and require further verification.
-inspiration_en: The trend is that security for AI coding agents is becoming a necessity, but current evidence
-  is insufficient. Entry could focus on security auditing, vulnerability detection, or compliance checks
-  for coding agents, but actual functionality and effectiveness need verification first.
+summary_zh: Harden 提供编码代理安全解决方案，使用小型语言模型（SLM）和 IRM 技术检测和防御 AI 编码代理的安全威胁。开发者在部署 AI 编码代理时，将代理行为日志或代码提交交给
+  Harden 分析，它识别潜在漏洞或恶意行为并生成安全报告。具体流程和交付仍待核验。
+inspiration: 趋势是 AI 编码代理普及后，安全审计成为刚需。切入可从安全审计服务或插件入手，面向使用 AI 编码代理的企业，按审计次数或代理数量收费，先验证检测准确率和误报率。
+summary_en: Harden provides security solutions for coding agents, using small language models (SLMs) and
+  IRM techniques to detect and defend against security threats from AI coding agents. Developers deploying
+  AI coding agents submit agent behavior logs or code commits to Harden for analysis, which identifies
+  potential vulnerabilities or malicious actions and generates security reports. Specific workflow and
+  deliverables still need verification.
+inspiration_en: The trend is that as AI coding agents become widespread, security auditing becomes a necessity.
+  Entry could be through security audit services or plugins, targeting enterprises using AI coding agents,
+  charging per audit or per agent, first validating detection accuracy and false positive rates.
 priority_review: false
 project_type: new_application
 industries:
@@ -21,8 +24,8 @@ jobs:
 - 安全工程师
 - AI 应用开发者
 jobs_en:
-- Security Engineer
-- AI Application Developer
+- Security engineers
+- AI application developers
 regions: []
 regions_en: []
 open_source: false
@@ -31,7 +34,7 @@ canonical_url: https://harden.run/blog/aif-research-and-evidence
 summary: Beating GPT5.5-xhigh for Coding agent security with SLMs and IRM
 first_seen: '2026-08-27T22:33:19Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:
@@ -51,7 +54,7 @@ sightings:
   kind: news
 ---
 
-# harden
+# Harden
 
 Beating GPT5.5-xhigh for Coding agent security with SLMs and IRM
 

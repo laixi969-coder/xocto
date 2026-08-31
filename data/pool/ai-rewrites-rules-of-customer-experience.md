@@ -1,11 +1,11 @@
 ---
 slug: ai-rewrites-rules-of-customer-experience
-name: AI rewrites rules of Customer Experience
+name: AI客户体验
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI正在改写客户体验规则，企业需适应新趋势。
 inspiration: ''
-summary_en: ''
+summary_en: AI is rewriting the rules of customer experience, and businesses need to adapt.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tX254OS1iYUNY
 summary: AI rewrites rules of Customer Experience gadget.co.za
 first_seen: '2026-08-31T04:17:45Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI rewrites rules of Customer Experience
+# AI客户体验
 
 AI rewrites rules of Customer Experience gadget.co.za
 

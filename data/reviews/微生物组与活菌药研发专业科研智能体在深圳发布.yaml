@@ -1,0 +1,82 @@
+- id: req-initial-微生物组与活菌药研发专业科研智能体在深圳发布-2026-09-01
+  project_slug: 微生物组与活菌药研发专业科研智能体在深圳发布
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研人员在微生物组与活菌药研发中数据分析、实验设计和文献综述的耗时问题，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户反馈、采用规模或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是科研机构或药企，但尚未核验。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际使用数据或交付结果，真实性待验证。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  next_validation: 关注官方发布后续的案例研究、用户评价或公开使用数据。
+  market: ''
+  job: 科研人员需要分析微生物组数据、设计活菌药实验并跟踪文献。
+  job_en: Researchers need to analyze microbiome data, design live biotherapeutic experiments, and track
+    literature.
+  pain: 微生物组数据复杂，分析耗时，实验设计依赖经验，文献量大。
+  pain_en: Microbiome data is complex, analysis is time-consuming, experimental design relies on experience,
+    and literature volume is large.
+  current_alternative: 目前主要靠人工使用统计软件和文献数据库，流程繁琐。
+  current_alternative_en: Currently relies on manual use of statistical software and literature databases,
+    which is cumbersome.
+  usage_reason: 科研人员可能采用它来加速数据分析与文献综述，但具体采用情况尚未核验。
+  usage_reason_en: Researchers may adopt it to accelerate data analysis and literature review, but actual
+    adoption is unverified.
+- id: req-full-微生物组与活菌药研发专业科研智能体在深圳发布-2026-09-01
+  project_slug: 微生物组与活菌药研发专业科研智能体在深圳发布
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研人员在微生物组与活菌药研发中数据分析、实验设计和文献综述的耗时问题，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏用户反馈、采用规模或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是科研机构或药企，但尚未核验。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际使用数据或交付结果，真实性待验证。
+    evidence_ids:
+    - ev-311e8d9727dd6fd0
+  next_validation: 关注官方发布后续的案例研究、用户评价或公开使用数据。
+  market: ''
+  job: 科研人员需要分析微生物组数据、设计活菌药实验并跟踪文献。
+  job_en: Researchers need to analyze microbiome data, design live biotherapeutic experiments, and track
+    literature.
+  pain: 微生物组数据复杂，分析耗时，实验设计依赖经验，文献量大。
+  pain_en: Microbiome data is complex, analysis is time-consuming, experimental design relies on experience,
+    and literature volume is large.
+  current_alternative: 目前主要靠人工使用统计软件和文献数据库，流程繁琐。
+  current_alternative_en: Currently relies on manual use of statistical software and literature databases,
+    which is cumbersome.
+  usage_reason: 科研人员可能采用它来加速数据分析与文献综述，但具体采用情况尚未核验。
+  usage_reason_en: Researchers may adopt it to accelerate data analysis and literature review, but actual
+    adoption is unverified.

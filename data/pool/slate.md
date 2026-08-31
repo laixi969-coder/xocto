@@ -3,36 +3,31 @@ slug: slate
 name: slate
 builder: wassermanproductions
 category: AI + 创作
-summary_zh: slate 是一个面向 AI 影视制作的提示词工作室，导演或分镜师在规划镜头时，可输入剧本或场景描述，它帮助规划镜头、指导覆盖、保持连续性，并编译适用于图像、视频、音乐或语音生成器的生产级提示词。无需
-  API 密钥，建议捐赠 30 美元。
-inspiration: 趋势是 AI 影视制作从单点生成走向全流程规划，提示词成为核心资产。切入可从分镜和连续性管理入手，为独立创作者提供低成本工具，未来可发展协作和资产库。
-summary_en: slate is a prompt studio for AI filmmaking. Directors or storyboard artists can input scripts
-  or scene descriptions, and it helps plan shots, direct coverage, maintain continuity, and compile production-ready
-  prompts for any image, video, music, or voice generator. No API keys required, suggested donation of
-  $30.
-inspiration_en: The trend is AI filmmaking moving from single-point generation to full-process planning,
-  with prompts as core assets. Entry point could be storyboarding and continuity management, offering
-  low-cost tools for independent creators, with potential for collaboration and asset libraries.
+summary_zh: 导演或分镜师在筹备 AI 影视项目时，把剧本或场景描述输入 slate，它帮助规划镜头、指导拍摄覆盖、保持连续性，并编译成可直接用于图像、视频、音乐或语音生成器的生产级提示词。无需
+  API 密钥，交付的是成套提示词，人工仍需确认最终创意。
+inspiration: 趋势是 AI 影视制作从单点生成走向工业化流程管理。切入点是做导演和分镜师的专业工具，而非通用提示词平台；可围绕镜头规划、连续性检查等环节提供付费模板或团队协作功能。
+summary_en: Directors or storyboard artists preparing an AI film project input scripts or scene descriptions
+  into slate, which helps plan shots, direct coverage, maintain continuity, and compile production-ready
+  prompts for any image, video, music, or voice generator. No API keys required; the deliverable is a
+  set of prompts, with final creative decisions still made by humans.
+inspiration_en: The trend is AI filmmaking moving from single-point generation to industrialized workflow
+  management. The entry point is building professional tools for directors and storyboard artists, not
+  a generic prompt platform; paid templates or team collaboration features around shot planning and continuity
+  checks could be viable.
 priority_review: false
 project_type: open_source
 industries:
 - 影视制作
-- 内容创作
 industries_en:
-- Film Production
-- Content Creation
+- Film production
 jobs:
 - 导演
 - 分镜师
-- AI 影视创作者
 jobs_en:
 - Director
-- Storyboard Artist
-- AI Filmmaker
-regions:
-- 全球
-regions_en:
-- Global
+- Storyboard artist
+regions: []
+regions_en: []
 open_source: true
 url: https://github.com/wassermanproductions/slate
 canonical_url: https://github.com/wassermanproductions/slate
@@ -41,7 +36,7 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - marketfeeds

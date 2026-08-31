@@ -159,3 +159,44 @@
   usage_reason: 开源项目获得 288 星和 51 fork，显示社区关注，但采用和付费尚未核验。
   usage_reason_en: The open-source project has 288 stars and 51 forks, showing community interest, but
     adoption and payment are not yet verified.
+- id: req-full-skillcorpus-2026-09-01
+  project_slug: skillcorpus
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 技能文件分散、难以检索的痛点，交付可验证（结构化语料库）。工作流结构判断。
+    evidence_ids:
+    - ev-6c46ba0c3a3a2fc1
+  - gate: consensus
+    status: insufficient
+    reason: 有 288 星但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-6c46ba0c3a3a2fc1
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，买方可能是 AI 团队，但付费路径不明。
+    evidence_ids:
+    - ev-6c46ba0c3a3a2fc1
+  - gate: truth
+    status: supported
+    reason: 贴近 agent 开发的第一性目标，承诺可验证，但安全边界需进一步确认。
+    evidence_ids:
+    - ev-6c46ba0c3a3a2fc1
+  next_validation: 关注开源社区的 issue 和讨论，以及是否有企业采用案例或付费版本发布。
+  market: ''
+  job: AI 工程师在构建 agent 时，需要将分散的技能文件整合为可检索的语料库，以便 agent 高效调用。
+  job_en: AI engineers building agents need to integrate scattered skill files into a retrievable corpus
+    for efficient agent invocation.
+  pain: 技能文件分散、格式不一，难以检索和复用，导致 agent 开发效率低。
+  pain_en: Skill files are scattered and inconsistent, hard to retrieve and reuse, leading to low agent
+    development efficiency.
+  current_alternative: 目前主要靠手动整理技能文件或使用简单的文件系统，缺乏标准化和检索能力。
+  current_alternative_en: Currently relies on manual organization or simple file systems, lacking standardization
+    and retrieval capabilities.
+  usage_reason: 开源项目获得 288 星和 51 fork，显示社区关注，但采用和付费尚未核验。
+  usage_reason_en: The open-source project has 288 stars and 51 forks, showing community interest, but
+    adoption and payment are not yet verified.

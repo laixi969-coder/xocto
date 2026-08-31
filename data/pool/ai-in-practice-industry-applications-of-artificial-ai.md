@@ -1,11 +1,12 @@
 ---
 slug: ai-in-practice-industry-applications-of-artificial-ai
-name: 'AI in Practice: Industry Applications of Artificial AI'
+name: BDO USA
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: BDO USA 发布行业应用报告，讨论 AI 在各行业的实际应用。
 inspiration: ''
-summary_en: ''
+summary_en: BDO USA published a report on industry applications of AI, discussing practical uses across
+  sectors.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxOSGFXVENSc01p
 summary: 'AI in Practice: Industry Applications of Artificial AI BDO USA'
 first_seen: '2026-08-28T18:25:25Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI in Practice: Industry Applications of Artificial AI
+# BDO USA
 
 AI in Practice: Industry Applications of Artificial AI BDO USA
 

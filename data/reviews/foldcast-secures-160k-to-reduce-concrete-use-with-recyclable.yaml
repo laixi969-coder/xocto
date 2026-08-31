@@ -1,0 +1,84 @@
+- id: req-initial-foldcast-secures-160k-to-reduce-concrete-use-with-recyclable-2026-09-01
+  project_slug: foldcast-secures-160k-to-reduce-concrete-use-with-recyclable
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决混凝土施工中模板材料成本高、废弃污染的问题，替代传统木模钢模，痛点刚性且交付可确定（纸模需满足承重和防水要求）。工作流结构判断。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示获得种子融资，尚无客户案例或实际采用数据，行业认知度待验证。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能向施工方销售或租赁模具，但付费方和定价未公开。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  - gate: truth
+    status: insufficient
+    reason: 技术可行性尚未经大规模验证，纸模在真实施工中的承重、防水和成本效益需进一步证明。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  next_validation: 关注 Foldcast 官网或新闻发布，寻找其试点项目、客户案例或技术认证信息。
+  market: ''
+  job: 施工方在浇筑混凝土前需要搭建模板，传统模板多为木模或钢模，使用后废弃或回收成本高。
+  job_en: Before pouring concrete, construction teams need to set up formwork; traditional formwork is
+    often wood or steel, which is costly to dispose of or recycle after use.
+  pain: 传统模板材料成本高、废弃处理污染环境，且搭建和拆除耗时耗力。
+  pain_en: Traditional formwork materials are costly, disposal pollutes the environment, and setup and
+    removal are time-consuming and labor-intensive.
+  current_alternative: 目前使用木模、钢模或铝模，重复使用次数有限，废弃后难以回收。
+  current_alternative_en: Currently using wood, steel, or aluminum formwork, with limited reuse cycles
+    and difficult recycling after disposal.
+  usage_reason: 建筑行业对减碳和成本控制的需求日益迫切，可回收纸模若验证可靠，能同时降低材料成本和环境负担，因此获得投资关注。
+  usage_reason_en: The construction industry faces increasing pressure for carbon reduction and cost control;
+    if recyclable paper moulds prove reliable, they can reduce material costs and environmental burden,
+    hence attracting investment attention.
+- id: req-full-foldcast-secures-160k-to-reduce-concrete-use-with-recyclable-2026-09-01
+  project_slug: foldcast-secures-160k-to-reduce-concrete-use-with-recyclable
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决混凝土施工中模板材料成本高、废弃污染的问题，替代传统木模钢模，痛点刚性且交付可确定（纸模需满足承重和防水要求）。工作流结构判断。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示获得种子融资，尚无客户案例或实际采用数据，行业认知度待验证。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能向施工方销售或租赁模具，但付费方和定价未公开。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  - gate: truth
+    status: insufficient
+    reason: 技术可行性尚未经大规模验证，纸模在真实施工中的承重、防水和成本效益需进一步证明。
+    evidence_ids:
+    - ev-ac33a066b04901a5
+  next_validation: 关注 Foldcast 官网或新闻发布，寻找其试点项目、客户案例或技术认证信息。
+  market: ''
+  job: 施工方在浇筑混凝土前需要搭建模板，传统模板多为木模或钢模，使用后废弃或回收成本高。
+  job_en: Before pouring concrete, construction teams need to set up formwork; traditional formwork is
+    often wood or steel, which is costly to dispose of or recycle after use.
+  pain: 传统模板材料成本高、废弃处理污染环境，且搭建和拆除耗时耗力。
+  pain_en: Traditional formwork materials are costly, disposal pollutes the environment, and setup and
+    removal are time-consuming and labor-intensive.
+  current_alternative: 目前使用木模、钢模或铝模，重复使用次数有限，废弃后难以回收。
+  current_alternative_en: Currently using wood, steel, or aluminum formwork, with limited reuse cycles
+    and difficult recycling after disposal.
+  usage_reason: 建筑行业对减碳和成本控制的需求日益迫切，可回收纸模若验证可靠，能同时降低材料成本和环境负担，因此获得投资关注。
+  usage_reason_en: The construction industry faces increasing pressure for carbon reduction and cost control;
+    if recyclable paper moulds prove reliable, they can reduce material costs and environmental burden,
+    hence attracting investment attention.

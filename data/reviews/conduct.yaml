@@ -76,3 +76,80 @@
   usage_reason: 技术社区讨论中获得 20 分和 3 条评论，显示社区关注，但尚未核验实际采用。
   usage_reason_en: 20 points and 3 comments in technical community discussions show community interest,
     but actual adoption is not yet verified.
+- id: req-initial-conduct-2026-09-01
+  project_slug: conduct
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明为 LLM 和 MCP 工具调用提供护栏，但未具体说明拦截规则、交付形式或用户工作流，无法判断需求强度。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无用户采用证据，共识未形成。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能无直接收入，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供安全效果验证或用户案例，交付确定性无法核验。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 issue 和讨论，以及是否有企业采用或集成案例。
+  market: ''
+  job: 开发者在构建 AI 代理时，需要确保模型调用外部工具的行为符合安全策略。
+  job_en: Developers building AI agents need to ensure that model calls to external tools comply with
+    security policies.
+  pain: AI 代理可能执行未授权的工具调用，导致数据泄露或系统损坏，但缺乏有效的拦截机制。
+  pain_en: AI agents may execute unauthorized tool calls, leading to data breaches or system damage, but
+    effective interception mechanisms are lacking.
+  current_alternative: 目前开发者通常依赖人工审查日志或自行编写简单的过滤规则，效率低且易遗漏。
+  current_alternative_en: Currently developers often rely on manual log review or simple custom filtering
+    rules, which is inefficient and error-prone.
+  usage_reason: 开源项目在开发者社区获得少量关注，但尚无采用或付费证据。
+  usage_reason_en: The open-source project has gained some attention in the developer community, but no
+    adoption or payment evidence yet.
+- id: req-full-conduct-2026-09-01
+  project_slug: conduct
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明为 LLM 和 MCP 工具调用提供护栏，但未具体说明拦截规则、交付形式或用户工作流，无法判断需求强度。
+    evidence_ids:
+    - ev-fd8f1ae13aa5cf46
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 issue 和 discussion，以及是否有企业采用或集成案例。
+  market: ''
+  job: 开发者在构建 AI 代理时，需要确保模型调用外部工具的行为符合安全策略。
+  job_en: Developers building AI agents need to ensure that model calls to external tools comply with
+    security policies.
+  pain: AI 代理可能执行未授权的工具调用，导致数据泄露或系统损坏，但缺乏有效的拦截机制。
+  pain_en: AI agents may execute unauthorized tool calls, leading to data breaches or system damage, but
+    effective interception mechanisms are lacking.
+  current_alternative: 目前开发者通常依赖人工审查日志或自行编写简单的过滤规则，效率低且易遗漏。
+  current_alternative_en: Currently developers often rely on manual log review or simple custom filtering
+    rules, which is inefficient and error-prone.
+  usage_reason: 开源项目在开发者社区获得少量关注，但尚无采用或付费证据。
+  usage_reason_en: The open-source project has gained some attention in the developer community, but no
+    adoption or payment evidence yet.

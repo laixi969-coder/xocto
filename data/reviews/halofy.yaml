@@ -267,3 +267,42 @@
   usage_reason: 仓库获得 475 星，表明开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 475 stars, showing developer interest, but sustained use and payment
     are not yet verified.
+- id: req-full-halofy-2026-09-01
+  project_slug: halofy
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业 AI 代理治理缺失的痛点，提供身份、策略、审计等统一层；痛点刚性（合规要求），交付可确定（治理功能）。工作流结构判断。
+    evidence_ids:
+    - ev-23943d8a98f68590
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 420 个星标；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-70e9ad9dd1c75d28
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 信息安全工程师、合规专员需要管理企业 AI 代理的访问和合规。
+  job_en: Security engineers and compliance officers need to manage access and compliance for enterprise
+    AI agents.
+  pain: AI 代理的访问控制、审计和合规要求日益严格，缺乏统一治理层。
+  pain_en: Access control, audit, and compliance requirements for AI agents are increasingly strict, lacking
+    a unified governance layer.
+  current_alternative: 目前可能使用分散的身份管理和审计工具，难以覆盖 AI 代理特有的需求。
+  current_alternative_en: Currently may use fragmented identity management and audit tools, which struggle
+    to cover AI-agent-specific needs.
+  usage_reason: 公开代码仓库有 420 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 420 stars, showing developer attention; repeat use and payment
+    are not yet verified.

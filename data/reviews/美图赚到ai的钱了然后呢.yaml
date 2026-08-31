@@ -1,0 +1,80 @@
+- id: req-initial-美图赚到ai的钱了然后呢-2026-09-01
+  project_slug: 美图赚到ai的钱了然后呢
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决图像编辑和设计的效率痛点，旧流程是专业软件或人工，AI功能可快速生成结果，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  - gate: consensus
+    status: insufficient
+    reason: 报道仅提及盈利，未提供用户规模、付费转化或环比数据，共识证据不足。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  - gate: model
+    status: insufficient
+    reason: 未披露具体定价或付费模式，可能为订阅或按次付费，但无公开细节。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  - gate: truth
+    status: supported
+    reason: 美图是成熟公司，AI功能可确定交付，盈利报道可信，但需更多细节。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  next_validation: 关注美图财报或官方公告，获取AI业务收入占比、用户付费率等具体数据。
+  market: ''
+  job: 用户（如设计师、摄影师）需要快速完成图像编辑和设计，美图提供AI工具简化流程。
+  job_en: Users (e.g., designers, photographers) need to quickly complete image editing and design; Meitu
+    provides AI tools to streamline the process.
+  pain: 传统图像编辑耗时且需要专业技能，AI功能可降低门槛、提高效率。
+  pain_en: Traditional image editing is time-consuming and requires professional skills; AI features lower
+    the barrier and improve efficiency.
+  current_alternative: 使用Photoshop等专业软件或人工设计服务。
+  current_alternative_en: Using professional software like Photoshop or manual design services.
+  usage_reason: 美图已有庞大用户基础，AI功能可能吸引用户付费，但具体采用数据未披露。
+  usage_reason_en: Meitu has a large user base; AI features may drive paid adoption, but specific usage
+    data is undisclosed.
+- id: req-full-美图赚到ai的钱了然后呢-2026-09-01
+  project_slug: 美图赚到ai的钱了然后呢
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决图像编辑和设计的效率痛点，旧流程是专业软件或人工，AI功能可快速生成结果，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  - gate: consensus
+    status: insufficient
+    reason: 报道仅提及盈利，未提供用户规模、付费转化或环比数据，共识证据不足。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  - gate: model
+    status: insufficient
+    reason: 未披露具体定价或付费模式，可能为订阅或按次付费，但无公开细节。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  - gate: truth
+    status: supported
+    reason: 美图是成熟公司，AI功能可确定交付，盈利报道可信，但需更多细节。
+    evidence_ids:
+    - ev-4b726427cd8d2a89
+  next_validation: 关注美图财报或官方公告，获取AI业务收入占比、用户付费率等具体数据。
+  market: ''
+  job: 用户（如设计师、摄影师）需要快速完成图像编辑和设计，美图提供AI工具简化流程。
+  job_en: Users (e.g., designers, photographers) need to quickly complete image editing and design; Meitu
+    provides AI tools to streamline the process.
+  pain: 传统图像编辑耗时且需要专业技能，AI功能可降低门槛、提高效率。
+  pain_en: Traditional image editing is time-consuming and requires professional skills; AI features lower
+    the barrier and improve efficiency.
+  current_alternative: 使用Photoshop等专业软件或人工设计服务。
+  current_alternative_en: Using professional software like Photoshop or manual design services.
+  usage_reason: 美图已有庞大用户基础，AI功能可能吸引用户付费，但具体采用数据未披露。
+  usage_reason_en: Meitu has a large user base; AI features may drive paid adoption, but specific usage
+    data is undisclosed.

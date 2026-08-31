@@ -1,0 +1,73 @@
+- id: req-initial-喜报逸博士健康智能体荣获2026中国数博会大奖-2026-09-01
+  project_slug: 喜报逸博士健康智能体荣获2026中国数博会大奖
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品定位为健康智能体，但公开材料未说明具体输入、动作和交付，无法判断其解决什么具体痛点。
+    evidence_ids:
+    - ev-43f63915701e3589
+  - gate: consensus
+    status: insufficient
+    reason: 仅有获奖信息，无用户规模或采用证据，无法判断共识。
+    evidence_ids:
+    - ev-43f63915701e3589
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注逸博士官网或应用商店页面，获取具体功能、定价和用户评价。
+  market: ''
+  job: 用户希望获得日常健康管理和疾病风险提示。
+  job_en: Users seek daily health management and disease risk alerts.
+  pain: 缺乏便捷、低成本的健康咨询渠道，去医院耗时耗力。
+  pain_en: Lack of convenient and low-cost health consultation channels; visiting hospitals is time-consuming.
+  current_alternative: 目前用户可能通过搜索引擎、在线问诊平台或咨询亲友获取健康信息。
+  current_alternative_en: Currently, users may use search engines, online consultation platforms, or ask
+    friends and family for health information.
+  usage_reason: 尚未核验，但获奖可能带来关注，用户可能因好奇或对健康管理的需求而试用。
+  usage_reason_en: Not yet verified, but the award may bring attention; users may try it out of curiosity
+    or need for health management.
+- id: req-full-喜报逸博士健康智能体荣获2026中国数博会大奖-2026-09-01
+  project_slug: 喜报逸博士健康智能体荣获2026中国数博会大奖
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品定位为健康智能体，但公开材料未说明具体输入、动作和交付，无法判断其解决什么具体痛点。
+    evidence_ids:
+    - ev-43f63915701e3589
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注逸博士官网或应用商店页面，获取具体功能、定价和用户评价。
+  market: ''
+  job: 用户希望获得日常健康管理和疾病风险提示。
+  job_en: Users seek daily health management and disease risk alerts.
+  pain: 缺乏便捷、低成本的健康咨询渠道，去医院耗时耗力。
+  pain_en: Lack of convenient and low-cost health consultation channels; visiting hospitals is time-consuming.
+  current_alternative: 目前用户可能通过搜索引擎、在线问诊平台或咨询亲友获取健康信息。
+  current_alternative_en: Currently, users may use search engines, online consultation platforms, or ask
+    friends and family for health information.
+  usage_reason: 尚未核验，但获奖可能带来关注，用户可能因好奇或对健康管理的需求而试用。
+  usage_reason_en: Not yet verified, but the award may bring attention; users may try it out of curiosity
+    or need for health management.

@@ -423,3 +423,44 @@
   usage_reason: 2769 个星标显示开发者高度关注，但持续使用和付费尚未核验。
   usage_reason_en: 2769 stars indicate high developer interest, but sustained usage and payment are not
     yet verified.
+- id: req-full-dsh-market-2026-09-01
+  project_slug: dsh-market
+  level: full
+  reviewed_at: '2026-08-31T18:40:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决插件发现和安装的需求，痛点在于寻找和安装繁琐；交付为一键安装的市场，可确定发生。
+    evidence_ids:
+    - ev-9957ae74ab482297
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有2,929星，说明社区关注，但缺乏用户反馈和持续采用证据。
+    evidence_ids:
+    - ev-f073268114205cf3
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-9957ae74ab482297
+  - gate: truth
+    status: insufficient
+    reason: 功能明确，但交付稳定性和安全边界缺乏可复现的公开证据。
+    evidence_ids:
+    - ev-9957ae74ab482297
+  next_validation: 追踪dshmarket.com网站和GitHub仓库的issue，确认用户实际使用场景和替代的旧流程。
+  market: ''
+  job: DeepSeek Harness用户需要在插件市场中浏览、搜索并一键安装附加能力。
+  job_en: DeepSeek Harness users need to browse, search, and one-click install extra abilities in a plugin
+    market.
+  pain: 用户需要到处寻找插件，安装繁琐；公开材料未说明不解决的具体代价、频率或后果。
+  pain_en: Users need to hunt for plugins and installation is cumbersome; public materials do not detail
+    the cost, frequency, or consequences.
+  current_alternative: 用户可能手动下载和安装插件，或使用其他市场；公开材料未明确说明替代方式。
+  current_alternative_en: Users may manually download and install plugins, or use other markets; public
+    materials do not specify the alternative.
+  usage_reason: 仓库有2,929星，表明开发者关注；但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 2,929 stars, indicating developer interest; repeat use and payment
+    are not yet verified.

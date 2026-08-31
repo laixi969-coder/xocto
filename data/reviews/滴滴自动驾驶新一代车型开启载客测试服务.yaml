@@ -1,0 +1,77 @@
+- id: req-initial-滴滴自动驾驶新一代车型开启载客测试服务-2026-09-01
+  project_slug: 滴滴自动驾驶新一代车型开启载客测试服务
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决出行需求，替代人工驾驶，痛点明确，交付为安全载客服务。
+    evidence_ids:
+    - ev-f05999076004dc6a
+  - gate: consensus
+    status: insufficient
+    reason: 测试阶段，缺乏用户反馈和规模数据。
+    evidence_ids:
+    - ev-f05999076004dc6a
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能按里程或订阅收费，但未证实。
+    evidence_ids:
+    - ev-f05999076004dc6a
+  - gate: truth
+    status: insufficient
+    reason: 技术安全性和可靠性需更多测试数据验证。
+    evidence_ids:
+    - ev-f05999076004dc6a
+  next_validation: 关注滴滴自动驾驶官方公告，获取测试城市、车辆数量、安全记录等数据。
+  market: ''
+  job: 乘客需要安全、便捷的出行服务，自动驾驶出租车旨在替代人工驾驶。
+  job_en: Passengers need safe and convenient mobility; autonomous taxis aim to replace human drivers.
+  pain: 人工驾驶成本高、疲劳驾驶风险，自动驾驶可降低运营成本并提高安全性。
+  pain_en: Human driving is costly and prone to fatigue; autonomous driving can reduce operational costs
+    and improve safety.
+  current_alternative: 当前替代是传统网约车和出租车。
+  current_alternative_en: Current alternatives are traditional ride-hailing and taxis.
+  usage_reason: 测试阶段，用户可能因新奇或便利性尝试，但大规模采用尚未验证。
+  usage_reason_en: In testing phase, users may try due to novelty or convenience, but mass adoption is
+    unverified.
+- id: req-full-滴滴自动驾驶新一代车型开启载客测试服务-2026-09-01
+  project_slug: 滴滴自动驾驶新一代车型开启载客测试服务
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决出行需求，替代人工驾驶，痛点明确，交付为安全载客服务。
+    evidence_ids:
+    - ev-f05999076004dc6a
+  - gate: consensus
+    status: insufficient
+    reason: 它试图帮助用户完成：“滴滴自动驾驶新一代Robotaxi R2开启无人载客测试，具体运营城市、服务范围、车辆数量等细节未披露”。公开材料尚未给出持续部署、复购或独立用户评价。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能按里程或订阅收费，但未证实。
+    evidence_ids:
+    - ev-f05999076004dc6a
+  - gate: truth
+    status: insufficient
+    reason: 技术安全性和可靠性需更多测试数据验证。
+    evidence_ids:
+    - ev-f05999076004dc6a
+  next_validation: 追踪 滴滴自动驾驶 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 乘客需要安全、便捷的出行服务，自动驾驶出租车旨在替代人工驾驶。
+  job_en: Passengers need safe and convenient mobility; autonomous taxis aim to replace human drivers.
+  pain: 人工驾驶成本高、疲劳驾驶风险，自动驾驶可降低运营成本并提高安全性。
+  pain_en: Human driving is costly and prone to fatigue; autonomous driving can reduce operational costs
+    and improve safety.
+  current_alternative: 当前替代是传统网约车和出租车。
+  current_alternative_en: Current alternatives are traditional ride-hailing and taxis.
+  usage_reason: 测试阶段，用户可能因新奇或便利性尝试，但大规模采用尚未验证。
+  usage_reason_en: In testing phase, users may try due to novelty or convenience, but mass adoption is
+    unverified.

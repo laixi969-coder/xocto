@@ -1,0 +1,72 @@
+- id: req-initial-serverbox-2026-09-01
+  project_slug: serverbox
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称其为 SSH 管理工具，未说明具体功能或用户痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-32907d602757b5e6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注项目官网是否补充功能列表、定价和用户案例。
+  market: ''
+  job: 系统管理员需要通过 SSH 管理 Linux 服务器。
+  job_en: System administrators need to manage Linux servers over SSH.
+  pain: 现有 SSH 工具多为命令行，学习曲线陡峭，图形化工具不足。
+  pain_en: Existing SSH tools are mostly command-line with a steep learning curve; graphical tools are
+    lacking.
+  current_alternative: 目前管理员使用终端、PuTTY 或商业工具如 Termius。
+  current_alternative_en: Currently, admins use terminals, PuTTY, or commercial tools like Termius.
+  usage_reason: 尚未核验，但 HN 上有 45 分和 43 条评论，表明开发者社区有一定关注。
+  usage_reason_en: Not yet verified, but 45 points and 43 comments on HN indicate some developer community
+    interest.
+- id: req-full-serverbox-2026-09-01
+  project_slug: serverbox
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅称其为 SSH 管理工具，未说明具体功能或用户痛点，无法判断需求强度。
+    evidence_ids:
+    - ev-32907d602757b5e6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目官网是否补充功能列表、定价和用户案例。
+  market: ''
+  job: 系统管理员需要通过 SSH 管理 Linux 服务器。
+  job_en: System administrators need to manage Linux servers over SSH.
+  pain: 现有 SSH 工具多为命令行，学习曲线陡峭，图形化工具不足。
+  pain_en: Existing SSH tools are mostly command-line with a steep learning curve; graphical tools are
+    lacking.
+  current_alternative: 目前管理员使用终端、PuTTY 或商业工具如 Termius。
+  current_alternative_en: Currently, admins use terminals, PuTTY, or commercial tools like Termius.
+  usage_reason: 尚未核验，但 HN 上有 45 分和 43 条评论，表明开发者社区有一定关注。
+  usage_reason_en: Not yet verified, but 45 points and 43 comments on HN indicate some developer community
+    interest.

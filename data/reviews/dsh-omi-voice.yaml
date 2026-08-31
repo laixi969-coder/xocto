@@ -342,3 +342,41 @@
   usage_reason: 仓库获得 71-75 个星标，表明开发者社区关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 71-75 stars, showing developer attention, but sustained use and
     payment are not yet verified.
+- id: req-full-dsh-omi-voice-2026-09-01
+  project_slug: dsh-omi-voice
+  level: full
+  reviewed_at: '2026-08-31T18:41:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户在多任务时听读 AI 回复的需求，痛点是用眼疲劳和无法同时进行其他活动，交付为可点读、暂停、继续的语音朗读功能，结构上成立。
+    evidence_ids:
+    - ev-b5fa092d579ba305
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库星标从 71 增长到 79，显示社区关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-ff1fad0a344060de
+    - ev-c5508ced06737265
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为语音朗读功能，但音色质量和朗读准确性缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对朗读质量、使用场景的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 在 DeepSeek Harness 中朗读 AI 回复，支持点读、暂停和继续，以便多任务时听读。
+  job_en: Read AI replies aloud in DeepSeek Harness with tap-to-read, pause, and resume for multitasking.
+  pain: 用户在多任务场景下无法方便地阅读长文本回复，需要解放双眼。
+  pain_en: Users cannot easily read long text replies while multitasking, needing to free their eyes.
+  current_alternative: 用户可能使用系统自带的文本转语音功能或手动阅读，但缺乏与 AI 回复的无缝集成。
+  current_alternative_en: Users may use system TTS or read manually, lacking seamless integration with
+    AI replies.
+  usage_reason: 仓库有 71-79 个星标，表明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 71-79 stars, showing developer interest, but sustained use and payment
+    are unverified.

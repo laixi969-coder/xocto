@@ -73,3 +73,40 @@
   current_alternative_en: Manual resume editing, generic templates, or paid career coaching.
   usage_reason: 开源且提供结构化流程，吸引求职者尝试。
   usage_reason_en: Open-source with structured workflow, attracting job seekers.
+- id: req-full-resume-evidence-workflow-2026-09-01
+  project_slug: resume-evidence-workflow
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者简历和面试准备的痛点，交付可确定（简历和面试材料）。工作流结构判断。
+    evidence_ids:
+    - ev-1330af18804de6c4
+  - gate: consensus
+    status: insufficient
+    reason: 项目星数 40，但缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-1330af18804de6c4
+  - gate: model
+    status: insufficient
+    reason: 无定价和付费路径，开源免费，商业模式未明。
+    evidence_ids:
+    - ev-1330af18804de6c4
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“求职者将个人经历输入该工作流，AI 深挖经历细节、匹配 JD 并改写简历，同时生成可辅助面试的经历过程说明；交付的是改写后的简历和面试准备材料”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和用户反馈，验证简历改写质量和面试准备效果。
+  market: ''
+  job: 求职者要基于真实经历撰写简历并准备面试，以提升求职成功率。
+  job_en: Job seekers want to craft resumes based on real experiences and prepare for interviews to improve
+    success.
+  pain: 经历描述平淡、JD 匹配困难、面试准备不足。
+  pain_en: Bland experience descriptions, poor JD matching, and inadequate interview prep.
+  current_alternative: 手动修改简历、使用通用简历模板或付费求职辅导。
+  current_alternative_en: Manual resume editing, generic templates, or paid career coaching.
+  usage_reason: 开源且提供结构化流程，吸引求职者尝试。
+  usage_reason_en: Open-source with structured workflow, attracting job seekers.

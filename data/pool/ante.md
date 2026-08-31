@@ -3,28 +3,33 @@ slug: ante
 name: Ante
 builder: ubermon
 category: AI + 开发
-summary_zh: 一个文件就能用的写代码助手，断网也能在本机改代码、跑测试
-inspiration: 趋势是写代码助手要能离线、免安装，才进得了保密机房。切入做金融、军工、内网研发这类不能联网的团队，先免费圈人；托管是否收费尚未披露。
-summary_en: A coding assistant in a single file that can edit code and run tests on the machine even with
-  no network.
-inspiration_en: The trend is that coding assistants must run offline and install as one file before they
-  are allowed in locked rooms. The entry is finance, defense, and intranet teams that cannot go online.
-  It is free for now; whether hosting will be billed is undisclosed.
+summary_zh: 一个单二进制文件、可离线运行的编码代理。开发者将其作为命令行工具使用，在本地环境中接收代码任务，执行编码操作，无需联网。具体支持的语言、任务类型和交付形式仍待核验。
+inspiration: 趋势是编码代理从云端走向本地，强调隐私和离线能力。切入可从安全敏感行业（如金融、政府）入手，提供本地化部署的编码助手，按席位或项目收费。
+summary_en: A coding agent in a single binary that runs offline. Developers use it as a CLI tool to handle
+  coding tasks locally without internet. Specific language support, task types, and deliverables are yet
+  to be verified.
+inspiration_en: 'Trend: coding agents are moving from cloud to local, emphasizing privacy and offline
+  capability. Entry: target security-sensitive industries like finance and government with on-premise
+  coding assistants, charging per seat or project.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 软件开发者
+jobs_en:
+- Software Developer
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

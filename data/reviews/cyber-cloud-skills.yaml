@@ -189,3 +189,41 @@
   usage_reason: 公开代码仓库有 49 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 49 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-cyber-cloud-skills-2026-09-01
+  project_slug: cyber-cloud-skills
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决云安全测试中覆盖多平台（AWS、Azure、GCP 等）和攻击路径分析的痛点，提供可集成的技能包，交付可确定的测试能力。工作流结构判断：旧流程是手动或分散工具，此方案集中自动化。
+    evidence_ids:
+    - ev-d19675030794d4de
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 50 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-d19675030794d4de
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 安全工程师、渗透测试员需要自动化云安全测试。
+  job_en: Security engineers and penetration testers need automated cloud security testing.
+  pain: 云环境复杂，手动渗透测试耗时且易遗漏，需要自动化工具辅助。
+  pain_en: Cloud environments are complex, manual penetration testing is time-consuming and error-prone,
+    requiring automated assistance.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作，可能手动测试或使用其他工具。
+  current_alternative_en: Public materials do not yet show how users complete this job today; they may
+    test manually or use other tools.
+  usage_reason: 公开代码仓库有 50 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 50 stars, showing developer attention; repeat use and payment
+    are not yet verified.

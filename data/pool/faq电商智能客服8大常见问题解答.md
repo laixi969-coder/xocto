@@ -1,11 +1,11 @@
 ---
 slug: faq电商智能客服8大常见问题解答
-name: FAQ：电商智能客服8大常见问题解答
+name: E-commerce AI customer service
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 电商智能客服的常见问题解答，反映 AI 在客服领域的应用趋势。
 inspiration: ''
-summary_en: ''
+summary_en: FAQ on e-commerce AI customer service, reflecting the trend of AI in customer support.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHMXRPUE9KYzgy
 summary: FAQ：电商智能客服8大常见问题解答 中华网
 first_seen: '2026-08-31T08:42:51Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# FAQ：电商智能客服8大常见问题解答
+# E-commerce AI customer service
 
 FAQ：电商智能客服8大常见问题解答 中华网
 

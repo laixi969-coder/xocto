@@ -1,0 +1,75 @@
+- id: req-initial-hillock-2026-09-01
+  project_slug: hillock
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 项目描述为本地神经符号记忆引擎，但未说明具体用户任务、输入输出和交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-d396a076aafc7628
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量开发者社区讨论，缺乏社区共识或场景验证。
+    evidence_ids:
+    - ev-d396a076aafc7628
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或定价，无法判断付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供交付验证或用户反馈，无法确认产品是否真实可用。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue 和讨论，以及是否有实际应用案例或部署文档。
+  market: ''
+  job: 为 AI 应用提供长期记忆和知识检索能力。
+  job_en: Provide long-term memory and knowledge retrieval for AI applications.
+  pain: 现有 AI 模型缺乏持久记忆，每次对话需重新输入上下文，导致效率低下和体验割裂。
+  pain_en: Current AI models lack persistent memory, requiring re-input of context each conversation,
+    causing inefficiency and fragmented experience.
+  current_alternative: 使用向量数据库或外部记忆插件，但集成复杂且资源占用高。
+  current_alternative_en: Using vector databases or external memory plugins, but integration is complex
+    and resource-intensive.
+  usage_reason: 开发者关注其低资源占用和本地化特性，但尚未核验实际采用和付费情况。
+  usage_reason_en: Developers are interested in its low resource usage and local-first nature, but actual
+    adoption and payment are not yet verified.
+- id: req-full-hillock-2026-09-01
+  project_slug: hillock
+  level: full
+  reviewed_at: '2026-08-31T18:42:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 项目描述为本地神经符号记忆引擎，但未说明具体用户任务、输入输出和交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-d396a076aafc7628
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue 和讨论，以及是否有实际应用案例或部署文档。
+  market: ''
+  job: 为 AI 应用提供长期记忆和知识检索能力。
+  job_en: Provide long-term memory and knowledge retrieval for AI applications.
+  pain: 现有 AI 模型缺乏持久记忆，每次对话需重新输入上下文，导致效率低下和体验割裂。
+  pain_en: Current AI models lack persistent memory, requiring re-input of context each conversation,
+    causing inefficiency and fragmented experience.
+  current_alternative: 使用向量数据库或外部记忆插件，但集成复杂且资源占用高。
+  current_alternative_en: Using vector databases or external memory plugins, but integration is complex
+    and resource-intensive.
+  usage_reason: 开发者关注其低资源占用和本地化特性，但尚未核验实际采用和付费情况。
+  usage_reason_en: Developers are interested in its low resource usage and local-first nature, but actual
+    adoption and payment are not yet verified.

@@ -1,0 +1,80 @@
+- id: req-initial-wrc2026-indemind发布家庭智能体donutbot多多重新定义家庭智能终端-2026-09-01
+  project_slug: wrc2026-indemind发布家庭智能体donutbot多多重新定义家庭智能终端
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭设备控制分散、交互不自然的痛点，通过语音或界面统一控制，交付执行结果。工作流结构判断：旧流程是多个App或遥控器，新流程是单一智能体。
+    evidence_ids:
+    - ev-836592fd156606ae
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，无用户反馈或销售数据，共识未建立。
+    evidence_ids:
+    - ev-836592fd156606ae
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能硬件销售或订阅，但无定价信息。
+    evidence_ids:
+    - ev-836592fd156606ae
+  - gate: truth
+    status: insufficient
+    reason: 产品是否量产、实际性能如何未披露，需验证。
+    evidence_ids:
+    - ev-836592fd156606ae
+  next_validation: 关注INDEMIND官网或后续报道，寻找产品规格、定价或用户评测。
+  market: ''
+  job: 家庭成员需要便捷地控制家居设备、获取信息和娱乐。
+  job_en: Family members need convenient control of home devices, access information, and entertainment.
+  pain: 传统智能家居设备操作繁琐，缺乏统一入口，无法主动理解需求。
+  pain_en: Traditional smart home devices are cumbersome, lack a unified interface, and cannot proactively
+    understand needs.
+  current_alternative: 使用手机App或智能音箱，但功能分散，交互不自然。
+  current_alternative_en: Using mobile apps or smart speakers, but functions are fragmented and interaction
+    is unnatural.
+  usage_reason: 家庭用户对智能家居的便捷性有需求，新品发布引发关注，但采用尚未验证。
+  usage_reason_en: Home users demand convenience in smart homes; new product launch attracts attention,
+    but adoption unverified.
+- id: req-full-wrc2026-indemind发布家庭智能体donutbot多多重新定义家庭智能终端-2026-09-01
+  project_slug: wrc2026-indemind发布家庭智能体donutbot多多重新定义家庭智能终端
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭设备控制分散、交互不自然的痛点，通过语音或界面统一控制，交付执行结果。工作流结构判断：旧流程是多个App或遥控器，新流程是单一智能体。
+    evidence_ids:
+    - ev-836592fd156606ae
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，无用户反馈或销售数据，共识未建立。
+    evidence_ids:
+    - ev-836592fd156606ae
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能硬件销售或订阅，但无定价信息。
+    evidence_ids:
+    - ev-836592fd156606ae
+  - gate: truth
+    status: insufficient
+    reason: 产品是否量产、实际性能如何未披露，需验证。
+    evidence_ids:
+    - ev-836592fd156606ae
+  next_validation: 关注INDEMIND官网或后续报道，寻找产品规格、定价或用户评测。
+  market: ''
+  job: 家庭成员需要便捷地控制家居设备、获取信息和娱乐。
+  job_en: Family members need convenient control of home devices, access information, and entertainment.
+  pain: 传统智能家居设备操作繁琐，缺乏统一入口，无法主动理解需求。
+  pain_en: Traditional smart home devices are cumbersome, lack a unified interface, and cannot proactively
+    understand needs.
+  current_alternative: 使用手机App或智能音箱，但功能分散，交互不自然。
+  current_alternative_en: Using mobile apps or smart speakers, but functions are fragmented and interaction
+    is unnatural.
+  usage_reason: 家庭用户对智能家居的便捷性有需求，新品发布引发关注，但采用尚未验证。
+  usage_reason_en: Home users demand convenience in smart homes; new product launch attracts attention,
+    but adoption unverified.

@@ -196,3 +196,42 @@
   usage_reason: 仓库获得 343 星，表明开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 343 stars, showing developer interest, but sustained use and payment
     are not yet verified.
+- id: req-full-fire-your-seo-agency-2026-09-01
+  project_slug: fire-your-seo-agency
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 优化成本高、流程繁琐的痛点，用 AI 代理自动审计和优化，替代昂贵的代理服务；痛点刚性，交付可确定（优化建议和审计报告）。工作流结构判断。
+    evidence_ids:
+    - ev-9e26382cee40236c
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 379 个星标；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-acede0bc1e9905d9
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: SEO专员、内容营销经理需要审计和优化网站的 SEO、AEO、GEO、LLMO 和 Naver 搜索优化。
+  job_en: SEO specialists and content marketing managers need to audit and optimize SEO, AEO, GEO, LLMO,
+    and Naver search optimization.
+  pain: 传统 SEO 代理服务费用高昂（每月 50-350 万韩元），且优化流程耗时。
+  pain_en: Traditional SEO agency services are expensive (KRW 500,000-3,500,000 per month) and optimization
+    processes are time-consuming.
+  current_alternative: 目前企业通常聘请 SEO 代理或内部手动优化，成本高且效率低。
+  current_alternative_en: Currently companies typically hire SEO agencies or optimize manually in-house,
+    which is costly and inefficient.
+  usage_reason: 公开代码仓库有 379 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 379 stars, showing developer attention; repeat use and payment
+    are not yet verified.

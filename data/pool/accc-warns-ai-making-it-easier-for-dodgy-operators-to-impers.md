@@ -1,11 +1,12 @@
 ---
 slug: accc-warns-ai-making-it-easier-for-dodgy-operators-to-impers
-name: ACCC warns AI making it easier for "dodgy operators" to impersonate real businesses online
+name: ACCC
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 澳大利亚竞争与消费者委员会警告AI使不法分子更容易冒充真实企业，增加网络欺诈风险。
 inspiration: ''
-summary_en: ''
+summary_en: ACCC warns AI makes it easier for dodgy operators to impersonate real businesses, increasing
+  online fraud risk.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxQTU1MR09BR0Vh
 summary: ACCC warns AI making it easier for "dodgy operators" to impersonate real businesses online SmartCompany
 first_seen: '2026-08-31T01:47:48Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# ACCC warns AI making it easier for "dodgy operators" to impersonate real businesses online
+# ACCC
 
 ACCC warns AI making it easier for "dodgy operators" to impersonate real businesses online SmartCompany
 

@@ -1,11 +1,12 @@
 ---
 slug: airpods-5-或将于-9-月发布176-万特斯拉港澳车型降价网抑云登陆鸿蒙系统-极客早知道
-name: AirPods 5 或将于 9 月发布；17.6 万，特斯拉港澳车型降价；「网抑云」登陆鸿蒙系统｜极客早知道
+name: 极客早知道
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 极客早知道汇总了科技新闻，包括SK海力士内存短缺、小米发布、鸿蒙生态、特斯拉降价等。
 inspiration: ''
-summary_en: ''
+summary_en: Geek Park's daily roundup covers tech news including SK Hynix memory shortage, Xiaomi launch,
+  HarmonyOS ecosystem, Tesla price cuts, etc.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -72,7 +73,7 @@ summary: "SK 海力士 CEO：内存短缺或将持续至 2030 年 \n SK 海力�
   \  \n 「犯错是人之常情，但要把事情彻底搞砸，还得靠电脑。」（来源：CnBeta）"
 first_seen: '2026-08-31T08:40:03Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -83,7 +84,7 @@ sightings:
   kind: news
 ---
 
-# AirPods 5 或将于 9 月发布；17.6 万，特斯拉港澳车型降价；「网抑云」登陆鸿蒙系统｜极客早知道
+# 极客早知道
 
 SK 海力士 CEO：内存短缺或将持续至 2030 年 
  SK 海力士预计，当前的内存短缺局面可能会持续到 2030 年底，市场目前尚未出现明显的需求放缓迹象。SK 海力士首席执行官郭鲁勋在公司位于美国印第安纳州的新封装工厂奠基仪式后表示，即使未来市场开始降温，也更可能表现为供应紧张状况逐步缓解，而不是像过去那样出现内存价格突然崩跌的情况。 

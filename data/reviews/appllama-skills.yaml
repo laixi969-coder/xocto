@@ -419,3 +419,42 @@
   usage_reason: 公开代码仓库有 364 个收藏、27 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 364 stars and 27 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-appllama-skills-2026-09-01
+  project_slug: appllama-skills
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决移动开发者将头部应用模式转化为原生屏幕的需求，痛点在于设计耗时且需专业知识；输入需求、AI 生成屏幕，交付可确定，结构上成立。
+    evidence_ids:
+    - ev-9b5b9dfa490b2e58
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 386 个收藏，说明社区关注，但缺乏用户评价或持续采用证据，共识未建立。
+    evidence_ids:
+    - ev-7b83cb9aa10be9b3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费方，可能面向开发者或设计团队，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及设计质量边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 appllama-skills 的 GitHub 仓库 issue 和 discussion，确认是否有用户部署案例或替代旧流程的讨论。
+  market: ''
+  job: 移动开发者或 UI 设计师需要将头部应用的界面模式转化为原生质量的移动端屏幕设计。
+  job_en: Mobile developers or UI designers need to turn top-grossing app patterns into native-quality
+    mobile screens.
+  pain: 设计高质量移动界面耗时且需要专业知识，但公开材料未说明不解决的具体代价或频率。
+  pain_en: Designing high-quality mobile screens is time-consuming and requires expertise, but public
+    materials do not specify the cost or frequency of not solving it.
+  current_alternative: 公开材料未说明用户当前如何设计界面，可能使用设计工具或参考竞品，但尚未核验。
+  current_alternative_en: Public materials do not show how users currently design screens; they may use
+    design tools or reference competitors, but this is unverified.
+  usage_reason: 仓库有 386 个收藏，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 386 stars, showing developer attention, but sustained use and payment
+    are unverified.

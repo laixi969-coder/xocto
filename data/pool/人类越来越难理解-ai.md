@@ -69,7 +69,7 @@ summary: "作者｜Techno 之王  \n  编辑｜靖宇  \n 很多使用 AI 的同
   \ \n 但我还是对着空气鞠了一躬。 \n  *头图来源：Film Prometheus  \n  本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-31T07:12:16Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

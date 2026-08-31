@@ -304,3 +304,42 @@
   usage_reason: 仓库获得 367 星，表明开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 367 stars, showing developer interest, but sustained use and payment
     are not yet verified.
+- id: req-full-getopen-2026-09-01
+  project_slug: getopen
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决独立站卖家无法将流量归因到收入、查询数据繁琐的痛点，提供收入归因和自然语言查询；痛点真实，交付可确定（分析报告和查询结果）。工作流结构判断。
+    evidence_ids:
+    - ev-c716da977f018a6d
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 371 个星标；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-ebc95eacefe81a32
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 独立站卖家需要查看哪个页面带来付费订单，并能用自然语言询问昨天的数据。
+  job_en: Independent sellers need to see which page brought a paid order, and can ask in natural language
+    what happened yesterday.
+  pain: 传统分析工具难以将流量归因到具体收入，且查询数据需要复杂的报表操作。
+  pain_en: Traditional analytics tools struggle to attribute traffic to specific revenue, and querying
+    data requires complex report operations.
+  current_alternative: 目前可能使用 Plausible 等隐私友好的分析工具，但缺乏收入归因和自然语言查询功能。
+  current_alternative_en: Currently may use privacy-friendly analytics tools like Plausible, but lack
+    revenue attribution and natural language querying.
+  usage_reason: 公开代码仓库有 371 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 371 stars, showing developer attention; repeat use and payment
+    are not yet verified.

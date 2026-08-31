@@ -1,11 +1,12 @@
 ---
 slug: anthropic-unveils-mhs-hardware-connectivity-standard-competi
-name: Anthropic Unveils MHS Hardware Connectivity Standard, Competing with OpenAI for AI Hardware Influence
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 发布 MHS 硬件连接标准，与 OpenAI 在 AI 硬件影响力上展开竞争。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic unveils the MHS hardware connectivity standard, competing with OpenAI for influence
+  in AI hardware.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Anthropic Unveils MHS Hardware Connectivity Standard, Competing with Op
   finance.biggo.com
 first_seen: '2026-08-31T10:25:00Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic Unveils MHS Hardware Connectivity Standard, Competing with OpenAI for AI Hardware Influence
+# Anthropic
 
 Anthropic Unveils MHS Hardware Connectivity Standard, Competing with OpenAI for AI Hardware Influence finance.biggo.com
 

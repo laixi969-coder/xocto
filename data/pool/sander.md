@@ -21,7 +21,7 @@ canonical_url: https://sander.ai/2026/08/24/continuous-dlms.html
 summary: Continuous Diffusion Language Models (CDLM's)
 first_seen: '2026-08-30T20:46:53Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

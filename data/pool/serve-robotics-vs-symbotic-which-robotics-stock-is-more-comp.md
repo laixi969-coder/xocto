@@ -1,11 +1,12 @@
 ---
 slug: serve-robotics-vs-symbotic-which-robotics-stock-is-more-comp
-name: 'Serve Robotics vs. Symbotic: Which Robotics Stock Is More Compelling?'
+name: Serve Robotics vs Symbotic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章比较 Serve Robotics 和 Symbotic 两只机器人股票，反映投资者对机器人公司的兴趣。
 inspiration: ''
-summary_en: ''
+summary_en: The article compares Serve Robotics and Symbotic stocks, reflecting investor interest in robotics
+  companies.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwFBVV95cUxOVXdXWElqcmpN
 summary: 'Serve Robotics vs. Symbotic: Which Robotics Stock Is More Compelling? TradingView'
 first_seen: '2026-08-31T14:55:00Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Serve Robotics vs. Symbotic: Which Robotics Stock Is More Compelling?
+# Serve Robotics vs Symbotic
 
 Serve Robotics vs. Symbotic: Which Robotics Stock Is More Compelling? TradingView
 

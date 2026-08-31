@@ -1,0 +1,76 @@
+- id: req-initial-豆包工作上线ai巨头狂卷办公场景独立客户端成标配-2026-09-01
+  project_slug: 豆包工作上线ai巨头狂卷办公场景独立客户端成标配
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公场景中信息分散、操作繁琐的痛点，AI可自动处理文档、生成纪要，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及上线，缺乏用户反馈、使用数据或场景验证。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确，可能是免费策略。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  - gate: truth
+    status: insufficient
+    reason: 产品刚上线，交付能力未经大规模验证，需观察实际效果。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  next_validation: 关注豆包工作官方页面或应用商店，获取功能列表、定价及用户评价。
+  market: ''
+  job: 办公人员需要处理文档、会议、日程等日常办公任务。
+  job_en: Office workers need to handle daily tasks like documents, meetings, and schedules.
+  pain: 传统办公软件操作繁琐，信息分散，效率低下。
+  pain_en: Traditional office software is cumbersome, fragmented, and inefficient.
+  current_alternative: 目前使用传统办公套件如Microsoft Office、Google Workspace等。
+  current_alternative_en: Currently using traditional office suites like Microsoft Office, Google Workspace.
+  usage_reason: AI集成可简化操作，提供智能辅助，但具体采用情况尚未核验。
+  usage_reason_en: AI integration can simplify operations and provide intelligent assistance, but specific
+    adoption is not yet verified.
+- id: req-full-豆包工作上线ai巨头狂卷办公场景独立客户端成标配-2026-09-01
+  project_slug: 豆包工作上线ai巨头狂卷办公场景独立客户端成标配
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公场景中信息分散、操作繁琐的痛点，AI可自动处理文档、生成纪要，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及上线，缺乏用户反馈、使用数据或场景验证。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确，可能是免费策略。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  - gate: truth
+    status: insufficient
+    reason: 产品刚上线，交付能力未经大规模验证，需观察实际效果。
+    evidence_ids:
+    - ev-8b3577d841ad4755
+  next_validation: 关注豆包工作官方页面或应用商店，获取功能列表、定价及用户评价。
+  market: ''
+  job: 办公人员需要处理文档、会议、日程等日常办公任务。
+  job_en: Office workers need to handle daily tasks like documents, meetings, and schedules.
+  pain: 传统办公软件操作繁琐，信息分散，效率低下。
+  pain_en: Traditional office software is cumbersome, fragmented, and inefficient.
+  current_alternative: 目前使用传统办公套件如Microsoft Office、Google Workspace等。
+  current_alternative_en: Currently using traditional office suites like Microsoft Office, Google Workspace.
+  usage_reason: AI集成可简化操作，提供智能辅助，但具体采用情况尚未核验。
+  usage_reason_en: AI integration can simplify operations and provide intelligent assistance, but specific
+    adoption is not yet verified.

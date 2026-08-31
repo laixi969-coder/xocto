@@ -267,3 +267,41 @@
   usage_reason: 公开代码仓库有 82 个收藏、11 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 82 stars and 11 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-swissdevjobs-cli-2026-09-01
+  project_slug: swissdevjobs-cli
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者高效搜索薪资透明职位的需求，痛点在于信息分散和筛选耗时，交付为职位列表和申请功能，结构上成立。
+    evidence_ids:
+    - ev-2841d4d2b2a865f5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标较少，缺乏用户反馈或采用证据，共识未验证。
+    evidence_ids:
+    - ev-d37ed529ef846487
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 职位数据的准确性和申请功能的可靠性未验证。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际使用场景和职位数据质量。
+  market: ''
+  job: 在终端或 AI 代理中搜索并申请约 4700 个薪资透明的技术职位。
+  job_en: Search and apply to ~4,700 salary-transparent tech jobs from the terminal or AI agent.
+  pain: 求职者需要高效筛选薪资透明的职位，传统方式需访问多个网站，效率低。
+  pain_en: Job seekers need to efficiently filter salary-transparent positions; traditional methods require
+    visiting multiple sites, which is inefficient.
+  current_alternative: 使用招聘网站如 LinkedIn、Indeed 或手动搜索，耗时且信息分散。
+  current_alternative_en: Using job boards like LinkedIn, Indeed, or manual search, which is time-consuming
+    and fragmented.
+  usage_reason: 开源仓库获得 88 星，显示开发者对终端求职工具的兴趣，但持续使用和付费未核验。
+  usage_reason_en: The open-source repository has 88 stars, showing developer interest in terminal job
+    search tools, but sustained use and payment are not verified.

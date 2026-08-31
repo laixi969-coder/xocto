@@ -157,3 +157,43 @@
   usage_reason: 开源仓库获得 148 星和 45 fork，显示开发者社区关注；但实际采用和付费尚未核验。
   usage_reason_en: The open-source repository has 148 stars and 45 forks, showing developer community
     interest; actual adoption and payment not yet verified.
+- id: req-full-tonghuasun-agent-2026-09-01
+  project_slug: tonghuasun-agent
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决投资者获取实时行情数据并集成到 AI 代理中的需求，痛点明确：手动查询效率低，替代方式是官方 API 或手动复制，工作流结构判断成立。
+    evidence_ids:
+    - ev-d260e7a27ba72b75
+  - gate: consensus
+    status: supported
+    reason: 开源仓库 148 星和 45 fork 表明开发者社区关注，但缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-d4ff7c92d8362ee4
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露；可能通过捐赠或企业支持，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目提供明确的数据查询功能，交付可确定；但需注意数据合规和安全性。
+    evidence_ids:
+    - ev-d260e7a27ba72b75
+  next_validation: 关注代码仓库的 issue 和讨论，看用户是否报告实际使用场景；以及是否有企业采用或商业合作公告。
+  market: ''
+  job: 个人投资者和量化交易员需要实时获取同花顺的行情和交易数据，以便进行投资决策。
+  job_en: Individual investors and quantitative traders need real-time access to Tonghuashun market and
+    trading data for investment decisions.
+  pain: 传统方式需要手动打开同花顺客户端或编写复杂 API 调用，效率低且难以与 AI 代理集成。
+  pain_en: Traditional methods require manually opening the Tonghuashun client or writing complex API
+    calls, which is inefficient and hard to integrate with AI agents.
+  current_alternative: 用户可能使用同花顺官方 API、第三方数据服务或手动复制数据，但这些方式要么成本高、要么不便于 AI 代理使用。
+  current_alternative_en: Users may use Tonghuashun official API, third-party data services, or manual
+    copy-paste, but these are either costly or not convenient for AI agents.
+  usage_reason: 开源仓库获得 148 星和 45 fork，显示开发者社区关注；但实际采用和付费尚未核验。
+  usage_reason_en: The open-source repository has 148 stars and 45 forks, showing developer community
+    interest; actual adoption and payment not yet verified.

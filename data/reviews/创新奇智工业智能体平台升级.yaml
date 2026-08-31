@@ -1,0 +1,72 @@
+- id: req-initial-创新奇智工业智能体平台升级-2026-09-01
+  project_slug: 创新奇智工业智能体平台升级
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决制造企业生产管理痛点，有明确任务和交付（智能体平台），工作流结构判断需求成立。
+    evidence_ids:
+    - ev-80eb6635bd61bb51
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或行业反馈证据。
+    evidence_ids:
+    - ev-80eb6635bd61bb51
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式。
+    evidence_ids:
+    - ev-80eb6635bd61bb51
+  - gate: truth
+    status: insufficient
+    reason: 升级内容未披露，无法验证交付确定性。
+    evidence_ids:
+    - ev-80eb6635bd61bb51
+  next_validation: 关注创新奇智官方公告或产品文档，获取升级详情和客户案例。
+  market: ''
+  job: 制造企业需要部署工业智能体以优化生产流程。
+  job_en: Manufacturing enterprises need to deploy industrial agents to optimize production processes.
+  pain: 传统生产管理依赖人工经验，效率低、响应慢。
+  pain_en: Traditional production management relies on manual experience, inefficient and slow.
+  current_alternative: 使用传统MES或人工管理。
+  current_alternative_en: Using traditional MES or manual management.
+  usage_reason: 平台升级表明持续投入，但具体采用和付费未核验。
+  usage_reason_en: Platform upgrade indicates ongoing investment, but adoption and payment are unverified.
+- id: req-full-创新奇智工业智能体平台升级-2026-09-01
+  project_slug: 创新奇智工业智能体平台升级
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决制造企业生产管理痛点，有明确任务和交付（智能体平台），工作流结构判断需求成立。
+    evidence_ids:
+    - ev-80eb6635bd61bb51
+  - gate: consensus
+    status: insufficient
+    reason: 它试图帮助用户完成：“创新奇智工业智能体平台升级，面向制造业提供智能体开发和部署。具体升级内容和新增功能未披露，需进一步验证”。公开材料尚未给出持续部署、复购或独立用户评价。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“创新奇智工业智能体平台升级，面向制造业提供智能体开发和部署。具体升级内容和新增功能未披露，需进一步验证”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 升级内容未披露，无法验证交付确定性。
+    evidence_ids:
+    - ev-80eb6635bd61bb51
+  next_validation: 关注创新奇智官方公告或产品文档，获取升级详情和客户案例。
+  market: ''
+  job: 制造企业需要部署工业智能体以优化生产流程。
+  job_en: Manufacturing enterprises need to deploy industrial agents to optimize production processes.
+  pain: 传统生产管理依赖人工经验，效率低、响应慢。
+  pain_en: Traditional production management relies on manual experience, inefficient and slow.
+  current_alternative: 使用传统MES或人工管理。
+  current_alternative_en: Using traditional MES or manual management.
+  usage_reason: 平台升级表明持续投入，但具体采用和付费未核验。
+  usage_reason_en: Platform upgrade indicates ongoing investment, but adoption and payment are unverified.

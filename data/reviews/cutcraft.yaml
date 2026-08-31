@@ -1,0 +1,78 @@
+- id: req-initial-cutcraft-2026-09-01
+  project_slug: cutcraft
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑中素材筛选和粗剪的耗时痛点，输入素材和创意方向，输出成片，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-7d6d6059a04e53bc
+  - gate: consensus
+    status: insufficient
+    reason: 49 星显示初步关注，但无用户讨论或采用证据，共识未形成。
+    evidence_ids:
+    - ev-7d6d6059a04e53bc
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能无直接收入，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供成片质量验证或用户案例，交付确定性无法核验。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户分享成片案例。
+  market: ''
+  job: 视频剪辑师需要将大量原始素材快速剪辑成符合创意要求的成片。
+  job_en: Video editors need to quickly edit large amounts of raw footage into a final film that meets
+    creative requirements.
+  pain: 传统剪辑耗时费力，尤其是素材筛选和粗剪阶段，人工成本高。
+  pain_en: Traditional editing is time-consuming and labor-intensive, especially in footage selection
+    and rough cut, with high labor costs.
+  current_alternative: 目前剪辑师使用专业软件如 Premiere Pro 手动剪辑，或使用简单的 AI 工具辅助，但无法全自动完成。
+  current_alternative_en: Currently editors use professional software like Premiere Pro for manual editing,
+    or simple AI tools for assistance, but cannot fully automate the process.
+  usage_reason: 开源项目在代码托管平台获得 49 星，表明有一定关注，但尚无采用或付费证据。
+  usage_reason_en: The open-source project has gained 49 stars on a code hosting platform, indicating
+    some attention, but no adoption or payment evidence yet.
+- id: req-full-cutcraft-2026-09-01
+  project_slug: cutcraft
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑中素材筛选和粗剪的耗时痛点，输入素材和创意方向，输出成片，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-7d6d6059a04e53bc
+  - gate: consensus
+    status: insufficient
+    reason: 49 星显示初步关注，但无用户讨论或采用证据，共识未形成。
+    evidence_ids:
+    - ev-7d6d6059a04e53bc
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目可能无直接收入，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供成片质量验证或用户案例，交付确定性无法核验。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 issue 和 discussion，以及是否有用户分享成片案例。
+  market: ''
+  job: 视频剪辑师需要将大量原始素材快速剪辑成符合创意要求的成片。
+  job_en: Video editors need to quickly edit large amounts of raw footage into a final film that meets
+    creative requirements.
+  pain: 传统剪辑耗时费力，尤其是素材筛选和粗剪阶段，人工成本高。
+  pain_en: Traditional editing is time-consuming and labor-intensive, especially in footage selection
+    and rough cut, with high labor costs.
+  current_alternative: 目前剪辑师使用专业软件如 Premiere Pro 手动剪辑，或使用简单的 AI 工具辅助，但无法全自动完成。
+  current_alternative_en: Currently editors use professional software like Premiere Pro for manual editing,
+    or simple AI tools for assistance, but cannot fully automate the process.
+  usage_reason: 开源项目在代码托管平台获得 49 星，表明有一定关注，但尚无采用或付费证据。
+  usage_reason_en: The open-source project has gained 49 stars on a code hosting platform, indicating
+    some attention, but no adoption or payment evidence yet.

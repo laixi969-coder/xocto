@@ -194,3 +194,43 @@
   usage_reason: 公开代码仓库有 389 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 389 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-livestream-agent-studio-2026-09-01
+  project_slug: livestream-agent-studio
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决直播运营和内容编导在直播电商中的统一工作流需求，痛点是需要整合主播发现、洞察、复盘和编导，交付可确定（统一智能工作流）。工作流结构推理：输入直播数据或视频内容，自动分析并提供优化建议。
+    evidence_ids:
+    - ev-99f9659b09148fd0
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 480 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-1a18f61e19a3388d
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 LiveStream-Agent-Studio 的 GitHub 仓库 issue 和 discussion，确认是否有直播运营或内容编导实际部署并替代了旧流程。
+  market: ''
+  job: 直播运营、内容编导需要高效管理直播电商流程，包括主播发现、直播洞察、复盘和短视频内容编导。
+  job_en: Live stream operators and content directors need to efficiently manage live commerce workflows,
+    including host discovery, live insights, review, and short video content direction.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；但直播电商流程复杂，涉及多个环节，现有工具可能分散或缺乏整合。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of not solving it; but
+    live commerce workflows are complex, involving multiple stages, and existing tools may be fragmented
+    or lack integration.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；可能使用多个独立工具或手动流程。
+  current_alternative_en: Public materials do not show how users complete this job today; they may use
+    multiple separate tools or manual processes.
+  usage_reason: 公开代码仓库有 480 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 480 stars, showing developer attention; repeat use and payment
+    are not yet verified.

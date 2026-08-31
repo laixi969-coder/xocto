@@ -118,3 +118,44 @@
   usage_reason: 开源社区391星显示开发者社区关注，但尚未核验实际采用和付费情况。
   usage_reason_en: 391 stars in the open-source community show interest from the developer community,
     but actual adoption and payment are not yet verified.
+- id: req-full-codex-with-chatgpt-2026-09-01
+  project_slug: codex-with-chatgpt
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码中缺乏规划导致的质量问题，通过 ChatGPT 规划、Codex 执行的分工，交付更可控的编码流程。工作流结构判断：旧流程是手动规划或单一 AI 生成，此方案提供更优的协作模式。
+    evidence_ids:
+    - ev-4c21f37db3a4718a
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星数从 391 增长到 1,773，显示关注，但缺乏用户评价或采用案例。
+    evidence_ids:
+    - ev-4c21f37db3a4718a
+    - ev-78a7d329d5cd1fe7
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能作为开源工具免费使用，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近编码任务的第一性目标，交付的流程可验证，但依赖外部模型，存在稳定性风险。
+    evidence_ids:
+    - ev-4c21f37db3a4718a
+  next_validation: 关注开源仓库的 issue 和 discussion，以及是否有开发者分享实际使用体验。
+  market: ''
+  job: 软件工程师在使用 AI 编码工具时，需要更好的规划和控制，以避免代码质量问题和返工。
+  job_en: Software engineers using AI coding tools need better planning and control to avoid code quality
+    issues and rework.
+  pain: 单一 AI 模型直接生成代码往往缺乏全局规划，导致错误和返工。
+  pain_en: A single AI model generating code directly often lacks global planning, leading to errors and
+    rework.
+  current_alternative: 目前开发者可能手动规划或使用单一 AI 工具，缺乏系统化的规划-执行分离。
+  current_alternative_en: Developers may manually plan or use a single AI tool, lacking a systematic separation
+    of planning and execution.
+  usage_reason: 开源社区星数从 391 增长到 1,773，显示开发者社区关注，但尚未核验实际采用和付费情况。
+  usage_reason_en: Stars grew from 391 to 1,773, showing developer interest, but actual adoption and payment
+    are not yet verified.

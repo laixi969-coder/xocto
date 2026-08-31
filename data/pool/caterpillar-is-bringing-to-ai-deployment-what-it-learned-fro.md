@@ -1,11 +1,12 @@
 ---
 slug: caterpillar-is-bringing-to-ai-deployment-what-it-learned-fro
-name: Caterpillar is bringing to AI deployment what it learned from automating mining
+name: Caterpillar
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是行业动态，不是独立产品。Caterpillar 将自动化采矿经验用于 AI 部署，表明工业巨头正将既有自动化能力迁移至 AI 领域。
 inspiration: ''
-summary_en: ''
+summary_en: This is an industry trend, not an independent product. Caterpillar applies autonomous mining
+  experience to AI deployment, showing industrial giants migrating automation capabilities to AI.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Caterpillar has spent decades putting autonomous machines to work at re
   now bringing that experience to AI deployment.
 first_seen: '2026-08-30T15:00:00Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch
@@ -39,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# Caterpillar is bringing to AI deployment what it learned from automating mining
+# Caterpillar
 
 Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.
 

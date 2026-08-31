@@ -415,3 +415,40 @@
   usage_reason: 公开代码仓库有 1,579 个收藏、158 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,579 stars and 158 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-x64dbg-mcp-server-2026-09-01
+  project_slug: x64dbg-mcp-server
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向工程中调试器操作繁琐、AI 无法集成的痛点，通过 MCP 协议让 AI 控制调试器，交付可确定的调试控制能力。工作流结构推理。
+    evidence_ids:
+    - ev-8f513671a69b37e1
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 1672 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-8f513671a69b37e1
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 逆向工程师需要控制 x64dbg 调试器进行代码分析。
+  job_en: Reverse engineers need to control the x64dbg debugger for code analysis.
+  pain: 手动操作调试器繁琐，AI 助手无法直接集成，降低分析效率。
+  pain_en: Manual debugger operation is tedious, and AI assistants cannot directly integrate, reducing
+    analysis efficiency.
+  current_alternative: 逆向工程师可能手动操作 x64dbg 或使用脚本，但缺乏 AI 辅助。
+  current_alternative_en: Reverse engineers may manually operate x64dbg or use scripts, but lack AI assistance.
+  usage_reason: 开源项目获得 1672 星，表明开发者社区强烈关注，但实际采用和用户反馈未核验。
+  usage_reason_en: The open-source project has 1672 stars, indicating strong developer community interest,
+    but actual adoption and user feedback are unverified.

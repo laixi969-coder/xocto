@@ -196,3 +196,44 @@
   usage_reason: 公开代码仓库有51个收藏，说明开发者关注或试用，但持续使用和付费尚未核验。
   usage_reason_en: The public repository has 51 stars, indicating developer attention or trial, but sustained
     use and payment are not yet verified.
+- id: req-full-deepseek-v4-flash-vision-video-rag-2026-09-01
+  project_slug: deepseek-v4-flash-vision-video-rag
+  level: full
+  reviewed_at: '2026-08-31T18:40:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频内容分析师从长视频中快速定位信息的需求，痛点在于手动观看耗时易漏；交付为带时间戳的答案和可播放片段，可确定发生。
+    evidence_ids:
+    - ev-158f6f58dd532930
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有59星，说明社区关注，但缺乏用户反馈和持续采用证据。
+    evidence_ids:
+    - ev-9618c695eb86b6a8
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确付费主体或定价，商业模式未核验。
+    evidence_ids:
+    - ev-158f6f58dd532930
+  - gate: truth
+    status: insufficient
+    reason: 功能明确，但交付稳定性和安全边界缺乏可复现的公开证据。
+    evidence_ids:
+    - ev-158f6f58dd532930
+  next_validation: 追踪skillhub.cn上的项目文档和用户评价，确认实际使用场景和替代的旧流程。
+  market: ''
+  job: 视频内容分析师需要从长视频中快速定位并提取特定信息，并核对答案的准确性。
+  job_en: Video content analysts need to quickly locate and extract specific information from long videos,
+    and verify answer accuracy.
+  pain: 手动观看视频查找信息耗时且容易遗漏；公开材料未说明不解决的具体代价、频率或后果。
+  pain_en: Manually watching videos to find information is time-consuming and prone to missing details;
+    public materials do not detail the cost, frequency, or consequences.
+  current_alternative: 用户可能手动观看视频或使用其他视频分析工具；公开材料未明确说明替代方式。
+  current_alternative_en: Users may manually watch videos or use other video analysis tools; public materials
+    do not specify the alternative.
+  usage_reason: 仓库有59星，表明开发者关注；但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 59 stars, indicating developer interest; repeat use and payment
+    are not yet verified.

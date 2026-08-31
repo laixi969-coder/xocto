@@ -417,3 +417,42 @@
   usage_reason: 仓库获得283星，显示开发者关注，但实际采用和付费未核验。
   usage_reason_en: The repository has 283 stars, showing developer interest, but actual adoption and payment
     are not verified.
+- id: req-full-benjamin-plus-skill-2026-09-01
+  project_slug: benjamin-plus-skill
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理 token 成本高、质量需保持的痛点：官方宣称降低 17.9% 成本且质量不变，交付可确定（注入技能即可生效）。工作流结构推理：编码代理用户有明确的成本敏感场景，旧替代是手动优化提示词或换模型，效率低。
+    evidence_ids:
+    - ev-d6e05d1affbccb41
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 283 增至 298，显示社区关注，但无用户评价或采用证据，共识未形成。
+    evidence_ids:
+    - ev-b470a94198a20d64
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能是开源免费，付费方不明；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 官方宣称的成本降低和质量不变缺乏可复现的公开基准，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 追踪 JetBrains 官方仓库的 issue 和 discussion，寻找用户部署案例和成本数据。
+  market: ''
+  job: 软件工程师和 AI 编码代理用户需要降低编码代理的 token 消耗，同时保持输出质量。
+  job_en: Software engineers and AI coding agent users need to reduce token consumption of coding agents
+    while maintaining output quality.
+  pain: 编码代理的高 token 成本增加使用费用，尤其在大量代码生成场景下，成本压力明显。
+  pain_en: High token costs of coding agents increase usage expenses, especially in large-scale code generation
+    scenarios, creating significant cost pressure.
+  current_alternative: 目前用户可能通过优化提示词、选择更便宜的模型或减少使用频率来控制成本，但缺乏系统性方案。
+  current_alternative_en: Currently users may control costs by optimizing prompts, choosing cheaper models,
+    or reducing usage frequency, but lack a systematic solution.
+  usage_reason: JetBrains 官方发布，仓库星标从 283 增长到 298，显示开发者关注；但持续使用和付费尚未核验。
+  usage_reason_en: Officially released by JetBrains, repository stars grew from 283 to 298, showing developer
+    attention; repeat use and payment not yet verified.

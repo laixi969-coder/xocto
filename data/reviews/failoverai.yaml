@@ -188,3 +188,42 @@
   usage_reason: 仓库获得 64-76 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 64-76 stars, showing developer attention, but sustained use and
     payment are not yet verified.
+- id: req-full-failoverai-2026-09-01
+  project_slug: failoverai
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 任务执行中因服务故障导致失败、需要手动重试的痛点，通过调度和故障转移确保任务完成；痛点刚性，交付可确定（任务完成）。工作流结构判断。
+    evidence_ids:
+    - ev-6e1ca69973ef2fb2
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 73 个星标；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-1337d5afc43283ec
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 软件工程师、AI 工程师需要可靠地执行图片、视频和 LLM 任务，确保任务完成。
+  job_en: Software engineers and AI engineers need to reliably execute image, video, and LLM jobs, ensuring
+    task completion.
+  pain: AI 任务可能因模型或服务故障而失败，需要手动重试或编写复杂的故障转移逻辑。
+  pain_en: AI jobs may fail due to model or service outages, requiring manual retries or complex failover
+    logic.
+  current_alternative: 目前可能直接调用模型 API，或自行实现重试和故障转移机制。
+  current_alternative_en: Currently may call model APIs directly or implement custom retry and failover
+    mechanisms.
+  usage_reason: 公开代码仓库有 73 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 73 stars, showing developer attention; repeat use and payment
+    are not yet verified.

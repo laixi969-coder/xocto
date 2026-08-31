@@ -21,7 +21,7 @@ canonical_url: https://github.com/elixir-volt/astral
 summary: Astro.js, but in Elixir
 first_seen: '2026-08-31T12:32:30Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

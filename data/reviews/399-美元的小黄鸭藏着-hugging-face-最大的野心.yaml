@@ -1,0 +1,82 @@
+- id: req-initial-399-美元的小黄鸭藏着-hugging-face-最大的野心-2026-09-01
+  project_slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生和爱好者缺乏低成本实物机器人实验平台的问题，痛点在于高价设备和专业门槛；交付是开箱即用的机器人和可训练的软件栈，价值结构成立。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  - gate: consensus
+    status: supported
+    reason: 前身 Open Duck Mini 在开源社区获 2600+ 星，Reachy Mini 已出货 3000 台，社区关注度高，但持续采用和付费留存尚未核验。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，面向消费者和教育市场，但付费方（个人/学校）和复购模式未明确，商业模式成熟度不足。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  - gate: truth
+    status: supported
+    reason: 产品贴近机器人学习和控制的第一性目标，软件开源可验证，硬件交付确定，但硬件闭源可能限制生态发展。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  next_validation: 关注 Microduck 的预购销量和用户社区活跃度，以及 公开模型社区 官方博客和 Pollen Robotics 的出货数据。
+  market: ''
+  job: 用户想要一个低门槛的实物平台来学习和实验强化学习与 sim-to-real 机器人控制。
+  job_en: Users want a low-barrier physical platform to learn and experiment with reinforcement learning
+    and sim-to-real robot control.
+  pain: 传统机器人研究平台昂贵（如 Reachy 2 约 7 万美元），且需要专业知识和设备，爱好者难以接触。
+  pain_en: Traditional robot research platforms are expensive (e.g., Reachy 2 at ~$70k) and require specialized
+    knowledge and equipment, making them inaccessible to hobbyists.
+  current_alternative: 目前替代方式是使用纯仿真环境（如 MuJoCo）或购买高价研究机器人，前者缺乏实物反馈，后者成本过高。
+  current_alternative_en: Current alternatives are pure simulation environments (e.g., MuJoCo) or expensive
+    research robots; the former lacks physical feedback, the latter is too costly.
+  usage_reason: Microduck 以 399 美元的价格提供可玩、可编程的实物平台，软件开源且社区活跃，降低了入门门槛，吸引教育者和爱好者采用。
+  usage_reason_en: Microduck offers a playable, programmable physical platform at $399 with open-source
+    software and an active community, lowering the entry barrier and attracting educators and hobbyists.
+- id: req-full-399-美元的小黄鸭藏着-hugging-face-最大的野心-2026-09-01
+  project_slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
+  level: full
+  reviewed_at: '2026-08-31T18:37:56Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生和爱好者缺乏低成本实物机器人实验平台的问题，痛点在于高价设备和专业门槛；交付是开箱即用的机器人和可训练的软件栈，价值结构成立。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  - gate: consensus
+    status: supported
+    reason: 前身 Open Duck Mini 在开源社区获 2600+ 星，Reachy Mini 已出货 3000 台，社区关注度高，但持续采用和付费留存尚未核验。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  - gate: model
+    status: insufficient
+    reason: 定价 399 美元，面向消费者和教育市场，但付费方（个人/学校）和复购模式未明确，商业模式成熟度不足。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  - gate: truth
+    status: supported
+    reason: 产品贴近机器人学习和控制的第一性目标，软件开源可验证，硬件交付确定，但硬件闭源可能限制生态发展。
+    evidence_ids:
+    - ev-a1fd4729ac75ffa8
+  next_validation: 关注 Microduck 的预购销量和用户社区活跃度，以及 公开模型社区 官方博客和 Pollen Robotics 的出货数据。
+  market: ''
+  job: 用户想要一个低门槛的实物平台来学习和实验强化学习与 sim-to-real 机器人控制。
+  job_en: Users want a low-barrier physical platform to learn and experiment with reinforcement learning
+    and sim-to-real robot control.
+  pain: 传统机器人研究平台昂贵（如 Reachy 2 约 7 万美元），且需要专业知识和设备，爱好者难以接触。
+  pain_en: Traditional robot research platforms are expensive (e.g., Reachy 2 at ~$70k) and require specialized
+    knowledge and equipment, making them inaccessible to hobbyists.
+  current_alternative: 目前替代方式是使用纯仿真环境（如 MuJoCo）或购买高价研究机器人，前者缺乏实物反馈，后者成本过高。
+  current_alternative_en: Current alternatives are pure simulation environments (e.g., MuJoCo) or expensive
+    research robots; the former lacks physical feedback, the latter is too costly.
+  usage_reason: Microduck 以 399 美元的价格提供可玩、可编程的实物平台，软件开源且社区活跃，降低了入门门槛，吸引教育者和爱好者采用。
+  usage_reason_en: Microduck offers a playable, programmable physical platform at $399 with open-source
+    software and an active community, lowering the entry barrier and attracting educators and hobbyists.

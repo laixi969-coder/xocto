@@ -74,3 +74,40 @@
   usage_reason: 开源项目获得 121 星，说明开发者关注，但尚未验证实际使用和付费。
   usage_reason_en: Open-source project with 121 stars shows developer interest, but actual usage and payment
     are unverified.
+- id: req-full-vibegame-2026-09-01
+  project_slug: vibegame
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决非开发者快速制作游戏的需求，痛点明确，交付为可玩游戏，结构上成立。
+    evidence_ids:
+    - ev-b1a016eb0dc482da
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源社区星标，无用户评价或采用数据，共识未验证。
+    evidence_ids:
+    - ev-b1a016eb0dc482da
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“VibeGame 是一个开源的多智能体框架，用户用自然语言描述游戏想法，AI 生成可玩的 2D 网页游戏，并支持后续编辑”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“VibeGame 是一个开源的多智能体框架，用户用自然语言描述游戏想法，AI 生成可玩的 2D 网页游戏，并支持后续编辑”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有用户分享生成的游戏案例。
+  market: ''
+  job: 用户用自然语言描述游戏想法，快速生成可玩的 2D 网页游戏。
+  job_en: Users describe game ideas in natural language and quickly generate playable 2D web games.
+  pain: 传统游戏开发需要编程和美术技能，周期长，非开发者难以实现。
+  pain_en: Traditional game development requires coding and art skills, is time-consuming, and hard for
+    non-developers.
+  current_alternative: 使用游戏引擎（如 Unity）或外包开发，成本高。
+  current_alternative_en: Using game engines like Unity or outsourcing, which is costly.
+  usage_reason: 开源项目获得 121 星，说明开发者关注，但尚未验证实际使用和付费。
+  usage_reason_en: Open-source project with 121 stars shows developer interest, but actual usage and payment
+    are unverified.

@@ -1,0 +1,75 @@
+- id: req-initial-aramco-ventures-invests-in-us-startup-twin1-ai-to-develop-ai-2026-09-01
+  project_slug: aramco-ventures-invests-in-us-startup-twin1-ai-to-develop-ai
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及开发 AI 员工克隆，未说明具体岗位、输入输出或交付结果，无法判断需求与痛点。
+    evidence_ids:
+    - ev-7393983a471f01c5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有投资新闻，无用户反馈或采用数据，共识未建立。
+    evidence_ids:
+    - ev-7393983a471f01c5
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式、定价或付费方，无法判断。
+    evidence_ids:
+    - ev-7393983a471f01c5
+  - gate: truth
+    status: insufficient
+    reason: 未进入价值关，后续未判断。
+    evidence_ids:
+    - ev-7393983a471f01c5
+  next_validation: 关注 Twin1 AI 官网或产品文档，获取具体岗位、输入输出和定价信息。
+  market: ''
+  job: 企业希望用 AI 克隆体替代部分员工工作，降低人力成本。
+  job_en: Enterprises aim to use AI clones to replace some employee tasks and reduce labor costs.
+  pain: 人力成本高、招聘难、员工流动性大，但具体痛点未明确。
+  pain_en: High labor costs, hiring difficulties, high turnover, but specific pain points are not clarified.
+  current_alternative: 目前企业通常通过外包、自动化脚本或流程优化来应对，但具体替代方式未披露。
+  current_alternative_en: Currently, enterprises often use outsourcing, automation scripts, or process
+    optimization, but specific alternatives are not disclosed.
+  usage_reason: 投资方 Aramco Ventures 的关注表明能源行业对 AI 员工克隆有兴趣，但实际采用尚未核验。
+  usage_reason_en: Investor interest from Aramco Ventures suggests energy sector interest, but actual
+    adoption is unverified.
+- id: req-full-aramco-ventures-invests-in-us-startup-twin1-ai-to-develop-ai-2026-09-01
+  project_slug: aramco-ventures-invests-in-us-startup-twin1-ai-to-develop-ai
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及开发 AI 员工克隆，未说明具体岗位、输入输出或交付结果，无法判断需求与痛点。
+    evidence_ids:
+    - ev-7393983a471f01c5
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Twin1 AI 官网或产品文档，获取具体岗位、输入输出和定价信息。
+  market: ''
+  job: 企业希望用 AI 克隆体替代部分员工工作，降低人力成本。
+  job_en: Enterprises aim to use AI clones to replace some employee tasks and reduce labor costs.
+  pain: 人力成本高、招聘难、员工流动性大，但具体痛点未明确。
+  pain_en: High labor costs, hiring difficulties, high turnover, but specific pain points are not clarified.
+  current_alternative: 目前企业通常通过外包、自动化脚本或流程优化来应对，但具体替代方式未披露。
+  current_alternative_en: Currently, enterprises often use outsourcing, automation scripts, or process
+    optimization, but specific alternatives are not disclosed.
+  usage_reason: 投资方 Aramco Ventures 的关注表明能源行业对 AI 员工克隆有兴趣，但实际采用尚未核验。
+  usage_reason_en: Investor interest from Aramco Ventures suggests energy sector interest, but actual
+    adoption is unverified.

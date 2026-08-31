@@ -121,3 +121,44 @@
   usage_reason: 开源项目获得 131 星，显示开发者对多模型网关的初步需求，但采用规模尚未核验。
   usage_reason_en: The open-source project has 131 stars, showing initial demand for multi-model gateways,
     but adoption scale is not yet verified.
+- id: req-full-my-free-code-2026-09-01
+  project_slug: my-free-code
+  level: full
+  reviewed_at: '2026-08-31T18:44:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理多模型接入和路由问题，替代手动切换和多个代理，交付统一网关，价值结构成立。
+    evidence_ids:
+    - ev-b677416a09135365
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 524 星，但缺乏用户评价和持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-b677416a09135365
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或企业，但付费路径不明确。
+    evidence_ids:
+    - ev-b677416a09135365
+  - gate: truth
+    status: supported
+    reason: 作为开源网关，交付确定性高，但依赖模型提供商的 API 稳定性。
+    evidence_ids:
+    - ev-b677416a09135365
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有实际使用案例。
+  market: ''
+  job: 开发者需要让编码代理灵活使用多个 AI 模型，以优化成本和性能。
+  job_en: Developers need to enable coding agents to flexibly use multiple AI models to optimize cost
+    and performance.
+  pain: 单一模型提供商可能成本高或性能不足，缺乏统一的路由和回退机制。
+  pain_en: Single model providers may be costly or underperform, lacking unified routing and fallback
+    mechanisms.
+  current_alternative: 目前开发者可能手动切换模型或使用多个代理，缺乏统一网关。
+  current_alternative_en: Currently developers may manually switch models or use multiple agents, lacking
+    a unified gateway.
+  usage_reason: 开源项目获得 524 星，显示开发者对多模型网关的初步需求，但采用规模尚未核验。
+  usage_reason_en: The open-source project has 524 stars, showing initial demand for multi-model gateways,
+    but adoption scale is not yet verified.

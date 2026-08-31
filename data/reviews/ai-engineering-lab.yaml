@@ -350,3 +350,81 @@
   usage_reason: 免费、开源、包含可运行笔记本和案例，降低了学习门槛，吸引了关注。
   usage_reason_en: Free, open-source, with runnable notebooks and case studies, lowering the learning
     barrier and attracting attention.
+- id: req-initial-ai-engineering-lab-2026-09-01
+  project_slug: ai-engineering-lab
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学习者缺乏系统 AI 工程学习路径的痛点，提供从基础到云部署的完整课程，交付可核对的 notebook 和案例。工作流结构判断：替代碎片化自学和昂贵培训。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: consensus
+    status: supported
+    reason: 开发者社区讨论热烈，星数增长至 242，显示持续关注。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: model
+    status: insufficient
+    reason: 目前完全免费，无付费路径，但可向企业培训或认证方向转化，尚未核验。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: truth
+    status: supported
+    reason: 课程内容贴近 AI 工程实际需求，MIT 许可和可运行 notebook 确保交付确定性。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  next_validation: 关注代码仓库的 issue 和讨论，看是否有企业采用或用户完成课程后获得工作机会的案例。
+  market: ''
+  job: 学习者需要系统掌握 AI 工程技能，从基础到部署。
+  job_en: Learners need to systematically acquire AI engineering skills from basics to deployment.
+  pain: 现有资源碎片化，缺乏系统路径，且昂贵或需注册。
+  pain_en: Existing resources are fragmented, lack a systematic path, and are often expensive or require
+    signup.
+  current_alternative: 付费课程、零散教程、官方文档。
+  current_alternative_en: Paid courses, scattered tutorials, official documentation.
+  usage_reason: 免费、开源、结构化，且有可运行 notebook，吸引自学者和开发者关注。
+  usage_reason_en: Free, open-source, structured, with runnable notebooks, attracting self-learners and
+    developers.
+- id: req-full-ai-engineering-lab-2026-09-01
+  project_slug: ai-engineering-lab
+  level: full
+  reviewed_at: '2026-08-31T18:38:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学习者缺乏系统 AI 工程学习路径的痛点，提供从基础到云部署的完整课程，交付可核对的 notebook 和案例。工作流结构判断：替代碎片化自学和昂贵培训。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: consensus
+    status: supported
+    reason: 开发者社区讨论热烈，星数增长至 242，显示持续关注。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: model
+    status: insufficient
+    reason: 目前完全免费，无付费路径，但可向企业培训或认证方向转化，尚未核验。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  - gate: truth
+    status: supported
+    reason: 课程内容贴近 AI 工程实际需求，MIT 许可和可运行 notebook 确保交付确定性。
+    evidence_ids:
+    - ev-5e0cdd3015485de2
+  next_validation: 关注代码仓库的 issue 和讨论，看是否有企业采用或用户完成课程后获得工作机会的案例。
+  market: ''
+  job: 学习者需要系统掌握 AI 工程技能，从基础到部署。
+  job_en: Learners need to systematically acquire AI engineering skills from basics to deployment.
+  pain: 现有资源碎片化，缺乏系统路径，且昂贵或需注册。
+  pain_en: Existing resources are fragmented, lack a systematic path, and are often expensive or require
+    signup.
+  current_alternative: 付费课程、零散教程、官方文档。
+  current_alternative_en: Paid courses, scattered tutorials, official documentation.
+  usage_reason: 免费、开源、结构化，且有可运行 notebook，吸引自学者和开发者关注。
+  usage_reason_en: Free, open-source, structured, with runnable notebooks, attracting self-learners and
+    developers.

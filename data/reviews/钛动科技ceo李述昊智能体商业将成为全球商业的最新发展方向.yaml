@@ -1,0 +1,75 @@
+- id: req-initial-钛动科技ceo李述昊智能体商业将成为全球商业的最新发展方向-2026-09-01
+  project_slug: 钛动科技ceo李述昊智能体商业将成为全球商业的最新发展方向
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道未说明具体产品如何解决营销痛点，无法判断价值。
+    evidence_ids:
+    - ev-98cc8b06c52ab8ac
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用证据。
+    evidence_ids:
+    - ev-98cc8b06c52ab8ac
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids:
+    - ev-98cc8b06c52ab8ac
+  - gate: truth
+    status: insufficient
+    reason: 缺乏产品细节，无法验证。
+    evidence_ids:
+    - ev-98cc8b06c52ab8ac
+  next_validation: 关注钛动科技官网或产品发布，获取智能体商业的具体产品信息。
+  market: ''
+  job: 营销人员需要优化广告投放、提升营销效果。
+  job_en: Marketers need to optimize ad placement and improve marketing effectiveness.
+  pain: 营销流程复杂，人工优化效率低。
+  pain_en: Marketing processes are complex and manual optimization is inefficient.
+  current_alternative: 目前可能使用传统营销工具和人工分析。
+  current_alternative_en: Currently may use traditional marketing tools and manual analysis.
+  usage_reason: 报道仅提及方向，未提供具体产品，采用原因不明。
+  usage_reason_en: The report only mentions direction, no specific product, adoption reasons unclear.
+- id: req-full-钛动科技ceo李述昊智能体商业将成为全球商业的最新发展方向-2026-09-01
+  project_slug: 钛动科技ceo李述昊智能体商业将成为全球商业的最新发展方向
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出海营销中用户触达、互动转化和效果优化的痛点，AI智能体可自动化全链路营销，交付可量化的商业增长，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-181239ce9c806f3d
+    - ev-630c58f064ad26bf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示公司有营收和产品，但缺乏用户反馈、付费转化或留存数据。
+    evidence_ids:
+    - ev-630c58f064ad26bf
+  - gate: model
+    status: insufficient
+    reason: 未披露具体定价或付费模式，买方可能是出海企业，但付费路径未核验。
+    evidence_ids:
+    - ev-181239ce9c806f3d
+  - gate: truth
+    status: supported
+    reason: 公司有实际产品和营收，交付能力可确定，但需更多细节验证。
+    evidence_ids:
+    - ev-630c58f064ad26bf
+  next_validation: 关注钛动科技官网或产品发布，获取智能体商业的具体产品信息和客户案例。
+  market: ''
+  job: 营销人员需要优化广告投放、提升营销效果。
+  job_en: Marketers need to optimize ad placement and improve marketing effectiveness.
+  pain: 营销流程复杂，人工优化效率低。
+  pain_en: Marketing processes are complex and manual optimization is inefficient.
+  current_alternative: 目前可能使用传统营销工具和人工分析。
+  current_alternative_en: Currently may use traditional marketing tools and manual analysis.
+  usage_reason: 钛动科技已有营收和产品，但具体采用情况未核验。
+  usage_reason_en: Tecdo has revenue and products, but specific adoption is not verified.

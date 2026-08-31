@@ -36,3 +36,83 @@
   usage_reason_en: 'It promises a simpler way to complete this job: A law firm runs research, drafting,
     review, and case files in one bench, and lawyers keep judgment and the client. The exact adoption
     motive and repeat use are not yet verified.'
+- id: req-initial-lexi-2026-09-01
+  project_slug: lexi
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律工作中文档处理耗时且易错的痛点，通过 AI 执行整理、检索、生成，交付可用的法律成果，痛点刚性。工作流结构判断。
+    evidence_ids:
+    - ev-0198819f35df99f1
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或行业共识证据，仅有产品定位和少量相关新闻，需观察实际使用。
+    evidence_ids:
+    - ev-43df56af0e949a07
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，可能面向律所或法律团队，但买方和价格未明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 产品贴近法律工作的第一性目标，承诺可交付的成果，但需验证实际效果和人工边界。
+    evidence_ids:
+    - ev-0198819f35df99f1
+  next_validation: 关注 Lexi 的官网和客户案例，看是否有律所采用和定价信息，以及产品功能是否真正落地。
+  market: ''
+  job: 律师和法律助理需要高效处理案件文档、合同审查和法律研究。
+  job_en: Lawyers and legal assistants need to efficiently handle case documents, contract review, and
+    legal research.
+  pain: 法律文档量大、细节要求高，人工处理耗时且易出错。
+  pain_en: Legal documents are voluminous and detail-oriented; manual processing is time-consuming and
+    error-prone.
+  current_alternative: 目前依赖人工阅读和传统法律软件，效率低且成本高。
+  current_alternative_en: Currently relies on manual reading and traditional legal software, which is
+    inefficient and costly.
+  usage_reason: 法律行业对效率提升有强烈需求，但 Lexi 的具体采用和付费情况尚未核验。
+  usage_reason_en: The legal industry has a strong need for efficiency, but Lexi's specific adoption and
+    payment are unverified.
+- id: req-full-lexi-2026-09-01
+  project_slug: lexi
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律工作中文档处理耗时且易错的痛点，通过 AI 执行整理、检索、生成，交付可用的法律成果，痛点刚性。工作流结构判断。
+    evidence_ids:
+    - ev-0198819f35df99f1
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或行业共识证据，仅有产品定位和少量相关新闻，需观察实际使用。
+    evidence_ids:
+    - ev-43df56af0e949a07
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，可能面向律所或法律团队，但买方和价格未明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 产品贴近法律工作的第一性目标，承诺可交付的成果，但需验证实际效果和人工边界。
+    evidence_ids:
+    - ev-0198819f35df99f1
+  next_validation: 关注 Lexi 的官网和客户案例，看是否有律所采用和定价信息，以及产品功能是否真正落地。
+  market: ''
+  job: 律师和法律助理需要高效处理案件文档、合同审查和法律研究。
+  job_en: Lawyers and legal assistants need to efficiently handle case documents, contract review, and
+    legal research.
+  pain: 法律文档量大、细节要求高，人工处理耗时且易出错。
+  pain_en: Legal documents are voluminous and detail-oriented; manual processing is time-consuming and
+    error-prone.
+  current_alternative: 目前依赖人工阅读和传统法律软件，效率低且成本高。
+  current_alternative_en: Currently relies on manual reading and traditional legal software, which is
+    inefficient and costly.
+  usage_reason: 法律行业对效率提升有强烈需求，但 Lexi 的具体采用和付费情况尚未核验。
+  usage_reason_en: The legal industry has a strong need for efficiency, but Lexi's specific adoption and
+    payment are unverified.

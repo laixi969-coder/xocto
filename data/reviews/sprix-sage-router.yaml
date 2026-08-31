@@ -414,3 +414,42 @@
   usage_reason: 公开代码仓库有 2,405 个收藏、191 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 2,405 stars and 191 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-sprix-sage-router-2026-09-01
+  project_slug: sprix-sage-router
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 A2A 代理网络中状态感知路由的需求，痛点在于任务分配低效，交付为路由决策，结构上成立。
+    evidence_ids:
+    - ev-6a2b606b2e21e2a3
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标增长快，但缺乏用户评价或持续采用证据，共识未验证。
+    evidence_ids:
+    - ev-4a4819e3b53f598c
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 路由决策的准确性和可靠性未验证，需实测。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际部署场景和替代的旧流程。
+  market: ''
+  job: 在 A2A 代理网络中，根据状态决定代理是自行处理、协作还是移交任务。
+  job_en: Decide in an A2A agent network whether an agent should handle a task itself, collaborate, or
+    hand off based on state.
+  pain: 代理网络缺乏状态感知路由时，任务可能被错误分配或重复处理，导致效率低下。
+  pain_en: Without state-aware routing, tasks in agent networks may be misassigned or duplicated, causing
+    inefficiency.
+  current_alternative: 目前可能依赖静态规则或人工配置路由，难以适应动态状态。
+  current_alternative_en: Currently, routing may rely on static rules or manual configuration, which is
+    hard to adapt to dynamic states.
+  usage_reason: 开源仓库获得 2612 星，显示开发者对 A2A 路由问题的关注，但持续使用和付费尚未核验。
+  usage_reason_en: The open-source repository has 2,612 stars, showing developer interest in A2A routing,
+    but sustained use and payment are not yet verified.

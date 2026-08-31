@@ -3,14 +3,14 @@ slug: lore
 name: lore
 builder: hsusul
 category: AI + 开发
-summary_zh: 开发者在使用 Claude Code 或 Codex 等编码代理时，将每次会话记录保存为本地可搜索的 git 记忆库。它接收会话历史，整理成可检索的档案，供后续查询和复用，帮助开发者回顾之前的决策和上下文。
-inspiration: 趋势是编码代理的会话记忆成为新资产。切入点是做跨代理的会话记忆标准，而非单一工具。可考虑为团队提供共享记忆库，按席位或存储收费。
-summary_en: Developers using coding agents like Claude Code or Codex save each session as a local, searchable
-  git memory archive. It ingests session history, organizes it into a retrievable archive for later query
-  and reuse, helping developers recall past decisions and context.
-inspiration_en: The trend is that session memory of coding agents becomes a new asset. The entry point
-  is to create a cross-agent session memory standard rather than a single tool. Consider offering shared
-  memory repositories for teams, charging per seat or storage.
+summary_zh: lore 为编码代理（如 Claude Code 和 Codex）提供 git 记忆，将每次会话保存为本地可搜索的归档。开发者使用编码代理时，lore 自动记录会话历史，组织成可检索的档案，方便后续查询。
+inspiration: 趋势是编码代理的会话管理成为需求。不要做通用笔记工具，切入开发者工作流，提供与 git 集成的记忆层，可考虑开源+云托管模式，按团队或存储收费。
+summary_en: lore provides git memory for coding agents like Claude Code and Codex, saving each session
+  as a local, searchable archive. When developers use coding agents, lore automatically records session
+  history, organizes it into retrievable archives for later query.
+inspiration_en: 'Trend: session management for coding agents becomes a need. Don''t build generic note
+  tools; enter developer workflow with a git-integrated memory layer, consider open-source plus cloud
+  hosting, charge per team or storage.'
 priority_review: false
 project_type: open_source
 industries:
@@ -20,7 +20,7 @@ industries_en:
 jobs:
 - 开发者
 jobs_en:
-- Developers
+- Developer
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +29,7 @@ canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - marketfeeds

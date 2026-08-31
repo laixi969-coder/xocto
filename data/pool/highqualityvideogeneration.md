@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/someone-in-the-world/HighQualityVid
 summary: Generate a short video from an image and a text prompt
 first_seen: '2026-08-30T18:08:53Z'
 last_seen: '2026-08-31T17:38:48Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

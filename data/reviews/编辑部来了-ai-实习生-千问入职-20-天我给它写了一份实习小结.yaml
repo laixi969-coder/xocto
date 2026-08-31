@@ -1,0 +1,82 @@
+- id: req-initial-编辑部来了-ai-实习生-千问入职-20-天我给它写了一份实习小结-2026-09-01
+  project_slug: 编辑部来了-ai-实习生-千问入职-20-天我给它写了一份实习小结
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编辑监控多信源、筛选选题、快速成稿的痛点，旧流程是人工盯守多个网站，耗时且易漏；千问自动抓取、评分、生成初稿，交付可核对的文档，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  - gate: consensus
+    status: supported
+    reason: 编辑已实际部署并运行20天，处理2102条线索，生成66篇初稿，说明有真实使用和关注；但仅单一案例，尚未见广泛采用。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，可能通过千问APP订阅或按token收费，但公开材料未说明；买方可能是媒体机构或编辑个人，但付费路径未核验。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  - gate: truth
+    status: supported
+    reason: 千问是成熟产品，功能可确定交付，自动成稿已实际运行，未发现夸大；但初稿仍需人工审核，符合当前AI能力边界。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  next_validation: 关注千问APP官方是否推出面向媒体行业的付费方案或企业版，以及是否有更多编辑采用类似工作流。
+  market: ''
+  job: 科技编辑需要持续监控多个分散信源，筛选值得报道的新闻，并快速产出初稿。
+  job_en: Tech editors need to continuously monitor multiple scattered sources, filter newsworthy stories,
+    and quickly produce drafts.
+  pain: 新闻散落在官网、代码仓库、媒体等多个入口，人工盯守耗时且易遗漏，判断选题价值和快速成稿压力大。
+  pain_en: News is scattered across official sites, code repositories, and media; manual monitoring is
+    time-consuming and prone to misses, with pressure to judge value and draft quickly.
+  current_alternative: 编辑手动浏览多个网站、RSS和社交媒体，自行判断选题并撰写稿件。
+  current_alternative_en: Editors manually browse multiple websites, RSS, and social media, judge story
+    value, and write articles themselves.
+  usage_reason: 千问能自动抓取、评分并生成初稿，减少编辑的重复性监控工作，且可定制规则，已有实际部署案例（处理2102条线索）。
+  usage_reason_en: Qwen automates crawling, scoring, and drafting, reducing repetitive monitoring; it
+    is customizable and has a real deployment case (2,102 leads processed).
+- id: req-full-编辑部来了-ai-实习生-千问入职-20-天我给它写了一份实习小结-2026-09-01
+  project_slug: 编辑部来了-ai-实习生-千问入职-20-天我给它写了一份实习小结
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编辑监控多信源、筛选选题、快速成稿的痛点，旧流程是人工盯守多个网站，耗时且易漏；千问自动抓取、评分、生成初稿，交付可核对的文档，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  - gate: consensus
+    status: supported
+    reason: 编辑已实际部署并运行20天，处理2102条线索，生成66篇初稿，说明有真实使用和关注；但仅单一案例，尚未见广泛采用。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，可能通过千问APP订阅或按token收费，但公开材料未说明；买方可能是媒体机构或编辑个人，但付费路径未核验。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  - gate: truth
+    status: supported
+    reason: 千问是成熟产品，功能可确定交付，自动成稿已实际运行，未发现夸大；但初稿仍需人工审核，符合当前AI能力边界。
+    evidence_ids:
+    - ev-df1911635bd4a1c3
+  next_validation: 追踪 千问 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 科技编辑需要持续监控多个分散信源，筛选值得报道的新闻，并快速产出初稿。
+  job_en: Tech editors need to continuously monitor multiple scattered sources, filter newsworthy stories,
+    and quickly produce drafts.
+  pain: 新闻散落在官网、代码仓库、媒体等多个入口，人工盯守耗时且易遗漏，判断选题价值和快速成稿压力大。
+  pain_en: News is scattered across official sites, code repositories, and media; manual monitoring is
+    time-consuming and prone to misses, with pressure to judge value and draft quickly.
+  current_alternative: 编辑手动浏览多个网站、RSS和社交媒体，自行判断选题并撰写稿件。
+  current_alternative_en: Editors manually browse multiple websites, RSS, and social media, judge story
+    value, and write articles themselves.
+  usage_reason: 千问能自动抓取、评分并生成初稿，减少编辑的重复性监控工作，且可定制规则，已有实际部署案例（处理2102条线索）。
+  usage_reason_en: Qwen automates crawling, scoring, and drafting, reducing repetitive monitoring; it
+    is customizable and has a real deployment case (2,102 leads processed).

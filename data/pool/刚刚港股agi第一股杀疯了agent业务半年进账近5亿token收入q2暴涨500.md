@@ -3,28 +3,28 @@ slug: 刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入
 name: 创新奇智
 builder: ''
 category: AI + 商业
-summary_zh: 创新奇智面向制造等企业提供智能体开发与部署服务，企业将生产、供应链等业务数据交给其智能体平台，由平台构建可执行任务的AI代理，交付自动化流程与决策支持，人工仍需监督关键环节。
-inspiration: 趋势是AI从工具走向企业核心业务流程的自动化。切入制造业的质检、排产、供应链协同等具体环节，按项目或效果收费，而非通用平台。
-summary_en: AInnovation provides enterprise agent development and deployment for manufacturing and other
-  sectors. Companies feed production and supply chain data into its platform, which builds AI agents to
-  automate workflows and support decisions, with human oversight on critical steps.
-inspiration_en: The trend is AI moving from tools to core business process automation. Enter specific
-  manufacturing segments like quality inspection, scheduling, and supply chain coordination, charging
-  per project or outcome rather than as a generic platform.
+summary_zh: 创新奇智面向制造业提供企业级Agent开发和部署平台，企业将生产和供应链数据输入平台，构建智能体。本次新增AEMS能源管理智能体套件，帮助制造企业智能化能源管控。具体流程和交付仍待核验。
+inspiration: 趋势是AI Agent从通用助手转向垂直行业解决方案。切入点是制造业能源管理，按结果或订阅收费，但需验证客户付费意愿和实际节能效果。
+summary_en: AInnovation provides an enterprise agent development and deployment platform for manufacturing.
+  Companies feed production and supply chain data to build agents. This release adds the AEMS energy management
+  agent suite for intelligent energy control. Specific workflow and delivery remain to be verified.
+inspiration_en: 'Trend: AI agents moving from general assistants to vertical industry solutions. Entry
+  point: manufacturing energy management, charging by outcome or subscription, but customer willingness
+  to pay and actual energy savings need validation.'
 priority_review: false
 project_type: ai_transformation
 industries:
 - 制造业
-- 企业服务
+- 能源管理
 industries_en:
 - Manufacturing
-- Enterprise Services
+- Energy management
 jobs:
 - 企业智能化负责人
 - IT决策者
 jobs_en:
 - Enterprise intelligence lead
-- IT decision makers
+- IT decision maker
 regions:
 - 中国
 regions_en:
@@ -35,7 +35,7 @@ canonical_url: https://qbitai.com/2026/08/480600.html
 summary: 企业智能化服务撑起基本盘，第二增长曲线冒头
 first_seen: '2026-08-28T09:45:19Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - newssearch

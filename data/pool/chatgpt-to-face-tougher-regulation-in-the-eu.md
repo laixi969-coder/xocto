@@ -1,11 +1,12 @@
 ---
 slug: chatgpt-to-face-tougher-regulation-in-the-eu
-name: ChatGPT to face tougher regulation in the EU
+name: ChatGPT
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 欧盟新规将 ChatGPT 视为超大型在线搜索引擎，OpenAI 需针对未成年人保护、用户心理健康和非法内容传播采取风险缓解措施。
 inspiration: ''
-summary_en: ''
+summary_en: Under new EU rules, ChatGPT is treated as a Very Large Online Search Engine, requiring OpenAI
+  to implement risk mitigation for minors, mental health, and illegal content.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: OpenAI will soon be held accountable for mitigating risks related to Ch
   regulating major online services and […]
 first_seen: '2026-08-31T13:27:36Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# ChatGPT to face tougher regulation in the EU
+# ChatGPT
 
 OpenAI will soon be held accountable for mitigating risks related to ChatGPT's impact on minors, user mental health, and the spread of illegal content in the European Union. That's because ChatGPT is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws regulating major online services and […]
 

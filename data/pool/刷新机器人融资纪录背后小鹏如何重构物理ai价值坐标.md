@@ -1,11 +1,12 @@
 ---
 slug: 刷新机器人融资纪录背后小鹏如何重构物理ai价值坐标
-name: 刷新机器人融资纪录背后：小鹏如何重构物理AI价值坐标？
+name: 小鹏汽车
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 小鹏汽车在机器人领域刷新融资纪录，表明物理AI成为投资热点。具体产品细节未披露。
 inspiration: ''
-summary_en: ''
+summary_en: XPeng set a new funding record in robotics, indicating physical AI is a hot investment area.
+  Specific product details undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQaW1jS3NzemJI
 summary: 刷新机器人融资纪录背后：小鹏如何重构物理AI价值坐标？ sohu.com
 first_seen: '2026-08-31T12:28:11Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 刷新机器人融资纪录背后：小鹏如何重构物理AI价值坐标？
+# 小鹏汽车
 
 刷新机器人融资纪录背后：小鹏如何重构物理AI价值坐标？ sohu.com
 

@@ -1,21 +1,43 @@
 ---
 slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
-name: 399 美元的小黄鸭，藏着 Hugging Face 最大的野心
+name: Hugging Face
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: Microduck 是 公开模型社区 旗下 Pollen Robotics 推出的双足机器鸭，面向学生、研究者和爱好者。用户用手柄控制它行走、蹲起、翻身、叼物，也可通过开源 SDK
+  和强化学习训练管线在仿真中训练新行为并部署到真机。交付的是可玩、可编程的实物机器人平台，硬件设计未开源。
+inspiration: 趋势是具身智能从实验室走向桌面级消费硬件，以低价开源软件吸引开发者形成生态。切入可从教育机器人或 STEM 教具市场进入，围绕强化学习课程和竞赛建立内容与社区，但需注意硬件成本控制和差异化。
+summary_en: Microduck is a bipedal robot duck from public model community's Pollen Robotics, targeting
+  students, researchers, and hobbyists. Users control it via gamepad to walk, squat, flip, and grab objects,
+  and can train new behaviors in simulation using the open-source SDK and RL pipeline, then deploy to
+  the real robot. It delivers a playable, programmable physical robot platform; hardware design is not
+  open-sourced.
+inspiration_en: The trend is embodied AI moving from labs to desktop consumer hardware, using low-cost
+  open-source software to attract developers and build an ecosystem. Entry could be through educational
+  robotics or STEM teaching aids, building curriculum and community around reinforcement learning, but
+  hardware cost control and differentiation are key.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+industries:
+- 教育
+- 机器人
+- 消费电子
+industries_en:
+- Education
+- Robotics
+- Consumer Electronics
+jobs:
+- 学生
+- 研究者
+- 机器人爱好者
+jobs_en:
+- Students
+- Researchers
+- Robotics enthusiasts
+regions:
+- 全球
+regions_en:
+- Global
+open_source: true
 url: http://www.geekpark.net/news/369608
 canonical_url: https://geekpark.net/news/369608
 summary: "作者｜ 宇航猿   \n  编辑｜ 靖宇  \n 很少有机器人，能让你第一眼就笑出来。 \n 8 月 27 日，Hugging Face 旗下的 Pollen Robotics，开放了\
@@ -65,7 +87,7 @@ summary: "作者｜ 宇航猿   \n  编辑｜ 靖宇  \n 很少有机器人，�
   \ geekparkGO"
 first_seen: '2026-08-31T07:09:46Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -76,7 +98,7 @@ sightings:
   kind: news
 ---
 
-# 399 美元的小黄鸭，藏着 Hugging Face 最大的野心
+# Hugging Face
 
 作者｜ 宇航猿   
   编辑｜ 靖宇  

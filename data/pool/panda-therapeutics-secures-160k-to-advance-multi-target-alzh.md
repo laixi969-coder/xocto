@@ -1,6 +1,6 @@
 ---
 slug: panda-therapeutics-secures-160k-to-advance-multi-target-alzh
-name: PANDA Therapeutics secures €160K to advance multi-target Alzheimer’s therapy
+name: PANDA Therapeutics
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Biotech startup PANDA Therapeutics has obtained €160,000 (CHF 150,000
   a new treatment for Alzheimer’s disease toward clinical development. By targeting multiple harmful p...
 first_seen: '2026-08-31T10:49:00Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# PANDA Therapeutics secures €160K to advance multi-target Alzheimer’s therapy
+# PANDA Therapeutics
 
 Biotech startup PANDA Therapeutics has obtained €160,000 (CHF 150,000) from Venture Kick to advance a new treatment for Alzheimer’s disease toward clinical development. By targeting multiple harmful p...
 

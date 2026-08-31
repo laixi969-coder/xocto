@@ -166,3 +166,85 @@
   usage_reason: ChatGPT提供一站式解决方案，免费入门，月访问量55.6亿，显示广泛采用。
   usage_reason_en: ChatGPT offers a one-stop solution, free to start, with 5.56 billion monthly visits,
     indicating widespread adoption.
+- id: req-initial-chatgpt-2026-09-01
+  project_slug: chatgpt
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决广泛任务需求，痛点明确，交付可确定（生成文本、图像等），工作流结构判断成立。
+    evidence_ids:
+    - ev-0839596a1b3e0cf1
+    - ev-264420b836847d0a
+  - gate: consensus
+    status: supported
+    reason: 月访问量 55.6 亿，教育扩展覆盖超 10 万教育工作者，显示强共识。
+    evidence_ids:
+    - ev-abfdd2e2f24630f4
+    - ev-264420b836847d0a
+  - gate: model
+    status: supported
+    reason: OpenAI 通过订阅（ChatGPT Plus）和 API 收费，to C 和 to B 均有路径，付费模式已验证。
+    evidence_ids:
+    - ev-ba006d7f7de2262e
+  - gate: truth
+    status: supported
+    reason: 产品持续迭代，教育研究显示积极影响，交付可靠。
+    evidence_ids:
+    - ev-264420b836847d0a
+  next_validation: 关注 OpenAI 官方博客关于教育扩展的后续效果报告，以及 ChatGPT 访问量环比变化。
+  market: ''
+  job: 用户需要完成问答、写作、编程、图像生成等广泛任务。
+  job_en: Users need to accomplish a wide range of tasks including Q&A, writing, coding, and image generation.
+  pain: 传统工具分散且需要专业知识，效率低。
+  pain_en: Traditional tools are fragmented and require expertise, inefficient.
+  current_alternative: 替代搜索引擎、写作软件、编程 IDE 等，但 ChatGPT 提供一体化体验。
+  current_alternative_en: Replaces search engines, writing software, coding IDEs, but ChatGPT offers an
+    integrated experience.
+  usage_reason: 月访问量 55.6 亿，显示大规模采用；教育扩展和信用卡推荐等功能增加实用性。
+  usage_reason_en: 5.56B monthly visits indicate massive adoption; education expansion and credit card
+    recommendation add utility.
+- id: req-full-chatgpt-2026-09-01
+  project_slug: chatgpt
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决广泛任务需求，痛点明确，交付可确定（生成文本、图像等），工作流结构判断成立。
+    evidence_ids:
+    - ev-0839596a1b3e0cf1
+    - ev-264420b836847d0a
+  - gate: consensus
+    status: supported
+    reason: 月访问量 55.6 亿，教育扩展覆盖超 10 万教育工作者，显示强共识。
+    evidence_ids:
+    - ev-abfdd2e2f24630f4
+    - ev-264420b836847d0a
+  - gate: model
+    status: supported
+    reason: OpenAI 通过订阅（ChatGPT Plus）和 API 收费，to C 和 to B 均有路径，付费模式已验证。
+    evidence_ids:
+    - ev-ba006d7f7de2262e
+  - gate: truth
+    status: supported
+    reason: 产品持续迭代，教育研究显示积极影响，交付可靠。
+    evidence_ids:
+    - ev-264420b836847d0a
+  next_validation: 追踪 ChatGPT 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 用户需要完成问答、写作、编程、图像生成等广泛任务。
+  job_en: Users need to accomplish a wide range of tasks including Q&A, writing, coding, and image generation.
+  pain: 传统工具分散且需要专业知识，效率低。
+  pain_en: Traditional tools are fragmented and require expertise, inefficient.
+  current_alternative: 替代搜索引擎、写作软件、编程 IDE 等，但 ChatGPT 提供一体化体验。
+  current_alternative_en: Replaces search engines, writing software, coding IDEs, but ChatGPT offers an
+    integrated experience.
+  usage_reason: 月访问量 55.6 亿，显示大规模采用；教育扩展和信用卡推荐等功能增加实用性。
+  usage_reason_en: 5.56B monthly visits indicate massive adoption; education expansion and credit card
+    recommendation add utility.

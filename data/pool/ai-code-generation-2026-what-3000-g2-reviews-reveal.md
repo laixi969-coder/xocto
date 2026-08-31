@@ -1,11 +1,12 @@
 ---
 slug: ai-code-generation-2026-what-3000-g2-reviews-reveal
-name: 'AI Code Generation 2026: What 3,000+ G2 Reviews Reveal'
+name: AI代码生成市场
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: G2评论分析显示AI代码生成工具在2026年的用户反馈，反映市场趋势。
 inspiration: ''
-summary_en: ''
+summary_en: G2 review analysis reveals user feedback on AI code generation tools in 2026, reflecting market
+  trends.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJZWtlR3kxVHNS
 summary: 'AI Code Generation 2026: What 3,000+ G2 Reviews Reveal G2 Learning Hub'
 first_seen: '2026-08-31T02:58:16Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI Code Generation 2026: What 3,000+ G2 Reviews Reveal
+# AI代码生成市场
 
 AI Code Generation 2026: What 3,000+ G2 Reviews Reveal G2 Learning Hub
 

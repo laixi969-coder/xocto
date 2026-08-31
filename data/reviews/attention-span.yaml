@@ -230,3 +230,40 @@
   usage_reason: 公开代码仓库有 858 个收藏、25 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-attention-span-2026-09-01
+  project_slug: attention-span
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助开发者减少阅读 AI 输出的认知负担，但公开材料仅有产品描述，未说明具体痛点、频率或不采用代价，无法判断需求强度。
+    evidence_ids:
+    - ev-4f8ced07c3a8a7b9
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该项目的 GitHub 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。
+  market: ''
+  job: 开发者需要阅读 AI 编码助手的输出，并保持注意力。
+  job_en: Developers need to read AI coding assistant outputs and maintain attention.
+  pain: AI 输出冗长，增加认知负担，但公开材料未说明具体痛点强度或不采用代价。
+  pain_en: AI outputs are verbose, increasing cognitive load, but public materials do not specify the
+    pain intensity or cost of not using it.
+  current_alternative: 公开材料未说明用户当前如何应对，可能手动筛选信息，但尚未核验。
+  current_alternative_en: Public materials do not show how users currently cope; they may manually filter
+    information, but this is unverified.
+  usage_reason: 仓库有 858 个收藏，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 858 stars, showing developer attention, but sustained use and payment
+    are unverified.

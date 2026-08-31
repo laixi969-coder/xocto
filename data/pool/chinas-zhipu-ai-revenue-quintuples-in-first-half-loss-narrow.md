@@ -1,11 +1,12 @@
 ---
 slug: chinas-zhipu-ai-revenue-quintuples-in-first-half-loss-narrow
-name: China's Zhipu AI revenue quintuples in first half, loss narrows
+name: Zhipu AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 智谱 AI 上半年营收同比增长五倍，亏损收窄，表明其商业化进程加速。
 inspiration: ''
-summary_en: ''
+summary_en: Zhipu AI's first-half revenue quintupled year-over-year with narrowing losses, indicating
+  accelerated commercialization.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOMS05THpmSnli
 summary: China's Zhipu AI revenue quintuples in first half, loss narrows The Standard (HK)
 first_seen: '2026-08-31T13:29:47Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# China's Zhipu AI revenue quintuples in first half, loss narrows
+# Zhipu AI
 
 China's Zhipu AI revenue quintuples in first half, loss narrows The Standard (HK)
 

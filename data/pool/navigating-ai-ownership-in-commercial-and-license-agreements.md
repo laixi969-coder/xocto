@@ -1,12 +1,12 @@
 ---
 slug: navigating-ai-ownership-in-commercial-and-license-agreements
-name: 'Navigating AI Ownership in Commercial and License Agreements: Key Considerations for Technology
-  Providers and Customers'
+name: AI Ownership in Commercial and License Agreements
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 关于 AI 所有权在商业和许可协议中的法律讨论，为技术提供商和客户提供关键考虑因素，反映 AI 知识产权归属的行业关注。
 inspiration: ''
-summary_en: ''
+summary_en: Legal discussion on AI ownership in commercial and license agreements provides key considerations
+  for technology providers and customers, reflecting industry concerns over AI intellectual property.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: 'Navigating AI Ownership in Commercial and License Agreements: Key Cons
   Providers and Customers JD Supra'
 first_seen: '2026-08-31T16:50:03Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Navigating AI Ownership in Commercial and License Agreements: Key Considerations for Technology Providers and Customers
+# AI Ownership in Commercial and License Agreements
 
 Navigating AI Ownership in Commercial and License Agreements: Key Considerations for Technology Providers and Customers JD Supra
 

@@ -309,3 +309,43 @@
   usage_reason: 开源仓库获得 270 星，显示开发者对 AI 代理学习资源的兴趣，但付费和持续采用尚未核验。
   usage_reason_en: The open-source repository has 270 stars, showing developer interest in AI agent learning
     resources, but payment and sustained adoption are not yet verified.
+- id: req-full-learn-agent-2026-09-01
+  project_slug: learn-agent
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者学习 AI Agent 架构的需求，痛点是需要系统化教程和可运行代码，交付可确定（二十章课程和代码）。工作流结构推理：输入课程内容，学习并搭建代理。
+    evidence_ids:
+    - ev-1ff0099262bb87cb
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 296 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-7b7a62e9a82b0c32
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 learn-agent 的 GitHub 仓库 issue 和 discussion，确认是否有学习者实际使用并替代了旧学习资源。
+  market: ''
+  job: 用二十章中文课和能跑的代码，把人教会自己搭一套代理。
+  job_en: Teach someone to build their own agent, with twenty Chinese chapters and code that actually
+    runs.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；但学习 AI Agent 架构需要系统化教程和可运行代码，现有资源可能碎片化或不可运行。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of not solving it; but
+    learning AI agent architecture requires systematic tutorials and runnable code, and existing resources
+    may be fragmented or non-runnable.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；可能依赖零散博客或官方文档。
+  current_alternative_en: Public materials do not show how users complete this job today; they may rely
+    on scattered blogs or official docs.
+  usage_reason: 公开代码仓库有 296 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 296 stars, showing developer attention; repeat use and payment
+    are not yet verified.

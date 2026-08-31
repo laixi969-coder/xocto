@@ -1,0 +1,82 @@
+- id: req-initial-series-a-round-for-newcode-an-ai-harness-for-legal-brings-it-2026-09-01
+  project_slug: series-a-round-for-newcode-an-ai-harness-for-legal-brings-it
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师文档处理耗时的问题，痛点明确，AI可自动化审查和检索，交付可确定（工作流结构判断）。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  - gate: consensus
+    status: insufficient
+    reason: 融资信息显示市场关注，但缺乏用户采用或客户案例，共识证据不足。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是律所订阅或按量付费，需进一步验证。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  - gate: truth
+    status: insufficient
+    reason: 产品细节和交付结果未披露，需观察实际使用效果。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  next_validation: 关注Newcode官网或新闻稿，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 律师需要高效处理大量文档审查和案例研究，以节省时间并提高准确性。
+  job_en: Lawyers need to efficiently handle large volumes of document review and case research to save
+    time and improve accuracy.
+  pain: 传统人工审查耗时且易出错，导致成本高、效率低。
+  pain_en: Traditional manual review is time-consuming and error-prone, leading to high costs and low
+    efficiency.
+  current_alternative: 目前律师通常手动阅读文档或使用通用搜索工具，效率低下。
+  current_alternative_en: Currently, lawyers often manually read documents or use generic search tools,
+    which is inefficient.
+  usage_reason: AI能快速处理文档，减少人工负担，吸引律所采用以提升效率和竞争力。
+  usage_reason_en: AI can process documents quickly, reducing manual burden, attracting law firms to adopt
+    for efficiency and competitiveness.
+- id: req-full-series-a-round-for-newcode-an-ai-harness-for-legal-brings-it-2026-09-01
+  project_slug: series-a-round-for-newcode-an-ai-harness-for-legal-brings-it
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师文档处理耗时的问题，痛点明确，AI可自动化审查和检索，交付可确定（工作流结构判断）。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  - gate: consensus
+    status: insufficient
+    reason: 融资信息显示市场关注，但缺乏用户采用或客户案例，共识证据不足。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是律所订阅或按量付费，需进一步验证。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  - gate: truth
+    status: insufficient
+    reason: 产品细节和交付结果未披露，需观察实际使用效果。
+    evidence_ids:
+    - ev-a039cea72884d3c6
+  next_validation: 关注Newcode官网或新闻稿，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 律师需要高效处理大量文档审查和案例研究，以节省时间并提高准确性。
+  job_en: Lawyers need to efficiently handle large volumes of document review and case research to save
+    time and improve accuracy.
+  pain: 传统人工审查耗时且易出错，导致成本高、效率低。
+  pain_en: Traditional manual review is time-consuming and error-prone, leading to high costs and low
+    efficiency.
+  current_alternative: 目前律师通常手动阅读文档或使用通用搜索工具，效率低下。
+  current_alternative_en: Currently, lawyers often manually read documents or use generic search tools,
+    which is inefficient.
+  usage_reason: AI能快速处理文档，减少人工负担，吸引律所采用以提升效率和竞争力。
+  usage_reason_en: AI can process documents quickly, reducing manual burden, attracting law firms to adopt
+    for efficiency and competitiveness.

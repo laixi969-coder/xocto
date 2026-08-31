@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/brandmylaptop
 summary: Sell ad space on your laptop
 first_seen: '2026-08-28T16:24:44Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

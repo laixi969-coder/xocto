@@ -1,0 +1,73 @@
+- id: req-initial-ask-my-wardrobe-2026-09-01
+  project_slug: ask-my-wardrobe
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决衣橱管理和穿搭建议问题，但具体功能、输入输出和交付不明确，无法判断痛点刚性。
+    evidence_ids:
+    - ev-1e85d825f115858a
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价、下载量或社区讨论，无法判断共识。
+    evidence_ids:
+    - ev-1e85d825f115858a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和商业模式。
+    evidence_ids:
+    - ev-1e85d825f115858a
+  - gate: truth
+    status: insufficient
+    reason: 无实际交付证据，可能只是概念。
+    evidence_ids:
+    - ev-1e85d825f115858a
+  next_validation: 访问产品官网或应用商店页面，获取功能列表、截图和用户评论。
+  market: ''
+  job: 用户需要管理个人衣物并获取穿搭建议。
+  job_en: Users need to manage personal clothing and get outfit suggestions.
+  pain: 衣橱混乱，搭配费时，冲动购物导致浪费。
+  pain_en: Wardrobe is messy, matching is time-consuming, impulse buying causes waste.
+  current_alternative: 手动整理、时尚杂志、穿搭博主。
+  current_alternative_en: Manual organization, fashion magazines, style bloggers.
+  usage_reason: 产品页面仅一句描述，缺乏功能细节和用户证据，关注度未知。
+  usage_reason_en: Product page has only one-line description, lacking feature details and user evidence,
+    attention unknown.
+- id: req-full-ask-my-wardrobe-2026-09-01
+  project_slug: ask-my-wardrobe
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决衣橱管理和穿搭建议问题，但具体功能、输入输出和交付不明确，无法判断痛点刚性。
+    evidence_ids:
+    - ev-1e85d825f115858a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 访问产品官网或应用商店页面，获取功能列表、截图和用户评论。
+  market: ''
+  job: 用户需要管理个人衣物并获取穿搭建议。
+  job_en: Users need to manage personal clothing and get outfit suggestions.
+  pain: 衣橱混乱，搭配费时，冲动购物导致浪费。
+  pain_en: Wardrobe is messy, matching is time-consuming, impulse buying causes waste.
+  current_alternative: 手动整理、时尚杂志、穿搭博主。
+  current_alternative_en: Manual organization, fashion magazines, style bloggers.
+  usage_reason: 产品页面仅一句描述，缺乏功能细节和用户证据，关注度未知。
+  usage_reason_en: Product page has only one-line description, lacking feature details and user evidence,
+    attention unknown.

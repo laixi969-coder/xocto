@@ -1,0 +1,82 @@
+- id: req-initial-oppolia-launches-ai-powered-design-platform-to-support-globa-2026-09-01
+  project_slug: oppolia-launches-ai-powered-design-platform-to-support-globa
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决橱柜经销商快速出设计方案、提升销售转化的问题；痛点在于传统设计耗时耗钱，AI生成方案可即时交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及平台发布，缺乏用户采用、收藏或增长数据，无法判断市场共识。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是经销商付费或平台抽成，需进一步验证。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，尚无交付结果或客户案例，需观察实际使用效果。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  next_validation: 关注OPPOLIA官网或新闻稿，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 橱柜经销商需要快速为客户生成定制设计方案和效果图，以促进销售。
+  job_en: Cabinet dealers need to quickly generate custom design proposals and renderings for clients
+    to drive sales.
+  pain: 传统设计依赖人工，耗时且成本高，导致响应慢、错失订单。
+  pain_en: Traditional design relies on manual work, which is time-consuming and costly, leading to slow
+    response and lost orders.
+  current_alternative: 目前经销商通常使用通用设计软件或外包给设计师，周期长、费用高。
+  current_alternative_en: Currently, dealers typically use generic design software or outsource to designers,
+    which is slow and expensive.
+  usage_reason: AI能即时生成方案，降低设计门槛，吸引经销商采用以提升效率和客户体验。
+  usage_reason_en: AI can generate proposals instantly, lowering design barriers, attracting dealers to
+    adopt for efficiency and customer experience.
+- id: req-full-oppolia-launches-ai-powered-design-platform-to-support-globa-2026-09-01
+  project_slug: oppolia-launches-ai-powered-design-platform-to-support-globa
+  level: full
+  reviewed_at: '2026-08-31T18:44:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决橱柜经销商快速出设计方案、提升销售转化的问题；痛点在于传统设计耗时耗钱，AI生成方案可即时交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及平台发布，缺乏用户采用、收藏或增长数据，无法判断市场共识。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能是经销商付费或平台抽成，需进一步验证。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，尚无交付结果或客户案例，需观察实际使用效果。
+    evidence_ids:
+    - ev-ea79c6967cc91d97
+  next_validation: 关注OPPOLIA官网或新闻稿，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 橱柜经销商需要快速为客户生成定制设计方案和效果图，以促进销售。
+  job_en: Cabinet dealers need to quickly generate custom design proposals and renderings for clients
+    to drive sales.
+  pain: 传统设计依赖人工，耗时且成本高，导致响应慢、错失订单。
+  pain_en: Traditional design relies on manual work, which is time-consuming and costly, leading to slow
+    response and lost orders.
+  current_alternative: 目前经销商通常使用通用设计软件或外包给设计师，周期长、费用高。
+  current_alternative_en: Currently, dealers typically use generic design software or outsource to designers,
+    which is slow and expensive.
+  usage_reason: AI能即时生成方案，降低设计门槛，吸引经销商采用以提升效率和客户体验。
+  usage_reason_en: AI can generate proposals instantly, lowering design barriers, attracting dealers to
+    adopt for efficiency and customer experience.

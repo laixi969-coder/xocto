@@ -1,0 +1,76 @@
+- id: req-initial-academa-2026-09-01
+  project_slug: academa
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生获取高质量 STEM 视频课程的需求，痛点在于优质资源稀缺且制作成本高。AI 生成视频可快速交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-0ad15b0504893e6e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示有 30 个社区讨论点数和 25 条评论，表明有一定关注，但缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-0ad15b0504893e6e
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向 C 端学生订阅或 B 端学校授权，但尚无定价或付费验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 生成视频的质量和准确性尚未经过大规模验证，可能存在事实错误或教学效果不佳的风险。
+    evidence_ids: []
+  next_validation: 关注官网是否提供免费试看、用户评价或订阅定价，以验证实际教学效果和付费意愿。
+  market: ''
+  job: 学生需要获取高质量的 STEM 课程视频，以辅助学习或自学。
+  job_en: Students need access to high-quality STEM course videos to supplement learning or self-study.
+  pain: 优质教育视频资源稀缺，尤其是长视频，且传统课程制作成本高、更新慢。
+  pain_en: High-quality educational video resources are scarce, especially long-form videos, and traditional
+    course production is costly and slow to update.
+  current_alternative: 目前学生可能依赖 YouTube 上的免费课程、Coursera 等 MOOC 平台或线下辅导。
+  current_alternative_en: Currently students may rely on free courses on YouTube, MOOC platforms like
+    Coursera, or offline tutoring.
+  usage_reason: AI 生成视频可以快速覆盖大量主题，提供低成本的学习资源，可能吸引学生和教师关注。
+  usage_reason_en: AI-generated videos can quickly cover a wide range of topics, providing low-cost learning
+    resources, may attract students and teachers.
+- id: req-full-academa-2026-09-01
+  project_slug: academa
+  level: full
+  reviewed_at: '2026-08-31T18:37:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生获取高质量 STEM 视频课程的需求，痛点在于优质资源稀缺且制作成本高。AI 生成视频可快速交付，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-0ad15b0504893e6e
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示有 30 个社区讨论点数和 25 条评论，表明有一定关注，但缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-0ad15b0504893e6e
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向 C 端学生订阅或 B 端学校授权，但尚无定价或付费验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 生成视频的质量和准确性尚未经过大规模验证，可能存在事实错误或教学效果不佳的风险。
+    evidence_ids: []
+  next_validation: 关注官网是否提供免费试看、用户评价或订阅定价，以验证实际教学效果和付费意愿。
+  market: ''
+  job: 学生需要获取高质量的 STEM 课程视频，以辅助学习或自学。
+  job_en: Students need access to high-quality STEM course videos to supplement learning or self-study.
+  pain: 优质教育视频资源稀缺，尤其是长视频，且传统课程制作成本高、更新慢。
+  pain_en: High-quality educational video resources are scarce, especially long-form videos, and traditional
+    course production is costly and slow to update.
+  current_alternative: 目前学生可能依赖 YouTube 上的免费课程、Coursera 等 MOOC 平台或线下辅导。
+  current_alternative_en: Currently students may rely on free courses on YouTube, MOOC platforms like
+    Coursera, or offline tutoring.
+  usage_reason: AI 生成视频可以快速覆盖大量主题，提供低成本的学习资源，可能吸引学生和教师关注。
+  usage_reason_en: AI-generated videos can quickly cover a wide range of topics, providing low-cost learning
+    resources, may attract students and teachers.

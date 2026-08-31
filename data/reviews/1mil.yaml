@@ -1,0 +1,72 @@
+- id: req-initial-1mil-2026-09-01
+  project_slug: 1mil
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明它扫描了 500 个点子并给出评分，但未说明评分标准、输出内容或用户如何从中获益，价值结构不清晰。
+    evidence_ids:
+    - ev-eed41ff955d7019b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注官网是否提供示例报告、定价或用户评价，以验证其实际价值。
+  market: ''
+  job: 创业者或产品经理需要快速评估创业点子的可行性，以决定是否投入资源。
+  job_en: Founders or product managers need to quickly assess the viability of startup ideas to decide
+    whether to invest resources.
+  pain: 点子评估往往主观且耗时，缺乏客观数据支持。
+  pain_en: Idea evaluation is often subjective and time-consuming, lacking objective data support.
+  current_alternative: 目前可能依赖导师咨询、市场调研或自身经验判断。
+  current_alternative_en: Currently may rely on mentor advice, market research, or personal experience.
+  usage_reason: AI 评分提供了一种快速、低成本的初步筛选方式，可能吸引创业者试用，但采用证据不足。
+  usage_reason_en: AI scoring offers a quick, low-cost initial screening, may attract founders to try,
+    but adoption evidence is insufficient.
+- id: req-full-1mil-2026-09-01
+  project_slug: 1mil
+  level: full
+  reviewed_at: '2026-08-31T18:37:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明它扫描了 500 个点子并给出评分，但未说明评分标准、输出内容或用户如何从中获益，价值结构不清晰。
+    evidence_ids:
+    - ev-eed41ff955d7019b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注官网是否提供示例报告、定价或用户评价，以验证其实际价值。
+  market: ''
+  job: 创业者或产品经理需要快速评估创业点子的可行性，以决定是否投入资源。
+  job_en: Founders or product managers need to quickly assess the viability of startup ideas to decide
+    whether to invest resources.
+  pain: 点子评估往往主观且耗时，缺乏客观数据支持。
+  pain_en: Idea evaluation is often subjective and time-consuming, lacking objective data support.
+  current_alternative: 目前可能依赖导师咨询、市场调研或自身经验判断。
+  current_alternative_en: Currently may rely on mentor advice, market research, or personal experience.
+  usage_reason: AI 评分提供了一种快速、低成本的初步筛选方式，可能吸引创业者试用，但采用证据不足。
+  usage_reason_en: AI scoring offers a quick, low-cost initial screening, may attract founders to try,
+    but adoption evidence is insufficient.

@@ -418,3 +418,40 @@
   usage_reason: 公开代码仓库有 634 个收藏、33 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 634 stars and 33 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-zoetrope-2026-09-01
+  project_slug: zoetrope
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Claude Code 会话过程不透明、难以追踪的痛点，通过实时流程图可视化，交付可确定的会话可视化能力。工作流结构推理。
+    evidence_ids:
+    - ev-90793392c7f55b1e
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 654 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-90793392c7f55b1e
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者或技术负责人需要实时观察 Claude Code 会话的执行流程。
+  job_en: Developers or tech leads need to observe the execution flow of Claude Code sessions in real
+    time.
+  pain: Claude Code 会话过程不透明，难以追踪和调试，影响效率。
+  pain_en: Claude Code sessions are opaque, making it hard to track and debug, affecting efficiency.
+  current_alternative: 开发者可能依赖日志或手动观察，但缺乏可视化流程。
+  current_alternative_en: Developers may rely on logs or manual observation, but lack visual flow.
+  usage_reason: 开源项目获得 654 星，表明开发者社区关注，但实际采用和用户反馈未核验。
+  usage_reason_en: The open-source project has 654 stars, indicating developer community interest, but
+    actual adoption and user feedback are unverified.

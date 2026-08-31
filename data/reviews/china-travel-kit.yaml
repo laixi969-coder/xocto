@@ -1,0 +1,73 @@
+- id: req-initial-china-travel-kit-2026-09-01
+  project_slug: china-travel-kit
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 提供数据 API 和 MCP 服务器，但未说明具体数据内容、更新机制或使用场景，需求强度不明。
+    evidence_ids:
+    - ev-80a8df4636068d1a
+  - gate: consensus
+    status: insufficient
+    reason: 星标 61，无其他采用证据，共识未形成。
+    evidence_ids:
+    - ev-80a8df4636068d1a
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无商业模式披露。
+    evidence_ids:
+    - ev-80a8df4636068d1a
+  - gate: truth
+    status: insufficient
+    reason: 未提供数据来源可靠性或维护计划，真实性待验证。
+    evidence_ids:
+    - ev-80a8df4636068d1a
+  next_validation: 关注开源仓库的 README 是否补充数据来源和示例，以及 issue 讨论。
+  market: ''
+  job: 开发者需要将中国旅游数据集成到 AI 应用或助手中。
+  job_en: Developers need to integrate China travel data into AI applications or assistants.
+  pain: 缺乏结构化、来源清晰的旅游数据，手动收集耗时。
+  pain_en: Lack of structured, source-clear travel data; manual collection is time-consuming.
+  current_alternative: 可能使用公开 API 或爬虫，但数据质量参差不齐。
+  current_alternative_en: May use public APIs or scraping, but data quality varies.
+  usage_reason: 开源社区星标增长显示开发者关注，但采用证据不足。
+  usage_reason_en: Open-source community star growth shows developer interest, but adoption evidence is
+    insufficient.
+- id: req-full-china-travel-kit-2026-09-01
+  project_slug: china-travel-kit
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 提供数据 API 和 MCP 服务器，但未说明具体数据内容、更新机制或使用场景，需求强度不明。
+    evidence_ids:
+    - ev-80a8df4636068d1a
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注开源仓库的 README 是否补充数据来源和示例，以及 issue 讨论。
+  market: ''
+  job: 开发者需要将中国旅游数据集成到 AI 应用或助手中。
+  job_en: Developers need to integrate China travel data into AI applications or assistants.
+  pain: 缺乏结构化、来源清晰的旅游数据，手动收集耗时。
+  pain_en: Lack of structured, source-clear travel data; manual collection is time-consuming.
+  current_alternative: 可能使用公开 API 或爬虫，但数据质量参差不齐。
+  current_alternative_en: May use public APIs or scraping, but data quality varies.
+  usage_reason: 开源社区星标增长显示开发者关注，但采用证据不足。
+  usage_reason_en: Open-source community star growth shows developer interest, but adoption evidence is
+    insufficient.

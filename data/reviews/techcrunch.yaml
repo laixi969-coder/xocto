@@ -1,0 +1,68 @@
+- id: req-initial-techcrunch-2026-09-01
+  project_slug: techcrunch
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 导航是成熟需求，但本次事件未展示 MapQuest 在 AI 或工作流上的具体改进，仅因政治立场获得关注，价值主张不明确。
+    evidence_ids:
+    - ev-1db20accffca628b
+  - gate: consensus
+    status: insufficient
+    reason: 排名上升可能是一次性事件，缺乏持续采用证据，用户留存未知。
+    evidence_ids:
+    - ev-1db20accffca628b
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，导航应用通常免费或广告支持，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露 AI 功能或技术实现，无法判断其真实性。
+    evidence_ids: []
+  next_validation: 关注 MapQuest 官方博客或新闻，看其是否披露 AI 功能或用户留存数据。
+  market: ''
+  job: 用户需要可靠的导航服务，包括路线规划和实时指引。
+  job_en: Users need reliable navigation services including route planning and real-time guidance.
+  pain: 导航应用可能因政治压力更改地名，导致用户信任下降。
+  pain_en: Navigation apps may rename places due to political pressure, eroding user trust.
+  current_alternative: 用户可改用其他导航应用如 Google Maps 或 Waze。
+  current_alternative_en: Users can switch to other navigation apps like Google Maps or Waze.
+  usage_reason: 用户因 MapQuest 拒绝改名而下载或使用，表达对其立场的支持。
+  usage_reason_en: Users downloaded or used MapQuest to support its stance on refusing to rename.
+- id: req-full-techcrunch-2026-09-01
+  project_slug: techcrunch
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“MapQuest 是一款导航应用，用户输入起点和终点后，它提供路线规划和语音导航。此次因拒绝将安大略湖改名而排名上升，但具体 AI 功能或工作流改进未披露”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 MapQuest 官方博客或新闻，看其是否披露 AI 功能或用户留存数据。
+  market: ''
+  job: 用户需要可靠的导航服务，包括路线规划和实时指引。
+  job_en: Users need reliable navigation services including route planning and real-time guidance.
+  pain: 导航应用可能因政治压力更改地名，导致用户信任下降。
+  pain_en: Navigation apps may rename places due to political pressure, eroding user trust.
+  current_alternative: 用户可改用其他导航应用如 Google Maps 或 Waze。
+  current_alternative_en: Users can switch to other navigation apps like Google Maps or Waze.
+  usage_reason: 用户因 MapQuest 拒绝改名而下载或使用，表达对其立场的支持。
+  usage_reason_en: Users downloaded or used MapQuest to support its stance on refusing to rename.

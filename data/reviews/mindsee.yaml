@@ -1,0 +1,74 @@
+- id: req-initial-mindsee-2026-09-01
+  project_slug: mindsee
+  level: initial
+  reviewed_at: '2026-08-31T17:38:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速生成图片的需求，痛点明确，交付可确定，属于工作流结构判断。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有技术社区帖子讨论，缺乏用户采用或留存证据。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，注册送次数，但付费路径未验证。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  - gate: truth
+    status: supported
+    reason: 产品贴近生图的第一性目标，交付确定性高，但需关注内容安全。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  next_validation: 关注 Mindsee 官网是否增加定价页或用户案例，以及技术社区中的使用反馈。
+  market: ''
+  job: 用户需要快速生成图片，用于设计或内容创作。
+  job_en: Users need to quickly generate images for design or content creation.
+  pain: 传统图片制作耗时且成本高，AI 生图能快速提供素材。
+  pain_en: Traditional image creation is time-consuming and costly; AI generation provides quick assets.
+  current_alternative: 用户可能使用其他 AI 生图工具或聘请设计师。
+  current_alternative_en: Users may use other AI image tools or hire designers.
+  usage_reason: 注册即送免费次数，吸引用户试用，且生图需求普遍存在。
+  usage_reason_en: Free credits on registration attract trial, and the need for image generation is widespread.
+- id: req-full-mindsee-2026-09-01
+  project_slug: mindsee
+  level: full
+  reviewed_at: '2026-08-31T18:44:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速生成图片的需求，痛点明确，交付可确定，属于工作流结构判断。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有技术社区帖子讨论，缺乏用户采用或留存证据。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，注册送次数，但付费路径未验证。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  - gate: truth
+    status: supported
+    reason: 产品贴近生图的第一性目标，交付确定性高，但需关注内容安全。
+    evidence_ids:
+    - ev-a9437f2bf5cb13f6
+  next_validation: 关注 Mindsee 官网是否增加定价页或用户案例，以及技术社区中的使用反馈。
+  market: ''
+  job: 用户需要快速生成图片，用于设计或内容创作。
+  job_en: Users need to quickly generate images for design or content creation.
+  pain: 传统图片制作耗时且成本高，AI 生图能快速提供素材。
+  pain_en: Traditional image creation is time-consuming and costly; AI generation provides quick assets.
+  current_alternative: 用户可能使用其他 AI 生图工具或聘请设计师。
+  current_alternative_en: Users may use other AI image tools or hire designers.
+  usage_reason: 注册即送免费次数，吸引用户试用，且生图需求普遍存在。
+  usage_reason_en: Free credits on registration attract trial, and the need for image generation is widespread.

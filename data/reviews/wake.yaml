@@ -412,3 +412,41 @@
   usage_reason: 公开代码仓库有 675 个收藏、39 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 675 stars and 39 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-wake-2026-09-01
+  project_slug: wake
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理会话分散、难以管理的痛点，通过统一界面浏览、搜索和恢复会话，交付可确定的会话管理能力。工作流结构推理。
+    evidence_ids:
+    - ev-b3e6cc4540da7eba
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 690 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-b3e6cc4540da7eba
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者需要集中浏览、搜索和恢复所有编码代理会话。
+  job_en: Developers need to centrally browse, search, and resume all coding agent sessions.
+  pain: 编码代理会话分散在多个工具中，难以管理和恢复，导致效率低下。
+  pain_en: Coding agent sessions are scattered across multiple tools, making them hard to manage and resume,
+    leading to inefficiency.
+  current_alternative: 开发者可能手动记录或依赖各工具的独立历史，缺乏统一视图。
+  current_alternative_en: Developers may manually track or rely on each tool's separate history, lacking
+    a unified view.
+  usage_reason: 开源项目获得 690 星，表明开发者社区关注，但实际采用和用户反馈未核验。
+  usage_reason_en: The open-source project has 690 stars, indicating developer community interest, but
+    actual adoption and user feedback are unverified.

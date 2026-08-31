@@ -414,3 +414,43 @@
   usage_reason: 公开代码仓库有 141 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 141 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-lazy-frames-2026-09-01
+  project_slug: lazy-frames
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频编辑或动画师本地生成视频的需求，痛点是需要完全本地、字节稳定的生成，交付可确定（渲染视频）。工作流结构推理：输入技能 URL，捕获、编写、渲染，本地运行。
+    evidence_ids:
+    - ev-efee2e478aaa0652
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 144 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-36a4e463089891f0
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 lazy-frames 的 GitHub 仓库 issue 和 discussion，确认是否有视频编辑或动画师实际部署并替代了旧流程。
+  market: ''
+  job: 视频编辑或动画师使用 Lazy Frames 让 AI 代理根据技能 URL 生成视频；它捕获、编写并渲染视频，完全本地运行，字节稳定，无需云服务。
+  job_en: Video editors or animators use Lazy Frames to let AI agents generate videos from a skill URL;
+    it captures, authors, and renders, fully local, byte-stable, no cloud.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；但本地视频生成可能避免云端依赖和隐私问题，现有工具可能需云端或不够稳定。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of not solving it; but
+    local video generation may avoid cloud dependency and privacy issues, and existing tools may require
+    cloud or be less stable.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；可能使用云端视频生成服务或手动编辑。
+  current_alternative_en: Public materials do not show how users complete this job today; they may use
+    cloud video generation services or manual editing.
+  usage_reason: 公开代码仓库有 144 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 144 stars, showing developer attention; repeat use and payment
+    are not yet verified.

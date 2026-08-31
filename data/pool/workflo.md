@@ -34,7 +34,7 @@ canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - hackernews

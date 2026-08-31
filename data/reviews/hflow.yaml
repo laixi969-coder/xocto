@@ -24,3 +24,93 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+- id: req-initial-hflow-2026-09-01
+  project_slug: hflow
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人团队多模态数据整理的痛点，任务明确，交付可确定（输出训练数据集）。工作流结构判断。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  - gate: consensus
+    status: insufficient
+    reason: 有社区讨论和 YC 背景，但缺乏用户采用或反馈证据。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，付费路径不明确。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  - gate: truth
+    status: supported
+    reason: 贴近机器人开发的第一性目标：数据质量决定模型性能。承诺可确定交付，安全边界明确。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  next_validation: 关注 HFlow 官网或项目页面是否发布定价、客户案例或公开使用数据。
+  market: ''
+  job: 机器人团队需要将多模态数据（传感器、视频、文本）整理成可用于训练模型的数据集。
+  job_en: Robotics teams need to organize multimodal data (sensors, video, text) into datasets for training
+    models.
+  pain: 数据清洗、标注和格式化耗时且易出错，缺乏可扩展的管道工具。
+  pain_en: Data cleaning, labeling, and formatting are time-consuming and error-prone, lacking scalable
+    pipeline tools.
+  current_alternative: 团队可能使用自建脚本或通用数据工具，但难以处理多模态和机器人特定需求。
+  current_alternative_en: Teams may use custom scripts or general data tools, but struggle with multimodal
+    and robotics-specific needs.
+  usage_reason: HFlow 提供专门针对机器人的数据管道，来自 YC 公司，有初步关注（社区讨论 23 分），可能解决团队的实际痛点。
+  usage_reason_en: HFlow offers robotics-specific data pipelines from a YC company, with initial attention
+    (community discussion 23 points), potentially solving real pain points.
+- id: req-full-hflow-2026-09-01
+  project_slug: hflow
+  level: full
+  reviewed_at: '2026-08-31T18:42:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人团队多模态数据整理的痛点，任务明确，交付可确定（输出训练数据集）。工作流结构判断。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  - gate: consensus
+    status: insufficient
+    reason: 有社区讨论和 YC 背景，但缺乏用户采用或反馈证据。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，付费路径不明确。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  - gate: truth
+    status: supported
+    reason: 贴近机器人开发的第一性目标：数据质量决定模型性能。承诺可确定交付，安全边界明确。
+    evidence_ids:
+    - ev-9fd1d3ca93e7c989
+    - ev-d4a787176f499d1a
+  next_validation: 关注 HFlow 官网或项目页面是否发布定价、客户案例或公开使用数据。
+  market: ''
+  job: 机器人团队需要将多模态数据（传感器、视频、文本）整理成可用于训练模型的数据集。
+  job_en: Robotics teams need to organize multimodal data (sensors, video, text) into datasets for training
+    models.
+  pain: 数据清洗、标注和格式化耗时且易出错，缺乏可扩展的管道工具。
+  pain_en: Data cleaning, labeling, and formatting are time-consuming and error-prone, lacking scalable
+    pipeline tools.
+  current_alternative: 团队可能使用自建脚本或通用数据工具，但难以处理多模态和机器人特定需求。
+  current_alternative_en: Teams may use custom scripts or general data tools, but struggle with multimodal
+    and robotics-specific needs.
+  usage_reason: HFlow 提供专门针对机器人的数据管道，来自 YC 公司，有初步关注（社区讨论 23 分），可能解决团队的实际痛点。
+  usage_reason_en: HFlow offers robotics-specific data pipelines from a YC company, with initial attention
+    (community discussion 23 points), potentially solving real pain points.

@@ -2,26 +2,40 @@
 slug: openinstinct
 name: OpenInstinct
 builder: Merit-Systems
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: OpenInstinct 是一个 iMessage 个人助手和密码保险库，用户通过 iMessage 与 AI 交互，管理密码和日常任务。具体工作流程和交付结果仍待核验。
+inspiration: 趋势是 AI 助手嵌入消息应用，同时整合安全功能。切入点是面向 iOS 用户提供本地优先的助手，但需注意密码管理的安全性和用户信任。
+summary_en: OpenInstinct is an iMessage personal assistant and password vault, allowing users to interact
+  with AI via iMessage to manage passwords and daily tasks. Specific workflows and deliverables remain
+  unverified.
+inspiration_en: The trend is AI assistants embedding in messaging apps while integrating security features.
+  The entry point is serving iOS users with a local-first assistant, but password management security
+  and user trust are critical.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 个人效率
+- 网络安全
+industries_en:
+- Personal Productivity
+- Cybersecurity
+jobs:
+- 个人用户
+- iOS 用户
+jobs_en:
+- Individual Users
+- iOS Users
+regions:
+- 全球
+regions_en:
+- Global
 open_source: true
 url: https://github.com/Merit-Systems/OpenInstinct
 canonical_url: https://github.com/Merit-Systems/OpenInstinct
 summary: iMessage personal assistant + password vault
 first_seen: '2026-08-25T14:42:47Z'
 last_seen: '2026-08-31T17:38:30Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

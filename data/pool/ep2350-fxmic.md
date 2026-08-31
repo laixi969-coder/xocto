@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/teenage-engineering
 summary: The programmable mic you can squeeze, shake & play
 first_seen: '2026-08-31T04:41:46Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

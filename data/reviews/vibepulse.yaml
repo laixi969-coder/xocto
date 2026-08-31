@@ -419,3 +419,42 @@
   usage_reason: 公开代码仓库有 172 个收藏、30 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 172 stars and 30 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-vibepulse-2026-09-01
+  project_slug: vibepulse
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者监控 AI 代理活动和及时响应的需求，痛点在于工作流中断，交付为可视化状态和提醒，结构上成立。
+    evidence_ids:
+    - ev-b2b1c21d1c08caab
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标增长，但缺乏用户反馈或采用证据，共识未验证。
+    evidence_ids:
+    - ev-9fa1c045e907c734
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 硬件组装和软件稳定性未验证，需实测。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际部署场景和硬件兼容性。
+  market: ''
+  job: 开发者需要实时了解 Claude Code 和 Codex 的使用情况，并在代理等待输入时收到提醒。
+  job_en: Developers need real-time visibility into Claude Code and Codex usage and alerts when agents
+    wait for input.
+  pain: 开发者可能错过代理需要输入的时刻，导致工作流中断；同时缺乏对使用情况的直观监控。
+  pain_en: Developers may miss moments when agents need input, causing workflow interruptions; also lack
+    intuitive monitoring of usage.
+  current_alternative: 开发者可能频繁切换窗口查看终端或依赖日志，效率低且容易遗漏。
+  current_alternative_en: Developers may frequently switch windows to check terminals or rely on logs,
+    which is inefficient and prone to missing alerts.
+  usage_reason: 开源仓库获得 175 星，显示开发者对硬件监控工具的兴趣，但持续使用和付费未核验。
+  usage_reason_en: The open-source repository has 175 stars, showing developer interest in hardware monitoring
+    tools, but sustained use and payment are not verified.

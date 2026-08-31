@@ -1,0 +1,75 @@
+- id: req-initial-manycore-steps-up-spatial-intelligence-push-as-ai-product-re-2026-09-01
+  project_slug: manycore-steps-up-spatial-intelligence-push-as-ai-product-re
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及空间智能和收入增长，未说明具体用户任务、痛点或交付物，无法判断价值结构。
+    evidence_ids:
+    - ev-5396e4e0b180a171
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用、评价或社区讨论的公开证据。
+    evidence_ids:
+    - ev-5396e4e0b180a171
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或商业模式。
+    evidence_ids:
+    - ev-5396e4e0b180a171
+  - gate: truth
+    status: insufficient
+    reason: 产品是否贴近第一性目标、交付是否确定均未披露。
+    evidence_ids:
+    - ev-5396e4e0b180a171
+  next_validation: 关注 Manycore 官网或官方公告，获取具体产品说明、定价和客户案例。
+  market: ''
+  job: 用户需要处理空间数据以支持建筑、地产等行业的决策。
+  job_en: Users need to process spatial data to support decisions in construction, real estate, and similar
+    industries.
+  pain: 空间数据处理复杂，传统方法耗时且易出错。
+  pain_en: Spatial data processing is complex, and traditional methods are time-consuming and error-prone.
+  current_alternative: 目前可能依赖人工或传统软件进行空间分析。
+  current_alternative_en: Currently, users may rely on manual or traditional software for spatial analysis.
+  usage_reason: 收入增长表明有采用，但具体使用场景和用户反馈尚未核验。
+  usage_reason_en: Revenue growth indicates adoption, but specific use cases and user feedback are not
+    yet verified.
+- id: req-full-manycore-steps-up-spatial-intelligence-push-as-ai-product-re-2026-09-01
+  project_slug: manycore-steps-up-spatial-intelligence-push-as-ai-product-re
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及空间智能和收入增长，未说明具体用户任务、痛点或交付物，无法判断价值结构。
+    evidence_ids:
+    - ev-5396e4e0b180a171
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 Manycore 官网或官方公告，获取具体产品说明、定价和客户案例。
+  market: ''
+  job: 用户需要处理空间数据以支持建筑、地产等行业的决策。
+  job_en: Users need to process spatial data to support decisions in construction, real estate, and similar
+    industries.
+  pain: 空间数据处理复杂，传统方法耗时且易出错。
+  pain_en: Spatial data processing is complex, and traditional methods are time-consuming and error-prone.
+  current_alternative: 目前可能依赖人工或传统软件进行空间分析。
+  current_alternative_en: Currently, users may rely on manual or traditional software for spatial analysis.
+  usage_reason: 收入增长表明有采用，但具体使用场景和用户反馈尚未核验。
+  usage_reason_en: Revenue growth indicates adoption, but specific use cases and user feedback are not
+    yet verified.

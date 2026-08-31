@@ -1,0 +1,75 @@
+- id: req-initial-澎湃新闻生成式人工智能产品再上新星映ai短剧创作平台完成服务登记-2026-09-01
+  project_slug: 澎湃新闻生成式人工智能产品再上新星映ai短剧创作平台完成服务登记
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决短剧创作效率问题，痛点明确，交付为AI生成的剧本或视频。
+    evidence_ids:
+    - ev-dba9ec4c00681b3e
+  - gate: consensus
+    status: insufficient
+    reason: 刚完成登记，缺乏用户反馈和采用数据。
+    evidence_ids:
+    - ev-dba9ec4c00681b3e
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能按订阅或按生成量收费，但未证实。
+    evidence_ids:
+    - ev-dba9ec4c00681b3e
+  - gate: truth
+    status: insufficient
+    reason: 技术实现和交付质量需实际测试验证。
+    evidence_ids:
+    - ev-dba9ec4c00681b3e
+  next_validation: 关注星映AI平台上线后的功能演示、用户评价和定价信息。
+  market: ''
+  job: 短剧创作者需要快速生成剧本、分镜和成片，AI平台旨在简化创作流程。
+  job_en: Short drama creators need to quickly generate scripts, storyboards, and final videos; AI platforms
+    aim to streamline creation.
+  pain: 传统短剧制作周期长、成本高，AI可降低门槛。
+  pain_en: Traditional short drama production is time-consuming and costly; AI can lower barriers.
+  current_alternative: 当前替代是人工编剧、拍摄和剪辑，或使用通用AI视频生成工具。
+  current_alternative_en: Current alternatives are human writing, shooting, and editing, or general AI
+    video generation tools.
+  usage_reason: 澎湃新闻的品牌背书可能吸引创作者尝试，但具体采用情况未核验。
+  usage_reason_en: The Paper's brand endorsement may attract creators, but adoption is unverified.
+- id: req-full-澎湃新闻生成式人工智能产品再上新星映ai短剧创作平台完成服务登记-2026-09-01
+  project_slug: 澎湃新闻生成式人工智能产品再上新星映ai短剧创作平台完成服务登记
+  level: full
+  reviewed_at: '2026-08-31T18:47:12Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及平台完成服务登记，未披露具体功能、输入输出或交付物，无法还原用户任务与痛点，价值结构不成立。
+    evidence_ids:
+    - ev-dba9ec4c00681b3e
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注星映AI平台上线后的功能演示、用户评价和定价信息。
+  market: ''
+  job: 短剧创作者需要快速生成剧本、分镜和成片，AI平台旨在简化创作流程。
+  job_en: Short drama creators need to quickly generate scripts, storyboards, and final videos; AI platforms
+    aim to streamline creation.
+  pain: 传统短剧制作周期长、成本高，AI可降低门槛。
+  pain_en: Traditional short drama production is time-consuming and costly; AI can lower barriers.
+  current_alternative: 当前替代是人工编剧、拍摄和剪辑，或使用通用AI视频生成工具。
+  current_alternative_en: Current alternatives are human writing, shooting, and editing, or general AI
+    video generation tools.
+  usage_reason: 澎湃新闻的品牌背书可能吸引创作者尝试，但具体采用情况未核验。
+  usage_reason_en: The Paper's brand endorsement may attract creators, but adoption is unverified.

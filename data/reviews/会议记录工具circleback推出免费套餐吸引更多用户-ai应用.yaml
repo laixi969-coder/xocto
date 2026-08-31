@@ -1,0 +1,76 @@
+- id: req-initial-会议记录工具circleback推出免费套餐吸引更多用户-ai应用-2026-09-01
+  project_slug: 会议记录工具circleback推出免费套餐吸引更多用户-ai应用
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议后整理笔记和行动项的需求，痛点在于手动记录耗时且易遗漏。工作流结构判断：AI自动生成摘要和行动项，交付可确定。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有推出免费套餐的新闻，缺乏用户采用或留存数据。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，免费套餐可能为freemium模式，但具体转化路径未公开。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  - gate: truth
+    status: insufficient
+    reason: 产品功能细节和实际效果未公开，需进一步验证。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  next_validation: 关注Circleback官网的定价页和用户评价，以及免费用户向付费用户的转化率。
+  market: ''
+  job: 职场人士在会议后需要整理笔记、提取行动项，以便跟进。
+  job_en: Professionals need to organize notes and extract action items after meetings for follow-up.
+  pain: 手动记录会议耗时且易遗漏关键信息，影响后续执行。
+  pain_en: Manual note-taking is time-consuming and prone to missing key information, affecting follow-up.
+  current_alternative: 目前多依赖手动笔记或通用录音转文字工具，缺乏结构化整理。
+  current_alternative_en: Currently relies on manual notes or general transcription tools, lacking structured
+    organization.
+  usage_reason: 免费套餐降低试用门槛，吸引用户尝试AI自动整理功能。
+  usage_reason_en: The free tier lowers the barrier to trial, attracting users to try AI-powered auto-organization.
+- id: req-full-会议记录工具circleback推出免费套餐吸引更多用户-ai应用-2026-09-01
+  project_slug: 会议记录工具circleback推出免费套餐吸引更多用户-ai应用
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议后整理笔记和行动项的需求，痛点在于手动记录耗时且易遗漏。工作流结构判断：AI自动生成摘要和行动项，交付可确定。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有推出免费套餐的新闻，缺乏用户采用或留存数据。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，免费套餐可能为freemium模式，但具体转化路径未公开。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  - gate: truth
+    status: insufficient
+    reason: 产品功能细节和实际效果未公开，需进一步验证。
+    evidence_ids:
+    - ev-61b87f88af9e48b6
+  next_validation: 关注Circleback官网的定价页和用户评价，以及免费用户向付费用户的转化率。
+  market: ''
+  job: 职场人士在会议后需要整理笔记、提取行动项，以便跟进。
+  job_en: Professionals need to organize notes and extract action items after meetings for follow-up.
+  pain: 手动记录会议耗时且易遗漏关键信息，影响后续执行。
+  pain_en: Manual note-taking is time-consuming and prone to missing key information, affecting follow-up.
+  current_alternative: 目前多依赖手动笔记或通用录音转文字工具，缺乏结构化整理。
+  current_alternative_en: Currently relies on manual notes or general transcription tools, lacking structured
+    organization.
+  usage_reason: 免费套餐降低试用门槛，吸引用户尝试AI自动整理功能。
+  usage_reason_en: The free tier lowers the barrier to trial, attracting users to try AI-powered auto-organization.

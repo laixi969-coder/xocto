@@ -1,0 +1,82 @@
+- id: req-initial-sepia-2026-09-01
+  project_slug: sepia
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 文本模式化问题，针对小说和专业写作提供结构修复和场景匹配，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  - gate: consensus
+    status: supported
+    reason: 开源社区关注度高，1192 星表明有初步共识，但尚未验证持续采用。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，可能通过云托管或高级功能收费，但未验证。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  - gate: truth
+    status: supported
+    reason: 基于学术论文 StoryScope，技术有据可查，交付确定性较高。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  next_validation: 关注仓库的 issue 讨论和用户反馈，以及是否有付费版本或企业采用案例。
+  market: ''
+  job: 作者和写作者希望 AI 生成的文本去除机械感，符合特定文体和场景。
+  job_en: Authors and writers want AI-generated text to lose its mechanical feel and conform to specific
+    genres and contexts.
+  pain: AI 生成的文本常带有模式化痕迹，需要大量人工修改才能达到出版或专业标准。
+  pain_en: AI-generated text often has formulaic traces, requiring extensive manual editing to meet publishing
+    or professional standards.
+  current_alternative: 目前作者依赖人工编辑或自行修改，耗时且主观。
+  current_alternative_en: Currently, authors rely on human editors or self-editing, which is time-consuming
+    and subjective.
+  usage_reason: 开源仓库获得 1192 星，说明开发者社区对去 AI 化写作有需求。
+  usage_reason_en: The open-source repository has 1,192 stars, indicating demand for de-AI writing in
+    the developer community.
+- id: req-full-sepia-2026-09-01
+  project_slug: sepia
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 文本模式化问题，针对小说和专业写作提供结构修复和场景匹配，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  - gate: consensus
+    status: supported
+    reason: 开源社区关注度高，1192 星表明有初步共识，但尚未验证持续采用。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，可能通过云托管或高级功能收费，但未验证。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  - gate: truth
+    status: supported
+    reason: 基于学术论文 StoryScope，技术有据可查，交付确定性较高。
+    evidence_ids:
+    - ev-3067450cb2f4900d
+  next_validation: 关注仓库的 issue 讨论和用户反馈，以及是否有付费版本或企业采用案例。
+  market: ''
+  job: 作者和写作者希望 AI 生成的文本去除机械感，符合特定文体和场景。
+  job_en: Authors and writers want AI-generated text to lose its mechanical feel and conform to specific
+    genres and contexts.
+  pain: AI 生成的文本常带有模式化痕迹，需要大量人工修改才能达到出版或专业标准。
+  pain_en: AI-generated text often has formulaic traces, requiring extensive manual editing to meet publishing
+    or professional standards.
+  current_alternative: 目前作者依赖人工编辑或自行修改，耗时且主观。
+  current_alternative_en: Currently, authors rely on human editors or self-editing, which is time-consuming
+    and subjective.
+  usage_reason: 开源仓库获得 1192 星，说明开发者社区对去 AI 化写作有需求。
+  usage_reason_en: The open-source repository has 1,192 stars, indicating demand for de-AI writing in
+    the developer community.

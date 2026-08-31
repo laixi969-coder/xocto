@@ -71,3 +71,85 @@
   current_alternative_en: Existing alternatives include traditional automation tools or manual work.
   usage_reason: 关注源于品类开创和访问量，但付费和留存未核验。
   usage_reason_en: Attention stems from category creation and traffic, but payment and retention unverified.
+- id: req-initial-openclaw-2026-09-01
+  project_slug: openclaw
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户在聊天应用内完成自动化任务的需求，痛点在于现有助手集成度低。工作流结构判断：用户已在使用聊天应用，AI 嵌入可减少切换。
+    evidence_ids:
+    - ev-da8a55b1a2a9d292
+  - gate: consensus
+    status: supported
+    reason: 31 万+ 代码仓库星和 478 万月访问量显示广泛关注，但环比下降 39.27% 表明热度减退，需关注留存。
+    evidence_ids:
+    - ev-5a9a4255725cc837
+    - ev-ff165434f6782aab
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确商业模式，付费路径未披露。可能通过云托管或高级功能收费，但未证实。
+    evidence_ids:
+    - ev-5a9a4255725cc837
+  - gate: truth
+    status: supported
+    reason: 产品贴近个人自动化需求，交付可确定，但需验证任务执行的可靠性和安全性。
+    evidence_ids:
+    - ev-d1aab744966047f1
+  next_validation: 关注 OpenClaw 2.0 的用户反馈和实际使用案例，以及代码仓库上的 issue 和讨论。
+  market: ''
+  job: 用户希望在熟悉的聊天应用内完成跨平台任务自动化，如管理日程、发送消息、获取信息等。
+  job_en: Users want to automate cross-platform tasks within familiar chat apps, such as managing schedules,
+    sending messages, and retrieving information.
+  pain: 现有 AI 助手需要打开独立应用或网页，操作繁琐，且难以与日常使用的聊天工具集成。
+  pain_en: Existing AI assistants require opening a separate app or webpage, which is cumbersome and difficult
+    to integrate with daily-used chat tools.
+  current_alternative: 用户可能使用 Siri、Google Assistant 或手动操作多个应用。
+  current_alternative_en: Users may use Siri, Google Assistant, or manually operate multiple apps.
+  usage_reason: 开源免费，且能直接在常用聊天应用中运行，降低切换成本，吸引技术爱好者尝试。
+  usage_reason_en: Open-source and free, runs directly in common chat apps, reducing switching costs,
+    attracting tech enthusiasts.
+- id: req-full-openclaw-2026-09-01
+  project_slug: openclaw
+  level: full
+  reviewed_at: '2026-08-31T18:44:01Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户在聊天应用内完成自动化任务的需求，痛点在于现有助手集成度低。工作流结构判断：用户已在使用聊天应用，AI 嵌入可减少切换。
+    evidence_ids:
+    - ev-da8a55b1a2a9d292
+  - gate: consensus
+    status: supported
+    reason: 31 万+ 代码仓库星和 478 万月访问量显示广泛关注，但环比下降 39.27% 表明热度减退，需关注留存。
+    evidence_ids:
+    - ev-5a9a4255725cc837
+    - ev-ff165434f6782aab
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确商业模式，付费路径未披露。可能通过云托管或高级功能收费，但未证实。
+    evidence_ids:
+    - ev-5a9a4255725cc837
+  - gate: truth
+    status: supported
+    reason: 产品贴近个人自动化需求，交付可确定，但需验证任务执行的可靠性和安全性。
+    evidence_ids:
+    - ev-d1aab744966047f1
+  next_validation: 关注 OpenClaw 2.0 的用户反馈和实际使用案例，以及代码仓库上的 issue 和讨论。
+  market: ''
+  job: 用户希望在熟悉的聊天应用内完成跨平台任务自动化，如管理日程、发送消息、获取信息等。
+  job_en: Users want to automate cross-platform tasks within familiar chat apps, such as managing schedules,
+    sending messages, and retrieving information.
+  pain: 现有 AI 助手需要打开独立应用或网页，操作繁琐，且难以与日常使用的聊天工具集成。
+  pain_en: Existing AI assistants require opening a separate app or webpage, which is cumbersome and difficult
+    to integrate with daily-used chat tools.
+  current_alternative: 用户可能使用 Siri、Google Assistant 或手动操作多个应用。
+  current_alternative_en: Users may use Siri, Google Assistant, or manually operate multiple apps.
+  usage_reason: 开源免费，且能直接在常用聊天应用中运行，降低切换成本，吸引技术爱好者尝试。
+  usage_reason_en: Open-source and free, runs directly in common chat apps, reducing switching costs,
+    attracting tech enthusiasts.

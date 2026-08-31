@@ -151,3 +151,42 @@
   usage_reason: 公开代码仓库有 96 个收藏、6 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 96 stars and 6 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-cdaf-2026-09-01
+  project_slug: cdaf
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理重复分析视频的痛点：通过缓存描述性资产文件避免重复分析。痛点刚性：重复分析浪费计算资源。交付可确定：提供规范、CLI 和基准。工作流结构推理成立。
+    evidence_ids:
+    - ev-dfd3b9ff5e8a62c5
+  - gate: consensus
+    status: insufficient
+    reason: 星标 102，无用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-d344f395fa5911b6
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，付费方不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性和基准可复现性未验证，需公开证据。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户部署案例。
+  market: ''
+  job: AI 视频分析工程师需要避免重复分析同一段视频，节省计算资源。
+  job_en: AI video analysis engineers need to avoid re-analyzing the same footage, saving computational
+    resources.
+  pain: 重复分析视频浪费时间和计算成本，尤其在处理大量素材时。
+  pain_en: Re-analyzing videos wastes time and computational cost, especially when processing large amounts
+    of footage.
+  current_alternative: 目前可能每次重新分析或手动缓存结果，缺乏标准化格式。
+  current_alternative_en: Currently may re-analyze each time or manually cache results, lacking a standardized
+    format.
+  usage_reason: 仓库星标从 98 增至 102，显示开发者关注；但采用和付费未核验。
+  usage_reason_en: Repository stars grew from 98 to 102, showing developer attention; adoption and payment
+    not verified.

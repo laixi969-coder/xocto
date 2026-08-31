@@ -1,0 +1,74 @@
+- id: req-initial-ida-instances-mcp-2026-09-01
+  project_slug: ida-instances-mcp
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决逆向工程师手动分析恶意代码的痛点，自动化执行反汇编和函数分析，交付可核对的分析结果。工作流结构判断。
+    evidence_ids:
+    - ev-fcb8b4251f1154a6
+  - gate: consensus
+    status: insufficient
+    reason: 112 星标显示一定关注，但缺乏社区讨论或采用证据。
+    evidence_ids:
+    - ev-fcb8b4251f1154a6
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向安全团队或服务商，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供实际使用案例或部署文档，交付确定性待验证。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue、讨论和实际使用案例，以及是否有安全公司采用。
+  market: ''
+  job: 自动化 IDA Pro 逆向分析，减少人工操作。
+  job_en: Automate IDA Pro reverse engineering, reducing manual effort.
+  pain: 逆向分析耗时且需要专业知识，人工分析大量恶意代码效率低。
+  pain_en: Reverse engineering is time-consuming and requires expertise; manual analysis of large amounts
+    of malware is inefficient.
+  current_alternative: 手动使用 IDA Pro 或编写脚本，但难以规模化。
+  current_alternative_en: Manually using IDA Pro or writing scripts, but hard to scale.
+  usage_reason: 安全社区对自动化逆向有明确需求，项目获得 112 星标表明关注，但付费采用尚未核验。
+  usage_reason_en: The security community has a clear need for automated reverse engineering; the project's
+    112 stars indicate interest, but paid adoption is not yet verified.
+- id: req-full-ida-instances-mcp-2026-09-01
+  project_slug: ida-instances-mcp
+  level: full
+  reviewed_at: '2026-08-31T18:42:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决逆向工程师手动分析恶意代码的痛点，自动化执行反汇编和函数分析，交付可核对的分析结果。工作流结构判断。
+    evidence_ids:
+    - ev-fcb8b4251f1154a6
+  - gate: consensus
+    status: insufficient
+    reason: 112 星标显示一定关注，但缺乏社区讨论或采用证据。
+    evidence_ids:
+    - ev-fcb8b4251f1154a6
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向安全团队或服务商，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供实际使用案例或部署文档，交付确定性待验证。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue、讨论和实际使用案例，以及是否有安全公司采用。
+  market: ''
+  job: 自动化 IDA Pro 逆向分析，减少人工操作。
+  job_en: Automate IDA Pro reverse engineering, reducing manual effort.
+  pain: 逆向分析耗时且需要专业知识，人工分析大量恶意代码效率低。
+  pain_en: Reverse engineering is time-consuming and requires expertise; manual analysis of large amounts
+    of malware is inefficient.
+  current_alternative: 手动使用 IDA Pro 或编写脚本，但难以规模化。
+  current_alternative_en: Manually using IDA Pro or writing scripts, but hard to scale.
+  usage_reason: 安全社区对自动化逆向有明确需求，项目获得 112 星标表明关注，但付费采用尚未核验。
+  usage_reason_en: The security community has a clear need for automated reverse engineering; the project's
+    112 stars indicate interest, but paid adoption is not yet verified.

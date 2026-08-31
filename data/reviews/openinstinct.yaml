@@ -1,0 +1,77 @@
+- id: req-initial-openinstinct-2026-09-01
+  project_slug: openinstinct
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 iMessage 内个人助理和密码管理需求，但具体痛点不明确，旧替代行为未清晰描述。
+    evidence_ids:
+    - ev-7ee23bc1688eeaf6
+  - gate: consensus
+    status: insufficient
+    reason: 代码仓库 220 星显示初步关注，但缺乏用户评价或采用证据。
+    evidence_ids:
+    - ev-7ee23bc1688eeaf6
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无商业模式信息。
+    evidence_ids:
+    - ev-7ee23bc1688eeaf6
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述模糊，无法确认交付确定性。
+    evidence_ids:
+    - ev-7ee23bc1688eeaf6
+  next_validation: 关注代码仓库的 README 更新和 issue，以了解具体功能和用户反馈。
+  market: ''
+  job: 用户希望在 iMessage 中完成个人助理任务，并安全存储密码。
+  job_en: Users want to perform personal assistant tasks within iMessage and securely store passwords.
+  pain: 现有密码管理器与聊天应用分离，使用不便；iMessage 助手功能不明确。
+  pain_en: Existing password managers are separate from chat apps, inconvenient; iMessage assistant features
+    are unclear.
+  current_alternative: 用户可能使用 iCloud 钥匙串或第三方密码管理器，以及 Siri 等助手。
+  current_alternative_en: Users may use iCloud Keychain or third-party password managers, and assistants
+    like Siri.
+  usage_reason: 开源且集成 iMessage，可能吸引 iOS 用户尝试，但需求强度未明。
+  usage_reason_en: Open-source and integrated with iMessage, may attract iOS users, but demand strength
+    is unclear.
+- id: req-full-openinstinct-2026-09-01
+  project_slug: openinstinct
+  level: full
+  reviewed_at: '2026-08-31T18:44:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 iMessage 内个人助理和密码管理需求，但具体痛点不明确，旧替代行为未清晰描述。
+    evidence_ids:
+    - ev-7ee23bc1688eeaf6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注代码仓库的 README 更新和 issue，以了解具体功能和用户反馈。
+  market: ''
+  job: 用户希望在 iMessage 中完成个人助理任务，并安全存储密码。
+  job_en: Users want to perform personal assistant tasks within iMessage and securely store passwords.
+  pain: 现有密码管理器与聊天应用分离，使用不便；iMessage 助手功能不明确。
+  pain_en: Existing password managers are separate from chat apps, inconvenient; iMessage assistant features
+    are unclear.
+  current_alternative: 用户可能使用 iCloud 钥匙串或第三方密码管理器，以及 Siri 等助手。
+  current_alternative_en: Users may use iCloud Keychain or third-party password managers, and assistants
+    like Siri.
+  usage_reason: 开源且集成 iMessage，可能吸引 iOS 用户尝试，但需求强度未明。
+  usage_reason_en: Open-source and integrated with iMessage, may attract iOS users, but demand strength
+    is unclear.

@@ -1,0 +1,82 @@
+- id: req-initial-open-seo-mcp-skills-2026-09-01
+  project_slug: open-seo-mcp-skills
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 专员数据分散、分析耗时的问题，通过 MCP 接入真实数据并生成洞察，交付可核对。工作流结构判断：旧替代是手动聚合多个平台数据，AI 自动化能显著减少时间。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  - gate: consensus
+    status: insufficient
+    reason: 代码仓库 170 星显示初步关注，但缺乏用户评价或采用证据，无法确认是否被广泛使用。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确商业模式，付费路径未披露。可能通过托管服务或高级功能收费，但未证实。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  - gate: truth
+    status: supported
+    reason: 产品贴近 SEO 工作的第一性目标，交付可确定，但需验证 AI 生成的洞察准确性。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户分享实际使用案例。
+  market: ''
+  job: SEO 专员需要持续监控关键词排名、网站健康、外链和竞争对手动态，并据此调整优化策略。
+  job_en: SEO specialists need to continuously monitor keyword rankings, site health, backlinks, and competitor
+    movements, and adjust optimization strategies accordingly.
+  pain: 传统 SEO 工具数据分散，需要手动汇总多个平台，分析耗时且容易遗漏关键变化。
+  pain_en: Traditional SEO tools scatter data across platforms, requiring manual aggregation, which is
+    time-consuming and prone to missing key changes.
+  current_alternative: 目前主要依赖 Ahrefs、Semrush 等专业工具，或手动在 Search Console 和 GA4 之间切换。
+  current_alternative_en: Currently relies on professional tools like Ahrefs and Semrush, or manually
+    switching between Search Console and GA4.
+  usage_reason: 开源免费且能直接接入真实数据，降低工具成本，并可能通过 AI 自动化分析流程。
+  usage_reason_en: Open-source and free, directly integrates real data, reducing tool costs and potentially
+    automating analysis workflows with AI.
+- id: req-full-open-seo-mcp-skills-2026-09-01
+  project_slug: open-seo-mcp-skills
+  level: full
+  reviewed_at: '2026-08-31T18:44:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 专员数据分散、分析耗时的问题，通过 MCP 接入真实数据并生成洞察，交付可核对。工作流结构判断：旧替代是手动聚合多个平台数据，AI 自动化能显著减少时间。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  - gate: consensus
+    status: insufficient
+    reason: 代码仓库 170 星显示初步关注，但缺乏用户评价或采用证据，无法确认是否被广泛使用。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确商业模式，付费路径未披露。可能通过托管服务或高级功能收费，但未证实。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  - gate: truth
+    status: supported
+    reason: 产品贴近 SEO 工作的第一性目标，交付可确定，但需验证 AI 生成的洞察准确性。
+    evidence_ids:
+    - ev-5803cedd9ee6adfb
+  next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户分享实际使用案例。
+  market: ''
+  job: SEO 专员需要持续监控关键词排名、网站健康、外链和竞争对手动态，并据此调整优化策略。
+  job_en: SEO specialists need to continuously monitor keyword rankings, site health, backlinks, and competitor
+    movements, and adjust optimization strategies accordingly.
+  pain: 传统 SEO 工具数据分散，需要手动汇总多个平台，分析耗时且容易遗漏关键变化。
+  pain_en: Traditional SEO tools scatter data across platforms, requiring manual aggregation, which is
+    time-consuming and prone to missing key changes.
+  current_alternative: 目前主要依赖 Ahrefs、Semrush 等专业工具，或手动在 Search Console 和 GA4 之间切换。
+  current_alternative_en: Currently relies on professional tools like Ahrefs and Semrush, or manually
+    switching between Search Console and GA4.
+  usage_reason: 开源免费且能直接接入真实数据，降低工具成本，并可能通过 AI 自动化分析流程。
+  usage_reason_en: Open-source and free, directly integrates real data, reducing tool costs and potentially
+    automating analysis workflows with AI.

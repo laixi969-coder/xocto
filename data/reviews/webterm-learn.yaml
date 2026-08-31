@@ -1,0 +1,82 @@
+- id: req-initial-webterm-learn-2026-09-01
+  project_slug: webterm-learn
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决终端学习枯燥、入门难的问题，替代传统教程和模拟器，交付即时反馈和游戏化进度，价值成立。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品发布，缺乏用户评价或采用数据，共识未形成。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能面向个人用户，但付费意愿未验证。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  - gate: truth
+    status: supported
+    reason: 产品贴近学习终端的第一性目标，交付可确定，但需确保内容准确性和教学效果。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  next_validation: 关注 WebTerm Learn 是否提供免费试用、课程大纲或用户学习成果数据，以及社区产品平台上的评论。
+  market: ''
+  job: 编程初学者希望以低压力、有趣的方式掌握终端命令，避免枯燥的文档学习。
+  job_en: Programming beginners want to learn terminal commands in a low-pressure, fun way, avoiding tedious
+    documentation.
+  pain: 终端命令学习曲线陡峭，传统教程枯燥，初学者容易放弃。
+  pain_en: The terminal command learning curve is steep, traditional tutorials are boring, and beginners
+    often give up.
+  current_alternative: 阅读命令行教程、观看视频课程或使用交互式终端模拟器。
+  current_alternative_en: Reading command-line tutorials, watching video courses, or using interactive
+    terminal simulators.
+  usage_reason: 游戏化机制提高学习动机，浏览器沙盒无需本地配置，降低入门障碍。
+  usage_reason_en: Gamification boosts motivation, and the browser sandbox eliminates local setup, lowering
+    entry barriers.
+- id: req-full-webterm-learn-2026-09-01
+  project_slug: webterm-learn
+  level: full
+  reviewed_at: '2026-08-31T18:46:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决终端学习枯燥、入门难的问题，替代传统教程和模拟器，交付即时反馈和游戏化进度，价值成立。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品发布，缺乏用户评价或采用数据，共识未形成。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能面向个人用户，但付费意愿未验证。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  - gate: truth
+    status: supported
+    reason: 产品贴近学习终端的第一性目标，交付可确定，但需确保内容准确性和教学效果。
+    evidence_ids:
+    - ev-3d09c11948a77963
+  next_validation: 关注 WebTerm Learn 是否提供免费试用、课程大纲或用户学习成果数据，以及社区产品平台上的评论。
+  market: ''
+  job: 编程初学者希望以低压力、有趣的方式掌握终端命令，避免枯燥的文档学习。
+  job_en: Programming beginners want to learn terminal commands in a low-pressure, fun way, avoiding tedious
+    documentation.
+  pain: 终端命令学习曲线陡峭，传统教程枯燥，初学者容易放弃。
+  pain_en: The terminal command learning curve is steep, traditional tutorials are boring, and beginners
+    often give up.
+  current_alternative: 阅读命令行教程、观看视频课程或使用交互式终端模拟器。
+  current_alternative_en: Reading command-line tutorials, watching video courses, or using interactive
+    terminal simulators.
+  usage_reason: 游戏化机制提高学习动机，浏览器沙盒无需本地配置，降低入门障碍。
+  usage_reason_en: Gamification boosts motivation, and the browser sandbox eliminates local setup, lowering
+    entry barriers.

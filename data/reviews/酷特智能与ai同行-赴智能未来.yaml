@@ -1,0 +1,71 @@
+- id: req-initial-酷特智能与ai同行-赴智能未来-2026-09-01
+  project_slug: 酷特智能与ai同行-赴智能未来
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道未说明AI具体解决什么需求或痛点，无法判断价值。
+    evidence_ids:
+    - ev-7ec767d7da86c374
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用证据。
+    evidence_ids:
+    - ev-7ec767d7da86c374
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式。
+    evidence_ids:
+    - ev-7ec767d7da86c374
+  - gate: truth
+    status: insufficient
+    reason: 缺乏产品细节，无法验证。
+    evidence_ids:
+    - ev-7ec767d7da86c374
+  next_validation: 关注酷特智能官方公告或财报，获取AI应用的具体信息。
+  market: ''
+  job: 服装制造企业需要提升生产效率、降低成本。
+  job_en: Apparel manufacturers need to improve production efficiency and reduce costs.
+  pain: 传统制造流程效率低，人工成本高。
+  pain_en: Traditional manufacturing processes are inefficient and labor costs are high.
+  current_alternative: 目前可能依赖人工管理和传统ERP系统。
+  current_alternative_en: Currently may rely on manual management and traditional ERP systems.
+  usage_reason: 报道未提供具体AI应用，采用原因不明。
+  usage_reason_en: The report does not provide specific AI applications, and adoption reasons are unclear.
+- id: req-full-酷特智能与ai同行-赴智能未来-2026-09-01
+  project_slug: 酷特智能与ai同行-赴智能未来
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 报道未说明AI具体解决什么需求或痛点，无法判断价值。
+    evidence_ids:
+    - ev-7ec767d7da86c374
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注酷特智能官方公告或财报，获取AI应用的具体信息。
+  market: ''
+  job: 服装制造企业需要提升生产效率、降低成本。
+  job_en: Apparel manufacturers need to improve production efficiency and reduce costs.
+  pain: 传统制造流程效率低，人工成本高。
+  pain_en: Traditional manufacturing processes are inefficient and labor costs are high.
+  current_alternative: 目前可能依赖人工管理和传统ERP系统。
+  current_alternative_en: Currently may rely on manual management and traditional ERP systems.
+  usage_reason: 报道未提供具体AI应用，采用原因不明。
+  usage_reason_en: The report does not provide specific AI applications, and adoption reasons are unclear.

@@ -342,3 +342,42 @@
   usage_reason: 仓库获得 84 星，表明开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 84 stars, showing developer interest, but sustained use and payment
     are not yet verified.
+- id: req-full-dualforge-workflow-2026-09-01
+  project_slug: dualforge-workflow
+  level: full
+  reviewed_at: '2026-08-31T18:41:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者协调多个 AI 编码代理的需求，痛点在于冲突和效率低下，交付为分工框架，结构上成立。
+    evidence_ids:
+    - ev-734f647ea10f1818
+  - gate: consensus
+    status: insufficient
+    reason: 星标数较低但增长，显示一定关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-99dd2ba4230c9e39
+    - ev-7784b029fec516c8
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为分工框架，但实际协作效果和稳定性缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对协作效果、配置体验的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 在 Claude 和 Codex 之间建立明确的分工协作，减少冲突，提高效率。
+  job_en: Establish clear division of labor between Claude and Codex, reducing conflicts and improving
+    efficiency.
+  pain: 开发者同时使用多个 AI 编码代理时，缺乏协调导致冲突和效率低下。
+  pain_en: Developers using multiple AI coding agents lack coordination, causing conflicts and inefficiency.
+  current_alternative: 开发者可能手动分配任务或使用单一代理，但无法充分利用多个代理的优势。
+  current_alternative_en: Developers may manually assign tasks or use a single agent, failing to leverage
+    multiple agents.
+  usage_reason: 仓库星标从 75 增长到 101，显示一定关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 75 to 101, showing some interest, but sustained use
+    and payment are unverified.

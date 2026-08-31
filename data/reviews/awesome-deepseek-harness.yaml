@@ -304,3 +304,39 @@
   usage_reason: 仓库获得205星，显示开发者关注，但目录类项目可能只是收藏，持续使用和付费未核验。
   usage_reason_en: The repository has 205 stars, showing developer attention, but directory projects may
     be bookmarked rather than actively used; sustained usage and payment are not verified.
+- id: req-full-awesome-deepseek-harness-2026-09-01
+  project_slug: awesome-deepseek-harness
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助开发者发现 DSH 插件，但公开材料仅有产品描述，未说明具体痛点、频率或不采用代价，无法判断需求强度。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该项目的 GitHub 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。
+  market: ''
+  job: 开发者需要发现和选择 DeepSeek Harness 的插件、技能和工具。
+  job_en: Developers need to discover and select plugins, skills, and tools for DeepSeek Harness.
+  pain: 插件生态分散，难以发现，但公开材料未说明具体痛点强度或不采用代价。
+  pain_en: The plugin ecosystem is fragmented and hard to discover, but public materials do not specify
+    the pain intensity or cost of not using it.
+  current_alternative: 公开材料未说明用户当前如何发现插件，可能通过搜索或社区推荐，但尚未核验。
+  current_alternative_en: Public materials do not show how users currently discover plugins; they may
+    use search or community recommendations, but this is unverified.
+  usage_reason: 仓库有 205 个收藏，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 205 stars, showing developer attention, but sustained use and payment
+    are unverified.

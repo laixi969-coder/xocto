@@ -425,3 +425,42 @@
   usage_reason: 仓库获得 98-106 个星标，显示开发者社区关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 98-106 stars, showing developer attention, but sustained use and
     payment are not yet verified.
+- id: req-full-h3-game-sprites-2026-09-01
+  project_slug: h3-game-sprites
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏美术从视频提取精灵帧的繁琐痛点，自动化转换流程，交付可确定（精灵表文件）。工作流结构判断。
+    evidence_ids:
+    - ev-4782395a012a91ca
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 108 个星标；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-37c79f676e253195
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 游戏美术、独立游戏开发者需要将 AI 生成的视频转换为 2D 游戏精灵表。
+  job_en: Game artists and indie game developers need to convert AI-generated video into 2D game sprite
+    sheets.
+  pain: 手动从视频中提取精灵帧耗时且繁琐，传统方法需要逐帧抠图。
+  pain_en: Manually extracting sprite frames from video is time-consuming and tedious; traditional methods
+    require frame-by-frame cutout.
+  current_alternative: 目前可能使用视频编辑软件逐帧截取，或使用专门的精灵表工具，但效率低。
+  current_alternative_en: Currently may use video editing software to capture frames one by one, or use
+    dedicated sprite sheet tools, but inefficient.
+  usage_reason: 公开代码仓库有 108 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 108 stars, showing developer attention; repeat use and payment
+    are not yet verified.

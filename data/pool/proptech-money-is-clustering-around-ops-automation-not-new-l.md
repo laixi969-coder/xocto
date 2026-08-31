@@ -1,11 +1,12 @@
 ---
 slug: proptech-money-is-clustering-around-ops-automation-not-new-l
-name: Proptech money is clustering around ops automation, not new listing sites
+name: Proptech
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 房地产科技（Proptech）投资正集中在运营自动化领域，而非新的房源列表网站，反映行业对效率提升的关注。
 inspiration: ''
-summary_en: ''
+summary_en: Proptech investment is clustering around operations automation rather than new listing sites,
+  reflecting the industry's focus on efficiency.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLWhMaGRxcWkt
 summary: Proptech money is clustering around ops automation, not new listing sites MarketScale
 first_seen: '2026-08-31T12:30:23Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Proptech money is clustering around ops automation, not new listing sites
+# Proptech
 
 Proptech money is clustering around ops automation, not new listing sites MarketScale
 

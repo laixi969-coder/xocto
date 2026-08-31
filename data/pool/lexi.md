@@ -3,19 +3,26 @@ slug: lexi
 name: Lexi
 builder: Shyam Sunder
 category: AI + 商业
-summary_zh: 律所用一个工作台处理研究、起草、审查和案件材料，律师只留下判断和客户
-inspiration: 趋势是垂直工作台真正在卖的，是把散落在十几个工具里的流程收回一处。不要做单点合同审查，先切律所机械活：时间线、初稿、风险条款。企业谈价，公开标价未披露。
-summary_en: A law firm runs research, drafting, review, and case files in one bench, and lawyers keep
-  judgment and the client.
-inspiration_en: 'The trend is that vertical benches sell one thing: pulling a process out of a dozen tools.
-  Don''t ship standalone contract review. Start with firm grunt work — timelines, first drafts, risky
-  clauses. Enterprise pricing; the public list price is undisclosed.'
+summary_zh: Lexi 定位为法律工作的操作系统，面向律师和法律团队，处理案件文档、合同等材料，AI 执行整理、检索、生成等动作，交付可用的法律工作成果。具体流程和交付仍待核验。
+inspiration: 趋势是 AI 深入垂直行业工作流，法律是典型的高价值场景。不要做通用文档工具，从合同审查或案例检索切入，按案件或文档收费，建立行业数据壁垒。
+summary_en: Lexi is positioned as the operating system for legal work, targeting lawyers and legal teams.
+  It processes case documents, contracts, and other materials; AI performs organization, retrieval, and
+  generation, delivering usable legal work products. Specific workflow and deliverables still to be verified.
+inspiration_en: 'Trend: AI penetrates vertical industry workflows; legal is a high-value scenario. Don''t
+  build generic document tools; enter contract review or case research, charge per case or document, and
+  build industry data moats.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 法律服务
+industries_en:
+- Legal Services
+jobs:
+- 律师
+- 法律助理
+jobs_en:
+- Lawyer
+- Legal Assistant
 regions: []
 regions_en: []
 open_source: false
@@ -24,7 +31,7 @@ canonical_url: https://producthunt.com/products/lexi-5
 summary: The operating system for legal work
 first_seen: '2026-08-10T18:11:41Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 - officialfeeds

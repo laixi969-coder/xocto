@@ -414,3 +414,41 @@
   usage_reason: 公开代码仓库有 530 个收藏、20 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 530 stars and 20 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-stop-that-shit-2026-09-01
+  project_slug: stop-that-shit
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理执行多余操作的问题，痛点在于浪费和错误风险，交付为拦截机制，结构上成立。
+    evidence_ids:
+    - ev-cc33f5fc87028845
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标增长，但缺乏用户反馈或采用证据，共识未验证。
+    evidence_ids:
+    - ev-957fb2b6cd8d2649
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 拦截的准确性和对代理性能的影响未验证。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际使用场景和效果。
+  market: ''
+  job: 拦截 AI 编码代理执行未请求的哈希、校验和和任务范围膨胀。
+  job_en: Stop AI coding agents from performing unrequested hashes, checksums, and task-scope creep.
+  pain: AI 编码代理可能执行多余操作，浪费时间和计算资源，甚至引入错误。
+  pain_en: AI coding agents may perform unnecessary operations, wasting time and compute, and potentially
+    introducing errors.
+  current_alternative: 开发者可能手动审查代理输出或编写自定义规则，但效率低。
+  current_alternative_en: Developers may manually review agent output or write custom rules, which is
+    inefficient.
+  usage_reason: 开源仓库获得 614 星，显示开发者对控制代理行为的关注，但持续使用和付费未核验。
+  usage_reason_en: The open-source repository has 614 stars, showing developer interest in controlling
+    agent behavior, but sustained use and payment are not verified.

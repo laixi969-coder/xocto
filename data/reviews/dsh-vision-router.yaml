@@ -425,3 +425,43 @@
   usage_reason: 1022 个星标显示开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: 1022 stars indicate developer interest, but sustained usage and payment are not yet
     verified.
+- id: req-full-dsh-vision-router-2026-09-01
+  project_slug: dsh-vision-router
+  level: full
+  reviewed_at: '2026-08-31T18:41:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决纯文本 AI 代理缺乏视觉能力的需求，痛点在于无法处理图像任务，交付为视觉工具链，结构上成立。
+    evidence_ids:
+    - ev-68b242426cde180b
+  - gate: consensus
+    status: insufficient
+    reason: 星标数高且增长快，显示社区强烈关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-f3a32dc4a9ebb6f9
+    - ev-da7ac8e2a6e16ed2
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为视觉工具链，但视觉识别的准确性和稳定性缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对视觉功能效果、使用场景的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 为纯文本 AI 代理添加视觉能力，使其能处理图像、OCR、截图等任务。
+  job_en: Add vision capabilities to text-only AI agents, enabling image processing, OCR, screenshots,
+    etc.
+  pain: 纯文本 AI 代理无法处理视觉信息，限制了其在需要图像理解的任务中的应用。
+  pain_en: Text-only AI agents cannot process visual information, limiting their use in tasks requiring
+    image understanding.
+  current_alternative: 用户可能使用多模态模型或手动处理图像，但成本高或流程繁琐。
+  current_alternative_en: Users may use multimodal models or manually process images, which is costly
+    or cumbersome.
+  usage_reason: 仓库星标从 1,016 增长到 1,039，显示高关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 1,016 to 1,039, showing high interest, but sustained
+    use and payment are unverified.

@@ -343,3 +343,42 @@
   usage_reason: 公开代码仓库有 322 个收藏、57 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 322 stars and 57 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-vibe-coding-toolkit-2026-09-01
+  project_slug: vibe-coding-toolkit
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程工作流缺乏标准化组件的问题，痛点在于效率和质量，交付为可复制的插件和提示词，结构上成立。
+    evidence_ids:
+    - ev-9bed7de3aaef97cd
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标增长，但缺乏用户反馈或采用证据，共识未验证。
+    evidence_ids:
+    - ev-8fcb62d60f7b5ab5
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 组件的实际效果和兼容性未验证，需实测。
+    evidence_ids: []
+  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际使用场景和效果。
+  market: ''
+  job: 开发者需要集成 Claude Code 插件、子代理编排和质量门禁，以提升 AI 编程工作流的代码质量和自动化程度。
+  job_en: Developers need to integrate Claude Code plugins, subagent orchestration, and quality gates
+    to improve code quality and automation in AI coding workflows.
+  pain: AI 编程工作流缺乏标准化组件，开发者需要自行摸索最佳实践，效率低且质量不稳定。
+  pain_en: AI coding workflows lack standardized components, forcing developers to figure out best practices
+    themselves, which is inefficient and inconsistent in quality.
+  current_alternative: 开发者可能手动编写脚本或依赖零散的工具，缺乏系统化的解决方案。
+  current_alternative_en: Developers may manually write scripts or rely on scattered tools, lacking a
+    systematic solution.
+  usage_reason: 开源仓库获得 337 星，显示开发者对 AI 编程工具包的兴趣，但持续使用和付费未核验。
+  usage_reason_en: The open-source repository has 337 stars, showing developer interest in AI coding toolkits,
+    but sustained use and payment are not verified.

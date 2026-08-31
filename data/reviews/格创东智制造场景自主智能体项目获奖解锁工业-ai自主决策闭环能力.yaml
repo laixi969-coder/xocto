@@ -82,3 +82,85 @@
   usage_reason_en: The award indicates industry recognition of the technical direction, but specific adoption
     scale is undisclosed; there is clear demand for autonomous decision-making in industrial settings,
     but actual effectiveness needs validation.
+- id: req-initial-格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力-2026-09-01
+  project_slug: 格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制造业生产监控和调整的痛点，替代人工巡检和经验决策，交付自主决策闭环，价值结构成立。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有获奖信息，缺乏实际部署和采用数据，共识证据不足。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是制造企业，但付费路径未核验。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: truth
+    status: insufficient
+    reason: 自主决策的可靠性和安全性尚未验证，需观察实际应用效果。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  next_validation: 关注格创东智官网或行业报告，获取客户案例、部署数据或安全认证。
+  market: ''
+  job: 生产主管和工艺工程师需要监控生产过程、调整参数、处理异常，确保生产稳定高效。
+  job_en: Production supervisors and process engineers need to monitor production, adjust parameters,
+    handle anomalies, and ensure stable and efficient operations.
+  pain: 人工监控和调整存在延迟，难以实时响应复杂变化，异常处理依赖经验，成本高。
+  pain_en: Manual monitoring and adjustment have delays, making it difficult to respond to complex changes
+    in real time; anomaly handling relies on experience and is costly.
+  current_alternative: 目前主要依靠人工巡检、SCADA系统和专家经验，但缺乏自主决策能力。
+  current_alternative_en: Currently relies on manual inspections, SCADA systems, and expert experience,
+    lacking autonomous decision-making capability.
+  usage_reason: 自主智能体有望减少人工干预，提高响应速度和决策质量，获奖和媒体报道引起行业关注。
+  usage_reason_en: Autonomous agents are expected to reduce manual intervention, improve response speed
+    and decision quality; the award and media coverage attract industry attention.
+- id: req-full-格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力-2026-09-01
+  project_slug: 格创东智制造场景自主智能体项目获奖解锁工业-ai自主决策闭环能力
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制造业生产监控和调整的痛点，替代人工巡检和经验决策，交付自主决策闭环，价值结构成立。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有获奖信息，缺乏实际部署和采用数据，共识证据不足。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是制造企业，但付费路径未核验。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  - gate: truth
+    status: insufficient
+    reason: 自主决策的可靠性和安全性尚未验证，需观察实际应用效果。
+    evidence_ids:
+    - ev-69452d4acb5b59e8
+  next_validation: 关注格创东智官网或行业报告，获取客户案例、部署数据或安全认证。
+  market: ''
+  job: 生产主管和工艺工程师需要监控生产过程、调整参数、处理异常，确保生产稳定高效。
+  job_en: Production supervisors and process engineers need to monitor production, adjust parameters,
+    handle anomalies, and ensure stable and efficient operations.
+  pain: 人工监控和调整存在延迟，难以实时响应复杂变化，异常处理依赖经验，成本高。
+  pain_en: Manual monitoring and adjustment have delays, making it difficult to respond to complex changes
+    in real time; anomaly handling relies on experience and is costly.
+  current_alternative: 目前主要依靠人工巡检、SCADA系统和专家经验，但缺乏自主决策能力。
+  current_alternative_en: Currently relies on manual inspections, SCADA systems, and expert experience,
+    lacking autonomous decision-making capability.
+  usage_reason: 自主智能体有望减少人工干预，提高响应速度和决策质量，获奖和媒体报道引起行业关注。
+  usage_reason_en: Autonomous agents are expected to reduce manual intervention, improve response speed
+    and decision quality; the award and media coverage attract industry attention.

@@ -78,3 +78,81 @@
   usage_reason: 创新奇智提供成熟的智能体平台，且有显著收入增长，表明企业愿意采用。
   usage_reason_en: AInnovation offers a mature agent platform with significant revenue growth, indicating
     enterprise adoption.
+- id: req-initial-刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500-2026-09-01
+  project_slug: 刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决制造企业能源管控痛点，有明确任务和交付（智能体套件），工作流结构判断需求成立。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+    - ev-4741ed098113b510
+  - gate: consensus
+    status: insufficient
+    reason: 收入增长显示市场认可，但缺乏具体客户案例和行业覆盖细节。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是制造企业，但具体路径不清。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: truth
+    status: insufficient
+    reason: 收入数据来自报道，但未披露交付结果和客户满意度。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  next_validation: 关注创新奇智官方财报或客户案例，获取具体部署效果和付费数据。
+  market: ''
+  job: 制造企业需要智能化能源管控，降低能耗成本。
+  job_en: Manufacturing enterprises need intelligent energy management to reduce energy costs.
+  pain: 传统能源管理依赖人工巡检和事后分析，响应慢、成本高。
+  pain_en: Traditional energy management relies on manual inspection and post-hoc analysis, slow and costly.
+  current_alternative: 使用传统能源管理系统或人工管理。
+  current_alternative_en: Using traditional energy management systems or manual management.
+  usage_reason: Agent业务收入增长和Token收入暴涨表明企业采用，但具体客户案例和付费细节未披露。
+  usage_reason_en: Growth in agent business revenue and token revenue surge indicate enterprise adoption,
+    but specific customer cases and payment details are undisclosed.
+- id: req-full-刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500-2026-09-01
+  project_slug: 刚刚港股agi第一股杀疯了agent业务半年进账近5亿token收入q2暴涨500
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决制造企业能源管控痛点，有明确任务和交付（智能体套件），工作流结构判断需求成立。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+    - ev-4741ed098113b510
+  - gate: consensus
+    status: supported
+    reason: 收入增长显示市场认可，但缺乏具体客户案例和行业覆盖细节。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是制造企业，但具体路径不清。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  - gate: truth
+    status: insufficient
+    reason: 收入数据来自报道，但未披露交付结果和客户满意度。
+    evidence_ids:
+    - ev-3d4a50a223e40d78
+  next_validation: 关注创新奇智官方财报或客户案例，获取具体部署效果和付费数据。
+  market: ''
+  job: 制造企业需要智能化能源管控，降低能耗成本。
+  job_en: Manufacturing enterprises need intelligent energy management to reduce energy costs.
+  pain: 传统能源管理依赖人工巡检和事后分析，响应慢、成本高。
+  pain_en: Traditional energy management relies on manual inspection and post-hoc analysis, slow and costly.
+  current_alternative: 使用传统能源管理系统或人工管理。
+  current_alternative_en: Using traditional energy management systems or manual management.
+  usage_reason: Agent业务收入增长和Token收入暴涨表明企业采用，但具体客户案例和付费细节未披露。
+  usage_reason_en: Growth in agent business revenue and token revenue surge indicate enterprise adoption,
+    but specific customer cases and payment details are undisclosed.

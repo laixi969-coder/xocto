@@ -1,0 +1,75 @@
+- id: req-initial-cardgo-2026-09-01
+  project_slug: cardgo
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及可复用加密上下文卡片，未说明具体使用场景、输入输出或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-d4fe3255ae97a5eb
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开发者社区少量讨论，无用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-d4fe3255ae97a5eb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，无法判断付费方。
+    evidence_ids:
+    - ev-d4fe3255ae97a5eb
+  - gate: truth
+    status: insufficient
+    reason: 未提供交付确定性或安全边界信息，无法验证真实性。
+    evidence_ids:
+    - ev-d4fe3255ae97a5eb
+  next_validation: 关注 CardGo 官网是否上线定价页或使用文档，以及社区讨论是否出现用户反馈。
+  market: ''
+  job: 用户希望在 AI 对话中快速复用常用上下文，避免重复输入。
+  job_en: Users want to quickly reuse common context in AI conversations, avoiding repetitive input.
+  pain: 每次新对话都要重新输入背景信息，效率低且容易遗漏。
+  pain_en: Each new conversation requires re-entering background info, inefficient and error-prone.
+  current_alternative: 目前用户可能手动复制粘贴或使用浏览器扩展，但缺乏统一管理。
+  current_alternative_en: Currently users may copy-paste manually or use browser extensions, lacking unified
+    management.
+  usage_reason: 尚未核验，但端到端加密和可复用卡片可能吸引注重隐私的重度用户。
+  usage_reason_en: Not yet verified, but end-to-end encryption and reusable cards may attract privacy-conscious
+    heavy users.
+- id: req-full-cardgo-2026-09-01
+  project_slug: cardgo
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 产品描述仅提及可复用加密上下文卡片，未说明具体使用场景、输入输出或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-d4fe3255ae97a5eb
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注 CardGo 官网是否上线定价页或使用文档，以及社区讨论是否出现用户反馈。
+  market: ''
+  job: AI 聊天用户需要在对话中快速复用常用上下文，避免重复输入。
+  job_en: AI chat users need to quickly reuse common context in conversations, avoiding repetitive input.
+  pain: 每次新对话都要重新输入背景信息，效率低且容易遗漏。
+  pain_en: Each new conversation requires re-entering background info, inefficient and error-prone.
+  current_alternative: 目前用户可能手动复制粘贴或使用浏览器扩展，但缺乏统一管理。
+  current_alternative_en: Currently users may copy-paste manually or use browser extensions, lacking unified
+    management.
+  usage_reason: 尚未核验，但端到端加密和可复用卡片可能吸引注重隐私的重度用户。
+  usage_reason_en: Not yet verified, but end-to-end encryption and reusable cards may attract privacy-conscious
+    heavy users.

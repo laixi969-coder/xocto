@@ -1,11 +1,12 @@
 ---
 slug: biotech-startup-investment-held-steady-even-as-ai-funding-su
-name: Biotech Startup Investment Held Steady Even As AI Funding Surged
+name: Biotech startup investment
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 尽管 AI 投资激增，生物技术初创公司的投资保持稳定，全球年度投资在 360 亿至 400 亿美元之间。
 inspiration: ''
-summary_en: ''
+summary_en: Despite the AI funding surge, biotech startup investment has remained steady, with global
+  annual funding between $36B and $40B.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: While the AI boom has disrupted funding patterns across the startup sph
   that range.
 first_seen: '2026-08-31T11:00:52Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch
@@ -41,7 +42,7 @@ sightings:
   kind: news
 ---
 
-# Biotech Startup Investment Held Steady Even As AI Funding Surged
+# Biotech startup investment
 
 While the AI boom has disrupted funding patterns across the startup sphere, biotech has remained a rare steady sector for investment. For the past few years, global funding to biotech startups has hovered between $36 billion and $40 billion. Per Crunchbase data, 2026 is on track to stay close to that range.
 

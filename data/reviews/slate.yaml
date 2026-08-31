@@ -154,3 +154,85 @@
   usage_reason: 开源项目获得 61 星，社区关注度有限，但捐赠模式显示早期用户支持，采用和付费尚未核验。
   usage_reason_en: The open-source project has 61 stars, limited community attention, but donation model
     shows early user support; adoption and payment are not yet verified.
+- id: req-initial-slate-2026-09-01
+  project_slug: slate
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决导演和分镜师在 AI 影视制作中规划镜头、保持连续性、生成提示词的具体需求；痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目，61 星，社区讨论有限，缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: model
+    status: insufficient
+    reason: 建议捐赠 $30，但未披露实际付费用户或收入，商业模式未验证。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: truth
+    status: supported
+    reason: 产品贴近影视制作的第一性目标，交付提示词可核对，安全边界清晰。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  next_validation: 关注开源仓库的 star 增长、issue 讨论和用户反馈，以及是否有付费捐赠记录。
+  market: ''
+  job: 导演或分镜师在 AI 影视制作中规划镜头、保持连续性并生成可用的生成提示词。
+  job_en: Directors or storyboard artists plan shots, maintain continuity, and generate usable generation
+    prompts in AI filmmaking.
+  pain: 手动规划镜头和保持连续性耗时且易出错，生成提示词分散在不同工具中，难以统一管理。
+  pain_en: Manual shot planning and continuity maintenance are time-consuming and error-prone; generation
+    prompts are scattered across tools and hard to manage.
+  current_alternative: 目前可能使用通用 AI 聊天工具或手动编写提示词，缺乏专门针对影视制作流程的规划工具。
+  current_alternative_en: Currently, they may use general AI chat tools or manually write prompts, lacking
+    a dedicated planning tool for film production workflows.
+  usage_reason: 开源且免费（建议捐赠），针对影视制作流程，能减少提示词编写和连续性检查的工作量。
+  usage_reason_en: Open source and free (suggested donation), tailored to film production workflows, reducing
+    prompt writing and continuity checking effort.
+- id: req-full-slate-2026-09-01
+  project_slug: slate
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决导演和分镜师在 AI 影视制作中规划镜头、保持连续性、生成提示词的具体需求；痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目，61 星，社区讨论有限，缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: model
+    status: insufficient
+    reason: 建议捐赠 $30，但未披露实际付费用户或收入，商业模式未验证。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  - gate: truth
+    status: supported
+    reason: 产品贴近影视制作的第一性目标，交付提示词可核对，安全边界清晰。
+    evidence_ids:
+    - ev-a7cf74f07ee0ead8
+  next_validation: 关注开源仓库的 star 增长、issue 讨论和用户反馈，以及是否有付费捐赠记录。
+  market: ''
+  job: 导演或分镜师在 AI 影视制作中规划镜头、保持连续性并生成可用的生成提示词。
+  job_en: Directors or storyboard artists plan shots, maintain continuity, and generate usable generation
+    prompts in AI filmmaking.
+  pain: 手动规划镜头和保持连续性耗时且易出错，生成提示词分散在不同工具中，难以统一管理。
+  pain_en: Manual shot planning and continuity maintenance are time-consuming and error-prone; generation
+    prompts are scattered across tools and hard to manage.
+  current_alternative: 目前可能使用通用 AI 聊天工具或手动编写提示词，缺乏专门针对影视制作流程的规划工具。
+  current_alternative_en: Currently, they may use general AI chat tools or manually write prompts, lacking
+    a dedicated planning tool for film production workflows.
+  usage_reason: 开源且免费（建议捐赠），针对影视制作流程，能减少提示词编写和连续性检查的工作量。
+  usage_reason_en: Open source and free (suggested donation), tailored to film production workflows, reducing
+    prompt writing and continuity checking effort.

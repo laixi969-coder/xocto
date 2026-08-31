@@ -425,3 +425,43 @@
   usage_reason: 仓库获得 389-391 个星标和 21 个复刻，显示开发者社区关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 389-391 stars and 21 forks, showing developer attention, but sustained
     use and payment are not yet verified.
+- id: req-full-dsh-transparent-ui-plugin-2026-09-01
+  project_slug: dsh-transparent-ui-plugin
+  level: full
+  reviewed_at: '2026-08-31T18:41:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户美化界面的需求，痛点在于定制复杂和不可逆，交付为可调模糊的玻璃主题且可一键关闭，结构上成立。
+    evidence_ids:
+    - ev-ceb0c6c38575cc52
+  - gate: consensus
+    status: insufficient
+    reason: 星标数中等且增长缓慢，显示一定关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-f7f066e50e4d48d6
+    - ev-a7e79c38cf7459d8
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为玻璃主题，但主题的兼容性和性能影响缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对主题效果、兼容性的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 为 DeepSeek Harness 网页端应用可调模糊的玻璃质感主题，并可一键关闭恢复原生界面。
+  job_en: Apply a tunable frosted-glass theme to the DeepSeek Harness web UI, with one-click revert to
+    native.
+  pain: 用户希望美化界面，但现有主题定制复杂或不可逆，影响使用体验。
+  pain_en: Users want to beautify the UI, but existing themes are complex to customize or irreversible,
+    affecting experience.
+  current_alternative: 用户可能使用浏览器扩展或手动修改 CSS，但缺乏集成和易用性。
+  current_alternative_en: Users may use browser extensions or manually edit CSS, lacking integration and
+    ease of use.
+  usage_reason: 仓库星标从 389 增长到 396，显示一定关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 389 to 396, showing some interest, but sustained use
+    and payment are unverified.

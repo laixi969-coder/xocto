@@ -341,3 +341,42 @@
   usage_reason: 仓库有 513 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
   usage_reason_en: The repository has 513 stars, indicating developer attention or trial; sustained use
     and payment are not yet verified.
+- id: req-full-biosecurity-agent-2026-09-01
+  project_slug: biosecurity-agent
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生物安全实时监测和预警的需求：围绕任意目标构建实时生物安全世界，可支持监测和预警。痛点刚性：生物安全威胁响应滞后代价高。交付可确定：AI 代理构建世界表示。工作流结构推理成立。
+    evidence_ids:
+    - ev-ba10784605d5e740
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标 513，显示关注，但无用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-42f86889695ebe8c
+  - gate: model
+    status: insufficient
+    reason: 未披露付费主体或商业模式，可能是研究项目或 to G，但无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性和安全边界未披露，需可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档和 issue，寻找部署案例或研究论文。
+  market: ''
+  job: 生物安全研究员和公共卫生官员需要实时监测和预警生物安全威胁。
+  job_en: Biosecurity researchers and public health officials need real-time monitoring and early warning
+    of biosecurity threats.
+  pain: 传统监测依赖人工收集和分析数据，响应滞后，难以应对快速变化的生物安全风险。
+  pain_en: Traditional monitoring relies on manual data collection and analysis, leading to delayed response
+    and difficulty in handling rapidly evolving biosecurity risks.
+  current_alternative: 目前可能使用人工监测、静态数据库或传统预警系统，缺乏实时动态世界构建能力。
+  current_alternative_en: Currently may use manual monitoring, static databases, or traditional early
+    warning systems, lacking real-time dynamic world construction.
+  usage_reason: 仓库星标从 512 增至 514，显示研究社区关注；但实际部署和付费未核验。
+  usage_reason_en: Repository stars grew from 512 to 514, showing research community interest; actual
+    deployment and payment not verified.

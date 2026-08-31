@@ -189,3 +189,45 @@
   usage_reason: 公开代码仓库有 198 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 198 stars and 12 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-mcp-memory-2026-09-01
+  project_slug: mcp-memory
+  level: full
+  reviewed_at: '2026-08-31T18:44:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 助手跨会话记忆丢失的需求，痛点在于重复沟通和上下文不连续，交付可确定（通过 MCP 服务器存储和检索），属于工作流结构推理。
+    evidence_ids:
+    - ev-b836a9b6af0e271b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 200 星显示初步关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-cb58c4941d31a27f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或企业，但付费路径不明确。
+    evidence_ids:
+    - ev-b836a9b6af0e271b
+  - gate: truth
+    status: supported
+    reason: 作为开源 MCP 服务器，交付确定性高，但依赖 MCP 生态的稳定性。
+    evidence_ids:
+    - ev-b836a9b6af0e271b
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 让 AI 助手在多次会话之间记住用户偏好、项目上下文和关键信息，并在下次会话中恢复，同时保证记忆内容可被用户查看和编辑。
+  job_en: Enable AI assistants to remember user preferences, project context, and key information across
+    sessions, and restore them in the next session, while keeping the memory content inspectable and editable
+    by the user.
+  pain: AI 助手在会话结束后丢失上下文，用户需要重复提供相同信息，导致效率低下；现有记忆方案可能不透明或难以跨工具迁移。
+  pain_en: AI assistants lose context after sessions, forcing users to repeat information, which is inefficient;
+    existing memory solutions may be opaque or hard to migrate across tools.
+  current_alternative: 用户可能手动记录笔记、使用简单的配置文件，或依赖特定平台的记忆功能，但这些方法缺乏标准化和可移植性。
+  current_alternative_en: Users may manually take notes, use simple config files, or rely on platform-specific
+    memory features, but these lack standardization and portability.
+  usage_reason: 开源项目获得 200 个星标，显示开发者对持久化 AI 记忆的兴趣，且 MCP 生态的兴起可能推动采用。
+  usage_reason_en: The open-source project has 200 stars, showing developer interest in persistent AI
+    memory, and the rise of the MCP ecosystem may drive adoption.

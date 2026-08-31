@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdl9vRkdfeFVL
 summary: Why the next wave of AI startups won’t optimize infrastructure – until they have to SiliconANGLE
 first_seen: '2026-08-30T14:53:00Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

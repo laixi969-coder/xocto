@@ -1,11 +1,12 @@
 ---
 slug: ai-transforming-insurance-through-faster-processing-customer
-name: 'AI transforming insurance through faster processing, customer service and claims: PB Fintech President'
+name: PB Fintech
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: PB Fintech 总裁表示，AI 正在通过更快的处理、客户服务和理赔来改变保险业。
 inspiration: ''
-summary_en: ''
+summary_en: PB Fintech's president stated that AI is transforming insurance through faster processing,
+  customer service, and claims.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: 'AI transforming insurance through faster processing, customer service 
   President The Tribune'
 first_seen: '2026-08-31T13:18:05Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AI transforming insurance through faster processing, customer service and claims: PB Fintech President
+# PB Fintech
 
 AI transforming insurance through faster processing, customer service and claims: PB Fintech President The Tribune
 

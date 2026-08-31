@@ -3,27 +3,26 @@ slug: local
 name: Local
 builder: Lukas Wesemann
 category: AI + 效率
-summary_zh: Local 是一款 Mac 应用，提供零摩擦的本地 AI 体验。用户无需配置即可在 Mac 上运行本地模型，处理文本生成、摘要等任务。具体功能边界和交付物仍待核验。
-inspiration: 趋势是本地 AI 兴起，用户对数据隐私和离线可用性需求增加。切入点是 Mac 个人效率工具，可尝试按功能或订阅收费。
-summary_en: Local is a Mac app offering zero-friction local AI. Users can run local models on their Mac
-  without configuration for tasks like text generation and summarization. Specific features and deliverables
-  are yet to be verified.
-inspiration_en: The trend is the rise of local AI, driven by privacy and offline needs. The entry point
-  is Mac personal productivity tools; could charge per feature or subscription.
+summary_zh: Local 为 Mac 用户提供零摩擦的本地 AI 体验，直接在设备上运行 AI 模型，处理本地数据，无需上传云端。用户输入任务，AI 在本地执行，交付结果。具体功能细节仍待核验。
+inspiration: 趋势是本地 AI 因隐私和延迟需求而兴起。不要做通用本地模型，切入特定行业如医疗、法律的数据敏感场景，提供定制化本地 AI 解决方案，按部署或订阅收费。
+summary_en: Local offers zero-friction local AI for Mac users, running AI models directly on the device,
+  processing local data without cloud upload. Users input tasks, AI executes locally, and delivers results.
+  Specific feature details still to be verified.
+inspiration_en: 'Trend: local AI rises due to privacy and latency needs. Don''t build generic local models;
+  enter data-sensitive industries like healthcare and legal, offering customized on-device AI solutions,
+  charge per deployment or subscription.'
 priority_review: false
 project_type: new_application
 industries:
 - 个人效率
-- 软件开发
 industries_en:
 - Personal Productivity
-- Software Development
 jobs:
 - Mac 用户
 - 知识工作者
 jobs_en:
-- Mac Users
-- Knowledge Workers
+- Mac User
+- Knowledge Worker
 regions: []
 regions_en: []
 open_source: false
@@ -32,7 +31,7 @@ canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 - officialfeeds

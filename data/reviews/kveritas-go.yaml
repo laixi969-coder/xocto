@@ -1,0 +1,80 @@
+- id: req-initial-kveritas-go-2026-09-01
+  project_slug: kveritas-go
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码审查中验证结果耗时且不可靠的痛点，通过生成证明让审查者无需重跑代码即可确认结果，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-fe0b789d716a078b
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅有开源仓库和少量社区讨论，缺乏用户采用或社区共识证据，需观察实际使用反馈。
+    evidence_ids:
+    - ev-fe0b789d716a078b
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者工具市场，但付费方和定价未明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近代码审查的第一性目标，承诺可验证的证明，技术实现可行，但需验证实际效果。
+    evidence_ids:
+    - ev-fe0b789d716a078b
+  next_validation: 关注开源仓库的 issue 和讨论，看是否有真实用户反馈验证效果，以及是否出现定价或商业计划。
+  market: ''
+  job: 代码审查员需要确认代码确实产生了所声称的结果，而无需重跑整个代码库。
+  job_en: Code reviewers need to confirm that code actually produced the claimed results without rerunning
+    the entire codebase.
+  pain: 重跑代码耗时且可能因环境差异导致结果不一致，审查效率低。
+  pain_en: Rerunning code is time-consuming and may yield inconsistent results due to environment differences,
+    reducing review efficiency.
+  current_alternative: 目前审查员通常手动重跑代码或依赖 CI 日志，过程繁琐且不可追溯。
+  current_alternative_en: Currently reviewers often manually rerun code or rely on CI logs, which is cumbersome
+    and not traceable.
+  usage_reason: 开发者关注它是因为能节省审查时间并提高可信度，但实际采用尚未核验。
+  usage_reason_en: Developers are interested because it saves review time and increases trust, but actual
+    adoption is unverified.
+- id: req-full-kveritas-go-2026-09-01
+  project_slug: kveritas-go
+  level: full
+  reviewed_at: '2026-08-31T18:42:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码审查中验证结果耗时且不可靠的痛点，通过生成证明让审查者无需重跑代码即可确认结果，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-fe0b789d716a078b
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅有开源仓库和少量社区讨论，缺乏用户采用或社区共识证据，需观察实际使用反馈。
+    evidence_ids:
+    - ev-fe0b789d716a078b
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者工具市场，但付费方和定价未明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近代码审查的第一性目标，承诺可验证的证明，技术实现可行，但需验证实际效果。
+    evidence_ids:
+    - ev-fe0b789d716a078b
+  next_validation: 关注开源仓库的 issue 和讨论，看是否有真实用户反馈验证效果，以及是否出现定价或商业计划。
+  market: ''
+  job: 代码审查员需要确认代码确实产生了所声称的结果，而无需重跑整个代码库。
+  job_en: Code reviewers need to confirm that code actually produced the claimed results without rerunning
+    the entire codebase.
+  pain: 重跑代码耗时且可能因环境差异导致结果不一致，审查效率低。
+  pain_en: Rerunning code is time-consuming and may yield inconsistent results due to environment differences,
+    reducing review efficiency.
+  current_alternative: 目前审查员通常手动重跑代码或依赖 CI 日志，过程繁琐且不可追溯。
+  current_alternative_en: Currently reviewers often manually rerun code or rely on CI logs, which is cumbersome
+    and not traceable.
+  usage_reason: 开发者关注它是因为能节省审查时间并提高可信度，但实际采用尚未核验。
+  usage_reason_en: Developers are interested because it saves review time and increases trust, but actual
+    adoption is unverified.

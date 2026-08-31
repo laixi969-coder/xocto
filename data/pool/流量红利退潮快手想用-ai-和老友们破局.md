@@ -1,11 +1,13 @@
 ---
 slug: 流量红利退潮快手想用-ai-和老友们破局
-name: 流量红利退潮，快手想用 AI 和老友们破局
+name: 快手
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 快手作为短视频平台，在创作者大会上展示了AI在内容生产、分发和经营中的应用，包括可灵AI视频生成、快影剪辑工具、AI推荐和经营助手，旨在提高平台效率和创作者变现能力。
 inspiration: ''
-summary_en: ''
+summary_en: Kuaishou, as a short-video platform, showcased AI applications in content production, distribution,
+  and operation at the creator conference, including Kling AI video generation, Kuaiying editing tools,
+  AI recommendation, and operation assistants, aiming to improve platform efficiency and creator monetization.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -55,7 +57,7 @@ summary: "头图来源：快手 \n 8 月 29 日，在 2026 快手光合创作者
   \ \n 快手开始讲「留下来的人」。接下来需要证明的，是这些留下来的人能否继续创作、持续经营，并为平台带来新的增长。"
 first_seen: '2026-08-31T12:01:09Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -66,7 +68,7 @@ sightings:
   kind: news
 ---
 
-# 流量红利退潮，快手想用 AI 和老友们破局
+# 快手
 
 头图来源：快手 
  8 月 29 日，在 2026 快手光合创作者大会上，快手科技创始人、董事长兼 CEO 程一笑公布了一组数据：快手每天发布的作品超过 5800 万，近一年有超过 2.7 亿用户发布过作品，持续发布作品超过 10 年的创作者则超过 1700 万。 

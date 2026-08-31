@@ -1,11 +1,11 @@
 ---
 slug: ai边界智能体的底线与天花板丨引领区观察
-name: AI•边界：智能体的底线与天花板丨引领区观察
+name: 智能体边界
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章探讨智能体的底线与天花板，分析AI智能体的发展边界。
 inspiration: ''
-summary_en: ''
+summary_en: Article explores the limits and ceilings of AI agents, analyzing development boundaries.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sTktUOTR3SzhZ
 summary: AI•边界：智能体的底线与天花板丨引领区观察 第一财经
 first_seen: '2026-08-31T08:54:15Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI•边界：智能体的底线与天花板丨引领区观察
+# 智能体边界
 
 AI•边界：智能体的底线与天花板丨引领区观察 第一财经
 

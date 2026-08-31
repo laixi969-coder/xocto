@@ -21,7 +21,7 @@ canonical_url: https://martiansoftware.com/articles/ai-written-code-is-still-you
 summary: AI-Written Code Is Still *Your* Code. Are You OK with That?
 first_seen: '2026-08-31T12:08:25Z'
 last_seen: '2026-08-31T17:38:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

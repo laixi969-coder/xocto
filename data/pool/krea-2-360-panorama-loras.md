@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/krea2-360-panorama-lor
 summary: Generate and outpaint seamless 360° panoramas with Krea 2
 first_seen: '2026-08-31T10:53:44Z'
 last_seen: '2026-08-31T17:38:48Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

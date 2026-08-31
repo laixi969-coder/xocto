@@ -345,3 +345,41 @@
   usage_reason: 公开代码仓库有611个收藏，说明开发者关注或试用，但持续使用和付费尚未核验。
   usage_reason_en: The public repository has 611 stars, indicating developer attention or trial, but sustained
     use and payment are not yet verified.
+- id: req-full-deepseek-design-2026-09-01
+  project_slug: deepseek-design
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成设计不可编辑的痛点，通过 AI 生成、可视化编辑、模板市场与 PPT 的闭环，交付可编辑的设计文件。工作流结构判断：旧流程是手动设计或不可编辑的 AI 输出，此方案提供可编辑流程。
+    evidence_ids:
+    - ev-63ce16c29b1fb979
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 607 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-63ce16c29b1fb979
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 设计师、PPT 制作者需要快速生成可编辑的设计稿和 PPT。
+  job_en: Designers and PPT creators need to quickly generate editable designs and PPTs.
+  pain: 从零开始设计耗时，且 AI 生成结果往往不可编辑，需要可编辑的设计系统。
+  pain_en: Designing from scratch is time-consuming, and AI-generated results are often not editable,
+    requiring an editable design system.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作，可能使用传统设计软件或不可编辑的 AI 工具。
+  current_alternative_en: Public materials do not yet show how users complete this job today; they may
+    use traditional design software or non-editable AI tools.
+  usage_reason: 公开代码仓库有 607 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 607 stars, showing developer attention; repeat use and payment
+    are not yet verified.

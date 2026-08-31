@@ -1,0 +1,77 @@
+- id: req-initial-floe-2026-09-01
+  project_slug: floe
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决采样库管理痛点，但具体 AI 功能和工作流程未明确，价值主张不清晰。
+    evidence_ids:
+    - ev-4395df6b41fb084f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量技术社区讨论，无用户评价或社区共识。
+    evidence_ids:
+    - ev-4395df6b41fb084f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能为开源免费或捐赠，付费路径不明。
+    evidence_ids:
+    - ev-4395df6b41fb084f
+  - gate: truth
+    status: insufficient
+    reason: 插件功能描述模糊，无法验证其 AI 能力是否真实有效。
+    evidence_ids:
+    - ev-4395df6b41fb084f
+  next_validation: 查看 Floe 官网和代码仓库，确认具体功能、用户文档和社区反馈。
+  market: ''
+  job: 音乐制作人需要管理和播放大量采样库文件。
+  job_en: Music producers need to manage and play large sample library files.
+  pain: 采样库文件多且杂乱，查找和试听效率低。
+  pain_en: Sample libraries are numerous and messy, making searching and auditioning inefficient.
+  current_alternative: 目前制作人通常使用 DAW 自带的文件浏览器或第三方采样器插件。
+  current_alternative_en: Currently producers typically use DAW's built-in file browser or third-party
+    sampler plugins.
+  usage_reason: 技术社区有少量讨论，但缺乏用户评价和采用证据，需求强度未明。
+  usage_reason_en: There is modest discussion in the tech community, but lack of user reviews and adoption
+    evidence leaves demand intensity unclear.
+- id: req-full-floe-2026-09-01
+  project_slug: floe
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决采样库管理痛点，提供免费音频插件，在 DAW 中轻松播放基于采样的乐器；痛点真实，交付可确定（插件可下载使用）。工作流结构判断。
+    evidence_ids:
+    - ev-c0877bcd1aded9e9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量技术社区讨论，无用户评价或社区共识。
+    evidence_ids:
+    - ev-4395df6b41fb084f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能为开源免费或捐赠，付费路径不明。
+    evidence_ids:
+    - ev-c0877bcd1aded9e9
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“音乐制作人在 DAW 中加载 Floe 插件，用于管理和播放采样库，具体 AI 功能和工作流程仍待核验”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 查看 Floe 官网和代码仓库，确认具体功能、用户文档和社区反馈。
+  market: ''
+  job: 音乐制作人需要管理和播放大量采样库文件。
+  job_en: Music producers need to manage and play large sample library files.
+  pain: 采样库文件多且杂乱，查找和试听效率低。
+  pain_en: Sample libraries are numerous and messy, making searching and auditioning inefficient.
+  current_alternative: 目前制作人通常使用 DAW 自带的文件浏览器或第三方采样器插件。
+  current_alternative_en: Currently producers typically use DAW's built-in file browser or third-party
+    sampler plugins.
+  usage_reason: 技术社区有少量讨论，但缺乏用户评价和采用证据，需求强度未明。
+  usage_reason_en: There is modest discussion in the tech community, but lack of user reviews and adoption
+    evidence leaves demand intensity unclear.

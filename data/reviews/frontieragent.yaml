@@ -269,3 +269,42 @@
   usage_reason: 仓库获得 1,273 星，表明开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 1,273 stars, showing developer interest, but sustained use and payment
     are not yet verified.
+- id: req-full-frontieragent-2026-09-01
+  project_slug: frontieragent
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 框架安装复杂、依赖 Docker 的痛点，提供一键运行、无需预装的环境；痛点明确，交付可确定（命令行 TUI 和多种模式）。工作流结构判断。
+    evidence_ids:
+    - ev-6eff8e0acf0d5998
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 1,328 个星标；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-a945a3ffb65fe030
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: AI 工程师、软件开发者需要构建和运行 AI 代理，希望简单快捷。
+  job_en: AI engineers and software developers need to build and run AI agents, wanting simplicity and
+    speed.
+  pain: 现有 agent 框架安装复杂，依赖 Docker 或预装环境，上手成本高。
+  pain_en: Existing agent frameworks are complex to install, depend on Docker or preinstalled environments,
+    and have high onboarding costs.
+  current_alternative: 目前开发者可能使用其他 agent 框架，需要配置 Docker 或预装依赖。
+  current_alternative_en: Currently developers may use other agent frameworks that require Docker or preinstalled
+    dependencies.
+  usage_reason: 公开代码仓库有 1,328 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 1,328 stars, showing developer attention; repeat use and
+    payment are not yet verified.

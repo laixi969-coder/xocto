@@ -414,3 +414,44 @@
   usage_reason: 公开代码仓库有 972 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 972 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-lanshu-create-ai-presenter-video-2026-09-01
+  project_slug: lanshu-create-ai-presenter-video
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作人从脚本和授权图像生成 AI 主持人视频的需求，痛点是需要验证内容且流程可能复杂，交付可确定（生成视频）。工作流结构推理：输入脚本和图像，生成视频，确保验证。
+    evidence_ids:
+    - ev-53e9838feb34cfa3
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库记录为 984 个收藏，说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids:
+    - ev-65848d82349b72f3
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 lanshu-create-ai-presenter-video 的 GitHub 仓库 issue 和 discussion，确认是否有视频制作人实际部署并替代了旧流程。
+  market: ''
+  job: 视频制作人使用 lanshu-create-ai-presenter-video 从脚本和授权主持人图像生成 AI 主持人视频；它接收脚本和图像，生成视频，并确保内容经过验证。
+  job_en: Video producers use lanshu-create-ai-presenter-video to generate AI presenter videos from a
+    script and an authorized presenter image; it takes script and image, generates video, and ensures
+    content is verified.
+  pain: 公开材料未说明不解决的具体代价、发生频率或后果；但制作 AI 主持人视频需要从脚本和图像生成，现有工具可能缺乏验证或需多个步骤。
+  pain_en: Public materials do not specify the cost, frequency, or consequences of not solving it; but
+    producing AI presenter videos requires generating from script and image, and existing tools may lack
+    verification or require multiple steps.
+  current_alternative: 公开材料未说明用户目前如何完成这项工作；可能使用通用视频生成工具或手动制作。
+  current_alternative_en: Public materials do not show how users complete this job today; they may use
+    general video generation tools or manual production.
+  usage_reason: 公开代码仓库有 984 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 984 stars, showing developer attention; repeat use and payment
+    are not yet verified.

@@ -3,9 +3,9 @@ slug: okta股价飙升q2电话会新产品订单占比跃升三成ai代理安全
 name: Okta
 builder: ''
 category: ''
-summary_zh: 信息不足
+summary_zh: Okta 的财报和业务动态属于公司层面的市场信号，非独立产品。
 inspiration: ''
-summary_en: Insufficient information
+summary_en: Okta's earnings and business updates are company-level market signals, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxPUXZPNXVfSVUx
 summary: Okta股价飙升！Q2电话会：新产品订单占比跃升三成，AI代理安全静待爆发，2028年料成新增长极 富途牛牛
 first_seen: '2026-08-27T13:43:00Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

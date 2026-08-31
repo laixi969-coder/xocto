@@ -1,0 +1,82 @@
+- id: req-initial-evoquant-2026-09-01
+  project_slug: evoquant
+  level: initial
+  reviewed_at: '2026-08-31T17:38:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决量化研究员手动编码和重复数据整理的痛点，自主完成研究循环，交付可验证的结论；工作流结构判断，需求刚性较强。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  - gate: consensus
+    status: insufficient
+    reason: 代码托管平台星标增长显示社区关注，但缺乏用户评价、采用案例或场景讨论，共识尚未形成。
+    evidence_ids:
+    - ev-9f96921f2d542fa0
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向量化基金或研究员订阅，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  - gate: truth
+    status: insufficient
+    reason: 自主研究代理的交付质量需验证，回测结果是否可靠、是否产生虚假结论尚不明确。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  next_validation: 关注代码仓库的 issue 和 discussion，看用户是否报告实际使用效果和问题。
+  market: ''
+  job: 量化研究员需要完成从数据获取、因子测试到回测的完整研究流程。
+  job_en: Quantitative researchers need to complete the full research loop from data retrieval, factor
+    testing to backtesting.
+  pain: 传统研究流程耗时且重复，需要大量手动编码和数据整理。
+  pain_en: Traditional research process is time-consuming and repetitive, requiring extensive manual coding
+    and data wrangling.
+  current_alternative: 目前研究员通常手动编写 Python 脚本，使用 Wind、聚宽等平台进行回测。
+  current_alternative_en: Currently researchers typically write Python scripts manually and use platforms
+    like Wind or JoinQuant for backtesting.
+  usage_reason: 开源项目获得 215 个星标，说明开发者社区对自主研究代理有兴趣，但实际采用和付费尚未核验。
+  usage_reason_en: The open-source project has 215 stars, indicating developer community interest in autonomous
+    research agents, but actual adoption and payment are not yet verified.
+- id: req-full-evoquant-2026-09-01
+  project_slug: evoquant
+  level: full
+  reviewed_at: '2026-08-31T18:42:15Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决量化研究员手动编码和重复数据整理的痛点，自主完成研究循环，交付可验证的结论；工作流结构判断，需求刚性较强。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  - gate: consensus
+    status: insufficient
+    reason: 代码托管平台星标增长显示社区关注，但缺乏用户评价、采用案例或场景讨论，共识尚未形成。
+    evidence_ids:
+    - ev-9f96921f2d542fa0
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向量化基金或研究员订阅，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  - gate: truth
+    status: insufficient
+    reason: 自主研究代理的交付质量需验证，回测结果是否可靠、是否产生虚假结论尚不明确。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  next_validation: 关注代码仓库的 issue 和 discussion，看用户是否报告实际使用效果和问题。
+  market: ''
+  job: 量化研究员需要完成从数据获取、因子测试到回测的完整研究流程。
+  job_en: Quantitative researchers need to complete the full research loop from data retrieval, factor
+    testing to backtesting.
+  pain: 传统研究流程耗时且重复，需要大量手动编码和数据整理。
+  pain_en: Traditional research process is time-consuming and repetitive, requiring extensive manual coding
+    and data wrangling.
+  current_alternative: 目前研究员通常手动编写 Python 脚本，使用 Wind、聚宽等平台进行回测。
+  current_alternative_en: Currently researchers typically write Python scripts manually and use platforms
+    like Wind or JoinQuant for backtesting.
+  usage_reason: 开源项目获得 215 个星标，说明开发者社区对自主研究代理有兴趣，但实际采用和付费尚未核验。
+  usage_reason_en: The open-source project has 215 stars, indicating developer community interest in autonomous
+    research agents, but actual adoption and payment are not yet verified.

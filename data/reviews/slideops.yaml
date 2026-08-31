@@ -1,0 +1,82 @@
+- id: req-initial-slideops-2026-09-01
+  project_slug: slideops
+  level: initial
+  reviewed_at: '2026-08-31T17:38:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者维护技术演示与代码同步的具体痛点，交付是漂移警告，可核对。工作流结构判断。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 7 分 5 评论，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  - gate: truth
+    status: supported
+    reason: 贴近开发者维护文档的第一性目标，交付可确定，安全边界清晰。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  next_validation: 关注开源仓库的 star 增长、issue 和 PR，以及是否有 CI/CD 集成案例。
+  market: ''
+  job: 开发者需要确保技术演示或培训幻灯片与代码仓库中的实际代码保持一致。
+  job_en: Developers need to ensure technical demo or training slides stay consistent with the actual
+    code in the repository.
+  pain: 手动更新幻灯片容易遗漏代码变更，导致演示内容过时，误导观众。
+  pain_en: Manually updating slides often misses code changes, leading to outdated presentations that
+    mislead the audience.
+  current_alternative: 目前开发者可能手动检查或依赖团队提醒，缺乏自动化工具。
+  current_alternative_en: Currently, developers may manually check or rely on team reminders, lacking
+    automated tools.
+  usage_reason: 开源项目，能自动检测幻灯片与代码的漂移，节省手动核对时间。
+  usage_reason_en: Open source project that automatically detects slide-code drift, saving manual verification
+    time.
+- id: req-full-slideops-2026-09-01
+  project_slug: slideops
+  level: full
+  reviewed_at: '2026-08-31T18:45:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者维护技术演示与代码同步的具体痛点，交付是漂移警告，可核对。工作流结构判断。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 7 分 5 评论，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  - gate: truth
+    status: supported
+    reason: 贴近开发者维护文档的第一性目标，交付可确定，安全边界清晰。
+    evidence_ids:
+    - ev-271a8c1fb750a313
+  next_validation: 关注开源仓库的 star 增长、issue 和 PR，以及是否有 CI/CD 集成案例。
+  market: ''
+  job: 开发者需要确保技术演示或培训幻灯片与代码仓库中的实际代码保持一致。
+  job_en: Developers need to ensure technical demo or training slides stay consistent with the actual
+    code in the repository.
+  pain: 手动更新幻灯片容易遗漏代码变更，导致演示内容过时，误导观众。
+  pain_en: Manually updating slides often misses code changes, leading to outdated presentations that
+    mislead the audience.
+  current_alternative: 目前开发者可能手动检查或依赖团队提醒，缺乏自动化工具。
+  current_alternative_en: Currently, developers may manually check or rely on team reminders, lacking
+    automated tools.
+  usage_reason: 开源项目，能自动检测幻灯片与代码的漂移，节省手动核对时间。
+  usage_reason_en: Open source project that automatically detects slide-code drift, saving manual verification
+    time.

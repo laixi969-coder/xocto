@@ -1,6 +1,6 @@
 ---
 slug: ceragems-vision-for-the-future-of-healthy-living
-name: CERAGEM’s Vision for the Future of Healthy Living
+name: CERAGEM
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxQOW5XRlIzRENR
 summary: CERAGEM’s Vision for the Future of Healthy Living The Worldfolio
 first_seen: '2026-08-31T01:29:22Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# CERAGEM’s Vision for the Future of Healthy Living
+# CERAGEM
 
 CERAGEM’s Vision for the Future of Healthy Living The Worldfolio
 

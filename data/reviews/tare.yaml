@@ -117,3 +117,81 @@
   usage_reason: tare 提供详细分析，帮助开发者找出消耗配额的操作，优化使用。
   usage_reason_en: tare provides detailed analysis, helping developers identify quota-consuming operations
     and optimize usage.
+- id: req-initial-tare-2026-09-01
+  project_slug: tare
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者 AI 配额消耗诊断的具体痛点，交付是诊断报告，可核对。工作流结构判断。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: consensus
+    status: supported
+    reason: 社区讨论热烈，86 分 62 评论，说明开发者关注度高。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: truth
+    status: supported
+    reason: 贴近开发者优化 AI 使用的第一性目标，交付可确定，安全边界清晰。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  next_validation: 关注开源仓库的 star 增长、issue 讨论，以及是否有付费版本或企业采用。
+  market: ''
+  job: 开发者需要了解 AI 编程工具的配额为何快速耗尽，以便优化使用。
+  job_en: Developers need to understand why AI coding tool quotas run out quickly to optimize usage.
+  pain: 配额耗尽导致工作中断，但缺乏工具诊断消耗原因。
+  pain_en: Quota exhaustion interrupts work, but there is no tool to diagnose the cause.
+  current_alternative: 目前开发者可能手动查看日志或凭经验猜测，缺乏系统分析。
+  current_alternative_en: Currently, developers may manually check logs or guess from experience, lacking
+    systematic analysis.
+  usage_reason: 社区讨论热烈，86 分 62 评论，说明开发者对此痛点有共鸣，开源工具免费可用。
+  usage_reason_en: 86 points and 62 comments in community discussion show developer resonance with this
+    pain point; the open-source tool is free to use.
+- id: req-full-tare-2026-09-01
+  project_slug: tare
+  level: full
+  reviewed_at: '2026-08-31T18:45:38Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者 AI 配额消耗诊断的具体痛点，交付是诊断报告，可核对。工作流结构判断。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: consensus
+    status: supported
+    reason: 社区讨论热烈，86 分 62 评论，说明开发者关注度高。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，开源项目，付费路径不明。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  - gate: truth
+    status: supported
+    reason: 贴近开发者优化 AI 使用的第一性目标，交付可确定，安全边界清晰。
+    evidence_ids:
+    - ev-2d277549d981fc78
+  next_validation: 关注开源仓库的 star 增长、issue 讨论，以及是否有付费版本或企业采用。
+  market: ''
+  job: 分析 AI 编程工具（如 Claude）配额快速耗尽的原因。
+  job_en: Analyze why AI coding tool quotas (e.g., Claude) run out quickly.
+  pain: 配额耗尽导致工作中断，但缺乏工具诊断消耗原因。
+  pain_en: Quota exhaustion interrupts work, but there is no tool to diagnose the cause.
+  current_alternative: 开发者可能手动查看日志或凭经验猜测，缺乏系统分析。
+  current_alternative_en: Developers may manually check logs or guess from experience, lacking systematic
+    analysis.
+  usage_reason: 社区讨论热烈，86 分 62 评论，显示开发者对此痛点有共鸣，开源工具免费可用。
+  usage_reason_en: 86 points and 62 comments in community discussion show developer resonance with this
+    pain point; the open-source tool is free to use.

@@ -1,0 +1,80 @@
+- id: req-initial-i-spent-4000-on-a-robot-dog-from-china-2026-09-01
+  project_slug: i-spent-4000-on-a-robot-dog-from-china
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人和团队无法负担高价机器人的痛点，提供低价可编程实体平台，交付确定。工作流结构判断：用户需要实体交互和编程控制，Unitree 提供完整产品。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有评论文章，缺乏用户规模、采用数据或社区活跃度证据。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价策略、付费模式或买方信息，无法判断商业模式。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际交付验证和用户反馈，产品可靠性未证实。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  next_validation: 关注 Unitree 官方发布的产品规格、定价页和用户评测，以验证实际交付和采用情况。
+  market: ''
+  job: 用户想要一个可编程、可交互的实体机器人，用于娱乐、教育或研究。
+  job_en: Users want a programmable, interactive physical robot for entertainment, education, or research.
+  pain: 传统机器人价格高昂，技术门槛高，难以进入个人或小团队。
+  pain_en: Traditional robots are expensive and technically challenging, making them inaccessible to individuals
+    or small teams.
+  current_alternative: 替代方案是购买工业级机器人（成本高）或使用模拟软件（缺乏实体交互）。
+  current_alternative_en: Alternatives include buying industrial robots (high cost) or using simulation
+    software (lacking physical interaction).
+  usage_reason: 关注度来自其低价和开源生态，吸引开发者和爱好者尝试。
+  usage_reason_en: Attention comes from its low price and open ecosystem, attracting developers and hobbyists
+    to experiment.
+- id: req-full-i-spent-4000-on-a-robot-dog-from-china-2026-09-01
+  project_slug: i-spent-4000-on-a-robot-dog-from-china
+  level: full
+  reviewed_at: '2026-08-31T18:42:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人和团队无法负担高价机器人的痛点，提供低价可编程实体平台，交付确定。工作流结构判断：用户需要实体交互和编程控制，Unitree 提供完整产品。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅有评论文章，缺乏用户规模、采用数据或社区活跃度证据。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  - gate: model
+    status: insufficient
+    reason: 未披露定价策略、付费模式或买方信息，无法判断商业模式。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际交付验证和用户反馈，产品可靠性未证实。
+    evidence_ids:
+    - ev-6137da742965e0fd
+  next_validation: 关注 Unitree 官方发布的产品规格、定价页和用户评测，以验证实际交付和采用情况。
+  market: ''
+  job: 用户想要一个可编程、可交互的实体机器人，用于娱乐、教育或研究。
+  job_en: Users want a programmable, interactive physical robot for entertainment, education, or research.
+  pain: 传统机器人价格高昂，技术门槛高，难以进入个人或小团队。
+  pain_en: Traditional robots are expensive and technically challenging, making them inaccessible to individuals
+    or small teams.
+  current_alternative: 替代方案是购买工业级机器人（成本高）或使用模拟软件（缺乏实体交互）。
+  current_alternative_en: Alternatives include buying industrial robots (high cost) or using simulation
+    software (lacking physical interaction).
+  usage_reason: 关注度来自其低价和开源生态，吸引开发者和爱好者尝试。
+  usage_reason_en: Attention comes from its low price and open ecosystem, attracting developers and hobbyists
+    to experiment.

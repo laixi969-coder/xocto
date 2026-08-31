@@ -342,3 +342,43 @@
   usage_reason: 6454 个星标显示开发者高度关注，但持续使用和付费尚未核验。
   usage_reason_en: 6454 stars indicate high developer interest, but sustained usage and payment are not
     yet verified.
+- id: req-full-dsh-web-2026-09-01
+  project_slug: dsh-web
+  level: full
+  reviewed_at: '2026-08-31T18:41:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户扩展 AI 工具功能的需求，痛点在于插件管理不便，交付为聚合生态包和创意工坊，结构上成立。
+    evidence_ids:
+    - ev-a796f55b8658de6e
+  - gate: consensus
+    status: insufficient
+    reason: 星标数高且增长快，显示社区强烈关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-4f27f16df20a8988
+    - ev-3b9c1e928f612354
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为插件生态包，但插件的兼容性和分发机制缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对插件生态、分发体验的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 通过插件聚合生态包扩展 DeepSeek Harness 的功能，并通过创意工坊分发。
+  job_en: Extend DeepSeek Harness functionality via a plugin aggregation ecosystem, distributed through
+    a creative workshop.
+  pain: 用户需要扩展 AI 工具的功能，但缺乏统一的插件管理和分发渠道。
+  pain_en: Users need to extend AI tool functionality, but lack a unified plugin management and distribution
+    channel.
+  current_alternative: 用户可能手动安装插件或使用其他工具，但管理不便且生态分散。
+  current_alternative_en: Users may manually install plugins or use other tools, which is inconvenient
+    and fragmented.
+  usage_reason: 仓库星标从 6,394 增长到 6,588，显示高关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 6,394 to 6,588, showing high interest, but sustained
+    use and payment are unverified.

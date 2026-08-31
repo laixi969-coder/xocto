@@ -1,0 +1,78 @@
+- id: req-initial-lovart-is-building-ai-design-agent-that-augments-creative-te-2026-09-01
+  project_slug: lovart-is-building-ai-design-agent-that-augments-creative-te
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创意团队设计产出效率低、修改成本高的问题，提供可编辑交付，痛点明确。工作流结构判断：设计需求输入后，AI 可生成初稿，减少从零开始的时间。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道，缺乏用户采用或行业共识证据。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是创意团队或企业，但未证实。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际交付验证和用户反馈，产品成熟度未知。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  next_validation: 关注 Lovart 官网的产品演示、定价页和客户案例，以验证实际采用和交付。
+  market: ''
+  job: 创意团队需要快速生成设计概念和草稿，提高产出效率。
+  job_en: Creative teams need to quickly generate design concepts and drafts to improve output efficiency.
+  pain: 设计过程耗时，反复修改成本高，创意团队面临交付压力。
+  pain_en: Design process is time-consuming, revision costs are high, and teams face delivery pressure.
+  current_alternative: 替代方案是使用传统设计软件（如 Photoshop）或外包设计，成本高或周期长。
+  current_alternative_en: Alternatives are traditional design software (e.g., Photoshop) or outsourcing,
+    which are costly or slow.
+  usage_reason: 关注度来自 AI 设计代理的新颖性和对创意行业的潜在影响。
+  usage_reason_en: Attention comes from the novelty of AI design agents and potential impact on creative
+    industries.
+- id: req-full-lovart-is-building-ai-design-agent-that-augments-creative-te-2026-09-01
+  project_slug: lovart-is-building-ai-design-agent-that-augments-creative-te
+  level: full
+  reviewed_at: '2026-08-31T18:43:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创意团队设计产出效率低、修改成本高的问题，提供可编辑交付，痛点明确。工作流结构判断：设计需求输入后，AI 可生成初稿，减少从零开始的时间。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道，缺乏用户采用或行业共识证据。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是创意团队或企业，但未证实。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际交付验证和用户反馈，产品成熟度未知。
+    evidence_ids:
+    - ev-0a6489afec838cc3
+  next_validation: 关注 Lovart 官网的产品演示、定价页和客户案例，以验证实际采用和交付。
+  market: ''
+  job: 创意团队需要快速生成设计概念和草稿，提高产出效率。
+  job_en: Creative teams need to quickly generate design concepts and drafts to improve output efficiency.
+  pain: 设计过程耗时，反复修改成本高，创意团队面临交付压力。
+  pain_en: Design process is time-consuming, revision costs are high, and teams face delivery pressure.
+  current_alternative: 替代方案是使用传统设计软件（如 Photoshop）或外包设计，成本高或周期长。
+  current_alternative_en: Alternatives are traditional design software (e.g., Photoshop) or outsourcing,
+    which are costly or slow.
+  usage_reason: 关注度来自 AI 设计代理的新颖性和对创意行业的潜在影响。
+  usage_reason_en: Attention comes from the novelty of AI design agents and potential impact on creative
+    industries.

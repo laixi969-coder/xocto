@@ -3,15 +3,15 @@ slug: chatgpt
 name: ChatGPT
 builder: miradu
 category: 通用助手
-summary_zh: ChatGPT 是 OpenAI 的通用对话助手，用户通过自然语言提问、写作、生成图像、完成工作和编写代码。它支持多轮对话，能承认错误、挑战错误前提并拒绝不当请求。
-inspiration: 趋势是 AI 助手从通用对话向垂直场景渗透，如教育领域。切入点是针对特定行业（如教师）提供定制化工具和培训，但需注意与 OpenAI 正面竞争的窗口已关，应寻找细分场景或差异化服务。
-summary_en: ChatGPT is OpenAI's general-purpose conversational assistant, allowing users to ask questions,
-  write, create images, complete work, and code via natural language. It supports multi-turn dialogue,
-  admits mistakes, challenges incorrect premises, and rejects inappropriate requests.
-inspiration_en: 'Trend: AI assistants are moving from general conversation to vertical scenarios like
-  education. Entry: provide customized tools and training for specific industries (e.g., teachers), but
-  note the window for head-on competition with OpenAI is closed; seek niche scenarios or differentiated
-  services.'
+summary_zh: ChatGPT 是 OpenAI 的通用对话助手，用户通过自然语言提问、写作、生成图像、完成工作和编程。它支持多轮对话，可处理各类任务。本次新增教育领域扩展，为教师提供安全 AI
+  工具和培训。
+inspiration: 趋势是通用助手向垂直行业渗透，教育是重点。切入可从教师备课、学生辅导等具体环节，提供定制化工具，但需注意与 OpenAI 的竞争，可聚焦细分场景或本地化。
+summary_en: ChatGPT is OpenAI's general-purpose conversational assistant, enabling users to ask questions,
+  write, create images, complete work, and code via natural language. It supports multi-turn dialogue.
+  This event adds education expansion, providing secure AI tools and training for teachers.
+inspiration_en: 'Trend: general assistants penetrate verticals, education being key. Enter via specific
+  tasks like lesson planning or tutoring, offering tailored tools, but beware competition with OpenAI;
+  focus on niche scenarios or localization.'
 priority_review: false
 project_type: ai_transformation
 industries:
@@ -21,19 +21,17 @@ industries_en:
 - Education
 - General
 jobs:
-- 教师
 - 学生
-- 普通用户
+- 教师
+- 通用用户
 jobs_en:
-- Teacher
-- Student
-- General User
+- Students
+- Teachers
+- General users
 regions:
 - 美国
-- 全球
 regions_en:
 - United States
-- Global
 open_source: false
 url: https://www.aicpb.com/product/ChatGPT/webid1D6F37591
 canonical_url: https://aicpb.com/product/ChatGPT/webid1D6F37591
@@ -41,7 +39,7 @@ summary: chatgpt resources and news. learn how artificial intelligence is changi
   ai chat bots to discover what you can do with them.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: watching
 sources:
 - aicpb
 - hackernews

@@ -2,27 +2,36 @@
 slug: 郭露西是如何想到要创立scale-ai的
 name: Scale AI
 builder: ''
-category: ''
-summary_zh: 报道回顾了郭露西创立Scale AI的历程，但未提供关于Scale AI当前产品、服务或市场表现的新事实。
-inspiration: ''
-summary_en: The article reviews Lucy Guo's journey in founding Scale AI, but does not provide new facts
-  about Scale AI's current products, services, or market performance.
-inspiration_en: ''
+category: 基础层
+summary_zh: Scale AI提供数据标注和评估服务，帮助AI模型训练。创始人郭露西的创业故事被报道，但具体产品细节未披露。
+inspiration: 趋势：AI数据服务需求持续增长，数据标注成为基础层关键。切入：可关注垂直领域数据标注，如医疗、法律，提供专业标注服务。
+summary_en: Scale AI provides data annotation and evaluation services for AI model training. Founder Lucy
+  Guo's story is reported, but product details are not disclosed.
+inspiration_en: 'Trend: Demand for AI data services continues to grow, making data annotation a key foundation
+  layer. Entry: Focus on vertical data annotation like medical or legal, offering specialized services.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 人工智能
+industries_en:
+- Artificial intelligence
+jobs:
+- 数据标注员
+jobs_en:
+- Data annotators
+regions:
+- 美国
+- 中国
+regions_en:
+- United States
+- China
 open_source: false
 url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
 last_seen: '2026-08-31T17:38:50Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 - marketfeeds

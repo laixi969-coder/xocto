@@ -1,0 +1,73 @@
+- id: req-initial-郭露西是如何想到要创立scale-ai的-2026-09-01
+  project_slug: 郭露西是如何想到要创立scale-ai的
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI训练数据质量与效率问题，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-3609cee94fa64ea9
+  - gate: consensus
+    status: insufficient
+    reason: 报道聚焦创始人故事，缺乏产品采用或市场反馈数据。
+    evidence_ids:
+    - ev-3609cee94fa64ea9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是AI企业，但未证实。
+    evidence_ids:
+    - ev-3609cee94fa64ea9
+  - gate: truth
+    status: insufficient
+    reason: 产品成熟度未知，需更多公开信息。
+    evidence_ids:
+    - ev-3609cee94fa64ea9
+  next_validation: 查阅Scale AI官网，获取服务详情、定价和客户案例。
+  market: ''
+  job: AI公司需要高质量标注数据来训练模型。
+  job_en: AI companies need high-quality annotated data to train models.
+  pain: 数据标注耗时耗力，质量难以保证。
+  pain_en: Data annotation is time-consuming and quality is hard to guarantee.
+  current_alternative: 目前可能使用内部标注团队或众包平台。
+  current_alternative_en: Currently may use in-house annotation teams or crowdsourcing platforms.
+  usage_reason: Scale AI提供专业标注服务，但具体采用情况未核验。
+  usage_reason_en: Scale AI offers professional annotation services, but specific adoption is not verified.
+- id: req-full-郭露西是如何想到要创立scale-ai的-2026-09-01
+  project_slug: 郭露西是如何想到要创立scale-ai的
+  level: full
+  reviewed_at: '2026-08-31T18:47:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决AI训练数据质量与效率问题，痛点明确，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-3609cee94fa64ea9
+  - gate: consensus
+    status: insufficient
+    reason: 报道聚焦创始人故事，缺乏产品采用或市场反馈数据。
+    evidence_ids:
+    - ev-3609cee94fa64ea9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是AI企业，但未证实。
+    evidence_ids:
+    - ev-3609cee94fa64ea9
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Scale AI提供数据标注和评估服务，帮助AI模型训练。创始人郭露西的创业故事被报道，但具体产品细节未披露”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 查阅Scale AI官网，获取服务详情、定价和客户案例。
+  market: ''
+  job: AI公司需要高质量标注数据来训练模型。
+  job_en: AI companies need high-quality annotated data to train models.
+  pain: 数据标注耗时耗力，质量难以保证。
+  pain_en: Data annotation is time-consuming and quality is hard to guarantee.
+  current_alternative: 目前可能使用内部标注团队或众包平台。
+  current_alternative_en: Currently may use in-house annotation teams or crowdsourcing platforms.
+  usage_reason: Scale AI提供专业标注服务，但具体采用情况未核验。
+  usage_reason_en: Scale AI offers professional annotation services, but specific adoption is not verified.

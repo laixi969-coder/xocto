@@ -35,3 +35,75 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Write the company process as hard
     rules; the AI works only inside them and cannot improvise. The exact adoption motive and repeat use
     are not yet verified.'
+- id: req-initial-controller-ai-2026-09-01
+  project_slug: controller-ai
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述构建确定性代理，但未说明具体流程定义方式、应用场景或交付结果，无法判断需求强度。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 无用户讨论或采用证据，共识未形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未提供实际应用案例或效果验证，交付确定性无法核验。
+    evidence_ids: []
+  next_validation: 关注产品官网是否发布定价、客户案例或部署文档。
+  market: ''
+  job: 企业希望 AI 代理按照既定流程执行任务，确保结果可控且可审计。
+  job_en: Enterprises want AI agents to execute tasks according to established processes, ensuring controllable
+    and auditable results.
+  pain: 通用 AI 代理可能偏离流程，导致错误或合规风险，但缺乏有效的流程约束机制。
+  pain_en: Generic AI agents may deviate from processes, causing errors or compliance risks, but effective
+    process constraint mechanisms are lacking.
+  current_alternative: 目前企业通常依靠人工监督或硬编码规则，成本高且灵活性差。
+  current_alternative_en: Currently enterprises often rely on manual supervision or hard-coded rules,
+    which is costly and inflexible.
+  usage_reason: 产品页面存在但无采用或付费证据，关注度有限。
+  usage_reason_en: Product page exists but no adoption or payment evidence, limited attention.
+- id: req-full-controller-ai-2026-09-01
+  project_slug: controller-ai
+  level: full
+  reviewed_at: '2026-08-31T18:40:15Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述构建确定性代理，但未说明具体流程定义方式、应用场景或交付结果，无法判断需求强度。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品官网是否发布定价、客户案例或部署文档。
+  market: ''
+  job: 企业希望 AI 代理按照既定流程执行任务，确保结果可控且可审计。
+  job_en: Enterprises want AI agents to execute tasks according to established processes, ensuring controllable
+    and auditable results.
+  pain: 通用 AI 代理可能偏离流程，导致错误或合规风险，但缺乏有效的流程约束机制。
+  pain_en: Generic AI agents may deviate from processes, causing errors or compliance risks, but effective
+    process constraint mechanisms are lacking.
+  current_alternative: 目前企业通常依靠人工监督或硬编码规则，成本高且灵活性差。
+  current_alternative_en: Currently enterprises often rely on manual supervision or hard-coded rules,
+    which is costly and inflexible.
+  usage_reason: 产品页面存在但无采用或付费证据，关注度有限。
+  usage_reason_en: Product page exists but no adoption or payment evidence, limited attention.

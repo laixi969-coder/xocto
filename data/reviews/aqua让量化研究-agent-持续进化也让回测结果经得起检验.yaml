@@ -1,0 +1,80 @@
+- id: req-initial-aqua让量化研究-agent-持续进化也让回测结果经得起检验-2026-09-01
+  project_slug: aqua让量化研究-agent-持续进化也让回测结果经得起检验
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决回测过拟合的痛点，通过自动区分新证据和偶然高分，提供更可靠的策略验证。工作流结构判断。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及系统设计，缺乏用户反馈或行业采用证据。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向量化基金或研究团队，但商业模式未验证。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  - gate: truth
+    status: insufficient
+    reason: 系统是否真实运行并产生可靠结果未公开，需进一步验证。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  next_validation: 关注 AQuA 的官方文档或论文，看是否有回测效果对比或客户案例。
+  market: ''
+  job: 量化研究员要完成的是在回测中识别真正有效的策略，避免过拟合。
+  job_en: Quantitative researchers need to identify truly effective strategies in backtesting, avoiding
+    overfitting.
+  pain: 回测结果容易受偶然因素影响，导致策略实盘失效。
+  pain_en: Backtest results are often affected by chance, leading to strategy failure in live trading.
+  current_alternative: 当前替代方式是人工审查回测结果，但效率低且难以全面识别偶然性。
+  current_alternative_en: Current alternative is manual review of backtest results, which is inefficient
+    and may miss chance patterns.
+  usage_reason: 量化研究对回测可靠性有刚性需求，但 AQuA 的采用和效果尚未公开核验。
+  usage_reason_en: Quantitative research has a strong need for reliable backtesting, but AQuA's adoption
+    and effectiveness are not yet publicly verified.
+- id: req-full-aqua让量化研究-agent-持续进化也让回测结果经得起检验-2026-09-01
+  project_slug: aqua让量化研究-agent-持续进化也让回测结果经得起检验
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决回测过拟合的痛点，通过自动区分新证据和偶然高分，提供更可靠的策略验证。工作流结构判断。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及系统设计，缺乏用户反馈或行业采用证据。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能面向量化基金或研究团队，但商业模式未验证。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  - gate: truth
+    status: insufficient
+    reason: 系统是否真实运行并产生可靠结果未公开，需进一步验证。
+    evidence_ids:
+    - ev-6387da8cb36529bc
+  next_validation: 关注 AQuA 的官方文档或论文，看是否有回测效果对比或客户案例。
+  market: ''
+  job: 量化研究员需要在回测中识别真正有效的策略，避免过拟合。
+  job_en: Quantitative researchers need to identify truly effective strategies in backtesting, avoiding
+    overfitting.
+  pain: 回测结果容易受偶然因素影响，导致策略实盘失效。
+  pain_en: Backtest results are often affected by chance, leading to strategy failure in live trading.
+  current_alternative: 当前替代方式是人工审查回测结果，但效率低且难以全面识别偶然性。
+  current_alternative_en: Current alternative is manual review of backtest results, which is inefficient
+    and may miss chance patterns.
+  usage_reason: 量化研究对回测可靠性有刚性需求，但 AQuA 的采用和效果尚未公开核验。
+  usage_reason_en: Quantitative research has a strong need for reliable backtesting, but AQuA's adoption
+    and effectiveness are not yet publicly verified.

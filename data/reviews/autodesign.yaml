@@ -418,3 +418,42 @@
   usage_reason: 开源仓库获得181星，表明开发者社区关注，但持续使用和付费尚未核验。
   usage_reason_en: The open-source repository has 181 stars, indicating developer interest, but sustained
     usage and payment are not yet verified.
+- id: req-full-autodesign-2026-09-01
+  project_slug: autodesign
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研究人员生成学术交流材料的需求，痛点在于制作耗时且需设计技能；输入研究内容、AI 生成视觉材料，交付可确定，结构上成立。
+    evidence_ids:
+    - ev-4f7422831066da95
+  - gate: consensus
+    status: insufficient
+    reason: 公开仓库有 181 个收藏，说明社区关注，但缺乏用户评价或持续采用证据，共识未建立。
+    evidence_ids:
+    - ev-646370a32a19a600
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费方，可能面向研究人员或学术机构，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及设计质量边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪 autodesign 的 GitHub 仓库 issue 和 discussion，确认是否有用户部署案例或替代旧流程的讨论。
+  market: ''
+  job: 研究人员或学术作者需要生成学术交流材料，如论文图表和演示文稿。
+  job_en: Researchers or academic authors need to produce academic communication artifacts, such as paper
+    figures and presentations.
+  pain: 制作学术图表和演示文稿耗时且需要设计技能，但公开材料未说明不解决的具体代价或频率。
+  pain_en: Creating academic figures and presentations is time-consuming and requires design skills, but
+    public materials do not specify the cost or frequency of not solving it.
+  current_alternative: 公开材料未说明用户当前如何制作，可能使用设计软件或手动绘制，但尚未核验。
+  current_alternative_en: Public materials do not show how users currently create them; they may use design
+    software or manual drawing, but this is unverified.
+  usage_reason: 仓库有 181 个收藏，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 181 stars, showing developer attention, but sustained use and payment
+    are unverified.

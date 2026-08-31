@@ -109,3 +109,40 @@
   usage_reason: 公开代码仓库有 77 个收藏、3 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 77 stars and 3 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-approving-2026-09-01
+  project_slug: approving
+  level: full
+  reviewed_at: '2026-08-31T18:39:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助开发者控制 AI 编码代理，但公开材料仅有产品描述，未说明具体痛点、频率或不采用代价，无法判断需求强度。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找该项目的 GitHub 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。
+  market: ''
+  job: 开发者需要让 AI 编码代理在隔离环境中运行，并在关键节点等待人工批准。
+  job_en: Developers need to run AI coding agents in isolated environments and pause for human approval
+    at critical nodes.
+  pain: AI 代理可能执行危险操作，但公开材料未说明具体痛点强度或不采用代价。
+  pain_en: AI agents may perform dangerous actions, but public materials do not specify the pain intensity
+    or cost of not using it.
+  current_alternative: 公开材料未说明用户当前如何控制 AI 代理，可能使用人工监督或限制权限，但尚未核验。
+  current_alternative_en: Public materials do not show how users currently control AI agents; they may
+    use manual supervision or permission limits, but this is unverified.
+  usage_reason: 仓库有 77 个收藏，说明开发者关注，但持续使用和付费尚未核验。
+  usage_reason_en: The repository has 77 stars, showing developer attention, but sustained use and payment
+    are unverified.

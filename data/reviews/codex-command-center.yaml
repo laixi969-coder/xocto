@@ -419,3 +419,42 @@
   usage_reason: 仓库获得109星，显示开发者关注，但持续使用和付费未核验。
   usage_reason_en: The repository has 109 stars, showing developer interest, but sustained usage and payment
     are not verified.
+- id: req-full-codex-command-center-2026-09-01
+  project_slug: codex-command-center
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Codex 项目组织管理的痛点：提供本地桌面控制中心统一管理项目、任务、会话等。痛点刚性：开发者需要高效管理多个项目。交付可确定：桌面应用提供组织功能。工作流结构推理成立。
+    evidence_ids:
+    - ev-828d4349734f2fdd
+  - gate: consensus
+    status: insufficient
+    reason: 星标 136，无用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-ad9b84802a0f09d3
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，付费方不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性和安全性未验证，需可复现证据。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户使用案例。
+  market: ''
+  job: 开发者需要组织和管理 Codex 项目、任务、会话、Git 更改、Skills 和 MCP 配置。
+  job_en: Developers need to organize and manage Codex projects, tasks, sessions, Git changes, Skills,
+    and MCP configuration.
+  pain: Codex 项目分散在多个工具中，缺乏统一管理界面，导致效率低下。
+  pain_en: Codex projects are scattered across multiple tools, lacking a unified management interface,
+    leading to inefficiency.
+  current_alternative: 目前可能使用命令行、文件管理器或 IDE 插件，但缺乏集中控制。
+  current_alternative_en: Currently may use command line, file managers, or IDE plugins, but lack centralized
+    control.
+  usage_reason: 仓库星标从 102 增至 136，显示开发者关注；但采用和付费未核验。
+  usage_reason_en: Repository stars grew from 102 to 136, showing developer attention; adoption and payment
+    not verified.

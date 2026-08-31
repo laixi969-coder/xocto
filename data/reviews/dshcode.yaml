@@ -188,3 +188,41 @@
   usage_reason: 仓库获得 522 星，表明开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 522 stars, showing developer interest, but sustained use and payment
     are not yet verified.
+- id: req-full-dshcode-2026-09-01
+  project_slug: dshcode
+  level: full
+  reviewed_at: '2026-08-31T18:41:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户桌面客户端需求，痛点在于安装复杂或缺乏官方客户端，交付为一键安装的 Electron 应用，结构上成立。
+    evidence_ids:
+    - ev-a13872a089266f97
+  - gate: consensus
+    status: insufficient
+    reason: 星标数高且增长快，显示社区强烈关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-6edcf08a3fea940c
+    - ev-7f0285e58bd2888d
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为桌面应用，但应用的稳定性和功能完整性缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对桌面应用体验、功能需求的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 通过一键安装的桌面应用使用 DeepSeek Harness，支持 macOS 和 Windows。
+  job_en: Use DeepSeek Harness via a one-click desktop app for macOS and Windows.
+  pain: 用户希望有桌面客户端，但官方可能没有或安装复杂。
+  pain_en: Users want a desktop client, but official may lack one or installation is complex.
+  current_alternative: 用户可能使用网页版或手动配置环境，但体验不佳或门槛高。
+  current_alternative_en: Users may use web version or manually configure environment, which is poor experience
+    or high barrier.
+  usage_reason: 仓库星标从 476 增长到 600，显示高关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 476 to 600, showing high interest, but sustained use
+    and payment are unverified.

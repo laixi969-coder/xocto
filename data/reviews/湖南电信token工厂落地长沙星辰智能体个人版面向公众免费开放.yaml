@@ -1,0 +1,75 @@
+- id: req-initial-湖南电信token工厂落地长沙星辰智能体个人版面向公众免费开放-2026-09-01
+  project_slug: 湖南电信token工厂落地长沙星辰智能体个人版面向公众免费开放
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及免费开放，未说明具体功能、使用场景或交付物，无法判断解决什么需求。
+    evidence_ids:
+    - ev-a05b011f20ff3257
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，仅一条新闻，共识未建立。
+    evidence_ids:
+    - ev-a05b011f20ff3257
+  - gate: model
+    status: insufficient
+    reason: 免费开放，商业模式未披露，无法判断付费路径。
+    evidence_ids:
+    - ev-a05b011f20ff3257
+  - gate: truth
+    status: insufficient
+    reason: 未披露技术细节或交付验证，真实性待核验。
+    evidence_ids:
+    - ev-a05b011f20ff3257
+  next_validation: 关注星辰智能体官方页面或应用商店，获取功能列表和用户评价。
+  market: ''
+  job: 个人用户可能希望获得便捷的AI助手服务，但具体任务和场景未明确。
+  job_en: Individual users may want convenient AI assistant services, but specific tasks and scenarios
+    are unclear.
+  pain: 未明确具体痛点，可能是通用AI助手的免费替代。
+  pain_en: No specific pain point identified; possibly a free alternative to general AI assistants.
+  current_alternative: 用户可能使用其他免费AI助手如豆包、Kimi等。
+  current_alternative_en: Users may use other free AI assistants like Doubao, Kimi, etc.
+  usage_reason: 免费开放可能吸引用户尝试，但缺乏具体功能描述，采用原因未核验。
+  usage_reason_en: Free access may attract users, but lack of feature details means adoption reasons are
+    unverified.
+- id: req-full-湖南电信token工厂落地长沙星辰智能体个人版面向公众免费开放-2026-09-01
+  project_slug: 湖南电信token工厂落地长沙星辰智能体个人版面向公众免费开放
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及免费开放，未说明具体功能、使用场景或交付物，无法判断解决什么需求。
+    evidence_ids:
+    - ev-a05b011f20ff3257
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注星辰智能体官方页面或应用商店，获取功能列表和用户评价。
+  market: ''
+  job: 个人用户可能希望获得便捷的AI助手服务，但具体任务和场景未明确。
+  job_en: Individual users may want convenient AI assistant services, but specific tasks and scenarios
+    are unclear.
+  pain: 未明确具体痛点，可能是通用AI助手的免费替代。
+  pain_en: No specific pain point identified; possibly a free alternative to general AI assistants.
+  current_alternative: 用户可能使用其他免费AI助手如豆包、Kimi等。
+  current_alternative_en: Users may use other free AI assistants like Doubao, Kimi, etc.
+  usage_reason: 免费开放可能吸引用户尝试，但缺乏具体功能描述，采用原因未核验。
+  usage_reason_en: Free access may attract users, but lack of feature details means adoption reasons are
+    unverified.

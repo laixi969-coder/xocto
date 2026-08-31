@@ -1,0 +1,71 @@
+- id: req-initial-全国第三公司第二初创黑马灵犀智涌用ross-harness把机器人送进工业具身智能第一梯队-2026-09-01
+  project_slug: 全国第三公司第二初创黑马灵犀智涌用ross-harness把机器人送进工业具身智能第一梯队
+  level: initial
+  reviewed_at: '2026-08-31T17:38:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及获奖，未说明具体解决什么工业任务、痛点或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-0c9308dbd047021f
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或行业关注证据，仅一次获奖不足以证明共识。
+    evidence_ids:
+    - ev-0c9308dbd047021f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式、定价或付费方，无法判断商业路径。
+    evidence_ids:
+    - ev-0c9308dbd047021f
+  - gate: truth
+    status: insufficient
+    reason: 未披露技术细节或实际部署案例，无法验证交付确定性。
+    evidence_ids:
+    - ev-0c9308dbd047021f
+  next_validation: 关注灵犀智涌官方发布或行业报道，获取具体工业场景案例、客户反馈和部署数据。
+  market: ''
+  job: 工业场景中部署具身智能机器人，完成特定任务。
+  job_en: Deploy embodied AI robots in industrial scenarios to complete specific tasks.
+  pain: 传统工业机器人部署成本高、周期长，难以适应柔性生产。
+  pain_en: Traditional industrial robots are costly and slow to deploy, struggling with flexible production.
+  current_alternative: 使用传统工业机器人或人工操作。
+  current_alternative_en: Using traditional industrial robots or manual labor.
+  usage_reason: 获奖表明技术可行性，但实际采用和付费尚未核验。
+  usage_reason_en: Award indicates technical feasibility, but actual adoption and payment are unverified.
+- id: req-full-全国第三公司第二初创黑马灵犀智涌用ross-harness把机器人送进工业具身智能第一梯队-2026-09-01
+  project_slug: 全国第三公司第二初创黑马灵犀智涌用ross-harness把机器人送进工业具身智能第一梯队
+  level: full
+  reviewed_at: '2026-08-31T18:46:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料仅提及获奖，未说明具体解决什么工业任务、痛点或交付结果，无法判断需求强度。
+    evidence_ids:
+    - ev-0c9308dbd047021f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注灵犀智涌官方发布或行业报道，获取具体工业场景案例、客户反馈和部署数据。
+  market: ''
+  job: 工业场景中部署具身智能机器人，完成特定任务。
+  job_en: Deploy embodied AI robots in industrial scenarios to complete specific tasks.
+  pain: 传统工业机器人部署成本高、周期长，难以适应柔性生产。
+  pain_en: Traditional industrial robots are costly and slow to deploy, struggling with flexible production.
+  current_alternative: 使用传统工业机器人或人工操作。
+  current_alternative_en: Using traditional industrial robots or manual labor.
+  usage_reason: 获奖表明技术可行性，但实际采用和付费尚未核验。
+  usage_reason_en: Award indicates technical feasibility, but actual adoption and payment are unverified.

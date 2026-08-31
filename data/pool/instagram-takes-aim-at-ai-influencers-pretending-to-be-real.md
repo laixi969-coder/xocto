@@ -1,11 +1,12 @@
 ---
 slug: instagram-takes-aim-at-ai-influencers-pretending-to-be-real
-name: Instagram Takes Aim at AI Influencers Pretending to Be Real People.
+name: Instagram
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Instagram 是 Meta 旗下的社交平台，本次事件是其平台政策调整，针对 AI 生成内容冒充真人网红的行为。
 inspiration: ''
-summary_en: ''
+summary_en: Instagram is a social platform under Meta; this event is a platform policy adjustment targeting
+  AI-generated content impersonating real influencers.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQWkpCMGJTX0tX
 summary: Instagram Takes Aim at AI Influencers Pretending to Be Real People. innovation-village.com
 first_seen: '2026-08-31T14:00:34Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Instagram Takes Aim at AI Influencers Pretending to Be Real People.
+# Instagram
 
 Instagram Takes Aim at AI Influencers Pretending to Be Real People. innovation-village.com
 

@@ -417,3 +417,43 @@
   usage_reason: 6951 个星标显示开发者高度关注，但持续使用和付费尚未核验。
   usage_reason_en: 6951 stars indicate high developer interest, but sustained usage and payment are not
     yet verified.
+- id: req-full-dsh-routing-suite-2026-09-01
+  project_slug: dsh-routing-suite
+  level: full
+  reviewed_at: '2026-08-31T18:41:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理开发者控制代理行为的需求，痛点在于配置复杂和缺乏标准化，交付为注入器和路由预设，结构上成立。
+    evidence_ids:
+    - ev-447a06a9bb8e2cc9
+  - gate: consensus
+    status: insufficient
+    reason: 星标数高且增长快，显示社区强烈关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-d739205e78e82f93
+    - ev-41b0ce7107f65bde
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为路由预设，但 P1-P23 的测量结果和实际效果缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对路由效果、配置体验的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 为 DeepSeek Harness 安装运行时注入器和任务感知路由预设，以调整代理行为。
+  job_en: Install a runtime injector and task-aware routing preset for DeepSeek Harness to adjust agent
+    behavior.
+  pain: AI 代理开发者需要精细控制代理的推理模式，但现有配置复杂且缺乏标准化。
+  pain_en: AI agent developers need fine-grained control over agent reasoning modes, but existing configs
+    are complex and non-standard.
+  current_alternative: 开发者可能手动修改配置或使用其他工具，但效率低且易出错。
+  current_alternative_en: Developers may manually edit configs or use other tools, which is inefficient
+    and error-prone.
+  usage_reason: 仓库星标从 6,933 增长到 6,997，显示高关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 6,933 to 6,997, showing high interest, but sustained
+    use and payment are unverified.

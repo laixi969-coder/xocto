@@ -1,11 +1,11 @@
 ---
 slug: consumers-are-doing-the-maths-and-ai-is-changing-the-equatio
-name: Consumers are doing the maths – and AI is changing the equation
+name: Consumer AI adoption
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 消费者正在计算 AI 的成本效益，AI 正在改变消费决策的方程式。
 inspiration: ''
-summary_en: ''
+summary_en: Consumers are evaluating AI's cost-benefit, and AI is changing the equation for consumer decisions.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNbzNqMi1hOVhZ
 summary: Consumers are doing the maths – and AI is changing the equation Moonstone Information Refinery
 first_seen: '2026-08-31T09:23:07Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Consumers are doing the maths – and AI is changing the equation
+# Consumer AI adoption
 
 Consumers are doing the maths – and AI is changing the equation Moonstone Information Refinery
 

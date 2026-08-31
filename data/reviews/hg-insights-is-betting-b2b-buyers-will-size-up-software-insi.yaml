@@ -1,0 +1,80 @@
+- id: req-initial-hg-insights-is-betting-b2b-buyers-will-size-up-software-insi-2026-09-01
+  project_slug: hg-insights-is-betting-b2b-buyers-will-size-up-software-insi
+  level: initial
+  reviewed_at: '2026-08-31T17:38:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 B2B 采购中信息获取慢、不全面的痛点，替代传统分析师报告，交付可确定（提供市场情报）。工作流结构判断。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  - gate: consensus
+    status: insufficient
+    reason: 报道来源单一，缺乏客户案例或市场采用数据。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能向企业销售数据订阅，但付费方和定价未公开。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  - gate: truth
+    status: insufficient
+    reason: 数据准确性和更新频率未经验证，需独立评估。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  next_validation: 关注 HG Insights 官网或产品页面，寻找定价、客户案例或数据样本。
+  market: ''
+  job: B2B 采购经理在评估软件产品时，需要快速获取市场情报以做出决策。
+  job_en: B2B procurement managers need quick access to market intelligence when evaluating software products.
+  pain: 传统搜索和报告获取信息慢且不全面，AI 答案可能缺乏可靠数据支撑。
+  pain_en: Traditional search and reports are slow and incomplete, and AI answers may lack reliable data
+    support.
+  current_alternative: 目前依赖分析师报告、行业展会或内部调研，耗时且成本高。
+  current_alternative_en: Currently relying on analyst reports, industry events, or internal research,
+    which is time-consuming and costly.
+  usage_reason: AI 在 B2B 采购中的应用增加，HG Insights 提供的数据情报能填补 AI 答案中的信息缺口，因此受到关注。
+  usage_reason_en: As AI use in B2B procurement grows, HG Insights' data intelligence fills the information
+    gap in AI answers, hence gaining attention.
+- id: req-full-hg-insights-is-betting-b2b-buyers-will-size-up-software-insi-2026-09-01
+  project_slug: hg-insights-is-betting-b2b-buyers-will-size-up-software-insi
+  level: full
+  reviewed_at: '2026-08-31T18:42:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 B2B 采购中信息获取慢、不全面的痛点，替代传统分析师报告，交付可确定（提供市场情报）。工作流结构判断。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  - gate: consensus
+    status: insufficient
+    reason: 报道来源单一，缺乏客户案例或市场采用数据。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，可能向企业销售数据订阅，但付费方和定价未公开。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  - gate: truth
+    status: insufficient
+    reason: 数据准确性和更新频率未经验证，需独立评估。
+    evidence_ids:
+    - ev-88b1ceddcec89917
+  next_validation: 关注 HG Insights 官网或产品页面，寻找定价、客户案例或数据样本。
+  market: ''
+  job: B2B 采购经理在评估软件产品时，需要快速获取市场情报以做出决策。
+  job_en: B2B procurement managers need quick access to market intelligence when evaluating software products.
+  pain: 传统搜索和报告获取信息慢且不全面，AI 答案可能缺乏可靠数据支撑。
+  pain_en: Traditional search and reports are slow and incomplete, and AI answers may lack reliable data
+    support.
+  current_alternative: 目前依赖分析师报告、行业展会或内部调研，耗时且成本高。
+  current_alternative_en: Currently relying on analyst reports, industry events, or internal research,
+    which is time-consuming and costly.
+  usage_reason: AI 在 B2B 采购中的应用增加，HG Insights 提供的数据情报能填补 AI 答案中的信息缺口，因此受到关注。
+  usage_reason_en: As AI use in B2B procurement grows, HG Insights' data intelligence fills the information
+    gap in AI answers, hence gaining attention.

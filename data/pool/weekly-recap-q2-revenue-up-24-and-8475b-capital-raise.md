@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQMXhlbWpKSHRI
 summary: 'Weekly Recap: Q2 revenue up 24% and $84.75B capital raise TradingView'
 first_seen: '2026-08-31T11:22:48Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

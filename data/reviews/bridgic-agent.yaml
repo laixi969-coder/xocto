@@ -262,3 +262,40 @@
   usage_reason: 公开代码仓库有 46 个收藏、3 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 46 stars and 3 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-bridgic-agent-2026-09-01
+  project_slug: bridgic-agent
+  level: full
+  reviewed_at: '2026-08-31T18:39:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决将需求转化为可持续工作流的需求：通过 /build 命令构建并运行工作流。痛点：手动构建工作流耗时且易错。交付可确定：生成可运行的工作流。工作流结构推理成立。
+    evidence_ids:
+    - ev-8de187d23b2204b0
+  - gate: consensus
+    status: insufficient
+    reason: 星标 47，无用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-22e81b492ed67efe
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能是开源免费，付费方不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性和安全性未验证，需可复现证据。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户使用案例。
+  market: ''
+  job: 用户需要将需求转化为可持续运行的工作流。
+  job_en: Users need to turn their wants into workflows that actually work and keep working.
+  pain: 手动构建和维护工作流耗时且易出错，缺乏自动化工具。
+  pain_en: Manually building and maintaining workflows is time-consuming and error-prone, lacking automation
+    tools.
+  current_alternative: 目前可能使用脚本、低代码平台或手动流程，但难以持续演化。
+  current_alternative_en: Currently may use scripts, low-code platforms, or manual processes, but difficult
+    to evolve continuously.
+  usage_reason: 仓库星标 47，显示早期关注；但采用和付费未核验。
+  usage_reason_en: Repository has 47 stars, showing early interest; adoption and payment not verified.

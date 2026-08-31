@@ -414,3 +414,42 @@
   usage_reason: 469 个星标显示开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: 469 stars indicate developer interest, but sustained usage and payment are not yet
     verified.
+- id: req-full-dsh-pet-2026-09-01
+  project_slug: dsh-pet
+  level: full
+  reviewed_at: '2026-08-31T18:41:37Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户个性化桌面、娱乐陪伴的需求，痛点在于现有方案安装复杂或缺乏定制，交付为一行命令安装和 DIY 素材链，结构上成立。
+    evidence_ids:
+    - ev-cbd580dc1a02f1b4
+  - gate: consensus
+    status: insufficient
+    reason: 星标数高且增长快，显示社区强烈关注，但缺乏用户评价或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-6626539a4013f759
+    - ev-bbfe69faf95eafda
+  - gate: model
+    status: insufficient
+    reason: 未见付费主体、定价或单位经济，商业模式不明确，但这是模式缺口，不否定需求。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付为桌面宠物和 DIY 素材链，但动画质量和 DIY 流程的可靠性缺乏可复现的公开验证。
+    evidence_ids: []
+  next_validation: 追踪仓库 issue 和 discussion，寻找用户对宠物使用体验、DIY 流程的反馈，以及是否有付费意愿的讨论。
+  market: ''
+  job: 安装一个桌面宠物，或从 AI 视频自造专属宠物，用于娱乐和个性化桌面。
+  job_en: Install a desktop pet, or create a custom pet from AI video, for entertainment and desktop personalization.
+  pain: 用户希望桌面更有趣、个性化，但现有宠物应用安装复杂或缺乏定制能力。
+  pain_en: Users want a more fun and personalized desktop, but existing pet apps are complex to install
+    or lack customization.
+  current_alternative: 用户可能使用其他桌面宠物软件或静态壁纸，但安装和定制不便。
+  current_alternative_en: Users may use other desktop pet software or static wallpapers, but installation
+    and customization are inconvenient.
+  usage_reason: 仓库星标从 463 增长到 491，显示高关注度，但持续使用和付费尚未核验。
+  usage_reason_en: The repository stars grew from 463 to 491, showing high interest, but sustained use
+    and payment are unverified.

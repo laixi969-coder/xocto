@@ -1,11 +1,11 @@
 ---
 slug: funding-and-acquisitions-in-indian-startups-this-week-aug-24
-name: Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29]
+name: Indian startup funding
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 本周印度初创公司的融资和收购活动汇总。
 inspiration: ''
-summary_en: ''
+summary_en: A summary of funding and acquisitions in Indian startups this week.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzBXTGRrYzNj
 summary: Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29] Entrackr
 first_seen: '2026-08-29T09:18:56Z'
 last_seen: '2026-08-31T17:38:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29]
+# Indian startup funding
 
 Funding and acquisitions in Indian startups this week [Aug 24 - Aug 29] Entrackr
 
