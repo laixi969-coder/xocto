@@ -1,12 +1,12 @@
 ---
 slug: indian-startups-raised-over-215-million-from-august-24-to-au
-name: Indian startups raised over $215 million from August 24 to August 29, 2026; Third Wave Coffee tops
-  the list
+name: Indian startups
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年8月24日至29日，印度初创企业融资超2.15亿美元，Third Wave Coffee领衔，反映印度创业生态活跃。
 inspiration: ''
-summary_en: ''
+summary_en: Indian startups raised over $215M from Aug 24-29, 2026, led by Third Wave Coffee, reflecting
+  a vibrant startup ecosystem.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: Indian startups raised over $215 million from August 24 to August 29, 2
   tops the list Indian Startup News
 first_seen: '2026-08-30T17:16:43Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Indian startups raised over $215 million from August 24 to August 29, 2026; Third Wave Coffee tops the list
+# Indian startups
 
 Indian startups raised over $215 million from August 24 to August 29, 2026; Third Wave Coffee tops the list Indian Startup News
 

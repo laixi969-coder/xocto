@@ -3,10 +3,10 @@ slug: tokenstead
 name: EU AI Act
 builder: cdnsteve
 category: ''
-summary_zh: 欧盟开始执行 AI 法案，首次向模型提供商发出信息请求（RFI），标志着 AI 监管进入执法阶段。
+summary_zh: 欧盟开始执行 AI 法案，首次向模型提供商发出信息请求，标志着 AI 监管进入实施阶段。
 inspiration: ''
-summary_en: The EU has begun enforcing the AI Act, issuing first RFIs to model providers, marking a new
-  phase of AI regulation.
+summary_en: The EU has begun enforcing the AI Act, issuing first requests for information to model providers,
+  marking the implementation phase of AI regulation.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security
 summary: 'The EU has begun enforcing the AI Act: first RFIs to model providers'
 first_seen: '2026-08-31T03:45:57Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

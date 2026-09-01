@@ -21,7 +21,7 @@ canonical_url: https://raq.com/blog/can-you-spot-ai-web-design/quiz
 summary: Guess the AI model from its web design
 first_seen: '2026-08-31T19:40:25Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

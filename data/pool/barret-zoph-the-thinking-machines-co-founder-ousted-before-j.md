@@ -1,12 +1,13 @@
 ---
 slug: barret-zoph-the-thinking-machines-co-founder-ousted-before-j
-name: Google
+name: Thinking Machines Lab
 builder: lr0
 category: ''
-summary_zh: 这是人才流动新闻，不是独立产品。Barret Zoph 从 OpenAI 转至 Google，反映 AI 人才竞争加剧，可能影响相关实验室的产品方向。
+summary_zh: Thinking Machines Lab 是一家 AI 研究公司，由 Mira Murati 等人联合创立，专注于开发前沿 AI 技术。本次事件涉及联合创始人离职，但产品细节未披露。
 inspiration: ''
-summary_en: This is a talent movement news, not an independent product. Barret Zoph moved from OpenAI
-  to Google, reflecting intensified AI talent competition, potentially affecting lab product directions.
+summary_en: Thinking Machines Lab is an AI research company co-founded by Mira Murati and others, focusing
+  on developing frontier AI technologies. This event involves a co-founder departure, but product details
+  are not disclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ summary: Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and al
   CTO, led a brief stint at OpenAI and is now at Google.
 first_seen: '2026-08-27T19:52:52Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews
@@ -95,7 +96,7 @@ sightings:
   kind: news
 ---
 
-# Google
+# Thinking Machines Lab
 
 Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.
 

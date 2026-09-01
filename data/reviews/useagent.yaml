@@ -1,0 +1,77 @@
+- id: req-initial-useagent-2026-09-01
+  project_slug: useagent
+  level: initial
+  reviewed_at: '2026-09-01T01:18:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称交付完整成果，但未说明具体任务类型、输入和交付标准，痛点强度无法判断。
+    evidence_ids:
+    - ev-aa9025041c43a2ce
+  - gate: consensus
+    status: insufficient
+    reason: 仅 151 星标，无用户讨论或案例，共识未形成。
+    evidence_ids:
+    - ev-aa9025041c43a2ce
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看代码仓库的 README 和 issues，确认具体功能和交付示例。
+  market: ''
+  job: 团队希望将完整工作（如网站、报告）交给 AI 代理，获得成品。
+  job_en: Teams want to hand off complete work (e.g., websites, reports) to AI agents and receive finished
+    artifacts.
+  pain: 传统外包或手动制作耗时且成本高，现有 AI 工具只提供片段而非成品。
+  pain_en: Traditional outsourcing or manual creation is time-consuming and costly; existing AI tools
+    provide fragments, not finished artifacts.
+  current_alternative: 使用外包团队或手动制作，或使用编码助手生成代码片段再自行整合。
+  current_alternative_en: Using outsourcing or manual creation, or using coding assistants to generate
+    snippets and integrate manually.
+  usage_reason: 代码仓库星标 151 表明初步关注，但具体用户采用和交付质量未验证。
+  usage_reason_en: 151 stars on the code repository indicate initial interest, but specific user adoption
+    and deliverable quality unverified.
+- id: req-full-useagent-2026-09-01
+  project_slug: useagent
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称交付完整成果，但未说明具体任务类型、输入和交付标准，痛点强度无法判断。
+    evidence_ids:
+    - ev-aa9025041c43a2ce
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查看代码仓库的 README 和 issues，确认具体功能和交付示例。
+  market: ''
+  job: 团队希望将完整工作（如网站、报告）交给 AI 代理，获得成品。
+  job_en: Teams want to hand off complete work (e.g., websites, reports) to AI agents and receive finished
+    artifacts.
+  pain: 传统外包或手动制作耗时且成本高，现有 AI 工具只提供片段而非成品。
+  pain_en: Traditional outsourcing or manual creation is time-consuming and costly; existing AI tools
+    provide fragments, not finished artifacts.
+  current_alternative: 使用外包团队或手动制作，或使用编码助手生成代码片段再自行整合。
+  current_alternative_en: Using outsourcing or manual creation, or using coding assistants to generate
+    snippets and integrate manually.
+  usage_reason: 代码仓库星标 151 表明初步关注，但具体用户采用和交付质量未验证。
+  usage_reason_en: 151 stars on the code repository indicate initial interest, but specific user adoption
+    and deliverable quality unverified.

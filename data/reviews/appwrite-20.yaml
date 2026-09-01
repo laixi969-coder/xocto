@@ -1,0 +1,82 @@
+- id: req-initial-appwrite-20-2026-09-01
+  project_slug: appwrite-20
+  level: initial
+  reviewed_at: '2026-09-01T01:18:10Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者搭建后端服务的需求，痛点明确：传统方式耗时且易错。Appwrite 提供 API 驱动的后端服务，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  - gate: consensus
+    status: supported
+    reason: 开源项目已有社区基础，2.0 发布引发关注，但持续采用数据未披露。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  - gate: model
+    status: insufficient
+    reason: 商业模式未明确，可能通过云服务收费，但公开材料未披露定价。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  - gate: truth
+    status: supported
+    reason: 产品贴近后端开发的第一性目标，交付确定性高，安全边界由开发者控制。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  next_validation: 关注 Appwrite 官方定价页和云服务采用数据。
+  market: ''
+  job: 开发者需要为应用搭建后端服务，包括用户认证、数据库、存储等。
+  job_en: Developers need to set up backend services for their applications, including user authentication,
+    database, and storage.
+  pain: 传统方式需要自己配置服务器、管理数据库、处理安全问题，耗时且容易出错。
+  pain_en: Traditional methods require configuring servers, managing databases, and handling security
+    issues, which is time-consuming and error-prone.
+  current_alternative: 开发者通常使用 Firebase、Supabase 等 BaaS 平台，或自己搭建后端。
+  current_alternative_en: Developers typically use BaaS platforms like Firebase, Supabase, or build their
+    own backend.
+  usage_reason: Appwrite 提供开源、自托管的选项，吸引对数据控制要求高的开发者；2.0 版本发布引发社区关注。
+  usage_reason_en: Appwrite offers open-source, self-hosted options, attracting developers who require
+    high data control; the 2.0 release has generated community interest.
+- id: req-full-appwrite-20-2026-09-01
+  project_slug: appwrite-20
+  level: full
+  reviewed_at: '2026-09-01T01:48:40Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者搭建后端服务的需求，痛点明确：传统方式耗时且易错。Appwrite 提供 API 驱动的后端服务，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  - gate: consensus
+    status: supported
+    reason: 开源项目已有社区基础，2.0 发布引发关注，但持续采用数据未披露。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  - gate: model
+    status: insufficient
+    reason: 商业模式未明确，可能通过云服务收费，但公开材料未披露定价。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  - gate: truth
+    status: supported
+    reason: 产品贴近后端开发的第一性目标，交付确定性高，安全边界由开发者控制。
+    evidence_ids:
+    - ev-78faa7f844b78706
+  next_validation: 关注 Appwrite 官方定价页和云服务采用数据。
+  market: ''
+  job: 开发者需要为应用搭建后端服务，包括用户认证、数据库、存储等。
+  job_en: Developers need to set up backend services for their applications, including user authentication,
+    database, and storage.
+  pain: 传统方式需要自己配置服务器、管理数据库、处理安全问题，耗时且容易出错。
+  pain_en: Traditional methods require configuring servers, managing databases, and handling security
+    issues, which is time-consuming and error-prone.
+  current_alternative: 开发者通常使用 Firebase、Supabase 等 BaaS 平台，或自己搭建后端。
+  current_alternative_en: Developers typically use BaaS platforms like Firebase, Supabase, or build their
+    own backend.
+  usage_reason: Appwrite 提供开源、自托管的选项，吸引对数据控制要求高的开发者；2.0 版本发布引发社区关注。
+  usage_reason_en: Appwrite offers open-source, self-hosted options, attracting developers who require
+    high data control; the 2.0 release has generated community interest.

@@ -21,7 +21,7 @@ canonical_url: https://povesham.wordpress.com/2026/08/30/state-of-the-map-2026-o
 summary: I attended the State of the Map conference
 first_seen: '2026-08-31T08:57:35Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinwFBVV95cUxQWVRPU21Ebjll
 summary: Top 10 MVP Development Companies for Building and Scaling AI Products Triad City Beat
 first_seen: '2026-08-31T22:21:41Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

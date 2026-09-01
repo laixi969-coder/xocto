@@ -1,0 +1,73 @@
+- id: req-initial-blue-whale-harness-2026-09-01
+  project_slug: blue-whale-harness
+  level: initial
+  reviewed_at: '2026-09-01T01:18:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决插件发现和筛选的痛点，提供搜索和排序功能，交付明确。工作流结构判断。
+    evidence_ids:
+    - ev-21dd77a121ae7a15
+  - gate: consensus
+    status: insufficient
+    reason: 星数显示初步关注，但缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-21dd77a121ae7a15
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能通过广告或赞助盈利，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 目录的准确性和更新频率未验证。
+    evidence_ids: []
+  next_validation: 关注目录的更新频率和用户反馈，以及是否有商业合作或广告收入。
+  market: ''
+  job: 开发者需要发现和比较 DeepSeek 生态中的插件。
+  job_en: Developers need to discover and compare plugins in the DeepSeek ecosystem.
+  pain: 插件数量庞大，缺乏统一的搜索和筛选工具。
+  pain_en: The large number of plugins lacks unified search and filtering tools.
+  current_alternative: 目前主要依赖代码托管平台的搜索和社区推荐。
+  current_alternative_en: Currently relies on code hosting platform search and community recommendations.
+  usage_reason: 目录站获得 187 星，表明开发者对插件发现有需求，但持续使用和付费尚未核验。
+  usage_reason_en: The directory has 187 stars, indicating developer demand for plugin discovery, but
+    sustained use and payment are not yet verified.
+- id: req-full-blue-whale-harness-2026-09-01
+  project_slug: blue-whale-harness
+  level: full
+  reviewed_at: '2026-09-01T01:48:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决插件发现和筛选的痛点，提供搜索和排序功能，交付明确。工作流结构判断。
+    evidence_ids:
+    - ev-21dd77a121ae7a15
+  - gate: consensus
+    status: insufficient
+    reason: 星数显示初步关注，但缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-21dd77a121ae7a15
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能通过广告或赞助盈利，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Blue-Whale-Harness 是 DeepSeek Harness 插件的目录站，收录 1958 个仓库、1819 个插件，支持中英文搜索、分类筛选和
+      STAR 排序”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 追踪 Blue-Whale-Harness 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 开发者需要发现和比较 DeepSeek 生态中的插件。
+  job_en: Developers need to discover and compare plugins in the DeepSeek ecosystem.
+  pain: 插件数量庞大，缺乏统一的搜索和筛选工具。
+  pain_en: The large number of plugins lacks unified search and filtering tools.
+  current_alternative: 目前主要依赖代码托管平台的搜索和社区推荐。
+  current_alternative_en: Currently relies on code hosting platform search and community recommendations.
+  usage_reason: 目录站获得 187 星，表明开发者对插件发现有需求，但持续使用和付费尚未核验。
+  usage_reason_en: The directory has 187 stars, indicating developer demand for plugin discovery, but
+    sustained use and payment are not yet verified.

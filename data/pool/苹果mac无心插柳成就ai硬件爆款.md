@@ -1,11 +1,12 @@
 ---
 slug: 苹果mac无心插柳成就ai硬件爆款
-name: 苹果Mac：无心插柳成就AI硬件爆款
+name: 苹果Mac
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 苹果Mac因AI硬件需求成为爆款，报道称其无心插柳成就AI硬件市场。具体产品变化和影响未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Apple Mac has become a hit due to AI hardware demand, with reports saying it unintentionally
+  became an AI hardware success. Specific product changes and impacts are not disclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOV3RqSFNPemtQ
 summary: 苹果Mac：无心插柳成就AI硬件爆款 新浪财经
 first_seen: '2026-08-31T10:20:00Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 苹果Mac：无心插柳成就AI硬件爆款
+# 苹果Mac
 
 苹果Mac：无心插柳成就AI硬件爆款 新浪财经
 

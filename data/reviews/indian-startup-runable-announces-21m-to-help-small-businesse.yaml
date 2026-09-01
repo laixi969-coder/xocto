@@ -1,0 +1,72 @@
+- id: req-initial-indian-startup-runable-announces-21m-to-help-small-businesse-2026-09-01
+  project_slug: indian-startup-runable-announces-21m-to-help-small-businesse
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 小企业建站后需要增长工具，痛点明确，融资验证了需求。
+    evidence_ids:
+    - ev-dcbcf1b99f169673
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及融资，缺乏用户反馈或采用数据。
+    evidence_ids:
+    - ev-dcbcf1b99f169673
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，无法判断付费路径。
+    evidence_ids:
+    - ev-dcbcf1b99f169673
+  - gate: truth
+    status: insufficient
+    reason: 交付能力未验证，需更多产品信息。
+    evidence_ids:
+    - ev-dcbcf1b99f169673
+  next_validation: 关注 Runable 官网或产品页面，获取具体功能、定价和客户案例。
+  market: ''
+  job: 小企业主需要建立在线存在并吸引客户。
+  job_en: Small business owners need to establish an online presence and attract customers.
+  pain: AI 建站后缺乏流量和客户，增长困难。
+  pain_en: After AI website creation, there is a lack of traffic and customers, making growth difficult.
+  current_alternative: 小企业可能依赖社交媒体或本地广告，但效果有限。
+  current_alternative_en: Small businesses may rely on social media or local ads, but with limited effect.
+  usage_reason: 融资表明投资者看好，但具体采用情况尚未核验。
+  usage_reason_en: Funding indicates investor confidence, but adoption is not yet verified.
+- id: req-full-indian-startup-runable-announces-21m-to-help-small-businesse-2026-09-01
+  project_slug: indian-startup-runable-announces-21m-to-help-small-businesse
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 小企业建站后需要增长工具，痛点明确，融资验证了需求。
+    evidence_ids:
+    - ev-dcbcf1b99f169673
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及融资，缺乏用户反馈或采用数据。
+    evidence_ids:
+    - ev-dcbcf1b99f169673
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“Runable 是一家印度初创公司，获得 2100 万美元融资，旨在帮助小企业超越 AI 建站，实现业务增长”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Runable 是一家印度初创公司，获得 2100 万美元融资，旨在帮助小企业超越 AI 建站，实现业务增长”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注 Runable 官网或产品页面，获取具体功能、定价和客户案例。
+  market: ''
+  job: 小企业主需要建立在线存在并吸引客户。
+  job_en: Small business owners need to establish an online presence and attract customers.
+  pain: AI 建站后缺乏流量和客户，增长困难。
+  pain_en: After AI website creation, there is a lack of traffic and customers, making growth difficult.
+  current_alternative: 小企业可能依赖社交媒体或本地广告，但效果有限。
+  current_alternative_en: Small businesses may rely on social media or local ads, but with limited effect.
+  usage_reason: 融资表明投资者看好，但具体采用情况尚未核验。
+  usage_reason_en: Funding indicates investor confidence, but adoption is not yet verified.

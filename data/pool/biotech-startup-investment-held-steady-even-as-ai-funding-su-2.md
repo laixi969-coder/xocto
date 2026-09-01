@@ -1,11 +1,12 @@
 ---
 slug: biotech-startup-investment-held-steady-even-as-ai-funding-su-2
-name: Biotech Startup Investment Held Steady Even As AI Funding Surged
+name: 生物技术与AI风险投资趋势
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 行业投融资数据显示，在AI领域融资持续激增的背景下，生物技术初创企业的投融资金额保持相对平稳，显示出跨行业资本配置的分化。
 inspiration: ''
-summary_en: ''
+summary_en: Venture capital data indicates that biotech startup investments remained steady even as AI
+  funding surged, highlighting divergent capital allocation trends across sectors.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxONy16cUZhRDQ5
 summary: Biotech Startup Investment Held Steady Even As AI Funding Surged Crunchbase News
 first_seen: '2026-08-31T11:00:52Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Biotech Startup Investment Held Steady Even As AI Funding Surged
+# 生物技术与AI风险投资趋势
 
 Biotech Startup Investment Held Steady Even As AI Funding Surged Crunchbase News
 

@@ -36,3 +36,71 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Feeds a chat assistant live data that
     ordinary search cannot reach, such as sales leads, rival ads, and airfares. The exact adoption motive
     and repeat use are not yet verified.'
+- id: req-initial-click-2026-09-01
+  project_slug: click
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明提供实时研究上下文，未描述具体用户任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-11ef9a5c5a8bd45f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注产品官网和用户评价，以获取具体功能和使用场景。
+  market: ''
+  job: 用户需要在与 AI 对话时获取实时研究信息。
+  job_en: Users need real-time research information during AI conversations.
+  pain: AI 模型知识截止日期导致信息过时。
+  pain_en: AI models have knowledge cutoffs, leading to outdated information.
+  current_alternative: 目前用户可能手动搜索或使用浏览器插件。
+  current_alternative_en: Currently users may manually search or use browser extensions.
+  usage_reason: 尚未核验，仅有产品页面，无采用证据。
+  usage_reason_en: Not yet verified; only a product page exists, no adoption evidence.
+- id: req-full-click-2026-09-01
+  project_slug: click
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明提供实时研究上下文，未描述具体用户任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-11ef9a5c5a8bd45f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注产品官网和用户评价，以获取具体功能和使用场景。
+  market: ''
+  job: 用户需要在与 AI 对话时获取实时研究信息。
+  job_en: Users need real-time research information during AI conversations.
+  pain: AI 模型知识截止日期导致信息过时。
+  pain_en: AI models have knowledge cutoffs, leading to outdated information.
+  current_alternative: 目前用户可能手动搜索或使用浏览器插件。
+  current_alternative_en: Currently users may manually search or use browser extensions.
+  usage_reason: 尚未核验，仅有产品页面，无采用证据。
+  usage_reason_en: Not yet verified; only a product page exists, no adoption evidence.

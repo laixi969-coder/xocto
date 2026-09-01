@@ -21,7 +21,7 @@ canonical_url: https://kingsbridge-consultancy.com/md-viewer
 summary: Markdown Viewer and Editor
 first_seen: '2026-08-31T20:55:03Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

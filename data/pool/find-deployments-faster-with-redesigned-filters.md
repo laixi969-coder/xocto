@@ -3,9 +3,11 @@ slug: find-deployments-faster-with-redesigned-filters
 name: Vercel
 builder: ''
 category: ''
-summary_zh: Vercel 更新了部署筛选器，并支持从控制台构建和部署 eve agents。
+summary_zh: Vercel 是前端部署平台，本次更新改进了部署列表筛选，并允许开发者在控制台直接构建和部署 eve agents，同时沙箱每日计算快照存储成本。具体流程和交付仍待核验。
 inspiration: ''
-summary_en: Vercel updated deployment filters and enabled building and deploying eve agents from the dashboard.
+summary_en: Vercel is a frontend deployment platform. This update improves deployment filters, allows
+  building and deploying eve agents from the dashboard, and calculates snapshot storage costs daily. Specific
+  workflows and deliverables remain to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://vercel.com/changelog/find-deployments-faster-with-redesig
 summary: ''
 first_seen: '2026-08-27T13:00:00Z'
 last_seen: '2026-09-01T01:18:40Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:

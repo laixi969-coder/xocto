@@ -109,3 +109,37 @@
   usage_reason: 公开记录显示月访问 7.49M、环比 30%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 7.49M monthly visits and 30% month-over-month growth. That explains
     the attention, but product-level retention and payment are not yet verified.
+- id: req-full-codebuddy-tencetn-2026-09-01
+  project_slug: codebuddy-tencetn
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“腾讯的写代码助手，插件、独立软件和命令行三种用法都能覆盖”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 CodeBuddy 官网定价页与客户案例，确认付费路径与交付结果。
+  market: ''
+  job: 开发者需要编写代码，并希望获得辅助以提高效率。
+  job_en: Developers need to write code and seek assistance to improve efficiency.
+  pain: 编码任务耗时且容易出错，人工编写效率低。
+  pain_en: Coding tasks are time-consuming and error-prone; manual writing is inefficient.
+  current_alternative: 目前用户可能使用其他代码助手或人工编写。
+  current_alternative_en: Currently users may use other coding assistants or write manually.
+  usage_reason: 公开记录显示月访问 7.49M、环比增长 30%，表明开发者关注和使用，但留存与付费尚未核验。
+  usage_reason_en: Public records show 7.49M monthly visits and 30% MoM growth, indicating developer attention
+    and usage, but retention and payment are not yet verified.

@@ -1,0 +1,72 @@
+- id: req-initial-oh-story-dsh-2026-09-01
+  project_slug: oh-story-dsh
+  level: initial
+  reviewed_at: '2026-09-01T01:18:14Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决剧本创作的结构化需求，工作流结构判断：提供专业模板，交付可确定。
+    evidence_ids:
+    - ev-fc3bf6838e8ab255
+  - gate: consensus
+    status: supported
+    reason: 代码托管平台星数显示社区关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-fc3bf6838e8ab255
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，买方可能是创作者或制作公司。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 插件功能未详细验证，交付质量待确认。
+    evidence_ids: []
+  next_validation: 查看代码仓库的 issue 和讨论，了解用户反馈和实际使用场景。
+  market: ''
+  job: 小说作者和短剧编剧需要快速生成结构化的剧本内容。
+  job_en: Novelists and short-drama screenwriters need to quickly generate structured script content.
+  pain: 传统写作耗时，缺乏专业剧本结构指导。
+  pain_en: Traditional writing is time-consuming and lacks professional script structure guidance.
+  current_alternative: 使用通用 AI 写作工具或手动编写。
+  current_alternative_en: Using general AI writing tools or manual writing.
+  usage_reason: 代码托管平台 230 星表明开源社区关注，但实际采用和付费未核验。
+  usage_reason_en: 230 stars on a code hosting platform indicate open-source community interest, but actual
+    adoption and monetization are unverified.
+- id: req-full-oh-story-dsh-2026-09-01
+  project_slug: oh-story-dsh
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决剧本创作的结构化需求，工作流结构判断：提供专业模板，交付可确定。
+    evidence_ids:
+    - ev-fc3bf6838e8ab255
+  - gate: consensus
+    status: supported
+    reason: 代码托管平台星数显示社区关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-fc3bf6838e8ab255
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未披露，买方可能是创作者或制作公司。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 插件功能未详细验证，交付质量待确认。
+    evidence_ids: []
+  next_validation: 查看代码仓库的 issue 和讨论，了解用户反馈和实际使用场景。
+  market: ''
+  job: 小说作者和短剧编剧需要快速生成结构化的剧本内容。
+  job_en: Novelists and short-drama screenwriters need to quickly generate structured script content.
+  pain: 传统写作耗时，缺乏专业剧本结构指导。
+  pain_en: Traditional writing is time-consuming and lacks professional script structure guidance.
+  current_alternative: 使用通用 AI 写作工具或手动编写。
+  current_alternative_en: Using general AI writing tools or manual writing.
+  usage_reason: 代码托管平台 230 星表明开源社区关注，但实际采用和付费未核验。
+  usage_reason_en: 230 stars on a code hosting platform indicate open-source community interest, but actual
+    adoption and monetization are unverified.

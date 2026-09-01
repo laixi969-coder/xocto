@@ -1,11 +1,13 @@
 ---
 slug: appsavvy-launches-ai-transformation-practice-after-ohanas-60
-name: AppSavvy Launches AI Transformation Practice After Ohana's $60M Growth
+name: AppSavvy
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AppSavvy 是一家数字产品代理公司，在客户 Ohana 实现 6000 万美元增长后，宣布推出专门的 AI 转型业务线，帮助企业将 AI 能力整合到现有产品与流程中。具体服务内容与交付方式尚未详细披露。
 inspiration: ''
-summary_en: ''
+summary_en: AppSavvy, a digital product agency, announced a dedicated AI transformation practice after
+  client Ohana achieved $60M growth, helping businesses integrate AI capabilities into existing products
+  and processes. Specific services and delivery methods are not yet detailed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxQdjlXZmJycklM
 summary: AppSavvy Launches AI Transformation Practice After Ohana's $60M Growth EIN News
 first_seen: '2026-08-31T10:29:43Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AppSavvy Launches AI Transformation Practice After Ohana's $60M Growth
+# AppSavvy
 
 AppSavvy Launches AI Transformation Practice After Ohana's $60M Growth EIN News
 

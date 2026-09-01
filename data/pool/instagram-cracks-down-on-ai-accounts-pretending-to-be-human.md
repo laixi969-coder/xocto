@@ -1,11 +1,12 @@
 ---
 slug: instagram-cracks-down-on-ai-accounts-pretending-to-be-human
-name: Instagram cracks down on AI accounts pretending to be human
+name: Instagram
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Instagram 更新政策，限制未披露的 AI 资料，并更名标签以增加透明度。这是平台政策变化，影响 AI 影响者账户。
 inspiration: ''
-summary_en: ''
+summary_en: Instagram updated policies to limit undisclosed AI profiles and renamed labels for transparency.
+  This is a platform policy change affecting AI influencer accounts.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: Instagram is finally taking steps to address the rise of fake AI-influe
   people don't like seeing a profile […]
 first_seen: '2026-08-31T13:00:00Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Instagram cracks down on AI accounts pretending to be human
+# Instagram
 
 Instagram is finally taking steps to address the rise of fake AI-influencer accounts that have gotten harder to spot. It's also renaming the "AI creator" label to "AI-generated profile" to make it clear when a profile features an AI-generated person that's not a real human being. "We've heard that people don't like seeing a profile […]
 

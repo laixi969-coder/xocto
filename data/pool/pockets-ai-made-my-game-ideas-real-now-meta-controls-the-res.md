@@ -1,11 +1,12 @@
 ---
 slug: pockets-ai-made-my-game-ideas-real-now-meta-controls-the-res
-name: Pocket's AI made my game ideas real. Now Meta controls the results.
+name: Meta
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Meta 平台上的交互式移动小工具（gizmos）易于制作，但难以在 Meta 平台之外分享。
 inspiration: ''
-summary_en: ''
+summary_en: Interactive mobile gizmos on Meta's platform are easy to create but hard to share outside
+  of it.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://arstechnica.com/gaming/2026/08/pockets-ai-made-my-game-id
 summary: Interactive mobile "gizmos" are easy to make, hard to share outside Meta's platform.
 first_seen: '2026-08-31T10:00:34Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Pocket's AI made my game ideas real. Now Meta controls the results.
+# Meta
 
 Interactive mobile "gizmos" are easy to make, hard to share outside Meta's platform.
 

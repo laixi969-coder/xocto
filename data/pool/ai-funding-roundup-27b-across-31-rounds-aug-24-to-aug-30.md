@@ -1,11 +1,12 @@
 ---
 slug: ai-funding-roundup-27b-across-31-rounds-aug-24-to-aug-30
-name: 'AI Funding Roundup: $2.7B Across 31 Rounds, Aug 24 to Aug 30'
+name: AI行业周度融资动态
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年8月24日至30日期间，全球AI领域共完成31笔融资交易，总融资额达27亿美元，资本持续向核心AI创企集中。
 inspiration: ''
-summary_en: ''
+summary_en: Between August 24 and August 30, 2026, the global AI sector closed 31 funding rounds totaling
+  $2.7 billion, showing sustained capital focus on core AI startups.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNa1oxRHFBN3dv
 summary: 'AI Funding Roundup: $2.7B Across 31 Rounds, Aug 24 to Aug 30 StartupHub.ai'
 first_seen: '2026-08-31T13:01:51Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI Funding Roundup: $2.7B Across 31 Rounds, Aug 24 to Aug 30
+# AI行业周度融资动态
 
 AI Funding Roundup: $2.7B Across 31 Rounds, Aug 24 to Aug 30 StartupHub.ai
 

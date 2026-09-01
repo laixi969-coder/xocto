@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49505014
 summary: When AI makes results readily available, why do I lose my passion and want to do nothing?
 first_seen: '2026-08-31T02:40:37Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -3,16 +3,18 @@ slug: openclaw
 name: OpenClaw
 builder: doppp
 category: 通用助手
-summary_zh: OpenClaw 是一款开源个人 AI 助手，运行在用户设备上，通过 WhatsApp、Telegram、Discord 等聊天应用作为界面，自动执行跨平台任务，支持 Claude、GPT
-  或本地模型。用户通过日常聊天应用下达指令，AI 完成自动化操作，但具体任务类型和交付结果仍需核验。
-inspiration: 趋势是 AI 助手从独立应用转向嵌入现有聊天平台，降低使用门槛。切入点是面向个人用户提供本地优先的自动化助手，但需注意隐私和安全性，避免与大型平台正面竞争。
-summary_en: OpenClaw is an open-source personal AI assistant that runs on the user's device and uses chat
-  apps like WhatsApp, Telegram, and Discord as its interface, automating tasks across platforms with Claude,
-  GPT, or local models. Users issue commands via everyday chat apps, and the AI completes automated actions,
-  but specific task types and deliverables remain unverified.
-inspiration_en: The trend is AI assistants moving from standalone apps to embedding in existing chat platforms,
-  lowering adoption barriers. The entry point is serving individual users with a local-first automation
-  assistant, but privacy and security must be addressed, avoiding head-on competition with large platforms.
+summary_zh: OpenClaw 是开源 AI 助手，运行在用户本机，通过 WhatsApp、Telegram、Discord 等聊天应用交互，可调用 Claude、GPT 或本地模型自动执行任务。用户在日常聊天界面中下达指令，AI
+  在后台完成操作并返回结果，覆盖 30+ 平台。具体任务类型和交付形式仍待核验。
+inspiration: 趋势是 AI 从聊天助手走向能自主执行任务的智能体，且以聊天应用为入口降低使用门槛。切入可从垂直任务（如日程管理、信息聚合）开始，按任务完成收费，而非通用助手。注意避免与 ChatGPT
+  等通用入口正面竞争，聚焦特定工作流。
+summary_en: OpenClaw is an open-source AI assistant that runs locally and interacts via chat apps like
+  WhatsApp, Telegram, Discord, using Claude, GPT, or local models to automate tasks. Users issue commands
+  in familiar chat interfaces, and the AI executes actions in the background, covering 30+ platforms.
+  Specific task types and deliverables remain unverified.
+inspiration_en: The trend is AI evolving from chat assistants to autonomous agents, with chat apps as
+  low-friction entry points. Enter by focusing on vertical tasks (e.g., scheduling, info aggregation)
+  and charging per completed task, not as a general assistant. Avoid head-on competition with ChatGPT;
+  target specific workflows.
 priority_review: false
 project_type: open_source
 industries:
@@ -37,7 +39,7 @@ canonical_url: https://aicpb.com/product/OpenClaw/webid1D6F39F51
 summary: 开创了 Claw 智能体品类
 first_seen: '2026-08-17T22:41:21Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - marketfeeds

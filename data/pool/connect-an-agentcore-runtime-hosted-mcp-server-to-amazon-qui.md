@@ -1,11 +1,11 @@
 ---
 slug: connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-qui
-name: Connect an AgentCore Runtime hosted MCP server to Amazon Quick
+name: Amazon Quick
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AWS 平台集成能力更新，非独立产品事件。
 inspiration: ''
-summary_en: ''
+summary_en: AWS platform integration update, not an independent product event.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -25,7 +25,7 @@ summary: In this post, you will learn how to deploy and host your MCP server in 
   inside Amazon Quick (chat agents and workflows) without building custom connectors for every use case.
 first_seen: '2026-08-31T22:47:53Z'
 last_seen: '2026-09-01T01:18:40Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -36,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Connect an AgentCore Runtime hosted MCP server to Amazon Quick
+# Amazon Quick
 
 In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites. With this pattern, you promote reusability and avoid duplication of AI tools, so clients can reuse commonly used tools and agents exposed through an MCP server instead of authoring them from scratch again. Your customers get a way to use your product inside Amazon Quick (chat agents and workflows) without building custom connectors for every use case.
 

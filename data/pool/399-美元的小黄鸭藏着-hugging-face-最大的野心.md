@@ -1,38 +1,38 @@
 ---
 slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
-name: Hugging Face
+name: Microduck
 builder: ''
 category: AI + 生活
-summary_zh: Microduck 是 公开模型社区 旗下 Pollen Robotics 推出的双足机器鸭，面向学生、研究者和爱好者。用户用手柄控制它行走、蹲起、翻身、叼物，也可通过开源 SDK
-  和强化学习训练管线在仿真中训练新行为并部署到真机。交付的是可玩、可编程的实物机器人平台，硬件设计未开源。
-inspiration: 趋势是具身智能从实验室走向桌面级消费硬件，以低价开源软件吸引开发者形成生态。切入可从教育机器人或 STEM 教具市场进入，围绕强化学习课程和竞赛建立内容与社区，但需注意硬件成本控制和差异化。
-summary_en: Microduck is a bipedal robot duck from public model community's Pollen Robotics, targeting
-  students, researchers, and hobbyists. Users control it via gamepad to walk, squat, flip, and grab objects,
-  and can train new behaviors in simulation using the open-source SDK and RL pipeline, then deploy to
-  the real robot. It delivers a playable, programmable physical robot platform; hardware design is not
-  open-sourced.
-inspiration_en: The trend is embodied AI moving from labs to desktop consumer hardware, using low-cost
-  open-source software to attract developers and build an ecosystem. Entry could be through educational
-  robotics or STEM teaching aids, building curriculum and community around reinforcement learning, but
-  hardware cost control and differentiation are key.
+summary_zh: Microduck 是 Pollen Robotics 推出的双足机器鸭，面向学生、研究者和爱好者。用户用手柄控制它走路、蹲下、翻身、叼物，也可通过 NFC 标签触发预设动作；出厂预装
+  7 种强化学习训练的行为策略，软件栈开源，用户可重新训练并部署新行为。硬件设计未开源，具体训练流程和部署细节仍待核验。
+inspiration: 趋势是具身智能从高价研究设备走向低价消费级平台，用开源软件生态降低上手门槛。切入可从教育市场开始，围绕强化学习和 sim-to-real 教学场景提供课程和实验套件，而非直接做通用机器人。
+summary_en: Microduck is a bipedal robot duck from Pollen Robotics, targeting students, researchers, and
+  hobbyists. Users control it via gamepad to walk, squat, flip, and grab objects, and can trigger preset
+  actions via NFC tags; it comes with 7 reinforcement-learning-trained behavior policies, and the software
+  stack is open-sourced for retraining and deploying new behaviors. Hardware design is not open-sourced;
+  specific training and deployment details remain to be verified.
+inspiration_en: The trend is embodied AI moving from expensive research equipment to low-cost consumer
+  platforms, using open-source software ecosystems to lower the barrier to entry. Entry could start with
+  education, offering courses and experiment kits around reinforcement learning and sim-to-real, rather
+  than building a general-purpose robot.
 priority_review: false
 project_type: new_application
 industries:
 - 教育
-- 机器人
 - 消费电子
+- 机器人
 industries_en:
 - Education
-- Robotics
 - Consumer Electronics
+- Robotics
 jobs:
 - 学生
 - 研究者
-- 机器人爱好者
+- 爱好者
 jobs_en:
 - Students
 - Researchers
-- Robotics enthusiasts
+- Hobbyists
 regions:
 - 全球
 regions_en:
@@ -87,7 +87,7 @@ summary: "作者｜ 宇航猿   \n  编辑｜ 靖宇  \n 很少有机器人，�
   \ geekparkGO"
 first_seen: '2026-08-31T07:09:46Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -103,7 +103,7 @@ sightings:
   kind: news
 ---
 
-# Hugging Face
+# Microduck
 
 作者｜ 宇航猿   
   编辑｜ 靖宇  

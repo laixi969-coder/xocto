@@ -1,0 +1,82 @@
+- id: req-initial-clipto-uses-ai-to-search-terabytes-of-video-and-is-now-value-2026-09-01
+  project_slug: clipto-uses-ai-to-search-terabytes-of-video-and-is-now-value
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频素材检索耗时的痛点，替代人工浏览和标签管理，交付可确定的片段或时间戳，价值结构成立。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及估值，缺乏用户规模、留存或付费数据，共识证据不足。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是媒体公司或制作团队，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  - gate: truth
+    status: insufficient
+    reason: 产品实际搜索准确性和交付质量未验证，需要更多用户反馈或实测。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  next_validation: 关注 Clipto 官网或后续报道，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 视频编辑和内容团队需要从大量视频素材中快速找到特定片段或信息。
+  job_en: Video editors and content teams need to quickly find specific clips or information from large
+    video archives.
+  pain: 手动浏览或使用传统标签方式检索视频耗时且容易遗漏，尤其当素材量达到 TB 级时。
+  pain_en: Manually browsing or using traditional tagging to search video is time-consuming and prone
+    to misses, especially when footage reaches terabytes.
+  current_alternative: 目前通常依赖人工标记、文件名管理或逐段观看，效率低下。
+  current_alternative_en: Currently relies on manual tagging, file naming, or scrubbing through footage,
+    which is inefficient.
+  usage_reason: AI 驱动的语义搜索能大幅缩短查找时间，且估值 2.5 亿美元表明市场关注度高，但具体采用和付费情况尚未核验。
+  usage_reason_en: AI-driven semantic search can drastically reduce search time, and the $250M valuation
+    indicates high market interest, but specific adoption and payment details are not yet verified.
+- id: req-full-clipto-uses-ai-to-search-terabytes-of-video-and-is-now-value-2026-09-01
+  project_slug: clipto-uses-ai-to-search-terabytes-of-video-and-is-now-value
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频素材检索耗时的痛点，替代人工浏览和标签管理，交付可确定的片段或时间戳，价值结构成立。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及估值，缺乏用户规模、留存或付费数据，共识证据不足。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是媒体公司或制作团队，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  - gate: truth
+    status: insufficient
+    reason: 产品实际搜索准确性和交付质量未验证，需要更多用户反馈或实测。
+    evidence_ids:
+    - ev-efa23ff8c18011c6
+  next_validation: 关注 Clipto 官网或后续报道，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 视频编辑和内容团队需要从大量视频素材中快速找到特定片段或信息。
+  job_en: Video editors and content teams need to quickly find specific clips or information from large
+    video archives.
+  pain: 手动浏览或使用传统标签方式检索视频耗时且容易遗漏，尤其当素材量达到 TB 级时。
+  pain_en: Manually browsing or using traditional tagging to search video is time-consuming and prone
+    to misses, especially when footage reaches terabytes.
+  current_alternative: 目前通常依赖人工标记、文件名管理或逐段观看，效率低下。
+  current_alternative_en: Currently relies on manual tagging, file naming, or scrubbing through footage,
+    which is inefficient.
+  usage_reason: AI 驱动的语义搜索能大幅缩短查找时间，且估值 2.5 亿美元表明市场关注度高，但具体采用和付费情况尚未核验。
+  usage_reason_en: AI-driven semantic search can drastically reduce search time, and the $250M valuation
+    indicates high market interest, but specific adoption and payment details are not yet verified.

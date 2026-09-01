@@ -1,11 +1,12 @@
 ---
 slug: vc-pe周报-a16z募资11亿美元押注ai基础设施sharpa获互联网巨头超45亿元联合投资
-name: VC/PE周报｜a16z募资11亿美元押注AI基础设施；Sharpa获互联网巨头超45亿元联合投资
+name: a16z
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该候选为 VC/PE 周报，报道 a16z 募资和 Sharpa 融资，属于投资动态，非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: This candidate is a VC/PE weekly report covering a16z fundraising and Sharpa financing, investment
+  news, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhUk5QMDR5TFJQ
 summary: VC/PE周报｜a16z募资11亿美元押注AI基础设施；Sharpa获互联网巨头超45亿元联合投资 mrjjxw.com
 first_seen: '2026-08-31T09:17:00Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# VC/PE周报｜a16z募资11亿美元押注AI基础设施；Sharpa获互联网巨头超45亿元联合投资
+# a16z
 
 VC/PE周报｜a16z募资11亿美元押注AI基础设施；Sharpa获互联网巨头超45亿元联合投资 mrjjxw.com
 

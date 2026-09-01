@@ -187,41 +187,39 @@
 - id: req-initial-local-2026-09-01
   project_slug: local
   level: initial
-  reviewed_at: '2026-08-31T17:38:59Z'
+  reviewed_at: '2026-09-01T01:18:41Z'
   verdict: true_demand
   signal_level: 需求信号明确
   gates:
   - gate: value
     status: supported
-    reason: 它解决本地 AI 部署复杂和云端隐私风险的问题，通过零摩擦本地运行，交付即时结果，痛点明确。工作流结构判断。
+    reason: 它解决数据隐私和离线可用性痛点，工作流结构判断：用户需要本地处理敏感数据，交付可确定。
     evidence_ids:
-    - ev-771770deb3377daf
+    - ev-b5300e6f39505076
   - gate: consensus
     status: supported
-    reason: 开发者社区讨论热度高，且本地 LLM 趋势明显，社区关注度强，但持续采用未核验。
+    reason: 开发者社区 199 分和 58 评论显示关注，但缺乏持续采用证据。
     evidence_ids:
-    - ev-771770deb3377daf
+    - ev-b5300e6f39505076
   - gate: model
     status: insufficient
-    reason: 未披露定价，可能面向个人用户或企业，但付费模式未明确。
+    reason: 未披露定价和付费路径，买方可能是个人或企业，但尚无公开证据。
     evidence_ids: []
   - gate: truth
-    status: supported
-    reason: 产品贴近本地 AI 的第一性目标，承诺零摩擦体验，但需验证实际性能和兼容性。
-    evidence_ids:
-    - ev-771770deb3377daf
-  next_validation: 关注 Local 的官网和用户评价，看是否有实际下载和使用数据，以及是否提供企业版或定价信息。
+    status: insufficient
+    reason: 产品承诺本地执行，但具体能力和交付质量未验证。
+    evidence_ids: []
+  next_validation: 关注 Local 官网定价页和用户评价，验证付费意愿和实际使用效果。
   market: ''
-  job: Mac 用户希望在本地运行 AI，保护隐私并减少延迟。
-  job_en: Mac users want to run AI locally to protect privacy and reduce latency.
-  pain: 云端 AI 存在数据隐私风险和网络延迟，用户对数据安全有顾虑。
-  pain_en: Cloud AI poses data privacy risks and network latency; users are concerned about data security.
-  current_alternative: 目前用户依赖云端 AI 服务或手动配置本地模型，前者有隐私风险，后者技术门槛高。
-  current_alternative_en: Currently users rely on cloud AI services or manually configure local models;
-    the former has privacy risks, the latter has high technical barriers.
-  usage_reason: 在开发者社区获得 199 分和 58 条评论，表明开发者社区关注，但实际采用尚未核验。
-  usage_reason_en: 199 points and 58 comments in the developer community indicate interest, but actual
-    adoption is unverified.
+  job: Mac 用户希望在本地运行 AI 模型，处理敏感数据或离线工作。
+  job_en: Mac users want to run AI models locally for sensitive data or offline work.
+  pain: 云端 AI 存在数据隐私泄露风险，且依赖网络连接。
+  pain_en: Cloud AI poses data privacy risks and requires internet connectivity.
+  current_alternative: 使用云端 AI 服务如 ChatGPT，或手动配置本地模型。
+  current_alternative_en: Using cloud AI services like ChatGPT, or manually configuring local models.
+  usage_reason: 开发者社区的高关注表明对本地 AI 兴趣浓厚，但付费和留存尚未核验。
+  usage_reason_en: High developer community engagement indicates strong interest in local AI, but monetization
+    and retention are unverified.
 - id: req-full-local-2026-09-01
   project_slug: local
   level: full

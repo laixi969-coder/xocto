@@ -1,0 +1,72 @@
+- id: req-initial-autoresearch-2026-09-01
+  project_slug: autoresearch
+  level: initial
+  reviewed_at: '2026-09-01T01:18:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研究人员从想法到证据的耗时流程，痛点明确，交付可确定（生成证据材料）。工作流结构判断。
+    evidence_ids:
+    - ev-e291eae4fdfd8d7f
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数显示初步关注，但缺乏用户反馈和采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-e291eae4fdfd8d7f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，买方可能是研究机构或企业研发部门，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和准确性验证，需进一步核验。
+    evidence_ids: []
+  next_validation: 关注该开源项目的社区讨论和 issue，以及是否有研究机构采用或付费案例。
+  market: ''
+  job: 研究人员需要从研究想法快速生成论文级别的证据材料。
+  job_en: Researchers need to quickly generate paper-ready evidence from research ideas.
+  pain: 文献调研和实验设计耗时费力，且容易遗漏关键证据。
+  pain_en: Literature review and experiment design are time-consuming and prone to missing key evidence.
+  current_alternative: 目前主要依赖手工文献检索和实验工具。
+  current_alternative_en: Currently relies on manual literature search and experimental tools.
+  usage_reason: 开源项目获得 201 星，表明研究者对自动化研究工具有兴趣，但付费和持续采用尚未核验。
+  usage_reason_en: The open-source project has 201 stars, indicating researcher interest in automated
+    research tools, but paid and sustained adoption is not yet verified.
+- id: req-full-autoresearch-2026-09-01
+  project_slug: autoresearch
+  level: full
+  reviewed_at: '2026-09-01T01:48:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研究人员从想法到证据的耗时流程，痛点明确，交付可确定（生成证据材料）。工作流结构判断。
+    evidence_ids:
+    - ev-e291eae4fdfd8d7f
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数显示初步关注，但缺乏用户反馈和采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-e291eae4fdfd8d7f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，买方可能是研究机构或企业研发部门，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付质量和准确性验证，需进一步核验。
+    evidence_ids: []
+  next_validation: 关注该开源项目的社区讨论和 issue，以及是否有研究机构采用或付费案例。
+  market: ''
+  job: 研究人员需要从研究想法快速生成论文级别的证据材料。
+  job_en: Researchers need to quickly generate paper-ready evidence from research ideas.
+  pain: 文献调研和实验设计耗时费力，且容易遗漏关键证据。
+  pain_en: Literature review and experiment design are time-consuming and prone to missing key evidence.
+  current_alternative: 目前主要依赖手工文献检索和实验工具。
+  current_alternative_en: Currently relies on manual literature search and experimental tools.
+  usage_reason: 开源项目获得 201 星，表明研究者对自动化研究工具有兴趣，但付费和持续采用尚未核验。
+  usage_reason_en: The open-source project has 201 stars, indicating researcher interest in automated
+    research tools, but paid and sustained adoption is not yet verified.

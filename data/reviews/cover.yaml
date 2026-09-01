@@ -235,3 +235,79 @@
   usage_reason: 开源项目有41星，说明开发者对隐私保护有初步兴趣，但尚未核验实际采用。
   usage_reason_en: The open-source project has 41 stars, indicating initial interest in privacy protection,
     but actual adoption is not yet verified.
+- id: req-initial-cover-2026-09-01
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-01T01:18:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者向外部 AI 代理发送敏感数据时的隐私泄露痛点；工作流结构判断：旧替代是手动脱敏或不用外部服务，cover 提供自动化代理，交付可确定。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 41 星，但缺乏用户讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业开发者，但付费路径未验证。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: truth
+    status: supported
+    reason: 产品贴近数据安全第一性目标，承诺可逆脱敏，技术实现可行，但安全边界需验证。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有企业采用案例或定价信息。
+  market: ''
+  job: 开发者需要让 AI 代理处理敏感数据，同时避免数据泄露。
+  job_en: Developers need AI agents to process sensitive data while avoiding data leakage.
+  pain: 直接发送真实数据给外部 AI 服务存在隐私风险，可能导致合规问题。
+  pain_en: Sending real data to external AI services poses privacy risks and potential compliance issues.
+  current_alternative: 目前开发者可能手动脱敏数据，或避免使用外部 AI 服务。
+  current_alternative_en: Currently developers may manually mask data or avoid external AI services.
+  usage_reason: cover 提供自动化脱敏和恢复，减少手动工作，但采用证据尚未核验。
+  usage_reason_en: cover offers automated masking and restoration, reducing manual work, but adoption
+    evidence not yet verified.
+- id: req-full-cover-2026-09-01
+  project_slug: cover
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者向外部 AI 代理发送敏感数据时的隐私泄露痛点；工作流结构判断：旧替代是手动脱敏或不用外部服务，cover 提供自动化代理，交付可确定。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 41 星，但缺乏用户讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业开发者，但付费路径未验证。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  - gate: truth
+    status: supported
+    reason: 产品贴近数据安全第一性目标，承诺可逆脱敏，技术实现可行，但安全边界需验证。
+    evidence_ids:
+    - ev-59887305aa2f8833
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有企业采用案例或定价信息。
+  market: ''
+  job: 开发者需要让 AI 代理处理敏感数据，同时避免数据泄露。
+  job_en: Developers need AI agents to process sensitive data while avoiding data leakage.
+  pain: 直接发送真实数据给外部 AI 服务存在隐私风险，可能导致合规问题。
+  pain_en: Sending real data to external AI services poses privacy risks and potential compliance issues.
+  current_alternative: 目前开发者可能手动脱敏数据，或避免使用外部 AI 服务。
+  current_alternative_en: Currently developers may manually mask data or avoid external AI services.
+  usage_reason: cover 提供自动化脱敏和恢复，减少手动工作，但采用证据尚未核验。
+  usage_reason_en: cover offers automated masking and restoration, reducing manual work, but adoption
+    evidence not yet verified.

@@ -21,7 +21,7 @@ canonical_url: https://github.com/ciromattia/kcc
 summary: E-Ink Optimized Manga for KOreader, Kindle, Kobo, ReMarkable with KCC
 first_seen: '2026-08-31T15:19:37Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

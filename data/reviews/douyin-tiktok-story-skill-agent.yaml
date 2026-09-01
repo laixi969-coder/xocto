@@ -72,3 +72,39 @@
   usage_reason: 公开代码仓库有 354 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 354 stars and 8 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-douyin-tiktok-story-skill-agent-2026-09-01
+  project_slug: douyin-tiktok-story-skill-agent
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“短视频编剧按剧情标签搜本地脚本库，马上找到对口参考，不用再刷平台记笔记”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有用户案例或集成文档。
+  market: ''
+  job: 短视频编剧需要创建原创抖音和 TikTok 故事脚本，并希望快速找到参考。
+  job_en: Short-video writers need to create original Douyin and TikTok story scripts and seek quick references.
+  pain: 查找参考脚本需要刷平台和记笔记，耗时且效率低。
+  pain_en: Finding reference scripts requires scrolling feeds and taking notes, which is time-consuming
+    and inefficient.
+  current_alternative: 目前编剧可能手动刷平台或使用笔记工具，但缺乏结构化搜索。
+  current_alternative_en: Currently writers may manually scroll platforms or use note tools, but lack
+    structured search.
+  usage_reason: 公开代码仓库有 354 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 354 stars and 8 forks, showing developer attention; repeat
+    use and payment are not yet verified.

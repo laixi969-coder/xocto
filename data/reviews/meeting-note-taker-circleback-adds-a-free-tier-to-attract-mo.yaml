@@ -1,0 +1,82 @@
+- id: req-initial-meeting-note-taker-circleback-adds-a-free-tier-to-attract-mo-2026-09-01
+  project_slug: meeting-note-taker-circleback-adds-a-free-tier-to-attract-mo
+  level: initial
+  reviewed_at: '2026-09-01T01:18:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议后整理纪要的痛点，AI 接收录音或文字记录，输出结构化摘要和行动项，交付可核对，价值结构成立。
+    evidence_ids:
+    - ev-364891393a37818c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示新增免费层和低价计划，但缺乏用户规模、留存或付费转化数据，共识证据不足。
+    evidence_ids:
+    - ev-364891393a37818c
+  - gate: model
+    status: insufficient
+    reason: 定价从每月 14 美元起，但未披露付费方是个人还是企业，也未说明按席位还是按量计费，模式不清晰。
+    evidence_ids:
+    - ev-364891393a37818c
+  - gate: truth
+    status: supported
+    reason: 会议记录是高频刚需，AI 生成可交付的纪要，贴近第一性目标，安全边界明确（人工可核对）。
+    evidence_ids:
+    - ev-364891393a37818c
+  next_validation: 关注 Circleback 官网的定价页和客户案例，以及公开的用户评价或使用数据。
+  market: ''
+  job: 用户需要将会议内容转化为可执行的记录，包括摘要、行动项和决策。
+  job_en: Users need to convert meeting content into actionable records, including summaries, action items,
+    and decisions.
+  pain: 手动整理会议纪要耗时且容易遗漏关键信息，影响后续执行。
+  pain_en: Manually compiling meeting notes is time-consuming and prone to missing key information, affecting
+    follow-up execution.
+  current_alternative: 目前常见做法是人工记录或使用通用笔记工具，但缺乏结构化输出。
+  current_alternative_en: Current alternatives include manual note-taking or generic note tools, but they
+    lack structured output.
+  usage_reason: AI 自动生成结构化纪要能节省时间，免费层降低了试用门槛，吸引用户尝试。
+  usage_reason_en: AI-generated structured notes save time, and the free tier lowers the barrier to trial,
+    attracting users.
+- id: req-full-meeting-note-taker-circleback-adds-a-free-tier-to-attract-mo-2026-09-01
+  project_slug: meeting-note-taker-circleback-adds-a-free-tier-to-attract-mo
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会议后整理纪要的痛点，AI 接收录音或文字记录，输出结构化摘要和行动项，交付可核对，价值结构成立。
+    evidence_ids:
+    - ev-364891393a37818c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示新增免费层和低价计划，但缺乏用户规模、留存或付费转化数据，共识证据不足。
+    evidence_ids:
+    - ev-364891393a37818c
+  - gate: model
+    status: insufficient
+    reason: 定价从每月 14 美元起，但未披露付费方是个人还是企业，也未说明按席位还是按量计费，模式不清晰。
+    evidence_ids:
+    - ev-364891393a37818c
+  - gate: truth
+    status: supported
+    reason: 会议记录是高频刚需，AI 生成可交付的纪要，贴近第一性目标，安全边界明确（人工可核对）。
+    evidence_ids:
+    - ev-364891393a37818c
+  next_validation: 关注 Circleback 官网的定价页和客户案例，以及公开的用户评价或使用数据。
+  market: ''
+  job: 用户需要将会议内容转化为可执行的记录，包括摘要、行动项和决策。
+  job_en: Users need to convert meeting content into actionable records, including summaries, action items,
+    and decisions.
+  pain: 手动整理会议纪要耗时且容易遗漏关键信息，影响后续执行。
+  pain_en: Manually compiling meeting notes is time-consuming and prone to missing key information, affecting
+    follow-up execution.
+  current_alternative: 目前常见做法是人工记录或使用通用笔记工具，但缺乏结构化输出。
+  current_alternative_en: Current alternatives include manual note-taking or generic note tools, but they
+    lack structured output.
+  usage_reason: AI 自动生成结构化纪要能节省时间，免费层降低了试用门槛，吸引用户尝试。
+  usage_reason_en: AI-generated structured notes save time, and the free tier lowers the barrier to trial,
+    attracting users.

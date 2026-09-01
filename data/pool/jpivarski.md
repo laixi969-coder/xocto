@@ -21,7 +21,7 @@ canonical_url: https://jpivarski.github.io/hyperbolic-map/clock.html
 summary: A one-handed clock on the hyperbolic plane
 first_seen: '2026-08-31T14:42:06Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

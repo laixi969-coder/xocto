@@ -1,0 +1,78 @@
+- id: req-initial-ai-startup-clipto-raises-15-million-at-a-250-million-valuati-2026-09-01
+  project_slug: ai-startup-clipto-raises-15-million-at-a-250-million-valuati
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑中筛选素材和拼接片段的痛点，交付可编辑的项目文件，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻证明资本关注，但缺乏用户采用、社区讨论或公开使用数据，共识尚未形成。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是视频创作者或内容团队，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付质量如何，均未在公开材料中验证。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  next_validation: 关注 Clipto 官网的产品页面和定价信息，以及用户评价和案例。
+  market: ''
+  job: 视频创作者需要快速将大量原始素材剪辑成可发布的视频。
+  job_en: Video creators need to quickly edit large amounts of raw footage into publishable videos.
+  pain: 手动剪辑耗时且需要专业技能，尤其是筛选素材和拼接片段。
+  pain_en: Manual editing is time-consuming and requires professional skills, especially selecting footage
+    and assembling clips.
+  current_alternative: 目前主要依赖人工剪辑或传统剪辑软件，如 Premiere Pro。
+  current_alternative_en: Currently relies on manual editing or traditional software like Premiere Pro.
+  usage_reason: 融资和媒体报道表明市场关注，但实际采用和付费情况尚未核验。
+  usage_reason_en: Funding and media coverage indicate market interest, but actual adoption and payment
+    are not yet verified.
+- id: req-full-ai-startup-clipto-raises-15-million-at-a-250-million-valuati-2026-09-01
+  project_slug: ai-startup-clipto-raises-15-million-at-a-250-million-valuati
+  level: full
+  reviewed_at: '2026-09-01T01:48:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频剪辑中筛选素材和拼接片段的痛点，交付可编辑的项目文件，价值结构成立（工作流结构判断）。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻证明资本关注，但缺乏用户采用、社区讨论或公开使用数据，共识尚未形成。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是视频创作者或内容团队，但付费路径和定价未公开。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真实可用、交付质量如何，均未在公开材料中验证。
+    evidence_ids:
+    - ev-470c4aacfab361f2
+  next_validation: 关注 Clipto 官网的产品页面和定价信息，以及用户评价和案例。
+  market: ''
+  job: 视频创作者需要快速将大量原始素材剪辑成可发布的视频。
+  job_en: Video creators need to quickly edit large amounts of raw footage into publishable videos.
+  pain: 手动剪辑耗时且需要专业技能，尤其是筛选素材和拼接片段。
+  pain_en: Manual editing is time-consuming and requires professional skills, especially selecting footage
+    and assembling clips.
+  current_alternative: 目前主要依赖人工剪辑或传统剪辑软件，如 Premiere Pro。
+  current_alternative_en: Currently relies on manual editing or traditional software like Premiere Pro.
+  usage_reason: 融资和媒体报道表明市场关注，但实际采用和付费情况尚未核验。
+  usage_reason_en: Funding and media coverage indicate market interest, but actual adoption and payment
+    are not yet verified.

@@ -21,7 +21,7 @@ canonical_url: https://corporatemindgames.com
 summary: logic puzzles with a sarcastic corporate theme
 first_seen: '2026-08-31T16:08:08Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

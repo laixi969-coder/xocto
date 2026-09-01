@@ -1,11 +1,12 @@
 ---
 slug: 有用户有收入ai-应用却不是好生意-创业公司-manus-deepseek-copilot-chatgpt
-name: 有用户，有收入，AI 应用却不是好生意|创业公司|Manus|DeepSeek|Copilot|ChatGPT
+name: AI应用行业
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI应用虽有用户和收入，但并非好生意，行业面临商业化挑战。
 inspiration: ''
-summary_en: ''
+summary_en: AI applications have users and revenue but are not good businesses, facing commercialization
+  challenges.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNRVNXU1FXdFVC
 summary: 有用户，有收入，AI 应用却不是好生意|创业公司|Manus|DeepSeek|Copilot|ChatGPT finance.sina.cn
 first_seen: '2026-08-31T19:19:20Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 有用户，有收入，AI 应用却不是好生意|创业公司|Manus|DeepSeek|Copilot|ChatGPT
+# AI应用行业
 
 有用户，有收入，AI 应用却不是好生意|创业公司|Manus|DeepSeek|Copilot|ChatGPT finance.sina.cn
 

@@ -76,45 +76,45 @@
 - id: req-initial-企业ai落地没有标准答案-每日互动打出本地化组合拳-2026-09-01
   project_slug: 企业ai落地没有标准答案-每日互动打出本地化组合拳
   level: initial
-  reviewed_at: '2026-08-31T17:38:59Z'
+  reviewed_at: '2026-09-01T01:18:43Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决企业和政府从数据中获取决策价值的需求，痛点在于数据分散和分析耗时。工作流结构判断：其平台整合数据并提供行业解决方案，交付可确定。
+    reason: 它解决企业AI落地难、数据合规和场景适配的痛点，有明确旧替代（自建或通用云），交付可确定（本地化部署），工作流结构判断成立。
     evidence_ids:
+    - ev-8dba595be74f4194
     - ev-bed4f8841466fb8d
-    - ev-94ebaaf16ce32b17
   - gate: consensus
     status: insufficient
-    reason: 公开材料显示已落地多个场景，但缺乏用户采用或持续使用的具体数据，共识证据不足。
+    reason: 公开材料显示其半年报收入增长，但缺乏具体客户案例或采用数据，共识证据不足。
     evidence_ids:
-    - ev-bed4f8841466fb8d
+    - ev-12ecbcc273c1a9d2
   - gate: model
     status: insufficient
-    reason: 未披露定价或付费模式，买方可能是政府或企业，但具体付费路径未公开。
+    reason: 商业模式未明确，可能向企业客户收费，但定价和付费触发点未披露。
     evidence_ids:
     - ev-534cbeccfe2de5e1
   - gate: truth
-    status: supported
-    reason: 作为上市公司，其业务真实存在，但AI部分的具体交付和效果仍需验证。
+    status: insufficient
+    reason: 本地化AI部署承诺需验证实际交付效果，目前缺乏可核验的案例或数据。
     evidence_ids:
-    - ev-12ecbcc273c1a9d2
-  next_validation: 关注每日互动官方发布的客户案例或半年报中关于AI业务的收入占比和具体项目交付细节。
+    - ev-8dba595be74f4194
+  next_validation: 关注每日互动官方发布的客户案例或部署文档，以验证其本地化AI交付的具体效果。
   market: ''
-  job: 企业或政府机构需要从海量数据中提取价值，用于交通调度、政务服务优化或营销决策。
-  job_en: Enterprises or government agencies need to extract value from massive data for traffic dispatch,
-    government service optimization, or marketing decisions.
-  pain: 数据分散、分析耗时，传统BI工具难以处理实时或非结构化数据，导致决策滞后。
-  pain_en: Data is fragmented and analysis is time-consuming; traditional BI tools struggle with real-time
-    or unstructured data, causing decision delays.
-  current_alternative: 目前多依赖内部数据团队或通用BI工具，人工处理流程长，且缺乏行业特定模型。
-  current_alternative_en: Currently relies on internal data teams or general BI tools, with lengthy manual
-    processes and lack of industry-specific models.
-  usage_reason: 每日互动已有多年数据服务积累，其平台能结合行业知识提供解决方案，吸引关注。
-  usage_reason_en: Geotmt has years of data service experience, and its platform combines industry knowledge
-    to offer solutions, attracting attention.
+  job: 企业需要将AI落地到具体业务场景，如智慧交通、品牌营销，以提升效率或决策质量。
+  job_en: Enterprises need to deploy AI in specific business scenarios like smart transportation and brand
+    marketing to improve efficiency or decision quality.
+  pain: 通用AI方案难以适配企业私有数据和合规要求，部署复杂，效果不确定。
+  pain_en: Generic AI solutions struggle to adapt to enterprise proprietary data and compliance requirements,
+    deployment is complex, and outcomes are uncertain.
+  current_alternative: 企业可能自行组建AI团队或购买通用云服务，但成本高、周期长。
+  current_alternative_en: Enterprises may build in-house AI teams or buy generic cloud services, but these
+    are costly and slow.
+  usage_reason: 每日互动已有数据服务基础，客户可能因其行业数据和本地化能力而采用，但具体采用证据尚未核验。
+  usage_reason_en: Geotmt has an existing data services base; customers may adopt due to its industry
+    data and localization capabilities, but adoption evidence is unverified.
 - id: req-full-企业ai落地没有标准答案-每日互动打出本地化组合拳-2026-09-01
   project_slug: 企业ai落地没有标准答案-每日互动打出本地化组合拳
   level: full

@@ -3,11 +3,11 @@ slug: techcrunch
 name: MapQuest
 builder: speckx
 category: AI + 生活
-summary_zh: MapQuest 是一款导航应用，用户输入起点和终点后，它提供路线规划和语音导航。此次因拒绝将安大略湖改名而排名上升，但具体 AI 功能或工作流改进未披露。
+summary_zh: MapQuest 是一款提供驾驶路线、实时路况和地点搜索的导航应用，近期因拒绝按政治要求更改湖名而登上导航类榜首，属于行业事件而非 AI 产品变化。
 inspiration: 趋势是导航应用在政治敏感事件中通过立场选择获得用户增长。切入可从地图数据的政治中立性入手，但需注意用户增长可能是一次性事件，需观察留存。
-summary_en: MapQuest is a navigation app where users input start and end points to get route planning
-  and voice guidance. It rose to No. 1 after refusing to rename Lake Ontario, but specific AI features
-  or workflow improvements are undisclosed.
+summary_en: MapQuest is a navigation app offering driving directions, live traffic, and place search,
+  recently topping navigation charts after refusing to rename a lake, an industry event rather than an
+  AI product change.
 inspiration_en: 'Trend: navigation apps can gain users by taking a stance on politically sensitive issues.
   Entry point: focus on political neutrality of map data, but note that growth may be one-off and retention
   needs observation.'
@@ -35,7 +35,7 @@ canonical_url: https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in
 summary: MapQuest app surges to No. 1 in Navigation after refusing to rename Lake Ontario
 first_seen: '2026-08-31T15:32:13Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

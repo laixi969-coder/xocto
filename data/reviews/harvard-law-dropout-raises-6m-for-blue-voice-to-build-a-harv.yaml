@@ -1,0 +1,76 @@
+- id: req-initial-harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harv-2026-09-01
+  project_slug: harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harv
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 警察对即时法律指导有刚性需求，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-24cab5a93e99e095
+  - gate: consensus
+    status: insufficient
+    reason: 有融资新闻但缺乏用户反馈和采用数据。
+    evidence_ids:
+    - ev-24cab5a93e99e095
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能依赖政府合同。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品尚未公开，交付能力未验证。
+    evidence_ids: []
+  next_validation: 关注 Blue Voice 官网或新闻，获取产品功能、试点案例和定价信息。
+  market: ''
+  job: 警察在执法时需要快速获取法律和程序指导，减少错误。
+  job_en: Police officers need quick access to legal and procedural guidance during enforcement to reduce
+    errors.
+  pain: 法律条文复杂，现场决策压力大，缺乏即时支持。
+  pain_en: Legal codes are complex, on-scene decisions are stressful, and immediate support is lacking.
+  current_alternative: 目前可能依赖经验或电话咨询法律顾问，效率低。
+  current_alternative_en: Currently may rely on experience or phone consultations with legal advisors,
+    which is inefficient.
+  usage_reason: 融资 600 万美元表明投资者看好，但实际采用和付费证据未披露。
+  usage_reason_en: Raising $6M indicates investor confidence, but actual adoption and payment evidence
+    are undisclosed.
+- id: req-full-harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harv-2026-09-01
+  project_slug: harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harv
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 警察对即时法律指导有刚性需求，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-24cab5a93e99e095
+  - gate: consensus
+    status: insufficient
+    reason: 有融资新闻但缺乏用户反馈和采用数据。
+    evidence_ids:
+    - ev-24cab5a93e99e095
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，可能依赖政府合同。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“Blue Voice 是一款面向警察的 AI 助手，旨在提供法律和程序指导，类似法律领域的 Harvey。已筹集 600 万美元，但具体功能和工作流程仍待核验”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 关注 Blue Voice 官网或新闻，获取产品功能、试点案例和定价信息。
+  market: ''
+  job: 警察在执法时需要快速获取法律和程序指导，减少错误。
+  job_en: Police officers need quick access to legal and procedural guidance during enforcement to reduce
+    errors.
+  pain: 法律条文复杂，现场决策压力大，缺乏即时支持。
+  pain_en: Legal codes are complex, on-scene decisions are stressful, and immediate support is lacking.
+  current_alternative: 目前可能依赖经验或电话咨询法律顾问，效率低。
+  current_alternative_en: Currently may rely on experience or phone consultations with legal advisors,
+    which is inefficient.
+  usage_reason: 融资 600 万美元表明投资者看好，但实际采用和付费证据未披露。
+  usage_reason_en: Raising $6M indicates investor confidence, but actual adoption and payment evidence
+    are undisclosed.

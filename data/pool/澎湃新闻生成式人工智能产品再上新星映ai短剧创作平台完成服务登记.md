@@ -3,12 +3,13 @@ slug: 澎湃新闻生成式人工智能产品再上新星映ai短剧创作平台
 name: 星映AI短剧创作平台
 builder: ''
 category: AI + 创作
-summary_zh: 澎湃新闻推出“星映AI短剧创作平台”，已完成服务登记。具体功能、使用流程和交付物尚未披露，需进一步了解。
-inspiration: 媒体机构入局AI短剧创作，可能推动短剧生产工业化。可关注面向短剧创作者的工具，如剧本生成、分镜制作、成片渲染等环节。
-summary_en: The Paper launched 'Xingying AI Short Drama Creation Platform', which has completed service
-  registration. Specific features, workflows, and deliverables are not yet disclosed.
-inspiration_en: Media organizations entering AI short drama creation may industrialize production. Watch
-  for tools targeting creators, such as script generation, storyboarding, and rendering.
+summary_zh: 星映AI短剧创作平台面向短剧创作者和编剧，提供AI辅助创作服务，但具体输入、动作和交付物尚未披露，需进一步核验。
+inspiration: 趋势是AI进入内容创作垂直领域。切入点是短剧行业，可提供从剧本到成片的工具链，但需明确具体工作流和付费模式。
+summary_en: Xingying AI Short Drama Creation Platform targets short drama creators and screenwriters,
+  offering AI-assisted creation services, but specific inputs, actions, and deliverables are not yet disclosed
+  and require further verification.
+inspiration_en: 'The trend is AI entering vertical content creation. Entry point: short drama industry,
+  offering a toolchain from script to final cut, but specific workflows and pricing need clarification.'
 priority_review: false
 project_type: new_application
 industries:
@@ -21,7 +22,7 @@ jobs:
 - 短剧创作者
 - 编剧
 jobs_en:
-- Short drama creators
+- Short Drama Creators
 - Screenwriters
 regions:
 - 中国
@@ -33,7 +34,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9UamxxX3RoTHh2
 summary: 澎湃新闻生成式人工智能产品再上新：“星映AI短剧创作平台”完成服务登记 凤凰网
 first_seen: '2026-08-31T14:59:47Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:

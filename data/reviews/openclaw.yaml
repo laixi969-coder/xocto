@@ -74,44 +74,45 @@
 - id: req-initial-openclaw-2026-09-01
   project_slug: openclaw
   level: initial
-  reviewed_at: '2026-08-31T17:38:59Z'
+  reviewed_at: '2026-09-01T01:18:10Z'
   verdict: true_demand
   signal_level: 需求信号明确
   gates:
   - gate: value
     status: supported
-    reason: 它解决用户在聊天应用内完成自动化任务的需求，痛点在于现有助手集成度低。工作流结构判断：用户已在使用聊天应用，AI 嵌入可减少切换。
+    reason: 它解决用户在聊天应用内直接执行任务的需求，替代手动切换和脚本编写，痛点明确，交付可确定。工作流结构判断。
     evidence_ids:
     - ev-da8a55b1a2a9d292
+    - ev-5a9a4255725cc837
   - gate: consensus
     status: supported
-    reason: 31 万+ 代码仓库星和 478 万月访问量显示广泛关注，但环比下降 39.27% 表明热度减退，需关注留存。
+    reason: 310k+ 星标和 HN 讨论显示开发者社区高度关注，但访问量环比下降 39%，持续采用待核验。
     evidence_ids:
     - ev-5a9a4255725cc837
     - ev-ff165434f6782aab
   - gate: model
     status: insufficient
-    reason: 开源免费，无明确商业模式，付费路径未披露。可能通过云托管或高级功能收费，但未证实。
+    reason: 开源免费，商业模式未披露；可能靠云服务或企业版收费，但无公开定价，付费方不明。
     evidence_ids:
     - ev-5a9a4255725cc837
   - gate: truth
     status: supported
-    reason: 产品贴近个人自动化需求，交付可确定，但需验证任务执行的可靠性和安全性。
+    reason: 产品贴近个人效率第一性目标，开源可审计，安全边界由用户控制，交付确定性高。
     evidence_ids:
     - ev-d1aab744966047f1
-  next_validation: 关注 OpenClaw 2.0 的用户反馈和实际使用案例，以及代码仓库上的 issue 和讨论。
+  next_validation: 关注官方博客和代码仓库的 issue/discussion，验证 2.0 更新后的用户反馈和采用变化。
   market: ''
-  job: 用户希望在熟悉的聊天应用内完成跨平台任务自动化，如管理日程、发送消息、获取信息等。
-  job_en: Users want to automate cross-platform tasks within familiar chat apps, such as managing schedules,
-    sending messages, and retrieving information.
-  pain: 现有 AI 助手需要打开独立应用或网页，操作繁琐，且难以与日常使用的聊天工具集成。
-  pain_en: Existing AI assistants require opening a separate app or webpage, which is cumbersome and difficult
-    to integrate with daily-used chat tools.
-  current_alternative: 用户可能使用 Siri、Google Assistant 或手动操作多个应用。
-  current_alternative_en: Users may use Siri, Google Assistant, or manually operate multiple apps.
-  usage_reason: 开源免费，且能直接在常用聊天应用中运行，降低切换成本，吸引技术爱好者尝试。
-  usage_reason_en: Open-source and free, runs directly in common chat apps, reducing switching costs,
-    attracting tech enthusiasts.
+  job: 用户希望在常用聊天应用内直接让 AI 执行任务，无需切换工具。
+  job_en: Users want to execute tasks directly within familiar chat apps without switching tools.
+  pain: 传统自动化需要编写脚本或使用复杂工具，门槛高；切换多个应用效率低。
+  pain_en: Traditional automation requires scripting or complex tools, with high barriers; switching between
+    apps is inefficient.
+  current_alternative: 手动操作多个应用，或使用 Zapier 等自动化平台，但配置复杂。
+  current_alternative_en: Manual operation across apps, or using automation platforms like Zapier, but
+    setup is complex.
+  usage_reason: 开源免费、310k+ 星标表明开发者关注；聊天界面降低使用门槛，但付费与留存尚未核验。
+  usage_reason_en: Open-source and free, 310k+ stars indicate developer interest; chat interface lowers
+    barrier, but monetization and retention unverified.
 - id: req-full-openclaw-2026-09-01
   project_slug: openclaw
   level: full

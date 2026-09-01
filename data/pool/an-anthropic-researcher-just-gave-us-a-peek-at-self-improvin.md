@@ -3,10 +3,10 @@ slug: an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin
 name: Anthropic
 builder: ''
 category: ''
-summary_zh: Anthropic研究员展示自我改进AI系统：在10个特定错误行为基准上，自动化系统均能提升性能且不损害整体表现。
+summary_zh: Anthropic 是 AI 模型开发商，近期展示自我改进 AI 研究，并发布 AI-Native 软件开发流程，同时与芯片公司洽谈合作，销售额增长。
 inspiration: ''
-summary_en: 'An Anthropic researcher demonstrated self-improving AI: automated systems improved performance
-  on all 10 misalignment benchmarks without degrading overall performance.'
+summary_en: Anthropic is an AI model developer, recently showcasing self-improving AI research, releasing
+  an AI-native software development workflow, and negotiating with chip companies, with growing sales.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: Given 10 benchmarks for specific misaligned behaviors, the automated sy
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

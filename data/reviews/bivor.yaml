@@ -69,3 +69,37 @@
   usage_reason: 开源项目有208星，显示开发者对桌面工作台有兴趣，但需求强度未明，持续使用与付费未核验。
   usage_reason_en: The open-source project has 208 stars, showing developer interest in a desktop workbench,
     but demand intensity is unclear and repeat use/payment are not verified.
+- id: req-full-bivor-2026-09-01
+  project_slug: bivor
+  level: full
+  reviewed_at: '2026-09-01T01:48:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决编码代理的交互问题，但具体痛点不明确，现有替代（CLI）可能已足够。
+    evidence_ids:
+    - ev-2187c63539f7512f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注开源仓库的 issue 和讨论，以及是否有用户分享使用体验。
+  market: ''
+  job: 开发者使用 pi 编码代理时，需要一个桌面界面来管理任务和查看结果。
+  job_en: Developers using the pi coding agent need a desktop interface to manage tasks and view results.
+  pain: 命令行界面不够直观，难以监控代理行为和审查代码。
+  pain_en: CLI is not intuitive, making it hard to monitor agent behavior and review code.
+  current_alternative: 直接使用命令行或编辑器插件。
+  current_alternative_en: Using CLI directly or editor plugins.
+  usage_reason: 提供更友好的桌面体验，但需求强度未明。
+  usage_reason_en: Offers a friendlier desktop experience, but demand intensity is unclear.

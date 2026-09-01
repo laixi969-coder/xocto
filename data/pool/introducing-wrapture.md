@@ -1,21 +1,31 @@
 ---
 slug: introducing-wrapture
-name: Introducing wrapture
+name: Wrapture
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: Python 开发者在为现有项目添加测试替身或追踪时，把要包装的函数或方法交给 Wrapture；它通过配置或代码包装这些调用，记录出入参或返回指定值，交付可追踪的日志或测试替身。项目刚起步，具体工作流细节仍待核验。
+inspiration: 趋势是 AI 辅助编程从生成代码走向生成完整工程，作者用 AI 编写整个库并公开过程。切入可从测试与可观测性工具链入手，强调 AI 生成代码的可验证性，但需先积累社区采用证据。
+summary_en: Python developers use Wrapture to wrap functions or methods for testing or tracing; it records
+  call data or returns stubbed values, delivering trace logs or test doubles. The project is young, and
+  workflow details are still to be verified.
+inspiration_en: The trend is AI-assisted programming moving from code generation to full engineering.
+  Entry could focus on testing and observability tooling, emphasizing verifiability of AI-generated code,
+  but community adoption evidence is needed first.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 软件工程师
+- 测试工程师
+jobs_en:
+- Software Engineer
+- Test Engineer
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://simonwillison.net/2026/Aug/31/introducing-wrapture/
 canonical_url: https://simonwillison.net/2026/Aug/31/introducing-wrapture
 summary: "Introducing wrapture   \nNew from Graham Dumpleton (of  wrapt , mod_wsgi, and New Relic's Python\
@@ -52,7 +62,7 @@ summary: "Introducing wrapture   \nNew from Graham Dumpleton (of  wrapt , mod_ws
   \ ,  opentelemetry"
 first_seen: '2026-08-31T23:59:36Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -63,7 +73,7 @@ sightings:
   kind: news
 ---
 
-# Introducing wrapture
+# Wrapture
 
 Introducing wrapture   
 New from Graham Dumpleton (of  wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. 

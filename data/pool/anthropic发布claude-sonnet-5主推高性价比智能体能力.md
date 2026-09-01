@@ -1,11 +1,12 @@
 ---
 slug: anthropic发布claude-sonnet-5主推高性价比智能体能力
-name: Anthropic发布Claude Sonnet 5，主推高性价比智能体能力
+name: Claude Sonnet 5
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Claude Sonnet 5 是 Anthropic 发布的模型，强调高性价比和智能体能力，面向开发者和企业。
 inspiration: ''
-summary_en: ''
+summary_en: Claude Sonnet 5 is a model released by Anthropic, emphasizing cost-effectiveness and agent
+  capabilities for developers and enterprises.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE94ZG5WaDhWdUEz
 summary: Anthropic发布Claude Sonnet 5，主推高性价比智能体能力 品玩
 first_seen: '2026-08-31T06:16:25Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic发布Claude Sonnet 5，主推高性价比智能体能力
+# Claude Sonnet 5
 
 Anthropic发布Claude Sonnet 5，主推高性价比智能体能力 品玩
 

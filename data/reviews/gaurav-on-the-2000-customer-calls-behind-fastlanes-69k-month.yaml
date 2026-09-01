@@ -1,0 +1,72 @@
+- id: req-initial-gaurav-on-the-2000-customer-calls-behind-fastlanes-69k-month-2026-09-01
+  project_slug: gaurav-on-the-2000-customer-calls-behind-fastlanes-69k-month
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 财务自动化需求明确，痛点刚性，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-d70706242b94397c
+  - gate: consensus
+    status: insufficient
+    reason: 有收入证据但缺乏用户反馈和持续采用数据。
+    evidence_ids:
+    - ev-d70706242b94397c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付结果和客户案例，真实性待核验。
+    evidence_ids: []
+  next_validation: 查找 Fastlane 官网或产品页面，获取功能列表、定价和客户案例。
+  market: ''
+  job: 财务人员需要自动化处理财务数据，减少手工操作。
+  job_en: Finance professionals need to automate financial data processing and reduce manual work.
+  pain: 财务流程繁琐、易出错，传统软件操作复杂。
+  pain_en: Finance processes are tedious and error-prone, traditional software is complex.
+  current_alternative: 目前可能使用 Excel 或传统财务软件，耗时且易错。
+  current_alternative_en: Currently may use Excel or traditional finance software, time-consuming and
+    error-prone.
+  usage_reason: 月收入 6.9 万美元表明已有付费用户，但具体采用细节未披露。
+  usage_reason_en: Monthly revenue of $69K indicates paying users, but adoption details are undisclosed.
+- id: req-full-gaurav-on-the-2000-customer-calls-behind-fastlanes-69k-month-2026-09-01
+  project_slug: gaurav-on-the-2000-customer-calls-behind-fastlanes-69k-month
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 财务自动化需求明确，痛点刚性，交付可确定。工作流结构判断。
+    evidence_ids:
+    - ev-d70706242b94397c
+  - gate: consensus
+    status: insufficient
+    reason: 有收入证据但缺乏用户反馈和持续采用数据。
+    evidence_ids:
+    - ev-d70706242b94397c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费方，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未披露交付结果和客户案例，真实性待核验。
+    evidence_ids: []
+  next_validation: 查找 Fastlane 官网或产品页面，获取功能列表、定价和客户案例。
+  market: ''
+  job: 财务人员需要自动化处理财务数据，减少手工操作。
+  job_en: Finance professionals need to automate financial data processing and reduce manual work.
+  pain: 财务流程繁琐、易出错，传统软件操作复杂。
+  pain_en: Finance processes are tedious and error-prone, traditional software is complex.
+  current_alternative: 目前可能使用 Excel 或传统财务软件，耗时且易错。
+  current_alternative_en: Currently may use Excel or traditional finance software, time-consuming and
+    error-prone.
+  usage_reason: 月收入 6.9 万美元表明已有付费用户，但具体采用细节未披露。
+  usage_reason_en: Monthly revenue of $69K indicates paying users, but adoption details are undisclosed.

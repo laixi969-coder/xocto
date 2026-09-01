@@ -1,44 +1,44 @@
 - id: req-initial-399-美元的小黄鸭藏着-hugging-face-最大的野心-2026-09-01
   project_slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
   level: initial
-  reviewed_at: '2026-08-31T17:38:50Z'
+  reviewed_at: '2026-09-01T01:18:41Z'
   verdict: true_demand
   signal_level: 需求信号明确
   gates:
   - gate: value
     status: supported
-    reason: 它解决学生和爱好者缺乏低成本实物机器人实验平台的问题，痛点在于高价设备和专业门槛；交付是开箱即用的机器人和可训练的软件栈，价值结构成立。
+    reason: 它解决学生、研究者和爱好者缺乏低成本实物强化学习平台的问题，痛点刚性，交付可确定（预购已开放，圣诞节前发货）。
     evidence_ids:
     - ev-a1fd4729ac75ffa8
   - gate: consensus
     status: supported
-    reason: 前身 Open Duck Mini 在开源社区获 2600+ 星，Reachy Mini 已出货 3000 台，社区关注度高，但持续采用和付费留存尚未核验。
+    reason: 开源前身 Open Duck Mini 在代码托管平台获 2600+ 星，Google I/O 演示带来关注，预购开放即引发媒体和社区讨论。
     evidence_ids:
     - ev-a1fd4729ac75ffa8
   - gate: model
     status: insufficient
-    reason: 定价 399 美元，面向消费者和教育市场，但付费方（个人/学校）和复购模式未明确，商业模式成熟度不足。
+    reason: 定价 399 美元，但付费方是个人消费者还是教育机构尚未明确，商业模式依赖硬件销售，后续软件生态变现路径未披露。
     evidence_ids:
     - ev-a1fd4729ac75ffa8
   - gate: truth
     status: supported
-    reason: 产品贴近机器人学习和控制的第一性目标，软件开源可验证，硬件交付确定，但硬件闭源可能限制生态发展。
+    reason: 产品贴近强化学习和 sim-to-real 的第一性目标，软件开源承诺可验证，硬件闭源但交付确定。
     evidence_ids:
     - ev-a1fd4729ac75ffa8
-  next_validation: 关注 Microduck 的预购销量和用户社区活跃度，以及 公开模型社区 官方博客和 Pollen Robotics 的出货数据。
+  next_validation: 关注 Microduck 预购后的实际发货和用户反馈，以及模型社区上行为策略的下载和二次开发情况。
   market: ''
-  job: 用户想要一个低门槛的实物平台来学习和实验强化学习与 sim-to-real 机器人控制。
-  job_en: Users want a low-barrier physical platform to learn and experiment with reinforcement learning
-    and sim-to-real robot control.
-  pain: 传统机器人研究平台昂贵（如 Reachy 2 约 7 万美元），且需要专业知识和设备，爱好者难以接触。
-  pain_en: Traditional robot research platforms are expensive (e.g., Reachy 2 at ~$70k) and require specialized
-    knowledge and equipment, making them inaccessible to hobbyists.
-  current_alternative: 目前替代方式是使用纯仿真环境（如 MuJoCo）或购买高价研究机器人，前者缺乏实物反馈，后者成本过高。
-  current_alternative_en: Current alternatives are pure simulation environments (e.g., MuJoCo) or expensive
-    research robots; the former lacks physical feedback, the latter is too costly.
-  usage_reason: Microduck 以 399 美元的价格提供可玩、可编程的实物平台，软件开源且社区活跃，降低了入门门槛，吸引教育者和爱好者采用。
-  usage_reason_en: Microduck offers a playable, programmable physical platform at $399 with open-source
-    software and an active community, lowering the entry barrier and attracting educators and hobbyists.
+  job: 学生、研究者和爱好者需要一个低成本的实物平台来学习和实验强化学习与 sim-to-real 技术。
+  job_en: Students, researchers, and hobbyists need a low-cost physical platform to learn and experiment
+    with reinforcement learning and sim-to-real techniques.
+  pain: 现有具身智能研究平台如 Reachy 2 售价约 7 万美元，门槛过高，个人和教学机构难以负担。
+  pain_en: Existing embodied AI research platforms like Reachy 2 cost around $70,000, which is prohibitive
+    for individuals and educational institutions.
+  current_alternative: 目前主要依赖仿真环境或高价研究机器人，缺乏可触摸、可修改的实物平台。
+  current_alternative_en: Currently, users rely on simulation environments or expensive research robots,
+    lacking a tangible, modifiable physical platform.
+  usage_reason: 399 美元的价格和开源软件栈降低了入门门槛，社区已有 2600 星的开源前身项目，预购开放即引发关注。
+  usage_reason_en: The $399 price and open-source software stack lower the entry barrier; the open-source
+    predecessor has over 2,600 stars on the code hosting platform, and pre-orders have attracted attention.
 - id: req-full-399-美元的小黄鸭藏着-hugging-face-最大的野心-2026-09-01
   project_slug: 399-美元的小黄鸭藏着-hugging-face-最大的野心
   level: full

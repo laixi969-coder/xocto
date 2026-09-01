@@ -1,0 +1,69 @@
+- id: req-initial-fellowgeek-2026-09-01
+  project_slug: fellowgeek
+  level: initial
+  reviewed_at: '2026-09-01T01:18:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称给 AI 代理添加语音和个性，但未明确解决什么具体任务或痛点，需求强度无法判断。
+    evidence_ids:
+    - ev-207cc9c630aa6b66
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 9 分，缺乏讨论，共识未形成。
+    evidence_ids:
+    - ev-207cc9c630aa6b66
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注项目官网或文档，寻找具体应用场景和用户反馈。
+  market: ''
+  job: 用户希望 AI 代理有语音和个性，但具体任务和痛点不明确。
+  job_en: Users want AI agents to have voice and personality, but specific tasks and pain points are unclear.
+  pain: 当前 AI 代理缺乏情感表达，但这是否是刚性需求未知。
+  pain_en: Current AI agents lack emotional expression, but whether this is a rigid need is unknown.
+  current_alternative: 用户可能使用现有语音助手或文本交互。
+  current_alternative_en: Users may use existing voice assistants or text interaction.
+  usage_reason: 关注度低，采用原因尚未核验。
+  usage_reason_en: Low attention, adoption reasons not yet verified.
+- id: req-full-fellowgeek-2026-09-01
+  project_slug: fellowgeek
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称给 AI 代理添加语音和个性，但未明确解决什么具体任务或痛点，需求强度无法判断。
+    evidence_ids:
+    - ev-207cc9c630aa6b66
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目官网或文档，寻找具体应用场景和用户反馈。
+  market: ''
+  job: 用户希望 AI 代理有语音和个性，但具体任务和痛点不明确。
+  job_en: Users want AI agents to have voice and personality, but specific tasks and pain points are unclear.
+  pain: 当前 AI 代理缺乏情感表达，但这是否是刚性需求未知。
+  pain_en: Current AI agents lack emotional expression, but whether this is a rigid need is unknown.
+  current_alternative: 用户可能使用现有语音助手或文本交互。
+  current_alternative_en: Users may use existing voice assistants or text interaction.
+  usage_reason: 关注度低，采用原因尚未核验。
+  usage_reason_en: Low attention, adoption reasons not yet verified.

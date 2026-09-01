@@ -109,3 +109,39 @@
   usage_reason: 公开记录显示 mau 39.81M、环比 10.79%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 39.81M mau and 10.79% month-over-month growth. That explains
     the attention, but product-level retention and payment are not yet verified.
+- id: req-full-claude-by-anthropic-2026-09-01
+  project_slug: claude-by-anthropic
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Anthropic 的对话助手，主攻写代码、长文和复杂推理，靠用得深来收费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Anthropic 官网定价页与客户案例，确认付费路径与交付结果。
+  market: ''
+  job: 用户需要完成写代码、长文写作和复杂推理等知识工作，并希望借助对话助手提高效率。
+  job_en: Users need to complete knowledge work such as coding, long-form writing, and complex reasoning,
+    and seek to improve efficiency with a conversational assistant.
+  pain: 这些任务耗时且需要专业知识，人工完成效率低、成本高。
+  pain_en: These tasks are time-consuming and require expertise; manual completion is inefficient and
+    costly.
+  current_alternative: 目前用户可能使用其他AI助手、搜索引擎或人工完成。
+  current_alternative_en: Currently users may use other AI assistants, search engines, or manual work.
+  usage_reason: 公开记录显示月活跃用户 39.81M、环比增长 10.79%，表明大量用户关注和使用，但付费与留存尚未核验。
+  usage_reason_en: Public records show 39.81M MAU and 10.79% MoM growth, indicating significant attention
+    and usage, but payment and retention are not yet verified.

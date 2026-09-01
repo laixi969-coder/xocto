@@ -1,0 +1,82 @@
+- id: req-initial-stay-customer-focused-happyrobot-ceo-and-co-founder-2026-09-01
+  project_slug: stay-customer-focused-happyrobot-ceo-and-co-founder
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决物流客户沟通中订单状态跟踪与异常响应的痛点，替代人工邮件电话处理，交付可核对的回复与操作建议，工作流结构判断价值成立。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示 CEO 接受行业媒体采访，尚无用户规模、采用或付费数据，共识证据不足。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方，可能向物流企业按席位或按处理量收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  - gate: truth
+    status: supported
+    reason: 产品贴近客户沟通的第一性目标，交付可确定，安全边界在于人工确认，符合求真要求。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  next_validation: 关注 HappyRobot 官网或行业报道中的客户案例、定价页及用户评价。
+  market: ''
+  job: 物流公司客户经理需要处理大量邮件和电话，跟踪订单状态并回复客户。
+  job_en: Logistics account managers handle high volumes of emails and calls to track order status and
+    respond to customers.
+  pain: 人工处理耗时且易遗漏，异常订单响应慢，客户满意度受影响。
+  pain_en: Manual handling is time-consuming and error-prone, slow response to exceptions hurts customer
+    satisfaction.
+  current_alternative: 目前主要靠人工阅读邮件、接听电话，在 TMS 或 Excel 中记录和跟进。
+  current_alternative_en: Currently relies on manual email reading and phone calls, logging in TMS or
+    Excel.
+  usage_reason: 行业沟通量大，AI 可减少重复劳动并加快响应，因此受到关注。
+  usage_reason_en: High communication volume in the industry makes AI attractive for reducing repetitive
+    work and speeding responses.
+- id: req-full-stay-customer-focused-happyrobot-ceo-and-co-founder-2026-09-01
+  project_slug: stay-customer-focused-happyrobot-ceo-and-co-founder
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决物流客户沟通中订单状态跟踪与异常响应的痛点，替代人工邮件电话处理，交付可核对的回复与操作建议，工作流结构判断价值成立。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示 CEO 接受行业媒体采访，尚无用户规模、采用或付费数据，共识证据不足。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费方，可能向物流企业按席位或按处理量收费，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  - gate: truth
+    status: supported
+    reason: 产品贴近客户沟通的第一性目标，交付可确定，安全边界在于人工确认，符合求真要求。
+    evidence_ids:
+    - ev-ecd25183c462e47f
+  next_validation: 关注 HappyRobot 官网或行业报道中的客户案例、定价页及用户评价。
+  market: ''
+  job: 物流公司客户经理需要处理大量邮件和电话，跟踪订单状态并回复客户。
+  job_en: Logistics account managers handle high volumes of emails and calls to track order status and
+    respond to customers.
+  pain: 人工处理耗时且易遗漏，异常订单响应慢，客户满意度受影响。
+  pain_en: Manual handling is time-consuming and error-prone, slow response to exceptions hurts customer
+    satisfaction.
+  current_alternative: 目前主要靠人工阅读邮件、接听电话，在 TMS 或 Excel 中记录和跟进。
+  current_alternative_en: Currently relies on manual email reading and phone calls, logging in TMS or
+    Excel.
+  usage_reason: 行业沟通量大，AI 可减少重复劳动并加快响应，因此受到关注。
+  usage_reason_en: High communication volume in the industry makes AI attractive for reducing repetitive
+    work and speeding responses.

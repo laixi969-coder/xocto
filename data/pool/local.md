@@ -2,36 +2,39 @@
 slug: local
 name: Local
 builder: Lukas Wesemann
-category: AI + 效率
-summary_zh: Local 为 Mac 用户提供零摩擦的本地 AI 体验，直接在设备上运行 AI 模型，处理本地数据，无需上传云端。用户输入任务，AI 在本地执行，交付结果。具体功能细节仍待核验。
-inspiration: 趋势是本地 AI 因隐私和延迟需求而兴起。不要做通用本地模型，切入特定行业如医疗、法律的数据敏感场景，提供定制化本地 AI 解决方案，按部署或订阅收费。
-summary_en: Local offers zero-friction local AI for Mac users, running AI models directly on the device,
-  processing local data without cloud upload. Users input tasks, AI executes locally, and delivers results.
-  Specific feature details still to be verified.
-inspiration_en: 'Trend: local AI rises due to privacy and latency needs. Don''t build generic local models;
-  enter data-sensitive industries like healthcare and legal, offering customized on-device AI solutions,
-  charge per deployment or subscription.'
+category: 通用助手
+summary_zh: Mac 用户在本地运行 AI 模型，无需上传数据到云端。用户输入任务，AI 在设备上执行，处理本地数据。具体支持的任务类型和交付形式仍待核验。
+inspiration: 趋势是本地 AI 从开发者工具走向普通用户，数据隐私和离线可用成为卖点。切入可从特定职业场景（如律师、医生）的本地文档处理开始，强调数据不出设备。
+summary_en: Mac users run AI models locally without uploading data to the cloud. Users input tasks, AI
+  executes on-device, processing local data. Specific task types and deliverables remain to be verified.
+inspiration_en: The trend is local AI moving from developer tools to mainstream users, with data privacy
+  and offline capability as selling points. Entry could start with specific professional scenarios like
+  legal or medical document processing, emphasizing data staying on device.
 priority_review: false
 project_type: new_application
 industries:
 - 个人效率
+- 软件开发
 industries_en:
-- Personal Productivity
+- Personal productivity
+- Software development
 jobs:
-- Mac 用户
 - 知识工作者
+- 软件开发者
 jobs_en:
-- Mac User
-- Knowledge Worker
-regions: []
-regions_en: []
+- Knowledge workers
+- Software developers
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://www.producthunt.com/products/local-7
 canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: queued
 sources:
 - producthunt
 - officialfeeds

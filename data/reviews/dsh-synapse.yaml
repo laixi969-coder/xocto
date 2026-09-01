@@ -1,0 +1,78 @@
+- id: req-initial-dsh-synapse-2026-09-01
+  project_slug: dsh-synapse
+  level: initial
+  reviewed_at: '2026-09-01T01:18:14Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 对话中分支管理困难、上下文丢失的痛点；工作流结构判断：旧替代是手动记录或多标签，dsh-synapse 提供画布分支，交付可确定。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  - gate: consensus
+    status: insufficient
+    reason: 有 283 星，但缺乏用户讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者，但付费路径未验证。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发工作流的第一性目标，承诺可视化分支，技术实现可行，但需验证稳定性。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有用户案例或集成文档。
+  market: ''
+  job: 开发者需要管理复杂的 AI 对话分支，以便回溯和比较不同路径。
+  job_en: Developers need to manage complex AI conversation branches to revisit and compare different
+    paths.
+  pain: 线性对话难以处理多分支探索，容易丢失上下文。
+  pain_en: Linear conversations struggle with multi-branch exploration and lose context.
+  current_alternative: 目前开发者可能使用多个标签页或手动记录对话。
+  current_alternative_en: Currently developers may use multiple tabs or manually record conversations.
+  usage_reason: dsh-synapse 提供可视化分支，减少上下文丢失，但采用证据尚未核验。
+  usage_reason_en: dsh-synapse offers visual branching, reducing context loss, but adoption evidence not
+    yet verified.
+- id: req-full-dsh-synapse-2026-09-01
+  project_slug: dsh-synapse
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 对话中分支管理困难、上下文丢失的痛点；工作流结构判断：旧替代是手动记录或多标签，dsh-synapse 提供画布分支，交付可确定。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  - gate: consensus
+    status: insufficient
+    reason: 有 283 星，但缺乏用户讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者，但付费路径未验证。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发工作流的第一性目标，承诺可视化分支，技术实现可行，但需验证稳定性。
+    evidence_ids:
+    - ev-761e38fc8859b315
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有用户案例或集成文档。
+  market: ''
+  job: 开发者需要管理复杂的 AI 对话分支，以便回溯和比较不同路径。
+  job_en: Developers need to manage complex AI conversation branches to revisit and compare different
+    paths.
+  pain: 线性对话难以处理多分支探索，容易丢失上下文。
+  pain_en: Linear conversations struggle with multi-branch exploration and lose context.
+  current_alternative: 目前开发者可能使用多个标签页或手动记录对话。
+  current_alternative_en: Currently developers may use multiple tabs or manually record conversations.
+  usage_reason: dsh-synapse 提供可视化分支，减少上下文丢失，但采用证据尚未核验。
+  usage_reason_en: dsh-synapse offers visual branching, reducing context loss, but adoption evidence not
+    yet verified.

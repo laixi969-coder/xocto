@@ -1,0 +1,80 @@
+- id: req-initial-introducing-wrapture-2026-09-01
+  project_slug: introducing-wrapture
+  level: initial
+  reviewed_at: '2026-09-01T01:18:41Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在测试和追踪现有代码时无法轻易观察或替换函数调用的问题，替代 unittest.mock 和手动埋点，交付可配置的追踪和测试替身。工作流结构判断：价值成立。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  - gate: consensus
+    status: insufficient
+    reason: 项目仅数周，尚无社区采用或讨论数据，无法判断共识。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露商业模式，付费路径不明。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  - gate: truth
+    status: supported
+    reason: 作者是 Python 生态资深开发者，项目设计基于真实需求，AI 生成代码但作者严格把控设计，交付确定性较高。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  next_validation: 关注项目在代码托管平台的 star 数、issue 讨论和实际使用案例，以验证社区采用。
+  market: ''
+  job: 开发者在测试或调试现有 Python 项目时，需要为不控制的代码添加观察或替身。
+  job_en: Developers need to add observation or stubs to code they don't control when testing or debugging
+    existing Python projects.
+  pain: 现有工具如 unittest.mock 难以对不控制的代码进行追踪，且配置复杂。
+  pain_en: Existing tools like unittest.mock struggle to trace code not under your control, and configuration
+    is complex.
+  current_alternative: 使用 unittest.mock 或手动埋点，耗时且易出错。
+  current_alternative_en: Using unittest.mock or manual instrumentation, which is time-consuming and error-prone.
+  usage_reason: 作者是 Python 生态知名开发者，项目提供配置化追踪和 OpenTelemetry 支持，可能吸引关注。
+  usage_reason_en: The author is a well-known Python developer, and the project offers config-based tracing
+    and OpenTelemetry support, which may attract attention.
+- id: req-full-introducing-wrapture-2026-09-01
+  project_slug: introducing-wrapture
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在测试和追踪现有代码时无法轻易观察或替换函数调用的问题，替代 unittest.mock 和手动埋点，交付可配置的追踪和测试替身。工作流结构判断：价值成立。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  - gate: consensus
+    status: insufficient
+    reason: 项目仅数周，尚无社区采用或讨论数据，无法判断共识。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露商业模式，付费路径不明。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  - gate: truth
+    status: supported
+    reason: 作者是 Python 生态资深开发者，项目设计基于真实需求，AI 生成代码但作者严格把控设计，交付确定性较高。
+    evidence_ids:
+    - ev-60e8d10a29f5a2c5
+  next_validation: 关注项目在代码托管平台的 star 数、issue 讨论和实际使用案例，以验证社区采用。
+  market: ''
+  job: 开发者在测试或调试现有 Python 项目时，需要为不控制的代码添加观察或替身。
+  job_en: Developers need to add observation or stubs to code they don't control when testing or debugging
+    existing Python projects.
+  pain: 现有工具如 unittest.mock 难以对不控制的代码进行追踪，且配置复杂。
+  pain_en: Existing tools like unittest.mock struggle to trace code not under your control, and configuration
+    is complex.
+  current_alternative: 使用 unittest.mock 或手动埋点，耗时且易出错。
+  current_alternative_en: Using unittest.mock or manual instrumentation, which is time-consuming and error-prone.
+  usage_reason: 作者是 Python 生态知名开发者，项目提供配置化追踪和 OpenTelemetry 支持，可能吸引关注。
+  usage_reason_en: The author is a well-known Python developer, and the project offers config-based tracing
+    and OpenTelemetry support, which may attract attention.

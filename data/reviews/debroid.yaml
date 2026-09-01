@@ -109,3 +109,40 @@
   usage_reason: 公开代码仓库有189个收藏和7次复刻，说明开发者关注或试用，但持续使用和付费尚未核验。
   usage_reason_en: The public repository has 189 stars and 7 forks, indicating developer attention or
     trial, but sustained use and payment are not yet verified.
+- id: req-full-debroid-2026-09-01
+  project_slug: debroid
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“让写代码的 AI 在终端里调试正在运行的安卓应用：下断点、看变量、抓崩溃”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有用户案例或集成文档。
+  market: ''
+  job: 开发者需要调试正在运行的安卓应用，包括设置断点、查看变量和捕获崩溃。
+  job_en: Developers need to debug live Android apps, including setting breakpoints, inspecting variables,
+    and capturing crashes.
+  pain: 传统调试需要图形界面，且难以自动化，耗时且效率低。
+  pain_en: Traditional debugging requires a GUI and is hard to automate, making it time-consuming and
+    inefficient.
+  current_alternative: 目前开发者可能使用 Android Studio 或命令行工具，但需要手动操作。
+  current_alternative_en: Currently developers may use Android Studio or command-line tools, but require
+    manual effort.
+  usage_reason: 公开代码仓库有 189 个收藏、7 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 189 stars and 7 forks, showing developer attention; repeat
+    use and payment are not yet verified.

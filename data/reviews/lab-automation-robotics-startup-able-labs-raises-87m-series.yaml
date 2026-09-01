@@ -1,42 +1,43 @@
 - id: req-initial-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-09-01
   project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
   level: initial
-  reviewed_at: '2026-08-31T17:38:59Z'
+  reviewed_at: '2026-09-01T01:18:40Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决实验室人工操作效率低、易出错的问题，提供自动化交付，痛点刚性。工作流结构判断：实验流程标准化后，机器人可确定性执行。
+    reason: 它解决实验室重复性实验操作效率低、一致性差的问题，替代人工移液混合，交付可复现的实验结果。工作流结构判断：价值成立。
     evidence_ids:
     - ev-72f0ded87cfc2921
   - gate: consensus
     status: insufficient
-    reason: 仅有融资新闻，缺乏客户采用或行业共识证据。
+    reason: 仅有融资新闻，缺乏客户案例或采用数据，共识未验证。
     evidence_ids:
     - ev-72f0ded87cfc2921
   - gate: model
     status: insufficient
-    reason: 未披露定价或付费模式，买方可能是实验室或研究机构，但未证实。
+    reason: 未披露商业模式，可能按设备销售或服务收费，但无公开信息。
     evidence_ids:
     - ev-72f0ded87cfc2921
   - gate: truth
     status: insufficient
-    reason: 缺乏实际部署和交付验证，产品成熟度未知。
+    reason: 融资证明资本认可，但产品成熟度和交付能力未公开验证。
     evidence_ids:
     - ev-72f0ded87cfc2921
-  next_validation: 关注 ABLE Labs 官网的产品页面、客户案例和部署文档，以验证实际采用和交付。
+  next_validation: 关注 ABLE Labs 官网或新闻，寻找客户案例、产品部署信息或技术白皮书。
   market: ''
-  job: 实验室需要自动化重复性实验操作，提高效率和可重复性。
-  job_en: Labs need to automate repetitive experimental operations to improve efficiency and reproducibility.
-  pain: 人工操作耗时且易出错，影响实验结果的可靠性。
-  pain_en: Manual operations are time-consuming and error-prone, affecting reliability of results.
-  current_alternative: 替代方案是传统大型自动化设备（成本高）或人工操作（效率低）。
-  current_alternative_en: Alternatives are traditional large automation equipment (high cost) or manual
-    operation (low efficiency).
-  usage_reason: 融资事件表明投资者看好实验室自动化市场，产品可能解决真实痛点。
-  usage_reason_en: The funding event indicates investor confidence in lab automation, and the product
-    likely addresses real pain points.
+  job: 实验室技术员需要执行大量重复性实验操作，如移液、混合，耗时且易出错。
+  job_en: Lab technicians need to perform many repetitive experimental operations, such as pipetting and
+    mixing, which are time-consuming and error-prone.
+  pain: 人工操作效率低、一致性差，且占用技术人员时间。
+  pain_en: Manual operations are inefficient, inconsistent, and consume technicians' time.
+  current_alternative: 目前依赖人工操作或传统自动化设备，灵活性和智能性不足。
+  current_alternative_en: Currently relies on manual work or traditional automation equipment, lacking
+    flexibility and intelligence.
+  usage_reason: 融资表明资本看好实验室自动化方向，机器人可提升实验效率和可复现性。
+  usage_reason_en: The funding indicates capital interest in lab automation; robots can improve efficiency
+    and reproducibility.
 - id: req-full-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-09-01
   project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
   level: full

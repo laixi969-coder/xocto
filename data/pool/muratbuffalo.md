@@ -21,7 +21,7 @@ canonical_url: https://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-
 summary: The safest job from AI may be writing
 first_seen: '2026-08-31T18:12:20Z'
 last_seen: '2026-09-01T01:18:10Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,11 +1,15 @@
 ---
 slug: 库克告别苹果-ceo罗永浩官宣年底科技大会华为小米荣耀手机今日集体调价-极客早知道
-name: 库克告别苹果 CEO；罗永浩官宣年底科技大会；华为、小米、荣耀手机今日集体调价｜极客早知道
+name: 苹果
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条科技新闻聚合，涵盖苹果CEO更替、英伟达投资、存储芯片量产、OpenAI广告业务、智谱财报、字节豆包股、快手可灵融资、罗永浩大会、AIGC剧集、滴滴自动驾驶、OpenAI采购Mac、手机调价、小红书功能、Apple
+  Watch、Instagram标签和GTA6等事件。
 inspiration: ''
-summary_en: ''
+summary_en: This is a tech news roundup covering Apple CEO transition, Nvidia investment, memory chip
+  mass production, OpenAI ad business, Zhipu financials, ByteDance Doubao stock, Kuaishou Keling funding,
+  Luo Yonghao's conference, AIGC drama, Didi autonomous driving, OpenAI Mac purchases, phone price hikes,
+  Xiaohongshu features, Apple Watch, Instagram labels, and GTA6.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -92,7 +96,7 @@ summary: "库克发文告别苹果 CEO 一职：头衔会变，但对 Apple 社�
   \ 6》预计将于 11 月 19 日登陆 PlayStation 5 和 Xbox Series X/S 平台。（来源：IT 之家）"
 first_seen: '2026-09-01T00:20:26Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -103,7 +107,7 @@ sightings:
   kind: news
 ---
 
-# 库克告别苹果 CEO；罗永浩官宣年底科技大会；华为、小米、荣耀手机今日集体调价｜极客早知道
+# 苹果
 
 库克发文告别苹果 CEO 一职：头衔会变，但对 Apple 社区的热爱永远不会改变 
  9 月 1 日消息，现任苹果硬件工程高级副总裁约翰 · 特努斯将于当地时间 9 月 1 日正式接任苹果首席执行官。届时，蒂姆 · 库克将出任苹果董事会执行董事长。 

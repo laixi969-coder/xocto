@@ -229,3 +229,42 @@
   usage_reason: 公开代码仓库有 249 个收藏、2 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 249 stars and 2 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-codex-bridge-2026-09-01
+  project_slug: codex-bridge
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者扩展 Claude Code 功能的痛点；工作流结构推理：旧替代是使用多个工具或 API，codex-bridge 提供集成方案，不采用则效率低，交付可确定。
+    evidence_ids:
+    - ev-399d410216f99ab4
+  - gate: consensus
+    status: insufficient
+    reason: 有 249 星，但缺乏用户讨论或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-399d410216f99ab4
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者，但付费路径未验证。
+    evidence_ids:
+    - ev-399d410216f99ab4
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发工作流的第一性目标，承诺集成功能，技术实现可行，但需验证稳定性。
+    evidence_ids:
+    - ev-399d410216f99ab4
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有用户案例或集成文档。
+  market: ''
+  job: 开发者需要为 Claude Code 添加图像生成和 GPT-5 子代理功能。
+  job_en: Developers need to add image generation and GPT-5 subagent capabilities to Claude Code.
+  pain: Claude Code 本身缺乏这些功能，开发者需要额外配置或使用多个工具。
+  pain_en: Claude Code lacks these features natively, requiring extra setup or multiple tools.
+  current_alternative: 目前开发者可能使用 OpenAI API 或其他工具，但需要 API 密钥或额外配置。
+  current_alternative_en: Currently developers may use OpenAI API or other tools, but require API keys
+    or extra setup.
+  usage_reason: 公开代码仓库有 249 个收藏、2 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 249 stars and 2 forks, showing developer attention; repeat
+    use and payment are not yet verified.

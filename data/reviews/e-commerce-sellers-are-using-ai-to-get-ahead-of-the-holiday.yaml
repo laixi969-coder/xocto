@@ -1,0 +1,82 @@
+- id: req-initial-e-commerce-sellers-are-using-ai-to-get-ahead-of-the-holiday-2026-09-01
+  project_slug: e-commerce-sellers-are-using-ai-to-get-ahead-of-the-holiday
+  level: initial
+  reviewed_at: '2026-09-01T01:18:43Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电商卖家在旺季前数据分析和策略调整的痛点，替代手动分析，交付可执行的建议，价值结构成立。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道提及使用，缺乏用户数量、留存或付费数据，共识证据不足。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是电商卖家，但定价和付费路径未公开。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  - gate: truth
+    status: insufficient
+    reason: AI 建议的准确性和实际效果未验证，需要更多用户反馈或案例。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  next_validation: 关注 StoreClaw 官网或后续报道，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 电商卖家需要在假日购物季前优化运营策略，以最大化销售。
+  job_en: E-commerce sellers need to optimize operational strategies before the holiday season to maximize
+    sales.
+  pain: 市场变化快，手动分析数据耗时且难以把握趋势，容易错失机会。
+  pain_en: Market changes rapidly, manual data analysis is time-consuming and hard to grasp trends, risking
+    missed opportunities.
+  current_alternative: 目前可能依赖 Excel、经验判断或第三方报告，缺乏实时性和针对性。
+  current_alternative_en: Currently may rely on Excel, intuition, or third-party reports, lacking real-time
+    and targeted insights.
+  usage_reason: AI 能快速处理大量数据并提供可操作建议，报道显示已有卖家采用，但具体采用规模和效果未披露。
+  usage_reason_en: AI can process large data quickly and provide actionable advice; the report indicates
+    adoption by sellers, but specific scale and results are undisclosed.
+- id: req-full-e-commerce-sellers-are-using-ai-to-get-ahead-of-the-holiday-2026-09-01
+  project_slug: e-commerce-sellers-are-using-ai-to-get-ahead-of-the-holiday
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电商卖家在旺季前数据分析和策略调整的痛点，替代手动分析，交付可执行的建议，价值结构成立。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  - gate: consensus
+    status: insufficient
+    reason: 仅有报道提及使用，缺乏用户数量、留存或付费数据，共识证据不足。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方可能是电商卖家，但定价和付费路径未公开。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  - gate: truth
+    status: insufficient
+    reason: AI 建议的准确性和实际效果未验证，需要更多用户反馈或案例。
+    evidence_ids:
+    - ev-c22069ed6c7a3027
+  next_validation: 关注 StoreClaw 官网或后续报道，寻找定价页、客户案例或使用数据。
+  market: ''
+  job: 电商卖家需要在假日购物季前优化运营策略，以最大化销售。
+  job_en: E-commerce sellers need to optimize operational strategies before the holiday season to maximize
+    sales.
+  pain: 市场变化快，手动分析数据耗时且难以把握趋势，容易错失机会。
+  pain_en: Market changes rapidly, manual data analysis is time-consuming and hard to grasp trends, risking
+    missed opportunities.
+  current_alternative: 目前可能依赖 Excel、经验判断或第三方报告，缺乏实时性和针对性。
+  current_alternative_en: Currently may rely on Excel, intuition, or third-party reports, lacking real-time
+    and targeted insights.
+  usage_reason: AI 能快速处理大量数据并提供可操作建议，报道显示已有卖家采用，但具体采用规模和效果未披露。
+  usage_reason_en: AI can process large data quickly and provide actionable advice; the report indicates
+    adoption by sellers, but specific scale and results are undisclosed.

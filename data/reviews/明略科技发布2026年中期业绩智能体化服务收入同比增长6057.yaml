@@ -1,44 +1,44 @@
 - id: req-initial-明略科技发布2026年中期业绩智能体化服务收入同比增长6057-2026-09-01
   project_slug: 明略科技发布2026年中期业绩智能体化服务收入同比增长6057
   level: initial
-  reviewed_at: '2026-08-31T17:38:59Z'
+  reviewed_at: '2026-09-01T01:18:43Z'
   verdict: true_demand
   signal_level: 需求信号明确
   gates:
   - gate: value
     status: supported
-    reason: 它解决企业业务流程中数据处理和决策支持的自动化需求，旧流程依赖人工或传统软件，效率低；智能体化服务提供可追踪的业务结果，价值结构成立（工作流结构判断）。
+    reason: 它解决企业数据处理和决策支持的需求，痛点在于人工分析耗时易错，智能体提供自动化处理，交付可追溯的业务结果。工作流结构判断。
     evidence_ids:
     - ev-76ce9cae5dcbeedf
   - gate: consensus
     status: supported
-    reason: 收入同比增长605.7%表明市场采用强劲，但需进一步了解客户构成和续费率。
+    reason: 收入增长605.7%显示市场认可，但具体客户和采用细节未披露，共识基于财务数据。
     evidence_ids:
     - ev-76ce9cae5dcbeedf
   - gate: model
     status: insufficient
-    reason: 未披露定价模式，但收入增长暗示有付费路径，可能按项目或订阅收费，需官方财报细节。
+    reason: 未披露定价和付费模式，买方可能是企业，但付费路径不明确。
     evidence_ids:
     - ev-76ce9cae5dcbeedf
   - gate: truth
-    status: insufficient
-    reason: 收入增长是财务数据，但交付质量和服务边界未公开，需客户案例或产品文档验证。
+    status: supported
+    reason: 智能体服务贴近企业决策第一性目标，交付可追溯，但安全边界和人工监督需明确。
     evidence_ids:
     - ev-76ce9cae5dcbeedf
-  next_validation: 关注明略科技财报中智能体化服务的客户数量、续费率和具体应用场景，以验证需求持续性和交付质量。
+  next_validation: 关注明略科技官方财报或客户案例，验证智能体服务的具体交付和付费模式。
   market: ''
-  job: 企业管理者需要将业务流程中的数据处理和决策支持自动化，以提升效率和响应速度。
-  job_en: Enterprise managers need to automate data processing and decision support in business processes
-    to improve efficiency and responsiveness.
-  pain: 传统业务流程依赖人工处理数据，效率低且易出错，难以应对快速变化的市场。
-  pain_en: Traditional business processes rely on manual data handling, which is inefficient and error-prone,
-    making it difficult to respond to rapidly changing markets.
-  current_alternative: 目前企业可能使用传统软件或外包服务，但缺乏智能化和实时性。
-  current_alternative_en: Enterprises currently use traditional software or outsourced services, which
-    lack intelligence and real-time capabilities.
-  usage_reason: 智能体化服务收入同比增长605.7%，表明市场采用强劲，但具体客户类型和付费模式未披露。
-  usage_reason_en: The 605.7% year-over-year growth in agent-based service revenue indicates strong market
-    adoption, but specific customer types and pricing models are undisclosed.
+  job: 企业管理者需要处理大量业务数据并做出决策，智能体化服务帮助自动化数据处理和提供决策支持。
+  job_en: Business managers need to process large volumes of business data and make decisions; agent-based
+    services automate data processing and provide decision support.
+  pain: 传统数据处理和决策支持耗时且易错，人工分析难以应对数据量和速度。
+  pain_en: Traditional data processing and decision support are time-consuming and error-prone; manual
+    analysis struggles with data volume and speed.
+  current_alternative: 企业目前依赖人工数据分析团队或传统BI工具，成本高且响应慢。
+  current_alternative_en: Enterprises currently rely on manual data analysis teams or traditional BI tools,
+    which are costly and slow to respond.
+  usage_reason: 收入增长605.7%表明企业采用意愿强，可能因智能体提供更快、更可扩展的决策支持。
+  usage_reason_en: The 605.7% revenue growth indicates strong enterprise adoption, likely because agents
+    offer faster and more scalable decision support.
 - id: req-full-明略科技发布2026年中期业绩智能体化服务收入同比增长6057-2026-09-01
   project_slug: 明略科技发布2026年中期业绩智能体化服务收入同比增长6057
   level: full

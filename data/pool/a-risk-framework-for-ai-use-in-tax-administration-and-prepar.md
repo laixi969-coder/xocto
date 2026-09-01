@@ -1,11 +1,12 @@
 ---
 slug: a-risk-framework-for-ai-use-in-tax-administration-and-prepar
-name: A risk framework for AI use in tax administration and preparation
+name: 税务领域AI风险框架
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 专业税务机构提出了针对税务管理和申报场景应用AI的风险评估框架，聚焦合规、准确度与数据治理。
 inspiration: ''
-summary_en: ''
+summary_en: A risk framework was introduced for the adoption of AI in tax administration and preparation,
+  focusing on compliance, accuracy, and data governance.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNNmNGRmlITnVk
 summary: A risk framework for AI use in tax administration and preparation The Tax Adviser
 first_seen: '2026-08-31T23:00:46Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# A risk framework for AI use in tax administration and preparation
+# 税务领域AI风险框架
 
 A risk framework for AI use in tax administration and preparation The Tax Adviser
 

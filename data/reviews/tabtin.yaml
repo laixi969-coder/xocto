@@ -1,0 +1,73 @@
+- id: req-initial-tabtin-2026-09-01
+  project_slug: tabtin
+  level: initial
+  reviewed_at: '2026-09-01T01:18:14Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称提供多代理协作空间，但未说明具体任务、输入和交付，无法判断痛点刚性。
+    evidence_ids:
+    - ev-f6cc7a2e473cdcff
+  - gate: consensus
+    status: insufficient
+    reason: 仅 206 星标，无用户讨论或采用数据，社区共识未形成。
+    evidence_ids:
+    - ev-f6cc7a2e473cdcff
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看代码仓库的 README 和 issues，确认具体功能和使用场景。
+  market: ''
+  job: 用户希望在一个工作空间中协调多个 AI 代理完成复杂任务。
+  job_en: Users want to coordinate multiple AI agents in one workspace to complete complex tasks.
+  pain: 管理多个 AI 代理需要切换不同工具，缺乏统一协调界面。
+  pain_en: Managing multiple AI agents requires switching between tools, lacking a unified coordination
+    interface.
+  current_alternative: 手动分别使用不同 AI 工具，或编写脚本编排代理。
+  current_alternative_en: Manually using different AI tools, or scripting agent orchestration.
+  usage_reason: 代码仓库星标 206 表明初步关注，但具体使用场景和用户痛点未明确，采用原因待核验。
+  usage_reason_en: 206 stars on the code repository indicate initial interest, but specific use cases
+    and pain points are unclear; adoption reasons unverified.
+- id: req-full-tabtin-2026-09-01
+  project_slug: tabtin
+  level: full
+  reviewed_at: '2026-09-01T01:49:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它声称提供多代理协作空间，但未说明具体任务、输入和交付，无法判断痛点刚性。
+    evidence_ids:
+    - ev-f6cc7a2e473cdcff
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查看代码仓库的 README 和 issues，确认具体功能和使用场景。
+  market: ''
+  job: 用户希望在一个工作空间中协调多个 AI 代理完成复杂任务。
+  job_en: Users want to coordinate multiple AI agents in one workspace to complete complex tasks.
+  pain: 管理多个 AI 代理需要切换不同工具，缺乏统一协调界面。
+  pain_en: Managing multiple AI agents requires switching between tools, lacking a unified coordination
+    interface.
+  current_alternative: 手动分别使用不同 AI 工具，或编写脚本编排代理。
+  current_alternative_en: Manually using different AI tools, or scripting agent orchestration.
+  usage_reason: 代码仓库星标 206 表明初步关注，但具体使用场景和用户痛点未明确，采用原因待核验。
+  usage_reason_en: 206 stars on the code repository indicate initial interest, but specific use cases
+    and pain points are unclear; adoption reasons unverified.

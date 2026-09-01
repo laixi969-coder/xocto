@@ -1,11 +1,11 @@
 ---
 slug: smarter-insurance-pricing-with-ai
-name: Smarter insurance pricing with AI
+name: SAS
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: SAS 推出更智能的保险定价 AI 解决方案。
 inspiration: ''
-summary_en: ''
+summary_en: SAS introduces AI solutions for smarter insurance pricing.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1WQkd3Q3JvV25Y
 summary: 'Smarter insurance pricing with AI SAS: Data and AI Solutions'
 first_seen: '2026-08-29T00:34:03Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# Smarter insurance pricing with AI
+# SAS
 
 Smarter insurance pricing with AI SAS: Data and AI Solutions
 

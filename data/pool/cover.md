@@ -3,14 +3,13 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 开发者将真实数据交给 cover，它作为可逆隐私代理，向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据。它保护 AI 代理交互中的敏感信息，交付一个隐私保护层，具体集成方式仍待核验。
-inspiration: 趋势是 AI 代理处理敏感数据时隐私保护需求上升。切入点是做数据脱敏的代理层，但需验证开发者是否愿意采用，以及能否处理复杂数据映射。
+summary_zh: 开发者将真实数据交给 cover，它作为可逆隐私代理，向外部 AI 代理发送逼真假数据，并在本地恢复原始数据，以保护敏感信息。具体集成流程和交付物仍待核验。
+inspiration: 趋势是 AI 代理需要访问真实数据，但隐私风险阻碍采用。切入点是面向企业开发者，提供数据脱敏代理，按数据保护级别或调用量收费。
 summary_en: Developers give real data to cover, which acts as a reversible privacy proxy, sending realistic
-  fake data to external AI agents and restoring originals locally. It protects sensitive information in
-  AI agent interactions, delivering a privacy layer; specific integration details remain to be verified.
-inspiration_en: The trend is rising privacy protection needs when AI agents handle sensitive data. The
-  entry point is a data masking proxy layer, but it needs validation on developer adoption and handling
-  complex data mappings.
+  fake data to external AI agents and restoring originals locally to protect sensitive information. Specific
+  integration flow and deliverables still to be verified.
+inspiration_en: 'Trend: AI agents need access to real data, but privacy risks hinder adoption. Entry point:
+  target enterprise developers with a data masking proxy, charging by protection level or call volume.'
 priority_review: false
 project_type: open_source
 industries:
@@ -33,7 +32,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-01T01:18:41Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - officialfeeds

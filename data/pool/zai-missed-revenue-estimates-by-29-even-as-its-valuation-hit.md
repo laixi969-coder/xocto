@@ -1,11 +1,12 @@
 ---
 slug: zai-missed-revenue-estimates-by-29-even-as-its-valuation-hit
-name: Z.AI Missed Revenue Estimates by 29% Even as Its Valuation Hit $71 Billion
+name: Z.AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Z.AI 是一家 AI 公司，据报道其营收未达预期，低于预估 29%，但估值仍达 710 亿美元。具体产品和服务未在报道中说明。
 inspiration: ''
-summary_en: ''
+summary_en: Z.AI is an AI company that reportedly missed revenue estimates by 29%, yet its valuation reached
+  $71 billion. Specific products and services are not detailed in the report.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxQdktwRmZ3cGhL
 summary: Z.AI Missed Revenue Estimates by 29% Even as Its Valuation Hit $71 Billion Startup Fortune
 first_seen: '2026-08-31T14:06:23Z'
 last_seen: '2026-09-01T01:18:43Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Z.AI Missed Revenue Estimates by 29% Even as Its Valuation Hit $71 Billion
+# Z.AI
 
 Z.AI Missed Revenue Estimates by 29% Even as Its Valuation Hit $71 Billion Startup Fortune
 

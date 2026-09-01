@@ -109,3 +109,40 @@
   usage_reason: 公开记录显示月访问量297万，环比增长80.1%，说明大量关注，但产品级留存和付费尚未核验。
   usage_reason_en: Public records show 2.97M monthly visits and 80.1% MoM growth, indicating significant
     attention, but product-level retention and payment are not yet verified.
+- id: req-full-devin-2026-09-01
+  project_slug: devin
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“在云端自己写代码、跑测试、提合并请求，按它干了多少活来计费”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Devin 官网定价页与客户案例，确认付费路径与交付结果。
+  market: ''
+  job: 开发者需要编写代码、运行测试和提交合并请求，并希望自动化这些任务。
+  job_en: Developers need to write code, run tests, and open merge requests, and seek to automate these
+    tasks.
+  pain: 编码、测试和提交流程耗时且重复，人工完成效率低。
+  pain_en: Coding, testing, and submission processes are time-consuming and repetitive; manual completion
+    is inefficient.
+  current_alternative: 目前开发者可能手动完成或使用 CI/CD 工具，但需要人工介入。
+  current_alternative_en: Currently developers may do it manually or use CI/CD tools, but require human
+    intervention.
+  usage_reason: 公开记录显示月访问 2.97M、环比增长 80.1%，表明开发者关注和使用，但留存与付费尚未核验。
+  usage_reason_en: Public records show 2.97M monthly visits and 80.1% MoM growth, indicating developer
+    attention and usage, but retention and payment are not yet verified.

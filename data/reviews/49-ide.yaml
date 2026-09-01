@@ -1,0 +1,68 @@
+- id: req-initial-49-ide-2026-09-01
+  project_slug: 49-ide
+  level: initial
+  reviewed_at: '2026-09-01T01:18:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明是面向代理的 2D 画布，未描述具体用户任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-3c2f553ede4f930b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 关注该开源项目的文档更新和社区讨论，以获取具体功能和使用场景。
+  market: ''
+  job: 开发者需要可视化并控制 AI 代理的执行过程。
+  job_en: Developers need to visualize and control AI agent execution.
+  pain: 代理执行不透明，难以调试和干预。
+  pain_en: Agent execution is opaque, making debugging and intervention difficult.
+  current_alternative: 目前主要依赖日志和命令行工具。
+  current_alternative_en: Currently relies on logs and command-line tools.
+  usage_reason: 尚未核验，仅有开源仓库，无采用证据。
+  usage_reason_en: Not yet verified; only an open-source repository exists, no adoption evidence.
+- id: req-full-49-ide-2026-09-01
+  project_slug: 49-ide
+  level: full
+  reviewed_at: '2026-09-01T01:48:40Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明是面向代理的 2D 画布，未描述具体用户任务、输入输出或交付，无法判断需求强度。
+    evidence_ids:
+    - ev-3c2f553ede4f930b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注该开源项目的文档更新和社区讨论，以获取具体功能和使用场景。
+  market: ''
+  job: 开发者需要可视化并控制 AI 代理的执行过程。
+  job_en: Developers need to visualize and control AI agent execution.
+  pain: 代理执行不透明，难以调试和干预。
+  pain_en: Agent execution is opaque, making debugging and intervention difficult.
+  current_alternative: 目前主要依赖日志和命令行工具。
+  current_alternative_en: Currently relies on logs and command-line tools.
+  usage_reason: 尚未核验，仅有开源仓库，无采用证据。
+  usage_reason_en: Not yet verified; only an open-source repository exists, no adoption evidence.

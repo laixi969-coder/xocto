@@ -1,11 +1,11 @@
 ---
 slug: set-per-user-budgets-on-ai-gateway
-name: Set per-user budgets on AI Gateway
+name: Vercel AI Gateway
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Vercel AI Gateway 新增按用户设置预算的功能。
 inspiration: ''
-summary_en: ''
+summary_en: Vercel AI Gateway adds per-user budget setting capability.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway
 summary: ''
 first_seen: '2026-08-31T06:00:00Z'
 last_seen: '2026-09-01T01:18:40Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Set per-user budgets on AI Gateway
+# Vercel AI Gateway
 
 _（源没给简介）_
 

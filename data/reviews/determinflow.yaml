@@ -109,3 +109,40 @@
   usage_reason: 公开代码仓库有583个收藏和87次复刻，说明开发者关注或试用，但持续使用和付费尚未核验。
   usage_reason_en: The public repository has 583 stars and 87 forks, indicating developer attention or
     trial, but sustained use and payment are not yet verified.
+- id: req-full-determinflow-2026-09-01
+  project_slug: determinflow
+  level: full
+  reviewed_at: '2026-09-01T01:49:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“把复杂 AI 流程钉成可校验、失败能从断点续跑的服务，中途断了不用从头来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注项目仓库的 issue 和讨论，以及是否有用户案例或集成文档。
+  market: ''
+  job: 开发者需要构建、验证和恢复复杂 AI 工作流，并将其稳定交付为服务。
+  job_en: Developers need to build, validate, and recover complex AI workflows, and ship them as dependable
+    services.
+  pain: 复杂 AI 工作流容易失败，且失败后需要从头开始，耗时且成本高。
+  pain_en: Complex AI workflows are prone to failure, and restarting from scratch is time-consuming and
+    costly.
+  current_alternative: 目前开发者可能使用自定义脚本或编排工具，但缺乏断点续跑能力。
+  current_alternative_en: Currently developers may use custom scripts or orchestration tools, but lack
+    resume-from-breakpoint capability.
+  usage_reason: 公开代码仓库有 583 个收藏、87 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 583 stars and 87 forks, showing developer attention; repeat
+    use and payment are not yet verified.
