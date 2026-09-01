@@ -30,16 +30,16 @@ canonical_url: https://github.com/xiajiajun516/dsh-config-manager
 summary: DeepSeek Harness (DSH) backup & restore plugin — export, import, migrate and sync your complete
   DSH configuration, plugins, MCP servers, skills and workspace. One-click migration to another machine.
 first_seen: '2026-08-14T17:42:12Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xiajiajun516/dsh-config-manager
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 58
+    stars: 59
     forks: 3
     open_issues: 6
   kind: product

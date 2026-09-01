@@ -22,17 +22,17 @@ summary: 'Give your AI a full stack: memory, voice, face, and hands. This is the
   shortcut. It sets up the entire jaredrhod stack for you with an installation wizard. Select which pieces
   you want or do it all!'
 first_seen: '2026-08-17T04:00:03Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jaredrhod/fullstack-agent
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 542
-    forks: 167
+    stars: 559
+    forks: 170
     open_issues: 1
   kind: product
 ---

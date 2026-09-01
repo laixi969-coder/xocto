@@ -32,14 +32,19 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9UamxxX3RoTHh2WnZYNFBBMX
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9UamxxX3RoTHh2WnZYNFBBMXFmWHkyeWhmaWU0U1UwMUVWT0xZSjZKTHVlNXVhdzFEMWgtNmlST3BVN1gxeXRBTg?oc=5
 summary: 澎湃新闻生成式人工智能产品再上新：“星映AI短剧创作平台”完成服务登记 凤凰网
 first_seen: '2026-08-31T14:59:47Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: queued
+last_seen: '2026-09-01T01:18:43Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9UamxxX3RoTHh2WnZYNFBBMXFmWHkyeWhmaWU0U1UwMUVWT0xZSjZKTHVlNXVhdzFEMWgtNmlST3BVN1gxeXRBTg?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tckdiX3M2eG11TWJyVVpoaUN5eW1HeURvQ0JwdFhFMTA1cXpmN2FNdC1TZC1yY3IzYTFBVUhfNXduQW1jYXBHUHZORE9WWkJ4dE81UG9Fd05YbFJLU0tCcg?oc=5
+  seen_at: '2026-09-01T01:18:43Z'
   metrics: {}
   kind: news
 ---

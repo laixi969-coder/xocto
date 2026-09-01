@@ -29,17 +29,17 @@ url: https://floe.audio/
 canonical_url: https://floe.audio
 summary: an open-source plugin for sample libraries – CLAP/VST3/AU
 first_seen: '2026-08-31T10:11:39Z'
-last_seen: '2026-08-31T17:38:26Z'
+last_seen: '2026-09-01T01:18:10Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://floe.audio/
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
-    points: 8
-    comments: 2
+    points: 18
+    comments: 8
   kind: product
 ---
 

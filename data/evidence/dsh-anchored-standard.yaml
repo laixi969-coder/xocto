@@ -275,3 +275,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-0b17f48aacf91ba6
+  project_slug: dsh-anchored-standard
+  url: https://github.com/xiaobright/modeltest
+  title: dsh-anchored-standard
+  published_at: '2026-08-14T14:06:39Z'
+  collected_at: '2026-09-01T01:18:14Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2
+    98/99) | repository stars: 3,812'

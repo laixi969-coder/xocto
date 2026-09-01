@@ -28,17 +28,17 @@ canonical_url: https://github.com/hkqr/my-free-code
 summary: Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing,
   streaming, tools, reasoning, fallbacks, and local model support
 first_seen: '2026-08-27T17:59:23Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hkqr/my-free-code
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 524
-    forks: 192
+    stars: 602
+    forks: 211
     open_issues: 0
   kind: product
 ---

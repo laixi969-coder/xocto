@@ -20,18 +20,18 @@ url: https://rakazo.com
 canonical_url: https://rakazo.com
 summary: Open-source Grok Bot alternative. Choose your own model and sandbox.
 first_seen: '2026-08-13T06:28:56Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: market_context
 sources:
 - github
 sightings:
 - source: github
   url: https://rakazo.com
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 1640
-    forks: 273
-    open_issues: 18
+    stars: 1659
+    forks: 278
+    open_issues: 22
   kind: product
 ---
 

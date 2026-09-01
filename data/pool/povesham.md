@@ -20,17 +20,17 @@ url: https://povesham.wordpress.com/2026/08/30/state-of-the-map-2026-openstreetm
 canonical_url: https://povesham.wordpress.com/2026/08/30/state-of-the-map-2026-openstreetmap-conference
 summary: I attended the State of the Map conference
 first_seen: '2026-08-31T08:57:35Z'
-last_seen: '2026-08-31T17:38:26Z'
-status: rejected
+last_seen: '2026-09-01T01:18:10Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://povesham.wordpress.com/2026/08/30/state-of-the-map-2026-openstreetmap-conference/
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
-    points: 55
-    comments: 4
+    points: 67
+    comments: 5
   kind: news
 ---
 

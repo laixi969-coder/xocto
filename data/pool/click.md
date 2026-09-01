@@ -11,19 +11,34 @@ inspiration_en: The trend is that general models lack present-tense business dat
   entry is sales prospecting and ad-watch, steps that must stare at outside sources. The connector can
   be free; extra data is the subscription. Pricing is undisclosed.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/click-6
 canonical_url: https://producthunt.com/products/click-6
 summary: Live research context for ChatGPT and Claude
 first_seen: '2026-08-11T19:25:25Z'
-last_seen: '2026-08-13T03:25:27Z'
-status: analyzed
+last_seen: '2026-09-01T01:18:43Z'
+status: pending_filter
 sources:
 - producthunt
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/click-6
   seen_at: '2026-08-13T03:25:27Z'
   metrics: {}
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE44UGoxWXh1U05jQWNWMUFvMmEwZHE2VGlVVVdSem5lYnVvMng1YmQyY0R4dmtIZW01RGdFRDI1NVd3TlNoUWM4NHp6UkNmdExvSi1PVmFHYVJ5NXM?oc=5
+  seen_at: '2026-09-01T01:18:43Z'
+  metrics: {}
+  kind: news
 ---
 
 # Click

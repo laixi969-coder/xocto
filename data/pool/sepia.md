@@ -37,17 +37,17 @@ summary: De-AI writing skill for any Agent Skills-compatible agent (77+ via the 
   plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture repair for fiction,
   venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).
 first_seen: '2026-08-28T05:56:49Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Nanako0129/sepia
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 1192
-    forks: 67
+    stars: 1237
+    forks: 72
     open_issues: 0
   kind: product
 ---

@@ -32,7 +32,7 @@ summary: DeepSeek V4-Flash Vision Video RAG 让 AI 真正"看懂" 一段视频�
   DeepSeek 视觉大模型 deepseek-v4-flash-vision-exp 的视频理解与问答 （video RAG）agent skill。先按时间轴抽帧阅读、建立索引（一次性），再对问题做
   本地粗筛 → 视觉精排 → 深读回答；回答带 [MM:SS] 时间戳引用，自动生成 自包含 HTML 预览页（内嵌可播放片段 + 关键帧 + 答案），双击浏览器即看。
 first_seen: '2026-08-24T09:46:05Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: queued
 sources:
 - github
@@ -47,9 +47,9 @@ sightings:
   kind: product
 - source: github
   url: https://skillhub.cn/skills/user_8bb4b4f5/ecom-video-seedance-prompt
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 42
+    stars: 43
     forks: 6
     open_issues: 0
   kind: product

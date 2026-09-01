@@ -30,17 +30,17 @@ url: https://serverbox.stupidlabs.lol/
 canonical_url: https://serverbox.stupidlabs.lol
 summary: Linux server management over SSH – written in Rust and Tauri
 first_seen: '2026-08-31T13:39:43Z'
-last_seen: '2026-08-31T17:38:26Z'
+last_seen: '2026-09-01T01:18:10Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://serverbox.stupidlabs.lol/
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
-    points: 45
-    comments: 43
+    points: 47
+    comments: 48
   kind: product
 ---
 

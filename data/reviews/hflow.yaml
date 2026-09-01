@@ -24,6 +24,17 @@
     evidence_ids: []
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
+  job: 机器人工程师、数据工程师
+  job_en: Robotics Engineer, Data Engineer
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：机器人工程师、数据工程师；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Robotics Engineer, Data Engineer The
+    exact adoption motive and repeat use are not yet verified.'
 - id: req-initial-hflow-2026-09-01
   project_slug: hflow
   level: initial

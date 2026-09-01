@@ -1,0 +1,19 @@
+- id: ev-60e8d10a29f5a2c5
+  project_slug: introducing-wrapture
+  url: https://simonwillison.net/2026/Aug/31/introducing-wrapture/
+  title: Introducing wrapture
+  published_at: '2026-08-31T23:59:36Z'
+  collected_at: '2026-09-01T01:18:41Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Introducing wrapture   \nNew from Graham Dumpleton (of  wrapt , mod_wsgi, and New Relic's Python\
+    \ agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending\
+    \ them to apply to testing and tracing at the same time. \n Wrapture ( full documentation here ) makes\
+    \ it easy to wrap any function or method such that all access can be traced, or can be overridden\
+    \ to return a different value. \n It acts as both an alternative to  unittest.mock  and a way to implement\
+    \ tracing against an existing project: \n \n Attaching observation to code you do not control, recording\
+    \ what flows through it, and doing so without disturbing the program being watched, is a problem I\
+    \ have never really stopped thinking about. \n \n Wrapture includes  OpenTelemetry support  and even\
+    \ has an entirely configuration-based mechanism for adding tracing to an existing Python project,\
+    \ which looks like this: \n   capture  =   \" summary \"  \n\n[[ observe ]]\n target  =   \" domain:Calculator\
+    \ \"  \n name  = ["

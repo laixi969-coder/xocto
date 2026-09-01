@@ -30,18 +30,18 @@ url: https://dsh-market.com
 canonical_url: https://dsh-market.com
 summary: DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发（dsh-market.com）
 first_seen: '2026-08-12T05:15:20Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://dsh-market.com
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 6588
+    stars: 6596
     forks: 440
-    open_issues: 8
+    open_issues: 6
   kind: product
 ---
 

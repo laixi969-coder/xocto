@@ -22,14 +22,19 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xSWI1TnhzR21W
 summary: Lam Research Breaks Ground on New Oregon Lab to Strengthen AI Chip Manufacturing Capabilities
   thelec.net
 first_seen: '2026-08-27T08:03:13Z'
-last_seen: '2026-08-30T00:20:30Z'
-status: market_context
+last_seen: '2026-09-01T01:18:43Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xSWI1TnhzR21WNG03bWlOVDN4LUZnZkNoNGZodmhXNldoTnpVcGExVzRxVldxbFhuWTZmS0lTZk5ROHp6SW82UzRZVkJCRGtzRnNwd2ltdU1lR3lVTkpoc0ZQOFhzYlE?oc=5
   seen_at: '2026-08-30T00:20:30Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxNYm02VlJja2hEd0FmemxLX2NlXzRtUUw3RXhENW9fRFkzcE9zVXlRNXh1S1pnaFJsc0M5d1ZqbXNDbmh2dnBSbU50S2tZanBoWHJzLWUtMm16VW9Ha2F2U2ZWbHJLbE9qSDJwaDRyWEJJTGw4TDRQdkdIaTlTTnJsUWZRLTB3eFpKN2FaVUJoeGtVc2ZnNi1naFVqWkozZlU?oc=5
+  seen_at: '2026-09-01T01:18:43Z'
   metrics: {}
   kind: news
 ---

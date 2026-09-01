@@ -22,8 +22,8 @@ canonical_url: https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machin
 summary: Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's
   CTO, led a brief stint at OpenAI and is now at Google.
 first_seen: '2026-08-27T19:52:52Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: market_context
+last_seen: '2026-09-01T01:18:10Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -55,29 +55,43 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.wired.com/story/google-maps-now-shows-lake-america-instead-of-lake-ontario/
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
-    points: 27
+    points: 28
     comments: 13
   kind: news
 - source: hackernews
   url: https://www.motherjones.com/politics/2026/08/google-lake-ontario-america-maps-rename-capitulation/
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
     points: 45
-    comments: 16
+    comments: 19
   kind: news
 - source: hackernews
   url: https://www.nytimes.com/2026/08/30/world/canada/lake-ontario-america-google-maps.html
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
-    points: 32
-    comments: 40
+    points: 36
+    comments: 47
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitwFBVV95cUxQeG10QldGa2NqcWdpT2NQRWxubGN5RGhFT00xSVFtWUd0Tk1jS09xdWVPSmFvWk1aY0VTUExwdlJYTDlxMHAxN25FUUxCM1dhemxHSXFEZXpCZ0Q3YmJNUTJTT3hMYlZhcUdEWEthSGRndUhXZXVMSTJHU2paVVRBSlRSZm9uLTNVVnNOSklRMzkwc2pFMnZ2WWkzek1RcUdhMnQxeVVqaGtfeERNRE9nOVR5THBTM1E?oc=5
   seen_at: '2026-08-31T17:38:59Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30/
+  seen_at: '2026-09-01T01:18:10Z'
+  metrics:
+    points: 37
+    comments: 13
+  kind: news
+- source: hackernews
+  url: https://www.macrumors.com/2026/08/31/google-maps-lake-america/
+  seen_at: '2026-09-01T01:18:10Z'
+  metrics:
+    points: 30
+    comments: 43
   kind: news
 ---
 

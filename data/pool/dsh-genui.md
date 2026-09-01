@@ -26,7 +26,7 @@ summary: 'GenUI for DeepSeek Harness: interactive UI components rendered inline 
   back to the model. Ships the fence-teaching host plugin, the browser renderer (client half), and the
   genui skill.'
 first_seen: '2026-08-13T13:07:52Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: analyzed
 sources:
 - github
@@ -41,9 +41,9 @@ sightings:
   kind: product
 - source: github
   url: https://omdsh-dev.github.io/dsh-genui/
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 383
+    stars: 384
     forks: 37
     open_issues: 3
   kind: product

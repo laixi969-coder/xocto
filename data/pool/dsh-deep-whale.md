@@ -20,18 +20,18 @@ url: https://github.com/Small-tailqwq/dsh-deep-whale
 canonical_url: https://github.com/Small-tailqwq/dsh-deep-whale
 summary: DSH Web 鲸鱼娘皮肤系列(深海女仆工坊 maid-atelier)——CC BY-NC-SA 4.0
 first_seen: '2026-08-13T13:02:14Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Small-tailqwq/dsh-deep-whale
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 1856
+    stars: 1860
     forks: 54
-    open_issues: 16
+    open_issues: 17
   kind: product
 ---
 

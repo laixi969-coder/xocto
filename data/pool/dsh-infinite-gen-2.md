@@ -21,7 +21,7 @@ canonical_url: https://deepseek.stream/plugins/dsh-infinite-gen-2
 summary: DeepSeek 专用破甲插件「无限二代」dsh-infinite-gen-2 — armor-breaking plugin for DeepSeek稳定化破甲提示词，求 Star 收藏
   ⭐
 first_seen: '2026-08-15T15:47:15Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: rejected
 sources:
 - github
@@ -36,11 +36,11 @@ sightings:
   kind: product
 - source: github
   url: https://deepseek.stream/plugins/dsh-infinite-gen-3
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 721
-    forks: 37
-    open_issues: 4
+    stars: 732
+    forks: 38
+    open_issues: 5
   kind: product
 ---
 

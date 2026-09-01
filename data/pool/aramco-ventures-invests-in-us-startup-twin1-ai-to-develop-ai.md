@@ -35,14 +35,19 @@ url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOb29uTVQtM0Rhd0RtVkVqeE
 canonical_url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOb29uTVQtM0Rhd0RtVkVqeEdmSFBfVzNIV3FIbENFWExPQU5BRTIzX1BWaG1ycC0yQklIbG1PYk95ZWNYTnVhemdoUTNJSzB3X01RalhfOXhORzIyUkZOM3hsbElkbC1VZFJYazE1ZXhieWxTZndFR3p6am1fdFhqeGtQWWZMOG1kV2F6bFVnTlVLbnlTcVdmSWxTbDU2Y1dXR2R5VGhQcDI0VUx1RnpUN2x3Y1JyN214N1JRdS11REx5ZHNfS1hJQkJReWxQZDBEaHJfNkcxWnNrd2VQV1E?oc=5
 summary: Aramco Ventures invests in US startup Twin1 AI to develop AI ‘worker clones’ People Matters Global
 first_seen: '2026-08-31T06:33:06Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: watching
+last_seen: '2026-09-01T01:18:43Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOb29uTVQtM0Rhd0RtVkVqeEdmSFBfVzNIV3FIbENFWExPQU5BRTIzX1BWaG1ycC0yQklIbG1PYk95ZWNYTnVhemdoUTNJSzB3X01RalhfOXhORzIyUkZOM3hsbElkbC1VZFJYazE1ZXhieWxTZndFR3p6am1fdFhqeGtQWWZMOG1kV2F6bFVnTlVLbnlTcVdmSWxTbDU2Y1dXR2R5VGhQcDI0VUx1RnpUN2x3Y1JyN214N1JRdS11REx5ZHNfS1hJQkJReWxQZDBEaHJfNkcxWnNrd2VQV1E?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa1JmblIyaXRySXR4cVJfdVpqcmQtTjNoUXozWlBCRU9CWlJxQlFLRk1id0F6Y0tuLUtYNTl2aEdBVzQzR1FTd285Y0otUVpvdmlkUFloSEhaN2t1VE5pa2U5WktfVnlkSjUwdEF4OHhqVXNMVVJTdC14Wlc5TWVNNXlYN1I3YUFWaUxYWTl1ZG9WWngwcmNTVVF2RTNEYmV4UWphX1dTNnhLemUxOWNQWU8ySldUQzlsNTRBMEJ3U0hIQjVCNW52NmpTTE5ucnc5b3dhU0Vta00?oc=5
+  seen_at: '2026-09-01T01:18:43Z'
   metrics: {}
   kind: news
 ---

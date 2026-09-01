@@ -32,8 +32,8 @@ url: https://github.com/DavidCarliez/cover
 canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
-last_seen: '2026-08-30T14:53:44Z'
-status: queued
+last_seen: '2026-09-01T01:18:41Z'
+status: pending_filter
 sources:
 - github
 - officialfeeds
@@ -71,6 +71,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5jQjJRWEh1aVBzZDJYUnBoM0JSMUdKZFhHMExkTm9GUXN3a1MtalRXZDFhNWd6Z1BQaVVEdG5fT3VFc1JKcVdCazR1Vkx4NXFPLTI4WU5VVjdNaEMzdXp2ZzJrcklEdw?oc=5
   seen_at: '2026-08-30T14:53:44Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Aug/31/andrew-digby/
+  seen_at: '2026-09-01T01:18:41Z'
   metrics: {}
   kind: news
 ---

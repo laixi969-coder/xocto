@@ -356,3 +356,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-d0b81af33d82bf3a
+  project_slug: argus
+  url: https://argustest.com
+  title: argus
+  published_at: '2026-08-17T19:04:41Z'
+  collected_at: '2026-09-01T01:18:14Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source AI QA agent. Argus tests web apps like a human tester would: visual navigation, real
+    workflows, evidence-backed reports. | repository stars: 42'

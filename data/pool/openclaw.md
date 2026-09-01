@@ -36,8 +36,8 @@ url: https://www.aicpb.com/product/OpenClaw/webid1D6F39F51
 canonical_url: https://aicpb.com/product/OpenClaw/webid1D6F39F51
 summary: 开创了 Claw 智能体品类
 first_seen: '2026-08-17T22:41:21Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: queued
+last_seen: '2026-09-01T01:18:10Z'
+status: pending_filter
 sources:
 - aicpb
 - marketfeeds
@@ -67,10 +67,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://openclaw.ai/blog/openclaw-2-accidentally
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
-    points: 136
-    comments: 165
+    points: 145
+    comments: 171
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqYTFsaUpjUG9XRXJ3NV9MRTdRWnhNb185akFPTzdDNS1uamVKRXluSzVhMUR4UWw4MGxFQVVpVXlscmgyZ1g3cEdmVW05WHFPcGdMT1JzYmU?oc=5

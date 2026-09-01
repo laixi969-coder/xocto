@@ -23,17 +23,17 @@ summary: ARTEMIS turns natural-language instructions into reliable Android autom
   such as Antigravity, Codex, and Claude Code. On the AndroidWorld benchmark, ARTEMIS achieves a success
   rate of over 99%.
 first_seen: '2026-08-13T17:59:37Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: market_context
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/google/artemis
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 132
-    forks: 16
+    stars: 134
+    forks: 17
     open_issues: 3
   kind: product
 ---

@@ -23,7 +23,7 @@ url: https://github.com/argus-testing/argus
 canonical_url: https://github.com/argus-testing/argus
 summary: agentic QA for teams whose coding agents move faster than QA
 first_seen: '2026-08-18T19:10:16Z'
-last_seen: '2026-08-30T00:20:08Z'
+last_seen: '2026-09-01T01:18:14Z'
 status: queued
 sources:
 - hackernews
@@ -38,9 +38,9 @@ sightings:
   kind: product
 - source: github
   url: https://argustest.com
-  seen_at: '2026-08-30T00:20:08Z'
+  seen_at: '2026-09-01T01:18:14Z'
   metrics:
-    stars: 41
+    stars: 42
     forks: 0
     open_issues: 0
   kind: product

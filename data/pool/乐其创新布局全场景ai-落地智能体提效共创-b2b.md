@@ -22,14 +22,19 @@ url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KQkVTcklqMTRYTTRBV1JtNn
 canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KQkVTcklqMTRYTTRBV1JtNnM4dEUxc0k4Yk9rUkVUM0xzX0oxTFdvRFJzLUZJeFlvWXFKUUNwUVNQS29tN3pXTUJxNzFKdnJiazF6eFBB?oc=5
 summary: 乐其创新布局全场景AI 落地智能体提效共创- B2B 亿邦动力网
 first_seen: '2026-08-31T04:47:06Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: market_context
+last_seen: '2026-09-01T01:18:43Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KQkVTcklqMTRYTTRBV1JtNnM4dEUxc0k4Yk9rUkVUM0xzX0oxTFdvRFJzLUZJeFlvWXFKUUNwUVNQS29tN3pXTUJxNzFKdnJiazF6eFBB?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZMDE5VGtsQVhnX2lndTNSUkl3bjRqaXlFWDVDV1BvQmZJUUZsbzVhdGJnUzAtM1Z2VWVlZUNrbXEwWXlnemdKUUd0a0xvMm1IdzhjMQ?oc=5
+  seen_at: '2026-09-01T01:18:43Z'
   metrics: {}
   kind: news
 ---

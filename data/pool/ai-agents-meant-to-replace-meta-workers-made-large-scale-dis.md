@@ -21,11 +21,12 @@ url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-inc
 canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
-last_seen: '2026-08-31T17:38:50Z'
-status: market_context
+last_seen: '2026-09-01T01:18:40Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
+- officialfeeds
 sightings:
 - source: marketfeeds
   url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/
@@ -39,14 +40,19 @@ sightings:
   kind: news
 - source: hackernews
   url: https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails
-  seen_at: '2026-08-31T17:38:26Z'
+  seen_at: '2026-09-01T01:18:10Z'
   metrics:
-    points: 57
-    comments: 58
+    points: 59
+    comments: 61
   kind: news
 - source: marketfeeds
   url: https://www.theverge.com/podcast/986661/ny-gov-kathy-hochul-ai-data-centers-ban-3d-printed-guns-flock-cameras
   seen_at: '2026-08-31T17:38:50Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://www.meta.com/blog/what-to-play-on-meta-quest-august-2026-recap/
+  seen_at: '2026-09-01T01:18:40Z'
   metrics: {}
   kind: news
 ---
