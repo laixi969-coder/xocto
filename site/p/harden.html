@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
 <title>Harden · x-octo</title>
-<meta name="description" content="Harden 提供编码代理安全解决方案，使用小型语言模型（SLM）和 IRM 技术检测和防御 AI 编码代理的安全威胁。开发者在部署 AI 编码代理时，将代理行为日志或代码提交交给 Harden 分析，它识别潜在漏洞或恶意行为并生成安全报告。具体流程和交付仍待核验。">
+<meta name="description" content="Harden 是一个面向编码 agent 的安全工具，使用小型语言模型和 IRM 技术检测和防御安全威胁，声称在基准测试中击败 GPT5.5-xhigh。具体工作流程和交付物仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/harden.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/harden.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/harden.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/harden.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Harden · x-octo">
-<meta property="og:description" content="Harden 提供编码代理安全解决方案，使用小型语言模型（SLM）和 IRM 技术检测和防御 AI 编码代理的安全威胁。开发者在部署 AI 编码代理时，将代理行为日志或代码提交交给 Harden 分析，它识别潜在漏洞或恶意行为并生成安全报告。具体流程和交付仍待核验。">
+<meta property="og:description" content="Harden 是一个面向编码 agent 的安全工具，使用小型语言模型和 IRM 技术检测和防御安全威胁，声称在基准测试中击败 GPT5.5-xhigh。具体工作流程和交付物仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/harden.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/harden.html#webpage", "@type": "WebPage", "description": "Harden \u63d0\u4f9b\u7f16\u7801\u4ee3\u7406\u5b89\u5168\u89e3\u51b3\u65b9\u6848\uff0c\u4f7f\u7528\u5c0f\u578b\u8bed\u8a00\u6a21\u578b\uff08SLM\uff09\u548c IRM \u6280\u672f\u68c0\u6d4b\u548c\u9632\u5fa1 AI \u7f16\u7801\u4ee3\u7406\u7684\u5b89\u5168\u5a01\u80c1\u3002\u5f00\u53d1\u8005\u5728\u90e8\u7f72 AI \u7f16\u7801\u4ee3\u7406\u65f6\uff0c\u5c06\u4ee3\u7406\u884c\u4e3a\u65e5\u5fd7\u6216\u4ee3\u7801\u63d0\u4ea4\u4ea4\u7ed9 Harden \u5206\u6790\uff0c\u5b83\u8bc6\u522b\u6f5c\u5728\u6f0f\u6d1e\u6216\u6076\u610f\u884c\u4e3a\u5e76\u751f\u6210\u5b89\u5168\u62a5\u544a\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Harden", "url": "https://xocto.vercel.app/p/harden.html"}, {"@id": "https://xocto.vercel.app/p/harden.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-01", "datePublished": "2026-08-28", "description": "Harden \u63d0\u4f9b\u7f16\u7801\u4ee3\u7406\u5b89\u5168\u89e3\u51b3\u65b9\u6848\uff0c\u4f7f\u7528\u5c0f\u578b\u8bed\u8a00\u6a21\u578b\uff08SLM\uff09\u548c IRM \u6280\u672f\u68c0\u6d4b\u548c\u9632\u5fa1 AI \u7f16\u7801\u4ee3\u7406\u7684\u5b89\u5168\u5a01\u80c1\u3002\u5f00\u53d1\u8005\u5728\u90e8\u7f72 AI \u7f16\u7801\u4ee3\u7406\u65f6\uff0c\u5c06\u4ee3\u7406\u884c\u4e3a\u65e5\u5fd7\u6216\u4ee3\u7801\u63d0\u4ea4\u4ea4\u7ed9 Harden \u5206\u6790\uff0c\u5b83\u8bc6\u522b\u6f5c\u5728\u6f0f\u6d1e\u6216\u6076\u610f\u884c\u4e3a\u5e76\u751f\u6210\u5b89\u5168\u62a5\u544a\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/harden.html#webpage"}, "name": "Harden", "sameAs": "https://harden.run/blog/aif-research-and-evidence", "url": "https://xocto.vercel.app/p/harden.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/harden.html", "name": "Harden", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/harden.html#webpage", "@type": "WebPage", "description": "Harden \u662f\u4e00\u4e2a\u9762\u5411\u7f16\u7801 agent \u7684\u5b89\u5168\u5de5\u5177\uff0c\u4f7f\u7528\u5c0f\u578b\u8bed\u8a00\u6a21\u578b\u548c IRM \u6280\u672f\u68c0\u6d4b\u548c\u9632\u5fa1\u5b89\u5168\u5a01\u80c1\uff0c\u58f0\u79f0\u5728\u57fa\u51c6\u6d4b\u8bd5\u4e2d\u51fb\u8d25 GPT5.5-xhigh\u3002\u5177\u4f53\u5de5\u4f5c\u6d41\u7a0b\u548c\u4ea4\u4ed8\u7269\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Harden", "url": "https://xocto.vercel.app/p/harden.html"}, {"@id": "https://xocto.vercel.app/p/harden.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-01", "datePublished": "2026-08-28", "description": "Harden \u662f\u4e00\u4e2a\u9762\u5411\u7f16\u7801 agent \u7684\u5b89\u5168\u5de5\u5177\uff0c\u4f7f\u7528\u5c0f\u578b\u8bed\u8a00\u6a21\u578b\u548c IRM \u6280\u672f\u68c0\u6d4b\u548c\u9632\u5fa1\u5b89\u5168\u5a01\u80c1\uff0c\u58f0\u79f0\u5728\u57fa\u51c6\u6d4b\u8bd5\u4e2d\u51fb\u8d25 GPT5.5-xhigh\u3002\u5177\u4f53\u5de5\u4f5c\u6d41\u7a0b\u548c\u4ea4\u4ed8\u7269\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/harden.html#webpage"}, "name": "Harden", "sameAs": "https://harden.run/blog/aif-research-and-evidence", "url": "https://xocto.vercel.app/p/harden.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/harden.html", "name": "Harden", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=a7d3c6707415">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -60,11 +60,11 @@
       <h1>Harden</h1>
     </div>
 
-    <p class="lede">Harden 提供编码代理安全解决方案，使用小型语言模型（SLM）和 IRM 技术检测和防御 AI 编码代理的安全威胁。开发者在部署 AI 编码代理时，将代理行为日志或代码提交交给 Harden 分析，它识别潜在漏洞或恶意行为并生成安全报告。具体流程和交付仍待核验。</p>
+    <p class="lede">Harden 是一个面向编码 agent 的安全工具，使用小型语言模型和 IRM 技术检测和防御安全威胁，声称在基准测试中击败 GPT5.5-xhigh。具体工作流程和交付物仍待核验。</p>
 
     <div class="meta">
 <span class="tag sig">还不是生意</span>      <span class="tag">刚冒头</span>
-<span class="tag">新应用 / 服务</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">安全工程师</span><span class="tag">AI 应用开发者</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 49</span>    </div>
+<span class="tag">新应用 / 服务</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">网络安全</span><span class="tag">安全工程师</span><span class="tag">AI 应用开发者</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 78</span>    </div>
 
     <div class="kv">
       <div><span>团队 / 作者</span><b>se4u</b></div>
@@ -92,7 +92,7 @@
       <div class="story-turn">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是 AI 编码代理普及后，安全审计成为刚需。切入可从安全审计服务或插件入手，面向使用 AI 编码代理的企业，按审计次数或代理数量收费，先验证检测准确率和误报率。</p>
+        <p>趋势是 AI agent 安全成为新赛道。切入可从为特定 agent 框架提供安全审计服务，但需验证其实际效果和市场需求。</p>
       </div>
 
       <div class="story-chapter">
@@ -115,7 +115,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是 AI 编码代理普及后，安全审计成为刚需。切入可从安全审计服务或插件入手，面向使用 AI 编码代理的企业，按审计次数或代理数量收费，先验证检测准确率和误报率。</p>
+        <p>趋势是 AI agent 安全成为新赛道。切入可从为特定 agent 框架提供安全审计服务，但需验证其实际效果和市场需求。</p>
       </div>
     </div>
 
@@ -200,10 +200,10 @@
   <section class="band">
     <div class="sec-head"><div><p class="eyebrow">证据链</p><h2>可核验公开证据</h2></div></div>
     <ul class="rows">
+      <li><a href="https://www.cppstories.com/2026/hardening-experiments/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">cppstories.com</span><span class="row-desc">market_signal</span><span class="row-tail">2026-08-31</span></div></a></li>
       <li><a href="https://en.wikipedia.org/wiki/James_Harden" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">en.wikipedia.org</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
       <li><a href="https://www.basketball-reference.com/players/h/hardeja01.html" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">basketball-reference.com</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
       <li><a href="https://www.espn.com/nba/player/stats/_/id/3992/james-harden" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">espn.com</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
-      <li><a href="https://www.cppstories.com/2026/hardening-experiments/" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">cppstories.com</span><span class="row-desc">market_signal</span><span class="row-tail">2026-08-31</span></div></a></li>
       <li><a href="https://en.m.wikipedia.org/wiki/James_Harden" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">en.m.wikipedia.org</span><span class="row-desc">用户痛点</span><span class="row-tail"></span></div></a></li>
       <li><a href="https://baike.baidu.com/item/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E5%93%88%E7%99%BB/745489" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">詹姆斯·哈登_百度百科</span><span class="row-desc">用户痛点 · 詹姆斯·哈登（James Harden），全名小詹姆斯·爱德华多·哈登（James Edward Harden,Jr.），男，1989年8月26日出生于美国加利福尼亚州洛杉矶，美国篮球运动员，司职后卫，效力于NBA克利夫兰骑士队。 2003年夏天，哈登进入莱克伍德阿迪西亚高中读书。</span><span class="row-tail"></span></div></a></li>
       <li><a href="https://zh.m.wikipedia.org/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E5%93%88%E7%99%BB" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">詹姆斯·哈登 - 维基百科，自由的百科全书</span><span class="row-desc">用户痛点 · 此 生者传记 条目需要补充更多 可供查證 的 来源。 2019年12月30日 此條目體裁或許。 ... 小詹姆斯·愛德華·哈登 （英語： James Edward Harden Jr.，1989年8月26日—），出生於 美國 加利福尼亞州 洛杉磯，為美國職業 籃球 運動員，主打 雙能衛，現效力于 克里夫蘭騎士。</span><span class="row-tail"></span></div></a></li>
@@ -229,7 +229,7 @@
     <div class="sec-head">
       <h2>同类产品</h2>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 256 个 →
+        AI + 开发 共 262 个 →
       </a>
     </div>
     <ul class="rows">
@@ -276,14 +276,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/cyber-cloud-skills.html">
+      <a class="pager-item pager-prev" href="../p/private-house-code-v25.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">cyber-cloud-skills</span>
+        <span class="pager-n">private-house-code-v2.5</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/index.html">
+      <a class="pager-item pager-next" href="../p/openflow.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">Mintlify Index</span>
+        <span class="pager-n">OpenFlow</span>
       </a>
     </div>
   </nav>
@@ -322,7 +322,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>868 个案例 · 179 份生意判断</span>
+    <span>886 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-01</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
