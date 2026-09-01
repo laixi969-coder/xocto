@@ -22,17 +22,17 @@ url: https://fellowgeek.github.io/mcp-speak/
 canonical_url: https://fellowgeek.github.io/mcp-speak
 summary: What Happens When You Give Your AI Agents a Voice and an Attitude
 first_seen: '2026-08-31T14:55:08Z'
-last_seen: '2026-09-01T01:18:10Z'
+last_seen: '2026-09-01T14:55:58Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://fellowgeek.github.io/mcp-speak/
-  seen_at: '2026-09-01T01:18:10Z'
+  seen_at: '2026-09-01T14:55:58Z'
   metrics:
     points: 9
-    comments: 1
+    comments: 5
   kind: product
 ---
 

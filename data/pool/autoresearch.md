@@ -28,17 +28,17 @@ url: https://github.com/EvoMap/AutoResearch
 canonical_url: https://github.com/EvoMap/AutoResearch
 summary: AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.
 first_seen: '2026-08-15T07:48:42Z'
-last_seen: '2026-09-01T01:18:14Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/EvoMap/AutoResearch
-  seen_at: '2026-09-01T01:18:14Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 201
-    forks: 16
+    stars: 222
+    forks: 20
     open_issues: 0
   kind: product
 ---

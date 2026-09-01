@@ -20,18 +20,18 @@ url: https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget
 canonical_url: https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget
 summary: DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装
 first_seen: '2026-08-18T03:13:51Z'
-last_seen: '2026-09-01T01:18:14Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget
-  seen_at: '2026-09-01T01:18:14Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 1493
+    stars: 1548
     forks: 56
-    open_issues: 22
+    open_issues: 23
   kind: product
 ---
 

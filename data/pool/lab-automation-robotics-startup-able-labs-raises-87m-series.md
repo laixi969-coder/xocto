@@ -32,8 +32,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-01T01:18:40Z'
-status: queued
+last_seen: '2026-09-01T14:56:27Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -46,6 +46,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/fx-ai-sdk-harness-adapter
   seen_at: '2026-09-01T01:18:40Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise
+  seen_at: '2026-09-01T14:56:27Z'
   metrics: {}
   kind: news
 ---

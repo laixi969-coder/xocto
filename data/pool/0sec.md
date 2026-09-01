@@ -33,17 +33,17 @@ canonical_url: https://docs.0.security
 summary: '[RESEARCH PREVIEW] The open & extensible cybersecurity harness - by the Swiss Applied AI Cybersecurity
   Research Lab.'
 first_seen: '2026-08-19T07:54:37Z'
-last_seen: '2026-09-01T01:18:14Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://docs.0.security
-  seen_at: '2026-09-01T01:18:14Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 50
-    forks: 5
+    stars: 56
+    forks: 6
     open_issues: 1
   kind: product
 ---

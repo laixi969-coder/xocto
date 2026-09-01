@@ -1,0 +1,19 @@
+- id: ev-4f2a6683ed9a118e
+  project_slug: community
+  url: https://www.v2ex.com/t/1238638
+  title: 第一次开发 Obsidian 插件：写了一个 Markdown 表格转置小工具
+  published_at: '2026-09-01T04:47:57Z'
+  collected_at: '2026-09-01T14:55:55Z'
+  source_kind: product
+  tier: independent
+  fact: "昨天晚上用 AI 从 0 开始 2 小时就完成了一个插件的开发，用于表格转置的插件，希望对你们有用！\r\n\r\n我不想重复写正文了，正文说明就偷懒从 blog 粘贴了过来，对这个工具有想法的可以直接评论区留言:\r\
+    \n\r\n---\r\n\r\n最近我第一次尝试开发了一款 Obsidian 插件， 项目叫 `OB Toolbox`，  \r\n昨天晚上已经上架到官方的插件市场，获取方式:  \r\n> 打开\
+    \ obsidian → 设置 → 第三方插件 → 社区插件市场 → 搜索 `md toolbox` 后安装\r\n\r\n对应的项目地址:  \r\n[obsidian 插件页]( https://community.obsidian.md/plugins/ob-toolbox)\
+    \  | [github 主页]( https://github.com/Knowckx/ob-toolbox)\r\n\r\n目前的话只加入了一个功能：**转置 Markdown 表格**。\r\
+    \n\r\n\r\n## 为什么要做这个插件\r\n\r\n自从把 Obsidian 作为主力笔记工具之后，我越来越喜欢用 Markdown 管理自己的笔记。\r\n\r\n除了同步有一点麻烦，Obsidian\
+    \ 综合来说应该是目前最好的笔记产品？ 反正我对比过很多了，全部各有各的问题。\r\n\r\n但 Obsidian 对 Markdown 表格的支持，始终没有那么完善。平时查看和简单编辑没什么问题，一旦需要做稍微复杂一点的处理，就会发现缺少很多顺手的小工具。\r\
+    \n\r\n我经常遇到的一个需求，就是**转置表格**。\r\n\r\n例如，把下面这个三行表格：\r\n\r\n| A | 1 |\r\n| --- | --- |\r\n| B | 2 |\r\
+    \n| C | 3 |\r\n\r\n转置成：\r\n\r\n| A | B | C |\r\n| --- | --- | --- |\r\n| 1 | 2 | 3 |\r\n\r\n\r\n这个功能源于我对编辑空间利用率的一点执着：\r\
+    \n\r\n> 我总是希望尽可能减少内容占用的行数，更充分地利用横向编辑区域。\r\n\r\n有没有人和我一样...哈哈\r\n\r\n过去我的处理方式很直接：\r\n\r\n复制表格 → 发给\
+    \ AI → 要求 AI 转置 → 再复制回 Obsidian\r\n\r\n当然能用，但一来一回还是有点麻烦。\r\n\r\n正好我还有其他想加的小功能，这次干脆给自己写了一个插件。\r\n\r\
+    \n## 使用方法\r\n用户侧的使用"

@@ -35,16 +35,16 @@ url: https://github.com/Devin-AXIS/iPolloWork
 canonical_url: https://github.com/Devin-AXIS/iPolloWork
 summary: DeepSeek Harness 可编辑设计系统：AI 生成、可视化编辑、模板市场与 PPT｜Native Design & PPT Studio for DeepSeek Harness.
 first_seen: '2026-08-15T13:08:53Z'
-last_seen: '2026-09-01T01:18:14Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Devin-AXIS/iPolloWork
-  seen_at: '2026-09-01T01:18:14Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 643
+    stars: 667
     forks: 140
     open_issues: 4
   kind: product

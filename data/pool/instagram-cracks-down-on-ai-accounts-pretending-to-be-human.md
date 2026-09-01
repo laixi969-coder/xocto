@@ -24,14 +24,25 @@ summary: Instagram is finally taking steps to address the rise of fake AI-influe
   clear when a profile features an AI-generated person that's not a real human being. "We've heard that
   people don't like seeing a profile […]
 first_seen: '2026-08-31T13:00:00Z'
-last_seen: '2026-09-01T01:18:41Z'
-status: market_context
+last_seen: '2026-09-01T14:56:33Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop
   seen_at: '2026-09-01T01:18:41Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/
+  seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVHNpdzNDcTJ0aWh6X1g5SXRjVWZtcHd3TXJEWElZb0dGSElfWVRHd3NQS0dzcl9CQWQzWkdKQ0lXRlpVbDlVMUtGSG1hM2E1R1dEUHhpX2NMZWhzbV9UZ1M5dFVGWmItTkxmUVcwQlN4eTBud25DaXQweWM1cXQ5XzBFX092dEFPMUhZ?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
   metrics: {}
   kind: news
 ---

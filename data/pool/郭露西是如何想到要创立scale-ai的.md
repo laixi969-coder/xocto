@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-08-31T17:38:50Z'
-status: watching
+last_seen: '2026-09-01T14:56:29Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -44,6 +44,21 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/
   seen_at: '2026-08-31T17:38:50Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/01/instarc-raises-eur125m-to-scale-its-cloud-native-compliance-platform/
+  seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/01/inleap-photonics-raises-eur20m-to-expand-laser-counter-drone-systems/
+  seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/01/xorlab-secures-eur5m-to-scale-its-email-security-platform-across-europe/
+  seen_at: '2026-09-01T14:56:29Z'
   metrics: {}
   kind: news
 ---

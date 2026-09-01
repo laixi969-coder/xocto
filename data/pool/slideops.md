@@ -30,16 +30,16 @@ url: https://github.com/glukicov/slideops
 canonical_url: https://github.com/glukicov/slideops
 summary: slides from a repo that flag when they drift from the code
 first_seen: '2026-08-31T12:15:10Z'
-last_seen: '2026-09-01T01:18:10Z'
+last_seen: '2026-09-01T14:55:58Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/glukicov/slideops
-  seen_at: '2026-09-01T01:18:10Z'
+  seen_at: '2026-09-01T14:55:58Z'
   metrics:
-    points: 19
+    points: 21
     comments: 5
   kind: product
 ---

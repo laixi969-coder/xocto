@@ -36,17 +36,17 @@ summary: The open-source design agent and harness, better than Claude Design on 
   artifacts production. This DesignHarness can also be used with any coding harness you like ( Codex/Claude
   Code/Kimi Code/Pi/OpenCode etc..) and any agentic model you want.
 first_seen: '2026-08-14T02:38:45Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://autodesign.designanything.ai/
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 184
-    forks: 10
+    stars: 186
+    forks: 11
     open_issues: 0
   kind: product
 ---

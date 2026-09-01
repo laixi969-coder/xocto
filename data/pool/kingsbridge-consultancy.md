@@ -20,17 +20,17 @@ url: https://kingsbridge-consultancy.com/md-viewer/
 canonical_url: https://kingsbridge-consultancy.com/md-viewer
 summary: Markdown Viewer and Editor
 first_seen: '2026-08-31T20:55:03Z'
-last_seen: '2026-09-01T01:18:10Z'
+last_seen: '2026-09-01T14:55:58Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kingsbridge-consultancy.com/md-viewer/
-  seen_at: '2026-09-01T01:18:10Z'
+  seen_at: '2026-09-01T14:55:58Z'
   metrics:
-    points: 16
-    comments: 6
+    points: 30
+    comments: 17
   kind: product
 ---
 

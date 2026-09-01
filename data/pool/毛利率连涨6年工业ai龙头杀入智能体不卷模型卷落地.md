@@ -1,0 +1,41 @@
+---
+slug: 毛利率连涨6年工业ai龙头杀入智能体不卷模型卷落地
+name: 毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWXM4TVlSakZMSTlGSGJMVWFwcG4tY2k3MzFDdFFCdXIyU3JjeWtjdW9kNV9pZ2d5T1R3SkY5T3MzNGQ1NUR4S3FJRkF3cTVBc3RyVHhCbEVhamQ0aGVBSGphQzg5RVZjcVlGMVJJeHlhamtPZW5oVjVSSlZYYUU?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWXM4TVlSakZMSTlGSGJMVWFwcG4tY2k3MzFDdFFCdXIyU3JjeWtjdW9kNV9pZ2d5T1R3SkY5T3MzNGQ1NUR4S3FJRkF3cTVBc3RyVHhCbEVhamQ0aGVBSGphQzg5RVZjcVlGMVJJeHlhamtPZW5oVjVSSlZYYUU?oc=5
+summary: 毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地 新浪网
+first_seen: '2026-09-01T08:10:50Z'
+last_seen: '2026-09-01T14:56:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWXM4TVlSakZMSTlGSGJMVWFwcG4tY2k3MzFDdFFCdXIyU3JjeWtjdW9kNV9pZ2d5T1R3SkY5T3MzNGQ1NUR4S3FJRkF3cTVBc3RyVHhCbEVhamQ0aGVBSGphQzg5RVZjcVlGMVJJeHlhamtPZW5oVjVSSlZYYUU?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+---
+
+# 毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地
+
+毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地 新浪网
+
+## 笔记
+
+

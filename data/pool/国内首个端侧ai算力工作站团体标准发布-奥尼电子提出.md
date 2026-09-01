@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UX3JyRE83UFNYMlBLM1dMX3
 canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UX3JyRE83UFNYMlBLM1dMX3Z0M21SNTBZMHRhYUgtd1luX0FoR0loenFXTlpDd015a3B6M0ZXek93UXVLajhFem1WLUtMSXZOb3NHUlhlOTdHb1YxUFBXQ0J3?oc=5
 summary: 国内首个端侧AI算力工作站团体标准发布 奥尼电子提出 观点网
 first_seen: '2026-08-27T06:48:57Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: market_context
+last_seen: '2026-09-01T14:56:33Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -35,6 +35,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBLdzYteWhCYUt6ejJRNVl0YXBmUWt5OHpNVHpVOUZ2Z01RVVltYUI4Mk0zb2VpTzREX2dobmVxN3YwMEtpNWIyamNpSEhOa2FHRG5oNGYyRFU3NDU0blRUMg?oc=5
   seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggFBVV95cUxPTEQxTk5lcXhSZEVNVmdnMHNqRGZhZzN1TW56ZHBUMG4yTmlWYTJQRU5XTHJ1T0FsNzhIZC1GeFl6UDg5Z3ZUYzF5WWpqeDFPdmF1dVUxdWpXQUdaa2pRU01kV25RVThhc25zeEhET3ZaVy0zMV9zclpUOEk0V0VtakN3?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
   metrics: {}
   kind: news
 ---

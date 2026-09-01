@@ -1,0 +1,42 @@
+---
+slug: ai-startup-manus-resumes-independent-operations-after-china
+name: AI startup Manus resumes independent operations after China blocks Meta’s $2 billion deal
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbzhXby1ldDFYZnIydFl6RW1MNUV3ZWVHXzhYN2FfazVtM0ZJR2k5c2hpTTlMUWIwSWRvbzlSRHN2Zm1EczB4SUxuMV8xc1RIU2REV3VIcUhNb05ISDU4dW90b1VXYWxjRDJQMkdUVDdwZWkyNVFuNFVnRW5iV0FtTkx0UnJ0ZjJDRWhEZDdyNFE1MmZRZ0JTUTlvYmR5VmItX3hhYlk5cHp5QVVZNW05TTFaR1NSSXFpNTZveC1aWk5yM1VzSXdsWVlkZGg4T0wxRml6dUNFaVVHREpCVk40OTlSS1M1UXJLWUFNddIB8gFBVV95cUxOVHJnMEktNzl6dTlqeVIxUGNWUUkzaVg1OXQ1eVh4ckVTbHZrNU1wUHZacEtRd1pfdmE5Zmd3NUNUQzJjb1NMVEZ6SEY2aXVwSnNweDN1S05OV2FOalZWNGhjNEZnSTBXTEtpanllSjBpaGdBLXFfS0FOY0t3TTJZRlQ4VGZGeDlEcW82RkV5ZTM1cUk2Y2thVnlQcU9UaEpwR1BsaDhtSzl6X3BsNlQ1dmRJR0VjZ3VHcm1DeG5ZRHZNcW1UWVQwRjIxME1jR0ZFaURISkJYNU1kdWk5UG56SUpuaWtQa2hTU2pnbjhPMkxiUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbzhXby1ldDFYZnIydFl6RW1MNUV3ZWVHXzhYN2FfazVtM0ZJR2k5c2hpTTlMUWIwSWRvbzlSRHN2Zm1EczB4SUxuMV8xc1RIU2REV3VIcUhNb05ISDU4dW90b1VXYWxjRDJQMkdUVDdwZWkyNVFuNFVnRW5iV0FtTkx0UnJ0ZjJDRWhEZDdyNFE1MmZRZ0JTUTlvYmR5VmItX3hhYlk5cHp5QVVZNW05TTFaR1NSSXFpNTZveC1aWk5yM1VzSXdsWVlkZGg4T0wxRml6dUNFaVVHREpCVk40OTlSS1M1UXJLWUFNddIB8gFBVV95cUxOVHJnMEktNzl6dTlqeVIxUGNWUUkzaVg1OXQ1eVh4ckVTbHZrNU1wUHZacEtRd1pfdmE5Zmd3NUNUQzJjb1NMVEZ6SEY2aXVwSnNweDN1S05OV2FOalZWNGhjNEZnSTBXTEtpanllSjBpaGdBLXFfS0FOY0t3TTJZRlQ4VGZGeDlEcW82RkV5ZTM1cUk2Y2thVnlQcU9UaEpwR1BsaDhtSzl6X3BsNlQ1dmRJR0VjZ3VHcm1DeG5ZRHZNcW1UWVQwRjIxME1jR0ZFaURISkJYNU1kdWk5UG56SUpuaWtQa2hTU2pnbjhPMkxiUQ?oc=5
+summary: AI startup Manus resumes independent operations after China blocks Meta’s $2 billion deal The
+  Economic Times
+first_seen: '2026-09-01T06:31:32Z'
+last_seen: '2026-09-01T14:56:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbzhXby1ldDFYZnIydFl6RW1MNUV3ZWVHXzhYN2FfazVtM0ZJR2k5c2hpTTlMUWIwSWRvbzlSRHN2Zm1EczB4SUxuMV8xc1RIU2REV3VIcUhNb05ISDU4dW90b1VXYWxjRDJQMkdUVDdwZWkyNVFuNFVnRW5iV0FtTkx0UnJ0ZjJDRWhEZDdyNFE1MmZRZ0JTUTlvYmR5VmItX3hhYlk5cHp5QVVZNW05TTFaR1NSSXFpNTZveC1aWk5yM1VzSXdsWVlkZGg4T0wxRml6dUNFaVVHREpCVk40OTlSS1M1UXJLWUFNddIB8gFBVV95cUxOVHJnMEktNzl6dTlqeVIxUGNWUUkzaVg1OXQ1eVh4ckVTbHZrNU1wUHZacEtRd1pfdmE5Zmd3NUNUQzJjb1NMVEZ6SEY2aXVwSnNweDN1S05OV2FOalZWNGhjNEZnSTBXTEtpanllSjBpaGdBLXFfS0FOY0t3TTJZRlQ4VGZGeDlEcW82RkV5ZTM1cUk2Y2thVnlQcU9UaEpwR1BsaDhtSzl6X3BsNlQ1dmRJR0VjZ3VHcm1DeG5ZRHZNcW1UWVQwRjIxME1jR0ZFaURISkJYNU1kdWk5UG56SUpuaWtQa2hTU2pnbjhPMkxiUQ?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+---
+
+# AI startup Manus resumes independent operations after China blocks Meta’s $2 billion deal
+
+AI startup Manus resumes independent operations after China blocks Meta’s $2 billion deal The Economic Times
+
+## 笔记
+
+

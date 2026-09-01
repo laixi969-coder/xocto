@@ -34,17 +34,17 @@ canonical_url: https://github.com/beiyege-01/dsh-voice-ai-girlfriend
 summary: 语音 AI 女友（Voice AI girlfriend for DeepSeek Harness）：Whisper 语音输入 + Qwen3-TTS 声音克隆 + 句子级流式朗读 +
   数字人动画窗。插话/排队双模式，说话即打断。
 first_seen: '2026-08-15T15:16:37Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/beiyege-01/dsh-voice-ai-girlfriend
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 56
-    forks: 15
+    stars: 60
+    forks: 17
     open_issues: 0
   kind: product
 ---

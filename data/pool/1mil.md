@@ -30,10 +30,11 @@ url: https://1mil.app/
 canonical_url: https://1mil.app
 summary: My startup-idea scanner scored 500 ideas; the best got 6.3/10
 first_seen: '2026-08-30T11:35:01Z'
-last_seen: '2026-08-31T17:38:26Z'
-status: watching
+last_seen: '2026-09-01T14:56:29Z'
+status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://1mil.app/
@@ -42,6 +43,11 @@ sightings:
     points: 7
     comments: 4
   kind: product
+- source: marketfeeds
+  url: https://tech.eu/2026/09/01/id-finance-secures-eur21m-from-nordix-to-grow-its-spanish-lending-business/
+  seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
 ---
 
 # 1mil

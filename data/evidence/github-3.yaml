@@ -15,3 +15,12 @@
     \ + 把关」。\r\n\r\n产品本身是个 macOS 菜单栏系统监控，核心思路是「每个程序可以有自己的告警线」——浏览器允许吃 200% CPU ，但某个后台守护进程超 30% 就该吱声。另外有进程树聚合（浏览器\
     \ 37 个 helper 合并算账）、慢性占用检测（长期 25% 但从不越线的进程也会被点名）、基于 Spotlight 索引的大文件秒查和可再生缓存清理。清理只走废纸篓、退出进程只发 ⌘Q 级别的请求，不搞\
     \ `rm -rf` 和 SIGKILL 。\r\n\r\nRust + GPUI 原生实现，Apache-2.0 开源，签名公证过的通用二进制。\r\n\r\n![]( https://i.imgur.com/7SvNgDl.png)"
+- id: ev-d2601475779806db
+  project_slug: github-3
+  url: https://www.qbitai.com/2026/09/482469.html
+  title: GitHub最热架构图Agent，开发者故事看哭了
+  published_at: '2026-09-01T08:26:54Z'
+  collected_at: '2026-09-01T14:56:29Z'
+  source_kind: market_signal
+  tier: independent
+  fact: 美观且支持实时更新的架构图，也能用AI一键生成了！

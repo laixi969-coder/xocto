@@ -20,17 +20,17 @@ url: http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writ
 canonical_url: https://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html
 summary: The safest job from AI may be writing
 first_seen: '2026-08-31T18:12:20Z'
-last_seen: '2026-09-01T01:18:10Z'
-status: rejected
+last_seen: '2026-09-01T14:55:58Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html
-  seen_at: '2026-09-01T01:18:10Z'
+  seen_at: '2026-09-01T14:55:58Z'
   metrics:
-    points: 100
-    comments: 136
+    points: 140
+    comments: 193
   kind: news
 ---
 

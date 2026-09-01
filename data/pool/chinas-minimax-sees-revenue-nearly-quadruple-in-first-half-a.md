@@ -32,11 +32,12 @@ url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9XTVRCWWZFSD
 canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9XTVRCWWZFSDFzLVhwdTI0NEhzRjJSTnpkWG00d1FWNElMTE11Qldvd1JzMHFEMzFySVh4eWI1b1NXUDNJc01tbmtBSGVjVm04X0Rrekp5VUE3WlZaaW8zUExqLU5JMDdrU0pEeGdTNVJ0aDU5RzR0TXJvbVoxRWJ4ZS1HYXYtaWh2aVd4QnB1dndTYXhUN052WEIwcXQtRHVXTE5CRmc?oc=5
 summary: China’s MiniMax sees revenue nearly quadruple in first half as AI demand surges WTVB
 first_seen: '2026-08-26T11:23:49Z'
-last_seen: '2026-08-31T00:37:41Z'
+last_seen: '2026-09-01T14:56:29Z'
 status: pending_filter
 sources:
 - newssearch
 - officialfeeds
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPT0cwcUhlRG9XTVRCWWZFSDFzLVhwdTI0NEhzRjJSTnpkWG00d1FWNElMTE11Qldvd1JzMHFEMzFySVh4eWI1b1NXUDNJc01tbmtBSGVjVm04X0Rrekp5VUE3WlZaaW8zUExqLU5JMDdrU0pEeGdTNVJ0aDU5RzR0TXJvbVoxRWJ4ZS1HYXYtaWh2aVd4QnB1dndTYXhUN052WEIwcXQtRHVXTE5CRmc?oc=5
@@ -51,6 +52,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway
   seen_at: '2026-08-31T00:37:41Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/482512.html
+  seen_at: '2026-09-01T14:56:29Z'
   metrics: {}
   kind: news
 ---

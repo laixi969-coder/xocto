@@ -20,14 +20,19 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeEphTkVnUFp6cGhXaGtud0
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeEphTkVnUFp6cGhXaGtud093cFgtbG9lUGpmV1czLVZWUzJydW1reksyb1ZUb29MdDdRcktIUFJRQlFSLVU0Q3hTNm1rR1l4WVJiODlMYWxhTDFwMU1OQ1N2WnFFalAyU1pjUVhKRHg1ZjJHcjcwNUo3VkhyUWFmd0wxUHIzREZT?oc=5
 summary: 三大调研报告揭示企业落地智能体AI的共同困境 sohu.com
 first_seen: '2026-08-31T14:01:00Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: rejected
+last_seen: '2026-09-01T14:56:33Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeEphTkVnUFp6cGhXaGtud093cFgtbG9lUGpmV1czLVZWUzJydW1reksyb1ZUb29MdDdRcktIUFJRQlFSLVU0Q3hTNm1rR1l4WVJiODlMYWxhTDFwMU1OQ1N2WnFFalAyU1pjUVhKRHg1ZjJHcjcwNUo3VkhyUWFmd0wxUHIzREZT?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxcFdjTnQ5ODh4djdDaUt6ZEUzUGxPcHZxZU9UUU5fUFgySmw0akxPWDFoUU12VDdyOTFNMEVicm1saHJzMkdZMlZxaUNUV0YwdXgwb0VBSGVRWG5HdmZ1Tw?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
   metrics: {}
   kind: news
 ---

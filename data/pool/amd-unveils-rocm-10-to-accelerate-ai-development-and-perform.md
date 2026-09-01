@@ -1,0 +1,41 @@
+---
+slug: amd-unveils-rocm-10-to-accelerate-ai-development-and-perform
+name: AMD Unveils ROCm 10 to Accelerate AI Development and Performance
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMisAFBVV95cUxObTZZeWI3MHpSSHVuLWU1blRwTVJWSzZUYjlWZ2NfWFZpSVhEUzNQNTdYOF9ZMlQyNUtiN2k2ZkpoQkpFSmJpRGpFMThrYVhfT2ZrcnQ0QTQ0Y1gzSnVTUWl5NGxyd3dsY29WXzFXd0ppUzZHVC16T2Izai1KZDJrWjVpb3gtbzVOdUVaUFZ3ZUx3OVdMRDBkUm5OLTBKYm1lb1FWOFVLYUVaNFpKU01sedIBsAFBVV95cUxObTZZeWI3MHpSSHVuLWU1blRwTVJWSzZUYjlWZ2NfWFZpSVhEUzNQNTdYOF9ZMlQyNUtiN2k2ZkpoQkpFSmJpRGpFMThrYVhfT2ZrcnQ0QTQ0Y1gzSnVTUWl5NGxyd3dsY29WXzFXd0ppUzZHVC16T2Izai1KZDJrWjVpb3gtbzVOdUVaUFZ3ZUx3OVdMRDBkUm5OLTBKYm1lb1FWOFVLYUVaNFpKU01seQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxObTZZeWI3MHpSSHVuLWU1blRwTVJWSzZUYjlWZ2NfWFZpSVhEUzNQNTdYOF9ZMlQyNUtiN2k2ZkpoQkpFSmJpRGpFMThrYVhfT2ZrcnQ0QTQ0Y1gzSnVTUWl5NGxyd3dsY29WXzFXd0ppUzZHVC16T2Izai1KZDJrWjVpb3gtbzVOdUVaUFZ3ZUx3OVdMRDBkUm5OLTBKYm1lb1FWOFVLYUVaNFpKU01sedIBsAFBVV95cUxObTZZeWI3MHpSSHVuLWU1blRwTVJWSzZUYjlWZ2NfWFZpSVhEUzNQNTdYOF9ZMlQyNUtiN2k2ZkpoQkpFSmJpRGpFMThrYVhfT2ZrcnQ0QTQ0Y1gzSnVTUWl5NGxyd3dsY29WXzFXd0ppUzZHVC16T2Izai1KZDJrWjVpb3gtbzVOdUVaUFZ3ZUx3OVdMRDBkUm5OLTBKYm1lb1FWOFVLYUVaNFpKU01seQ?oc=5
+summary: AMD Unveils ROCm 10 to Accelerate AI Development and Performance digital terminal
+first_seen: '2026-08-31T09:23:00Z'
+last_seen: '2026-09-01T14:56:33Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisAFBVV95cUxObTZZeWI3MHpSSHVuLWU1blRwTVJWSzZUYjlWZ2NfWFZpSVhEUzNQNTdYOF9ZMlQyNUtiN2k2ZkpoQkpFSmJpRGpFMThrYVhfT2ZrcnQ0QTQ0Y1gzSnVTUWl5NGxyd3dsY29WXzFXd0ppUzZHVC16T2Izai1KZDJrWjVpb3gtbzVOdUVaUFZ3ZUx3OVdMRDBkUm5OLTBKYm1lb1FWOFVLYUVaNFpKU01sedIBsAFBVV95cUxObTZZeWI3MHpSSHVuLWU1blRwTVJWSzZUYjlWZ2NfWFZpSVhEUzNQNTdYOF9ZMlQyNUtiN2k2ZkpoQkpFSmJpRGpFMThrYVhfT2ZrcnQ0QTQ0Y1gzSnVTUWl5NGxyd3dsY29WXzFXd0ppUzZHVC16T2Izai1KZDJrWjVpb3gtbzVOdUVaUFZ3ZUx3OVdMRDBkUm5OLTBKYm1lb1FWOFVLYUVaNFpKU01seQ?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+---
+
+# AMD Unveils ROCm 10 to Accelerate AI Development and Performance
+
+AMD Unveils ROCm 10 to Accelerate AI Development and Performance digital terminal
+
+## 笔记
+
+

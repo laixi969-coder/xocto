@@ -277,3 +277,14 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 软件工程师 技术负责人'
+- id: ev-1d69ce14f14410d1
+  project_slug: procoder
+  url: https://procoder.azrty.com/
+  title: procoder
+  published_at: '2026-08-16T07:47:17Z'
+  collected_at: '2026-09-01T14:56:02Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Senior-developer discipline for AI coding agents. A commit gate that counts unchecked as failing,
+    quality controllers that refuse to call unfinished work done, and a lessons loop that closes each
+    escaped bug''s class. One Go binary, no runtime deps, works with 20+ agents. | repository stars: 198'

@@ -35,16 +35,16 @@ summary: 'VibeGame: Vibe Your Dream Game -- An open-source self-evolving multi-a
   AI-Native game engine that turns your natural language into a fully playable 2D web game and edit it
   any way you want, built on Claude Code & Codex.'
 first_seen: '2026-08-12T14:13:38Z'
-last_seen: '2026-09-01T01:18:14Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://vibegame.tettet.org/
-  seen_at: '2026-09-01T01:18:14Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 156
+    stars: 170
     forks: 10
     open_issues: 0
   kind: product

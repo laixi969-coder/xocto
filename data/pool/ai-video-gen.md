@@ -20,10 +20,11 @@ url: https://github.com/ExecutiveExcite/ai-video-gen
 canonical_url: https://github.com/ExecutiveExcite/ai-video-gen
 summary: Best AI Generating Free Video and Images! Get For Free - https://aireview.fun/paras
 first_seen: '2026-08-18T12:19:22Z'
-last_seen: '2026-08-30T14:53:20Z'
-status: rejected
+last_seen: '2026-09-01T14:56:29Z'
+status: pending_filter
 sources:
 - github
+- marketfeeds
 sightings:
 - source: github
   url: https://github.com/ExecutiveExcite/ai-video-gen
@@ -33,6 +34,11 @@ sightings:
     forks: 0
     open_issues: 0
   kind: product
+- source: marketfeeds
+  url: https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the
+  seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
 ---
 
 # ai-video-gen

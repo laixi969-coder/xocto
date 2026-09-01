@@ -34,16 +34,16 @@ url: https://github.com/CattleZ/dance-video-to-prompt
 canonical_url: https://github.com/CattleZ/dance-video-to-prompt
 summary: 本地短视频反推 AI 视频生成提示词：抽帧、清晰度、节奏卡点、Agent Skill
 first_seen: '2026-08-17T06:32:34Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CattleZ/dance-video-to-prompt
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 135
+    stars: 137
     forks: 1
     open_issues: 0
   kind: product

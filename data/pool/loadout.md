@@ -21,16 +21,16 @@ canonical_url: https://loadout.migsilva.dev
 summary: See and manage what your coding assistants load — skills, commands, subagents, plugins and MCP
   servers, with real usage.
 first_seen: '2026-08-15T21:58:45Z'
-last_seen: '2026-09-01T01:18:14Z'
+last_seen: '2026-09-01T14:56:02Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://loadout.migsilva.dev
-  seen_at: '2026-09-01T01:18:14Z'
+  seen_at: '2026-09-01T14:56:02Z'
   metrics:
-    stars: 45
+    stars: 46
     forks: 0
     open_issues: 2
   kind: product

@@ -34,17 +34,17 @@ url: https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigatio
 canonical_url: https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario
 summary: MapQuest app surges to No. 1 in Navigation after refusing to rename Lake Ontario
 first_seen: '2026-08-31T15:32:13Z'
-last_seen: '2026-09-01T01:18:10Z'
-status: market_context
+last_seen: '2026-09-01T14:55:58Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://techcrunch.com/2026/08/31/mapquests-app-surges-to-no-1-in-navigation-after-refusing-to-rename-lake-ontario/
-  seen_at: '2026-09-01T01:18:10Z'
+  seen_at: '2026-09-01T14:55:58Z'
   metrics:
-    points: 34
-    comments: 8
+    points: 39
+    comments: 9
   kind: news
 ---
 

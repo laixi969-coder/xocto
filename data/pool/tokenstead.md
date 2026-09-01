@@ -21,17 +21,17 @@ url: https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security-rfis
 canonical_url: https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security-rfis
 summary: 'The EU has begun enforcing the AI Act: first RFIs to model providers'
 first_seen: '2026-08-31T03:45:57Z'
-last_seen: '2026-09-01T01:18:10Z'
-status: market_context
+last_seen: '2026-09-01T14:55:58Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tokenstead.ai/guides/eu-ai-act-first-enforcement-security-rfis
-  seen_at: '2026-09-01T01:18:10Z'
+  seen_at: '2026-09-01T14:55:58Z'
   metrics:
     points: 47
-    comments: 99
+    comments: 100
   kind: news
 ---
 

@@ -11,12 +11,20 @@ inspiration_en: Templates generate once, then the project grows and the standard
   is the start-of-project scaffold becoming ongoing maintenance. The entry is Python teams initializing
   a repo. Open-source and free.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/Winipedia/pyrig
 canonical_url: https://github.com/Winipedia/pyrig
 summary: A tool that automates project setup and maintenance
 first_seen: '2026-08-10T22:34:55Z'
-last_seen: '2026-08-12T03:21:51Z'
-status: analyzed
+last_seen: '2026-09-01T14:55:58Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -26,6 +34,14 @@ sightings:
   metrics:
     points: 6
     comments: 2
+  kind: product
+- source: hackernews
+  url: https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype
+  seen_at: '2026-09-01T14:55:58Z'
+  metrics:
+    points: 123
+    comments: 109
+  kind: news
 ---
 
 # Pyrig

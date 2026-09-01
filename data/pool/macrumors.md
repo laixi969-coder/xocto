@@ -22,17 +22,17 @@ url: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-d
 canonical_url: https://macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand
 summary: Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio
 first_seen: '2026-08-31T12:41:22Z'
-last_seen: '2026-09-01T01:18:10Z'
-status: market_context
+last_seen: '2026-09-01T14:55:58Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/
-  seen_at: '2026-09-01T01:18:10Z'
+  seen_at: '2026-09-01T14:55:58Z'
   metrics:
-    points: 289
-    comments: 336
+    points: 463
+    comments: 524
   kind: news
 - source: hackernews
   url: https://www.macrumors.com/2026/08/31/google-maps-lake-america/

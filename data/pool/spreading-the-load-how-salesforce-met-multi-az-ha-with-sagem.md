@@ -24,8 +24,8 @@ summary: Learn how Salesforce used Amazon SageMaker AI Inference Component place
   parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high
   availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting.
 first_seen: '2026-08-28T16:20:40Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: market_context
+last_seen: '2026-09-01T14:56:33Z'
+status: pending_filter
 sources:
 - officialfeeds
 - newssearch
@@ -43,6 +43,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNbzFHTkZCUVA1WW4zS2tpR082M2VfbV9BNklQSXRJWlpqNHMwWGdadElTX2JZUGduSHFDamExX1VUU1ppaFlDaG1xNTBEcjBUZW9xMzJnR1l6TU90QkVqTE13azZseWU3bnNkMFlveFpQTVdMTXA4Ykp6bUNzbUtkdnN0clNxdjA?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSG9hREpQaGFLUFMzbTBRcmpUcmt5UXdVR014ZmMwbW5kQmJkeVAyX19tRDdocTRwdEt6T19YZlNWNXRPQklvNkQxeUhaMnhydVBvcW91VEJIVU1XWkdqYkZoLXBxS3FsQ1dtSjBnQ1V4eEFUTDdtZWtsNUttclhYRUdNU05UVzY1d0l2bm5zMlplVnVNV0tzTmdob1FWbGpRV0xNaGwzczFvMkZmaVVlVWdlN1l5bWNMV0w5U1d4RFNVWm_SAcMBQVVfeXFMT0hvYURKUGhhS1BTM20wUXJqVHJreVF3VUdNeGZjMG1uZEJiZHlQMl9fbUQ3aHE0cHRLek9fWGZTVjV0T0JJbzZEMXlIWjJ4cnVQb3FvdVRCSFVNV1pHamJGaC1wcUtxbENXbUowZ0NVeHhBVEw3bWVrbDVLbXJYWEVHTVNOVFc2NXdJdm5uczJaZVZ1TVdLc05naG9RVmxqUVdMTWhsM3MxbzJGZmlVZVVnZTdZeW1jTFdMOVNXeERTVVpv?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPWU5kdE1Ic2U3M0cxSng3Mm5mbnNxWTVzZHRCRk9kVDk5bnljczBUNWJxR3drbWI2STFwd1liVGdRRXE2VHBuaGtpazRiUzFwVG1VNUVzVHVhX1NlSTMyQnpwcGtpVnYwYW5VY3hjV3RwQlJGYXRfazlQV0Y5ZjgzM0V1UG1zZGpoRzk3UlRESE9HVFFMOUtHUlhYcWRSc3lUYWp6Mw?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9nTzgwLXhuWkI3VzJSX192d1BCQ0ZYNC0wM1BoZGVna2wzaldlMEVqcTY4WFN3SXpXQlJCVENXZUZvZnJ4VEhjTXNraFA2Xzg?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9xS1Z1VjN5cDZvQTR6ekJ0cWFpeEFZbVE2WFM2RERudUdQazUwSHpZWnhOU3NhU21qZXRKS3NqWjB1ZmxrNEM3d2hVSjdnM1JMZ21PNzlPUmh6dEdvNlZLQzNuTmN5QTFjdktRVUxpaw?oc=5
+  seen_at: '2026-09-01T14:56:33Z'
   metrics: {}
   kind: news
 ---
