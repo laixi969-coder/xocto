@@ -557,7 +557,7 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
                 verdict_key=locale.verdict_key(verdict),
                 verdict_rank=locale.verdict_rank(verdict),
                 analyzed_at=str(front.get("analyzed_at") or ""),
-                body_html=scrub_pending_phrase(_finish_inline_emphasis(_markdown(body))),
+                body_html=_desk_wrap_analysis_html(scrub_pending_phrase(_finish_inline_emphasis(_markdown(body)))),
                 excerpt=scrub_pending_phrase(excerpt),
                 replaces=scrub_pending_phrase(_section(body, *locale.heading_replaces)),
                 money=scrub_pending_phrase(_section(body, *locale.heading_money, allow_list=True, limit=240)),
@@ -1926,6 +1926,36 @@ def _build_locale(
     return 4 + len(ctx["products"]) + len(ctx["reports"])
 
 
+
+
+
+def _desk_wrap_analysis_html(html_text: str) -> str:
+    """Wrap analysis markdown HTML into Linear-desk cards (one card per h2).
+
+    Analysis bodies are flat h2/p/ul/table trees. Grouping each h2 with its
+    following siblings keeps content unchanged while letting CSS paint the
+    intelligence-desk panels used elsewhere on the product page.
+    """
+    if not html_text or not html_text.strip():
+        return html_text
+    text = html_text.strip()
+    if "<h2" not in text.lower():
+        return (
+            '<div class="desk-prose">'
+            f'<article class="desk-prose-block desk-prose-solo">{text}</article>'
+            "</div>"
+        )
+    parts = re.split(r"(?=<h2\b)", text, flags=re.IGNORECASE)
+    chunks: list[str] = []
+    for part in parts:
+        part = part.strip()
+        if not part:
+            continue
+        if re.match(r"<h2\b", part, flags=re.IGNORECASE):
+            chunks.append(f'<article class="desk-prose-block">{part}</article>')
+        else:
+            chunks.append(f'<div class="desk-prose-lead">{part}</div>')
+    return '<div class="desk-prose">' + "".join(chunks) + "</div>"
 
 
 def _finish_inline_emphasis(html_text: str) -> str:

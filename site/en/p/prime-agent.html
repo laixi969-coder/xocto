@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/prime-agent.html#webpage", "@type": "WebPage", "description": "While a coding assistant works a long job, useful methods settle into skills you can roll back, so next time you do not reteach from zero.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Prime Agent", "url": "https://xocto.vercel.app/en/p/prime-agent.html"}, {"@id": "https://xocto.vercel.app/en/p/prime-agent.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "While a coding assistant works a long job, useful methods settle into skills you can roll back, so next time you do not reteach from zero.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/prime-agent.html#webpage"}, "name": "Prime Agent", "url": "https://xocto.vercel.app/en/p/prime-agent.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/prime-agent.html", "name": "Prime Agent", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/prime-agent.html#webpage", "@type": "WebPage", "description": "While a coding assistant works a long job, useful methods settle into skills you can roll back, so next time you do not reteach from zero.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Prime Agent", "url": "https://xocto.vercel.app/en/p/prime-agent.html"}, {"@id": "https://xocto.vercel.app/en/p/prime-agent.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "While a coding assistant works a long job, useful methods settle into skills you can roll back, so next time you do not reteach from zero.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/prime-agent.html#webpage"}, "name": "Prime Agent", "url": "https://xocto.vercel.app/en/p/prime-agent.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/prime-agent.html", "name": "Prime Agent", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,20 +183,18 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A coding agent that can improve its own harness: no model retraining, but a persistent execution
 environment and a self-modifiable harness that distill what works during long tasks into
-reusable skills.</p>
-<h2>Who built it</h2>
+reusable skills.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Prime Intellect (<code>PrimeIntellect-ai/prime-agent</code>), a company whose main line is distributed /
 decentralized compute. It open-sourced Prime Agent on 2026-08-05, hit #1 on GitHub Trending the
 same day with ~2,319 stars in one day. The pool marks Zac Zuo as the builder; his exact role in the
 project was not verified.</p>
 <p><em>Read: a compute company open-sourcing a coding agent makes sense — they're betting that models get
 cheaper and the value migrates to whoever owns the framework that makes models do long-horizon
-work. Open source is their way of fighting for the framework-standard position.</em></p>
-<h2>What it actually does</h2>
+work. Open source is their way of fighting for the framework-standard position.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Recursive Language Model (RLM)</strong> → no fixed tool menu; the agent runs in a persistent IPython
 kernel where context is managed as Python variables (&quot;prompt-as-a-variable&quot;), letting the model
@@ -212,22 +210,19 @@ refine is snapshotted and rollback-able</li>
 reattach), direct agent-to-agent messaging, <code>/goal</code> for persistent cross-session objectives,
 <code>/autonomous</code> bounded autonomy with round/token/time budgets plus quality gates</li>
 <li><strong>Multi-provider</strong> → Anthropic, OpenAI, GitHub Copilot, and local self-hosted models</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>The current generation of coding agents (Claude Code, Codex) share a paradigm: context is a fixed
 token budget, every session starts from zero, tools are a hardcoded menu, and nothing persists
 across sessions. Long tasks survive only through context compaction, and lessons learned evaporate
 into chat history. Prime Agent replaces three things: context as a fixed budget becomes context as
 a programmable variable; stateless sessions become suspendable, resumable state; and &quot;what worked&quot;
-goes from living in the chat log to living in a reusable, rollback-able skill library.</p>
-<h2>Business model</h2>
+goes from living in the chat log to living in a reusable, rollback-able skill library.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>MIT open source, free.</strong> Install is a one-liner; model costs run on the user's own API accounts.
 Prime Intellect's monetization is not disclosed — but the company's core business is compute, so
 the agent itself is unlikely to be the direct revenue source.</p>
 <p><em>Read: the classic &quot;open-source the standard, monetize the backend&quot; play. If the RLM paradigm gets
 widely adopted, Prime Intellect has a natural angle in the compute / infrastructure layer it
-already knows.</em></p>
-<h2>Hard numbers</h2>
+already knows.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>15,684 stars, 1,673 forks</strong> (measured 2026-08-14). Created 2026-05-08, MIT, TypeScript</li>
 <li>Hit #1 on GitHub Trending within a week of release, ~2,319 stars in a single day</li>
@@ -235,8 +230,7 @@ already knows.</em></p>
 <li>EmulatorBench: independently built a working SEGA Genesis and Game Boy Color emulator in Rust
 from scratch</li>
 <li>592 open issues — real heat, and real-world scrutiny</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -262,8 +256,7 @@ from scratch</li>
   <td>15K stars in a week proves the narrative landed — &quot;agents should have memory and compounding&quot; is exactly what's missing right now</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Worth watching — one of the most worth-dissecting agent open-source projects recently.</strong>
 &quot;Self-improving&quot; is one of the most abused phrases around, yet Prime Agent's implementation is
 notably restrained: immutable base prompt, only small patch-layer edits via /refine, every change
@@ -273,14 +266,12 @@ tool that just gets more convenient the more it's used.</p>
 the model is Anthropic's; Prime Agent's contribution is the harness. That distinction matters;
 don't credit the score to this project. There's also a classic self-improvement failure mode to
 watch: the agent may generalize &quot;what happened to work on your codebase&quot; into universal rules,
-becoming more confident and possibly more skewed the longer it runs.</p>
-<h2>What to watch next</h2>
+becoming more confident and possibly more skewed the longer it runs.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether the star curve keeps climbing in three months — launch spikes are common; retention is
 the real signal
 ② Whether any independent team reproduces the ARC-AGI-3 / EmulatorBench results or publishes
 real-world long-task evaluations
-③ Whether widely shared /refine-generated skills introduce a &quot;skill pollution&quot; quality problem</p>
-<h2>What you can take from it</h2>
+③ Whether widely shared /refine-generated skills introduce a &quot;skill pollution&quot; quality problem</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: for any &quot;self-improving&quot; feature, copy this safety design — a permanently
 immutable base layer plus a rollback-able patch layer. If a system can only modify what it's
 allowed to modify, and every change leaves a snapshot, users will let it run autonomously. The
@@ -288,12 +279,10 @@ opposite design (letting the system rewrite everything about itself) spends its 
 trust on the first error. Also worth copying: making &quot;saving what worked&quot; a first-class feature
 (/refine) instead of burying it in config.</p>
 <p><strong>Positioning language</strong>: none. Engineering documentation; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> Real traction, restrained architecture, and &quot;framework self-improvement&quot; is
 likely the next stop for agents. But it has been open for a week, and the actual effect of
-self-improvement is independently unverified. Test the three items above in three months.</p>
-
+self-improvement is independently unverified. Test the three items above in three months.</p></article></div>
     </article>
   </section>
 

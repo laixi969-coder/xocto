@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/aakit.html#webpage", "@type": "WebPage", "description": "Surfaces the quiet assumptions a coding AI made, and which ones broke and how far the damage spread.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Aakit", "url": "https://xocto.vercel.app/en/p/aakit.html"}, {"@id": "https://xocto.vercel.app/en/p/aakit.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-13", "datePublished": "2026-08-12", "description": "Surfaces the quiet assumptions a coding AI made, and which ones broke and how far the damage spread.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/aakit.html#webpage"}, "name": "Aakit", "url": "https://xocto.vercel.app/en/p/aakit.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/aakit.html", "name": "Aakit", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/aakit.html#webpage", "@type": "WebPage", "description": "Surfaces the quiet assumptions a coding AI made, and which ones broke and how far the damage spread.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Aakit", "url": "https://xocto.vercel.app/en/p/aakit.html"}, {"@id": "https://xocto.vercel.app/en/p/aakit.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-13", "datePublished": "2026-08-12", "description": "Surfaces the quiet assumptions a coding AI made, and which ones broke and how far the damage spread.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/aakit.html#webpage"}, "name": "Aakit", "url": "https://xocto.vercel.app/en/p/aakit.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/aakit.html", "name": "Aakit", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,20 +183,18 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>An assumption detector for your coding agent: it digs out every silent assumption the
 agent made, attaches evidence, shows which assumption broke and how wide the blast radius
-was, and measures whether asking one question or not asking at all is actually cheaper.</p>
-<h2>Who built it</h2>
+was, and measures whether asking one question or not asking at all is actually cheaper.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>An independent open-source project by GitHub user Abhixhek (identity not disclosed).
 Posted on HN; this pool records 5 points and 1 comment.
 <em>Name-collision note: GitHub also hosts &quot;AA Kit (Agent As Everything)&quot; and several
 &quot;AIKit&quot; toolkits, all unrelated. This analysis covers only <code>abhixhek/aakit</code>.</em></p>
 <p><em>Read: publishing a tool whose three experiments produced no publishable number — along
 with a full two-week protocol — suggests the author wants the method discussed more than
-he wants impressive charts. That alone is worth reading.</em></p>
-<h2>What it actually does</h2>
+he wants impressive charts. That alone is worth reading.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Extracts assumptions</strong> → parses tasks and each implicit assumption from Claude Code
 session logs (JSONL), labeling provenance (read from something, or pure guess)</li>
@@ -213,8 +211,7 @@ tasks on success rate and token cost</li>
 </ul>
 <p><strong>What it explicitly does not guarantee</strong>: none of the three experiments has produced a
 publishable result in the current version — that is the author's own statement in the
-README, not our judgment.</p>
-<h2>What old behavior it replaces</h2>
+README, not our judgment.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Figuring out why an agent botched a job used to mean manually scrolling session logs and
 retrospectively reconstructing why it did what it did and where the reasoning went wrong.
 Slow, luck-dependent, and usually impossible to reconstruct after the fact.</p>
@@ -224,14 +221,12 @@ but it is the first to make &quot;implicit assumptions&quot; an explicit measure
 publicly admit the measurement is not yet accurate.</p>
 <p><em>Read: it replaces not a specific action but a habit — the default trust that &quot;if the
 agent finished, it finished right.&quot; Every team that dares to put agents in production
-will eventually have to replace that habit.</em></p>
-<h2>Business model</h2>
+will eventually have to replace that habit.</em></p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Open source, no license statement found, no paid or hosted service, and the
 author's identity and background are undisclosed.</p>
 <p><em>Read: the usual commercialization path for a measurement tool is &quot;open-source endpoint
 plus paid team edition,&quot; but with experiments still unpublished, business model talk is
-premature.</em></p>
-<h2>Hard numbers</h2>
+premature.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>This pool: 5 HN points, 1 comment (observed 2026-08-13); GitHub stars/forks not retrieved</li>
 <li>Experiment 2: 120 trials (10 tasks × 4 policies × 3 repeats, <code>claude-sonnet-4-5</code>).
@@ -244,8 +239,7 @@ failed</li>
 tool calls swallowed by the tool, session-ID exclusion ineffective)</li>
 <li>Self-assessed sample size: ~n=40/policy needed to separate gated_multi from never;
 the current n=30 is not enough</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -271,8 +265,7 @@ the current n=30 is not enough</li>
   <td>More teams are putting agents in production and asking &quot;how do we measure what agents did&quot; — the need is growing faster than the tools</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>An honest draft of what an agent-era measurement tool should look like.</strong> Its value is
 not in the results — all three experiments came up empty — but in two things: it makes
 explicit the &quot;implicit assumptions&quot; that are the most common failure point of agents and
@@ -284,15 +277,13 @@ you measured right. That honesty is rare in AI tooling, and it is the only reaso
 project deserves a note.</em></p>
 <p><strong>The business judgment is simple though</strong>: 5 HN points, an anonymous author, and no
 experimental results. There is no reason to bet on this direction now, and no data to
-suggest it works. This is &quot;methodology worth filing, engineering still mid-road.&quot;</p>
-<h2>What to watch next</h2>
+suggest it works. This is &quot;methodology worth filing, engineering still mid-road.&quot;</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars cross 100 within three months — community acceptance is the first signal
 of validation
 ② Whether experiment 2 reaches sufficient samples (n≈40/policy) and produces a
 publishable number — whether the author's stated next step gets delivered
 ③ Whether anyone publicly reproduces or cites the protocol — outside adoption of the
-measurement method counts more than stars</p>
-<h2>What you can take from it</h2>
+measurement method counts more than stars</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: &quot;make implicit assumptions explicit&quot; transfers directly to reviewing
 any proposal — have the agent (or a colleague) list assumptions before starting, and
 review the assumption list, not just the conclusion. AI failures usually live in the
@@ -301,13 +292,11 @@ premises it took for granted, not in the code.</p>
 harmless&quot; from &quot;wrong and everything collapses&quot; is a distinction worth stealing.</p>
 <p><strong>Engineering discipline</strong>: calibrate before publishing numbers; state plainly when the
 sample is too small; surface your own instrumentation bugs. This &quot;no result rather than
-fake result&quot; discipline is worth more than any feature.</p>
-<h2>Verdict</h2>
+fake result&quot; discipline is worth more than any feature.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The methodology has real substance and the engineering honesty is rare, but
 the data is thin, the experiments are not run to completion, and the author is anonymous
 — no investable basis exists. Check in three months whether it moved from &quot;honest draft&quot;
-to &quot;working tool.&quot;</p>
-
+to &quot;working tool.&quot;</p></article></div>
     </article>
   </section>
 

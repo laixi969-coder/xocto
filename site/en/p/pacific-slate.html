@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/pacific-slate.html#webpage", "@type": "WebPage", "description": "Run a private assistant on your own machine. Swap models by changing config. Mail, calendar, and files never leave your servers.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Pacific Slate", "url": "https://xocto.vercel.app/en/p/pacific-slate.html"}, {"@id": "https://xocto.vercel.app/en/p/pacific-slate.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Run a private assistant on your own machine. Swap models by changing config. Mail, calendar, and files never leave your servers.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/pacific-slate.html#webpage"}, "name": "Pacific Slate", "sameAs": "https://pacslate.com/", "url": "https://xocto.vercel.app/en/p/pacific-slate.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/pacific-slate.html", "name": "Pacific Slate", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/pacific-slate.html#webpage", "@type": "WebPage", "description": "Run a private assistant on your own machine. Swap models by changing config. Mail, calendar, and files never leave your servers.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Pacific Slate", "url": "https://xocto.vercel.app/en/p/pacific-slate.html"}, {"@id": "https://xocto.vercel.app/en/p/pacific-slate.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Run a private assistant on your own machine. Swap models by changing config. Mail, calendar, and files never leave your servers.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/pacific-slate.html#webpage"}, "name": "Pacific Slate", "sameAs": "https://pacslate.com/", "url": "https://xocto.vercel.app/en/p/pacific-slate.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/pacific-slate.html", "name": "Pacific Slate", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,12 +184,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A self-hosted, multi-agent personal assistant written by one MBA student for himself:
 models (rented) and data (his own) are strictly separated, and all data stays on his
-own server.</p>
-<h2>Who built it</h2>
+own server.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Builder field says badwx (HN handle). The site self-describes: a current MBA student,
 married with two children, no formal software background. The development method is
 &quot;AI-native&quot; — he designed the architecture himself (components, connections, budgets)
@@ -197,8 +196,7 @@ and let coding AI agents write most of the code. The system has run daily since 
 2026 through August 2026.</p>
 <p><em>Read: this is not a product, it is a &quot;single-user system architecture reference.&quot; Its
 value is not how many people use it, but that it proves a non-programmer can assemble
-a daily-use private AI system out of self-hosting, multiple models, and cost control.</em></p>
-<h2>What it actually does</h2>
+a daily-use private AI system out of self-hosting, multiple models, and cost control.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Autonomous information stream</strong> → pulls from email, calendar, GitHub, HN, Reddit,
 arXiv, RSS, weather, markets, earthquake data, and more on a schedule; scores items
@@ -224,8 +222,7 @@ external requests go through zero-data-retention endpoints</li>
 <p><strong>Operating shape</strong>: Next.js canvas frontend + Starlette backend + ~24 MCP tool
 servers behind a gateway (BM25 search finds the right tool instead of stuffing all
 schemas into context); answers render as movable cards, each labeled with model, cost,
-and latency.</p>
-<h2>What old behavior it replaces</h2>
+and latency.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>For the author personally, three kinds of old actions:</p>
 <p><strong>Explaining yourself over and over to different AI programs.</strong> Switching models or
 tools meant re-communicating context; a unified system that self-updates, remembers
@@ -236,16 +233,14 @@ how long it took.</p>
 <p><strong>Dependence on a single model.</strong> Switching vendors used to be a migration; now it is
 a one-line config change.</p>
 <p>For the general reader, it replaces &quot;subscribing to a pile of AI services&quot; with an
-alternative: rebuild a private version for $50–80/month with all data in your own hands.</p>
-<h2>Business model</h2>
+alternative: rebuild a private version for $50–80/month with all data in your own hands.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Not a product — a personal system plus an open-source blueprint (the site
 says &quot;almost all of it is open source&quot;). The author's reconstruction estimate:
 ~$20/month coding assistant, ~$20/month small server, $10–40/month metered model
 calls, about $50–80/month total.</p>
 <p><em>Read: this should not be evaluated as a business model. The real question is whether
 the architectural blueprint can be reused by others — if it can, it becomes a valuable
-reference for the self-hosting AI community.</em></p>
-<h2>Hard numbers</h2>
+reference for the self-hosting AI community.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>Running totals: <strong>13,053 runs, 26,515 model calls, 9 models used</strong></li>
 <li>Performance: median model-call latency 3.1s, p90 latency 14s</li>
@@ -253,8 +248,7 @@ reference for the self-hosting AI community.</em></p>
 <li>Users: 1 (the author); explicitly not aimed at enterprise or multi-tenant</li>
 <li>HN 5 points / 0 comments (2026-08-11) — essentially undiscussed</li>
 <li>Team: 1 person, with AI coding agents as development partners</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -280,8 +274,7 @@ reference for the self-hosting AI community.</em></p>
   <td>Self-hosting + model-agnostic + data sovereignty is moving from technical preference to procurement requirement; timing is right, but this is not a product the market can &quot;adopt&quot;</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is a &quot;single-user architecture reference,&quot; not a product, and the data says
 Unproven.</strong> HN 5 points, zero comments, no users, no commercial intent — but it should
 not be graded as a product. It should be graded as a blueprint.</p>
@@ -298,15 +291,13 @@ implementation.</p>
 <p><strong>The biggest question mark</strong>: the reliability numbers (3.1s median latency, 13,053
 runs) and the architecture diagram are self-reported by a non-programmer writing with
 AI agents; no third-party verification and no direct repo link visible on the site.
-So it is a &quot;reference design worth reading,&quot; but every number must be discounted.</p>
-<h2>What to watch next</h2>
+So it is a &quot;reference design worth reading,&quot; but every number must be discounted.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether the code actually goes open source (downloadable, reproducible) — a
 blueprint's value depends on being reusable
 ② Whether monthly cost stays around $50–80 — the cost claim is its most falsifiable
 assertion
 ③ Whether anyone builds a team version or an open-source project from it — reuse is
-the evidence that this architecture actually works</p>
-<h2>What you can take from it</h2>
+the evidence that this architecture actually works</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: for deciding &quot;which model to use,&quot; do not let the LLM decide —
 route with a deterministic scorer (complexity score × budget level): controllable,
 explainable, auditable. Any multi-model product team can copy this routing logic
@@ -317,15 +308,13 @@ sentence every self-hosted product can use.</p>
 <p><strong>Pricing structure</strong>: no business model, but the broken-down cost items (~$20
 coding assistant + ~$20 server + $10–40 model calls) are themselves a pricing
 reference — the selling point of self-hosted options is &quot;total cost below the sum
-of subscriptions.&quot;</p>
-<h2>Verdict</h2>
+of subscriptions.&quot;</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven, but worth filing.</strong> Not a product — a complete design document for &quot;one
 person plus AI agents builds a private AI system,&quot; with three genuinely transferable
 designs: cost routing, model-agnosticism, and tool retrieval. All data is
 self-reported and no direct code link is visible, so the grade is Unproven by the
 data — but this blueprint deserves a read by anyone planning a self-hosted setup.
-In three months, check whether it is actually open-sourced and reused.</p>
-
+In three months, check whether it is actually open-sourced and reused.</p></article></div>
     </article>
   </section>
 

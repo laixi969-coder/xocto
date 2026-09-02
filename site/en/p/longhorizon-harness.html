@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/longhorizon-harness.html#webpage", "@type": "WebPage", "description": "AI can drive a computer for hours while progress lives on a checkable ledger, not in the model\u0027s claim that it finished.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "LongHorizon-Harness", "url": "https://xocto.vercel.app/en/p/longhorizon-harness.html"}, {"@id": "https://xocto.vercel.app/en/p/longhorizon-harness.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-25", "datePublished": "2026-08-04", "description": "AI can drive a computer for hours while progress lives on a checkable ledger, not in the model\u0027s claim that it finished.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/longhorizon-harness.html#webpage"}, "name": "LongHorizon-Harness", "url": "https://xocto.vercel.app/en/p/longhorizon-harness.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/longhorizon-harness.html", "name": "LongHorizon-Harness", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/longhorizon-harness.html#webpage", "@type": "WebPage", "description": "AI can drive a computer for hours while progress lives on a checkable ledger, not in the model\u0027s claim that it finished.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "LongHorizon-Harness", "url": "https://xocto.vercel.app/en/p/longhorizon-harness.html"}, {"@id": "https://xocto.vercel.app/en/p/longhorizon-harness.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-25", "datePublished": "2026-08-04", "description": "AI can drive a computer for hours while progress lives on a checkable ledger, not in the model\u0027s claim that it finished.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/longhorizon-harness.html#webpage"}, "name": "LongHorizon-Harness", "url": "https://xocto.vercel.app/en/p/longhorizon-harness.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/longhorizon-harness.html", "name": "LongHorizon-Harness", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -189,13 +189,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>An open-source execution harness that lets agents operate a computer for hours without losing task state: it moves &quot;where am I in the task&quot; out of the conversation context, runs a Manage-Execute-Audit (MEA) three-role loop, executes each round in a fresh context, and only accepts facts an auditor verified from the environment — cutting off the &quot;the agent wrongly believes it finished&quot; error-propagation chain at the root.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>An open-source execution harness that lets agents operate a computer for hours without losing task state: it moves &quot;where am I in the task&quot; out of the conversation context, runs a Manage-Execute-Audit (MEA) three-role loop, executes each round in a fresh context, and only accepts facts an auditor verified from the environment — cutting off the &quot;the agent wrongly believes it finished&quot; error-propagation chain at the root.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Open-sourced by AMAP-ML, the machine-learning team of AutoNavi (Alibaba's mapping arm); the paper is credited to the DreamX Team, Alibaba Group, first author Ziyu Ma. MIT license, code created 2026-08-04, with an arXiv paper (2608.01964). Lab research from a large Chinese tech company's mapping team.</p>
-<p><em>Read: AutoNavi/Alibaba building this makes sense — mapping is a natural long-horizon agent domain (multi-step planning, cross-tool calls, environment feedback). It is a lab research project, not a startup.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: AutoNavi/Alibaba building this makes sense — mapping is a natural long-horizon agent domain (multi-step planning, cross-tool calls, environment feedback). It is a lab research project, not a startup.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Manage-Execute-Audit loop</strong> → the Manager holds task state and dispatches subtasks (reads reports only, never touches the environment); the Executor runs a single subtask in a fresh context (the only role allowed to modify the environment; its traces and reasoning are discarded afterward); the Auditor uses read-only tools to independently check whether the environment meets acceptance criteria (it cannot see the Executor's reasoning or self-assessment, and touching protected state triggers an integrity violation)</li>
 <li><strong>Fresh-context execution</strong> → each round the Executor starts from zero, receiving only the current subtask and audit evidence, preventing context rot</li>
@@ -203,15 +201,12 @@
 <li><strong>Reset without amnesia</strong> → execution errors stay inside their round, exposed by the next audit or never recorded</li>
 <li><strong>Backend-independent</strong> → the three roles can each run on Claude Code, Codex CLI, Gemini CLI, mini-SWE-agent, or any other harness</li>
 <li><strong>Usability</strong> → Python 3.10+, <code>uv tool install lh-harness</code>, CLI with a live dashboard</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>It replaces the default architecture of every current agent harness: stuffing execution traces, task state, and completion self-assessment into one growing context. That &quot;lazy default&quot; has three fatal problems — state becomes untrackable as the context grows, a model believing a step is done lets a wrong self-assessment pollute every later decision, and unbounded context inflates cost.</p>
 <p>LongHorizon-Harness pulls &quot;state&quot; out of the context into an external object that updates only from environment-verified facts. It replaces not a tool but an orchestration paradigm.</p>
-<p><em>Read: this is its biggest contribution to everyone building agents — the problem gets redefined as &quot;task-state management,&quot; not &quot;make the model smarter.&quot;</em></p>
-<h2>Business model</h2>
+<p><em>Read: this is its biggest contribution to everyone building agents — the problem gets redefined as &quot;task-state management,&quot; not &quot;make the model smarter.&quot;</em></p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>None. Pure open source (MIT) plus a paper; no hosted service, no charge.</p>
-<p><em>Read: this is public research from a big-tech lab; the monetization path is not the code itself. If long-horizon agent capability validates internally, the payoff shows up in AutoNavi's own products.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: this is public research from a big-tech lab; the monetization path is not the code itself. If long-horizon agent capability validates internally, the payoff shows up in AutoNavi's own products.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>705 stars / 83 forks / 17 open issues, MIT, created 2026-08-04 (about ten days; 166 stars on day one)</li>
 <li>arXiv 2608.01964, submitted 2026-08-03; Hugging Face Daily Papers #2 on 2026-08-04 (131 likes)</li>
@@ -224,8 +219,7 @@
 </li>
 <li>Cost: the Manager consumes only 2.0%–8.1% of tokens; auditing 19.4%–38.1%; on Terminal-Bench total tokens are 24% below baseline</li>
 <li>Team size, any commercialization plan: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -251,22 +245,17 @@
   <td>Long-horizon capability is being recognized as the agent dividing line (METR reports task horizons doubling every ~7 months) — exactly when infrastructure has a gap</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the key infrastructure that moves agents from &quot;can they do it&quot; to &quot;can they finish it reliably.&quot;</strong> Mainstream agent frameworks are betting on a single long context; LongHorizon-Harness shows that externalizing state and adding a read-only auditor improves long-horizon success across models and backends without touching either. If the result reproduces, it changes the default architecture of agent infrastructure.</p>
 <p><strong>The transferable pattern: add an &quot;environment-facts-only&quot; verification gate to any automation agent.</strong> When an Executor says &quot;done,&quot; do not believe it; have an independent, read-only auditor that cannot see the Executor's self-assessment verify against the real environment. This is anti-hallucination made into engineering, far more reliable than &quot;let the model self-reflect.&quot; Any long-flow agent can adopt this gate directly.</p>
-<p><strong>The limits are real</strong>: the method depends on the environment state being independently readable and verifiable — terminals, OS, and web with observable echoes qualify; open-ended creation and fuzzy requirements have no ground truth to audit. Every round adds one more audit call, raising latency and token cost. The Manager itself may become the next long-horizon bottleneck. And the benchmarks all skew toward verifiable scenarios; generalization evidence is still thin.</p>
-<h2>What to watch next</h2>
+<p><strong>The limits are real</strong>: the method depends on the environment state being independently readable and verifiable — terminals, OS, and web with observable echoes qualify; open-ended creation and fuzzy requirements have no ground truth to audit. Every round adds one more audit call, raising latency and token cost. The Manager itself may become the next long-horizon bottleneck. And the benchmarks all skew toward verifiable scenarios; generalization evidence is still thin.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars break 3,000 in three months — whether &quot;long-horizon harness&quot; as an infrastructure category gets adopted
 ② Whether a non-academic team publicly reproduces the benchmarks (real business workloads, not benchmark suites)
-③ Whether an enterprise hosted tier or official integration with mainstream agent frameworks appears — the signal of moving from paper to product</p>
-<h2>What you can take from it</h2>
+③ Whether an enterprise hosted tier or official integration with mainstream agent frameworks appears — the signal of moving from paper to product</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Architecture logic</strong>: for any long-flow agent team, the first move is to extract &quot;task progress / subtask completion&quot; into structured external state (a database, state machine, or todo list) instead of expecting the model to recall it from tens of thousands of context tokens. Externalizing state is the precondition for everything else.</p>
 <p><strong>Execution strategy</strong>: give the executor a fresh context per step, feeding only the current subtask plus necessary evidence. Swap &quot;one giant context&quot; for &quot;short context + external state&quot; and noise accumulation drops sharply.</p>
-<p><strong>Adapter layer</strong>: connect different models and harnesses through a thin adapter without touching their native loops — decouple orchestration from execution backend instead of rewriting the whole pipeline for each new model.</p>
-<h2>Verdict</h2>
-<p><strong>Worth watching.</strong> The direction is right, the evidence is solid (consistent gains across models and domains), and it comes from a team with a real use case. But it is a research project, not a product; generalization and the cost ledger need real-business validation. Write it down and check against the three items above in three months.</p>
-
+<p><strong>Adapter layer</strong>: connect different models and harnesses through a thin adapter without touching their native loops — decouple orchestration from execution backend instead of rewriting the whole pipeline for each new model.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Worth watching.</strong> The direction is right, the evidence is solid (consistent gains across models and domains), and it comes from a team with a real use case. But it is a research project, not a product; generalization and the cost ledger need real-business validation. Write it down and check against the three items above in three months.</p></article></div>
     </article>
   </section>
 

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/phi.html#webpage", "@type": "WebPage", "description": "A coding assistant asks before it edits a file. Subtasks run in isolation so one change cannot wreck the whole file.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "phi", "url": "https://xocto.vercel.app/en/p/phi.html"}, {"@id": "https://xocto.vercel.app/en/p/phi.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-23", "datePublished": "2026-08-03", "description": "A coding assistant asks before it edits a file. Subtasks run in isolation so one change cannot wreck the whole file.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/phi.html#webpage"}, "name": "phi", "url": "https://xocto.vercel.app/en/p/phi.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/phi.html", "name": "phi", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/phi.html#webpage", "@type": "WebPage", "description": "A coding assistant asks before it edits a file. Subtasks run in isolation so one change cannot wreck the whole file.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "phi", "url": "https://xocto.vercel.app/en/p/phi.html"}, {"@id": "https://xocto.vercel.app/en/p/phi.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-23", "datePublished": "2026-08-03", "description": "A coding assistant asks before it edits a file. Subtasks run in isolation so one change cannot wreck the whole file.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/phi.html#webpage"}, "name": "phi", "url": "https://xocto.vercel.app/en/p/phi.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/phi.html", "name": "phi", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -189,19 +189,17 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A terminal coding agent that treats edit reliability and context cost as first-class citizens —
 edits anchored by content hash instead of whole-file rewrites, sub-tasks run in isolation, and tool
-schemas never enter the model's context.</p>
-<h2>Who built it</h2>
+schemas never enter the model's context.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>A Go project under the pulseaiclub org, self-described as a &quot;sibling to Pi.&quot; Pi is Mario Zechner's
 open-source coding agent, whose well-known fork is oh-my-pi (omp); phi's hashline mechanism is
 explicitly credited to oh-my-pi. Repository created 2026-08-03, MIT license.</p>
 <p><em>Read: a clean genetic chain — pi to oh-my-pi to phi — all treating the same disease: coding agents
 with fragile edit formats and expensive context. Who exactly pulseaiclub is, and the authors'
-backgrounds, are not disclosed. What is visible is going from zero to v0.9.0 in eleven days.</em></p>
-<h2>What it actually does</h2>
+backgrounds, are not disclosed. What is visible is going from zero to v0.9.0 in eleven days.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Hashline edits</strong> → the model targets a &quot;line number + content hash&quot; anchor instead of reprinting
 whole files; if the anchor is stale (the file moved under it), the edit is rejected. No brittle
@@ -217,8 +215,7 @@ prompt; the model sees only three meta-tools (mcp_list / mcp_inspect / mcp_call)
 runtime dependencies</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no SaaS, no hosting, no IDE plugin — terminal-only, with a
-local config file (~/.phi/config.yaml).</p>
-<h2>What old behavior it replaces</h2>
+local config file (~/.phi/config.yaml).</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>It replaces not a human workflow but three bad habits of its own category of tool:</p>
 <ul>
 <li><strong>Whole-file rewrite / full-text string-match editing</strong> → models located edit points by
@@ -231,13 +228,11 @@ meta-tools, discovers on demand, and lazily spawns sub-processes</li>
 parent context; phi isolates sub-agents under ~/.phi/jobs and returns only summaries</li>
 </ul>
 <p>All three substitutions share one move: take the places where models err and move them into
-deterministic engineering mechanisms.</p>
-<h2>Business model</h2>
+deterministic engineering mechanisms.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> MIT open source, no cloud service, no pricing page, no hosted tier.</p>
 <p><em>Read: terminal coding agents are the classic &quot;open source for distribution, enterprise edition for
 revenue&quot; category, but phi has no enterprise shadow yet. Its only moat right now is mechanical
-innovation, and mechanisms are the easiest thing to copy.</em></p>
-<h2>Hard numbers</h2>
+innovation, and mechanisms are the easiest thing to copy.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>75 stars, 4 forks, 2 open issues</strong> (fetched 2026-08-14). Created 2026-08-03, 196 commits,
 already at v0.9.0</li>
@@ -246,8 +241,7 @@ already at v0.9.0</li>
 <li>Hashline cites oh-my-pi's public benchmark: 61% token reduction, Grok-4 Fast edit success
 6.7% → 68.3% (that is oh-my-pi's data; phi has published no benchmark of its own)</li>
 <li>Team size and user count: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -273,8 +267,7 @@ already at v0.9.0</li>
   <td>Red ocean for terminal coding agents; 75 stars is a hard climb. The differentiation is real but mechanically easy to copy</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Worth watching, because its three mechanisms can be lifted and used separately.</strong>
 For anyone building agent products, these are three cheap, high-yield design decisions: anchor edits
 to content hashes instead of letting the model reprint whole blocks; discover tools on demand
@@ -283,22 +276,18 @@ instead of flooding the context; isolate sub-tasks and return only summaries.</p
 by being right about the problems — and the moment mainstream tools like Claude Code absorb these
 mechanisms, the value migrates to the ecosystem and the project is left with maintenance cost.</p>
 <p><strong>One honest note</strong>: the 61% token reduction and 10x edit-success numbers come from oh-my-pi, not
-from phi. Do not credit a sibling project's results to this one.</p>
-<h2>What to watch next</h2>
+from phi. Do not credit a sibling project's results to this one.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars cross 1,000 in three months and whether outside projects adopt its mechanisms
 ② Whether anyone independently replicates hashline or the MCP meta-tool pattern (a mechanism-validation signal)
-③ Whether headless mode keeps defaulting to deny execution (a safety-posture signal)</p>
-<h2>What you can take from it</h2>
+③ Whether headless mode keeps defaulting to deny execution (a safety-posture signal)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: three transferable designs — edit operations anchored to content hashes with
 fail-safe rejection; tool schemas kept out of context and discovered on demand; sub-tasks isolated
 with summaries only. All three apply directly to agent products, especially when users run cheap
 models or long tasks.</p>
 <p><strong>Positioning language</strong>: none. This is engineering documentation.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The mechanisms have incremental value and the engineering is solid, but it is
-extremely early with no user evidence. Come back in three months against the three checks above.</p>
-
+extremely early with no user evidence. Come back in three months against the three checks above.</p></article></div>
     </article>
   </section>
 

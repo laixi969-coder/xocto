@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/deepseek-harness.html#webpage", "@type": "WebPage", "description": "DeepSeek splits an assistant\u0027s tools, memory, and interface into swappable add-ons that run on your own computer.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "deepseek-harness", "url": "https://xocto.vercel.app/en/p/deepseek-harness.html"}, {"@id": "https://xocto.vercel.app/en/p/deepseek-harness.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "DeepSeek splits an assistant\u0027s tools, memory, and interface into swappable add-ons that run on your own computer.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/deepseek-harness.html#webpage"}, "name": "deepseek-harness", "sameAs": "https://deepseek.com/harness", "url": "https://xocto.vercel.app/en/p/deepseek-harness.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/deepseek-harness.html", "name": "deepseek-harness", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/deepseek-harness.html#webpage", "@type": "WebPage", "description": "DeepSeek splits an assistant\u0027s tools, memory, and interface into swappable add-ons that run on your own computer.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "deepseek-harness", "url": "https://xocto.vercel.app/en/p/deepseek-harness.html"}, {"@id": "https://xocto.vercel.app/en/p/deepseek-harness.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "DeepSeek splits an assistant\u0027s tools, memory, and interface into swappable add-ons that run on your own computer.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/deepseek-harness.html#webpage"}, "name": "deepseek-harness", "sameAs": "https://deepseek.com/harness", "url": "https://xocto.vercel.app/en/p/deepseek-harness.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/deepseek-harness.html", "name": "deepseek-harness", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -190,12 +190,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>The official formula is &quot;Model + Harness = Agent&quot;: it does not make models and it is not just a chat
 UI, but a local agent runtime in which tools, skills, sessions, sandboxes, storage, loops,
-scheduling, and the UI are all swappable plugins.</p>
-<h2>Who built it</h2>
+scheduling, and the UI are all swappable plugins.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>DeepSeek's official repository (<code>deepseek-ai/deepseek-harness</code>). Developer preview v0.1 released
 2026-08-13, fully open-sourced under MIT. The underlying Cordis plugin system draws its ideas from
 a paper co-authored by Peking University and DeepSeek, &quot;A Programming Paradigm for Spatiotemporal
@@ -204,8 +203,7 @@ and may be rough.</p>
 <p><em>Read: when a model company open-sources the layer above the model, it is an announcement — the
 competition has moved to the harness layer, and it intends to be the default base there. On the
 same day it first announced V4-Pro's GA and API price increases, then shipped Harness two hours
-later. That sequence was calculated.</em></p>
-<h2>What it actually does</h2>
+later. That sequence was calculated.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Four runtime modes</strong> → Standard (full toolset), Code mode (the model writes TypeScript programs
 that orchestrate multi-round tool calls), Minimal (a shell and a file editor only, for fair model
@@ -220,8 +218,7 @@ harness source</li>
 <li><strong>Local sandbox</strong> → the repo ships a Landlock sandbox runtime (<code>native/</code>); it is not prompt-based
 guardrailing</li>
 <li><strong>One command to start</strong> → <code>npx @deepseek-ai/dsh web</code> launches a local Web UI</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Building a coding agent used to mean picking a closed harness (Claude Code, Codex, Cursor) and
 extending it within the limits of tools and skills — the replaceable scope stopped at that layer.
 The loop, scheduling, sessions, and UI were black boxes, and the model was an API bolted to the
@@ -230,14 +227,12 @@ harness.</p>
 you can swap in configuration. Old picture: a team picks a harness, stuffs tools into it, and the
 model vendor is just an interface. New picture: model and harness are two decoupled layers, each
 swappable on its own. DeepSeek's bet is the combination nobody closed-harness vendors can offer:
-the cheapest tokens plus an open harness.</p>
-<h2>Business model</h2>
+the cheapest tokens plus an open harness.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>The harness is free and open source; the money is in model calls. On 2026-08-13 it announced
 peak/off-peak API pricing: peak hours (09:00–12:00 and 14:00–18:00 Beijing time) cost double the
 off-peak rate, effective 2026-08-17.</p>
 <p><em>Read: give away the shell so that swapping the brain becomes a config line — exactly the world a
-model company with the cheapest tokens wants to live in. Free is not charity; it is acquisition.</em></p>
-<h2>Hard numbers</h2>
+model company with the cheapest tokens wants to live in. Free is not charity; it is acquisition.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>73,360 stars / 6,265 forks</strong> (scraped 2026-08-14); stars passed 10k within half an hour of the
 announcement and 30k+ by the time media covered it</li>
@@ -245,8 +240,7 @@ announcement and 30k+ by the time media covered it</li>
 2026-08-13</li>
 <li>DeepSeek-V4-Pro GA shipped the same day</li>
 <li>Team size and enterprise adoption: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -272,8 +266,7 @@ announcement and 30k+ by the time media covered it</li>
   <td>Enters after Claude Code/Codex validated the market, and plays the open-source-plus-cheap-tokens combo. Timing and price are both on point</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the standard move in the model-company war for the harness layer, but more radical than
 the peers: even the agent loop, scheduling, and UI are plugins.</strong> What the radicalism buys is
 clear — the barrier to entering the ecosystem drops to &quot;one person can write a plugin,&quot; and a
@@ -284,15 +277,13 @@ toward zero. If you sell models, this is the worst possible script. If you build
 models, this is the best foundation available.</p>
 <p><strong>The cost</strong>: v0.1 is explicitly a preview with breaking changes coming; the early plugin ecosystem
 will be uneven almost by definition. Its current value is architectural demonstration, not a
-plug-and-play product.</p>
-<h2>What to watch next</h2>
+plug-and-play product.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars keep climbing from the 70k-class in three months — launch momentum versus sustained
 absorption
 ② How many plugins in the dsh-plugin topic and the dsh-external catalog are actually used by
 companies (plugin count is not plugin quality)
 ③ The cadence of breaking changes — breaking the interface every two weeks is normal early; still
-doing it three months out means no stability has arrived</p>
-<h2>What you can take from it</h2>
+doing it three months out means no stability has arrived</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: if you are at the platform-versus-tool crossroads, copy this layering — make the
 core loop a replaceable layer, plugin-ify models/tools/UI, give away the shell at a loss, then
 collect on usage of the other layer (model calls). The prerequisites: marginal cost of the other
@@ -301,12 +292,10 @@ layer is low enough, and you can stomach uneven ecosystem quality early on.</p>
 which shifts demand to idle hours without touching the headline price, effectively expanding revenue
 outside the peak. Especially applicable to AI products whose inference costs have their own
 peak/off-peak curve.</p>
-<p><strong>Positioning language</strong>: none. The site is engineering documentation; nothing to steal.</p>
-<h2>Verdict</h2>
+<p><strong>Positioning language</strong>: none. The site is engineering documentation; nothing to steal.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Strong pick.</strong> One of the most consequential events in agent infrastructure in 2026; anyone
 building AI products should spend an hour on its architecture docs. Come back in three months and
-check the three indicators above to see whether the ecosystem actually materialized.</p>
-
+check the three indicators above to see whether the ecosystem actually materialized.</p></article></div>
     </article>
   </section>
 

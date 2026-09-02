@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/passmint.html#webpage", "@type": "WebPage", "description": "Issue event tickets and membership cards once, and they land in Apple Wallet and Google Wallet \u2014 no extra app install.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "passmint", "url": "https://xocto.vercel.app/en/p/passmint.html"}, {"@id": "https://xocto.vercel.app/en/p/passmint.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Issue event tickets and membership cards once, and they land in Apple Wallet and Google Wallet \u2014 no extra app install.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/passmint.html#webpage"}, "name": "passmint", "url": "https://xocto.vercel.app/en/p/passmint.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/passmint.html", "name": "passmint", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/passmint.html#webpage", "@type": "WebPage", "description": "Issue event tickets and membership cards once, and they land in Apple Wallet and Google Wallet \u2014 no extra app install.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "passmint", "url": "https://xocto.vercel.app/en/p/passmint.html"}, {"@id": "https://xocto.vercel.app/en/p/passmint.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Issue event tickets and membership cards once, and they land in Apple Wallet and Google Wallet \u2014 no extra app install.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/passmint.html#webpage"}, "name": "passmint", "url": "https://xocto.vercel.app/en/p/passmint.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/passmint.html", "name": "passmint", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,19 +183,17 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A Node library that issues Apple and Google Wallet passes from any edge runtime — the same pass
 data produces a signed <code>.pkpass</code> for iOS and a save-link JWT for Android, without any Node
-built-ins.</p>
-<h2>Who built it</h2>
+built-ins.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>alexpate (Alex Pate), an independent developer long embedded in the JS/TypeScript/edge-computing
 world, with prior work near the Pusher and StackBlitz ecosystems. The repo lives under the
 getpassmint organization, and there is also passmint.com plus an npm package <code>@passmint/node</code>
 (&quot;official Node SDK for the Passmint API&quot;) — the latter hinting at a hosted API service behind it.</p>
 <p><em>Read: when a solo developer ships a library first, the usual plan is to charge for a hosted
-service later. The library is the funnel and the trust-builder.</em></p>
-<h2>What it actually does</h2>
+service later. The library is the funnel and the trust-builder.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>One schema, two wallets</strong> → after <code>Pass.eventTicket({...}).build()</code>, <code>sign(apple)</code> yields
 <code>.pkpass</code> bytes and <code>toGoogleSaveLink(google)</code> yields a Google Wallet save-link JWT</li>
@@ -205,29 +203,25 @@ Edge, Deno, Bun, Supabase Edge, Netlify Edge, and Node 20+</li>
 typed error hierarchy; CI includes a bundle-guard that fails the build on any <code>node:*</code> import</li>
 <li><strong>Common pass styles</strong> → event tickets plus the usual Apple/Google pass families (exact
 coverage not fully verified)</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Supporting both Apple and Google Wallet used to mean maintaining two generation paths: hand-built
 <code>.pkpass</code> with manifest and signature (usually node-forge / node:crypto) on the Apple side, and a
 separately constructed JWT on the Google side. Worse, those Node built-ins do not exist in edge
 runtimes, so teams ended up running a dedicated &quot;pass issuance&quot; microservice on traditional Node.
 passmint replaces both &quot;two logic paths&quot; and &quot;a special service that only runs in classic
-environments.&quot;</p>
-<h2>Business model</h2>
+environments.&quot;</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Library is MIT open source; a hosted service is hinted at but undisclosed.</strong> passmint.com is set
 as the repo homepage and an &quot;official SDK for the Passmint API&quot; exists on npm, but pricing and
 launch status are not public.</p>
 <p><em>Read: pass issuance is a low-frequency operation, hard to scale on per-call fees. A real business
 would have to come from batch issuance or pass-update pushes; otherwise this stays a personal
-technical showcase.</em></p>
-<h2>Hard numbers</h2>
+technical showcase.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>4 stars, 1 fork.</strong> Created 2026-04-15, officially pre-1.0 alpha</li>
 <li>119 commits, 7 branches, 8 tags, last commit 2026-07-27; npm <code>passmint</code> 0.1.0 published ~3 weeks ago</li>
 <li>5 points on HN, 0 comments</li>
 <li>No users, no revenue data</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -253,31 +247,26 @@ technical showcase.</em></p>
   <td>Wallet passes as a channel are warming up, but the issuing library itself is a low-moat small market; the hosted API is the real battlefield</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Good engineering, tiny market, and today it is still just a business card.</strong> Four stars means no
 one has really trusted it yet, and a pre-1.0 API scares off early adopters. The technical choices
 (zero Node built-ins, edge-first) are exactly right for its audience, but issuing wallet passes is
 not a high-frequency need, and a library alone is unlikely to grow paying intent.</p>
 <p><strong>Watch whether the hosted API lands and how it is priced.</strong> The library is the hook; the service
 is the business. If passmint.com never ships a paid offering, this stays a demonstration of the
-author's craft.</p>
-<h2>What to watch next</h2>
+author's craft.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars cross 100 in three months and whether any third-party repo actually depends on it
 ② Whether the passmint.com hosted API launches and how it is priced — the real demand test
-③ Whether it leaves pre-1.0 and the API stabilizes</p>
-<h2>What you can take from it</h2>
+③ Whether it leaves pre-1.0 and the API stabilizes</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: for anything that must run in constrained environments, turn &quot;zero external
 dependencies&quot; into a CI-enforced gate instead of a promise. passmint's bundle-guard fails the
 build on any violating import, converting compatibility from &quot;hope&quot; into &quot;requirement.&quot; Copy that
 idea for your own multi-runtime library.</p>
 <p><strong>Positioning language</strong>: none. Engineering documentation; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> Solid engineering fundamentals, but no users, no revenue, and no hosted service on
 the ground. For now it is a business card for the author. The three checks above are your
-three-month re-evaluation.</p>
-
+three-month re-evaluation.</p></article></div>
     </article>
   </section>
 

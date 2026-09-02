@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/lumabri.html#webpage", "@type": "WebPage", "description": "Ordinary computers join a swarm to run a huge model: you bring disk, others bring compute, and the weights never leave the machine.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Lumabri", "url": "https://xocto.vercel.app/en/p/lumabri.html"}, {"@id": "https://xocto.vercel.app/en/p/lumabri.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-15", "datePublished": "2026-08-10", "description": "Ordinary computers join a swarm to run a huge model: you bring disk, others bring compute, and the weights never leave the machine.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/lumabri.html#webpage"}, "name": "Lumabri", "url": "https://xocto.vercel.app/en/p/lumabri.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/lumabri.html", "name": "Lumabri", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/lumabri.html#webpage", "@type": "WebPage", "description": "Ordinary computers join a swarm to run a huge model: you bring disk, others bring compute, and the weights never leave the machine.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Lumabri", "url": "https://xocto.vercel.app/en/p/lumabri.html"}, {"@id": "https://xocto.vercel.app/en/p/lumabri.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-15", "datePublished": "2026-08-10", "description": "Ordinary computers join a swarm to run a huge model: you bring disk, others bring compute, and the weights never leave the machine.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/lumabri.html#webpage"}, "name": "Lumabri", "url": "https://xocto.vercel.app/en/p/lumabri.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/lumabri.html", "name": "Lumabri", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,11 +183,10 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A peer-to-peer swarm of ordinary computers running very large MoE models —
-your machine donates disk, another machine donates compute. Napster for LLMs.</p>
-<h2>Who built it</h2>
+your machine donates disk, another machine donates compute. Napster for LLMs.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>GitHub user JustVugg (HN handle vforno), a solo developer. Apache-2.0, written in pure C.
 Repository created 2026-08-04; 80 commits in ten days; 47 stars / 2 forks.</p>
 <p>It is not a fresh start: the author first built Colibrì, a single-machine project
@@ -199,8 +198,7 @@ no GPU cluster, built with whatever hardware he owns.</p>
 <p><em>Read: a classic solo extreme-engineering project, not a business. The real signal is
 the two-step sequence — first prove a MoE can be run frugally on one machine, then ask
 whether many ordinary machines can become one big machine. The question order is worth
-more than the code.</em></p>
-<h2>What it actually does</h2>
+more than the code.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>P2P weight distribution</strong> → a tracker (index) + maintainer (byte-range manager) +
 <code>liblumibri.so</code> (an LD_PRELOAD shim that keeps a sparse local mirror and fails over
@@ -218,8 +216,7 @@ the v2 protocol adds signed checkpoints, crash-safe mirrors, and connection gati
 </ul>
 <p><strong>The core claim is byte identity</strong>: the README says remote execution has been verified
 to produce byte-identical output to local execution on OLMoE, GLM, Inkling, Kimi K3,
-and DeepSeek V4.</p>
-<h2>What old behavior it replaces</h2>
+and DeepSeek V4.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Running a hundred-billion-parameter MoE model previously meant exactly one path:
 rent or buy a GPU cluster big enough. Costed by the month, out of reach for most people.</p>
 <p>Lumabri argues for two replacements:</p>
@@ -235,14 +232,12 @@ production. On HN, commenter &quot;hazard&quot; named the three fundamental issu
 consumer card can't even hold one expert's weights, cross-node activation transfer
 slows each token to hundreds of milliseconds, and a P2P network has no reliable
 anti-cheat except duplicate computation (SHA-256 hashes files, not computation
-results). The README does not answer any of the three.</p>
-<h2>Business model</h2>
+results). The README does not answer any of the three.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Pure open-source experiment. No hosted service, no pricing page, no revenue path.</p>
 <p><em>Read: this question is premature — the project has not even reached the point of asking
 it. The more interesting question is that if P2P inference ever works, the money form
 would be incentives for node contributors (deposit-and-forfeit, like Bittensor), not
-software licenses. Too early to discuss.</em></p>
-<h2>Hard numbers</h2>
+software licenses. Too early to discuss.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>47 stars / 2 forks.</strong> Created 2026-08-04, Apache-2.0, pure C</li>
 <li>HN post 8 points / 10 comments (a second post: 6 points / 0 comments) — low attention</li>
@@ -251,8 +246,7 @@ expert replication 10.5 vs 1.4 tok/s at 2ms/30ms latency; cold-mirror prefetch g
 45-50%; chat client RSS at 1.04 GB</li>
 <li>Byte-identity claimed verified on: OLMoE, GLM, Inkling, Kimi K3, DeepSeek V4</li>
 <li>Team size, enterprise users: N/A (personal project)</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -278,8 +272,7 @@ expert replication 10.5 vs 1.4 tok/s at 2ms/30ms latency; cold-mirror prefetch g
   <td>Too early, and path-dependent on an unproven assumption (strangers willing to run models for each other)</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is a hypothesis about AI model distribution, not a product.</strong> Worth following,
 but graded as a hypothesis.</p>
 <p>Three points worth keeping:</p>
@@ -297,27 +290,23 @@ economics, not cryptography.</li>
 <p><strong>Why Unproven rather than Worth watching is straightforward</strong>: low attention (8 HN
 points), no business model, and none of the three structural problems addressed. But
 if in three months it demonstrates usable speed across an internet-scale swarm, the
-architecture notes deserve a careful read.</p>
-<h2>What to watch next</h2>
+architecture notes deserve a careful read.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether any independent third party (not the author) reproduces the speed numbers at
 real internet latency
 ② Whether any contributor incentive appears — P2P inference without incentives has never
 run in production
 ③ Whether stars and community engagement pick up — if they do not, even the developer
-community is signaling disbelief in the direction</p>
-<h2>What you can take from it</h2>
+community is signaling disbelief in the direction</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: if you hold a compute-heavy task that is verify-able and
 read-heavy/write-light, outsourcing computation to a network is worth a serious look —
 cheaper than renting GPUs and cheap to verify. If your task is generative and
 subjective, cross P2P outsourcing off the list; anti-cheat costs will eat the gains.</p>
 <p><strong>Positioning language</strong>: none. This is engineering documentation; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven — logged with a probation period.</strong> A beautiful hypothesis, serious
 engineering, and no product destiny. If P2P inference as a direction is falsified,
 Lumabri is a high-quality technical notebook; if it is confirmed, this is the first
-complete blueprint. Come back in three months against the three checks above.</p>
-
+complete blueprint. Come back in three months against the three checks above.</p></article></div>
     </article>
   </section>
 

@@ -12,15 +12,23 @@
     </div>
   </header>
 
-  <article class="prose product-prose">
-    <h2>{{ t.privacy.what_title }}</h2>
-    <p>{{ t.privacy.what_body }}</p>
-    <h2>{{ t.privacy.choice_title }}</h2>
-    <p>{{ t.privacy.choice_body }}</p>
-    <h2>{{ t.privacy.services_title }}</h2>
-    <p>{{ t.privacy.services_body }}</p>
-    <h2>{{ t.privacy.no_personal_title }}</h2>
-    <p>{{ t.privacy.no_personal_body }}</p>
-  </article>
+  <div class="desk-prose reading-prose">
+    <article class="desk-prose-block">
+      <h2>{{ t.privacy.what_title }}</h2>
+      <p>{{ t.privacy.what_body }}</p>
+    </article>
+    <article class="desk-prose-block">
+      <h2>{{ t.privacy.choice_title }}</h2>
+      <p>{{ t.privacy.choice_body }}</p>
+    </article>
+    <article class="desk-prose-block">
+      <h2>{{ t.privacy.services_title }}</h2>
+      <p>{{ t.privacy.services_body }}</p>
+    </article>
+    <article class="desk-prose-block">
+      <h2>{{ t.privacy.no_personal_title }}</h2>
+      <p>{{ t.privacy.no_personal_body }}</p>
+    </article>
+  </div>
 </div>
 {% endblock %}

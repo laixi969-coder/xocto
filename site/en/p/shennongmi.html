@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/shennongmi.html#webpage", "@type": "WebPage", "description": "Questions about herbs and formulas no longer let the model invent. It checks a structured graph first, and admits it if nothing is there.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ShenNongMi", "url": "https://xocto.vercel.app/en/p/shennongmi.html"}, {"@id": "https://xocto.vercel.app/en/p/shennongmi.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Life", "dateModified": "2026-08-13", "datePublished": "2026-07-29", "description": "Questions about herbs and formulas no longer let the model invent. It checks a structured graph first, and admits it if nothing is there.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/shennongmi.html#webpage"}, "name": "ShenNongMi", "url": "https://xocto.vercel.app/en/p/shennongmi.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/shennongmi.html", "name": "ShenNongMi", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/shennongmi.html#webpage", "@type": "WebPage", "description": "Questions about herbs and formulas no longer let the model invent. It checks a structured graph first, and admits it if nothing is there.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ShenNongMi", "url": "https://xocto.vercel.app/en/p/shennongmi.html"}, {"@id": "https://xocto.vercel.app/en/p/shennongmi.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Life", "dateModified": "2026-08-13", "datePublished": "2026-07-29", "description": "Questions about herbs and formulas no longer let the model invent. It checks a structured graph first, and admits it if nothing is there.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/shennongmi.html#webpage"}, "name": "ShenNongMi", "url": "https://xocto.vercel.app/en/p/shennongmi.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/shennongmi.html", "name": "ShenNongMi", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,22 +183,20 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A traditional Chinese medicine (TCM) knowledge navigator: a 19,000+ node Neo4j
 knowledge graph as the base, wired to a LangGraph workflow with self-correcting
 NL2Cypher, so TCM questions are answered from the graph rather than hallucinated
 by the model — plus a pipeline that auto-generates wellness content and publishes
-it to Xiaohongshu (RED).</p>
-<h2>Who built it</h2>
+it to Xiaohongshu (RED).</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>GitHub author Happy-Chen-CH; the README states it was developed in collaboration
 with Claude, for educational and research purposes only, with data sourced from
 public TCM encyclopedia sites. Author identity and background: not disclosed.</p>
 <p><em>Read: a typical one-person-plus-AI technical project. Its value is running a full
 &quot;knowledge graph + agent workflow&quot; stack end-to-end and open-sourcing it — not
 productizing it. The author appears to be validating whether that architecture can
-land in the TCM domain.</em></p>
-<h2>What it actually does</h2>
+land in the TCM domain.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>TCM knowledge Q&amp;A</strong> → answers questions about herbs, formulas, symptoms,
 effects, and classical texts from the Neo4j graph (19K+ nodes, 6 entity types,
@@ -215,8 +213,7 @@ Volcano Engine Jimeng AI images and publishes to Xiaohongshu via Playwright</li>
 and 6 relation types</li>
 </ul>
 <p><strong>Stack</strong>: DeepSeek v4 (extraction/QA/Cypher), Neo4j, LangGraph (14-node
-workflow), FAISS, Streamlit frontend + FastAPI backend (SSE streaming).</p>
-<h2>What old behavior it replaces</h2>
+workflow), FAISS, Streamlit frontend + FastAPI backend (SSE streaming).</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Three ways to look up TCM knowledge before this: search engines — broad but
 noisy, with uneven reliability; asking an LLM directly — TCM is exactly the
 domain where models confidently fabricate, and wrong herb properties, meridian
@@ -227,23 +224,20 @@ unreliability: the knowledge graph anchors every answer, the model only arranges
 the graph query result into language, and when it cannot answer, it says so rather
 than inventing. It also turns &quot;posting wellness content to Xiaohongshu&quot; from
 hand-writing, sourcing images, logging in, and publishing manually into an
-automated pipeline.</p>
-<h2>Business model</h2>
+automated pipeline.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> MIT open source, purely educational/research, no product, no service,
 no pricing.</p>
 <p><em>Read: the commercial value of such a project is not in the free demo itself but
 in the pattern — &quot;vertical knowledge graph + self-correcting query.&quot; If it works
 for TCM, the same approach could be replicated in law, finance, or machinery,
-which all have strongly structured knowledge. The author has not productized it.</em></p>
-<h2>Hard numbers</h2>
+which all have strongly structured knowledge. The author has not productized it.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>GitHub: 103 stars / 7 forks / 0 open issues, 5 commits total (latest 2026-08-07)</li>
 <li>Graph: 19,000+ nodes, 6 entity types, 6 relation types</li>
 <li>Workflow: 14 nodes (LangGraph)</li>
 <li>Claimed intent-recognition accuracy: 99.75% (fastText + RoBERTa-LoRA dual model)</li>
 <li>Authors, users, activity: single-author project, no user data</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -269,8 +263,7 @@ which all have strongly structured knowledge. The author has not productized it.
   <td>The &quot;vertical knowledge graph as moat&quot; thesis is timely, but the project has no commercial follow-through</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Watch the mechanism, not the product.</strong></p>
 <p>&quot;Constrain LLM output with a knowledge graph&quot; is one of 2026's most overrated and
 most underrated vertical-AI theses. Overrated because building the graph is
@@ -285,29 +278,25 @@ knowledge is far larger, so the &quot;can answer&quot; range is narrow. Second, 
 Xiaohongshu publishing is a compliance gray zone — even the project's own
 disclaimer requires following platform terms, and automation may violate them;
 this feature is risky as a product. Third, five commits, a single author, and no
-users put it closer to a technical experiment than to &quot;usable&quot; or &quot;used.&quot;</p>
-<h2>What to watch next</h2>
+users put it closer to a technical experiment than to &quot;usable&quot; or &quot;used.&quot;</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars pass 500 in three months and commit cadence stays alive — the
 difference between a one-off and a maintained project
 ② Whether the graph scales (node count, classical-text coverage) — vertical depth
 sets the ceiling
 ③ Whether third parties (health-communication or knowledge-payment teams) build
 products on it — how often an open-source template gets reused is the real
-influence metric for this kind of project</p>
-<h2>What you can take from it</h2>
+influence metric for this kind of project</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: for vertical Q&amp;A, do not expect the LLM to answer directly.
 Make a structured knowledge base (graph/database) the single source of truth, let
 the LLM only phrase the query results, and make &quot;state it when you cannot find it&quot;
 the default. This &quot;knowledge-base-constrained generation&quot; architecture transfers
 to any domain with strongly structured knowledge.</p>
 <p><strong>Positioning language</strong>: none. Technical documentation; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not commercialized.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not commercialized.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The &quot;vertical graph constrains the LLM&quot; mechanism is worth learning
 from, but the project is still a single-person technical experiment: shallow data,
 almost no iteration, no users, no commercial intent. Watch how it gets reused as a
-template rather than what it becomes itself.</p>
-
+template rather than what it becomes itself.</p></article></div>
     </article>
   </section>
 

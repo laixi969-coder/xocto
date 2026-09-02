@@ -809,7 +809,8 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
 }
 .product-lede,
 .report-lede {
-  max-width: 72ch;
+  max-width: none;
+  width: min(100%, 56rem);
   margin: 14px 0 0;
   color: var(--ink-soft);
   font-size: 15.5px;
@@ -853,9 +854,12 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
 .product-desk .desk-band,
 .report-desk .report-sec,
 .reports-desk .desk-band,
-.reading-desk .prose {
+.reading-desk .prose,
+.reading-desk .desk-prose {
   padding-top: clamp(28px, 3.5vw, 40px);
   padding-bottom: clamp(28px, 3.5vw, 40px);
+  max-width: none;
+  width: 100%;
 }
 .product-desk .desk-sec,
 .reports-desk .desk-sec,
@@ -1104,8 +1108,154 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
   align-self: start;
 }
 .product-prose {
-  max-width: 74ch;
-  padding-top: 8px;
+  max-width: none;
+  width: 100%;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+.product-desk .desk-prose,
+.reading-desk .desk-prose {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.product-desk .desk-prose-lead,
+.reading-desk .desk-prose-lead {
+  margin: 0 0 4px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.product-desk .desk-prose-block,
+.reading-desk .desk-prose-block {
+  margin: 0;
+  padding: 16px 18px;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+  color: var(--ink);
+}
+.product-desk .desk-prose-block > h2,
+.reading-desk .desk-prose-block > h2 {
+  margin: 0 0 12px;
+  color: var(--ink-faint);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  line-height: 1.35;
+}
+.product-desk .desk-prose-block > h3,
+.reading-desk .desk-prose-block > h3 {
+  margin: 16px 0 8px;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  line-height: 1.35;
+}
+.product-desk .desk-prose-block > p,
+.reading-desk .desk-prose-block > p {
+  margin: 0 0 12px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.product-desk .desk-prose-block > p:last-child,
+.product-desk .desk-prose-block > ul:last-child,
+.product-desk .desk-prose-block > ol:last-child,
+.product-desk .desk-prose-block > table:last-child,
+.product-desk .desk-prose-block > em:last-child,
+.reading-desk .desk-prose-block > p:last-child,
+.reading-desk .desk-prose-block > ul:last-child,
+.reading-desk .desk-prose-block > ol:last-child,
+.reading-desk .desk-prose-block > table:last-child,
+.reading-desk .desk-prose-block > em:last-child {
+  margin-bottom: 0;
+}
+.product-desk .desk-prose-block > ul,
+.product-desk .desk-prose-block > ol,
+.reading-desk .desk-prose-block > ul,
+.reading-desk .desk-prose-block > ol {
+  margin: 0 0 12px;
+  padding-left: 1.15em;
+}
+.product-desk .desk-prose-block li,
+.reading-desk .desk-prose-block li {
+  margin-bottom: 6px;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.55;
+}
+.product-desk .desk-prose-block li:last-child,
+.reading-desk .desk-prose-block li:last-child { margin-bottom: 0; }
+.product-desk .desk-prose-block strong,
+.reading-desk .desk-prose-block strong { color: var(--ink); font-weight: 600; }
+.product-desk .desk-prose-block code,
+.reading-desk .desk-prose-block code {
+  background: color-mix(in srgb, var(--ink) 6%, var(--surface));
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink);
+}
+.product-desk .desk-prose-block em,
+.reading-desk .desk-prose-block em {
+  display: block;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--ink) 3%, var(--surface));
+  color: var(--ink-soft);
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.product-desk .desk-prose-block table,
+.reading-desk .desk-prose-block table {
+  width: 100%;
+  margin: 4px 0 0;
+  border-collapse: collapse;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.product-desk .desk-prose-block th,
+.reading-desk .desk-prose-block th {
+  padding: 8px 12px 8px 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-faint);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-align: left;
+}
+.product-desk .desk-prose-block td,
+.reading-desk .desk-prose-block td {
+  padding: 10px 12px 10px 0;
+  border-bottom: 1px solid var(--line-soft);
+  vertical-align: top;
+  color: var(--ink-soft);
+}
+.product-desk .desk-prose-block tr:last-child td,
+.reading-desk .desk-prose-block tr:last-child td { border-bottom: 0; }
+.product-desk .desk-prose-block a,
+.reading-desk .desk-prose-block a {
+  color: var(--signal);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.product-desk .desk-prose-block blockquote,
+.reading-desk .desk-prose-block blockquote {
+  margin: 12px 0 0;
+  padding: 8px 0 8px 12px;
+  border-left: 2px solid var(--line);
+  color: var(--ink-soft);
 }
 .product-onward { margin-top: 12px; padding-top: 8px; }
 
@@ -1353,4 +1503,51 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
 }
 .report-desk .report-layout {
   grid-template-columns: minmax(0, 1fr) minmax(180px, 210px);
+}
+
+
+/* ===== Products directory desk shell ===== */
+.products-desk .desk-command {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(220px, .7fr);
+  align-items: stretch;
+  gap: clamp(28px, 5vw, 72px);
+  padding: clamp(36px, 4.5vw, 56px) 0 clamp(28px, 3.5vw, 40px);
+  border-bottom: 1px solid var(--line-soft);
+}
+.products-desk .desk-band {
+  padding-top: clamp(20px, 2.5vw, 28px);
+  padding-bottom: clamp(28px, 3.5vw, 40px);
+}
+.products-desk .directory.grid,
+.products-desk .grid.directory {
+  margin-top: 16px;
+}
+.products-desk .card {
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+}
+
+.product-desk .product-markets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.product-desk .product-markets .field {
+  margin: 0;
+  padding: 16px 18px;
+  border: 1px solid var(--line-soft);
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  box-shadow: var(--shadow-card);
+}
+.product-desk .product-markets .field .note {
+  max-width: none;
+  margin-top: 8px;
+}
+@media (max-width: 720px) {
+  .product-desk .product-markets { grid-template-columns: 1fr; }
+  .products-desk .desk-command { grid-template-columns: 1fr; }
 }

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/debroid.html#webpage", "@type": "WebPage", "description": "Lets a coding AI debug a live Android app from the terminal: breakpoints, variables, and crashes, with no on-screen debugger.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "debroid", "url": "https://xocto.vercel.app/en/p/debroid.html"}, {"@id": "https://xocto.vercel.app/en/p/debroid.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-23", "datePublished": "2026-08-02", "description": "Lets a coding AI debug a live Android app from the terminal: breakpoints, variables, and crashes, with no on-screen debugger.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/debroid.html#webpage"}, "name": "debroid", "url": "https://xocto.vercel.app/en/p/debroid.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/debroid.html", "name": "debroid", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/debroid.html#webpage", "@type": "WebPage", "description": "Lets a coding AI debug a live Android app from the terminal: breakpoints, variables, and crashes, with no on-screen debugger.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "debroid", "url": "https://xocto.vercel.app/en/p/debroid.html"}, {"@id": "https://xocto.vercel.app/en/p/debroid.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-23", "datePublished": "2026-08-02", "description": "Lets a coding AI debug a live Android app from the terminal: breakpoints, variables, and crashes, with no on-screen debugger.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/debroid.html#webpage"}, "name": "debroid", "url": "https://xocto.vercel.app/en/p/debroid.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/debroid.html", "name": "debroid", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,21 +183,19 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A headless Android debugger for AI coding agents: the agent runs commands in the terminal and,
 through the JDWP (Java Debug Wire Protocol), sets breakpoints, traps exceptions, steps through
 code, inspects and mutates variables, and watches fields on a live Android app — no GUI, all
-strict machine-parseable JSON.</p>
-<h2>Who built it</h2>
+strict machine-parseable JSON.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Shreyas Patil (GitHub <code>PatilShreyas</code>), an experienced Android/Kotlin developer well known in
 the Kotlin community for a long line of Android infrastructure open-source projects.
 Apache-2.0, Kotlin/JVM via the Java Debug Interface, with GitHub Actions CI.</p>
 <p><em>Read: only someone who really understands JVM debug protocols could write this — it exposes
 the same JDWP channel humans use in Android Studio as a machine-readable CLI, instead of
 building screenshot recognition or instrumentation. That is the right way to use your old
-domain knowledge: reuse the most mature protocol in the field rather than inventing a wheel.</em></p>
-<h2>What it actually does</h2>
+domain knowledge: reuse the most mature protocol in the field rather than inventing a wheel.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Breakpoints</strong> → line breakpoints on any class, auto-deferred if the class isn't loaded yet</li>
 <li><strong>Exception traps</strong> → globally catch caught or uncaught exceptions (uncaught-only by default)</li>
@@ -217,8 +215,7 @@ debug connection and breakpoint state survive across agent invocations because t
 daemon holds them.</p>
 <p><strong>What it deliberately does not do</strong>: no GUI, no instrumentation hooks, no test reports. And the
 security note is blunt: the daemon listens on localhost without authentication and exposes live
-JVM manipulation — run it only on machines where every local user is trusted.</p>
-<h2>What old behavior it replaces</h2>
+JVM manipulation — run it only on machines where every local user is trusted.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Debugging an Android bug with an AI agent used to be blind guesswork: writing code works, but
 runtime debugging doesn't — the agent can't open Android Studio, click through the UI, set a
 breakpoint, inspect memory, or pause execution. So agents debugged from logcat and guessed,
@@ -226,21 +223,18 @@ each wrong guess costing a rebuild cycle.</p>
 <p>Debroid replaces the <strong>&quot;human doing runtime debugging in Android Studio&quot;</strong> step: every GUI
 action is translated into deterministic JSON commands, letting the agent itself go
 &quot;hypothesize a bug → launch the app → land on the exact failing line → read the device's live
-state → evaluate the fix.&quot;</p>
-<h2>Business model</h2>
+state → evaluate the fix.&quot;</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Apache-2.0, free, no hosted service, no pricing. The author presumably has a day job.</p>
 <p><em>Read: the classic personal open-source-tool-for-reputation pattern, with no near-term
 commercial intent. But it validates a category — &quot;let agents operate real devices and real
 runtimes&quot; — which will probably be commercialized later through agent-native workflows
-(harnesses, IDEs, cloud debug services) rather than through this CLI itself.</em></p>
-<h2>Hard numbers</h2>
+(harnesses, IDEs, cloud debug services) rather than through this CLI itself.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>162 stars / 7 forks</strong> (2026-08-12, per pool data)</li>
 <li>Created 2026-08-02; 90 commits to v0.1.0 in nine days — very high early development density</li>
 <li>Apache-2.0, Kotlin/JVM, ~22 commands</li>
 <li>Users, enterprise adoption, funding: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -266,8 +260,7 @@ runtimes&quot; — which will probably be commercialized later through agent-nat
   <td>Ahead of the demand curve — agents are still mostly doing web/desktop; mobile debugging demand is just emerging, and so is the paying side</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Top-tier execution for a project this size, but the category's commercial timing is early.</strong></p>
 <p>The smartest decision is <strong>reusing JDWP instead of inventing</strong>. The debug protocol is two
 decades of deterministic engineering in the JVM world; exposing it as JSON CLI hands every
@@ -279,14 +272,12 @@ persistent daemon keeps the debug session alive across calls — the structure e
 interface should copy.</p>
 <p><strong>Two realities</strong>: platform lock-in (Android only; iOS is another protocol stack and won't be
 covered by accident), and demand timing — most teams haven't even gotten agents to write mobile
-code reliably yet, let alone debug it. Great tool, waiting for its queue.</p>
-<h2>What to watch next</h2>
+code reliably yet, let alone debug it. Great tool, waiting for its queue.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars clear 1,000 in three months — does the week-one spike become sustained adoption
 ② Whether anyone wires debroid into a real CI/emulator flow and says so publicly (blog, issue,
 demo) — real use, or just enthusiasm
 ③ Whether it expands to iOS/web debugging or ships a managed daemon — single-platform is the
-hard ceiling, and that is the breaking point</p>
-<h2>What you can take from it</h2>
+hard ceiling, and that is the breaking point</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: to give an agent &quot;hands,&quot; reach first for the field's most mature
 deterministic protocol (debug protocol, scripting protocol, CLI) and wrap it as JSON — reusing
 the protocol saves a decade of trial and error over custom instrumentation or visual approaches.</p>
@@ -295,13 +286,11 @@ agent tools; letting each agent call pick up the previous context is what decide
 tool survives long-term agent use.</p>
 <p><strong>Distribution</strong>: embedding SKILL.md in the binary and installing into six harnesses with one
 command — &quot;how an agent learns to use your tool&quot; is a distribution problem, not a docs problem,
-and this solution is directly copyable.</p>
-<h2>Verdict</h2>
+and this solution is directly copyable.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven (execution worth watching).</strong> Right author, right approach, high completeness — but
 162 stars, a single platform, no monetization, and demand ahead of its market all point to
 &quot;wait.&quot; File it as the benchmark sample for the &quot;let agents operate real runtimes&quot; category and
-revisit against the three checks above in three months.</p>
-
+revisit against the three checks above in three months.</p></article></div>
     </article>
   </section>
 

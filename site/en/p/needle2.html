@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/needle2.html#webpage", "@type": "WebPage", "description": "Tell a phone or watch to turn on the light. No network, no cloud wait \u2014 the device finishes in tens of milliseconds.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Needle2", "url": "https://xocto.vercel.app/en/p/needle2.html"}, {"@id": "https://xocto.vercel.app/en/p/needle2.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Tell a phone or watch to turn on the light. No network, no cloud wait \u2014 the device finishes in tens of milliseconds.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/needle2.html#webpage"}, "name": "Needle2", "sameAs": "https://cactuscompute.com/needle", "url": "https://xocto.vercel.app/en/p/needle2.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/needle2.html", "name": "Needle2", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/needle2.html#webpage", "@type": "WebPage", "description": "Tell a phone or watch to turn on the light. No network, no cloud wait \u2014 the device finishes in tens of milliseconds.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Needle2", "url": "https://xocto.vercel.app/en/p/needle2.html"}, {"@id": "https://xocto.vercel.app/en/p/needle2.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Tell a phone or watch to turn on the light. No network, no cloud wait \u2014 the device finishes in tens of milliseconds.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/needle2.html#webpage"}, "name": "Needle2", "sameAs": "https://cactuscompute.com/needle", "url": "https://xocto.vercel.app/en/p/needle2.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/needle2.html", "name": "Needle2", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,12 +184,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A 14MB, 45M-parameter agentic LLM that does tool calling inside 28MB of RAM on phones,
 wearables, smart-home devices, and robots — moving &quot;understand a sentence, call a
-device function&quot; from the cloud onto the device.</p>
-<h2>Who built it</h2>
+device function&quot; from the cloud onto the device.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Cactus Compute (cactuscompute.com, &quot;Cactus&quot;), an on-device AI company with three
 product lines: Needle (tiny agentic model), Engine (edge inference runtime), and
 Hybrid (post-trained edge-cloud cooperation). Needle 2 is the open-sourced model.</p>
@@ -198,8 +197,7 @@ Pebble uses Needle in its Index 01 app for local voice-command processing.</p>
 <p><em>Read: Pebble adoption is the strongest signal available in the small-model space —
 hardware constraints on power, memory, and response time are harsher than any
 benchmark. But note the model is open source; the company monetizes through Engine
-and Hybrid. The model is the customer-acquisition entry point.</em></p>
-<h2>What it actually does</h2>
+and Hybrid. The model is the customer-acquisition entry point.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Device use / function calling</strong> → device capabilities are modeled as functions
 with typed parameters; the model maps a natural-language sentence to the right
@@ -222,8 +220,7 @@ permanent &quot;sinks&quot; that structurally cannot be evicted</li>
 multi-channel residual stream, 27 layers × 512 wide); single decode reads at most a
 14MB blob; grammar-aware decoding skips up to 98% of vocabulary projection;
 ~7–85x less compute per token than comparable models. Pre-trained on 115B tokens,
-post-trained on 38B tokens of compact reasoning traces.</p>
-<h2>What old behavior it replaces</h2>
+post-trained on 38B tokens of compact reasoning traces.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Device-side voice assistants and intent recognition previously had two expensive paths:</p>
 <p><strong>Calling a cloud LLM API.</strong> Latency, privacy, and offline failure — and running a
 hundred-billion-parameter model for a task like &quot;turn on a light&quot; is absurd resource
@@ -234,16 +231,14 @@ budget. Needle matches or beats them with 45M parameters and 14MB, turning &quot
 model on a tiny device&quot; from impossible into possible.</p>
 <p><strong>The core action it replaces</strong>: a cloud call that costs money, needs a network, and
 waits hundreds of milliseconds becomes a local function call that is free, offline,
-and tens of milliseconds.</p>
-<h2>Business model</h2>
+and tens of milliseconds.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Model open and free</strong> (&quot;the default path remains private, fast, and free&quot;). The
 company monetizes Engine (inference runtime) and Hybrid (edge-cloud). Specific
 pricing not disclosed.</p>
 <p><em>Read: the classic &quot;open-source model acquires, platform charges&quot; play — the model
 proves capability, the platform earns on deployment and cooperation. The risk: an
 open model has no moat; anyone can fine-tune a similar 14MB model, and the
-acquisition window is finite.</em></p>
-<h2>Hard numbers</h2>
+acquisition window is finite.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>HN 509 points / 171 comments</strong> (Show HN, 2026-08-12) — high same-day attention</li>
 <li><strong>45M params / 14MB single binary / 28MB peak session RAM</strong> (dependency-free C++)</li>
@@ -259,8 +254,7 @@ training); format correctness 93.4%</li>
 Apple FM at ~6,000)</li>
 <li>Target hardware: from Cortex-M microcontrollers (ESP32-S3, STM32H7) to x86 to
 WebAssembly</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -286,8 +280,7 @@ WebAssembly</li>
   <td>Good. Wearables, smart home, and cheap phones are scaling; &quot;small models for tool calling&quot; is one of the hottest on-device tracks of 2026</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the most complete technical narrative on the &quot;small model for tool calling&quot;
 track, and worth watching.</strong> FunctionGemma, LFM2.5, and Apple FM compete in the same
 field; Needle cuts size to 1/5–1/70 of the rivals with native 2-bit training and a
@@ -305,14 +298,12 @@ endorsement and the only public case, and whether a second and third device make
 adopts is the decisive question.</p>
 <p><strong>Worth watching</strong>: 509 HN points, real hardware adoption, and a complete technical
 narrative mean the data is not fabricated; but everything at the model level still
-needs independent verification.</p>
-<h2>What to watch next</h2>
+needs independent verification.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether a second device maker beyond Pebble publicly adopts it — hardware adoption
 is the hardest evidence for a model like this
 ② Whether any third party reproduces the benchmark numbers under standard protocols
 ③ Whether the model is downloadable on HuggingFace and community fine-tunes reproduce
-it — openness decides whether an ecosystem forms</p>
-<h2>What you can take from it</h2>
+it — openness decides whether an ecosystem forms</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when the task boundary is clear (mapping to a finite function set),
 do not default to &quot;bigger is better&quot; — first ask &quot;how much world knowledge does this
 task need?&quot; Cutting &quot;device control&quot; out of &quot;general conversation&quot; and building a
@@ -322,14 +313,12 @@ row measured with the final shipped binary, the rivals' f16 conditions stated
 explicitly, and the categories where it loses listed honestly. Honesty in comparison
 is credibility.</p>
 <p><strong>Pricing structure</strong>: free open model + paid platform (runtime / edge-cloud) is the
-standard on-device play; useful as a reference, no proprietary details.</p>
-<h2>Verdict</h2>
+standard on-device play; useful as a reference, no proprietary details.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> Complete technical narrative, real hardware adoption, and real
 discussion heat — &quot;a 14MB agent&quot; is itself a spreadable number. But self-measured
 benchmarks, a single public case, and an open model's missing moat keep this at Worth
 watching rather than Strong pick. Come back in three months against the three checks
-above.</p>
-
+above.</p></article></div>
     </article>
   </section>
 

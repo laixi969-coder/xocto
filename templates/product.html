@@ -156,7 +156,7 @@
         <p class="note">{{ t.product.decision_note }}</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
+    <article class="analysis-full product-prose">
       {{ analysis.body_html | safe }}
     </article>
   </section>
@@ -188,7 +188,7 @@
   {% if product.notes %}
   <section class="band desk-band">
     <div class="sec-head desk-sec"><div><h2>{{ t.product.notes }}</h2></div></div>
-    <div class="prose product-prose">{{ product.notes | md_inline }}</div>
+    <div class="product-prose product-notes">{{ product.notes | md_inline }}</div>
   </section>
   {% endif %}
 

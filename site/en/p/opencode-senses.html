@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/opencode-senses.html#webpage", "@type": "WebPage", "description": "Drop an error screenshot while coding. A cheap text-only model can still read the words and find the button.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OpenCode Senses", "url": "https://xocto.vercel.app/en/p/opencode-senses.html"}, {"@id": "https://xocto.vercel.app/en/p/opencode-senses.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-14", "description": "Drop an error screenshot while coding. A cheap text-only model can still read the words and find the button.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/opencode-senses.html#webpage"}, "name": "OpenCode Senses", "url": "https://xocto.vercel.app/en/p/opencode-senses.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/opencode-senses.html", "name": "OpenCode Senses", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/opencode-senses.html#webpage", "@type": "WebPage", "description": "Drop an error screenshot while coding. A cheap text-only model can still read the words and find the button.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OpenCode Senses", "url": "https://xocto.vercel.app/en/p/opencode-senses.html"}, {"@id": "https://xocto.vercel.app/en/p/opencode-senses.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-14", "description": "Drop an error screenshot while coding. A cheap text-only model can still read the words and find the button.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/opencode-senses.html#webpage"}, "name": "OpenCode Senses", "url": "https://xocto.vercel.app/en/p/opencode-senses.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/opencode-senses.html", "name": "OpenCode Senses", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,20 +183,18 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Eyes for a text-only-model coding agent: a small local vision model converts screenshots into
 structured text injected into the prompt, so cheap models without multimodal support can look at
-images, read text, and locate elements.</p>
-<h2>Who built it</h2>
+images, read text, and locate elements.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>A personal open-source project by itsmeadarsh2008, MIT licensed, published on npm as
 opencode-senses, v0.1.3. It serves OpenCode — the open-source terminal coding agent from the SST
 team (165k+ GitHub stars) with 75+ model providers, including text-only models. Repository created
 2026-07-19, 38 commits.</p>
 <p><em>Read: the author picked a precise gap — OpenCode deliberately supports cheap/text-only models, and
 &quot;give text models vision&quot; sits exactly on that route's pain point. The author's background is not
-disclosed.</em></p>
-<h2>What it actually does</h2>
+disclosed.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>13 vision tools</strong> → OCR (extractable by kind: all / code / error), object detection, region
 locating, segmentation, crop, zoom, color analysis, image comparison, labeling, metadata, reverse
@@ -211,8 +209,7 @@ instructions written inside screenshots are treated as data, not instructions</l
 <li><strong>Privacy</strong> → images and analysis never leave the machine, no API keys, free</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no multimodal-model substitute, no cloud service, no general
-visual Q&amp;A — just &quot;extract visual facts as text evidence.&quot;</p>
-<h2>What old behavior it replaces</h2>
+visual Q&amp;A — just &quot;extract visual facts as text evidence.&quot;</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <ul>
 <li><strong>Switching to a multimodal model to see images</strong> → text-only models could not look at anything;
 you had to switch to a paid multimodal API. Senses lets a local small model extract OCR,
@@ -223,23 +220,20 @@ text into the conversation; <code>senses_ocr(kind=&quot;error&quot;)</code> extr
 the human described it or the model guessed; now it is OCR'd first, so the model gets facts, not guesses</li>
 </ul>
 <p>It moves vision capability from the model side to the tool side — not an upgrade to the model, an
-upgrade to the facts fed to it.</p>
-<h2>Business model</h2>
+upgrade to the facts fed to it.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed / free.</strong> MIT open source, distributed via npm, no paid tier, no API fees; the
 user's own GPU is the cost.</p>
 <p><em>Read: the classic &quot;distribution in exchange for ecosystem&quot; play of the plugin economy — no direct
 revenue, a bet that when the OpenCode ecosystem matures, this becomes the default vision layer. The
 risk of this kind of project is built in: the platform ships official vision support and the plugin
-value goes to zero overnight.</em></p>
-<h2>Hard numbers</h2>
+value goes to zero overnight.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>26 stars, 0 forks, 0 open issues</strong> (fetched 2026-08-14). v0.1.3, 38 commits, created 2026-07-19</li>
 <li>Moondream 2 peak VRAM ~4.5GB; weights ~3.9GB; sub-second hot-cache responses</li>
 <li>13 tools; MIT; published on npm</li>
 <li>HN: 8 points, 2 comments</li>
 <li>Usage and download counts: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -265,8 +259,7 @@ value goes to zero overnight.</em></p>
   <td>The price-performance window for small-VRAM local vision models plus a rising open-source agent ecosystem — good timing</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The mechanism is worth watching; the product is under-validated.</strong>
 &quot;Structured perception + text injection&quot; is the cheapest way to give text-only or low-cost models a
 missing capability — no model swap, no API fees, runs locally. For anyone building agent products,
@@ -277,22 +270,18 @@ blocks prompt injection — a layer most vision agents simply skip, and exactly 
 workflows are most attackable.</p>
 <p><strong>The ceiling</strong>: Moondream 2-class models top out on complex UI understanding, and 26 stars with 0
 forks means no ecosystem position has been established. The moment OpenCode ships official vision,
-this is the first thing replaced.</p>
-<h2>What to watch next</h2>
+this is the first thing replaced.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether OpenCode's official plugin list includes it and whether stars cross 100
 ② Whether the sub-second hot-cache response holds on real projects (e.g., screenshot-to-front-end)
-③ Whether third parties build &quot;vision agent&quot; workflows on top of it (a dependency signal)</p>
-<h2>What you can take from it</h2>
+③ Whether third parties build &quot;vision agent&quot; workflows on top of it (a dependency signal)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when adding capability to text-only or low-cost models, prefer &quot;local small model
 extracts structured facts (OCR, bounding boxes, colors) and injects them as text&quot; over forcing a
 multimodal upgrade. Wrap injected content in an untrusted-data guard against prompt injection. This
 applies directly to agent products.</p>
 <p><strong>Positioning language</strong>: none.</p>
-<p><strong>Pricing structure</strong>: none. Free and open source.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Free and open source.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The mechanism transfers; the product validation does not. Come back in three months
-against the three checks above.</p>
-
+against the three checks above.</p></article></div>
     </article>
   </section>
 

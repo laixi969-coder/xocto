@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/stackdome.html#webpage", "@type": "WebPage", "description": "Deploy a whole app onto your own servers in one shot, without handing the keys to a hosted platform.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Stackdome", "url": "https://xocto.vercel.app/en/p/stackdome.html"}, {"@id": "https://xocto.vercel.app/en/p/stackdome.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "Deploy a whole app onto your own servers in one shot, without handing the keys to a hosted platform.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/stackdome.html#webpage"}, "name": "Stackdome", "sameAs": "https://stackdome.com", "url": "https://xocto.vercel.app/en/p/stackdome.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/stackdome.html", "name": "Stackdome", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/stackdome.html#webpage", "@type": "WebPage", "description": "Deploy a whole app onto your own servers in one shot, without handing the keys to a hosted platform.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Stackdome", "url": "https://xocto.vercel.app/en/p/stackdome.html"}, {"@id": "https://xocto.vercel.app/en/p/stackdome.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "Deploy a whole app onto your own servers in one shot, without handing the keys to a hosted platform.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/stackdome.html#webpage"}, "name": "Stackdome", "sameAs": "https://stackdome.com", "url": "https://xocto.vercel.app/en/p/stackdome.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/stackdome.html", "name": "Stackdome", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,21 +184,19 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>An open-source, self-hostable deployment platform that describes your whole application
 (services + databases + storage) in one Stackfile and ships it as a unit. The human-facing
 Canvas/CLI and the agent-facing skills operate on the same application model — an open-source,
-self-hostable alternative to Railway.</p>
-<h2>Who built it</h2>
+self-hostable alternative to Railway.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>The Stackdome team (lead author akshaysasidrn). Main repo is AGPL-3.0; the ecosystem also
 includes stackdome-cli (MIT), stackdome-skills (Apache-2.0), and cluster-agent (a Kubernetes
 operator). The repository was created 2025-05-20 and carries roughly 1,470 commits.</p>
 <p><em>Read: over a year of sustained commits says this is serious work, not a Show HN one-day stand.
 But only 20 stars in the same period says marketing and community never took off — the
 &quot;engineering first, cold-start failed&quot; shape is common, and the hard distinction is between
-&quot;nobody knows&quot; and &quot;nobody needs.&quot;</em></p>
-<h2>What it actually does</h2>
+&quot;nobody knows&quot; and &quot;nobody needs.&quot;</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>One app = one Stackfile</strong> → services, databases, storage, networking, and observability
 described once; all three surfaces (agent / Canvas / CLI) read and write the same model</li>
@@ -213,8 +211,7 @@ bare VPS with 2 vCPU / 4 GB</li>
 create, deploy, and debug from a prompt; an MCP server is in progress</li>
 <li><strong>Every change is a diff</strong> → the UI shows what moved, from what to what, and a release counts
 only after it is proven live and healthy</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>People who want to self-host and not hand their lifeblood to Vercel/Railway have had a set of
 awkward roads.</p>
 <p>The first is hosted PaaS — Railway/Render/Heroku. Convenient, but your infrastructure logic is
@@ -230,23 +227,20 @@ what is in the stack and has to guess.</p>
 <p>Stackdome replaces the union of roads two and three: a self-hosted PaaS that works out of the
 box, plus a programmatically operable unified application model for agents. That is what
 distinguishes it from Coolify and raw K8s — every entry point writes the same model, so humans
-and agents can hand work back and forth.</p>
-<h2>Business model</h2>
+and agents can hand work back and forth.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>Two tracks: an official cloud (alpha stage, capacity-limited, ephemeral environments) plus
 free self-hosting (AGPL-3.0). Cloud pricing is not disclosed.</p>
 <p><em>Read: the Supabase/Coolify pattern — open source for trust and distribution, cloud for revenue.
 But the cloud is still in alpha with &quot;capacity-limited&quot; written on the homepage, which means the
 business model itself has not started running. The AGPL choice is also clearly defensive: keep a
-hyperscaler from reselling the code as hosted competition.</em></p>
-<h2>Hard numbers</h2>
+hyperscaler from reselling the code as hosted competition.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>20 stars, 0 forks</strong> (main repo), created 2025-05-20, roughly 1,470 commits</li>
 <li>HN: 21 points, 6 comments (around 2026-08-13)</li>
 <li>Ecosystem repos: cli (MIT), skills (Apache-2.0), cluster-agent (K8s operator)</li>
 <li>Supports K8s v1.27+ or a single VPS with 2 vCPU / 4 GB</li>
 <li>Cloud users and paid revenue: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -272,8 +266,7 @@ hyperscaler from reselling the code as hosted competition.</em></p>
   <td>Good. The self-hosting wave is at full strength, and &quot;agent deploys for you&quot; is a brand-new need</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>A product at the intersection of two trends — the self-hosting wave and agent delivery. The
 direction is almost certainly right, but the execution evidence is thin.</strong> Self-hosted PaaS
 demand was proven by Coolify; a missing modern K8s-layer implementation is real; and letting
@@ -290,15 +283,13 @@ of whether this is a one-person side project and how long it can be sustained.</
 <p><strong>Its differentiation bet</strong>: agents operate the whole path from prompt to live, with human-
 reviewable diffs and rollbacks. That design is right, because the trust problem of agent
 deployment (&quot;what if the agent broke something&quot;) can only be answered with &quot;reviewable and
-rollbackable.&quot; But it still needs to prove that humans will actually use it.</p>
-<h2>What to watch next</h2>
+rollbackable.&quot; But it still needs to prove that humans will actually use it.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Pricing and GA timing at the end of the cloud alpha — whether the leap from free alpha to
 paid actually happens cleanly
 ② Whether stars and community grow within three months — 1,470 commits of engineering plus
 marketing would show up fast in stars; no growth means nobody wants it
 ③ Whether the MCP server and agent integrations get adopted in real agent workflows (a public
-case study beats any advertisement)</p>
-<h2>What you can take from it</h2>
+case study beats any advertisement)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when building an operation surface for agents, define the &quot;unified
 application model&quot; first — all entry points (human UI, CLI, agent) read and write the same
 model, then add features. That lets agents and humans hand one workflow back and forth, and it
@@ -308,13 +299,11 @@ yours.&quot; — compressing three entry points and two deployment modes into on
 is stronger than a feature list.</p>
 <p><strong>Pricing structure</strong>: the cloud + self-host dual track is the standard shape; the notable
 detail is AGPL — using AGPL on a self-hosted product to protect the hosted business is becoming
-the default pattern.</p>
-<h2>Verdict</h2>
+the default pattern.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The position sits at the right intersection of three trends and the
 architecture stands up, but 14 months and 20 stars support no optimistic conclusion. This is the
 most worth-revisiting project in this batch — because its bet (agent deployment + self-hosting)
-is either zero or very large.</p>
-
+is either zero or very large.</p></article></div>
     </article>
   </section>
 

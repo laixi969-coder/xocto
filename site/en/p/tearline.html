@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/tearline.html#webpage", "@type": "WebPage", "description": "Wrap an order or playlist on a page into a tear-off receipt image people actually want to send.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Tearline", "url": "https://xocto.vercel.app/en/p/tearline.html"}, {"@id": "https://xocto.vercel.app/en/p/tearline.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "Wrap an order or playlist on a page into a tear-off receipt image people actually want to send.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/tearline.html#webpage"}, "name": "Tearline", "sameAs": "https://tearline.kynth.studio", "url": "https://xocto.vercel.app/en/p/tearline.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/tearline.html", "name": "Tearline", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/tearline.html#webpage", "@type": "WebPage", "description": "Wrap an order or playlist on a page into a tear-off receipt image people actually want to send.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Tearline", "url": "https://xocto.vercel.app/en/p/tearline.html"}, {"@id": "https://xocto.vercel.app/en/p/tearline.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "Wrap an order or playlist on a page into a tear-off receipt image people actually want to send.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/tearline.html#webpage"}, "name": "Tearline", "sameAs": "https://tearline.kynth.studio", "url": "https://xocto.vercel.app/en/p/tearline.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/tearline.html", "name": "Tearline", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,13 +184,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>A custom element, <code>&lt;tear-line&gt;</code>, that wraps whatever HTML you already have and renders it as a torn-edge thermal receipt — then hands you a PNG. Not a template language, not an image service.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>A custom element, <code>&lt;tear-line&gt;</code>, that wraps whatever HTML you already have and renders it as a torn-edge thermal receipt — then hands you a PNG. Not a template language, not an image service.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Isaiah Kim (kyisaiah47 on HN/GitHub), an indie developer, hosted on his personal domain kynth.studio. It is his open-source project: MIT, zero dependencies, one file.</p>
-<p><em>Read: the classic &quot;built a receipt generator for myself and it turned into a general component.&quot; The docs (dom-to-png, share-image-custom-element, receipt-ui, spotify-receipt-generator) are more complete than most commercial products; this author has genuinely worked the technical problem to the bone.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: the classic &quot;built a receipt generator for myself and it turned into a general component.&quot; The docs (dom-to-png, share-image-custom-element, receipt-ui, spotify-receipt-generator) are more complete than most commercial products; this author has genuinely worked the technical problem to the bone.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Wrap any HTML</strong> — headings, tables, images, lists — inside <code>&lt;tear-line&gt;</code> and it renders as a thermal receipt: torn edge, barcode, paper texture</li>
 <li><strong>One call exports a PNG</strong> (<code>el.download()</code> / <code>el.toBlob()</code>), at any scale</li>
@@ -199,24 +197,20 @@
 <li><strong>Zero dependencies, zero build steps</strong>: works in any framework (React/Vue/Svelte/plain script tag)</li>
 <li>Four deep technical essays included, one of which walks through why Receiptify-style apps die (Spotify's five-user cap kills most of them)</li>
 </ul>
-<p><strong>What it deliberately does not do</strong>: no scannable barcode (decorative only), no server-side image service; images inside must be data: URIs because SVG foreignObject cannot fetch over the network — and the export throws rather than hand you a receipt with a hole in it.</p>
-<h2>What old behavior it replaces</h2>
+<p><strong>What it deliberately does not do</strong>: no scannable barcode (decorative only), no server-side image service; images inside must be data: URIs because SVG foreignObject cannot fetch over the network — and the export throws rather than hand you a receipt with a hole in it.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Making an order summary, year in review, or set list into &quot;a receipt image&quot; previously meant one of two roads:</p>
 <ul>
 <li>html2canvas-style libraries that screenshot in the browser — and fail with tainted canvas, or produce an image that does not match what the user saw</li>
 <li>spinning up a puppeteer screenshot service or paying an image-service API, writing server code per template, paying for servers</li>
 </ul>
-<p>The Receiptify phenomenon is the best footnote: everyone loves a receipt-style share image, but everyone building one dies on API limits. Tearline compresses receipt generation into &quot;one tag + browser-local export,&quot; and the server simply disappears.</p>
-<h2>Business model</h2>
+<p>The Receiptify phenomenon is the best footnote: everyone loves a receipt-style share image, but everyone building one dies on API limits. Tearline compresses receipt generation into &quot;one tag + browser-local export,&quot; and the server simply disappears.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Free.</strong> MIT, zero dependencies, no account, no server. There is no commercial form and none is planned.</p>
-<p><em>Read: this is a high-quality open-source component. The value flows to the author as reputation and to users as zero acquisition cost. For the reader there is no business model to analyze — but there is a format insight to steal.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: this is a high-quality open-source component. The value flows to the author as reputation and to users as zero acquisition cost. For the reader there is no business model to analyze — but there is a format insight to steal.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>HN: 6 points, 0 comments</strong> (2026-08-13)</li>
 <li>The <code>package.json</code> shown in the docs lists an empty dependencies array; a single ES module, no build steps</li>
 <li>License: MIT. Download counts and npm installs: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -242,23 +236,18 @@
   <td>Share images (OG cards, order cards, year-in-review) are a permanent need, but html2canvas and peers already exist</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The most valuable thing this product proves is a format insight: the receipt is a more natural share object than a screenshot.</strong></p>
 <p>Orders, playlists, year-in-review, lab reports — humans are already trained on &quot;receipt&quot; as an information container. Dress a table screenshot in it and it becomes &quot;something worth posting.&quot; Receiptify's virality proved the demand; Tearline proves the demand can be satisfied at the cost of one tag.</p>
 <p><strong>The transferable rule: find an old format your users already reflexively want to share, and slot your new feature into that format.</strong> Receipts, boarding passes, lab reports, certificates — any is &quot;tabular data plus ceremonial layout&quot; turned into a share object. If your product has data a user wants to show off, it is worth asking which old format to dress it in.</p>
-<p><strong>The problem</strong>: the format insight is stealable, but the component has no commercial space — no charge, no hosting, and the code is small enough to copy without guilt. It is a fine part, not a business.</p>
-<h2>What to watch next</h2>
+<p><strong>The problem</strong>: the format insight is stealable, but the component has no commercial space — no charge, no hosting, and the code is small enough to copy without guilt. It is a fine part, not a business.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① npm downloads / GitHub star growth — how many people actually use the format
 ② Whether someone builds a viral share-image app on top of <code>&lt;tear-line&gt;</code> (a Receiptify replacement)
-③ Whether the author turns it into a hosted service</p>
-<h2>What you can take from it</h2>
+③ Whether the author turns it into a hosted service</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: old formats like receipts/tickets/certificates are native share objects — wrap the data your user wants to show off in a ceremonial format and sharing intent rises on its own. AI product builders can use this for share cards instead of another plain results page.</p>
 <p><strong>Positioning language</strong>: &quot;anything a user might want to keep or post: an order summary, a workout, a year in review, a booking, a set list, a diff.&quot; The phrase &quot;want to keep or post&quot; as a feature filter is directly borrowable.</p>
-<p><strong>Pricing structure</strong>: none. Free, MIT.</p>
-<h2>Verdict</h2>
-<p><strong>Unproven.</strong> Engineering quality is among the best in this batch, but there is no business model. Keep it as evidence for the &quot;receipt format&quot; distribution insight; in three months, check whether someone ships a viral share app on top of it.</p>
-
+<p><strong>Pricing structure</strong>: none. Free, MIT.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Unproven.</strong> Engineering quality is among the best in this batch, but there is no business model. Keep it as evidence for the &quot;receipt format&quot; distribution insight; in three months, check whether someone ships a viral share app on top of it.</p></article></div>
     </article>
   </section>
 

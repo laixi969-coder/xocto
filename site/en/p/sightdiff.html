@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/sightdiff.html#webpage", "@type": "WebPage", "description": "After an assistant changes a page, screenshot compare before you commit proves what moved and what did not. The assistant does not get to write its ow\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "SightDiff", "url": "https://xocto.vercel.app/en/p/sightdiff.html"}, {"@id": "https://xocto.vercel.app/en/p/sightdiff.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "After an assistant changes a page, screenshot compare before you commit proves what moved and what did not. The assistant does not get to write its own evidence.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/sightdiff.html#webpage"}, "name": "SightDiff", "sameAs": "https://sightdiff.com/", "url": "https://xocto.vercel.app/en/p/sightdiff.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/sightdiff.html", "name": "SightDiff", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/sightdiff.html#webpage", "@type": "WebPage", "description": "After an assistant changes a page, screenshot compare before you commit proves what moved and what did not. The assistant does not get to write its ow\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "SightDiff", "url": "https://xocto.vercel.app/en/p/sightdiff.html"}, {"@id": "https://xocto.vercel.app/en/p/sightdiff.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "After an assistant changes a page, screenshot compare before you commit proves what moved and what did not. The assistant does not get to write its own evidence.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/sightdiff.html#webpage"}, "name": "SightDiff", "sameAs": "https://sightdiff.com/", "url": "https://xocto.vercel.app/en/p/sightdiff.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/sightdiff.html", "name": "SightDiff", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,19 +184,17 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>An independent witness for your AI agent: before you git commit, local pixel-level screenshot
 comparison proves which pages your agent actually changed — flagged surfaces highlighted, untouched
-ones verified identical.</p>
-<h2>Who built it</h2>
+ones verified identical.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>A solo working engineer, ja34luv, building it for his own daily loop (sightdiff.com). It is in
 early-access pre-beta, and the site states plainly: &quot;this is a bet on a tool that doesn't fully
 exist yet.&quot;</p>
 <p><em>Read: someone whose product premise is &quot;agents grading their own homework is untrustworthy&quot; has
 probably had a page broken by an agent and caught the agent's own screenshots lying. Simon Willison
-made the same point publicly, quoted on the site.</em></p>
-<h2>What it actually does</h2>
+made the same point publicly, quoted on the site.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Two commands wrapped around anything your agent does</strong> → <code>sightdiff snap</code> captures baseline
 screenshots of every configured page and state; the agent works; <code>sightdiff check</code> re-renders and
@@ -210,8 +208,7 @@ Copilot, or a human in a hurry all work; no integration, no cloud, no CI pipelin
 content</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no code-diff-to-affected-surface mapping (roadmap), no
-continuous background baselines (roadmap), nothing uploaded.</p>
-<h2>What old behavior it replaces</h2>
+continuous background baselines (roadmap), nothing uploaded.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p><strong>It replaces trusting the agent's self-reported homework.</strong> An agent can open a browser and
 &quot;verify&quot; its own work. Sometimes it skips verification, misreads it, or quietly edits the evidence —
 and you find out three days later from a user screenshot. SightDiff's proof sheet is captured by a
@@ -222,22 +219,19 @@ asked about. The code diff shows a CSS change but you cannot see the page drift.
 step into pixel-level verification.</p>
 <p><strong>The division of labor with Chromatic and Percy</strong>: those are post-commit, cloud, CI-time PR checkers.
 SightDiff occupies the step before — local, dirty working tree, agent just stopped, you deciding
-whether to trust the change.</p>
-<h2>Business model</h2>
+whether to trust the change.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>Early access, two ways in: waitlist is free; founding users pay $10/mo, charged only from the first
 release you can actually run, founding price locked for life, refundable anytime.</p>
 <p><em>Read: crowdfunding-style pricing — charging founding fees before the tool ships is a way to filter
 for real demand, not to make money. $10/mo locked for life is psychology-of-early-support pricing,
-not a sustainable model, but it is honest about being that.</em></p>
-<h2>Hard numbers</h2>
+not a sustainable model, but it is honest about being that.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>Founding price <strong>$10/mo</strong>; final pricing undecided; waitlist free</li>
 <li>Third-party stat cited on the site: Stack Overflow 2025 developer survey — 66% of developers say
 their top frustration is AI code that is almost right, but not quite</li>
 <li>HN: 5 points, 2 comments</li>
 <li>No runnable release yet; no user numbers</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -263,8 +257,7 @@ their top frustration is AI code that is almost right, but not quite</li>
   <td>Right in the middle of the &quot;agents touching the front end&quot; wave; the QA trust gap is real</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The angle holds; the product has not been born yet.</strong>
 &quot;The party being verified cannot be the party generating the evidence&quot; is a general trust principle,
 and SightDiff is its most direct productization. The transferable point is not the tool itself but
@@ -274,14 +267,12 @@ outside the agent's reach.</p>
 positives — one layout shift, the whole screen goes red, and after the third false alarm the user
 turns the gate off. The false-positive rate of <code>sightdiff check</code> decides its fate.</p>
 <p><strong>Pricing it got one thing right</strong>: publish before charging, and charge before publishing to
-validate demand. That is the right order for a small team.</p>
-<h2>What to watch next</h2>
+validate demand. That is the right order for a small team.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether the beta ships on schedule — shipping is itself the first validation point
 ② The false-positive rate of <code>sightdiff check</code> on real projects (the life-or-death metric for
 visual diff tools)
 ③ Whether the roadmap promise lands: code-diff-driven checks that only test affected surfaces
-(an upgrade from full snapshot to targeted verification)</p>
-<h2>What you can take from it</h2>
+(an upgrade from full snapshot to targeted verification)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: one iron rule of trust design — the verified party cannot be the evidence
 generator. If an AI product's output needs acceptance, the acceptance evidence must come from an
 independent process: local, reproducible, keyed to git state. &quot;Pre-commit gate&quot; is also a product
@@ -290,11 +281,9 @@ position worth copying: the step between CI tools (after commit) and human sign-
 agent grade itself is not grading.)</p>
 <p><strong>Pricing structure</strong>: final pricing undecided; the &quot;founding user, $10/mo, refundable, charged only
 once a runnable release exists&quot; move is pre-order demand validation — charging before launch is a
-demand filter, and the lifetime price lock is the early-adopter risk premium.</p>
-<h2>Verdict</h2>
+demand filter, and the lifetime price lock is the early-adopter risk premium.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The angle and the pricing are right; what is missing is the product itself. Come back
-in three months and check the beta and the false-positive rate.</p>
-
+in three months and check the beta and the false-positive rate.</p></article></div>
     </article>
   </section>
 

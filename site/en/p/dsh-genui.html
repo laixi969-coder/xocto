@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage", "@type": "WebPage", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage"}, "name": "dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-genui.html", "name": "dsh-genui", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage", "@type": "WebPage", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage"}, "name": "dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-genui.html", "name": "dsh-genui", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -189,13 +189,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>Giving an agent's replies a face: the model writes a JSON block straight into its answer, the browser renders it as clickable cards, charts, forms, and quizzes, and clicking one sends an action back to the model to keep iterating. The text is still there; the UI is already alive.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>Giving an agent's replies a face: the model writes a JSON block straight into its answer, the browser renders it as clickable cards, charts, forms, and quizzes, and clicking one sends an action back to the model to keep iterating. The text is still there; the UI is already alive.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Maintained by the omdsh-dev org, author taekchef (same GitHub handle), same org as dsh-better-sidebar. Repo created 2026-08-13, MIT, TypeScript, open-sourced at 0.8.0, 70 commits, going from 0.2 to 0.8 within a week — an extremely dense release cadence.</p>
-<p><em>Read: the same org shipping both a sidebar and GenUI means it is betting on &quot;thickening DSH's interaction layer.&quot; This org plays the UI layer, not the model layer — a well-chosen position in an everything-is-a-plugin ecosystem.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: the same org shipping both a sidebar and GenUI means it is betting on &quot;thickening DSH's interaction layer.&quot; This org plays the UI layer, not the model layer — a well-chosen position in an everything-is-a-plugin ecosystem.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Reply as UI</strong> → the model writes JSON inside a <code>dsh-ui</code> fence; components stream in as the reply is generated, no waiting for the full message</li>
 <li><strong>35 component types</strong> → cards, tables, charts, forms, tabs, collapsible panels, file trees, timelines, diff, mermaid, 3D scenes</li>
@@ -206,14 +204,11 @@
 <li><strong>Dual-channel rendering</strong> → new DSH builds use the official fence-registry streaming pipeline; original/older DSH builds fall back to a DOM channel that mounts itself, streaming since 0.7.2</li>
 <li><strong>Zero intrusion</strong> → in an environment without the plugin, a fence is just a code block: no errors, no session pollution</li>
 </ul>
-<p><strong>What it deliberately does not do</strong>: no cross-session state persistence, no MCP adapter, no standalone gallery page, no i18n — the roadmap gives a stated reason for each. The boundary is disciplined: it only solves &quot;UI growing inside answers,&quot; not &quot;UI living outside the conversation.&quot;</p>
-<h2>What old behavior it replaces</h2>
+<p><strong>What it deliberately does not do</strong>: no cross-session state persistence, no MCP adapter, no standalone gallery page, no i18n — the roadmap gives a stated reason for each. The boundary is disciplined: it only solves &quot;UI growing inside answers,&quot; not &quot;UI living outside the conversation.&quot;</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Getting a visual result out of an agent used to be &quot;text plus human hauling&quot;: the model hands you an ASCII table or markdown; if you want a chart you copy the data into Excel or a chart site, or ask the agent to write a script and run it. Seeing a result took 3-5 minutes and two or three round trips. Claude Artifacts and ChatGPT Canvas brought interactive previews into the mainstream, but they open a separate canvas and most of what they render is static.</p>
-<p>genui replaces that hauling chain and goes one step further: the UI renders directly in the reply stream, and the components are clickable — click a button, the action returns to the model, the model changes the UI. It is not a DSH port of Artifacts; it upgrades &quot;generation as interaction&quot; from rendering static results to rendering a programmable surface.</p>
-<h2>Business model</h2>
+<p>genui replaces that hauling chain and goes one step further: the UI renders directly in the reply stream, and the components are clickable — click a button, the action returns to the model, the model changes the UI. It is not a DSH port of Artifacts; it upgrades &quot;generation as interaction&quot; from rendering static results to rendering a programmable surface.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> MIT, free on npm, no pricing page, no hosted service, no sponsorship.</p>
-<p><em>Read: same as the rest of the ecosystem — build volume first. Its only genuinely valuable asset is the protocol for &quot;how a model outputs structured UI.&quot; If DSH ever bakes in a similar fence protocol, this protocol becomes a de facto standard, which is the one path to monetization; right now there is no commercial activity at all.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: same as the rest of the ecosystem — build volume first. Its only genuinely valuable asset is the protocol for &quot;how a model outputs structured UI.&quot; If DSH ever bakes in a similar fence protocol, this protocol becomes a de facto standard, which is the one path to monetization; right now there is no commercial activity at all.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>54 stars / 3 forks / 1 open issue</strong> (GitHub API, 2026-08-14)</li>
 <li>Created 2026-08-13, 70 commits, 0.8.0 first open-source release, 0.2→0.8 in a week</li>
@@ -221,8 +216,7 @@
 <li>~200-800 tokens per fence; tree capped at 200 nodes / 8 levels; 300ms debounce</li>
 <li>253-350 tests across versions (count shifted during evolution), plus device e2e (needs DEEPSEEK_API_KEY)</li>
 <li>Users, downloads, team: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -248,23 +242,18 @@
   <td>Perfect: Artifacts just taught the market that agent output can carry UI, and DSH happens to lack exactly this; but 54 stars means the market has not voted yet</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The only plugin of the six betting on a future interaction paradigm — and the one with the least evidence.</strong></p>
 <p>Its bet is specific: agent output will evolve from &quot;text plus code blocks&quot; to &quot;structured UI,&quot; and the safe way for a model to generate UI is a component whitelist plus local-first state plus an action callback. The design logic holds — letting a model emit freeform HTML is an accident waiting to happen, whitelisting is the only realistic path; and grading state locally instead of burning tokens is a direct contribution to AI product margin.</p>
 <p><strong>Transferable rule: for anything a model generates, define the whitelist first, then talk about freedom.</strong> And: for interactive components, every &quot;state decision&quot; runs locally; only &quot;when new information is needed&quot; does it go back to the model. That is the generic move for pushing the marginal cost of generative UI toward zero.</p>
-<p><strong>But today it is a 54-star plugin.</strong> No user cases, no enterprise validation, and Claude/OpenAI are already doing the same class of thing (Artifacts, Canvas), with DSH theoretically able to bake it in. As a paradigm proof it is valuable; as a product it has not stood up.</p>
-<h2>What to watch next</h2>
+<p><strong>But today it is a 54-star plugin.</strong> No user cases, no enterprise validation, and Claude/OpenAI are already doing the same class of thing (Artifacts, Canvas), with DSH theoretically able to bake it in. As a paradigm proof it is valuable; as a product it has not stood up.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars pass a thousand in three months — a signal that DSH's official plugin recommendations are lifting it
 ② Whether official DSH ships its own fence rendering — baking it in kills the plugin while validating its protocol judgment
-③ Whether real users publish &quot;agent-generated UI doing work&quot; cases — the only hard evidence that the paradigm holds</p>
-<h2>What you can take from it</h2>
+③ Whether real users publish &quot;agent-generated UI doing work&quot; cases — the only hard evidence that the paradigm holds</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: any generative-AI product that wants models to output structured interfaces should copy this security design wholesale: whitelist-based component rendering + standalone parser (no eval) + local-first state + action callback to the model. The combination solves security (the model cannot inject scripts), cost (state decisions burn no tokens), and experience (components are clickable) in one move.</p>
 <p><strong>Positioning language</strong>: none. The README is engineering documentation.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
-<p><strong>Unproven.</strong> The sexiest paradigm and the thinnest evidence in this batch. If &quot;agents generating interactive UI&quot; really is the next interaction paradigm, its protocol design is worth copying directly; but as a product it has not collected a single market vote. Remember its mechanism, not its star count.</p>
-
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Unproven.</strong> The sexiest paradigm and the thinnest evidence in this batch. If &quot;agents generating interactive UI&quot; really is the next interaction paradigm, its protocol design is worth copying directly; but as a product it has not collected a single market vote. Remember its mechanism, not its star count.</p></article></div>
     </article>
   </section>
 

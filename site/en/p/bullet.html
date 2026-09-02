@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/bullet.html#webpage", "@type": "WebPage", "description": "Keeps the same model and speeds up a coding assistant by cutting the wait between steps.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Bullet", "url": "https://xocto.vercel.app/en/p/bullet.html"}, {"@id": "https://xocto.vercel.app/en/p/bullet.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-06", "description": "Keeps the same model and speeds up a coding assistant by cutting the wait between steps.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/bullet.html#webpage"}, "name": "Bullet", "url": "https://xocto.vercel.app/en/p/bullet.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/bullet.html", "name": "Bullet", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/bullet.html#webpage", "@type": "WebPage", "description": "Keeps the same model and speeds up a coding assistant by cutting the wait between steps.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Bullet", "url": "https://xocto.vercel.app/en/p/bullet.html"}, {"@id": "https://xocto.vercel.app/en/p/bullet.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-06", "description": "Keeps the same model and speeds up a coding assistant by cutting the wait between steps.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/bullet.html#webpage"}, "name": "Bullet", "url": "https://xocto.vercel.app/en/p/bullet.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/bullet.html", "name": "Bullet", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,18 +183,16 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Not a smarter model, a leaner loop around it. Bullet attacks the wall-clock time of an agent run
-by cutting round trips, on the insight that model speed matters less than reducing them.</p>
-<h2>Who built it</h2>
+by cutting round trips, on the insight that model speed matters less than reducing them.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Adi and Alex, Yale CS grads fresh out of AppLovin and Citadel, YC S26. Bullet is the survivor of
 six pivots — earlier attempts included an AI hedge fund, a browser-use agent, synthetic financial
 data, and a mobile IDE, all failures.</p>
 <p><em>Read: split the background in half. The negative half: six pivots says they are good at hitting
 walls. The positive half: latency optimization and cost control are exactly the fundamentals of
-quant trading systems, and they map directly onto what this product does.</em></p>
-<h2>What it actually does</h2>
+quant trading systems, and they map directly onto what this product does.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Model routing</strong> → easy steps go to fast models; escalation only when the task earns it; no
 manual model picking</li>
@@ -208,20 +206,17 @@ an on-device model</li>
 <li><strong>CLI</strong> → <code>npm install -g @trybullet/cli</code>, macOS and Linux</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no model training, not a Claude Code replacement — a tighter
-loop wrapped around existing models and subscriptions.</p>
-<h2>What old behavior it replaces</h2>
+loop wrapped around existing models and subscriptions.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>The typical waiting workflow with Claude Code or Codex: shovel the whole repo into context (or a
 compressed version), execute tasks serially, queue every tool call. A 100-turn agent run spends
 most turns on boring work — reading a file, checking a path, running a test — that should return
 instantly but gets dragged into frontier-model latency.</p>
 <p>Bullet replaces the default of &quot;strongest model end to end, serial, whole-repo context.&quot; Its bet:
-a real router beats a bigger model on both wall-clock and cost.</p>
-<h2>Business model</h2>
+a real router beats a bigger model on both wall-clock and cost.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> Private beta, free for now, no subscription. macOS and Linux.</p>
 <p><em>Read: no pricing page means still in validation. The charging point in this category will likely
 be per run or per seat rather than per token — the token cost is already on the user's own
-subscription and keys.</em></p>
-<h2>Hard numbers</h2>
+subscription and keys.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>HN Launch HN: 93 points, 68 comments</strong> (early August 2026)</li>
 <li>SWE-bench Verified: <strong>479/500 (95.8%) in one attempt</strong>, averaging <strong>119s per task</strong>, claiming
@@ -232,8 +227,7 @@ Claude Code/Codex&quot;</li>
 </ul>
 <p><strong>Benchmark credibility is contested</strong>: the 95.8% comes from an eval without the router enabled
 (for an apples-to-apples harness comparison), and SWE-bench Verified is described as saturated.
-HN's soulofmischief said outright the result &quot;is essentially meaningless.&quot;</p>
-<h2>Four-way read</h2>
+HN's soulofmischief said outright the result &quot;is essentially meaningless.&quot;</p></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -259,8 +253,7 @@ HN's soulofmischief said outright the result &quot;is essentially meaningless.&q
   <td>Good — everyone waits for faster models, nobody fixes the loop; but the hardware side (Cerebras) attacks the same pain</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Quant-trading latency thinking applied to coding agents: don't optimize the model, optimize the
 pipeline.</strong></p>
 <p>The most transferable rule is that routing is the cheapest speed-up available in today's agents.
@@ -274,25 +267,21 @@ sells execution quality, not models and not ecosystem.</p>
 <p><strong>But &quot;selling execution quality&quot; is a real category.</strong> One commenter says they've switched to
 Bullet as their primary tool; another reports a clearly faster feel, a useful integrated browser,
 and credits Linux support. The specific complaints — git commit authorship and privacy prompts —
-the founders acknowledged and are fixing.</p>
-<h2>What to watch next</h2>
+the founders acknowledged and are fixing.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① When MCP support and skill preservation land — no ecosystem slot means one-shot tooling
 ② When pricing appears and how it's billed — the business model decides whether it's a real business
-③ Whether benchmarks move to harder tasks (Terminal-Bench, CursorBench) — the founders say they're testing them</p>
-<h2>What you can take from it</h2>
+③ Whether benchmarks move to harder tasks (Terminal-Bench, CursorBench) — the founders say they're testing them</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: any efficiency product should ask where its most expensive step is. Bullet's
 answer is round trips, not model speed. Before building an agent product or an efficiency tool,
 count the serial waits in your pipeline — that's the cheapest cost to remove.</p>
 <p><strong>Positioning language</strong>: the opening of the HN post — six pivots before solving your own real
 problem — is a standard honesty narrative worth copying for its list of admitted failures; it
 builds trust on candor.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> Right direction, real users, candid founders — but a shallow moat, an
 unresolved benchmark dispute, and no pricing yet. Its biggest value is validating the direction
 &quot;optimize the loop, not the model,&quot; which is directly usable judgment for anyone building AI
-efficiency products.</p>
-
+efficiency products.</p></article></div>
     </article>
   </section>
 

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/playground.html#webpage", "@type": "WebPage", "description": "Each week a live assistant with real tools is put on stage to guard a secret. Whoever breaks it wins, and the full record is public.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "playground", "url": "https://xocto.vercel.app/en/p/playground.html"}, {"@id": "https://xocto.vercel.app/en/p/playground.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Each week a live assistant with real tools is put on stage to guard a secret. Whoever breaks it wins, and the full record is public.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/playground.html#webpage"}, "name": "playground", "sameAs": "https://playground.fabraix.com/", "url": "https://xocto.vercel.app/en/p/playground.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/playground.html", "name": "playground", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/playground.html#webpage", "@type": "WebPage", "description": "Each week a live assistant with real tools is put on stage to guard a secret. Whoever breaks it wins, and the full record is public.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "playground", "url": "https://xocto.vercel.app/en/p/playground.html"}, {"@id": "https://xocto.vercel.app/en/p/playground.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Each week a live assistant with real tools is put on stage to guard a secret. Whoever breaks it wins, and the full record is public.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/playground.html#webpage"}, "name": "playground", "sameAs": "https://playground.fabraix.com/", "url": "https://xocto.vercel.app/en/p/playground.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/playground.html", "name": "playground", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,20 +184,18 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Red-team testing for AI agents turned into a weekly public challenge: a live agent with real tools
 guards a secret, its system prompt is fully public, whoever breaks it wins, and the winning attack
-transcript is published for everyone to study.</p>
-<h2>Who built it</h2>
+transcript is published for everyone to study.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Fabraix, a company building runtime security for AI agents. The playground started as an internal
 tool for testing their own guardrails; because &quot;people who think like us only find the same
 vulnerabilities,&quot; they open-sourced it as a public challenge ground. The repo lives at
 github.com/fabraix/playground and the HN submitter, zachdotai, is a team member.</p>
 <p><em>Read: a security company open-sourcing an attack tool is both a way to collect community attack
 data and a piece of positioning — &quot;we publicized our own playground, so we're not afraid of
-scrutiny.&quot; The marketing motive and the genuine need are the same thing here.</em></p>
-<h2>What it actually does</h2>
+scrutiny.&quot; The marketing motive and the genuine need are the same thing here.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Weekly live challenges</strong> → deploys an agent with real tools (web search, browsing) tasked with
 protecting a secret; the system prompt is fully visible and the community tries to break through</li>
@@ -209,22 +207,19 @@ archived publicly, turning every attack into a reusable security sample</li>
 tampering; the agent runtime is being open-sourced separately</li>
 <li><strong>Runs locally</strong> → React frontend with versioned challenge configs; <code>npm install</code> gets a local
 dev environment</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Previously, testing an agent's defenses meant three routes: the internal security team (fixed
 viewpoints, predictable blind spots), an outsourced red team or pen-test firm (expensive,
 weeks-long, often tens to hundreds of thousands of dollars), or automated scanners (nearly useless
 against semantic attacks that &quot;look normal but step out of bounds&quot;). Playground's replacement
 mechanism: offload the testing cost to an incentivized crowd — prizes plus reputation — and keep
-the attack results. This is security testing experimenting with crowd-sourcing instead of hiring.</p>
-<h2>Business model</h2>
+the attack results. This is security testing experimenting with crowd-sourcing instead of hiring.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>The playground itself is open source and free; Fabraix's revenue comes from a commercial product.</strong>
 The company positions itself as &quot;runtime security for AI agents&quot;; the specific product and pricing
 are not public.</p>
 <p><em>Read: the public challenge is an acquisition and trust tool, not the business itself. The real
 asset is the accumulated attack-transcript library — data that no internal team could assemble on
-its own budget.</em></p>
-<h2>Hard numbers</h2>
+its own budget.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>73 stars, 11 forks.</strong> Created 2026-02-07, MIT, TypeScript</li>
 <li>HN post reached ~30 points (pool records 13), 13+ comments, high-quality discussion</li>
@@ -232,8 +227,7 @@ its own budget.</em></p>
 in about 60 seconds. Second challenge shifted to data exfiltration with harder defenses</li>
 <li>Reports claim weekly prize pools above $100,000, but Fabraix's own launch posts never mention
 prize details — unverified</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -259,35 +253,30 @@ prize details — unverified</li>
   <td>Agents are entering production but security budgets don't exist yet; half a step early, right direction</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Worth watching, because it is producing data nobody else can produce.</strong> The public archive of
 attack transcripts plus guardrail logs is the most valuable thing here — in security, the moat has
 always been &quot;having seen enough attacks.&quot; The crowd-sourcing model gives Fabraix a continuous
 stream of attack samples at low cost, and every published post-mortem doubles as market education.</p>
 <p><strong>Watch whether the restraint holds up.</strong> The &quot;guard a secret&quot; setup is a controlled scenario, far
 from real production agents with many tools, long-term memory, and user identities. It validates
-whether public attack testing finds real problems; it is a long way from &quot;tested, therefore safe.&quot;</p>
-<h2>What to watch next</h2>
+whether public attack testing finds real problems; it is a long way from &quot;tested, therefore safe.&quot;</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Challenge cadence and the growth of the transcript library — does the public archive grow
 steadily in three months
 ② Whether the prize mechanism actually pays out and keeps attracting strong attackers (the
 unverified $100K weekly figure is the open question)
-③ Whether anyone pays for Fabraix's commercial product, or the playground is purely a lead-gen tool</p>
-<h2>What you can take from it</h2>
+③ Whether anyone pays for Fabraix's commercial product, or the playground is purely a lead-gen tool</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: if you're building a community or platform product, copy this three-part
 outsourcing mechanism — the task must be concrete (guard a secret), the information transparent
 (system prompts public), and the output accumulated (transcripts archived). Remove any one of the
 three and the crowd-sourcing degenerates into paid trivia. Also: open-sourcing your internal tool
 as an acquisition entry is itself the strongest trust statement available.</p>
 <p><strong>Positioning language</strong>: none. Engineering launch copy; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The mechanism has real value — public transcripts are data others can't
 assemble — and the team is honest, even publishing the transcripts of attacks against their own
 LLM-as-a-judge defenses. Keep tracking whether it stays a marketing engine and whether the prize
-narrative materializes. Re-check the three items in three months.</p>
-
+narrative materializes. Re-check the three items in three months.</p></article></div>
     </article>
   </section>
 

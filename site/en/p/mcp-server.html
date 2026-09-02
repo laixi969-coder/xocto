@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-server.html#webpage", "@type": "WebPage", "description": "When an assistant needs to register an account, it orders a phone number in the right country, reads the SMS code, and no one has to wait.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "mcp-server", "url": "https://xocto.vercel.app/en/p/mcp-server.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-server.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-27", "datePublished": "2026-08-07", "description": "When an assistant needs to register an account, it orders a phone number in the right country, reads the SMS code, and no one has to wait.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-server.html#webpage"}, "name": "mcp-server", "sameAs": "https://sms-verification-number.com/en/number-for-ai-agents/", "url": "https://xocto.vercel.app/en/p/mcp-server.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-server.html", "name": "mcp-server", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-server.html#webpage", "@type": "WebPage", "description": "When an assistant needs to register an account, it orders a phone number in the right country, reads the SMS code, and no one has to wait.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "mcp-server", "url": "https://xocto.vercel.app/en/p/mcp-server.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-server.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-27", "datePublished": "2026-08-07", "description": "When an assistant needs to register an account, it orders a phone number in the right country, reads the SMS code, and no one has to wait.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-server.html#webpage"}, "name": "mcp-server", "sameAs": "https://sms-verification-number.com/en/number-for-ai-agents/", "url": "https://xocto.vercel.app/en/p/mcp-server.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-server.html", "name": "mcp-server", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -190,12 +190,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>An MCP server that hands AI agents a disposable phone number: when an agent needs to
 sign up somewhere, it orders a private number in the right country, waits for the SMS
-code, reads it, and returns the number — no human at the keyboard.</p>
-<h2>Who built it</h2>
+code, reads it, and returns the number — no human at the keyboard.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>SV Number (sms-verification-number.com), a company already running a phone-verification
 business, repackaged its existing SMS API as an MCP server (<code>sv-number/mcp-server</code>,
 MIT, TypeScript) and aimed it squarely at AI agents. The site has a landing page built
@@ -204,8 +203,7 @@ for agents plus an agent-skill (plain markdown) for Claude Code and Codex.</p>
 service, but the user changed from a person to an agent. Nothing new was invented —
 the interface language was switched from a human-facing web page to MCP tools an agent
 can read. Enterprise DNA covered the pivot explicitly, treating it as the reference case
-for &quot;rewrap a vertical API for agents.&quot;</em></p>
-<h2>What it actually does</h2>
+for &quot;rewrap a vertical API for agents.&quot;</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Order by country</strong> → 211 countries, 1,094 service codes (Telegram, WhatsApp,
 Google, and more). The request carries <code>country=&lt;id&gt;</code>, and the agent picks based on
@@ -225,8 +223,7 @@ usable from Claude Code, Codex, and Cursor; without MCP, the underlying methods
 client mostly changes its base URL</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no SMS sending, no calls. The numbers receive
-verification codes and nothing else.</p>
-<h2>What old behavior it replaces</h2>
+verification codes and nothing else.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>When an agent needed to complete a signup (say, an Indonesian-market account), the
 bottleneck was phone verification: verification services look at the number's country,
 and a US number registering an Indonesian account gets refused before the SMS is sent.</p>
@@ -239,8 +236,7 @@ signup, with the country decided by request parameter. It replaces the act of a 
 standing by waiting for a code. <strong>More valuable</strong>: it makes &quot;a fresh number per
 account&quot; the default — services remember which numbers already verified an account,
 so a permanent number fails on the second signup, while this market was always priced
-as one-code-per-activation anyway.</p>
-<h2>Business model</h2>
+as one-code-per-activation anyway.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Pay per code, prepaid balance.</strong> Typical price $0.43 per verification (from $0.01);
 if no code arrives within 20 minutes, the balance refunds automatically. Day-rental for
 accounts that must keep receiving codes. 150 requests per second. No subscription, no
@@ -249,8 +245,7 @@ seat fee.</p>
 flinch at a few cents per call, and keep running as long as the API is stable. For the
 seller this is the ideal customer: usage grows by itself, near-zero service cost. The
 risk is on the compliance side: phone-verification inherently sits next to batch
-signups and fraud, which is the sword hanging over every provider in this category.</em></p>
-<h2>Hard numbers</h2>
+signups and fraud, which is the sword hanging over every provider in this category.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>573 stars / 3 forks</strong> (2026-08-14), MIT, TypeScript, listed in the official MCP
 Registry</li>
@@ -261,8 +256,7 @@ Registry</li>
 <li>Comparison pages (vs AgentLine / AgentPhone / AgentNumber / OP): competitors cover
 only the US/Canada; SV Number covers 211 countries</li>
 <li>Team size, revenue, funding: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -288,8 +282,7 @@ only the US/Canada; SV Number covers 211 countries</li>
   <td>Good. Agents signing up for accounts at scale is a growing need, and 2026 is MCP's channel-window</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the textbook case of &quot;rewrap a vertical API for agents,&quot; worth studying by
 anyone running an API business.</strong> SV Number invented no new service. It did three small
 things: changed the interface language to what agents read, changed the docs to what an
@@ -305,15 +298,13 @@ signups and fraud, and platform bans or legal action can hit at any time; it is 
 channel business — stars rose because the MCP ecosystem is rising, not because it is
 irreplaceable, and a big player (Twilio and peers) getting into MCP is only a matter
 of time; and agent-facing pricing invites faster price wars than consumer markets
-when competitors arrive.</p>
-<h2>What to watch next</h2>
+when competitors arrive.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars pass 1,000 in three months — whether it still grows after MCP hype
 cools is the real demand signal
 ② Whether an agent platform (Claude Code, Cursor) builds it in or partners with it —
 being embedded is both absorption and category validation
 ③ Whether any ban/compliance incident becomes public — the life-or-death line for
-this kind of business</p>
-<h2>What you can take from it</h2>
+this kind of business</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: if your product or API is repetitive, autonomous, and usage-priced,
 seriously consider an agent-native entry (MCP or skill) and price it as pay-per-result
 with automatic refunds on failure. Agent customers do not read your site and do not
@@ -322,13 +313,11 @@ call support; they read your API docs and your failure rate.</p>
 competitor, and honestly include the rows where they win. Marketing to agents is just
 laying out the facts.</p>
 <p><strong>Pricing structure</strong>: pay-per-call plus auto-refund on failure plus rate-limit-not-quota.
-This combination persuades agent customers far better than a subscription.</p>
-<h2>Verdict</h2>
+This combination persuades agent customers far better than a subscription.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> A clean channel pivot that turned &quot;giving agents an identity&quot; into
 a transparent, usage-priced business. But its moat is not technical — it is compliance
 handling and speed of response to the agent ecosystem, both unproven. Come back in
-three months against the three checks above.</p>
-
+three months against the three checks above.</p></article></div>
     </article>
   </section>
 

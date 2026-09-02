@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html#webpage", "@type": "WebPage", "description": "Pits two AIs against your product: one reads the source, the other attacks it blind, like a hacker.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Adversarial-Testing-Skill", "url": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html"}, {"@id": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-22", "datePublished": "2026-08-11", "description": "Pits two AIs against your product: one reads the source, the other attacks it blind, like a hacker.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html#webpage"}, "name": "Adversarial-Testing-Skill", "url": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html", "name": "Adversarial-Testing-Skill", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html#webpage", "@type": "WebPage", "description": "Pits two AIs against your product: one reads the source, the other attacks it blind, like a hacker.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Adversarial-Testing-Skill", "url": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html"}, {"@id": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-22", "datePublished": "2026-08-11", "description": "Pits two AIs against your product: one reads the source, the other attacks it blind, like a hacker.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html#webpage"}, "name": "Adversarial-Testing-Skill", "url": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/adversarial-testing-skill.html", "name": "Adversarial-Testing-Skill", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,18 +183,16 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Two AIs spar over your product: one reads the source code, the other is kept blind — operating
 only on a structured summary and the behavior of the API surface — and attacks. It turns any AI
-coding assistant into a security red team.</p>
-<h2>Who built it</h2>
+coding assistant into a security red team.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Kieran Howard (GitHub: KieranHoward646), MIT license, a single-author project. The README is signed
 &quot;Built with anger at insecure software, respect for real red teams, and a lot of Markdown.&quot;</p>
 <p><em>Read: a single person building a security tool reads like a developer who was bitten by reality,
 not a security-consultancy deck. But there is tension between &quot;single maintainer&quot; and the claim of
-a &quot;battle-tested framework.&quot;</em></p>
-<h2>What it actually does</h2>
+a &quot;battle-tested framework.&quot;</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Dual-agent blind-testing architecture</strong> → a Developer AI reads the source and produces a
 structured summary; an Adversarial AI has zero knowledge of the source and attacks from the
@@ -214,22 +212,19 @@ last resort</li>
 comments, Critical findings auto-uploaded as SARIF</li>
 <li><strong>Platform adapters</strong> → native on WorkBuddy (one command), dual sessions on Cursor, dual
 terminals on Claude Code, manual prompt copy for everything else</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Testing the security of an AI product used to mean two things. First, prompting the model to audit
 itself — which the README correctly calls out: &quot;Traditional testing tools can't test what they
 can't parse.&quot; Second, hiring human pentest teams, billed by person-day, expensive and slow, and
 whose craft is HTTP endpoints — not the new attack surface of natural language.</p>
 <p>This compresses the human red-team workflow — recon, payloads, attack, report, fix suggestions —
 into a two-agent pipeline whose marginal cost per run is near zero. It replaces person-day-billed
-penetration testing and prompt-based self-audits: one is too expensive, the other too weak.</p>
-<h2>Business model</h2>
+penetration testing and prompt-based self-audits: one is too expensive, the other too weak.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> MIT open source, no hosted service, no pricing page, no mention of a commercial
 edition anywhere in the README.</p>
 <p><em>Read: the README's intent is to make its report formats a de-facto standard — SARIF into the
 Security Tab is an obvious &quot;become the input to the toolchain&quot; play. But there is currently zero
-evidence anyone pays for it.</em></p>
-<h2>Hard numbers</h2>
+evidence anyone pays for it.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>41 stars, 0 forks</strong>, 8 commits, first spotted 2026-08-11</li>
 <li>38 files: 5 theory guides, 10 executable templates, 8 attack payload libraries, 4 platform
@@ -237,8 +232,7 @@ adapters, 18 attack categories, 7 hard-coded safety rules, 15+ real cases</li>
 <li>The README claims &quot;prompt injection cost the world ~$2.3B in 2025&quot; — that is the README's claim,
 not verified by this publication</li>
 <li>Team size and usage data: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -264,8 +258,7 @@ not verified by this publication</li>
   <td>AI-application security testing is a genuine vacuum, but the market does not exist yet — most teams have not even put agents into production</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The design is right; the scale is suspicious. &quot;The adversary must test blind against the source&quot;
 is real and I cannot fault it. But a repo with 8 commits and 0 forks calling itself battle-tested
 deserves a discount.</strong> For a security tool, &quot;battle-tested&quot; only counts if someone else did the
@@ -275,26 +268,22 @@ WorkBuddy, Cursor, and Claude Code as hosts. So it is a standalone tool, not a p
 side of standalone is that nothing in an ecosystem vouches for it, and the evidence that anyone
 actually runs it is currently zero.</p>
 <p>Its fate rests on two things: whether the author keeps maintaining it, and whether someone actually
-runs it and publishes results.</p>
-<h2>What to watch next</h2>
+runs it and publishes results.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether forks grow in three months — a security tool being forked means people actually run it;
 stars can be bought, forks cannot
 ② Whether anyone other than the author publicly uses its report formats (SARIF into the GitHub
 Security Tab)
 ③ Run its workflow against a real project and check whether Critical findings really auto-upload —
-that verifies the &quot;CI/CD out of the box&quot; claim</p>
-<h2>What you can take from it</h2>
+that verifies the &quot;CI/CD out of the box&quot; claim</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: &quot;the tester must test blind&quot; transfers to any verification product — when the
 verifier does not know the answer, the verification is credible. If you are building quality or
 security acceptance for AI products, copy this known-writer/unknowing-executor split between two
 agents; it is far more credible than a single agent auditing itself.</p>
 <p><strong>Positioning language</strong>: none. The README is technical; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The mechanism contains something real; the scale does not. Read it as a security-
 testing methodology, do not install it as a tool you can rely on. Verify against the three checks
-in three months.</p>
-
+in three months.</p></article></div>
     </article>
   </section>
 

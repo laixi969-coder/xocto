@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-agent-teams.html#webpage", "@type": "WebPage", "description": "One sentence spins up a team of AI helpers that take tasks and talk to each other, so people stop ferrying messages and stitching results.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "dsh-agent-teams", "url": "https://xocto.vercel.app/en/p/dsh-agent-teams.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-agent-teams.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-01", "datePublished": "2026-08-12", "description": "One sentence spins up a team of AI helpers that take tasks and talk to each other, so people stop ferrying messages and stitching results.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-agent-teams.html#webpage"}, "name": "dsh-agent-teams", "url": "https://xocto.vercel.app/en/p/dsh-agent-teams.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-agent-teams.html", "name": "dsh-agent-teams", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-agent-teams.html#webpage", "@type": "WebPage", "description": "One sentence spins up a team of AI helpers that take tasks and talk to each other, so people stop ferrying messages and stitching results.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "dsh-agent-teams", "url": "https://xocto.vercel.app/en/p/dsh-agent-teams.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-agent-teams.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-01", "datePublished": "2026-08-12", "description": "One sentence spins up a team of AI helpers that take tasks and talk to each other, so people stop ferrying messages and stitching results.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-agent-teams.html#webpage"}, "name": "dsh-agent-teams", "url": "https://xocto.vercel.app/en/p/dsh-agent-teams.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-agent-teams.html", "name": "dsh-agent-teams", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -189,18 +189,16 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A &quot;team&quot; for DeepSeek Harness: one natural-language command spins up a multi-agent team, tasks are
 split across roles, members communicate directly without relaying through the lead, and the Web GUI
-shows the whole team's activity tree in real time.</p>
-<h2>Who built it</h2>
+shows the whole team's activity tree in real time.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>NanmiCoder, a single maintainer, MIT license, 40 commits. The project moved from a private beta in
 the dsh-external organization to a public repository; latest commit 2026-08-14.</p>
 <p><em>Read: porting the AgentTeams semantics Claude Code already validated into DSH is smart leverage —
 not inventing a new concept, but moving a proven pattern into a new ecosystem. That is exactly what
-a plugin author should be doing.</em></p>
-<h2>What it actually does</h2>
+a plugin author should be doing.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>One command to spin up a team</strong> → &quot;Use AgentTeams to research X&quot; launches a multi-agent team to
 complete the goal</li>
@@ -217,8 +215,7 @@ workflow-run UI pipeline</li>
 <code>npx skills add</code></li>
 <li><strong>Passed a real DeepSeek-V4-Flash end-to-end test</strong> → team creation/member/task/report/cleanup,
 full pipeline</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Multi-agent collaboration in DSH used to be manual orchestration: the user opens several sessions,
 shuffles context around by hand, and aggregates results — effectively assembling an ad-hoc team out
 of loose processes every time, with no state, no supervision, and no teardown.</p>
@@ -228,22 +225,19 @@ after reporting, archive retained). The three most expensive parts of the old wo
 handoff, progress tracking, result aggregation — move from human labor to protocol.</p>
 <p>The key difference from the Claude Code original is decentralization: members communicate via
 mailboxes directly with no lead relay, removing the single-hub bottleneck. That is an improvement
-learned from the original's downside, not a copy.</p>
-<h2>Business model</h2>
+learned from the original's downside, not a copy.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> MIT open source, free to install (direct GitHub source, no npm package or
 credentials required).</p>
 <p><em>Read: classic ecosystem-plugin logic — add value to the platform and count on the platform
 growing the ecosystem so some traffic flows back. If the DSH ecosystem materializes, this kind of
 plugin may get absorbed by the official side or become an ecosystem benchmark; currently there is
-no commercial signal at all.</em></p>
-<h2>Hard numbers</h2>
+no commercial signal at all.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>168 stars / 14 forks / 1 open issue</strong>, 40 commits</li>
 <li>9 <code>agent_teams_*</code> tools; requires Node.js ^22.19 or &gt;=24 and pnpm 11</li>
 <li>Passed a real DeepSeek-V4-Flash end-to-end verification</li>
 <li>Team size and usage data: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -269,23 +263,20 @@ no commercial signal at all.</em></p>
   <td>Actively developed from day one of DSH's release; early positioning. Its value rides entirely on DSH adoption speed</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>A specimen of &quot;good plugin&quot;: the problem is well chosen (multi-agent collaboration genuinely is
 hard in DSH), the leverage is well placed (semantics Claude Code already validated), and the
 engineering is solid (docs, e2e, file-based state).</strong> But it is not a standalone product — without
 DSH it does not even have a runtime. Its fate equals the fate of the DSH ecosystem.</p>
 <p>The lesson for practitioners: this is a textbook case of porting a validated pattern into a new
 ecosystem at the right moment. A plugin's value is not technical originality; it is the product of
-ecosystem vacancy times pattern validation.</p>
-<h2>What to watch next</h2>
+ecosystem vacancy times pattern validation.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether it gets listed in the dsh-external official catalog or recommended by DeepSeek — official
 recognition is the signal of an ecosystem benchmark
 ② Whether it stays actively maintained after DSH ships a stable release — many ecosystem plugins
 die at the moment the platform graduates
 ③ Whether enterprise users appear publicly — multi-agent teams are the most common ask from
-enterprise agent platforms</p>
-<h2>What you can take from it</h2>
+enterprise agent platforms</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when building an ecosystem plugin or tool, &quot;leverage a validated pattern&quot; is the
 highest-efficiency route — do not invent new concepts; translate semantics the leading products
 already validated into the new platform, and fix the original's flaws (here, the lead-relay
@@ -294,12 +285,10 @@ bottleneck). The selection criterion: pattern validation times ecosystem vacancy
 state) instead of locking it in memory or a database — inspectable, recoverable, auditable. This
 &quot;state-to-files&quot; decision transfers to any collaboration system that needs to be observable.</p>
 <p><strong>Positioning language</strong>: none.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> It is one of the better-engineered plugins in the DSH ecosystem and the
 ready-made answer to &quot;multi-agent teams&quot; on DSH. But remember its value is entirely contingent on
-DSH — under the DSH bet it is a component worth noting; under a standalone-product bet it is not.</p>
-
+DSH — under the DSH bet it is a component worth noting; under a standalone-product bet it is not.</p></article></div>
     </article>
   </section>
 

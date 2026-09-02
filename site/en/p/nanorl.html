@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/nanorl.html#webpage", "@type": "WebPage", "description": "To understand how a large model improves by trial and error, an afternoon-readable pack is enough to start practicing.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "NanoRL", "url": "https://xocto.vercel.app/en/p/nanorl.html"}, {"@id": "https://xocto.vercel.app/en/p/nanorl.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "To understand how a large model improves by trial and error, an afternoon-readable pack is enough to start practicing.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/nanorl.html#webpage"}, "name": "NanoRL", "url": "https://xocto.vercel.app/en/p/nanorl.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/nanorl.html", "name": "NanoRL", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/nanorl.html#webpage", "@type": "WebPage", "description": "To understand how a large model improves by trial and error, an afternoon-readable pack is enough to start practicing.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "NanoRL", "url": "https://xocto.vercel.app/en/p/nanorl.html"}, {"@id": "https://xocto.vercel.app/en/p/nanorl.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "To understand how a large model improves by trial and error, an afternoon-readable pack is enough to start practicing.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/nanorl.html#webpage"}, "name": "NanoRL", "url": "https://xocto.vercel.app/en/p/nanorl.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/nanorl.html", "name": "NanoRL", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,19 +183,17 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>One RL training loop that runs CartPole on a laptop and disaggregated async RLVR on a GPU
 cluster — about 1,800 lines across 7 files, readable in an afternoon. It is meant to be read,
-not imported.</p>
-<h2>Who built it</h2>
+not imported.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>alex000kim (a GitHub account), MIT licensed, repository created 2026-08-11, explicitly styled
 after Karpathy's nanoGPT (&quot;meant to be forked, not imported&quot;).</p>
 <p><em>Read: a nanoGPT-style education-first project. The author clearly knows production RL training
 (veRL, TRL, DeepSpeed territory) but chose the opposite: strip everything down to the core so
 the training loop becomes readable. Someone who writes code like this has usually been burned by
-production-stack complexity first.</em></p>
-<h2>What it actually does</h2>
+production-stack complexity first.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Four algorithms</strong> → REINFORCE, PPO (GAE + critic), GRPO, and RLOO all live in ~90 lines of
 algos.py. The core update is one line — <code>loss = -(advantage * logprob).mean()</code> — and the
@@ -211,8 +209,7 @@ and scoring (tying them cost 6x in one measured run), and weight sync that moves
 adapters (~170 MB versus 16 GB)</li>
 <li><strong>End-to-end reproducible</strong> → a SkyPilot config that just runs: Qwen3-8B + LoRA, 8x H100
 trainer and 8x L40S generation, 102k sequences in 90 minutes</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Training LLMs with RL today defaults to TRL or veRL plus Ray plus DeepSpeed: thousands of
 dependencies, more docs than code, and a training loop buried under three layers of abstraction.
 To understand &quot;how does GRPO actually update&quot; you have to read a framework's source first.</p>
@@ -222,14 +219,12 @@ industrial codebase with an absurd onboarding cost.</p>
 <p>nanoRL replaces the entire burden of the second path: 1,800 lines you can finish reading, run,
 and modify. It changes RL training from &quot;you must trust the framework&quot; to &quot;you can verify every
 line.&quot; Its value is not training a SOTA model; it is making the craft of RL training learnable
-and inspectable — the same move nanoGPT made for GPT.</p>
-<h2>Business model</h2>
+and inspectable — the same move nanoGPT made for GPT.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> MIT, no hosting, no service.</p>
 <p><em>Read: an educational infrastructure project whose value sits in ecosystem position, not
 commerce. But note one signal: the end-to-end run exposes a real training-engineering bug (vLLM
 logprobs inconsistent with HF silently destroy training) and fixes it. That &quot;knowledge bought
-with pain&quot; is the content asset it gives the industry.</em></p>
-<h2>Hard numbers</h2>
+with pain&quot; is the content asset it gives the industry.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>5 stars, 0 forks.</strong> Repository created 2026-08-11</li>
 <li>HN: 10 points, 0 comments</li>
@@ -240,8 +235,7 @@ serve.py ~250, tasks.py ~310, model.py ~330, train.py ~560)</li>
 <li>The key contrast: without recomputing old_logp, the ratio drifts from 1.006 to 1.165 and
 accuracy falls from 0.500 to 0.188; with recomputation, the same model climbs</li>
 <li>44 CPU-only tests</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -267,8 +261,7 @@ accuracy falls from 0.500 to 0.188; with recomputation, the same model climbs</l
   <td>Always right for education; for production, the scale ceiling (single box, single model, no MoE) is a deliberate choice</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the &quot;teach the market with a minimal rewrite&quot; play, executed cleanly.</strong> It never
 claims to replace veRL — it claims &quot;you can read the whole codebase, fork it, change it.&quot;
 That positioning is exactly nanoGPT's: not a tool, a textbook.</p>
@@ -281,26 +274,22 @@ That is a lesson-built-credibility play, more persuasive than any benchmark.</p>
 are &quot;the people who write the next production RL framework&quot; — if they fork it, learn from it,
 and apply it inside veRL configs, its value closes the loop.</p>
 <p><strong>The way educational projects die is also visible</strong>: once stars plateau, if the author stops
-maintaining (new algorithms, new model compatibility), it becomes an outdated handout.</p>
-<h2>What to watch next</h2>
+maintaining (new algorithms, new model compatibility), it becomes an outdated handout.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether anyone forks it for a real production task or publicly reproduces the end-to-end numbers
 ② Whether the author adds algorithms (a DPO/Online-DPO line) or fixes issues within three months —
 an educational project lives or dies on maintenance
 ③ Whether a production framework absorbs it as teaching material or source code (being cited is
-the real success)</p>
-<h2>What you can take from it</h2>
+the real success)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when your domain contains a hard-to-enter skill, building authority with one
 readable minimal implementation beats a hundred tutorials. Tutorials are one-way; readable code
 is an asset people can fork.</p>
 <p><strong>Positioning language</strong>: &quot;meant to be forked, not imported&quot; — naming the target user's
 behavior in the positioning beats any feature description. Also &quot;if you need these, you have
 outgrown this repo, and that's the point&quot; — stating the boundary as a feature.</p>
-<p><strong>Pricing structure</strong>: none.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> As a textbook it has real value, and its content asset (the logprob trap) is
 industrial-grade experience; as a product it has no commercial form. Write it down and check in
-three months whether it gets forked and cited.</p>
-
+three months whether it gets forked and cited.</p></article></div>
     </article>
   </section>
 

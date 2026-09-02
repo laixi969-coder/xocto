@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/soup-cli.html#webpage", "@type": "WebPage", "description": "Fine-tune a large model on an ordinary laptop\u0027s small GPU with one command. No need to rent a compute cluster.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Soup CLI", "url": "https://xocto.vercel.app/en/p/soup-cli.html"}, {"@id": "https://xocto.vercel.app/en/p/soup-cli.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-08", "description": "Fine-tune a large model on an ordinary laptop\u0027s small GPU with one command. No need to rent a compute cluster.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/soup-cli.html#webpage"}, "name": "Soup CLI", "url": "https://xocto.vercel.app/en/p/soup-cli.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/soup-cli.html", "name": "Soup CLI", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/soup-cli.html#webpage", "@type": "WebPage", "description": "Fine-tune a large model on an ordinary laptop\u0027s small GPU with one command. No need to rent a compute cluster.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Soup CLI", "url": "https://xocto.vercel.app/en/p/soup-cli.html"}, {"@id": "https://xocto.vercel.app/en/p/soup-cli.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-08", "description": "Fine-tune a large model on an ordinary laptop\u0027s small GPU with one command. No need to rent a compute cluster.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/soup-cli.html#webpage"}, "name": "Soup CLI", "url": "https://xocto.vercel.app/en/p/soup-cli.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/soup-cli.html", "name": "Soup CLI", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,21 +183,19 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>An LLM fine-tuning CLI that runs from one YAML and one command, built around
 &quot;layer streaming&quot;: the frozen base model lives in system RAM and only one decoder
 layer streams into the GPU at a time — so an 8B model fine-tunes on a 4 GB laptop
-GPU.</p>
-<h2>Who built it</h2>
+GPU.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Independent developer Alpamys Makazhan (GitHub: MakazhanAlpamys/Soup), Apache-2.0.
 His PyPI positioning: &quot;training LLMs is still painful. Even experienced teams spend
 30-50% of their time fighting infrastructure instead of improving models.&quot;</p>
 <p><em>Read: a developer tool built by someone who was first fed up with environment
 setup. He pushed &quot;saving VRAM&quot; to a verifiable, exact number and designed a
 verification protocol that requires streamed and resident runs to be bit-identical.
-That signals a concern for correctness, not demo polish.</em></p>
-<h2>What it actually does</h2>
+That signals a concern for correctness, not demo polish.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Layer-streamed fine-tuning</strong> → frozen model layers live in CPU RAM; one layer
 at a time streams into the GPU during compute, with double-buffered preloading,
@@ -218,8 +216,7 @@ Ollama/llama.cpp</li>
 flywheel&quot; loop with canary deploy and auto-rollback, and unlearning training for
 GDPR right-to-be-forgotten</li>
 </ul>
-<p><strong>Nine architectures</strong>: Llama, Qwen, Mistral, Gemma, Phi, and more.</p>
-<h2>What old behavior it replaces</h2>
+<p><strong>Nine architectures</strong>: Llama, Qwen, Mistral, Gemma, Phi, and more.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Fine-tuning an 8B model used to need roughly 16 GB of VRAM in standard precision —
 impossible on an ordinary 4 GB laptop. Three paths remained: rent cloud GPUs
 (hourly billing, environment setup, queueing); buy a big-VRAM card (thousands of
@@ -231,14 +228,12 @@ time there.</p>
 <p>Soup replaces the &quot;rent a cluster and configure the environment&quot; threshold,
 turning fine-tuning from &quot;a server thing&quot; into &quot;one command on a laptop.&quot;
 Layer streaming removes &quot;4 GB VRAM&quot; as the blocker; the YAML config removes
-&quot;environment setup&quot; as a daily tax.</p>
-<h2>Business model</h2>
+&quot;environment setup&quot; as a daily tax.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Apache-2.0, no paid tier, no hosted service, no company entity disclosed.</p>
 <p><em>Read: a classic &quot;build reputation on correctness&quot; open-source path. At this stage
 the author earns credibility and stars, not money. The predictable route is hosted
 training or enterprise support later, but monetization in the free, open-source
-ecosystem is not an easy road.</em></p>
-<h2>Hard numbers</h2>
+ecosystem is not an easy road.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>~430 GitHub stars (early Aug 2026), 83k cumulative PyPI downloads, 17,479 tests passing</li>
 <li>Core benchmark: Llama-3.1-8B-Instruct (NF4) on an RTX 3050 Laptop 4 GB at 119.6
@@ -250,8 +245,7 @@ the resident run</li>
 <li>Layer streaming is beta and ~1.43x slower than resident training; 1M training
 tokens take about 2.3 hours</li>
 <li>Show HN and a launch-site front page in the same week; one-person project</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -277,8 +271,7 @@ tokens take about 2.3 hours</li>
   <td>Local fine-tuning demand is being lit by the &quot;usable by everyone&quot; narrative; this is exactly when the barrier drops from cluster to laptop</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is real progress on &quot;dropping fine-tuning from rent-a-cluster to laptop,&quot;
 not a concept.</strong></p>
 <p>The core insight is that the training VRAM bottleneck is the assumption &quot;the model
@@ -302,16 +295,14 @@ faster; Soup makes non-qualifying GPUs work.</p>
 still exceed VRAM, and the boundaries need real users to find them; ② fine-tuning
 frameworks are fiercely competitive (Unsloth, LLaMA-Factory, and others are
 mature), and &quot;saves VRAM&quot; alone may not hold users; ③ a single-maintainer
-open-source project raises iteration-pace and long-term maintenance questions.</p>
-<h2>What to watch next</h2>
+open-source project raises iteration-pace and long-term maintenance questions.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars pass 1,500 in three months and layer streaming graduates from
 beta to stable — the project's live-or-dead signal
 ② Whether it enters mainstream framework comparisons (head-to-head with Unsloth /
 LLaMA-Factory) — being benchmarked is being recognized
 ③ Whether CI/script workflows adopt it as the de facto automated fine-tuning
 standard — YAML-driven and scriptable means it may find its first real home in
-internal enterprise pipelines</p>
-<h2>What you can take from it</h2>
+internal enterprise pipelines</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: for &quot;lower the barrier&quot; tools, make correctness a verifiable
 selling point — hard metrics like bit-exactness prove &quot;saved resources without
 saving worse,&quot; which beats any &quot;30% better&quot; claim with technical users. The
@@ -320,15 +311,13 @@ moat.</p>
 <p><strong>Positioning language</strong>: the PyPI line — &quot;even experienced teams spend 30-50% of
 their time fighting infrastructure&quot; — quantifies the pain with a concrete
 percentage, far stronger than &quot;simplify setup.&quot;</p>
-<p><strong>Pricing structure</strong>: none. Not commercialized.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not commercialized.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The technology holds — layer streaming has exact numbers and
 bit-exact verification behind it, turning &quot;fine-tune an 8B on a laptop&quot; from a
 slogan into a reproducible fact. But it does not make training faster, only
 reachable; business model and long-term maintenance are open questions. It is
 currently the most persuasive footnote in the &quot;local fine-tuning for everyone&quot;
-narrative.</p>
-
+narrative.</p></article></div>
     </article>
   </section>
 

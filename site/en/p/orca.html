@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/orca.html#webpage", "@type": "WebPage", "description": "Subscribe on phone, computer, or web, and access goes live on all six surfaces at once, with no cut of revenue.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Orca", "url": "https://xocto.vercel.app/en/p/orca.html"}, {"@id": "https://xocto.vercel.app/en/p/orca.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Business", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "Subscribe on phone, computer, or web, and access goes live on all six surfaces at once, with no cut of revenue.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/orca.html#webpage"}, "name": "Orca", "url": "https://xocto.vercel.app/en/p/orca.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/orca.html", "name": "Orca", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/orca.html#webpage", "@type": "WebPage", "description": "Subscribe on phone, computer, or web, and access goes live on all six surfaces at once, with no cut of revenue.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Orca", "url": "https://xocto.vercel.app/en/p/orca.html"}, {"@id": "https://xocto.vercel.app/en/p/orca.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Business", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "Subscribe on phone, computer, or web, and access goes live on all six surfaces at once, with no cut of revenue.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/orca.html#webpage"}, "name": "Orca", "url": "https://xocto.vercel.app/en/p/orca.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/orca.html", "name": "Orca", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,12 +183,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>It compresses &quot;which store the subscription was bought in, and whether it works on every platform&quot;
 into one unified ledger: subscription state synced in real time across iOS, Android, macOS, Linux,
-Windows, and Web — with zero revenue share.</p>
-<h2>Who built it</h2>
+Windows, and Web — with zero revenue share.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>A product from pcvetkovski, founder of Maxint (orca.maxint.com). His own app ships across six
 platforms and was stuck on multi-platform subscriptions: RevenueCat and Adapty only supported mobile
 and web, desktop required hand-rolling, and GitHub issues sat unanswered for months. So he built the
@@ -196,8 +195,7 @@ orchestration layer internally, ran it for 12+ months and tested it with thousan
 an MCP server early this year, and is now launching publicly.</p>
 <p><em>Read: the classic internal-tool-grows-into-a-product path — bitten by the problem first, solved it,
 now selling the solution. The founder's authority on this pain point is the most grounded of this
-batch.</em></p>
-<h2>What it actually does</h2>
+batch.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Six-platform sync</strong> → connects Apple StoreKit, Google Play, Stripe, and GoCardless; a user pays
 or cancels on any platform and entitlement state updates everywhere in real time</li>
@@ -211,8 +209,7 @@ manage entitlements, pull insights</li>
 <li><strong>Edge validation</strong> → entitlement states evaluated at the payment edge; the comparison page claims
 &lt;50ms validation (RevenueCat claims 150–400ms)</li>
 <li><strong>0% revenue share</strong> → flat monthly tiers, no percentage of revenue</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p><strong>Setting up products and entitlements by hand in every store.</strong> The old flow: set it up once in
 Google Play, once in the App Store, once in Stripe; change one and forget another, and users' access
 diverges across platforms.</p>
@@ -221,8 +218,7 @@ validation, renewals, grace periods, and edge cases meant writing your own multi
 Orca absorbs all of that and leaves you a single ledger API.</p>
 <p><strong>Desktop platforms left to fend for themselves.</strong> Most concretely: RevenueCat and Adapty do not do
 macOS/Linux/Windows, so desktop apps either build their own subscription state machine or sell on
-one platform only. Orca replaces that &quot;build it yourself or give up&quot; dilemma.</p>
-<h2>Business model</h2>
+one platform only. Orca replaces that &quot;build it yourself or give up&quot; dilemma.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Explicit.</strong> SaaS tiers: free at 500 active entitlements (~$3.5k MRR scale); Pro $299/mo at 10k;
 enterprise custom, starting at $999/mo. Add-ons priced separately: storage $49/mo per 50GB, MCP
 Server API $199/mo (requires Pro), Growth Intel $149/mo. The core pitch: 0% revenue share —
@@ -230,8 +226,7 @@ versus RevenueCat's up to 1% of gross MRR.</p>
 <p><em>Read: the most standard move against an incumbent there is — the incumbent takes a percentage of
 your revenue, you charge a flat fee. The unit of account shifts from &quot;your revenue&quot; to &quot;a fixed
 bill,&quot; which is real savings for a growing product. The problem: this model has no moat of its own.
-RevenueCat announcing desktop support is one release away.</em></p>
-<h2>Hard numbers</h2>
+RevenueCat announcing desktop support is one release away.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>Pricing: free at 500 active entitlements / Pro $299/mo at 10k / enterprise from $999/mo; MCP
 add-on $199/mo</li>
@@ -240,8 +235,7 @@ add-on $199/mo</li>
 self-reported on the product page)</li>
 <li>HN: 5 points, 0 comments</li>
 <li>Revenue and public user counts: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -267,8 +261,7 @@ self-reported on the product page)</li>
   <td>Desktop and cross-platform apps are being revived by the agent era, so subscription infrastructure demand is real; zero HN comments says cold start is weak</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Worth watching, because it got two things right, and both transfer.</strong></p>
 <p><strong>First, 0% take-rate is the standard weapon against a revenue-share incumbent.</strong> Any payment or
 distribution infrastructure facing an incumbent that takes a percentage of revenue can copy this
@@ -279,14 +272,12 @@ create products, map configurations, pull insights — is not a gimmick; it turn
 agent-programmable surface. For AI product builders, that is a new distribution surface worth copying.</p>
 <p><strong>The risks are equally standard</strong>: the incumbent needs only one release to close the gap; the
 5-point, 0-comment cold start says market education is early; and the sustainability of &quot;0% take-rate&quot;
-depends on actually making the cost structure work flat.</p>
-<h2>What to watch next</h2>
+depends on actually making the cost structure work flat.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether public user counts and revenue get disclosed — can 12 months internal and thousands of
 users convert into public numbers
 ② Whether the MCP server gets used by third-party agent workflows (not just marketed as a feature)
 ③ Whether RevenueCat or Adapty announces desktop support — incumbent retaliation is the biggest risk
-for a company like this</p>
-<h2>What you can take from it</h2>
+for a company like this</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: platforms the incumbent ignores (desktop) are where new categories start; making
 your product operable by agents (MCP-ization) is a new interface for B2B tools. When building AI
 products, &quot;let agents call my product directly&quot; belongs in the feature plan, not in the nice-to-have
@@ -297,11 +288,9 @@ the industry's convention unreasonable is stronger than saying &quot;we are chea
 <p><strong>Pricing structure</strong>: tier by &quot;active entitlements&quot; rather than seats or devices — the free tier
 caps at 500, Pro at 10k, the unit maps directly to user scale; capability add-ons (MCP, growth
 analytics, storage) priced separately instead of bundled into the main plan. Both the unit design and
-the a-la-carte add-on menu are copyable.</p>
-<h2>Verdict</h2>
+the a-la-carte add-on menu are copyable.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> Real need, real pricing, real internal usage history; public validation is thin
-and the cold start is weak. Come back in three months against the three checks above.</p>
-
+and the cold start is weak. Come back in three months against the three checks above.</p></article></div>
     </article>
   </section>
 

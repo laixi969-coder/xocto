@@ -4,15 +4,15 @@
 {% block ogtitle %}{{ t.products.title }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
-<div class="wrap">
+<div class="wrap products-desk">
 
-  <header class="lede-bar directory-mast">
+  <header class="lede-bar directory-mast desk-command">
     <div class="lede-main">
       <p class="eyebrow">{{ locale.site_tagline }}</p>
       <h1 id="ctx-title">{{ t.products.title }}</h1>
       <p id="ctx-note">{{ t.products.note }}</p>
     </div>
-    <dl class="lede-stats">
+    <dl class="lede-stats desk-stats">
       <div>
         <dt>{{ t.products.count }}</dt>
         <dd class="num"><a class="results-jump" href="#grid"><span id="count">{{ stats.total }}</span> {{ t.products.results_jump }}</a></dd>
@@ -20,7 +20,7 @@
     </dl>
   </header>
 
-  <section class="band">
+  <section class="band desk-band">
     <div class="map-toolbar">
       <label class="map-search" for="product-search">
         <span class="filter-k">{{ ico('search') }}<span>{{ t.products.search_label }}</span></span>

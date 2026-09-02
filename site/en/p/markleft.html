@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/markleft.html#webpage", "@type": "WebPage", "description": "You annotate the draft in place; AI only appends suggestions, the original stays, and you accept or reject line by line.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Markleft", "url": "https://xocto.vercel.app/en/p/markleft.html"}, {"@id": "https://xocto.vercel.app/en/p/markleft.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "You annotate the draft in place; AI only appends suggestions, the original stays, and you accept or reject line by line.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/markleft.html#webpage"}, "name": "Markleft", "sameAs": "https://blog.lysk.tech/markleft-ai-markdown-review/", "url": "https://xocto.vercel.app/en/p/markleft.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/markleft.html", "name": "Markleft", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/markleft.html#webpage", "@type": "WebPage", "description": "You annotate the draft in place; AI only appends suggestions, the original stays, and you accept or reject line by line.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Markleft", "url": "https://xocto.vercel.app/en/p/markleft.html"}, {"@id": "https://xocto.vercel.app/en/p/markleft.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "You annotate the draft in place; AI only appends suggestions, the original stays, and you accept or reject line by line.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/markleft.html#webpage"}, "name": "Markleft", "sameAs": "https://blog.lysk.tech/markleft-ai-markdown-review/", "url": "https://xocto.vercel.app/en/p/markleft.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/markleft.html", "name": "Markleft", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,18 +184,16 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A &quot;suggestion mode&quot; for Markdown: you annotate the document in place — text, code, tables,
 diagrams, SVGs — and the AI appends suggestions instead of rewriting the whole file, leaving each
-one for you to accept.</p>
-<h2>Who built it</h2>
+one for you to accept.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Martin R. Lysk (HN: mlysk), an individual developer. A Chrome bookmarklet, an annotation spec, and
 an 11-minute blog post (2026-08-09); code at github.com/martin-lysk/markleft.</p>
 <p><em>Read: this is a methodology-before-product project — the article first argues why the current flow
 is absurd, then gives you the tool. That order is itself noteworthy: it assumes readers are people
-who want to improve the AI writing-iteration loop, not people who want to install a plugin.</em></p>
-<h2>What it actually does</h2>
+who want to improve the AI writing-iteration loop, not people who want to install a plugin.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Annotate in place</strong> → comment on selected text, code lines, tables, Mermaid diagrams, SVGs;
 image annotations use normalized coordinates (image-X-Y)</li>
@@ -214,8 +212,7 @@ editor with annotations and accept/reject; saving compiles a prompt teaching the
 syntax</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: does not change the Markdown format, no cloud service, no
-default path of &quot;AI rewrites the whole file.&quot;</p>
-<h2>What old behavior it replaces</h2>
+default path of &quot;AI rewrites the whole file.&quot;</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>The default flow of iterating a long document with AI: you describe in chat, in prose, what's
 wrong → AI rewrites everything → you play spot-the-difference between two versions → and you have
 to remember which of your original words maps to which change. The author's analogy: mailing a
@@ -224,19 +221,16 @@ version, and being asked to compare the two yourself to judge whether they under
 document collaboration solved decades ago with comments and tracked changes.</p>
 <p>markleft replaces the absurd chain of &quot;prose feedback + full rewrite + manual diff&quot; with
 &quot;in-place annotation + append-only suggestions + diffs anchored to comments.&quot; The idea transfers
-to any AI-generated-document review scenario, not just Markdown.</p>
-<h2>Business model</h2>
+to any AI-generated-document review scenario, not just Markdown.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Free bookmarklet, open source (github.com/martin-lysk/markleft), no pricing page.</p>
 <p><em>Read: this is a technical/methodological essay with no trace of commercial intent. Its value is in
-the method, not the product form.</em></p>
-<h2>Hard numbers</h2>
+the method, not the product form.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>HN: 8 points, 1 comment</strong> (2026-08-13), Show HN; the only comment is the author's own repo link</li>
 <li>Blog post: 11-minute read, published 2026-08-09</li>
 <li>Annotatable targets: text, code lines, tables, Mermaid, images (SVG), blocks</li>
 <li>Users, usage: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -262,8 +256,7 @@ the method, not the product form.</em></p>
   <td>AI document generation is entering a &quot;output exceeds review capacity&quot; phase; review tools are in rising demand, but buyers are not yet clear</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>A textbook case of retranslating a problem document collaboration solved two decades ago for the
 AI era.</strong></p>
 <p>Comments and tracked changes solved &quot;how humans edit one document&quot; in Word/Google Docs, but when
@@ -276,15 +269,13 @@ but it cannot touch your original. That single constraint solves two problems at
 overreach, and letting a human quickly confirm &quot;what changed, and which comment does it answer.&quot;</p>
 <p><strong>Its ceiling is equally honest</strong>: a bookmarklet is a personal-tool shape, and 8 points means
 almost nobody saw it. The real destiny of this method is probably absorption by an editor, Claude's
-artifacts, or a document tool — not growing into a product itself.</p>
-<h2>What to watch next</h2>
+artifacts, or a document tool — not growing into a product itself.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether any editor or writing tool absorbs the &quot;append-only suggestions&quot; interaction — validation
 that the method is a public good
 ② Whether the repo's stars/issues move — the most common fate of bookmarklet projects is author
 self-use
 ③ Whether the author grows the spec into a cross-tool standard — &quot;comments as footnotes&quot; is
-meaningless confined to one bookmarklet</p>
-<h2>What you can take from it</h2>
+meaningless confined to one bookmarklet</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: any review loop in an AI content tool should copy the &quot;append-only suggestions +
 addressable annotations&quot; pair — it gives you both a permission boundary and auditability.
 Implementation-wise, encoding annotations into footnote ids to keep format compatibility is a
@@ -292,14 +283,12 @@ low-cost high-return move.</p>
 <p><strong>Positioning language</strong>: the author's opening analogy (&quot;you wouldn't send a colleague a prose
 essay of criticism and ask for a full rewrite&quot;) is a reusable template for explaining why a current
 flow is absurd — usable in any AI-workflow product pitch.</p>
-<p><strong>Pricing structure</strong>: none. Free and open source.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Free and open source.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>The method is worth something; the product hasn't grown yet.</strong> &quot;Append-only suggestions&quot; is one
 of the few designs in AI document collaboration that solves permission and auditability at once;
 8 points doesn't change the value of the method. But the bookmarklet form and zero commercialization
 signs likely keep it at the personal-tool level. Note the interaction pattern and wait for it to be
-absorbed elsewhere.</p>
-
+absorbed elsewhere.</p></article></div>
     </article>
   </section>
 

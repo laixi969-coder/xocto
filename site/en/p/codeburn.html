@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/codeburn.html#webpage", "@type": "WebPage", "description": "Reads local logs from coding tools to show which task the money went to, and whether any code was actually delivered.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "CodeBurn", "url": "https://xocto.vercel.app/en/p/codeburn.html"}, {"@id": "https://xocto.vercel.app/en/p/codeburn.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-13", "datePublished": "2026-08-11", "description": "Reads local logs from coding tools to show which task the money went to, and whether any code was actually delivered.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/codeburn.html#webpage"}, "name": "CodeBurn", "url": "https://xocto.vercel.app/en/p/codeburn.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/codeburn.html", "name": "CodeBurn", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/codeburn.html#webpage", "@type": "WebPage", "description": "Reads local logs from coding tools to show which task the money went to, and whether any code was actually delivered.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "CodeBurn", "url": "https://xocto.vercel.app/en/p/codeburn.html"}, {"@id": "https://xocto.vercel.app/en/p/codeburn.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-13", "datePublished": "2026-08-11", "description": "Reads local logs from coding tools to show which task the money went to, and whether any code was actually delivered.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/codeburn.html#webpage"}, "name": "CodeBurn", "url": "https://xocto.vercel.app/en/p/codeburn.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/codeburn.html", "name": "CodeBurn", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,13 +183,12 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A free, local, open-source ledger for AI coding spend: no keys uploaded, it reads the session
 logs your tools already write to disk — Claude Code, Cursor, Codex, Copilot, and ~37-40 more —
 and breaks token and dollar spend down by task, model, project, and PR, then goes one step
-further and tells you whether the money actually shipped code.</p>
-<h2>Who built it</h2>
+further and tells you whether the money actually shipped code.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Resham (ProductHunt <code>@iamtoruk</code>), an open-source project under the GitHub org AgentSeal.
 His stated motivation: burning ~$1,400 in a week on Claude Code, with no idea where it went,
 so he built it and open-sourced it. The launch thread also shows Aditya V. Singh
@@ -198,8 +197,7 @@ co-builder.</p>
 <p><em>Read: writing the accounting tool only after burning real money is the most credible origin
 story in this category. And the bookkeeper's obsession — &quot;mark it unattributed rather than
 smear it somewhere plausible&quot; — is the habit of someone who has actually done financial
-judgment, not a growth hacker.</em></p>
-<h2>What it actually does</h2>
+judgment, not a growth hacker.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Spend broken down by dimension</strong> → time / project / model / task / tool, down to each model
 call; pricing from the LiteLLM table with input/output/cache split, and it says &quot;estimate&quot;
@@ -221,22 +219,19 @@ project — no code, no prompts; OIDC login</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no shell-client wrapper, no cloud billing platform, no
 invoice-grade reconciliation. No account and no telemetry by default; data never leaves the
-machine.</p>
-<h2>What old behavior it replaces</h2>
+machine.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Figuring out your AI coding spend used to mean two things: provider pages, each with its own
 number (Claude.ai's total, Cursor's total) that never add up, or handing API keys to a cloud
 aggregator and swallowing the privacy/compliance cost.</p>
 <p>CodeBurn takes the third route — <strong>read the session files that already exist on disk</strong>. Every
 AI coding tool writes detailed session logs locally; nobody was reading them. It replaces the
 &quot;open every vendor dashboard and stitch the bills together&quot; ritual, and pre-answers the next
-question too: did any of it become a merge.</p>
-<h2>Business model</h2>
+question too: did any of it become a merge.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Free and open source (MIT); no paid product today.</strong> Sponsor links on GitHub; team sync
 marked preview. The founder says plainly on launch: &quot;it's already free, nothing to unlock.&quot;</p>
 <p><em>Read: classic &quot;build the tool, earn trust, monetize later.&quot; The valuable bet is the
 &quot;cost per useful unit of work&quot; framing — whoever makes that metric the standard owns the
-category's pricing power. No evidence yet that they've decided where to charge.</em></p>
-<h2>Hard numbers</h2>
+category's pricing power. No evidence yet that they've decided where to charge.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>9.3k stars / 738 forks</strong> (2026-08), MIT, TypeScript-first</li>
 <li>First commit 2026-04-14; current v0.9.20 (2026-08-11) — 0.1 to 0.9 in four months is fast</li>
@@ -245,8 +240,7 @@ Cursor, Codex, Copilot, Devin, Gemini CLI, and others</li>
 <li>Paid users, ARR, funding: none (no paid product)</li>
 <li>A Chinese aggregator claims &quot;150,000+ developers use it&quot;; no first-party source found, treat
 as unverified</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -272,8 +266,7 @@ as unverified</li>
   <td>Right as runaway agent spend becomes a common pain; landing on the same need as Decant confirms the category exists</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>One of the most serious independents in the AI-observability lane, and its direction — from
 &quot;how much&quot; to &quot;what did it produce&quot; — is the industry's correct next step.</strong></p>
 <p>The dashboard is not the asset; the <strong>attribution philosophy</strong> is: numbers that can't be traced
@@ -287,15 +280,13 @@ sync and the budget guard are obvious enterprise hooks but nothing is priced yet
 &quot;Optimize applies the fix itself&quot; line — sliding from measurement tool toward an auto-optimizing
 agent is either the moat or a fight with the very tools it monitors, and the choice isn't made.</p>
 <p><strong>Competition</strong>: Decant and others sit in the same lane, and vendor-native usage pages keep
-improving. CodeBurn's stack of local-first, key-free, honest attribution is hard to copy quickly.</p>
-<h2>What to watch next</h2>
+improving. CodeBurn's stack of local-first, key-free, honest attribution is hard to copy quickly.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether a paid tier or clear pricing appears (team sync / enterprise) — where does the first
 revenue beyond sponsors come from
 ② Whether &quot;cost per merged PR&quot; and similar output-side metrics get adopted by peers — adoption
 means they defined the standard
 ③ Whether stars clear 15k in three months and coverage keeps pace with new agents — coverage
-is the life-or-death line for this category</p>
-<h2>What you can take from it</h2>
+is the life-or-death line for this category</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when your users already produce the data nobody is reading, build the
 &quot;reader of existing data&quot; instead of the &quot;requires instrumentation first&quot; tool — it costs a
 tenth of the distribution effort. One <code>npx codeburn</code> reads the entire history; that is the
@@ -304,13 +295,11 @@ first cause of its growth.</p>
 of the status quo opens better than a feature list.</p>
 <p><strong>Pricing structure</strong>: none, not disclosed — but the &quot;free + sponsors + enterprise features in
 preview&quot; staging is worth copying: let the tool grow into the de facto standard, then layer
-the enterprise tier.</p>
-<h2>Verdict</h2>
+the enterprise tier.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> Real pain, solid engineering, fast growth (9.3k stars in four months), and
 an attribution philosophy that is unique in the category. What's missing is a business model and
 a decision on the auto-optimize direction; those two determine how big it gets. Note the three
-checks above and revisit in three months.</p>
-
+checks above and revisit in three months.</p></article></div>
     </article>
   </section>
 

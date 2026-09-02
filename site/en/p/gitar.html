@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/gitar.html#webpage", "@type": "WebPage", "description": "Code review does not stop at findings: it patches the issue, runs checks, and only then commits, so humans stop closing the loop.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Gitar", "url": "https://xocto.vercel.app/en/p/gitar.html"}, {"@id": "https://xocto.vercel.app/en/p/gitar.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "Code review does not stop at findings: it patches the issue, runs checks, and only then commits, so humans stop closing the loop.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/gitar.html#webpage"}, "name": "Gitar", "url": "https://xocto.vercel.app/en/p/gitar.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/gitar.html", "name": "Gitar", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/gitar.html#webpage", "@type": "WebPage", "description": "Code review does not stop at findings: it patches the issue, runs checks, and only then commits, so humans stop closing the loop.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Gitar", "url": "https://xocto.vercel.app/en/p/gitar.html"}, {"@id": "https://xocto.vercel.app/en/p/gitar.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "Code review does not stop at findings: it patches the issue, runs checks, and only then commits, so humans stop closing the loop.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/gitar.html#webpage"}, "name": "Gitar", "url": "https://xocto.vercel.app/en/p/gitar.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/gitar.html", "name": "Gitar", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,13 +183,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>AI code review where the review is not the endpoint: it finds the problem, applies the fix, runs CI to validate, and only commits when the pipeline is green. &quot;From telling you there's a problem to having already fixed it&quot; is the line separating it from every comment-only review tool.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>AI code review where the review is not the endpoint: it finds the problem, applies the fix, runs CI to validate, and only commits when the pipeline is green. &quot;From telling you there's a problem to having already fixed it&quot; is the line separating it from every comment-only review tool.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>A startup that launched in April 2026 and was acquired in May 2026 by Sonar (the company behind SonarQube), now living at sonarsource.com/products/gitar as the AI-review layer of Sonar's &quot;multilayered verification platform.&quot; CTO is Gautam Korlam, also a principal engineer at Sonar; co-founder Zac Zuo (the name in the pool's builder field) launched it on PH as co-hunter.</p>
-<p><em>Read: acquired one month after launch — Sonar bought the capability, not the customer base. A company with two decades in code quality needed a review layer that can absorb AI-agent-produced code, and Gitar is what it picked. The acquisition is net positive for Gitar: Sonar's 7 million developers and 22,000+ customers is distribution Gitar could not have built itself in three years.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: acquired one month after launch — Sonar bought the capability, not the customer base. A company with two decades in code quality needed a review layer that can absorb AI-agent-produced code, and Gitar is what it picked. The acquisition is net positive for Gitar: Sonar's 7 million developers and 22,000+ customers is distribution Gitar could not have built itself in three years.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Reviews PRs and actually fixes them</strong> → reads the diff, CI logs, repo rules, and agent instruction files; generates fixes, pushes them to the branch, and runs CI to verify the fix did not break anything else</li>
 <li><strong>Fixes CI failures</strong> → analyzes build/test/lint failures, finds root causes, and keeps fixing until green; also deduplicates repeated build failures and detects/retries flaky tests</li>
@@ -198,13 +196,11 @@
 <li><strong>Agent-agnostic</strong> → reviews whatever wrote the code, Claude Code, Cursor, Codex, Devin, or Copilot</li>
 <li><strong>Static analysis guardrail</strong> → a static-analysis layer over syntax, dependency graphs, and type information constrains what the LLM is allowed to suggest, cutting down confident-but-wrong suggestions on unfamiliar frameworks</li>
 </ul>
-<p><strong>Its own positioning</strong>: &quot;Most people think this space is saturated. It is, but in the low end. High-end code reviews is blue ocean.&quot;</p>
-<h2>What old behavior it replaces</h2>
+<p><strong>Its own positioning</strong>: &quot;Most people think this space is saturated. It is, but in the low end. High-end code reviews is blue ocean.&quot;</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Code review used to be two steps, both flawed:</p>
 <p><strong>Human review</strong> — senior engineers reading PRs line by line. Reliable, but slow: waiting on reviews across time zones is the norm, and AI-generated code now outpaces what humans can review — &quot;PR pile-ups, CI failures, and senior engineers are the last friction points between AI speed and shipped product,&quot; in Gitar's own words.</p>
 <p><strong>Comment-based AI reviewers (CodeRabbit, Greptile, etc.)</strong> — they find problems, post comments, and suggest fixes, but stop at the suggestion: someone still has to accept each fix and manually confirm the build is not broken. Gitar's critique is concrete: &quot;The review doesn't end with a finding and another comment for devs to deal with. Gitar stays with the change through the fix and back through CI.&quot;</p>
-<p>Gitar replaces the second half after the finding — from finding to fix to validation to commit, fully automated. It upgrades the review tool from &quot;sentry that points at problems&quot; to &quot;worker that removes them.&quot; Its argument: for teams whose constraint is not finding problems but keeping up with fixing them, comment-only tools deliver nothing.</p>
-<h2>Business model</h2>
+<p>Gitar replaces the second half after the finding — from finding to fix to validation to commit, fully automated. It upgrades the review tool from &quot;sentry that points at problems&quot; to &quot;worker that removes them.&quot; Its argument: for teams whose constraint is not finding problems but keeping up with fixing them, comment-only tools deliver nothing.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>SaaS subscription:</p>
 <ul>
 <li><strong>Core $20/user/month</strong>: basic review + fixes</li>
@@ -213,8 +209,7 @@
 <li>14-day trial, free for OSI open-source public repos, 50-user ceiling on self-serve</li>
 <li>GitHub and GitLab only (including self-hosted); no Bitbucket, no Azure DevOps</li>
 </ul>
-<p><em>Read: priced a tier above CodeRabbit (which has a free tier), betting &quot;can fix&quot; commands a premium. The bet has logic — from &quot;here's a problem&quot; to &quot;it's fixed&quot; is a step change in value. But the 50-user ceiling pushes big teams to sales, and migration automation — the most impressive demo — sits behind Enterprise, hiding the best story until a sales call.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: priced a tier above CodeRabbit (which has a free tier), betting &quot;can fix&quot; commands a premium. The bet has logic — from &quot;here's a problem&quot; to &quot;it's fixed&quot; is a step change in value. But the 50-user ceiling pushes big teams to sales, and migration automation — the most impressive demo — sits behind Enterprise, hiding the best story until a sales call.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>Launched April 2026, <strong>acquired by Sonar May 2026</strong> (amount not disclosed)</li>
 <li>PH launch 2026-08-11: <strong>107 upvotes, 2 comments, #12 of the day</strong></li>
@@ -223,8 +218,7 @@
 <li>Migration automation claims: 6 categories, ~40%–90% automation potential (not independently verified)</li>
 <li>Review quality: <strong>no third-party published benchmark</strong> (four months old)</li>
 <li>ARR, customer count: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -250,23 +244,18 @@
   <td>Excellent. AI-generated code volume is exploding, review is a recognized bottleneck, and Sonar hands over distribution</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>&quot;From telling you there's a problem to having fixed it&quot; is indeed the step-change from sentry to worker — and its biggest advantage has already been proven by the acquisition.</strong></p>
 <p><strong>The transferable rule: the ceiling of comment-based tools is the entry price of fix-based ones.</strong> CodeRabbit-class tools stop at &quot;pointing out the problem&quot;; Gitar extends value to &quot;the problem is gone.&quot; The felt difference is an order of magnitude — one is &quot;someone gave me more work,&quot; the other is &quot;the work is gone.&quot; Any diagnostics product that wants to raise prices should first figure out how to turn its diagnosis directly into action.</p>
 <p><strong>Its real moat is not AI, it is deep CI attribution.</strong> Pure-LLM reviewers are everywhere, but &quot;deduplicating build failures, identifying flaky tests, separating code failures from infrastructure noise&quot; is grubby work no comment-only competitor does. This explains why Sonar picked it — Sonar has the verification layer and lacks a review layer that acts on its own; Gitar fills exactly that half.</p>
-<p><strong>Risks</strong>: first, no third-party benchmark, so review quality is self-asserted (normal at four months); second, post-acquisition &quot;product in transition&quot; — it is being integrated into Sonar's platform, so positioning and packaging will shift and independent signals will get harder to read; third, &quot;finds it, fixes it&quot; requires teams to let AI touch branches directly, a much higher trust bar than &quot;reads comments,&quot; which means a longer sales cycle.</p>
-<h2>What to watch next</h2>
+<p><strong>Risks</strong>: first, no third-party benchmark, so review quality is self-asserted (normal at four months); second, post-acquisition &quot;product in transition&quot; — it is being integrated into Sonar's platform, so positioning and packaging will shift and independent signals will get harder to read; third, &quot;finds it, fixes it&quot; requires teams to let AI touch branches directly, a much higher trust bar than &quot;reads comments,&quot; which means a longer sales cycle.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① After Sonar integration, whether Gitar is still purchasable standalone or folded entirely into SonarQube subscription
 ② Whether migration automation (the 40–90% claim) moves out of Enterprise and produces public customer cases
-③ Whether a third-party benchmark or published fix-success-rate data appears in the next few months — &quot;actually fixed it&quot; needs hard numbers to sell</p>
-<h2>What you can take from it</h2>
+③ Whether a third-party benchmark or published fix-success-rate data appears in the next few months — &quot;actually fixed it&quot; needs hard numbers to sell</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: for any diagnostics/detection product, the automation between &quot;detected&quot; and &quot;fixed&quot; is the room to raise prices. Gitar took the full step from &quot;comment&quot; to &quot;fix + validate&quot;; even a partial move — one-click apply-fix plus auto-validation — is a tier above pure suggestions.</p>
 <p><strong>Positioning language</strong>: its opener is directly stealable — &quot;The review doesn't end with a finding and another comment.&quot; One sentence defines its difference from the entire old category. Describe the step in the old workflow users hate most, then say you stop there.</p>
-<p><strong>Pricing structure</strong>: lock the most lethal capability (migration automation) behind Enterprise, and let self-serve run on Core/Pro. But watch the 50-user ceiling — capping at 50 shoves live people into sales, which only works if enterprise conversion is high enough.</p>
-<h2>Verdict</h2>
-<p><strong>Worth watching.</strong> Precise positioning, the Sonar acquisition is hard validation, and deep CI attribution is real differentiation — but review quality has no third-party benchmark, and the product is in an integration transition that will thin independent signals. Watch migration automation opening up and third-party data.</p>
-
+<p><strong>Pricing structure</strong>: lock the most lethal capability (migration automation) behind Enterprise, and let self-serve run on Core/Pro. But watch the 50-user ceiling — capping at 50 shoves live people into sales, which only works if enterprise conversion is high enough.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Precise positioning, the Sonar acquisition is hard validation, and deep CI attribution is real differentiation — but review quality has no third-party benchmark, and the product is in an integration transition that will thin independent signals. Watch migration automation opening up and third-party data.</p></article></div>
     </article>
   </section>
 

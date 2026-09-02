@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/relational-to-kv.html#webpage", "@type": "WebPage", "description": "To store business data the way it is accessed on a fast engine, the assistant drafts a design from expert rules, and a human signs off.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Relational-to-KV", "url": "https://xocto.vercel.app/en/p/relational-to-kv.html"}, {"@id": "https://xocto.vercel.app/en/p/relational-to-kv.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "To store business data the way it is accessed on a fast engine, the assistant drafts a design from expert rules, and a human signs off.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/relational-to-kv.html#webpage"}, "name": "Relational-to-KV", "url": "https://xocto.vercel.app/en/p/relational-to-kv.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/relational-to-kv.html", "name": "Relational-to-KV", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/relational-to-kv.html#webpage", "@type": "WebPage", "description": "To store business data the way it is accessed on a fast engine, the assistant drafts a design from expert rules, and a human signs off.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Relational-to-KV", "url": "https://xocto.vercel.app/en/p/relational-to-kv.html"}, {"@id": "https://xocto.vercel.app/en/p/relational-to-kv.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-08-13", "description": "To store business data the way it is accessed on a fast engine, the assistant drafts a design from expert rules, and a human signs off.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/relational-to-kv.html#webpage"}, "name": "Relational-to-KV", "url": "https://xocto.vercel.app/en/p/relational-to-kv.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/relational-to-kv.html", "name": "Relational-to-KV", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,21 +183,19 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>The craft of &quot;how do I put a relational model on a KV engine like RocksDB/ToplingDB&quot; — a skill
 only storage experts have — packaged as a skill bundle for AI coding assistants (Cursor / Claude
 Code / Codex): the agent generates key designs, encoding code, and engine configs by following
-rules, instead of improvising.</p>
-<h2>Who built it</h2>
+rules, instead of improvising.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>rockeet (a GitHub account), MIT licensed, repository created 2026-08-10. The author is closely
 tied to the ToplingDB ecosystem — ToplingDB is a derived fork of RocksDB maintained by the
 Topling team, and the repo references and compiles companion sources such as topling-zip.</p>
 <p><em>Read: this is a &quot;harden the pain you lived through into an AI skill&quot; project. Blockchain teams
 like Sui, Aptos, and NEAR hand-translate relational models into KV layouts for performance —
 an architecture only affordable to companies with dedicated storage teams. The author wants to
-make it reusable for ordinary teams.</em></p>
-<h2>What it actually does</h2>
+make it reusable for ordinary teams.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>A seven-step flow</strong> → inventory entities/relations → enumerate access patterns (point,
 prefix, range scans) → derive key spaces → assign logical namespaces → generate byte-order-safe
@@ -210,8 +208,7 @@ FoundationDB tuple-layer transform to preserve IEEE 754 totalOrder</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: it is not an SQL compatibility layer, not an ORM, not a
 drop-in for arbitrary SQL, and it does not migrate data automatically. It only produces design
-decisions and code; humans still own the business semantics and access-pattern choices.</p>
-<h2>What old behavior it replaces</h2>
+decisions and code; humans still own the business semantics and access-pattern choices.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Two old roads, both expensive.</p>
 <p>The first is using a SQL database (MySQL/TiDB and friends) and letting the relational engine
 handle storage. That carries an &quot;abstraction tax&quot;: to preserve SQL semantics, the underlying KV
@@ -224,21 +221,18 @@ companies with dedicated storage teams can afford it, each time a bespoke tens-o
 lines effort.</p>
 <p>relational-to-kv replaces the &quot;relying on expert memory and improvisation&quot; part of the second
 road: turning expert practice into rules and templates an agent can execute, so ordinary teams
-can take that road with reviewable, portable designs.</p>
-<h2>Business model</h2>
+can take that road with reviewable, portable designs.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> MIT, no hosting, no pricing.</p>
 <p><em>Read: a textbook &quot;content infrastructure&quot; project — the value is the rule set itself, not
 software. If it validates, the author's real exit is likely services or enterprise support
-around the ToplingDB ecosystem. No commercial movement yet.</em></p>
-<h2>Hard numbers</h2>
+around the ToplingDB ecosystem. No commercial movement yet.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>2 stars, 0 forks.</strong> Repository created 2026-08-10</li>
 <li>HN: 5 points, 0 comments</li>
 <li>A single commit (the initial commit is complete), MIT</li>
 <li>Includes tests: ToplingDB source compilation, memcmp encoding round-trips, ASan/UBSan builds</li>
 <li>Users and enterprise adoption: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -264,8 +258,7 @@ around the ToplingDB ecosystem. No commercial movement yet.</em></p>
   <td>Early and narrow. The need for KV storage design is real, but the paying scenario has not changed in a decade</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is a sample of &quot;craft encapsulation in the AI era&quot;: turning a skill held by a few into a
 rule set for agents.</strong> The direction is new and worth studying for anyone building vertical
 tools; but for this specific project, the market may not support a product.</p>
@@ -279,24 +272,20 @@ wrongly-designed key space is useless no matter how correct the code is. The REA
 &quot;semantic and access-pattern choices&quot; to humans, which keeps the hardest judgment with the very
 expert the tool is meant to replace.</p>
 <p><strong>HN's 5 points says the market is cold</strong>: this is not a mass pain point. It will only ever
-serve the very few teams that put data directly on KV engines.</p>
-<h2>What to watch next</h2>
+serve the very few teams that put data directly on KV engines.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether any team actually produces a production KV design with it and publishes the result
 ② Whether the rule set tracks RocksDB/ToplingDB versions — once the encoding conventions go
 stale, the skill becomes a liability
 ③ Whether Cursor/Claude officially list it in their skill marketplaces — listing would mean a
-platform vouches for its quality bar</p>
-<h2>What you can take from it</h2>
+platform vouches for its quality bar</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: turning your team's most expensive tacit knowledge — senior engineers'
 judgment — into executable rule documents plus templates is more useful than a training manual.
 The test: can another person (or an agent) follow the rules to a reviewable result?</p>
 <p><strong>Positioning language</strong>: none. Engineering documentation; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven, but remember the form.</strong> The specific project lacks validation (2 stars, 5 points,
 no users). The &quot;skill encapsulation&quot; pattern itself is worth watching — it may become a new
-vehicle for distributing vertical-industry knowledge.</p>
-
+vehicle for distributing vertical-industry knowledge.</p></article></div>
     </article>
   </section>
 

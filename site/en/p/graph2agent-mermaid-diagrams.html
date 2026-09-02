@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html#webpage", "@type": "WebPage", "description": "Human flowcharts are translated into plain structure an AI can read, without guessing from the picture, so edges and limits can be checked.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Graph2agent; Mermaid diagrams", "url": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html"}, {"@id": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Human flowcharts are translated into plain structure an AI can read, without guessing from the picture, so edges and limits can be checked.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html#webpage"}, "name": "Graph2agent; Mermaid diagrams", "sameAs": "https://graph2agent.github.io/", "url": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html", "name": "Graph2agent; Mermaid diagrams", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html#webpage", "@type": "WebPage", "description": "Human flowcharts are translated into plain structure an AI can read, without guessing from the picture, so edges and limits can be checked.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Graph2agent; Mermaid diagrams", "url": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html"}, {"@id": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Human flowcharts are translated into plain structure an AI can read, without guessing from the picture, so edges and limits can be checked.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html#webpage"}, "name": "Graph2agent; Mermaid diagrams", "sameAs": "https://graph2agent.github.io/", "url": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/graph2agent-mermaid-diagrams.html", "name": "Graph2agent; Mermaid diagrams", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,34 +184,28 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>Translates Mermaid diagrams into explicit text agents can read: humans look at the picture, agents read structured prose, with no model inference in between — purely deterministic conversion.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>Translates Mermaid diagrams into explicit text agents can read: humans look at the picture, agents read structured prose, with no model inference in between — purely deterministic conversion.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Author alexandroskyr, posted as a Show HN. Backstory: while building a large high-performance service, he kept specs in Mermaid diagrams to keep context small for humans; people could follow the diagrams, but when he asked agents to implement what was in them, it mostly failed. His conclusion: &quot;agents are good at writing Mermaid diagrams but not good at reading them.&quot;</p>
-<p><em>Read: a classic case of being bitten by the problem in a real project. The pain is specific and reproducible — not a tool built before finding a scenario.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: a classic case of being bitten by the problem in a real project. The pain is specific and reproducible — not a tool built before finding a scenario.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Deterministic conversion</strong> → no model call; expands Mermaid's elements, connections, branches, order, topology, and even &quot;what the diagram does not prove&quot; into explicit text</li>
 <li><strong>Four launch surfaces</strong> → CLI (brew / Debian packages), MCP server (one-command npx), GitHub Action (required check before a PR merges), and a maintenance bot (changes only generated Markdown context)</li>
 <li><strong>Measured effect</strong> → on a frozen paired benchmark of 330 private contracts: exact comprehension 63.3%→81.8% (failures 121→60); +8% input tokens, −46% reasoning tokens</li>
 <li><strong>Explicit limits</strong> → the &quot;evidence boundary&quot; is documented more carefully than the features: layout direction doesn't declare execution order, missing links aren't forbidden, color and styling are presentation unless labeled as contract semantics</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Getting an agent to implement from a diagram used to mean one of two things: paste the raw Mermaid source (the agent must reverse-engineer nodes, branches, and topology from compact syntax, and often gets it wrong), or manually translate the diagram into prose for the agent (slow, and the translation itself introduces errors).</p>
-<p>graph2agent replaces the second — <strong>handing the &quot;human reads the diagram, then explains it to the agent&quot; translation job to a deterministic compiler</strong> — and can sit in CI so every diagram in every PR is agent-ready.</p>
-<h2>Business model</h2>
+<p>graph2agent replaces the second — <strong>handing the &quot;human reads the diagram, then explains it to the agent&quot; translation job to a deterministic compiler</strong> — and can sit in CI so every diagram in every PR is agent-ready.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> Apache-2.0; CLI/MCP/Action are all free; no cloud service, no subscription.</p>
-<p><em>Read: the commercialization path for a tool like this is becoming the standard — if it becomes the default format for &quot;diagrams for agents,&quot; a hosted or team tier could follow. For now it is still proving value.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: the commercialization path for a tool like this is becoming the standard — if it becomes the default format for &quot;diagrams for agents,&quot; a hosted or team tier could follow. For now it is still proving value.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>Show HN: <strong>6 points, 1 comment</strong> (very low heat)</li>
 <li>GitHub (graph2agent/graph2agent): 1 star, Apache-2.0, created 2026-08-09</li>
 <li>Already at v0.4.0, with four surfaces (CLI/Action/Homebrew/MCP) in sync</li>
 <li>Core measurement: +18.48 percentage points exact comprehension (330 contracts), −46% reasoning tokens</li>
 <li>Team, revenue: solo project, not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -237,22 +231,17 @@
   <td>Mermaid-as-specification for agents is becoming a trend; a deterministic translation layer sits at a sensible position</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>An &quot;idea right, numbers good, market unproven&quot; project.</strong> Its measurement methodology (frozen paired benchmark, 330 private contracts, exact comprehension) is more honest than most — it even states &quot;this benchmark doesn't prove generalization.&quot; That is its most worth-learning aspect.</p>
 <p><strong>The problem is distribution.</strong> Six points on HN means it hasn't found its viral sentence. &quot;Getting agents to read diagrams&quot; sounds like a niche engineering trick, not &quot;half the rework saved.&quot; The author proved efficacy at the engineering level but hasn't proven anyone cares at the distribution level.</p>
-<p><strong>The bet</strong>: agent input isn't just prompt text; it includes diagrams, tables, and specs. If &quot;the diagram is the agent's specification language&quot; holds, a deterministic translation layer like this becomes infrastructure — but the &quot;if&quot; hasn't happened yet.</p>
-<h2>What to watch next</h2>
+<p><strong>The bet</strong>: agent input isn't just prompt text; it includes diagrams, tables, and specs. If &quot;the diagram is the agent's specification language&quot; holds, a deterministic translation layer like this becomes infrastructure — but the &quot;if&quot; hasn't happened yet.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars pass 100 in three months (currently 1; HN didn't carry it — watch for other channels)
 ② Whether graph2agent-mcp's npm downloads keep growing (MCP is its most likely adoption surface)
-③ Whether a well-known repo makes its GitHub Action a required PR check — that's the real adoption signal</p>
-<h2>What you can take from it</h2>
+③ Whether a well-known repo makes its GitHub Action a required PR check — that's the real adoption signal</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when feeding context to agents, &quot;make implicit structure explicit&quot; beats &quot;feed more raw text&quot; — his data: +8% input, −46% reasoning. When building agent tools, cut the agent's reverse-engineering burden instead of stacking tokens.</p>
 <p><strong>Engineering practice</strong>: write an evidence boundary for your own tool — state what the benchmark covers, what it doesn't, and what conclusions can't be drawn. This builds trust directly and suits any developer claiming improvement data.</p>
-<p><strong>Positioning language</strong>: none. Its HN title was too technical — which is itself the lesson: a tool needs one shareable sentence.</p>
-<h2>Verdict</h2>
-<p><strong>Unproven.</strong> Solid engineering, honest measurement, and a sound direction (deterministic translation layer), but distribution and heat haven't materialized and there's only one anecdotal case. Note it and check stars and MCP downloads in three months.</p>
-
+<p><strong>Positioning language</strong>: none. Its HN title was too technical — which is itself the lesson: a tool needs one shareable sentence.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Unproven.</strong> Solid engineering, honest measurement, and a sound direction (deterministic translation layer), but distribution and heat haven't materialized and there's only one anecdotal case. Note it and check stars and MCP downloads in three months.</p></article></div>
     </article>
   </section>
 

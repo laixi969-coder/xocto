@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dograh.html#webpage", "@type": "WebPage", "description": "Build a calling AI yourself for pickup, booking, and collections, with recordings and customer data staying on your side.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Dograh", "url": "https://xocto.vercel.app/en/p/dograh.html"}, {"@id": "https://xocto.vercel.app/en/p/dograh.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-13", "datePublished": "2026-08-07", "description": "Build a calling AI yourself for pickup, booking, and collections, with recordings and customer data staying on your side.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dograh.html#webpage"}, "name": "Dograh", "url": "https://xocto.vercel.app/en/p/dograh.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dograh.html", "name": "Dograh", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dograh.html#webpage", "@type": "WebPage", "description": "Build a calling AI yourself for pickup, booking, and collections, with recordings and customer data staying on your side.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Dograh", "url": "https://xocto.vercel.app/en/p/dograh.html"}, {"@id": "https://xocto.vercel.app/en/p/dograh.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-13", "datePublished": "2026-08-07", "description": "Build a calling AI yourself for pickup, booking, and collections, with recordings and customer data staying on your side.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dograh.html#webpage"}, "name": "Dograh", "url": "https://xocto.vercel.app/en/p/dograh.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dograh.html", "name": "Dograh", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,13 +183,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>An open-source voice agent platform: build phone-calling AI agents (answer calls, book appointments, qualify leads, send payment reminders) with a drag-and-drop workflow builder, self-host it or bring your own models, positioned as the open alternative to closed Vapi and Retell.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>An open-source voice agent platform: build phone-calling AI agents (answer calls, book appointments, qualify leads, send payment reminders) with a drag-and-drop workflow builder, self-host it or bring your own models, positioned as the open alternative to closed Vapi and Retell.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Maintained by the dograh-hq organization (<code>dograh-hq/dograh</code>), created September 2025, written in Python. The PH makers include Pritesh Kumar and sandeep_vemu; the team describes itself as &quot;YC alumni and exit founders&quot; and emphasizes that every line has been open since day zero (BSD-2-Clause). The pool record lists Rohan Chaubey as builder.</p>
-<p><em>Read: maker identity is cross-checkable across several PH commenters, but the &quot;YC alumni&quot; claim has no public company page to back it — treat it as marketing until shown otherwise. The real signal is the repo itself: over 5,000 stars in about a year is not small in the open-source voice-agent world.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: maker identity is cross-checkable across several PH commenters, but the &quot;YC alumni&quot; claim has no public company page to back it — treat it as marketing until shown otherwise. The real signal is the repo itself: over 5,000 stars in about a year is not small in the open-source voice-agent world.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Visual workflow builder</strong> → drag-and-drop nodes to assemble a voice agent; every conversation step is a node, branchable on caller response, with API calls mid-flow</li>
 <li><strong>Both architectures</strong> → cascade (STT → LLM → TTS) and end-to-end speech-to-speech (e.g., Gemini Live, GPT Realtime), including splitting an S2S stream across multiple agents for finer control</li>
@@ -199,21 +197,18 @@
 <li><strong>AI-to-AI testing (LoopTalk)</strong> → create AI personas that call your agents to simulate real customer behavior</li>
 <li><strong>2x conversion trick</strong> → pre-recorded audio mixed with TTS in the same cloned voice, using pre-recorded lines when they fit and falling back to TTS otherwise</li>
 </ul>
-<p><strong>The core pitch</strong>: data never leaves your infrastructure — call recordings, transcripts, prompts, and customer PII stay inside your boundary, and model inference can even run fully offline/air-gapped.</p>
-<h2>What old behavior it replaces</h2>
+<p><strong>The core pitch</strong>: data never leaves your infrastructure — call recordings, transcripts, prompts, and customer PII stay inside your boundary, and model inference can even run fully offline/air-gapped.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>To make an AI that makes phone calls, you used to pick one of two paths:</p>
 <p><strong>Closed SaaS billed per minute</strong> — Vapi, Retell, Bland: register and build agents on their API. Fast, but per-minute pricing bites at volume (Retell lands around $0.10/min including a hidden platform fee), and everything — audio, transcripts, customer PII — passes through the vendor's cloud, which disqualifies it outright for compliance-sensitive industries.</p>
 <p><strong>Building from scratch</strong> — Pipecat, LiveKit, or raw model APIs: wire your own telephony, write your own orchestration, handle disconnects and retries yourself. Free, but voice agents are a swamp of engineering details (VAD endpointing, streaming, barge-in, timeouts), and a production-grade stack takes a long time to assemble.</p>
-<p>Dograh replaces the &quot;renting from closed SaaS&quot; part — self-hosting removes the per-minute platform fee — while absorbing the grunt work of orchestration, telephony, and testing that hand-rolled stacks force on you. Its positioning is blunt: on Vapi you rent agents; with Dograh you own the whole stack.</p>
-<h2>Business model</h2>
+<p>Dograh replaces the &quot;renting from closed SaaS&quot; part — self-hosting removes the per-minute platform fee — while absorbing the grunt work of orchestration, telephony, and testing that hand-rolled stacks force on you. Its positioning is blunt: on Vapi you rent agents; with Dograh you own the whole stack.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>Three layers:</p>
 <ul>
 <li><strong>Self-hosted</strong>: free, BSD-2-Clause, <code>docker compose up</code> and it runs, forever</li>
 <li><strong>Managed cloud</strong> (app.dograh.com): they run the same stack for you, metered usage</li>
 <li><strong>Private cloud</strong>: the whole stack deployed inside your VPC, they handle operations</li>
 </ul>
-<p><em>Read: the classic &quot;open source as funnel, hosted as revenue&quot; model, same playbook as self-hosted SaaS alternatives. For compliance-sensitive industries (healthcare, finance, collections), &quot;data never leaves the boundary&quot; is a hard requirement, and free self-hosting is the best acquisition ad there is. The real business is managed and private cloud, but pricing is not public.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: the classic &quot;open source as funnel, hosted as revenue&quot; model, same playbook as self-hosted SaaS alternatives. For compliance-sensitive industries (healthcare, finance, collections), &quot;data never leaves the boundary&quot; is a hard requirement, and free self-hosting is the best acquisition ad there is. The real business is managed and private cloud, but pricing is not public.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>5,318 stars, 1,278 forks.</strong> Created 2025-09-09, roughly 11 months old</li>
 <li>BSD-2-Clause, primarily Python</li>
@@ -221,8 +216,7 @@
 <li>Topics show a Pipecat relationship; telephony support includes Asterisk ARI</li>
 <li>Industries already seeing use per the makers: legal intakes, car rentals, restaurant booking, medical-insurance outbound</li>
 <li>Paid customers, ARR, active deployments: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -248,23 +242,18 @@
   <td>Good. Voice-agent demand is rising, and per-minute pricing hurts exactly the high-volume customers who are noticing</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is a rare positive case of &quot;open source cloning a validated closed product&quot;: the target is well chosen and the engineering keeps up.</strong></p>
 <p>Cloning a proven closed-source product as open source skips market education entirely — Vapi already taught the market that voice agents are useful; Dograh only needs to say &quot;same thing, without the per-minute bill.&quot; The ever-present risk is being forever the cheaper follower on leftover demand. Which kind it is shows in two signals: star count (5,318 — developers approve) and the makers' stated industry uses (collections, healthcare — the data-sensitive sectors Vapi cannot serve).</p>
 <p><strong>The transferable rule: attack the customer segment where the closed SaaS hurts most on data sovereignty.</strong> Dograh never fights Vapi on price head-on; it goes around to the compliance and data-sensitive side, where customers literally cannot use Vapi because data cannot leave the boundary — not a price question at all. Flanking your competitor's structural blind spot beats a frontal price war.</p>
-<p><strong>Two risks</strong>: first, the &quot;YC alumni&quot; backing has no public verification, so team credibility has to be earned by the product; second, self-hosted products earn revenue late — stars are not paychecks, and whether even 1% of 5,000 star users pays for the managed cloud is the real commercialization test.</p>
-<h2>What to watch next</h2>
+<p><strong>Two risks</strong>: first, the &quot;YC alumni&quot; backing has no public verification, so team credibility has to be earned by the product; second, self-hosted products earn revenue late — stars are not paychecks, and whether even 1% of 5,000 star users pays for the managed cloud is the real commercialization test.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether managed-cloud conversion produces public signals (case studies, industry events) after launch
 ② Whether compliance-sensitive customers (healthcare/finance/collections) publicly adopt — the dividing line vs Vapi
-③ Star growth over three months: whether a one-year-old open-source project still grows organically tells you if the community is real or marketed</p>
-<h2>What you can take from it</h2>
+③ Star growth over three months: whether a one-year-old open-source project still grows organically tells you if the community is real or marketed</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: if you build an &quot;open-source replacement for a closed product,&quot; list the three things users hate most about the incumbent (price, data sovereignty, lock-in), attack exactly one, and speak only to that one's customers. Dograh puts all firepower on &quot;data never leaves your boundary,&quot; right down to copy about HIPAA/GDPR/SOC 2 scenarios.</p>
 <p><strong>Positioning language</strong>: frame ownership against rental — &quot;on closed platforms you rent your agents; with Dograh you own the whole stack,&quot; and &quot;your models, data, and GPUs stay in your country; your voice stays yours.&quot; Polarizing language works better than feature lists for open-source projects.</p>
-<p><strong>Pricing structure</strong>: three ascending layers — free self-host, metered managed cloud, VPC ops. The self-hosted version must be genuinely complete, because it is the acquisition ad.</p>
-<h2>Verdict</h2>
-<p><strong>Worth watching.</strong> Well-chosen target, mature engineering, and real community traction — the strongest &quot;open source replaces closed&quot; sample in this batch. But revenue is unproven and the team's credentials lack public verification. Watch managed-cloud conversion and compliance-industry adoption.</p>
-
+<p><strong>Pricing structure</strong>: three ascending layers — free self-host, metered managed cloud, VPC ops. The self-hosted version must be genuinely complete, because it is the acquisition ad.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Well-chosen target, mature engineering, and real community traction — the strongest &quot;open source replaces closed&quot; sample in this batch. But revenue is unproven and the team's credentials lack public verification. Watch managed-cloud conversion and compliance-industry adoption.</p></article></div>
     </article>
   </section>
 

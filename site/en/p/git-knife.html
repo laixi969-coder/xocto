@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage", "@type": "WebPage", "description": "Edit a commit\u0027s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@id": "https://xocto.vercel.app/en/p/git-knife.html#software", "@type": "SoftwareApplication", "applicationCategory": "", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Edit a commit\u0027s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/git-knife.html", "name": "Git-knife", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage", "@type": "WebPage", "description": "Edit a commit\u0027s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@id": "https://xocto.vercel.app/en/p/git-knife.html#software", "@type": "SoftwareApplication", "applicationCategory": "", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "Edit a commit\u0027s author, date, and message like a spreadsheet, with bulk find-replace and a backup before each rewrite.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/git-knife.html#webpage"}, "name": "Git-knife", "url": "https://xocto.vercel.app/en/p/git-knife.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/git-knife.html", "name": "Git-knife", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,13 +183,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>A desktop app that edits git commit metadata like a spreadsheet — commit messages, author name/email, author date, committer date, all editable, with bulk find-and-replace. A scalpel GUI for operating on git history.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>A desktop app that edits git commit metadata like a spreadsheet — commit messages, author name/email, author date, committer date, all editable, with bulk find-and-replace. A scalpel GUI for operating on git history.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>A personal project by HN user YonathanTesfaye (GitHub: TheRealYT), repo <code>TheRealYT/git-knife</code>, a Tauri desktop app (Rust backend, TypeScript frontend), created August 10, 2026, posted to HN as a Show HN the next day. v0.2.0, self-described MVP.</p>
-<p><em>Read: indie developer + a problem he hit himself; this kind of tool is usually &quot;pain first, product second.&quot; The README's thoroughness shows the author has thought through the niche's boundaries — what it does and deliberately does not do, both written out.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: indie developer + a problem he hit himself; this kind of tool is usually &quot;pain first, product second.&quot; The README's thoroughness shows the author has thought through the niche's boundaries — what it does and deliberately does not do, both written out.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Edit commit metadata</strong> → message, author name/email, committer name/email, author date, committer date — every field editable</li>
 <li><strong>Bulk find-and-replace</strong> → literal or regex replacement across messages, author/committer names and emails (&quot;move every commit from one email to another&quot;), with preview and live match counts</li>
@@ -198,24 +196,20 @@
 <li><strong>Safety net</strong> → automatic backup ref before every rewrite plus one-click restore; warns when a rewrite touches pushed history; signed-commit aware — badges them, warns a rewrite strips signatures, and can re-sign with your key</li>
 <li><strong>Auditable transparency</strong> → each rewrite leaves a disclosed note on a separate notes ref saying &quot;this repo was edited by git-knife,&quot; invisible in a normal <code>git log</code> but fully discoverable, toggleable off</li>
 </ul>
-<p><strong>What it deliberately does not do</strong>: no reorder/squash/drop yet (planned, unimplemented), merge commits are locked, and it never pushes — pushing is always your explicit step, and it only touches local branches.</p>
-<h2>What old behavior it replaces</h2>
+<p><strong>What it deliberately does not do</strong>: no reorder/squash/drop yet (planned, unimplemented), merge commits are locked, and it never pushes — pushing is always your explicit step, and it only touches local branches.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Editing git history used to mean choosing between two broken options:</p>
 <p><strong>GUIs like GitKraken, Sublime Merge, Fork, lazygit</strong> — good at rewording and reordering, but they treat commit <strong>dates</strong> as effectively immutable, do not expose committer dates, and cannot bulk-edit author identity. Want to change a date in a GUI? Nothing works.</p>
 <p><strong>CLIs like <code>git filter-repo</code>, git rebase environment tricks, <code>git commit-tree</code></strong> — can rewrite every field, but all terminal: no interface, fiddly syntax, error-prone, and one command rewrites the whole repo in ways ordinary people are afraid to touch.</p>
-<p>git-knife sits in the intersection: <strong>a GUI that can edit all the fields.</strong> It wraps the &quot;can do it&quot; CLI power in a &quot;looks nice&quot; GUI shell, and makes the high-risk act of rewriting history reversible with backup refs, warnings, and notes markers.</p>
-<h2>Business model</h2>
+<p>git-knife sits in the intersection: <strong>a GUI that can edit all the fields.</strong> It wraps the &quot;can do it&quot; CLI power in a &quot;looks nice&quot; GUI shell, and makes the high-risk act of rewriting history reversible with backup refs, warnings, and notes markers.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Indie open-source project, no pricing, no sponsorship, no hosted service. The README also <strong>declares no open-source license</strong> (the GitHub API's license field is null).</p>
-<p><em>Read: the missing license is more notable than the missing business model. For a tool, &quot;can I use it in my project&quot; depends on the license, and the author has not picked one — either an oversight or undecided. It will not stop stars, but it will stop enterprise adoption; anyone wanting to run it in production hesitates at that empty field.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: the missing license is more notable than the missing business model. For a tool, &quot;can I use it in my project&quot; depends on the license, and the author has not picked one — either an oversight or undecided. It will not stop stars, but it will stop enterprise adoption; anyone wanting to run it in production hesitates at that empty field.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>294 stars, 9 forks.</strong> Created 2026-08-10, just over four days old</li>
 <li>HN Show HN: <strong>143 points / 88 comments per the pool, 165 / 101 per Algolia</strong></li>
 <li>v0.2.0, MVP; TypeScript + Tauri (Rust); three-platform installers via GitHub Actions</li>
 <li>Real use cases named in the comments: reconstructing history (rebuilding the original Tim Berners-Lee browser repo with commit dates aligned), preserving history while splitting repos, fixing wrong attribution on merged open-source PRs, repairing git config an AI agent mangled</li>
 <li>Downloads, users: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -241,24 +235,19 @@
   <td>Right now. AI agents are generating commits at scale, and mangled git configs and wrong attribution are multiplying</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>A textbook sample of &quot;polish the dirty job nobody wants,&quot; and it happens to catch the new pain of the AI era.</strong></p>
 <p><strong>The transferable rule: find the corner where everyone assumes &quot;it can't be done&quot; — it is usually just &quot;nobody did it well.&quot;</strong> Most developers default to &quot;can't change git dates&quot; or &quot;not worth it,&quot; yet the comments prove real demand has always been there: simonw listed three scenarios (history reconstruction, repo splits, attribution fixes), and someone had been hunting for this exact tool for nearly a decade (&quot;store laws in a git repo, each commit is a bill; we need to insert history without resetting the dates of later commits&quot;). The fields abandoned by mainstream tools are where new tools grow.</p>
 <p><strong>The new pain it catches</strong>: after AI agents write code, git configs get mangled, attribution goes wrong, and commit dates no longer match the real workflow — a recently emerged class of problems. git-knife's &quot;bulk-fix author emails&quot; lands right on it.</p>
 <p><strong>The name does real work.</strong> Git-knife — a scalpel — and the comments picked up the metaphor themselves: &quot;we generally don't want to cut people open, but when surgery is needed, a sharp knife is useful.&quot; A name that makes users instantly understand a tool is dangerous but valuable and must be used carefully beats any feature description.</p>
-<p><strong>Risks</strong>: first, no license, which blocks enterprise adoption; second, it handles high-risk &quot;pushed history&quot; operations where one misuse breaks a team's collaboration, a trust bar that is very high; third, it currently stops at &quot;edit metadata,&quot; and commenters already want it extended into a full rebase UI (drag-to-reorder, file-to-commit reassignment) — if the author does not take these on, a stronger competitor will.</p>
-<h2>What to watch next</h2>
+<p><strong>Risks</strong>: first, no license, which blocks enterprise adoption; second, it handles high-risk &quot;pushed history&quot; operations where one misuse breaks a team's collaboration, a trust bar that is very high; third, it currently stops at &quot;edit metadata,&quot; and commenters already want it extended into a full rebase UI (drag-to-reorder, file-to-commit reassignment) — if the author does not take these on, a stronger competitor will.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars cross 1,000 in three months — a measure of how big the &quot;abandoned corner&quot; demand really is
 ② Whether a license appears — the switch from personal tool to production tool
-③ Whether a full rebase UI ships (drag reorder / squash / reassignment) — whether it stays narrow or grows toward mainstream</p>
-<h2>What you can take from it</h2>
+③ Whether a full rebase UI ships (drag reorder / squash / reassignment) — whether it stays narrow or grows toward mainstream</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: any operation &quot;everyone assumes is impossible&quot; is worth validating — often nobody just did it well. List the fields/capabilities mainstream tools deliberately abandon; that is the whitespace. git-knife's comparison matrix (tools × capabilities) is a research method worth copying: put your position precisely on the cell where no one else can check the box.</p>
 <p><strong>Positioning language</strong>: naming beats copy. One word — &quot;Knife&quot; — makes users understand the danger and the value in three seconds and generates its own discussion. For small, dangerous tools, a name that honestly admits the danger beats any feature description.</p>
-<p><strong>Pricing structure</strong>: none. No license, no pricing; personal-project status.</p>
-<h2>Verdict</h2>
-<p><strong>Worth watching.</strong> Precise positioning, solid safety design, and it happens to catch the AI-era commit chaos — but no license, no business model, and still parked at &quot;edit metadata.&quot; Watch star growth and feature expansion to see whether the scalpel grows into a full tool.</p>
-
+<p><strong>Pricing structure</strong>: none. No license, no pricing; personal-project status.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Precise positioning, solid safety design, and it happens to catch the AI-era commit chaos — but no license, no business model, and still parked at &quot;edit metadata.&quot; Watch star growth and feature expansion to see whether the scalpel grows into a full tool.</p></article></div>
     </article>
   </section>
 

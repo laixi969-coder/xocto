@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/docsalot-cli.html#webpage", "@type": "WebPage", "description": "Lets a coding assistant write and keep documents current; you preview and approve before anything goes live, so the docs stop rotting.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DocsAlot CLI", "url": "https://xocto.vercel.app/en/p/docsalot-cli.html"}, {"@id": "https://xocto.vercel.app/en/p/docsalot-cli.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-08", "description": "Lets a coding assistant write and keep documents current; you preview and approve before anything goes live, so the docs stop rotting.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/docsalot-cli.html#webpage"}, "name": "DocsAlot CLI", "url": "https://xocto.vercel.app/en/p/docsalot-cli.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/docsalot-cli.html", "name": "DocsAlot CLI", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/docsalot-cli.html#webpage", "@type": "WebPage", "description": "Lets a coding assistant write and keep documents current; you preview and approve before anything goes live, so the docs stop rotting.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DocsAlot CLI", "url": "https://xocto.vercel.app/en/p/docsalot-cli.html"}, {"@id": "https://xocto.vercel.app/en/p/docsalot-cli.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-08", "description": "Lets a coding assistant write and keep documents current; you preview and approve before anything goes live, so the docs stop rotting.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/docsalot-cli.html#webpage"}, "name": "DocsAlot CLI", "url": "https://xocto.vercel.app/en/p/docsalot-cli.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/docsalot-cli.html", "name": "DocsAlot CLI", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,27 +183,23 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>A CLI that lets coding agents like Claude Code and Codex write, update, and publish your docs — you describe the outcome in plain English, and the agent runs the whole pipeline from generation and preview to approved publishing.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>A CLI that lets coding agents like Claude Code and Codex write, update, and publish your docs — you describe the outcome in plain English, and the agent runs the whole pipeline from generation and preview to approved publishing.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Built by DocsAlot, the company behind the docs platform at docsalot.dev. The platform launched on July 5, 2026 with 342 upvotes and #2 Product of the Day; the CLI launched separately on August 9, 2026 and hit #5 of the day. The founder is Faizan (faizank@docsalot.dev), who answered questions in the PH comments himself. Haya Jawed is who submitted it to the launch platform (the name recorded in the pool's builder field).</p>
-<p><em>Read: the CLI is not a standalone product; it is the front door to the platform. First let you run the docs workflow for free through an agent; sell hosting, private docs, and audits once you need them. This &quot;CLI for acquisition, SaaS for revenue&quot; structure is cleaner than most PH products.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: the CLI is not a standalone product; it is the front door to the platform. First let you run the docs workflow for free through an agent; sell hosting, private docs, and audits once you need them. This &quot;CLI for acquisition, SaaS for revenue&quot; structure is cleaner than most PH products.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Takes over the whole docs workflow</strong> → after the agent reads its instructions, it can create new docs, pull existing docs, make updates, run a local preview, save versions, and publish only after approval</li>
 <li><strong>Natural-language driven</strong> → no commands to memorize; describe the result. A real CLI exists underneath for humans and CI, but daily use never touches it</li>
 <li><strong>Preview-approve-publish</strong> → local preview before anything ships; publishing stays with the human</li>
 <li><strong>AI-facing output surfaces</strong> → the same docs source publishes a human-readable site, llms.txt, skill.md, and a hosted MCP endpoint (search_docs / get_page / run_example) so ChatGPT, Claude, and Cursor can find and cite your canonical docs</li>
 </ul>
-<p><strong>The concrete pain it hits</strong>: stale docs. Not &quot;generate docs&quot; but &quot;keep docs current&quot; — when the product changes, the agent pulls the docs back and updates them.</p>
-<h2>What old behavior it replaces</h2>
+<p><strong>The concrete pain it hits</strong>: stale docs. Not &quot;generate docs&quot; but &quot;keep docs current&quot; — when the product changes, the agent pulls the docs back and updates them.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Docs used to be maintained by one of three groups:</p>
 <p><strong>Engineers themselves</strong> — updating docs &quot;when they get a chance,&quot; which means it usually does not happen; docs expire twice a year and onboarding runs on asking colleagues.</p>
 <p><strong>A dedicated writer</strong> — a docs engineer or technical-writing team on GitBook, Mintlify, Confluence, and the like. Reliable, but expensive: tools like Mintlify run several hundred dollars a month, and a full-time writer's cost is measured in tens of thousands of dollars a year.</p>
 <p><strong>One-shot AI generation</strong> — asking Claude or Codex to write a version of the docs. Fast once, but nobody maintains it afterward, so it is stale the moment the product changes.</p>
-<p>DocsAlot CLI replaces the gap between the third and the first: it gives the agent not just generation but ongoing maintenance — preview, versioning, approval, and publishing, with only &quot;publish&quot; kept in human hands. The value proposition moves from &quot;generates&quot; to &quot;maintains,&quot; which is exactly the shift from one-time revenue to subscriptions.</p>
-<h2>Business model</h2>
+<p>DocsAlot CLI replaces the gap between the third and the first: it gives the agent not just generation but ongoing maintenance — preview, versioning, approval, and publishing, with only &quot;publish&quot; kept in human hands. The value proposition moves from &quot;generates&quot; to &quot;maintains,&quot; which is exactly the shift from one-time revenue to subscriptions.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>SaaS subscription, three tiers:</p>
 <ul>
 <li><strong>Startup $39/month</strong>: 1 public docs site, hosted MCP, basic integrations, llms.txt + skill.md exports</li>
@@ -211,16 +207,14 @@
 <li><strong>Enterprise custom</strong>: migration, SDK generation and maintenance, automated drift checks, SSO, human audits</li>
 </ul>
 <p>50% off for three months during the PH launch. The CLI itself is free — it is the platform's acquisition channel.</p>
-<p><em>Read: the price anchors against Mintlify/GitBook. One commenter explicitly said, &quot;We were looking at Mintlify and GitBook, but $300/month was too expensive for the value; switched to DocsAlot.&quot; That is price-sensitive demand pulled off competitors. Making AI-readability (llms.txt/MCP) a default rather than a paid extra signals it is betting on a new category — &quot;AI-era documentation infrastructure&quot; — rather than fighting for legacy-installed-base business.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: the price anchors against Mintlify/GitBook. One commenter explicitly said, &quot;We were looking at Mintlify and GitBook, but $300/month was too expensive for the value; switched to DocsAlot.&quot; That is price-sensitive demand pulled off competitors. Making AI-readability (llms.txt/MCP) a default rather than a paid extra signals it is betting on a new category — &quot;AI-era documentation infrastructure&quot; — rather than fighting for legacy-installed-base business.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>Platform PH launch 2026-07-05: <strong>342 upvotes, 47 comments, #2 Product of the Day</strong></li>
 <li>CLI PH launch 2026-08-09: <strong>#5 of the day</strong></li>
 <li>Pricing: $39 / $99 / custom, with a launch-period 50% discount</li>
 <li>Integrations: GitHub / OpenAPI / Notion / Intercom / Zendesk / Confluence multi-source</li>
 <li>Paid customers, ARR: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -246,23 +240,18 @@
   <td>Exactly right. Coding agents are landing at scale, and docs are their only reliable source of context</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This company is redefining docs as the interface layer of the AI era, and the CLI is its smartest acquisition move.</strong></p>
 <p>When ChatGPT, Claude, and Cursor decide &quot;how your product is used,&quot; your docs stop being a manual for humans and become the agent's only reliable context. DocsAlot bets the whole product on that shift: docs must be readable by humans and by agents — llms.txt gives the agent a map, skill.md a set of operating instructions, and MCP a retrievable endpoint.</p>
 <p><strong>The transferable rule: letting agents drive your product through natural language is cheaper than building a better UI for humans.</strong> The CLI's entire interaction design sells commands to agents, not people — an agent reads the instructions once and knows the tool; the user never memorizes a command. Onboarding cost is nearly zero, and once an agent learns the tool, it will keep invoking it on every new project.</p>
-<p><strong>The risk is the &quot;drift detection&quot; selling point.</strong> Commenters already asked: how does it decide a doc is stale — behavior diffing, or correlating with commits touching related files? False positives (flagging a doc that did not change) destroy trust. This is the hardest engineering problem for &quot;ongoing maintenance&quot; products, and the real dividing line between this and one-shot-generation tools.</p>
-<h2>What to watch next</h2>
+<p><strong>The risk is the &quot;drift detection&quot; selling point.</strong> Commenters already asked: how does it decide a doc is stale — behavior diffing, or correlating with commits touching related files? False positives (flagging a doc that did not change) destroy trust. This is the hardest engineering problem for &quot;ongoing maintenance&quot; products, and the real dividing line between this and one-shot-generation tools.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether npm downloads and PH feedback over three months show real non-founder usage of the CLI
 ② Whether drift detection ever publishes a false-positive rate — the life-or-death metric for a trust product
-③ Whether teams publicly report migrating from Mintlify/GitBook (1 comment so far; watch if it becomes a trend)</p>
-<h2>What you can take from it</h2>
+③ Whether teams publicly report migrating from Mintlify/GitBook (1 comment so far; watch if it becomes a trend)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: if your product serves humans, learn to treat &quot;the agent as first user&quot; as a first-class citizen — agent-readable instruction docs plus a hosted MCP endpoint plugs your product into every coding agent's workflow for free. It is an extremely cheap channel.</p>
 <p><strong>Positioning language</strong>: restate the old problem of stale docs as &quot;agents will read the wrong context.&quot; Swap the reader from &quot;the human looking at docs&quot; to &quot;the model reading docs,&quot; and the same problem suddenly has new urgency.</p>
-<p><strong>Pricing structure</strong>: make the new capability (AI-readable, MCP) a default on every tier rather than Pro-only. The base tier sells; the money is collected at the enterprise tier that needs privacy and auditing.</p>
-<h2>Verdict</h2>
-<p><strong>Worth watching.</strong> Category judgment is right, acquisition design is clever, and pricing is competitive — but the &quot;ongoing maintenance&quot; engineering promise (drift detection) is not yet proven, and paid customer numbers are undisclosed. The most complete business model in this batch; worth tracking.</p>
-
+<p><strong>Pricing structure</strong>: make the new capability (AI-readable, MCP) a default on every tier rather than Pro-only. The base tier sells; the money is collected at the enterprise tier that needs privacy and auditing.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Worth watching.</strong> Category judgment is right, acquisition design is clever, and pricing is competitive — but the &quot;ongoing maintenance&quot; engineering promise (drift detection) is not yet proven, and paid customer numbers are undisclosed. The most complete business model in this batch; worth tracking.</p></article></div>
     </article>
   </section>
 

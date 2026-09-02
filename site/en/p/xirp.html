@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/xirp.html#webpage", "@type": "WebPage", "description": "One screen to run several coding assistants at once, and they read how this company actually works before they start.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Xirp", "url": "https://xocto.vercel.app/en/p/xirp.html"}, {"@id": "https://xocto.vercel.app/en/p/xirp.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "One screen to run several coding assistants at once, and they read how this company actually works before they start.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/xirp.html#webpage"}, "name": "Xirp", "url": "https://xocto.vercel.app/en/p/xirp.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/xirp.html", "name": "Xirp", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/xirp.html#webpage", "@type": "WebPage", "description": "One screen to run several coding assistants at once, and they read how this company actually works before they start.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Xirp", "url": "https://xocto.vercel.app/en/p/xirp.html"}, {"@id": "https://xocto.vercel.app/en/p/xirp.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-08-11", "datePublished": "2026-08-11", "description": "One screen to run several coding assistants at once, and they read how this company actually works before they start.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/xirp.html#webpage"}, "name": "Xirp", "url": "https://xocto.vercel.app/en/p/xirp.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/xirp.html", "name": "Xirp", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,15 +183,14 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Spotify's internally built, now-public multi-agent development environment: one interface
 manages Claude Code, Gemini CLI, and Codex, each task runs in its own Git worktree, 50+
 sessions in parallel, and you can swap models mid-task without losing context. Plugged
 into your company knowledge base (Portal), agents start with real organizational
 context — who owns which service, what depends on what, and why the architecture is the
-way it is.</p>
-<h2>Who built it</h2>
+way it is.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Released by Spotify and announced by Spotify Engineering on 2026-08-11
 (xirp.spotify.com), launched the same day (277 upvotes, #3 that day).
 <strong>A correction to the source data</strong>: the pool lists Chris Messina as builder, but he is
@@ -204,8 +203,7 @@ multi-agent orchestration. The nearest analog is Craft Agents (a team acquihired
 Polymarket).</p>
 <p><em>Read: releasing an internal tool is the cheapest validation path — 1,300+ engineers and
 36,000+ sessions of battle testing beat any cold launch for trust. This is Spotify's
-second internal-tool release after Backstage, so it is a fixed playbook, not a whim.</em></p>
-<h2>What it actually does</h2>
+second internal-tool release after Backstage, so it is a fixed playbook, not a whim.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>One surface for multiple agents</strong> → spin up, pause, and inspect Claude Code / Gemini
 CLI / Codex sessions from one dashboard, abstracting each vendor's CLI into a common
@@ -224,8 +222,7 @@ by many internal teams</li>
 <li><strong>Local and remote execution</strong> → sessions run locally or remotely</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no bet on a single model vendor; it does not
-replace the CLIs themselves but adds an orchestration and context layer on top.</p>
-<h2>What old behavior it replaces</h2>
+replace the CLIs themselves but adds an orchestration and context layer on top.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Teams previously used coding agents in two ways, both with clear gaps:</p>
 <ol>
 <li><strong>Everyone with their own agent</strong> — some on Claude Code, some on Codex, no sharing;
@@ -238,8 +235,7 @@ service architecture, owners, and past decisions into the prompt. Slow and stale
 worktree-isolated workbench, and turns &quot;hand-assembling org context&quot; into &quot;the agent
 reads it from Portal itself.&quot; It also quietly replaces &quot;no way to know what an agent
 did&quot; — audit logs serve the people who used to reconstruct events by scrolling terminal
-history.</p>
-<h2>Business model</h2>
+history.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>Free public beta, hosted by Spotify under its rate limits and data-retention policies.
 No paid tier mentioned.</p>
 <p><em>Read: the revenue model for a big company releasing an internal tool is never direct
@@ -247,8 +243,7 @@ fees; it is ecosystem momentum. Backstage open-source bought developer goodwill 
 industry standing; Xirp is the same play. It will likely follow the Backstage path —
 open/free for influence, commercial version for money (the Portal line). For an indie,
 the commercial value is not &quot;sell it&quot; but &quot;this is what the next stage of agent
-development looks like.&quot;</em></p>
-<h2>Hard numbers</h2>
+development looks like.&quot;</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>1,300+ Spotify engineers already using it, 36,000+ agent sessions cumulative</li>
 <li>PH 2026-08-11: 277 upvotes, 6 comments, #3 that day; Spotify's 100th PH launch</li>
@@ -256,8 +251,7 @@ development looks like.&quot;</em></p>
 worktree</li>
 <li>Free public beta, no published pricing; user counts and ARPU: not applicable / not
 disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -283,8 +277,7 @@ disclosed</li>
   <td>Enterprises are moving from &quot;get an agent working&quot; to &quot;how do we manage many agents,&quot; and Xirp sits exactly on that inflection</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>It proves something: in the multi-agent era, the scarce resource is not the model — it
 is organizational context.</strong></p>
 <p>Anyone can call Claude, Gemini, or Codex; that is not a moat. Xirp's insight is that an
@@ -306,15 +299,13 @@ the other. For a small team on a single model, this orchestration is negative va
 invocation&quot; and compete on &quot;how much real context an agent gets before it starts work.&quot;
 The context layer is a wider moat than the model layer. And when a big company releases
 an internal tool, it starts with trust a startup cannot buy — a genuine cold-start
-advantage.</p>
-<h2>What to watch next</h2>
+advantage.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether the beta turns paid and how Portal's commercial side prices — tells you if
 this line is a real business or a brand investment
 ② Whether any known company outside Spotify publicly adopts it — validation of
 generality beyond Spotify
 ③ Whether the CLI or core orchestration layer is open-sourced — if it follows the
-Backstage playbook, the ecosystem will arrive much faster</p>
-<h2>What you can take from it</h2>
+Backstage playbook, the ecosystem will arrive much faster</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: give agents &quot;context before work&quot; — turn your organization's
 architecture, dependencies, owners, and past decisions into agent-readable bootstrap
 material, and let each session write new knowledge back. The &quot;read in + write back&quot;
@@ -325,14 +316,12 @@ amnesiac agent. Against engineering terms like &quot;context management&quot; or
 integration,&quot; this one has a hook.</p>
 <p><strong>Pricing structure</strong>: free public + separate commercial line. When a big org releases
 an internal tool, the Backstage path works: public version buys the ecosystem, the
-commercial version buys enterprise money, and the two do not fight.</p>
-<h2>Verdict</h2>
+commercial version buys enterprise money, and the two do not fight.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> Not another agent tool — it is a public blueprint for enterprise-
 grade orchestration in the multi-agent era. The vendor-neutral stance and the
 institutional-memory read/write loop are genuinely novel mechanisms. But it is a free,
 Spotify-hosted beta, and generality beyond Spotify is unproven. In three months, check
-whether it open-sources and whether a third-party enterprise publicly adopts it.</p>
-
+whether it open-sources and whether a third-party enterprise publicly adopts it.</p></article></div>
     </article>
   </section>
 

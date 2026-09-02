@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-stama.html#webpage", "@type": "WebPage", "description": "When a coding assistant uses local tools, a few common actions no longer drag the whole machine to a crawl.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MCP-stama", "url": "https://xocto.vercel.app/en/p/mcp-stama.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-stama.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-15", "datePublished": "2026-08-14", "description": "When a coding assistant uses local tools, a few common actions no longer drag the whole machine to a crawl.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-stama.html#webpage"}, "name": "MCP-stama", "url": "https://xocto.vercel.app/en/p/mcp-stama.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-stama.html", "name": "MCP-stama", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-stama.html#webpage", "@type": "WebPage", "description": "When a coding assistant uses local tools, a few common actions no longer drag the whole machine to a crawl.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MCP-stama", "url": "https://xocto.vercel.app/en/p/mcp-stama.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-stama.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-15", "datePublished": "2026-08-14", "description": "When a coding assistant uses local tools, a few common actions no longer drag the whole machine to a crawl.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-stama.html#webpage"}, "name": "MCP-stama", "url": "https://xocto.vercel.app/en/p/mcp-stama.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-stama.html", "name": "MCP-stama", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,18 +183,16 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Taking &quot;give the agent tools&quot; from Node/Python processes down to a single Rust binary: the same
 grep, git-status, and Docker diagnostics, with memory dropping from ~200 MB to under 10 MB and
-tool latency dropping from hundreds of milliseconds to microseconds.</p>
-<h2>Who built it</h2>
+tool latency dropping from hundreds of milliseconds to microseconds.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>StamManif (a GitHub account), Apache-2.0, v0.1.0 released 2026-08-13. The author has no public
 background.</p>
 <p><em>Read: a classic &quot;performance-obsession&quot; MCP project — the pain is not missing features but that
 mainstream MCP servers (Node/Python) are slow and heavy. The author rewrote a set of generic
-tools in Rust, betting that startup speed and memory footprint deserve to be taken seriously.</em></p>
-<h2>What it actually does</h2>
+tools in Rust, betting that startup speed and memory footprint deserve to be taken seriously.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>fast_grep</strong> → full-text search on the ignore crate, respecting .gitignore and skipping
 binary/hidden files</li>
@@ -206,21 +204,18 @@ under two seconds</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no databases, no external APIs, no &quot;business tools.&quot; Just
 the three local operations a coding agent hits constantly, each an order of magnitude faster
-than the existing implementations.</p>
-<h2>What old behavior it replaces</h2>
+than the existing implementations.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Installing an MCP server today means: npm install or pip install, hundreds of dependencies, a
 long-running Node/Python process with 1-3s cold start and 180-350 MB RSS (all comparison figures
 self-reported in the README). A coding agent typically carries 5-10 MCP servers, the editor
 lags, and every tool call waits for a process to wake up.</p>
 <p>mcp-stama replaces the whole bundle: one &lt;10 MB static binary, &lt;2 ms cold start (claimed), tool
 calls at p50 of 300µs-5ms (claimed). It moves the MCP toolchain from a dependency-heavy
-interpreted runtime to a single compiled file.</p>
-<h2>Business model</h2>
+interpreted runtime to a single compiled file.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Apache-2.0, no hosted service, no pricing page.</p>
 <p><em>Read: a reimplementation of infrastructure survives one of three ways — absorbed by a bigger
 project, adopted into a package ecosystem, or backed by enterprise support. None has happened
-yet; this is currently a developer-reputation project.</em></p>
-<h2>Hard numbers</h2>
+yet; this is currently a developer-reputation project.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>4 stars, 0 forks.</strong> Repository created 2026-08-13</li>
 <li>HN: 71 points, <strong>0 comments</strong> (around 2026-08-13) — points, comments, and stars are badly
@@ -231,8 +226,7 @@ fast_grep p50 5.05ms / p99 8.72ms; RSS under 10 MB throughout</li>
 <li>Comparison figures (Node/Python MCP servers): 1.5-3s cold start, p50 150-800ms, 180-350 MB
 RSS — <strong>all self-reported, no independent reproduction seen</strong></li>
 <li>Downloads and users: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -258,8 +252,7 @@ RSS — <strong>all self-reported, no independent reproduction seen</strong></li
   <td>Early. The MCP ecosystem is still at &quot;it works,&quot; and performance optimization only gets paid for at scale</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The direction is right, but &quot;fast&quot; is not yet a product.</strong> Tool-call speed ranks far below
 &quot;is the tool right&quot; and &quot;is the context enough&quot; in what an agent user feels. A git_snapshot at
 p50 462µs versus a Node implementation at p50 150ms is imperceptible — unless you are running
@@ -273,27 +266,23 @@ least a few comments; this combination is unusual. Every performance figure is s
 no third party has reproduced it. Until then, treat the numbers as marketing.</p>
 <p><strong>The bigger question</strong>: do these generic tools deserve to be MCP servers at all? Putting grep,
 git, and docker into an agent's toolbox overlaps with what Cursor already does natively. It has
-not answered &quot;why should an agent use your grep instead of the built-in one.&quot;</p>
-<h2>What to watch next</h2>
+not answered &quot;why should an agent use your grep instead of the built-in one.&quot;</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether a third party independently reproduces the numbers or someone publicly runs
 <code>--benchmark</code>
 ② Whether the 71 HN points get explained (deleted post, challenged), and whether stars catch up
 to points within three months
 ③ Whether the toolset expands — stuck at &quot;the three tools&quot; means a one-off project; growing into
-&quot;fill whatever the ecosystem is missing&quot; would make it a platform</p>
-<h2>What you can take from it</h2>
+&quot;fill whatever the ecosystem is missing&quot; would make it a platform</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: in agent-facing infrastructure, performance is necessary but not sufficient.
 First prove &quot;why the agent needs this tool&quot; (the scenario), then talk about speed. Speed is a
 differentiator, not a product.</p>
 <p><strong>Positioning language</strong>: the README's comparison table (old implementation vs new, item by
 item) is worth copying — translating &quot;faster&quot; into perceptible numbers like &quot;cold start
 1500ms → 2ms&quot; is the best way to present infrastructure.</p>
-<p><strong>Pricing structure</strong>: none.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The engineering may be fine, but the data is suspicious (71 points, 0 comments,
 4 stars), the performance is unreproduced, and the entry point is unjustified. Until a third
-party reproduces the numbers, treat it as a marketing artifact. Verify in three months.</p>
-
+party reproduces the numbers, treat it as a marketing artifact. Verify in three months.</p></article></div>
     </article>
   </section>
 

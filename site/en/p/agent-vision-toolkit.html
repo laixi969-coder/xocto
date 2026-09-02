@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html#webpage", "@type": "WebPage", "description": "Gives a text-only AI eyes: it looks at pictures with a task in mind, then locates objects, reads text, and rebuilds screens.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "agent-vision-toolkit", "url": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html"}, {"@id": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-02", "datePublished": "2026-08-01", "description": "Gives a text-only AI eyes: it looks at pictures with a task in mind, then locates objects, reads text, and rebuilds screens.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html#webpage"}, "name": "agent-vision-toolkit", "sameAs": "https://agent-vision.anionex.me", "url": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html", "name": "agent-vision-toolkit", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html#webpage", "@type": "WebPage", "description": "Gives a text-only AI eyes: it looks at pictures with a task in mind, then locates objects, reads text, and rebuilds screens.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "agent-vision-toolkit", "url": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html"}, {"@id": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-02", "datePublished": "2026-08-01", "description": "Gives a text-only AI eyes: it looks at pictures with a task in mind, then locates objects, reads text, and rebuilds screens.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html#webpage"}, "name": "agent-vision-toolkit", "sameAs": "https://agent-vision.anionex.me", "url": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/agent-vision-toolkit.html", "name": "agent-vision-toolkit", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -190,20 +190,18 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Eyes for text-only models — not by turning an image into a generic description, but by passing the
 &quot;why is the agent looking at this image&quot; intent to the vision model, paired with deterministic
 tools for grounding, cropping, tracing, and OCR, so text agents can see and operate reliably in real
-workflows.</p>
-<h2>Who built it</h2>
+workflows.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Anionex, a self-described AI-native developer who once ranked No. 4 on GitHub's global developer
 trending list, with more than 16k stars across their projects. MIT license, 231 commits, latest on
 2026-08-14.</p>
 <p><em>Read: one person getting a tool to 700+ stars with all five agent integrations verified means this
 is a product they use themselves, not a demo. The focus-hint design was not invented at a desk; it
-was earned by walking into walls.</em></p>
-<h2>What it actually does</h2>
+was earned by walking into walls.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Five vision tools plus one workflow</strong> → glance (what is in the image; follow-up questions; OCR),
 ground (locate a named target, returns pixel coordinates), detect (enumerate elements, outputs a
@@ -221,8 +219,7 @@ directly</li>
 <li><strong>Cost control</strong> → only the necessary intent plus the image enter the multimodal context, with a
 truncation mechanism; a small local multimodal model (Gemma 4, Qwen 3.5/3.6) can serve as the
 vision sidecar</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>The standard way to give a text-only model vision was a &quot;generic bridge&quot;: hand the image to a
 multimodal model, get back a general description, and stuff it back into the text model's context.
 The problem is that the description is generic — for the same UI screenshot, the layout, spacing,
@@ -232,15 +229,13 @@ software interface with a sidebar, cards, buttons, and text.&quot;</p>
 &quot;look with the task's intent → task-relevant context,&quot; and hands pixel-exact work (coordinates,
 colors, outlines) to deterministic tools instead of letting the model guess. The secondary old
 behavior it displaces: getting vision used to require switching to a multimodal model or rewriting
-the harness; now a layer added outside the text model is enough.</p>
-<h2>Business model</h2>
+the harness; now a layer added outside the text model is enough.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>The tool is free and open source (MIT). The business model is BYO vision API: users bring their own
 OpenAI-compatible multimodal API key and pay their upstream provider for vision-model usage; the
 tool takes no cut.</p>
 <p><em>Read: this is the &quot;water seller&quot; open-source play — the tool is free for reputation, and both cost
 and traffic stay upstream. It works for an individual developer because maintenance is cheap; the
-cost is no direct revenue, and long-term maintenance rides on the author's goodwill.</em></p>
-<h2>Hard numbers</h2>
+cost is no direct revenue, and long-term maintenance rides on the author's goodwill.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>706 stars / 25 forks / 5 open issues</strong>, 231 commits</li>
 <li>Verified integrations: Codex, Claude Code, Pi, Oh My Pi, OpenCode, plus native DSH support</li>
@@ -248,8 +243,7 @@ cost is no direct revenue, and long-term maintenance rides on the author's goodw
 <li>Pricing: none (BYO vision API); limitations: it is an image-to-text layer, so quality depends on
 both the primary model and the vision model; the agent cache is in-process only and clears on
 restart</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -275,8 +269,7 @@ restart</li>
   <td>Native vision plugin shipped the same day DSH launched — timing is precise; but the text-only-model vision gap is transitional by nature</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>A &quot;small but real&quot; product: a true problem, a clever solution, disciplined execution.</strong> For the
 DSH ecosystem it fills the biggest gap of text-only models — they cannot see images. For
 practitioners in general, it demonstrates capability tiering: semantic judgment goes to the model,
@@ -284,13 +277,11 @@ pixel-exact work goes to deterministic tools, and the model never guesses coordi
 <p><strong>Its ceiling is equally clear: it is a transitional product.</strong> The day multimodality becomes the
 default — the day &quot;give the text-only model eyes&quot; stops being a need — its value becomes mostly
 historical. But the focus-hint mechanism it demonstrates, passing task intent into the vision
-layer, will settle into the visual-agent toolkit as the permanently correct practice.</p>
-<h2>What to watch next</h2>
+layer, will settle into the visual-agent toolkit as the permanently correct practice.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether star growth amplifies with the DSH ecosystem now that the native plugin is out
 ② Whether enterprise usage or monetization appears (currently fully free plus BYO API)
 ③ Whether positioning pivots as multimodality spreads — e.g., from &quot;eyes for text-only models&quot; to
-GUI automation</p>
-<h2>What you can take from it</h2>
+GUI automation</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: &quot;intent must travel with the task&quot; transfers to any scenario where you outsource
 capability to another model layer — do not ask the model &quot;what is this&quot;; ask &quot;why am I looking at
 this and what does it mean for my current task.&quot; When passing context to a third-party model, send
@@ -301,12 +292,10 @@ That layering transfers to any product mixing AI judgment with precise execution
 <p><strong>Pricing structure</strong>: the open-source-tool-plus-BYO-API &quot;water seller&quot; structure is worth copying —
 the tool is free for reputation, costs are offloaded to the user's own API bill, and no middleman
 margin is taken.</p>
-<p><strong>Positioning language</strong>: none. Engineering README; nothing to steal.</p>
-<h2>Verdict</h2>
+<p><strong>Positioning language</strong>: none. Engineering README; nothing to steal.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> It is one of the rare DSH-ecosystem plugins that stands on its own — it can
 survive without DSH, and inside DSH it fills a critical gap. Write down the focus-hint mechanism;
-it is a design that transfers to any vision or outsourced-capability scenario.</p>
-
+it is a design that transfers to any vision or outsourced-capability scenario.</p></article></div>
     </article>
   </section>
 

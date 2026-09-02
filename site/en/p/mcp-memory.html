@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage", "@type": "WebPage", "description": "Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-memory.html", "name": "MCP Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage", "@type": "WebPage", "description": "Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "Next session the assistant picks up where it left off. Notes are files a human can open and check, and they survive switching tools.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/mcp-memory.html#webpage"}, "name": "MCP Memory", "url": "https://xocto.vercel.app/en/p/mcp-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/mcp-memory.html", "name": "MCP Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -189,17 +189,15 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A persistent memory layer for agents: everything to be remembered is written as an OKF-spec
 Markdown file with metadata (human-readable, diffable, git-managed), while a SQLite FTS5 index
-gives the agent near-instant lookups.</p>
-<h2>Who built it</h2>
+gives the agent near-instant lookups.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>A solo project by fellowgeek (author handle pcbmaker20), MIT licensed, first commit 2026-08-13.</p>
 <p><em>Read: something one person built in a day pulled 58 points and 35 comments on HN and hit 124
 stars on day one. That means timing: OKF was published by Google in mid-June, and this is the
-first decent implementation pairing OKF with MCP memory.</em></p>
-<h2>What it actually does</h2>
+first decent implementation pairing OKF with MCP memory.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Store</strong> → <code>memory_store</code>: writes a memory record as an OKF v0.2 document (YAML frontmatter
 with type/key/namespace/tags/sources/verified/stale_after) into a <code>memory/</code> folder in the project</li>
@@ -212,8 +210,7 @@ across sessions and resumes the checkpoint at session start</li>
 </ul>
 <p><strong>The dual-layer design is the point</strong>: the source of truth is plain Markdown (readable,
 reviewable, versionable); SQLite is only an acceleration index. This is the opposite of the
-&quot;embedding vectors in a binary store&quot; school — humans stay the authority.</p>
-<h2>What old behavior it replaces</h2>
+&quot;embedding vectors in a binary store&quot; school — humans stay the authority.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Agent &quot;memory&quot; today runs on three ad-hoc schemes, each broken in its own way.</p>
 <p>First, hand-maintained project files like CLAUDE.md / AGENTS.md. You write them and update them;
 the agent never writes into them on its own. That is one-way — a sticky note, not memory.</p>
@@ -224,21 +221,18 @@ and long-term memory does not fit in a context window.</p>
 <p>mcp-memory replaces the intersection of all three: memory the agent writes itself, reads itself,
 in an open format, portable across tools. One HN commenter made the point cleanly: an MCP server
 architecture makes this usable from claude.ai and other surfaces where you have MCP but no
-filesystem.</p>
-<h2>Business model</h2>
+filesystem.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> Free and open source; no hosted service, no pricing page.</p>
 <p><em>Read: memory is the foundation of agent apps but the foundation itself is hard to charge for —
 every peer (mem0 and friends) is betting on &quot;occupy the slot now, monetize higher up later.&quot;
-This repo is clearly a land-grab play too.</em></p>
-<h2>Hard numbers</h2>
+This repo is clearly a land-grab play too.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>124 stars, 2 forks.</strong> Repository created 2026-08-13 (same day)</li>
 <li>HN: 58 points, 35 comments (around 2026-08-13)</li>
 <li>Claims sub-20ms key lookups (self-reported, not reproduced)</li>
 <li>Dependencies: SQLite + Python + FastMCP; <strong>no embeddings, no vector database</strong></li>
 <li>Users and production deployments: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -264,8 +258,7 @@ This repo is clearly a land-grab play too.</em></p>
   <td>Perfect. One month after OKF shipped, memory is one of the hottest MCP lanes, and this is among the first deliverables</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>A textbook case of &quot;when a standard just ships, be the first decent implementation.&quot;</strong> OKF
 came out in mid-June; by mid-August this project shipped an MCP implementation with spec
 conformance and dual-layer storage, and used Show HN to get discussion volume far above its star
@@ -280,25 +273,21 @@ memory/ directory?&quot; &quot;How does it beat Claude's built-in memory — got
 no benchmark answer. When &quot;what to record, what deserves remembering, and how to make the model
 actually consult it&quot; have no answers, 124 stars is topic heat, not product validation.</p>
 <p><strong>One hidden risk</strong>: OKF is Google's spec and only at v0.2. When the spec changes, every stored
-memory needs migration.</p>
-<h2>What to watch next</h2>
+memory needs migration.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether a reproducible benchmark appears, proving gains in task-completion over Claude's
 built-in memory or a grep-based approach
 ② Whether an ecosystem forms (others following the OKF + MCP combination) or it stays a singleton
 ③ Repo activity in three months: Show HN stars decay fast; what matters is follow-up commits and
-issue handling</p>
-<h2>What you can take from it</h2>
+issue handling</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: for agent-memory features, ship human-readable, reviewable plain-text storage
 first and accelerate with an index — do not jump straight to a vector store. Auditability is
 scarcer than retrieval quality in agent memory.</p>
 <p><strong>Positioning language</strong>: none. The README is engineering documentation; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Free and open source.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Free and open source.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The timing and the craftsmanship are both clean, but this is a
 &quot;standard-landing bonus&quot; project, not the answer to the memory problem. Product definition —
 what gets remembered — is the real winner-maker in this lane, and it has not been touched.
-Come back in three months against the three checks above.</p>
-
+Come back in three months against the three checks above.</p></article></div>
     </article>
   </section>
 

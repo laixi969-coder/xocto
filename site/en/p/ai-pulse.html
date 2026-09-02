@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#webpage", "@type": "WebPage", "description": "A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ai-pulse", "url": "https://xocto.vercel.app/en/p/ai-pulse.html"}, {"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-09-02", "datePublished": "2026-08-11", "description": "A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#webpage"}, "name": "ai-pulse", "url": "https://xocto.vercel.app/en/p/ai-pulse.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/ai-pulse.html", "name": "ai-pulse", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#webpage", "@type": "WebPage", "description": "A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ai-pulse", "url": "https://xocto.vercel.app/en/p/ai-pulse.html"}, {"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-09-02", "datePublished": "2026-08-11", "description": "A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#webpage"}, "name": "ai-pulse", "url": "https://xocto.vercel.app/en/p/ai-pulse.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/ai-pulse.html", "name": "ai-pulse", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,19 +183,17 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A virtual LED strip floating in the unused space beside the macOS Dock: is your AI
 agent working, waiting on you, finished, or broken — one glance. Pure software,
-does not touch the Dock, reads nothing.</p>
-<h2>Who built it</h2>
+does not touch the Dock, reads nothing.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>leog (GitHub: leog), an independent developer. Inspired by the SidePulse hardware
 gadget, reimplemented as software. The commit history shows pair-programming with
 Claude (Anthropic) — many co-authors are AI — with 27 commits so far.</p>
 <p><em>Read: a classic &quot;open-sourced personal tool&quot; — the author's pain (not knowing
 where a background agent is in its work) was concrete enough to justify a full
-app, but the positioning stays personal-utility; there is no commercial intent.</em></p>
-<h2>What it actually does</h2>
+app, but the positioning stays personal-utility; there is no commercial intent.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Five states, one strip</strong> → working (cyan comet streaks), needs you (orange
 breathing), failed (red double-blink), finished (all eight LEDs settle green),
@@ -214,8 +212,7 @@ without tokens ever appearing in shell history</li>
 (aipulse-pi.ts); other agents are meant to be added later</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: read prompts, terminal content, editor
-content, or windows; no interception, no recording.</p>
-<h2>What old behavior it replaces</h2>
+content, or windows; no interception, no recording.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>With a desktop agent (especially a CLI agent like Claude Code), knowing &quot;where is
 it now&quot; used to mean one of two things:</p>
 <p><strong>Keeping the terminal open</strong> — staring at a scrolling log; look away for a moment
@@ -228,14 +225,12 @@ problem — extra money, a physical spot, and locked to a specific ecosystem.</p
 <p>AI Pulse replaces &quot;repeatedly checking agent status&quot;: it lifts &quot;busy / waiting on
 you / broken&quot; out of the logs and turns it into ambient light you catch with
 peripheral vision. It solves an anxiety problem rather than a functional one, and
-the README says exactly that.</p>
-<h2>Business model</h2>
+the README says exactly that.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> MIT open source, free, no paid plan, no ads.</p>
 <p><em>Read: there is no commercial imagination here, and the value lives elsewhere —
 it validates that the psychological cost of an invisible agent is real and can be
 addressed by a 30-line UI. That need will most likely be absorbed by agent
-products themselves.</em></p>
-<h2>Hard numbers</h2>
+products themselves.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>HN: 18 points / 12 comments (this batch's observation)</li>
 <li>27 commits, MIT, Swift/SwiftUI, Universal binary (arm64 + x86_64)</li>
@@ -243,8 +238,7 @@ products themselves.</em></p>
 <li>Releases not yet notarized; install requires right-click → Open (plus a
 Privacy &amp; Security allowance on macOS 15+)</li>
 <li>Users and downloads: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -270,8 +264,7 @@ Privacy &amp; Security allowance on macOS 15+)</li>
   <td>Reasonable but a short window. Desktop agents do not ship a status light yet, but absorption is only a matter of time</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>A clean sample of &quot;solve a psychological problem, not a functional one.&quot;</strong>
 Most agent tools add features; this one subtracts noise — compressing &quot;what is the
 agent doing&quot; into a peripheral signal. The aggregate signal is the smartest
@@ -286,27 +279,23 @@ themselves. That makes it a good transitional tool, not a business.</p>
 <p><strong>The transferable rule: adding an ambient visible signal to an invisible process
 is the cheapest and most effective experience upgrade there is.</strong> User anxiety
 about background processes is real, and the UI to fix it is often just a status
-light.</p>
-<h2>What to watch next</h2>
+light.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars clear 300 in three months — diffusion speed of a utility shows
 real use
 ② Whether official adapters appear for agents beyond Claude Code (Codex, Cursor,
 etc.) — that decides whether it survives the transition
-③ Whether desktop agents ship their own status light (the absorption signal)</p>
-<h2>What you can take from it</h2>
+③ Whether desktop agents ship their own status light (the absorption signal)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when building tools, ask &quot;what is the user anxious about right
 now&quot; before &quot;what feature should I add.&quot; An ambient status light for a
 background-running agent is subtractive design — sometimes a product upgrade means
 letting the user know less, not more.</p>
 <p><strong>Positioning language</strong>: none. The README is engineering documentation; nothing
 to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed; fully free.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed; fully free.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> Good insight, clean engineering, a genuinely usable tool — but no
 business model, and likely to be absorbed by a bigger product. Its value is
 demonstrating the &quot;status visibility&quot; experience point. Check its diffusion speed
-in three months; no need to study it as a business.</p>
-
+in three months; no need to study it as a business.</p></article></div>
     </article>
   </section>
 

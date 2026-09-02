@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/fyagent.html#webpage", "@type": "WebPage", "description": "Models, accounts, skills, and prompts pack into local luggage, so switching AI tools does not mean configuring everything from scratch.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "fyagent", "url": "https://xocto.vercel.app/en/p/fyagent.html"}, {"@id": "https://xocto.vercel.app/en/p/fyagent.html#software", "@type": "SoftwareApplication", "applicationCategory": "General assistants", "dateModified": "2026-08-14", "datePublished": "2026-07-27", "description": "Models, accounts, skills, and prompts pack into local luggage, so switching AI tools does not mean configuring everything from scratch.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/fyagent.html#webpage"}, "name": "fyagent", "url": "https://xocto.vercel.app/en/p/fyagent.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/fyagent.html", "name": "fyagent", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/fyagent.html#webpage", "@type": "WebPage", "description": "Models, accounts, skills, and prompts pack into local luggage, so switching AI tools does not mean configuring everything from scratch.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "fyagent", "url": "https://xocto.vercel.app/en/p/fyagent.html"}, {"@id": "https://xocto.vercel.app/en/p/fyagent.html#software", "@type": "SoftwareApplication", "applicationCategory": "General assistants", "dateModified": "2026-08-14", "datePublished": "2026-07-27", "description": "Models, accounts, skills, and prompts pack into local luggage, so switching AI tools does not mean configuring everything from scratch.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/fyagent.html#webpage"}, "name": "fyagent", "url": "https://xocto.vercel.app/en/p/fyagent.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/fyagent.html", "name": "fyagent", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,12 +183,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Collects the models, accounts, skills, and prompts scattered across every AI tool into
 one local desktop app, so switching tools no longer means starting over — it is the
-carry-on luggage for your &quot;AI identity.&quot;</p>
-<h2>Who built it</h2>
+carry-on luggage for your &quot;AI identity.&quot;</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>The fy-agent organization, with core contributor <code>python-rust</code>. The project started as
 VibeKey — a hardware idea for putting AI configuration onto a physical keyboard — before
 the team abandoned hardware for a cross-platform desktop app derived from the open-source
@@ -196,8 +195,7 @@ project CC Switch. Built with Tauri (Rust backend, React frontend), covering Win
 macOS, and Linux.</p>
 <p><em>Read: from &quot;a physical keyboard&quot; to &quot;a cross-platform desktop app,&quot; the team hit the
 wall of hardware distribution early and pivoted decisively. The CC Switch lineage means
-this grew out of existing users, not a demand invented from zero.</em></p>
-<h2>What it actually does</h2>
+this grew out of existing users, not a demand invented from zero.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Manages models</strong> → one place for providers and model selection, preset or custom
 compatible endpoints, one-click switching</li>
@@ -211,23 +209,20 @@ availability checks</li>
 and sync</li>
 <li><strong>Supported clients</strong>: Claude Code, Claude Desktop, Codex, Gemini CLI, Grok Build,
 OpenCode, OpenClaw, Hermes</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Switching AI tools used to mean reconfiguring everything. Model providers, API keys, MCP
 servers, skills, prompts — each tool kept its own copy, scattered across places, painful
 to change, and after a switch the AI knew nothing about you. Users either maintained the
 same setup in several tools at once or stayed locked into one tool forever.</p>
 <p>fyagent decouples &quot;my AI configuration&quot; from &quot;any particular tool&quot; with a single local
 dataset (SQLite, stored in <code>~/.fyagent</code>) — configure once, then distribute to each tool.
-Imports go through the <code>fyagent://</code> protocol and show the diff before anything is written.</p>
-<h2>Business model</h2>
+Imports go through the <code>fyagent://</code> protocol and show the diff before anything is written.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Source-available, not OSI open source.</strong> Its own components and modifications sit under
 the PolyForm Noncommercial License 1.0.0 — free for non-commercial use; commercial use
 requires a separate written license. The CC Switch-derived parts stay MIT.</p>
 <p><em>Read: the classic &quot;community on the free side, enterprises pay on the licensed side&quot;
 two-track. So far only the free side exists, and the licensed side does not even have a
-pricing page, which means monetization is still an idea.</em></p>
-<h2>Hard numbers</h2>
+pricing page, which means monetization is still an idea.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>204 stars / 8 forks / 73 open issues.</strong> 2,457 total commits, last commit on
 2026-08-13</li>
@@ -235,8 +230,7 @@ pricing page, which means monetization is still an idea.</em></p>
 <li>macOS builds are ad-hoc signed and not Apple-notarized — the project itself tells you
 to verify checksums before installing</li>
 <li>User counts and paid adoption: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -262,8 +256,7 @@ to verify checksums before installing</li>
   <td>Agent clients are multiplying; the &quot;running two or three clients at once&quot; scenario is growing. Decent timing</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>It is betting that &quot;AI identity&quot; becomes the next thing you carry with you.</strong>
 Models, skills, prompts, working style — these are tool-agnostic, and binding any of them
 to a single client is waste. The direction holds, and the CC Switch lineage means a base
@@ -279,15 +272,13 @@ be good news; a bug-heavy backlog means engineering debt is accumulating.</p>
 <p><strong>The license model cuts both ways.</strong> PolyForm Noncommercial keeps commercial
 copycats out, but &quot;commercial license by separate arrangement&quot; with no price anchor
 scares off potential payers. This category's ceiling depends on becoming the default
-config layer for agent workflows — and default config layers tend to be free and open.</p>
-<h2>What to watch next</h2>
+config layer for agent workflows — and default config layers tend to be free and open.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① The ratio of feature requests to bugs in those 73 open issues — demand density decides
 whether this is a tool or a project
 ② When a commercial license page appears and what it costs — a free-only side means no
 one is paying yet
 ③ Whether the supported-client list grows in three months — failing to keep up with new
-agent tools demotes it back to CC Switch's role</p>
-<h2>What you can take from it</h2>
+agent tools demotes it back to CC Switch's role</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: multi-client coexistence is the real state of the world; decoupling
 &quot;user configuration&quot; from &quot;tool binding&quot; is a general architecture for any multi-endpoint
 product. An import flow that shows a diff before writing beats direct overwrite on both
@@ -296,13 +287,11 @@ safety and trust.</p>
 <p><strong>Pricing structure</strong>: the two-track of PolyForm Noncommercial plus a negotiated
 commercial license — free community edition, enterprise priced in conversation — fits
 tool products that want users first and money later. But note there is no price page yet:
-this structure solves &quot;how to use it legally,&quot; not &quot;how to charge for it.&quot;</p>
-<h2>Verdict</h2>
+this structure solves &quot;how to use it legally,&quot; not &quot;how to charge for it.&quot;</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The pain is real and the engineering is solid, but this reads more
 like a continuation of CC Switch than a new species, and there is a gap between the
 &quot;digital persona&quot; narrative and what actually ships. Write it down and track the
-client-coverage and commercial-license lines.</p>
-
+client-coverage and commercial-license lines.</p></article></div>
     </article>
   </section>
 

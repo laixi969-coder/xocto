@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/keen-code.html#webpage", "@type": "WebPage", "description": "This coding assistant was built by AI: humans orchestrate, the assistant writes, and the process is open to inspect.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Keen Code", "url": "https://xocto.vercel.app/en/p/keen-code.html"}, {"@id": "https://xocto.vercel.app/en/p/keen-code.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "This coding assistant was built by AI: humans orchestrate, the assistant writes, and the process is open to inspect.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/keen-code.html#webpage"}, "name": "Keen Code", "url": "https://xocto.vercel.app/en/p/keen-code.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/keen-code.html", "name": "Keen Code", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/keen-code.html#webpage", "@type": "WebPage", "description": "This coding assistant was built by AI: humans orchestrate, the assistant writes, and the process is open to inspect.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Keen Code", "url": "https://xocto.vercel.app/en/p/keen-code.html"}, {"@id": "https://xocto.vercel.app/en/p/keen-code.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-12", "datePublished": "2026-08-11", "description": "This coding assistant was built by AI: humans orchestrate, the assistant writes, and the process is open to inspect.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/keen-code.html#webpage"}, "name": "Keen Code", "url": "https://xocto.vercel.app/en/p/keen-code.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/keen-code.html", "name": "Keen Code", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,13 +183,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
-<p>A minimal Go terminal coding agent (like Claude Code or Codex CLI, but with only six tools) that was itself written by AI agents — the repo's code, docs, and design were all produced by agents, with a human only orchestrating. The selling point is not the features; it is the &quot;agent built an agent&quot; development process.</p>
-<h2>Who built it</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>A minimal Go terminal coding agent (like Claude Code or Codex CLI, but with only six tools) that was itself written by AI agents — the repo's code, docs, and design were all produced by agents, with a human only orchestrating. The selling point is not the features; it is the &quot;agent built an agent&quot; development process.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>GitHub user mochow13 (Motta Kin), a solo project, MIT license, created 2026-02-16. Personal background is not disclosed, but the repo's .ai-interactions directory chronologically records the entire AI-collaboration process.</p>
-<p><em>Read: the author is an evangelist for the &quot;human-orchestrates, AI-writes&quot; workflow — he deliberately leaves every agent interaction in the repo as evidence.</em></p>
-<h2>What it actually does</h2>
+<p><em>Read: the author is an evangelist for the &quot;human-orchestrates, AI-writes&quot; workflow — he deliberately leaves every agent interaction in the repo as evidence.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Minimal toolset</strong> → only six tools: read_file, write_file, edit_file, glob, grep, bash</li>
 <li><strong>Many models, many providers</strong> → Anthropic, OpenAI, Codex (OAuth), Gemini, DeepSeek, Kimi, GLM, MiniMax, OpenCode Go, Amazon Bedrock</li>
@@ -197,23 +195,19 @@
 <li><strong>Cross-turn memory strategy</strong> → everything is visible within one turn; across turns only a bounded TurnMemory summary survives (tool locations, inputs, status, non-zero exit codes), raw output is dropped unless /tool-history full is set</li>
 <li><strong>Sessions and compaction</strong> → persistent resumable sessions, /compact for manual context compression</li>
 <li><strong>Restrained telemetry</strong> → only two anonymous events (session start/end), disable with KEEN_TELEMETRY=off</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Two layers.</p>
 <p>First, <strong>terminal coding agents like Claude Code or Codex CLI</strong>: a smaller tool surface and a token-saving cross-turn memory strategy, betting that minimalism is more reliable than feature density in long sessions.</p>
 <p>Second, <strong>&quot;a human writing the code&quot; itself</strong>: the core narrative — the process becomes a spec → plan → task → review loop where agents write code and the human does requirement clarification, design review, quality control, and testing. The author redefines the human role as &quot;orchestrator.&quot;</p>
-<p><em>Read: the second layer is what it is really selling — the repo itself is the proof that &quot;agent builds agent&quot; works.</em></p>
-<h2>Business model</h2>
+<p><em>Read: the second layer is what it is really selling — the repo itself is the proof that &quot;agent builds agent&quot; works.</em></p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>None. Open source with npm distribution (npm install -g keen-code); no hosted service, no paid plan.</p>
-<p><em>Read: the commercial value of a proof-type project sits with the author, not the code — if the process gets validated, the author takes the methodology into a paid product.</em></p>
-<h2>Hard numbers</h2>
+<p><em>Read: the commercial value of a proof-type project sits with the author, not the code — if the process gets validated, the author takes the methodology into a paid product.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>57 stars / 9 forks, MIT, created 2026-02-16 (about six months old)</li>
 <li>503 commits, latest v0.48.0 (2026-08-13) — genuinely active</li>
 <li>HN: 6 points, 5 comments</li>
 <li>User count, any paid conversion: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -239,22 +233,17 @@
   <td>Coding agents are a red ocean; &quot;minimal + transparent process&quot; has room to differentiate, but 57 stars in six months says the market has not adopted it</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The story is worth more than the features, but the data does not buy it.</strong> &quot;Build your product with your product&quot; is the strongest sales material there is, and this repo archives the whole process with no real competition in narrative. Yet six months and 57 stars means the market was not moved — either the coding-agent lane is too crowded, or &quot;minimal&quot; is not a strong enough reason to switch away from Claude Code.</p>
 <p><strong>The transferable pattern: the right way to save tokens is summaries across turns.</strong> Any long-session product (agents, support, analytics) can copy this design: full detail within a turn, only a structured summary plus state across turns, expandable on demand. It is a clearly better engineering default than piling on context.</p>
-<p><strong>The limit</strong>: the differentiation is &quot;a development method,&quot; not &quot;product capability.&quot; For ordinary users a method must convert into results (faster, cheaper, more accurate) before anyone pays. There is no evidence of that conversion yet.</p>
-<h2>What to watch next</h2>
+<p><strong>The limit</strong>: the differentiation is &quot;a development method,&quot; not &quot;product capability.&quot; For ordinary users a method must convert into results (faster, cheaper, more accurate) before anyone pays. There is no evidence of that conversion yet.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars break 200 in three months — whether the minimal coding agent positioning can gain traction
 ② Whether anyone publicly shows a real project built with keen-code — narrative projects need outside witnesses
-③ Whether a hosted tier or paid feature appears — any monetization move is a signal the methodology is validated</p>
-<h2>What you can take from it</h2>
+③ Whether a hosted tier or paid feature appears — any monetization move is a signal the methodology is validated</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Narrative logic</strong>: make the development process part of the product. This repo's .ai-interactions directory turns process archives into evidence — for any product claiming &quot;our methodology works,&quot; publishing how you built it beats claiming the result.</p>
 <p><strong>Engineering default</strong>: copy the cross-turn memory strategy for long-session products — default to structured summaries (location, input, status, exit code), drop raw output, let users opt into full detail. It is the best default balance between saving tokens and keeping quality.</p>
-<p><strong>Positioning language</strong>: none. The README is engineering documentation; there is nothing to steal.</p>
-<h2>Verdict</h2>
-<p><strong>Unproven.</strong> The methodology narrative is complete and the engineering is serious, but no market data supports &quot;people are taking this path.&quot; Treat it as a full archive of an &quot;agent builds agent&quot; workflow, and let the stars curve decide its fate.</p>
-
+<p><strong>Positioning language</strong>: none. The README is engineering documentation; there is nothing to steal.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Unproven.</strong> The methodology narrative is complete and the engineering is serious, but no market data supports &quot;people are taking this path.&quot; Treat it as a full archive of an &quot;agent builds agent&quot; workflow, and let the stars curve decide its fate.</p></article></div>
     </article>
   </section>
 

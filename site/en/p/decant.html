@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/decant.html#webpage", "@type": "WebPage", "description": "Turns local coding-assistant sessions into a searchable ledger of spend, files touched, and what the assistant actually did.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Decant", "url": "https://xocto.vercel.app/en/p/decant.html"}, {"@id": "https://xocto.vercel.app/en/p/decant.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-13", "datePublished": "2026-08-13", "description": "Turns local coding-assistant sessions into a searchable ledger of spend, files touched, and what the assistant actually did.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/decant.html#webpage"}, "name": "Decant", "url": "https://xocto.vercel.app/en/p/decant.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/decant.html", "name": "Decant", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/decant.html#webpage", "@type": "WebPage", "description": "Turns local coding-assistant sessions into a searchable ledger of spend, files touched, and what the assistant actually did.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Decant", "url": "https://xocto.vercel.app/en/p/decant.html"}, {"@id": "https://xocto.vercel.app/en/p/decant.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-13", "datePublished": "2026-08-13", "description": "Turns local coding-assistant sessions into a searchable ledger of spend, files touched, and what the assistant actually did.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/decant.html#webpage"}, "name": "Decant", "url": "https://xocto.vercel.app/en/p/decant.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/decant.html", "name": "Decant", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,14 +183,13 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A local-first tool that turns the Claude Code and Codex session logs on your machine into a
 searchable, analyzable knowledge base: where tokens and cost go, how full the context windows
 run, which files and tools agents touch, full-text search across complete transcripts — plus
 distilling reusable workflow scripts from your command history. Zero outbound network calls at
-runtime; transcripts never leave the machine.</p>
-<h2>Who built it</h2>
+runtime; transcripts never leave the machine.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Maintained by Dosu (dosu.dev), self-described as &quot;Knowledge Infrastructure for Agents.&quot; The
 repo <code>dosu-ai/decant</code> is Apache-2.0, Bun + TypeScript; the most recent active contributor is
 Taylor Dolezal (GitHub <code>teedole</code>). The pool lists <code>devstein</code> as builder, likely the repo's
@@ -198,8 +197,7 @@ creator; his relationship to Dosu could not be verified.</p>
 <p><em>Read: Dosu builds agent infrastructure and runs agents daily, so this is dogfooding its own
 logs — Decant is both a community tool and an acquisition funnel for its main product. That
 &quot;company core business + free open-source satellite&quot; combo has steadier maintenance momentum
-than a purely personal project.</em></p>
-<h2>What it actually does</h2>
+than a purely personal project.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>One unified archive</strong> → normalizes Claude Code (<code>~/.claude/projects</code>) and Codex (<code>~/.codex</code>)
 logs into a single SQLite database</li>
@@ -216,8 +214,7 @@ it from a pure ledger</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no cloud, no network calls, no telemetry; because real
 transcripts can contain source code, prompts, credentials, and local paths, the project
-explicitly requires synthetic session data in issues and tests.</p>
-<h2>What old behavior it replaces</h2>
+explicitly requires synthetic session data in issues and tests.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Reconstructing &quot;what that agent session actually did and cost&quot; used to mean digging through
 scattered JSONL logs under <code>~/.claude/projects</code> or trusting a vendor dashboard's single total.
 Relationships between sessions, tool-call patterns, and &quot;which files did agents keep re-reading
@@ -225,15 +222,13 @@ this week&quot; could not be answered by eyeballing raw logs.</p>
 <p>Decant replaces three chores: <strong>reading raw logs</strong> (→ one SQLite archive + full-text search),
 <strong>unclear cost attribution</strong> (→ token/cost/context broken down by dimension), and, most
 distinctively — <strong>turning past agent work into reusable assets</strong> (distill freezes a successful
-run into scripts/skills). That last one stops being accounting and starts being compounding.</p>
-<h2>Business model</h2>
+run into scripts/skills). That last one stops being accounting and starts being compounding.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p>Decant itself is free and open source (Apache-2.0). Dosu's revenue sits in its main product
 (agent knowledge infrastructure); the Decant blog post lands on &quot;see what knowledge your agents
 lack, then use Dosu to fill it.&quot;</p>
 <p><em>Read: the classic tool-as-funnel structure — the analyzer is free for installs and goodwill,
 and the money lives in the managed &quot;make agents faster and cheaper&quot; service. Judging Decant as a
-standalone business is meaningless; judging it as a funnel for Dosu is the real question.</em></p>
-<h2>Hard numbers</h2>
+standalone business is meaningless; judging it as a funnel for Dosu is the real question.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>Repo created ~2026-06; 297 commits; current v0.4.0 (2026-08-12)</li>
 <li>Apache-2.0, Bun + TypeScript; macOS / Linux on x64 and arm64; no native Windows</li>
@@ -242,8 +237,7 @@ standalone business is meaningless; judging it as a funnel for Dosu is the real 
 <li>Note: one AI-generated article describes Decant as an &quot;LLM-request-intercepting proxy with
 847 stars in 24 hours&quot; — that contradicts the actual repo (a local session analyzer) and is
 treated as hallucinated content, not credible</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -269,8 +263,7 @@ treated as hallucinated content, not credible</li>
   <td>Appeared within days of CodeBurn; runaway AI cost is now a confirmed common pain and the category is forming</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Landing on the same need as CodeBurn is itself the evidence that the category exists.</strong></p>
 <p>Two products surfaced within the same week: CodeBurn (personal open source, cost dashboard
 across 40 tools with budget guards) and Decant (company open source, Claude Code/Codex session
@@ -282,15 +275,13 @@ moving from &quot;read the books&quot; to &quot;turn past work into future lever
 separates it from CodeBurn, and the real landing point of the &quot;knowledge infrastructure&quot; thesis.</p>
 <p><strong>Two limits</strong>: coverage is only Claude Code and Codex, far narrower than CodeBurn's 40 tools;
 and as a funnel piece, its roadmap will follow Dosu's main-product strategy, not the
-standalone needs of Decant users.</p>
-<h2>What to watch next</h2>
+standalone needs of Decant users.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars clear 1,000 within three months and the HN attention converts to sustained
 adoption — current public heat is low (10 points / 0 comments)
 ② Whether any user publicly reports that distilled scripts are actually being reused — it is
 the only feature that differentiates it from a ledger
 ③ Whether tool coverage expands beyond Claude Code and Codex — coverage is the life-or-death
-line for this category</p>
-<h2>What you can take from it</h2>
+line for this category</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: in &quot;analyze your history&quot; tools, the top tier does not just tell you what you
 spent — it distills history into directly reusable assets (scripts, skills, instructions).
 That step from visibility to reusability is worth copying in any agent-workflow tool.</p>
@@ -298,13 +289,11 @@ That step from visibility to reusability is worth copying in any agent-workflow 
 become numbers&quot; the one-line claim folds local-first and privacy in without saying them.</p>
 <p><strong>Distribution</strong>: free open source plus a local API (OpenAPI contract) so &quot;your agents can query
 your own history&quot; — making the tool itself an agent-callable node is the right posture for
-open-source tools joining the agent ecosystem.</p>
-<h2>Verdict</h2>
+open-source tools joining the agent ecosystem.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The company backing is steadier than a solo project, distill is genuinely
 distinctive, but public heat is low, tool coverage is narrow, and feature evolution is held
 hostage by Dosu's main product. The category judgment — cost runaways are a common pain — was
-already proven by Decant and CodeBurn appearing in the same week; wait on the product itself.</p>
-
+already proven by Decant and CodeBurn appearing in the same week; wait on the product itself.</p></article></div>
     </article>
   </section>
 

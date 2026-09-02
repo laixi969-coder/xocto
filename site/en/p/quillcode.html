@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/quillcode.html#webpage", "@type": "WebPage", "description": "A coding assistant on a Mac that is not wrapped in a web shell starts faster, and the approval boundary before file edits is visible.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "QuillCode", "url": "https://xocto.vercel.app/en/p/quillcode.html"}, {"@id": "https://xocto.vercel.app/en/p/quillcode.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "A coding assistant on a Mac that is not wrapped in a web shell starts faster, and the approval boundary before file edits is visible.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/quillcode.html#webpage"}, "name": "QuillCode", "url": "https://xocto.vercel.app/en/p/quillcode.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/quillcode.html", "name": "QuillCode", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/quillcode.html#webpage", "@type": "WebPage", "description": "A coding assistant on a Mac that is not wrapped in a web shell starts faster, and the approval boundary before file edits is visible.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "QuillCode", "url": "https://xocto.vercel.app/en/p/quillcode.html"}, {"@id": "https://xocto.vercel.app/en/p/quillcode.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "A coding assistant on a Mac that is not wrapped in a web shell starts faster, and the approval boundary before file edits is visible.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/quillcode.html#webpage"}, "name": "QuillCode", "url": "https://xocto.vercel.app/en/p/quillcode.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/quillcode.html", "name": "QuillCode", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,20 +183,18 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A 100% native Swift macOS coding agent (app name: Quill Cowork) with an explicit &quot;NOT Electron&quot;
 position — both the desktop shell and the agent runtime are Swift/SwiftUI, aimed at the
-&quot;real project work&quot; that tools like Claude Code and Codex target.</p>
-<h2>Who built it</h2>
+&quot;real project work&quot; that tools like Claude Code and Codex target.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Maintained by the Lore-Hex organization, with core contributor jperla (Joseph Perla), a senior
 engineer known for long-form technical writing. The repo was created 2026-06-20 and has 2,158
 commits with the latest on 2026-08-14 — near-daily activity. The project calls itself an
 independent open-source project, inspired by the best practices of Codex, Claude Code, and Cline.</p>
 <p><em>Read: 13 stars with 2,000+ commits means a very small number of people grinding very seriously.
 The author is a senior engineer; this project reads like a live experiment on whether a native
-rewrite is the right bet.</em></p>
-<h2>What it actually does</h2>
+rewrite is the right bet.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Native rewrite</strong> → not a wrapper: SwiftUI UI, Swift agent runtime, macOS 14+ plus a Linux CLI
 version. The pitch is faster, lighter, and with cleaner permission boundaries than Electron shells</li>
@@ -213,28 +211,24 @@ boundaries visible</li>
 <li><strong>Model access and update safety</strong> → TrustedRouter live model directory, usage tracking, Task
 Limits; auto-updates carry SHA-256 checks, signature verification, atomic activation, and
 automatic rollback on failure</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Mainstream coding agents are almost all Electron/TypeScript desktop shells or terminal tools:
 heavy on memory, slow to start, fuzzy on permission boundaries, and often burying &quot;approval&quot;
 deep in the UX. QuillCode targets the operating mode of that whole generation — it bets that
 &quot;native, auditable, visible boundaries&quot; become the new standard serious developers choose an
 agent by. It also replaces &quot;every agent framework re-implements its own tool-calling logic&quot; by
-packaging local tools, Git, and Computer Use into one complete suite.</p>
-<h2>Business model</h2>
+packaging local tools, Git, and Computer Use into one complete suite.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Open source (Apache-2.0), no pricing.</strong> Model access goes through the TrustedRouter gateway; the
 app is in a tester preview phase (ad-hoc signed, auto-updated) and the Stable build awaits
 distribution credentials. No monetization path disclosed.</p>
 <p><em>Read: open source plus an in-house model gateway suggests the &quot;free shell, take a cut on the
-gateway&quot; play. But there is not even a Stable build yet; business-model talk is premature.</em></p>
-<h2>Hard numbers</h2>
+gateway&quot; play. But there is not even a Stable build yet; business-model talk is premature.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>13 stars, 1 fork.</strong> Created 2026-06-20, Apache-2.0, Swift</li>
 <li>2,158 commits, last commit 2026-08-14 — near-daily activity</li>
 <li>macOS 14+ (Apple silicon + Intel), plus a Linux CLI; tester preview</li>
 <li>13 points, 5 comments on HN; no user-scale data</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -260,8 +254,7 @@ gateway&quot; play. But there is not even a Stable build yet; business-model tal
   <td>The Electron-shell memory and startup costs are real, but &quot;rewrite everything&quot; is too expensive a substitution for most people</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>Unproven, yet one of the best &quot;engineering specimen&quot; projects in this batch.</strong> &quot;Pure Swift, not
 Electron&quot; has genuine appeal for developers — performance, startup speed, and permission
 boundaries are things you can't fake with copy. The care poured into update safety (SHA-256,
@@ -270,13 +263,11 @@ says the author is genuinely preparing for a tool people will depend on.</p>
 <p><strong>The problem is how few people have validated it.</strong> Thirteen stars means the &quot;native rewrite&quot;
 thesis has not been tested by a wide enough community. Coding-agent competition is decided on
 model and tool-call reliability; the shell's tech stack comes last on the list. This reads as a
-public experiment on whether the native path is viable.</p>
-<h2>What to watch next</h2>
+public experiment on whether the native path is viable.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars start climbing in three months and whether known developers publicly try it
 ② Whether the Stable build ships — a tester preview that lingers too long signals distribution or
 quality problems
-③ Whether the README's Codex-alignment matrix shows evidence of meaningfully closing gaps</p>
-<h2>What you can take from it</h2>
+③ Whether the README's Codex-alignment matrix shows evidence of meaningfully closing gaps</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: &quot;what we don't use&quot; can be the cheapest differentiation, but it must be made
 solid — QuillCode doesn't just say &quot;not Electron&quot; in copy; it builds the native advantages
 (performance, permission boundaries, auditable updates) into features. If you pitch &quot;lighter and
@@ -284,13 +275,11 @@ faster,&quot; you need demonstrable hard metrics or it's just marketing. Also wo
 auto-update design (checksums + signatures + atomic activation + rollback) applies to any
 distributed desktop tool.</p>
 <p><strong>Positioning language</strong>: none. Engineering documentation; nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> Real engineering investment and a serious differentiation choice, but no community
 validation, no Stable build, no monetization path. In three months, star growth and the Stable
 release decide whether this was an experiment worth remembering or another over-serious personal
-project.</p>
-
+project.</p></article></div>
     </article>
   </section>
 

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/approving.html#webpage", "@type": "WebPage", "description": "Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "approving", "url": "https://xocto.vercel.app/en/p/approving.html"}, {"@id": "https://xocto.vercel.app/en/p/approving.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-07-24", "description": "Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/approving.html#webpage"}, "name": "approving", "sameAs": "https://www.approving-ai.com", "url": "https://xocto.vercel.app/en/p/approving.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/approving.html", "name": "approving", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/approving.html#webpage", "@type": "WebPage", "description": "Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "approving", "url": "https://xocto.vercel.app/en/p/approving.html"}, {"@id": "https://xocto.vercel.app/en/p/approving.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-14", "datePublished": "2026-07-24", "description": "Runs a coding AI in an isolated box and pauses at critical steps until a person approves before it continues.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/approving.html#webpage"}, "name": "approving", "sameAs": "https://www.approving-ai.com", "url": "https://xocto.vercel.app/en/p/approving.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/approving.html", "name": "approving", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,13 +184,12 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>An open-source, self-hostable platform that turns coding agents into visible, reviewable,
 recoverable delivery workflows: agents run in real Docker sandboxes, swap backends per need
 (Cursor / Claude Code / CodeBuddy / Trae), pause for human approval at critical nodes,
-exchange structured artifacts, and finally open the PR/MR themselves.</p>
-<h2>Who built it</h2>
+exchange structured artifacts, and finally open the PR/MR themselves.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Solo-led by cocofhu. MIT license, repo created 2026-07-24, 77 stars / 3 forks. Backend in Go
 (FSM engine, API, SQLite, artifact MCP, scheduling, audit), frontend in Vue 3 + Vue Flow (the
 orchestration canvas), sandboxing via Docker plus a custom sandbox-gateway. ~723 commits,
@@ -198,8 +197,7 @@ currently at 0.2.1-beta. The commit history includes AgentBot and Cursor commits
 is literally building this with agents.</p>
 <p><em>Read: a tool whose job is &quot;make agent delivery trustworthy&quot; is being built by agents itself.
 That self-certification chain is informal but oddly consistent. 77 stars says people who looked
-nodded; it has not been validated yet.</em></p>
-<h2>What it actually does</h2>
+nodded; it has not been validated yet.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Visual FSM orchestration</strong> → draw agent/human-gate/rollback nodes on a canvas; edges
 define success, failure, and rollback paths</li>
@@ -215,8 +213,7 @@ PRs/MRs</li>
 build needed</li>
 <li><strong>Typical workflow</strong> → Clarify → Research → Proposal → human approval → Plan → Implement →
 Test → Review → human confirmation → PR/MR</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Handing delivery to a coding agent used to default to post-hoc review: the agent finishes, opens
 a PR, and a human eyeballs it — while what the agent changed and why was often a black box, so
 the reviewer had to re-read the whole diff to judge it.</p>
@@ -228,21 +225,18 @@ way), with no platform layer to orchestrate different agents into one gated flow
 wants to be that orchestration layer.</p>
 <p><em>Read: &quot;approve before code is written&quot; is the right design. Reviewing a finished PR is the
 most expensive form of review — the work is done, overturning means redoing. Approving a plan
-is a far cheaper checkpoint.</em></p>
-<h2>Business model</h2>
+is a far cheaper checkpoint.</em></p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> MIT open source, self-hostable, no cloud service, no pricing page. The
 homepage shows team-shaped features (parallel-sprints, a PM that chats) but nothing is priced.</p>
 <p><em>Read: the same classic script as its peers — open source for distribution, a future cloud for
-revenue. But cloud, enterprise tier, and pricing are all absent, so the model has not started.</em></p>
-<h2>Hard numbers</h2>
+revenue. But cloud, enterprise tier, and pricing are all absent, so the model has not started.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>77 stars / 3 forks.</strong> Repo created 2026-07-24, ~723 commits, at 0.2.1-beta</li>
 <li>Four agent backends supported: Cursor, Claude Code, CodeBuddy, Trae</li>
 <li>Go backend + Vue 3 frontend + custom sandbox-gateway; Docker Compose self-host with
 multi-GB sandbox images on first pull</li>
 <li>Users and revenue: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -268,8 +262,7 @@ multi-GB sandbox images on first pull</li>
   <td>Right. Coding agents already run; &quot;how do I trust what they deliver&quot; is exactly the next gate for enterprise adoption</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the trust layer for agent delivery, positioned at the right moment, but not yet
 validated.</strong></p>
 <p>Once single coding agents work, the enterprise question becomes &quot;how do I trust what it
@@ -288,15 +281,13 @@ it a tool for technical teams, not a sales-driven product.</p>
 <p><strong>Where it sits vs peers</strong>: AgentGate and Lelu build the permission/policy layer (approving
 agent actions); Approving builds the delivery-flow layer (turning agents into gated
 pipelines). The former is closer to a security tool, the latter to CI/CD for agents. Both
-directions are valid; Approving walks the dev-delivery lane.</p>
-<h2>What to watch next</h2>
+directions are valid; Approving walks the dev-delivery lane.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether stars pass 300 in three months and any company publicly says it runs this — the line
 between &quot;watched&quot; and &quot;trusted&quot;
 ② Whether a hosted tier or team pricing appears — the first step from free self-host to a
 business model
 ③ Whether the backend list keeps growing as new agent tools ship — an orchestration layer
-that lags new agents is dead</p>
-<h2>What you can take from it</h2>
+that lags new agents is dead</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when designing human-machine workflows, decide where the human approval
 point sits before deciding features. Copy this ordering: approve the plan (cheap) → execute →
 review the result (expensive). Back plan approval with structured artifacts so the approver
@@ -304,13 +295,11 @@ has something concrete to read, and back result review with explicit rollback pa
 <p><strong>Positioning language</strong>: &quot;Agents run in real Docker sandboxes, exchange structured artifacts,
 and pause for human Approve at critical nodes.&quot; — one sentence covering sandbox, artifacts, and
 approval; more reassuring to a technical buyer than an abstract capability list.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching, but early.</strong> Right position, right design (approval moved forward), fast
 iteration — this is the closest thing in this batch to a shippable form of the &quot;agent
 governance&quot; thesis. But 77 stars and zero business model mean it hasn't crossed from tool to
-product. Revisit in three months against the checks above.</p>
-
+product. Revisit in three months against the checks above.</p></article></div>
     </article>
   </section>
 

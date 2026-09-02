@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/numbat.html#webpage", "@type": "WebPage", "description": "See what an assistant did on a company computer, block it if needed, and reconstruct the whole episode afterwards.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "numbat", "url": "https://xocto.vercel.app/en/p/numbat.html"}, {"@id": "https://xocto.vercel.app/en/p/numbat.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-07-24", "description": "See what an assistant did on a company computer, block it if needed, and reconstruct the whole episode afterwards.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/numbat.html#webpage"}, "name": "numbat", "url": "https://xocto.vercel.app/en/p/numbat.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/numbat.html", "name": "numbat", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/numbat.html#webpage", "@type": "WebPage", "description": "See what an assistant did on a company computer, block it if needed, and reconstruct the whole episode afterwards.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "numbat", "url": "https://xocto.vercel.app/en/p/numbat.html"}, {"@id": "https://xocto.vercel.app/en/p/numbat.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-14", "datePublished": "2026-07-24", "description": "See what an assistant did on a company computer, block it if needed, and reconstruct the whole episode afterwards.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/numbat.html#webpage"}, "name": "numbat", "url": "https://xocto.vercel.app/en/p/numbat.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/numbat.html", "name": "numbat", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,16 +183,14 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Not another row of permission toggles for your agent, but surveillance for it: what it did on
-this machine, whether to stop it mid-action, and how to reconstruct the whole thing afterward.</p>
-<h2>Who built it</h2>
+this machine, whether to stop it mid-action, and how to reconstruct the whole thing afterward.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>Perplexity's official repository (<code>perplexityai/numbat</code>), Apache-2.0, a single Go binary.</p>
 <p><em>Read: when a search company shows up building endpoint security for agents, it usually means
 the problem bit them first. Perplexity hurts on both sides — heavy internal agent use, and
-being one of the most aggressively crawled targets on the outside.</em></p>
-<h2>What it actually does</h2>
+being one of the most aggressively crawled targets on the outside.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Watches four kinds of agent</strong> → desktop, CLI, IDE, and gateway, observed through local
 hooks, plugins, OTLP/HTTP logs, and on-disk session artifacts, normalized into one event model</li>
@@ -207,29 +205,25 @@ contains a complete raw transcript</li>
 </ul>
 <p><strong>What it deliberately does not do</strong>: no cloud control plane, no blocking by default, no full
 transcripts in routine records. All three are deliberate restraint — the classic way a security
-tool dies is by becoming a new leak in the course of giving you visibility.</p>
-<h2>What old behavior it replaces</h2>
+tool dies is by becoming a new leak in the course of giving you visibility.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Companies have watched employee machines with EDR for two decades. EDR's subject is a person
 and a process: who installed what, who connected where, who touched which file.</p>
 <p>Agents break that. An agent's actions happen inside someone else's process, over someone else's
 API, and land in someone else's session files. EDR sees &quot;a terminal program made a network
 call.&quot; So the question &quot;what exactly did that agent change last week&quot; could only be answered by
-a human scrolling back through a chat log — assuming the log still existed.</p>
-<h2>Business model</h2>
+a human scrolling back through a chat log — assuming the log still existed.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> Apache-2.0, no pricing page, no hosted service.</p>
 <p><em>Read: the money in this category has always been in the enterprise control plane — policy
 push across fleets, unified alerting, audit reporting. What has been open-sourced is the
 endpoint half: the hardest to build, the least profitable, and the half that determines whether
-anyone wants the other one.</em></p>
-<h2>Hard numbers</h2>
+anyone wants the other one.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>917 stars, 95 forks.</strong> Repository created 2026-07-24</li>
 <li>Go, no cgo, single binary across macOS / Linux / Windows on amd64 and arm64</li>
 <li>Record format is already at JSON Schema v0.2.0 — a version number means someone is taking
 backward compatibility seriously</li>
 <li>Team size and enterprise adoption: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -255,8 +249,7 @@ backward compatibility seriously</li>
   <td>Half a step early. Companies are still getting agents to work, not yet holding them accountable — but that day is coming</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the employee-management playbook ported to agents, and ported honestly.</strong></p>
 <p>Monitoring, blocking, forensics — the same three pieces companies have used on staff for twenty
 years, moved across without alteration, right down to copying the rollout order of &quot;observe
@@ -275,26 +268,22 @@ the people writing checks today are in the second category.</p>
 hundred files and writes one report; every individual step is compliant. Is the sum of them
 exfiltration? That judgment cannot be made on the endpoint. numbat is betting on &quot;record every
 action first,&quot; but the real disagreement is whether the security boundary for agents belongs at
-the endpoint, at the model, or at the authorization layer.</p>
-<h2>What to watch next</h2>
+the endpoint, at the model, or at the authorization layer.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether the number of agents in the coverage matrix is still growing in three months — falling
 behind new agents makes it useless
 ② Whether any company says publicly that it runs this — the hard part for a security tool is not
 building it, it is being trusted
 ③ Whether enforce mode's default flips from off to on — that would mean they believe the
-false-positive rate is finally low enough</p>
-<h2>What you can take from it</h2>
+false-positive rate is finally low enough</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: when a multi-agent video workflow goes into real production, copy this
 rollout order — ship an observe-only pass first, collect two weeks of real data to find where it
 actually breaks, and only then decide which step deserves a human checkpoint. Guessing where the
 checkpoint belongs puts it in the wrong place eight times out of ten.</p>
 <p><strong>Positioning language</strong>: none. This is engineering documentation; there is nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The direction holds and the engineering is solid, but today it delivers
 forensic value rather than protective value, and the buyers have not shown up in volume yet.
-Write it down and come back in three months against the three checks above.</p>
-
+Write it down and come back in three months against the three checks above.</p></article></div>
     </article>
   </section>
 

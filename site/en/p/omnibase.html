@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/omnibase.html#webpage", "@type": "WebPage", "description": "Treat assistants as digital employees: a role, a project, a work log, with data staying on your own servers.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "omnibase", "url": "https://xocto.vercel.app/en/p/omnibase.html"}, {"@id": "https://xocto.vercel.app/en/p/omnibase.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-12", "datePublished": "2026-08-01", "description": "Treat assistants as digital employees: a role, a project, a work log, with data staying on your own servers.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/omnibase.html#webpage"}, "name": "omnibase", "sameAs": "https://omnibase.chat/public-preview", "url": "https://xocto.vercel.app/en/p/omnibase.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/omnibase.html", "name": "omnibase", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/omnibase.html#webpage", "@type": "WebPage", "description": "Treat assistants as digital employees: a role, a project, a work log, with data staying on your own servers.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "omnibase", "url": "https://xocto.vercel.app/en/p/omnibase.html"}, {"@id": "https://xocto.vercel.app/en/p/omnibase.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-12", "datePublished": "2026-08-01", "description": "Treat assistants as digital employees: a role, a project, a work log, with data staying on your own servers.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/omnibase.html#webpage"}, "name": "omnibase", "sameAs": "https://omnibase.chat/public-preview", "url": "https://xocto.vercel.app/en/p/omnibase.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/omnibase.html", "name": "omnibase", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -184,12 +184,11 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>Turning agents from &quot;one-off chat personas&quot; into digital employees with a job
 description, version, project context, and auditable run records — and the whole
-thing is self-hosted, so your data never leaves your server.</p>
-<h2>Who built it</h2>
+thing is self-hosted, so your data never leaves your server.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>GitHub user lss100200, an open-source project (Apache-2.0, Python/FastAPI + Next.js +
 pgvector), currently in Public Preview. The site omnibase.chat carries a strikingly
 honest long-form page: &quot;we only show what is actually done and actually being built,&quot;
@@ -197,8 +196,7 @@ and the production-grade multi-agent Runtime is explicitly kept gated.</p>
 <p><em>Read: this is a typical build-in-public self-hosted infrastructure project. The most
 notable thing is not the features — it is that the site openly says &quot;production
 Runtime is still off and multi-agent is still on the roadmap.&quot; That honesty is rare
-in open source, where the usual move is to overclaim a half-finished demo.</em></p>
-<h2>What it actually does</h2>
+in open source, where the usual move is to overclaim a half-finished demo.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>Personal model gateway</strong> → configure your own OpenAI-compatible Provider, store
 API keys, and test the connection before and after saving</li>
@@ -223,8 +221,7 @@ loop is guaranteed</li>
 <li>Agent Builder + &quot;tool-less single-agent model calls&quot; + persistent Task/Run records +
 read-only knowledge retrieval. Tool execution (Typed Executor), the multi-agent
 Runtime, and the production Runtime are all gated off.</li>
-</ul>
-<h2>What old behavior it replaces</h2>
+</ul></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Getting agents into real business use previously meant two unsatisfying paths:</p>
 <p><strong>SaaS agent platforms (Dify, Coze and peers).</strong> Knowledge bases, model keys, and run
 records all live on someone else's servers. For data-sensitive companies, that is a
@@ -236,14 +233,12 @@ workbench. The result is context scattered across chat history: an agent starts 
 with no idea where it left off, which project it works for, or what it cost.</p>
 <p>OmniBase replaces both: a self-hosted base that keeps data local, plus a management
 model that promotes agents from chat personas to &quot;digital employees with a role, a
-version, a project, and an audit trail.&quot;</p>
-<h2>Business model</h2>
+version, a project, and an audit trail.&quot;</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>Not disclosed.</strong> Apache-2.0, Public Preview, no pricing page.</p>
 <p><em>Read: the money in self-hosted infrastructure has always been enterprise edition plus
 support — multi-tenancy, SSO, a stable production Runtime — and only after that is
 worth pricing. With the production Runtime still gated, there is no business model to
-discuss; the discussion is &quot;prove one agent reliably closes the loop first.&quot;</em></p>
-<h2>Hard numbers</h2>
+discuss; the discussion is &quot;prove one agent reliably closes the loop first.&quot;</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li><strong>166 stars / 4 forks / 4 open issues.</strong> Apache-2.0, Python + Next.js + pgvector</li>
 <li>Public Preview; production Agent Runtime remains gated</li>
@@ -253,8 +248,7 @@ Desktop; later = multi-agent Runtime, Self-Development, Hardened Production Runt
 </ul>
 </li>
 <li>Team size, enterprise users: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -280,8 +274,7 @@ Desktop; later = multi-agent Runtime, Self-Development, Hardened Production Runt
   <td>Self-hosted AI infrastructure is a durable market; but 2026 is crowded (Dify and others already do self-hosted agent platforms), and differentiation must come from the management model, not from &quot;it can run another agent&quot;</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>The positioning and the honesty are both worth watching, but the functionality is
 still very early.</strong>
 &quot;Self-hosted AI workbench + digital-employee agent management&quot; is a differentiated
@@ -301,29 +294,25 @@ ultimately depends on whether the management model goes deep — a genuinely aud
 agent run ledger, version rollback, and so on.</p>
 <p><strong>Worth watching</strong>: 166 stars show some attention, but what is worth studying is the
 positioning and the honesty; the product itself needs tool execution and multi-agent
-before a revisit.</p>
-<h2>What to watch next</h2>
+before a revisit.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether Typed Executor (tool calling) lands on the main branch within three months —
 a single agent without tools is not a closed loop
 ② When the production Agent Runtime unlocks, and whether a real deployment appears
 after it does
 ③ Star growth and the quality of community issues — self-hosted infrastructure lives
-or dies on community validation, and slow is death</p>
-<h2>What you can take from it</h2>
+or dies on community validation, and slow is death</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: any agent-platform product should borrow its lifecycle model —
 Definition (role) → Version (manual) → Binding (appointment) → Run (shift). Managing
 an agent like an employee (job description, versioned changes, project ownership, an
 audit record per shift) is a management dimension above &quot;give it a chat window.&quot;</p>
 <p><strong>Positioning language</strong>: &quot;make one agent reliable first, then expand roles by task
 need&quot; — this rollout-order phrasing is worth quoting in any agent product.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> Differentiated positioning (agents as managed digital employees +
 self-hosting), an honest roadmap (production Runtime explicitly gated), and open,
 verifiable code. But today's capability stops at tool-less bare calls; judging whether
 it works requires at least tool execution and multi-agent to land. Come back in three
-months against the three checks above.</p>
-
+months against the three checks above.</p></article></div>
     </article>
   </section>
 

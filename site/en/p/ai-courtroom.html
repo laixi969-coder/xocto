@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/ai-courtroom.html#webpage", "@type": "WebPage", "description": "Puts several AIs in the roles of judge, counsel, and jury, and records the whole decision so you can replay who influenced whom.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ai_courtroom", "url": "https://xocto.vercel.app/en/p/ai-courtroom.html"}, {"@id": "https://xocto.vercel.app/en/p/ai-courtroom.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Puts several AIs in the roles of judge, counsel, and jury, and records the whole decision so you can replay who influenced whom.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/ai-courtroom.html#webpage"}, "name": "ai_courtroom", "url": "https://xocto.vercel.app/en/p/ai-courtroom.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/ai-courtroom.html", "name": "ai_courtroom", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=8207b85fd40c">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/ai-courtroom.html#webpage", "@type": "WebPage", "description": "Puts several AIs in the roles of judge, counsel, and jury, and records the whole decision so you can replay who influenced whom.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ai_courtroom", "url": "https://xocto.vercel.app/en/p/ai-courtroom.html"}, {"@id": "https://xocto.vercel.app/en/p/ai-courtroom.html#software", "@type": "SoftwareApplication", "applicationCategory": "Infrastructure", "dateModified": "2026-08-11", "datePublished": "2026-08-10", "description": "Puts several AIs in the roles of judge, counsel, and jury, and records the whole decision so you can replay who influenced whom.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/ai-courtroom.html#webpage"}, "name": "ai_courtroom", "url": "https://xocto.vercel.app/en/p/ai-courtroom.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/ai-courtroom.html", "name": "ai_courtroom", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -183,13 +183,12 @@
         <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
       </div>
     </div>
-    <article class="prose analysis-full product-prose">
-      <h2>What it is in one line</h2>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
 <p>A replayable multi-agent &quot;liability tribunal&quot; experiment: multiple agents cast as
 judge, lawyers, witnesses and jurors talk to each other over agent-to-agent (A2A)
 messages, and the question is how &quot;who may talk to whom&quot; changes a collective
-verdict. Every run produces an interactive, replayable HTML report.</p>
-<h2>Who built it</h2>
+verdict. Every run produces an interactive, replayable HTML report.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
 <p>nMaroulis (GitHub handle), the author of ProtoLink — a Python multi-agent
 framework built around the A2A protocol, MIT-licensed, positioned as an
 alternative to chain-centric frameworks like LangChain: each agent is a
@@ -200,8 +199,7 @@ standalone product.</p>
 <p><em>Read: what the author is really doing is building observable, experimentable
 tooling for multi-agent communication; the courtroom is just the narrative shell.
 The actual product being sold is ProtoLink's orchestration and the idea that
-communication topology can be controlled.</em></p>
-<h2>What it actually does</h2>
+communication topology can be controlled.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
 <ul>
 <li><strong>A fictional liability courtroom</strong> → 7 court roles (judge, plaintiff counsel,
 defense executive, engineer, regulator, insurance lead, investigator) plus 5
@@ -220,8 +218,7 @@ OpenAI/Anthropic and others for reproduction</li>
 telemetry, with hash checks and paired-ablation design</li>
 </ul>
 <p><strong>What it deliberately is not</strong>: a general intelligence leaderboard, and it makes
-no causal claims — only reported observations.</p>
-<h2>What old behavior it replaces</h2>
+no causal claims — only reported observations.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
 <p>Figuring out &quot;do multiple agents get better answers by talking to each other&quot;
 used to rely on two things:</p>
 <p><strong>Judging the final output</strong> — treat the multi-agent system as a black box; trust
@@ -232,23 +229,20 @@ review, not tracing the causal chain between messages.</p>
 <p>ai_courtroom replaces &quot;debugging multi-agent collaboration by intuition and log
 reading&quot; with a machine-viewable, frame-by-frame record where every message
 carries structured state change. It is effectively putting a flight recorder on
-agent conversations.</p>
-<h2>Business model</h2>
+agent conversations.</p></article><article class="desk-prose-block"><h2>Business model</h2>
 <p><strong>None.</strong> This is a research example inside an open-source (MIT) framework: no
 pricing, no product, no corporate entity.</p>
 <p><em>Read: the commercial imagination lives elsewhere — traceability of multi-agent
 systems is becoming a compliance requirement, and finance and healthcare will
 eventually demand &quot;every decision step can be replayed.&quot; ProtoLink is betting on
-being the framework that can replay, before the compliance demand arrives.</em></p>
-<h2>Hard numbers</h2>
+being the framework that can replay, before the compliance demand arrives.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
 <ul>
 <li>HN: 19 points / 1 comment (this batch's observation)</li>
 <li>ProtoLink: 257 commits, MIT, pure Python, sole core dependency Pydantic</li>
 <li>The demo runs four conditions on a deterministic reference LLM, with hash
 checks and paired-ablation design</li>
 <li>Users and adopters: not disclosed</li>
-</ul>
-<h2>Four-way read</h2>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
 <table>
 <thead>
 <tr>
@@ -274,8 +268,7 @@ checks and paired-ablation design</li>
   <td>Early. The traceability need is real, but multi-agent systems are not in production at scale yet, so buyers are scarce</td>
 </tr>
 </tbody>
-</table>
-<h2>The call</h2>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
 <p><strong>This is the most carefully built demo in the &quot;observability of multi-agent
 systems&quot; space.</strong> Its smartest move is not the courtroom wrapper but treating
 communication topology as a controlled variable, with a blunt, useful result:
@@ -288,29 +281,25 @@ Its value only materializes once ProtoLink gets adopted by real projects.</p>
 making the output better.</strong> In any system with multiple cooperating parties —
 agents or otherwise — solve &quot;can we replay what happened frame by frame&quot; before
 optimizing results. The repeated warning that &quot;observed change is not causation&quot;
-is the same methodology.</p>
-<h2>What to watch next</h2>
+is the same methodology.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
 <p>① Whether ProtoLink clears 1,000 stars in three months — whether the example can
 pull the framework along
 ② Whether the &quot;controllable topology&quot; result gets cited by independent papers or
 production case studies
 ③ Whether any finance/healthcare company publicly adopts ProtoLink for traceable
-agent systems</p>
-<h2>What you can take from it</h2>
+agent systems</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: in a multi-agent system, make &quot;who may communicate with whom&quot;
 an explicitly configurable topology instead of letting every agent message freely.
 Controlling the communication structure moves results more than adding agents —
 that is the transferable conclusion straight from the experiment.</p>
 <p><strong>Positioning language</strong>: none. This is technical documentation and an experiment
 report; there is nothing to steal.</p>
-<p><strong>Pricing structure</strong>: none. Not disclosed.</p>
-<h2>Verdict</h2>
+<p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The experimental insight is solid and the methodology is rigorous,
 but this is a framework example rather than a product, with no users and no
 business model. What is worth keeping is the methodology — replayable, comparable,
 observations separated from causation. Come back in three months and check whether
-ProtoLink actually gained traction.</p>
-
+ProtoLink actually gained traction.</p></article></div>
     </article>
   </section>
 
