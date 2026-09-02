@@ -1,3 +1,4 @@
+/* wrap-pass-4: report/desk bodies use full content column */
 /* align-pass-3: evidence flush + summary marker */
 /* Hallmark · genre: editorial · macrostructure: Marquee Hero / Workbench / Long Document
  * theme: Linear-inspired cool intelligence desk · enrichment: none · nav: dense chrome · footer: Ft5
@@ -179,7 +180,7 @@ section.band:nth-of-type(even) { background: var(--surface-soft); color: var(--i
 .pick-id h3 { width: 100%; margin: 0; font-size: 18px; letter-spacing: -.015em; line-height: 1.3; }
 .pick-id:hover h3 { color: var(--signal); }
 .pick-body { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 24px 32px; }
-.pick-body .field-what { grid-column: 1 / -1; max-width: 68ch; }
+.pick-body .field-what { grid-column: 1 / -1; max-width: none; }
 .pick-body .field-take { grid-column: 1 / -1; }
 .pick-body .field-call { grid-column: 1; }
 .field-call strong { color: var(--good); font-weight: 700; }
@@ -323,7 +324,7 @@ section.band:nth-of-type(even) { background: var(--surface-soft); color: var(--i
 .decision-grid .field { min-height: 0; padding: 20px; border-radius: var(--radius-input); background: var(--surface); color: var(--ink); }
 .decision-grid .field:nth-child(even) { padding-left: 20px; }
 .decision-grid .decision-call { padding-left: 20px; background: var(--signal-soft); color: var(--ink); }
-.decision-grid .field p { max-width: 72ch; font-size: 15px; line-height: 1.72; }
+.decision-grid .field p { max-width: none; width: 100%; font-size: 15px; line-height: 1.72; }
 .research-notes { margin-top: 24px; }
 .research-notes summary { padding: 16px 0; cursor: pointer; color: var(--ink-faint); font-size: 13px; font-weight: 650; }
 .research-notes[open] summary { color: var(--ink); }
@@ -395,8 +396,8 @@ section.band:nth-of-type(even) { background: var(--surface-soft); color: var(--i
 .sec-no { grid-column: 1; grid-row: 1; color: var(--signal); font-size: 12px; }
 .sec-bar h2 { grid-column: 1; grid-row: 2; margin: 0; font-family: var(--display); font-size: clamp(26px, 3vw, 41px); letter-spacing: -.03em; line-height: 1.1; }
 .sec-count { grid-column: 2; grid-row: 2; color: var(--ink-faint); font-size: 12px; }
-.sec-sub { max-width: 55em; margin: 16px 0 0; color: var(--ink-soft); font-size: 15px; }
-.sec-lead, .sec-body { max-width: 62em; margin-top: 20px; font-size: 15px; line-height: 1.74; }
+.sec-sub { max-width: none; width: min(100%, 90rem); margin: 16px 0 0; color: var(--ink-soft); font-size: 15px; }
+.sec-lead, .sec-body { max-width: none; width: 100%; margin-top: 20px; font-size: 15px; line-height: 1.74; }
 .sec-table .sec-body { max-width: none; overflow-x: auto; }
 .sec-quiet .sec-bar h2 { font-family: var(--sans); font-size: 18px; }
 .sec-quiet .sec-body { color: var(--ink-faint); }
@@ -406,8 +407,8 @@ section.band:nth-of-type(even) { background: var(--surface-soft); color: var(--i
 .pick-rank { padding-top: 4px; color: var(--signal); font-family: var(--mono); font-size: 13px; }
 .pick-card-id { min-width: 0; }
 .pick-card-id h3 { margin: 0; font-size: 18px; line-height: 1.3; }
-.pick-lead { max-width: 75ch; margin: 12px 0 0 36px; font-size: 15px; line-height: 1.72; }
-.pick-text { max-width: 75ch; margin: 12px 0 0 36px; color: var(--ink-soft); font-size: 14px; line-height: 1.68; }
+.pick-lead { max-width: none; width: 100%; margin: 12px 0 0 0; font-size: 15px; line-height: 1.72; }
+.pick-text { max-width: none; width: 100%; margin: 12px 0 0 0; color: var(--ink-soft); font-size: 14px; line-height: 1.68; }
 .pick-text strong { color: var(--ink); }
 .pick-card-list .pick-card-id h3 { font-size: 16px; }
 .pick-card-list .pick-text { columns: 2; column-gap: 44px; }
@@ -513,7 +514,8 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
 .home-desk .desk-sec .note,
 .takeaways-desk .desk-sec .note {
   grid-column: 1;
-  max-width: 75ch;
+  max-width: none;
+  width: 100%;
   margin-top: 2px;
 }
 
@@ -734,7 +736,8 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
 }
 .takeaways-desk .desk-topic-head .sec-sub {
   grid-column: 2 / -1;
-  max-width: 68ch;
+  max-width: none;
+  width: 100%;
   margin: 6px 0 0;
   color: var(--ink-soft);
   font-size: 13px;
@@ -1327,4 +1330,27 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
+}
+
+/* wrap-pass-4 report desk */
+
+
+/* Report desk: body/pick copy fills the main column (CJK ch caps leave empty right) */
+.report-desk .sec-lead,
+.report-desk .sec-body,
+.report-desk .pick-lead,
+.report-desk .pick-text,
+.report-desk .sec-sub,
+.report-desk .prose-body {
+  max-width: none !important;
+  width: 100%;
+}
+.report-desk .pick-card {
+  max-width: none;
+}
+.report-desk .pick-card-head {
+  max-width: none;
+}
+.report-desk .report-layout {
+  grid-template-columns: minmax(0, 1fr) minmax(180px, 210px);
 }
