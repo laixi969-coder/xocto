@@ -20,17 +20,17 @@ url: https://danluu.com/zitron/
 canonical_url: https://danluu.com/zitron
 summary: How accurate have Ed Zitron's AI skeptic predictions been?
 first_seen: '2026-09-01T18:35:15Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://danluu.com/zitron/
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 350
-    comments: 414
+    points: 804
+    comments: 908
   kind: news
 ---
 

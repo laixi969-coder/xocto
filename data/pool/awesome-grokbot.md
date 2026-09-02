@@ -21,17 +21,17 @@ canonical_url: https://kydlikebtc.github.io/awesome-grokbot
 summary: 361 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual
   EN/中文 catalog with a JSON schema, CI, and a searchable site.
 first_seen: '2026-09-01T02:30:25Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-02T14:31:42Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://kydlikebtc.github.io/awesome-grokbot/
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-02T14:31:42Z'
   metrics:
-    stars: 52
-    forks: 0
+    stars: 121
+    forks: 15
     open_issues: 0
   kind: product
 ---

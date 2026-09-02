@@ -33,8 +33,8 @@ url: https://www.producthunt.com/products/local-7
 canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
-last_seen: '2026-09-01T01:18:41Z'
-status: queued
+last_seen: '2026-09-02T14:32:07Z'
+status: pending_filter
 sources:
 - producthunt
 - officialfeeds
@@ -82,6 +82,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/
   seen_at: '2026-09-01T01:18:41Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaGNZTjFVTFYwY256eDlnTDBpVENwcHdEOXVVNkVSd1pTZFdlYVFjS1FNSVk1QU94cDJuNi1kV2t1M3k5WUJWZE1nakRpOXZjc2QyblRrS1JYV0dXeTg4NXdHZ2ZIaTdlVDg3eUkzVncxb0RHLWxCc1l2dWJSVzFnaXhDVHVkbE52WG1F?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
 ---

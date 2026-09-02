@@ -20,17 +20,17 @@ url: https://www.norirobotics.com/
 canonical_url: https://norirobotics.com
 summary: Nori Robotics (YC S26) – A low-cost humanoid robot for development
 first_seen: '2026-09-01T17:35:10Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.norirobotics.com/
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 110
-    comments: 39
+    points: 187
+    comments: 61
   kind: product
 ---
 

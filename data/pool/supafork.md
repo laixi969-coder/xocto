@@ -20,17 +20,17 @@ url: https://www.supafork.com
 canonical_url: https://supafork.com
 summary: Share and Fork Sessions Across Harnesses
 first_seen: '2026-09-01T16:54:02Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.supafork.com
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 8
-    comments: 5
+    points: 15
+    comments: 9
   kind: product
 ---
 

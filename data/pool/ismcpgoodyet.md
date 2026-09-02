@@ -20,16 +20,16 @@ url: https://ismcpgoodyet.com
 canonical_url: https://ismcpgoodyet.com
 summary: Is MCP Good Yet?
 first_seen: '2026-09-01T02:56:15Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://ismcpgoodyet.com
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 26
+    points: 27
     comments: 1
   kind: news
 ---

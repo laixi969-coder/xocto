@@ -20,17 +20,17 @@ url: https://hnmatchmaker.com/
 canonical_url: https://hnmatchmaker.com
 summary: Matching "Who Wants to Be Hired?" With "Who's Hiring?"
 first_seen: '2026-09-01T20:53:35Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://hnmatchmaker.com/
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 28
-    comments: 13
+    points: 102
+    comments: 44
   kind: product
 ---
 

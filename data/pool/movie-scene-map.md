@@ -20,17 +20,17 @@ url: https://moviescenemap.com/
 canonical_url: https://moviescenemap.com
 summary: 13,312 films, series, games, anime and manga
 first_seen: '2026-09-01T16:34:45Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://moviescenemap.com/
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 143
-    comments: 28
+    points: 308
+    comments: 40
   kind: news
 ---
 

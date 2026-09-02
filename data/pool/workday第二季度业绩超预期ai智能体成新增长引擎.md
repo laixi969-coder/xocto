@@ -21,7 +21,7 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc29hREJPQkw1R0tETzhUOU
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc29hREJPQkw1R0tETzhUOU9DcnRmNUk3aFZaX092VXdGNGFXdmp2MzlBcnFON1hYYWVQOWx2aEFaT3d0aVg0WGc4Y19td0pIZjFuRktfekt5MG9NZm9ZMUVObURPekpXY3Bfc1ZnNFhjbmpBekp1ZFZteE5jV2ZoYWtaUXMwaWYz?oc=5
 summary: Workday第二季度业绩超预期，AI智能体成新增长引擎 搜狐网
 first_seen: '2026-08-28T13:43:00Z'
-last_seen: '2026-09-02T00:14:57Z'
+last_seen: '2026-09-02T14:32:07Z'
 status: pending_filter
 sources:
 - newssearch
@@ -39,6 +39,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FQkF1WnNGblg5WGM1RFZWMzA5M2I2WnhHMVBDQTU2S3VKeDlhcVJqYUFON1VBT3Q1MkVUQVNPRWcyeHVJZUpuRnpFZFB6ZEQ4cF82ZlYyZF9CbkpPM19aRnlB?oc=5
   seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5sRUt6QThfcmZ2YVhjUUFIN0JSMExubE9wUGR3d1JTWE1jQ1B6UTNha0VXYTQ2TFhBdUJRd0QxTlJkbjVNSFRPZjJOVldDbE1hdENHbHdOb1BDM3I2UzFTbG5Ka05fUzk3aHVHZi1ENklkOXVjQkRNOTk1ZkRhQQ?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
 ---

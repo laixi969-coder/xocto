@@ -20,17 +20,17 @@ url: https://serendipity.surf/
 canonical_url: https://serendipity.surf
 summary: rediscover the web one interesting page at a time
 first_seen: '2026-09-01T03:52:20Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://serendipity.surf/
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 6
-    comments: 6
+    points: 7
+    comments: 8
   kind: product
 ---
 

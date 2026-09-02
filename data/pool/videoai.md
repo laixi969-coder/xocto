@@ -20,16 +20,16 @@ url: https://videoai.me/live
 canonical_url: https://videoai.me/live
 summary: I built a live stream site where every spot is instantly AI-generated
 first_seen: '2026-09-01T10:35:55Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://videoai.me/live
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 8
+    points: 9
     comments: 9
   kind: product
 ---

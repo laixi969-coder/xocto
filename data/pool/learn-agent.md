@@ -24,16 +24,16 @@ url: https://github.com/ryzqi/learn-agent
 canonical_url: https://github.com/ryzqi/learn-agent
 summary: 20 章中文 AI Agent 架构实战教程，配套可运行 TypeScript 代码，覆盖工具、权限、记忆、多 Agent、Worktree 与 MCP。
 first_seen: '2026-08-13T15:26:55Z'
-last_seen: '2026-09-02T00:14:35Z'
+last_seen: '2026-09-02T14:31:42Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ryzqi/learn-agent
-  seen_at: '2026-09-02T00:14:35Z'
+  seen_at: '2026-09-02T14:31:42Z'
   metrics:
-    stars: 298
+    stars: 301
     forks: 42
     open_issues: 1
   kind: product

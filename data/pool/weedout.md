@@ -20,17 +20,17 @@ url: https://masteranza.github.io/weedout/
 canonical_url: https://masteranza.github.io/weedout
 summary: Safari extension that hides YouTube AI-labeled videos
 first_seen: '2026-09-01T22:06:57Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://masteranza.github.io/weedout/
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 36
-    comments: 11
+    points: 166
+    comments: 73
   kind: product
 ---
 

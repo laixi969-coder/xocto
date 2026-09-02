@@ -20,17 +20,17 @@ url: https://setpuzzle.com/
 canonical_url: https://setpuzzle.com
 summary: The Daily Set – an (over engineered) daily puzzle game
 first_seen: '2026-09-01T20:37:59Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://setpuzzle.com/
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 9
-    comments: 5
+    points: 10
+    comments: 6
   kind: product
 ---
 

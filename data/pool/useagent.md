@@ -35,16 +35,16 @@ summary: 'Hand off the work. Get back the result. The open-source AI coworker fo
   their own cloud computer, your tools and context, handing back finished work - websites, decks, spreadsheets,
   reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.'
 first_seen: '2026-08-29T21:14:31Z'
-last_seen: '2026-09-02T00:14:35Z'
+last_seen: '2026-09-02T14:31:42Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://useagent.org
-  seen_at: '2026-09-02T00:14:35Z'
+  seen_at: '2026-09-02T14:31:42Z'
   metrics:
-    stars: 269
+    stars: 273
     forks: 30
     open_issues: 0
   kind: product

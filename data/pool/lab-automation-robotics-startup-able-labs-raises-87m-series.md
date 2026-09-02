@@ -32,11 +32,12 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-02T00:14:57Z'
+last_seen: '2026-09-02T14:32:03Z'
 status: pending_filter
 sources:
 - newssearch
 - officialfeeds
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
@@ -66,6 +67,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xajRaQzZKU0pjdlZfS2tjdGs2Snd6SHFiVEJjR0xpRld5aHZuOHZmTEZ2YlFmTWJ4Wk5rdjlpWnFZU1FYV0NOREZEb2tYcnAzV2ZPaQ?oc=5
   seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway
+  seen_at: '2026-09-02T14:32:02Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/483104.html
+  seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/public/startups-to-watch-ipo-ai-chips-fintech-2026/
+  seen_at: '2026-09-02T14:32:03Z'
   metrics: {}
   kind: news
 ---

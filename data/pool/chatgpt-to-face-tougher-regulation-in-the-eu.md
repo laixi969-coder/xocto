@@ -23,7 +23,7 @@ summary: OpenAI will soon be held accountable for mitigating risks related to Ch
   is now considered a Very Large Online Search Engine under the EU's Digital Services Act, a set of laws
   regulating major online services and […]
 first_seen: '2026-08-31T13:27:36Z'
-last_seen: '2026-09-02T00:14:53Z'
+last_seen: '2026-09-02T14:32:07Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -48,6 +48,16 @@ sightings:
 - source: officialfeeds
   url: https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources
   seen_at: '2026-09-02T00:14:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: http://www.geekpark.net/news/369724
+  seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTE9ncGVBNHRJYVFOU29TN1JaRVBpSjhaeWxCenVOREdnbmN0WjhUbWR5bjdzSzZwN2tJOHRfSEZvZ2l3VzluU0JNT3lkbk5kS0NyYy1GSUlEVXNfZW1kOGRQY3NHc3VMX3d2c2w3QUVMYUFRRUZDb0pRZHpBT24?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
 ---

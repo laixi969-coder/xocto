@@ -24,3 +24,21 @@
   source_kind: market_signal
   tier: independent
   fact: 美观且支持实时更新的架构图，也能用AI一键生成了！
+- id: ev-e0c02f66c198c6f1
+  project_slug: github-3
+  url: https://www.v2ex.com/t/1239013
+  title: '[开源] Subpool：面向团队的轻量化 Coding 订阅管理'
+  published_at: '2026-09-02T11:04:05Z'
+  collected_at: '2026-09-02T14:31:36Z'
+  source_kind: product
+  tier: independent
+  fact: "## 项目地址\r\nhttps://github.com/gesta-run/subpool\r\n, 兄弟们，求 Star, tar, ar, r...\r\n\r\n\r\n##\
+    \ 背景\r\n\r\n最近在做团队内部的 AI 订阅管理，遇到几个比较实际的问题：\r\n\r\n- 团队有多份 Codex 或 API 账号，缺少统一管理入口\r\n- 不清楚成员的被分配到了哪个账号\r\
+    \n- 账号额度、健康状态和使用情况比较分散\r\n- 部分成员用量较高时，需要人工切换账号\r\n\r\n因此做了 Subpool 。\r\n![img]( https://raw.githubusercontent.com/gesta-run/subpool/refs/heads/main/docs/images/subpool-accounts-console.png)\r\
+    \n\r\nSubpool 是一个面向团队的轻量化 AI 订阅管理工具。管理员可以接入团队有权使用的 Codex 或 OpenAI-compatible 账号，组成 Pool ，再给成员分配独立\
+    \ API Key 。\r\n\r\n目前支持：\r\n\r\n- Codex Device Code 授权\r\n- 多订阅账号统一接入\r\n- Pool 化管理和请求路由\r\n- 团队成员独立\
+    \ API Key\r\n- Key 与上游账号分配关系\r\n- 账号健康、额度和冷却状态\r\n- Token 用量统计\r\n- Responses 、Chat Completions 和\
+    \ Models API\r\n- Codex 与 API 账号混合池\r\n- Docker Compose 自托管\r\n\r\nSubpool 不保存 Prompt 、回复或源代码，只记录账号分配、路由状态和\
+    \ Token 用量。\r\n\r\n技术上是一个 Go 服务，内嵌 React 控制台，使用 PostgreSQL ，部署比较简单。\r\n\r\n市面上已经有 sub2api 。Subpool\
+    \ 不打算做功能上的重复竞争，定位更偏团队内部管理：不做支付、套餐和 Key 售卖，重点解决订阅接入、成员分配、容量治理和使用审计。\r\n\r\n简单来说：\r\n\r\n> Subpool 想做的是团队\
+    \ AI 订阅的管理层，而不是另一个卖 Key 平台。\r\n\r\n\r\n\r\n欢迎体验，也想听听大家的意见：团队订阅管理场景里，还缺哪些关键能力？"

@@ -20,16 +20,16 @@ url: https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report
 canonical_url: https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report
 summary: Interactive web-native Bloom technical report
 first_seen: '2026-09-01T16:50:24Z'
-last_seen: '2026-09-02T00:14:52Z'
+last_seen: '2026-09-02T14:32:02Z'
 status: pending_filter
 sources:
 - huggingface
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/jasperai/t2i-technical-interactive-report
-  seen_at: '2026-09-02T00:14:52Z'
+  seen_at: '2026-09-02T14:32:02Z'
   metrics:
-    likes: 2
+    likes: 3
   kind: product
 ---
 

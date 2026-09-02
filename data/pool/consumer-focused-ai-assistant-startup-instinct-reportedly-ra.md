@@ -24,8 +24,8 @@ url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYU9IbWN6RVg0dWFUdkplZj
 canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYU9IbWN6RVg0dWFUdkplZjUwQ21fV2JNendIX0RyV0JseUJuTjhtRVdkV09JVVVxQWNGd3kxRWktbTEzWmhWMXNYS1I5OHd2Vl9FX0FBTnZmaC1vWER2UklxUENFUFRycnBUMU1qNFhnaVRXMjk2T1JGek9SbzZEb0NUaW9HNHd6S0ZpaDltQmdFMkloRlZKYWlQRVpqT0JvcDd3OUYzRjMtNEk?oc=5
 summary: Consumer-focused AI assistant startup Instinct reportedly raising $250M SiliconANGLE
 first_seen: '2026-08-27T22:27:00Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: watching
+last_seen: '2026-09-02T14:32:07Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -52,6 +52,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiekFVX3lxTFBxRndkb0l0cEk0TjVUSEhITkI0RHlCUEUzVUZZZzgxU01jZmxjeDhSS0FYNHl1V1MxaUsxUXlRSEM4VkJTZGoxUGZPWFdqdWJaUEE2bHBOb0szTkxkLUZ1bnR3cnVGWVRVZzJaWmVtVXFHZktfazR0T1VR?oc=5
   seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQMkZabTRDUUY0N2ZKem9ZM05TYVg2RkJlSE5kODBVbGY1RWRhWFBVNi1KdDNoOEoxXzFkM3MtZkZnYjVyM1JjSlJXWlFfLVR4NTVGMGM1Rk9iOHN3NWdfYVZVamRReXpCemxiSjg5OEZQT2NmQjVGa2dCVVF6dUNpbFpLY2lXTWc4TjJOMjdR?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
 ---

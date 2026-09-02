@@ -20,17 +20,17 @@ url: https://newtonsorchard.app
 canonical_url: https://newtonsorchard.app
 summary: Browser-based space/gravity playground
 first_seen: '2026-09-01T16:43:40Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://newtonsorchard.app
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 15
-    comments: 1
+    points: 26
+    comments: 3
   kind: product
 ---
 

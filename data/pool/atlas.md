@@ -20,17 +20,17 @@ url: https://www.worldlabs.ai/blog/atlas
 canonical_url: https://worldlabs.ai/blog/atlas
 summary: A World Model for Spatial Intelligence
 first_seen: '2026-09-01T17:36:02Z'
-last_seen: '2026-09-02T00:14:31Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.worldlabs.ai/blog/atlas
-  seen_at: '2026-09-02T00:14:31Z'
+  seen_at: '2026-09-02T14:31:39Z'
   metrics:
-    points: 135
-    comments: 31
+    points: 239
+    comments: 55
   kind: news
 ---
 

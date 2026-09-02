@@ -30,16 +30,16 @@ canonical_url: https://leenkcool.github.io
 summary: 🐋 DeepSeek Harness 插件总目录 · The catalog of DSH plugins：1958 个仓库 / 1819 个真插件（Skills · MCP · Tools
   · UI · Orchestration），中英文搜索、分类筛选、STAR 排序 → leenkcool.github.io
 first_seen: '2026-08-13T14:34:04Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-02T14:31:42Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://leenkcool.github.io
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-02T14:31:42Z'
   metrics:
-    stars: 189
+    stars: 190
     forks: 70
     open_issues: 0
   kind: product

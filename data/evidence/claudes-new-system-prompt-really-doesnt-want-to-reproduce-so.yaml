@@ -1,0 +1,19 @@
+- id: ev-c772c48a022088a8
+  project_slug: claudes-new-system-prompt-really-doesnt-want-to-reproduce-so
+  url: https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/
+  title: Claude's new system prompt really doesn't want to reproduce song lyrics
+  published_at: '2026-09-02T14:16:42Z'
+  collected_at: '2026-09-02T14:32:03Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Anthropic  publish the system prompts  for their Claude consumer applications ( Claude.ai  and\
+    \ the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I  love  that they do this,\
+    \ and that they share not just the current prompts but historic changes to their prompts as well.\
+    \ \n\n They used to keep all of the prompts on a single page, but when I checked today I noticed they\
+    \ had re-arranged those prompts into an  index page  and then a page per model - here's the  page\
+    \ for Haiku 4.5  for example, which has the original prompt from October 15th 2025 and an updated\
+    \ prompt from January 18th 2026. \n A neat thing about Anthropic's  platform.claude.com/docs  site\
+    \ is that it's designed to be usable by LLMs. You can add  .md  to any page to get back the content\
+    \ as Markdown - here's  the system prompt index page  and  the Markdown prompts for Fable 5.1 . \n\
+    \ TL;DR: this makes it really easy to diff the prompts. \n\n\n \n    Don't reproduce song lyrics \
+    \ \n    Don't draw copyrighted characters"

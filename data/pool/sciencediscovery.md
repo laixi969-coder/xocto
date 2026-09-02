@@ -23,17 +23,17 @@ summary: ScienceDiscovery is an all‑in‑one AI research workstation built spe
   workflow of "literature reading, hypothesis formulation, code writing, experimental trial‑and‑error,
   and parameter tuning" in a single place.
 first_seen: '2026-08-14T09:38:06Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-02T14:31:42Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openJiuwen-ai/sciencediscovery
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-02T14:31:42Z'
   metrics:
     stars: 46
-    forks: 9
+    forks: 10
     open_issues: 1
   kind: product
 ---

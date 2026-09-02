@@ -1,0 +1,41 @@
+---
+slug: ajj-1h2026-healthcare-products-before-ai-robotics
+name: 'AJJ 1H2026: Healthcare Products Before AI Robotics'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMipgNBVV95cUxPRFpZWVJza3RKSzN0b2FEQm1JQWdZamQxcmtOR2RZYXF6WTlIM0ZjMDNBeEFvNXlLMjlQMWhva3FLUjRUWXo4NDJ4Q3V4Tk1mZ2czNDNGb2JxbWJOWmJhUjhFeDZKb1F5MlQ5T1BnSlJLS19qNVVsSGVXUWF3SzV4V0s4dXdRMk5OdUV2bHEyNnR0NnJvaW5ZczZaWnNCM3o5MTA3bTVidElBWlRfbGs0eTVXYlZxTndlTnRDSkZXV0tvdWl1SWYyQXdDTWtvZ1pfcGprLXFVakdHZVZHZWVENzltb21aVDBBX0Z2VGRMODg4NkF0VUl0U3lFYjdFendKNk01RFZQLTJhNGxub19RdVUzbWF0SmlWTWZlaVUteGxOWGJzd1k0QzBuaE1nc2xIMUk5NnRITUIydlp6aDNzM0NNVXNMY19CYjRFbHBKaTRpMHZ5Q3Y1eVZMR0R5VnZ0RFhUZjUwaFZwWlVZVFdiQnZ6aXU1NE51SE1DVmFwamFBRXhQMkxnOEJSQzFKODVzUUsyODFQUzRnLUItMjFSV0dtY1M0Zw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMipgNBVV95cUxPRFpZWVJza3RKSzN0b2FEQm1JQWdZamQxcmtOR2RZYXF6WTlIM0ZjMDNBeEFvNXlLMjlQMWhva3FLUjRUWXo4NDJ4Q3V4Tk1mZ2czNDNGb2JxbWJOWmJhUjhFeDZKb1F5MlQ5T1BnSlJLS19qNVVsSGVXUWF3SzV4V0s4dXdRMk5OdUV2bHEyNnR0NnJvaW5ZczZaWnNCM3o5MTA3bTVidElBWlRfbGs0eTVXYlZxTndlTnRDSkZXV0tvdWl1SWYyQXdDTWtvZ1pfcGprLXFVakdHZVZHZWVENzltb21aVDBBX0Z2VGRMODg4NkF0VUl0U3lFYjdFendKNk01RFZQLTJhNGxub19RdVUzbWF0SmlWTWZlaVUteGxOWGJzd1k0QzBuaE1nc2xIMUk5NnRITUIydlp6aDNzM0NNVXNMY19CYjRFbHBKaTRpMHZ5Q3Y1eVZMR0R5VnZ0RFhUZjUwaFZwWlVZVFdiQnZ6aXU1NE51SE1DVmFwamFBRXhQMkxnOEJSQzFKODVzUUsyODFQUzRnLUItMjFSV0dtY1M0Zw?oc=5
+summary: 'AJJ 1H2026: Healthcare Products Before AI Robotics Moomoo'
+first_seen: '2026-09-02T01:59:34Z'
+last_seen: '2026-09-02T14:32:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipgNBVV95cUxPRFpZWVJza3RKSzN0b2FEQm1JQWdZamQxcmtOR2RZYXF6WTlIM0ZjMDNBeEFvNXlLMjlQMWhva3FLUjRUWXo4NDJ4Q3V4Tk1mZ2czNDNGb2JxbWJOWmJhUjhFeDZKb1F5MlQ5T1BnSlJLS19qNVVsSGVXUWF3SzV4V0s4dXdRMk5OdUV2bHEyNnR0NnJvaW5ZczZaWnNCM3o5MTA3bTVidElBWlRfbGs0eTVXYlZxTndlTnRDSkZXV0tvdWl1SWYyQXdDTWtvZ1pfcGprLXFVakdHZVZHZWVENzltb21aVDBBX0Z2VGRMODg4NkF0VUl0U3lFYjdFendKNk01RFZQLTJhNGxub19RdVUzbWF0SmlWTWZlaVUteGxOWGJzd1k0QzBuaE1nc2xIMUk5NnRITUIydlp6aDNzM0NNVXNMY19CYjRFbHBKaTRpMHZ5Q3Y1eVZMR0R5VnZ0RFhUZjUwaFZwWlVZVFdiQnZ6aXU1NE51SE1DVmFwamFBRXhQMkxnOEJSQzFKODVzUUsyODFQUzRnLUItMjFSV0dtY1M0Zw?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+---
+
+# AJJ 1H2026: Healthcare Products Before AI Robotics
+
+AJJ 1H2026: Healthcare Products Before AI Robotics Moomoo
+
+## 笔记
+
+

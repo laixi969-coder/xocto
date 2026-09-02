@@ -1,0 +1,41 @@
+---
+slug: wrtn-technologies-begins-selecting-ipo-underwriter
+name: Wrtn Technologies begins selecting IPO underwriter
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUkpiWGM2bEFMbUQzakVleE9QeWhoVVRKdjNmS0lvb3ZVcWdzTmlzeUVxcm56THl3X2ZjS1MzUUNKS0VrUmFoS3N5cWVoOC1mWGZ3SkwxQ2N5cE41d084TmE0MXFvRkpwOW1xbWJyMURId0FocUpIQzc0LUpkRWZaMC1KZ3lsVWY5eG9YNXAtRzVrMWM4aTBsQS1UVGlrOGhzOHpaSE9nM0ZOUDTSAbABQVVfeXFMTWgtRFRXamxtMVRGZkpwTEhjbTVBWjQ1UVBVckpwZ0ROWGdLNmk1cXpQeDJ2aVA3cEpZc0didFdPSUFZWlJTdXYwcWtIV1RtV2ExM1VrTk9rZXNZcmVsb3JKYTI4c2VUcmpnVGNIMzNWQmViVklaV25Hb2JCTkJNOUFmR2N5QkZ6QXcyRGpFRTJBT3BkTlhqOS15SzlxbXFYdklFRnBIYklUUmotZHZ0VXM?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUkpiWGM2bEFMbUQzakVleE9QeWhoVVRKdjNmS0lvb3ZVcWdzTmlzeUVxcm56THl3X2ZjS1MzUUNKS0VrUmFoS3N5cWVoOC1mWGZ3SkwxQ2N5cE41d084TmE0MXFvRkpwOW1xbWJyMURId0FocUpIQzc0LUpkRWZaMC1KZ3lsVWY5eG9YNXAtRzVrMWM4aTBsQS1UVGlrOGhzOHpaSE9nM0ZOUDTSAbABQVVfeXFMTWgtRFRXamxtMVRGZkpwTEhjbTVBWjQ1UVBVckpwZ0ROWGdLNmk1cXpQeDJ2aVA3cEpZc0didFdPSUFZWlJTdXYwcWtIV1RtV2ExM1VrTk9rZXNZcmVsb3JKYTI4c2VUcmpnVGNIMzNWQmViVklaV25Hb2JCTkJNOUFmR2N5QkZ6QXcyRGpFRTJBT3BkTlhqOS15SzlxbXFYdklFRnBIYklUUmotZHZ0VXM?oc=5
+summary: Wrtn Technologies begins selecting IPO underwriter The Korea Times
+first_seen: '2026-09-02T05:42:03Z'
+last_seen: '2026-09-02T14:32:07Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUkpiWGM2bEFMbUQzakVleE9QeWhoVVRKdjNmS0lvb3ZVcWdzTmlzeUVxcm56THl3X2ZjS1MzUUNKS0VrUmFoS3N5cWVoOC1mWGZ3SkwxQ2N5cE41d084TmE0MXFvRkpwOW1xbWJyMURId0FocUpIQzc0LUpkRWZaMC1KZ3lsVWY5eG9YNXAtRzVrMWM4aTBsQS1UVGlrOGhzOHpaSE9nM0ZOUDTSAbABQVVfeXFMTWgtRFRXamxtMVRGZkpwTEhjbTVBWjQ1UVBVckpwZ0ROWGdLNmk1cXpQeDJ2aVA3cEpZc0didFdPSUFZWlJTdXYwcWtIV1RtV2ExM1VrTk9rZXNZcmVsb3JKYTI4c2VUcmpnVGNIMzNWQmViVklaV25Hb2JCTkJNOUFmR2N5QkZ6QXcyRGpFRTJBT3BkTlhqOS15SzlxbXFYdklFRnBIYklUUmotZHZ0VXM?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+---
+
+# Wrtn Technologies begins selecting IPO underwriter
+
+Wrtn Technologies begins selecting IPO underwriter The Korea Times
+
+## 笔记
+
+

@@ -30,7 +30,7 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-01T14:56:29Z'
+last_seen: '2026-09-02T14:32:03Z'
 status: pending_filter
 sources:
 - newssearch
@@ -59,6 +59,16 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/01/xorlab-secures-eur5m-to-scale-its-email-security-platform-across-europe/
   seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/
+  seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/02/conveo-raises-50m-to-scale-its-ai-powered-consumer-intelligence-platform/
+  seen_at: '2026-09-02T14:32:03Z'
   metrics: {}
   kind: news
 ---

@@ -37,8 +37,8 @@ url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNQm0tUEpLVGV6N2hlSXVMbG
 canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNQm0tUEpLVGV6N2hlSXVMbG1jOWlIMWQ3ZDFIdTc2d2Y2RlJ3M0w1NG0wMTR2V0NqN0dqOUJmaGx2TVBHOEdBRzM0ckt4MjJMeWUzWlc2YWRRVmFyX0Eya21WX3FLM0ZDZHBHVEo4NHo3ZHRuclFqSjhTT1VBLVpDY29Jd3dRSWpxbmtjSzVR?oc=5
 summary: 企业AI落地没有标准答案 每日互动打出“本地化”组合拳 新浪网
 first_seen: '2026-08-27T07:20:15Z'
-last_seen: '2026-09-01T01:18:43Z'
-status: queued
+last_seen: '2026-09-02T14:32:07Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -55,6 +55,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sLWo3U0s3M2hjLTFNZEx0Q1lFaWRlOS1NNkI2TEgydVlESVY1WldLRzl3a2RjeTU1S2dZM1VOZEJvc3FpUnZtb1hqQmlZR1psSGVDeDJDR3hLMXAtWTczTlJwN0I?oc=5
   seen_at: '2026-09-01T01:18:43Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE81RFV4UWtCczdfOHBhZGNxVDZneFBxUnJGRHRGZ1NlWnQ5UzRheHVDSUxCeHlVcW9VY3lPYXhocURlLWVjSnVSZzdBTQ?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
 ---

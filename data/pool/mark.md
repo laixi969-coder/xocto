@@ -31,7 +31,7 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-02T00:14:54Z'
+last_seen: '2026-09-02T14:32:07Z'
 status: pending_filter
 sources:
 - hackernews
@@ -83,6 +83,33 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/
   seen_at: '2026-09-02T00:14:54Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://lithub.com/enough-an-open-letter-from-jewish-creatives-and-thinkers-in-defense-of-mark-ruffalo/
+  seen_at: '2026-09-02T14:31:39Z'
+  metrics:
+    points: 24
+    comments: 2
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/02/adobe-acquires-indian-market-intelligence-startup-rilo/
+  seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ0RYYVlTa1UzNXFtcGpnaVBKbDR4akh3TzBlOWJ5OEk0UWw3cnVac2s2Vjl1MDRuXzRzazduckFNYlBDbmt2OW15RzQ5a3JsbXUyUTdNaWZ3MWgxSTVFX1BfMFhYa2JzTWRDbkVlaGktY1FITEZIVjVHekh0WXdGZExZcUFlSkx5RkJPQjIyalkxMjNvVXZuUjV2WFBMVUc4MlNfQ2dIYXBNQTJ2V2Y4Q0Z0SVc5eVFtdkFXRTB5d2lwN2YzeDY0Nmo1M0pQbFFyYmc?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipgFBVV95cUxQc19yek52YmR2Y3VPSDBqMTVHMVQ5Vi0zNFZzWG1FVzYwTzFFblpfbVMtcGQ1Ty1BWXJNNWhRdGxrT3R3TlNVamdMM3ZVYTF0d3pFUVdYU212UW4xNGlXTmdDaTQ3dVRSY0tLenFnVFpDbjRvOXVCUFBmV2Z0NmQzOW11dkdMMTROQi1SWlZzc1lQUGxMZlUzay1vWkdfTi1ORmJ6Skt3?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNcnp4Y01ySWFxUHoxVElfcWw2eGVCT1lsTW0yZW9kbTZneFFiNTNIV0pheVpNRXdUblJnaEtlVWU3NTljbUgwd2I4ZnhnNEhtVEZkaUh0bkJ3clpQV25WenQyUjF0WkZ5eW5TSjhfSzRjR0tFZWs5MEduejRMdEk3Zk1GdUdkTGs3Y1NBR2pJeEJqa2ktSUxTeF96T1NRM043SHEtbzluWHRDSEh3?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
 ---

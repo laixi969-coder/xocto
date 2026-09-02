@@ -1,0 +1,13 @@
+- id: ev-0bb19e8d277e3312
+  project_slug: datasette-mcp-02
+  url: https://simonwillison.net/2026/Sep/1/datasette-mcp/
+  title: datasette-mcp 0.2
+  published_at: '2026-09-01T15:30:12Z'
+  collected_at: '2026-09-02T14:32:03Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Release:   datasette-mcp 0.2  \n         \n \n  \"rows\"  from  execute_sql  is now an array\
+    \ of objects. Previously it was an array of arrays. This should help weaker models avoid losing track\
+    \ of which positional array element maps to which column.  #1  \n Now depends on  mcp>=2.1.1 . \n\
+    \ \n \n This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using\
+    \ it quite a bit myself. \n    \n    \n         Tags:  datasette ,  model-context-protocol"

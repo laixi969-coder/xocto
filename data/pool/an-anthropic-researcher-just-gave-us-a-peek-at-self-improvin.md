@@ -22,8 +22,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-01T01:18:41Z'
-status: market_context
+last_seen: '2026-09-02T14:32:07Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -56,6 +56,11 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/tech-policy/2026/08/zlibrary-my-beloved-anthropic-staff-chats-extolling-piracy-cited-in-sony-suit/
   seen_at: '2026-09-01T01:18:41Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilgFBVV95cUxPbUUtU2RRVXFnRUlGVF9VN1hNNC1WRTgtVmZENWlFRklTT0NZT3haYWF4U2VPSFU2SGhfWkhhenVkY3ViWjhGVkJmbm5ZS3FqVG12UDh6a3ZLeVFscFdNaTFMMWtRYkdRQVRBYXhRQkxCOUZEWDVXM1VQZVFDZUh6eHpoQ1NuT3ZXMC02WUN0c01BajJ0Mmc?oc=5
+  seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
 ---

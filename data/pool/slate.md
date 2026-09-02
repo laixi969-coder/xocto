@@ -35,13 +35,14 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   production-ready prompts for any image, video, music, or voice generator. No API keys. Suggested Donation
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
-last_seen: '2026-09-02T00:14:53Z'
+last_seen: '2026-09-02T14:31:39Z'
 status: pending_filter
 sources:
 - github
 - marketfeeds
 - newssearch
 - officialfeeds
+- hackernews
 sightings:
 - source: github
   url: https://github.com/wassermanproductions/slate
@@ -75,6 +76,13 @@ sightings:
   url: https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/
   seen_at: '2026-09-02T00:14:53Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theguardian.com/books/2026/sep/01/emily-wilson-to-retranslate-the-odyssey-from-scratch-christopher-nolan
+  seen_at: '2026-09-02T14:31:39Z'
+  metrics:
+    points: 20
+    comments: 15
   kind: news
 ---
 
