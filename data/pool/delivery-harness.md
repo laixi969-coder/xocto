@@ -20,17 +20,17 @@ url: https://github.com/diudiu-tech/delivery-harness
 canonical_url: https://github.com/diudiu-tech/delivery-harness
 summary: AI harness reference implementation for on-demand delivery workflows
 first_seen: '2026-08-13T08:38:58Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-02T00:14:35Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/diudiu-tech/delivery-harness
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-02T00:14:35Z'
   metrics:
-    stars: 1001
-    forks: 55
+    stars: 1143
+    forks: 57
     open_issues: 9
   kind: product
 ---

@@ -31,7 +31,7 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-01T14:56:33Z'
+last_seen: '2026-09-02T00:14:54Z'
 status: pending_filter
 sources:
 - hackernews
@@ -78,6 +78,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNMFBGSWR1cjBWOEkybnRydF9SR1lkNDQwa04xdzJUSU9KVzl5ZEdsc1hFRXoxMjBuOXQ0RUUyRWU1bk5OamloOVNNOGxfSHVqcDhzbms1NWNSSXFHcWFaaXEtZDF2UEdWNkh3UU9GODQ0OHhHZXhpTzd0Mm5qZ1FnS0dTUTE1b2wxa1l6NWlOWi0?oc=5
   seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/
+  seen_at: '2026-09-02T00:14:54Z'
   metrics: {}
   kind: news
 ---

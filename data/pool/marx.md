@@ -20,17 +20,17 @@ url: https://www.unpopularfront.news/p/marx-keynes-and-ai
 canonical_url: https://unpopularfront.news/p/marx-keynes-and-ai
 summary: Keynes, and AI
 first_seen: '2026-08-31T14:36:03Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-02T00:14:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.unpopularfront.news/p/marx-keynes-and-ai
-  seen_at: '2026-09-01T14:55:58Z'
+  seen_at: '2026-09-02T00:14:31Z'
   metrics:
-    points: 56
-    comments: 89
+    points: 58
+    comments: 91
   kind: news
 ---
 

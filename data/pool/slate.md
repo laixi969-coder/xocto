@@ -35,12 +35,13 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   production-ready prompts for any image, video, music, or voice generator. No API keys. Suggested Donation
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
-last_seen: '2026-09-01T14:56:29Z'
+last_seen: '2026-09-02T00:14:53Z'
 status: pending_filter
 sources:
 - github
 - marketfeeds
 - newssearch
+- officialfeeds
 sightings:
 - source: github
   url: https://github.com/wassermanproductions/slate
@@ -68,6 +69,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/neko-health-tops-2026-nordics-ranking/
   seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/
+  seen_at: '2026-09-02T00:14:53Z'
   metrics: {}
   kind: news
 ---

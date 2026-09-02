@@ -33,8 +33,8 @@ url: https://www.producthunt.com/products/workflo-2
 canonical_url: https://producthunt.com/products/workflo-2
 summary: Mac workspace automation that never sees your screen
 first_seen: '2026-08-08T22:35:22Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: rejected
+last_seen: '2026-09-02T00:14:57Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
@@ -71,6 +71,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMTV0a3lyOFZDVjc4bEd1dFpjRzFfOGpmem1BMzc1MmpDSzNKMzlUSzkwV3MxQ05BSGtaZXBTcHA4ZTBiYnF0WldBaWZ2c0JkdDY5S2J3WTllbEktdE95b2VQMWl1MTJwOXdhTEh4aGJacXhqUGtqcFhaVHlGTTh1c1VQVE5HdWVyUzVXZ2lDLW4tV214YWNvaFBlN2pfcVpDSDlGM0F6T24ycGZJbXRxNGJSX19yNXRVaWRtRXhOWm5TVnFkZVE1SEMwcGM3WnRZMVZkRjlpWjBVQkZ3SF9PSnFGZw?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqgJBVV95cUxNMHd4ZTJRRXJvUGtIN3dkX3dhb2VrbU5pZlNTUXk0RWx6aTBSN2pFeWE2NjlYcUd1VTF5czVIUTE4dC01TUdlc0V1RG1KVlFPbk83MGIxQVQ1SkhiV3B3LTRqSXdsdHhra0FUdDF3a0pqdW5QejFCQ2tSYzFVX21meTZSRjRiSFd4M3pBNlUxZTBZTjZFMGNxdkFWdGlwQzc2SXg0bVJWaUc1SHZYZW9CSWZETWx5Rnp0YldCOXZEOC1EdVJGUmFUTW9EZjdaSGI4ZXVOYlZoWnR4QmFTbHJhaU1jMVpKa3M4YnNPa3RiWFhrRlNjckRta3lPdTdIZVVMTmd3RTdqT1ZXamxkNk1FTk9lTVhPYm10RWVxZUVrTGt4ck9nV2p3UlZn?oc=5
+  seen_at: '2026-09-02T00:14:57Z'
   metrics: {}
   kind: news
 ---

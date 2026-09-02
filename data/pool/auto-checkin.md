@@ -21,16 +21,16 @@ canonical_url: https://github.com/d4ncboz/auto-checkin
 summary: Autonomous multi-account daily check-in toolkit for GoRouter, Tabi AI, and JustDoWork with automated
   YesCaptcha Turnstile bypass.
 first_seen: '2026-08-25T16:43:06Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-02T00:14:35Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/d4ncboz/auto-checkin
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-02T00:14:35Z'
   metrics:
-    stars: 70
+    stars: 72
     forks: 5
     open_issues: 0
   kind: product

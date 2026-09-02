@@ -24,7 +24,7 @@ url: https://www.producthunt.com/products/almanac-5
 canonical_url: https://producthunt.com/products/almanac-5
 summary: The agent with a second brain
 first_seen: '2026-08-27T20:43:25Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-02T00:14:31Z'
 status: watching
 sources:
 - producthunt
@@ -37,9 +37,9 @@ sightings:
   kind: product
 - source: hackernews
   url: https://usealmanac.com/
-  seen_at: '2026-09-01T14:55:58Z'
+  seen_at: '2026-09-02T00:14:31Z'
   metrics:
-    points: 56
+    points: 57
     comments: 47
   kind: product
 ---

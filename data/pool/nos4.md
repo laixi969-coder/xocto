@@ -20,7 +20,7 @@ url: https://www.producthunt.com/products/nos4
 canonical_url: https://producthunt.com/products/nos4
 summary: A complete IOS4 experience in your browser!
 first_seen: '2026-08-31T22:17:59Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-02T00:14:31Z'
 status: pending_filter
 sources:
 - producthunt
@@ -33,10 +33,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://nos4.fun/
-  seen_at: '2026-09-01T14:55:58Z'
+  seen_at: '2026-09-02T00:14:31Z'
   metrics:
     points: 5
-    comments: 0
+    comments: 1
   kind: product
 ---
 

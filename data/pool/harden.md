@@ -33,7 +33,7 @@ url: https://harden.run/blog/aif-research-and-evidence
 canonical_url: https://harden.run/blog/aif-research-and-evidence
 summary: Beating GPT5.5-xhigh for Coding agent security with SLMs and IRM
 first_seen: '2026-08-27T22:33:19Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-02T00:14:31Z'
 status: pending_filter
 sources:
 - hackernews
@@ -47,9 +47,9 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.cppstories.com/2026/hardening-experiments/
-  seen_at: '2026-09-01T14:55:58Z'
+  seen_at: '2026-09-02T00:14:31Z'
   metrics:
-    points: 84
+    points: 89
     comments: 53
   kind: news
 ---

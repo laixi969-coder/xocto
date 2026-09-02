@@ -28,16 +28,16 @@ canonical_url: https://github.com/zc8163623/DualForge-Workflow
 summary: Dual AI Collaboration Framework Builder - Establish clear division of labor between Claude +
   Codex
 first_seen: '2026-08-15T17:58:17Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-02T00:14:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zc8163623/DualForge-Workflow
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-02T00:14:35Z'
   metrics:
-    stars: 113
+    stars: 118
     forks: 5
     open_issues: 0
   kind: product

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YXp5SDJUTldFVG9WV0RVVG
 canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YXp5SDJUTldFVG9WV0RVVGZkczZtajdVTG4yWWN5d1dKRTQzYnJOZ3JpNXFVRzQzai1hQVhOSDhlenFpWDg0MzRXNDhGS0N1RFQ5WTc4cG13UQ?oc=5
 summary: CrowdStrike推出AI合作伙伴专项计划 拓展企业AI部署安全生态 Moomoo
 first_seen: '2026-09-01T06:28:00Z'
-last_seen: '2026-09-01T14:56:33Z'
+last_seen: '2026-09-02T00:14:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YXp5SDJUTldFVG9WV0RVVGZkczZtajdVTG4yWWN5d1dKRTQzYnJOZ3JpNXFVRzQzai1hQVhOSDhlenFpWDg0MzRXNDhGS0N1RFQ5WTc4cG13UQ?oc=5
   seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE03ZDlkUWlaeVJEWUhJNUZQVkpqZ3BESVRIR01tRkZKWUU2RF9sOGJ1U0pSamYwdEZRZ2FybGFaTFVHQTB1dTZic0dOYUd0alFoU2hERG04RXlwRzhtNG1JN09n?oc=5
+  seen_at: '2026-09-02T00:14:57Z'
   metrics: {}
   kind: news
 ---

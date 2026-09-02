@@ -20,17 +20,17 @@ url: https://corporatemindgames.com/
 canonical_url: https://corporatemindgames.com
 summary: logic puzzles with a sarcastic corporate theme
 first_seen: '2026-08-31T16:08:08Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-02T00:14:31Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://corporatemindgames.com/
-  seen_at: '2026-09-01T14:55:58Z'
+  seen_at: '2026-09-02T00:14:31Z'
   metrics:
     points: 48
-    comments: 14
+    comments: 15
   kind: product
 ---
 

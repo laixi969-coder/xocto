@@ -38,16 +38,16 @@ summary: Open-source SEO + GEO skills for Claude — keyword research, rank trac
   competitor gaps, AI visibility. Runs on your real Search Console / GA4 / ads data via MCP, with DataForSEO
   built in. Free, MIT.
 first_seen: '2026-08-29T23:37:01Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-02T00:14:35Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://get-ryze.ai
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-02T00:14:35Z'
   metrics:
-    stars: 232
+    stars: 255
     forks: 2
     open_issues: 0
   kind: product

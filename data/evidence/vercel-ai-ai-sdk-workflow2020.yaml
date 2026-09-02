@@ -1,0 +1,12 @@
+- id: ev-32b5272be733e097
+  project_slug: vercel-ai-ai-sdk-workflow2020
+  url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/workflow%402.0.20
+  title: 'vercel/ai: @ai-sdk/workflow@2.0.20'
+  published_at: '2026-09-01T18:52:54Z'
+  collected_at: '2026-09-02T00:14:35Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Patch Changes
+
+
+    - 85d2081: fix(workflow): preserve configured tool and runtime context types in stop conditions'

@@ -34,7 +34,7 @@ url: https://www.producthunt.com/products/hflow
 canonical_url: https://producthunt.com/products/hflow
 summary: Scalable multimodal data pipelines for robotics
 first_seen: '2026-08-26T08:01:50Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-02T00:14:31Z'
 status: queued
 sources:
 - producthunt
@@ -47,9 +47,9 @@ sightings:
   kind: product
 - source: hackernews
   url: https://github.com/Hebbian-Robotics/hflow
-  seen_at: '2026-09-01T14:55:58Z'
+  seen_at: '2026-09-02T00:14:31Z'
   metrics:
-    points: 44
+    points: 46
     comments: 12
   kind: product
 ---

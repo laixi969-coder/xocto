@@ -33,14 +33,19 @@ url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFlGbHJieW9QQkVNOHJoOD
 canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFlGbHJieW9QQkVNOHJoODVrQWRVSTY2RlhJTWdtUjRpUzJwLWVzdkg3OGZ2d1pZWUd1ZklLUnRmS2JvcGNMc0tqUUVlUjNTbElNTHBKQV9tNzMwX2lpQUpPQjVzVmdlMWJrUWZZMVpVb3NEbWpFdDRQQnozUzZhRGxOQlJTZE50UkR4U0dTUDQyX1JXbENNQ3NIekZuUmJmcjZ5MjhIc3dKamh0OXVDVUc2NUhPd05f?oc=5
 summary: Harvard Law dropout raises $6M for Blue Voice to build a ‘Harvey for police officers’ TechCrunch
 first_seen: '2026-08-31T18:35:11Z'
-last_seen: '2026-09-01T01:18:43Z'
-status: queued
+last_seen: '2026-09-02T00:14:57Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFlGbHJieW9QQkVNOHJoODVrQWRVSTY2RlhJTWdtUjRpUzJwLWVzdkg3OGZ2d1pZWUd1ZklLUnRmS2JvcGNMc0tqUUVlUjNTbElNTHBKQV9tNzMwX2lpQUpPQjVzVmdlMWJrUWZZMVpVb3NEbWpFdDRQQnozUzZhRGxOQlJTZE50UkR4U0dTUDQyX1JXbENNQ3NIekZuUmJmcjZ5MjhIc3dKamh0OXVDVUc2NUhPd05f?oc=5
   seen_at: '2026-09-01T01:18:43Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTE1nWDNoaUNkS2o2c1lMSDk1UnFFUVRhWWoxQk50eXJySm5ucGRRcHNiZE5UNm52eWd6eTEtWEh1OFRUTkdVckVsamZGNHFPOU9qVU5lMlBOSFhWTzFlVEluNkZBbGhFNjA5TUhsRnRKTmZtZ212?oc=5
+  seen_at: '2026-09-02T00:14:57Z'
   metrics: {}
   kind: news
 ---

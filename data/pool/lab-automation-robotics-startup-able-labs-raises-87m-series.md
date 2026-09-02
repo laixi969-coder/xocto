@@ -32,7 +32,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-01T14:56:27Z'
+last_seen: '2026-09-02T00:14:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -51,6 +51,21 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise
   seen_at: '2026-09-01T14:56:27Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://blog.google/products-and-platforms/products/workspace/google-pics/
+  seen_at: '2026-09-02T00:14:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPNy1NbUMzV1ozWUtiLTNTTHJpZDBxWC1IQXpKUUEtYXBPSVpZNFl0dlNlUjczc2hqZnBNS1pWNE5naUVpb0RQS0NqTk9iemRmN2FMaDFtOTFlQjRlVy12NDM4NVVsdFBDbzg3dFJON2djQXk0MFlvdk5kelExUVR4UFo3QlgyVDV4LVhiSGQ5STU2YkZ1aXFrN2szZG5oRHl6ZWc?oc=5
+  seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xajRaQzZKU0pjdlZfS2tjdGs2Snd6SHFiVEJjR0xpRld5aHZuOHZmTEZ2YlFmTWJ4Wk5rdjlpWnFZU1FYV0NOREZEb2tYcnAzV2ZPaQ?oc=5
+  seen_at: '2026-09-02T00:14:57Z'
   metrics: {}
   kind: news
 ---

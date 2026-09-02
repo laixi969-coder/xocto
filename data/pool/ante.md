@@ -28,8 +28,8 @@ url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
-last_seen: '2026-08-31T17:38:50Z'
-status: watching
+last_seen: '2026-09-02T00:14:54Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -44,6 +44,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/08/31/european-tech-weekly-recap-over-eur475m-invested-across-35-deals/
   seen_at: '2026-08-31T17:38:50Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Sep/1/tarn-adams/
+  seen_at: '2026-09-02T00:14:54Z'
   metrics: {}
   kind: news
 ---

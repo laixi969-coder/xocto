@@ -34,11 +34,13 @@ canonical_url: https://aicpb.com/product/Gemini/webid1D6F37519
 summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more.
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: queued
+last_seen: '2026-09-02T00:14:57Z'
+status: pending_filter
 sources:
 - aicpb
 - newssearch
+- officialfeeds
+- marketfeeds
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Gemini/webid1D6F37519
@@ -66,6 +68,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT2dhTE9IQ3FfY1BfX01XNE90VDJkejhTaTdLX0RPQjZ1Q1gtVkFlOS1mTl80NXY0Q0NEdkVDQlRRVG1JNHpmeFk1b0FPdWdNc0NwWVRIaUFqYTdNaVdXUkI4Y2p2VU1YS1hjaHZpdEozbF9CSGF2dDhhX1FPcTMyUThfaDZjRUR6Z3JCTEQ0a3FSbVBXRG9IMXdQakN2T1Zpd21pNVNKNDA0NjlIZHJsU1NodUs1cUJSZFZiMWJIRUtCVGg2MnR0b3dES3h2bV9ONXpTRUlDNnI5aXozekR3?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
+  seen_at: '2026-09-02T00:14:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator
+  seen_at: '2026-09-02T00:14:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmlxbzM1WV8yOTFORHhRVUxWbzMzNkNLZ09EWXBvUFpEcWw1YmpUOTJIUzRLMS1CYzVEc2s1M0dLSE45LVhRX2dPSkcwWkE5YVMzVTI4YVdTZ3NfZWVPTnBIdExnTnNjR1paQ2UyTlZTeGFxSHFVZlV6djBKUnhxX3ZHbGVPZnVDWHNNTmNOTjliVWFyb3g0b2tXMDM?oc=5
+  seen_at: '2026-09-02T00:14:57Z'
   metrics: {}
   kind: news
 ---

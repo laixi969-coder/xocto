@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMickFVX3lxTE9NbjFBVi1VcmR3T1hmSE9wTz
 canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE9NbjFBVi1VcmR3T1hmSE9wTzQ5dlVjQmdtOGU4OHdhelg1SmJhaVlHa3ExODRXbm14S3VEbHFpV21xcmZfS2NzRmpkOUpnRXR0QWEzWW0xVzVxTHphQmgxdU95TTlnSWwzQ0NDYzRsN0tfQQ?oc=5
 summary: 博通VMware私有AI云发布：覆盖基础设施、智能体、数据与安全 至顶网
 first_seen: '2026-09-01T09:58:54Z'
-last_seen: '2026-09-01T14:56:33Z'
+last_seen: '2026-09-02T00:14:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTE9NbjFBVi1VcmR3T1hmSE9wTzQ5dlVjQmdtOGU4OHdhelg1SmJhaVlHa3ExODRXbm14S3VEbHFpV21xcmZfS2NzRmpkOUpnRXR0QWEzWW0xVzVxTHphQmgxdU95TTlnSWwzQ0NDYzRsN0tfQQ?oc=5
   seen_at: '2026-09-01T14:56:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VMGh4cFZPVlg2Zk11SXlyUTdHYmtlb3BUOEs2WEg3Q3pzS1JBSkxyZTBod1RMcjRiT0ktbjUwWEsyZnNmbmdZUDVPbW96LVdIN3c?oc=5
+  seen_at: '2026-09-02T00:14:57Z'
   metrics: {}
   kind: news
 ---
