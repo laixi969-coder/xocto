@@ -64,6 +64,11 @@
   --shadow-card: 0 0 0 1px oklch(20% 0.02 255 / 0.06);
 
   --maxw: 1480px;
+
+  /* Desk alignment: fixed label/name columns (never fluid minmax for these) */
+  --desk-label: 7.5rem; /* longest zh field-k e.g. 机会判断 / 本期为什么值得点开 */
+  --desk-name: 11rem;   /* takeaways/product list name col */
+  --desk-filter-k: 9.5rem;
   --reading: 74ch;
   --gutter: clamp(20px, 4vw, 64px);
   --bar: 48px;
