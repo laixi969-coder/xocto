@@ -1,10 +1,11 @@
+{% from 'icons.html' import ico %}
 <!doctype html>
 <html lang="{{ locale.lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>{% block title %}{{ locale.site_name }} · {{ locale.site_tagline }}{% endblock %}</title>
 {# 每页各自的摘要。原来 163 个页面共用同一句，对搜索引擎等于没有描述 #}
 <meta name="description" content="{{ description }}">
@@ -50,15 +51,19 @@
       <span class="brand-tag">{{ locale.site_tagline }}</span>
     </div>
     <nav class="nav">
-      <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">{{ t.nav.home }}</a>
-      <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">{{ t.nav.products }}</a>
-      <a href="{{ root }}takeaways.html" class="{{ 'on' if page == 'takeaways' }}">{{ t.nav.takeaways }}</a>
+      <a href="{{ root }}index.html" class="{{ 'on' if page == 'home' }}">{{ ico('home') }}<span>{{ t.nav.home }}</span></a>
+      <a href="{{ root }}products.html" class="{{ 'on' if page == 'products' }}">{{ ico('grid') }}<span>{{ t.nav.products }}</span></a>
+      <a href="{{ root }}takeaways.html" class="{{ 'on' if page == 'takeaways' }}">{{ ico('bookmark') }}<span>{{ t.nav.takeaways }}</span></a>
     </nav>
     <div class="top-tools">
       {# lang 属性要标对：读屏遇到「中文」两个字才会切到中文发音 #}
       <a class="lang-btn" href="{{ alt_href }}" lang="{{ alt_locale.lang }}"
-         hreflang="{{ alt_locale.hreflang }}" aria-label="{{ t.lang.aria }}">{{ t.lang.label }}</a>
-      <button class="theme-btn" id="theme-btn" type="button" aria-label="{{ t.theme.aria }}">{{ t.theme.label }}</button>
+         hreflang="{{ alt_locale.hreflang }}" aria-label="{{ t.lang.aria }}">{{ ico('globe') }}<span>{{ t.lang.label }}</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="{{ t.theme.aria }}">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true">{{ ico('sun') }}</span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true">{{ ico('moon') }}</span>
+        <span>{{ t.theme.label }}</span>
+      </button>
     </div>
   </div>
 </div>

@@ -3,106 +3,102 @@
 {% block ogtitle %}{{ product.name }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
-<div class="wrap">
+<div class="wrap product-desk">
 
-  <header class="detail-head">
-    <p class="eyebrow">{{ locale.site_tagline }}</p>
-    <div class="pick-id">
-      <h1>{{ product.name }}</h1>
-      {% if analysis and analysis.verdict %}
-      <span class="verdict v-{{ analysis.verdict_key }}">{{ analysis.verdict }}</span>
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">{{ locale.site_tagline }}</p>
+      <div class="product-title-row">
+        <h1>{{ product.name }}</h1>
+        {% if analysis and analysis.verdict %}
+        <span class="verdict v-{{ analysis.verdict_key }}">{{ analysis.verdict }}</span>
+        {% endif %}
+      </div>
+      {% if product.stage_key == 'proven' %}
+      <p class="product-lede">{{ (product.summary or t.product.lede_proven) | md_inline }}</p>
+      {% else %}
+      <p class="product-lede">{{ (product.summary or t.product.lede_early) | md_inline }}</p>
       {% endif %}
+      <div class="meta product-meta">
+        {% if product.form %}<span class="tag sig">{{ product.form }}</span>{% endif %}
+        <span class="tag">{{ product.stage }}</span>
+        {% if product.project_type %}<span class="tag">{{ product.project_type }}</span>{% endif %}
+        {% if product.category %}<span class="tag">{{ product.category }}</span>{% endif %}
+        {% for tag in product.industries %}<span class="tag">{{ tag }}</span>{% endfor %}
+        {% for tag in product.jobs %}<span class="tag">{{ tag }}</span>{% endfor %}
+        {% for tag in product.regions %}<span class="tag">{{ tag }}</span>{% endfor %}
+        {% if product.cross_market %}<span class="tag sig">{{ product.cross_market_label }}</span>{% endif %}
+        {% for b in product.badges %}<span class="tag sig">{{ b }}</span>{% endfor %}
+      </div>
     </div>
-
-    {% if product.stage_key == 'proven' %}
-    <p class="lede">{{ product.summary or t.product.lede_proven }}</p>
-    {% else %}
-    <p class="lede">{{ product.summary or t.product.lede_early }}</p>
-    {% endif %}
-
-    <div class="meta">
-      {% if product.form %}<span class="tag sig">{{ product.form }}</span>{% endif %}
-      <span class="tag">{{ product.stage }}</span>
-      {% if product.project_type %}<span class="tag">{{ product.project_type }}</span>{% endif %}
-      {% if product.category %}<span class="tag">{{ product.category }}</span>{% endif %}
-      {% for tag in product.industries %}<span class="tag">{{ tag }}</span>{% endfor %}
-      {% for tag in product.jobs %}<span class="tag">{{ tag }}</span>{% endfor %}
-      {% for tag in product.regions %}<span class="tag">{{ tag }}</span>{% endfor %}
-      {% if product.cross_market %}<span class="tag sig">{{ product.cross_market_label }}</span>{% endif %}
-      {% for b in product.badges %}<span class="tag sig">{{ b }}</span>{% endfor %}
-    </div>
-
-    <div class="kv">
+    <dl class="product-kv desk-stats">
       {% if product.builder %}
-      <div><span>{{ t.product.builder }}</span><b>{{ product.builder }}</b></div>
+      <div><dt>{{ t.product.builder }}</dt><dd>{{ product.builder }}</dd></div>
       {% endif %}
-      <div><span>{{ t.product.first_seen }}</span><b class="num">{{ product.first_seen }}</b></div>
-      <div><span>{{ t.product.last_seen }}</span><b class="num">{{ product.last_seen }}</b></div>
+      <div><dt>{{ t.product.first_seen }}</dt><dd class="num">{{ product.first_seen }}</dd></div>
+      <div><dt>{{ t.product.last_seen }}</dt><dd class="num">{{ product.last_seen }}</dd></div>
       {% if product.url %}
-      <div><span>{{ t.product.link }}</span><b><a href="{{ product.url }}" target="_blank" rel="noopener">{{ t.product.link_open }}</a></b></div>
+      <div><dt>{{ t.product.link }}</dt><dd><a href="{{ product.url }}" target="_blank" rel="noopener">{{ t.product.link_open }}</a></dd></div>
       {% endif %}
-    </div>
+    </dl>
   </header>
 
-  <section class="band demand-story">
-    <div class="sec-head">
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
       <div>
-        <p class="eyebrow">{{ t.product.story_kicker }}</p>
+        <p class="section-index">01</p>
         <h2>{{ t.product.story_title }}</h2>
+        <p class="note">{{ t.product.story_kicker }}{% if product.req %} · {{ product.req.judgment_basis }} · {{ product.req.reviewed_at }}{% endif %}</p>
       </div>
-      {% if product.req %}<span class="note">{{ product.req.judgment_basis }} · {{ product.req.reviewed_at }}</span>{% endif %}
     </div>
     {% if product.req %}
-    <article class="story-flow">
-      <div class="story-opening">
+    <div class="product-story-grid">
+      <article class="product-panel">
         <span class="field-k">{{ t.product.story_scene }}</span>
-        <p class="story-lead">{{ product.req.job }}</p>
-        <p>{{ product.req.current_alternative }}</p>
-        <p>{{ product.req.pain }}</p>
-      </div>
-
-      <div class="story-turn">
+        <p class="product-lead">{{ product.req.job | md_inline }}</p>
+        <p>{{ product.req.current_alternative | md_inline }}</p>
+        <p>{{ product.req.pain | md_inline }}</p>
+      </article>
+      <article class="product-panel product-panel-call">
         <span class="field-k">{{ t.product.story_call }}</span>
-        <h3>{{ analysis.call if analysis and analysis.call else product.req.verdict_label }}</h3>
-        <p>{{ product.inspiration }}</p>
-      </div>
-
-      <div class="story-chapter">
+        <h3>{{ (analysis.call if analysis and analysis.call else product.req.verdict_label) | md_inline }}</h3>
+        <p>{{ product.inspiration | md_inline }}</p>
+      </article>
+      <article class="product-panel">
         <span class="field-k">{{ t.product.story_adoption }}</span>
         <h3>{{ t.product.story_adoption_title }}</h3>
-        <p>{{ product.req.usage_reason }}</p>
-      </div>
-
-      <div class="story-chapter story-question">
+        <p>{{ product.req.usage_reason | md_inline }}</p>
+      </article>
+      <article class="product-panel product-panel-question">
         <span class="field-k">{{ t.product.story_tension }}</span>
         <h3>{{ t.product.story_tension_title }}</h3>
-        <p>{{ analysis.watch_next if analysis and analysis.watch_next else product.req.next_validation }}</p>
-      </div>
-    </article>
+        <p>{{ (analysis.watch_next if analysis and analysis.watch_next else product.req.next_validation) | md_inline }}</p>
+      </article>
+    </div>
 
-    <div class="role-grid story-audiences">
+    <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">{{ t.product.story_for_user }}</span>
-        <p><strong>{{ product.req.recommended_action }}</strong>{{ t.product.story_action_sep }}{{ product.req.usage_reason }}</p>
+        <p><strong>{{ product.req.recommended_action }}</strong>{{ t.product.story_action_sep }}{{ product.req.usage_reason | md_inline }}</p>
       </div>
       <div class="field">
         <span class="field-k">{{ t.product.for_founder_k }}</span>
-        <p>{{ analysis.takeaway if analysis and analysis.takeaway else product.inspiration }}</p>
+        <p>{{ (analysis.takeaway if analysis and analysis.takeaway else product.inspiration) | md_inline }}</p>
       </div>
       {% if analysis and (analysis.money or analysis.watch_next) %}
       <div class="field">
         <span class="field-k">{{ t.product.for_investor_k }}</span>
-        <p>{% if analysis.money %}{{ analysis.money }}{% endif %}{% if analysis.money and analysis.watch_next %} {{ analysis.watch_next }}{% elif analysis.watch_next %}{{ analysis.watch_next }}{% endif %}</p>
+        <p>{% if analysis.money %}{{ analysis.money | md_inline }}{% endif %}{% if analysis.money and analysis.watch_next %} {{ analysis.watch_next | md_inline }}{% elif analysis.watch_next %}{{ analysis.watch_next | md_inline }}{% endif %}</p>
       </div>
       {% endif %}
     </div>
 
-    <details class="research-notes evidence-boundary" open>
+    <details class="product-evidence" open>
       <summary>{{ t.product.story_evidence }}</summary>
-      <div class="evidence-boundary-grid">
-        <div><span class="field-k">{{ t.product.story_known }}</span><p>{{ product.req.known_fact }}</p></div>
-        <div><span class="field-k">{{ t.product.story_inferred }}</span><p>{{ product.req.inference }}</p></div>
-        <div><span class="field-k">{{ t.product.story_unknown }}</span><p>{{ product.req.unknown }}</p></div>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">{{ t.product.story_known }}</span><p>{{ product.req.known_fact | md_inline }}</p></div>
+        <div><span class="field-k">{{ t.product.story_inferred }}</span><p>{{ product.req.inference | md_inline }}</p></div>
+        <div><span class="field-k">{{ t.product.story_unknown }}</span><p>{{ product.req.unknown | md_inline }}</p></div>
       </div>
       <div class="gate-audit">
         {% for gate in product.req.gates %}
@@ -111,7 +107,7 @@
             <span class="field-k">{{ "%02d" | format(loop.index) }} · {{ gate.name }}</span>
             <strong>{{ gate.status }}</strong>
           </div>
-          <p>{{ gate.reason }}</p>
+          <p>{{ gate.reason | md_inline }}</p>
           {% if gate.evidence %}
           <div class="gate-links" aria-label="{{ t.product.req_evidence }}">
             {% for evidence in gate.evidence %}
@@ -128,18 +124,22 @@
     {% endif %}
   </section>
 
-  <section class="band">
-    <div class="sec-head">
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
       <div>
-        <p class="eyebrow">{{ t.product.markets_kicker }}</p>
+        <p class="section-index">02</p>
         <h2>{{ t.product.markets_title }}</h2>
+        <p class="note">{{ t.product.markets_kicker }}{% if product.cross_market %} · {{ product.cross_market_label }}{% endif %}</p>
       </div>
-      {% if product.cross_market %}<span class="tag sig">{{ product.cross_market_label }}</span>{% endif %}
     </div>
     {% if product.markets %}
-    <div class="decision-grid">
+    <div class="product-markets">
       {% for market in product.markets %}
-      <div class="field"><span class="field-k">{{ market.ecosystem }} · {{ market.market }}</span><p>{{ t.product.local_supply }}{{ market.supply }}<br>{{ t.product.demand_evidence }}{{ market.demand }}</p><p class="note">{{ market.coverage }} · {{ market.observed_at }}</p></div>
+      <div class="field">
+        <span class="field-k">{{ market.ecosystem }} · {{ market.market }}</span>
+        <p>{{ t.product.local_supply }}{{ market.supply | md_inline }}<br>{{ t.product.demand_evidence }}{{ market.demand | md_inline }}</p>
+        <p class="note">{{ market.coverage }} · {{ market.observed_at }}</p>
+      </div>
       {% endfor %}
     </div>
     {% else %}
@@ -148,13 +148,20 @@
   </section>
 
   {% if analysis %}
-  <article class="prose analysis-full">
-    <p class="prose-kicker">{{ t.product.decision_kicker }} · {{ t.product.decision_note }}</p>
-    {{ analysis.body_html | safe }}
-  </article>
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>{{ t.product.decision_kicker }}</h2>
+        <p class="note">{{ t.product.decision_note }}</p>
+      </div>
+    </div>
+    <article class="prose analysis-full product-prose">
+      {{ analysis.body_html | safe }}
+    </article>
+  </section>
   {% else %}
-  {# 空状态不是死路，是岔路口：说清这里有什么、没有什么、往哪走 #}
-  <section class="band">
+  <section class="band desk-band">
     <div class="noanalysis">
       <p class="noanalysis-lead">{{ t.product.none_lead }}</p>
       <p class="noanalysis-sub">
@@ -179,55 +186,70 @@
   {% endif %}
 
   {% if product.notes %}
-  <section class="band">
-    <div class="sec-head"><h2>{{ t.product.notes }}</h2></div>
-    <div class="prose">{{ product.notes }}</div>
+  <section class="band desk-band">
+    <div class="sec-head desk-sec"><div><h2>{{ t.product.notes }}</h2></div></div>
+    <div class="prose product-prose">{{ product.notes | md_inline }}</div>
   </section>
   {% endif %}
 
   {% if product.evidence %}
-  <section class="band">
-    <div class="sec-head"><div><p class="eyebrow">{{ t.product.evidence_kicker }}</p><h2>{{ t.product.evidence_title }}</h2></div></div>
-    <ul class="rows">
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>{{ t.product.evidence_title }}</h2>
+        <p class="note">{{ t.product.evidence_kicker }}</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
       {% for evidence in product.evidence %}
-      <li><a href="{{ evidence.url }}" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">{{ evidence.title }}</span><span class="row-desc">{{ evidence.kind }}{% if evidence.fact %} · {{ evidence.fact }}{% endif %}</span><span class="row-tail">{{ evidence.published_at }}</span></div></a></li>
+      <li><a href="{{ evidence.url }}" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">{{ evidence.title }}</span>
+        <span class="row-desc">{{ evidence.kind }}{% if evidence.fact %} · {{ evidence.fact | md_inline }}{% endif %}</span>
+        <span class="row-tail">{{ evidence.published_at }}</span>
+      </div></a></li>
       {% endfor %}
     </ul>
   </section>
   {% endif %}
 
   {% if product.research_links %}
-  <section class="band">
-    <div class="sec-head">
-      <div><p class="eyebrow">{{ t.product.research_kicker }}</p><h2>{{ t.product.research_title }}</h2></div>
-      <span class="note">{{ t.product.research_note }}</span>
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>{{ t.product.research_title }}</h2>
+        <p class="note">{{ t.product.research_note }}</p>
+      </div>
     </div>
-    <ul class="rows">
+    <ul class="rows desk-list">
       {% for link in product.research_links %}
-      <li><a href="{{ link.url }}" target="_blank" rel="noopener"><div class="row-head"><span class="row-name">{{ link.label }}</span><span class="row-tail">↗</span></div></a></li>
+      <li><a href="{{ link.url }}" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">{{ link.label }}</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
       {% endfor %}
     </ul>
   </section>
   {% endif %}
 
-  {# 读完一份分析没有下一步，旅程就断在这里。给三条出路。 #}
-  <nav class="onward" aria-label="{{ t.product.onward_aria }}">
+  <nav class="onward product-onward" aria-label="{{ t.product.onward_aria }}">
     {% if product.siblings %}
-    <div class="sec-head">
-      <h2>{{ t.product.siblings }}</h2>
+    <div class="sec-head desk-sec">
+      <div><h2>{{ t.product.siblings }}</h2></div>
       {% if product.category %}
       <a class="note onward-all" href="{{ root }}products.html#c={{ product.category | urlencode }}">
         {{ t.product.cat_all.format(category=product.category, total=product.category_total) }}
       </a>
       {% endif %}
     </div>
-    <ul class="rows">
+    <ul class="rows desk-list">
       {% for s in product.siblings %}
       <li>
         <a href="{{ root }}p/{{ s.slug }}.html">
-          <div class="row-head">
+          <div class="row-head desk-row">
             <span class="row-name">{{ s.name }}</span>
-            <span class="row-desc">{{ s.summary }}</span>
+            <span class="row-desc">{{ s.summary | md_inline }}</span>
             <span class="row-tail">
               {% if s.form %}<span class="tag sig">{{ s.form }}</span>{% endif %}
               {% if s.status == 'analyzed' %}<span class="tag">{{ locale.statuses.analyzed }}</span>{% endif %}
@@ -259,7 +281,6 @@
 </div>
 
 <script>
-  // 键盘翻页：左右方向键在产品之间走，不用回到列表
   (function () {
     var prev = document.querySelector('.pager-prev');
     var next = document.querySelector('.pager-next');

@@ -1,49 +1,54 @@
 {% extends "base.html" %}
+{% from 'icons.html' import ico %}
 {% block title %}{{ t.takeaways.title }} · {{ locale.site_name }}{% endblock %}
 {% block ogtitle %}{{ t.takeaways.title }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
-<div class="wrap">
+<div class="wrap takeaways-desk">
 
-  <header class="lede-bar directory-mast">
+  <header class="lede-bar directory-mast desk-command">
     <div class="lede-main">
       <p class="eyebrow">{{ locale.site_tagline }}</p>
       <h1 id="ctx-title">{{ t.takeaways.title }}</h1>
       <p id="ctx-note">{{ t.takeaways.lede }}</p>
     </div>
-    <dl class="lede-stats">
+    <dl class="lede-stats desk-stats">
       <div><dt>{{ t.takeaways.topic_product }}</dt><dd class="num">{{ takeaways_by_topic.product | length }}</dd></div>
       <div><dt>{{ t.takeaways.topic_narrative }}</dt><dd class="num">{{ takeaways_by_topic.narrative | length }}</dd></div>
       <div><dt>{{ t.takeaways.topic_pricing }}</dt><dd class="num">{{ takeaways_by_topic.pricing | length }}</dd></div>
     </dl>
   </header>
 
-  <section class="band">
-    <p class="obs-day">{{ t.takeaways.note }}</p>
+  <section class="band desk-band">
+    <p class="desk-band-note">{{ t.takeaways.note }}</p>
 
     {# 三个主题桶：产品逻辑 / 话术 / 定价结构。
        顺序固定：产品逻辑是核心交付，话术和定价是补充。
        每条引用来源产品，点进去看完整分析。 #}
     {% set topic_blocks = [
-      ('product', t.takeaways.topic_product, t.takeaways.topic_product_note),
-      ('narrative', t.takeaways.topic_narrative, t.takeaways.topic_narrative_note),
-      ('pricing', t.takeaways.topic_pricing, t.takeaways.topic_pricing_note),
+      ('product', t.takeaways.topic_product, t.takeaways.topic_product_note, 'box'),
+      ('narrative', t.takeaways.topic_narrative, t.takeaways.topic_narrative_note, 'type'),
+      ('pricing', t.takeaways.topic_pricing, t.takeaways.topic_pricing_note, 'tag'),
     ] %}
-    {% for key, label, note in topic_blocks %}
-    <div class="sec-quiet" style="margin-top: 36px;">
-      <header class="sec-bar">
-        <span class="sec-no num">{{ '%02d' % loop.index }}</span>
-        <h2>{{ label }}</h2>
+    {% for key, label, note, icon in topic_blocks %}
+    <section class="desk-topic" aria-labelledby="topic-{{ key }}">
+      <header class="desk-topic-head">
+        <span class="desk-topic-ico" aria-hidden="true">{{ ico(icon) }}</span>
+        <div class="desk-topic-title">
+          <span class="sec-no num">{{ '%02d' % loop.index }}</span>
+          <h2 id="topic-{{ key }}">{{ label }}</h2>
+        </div>
         <span class="sec-count num">{{ takeaways_by_topic[key] | length }} {{ t.takeaways.count_suffix }}</span>
+        <p class="sec-sub">{{ note }}</p>
       </header>
-      <p class="sec-sub">{{ note }}</p>
-      <ul class="rows" style="margin-top: 16px;">
+      {% if takeaways_by_topic[key] %}
+      <ul class="rows desk-list">
         {% for item in takeaways_by_topic[key] %}
         <li>
           <a href="{{ root }}p/{{ item.slug }}.html">
-            <div class="row-head">
+            <div class="row-head desk-row">
               <span class="row-name">{{ item.name }}</span>
-              <span class="row-desc">{{ item.text }}</span>
+              <span class="row-desc">{{ item.text | md_inline }}</span>
               <span class="row-tail">
                 {% if item.category %}<span class="tag">{{ item.category }}</span>{% endif %}
                 {% if item.verdict %}<span class="verdict v-{{ item.verdict_key }}">{{ item.verdict }}</span>{% endif %}
@@ -53,11 +58,12 @@
         </li>
         {% endfor %}
       </ul>
-    </div>
+      {% endif %}
+    </section>
     {% endfor %}
 
     {% if not takeaways_by_topic.product and not takeaways_by_topic.narrative and not takeaways_by_topic.pricing %}
-    <p class="empty" style="padding: 40px 0; text-align: center; color: var(--ink-faint);">{{ t.takeaways.empty }}</p>
+    <p class="empty">{{ t.takeaways.empty }}</p>
     {% endif %}
   </section>
 

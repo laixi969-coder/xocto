@@ -4,48 +4,51 @@
 {% macro opportunity_stream(items, updates=false) %}
 <div class="picks">
   {% for p in items %}
-  <article class="pick" style="--i: {{ loop.index0 }}">
-    <span class="pick-no num">{{ "%02d" | format(loop.index) }}</span>
-    <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
-      <h3>{{ p.name }}</h3>
-      <span class="tag sig">{{ p.event_label }}</span>
-    </a>
-    <div class="pick-body">
+  <article class="pick desk-pick" style="--i: {{ loop.index0 }}">
+    <div class="desk-pick-id">
+      <span class="pick-no num">{{ "%02d" | format(loop.index) }}</span>
+      <a class="pick-id" href="{{ root }}p/{{ p.slug }}.html">
+        <h3>{{ p.name }}</h3>
+        <span class="tag sig">{{ p.event_label }}</span>
+      </a>
+      <p class="pick-meta num">{{ p.event_day }} · {{ p.project_type }}{% if p.industries %} · {{ p.industries | join(' / ') }}{% endif %}</p>
+    </div>
+    <div class="pick-body desk-pick-fields">
       <div class="field field-what">
         <span class="field-k">{{ t.home.what }}</span>
-        <p>{{ p.summary }}</p>
+        <p>{{ p.summary | md_inline }}</p>
       </div>
       {% if updates and p.event_summary %}
       <div class="field">
         <span class="field-k">{{ t.home.update_detail }}</span>
-        <p>{{ p.event_summary }}</p>
+        <p>{{ p.event_summary | md_inline }}</p>
       </div>
       {% endif %}
       <div class="field field-take">
         <span class="field-k">{{ t.home.why_today }}</span>
-        <p>{{ p.opportunity_text }}</p>
+        <p>{{ p.opportunity_text | md_inline }}</p>
       </div>
       <div class="field field-call">
         <span class="field-k">{{ t.home.opportunity_judgment }}</span>
-        <p><strong>{{ p.opportunity_action }}</strong><span class="decision-sep"> · </span>{{ p.req_signal }}</p>
+        <p><strong>{{ p.opportunity_action }}</strong><span class="decision-sep"> · </span>{{ p.req_signal | md_inline }}</p>
       </div>
       {% if p.req_next %}
       <div class="field home-question">
         <span class="field-k">{{ t.home.keep_asking }}</span>
-        <p>{{ p.req_next }}</p>
+        <p>{{ p.req_next | md_inline }}</p>
       </div>
       {% endif %}
-      <p class="pick-meta num">{{ p.event_day }} · {{ p.project_type }}{% if p.industries %} · {{ p.industries | join(' / ') }}{% endif %}</p>
     </div>
   </article>
   {% endfor %}
 </div>
 {% endmacro %}
-<div class="wrap">
+<div class="wrap home-desk">
+{% set ns = namespace(sec=0) %}
 
   {# 首页只回答今天的新发现；市场判断不再替代事件流。 #}
   {% if event_day %}
-  <header class="lede-bar home-mast">
+  <header class="lede-bar home-mast desk-command">
     <div class="lede-main">
       <p class="eyebrow">{{ event_day }} · {{ t.home.daily_flow }}</p>
       <h1>{{ daily_report.hook if daily_report and daily_report.hook else t.home.flow_title }}</h1>
@@ -55,16 +58,18 @@
       {% endif %}
     </div>
     {% if daily_report and daily_report.highlights %}
-    <aside class="mast-evidence" aria-label="{{ t.home.fresh_kicker }}">
+    <aside class="mast-evidence desk-evidence" aria-label="{{ t.home.fresh_kicker }}">
       <p class="field-k">{{ t.home.fresh_kicker }}</p>
-      {% for highlight in daily_report.highlights[:3] %}
-      <p><span class="num">0{{ loop.index }}</span>{{ highlight }}</p>
-      {% endfor %}
+      <ol class="desk-evidence-list">
+        {% for highlight in daily_report.highlights[:3] %}
+        <li><span class="num">0{{ loop.index }}</span><span>{{ highlight }}</span></li>
+        {% endfor %}
+      </ol>
     </aside>
     {% endif %}
   </header>
   {% else %}
-  <header class="lede-bar home-mast">
+  <header class="lede-bar home-mast desk-command">
     <div class="lede-main">
       <p class="eyebrow">{{ t.home.eyebrow }}</p>
       <h1>{{ t.home.lede_title }}</h1>
@@ -74,26 +79,38 @@
   {% endif %}
 
   {% if first_discoveries %}
-  <section class="band" id="today-cases">
-    <div class="sec-head">
-      <div><h2>{{ t.home.first_discoveries }}</h2></div>
+  <section class="band desk-band" id="today-cases">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.first_discoveries }}</h2>
+      </div>
       <span class="note">{{ t.home.first_discoveries_note }}</span>
     </div>
     {{ opportunity_stream(first_discoveries) }}
   </section>
   {% else %}
-  <section class="band" id="today-cases">
-    <div class="sec-head">
-      <div><h2>{{ t.home.first_discoveries }}</h2></div>
+  <section class="band desk-band" id="today-cases">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.first_discoveries }}</h2>
+      </div>
     </div>
     <p class="noanalysis-sub">{{ t.home.first_discoveries_empty }}</p>
   </section>
   {% endif %}
 
   {% if proven_businesses %}
-  <section class="band" id="proven-businesses">
-    <div class="sec-head">
-      <div><h2>{{ t.home.proven_businesses }}</h2></div>
+  <section class="band desk-band" id="proven-businesses">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.proven_businesses }}</h2>
+      </div>
       <span class="note">{{ t.home.proven_businesses_note }}</span>
     </div>
     {{ opportunity_stream(proven_businesses[:3]) }}
@@ -101,9 +118,13 @@
   {% endif %}
 
   {% if important_updates %}
-  <section class="band" id="important-updates">
-    <div class="sec-head">
-      <div><h2>{{ t.home.important_updates }}</h2></div>
+  <section class="band desk-band" id="important-updates">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.important_updates }}</h2>
+      </div>
       <span class="note">{{ t.home.important_updates_note }}</span>
     </div>
     {{ opportunity_stream(important_updates, true) }}
@@ -111,16 +132,20 @@
   {% endif %}
 
   {% if market_summary %}
-  <section class="band" id="market-summary">
-    <div class="sec-head">
-      <div><h2>{{ t.home.market_summary }}</h2></div>
+  <section class="band desk-band" id="market-summary">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.market_summary }}</h2>
+      </div>
       <span class="note">{{ t.home.market_summary_note }}</span>
     </div>
-    <div class="decision-grid">
+    <div class="decision-grid desk-summary">
       {% for item in market_summary %}
       <div class="field">
         <span class="field-k">{% if item.url %}<a href="{{ item.url }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span>
-        <p>{{ item.text }}</p>
+        <p>{{ item.text | md_inline }}</p>
       </div>
       {% endfor %}
     </div>
@@ -128,16 +153,20 @@
   {% endif %}
 
   {% if past_reports %}
-  <section class="band" id="past-calls">
-    <div class="sec-head">
-      <div><h2>{{ t.home.past_reports }}</h2></div>
+  <section class="band desk-band" id="past-calls">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.past_reports }}</h2>
+      </div>
       <span class="note">{{ t.home.past_reports_note }}</span>
     </div>
-    <div class="obs">
+    <div class="obs desk-obs">
       {% for r in past_reports[:4] %}
-      <a class="obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
+      <a class="obs-item desk-obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
         <div class="obs-day num">{{ r.day }}</div>
-        <p class="obs-hook">{{ r.hook or t.home.report_fallback }}</p>
+        <p class="obs-hook">{{ (r.hook or t.home.report_fallback) | md_inline }}</p>
       </a>
       {% endfor %}
     </div>

@@ -25,3 +25,6 @@ data/pool.bak-*/
 # 24MB+ 中文字体源文件，子集化原料；产物 site/fonts/ 已入库
 templates/fonts/*.otf
 .gstack/
+
+# Superdesign scratch (local mockups / uploads); never commit
+.superdesign/

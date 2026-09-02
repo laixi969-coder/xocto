@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from 'icons.html' import ico %}
 {% block title %}{{ t.products.title }} · {{ locale.site_name }}{% endblock %}
 {% block ogtitle %}{{ t.products.title }} · {{ locale.site_name }}{% endblock %}
 
@@ -22,9 +23,9 @@
   <section class="band">
     <div class="map-toolbar">
       <label class="map-search" for="product-search">
-        <span class="filter-k">{{ t.products.search_label }}</span>
+        <span class="filter-k">{{ ico('search') }}<span>{{ t.products.search_label }}</span></span>
         <span class="search-input-wrap">
-          <svg aria-hidden="true" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg>
+          {{ ico('search') }}
           <input id="product-search" type="search" autocomplete="off" placeholder="{{ t.products.search_placeholder }}">
         </span>
       </label>
@@ -32,7 +33,7 @@
 
     <div class="controls">
       <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_category }}</span>
+        <span class="filter-k">{{ ico('layers') }}<span>{{ t.products.f_category }}</span></span>
         <div class="filters" role="group" aria-label="{{ t.products.f_category_aria }}" data-dim="category">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
           {% for c in categories %}
@@ -42,7 +43,7 @@
       </div>
 
       <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_evidence }}</span>
+        <span class="filter-k">{{ ico('shield') }}<span>{{ t.products.f_evidence }}</span></span>
         <div class="filter-stack">
         <div class="filters" role="group" aria-label="{{ t.products.f_evidence_aria }}" data-dim="openSource">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
@@ -57,7 +58,7 @@
 
       {% if opportunity_filters.req_signals %}
       <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_req }}</span>
+        <span class="filter-k">{{ ico('spark') }}<span>{{ t.products.f_req }}</span></span>
         <div class="filters" role="group" aria-label="{{ t.products.f_req_aria }}" data-dim="req">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
           {% for item in opportunity_filters.req_signals %}
@@ -68,7 +69,7 @@
       {% endif %}
 
       <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_form }}</span>
+        <span class="filter-k">{{ ico('box') }}<span>{{ t.products.f_form }}</span></span>
         <div class="filters" role="group" aria-label="{{ t.products.f_form_aria }}" data-dim="form">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
           {% for key in form_keys %}
@@ -78,7 +79,7 @@
       </div>
 
       <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_stage }}</span>
+        <span class="filter-k">{{ ico('steps') }}<span>{{ t.products.f_stage }}</span></span>
         <div class="filters" role="group" aria-label="{{ t.products.f_stage_aria }}" data-dim="stage">
           <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
           <button aria-pressed="false" data-val="early">{{ locale.stages.early }} <i class="num">{{ stats.early }}</i></button>
@@ -87,11 +88,11 @@
       </div>
 
       <details class="advanced-controls">
-        <summary>{{ t.products.advanced_filters }}</summary>
+        <summary>{{ ico('sliders') }}<span>{{ t.products.advanced_filters }}</span></summary>
         <div class="advanced-body">
           {% if opportunity_filters.project_types %}
           <div class="filter-group">
-            <span class="filter-k">{{ t.products.f_type }}</span>
+            <span class="filter-k">{{ ico('type') }}<span>{{ t.products.f_type }}</span></span>
             <div class="filters" role="group" aria-label="{{ t.products.f_type_aria }}" data-dim="projectType">
               <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
               {% for item in opportunity_filters.project_types %}
@@ -108,7 +109,7 @@
           ] %}
           {% if items %}
           <label class="filter-group select-group">
-            <span class="filter-k">{{ label }}</span>
+            <span class="filter-k">{{ ico('tag') }}<span>{{ label }}</span></span>
             <select class="facet-select" data-dim="{{ key }}" aria-label="{{ aria }}">
               <option value="">{{ t.products.all }}</option>
               {% for item in items %}<option value="{{ item.name }}">{{ item.name }} · {{ item.count }}</option>{% endfor %}
@@ -118,7 +119,7 @@
           {% endfor %}
 
           <div class="filter-group">
-            <span class="filter-k">{{ t.products.f_discovered }}</span>
+            <span class="filter-k">{{ ico('calendar') }}<span>{{ t.products.f_discovered }}</span></span>
             <div class="date-range" aria-label="{{ t.products.f_discovered_aria }}">
               <label>{{ t.products.date_from }} <input id="date-from" type="date"></label>
               <label>{{ t.products.date_to }} <input id="date-to" type="date"></label>
@@ -126,7 +127,7 @@
           </div>
 
           <div class="filter-group">
-            <span class="filter-k">{{ t.products.f_status }}</span>
+            <span class="filter-k">{{ ico('status') }}<span>{{ t.products.f_status }}</span></span>
             <div class="filters" role="group" aria-label="{{ t.products.f_status_aria }}" data-dim="status">
               <button class="on" aria-pressed="true" data-val="">{{ t.products.all }}</button>
               <button aria-pressed="false" data-val="analyzed">{{ locale.statuses.analyzed }} <i class="num">{{ stats.analysed }}</i></button>
@@ -137,7 +138,7 @@
       </details>
 
       <div class="filter-group">
-        <span class="filter-k">{{ t.products.f_sort }}</span>
+        <span class="filter-k">{{ ico('sort') }}<span>{{ t.products.f_sort }}</span></span>
         <div class="filters" role="group" aria-label="{{ t.products.f_sort_aria }}" data-dim="sort">
           <button class="on" aria-pressed="true" data-val="opportunity">{{ t.products.sort_opportunity }}</button>
           <button aria-pressed="false" data-val="weight">{{ t.products.sort_weight }}</button>
@@ -171,7 +172,7 @@
             {% if p.cross_market %}<span class="tag sig">{{ t.products.cross_market }}</span>{% endif %}
           </div>
         {% else %}
-          <p class="card-summary">{{ p.summary or t.products.no_summary }}</p>
+          <p class="card-summary">{{ (p.summary or t.products.no_summary) | md_inline }}</p>
           <div class="meta">
             {% if p.form %}<span class="tag sig">{{ p.form }}</span>{% endif %}
             {% if p.project_type %}<span class="tag">{{ p.project_type }}</span>{% endif %}
@@ -184,7 +185,7 @@
         {% endif %}
 
         {% if p.money_brief %}
-        <p class="card-money"><span>{{ t.products.money }}</span>{{ p.money_brief }}</p>
+        <p class="card-money"><span>{{ t.products.money }}</span>{{ p.money_brief | md_inline }}</p>
         {% endif %}
 
       </a>

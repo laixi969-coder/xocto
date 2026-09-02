@@ -7,10 +7,10 @@ x-octo 的设计系统。纯静态站，`tokens.css` + `templates/style.css`，�
 > 没人发现——文档里写着"通过 WCAG AA"，实测只有 3.72:1。
 > **凡是文档里写成承诺的数字，都要能被一条命令复算。**
 
-## 定位：情报终端 × 编辑部
+## 定位：情报终端 × Linear-desk 编辑部
 
-不是产品目录，不是数据看板。是一个有主见的编辑在跟你说话。
-纸感的底色、克制的展示标题、表格数字对齐、一个只给信号用的强调色。
+不是产品目录，不是数据看板。是一个有主见的编辑在跟你说话——冷中性底、更密的顶栏与筛选 chrome、
+描边图标始终可见，暖陶红只作 Linear 式信号（链接 / 选中下划线 / 焦点）。
 
 **场景句**：一个做商业判断的人，早上第一件事，在 27 寸屏幕上花三分钟扫一遍
 昨夜全球冒出来的东西，找一两个值得深看的。明亮的房间，注意力有限，随时会关掉。
@@ -23,9 +23,10 @@ x-octo 的设计系统。纯静态站，`tokens.css` + `templates/style.css`，�
 - **主页**：Marquee Hero。标题先给当天判断，证据块在右侧承接；首屏之后转为决策流。
 - **机会库**：Workbench。筛选器是工作台，结果用两列信息行承载，不另设稀疏的右侧标签栏。
 - **报告 / 详情 / 方法页**：Long Document。正文保持 45–75 字符阅读宽度，但标题、目录、证据与判断块使用完整网格。
-- **导航**：N6 Newspaper masthead 的克制变体；品牌、主导航、全站工具各占一条明确网格线。
+- **导航**：Dense sticky chrome（~48px）；图标+短标签，8px 间距；选中态用更强墨色 + signal 下划线。
 - **页脚**：Ft5 Statement；站点定位是结束语，数据与方法链接退到下一行。
-- **结构原则**：区块主要靠负空间与 paper/surface 层级分开；横线只留给表格、输入、当前导航和一个页面级锚点。
+- **结构原则**：卡片可用细边框（line-soft）而非只靠纸面岛屿；横线留给表格、输入、当前导航。
+- **图标**：`templates/icons.html` 统一 24×24 viewBox、stroke-width 2；CSS 强制 `.ico` 为 20×20 / opacity 1。
 
 ## 品牌标识
 
@@ -54,20 +55,20 @@ navy `#25345c` 是品牌色，和站内的 deep-forest 不同色系。这是刻�
 
 ## 色彩
 
-策略：**Restrained**（克制）—— 暖纸色、冷墨蓝和一个陶红 signal。强调色占比 ≤3%，
-只用于链接、选中态、焦点与短锚点；状态色只承担「已验证 / 观察」语义，不参与装饰。
+策略：**Restrained Linear-desk**——冷中性纸面、更高对比墨色、一个暖陶红 signal（Linear 式强调）。
+强调色占比 ≤3%，只用于链接、选中态、焦点与短锚点；状态色只承担「已验证 / 观察」语义。
 所有颜色以根目录 `tokens.css` 的 OKLCH token 为准，页面样式不得写一次性颜色值。
 
 | 角色 | 浅色 | 暗色 | 用途 |
 |------|------|------|------|
-| paper | `oklch(96.13% 0.0111 89.7)` | `oklch(21.40% 0.0239 251.6)` | 页面画布，暖纸 / 深墨蓝 |
-| surface | `oklch(98.77% 0.0054 95.1)` | `oklch(25.20% 0.0316 252.8)` | 判断块、筛选器、目录 |
-| ink | `oklch(26.05% 0.0375 253.9)` | `oklch(94.90% 0.0124 91.5)` | 正文 |
-| ink-soft | `oklch(44.26% 0.0311 248.5)` | `oklch(82.09% 0.0083 114.3)` | 次级文字 |
-| ink-faint | `oklch(53.74% 0.0241 241.7)` | `oklch(72.27% 0.0126 231.7)` | 标签、元信息 |
-| line | `oklch(82% 0.014 89.7)` | `oklch(41% 0.024 252.8)` | 只用于数据边界和控件 |
+| paper | `oklch(96.9% 0.0055 250)` | `oklch(18.5% 0.02 255)` | 页面画布，冷灰白 / 深墨蓝 |
+| surface | `oklch(99.1% 0.0025 250)` | `oklch(22.8% 0.026 255)` | 判断块、筛选器、目录 |
+| ink | `oklch(22% 0.034 255)` | `oklch(95.5% 0.01 95)` | 正文 |
+| ink-soft | `oklch(39% 0.028 252)` | `oklch(80% 0.01 120)` | 次级文字 |
+| ink-faint | `oklch(47.5% 0.02 248)` | `oklch(68% 0.014 235)` | 标签、元信息 |
+| line | `oklch(84% 0.009 250)` | `oklch(38% 0.022 255)` | 数据边界、控件、卡片描边 |
 | signal | `oklch(53.46% 0.1258 35.8)` | `oklch(76.29% 0.1082 40)` | 链接、选中、焦点、短锚点 |
-| signal-soft | `oklch(91.60% 0.0273 43.6)` | `oklch(32.35% 0.0420 21.9)` | 语义判断垫底 |
+| signal-soft | `oklch(93.2% 0.024 42)` | `oklch(30% 0.04 25)` | 语义判断垫底 |
 | good | `oklch(48.54% 0.0816 179.1)` | `oklch(74.87% 0.0777 174.3)` | 「值得关注」评级 |
 | watch | `oklch(51.06% 0.1081 64.6)` | `oklch(80.93% 0.1137 79.1)` | 「有待观察」评级 |
 
@@ -77,17 +78,8 @@ navy `#25345c` 是品牌色，和站内的 deep-forest 不同色系。这是刻�
 `ink-faint` 和 `watch` 是最容易破线的两个，因为它们本来就该"弱"。
 换配色之后必须复算，命令见本文件末尾。
 
-当前实测（浅色 paper / surface，暗色 paper / surface）：
-
-| token | 浅色 | 暗色 |
-|-------|------|------|
-| ink | 13.86 / 14.97 | 15.12 / 13.70 |
-| ink-soft | 6.84 / 7.39 | 10.10 / 9.15 |
-| ink-faint | **4.55** / 4.92 | 7.16 / 6.49 |
-| signal | 4.90 / 5.29 | 7.95 / 7.20 |
-| watch | 5.28 / 5.70 | 9.59 / 8.69 |
-
-加粗的是贴着底线的，动它们之前先算。
+对比度以 `uv run python scripts/check_design.py` 实测为准（换色后必须复算）。
+`ink-faint` 与 `watch` 最容易贴 AA 底线，动之前先跑检查脚本。
 
 `scripts/check_design.py` 同时解析 hex 和 OKLCH；换色后仍由同一条命令复算。
 
@@ -120,7 +112,8 @@ navy `#25345c` 是品牌色，和站内的 deep-forest 不同色系。这是刻�
 
 - 版心最大宽 `--maxw: 1480px`。1200 在 27 寸屏上两侧各留 400px 死白，
   反而把内容挤成一条窄带。
-- 报告正文阅读宽 `74ch`，标题可到 `28ch`；侧栏 210px，栏距使用 54–112px fluid gap。
+- 报告正文阅读宽 `74ch`；展示标题用 `min(…em, 100%)` 吃满网格，不再用过紧的 `ch` 上限（首页 lede / 报告 masthead / 页脚声明同理）。侧栏 210px，栏距使用 54–112px fluid gap。
+- 换行策略：桌面正文与卡片用 `overflow-wrap: break-word`；窄屏中英混排标题仍允许 `anywhere`，避免长英文词撑破视口。
   阅读段落不盲目拉满，但目录、证据、判断和元信息必须使用右侧空间。
 - 区块间距 48–88px，连续区块交替使用 paper / paper-3，而不是连续横线。
 - **刻意不对称**：顶部条 1.9fr / 1fr，首页判断条目 1fr / 2.4fr。
@@ -200,6 +193,19 @@ navy `#25345c` 是品牌色，和站内的 deep-forest 不同色系。这是刻�
 | `.report-rail` | 滚动定位条 + 往期入口，≤1120px 撤掉 |
 | `.prose-body` | 切好版块后的一小段，和 `.prose` 共用排版规则 |
 
+
+### 行内 Markdown（`md_inline`）
+
+分析短字段（可借鉴点、灵感、需求判断、首页机会文案）里常有作者写的 `**强调**`。
+`src/xocto/site.py` 注册 Jinja 过滤器 `md_inline`：先 HTML escape，再把 `**x**` 转成 `<strong>x</strong>`。
+长文正文仍走 mistune（`body_html`）。模板里凡面向读者的短文案用 `| md_inline`，禁止把原始 `**` 漏到页面上。
+
+### 产品详情 / 报告 desk
+
+- `templates/product.html` → `.product-desk`：密报头、分区编号、描边判断块、证据折叠。
+- `templates/report.html` / `reports.html` → `.report-desk` / `.reports-desk`：与首页/打法库同一套 command + bordered sections。
+- `methodology.html` / `privacy.html` → `.reading-desk` 轻量共用 chrome。
+
 ## 明确不要
 
 - 侧边色条（`border-left` 粗色条当装饰）。灵感和判断用 `signal-soft` surface 表达语义。
@@ -255,13 +261,13 @@ navy `#25345c` 是品牌色，和站内的 deep-forest 不同色系。这是刻�
 
 ```css
 @theme {
-  --color-paper: oklch(96.13% 0.0111 89.7);
-  --color-paper-2: oklch(98.77% 0.0054 95.1);
-  --color-paper-3: oklch(93.2% 0.014 89.7);
-  --color-ink: oklch(26.05% 0.0375 253.9);
-  --color-ink-2: oklch(44.26% 0.0311 248.5);
-  --color-muted: oklch(53.74% 0.0241 241.7);
-  --color-rule: oklch(82% 0.014 89.7);
+  --color-paper: oklch(96.9% 0.0055 250);
+  --color-paper-2: oklch(99.1% 0.0025 250);
+  --color-paper-3: oklch(94.2% 0.007 250);
+  --color-ink: oklch(22% 0.034 255);
+  --color-ink-2: oklch(39% 0.028 252);
+  --color-muted: oklch(47.5% 0.02 248);
+  --color-rule: oklch(84% 0.009 250);
   --color-accent: oklch(53.46% 0.1258 35.8);
   --font-display: "Fraunces", "Noto Sans SC", ui-serif, serif;
   --font-body: "Inter", ui-sans-serif, sans-serif;
@@ -281,10 +287,10 @@ navy `#25345c` 是品牌色，和站内的 deep-forest 不同色系。这是刻�
 {
   "$schema": "https://design-tokens.github.io/community-group/format/",
   "color": {
-    "paper": { "$value": "oklch(96.13% 0.0111 89.7)", "$type": "color" },
-    "surface": { "$value": "oklch(98.77% 0.0054 95.1)", "$type": "color" },
-    "ink": { "$value": "oklch(26.05% 0.0375 253.9)", "$type": "color" },
-    "muted": { "$value": "oklch(53.74% 0.0241 241.7)", "$type": "color" },
+    "paper": { "$value": "oklch(96.9% 0.0055 250)", "$type": "color" },
+    "surface": { "$value": "oklch(99.1% 0.0025 250)", "$type": "color" },
+    "ink": { "$value": "oklch(22% 0.034 255)", "$type": "color" },
+    "muted": { "$value": "oklch(47.5% 0.02 248)", "$type": "color" },
     "accent": { "$value": "oklch(53.46% 0.1258 35.8)", "$type": "color" }
   },
   "font": {

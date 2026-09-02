@@ -32,6 +32,7 @@ from urllib.parse import quote_plus
 import mistune
 import yaml
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup, escape as html_escape
 
 from .demand import demand_read
 from .models import (
@@ -556,7 +557,7 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
                 verdict_key=locale.verdict_key(verdict),
                 verdict_rank=locale.verdict_rank(verdict),
                 analyzed_at=str(front.get("analyzed_at") or ""),
-                body_html=scrub_pending_phrase(_markdown(body)),
+                body_html=scrub_pending_phrase(_finish_inline_emphasis(_markdown(body))),
                 excerpt=scrub_pending_phrase(excerpt),
                 replaces=scrub_pending_phrase(_section(body, *locale.heading_replaces)),
                 money=scrub_pending_phrase(_section(body, *locale.heading_money, allow_list=True, limit=240)),
@@ -1925,6 +1926,38 @@ def _build_locale(
     return 4 + len(ctx["products"]) + len(ctx["reports"])
 
 
+
+
+def _finish_inline_emphasis(html_text: str) -> str:
+    """Convert leftover ``**emphasis**`` that mistune did not promote.
+
+    Common with CJK adjacency (``三是**"词"**``): mistune leaves the markers,
+    having already escaped quotes inside the text node. Safe to promote because
+    the interior is already HTML-escaped.
+    """
+    if not html_text or "**" not in html_text:
+        return html_text
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", html_text)
+
+
+def md_inline(value: object) -> Markup:
+    """Render lightweight inline Markdown for reader-facing short fields.
+
+    Escapes HTML first, then turns ``**emphasis**`` into ``<strong>``.
+    Analysis bodies already go through mistune; takeaways / inspiration /
+    judgment blurbs are plain strings that still carry author Markdown.
+    """
+    if value is None:
+        return Markup("")
+    text = str(value)
+    if not text:
+        return Markup("")
+    escaped = str(html_escape(text))
+    # Non-greedy pairs only; leave unpaired asterisks alone so we do not invent tags.
+    converted = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped)
+    return Markup(converted)
+
+
 def build(store: Store, out_dir: Path | None = None) -> Path:
     """生成整站（中文 + 英文），返回输出目录。"""
     out_dir = out_dir or store.root / "site"
@@ -1938,6 +1971,7 @@ def build(store: Store, out_dir: Path | None = None) -> Path:
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["md_inline"] = md_inline
 
     out_dir.mkdir(parents=True, exist_ok=True)
     css_src = templates_dir / "style.css"

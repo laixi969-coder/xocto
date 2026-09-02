@@ -3,16 +3,16 @@
 {% block ogtitle %}{{ t.privacy.title }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
-<div class="wrap reading-page">
-  <div class="lede-bar">
+<div class="wrap reading-desk">
+  <header class="lede-bar desk-command">
     <div class="lede-main">
       <p class="eyebrow">{{ t.privacy.kicker }}</p>
       <h1>{{ t.privacy.title }}</h1>
       <p>{{ t.privacy.lede }}</p>
     </div>
-  </div>
+  </header>
 
-  <article class="prose">
+  <article class="prose product-prose">
     <h2>{{ t.privacy.what_title }}</h2>
     <p>{{ t.privacy.what_body }}</p>
     <h2>{{ t.privacy.choice_title }}</h2>

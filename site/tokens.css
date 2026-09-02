@@ -1,22 +1,23 @@
-/* Hallmark · x-octo tokens · genre: editorial · theme: warm intelligence desk
- * paper-band: light · display-style: roman-serif · accent-hue: warm
+/* Hallmark · x-octo tokens · genre: editorial · theme: Linear-inspired cool intelligence desk
+ * paper-band: light · display-style: roman-serif · accent-hue: warm signal on cool chrome
  */
 
 :root {
   color-scheme: light dark;
 
-  --color-paper: oklch(96.13% 0.0111 89.7);
-  --color-paper-2: oklch(98.77% 0.0054 95.1);
-  --color-paper-3: oklch(93.2% 0.014 89.7);
-  --color-ink: oklch(26.05% 0.0375 253.9);
-  --color-ink-2: oklch(44.26% 0.0311 248.5);
-  --color-muted: oklch(53.74% 0.0241 241.7);
-  --color-neutral: oklch(44.26% 0.0311 248.5);
-  --color-rule: oklch(82% 0.014 89.7);
-  --color-rule-2: oklch(89.5% 0.012 89.7);
+  /* Cooler neutrals (still light default); warmer terracotta kept as the lone signal. */
+  --color-paper: oklch(96.9% 0.0055 250);
+  --color-paper-2: oklch(99.1% 0.0025 250);
+  --color-paper-3: oklch(94.2% 0.007 250);
+  --color-ink: oklch(22% 0.034 255);
+  --color-ink-2: oklch(39% 0.028 252);
+  --color-muted: oklch(47.5% 0.02 248);
+  --color-neutral: oklch(39% 0.028 252);
+  --color-rule: oklch(84% 0.009 250);
+  --color-rule-2: oklch(90.5% 0.006 250);
   --color-accent: oklch(53.46% 0.1258 35.8);
-  --color-accent-soft: oklch(91.60% 0.0273 43.6);
-  --color-accent-ink: oklch(98.77% 0.0054 95.1);
+  --color-accent-soft: oklch(93.2% 0.024 42);
+  --color-accent-ink: oklch(99.1% 0.0025 250);
   --color-focus: oklch(53.46% 0.1258 35.8);
   --color-good: oklch(48.54% 0.0816 179.1);
   --color-watch: oklch(51.06% 0.1081 64.6);
@@ -25,10 +26,11 @@
   --font-body: "Inter", "Aptos", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif, sans-serif;
   --font-outlier: var(--font-body);
 
-  --space-3xs: 0.25rem;
-  --space-2xs: 0.5rem;
-  --space-xs: 0.75rem;
-  --space-sm: 1rem;
+  /* Slightly tighter chrome scale; content spacing still uses md+. */
+  --space-3xs: 0.2rem;
+  --space-2xs: 0.4rem;
+  --space-xs: 0.65rem;
+  --space-sm: 0.9rem;
   --space-md: 1.5rem;
   --space-lg: 2rem;
   --space-xl: 3rem;
@@ -56,15 +58,15 @@
 
   --rule-hair: 1px;
   --rule-fine: 2px;
-  --radius-card: 10px;
+  --radius-card: 8px;
   --radius-pill: 999px;
   --radius-input: 6px;
-  --shadow-card: 0 1px 2px oklch(20% 0.01 254 / 0.05);
+  --shadow-card: 0 0 0 1px oklch(20% 0.02 255 / 0.06);
 
   --maxw: 1480px;
   --reading: 74ch;
-  --gutter: clamp(20px, 4vw, 72px);
-  --bar: 61px;
+  --gutter: clamp(20px, 4vw, 64px);
+  --bar: 48px;
   --z-base: 1;
   --z-raised: 10;
   --z-sticky: 200;
@@ -95,21 +97,22 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-paper: oklch(21.40% 0.0239 251.6);
-    --color-paper-2: oklch(25.20% 0.0316 252.8);
-    --color-paper-3: oklch(28.8% 0.030 252.8);
-    --color-ink: oklch(94.90% 0.0124 91.5);
-    --color-ink-2: oklch(82.09% 0.0083 114.3);
-    --color-muted: oklch(72.27% 0.0126 231.7);
-    --color-neutral: oklch(82.09% 0.0083 114.3);
-    --color-rule: oklch(41% 0.024 252.8);
-    --color-rule-2: oklch(32% 0.022 252.8);
+    --color-paper: oklch(18.5% 0.02 255);
+    --color-paper-2: oklch(22.8% 0.026 255);
+    --color-paper-3: oklch(26.5% 0.028 255);
+    --color-ink: oklch(95.5% 0.01 95);
+    --color-ink-2: oklch(80% 0.01 120);
+    --color-muted: oklch(68% 0.014 235);
+    --color-neutral: oklch(80% 0.01 120);
+    --color-rule: oklch(38% 0.022 255);
+    --color-rule-2: oklch(30% 0.02 255);
     --color-accent: oklch(76.29% 0.1082 40.0);
-    --color-accent-soft: oklch(32.35% 0.0420 21.9);
-    --color-accent-ink: oklch(21.40% 0.0239 251.6);
+    --color-accent-soft: oklch(30% 0.04 25);
+    --color-accent-ink: oklch(18.5% 0.02 255);
     --color-focus: oklch(76.29% 0.1082 40.0);
     --color-good: oklch(74.87% 0.0777 174.3);
     --color-watch: oklch(80.93% 0.1137 79.1);
+    --shadow-card: 0 0 0 1px oklch(90% 0.01 95 / 0.08);
     --logo: url("logo/logo-on-dark.png");
     --logo-mark: url("logo/mark-on-dark.png");
   }
@@ -117,42 +120,44 @@
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --color-paper: oklch(21.40% 0.0239 251.6);
-  --color-paper-2: oklch(25.20% 0.0316 252.8);
-  --color-paper-3: oklch(28.8% 0.030 252.8);
-  --color-ink: oklch(94.90% 0.0124 91.5);
-  --color-ink-2: oklch(82.09% 0.0083 114.3);
-  --color-muted: oklch(72.27% 0.0126 231.7);
-  --color-neutral: oklch(82.09% 0.0083 114.3);
-  --color-rule: oklch(41% 0.024 252.8);
-  --color-rule-2: oklch(32% 0.022 252.8);
+  --color-paper: oklch(18.5% 0.02 255);
+  --color-paper-2: oklch(22.8% 0.026 255);
+  --color-paper-3: oklch(26.5% 0.028 255);
+  --color-ink: oklch(95.5% 0.01 95);
+  --color-ink-2: oklch(80% 0.01 120);
+  --color-muted: oklch(68% 0.014 235);
+  --color-neutral: oklch(80% 0.01 120);
+  --color-rule: oklch(38% 0.022 255);
+  --color-rule-2: oklch(30% 0.02 255);
   --color-accent: oklch(76.29% 0.1082 40.0);
-  --color-accent-soft: oklch(32.35% 0.0420 21.9);
-  --color-accent-ink: oklch(21.40% 0.0239 251.6);
+  --color-accent-soft: oklch(30% 0.04 25);
+  --color-accent-ink: oklch(18.5% 0.02 255);
   --color-focus: oklch(76.29% 0.1082 40.0);
   --color-good: oklch(74.87% 0.0777 174.3);
   --color-watch: oklch(80.93% 0.1137 79.1);
+  --shadow-card: 0 0 0 1px oklch(90% 0.01 95 / 0.08);
   --logo: url("logo/logo-on-dark.png");
   --logo-mark: url("logo/mark-on-dark.png");
 }
 
 :root[data-theme="light"] {
   color-scheme: light;
-  --color-paper: oklch(96.13% 0.0111 89.7);
-  --color-paper-2: oklch(98.77% 0.0054 95.1);
-  --color-paper-3: oklch(93.2% 0.014 89.7);
-  --color-ink: oklch(26.05% 0.0375 253.9);
-  --color-ink-2: oklch(44.26% 0.0311 248.5);
-  --color-muted: oklch(53.74% 0.0241 241.7);
-  --color-neutral: oklch(44.26% 0.0311 248.5);
-  --color-rule: oklch(82% 0.014 89.7);
-  --color-rule-2: oklch(89.5% 0.012 89.7);
+  --color-paper: oklch(96.9% 0.0055 250);
+  --color-paper-2: oklch(99.1% 0.0025 250);
+  --color-paper-3: oklch(94.2% 0.007 250);
+  --color-ink: oklch(22% 0.034 255);
+  --color-ink-2: oklch(39% 0.028 252);
+  --color-muted: oklch(47.5% 0.02 248);
+  --color-neutral: oklch(39% 0.028 252);
+  --color-rule: oklch(84% 0.009 250);
+  --color-rule-2: oklch(90.5% 0.006 250);
   --color-accent: oklch(53.46% 0.1258 35.8);
-  --color-accent-soft: oklch(91.60% 0.0273 43.6);
-  --color-accent-ink: oklch(98.77% 0.0054 95.1);
+  --color-accent-soft: oklch(93.2% 0.024 42);
+  --color-accent-ink: oklch(99.1% 0.0025 250);
   --color-focus: oklch(53.46% 0.1258 35.8);
   --color-good: oklch(48.54% 0.0816 179.1);
   --color-watch: oklch(51.06% 0.1081 64.6);
+  --shadow-card: 0 0 0 1px oklch(20% 0.02 255 / 0.06);
   --logo: url("logo/logo-on-light.png");
   --logo-mark: url("logo/mark-on-light.png");
 }

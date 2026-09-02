@@ -3,17 +3,19 @@
 {% block ogtitle %}{{ t.methodology.title }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
-<div class="wrap">
-  <header class="detail-head">
-    <p class="eyebrow">{{ t.methodology.updated }}</p>
-    <div class="pick-id"><h1>{{ t.methodology.title }}</h1></div>
-    <p class="lede">{{ t.methodology.lede }}</p>
-    <div class="kv">
-      <div><span>{{ t.methodology.updated }}</span><b class="num">{{ latest_day }}</b></div>
+<div class="wrap reading-desk">
+  <header class="lede-bar desk-command">
+    <div class="lede-main">
+      <p class="eyebrow">{{ t.methodology.updated }}</p>
+      <h1>{{ t.methodology.title }}</h1>
+      <p>{{ t.methodology.lede }}</p>
     </div>
+    <dl class="desk-stats">
+      <div><dt>{{ t.methodology.updated }}</dt><dd class="num">{{ latest_day }}</dd></div>
+    </dl>
   </header>
 
-  <article class="prose">
+  <article class="prose product-prose">
     <h2>{{ t.methodology.reader_title }}</h2>
     <p>{{ t.methodology.reader_body }}</p>
     <h2>{{ t.methodology.decision_title }}</h2>

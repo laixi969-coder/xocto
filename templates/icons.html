@@ -1,0 +1,44 @@
+{# Visible Linear-desk stroke icons. viewBox 24×24, stroke 2, CSS locks to 20px. #}
+{% macro ico(name, size=20) -%}
+<svg class="ico" data-ico="{{ name }}" aria-hidden="true" width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+{%- if name == 'home' -%}
+  <path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/>
+{%- elif name == 'grid' -%}
+  <path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/>
+{%- elif name == 'bookmark' -%}
+  <path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/>
+{%- elif name == 'globe' -%}
+  <circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/>
+{%- elif name == 'sun' -%}
+  <circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/>
+{%- elif name == 'moon' -%}
+  <path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/>
+{%- elif name == 'search' -%}
+  <circle cx="11" cy="11" r="7"/><path d="M20 20 L16.5 16.5"/>
+{%- elif name == 'sliders' -%}
+  <path d="M4 7 L20 7"/><path d="M4 12 L20 12"/><path d="M4 17 L20 17"/><path d="M8 5 L8 9"/><path d="M16 10 L16 14"/><path d="M11 15 L11 19"/>
+{%- elif name == 'layers' -%}
+  <path d="M12 3 L21 8 L12 13 L3 8 Z"/><path d="M3 13 L12 18 L21 13"/><path d="M3 17 L12 22 L21 17"/>
+{%- elif name == 'shield' -%}
+  <path d="M12 3 L20 6 L20 11 C20 16 16.5 19.5 12 21 C7.5 19.5 4 16 4 11 L4 6 Z"/>
+{%- elif name == 'spark' -%}
+  <path d="M12 2 L13.8 8.2 L20 10 L13.8 11.8 L12 18 L10.2 11.8 L4 10 L10.2 8.2 Z"/>
+{%- elif name == 'box' -%}
+  <path d="M3 8 L12 3 L21 8 L21 16 L12 21 L3 16 Z"/><path d="M3 8 L12 13 L21 8"/><path d="M12 13 L12 21"/>
+{%- elif name == 'steps' -%}
+  <circle cx="6" cy="6" r="2.2"/><circle cx="12" cy="12" r="2.2"/><circle cx="18" cy="18" r="2.2"/><path d="M7.8 7.8 L10.2 10.2"/><path d="M13.8 13.8 L16.2 16.2"/>
+{%- elif name == 'sort' -%}
+  <path d="M8 4 L8 20"/><path d="M8 4 L4.5 7.5"/><path d="M8 4 L11.5 7.5"/><path d="M16 20 L16 4"/><path d="M16 20 L19.5 16.5"/><path d="M16 20 L12.5 16.5"/>
+{%- elif name == 'calendar' -%}
+  <path d="M3 5 L21 5 L21 21 L3 21 Z"/><path d="M8 3 L8 7"/><path d="M16 3 L16 7"/><path d="M3 10 L21 10"/>
+{%- elif name == 'status' -%}
+  <circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/>
+{%- elif name == 'tag' -%}
+  <path d="M3 3 L10.5 3 L21 13.5 L13.5 21 L3 10.5 Z"/><circle cx="7.5" cy="7.5" r="1.5"/>
+{%- elif name == 'type' -%}
+  <path d="M4 5 L20 5"/><path d="M12 5 L12 19"/><path d="M8 19 L16 19"/>
+{%- else -%}
+  <circle cx="12" cy="12" r="8"/>
+{%- endif -%}
+</svg>
+{%- endmacro %}

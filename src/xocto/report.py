@@ -26,7 +26,13 @@ _render_markdown = mistune.create_markdown(plugins=["table", "strikethrough"])
 
 
 def _markdown(text: str) -> str:
-    return scrub_pending_phrase(_render_markdown(text) if text else "")
+    if not text:
+        return ""
+    html = _render_markdown(text)
+    # mistune can leave CJK-adjacent **emphasis** as literal markers
+    if "**" in html:
+        html = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", html)
+    return scrub_pending_phrase(html)
 
 # 报告里指向 data/ 的相对链接在网站上打不开，得指回站内产品页
 _DATA_LINK = re.compile(r"\((?:\.{1,2}/)*(?:data/)?(?:analysis|pool)/([^)\s/]+?)\.md\)")

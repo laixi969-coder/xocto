@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f5f2ea" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#111a24" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>全部往期判断 · x-octo</title>
 <meta name="description" content="所有每日生意判断按日期永久归档；首页列表满了，也不会删除更早的内容。">
 <link rel="canonical" href="https://xocto.vercel.app/reports.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/reports.html">
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/reports.html#webpage", "@type": "WebPage", "description": "\u6240\u6709\u6bcf\u65e5\u751f\u610f\u5224\u65ad\u6309\u65e5\u671f\u6c38\u4e45\u5f52\u6863\uff1b\u9996\u9875\u5217\u8868\u6ee1\u4e86\uff0c\u4e5f\u4e0d\u4f1a\u5220\u9664\u66f4\u65e9\u7684\u5185\u5bb9\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "\u5168\u90e8\u5f80\u671f\u5224\u65ad", "url": "https://xocto.vercel.app/reports.html"}]}</script><link rel="stylesheet" href="style.css?v=a7d3c6707415">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/reports.html#webpage", "@type": "WebPage", "description": "\u6240\u6709\u6bcf\u65e5\u751f\u610f\u5224\u65ad\u6309\u65e5\u671f\u6c38\u4e45\u5f52\u6863\uff1b\u9996\u9875\u5217\u8868\u6ee1\u4e86\uff0c\u4e5f\u4e0d\u4f1a\u5220\u9664\u66f4\u65e9\u7684\u5185\u5bb9\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "\u5168\u90e8\u5f80\u671f\u5224\u65ad", "url": "https://xocto.vercel.app/reports.html"}]}</script><link rel="stylesheet" href="style.css?v=e67e3f54268d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -39,120 +39,134 @@
       <span class="brand-tag">AI 应用的生意判断</span>
     </div>
     <nav class="nav">
-      <a href="index.html" class="">今日机会</a>
-      <a href="products.html" class="">机会库</a>
-      <a href="takeaways.html" class="">打法库</a>
+      <a href="index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="products.html" class=""><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
     </nav>
     <div class="top-tools">
       <a class="lang-btn" href="en/reports.html" lang="en"
-         hreflang="en" aria-label="Switch to English">EN</a>
-      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">明 / 暗</button>
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
     </div>
   </div>
 </div>
 
 <main id="main">
-<div class="wrap">
-  <header class="lede-bar directory-mast">
+<div class="wrap reports-desk">
+  <header class="lede-bar directory-mast desk-command">
     <div class="lede-main">
       <p class="eyebrow">今日判断</p>
       <h1>全部往期判断</h1>
       <p>所有每日生意判断按日期永久归档；首页列表满了，也不会删除更早的内容。</p>
     </div>
-    <dl class="lede-stats">
+    <dl class="lede-stats desk-stats">
       <div><dt>已归档</dt><dd class="num">17</dd></div>
     </dl>
   </header>
 
-  <section class="band report-archive-month">
-    <div class="sec-head"><h2>2026 年 9 月</h2></div>
-    <div class="obs">
-      <a class="obs-item" href="r/2026-09-01.html" style="--i: 0">
+  <section class="band desk-band report-archive-month">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>2026 年 9 月</h2>
+      </div>
+    </div>
+    <div class="obs desk-obs">
+      <a class="obs-item desk-obs-item" href="r/2026-09-01.html" style="--i: 0">
         <div class="obs-day num">2026-09-01</div>
         <p class="obs-hook">AI 商业化与安全并进，垂直应用与基础设施机会凸显。</p>
         <div class="obs-tags"><span class="tag">OpenAI 广告业务年化收入破 10 亿美元，AI 助手商业化加速。</span><span class="tag">英国政府 1 亿英镑竞赛支持 AI 改善公共服务，公共部门机会显现。</span><span class="tag">Meta 用 AI 代理替代员工遭遇事故，可靠性问题成关注焦点。</span><span class="tag">AWS 推出 Agent Registry，企业级 AI 代理管理需求上升。</span></div>
       </a>
     </div>
   </section>
-  <section class="band report-archive-month">
-    <div class="sec-head"><h2>2026 年 8 月</h2></div>
-    <div class="obs">
-      <a class="obs-item" href="r/2026-08-30.html" style="--i: 0">
+  <section class="band desk-band report-archive-month">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>2026 年 8 月</h2>
+      </div>
+    </div>
+    <div class="obs desk-obs">
+      <a class="obs-item desk-obs-item" href="r/2026-08-30.html" style="--i: 0">
         <div class="obs-day num">2026-08-30</div>
         <p class="obs-hook">AI 工程教育、本地推理与隐私保护成今日机会焦点。</p>
         <div class="obs-tags"><span class="tag">AI 工程教育从零散教程走向系统化课程，免费开源课程成为获客入口。</span><span class="tag">本地推理与隐私保护需求上升，数据脱敏代理层和本地 LLM 服务器成为新机会。</span><span class="tag">AI 代理从命令行走向专用工作台，开发者工具链和垂直场景应用加速。</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-29.html" style="--i: 1">
+      <a class="obs-item desk-obs-item" href="r/2026-08-29.html" style="--i: 1">
         <div class="obs-day num">2026-08-29</div>
         <p class="obs-hook">AI 从工具走向可训练、可观测、可落地的完整方案，垂直场景成为主战场。</p>
         <div class="obs-tags"><span class="tag">教育、法律、办公等垂直领域 AI 应用加速落地，区域全覆盖与专业代理成为趋势。</span><span class="tag">AI 基础设施可观测性与文档解析成为企业采用的关键环节，自托管需求上升。</span><span class="tag">NVIDIA 收购公开模型社区，重塑开源模型分发与开发者生态。</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-27.html" style="--i: 2">
+      <a class="obs-item desk-obs-item" href="r/2026-08-27.html" style="--i: 2">
         <div class="obs-day num">2026-08-27</div>
         <p class="obs-hook">AI 开发工具链加速整合，视频理解与数据质量成为新机会点。</p>
         <div class="obs-tags"><span class="tag">Anthropic 开源 mockturtle，预示 AI 开发工具链新方向，值得关注。</span><span class="tag">视频理解与问答技能（如 deepseek-v4-flash-vision-video-rag）走向精准时间定位。</span><span class="tag">AI 代理开始替代搜索优化外包，按效果付费模式兴起。</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-26.html" style="--i: 3">
+      <a class="obs-item desk-obs-item" href="r/2026-08-26.html" style="--i: 3">
         <div class="obs-day num">2026-08-26</div>
         <p class="obs-hook">今日机会集中在 AI 代理测试、部署自动化与开源芯片设计流程，OpenROAD-flow-scripts 值得重点关注。</p>
         <div class="obs-tags"><span class="tag">OpenROAD-flow-scripts 提供从 RTL 到 GDSII 的开源自动化芯片设计流程，降低设计门槛，可探索支持服务或定制流程收费。</span><span class="tag">AI 代理测试与可观测性成为热点，如 agentic-playwright、Agnost AI 等工具，按测试用例或报告收费的模式值得验证。</span><span class="tag">部署自动化工具 fdeploy 瞄准 Windows/IIS 旧环境，为中小企业提供自动化部署，按部署次数或订阅收费。</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-25.html" style="--i: 4">
+      <a class="obs-item desk-obs-item" href="r/2026-08-25.html" style="--i: 4">
         <div class="obs-day num">2026-08-25</div>
         <p class="obs-hook">AI 代理可观测性与隐私工具涌现，编码智能体进入多代理协作时代。</p>
         <div class="obs-tags"><span class="tag">agenttrail 等工具为编码智能体提供实时过程可视化，解决黑盒失控问题。</span><span class="tag">BidSonar 等 MCP 服务器将政府合同数据接入 AI 工作流，垂直领域数据接入成趋势。</span><span class="tag">cover 等隐私代理工具兴起，满足 AI 代理数据脱敏与合规需求。</span><span class="tag">DualForge-Workflow 等框架推动多编码代理分工协作，提升开发效率。</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-24.html" style="--i: 5">
+      <a class="obs-item desk-obs-item" href="r/2026-08-24.html" style="--i: 5">
         <div class="obs-day num">2026-08-24</div>
         <p class="obs-hook">AI 运维、形式化证明与 4D 生成齐发，机会与证据缺口并存。</p>
         <div class="obs-tags"><span class="tag">oncall-kit 强调人工审批与只读运行，AI 运维安全优先。</span><span class="tag">ten-proofs 发布 Lean 证书，形式化验证迈向可复现。</span><span class="tag">4DAnyone 从单目视频生成 4D 人物，动态内容门槛降低。</span><span class="tag">Airsec 将安全审查左移，编码 CLI 集成尚未核验。</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-22.html" style="--i: 6">
+      <a class="obs-item desk-obs-item" href="r/2026-08-22.html" style="--i: 6">
         <div class="obs-day num">2026-08-22</div>
         <p class="obs-hook">AI智能体基础设施爆发：记忆、可观测、人工介入成新战场</p>
         <div class="obs-tags"><span class="tag">3个值得看：Actx0、AgentSight、Argentic</span><span class="tag">1个趋势：智能体基础设施层密集出现</span><span class="tag">2个异常增长：dsh-im、stop-that-shit</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-21.html" style="--i: 7">
+      <a class="obs-item desk-obs-item" href="r/2026-08-21.html" style="--i: 7">
         <div class="obs-day num">2026-08-21</div>
         <p class="obs-hook">AI 代理工具爆发，但可靠性、成本和安全性成为新焦点</p>
         <div class="obs-tags"><span class="tag">3 个值得看</span><span class="tag">1 个趋势</span><span class="tag">2 个异常增长</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-19.html" style="--i: 8">
+      <a class="obs-item desk-obs-item" href="r/2026-08-19.html" style="--i: 8">
         <div class="obs-day num">2026-08-19</div>
         <p class="obs-hook">AI 开始替人写代码了，但谁来验收、谁来买单，还没人讲清楚</p>
         <div class="obs-tags"><span class="tag">Argus 针对 AI 编码代理的 QA 自动化</span><span class="tag">machine0 提供 CLI 虚拟机管理</span><span class="tag">Singular 本地编排自主编码代理</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-18.html" style="--i: 9">
+      <a class="obs-item desk-obs-item" href="r/2026-08-18.html" style="--i: 9">
         <div class="obs-day num">2026-08-18</div>
         <p class="obs-hook">今天工具很多，能说清谁付钱的很少</p>
         <div class="obs-tags"><span class="tag">3 个值得看</span><span class="tag">1 个趋势</span><span class="tag">2 个异常增长</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-17.html" style="--i: 10">
+      <a class="obs-item desk-obs-item" href="r/2026-08-17.html" style="--i: 10">
         <div class="obs-day num">2026-08-17</div>
         <p class="obs-hook">AI 替人干活之后，下一块生意是看着它、管住它</p>
         <div class="obs-tags"><span class="tag">3个值得看：agent-guard、grafana-agento11y-hermes、deepseek-v4-flash-0731-coder-568gb-moespressov2</span><span class="tag">1个趋势：AI代理的安全与可观测性</span><span class="tag">2个异常增长：无</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-16.html" style="--i: 11">
+      <a class="obs-item desk-obs-item" href="r/2026-08-16.html" style="--i: 11">
         <div class="obs-day num">2026-08-16</div>
         <p class="obs-hook">给 AI 配工具的人，比给客户交货的人更多</p>
         <div class="obs-tags"><span class="tag">ThoughtDAG 以 106 分成为今日 HN 焦点</span><span class="tag">DeepSeek Harness 生态多插件涌现</span><span class="tag">Deltix 用 AI 驱动测试，47 分值得关注</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-15.html" style="--i: 12">
+      <a class="obs-item desk-obs-item" href="r/2026-08-15.html" style="--i: 12">
         <div class="obs-day num">2026-08-15</div>
         <p class="obs-hook">又一天在给 AI 造零件，面向人的产品还没出现</p>
         <div class="obs-tags"><span class="tag">DeepSeek Harness生态出现多个插件，覆盖记忆、视觉、回退等能力</span><span class="tag">Graft通过钩子减少42%的grep token消耗，值得关注</span><span class="tag">多个开源项目提供AI代理安全与合规方案</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-14.html" style="--i: 13">
+      <a class="obs-item desk-obs-item" href="r/2026-08-14.html" style="--i: 13">
         <div class="obs-day num">2026-08-14</div>
         <p class="obs-hook">今天全是给 AI 打工的工具，不是给人用的生意</p>
         <div class="obs-tags"><span class="tag">3个值得看：deepseek-harness、dsh-tui、dsh-workflow</span><span class="tag">1个趋势：agent工具链标准化</span><span class="tag">1个异常增长：无</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-13.html" style="--i: 14">
+      <a class="obs-item desk-obs-item" href="r/2026-08-13.html" style="--i: 14">
         <div class="obs-day num">2026-08-13</div>
         <p class="obs-hook">AI 开始像员工一样被记录、审批和复盘</p>
         <div class="obs-tags"><span class="tag">2 个值得看</span><span class="tag">4 个在给 agent 装监管</span><span class="tag">60 个当场淘汰</span></div>
       </a>
-      <a class="obs-item" href="r/2026-08-11.html" style="--i: 15">
+      <a class="obs-item desk-obs-item" href="r/2026-08-11.html" style="--i: 15">
         <div class="obs-day num">2026-08-11</div>
         <p class="obs-hook">给 AI 干活的工具越来越齐，但真正给人用的体验还没补上</p>
         <div class="obs-tags"><span class="tag">3 个值得看</span><span class="tag">2 个撞上短剧与影视工作流</span><span class="tag">1 个环比涨了 133 倍</span></div>

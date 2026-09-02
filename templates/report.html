@@ -3,39 +3,37 @@
 {% block ogtitle %}{{ report.day }} {{ t.report.kicker }} · {{ locale.site_name }}{% endblock %}
 
 {% block body %}
-<div class="wrap wrap-report">
+<div class="wrap wrap-report report-desk">
 
-  {# 报头：日期不是标题。当天最反直觉的那句结论才是标题。 #}
-  <header class="masthead">
-    <p class="masthead-kicker">
-      {# 版块数不在这里说，目录卡头上紧挨着清单说才有用 #}
-      <span>VOL.{{ report.day | replace("-", ".") }}</span>
-      <span>{{ t.report.kicker }}</span>
-      <span>{{ t.report.minutes.format(n=report.doc.read_minutes) }}</span>
-    </p>
-    <h1>{{ report.hook or report.label }}</h1>
-    <p class="masthead-date">{{ report.label }}</p>
+  <header class="lede-bar desk-command report-command">
+    <div class="lede-main">
+      <p class="eyebrow">
+        <span>VOL.{{ report.day | replace("-", ".") }}</span>
+        <span>{{ t.report.kicker }}</span>
+        <span>{{ t.report.minutes.format(n=report.doc.read_minutes) }}</span>
+      </p>
+      <h1>{{ report.hook or report.label }}</h1>
+      <p class="report-date">{{ report.label }}</p>
+      {% if report.doc.intro %}<p class="report-lede">{{ report.doc.intro | md_inline }}</p>{% endif %}
+      <div class="report-actions">
+        <button class="share-btn" type="button" data-share data-share-copied="{{ t.report.share_copied }}">{{ t.report.share }}</button>
+      </div>
+    </div>
     {% if report.stats %}
-    <div class="masthead-stats">
+    <dl class="desk-stats report-stats">
       {% for value, text in report.stats %}
-      <div>{% if value %}<b class="num">{{ value }}</b>{% endif %}<span>{{ text }}</span></div>
+      <div>{% if value %}<dt class="num">{{ value }}</dt>{% else %}<dt>—</dt>{% endif %}<dd>{{ text }}</dd></div>
       {% endfor %}
-    </div>
+    </dl>
     {% endif %}
-    <div class="masthead-rule"></div>
-    {% if report.doc.intro %}<p class="masthead-lede">{{ report.doc.intro }}</p>{% endif %}
-    <div class="report-actions">
-      <button class="share-btn" type="button" data-share data-share-copied="{{ t.report.share_copied }}">{{ t.report.share }}</button>
-    </div>
   </header>
 
   {% set single_section = report.doc.sections | length == 1 %}
   <div class="report-layout{{ ' report-layout-single' if single_section else '' }}">
     <div class="report-main">
 
-      {# 目录：7 个版块的长文，进来先给一张地图，否则读者不知道有多长 #}
       {% if not single_section %}
-      <nav class="toc" aria-label="{{ t.report.toc }}">
+      <nav class="toc report-toc" aria-label="{{ t.report.toc }}">
         <p class="toc-head">
           <span>{{ t.report.toc }}</span>
           <span class="num">{{ t.report.toc_count.format(n=report.doc.sections | length) }}</span>
@@ -55,20 +53,20 @@
       {% endif %}
 
       {% for s in report.doc.sections %}
-      <section class="sec sec-{{ s.kind }}" id="{{ s.anchor }}">
-        <header class="sec-bar">
+      <section class="sec sec-{{ s.kind }} report-sec" id="{{ s.anchor }}">
+        <header class="sec-bar desk-sec">
           <span class="sec-no num">{{ s.index }}</span>
           <h2>{{ s.title }}</h2>
           {% if s.count_label %}<span class="sec-count num">{{ s.count_label }}</span>{% endif %}
         </header>
-        {% if s.subtitle %}<p class="sec-sub">{{ s.subtitle }}</p>{% endif %}
+        {% if s.subtitle %}<p class="sec-sub">{{ s.subtitle | md_inline }}</p>{% endif %}
 
         {% if s.kind == 'picks' %}
           {% if s.lead_html %}<div class="sec-lead prose-body">{{ s.lead_html | safe }}</div>{% endif %}
           <div class="picks-stack">
             {% for p in s.picks %}
             {% if not p.is_empty %}
-            <article class="pick-card{% if p.is_list %} pick-card-list{% endif %}" style="--i: {{ loop.index0 }}">
+            <article class="pick-card report-pick{% if p.is_list %} pick-card-list{% endif %}" style="--i: {{ loop.index0 }}">
               <div class="pick-card-head">
                 <span class="pick-rank num">{{ p.rank }}</span>
                 <div class="pick-card-id">
@@ -81,7 +79,7 @@
                   {% endif %}
                 </div>
               </div>
-              {% if p.lead %}<p class="pick-lead">{{ p.lead }}</p>{% endif %}
+              {% if p.lead %}<p class="pick-lead">{{ p.lead | md_inline }}</p>{% endif %}
               {% if p.body_html %}<div class="pick-text prose-body">{{ p.body_html | safe }}</div>{% endif %}
               {% if p.link %}<a class="pick-cta" href="{{ p.link }}">{{ p.link_label }} <span aria-hidden="true">→</span></a>{% endif %}
             </article>
@@ -96,9 +94,7 @@
 
     </div>
 
-    {# 单版块日报没有可定位的章节，侧栏只会重复标题。 #}
     {% if not single_section %}
-    {# 滚动定位条：长文里随时知道自己在第几块，以及往期入口 #}
     <aside class="report-rail" aria-label="{{ t.report.rail_aria }}">
       <p class="rail-k">{{ t.report.rail_now }}</p>
       <ol class="rail-list" id="rail-list">
@@ -124,16 +120,12 @@
 
 {% block scripts %}
 <script>
-  // 滚动定位：长文读到一半不知道身在何处，侧栏得跟着走。
-  // 判据是"最后一个已经翻过去的版块头"——两块同时在视野里时不会犹豫，
-  // 滚到页尾也能正确落在最后一块上。
   (function () {
     var links = document.querySelectorAll('#rail-list a[data-anchor]');
     var secs = document.querySelectorAll('.sec[id]');
     if (!links.length || !secs.length) return;
 
     var ticking = false;
-    // 判定线跟着 --bar 走，不写死数字 —— 顶栏高度改了这里会自己对上
     function threshold() {
       var bar = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--bar')) || 57;
       return bar + 63;
@@ -155,8 +147,6 @@
     update();
   })();
 
-  // 好判断要能被带走。优先调用系统分享，桌面端退回复制当前页链接；
-  // 不需要注册，也不会替用户向任何平台发布。
   (function () {
     var button = document.querySelector('[data-share]');
     if (!button) return;
@@ -189,7 +179,6 @@
         button.textContent = button.dataset.shareCopied;
         window.setTimeout(function () { button.textContent = original; }, 1800);
       } catch (err) {
-        // 用户取消系统分享不是错误；复制受限时把链接交给用户，不让 CTA 无声失败。
         if (!navigator.share) window.prompt(manualCopy, url);
       }
     });
