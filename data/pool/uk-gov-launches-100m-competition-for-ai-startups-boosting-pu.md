@@ -21,14 +21,20 @@ url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOeDVZWU50SWJKZWFCYWk1cE
 canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOeDVZWU50SWJKZWFCYWk1cEtPc29XcnpZZDlBQ09rSHZxVDc5RmZVM2V6N1RZejcxS1NRNnByUnRsQk5PR3ltdW12MTNrWmIwalMtWGdoc3FIYUYzcGdrVHFsR3BlZ1JiWTlUcVBKZGc1QllTZ2NreExlNjhyUk14dE9EVkZOeE55cE1SeG9BdHhoUGROcEhiVGF5ZFE?oc=5
 summary: UK Gov Launches £100M Competition for AI Startups Boosting Public Services digit.fyi
 first_seen: '2026-08-31T11:16:51Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: market_context
+last_seen: '2026-09-03T14:36:52Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOeDVZWU50SWJKZWFCYWk1cEtPc29XcnpZZDlBQ09rSHZxVDc5RmZVM2V6N1RZejcxS1NRNnByUnRsQk5PR3ltdW12MTNrWmIwalMtWGdoc3FIYUYzcGdrVHFsR3BlZ1JiWTlUcVBKZGc1QllTZ2NreExlNjhyUk14dE9EVkZOeE55cE1SeG9BdHhoUGROcEhiVGF5ZFE?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/vcs-rejoice-as-uk-government-rules-out-spinout-exit-tax/
+  seen_at: '2026-09-03T14:36:52Z'
   metrics: {}
   kind: news
 ---

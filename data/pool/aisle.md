@@ -20,17 +20,17 @@ url: https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anth
 canonical_url: https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero
 summary: Six curl CVEs after OpenAI and Anthropic came back with zero
 first_seen: '2026-09-02T13:43:14Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 151
-    comments: 54
+    points: 174
+    comments: 57
   kind: news
 ---
 

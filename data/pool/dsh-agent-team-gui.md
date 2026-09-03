@@ -21,16 +21,16 @@ canonical_url: https://github.com/toolclub/dsh-agent-team-gui
 summary: Persistent multi-model workflow teams for DeepSeek Harness — dynamic lead planning, bounded DAGs,
   per-agent model/tools, Run Center and Token insights.
 first_seen: '2026-08-15T03:40:19Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/toolclub/dsh-agent-team-gui#readme
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 164
+    stars: 165
     forks: 2
     open_issues: 6
   kind: product

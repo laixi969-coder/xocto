@@ -20,17 +20,17 @@ url: https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_th
 canonical_url: https://rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens
 summary: AI Agents and the Refactoring That Never Happens
 first_seen: '2026-09-02T19:51:39Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 40
-    comments: 46
+    points: 46
+    comments: 61
   kind: news
 ---
 

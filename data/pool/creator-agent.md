@@ -1,0 +1,44 @@
+---
+slug: creator-agent
+name: creator-agent
+builder: yvetteYSY
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: open_source
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: true
+url: https://github.com/yvetteYSY/creator-agent
+canonical_url: https://github.com/yvetteYSY/creator-agent
+summary: Build AI agents grounded in a creator's documents, audio, and video.
+first_seen: '2026-08-25T04:42:47Z'
+last_seen: '2026-09-03T14:36:27Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/yvetteYSY/creator-agent
+  seen_at: '2026-09-03T14:36:27Z'
+  metrics:
+    stars: 42
+    forks: 5
+    open_issues: 0
+  kind: product
+---
+
+# creator-agent
+
+Build AI agents grounded in a creator's documents, audio, and video.
+
+## 笔记
+
+

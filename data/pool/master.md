@@ -20,8 +20,8 @@ url: https://github.com/ArcadeMakerSources/ArcadeMaker/tree/master
 canonical_url: https://github.com/ArcadeMakerSources/ArcadeMaker/tree/master
 summary: C# Game Engine with its own scripting language and IDE
 first_seen: '2026-08-30T12:01:39Z'
-last_seen: '2026-08-31T17:38:26Z'
-status: rejected
+last_seen: '2026-09-03T14:36:23Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -32,6 +32,13 @@ sightings:
     points: 12
     comments: 0
   kind: product
+- source: hackernews
+  url: https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007
+  seen_at: '2026-09-03T14:36:23Z'
+  metrics:
+    points: 46
+    comments: 7
+  kind: news
 ---
 
 # master

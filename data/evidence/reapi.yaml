@@ -81,3 +81,20 @@
     \ cover the same timeline in two 30-second generations.\r\n\r\nThat does not automatically make Seedance\
     \ better. A failed second 28 can make a 30-second render expensive to rerun. H3 lets you isolate the\
     \ bad shot and regenerate a smaller unit. Seedanc"
+- id: ev-e93289c6f4caf12b
+  project_slug: reapi
+  url: https://www.v2ex.com/t/1239077
+  title: Nano Banana Pro 一张 0.03 美元， GPT Image 2 按 OpenAI 表价 75 折：图片生成 API 最新价格表
+  published_at: '2026-09-03T00:47:39Z'
+  collected_at: '2026-09-03T14:36:21Z'
+  source_kind: product
+  tier: independent
+  fact: "图片模型这两周又降了一轮，顺手把 Google 官方价也对了一遍，给要接图片 API 的人省点比价时间。单位美元/张，Google 官方价取自其定价页 2026-09-03 的数字：\r\
+    \n\r\n| 模型 | 分辨率 | Google 官方 | reAPI | 折扣 |\r\n|---|---|---|---|---|\r\n| Nano Banana Pro | 1K / 2K\
+    \ | 0.134 | 0.030 | 2.2 折 |\r\n| Nano Banana Pro | 4K | 0.24 | 0.033 | 1.4 折 |\r\n| Nano Banana 2\
+    \ | 1K | 0.067 | 0.028 | 4.2 折 |\r\n| Nano Banana 2 | 4K | 0.151 | 0.056 | 3.7 折 |\r\n| Nano Banana\
+    \ 2 Lite | 1K | 0.0336 | 0.015 | 4.5 折 |\r\n| Nano Banana | 1K | 0.039 | 0.015 | 3.8 折 |\r\n\r\nGPT\
+    \ Image 2 这边，GPT Image 2 Stable 这条线改成按 OpenAI 表价的 75% 结算，按实际 token 计：1K 中等质量一张约 0.040 美元（ OpenAI 0.053\
+    \ ），高质量约 0.158 （ OpenAI 0.211 ）。另有一条固定单价线，1K 一张 0.03 、2K 0.05 、4K 0.08 。\r\n\r\n参数和 Google 、OpenAI\
+    \ 官方接口一致，同一个 endpoint ，按 credit 扣费，不用订阅，注册送的额度够跑几十张。\r\n\r\n模型页：\r\n\r\nNano Banana Pro:https://reapi.ai/models/gemini-3-pro-image-preview\
+    \ \r\n\r\nGPT Image 2:https://reapi.ai/models/gpt-image-2 \r\n\r\n有坑欢迎在楼里提。"

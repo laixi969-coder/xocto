@@ -35,16 +35,16 @@ url: https://github.com/bas3line/Airsec
 canonical_url: https://github.com/bas3line/Airsec
 summary: Find Security Issues in your code by using coding CLIs like Claude, Codex & CommandCode
 first_seen: '2026-08-14T19:31:55Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bas3line/Airsec
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 249
+    stars: 259
     forks: 0
     open_issues: 0
   kind: product

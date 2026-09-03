@@ -29,16 +29,16 @@ url: https://mirros-lab.github.io/code-as-world/
 canonical_url: https://mirros-lab.github.io/code-as-world
 summary: 'Code as World: Agentic Discovery of Executable World Representations for Physical Reasoning'
 first_seen: '2026-08-27T17:42:04Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://mirros-lab.github.io/code-as-world/
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 384
+    stars: 393
     forks: 5
     open_issues: 1
   kind: product

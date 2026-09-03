@@ -33,16 +33,16 @@ url: https://xueai.app/?from=source-reading-methodology
 canonical_url: https://xueai.app?from=source-reading-methodology
 summary: 带 AI 精读大型开源仓库的方法论：四阶段流程、可复用模板、28 条踩坑清单，核心是让每个技术论断都可回溯到源码具体行
 first_seen: '2026-08-23T02:51:45Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://xueai.app/?from=source-reading-methodology
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 129
+    stars: 131
     forks: 11
     open_issues: 0
   kind: product

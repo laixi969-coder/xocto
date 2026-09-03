@@ -21,16 +21,16 @@ canonical_url: https://github.com/jermaine123123/agent-context-editor
 summary: Cross-agent plugin for manually excluding and editing AI conversation context, with search, filtering,
   hide/restore, undo, and original Session preservation.
 first_seen: '2026-08-18T00:10:06Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jermaine123123/agent-context-editor
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 53
+    stars: 54
     forks: 2
     open_issues: 0
   kind: product

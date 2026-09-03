@@ -20,17 +20,17 @@ url: https://skatanica.com/runs
 canonical_url: https://skatanica.com/runs
 summary: Browse and share skate clips by location
 first_seen: '2026-09-02T16:33:51Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://skatanica.com/runs
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 7
-    comments: 2
+    points: 13
+    comments: 3
   kind: product
 ---
 

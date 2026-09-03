@@ -20,17 +20,17 @@ url: https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qa
 canonical_url: https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7
 summary: Qantas Airbus A380 engine failure in 2010 (2023)
 first_seen: '2026-09-02T18:42:41Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://admiralcloudberg.medium.com/a-matter-of-millimeters-the-story-of-qantas-flight-32-bdaa62dc98e7
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 74
-    comments: 39
+    points: 166
+    comments: 99
   kind: news
 ---
 

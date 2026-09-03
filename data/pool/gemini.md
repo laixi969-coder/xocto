@@ -34,7 +34,7 @@ canonical_url: https://aicpb.com/product/Gemini/webid1D6F37519
 summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more.
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-09-03T00:16:48Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - aicpb
@@ -88,10 +88,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 796
-    comments: 474
+    points: 1100
+    comments: 624
   kind: news
 - source: officialfeeds
   url: https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/

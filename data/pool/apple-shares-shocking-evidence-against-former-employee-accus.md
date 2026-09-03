@@ -23,7 +23,7 @@ canonical_url: https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-
 summary: Apple says it has evidence that a former employee destroyed evidence of data theft after learning
   he was under investigation.
 first_seen: '2026-09-01T00:13:00Z'
-last_seen: '2026-09-03T00:16:48Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -42,10 +42,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://appleinsider.com/articles/26/09/02/us-government-worried-that-ai-companies-cant-innovate-without-legal-theft
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 8
-    comments: 2
+    points: 11
+    comments: 3
   kind: news
 - source: marketfeeds
   url: https://news.crunchbase.com/venture/robotics-ai-startup-lyte-seriesc-raise-maverick/

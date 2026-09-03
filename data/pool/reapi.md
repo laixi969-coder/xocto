@@ -58,7 +58,7 @@ summary: "I do not think “which model is better?” is answerable from the H3 
   \ and [Seedance 2.5]( https://reapi.ai/models/seedance-2-5) are available. The published model pages\
   \ are linked so the prices can be checked independently."
 first_seen: '2026-08-23T00:10:45Z'
-last_seen: '2026-08-25T22:45:06Z'
+last_seen: '2026-09-03T14:36:21Z'
 status: market_context
 sources:
 - v2ex
@@ -68,16 +68,25 @@ sightings:
   seen_at: '2026-08-25T22:45:06Z'
   metrics:
     comments: 4
+  kind: product
 - source: v2ex
   url: https://reapi.ai/models/qwen-image-3
   seen_at: '2026-08-23T14:11:11Z'
   metrics:
     comments: 1
+  kind: product
 - source: v2ex
   url: https://reapi.ai/models/seedance-2-5
   seen_at: '2026-08-23T14:11:11Z'
   metrics:
     comments: 0
+  kind: product
+- source: v2ex
+  url: https://reapi.ai/models/gemini-3-pro-image-preview
+  seen_at: '2026-09-03T14:36:21Z'
+  metrics:
+    comments: 2
+  kind: product
 ---
 
 # Reapi

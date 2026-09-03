@@ -20,16 +20,16 @@ url: https://github.com/QCYTSN/dsh-dafeiyu
 canonical_url: https://github.com/QCYTSN/dsh-dafeiyu
 summary: Desktop-native BigFish companion for DeepSeek Harness — real Agent status, always on top on Windows.
 first_seen: '2026-08-14T03:35:04Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/QCYTSN/dsh-dafeiyu
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 292
+    stars: 296
     forks: 29
     open_issues: 8
   kind: product

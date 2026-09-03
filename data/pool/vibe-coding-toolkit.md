@@ -34,17 +34,17 @@ canonical_url: https://github.com/soumatheusgomes/vibe-coding-toolkit
 summary: 'A curated, battle-tested AI-coding toolkit: Claude Code plugins, subagent orchestration, quality
   gates, and ready-to-copy prompts, extracted from real production use.'
 first_seen: '2026-08-14T23:41:31Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/soumatheusgomes/vibe-coding-toolkit
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 398
-    forks: 74
+    stars: 404
+    forks: 75
     open_issues: 2
   kind: product
 ---

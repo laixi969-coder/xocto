@@ -20,16 +20,16 @@ url: https://anyto.md/
 canonical_url: https://anyto.md
 summary: Convert Anything to Markdown
 first_seen: '2026-09-02T14:30:04Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://anyto.md/
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 5
+    points: 7
     comments: 0
   kind: product
 ---

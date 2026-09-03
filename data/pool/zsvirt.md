@@ -20,17 +20,17 @@ url: https://github.com/ZSvirt/zsvirt
 canonical_url: https://github.com/ZSvirt/zsvirt
 summary: A lightweight, scalable open source virtualization platform
 first_seen: '2026-09-02T14:12:56Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/ZSvirt/zsvirt
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
     points: 71
-    comments: 9
+    comments: 14
   kind: product
 ---
 

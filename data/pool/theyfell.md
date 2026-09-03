@@ -20,16 +20,16 @@ url: https://theyfell.com/
 canonical_url: https://theyfell.com
 summary: Every AI agrees with you. This writes your startup's obituary instead
 first_seen: '2026-09-02T22:45:39Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://theyfell.com/
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 8
+    points: 9
     comments: 7
   kind: product
 ---

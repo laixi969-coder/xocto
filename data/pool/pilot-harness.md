@@ -21,16 +21,16 @@ canonical_url: https://github.com/op7418/pilot-harness
 summary: Pilot Harness — a CodePilot-inspired desktop client and plugin suite for DeepSeek Harness on
   macOS, Windows, and Linux.
 first_seen: '2026-08-17T06:56:42Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/op7418/pilot-harness
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 260
+    stars: 259
     forks: 18
     open_issues: 19
   kind: product

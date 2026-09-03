@@ -20,17 +20,17 @@ url: https://github.com/stloendays/Superpower-V1
 canonical_url: https://github.com/stloendays/Superpower-V1
 summary: 'From AI Assistance to Agentic Workflows: Making MCP Practical in the Browser'
 first_seen: '2026-08-24T06:19:42Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/stloendays/Superpower-V1
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
     stars: 46
-    forks: 2
+    forks: 3
     open_issues: 5
   kind: product
 ---

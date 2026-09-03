@@ -20,17 +20,17 @@ url: https://github.com/mlc-ai/web-llm
 canonical_url: https://github.com/mlc-ai/web-llm
 summary: high-performance in-browser LLM inference engine
 first_seen: '2026-09-02T14:02:35Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/mlc-ai/web-llm
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 84
-    comments: 17
+    points: 136
+    comments: 23
   kind: news
 ---
 

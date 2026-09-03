@@ -20,16 +20,16 @@ url: https://kekoso.app/
 canonical_url: https://kekoso.app
 summary: On-device dictation and transcription for macOS
 first_seen: '2026-09-02T16:51:01Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://kekoso.app/
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 5
+    points: 7
     comments: 3
   kind: product
 ---

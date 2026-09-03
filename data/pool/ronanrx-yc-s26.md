@@ -20,7 +20,7 @@ url: https://ronanrx.com/
 canonical_url: https://ronanrx.com
 summary: Personalized Peptides and GLP-1s
 first_seen: '2026-09-02T22:36:04Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,13 @@ sightings:
   metrics:
     points: 13
     comments: 15
+  kind: product
+- source: hackernews
+  url: https://news.ycombinator.com/item?id=49543530
+  seen_at: '2026-09-03T14:36:23Z'
+  metrics:
+    points: 75
+    comments: 76
   kind: product
 ---
 

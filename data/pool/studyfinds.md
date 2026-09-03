@@ -20,17 +20,17 @@ url: https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forg
 canonical_url: https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds
 summary: Aging Brains Blend Memories Together Instead of Just Forgetting Them
 first_seen: '2026-09-02T12:59:09Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 199
-    comments: 88
+    points: 315
+    comments: 127
   kind: news
 ---
 

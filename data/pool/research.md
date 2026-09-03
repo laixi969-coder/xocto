@@ -20,16 +20,16 @@ url: https://research.meta.ai/blog/introducing-muse-spark-1-3
 canonical_url: https://research.meta.ai/blog/introducing-muse-spark-1-3
 summary: Introducing Muse Spark 1.3
 first_seen: '2026-09-02T19:25:47Z'
-last_seen: '2026-09-03T00:16:26Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://research.meta.ai/blog/introducing-muse-spark-1-3
-  seen_at: '2026-09-03T00:16:26Z'
+  seen_at: '2026-09-03T14:36:23Z'
   metrics:
-    points: 63
+    points: 65
     comments: 0
   kind: news
 ---

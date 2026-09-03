@@ -22,17 +22,17 @@ summary: Give DeepSeek Harness a real office environment.  Univer Office Plugin 
   slides, canvases, relational tables, and more into one runtime — with connected data, validation, versioned
   changes, and isolated worktrees for multi-agent collaboration.
 first_seen: '2026-08-15T16:29:45Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://office.univer.ai
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 247
-    forks: 22
+    stars: 257
+    forks: 23
     open_issues: 2
   kind: product
 ---

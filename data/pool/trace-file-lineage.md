@@ -22,7 +22,7 @@ canonical_url: https://pypi.org/project/trace-file-lineage
 summary: Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence
   and honest uncertainty.
 first_seen: '2026-07-29T22:05:47Z'
-last_seen: '2026-09-03T00:16:29Z'
+last_seen: '2026-09-03T14:36:27Z'
 status: rejected
 sources:
 - github
@@ -37,10 +37,10 @@ sightings:
   kind: product
 - source: github
   url: https://pypi.org/project/quackd/
-  seen_at: '2026-09-03T00:16:29Z'
+  seen_at: '2026-09-03T14:36:27Z'
   metrics:
-    stars: 121
-    forks: 10
+    stars: 136
+    forks: 13
     open_issues: 3
   kind: product
 ---

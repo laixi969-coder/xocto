@@ -20,7 +20,7 @@ url: https://telem.ai/
 canonical_url: https://telem.ai
 summary: Route agent web search across providers and inspect the traces
 first_seen: '2026-08-27T19:13:57Z'
-last_seen: '2026-08-28T06:07:17Z'
+last_seen: '2026-09-03T14:36:23Z'
 status: pending_filter
 sources:
 - hackernews
@@ -31,6 +31,14 @@ sightings:
   metrics:
     points: 8
     comments: 2
+  kind: product
+- source: hackernews
+  url: https://marius.blog/firefox-155-ai-kill-switch-retest/
+  seen_at: '2026-09-03T14:36:23Z'
+  metrics:
+    points: 41
+    comments: 36
+  kind: news
 ---
 
 # Telem
