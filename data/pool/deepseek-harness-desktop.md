@@ -23,7 +23,7 @@ url: https://dshdesktop.cn
 canonical_url: https://dshdesktop.cn
 summary: 为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验
 first_seen: '2026-08-13T16:30:50Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: queued
 sources:
 - github
@@ -70,9 +70,9 @@ sightings:
   kind: product
 - source: github
   url: https://dshtauri.mintlify.site
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 1577
+    stars: 1585
     forks: 102
     open_issues: 37
   kind: product
@@ -83,6 +83,14 @@ sightings:
     stars: 313
     forks: 12
     open_issues: 3
+  kind: product
+- source: github
+  url: https://github.com/chokwinlee/deepseek-harness-desktop
+  seen_at: '2026-09-03T00:16:29Z'
+  metrics:
+    stars: 161
+    forks: 1
+    open_issues: 14
   kind: product
 ---
 

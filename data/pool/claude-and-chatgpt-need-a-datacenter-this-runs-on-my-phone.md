@@ -20,16 +20,16 @@ url: https://llmobi.pages.dev
 canonical_url: https://llmobi.pages.dev
 summary: ''
 first_seen: '2026-09-01T19:28:47Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://llmobi.pages.dev
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 14
+    points: 17
     comments: 4
   kind: product
 ---

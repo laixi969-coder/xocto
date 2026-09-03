@@ -37,7 +37,7 @@ canonical_url: https://github.com/xmanrui/dsh-im
 summary: 通过扫码或机器人凭据把IM机器人接入DeepSeek Harness（支持飞书、微信、钉钉、企业微信、QQ、Slack、Telegram、Discord和WhatsApp）。 Connect
   IM bots to DeepSeek Harness via QR code or credentials (9 channels).
 first_seen: '2026-08-14T20:40:06Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: queued
 sources:
 - github
@@ -45,11 +45,11 @@ sources:
 sightings:
 - source: github
   url: https://github.com/xmanrui/dsh-im
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 1067
-    forks: 116
-    open_issues: 37
+    stars: 1072
+    forks: 117
+    open_issues: 29
   kind: product
 - source: marketfeeds
   url: https://tech.eu/2026/08/27/human-must-not-surrender-cognition-to-ai/

@@ -20,17 +20,17 @@ url: https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-ind
 canonical_url: https://pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis
 summary: Dwarf Fortress' creator says the industry's in shambles over AI
 first_seen: '2026-09-01T15:53:42Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 231
-    comments: 239
+    points: 236
+    comments: 245
   kind: news
 ---
 

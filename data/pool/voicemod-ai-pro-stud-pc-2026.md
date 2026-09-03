@@ -23,18 +23,19 @@ summary: VoiceMod Pro is a leading real-time voice changer, soundboard, and audi
   microphone input live with low latency across popular communication platforms like Discord, OBS, Twitch,
   Zoom, and in-game voice channels.
 first_seen: '2026-08-19T08:09:02Z'
-last_seen: '2026-08-24T22:44:36Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/mattwurdock-arch/VoiceMod-AI-Pro-Stud-PC-2026
-  seen_at: '2026-08-24T22:44:36Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 47
+    stars: 48
     forks: 0
     open_issues: 0
+  kind: product
 ---
 
 # VoiceMod-AI-Pro-Stud-PC-2026

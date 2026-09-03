@@ -23,7 +23,7 @@ url: https://github.com/Winipedia/pyrig
 canonical_url: https://github.com/Winipedia/pyrig
 summary: A tool that automates project setup and maintenance
 first_seen: '2026-08-10T22:34:55Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,10 +38,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
     points: 163
-    comments: 187
+    comments: 189
   kind: news
 - source: marketfeeds
   url: https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai

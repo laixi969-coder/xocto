@@ -20,11 +20,12 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-08-31T17:38:50Z'
-status: rejected
+last_seen: '2026-09-03T00:16:47Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- officialfeeds
 sightings:
 - source: hackernews
   url: https://seenshot.app/
@@ -36,6 +37,11 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers/
   seen_at: '2026-08-31T17:38:50Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro
+  seen_at: '2026-09-03T00:16:47Z'
   metrics: {}
   kind: news
 ---

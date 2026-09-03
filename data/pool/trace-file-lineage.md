@@ -9,12 +9,20 @@ summary_en: ''
 inspiration_en: Once AI is in the production chain, “where did this come from” becomes a hard requirement.
   Provenance is a category opening up.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://pypi.org/project/trace-file-lineage/
 canonical_url: https://pypi.org/project/trace-file-lineage
 summary: Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence
   and honest uncertainty.
 first_seen: '2026-07-29T22:05:47Z'
-last_seen: '2026-08-15T22:37:13Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: rejected
 sources:
 - github
@@ -26,6 +34,15 @@ sightings:
     stars: 314
     forks: 6
     open_issues: 2
+  kind: product
+- source: github
+  url: https://pypi.org/project/quackd/
+  seen_at: '2026-09-03T00:16:29Z'
+  metrics:
+    stars: 121
+    forks: 10
+    open_issues: 3
+  kind: product
 ---
 
 # trace-file-lineage

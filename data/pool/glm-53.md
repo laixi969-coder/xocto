@@ -24,13 +24,14 @@ url: https://www.producthunt.com/products/z-ai
 canonical_url: https://producthunt.com/products/z-ai
 summary: Coding leap from scaled post-training on the same base
 first_seen: '2026-08-14T06:21:52Z'
-last_seen: '2026-08-30T00:20:04Z'
-status: market_context
+last_seen: '2026-09-03T00:16:47Z'
+status: pending_filter
 sources:
 - producthunt
 - hackernews
 - huggingface
 - marketfeeds
+- officialfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/z-ai
@@ -53,6 +54,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/08/480223.html
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/glm-5-3-is-50-off-through-digitalocean-on-ai-gateway
+  seen_at: '2026-09-03T00:16:47Z'
   metrics: {}
   kind: news
 ---

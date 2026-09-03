@@ -20,17 +20,17 @@ url: https://github.com/carloslfu/slotstream
 canonical_url: https://github.com/carloslfu/slotstream
 summary: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s
 first_seen: '2026-09-01T16:42:46Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/carloslfu/slotstream
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 223
-    comments: 105
+    points: 225
+    comments: 106
   kind: product
 ---
 

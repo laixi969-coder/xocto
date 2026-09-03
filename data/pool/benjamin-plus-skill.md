@@ -33,16 +33,16 @@ canonical_url: https://github.com/JetBrains/benjamin-plus-skill
 summary: 'Benjamin-Plus: a measured token-efficiency skill for coding agents (−17.9% cost median, quality
   unchanged). Inject it, don''t install it.'
 first_seen: '2026-08-17T11:00:29Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JetBrains/benjamin-plus-skill
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 304
+    stars: 306
     forks: 13
     open_issues: 2
   kind: product

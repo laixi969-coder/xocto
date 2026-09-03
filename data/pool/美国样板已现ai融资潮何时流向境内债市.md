@@ -21,7 +21,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xUk1KWTJXaENmV2lNTmJmNz
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xUk1KWTJXaENmV2lNTmJmNzVJdzh6MGJ5bWNZdlpBdW1MZ01rNmRxeGpXNVR3U1dOalBTek1qalViYW5CMHJ3QmRLVDNnQkdWd01F?oc=5
 summary: 美国样板已现，AI融资潮何时流向境内债市？ 华尔街见闻
 first_seen: '2026-08-27T03:52:00Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-03T00:16:50Z'
 status: pending_filter
 sources:
 - newssearch
@@ -44,6 +44,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2Z016NmYxOUh6RXg5ME41XzdPRHVsSFVBcFg4ZWVqcG5HdHNHNk5lQVUtOXhHeEp2WHVaOWktVXV2Z3BtYkJBOGlHeXA5ZFM3TkVXMEhoWWtuNjFONTlXem5XeDl0Zw?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKb29sV0hKU2VsNWY5eDlaSUl6Q1ZvZWNlN3FYd3JDcUY5MGRDQkdFQUotcklsVmlOMnRCZE9nRzZhNXA3WlVqb3cydV83UlFYUVFIQ213SUl1WWxBQnZDLQ?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
   metrics: {}
   kind: news
 ---

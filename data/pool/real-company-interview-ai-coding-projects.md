@@ -32,16 +32,16 @@ url: https://github.com/CHENG-LIANG1/real-company-interview-ai-coding-projects
 canonical_url: https://github.com/CHENG-LIANG1/real-company-interview-ai-coding-projects
 summary: 三个匿名化真实 AI Coding 面试项目题与一套通用解题方法
 first_seen: '2026-08-26T02:22:48Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/CHENG-LIANG1/real-company-interview-ai-coding-projects
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 300
+    stars: 301
     forks: 21
     open_issues: 0
   kind: product

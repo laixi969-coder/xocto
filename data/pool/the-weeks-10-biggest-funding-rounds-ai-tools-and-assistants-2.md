@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQeWpRUE14bHoy
 summary: 'The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals
   Crunchbase News'
 first_seen: '2026-08-28T17:21:00Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-03T00:16:50Z'
 status: pending_filter
 sources:
 - newssearch
@@ -35,6 +35,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizAFBVV95cUxPaU5TSXdkNDQ5d0YwWGt2d1pNaW9USnVFNlBxcUpMTUtDWW45Q20tNUgwa19DWHQ0V0tqcDlRT1pnMUdZMGlaeUxfenNzR0cxOTN0clY1OURvcjRQUTRFTklhUjRUalVqdlFKSlExdE1zR2luVmNKY3pXbGh4OF9ldnZyQ3dhUjdMblFGYmk0Q2dXYlpWOFdXcC15WXdfb2g1U3RVQmowSHRaeUoxdTRTUU9USjVUdkIwYUdBdHp2bHVJeFNNYkxfM3lJZ1nSAdIBQVVfeXFMTno4LUdzOENzUVBqTHdKYnZ6Smh6X3pmYUVhbV9Na0NSY25TaXZDRFE3bGt5Wkh0VnUxS3l0YnRQMTE2RGVROHJBNm8xUm9EUHlya0I0akpLVEwyclB4UWY4R05NSVhUQlpDXy02Y3dqMUpjUHlaYUVEenFUejFNSzBqODlpYkd0NjhNZEFTZkd1RU5PZGlHNlhYZHFidzd2elg1OE5xRHlocXNSdU9ya2pQdEJMdXV1eFJCRDlFZ0NEZmhWdnhsM21lcU1VYUx2eWhn?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOak1BdFB6aW5Ic29lejk1WW9kc0p5ajBIX2J1VDBpOTJxUWhBZUl5Tlp6RDR0NkxnV28zN0ZfLXpPUlRWWHRvb2E4eEFpbWVlS21ienJnTDhCT0VVUVpoLUdoeWNLR3pnWXNseHBPMmgzUDhnTFBrZjBERDNPbWJFc1Z6b2J2S0FqUE5SWnEyeXRubGlHT0hGS3psZl9XVkk?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
   metrics: {}
   kind: news
 ---

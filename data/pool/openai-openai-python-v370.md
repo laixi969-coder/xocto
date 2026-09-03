@@ -36,16 +36,16 @@ summary: '## [3.7.0](https://github.com/openai/openai-python/compare/v3.6.0...v3
   * avoid repeated numpy checks for embeddings ([#3757](https://github.com/openai/openai-python/issues/3757))
   ([b19c216](https://github.com/openai/openai-python/commit/b19c2161b1eac80fbf1f6f67a64a50af99c53356))'
 first_seen: '2026-09-02T01:30:12Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/openai-python/releases/tag/v3.7.0
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    reactions: 1
+    reactions: 2
   kind: news
 ---
 

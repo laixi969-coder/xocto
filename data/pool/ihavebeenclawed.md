@@ -20,16 +20,16 @@ url: https://ihavebeenclawed.com/
 canonical_url: https://ihavebeenclawed.com
 summary: I Have Been Clawed – Index of coding agent incidents
 first_seen: '2026-09-02T05:23:43Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://ihavebeenclawed.com/
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 15
+    points: 19
     comments: 2
   kind: product
 ---

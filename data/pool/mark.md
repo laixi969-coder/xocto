@@ -31,7 +31,7 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-03T00:16:50Z'
 status: pending_filter
 sources:
 - hackernews
@@ -110,6 +110,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirAFBVV95cUxNcnp4Y01ySWFxUHoxVElfcWw2eGVCT1lsTW0yZW9kbTZneFFiNTNIV0pheVpNRXdUblJnaEtlVWU3NTljbUgwd2I4ZnhnNEhtVEZkaUh0bkJ3clpQV25WenQyUjF0WkZ5eW5TSjhfSzRjR0tFZWs5MEduejRMdEk3Zk1GdUdkTGs3Y1NBR2pJeEJqa2ktSUxTeF96T1NRM043SHEtbzluWHRDSEh3?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisAFBVV95cUxPOG5Db2tVVFp0N1k3MDluaU5rVVhLYWVTVXFyZjN4U2xQWFJZdmJvdGV3WnBXd1hOMWZ1M3hNUC15MjRLX241YVowcl9OTXZZa1lKY3hEN05NcGJBckNFNDBrSFl3NmxNQlI4alBjR0JvWjZYOEdTOEpnM2lTejVrYjlDblNWQ3ZmTUZzMG16T2t0d2ltQVlBTjYtZmlOZkJZNWZyak1ETjM5U2szbW5lQQ?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi-AFBVV95cUxONG9Ebng3VTBlcUxtZXBIMk0ycDJkbm9Bc185cXRuSUxMZElOZXFrbG94SkZIVGlVLWp6TjFlc3ltRXJ6cjF3cWFSMjlCSlJIRjBGNzlENWJjcjEwd0RQSUQzaG1PR21DaUJ4cG5mQkxNRW9NcWdRYWdzYnNpNno1bGxqVzlvYi1PYzNhMVRGS1E1ay1nX3dDNnhLUURzMkpWR0VMdEtpOTdhSjBDT1ZWWC1mSXYwZ0VwVENCazM2SVo0eDQ1VWI1aFNUc01zNFZSVl80NkdrVEN0bTdIa08xU3E0N1Y4SThxbVVIVnZVOEk4NkE3MUV5RA?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxOM1pjdGdxQ0UtS1hVUE1nYTJqeTZabWR1dUhnaVA0WEtCMzBUNWFOWlFJc1pVR211Q2NWbnotOTIybnRhUEpBZW9VNVQ5S0R0bFlRVEVuNkJULWlFcGhTSnJjaDZ0SDU2ZVJwTmt3d0YzZFg2cXJISllWaU5qaWNIREZDa2J1M1JFSy1fdGtmcFAxUmk0QWx0ZDRNMTJuckwyVjVOTVdPY2tST29XcV9OTXNkNGVWNjA?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
   metrics: {}
   kind: news
 ---

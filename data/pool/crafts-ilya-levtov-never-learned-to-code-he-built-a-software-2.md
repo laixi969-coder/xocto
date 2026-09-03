@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FTMGpTWGtOOUpYdTFadE
 canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FTMGpTWGtOOUpYdTFadEtpMV8wQUdVamVySVJkMnFIcnNkanVLQ2pLc0NIMWVvUnFWUV9uOTZMdC1hSkh6OHdURVNsZExyWnJ4REMwUUdMMGRqcGpRbWpPZ1lkd3U1LTdNVmY1RHAyTUR0MHJqenc5dXNmX0pqdGQtbDJ3aXNnWUo0?oc=5
 summary: Craft’s Ilya Levtov Never Learned To Code. He Built A Software Company Anyway. Crunchbase News
 first_seen: '2026-08-27T11:00:20Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - newssearch
@@ -33,10 +33,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://aviationweek.com/defense/aircraft-propulsion/saab-enters-collaborative-combat-aircraft-race-high-end-concept
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 99
-    comments: 121
+    points: 102
+    comments: 125
   kind: news
 ---
 

@@ -11,22 +11,31 @@ inspiration_en: 'The trend is niche search moving into chat instead of another s
   trend is still unclear. Judgment: the entry is owning one fandom end to end—find, understand, leave
   with a link—not a general search box.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/cocofhu/anime-find#readme
 canonical_url: https://github.com/cocofhu/anime-find
 summary: DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。
 first_seen: '2026-08-15T13:53:46Z'
-last_seen: '2026-08-17T22:41:17Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cocofhu/anime-find#readme
-  seen_at: '2026-08-17T22:41:17Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 137
-    forks: 26
-    open_issues: 1
+    stars: 164
+    forks: 32
+    open_issues: 6
+  kind: product
 ---
 
 # anime-find

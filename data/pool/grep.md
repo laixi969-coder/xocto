@@ -20,10 +20,11 @@ url: https://grep.codemod.com/
 canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
-last_seen: '2026-08-23T14:11:13Z'
+last_seen: '2026-09-03T00:16:50Z'
 status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://grep.codemod.com/
@@ -31,6 +32,12 @@ sightings:
   metrics:
     points: 15
     comments: 0
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2lmOXJVQW9FM1hhRXFlSGlkY0RGZGUzd00wOUJCZDl6bU5WNGx0QldYSkZxY053SXp2dlZRYmVsdTZIYnlxZ2pwSnN4VUJMOVl3WmRVakN1NDlEaE9ZNzUyeTJOVHZiSjk4bkhJZ2haWmFkdkxzekY0QXFGTGxRcEpZUkRMdm43cGZfZw?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
 ---
 
 # grep

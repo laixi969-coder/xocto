@@ -1,0 +1,14 @@
+- id: ev-26f18fe018034de7
+  project_slug: vercel-ai-ai-sdk-xai4054
+  url: https://github.com/vercel/ai/releases/tag/%40ai-sdk/xai%404.0.54
+  title: 'vercel/ai: @ai-sdk/xai@4.0.54'
+  published_at: '2026-09-02T20:28:52Z'
+  collected_at: '2026-09-03T00:16:29Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '### Patch Changes
+
+
+    - 048ce06: feat(batch): surface the uploaded input file on the batch start result (`providerMetadata.<provider>.inputFileId`
+    / `inputFileExpiresAt`) and accept an `inputFileExpiresAfter` provider option on the OpenAI and xAI
+    batch input file upload'

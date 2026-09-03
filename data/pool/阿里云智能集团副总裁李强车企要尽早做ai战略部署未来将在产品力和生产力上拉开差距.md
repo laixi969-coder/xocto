@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFE5THZSOTBNTk1QckFxak
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFE5THZSOTBNTk1QckFxakt4eTN5NXZvM0V2cGhMX3ZWaHlRZGxUQi1YMkVTakRsaldvRXRHb2dVd0J3OGU1TTQwRXh1TmZyekhGdTRXUHM2S2tuMWgyeWJsbjNxUlJUdFBlVFpsenBFR2xBWGhyREJGNWRtd1BvR2FETktxdnE0b1NPRw?oc=5
 summary: 阿里云智能集团副总裁李强：车企要尽早做AI战略部署，未来将在产品力和生产力上拉开差距 Sohu
 first_seen: '2026-09-02T11:13:04Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-03T00:16:50Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQSFE5THZSOTBNTk1QckFxakt4eTN5NXZvM0V2cGhMX3ZWaHlRZGxUQi1YMkVTakRsaldvRXRHb2dVd0J3OGU1TTQwRXh1TmZyekhGdTRXUHM2S2tuMWgyeWJsbjNxUlJUdFBlVFpsenBFR2xBWGhyREJGNWRtd1BvR2FETktxdnE0b1NPRw?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMieEFVX3lxTE56RzV5TmJiVEtHeTczVWx1VTJVWWJKb3NaLTdtODY2M0dFTGhqQmYtNlpOMEwtUFE3NEU5b1RLUWluRF9QWG9JRzdDOHlZSmdOQ0tPblBjbzNRNlZpNjJfeU9WajNpb21mYTZsemV0TnBQQ1hTLVA3RA?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
   metrics: {}
   kind: news
 ---

@@ -20,16 +20,16 @@ url: https://huggingface.co/spaces/hugging-apps/h3-world-action-demo
 canonical_url: https://huggingface.co/spaces/hugging-apps/h3-world-action-demo
 summary: Drive a world model with WASD and camera keys
 first_seen: '2026-09-02T03:20:22Z'
-last_seen: '2026-09-02T14:32:02Z'
+last_seen: '2026-09-03T00:16:46Z'
 status: pending_filter
 sources:
 - huggingface
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/hugging-apps/h3-world-action-demo
-  seen_at: '2026-09-02T14:32:02Z'
+  seen_at: '2026-09-03T00:16:46Z'
   metrics:
-    likes: 4
+    likes: 7
   kind: product
 ---
 

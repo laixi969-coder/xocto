@@ -1,7 +1,7 @@
 ---
 slug: gemini
 name: Gemini
-builder: ''
+builder: simonsarris
 category: 通用助手
 summary_zh: Gemini 是 Google 的 AI 助手，提供写作、规划、头脑风暴等生成式 AI 功能。近期推出面向律师的专用工具和 Gemini Enterprise，并已被 Verizon
   用于处理大部分来电。
@@ -34,13 +34,14 @@ canonical_url: https://aicpb.com/product/Gemini/webid1D6F37519
 summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more.
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-09-02T00:14:57Z'
+last_seen: '2026-09-03T00:16:48Z'
 status: pending_filter
 sources:
 - aicpb
 - newssearch
 - officialfeeds
 - marketfeeds
+- hackernews
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Gemini/webid1D6F37519
@@ -83,6 +84,23 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmlxbzM1WV8yOTFORHhRVUxWbzMzNkNLZ09EWXBvUFpEcWw1YmpUOTJIUzRLMS1CYzVEc2s1M0dLSE45LVhRX2dPSkcwWkE5YVMzVTI4YVdTZ3NfZWVPTnBIdExnTnNjR1paQ2UyTlZTeGFxSHFVZlV6djBKUnhxX3ZHbGVPZnVDWHNNTmNOTjliVWFyb3g0b2tXMDM?oc=5
   seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/
+  seen_at: '2026-09-03T00:16:26Z'
+  metrics:
+    points: 796
+    comments: 474
+  kind: news
+- source: officialfeeds
+  url: https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/
+  seen_at: '2026-09-03T00:16:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit
+  seen_at: '2026-09-03T00:16:48Z'
   metrics: {}
   kind: news
 ---

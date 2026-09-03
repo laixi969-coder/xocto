@@ -20,16 +20,16 @@ url: https://shzlw.github.io/windrunner/
 canonical_url: https://shzlw.github.io/windrunner
 summary: AI-powered project collaboration workspace
 first_seen: '2026-09-02T12:19:55Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://shzlw.github.io/windrunner/
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 7
+    points: 8
     comments: 3
   kind: product
 ---

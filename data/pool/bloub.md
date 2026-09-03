@@ -21,17 +21,17 @@ canonical_url: https://bloub.vercel.app
 summary: SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the
   reference video frame by frame.
 first_seen: '2026-08-15T13:21:23Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://bloub.vercel.app
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 1039
-    forks: 127
+    stars: 1058
+    forks: 133
     open_issues: 3
   kind: product
 ---

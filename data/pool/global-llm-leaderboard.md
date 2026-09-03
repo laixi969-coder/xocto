@@ -20,16 +20,16 @@ url: https://huggingface.co/spaces/VIDraft/global-llm-leaderboard
 canonical_url: https://huggingface.co/spaces/VIDraft/global-llm-leaderboard
 summary: ''
 first_seen: '2026-09-02T00:12:07Z'
-last_seen: '2026-09-02T14:32:02Z'
+last_seen: '2026-09-03T00:16:46Z'
 status: pending_filter
 sources:
 - huggingface
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/VIDraft/global-llm-leaderboard
-  seen_at: '2026-09-02T14:32:02Z'
+  seen_at: '2026-09-03T00:16:46Z'
   metrics:
-    likes: 19
+    likes: 22
   kind: product
 ---
 

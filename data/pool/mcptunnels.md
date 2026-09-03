@@ -20,17 +20,17 @@ url: https://terragohan.github.io/mcptunnels/
 canonical_url: https://terragohan.github.io/mcptunnels
 summary: ngrok for MCP with basic OAuth
 first_seen: '2026-09-01T20:34:55Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://terragohan.github.io/mcptunnels/
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 13
-    comments: 0
+    points: 14
+    comments: 1
   kind: product
 ---
 

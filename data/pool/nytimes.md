@@ -20,7 +20,7 @@ url: https://www.nytimes.com/2026/08/30/world/canada/lake-ontario-america-google
 canonical_url: https://nytimes.com/2026/08/30/world/canada/lake-ontario-america-google-maps.html
 summary: Google Maps Renames Lake Ontario to Lake America
 first_seen: '2026-08-31T14:28:01Z'
-last_seen: '2026-09-01T14:56:29Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -37,6 +37,13 @@ sightings:
   url: https://www.understandingai.org/p/why-humanoid-robots-wont-catch-up
   seen_at: '2026-09-01T14:56:29Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html
+  seen_at: '2026-09-03T00:16:26Z'
+  metrics:
+    points: 133
+    comments: 100
   kind: news
 ---
 

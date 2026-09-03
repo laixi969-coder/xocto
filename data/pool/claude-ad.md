@@ -36,17 +36,17 @@ summary: 'Active Directory pentest methodology for Claude Code: skills, agents a
   internal AD red-team work (Kerberoasting, ADCS ESC1-17, DCSync, ACL abuse, NTLM relay, delegation),
   with per-technique OPSEC/telemetry notes. Drives netexec, impacket, certipy, bloodyAD, BloodHound CE.'
 first_seen: '2026-08-24T18:13:22Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://adscanpro.com
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 141
-    forks: 23
+    stars: 142
+    forks: 24
     open_issues: 0
   kind: product
 ---

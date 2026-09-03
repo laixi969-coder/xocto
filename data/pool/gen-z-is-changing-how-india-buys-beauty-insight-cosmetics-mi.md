@@ -1,0 +1,43 @@
+---
+slug: gen-z-is-changing-how-india-buys-beauty-insight-cosmetics-mi
+name: 'Gen Z is changing how India buys beauty: Insight Cosmetics’ Mihir Jain on trends, AI and skinification
+  | Fashion Trends'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMigwJBVV95cUxNcWZ4S0ktNF9RSjBNd2lRZU95a3N5Z0pJdVJKT2d2U2xHbE9hU0c4Q0xYWWN1WHJBQjZYcXU5ckJ4eGJGaGJIYnZhWW9vVEV1eEJTMkI4V2FjWTNkZFdVM0hqV2ZldUVDR0RlT1VhNmtrUXBwSmhHX2hvMVM3WUZob1A1b2hJZ1NRR0hJM3NNY2RSRko1M3Ata0hOVHBXemotMkYwZjNTMFNHQUd1MDRpMHlzeUtiSVd5OGNrSGtWNUs5RHZOZjEzclhxT2dIN1MzZ0haLVZ2em9GZjJRRGc0Q01MNld3anpXem5fSWsycUF2MU1QQkhRUl90OVF4bzMwbko00gGDAkFVX3lxTE1xZnhLSS00X1FKME13aVFlT3lrc3lnSkl1UkpPZ3ZTbEdsT2FTRzhDTFhZY3VYckFCNlhxdTlyQnh4YkZoYkhidmFZb29URXV4QlMyQjhXYWNZM2RkV1UzSGpXZmV1RUNHRGVPVWE2a2tRcHBKaEdfaG8xUzdZRmhvUDVvaElnU1FHSEkzc01jZFJGSjUzcC1rSE5UcFd6ai0yRjBmM1MwU0dBR3UwNGkweXN5S2JJV3k4Y2tIa1Y1SzlEdk5mMTNyWHFPZ0g3UzNnSFotVnZ6b0ZmMlFEZzRDTUw2V3dqeld6bl9JazJxQXYxTVBCSFFSX3Q5UXhvMzBuSjQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMigwJBVV95cUxNcWZ4S0ktNF9RSjBNd2lRZU95a3N5Z0pJdVJKT2d2U2xHbE9hU0c4Q0xYWWN1WHJBQjZYcXU5ckJ4eGJGaGJIYnZhWW9vVEV1eEJTMkI4V2FjWTNkZFdVM0hqV2ZldUVDR0RlT1VhNmtrUXBwSmhHX2hvMVM3WUZob1A1b2hJZ1NRR0hJM3NNY2RSRko1M3Ata0hOVHBXemotMkYwZjNTMFNHQUd1MDRpMHlzeUtiSVd5OGNrSGtWNUs5RHZOZjEzclhxT2dIN1MzZ0haLVZ2em9GZjJRRGc0Q01MNld3anpXem5fSWsycUF2MU1QQkhRUl90OVF4bzMwbko00gGDAkFVX3lxTE1xZnhLSS00X1FKME13aVFlT3lrc3lnSkl1UkpPZ3ZTbEdsT2FTRzhDTFhZY3VYckFCNlhxdTlyQnh4YkZoYkhidmFZb29URXV4QlMyQjhXYWNZM2RkV1UzSGpXZmV1RUNHRGVPVWE2a2tRcHBKaEdfaG8xUzdZRmhvUDVvaElnU1FHSEkzc01jZFJGSjUzcC1rSE5UcFd6ai0yRjBmM1MwU0dBR3UwNGkweXN5S2JJV3k4Y2tIa1Y1SzlEdk5mMTNyWHFPZ0g3UzNnSFotVnZ6b0ZmMlFEZzRDTUw2V3dqeld6bl9JazJxQXYxTVBCSFFSX3Q5UXhvMzBuSjQ?oc=5
+summary: 'Gen Z is changing how India buys beauty: Insight Cosmetics’ Mihir Jain on trends, AI and skinification
+  | Fashion Trends Hindustan Times'
+first_seen: '2026-09-02T07:30:41Z'
+last_seen: '2026-09-03T00:16:50Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigwJBVV95cUxNcWZ4S0ktNF9RSjBNd2lRZU95a3N5Z0pJdVJKT2d2U2xHbE9hU0c4Q0xYWWN1WHJBQjZYcXU5ckJ4eGJGaGJIYnZhWW9vVEV1eEJTMkI4V2FjWTNkZFdVM0hqV2ZldUVDR0RlT1VhNmtrUXBwSmhHX2hvMVM3WUZob1A1b2hJZ1NRR0hJM3NNY2RSRko1M3Ata0hOVHBXemotMkYwZjNTMFNHQUd1MDRpMHlzeUtiSVd5OGNrSGtWNUs5RHZOZjEzclhxT2dIN1MzZ0haLVZ2em9GZjJRRGc0Q01MNld3anpXem5fSWsycUF2MU1QQkhRUl90OVF4bzMwbko00gGDAkFVX3lxTE1xZnhLSS00X1FKME13aVFlT3lrc3lnSkl1UkpPZ3ZTbEdsT2FTRzhDTFhZY3VYckFCNlhxdTlyQnh4YkZoYkhidmFZb29URXV4QlMyQjhXYWNZM2RkV1UzSGpXZmV1RUNHRGVPVWE2a2tRcHBKaEdfaG8xUzdZRmhvUDVvaElnU1FHSEkzc01jZFJGSjUzcC1rSE5UcFd6ai0yRjBmM1MwU0dBR3UwNGkweXN5S2JJV3k4Y2tIa1Y1SzlEdk5mMTNyWHFPZ0g3UzNnSFotVnZ6b0ZmMlFEZzRDTUw2V3dqeld6bl9JazJxQXYxTVBCSFFSX3Q5UXhvMzBuSjQ?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+---
+
+# Gen Z is changing how India buys beauty: Insight Cosmetics’ Mihir Jain on trends, AI and skinification | Fashion Trends
+
+Gen Z is changing how India buys beauty: Insight Cosmetics’ Mihir Jain on trends, AI and skinification | Fashion Trends Hindustan Times
+
+## 笔记
+
+

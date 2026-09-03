@@ -20,17 +20,17 @@ url: https://www.eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-17
 canonical_url: https://eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-1709
 summary: 'EFF to Governor Newsom: Veto California''s AB 1709'
 first_seen: '2026-09-01T15:04:14Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.eff.org/deeplinks/2026/08/eff-gov-newsom-veto-californias-ab-1709
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 94
-    comments: 143
+    points: 95
+    comments: 150
   kind: news
 ---
 

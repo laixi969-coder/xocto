@@ -22,7 +22,7 @@ canonical_url: https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-o
 summary: Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years.
   But this extended partnerships stretches beyond buying more chips.
 first_seen: '2026-08-26T23:47:18Z'
-last_seen: '2026-09-02T00:14:54Z'
+last_seen: '2026-09-03T00:16:48Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -35,6 +35,16 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/
   seen_at: '2026-09-02T00:14:54Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/
+  seen_at: '2026-09-03T00:16:48Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails
+  seen_at: '2026-09-03T00:16:48Z'
   metrics: {}
   kind: news
 ---

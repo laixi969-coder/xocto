@@ -20,17 +20,28 @@ url: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-out
 canonical_url: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training
 summary: Mistral now trains on user input by default, except on enterprise tier
 first_seen: '2026-09-02T12:30:39Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:48Z'
 status: pending_filter
 sources:
 - hackernews
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 65
-    comments: 31
+    points: 359
+    comments: 157
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/02/netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-valuation/
+  seen_at: '2026-09-03T00:16:48Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/02/british-business-bank-commits-up-to-ps46m-to-zincs-new-deeptech-fund/
+  seen_at: '2026-09-03T00:16:48Z'
+  metrics: {}
   kind: news
 ---
 

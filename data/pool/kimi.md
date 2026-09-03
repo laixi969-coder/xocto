@@ -11,14 +11,23 @@ inspiration_en: The trend is Chinese models going abroad first on the web and AP
   Don't fight chat habits head-on. Start with overseas developers' coding and agent calls, trading low
   price and open weights for volume. Consumer plans are nineteen to thirty-nine dollars.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
 canonical_url: https://aicpb.com/product/Kimi/appid1D6F332E1
 summary: K2模型,AI智能问答,翻译编程ppt表格制作全能办公工具
 first_seen: '2026-08-11T05:03:23Z'
-last_seen: '2026-08-13T11:28:34Z'
-status: analyzed
+last_seen: '2026-09-03T00:16:50Z'
+status: pending_filter
 sources:
 - aicpb
+- newssearch
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Kimi/appid1D6F332E1
@@ -33,6 +42,12 @@ sightings:
     - 国内总榜
     - 全球降速榜
     - 全球总榜
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wV3NyeWE5aGxSa0FnSnlBY1Rod29QZ1hDa0tEUzFNQWoycU9QZ3pvWllkd0t4TVZiVzNMNmc5MW0yS3lxMW8xSFYzVl9ZRzF1QUJN?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
 ---
 
 # Kimi

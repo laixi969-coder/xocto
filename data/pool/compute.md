@@ -21,8 +21,8 @@ url: https://compute.cx
 canonical_url: https://compute.cx
 summary: Compute.cx is simple (modal.com like) interface for on-demand GPUs
 first_seen: '2026-08-20T15:47:24Z'
-last_seen: '2026-08-30T14:53:42Z'
-status: market_context
+last_seen: '2026-09-03T00:16:48Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -53,6 +53,11 @@ sightings:
 - source: marketfeeds
   url: https://www.exponentialview.co/p/ev-599
   seen_at: '2026-08-30T14:53:42Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs/
+  seen_at: '2026-09-03T00:16:48Z'
   metrics: {}
   kind: news
 ---

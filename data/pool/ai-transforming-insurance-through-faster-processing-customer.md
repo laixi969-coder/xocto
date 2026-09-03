@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi_AFBVV95cUxQb21kdGtXWDhn
 summary: 'AI transforming insurance through faster processing, customer service and claims: PB Fintech
   President The Tribune'
 first_seen: '2026-08-31T13:18:05Z'
-last_seen: '2026-09-02T00:14:57Z'
+last_seen: '2026-09-03T00:16:50Z'
 status: pending_filter
 sources:
 - newssearch
@@ -35,6 +35,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxOckZkZENuQXZ5eHBONS0xa1htbWw2UXN5bU9mMzhmUHJtTXcyYXIwRHBMQzNSWVZtbWYzV1djWVB4b0h4LTBCRVBKeWFSRGNaTFo0eU9UYXIzMVZVanpFRk1Lb09TaHFuWkwtaWYzbUhPSm9ldjNucmRpS0RkZHpJQ2p3WWI3NkVRVjRSWFpIZkV6Ukx5NjR3c3N2N0JrcGxES1lITDNkX3JSZFZES2FzYko5WkZBaEswaVlkMnN1eWN0REl4eFlHWktiQ0hzbnE5QTRJOTdxaDNXeVQxQnIyT9IB4AFBVV95cUxOckZkZENuQXZ5eHBONS0xa1htbWw2UXN5bU9mMzhmUHJtTXcyYXIwRHBMQzNSWVZtbWYzV1djWVB4b0h4LTBCRVBKeWFSRGNaTFo0eU9UYXIzMVZVanpFRk1Lb09TaHFuWkwtaWYzbUhPSm9ldjNucmRpS0RkZHpJQ2p3WWI3NkVRVjRSWFpIZkV6Ukx5NjR3c3N2N0JrcGxES1lITDNkX3JSZFZES2FzYko5WkZBaEswaVlkMnN1eWN0REl4eFlHWktiQ0hzbnE5QTRJOTdxaDNXeVQxQnIyTw?oc=5
   seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxQalI3WXZ4a3hHNWNmaWthMWxVNWJSWXVVeWIzSm9CT3h2YTd6aEtXY2NhZzhqdkhpSWZTeWhhdFJnVU5ibjI1d1ZPSjgzcjhMSFI2Ym5jTVJHV1dFdWdXU3M0TFVKdVgzS3IxaHlXV2VHekgxZHRZbUpNLXJPV09ESUpQRnpMQUxDMktJa0gwV0xESE83X3lwY3hsekZVN2xUUGtIS2RMR2xTY0JjZ05fSk5GQlVyXy1kSGs3aUlGVEtqaGJqdnZFcmNtYjdQaVhXYV81VkZwcVVTWVMxbDhSdUluSzNreXRKN0VYTnM4c9IB7wFBVV95cUxQalI3WXZ4a3hHNWNmaWthMWxVNWJSWXVVeWIzSm9CT3h2YTd6aEtXY2NhZzhqdkhpSWZTeWhhdFJnVU5ibjI1d1ZPSjgzcjhMSFI2Ym5jTVJHV1dFdWdXU3M0TFVKdVgzS3IxaHlXV2VHekgxZHRZbUpNLXJPV09ESUpQRnpMQUxDMktJa0gwV0xESE83X3lwY3hsekZVN2xUUGtIS2RMR2xTY0JjZ05fSk5GQlVyXy1kSGs3aUlGVEtqaGJqdnZFcmNtYjdQaVhXYV81VkZwcVVTWVMxbDhSdUluSzNreXRKN0VYTnM4cw?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcnVIQldiSFl1RzY1R2R2UEFFSURyZ3VoNzVFbjhPeXpzNVZ6LUZ3QWpCRDk3VUx0U3lOY1lXSWxYV202Z19jMm44UWlCekhXdks4RXR2S3MzQ2d1bjZTeDB0ZVV1YURKU1YzVmN6dzNRSmF2bTlOUGJzTDJNbkwtOUVibWN4cXQtWWNSUnM4Qk9pLXQ0azdzNnloaHZFb2h1S3JSU01KOXV3bW5lcVBvYXd4bUN2NlZPb0Rac3lhLWlwN29JWmU0NFlXMTdkd2ZVdS11YU1aeVFjSEhDYXAzSmhIbW01dw?oc=5
+  seen_at: '2026-09-03T00:16:50Z'
   metrics: {}
   kind: news
 ---

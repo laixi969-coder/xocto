@@ -21,17 +21,17 @@ canonical_url: https://zju-real.github.io/Easel
 summary: An open-source AI agent for social media — discover trends, create content, publish everywhere,
   and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.
 first_seen: '2026-08-28T02:22:27Z'
-last_seen: '2026-09-02T14:31:42Z'
+last_seen: '2026-09-03T00:16:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://zju-real.github.io/Easel/
-  seen_at: '2026-09-02T14:31:42Z'
+  seen_at: '2026-09-03T00:16:29Z'
   metrics:
-    stars: 173
-    forks: 17
+    stars: 210
+    forks: 21
     open_issues: 0
   kind: product
 ---

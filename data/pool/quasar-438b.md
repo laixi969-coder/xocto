@@ -20,17 +20,17 @@ url: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-
 canonical_url: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model
 summary: Europe's Leading AI Model
 first_seen: '2026-09-02T10:02:41Z'
-last_seen: '2026-09-02T14:31:39Z'
+last_seen: '2026-09-03T00:16:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model
-  seen_at: '2026-09-02T14:31:39Z'
+  seen_at: '2026-09-03T00:16:26Z'
   metrics:
-    points: 89
-    comments: 71
+    points: 159
+    comments: 101
   kind: news
 ---
 

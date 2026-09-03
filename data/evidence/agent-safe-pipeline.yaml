@@ -119,3 +119,13 @@
   fact: 'Reference architecture for AI agents that propose actions but cannot authorize them — immutable
     intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval,
     and a SafeExecutor that consumes a single-use intent-bound grant. | repository stars: 532'
+- id: ev-b08dd3f60c855493
+  project_slug: agent-safe-pipeline
+  url: https://www.decionis.com
+  title: docker
+  published_at: '2026-08-18T12:33:42Z'
+  collected_at: '2026-09-03T00:16:29Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Govern consequential AI agent actions in Docker with deterministic policy, human approval, and
+    signed Decision Dossiers. | repository stars: 167'
