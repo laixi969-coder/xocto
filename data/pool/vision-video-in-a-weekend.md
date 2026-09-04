@@ -22,16 +22,16 @@ summary: Ship a 2-3 min product vision video in a weekend — using only AI tool
   suite, no design chops needed. PASTOR framework + ElevenLabs + HeyGen + Remotion template + prompt libraries
   + worked example.
 first_seen: '2026-08-23T16:00:46Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yuxuant2025/vision-video-in-a-weekend
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 61
+    stars: 64
     forks: 4
     open_issues: 0
   kind: product

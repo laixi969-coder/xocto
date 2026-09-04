@@ -11,12 +11,20 @@ inspiration_en: 'The trend is model choice moving from public boards to tests on
   entry is vendor selection before a company buys: same job, compared on accuracy, price, and latency,
   billed per run — not another public ranking.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
-last_seen: '2026-08-14T04:47:01Z'
-status: analyzed
+last_seen: '2026-09-04T00:06:35Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -26,6 +34,14 @@ sightings:
   metrics:
     points: 10
     comments: 0
+  kind: product
+- source: hackernews
+  url: https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra
+  seen_at: '2026-09-04T00:06:35Z'
+  metrics:
+    points: 20
+    comments: 10
+  kind: news
 ---
 
 # artificialanalysis

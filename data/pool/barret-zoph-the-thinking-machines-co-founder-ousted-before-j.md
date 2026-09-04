@@ -23,8 +23,8 @@ canonical_url: https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machin
 summary: Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's
   CTO, led a brief stint at OpenAI and is now at Google.
 first_seen: '2026-08-27T19:52:52Z'
-last_seen: '2026-09-01T01:18:10Z'
-status: market_context
+last_seen: '2026-09-04T00:07:05Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -93,6 +93,11 @@ sightings:
   metrics:
     points: 30
     comments: 43
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU2tsWmY0SHBSdXE3UzBYS0tnMk9PaGJ3cW5vdkJlS1BzVE5uMFVlM29CRC1xaC1zWndrTGJfN0JoRlRvR2JGZDRwRDRlcC04Tll1WHV0TzV0YnV6WGlvTTRaaDRzVmlHaDNMU0hJWGNoa3paLWFnTktYRHJSZ3o5dFRhN08zWDhr?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
   kind: news
 ---
 

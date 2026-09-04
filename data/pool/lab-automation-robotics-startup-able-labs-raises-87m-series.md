@@ -1,7 +1,7 @@
 ---
 slug: lab-automation-robotics-startup-able-labs-raises-87m-series
 name: ABLE Labs
-builder: ''
+builder: altertable
 category: AI + 商业
 summary_zh: 生命科学实验室的技术员在重复性实验操作中，将实验方案交给 ABLE Labs 的机器人；AI 接收协议指令，执行移液、混合等动作，交付可复现的实验结果。具体流程和交付细节仍待核验。
 inspiration: 趋势是实验室自动化从硬件转向 AI 驱动的智能机器人。切入可从药物研发和临床诊断实验室的重复性实验入手，按实验次数或结果收费，但需先验证机器人稳定性和客户接受度。
@@ -32,12 +32,13 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-02T14:32:03Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - newssearch
 - officialfeeds
 - marketfeeds
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
@@ -82,6 +83,43 @@ sightings:
 - source: marketfeeds
   url: https://news.crunchbase.com/public/startups-to-watch-ipo-ai-chips-fintech-2026/
   seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://inference-docs.cerebras.ai/models/overview
+  seen_at: '2026-09-04T00:06:35Z'
+  metrics:
+    points: 412
+    comments: 125
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/basic-build-machines
+  seen_at: '2026-09-04T00:06:57Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update
+  seen_at: '2026-09-04T00:06:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOMktOOW1FaU9QVnhmY291MTlTRlVua0pvMnllNW1FdVc3OGh3bnJTN05BSUhmVEZYTGVmWmtjMS03QjJnODhWV1hJSWZMVzdtalpsT1E4UjlPdzF2QWZiSk8xODV4NXR4el9OalZkeDhrendOOXFQN0hxMm8zSDJuTFB6M0FhdHVyeXBfSg?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiakFVX3lxTE5WcDVKMm9wTS01TTk1Rkg4VUxOTDNwNDM3SnBlSVZyUWJKOVlXcXBnYUlSVUpVV2t1cjhIRXJwY0ZUM0UtYUxNenY4YW9OQ3V6aC1tR1JFRXJ0MXdaZHZoeUk3TjY2dVN6Y1E?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSkNUZjFmQ0kzLUZKejh1Sm5fT1RuNld4cFJpVjZVd1M1VmxhY2VMSmRmRkdVUHp5TVoxaUxCS29VMlhfNTViSlBsSjZUV1dwbW5NYUtteU44Z3dVWlgwNXZubXA1Qi1LeTVHc05mSnBtSHdidVhSSnZOQzdCVGFaMDNsUjE5UDN3?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWk9PbDYxam13cmhOYk1BVFlfcVNzR1NHakU0TUpfejBBNU5GaGhwaHpybVlITlFONVVNTWNTUHgzM0RBZHVoVEFVTGZMYjFEYlFRVWlSN2lrV1JXVy1YNHVRc3ZBeWNXM2ZJX3J1VFJzTTU0Q1AwNS1mUmVlVElOMUxVR1VCS1pWNDkxVTYxSnFJVjduX1Nsb1Y3SkNvT19HRmlWNVlWdmhEOG1JRWxaamtucFkwOGRZUGR5VTdhMXdBUQ?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

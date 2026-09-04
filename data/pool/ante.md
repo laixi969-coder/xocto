@@ -28,7 +28,7 @@ url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
-last_seen: '2026-09-02T00:14:54Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -50,6 +50,13 @@ sightings:
   url: https://simonwillison.net/2026/Sep/1/tarn-adams/
   seen_at: '2026-09-02T00:14:54Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/
+  seen_at: '2026-09-04T00:06:35Z'
+  metrics:
+    points: 33
+    comments: 29
   kind: news
 ---
 

@@ -21,7 +21,7 @@ url: https://compute.cx
 canonical_url: https://compute.cx
 summary: Compute.cx is simple (modal.com like) interface for on-demand GPUs
 first_seen: '2026-08-20T15:47:24Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
@@ -62,10 +62,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://compute.cheap/
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 38
-    comments: 14
+    points: 47
+    comments: 20
   kind: product
 ---
 

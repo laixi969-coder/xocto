@@ -21,16 +21,16 @@ canonical_url: https://github.com/lna-lab/distill-kura
 summary: '蒸留蔵 — distilled long-term memory for agents: recall by meaning, writing gated by evidence, one
   kura per agent mode. Ships as a DeepSeek Harness plugin and an MCP server.'
 first_seen: '2026-08-21T21:29:00Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/lna-lab/distill-kura
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 40
+    stars: 41
     forks: 5
     open_issues: 0
   kind: product

@@ -17,3 +17,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 网络安全 逆向工程师 安全研究员'
+- id: ev-2dd1fbe7c227ac91
+  project_slug: ida-instances-mcp
+  url: https://github.com/Claude-Reverser/IDA-instances-MCP
+  title: IDA-instances-MCP
+  published_at: '2026-08-23T04:29:49Z'
+  collected_at: '2026-09-04T00:06:39Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Custom build of ida-pro-mcp - stability-hardened MCP server for hosting headless IDA Pro instances
+    | repository stars: 111'

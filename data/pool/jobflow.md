@@ -29,17 +29,17 @@ url: https://github.com/ValerianXXX/JobFlow
 canonical_url: https://github.com/ValerianXXX/JobFlow
 summary: Local-first, AI-centered, evidence-gated job application workflow
 first_seen: '2026-08-15T08:03:04Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ValerianXXX/JobFlow
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 140
-    forks: 19
+    stars: 147
+    forks: 21
     open_issues: 0
   kind: product
 ---

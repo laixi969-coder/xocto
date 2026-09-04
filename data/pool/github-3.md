@@ -28,7 +28,7 @@ summary: "之前用 GPUI （ Zed 编辑器那套 GPU 加速 UI 框架）写过�
   \ 37 个 helper 合并算账）、慢性占用检测（长期 25% 但从不越线的进程也会被点名）、基于 Spotlight 索引的大文件秒查和可再生缓存清理。清理只走废纸篓、退出进程只发 ⌘Q 级别的请求，不搞\
   \ `rm -rf` 和 SIGKILL 。\r\n\r\nRust + GPUI 原生实现，Apache-2.0 开源，签名公证过的通用二进制。\r\n\r\n![]( https://i.imgur.com/7SvNgDl.png)"
 first_seen: '2026-08-30T22:46:08Z'
-last_seen: '2026-09-03T14:36:21Z'
+last_seen: '2026-09-04T00:06:33Z'
 status: pending_filter
 sources:
 - v2ex
@@ -53,15 +53,15 @@ sightings:
   kind: product
 - source: v2ex
   url: https://github.com/bybit-exchange/svg-diagram
-  seen_at: '2026-09-03T14:36:21Z'
+  seen_at: '2026-09-04T00:06:33Z'
   metrics:
-    comments: 4
+    comments: 5
   kind: product
 - source: v2ex
   url: https://github.com/othorizon/easy-agent-team
-  seen_at: '2026-09-03T14:36:21Z'
+  seen_at: '2026-09-04T00:06:33Z'
   metrics:
-    comments: 5
+    comments: 6
   kind: product
 ---
 

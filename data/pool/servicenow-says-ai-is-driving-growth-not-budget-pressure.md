@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmRFbzJVc3c4dVZXNXV4em
 canonical_url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmRFbzJVc3c4dVZXNXV4emhtN0pISDJ6VTFaTFpzOVFEVkZMZWhHRjVRVy1WLTNTeHA3clgwcF81T3V4eWJrUGlTdXJnek5nc05qcG5DMEtGZEtLR3B0U3RxWm5KaDduVHotSVp2WnFRZXp6OFpmRjZYZUIwdTRGT3Z5OElzOUdUb2NTNC1CTmQ3Q3BTSnZYMlBUcWdOWTZHWjQ1UlpScDM4MWhYQXhsWlRRcngtdUk?oc=5
 summary: ServiceNow Says AI Is Driving Growth, Not Budget Pressure TradingView
 first_seen: '2026-08-28T00:02:47Z'
-last_seen: '2026-08-30T00:20:30Z'
-status: market_context
+last_seen: '2026-09-04T00:07:05Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitwFBVV95cUxNTmRFbzJVc3c4dVZXNXV4emhtN0pISDJ6VTFaTFpzOVFEVkZMZWhHRjVRVy1WLTNTeHA3clgwcF81T3V4eWJrUGlTdXJnek5nc05qcG5DMEtGZEtLR3B0U3RxWm5KaDduVHotSVp2WnFRZXp6OFpmRjZYZUIwdTRGT3Z5OElzOUdUb2NTNC1CTmQ3Q3BTSnZYMlBUcWdOWTZHWjQ1UlpScDM4MWhYQXhsWlRRcngtdUk?oc=5
   seen_at: '2026-08-30T00:20:30Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SeVUwXzBscDhKMmFoMDExR0x0M19LRTRXMkhRSGNpaEFMYnBXeFprV0xBYS16Um9ERy16bkxoRTNRUFRQckFKbktNdjIzRVJoTHV6VVB3TDFJRDE5UHU0TXhFLTdnNmkz?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

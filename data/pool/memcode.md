@@ -20,16 +20,16 @@ url: https://app.memcode.in
 canonical_url: https://app.memcode.in
 summary: 'Memcode: #1 Memory Layer for AI agents, Building Memory infra for every use case'
 first_seen: '2026-08-16T17:44:54Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://app.memcode.in
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 507
+    stars: 521
     forks: 0
     open_issues: 0
   kind: product

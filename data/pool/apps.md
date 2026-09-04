@@ -24,7 +24,7 @@ url: https://apps.microsoft.com/detail/9mt89hd9s6sm?hl=en-US&gl=US
 canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-04T00:06:58Z'
 status: pending_filter
 sources:
 - hackernews
@@ -51,6 +51,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdkdPRTVUcnN0WTVrRXZHX09RcDhvV2tiekxBWEwtbDNuNVJNWXppY2t4YjFESlI2Qm1TMnpRS1lBaXZ0ODNPRW4tUjlSUUtkU2VDYVduaWFDSlBEOThQOFpDbndRSXI5eGxJSzQwTm1nekp1VzA5UVVKSmF0anF4aTlfRDVDcTdwbU5wYVhob3BPenpCQzRqVEhtSUdQZVJNVnFiQ19vYVc5YW5RTDZVMUZUYVpNNTVZdzB6YUZXZEFyRldJVUZXRk5lLWxLRm5LbWRuajU3MWpvWjc1blRnalRaRVhPZ2xD?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation
+  seen_at: '2026-09-04T00:06:58Z'
   metrics: {}
   kind: news
 ---

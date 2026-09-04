@@ -37,17 +37,17 @@ url: https://github.com/zhuyifang/tonghuasun-agent
 canonical_url: https://github.com/zhuyifang/tonghuasun-agent
 summary: 在 Codex、Claude Code、WorkBuddy、ZCode、OpenClaw 或 DeepSeek Harness 中，直接查询你电脑上的同花顺行情、K 线、持仓、LV2实时委托和逐笔成交数据。
 first_seen: '2026-08-24T12:02:01Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zhuyifang/tonghuasun-agent
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
     stars: 172
-    forks: 50
+    forks: 51
     open_issues: 2
   kind: product
 ---

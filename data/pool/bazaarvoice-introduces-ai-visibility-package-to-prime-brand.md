@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPT25ydzBXMFhK
 summary: Bazaarvoice introduces AI Visibility package to prime brand content and UGC for AI recommendation
   Yahoo Finance
 first_seen: '2026-09-01T13:00:00Z'
-last_seen: '2026-09-02T00:14:57Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPT25ydzBXMFhKS2t2S1Y0LU0teld4WnNLVnBtTEctYWlRekRmb2kwVVFMM0h3V1VFZ041emstdTllaDF4ZWVuV2NWVW1WWFduMk5nenYzQ2J2UDZ3NC1NR212TFVRSi1qTXlaWHlVN2Rhc3d1MDg1WUxvaV9JREp6UlV3T2tOdkJCak5iLVdqVE5hcWJLOE9uQm80RFItbDNzRzVJWFhoMlE5VE9U?oc=5
   seen_at: '2026-09-02T00:14:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAJBVV95cUxOSW83NzAtYk9rNTMzUHVZNEsyb1V3a1NOY0FUSmI3RjBoU19HZDlSWDhzdVAxUm84RVl6Qi1XVldMZFJZdFZieVBtM29weWtCOWZhVndiZGdtTnVUVElBZTJjLVZ6MVBXd3QzZXdleTBNemd3aGtjbG8xeGhkRi1yVG1zQ0J5b3Z3NXZGRnAwOWdhcnhmaTlCVFRrZ0czZFFLemplZ0lxbzgybjE1eEoyTXdqNzJlc0lWWWE2NThVcWtUeWZYeWd0TWZCei1RWkw3RTJGMnY2VHZBYmJPVnVtX29tcnQ2dHdjLWNnWHQxcktXNDJZSWJjWXhWTEJKVENh0gGGAkFVX3lxTE5RM0ZoakVEbFhZN0J4cktabnllQXFORm1JRFJ6WXFzOFAyQjJzcGdVMExzWGFPUWx1Y3N2M3ZtM0M4SmRVOUZkWTBQLWdMTUp5cktmZUNUWmJUNGMzY3VDSmczc2sxVG1SOXAzdUNxbHBQWFc5VGRVQ0lUSzJCRFp6R3h6bl93MVR2SG9CREoybW9OMkhlVk0yVHdfMF9pTkhjVVpfNWNGOF8zUWwzMFRxUWpqbVBOdXhxdmhsLUc4VVN4YXlGalpaZWpQTFc3cXZnRDItU3M2NHFwT2RlNXlCMnM2LUhqcXN5eDdQYkdWMlFUV3Y0OUZzNjk0dmozM25SbzRrZFE?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

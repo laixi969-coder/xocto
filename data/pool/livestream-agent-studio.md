@@ -35,17 +35,17 @@ url: https://github.com/HanyuanWang/LiveStream-Agent-Studio
 canonical_url: https://github.com/HanyuanWang/LiveStream-Agent-Studio
 summary: 面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。
 first_seen: '2026-08-22T14:16:48Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/HanyuanWang/LiveStream-Agent-Studio
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 651
-    forks: 109
+    stars: 673
+    forks: 115
     open_issues: 11
   kind: product
 ---

@@ -20,17 +20,17 @@ url: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations
 canonical_url: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations
 summary: Three sites made 215,128 “best software” pages for AI. Perplexity cites them
 first_seen: '2026-09-02T13:59:59Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 480
-    comments: 233
+    points: 503
+    comments: 245
   kind: news
 ---
 

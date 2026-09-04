@@ -20,17 +20,17 @@ url: https://developer.meta.com/ai/models/muse-spark/
 canonical_url: https://developer.meta.com/ai/models/muse-spark
 summary: https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3
 first_seen: '2026-09-02T19:35:04Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://developer.meta.com/ai/models/muse-spark/
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 642
-    comments: 418
+    points: 678
+    comments: 438
   kind: news
 ---
 

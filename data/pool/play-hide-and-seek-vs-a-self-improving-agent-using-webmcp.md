@@ -22,16 +22,16 @@ summary: Hey, built a small game to learn about the WebMCP standard. Use the Cod
   in Work mode using Sol or Terra, open the built-in browser (cmd+shift+b), navigate to the url, and paste
   these instructions …
 first_seen: '2026-09-03T11:12:38Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://lightcone-webmcp.netlify.app/
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 5
+    points: 6
     comments: 0
   kind: product
 ---

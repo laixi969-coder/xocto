@@ -20,16 +20,16 @@ url: https://frontierharness.org
 canonical_url: https://frontierharness.org
 summary: 9 harness, same model, cost per pass varies 17x
 first_seen: '2026-09-02T16:14:52Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://frontierharness.org
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 76
+    points: 79
     comments: 55
   kind: product
 ---

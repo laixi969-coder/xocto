@@ -20,16 +20,16 @@ url: https://sw-ml-study.github.io/sw-mlpl/
 canonical_url: https://sw-ml-study.github.io/sw-mlpl
 summary: Open source ML programming language playground
 first_seen: '2026-09-02T22:05:31Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://sw-ml-study.github.io/sw-mlpl/
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 9
+    points: 10
     comments: 0
   kind: product
 ---

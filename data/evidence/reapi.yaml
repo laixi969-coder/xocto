@@ -98,3 +98,18 @@
     \ ），高质量约 0.158 （ OpenAI 0.211 ）。另有一条固定单价线，1K 一张 0.03 、2K 0.05 、4K 0.08 。\r\n\r\n参数和 Google 、OpenAI\
     \ 官方接口一致，同一个 endpoint ，按 credit 扣费，不用订阅，注册送的额度够跑几十张。\r\n\r\n模型页：\r\n\r\nNano Banana Pro:https://reapi.ai/models/gemini-3-pro-image-preview\
     \ \r\n\r\nGPT Image 2:https://reapi.ai/models/gpt-image-2 \r\n\r\n有坑欢迎在楼里提。"
+- id: ev-5d221f26ede237d7
+  project_slug: reapi
+  url: https://www.v2ex.com/t/1239361
+  title: 接了 xAI 的 Grok Imagine 生图模型，按张计费：普通 0.03 元，高质量 0.06 元
+  published_at: '2026-09-03T23:42:32Z'
+  collected_at: '2026-09-04T00:06:33Z'
+  source_kind: product
+  tier: independent
+  fact: "刚把 xAI 的 Grok Imagine 生图模型接上，按张计费，两个档位：\r\n\r\n- 普通档 0.03 元一张，日常配图、缩略图、批量试稿够用\r\n- 高质量档 0.06\
+    \ 元一张，细节要求高的定稿再用\r\n- 一次最多 10 张，出几张算几张，整单只做一次取整\r\n- 14 种宽高比，1k 或 2k 输出，都不加价\r\n- 传一张参考图就变成编辑模式，价格和生成一样\r\
+    \n- 失败自动退款，不会在你不知情的情况下重试\r\n\r\n请求就一个 POST ，`quality` 字段选档位：\r\n\r\n```bash\r\ncurl https://reapi.ai/api/v1/images/generations\
+    \ \\\r\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\r\n  -H \"Content-Type: application/json\"\
+    \ \\\r\n  -d '{\"model\":\"grok-imagine\",\"prompt\":\"a ginger cat on a sunlit windowsill, afternoon\
+    \ light\",\"quality\":\"standard\",\"n\":4}'\r\n```\r\n\r\n返回 task_id ，轮询 `/api/v1/tasks/{task_id}`\
+    \ 拿图。\r\n\r\n模型页有 playground 和完整参数表： https://reapi.ai/models/grok-imagine\r\n\r\n参考图只支持一张，多图合成不在这个接口上。有人拿它跑过批量出图的话，想听听你们对出图质量的看法。"

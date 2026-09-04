@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-09-03T00:16:47Z'
+last_seen: '2026-09-04T00:06:58Z'
 status: pending_filter
 sources:
 - hackernews
@@ -42,6 +42,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro
   seen_at: '2026-09-03T00:16:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.understandingai.org/p/robot-startups-are-trying-everything
+  seen_at: '2026-09-04T00:06:58Z'
   metrics: {}
   kind: news
 ---

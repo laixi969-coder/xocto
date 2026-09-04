@@ -20,16 +20,16 @@ url: https://asciiquake.wtf/
 canonical_url: https://asciiquake.wtf
 summary: ''
 first_seen: '2026-09-02T14:07:20Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://asciiquake.wtf/
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 12
+    points: 14
     comments: 6
   kind: product
 ---

@@ -31,16 +31,16 @@ url: https://github.com/Claude-Reverser/IDA-instances-MCP
 canonical_url: https://github.com/Claude-Reverser/IDA-instances-MCP
 summary: Custom build of ida-pro-mcp - stability-hardened MCP server for hosting headless IDA Pro instances
 first_seen: '2026-08-23T04:29:49Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Claude-Reverser/IDA-instances-MCP
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 112
+    stars: 111
     forks: 11
     open_issues: 0
   kind: product

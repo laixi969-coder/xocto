@@ -21,16 +21,16 @@ canonical_url: https://opensteps.ai
 summary: 'Skills that translate your coding agent''s output into plain language: honest reports, straight
   verdicts, steps you can follow. MIT.'
 first_seen: '2026-08-25T14:24:24Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://opensteps.ai
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 185
+    stars: 194
     forks: 49
     open_issues: 7
   kind: product

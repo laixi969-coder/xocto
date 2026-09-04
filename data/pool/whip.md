@@ -30,18 +30,18 @@ summary: A fast coding-agent harness in Go. Tool-use loop, bubbletea TUI, provid
   live catalog discovery, MCP support, background subagents. One binary, no runtime, built for open-source
   models.
 first_seen: '2026-08-20T22:57:11Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/context-labs/whip
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
     stars: 212
     forks: 21
-    open_issues: 20
+    open_issues: 24
   kind: product
 ---
 

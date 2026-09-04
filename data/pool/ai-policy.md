@@ -20,17 +20,17 @@ url: https://dbushell.com/ai/
 canonical_url: https://dbushell.com/ai
 summary: ''
 first_seen: '2026-09-02T15:36:24Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://dbushell.com/ai/
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 51
-    comments: 79
+    points: 52
+    comments: 82
   kind: news
 ---
 

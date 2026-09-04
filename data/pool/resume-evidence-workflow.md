@@ -30,16 +30,16 @@ url: https://github.com/Elowwwen/resume-evidence-workflow
 canonical_url: https://github.com/Elowwwen/resume-evidence-workflow
 summary: 一套以经历为基础的 AI 简历工作流，用于经历深挖、JD 匹配、简历改写，并覆盖可辅助面试的经历过程。
 first_seen: '2026-08-18T17:32:40Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Elowwwen/resume-evidence-workflow
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 67
+    stars: 68
     forks: 5
     open_issues: 0
   kind: product

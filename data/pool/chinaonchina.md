@@ -20,17 +20,17 @@ url: https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-
 canonical_url: https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector
 summary: 'A dark horse enters China''s AI race: StartLux'
 first_seen: '2026-09-03T11:12:57Z'
-last_seen: '2026-09-03T14:36:23Z'
+last_seen: '2026-09-04T00:06:35Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector
-  seen_at: '2026-09-03T14:36:23Z'
+  seen_at: '2026-09-04T00:06:35Z'
   metrics:
-    points: 43
-    comments: 22
+    points: 53
+    comments: 28
   kind: news
 ---
 

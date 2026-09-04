@@ -21,18 +21,18 @@ canonical_url: https://github.com/shauryagangrade/awesome-ai-prompts
 summary: Curated copy-paste AI prompts for student developers - disciplined workflows for coding agents
   that verify, don't guess
 first_seen: '2026-08-15T14:21:01Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/shauryagangrade/awesome-ai-prompts
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 41
-    forks: 5
-    open_issues: 48
+    stars: 42
+    forks: 6
+    open_issues: 44
   kind: product
 ---
 

@@ -1,0 +1,12 @@
+- id: ev-b4b3e9ed41e9217e
+  project_slug: set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-a
+  url: https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/
+  title: Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock
+  published_at: '2026-09-03T16:10:39Z'
+  collected_at: '2026-09-04T00:06:57Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI
+    model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API
+    with scoped identities, budgets, rate limits, and telemetry. We also compare direct IAM Identity Center
+    access and a managed Portkey deployment.

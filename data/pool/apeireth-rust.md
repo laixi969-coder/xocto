@@ -22,16 +22,16 @@ summary: 'Apeireth — A Pure Safe Rust AGI Operating System & Cognitive Microke
   topological memory, causal world model, cognitive scheduler, Ember HUD, triple-onion security & portable
   USB agent.'
 first_seen: '2026-08-17T18:03:38Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Apeireth/apeireth-rust
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 256
+    stars: 262
     forks: 1
     open_issues: 0
   kind: product

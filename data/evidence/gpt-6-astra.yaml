@@ -1,0 +1,30 @@
+- id: ev-7378fe008863baf2
+  project_slug: gpt-6-astra
+  url: https://openai.com/index/gpt-6-astra/
+  title: GPT-6 Astra
+  published_at: '2026-09-03T18:41:05Z'
+  collected_at: '2026-09-04T00:06:35Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'System Card: https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra Related ongoing threads:
+    OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3 - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691
+    GPT-6 Astra makes…'
+- id: ev-269f1a4606b9f97b
+  project_slug: gpt-6-astra
+  url: https://simonwillison.net/2026/Sep/3/gpt6-astra/
+  title: GPT‑6 Astra
+  published_at: '2026-09-03T20:18:41Z'
+  collected_at: '2026-09-04T00:06:58Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "GPT‑6 Astra   \nGPT-6 Astra is \"rolling out today to a limited set of organizations and over\
+    \ the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users,\
+    \ as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great\
+    \ deal to say about it yet. \n It's going to be API priced at the same rate as Claude Fable 5 and\
+    \ 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears\
+    \ to score higher than Fable on most of OpenAI's self-reported benchmarks. \n Most impressively, Astra\
+    \ scores 99.9% on the recent (released in March)  ARC-AGI 3 benchmark  - though notably Fable 5 does\
+    \ not yet have a published result, and the  ARC-AGI blog notes  that the 99.9% score was achieved\
+    \ for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored\
+    \ 62.7% for $26K. \n \n The Provider Adapter harness preserves opaque reasoning state between requests\
+    \ and uses compaction fo"

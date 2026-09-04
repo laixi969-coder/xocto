@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2Z0S2VlXzlv
 summary: New York's AI ad disclosure law gets first complaints over undisclosed synthetic models The Cool
   Down
 first_seen: '2026-09-02T09:30:00Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - newssearch
@@ -29,6 +29,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ2Z0S2VlXzlvaFlnSVYydGdIOEo1RXR6UF9DNWFXRW1rZ1FsSTN6TGRPcW10bUQzc2k5UmExQTZKWmFMU1hJWUxWcGx4bkVmVnNONFFqQXNhdVlPdzRWQ0szUEdNTnlneXhlM3c0NEhlNTBFMGtoOGtybUY4VkdybmhwN25aNFJlbjhKZ2JTaVpWOFMzOHc2bg?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxPakg2TGRrQTV6blBTTzdaVE9fbFNjbkdlOWl5UG1hNXVWNXRmR2JaalFLSEpfMVBmUW9fMU1ndERCa2FJN21GUnVvX3BsYm5yVGFqcG1oQ0tXb0RQdmxCbzNWT0RBTV9IZDI5VzVFc01LUy1iZ2ZzUlRaek5IMzRxVzVNZTlxeTM1eWlPTGhrdw?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

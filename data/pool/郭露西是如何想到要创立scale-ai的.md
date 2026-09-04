@@ -30,7 +30,7 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-03T14:36:52Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - newssearch
@@ -79,6 +79,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/03/rightcharge-raises-ps500k-to-scale-fleet-ev-charging-payments-across-europe/
   seen_at: '2026-09-03T14:36:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQaHpXNk5PS3F3UmIyalgxdlQwX0RYUVFzRC1mOHZYYXdfRm9SaW5Gci10VmtLSHU1WFlBdEdHTVdzX2VENVVQY0ZVeFFTaDF1N081ZVFPQjJ0Ry13Y0xGSXZmaXltVHI5MVVMczd5TldhdHE5TTBZVk9xRmJha2pSSFJCX0wzSUllYmd0TExnTjlvWFZoOWIyaWlzOE1XSnlCYzlySm5HemREZGNlRVVaZ2JlbFJKN2RqbUE1R0ZwdjJoMlFMcU1uSXIyZFpjZw?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

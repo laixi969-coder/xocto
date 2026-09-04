@@ -31,7 +31,7 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNTEN0SDVDdDhlOWRjajBfbE
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNTEN0SDVDdDhlOWRjajBfbE5nNHlZdXVUTzdKVVpoOXJLNGc5b1hNUWRSLW0yYUZhNmhzM2hxYVM0T0hOcnhzQjBIYVBYU3FnUGNvX0loSWZSNDNJRzJ4U0J4UTY0S2pUYkFHWlJFN3g3UHBNRkV0dHRKcWJ2M0VGY2lpbEZ0RmhzWDYybg?oc=5
 summary: 汤道生谈腾讯AI产品路线：WorkBuddy源于「自由探索」 搜狐网
 first_seen: '2026-08-27T02:50:09Z'
-last_seen: '2026-09-03T14:36:52Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - newssearch
@@ -45,6 +45,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/483786.html
   seen_at: '2026-09-03T14:36:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iM2MtbDhSc2dqV1Zzb05Na0ZoSFFVSnRfWERnMzFXR3dfRFpVN0ljNTc3aWlFcEpiWTBIa2xJQUljbGRYLTI3c2ppakc4cV9PUnZocm82dmZqUENUdnRGaEpic0w?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

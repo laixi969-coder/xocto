@@ -32,17 +32,17 @@ canonical_url: https://github.com/ewsun22/codex-manager
 summary: Local-first desktop control center for OpenAI Codex — sessions, models, tokens, accounts, providers,
   and AGENTS.md.
 first_seen: '2026-08-27T09:06:52Z'
-last_seen: '2026-09-01T14:56:02Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ewsun22/codex-manager
-  seen_at: '2026-09-01T14:56:02Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
     stars: 54
-    forks: 0
+    forks: 1
     open_issues: 0
   kind: product
 ---

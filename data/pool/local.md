@@ -33,7 +33,7 @@ url: https://www.producthunt.com/products/local-7
 canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - producthunt
@@ -87,6 +87,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaGNZTjFVTFYwY256eDlnTDBpVENwcHdEOXVVNkVSd1pTZFdlYVFjS1FNSVk1QU94cDJuNi1kV2t1M3k5WUJWZE1nakRpOXZjc2QyblRrS1JYV0dXeTg4NXdHZ2ZIaTdlVDg3eUkzVncxb0RHLWxCc1l2dWJSVzFnaXhDVHVkbE52WG1F?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNemM0MjNpZkRkbXRjcDJOYU1Cb3RLVGQteHIxaU1LNnlhYWNEb3dvZmoxLVJTWG1JajVvdzh6QW9Gd3ZLdDU5V2R4djFLbVZuRUZWcGZJWjBtdE1LWEs0MGtEWk5QZDA2SmNuVk9EbmpmaExuTFh3dF9FbFNCVHBpbDVDMWdJX3NCSTdyaF82VGxGZDMxT2tLaDhnaFlGaVV5TXBtM0RzN0RzQXNmRFE?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

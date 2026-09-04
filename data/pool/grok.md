@@ -1,7 +1,7 @@
 ---
 slug: grok
 name: Grok
-builder: ''
+builder: samaysharma
 category: 通用助手
 summary_zh: Grok 是 xAI 设计的免费 AI 助手，提供实时搜索、图像生成、趋势分析等功能。近期因训练数据问题面临法律诉讼。
 inspiration: AI 助手的合规风险成为关键，创业者需关注数据来源合法性。
@@ -29,11 +29,12 @@ canonical_url: https://aicpb.com/product/Grok/webid1D6F37429
 summary: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time
   searching, image generation, trend analysis, and more.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: watching
+last_seen: '2026-09-04T00:06:35Z'
+status: pending_filter
 sources:
 - aicpb
 - marketfeeds
+- hackernews
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Grok/webid1D6F37429
@@ -52,6 +53,13 @@ sightings:
   url: https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/
   seen_at: '2026-08-29T03:43:29Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://status.x.ai/
+  seen_at: '2026-09-04T00:06:35Z'
+  metrics:
+    points: 157
+    comments: 153
   kind: news
 ---
 

@@ -10,23 +10,32 @@ inspiration_en: 'The independent trend is still unclear: this fills a Windows ga
   the entry is the last mile where a popular tool does not run on one system; whoever patches it takes
   those users. Do not become a generic compatibility layer.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/liceses/dsh-gitbash-preset
 canonical_url: https://github.com/liceses/dsh-gitbash-preset
 summary: DeepSeek Harness 插件：一键安装「极简模式 (Git Bash)」agent preset —— 把 DSH 自带极简模式中的 bash 调用映射到 Git for Windows
   的 bash（MSYS），让 Windows 上的极简模式真正可用。
 first_seen: '2026-08-15T01:02:32Z'
-last_seen: '2026-08-16T22:37:04Z'
+last_seen: '2026-09-04T00:06:39Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/liceses/dsh-gitbash-preset
-  seen_at: '2026-08-16T22:37:04Z'
+  seen_at: '2026-09-04T00:06:39Z'
   metrics:
-    stars: 121
+    stars: 136
     forks: 0
     open_issues: 0
+  kind: product
 ---
 
 # dsh-gitbash-preset

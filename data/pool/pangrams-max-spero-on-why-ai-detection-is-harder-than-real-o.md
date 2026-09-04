@@ -23,14 +23,20 @@ summary: The internet has a trust problem, and it’s not just because social 
   even insurance claims, leaving platforms and users alike scrambling to figure out what’s real.  A handful
   of startups have cropped up in the past couple of […]
 first_seen: '2026-09-02T17:18:13Z'
-last_seen: '2026-09-03T00:16:48Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake/
   seen_at: '2026-09-03T00:16:48Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxQOURvOGhOeWJ0aE9oeXN4b2FoSm9rYXNveEotS0dCY29vbmMzWEZENTJfVktHd2RUNFNGb1pVa09vUk95Y1VHR01TYXBJRGF0bHFMcU14cHRrV0tFdGpZQURuYnF6dG5MVzAyeGgwaDdub0l5ZHBKNjRfbnZmZHQ3WjlVNGZTcVFDWENmaTFsNjVSVjlQdUV3cV83VEc?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---

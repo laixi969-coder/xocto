@@ -22,7 +22,7 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-03T14:36:52Z'
+last_seen: '2026-09-04T00:07:05Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -66,6 +66,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/matt-clifford-anthropic-criticism/
   seen_at: '2026-09-03T14:36:52Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tR1dJa1hYRTFXNzR1RElNd0w1azlKdWxTZWVxQl9kb3VPYzZVZGxDcGd0a2I0V2VUZ3JIU1lmMVZlWWViWnRvN1JBcTNXaE5Qb0ZV?oc=5
+  seen_at: '2026-09-04T00:07:05Z'
   metrics: {}
   kind: news
 ---
