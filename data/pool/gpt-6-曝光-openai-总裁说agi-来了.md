@@ -52,7 +52,7 @@ summary: "头图来源：OpenAI \n 作者｜桦林舞王 \n 编辑｜靖宇 \n 2
   \ 在吹风会上主动提及了这一事件，强调 Astra 的低越界率和安全设计，这次发布也承担着「信任重建」的使命。 \n  Astra 的发布，是能力展示，也是一次公开的信任声明。  \n AGI 有没有到来，最终可能要取决于每个人选择哪个定义。但一个能直接坐到你电脑前、自主完成跨软件工作流的模型，今天已经是真实存在的事情了。\
   \ \n 接下来真正有意思的问题，是企业和个人用户会首先把它用在哪里，以及哪些职业会最先感受到这种「替代感」。"
 first_seen: '2026-09-03T22:48:29Z'
-last_seen: '2026-09-04T00:06:58Z'
+last_seen: '2026-09-04T14:23:54Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -60,6 +60,11 @@ sightings:
 - source: marketfeeds
   url: http://www.geekpark.net/news/369800
   seen_at: '2026-09-04T00:06:58Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: http://www.geekpark.net/news/369867
+  seen_at: '2026-09-04T14:23:54Z'
   metrics: {}
   kind: news
 ---

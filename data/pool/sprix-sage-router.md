@@ -20,17 +20,17 @@ url: https://github.com/wang2122/sprix-sage-router
 canonical_url: https://github.com/wang2122/sprix-sage-router
 summary: Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.
 first_seen: '2026-08-18T04:08:11Z'
-last_seen: '2026-09-04T00:06:39Z'
+last_seen: '2026-09-04T14:23:30Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wang2122/sprix-sage-router
-  seen_at: '2026-09-04T00:06:39Z'
+  seen_at: '2026-09-04T14:23:30Z'
   metrics:
-    stars: 3359
-    forks: 398
+    stars: 3396
+    forks: 399
     open_issues: 1
   kind: product
 ---

@@ -32,18 +32,18 @@ url: https://github.com/tt-a1i/simplify-codebase
 canonical_url: https://github.com/tt-a1i/simplify-codebase
 summary: Prove and remove accidental codebase complexity without breaking behavior.
 first_seen: '2026-08-24T07:52:08Z'
-last_seen: '2026-09-03T14:36:27Z'
+last_seen: '2026-09-04T14:23:30Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tt-a1i/simplify-codebase
-  seen_at: '2026-09-03T14:36:27Z'
+  seen_at: '2026-09-04T14:23:30Z'
   metrics:
-    stars: 425
-    forks: 14
-    open_issues: 3
+    stars: 432
+    forks: 15
+    open_issues: 2
   kind: product
 ---
 

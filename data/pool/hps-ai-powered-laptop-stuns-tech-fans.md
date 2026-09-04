@@ -1,0 +1,41 @@
+---
+slug: hps-ai-powered-laptop-stuns-tech-fans
+name: HP’s AI-powered laptop stuns tech fans
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcld2dU5mREhKVjhlYVJVTzhDWGN2M3l5NUd0U0JILTlsYVd3UFRObUc4b1lGdGQzUm02dGZLVVRHR1FVUGJIOXpzOV9tb3JGOThkSEVETUY1NVI2MUlYZjVuYWpsRGU0N0kwSHNSOVZQZWM2SGJZM3BEdC1YVEtxSXMtVWtBbkQ2SWZWUmJsbG5TT1lvM2FBclZybXZMekxiMUN2REtzV3U0RV9ic25Ra1ZSMnQyU2VYcnFyaFkzYzhQSXdERHNOZllreDRhNTQtcHdodUhzczh3MHN3WFZQb1dn0gHnAUFVX3lxTE5ZVkk3eFpRZTlpSGJQdlpxM1dlVnpFbDRXYkc3a09RdDhGUVdEaG5Mc0U4THl6d254TlpTV1R3MnhBZGFldU14cDVHWmVLQUR1R3VDZDIxN0VScmFCMDdlbE5jeEJiZDJJd3FZOWJzQUZUT3hfV1ZfRndLUWhvSDhWckpCY1dNSmFFcGtGZEVyUjFPLUZMbGRjMk9qQWFtNDZjb2FBaDU2eThrcG4yU0ZrRFB3YkN5VGVZNzlacGI3aGY1NXQ0Q0R1VFQ3a0M0T0FBVHRDMGhvMG93dnhnYTdDb3JiNHNfUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcld2dU5mREhKVjhlYVJVTzhDWGN2M3l5NUd0U0JILTlsYVd3UFRObUc4b1lGdGQzUm02dGZLVVRHR1FVUGJIOXpzOV9tb3JGOThkSEVETUY1NVI2MUlYZjVuYWpsRGU0N0kwSHNSOVZQZWM2SGJZM3BEdC1YVEtxSXMtVWtBbkQ2SWZWUmJsbG5TT1lvM2FBclZybXZMekxiMUN2REtzV3U0RV9ic25Ra1ZSMnQyU2VYcnFyaFkzYzhQSXdERHNOZllreDRhNTQtcHdodUhzczh3MHN3WFZQb1dn0gHnAUFVX3lxTE5ZVkk3eFpRZTlpSGJQdlpxM1dlVnpFbDRXYkc3a09RdDhGUVdEaG5Mc0U4THl6d254TlpTV1R3MnhBZGFldU14cDVHWmVLQUR1R3VDZDIxN0VScmFCMDdlbE5jeEJiZDJJd3FZOWJzQUZUT3hfV1ZfRndLUWhvSDhWckpCY1dNSmFFcGtGZEVyUjFPLUZMbGRjMk9qQWFtNDZjb2FBaDU2eThrcG4yU0ZrRFB3YkN5VGVZNzlacGI3aGY1NXQ0Q0R1VFQ3a0M0T0FBVHRDMGhvMG93dnhnYTdDb3JiNHNfUQ?oc=5
+summary: HP’s AI-powered laptop stuns tech fans News.com.au
+first_seen: '2026-09-03T02:50:49Z'
+last_seen: '2026-09-04T14:24:01Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcld2dU5mREhKVjhlYVJVTzhDWGN2M3l5NUd0U0JILTlsYVd3UFRObUc4b1lGdGQzUm02dGZLVVRHR1FVUGJIOXpzOV9tb3JGOThkSEVETUY1NVI2MUlYZjVuYWpsRGU0N0kwSHNSOVZQZWM2SGJZM3BEdC1YVEtxSXMtVWtBbkQ2SWZWUmJsbG5TT1lvM2FBclZybXZMekxiMUN2REtzV3U0RV9ic25Ra1ZSMnQyU2VYcnFyaFkzYzhQSXdERHNOZllreDRhNTQtcHdodUhzczh3MHN3WFZQb1dn0gHnAUFVX3lxTE5ZVkk3eFpRZTlpSGJQdlpxM1dlVnpFbDRXYkc3a09RdDhGUVdEaG5Mc0U4THl6d254TlpTV1R3MnhBZGFldU14cDVHWmVLQUR1R3VDZDIxN0VScmFCMDdlbE5jeEJiZDJJd3FZOWJzQUZUT3hfV1ZfRndLUWhvSDhWckpCY1dNSmFFcGtGZEVyUjFPLUZMbGRjMk9qQWFtNDZjb2FBaDU2eThrcG4yU0ZrRFB3YkN5VGVZNzlacGI3aGY1NXQ0Q0R1VFQ3a0M0T0FBVHRDMGhvMG93dnhnYTdDb3JiNHNfUQ?oc=5
+  seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+---
+
+# HP’s AI-powered laptop stuns tech fans
+
+HP’s AI-powered laptop stuns tech fans News.com.au
+
+## 笔记
+
+

@@ -30,16 +30,16 @@ url: https://github.com/iAmCorey/Wake
 canonical_url: https://github.com/iAmCorey/Wake
 summary: Every coding-agent session on your Mac in one place — browse, search, resume. Rust + GPUI.
 first_seen: '2026-08-18T09:46:23Z'
-last_seen: '2026-09-04T00:06:39Z'
+last_seen: '2026-09-04T14:23:30Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/iAmCorey/Wake
-  seen_at: '2026-09-04T00:06:39Z'
+  seen_at: '2026-09-04T14:23:30Z'
   metrics:
-    stars: 731
+    stars: 734
     forks: 48
     open_issues: 1
   kind: product

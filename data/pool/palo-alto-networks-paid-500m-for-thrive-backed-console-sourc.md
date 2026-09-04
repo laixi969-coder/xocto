@@ -21,14 +21,20 @@ canonical_url: https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-fo
 summary: The acquisition also leaves Sequoia-backed Serval as the de facto startup leader in AI IT service
   automation, industry watchers believe.
 first_seen: '2026-09-02T22:44:56Z'
-last_seen: '2026-09-03T00:16:48Z'
+last_seen: '2026-09-04T14:24:01Z'
 status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/02/palo-alto-networks-paid-500m-for-thrive-backed-console-sources-say/
   seen_at: '2026-09-03T00:16:48Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiowFBVV95cUxPMkY3RkJfZ2xhdDhNNEY4QkwwckdUbEFsSVVmOVRlRUFXdnlYS0NXMVJiUWh2YzBZR3VlUGxrMGljakFrOElVaUdZdGs4R1diLS1fYXo0Nk93VVJ5VlNiMTZWZzA2azRqLWlPaUVsYXF3QU56M0stQkdpcWV6NEZfOHk3YmJQQmZnMjNyZmZIODdyMS1OQjRacUk2ZkNzZzFsX25n?oc=5
+  seen_at: '2026-09-04T14:24:01Z'
   metrics: {}
   kind: news
 ---

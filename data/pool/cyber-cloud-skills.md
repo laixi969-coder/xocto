@@ -36,16 +36,16 @@ summary: Open-source cloud security and AI penetration-testing skills for CyberS
   AWS, Azure, GCP, OCI, Kubernetes, Docker, IAM/RBAC, attack-path analysis, container security, and posture
   assessment.
 first_seen: '2026-08-21T15:25:15Z'
-last_seen: '2026-08-31T17:38:30Z'
+last_seen: '2026-09-04T14:23:30Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/cybercloudskills/cyber-cloud-skills
-  seen_at: '2026-08-31T17:38:30Z'
+  seen_at: '2026-09-04T14:23:30Z'
   metrics:
-    stars: 49
+    stars: 48
     forks: 0
     open_issues: 0
   kind: product

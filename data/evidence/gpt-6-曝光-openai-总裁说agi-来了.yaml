@@ -16,3 +16,21 @@
     \ \n OpenAI 在发布材料中展示了几个具体案例，可以感受一下「操控电脑」落地之后是什么样的。 \n   \n GPT-6 Astra 自己完成了 PCB 板布局和走线｜图片来源：OpenAI\
     \ \n 给 Astra 一张电路原理图，它在 KiCad 里完成了元器件布局和铜线走线，整个过程用时 2 分 54 秒。另一个演示是三维建模，Astra 在 Blender 里搭建了一栋房子的模型，然后将其导入\
     \ Unreal Engine 5，"
+- id: ev-e5270d2d17c7271e
+  project_slug: gpt-6-曝光-openai-总裁说agi-来了
+  url: http://www.geekpark.net/news/369867
+  title: GPT-6 曝光， OpenAI 总裁说：AGI 来了
+  published_at: '2026-09-04T09:47:40Z'
+  collected_at: '2026-09-04T14:23:54Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "作者｜桦林舞王  \n  编辑｜靖宇  \n 他措辞很谨慎，用的是第一人称，加了「可能」，还专门留了后路说「如果你想说这是第一个，我认为这是合理的」。 \n 这不是 OpenAI 官方宣布\
+    \ AGI 到来，而是一位公司总裁在镜头前说出了自己的判断。 \n 当地时间 9 月 3 日，GPT-6 Astra 正式发布。极客公园拆解了目前能获取到的所有技术细节和演示材料，试图回答一个最核心的问题，这个模型，到底能干什么，能干到什么程度？它真的能代表\
+    \ AGI 的到来吗？ \n   01   \n  「操控电脑」趋于神话  \n 在发布材料里，OpenAI 给 Astra 起了个简洁的 slogan：「Anything you can do\
+    \ on a computer, Astra can do for you.（你在电脑上能做的任何事，Astra 都能替你做。）」 \n 这不是夸张的营销话术，而是方向声明。 \n 过去几年 AI\
+    \ 操控电脑的主流路径是调用 API。软件开发商先写好接口，AI 再通过接口完成操作。这套逻辑本质上要求每一款软件都专门适配 AI，否则 AI 就无能为力。 \n  Astra 走了一条完全不同的路：它像人一样，直接「看」屏幕上的像素，然后移动鼠标、敲击键盘，完成操作。\
+    \  \n 这个区别的意义在于覆盖范围。KiCad（印刷电路板设计软件）不会为 AI 写 API，FreeCAD 不会，公司内部那套用了十年的老 ERP 系统更不会。但如果 AI 能看屏幕直接操作，这些软件它全都能用——就像一个刚入职的员工，不需要了解软件背后的代码，只需要能看懂界面。\
+    \ \n OpenAI 在发布材料中展示了几个具体案例，可以感受一下「操控电脑」落地之后是什么样的。 \n   \n GPT-6 Astra 自己完成了 PCB 板布局和走线｜图片来源：OpenAI\
+    \ \n 给 Astra 一张电路原理图，它在 KiCad 里完成了元器件布局和铜线走线，整个过程用时 2 分 54 秒。另一个演示是三维建模，Astra 在 Blender 里搭建了一栋房子的模型，然后将其导入\
+    \ Unreal Engine 5，生成了一个可以实时漫游的建筑场景。还有一个更日常的演示，用户只是对着 Astra 说话，它完成了一个 eBay 商品上架的完整流程，从填写信息到提交发布。 \n\
+    \   \n Astra 在 Blender 里实现的"

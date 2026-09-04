@@ -22,24 +22,30 @@ summary: 'System Card: https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-
   threads: OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3 - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691
   GPT-6 Astra makes…'
 first_seen: '2026-09-03T18:41:05Z'
-last_seen: '2026-09-04T00:06:58Z'
+last_seen: '2026-09-04T14:23:26Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- producthunt
 sightings:
 - source: hackernews
   url: https://openai.com/index/gpt-6-astra/
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 1186
-    comments: 928
+    points: 1960
+    comments: 1787
   kind: news
 - source: marketfeeds
   url: https://simonwillison.net/2026/Sep/3/gpt6-astra/
   seen_at: '2026-09-04T00:06:58Z'
   metrics: {}
   kind: news
+- source: producthunt
+  url: https://www.producthunt.com/products/gpt-6-astra
+  seen_at: '2026-09-04T14:23:26Z'
+  metrics: {}
+  kind: product
 ---
 
 # GPT-6 Astra

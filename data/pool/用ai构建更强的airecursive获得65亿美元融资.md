@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZM2pIeUx1WHBmRm1fLWwzWW
 canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZM2pIeUx1WHBmRm1fLWwzWW4xR2xIUENYRXJERXlEQW5FOW96cGRGOVhJRGpOMExPUlJRdDd6T09Zcl9Xc09NUGYybVFiUQ?oc=5
 summary: 用AI构建更强的AI，Recursive获得6.5亿美元融资 36 Kr
 first_seen: '2026-08-31T13:01:56Z'
-last_seen: '2026-08-31T17:38:59Z'
-status: market_context
+last_seen: '2026-09-04T14:24:01Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZM2pIeUx1WHBmRm1fLWwzWW4xR2xIUENYRXJERXlEQW5FOW96cGRGOVhJRGpOMExPUlJRdDd6T09Zcl9Xc09NUGYybVFiUQ?oc=5
   seen_at: '2026-08-31T17:38:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nYmd3NWxsS1dZeS1FOFFMR290dFEyelhhWHpmQTBwYlZyZmMwZ096V1c0eFJWeEoyVF84TE5ZQWo5RHpLaHN3bjJnN1BNV3NyTkdLWDF3SmJaRlR6UnNRZEswTU9NQQ?oc=5
+  seen_at: '2026-09-04T14:24:01Z'
   metrics: {}
   kind: news
 ---

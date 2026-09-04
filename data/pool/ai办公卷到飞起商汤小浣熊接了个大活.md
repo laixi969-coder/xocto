@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOdmd0d0pNQ0M3eVRHNDUwQl
 canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOdmd0d0pNQ0M3eVRHNDUwQlNZaGh4RzlZZlB6VzBZbGxUOWEtU1RsR3N2RmlYSm5USnh1SUFlZXQyRlVnOURmVGw5RE9KaWpIQ2VnUVNOYkZGTk1mVkp5VUNKVEhuNzZ1c2tzNThXN19KTko1WmUtN0FhNDh3RkNnalg5NzNnb0llMS16cW84REk?oc=5
 summary: AI办公卷到飞起，商汤“小浣熊”接了个大活 时代财经
 first_seen: '2026-09-03T04:22:00Z'
-last_seen: '2026-09-04T00:07:05Z'
+last_seen: '2026-09-04T14:24:01Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOdmd0d0pNQ0M3eVRHNDUwQlNZaGh4RzlZZlB6VzBZbGxUOWEtU1RsR3N2RmlYSm5USnh1SUFlZXQyRlVnOURmVGw5RE9KaWpIQ2VnUVNOYkZGTk1mVkp5VUNKVEhuNzZ1c2tzNThXN19KTko1WmUtN0FhNDh3RkNnalg5NzNnb0llMS16cW84REk?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxNY1FqQzMwV3ExcC15d2gzVUlDX3Z4YVBVd1duR2pGQ0JNczlIa1BZWGc2cklaZlkyUFl6MnZ2TDdnem5SXzQyNFJkRFYzSnB1V25jMEdNejRsM0xxZGdsRmlnNDhqU05yME9Xdjl3MC1lbUVsT1JCekVFd25oaWtPRXBIajJKTGpLX2JaejctMGxDbWFrMTFTZHdFeURsa2dkYTB6OHJxcw?oc=5
+  seen_at: '2026-09-04T14:24:01Z'
   metrics: {}
   kind: news
 ---

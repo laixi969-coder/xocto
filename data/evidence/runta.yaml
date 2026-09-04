@@ -1,0 +1,18 @@
+- id: ev-60fe059260a86832
+  project_slug: runta
+  url: https://www.v2ex.com/t/1239534
+  title: 关于 Harnes 测评的一些尝试 ， NXS 跑了一遍 FrontierHarness， 30 题通过 22 题，失败的题目花掉了一半成本！
+  published_at: '2026-09-04T08:30:43Z'
+  collected_at: '2026-09-04T14:23:24Z'
+  source_kind: product
+  tier: independent
+  fact: "Runta 最近发布了一个 Coding Agent Harness 评测，名字叫 FrontierHarness Eval 。\r\n\r\n他们让同一个 Kimi K3 跑 30 道题，每轮只更换\
+    \ Agent Harness 。公开结果里，通过率从 50.0% 到 66.7%，每通过一道题的成本从 1.05 美元到 18.34 美元。\r\n\r\n看完[发布文章]( https://runta.com/blog/introducing-frontierharness-eval/)、任务和逐题结果，差距比我原先预想的大。\r\
+    \n\r\n![FrontierHarness 官方成本与通过率结果]( https://imgdb.io/i/QhBJc_4.png)\r\n\r\nFrontierHarness v1.0 选了\
+    \ 30 道题，其中 21 道来自 Terminal-Bench ，9 道来自 DeepSWE 。Runta 测了 9 个 Harness 、12 组配置，一共跑了 360 个 cell 。\r\n\
+    \r\n所有配置都使用 Kimi K3 。模型经由同一个网关连接到 Fireworks ，任务环境做成 Golden Checkpoint 。每次运行都从同一份快照恢复，vCPU 、内存、磁盘和内存状态保持一致。调试不用正式题，每个\
+    \ cell 只跑一次。\r\n\r\n这些约束固定了模型、任务和运行环境，Harness 成为主要变量。\r\n\r\n## 一样的通过率，成本差了 5.6 倍\r\n\r\nRunta 的结果里，Codex\
+    \ 通过 20 题，通过率是 66.7%。DSH Creator 和 Claude Code 都通过 19 题，通过率同为 63.3%。\r\n\r\nDSH Creator 每通过一道题花 3.28\
+    \ 美元，Claude Code 花 18.34 美元，相差 5.6 倍。\r\n\r\nExo Harness 的通过率是 53.3%，每通过一道题花 1.05 美元。在 Runta 展开的那道难题里，它跑到\
+    \ 51 步上限后停止，花了 1.46 美元。产品如果自动重试，这笔钱会反复累加。\r\n\r\n模型生成下一步，Harness 决定模型能看到什么、能调用哪些工具，还要管理上下文和测试失败后的重试。\r\
+    \n\r\n## NXS 的结果有点出乎意料\r\n\r\nNXS 是 Nexus 默认使用的 Agent Runtime 。N"

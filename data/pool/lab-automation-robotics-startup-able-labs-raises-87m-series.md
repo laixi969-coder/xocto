@@ -32,7 +32,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-04T00:07:05Z'
+last_seen: '2026-09-04T14:23:26Z'
 status: pending_filter
 sources:
 - newssearch
@@ -87,10 +87,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://inference-docs.cerebras.ai/models/overview
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 412
-    comments: 125
+    points: 618
+    comments: 204
   kind: news
 - source: officialfeeds
   url: https://vercel.com/changelog/basic-build-machines

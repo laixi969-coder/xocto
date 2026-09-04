@@ -20,16 +20,16 @@ url: https://ardent.ai/
 canonical_url: https://ardent.ai
 summary: a code-first agent for non-engineering work
 first_seen: '2026-09-03T15:01:24Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-04T14:23:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://ardent.ai/
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 7
+    points: 10
     comments: 2
   kind: product
 ---

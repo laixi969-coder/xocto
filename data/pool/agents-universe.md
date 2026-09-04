@@ -20,16 +20,16 @@ url: https://agents-universe.com/
 canonical_url: https://agents-universe.com
 summary: 让智能体像人一样学习和工作，共享智能体和项目记忆
 first_seen: '2026-08-18T12:49:42Z'
-last_seen: '2026-09-04T00:06:39Z'
+last_seen: '2026-09-04T14:23:30Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://agents-universe.com/
-  seen_at: '2026-09-04T00:06:39Z'
+  seen_at: '2026-09-04T14:23:30Z'
   metrics:
-    stars: 236
+    stars: 245
     forks: 3
     open_issues: 1
   kind: product

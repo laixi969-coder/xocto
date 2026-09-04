@@ -29,17 +29,17 @@ canonical_url: https://cbrock84.github.io/headcount
 summary: An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills,
   each independently installable.
 first_seen: '2026-08-28T18:03:04Z'
-last_seen: '2026-09-04T00:06:39Z'
+last_seen: '2026-09-04T14:23:30Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://cbrock84.github.io/headcount/
-  seen_at: '2026-09-04T00:06:39Z'
+  seen_at: '2026-09-04T14:23:30Z'
   metrics:
-    stars: 1183
-    forks: 189
+    stars: 1225
+    forks: 191
     open_issues: 1
   kind: product
 ---

@@ -1,0 +1,18 @@
+- id: ev-e62946de03cc72c1
+  project_slug: blog-3
+  url: https://www.v2ex.com/t/1239504
+  title: 'llmdoc: 3 亿 ARR 产品都在用的 codebase memory 方案'
+  published_at: '2026-09-04T07:10:15Z'
+  collected_at: '2026-09-04T14:23:24Z'
+  source_kind: product
+  tier: independent
+  fact: "# 标题的说明\r\n\r\n标题有一点夸大, 其实应该是 2.9 亿 ARR, 四舍五入其实差不多, 当然了其实是两家公司的两家产品加起来的 ARR \U0001F62D\r\n\r\n\
+    在前司主要负责公司的 AI/Agent 建设, 同时也比较深入的参与了业务的开发, 一些开发上的尤其是 人&人, 人&AI 的协作的痛点感知还是非常清晰的.\r\n\r\n我相信我列出的问题肯定不止一个人遇到过:\r\
+    \n\r\n1. AI 写的代码没有沿用默认的技术框架/方案\r\n2. 需要在 Coding 前不断地输入/纠正\r\n3. 已经有的解决方案/函数/包库没有直接用, 又造了一堆轮子\r\n4.\
+    \ 明明纠正过很多次, 同样的错误在下一次又犯病\r\n5. 使用的 memory 没有版本化管理, 代码回滚/合并了, memory 没有更新\r\n6. 给了目标之后, 用了巨多时间巨多 context,\
+    \ 读取了 N 多文件, 问了 N 个问题, 然后在过了甜点 context 阈值的情况下开始工作, 写的乱七八糟\r\n\r\n# context floor\r\n\r\n我曾经给很多人表达过一个观点:\
+    \ Agent 完成工作的好坏, 取决于 context 的丰富程度\r\n\r\n这里有几个需要说明的地方:\r\n\r\n1. 工作的好坏: 这里是靠人判断的, 架构是否合理, 抽象是否清晰,\
+    \ 是不是没有重复造轮子...\r\n2. Context 的丰富程度: 这里指的是和\"完成目标\"相关的 Context, 尽可能的多而且不重复, 在 context 无限大, 甜点 window\
+    \ 无限长的情况下, 最好的方案是把代码库+架构+db+UI+PRD 全都塞进去\r\n\r\n换句话说: 如果有办法能够稳定的为 Agent 提供良好的快速到达满足工作条件的 Context 路径,\
+    \ 就能提升 Agent 的工作效果和工作效率\r\n\r\n> context floor 只是我臆造的一个名词, 大家不用搜索, 我在一篇[早期的 blog]( https://blog.pdjjq.org/post/llmdoc-solving-the-last-100-meters-of-ai-coding-z2tuegp#:~:text=%E5%BC%80%E5%A7%8B%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.-,Context%20Floor,-%23)\
+    \ 里简单的说了一下,"

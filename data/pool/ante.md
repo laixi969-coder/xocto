@@ -28,11 +28,12 @@ url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-04T14:24:01Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://github.com/AntigmaLabs/ante
@@ -53,10 +54,20 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.kxan.com/news/texas/texas-data-center-tracker-see-where-600-projects-are-operating-or-planned-across-state-in-interactive-map/
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 33
-    comments: 29
+    points: 34
+    comments: 30
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/04/august-european-tech-funding-falls-63-as-dealmaking-slows/
+  seen_at: '2026-09-04T14:23:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbGFyeS1WMDVyTUFwa1B1U2YwWmI4T0JxX3hOV2tFWTNuLVlHZlJ3X2Q1VDlHYzRLZXlvOGdCSHJKNUZHX3pJR1FEbEF1QVV2YllCbE95SFg5R1FXZmNPV0xtRHNBUnV0dEo0TnhORk5IcjNJYkVLLUtMR2FnMnhCYTdKR01uOFg0TFNMdEtMZl9XajZUZ0t1OVl4d1ZiMnVMeUJTYzNGMzdHSF9lTUdrRnhlLXZuZXJLT0dackxHRFVPM2hBbXh6MFhzbXNOWDVIVnZIQTJLWlhyOV9l?oc=5
+  seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
   kind: news
 ---
 

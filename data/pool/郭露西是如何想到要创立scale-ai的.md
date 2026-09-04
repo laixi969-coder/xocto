@@ -1,7 +1,7 @@
 ---
 slug: 郭露西是如何想到要创立scale-ai的
 name: Scale AI
-builder: ''
+builder: plaguna
 category: 基础层
 summary_zh: Scale AI提供数据标注和评估服务，帮助AI模型训练。创始人郭露西的创业故事被报道，但具体产品细节未披露。
 inspiration: 趋势：AI数据服务需求持续增长，数据标注成为基础层关键。切入：可关注垂直领域数据标注，如医疗、法律，提供专业标注服务。
@@ -30,11 +30,12 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-04T00:07:05Z'
+last_seen: '2026-09-04T14:24:01Z'
 status: pending_filter
 sources:
 - newssearch
 - marketfeeds
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
@@ -84,6 +85,23 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizgFBVV95cUxQaHpXNk5PS3F3UmIyalgxdlQwX0RYUVFzRC1mOHZYYXdfRm9SaW5Gci10VmtLSHU1WFlBdEdHTVdzX2VENVVQY0ZVeFFTaDF1N081ZVFPQjJ0Ry13Y0xGSXZmaXltVHI5MVVMczd5TldhdHE5TTBZVk9xRmJha2pSSFJCX0wzSUllYmd0TExnTjlvWFZoOWIyaWlzOE1XSnlCYzlySm5HemREZGNlRVVaZ2JlbFJKN2RqbUE1R0ZwdjJoMlFMcU1uSXIyZFpjZw?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa
+  seen_at: '2026-09-04T14:23:26Z'
+  metrics:
+    points: 21
+    comments: 12
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/04/uk-startup-ai-score-raises-54m-to-scale-its-enterprise-ai-governance-platform/
+  seen_at: '2026-09-04T14:23:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQSnlHVXNHUnVQd1lXWUhzVnRub2RVZzVRQzRQWmc0NUFQZmVvR3RzNklEazRfWkJ1XzdNcDlncnNCQkZGYWczVE5EY2UybmlGTHFGZGJGOFdKRXYzQ3VBLUlhREg5aXd4c0NaMmc3SzVQWnlLU0Vfa3BZVFNtMVBTV0M2N1EzNy1vbUZvSm9FMmZ3eG9reUdRUWxZb3RRS2s2TmZhMUNRNEthbFBmU0tXazlsbXRId3FicDUxYTJHNWIzbXhOcHFBU3pNQXR1Tkk?oc=5
+  seen_at: '2026-09-04T14:24:01Z'
   metrics: {}
   kind: news
 ---

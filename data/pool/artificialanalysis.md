@@ -23,7 +23,7 @@ url: https://artificialanalysis.ai/optima
 canonical_url: https://artificialanalysis.ai/optima
 summary: Artificial Analysis tool to create custom benchmarks for any use case
 first_seen: '2026-08-13T16:28:02Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-04T14:23:26Z'
 status: pending_filter
 sources:
 - hackernews
@@ -37,10 +37,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://artificialanalysis.ai/articles/benchmarking-gpt-6-astra
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 20
-    comments: 10
+    points: 24
+    comments: 15
   kind: news
 ---
 

@@ -20,17 +20,17 @@ url: https://armature.tech/blog/which-tools-coding-agents-install
 canonical_url: https://armature.tech/blog/which-tools-coding-agents-install
 summary: Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out
 first_seen: '2026-09-03T21:20:34Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-04T14:23:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://armature.tech/blog/which-tools-coding-agents-install
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 67
-    comments: 17
+    points: 261
+    comments: 123
   kind: news
 ---
 

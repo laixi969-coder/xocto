@@ -20,17 +20,17 @@ url: https://ifm.ai/blog/k2/
 canonical_url: https://ifm.ai/blog/k2
 summary: A connected fleet of six open models
 first_seen: '2026-09-03T15:36:43Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-04T14:23:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://ifm.ai/blog/k2/
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 241
-    comments: 79
+    points: 313
+    comments: 116
   kind: news
 ---
 

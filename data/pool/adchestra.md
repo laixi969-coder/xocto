@@ -20,16 +20,16 @@ url: https://adchestra.com/
 canonical_url: https://adchestra.com
 summary: I built my first MCP to manage Google Ads
 first_seen: '2026-09-03T12:11:44Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-04T14:23:26Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://adchestra.com/
-  seen_at: '2026-09-04T00:06:35Z'
+  seen_at: '2026-09-04T14:23:26Z'
   metrics:
-    points: 14
+    points: 15
     comments: 10
   kind: product
 ---

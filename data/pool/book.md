@@ -21,8 +21,8 @@ url: https://book.curiora.space/
 canonical_url: https://book.curiora.space
 summary: A new way to read books, magnifying in and out
 first_seen: '2026-08-19T22:21:41Z'
-last_seen: '2026-08-29T15:06:03Z'
-status: market_context
+last_seen: '2026-09-04T14:23:26Z'
+status: pending_filter
 sources:
 - hackernews
 - officialfeeds
@@ -64,6 +64,13 @@ sightings:
   metrics:
     points: 33
     comments: 21
+  kind: news
+- source: hackernews
+  url: https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products
+  seen_at: '2026-09-04T14:23:26Z'
+  metrics:
+    points: 59
+    comments: 8
   kind: news
 ---
 

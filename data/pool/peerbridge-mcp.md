@@ -33,16 +33,16 @@ canonical_url: https://github.com/Hoylon/peerbridge-mcp
 summary: Provider-native adapter and governance layer for auditable multi-agent coding, review, evidence,
   and release workflows.
 first_seen: '2026-08-17T18:17:08Z'
-last_seen: '2026-09-04T00:06:39Z'
+last_seen: '2026-09-04T14:23:30Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Hoylon/peerbridge-mcp
-  seen_at: '2026-09-04T00:06:39Z'
+  seen_at: '2026-09-04T14:23:30Z'
   metrics:
-    stars: 228
+    stars: 237
     forks: 2
     open_issues: 0
   kind: product

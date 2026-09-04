@@ -20,14 +20,20 @@ url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQa01EWG1UMndEZVgzUkhDUn
 canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQa01EWG1UMndEZVgzUkhDUnZDVU1xWUs4TEZLU2xRV3AyczlVWXhqTFJhY0ItSXp0VVZndGRXaUxua1Q2NU9GWGVFbUk3X3dyTWgwMTFVTExQQW03X3lOQXBaYlpQOC1xa05IQXRzQjJkSFZFOFJfQnN2V0ExS1hWUEwwX2UwUQ?oc=5
 summary: The IPO Window Is Closing. Here Are 8 Startups To Watch. news.crunchbase.com
 first_seen: '2026-09-02T11:00:10Z'
-last_seen: '2026-09-04T00:07:05Z'
+last_seen: '2026-09-04T14:23:54Z'
 status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQa01EWG1UMndEZVgzUkhDUnZDVU1xWUs4TEZLU2xRV3AyczlVWXhqTFJhY0ItSXp0VVZndGRXaUxua1Q2NU9GWGVFbUk3X3dyTWgwMTFVTExQQW03X3lOQXBaYlpQOC1xa05IQXRzQjJkSFZFOFJfQnN2V0ExS1hWUEwwX2UwUQ?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/public/startups-to-watch-ipo-ai-chips-fintech-2026/
+  seen_at: '2026-09-04T14:23:54Z'
   metrics: {}
   kind: news
 ---
