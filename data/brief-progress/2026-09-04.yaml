@@ -339,4 +339,148 @@ interpretation:
     event_summary_zh: OpenAI ChatGPT、Anthropic Claude与xAI Grok在周四同一时段发生宕机并出现错误率上升，随后恢复正常。
     event_summary_en: ChatGPT, Claude, and Grok suffered concurrent service outages with elevated error
       rates on Thursday before recovering.
+  192gb统一内存释放单机ai新上限ms-s1-max-p495直上284b大模型:
+    slug: 192gb统一内存释放单机ai新上限ms-s1-max-p495直上284b大模型
+    name: MS-S1 MAX-P495
+    decision: entity
+    event_summary_zh: MS-S1 MAX-P495 配备 192GB 统一内存，支持单机运行 284B 参数的大模型。
+    event_summary_en: MS-S1 MAX-P495 features 192GB of unified memory, supporting the local execution
+      of 284B parameter large models on a single machine.
+  2026-上半年智能眼镜竞争加剧雷鸟创新五榜登顶实现全品类销量领先:
+    slug: 2026-上半年智能眼镜竞争加剧雷鸟创新五榜登顶实现全品类销量领先
+    name: RayNeo
+    decision: entity
+    event_summary_zh: 雷鸟创新在 2026 年上半年包揽全球 AR 眼镜与中国智能眼镜市场出货量及销量第一。
+    event_summary_en: RayNeo ranked first in both global AR glasses shipments and China's smart glasses
+      market sales in the first half of 2026.
+  2026年中国ai原生crm-深度测评报告:
+    slug: 2026年中国ai原生crm-深度测评报告
+    name: 2026年中国AI原生CRM 深度测评报告
+    decision: rejected
+  2026电博会海尔智家8大智慧家为用户分担家务:
+    slug: 2026电博会海尔智家8大智慧家为用户分担家务
+    name: Haier Smart Home
+    decision: entity
+    event_summary_zh: 海尔智家在 2026 电博会上展示 8 大智慧家场景方案。
+    event_summary_en: Haier Smart Home showcased eight smart home scenario solutions at the 2026 CE Expo.
+  2连板新炬网络紧急澄清ai智能体收入不足1公司上半年净亏640万元:
+    slug: 2连板新炬网络紧急澄清ai智能体收入不足1公司上半年净亏640万元
+    name: SHANGHAI NEWTOUCH SOFTWARE
+    decision: entity
+    event_summary_zh: 新炬网络发布澄清公告，说明其 AI 智能体业务收入占比不足 1%，且公司上半年净亏损 640 万元。
+    event_summary_en: Newtouch Software issued a clarification stating that its AI agent business accounted
+      for less than 1% of revenue and the company reported a net loss of 6.4 million yuan in H1.
+  5天4板牛股ai短剧收入占比不足1多只连板股提示风险:
+    slug: 5天4板牛股ai短剧收入占比不足1多只连板股提示风险
+    name: AI短剧概念股风险提示
+    decision: market_context
+    summary_zh: 多家 A 股短剧概念上市公司就股价异动发布风险提示，澄清其 AI 短剧相关业务营收占比不足 1%，反映出 AI 概念炒作与实际业务变现之间的脱节情况。
+    summary_en: Multiple publicly traded companies in China issued risk warnings regarding stock price
+      surges, clarifying that AI short drama revenue accounts for less than 1% of total revenue, highlighting
+      the gap between market speculation and actual monetization.
+    event_summary_zh: 多只连板概念股发布公告提示风险，明确其 AI 短剧收入占比不足 1%。
+    event_summary_en: Several surging listed companies issued risk warning announcements clarifying that
+      AI short drama revenue accounts for less than 1%.
+  799元的ai宠语翻译官读懂谁的心声:
+    slug: 799元的ai宠语翻译官读懂谁的心声
+    name: 799元的AI宠语翻译官，读懂谁的心声？
+    decision: rejected
+  a-startup-general-counsel-knew-what-corporate-lawyers-needed:
+    slug: a-startup-general-counsel-knew-what-corporate-lawyers-needed
+    name: GC AI
+    decision: entity
+    event_summary_zh: 前法务总监 Cecilia Ziniti 与工程师 Bardia Pourvakil 联合创办针对企业法务的法律科技公司 GC AI。
+    event_summary_en: Former general counsel Cecilia Ziniti teamed up with engineer Bardia Pourvakil to
+      co-found legal tech startup GC AI for corporate lawyers.
+  ace融资4000万美元打造ai时代的spotify:
+    slug: ace融资4000万美元打造ai时代的spotify
+    name: ACE
+    decision: entity
+    event_summary_zh: AI 音乐公司 ACE 完成近 4000 万美元融资，顺为资本等机构参投。
+    event_summary_en: AI music company ACE raised nearly $40 million in a new funding round with participation
+      from investors including Shunwei Capital.
+  adata-expands-enterprise-memory-and-storage-portfolio-for-ai:
+    slug: adata-expands-enterprise-memory-and-storage-portfolio-for-ai
+    name: ADATA
+    decision: entity
+    event_summary_zh: 威刚拓展面向 AI 服务器和边缘系统的企业级内存与存储产品线。
+    event_summary_en: ADATA expanded its enterprise memory and storage portfolio tailored for AI servers
+      and edge systems.
+  ai-is-changing-what-physical-stores-are-for:
+    slug: ai-is-changing-what-physical-stores-are-for
+    name: AI is changing what physical stores are for
+    decision: rejected
+  ai-办公智能体可能带来-14-万亿新增财富:
+    slug: ai-办公智能体可能带来-14-万亿新增财富
+    name: AI 办公智能体，可能带来 14 万亿新增财富
+    decision: rejected
+  ainews-gpt-6-astra-openais-biggest-llm-launch-of-all-time:
+    slug: ainews-gpt-6-astra-openais-biggest-llm-launch-of-all-time
+    name: GPT-6 Astra
+    decision: market_context
+    summary_zh: OpenAI 推出全新前沿大模型 GPT-6 Astra，大幅提升计算机使用和代码生成能力；单 token 成本提高 2.5 倍，但单任务整体成本显著降低。
+    summary_en: OpenAI launched its frontier model GPT-6 Astra, establishing new SOTA benchmarks in computer
+      use and coding with higher per-token pricing but significantly lower per-task total cost.
+    event_summary_zh: OpenAI 发布前沿模型 GPT-6 Astra，刷新代码与计算机操作基准性能。
+    event_summary_en: OpenAI launched the GPT-6 Astra frontier model, establishing new benchmarks for
+      coding and computer use capabilities.
+  ai算力基建出海-宁波小巨人如何做到:
+    slug: ai算力基建出海-宁波小巨人如何做到
+    name: AI算力基建“出海” 宁波“小巨人”如何做到？
+    decision: rejected
+  ai重塑行业格局传媒股强势走高-融资客最新抢筹股曝光:
+    slug: ai重塑行业格局传媒股强势走高-融资客最新抢筹股曝光
+    name: AI重塑行业格局！传媒股强势走高 融资客最新抢筹股曝光
+    decision: rejected
+  ai音乐公司ace完成近4000万美元融资-顺为资本等参投:
+    slug: ai音乐公司ace完成近4000万美元融资-顺为资本等参投
+    name: ACE
+    decision: entity
+    event_summary_zh: AI 音乐公司 ACE 获得顺为资本等参投的近 4000 万美元新一轮融资。
+    event_summary_en: AI music company ACE secured nearly $40 million in funding with participation from
+      Shunwei Capital and others.
+  andreessen-backed-ai-startup-gimlet-now-valued-at-us3-bil:
+    slug: andreessen-backed-ai-startup-gimlet-now-valued-at-us3-bil
+    name: Gimlet
+    decision: entity
+    event_summary_zh: 由 a16z 支持的 AI 初创公司 Gimlet 估值达到 30 亿美元。
+    event_summary_en: Andreessen Horowitz-backed AI startup Gimlet reached a valuation of $3 billion.
+  apex-group-names-fintech-veteran-chief-product-officer:
+    slug: apex-group-names-fintech-veteran-chief-product-officer
+    name: Apex Group
+    decision: entity
+    event_summary_zh: Apex Group 任命金融科技资深人士担任首席产品官。
+    event_summary_en: Apex Group appointed a fintech veteran as its Chief Product Officer.
+  artificial-intelligence-ai-market-companies-size-and-trends:
+    slug: artificial-intelligence-ai-market-companies-size-and-trends
+    name: Artificial Intelligence (AI) Market Companies, Size and Trends 2026-2035
+    decision: rejected
+  atlas:
+    slug: atlas
+    name: Atlas
+    decision: entity
+    event_summary_zh: World Labs 推出针对空间智能的世界模型 Atlas。
+    event_summary_en: World Labs launched Atlas, a world model designed for spatial intelligence.
+  august-newsletter-is-out:
+    slug: august-newsletter-is-out
+    name: August newsletter is out
+    decision: rejected
+  avgo-ai半导体收入单季暴增221真正值得关注的是q4还要再环比增长约30:
+    slug: avgo-ai半导体收入单季暴增221真正值得关注的是q4还要再环比增长约30
+    name: Broadcom
+    decision: entity
+    event_summary_zh: 博通（Broadcom）单季 AI 半导体业务收入同比增长 221%，并预计第四季度将继续环比增长约 30%。
+    event_summary_en: Broadcom's AI semiconductor revenue increased 221% year-over-year in a single quarter,
+      with Q4 projected to grow approximately 30% quarter-over-quarter.
+  bck网址真智能健康系统发布用技术解决运动康复痛点:
+    slug: bck网址真智能健康系统发布用技术解决运动康复痛点
+    name: BCK网址真智能健康系统发布，用技术解决运动康复痛点
+    decision: rejected
+  bessemer-and-creandum-set-to-back-new-ai-infrastructure-star:
+    slug: bessemer-and-creandum-set-to-back-new-ai-infrastructure-star
+    name: Gridfield
+    decision: entity
+    event_summary_zh: Bessemer 与 Creandum 计划以 6 亿美元估值投资新型 AI 基础设施初创公司 Gridfield。
+    event_summary_en: Bessemer and Creandum are set to back new AI infrastructure startup Gridfield at
+      a $600 million valuation.
 full: {}
