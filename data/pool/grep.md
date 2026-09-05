@@ -20,7 +20,7 @@ url: https://grep.codemod.com/
 canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
-last_seen: '2026-09-05T00:06:31Z'
+last_seen: '2026-09-05T13:28:57Z'
 status: pending_filter
 sources:
 - hackernews
@@ -45,14 +45,19 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.agentconnect.md/blog/grep-beat-lsp-harness/
-  seen_at: '2026-09-05T00:06:31Z'
+  seen_at: '2026-09-05T13:28:21Z'
   metrics:
-    points: 94
-    comments: 66
+    points: 96
+    comments: 67
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1hZRWlqRGZCLTc2UXdJMzlNQjFrOWo0by00ejlieFRUaU1yUk9MdDMyeklGekZVbGg1b2xIdWFxcFUwc05MeW40eTZBYm54Z3AwU1MyNDVtU0VsQ0Z5Z1FWOUVKdVctMFBoaTRjZ2JIeFFzTXVPVHdUNUJVM05vU3VjUERWM1hLSUMxR2NVVU5ZQQ?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQSTBrZnlwQmRPS2tib1FOX2VDQm1LT2dCYlVQN2tZa0x3cWtMN2lPeldlb1U1NDI4dUJZdWd0QlA4MllsRk5qNlo2SnVzeDhmczd1SlRVTUFLYkljQlRVVFBtU1d2aWZLWFZMOEVaVlU3dDM0V19XS3ZSLU5TQUlzdmpVVFJjejdKWUw3S3EzNjZqUQ?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
   metrics: {}
   kind: news
 ---

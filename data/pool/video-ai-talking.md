@@ -20,17 +20,17 @@ url: https://github.com/yizhi-chengzi/video-ai-talking
 canonical_url: https://github.com/yizhi-chengzi/video-ai-talking
 summary: 想做真人口播，又不必自己对着镜头念。上传一段真人出镜视频，写好字幕，本机配音并对口型，合成竖屏 MP4。密钥只留在浏览器里。
 first_seen: '2026-08-31T08:40:39Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yizhi-chengzi/video-ai-talking
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 146
-    forks: 19
+    stars: 168
+    forks: 23
     open_issues: 0
   kind: product
 ---

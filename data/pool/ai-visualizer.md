@@ -23,17 +23,17 @@ summary: 'Give your AI agent a face. Four full-screen visualizers. A living circ
   live by your voice agent''s signal bus. Zero dependencies: a browser and one tiny Python server. Pairs
   with backtalk out of the box.'
 first_seen: '2026-08-16T19:45:33Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://jaredrhod.com
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 68
-    forks: 36
+    stars: 70
+    forks: 37
     open_issues: 1
   kind: product
 ---

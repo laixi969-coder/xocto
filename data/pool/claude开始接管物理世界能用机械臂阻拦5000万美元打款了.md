@@ -22,7 +22,7 @@ url: https://www.qbitai.com/2026/08/480487.html
 canonical_url: https://qbitai.com/2026/08/480487.html
 summary: Claude觉醒超体
 first_seen: '2026-08-28T06:13:59Z'
-last_seen: '2026-09-03T00:16:50Z'
+last_seen: '2026-09-05T13:28:47Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -61,6 +61,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOYXpwc2RjRXZpaVNrVkJDaTJCdFdMa1JZVDQwbmRrLUlsMW1BRDdHb1FiOFRUSms3a2hONnF3c0p5bThfeUtrLXFsVGVLWHhLNU8yS3J3?oc=5
   seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/484551.html
+  seen_at: '2026-09-05T13:28:47Z'
   metrics: {}
   kind: news
 ---

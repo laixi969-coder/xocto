@@ -34,16 +34,16 @@ canonical_url: https://apodex.ai
 summary: 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct
   and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.
 first_seen: '2026-08-22T05:07:35Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://www.apodex.ai
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 1697
+    stars: 1778
     forks: 139
     open_issues: 11
   kind: product

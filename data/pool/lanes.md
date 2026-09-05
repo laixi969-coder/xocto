@@ -20,7 +20,7 @@ url: https://lanes.sh/showcase/agentic-fleet
 canonical_url: https://lanes.sh/showcase/agentic-fleet
 summary: Give every agent the right data, access and context to get work done
 first_seen: '2026-09-04T14:43:47Z'
-last_seen: '2026-09-05T00:06:31Z'
+last_seen: '2026-09-05T13:28:21Z'
 status: pending_filter
 sources:
 - hackernews
@@ -30,6 +30,13 @@ sightings:
   seen_at: '2026-09-05T00:06:31Z'
   metrics:
     points: 5
+    comments: 0
+  kind: product
+- source: hackernews
+  url: https://lanes.sh/showcase/personal-context-mcp
+  seen_at: '2026-09-05T13:28:21Z'
+  metrics:
+    points: 7
     comments: 0
   kind: product
 ---

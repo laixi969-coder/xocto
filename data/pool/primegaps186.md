@@ -20,17 +20,17 @@ url: https://github.com/openai/PrimeGaps186
 canonical_url: https://github.com/openai/PrimeGaps186
 summary: Conditional Lean formalization and numerical certificate for prime gaps at most 186.
 first_seen: '2026-09-02T20:53:32Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/PrimeGaps186
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 124
-    forks: 6
+    stars: 135
+    forks: 9
     open_issues: 0
   kind: product
 ---

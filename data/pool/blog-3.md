@@ -52,10 +52,11 @@ summary: "# 标题的说明\r\n\r\n标题有一点夸大, 其实应该是 2.9 �
   \ 有完成的 cli/plugin/skill/hooks 支持\r\n\r\n我的个人项目也在长期使用, 效果不错, 强烈推荐\r\n\r\n---\r\n\r\n[点点 Star]( https://github.com/TokenRollAI/llmdoc)\
   \ 更有帮助哦, 如果大家有问题也欢迎 Issue / PR / 评论区提问"
 first_seen: '2026-09-04T07:10:15Z'
-last_seen: '2026-09-04T14:23:24Z'
+last_seen: '2026-09-05T13:28:57Z'
 status: pending_filter
 sources:
 - v2ex
+- newssearch
 sightings:
 - source: v2ex
   url: https://blog.pdjjq.org/post/llmdoc-solving-the-last-100-meters-of-ai-coding-z2tuegp#:~:text=%E5%BC%80%E5%A7%8B%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.-,Context%20Floor,-%23
@@ -63,6 +64,11 @@ sightings:
   metrics:
     comments: 0
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMia0FVX3lxTE1mcGdOVXFkUndzSXpZN0o0d0ZOSTBiQ2xDUldvbWdQVUVBYkVPVnBEclJUU3p1S2puOEVtcFlSVUphUUgxZHhPOHBqejg4NWxPRWlSS2dVaEhHaGtnRW1YWE1idWVJRHdsbFdZ?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
 ---
 
 # Blog

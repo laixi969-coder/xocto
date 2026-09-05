@@ -26,7 +26,7 @@ summary: Best DeepSeek Harness plugin for context insight and management, with c
   how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context
   命令，透视上下文组成、演进、压缩、剪枝等事件与动作。
 first_seen: '2026-08-14T08:23:28Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: queued
 sources:
 - github
@@ -41,11 +41,11 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/autoprompt-skill
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 988
+    stars: 990
     forks: 66
-    open_issues: 13
+    open_issues: 12
   kind: product
 - source: github
   url: https://www.npmjs.com/package/opencode-mobile-use
@@ -89,9 +89,9 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/ownmem
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 242
+    stars: 251
     forks: 3
     open_issues: 0
   kind: product
@@ -137,19 +137,19 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-industry-research
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 56
+    stars: 60
     forks: 0
     open_issues: 0
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-research-report
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 51
+    stars: 58
     forks: 0
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

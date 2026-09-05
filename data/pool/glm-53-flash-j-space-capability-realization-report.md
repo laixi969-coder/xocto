@@ -21,16 +21,16 @@ canonical_url: https://github.com/Tiger3807861189/GLM-5.3-Flash-J-Space-Capabili
 summary: GLM-5.3-Flash × J-Space capability realization — benchmark presentation of the J-Space Cognition
   Suite
 first_seen: '2026-08-16T11:38:42Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 1024
+    stars: 1023
     forks: 63
     open_issues: 4
   kind: product

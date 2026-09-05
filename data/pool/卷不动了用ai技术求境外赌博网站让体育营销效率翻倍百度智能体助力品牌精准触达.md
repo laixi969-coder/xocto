@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPQk54MVBSVTBQRXZzSmlWSE
 canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPQk54MVBSVTBQRXZzSmlWSENXakJFQmh4NDhCb2pucGRFWlhDX0dRUXFjQjA4V2ZvWE4zQ3k0cmwzZm9BUndJSlAtb2p6bFE0X2dYVGVndEZ3cDlIN1ZpaTRuZ1lYWDUzRGhZVXdXNTlNSVFnQndVS3NYaW1ZOF9rSw?oc=5
 summary: 卷不动了？用AI技术求境外赌博网站，让体育营销效率翻倍！——百度智能体助力品牌精准触达 体坛加
 first_seen: '2026-09-03T23:41:34Z'
-last_seen: '2026-09-04T14:24:01Z'
+last_seen: '2026-09-05T13:28:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPQk54MVBSVTBQRXZzSmlWSENXakJFQmh4NDhCb2pucGRFWlhDX0dRUXFjQjA4V2ZvWE4zQ3k0cmwzZm9BUndJSlAtb2p6bFE0X2dYVGVndEZ3cDlIN1ZpaTRuZ1lYWDUzRGhZVXdXNTlNSVFnQndVS3NYaW1ZOF9rSw?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1BT0pHUWdaZ21UOUc1YUhRa2l5Z0drbWhRNkpKekFkYXAwNjdQT1ZHNUx1NEo3WTdSQy00NFNTYjlTRHZBdnNodjdCZHBqeWJUWTRlcHgydDRZTFlvXzVQWXJxZDZudXJqYVUzRHpyLWRjRGJ0cEZaWGNrRDliYnM?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
   metrics: {}
   kind: news
 ---

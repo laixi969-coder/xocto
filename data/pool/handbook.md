@@ -20,10 +20,11 @@ url: https://handbook.sutro.sh
 canonical_url: https://handbook.sutro.sh
 summary: The Analytical AI Handbook
 first_seen: '2026-08-28T19:01:47Z'
-last_seen: '2026-08-30T00:20:04Z'
-status: rejected
+last_seen: '2026-09-05T13:28:57Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://handbook.sutro.sh
@@ -31,6 +32,11 @@ sightings:
   metrics:
     points: 48
     comments: 2
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5hZFItRlg2VFdmTXpES1ZrRERZZnpuRVotN2tIZkNZMXdnV0x0TV9RQmk4Tzc4dVlOdjVRTTVOQmtRQmk4X0gzS1ZCUFhBZjdQR3BLbGxOU2pWMzB4SERoekxUYk5JWGRDeHU4LXBKMUZhSUVIbjk0bTJPendnZw?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
   kind: news
 ---
 

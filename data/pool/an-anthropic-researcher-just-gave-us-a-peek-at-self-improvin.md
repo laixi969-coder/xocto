@@ -22,7 +22,7 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-05T00:07:08Z'
+last_seen: '2026-09-05T13:28:57Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -76,6 +76,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMingFBVV95cUxOb29mR3Z5c3NIV1JOcE83QjRjd3ZJdnZncmtnd2h0VmExbDhGeGFVRmFaMTdxVDNoRmQxOHROUVhaT1dNaVNlM0JqcFZ4b0VWYXJ4enBqc1p2SVozdzJoZ2lubGVxdFUtVV9TZ1Z3TXRLTTMySnVRLWlnX0J3aGY1SXdRQWhfTllVTHlFOXgxZWFuTG5zTzQ4OGZnWExxQQ?oc=5
   seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNd25ZbUhuRmhmYk42dzU2VHFpTnR4LWhkYWxIQWNrYVBjdkZpTzZPVVZDaHV6aG9nQ0NCbjR4RTVYeWhSNk9hODdaYThpSUdwMTdWalotNU03RGxLY0FfM3BFOXYtTVZBZnAzckE1dTNNMDBqZFNocURJR3YxNG9zUlFNaEJNdHliaFZlUjhvdjA4ZVhFMHBXemNxa2ZWSF9I?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
   metrics: {}
   kind: news
 ---

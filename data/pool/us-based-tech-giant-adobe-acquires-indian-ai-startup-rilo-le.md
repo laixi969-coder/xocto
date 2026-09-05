@@ -1,0 +1,41 @@
+---
+slug: us-based-tech-giant-adobe-acquires-indian-ai-startup-rilo-le
+name: US-based tech giant Adobe acquires Indian AI startup Rilo less than a year after launch
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzU0WnF1QUtaYUZTRWJiWGpUMHc2TW1WdHBtcmFBcGdwbGhhc19OZ1hMT0hEWlpEWmFtUFkwemswaUdJYjFTYkdNa1d1R09WLWNMbGlfOG5seUE4UkE5WDByaDFBVEkzc1JtT3U5cjV3ZldsMHUtZUpaQ1R5SjhyNVFCZGpUcmpJVU1GaDNULXpDNTNDS056RlptUGpjZVNWbDA0Y0xhY3RNZTZabDh5LTU1UzlfaVJBMXVWS3E2MTFUQ3FMMGRkRGoyb9IBywFBVV95cUxPXzU0WnF1QUtaYUZTRWJiWGpUMHc2TW1WdHBtcmFBcGdwbGhhc19OZ1hMT0hEWlpEWmFtUFkwemswaUdJYjFTYkdNa1d1R09WLWNMbGlfOG5seUE4UkE5WDByaDFBVEkzc1JtT3U5cjV3ZldsMHUtZUpaQ1R5SjhyNVFCZGpUcmpJVU1GaDNULXpDNTNDS056RlptUGpjZVNWbDA0Y0xhY3RNZTZabDh5LTU1UzlfaVJBMXVWS3E2MTFUQ3FMMGRkRGoybw?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzU0WnF1QUtaYUZTRWJiWGpUMHc2TW1WdHBtcmFBcGdwbGhhc19OZ1hMT0hEWlpEWmFtUFkwemswaUdJYjFTYkdNa1d1R09WLWNMbGlfOG5seUE4UkE5WDByaDFBVEkzc1JtT3U5cjV3ZldsMHUtZUpaQ1R5SjhyNVFCZGpUcmpJVU1GaDNULXpDNTNDS056RlptUGpjZVNWbDA0Y0xhY3RNZTZabDh5LTU1UzlfaVJBMXVWS3E2MTFUQ3FMMGRkRGoyb9IBywFBVV95cUxPXzU0WnF1QUtaYUZTRWJiWGpUMHc2TW1WdHBtcmFBcGdwbGhhc19OZ1hMT0hEWlpEWmFtUFkwemswaUdJYjFTYkdNa1d1R09WLWNMbGlfOG5seUE4UkE5WDByaDFBVEkzc1JtT3U5cjV3ZldsMHUtZUpaQ1R5SjhyNVFCZGpUcmpJVU1GaDNULXpDNTNDS056RlptUGpjZVNWbDA0Y0xhY3RNZTZabDh5LTU1UzlfaVJBMXVWS3E2MTFUQ3FMMGRkRGoybw?oc=5
+summary: US-based tech giant Adobe acquires Indian AI startup Rilo less than a year after launch indianstartupnews.com
+first_seen: '2026-09-05T11:09:31Z'
+last_seen: '2026-09-05T13:28:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPXzU0WnF1QUtaYUZTRWJiWGpUMHc2TW1WdHBtcmFBcGdwbGhhc19OZ1hMT0hEWlpEWmFtUFkwemswaUdJYjFTYkdNa1d1R09WLWNMbGlfOG5seUE4UkE5WDByaDFBVEkzc1JtT3U5cjV3ZldsMHUtZUpaQ1R5SjhyNVFCZGpUcmpJVU1GaDNULXpDNTNDS056RlptUGpjZVNWbDA0Y0xhY3RNZTZabDh5LTU1UzlfaVJBMXVWS3E2MTFUQ3FMMGRkRGoyb9IBywFBVV95cUxPXzU0WnF1QUtaYUZTRWJiWGpUMHc2TW1WdHBtcmFBcGdwbGhhc19OZ1hMT0hEWlpEWmFtUFkwemswaUdJYjFTYkdNa1d1R09WLWNMbGlfOG5seUE4UkE5WDByaDFBVEkzc1JtT3U5cjV3ZldsMHUtZUpaQ1R5SjhyNVFCZGpUcmpJVU1GaDNULXpDNTNDS056RlptUGpjZVNWbDA0Y0xhY3RNZTZabDh5LTU1UzlfaVJBMXVWS3E2MTFUQ3FMMGRkRGoybw?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+---
+
+# US-based tech giant Adobe acquires Indian AI startup Rilo less than a year after launch
+
+US-based tech giant Adobe acquires Indian AI startup Rilo less than a year after launch indianstartupnews.com
+
+## 笔记
+
+

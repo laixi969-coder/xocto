@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yYVc5d2lFNGEydkFXVlN0aX
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yYVc5d2lFNGEydkFXVlN0aXg0UkNXZHpjZFltZDNOUEFwdGIzdWNXaFJySG0xcndadE9FNHhiYzJrMlhUSUEtRlcwblRyNkltTlY0?oc=5
 summary: 美国AI资本豪赌，押上的是美元的命运 华尔街见闻
 first_seen: '2026-09-04T01:54:13Z'
-last_seen: '2026-09-04T14:24:01Z'
+last_seen: '2026-09-05T13:28:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yYVc5d2lFNGEydkFXVlN0aXg0UkNXZHpjZFltZDNOUEFwdGIzdWNXaFJySG0xcndadE9FNHhiYzJrMlhUSUEtRlcwblRyNkltTlY0?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNVVJta2lidi1vMkVValhkQWN4TFZNUF9VNlNTRElNalNlb2ZzbmRpWWNlVHJJMEtMRmlKQVo0RXdWTFRubnFQWGFpQTd6N2dUZnBFSmw2VThnVldseFc0RnZLRHUxQmNYeHhqSzdZbExldS1rbHFaVFVOWEpqVUtTa0FocEl6THhNMGNkV1FvQVJRREVQYlZNazdzOHNZUlVZSkR2R2J4eDczbUgzVU5SUjZn?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
   metrics: {}
   kind: news
 ---

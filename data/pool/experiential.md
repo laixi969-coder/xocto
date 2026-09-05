@@ -28,10 +28,11 @@ url: https://github.com/experientiallabs/experiential
 canonical_url: https://github.com/experientiallabs/experiential
 summary: We built open OpenRouter that turns usage into a better model
 first_seen: '2026-08-27T21:18:35Z'
-last_seen: '2026-08-29T03:43:08Z'
+last_seen: '2026-09-05T13:28:21Z'
 status: watching
 sources:
 - hackernews
+- producthunt
 sightings:
 - source: hackernews
   url: https://github.com/experientiallabs/experiential
@@ -39,6 +40,11 @@ sightings:
   metrics:
     points: 208
     comments: 46
+  kind: product
+- source: producthunt
+  url: https://www.producthunt.com/products/experiential-labs
+  seen_at: '2026-09-05T13:28:21Z'
+  metrics: {}
   kind: product
 ---
 

@@ -20,17 +20,17 @@ url: https://tama.computer/
 canonical_url: https://tama.computer
 summary: Agent Sandboxes with GPUs from $0.20/hr
 first_seen: '2026-09-04T12:11:35Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T13:28:21Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://tama.computer/
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T13:28:21Z'
   metrics:
     points: 5
-    comments: 0
+    comments: 1
   kind: product
 ---
 

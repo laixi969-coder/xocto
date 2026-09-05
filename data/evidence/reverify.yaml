@@ -61,3 +61,14 @@
   fact: 'Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools
     decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts
     survive context resets. MCP server + CLI. | repository stars: 879'
+- id: ev-4128cdf0ebcc3d84
+  project_slug: reverify
+  url: https://github.com/2akouwu/reverify
+  title: reverify
+  published_at: '2026-08-31T01:02:18Z'
+  collected_at: '2026-09-05T13:28:25Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked
+    against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering
+    is the proving ground. MCP server + CLI. | repository stars: 912'

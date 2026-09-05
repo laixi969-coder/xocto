@@ -20,18 +20,18 @@ url: https://xhtoken.ai/
 canonical_url: https://xhtoken.ai
 summary: Spark-x2.5 open model series. Pushing the Limits of Agentic Capabilities in On-Device Models
 first_seen: '2026-08-24T06:36:40Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://xhtoken.ai/
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 149
+    stars: 152
     forks: 18
-    open_issues: 4
+    open_issues: 5
   kind: product
 ---
 

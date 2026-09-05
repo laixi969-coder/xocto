@@ -21,18 +21,18 @@ canonical_url: https://github.com/nateherkai/scroll-craft
 summary: An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude
   Code, and other coding agents. Also available as a Claude Code plugin.
 first_seen: '2026-08-22T15:25:08Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nateherkai/scroll-craft
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 1727
-    forks: 266
-    open_issues: 5
+    stars: 1890
+    forks: 282
+    open_issues: 6
   kind: product
 ---
 

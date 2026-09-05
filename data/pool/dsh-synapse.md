@@ -28,17 +28,17 @@ canonical_url: https://github.com/liangmianya/dsh-synapse
 summary: A visual, non-linear conversation workspace plugin for DeepSeek Harness ; A canvas-based session
   explorer and branching workspace for DeepSeek Harness.
 first_seen: '2026-08-16T18:14:17Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/liangmianya/dsh-synapse
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 333
-    forks: 35
+    stars: 339
+    forks: 36
     open_issues: 20
   kind: product
 ---

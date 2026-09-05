@@ -20,7 +20,7 @@ url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-
 canonical_url: https://reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30
 summary: Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 first_seen: '2026-08-31T21:29:03Z'
-last_seen: '2026-09-05T00:06:31Z'
+last_seen: '2026-09-05T13:28:21Z'
 status: pending_filter
 sources:
 - hackernews
@@ -38,6 +38,13 @@ sightings:
   metrics:
     points: 93
     comments: 2
+  kind: news
+- source: hackernews
+  url: https://www.reuters.com/world/africa/un-approves-resolution-support-map-that-shows-africas-true-size-2026-09-04/
+  seen_at: '2026-09-05T13:28:21Z'
+  metrics:
+    points: 20
+    comments: 7
   kind: news
 ---
 

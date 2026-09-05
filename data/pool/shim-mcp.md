@@ -21,17 +21,17 @@ canonical_url: https://dev.adityarajsingh.com/shim-mcp
 summary: WordPress MCP server plugin. Connect Claude Code, Cursor, or any MCP client to WordPress over
   stdio (WP-CLI) or HTTP. 58 abilities, self-contained, no cloud.
 first_seen: '2026-08-30T15:26:23Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://dev.adityarajsingh.com/shim-mcp/
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
     stars: 47
-    forks: 0
+    forks: 1
     open_issues: 19
   kind: product
 ---

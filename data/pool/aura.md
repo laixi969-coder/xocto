@@ -20,11 +20,12 @@ url: https://github.com/mezmo/aura
 canonical_url: https://github.com/mezmo/aura
 summary: a Rust agent that investigates and fixes production incidents
 first_seen: '2026-09-02T15:55:14Z'
-last_seen: '2026-09-04T14:23:54Z'
+last_seen: '2026-09-05T13:28:57Z'
 status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://github.com/mezmo/aura
@@ -36,6 +37,16 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/
   seen_at: '2026-09-04T14:23:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPbnB2N1Nla0FjTURiQUdvTWJ5SW56LUlVYkp1YzdxcE12RmJCN29YN0hHV1liMS1WdVBScURZSDlKZjdZSWxOek5pYmtVcjBDU3NOOFllWWJMZ2wzTWhoV1lIUnh5U2RTUUZHb0E0cEN3SUNfQjhaUGh3ZXFVSWVEVVQyTXkzcDhwREdWb3ZPMWU5dENnNnQxM3U1TWJVRmRoZ0ZWRjFRdDR2b09zUnlYNEVZX1owZGc?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE1PZk9sQzdYTndMcE80dEM3aUQzSWU3dnNXbktBcUNZWUJxeUVkeFdoejFrUEwzZWtnMXQzNzA1SFVJS1BHbVk3TzRB?oc=5
+  seen_at: '2026-09-05T13:28:57Z'
   metrics: {}
   kind: news
 ---

@@ -21,18 +21,18 @@ canonical_url: https://aiagentplatforms.dev
 summary: 'A curated list of open-source AI agent platforms: AI coworkers and teammates, agent builders
   and frameworks, workflow automation platforms, browser agents, and coding agents, with licenses.'
 first_seen: '2026-09-02T16:32:59Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-05T13:28:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://aiagentplatforms.dev
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-05T13:28:25Z'
   metrics:
-    stars: 166
-    forks: 3
-    open_issues: 2
+    stars: 191
+    forks: 4
+    open_issues: 3
   kind: product
 ---
 
