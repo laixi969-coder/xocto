@@ -244,6 +244,19 @@ jobs:
             git push origin HEAD:main
           fi
 
+      - name: 核验线上中英文交付
+        id: deployment
+        continue-on-error: true
+        if: ${{ steps.freshness.outcome == 'success' }}
+        env:
+          RETRY_DATE: ${{ inputs.retry_date }}
+        run: |
+          target_date="$RETRY_DATE"
+          if [ -z "$target_date" ]; then
+            target_date="$(TZ=Asia/Shanghai date +%Y-%m-%d)"
+          fi
+          python3 scripts/check_deployment.py --date "$target_date"
+
       # 用户先得到当日站点；采集、判断或页面检查失败仍必须亮红灯。
       - name: 检查判断链是否完整
         if: ${{ always() }}
@@ -255,6 +268,7 @@ jobs:
           if [ "${{ steps.full_req.outcome }}" = "failure" ]; then failed="$failed full_req"; fi
           if [ "${{ steps.freshness.outcome }}" = "failure" ]; then failed="$failed freshness"; fi
           if [ "${{ steps.design.outcome }}" = "failure" ]; then failed="$failed design"; fi
+          if [ "${{ steps.deployment.outcome }}" = "failure" ]; then failed="$failed deployment"; fi
           if [ -n "$failed" ]; then
             echo "以下阶段未完成，但当日站点如有新内容已推送：$failed"
             exit 1

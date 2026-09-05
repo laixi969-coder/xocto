@@ -70,6 +70,9 @@ class BriefTests(unittest.TestCase):
             self.assertIn("具体工作节点", prompt[0]["content"])
             self.assertIn("用户最终拿到什么", prompt[0]["content"])
             self.assertIn("REQ 公开证据模式", prompt[0]["content"])
+            self.assertIn("筛选规则", prompt[1]["content"])
+            self.assertNotIn("编辑模板", str(prompt))
+            self.assertNotIn("previous_report_zh", str(prompt))
 
     def test_news_interpretation_separates_entities_from_public_market_context(self) -> None:
         entity = replace(
