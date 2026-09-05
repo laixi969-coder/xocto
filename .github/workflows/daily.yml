@@ -142,6 +142,8 @@ jobs:
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 中英文市场核验
@@ -161,6 +163,8 @@ jobs:
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       - name: 高价值项目完整 /req 判断
@@ -180,6 +184,8 @@ jobs:
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
 
       # 模型判断、市场观察和完整 /req 都是已经通过各自结构校验的数据资产。

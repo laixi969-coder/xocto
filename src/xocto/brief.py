@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import json
 import os
+import random
 import re
 import time
 from copy import deepcopy
@@ -43,12 +44,14 @@ from .store import Store
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GLM_API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-pro"
 DEFAULT_GEMINI_MODEL = "gemini-3.7-flash"
 # Groq 将 Qwen 3.6 列为预览模型；日报是生产定时任务，默认使用其生产
 # 模型中仍可落在免费层配额内的 GPT-OSS 20B，而不是追逐随时可能下线的预览版。
 DEFAULT_GROQ_MODEL = "openai/gpt-oss-20b"
-FALLBACK_PROVIDER_ORDER = ("groq", "gemini", "deepseek")
+DEFAULT_GLM_MODEL = "glm-5.3-flash"
+FALLBACK_PROVIDER_ORDER = ("glm", "groq", "gemini", "deepseek")
 ALLOWED_DECISIONS = {STATUS_REJECTED, STATUS_MARKET_CONTEXT, STATUS_QUEUED, STATUS_WATCHING}
 EMPTY_DAY_MARKERS = (
     "今天没有值得展开",
@@ -151,6 +154,12 @@ BRIEF_BATCH_SIZE = 1
 INTERPRETATION_BATCH_SIZE = 8
 MAX_BATCH_REPAIRS = 2
 REPORT_PRODUCT_LIMIT = 18
+# 请求体超过此字节数时，在发送前自动拆分批次，避免 413。
+# Groq 免费层约 6 KB，保守取 32 KB 留余量给所有供应商。
+MAX_PAYLOAD_BYTES = 32_000
+# 瞬时 HTTP 错误（413/429/503）的退避重试参数。
+_MAX_RETRIES = 3
+_BASE_BACKOFF = 1.0
 
 
 def _observation_only(product: Product) -> bool:
@@ -432,17 +441,39 @@ def _model_providers() -> list[tuple[str, str, str, str]]:
         providers["groq"] = (
             GROQ_API_URL, key, os.environ.get("GROQ_MODEL") or DEFAULT_GROQ_MODEL
         )
+    if key := os.environ.get("ZHIPU_API_KEY"):
+        providers["glm"] = (
+            GLM_API_URL, key, os.environ.get("GLM_MODEL") or DEFAULT_GLM_MODEL
+        )
     if not providers:
         raise BriefError(
-            "缺少可用模型密钥；请配置 DEEPSEEK_API_KEY、GEMINI_API_KEY 或 GROQ_API_KEY"
+            "缺少可用模型密钥；请配置 ZHIPU_API_KEY、DEEPSEEK_API_KEY、GEMINI_API_KEY 或 GROQ_API_KEY"
         )
-    preferred = os.environ.get("MODEL_PROVIDER", "deepseek").strip().lower()
+    preferred = os.environ.get("MODEL_PROVIDER", "glm").strip().lower()
     names = [preferred] if preferred in providers else []
     names.extend(name for name in FALLBACK_PROVIDER_ORDER if name in providers and name not in names)
     return [(name, *providers[name]) for name in names]
 
 
-def _request(messages: list[dict[str, str]]) -> dict[str, Any]:
+def _estimate_payload_bytes(messages: list[dict[str, str]], *, provider: str = "glm") -> int:
+    """粗略估算请求体大小（字节），用于在发送前判断是否需要拆分。"""
+    body: dict[str, Any] = {
+        "model": "placeholder",
+        "messages": messages,
+        "response_format": {"type": "json_object"},
+        "max_tokens": 8000,
+        "temperature": 0.2,
+    }
+    if provider == "deepseek":
+        body["thinking"] = {"type": "disabled"}
+    elif provider == "glm":
+        body["thinking_budget"] = 1
+    return len(json.dumps(body, ensure_ascii=False).encode("utf-8"))
+
+
+def _request(
+    messages: list[dict[str, str]], *, allow_skip: bool = False
+) -> dict[str, Any] | None:
     # JSON 模式偶发空 content、Markdown fence 或被额外解释包住。格式修复只
     # 重试两次；每次都在不写盘的前提下进行，避免异常输出污染当天档案。
     failures: list[str] = []
@@ -455,9 +486,22 @@ def _request(messages: list[dict[str, str]]) -> dict[str, Any]:
             "temperature": 0.2,
         }
         # DeepSeek 的非思考模式能防止 content 为空；Gemini 的 OpenAI 兼容端点
-        # 不接收这个厂商专用字段。
+        # 不接收这个厂商专用字段。GLM 思考模式默认开启，设最小 budget 省 token。
         if provider == "deepseek":
             body["thinking"] = {"type": "disabled"}
+        elif provider == "glm":
+            body["thinking_budget"] = 1
+        # 发送前检查请求体大小，超过阈值时提前失败并尝试下一个供应商，
+        # 而不是等 413 再处理——那时已经浪费了一次网络往返。
+        payload_size = len(json.dumps(body, ensure_ascii=False).encode("utf-8"))
+        if payload_size > MAX_PAYLOAD_BYTES:
+            if allow_skip:
+                return None
+            failures.append(
+                f"{provider} 请求体过大（{payload_size} bytes > {MAX_PAYLOAD_BYTES}），"
+                "已跳过；请在调用方拆分批次"
+            )
+            continue
         request_messages = messages
         for attempt in range(3):
             body["messages"] = request_messages
@@ -466,6 +510,10 @@ def _request(messages: list[dict[str, str]]) -> dict[str, Any]:
                     response = client.post(
                         api_url, headers={"Authorization": f"Bearer {api_key}"}, json=body
                     )
+                    # 402 余额不足：跳过该供应商，不重试。
+                    if response.status_code == 402:
+                        failures.append(f"{provider} 余额不足（402），已跳过")
+                        break
                     response.raise_for_status()
                     content = response.json()["choices"][0]["message"]["content"]
             except httpx.HTTPStatusError as exc:
@@ -1153,8 +1201,17 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         product for product in observation_products
         if product.slug not in progress["interpretation"]
     ]
-    for start in range(0, len(pending_observation), INTERPRETATION_BATCH_SIZE):
-        batch = pending_observation[start:start + INTERPRETATION_BATCH_SIZE]
+    # 预计算安全批次大小：用第一个产品估算 config 开销，避免逐批超限后才失败。
+    interp_batch_size = INTERPRETATION_BATCH_SIZE
+    if pending_observation:
+        first_msg = _interpretation_prompt(store, pending_observation[:1])
+        overhead = _estimate_payload_bytes(first_msg)
+        if overhead > MAX_PAYLOAD_BYTES:
+            interp_batch_size = 1
+        elif overhead > MAX_PAYLOAD_BYTES // 2:
+            interp_batch_size = max(1, INTERPRETATION_BATCH_SIZE // 2)
+    for start in range(0, len(pending_observation), interp_batch_size):
+        batch = pending_observation[start:start + interp_batch_size]
         print(f"解释批次 {start + 1}/{len(pending_observation)}", flush=True)
         messages = _interpretation_prompt(store, batch)
         result = _request(messages)
@@ -1204,8 +1261,17 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         event_summaries.update(cached_events)
 
     pending_full = [product for product in full_products if product.slug not in progress["full"]]
-    for start in range(0, len(pending_full), BRIEF_BATCH_SIZE):
-        batch = pending_full[start:start + BRIEF_BATCH_SIZE]
+    # 预计算安全批次大小：完整 prompt 包含 filter/template/req 配置，体积远大于解释 prompt。
+    full_batch_size = BRIEF_BATCH_SIZE
+    if pending_full:
+        first_msg = _prompt(store, day, pending_full[:1], [], previous_zh="", previous_en="")
+        overhead = _estimate_payload_bytes(first_msg)
+        if overhead > MAX_PAYLOAD_BYTES:
+            full_batch_size = 1
+        elif overhead > MAX_PAYLOAD_BYTES // 2:
+            full_batch_size = max(1, BRIEF_BATCH_SIZE // 2)
+    for start in range(0, len(pending_full), full_batch_size):
+        batch = pending_full[start:start + full_batch_size]
         print(f"判断批次 {start + 1}/{len(pending_full)}", flush=True)
         messages = _prompt(store, day, batch, [], previous_zh="", previous_en="")
         result = _request(messages)
