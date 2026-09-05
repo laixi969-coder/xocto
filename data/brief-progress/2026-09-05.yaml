@@ -1587,3 +1587,481 @@ full:
         evidence_ids:
         - ev-cfeb31f5aaf2ffaf
       next_validation: 官方公开的产品技术架构、权限隔离说明与企业团队集成方案
+  agent-2:
+    slug: agent-2
+    name: Agent-2
+    decision: watching
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    - 网络安全
+    industries_en:
+    - Software Development
+    - Cybersecurity
+    jobs:
+    - 开发者
+    - 安全工程师
+    jobs_en:
+    - Developer
+    - Security Engineer
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: Agent-2 是一个自主 AI 代理，支持编码、网络安全、终端自动化和智能任务执行。用户可通过命令行或 API 让其完成代码编写、漏洞扫描、脚本执行等工作，最终得到可直接使用的代码或报告。
+    inspiration: AI 自动化工具兴起，开发者需要更高效的代码生成与安全检测。Agent-2 针对软件开发与安全运维人员，提供可直接集成的 AI 代理，降低手工编码与安全扫描成本。
+    summary_en: Agent-2 is an autonomous AI agent designed for coding, cybersecurity, terminal automation,
+      and intelligent task execution. Developers can invoke it via command line or API to generate code,
+      perform vulnerability scans, or run scripts, receiving ready‑to‑use code or reports.
+    inspiration_en: With the rise of AI‑powered automation, developers and security engineers seek tools
+      that streamline coding and vulnerability detection. Agent‑2 targets these professionals by offering
+      an AI agent that can be integrated into workflows, reducing manual effort and accelerating delivery.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 软件开发人员
+        job_en: Software Developer
+        pain_zh: 手工编码和安全扫描耗时且易出错
+        pain_en: Manual coding and security scanning are time‑consuming and error‑prone
+        current_alternative_zh: 手动编写代码、使用现有脚本或工具
+        current_alternative_en: Manual coding, existing scripts or tools
+        usage_reason_zh: 希望通过 AI 自动化完成编码、漏洞扫描和终端任务
+        usage_reason_en: To automate coding, vulnerability scanning, and terminal tasks via AI
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 缺乏公开使用或付费案例，无法验证需求强度。
+        evidence_ids:
+        - ev-29339ac4157ec4a8
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏用户反馈或行业共识，无法确认需求广泛性。
+        evidence_ids:
+        - ev-29339ac4157ec4a8
+      - gate: model
+        status: insufficient
+        reason: 未见公开模型性能评估或对比，无法判断技术可行性。
+        evidence_ids:
+        - ev-29339ac4157ec4a8
+      - gate: truth
+        status: insufficient
+        reason: 缺少实际使用数据，无法验证功能实现。
+        evidence_ids:
+        - ev-29339ac4157ec4a8
+      next_validation: 获取官方定价页或公开使用案例，验证是否有付费用户或客户。
+  at8pm:
+    slug: at8pm
+    name: at8pm
+    decision: watching
+    event_summary_zh: 发布了日记应用 at8pm。
+    event_summary_en: Released the journaling app at8pm.
+    category: 通用助手
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: at8pm 是一款日记应用，帮助用户记录每日生活与情绪。
+    inspiration: 趋势：人们越来越重视情绪管理与自我反思。切入：提供简洁的日记工具，适合忙碌的都市人。
+    summary_en: at8pm is a journaling app that helps users record daily life and emotions.
+    inspiration_en: 'Trend: Growing focus on emotional wellbeing and self-reflection. Entry point: a simple
+      journaling tool for busy urban users.'
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: ''
+        job_en: ''
+        pain_zh: ''
+        pain_en: ''
+        current_alternative_zh: ''
+        current_alternative_en: ''
+        usage_reason_zh: ''
+        usage_reason_en: ''
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 缺乏关于产品功能、用户痛点、替代方案等公开信息，无法判断需求是否成立。
+        evidence_ids:
+        - ev-02af673554389d99
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏公开用户反馈或市场共识。
+        evidence_ids:
+        - ev-02af673554389d99
+      - gate: model
+        status: insufficient
+        reason: 未确认是否使用 AI 技术。
+        evidence_ids:
+        - ev-02af673554389d99
+      - gate: truth
+        status: insufficient
+        reason: 缺少可验证的付费或使用数据。
+        evidence_ids:
+        - ev-02af673554389d99
+      next_validation: 获取官方产品说明页或用户评价
+  aura:
+    slug: aura
+    name: Mezmo Aura
+    decision: watching
+    event_summary_zh: Mezmo 开源基于 Rust 开发的生产故障调查与修复智能体 Aura。
+    event_summary_en: Mezmo open-sourced Aura, a Rust-based agent designed to investigate and fix production
+      incidents.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件与信息技术
+    industries_en:
+    - Software & Information Technology
+    jobs:
+    - 运维工程师
+    - 站点可靠性工程师
+    - 后端开发工程师
+    jobs_en:
+    - DevOps Engineer
+    - Site Reliability Engineer
+    - Backend Developer
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 运维与后端工程师在生产系统报警或发生线上故障时使用；它接收监控告警与系统状态信息，基于 Rust 智能体执行故障排查、根因定位并尝试生成修复方案，协助工程师快速恢复线上业务。
+    inspiration: 趋势：线上运维从被动告警响应转向具备环境感知与自动排障的智能体；切入：从 Rust 高性能故障诊断切入，以确定性只读排查建立信任，再逐步引入受控修复。
+    summary_en: Aura is an open-source Rust-based agent for DevOps and SRE teams to investigate production
+      incidents, identify root causes, and suggest or execute remediation steps.
+    inspiration_en: 'Trend: Incident management shifts from passive alerting to proactive AI diagnostics.
+      Entry: Target SRE workflows with high-performance investigation before automating write actions.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 排查和修复线上生产环境故障
+        job_en: Investigate and remediate production incidents
+        pain_zh: 生产故障响应时间长，人工排查日志与链路耗时且容易遗漏关键根因
+        pain_en: Incident diagnosis is slow and manual log/trace inspection delays recovery
+        current_alternative_zh: 工程师手动翻查日志、监控仪表盘与告警链路
+        current_alternative_en: Engineers manually inspect logs, metrics dashboards, and alerts
+        usage_reason_zh: 结构上能自动化串联告警排查路径并辅助生成修复方案
+        usage_reason_en: It structurally automates diagnosis pathways to speed up incident resolution
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决生产故障排查耗时长、定位难的痛点，通过智能体自动化调查与修复缩短停机损失。
+        evidence_ids:
+        - ev-2863fa66775a9a16
+      - gate: consensus
+        status: insufficient
+        reason: 属于早期开源项目，社区讨论与生产环境大规模采用仍需进一步积累。
+        evidence_ids:
+        - ev-2863fa66775a9a16
+      - gate: model
+        status: insufficient
+        reason: 当前为开源代码库，企业版商业模式或托管定价尚未公开。
+        evidence_ids:
+        - ev-2863fa66775a9a16
+      - gate: truth
+        status: supported
+        reason: 基于 Rust 实现的排障智能体聚焦明确的事故定位与修复闭环，边界清晰。
+        evidence_ids:
+        - ev-2863fa66775a9a16
+      next_validation: 官方公开的生产环境接入文档与自动化修复安全边界规范
+  blog-3:
+    slug: blog-3
+    name: llmdoc
+    decision: watching
+    event_summary_zh: llmdoc 发布 V3 版本，重构为按主题和领域划分的外部上下文提供工具，提供 CLI 与插件支持 Claude Code 等编码智能体管理代码库架构决策与上下文同步。
+    event_summary_en: llmdoc released version 3, restructuring into a topic- and domain-based external
+      context provider with CLI and plugin support to help coding agents like Claude Code manage codebase
+      decisions and context synchronization.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    - 信息技术
+    industries_en:
+    - Software Development
+    - Information Technology
+    jobs:
+    - 软件工程师
+    - 架构师
+    jobs_en:
+    - Software Engineer
+    - Software Architect
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 软件工程师在指挥 AI 编码助手处理复杂代码库时打开此工具。它接收代码库的架构设计与领域决策文档，通过结构化元数据和 CLI 程序化匹配当前任务所需的关键上下文并随代码做版本控制，让编码智能体直接获取准确的技术约束与既有实现，减少上下文污染与重复造轮子。
+    inspiration: AI 辅助编程的瓶颈正从模型推理能力转向代码库上下文供给的信噪比。创业切入点不是通用提示词工程，而是为特定技术栈或大型企业遗留系统提供与 Git 工作流绑定的代码决策管理与自动化上下文裁剪方案。
+    summary_en: Software engineers use this tool when guiding AI coding agents in complex repositories.
+      It manages architecture designs and domain docs with structured metadata, programmatically feeding
+      the right context into agents via CLI while syncing with Git commits to prevent hallucinations and
+      redundant code.
+    inspiration_en: The bottleneck in AI coding is shifting from model reasoning to repository context
+      quality. The entry point is providing automated codebase context curation tightly bound to Git workflows
+      for specific stacks or legacy enterprise systems.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 在大型代码库中让 AI 编码智能体按既有架构和技术规范编写代码，避免错误修改或重复造轮子。
+        job_en: Enable AI coding agents to write code according to existing architecture and technical
+          conventions in complex repositories without breaking standards or reinventing wheels.
+        pain_zh: AI 缺少代码库全局架构上下文，动辄读取过多文件导致超出有效窗口，屡次犯相同错误且无法随代码回滚同步记忆。
+        pain_en: AI agents lack codebase-wide architectural context, frequently exceeding effective context
+          windows by reading too many files and repeating errors without version-controlled memory.
+        current_alternative_zh: 手动在每次提示词中复制粘贴架构说明，或依靠通用的 diataxis 格式文档与多轮人工纠错。
+        current_alternative_en: Manually copy-pasting architectural notes into prompts or relying on generic
+          human-oriented documentation with tedious multi-turn manual corrections.
+        usage_reason_zh: 开发者希望用与 Git 联动的程序化机制，以极低 Token 消耗为智能体精准输送代码决策与相关依赖。
+        usage_reason_en: Developers want a deterministic, Git-linked mechanism to feed precise architectural
+          decisions and dependencies to agents with minimal token overhead.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决 AI 编码助手在大型项目中因缺乏架构上下文而胡乱写代码、重复造轮子的刚性痛点，结构成立。
+        evidence_ids:
+        - ev-e62946de03cc72c1
+      - gate: consensus
+        status: insufficient
+        reason: 上下文管理已成为 AI 辅助编程领域的共识痛点，但该开源方案的实际团队采用规模仍待观察。
+        evidence_ids:
+        - ev-e62946de03cc72c1
+      - gate: model
+        status: insufficient
+        reason: 目前为开源免费项目，尚未形成商业付费路径或企业级托管变现模式。
+        evidence_ids:
+        - ev-e62946de03cc72c1
+      - gate: truth
+        status: supported
+        reason: 通过静态元数据与 CLI 程序化提供代码上下文，交付确定性高且符合工程约束。
+        evidence_ids:
+        - ev-e62946de03cc72c1
+      next_validation: 观察该开源仓库的 Star 增长、Issue 反馈以及是否有企业在 CI/CD 中落地采用的公开案例。
+  brickforgerai:
+    slug: brickforgerai
+    name: BrickForgerAI
+    decision: watching
+    event_summary_zh: 将任何提示转化为可实际搭建的 LEGO 砖块集合
+    event_summary_en: Turns any prompt into a brick set you can actually build
+    category: AI + 生活
+    project_type: new_application
+    industries:
+    - 娱乐
+    industries_en:
+    - Entertainment
+    jobs:
+    - 爱好者
+    jobs_en:
+    - Hobbyists
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: BrickForgerAI 让用户输入任何文字提示，AI 自动生成可实际搭建的 LEGO 砖块集合与搭建说明，用户可直接购买零件并组装完成模型。
+    inspiration: 随着 AI 生成内容的普及，爱好者渴望将创意落地为实体模型，BrickForgerAI 通过 AI 生成可搭建的 LEGO 砖块集合，为玩具创作提供新路径。
+    summary_en: BrickForgerAI lets users input any textual prompt, and the AI automatically generates
+      a set of LEGO bricks and instructions that can be physically built. Users can purchase the bricks
+      and assemble the model directly.
+    inspiration_en: With the rise of AI-generated content, hobbyists seek to bring their ideas into tangible
+      models. BrickForgerAI uses AI to produce buildable LEGO sets, opening a new avenue for toy creation.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: LEGO 爱好者
+        job_en: Hobbyists
+        pain_zh: 难以将创意转化为可搭建的模型
+        pain_en: Difficulty turning ideas into buildable models
+        current_alternative_zh: 手工设计、购买现成套装
+        current_alternative_en: Manual design or buying ready sets
+        usage_reason_zh: 想快速实现创意并获得可玩模型
+        usage_reason_en: Want to quickly realize ideas and get playable models
+      gates:
+      - gate: value
+        status: supported
+        reason: 它提供了将文字提示直接转化为可搭建 LEGO 模型的方法。
+        evidence_ids:
+        - ev-7a658f957da27853
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏用户采用或市场共识的公开证据。
+        evidence_ids:
+        - ev-7a658f957da27853
+      - gate: model
+        status: insufficient
+        reason: 未公开模型性能或用户反馈。
+        evidence_ids:
+        - ev-7a658f957da27853
+      - gate: truth
+        status: insufficient
+        reason: 未验证生成的 LEGO 集合是否可实际搭建。
+        evidence_ids:
+        - ev-7a658f957da27853
+      next_validation: 公开的用户案例或使用数据
+  chatgpt-56-free-desktop:
+    slug: chatgpt-56-free-desktop
+    name: ChatGPT-5.6-Free-Desktop
+    decision: rejected
+  codex-guard:
+    slug: codex-guard
+    name: codex-guard
+    decision: queued
+    event_summary_zh: 新增一个 AI/Codex 生成 PR 的质量门控工具 codex-guard，能够在主分支合并前拦截 TODO、泄露的秘密、粗糙提交和 CI 失败。
+    event_summary_en: Introduced codex-guard, an AI/Codex-generated PR quality gate tool that intercepts
+      leftover TODOs, leaked secrets, sloppy commits, and CI failures before merging into main.
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 软件开发
+    - 技术服务
+    industries_en:
+    - Software Development
+    - Technology Services
+    jobs:
+    - 软件工程师
+    - DevOps 工程师
+    - CI/CD 工程师
+    jobs_en:
+    - Software Engineer
+    - DevOps Engineer
+    - CI/CD Engineer
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: codex-guard 是一个 AI/Codex 生成的拉取请求质量门控工具，能在主分支合并前拦截 TODO 留存、泄露的秘密、粗糙提交和 CI 失败。
+    inspiration: 趋势：随着 AI 代码生成的普及，自动化质量检查成为必需；切入：针对软件开发团队，尤其是使用 Codex 的团队，提供预合并质量保障。
+    summary_en: codex-guard is a quality gate tool for AI/Codex-generated pull requests, blocking leftover
+      TODOs, leaked secrets, sloppy commits, and failing CI before they reach the main branch.
+    inspiration_en: 'Trend: As AI code generation becomes widespread, automated quality checks are essential;
+      entry point: target software development teams, especially those using Codex, offering pre-merge
+      quality assurance.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 软件开发工程师
+        job_en: Software Engineer
+        pain_zh: 在合并前难以及时发现 AI 生成代码中的 TODO、泄露的秘密、粗糙提交和 CI 失败
+        pain_en: Difficulty detecting leftover TODOs, leaked secrets, sloppy commits, and CI failures
+          in AI-generated code before merge
+        current_alternative_zh: 手动代码审查或使用通用 CI 检查工具
+        current_alternative_en: Manual code review or generic CI lint tools
+        usage_reason_zh: 需要在主分支合并前自动拦截潜在问题，提升代码质量和安全
+        usage_reason_en: Need to automatically intercept potential issues before merging into main branch
+          to improve code quality and security
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决了 AI 生成代码合并前的质量检查痛点
+        evidence_ids:
+        - ev-c94d41f8dbbce514
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏公开用户案例或行业共识
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未公开模型细节
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 缺乏公开验证数据
+        evidence_ids: []
+      next_validation: 获取 codex-guard 官方文档或使用案例，验证其在实际项目中的部署与效果。
+  commerce-agents:
+    slug: commerce-agents
+    name: Commerce Agents
+    decision: queued
+    event_summary_zh: Anthropic 官方开源 Commerce Agents 参考架构，提供零售、电商、电信等领域的导购与商家智能体落地蓝图，开源社区关注度迅速突破 2000
+      点赞。
+    event_summary_en: Anthropic open-sourced the Commerce Agents reference blueprint, offering shopping
+      and merchant agent architectures across retail and telecom, surpassing 2,000 stars in the developer
+      community.
+    category: AI + 商业
+    project_type: open_source
+    industries:
+    - 电子商务
+    - 零售
+    - 电信
+    - 文娱
+    industries_en:
+    - E-Commerce
+    - Retail
+    - Telecommunications
+    - Entertainment
+    jobs:
+    - 电商运营
+    - 软件工程师
+    - 客户成功经理
+    jobs_en:
+    - E-Commerce Operator
+    - Software Engineer
+    - Customer Success Manager
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 零售与电商开发团队在搭建导购及商家自动化工作流时使用该开源参考架构。系统基于 Claude 接收商品目录、用户意图与订单数据，执行选品推荐、咨询解答和商家端管理动作，交付包含零售、电信等多场景的
+      Agent 落地样板代码与交互流程。
+    inspiration: 趋势：大模型厂商正从纯 API 供给转向提供垂直行业的端到端 Agent 参考架构。切入：不要重复造基础导购底座，应聚焦垂直品类（如高客单复杂决策品类）的数据接入、履约校验与私域转化插件。
+    summary_en: Developers building retail workflows use this reference blueprint powered by Claude. It
+      processes product data and customer queries to execute recommendations and merchant operations,
+      delivering ready-to-deploy agent templates across commerce and telecom.
+    inspiration_en: 'Trend: Frontier AI labs are moving from raw APIs to domain-specific agent blueprints.
+      Entry: Avoid rebuilding generic shopping frameworks; focus on high-ticket niche commerce with proprietary
+      inventory sync, fulfillment checks, and private domain conversion tools.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 电商与零售企业希望为用户提供个性化导购并自动化处理商家端运营工作
+        job_en: E-commerce and retail teams need to offer personalized shopping guidance and automate
+          merchant operations.
+        pain_zh: 传统规则式客服与搜索无法理解复杂购买意图，自研大模型导购 Agent 架构门槛高且易幻觉
+        pain_en: Rule-based bots fail on complex buyer intent, while building reliable commerce agents
+          from scratch has high technical friction.
+        current_alternative_zh: 人工客服、基于关键词的站内搜索与规则推荐引擎
+        current_alternative_en: Manual customer service, keyword-based on-site search, and rule-based
+          recommendation engines.
+        usage_reason_zh: 官方提供的成熟参考架构能大幅降低 Agent 落地探索成本，且涵盖多行业现成样板
+        usage_reason_en: The official reference blueprint lowers the barrier to deploying commerce agents
+          with ready-made industry templates.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决电商导购与运营自动化缺乏标准 Agent 架构的痛点，结构性降低多轮交互与意图解析成本。
+        evidence_ids:
+        - ev-5f0be7ce638f1f74
+        - ev-49e7e9d7d54b1d56
+      - gate: consensus
+        status: supported
+        reason: 开源代码库数日内关注度迅速突破 2000，显示出电商开发者对标准化 Agent 样板的强采用需求。
+        evidence_ids:
+        - ev-0ce918b08b9ab660
+        - ev-49e7e9d7d54b1d56
+      - gate: model
+        status: supported
+        reason: 作为开源蓝图虽不直接收费，但为 Anthropic 驱动下游企业 API 调用消耗，商业变现逻辑清晰。
+        evidence_ids:
+        - ev-5f0be7ce638f1f74
+      - gate: truth
+        status: supported
+        reason: 提供明确的零售与电信场景样例和架构代码，交付边界清晰，但企业落地仍需人工核验业务系统集成。
+        evidence_ids:
+        - ev-49e7e9d7d54b1d56
+      next_validation: 跟踪开源代码库的生产环境部署案例与第三方企业基于该蓝图构建的商业应用上线情况。
