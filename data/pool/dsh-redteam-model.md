@@ -20,17 +20,17 @@ url: https://github.com/SeaOf0/dsh-redteam-model
 canonical_url: https://github.com/SeaOf0/dsh-redteam-model
 summary: 基于dsh web实现的多种模式，目的是服务于redteam进行授权的安全研究，覆盖渗透测试、红队评估、代码审计等范围领域，请勿用于非法行为。（允许二开，赋予模块各位自己的业务逻辑，方法论只有自己熟练的才好用，好的方法论=好的生态）
 first_seen: '2026-08-17T08:01:04Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SeaOf0/dsh-redteam-model
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 239
-    forks: 25
+    stars: 244
+    forks: 26
     open_issues: 0
   kind: product
 ---

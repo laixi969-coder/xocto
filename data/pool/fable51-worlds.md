@@ -20,17 +20,17 @@ url: https://github.com/PhiloLabs/fable51-worlds
 canonical_url: https://github.com/PhiloLabs/fable51-worlds
 summary: worlds via code, from fable 5.1
 first_seen: '2026-09-02T18:19:55Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PhiloLabs/fable51-worlds
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 415
-    forks: 19
+    stars: 425
+    forks: 20
     open_issues: 2
   kind: product
 ---

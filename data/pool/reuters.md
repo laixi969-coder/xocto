@@ -20,7 +20,7 @@ url: https://www.reuters.com/world/us/google-maps-will-show-lake-america-us-not-
 canonical_url: https://reuters.com/world/us/google-maps-will-show-lake-america-us-not-lake-ontario-2026-08-30
 summary: Google Maps Now Shows 'Lake America' in US, Not 'Lake Ontario'
 first_seen: '2026-08-31T21:29:03Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
@@ -34,10 +34,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 79
-    comments: 67
+    points: 93
+    comments: 2
   kind: news
 ---
 

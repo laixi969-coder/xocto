@@ -21,16 +21,16 @@ canonical_url: https://github.com/warmsum/deepseek-harness-python-tutorial
 summary: DeepSeek Harness (DSH) Python 教程：17 章从零实现 Agent Loop、插件系统、工具调用、Session、上下文工程、Subagent 与 Headless
   CLI
 first_seen: '2026-08-16T09:48:37Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/warmsum/deepseek-harness-python-tutorial
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 123
+    stars: 124
     forks: 4
     open_issues: 0
   kind: product

@@ -21,16 +21,16 @@ canonical_url: https://github.com/Aisland-SJL/dsh-usage
 summary: 🌊 Persistent dock & fully-customizable balance/usage panel for DeepSeek Harness — activity heatmap,
   dual-channel comparison, local-only & privacy-first
 first_seen: '2026-08-16T10:22:22Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Aisland-SJL/dsh-usage
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 92
+    stars: 93
     forks: 10
     open_issues: 0
   kind: product

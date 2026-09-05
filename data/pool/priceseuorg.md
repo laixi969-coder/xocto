@@ -22,17 +22,17 @@ summary: 'When Ox-alpha was free I had it build this EU price index&#x2F;tracker
   Gemini deep research found the sources. Currently it tracks: - Fuel - Electricity - Currency - Housing
   - Groceries - Wage…'
 first_seen: '2026-09-04T08:51:58Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://prices.eu.org/
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 12
-    comments: 6
+    points: 16
+    comments: 8
   kind: product
 ---
 

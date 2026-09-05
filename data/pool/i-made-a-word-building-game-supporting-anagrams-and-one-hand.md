@@ -22,16 +22,16 @@ summary: 'Hi everyone, Wanted to share a game I built. It&#x27;s called Unscramb
   the simplest word building game. Rules: You get a few letters on screen. You need to make one word with
   all the letters. T…'
 first_seen: '2026-09-03T14:37:21Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49550479
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 16
+    points: 17
     comments: 1
   kind: product
 ---

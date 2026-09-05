@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWERTR3BLU1hMVWcyUHI0SH
 canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWERTR3BLU1hMVWcyUHI0SHBBWFFGNkYxMHpxdDNRLUlLSDNWNEVjUTNMSThHVGpqRU5mclg5djhyV0NyM21Pb2p6OUNKVTFKbG1YS1hQSjJNcjJCbGd0WURDR0xjbllxUEhmYkZtVjc1alpnYVBJRFRCTFJhVnlqYm83em5YQk9yMjI1bDFDTzhOVDN5LVpJSXkxTFBJVklyUWRnaGF3LXZVaS0wUjVaVEFzakRvN2RieDNlLTQ3TDh0SmVOT2NFd0dJdjBQVW5wcHMzM2hWdThrVWVmMlpRUw?oc=5
 summary: Crexendo Again Earns Number 1 G2 Rankings Across UCaaS, VoIP and AI Categories ACCESS Newswire
 first_seen: '2026-09-02T13:05:09Z'
-last_seen: '2026-09-03T00:16:50Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - newssearch
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgJBVV95cUxNQlFmeWxTR2hxVUdhZndxbHpBMkZmVVoydkVfbEs4REl4MFI5UEE0OWZ1Yl95VnBZRlhBdXFXWVVCUnpTbEEtbnpDYkluUFJHQ3VkeEFkNnk3XzBYM3VmZFlkckRiUHQyQjA2aGlzUEw2TGdUQVgyYnNKWXBJQWFRelF0VmtabW1NNXdVU3g2T3kxa1RGME83cGVtWXhoRmxVODM0VDBraWJFSWxTUDhYSFBWMG5JYlhkZmRweVlWamx5OTNSdGVnaktZaGdtdENidllUdC11VDFzSlBBcTNSQXlVbHRjSjcxa1lSN19Zb21OVlNPbWtuRlN3S3dYN1liVmxpTHFFa0s2ZVVlUlpNellB?oc=5
   seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQTJXczEwN0hLWWh3ZW9HWmJPZlp4RWM4bENpS0dBV1ZfWEdhY2o1dHp1Vk9KekhoV1ZYeXdRN0EtcnBrdkNiNllQeThNc3QyUWZfUVhmOTEwdTJmVTFDeFVZVzZfcHJhcVJDLVpaUEhHcUtqd3VvakdpYWVSc3ROLUpwY1lpRTZHQnhGakhQNnlfLUVJTDVDZ2c5d21pWGVNZFdOanlOME5vNHpucFQzLVFrZUtSMnZC0gG-AUFVX3lxTE02OEY1bXVrU2pxZjNVOVBVOFRtUTMzNks0S2pIWDZSejZEb2lqUjRlQm9qcHZDZDhjcFlReEFsZ0dtbWZiTnR4NERFeXA5VXFja0tleTQ1TEVnZzFpNTRPQ2VRM3lDMlZrWUhqZGZLQXhQakU0NjkyTTBOYVZpVVJvNGEwdjNBUDBicWlNdEJyR1dSNmFHTER5VFdQZ3NPaDluby1SQ3NDTVJSWFZGWE0tbWVwRHF1WGRSeFZYQ1E?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
 ---

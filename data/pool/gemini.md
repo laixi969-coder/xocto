@@ -34,7 +34,7 @@ canonical_url: https://aicpb.com/product/Gemini/webid1D6F37519
 summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more.
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - aicpb
@@ -101,6 +101,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit
   seen_at: '2026-09-03T00:16:48Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMickFVX3lxTFAyTGhaa25rTmxGRDkzM2V1eVBNNHEyUXlKZlZGTVRjRUdqNnRhVTlGMG1qcFk0RXZBNERfQ3cyVldxNWVENWlKWWFrRVltZ3BDb01ETV9ObDg0SUljV3ZoTTR1RnBJMjdBb1lLYjdNemdBUQ?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
 ---

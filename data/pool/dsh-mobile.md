@@ -20,7 +20,7 @@ url: https://github.com/saya-ch/dsh-mobile
 canonical_url: https://github.com/saya-ch/dsh-mobile
 summary: DeepSeek Harness 的 Android App 与安全远程访问插件，支持局域网/远程连接和高度自定义的移动界面与扩展能力。
 first_seen: '2026-08-15T05:28:38Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
@@ -35,10 +35,10 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/Clarklevis1995/dsh-mobile
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 160
-    forks: 16
+    stars: 168
+    forks: 17
     open_issues: 5
   kind: product
 ---

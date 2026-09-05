@@ -20,17 +20,17 @@ url: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-
 canonical_url: https://sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development
 summary: Sanders introduces bill to ban artificial superintelligence and pause AI
 first_seen: '2026-09-03T17:20:29Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development/
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 60
-    comments: 70
+    points: 61
+    comments: 77
   kind: news
 ---
 

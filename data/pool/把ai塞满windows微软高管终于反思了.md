@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNX01TcWtudno0WEpCaUdmVU
 canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNX01TcWtudno0WEpCaUdmVUNpMlFEQ1hlT1hVSHNCdmEwYm51TGdkVGY5TTZrT0JNelpSR0oza1RWamNDX3dyY2g4RGtFMTJIeVBvQi1rLW5QWnA0T3FqRi1jODkzSUIydy1tTkhfR3Bad04yVmg0S3JtNFE5aWlxQTVaaVY0bzVpbEt5aA?oc=5
 summary: 把AI塞满Windows！微软高管终于反思了 Sohu
 first_seen: '2026-09-02T03:48:57Z'
-last_seen: '2026-09-04T14:24:01Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - newssearch
@@ -43,6 +43,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE43WDcyOGdyVG9XQTItRWxLWUN5TThBUTgtOGtBUVp3YXFyaEx4cldQTS12Vng3b29KVW1iRGFYd1NYeTB3MENkSks3VjU4UmtMRVR1dXZWM0JlaGgzQVFoUEE2elE4d09zZklMV3pXem00Qk5CTGQxMDRFUGEyZmc?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifEFVX3lxTFB1N3Z5NzlodzJOTWZockViaDB0Z0M4Y0Z0V3VrNkNrUnR2SXRBYklKdmhuTTNVSkZtck94eGpDUGVRd0N1VUt2NkVXYlo4bXBiaGg5alFPT21TUm1vMUs4cG5QUWtDM1JGUk9qdFpTelRXRTFRZXJRdXg2YUo?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
 ---

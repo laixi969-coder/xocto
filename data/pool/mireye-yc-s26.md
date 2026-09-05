@@ -20,17 +20,17 @@ url: https://news.ycombinator.com/item?id=49552616
 canonical_url: https://news.ycombinator.com/item?id=49552616
 summary: Infrastructure for Physical World AI Agents
 first_seen: '2026-09-03T16:24:13Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49552616
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
     points: 28
-    comments: 6
+    comments: 8
   kind: product
 ---
 

@@ -30,7 +30,7 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-04T14:24:01Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - newssearch
@@ -89,10 +89,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 21
-    comments: 12
+    points: 38
+    comments: 16
   kind: news
 - source: marketfeeds
   url: https://tech.eu/2026/09/04/uk-startup-ai-score-raises-54m-to-scale-its-enterprise-ai-governance-platform/

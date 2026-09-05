@@ -20,17 +20,17 @@ url: https://aibriefs.news
 canonical_url: https://aibriefs.news
 summary: Real-time AI news aggregator with daily digest
 first_seen: '2026-09-03T14:39:27Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://aibriefs.news
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 11
-    comments: 15
+    points: 12
+    comments: 17
   kind: product
 ---
 

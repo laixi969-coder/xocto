@@ -32,7 +32,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - newssearch
@@ -87,10 +87,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://inference-docs.cerebras.ai/models/overview
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 618
-    comments: 204
+    points: 676
+    comments: 223
   kind: news
 - source: officialfeeds
   url: https://vercel.com/changelog/basic-build-machines
@@ -120,6 +120,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWk9PbDYxam13cmhOYk1BVFlfcVNzR1NHakU0TUpfejBBNU5GaGhwaHpybVlITlFONVVNTWNTUHgzM0RBZHVoVEFVTGZMYjFEYlFRVWlSN2lrV1JXVy1YNHVRc3ZBeWNXM2ZJX3J1VFJzTTU0Q1AwNS1mUmVlVElOMUxVR1VCS1pWNDkxVTYxSnFJVjduX1Nsb1Y3SkNvT19HRmlWNVlWdmhEOG1JRWxaamtucFkwOGRZUGR5VTdhMXdBUQ?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPaWFiYzR2SXlYX3FOemVrZS1tTmZrUmxESmF4RmZlX2VzV1V2UnNsNG5TeFJudVRnUkc5c0M4Qjk4US0zNW8zV1Q5S3FTdzhXTk9kaWZlbEVrbGZtMjlSckphd0dkeHpYZDlXbThqNlZpZ3FzWmswNUNuQUw3cG9RVg?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
 ---

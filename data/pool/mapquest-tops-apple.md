@@ -20,16 +20,16 @@ url: https://thehill.com/homenews/administration/6063924-mapquest-tops-apple-goo
 canonical_url: https://thehill.com/homenews/administration/6063924-mapquest-tops-apple-google-maps-in-downloads-after-refusing-trumps-lake-america-change
 summary: Google Maps downloads after refusing 'Lake America' change
 first_seen: '2026-09-03T17:32:37Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://thehill.com/homenews/administration/6063924-mapquest-tops-apple-google-maps-in-downloads-after-refusing-trumps-lake-america-change/
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 22
+    points: 23
     comments: 4
   kind: news
 ---

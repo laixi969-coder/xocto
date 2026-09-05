@@ -22,3 +22,25 @@
     release(core): 1.6.1 (#39832)
 
     feat(core): propagate gateway information on error path (#39829)'
+- id: ev-6e299ffeedafc88a
+  project_slug: langchain-ai-langchain-langchain-core161
+  url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2
+  title: 'langchain-ai/langchain: langchain-core==1.6.2'
+  published_at: '2026-09-04T21:29:42Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Changes since langchain-core==1.6.1
+
+
+    release(core): 1.6.2 (#40209)
+
+    feat(openai): support async tools (#40208)
+
+    chore(deps): bump mistune from 3.3.0 to 3.3.3 in /libs/core (#40150)
+
+    chore(deps): bump tornado from 6.5.7 to 6.5.8 in /libs/core (#40113)
+
+    fix(core): avoid mutation in google-genai standard content (#40023)
+
+    fix(core): avoid mutation in bedrock converse standard content (#40022)'

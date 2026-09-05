@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaHJEWUNoZ3lMTlFTYVFFOE
 canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaHJEWUNoZ3lMTlFTYVFFOEVlcVhEY0RGQUU2LWphZzMtWG1aR0pMU0JYMFpwOEhRNlNKalBUeVRkZkpUamYyOGZyc0IxSU5lZmYyZk4xbjUzdk9YaGpsU3lYRlJ0MUpLVEg3T1JScWFVTThmS3ZENU8ybXp0OVlxTVdCX0FWRHJZT2ZHT24xYUo3S0NxSXZvR1lUbG1yV0ZhOFB0ajA5MXhJZklSSkZBVlgzamw1Tl8z?oc=5
 summary: 'Samsara Q2 FY27 slides: beat and raise sends shares up 16% Investing.com Canada'
 first_seen: '2026-09-03T22:17:08Z'
-last_seen: '2026-09-04T00:07:05Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaHJEWUNoZ3lMTlFTYVFFOEVlcVhEY0RGQUU2LWphZzMtWG1aR0pMU0JYMFpwOEhRNlNKalBUeVRkZkpUamYyOGZyc0IxSU5lZmYyZk4xbjUzdk9YaGpsU3lYRlJ0MUpLVEg3T1JScWFVTThmS3ZENU8ybXp0OVlxTVdCX0FWRHJZT2ZHT24xYUo3S0NxSXZvR1lUbG1yV0ZhOFB0ajA5MXhJZklSSkZBVlgzamw1Tl8z?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTlBBNTl4d2VtTnU0WHFWTEhCdWtXa0VRaWtobTdPdVNwamk4T1IwejI3OGs4NmNCcUhVREYxczNjVVBYZ2RfZ2V0ZFFjRzY4emVKZEEyTW05NlFXTko3TkdhcklZdTB3aVFLN2hadWFQYzN4TVJJal9sQlJjMUpXTVM2ZWo0Nnh4bmVRYW9uVUFnMGtucEJxVmYxN3ktNTJ5UHlCeWRHOWJ4cUFVbDIycERQdGtuTkl2Uy15dEI2bjlzNWJyckM3dA?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
 ---

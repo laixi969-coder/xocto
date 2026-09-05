@@ -34,16 +34,16 @@ url: https://github.com/Forsy-AI/biosecurity-agent
 canonical_url: https://github.com/Forsy-AI/biosecurity-agent
 summary: AI agent that builds a live biosecurity world around any target.
 first_seen: '2026-08-22T23:06:26Z'
-last_seen: '2026-09-02T00:14:35Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Forsy-AI/biosecurity-agent
-  seen_at: '2026-09-02T00:14:35Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 514
+    stars: 513
     forks: 20
     open_issues: 0
   kind: product

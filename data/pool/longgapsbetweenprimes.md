@@ -20,16 +20,16 @@ url: https://github.com/openai/LongGapsBetweenPrimes
 canonical_url: https://github.com/openai/LongGapsBetweenPrimes
 summary: A Lean formalization of a bound concerning long gaps between primes
 first_seen: '2026-09-02T18:26:05Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/openai/LongGapsBetweenPrimes
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 29
+    stars: 30
     forks: 2
     open_issues: 0
   kind: product

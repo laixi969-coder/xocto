@@ -20,7 +20,7 @@ url: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-out
 canonical_url: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training
 summary: Mistral now trains on user input by default, except on enterprise tier
 first_seen: '2026-09-02T12:30:39Z'
-last_seen: '2026-09-04T00:07:05Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - hackernews
@@ -52,6 +52,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRzFZQ2x3MDNMTUU2Q0RoMEdDUXRoeHdtcDZPVVpGUzBHbkhrazVfZXdnS0VOemNYMExoWDNHNDlWRFBMdUFpdFRWV045aFhodFdpQ1c0SzVvRnp3cm1ndXRjRGM1d1FCMmJ3bDZBVjV4QWVZekpLcDE2NXRmMTJTejYzR2xYZmNY?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOEhjR2Y3YWFwYV84MmgzOGtsVmpmdnRhbkRsd1YwRkN3RmF0bUN2OEZxcWJzUG5FcmpBemJFMGlyQlBtRDlBTW14eFVkNVh2TjN5NWF3dWJPY2ZzVmh3N0dXb0JWZ1BMSTBDc3pvSnZaZl95Q2c2enFTWXdxZVdEdV80cU8tYm9H?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
 ---

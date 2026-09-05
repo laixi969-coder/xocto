@@ -20,16 +20,16 @@ url: https://github.com/oil-oil/dsh-oil-creator
 canonical_url: https://github.com/oil-oil/dsh-oil-creator
 summary: AI-assisted local creator workbench for DeepSeek Harness
 first_seen: '2026-08-19T05:02:00Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/oil-oil/dsh-oil-creator
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    stars: 177
+    stars: 178
     forks: 32
     open_issues: 3
   kind: product

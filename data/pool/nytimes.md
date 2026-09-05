@@ -20,7 +20,7 @@ url: https://www.nytimes.com/2026/08/30/world/canada/lake-ontario-america-google
 canonical_url: https://nytimes.com/2026/08/30/world/canada/lake-ontario-america-google-maps.html
 summary: Google Maps Renames Lake Ontario to Lake America
 first_seen: '2026-08-31T14:28:01Z'
-last_seen: '2026-09-04T00:06:35Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
@@ -44,6 +44,13 @@ sightings:
   metrics:
     points: 208
     comments: 163
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html
+  seen_at: '2026-09-05T00:06:31Z'
+  metrics:
+    points: 256
+    comments: 247
   kind: news
 ---
 

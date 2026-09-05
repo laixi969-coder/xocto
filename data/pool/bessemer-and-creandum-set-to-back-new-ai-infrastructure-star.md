@@ -18,23 +18,30 @@ regions_en: []
 open_source: false
 url: https://sifted.eu/articles/bessemer-creandum-gridfield/
 canonical_url: https://sifted.eu/articles/bessemer-creandum-gridfield
-summary: ''
+summary: Bessemer and Creandum set to back new AI infrastructure startup at $600m valuation, sources say
+  Sifted
 first_seen: '2026-09-04T11:39:39Z'
-last_seen: '2026-09-04T14:23:54Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/bessemer-creandum-gridfield/
   seen_at: '2026-09-04T14:23:54Z'
   metrics: {}
   kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE0taVRjRHAxTk8wbnhDSlNHaURBUXpWNnZXamo4c2hpWk4zcDBtblNET2RFVll3SGJ1ZDBpOVhuRXNEaHdTa0syR05YYzNsNFktTmJnTHRjR0FWNFRkOUt0azlnYVY?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Bessemer and Creandum set to back new AI infrastructure startup at $600m valuation, sources say
 
-_（源没给简介）_
+Bessemer and Creandum set to back new AI infrastructure startup at $600m valuation, sources say Sifted
 
 ## 笔记
 

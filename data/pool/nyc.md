@@ -20,16 +20,16 @@ url: https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor
 canonical_url: https://nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat
 summary: NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade
 first_seen: '2026-09-03T23:14:00Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 42
+    points: 46
     comments: 11
   kind: news
 ---

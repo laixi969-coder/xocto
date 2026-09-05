@@ -22,14 +22,19 @@ url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQOE5NNmVNVVk1YmNSVDl2NE
 canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQOE5NNmVNVVk1YmNSVDl2NENmaEs4ZWFMUG1kTHBoeU1obkNJX0VJMVhDRFZEeHdpVVo4RXJRcDM1MXBvTy1GUk1DT0JCUnd2VUpaTUtVbl9SSVFjVUpTYjlnRXFJTVB2ZEFldDhnQnAtR2FWd2d2WjdKUjZDOW9JaURmX2E2dFMwS3RJMk9LNGRJcXZWTmxCSWtB?oc=5
 summary: Asana Soars As AI Breakthrough Trumps Analyst Downgrade TipRanks
 first_seen: '2026-08-27T14:23:07Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: market_context
+last_seen: '2026-09-05T00:07:08Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimgFBVV95cUxQOE5NNmVNVVk1YmNSVDl2NENmaEs4ZWFMUG1kTHBoeU1obkNJX0VJMVhDRFZEeHdpVVo4RXJRcDM1MXBvTy1GUk1DT0JCUnd2VUpaTUtVbl9SSVFjVUpTYjlnRXFJTVB2ZEFldDhnQnAtR2FWd2d2WjdKUjZDOW9JaURmX2E2dFMwS3RJMk9LNGRJcXZWTmxCSWtB?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN0J4UzBTbDJNNGpIaURwRUxaM3RfTUtGekF3TDkzU0lJZTIwTFBGUWs4Z0hKQjUta3NTRWRWejNZMVNhTjMwdmlUeXU0Wnc4b1R5Y2hrOTlFQmY0d0NMdEZpOEVLX2xXXzRmZmFuaFJxdE9Wc0tORGFtWU5ocHVjLTJGSUplanF6VVJfOFdCd1JMQW5mbHFkVC00Y0pvbmZObV93cnExUnVLanJyRGpZOXFCSEFfVktfSW55dnNTQUhrVzBHRGw0Uw?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
 ---

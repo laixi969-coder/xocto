@@ -23,16 +23,16 @@ summary: "## What's Changed\r\n* gemma4 now supports images and audio on MLX eng
   \n\r\n## New Contributors\r\n* @marcelpetrick made their first contribution in https://github.com/ollama/ollama/pull/17579\r\
   \n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.33.2...v0.33.3"
 first_seen: '2026-09-02T00:11:33Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ollama/ollama/releases/tag/v0.33.3
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
-    reactions: 50
+    reactions: 56
   kind: news
 ---
 

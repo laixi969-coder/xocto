@@ -32,11 +32,12 @@ url: https://www.producthunt.com/products/termy-language-learning
 canonical_url: https://producthunt.com/products/termy-language-learning
 summary: Learn languages from games, videos, and websites
 first_seen: '2026-08-24T18:24:24Z'
-last_seen: '2026-08-31T17:38:50Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: queued
 sources:
 - producthunt
 - marketfeeds
+- hackernews
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/termy-language-learning
@@ -48,6 +49,13 @@ sightings:
   seen_at: '2026-08-31T17:38:50Z'
   metrics: {}
   kind: news
+- source: hackernews
+  url: https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md
+  seen_at: '2026-09-05T00:06:31Z'
+  metrics:
+    points: 88
+    comments: 27
+  kind: product
 ---
 
 # Termy

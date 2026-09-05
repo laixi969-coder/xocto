@@ -20,17 +20,17 @@ url: https://japanmap.fyi
 canonical_url: https://japanmap.fyi
 summary: Interactive map of the Japanese address system
 first_seen: '2026-09-04T06:42:24Z'
-last_seen: '2026-09-04T14:23:26Z'
+last_seen: '2026-09-05T00:06:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://japanmap.fyi
-  seen_at: '2026-09-04T14:23:26Z'
+  seen_at: '2026-09-05T00:06:31Z'
   metrics:
-    points: 7
-    comments: 2
+    points: 9
+    comments: 3
   kind: product
 ---
 

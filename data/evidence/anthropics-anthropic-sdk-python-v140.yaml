@@ -1,0 +1,31 @@
+- id: ev-5ad44b2c1b877b28
+  project_slug: anthropics-anthropic-sdk-python-v140
+  url: https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.4.0
+  title: 'anthropics/anthropic-sdk-python: v1.4.0'
+  published_at: '2026-09-04T22:20:20Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: '## 1.4.0 (2026-09-04)
+
+
+    Full Changelog: [v1.3.0...v1.4.0](https://github.com/anthropics/anthropic-sdk-python/compare/v1.3.0...v1.4.0)
+
+
+    ### Features
+
+
+    * **api:** add Claude Tag category and user breakdowns to usage reports ([9fce1e4](https://github.com/anthropics/anthropic-sdk-python/commit/9fce1e4994e113c35f4a7116d0c5eb90367b9c66))
+
+    * **api:** add named types for organization compliance settings state ([1de1957](https://github.com/anthropics/anthropic-sdk-python/commit/1de1957334e7491979ddb21a1d673fa4e56d5459))
+
+    * **api:** add support for sending a workspace ID on more endpoints ([d1d2c01](https://github.com/anthropics/anthropic-sdk-python/commit/d1d2c01d8aa128080dea3d711e12cb3df95a2149))
+
+
+
+    ### Bug Fixes
+
+
+    * **client:** raise a clear error when an httpx object is passed instead of an httpx2 one ([9447099](https://github.com/anthropics/anthropic-sdk-python/commit/94470992f0f00ed331f2faa585cfda2cb8412a08))
+
+    * repair custom-code merge in messages resources ([#580](https://github.com/anthropics/'

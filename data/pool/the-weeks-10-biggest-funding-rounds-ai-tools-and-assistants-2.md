@@ -22,10 +22,11 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQeWpRUE14bHoy
 summary: 'The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals
   Crunchbase News'
 first_seen: '2026-08-28T17:21:00Z'
-last_seen: '2026-09-03T00:16:50Z'
+last_seen: '2026-09-05T00:07:01Z'
 status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikgFBVV95cUxQeWpRUE14bHoya2tqejR4VnMxZ211OHU0WXJrdEZaRk5SZTgxdDlUWER1UGRwa0pydlJFR3pqWFlFWkZNQU91WXk5ZUdBUHQ2YmI4VzVxWmhvb2lSelNyMjROellmQk1CRkNLZjIzc0poU2o1M19QQnE0dVd6cFFaYjlyR3dFMy14VE5lV3pTaVFjdw?oc=5
@@ -40,6 +41,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinwFBVV95cUxOak1BdFB6aW5Ic29lejk1WW9kc0p5ajBIX2J1VDBpOTJxUWhBZUl5Tlp6RDR0NkxnV28zN0ZfLXpPUlRWWHRvb2E4eEFpbWVlS21ienJnTDhCT0VVUVpoLUdoeWNLR3pnWXNseHBPMmgzUDhnTFBrZjBERDNPbWJFc1Z6b2J2S0FqUE5SWnEyeXRubGlHT0hGS3psZl9XVkk?oc=5
   seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/venture/biggest-funding-rounds-crusoe-fluidstack-multibillion-dollar-ai-infrastructure/
+  seen_at: '2026-09-05T00:07:01Z'
   metrics: {}
   kind: news
 ---

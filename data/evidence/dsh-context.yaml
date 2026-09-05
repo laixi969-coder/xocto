@@ -1132,3 +1132,66 @@
   tier: behavioural
   fact: 'Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. | repository
     stars: 985'
+- id: ev-039a2f95794a7344
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/ownmem
+  title: ownmem
+  published_at: '2026-08-16T12:45:36Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source, Git-native memory for AI coding agents — deterministic local recall for Claude Code,
+    Codex, Cursor, Gemini CLI, and compatible tools. | repository stars: 242'
+- id: ev-d419d20f7ae8f5e9
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/autoprompt-skill
+  title: autoprompt-skill
+  published_at: '2026-08-17T22:40:47Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. | repository
+    stars: 988'
+- id: ev-94eaf6c7dc540a79
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@graysilver/dsh-evolve-modes
+  title: dsh-evolve-modes
+  published_at: '2026-08-16T11:49:17Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: '让 Agent 的工作方式可组合、可审查、可持续改进，最终实现 Agent Self Evoling。 DeepSeek Harness Web plugin with composable
+    task controls and isolated, human-reviewed self-evolution. | repository stars: 207'
+- id: ev-c87d92344471b48b
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-maze
+  title: dsh-maze
+  published_at: '2026-08-18T14:54:36Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DeepSeek Harness 的执行迷宫——看 Agent 真实怎么干活：迷宫时间轴 · 数据轨道 · 确定性执行分析 · 多会话对比 | The execution maze for
+    DSH agents: maze timeline, per-step data tracks, deterministic execution analysis, multi-session comparison.
+    Formerly dsh-trace-compare. | repository stars: 65'
+- id: ev-c2b57786a2f611d8
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-industry-research
+  title: dsh-industry-research
+  published_at: '2026-08-19T14:20:16Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Industry and company research domain pack for DeepSeek Harness: methodology skills, industry
+    chain mapping, public-source policy/news tracking, company research cards, and auditable research
+    reports. Research only - not investment advice. | repository stars: 56'
+- id: ev-489106a18a4223e9
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-research-report
+  title: dsh-research-report
+  published_at: '2026-08-19T14:06:05Z'
+  collected_at: '2026-09-05T00:06:35Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-snapshot
+    binding, tamper-evident) plus versioned sealed reports with per-claim verification verdicts and a
+    manifest-sealed directory. | repository stars: 51'

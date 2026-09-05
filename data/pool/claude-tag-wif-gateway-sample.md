@@ -31,18 +31,18 @@ url: https://github.com/anthropics/claude-tag-wif-gateway-sample
 canonical_url: https://github.com/anthropics/claude-tag-wif-gateway-sample
 summary: Sample customer-side gateway for Claude Tag identity federation. Sample code; not maintained.
 first_seen: '2026-08-18T13:49:20Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T00:06:35Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/anthropics/claude-tag-wif-gateway-sample
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T00:06:35Z'
   metrics:
     stars: 0
     forks: 1
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

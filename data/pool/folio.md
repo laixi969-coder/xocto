@@ -20,16 +20,22 @@ url: https://www.producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41
 canonical_url: https://producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba
 summary: A read-later app sending a typeset digest to your e-reader
 first_seen: '2026-08-27T10:01:12Z'
-last_seen: '2026-09-01T14:55:58Z'
+last_seen: '2026-09-05T00:07:08Z'
 status: pending_filter
 sources:
 - producthunt
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba
   seen_at: '2026-09-01T14:55:58Z'
   metrics: {}
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQczJjekpKTEZGaUFqMWpaUl9ONjNhXzFlTjQ1Unh5UVpUallndGVVbE9LMjJOYWw0WFhrc2RVX016bUt6ZHZaQVBWa0lFOWt4MmFoTWlmR0Mtb0JucEpaaVB4VFhFbDV2UTQtaGFNckpCdDhuTnZQWHliekktZGxaNTh0Z0JrMHZxNmNiVnZWS0tDREYzQkMyaU9QN3U4MGNPRlFDZlljam5ndklMR0VOR3k3MDQyVG9UbmZNbjJ3aldBUQ?oc=5
+  seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
 ---
 
 # Folio
