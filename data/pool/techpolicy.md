@@ -1,15 +1,11 @@
 ---
 slug: techpolicy
-name: 美国两大公立学区AI禁令
+name: techpolicy
 builder: cdrnsf
 category: ''
-summary_zh: 监管与政策变化：美国规模最大的两个公立学区宣布对人工智能使用实施禁令，反映出K-12教育系统对AI工具的收紧态度。公立学校是教育AI产品的重要落地渠道，学区级禁令可能延缓AI教学工具的采用与采购节奏，并促使厂商加强合规与家长、教师层面的沟通。
+summary_zh: ''
 inspiration: ''
-summary_en: 'Regulatory and policy change: the two largest school districts in the United States have
-  imposed moratoriums on AI use, reflecting a tightening stance toward AI tools across K-12 education.
-  Public schools are a key channel for education AI products, and district-level moratoriums may slow
-  adoption and procurement while pushing vendors to strengthen compliance and engagement with parents
-  and teachers.'
+summary_en: ''
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,35 +20,21 @@ url: https://www.techpolicy.press/americas-two-largest-school-districts-impose-a
 canonical_url: https://techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums
 summary: America's two largest school districts impose AI moratoriums
 first_seen: '2026-09-05T21:43:22Z'
-<<<<<<< HEAD
-<<<<<<< HEAD
-last_seen: '2026-09-06T13:15:16Z'
-status: market_context
-=======
-last_seen: '2026-09-06T15:05:39Z'
+last_seen: '2026-09-06T15:36:24Z'
 status: pending_filter
->>>>>>> ecb5853 (chore: 每日采集 2026-09-06)
-=======
-last_seen: '2026-09-06T15:19:29Z'
-status: pending_filter
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/
-<<<<<<< HEAD
-  seen_at: '2026-09-06T15:05:39Z'
-=======
-  seen_at: '2026-09-06T15:19:29Z'
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
+  seen_at: '2026-09-06T15:36:24Z'
   metrics:
-    points: 60
-    comments: 72
+    points: 61
+    comments: 73
   kind: news
 ---
 
-# 美国两大公立学区AI禁令
+# techpolicy
 
 America's two largest school districts impose AI moratoriums
 

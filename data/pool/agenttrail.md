@@ -2,52 +2,34 @@
 slug: agenttrail
 name: agenttrail
 builder: sodiumsun
-category: AI + 开发
-summary_zh: 开发者在使用 Claude Code 或 Cursor 等编码智能体时，将本地运行进程接入该工具；系统实时捕获并可视化智能体的执行计划、工具调用与代码文件变更，让开发者随时掌握后台修改细节。
-inspiration: 编码智能体正在从单次生成走向自主多步执行，过程可观测性成为刚需。切入点是为本地终端智能体提供轻量审计与可视化追踪界面，避免黑盒失控。
-summary_en: Software developers connect local coding agents like Claude Code or Cursor to this tool, which
-  tracks and visualizes execution plans, tool calls, and file modifications in real time during automated
-  workflows.
-inspiration_en: As coding agents shift to autonomous multi-step execution, real-time local observability
-  becomes essential to prevent unintended codebase modifications.
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
 priority_review: false
 project_type: open_source
-industries:
-- 软件开发
-industries_en:
-- Software Development
-jobs:
-- 软件工程师
-- 全栈开发者
-jobs_en:
-- Software Engineers
-- Full-stack Developers
-regions:
-- 全球
-regions_en:
-- Global
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
 open_source: true
 url: https://github.com/sodiumsun/agenttrail
 canonical_url: https://github.com/sodiumsun/agenttrail
-summary: Local observability map for AI coding agents. Watch Claude Code, Codex, and Cursor plans, tool
-  calls, file changes, and progress in real time.
+summary: An infinite canvas for your AI coding agents. Every repo is a region on one zoomable live map
+  - watch Claude Code, Codex, and Cursor sessions, plans, tool calls, and file changes in real time. Local,
+  zero-dependency.
 first_seen: '2026-08-21T21:14:33Z'
-<<<<<<< HEAD
-last_seen: '2026-09-06T15:05:43Z'
-=======
-last_seen: '2026-09-06T15:19:33Z'
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
-status: watching
+last_seen: '2026-09-06T15:36:27Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sodiumsun/agenttrail
-<<<<<<< HEAD
-  seen_at: '2026-09-06T15:05:43Z'
-=======
-  seen_at: '2026-09-06T15:19:33Z'
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
+  seen_at: '2026-09-06T15:36:27Z'
   metrics:
     stars: 650
     forks: 45
@@ -57,7 +39,7 @@ sightings:
 
 # agenttrail
 
-Local observability map for AI coding agents. Watch Claude Code, Codex, and Cursor plans, tool calls, file changes, and progress in real time.
+An infinite canvas for your AI coding agents. Every repo is a region on one zoomable live map - watch Claude Code, Codex, and Cursor sessions, plans, tool calls, and file changes in real time. Local, zero-dependency.
 
 ## 笔记
 

@@ -2,59 +2,32 @@
 slug: openflow
 name: OpenFlow
 builder: SeeRay11
-category: AI + 开发
-summary_zh: OpenFlow 是一个可视化构建多代理 AI 工作流的工具，基于 opencode 引擎。开发者通过拖拽界面编排多个 AI 代理的任务，具体输出和适用场景未详细披露。
-inspiration: 趋势是 AI 工作流从代码配置走向可视化编排，但多代理编排工具众多。切入点是特定行业（如数据处理、自动化测试）的可视化工作流，按模板或结果收费。
-summary_en: OpenFlow is a visual builder for multi-agent AI workflows on the opencode engine. Developers
-  drag and drop to orchestrate agents; specific outputs and use cases are not detailed.
-inspiration_en: The trend is AI workflows moving from code to visual orchestration, but many tools exist.
-  Enter with visual workflows for specific industries (e.g., data processing, automated testing), charging
-  per template or outcome.
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
 priority_review: false
 project_type: open_source
-industries:
-- 软件开发
-industries_en:
-- Software Development
-jobs:
-- AI 工程师
-- 开发者
-jobs_en:
-- AI Engineer
-- Developer
-regions:
-- 全球
-regions_en:
-- Global
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
 open_source: true
-url: https://github.com/SeeRay11/OpenFlow#readme
-canonical_url: https://github.com/SeeRay11/OpenFlow
+url: https://www.reddit.com/r/OpenFlowAI/
+canonical_url: https://reddit.com/r/OpenFlowAI
 summary: OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode engine
 first_seen: '2026-08-18T00:28:46Z'
-<<<<<<< HEAD
-last_seen: '2026-09-06T15:05:43Z'
-=======
-last_seen: '2026-09-06T15:19:33Z'
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
-status: watching
+last_seen: '2026-09-06T15:36:27Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
-  url: https://github.com/SeeRay11/OpenFlow#readme
-  seen_at: '2026-09-02T14:31:42Z'
-  metrics:
-    stars: 88
-    forks: 6
-    open_issues: 0
-  kind: product
-- source: github
   url: https://www.reddit.com/r/OpenFlowAI/
-<<<<<<< HEAD
-  seen_at: '2026-09-06T15:05:43Z'
-=======
-  seen_at: '2026-09-06T15:19:33Z'
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
+  seen_at: '2026-09-06T15:36:27Z'
   metrics:
     stars: 94
     forks: 6

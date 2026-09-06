@@ -33,16 +33,16 @@ url: https://github.com/Queena34/StudyPilot
 canonical_url: https://github.com/Queena34/StudyPilot
 summary: Bilingual AI study coach that answers only from your own course material, with citations
 first_seen: '2026-08-25T14:16:10Z'
-last_seen: '2026-09-06T11:01:39Z'
+last_seen: '2026-09-06T15:36:27Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Queena34/StudyPilot
-  seen_at: '2026-09-06T11:01:39Z'
+  seen_at: '2026-09-06T15:36:27Z'
   metrics:
-    stars: 42
+    stars: 43
     forks: 0
     open_issues: 0
   kind: product

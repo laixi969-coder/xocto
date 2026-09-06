@@ -2,26 +2,17 @@
 slug: chat-on-steroids
 name: chat-on-steroids
 builder: totec448-spec
-category: AI + 开发
-summary_zh: chat-on-steroids 是一个开源项目，为 ChatGPT 提供跨平台的本地 MCP 能力，包括 Chrome 集成、目标设定、上下文压缩与恢复，以及持久的多代理工作流。开发者可以将其接入
-  ChatGPT，增强其与本地环境的交互。
-inspiration: 趋势是 AI 助手通过 MCP 协议扩展本地能力，从云端走向本地。可切入为特定行业（如自动化测试、数据抓取）提供预配置的 MCP 工具包，但需注意与官方功能的竞争。
-summary_en: chat-on-steroids is an open-source project that provides cross-platform local MCP capabilities
-  for ChatGPT, including Chrome integration, goal setting, context compaction and resume, and durable
-  multi-agent workflows. Developers can integrate it to enhance ChatGPT's interaction with local environments.
-inspiration_en: The trend is AI assistants extending local capabilities via MCP, moving from cloud to
-  local. Entry point could be pre-configured MCP toolkits for specific industries like automated testing
-  or data scraping, but competition with official features is a concern.
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
 priority_review: false
 project_type: open_source
-industries:
-- 软件开发
-industries_en:
-- Software development
-jobs:
-- 开发者
-jobs_en:
-- Developers
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
 regions: []
 regions_en: []
 open_source: true
@@ -30,29 +21,18 @@ canonical_url: https://github.com/totec448-spec/chat-on-steroids
 summary: Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume,
   and durable multi-agent workflows.
 first_seen: '2026-08-22T14:16:24Z'
-<<<<<<< HEAD
-last_seen: '2026-09-06T15:05:43Z'
-=======
-last_seen: '2026-09-06T15:19:33Z'
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
-status: watching
+last_seen: '2026-09-06T15:36:27Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/totec448-spec/chat-on-steroids
-<<<<<<< HEAD
-  seen_at: '2026-09-06T15:05:43Z'
+  seen_at: '2026-09-06T15:36:27Z'
   metrics:
-    stars: 693
-    forks: 92
-=======
-  seen_at: '2026-09-06T15:19:33Z'
-  metrics:
-    stars: 706
-    forks: 94
->>>>>>> a677347 (chore: 每日采集 2026-09-06)
-    open_issues: 33
+    stars: 740
+    forks: 97
+    open_issues: 34
   kind: product
 ---
 
