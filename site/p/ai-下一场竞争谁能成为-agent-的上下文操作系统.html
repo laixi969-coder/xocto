@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>WorkBuddy · x-octo</title>
+<meta name="description" content="腾讯 WorkBuddy 是一个面向办公场景的 AI 助手，试图连接专业软件与智能硬件，将分散在不同工具中的任务组织成可推进的流程。用户可在工作现场通过语音或文本唤起它，由它调用通达信、北大法宝等软件获取行业知识，或通过 Plaud、Rokid 等硬件获取现场信息，最终输出可执行的任务链或操作建议。…">
+<link rel="canonical" href="https://xocto.vercel.app/p/ai-下一场竞争谁能成为-agent-的上下文操作系统.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/ai-下一场竞争谁能成为-agent-的上下文操作系统.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/ai-下一场竞争谁能成为-agent-的上下文操作系统.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/ai-下一场竞争谁能成为-agent-的上下文操作系统.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="WorkBuddy · x-octo">
+<meta property="og:description" content="腾讯 WorkBuddy 是一个面向办公场景的 AI 助手，试图连接专业软件与智能硬件，将分散在不同工具中的任务组织成可推进的流程。用户可在工作现场通过语音或文本唤起它，由它调用通达信、北大法宝等软件获取行业知识，或通过 Plaud、Rokid 等硬件获取现场信息，最终输出可执行的任务链或操作建议。…">
+<meta property="og:url" content="https://xocto.vercel.app/p/ai-下一场竞争谁能成为-agent-的上下文操作系统.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ai-\u4e0b\u4e00\u573a\u7ade\u4e89\u8c01\u80fd\u6210\u4e3a-agent-\u7684\u4e0a\u4e0b\u6587\u64cd\u4f5c\u7cfb\u7edf.html#webpage", "@type": "WebPage", "description": "\u817e\u8baf WorkBuddy \u662f\u4e00\u4e2a\u9762\u5411\u529e\u516c\u573a\u666f\u7684 AI \u52a9\u624b\uff0c\u8bd5\u56fe\u8fde\u63a5\u4e13\u4e1a\u8f6f\u4ef6\u4e0e\u667a\u80fd\u786c\u4ef6\uff0c\u5c06\u5206\u6563\u5728\u4e0d\u540c\u5de5\u5177\u4e2d\u7684\u4efb\u52a1\u7ec4\u7ec7\u6210\u53ef\u63a8\u8fdb\u7684\u6d41\u7a0b\u3002\u7528\u6237\u53ef\u5728\u5de5\u4f5c\u73b0\u573a\u901a\u8fc7\u8bed\u97f3\u6216\u6587\u672c\u5524\u8d77\u5b83\uff0c\u7531\u5b83\u8c03\u7528\u901a\u8fbe\u4fe1\u3001\u5317\u5927\u6cd5\u5b9d\u7b49\u8f6f\u4ef6\u83b7\u53d6\u884c\u4e1a\u77e5\u8bc6\uff0c\u6216\u901a\u8fc7 Plaud\u3001Rokid \u7b49\u786c\u4ef6\u83b7\u53d6\u73b0\u573a\u4fe1\u606f\uff0c\u6700\u7ec8\u8f93\u51fa\u53ef\u6267\u884c\u7684\u4efb\u52a1\u94fe\u6216\u64cd\u4f5c\u5efa\u8bae\u3002\u2026", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "WorkBuddy", "url": "https://xocto.vercel.app/p/ai-\u4e0b\u4e00\u573a\u7ade\u4e89\u8c01\u80fd\u6210\u4e3a-agent-\u7684\u4e0a\u4e0b\u6587\u64cd\u4f5c\u7cfb\u7edf.html"}, {"@id": "https://xocto.vercel.app/p/ai-\u4e0b\u4e00\u573a\u7ade\u4e89\u8c01\u80fd\u6210\u4e3a-agent-\u7684\u4e0a\u4e0b\u6587\u64cd\u4f5c\u7cfb\u7edf.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u901a\u7528\u52a9\u624b", "dateModified": "2026-09-03", "datePublished": "2026-09-03", "description": "\u817e\u8baf WorkBuddy \u662f\u4e00\u4e2a\u9762\u5411\u529e\u516c\u573a\u666f\u7684 AI \u52a9\u624b\uff0c\u8bd5\u56fe\u8fde\u63a5\u4e13\u4e1a\u8f6f\u4ef6\u4e0e\u667a\u80fd\u786c\u4ef6\uff0c\u5c06\u5206\u6563\u5728\u4e0d\u540c\u5de5\u5177\u4e2d\u7684\u4efb\u52a1\u7ec4\u7ec7\u6210\u53ef\u63a8\u8fdb\u7684\u6d41\u7a0b\u3002\u7528\u6237\u53ef\u5728\u5de5\u4f5c\u73b0\u573a\u901a\u8fc7\u8bed\u97f3\u6216\u6587\u672c\u5524\u8d77\u5b83\uff0c\u7531\u5b83\u8c03\u7528\u901a\u8fbe\u4fe1\u3001\u5317\u5927\u6cd5\u5b9d\u7b49\u8f6f\u4ef6\u83b7\u53d6\u884c\u4e1a\u77e5\u8bc6\uff0c\u6216\u901a\u8fc7 Plaud\u3001Rokid \u7b49\u786c\u4ef6\u83b7\u53d6\u73b0\u573a\u4fe1\u606f\uff0c\u6700\u7ec8\u8f93\u51fa\u53ef\u6267\u884c\u7684\u4efb\u52a1\u94fe\u6216\u64cd\u4f5c\u5efa\u8bae\u3002\u5177\u4f53\u5de5\u4f5c\u6d41\u4e0e\u4ea4\u4ed8\u7ec6\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ai-\u4e0b\u4e00\u573a\u7ade\u4e89\u8c01\u80fd\u6210\u4e3a-agent-\u7684\u4e0a\u4e0b\u6587\u64cd\u4f5c\u7cfb\u7edf.html#webpage"}, "name": "WorkBuddy", "sameAs": "http://www.geekpark.net/news/369767", "url": "https://xocto.vercel.app/p/ai-\u4e0b\u4e00\u573a\u7ade\u4e89\u8c01\u80fd\u6210\u4e3a-agent-\u7684\u4e0a\u4e0b\u6587\u64cd\u4f5c\u7cfb\u7edf.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ai-\u4e0b\u4e00\u573a\u7ade\u4e89\u8c01\u80fd\u6210\u4e3a-agent-\u7684\u4e0a\u4e0b\u6587\u64cd\u4f5c\u7cfb\u7edf.html", "name": "WorkBuddy", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/ai-下一场竞争谁能成为-agent-的上下文操作系统.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>WorkBuddy</h1>
+      </div>
+      <p class="product-lede">腾讯 WorkBuddy 是一个面向办公场景的 AI 助手，试图连接专业软件与智能硬件，将分散在不同工具中的任务组织成可推进的流程。用户可在工作现场通过语音或文本唤起它，由它调用通达信、北大法宝等软件获取行业知识，或通过 Plaud、Rokid 等硬件获取现场信息，最终输出可执行的任务链或操作建议。具体工作流与交付细节仍待核验。</p>
+      <div class="meta product-meta">
+<span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
+<span class="tag">新应用 / 服务</span><span class="tag">通用助手</span><span class="tag">金融</span><span class="tag">法律</span><span class="tag">教育</span><span class="tag">企业服务</span><span class="tag">消费电子</span><span class="tag">证券分析师</span><span class="tag">法律研究者</span><span class="tag">教师</span><span class="tag">企业管理者</span><span class="tag">硬件用户</span><span class="tag">中国</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>本站首次收录</dt><dd class="num">2026-09-03</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-03</dd></div>
+      <div><dt>产品官网</dt><dd><a href="http://www.geekpark.net/news/369767" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-09-03</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">工作现场</span>
+        <p class="product-lead">在金融、法律等专业领域，用户需要在多个软件和硬件之间切换，收集信息并执行任务，例如证券分析师要同时查看行情、研报和合规要求。</p>
+        <p>目前用户通常手动打开多个软件和硬件，自行整合信息，缺乏统一入口。</p>
+        <p>信息分散在不同工具中，手动切换耗时且容易遗漏，影响决策效率。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>需求有依据</h3>
+        <p>趋势：AI 助手正从聊天窗口走向实体工作现场，竞争焦点从模型能力转向连接工具、硬件与数据的生态能力。切入：可从金融、法律等垂直行业的现场作业切入，例如证券分析师需要同时查询行情、研报与合规信息，WorkBuddy 若能整合这些动作并输出可核对的结论，便有机会替代原有手工切换流程。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">采用动机</span>
+        <h3>为什么有人会把它留在工作流里</h3>
+        <p>WorkBuddy 提供统一入口，能调用专业软件和硬件，减少切换成本，因此专业人士可能采用它来提升工作效率。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>查找 WorkBuddy 官方定价页或客户案例，以核验付费模式与实际采用情况。</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。WorkBuddy 提供统一入口，能调用专业软件和硬件，减少切换成本，因此专业人士可能采用它来提升工作效率。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>趋势：AI 助手正从聊天窗口走向实体工作现场，竞争焦点从模型能力转向连接工具、硬件与数据的生态能力。切入：可从金融、法律等垂直行业的现场作业切入，例如证券分析师需要同时查询行情、研报与合规信息，WorkBuddy 若能整合这些动作并输出可核对的结论，便有机会替代原有手工切换流程。</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>它解决专业用户在多个工具间切换、整合信息的痛点，痛点刚性且交付可确定，价值结构成立。</p></div>
+        <div><span class="field-k">工作流推理</span><p>WorkBuddy 提供统一入口，能调用专业软件和硬件，减少切换成本，因此专业人士可能采用它来提升工作效率。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>查找 WorkBuddy 官方定价页或客户案例，以核验付费模式与实际采用情况。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>它解决专业用户在多个工具间切换、整合信息的痛点，痛点刚性且交付可确定，价值结构成立。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369767" target="_blank" rel="noopener">AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」 · 2026-09-03 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>生态合作名单显示行业认可，但缺乏用户采用或持续使用的公开证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369767" target="_blank" rel="noopener">AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」 · 2026-09-03 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>未披露定价或付费模式，买方可能是企业或专业用户，但尚未核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369767" target="_blank" rel="noopener">AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」 · 2026-09-03 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>产品贴近专业工作的第一性目标，承诺通过整合工具提供可执行任务链，交付可确定。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.geekpark.net/news/369767" target="_blank" rel="noopener">AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」 · 2026-09-03 ↗</a>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照</p>
+      </div>
+    </div>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-03。未发现仅限该覆盖范围。 · 2026-09-03</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-03。未发现仅限该覆盖范围。 · 2026-09-03</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析还没写。先看上面的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/fyagent.html">fyagent</a>、        <a href="../p/why.html">why</a>      </p>
+    </div>
+  </section>
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.workbuddy.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">workbuddy.ai</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://copilot.tencent.com/work/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">WorkBuddy - AI Agent 办公新范式</span>
+        <span class="row-desc">用户痛点 · WorkBuddy 是腾讯云代码助手推出的 AI Agent 办公工具，自主规划并交付多模态复杂任务结果，支持多 Agents 并行工作，极致提效。</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://cloud.tencent.com/product/workbuddy" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">WorkBuddy - 腾讯云</span>
+        <span class="row-desc">用户痛点 · Tencent WorkBuddy（简称 WorkBuddy）， 是腾讯出品的全场景 AI 办公工作台，覆盖日常办公、代码开发与设计创意。用户以自然语言下达任务，WorkBuddy即可自主思考、拆解任务、规划执行步骤，最终交付可直接验收的工作结果。</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="http://www.geekpark.net/news/369767" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」</span>
+        <span class="row-desc">market_signal · 头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI Agent 建立一套与硬件沟通的通用语言。接入这套标准后，显微镜、机械臂等不同厂商、不同接口的设备，可以被 Agent 发现、理解和调用。 这件事指向了 AI 行业正在发生的一次变化。过去一年，竞争主要围绕模型的推理、生成和多模态能力展开；如今，Agent 开始走出聊天窗口，进入实验室、工厂和企业现场。行业的问题随之向下移动：模型已经足够聪明之后，谁来连接工具、硬件、数据和任务？ 9 月 2 日，腾讯 WorkBuddy 宣布面向更多伙伴开放合作。通达信、广发证券、北大法宝、腾讯 SSV 教师助手、微盟、北森、云帐房、帆软等应用与软件伙伴进入生态；Plaud、Rokid、影石、优篮子、科大讯飞、安克、猛玛、京造等硬件伙伴，也共同构成了 WorkBuddy 的生态版图。 一款 AI 产品为什么要同时连接专业软件、行业服务和多种硬件？这份名单勾勒出的，其实是 Agent 即将面对的完整工作现场：专业软件提供行业知识和业务动作，智能硬件提供声音、图像与移动中的现场信息，Agent 则要把它们组织成一条可以持续推进的任务链。 过去一年，AI 办公产品已经能写、能搜、能总结，也能处理越来越复杂的内容。但真实工作依然分散在不同软件、不同设备和不同账号体系里。用户获得 AI 的建议之后，往往还要自己完成信息搬运、工具切换和流程衔接。 所以，当 AI 开始参与复杂工作，竞争的其实是谁为 Agent 建立一套工作系统：让它记住上下文，理解任务状态，调度应用与设备，并在可控的权限边界内把用户意图推进成结果。 WorkBuddy 此次开放合作，试图给出的答案是，Agent OS。 会答题之后，AI 得学会把事办完 以一名投资经理准备行业调研为例。他需要回看此前的研究笔记和会议纪要，调取市场数据、公司公告和行业信息；会议结束后，还要整理核心判断、列出尚未核验问题、分派后续任务，最终沉淀为一份研究报告。 其中每一步都有相应工具：会议内容可能留在录音设备里，市场信息来自专业金融服务，资料散落在本地文件和企业知识库中，协作又发生在文档、邮件和即时通信软件里。AI 可以帮助生成一份摘要，却未必知道用户此前研究过什么、这次讨论解决了哪些</span>
+        <span class="row-tail">2026-09-03</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22WorkBuddy%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WorkBuddy%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WorkBuddy%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WorkBuddy%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22WorkBuddy%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=%E9%80%9A%E7%94%A8%E5%8A%A9%E6%89%8B">
+        通用助手 共 50 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/fyagent.html">
+          <div class="row-head desk-row">
+            <span class="row-name">fyagent</span>
+            <span class="row-desc">把模型、账号、技能和提示词收进本地行李，换一套 AI 工具也不用从头配置</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/why.html">
+          <div class="row-head desk-row">
+            <span class="row-name">why</span>
+            <span class="row-desc">每天抛出一个为什么，声称能把好奇心连成一张会自己往下问的图</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/ai-搜索-百度.html">
+          <div class="row-head desk-row">
+            <span class="row-name">AI 搜索｜百度</span>
+            <span class="row-desc">把百度搜索改成对话入口，边答问题边往下挖，写作做图也在同一页</span>
+            <span class="row-tail">
+<span class="tag sig">格局已定</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/deepseek-ai-智能助手.html">
+          <div class="row-head desk-row">
+            <span class="row-name">DeepSeek - AI 智能助手</span>
+            <span class="row-desc">DeepSeek 的手机助手：同一套模型，用来搜索、写作、阅读、解题和翻译</span>
+            <span class="row-tail">
+<span class="tag sig">格局已定</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/ai-startup-clipto-raises-15-million-at-a-250-million-valuati.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">Clipto</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/ai-搜索-百度.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">AI 搜索｜百度</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">不用，谢谢</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>1108 个案例 · 179 份生意判断</span>
+    <span class="gen">数据截至 2026-09-06</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
