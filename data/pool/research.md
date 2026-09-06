@@ -20,7 +20,7 @@ url: https://research.meta.ai/blog/introducing-muse-spark-1-3
 canonical_url: https://research.meta.ai/blog/introducing-muse-spark-1-3
 summary: Introducing Muse Spark 1.3
 first_seen: '2026-09-02T19:25:47Z'
-last_seen: '2026-09-05T00:07:01Z'
+last_seen: '2026-09-06T04:01:10Z'
 status: pending_filter
 sources:
 - hackernews
@@ -42,6 +42,11 @@ sightings:
 - source: marketfeeds
   url: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
   seen_at: '2026-09-05T00:07:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxOR1VzOU10ekl5RHVDbU5HRFM2OGptZDBSSnNMd2tQX3d5TXo4ckdMcDY1MkJoQTgzbzZHYVprcm9DMTBBQ05oOHlaMFRHcWNFV2tDSTk1QVN1SEs0VlNacFoyUl9ydlJ6bU5DQjJrZXVKLW9YVmdzTHNiSkxHRWdtSGt4b0RKWk41R3ZR?oc=5
+  seen_at: '2026-09-06T04:01:10Z'
   metrics: {}
   kind: news
 ---

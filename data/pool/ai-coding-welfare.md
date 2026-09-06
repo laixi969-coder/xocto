@@ -20,16 +20,16 @@ url: https://panxunying.github.io/ai-coding-welfare/
 canonical_url: https://panxunying.github.io/ai-coding-welfare
 summary: AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本
 first_seen: '2026-08-21T08:59:30Z'
-last_seen: '2026-09-06T02:59:25Z'
+last_seen: '2026-09-06T04:00:31Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://panxunying.github.io/ai-coding-welfare/
-  seen_at: '2026-09-06T02:59:25Z'
+  seen_at: '2026-09-06T04:00:31Z'
   metrics:
-    stars: 564
+    stars: 568
     forks: 40
     open_issues: 2
   kind: product

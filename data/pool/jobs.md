@@ -20,11 +20,12 @@ url: https://github.com/trylynceus/jobs
 canonical_url: https://github.com/trylynceus/jobs
 summary: Job listings scraped daily from 8k company career pages
 first_seen: '2026-08-16T15:13:37Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-06T04:00:50Z'
 status: pending_filter
 sources:
 - hackernews
 - newssearch
+- marketfeeds
 sightings:
 - source: hackernews
   url: https://github.com/trylynceus/jobs
@@ -36,6 +37,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOakpQc3F5ekFjZ3FVeVJSbXkxVFBMSWg2d0R6U3RKak1DajBRSU5EWDNWZjJwQ2MxRmRPemtzN3ptcDFvLUxyRjZxRXlaRXh5TVI4R0ppNkYyWjhIYk83TmJRSlRUNG9EMWQ1YkZGeTYxX3cyZEhUa3FZNllqM3RCUVZZWkMtekdLYjlmUko1bVZZejhVblRVNmZIbTZCSVVFQmhSVUJiZEN6UlpJVWJjZUFVTzM?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.exponentialview.co/p/ev-600
+  seen_at: '2026-09-06T04:00:50Z'
   metrics: {}
   kind: news
 ---
