@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>OKF Agent Memory · x-octo</title>
-<meta name="description" content="OKF Agent Memory 是一个面向 AI 编程代理的开源持久记忆工具。开发者在编码工作流中，代理需要记住项目上下文和过往决策，但现有方案常依赖外部数据库或消耗大量 token。该工具以 Git 原生方式存储记忆，实现 OKF v0.2 规范，内置 MCP 服务器和亚 300 微秒内存 BM…">
+<meta name="description" content="OKF Agent Memory 是一个面向 AI 编码代理的持久内存工具，采用 Git 原生方式存储知识，基于 Google 的 OKF 规范，将知识表示为带 YAML 前置元数据的 Markdown 文件。代理在编码过程中可读取和写入这些文件，通过内置的 BM25 搜索快速检索，无需外部数据库。…">
 <link rel="canonical" href="https://xocto.vercel.app/p/okf-agent-memory.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/okf-agent-memory.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/okf-agent-memory.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/okf-agent-memory.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="OKF Agent Memory · x-octo">
-<meta property="og:description" content="OKF Agent Memory 是一个面向 AI 编程代理的开源持久记忆工具。开发者在编码工作流中，代理需要记住项目上下文和过往决策，但现有方案常依赖外部数据库或消耗大量 token。该工具以 Git 原生方式存储记忆，实现 OKF v0.2 规范，内置 MCP 服务器和亚 300 微秒内存 BM…">
+<meta property="og:description" content="OKF Agent Memory 是一个面向 AI 编码代理的持久内存工具，采用 Git 原生方式存储知识，基于 Google 的 OKF 规范，将知识表示为带 YAML 前置元数据的 Markdown 文件。代理在编码过程中可读取和写入这些文件，通过内置的 BM25 搜索快速检索，无需外部数据库。…">
 <meta property="og:url" content="https://xocto.vercel.app/p/okf-agent-memory.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/okf-agent-memory.html#webpage", "@type": "WebPage", "description": "OKF Agent Memory \u662f\u4e00\u4e2a\u9762\u5411 AI \u7f16\u7a0b\u4ee3\u7406\u7684\u5f00\u6e90\u6301\u4e45\u8bb0\u5fc6\u5de5\u5177\u3002\u5f00\u53d1\u8005\u5728\u7f16\u7801\u5de5\u4f5c\u6d41\u4e2d\uff0c\u4ee3\u7406\u9700\u8981\u8bb0\u4f4f\u9879\u76ee\u4e0a\u4e0b\u6587\u548c\u8fc7\u5f80\u51b3\u7b56\uff0c\u4f46\u73b0\u6709\u65b9\u6848\u5e38\u4f9d\u8d56\u5916\u90e8\u6570\u636e\u5e93\u6216\u6d88\u8017\u5927\u91cf token\u3002\u8be5\u5de5\u5177\u4ee5 Git \u539f\u751f\u65b9\u5f0f\u5b58\u50a8\u8bb0\u5fc6\uff0c\u5b9e\u73b0 OKF v0.2 \u89c4\u8303\uff0c\u5185\u7f6e MCP \u670d\u52a1\u5668\u548c\u4e9a 300 \u5fae\u79d2\u5185\u5b58 BM\u2026", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/p/okf-agent-memory.html"}, {"@id": "https://xocto.vercel.app/p/okf-agent-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-09-06", "description": "OKF Agent Memory \u662f\u4e00\u4e2a\u9762\u5411 AI \u7f16\u7a0b\u4ee3\u7406\u7684\u5f00\u6e90\u6301\u4e45\u8bb0\u5fc6\u5de5\u5177\u3002\u5f00\u53d1\u8005\u5728\u7f16\u7801\u5de5\u4f5c\u6d41\u4e2d\uff0c\u4ee3\u7406\u9700\u8981\u8bb0\u4f4f\u9879\u76ee\u4e0a\u4e0b\u6587\u548c\u8fc7\u5f80\u51b3\u7b56\uff0c\u4f46\u73b0\u6709\u65b9\u6848\u5e38\u4f9d\u8d56\u5916\u90e8\u6570\u636e\u5e93\u6216\u6d88\u8017\u5927\u91cf token\u3002\u8be5\u5de5\u5177\u4ee5 Git \u539f\u751f\u65b9\u5f0f\u5b58\u50a8\u8bb0\u5fc6\uff0c\u5b9e\u73b0 OKF v0.2 \u89c4\u8303\uff0c\u5185\u7f6e MCP \u670d\u52a1\u5668\u548c\u4e9a 300 \u5fae\u79d2\u5185\u5b58 BM25 \u641c\u7d22\uff0c\u5ba3\u79f0\u53ef\u51cf\u5c11 80% \u7684 token \u6d88\u8017\uff0c\u4e14\u96f6\u5916\u90e8\u4f9d\u8d56\u3002\u5177\u4f53\u5de5\u4f5c\u6d41\u7a0b\u548c\u4ea4\u4ed8\u7ed3\u679c\u4ecd\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/okf-agent-memory.html#webpage"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/p/okf-agent-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/okf-agent-memory.html", "name": "OKF Agent Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/okf-agent-memory.html#webpage", "@type": "WebPage", "description": "OKF Agent Memory \u662f\u4e00\u4e2a\u9762\u5411 AI \u7f16\u7801\u4ee3\u7406\u7684\u6301\u4e45\u5185\u5b58\u5de5\u5177\uff0c\u91c7\u7528 Git \u539f\u751f\u65b9\u5f0f\u5b58\u50a8\u77e5\u8bc6\uff0c\u57fa\u4e8e Google \u7684 OKF \u89c4\u8303\uff0c\u5c06\u77e5\u8bc6\u8868\u793a\u4e3a\u5e26 YAML \u524d\u7f6e\u5143\u6570\u636e\u7684 Markdown \u6587\u4ef6\u3002\u4ee3\u7406\u5728\u7f16\u7801\u8fc7\u7a0b\u4e2d\u53ef\u8bfb\u53d6\u548c\u5199\u5165\u8fd9\u4e9b\u6587\u4ef6\uff0c\u901a\u8fc7\u5185\u7f6e\u7684 BM25 \u641c\u7d22\u5feb\u901f\u68c0\u7d22\uff0c\u65e0\u9700\u5916\u90e8\u6570\u636e\u5e93\u3002\u2026", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/p/okf-agent-memory.html"}, {"@id": "https://xocto.vercel.app/p/okf-agent-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-09-06", "description": "OKF Agent Memory \u662f\u4e00\u4e2a\u9762\u5411 AI \u7f16\u7801\u4ee3\u7406\u7684\u6301\u4e45\u5185\u5b58\u5de5\u5177\uff0c\u91c7\u7528 Git \u539f\u751f\u65b9\u5f0f\u5b58\u50a8\u77e5\u8bc6\uff0c\u57fa\u4e8e Google \u7684 OKF \u89c4\u8303\uff0c\u5c06\u77e5\u8bc6\u8868\u793a\u4e3a\u5e26 YAML \u524d\u7f6e\u5143\u6570\u636e\u7684 Markdown \u6587\u4ef6\u3002\u4ee3\u7406\u5728\u7f16\u7801\u8fc7\u7a0b\u4e2d\u53ef\u8bfb\u53d6\u548c\u5199\u5165\u8fd9\u4e9b\u6587\u4ef6\uff0c\u901a\u8fc7\u5185\u7f6e\u7684 BM25 \u641c\u7d22\u5feb\u901f\u68c0\u7d22\uff0c\u65e0\u9700\u5916\u90e8\u6570\u636e\u5e93\u3002\u5b83\u65e8\u5728\u51cf\u5c11\u4ee3\u7406\u5728\u957f\u4f1a\u8bdd\u4e2d\u7684 token \u6d88\u8017\uff0c\u5e76\u4fdd\u6301\u77e5\u8bc6\u7684\u7ed3\u6784\u5316\u3002\u5177\u4f53\u7684\u5de5\u4f5c\u6d41\u96c6\u6210\u548c\u4ea4\u4ed8\u6548\u679c\u4ecd\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/okf-agent-memory.html#webpage"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/p/okf-agent-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/okf-agent-memory.html", "name": "OKF Agent Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>OKF Agent Memory</h1>
       </div>
-      <p class="product-lede">OKF Agent Memory 是一个面向 AI 编程代理的开源持久记忆工具。开发者在编码工作流中，代理需要记住项目上下文和过往决策，但现有方案常依赖外部数据库或消耗大量 token。该工具以 Git 原生方式存储记忆，实现 OKF v0.2 规范，内置 MCP 服务器和亚 300 微秒内存 BM25 搜索，宣称可减少 80% 的 token 消耗，且零外部依赖。具体工作流程和交付结果仍需进一步核验。</p>
+      <p class="product-lede">OKF Agent Memory 是一个面向 AI 编码代理的持久内存工具，采用 Git 原生方式存储知识，基于 Google 的 OKF 规范，将知识表示为带 YAML 前置元数据的 Markdown 文件。代理在编码过程中可读取和写入这些文件，通过内置的 BM25 搜索快速检索，无需外部数据库。它旨在减少代理在长会话中的 token 消耗，并保持知识的结构化。具体的工作流集成和交付效果仍需进一步核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">AI 编程代理开发者</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 67</span><span class="tag sig">开源关注 187</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">AI 代理开发者</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 69</span><span class="tag sig">开源关注 231</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>okf_memory</dd></div>
@@ -87,73 +87,73 @@
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">工作现场</span>
-        <p class="product-lead">AI 编程代理在编码过程中需要持久记忆项目上下文和决策历史，以避免重复询问和错误。</p>
-        <p>开发者可能使用向量数据库、外部记忆服务或让代理每次重新读取整个仓库。</p>
-        <p>现有记忆方案依赖外部数据库或消耗大量 token，导致集成复杂和成本高。</p>
+        <p class="product-lead">AI 编码代理在长时间开发任务中需要记住项目上下文、决策和偏好，避免重复询问或遗忘。</p>
+        <p>目前开发者常使用对话历史、项目文档或外部向量数据库来补充上下文，但这些方法要么不持久，要么需要额外基础设施。</p>
+        <p>代理在长会话中会丢失上下文，导致输出不一致或需要重新加载大量 token，增加成本和延迟。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
-        <p>趋势：AI 编程代理的记忆和上下文管理正成为开发效率瓶颈，标准化、轻量化的记忆层可能成为基础设施。切入：可从 Git 原生记忆的标准化切入，但需验证开发者是否愿意采用新格式，以及能否在主流代理框架中无缝集成。</p>
+        <h3>需求有依据</h3>
+        <p>趋势：AI 编码代理的长期记忆和知识管理正在成为刚需，标准化格式（如 OKF）可能成为代理间知识交换的基础。切入：可以从为特定开发团队提供记忆管理服务切入，或开发基于 OKF 的协作知识库工具，但需注意与现有代理框架的集成。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>该工具提供 Git 原生、零依赖的轻量记忆，可能吸引追求简单和低成本的开发者，但采用证据不足。</p>
+        <p>开发者会尝试使用它，因为它承诺减少 token 消耗并提供 Git 原生的持久记忆，且无需外部数据库，降低了集成成本。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>查看 公开代码仓库 仓库的 issue 和 discussion，了解开发者实际使用反馈和集成案例。</p>
+        <p>官方定价页或托管服务的商业模式说明</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。该工具提供 Git 原生、零依赖的轻量记忆，可能吸引追求简单和低成本的开发者，但采用证据不足。</p>
+        <p><strong>值得试用</strong>。开发者会尝试使用它，因为它承诺减少 token 消耗并提供 Git 原生的持久记忆，且无需外部数据库，降低了集成成本。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：AI 编程代理的记忆和上下文管理正成为开发效率瓶颈，标准化、轻量化的记忆层可能成为基础设施。切入：可从 Git 原生记忆的标准化切入，但需验证开发者是否愿意采用新格式，以及能否在主流代理框架中无缝集成。</p>
+        <p>趋势：AI 编码代理的长期记忆和知识管理正在成为刚需，标准化格式（如 OKF）可能成为代理间知识交换的基础。切入：可以从为特定开发团队提供记忆管理服务切入，或开发基于 OKF 的协作知识库工具，但需注意与现有代理框架的集成。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>OKF Agent Memory 是一个面向 AI 编程代理的开源持久记忆工具。开发者在编码工作流中，代理需要记住项目上下文和过往决策，但现有方案常依赖外部数据库或消耗大量 token。该工具以 Git 原生方式存储记忆，实现 OKF v0.2 规范，内置 MCP 服务器和亚 300 微秒内存 BM25 搜索，宣称可减少 80% 的 token 消耗，且零外部依赖。具体工作流程和交付结果仍需进一步核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>该工具提供 Git 原生、零依赖的轻量记忆，可能吸引追求简单和低成本的开发者，但采用证据不足。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>查看 公开代码仓库 仓库的 issue 和 discussion，了解开发者实际使用反馈和集成案例。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决 AI 编码代理在长任务中上下文丢失和 token 消耗高的问题，痛点明确且刚性，交付可确定（Git 存储和检索）。</p></div>
+        <div><span class="field-k">工作流推理</span><p>开发者会尝试使用它，因为它承诺减少 token 消耗并提供 Git 原生的持久记忆，且无需外部数据库，降低了集成成本。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>官方定价页或托管服务的商业模式说明</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“OKF Agent Memory 是一个面向 AI 编程代理的开源持久记忆工具”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决 AI 编码代理在长任务中上下文丢失和 token 消耗高的问题，痛点明确且刚性，交付可确定（Git 存储和检索）。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>公开代码仓库 星数 187，社区讨论有限，尚未形成广泛共识。</p>
+          <p>开源社区讨论和星标数显示关注，但缺乏持续采用或付费证据，共识尚未形成。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>作为开源项目，无明确付费路径，商业模式不清晰。</p>
+          <p>作为开源项目，商业模式不明确，可能通过支持或托管服务变现，但未公开。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>宣称减少 80% token 消耗，但缺乏独立验证，且依赖 OKF 格式的普及。</p>
+          <p>贴近开发工作的第一性目标，承诺可确定性交付，无安全或人工边界问题。</p>
         </article>
       </div>
     </details>
@@ -252,7 +252,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 311 个 →
+        AI + 开发 共 315 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -299,14 +299,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/endoplexity.html">
+      <a class="pager-item pager-prev" href="../p/dsh-hub-cli.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Endoplexity</span>
+        <span class="pager-n">dsh-hub-cli</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/vibepulse.html">
+      <a class="pager-item pager-next" href="../p/modex-mh-agent.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">vibepulse</span>
+        <span class="pager-n">modex-mh-agent</span>
       </a>
     </div>
   </nav>
@@ -344,7 +344,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>984 个案例 · 179 份生意判断</span>
+    <span>989 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

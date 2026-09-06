@@ -61,16 +61,16 @@
   <header class="lede-bar home-mast desk-command">
     <div class="lede-main">
       <p class="eyebrow">2026-09-06 · 全球 AI+ 机会流</p>
-      <h1>AI 代理记忆与安全对抗升温，代码审查、长文本与跨语言工具同日现新信号。</h1>
+      <h1>AI 代理记忆与多代理协作升温，会议直出规格、Git 原生记忆与定理依赖图同日现新信号。</h1>
       <p class="daily-contract">每日更新；每个完成期次交付一条方向判断、三个证据案例和一个能带走的动作。先扫一屏，需要时再深读。</p>
       <a class="daily-cta" href="r/2026-09-06.html">读完整判断 →</a>
     </div>
     <aside class="mast-evidence desk-evidence" aria-label="本期证据">
       <p class="field-k">本期证据</p>
       <ol class="desk-evidence-list">
-        <li><span class="num">01</span><span>CodeRabbit 融资 1.2 亿美元，AI 代码审查从辅助走向安全层。</span></li>
-        <li><span class="num">02</span><span>Moonshot AI 秘密提交 IPO，Kimi 商业化进程获资本验证。</span></li>
-        <li><span class="num">03</span><span>开源代理记忆工具涌现，distill-kura 与 OKF Agent Memory 瞄准上下文管理。</span></li>
+        <li><span class="num">01</span><span>多款 AI 编码代理记忆与管理工具同日出现，Context Registry、OKF Agent Memory 与 CoDock 从不同角度切入上下文管理。</span></li>
+        <li><span class="num">02</span><span>Keen Bean 将会议录音直接整理为规格说明草稿，会议工具从留痕走向交付物生成。</span></li>
+        <li><span class="num">03</span><span>papergraph-mcp 将数学论文转为定理依赖图，反映 AI 代理对结构化知识表示的需求。</span></li>
       </ol>
     </aside>
   </header>
@@ -115,8 +115,8 @@
   <article class="pick desk-pick" style="--i: 1">
     <div class="desk-pick-id">
       <span class="pick-no num">02</span>
-      <a class="pick-id" href="p/pi-posthorse.html">
-        <h3>pi-posthorse</h3>
+      <a class="pick-id" href="p/okf-agent-memory.html">
+        <h3>OKF Agent Memory</h3>
         <span class="tag sig">首次发现</span>
       </a>
       <p class="pick-meta num">2026-09-06 · 开源项目 · 软件开发</p>
@@ -124,11 +124,11 @@
     <div class="pick-body desk-pick-fields">
       <div class="field field-what">
         <span class="field-k">这是什么</span>
-        <p>pi-posthorse 面向使用 Pi 编码代理（fitchmultz/pi fork）的开发者，在代理处理长任务需要保持上下文时使用。它提供原生的无摘要上下文窗口，支持滚动工具、持久笔记和历史恢复，让代理在长会话中不丢失关键信息。用户获得更连贯的代理行为和可恢复的历史记录。具体实现细节和兼容性仍需进一步核验。</p>
+        <p>OKF Agent Memory 是一个面向 AI 编码代理的持久内存工具，采用 Git 原生方式存储知识，基于 Google 的 OKF 规范，将知识表示为带 YAML 前置元数据的 Markdown 文件。代理在编码过程中可读取和写入这些文件，通过内置的 BM25 搜索快速检索，无需外部数据库。它旨在减少代理在长会话中的 token 消耗，并保持知识的结构化。具体的工作流集成和交付效果仍需进一步核验。</p>
       </div>
       <div class="field field-take">
         <span class="field-k">本期为什么值得点开</span>
-        <p>AI 编码代理处理长任务时上下文丢失是普遍痛点，无摘要上下文窗口可能成为代理框架的标准能力。切入点是为特定代理 fork 提供增强模块，可扩展到其他代理，面向开发者工具市场。</p>
+        <p>趋势：AI 编码代理的长期记忆和知识管理正在成为刚需，标准化格式（如 OKF）可能成为代理间知识交换的基础。切入：可以从为特定开发团队提供记忆管理服务切入，或开发基于 OKF 的协作知识库工具，但需注意与现有代理框架的集成。</p>
       </div>
       <div class="field field-call">
         <span class="field-k">机会判断</span>
@@ -136,7 +136,7 @@
       </div>
       <div class="field home-question">
         <span class="field-k">继续追问</span>
-        <p>查找 pi-posthorse 的官方文档或用户反馈，确认其与 Pi 代理的集成方式和对长任务性能的实际影响。</p>
+        <p>官方定价页或托管服务的商业模式说明</p>
       </div>
     </div>
   </article>
@@ -269,6 +269,38 @@
   <article class="pick desk-pick" style="--i: 0">
     <div class="desk-pick-id">
       <span class="pick-no num">01</span>
+      <a class="pick-id" href="p/context.html">
+        <h3>Context Registry</h3>
+        <span class="tag sig">实质更新</span>
+      </a>
+      <p class="pick-meta num">2026-09-06 · 新应用 / 服务 · 软件开发</p>
+    </div>
+    <div class="pick-body desk-pick-fields">
+      <div class="field field-what">
+        <span class="field-k">这是什么</span>
+        <p>Context Registry 是一个面向 AI 编码代理的上下文注册表，旨在帮助开发者在多个编码代理之间管理和共享上下文。具体工作流程和交付物仍待核验。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">此次变化</span>
+        <p>Context Registry 在 2026 年 9 月初发布，定位为 AI 编码代理的上下文注册表，并出现在关于具身 ICL 与上下文扩展的行业讨论中。</p>
+      </div>
+      <div class="field field-take">
+        <span class="field-k">本期为什么值得点开</span>
+        <p>上下文管理正成为 AI 编码工具的新竞争点，未来可能出现跨代理的上下文标准或平台。可从企业级上下文治理或团队协作切入。</p>
+      </div>
+      <div class="field field-call">
+        <span class="field-k">机会判断</span>
+        <p><strong>仅作方向线索</strong><span class="decision-sep"> · </span>问题已识别，需求强度未明</p>
+      </div>
+      <div class="field home-question">
+        <span class="field-k">继续追问</span>
+        <p>官方文档或产品页面，说明具体工作流程和交付物。</p>
+      </div>
+    </div>
+  </article>
+  <article class="pick desk-pick" style="--i: 1">
+    <div class="desk-pick-id">
+      <span class="pick-no num">02</span>
       <a class="pick-id" href="p/abliterationai-is-making-a-business-out-of-removing-ai-guard.html">
         <h3>Abliteration.ai</h3>
         <span class="tag sig">实质更新</span>
@@ -298,9 +330,9 @@
       </div>
     </div>
   </article>
-  <article class="pick desk-pick" style="--i: 1">
+  <article class="pick desk-pick" style="--i: 2">
     <div class="desk-pick-id">
-      <span class="pick-no num">02</span>
+      <span class="pick-no num">03</span>
       <a class="pick-id" href="p/distill-kura.html">
         <h3>distill-kura</h3>
         <span class="tag sig">实质更新</span>
@@ -330,9 +362,9 @@
       </div>
     </div>
   </article>
-  <article class="pick desk-pick" style="--i: 2">
+  <article class="pick desk-pick" style="--i: 3">
     <div class="desk-pick-id">
-      <span class="pick-no num">03</span>
+      <span class="pick-no num">04</span>
       <a class="pick-id" href="p/coderabbit.html">
         <h3>CodeRabbit</h3>
         <span class="tag sig">实质更新</span>
@@ -362,38 +394,6 @@
       </div>
     </div>
   </article>
-  <article class="pick desk-pick" style="--i: 3">
-    <div class="desk-pick-id">
-      <span class="pick-no num">04</span>
-      <a class="pick-id" href="p/dsh-mimir-academic-research.html">
-        <h3>Mimir</h3>
-        <span class="tag sig">实质更新</span>
-      </a>
-      <p class="pick-meta num">2026-09-06 · 开源项目 · 科研</p>
-    </div>
-    <div class="pick-body desk-pick-fields">
-      <div class="field field-what">
-        <span class="field-k">这是什么</span>
-        <p>Mimir 是一个面向科研人员的开源工作台插件，集成 LaTeX 论文写作、arXiv 文献管理、实验追踪、指标图表和 GPU 服务器 SSH 任务编排。科研人员在撰写论文时，可在同一界面内完成文献检索、实验记录和远程计算任务管理，减少切换工具的时间。具体流程和交付细节仍需进一步核验。</p>
-      </div>
-      <div class="field">
-        <span class="field-k">此次变化</span>
-        <p>开源科研工作台插件 Mimir 于 2026 年 8 月发布，公开代码仓库 星标在两周内从 177 增长至 206，增长平稳。</p>
-      </div>
-      <div class="field field-take">
-        <span class="field-k">本期为什么值得点开</span>
-        <p>科研工具正从单点编辑器走向全流程工作台，但 Mimir 的集成深度和用户粘性尚尚未核验。切入机会在于垂直科研场景的深度集成，如针对特定学科（生物信息、材料科学）的实验记录与论文写作联动，或提供结果导向的付费服务（如按论文产出收费）。</p>
-      </div>
-      <div class="field field-call">
-        <span class="field-k">机会判断</span>
-        <p><strong>继续跟踪</strong><span class="decision-sep"> · </span>需求有依据</p>
-      </div>
-      <div class="field home-question">
-        <span class="field-k">继续追问</span>
-        <p>查找 Mimir 的官方文档或用户讨论，确认其实际工作流和用户反馈。</p>
-      </div>
-    </div>
-  </article>
 </div>
 
   </section>
@@ -408,16 +408,36 @@
     </div>
     <div class="decision-grid desk-summary">
       <div class="field">
+        <span class="field-k"><a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uS19IUmdFQXg5d0NBNFJLeGlVNldmRVIycGltc1BZbFR0aHB2NUlmQi1BdHJ5ZW1LUjZ5VXZQY09jY0VhcnBZZDA0aGJzRXFESmtYZ3cwUjdISm1nMkE?oc=5" rel="noopener noreferrer">欢瑞世纪</a></span>
+        <p>欢瑞世纪是一家影视公司，因 AI 短剧概念股价大涨，但公司声明 AI 短剧收入占比不足 1%，表明 AI 短剧业务尚未形成实质收入。</p>
+      </div>
+      <div class="field">
+        <span class="field-k"><a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads" rel="noopener noreferrer">OpenAI</a></span>
+        <p>该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。</p>
+      </div>
+      <div class="field">
+        <span class="field-k"><a href="https://xhtoken.ai/" rel="noopener noreferrer">Spark-X2.5</a></span>
+        <p>该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。</p>
+      </div>
+      <div class="field">
+        <span class="field-k"><a href="https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/" rel="noopener noreferrer">美国两大公立学区AI禁令</a></span>
+        <p>监管与政策变化：美国规模最大的两个公立学区宣布对人工智能使用实施禁令，反映出K-12教育系统对AI工具的收紧态度。公立学校是教育AI产品的重要落地渠道，学区级禁令可能延缓AI教学工具的采用与采购节奏，并促使厂商加强合规与家长、教师层面的沟通。</p>
+      </div>
+      <div class="field">
+        <span class="field-k"><a href="https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight" rel="noopener noreferrer">Isar Aerospace</a></span>
+        <p>Isar Aerospace 是一家欧洲私营航天公司，其第二次轨道飞行成功入轨并部署载荷，标志着欧洲商业航天能力的突破。</p>
+      </div>
+      <div class="field">
+        <span class="field-k"><a href="https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone" rel="noopener noreferrer">United Nations</a></span>
+        <p>联合国发布报告指出全球升温将突破1.5摄氏度限值，并给出回到危险阈值以下的路径；这一政策层面的信号将影响能源转型、碳减排及相关行业的投资方向与合规要求。</p>
+      </div>
+      <div class="field">
         <span class="field-k"><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN2FVX1pscFF4N2h3aF85RnFYaV9HcUowcHNDM0dsMzg0Y25Lbm5ldXI3QXNJSDN6TWN0cWEtakJoWnNzbTRId050NnN2SnpaWXRoakFnb084V1ZlU0NKdDZqM25kdkdTOEIyd25BbDl4Tkl6eFdIeXM1TmZsMWc2eU1Ebk5fQS1iYnRnX2VYWUNZamtvUTNGaHBsOEtiSFN5bU02WVBOWTJ0SV81Vk4xNzNFQktoYnU0X014blVhSjktc2wyWHZ4TXFhT1Utalhr?oc=5" rel="noopener noreferrer">Guidewire Software</a></span>
         <p>财经分析文章指出，保险核心系统软件公司 Guidewire 第二季度产品动能强劲，但公司给出的前景指引偏谨慎，市场关注点从产品表现转向对未来增长的担忧。</p>
       </div>
       <div class="field">
         <span class="field-k"><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ3E2Q3NCcS1BSklyUklSRTJ1RGtKclNqLUJHeUJralJZTlJsdS13VUhNbmRvNUd6S2gxY3g2YmFfQi1MVlhHWGUzZGZGT2hZZ0dkZEFmLUZibnJnNTA4eGc3ZlN0bEhyYzNidEVqVVlUczVIMmxGb08tNmhlbV90cDV4a1Izd1dGRjd2UndWYlJqZWV5eUdGeFpCbjRLd1VpVW50UE5BWi1HMVMyXzFObzAyUWQ?oc=5" rel="noopener noreferrer">AI</a></span>
         <p>AI 正在悄悄重塑零售业，消费者可能未察觉</p>
-      </div>
-      <div class="field">
-        <span class="field-k"><a href="https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads" rel="noopener noreferrer">OpenAI</a></span>
-        <p>该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。</p>
       </div>
       <div class="field">
         <span class="field-k"><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPa1R2b3o1R2RtMU5ja2ttSGtDblpRM2tFTWQ4bVVVRTRaSjdjaFF1d2l6LWI1VXQxeWo0bEllMmwzNEdKQWxvZVBMY1hnQWhBX3ZDZjJaUzZXRnZVTFBoc1U0T012MTdBNXhBbmkyUFJSeUtFVklaY3dxcHJpSDdIN0dkcVpRU0NiRHJhSktvdzR4OGdUWlVWdGFLbXdjTW81Y1ZmTU5JV29jMGN0d2pRZDZ6blA4MjY4NFVSM01NZHFSbFJlSUVfbGNtMmNIZFdlanZzeE1R0gHbAUFVX3lxTFBjRF9iMEl1TEJJSi1OTEQwTzloLTJuTlBhRmZOVXdJbkYwbUEzc3NxRVFlZThzRjR2Q0JTSFgzdV9sbU9CUlduek15c3hHRktpNFR4eUt1dE1tdWN4RXJ3UHJNRjRrNjVwVXBWWDhzci16NEwtaFg5VUM1Y1JzNWZpOFAxNkR3M0drVWpoSGhDRllZUkdXU1NkV3FBWU1helJRcUhMMS04VmpURUhEaW9SZmM4TVpXNzlMVkpOZHFiUVViNnRLTkU1cVVCY2UwYjRMYzFrTzlac0x2OA?oc=5" rel="noopener noreferrer">华硕</a></span>
@@ -436,24 +456,12 @@
         <p>AI基础设施成为本周最大风投轮次的主导领域，数据中心与云服务方向接连出现数十亿美元级融资，显示资本持续向AI算力基础设施集中，行业进入重资产投入阶段。</p>
       </div>
       <div class="field">
-        <span class="field-k"><a href="https://xhtoken.ai/" rel="noopener noreferrer">Spark-X2.5</a></span>
-        <p>该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。</p>
-      </div>
-      <div class="field">
         <span class="field-k"><a href="https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2" rel="noopener noreferrer">LangChain</a></span>
         <p>LangChain 是一个开源框架，用于构建基于大语言模型的应用。本次版本更新为开发者提供异步工具支持等改进，属于开发工具链的常规迭代。</p>
       </div>
       <div class="field">
         <span class="field-k"><a href="https://artificialanalysis.ai/optima" rel="noopener noreferrer">Artificial Analysis</a></span>
         <p>Artificial Analysis 是一个提供 AI 模型基准测试和对比的平台，用户可创建自定义基准。本次更新发布 Intelligence Index v4.2，并报告 GPT-6 Astra 在编码代理指数中取得重大进展。</p>
-      </div>
-      <div class="field">
-        <span class="field-k"><a href="https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight" rel="noopener noreferrer">Isar Aerospace</a></span>
-        <p>Isar Aerospace 是一家欧洲商业航天公司，专注于研发和发射中小型运载火箭。其第二次飞行成功入轨并部署载荷，标志着欧洲商业航天进入新阶段。</p>
-      </div>
-      <div class="field">
-        <span class="field-k"><a href="https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone" rel="noopener noreferrer">United Nations</a></span>
-        <p>联合国报告指出全球变暖将超过 1.5 摄氏度限制，并规划了回到危险线以下的路径。</p>
       </div>
       <div class="field">
         <span class="field-k"><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZW5CSW1GTnRJa0NtX1hWbkY5bnJMTS1ocDNRQTk2bzZfd3dBZk1LZEtqdWVLSmk1NHNpaG9TSW9SSUszRjU1VUFVZzJxZVlhZ2lYXzRoYmVUYjU2RVExSTJSSE1lZUM3UXVFa2xsM3c4ZVlxZUtoQ2owYzdQRld0aDVZa1VUUEVmN3RsY0w2OFNjNVBBTG1aQldUTGxFaDA4LVJhd1NVSFdtY3dVeXV0T1dVYWptRXJXelNob2g5QnpueUI2clM4VUMyYXpNa0Q4eXc?oc=5" rel="noopener noreferrer">Guidewire Software</a></span>
@@ -474,10 +482,6 @@
       <div class="field">
         <span class="field-k"><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQTE4wREdGTTEyc1hXVDkxZWlqT2RFamFScl9ROHpzdk04SXRWQWhJTmxMTUhlSXVGMW1PNHppTW41a24xTkhXQVdKaXgwMWgxY0U1ODVscldCNTFvbXFMMUZZMDJzaG9UN2tUbDBwSFk2SWQ5R2c2N3NCb25ocUNrR1kzQl9Ld1U?oc=5" rel="noopener noreferrer">知乎AI Works</a></span>
         <p>知乎AI Works是知乎推出的AI应用平台，本次更新支持应用一键部署、Skill和Agent功能，并开放知乎直答和数据平台。具体工作流和交付细节待核验。</p>
-      </div>
-      <div class="field">
-        <span class="field-k"><a href="https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/" rel="noopener noreferrer">techpolicy</a></span>
-        <p>美国两个最大学区实施 AI 禁令，可能限制 AI 工具在 K-12 教育中的采用，为教育科技厂商提供监管信号。</p>
       </div>
       <div class="field">
         <span class="field-k"><a href="https://openrouter.ai/openai/gpt-6-astra" rel="noopener noreferrer">OpenRouter</a></span>
@@ -793,7 +797,7 @@
       </div>
       <div class="field">
         <span class="field-k">跨国供给差异</span>
-        <p>已形成带覆盖范围的跨国机会判断：short-video-generator-AI、pi-posthorse、codflow、distill-kura、CodeRabbit。</p>
+        <p>已形成带覆盖范围的跨国机会判断：short-video-generator-AI、OKF Agent Memory、codflow、distill-kura、CodeRabbit。</p>
       </div>
     </div>
   </section>
@@ -845,7 +849,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>984 个案例 · 179 份生意判断</span>
+    <span>989 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="reports.html">判断档案</a>
