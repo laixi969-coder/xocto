@@ -418,6 +418,11 @@ def candidates(store: Store, day: date) -> list[Any]:
 def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
     candidates_payload = []
     for product in products:
+        evidence = store.read_evidence(product.slug)
+        if len(evidence) > 12:
+            # 老产品会积累上百条证据，全量携带会把单个候选顶过请求体上限；
+            # 闸门引用只要求 id 存在于档案，取最近的子集合法。
+            evidence = evidence[-12:]
         candidates_payload.append({
             "slug": product.slug,
             "name": product.name,
@@ -425,7 +430,7 @@ def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
             "summary_zh": product.summary_zh,
             "industry": list(product.industries),
             "jobs": list(product.jobs),
-            "evidence": [item.to_dict() for item in store.read_evidence(product.slug)],
+            "evidence": [item.to_dict() for item in evidence],
             "markets": [item.to_dict() for item in store.read_market_observations(product.slug)],
             "initial_review": max((item.to_dict() for item in store.read_req_reviews(product.slug) if item.level == "initial"), key=lambda item: item["reviewed_at"], default={}),
         })

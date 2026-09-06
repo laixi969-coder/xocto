@@ -320,14 +320,20 @@ def news_for_day(store: Store, day: date) -> list[dict[str, Any]]:
 
 
 def report_context(
-    products: list[Product], fallback_news: list[dict[str, Any]]
+    products: list[Product], fallback_news: list[dict[str, Any]], *, market_limit: int = 12
 ) -> list[dict[str, Any]]:
     """把编辑确认的市场背景完整送进日报，同时兼容旧版原始报道。
 
     市场背景不是被淘汰的产品，也不是只在内部保存的标签。它有稳定实体名和
     双语事实说明，应成为日报的正式输入。按 URL 去重后再补有限的原始报道，
-    防止同一条材料既以编辑结果又以 RSS 标题出现。
+    防止同一条材料既以编辑结果又以 RSS 标题出现。候选丰富的日子可能产出
+    上百条市场背景，日报是当天摘要放不下全部：只取最近的市场记录。
     """
+    market_products = sorted(
+        (product for product in products if product.status == STATUS_MARKET_CONTEXT),
+        key=lambda product: product.last_seen,
+        reverse=True,
+    )
     rows = [
         {
             "kind": "market_context",
@@ -336,8 +342,7 @@ def report_context(
             "summary_zh": product.summary_zh,
             "summary_en": product.summary_en,
         }
-        for product in products
-        if product.status == STATUS_MARKET_CONTEXT
+        for product in market_products[:market_limit]
     ]
     urls = {str(row.get("url") or "") for row in rows}
     rows.extend(row for row in fallback_news if str(row.get("url") or "") not in urls)
@@ -905,19 +910,37 @@ def _report_prompt(
     *,
     previous_zh: str = "",
     previous_en: str = "",
-    compact: bool = False,
+    compact: int = 0,
+    template: str = "",
 ) -> list[dict[str, str]]:
-    """日报与项目编辑分开请求，避免日报挤占全量候选的 JSON 输出。"""
-    if compact:
+    """日报与项目编辑分开请求，避免日报挤占全量候选的 JSON 输出。
+
+    compact 是递减级别：1 级裁剪新闻摘要与前日报告；2 级进一步压缩全部
+    输入（市场背景在 report_context 已限量，这里再截摘要）。模板计入
+    体积预算，由调用方在级别之间重新估算。
+    """
+    if compact >= 1:
         # 前一日全文和原始报道摘要都可能把请求体顶过上限；日报只需要
         # 事实要点，不需要逐字复述，超限时按可读长度截断。
         news = [{**row, "summary": str(row.get("summary") or "")[:400]} for row in news]
         previous_zh = previous_zh[:6000]
         previous_en = previous_en[:6000]
+    if compact >= 2:
+        news = [
+            {**row,
+             "summary": str(row.get("summary") or "")[:200],
+             "summary_zh": str(row.get("summary_zh") or "")[:200],
+             "summary_en": str(row.get("summary_en") or "")[:200]}
+            for row in news
+        ]
+        previous_zh = previous_zh[:2500]
+        previous_en = previous_en[:2500]
+        template = template[:4000]
     priorities = [product for product in products if product.priority_review]
+    limit = 10 if compact >= 2 else REPORT_PRODUCT_LIMIT
     selected = list(priorities)
     for product in products:
-        if len(selected) >= REPORT_PRODUCT_LIMIT:
+        if len(selected) >= limit:
             break
         if product.status in {STATUS_QUEUED, STATUS_WATCHING} and product not in selected:
             selected.append(product)
@@ -944,6 +967,8 @@ industry_news 中 kind=market_context 的记录是编辑确认的正式市场背
 市场变化与真需求结论，不得把产品目录改写成热度榜。必须先给一条正向方向判断，
 禁止以「今天没有值得展开的」或同义句作为开头或结论。必须各用独立 `### 产品名`
 小标题介绍重点项目。以下重大项目必须同时在中英文正文中点名：{priority_names}。"""
+    if template:
+        system = system + "\n<report_template>\n" + template + "\n</report_template>"
     return [
         {"role": "system", "content": system},
         {"role": "user", "content": json.dumps({
@@ -1597,16 +1622,20 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     # 同时进入中英文正文。被隔离的批次没有更新，候选以原样进入日报输入，
     # pending 状态不会被日报选中，也不会获得公开页面。
     edited_products = [updates.get(product.slug, product) for product in products]
+    report_template = _read_config(store, "template.md")
     report_messages = _report_prompt(
         day, edited_products, report_context(edited_products, news),
-        previous_zh=previous_zh, previous_en=previous_en,
+        previous_zh=previous_zh, previous_en=previous_en, template=report_template,
     )
-    if _estimate_payload_bytes(report_messages) > MAX_PAYLOAD_BYTES:
+    # 模板与市场背景都计入体积预算；候选丰富的日子两级递减，保证发得出去。
+    level = 0
+    while level < 2 and _estimate_payload_bytes(report_messages) > MAX_PAYLOAD_BYTES:
+        level += 1
         report_messages = _report_prompt(
             day, edited_products, report_context(edited_products, news),
-            previous_zh=previous_zh, previous_en=previous_en, compact=True,
+            previous_zh=previous_zh, previous_en=previous_en,
+            compact=level, template=report_template,
         )
-    report_messages[0]["content"] += "\n<report_template>\n" + _read_config(store, "template.md") + "\n</report_template>"
     print("生成双语日报", flush=True)
     report_result = _request(report_messages)
     try:
