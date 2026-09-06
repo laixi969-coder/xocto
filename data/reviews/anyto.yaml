@@ -1,0 +1,40 @@
+- id: req-initial-anyto-2026-09-03
+  project_slug: anyto
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决异构文档快速结构化为纯净 Markdown 的痛点，降低大模型输入清洗的人工成本。
+    evidence_ids:
+    - ev-d44a117fb9adcf23
+    - ev-d5839cf5dcd8bbb3
+  - gate: consensus
+    status: insufficient
+    reason: 社区虽有关注，但尚未形成长期依赖或工作流绑定的公开使用规模数据。
+    evidence_ids:
+    - ev-d44a117fb9adcf23
+  - gate: model
+    status: insufficient
+    reason: 目前未披露商业化付费方案与企业级 API 定价策略。
+    evidence_ids:
+    - ev-d44a117fb9adcf23
+  - gate: truth
+    status: supported
+    reason: 文档格式转换具有确定性的输入输出边界与直接交付结果。
+    evidence_ids:
+    - ev-d44a117fb9adcf23
+  next_validation: 核验官方是否上线支持批量并发调用的商业 API 定价方案与解析准确率实测基准
+  market: ''
+  job: 将异构文档格式快速转为 LLM 可解析的 Markdown 文本
+  job_en: Convert heterogeneous documents into LLM-ready Markdown text
+  pain: 传统文档解析工具保留过多无用样式与乱码，人工清洗成本高且易丢失语义结构
+  pain_en: Legacy document parsers retain noisy formatting, making manual cleanup costly and error-prone
+    for context ingestion
+  current_alternative: 使用 Pandoc 等通用格式转换脚本或大模型直接解析
+  current_alternative_en: Using Pandoc scripts or prompting generic LLMs to parse documents directly
+  usage_reason: 提供开箱即用的解析与清洗流程，降低构建知识库与提示词上下文的准备门槛
+  usage_reason_en: Provides an out-of-the-box parsing flow that lowers the barrier to preparing knowledge
+    bases and prompt context

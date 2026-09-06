@@ -1,11 +1,12 @@
 ---
 slug: nvidia-to-acquire-hugging-face
-name: NVIDIA to Acquire Hugging Face
+name: Hugging Face
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 公开模型社区是AI开发者分享和托管开源模型、数据集与工具的平台，本次被英伟达收购，成为芯片厂商控制的开源社区。
 inspiration: ''
-summary_en: ''
+summary_en: public model community is a platform where AI developers share and host open-source models,
+  datasets, and tools; this acquisition brings it under Nvidia's control.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: 'I’m excited to announce that NVIDIA has agreed to acquire Hugging Fa
   at Hugging Face have built something remarkable: a vibrant home for […]'
 first_seen: '2026-09-03T11:56:49Z'
 last_seen: '2026-09-03T14:36:50Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# NVIDIA to Acquire Hugging Face
+# Hugging Face
 
 I’m excited to announce that NVIDIA has agreed to acquire Hugging Face for $12,930,300,000. Together, we will scale Hugging Face’s platform, strengthen its infrastructure and expand access to AI for developers and institutions worldwide. Over the past decade, Clem, Julien, Thomas and the team at Hugging Face have built something remarkable: a vibrant home for […]
 

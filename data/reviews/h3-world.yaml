@@ -1,0 +1,38 @@
+- id: req-initial-h3-world-2026-09-03
+  project_slug: h3-world
+  level: initial
+  reviewed_at: '2026-09-03T00:16:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确；交互式世界模型可能用于游戏或模拟，但具体任务和旧流程未说明。
+    evidence_ids:
+    - ev-70187933ee379512
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，无持续采用或社区讨论证据。
+    evidence_ids:
+    - ev-70187933ee379512
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式无从谈起。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法进行。
+    evidence_ids: []
+  next_validation: 查找官方文档或演示视频，确认其目标用户和实际应用场景。
+  market: ''
+  job: 用户想实时探索 AI 生成的世界，体验沉浸式交互。
+  job_en: Users want to explore an AI-generated world in real time for immersive interaction.
+  pain: 传统游戏环境需要手工建模，成本高；世界模型可能提供动态生成的替代。
+  pain_en: Traditional game environments require manual modeling, which is costly; world models may offer
+    a dynamically generated alternative.
+  current_alternative: 目前用户可能使用传统游戏引擎或预渲染视频，缺乏实时生成和交互。
+  current_alternative_en: Currently users may rely on traditional game engines or pre-rendered videos,
+    lacking real-time generation and interactivity.
+  usage_reason: 开源演示吸引开发者和爱好者尝试，但缺乏明确的应用场景和交付物。
+  usage_reason_en: The open-source demo attracts developers and enthusiasts to try, but lacks clear use
+    cases and deliverables.

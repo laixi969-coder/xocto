@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wckprSFhCQjFi
 summary: 当AI把公司“变小”，创业社区该长成什么样？ jfdaily.com.cn
 first_seen: '2026-09-02T03:12:00Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

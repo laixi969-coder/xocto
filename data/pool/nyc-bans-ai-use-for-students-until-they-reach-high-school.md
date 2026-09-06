@@ -1,11 +1,12 @@
 ---
 slug: nyc-bans-ai-use-for-students-until-they-reach-high-school
-name: NYC bans AI use for students until they reach high school
+name: New York City Public Schools
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 纽约市出台新政策，在2026-2027学年暂停从学前班到八年级约60万名公立学校学生在课堂中使用AI。
 inspiration: ''
-summary_en: ''
+summary_en: New York City implemented a policy banning AI usage in classrooms for approximately 600,000
+  public school students from 2-K through eighth grade for the 2026-2027 school year.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: New York City Mayor Zohran Mamdani has announced a new policy today tha
   limits on digital devices and a […]
 first_seen: '2026-09-02T14:30:00Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# NYC bans AI use for students until they reach high school
+# New York City Public Schools
 
 New York City Mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced alongside additional limits on digital devices and a […]
 

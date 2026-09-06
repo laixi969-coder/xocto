@@ -1,0 +1,38 @@
+- id: req-initial-skatanica-2026-09-03
+  project_slug: skatanica
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：滑板爱好者寻找特定地点视频的需求可能存在，但痛点强度未明。
+    evidence_ids:
+    - ev-ce2ca272c1c939d6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无法判断是否形成共识。
+    evidence_ids:
+    - ev-ce2ca272c1c939d6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 观察 Skatanica 网站是否出现用户生成内容或使用数据。
+  market: ''
+  job: 滑板爱好者想找到特定地点的滑板视频，或分享自己滑板的片段。
+  job_en: Skateboarders want to find skate videos at specific locations, or share clips of their own skating.
+  pain: 现有视频平台缺乏按地点筛选滑板内容的有效方式，难以发现附近或特定地点的滑板视频。
+  pain_en: Existing video platforms lack effective ways to filter skate content by location, making it
+    hard to discover skate videos nearby or at specific spots.
+  current_alternative: 用户可能使用 YouTube、Instagram 等平台，通过搜索或标签查找，但效果有限。
+  current_alternative_en: Users may use platforms like YouTube or Instagram, searching by keywords or
+    tags, but with limited effectiveness.
+  usage_reason: 目前仅有少量社区讨论，尚无证据表明用户会持续使用或分享。
+  usage_reason_en: Currently only minimal community discussion exists; no evidence yet that users will
+    consistently use or share.

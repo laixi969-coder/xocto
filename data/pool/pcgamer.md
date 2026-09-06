@@ -21,7 +21,7 @@ canonical_url: https://pcgamer.com/gaming-industry/dwarf-fortress-creator-says-t
 summary: Dwarf Fortress' creator says the industry's in shambles over AI
 first_seen: '2026-09-01T15:53:42Z'
 last_seen: '2026-09-03T00:16:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

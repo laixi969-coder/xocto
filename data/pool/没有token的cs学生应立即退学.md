@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/483839.html
 summary: 禁止古法编程、Token自费
 first_seen: '2026-09-03T11:32:08Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,37 @@
+- id: req-initial-澎湃新闻生成式人工智能产品再上新星映ai短剧创作平台完成服务登记-2-2026-09-03
+  project_slug: 澎湃新闻生成式人工智能产品再上新星映ai短剧创作平台完成服务登记-2
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决短剧制作周期长、成本高的痛点，但具体流程和交付未核验，需求强度不明。
+    evidence_ids:
+    - ev-b81b17fccbde055c
+  - gate: consensus
+    status: insufficient
+    reason: 仅完成服务登记，无用户采用或关注数据，共识未建立。
+    evidence_ids:
+    - ev-b81b17fccbde055c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 查找星映AI短剧创作平台的官方产品页或使用案例，确认其具体工作流和交付物。
+  market: ''
+  job: 短剧创作者需要快速将创意转化为可发布的短剧内容。
+  job_en: Short drama creators need to quickly turn ideas into publishable short drama content.
+  pain: 传统短剧制作周期长、成本高，创作者难以快速试错。
+  pain_en: Traditional short drama production is slow and costly, making rapid iteration difficult.
+  current_alternative: 目前创作者可能依赖传统拍摄团队或人工编剧，成本高。
+  current_alternative_en: Currently creators may rely on traditional filming crews or human writers, which
+    is expensive.
+  usage_reason: AI生成可降低制作门槛，但需求强度取决于内容质量和平台分发能力。
+  usage_reason_en: AI generation may lower production barriers, but demand strength depends on content
+    quality and distribution.

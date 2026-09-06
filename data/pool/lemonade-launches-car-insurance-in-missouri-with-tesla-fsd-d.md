@@ -1,11 +1,13 @@
 ---
 slug: lemonade-launches-car-insurance-in-missouri-with-tesla-fsd-d
-name: Lemonade Launches Car Insurance in Missouri With Tesla FSD Discount
+name: Lemonade
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Lemonade 是一家保险科技公司，此次在密苏里州推出车险，并对特斯拉 FSD 用户提供折扣。这反映了保险公司开始将自动驾驶技术纳入定价模型，是行业采用信号，而非独立的新产品。
 inspiration: ''
-summary_en: ''
+summary_en: Lemonade is an insurtech company. This event marks its car insurance launch in Missouri with
+  a discount for Tesla FSD users, reflecting insurers incorporating autonomous driving tech into pricing—an
+  industry adoption signal, not a standalone new product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPdC1mc0JqOW5q
 summary: Lemonade Launches Car Insurance in Missouri With Tesla FSD Discount Unite.AI
 first_seen: '2026-09-02T18:33:01Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Lemonade Launches Car Insurance in Missouri With Tesla FSD Discount
+# Lemonade
 
 Lemonade Launches Car Insurance in Missouri With Tesla FSD Discount Unite.AI
 

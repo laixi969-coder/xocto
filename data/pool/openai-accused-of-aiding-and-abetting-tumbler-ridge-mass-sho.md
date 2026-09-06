@@ -24,7 +24,7 @@ summary: OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse th
   by the students, teachers, and principal in […]
 first_seen: '2026-09-02T14:35:03Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

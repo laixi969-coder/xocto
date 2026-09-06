@@ -1,0 +1,39 @@
+- id: req-initial-blumecodes-2026-09-03
+  project_slug: blumecodes
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编程智能体在多会话中无法沉淀项目经验、重复犯错导致工程师反复纠偏的痛点。
+    evidence_ids:
+    - ev-47f655d5d740011d
+  - gate: consensus
+    status: insufficient
+    reason: 规则自动化提炼作为新兴范式，目前在主流工程团队中的日常渗透率与留存仍待观察。
+    evidence_ids:
+    - ev-47f655d5d740011d
+  - gate: model
+    status: insufficient
+    reason: 尚未披露面向个人开发者或团队协作维度的具体收费模式与商业化定价方案。
+    evidence_ids:
+    - ev-47f655d5d740011d
+  - gate: truth
+    status: supported
+    reason: 从会话日志提炼规则并输出可执行配置文件，具备清晰的交付物形态与人工审核闭环。
+    evidence_ids:
+    - ev-47f655d5d740011d
+  next_validation: 核验官方对主流编辑器 Agent 规则格式的兼容能力及实际开发团队的使用复购数据
+  market: ''
+  job: 将编程 Agent 的调试会话经验提炼为持久化的项目规则与技能库
+  job_en: Distill coding agent session learnings into persistent repository rules and skills
+  pain: 工程师需要反复在提示词中纠正 AI 编码习惯，会话间经验无法沉淀导致错误反复出现
+  pain_en: Engineers repeatedly correct coding agents across sessions because debugging context is lost
+    once the session ends
+  current_alternative: 工程师手工编写维护 .cursorrules 或 CLAUDE.md 等静态规则文件
+  current_alternative_en: Manually authoring and updating .cursorrules or CLAUDE.md configuration files
+  usage_reason: 自动化将高频纠偏和成功修复提炼为结构化技能，降低团队维护 Prompt 规则的认知负担
+  usage_reason_en: Automates the distillation of corrections into structured skills, reducing the friction
+    of maintaining agent rules

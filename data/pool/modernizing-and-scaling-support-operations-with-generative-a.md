@@ -23,7 +23,7 @@ summary: Learn how to build a generative AI-based support operations platform on
   uses machine learning to predict SLA risk and prioritize work.
 first_seen: '2026-09-02T18:26:35Z'
 last_seen: '2026-09-03T00:16:47Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

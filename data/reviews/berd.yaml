@@ -34,3 +34,37 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：古怪有趣的桌面应用，用于与 AI 代理一起构建；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Weird, playful desktop app for building
     with AI agents The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-berd-2026-09-03
+  project_slug: berd
+  level: initial
+  reviewed_at: '2026-09-03T00:16:47Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决个人趣味性智能体玩法的需求，但缺乏不可替代的高频刚性业务价值。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立
+    evidence_ids: []
+  next_validation: 核验该桌面工具是否推出明确的垂直场景插件生态或商业付费功能
+  market: ''
+  job: 在桌面端快速体验和玩转多智能体交互实验
+  job_en: Experiment with and build playful multi-agent interactions on desktop
+  pain: 传统智能体框架面向企业或开发者，上手配置繁琐且缺少趣味性交互
+  pain_en: Traditional agent frameworks are developer-heavy and lack accessible, playful interfaces
+  current_alternative: 使用开源 CLI 框架或桌面端通用聊天客户端
+  current_alternative_en: Using open-source CLI frameworks or generic desktop chat clients
+  usage_reason: 通过轻量趣味化的桌面封装吸引 AI 爱好者快速体验智能体编排
+  usage_reason_en: Attracts AI hobbyists by packaging agent orchestration into a lightweight and playful
+    desktop interface

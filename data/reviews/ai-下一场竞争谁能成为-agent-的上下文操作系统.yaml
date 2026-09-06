@@ -1,0 +1,42 @@
+- id: req-initial-ai-下一场竞争谁能成为-agent-的上下文操作系统-2026-09-03
+  project_slug: ai-下一场竞争谁能成为-agent-的上下文操作系统
+  level: initial
+  reviewed_at: '2026-09-03T14:36:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决专业用户在多个工具间切换、整合信息的痛点，痛点刚性且交付可确定，价值结构成立。
+    evidence_ids:
+    - ev-886dcff248d84e62
+  - gate: consensus
+    status: insufficient
+    reason: 生态合作名单显示行业认可，但缺乏用户采用或持续使用的公开证据。
+    evidence_ids:
+    - ev-886dcff248d84e62
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业或专业用户，但尚未核验。
+    evidence_ids:
+    - ev-886dcff248d84e62
+  - gate: truth
+    status: supported
+    reason: 产品贴近专业工作的第一性目标，承诺通过整合工具提供可执行任务链，交付可确定。
+    evidence_ids:
+    - ev-886dcff248d84e62
+  next_validation: 查找 WorkBuddy 官方定价页或客户案例，以核验付费模式与实际采用情况。
+  market: ''
+  job: 在金融、法律等专业领域，用户需要在多个软件和硬件之间切换，收集信息并执行任务，例如证券分析师要同时查看行情、研报和合规要求。
+  job_en: In professional fields like finance and law, users need to switch between multiple software
+    and hardware to gather information and execute tasks, e.g., securities analysts must simultaneously
+    check market data, research reports, and compliance requirements.
+  pain: 信息分散在不同工具中，手动切换耗时且容易遗漏，影响决策效率。
+  pain_en: Information is scattered across different tools; manual switching is time-consuming and prone
+    to omissions, affecting decision efficiency.
+  current_alternative: 目前用户通常手动打开多个软件和硬件，自行整合信息，缺乏统一入口。
+  current_alternative_en: Currently, users typically open multiple software and hardware manually, integrating
+    information themselves without a unified entry point.
+  usage_reason: WorkBuddy 提供统一入口，能调用专业软件和硬件，减少切换成本，因此专业人士可能采用它来提升工作效率。
+  usage_reason_en: WorkBuddy offers a unified entry point that can invoke professional software and hardware,
+    reducing switching costs, so professionals may adopt it to improve work efficiency.

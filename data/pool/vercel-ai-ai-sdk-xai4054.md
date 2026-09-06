@@ -1,11 +1,12 @@
 ---
 slug: vercel-ai-ai-sdk-xai4054
-name: 'vercel/ai: @ai-sdk/xai@4.0.54'
+name: Vercel AI SDK
 builder: vercel
 category: ''
-summary_zh: ''
+summary_zh: Vercel AI SDK 是一个用于构建 AI 应用的开发工具包，本次更新为开发者提供了批量文件上传的接口选项。
 inspiration: ''
-summary_en: ''
+summary_en: Vercel AI SDK is a development toolkit for building AI applications; this update provides
+  developers with batch file upload interface options.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -26,7 +27,7 @@ summary: '### Patch Changes
   batch input file upload'
 first_seen: '2026-09-02T20:28:52Z'
 last_seen: '2026-09-03T00:16:29Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -38,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/xai@4.0.54
+# Vercel AI SDK
 
 ### Patch Changes
 

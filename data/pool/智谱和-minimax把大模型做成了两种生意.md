@@ -1,11 +1,14 @@
 ---
 slug: 智谱和-minimax把大模型做成了两种生意
-name: 智谱和 MiniMax，把大模型做成了两种生意
+name: 中国大模型商业化与中报业绩分化
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 中国头部大模型公司公布上市后首份中报，智谱与MiniMax展现出不同商业化路径：智谱主攻API云端调用与复杂工作流端到端任务，MiniMax侧重压低单位智能成本、拓展全球化及原生多模态应用。
 inspiration: ''
-summary_en: ''
+summary_en: 'Leading Chinese foundation model companies released their first post-IPO interim financial
+  reports, highlighting divergent commercialization paths: Zhipu focuses on cloud API consumption and
+  enterprise agent workflows, while MiniMax prioritizes driving down unit intelligence costs across global
+  and multimodal markets.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -64,7 +67,7 @@ summary: "头图来源：视觉中国 \n 两家中国大模型公司，在五天
   \ AI 推向更深的工作，一家公司把 AI 送往更广的市场。等到模型既能把事情办完，又便宜到可以被大规模使用，大模型才真正走过商业化最难的那道门槛。"
 first_seen: '2026-09-03T05:54:42Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -75,7 +78,7 @@ sightings:
   kind: news
 ---
 
-# 智谱和 MiniMax，把大模型做成了两种生意
+# 中国大模型商业化与中报业绩分化
 
 头图来源：视觉中国 
  两家中国大模型公司，在五天里先后交出了上市后的首份中报。 

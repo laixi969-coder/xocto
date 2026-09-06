@@ -1,0 +1,37 @@
+- id: req-initial-causal-2026-09-03
+  project_slug: causal
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助规划视觉项目，但痛点强度和替代行为不明确。
+    evidence_ids:
+    - ev-0f4e3cb3fffb9dab
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户反馈或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未提及。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 官方定价页或客户案例
+  market: ''
+  job: 项目经理或产品经理需要创建和调整项目计划的可视化呈现。
+  job_en: Project or product managers need to create and adjust visual representations of project plans.
+  pain: 传统工具如电子表格或静态图表难以快速更新和沟通复杂计划。
+  pain_en: Traditional tools like spreadsheets or static charts are hard to update quickly and communicate
+    complex plans.
+  current_alternative: 使用通用白板工具（如 Miro）、甘特图软件或手动绘图。
+  current_alternative_en: Using general whiteboard tools (e.g., Miro), Gantt chart software, or manual
+    drawing.
+  usage_reason: AI 辅助可能减少手动整理和格式调整的时间，但具体价值未证实。
+  usage_reason_en: AI assistance may reduce time on manual organization and formatting, but specific value
+    is unverified.

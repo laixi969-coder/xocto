@@ -1,0 +1,38 @@
+- id: req-initial-seektty-2026-09-03
+  project_slug: seektty
+  level: initial
+  reviewed_at: '2026-09-03T14:36:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决界面美观问题，但未改变核心开发流程，需求刚性不足。
+    evidence_ids:
+    - ev-a8e42205827d3620
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区已有约 154 个星标，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-a8e42205827d3620
+  - gate: model
+    status: insufficient
+    reason: 开源项目无直接商业模式，付费路径不明。
+    evidence_ids:
+    - ev-a8e42205827d3620
+  - gate: truth
+    status: insufficient
+    reason: 未贴近开发第一性目标，仅改善界面。
+    evidence_ids:
+    - ev-a8e42205827d3620
+  next_validation: 查看该开源项目的公开 issue 与社区讨论，了解用户反馈。
+  market: ''
+  job: 开发者需要在终端中与 AI 编程助手交互，管理代码生成任务。
+  job_en: Developers need to interact with AI coding assistants in the terminal to manage code generation
+    tasks.
+  pain: 现有终端界面可能不够直观，影响操作效率。
+  pain_en: Existing terminal interfaces may not be intuitive, affecting efficiency.
+  current_alternative: 目前使用 DeepSeek Harness 自带的界面或其他终端工具。
+  current_alternative_en: Currently using DeepSeek Harness's built-in interface or other terminal tools.
+  usage_reason: 开发者可能因界面美观或功能偏好而尝试，但需求刚性不足。
+  usage_reason_en: Developers may try it for aesthetics or features, but demand rigidity is insufficient.

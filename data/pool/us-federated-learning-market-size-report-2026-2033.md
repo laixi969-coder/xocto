@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOaDNQOTVTdnpf
 summary: U.S. Federated Learning Market Size Report, 2026-2033 Grand View Research
 first_seen: '2026-08-31T09:58:38Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

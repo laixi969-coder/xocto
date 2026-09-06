@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/grpo-with-trl-ifstruct
 summary: ''
 first_seen: '2026-09-03T00:00:00Z'
 last_seen: '2026-09-03T14:36:50Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

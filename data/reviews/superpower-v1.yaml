@@ -1,0 +1,39 @@
+- id: req-initial-superpower-v1-2026-09-03
+  project_slug: superpower-v1
+  level: initial
+  reviewed_at: '2026-09-03T14:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：开发者需要浏览器中的代理式工作流，但项目描述过于笼统，未说明具体输入、动作和交付，价值判断证据不足。
+    evidence_ids:
+    - ev-264814b5770aac9f
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。仅有 46 个 star，无社区讨论或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。开源项目，无商业模式披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核验其是否贴近第一性目标或交付确定性。
+    evidence_ids: []
+  next_validation: 项目 README 或文档中的具体功能说明
+  market: ''
+  job: 开发者希望在浏览器中实现代理式 AI 工作流，让 AI 能操作网页完成复杂任务。
+  job_en: Developers want to implement agentic AI workflows in the browser, enabling AI to operate web
+    pages to complete complex tasks.
+  pain: 现有 MCP 工具多用于后端或 IDE，浏览器中的集成不成熟，开发者难以构建实用的代理式应用。
+  pain_en: Existing MCP tools are mostly used in backend or IDE, with immature browser integration, making
+    it difficult for developers to build practical agentic applications.
+  current_alternative: 开发者可能使用 Puppeteer 等自动化工具或编写自定义脚本，但这些方法需要大量编码且不灵活。
+  current_alternative_en: Developers may use automation tools like Puppeteer or write custom scripts,
+    which require significant coding and are inflexible.
+  usage_reason: 如果 Superpower-V1 能简化浏览器中的 MCP 集成，开发者可能因其开源和实用性而尝试，但公开信息不足，需求强度未明。
+  usage_reason_en: If Superpower-V1 can simplify MCP integration in the browser, developers might try
+    it for its open-source nature and practicality, but public information is insufficient to determine
+    demand strength.

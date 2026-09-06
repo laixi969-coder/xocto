@@ -1,0 +1,40 @@
+- id: req-initial-dsh-agent-team-gui-2026-09-03
+  project_slug: dsh-agent-team-gui
+  level: initial
+  reviewed_at: '2026-09-03T14:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者编排多智能体工作流时缺乏可视化管理和监控的痛点，价值结构成立。
+    evidence_ids:
+    - ev-e275d19bb1975dac
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 165 星，但缺乏持续采用或社区讨论证据，共识尚未形成。
+    evidence_ids:
+    - ev-e275d19bb1975dac
+  - gate: model
+    status: insufficient
+    reason: 未明确商业模式，可能面向开发者收费或开源支持，但无公开定价。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 作为开源工具，承诺可交付，但需验证实际工作流效果和用户价值。
+    evidence_ids:
+    - ev-e275d19bb1975dac
+  next_validation: 查看 公开代码仓库 仓库的 issue 和 discussion，了解用户反馈和使用案例。
+  market: ''
+  job: 开发者需要编排多个 AI 智能体协作完成复杂任务，并监控执行过程。
+  job_en: Developers need to orchestrate multiple AI agents to collaborate on complex tasks and monitor
+    execution.
+  pain: 手动管理多个智能体工作流繁琐易错，缺乏可视化监控和成本控制。
+  pain_en: Manually managing multi-agent workflows is tedious and error-prone, lacking visual monitoring
+    and cost control.
+  current_alternative: 目前开发者可能使用命令行工具或自行编写脚本管理智能体，缺乏统一界面。
+  current_alternative_en: Developers currently may use command-line tools or custom scripts to manage
+    agents, lacking a unified interface.
+  usage_reason: 该工具提供图形化界面和持久化工作流，可能吸引开发者尝试，但需验证实际采用。
+  usage_reason_en: The tool offers a GUI and persistent workflows, potentially attracting developers,
+    but actual adoption needs verification.

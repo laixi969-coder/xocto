@@ -1,0 +1,41 @@
+- id: req-initial-nex-2026-09-03
+  project_slug: nex
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售团队高量重复外联和跟进的痛点，旧流程依赖人工，AI 可自动化部分步骤，价值结构成立。
+    evidence_ids:
+    - ev-7710b395417c23c2
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未显示用户采用或反馈，共识证据不足。
+    evidence_ids:
+    - ev-7710b395417c23c2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是销售团队或公司，但付费路径未验证。
+    evidence_ids:
+    - ev-7710b395417c23c2
+  - gate: truth
+    status: insufficient
+    reason: 产品描述模糊，具体交付和效果需进一步核验。
+    evidence_ids:
+    - ev-7710b395417c23c2
+  next_validation: 查找 Nex 的官方定价页或客户案例，确认付费模式和实际使用效果。
+  market: ''
+  job: 销售和市场团队需要处理大量重复的潜在客户跟进和外联任务，以维持 pipeline 增长。
+  job_en: Sales and marketing teams need to handle high volumes of repetitive lead follow-up and outreach
+    tasks to sustain pipeline growth.
+  pain: 手动执行这些任务耗时且容易遗漏，影响效率和转化率。
+  pain_en: Manual execution is time-consuming and prone to omissions, affecting efficiency and conversion
+    rates.
+  current_alternative: 目前团队可能使用 CRM 自动化规则、邮件模板或外包，但仍有大量人工操作。
+  current_alternative_en: Teams currently may use CRM automation rules, email templates, or outsourcing,
+    but significant manual work remains.
+  usage_reason: AI 能处理重复性工作，让团队专注于高价值互动，因此有采用动机。
+  usage_reason_en: AI can handle repetitive tasks, allowing teams to focus on high-value interactions,
+    driving adoption.

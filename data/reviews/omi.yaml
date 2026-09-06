@@ -1,0 +1,40 @@
+- id: req-initial-omi-2026-09-03
+  project_slug: omi
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决信息记录和检索的痛点，旧流程依赖手动笔记或录音，AI 提供无感记录和查询，价值结构成立。
+    evidence_ids:
+    - ev-6e3fe4bf49160f3d
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未显示用户采用或反馈，共识证据不足。
+    evidence_ids:
+    - ev-6e3fe4bf49160f3d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能面向消费者，但付费路径未验证。
+    evidence_ids:
+    - ev-6e3fe4bf49160f3d
+  - gate: truth
+    status: insufficient
+    reason: 产品描述模糊，具体功能和隐私处理需进一步核验。
+    evidence_ids:
+    - ev-6e3fe4bf49160f3d
+  next_validation: 查找 Omi 的官方文档或定价页，确认功能细节和隐私政策。
+  market: ''
+  job: 用户需要记录和回顾日常看到或听到的信息，例如会议内容、对话细节。
+  job_en: Users need to record and recall information they see or hear daily, such as meeting content
+    and conversation details.
+  pain: 人脑记忆有限，手动记录繁琐且容易遗漏。
+  pain_en: Human memory is limited, and manual note-taking is tedious and prone to omissions.
+  current_alternative: 目前可能使用手机录音、笔记应用或依赖记忆，但不够便捷或全面。
+  current_alternative_en: Currently, they may use phone recordings, note apps, or rely on memory, which
+    are less convenient or comprehensive.
+  usage_reason: 佩戴设备可无感记录，提供随时查询的便利，吸引追求效率的用户。
+  usage_reason_en: Wearing a device enables seamless recording and on-demand querying, attracting efficiency-seeking
+    users.

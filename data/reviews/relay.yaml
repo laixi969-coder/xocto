@@ -1,0 +1,39 @@
+- id: req-initial-relay-2026-09-03
+  project_slug: relay
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单处理中人工录入耗时易错的问题，痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-161e2dd84f8fb78c
+  - gate: consensus
+    status: insufficient
+    reason: 公开信息有限，缺乏用户采用证据，但订单自动化场景明确。
+    evidence_ids:
+    - ev-161e2dd84f8fb78c
+  - gate: model
+    status: insufficient
+    reason: 买方可能是制造企业，但定价和付费模式未披露。
+    evidence_ids:
+    - ev-161e2dd84f8fb78c
+  - gate: truth
+    status: supported
+    reason: 订单自动化贴近业务第一性目标，AI 可确定性交付。
+    evidence_ids:
+    - ev-161e2dd84f8fb78c
+  next_validation: 查找 Conexiom Relay 的官方定价页或客户案例。
+  market: ''
+  job: 订单处理员需要将采购订单等文档数据录入系统并生成销售订单。
+  job_en: Order processors need to enter data from documents like purchase orders into systems and generate
+    sales orders.
+  pain: 人工录入耗时且易出错，订单量大时处理速度慢。
+  pain_en: Manual entry is time-consuming and error-prone; processing speed is slow with high order volumes.
+  current_alternative: 目前依赖人工录入或传统 EDI 系统。
+  current_alternative_en: Currently relies on manual entry or traditional EDI systems.
+  usage_reason: AI 自动化可减少人工错误，加快订单处理速度，尤其适合订单量大的企业。
+  usage_reason_en: AI automation reduces human errors and speeds up order processing, especially for high-volume
+    businesses.

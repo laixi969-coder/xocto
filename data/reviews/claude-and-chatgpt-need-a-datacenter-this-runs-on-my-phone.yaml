@@ -1,0 +1,35 @@
+- id: req-initial-claude-and-chatgpt-need-a-datacenter-this-runs-on-my-phone-2026-09-03
+  project_slug: claude-and-chatgpt-need-a-datacenter-this-runs-on-my-phone
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：离线或隐私场景下的 AI 使用，但痛点强度和替代行为不明确。
+    evidence_ids:
+    - ev-d5d04bdad6dc9815
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户反馈或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未提及。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 官方文档或可复现实测
+  market: ''
+  job: 用户需要在无网络或隐私受限环境下使用 AI 功能。
+  job_en: Users need AI capabilities in offline or privacy-constrained environments.
+  pain: 云端 AI 依赖网络，存在延迟和隐私泄露风险。
+  pain_en: Cloud AI relies on network, causing latency and privacy risks.
+  current_alternative: 使用云端 AI 应用或本地小模型。
+  current_alternative_en: Using cloud AI apps or local small models.
+  usage_reason: 端侧运行可能提供离线可用和隐私优势，但模型能力是否满足需求未知。
+  usage_reason_en: On-device running may offer offline availability and privacy benefits, but whether
+    model capabilities meet needs is unknown.

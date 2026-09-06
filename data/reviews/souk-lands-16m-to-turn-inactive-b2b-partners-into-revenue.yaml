@@ -1,0 +1,41 @@
+- id: req-initial-souk-lands-16m-to-turn-inactive-b2b-partners-into-revenue-2026-09-03
+  project_slug: souk-lands-16m-to-turn-inactive-b2b-partners-into-revenue
+  level: initial
+  reviewed_at: '2026-09-03T14:36:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合作伙伴激活的痛点，有明确的旧流程和收益，价值结构成立。
+    evidence_ids:
+    - ev-297becc65decc3e6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资新闻，缺乏用户反馈或采用数据。
+    evidence_ids:
+    - ev-297becc65decc3e6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，但 B2B 软件通常按订阅收费，需进一步核验。
+    evidence_ids:
+    - ev-297becc65decc3e6
+  - gate: truth
+    status: insufficient
+    reason: 产品尚未发布，AI 功能和交付确定性未验证。
+    evidence_ids:
+    - ev-297becc65decc3e6
+  next_validation: 关注 Souk 的产品发布和定价信息，以及是否有早期客户案例。
+  market: ''
+  job: 合作伙伴经理需要识别不活跃的 B2B 合作伙伴并采取措施激活他们，以增加收入。
+  job_en: Partner managers need to identify inactive B2B partners and take actions to activate them to
+    increase revenue.
+  pain: 手动监控合作伙伴活动耗时且容易遗漏，导致沉睡伙伴未被及时激活。
+  pain_en: Manually monitoring partner activity is time-consuming and prone to oversight, leaving dormant
+    partners unactivated.
+  current_alternative: 目前他们可能使用 CRM 或电子表格手动追踪，或依赖定期沟通。
+  current_alternative_en: Currently they may use CRM or spreadsheets for manual tracking, or rely on periodic
+    communication.
+  usage_reason: 融资和明确的痛点表明需求存在，但产品尚未发布，需验证实际采用。
+  usage_reason_en: Funding and clear pain point suggest demand exists, but product is not yet launched;
+    actual adoption needs verification.

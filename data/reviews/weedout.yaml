@@ -1,0 +1,37 @@
+- id: req-initial-weedout-2026-09-03
+  project_slug: weedout
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：用户想避免 AI 生成视频，但痛点强度未明。
+    evidence_ids:
+    - ev-3378f7af8cf3db90
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-3378f7af8cf3db90
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方页面或扩展商店的用户评价与下载量。
+  market: ''
+  job: 用户想避免观看 AI 生成的视频，以节省时间或保持内容质量。
+  job_en: Users want to avoid watching AI-generated videos to save time or maintain content quality.
+  pain: YouTube 上 AI 生成内容泛滥，用户难以区分，可能浪费观看时间。
+  pain_en: AI-generated content is prevalent on YouTube, making it hard for users to distinguish, potentially
+    wasting viewing time.
+  current_alternative: 用户可能手动查看频道或依赖平台标签，但效率低。
+  current_alternative_en: Users may manually check channels or rely on platform labels, which is inefficient.
+  usage_reason: 该扩展提供一键过滤，但需求刚性取决于用户对 AI 内容的厌恶程度。
+  usage_reason_en: The extension offers one-click filtering, but demand rigidity depends on users' aversion
+    to AI content.

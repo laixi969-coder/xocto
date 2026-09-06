@@ -1,0 +1,37 @@
+- id: req-initial-higgsfield-genjutsu-2026-09-03
+  project_slug: higgsfield-genjutsu
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：可能减少重拍成本，但具体用户任务和旧流程未明确。
+    evidence_ids:
+    - ev-0e3fb0dc45d04a6b
+  - gate: consensus
+    status: insufficient
+    reason: 无公开采用或社区讨论证据。
+    evidence_ids:
+    - ev-0e3fb0dc45d04a6b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式无从谈起。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法进行。
+    evidence_ids: []
+  next_validation: 查找官方定价页或客户案例，确认实际应用和付费情况。
+  market: ''
+  job: 创作者想用现有角色或产品素材生成新的动作视频，避免重新拍摄。
+  job_en: Creators want to generate new action videos using existing character or product footage, avoiding
+    reshoots.
+  pain: 传统重拍成本高、周期长；AI 动作迁移可能提供快速替代。
+  pain_en: Traditional reshoots are costly and time-consuming; AI motion transfer may offer a quick alternative.
+  current_alternative: 目前可能依赖实拍或传统特效，耗时且昂贵。
+  current_alternative_en: Currently may rely on live-action or traditional VFX, which is time-consuming
+    and expensive.
+  usage_reason: 产品页面展示功能，但缺乏用户采用或付费证据。
+  usage_reason_en: The product page shows features, but lacks user adoption or payment evidence.

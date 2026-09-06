@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/483351.html
 summary: 遥操，可能真的危险了
 first_seen: '2026-09-03T00:51:16Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

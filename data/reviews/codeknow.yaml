@@ -1,0 +1,34 @@
+- id: req-initial-codeknow-2026-09-03
+  project_slug: codeknow
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：量化架构健康，但痛点强度和替代行为不明确。
+    evidence_ids:
+    - ev-297a90961e0c0950
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户反馈或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未提及。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 官方文档或用户讨论
+  market: ''
+  job: 开发者或架构师需要评估代码库的架构健康状况。
+  job_en: Developers or architects need to assess the architectural health of a codebase.
+  pain: 人工架构审查耗时且主观，缺乏量化指标。
+  pain_en: Manual architecture review is time-consuming and subjective, lacking quantitative metrics.
+  current_alternative: 依赖人工代码审查或静态分析工具。
+  current_alternative_en: Relying on manual code review or static analysis tools.
+  usage_reason: 自动化评分可能提供客观基准，但需求强度未证实。
+  usage_reason_en: Automated scoring may provide objective benchmarks, but demand intensity is unverified.

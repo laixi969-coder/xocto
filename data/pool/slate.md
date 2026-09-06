@@ -3,19 +3,16 @@ slug: slate
 name: slate
 builder: wassermanproductions
 category: AI + 创作
-summary_zh: 导演或分镜师在筹备 AI 影视项目时，把剧本或场景描述输入 slate，它帮助规划镜头、指导拍摄覆盖、保持连续性，并编译成可直接用于图像、视频、音乐或语音生成器的生产级提示词。无需
-  API 密钥，交付的是成套提示词，人工仍需确认最终创意。
-inspiration: 趋势是 AI 影视制作从单点生成走向工业化流程管理。切入点是做导演和分镜师的专业工具，而非通用提示词平台；可围绕镜头规划、连续性检查等环节提供付费模板或团队协作功能。
-summary_en: Directors or storyboard artists preparing an AI film project input scripts or scene descriptions
-  into slate, which helps plan shots, direct coverage, maintain continuity, and compile production-ready
-  prompts for any image, video, music, or voice generator. No API keys required; the deliverable is a
-  set of prompts, with final creative decisions still made by humans.
-inspiration_en: The trend is AI filmmaking moving from single-point generation to industrialized workflow
-  management. The entry point is building professional tools for directors and storyboard artists, not
-  a generic prompt platform; paid templates or team collaboration features around shot planning and continuity
-  checks could be viable.
+summary_zh: slate 是一个面向 AI 电影制作的开源提示词工作台。导演或分镜师在规划镜头、指导拍摄、保持连续性时，用它来整理镜头计划、生成连贯的提示词，并可直接用于图像、视频、音乐或语音生成器。具体流程和交付仍待核验。
+inspiration: AI 视频生成正从单镜头走向完整叙事，slate 切入的是制作流程中的规划与连续性管理环节。可考虑从专业影视团队的分镜与场记工作流切入，提供更结构化的项目管理功能。
+summary_en: slate is an open-source prompt studio for AI filmmaking. Directors or storyboard artists use
+  it to plan shots, direct coverage, maintain continuity, and compile production-ready prompts for image,
+  video, music, or voice generators. Specific workflow and deliverables remain to be verified.
+inspiration_en: AI video generation is moving from single shots to full narratives. slate targets the
+  planning and continuity management stage. Consider entering through professional storyboarding and continuity
+  workflows, offering more structured project management features.
 priority_review: false
-project_type: open_source
+project_type: new_application
 industries:
 - 影视制作
 industries_en:
@@ -36,7 +33,7 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - marketfeeds

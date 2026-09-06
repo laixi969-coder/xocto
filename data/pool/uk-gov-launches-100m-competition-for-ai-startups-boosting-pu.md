@@ -1,12 +1,12 @@
 ---
 slug: uk-gov-launches-100m-competition-for-ai-startups-boosting-pu
-name: UK Government
+name: UK AI Public Services Fund
 builder: ''
 category: ''
-summary_zh: 英国政府启动 1 亿英镑竞赛，支持 AI 初创企业提升公共服务，反映政府推动 AI 应用的政策趋势。
+summary_zh: 英国政府启动 1 亿英镑竞争性基金，鼓励 AI 初创企业赋能公共服务。
 inspiration: ''
-summary_en: UK government launches £100M competition for AI startups to boost public services, reflecting
-  policy push for AI adoption.
+summary_en: The UK government launched a 100 million pound competition to encourage AI startups to transform
+  public services.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOeDVZWU50SWJK
 summary: UK Gov Launches £100M Competition for AI Startups Boosting Public Services digit.fyi
 first_seen: '2026-08-31T11:16:51Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds
@@ -39,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# UK Government
+# UK AI Public Services Fund
 
 UK Gov Launches £100M Competition for AI Startups Boosting Public Services digit.fyi
 

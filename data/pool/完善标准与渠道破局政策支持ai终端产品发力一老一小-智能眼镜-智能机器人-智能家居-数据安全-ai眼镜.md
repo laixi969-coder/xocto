@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE55TVZtdXNCZ3dX
 summary: 完善标准与渠道破局政策支持AI终端产品发力“一老一小”|智能眼镜|智能机器人|智能家居|数据安全|AI眼镜 新浪财经
 first_seen: '2026-09-01T18:29:09Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

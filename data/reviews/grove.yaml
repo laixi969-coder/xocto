@@ -1,0 +1,39 @@
+- id: req-initial-grove-2026-09-03
+  project_slug: grove
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：开发者希望减少终端与 AI 工具间的切换。但产品描述过于简略，具体工作流和交付不明确，价值判断证据不足。
+    evidence_ids:
+    - ev-cbe98ba6b6767856
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，仅有产品发布信息，无法判断共识。
+    evidence_ids:
+    - ev-cbe98ba6b6767856
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或演示视频，展示实际使用流程和交付结果。
+  market: ''
+  job: 开发者需要在终端中执行命令、管理代码和运行脚本，同时希望 AI agent 能协助完成这些任务。
+  job_en: Developers need to execute commands, manage code, and run scripts in the terminal, while wanting
+    AI agents to assist with these tasks.
+  pain: 当前开发者通常在终端手动操作，AI 助手在另一个界面，切换上下文成本高，协作不流畅。
+  pain_en: Currently developers operate manually in the terminal, while AI assistants are in a separate
+    interface, causing high context-switching costs and inefficient collaboration.
+  current_alternative: 开发者可能使用传统终端配合外部 AI 聊天工具，或使用 IDE 内置终端及 AI 插件。
+  current_alternative_en: Developers may use traditional terminals with external AI chat tools, or use
+    IDE-integrated terminals and AI plugins.
+  usage_reason: 如果 Grove 能无缝集成 AI 到终端工作流，减少切换，可能吸引开发者尝试，但需求强度未明。
+  usage_reason_en: If Grove can seamlessly integrate AI into terminal workflows and reduce switching,
+    it may attract developers to try, but demand intensity is unclear.

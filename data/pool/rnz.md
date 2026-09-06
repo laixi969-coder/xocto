@@ -21,7 +21,7 @@ canonical_url: https://rnz.co.nz/news/regions/1229348/mayor-says-large-chunks-of
 summary: Mayor says 'large chunks' of Wellington council Deloitte report written by AI
 first_seen: '2026-09-02T07:50:46Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

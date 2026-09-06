@@ -1,0 +1,41 @@
+- id: req-initial-synup-launches-sydekick-ai-shifts-local-marketing-from-softw-2026-09-03
+  project_slug: synup-launches-sydekick-ai-shifts-local-marketing-from-softw
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地营销多渠道管理的痛点，有明确旧流程和收益，价值成立。
+    evidence_ids:
+    - ev-1da4517b1d13ab97
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布新闻，缺乏用户评价或采用数据。
+    evidence_ids:
+    - ev-1da4517b1d13ab97
+  - gate: model
+    status: insufficient
+    reason: 定价和付费模式未披露，需进一步核验。
+    evidence_ids:
+    - ev-1da4517b1d13ab97
+  - gate: truth
+    status: insufficient
+    reason: 自主执行的具体能力和交付确定性未验证。
+    evidence_ids:
+    - ev-1da4517b1d13ab97
+  next_validation: 查找 Sydekick AI 的官方产品页面和定价，以及是否有客户案例。
+  market: ''
+  job: 本地营销人员和小企业主需要管理多个本地营销渠道（如 Google 商家、社交媒体），并保持内容更新。
+  job_en: Local marketers and small business owners need to manage multiple local marketing channels (like
+    Google Business, social media) and keep content updated.
+  pain: 手动更新各渠道耗时且容易不一致，导致本地曝光不足。
+  pain_en: Manually updating each channel is time-consuming and inconsistent, leading to insufficient
+    local visibility.
+  current_alternative: 目前他们可能使用 Synup 等工具管理列表，或外包给代理，或手动操作。
+  current_alternative_en: Currently they may use tools like Synup to manage listings, outsource to agencies,
+    or do it manually.
+  usage_reason: Synup 已有客户基础，推出自主执行可能吸引希望减少人工的商家，但需验证采用。
+  usage_reason_en: Synup has an existing customer base; offering autonomous execution may attract businesses
+    wanting to reduce manual work, but adoption needs verification.

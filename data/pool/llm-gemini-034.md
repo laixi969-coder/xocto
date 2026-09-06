@@ -1,11 +1,12 @@
 ---
 slug: llm-gemini-034
-name: llm-gemini 0.34
+name: Gemini 3.8 Flash
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google发布Gemini 3.8 Flash模型，提供多档思考级别并主打快速、低成本的代码生成与通用能力，同时向特定群体推出3.8 Flash Cyber版本。
 inspiration: ''
-summary_en: ''
+summary_en: Google released the Gemini 3.8 Flash model featuring multiple thinking levels for fast, low-cost
+  code generation and general tasks, alongside a 3.8 Flash Cyber edition for select users.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -35,7 +36,7 @@ summary: "Release:   llm-gemini 0.34  \n         \n \n New model  gemini-3.8-fla
   \   Tags:  ai ,  generative-ai ,  llms ,  llm ,  gemini ,  pelican-riding-a-bicycle ,  llm-release"
 first_seen: '2026-09-02T16:39:38Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -46,7 +47,7 @@ sightings:
   kind: news
 ---
 
-# llm-gemini 0.34
+# Gemini 3.8 Flash
 
 Release:   llm-gemini 0.34  
          

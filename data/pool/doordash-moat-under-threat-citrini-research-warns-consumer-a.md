@@ -23,7 +23,7 @@ summary: DoorDash Moat Under Threat? Citrini Research Warns Consumer AI Agents C
   Altogether Stocktwits
 first_seen: '2026-08-31T22:22:26Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

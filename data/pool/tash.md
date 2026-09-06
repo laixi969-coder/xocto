@@ -31,7 +31,7 @@ canonical_url: https://producthunt.com/products/tash
 summary: The investment platform for trading cards
 first_seen: '2026-08-09T23:04:38Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

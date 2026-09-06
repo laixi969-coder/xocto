@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/thaw-2
 summary: The only app that owns your whole menu bar, in and out
 first_seen: '2026-09-02T21:02:22Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

@@ -23,7 +23,7 @@ summary: 'AI transforming insurance through faster processing, customer service 
   President The Tribune'
 first_seen: '2026-08-31T13:18:05Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

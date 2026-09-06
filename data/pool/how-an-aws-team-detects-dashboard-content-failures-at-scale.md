@@ -24,7 +24,7 @@ summary: Business intelligence dashboards can fail silently, showing blank, stal
   mean time to detection from days to under an hour.
 first_seen: '2026-09-02T18:21:20Z'
 last_seen: '2026-09-03T00:16:47Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

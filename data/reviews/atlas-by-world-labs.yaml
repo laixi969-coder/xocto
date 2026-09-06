@@ -1,0 +1,40 @@
+- id: req-initial-atlas-by-world-labs-2026-09-03
+  project_slug: atlas-by-world-labs
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频生成中机位不可控、视角难以保持物理一致性的专业创作痛点。
+    evidence_ids:
+    - ev-aec945c014623f49
+  - gate: consensus
+    status: insufficient
+    reason: 空间世界模型初次产品化展示，创作者实际留存与工作流嵌合度尚待市场验证。
+    evidence_ids:
+    - ev-aec945c014623f49
+  - gate: model
+    status: insufficient
+    reason: 目前处于产品发布与预览阶段，未公开具体计算资源消耗与阶梯计费模式。
+    evidence_ids:
+    - ev-aec945c014623f49
+  - gate: truth
+    status: supported
+    reason: 支持以多模态输入结合虚拟相机参数生成视频，交付边界清晰。
+    evidence_ids:
+    - ev-aec945c014623f49
+  next_validation: 核验官方开放公测后的运镜控制精度、渲染计费标准以及专业制作团队的真实工作流案例
+  market: ''
+  job: 控制多模态生成视频中的精确虚拟相机运动与空间视角
+  job_en: Control precise virtual camera movements and spatial perspectives in generative video
+  pain: 现有生成式视频无法精确控制运镜路径与空间一致性，难以满足影视级分镜需求
+  pain_en: Existing generative video lacks exact camera path control, falling short of professional cinematic
+    storyboarding standards
+  current_alternative: 三维软件手动渲染运镜，或反复尝试生成式视频提示词抽卡
+  current_alternative_en: Manual 3D camera rigging in DCC software or brute-force prompting in 2D video
+    models
+  usage_reason: 利用空间智能与 3D 资产结合，大幅降低可控运镜高清视频的制作周期与门槛
+  usage_reason_en: Combines spatial intelligence with 3D assets to drastically reduce production cycles
+    for camera-controlled video

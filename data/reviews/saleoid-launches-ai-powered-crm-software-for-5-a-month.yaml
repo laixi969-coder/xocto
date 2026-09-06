@@ -1,0 +1,41 @@
+- id: req-initial-saleoid-launches-ai-powered-crm-software-for-5-a-month-2026-09-03
+  project_slug: saleoid-launches-ai-powered-crm-software-for-5-a-month
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售线索记录和跟进的痛点，低价可能降低采用门槛，但具体流程和交付待核验。
+    evidence_ids:
+    - ev-6444afdd46513412
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户评价或采用数据，仅凭发布新闻不足以判断共识。
+    evidence_ids:
+    - ev-6444afdd46513412
+  - gate: model
+    status: insufficient
+    reason: 定价明确但未说明付费方和商业模式细节，需进一步核验。
+    evidence_ids:
+    - ev-6444afdd46513412
+  - gate: truth
+    status: insufficient
+    reason: AI 功能的具体实现和交付确定性未披露，需验证。
+    evidence_ids:
+    - ev-6444afdd46513412
+  next_validation: 查找 Saleoid 的官方定价页和客户案例，以确认其功能细节和实际采用情况。
+  market: ''
+  job: 销售人员和客户经理需要记录和跟进销售线索，管理客户关系。
+  job_en: Sales reps and account managers need to log and follow up on sales leads and manage customer
+    relationships.
+  pain: 手动录入和更新 CRM 耗时且容易遗漏，导致跟进不及时。
+  pain_en: Manual data entry and updates in CRM are time-consuming and prone to omissions, leading to
+    delayed follow-ups.
+  current_alternative: 目前他们可能使用 Excel 或传统 CRM 手动记录，或依赖记忆。
+  current_alternative_en: Currently they may use Excel or traditional CRM with manual entry, or rely on
+    memory.
+  usage_reason: 低价和 AI 自动化可能吸引小型团队，但需验证实际采用和付费意愿。
+  usage_reason_en: Low price and AI automation may attract small teams, but actual adoption and willingness
+    to pay need verification.

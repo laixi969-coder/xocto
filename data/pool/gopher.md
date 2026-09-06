@@ -21,7 +21,7 @@ canonical_url: https://gopherden.org
 summary: open-source self-hosted Cloudflare Tunnel alternative
 first_seen: '2026-09-02T17:38:10Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://newtonsorchard.app
 summary: Browser-based space/gravity playground
 first_seen: '2026-09-01T16:43:40Z'
 last_seen: '2026-09-03T00:16:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

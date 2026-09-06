@@ -1,0 +1,40 @@
+- id: req-initial-backbone-raises-4m-for-automated-food-quality-and-compliance-2026-09-03
+  project_slug: backbone-raises-4m-for-automated-food-quality-and-compliance
+  level: initial
+  reviewed_at: '2026-09-03T14:36:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决食品企业质量合规审核的痛点：人工检查耗时易漏，AI自动扫描可降低风险。
+    evidence_ids:
+    - ev-34442757663288f9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未显示客户采用或行业认可，仅融资信息。
+    evidence_ids:
+    - ev-34442757663288f9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是食品企业，但付费路径未明。
+    evidence_ids:
+    - ev-34442757663288f9
+  - gate: truth
+    status: supported
+    reason: AI文档审核贴近质量合规的第一性目标，交付可确定。
+    evidence_ids:
+    - ev-34442757663288f9
+  next_validation: 查找Backbone官网的定价页或客户案例。
+  market: ''
+  job: 食品企业质量管理人员需要确保产品符合法规和客户标准，避免因合规问题导致召回或罚款。
+  job_en: Quality managers in food companies need to ensure products meet regulations and customer standards
+    to avoid recalls or fines.
+  pain: 人工检查大量生产记录和文档耗时且易漏，合规风险高。
+  pain_en: Manual review of production records and documents is time-consuming and error-prone, leading
+    to high compliance risks.
+  current_alternative: 目前依赖人工审核和定期外部审计。
+  current_alternative_en: Currently relies on manual review and periodic external audits.
+  usage_reason: AI能快速扫描文档并识别风险，减少人工工作量，提高准确性。
+  usage_reason_en: AI can quickly scan documents and identify risks, reducing manual effort and improving
+    accuracy.

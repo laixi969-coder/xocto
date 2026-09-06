@@ -3,9 +3,10 @@ slug: quasar-438b
 name: Quasar 438B
 builder: amunozo
 category: ''
-summary_zh: ''
+summary_zh: Multiverse Computing发布4380亿参数的基础模型Quasar 438B，主打欧洲领先的大语言模型定位。
 inspiration: ''
-summary_en: ''
+summary_en: Multiverse Computing introduced Quasar 438B, a 438-billion-parameter foundation model targeted
+  as a leading European AI model.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://multiversecomputing.com/resources/introducing-quasar-438b
 summary: Europe's Leading AI Model
 first_seen: '2026-09-02T10:02:41Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

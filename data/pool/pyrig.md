@@ -2,29 +2,35 @@
 slug: pyrig
 name: Pyrig
 builder: Winipedia
-category: AI + 效率
-summary_zh: 新项目开工不再每次手工配检查和发布流程，以后规范升级也能跟着更新。
-inspiration: 模板只能生成一次，项目长大后规范全过时。趋势是开工模板要变成持续维护；切入是 Python 团队的项目初始化。开源免费。
-summary_en: A new project no longer means hand-wiring checks and release each time. When the standard
-  moves, the project can catch up.
-inspiration_en: Templates generate once, then the project grows and the standard goes stale. The trend
-  is the start-of-project scaffold becoming ongoing maintenance. The entry is Python teams initializing
-  a repo. Open-source and free.
+category: AI + 开发
+summary_zh: Pyrig 是一个开源工具，用于自动化项目设置和维护，例如初始化项目结构、配置依赖、运行常规更新等。它面向软件开发者，替代手动配置项目的手工步骤。具体支持的语言和流程仍待核验。
+inspiration: 开发者工具自动化趋势明显，Pyrig 可切入项目脚手架和依赖维护环节，但需明确与现有工具（如 Copilot、CI 工具）的差异。
+summary_en: Pyrig is an open-source tool that automates project setup and maintenance, such as initializing
+  project structure, configuring dependencies, and running routine updates. It targets software developers,
+  replacing manual configuration steps. Specific supported languages and workflows need verification.
+inspiration_en: The trend of developer tool automation is clear. Pyrig could enter project scaffolding
+  and dependency maintenance, but must differentiate from existing tools like Copilot or CI tools.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: open_source
+industries:
+- 软件开发
+industries_en:
+- Software development
+jobs:
+- 软件开发者
+jobs_en:
+- Software developers
+regions:
+- 全球
+regions_en:
+- Global
+open_source: true
 url: https://github.com/Winipedia/pyrig
 canonical_url: https://github.com/Winipedia/pyrig
 summary: A tool that automates project setup and maintenance
 first_seen: '2026-08-10T22:34:55Z'
 last_seen: '2026-09-03T00:16:26Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

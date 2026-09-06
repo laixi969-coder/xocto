@@ -1,0 +1,34 @@
+- id: req-initial-id6798304906-2026-09-03
+  project_slug: id6798304906
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，仅知是本地个人财务助手，具体功能与用户任务未披露。
+    evidence_ids:
+    - ev-f97f7fe2480926df
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方应用商店页面或网站的产品功能说明与定价信息。
+  market: ''
+  job: 个人用户管理日常财务，如记录支出、查看预算。
+  job_en: Individual users manage daily finances, such as tracking expenses and viewing budgets.
+  pain: 财务数据分散，手动整理耗时，且担心隐私泄露。
+  pain_en: Financial data is scattered, manual organization is time-consuming, and privacy concerns exist.
+  current_alternative: 使用电子表格或传统记账应用。
+  current_alternative_en: Using spreadsheets or traditional budgeting apps.
+  usage_reason: 本地处理可能吸引注重隐私的用户，但具体优势未明。
+  usage_reason_en: Local processing may attract privacy-conscious users, but specific advantages are unclear.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTFA2Wi10TkgxNWlE
 summary: 大赛专访 | 从半小时到分钟级：一家心外科团队的AI突围 医疗器械创新网
 first_seen: '2026-09-02T13:01:14Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

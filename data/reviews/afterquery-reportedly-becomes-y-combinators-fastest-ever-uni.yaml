@@ -1,0 +1,37 @@
+- id: req-initial-afterquery-reportedly-becomes-y-combinators-fastest-ever-uni-2026-09-03
+  project_slug: afterquery-reportedly-becomes-y-combinators-fastest-ever-uni
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，公开资料仅提及融资和估值，缺乏产品细节。
+    evidence_ids:
+    - ev-63073492d298d2c2
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户采用或关注证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式和付费方未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 查找 AfterQuery 的官方产品页面或文档，以明确其具体功能、目标用户和定价。
+  market: ''
+  job: 帮助 AI 公司训练和优化模型。
+  job_en: Helping AI companies train and optimize models.
+  pain: 模型训练成本高、周期长，但具体痛点未在公开资料中明确。
+  pain_en: Model training is costly and time-consuming, but specific pain points are not clarified in
+    public sources.
+  current_alternative: 现有替代方案包括自建训练基础设施或使用云服务，但具体细节未知。
+  current_alternative_en: Existing alternatives include building in-house training infrastructure or using
+    cloud services, but details are unknown.
+  usage_reason: 高估值表明投资者看好其技术或市场潜力，但实际采用原因尚未公开。
+  usage_reason_en: High valuation suggests investor confidence in its technology or market potential,
+    but actual adoption reasons are not yet public.

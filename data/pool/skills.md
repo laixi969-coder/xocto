@@ -3,28 +3,36 @@ slug: skills
 name: skills
 builder: coleam00
 category: AI + 开发
-summary_zh: 把写软件时真正会用的方法收成一套，让 AI 按步骤干活而不是瞎猜
-inspiration: 趋势是 AI 写代码从「会聊天」变成「会按规矩交货」。切入不要做万能提示词大全，先做规划、改代码、验收这种漏一步就返工的环节。
-summary_en: The methods you actually use to ship software are bundled so the AI works step by step instead
-  of guessing.
-inspiration_en: The trend is coding AIs moving from chatting to delivering by the book. Don't sell a pile
-  of magic prompts. Enter planning, code changes, and acceptance—steps that force rework if skipped.
+summary_zh: skills 是一个开源仓库，包含作者在使用编码智能体构建软件时实际使用的技能集合，如 PIV 循环、规划、worktrees 以及构建自定义 AI 层的元技能。它接收编码智能体的指令，提供结构化的技能定义，帮助开发者更有效地使用编码智能体。具体流程和交付仍待核验。
+inspiration: 趋势：编码智能体正在成为主流，开发者需要可复用的技能包来提升效率。切入：可从特定开发场景（如代码审查、测试生成）提供技能包，或面向非技术用户简化技能创建。
+summary_en: skills is an open-source repository containing a set of skills the author actually uses to
+  build software with coding agents, including the PIV loop, planning, worktrees, and meta-skills for
+  building custom AI layers. It takes instructions from coding agents and provides structured skill definitions
+  to help developers use coding agents more effectively. Specific workflow and deliverables remain to
+  be verified.
+inspiration_en: 'Trend: coding agents are becoming mainstream, and developers need reusable skill packs
+  to improve efficiency. Entry: could provide skill packs for specific development scenarios (e.g., code
+  review, test generation), or simplify skill creation for non-technical users.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 软件开发
+industries_en:
+- Software development
+jobs:
+- 软件工程师
+jobs_en:
+- Software engineers
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/coleam00/skills
 canonical_url: https://github.com/coleam00/skills
 summary: The agent skills I actually use to build software with coding agents. The PIV loop, planning,
   worktrees, and the meta-skills for building your own AI Layer.
 first_seen: '2026-08-04T22:14:35Z'
 last_seen: '2026-09-03T00:16:26Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - hackernews

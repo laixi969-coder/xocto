@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/codelook
 summary: Quick Look code previews with 700+ editor themes
 first_seen: '2026-09-02T19:46:18Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

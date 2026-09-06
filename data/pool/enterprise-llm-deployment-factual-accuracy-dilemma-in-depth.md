@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxPVGxfTThTR2t0
 summary: 'Enterprise LLM Deployment: Factual Accuracy Dilemma [In-Depth Analysis, 2026] Klover.ai'
 first_seen: '2026-09-02T10:48:49Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

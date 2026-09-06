@@ -1,11 +1,13 @@
 ---
 slug: nba-2k27-with-nvidia-dlss-5-leads-28-new-games-coming-to-gef
-name: ‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW
+name: GeForce NOW
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: GeForce NOW 是 NVIDIA 的云游戏服务，允许用户流式播放游戏。本次更新新增 28 款游戏，并引入 DLSS 5 技术提升画质。这是游戏库扩展，非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: GeForce NOW is NVIDIA's cloud gaming service, allowing users to stream games. This update
+  adds 28 games and introduces DLSS 5 for enhanced graphics. This is a library expansion, not a standalone
+  product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +26,7 @@ summary: 'September is here with 28 more games streaming on GeForce NOW this mon
   court — tuned […]'
 first_seen: '2026-09-03T13:00:35Z'
 last_seen: '2026-09-03T14:36:50Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# ‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW
+# GeForce NOW
 
 September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned […]
 

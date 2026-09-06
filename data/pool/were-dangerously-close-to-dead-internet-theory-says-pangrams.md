@@ -24,7 +24,7 @@ summary: The internet has a trust problem, and it’s not just because social 
   of startups have cropped up in the past couple of […]
 first_seen: '2026-09-02T17:09:57Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

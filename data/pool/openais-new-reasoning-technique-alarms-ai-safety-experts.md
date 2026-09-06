@@ -1,11 +1,12 @@
 ---
 slug: openais-new-reasoning-technique-alarms-ai-safety-experts
-name: OpenAI’s new reasoning technique alarms AI safety experts
+name: OpenAI Astra
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI的新模型Astra采用循环深度（recurrent depth）技术以突破传统顺序思考推理模式，引发AI安全研究人员的关注与担忧。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI's upcoming Astra model utilizes recurrent depth to move beyond sequential reasoning,
+  raising safety concerns among AI researchers.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: OpenAI’s new Astra model will use “recurrent depth,” a technique 
   outside of the sequential thinking that characterizes most reasoning models.
 first_seen: '2026-09-02T20:19:14Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI’s new reasoning technique alarms AI safety experts
+# OpenAI Astra
 
 OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.
 

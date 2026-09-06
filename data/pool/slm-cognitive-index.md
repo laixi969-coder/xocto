@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/GODELEV/SLM-Cognitive-Index
 summary: ''
 first_seen: '2026-09-02T22:29:37Z'
 last_seen: '2026-09-03T14:36:50Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

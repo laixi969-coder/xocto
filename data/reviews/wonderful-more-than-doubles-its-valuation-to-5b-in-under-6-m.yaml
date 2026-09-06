@@ -1,0 +1,37 @@
+- id: req-initial-wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-m-2026-09-03
+  project_slug: wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-m
+  level: initial
+  reviewed_at: '2026-09-03T00:16:48Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发团队编码效率低下的痛点，需求刚性较强。
+    evidence_ids:
+    - ev-eb7ce1fa8b136496
+  - gate: consensus
+    status: supported
+    reason: 高估值和融资表明市场共识强烈。
+    evidence_ids:
+    - ev-eb7ce1fa8b136496
+  - gate: model
+    status: insufficient
+    reason: 付费模式未明确，需进一步核验。
+    evidence_ids:
+    - ev-eb7ce1fa8b136496
+  - gate: truth
+    status: insufficient
+    reason: 产品具体能力和交付确定性未公开。
+    evidence_ids:
+    - ev-eb7ce1fa8b136496
+  next_validation: 查找 Wonderful 的官方产品文档或定价页面。
+  market: ''
+  job: 开发团队需要自动化编码、测试或代码审查等重复性任务。
+  job_en: Development teams need to automate repetitive tasks such as coding, testing, or code review.
+  pain: 手动编码耗时且易出错，影响交付速度。
+  pain_en: Manual coding is time-consuming and error-prone, affecting delivery speed.
+  current_alternative: 目前可能使用传统 IDE、代码生成工具或外包。
+  current_alternative_en: Currently may use traditional IDEs, code generation tools, or outsourcing.
+  usage_reason: AI 代理能快速生成代码，减少人工工作量，提高效率。
+  usage_reason_en: AI agents can quickly generate code, reducing manual effort and improving efficiency.

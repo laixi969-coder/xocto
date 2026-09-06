@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-10-most-capital-efficient-startups
 summary: ''
 first_seen: '2026-09-03T05:00:33Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -22,7 +22,7 @@ summary: Advertisements for AI Products and Concentration Enhancers to Face Veri
   news.sbs.co.kr
 first_seen: '2026-09-02T05:09:00Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

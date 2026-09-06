@@ -23,7 +23,7 @@ summary: 'Gen Z is changing how India buys beauty: Insight Cosmetics’ Mihir Ja
   | Fashion Trends Hindustan Times'
 first_seen: '2026-09-02T07:30:41Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

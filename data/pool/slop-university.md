@@ -21,7 +21,7 @@ canonical_url: https://slop.university
 summary: ''
 first_seen: '2026-09-02T23:21:41Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxOdXZSNm1SUlFU
 summary: Pangram's CEO on Why AI Detection Isn't Binary The Tech Buzz
 first_seen: '2026-09-02T18:11:00Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: openai-openai-python-v370
-name: 'openai/openai-python: v3.7.0'
+name: openai-python
 builder: openai
 category: ''
-summary_zh: ''
+summary_zh: openai-python是OpenAI的官方Python库，本次更新调整了使用量API和文档，并优化了嵌入相关的性能。
 inspiration: ''
-summary_en: ''
+summary_en: openai-python is OpenAI's official Python library; this update adjusts usage APIs and documentation,
+  and optimizes embedding-related performance.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -37,7 +38,7 @@ summary: '## [3.7.0](https://github.com/openai/openai-python/compare/v3.6.0...v3
   ([b19c216](https://github.com/openai/openai-python/commit/b19c2161b1eac80fbf1f6f67a64a50af99c53356))'
 first_seen: '2026-09-02T01:30:12Z'
 last_seen: '2026-09-03T00:16:29Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -49,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# openai/openai-python: v3.7.0
+# openai-python
 
 ## [3.7.0](https://github.com/openai/openai-python/compare/v3.6.0...v3.7.0) (2026-09-02)
 

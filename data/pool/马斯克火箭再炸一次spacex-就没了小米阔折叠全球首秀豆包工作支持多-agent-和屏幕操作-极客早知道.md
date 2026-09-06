@@ -1,11 +1,12 @@
 ---
 slug: 马斯克火箭再炸一次spacex-就没了小米阔折叠全球首秀豆包工作支持多-agent-和屏幕操作-极客早知道
-name: 马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道
+name: Gemini 3.8 Flash
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 谷歌发布轻量级大模型 Gemini 3.8 Flash，专注提升软件工程、智能体任务与复杂知识处理效率。
 inspiration: ''
-summary_en: ''
+summary_en: Google launched Gemini 3.8 Flash, a lightweight model optimized for software engineering,
+  agentic workflows, and complex knowledge tasks.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -57,7 +58,7 @@ summary: "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体�
   \ WIMP 与普通物质粒子之间的相互作用。目前仍有 0.5% 的概率，这一事件可以由已知的背景信号解释。（来源：IT 之家）"
 first_seen: '2026-09-03T00:03:32Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -68,7 +69,7 @@ sightings:
   kind: news
 ---
 
-# 马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道
+# Gemini 3.8 Flash
 
 谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景 
  9 月 2 日消息，谷歌在 Google DeepMind 网站低调上线了 Gemini 3.8 Flash 模型。其基于 Gemini 3.7 Flash，拥有在软件工程和智能体知识工作流方面的性能提升，并持续支持可定制的努力水平，以控制质量、成本和延迟的组合。 

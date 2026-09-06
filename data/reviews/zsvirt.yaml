@@ -1,0 +1,38 @@
+- id: req-initial-zsvirt-2026-09-03
+  project_slug: zsvirt
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：轻量虚拟化需求，但具体痛点未明。
+    evidence_ids:
+    - ev-80732bb053be0c6a
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-80732bb053be0c6a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 公开代码仓库 仓库的 issue、star 增长和部署文档。
+  market: ''
+  job: 管理员需要轻量、可扩展的虚拟化方案来部署和管理虚拟机。
+  job_en: Administrators need lightweight, scalable virtualization solutions to deploy and manage VMs.
+  pain: 现有虚拟化平台可能重量级或复杂，不适合轻量场景。
+  pain_en: Existing virtualization platforms may be heavyweight or complex, unsuitable for lightweight
+    scenarios.
+  current_alternative: 使用 KVM、Xen 等传统方案，但可能资源占用高。
+  current_alternative_en: Using traditional solutions like KVM or Xen, but they may have high resource
+    usage.
+  usage_reason: 开源项目吸引开发者尝试，但需求刚性取决于性能优势。
+  usage_reason_en: Open-source projects attract developers, but demand rigidity depends on performance
+    advantages.

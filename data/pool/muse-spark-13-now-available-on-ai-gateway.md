@@ -1,11 +1,13 @@
 ---
 slug: muse-spark-13-now-available-on-ai-gateway
-name: Muse Spark 1.3 now available on AI Gateway
+name: Vercel AI Gateway
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Vercel AI Gateway 是一个 API 网关，用于管理多个 AI 模型的访问。此次更新将 Muse Spark 1.3 模型添加到网关，开发者可通过统一接口调用。具体功能和影响仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Vercel AI Gateway is an API gateway for managing access to multiple AI models. This update
+  adds Muse Spark 1.3 to the gateway, allowing developers to call it via a unified interface. Specific
+  features and impact remain to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://vercel.com/changelog/muse-spark-1-3-now-available-on-ai-g
 summary: ''
 first_seen: '2026-09-02T00:00:00Z'
 last_seen: '2026-09-03T00:16:47Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Muse Spark 1.3 now available on AI Gateway
+# Vercel AI Gateway
 
 _（源没给简介）_
 

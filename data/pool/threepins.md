@@ -21,7 +21,7 @@ canonical_url: https://threepins.golf
 summary: Three Pins a daily 3-hole golf game in the browser
 first_seen: '2026-09-01T17:45:16Z'
 last_seen: '2026-09-03T00:16:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

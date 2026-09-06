@@ -1,20 +1,38 @@
 ---
 slug: 当-ai-开始理解人不是标签阿里妈妈如何重构广告定向
-name: 当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向
+name: 万相点睛
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: 品牌商家在电商平台为商品投放广告、挑选目标人群时打开它，过去靠预设标签和关联关键词手动圈人；AI 接收商品信息与平台消费行为数据，推理消费意图链并给出非显然人群的投放建议；商家按建议执行投放，用后续转化数据核对效果；工具单独计费方式仍待核验。
+inspiration: 趋势：广告定向正从人工选标签走向 AI 推理消费意图，平台把增长判断从投手经验中收走；切入：可从阿里生态外的渠道与行业做意图推理式投放，如独立站卖家、本地生活商家等仍靠人工圈人的场景，按投放结果收费而非卖席位。
+summary_en: Brand merchants on Alibaba's e-commerce platforms open Wanxiang Dianjing when planning product
+  ads and selecting target audiences, a step previously done by manually picking preset interest tags
+  and related keywords. The AI takes product information and platform consumption behavior data, reasons
+  over intent chains, and returns non-obvious audience recommendations—such as esports players for a fabric
+  bed. Merchants execute placements and verify results through downstream conversion data; standalone
+  pricing remains unverified.
+inspiration_en: 'Trend: ad targeting is shifting from human-selected labels to AI reasoning directly over
+  consumption intent, pulling growth judgment away from media buyers'' experience. Entry: build intent-based
+  audience reasoning for channels outside Alibaba''s ecosystem—DTC sellers, local service merchants—where
+  targeting is still manual, and charge for placement outcomes rather than selling seats.'
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: ai_transformation
+industries:
+- 电商营销
+- 家居零售
+industries_en:
+- e-commerce marketing
+- home furnishing retail
+jobs:
+- 广告优化师
+- 电商运营
+jobs_en:
+- ad operations specialist
+- e-commerce operator
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: http://www.geekpark.net/news/369777
 canonical_url: https://geekpark.net/news/369777
@@ -59,7 +77,7 @@ summary: "作者｜Cynthia  \n  编辑｜郑玄  \n   \n 2026 年夏天，林�
   \ 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-09-03T05:30:32Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -70,7 +88,7 @@ sightings:
   kind: news
 ---
 
-# 当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向
+# 万相点睛
 
 作者｜Cynthia  
   编辑｜郑玄  

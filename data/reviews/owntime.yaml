@@ -1,0 +1,39 @@
+- id: req-initial-owntime-2026-09-03
+  project_slug: owntime
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人时间管理中的任务优先级分配和拖延痛点，棋钟机制提供外部约束，价值结构成立。
+    evidence_ids:
+    - ev-b2dc6237fed41e2b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，缺乏用户评价或采用数据，共识证据不足。
+    evidence_ids:
+    - ev-b2dc6237fed41e2b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是个人用户，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺时间管理，但能否确定性交付效果未验证，需更多使用数据。
+    evidence_ids: []
+  next_validation: 查找 OwnTime 的官方定价页或用户评价，以验证付费意愿和实际采用。
+  market: ''
+  job: 用户需要规划一天的时间，确保优先事项得到足够投入，并避免在任务间无意识拖延。
+  job_en: Users need to plan their day, ensure priorities get enough time, and avoid unconscious procrastination
+    between tasks.
+  pain: 手动规划时间容易失效，任务切换时容易分心，缺乏外部约束。
+  pain_en: Manual time planning often fails, task switching leads to distraction, and there is a lack
+    of external constraint.
+  current_alternative: 使用番茄钟、日历应用或纸质待办清单，但缺乏对任务优先级的动态分配。
+  current_alternative_en: Using Pomodoro timers, calendar apps, or paper to-do lists, but lacking dynamic
+    allocation to priorities.
+  usage_reason: 棋钟机制将时间分配游戏化，提供明确的切换信号，可能吸引追求深度工作的用户。
+  usage_reason_en: The chess clock gamifies time allocation, providing clear switching signals, potentially
+    attracting users seeking deep work.

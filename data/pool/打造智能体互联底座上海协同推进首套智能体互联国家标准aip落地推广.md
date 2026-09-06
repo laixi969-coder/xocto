@@ -1,11 +1,12 @@
 ---
 slug: 打造智能体互联底座上海协同推进首套智能体互联国家标准aip落地推广
-name: 打造智能体互联底座！上海协同推进首套智能体互联国家标准（AIP）落地推广
+name: 智能体互联国家标准 (AIP)
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 上海协同推进中国首套智能体互联国家标准（AIP）落地，致力于建立智能体交互统一标准底座。
 inspiration: ''
-summary_en: ''
+summary_en: Shanghai is coordinating the promotion and implementation of China's first Agent Interconnection
+  Protocol (AIP) national standard.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNMURaMGhmNWt5
 summary: 打造智能体互联底座！上海协同推进首套智能体互联国家标准（AIP）落地推广 Sohu
 first_seen: '2026-09-02T11:23:18Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 打造智能体互联底座！上海协同推进首套智能体互联国家标准（AIP）落地推广
+# 智能体互联国家标准 (AIP)
 
 打造智能体互联底座！上海协同推进首套智能体互联国家标准（AIP）落地推广 Sohu
 

@@ -1,0 +1,40 @@
+- id: req-initial-dsh-plugin-bridge-2026-09-03
+  project_slug: dsh-plugin-bridge
+  level: initial
+  reviewed_at: '2026-09-03T00:16:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者切换预设时保留会话上下文的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-8c0301fb2949e001
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 162 星，但缺乏持续采用或用户反馈的公开证据。
+    evidence_ids:
+    - ev-8c0301fb2949e001
+  - gate: model
+    status: insufficient
+    reason: 作为开源插件，商业模式不明确，可能依赖捐赠或企业支持。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 插件贴近开发者的实际工作，承诺的迁移功能可确定性交付。
+    evidence_ids:
+    - ev-8c0301fb2949e001
+  next_validation: 查看 公开代码仓库 仓库的 issue 和 discussion，了解用户反馈和使用场景。
+  market: ''
+  job: 开发者在切换 DeepSeek Harness 预设时，需要保留当前会话的上下文和未完成的工作。
+  job_en: Developers need to preserve session context and unfinished work when switching DeepSeek Harness
+    presets.
+  pain: 手动复制粘贴或重新描述上下文容易丢失细节，尤其是未解析的图片和源模型意图。
+  pain_en: Manual copy-paste or re-description often loses details, especially unresolved images and source-model
+    intent.
+  current_alternative: 目前开发者可能手动记录或重新输入上下文，或放弃切换预设。
+  current_alternative_en: Currently developers may manually record or re-enter context, or abandon switching
+    presets.
+  usage_reason: 插件提供结构化的迁移和预览，减少上下文丢失，对频繁切换预设的开发者有吸引力。
+  usage_reason_en: The plugin offers structured migration and preview, reducing context loss, appealing
+    to developers who frequently switch presets.

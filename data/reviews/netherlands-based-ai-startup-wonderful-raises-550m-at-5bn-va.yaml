@@ -1,0 +1,39 @@
+- id: req-initial-netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-va-2026-09-03
+  project_slug: netherlands-based-ai-startup-wonderful-raises-550m-at-5bn-va
+  level: initial
+  reviewed_at: '2026-09-03T14:36:52Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体工作流描述。
+    evidence_ids:
+    - ev-0a53907ae18a43e7
+    - ev-db3d5066108b3769
+  - gate: consensus
+    status: insufficient
+    reason: 无用户采用或市场共识证据，仅融资新闻。
+    evidence_ids:
+    - ev-0a53907ae18a43e7
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方和付费路径不明。
+    evidence_ids:
+    - ev-db3d5066108b3769
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺和交付能力未验证。
+    evidence_ids:
+    - ev-db3d5066108b3769
+  next_validation: 查找 Wonderful 的官方网站或产品文档，确认其具体服务行业和功能。
+  market: ''
+  job: 帮助企业提升生产力，但具体任务和场景未明确。
+  job_en: Helps companies boost productivity, but specific tasks and scenarios are unclear.
+  pain: 企业生产力痛点未具体说明。
+  pain_en: Specific pain points for enterprises are not detailed.
+  current_alternative: 未知，可能依赖现有管理工具或人工流程。
+  current_alternative_en: Unknown; may rely on existing management tools or manual processes.
+  usage_reason: 融资消息引发关注，但产品细节不足，采用原因不明。
+  usage_reason_en: Funding news attracts attention, but product details are insufficient; adoption reasons
+    unclear.

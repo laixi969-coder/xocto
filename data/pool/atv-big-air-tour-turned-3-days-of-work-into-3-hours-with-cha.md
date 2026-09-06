@@ -22,7 +22,7 @@ summary: ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising
   merchandise photos into an inventory website in 15 minutes.
 first_seen: '2026-09-02T12:00:00Z'
 last_seen: '2026-09-03T00:16:47Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

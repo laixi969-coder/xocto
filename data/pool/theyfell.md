@@ -21,7 +21,7 @@ canonical_url: https://theyfell.com
 summary: Every AI agrees with you. This writes your startup's obituary instead
 first_seen: '2026-09-02T22:45:39Z'
 last_seen: '2026-09-03T14:36:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

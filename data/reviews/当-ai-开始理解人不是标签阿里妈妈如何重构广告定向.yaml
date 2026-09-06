@@ -1,0 +1,40 @@
+- id: req-initial-当-ai-开始理解人不是标签阿里妈妈如何重构广告定向-2026-09-03
+  project_slug: 当-ai-开始理解人不是标签阿里妈妈如何重构广告定向
+  level: initial
+  reviewed_at: '2026-09-03T14:36:52Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决存量市场中商家为商品找增量人群的需求；痛点是预设标签漏掉高意图非显然人群，旧流程为人工选标签与关联词，属工作流推理，并有头部品牌采用佐证。
+    evidence_ids:
+    - ev-e9a645cbe38faa11
+  - gate: consensus
+    status: supported
+    reason: 头部家居品牌林氏家居已实际采用并形成公开案例，说明品牌商家侧对「标签失效、需要意图推理」有真实感知；卡点在公开可见采用仅此单一案例，广度依赖平台叙述。
+    evidence_ids:
+    - ev-e9a645cbe38faa11
+  - gate: model
+    status: supported
+    reason: 买方清晰为在阿里妈妈投放广告的品牌商家，收入嵌在广告消耗里，属 to B；该工具单独定价未披露，这是判断而非已验证事实，但不影响付费路径成立。
+    evidence_ids:
+    - ev-e9a645cbe38faa11
+  - gate: truth
+    status: supported
+    reason: 交付可核对：给出具体人群与投放建议，商家能以转化数据验证效果；贴近视广告第一性目标——以更低成本找到会买的人；投放决策仍由人工确认执行。
+    evidence_ids:
+    - ev-e9a645cbe38faa11
+  next_validation: 采集阿里妈妈万相点睛官方产品页与商家帮助文档，核对其功能范围、适用商家条件与计费说明，并检索除林氏家居外的其他商家公开使用案例。
+  market: ''
+  job: 品牌商家为商品在电商平台投放广告时圈定目标人群、挑选投放关键词
+  job_en: Selecting target audiences and keywords when brand merchants run product ads on e-commerce platforms
+  pain: 存量市场里按装修、家具等预设标签圈人难以带来增长，电竞玩家这类高消费意愿的非显然人群被漏掉
+  pain_en: In a saturated market, label-based audience selection around renovation and furniture tags
+    stops delivering growth, and high-intent but non-obvious audiences like esports players get missed
+  current_alternative: 投手凭经验预设标签、手动组合关联关键词与人群包，靠反复试错扩量
+  current_alternative_en: Media buyers preset tags from experience, manually combine related keywords
+    and audience packages, and expand reach through repeated trial and error
+  usage_reason: 它把选人从经验猜测变成基于消费链的推理建议，增长压力下的商家有直接理由替换旧流程
+  usage_reason_en: It turns audience selection from experience-based guessing into intent-chain reasoning
+    with concrete placement suggestions, giving growth-pressured merchants a direct reason to switch

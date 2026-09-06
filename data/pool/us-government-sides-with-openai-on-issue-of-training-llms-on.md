@@ -1,11 +1,12 @@
 ---
 slug: us-government-sides-with-openai-on-issue-of-training-llms-on
-name: US government sides with OpenAI on issue of training LLMs on copyrighted material
+name: 美国政府支持大模型版权训练合法性
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 美国政府在法庭文件中表态支持 OpenAI 使用受版权保护的内容训练大语言模型，强调维护具备全球竞争力的 AI 产业符合国家利益。
 inspiration: ''
-summary_en: ''
+summary_en: The US government filed a legal brief supporting OpenAI regarding the training of LLMs on
+  copyrighted material, citing strong national interest in maintaining a competitive AI industry.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: '"The United States has a strong interest in continuing to develop a ro
   globally," the brief reads.'
 first_seen: '2026-09-02T17:09:06Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# US government sides with OpenAI on issue of training LLMs on copyrighted material
+# 美国政府支持大模型版权训练合法性
 
 "The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use
 globally," the brief reads.

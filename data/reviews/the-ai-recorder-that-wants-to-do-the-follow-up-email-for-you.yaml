@@ -1,0 +1,42 @@
+- id: req-initial-the-ai-recorder-that-wants-to-do-the-follow-up-email-for-you-2026-09-03
+  project_slug: the-ai-recorder-that-wants-to-do-the-follow-up-email-for-you
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会后跟进这一旧任务：通话结束后要把要点与承诺整理成跟进邮件，人工做法慢且常拖延；从录音直达邮件草稿在结构上成立，但依据是产品介绍与工作流推理，尚无采用证据。
+    evidence_ids:
+    - ev-6f9f55d4dfe6f60c
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有一篇媒体产品介绍，看不到用户评价、社区讨论或可归因到产品的采用数据；共识卡在证据环节，是否有人持续使用无从判断。
+    evidence_ids:
+    - ev-6f9f55d4dfe6f60c
+    - ev-6af717a476250039
+  - gate: model
+    status: insufficient
+    reason: 材料未披露定价与买方；跟进邮件场景的钱更可能来自销售或专业服务团队的席位或按结果付费，但这只是判断不是已验证事实，需等官方定价页。
+    evidence_ids:
+    - ev-6f9f55d4dfe6f60c
+  - gate: truth
+    status: insufficient
+    reason: 承诺是替用户写出可发送的跟进邮件，需准确提取对话中的承诺、行动项与语气；会议纪要赛道普遍拥挤，其交付确定性与相对差异点均未核验。
+    evidence_ids:
+    - ev-6f9f55d4dfe6f60c
+  next_validation: 抓取 Tovel 官方定价页与产品说明页，确认目标用户、计价方式以及邮件发送与日历集成流程。
+  market: ''
+  job: 通话或会议结束后，把对话中的要点与承诺整理成一封能推进下一步的跟进邮件
+  job_en: After a call or meeting, turn key points and commitments into a follow-up email that moves things
+    forward
+  pain: 每场会后都要回忆要点、翻笔记、起草邮件，耗时常拖延，还容易漏掉答应对方的行动项
+  pain_en: After every meeting people reconstruct notes and draft emails by hand; it is slow, often delayed,
+    and promised action items slip through
+  current_alternative: 手写记录加自行撰写跟进邮件，或先用会议摘要工具出纪要再人工改写成邮件
+  current_alternative_en: Handwritten notes plus a manually written follow-up, or generating meeting notes
+    with a summary tool and rewriting them into an email
+  usage_reason: 录音是会后必然存在的原始材料，直接从它生成可发送的邮件省掉中间整理步骤，用户会为当天完成跟进而试用
+  usage_reason_en: The recording already exists after every call; turning it directly into a sendable
+    email removes the intermediate step, so users will try it to follow up same-day

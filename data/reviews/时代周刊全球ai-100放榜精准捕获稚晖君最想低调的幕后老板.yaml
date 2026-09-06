@@ -1,0 +1,44 @@
+- id: req-initial-时代周刊全球ai-100放榜精准捕获稚晖君最想低调的幕后老板-2026-09-03
+  project_slug: 时代周刊全球ai-100放榜精准捕获稚晖君最想低调的幕后老板
+  level: initial
+  reviewed_at: '2026-09-03T14:36:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决睡眠监测与干预脱节的问题：用户知道没睡好但无法改善。痛点刚性，交付可确定（设备自动调节），结构上成立。
+    evidence_ids:
+    - ev-de888651774df565
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示连续融资和即将量产，但缺乏用户采用、留存或口碑的公开证据，共识尚未形成。
+    evidence_ids:
+    - ev-de888651774df565
+  - gate: model
+    status: insufficient
+    reason: 买方可能是C端消费者，但定价和付费路径未披露；融资活跃但用户付费模式未验证。
+    evidence_ids:
+    - ev-de888651774df565
+  - gate: truth
+    status: insufficient
+    reason: 产品尚未量产，实际效果和用户反馈未知；需验证其干预是否真的有效且安全。
+    evidence_ids:
+    - ev-de888651774df565
+  next_validation: 官方产品页或量产后的用户评价，验证实际睡眠改善效果和用户留存。
+  market: ''
+  job: 高压脑力人群在夜间睡眠时，需要一种无需主动操作、能根据身体反应自动调节的干预设备，以改善入睡困难、夜间易醒等问题。
+  job_en: High-pressure cognitive workers need a device that automatically adjusts interventions based
+    on physiological responses during sleep, without requiring active operation, to improve issues like
+    difficulty falling asleep and frequent awakenings.
+  pain: 现有睡眠监测设备只能告诉用户睡得好不好，无法主动改善睡眠；助眠产品缺乏个性化，且用户难以判断效果。
+  pain_en: Current sleep monitors only tell users how well they slept without actively improving it; sleep
+    aids lack personalization, and users cannot easily assess effectiveness.
+  current_alternative: 用户可能使用睡眠监测手环、助眠App、白噪音机或药物，但这些工具要么只监测不干预，要么干预方式固定，无法根据个人反馈调整。
+  current_alternative_en: Users may rely on sleep tracking bands, sleep aid apps, white noise machines,
+    or medication, but these either only monitor without intervening or use fixed methods that do not
+    adapt to individual feedback.
+  usage_reason: Somni 提供闭环干预，能根据用户整晚的生理变化调整下一晚的方案，可能比固定模式的助眠设备更有效，且无需佩戴，降低了使用门槛。
+  usage_reason_en: Somni offers closed-loop intervention, adjusting next-night plans based on physiological
+    changes, potentially more effective than fixed-mode devices, and its non-wearable design lowers the
+    barrier to use.

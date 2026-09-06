@@ -22,7 +22,7 @@ summary: The Builders Stage is returning to TechCrunch Disrupt, bringing togethe
   and investors for practical conversations on what it takes to build and scale.
 first_seen: '2026-09-02T23:01:00Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

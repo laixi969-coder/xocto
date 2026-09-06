@@ -1,0 +1,38 @@
+- id: req-initial-mcptunnels-2026-09-03
+  project_slug: mcptunnels
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：MCP 服务器远程访问的痛点，但缺乏实际用户反馈和采用证据。
+    evidence_ids:
+    - ev-d872486f2e2a74bb
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低，仅 14 分 1 评论，不足以证明广泛需求。
+    evidence_ids:
+    - ev-d872486f2e2a74bb
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 获取 Mcptunnels 的 公开代码仓库 仓库文档和 issue，了解其实际使用场景和用户反馈。
+  market: ''
+  job: 开发者需要将本地运行的 MCP 服务器暴露给远程 AI 应用或客户端进行测试和集成。
+  job_en: Developers need to expose locally running MCP servers to remote AI applications or clients for
+    testing and integration.
+  pain: 本地 MCP 服务器难以被外部访问，缺乏安全的隧道方案。
+  pain_en: Local MCP servers are difficult to access externally, lacking secure tunneling solutions.
+  current_alternative: 开发者可能使用 ngrok 等通用隧道工具，但可能不支持 MCP 特定协议或认证。
+  current_alternative_en: Developers may use general tunneling tools like ngrok, but they may not support
+    MCP-specific protocols or authentication.
+  usage_reason: 如果 Mcptunnels 能简化 MCP 服务器的远程访问，开发者可能因其针对性而采用。
+  usage_reason_en: If Mcptunnels simplifies remote access to MCP servers, developers may adopt it for
+    its specificity.

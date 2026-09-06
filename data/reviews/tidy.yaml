@@ -1,0 +1,40 @@
+- id: req-initial-tidy-2026-09-03
+  project_slug: tidy
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决写作时语法修正的即时需求，痛点在于切换应用和隐私顾虑，现有替代为复制粘贴到外部工具。
+    evidence_ids:
+    - ev-06bcb5ccfd9fdad0
+  - gate: consensus
+    status: insufficient
+    reason: 发布信息有限，缺乏用户评价或采用数据，无法判断共识强度。
+    evidence_ids:
+    - ev-06bcb5ccfd9fdad0
+  - gate: model
+    status: insufficient
+    reason: 宣称免费，但未披露商业模式，买方可能是个人用户或未来转向订阅。
+    evidence_ids:
+    - ev-06bcb5ccfd9fdad0
+  - gate: truth
+    status: insufficient
+    reason: 端侧 AI 语法修正的准确性需实测，但产品承诺可确定交付修正结果。
+    evidence_ids:
+    - ev-06bcb5ccfd9fdad0
+  next_validation: 查找 Tidy 的官方定价页或用户评测，确认实际功能和付费模式。
+  market: ''
+  job: 用户在 Mac 上写作时，需要快速修正语法错误，而不切换应用或上传到云端。
+  job_en: Users writing on Mac need to quickly fix grammar errors without switching apps or uploading
+    to the cloud.
+  pain: 现有语法检查工具需要复制粘贴到网页或单独应用，中断写作流程，且可能涉及隐私问题。
+  pain_en: Existing grammar checkers require copying and pasting to a web page or separate app, interrupting
+    the writing flow, and may raise privacy concerns.
+  current_alternative: 用户可能使用 Grammarly 网页版、Word 内置检查或手动校对。
+  current_alternative_en: Users may use Grammarly web, Word's built-in checker, or manual proofreading.
+  usage_reason: 端侧处理保护隐私且无需网络，系统级集成减少切换成本，免费模式降低试用门槛。
+  usage_reason_en: On-device processing protects privacy and works offline; system-level integration reduces
+    switching costs; free model lowers the barrier to trial.

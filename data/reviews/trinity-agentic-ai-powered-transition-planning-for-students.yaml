@@ -1,0 +1,41 @@
+- id: req-initial-trinity-agentic-ai-powered-transition-planning-for-students-2026-09-03
+  project_slug: trinity-agentic-ai-powered-transition-planning-for-students
+  level: initial
+  reviewed_at: '2026-09-03T00:16:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决特殊教育中过渡计划制定的耗时和合规痛点，需求刚性，交付可确定。
+    evidence_ids:
+    - ev-25e689ab5dbbb071
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未显示用户采用或反馈，共识证据不足。
+    evidence_ids:
+    - ev-25e689ab5dbbb071
+  - gate: model
+    status: insufficient
+    reason: 买方可能是学区或家长，但付费路径未公开，需进一步核验。
+    evidence_ids:
+    - ev-25e689ab5dbbb071
+  - gate: truth
+    status: supported
+    reason: 贴近教育合规目标，AI 生成草案需人工审核，安全边界明确。
+    evidence_ids:
+    - ev-25e689ab5dbbb071
+  next_validation: 查找 Trinity 的官方产品页或学区客户案例，确认定价和实际采用情况。
+  market: ''
+  job: 特殊教育团队需要为残障学生制定符合 IDEA 的过渡计划，涉及评估、目标和合规要求。
+  job_en: Special education teams need to develop IDEA-compliant transition plans for students with disabilities,
+    involving assessments, goals, and compliance requirements.
+  pain: 手动制定过渡计划耗时且易出错，合规要求高，缺乏专业工具。
+  pain_en: Manual transition planning is time-consuming and error-prone, with high compliance demands
+    and a lack of specialized tools.
+  current_alternative: 目前可能依赖手工填写模板或通用文档工具，缺乏专门针对 IDEA 的自动化。
+  current_alternative_en: Currently may rely on manual template filling or general document tools, lacking
+    automation specific to IDEA.
+  usage_reason: AI 能快速生成符合法规的草案，减少教师文书工作量，提高一致性和效率。
+  usage_reason_en: AI can quickly generate compliant drafts, reducing teachers' paperwork and improving
+    consistency and efficiency.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FTMGpTWGtO
 summary: Craft’s Ilya Levtov Never Learned To Code. He Built A Software Company Anyway. Crunchbase News
 first_seen: '2026-08-27T11:00:20Z'
 last_seen: '2026-09-03T00:16:26Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - hackernews

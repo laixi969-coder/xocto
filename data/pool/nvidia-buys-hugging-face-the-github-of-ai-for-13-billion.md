@@ -1,11 +1,12 @@
 ---
 slug: nvidia-buys-hugging-face-the-github-of-ai-for-13-billion
-name: Nvidia buys Hugging Face, the GitHub of AI, for $13 billion
+name: Hugging Face
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 公开模型社区 是开源 AI 社区和模型托管平台，英伟达收购它标志着 AI 基础设施领域的重大整合。
 inspiration: ''
-summary_en: ''
+summary_en: public model community is an open-source AI community and model hosting platform. Nvidia's
+  acquisition marks a major consolidation in AI infrastructure.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-g
 summary: Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.
 first_seen: '2026-09-03T13:34:13Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia buys Hugging Face, the GitHub of AI, for $13 billion
+# Hugging Face
 
 Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.
 

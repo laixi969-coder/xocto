@@ -21,7 +21,7 @@ canonical_url: https://understandingai.org/p/how-google-taught-llms-to-control
 summary: Vision-language-action models, explained with a minimum of math and jargon.
 first_seen: '2026-09-02T16:24:29Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

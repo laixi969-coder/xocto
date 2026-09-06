@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFB4MTM2cUtEWHow
 summary: Askya AI Growth Platform Opens Applications For 10 African AI Startups Tech Build Africa
 first_seen: '2026-09-02T22:02:01Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

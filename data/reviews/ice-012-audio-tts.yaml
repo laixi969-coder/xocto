@@ -1,0 +1,36 @@
+- id: req-initial-ice-012-audio-tts-2026-09-03
+  project_slug: ice-012-audio-tts
+  level: initial
+  reviewed_at: '2026-09-03T00:16:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：可能降低配音成本，但具体用户任务和旧流程未明确。
+    evidence_ids:
+    - ev-8740968fe6f7cbe5
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量点赞，无持续采用或社区讨论证据。
+    evidence_ids:
+    - ev-8740968fe6f7cbe5
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式无从谈起。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法进行。
+    evidence_ids: []
+  next_validation: 查找官方文档或演示，确认其目标用户和实际应用场景。
+  market: ''
+  job: 用户想将文本转换为多语言语音，或克隆特定声音用于创作。
+  job_en: Users want to convert text to multilingual speech or clone specific voices for creation.
+  pain: 传统配音成本高、周期长；TTS 工具可能提供快速替代。
+  pain_en: Traditional dubbing is costly and time-consuming; TTS tools may offer a quick alternative.
+  current_alternative: 目前可能使用商业 TTS 服务或人工配音，成本较高。
+  current_alternative_en: Currently may use commercial TTS services or human dubbing, which is costly.
+  usage_reason: 开源工具吸引开发者尝试，但缺乏明确的应用场景和采用证据。
+  usage_reason_en: The open-source tool attracts developers to try, but lacks clear use cases and adoption
+    evidence.

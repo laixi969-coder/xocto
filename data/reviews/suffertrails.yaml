@@ -1,0 +1,39 @@
+- id: req-initial-suffertrails-2026-09-03
+  project_slug: suffertrails
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：耐力运动员寻找高难度训练路线的痛点可能存在，但公开资料仅有一句自称，无法确认具体功能、输入和交付，价值判断证据不足。
+    evidence_ids:
+    - ev-e6262190a8917699
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。缺乏用户反馈、社区讨论或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式、付费方均未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核验其是否贴近第一性目标或交付确定性。
+    evidence_ids: []
+  next_validation: 官方产品页的功能说明或定价信息
+  market: ''
+  job: 耐力运动员需要找到适合训练的高难度路线，并评估其挑战性。
+  job_en: Endurance athletes need to find high-difficulty routes suitable for training and assess their
+    challenge level.
+  pain: 现有平台如 AllTrails 偏向休闲徒步，缺乏对耐力训练所需的高强度、长距离路线的专业筛选和难度量化。
+  pain_en: Existing platforms like AllTrails cater to casual hiking, lacking professional filtering and
+    difficulty quantification for high-intensity, long-distance routes needed for endurance training.
+  current_alternative: 运动员可能依赖 Strava 的热度图、本地俱乐部推荐或自行探索，但这些方式耗时且缺乏系统性。
+  current_alternative_en: Athletes may rely on Strava heatmaps, local club recommendations, or self-exploration,
+    which are time-consuming and lack systematic approach.
+  usage_reason: 如果 SufferTrails 能提供准确的难度评级和训练相关路线，运动员可能会因其专业性而尝试，但公开信息不足，需求强度未明。
+  usage_reason_en: If SufferTrails can provide accurate difficulty ratings and training-specific routes,
+    athletes might try it for its specialization, but public information is insufficient to determine
+    demand strength.

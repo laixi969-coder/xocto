@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNWjhsQkRfTXg2
 summary: AI公司终于赚钱了，商汤做对了什么？ Sohu
 first_seen: '2026-09-02T12:30:29Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

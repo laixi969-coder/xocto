@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQdlBhZnp5emFl
 summary: AI Counterfeits Harm Businesses and Licensed Brands License Global
 first_seen: '2026-09-01T19:49:20Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

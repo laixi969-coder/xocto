@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOWR5aTRxTnJy
 summary: E-Commerce Sellers are Using AI to Get Ahead of the Holiday Rush, StoreClaw Data Shows StreetInsider
 first_seen: '2026-08-31T17:17:08Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,34 @@
+- id: req-initial-openclaw发布史上最大更新-openclaw-20聚焦ai-agent核心痛点-2026-09-03
+  project_slug: openclaw发布史上最大更新-openclaw-20聚焦ai-agent核心痛点
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，信息不足。
+    evidence_ids:
+    - ev-7693b623be9e6a89
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性待核验。
+    evidence_ids: []
+  next_validation: 查找OpenClaw 2.0的官方发布说明或文档。
+  market: ''
+  job: AI工程师需要构建和部署AI Agent。
+  job_en: AI engineers need to build and deploy AI agents.
+  pain: AI Agent存在核心痛点，具体内容未明。
+  pain_en: AI agents have core pain points, specifics unclear.
+  current_alternative: 使用其他Agent框架或自建。
+  current_alternative_en: Use other agent frameworks or build in-house.
+  usage_reason: 开发者可能因更新关注其解决方案。
+  usage_reason_en: Developers may follow the update for its solutions.

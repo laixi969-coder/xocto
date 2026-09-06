@@ -1,0 +1,38 @@
+- id: req-initial-还有人用吗-本年最火的ai产品小龙虾openclaw-20史诗级更新-2026-09-03
+  project_slug: 还有人用吗-本年最火的ai产品小龙虾openclaw-20史诗级更新
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者重复任务耗时痛点，但具体功能和工作流未核验，需求强度不明。
+    evidence_ids:
+    - ev-d60d7ea919823476
+    - ev-2399a1e0572db737
+  - gate: consensus
+    status: insufficient
+    reason: 有媒体报道但无用户采用数据，共识未建立。
+    evidence_ids:
+    - ev-d60d7ea919823476
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 查找OpenClaw的官方文档或公开代码仓库仓库，确认其功能、使用场景和社区活跃度。
+  market: ''
+  job: 开发者需要自动化重复性任务，如代码生成、测试或部署。
+  job_en: Developers need to automate repetitive tasks like code generation, testing, or deployment.
+  pain: 手动执行重复任务耗时且易出错。
+  pain_en: Manual execution of repetitive tasks is time-consuming and error-prone.
+  current_alternative: 开发者可能使用脚本或传统自动化工具，但配置复杂。
+  current_alternative_en: Developers may use scripts or traditional automation tools, but configuration
+    is complex.
+  usage_reason: AI助手可降低自动化门槛，但需求强度取决于任务复杂度和可靠性。
+  usage_reason_en: AI assistants may lower automation barriers, but demand strength depends on task complexity
+    and reliability.

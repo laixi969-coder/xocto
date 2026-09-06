@@ -1,20 +1,53 @@
 ---
 slug: ai-下一场竞争谁能成为-agent-的上下文操作系统
-name: AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」
+name: WorkBuddy
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 通用助手
+summary_zh: 腾讯 WorkBuddy 是一个面向办公场景的 AI 助手，试图连接专业软件与智能硬件，将分散在不同工具中的任务组织成可推进的流程。用户可在工作现场通过语音或文本唤起它，由它调用通达信、北大法宝等软件获取行业知识，或通过
+  Plaud、Rokid 等硬件获取现场信息，最终输出可执行的任务链或操作建议。具体工作流与交付细节仍待核验。
+inspiration: 趋势：AI 助手正从聊天窗口走向实体工作现场，竞争焦点从模型能力转向连接工具、硬件与数据的生态能力。切入：可从金融、法律等垂直行业的现场作业切入，例如证券分析师需要同时查询行情、研报与合规信息，WorkBuddy
+  若能整合这些动作并输出可核对的结论，便有机会替代原有手工切换流程。
+summary_en: Tencent WorkBuddy is an AI assistant for office scenarios, aiming to connect professional
+  software and smart hardware, organizing tasks scattered across different tools into actionable workflows.
+  Users can invoke it via voice or text at work sites, where it calls software like Tongdaxin or PKULaw
+  for domain knowledge, or hardware like Plaud or Rokid for on-site information, ultimately delivering
+  executable task chains or operational suggestions. Specific workflows and deliverables remain to be
+  verified.
+inspiration_en: 'Trend: AI assistants are moving from chat windows to physical work sites, with competition
+  shifting from model capabilities to the ecosystem ability to connect tools, hardware, and data. Entry:
+  Focus on vertical industries like finance or legal, where professionals such as securities analysts
+  need to simultaneously access market data, research reports, and compliance information; if WorkBuddy
+  can integrate these actions and deliver verifiable conclusions, it could replace manual workflow switching.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 金融
+- 法律
+- 教育
+- 企业服务
+- 消费电子
+industries_en:
+- Finance
+- Legal
+- Education
+- Enterprise Services
+- Consumer Electronics
+jobs:
+- 证券分析师
+- 法律研究者
+- 教师
+- 企业管理者
+- 硬件用户
+jobs_en:
+- Securities Analyst
+- Legal Researcher
+- Teacher
+- Business Manager
+- Hardware User
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: http://www.geekpark.net/news/369767
 canonical_url: https://geekpark.net/news/369767
@@ -63,7 +96,7 @@ summary: "头图来源：视觉中国 \n   \n 前段时间，Anthropic 发布�
   \ \n WorkBuddy 可以率先提出 Agent OS 的方向，但这套系统是否真正成立，最终仍取决于它能否把腾讯的模型、产品与连接能力转化为一种可持续的生态秩序。"
 first_seen: '2026-09-03T04:52:10Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 sightings:
@@ -74,7 +107,7 @@ sightings:
   kind: news
 ---
 
-# AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」
+# WorkBuddy
 
 头图来源：视觉中国 
    

@@ -23,7 +23,7 @@ summary: "Why shorter outputs can cost more, and how GitHub Copilot reduces wast
   \  appeared first on  The GitHub Blog ."
 first_seen: '2026-09-02T18:00:00Z'
 last_seen: '2026-09-03T00:16:47Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

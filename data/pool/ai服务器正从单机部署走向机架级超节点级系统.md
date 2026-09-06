@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2OGJkajBRNUI2
 summary: AI服务器正从单机部署，走向机架级、超节点级系统 huanqiu.com
 first_seen: '2026-08-30T10:07:00Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

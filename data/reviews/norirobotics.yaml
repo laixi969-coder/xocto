@@ -1,0 +1,40 @@
+- id: req-initial-norirobotics-2026-09-03
+  project_slug: norirobotics
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决人形机器人价格高、难以普及的痛点，为开发者和教育者提供低成本平台，价值结构成立。
+    evidence_ids:
+    - ev-10b74838ffd3fc22
+  - gate: consensus
+    status: supported
+    reason: 公开资料 上 194 分和 65 条评论表明社区关注度高，但持续采用证据不足。
+    evidence_ids:
+    - ev-10b74838ffd3fc22
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或销售模式，买方可能是开发者或教育机构，但付费路径未验证。
+    evidence_ids:
+    - ev-10b74838ffd3fc22
+  - gate: truth
+    status: insufficient
+    reason: 产品尚在早期，实际交付和性能需进一步核验。
+    evidence_ids:
+    - ev-10b74838ffd3fc22
+  next_validation: 查找 Nori Robotics 的官方定价或预售页面，确认实际价格和发货状态。
+  market: ''
+  job: 开发者和研究人员需要低成本的人形机器人平台来实验和开发机器人应用。
+  job_en: Developers and researchers need low-cost humanoid robot platforms to experiment and develop
+    robotic applications.
+  pain: 现有的人形机器人价格高昂，限制了研究和教育领域的普及。
+  pain_en: Existing humanoid robots are expensive, limiting adoption in research and education.
+  current_alternative: 目前可能使用仿真环境或高价机器人，但缺乏真实硬件体验。
+  current_alternative_en: Currently, they may use simulation environments or expensive robots, lacking
+    real hardware experience.
+  usage_reason: 低成本硬件降低了入门门槛，吸引开发者和教育者尝试。
+  usage_reason_en: Low-cost hardware lowers the entry barrier, attracting developers and educators to
+    try.

@@ -1,0 +1,41 @@
+- id: req-initial-uk-startup-pharosyn-raises-25-million-for-pharma-competitive-2026-09-03
+  project_slug: uk-startup-pharosyn-raises-25-million-for-pharma-competitive
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决制药竞争情报的收集和分析痛点，需求明确，交付可确定。
+    evidence_ids:
+    - ev-4b42ac50df495736
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未显示用户采用或反馈，共识证据不足。
+    evidence_ids:
+    - ev-4b42ac50df495736
+  - gate: model
+    status: insufficient
+    reason: 融资显示投资者认可，但具体付费模式未公开，需进一步核验。
+    evidence_ids:
+    - ev-4b42ac50df495736
+  - gate: truth
+    status: supported
+    reason: 贴近竞争情报的第一性目标，AI 提供辅助分析，人工判断仍必要。
+    evidence_ids:
+    - ev-4b42ac50df495736
+  next_validation: 查找 Pharosyn 的官方网站或产品文档，确认其功能、定价和客户案例。
+  market: ''
+  job: 制药公司需要跟踪竞争对手的管线、临床试验和监管动态，以制定战略决策。
+  job_en: Pharma companies need to track competitors' pipelines, clinical trials, and regulatory developments
+    to make strategic decisions.
+  pain: 手动监控大量公开信息耗时且容易遗漏，缺乏整合分析。
+  pain_en: Manually monitoring vast public information is time-consuming and prone to omissions, lacking
+    integrated analysis.
+  current_alternative: 目前可能依赖咨询报告、内部团队手工搜集或通用新闻监控工具。
+  current_alternative_en: Currently may rely on consulting reports, manual collection by internal teams,
+    or general news monitoring tools.
+  usage_reason: AI 能自动聚合和提炼关键情报，节省分析师时间，提供更及时的洞察。
+  usage_reason_en: AI can automatically aggregate and distill key intelligence, saving analysts' time
+    and providing more timely insights.

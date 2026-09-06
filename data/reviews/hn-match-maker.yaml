@@ -1,0 +1,38 @@
+- id: req-initial-hn-match-maker-2026-09-03
+  project_slug: hn-match-maker
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：求职者和招聘者在 公开资料 上信息过载，匹配困难；该工具自动化配对，节省时间。
+    evidence_ids:
+    - ev-8be8795e0e4ff9cb
+  - gate: consensus
+    status: supported
+    reason: 公开资料 上 106 分和 45 条评论表明社区关注度高，有强场景。
+    evidence_ids:
+    - ev-8be8795e0e4ff9cb
+  - gate: model
+    status: insufficient
+    reason: 未找到定价或付费路径，可能免费或 to C，但无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 匹配质量未验证，可能依赖文本分析，准确性待核验。
+    evidence_ids: []
+  next_validation: 查找官方定价页或用户反馈，确认匹配准确性和付费意愿。
+  market: ''
+  job: 求职者想在 公开资料 的海量招聘帖中找到匹配的职位，招聘者想找到合适的候选人。
+  job_en: Job seekers want to find matching positions among public reporting' many job posts; recruiters
+    want to find suitable candidates.
+  pain: 手动浏览和筛选帖子耗时费力，容易错过机会。
+  pain_en: Manually browsing and filtering posts is time-consuming and easy to miss opportunities.
+  current_alternative: 目前用户可能手动搜索或依赖社区推荐，效率低。
+  current_alternative_en: Currently users may manually search or rely on community recommendations, which
+    is inefficient.
+  usage_reason: 该工具直接解决社区招聘信息匹配的痛点，且 公开资料 讨论热度高，表明有需求。
+  usage_reason_en: The tool directly addresses the pain of matching job information in the community,
+    and high public reporting discussion indicates demand.

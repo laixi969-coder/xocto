@@ -21,7 +21,7 @@ canonical_url: https://milliondollarsaas.club
 summary: I Built a Modern Version of the Million Dollar Homepage for SaaS
 first_seen: '2026-09-02T15:43:00Z'
 last_seen: '2026-09-03T00:16:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

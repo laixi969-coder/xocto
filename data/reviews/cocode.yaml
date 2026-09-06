@@ -1,0 +1,34 @@
+- id: req-initial-cocode-2026-09-03
+  project_slug: cocode
+  level: initial
+  reviewed_at: '2026-09-03T00:16:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：简化 DeepSeek 部署，但痛点强度和替代行为不明确。
+    evidence_ids:
+    - ev-4cbd469a1dd98db3
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户反馈或采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未提及。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 官方文档或用户讨论
+  market: ''
+  job: 开发者需要在本地或特定环境部署和运行 DeepSeek 模型。
+  job_en: Developers need to deploy and run DeepSeek models locally or in specific environments.
+  pain: 官方部署工具可能缺乏图形界面或集成不便。
+  pain_en: Official deployment tools may lack GUI or be inconvenient to integrate.
+  current_alternative: 使用官方命令行工具或自行编写脚本。
+  current_alternative_en: Using official CLI tools or writing custom scripts.
+  usage_reason: 提供 GUI 和 TUI 可能降低使用门槛，但需求强度未证实。
+  usage_reason_en: Providing GUI and TUI may lower the barrier, but demand intensity is unverified.

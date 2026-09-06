@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE84SWNzU2s4Nm93
 summary: Who’s Actually Responsible for Your AI Agents? Built In
 first_seen: '2026-09-02T14:45:37Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

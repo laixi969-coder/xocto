@@ -1,0 +1,42 @@
+- id: req-initial-conveo-raises-50m-to-scale-its-ai-powered-consumer-intellige-2026-09-03
+  project_slug: conveo-raises-50m-to-scale-its-ai-powered-consumer-intellige
+  level: initial
+  reviewed_at: '2026-09-03T00:16:48Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决市场研究团队整合多渠道消费者反馈、提炼洞察的痛点，旧流程依赖人工编码和一次性报告，AI 自动化清洗与主题提取可确定交付可检索情报库。
+    evidence_ids:
+    - ev-15089328857ff584
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示资本认可，但缺乏用户采用、留存或付费的公开证据，共识停留在投资层面。
+    evidence_ids:
+    - ev-15089328857ff584
+  - gate: model
+    status: insufficient
+    reason: 面向企业客户，可能按席位或订阅收费，但具体定价与付费模式未披露，买方支付路径待核验。
+    evidence_ids:
+    - ev-15089328857ff584
+  - gate: truth
+    status: supported
+    reason: 贴近市场研究的第一性目标——从数据中提炼洞察；AI 输出需人工核对，但交付可确定，安全风险低。
+    evidence_ids:
+    - ev-15089328857ff584
+  next_validation: 查找 Conveo 官网的定价页或客户案例，确认付费模式与具体采用情况。
+  market: ''
+  job: 企业市场研究团队需要整合多渠道消费者反馈，提炼洞察以支持产品与营销决策。
+  job_en: Enterprise market research teams need to synthesize multi-channel consumer feedback to extract
+    insights for product and marketing decisions.
+  pain: 传统调研数据分散在问卷、访谈、评论中，人工整理耗时且难以跨项目检索，洞察易遗漏。
+  pain_en: Traditional research data is scattered across surveys, interviews, and reviews; manual consolidation
+    is time-consuming and cross-project search is difficult, leading to missed insights.
+  current_alternative: 目前多依赖人工编码、Excel 整理和一次性报告，或外包给传统调研公司。
+  current_alternative_en: Currently relies on manual coding, Excel consolidation, and one-off reports,
+    or outsourcing to traditional research firms.
+  usage_reason: AI 能自动清洗和编码大量非结构化反馈，快速生成可检索的情报库，减少分析师重复劳动，提高洞察时效。
+  usage_reason_en: AI can automatically clean and code large volumes of unstructured feedback, quickly
+    generating searchable intelligence repositories, reducing analysts' repetitive work and improving
+    insight timeliness.

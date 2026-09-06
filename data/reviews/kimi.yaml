@@ -35,3 +35,39 @@
   usage_reason: 公开记录显示 mau 22.69M、环比 -12.4%；这解释了它为何受到关注，但产品级留存与付费仍未核验。
   usage_reason_en: A public record shows 22.69M mau and -12.4% month-over-month growth. That explains
     the attention, but product-level retention and payment are not yet verified.
+- id: req-initial-kimi-2026-09-03
+  project_slug: kimi
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户快速获取信息和完成多种任务的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-f1641afd7f81acc4
+  - gate: consensus
+    status: supported
+    reason: MAU 2269 万，虽环比下降，但用户规模巨大，共识强。
+    evidence_ids: []
+  - gate: model
+    status: supported
+    reason: 面向 C 端免费，B 端通过云厂商分成，但具体付费路径未完全披露。
+    evidence_ids:
+    - ev-f1641afd7f81acc4
+  - gate: truth
+    status: supported
+    reason: 通用助手贴近用户需求，但需关注安全与准确性。
+    evidence_ids: []
+  next_validation: 官方定价页或企业客户案例。
+  market: ''
+  job: 用户需要快速获取信息、完成写作、翻译、编程等任务。
+  job_en: Users need quick access to information, writing, translation, coding tasks.
+  pain: 传统搜索耗时，专业工具门槛高，多任务切换效率低。
+  pain_en: Traditional search is time-consuming, professional tools have high barriers, and multitasking
+    is inefficient.
+  current_alternative: 使用搜索引擎、专业软件或人工服务。
+  current_alternative_en: Using search engines, specialized software, or human services.
+  usage_reason: MAU 达千万级，说明大量用户依赖其完成日常任务。
+  usage_reason_en: MAU in tens of millions indicates heavy reliance for daily tasks.

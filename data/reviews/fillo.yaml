@@ -1,0 +1,39 @@
+- id: req-initial-fillo-2026-09-03
+  project_slug: fillo
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者快速构建表单的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-e6f442a46c883ddc
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或反馈的公开证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 商业模式不明确，可能按席位或使用量收费，但未披露。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的实际工作，承诺的表单生成功能可确定性交付。
+    evidence_ids:
+    - ev-e6f442a46c883ddc
+  next_validation: 查看 Fillo 的官方定价页或产品文档，了解具体功能、定价和客户案例。
+  market: ''
+  job: 开发者需要在产品中快速添加表单功能，而不想编写后端逻辑。
+  job_en: Developers need to quickly add form functionality to their products without writing backend
+    logic.
+  pain: 传统表单构建需要前后端配合，耗时且繁琐。
+  pain_en: Traditional form building requires front-end and back-end coordination, which is time-consuming
+    and tedious.
+  current_alternative: 目前开发者可能使用现成的表单服务（如 Google Forms）或手动编写代码。
+  current_alternative_en: Currently developers may use ready-made form services (e.g., Google Forms) or
+    write code manually.
+  usage_reason: Fillo 通过编码代理自动化表单生成，减少开发时间，对快速迭代的团队有吸引力。
+  usage_reason_en: Fillo automates form generation via a coding agent, reducing development time, appealing
+    to fast-iterating teams.

@@ -23,7 +23,7 @@ summary: "From loop engineering to harnesses, squads, and open weights, the GitH
   \ harnesses, squads, hill climbing… oh my!  appeared first on  The GitHub Blog ."
 first_seen: '2026-09-02T21:00:00Z'
 last_seen: '2026-09-03T00:16:47Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

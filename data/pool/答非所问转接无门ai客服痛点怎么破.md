@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxOdXJzTXRob2p6
 summary: 答非所问、转接无门……AI客服痛点怎么破？ t.cj.sina.cn
 first_seen: '2026-09-02T07:38:55Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

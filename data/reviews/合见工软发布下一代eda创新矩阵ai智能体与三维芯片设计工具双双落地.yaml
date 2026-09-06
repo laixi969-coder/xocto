@@ -1,0 +1,35 @@
+- id: req-initial-合见工软发布下一代eda创新矩阵ai智能体与三维芯片设计工具双双落地-2026-09-03
+  project_slug: 合见工软发布下一代eda创新矩阵ai智能体与三维芯片设计工具双双落地
+  level: initial
+  reviewed_at: '2026-09-03T00:16:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品发布说明表明AI智能体与3D工具已落地，可替代手工布局流程
+    evidence_ids:
+    - ev-81eb3a539bbc77e7
+    - ev-3b3c67e25ff28129
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开用户或客户案例，无法确认市场共识
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见公开模型或技术细节，无法评估技术可行性
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少定价、付费或持续使用数据，真实性无法验证
+    evidence_ids: []
+  next_validation: 官方定价页或客户案例
+  market: ''
+  job: 芯片设计工程师
+  job_en: Chip Design Engineer
+  pain: 手工布局与3D建模耗时长、错误率高
+  pain_en: Manual layout and 3D modeling are time‑consuming and error‑prone
+  current_alternative: 传统EDA工具手工操作
+  current_alternative_en: Traditional EDA tools with manual operations
+  usage_reason: 通过AI智能体自动生成布局，减少人工干预
+  usage_reason_en: AI agents automatically generate layouts, reducing manual intervention

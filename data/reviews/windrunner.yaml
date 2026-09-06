@@ -1,0 +1,36 @@
+- id: req-initial-windrunner-2026-09-03
+  project_slug: windrunner
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：项目管理效率问题，但具体流程未明。
+    evidence_ids:
+    - ev-1631f553b72f9e6c
+  - gate: consensus
+    status: insufficient
+    reason: 社区关注度低，缺乏采用证据。
+    evidence_ids:
+    - ev-1631f553b72f9e6c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或演示视频，明确输入输出。
+  market: ''
+  job: 团队希望更高效地管理项目，减少手动协调工作。
+  job_en: Teams want to manage projects more efficiently and reduce manual coordination.
+  pain: 项目管理中任务分配、进度更新耗时，信息分散。
+  pain_en: Task assignment and progress updates are time-consuming, with scattered information.
+  current_alternative: 使用通用工具如 Jira、Trello，但 AI 集成有限。
+  current_alternative_en: Using general tools like Jira or Trello, but AI integration is limited.
+  usage_reason: AI 可能自动化部分流程，但需求强度取决于现有工具的不足。
+  usage_reason_en: AI may automate some processes, but demand intensity depends on shortcomings of existing
+    tools.

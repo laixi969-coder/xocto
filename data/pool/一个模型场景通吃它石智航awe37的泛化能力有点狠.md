@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/483565.html
 summary: 从工厂一路干到家庭
 first_seen: '2026-09-03T03:16:43Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

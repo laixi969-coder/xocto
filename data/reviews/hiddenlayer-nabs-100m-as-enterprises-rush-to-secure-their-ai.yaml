@@ -1,0 +1,41 @@
+- id: req-initial-hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-2026-09-03
+  project_slug: hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai
+  level: initial
+  reviewed_at: '2026-09-03T00:16:48Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业安全团队无法有效监控 AI 代理行为的痛点，传统工具缺乏语义理解，AI 实时分析可确定交付告警，价值成立。
+    evidence_ids:
+    - ev-cb73eac2bd768ae1
+  - gate: consensus
+    status: supported
+    reason: 1 亿美元融资表明资本高度认可，且企业急于保护 AI 部署，市场需求明确。
+    evidence_ids:
+    - ev-cb73eac2bd768ae1
+  - gate: model
+    status: insufficient
+    reason: 面向企业安全预算，可能按资产或席位收费，但具体定价未披露，付费模式待核验。
+    evidence_ids:
+    - ev-cb73eac2bd768ae1
+  - gate: truth
+    status: supported
+    reason: 贴近安全的第一性目标——防止损害；AI 输出告警需人工确认，但交付可确定，安全边界清晰。
+    evidence_ids:
+    - ev-cb73eac2bd768ae1
+  next_validation: 查找 HiddenLayer 官网的定价页或客户案例，确认付费模式与具体部署规模。
+  market: ''
+  job: 企业安全团队需要监控 AI 代理及其工具的使用，防止恶意行为和数据泄露。
+  job_en: Enterprise security teams need to monitor AI agents and their tool usage to prevent malicious
+    behavior and data breaches.
+  pain: 传统安全工具无法覆盖 AI 代理的独特行为模式，如提示注入、工具滥用，且代理数量激增使人工监控不可行。
+  pain_en: Traditional security tools cannot cover the unique behavior patterns of AI agents, such as
+    prompt injection and tool abuse, and the surge in agents makes manual monitoring infeasible.
+  current_alternative: 目前多依赖日志审计和传统端点检测，但缺乏对代理行为的语义理解，误报漏报严重。
+  current_alternative_en: Currently relies on log auditing and traditional endpoint detection, but lacks
+    semantic understanding of agent behavior, leading to high false positives and negatives.
+  usage_reason: AI 能实时分析代理行为序列，识别异常模式，提供自动化告警，减轻安全团队负担，并满足合规审计要求。
+  usage_reason_en: AI can analyze agent behavior sequences in real time, identify anomalous patterns,
+    and provide automated alerts, reducing security team burden and meeting compliance audit requirements.

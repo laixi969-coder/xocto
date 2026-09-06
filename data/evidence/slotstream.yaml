@@ -25,3 +25,12 @@
   source_kind: adoption
   tier: behavioural
   fact: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s
+- id: ev-92251f9405023dcf
+  project_slug: slotstream
+  url: https://www.bing.com/search?format=rss&q=AI
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-06T19:05:19Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI'

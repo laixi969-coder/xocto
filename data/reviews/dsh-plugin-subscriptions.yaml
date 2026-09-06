@@ -1,0 +1,38 @@
+- id: req-initial-dsh-plugin-subscriptions-2026-09-03
+  project_slug: dsh-plugin-subscriptions
+  level: initial
+  reviewed_at: '2026-09-03T14:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者降低 LLM 使用成本和简化访问的需求，痛点明确。
+    evidence_ids:
+    - ev-9ebc9075016bf779
+  - gate: consensus
+    status: insufficient
+    reason: 有 316 星，但缺乏持续采用或用户反馈的公开证据。
+    evidence_ids:
+    - ev-9ebc9075016bf779
+  - gate: model
+    status: insufficient
+    reason: 作为开源插件，商业模式不明确，且可能违反服务条款，存在风险。
+    evidence_ids: []
+  - gate: truth
+    status: challenged
+    reason: 依赖第三方订阅，可能违反服务条款，交付的确定性存疑。
+    evidence_ids:
+    - ev-9ebc9075016bf779
+  next_validation: 检查 公开代码仓库 仓库的 issue 和 discussion，了解用户反馈和潜在的服务条款问题。
+  market: ''
+  job: 开发者希望在不支付额外 API 费用的情况下，使用多种主流 LLM 提供商。
+  job_en: Developers want to use multiple major LLM providers without paying extra API fees.
+  pain: API 费用高昂，且管理多个 API 密钥繁琐。
+  pain_en: API costs are high, and managing multiple API keys is cumbersome.
+  current_alternative: 目前开发者可能分别订阅各服务或使用 API，成本高且不便。
+  current_alternative_en: Currently developers may subscribe to each service separately or use APIs, which
+    is costly and inconvenient.
+  usage_reason: 插件提供统一的 OAuth 登录，简化访问，节省成本，对个人开发者有吸引力。
+  usage_reason_en: The plugin offers unified OAuth login, simplifying access and saving costs, appealing
+    to individual developers.

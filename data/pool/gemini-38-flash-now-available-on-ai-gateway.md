@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai
 summary: ''
 first_seen: '2026-09-02T00:00:00Z'
 last_seen: '2026-09-03T00:16:47Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

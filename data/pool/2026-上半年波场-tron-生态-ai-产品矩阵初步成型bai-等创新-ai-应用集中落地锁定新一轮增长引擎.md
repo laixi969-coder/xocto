@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UQ2RTOFZ5OG8w
 summary: 2026 上半年波场 TRON 生态 AI 产品矩阵初步成型：B.AI 等创新 AI 应用集中落地，锁定新一轮增长引擎 链捕手ChainCatcher
 first_seen: '2026-09-01T16:24:37Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

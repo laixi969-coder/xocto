@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBLbjB1a084cExi
 summary: When AI gets it wrong, is your business responsible? Ottawa Business Journal
 first_seen: '2026-09-01T19:41:19Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

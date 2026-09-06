@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeEphTkVnUFp6
 summary: 三大调研报告揭示企业落地智能体AI的共同困境 sohu.com
 first_seen: '2026-08-31T14:01:00Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

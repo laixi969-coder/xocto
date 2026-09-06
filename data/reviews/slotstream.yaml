@@ -1,0 +1,38 @@
+- id: req-initial-slotstream-2026-09-03
+  project_slug: slotstream
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者内存不足无法本地运行大模型的痛点，交付可确定。
+    evidence_ids:
+    - ev-e40624d4df052e70
+  - gate: consensus
+    status: supported
+    reason: 社区讨论热烈，有实际运行案例，显示强场景。
+    evidence_ids:
+    - ev-e40624d4df052e70
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费路径不明确，可能面向开发者工具市场。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近本地运行的第一性目标，承诺可验证。
+    evidence_ids:
+    - ev-e40624d4df052e70
+  next_validation: 查阅该开源项目公开的文档与 issue 讨论，确认实际使用场景和性能数据。
+  market: ''
+  job: 开发者在内存有限的 Mac 上运行大型语言模型，用于本地测试或开发。
+  job_en: Developers run large language models on memory-constrained Macs for local testing or development.
+  pain: 模型权重超过设备内存，无法在本地运行，被迫依赖云服务或购买昂贵硬件。
+  pain_en: Model weights exceed device memory, preventing local execution, forcing reliance on cloud services
+    or expensive hardware.
+  current_alternative: 使用云 API 或购买高内存设备。
+  current_alternative_en: Using cloud APIs or purchasing high-memory devices.
+  usage_reason: 社区讨论和实际运行案例表明开发者有在本地运行大模型的需求，以保护隐私或降低成本。
+  usage_reason_en: Community discussions and real-world running examples indicate developers need to run
+    large models locally for privacy or cost reduction.

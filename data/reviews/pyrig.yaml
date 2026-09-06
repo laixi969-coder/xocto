@@ -36,3 +36,39 @@
   usage_reason_en: 'It promises a simpler way to complete this job: A new project no longer means hand-wiring
     checks and release each time. When the standard moves, the project can catch up. The exact adoption
     motive and repeat use are not yet verified.'
+- id: req-initial-pyrig-2026-09-03
+  project_slug: pyrig
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者项目初始化和维护的重复性痛点，自动化交付可确定，价值结构成立。
+    evidence_ids: []
+  - gate: consensus
+    status: supported
+    reason: 公开资料 上 163 分和 189 条评论表明开发者社区有强烈兴趣和讨论。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确付费路径，商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 工具承诺自动化，但实际效果和可靠性需通过使用数据或复现验证。
+    evidence_ids: []
+  next_validation: 查看 Pyrig 的 公开代码仓库 仓库 issue 和讨论，了解用户反馈和实际使用情况。
+  market: ''
+  job: 开发者需要快速搭建新项目并保持项目依赖和配置的更新，减少重复性手工操作。
+  job_en: Developers need to quickly scaffold new projects and keep dependencies and configurations updated,
+    reducing repetitive manual work.
+  pain: 项目初始化和维护耗时且易出错，尤其是多项目环境。
+  pain_en: Project initialization and maintenance are time-consuming and error-prone, especially in multi-project
+    environments.
+  current_alternative: 使用模板、脚本或手动编辑配置文件，但缺乏统一自动化。
+  current_alternative_en: Using templates, scripts, or manual config editing, but lacking unified automation.
+  usage_reason: 开源项目获得社区关注，说明开发者对自动化设置和维护有需求，且工具免费可用。
+  usage_reason_en: The open-source project gained community attention, indicating developer demand for
+    automated setup and maintenance, and the tool is free.

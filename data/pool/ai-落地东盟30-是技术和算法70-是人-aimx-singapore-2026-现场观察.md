@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pUXlGZWw0ZEFm
 summary: AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察 潮起网
 first_seen: '2026-09-02T16:30:16Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

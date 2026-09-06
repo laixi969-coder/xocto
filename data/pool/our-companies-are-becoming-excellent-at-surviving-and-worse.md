@@ -22,7 +22,7 @@ canonical_url: https://sifted.eu/articles/nordic-fintech-growth-decline
 summary: ''
 first_seen: '2026-09-03T14:10:08Z'
 last_seen: '2026-09-03T14:36:52Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -22,7 +22,7 @@ summary: WebGPU ocean skin for DeepSeek Harness — DSH plugin, Harness-only Chr
   installer, and native integration.
 first_seen: '2026-08-14T22:19:03Z'
 last_seen: '2026-09-03T00:16:29Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

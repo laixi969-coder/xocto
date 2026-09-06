@@ -1,0 +1,39 @@
+- id: req-initial-londoners-can-now-hail-wayve-autonomous-vehicles-through-ube-2026-09-03
+  project_slug: londoners-can-now-hail-wayve-autonomous-vehicles-through-ube
+  level: initial
+  reviewed_at: '2026-09-03T14:36:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决出行需求，痛点明确：传统网约车成本高、供给波动。自动驾驶提供替代方案，价值成立。
+    evidence_ids:
+    - ev-389fb423df094822
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示服务上线，缺乏用户采用数据或反馈，共识尚未形成。
+    evidence_ids:
+    - ev-389fb423df094822
+  - gate: model
+    status: insufficient
+    reason: 付费方可能是乘客或 Uber，但商业模式细节未披露，无法核验。
+    evidence_ids:
+    - ev-389fb423df094822
+  - gate: truth
+    status: insufficient
+    reason: 自动驾驶技术仍在监督阶段，安全性和可靠性需长期验证。
+    evidence_ids:
+    - ev-389fb423df094822
+  next_validation: 查找 Wayve 或 Uber 官方发布的运营数据或用户反馈。
+  market: ''
+  job: 乘客需要从 A 点到 B 点的安全、便捷的出行服务。
+  job_en: Passengers need safe, convenient transportation from point A to B.
+  pain: 传统网约车依赖人类司机，存在成本高、供给波动和服务不一致的问题。
+  pain_en: Traditional ride-hailing relies on human drivers, with high costs, supply volatility, and inconsistent
+    service.
+  current_alternative: 当前替代是传统网约车、出租车或公共交通。
+  current_alternative_en: Current alternatives are traditional ride-hailing, taxis, or public transit.
+  usage_reason: 自动驾驶可能降低成本并提供更一致的体验，但初期受限于监管和公众信任。
+  usage_reason_en: Autonomous driving may lower costs and offer consistent experiences, but early adoption
+    is limited by regulation and public trust.

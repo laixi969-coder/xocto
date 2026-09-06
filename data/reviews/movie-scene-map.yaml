@@ -1,0 +1,39 @@
+- id: req-initial-movie-scene-map-2026-09-03
+  project_slug: movie-scene-map
+  level: initial
+  reviewed_at: '2026-09-03T00:16:26Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决影迷查找拍摄地的痛点，提供集中可视化地图，价值明确。
+    evidence_ids:
+    - ev-33fa4fc3c1dfa32b
+  - gate: consensus
+    status: supported
+    reason: 公开资料 上的高评分和评论表明社区关注，但持续采用未验证。
+    evidence_ids:
+    - ev-33fa4fc3c1dfa32b
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能依赖广告或会员，但无公开证据。
+    evidence_ids:
+    - ev-33fa4fc3c1dfa32b
+  - gate: truth
+    status: insufficient
+    reason: 数据准确性依赖人工或算法，需验证场景地图的可靠性。
+    evidence_ids:
+    - ev-33fa4fc3c1dfa32b
+  next_validation: 查找 Movie Scene Map 的官方定价或用户评价。
+  market: ''
+  job: 影迷希望了解电影场景的拍摄地点，或计划前往这些地点旅行。
+  job_en: Movie fans want to know filming locations or plan trips to those places.
+  pain: 查找电影拍摄地通常需要分散搜索，信息不集中且缺乏可视化。
+  pain_en: Finding filming locations often requires scattered searches, with information not centralized
+    or visualized.
+  current_alternative: 当前替代是使用搜索引擎、旅游论坛或 IMDb 等数据库手动查找。
+  current_alternative_en: Current alternatives are manual searches via search engines, travel forums,
+    or databases like IMDb.
+  usage_reason: 该网站提供集中且可视化的场景地图，节省查找时间，并激发探索兴趣。
+  usage_reason_en: The site offers centralized, visualized scene maps, saving time and sparking exploration.

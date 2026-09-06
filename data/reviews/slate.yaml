@@ -236,3 +236,44 @@
   usage_reason: 开源且免费（建议捐赠），针对影视制作流程，能减少提示词编写和连续性检查的工作量。
   usage_reason_en: Open source and free (suggested donation), tailored to film production workflows, reducing
     prompt writing and continuity checking effort.
+- id: req-initial-slate-2026-09-03
+  project_slug: slate
+  level: initial
+  reviewed_at: '2026-09-03T14:36:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 电影制作中镜头规划与提示词管理的需求，痛点在于手动管理混乱、缺乏连续性，开源工具提供结构化支持。
+    evidence_ids:
+    - ev-413c49f1c2075559
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论和星标显示初步关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-413c49f1c2075559
+  - gate: model
+    status: insufficient
+    reason: 采用建议捐赠模式，但未明确付费路径，买方可能是独立创作者或小型工作室。
+    evidence_ids:
+    - ev-413c49f1c2075559
+  - gate: truth
+    status: supported
+    reason: 贴近电影制作的第一性目标，交付为提示词和计划，可确定性生成，但需人工确认。
+    evidence_ids:
+    - ev-413c49f1c2075559
+  next_validation: 查看 公开代码仓库 仓库的 issue 和讨论，了解用户实际使用反馈和需求。
+  market: ''
+  job: 导演或分镜师在 AI 电影制作中需要规划镜头、指导拍摄、保持连续性，并生成可用于生成器的提示词。
+  job_en: Directors or storyboard artists need to plan shots, direct coverage, maintain continuity, and
+    compile prompts for generators in AI filmmaking.
+  pain: 手动管理多个镜头和提示词容易混乱，难以保持故事连续性，且缺乏专门工具。
+  pain_en: Manually managing multiple shots and prompts is chaotic, hard to maintain narrative continuity,
+    and lacks dedicated tools.
+  current_alternative: 目前可能使用通用笔记工具或直接在生成器中反复输入提示词，缺乏系统性。
+  current_alternative_en: Currently may use general note-taking tools or repeatedly input prompts in generators,
+    lacking systematic approach.
+  usage_reason: 开源且免费，针对 AI 电影制作流程，能帮助用户组织创作过程，提高效率。
+  usage_reason_en: Open source and free, tailored to AI filmmaking workflow, helps users organize creative
+    process and improve efficiency.

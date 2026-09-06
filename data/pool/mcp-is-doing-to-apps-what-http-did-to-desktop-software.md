@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNVWJqSUN1S3NQ
 summary: MCP Is Doing to Apps What HTTP Did to Desktop Software HackerNoon
 first_seen: '2026-09-02T00:06:03Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPV2lUeFRjbHJZ
 summary: 百度的路径：难而正确，才是全栈AI的答案 21财经
 first_seen: '2026-09-02T04:56:00Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

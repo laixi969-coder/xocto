@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxNcFozUXk1X214
 summary: 'The Healthcare Inflection Point: AI Can’t Fix 1990s Technology MedCity News'
 first_seen: '2026-09-02T16:51:01Z'
 last_seen: '2026-09-03T00:16:50Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: On our new Real World AI stage, we’ll be focusing on the intersection
   physical, and all the ways we’ll continue to see a blending of the two.
 first_seen: '2026-09-02T22:24:09Z'
 last_seen: '2026-09-03T00:16:48Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
