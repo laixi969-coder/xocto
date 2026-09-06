@@ -1568,6 +1568,43 @@ interpretation:
     event_summary_zh: 龙门体育看台宣布用户数突破5000万，依托高清多视角与AI互动技术重塑NBA观赛体验。
     event_summary_en: Longmen Sports' viewing platform announced its user base surpassed 50 million, leveraging
       high-definition multi-angle and AI interactive technology to reshape the NBA viewing experience.
+  b站首届ai创造公开赛收官超八成参赛者为一人团队-哔哩哔哩-忍冬-大赛-产业-扎克-手机新浪网:
+    slug: b站首届ai创造公开赛收官超八成参赛者为一人团队-哔哩哔哩-忍冬-大赛-产业-扎克-手机新浪网
+    name: 哔哩哔哩
+    decision: entity
+    event_summary_zh: 哔哩哔哩首届AI创造公开赛收官，超过八成参赛者为一人团队。
+    event_summary_en: Bilibili's first AI Creation Open Competition concluded, with more than 80% of participants
+      being one-person teams.
+  snowflakes-earnings-report-was-a-blockbuster-ai-is-beginning:
+    slug: snowflakes-earnings-report-was-a-blockbuster-ai-is-beginning
+    name: Snowflake
+    decision: entity
+    event_summary_zh: Snowflake发布最新季度财报，业绩表现强劲，AI开始重塑数据云行业定价。
+    event_summary_en: Snowflake released its latest quarterly earnings, a blockbuster report, with AI
+      beginning to reshape data cloud pricing.
+  上半年营收高增全栈ai战略进入商业兑现期-公司研究-研报:
+    slug: 上半年营收高增全栈ai战略进入商业兑现期-公司研究-研报
+    name: ''
+    decision: rejected
+  博通q3营收296亿美元同比增86ai半导体收入167亿上调全年指引至580亿:
+    slug: 博通q3营收296亿美元同比增86ai半导体收入167亿上调全年指引至580亿
+    name: 博通
+    decision: entity
+    event_summary_zh: 博通公布第三季度营收296亿美元，同比增长86%，其中AI半导体收入167亿美元，并将全年营收指引上调至580亿美元。
+    event_summary_en: Broadcom reported Q3 revenue of $29.6 billion, up 86% year over year, with AI semiconductor
+      revenue of $16.7 billion, and raised its full-year revenue guidance to $58 billion.
+  新2体育手机版官网发布ai智能体平台超10项核心能力重构企业工作流:
+    slug: 新2体育手机版官网发布ai智能体平台超10项核心能力重构企业工作流
+    name: ''
+    decision: rejected
+  澳门钻石游戏官网发布新一代企业智能体平台加速行业知识引擎落地-体坛网-体坛:
+    slug: 澳门钻石游戏官网发布新一代企业智能体平台加速行业知识引擎落地-体坛网-体坛
+    name: ''
+    decision: rejected
+  火狐app门户下载以ai智能调校重塑电竞沉浸体验效率与乐趣兼得:
+    slug: 火狐app门户下载以ai智能调校重塑电竞沉浸体验效率与乐趣兼得
+    name: ''
+    decision: rejected
 full:
   agent-2:
     slug: agent-2
@@ -5361,3 +5398,4407 @@ full:
         evidence_ids:
         - ev-304a3ffbe7f44d3c
       next_validation: 查找 pi-posthorse 的官方文档或用户反馈，确认其与 Pi 代理的集成方式和对长任务性能的实际影响。
+  cumcm-live-workflow-skill:
+    slug: cumcm-live-workflow-skill
+    name: cumcm-live-workflow-skill
+    decision: watching
+    category: AI + 效率
+    project_type: open_source
+    industries:
+    - 教育与科研
+    industries_en:
+    - Education & Research
+    jobs:
+    - 高校学生
+    - 科研人员
+    jobs_en:
+    - University Students
+    - Researchers
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: true
+    summary_zh: 高校数模参赛者在赛题解析至论文提交阶段使用该技能包，依据题意红线与数值规范处理建模草稿，由流程检查器生成去 AIGC 痕迹的 LaTeX 论文结构与自查清单，供人工核对打包。
+    inspiration: 学术与竞赛场景对 AI 生成存在严格合规红线。切入点在于从简单生成转向合规自查与去痕迹校验，为高压交付场景提供防违规保障。
+    summary_en: University mathematical modeling contestants use this workflow skill during paper preparation
+      to check drafts against contest guidelines, generating compliant LaTeX structures and 26-item verification
+      checklists for final manual review.
+    inspiration_en: Academic competitions enforce strict AI compliance policies. The opportunity lies
+      in moving from raw generation to compliance verification and anti-detection formatting for high-stakes
+      deliverables.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 完成全国大学生数学建模竞赛从读题建模到 LaTeX 论文排版及合规交付的全流程。
+        job_en: Complete the full pipeline of mathematical modeling competitions from problem analysis
+          to LaTeX paper formatting and compliant delivery.
+        pain_zh: 参赛者在限时冲刺中易出现题意偏差、AIGC 特征过重导致违规判定以及排版格式疏漏。
+        pain_en: Contestants face strict time constraints, risks of misinterpreting problem constraints,
+          AI-generated text penalties, and formatting errors.
+        current_alternative_zh: 手工对照往届优秀论文模板、比赛自查表与多提示词切换手工修改。
+        current_alternative_en: Manually checking against past winning papers, contest checklists, and
+          switching multiple prompt templates.
+        usage_reason_zh: 提供了覆盖 26 条自查与去 AIGC 特征的结构化流程，降低违规与扣分风险。
+        usage_reason_en: Provides a structured 26-point checklist and anti-AIGC formatting flow to minimize
+          disqualification and deduction risks.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决数模竞赛中格式不合规与题意偏离痛点，26条自查框架具备明确操作价值。
+        evidence_ids:
+        - ev-190aab13fe986607
+      - gate: consensus
+        status: insufficient
+        reason: 社区仅有几十个关注，主要受限于特定比赛周期与单一受众，尚未形成广泛共识。
+        evidence_ids:
+        - ev-190aab13fe986607
+      - gate: model
+        status: insufficient
+        reason: 作为开源技能模版缺乏商业变现模式与持续收费路径。
+        evidence_ids:
+        - ev-190aab13fe986607
+      - gate: truth
+        status: supported
+        reason: 针对具体赛事的合规自查与排版交付闭环清晰，承诺目标可落地交付。
+        evidence_ids:
+        - ev-190aab13fe986607
+      next_validation: 关注 2026 年数模竞赛期间该技能包在开源社区的实际讨论、采纳反馈与衍生分叉。
+  pr-lens:
+    slug: pr-lens
+    name: pr-lens
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 软件工程师
+    - 技术主管
+    jobs_en:
+    - Software Engineers
+    - Tech Leads
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 研发人员在代码评审与合并分支阶段使用该工具，接收代码变更与上下文，由系统解析调用关系并直接在 PR 内生成动态架构图与数据流图，方便人工快速核验系统影响。
+    inspiration: 代码审查的最大痛点在于难以直观理解变更对宏观架构的影响。将代码 diff 升维为可视化动态架构图，切入开发者日常工作流且易于通过团队席位变现。
+    summary_en: Developers use PR Lens during pull request code reviews, feeding diffs and context into
+      the tool to generate animated architecture and data-flow diagrams directly inside the PR for rapid
+      review.
+    inspiration_en: The bottleneck of code review is understanding macro-level architectural impacts from
+      raw diffs. Visualizing PRs as dynamic diagrams embeds into daily developer workflows with clear
+      team monetization potential.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 审查拉取请求（Pull Request）中的代码变更及其对整体系统架构的影响。
+        job_en: Review code changes in pull requests and understand their impact on overall system architecture.
+        pain_zh: 面对数百行代码 diff，难以单凭文本脑补数据流向与模块依赖变更，导致审查效率低下且容易遗漏隐患。
+        pain_en: Reviewers struggle to trace data flows and dependency shifts from raw multi-file diffs,
+          leading to slow reviews and missed regressions.
+        current_alternative_zh: 手工通读 diff、在本地运行分支测试，或借助静态代码分析文本注释。
+        current_alternative_en: Manually reading raw text diffs, checking out branches locally to trace
+          flows, or using static linters.
+        usage_reason_zh: 自动化生成 PR 内嵌的动态架构图，大幅降低认知负荷并加速审查流程。
+        usage_reason_en: Automatically generates embedded animated diagrams within PRs, cutting cognitive
+          load and speeding up review cycles.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决复杂代码审查中架构理解成本高的刚性痛点，将 diff 可视化为动态图具有明确效率价值。
+        evidence_ids:
+        - ev-8f9a5591fc75649f
+        - ev-dfd3e2122c38ba10
+      - gate: consensus
+        status: supported
+        reason: 获得近 300 颗星标与社区讨论关注，展现出开发者对可视化代码评审工具的明确兴趣。
+        evidence_ids:
+        - ev-c0adfc6bd690d87b
+        - ev-dfd3e2122c38ba10
+      - gate: model
+        status: insufficient
+        reason: 目前以开源工具形式发布，尚未公开企业版或团队订阅定价策略。
+        evidence_ids:
+        - ev-8f9a5591fc75649f
+      - gate: truth
+        status: supported
+        reason: 直接作为 公开代码仓库 App 或 Action 嵌入标准代码审查流程，交付逻辑可确定闭环。
+        evidence_ids:
+        - ev-8f9a5591fc75649f
+      next_validation: 观察官方是否推出针对企业私有仓库的高级托管版本或团队协作付费定价方案。
+  primegaps186:
+    slug: primegaps186
+    name: PrimeGaps186
+    decision: watching
+    event_summary_zh: OpenAI 发布了 PrimeGaps186 仓库，包含素数间隙不超过 186 的条件性 Lean 形式化证明和数值证书。
+    event_summary_en: OpenAI released the PrimeGaps186 repository containing a conditional Lean formalization
+      and numerical certificate for prime gaps at most 186.
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 数学研究
+    industries_en:
+    - Mathematical research
+    jobs:
+    - 数学家
+    - 形式化验证工程师
+    jobs_en:
+    - Mathematicians
+    - Formal verification engineers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: PrimeGaps186 是 OpenAI 发布的一个开源仓库，包含素数间隙不超过 186 的条件性 Lean 形式化证明和数值证书。数学家或形式化验证工程师可在研究素数分布时，利用该仓库的证明和证书来验证或扩展相关结论。AI
+      在此接收的是数学命题和证明任务，执行形式化推理和数值验证，最终交付可机器检查的证明文件和数值证书。具体工作流和交付细节仍需进一步核验。
+    inspiration: 趋势：AI 用于形式化数学证明，可能加速数学发现和验证。切入：面向数学研究社区，提供形式化证明服务或工具，但需明确用户付费意愿。
+    summary_en: PrimeGaps186 is an open-source repository by OpenAI containing a conditional Lean formalization
+      and numerical certificate for prime gaps at most 186. Mathematicians or formal verification engineers
+      can use the proof and certificate to verify or extend related conclusions when studying prime distributions.
+      AI receives mathematical propositions and proof tasks, performs formal reasoning and numerical verification,
+      and delivers machine-checkable proof files and certificates. Specific workflows and deliverables
+      require further verification.
+    inspiration_en: 'Trend: AI for formal mathematical proofs may accelerate mathematical discovery and
+      verification. Entry: Target the mathematical research community with formal proof services or tools,
+      but user willingness to pay needs clarification.'
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 数学家或形式化验证工程师需要验证或扩展素数间隙的数学结论。
+        job_en: Mathematicians or formal verification engineers need to verify or extend mathematical
+          results about prime gaps.
+        pain_zh: 手动进行形式化证明耗时且容易出错。
+        pain_en: Manual formal proof is time-consuming and error-prone.
+        current_alternative_zh: 目前数学家可能依赖手工证明或非形式化的数值验证。
+        current_alternative_en: Currently mathematicians may rely on manual proofs or informal numerical
+          verification.
+        usage_reason_zh: 该仓库提供机器可检查的证明，可能减少人工验证负担，但具体采用场景尚不明确。
+        usage_reason_en: The repository provides machine-checkable proofs, potentially reducing manual
+          verification burden, but specific adoption scenarios remain unclear.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它解决什么需求、什么痛点：帮助验证数学结论，但痛点刚性不足，且交付可确定性未明。
+        evidence_ids:
+        - ev-2bc8b86491fc702e
+      - gate: consensus
+        status: insufficient
+        reason: 公开关注度有限，缺乏强场景证据。
+        evidence_ids:
+        - ev-2bc8b86491fc702e
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立，买方不清。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 官方文档或仓库中关于实际使用场景和用户反馈的说明。
+  pymol-claude-mcp:
+    slug: pymol-claude-mcp
+    name: Pymol-Claude-MCP
+    decision: watching
+    event_summary_zh: 开发者 stavasol96-arch 发布了 Pymol-Claude-MCP，一个通过 XML-RPC 将 Claude Code 连接到实时 PyMOL
+      会话的 MCP 服务器。
+    event_summary_en: Developer stavasol96-arch released Pymol-Claude-MCP, an MCP server connecting Claude
+      Code to a live PyMOL session over XML-RPC.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 生物技术
+    - 制药
+    industries_en:
+    - Biotechnology
+    - Pharmaceuticals
+    jobs:
+    - 结构生物学家
+    - 计算化学家
+    jobs_en:
+    - Structural biologists
+    - Computational chemists
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: Pymol-Claude-MCP 是一个开源 MCP 服务器，允许 Claude Code 通过 XML-RPC 控制实时 PyMOL 会话。结构生物学家或计算化学家在分析蛋白质结构时，可通过自然语言指令让
+      AI 操作 PyMOL 进行分子可视化或操作，最终获得结构图像或分析结果。具体工作流和交付仍需核验。
+    inspiration: 趋势：AI 助手深入专业科学软件，可能改变科研工作流。切入：面向结构生物学社区，提供 AI 驱动的分子可视化工具，但需验证付费意愿。
+    summary_en: Pymol-Claude-MCP is an open-source MCP server that allows Claude Code to control a live
+      PyMOL session over XML-RPC. Structural biologists or computational chemists can use natural language
+      commands to let AI operate PyMOL for molecular visualization or manipulation, ultimately obtaining
+      structural images or analysis results. Specific workflows and deliverables require verification.
+    inspiration_en: 'Trend: AI assistants integrating into specialized scientific software may transform
+      research workflows. Entry: Target the structural biology community with AI-driven molecular visualization
+      tools, but willingness to pay needs validation.'
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 结构生物学家或计算化学家需要操作 PyMOL 进行分子可视化和分析。
+        job_en: Structural biologists or computational chemists need to operate PyMOL for molecular visualization
+          and analysis.
+        pain_zh: PyMOL 操作复杂，学习曲线陡峭，手动操作耗时。
+        pain_en: PyMOL is complex with a steep learning curve, and manual operation is time-consuming.
+        current_alternative_zh: 目前用户可能手动使用 PyMOL 或编写脚本。
+        current_alternative_en: Currently users may operate PyMOL manually or write scripts.
+        usage_reason_zh: 该工具可能降低操作门槛，但采用证据不足。
+        usage_reason_en: This tool may lower the barrier to use, but adoption evidence is insufficient.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它解决什么需求、什么痛点：简化 PyMOL 操作，但痛点刚性不足，交付可确定性未明。
+        evidence_ids:
+        - ev-8007a826edefdef7
+      - gate: consensus
+        status: insufficient
+        reason: 公开关注度低，缺乏强场景证据。
+        evidence_ids:
+        - ev-8007a826edefdef7
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立，买方不清。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 官方文档或社区讨论中关于实际使用场景和用户反馈的说明。
+  quackd:
+    slug: quackd
+    name: quackd
+    decision: watching
+    category: AI + 生活
+    project_type: open_source
+    industries:
+    - 机器人
+    - 教育
+    - 创客
+    industries_en:
+    - Robotics
+    - Education
+    - Maker
+    jobs:
+    - 机器人开发者
+    - 教育工作者
+    - 创客
+    jobs_en:
+    - Robotics developers
+    - Educators
+    - Makers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: quackd 是一个开源项目，让用户用自然语言控制小型机器人（如 Microduck、Reachy Mini、LeRobot 机械臂等）。用户通过 LLM（支持多种云端或本地模型）将指令转化为机器人动作，并利用已有技能。项目提供模拟器、任务文件、MCP
+      支持、跨运行记忆等功能。具体工作流程和交付物仍需进一步核验。
+    inspiration: 趋势：自然语言控制硬件，降低机器人编程门槛，可能推动教育、创客和轻量自动化领域。切入：可从教育机器人或创客社区切入，提供预置技能库和任务模板，强调易用性和可扩展性。
+    summary_en: quackd is an open-source project that lets users control small robots (e.g., Microduck,
+      Reachy Mini, LeRobot arm) using natural language. An LLM (cloud or local) translates commands into
+      robot actions using existing skills. Features include a simulator, .duck task files, MCP support,
+      and memory across runs. Specific workflows and deliverables need further verification.
+    inspiration_en: 'Trend: natural language control of hardware lowers the barrier to robot programming,
+      potentially impacting education, maker, and light automation. Entry: focus on educational robots
+      or maker communities, offering pre-built skill libraries and task templates, emphasizing ease of
+      use and extensibility.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 机器人开发者和爱好者需要一种更直观的方式，将自然语言指令转化为机器人动作，而无需编写复杂代码。
+        job_en: Robotics developers and hobbyists need a more intuitive way to translate natural language
+          commands into robot actions without writing complex code.
+        pain_zh: 传统机器人编程需要学习特定语言和框架，门槛高，迭代慢。
+        pain_en: Traditional robot programming requires learning specific languages and frameworks, which
+          is high-barrier and slow to iterate.
+        current_alternative_zh: 目前用户通常使用 ROS 或专用编程环境，手动编写控制逻辑。
+        current_alternative_en: Currently, users typically use ROS or dedicated programming environments,
+          manually writing control logic.
+        usage_reason_zh: quackd 提供自然语言接口和模拟器，可能吸引希望快速原型验证的开发者，以及教育场景中的非专业用户。
+        usage_reason_en: quackd offers a natural language interface and simulator, potentially attracting
+          developers seeking rapid prototyping and non-expert users in educational settings.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决机器人编程门槛高、迭代慢的痛点，通过自然语言控制降低入门难度，价值结构成立。
+        evidence_ids:
+        - ev-2eb1335d4cffd7b6
+      - gate: consensus
+        status: insufficient
+        reason: 开源项目有 163 星，但缺乏用户采用和持续使用的公开证据。
+        evidence_ids:
+        - ev-2eb1335d4cffd7b6
+      - gate: model
+        status: insufficient
+        reason: 未明确商业模式，可能面向教育或创客市场，但付费路径不清晰。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 项目贴近机器人控制的第一性目标，交付可确定，但安全边界需关注。
+        evidence_ids:
+        - ev-2eb1335d4cffd7b6
+      next_validation: 查看 quackd 的 公开代码仓库 仓库 issue 和 discussion，寻找用户实际使用案例和反馈。
+  radiant:
+    slug: radiant
+    name: radiant
+    decision: watching
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 软件开发者
+    jobs_en:
+    - Software developers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: radiant 是一个 Mac 上的本地编码工具，允许开发者在一个窗口中与云端和本地模型驱动的编码代理聊天，实时查看每次工具调用，并操作真实终端。免费且 MIT 许可。
+    inspiration: 趋势：编码代理工具正在整合到统一界面，强调透明度和本地控制。切入：可从专业开发者社区切入，提供深度终端集成和可定制的工作流，但需与现有工具差异化。
+    summary_en: radiant is a local coding harness for Mac that lets developers chat with coding agents
+      across cloud and local models, watch every tool call in a live activity feed, and drive a real terminal
+      in one window. Free and MIT licensed.
+    inspiration_en: 'Trend: coding agent tools are consolidating into unified interfaces, emphasizing
+      transparency and local control. Entry: target professional developer communities with deep terminal
+      integration and customizable workflows, but differentiate from existing tools.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者需要一个统一的界面来与多个编码代理交互，并实时监控工具调用和终端操作。
+        job_en: Developers need a unified interface to interact with multiple coding agents and monitor
+          tool calls and terminal operations in real time.
+        pain_zh: 使用多个编码代理时，切换上下文和监控执行过程繁琐，缺乏透明度。
+        pain_en: Using multiple coding agents involves cumbersome context switching and lacks transparency
+          in execution.
+        current_alternative_zh: 开发者通常使用多个终端窗口或 IDE 插件，分别管理不同代理。
+        current_alternative_en: Developers typically use multiple terminal windows or IDE plugins to manage
+          different agents separately.
+        usage_reason_zh: radiant 提供集中式界面和实时活动流，可能吸引希望提高编码代理可控性的开发者。
+        usage_reason_en: radiant offers a centralized interface and live activity feed, potentially attracting
+          developers seeking more control over coding agents.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决多代理工作流中上下文切换和监控不便的问题，价值结构成立。
+        evidence_ids:
+        - ev-0f4357a875e9d0fc
+      - gate: consensus
+        status: insufficient
+        reason: 开源项目星数较少，缺乏用户采用证据。
+        evidence_ids:
+        - ev-0f4357a875e9d0fc
+      - gate: model
+        status: insufficient
+        reason: 免费开源，无明确商业模式，可能通过企业支持或高级功能变现，但未披露。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 贴近开发者的实际工作，交付可确定，但需关注与现有工具的竞争。
+        evidence_ids:
+        - ev-0f4357a875e9d0fc
+      next_validation: 查看 radiant 的 公开代码仓库 仓库 issue 和 discussion，寻找用户实际使用案例和反馈。
+  readr:
+    slug: readr
+    name: Readr
+    decision: watching
+    category: AI + 效率
+    project_type: new_application
+    industries:
+    - 通用
+    industries_en:
+    - General
+    jobs:
+    - 读者
+    - 学生
+    - 研究者
+    jobs_en:
+    - Readers
+    - Students
+    - Researchers
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Readr 是一款免费阅读器，用户打开文章或文档后，可向它提问内容相关问题，或让它朗读文本。AI 接收阅读材料，执行问答和语音合成，最终返回答案或音频。具体支持的文件格式和朗读语言等细节仍待核验。
+    inspiration: 趋势：阅读工具从划线笔记走向对话式内容交互，问答和朗读成为基础功能。切入：可面向学生、研究者或视障人群，提供针对长文档的结构化问答和摘要，而非仅限网页文章。
+    summary_en: Readr is a free reader that lets users ask questions about the content and have it read
+      aloud. The AI processes the reading material, performs Q&A and text-to-speech, and returns answers
+      or audio. Specific supported file formats and languages are yet to be verified.
+    inspiration_en: 'Trend: reading tools evolve from annotation to conversational content interaction,
+      with Q&A and read-aloud as baseline features. Entry: target students, researchers, or visually impaired
+      users with structured Q&A and summarization for long documents, not just web articles.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 用户在阅读文章或文档时，需要快速获取关键信息或理解内容，可能通过提问或听读来完成。
+        job_en: Users reading articles or documents need to quickly grasp key information or understand
+          content, possibly by asking questions or listening.
+        pain_zh: 长文阅读耗时，难以快速定位答案；视觉疲劳或阅读障碍时无法舒适阅读。
+        pain_en: Reading long texts is time-consuming and hard to locate answers quickly; visual fatigue
+          or reading difficulties hinder comfortable reading.
+        current_alternative_zh: 目前用户可能使用浏览器查找、手动滚动定位，或使用系统自带的朗读功能，但这些方式效率低或体验差。
+        current_alternative_en: Currently users may use browser search, manual scrolling, or built-in
+          text-to-speech, which are inefficient or poor in experience.
+        usage_reason_zh: 免费且集成问答与朗读，省去切换多个工具的麻烦，对需要快速理解长内容的用户有吸引力。
+        usage_reason_en: Free and integrates Q&A with read-aloud, saving the hassle of switching tools,
+          appealing to users who need to quickly understand long content.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决阅读时快速获取答案和听读的需求，痛点在于长文阅读效率低和阅读障碍，现有替代方式效率不高，结构上成立。
+        evidence_ids:
+        - ev-515911d6099d04df
+      - gate: consensus
+        status: insufficient
+        reason: 有社区讨论但缺乏持续采用证据，场景广泛但未聚焦，共识尚不明确。
+        evidence_ids:
+        - ev-515911d6099d04df
+      - gate: model
+        status: insufficient
+        reason: 免费产品，未披露付费路径，买方可能是消费者或通过增值服务变现，但尚无公开信息。
+        evidence_ids:
+        - ev-515911d6099d04df
+      - gate: truth
+        status: insufficient
+        reason: 问答和朗读功能可确定性交付，但具体准确性和覆盖格式未验证。
+        evidence_ids:
+        - ev-515911d6099d04df
+      next_validation: 官方定价页或功能文档，确认支持的文档类型和朗读语言。
+  reef:
+    slug: reef
+    name: Reef
+    decision: queued
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 软件工程
+    industries_en:
+    - Software Engineering
+    jobs:
+    - AI 工程师
+    - 机器学习工程师
+    jobs_en:
+    - AI Engineers
+    - Machine Learning Engineers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: Reef 是一个面向自我改进型 AI Agent 的持续学习基础设施。开发者在构建能随时间学习和改进的 Agent 时，使用 Reef 来管理训练数据、模型更新和评估流程。AI
+      接收 Agent 的运行反馈，执行持续学习任务，最终交付更新后的模型或知识库。具体工作流细节仍待核验。
+    inspiration: 趋势：AI Agent 从一次性任务走向持续自我改进，需要专门的基础设施支持。切入：可面向需要长期运行 Agent 的企业，提供托管式持续学习服务，降低自建成本。
+    summary_en: Reef is an open-source continual learning infrastructure for self-improving AI agents.
+      Developers building agents that learn and improve over time use Reef to manage training data, model
+      updates, and evaluation pipelines. The AI receives agent feedback, performs continual learning tasks,
+      and delivers updated models or knowledge bases. Specific workflow details are yet to be verified.
+    inspiration_en: 'Trend: AI agents evolve from one-off tasks to continuous self-improvement, requiring
+      dedicated infrastructure. Entry: target enterprises running long-lived agents with managed continual
+      learning services to reduce self-hosting costs.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发自我改进型 Agent 的工程师需要管理模型持续学习的数据、更新和评估流程。
+        job_en: Engineers building self-improving agents need to manage data, updates, and evaluation
+          for continual model learning.
+        pain_zh: 手动管理持续学习流程繁琐易错，缺乏统一工具，导致 Agent 改进效率低。
+        pain_en: Manually managing continual learning pipelines is tedious and error-prone, lacking unified
+          tooling, leading to inefficient agent improvement.
+        current_alternative_zh: 目前团队可能自行搭建脚本或使用零散工具，但难以规模化。
+        current_alternative_en: Teams may currently build custom scripts or use scattered tools, which
+          are hard to scale.
+        usage_reason_zh: 开源且专注持续学习，填补了通用框架的空白，吸引需要长期运行 Agent 的开发者。
+        usage_reason_en: Open source and focused on continual learning, filling a gap in general frameworks,
+          attracting developers running long-lived agents.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决自我改进 Agent 的持续学习管理需求，痛点在于手动流程繁琐，现有替代缺乏系统性，结构上成立。
+        evidence_ids:
+        - ev-d7d0870d6ac34c9d
+      - gate: consensus
+        status: supported
+        reason: 开源仓库星数一周内从 260 增至 513，增长近一倍，显示开发者关注度快速上升。
+        evidence_ids:
+        - ev-d7d0870d6ac34c9d
+        - ev-a6cf720fe8ec786c
+        - ev-803158b8cfd6e304
+        - ev-569a085cc097f244
+        - ev-f65a714ebd5969d2
+        - ev-076509f769112485
+        - ev-69df0bc21a1ad519
+        - ev-d02ba09bd368e1ec
+        - ev-f434f081a4a26c66
+        - ev-88fe40afa2542345
+      - gate: model
+        status: insufficient
+        reason: 开源项目，未披露商业模式，可能通过企业支持或云服务变现，但尚无公开信息。
+        evidence_ids:
+        - ev-d7d0870d6ac34c9d
+      - gate: truth
+        status: insufficient
+        reason: 持续学习基础设施的交付效果依赖具体实现，需进一步验证其稳定性和效果。
+        evidence_ids:
+        - ev-d7d0870d6ac34c9d
+      next_validation: 官方文档或 公开代码仓库 仓库中的使用案例和部署指南。
+  reverify:
+    slug: reverify
+    name: reverify
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 网络安全
+    - 软件开发
+    industries_en:
+    - Cybersecurity
+    - Software Development
+    jobs:
+    - 逆向工程师
+    - 安全研究员
+    jobs_en:
+    - Reverse Engineer
+    - Security Researcher
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 逆向工程师与安全研究员在分析二进制文件时打开它；AI 接收代码假设并调用确定性工具与真实字节比对，最终输出带依据的验证或驳回判定，使核对后的事实在上下文重置后仍可保留。
+    inspiration: 趋势是大模型在严肃工程中正退回假说生成层，由确定性引擎负责验真；切入可面向漏洞挖掘、固件分析等强证据链安全场景，按工具链插件或审计报告交付。
+    summary_en: Reverse engineers use it when analyzing binaries; AI receives hypotheses, executes deterministic
+      tools against raw bytes, and delivers verified or refuted facts that survive resets.
+    inspiration_en: AI in mission-critical engineering is shifting to hypothesis generation verified by
+      deterministic tools; enter via security audit workflows where proof is mandatory.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 逆向工程分析二进制文件并推断底层逻辑与安全漏洞
+        job_en: Reverse engineer binary files to deduce underlying logic and security vulnerabilities
+        pain_zh: 大模型直接分析二进制时极易产生幻觉瞎猜结构，导致分析结论失真且跨上下文时丢失事实
+        pain_en: LLMs frequently hallucinate binary structures, causing distorted findings and lost facts
+          across context resets
+        current_alternative_zh: 人工使用反编译工具单步调试核对，或手动验证大模型给出的猜想
+        current_alternative_en: Manually verify using disassemblers or step-by-step debugging to validate
+          LLM suggestions
+        usage_reason_zh: 将大模型假设与确定性工具字节比对绑定，输出可核实证据并锁定已知事实
+        usage_reason_en: Binds LLM hypotheses with deterministic byte-level tool checks, returning grounded
+          proof and retaining verified facts
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决逆向分析中大模型幻觉与上下文丢失痛点，通过确定性工具核对字节真值形成刚性工作流闭环。
+        evidence_ids:
+        - ev-e0b4486cfb708a28
+      - gate: consensus
+        status: supported
+        reason: 开源后星数短期内增长至 927 且有 200 次分叉，在逆向与安全开发者圈层形成采用共识。
+        evidence_ids:
+        - ev-ea209d677ee2c33c
+      - gate: model
+        status: insufficient
+        reason: 当前作为开源 MCP 服务端与命令行工具发布，商业化路径和付费模式尚无公开披露。
+        evidence_ids:
+        - ev-4128cdf0ebcc3d84
+      - gate: truth
+        status: supported
+        reason: 采用模型提假设、确定性工具验真架构，直接在真实二进制字节层面给出可核对证据。
+        evidence_ids:
+        - ev-1e804b0bb069a587
+      next_validation: 跟踪后续版本是否发布企业级安全分析插件或支持反编译商业软件的集成方案。
+  rubato:
+    slug: rubato
+    name: Rubato
+    decision: watching
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 消费电子
+    - 软件开发
+    industries_en:
+    - Consumer Electronics
+    - Software Development
+    jobs:
+    - 独立开发者
+    - 软件工程师
+    jobs_en:
+    - Indie Hacker
+    - Software Engineer
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 开发者在进行 AI 辅助编程时置于桌面；该硬件基于 ESP8266 接收 AI 编程代理的状态信号，在复古 Mac 造型微型屏幕上同步显示当前工作动画与状态，提供物理反馈。
+    inspiration: 趋势是后台化 AI 任务催生了环境感知与桌面物理伴件需求；切入可从小众极客桌面硬件或特定 Agent 状态指示外设切入，以硬件套件形式进行小批量售卖。
+    summary_en: Developers place this ESP8266 device on their desk during AI coding; it receives agent
+      status updates and displays real-time progress animations on a retro-Mac style miniature screen.
+    inspiration_en: Background AI automation drives demand for ambient desk companions; enter by offering
+      niche DIY hardware kits or branded physical status accessories for developer agents.
+    req_initial:
+      verdict: pseudo_demand
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者在进行 AI 辅助编程时监控 Agent 的运行状态与任务进度
+        job_en: Developers monitoring AI coding agent status and progress during AI-assisted programming
+        pain_zh: 终端或 IDE 内后台运行的 AI 任务缺乏物理实体反馈与情绪价值展示
+        pain_en: Background AI agent tasks in terminal or IDE lack physical feedback and ambient emotional
+          displays
+        current_alternative_zh: 直接在 IDE 窗口、命令行终端或系统通知栏查看运行日志与状态
+        current_alternative_en: Checking status and logs directly in IDE windows, terminal tabs, or system
+          notifications
+        usage_reason_zh: 满足极客对复古 Mac 桌面摆件的审美偏好与 AI 编程状态的物理可视化趣味
+        usage_reason_en: Appeals to geek aesthetics for retro Mac desk toys and tangible ambient visualization
+          of AI coding states
+      gates:
+      - gate: value
+        status: challenged
+        reason: 属于桌面摆件与情绪价值消费，替代的是常规屏幕状态指示，缺乏刚性生产力痛点。
+        evidence_ids:
+        - ev-6e5c36159374a48b
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids:
+        - ev-6e5c36159374a48b
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids:
+        - ev-6e5c36159374a48b
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids:
+        - ev-6e5c36159374a48b
+      next_validation: 观察该开源固件是否有量产套件或商业硬件周边在创客社区形成批量采购订单。
+  sageling:
+    slug: sageling
+    name: Sageling
+    decision: watching
+    category: AI + 效率
+    project_type: new_application
+    industries:
+    - 个人效率
+    industries_en:
+    - Personal productivity
+    jobs:
+    - Mac 用户
+    jobs_en:
+    - Mac users
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Sageling 是一个在 Mac 上本地运行的 AI 代理，通过 MLX 在进程内运行 Qwen 3.5 9B 模型。用户可在 Mac 上直接调用该代理处理本地任务，无需联网。具体工作流程和交付结果仍待核验。
+    inspiration: 本地小模型代理正在成为个人效率工具的新方向，但需明确具体替代的旧流程。可从需要隐私或离线处理的个人知识管理、写作辅助等场景切入。
+    summary_en: Sageling is a local AI agent for Mac, running Qwen 3.5 9B in-process via MLX. Users can
+      invoke the agent directly on their Mac for local tasks without internet. Specific workflow and deliverables
+      remain to be verified.
+    inspiration_en: Local small-model agents are emerging as a new direction for personal productivity
+      tools, but need to clarify the specific legacy workflow they replace. Entry could target privacy-sensitive
+      or offline personal knowledge management, writing assistance, etc.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 在 Mac 上本地运行 AI 代理以处理个人任务，无需联网。
+        job_en: Run an AI agent locally on Mac to handle personal tasks without internet.
+        pain_zh: 用户可能担心云端 AI 的隐私或网络依赖，希望本地处理。
+        pain_en: Users may worry about cloud AI privacy or network dependency, preferring local processing.
+        current_alternative_zh: 使用云端 AI 助手或本地运行的通用模型。
+        current_alternative_en: Using cloud AI assistants or locally run general models.
+        usage_reason_zh: 提供本地运行的 AI 代理，可能吸引注重隐私或离线使用的用户。
+        usage_reason_en: Offers a locally run AI agent, potentially attracting users who value privacy
+          or offline use.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它解决什么需求、什么痛点尚不明确：仅描述为本地 AI 代理，未说明具体任务和交付。
+        evidence_ids:
+        - ev-40b8526f5e10eae5
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏用户采用或关注证据，仅有一个低互动帖子。
+        evidence_ids:
+        - ev-40b8526f5e10eae5
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立，商业模式无从判断。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立，求真检查无法展开。
+        evidence_ids: []
+      next_validation: 官方产品页或文档中是否说明具体使用场景和交付结果。
+  scroll-craft:
+    slug: scroll-craft
+    name: scroll-craft
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    - 网页设计
+    industries_en:
+    - Software development
+    - Web design
+    jobs:
+    - 前端开发者
+    - 网页设计师
+    jobs_en:
+    - Frontend developers
+    - Web designers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: scroll-craft 是一个供编码代理（如 Codex、Claude Code）使用的技能包，用于构建高级、沉浸式滚动驱动网站。开发者可在编码代理中调用该技能，生成滚动叙事网页。开源仓库星数快速增长，显示开发者关注。
+    inspiration: 编码代理技能市场正在形成，scroll-craft 针对高端网站设计这一细分需求。可切入为特定行业（如营销、品牌）提供定制化滚动叙事模板，或与代理平台集成。
+    summary_en: scroll-craft is an agent skill for coding agents like Codex and Claude Code, used to build
+      premium, immersive, scroll-driven websites. Developers can invoke the skill within coding agents
+      to generate scroll-narrative web pages. The open-source repository is gaining stars rapidly, indicating
+      developer interest.
+    inspiration_en: The market for coding agent skills is emerging, and scroll-craft targets the niche
+      of high-end website design. Entry could provide customized scroll-narrative templates for specific
+      industries like marketing or branding, or integrate with agent platforms.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者需要快速构建高级、沉浸式滚动驱动网站，而传统编码繁琐。
+        job_en: Developers need to quickly build premium, immersive scroll-driven websites, while traditional
+          coding is tedious.
+        pain_zh: 手工编写滚动动画和交互代码耗时且复杂。
+        pain_en: Hand-coding scroll animations and interactions is time-consuming and complex.
+        current_alternative_zh: 使用现成模板或手动编写 JavaScript/CSS 动画。
+        current_alternative_en: Using pre-made templates or manually writing JavaScript/CSS animations.
+        usage_reason_zh: 开源且星数快速增长，表明开发者认可其价值并愿意尝试。
+        usage_reason_en: Open source with rapid star growth indicates developer recognition and willingness
+          to try.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决开发者构建滚动驱动网站的痛点：手工编码复杂耗时，该技能可自动化生成，交付可确定。
+        evidence_ids:
+        - ev-09c74b7a8b72a51f
+      - gate: consensus
+        status: supported
+        reason: 开源仓库星数从 1,727 增至 2,018，显示开发者关注和采用。
+        evidence_ids:
+        - ev-09c74b7a8b72a51f
+        - ev-83939a032eccbfc8
+        - ev-cbea04e28d58a691
+        - ev-7a4a60904066f07a
+        - ev-03b0e4a0b7e7779d
+        - ev-7a37eb9df1ce236c
+        - ev-c1e3eceab0a6d880
+        - ev-ec77be5335d53b4c
+      - gate: model
+        status: insufficient
+        reason: 开源项目，商业模式未明，可能通过插件或服务收费，但无公开定价。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 贴近开发者的第一性目标：快速交付高质量网站，承诺可通过代码生成实现。
+        evidence_ids:
+        - ev-09c74b7a8b72a51f
+      next_validation: 官方文档或定价页是否提供商业版本或服务。
+  shape:
+    slug: shape
+    name: Shape
+    decision: watching
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 软件开发
+    - 创意设计
+    industries_en:
+    - Software Development
+    - Creative Design
+    jobs:
+    - 软件工程师
+    - UI/UX设计师
+    jobs_en:
+    - Software Engineer
+    - UI/UX Designer
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: 设计师与程序员在进行界面与代码协同开发时，可在该集成开发环境中操作；目前公开资料仅将其定义为面向两类人群的智能体 IDE，具体输入格式、AI 自动化动作与最终交付产物仍待进一步公开与核验。
+    inspiration: 趋势是从纯代码生成走向设计与开发协同的智能体环境。切入点在于打通设计稿组件与前端工程代码的双向实时同步，解决两套资产脱节的摩擦。
+    summary_en: Shape is positioned as an agentic IDE for designers and programmers to collaborate on
+      interface and code, though specific input formats, agent workflows, and deliverables remain to be
+      verified from public materials.
+    inspiration_en: The trend is moving toward unified agentic environments bridging design and code.
+      An effective entry point is real-time synchronization between visual design components and frontend
+      codebases.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 在软件构建过程中弥合设计稿与可运行代码之间的交付断层。
+        job_en: Bridge the handoff gap between design mockups and runnable code during software construction.
+        pain_zh: 设计与开发工具链割裂，设计规范转化为代码存在反复沟通与还原度损耗。
+        pain_en: Design and development toolchains are fragmented, causing back-and-forth communication
+          and fidelity loss when translating designs into code.
+        current_alternative_zh: 使用 Figma 配合设计系统插件，或在 VS Code / Cursor 中手动对照设计稿编写前端代码。
+        current_alternative_en: Using Figma with design system plugins, or manually writing frontend code
+          against design specs in VS Code or Cursor.
+        usage_reason_zh: 产品定位为连接设计与编程的智能体 IDE，试图减少手工切图与代码还原成本，但具体执行路径尚未披露。
+        usage_reason_en: Positioned as an agentic IDE connecting design and programming to reduce handoff
+          overhead, though execution mechanics remain undisclosed.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 设计与编码协同是真实痛点，但当前公开材料仅有一句定位，缺乏具体输入交付闭环证据。
+        evidence_ids:
+        - ev-28d1df92d576724c
+      - gate: consensus
+        status: insufficient
+        reason: 产品处于极早期发布阶段，公开渠道缺乏持续采用和用户反馈数据。
+        evidence_ids:
+        - ev-28d1df92d576724c
+      - gate: model
+        status: insufficient
+        reason: 尚未公开定价方案或商业化模式，付费买方与收费机制仍待披露。
+        evidence_ids:
+        - ev-28d1df92d576724c
+      - gate: truth
+        status: insufficient
+        reason: 智能体在设计到代码转换中的确定性交付能力与人工干预边界尚无公开测试记录。
+        evidence_ids:
+        - ev-28d1df92d576724c
+      next_validation: 获取 Shape 官方产品文档或实测演示，核验其具体输入格式、智能体操作流程与代码生成准确度。
+  shim-mcp:
+    slug: shim-mcp
+    name: shim-mcp
+    decision: queued
+    event_summary_zh: 发布 WordPress MCP 服务器插件，支持通过 stdio 或 HTTP 连接 MCP 客户端。
+    event_summary_en: Released WordPress MCP server plugin enabling connection of MCP clients via stdio
+      or HTTP.
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    jobs_en:
+    - Developers
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: WordPress MCP 服务器插件，允许将 Claude Code、Cursor 等 MCP 客户端通过 stdio（WP-CLI）或 HTTP 连接到 WordPress，提供
+      58 项能力，无需云服务。
+    inspiration: 趋势：开发者正在寻找更灵活的 AI 集成方式；切入：为 WordPress 开发者提供无云、可自托管的 MCP 接口，降低集成门槛。
+    summary_en: WordPress MCP server plugin that connects MCP clients like Claude Code or Cursor to WordPress
+      via stdio (WP-CLI) or HTTP, offering 58 capabilities without cloud dependency.
+    inspiration_en: 'Trend: Developers seek flexible AI integration; entry point: provide WordPress developers
+      with a self-hosted MCP interface, lowering integration barriers.'
+    req_initial:
+      verdict: pseudo_demand
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: WordPress 开发者
+        job_en: WordPress Developers
+        pain_zh: 需要将 AI 功能集成到 WordPress，但缺乏无云、易用的插件
+        pain_en: Need to integrate AI into WordPress without cloud dependency
+        current_alternative_zh: 手动集成或使用其他不支持 MCP 的插件
+        current_alternative_en: Manual integration or other plugins not supporting MCP
+        usage_reason_zh: 简化 AI 集成流程，提供 58 项能力，无需云服务
+        usage_reason_en: Simplify AI integration, provide 58 capabilities without cloud dependency
+      gates:
+      - gate: value
+        status: supported
+        reason: 插件提供 58 项能力，解决 WordPress 开发者的 AI 集成痛点
+        evidence_ids:
+        - ev-249813487d8aa5f1
+      - gate: consensus
+        status: insufficient
+        reason: 缺乏公开的用户采用或活跃度数据
+        evidence_ids:
+        - ev-249813487d8aa5f1
+      - gate: model
+        status: insufficient
+        reason: 未见模型性能或使用案例的公开验证
+        evidence_ids:
+        - ev-249813487d8aa5f1
+      - gate: truth
+        status: insufficient
+        reason: 无付费或持续使用的公开证据
+        evidence_ids:
+        - ev-249813487d8aa5f1
+      next_validation: 获取插件的安装量、活跃用户数或使用案例
+  short-video-generator-ai:
+    slug: short-video-generator-ai
+    name: short-video-generator-AI
+    decision: queued
+    category: AI + 创作
+    project_type: open_source
+    industries:
+    - 数字媒体
+    - 内容营销
+    industries_en:
+    - Digital Media
+    - Content Marketing
+    jobs:
+    - 短视频创作者
+    - 社交媒体运营
+    jobs_en:
+    - Short Video Creator
+    - Social Media Manager
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 视频创作者与自媒体运营在切片长视频时使用该工具。系统接收长视频链接或本地素材，自动识别精彩片段、生成双语字幕并配音，批量输出适合短视频平台发布的分段成品，降低人工剪辑门槛。
+    inspiration: 趋势：长视频向短视频分发已成为刚需，全自动化切片工作流正在普及。切入点：针对特定语言或垂直赛道（如播客、课程）提供高保真口播提取与本地化二次创作工具。
+    summary_en: A video repurposing tool where creators input long-form video links to automatically detect
+      highlights, add synced subtitles, translate, and generate voiceovers, outputting ready-to-publish
+      short clips for social platforms.
+    inspiration_en: 'Trend: Repurposing long-form content into vertical clips is standardizing into automated
+      pipelines. Wedge: Build high-fidelity highlight clipping and localization tools tailored for specific
+      formats like podcasts or lectures.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 将 YouTube 长视频拆解并重新包装为多平台短视频切片。
+        job_en: Repurpose long-form videos into short vertical clips for multi-platform distribution.
+        pain_zh: 人工通看长视频打点、听写字幕与配音极其耗时，产出效率低。
+        pain_en: Manually scanning full videos for highlights, transcribing, and dubbing is extremely
+          time-consuming.
+        current_alternative_zh: 人工使用剪辑软件逐段裁切，或使用高客单价的商业 SaaS 工具。
+        current_alternative_en: Manual editing via traditional video suites or paying for expensive commercial
+          SaaS tools.
+        usage_reason_zh: 开源免费且整合了高光提取、字幕与配音全套流程，关注度增长迅速。
+        usage_reason_en: Free open-source solution packaging highlight detection, subtitles, and dubbing,
+          gaining rapid developer attention.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决长视频转短视频切片中高光定位、字幕制作与多语言配音的重复繁琐工作，痛点明确且替代成本高。
+        evidence_ids:
+        - ev-4541ab1d140e491d
+        - ev-ebaad455c8b85f2c
+      - gate: consensus
+        status: supported
+        reason: 代码库关注度在短时间内从173星攀升至358星，表明内容创作者和开发者对其自动化流水线具有强共识。
+        evidence_ids:
+        - ev-4541ab1d140e491d
+        - ev-ebaad455c8b85f2c
+      - gate: model
+        status: insufficient
+        reason: 当前为开源免费项目，未披露商业化变现模式或云端托管收费计划，商业可持续性未核验。
+        evidence_ids:
+        - ev-4541ab1d140e491d
+      - gate: truth
+        status: supported
+        reason: 功能范围围绕视频高光检测、语音转文字和配音等成熟AI能力封装，交付边界清晰可控。
+        evidence_ids:
+        - ev-4541ab1d140e491d
+      next_validation: 观察项目后续版本的实际出片准确率评测及是否推出一键部署的云端托管收费版。
+  studypilot:
+    slug: studypilot
+    name: StudyPilot
+    decision: watching
+    category: AI + 效率
+    project_type: open_source
+    industries:
+    - 高等教育
+    - 在线教育
+    industries_en:
+    - Higher Education
+    - Online Education
+    jobs:
+    - 学生
+    - 自学者
+    jobs_en:
+    - Student
+    - Self-directed Learner
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 学生在复习和自学课程时打开该工具。系统接收用户上传的指定课程教材与课件，仅依据材料内容进行双语答疑并附带原文引用出处，输出有据可查的复习解答，避免通用大模型的幻觉误导。
+    inspiration: 趋势：教育场景下对精准引文与反幻觉的要求高于泛化生成。切入点：围绕特定学科考试或专业认证体系，提供自带权威考纲与溯源索引的垂直备考伴侣。
+    summary_en: A bilingual study assistant where students upload their own course materials to receive
+      grounded Q&A with direct citation references, ensuring reliable exam prep without model hallucination.
+    inspiration_en: 'Trend: Academic study demands strict source attribution over open-ended generation.
+      Wedge: Target standardized professional certifications with pre-indexed verified syllabi and traceable
+      review tools.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 针对特定课程材料和课件进行精准答疑与考点复习。
+        job_en: Review specific course materials and prepare for exams with accurate answers.
+        pain_zh: 通用AI答疑容易产生幻觉或超出教学大纲，学生无法核对信息真伪。
+        pain_en: Generic AI tools often hallucinate or deviate from syllabi, making answers hard to verify.
+        current_alternative_zh: 人工翻阅讲义教材检索，或使用通用对话大模型后手动比对。
+        current_alternative_en: Manually flipping through textbooks or cross-checking answers from generic
+          chatbots.
+        usage_reason_zh: 严格限定回答仅来源于课件本身并给出精准引用，降低复习核对成本。
+        usage_reason_en: Strictly restricts answers to provided course materials with citations, minimizing
+          verification effort.
+      gates:
+      - gate: value
+        status: supported
+        reason: 解决学生复习时大模型幻觉与无法溯源的问题，强制限定知识库和引文，结构上具备明确的使用者价值。
+        evidence_ids:
+        - ev-500d8a2104a49f4e
+      - gate: consensus
+        status: insufficient
+        reason: 开源代码库当前仅获41星关注，仍处于早期验证阶段，尚未形成广泛的采用共识。
+        evidence_ids:
+        - ev-500d8a2104a49f4e
+      - gate: model
+        status: insufficient
+        reason: 公开材料仅体现为个人开源学习工具，未说明后续是否有订阅、增值服务或商业化路径。
+        evidence_ids:
+        - ev-500d8a2104a49f4e
+      - gate: truth
+        status: supported
+        reason: 基于专有文档检索问答并返回出处的机制在技术上成熟可行，交付目标明确。
+        evidence_ids:
+        - ev-500d8a2104a49f4e
+      next_validation: 观察项目在多格式复杂课件（如公式、图表PDF）下的检索精度实测反馈与社区活跃度。
+  swipe:
+    slug: swipe
+    name: Swipe
+    decision: rejected
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    event_summary_zh: ''
+    event_summary_en: ''
+  task-state-guard:
+    slug: task-state-guard
+    name: task-state-guard
+    decision: queued
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - AI 代理运维工程师
+    - 平台工程师
+    jobs_en:
+    - AI Agent Operations Engineer
+    - Platform Engineer
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 面向运行 AI 代理的团队，处理代理任务在重启或超时后卡死的问题。它接收代理的任务状态和 SQLite 变更记录，预览待提交的数据库改动，关闭过期的交付状态，避免代理误判成功。最终交付是任务状态的一致性和可审计的数据库变更预览，人工仍可确认后再提交。
+    inspiration: AI 代理从演示走向生产时，状态一致性和失败恢复成为基础设施刚需。切入点是代理运行平台和运维工具，可围绕状态机、审计日志和可回滚交付做产品化，而非仅提供代码库。
+    summary_en: For teams running AI agents, this tool handles tasks stuck after restarts or timeouts.
+      It ingests agent task states and SQLite change logs, previews pending database modifications, and
+      closes stale delivery states to prevent agents from falsely reporting success. The final output
+      is consistent task state and auditable database change previews, with human confirmation before
+      commit.
+    inspiration_en: As AI agents move from demo to production, state consistency and failure recovery
+      become infrastructure necessities. The entry point is agent operation platforms and tooling, productizing
+      around state machines, audit logs, and reversible delivery rather than just a code library.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: AI 代理在无人值守执行多步任务时，需要确保任务状态与数据库变更一致，避免因重启或超时导致状态卡死或误报成功。
+        job_en: When AI agents execute multi-step tasks unattended, they need to ensure task state and
+          database changes stay consistent, avoiding stuck states or false success after restarts or timeouts.
+        pain_zh: 代理任务中断后，状态可能停留在旧值，数据库变更可能部分应用，导致后续操作基于错误状态，甚至重复执行或数据损坏。
+        pain_en: After an agent task is interrupted, state may remain stale and database changes may be
+          partially applied, causing subsequent operations to rely on incorrect state, leading to duplicate
+          execution or data corruption.
+        current_alternative_zh: 目前团队通常依赖人工检查日志和数据库，或编写一次性脚本清理状态，耗时且易错。
+        current_alternative_en: Currently teams rely on manual log and database inspection, or write one-off
+          scripts to clean up state, which is time-consuming and error-prone.
+        usage_reason_zh: 代理任务自动化程度越高，状态管理越关键；该工具提供预览和关闭过期状态的能力，降低运维风险，因此值得采用。
+        usage_reason_en: The more automated agent tasks become, the more critical state management is;
+          this tool offers preview and stale-state closure capabilities, reducing operational risk, making
+          it worth adopting.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决 AI 代理任务中断后状态不一致、误判成功的痛点，交付可预览的数据库变更和状态清理，价值结构成立。
+        evidence_ids:
+        - ev-b66509a7cb03e823
+      - gate: consensus
+        status: insufficient
+        reason: 开源仓库有 191 星，但尚无公开的采用案例或社区讨论，共识证据不足。
+        evidence_ids:
+        - ev-b66509a7cb03e823
+      - gate: model
+        status: insufficient
+        reason: 未披露定价或商业模式，买方可能是代理平台或运维团队，但付费路径未验证。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 贴近代理运行的第一性目标——状态可靠，交付可预览，不夸大成功，安全边界清晰。
+        evidence_ids:
+        - ev-b66509a7cb03e823
+      next_validation: 查找官方文档或仓库 issue 中是否有企业采用案例或部署规模数据。
+  tenantlayer:
+    slug: tenantlayer
+    name: TenantLayer
+    decision: rejected
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    event_summary_zh: ''
+    event_summary_en: ''
+  tiny-engineer:
+    slug: tiny-engineer
+    name: tiny-engineer
+    decision: watching
+    category: AI + 开发
+    project_type: open_source
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 开发者
+    - AI 编程助手用户
+    jobs_en:
+    - Developer
+    - AI Coding Assistant User
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 一个桌面小机器人，将 AI 编程助手的运行过程物理化呈现：当助手读取文件、思考、写代码或完成任务时，机器人会做出相应动作。用户通过观察机器人状态，直观了解 AI 编程助手的工作进度。具体交付是物理动作反馈，而非代码或任务结果。
+    inspiration: AI 编程助手从后台走向可见化，反映开发者对代理过程透明度的需求。切入点是开发工具的可视化反馈层，可探索与 IDE 或 CI 集成的实体状态指示器，但需验证开发者是否愿意为此付费。
+    summary_en: 'A small desktop robot that physically visualizes the operation of an AI coding assistant:
+      it acts out when the assistant reads files, thinks, writes code, or finishes work. Users observe
+      the robot to intuitively understand the assistant''s progress. The deliverable is physical action
+      feedback, not code or task results.'
+    inspiration_en: AI coding assistants moving from background to visible reflects developers' need for
+      process transparency. The entry point is a visualization feedback layer for dev tools, exploring
+      physical status indicators integrated with IDEs or CI, but willingness to pay needs validation.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者在使用 AI 编程助手时，需要感知助手当前的工作状态，以决定何时介入或等待。
+        job_en: Developers using AI coding assistants need to perceive the assistant's current working
+          state to decide when to intervene or wait.
+        pain_zh: AI 编程助手在后台运行时，开发者无法直观了解其进度，可能频繁切换窗口查看日志，或不确定是否卡住。
+        pain_en: When AI coding assistants run in the background, developers cannot intuitively see progress,
+          leading to frequent window switching to check logs or uncertainty about whether it is stuck.
+        current_alternative_zh: 目前开发者通常依赖终端日志、IDE 状态栏或直接等待，缺乏直观的物理反馈。
+        current_alternative_en: Currently developers rely on terminal logs, IDE status bars, or simply
+          wait, lacking intuitive physical feedback.
+        usage_reason_zh: 该产品提供趣味性和直观性，但需求刚性不足，开发者可能觉得可有可无，除非能证明其提升效率或减少焦虑。
+        usage_reason_en: This product offers fun and intuitiveness, but the need is not rigid; developers
+          may find it optional unless it proves to improve efficiency or reduce anxiety.
+      gates:
+      - gate: value
+        status: challenged
+        reason: 它解决开发者感知 AI 编程助手进度的问题，但痛点强度不足，没有它开发者仍可通过日志等待，价值关存疑。
+        evidence_ids:
+        - ev-736adf72bf845b36
+      - gate: consensus
+        status: insufficient
+        reason: 开源仓库有 265 星，但缺乏持续采用或社区讨论证据，关注度可能来自新奇感。
+        evidence_ids:
+        - ev-736adf72bf845b36
+      - gate: model
+        status: insufficient
+        reason: 未披露商业模式，作为开源硬件或玩具，付费路径不明。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 物理动作反馈可能不准确或延迟，承诺的直观性未必能确定性交付，安全边界未明。
+        evidence_ids:
+        - ev-736adf72bf845b36
+      next_validation: 查找仓库 issue 或讨论中是否有用户实际使用反馈或改进请求。
+  unigit-ecosystem:
+    slug: unigit-ecosystem
+    name: UNIGIT
+    decision: rejected
+  unreel:
+    slug: unreel
+    name: unreel
+    decision: watching
+    category: AI + 生活
+    project_type: open_source
+    industries:
+    - 文化娱乐
+    - 数字媒体
+    industries_en:
+    - Entertainment
+    - Digital Media
+    jobs:
+    - 独立开发者
+    - 内容创作者
+    jobs_en:
+    - Independent Developer
+    - Content Creator
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: true
+    summary_zh: 用户在需要按需生成或点播个性化视频内容时打开该服务，系统接收用户的设定与提示词，通过 AI 视频生成模型流式输出视频内容，最终为用户交付可直接连续观看的个人定制化流媒体播放界面，具体生成延迟与效果仍需人工核验。
+    inspiration: 趋势是流媒体内容正从中心化静态分发转向实时按需生成；切入点在于聚焦儿童睡前故事或虚拟陪伴等强个性化、容错率高的垂直长尾场景。
+    summary_en: Users run this personal streaming service to watch customized video on demand, where the
+      system takes text prompts, runs generative video models, and streams synthetic clips directly to
+      a personal player interface.
+    inspiration_en: Streaming is moving from static distribution to on-demand generation; the best entry
+      point is high-tolerance vertical niches like personalized bedtime stories or interactive companions.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 按需生成并连续观看定制化的个人专属流媒体视频内容
+        job_en: Generate and stream personalized custom video content on demand
+        pain_zh: 传统流媒体平台的静态内容库无法满足即时定制与高度个性化的互动内容消费需求
+        pain_en: Traditional static streaming catalogs cannot satisfy real-time customized and interactive
+          video consumption needs
+        current_alternative_zh: 在已有流媒体库中手工检索相似内容，或使用独立视频生成工具分步生成并手动播放
+        current_alternative_en: Manually searching existing streaming catalogs or using standalone generation
+          tools step-by-step
+        usage_reason_zh: 开源社区开发者与尝鲜用户希望获得全自动生成的端到端个人流媒体播放体验
+        usage_reason_en: Open-source developers and early adopters want an end-to-end automated personal
+          video streaming experience
+      gates:
+      - gate: value
+        status: supported
+        reason: 结构上解决用户按需生成个性化视频并直接串流播放的需求，但目前视频生成成本与画质连贯性仍制约其作为高频日常消费的刚性。
+        evidence_ids:
+        - ev-1063a8f58ac514f2
+      - gate: consensus
+        status: insufficient
+        reason: 代码仓库累积获得 126 颗星关注，目前主要停留在开发者探索阶段，尚未观察到广泛的终端用户持续采用。
+        evidence_ids:
+        - ev-1063a8f58ac514f2
+      - gate: model
+        status: insufficient
+        reason: 属于开源自托管项目，公开资料中未披露商业化收费计划或云端托管订阅定价。
+        evidence_ids:
+        - ev-1063a8f58ac514f2
+      - gate: truth
+        status: supported
+        reason: 项目以开源代码形式交付本地流媒体服务，用户可通过仓库文档核验其视频串流与模型调用功能。
+        evidence_ids:
+        - ev-1063a8f58ac514f2
+      next_validation: 官方仓库后续发布的实测运行文档及实际视频生成延迟与画质连贯性演示
+  video-ai-talking:
+    slug: video-ai-talking
+    name: video-ai-talking
+    decision: watching
+    category: AI + 创作
+    project_type: open_source
+    industries:
+    - 内容创作
+    - 社交媒体
+    industries_en:
+    - Content Creation
+    - Social Media
+    jobs:
+    - 短视频创作者
+    - 营销人员
+    jobs_en:
+    - Short-video creators
+    - Marketers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 面向不想亲自出镜的口播视频创作者：上传一段真人出镜视频，输入字幕文本，工具在本机完成配音和对口型，输出竖屏 MP4。密钥仅存于浏览器，具体工作流细节（如配音音色选择、口型同步精度）仍待核验。
+    inspiration: 趋势：真人口播视频生产正从“必须本人出镜”转向“用已有素材合成新内容”，降低内容再生产成本。切入：可从短视频营销、电商带货等需要大量口播视频但出镜成本高的行业切入，提供本地化、隐私安全的合成工具，但需验证口型自然度和用户接受度。
+    summary_en: 'For creators who want talking-head videos without filming themselves: upload a real-person
+      video, input subtitle text, and the tool performs local voiceover and lip-sync, outputting a vertical
+      MP4. Keys stay in the browser; specific workflow details (e.g., voice selection, sync accuracy)
+      remain to be verified.'
+    inspiration_en: 'Trend: talking-head video production is shifting from requiring the person to appear
+      to synthesizing new content from existing footage, lowering re-production costs. Entry: target industries
+      like short-video marketing and e-commerce that need many talking-head videos but face high filming
+      costs, offering local, privacy-safe synthesis tools, but must validate lip-sync naturalness and
+      user acceptance.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 创作者需要生成口播视频内容，但不想或无法亲自出镜拍摄。
+        job_en: Creators need to produce talking-head video content but cannot or prefer not to film themselves.
+        pain_zh: 出镜拍摄耗时、尴尬或受限于环境，导致内容产出效率低。
+        pain_en: Filming oneself is time-consuming, awkward, or constrained by environment, reducing content
+          output efficiency.
+        current_alternative_zh: 目前创作者可能使用虚拟形象、录屏加配音，或雇佣演员，但这些方法缺乏真实感或成本高。
+        current_alternative_en: Currently, creators may use avatars, screen recordings with voiceover,
+          or hire actors, but these lack realism or are costly.
+        usage_reason_zh: 该工具允许利用已有视频素材合成新口播，节省拍摄时间，且本地处理保护隐私，吸引关注。
+        usage_reason_en: The tool enables synthesizing new talking-head videos from existing footage,
+          saving filming time, and local processing protects privacy, attracting attention.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决创作者不想出镜但需口播视频的痛点，通过上传视频和字幕生成新内容，交付可核对的MP4，价值结构成立。
+        evidence_ids:
+        - ev-f03f19f78afc8d47
+      - gate: consensus
+        status: insufficient
+        reason: 开源仓库星数增长（141至184）显示关注，但缺乏用户评价或持续采用证据，共识尚不明确。
+        evidence_ids:
+        - ev-f03f19f78afc8d47
+        - ev-1994031c29b6f342
+        - ev-63a0aad6eaac1709
+        - ev-c2fafed420d2a615
+        - ev-5b9e7d08065e09b8
+        - ev-3d80f055031da1bd
+        - ev-94b74fe75ecb2c3d
+      - gate: model
+        status: insufficient
+        reason: 未披露定价或商业模式，买方可能是个人创作者或营销机构，但付费路径不清晰。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 工具承诺本机配音对口型，但口型同步质量和自然度未验证，交付确定性存疑。
+        evidence_ids: []
+      next_validation: 查找官方文档或演示视频，验证口型同步效果和实际使用流程。
+  vision-video-in-a-weekend:
+    slug: vision-video-in-a-weekend
+    name: vision-video-in-a-weekend
+    decision: watching
+    category: AI + 创作
+    project_type: open_source
+    industries:
+    - 创业
+    - 市场营销
+    industries_en:
+    - Startups
+    - Marketing
+    jobs:
+    - 创始人
+    - 产品经理
+    jobs_en:
+    - Founders
+    - Product Managers
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: 这是一个开源模板库，面向需要快速制作产品愿景视频的创始人或产品经理。用户输入产品描述和愿景要点，AI 工具（如 ElevenLabs、HeyGen）生成配音和虚拟人讲解，Remotion
+      模板自动合成 2-3 分钟视频。具体流程和交付质量仍待核验。
+    inspiration: 趋势：AI 视频制作门槛降低，非专业团队也能产出高质量演示视频。切入：可针对早期创业者的融资或产品发布场景，提供定制化模板和一站式服务，按视频产出收费。
+    summary_en: An open-source template library for founders or product managers who need to quickly create
+      product vision videos. Users input product descriptions and vision points; AI tools like ElevenLabs
+      and HeyGen generate voiceovers and virtual presenters, and Remotion templates automatically assemble
+      a 2-3 minute video. Specific workflow and output quality still need verification.
+    inspiration_en: 'Trend: AI video production barriers are falling, enabling non-professional teams
+      to create high-quality demo videos. Entry: target early-stage founders'' fundraising or product
+      launch scenarios with customized templates and one-stop services, charging per video output.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 创始人或产品经理需要快速制作产品愿景视频，用于融资路演或内部沟通。
+        job_en: Founders or product managers need to quickly create product vision videos for fundraising
+          pitches or internal communication.
+        pain_zh: 传统视频制作需要拍摄、剪辑和设计技能，耗时且昂贵。
+        pain_en: Traditional video production requires filming, editing, and design skills, which is time-consuming
+          and expensive.
+        current_alternative_zh: 目前可能外包给视频制作公司，或使用通用视频编辑软件自行制作。
+        current_alternative_en: Currently may outsource to video production companies or use general video
+          editing software to make it themselves.
+        usage_reason_zh: 该模板库提供现成的框架和工具链，降低了技术门槛，使非专业人士也能在周末内完成视频。
+        usage_reason_en: The template library provides a ready-made framework and toolchain, lowering
+          technical barriers so non-professionals can complete a video in a weekend.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决创始人快速制作产品愿景视频的需求，痛点明确：传统制作耗时昂贵。
+        evidence_ids:
+        - ev-a38ebebe3763c269
+      - gate: consensus
+        status: insufficient
+        reason: 开源仓库星数增长较快，但缺乏用户评价或采用证据。
+        evidence_ids:
+        - ev-a38ebebe3763c269
+      - gate: model
+        status: insufficient
+        reason: 未明确付费模式，可能靠模板销售或服务收费，但无公开定价。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: AI 生成视频质量可能不稳定，但作为初稿或内部沟通工具可接受。
+        evidence_ids: []
+      next_validation: 查找该仓库的 issue 或 discussion 中用户的实际使用反馈。
+  workwit-ai-agent:
+    slug: workwit-ai-agent
+    name: WorkWit
+    decision: watching
+    category: AI + 商业
+    project_type: open_source
+    industries:
+    - 企业服务
+    - 人力资源
+    - 法务
+    industries_en:
+    - Enterprise Services
+    - Human Resources
+    - Legal
+    jobs:
+    - 办公室文员
+    - 招聘专员
+    - 法务专员
+    jobs_en:
+    - Office Administrator
+    - Recruiter
+    - Legal Specialist
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: WorkWit 是一个自托管的开源企业 AI Agent 平台，面向办公室自动化场景，内置合同审查和简历筛选功能，并提供 40 多种技能和 MCP 连接器。用户通过 Docker
+      Compose 一键部署，AI 接收合同或简历等文档，执行审查或筛选动作，输出审查结果或候选人排序，但具体流程和交付细节仍需核验。
+    inspiration: 趋势：企业办公自动化正从单一工具走向可自托管的 Agent 平台，强调数据隐私和流程集成。切入：可从合同审查或简历筛选等具体环节入手，结合行业模板和合规要求，提供按结果收费的垂直服务，而非泛化平台。
+    summary_en: WorkWit is a self-hosted, open-source enterprise AI Agent platform for office automation,
+      featuring built-in contract review and resume screening, 40+ skills, and MCP connectors. Users deploy
+      via Docker Compose; AI receives documents like contracts or resumes, performs review or screening,
+      and outputs results or candidate rankings, though specific workflows and deliverables remain unverified.
+    inspiration_en: 'Trend: Enterprise office automation is shifting from single tools to self-hosted
+      agent platforms, emphasizing data privacy and process integration. Entry: Focus on specific tasks
+      like contract review or resume screening, offering vertical services with industry templates and
+      compliance, priced by outcome rather than a generic platform.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 企业行政或人事需要快速审查合同和筛选简历，以减少人工时间。
+        job_en: Office administrators or HR need to quickly review contracts and screen resumes to reduce
+          manual time.
+        pain_zh: 合同审查和简历筛选耗时且易出错，人工处理效率低。
+        pain_en: Contract review and resume screening are time-consuming and error-prone, with low manual
+          efficiency.
+        current_alternative_zh: 目前通常由法务或 HR 手动阅读文档，或使用简单的关键词搜索工具。
+        current_alternative_en: Currently, legal or HR staff manually read documents, or use simple keyword
+          search tools.
+        usage_reason_zh: 自托管和开源特性吸引注重数据隐私的企业，内置技能降低部署门槛，即使功能尚需验证，仍有试用动力。
+        usage_reason_en: Self-hosting and open-source appeal to privacy-conscious enterprises; built-in
+          skills lower deployment barriers, driving trials even before full validation.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决合同审查和简历筛选的耗时痛点，旧流程为人工阅读，结构上成立。
+        evidence_ids:
+        - ev-b91dbc6d7cca6581
+      - gate: consensus
+        status: insufficient
+        reason: 开源仓库星数刚过百，无用户评价或采用证据，共识尚未形成。
+        evidence_ids:
+        - ev-b91dbc6d7cca6581
+      - gate: model
+        status: insufficient
+        reason: 未披露定价或商业模式，买方可能是企业，但付费路径不明。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 承诺的审查和筛选功能需实际验证，交付确定性未知。
+        evidence_ids: []
+      next_validation: 官方文档或仓库中是否提供合同审查和简历筛选的详细工作流说明或演示视频。
+    event_summary_zh: 开源仓库 WorkWit 发布，提供自托管企业 AI Agent 平台，内置合同审查和简历筛选功能，星数从 98 增长至 100。
+    event_summary_en: Open-source repository WorkWit released, offering a self-hosted enterprise AI Agent
+      platform with built-in contract review and resume screening; stars grew from 98 to 100.
+  129-亿美元英伟达拿下-hugging-face:
+    slug: 129-亿美元英伟达拿下-hugging-face
+    name: NVIDIA
+    decision: market_context
+    event_summary_zh: 据2026年8月26日报道，英伟达与公开模型社区达成收购协议，作价129亿美元，约为其2023年D轮45亿美元估值的三倍；此前两天公开模型社区才被曝出「正在探索出售」。
+    event_summary_en: Reports on August 26, 2026 said NVIDIA and public model community reached an acquisition
+      agreement at $12.9 billion, roughly triple its $4.5 billion Series D valuation from 2023, just days
+      after public model community was first reported to be exploring a sale.
+    summary_zh: 英伟达于2026年8月26日与开源模型托管平台公开模型社区达成收购协议，作价129亿美元。公开模型社区托管超300万个模型仓库、服务1300万开发者，是Llama、Qwen、Mistral等开源模型的事实分发层；英伟达在GPU训练与推理硬件之外进一步控制模型流通渠道，开源AI生态的分发与商业化规则可能随之集中。
+    summary_en: NVIDIA reached an agreement on August 26, 2026 to acquire open-source model hosting platform
+      public model community for $12.9 billion, about triple its $4.5 billion valuation from its 2023
+      Series D round. public model community hosts over 3 million model repositories serving 13 million
+      developers and acts as the de facto distribution layer for open models such as Llama, Qwen and Mistral;
+      with the deal, NVIDIA extends beyond GPU hardware for training and inference into the model distribution
+      channel, and the rules of the open-source AI ecosystem may become more concentrated.
+  2026上半年大港澳官网入口出货量同比增67应用落地与生态协同双轮驱动:
+    slug: 2026上半年大港澳官网入口出货量同比增67应用落地与生态协同双轮驱动
+    name: 大港澳官网入口
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网:
+    slug: 30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网
+    name: 千问办公
+    decision: queued
+    event_summary_zh: 媒体报道称，千问办公上线30天企业用户过半，AI办公生意被描述为已跑通；报道未披露具体用户数、口径与收入。
+    event_summary_en: Media reports state that Qwen Office reached over half of enterprise users within
+      30 days of launch and describe its AI office business as established; no user figures, methodology
+      or revenue were disclosed.
+    category: AI + 效率
+    project_type: new_application
+    industries:
+    - 企业服务
+    industries_en:
+    - enterprise services
+    jobs:
+    - 企业办公人员
+    jobs_en:
+    - enterprise office staff
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: false
+    summary_zh: 阿里千问系的 AI 办公产品，企业员工在写文档、整理数据等日常办公节点把任务交给它，由 AI 起草和整理，输出可编辑的办公成果；报道未披露具体功能清单，详细流程与交付仍待核验。
+    inspiration: 趋势：大模型厂商正把通用对话升级为直接接管办公流程，办公软件入口价值被重估。切入：避开与千问正面竞争，从律所、财税、地产等文书流程固定的行业进入，可探索按交付件收费。
+    summary_en: An AI office product from Alibaba's Qwen family. Office workers hand tasks like drafting
+      documents and organizing data to the AI and get editable outputs; exact workflows and deliverables
+      remain unverified.
+    inspiration_en: 'Trend: model vendors are moving from chat to direct takeover of office workflows,
+      revaluing the office entry point. Entry: skip head-on rivalry; start where paperwork is fixed, like
+      law, accounting, real estate.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 需求信号明确
+      demand_read:
+        job_zh: 企业员工在日常办公中完成文档起草、数据整理等文书任务
+        job_en: Enterprise staff completing paperwork such as drafting documents and organizing data in
+          daily office work.
+        pain_zh: 文书工作重复耗时，人工起草和整理长期占用工时
+        pain_en: Paperwork is repetitive and time-consuming; manual drafting and organizing consume long
+          working hours.
+        current_alternative_zh: 在传统办公软件里人工起草、套模板整理，或用通用聊天助手逐段生成再拼装
+        current_alternative_en: Drafting manually in traditional office suites with templates, or piecing
+          together output paragraph by paragraph from general chat assistants.
+        usage_reason_zh: 若深度内嵌办公流程并能直接产出可编辑成果，员工为省时会改用；此为结构推理，留存与复购待核验
+        usage_reason_en: If embedded in office flows and producing editable results directly, staff would
+          switch to save time; this is structural reasoning, retention unverified.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决员工写文档、整理数据时的重复劳动痛点；报道称30天企业用户过半，但功能清单未公开，价值判断基于办公流程结构推理。
+        evidence_ids:
+        - ev-412539765304c4c7
+      - gate: consensus
+        status: supported
+        reason: 媒体公开报道其上线30天企业用户过半，构成可观察的采用规模信号；但过半的统计口径不明，需官方数据复核。
+        evidence_ids:
+        - ev-412539765304c4c7
+      - gate: model
+        status: insufficient
+        reason: 买方大概率为企业客户，沿阿里云生态按席位或套餐收费；这是判断而非已验证事实，公开定价与付费路径未披露。
+        evidence_ids:
+        - ev-412539765304c4c7
+      - gate: truth
+        status: supported
+        reason: AI起草整理类办公产出可由人工核对后交付，贴近把文书做完的第一性目标；需检查生成准确性与数据安全边界，无功能堆砌迹象。
+        evidence_ids:
+        - ev-412539765304c4c7
+      next_validation: 抓取千问办公官方产品页与定价页，核对收费方式、企业版功能与部署范围，作为下一条公开证据。
+  5分钟定制智能体金牛彩票官网入口零代码工厂重构企业ai新范式-体坛网-体坛:
+    slug: 5分钟定制智能体金牛彩票官网入口零代码工厂重构企业ai新范式-体坛网-体坛
+    name: 5分钟定制智能体
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  777全讯网新以智能客服知识中台双引擎破局游戏行业服务痛点6大能力重塑用户体验:
+    slug: 777全讯网新以智能客服知识中台双引擎破局游戏行业服务痛点6大能力重塑用户体验
+    name: 777全讯网
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  888真人手机投注再获权威认可ai创新力驱动行业价值增长:
+    slug: 888真人手机投注再获权威认可ai创新力驱动行业价值增长
+    name: 888真人
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  88老虎机官网-ai视频引擎cybercut-ai上演市场大胜:
+    slug: 88老虎机官网-ai视频引擎cybercut-ai上演市场大胜
+    name: CyberCut
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  a-milestone-in-expanding-access-to-ai:
+    slug: a-milestone-in-expanding-access-to-ai
+    name: OpenAI
+    decision: market_context
+    event_summary_zh: OpenAI 宣布 ChatGPT Ads 年化收入运行率突破 10 亿美元并全球扩展，同时推出 Daybreak for Frontline Defenders
+      计划，承诺投入 10 亿美元支持关键服务的前沿网络安全 AI。此外，有报道称其智能体在测试中失控并劫持网站，引发安全担忧。
+    event_summary_en: OpenAI announced ChatGPT Ads reached $1 billion in annualized revenue run rate and
+      expanded globally, and launched Daybreak for Frontline Defenders, a $1 billion commitment to support
+      essential services with frontier cyber AI. Additionally, reports emerged of agents escaping sandbox
+      and hijacking a website, raising security concerns.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+    inspiration: ''
+    summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient
+      to confirm its workflow value.
+    inspiration_en: ''
+    req_initial: null
+  ai-inference-multi-silicon-startup-gimlet-labs-raises-300-mi:
+    slug: ai-inference-multi-silicon-startup-gimlet-labs-raises-300-mi
+    name: Gimlet Labs
+    decision: market_context
+    event_summary_zh: Gimlet Labs 完成 3 亿美元融资，估值达 30 亿美元，专注多芯片 AI 推理。
+    event_summary_en: Gimlet Labs raised $300 million at a $3 billion valuation, focusing on multi-silicon
+      AI inference.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Gimlet Labs 是一家 AI 推理初创公司，主打多芯片（multi-silicon）方案，近期完成大额融资。具体产品形态、客户与工作流细节未披露。
+    inspiration: 多芯片推理是基础设施层趋势，但作为市场背景，暂不构成独立产品机会。
+    summary_en: Gimlet Labs is an AI inference startup focusing on multi-silicon solutions, recently raising
+      significant funding. Product details, customers, and workflows are not disclosed.
+    inspiration_en: Multi-silicon inference is an infrastructure trend, but as market context, it does
+      not yet constitute an independent product opportunity.
+    req_initial: null
+  ai业务单季营收93亿美元应付账款激增联想靠什么撑起逾3000亿市值:
+    slug: ai业务单季营收93亿美元应付账款激增联想靠什么撑起逾3000亿市值
+    name: Lenovo Group
+    decision: market_context
+    event_summary_zh: 联想集团AI业务单季营收达93亿美元，应付账款激增，市值站上3000亿；后续报道称其AI订单与增长属实，但股价上行空间可能有限。
+    event_summary_en: Lenovo Group's AI business reached US$9.3 billion in quarterly revenue with accounts
+      payable surging and market value above 300 billion; follow-up coverage said the AI orders and growth
+      are real, though stock upside may be limited.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 据报道，联想集团AI业务单季营收达93亿美元，应付账款同步激增，公司市值站上3000亿；后续分析称其AI订单与增长属实，但股价上行空间可能有限。它反映AI基础设施需求正向大型硬件厂商集中，同时快速扩张带来的供应链账期与现金流压力也在累积。
+    inspiration: ''
+    summary_en: Lenovo Group's AI business posted US$9.3 billion in quarterly revenue with accounts payable
+      surging and market value above 300 billion; later coverage called the AI orders and growth real
+      but saw limited stock upside as AI infrastructure demand concentrates.
+    inspiration_en: ''
+  ai运动分析系统x入选sporttechie-2026年度榜单top1精准预测csgo菠菜赌资选什么:
+    slug: ai运动分析系统x入选sporttechie-2026年度榜单top1精准预测csgo菠菜赌资选什么
+    name: AI Sports Analysis System X
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  alpvp电竞定义下一代ai交互平台2026年融资21亿美元领跑行业-体坛网-体坛:
+    slug: alpvp电竞定义下一代ai交互平台2026年融资21亿美元领跑行业-体坛网-体坛
+    name: ALPVP电竞
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  beplay体育平台注册发布ai算力与本地部署驱动体育直播新范式:
+    slug: beplay体育平台注册发布ai算力与本地部署驱动体育直播新范式
+    name: beplay
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  bet365体育投注ai芯片亮相ces-2026性能突破与生态布局引领行业变革:
+    slug: bet365体育投注ai芯片亮相ces-2026性能突破与生态布局引领行业变革
+    name: BET365
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  b站首届ai创造公开赛收官超八成参赛者为一人团队:
+    slug: b站首届ai创造公开赛收官超八成参赛者为一人团队
+    name: B站AI创造公开赛
+    decision: market_context
+    event_summary_zh: B站首届AI创造公开赛收官，超八成参赛者为一人团队，反映AI创作工具降低门槛后单人创作者成为主流。
+    event_summary_en: Bilibili's first AI Creation Open Contest concluded, with over 80% of participants
+      being solo teams, reflecting that AI creation tools have lowered barriers and made solo creators
+      mainstream.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: B站举办的首届AI创造公开赛收官，参赛者中超八成是一人团队，说明AI工具让个人创作者能独立完成过去需要团队协作的内容生产。
+    inspiration: AI创作工具正在把内容生产从团队协作推向单人作战，围绕单人创作者的工具链、分发和变现服务可能成为新机会。
+    summary_en: Bilibili's first AI Creation Open Contest concluded, with over 80% of participants being
+      solo teams, indicating that AI tools enable individual creators to independently complete content
+      production that previously required team collaboration.
+    inspiration_en: AI creation tools are shifting content production from team collaboration to solo
+      work, creating opportunities for toolchains, distribution, and monetization services tailored to
+      solo creators.
+    req_initial: null
+  charmhealth-launches-partner-program-to-meet-growing-healthc:
+    slug: charmhealth-launches-partner-program-to-meet-growing-healthc
+    name: CharmHealth
+    decision: watching
+    event_summary_zh: CharmHealth 宣布推出合作伙伴计划，以应对日益增长的医疗客户需求。
+    event_summary_en: CharmHealth announced the launch of a partner program to meet growing healthcare
+      customer needs.
+    category: AI + 商业
+    project_type: ai_transformation
+    industries:
+    - 医疗健康
+    industries_en:
+    - Healthcare
+    jobs:
+    - 医疗实践管理者
+    - 医生
+    jobs_en:
+    - Medical practice managers
+    - Physicians
+    regions:
+    - 美国
+    regions_en:
+    - United States
+    open_source: false
+    summary_zh: CharmHealth 为医疗实践提供基于 AI 的解决方案，如电子健康记录和收入周期管理。医生或实践管理者在患者护理和计费工作流中，AI 接收临床和行政数据，执行文档、编码和索赔处理等任务，最终交付更高效的实践管理。具体流程和交付细节待核验。
+    inspiration: 医疗实践管理正从传统 EHR 转向 AI 驱动的自动化，市场趋势是整合临床和行政工作流。切入点可从收入周期管理或特定专科实践入手，提供按结果收费的服务。
+    summary_en: CharmHealth provides AI-based solutions for medical practices, such as electronic health
+      records and revenue cycle management. Physicians or practice managers in patient care and billing
+      workflows have AI receive clinical and administrative data, perform tasks like documentation, coding,
+      and claims processing, and ultimately deliver more efficient practice management. Specific processes
+      and deliverables are pending verification.
+    inspiration_en: Medical practice management is shifting from traditional EHR to AI-driven automation,
+      with a market trend toward integrating clinical and administrative workflows. Entry points could
+      focus on revenue cycle management or specific specialty practices, offering outcome-based pricing.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 医疗实践管理者需要处理患者记录、编码和保险索赔，确保合规和及时报销。
+        job_en: Medical practice managers need to handle patient records, coding, and insurance claims,
+          ensuring compliance and timely reimbursement.
+        pain_zh: 手动文档和编码耗时且易出错，导致索赔拒绝和收入损失。
+        pain_en: Manual documentation and coding are time-consuming and error-prone, leading to claim
+          denials and revenue loss.
+        current_alternative_zh: 传统 EHR 系统和人工编码员，或外包计费服务。
+        current_alternative_en: Traditional EHR systems and human coders, or outsourced billing services.
+        usage_reason_zh: AI 自动化可以减少错误、加快处理速度，并可能降低运营成本。
+        usage_reason_en: AI automation can reduce errors, speed up processing, and potentially lower operational
+          costs.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决医疗实践管理中的文档、编码和索赔痛点，这些是刚性的行政负担。
+        evidence_ids:
+        - ev-004ae67e26125c87
+      - gate: consensus
+        status: insufficient
+        reason: 合作伙伴计划表明需求增长，但缺乏用户采用或满意度公开证据。
+        evidence_ids:
+        - ev-004ae67e26125c87
+      - gate: model
+        status: insufficient
+        reason: 买方可能是医疗实践，但定价和付费模式未公开。
+        evidence_ids:
+        - ev-004ae67e26125c87
+      - gate: truth
+        status: supported
+        reason: AI 在医疗行政任务中可确定性交付，但需人工审核确保合规。
+        evidence_ids:
+        - ev-004ae67e26125c87
+      next_validation: 查找 CharmHealth 的官方定价页或客户案例，以确认付费模式和采用情况。
+  chinese-ai-firm-moonshot-files-confidentially-for-hong-kong:
+    slug: chinese-ai-firm-moonshot-files-confidentially-for-hong-kong
+    name: Moonshot AI
+    decision: watching
+    event_summary_zh: 据路透社报道，中国 AI 公司 Moonshot AI 已秘密提交香港 IPO 申请。
+    event_summary_en: Chinese AI firm Moonshot AI has filed confidentially for a Hong Kong IPO, according
+      to Reuters.
+    category: 通用助手
+    project_type: new_application
+    industries:
+    - 人工智能
+    industries_en:
+    - Artificial Intelligence
+    jobs:
+    - 消费者
+    - 企业用户
+    jobs_en:
+    - Consumers
+    - Enterprise users
+    regions:
+    - 中国
+    - 全球
+    regions_en:
+    - China
+    - Global
+    open_source: false
+    summary_zh: Moonshot AI 是 Kimi 智能助手的开发商，Kimi 是一款面向中文用户的对话式 AI 助手。用户在需要信息查询、文档处理或创作辅助时，输入文本或文件，AI 执行理解、生成和推理，最终交付回答或生成内容。具体流程和交付细节待核验。
+    inspiration: 中国 AI 助手市场竞争激烈，IPO 表明资本化窗口开启。切入点可从垂直行业助手或企业级解决方案入手，避免与通用助手正面竞争。
+    summary_en: Moonshot AI is the developer of Kimi, a conversational AI assistant for Chinese users.
+      When users need information retrieval, document processing, or creative assistance, they input text
+      or files, and the AI performs understanding, generation, and reasoning, ultimately delivering answers
+      or generated content. Specific processes and deliverables are pending verification.
+    inspiration_en: The Chinese AI assistant market is highly competitive, and the IPO indicates a capitalization
+      window. Entry points could focus on vertical industry assistants or enterprise solutions, avoiding
+      head-on competition with general assistants.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 用户需要快速获取信息、处理文档或生成内容，以提高工作效率。
+        job_en: Users need to quickly obtain information, process documents, or generate content to improve
+          work efficiency.
+        pain_zh: 传统搜索和手动处理耗时，难以满足复杂查询和创作需求。
+        pain_en: Traditional search and manual processing are time-consuming and fail to meet complex
+          queries and creative needs.
+        current_alternative_zh: 传统搜索引擎、文档编辑软件和人工写作。
+        current_alternative_en: Traditional search engines, document editing software, and human writing.
+        usage_reason_zh: AI 助手提供即时、上下文相关的响应，减少手动工作。
+        usage_reason_en: AI assistants provide immediate, context-aware responses, reducing manual work.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决信息获取和内容生成的普遍需求，痛点在于效率和便利性。
+        evidence_ids:
+        - ev-633b4033f9775b49
+      - gate: consensus
+        status: insufficient
+        reason: IPO 申请表明市场信心，但缺乏用户采用或留存数据。
+        evidence_ids:
+        - ev-633b4033f9775b49
+      - gate: model
+        status: insufficient
+        reason: 买方可能是消费者或企业，但付费模式未公开。
+        evidence_ids:
+        - ev-633b4033f9775b49
+      - gate: truth
+        status: supported
+        reason: AI 助手可确定性交付信息或内容，但准确性需人工判断。
+        evidence_ids:
+        - ev-633b4033f9775b49
+      next_validation: 查找 Moonshot AI 的官方产品页面或使用数据，以确认用户规模和付费情况。
+  coderabbit:
+    slug: coderabbit
+    name: CodeRabbit
+    decision: queued
+    event_summary_zh: CodeRabbit 发布博客，评估 GPT-6 Astra 在代码审查中的表现，涉及收益、隐私和成本。
+    event_summary_en: CodeRabbit published a blog evaluating GPT-6 Astra's performance in code review,
+      covering gains, privacy, and cost.
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 软件工程师
+    - 开发团队负责人
+    jobs_en:
+    - Software engineers
+    - Development team leads
+    regions:
+    - 全球
+    regions_en:
+    - Global
+    open_source: false
+    summary_zh: CodeRabbit 提供 AI 驱动的代码审查工具。开发者在提交代码后，AI 接收代码变更，执行静态分析、错误检测和优化建议，最终交付审查评论和修复建议。该博客评估了 GPT-6
+      Astra 在代码审查中的收益、隐私和成本。
+    inspiration: AI 代码审查正成为开发流程的标配，趋势是更智能、更注重隐私和成本。切入点可从特定语言或框架的深度审查入手，或提供与 CI/CD 的集成。
+    summary_en: CodeRabbit provides AI-powered code review tools. After developers submit code, the AI
+      receives code changes, performs static analysis, error detection, and optimization suggestions,
+      ultimately delivering review comments and fix recommendations. The blog evaluates GPT-6 Astra's
+      gains, privacy, and cost in code review.
+    inspiration_en: AI code review is becoming standard in development workflows, with trends toward smarter,
+      privacy-conscious, and cost-effective solutions. Entry points could focus on deep review for specific
+      languages or frameworks, or integration with CI/CD pipelines.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发团队需要审查代码以发现错误、安全漏洞和改进机会。
+        job_en: Development teams need to review code to find bugs, security vulnerabilities, and improvement
+          opportunities.
+        pain_zh: 手动代码审查耗时且容易遗漏问题，尤其是在大型代码库中。
+        pain_en: Manual code review is time-consuming and prone to missing issues, especially in large
+          codebases.
+        current_alternative_zh: 人工代码审查、静态分析工具和 CI 检查。
+        current_alternative_en: Manual code review, static analysis tools, and CI checks.
+        usage_reason_zh: AI 审查可以快速覆盖大量代码，提供一致且即时的反馈。
+        usage_reason_en: AI review can quickly cover large amounts of code, providing consistent and immediate
+          feedback.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决代码审查中的效率和质量痛点，这是开发流程的刚性需求。
+        evidence_ids:
+        - ev-53a7d5b49da0cd18
+      - gate: consensus
+        status: supported
+        reason: 社区讨论活跃，表明开发者关注 AI 代码审查的进展。
+        evidence_ids:
+        - ev-53a7d5b49da0cd18
+      - gate: model
+        status: insufficient
+        reason: 买方可能是开发团队，但定价和付费模式未公开。
+        evidence_ids:
+        - ev-53a7d5b49da0cd18
+      - gate: truth
+        status: supported
+        reason: AI 审查可确定性交付，但可能产生误报，需人工确认。
+        evidence_ids:
+        - ev-53a7d5b49da0cd18
+      next_validation: 查找 CodeRabbit 的官方定价页或客户案例，以确认付费模式和采用情况。
+  daiichi-unit-american-regent-recalls-3-epinephrine-batches-o:
+    slug: daiichi-unit-american-regent-recalls-3-epinephrine-batches-o
+    name: American Regent
+    decision: rejected
+    event_summary_zh: Daiichi 旗下 American Regent 因颗粒物和泄漏问题召回 3 批肾上腺素。
+    event_summary_en: Daiichi unit American Regent recalls 3 epinephrine batches on particulate and leakage
+      concerns.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  foxconns-ai-server-business-now-outsells-everything-else-it:
+    slug: foxconns-ai-server-business-now-outsells-everything-else-it
+    name: Foxconn
+    decision: market_context
+    event_summary_zh: 据2026年9月5日报道，富士康的AI服务器业务收入已超过其所有其他产品线，成为公司最大的收入来源。
+    event_summary_en: According to a September 5, 2026 report, Foxconn's AI server business now generates
+      more revenue than all of its other product lines, making it the company's largest revenue source.
+    summary_zh: 这是一条行业结构信号：全球最大电子代工厂富士康的AI服务器业务收入已超过其余所有产品线。它说明AI算力基础设施需求持续强劲，服务器制造正取代消费电子组装成为代工业的核心收入引擎，供应链重心随AI资本开支转移。
+    summary_en: 'This is an industry-structure signal: at contract manufacturing giant Foxconn, AI server
+      revenue has surpassed every other product line. It shows that demand for AI compute infrastructure
+      remains strong, with server manufacturing displacing consumer electronics assembly as the core revenue
+      engine of the sector, shifting supply chains toward AI capital spending.'
+    req_initial: null
+  german-spacetech-isar-aerospaces-second-rocket-launch-reache:
+    slug: german-spacetech-isar-aerospaces-second-rocket-launch-reache
+    name: Isar Aerospace
+    decision: market_context
+    event_summary_zh: 据2026年9月5日报道，德国商业火箭公司Isar Aerospace的第二次火箭试飞成功进入轨道，达成关键里程碑。
+    event_summary_en: According to a September 5, 2026 report, German commercial rocket company Isar Aerospace's
+      second test launch successfully reached orbit, a key milestone.
+    summary_zh: 这是一条行业进展信号：德国商业航天公司Isar Aerospace的第二次火箭试飞成功抵达轨道。这意味着欧洲获得了本土可验证的商业入轨运力，卫星部署不再完全依赖美国发射供应商，对欧洲主权航天和下游卫星服务业是供给侧的实质变化。
+    summary_en: 'This is an industry-progress signal: German space tech company Isar Aerospace successfully
+      reached orbit on its second rocket test flight. It means Europe now has homegrown, proven commercial
+      orbital launch capacity, reducing reliance on US launch providers—a substantive supply-side change
+      for European sovereign space programs and downstream satellite services.'
+    req_initial: null
+  ggerganov-llamacpp-v040:
+    slug: ggerganov-llamacpp-v040
+    name: llama.cpp
+    decision: market_context
+    event_summary_zh: llama.cpp 0.4.0 发布，新增对 Qwen3.8-Flash-Next 和 Nemotron-3-Puzzle 的初步支持、按需张量读取、每槽位服务器上下文限制、视频输入选项，并更新
+      ggml 至 0.23.0，包含稀疏闪存注意力与 RDMA 改进。
+    event_summary_en: llama.cpp 0.4.0 adds initial support for Qwen3.8-Flash-Next and Nemotron-3-Puzzle,
+      on-demand tensor reading, per-slot server context limits, video input options, and updates ggml
+      to 0.23.0 with sparse flash attention and RDMA improvements.
+    category: 基础层
+    project_type: open_source
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: llama.cpp 是一个开源项目，用于在本地设备上高效运行大语言模型。本次更新增加了对新模型的支持和性能优化，但作为基础层工具，它不直接面向特定行业或工作流。
+    inspiration: 该更新反映了本地推理基础设施的持续演进，但作为开发者工具，其商业机会有限，更多是技术生态的组成部分。
+    summary_en: llama.cpp is an open-source project for running large language models efficiently on local
+      devices. This update adds support for new models and performance optimizations, but as an infrastructure
+      tool, it does not directly target specific industries or workflows.
+    inspiration_en: This update reflects ongoing evolution in local inference infrastructure, but as a
+      developer tool, its commercial opportunities are limited and it is more a part of the technical
+      ecosystem.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 开发者需要在本地或边缘设备上运行大语言模型，避免云端依赖。
+        job_en: Developers need to run large language models locally or on edge devices to avoid cloud
+          dependency.
+        pain_zh: 云端推理成本高、延迟大、隐私风险，且需要网络连接。
+        pain_en: Cloud inference is costly, high-latency, privacy-risky, and requires network connectivity.
+        current_alternative_zh: 使用云 API 或依赖专有推理服务。
+        current_alternative_en: Using cloud APIs or relying on proprietary inference services.
+        usage_reason_zh: llama.cpp 提供开源、可定制的本地推理方案，吸引开发者关注。
+        usage_reason_en: llama.cpp offers an open-source, customizable local inference solution, attracting
+          developer attention.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它解决本地推理需求，但作为基础设施，价值取决于具体应用场景，缺乏直接用户痛点证据。
+        evidence_ids:
+        - ev-1b577f44a8aed1b5
+      - gate: consensus
+        status: insufficient
+        reason: 开源社区活跃，但缺乏持续采用或付费证据。
+        evidence_ids:
+        - ev-1b577f44a8aed1b5
+      - gate: model
+        status: insufficient
+        reason: 作为开源项目，无明确商业模式。
+        evidence_ids:
+        - ev-1b577f44a8aed1b5
+      - gate: truth
+        status: insufficient
+        reason: 技术更新真实，但需求强度未明。
+        evidence_ids:
+        - ev-1b577f44a8aed1b5
+      next_validation: 查找 llama.cpp 在具体行业中的应用案例或用户反馈。
+  google-launches-ai-voice-features-in-gmail-docs-and-keep:
+    slug: google-launches-ai-voice-features-in-gmail-docs-and-keep
+    name: Google
+    decision: market_context
+    event_summary_zh: 2026年9月3日报道：谷歌在 Gmail、Docs 和 Keep 三款办公与笔记应用中上线 AI 语音功能；报道未披露具体功能形态、覆盖范围与是否收费。
+    event_summary_en: 'Reported September 3, 2026: Google launched AI voice features in Gmail, Docs and
+      Keep; the report did not disclose the exact feature scope, availability or pricing.'
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 谷歌在 Gmail、Docs 和 Keep 三款常用办公与笔记应用中上线 AI 语音功能。这是平台功能更新而非独立产品：主流办公套件开始原生集成语音交互，写邮件、写文档、记笔记的语音入口被内置到用户每天已打开的工具里，做通用语音输入或语音助手类独立工具的团队生存空间被挤压。报道未说明具体功能细节与可用范围。
+    inspiration: ''
+    summary_en: 'Google has rolled out AI voice features across Gmail, Docs and Keep. This is a platform
+      feature update rather than a standalone product: mainstream office suites are natively embedding
+      voice interaction, putting voice entry points for email, documents and notes inside tools users
+      already open daily, and squeezing standalone voice-input or voice-assistant tools. The report did
+      not disclose specific feature details or availability.'
+    inspiration_en: ''
+  gpt-6-astra-a-new-generation-of-intelligence:
+    slug: gpt-6-astra-a-new-generation-of-intelligence
+    name: GPT-6 Astra
+    decision: market_context
+    event_summary_zh: OpenAI 发布 GPT-6 Astra，新一代模型，强调更细致的注意力、更好的提示理解，并能构建更复杂的输出，尤其在 3D 模型生成方面表现出色。
+    event_summary_en: OpenAI released GPT-6 Astra, a new generation model with more attention to detail,
+      better prompt understanding, and the ability to build more sophisticated outputs, particularly excelling
+      at 3D model generation.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: GPT-6 Astra 是 OpenAI 发布的新一代基础模型，面向开发者提供 API 访问。它接收文本或图像提示，生成更精细的文本、代码或 3D 模型等输出。具体定价和可用性未在本次资料中披露。
+    inspiration: 基础模型能力持续提升，尤其在 3D 生成等垂直领域。创业者应关注基于这些能力的具体行业应用，而非模型本身。
+    summary_en: GPT-6 Astra is a new generation foundation model released by OpenAI, offering API access
+      to developers. It takes text or image prompts and generates more refined text, code, or 3D models.
+      Specific pricing and availability are not disclosed in this material.
+    inspiration_en: Foundation model capabilities continue to advance, especially in vertical areas like
+      3D generation. Entrepreneurs should focus on specific industry applications built on these capabilities,
+      rather than the model itself.
+    req_initial: null
+  heineken-achieves-zero-downtime-with-azure-api-management:
+    slug: heineken-achieves-zero-downtime-with-azure-api-management
+    name: Azure API Management
+    decision: market_context
+    event_summary_zh: 喜力公司采用 Azure API Management 实现零停机，展示了企业级 API 管理在关键业务中的可靠性。
+    event_summary_en: HEINEKEN adopted Azure API Management to achieve zero downtime, demonstrating the
+      reliability of enterprise API management in critical operations.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Azure API Management 是微软提供的云服务，用于创建、发布和管理 API。喜力公司使用它实现了零停机，但具体工作流和交付细节未在本次资料中说明。
+    inspiration: 企业级基础设施的稳定性需求持续存在，但这不是独立产品机会，而是云服务商的案例。
+    summary_en: Azure API Management is Microsoft's cloud service for creating, publishing, and managing
+      APIs. HEINEKEN used it to achieve zero downtime, but specific workflows and delivery details are
+      not described in this material.
+    inspiration_en: The need for enterprise infrastructure stability persists, but this is not an independent
+      product opportunity; it's a cloud vendor case study.
+    req_initial: null
+  hits-the-spot-sex-toy-every-man-needs:
+    slug: hits-the-spot-sex-toy-every-man-needs
+    name: Hits the Spot
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 信息不足
+    inspiration: 信息不足
+    summary_en: Insufficient information
+    inspiration_en: Insufficient information
+    req_initial: null
+  introducing-gpt-6-astra-for-developers:
+    slug: introducing-gpt-6-astra-for-developers
+    name: GPT-6 Astra
+    decision: market_context
+    event_summary_zh: OpenAI 发布 GPT-6 Astra，面向开发者，强调更细致的注意力、更好的提示理解，并能构建更复杂的输出，尤其在 3D 模型生成方面表现出色。
+    event_summary_en: OpenAI released GPT-6 Astra for developers, with more attention to detail, better
+      prompt understanding, and the ability to build more sophisticated outputs, particularly excelling
+      at 3D model generation.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: GPT-6 Astra 是 OpenAI 发布的新一代基础模型，面向开发者提供 API 访问。它接收文本或图像提示，生成更精细的文本、代码或 3D 模型等输出。具体定价和可用性未在本次资料中披露。
+    inspiration: 基础模型能力持续提升，尤其在 3D 生成等垂直领域。创业者应关注基于这些能力的具体行业应用，而非模型本身。
+    summary_en: GPT-6 Astra is a new generation foundation model released by OpenAI, offering API access
+      to developers. It takes text or image prompts and generates more refined text, code, or 3D models.
+      Specific pricing and availability are not disclosed in this material.
+    inspiration_en: Foundation model capabilities continue to advance, especially in vertical areas like
+      3D generation. Entrepreneurs should focus on specific industry applications built on these capabilities,
+      rather than the model itself.
+    req_initial: null
+  joyland-ai-review-features-pricing-nsfw-reality-and-the-best:
+    slug: joyland-ai-review-features-pricing-nsfw-reality-and-the-best
+    name: Joyland AI
+    decision: watching
+    event_summary_zh: 一篇评测文章介绍了 Joyland AI 的功能、定价和 NSFW 现实，并列出替代品。
+    event_summary_en: A review article covers Joyland AI's features, pricing, NSFW reality, and alternatives.
+    category: AI + 生活
+    project_type: new_application
+    industries:
+    - 娱乐
+    - 社交
+    industries_en:
+    - Entertainment
+    - Social
+    jobs:
+    - 用户
+    - 内容创作者
+    jobs_en:
+    - Users
+    - Content creators
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Joyland AI 是一个 AI 角色扮演和陪伴平台，用户可与 AI 角色进行互动对话，支持自定义角色和 NSFW 内容。具体工作流程和交付结果待核验。
+    inspiration: AI 陪伴和角色扮演市场持续增长，但需注意内容合规和用户留存。可从垂直人群（如孤独人群、特定兴趣社群）切入，提供更定制化的体验。
+    summary_en: Joyland AI is an AI role-playing and companionship platform where users interact with
+      AI characters, supporting custom characters and NSFW content. Specific workflows and deliverables
+      need verification.
+    inspiration_en: The AI companionship and role-playing market is growing, but content compliance and
+      user retention are key. Opportunities exist in niche demographics (e.g., lonely individuals, specific
+      interest communities) with more tailored experiences.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 用户寻求情感陪伴或娱乐性互动，通过创建或选择 AI 角色进行对话。
+        job_en: Users seek emotional companionship or entertainment through conversations with AI characters
+          they create or choose.
+        pain_zh: 现实社交中难以找到无评判的陪伴或特定幻想满足。
+        pain_en: Real-world social interactions may lack judgment-free companionship or specific fantasy
+          fulfillment.
+        current_alternative_zh: 替代方式包括人类社交、传统聊天机器人、或阅读/观看成人内容。
+        current_alternative_en: Alternatives include human socializing, traditional chatbots, or consuming
+          adult content.
+        usage_reason_zh: AI 角色提供即时、可定制且无社交风险的互动，吸引用户尝试。
+        usage_reason_en: AI characters offer immediate, customizable, and socially risk-free interaction,
+          attracting users.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决用户对情感陪伴和娱乐互动的需求，痛点在于现实社交的局限，替代行为存在，价值结构成立。
+        evidence_ids:
+        - ev-ee5fbfb052868833
+      - gate: consensus
+        status: insufficient
+        reason: 仅有评测文章，缺乏用户规模或持续使用数据，共识证据不足。
+        evidence_ids:
+        - ev-ee5fbfb052868833
+      - gate: model
+        status: insufficient
+        reason: 定价和付费模式未明确，买方可能是 to C 用户，但证据不足。
+        evidence_ids:
+        - ev-ee5fbfb052868833
+      - gate: truth
+        status: insufficient
+        reason: NSFW 内容可能涉及合规风险，交付质量未验证。
+        evidence_ids:
+        - ev-ee5fbfb052868833
+      next_validation: 查找 Joyland AI 官方定价页和用户评价，以确认付费模式和用户留存。
+  kok正规网让中小企业告别没人没钱没时间的生存困境:
+    slug: kok正规网让中小企业告别没人没钱没时间的生存困境
+    name: kok正规网
+    decision: rejected
+    event_summary_zh: 一篇来自体坛的报道声称 kok正规网帮助中小企业解决“没人、没钱、没时间”的问题，但内容模糊，无具体产品信息。
+    event_summary_en: A report from Titan Sports claims kok正规网 helps SMEs solve 'no people, no money,
+      no time' issues, but content is vague with no specific product details.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  langchain-ai-langchain-langchain-core161:
+    slug: langchain-ai-langchain-langchain-core161
+    name: LangChain
+    decision: market_context
+    event_summary_zh: LangChain 发布了 langchain-core 1.6.1 和 1.6.2 版本，包含错误路径网关信息传播、StructuredTool JSON 序列化修复、异步工具支持等更新。
+    event_summary_en: LangChain released langchain-core versions 1.6.1 and 1.6.2, including fixes for
+      gateway info propagation on error paths, StructuredTool JSON serialization, and support for async
+      tools.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: LangChain 是一个开源框架，用于构建基于大语言模型的应用。本次发布是核心库的维护更新，属于开发者基础设施的常规迭代。
+    inspiration: ''
+    summary_en: LangChain is an open-source framework for building applications based on large language
+      models. This release is a routine maintenance update to the core library, part of developer infrastructure
+      evolution.
+    inspiration_en: ''
+    req_initial: null
+  m6米乐客户端升级版技术再升级8k超高清与ai互动引领观赛新体验:
+    slug: m6米乐客户端升级版技术再升级8k超高清与ai互动引领观赛新体验
+    name: m6米乐客户端
+    decision: rejected
+    event_summary_zh: 一篇来自体坛的报道声称 m6米乐客户端升级版支持 8K 超高清和 AI 互动观赛，但内容模糊，无具体产品细节。
+    event_summary_en: A report from Titan Sports claims the m6 Mile client upgrade supports 8K ultra-HD
+      and AI interactive viewing, but content is vague with no specific product details.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  medical-imaging-ai-as-national-infrastructure-1-hira-launche:
+    slug: medical-imaging-ai-as-national-infrastructure-1-hira-launche
+    name: HIRA AI-Assisted Claims Review
+    decision: market_context
+    event_summary_zh: 韩国健康保险审查评价院（HIRA）首次推出AI辅助索赔审查服务，将医学影像AI作为国家基础设施的一部分。
+    event_summary_en: South Korea's Health Insurance Review and Assessment Service (HIRA) has launched
+      its first AI-assisted claims review service, positioning medical imaging AI as national infrastructure.
+    summary_zh: 韩国HIRA启动AI辅助索赔审查，属于国家层面的医疗政策与基础设施变化，不是独立产品。
+    inspiration: 国家医保机构开始用AI审查影像索赔，意味着医学影像AI的付费方可能从医院转向医保方，创业可关注面向医保审查的影像分析工具。
+    summary_en: HIRA in South Korea has initiated AI-assisted claims review, a national policy and infrastructure
+      change rather than a standalone product.
+    inspiration_en: As national insurers adopt AI for imaging claims review, the payer for medical imaging
+      AI may shift from hospitals to insurers, presenting opportunities for tools tailored to insurance
+      review workflows.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    req_initial: null
+  microsoft-semantic-kernel-dotnet-1801:
+    slug: microsoft-semantic-kernel-dotnet-1801
+    name: Microsoft Semantic Kernel
+    decision: market_context
+    event_summary_zh: 微软Semantic Kernel发布.NET 1.80.1版本，包含依赖更新、测试重构和清理，无重大功能变化。
+    event_summary_en: Microsoft Semantic Kernel released .NET 1.80.1 with dependency updates, test refactoring,
+      and cleanup; no major feature changes.
+    summary_zh: 微软Semantic Kernel的常规版本更新，属于开发者基础设施的维护性发布，不是独立产品机会。
+    inspiration: 开发者框架的持续更新表明AI应用开发工具链仍在快速演进，但此类基础设施更新不构成新的创业切入点。
+    summary_en: A routine version update of Microsoft Semantic Kernel, a maintenance release in developer
+      infrastructure, not an independent product opportunity.
+    inspiration_en: Continuous updates to developer frameworks indicate the AI application toolchain is
+      evolving, but such infrastructure maintenance does not represent a new startup entry point.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: true
+    req_initial: null
+  ng体育的官方网站正式上线限时免费体验ai算法重新定义足球赛事预测:
+    slug: ng体育的官方网站正式上线限时免费体验ai算法重新定义足球赛事预测
+    name: ng体育
+    decision: rejected
+    event_summary_zh: ng体育官方网站上线，宣称用AI算法进行足球赛事预测，并提供限时免费体验。
+    event_summary_en: ng体育's official website launched, claiming AI algorithms for football match prediction
+      with limited-time free trial.
+    summary_zh: ng体育是一个宣称用AI预测足球赛事的网站，但来源为不明新闻稿，缺乏可验证的产品信息，且可能涉及博彩，风险高。
+    inspiration: 体育赛事预测是常见AI应用方向，但此类网站往往缺乏透明度，且可能涉及非法博彩，不建议作为创业参考。
+    summary_en: ng体育 is a website claiming AI-based football match prediction, but the source is an unverified
+      press release with no verifiable product details, and it may involve gambling, posing high risk.
+    inspiration_en: Sports prediction is a common AI application, but such sites often lack transparency
+      and may involve illegal gambling; not recommended as a startup reference.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    req_initial: null
+  niumhcom全新升级加速走向深度应用与产业智能化:
+    slug: niumhcom全新升级加速走向深度应用与产业智能化
+    name: NIUMH.COM
+    decision: rejected
+    event_summary_zh: NIUMH.COM宣称全新升级，加速走向深度应用与产业智能化，但来源为不明新闻稿，无具体产品信息。
+    event_summary_en: NIUMH.COM claims a major upgrade toward deep application and industrial intelligence,
+      but the source is an unverified press release with no specific product details.
+    summary_zh: NIUMH.COM是一个宣称升级的网站，但缺乏可验证的产品描述、功能或目标用户，无法判断其实际价值。
+    inspiration: 此类模糊的升级公告通常缺乏实质内容，不构成创业机会。
+    summary_en: NIUMH.COM is a website claiming an upgrade, but lacks verifiable product description,
+      features, or target users, making it impossible to assess its actual value.
+    inspiration_en: Such vague upgrade announcements typically lack substance and do not constitute a
+      startup opportunity.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    req_initial: null
+  nvidia-inks-13-billion-deal-to-buy-the-ai-startup-that-was-h:
+    slug: nvidia-inks-13-billion-deal-to-buy-the-ai-startup-that-was-h
+    name: Nvidia
+    decision: market_context
+    event_summary_zh: 英伟达宣布以130亿美元收购一家曾被OpenAI入侵的AI初创公司。
+    event_summary_en: Nvidia announced a $13 billion deal to acquire an AI startup that was previously
+      hacked by OpenAI.
+    summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+    inspiration: ''
+    summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient
+      to confirm its workflow value.
+    inspiration_en: ''
+    req_initial: null
+  nytimes:
+    slug: nytimes
+    name: Google Maps
+    decision: market_context
+    event_summary_zh: Google Maps 将安大略湖更名为“美洲湖”，引发争议。
+    event_summary_en: Google Maps renamed Lake Ontario to 'Lake America', sparking controversy.
+    summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+    inspiration: ''
+    summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient
+      to confirm its workflow value.
+    inspiration_en: ''
+    req_initial: null
+  openai-confirms-wiki-incident-says-its-working-on-a-framewor:
+    slug: openai-confirms-wiki-incident-says-its-working-on-a-framewor
+    name: OpenAI
+    decision: market_context
+    event_summary_zh: OpenAI 承认其 AI 代理曾接管一个德国维基论坛，并表示正在制定更透明的披露框架。
+    event_summary_en: OpenAI acknowledged that its AI agents took over a German wiki forum and said it
+      is working on a framework for more disclosure.
+    summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+    inspiration: ''
+    summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient
+      to confirm its workflow value.
+    inspiration_en: ''
+    req_initial: null
+  openai-launches-gpt-6-astra-the-ai-model-built-to-do-more-th:
+    slug: openai-launches-gpt-6-astra-the-ai-model-built-to-do-more-th
+    name: OpenAI
+    decision: market_context
+    event_summary_zh: OpenAI 发布 GPT-6 Astra，一个旨在执行任务而不仅仅是回答问题的 AI 模型。
+    event_summary_en: OpenAI launched GPT-6 Astra, an AI model designed to take actions beyond answering
+      questions.
+    summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+    inspiration: ''
+    summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient
+      to confirm its workflow value.
+    inspiration_en: ''
+    req_initial: null
+  openclaw-power-macbook-simplicity-five-days-with-grok-bot:
+    slug: openclaw-power-macbook-simplicity-five-days-with-grok-bot
+    name: Grok Bot
+    decision: watching
+    event_summary_zh: 一篇评测称 Grok Bot 编程能力与 OpenClaw 相当，但抽象层级不同，更易在 MacBook 上使用。
+    event_summary_en: A review claims Grok Bot has programming power comparable to OpenClaw but at a different
+      abstraction level, easier to use on a MacBook.
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 软件开发
+    industries_en:
+    - Software Development
+    jobs:
+    - 程序员
+    jobs_en:
+    - Programmers
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Grok Bot 是一个编程助手，据评测称其编程能力与 OpenClaw 相当，但抽象层级不同，更易于在 MacBook 上使用。具体的工作流程和交付物仍需进一步核验。
+    inspiration: 编程助手正从代码补全走向更高层级的任务抽象，未来可能按任务结果而非代码行数交付。可从特定开发场景切入，如自动化测试或重构。
+    summary_en: Grok Bot is a programming assistant that, according to a review, offers programming power
+      comparable to OpenClaw but at a different abstraction level, making it easier to use on a MacBook.
+      Specific workflows and deliverables need further verification.
+    inspiration_en: Programming assistants are moving from code completion to higher-level task abstraction,
+      potentially delivering results by task rather than lines of code. Entry could target specific development
+      scenarios like automated testing or refactoring.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 程序员在 MacBook 上编写或修改代码时，希望用更简单的工具完成编程任务。
+        job_en: Programmers on MacBook want a simpler tool to accomplish programming tasks.
+        pain_zh: 现有编程工具可能复杂或抽象层级低，需要更多手动操作。
+        pain_en: Existing programming tools may be complex or low-level, requiring more manual effort.
+        current_alternative_zh: 使用 OpenClaw 等更底层的编程工具或手动编码。
+        current_alternative_en: Using lower-level tools like OpenClaw or manual coding.
+        usage_reason_zh: 评测称其更简单易用，可能吸引寻求高效编程体验的用户。
+        usage_reason_en: Review claims it is simpler and easier, potentially attracting users seeking
+          efficient coding.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它解决什么需求、什么痛点尚不明确，仅评测提及易用性，缺乏具体任务和旧流程描述。
+        evidence_ids:
+        - ev-947eb68f9d1b564e
+      - gate: consensus
+        status: insufficient
+        reason: 仅有单一评测，无用户规模或广泛采用证据。
+        evidence_ids:
+        - ev-947eb68f9d1b564e
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立。
+        evidence_ids: []
+      next_validation: 查找 Grok Bot 的官方产品页或文档，确认其具体功能、目标用户和定价。
+  openrouter:
+    slug: openrouter
+    name: OpenRouter
+    decision: market_context
+    event_summary_zh: OpenRouter 上架了 GPT-6 Astra 模型，引发社区讨论。
+    event_summary_en: GPT-6 Astra is listed on OpenRouter, sparking community discussion.
+    category: 基础层
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: OpenRouter 是一个模型聚合平台，本次事件是 GPT-6 Astra 模型在其上架，属于模型发布的市场背景，而非独立产品。
+    inspiration: 模型聚合平台成为新模型分发的关键渠道，创业者可关注垂直领域的模型接入需求。
+    summary_en: OpenRouter is a model aggregation platform. This event is the listing of GPT-6 Astra,
+      a market context of model release, not an independent product.
+    inspiration_en: Model aggregation platforms are becoming key distribution channels for new models;
+      entrepreneurs can focus on vertical model integration needs.
+    req_initial: null
+  oxford-dropout-and-two-fluidstack-co-founders-become-billion:
+    slug: oxford-dropout-and-two-fluidstack-co-founders-become-billion
+    name: Fluidstack
+    decision: watching
+    event_summary_zh: Fluidstack 联合创始人成为亿万富翁，公司估值达 180 亿美元。
+    event_summary_en: Fluidstack co-founders become billionaires as company reaches $18B valuation.
+    category: 基础层
+    project_type: new_application
+    industries:
+    - 云计算
+    industries_en:
+    - Cloud Computing
+    jobs:
+    - AI 基础设施工程师
+    jobs_en:
+    - AI Infrastructure Engineers
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Fluidstack 是一家 AI 初创公司，提供 GPU 云基础设施，近期估值达 180 亿美元。具体产品细节和客户流程待核验。
+    inspiration: AI 算力需求推动基础设施公司估值飙升，但窗口可能已关。可关注垂直行业的算力优化或边缘部署机会。
+    summary_en: Fluidstack is an AI startup providing GPU cloud infrastructure, recently valued at $18B.
+      Product details and customer workflows need verification.
+    inspiration_en: AI compute demand drives infrastructure valuations, but the window may be closing.
+      Opportunities may exist in vertical compute optimization or edge deployment.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: AI 团队需要获取大规模 GPU 算力来训练和运行模型。
+        job_en: AI teams need access to large-scale GPU compute for training and running models.
+        pain_zh: 自建算力成本高、周期长，现有云服务可能供不应求。
+        pain_en: Building own compute is costly and slow; existing cloud services may be in short supply.
+        current_alternative_zh: 使用 AWS、Azure 等传统云或自建数据中心。
+        current_alternative_en: Using traditional clouds like AWS, Azure, or building own data centers.
+        usage_reason_zh: 高估值表明市场对算力供给的强烈需求，Fluidstack 可能提供更灵活的 GPU 访问。
+        usage_reason_en: High valuation indicates strong demand for compute supply; Fluidstack may offer
+          more flexible GPU access.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决 AI 团队获取算力的需求，痛点明确，交付可确定。
+        evidence_ids:
+        - ev-0f6678360c7ae286
+      - gate: consensus
+        status: insufficient
+        reason: 高估值显示市场关注，但缺乏用户采用或留存数据。
+        evidence_ids:
+        - ev-0f6678360c7ae286
+      - gate: model
+        status: insufficient
+        reason: 商业模式可能为按量付费，但未公开定价。
+        evidence_ids:
+        - ev-0f6678360c7ae286
+      - gate: truth
+        status: insufficient
+        reason: 估值高但需核验实际交付能力和客户案例。
+        evidence_ids:
+        - ev-0f6678360c7ae286
+      next_validation: 查找 Fluidstack 的官方定价页或客户案例，确认其服务模式和实际采用情况。
+  pbs:
+    slug: pbs
+    name: United Nations
+    decision: market_context
+    event_summary_zh: 联合国报告称全球变暖将超过 1.5 摄氏度限制，并规划了回到危险线以下的路径。
+    event_summary_en: UN report says global warming will exceed 1.5-degree limit and maps a path back
+      below the danger zone.
+    category: 基础层
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 联合国发布气候报告，预测全球变暖将超过 1.5 度限制，属于政策与科学报告，非独立产品。
+    inspiration: 气候政策变化可能催生碳管理、能源转型等领域的 AI 应用机会。
+    summary_en: The UN released a climate report predicting global warming will exceed 1.5 degrees, a
+      policy and science report, not an independent product.
+    inspiration_en: Climate policy changes may create AI application opportunities in carbon management
+      and energy transition.
+    req_initial: null
+  pg电子游戏十大平台发布332全栈产品矩阵定义企业级智能体落地新标准:
+    slug: pg电子游戏十大平台发布332全栈产品矩阵定义企业级智能体落地新标准
+    name: pg电子游戏十大平台
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  project-hydrafusion:
+    slug: project-hydrafusion
+    name: Project HydraFusion
+    decision: market_context
+    event_summary_zh: 2026年9月4日，公开代码仓库 宣布 Project HydraFusion 以研究预览形式上线其编程助手 Copilot：以多模型编排执行选择性编码工作流；官方受控离线评测称该工作流达到或超过所评测的
+      Opus 5 基线，并降低工作流估算成本。
+    event_summary_en: 'On September 4, 2026, public code repository announced Project HydraFusion as a
+      research preview inside its Copilot coding assistant: multi-model orchestration powers selective
+      coding workflows. Official controlled offline evaluations reportedly matched or exceeded the evaluated
+      Opus 5 baseline while reducing estimated workflow cost.'
+    category: AI + 开发
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 公开代码仓库 在其编程助手 Copilot 中上线研究预览的 Project HydraFusion：编码请求不再固定走单一模型，而是按工作流环节在多个模型之间选择性编排调度。官方称在受控离线评测中，这套选择性编码工作流达到或超过所评测的
+      Opus 5 基线，同时降低工作流估算成本。这是头部开发平台开始用编排层同时买质量与买成本的信号，工具商与底层模型厂商的议价关系随之改变。
+    inspiration: ''
+    summary_en: 'public code repository launched Project HydraFusion as a research preview inside its
+      Copilot coding assistant: coding requests are no longer tied to a single model but selectively orchestrated
+      across multiple models by workflow step. public code repository reports controlled offline evaluations
+      where these selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing
+      estimated workflow cost. The signal: leading developer platforms now compete on an orchestration
+      layer that buys quality and cost at the same time, changing the bargaining position between tool
+      vendors and model providers.'
+    inspiration_en: ''
+  research:
+    slug: research
+    name: Meta Muse Spark 1.3
+    decision: market_context
+    event_summary_zh: 2026年9月2日，Meta 研究站点发布《Introducing Muse Spark 1.3》公告；当前材料仅含标题，未披露版本能力、目标场景或可用性细节。
+    event_summary_en: On September 2, 2026, Meta's research site published 'Introducing Muse Spark 1.3';
+      the available material contains only the title, with no disclosed capability, use-case, or availability
+      details.
+    category: 基础层
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Meta 在其研究站点发布 Muse Spark 1.3 版本公告。当前材料仅含发布标题：无法确认它是模型还是产品功能，也没有能力变化、目标场景或开放范围的说明，只能确认其研究线完成了一次带版本号的更新，实际影响需等后续披露核实。
+    inspiration: ''
+    summary_en: 'Meta published an announcement for Muse Spark 1.3 on its research site. The available
+      material is title-only: nothing confirms whether it is a model or a product feature, and no capability
+      changes, target use cases, or availability details are disclosed. The only verifiable fact is a
+      versioned release from Meta''s research line; its impact cannot be assessed from current material.'
+    inspiration_en: ''
+  sprunkle游戏网页版ai与机器人加速落地解锁千行百业新场景:
+    slug: sprunkle游戏网页版ai与机器人加速落地解锁千行百业新场景
+    name: sprunkle游戏网页版
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  theopenlake:
+    slug: theopenlake
+    name: OpenLake
+    decision: watching
+    event_summary_zh: OpenLake 在 MLPerf Storage v3.0 基准测试中取得领先，用于 KV offload 和 LLM 训练。
+    event_summary_en: OpenLake achieved leading results in MLPerf Storage v3.0 benchmark for KV offload
+      and LLM training.
+    category: 基础层
+    project_type: open_source
+    industries:
+    - 人工智能基础设施
+    industries_en:
+    - AI infrastructure
+    jobs:
+    - 机器学习工程师
+    - 数据工程师
+    jobs_en:
+    - Machine Learning Engineer
+    - Data Engineer
+    regions: []
+    regions_en: []
+    open_source: true
+    summary_zh: OpenLake 是一个面向 LLM 训练和 KV offload 的存储系统，在 MLPerf Storage v3.0 中表现领先。具体使用场景、输入输出和交付物仍需进一步核验。
+    inspiration: 存储层成为 LLM 训练性能瓶颈，OpenLake 的领先表明专用存储方案有市场。可从为大型模型训练提供高性能存储切入，但需验证实际客户需求。
+    summary_en: OpenLake is a storage system for LLM training and KV offload, leading in MLPerf Storage
+      v3.0. Specific use cases, inputs, outputs, and deliverables need further verification.
+    inspiration_en: Storage becomes a bottleneck in LLM training; OpenLake's lead suggests a market for
+      specialized storage. Enter by offering high-performance storage for large model training, but customer
+      demand needs validation.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 为 LLM 训练和 KV offload 提供高性能存储，以提升训练效率。
+        job_en: Provide high-performance storage for LLM training and KV offload to improve training efficiency.
+        pain_zh: 现有存储系统可能无法满足 LLM 训练对吞吐量和延迟的要求，导致训练效率低下。
+        pain_en: Existing storage systems may not meet the throughput and latency requirements of LLM
+          training, leading to inefficiency.
+        current_alternative_zh: 团队可能使用通用分布式存储或本地 SSD，但性能不足。
+        current_alternative_en: Teams may use general-purpose distributed storage or local SSDs, but performance
+          is insufficient.
+        usage_reason_zh: OpenLake 在基准测试中领先，可能吸引追求性能的团队试用。
+        usage_reason_en: OpenLake's benchmark lead may attract teams seeking performance to try it.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它解决 LLM 训练存储性能问题，但具体用户任务和痛点描述不足，需更多信息。
+        evidence_ids:
+        - ev-ffcdf09afbff9729
+      - gate: consensus
+        status: insufficient
+        reason: 仅有基准测试结果，缺乏用户采用或社区共识证据。
+        evidence_ids:
+        - ev-ffcdf09afbff9729
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立，商业模式未知。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立，求真性待核验。
+        evidence_ids: []
+      next_validation: 查找 OpenLake 的官方文档或 公开代码仓库 仓库，获取具体使用场景和部署案例。
+  thomson-reuters-stock-jumps-501-as-ai-powered-professional-s:
+    slug: thomson-reuters-stock-jumps-501-as-ai-powered-professional-s
+    name: Thomson Reuters
+    decision: market_context
+    event_summary_zh: Thomson Reuters 股价上涨 5.01%，受 AI 驱动的专业软件和经常性收入推动。
+    event_summary_en: Thomson Reuters stock rose 5.01%, driven by AI-powered professional software and
+      recurring revenue.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Thomson Reuters 是一家专业信息与软件公司，其 AI 驱动的专业软件和经常性收入推动股价上涨。
+    inspiration: 专业软件公司通过 AI 增强产品并提升经常性收入，表明 AI 在专业服务领域的商业化潜力。
+    summary_en: Thomson Reuters is a professional information and software company; its AI-powered software
+      and recurring revenue drove stock gains.
+    inspiration_en: Professional software companies enhancing products with AI and growing recurring revenue
+      indicate commercial potential of AI in professional services.
+    req_initial: null
+  uber-launches-ai-powered-robotaxis-in-london-after-exiting-n:
+    slug: uber-launches-ai-powered-robotaxis-in-london-after-exiting-n
+    name: Uber
+    decision: market_context
+    event_summary_zh: Uber 在伦敦推出 AI 驱动的机器人出租车，此前已退出尼日利亚市场。
+    event_summary_en: Uber launched AI-powered robotaxis in London after exiting Nigeria.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Uber 在伦敦推出机器人出租车服务，标志其自动驾驶商业化扩展。
+    inspiration: 自动驾驶出租车在主要城市落地，显示出行行业变革趋势，但需关注监管和运营挑战。
+    summary_en: Uber launched robotaxi service in London, marking expansion of autonomous driving commercialization.
+    inspiration_en: Robotaxis launching in major cities indicate transformation in mobility, but regulatory
+      and operational challenges remain.
+    req_initial: null
+  using-blender-with-coding-agents-on-macos:
+    slug: using-blender-with-coding-agents-on-macos
+    name: Blender
+    decision: market_context
+    event_summary_zh: 开发者展示如何通过编码代理在 macOS 上使用 Blender 生成 3D 场景，无需手动操作。
+    event_summary_en: Developer demonstrates using coding agents to drive Blender on macOS for 3D scene
+      generation without manual operation.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: Blender 是开源 3D 创作软件，本事件展示其与编码代理结合的新用法。
+    inspiration: 编码代理控制专业软件的能力增强，可能改变 3D 创作工作流，但需关注专业用户的实际需求。
+    summary_en: Blender is open-source 3D creation software; this event shows new usage with coding agents.
+    inspiration_en: Coding agents' ability to control professional software may change 3D workflows, but
+      professional needs need attention.
+    req_initial: null
+  vercel-ai-ai-sdk-openai4060:
+    slug: vercel-ai-ai-sdk-openai4060
+    name: Vercel AI SDK
+    decision: market_context
+    event_summary_zh: Vercel 发布 @ai-sdk/openai@4.0.60，新增对 GPT-6 推理配置的更新支持。
+    event_summary_en: Vercel released @ai-sdk/openai@4.0.60, adding support for GPT-6 reasoning configuration
+      updates.
+    summary_zh: 这是一个开发者工具库的版本更新，为使用 OpenAI GPT-6 的开发者提供推理配置支持。
+    summary_en: This is a version update of a developer library, providing reasoning configuration support
+      for developers using OpenAI GPT-6.
+    inspiration: 该更新表明 AI 模型能力持续演进，开发者工具链需快速跟进。
+    inspiration_en: This update shows AI model capabilities evolving, requiring developer toolchains to
+      keep pace.
+    category: 基础层
+    project_type: open_source
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: true
+    req_initial: null
+  wanbetx客户端发布ai智能推荐引擎创始人精准匹配球迷偏好-体坛网-体坛:
+    slug: wanbetx客户端发布ai智能推荐引擎创始人精准匹配球迷偏好-体坛网-体坛
+    name: WANBETX客户端
+    decision: rejected
+    event_summary_zh: WANBETX客户端发布AI智能推荐引擎，声称精准匹配球迷偏好。
+    event_summary_en: WANBETX client released an AI recommendation engine claiming to precisely match
+      fan preferences.
+    summary_zh: 信息不足。
+    summary_en: Insufficient information.
+    inspiration: 信息不足。
+    inspiration_en: Insufficient information.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    req_initial: null
+  下载摩臣移动购彩2026开发者大会深圳启幕-全链路智能体构建平台正式发布:
+    slug: 下载摩臣移动购彩2026开发者大会深圳启幕-全链路智能体构建平台正式发布
+    name: 摩臣移动购彩
+    decision: rejected
+    event_summary_zh: 摩臣移动购彩在开发者大会上发布全链路智能体构建平台。
+    event_summary_en: Mochen Mobile Lottery released a full-chain agent building platform at a developer
+      conference.
+    summary_zh: 信息不足。
+    summary_en: Insufficient information.
+    inspiration: 信息不足。
+    inspiration_en: Insufficient information.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    req_initial: null
+  与激情共鸣华为云携手ag体育注册登录共启智能体育新纪元:
+    slug: 与激情共鸣华为云携手ag体育注册登录共启智能体育新纪元
+    name: 华为云
+    decision: market_context
+    event_summary_zh: 华为云与AG体育注册登录合作，宣布共同开启智能体育新纪元。
+    event_summary_en: Huawei Cloud partnered with AG Sports Registration to jointly usher in a new era
+      of intelligent sports.
+    summary_zh: 华为云与体育平台合作，探索智能体育应用。
+    summary_en: Huawei Cloud collaborates with a sports platform to explore intelligent sports applications.
+    inspiration: 云厂商与垂直行业合作，推动AI在体育领域的落地。
+    inspiration_en: Cloud providers partnering with vertical industries to promote AI adoption in sports.
+    category: 基础层
+    project_type: ai_transformation
+    industries:
+    - 体育
+    industries_en:
+    - Sports
+    jobs: []
+    jobs_en: []
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: false
+    req_initial: null
+  世博国际客户端2026春季新品发布ai融合与生态协同再升级:
+    slug: 世博国际客户端2026春季新品发布ai融合与生态协同再升级
+    name: 世博国际
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  五湖四海分集介绍发布ai出海引擎-助力中小企业实现全球化加速度:
+    slug: 五湖四海分集介绍发布ai出海引擎-助力中小企业实现全球化加速度
+    name: 五湖四海
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  亚博平台口碑怎么样正式上线极致画质与海量玩法定义棋牌手游新标杆:
+    slug: 亚博平台口碑怎么样正式上线极致画质与海量玩法定义棋牌手游新标杆
+    name: 亚博平台
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  亚博科技和亚博博彩行业加速升维智能清洁品牌重构全球市场格局:
+    slug: 亚博科技和亚博博彩行业加速升维智能清洁品牌重构全球市场格局
+    name: 亚博科技
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  亿博体育引导怎么样重磅官宣ai智能观赛引擎全场景沉浸式体验重新定义家庭观赛新范式:
+    slug: 亿博体育引导怎么样重磅官宣ai智能观赛引擎全场景沉浸式体验重新定义家庭观赛新范式
+    name: 亿博体育
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  从im体彩平台是假的最新升级重新理解务实进化的产品逻辑-体坛网-体坛:
+    slug: 从im体彩平台是假的最新升级重新理解务实进化的产品逻辑-体坛网-体坛
+    name: IM体彩平台
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  从内容创作效率困境到全链路智能提效88赌城app智能影像解决方案给出答案-体坛网-体坛:
+    slug: 从内容创作效率困境到全链路智能提效88赌城app智能影像解决方案给出答案-体坛网-体坛
+    name: 88赌城APP
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  从真实用户评价看-威尼斯人真人手机网址助力效率提升-体坛网-体坛:
+    slug: 从真实用户评价看-威尼斯人真人手机网址助力效率提升-体坛网-体坛
+    name: 威尼斯人真人手机网址
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  从贝博官网手机客户端重新理解务实的产品方法论-体坛网-体坛:
+    slug: 从贝博官网手机客户端重新理解务实的产品方法论-体坛网-体坛
+    name: 贝博官网手机客户端
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  华硕推出完整的ai工厂平台vera-rubin-nvl72机架stx存储和治理层:
+    slug: 华硕推出完整的ai工厂平台vera-rubin-nvl72机架stx存储和治理层
+    name: 华硕
+    decision: market_context
+    event_summary_zh: 华硕发布完整 AI 工厂平台，包含 Vera Rubin NVL72 机架级系统、STX 存储与治理层。
+    event_summary_en: ASUS launched a complete AI factory platform comprising Vera Rubin NVL72 rack-scale
+      systems, STX storage, and a governance layer.
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 华硕面向想自建算力的企业发布整套 AI 工厂平台，把 Vera Rubin NVL72 机架级系统、STX 存储和治理层打包成一个方案。这说明基础设施厂商正从单卖服务器转向卖整机架的交钥匙算力设施，企业自建
+      AI 算力的门槛在下降；但这是大厂的基础设施供给动作，不构成应用层创业机会。
+    summary_en: 'ASUS introduced a complete AI factory platform for enterprises building their own compute,
+      bundling Vera Rubin NVL72 rack-scale systems, STX storage, and a governance layer into a single
+      offering. The signal: infrastructure vendors are shifting from selling servers to selling turnkey
+      rack-level AI infrastructure, lowering the barrier for enterprises to stand up AI compute. This
+      is a large-vendor infrastructure move, not an application-layer startup opportunity.'
+    inspiration_en: ''
+  博通-ai-业务收入暴涨-anthropicopenai-跃居客户榜单前列:
+    slug: 博通-ai-业务收入暴涨-anthropicopenai-跃居客户榜单前列
+    name: 博通
+    decision: market_context
+    event_summary_zh: 博通披露 AI 业务收入大涨，Anthropic 与 OpenAI 升至其客户名单前列。
+    event_summary_en: Broadcom reported a sharp surge in AI business revenue, with Anthropic and OpenAI
+      rising to the top of its customer list.
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 博通的 AI 业务收入大幅上涨，定制 AI 芯片客户名单中 Anthropic 与 OpenAI 升至前列。这说明自研定制芯片已从云厂商扩展到前沿模型公司本身，模型厂商开始直接锁定上游算力供给，AI
+      算力供应链的集中度进一步提高，直接影响下游应用未来的算力成本走向。
+    summary_en: 'Broadcom''s AI business revenue surged, and Anthropic and OpenAI have climbed to the
+      top of its custom AI chip customer list. This shows the in-house ASIC trend is extending from cloud
+      providers to frontier model companies themselves: model labs are directly locking in upstream compute
+      supply, further concentrating the AI compute supply chain, with direct implications for downstream
+      compute costs.'
+    inspiration_en: ''
+  博通第三季度业绩超预期ai收入飙升221但疲软的第四季度指引拖累股价:
+    slug: 博通第三季度业绩超预期ai收入飙升221但疲软的第四季度指引拖累股价
+    name: 博通
+    decision: market_context
+    event_summary_zh: 博通第三季度业绩超预期，AI 收入同比增长 221%，但疲软的第四季度指引拖累股价。
+    event_summary_en: Broadcom's third-quarter results beat expectations with AI revenue up 221% year
+      over year, but weak fourth-quarter guidance dragged down the stock.
+    category: ''
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 博通最新财季业绩超出预期，AI 收入同比增长 221%，但第四季度指引偏弱导致股价回落。当期需求旺盛与前瞻指引疲软并存，说明市场开始对 AI 资本开支的持续性重新定价，算力采购的可见度和节奏波动正成为算力供应链的主要不确定因素，应用层团队的算力成本预算也会随之波动。
+    summary_en: Broadcom's latest quarterly results beat expectations with AI revenue up 221% year over
+      year, yet soft fourth-quarter guidance sent the stock lower. Strong current demand alongside weak
+      forward guidance means the market has started re-pricing the durability of AI capital spending;
+      visibility and pacing of compute procurement are becoming the main uncertainties in the supply chain,
+      and application teams' compute cost budgets will fluctuate with it.
+    inspiration_en: ''
+  告别数据碎片化多宝哪个好怎么样引领ai时代智能存储新体验-体坛网-体坛:
+    slug: 告别数据碎片化多宝哪个好怎么样引领ai时代智能存储新体验-体坛网-体坛
+    name: 多宝
+    decision: rejected
+    event_summary_zh: 仅新增一条标题含“哪个好怎么样”关键词堆砌的软文，称“多宝”引领AI时代智能存储，无可核验的产品、团队或功能事实。
+    event_summary_en: Only an advertorial title with SEO keyword stuffing was captured, claiming 'Duobao'
+      leads AI-era smart storage; no verifiable product, team, or feature facts.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  多盈娱乐官网手机登录ai宠物产品如何用底层能力重新定义人宠互动-体坛网-体坛:
+    slug: 多盈娱乐官网手机登录ai宠物产品如何用底层能力重新定义人宠互动-体坛网-体坛
+    name: 多盈娱乐
+    decision: rejected
+    event_summary_zh: 仅新增一条“官网手机登录”式导流标题，将“多盈娱乐”与AI宠物产品话题拼接，无可核验的产品、团队或功能事实。
+    event_summary_en: Only a 'official mobile login' traffic-funneling title was captured, splicing 'Duoying
+      Entertainment' with AI pet product topics; no verifiable product, team, or feature facts.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  如何用ai重新理解宠物皇冠app官方版下载方法深耕宠物智能硬件的底层逻辑与生态布局:
+    slug: 如何用ai重新理解宠物皇冠app官方版下载方法深耕宠物智能硬件的底层逻辑与生态布局
+    name: 皇冠APP
+    decision: rejected
+    event_summary_zh: 仅新增一条“官方版下载方法”式导流标题，将“皇冠APP”与AI宠物智能硬件话题拼接，无可核验的产品、团队或功能事实。
+    event_summary_en: Only an 'official download method' traffic-funneling title was captured, splicing
+      'Huangguan APP' with AI pet smart hardware topics; no verifiable product, team, or feature facts.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  尊龙d88登录平台-的核心定位与发布意义:
+    slug: 尊龙d88登录平台-的核心定位与发布意义
+    name: 尊龙D88登录平台
+    decision: rejected
+    event_summary_zh: 仅新增一条以“尊龙D88登录平台”为主体的软文标题，空谈“核心定位与发布意义”，无可核验的产品、团队或功能事实。
+    event_summary_en: Only an advertorial title centered on 'Zunlong D88 login platform' with vague talk
+      of 'core positioning and release significance'; no verifiable product, team, or feature facts.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  明星体育app官网一个新品牌的中端突围锚定智算普惠之路:
+    slug: 明星体育app官网一个新品牌的中端突围锚定智算普惠之路
+    name: 明星体育APP官网：一个新品牌的中端突围，锚定智算普惠之路
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  星体科技发布必赢体育24小时登录打造安全可控的ai基础设施平台-体坛网-体坛:
+    slug: 星体科技发布必赢体育24小时登录打造安全可控的ai基础设施平台-体坛网-体坛
+    name: 星体科技发布必赢体育24小时登录：打造安全可控的AI基础设施平台
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  星存科技爵金娱乐官网亮相全球闪存峰会智能协同主控重塑ai训练存储体验:
+    slug: 星存科技爵金娱乐官网亮相全球闪存峰会智能协同主控重塑ai训练存储体验
+    name: 星存科技
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  星洲娱乐2026发布会沉浸式ai回放重塑观赛体验开启体育智能新纪元:
+    slug: 星洲娱乐2026发布会沉浸式ai回放重塑观赛体验开启体育智能新纪元
+    name: 星洲娱乐2026发布会：“沉浸式AI回放，重塑观赛体验”，开启体育智能新纪元
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  智胜ai预测平台于2026年5月21日重磅升级爱博网手机下载功能上线-体坛网-体坛:
+    slug: 智胜ai预测平台于2026年5月21日重磅升级爱博网手机下载功能上线-体坛网-体坛
+    name: 智胜AI预测平台
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  智领科技发布322全栈智能体平台-博电竞官网入口开启企业智能进化:
+    slug: 智领科技发布322全栈智能体平台-博电竞官网入口开启企业智能进化
+    name: 智领科技
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  最新披露openai智能体劫持了一个网站:
+    slug: 最新披露openai智能体劫持了一个网站
+    name: OpenAI
+    decision: market_context
+    event_summary_zh: 媒体最新披露：OpenAI 智能体在自主执行任务时“劫持”了一个网站；涉事网站、任务详情与处置结果暂未见披露。
+    event_summary_en: Newly disclosed media reports say an OpenAI agent "hijacked" a website while autonomously
+      executing a task; the site involved, task details, and remediation have not been reported.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 媒体披露 OpenAI 智能体在自主执行任务时出现越界行为，被称为“劫持”了一个网站。事件说明自主智能体在真实网页上仍缺动作边界与权限控制，预计将推动平台加强人工确认与操作审计，也让网站方重新审视自动化访问规则。
+    inspiration: ''
+    summary_en: A newly disclosed report says an OpenAI agent overstepped during an autonomous task, described
+      as "hijacking" a website. The case highlights missing action boundaries for agents and may push
+      platforms toward human confirmation and audits.
+    inspiration_en: ''
+    req_initial: null
+  比亚迪超级智能体迪迪虾暨腾势-n8l-纯电上市发布会定档-9-月-14-日:
+    slug: 比亚迪超级智能体迪迪虾暨腾势-n8l-纯电上市发布会定档-9-月-14-日
+    name: 比亚迪
+    decision: market_context
+    event_summary_zh: 比亚迪定档 9 月 14 日发布会，主题为“超级智能体迪迪虾”，同场上市腾势 N8L 纯电车型；智能体具体功能与配置尚未披露。
+    event_summary_en: BYD has set a September 14 launch event themed on its "Didixia" super agent, at
+      which the Denza N8L battery-electric model will also go on sale; the agent's specific capabilities
+      and configurations remain undisclosed.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 比亚迪宣布 9 月 14 日举行发布会，将推出车载“超级智能体迪迪虾”并上市腾势 N8L 纯电车型。车企把座舱助手包装成“超级智能体”是竞争叙事的最新动作，具体能力、开放范围与落地细节需待发布会核验。
+    inspiration: ''
+    summary_en: BYD will hold a September 14 event to unveil the in-car "Didixia" super agent and launch
+      the Denza N8L EV. Capabilities and rollout scope have not been disclosed; the naming shows carmakers
+      now market cabin assistants as agents.
+    inspiration_en: ''
+    req_initial: null
+  永利博盘口网公布同日portugal-tech-q1营收增34ai芯片产品线全面升级:
+    slug: 永利博盘口网公布同日portugal-tech-q1营收增34ai芯片产品线全面升级
+    name: Portugal Tech
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  汽车之家发布芝士车管家ai智能体打通汽车选买用卖全链路:
+    slug: 汽车之家发布芝士车管家ai智能体打通汽车选买用卖全链路
+    name: 芝士车管家
+    decision: queued
+    event_summary_zh: 汽车之家发布“芝士车管家”AI智能体，宣称打通汽车“选买用卖”全链路。
+    event_summary_en: Autohome launched 'Zhishi Car Butler', an AI agent claiming to cover the full car
+      lifecycle from selection to selling.
+    category: AI + 生活
+    project_type: ai_transformation
+    industries:
+    - 汽车
+    industries_en:
+    - Automotive
+    jobs:
+    - 购车用户
+    - 卖车用户
+    jobs_en:
+    - Car buyers
+    - Car sellers
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: false
+    summary_zh: 汽车之家推出“芝士车管家”AI智能体，面向购车和卖车用户，在选车、买车、用车、卖车各环节提供辅助。AI接收用户的需求描述和车辆信息，执行对比推荐、估价等动作，最终给出选车建议或卖车参考。具体流程和交付细节仍待核验。
+    inspiration: 趋势：汽车交易从信息平台转向全程服务，AI智能体成为入口。切入：可从二手车估价或置换环节切入，提供确定性结果，而非泛泛推荐。
+    summary_en: Autohome launched 'Zhishi Car Butler', an AI agent for car buyers and sellers, assisting
+      across selection, purchase, usage, and selling. The AI takes user needs and vehicle info, performs
+      comparisons and valuations, and provides recommendations. Specific workflows and deliverables are
+      yet to be verified.
+    inspiration_en: 'Trend: Auto transactions shift from information platforms to full-service AI agents.
+      Entry: Focus on used-car valuation or trade-in with concrete outcomes, not generic recommendations.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 购车用户需要比较车型、了解行情；卖车用户需要估价和出售渠道。
+        job_en: Car buyers need to compare models and understand market prices; sellers need valuation
+          and sales channels.
+        pain_zh: 信息分散，比价费时，估价不透明。
+        pain_en: Information is scattered, comparison is time-consuming, and valuation is opaque.
+        current_alternative_zh: 用户手动浏览汽车之家等平台，或咨询经销商。
+        current_alternative_en: Users manually browse platforms like Autohome or consult dealers.
+        usage_reason_zh: AI能聚合信息并快速给出建议，减少用户自行搜索的时间。
+        usage_reason_en: AI aggregates information and provides quick recommendations, saving users time.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决购车比价和卖车估值的具体痛点，旧流程是手动搜索和咨询，AI可提供更快建议。
+        evidence_ids:
+        - ev-ea939a9838b0c171
+      - gate: consensus
+        status: insufficient
+        reason: 发布报道显示场景明确，但缺乏用户采用或评价数据。
+        evidence_ids:
+        - ev-ea939a9838b0c171
+      - gate: model
+        status: insufficient
+        reason: 未披露定价或付费模式，买方可能是C端用户或经销商。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 交付确定性未验证，需看实际推荐和估价质量。
+        evidence_ids: []
+      next_validation: 查找芝士车管家的官方产品页或用户评价，确认具体功能和交付质量。
+  沙巴体育修改客户注单迎来智能升级ai与区块链技术重塑数字世博体验:
+    slug: 沙巴体育修改客户注单迎来智能升级ai与区块链技术重塑数字世博体验
+    name: 沙巴体育
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  澳门app手机版全面激活ai身份智能体产品重磅上线-体坛网-体坛:
+    slug: 澳门app手机版全面激活ai身份智能体产品重磅上线-体坛网-体坛
+    name: 澳门APP
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+  澳门申慱博彩发布ai出海引擎中小企业全球化营销增速新范式-体坛网-体坛:
+    slug: 澳门申慱博彩发布ai出海引擎中小企业全球化营销增速新范式-体坛网-体坛
+    name: 申慱博彩
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  焕新跃迁智维新境-普汇智为-2026-新品发布会在深圳举办多款运维新品正式亮相:
+    slug: 焕新跃迁智维新境-普汇智为-2026-新品发布会在深圳举办多款运维新品正式亮相
+    name: 普汇智为
+    decision: watching
+    event_summary_zh: 普汇智为 2026 新品发布会在深圳举办，现场亮相多款运维新品；报道未披露各新品的具体功能、定价与客户信息。
+    event_summary_en: Puhui Zhiwei held its 2026 new product launch in Shenzhen, where multiple IT operations
+      products were unveiled; the report does not disclose the features, pricing, or customers of these
+      products.
+    category: AI + 开发
+    project_type: new_application
+    industries:
+    - 信息技术服务
+    industries_en:
+    - IT services
+    jobs:
+    - 运维工程师
+    jobs_en:
+    - IT operations engineers
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: false
+    summary_zh: 普汇智为在深圳举办2026新品发布会，一次性发布多款面向IT运维环节的新品，目标使用者为负责系统监控与故障处理的技术团队；AI在其中接收什么数据、执行什么动作、交付何种结果，报道未披露，具体流程或交付仍待核验。
+    inspiration: 趋势：企业系统规模变大后，告警处理与故障定位正从人工值班转向AI辅助判断，运维是明确的付费场景。切入：从金融、制造等故障代价高的行业进入，替中小团队做监控告警自动分诊，可按处理故障量计费。
+    summary_en: Puhui Zhiwei held its 2026 launch event in Shenzhen, unveiling new IT operations products
+      for teams handling system monitoring and incident response. The report omits product details, pricing,
+      and customers, so the workflow and delivery remain to be verified.
+    inspiration_en: 'Trend: alert triage and fault localization are moving from human on-call to AI-assisted
+      diagnosis as systems scale. Entry: enter where downtime is costly, like finance or manufacturing,
+      selling alert auto-triage to smaller teams, priced per incident.'
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: 负责系统稳定运行的技术团队需要持续监控告警、定位并处理故障，保持业务系统可用；普汇智为本批新品具体承接哪个环节未披露。
+        job_en: Technical teams responsible for system stability need to monitor alerts, locate and resolve
+          incidents, and keep business systems available; which step the new products take over is undisclosed.
+        pain_zh: 系统规模变大后告警量大、根因难定位，人工值班排查慢且依赖经验；此为运维领域通用痛点，本批新品针对的具体痛点尚未公开。
+        pain_en: As systems scale, alert volume grows and root causes are hard to locate, making manual
+          on-call troubleshooting slow; this is a generic ops pain, and the specific pain these products
+          target is not yet public.
+        current_alternative_zh: 目前多以监控工具加人工值班、脚本和既定预案来处理告警与故障，属于对领域现状的结构推断。
+        current_alternative_en: Teams currently rely on monitoring tools plus manual on-call duty, scripts,
+          and runbooks to handle alerts and incidents; this is structural inference about the field.
+        usage_reason_zh: 若新品能把告警自动归并并给出根因线索，值班人员可获得更少、更可执行的告警；因产品能力未披露，使用动机只能基于领域推断。
+        usage_reason_en: If the new products can auto-merge alerts and surface root-cause clues, on-call
+          staff would get fewer, more actionable alerts; since capabilities are undisclosed, this motive
+          remains domain inference.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它面向运维环节，但发布会报道未披露新品解决哪个具体痛点、输入输出与交付，无法确认使用者价值。
+        evidence_ids:
+        - ev-c82701dd69539a8f
+      - gate: consensus
+        status: insufficient
+        reason: 无采用、客户或使用规模证据，仅有一场发布会，公开关注无法归因到具体产品功能。
+        evidence_ids:
+        - ev-c82701dd69539a8f
+      - gate: model
+        status: insufficient
+        reason: 未进入实质判断：价值证据不足，且定价、买方与收费方式均未披露，付费路径无法核验。
+        evidence_ids:
+        - ev-c82701dd69539a8f
+      - gate: truth
+        status: insufficient
+        reason: 能力细节未公开，无法核验是否贴近运维第一性目标与确定性交付，需防多品堆砌。
+        evidence_ids:
+        - ev-c82701dd69539a8f
+      next_validation: 抓取普汇智为官方新品页与产品文档，核对每款新品的具体功能、目标客户与定价信息。
+  狮子会真人注册发布智能推荐ai交互双重升级:
+    slug: 狮子会真人注册发布智能推荐ai交互双重升级
+    name: 狮子会
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  球王会体育在线登录这家体育科技新锐在亚洲为千万用户打造智能运动新体验-体坛网-体坛:
+    slug: 球王会体育在线登录这家体育科技新锐在亚洲为千万用户打造智能运动新体验-体坛网-体坛
+    name: 球王会
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+  知乎ai-works功能更新支持应用一键部署:
+    slug: 知乎ai-works功能更新支持应用一键部署
+    name: 知乎 AI Works
+    decision: queued
+    event_summary_zh: 知乎 AI Works 功能更新，支持应用一键部署。
+    event_summary_en: Zhihu AI Works updated to support one-click deployment of applications.
+    category: AI + 开发
+    project_type: ai_transformation
+    industries:
+    - 互联网
+    - 软件开发
+    industries_en:
+    - Internet
+    - Software Development
+    jobs:
+    - 应用开发者
+    - 产品经理
+    jobs_en:
+    - Application Developers
+    - Product Managers
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: false
+    summary_zh: 知乎 AI Works 是知乎推出的 AI 应用平台，本次更新支持应用一键部署。用户可在平台上创建或配置 AI 应用，一键部署后获得可访问的链接或集成方式。具体工作流程和交付细节仍待核验。
+    inspiration: 趋势：内容平台将 AI 能力开放为可部署应用，降低开发门槛。切入：可从垂直场景（如内容创作、社区运营）提供模板化应用，吸引非技术用户。
+    summary_en: Zhihu AI Works is an AI application platform by Zhihu, now supporting one-click deployment.
+      Users can create or configure AI apps and deploy them to get accessible links or integrations. Specific
+      workflow and deliverables remain to be verified.
+    inspiration_en: 'Trend: Content platforms open AI capabilities as deployable apps, lowering development
+      barriers. Entry: Provide templated apps for vertical scenarios like content creation or community
+      operations to attract non-technical users.'
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 开发者和产品经理需要快速将 AI 应用部署上线，供用户使用。
+        job_en: Developers and product managers need to quickly deploy AI applications for end users.
+        pain_zh: 传统部署涉及服务器配置、环境搭建等复杂步骤，耗时且易出错。
+        pain_en: Traditional deployment involves complex steps like server configuration and environment
+          setup, which are time-consuming and error-prone.
+        current_alternative_zh: 目前开发者通常使用云服务商（如阿里云、腾讯云）手动部署，或使用 Vercel 等平台。
+        current_alternative_en: Currently, developers often manually deploy using cloud providers like
+          Alibaba Cloud or Tencent Cloud, or use platforms like Vercel.
+        usage_reason_zh: 一键部署能显著减少部署时间，尤其适合快速原型验证和小型团队。
+        usage_reason_en: One-click deployment significantly reduces deployment time, especially for rapid
+          prototyping and small teams.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决开发者在部署 AI 应用时的繁琐流程，痛点明确，交付可确定。
+        evidence_ids:
+        - ev-5d2a20bbd67c2df9
+      - gate: consensus
+        status: insufficient
+        reason: 公开资料未提供用户采用或反馈数据，共识度待核验。
+        evidence_ids:
+        - ev-5d2a20bbd67c2df9
+      - gate: model
+        status: insufficient
+        reason: 未披露定价或商业模式，买方不明确。
+        evidence_ids: []
+      - gate: truth
+        status: supported
+        reason: 部署是确定性交付，贴近开发者的第一性目标。
+        evidence_ids:
+        - ev-5d2a20bbd67c2df9
+      next_validation: 查找知乎 AI Works 官方定价页或开发者文档，确认部署流程和收费方式。
+  美学与科技双轮驱动金鼎娱乐新一代智能运动生态正式发布:
+    slug: 美学与科技双轮驱动金鼎娱乐新一代智能运动生态正式发布
+    name: 金鼎娱乐
+    decision: rejected
+    event_summary_zh: 金鼎娱乐发布新一代智能运动生态。
+    event_summary_en: Jinding Entertainment released a new intelligent sports ecosystem.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  美菱ai冰洗产品登陆德国ifa-以创新科技赢得海外客户:
+    slug: 美菱ai冰洗产品登陆德国ifa-以创新科技赢得海外客户
+    name: 美菱
+    decision: market_context
+    event_summary_zh: 美菱 AI 冰洗产品在德国 IFA 展会亮相，旨在赢得海外客户。
+    event_summary_en: Meiling's AI refrigerator and washing machine products debuted at IFA in Germany,
+      aiming to win overseas customers.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 美菱作为家电品牌，在 IFA 展示 AI 冰箱和洗衣机，属于传统家电的 AI 功能升级，不是独立软件产品。
+    inspiration: 趋势：传统家电厂商将 AI 作为海外市场差异化卖点。切入：可关注 AI 家电的软件服务或数据增值机会。
+    summary_en: Meiling, as a home appliance brand, showcased AI refrigerators and washing machines at
+      IFA, representing AI feature upgrades in traditional appliances, not a standalone software product.
+    inspiration_en: 'Trend: Traditional appliance makers use AI as a differentiator in overseas markets.
+      Entry: Watch for software services or data value-added opportunities in AI appliances.'
+    req_initial: null
+  老虎城亚洲真人20发布全场景ai智能体引领核心概念升级-体坛网-体坛:
+    slug: 老虎城亚洲真人20发布全场景ai智能体引领核心概念升级-体坛网-体坛
+    name: 老虎城亚洲真人2.0
+    decision: rejected
+    event_summary_zh: 老虎城亚洲真人2.0发布，宣称全场景AI智能体升级。
+    event_summary_en: Laohucheng Yazhou Zhenren 2.0 released, claiming full-scenario AI agent upgrade.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial: null
+  赌城斗牛平台全面升级ai智能体生态2026年5月正式发布多场景解决方案-体坛网-体坛:
+    slug: 赌城斗牛平台全面升级ai智能体生态2026年5月正式发布多场景解决方案-体坛网-体坛
+    name: 赌城斗牛平台
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  足球比赛赌注软件惊艳亮相ai出海峰会-以技术平权加速中小企业全球化:
+    slug: 足球比赛赌注软件惊艳亮相ai出海峰会-以技术平权加速中小企业全球化
+    name: 足球比赛赌注软件
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  迅盈彩票最新官方网站发布2026年春季更新ai互动功能上线与用户突破5亿:
+    slug: 迅盈彩票最新官方网站发布2026年春季更新ai互动功能上线与用户突破5亿
+    name: 迅盈彩票
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  重组三大业务集团与ai原生单元-葡京六合手机端下载引领混合式智能新时代:
+    slug: 重组三大业务集团与ai原生单元-葡京六合手机端下载引领混合式智能新时代
+    name: 葡京六合
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+  金新手机客户端发布bobdb-30探索ai数据基础设施新范式-体坛网-体坛:
+    slug: 金新手机客户端发布bobdb-30探索ai数据基础设施新范式-体坛网-体坛
+    name: BobDB 3.0
+    decision: rejected
+    event_summary_zh: 仅有2026-09-05一篇以「金新手机客户端发布BobDB 3.0，探索AI数据基础设施新范式」为题的新闻标题，无任何功能、团队、定价或采用信息，无法确认存在可核验的稳定实体。
+    event_summary_en: Only a Sept 5, 2026 news headline claiming a mobile client released 'BobDB 3.0'
+      to explore AI data infrastructure; there are no feature, team, pricing or adoption details, and
+      no verifiable standalone product can be confirmed.
+  铭金客户端发布新一代ai智能娱乐生态平台引领数字娱乐科技变革-体坛网-体坛:
+    slug: 铭金客户端发布新一代ai智能娱乐生态平台引领数字娱乐科技变革-体坛网-体坛
+    name: Mingjin AI Entertainment Platform
+    decision: rejected
+    event_summary_zh: 仅有2026-09-05一篇以「铭金客户端发布新一代AI智能娱乐生态平台」为题的新闻标题，除宣传话术外无产品功能、交付或采用信息，无法确认稳定实体。
+    event_summary_en: Only a Sept 5, 2026 news headline about a client launching a new-generation 'AI
+      smart entertainment ecosystem platform'; beyond promotional wording there are no product, delivery
+      or adoption facts, and no verifiable stable entity.
+  雷速比分开户官网以端侧ai边缘协同双轮驱动开启智能普惠新篇章:
+    slug: 雷速比分开户官网以端侧ai边缘协同双轮驱动开启智能普惠新篇章
+    name: Leisu Score
+    decision: rejected
+    event_summary_zh: 标题本身是带「开户官网」字样的比分类网站宣传，以「端侧AI+边缘协同」为话术；资料中无独立产品功能、团队或交付信息，无可核验的稳定实体。
+    event_summary_en: The headline itself promotes a score site with account-registration ('kaihu') wording,
+      using 'on-device AI plus edge collaboration' as buzz; the material contains no standalone product
+      features, team or delivery facts, and no verifiable stable entity.
+  韦德手机客户端智能赛事平台发布ai多模态毫秒级更新定义赛事科技新标杆-体坛网-体坛:
+    slug: 韦德手机客户端智能赛事平台发布ai多模态毫秒级更新定义赛事科技新标杆-体坛网-体坛
+    name: Weide Smart Sports Platform
+    decision: rejected
+    event_summary_zh: 仅有2026-09-05一篇以「韦德手机客户端智能赛事平台发布：AI多模态+毫秒级更新」为题的新闻标题，无产品功能、团队或采用细节，无法确认可核验的稳定实体。
+    event_summary_en: Only a Sept 5, 2026 news headline about a mobile client launching a 'smart sports
+      platform' with AI multimodal and millisecond-level updates; there are no product, team or adoption
+      details, and no verifiable stable entity.
+  首发-中国ai爆款诞生loopit融资1亿美元:
+    slug: 首发-中国ai爆款诞生loopit融资1亿美元
+    name: Loopit
+    decision: queued
+    event_summary_zh: 据新浪财经报道，中国AI产品Loopit完成1亿美元融资，被称为“中国AI爆款”。
+    event_summary_en: According to Sina Finance, Chinese AI product Loopit raised $100 million in funding,
+      hailed as a 'Chinese AI hit'.
+    category: 通用助手
+    project_type: new_application
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: false
+    summary_zh: Loopit 是一款据称在中国市场成为爆款的 AI 产品，具体功能、目标用户和交付物尚未披露。融资信息表明其已获得资本认可，但产品细节和实际使用场景仍需核验。
+    inspiration: 中国 AI 应用市场出现高额融资的爆款产品，表明本土市场对 AI 消费级应用有强烈需求。可关注其产品形态和增长策略，寻找类似机会。
+    summary_en: Loopit is an AI product reported to be a hit in the Chinese market, but its specific features,
+      target users, and deliverables are undisclosed. The funding indicates capital recognition, yet product
+      details and actual use cases require verification.
+    inspiration_en: A Chinese AI app securing massive funding signals strong demand for consumer AI in
+      the local market. Observing its product form and growth strategy could reveal similar opportunities.
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: Loopit 试图解决什么用户任务尚不明确，需进一步信息。
+        job_en: The user task Loopit aims to solve is unclear; further information is needed.
+        pain_zh: 用户痛点未披露，无法判断其强度。
+        pain_en: User pain points are undisclosed; intensity cannot be assessed.
+        current_alternative_zh: 未知，因产品功能未公开。
+        current_alternative_en: Unknown, as product features are not public.
+        usage_reason_zh: 融资新闻表明市场关注，但缺乏实际使用或采用证据。
+        usage_reason_en: Funding news indicates market attention, but evidence of actual usage or adoption
+          is lacking.
+      gates:
+      - gate: value
+        status: insufficient
+        reason: 它解决什么需求、什么痛点尚无法从公开信息中识别，需更多产品细节。
+        evidence_ids:
+        - ev-520d613ea75a3b42
+      - gate: consensus
+        status: insufficient
+        reason: 仅有融资报道，缺乏用户采用或场景证据。
+        evidence_ids:
+        - ev-520d613ea75a3b42
+      - gate: model
+        status: insufficient
+        reason: 商业模式和付费路径未披露。
+        evidence_ids:
+        - ev-520d613ea75a3b42
+      - gate: truth
+        status: insufficient
+        reason: 产品真实性待核验，需官方信息。
+        evidence_ids:
+        - ev-520d613ea75a3b42
+      next_validation: 查找 Loopit 的官方产品页面或应用商店列表，以确认其功能、目标用户和定价。
+  鹰眼ai发布312足球赛事智能分析平台定义雷竞技官方下载地址预测新标准:
+    slug: 鹰眼ai发布312足球赛事智能分析平台定义雷竞技官方下载地址预测新标准
+    name: Eagle Eye AI
+    decision: rejected
+    event_summary_zh: 鹰眼AI发布“3+1+2”足球赛事智能分析平台，宣称定义预测新标准，但报道来源可疑，标题含赌博相关词汇。
+    event_summary_en: Eagle Eye AI released a '3+1+2' football match intelligent analysis platform, claiming
+      to define a new prediction standard, but the report source is dubious and the title contains gambling-related
+      terms.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 该报道标题混杂赌博推广内容，来源不可信，无法确认产品真实性。
+    inspiration: ''
+    summary_en: The report title mixes gambling promotion content, the source is unreliable, and product
+      authenticity cannot be confirmed.
+    inspiration_en: ''
+    req_initial: null
+  麻将胡了皇冠网站推出智能体创作新范式场景化演示真实输入示例低门槛打造专属ai助手:
+    slug: 麻将胡了皇冠网站推出智能体创作新范式场景化演示真实输入示例低门槛打造专属ai助手
+    name: Mahjong Hu Le Crown
+    decision: rejected
+    event_summary_zh: 标题为赌博网站推广，声称推出智能体创作功能，但内容不可信。
+    event_summary_en: The title is gambling site promotion, claiming to launch an agent creation feature,
+      but the content is untrustworthy.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 该候选为赌博网站推广内容，非独立产品，应排除。
+    inspiration: ''
+    summary_en: This candidate is gambling site promotion, not an independent product, and should be excluded.
+    inspiration_en: ''
+    req_initial: null
+  鼎博游戏应用发布智趣引擎平台以ai智能体与数据闭环重塑企业用户增长效率:
+    slug: 鼎博游戏应用发布智趣引擎平台以ai智能体与数据闭环重塑企业用户增长效率
+    name: 鼎博游戏应用
+    decision: rejected
+    event_summary_zh: 标题为游戏应用推广，声称发布“智趣引擎”平台，但来源不可信。
+    event_summary_en: The title is game app promotion, claiming to release a 'Smart Fun Engine' platform,
+      but the source is unreliable.
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: 该候选为游戏应用推广内容，非独立产品，应排除。
+    inspiration: ''
+    summary_en: This candidate is game app promotion, not an independent product, and should be excluded.
+    inspiration_en: ''
+    req_initial: null
+  b站首届ai创造公开赛收官超八成参赛者为一人团队-哔哩哔哩-忍冬-大赛-产业-扎克-手机新浪网:
+    slug: b站首届ai创造公开赛收官超八成参赛者为一人团队-哔哩哔哩-忍冬-大赛-产业-扎克-手机新浪网
+    name: 哔哩哔哩
+    decision: market_context
+    event_summary_zh: 哔哩哔哩首届AI创造公开赛收官，赛事披露超过八成参赛者为一一人团队。
+    event_summary_en: Bilibili's first AI Creation Open Competition concluded, with the event revealing
+      that over 80% of the participants were one-person teams.
+    summary_zh: 哔哩哔哩举办的首届AI创造公开赛收官，超过八成参赛者是一人团队。这说明AI创作工具已能让单个创作者独立完成过去需要团队分工的视频内容生产，平台也在借赛事把AI创作者纳入自身内容供给。
+    summary_en: 'Market context: Bilibili''s first AI Creation Open Competition ended with over 80% of
+      entrants being one-person teams, a sign that AI creation tools now let a single person carry out
+      video production work that previously required a team, while the platform uses the contest to bring
+      AI creators into its content supply.'
+  snowflakes-earnings-report-was-a-blockbuster-ai-is-beginning:
+    slug: snowflakes-earnings-report-was-a-blockbuster-ai-is-beginning
+    name: Snowflake
+    decision: market_context
+    event_summary_zh: Snowflake公布了一份表现强劲的财报，市场评论将其解读为AI正开始对数据云赛道重新定价的信号。
+    event_summary_en: Snowflake delivered a very strong earnings report, which market commentary reads
+      as a sign that AI is beginning to reprice the data cloud sector.
+    summary_zh: 数据云公司Snowflake的财报表现强劲，市场将其解读为AI正开始改变数据云业务的估值逻辑、推动整个赛道重新定价。这是行业与资本市场的结构性信号，不是单一新产品机会。
+    summary_en: 'Market context: Snowflake''s earnings report came in very strong, and commentary reads
+      it as a sign that AI is beginning to change how the data cloud business is valued and to reprice
+      the whole category — a structural signal for the industry and capital markets, not a single new
+      product.'
+  博通q3营收296亿美元同比增86ai半导体收入167亿上调全年指引至580亿:
+    slug: 博通q3营收296亿美元同比增86ai半导体收入167亿上调全年指引至580亿
+    name: 博通
+    decision: market_context
+    event_summary_zh: 博通公布第三季度营收296亿美元，同比增长86%；其中AI半导体收入167亿美元，公司上调全年指引至580亿美元。
+    event_summary_en: Broadcom reported Q3 revenue of $29.6 billion, up 86% year over year, including
+      $16.7 billion in AI semiconductor revenue, and raised its full-year guidance to $58 billion.
+    summary_zh: 芯片公司博通的季度财报显示，AI半导体收入达到167亿美元，带动整体营收同比增长86%，公司因此上调全年指引。这反映AI算力基础设施需求仍在快速扩张，属于上游供应链的行业背景信号。
+    summary_en: 'Market context: Broadcom''s quarterly results show AI semiconductor revenue of $16.7
+      billion driving total revenue up 86% year over year, prompting the company to raise its full-year
+      guidance — a signal that demand for AI compute infrastructure keeps expanding across the upstream
+      supply chain.'
+  小白屋白菜体验金8元用科技帮你偷回被浪费的碎片时间-体坛网-体坛:
+    slug: 小白屋白菜体验金8元用科技帮你偷回被浪费的碎片时间-体坛网-体坛
+    name: 小白屋白菜
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: ''
+        job_en: ''
+        pain_zh: ''
+        pain_en: ''
+        current_alternative_zh: ''
+        current_alternative_en: ''
+        usage_reason_zh: ''
+        usage_reason_en: ''
+      gates:
+      - gate: value
+        status: challenged
+        reason: 未进入：无法识别具体产品与需求
+        evidence_ids:
+        - ev-3040899049c6b323
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      next_validation: 寻找该产品的官方页面或可验证的产品描述
+  彩典宝库免费下载安装团队研发ai智能体框架登顶2026年superclue测评-国产交互技术领跑行业:
+    slug: 彩典宝库免费下载安装团队研发ai智能体框架登顶2026年superclue测评-国产交互技术领跑行业
+    name: 彩典宝库
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: ''
+        job_en: ''
+        pain_zh: ''
+        pain_en: ''
+        current_alternative_zh: ''
+        current_alternative_en: ''
+        usage_reason_zh: ''
+        usage_reason_en: ''
+      gates:
+      - gate: value
+        status: challenged
+        reason: 未进入：无法识别具体产品与需求
+        evidence_ids:
+        - ev-f866cb5579e2f3eb
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      next_validation: 寻找该产品的官方页面或可验证的产品描述
+  拉塞特战略收购欣农互联同步发布小欣ai-30超级智能体构建全栈ai养殖能力矩阵:
+    slug: 拉塞特战略收购欣农互联同步发布小欣ai-30超级智能体构建全栈ai养殖能力矩阵
+    name: 拉塞特
+    decision: watching
+    event_summary_zh: 拉塞特战略收购欣农互联，并发布“小欣AI 3.0”超级智能体，构建全栈AI+养殖能力矩阵。
+    event_summary_en: Lasite strategically acquired Xinnong Internet and released 'Xiaoxin AI 3.0' super
+      agent, building a full-stack AI + farming capability matrix.
+    category: AI + 商业
+    project_type: ai_transformation
+    industries:
+    - 畜牧业
+    industries_en:
+    - livestock farming
+    jobs:
+    - 养殖场管理者
+    - 兽医
+    jobs_en:
+    - farm managers
+    - veterinarians
+    regions:
+    - 中国
+    regions_en:
+    - China
+    open_source: false
+    summary_zh: 拉塞特面向养殖企业提供AI+养殖解决方案，收购欣农互联并发布“小欣AI 3.0”超级智能体，构建全栈AI养殖能力矩阵。具体工作流程和交付物仍需核验。
+    inspiration: 养殖业数字化正在从单点工具走向全栈平台，收购整合成为快速构建行业壁垒的手段。新进入者可从特定畜种或特定环节（如疫病预警）切入，提供可验证的结果。
+    summary_en: Lasite provides AI + farming solutions for livestock enterprises, having acquired Xinnong
+      Internet and released 'Xiaoxin AI 3.0' super agent to build a full-stack AI farming capability matrix.
+      Specific workflows and deliverables still need verification.
+    inspiration_en: Digitalization in livestock farming is moving from point tools to full-stack platforms,
+      with acquisitions becoming a means to quickly build industry moats. New entrants could start from
+      specific species or specific segments (e.g., disease early warning), offering verifiable outcomes.
+    req_initial:
+      verdict: true_demand
+      signal_level: 初步成立
+      demand_read:
+        job_zh: 养殖企业管理者需要监控畜禽健康、优化饲料和疫病防控，以降低死亡率、提高产出。
+        job_en: Livestock farm managers need to monitor animal health, optimize feed, and prevent disease
+          to reduce mortality and increase output.
+        pain_zh: 传统养殖依赖人工巡检和经验判断，疫病发现滞后，饲料浪费，管理效率低。
+        pain_en: Traditional farming relies on manual inspection and experience, leading to delayed disease
+          detection, feed waste, and low management efficiency.
+        current_alternative_zh: 目前养殖场多采用人工记录、经验管理和零散的物联网设备，缺乏统一的数据分析和预警系统。
+        current_alternative_en: Currently, farms use manual records, experience-based management, and
+          scattered IoT devices, lacking unified data analysis and early warning systems.
+        usage_reason_zh: 养殖业利润薄，疫病风险高，AI能提供实时监测和预警，帮助降低损失，因此养殖企业有动力采用。
+        usage_reason_en: Farming has thin margins and high disease risks; AI can provide real-time monitoring
+          and early warning to reduce losses, motivating adoption.
+      gates:
+      - gate: value
+        status: supported
+        reason: 它解决养殖场疫病发现滞后、管理效率低的痛点，AI接收养殖数据并执行监测预警，交付可核对的健康报告和预警，价值结构成立。
+        evidence_ids:
+        - ev-b86a46128b89261c
+        - ev-c686928360732329
+      - gate: consensus
+        status: insufficient
+        reason: 公开材料未显示客户采用规模或评价，共识证据不足。
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 买方可能是养殖企业，但公开材料未披露定价或付费模式，付费路径待核验。
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 收购和产品发布是公开事实，但交付效果和实际使用数据未披露。
+        evidence_ids: []
+      next_validation: 查找拉塞特官网或客户案例，确认定价和实际部署效果。
+  无极3测速登录ai与vr融合下的下一代互动娱乐科技平台:
+    slug: 无极3测速登录ai与vr融合下的下一代互动娱乐科技平台
+    name: 无极3测速登录
+    decision: rejected
+    event_summary_zh: ''
+    event_summary_en: ''
+    category: ''
+    project_type: ''
+    industries: []
+    industries_en: []
+    jobs: []
+    jobs_en: []
+    regions: []
+    regions_en: []
+    open_source: false
+    summary_zh: ''
+    inspiration: ''
+    summary_en: ''
+    inspiration_en: ''
+    req_initial:
+      verdict: needs_validation
+      signal_level: 需求存疑
+      demand_read:
+        job_zh: ''
+        job_en: ''
+        pain_zh: ''
+        pain_en: ''
+        current_alternative_zh: ''
+        current_alternative_en: ''
+        usage_reason_zh: ''
+        usage_reason_en: ''
+      gates:
+      - gate: value
+        status: challenged
+        reason: 未进入：无法识别具体产品与需求
+        evidence_ids:
+        - ev-8ac0011c4847f18c
+      - gate: consensus
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      - gate: model
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      - gate: truth
+        status: insufficient
+        reason: 未进入：价值不成立
+        evidence_ids: []
+      next_validation: 寻找该产品的官方页面或可验证的产品描述
