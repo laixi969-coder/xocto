@@ -20,8 +20,8 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-09-06T08:36:25Z'
-status: rejected
+last_seen: '2026-09-06T15:05:39Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -59,6 +59,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPQWY1WUh6TTAtLW0wanYxNXg0empmRlFRajU4YnMwdHhhdlI5VFE4R1U1U3JxeG40MHVOcnFaemFSeW54RmJ4cUt2VkVXR00zSFlzWFYwMmw4LXJ2cWk1UmpXZjVPQnZqQXptSzBHNC1BYUNtWmFaZmdVQVpqT3kyLTdHWl9CbzNlLUlwNFpJLXlQS0tn?oc=5
   seen_at: '2026-09-06T08:36:25Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/
+  seen_at: '2026-09-06T15:05:39Z'
+  metrics:
+    points: 76
+    comments: 3
   kind: news
 ---
 

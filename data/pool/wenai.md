@@ -21,16 +21,16 @@ canonical_url: https://github.com/Straniero44/wenai
 summary: An intimate AI companion skill for OpenClaw — fall in love with your AI girlfriend, with a Pony
   V6 XL powered visual workflow.
 first_seen: '2026-08-25T02:59:59Z'
-last_seen: '2026-09-06T13:15:20Z'
+last_seen: '2026-09-06T15:05:43Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Straniero44/wenai
-  seen_at: '2026-09-06T13:15:20Z'
+  seen_at: '2026-09-06T15:05:43Z'
   metrics:
-    stars: 192
+    stars: 193
     forks: 47
     open_issues: 0
   kind: product

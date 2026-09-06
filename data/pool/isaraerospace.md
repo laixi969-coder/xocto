@@ -21,17 +21,22 @@ url: https://isaraerospace.com/press/history-for-european-spaceflight-isar-aeros
 canonical_url: https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight
 summary: Isar Aerospace reaches orbit and deploys payloads on second flight
 first_seen: '2026-09-06T07:21:06Z'
+<<<<<<< HEAD
 last_seen: '2026-09-06T13:15:16Z'
 status: market_context
+=======
+last_seen: '2026-09-06T15:05:39Z'
+status: pending_filter
+>>>>>>> ecb5853 (chore: 每日采集 2026-09-06)
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight
-  seen_at: '2026-09-06T13:15:16Z'
+  seen_at: '2026-09-06T15:05:39Z'
   metrics:
-    points: 312
-    comments: 81
+    points: 379
+    comments: 106
   kind: news
 ---
 

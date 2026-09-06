@@ -21,8 +21,8 @@ canonical_url: https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-
 summary: Apple says it has evidence that a former employee destroyed evidence of data theft after learning
   he was under investigation.
 first_seen: '2026-09-01T00:13:00Z'
-last_seen: '2026-09-05T23:54:29Z'
-status: market_context
+last_seen: '2026-09-06T15:05:39Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -59,6 +59,13 @@ sightings:
   url: https://news.google.com/rss/articles/CBMiywFBVV95cUxQalpjTTlPTEJOdzJ5VWtwN2hHdHFsd3pVT3EzZXpmNzJmVG52M3hmbGFlWjQ0U19LRGxSQVVZc3ZwZEpnejBHbUlOcTFiYWJad18tQjlEMVdrbnNVRmYwTUxHMFRlZ2hjRFppOXAxUzN6OXppOUdYUy01WVM4cjNsSlFCVWJNcXptWkZCcjhmZ0VqdkYzcmYycHZCbGhCUXpZZllNeG9jdWxwbGlnNmpVclNlc3ZTb1RVQy1aU0RwX3hqTDZYM3lITmJyQdIB0AFBVV95cUxNWS14U0NZNm0tcTVzUl80b2JuWmVRalZLWHBnckRKdU1CM2UxX2JXNnMyS1FIZ2RHZ21iZ3dSbldJU1dPNEpUZF9wcEVSTXdNLVpoQURtUy0zUUQxRXJlNTNnZnp2cXhFTF9wTDExblM4VnoteDhSTmVNMHlqX3RyYnd3ajlYLUV6NEI2YXUxNEZHOGg3SFBBNTlCX2tYTFZOT2h3QnR4SzRmUVhKTWpPSVRTTkxIcnVUTzVTMElKSVpGdE9VZmdRS3ZMUjhsVFIz?oc=5
   seen_at: '2026-09-05T23:54:29Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.phoronix.com/news/Asahi-Linux-Official-M3
+  seen_at: '2026-09-06T15:05:39Z'
+  metrics:
+    points: 42
+    comments: 10
   kind: news
 ---
 

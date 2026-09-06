@@ -39,16 +39,16 @@ url: https://github.com/alchaincyf/huashu-excel
 canonical_url: https://github.com/alchaincyf/huashu-excel
 summary: 数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。
 first_seen: '2026-08-23T05:38:43Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T15:05:43Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/alchaincyf/huashu-excel
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T15:05:43Z'
   metrics:
-    stars: 369
+    stars: 370
     forks: 60
     open_issues: 1
   kind: product

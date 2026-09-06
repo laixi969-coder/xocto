@@ -22,17 +22,17 @@ url: https://github.com/modecir/fast-cutvid
 canonical_url: https://github.com/modecir/fast-cutvid
 summary: Fast Cut Video tool for cutting video for Agents
 first_seen: '2026-09-05T21:06:05Z'
-last_seen: '2026-09-06T13:15:16Z'
+last_seen: '2026-09-06T15:05:39Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/modecir/fast-cutvid
-  seen_at: '2026-09-06T13:15:16Z'
+  seen_at: '2026-09-06T15:05:39Z'
   metrics:
     points: 8
-    comments: 5
+    comments: 8
   kind: product
 ---
 
