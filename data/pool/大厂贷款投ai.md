@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9JeDZPd2J2S2oz
 summary: 大厂贷款投AI 新浪财经
 first_seen: '2026-09-01T07:56:07Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

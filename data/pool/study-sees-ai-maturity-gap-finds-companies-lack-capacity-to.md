@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxNY0FpeVE4Ujd0
 summary: Study sees AI 'maturity gap,' finds companies lack capacity to implement agents Smart Industry
 first_seen: '2026-09-01T21:32:28Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

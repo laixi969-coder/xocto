@@ -1,11 +1,15 @@
 ---
 slug: claude-fable-51-made-me-a-really-nice-animated-pelican
-name: Claude Fable 5.1 made me a really nice animated pelican
+name: Claude Fable 5.1
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic发布新旗舰模型Claude Fable 5.1，宣称其为编程、知识工作与长时程问题解决设定新标准；该模型在新推出的科学基准上取得52.6%的得分，远高于上一代，并提供从low到max共五档推理强度，档位越高耗时与成本急剧上升。前沿模型竞争围绕基准成绩与分层推理定价持续升温。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic released its new flagship model Claude Fable 5.1, claiming a new standard for coding,
+  knowledge work, and long-running problem solving. The model scores 52.6% on a newly introduced science
+  benchmark, far above the previous generation, and offers five reasoning effort levels from low to max,
+  with cost and latency rising sharply at higher effort. Frontier model competition keeps intensifying
+  around benchmark performance and tiered reasoning pricing.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -80,7 +84,7 @@ summary: "Today is  Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable
   \  llm-reasoning ,  llm-release"
 first_seen: '2026-09-01T23:57:28Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -91,7 +95,7 @@ sightings:
   kind: news
 ---
 
-# Claude Fable 5.1 made me a really nice animated pelican
+# Claude Fable 5.1
 
 Today is  Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 "sets a new standard for coding, knowledge work, and long-running problem-solving tasks". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new  Terminal-Bench-Science 0.1  benchmark (first announced  on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. 
  But how well can it pelican? 

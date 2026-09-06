@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/dynamic-edge
 summary: The Dynamic Island for Windows
 first_seen: '2026-09-01T10:31:29Z'
 last_seen: '2026-09-02T14:31:39Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

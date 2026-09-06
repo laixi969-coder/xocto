@@ -1,0 +1,37 @@
+- id: req-initial-supafork-2026-09-02
+  project_slug: supafork
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：跨工具会话迁移，但痛点（切换频率）是否普遍、交付（迁移完整性）是否确定未明。
+    evidence_ids:
+    - ev-3e72ea94b667e25e
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或用户评价，展示支持的平台和迁移效果。
+  market: ''
+  job: 开发者在使用多个 AI 编程工具时，希望在不同工具间迁移会话，以保留上下文和避免重复工作。
+  job_en: Developers using multiple AI coding tools want to migrate sessions between tools to preserve
+    context and avoid redundant work.
+  pain: 切换工具时丢失会话上下文，需要重新描述问题，浪费时间。
+  pain_en: Switching tools loses session context, requiring re-description of problems, wasting time.
+  current_alternative: 开发者可能手动复制粘贴对话内容，或坚持使用单一工具。
+  current_alternative_en: Developers may manually copy-paste conversation content, or stick to a single
+    tool.
+  usage_reason: 用户可能因多工具工作流而试用，但需求强度取决于切换频率和迁移的便利性。
+  usage_reason_en: Users may try it due to multi-tool workflows, but demand intensity depends on switching
+    frequency and ease of migration.

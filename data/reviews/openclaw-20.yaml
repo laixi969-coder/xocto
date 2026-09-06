@@ -1,0 +1,35 @@
+- id: req-initial-openclaw-20-2026-09-02
+  project_slug: openclaw-20
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 执行任务的需求，但缺乏具体场景和痛点描述，无法判断刚性。
+    evidence_ids:
+    - ev-bc7ed25838f74913
+  - gate: consensus
+    status: insufficient
+    reason: 无公开讨论或采用数据，共识未知。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法评估交付确定性。
+    evidence_ids: []
+  next_validation: 查找官方文档或演示，确认其具体执行的任务类型和交付结果。
+  market: ''
+  job: 用户希望 AI 能自主完成实际任务，而不仅仅是对话。
+  job_en: Users want AI to autonomously complete real tasks, not just chat.
+  pain: 现有 AI 助手常停留在建议层面，无法可靠执行多步骤操作。
+  pain_en: Current AI assistants often stay at advice level, unable to reliably execute multi-step actions.
+  current_alternative: 用户可能使用自动化工具或人工完成，但缺乏统一入口。
+  current_alternative_en: Users may use automation tools or manual work, lacking a unified entry.
+  usage_reason: 若产品真能可靠执行任务，可能吸引尝鲜者，但需具体证据。
+  usage_reason_en: If the product truly executes tasks reliably, it may attract early adopters, but concrete
+    evidence is needed.

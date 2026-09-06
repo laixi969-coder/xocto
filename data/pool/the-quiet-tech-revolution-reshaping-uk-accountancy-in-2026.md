@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxOSGRFTXJ1WDYt
 summary: The quiet tech revolution reshaping UK accountancy in 2026 Accountancy Age
 first_seen: '2026-09-02T09:47:42Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: anthropics-anthropic-sdk-python-v130
-name: 'anthropics/anthropic-sdk-python: v1.3.0'
+name: anthropic-sdk-python
 builder: anthropics
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 官方 Python SDK 的版本更新，面向调用 Claude API 的开发者，更新了用户画像、组织合规设置、记忆存储与工具集等接口模式。
 inspiration: ''
-summary_en: ''
+summary_en: A version update of Anthropic's official Python SDK for developers using the Claude API, updating
+  schemas for user profiles, organization compliance settings, memory store, and toolset.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -78,7 +79,7 @@ summary: '## 1.3.0 (2026-09-01)
   * **types:** use UnionDiscriminator for more discriminated unions ([b44af2c](https://github.com/anthropics/anthropic-sdk-python/commit/b44af2c625703ba1c0ed2e81871ac14dc572665e))'
 first_seen: '2026-09-01T17:36:55Z'
 last_seen: '2026-09-02T00:14:35Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -90,7 +91,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.3.0
+# anthropic-sdk-python
 
 ## 1.3.0 (2026-09-01)
 

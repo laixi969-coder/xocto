@@ -23,7 +23,7 @@ summary: deepseek-harness for vscode .A native VS Code coding-agent extension fo
   runtime — no WebUI   served, no Harness setup
 first_seen: '2026-08-13T18:35:49Z'
 last_seen: '2026-09-02T00:14:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

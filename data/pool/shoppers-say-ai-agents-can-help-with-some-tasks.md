@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxQcUxCQ2VBRktx
 summary: Shoppers Say AI Agents Can Help With Some Tasks Yahoo Tech
 first_seen: '2026-08-31T17:00:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

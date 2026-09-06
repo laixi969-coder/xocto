@@ -1,11 +1,12 @@
 ---
 slug: exclusive-samsung-nvidia-asml-and-scaleup-fund-back-mistral
-name: 'Exclusive: Samsung, Nvidia, ASML and Scaleup Fund back Mistral in €3bn fundraise'
+name: Mistral AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://sifted.eu/articles/mistral-series-d-samsung-nvidia-asml
 summary: ''
 first_seen: '2026-09-02T15:00:33Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive: Samsung, Nvidia, ASML and Scaleup Fund back Mistral in €3bn fundraise
+# Mistral AI
 
 _（源没给简介）_
 

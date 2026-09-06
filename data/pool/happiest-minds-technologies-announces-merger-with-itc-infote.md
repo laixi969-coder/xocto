@@ -1,12 +1,12 @@
 ---
 slug: happiest-minds-technologies-announces-merger-with-itc-infote
-name: Happiest Minds Technologies announces merger with ITC Infotech to create a scaled, AI First Global
-  Technology Services Enterprise with US$ 1 billion Revenue by FY28
+name: Happiest Minds Technologies
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Happiest Minds Technologies 是一家 IT 服务公司，本次合并属于行业整合事件，而非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Happiest Minds Technologies is an IT services company; this merger is an industry consolidation
+  event, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: Happiest Minds Technologies announces merger with ITC Infotech to creat
   Technology Services Enterprise with US$ 1 billion Revenue by FY28 TradingView
 first_seen: '2026-09-01T13:22:00Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Happiest Minds Technologies announces merger with ITC Infotech to create a scaled, AI First Global Technology Services Enterprise with US$ 1 billion Revenue by FY28
+# Happiest Minds Technologies
 
 Happiest Minds Technologies announces merger with ITC Infotech to create a scaled, AI First Global Technology Services Enterprise with US$ 1 billion Revenue by FY28 TradingView
 

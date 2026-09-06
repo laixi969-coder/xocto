@@ -1,0 +1,40 @@
+- id: req-initial-李飞飞发布全球首个多模态世界模型-2026-09-02
+  project_slug: 李飞飞发布全球首个多模态世界模型
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人训练场景数据稀缺且昂贵的痛点，从单图生成3D世界可确定交付，价值结构成立。
+    evidence_ids:
+    - ev-bb7f9897da0fb31d
+  - gate: consensus
+    status: insufficient
+    reason: 发布引发关注，但尚无公开的持续采用或用户规模证据。
+    evidence_ids:
+    - ev-bb7f9897da0fb31d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是机器人公司或游戏工作室，但尚未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 世界模型贴近具身智能的第一性目标，生成场景的保真度仍需人工核验，但方向可信。
+    evidence_ids:
+    - ev-bb7f9897da0fb31d
+  next_validation: 关注World Labs官方发布的定价或合作案例，或公开的开发者使用数据。
+  market: ''
+  job: 机器人研发者需要大量多样化的训练场景来训练具身智能模型，但真实场景采集成本高、难以覆盖边缘情况。
+  job_en: Robotics developers need large and diverse training scenes to train embodied AI models, but
+    real-world data collection is costly and hard to cover edge cases.
+  pain: 真实场景数据采集昂贵且耗时，且难以获得足够的罕见或危险场景。
+  pain_en: Real-world data collection is expensive and time-consuming, and it is difficult to obtain sufficient
+    rare or dangerous scenarios.
+  current_alternative: 目前主要依赖手工构建3D场景或真实数据采集，成本高、效率低。
+  current_alternative_en: Currently, they rely on manually building 3D scenes or collecting real data,
+    which is costly and inefficient.
+  usage_reason: 该模型能从单张图片快速生成3D世界，大幅降低场景生成成本，为机器人训练提供近乎无限的合成数据。
+  usage_reason_en: The model can quickly generate 3D worlds from a single image, greatly reducing scene
+    generation cost and providing nearly unlimited synthetic data for robot training.

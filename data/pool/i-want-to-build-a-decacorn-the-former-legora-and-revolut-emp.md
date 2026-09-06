@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/juritas-legora-revolut-pre-seed
 summary: ''
 first_seen: '2026-09-02T10:40:57Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

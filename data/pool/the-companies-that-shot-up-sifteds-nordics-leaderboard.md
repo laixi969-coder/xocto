@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-nordic-climbers-sifted-leaderboard
 summary: ''
 first_seen: '2026-09-02T05:00:02Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

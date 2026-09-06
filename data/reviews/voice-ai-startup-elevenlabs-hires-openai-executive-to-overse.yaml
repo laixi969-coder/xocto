@@ -1,0 +1,40 @@
+- id: req-initial-voice-ai-startup-elevenlabs-hires-openai-executive-to-overse-2026-09-02
+  project_slug: voice-ai-startup-elevenlabs-hires-openai-executive-to-overse
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决内容生产中语音生成和克隆的需求，痛点明确：人工配音成本高、周期长。AI 能快速交付可定制语音，价值结构成立。
+    evidence_ids:
+    - ev-af05b45d84737ac3
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及高管任命，缺乏用户采用或市场共识的直接证据。
+    evidence_ids:
+    - ev-af05b45d84737ac3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是 to B 或 to C，但缺乏公开验证。
+    evidence_ids:
+    - ev-af05b45d84737ac3
+  - gate: truth
+    status: insufficient
+    reason: AI 语音质量与真实性需持续核验，安全与滥用风险存在，但公开信息不足。
+    evidence_ids:
+    - ev-af05b45d84737ac3
+  next_validation: 查找 ElevenLabs 官方定价页或客户案例，以验证付费模式和采用情况。
+  market: ''
+  job: 创作者或企业需要为视频、有声书、游戏等生成或克隆语音，替代人工配音或录音。
+  job_en: Creators or businesses need to generate or clone voices for videos, audiobooks, games, replacing
+    human voiceover or recording.
+  pain: 人工配音成本高、周期长，且难以快速调整或复制特定声音。
+  pain_en: Human voiceover is costly and slow, and it's hard to quickly adjust or replicate specific voices.
+  current_alternative: 传统上依赖专业配音演员或录音室，成本高且效率低。
+  current_alternative_en: Traditionally relies on professional voice actors or studios, which is expensive
+    and inefficient.
+  usage_reason: AI 语音生成能快速、低成本地提供可定制语音，满足内容生产对速度和灵活性的需求。
+  usage_reason_en: AI voice generation offers fast, low-cost, customizable voices, meeting content production
+    needs for speed and flexibility.

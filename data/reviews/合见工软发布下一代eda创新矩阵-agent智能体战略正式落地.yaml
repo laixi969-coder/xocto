@@ -1,0 +1,40 @@
+- id: req-initial-合见工软发布下一代eda创新矩阵-agent智能体战略正式落地-2026-09-02
+  project_slug: 合见工软发布下一代eda创新矩阵-agent智能体战略正式落地
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决芯片设计验证耗时易错的痛点，需求刚性。
+    evidence_ids:
+    - ev-13ea6068549043be
+  - gate: consensus
+    status: insufficient
+    reason: 发布报道但缺乏用户采用证据。
+    evidence_ids:
+    - ev-13ea6068549043be
+  - gate: model
+    status: insufficient
+    reason: 买方是芯片设计企业，但付费模式未公开。
+    evidence_ids:
+    - ev-13ea6068549043be
+  - gate: truth
+    status: insufficient
+    reason: Agent在真实设计流程中的可靠性需验证。
+    evidence_ids:
+    - ev-13ea6068549043be
+  next_validation: 查找合见工软官方产品页面或客户案例。
+  market: ''
+  job: 芯片设计工程师需要完成复杂的验证和优化任务，AI Agent可辅助自动化部分流程。
+  job_en: Chip design engineers need to perform complex verification and optimization tasks; AI agents
+    can help automate parts of the workflow.
+  pain: 芯片设计验证耗时且易错，人力成本高。
+  pain_en: Chip design verification is time-consuming and error-prone, with high labor costs.
+  current_alternative: 目前主要依赖人工使用传统EDA工具进行验证，效率低。
+  current_alternative_en: Currently relying on manual use of traditional EDA tools for verification, which
+    is inefficient.
+  usage_reason: AI Agent能减少重复劳动，提高设计效率，吸引工程师尝试。
+  usage_reason_en: AI agents can reduce repetitive work and improve design efficiency, attracting engineers
+    to try.

@@ -21,7 +21,7 @@ canonical_url: https://arstechnica.com/gadgets/2026/08/google-maps-renames-lake-
 summary: Google Maps renames "Lake Ontario" to "Lake America" faster than US Government
 first_seen: '2026-09-01T08:59:20Z'
 last_seen: '2026-09-02T14:31:39Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

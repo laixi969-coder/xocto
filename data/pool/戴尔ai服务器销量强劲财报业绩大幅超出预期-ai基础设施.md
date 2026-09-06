@@ -1,11 +1,12 @@
 ---
 slug: 戴尔ai服务器销量强劲财报业绩大幅超出预期-ai基础设施
-name: 戴尔AI服务器销量强劲，财报业绩大幅超出预期-AI基础设施
+name: 戴尔
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 戴尔财报显示AI服务器销量强劲，业绩超预期，印证AI基础设施市场扩张。
 inspiration: ''
-summary_en: ''
+summary_en: Dell's earnings show strong AI server sales, beating expectations, confirming AI infrastructure
+  market expansion.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE9hMVQ4U2tJTWpr
 summary: 戴尔AI服务器销量强劲，财报业绩大幅超出预期-AI基础设施 至顶网
 first_seen: '2026-09-02T08:48:45Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 戴尔AI服务器销量强劲，财报业绩大幅超出预期-AI基础设施
+# 戴尔
 
 戴尔AI服务器销量强劲，财报业绩大幅超出预期-AI基础设施 至顶网
 

@@ -21,7 +21,7 @@ canonical_url: https://hermit-tech.com/blog/ai-can-make-you-suck-faster-too
 summary: AI Can Make You Suck Faster Too
 first_seen: '2026-09-01T05:32:56Z'
 last_seen: '2026-09-02T14:31:39Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

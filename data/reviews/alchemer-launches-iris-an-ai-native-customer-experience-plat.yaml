@@ -1,0 +1,41 @@
+- id: req-initial-alchemer-launches-iris-an-ai-native-customer-experience-plat-2026-09-02
+  project_slug: alchemer-launches-iris-an-ai-native-customer-experience-plat
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客户体验团队从海量反馈中提炼行动的痛点，交付可执行的改进清单，价值结构成立。
+    evidence_ids:
+    - ev-7d1726f0c4e6354f
+  - gate: consensus
+    status: insufficient
+    reason: 发布新闻显示产品推出，但缺乏用户采用或评价数据，共识尚未形成。
+    evidence_ids:
+    - ev-7d1726f0c4e6354f
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业 CX 预算，但未披露定价或付费模式，商业模式尚未验证。
+    evidence_ids:
+    - ev-7d1726f0c4e6354f
+  - gate: truth
+    status: supported
+    reason: 贴近客户体验管理的第一性目标，承诺的洞察生成功能可确定性交付，安全边界明确。
+    evidence_ids:
+    - ev-7d1726f0c4e6354f
+  next_validation: 查找 Alchemer Iris 的官方定价页或客户案例，确认付费模式和实际采用情况。
+  market: ''
+  job: 客户体验经理需要将大量客户反馈转化为具体的改进行动，以提升满意度和留存。
+  job_en: CX managers need to convert large volumes of customer feedback into concrete improvement actions
+    to boost satisfaction and retention.
+  pain: 手动分析海量反馈耗时且容易遗漏关键信号，导致行动滞后。
+  pain_en: Manually analyzing massive feedback is time-consuming and prone to missing key signals, leading
+    to delayed actions.
+  current_alternative: 目前企业可能使用传统调查工具或人工阅读反馈，缺乏自动化的洞察生成。
+  current_alternative_en: Currently, enterprises may use traditional survey tools or manually read feedback,
+    lacking automated insight generation.
+  usage_reason: Iris 提供 AI 驱动的分析，能快速提炼行动项，帮助团队更快响应客户需求。
+  usage_reason_en: Iris offers AI-driven analysis to quickly extract action items, helping teams respond
+    to customer needs faster.

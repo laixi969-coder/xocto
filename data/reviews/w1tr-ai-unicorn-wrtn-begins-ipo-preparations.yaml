@@ -1,0 +1,37 @@
+- id: req-initial-w1tr-ai-unicorn-wrtn-begins-ipo-preparations-2026-09-02
+  project_slug: w1tr-ai-unicorn-wrtn-begins-ipo-preparations
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决用户通过对话完成任务的通用需求，但具体痛点与旧流程不明确。
+    evidence_ids:
+    - ev-798ebac1dd266bd6
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或市场共识的公开证据。
+    evidence_ids:
+    - ev-798ebac1dd266bd6
+  - gate: model
+    status: insufficient
+    reason: 商业模式与付费路径未公开。
+    evidence_ids:
+    - ev-798ebac1dd266bd6
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺与交付确定性未核验。
+    evidence_ids:
+    - ev-798ebac1dd266bd6
+  next_validation: 查找Wrtn Technologies的官方产品页面或定价信息。
+  market: ''
+  job: 用户通过对话完成信息查询、内容生成等任务。
+  job_en: Users accomplish tasks such as information retrieval and content generation through conversation.
+  pain: 传统搜索和工具操作繁琐，用户希望更自然的交互方式。
+  pain_en: Traditional search and tool operations are cumbersome; users desire more natural interaction.
+  current_alternative: 使用通用搜索引擎或单一功能应用。
+  current_alternative_en: Using general search engines or single-purpose applications.
+  usage_reason: 提供便捷的对话式交互，但需求刚性待验证。
+  usage_reason_en: Offers convenient conversational interaction, but demand rigidity is yet to be verified.

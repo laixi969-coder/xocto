@@ -1,11 +1,12 @@
 ---
 slug: 博通vmware私有ai云发布覆盖基础设施智能体数据与安全
-name: 博通VMware私有AI云发布：覆盖基础设施、智能体、数据与安全
+name: VMware Private AI Cloud
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 博通发布VMware私有AI云，提供覆盖基础设施、智能体、数据与安全的私有云解决方案，帮助企业部署和管理AI工作负载。
 inspiration: ''
-summary_en: ''
+summary_en: Broadcom released VMware Private AI Cloud, offering private cloud solutions covering infrastructure,
+  agents, data, and security, helping enterprises deploy and manage AI workloads.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE9NbjFBVi1VcmR3
 summary: 博通VMware私有AI云发布：覆盖基础设施、智能体、数据与安全 至顶网
 first_seen: '2026-09-01T09:58:54Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# 博通VMware私有AI云发布：覆盖基础设施、智能体、数据与安全
+# VMware Private AI Cloud
 
 博通VMware私有AI云发布：覆盖基础设施、智能体、数据与安全 至顶网
 

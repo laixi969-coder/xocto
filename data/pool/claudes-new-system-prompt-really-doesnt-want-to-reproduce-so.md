@@ -1,11 +1,18 @@
 ---
 slug: claudes-new-system-prompt-really-doesnt-want-to-reproduce-so
-name: Claude's new system prompt really doesn't want to reproduce song lyrics
+name: Anthropic
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 公开了 Claude 消费端应用（Claude.ai 与手机 App）的系统提示词，并把原先的单页文档改成索引页加按模型分页，保留历史版本可逐条对照；新版提示词明确收紧了复述歌词等版权内容的许可，而
+  Claude Code 与 Claude Cowork 的提示词不在公开范围。这让外界可以按版本追踪一家头部对话产品如何把版权合规与行为边界写进提示词，对做提示词工程和内容合规的团队是可直接对照的公开参照。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic has published the system prompts behind its Claude consumer apps (Claude.ai and
+  the mobile apps), reorganizing what used to be a single page into an index plus per-model pages that
+  keep historical versions for side-by-side comparison; the updated prompts visibly tighten rules on reproducing
+  copyrighted material such as song lyrics, while prompts for Claude Code and Claude Cowork remain unpublished.
+  This lets outsiders track, version by version, how a leading consumer assistant encodes copyright compliance
+  and behavioral boundaries into its prompts — a directly comparable public reference for teams working
+  on prompt engineering and content compliance.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -155,7 +162,7 @@ summary: "Anthropic  publish the system prompts  for their Claude consumer appli
   \  ai-ethics ,  system-prompts"
 first_seen: '2026-09-02T14:16:42Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -166,7 +173,7 @@ sightings:
   kind: news
 ---
 
-# Claude's new system prompt really doesn't want to reproduce song lyrics
+# Anthropic
 
 Anthropic  publish the system prompts  for their Claude consumer applications ( Claude.ai  and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I  love  that they do this, and that they share not just the current prompts but historic changes to their prompts as well. 
 

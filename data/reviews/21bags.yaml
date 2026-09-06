@@ -1,0 +1,34 @@
+- id: req-initial-21bags-2026-09-02
+  project_slug: 21bags
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，仅有标语，无法判断价值。
+    evidence_ids:
+    - ev-e9f80c3788ebe35e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，说明具体功能与目标用户。
+  market: ''
+  job: 加密货币投资者需要管理其持有的多种代币资产。
+  job_en: Cryptocurrency investors need to manage their holdings of various tokens.
+  pain: 信息不足，无法确认具体痛点。
+  pain_en: Insufficient information to confirm specific pain points.
+  current_alternative: 信息不足，无法确认现有替代方式。
+  current_alternative_en: Insufficient information to confirm current alternatives.
+  usage_reason: 信息不足，无法确认使用动机。
+  usage_reason_en: Insufficient information to confirm usage motivation.

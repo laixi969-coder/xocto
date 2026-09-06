@@ -21,7 +21,7 @@ canonical_url: https://herotxt.page
 summary: A Curated Library of Hero Sections from Fast-Growing Startups
 first_seen: '2026-09-01T02:36:28Z'
 last_seen: '2026-09-02T00:14:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

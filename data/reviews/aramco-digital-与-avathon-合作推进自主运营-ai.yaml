@@ -1,0 +1,41 @@
+- id: req-initial-aramco-digital-与-avathon-合作推进自主运营-ai-2026-09-02
+  project_slug: aramco-digital-与-avathon-合作推进自主运营-ai
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工业设备停机与效率问题，痛点刚性，交付可确定，但具体流程待核验。
+    evidence_ids:
+    - ev-9748c280dce940c0
+  - gate: consensus
+    status: insufficient
+    reason: 合作新闻显示行业认可，但缺乏采用规模或用户评价的公开证据。
+    evidence_ids:
+    - ev-9748c280dce940c0
+  - gate: model
+    status: insufficient
+    reason: 买方可能是能源企业，但付费模式与定价未披露。
+    evidence_ids:
+    - ev-9748c280dce940c0
+  - gate: truth
+    status: insufficient
+    reason: 自主运营承诺需验证实际交付效果与安全边界。
+    evidence_ids:
+    - ev-9748c280dce940c0
+  next_validation: 查找 Avathon 官方客户案例或部署文档，确认具体工作流与结果指标。
+  market: ''
+  job: 工业运营团队需要减少非计划停机、优化能耗与产出，原来依赖人工巡检与经验判断。
+  job_en: Industrial operations teams need to reduce unplanned downtime and optimize energy and output,
+    previously relying on manual inspections and experience.
+  pain: 设备故障发现滞后、人工分析海量数据耗时、专家经验难以复制。
+  pain_en: Delayed fault detection, time-consuming manual analysis of massive data, and difficulty in
+    replicating expert experience.
+  current_alternative: 传统 SCADA 与人工巡检，或通用预测性维护工具。
+  current_alternative_en: Traditional SCADA and manual inspections, or generic predictive maintenance
+    tools.
+  usage_reason: 自主运营 AI 能持续处理多源数据并快速响应，减少对稀缺专家的依赖。
+  usage_reason_en: Autonomous operations AI can continuously process multi-source data and respond quickly,
+    reducing reliance on scarce experts.

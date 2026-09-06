@@ -1,0 +1,38 @@
+- id: req-initial-wrtn-technologies-begins-selecting-ipo-underwriter-2026-09-02
+  project_slug: wrtn-technologies-begins-selecting-ipo-underwriter
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决用户获取信息和创作辅助的需求，但公开资料未提供具体痛点或用户行为证据。
+    evidence_ids:
+    - ev-abd84c638f2b8bac
+  - gate: consensus
+    status: insufficient
+    reason: 无用户规模或采用数据，仅IPO新闻，共识未明。
+    evidence_ids:
+    - ev-abd84c638f2b8bac
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方不明确。
+    evidence_ids:
+    - ev-abd84c638f2b8bac
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性可核验，但交付确定性未知。
+    evidence_ids:
+    - ev-abd84c638f2b8bac
+  next_validation: 查找Wrtn Technologies的官方产品页面或定价信息。
+  market: ''
+  job: 用户通过对话获取信息、完成创作或日常任务。
+  job_en: Users obtain information, complete creative tasks, or handle daily chores through conversation.
+  pain: 传统搜索需要多次查询和筛选，效率低。
+  pain_en: Traditional search requires multiple queries and filtering, which is inefficient.
+  current_alternative: 使用通用搜索引擎或已有的AI助手如ChatGPT。
+  current_alternative_en: Using general search engines or existing AI assistants like ChatGPT.
+  usage_reason: 用户可能因本地语言支持或特定功能而试用，但缺乏公开数据。
+  usage_reason_en: Users may try it due to local language support or specific features, but public data
+    is lacking.

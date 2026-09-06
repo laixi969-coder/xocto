@@ -1,11 +1,12 @@
 ---
 slug: openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting
-name: OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ri
   claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.
 first_seen: '2026-09-02T12:09:42Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting
+# OpenAI
 
 Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.
 

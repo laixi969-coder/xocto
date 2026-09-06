@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTE4xUGVfTGM0Rlh6
 summary: 适配多赛道产业升级：中欧EMBA AI商业课程行业应用指南 新华报业网
 first_seen: '2026-09-02T06:51:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

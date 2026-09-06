@@ -1,11 +1,12 @@
 ---
 slug: 豆包转kimi再转deepseek年轻人如何花式薅ai羊毛
-name: 豆包转Kimi再转DeepSeek，年轻人如何花式薅AI羊毛
+name: 豆包、Kimi、DeepSeek
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 年轻人通过在不同AI助手（豆包、Kimi、DeepSeek）之间切换以利用免费额度或优惠，反映了AI助手市场竞争激烈和用户价格敏感。
 inspiration: ''
-summary_en: ''
+summary_en: Young users switch between AI assistants (Doubao, Kimi, DeepSeek) to exploit free quotas or
+  promotions, reflecting intense competition and price sensitivity in the AI assistant market.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QemUxb1g3SU5h
 summary: 豆包转Kimi再转DeepSeek，年轻人如何花式薅AI羊毛 新京报
 first_seen: '2026-09-02T09:02:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 豆包转Kimi再转DeepSeek，年轻人如何花式薅AI羊毛
+# 豆包、Kimi、DeepSeek
 
 豆包转Kimi再转DeepSeek，年轻人如何花式薅AI羊毛 新京报
 

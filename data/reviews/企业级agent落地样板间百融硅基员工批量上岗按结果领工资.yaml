@@ -1,0 +1,39 @@
+- id: req-initial-企业级agent落地样板间百融硅基员工批量上岗按结果领工资-2026-09-02
+  project_slug: 企业级agent落地样板间百融硅基员工批量上岗按结果领工资
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客服人力成本高、响应慢的痛点，日处理1.5万通电话显示刚性需求。
+    evidence_ids:
+    - ev-d445528f0f17df44
+  - gate: consensus
+    status: insufficient
+    reason: 仅单一报道，缺乏客户案例或行业广泛采用证据。
+    evidence_ids:
+    - ev-d445528f0f17df44
+  - gate: model
+    status: supported
+    reason: 按结果付费模式清晰，买方为企业，但具体定价未披露。
+    evidence_ids:
+    - ev-d445528f0f17df44
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，需更多客户反馈。
+    evidence_ids:
+    - ev-d445528f0f17df44
+  next_validation: 查找百融云创官方客户案例或定价页面。
+  market: ''
+  job: 企业需要处理大量客户咨询电话，原来由人工客服完成。
+  job_en: Enterprises need to handle a large volume of customer service calls, previously done by human
+    agents.
+  pain: 人工客服成本高、响应慢、难以规模化。
+  pain_en: Human agents are costly, slow, and hard to scale.
+  current_alternative: 使用传统IVR或外包呼叫中心。
+  current_alternative_en: Using traditional IVR or outsourced call centers.
+  usage_reason: AI客服能处理海量电话并降低成本，按结果付费降低客户风险。
+  usage_reason_en: AI customer service handles massive call volumes and reduces costs; result-based pricing
+    lowers client risk.

@@ -1,0 +1,40 @@
+- id: req-initial-empirik完成2100万美元种子轮融资用ai预测系统故障-ai基础设施-2026-09-02
+  project_slug: empirik完成2100万美元种子轮融资用ai预测系统故障-ai基础设施
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决系统故障预测的痛点，减少宕机损失，价值明确。
+    evidence_ids:
+    - ev-0ee6f18a9a382c60
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示关注，但缺乏用户采用证据。
+    evidence_ids:
+    - ev-0ee6f18a9a382c60
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业IT部门，但付费模式未公开。
+    evidence_ids:
+    - ev-0ee6f18a9a382c60
+  - gate: truth
+    status: supported
+    reason: 贴近IT运维第一性目标，预测能力可验证。
+    evidence_ids:
+    - ev-0ee6f18a9a382c60
+  next_validation: Empirik官网的定价页或客户案例。
+  market: ''
+  job: 运维团队需要提前发现系统故障，避免业务中断。
+  job_en: Operations teams need to detect system failures in advance to avoid business disruption.
+  pain: 系统故障导致宕机，损失巨大，传统监控只能事后告警。
+  pain_en: System failures cause downtime with huge losses; traditional monitoring only alerts after the
+    fact.
+  current_alternative: 目前依赖监控工具和人工巡检，难以预测复杂故障。
+  current_alternative_en: Currently relies on monitoring tools and manual inspections, which are insufficient
+    to predict complex failures.
+  usage_reason: AI能分析大量日志和指标，发现异常模式，提前预警。
+  usage_reason_en: AI can analyze large volumes of logs and metrics to detect anomalous patterns and provide
+    early warnings.

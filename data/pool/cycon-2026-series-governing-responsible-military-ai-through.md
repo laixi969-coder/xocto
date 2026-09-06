@@ -1,11 +1,12 @@
 ---
 slug: cycon-2026-series-governing-responsible-military-ai-through
-name: CyCon 2026 Series – Governing Responsible Military AI Through Defense Procurement
+name: CyCon 2026
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: CyCon 2026 系列会议讨论通过国防采购治理负责任军事 AI，反映军事 AI 治理成为行业关注焦点。
 inspiration: ''
-summary_en: ''
+summary_en: CyCon 2026 series discusses governing responsible military AI through defense procurement,
+  reflecting growing focus on military AI governance.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzdUT1h1M2xG
 summary: CyCon 2026 Series – Governing Responsible Military AI Through Defense Procurement lieber.westpoint.edu
 first_seen: '2026-09-01T18:47:03Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# CyCon 2026 Series – Governing Responsible Military AI Through Defense Procurement
+# CyCon 2026
 
 CyCon 2026 Series – Governing Responsible Military AI Through Defense Procurement lieber.westpoint.edu
 

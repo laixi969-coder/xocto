@@ -1,0 +1,40 @@
+- id: req-initial-快手可灵ai获中国ai产业基金等超15亿元融资-ai-2026-09-02
+  project_slug: 快手可灵ai获中国ai产业基金等超15亿元融资-ai
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作成本高、周期长的痛点，生成视频可交付，价值成立。
+    evidence_ids:
+    - ev-10ee24020cffccab
+  - gate: consensus
+    status: supported
+    reason: 融资和快手生态表明市场关注，视频生成场景明确。
+    evidence_ids:
+    - ev-10ee24020cffccab
+  - gate: model
+    status: insufficient
+    reason: 买方可能是创作者或企业，但付费模式未公开，需进一步核验。
+    evidence_ids:
+    - ev-10ee24020cffccab
+  - gate: truth
+    status: supported
+    reason: 生成视频可确定性交付，贴近创作第一性目标。
+    evidence_ids:
+    - ev-10ee24020cffccab
+  next_validation: 查找可灵AI官方定价页或企业客户案例。
+  market: ''
+  job: 视频创作者需要快速生成视频素材以降低制作成本和时间。
+  job_en: Video creators need to quickly generate video assets to reduce production cost and time.
+  pain: 传统视频制作成本高、周期长，难以满足短视频和广告的快速迭代需求。
+  pain_en: Traditional video production is costly and slow, failing to meet the rapid iteration needs
+    of short-form and advertising content.
+  current_alternative: 目前创作者多使用素材库剪辑或外包制作，成本高且效率低。
+  current_alternative_en: Creators currently rely on stock footage editing or outsourcing, which is expensive
+    and inefficient.
+  usage_reason: 可灵AI提供一键生成视频的能力，显著降低创作门槛，吸引大量创作者试用。
+  usage_reason_en: Kling AI offers one-click video generation, significantly lowering the creation barrier,
+    attracting many creators to try.

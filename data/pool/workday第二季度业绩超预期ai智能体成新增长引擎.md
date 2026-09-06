@@ -3,10 +3,10 @@ slug: workday第二季度业绩超预期ai智能体成新增长引擎
 name: Workday
 builder: ''
 category: ''
-summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+summary_zh: Workday是企业管理软件公司，本季度业绩超预期，AI智能体功能成为增长动力。
 inspiration: ''
-summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
-  confirm its workflow value.
+summary_en: Workday is an enterprise software company; this quarter's results beat expectations, with
+  AI agents as a growth driver.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc29hREJPQkw1
 summary: Workday第二季度业绩超预期，AI智能体成新增长引擎 搜狐网
 first_seen: '2026-08-28T13:43:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

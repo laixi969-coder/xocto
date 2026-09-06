@@ -1,20 +1,33 @@
 ---
 slug: whatsapp-remittance-startup-félix-secures-200m-series-c-led
-name: WhatsApp Remittance Startup Félix Secures $200M Series C Led By A16z, General Catalyst
+name: Félix
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: Félix是面向拉美移民的AI驱动的WhatsApp汇款平台，用户通过WhatsApp聊天即可完成跨境汇款，AI处理交易流程。
+inspiration: 汇款是高频刚需，WhatsApp作为入口降低了使用门槛。切入机会在于将AI用于合规审查和汇率优化，并拓展至其他移民群体的跨境金融服务。
+summary_en: Félix is an AI-powered WhatsApp remittance platform for Latino immigrants, enabling users
+  to send cross-border payments via WhatsApp chat, with AI handling the transaction process.
+inspiration_en: Remittance is a high-frequency, rigid need, and WhatsApp as an entry point lowers the
+  barrier. The opportunity lies in applying AI to compliance and rate optimization, and expanding to other
+  immigrant groups' cross-border financial services.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 金融
+- 汇款
+industries_en:
+- Finance
+- Remittance
+jobs:
+- 拉美移民
+jobs_en:
+- Latino immigrants
+regions:
+- 美国
+- 拉丁美洲
+regions_en:
+- United States
+- Latin America
 open_source: false
 url: https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst/
 canonical_url: https://news.crunchbase.com/venture/fintech-whatsapp-remittance-startup-felix-raises-200m-a16z-general-catalyst
@@ -23,7 +36,7 @@ summary: Félix, a Miami-based AI-powered WhatsApp remittance platform for Latin
   Catalyst.
 first_seen: '2026-09-01T17:21:50Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 - newssearch
@@ -40,7 +53,7 @@ sightings:
   kind: news
 ---
 
-# WhatsApp Remittance Startup Félix Secures $200M Series C Led By A16z, General Catalyst
+# Félix
 
 Félix, a Miami-based AI-powered WhatsApp remittance platform for Latino immigrants, announced on Tuesday that it has secured $200 million in Series C funding co-led by Andreessen Horowitz and General Catalyst.
 

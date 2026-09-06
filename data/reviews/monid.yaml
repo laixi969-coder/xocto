@@ -1,0 +1,40 @@
+- id: req-initial-monid-2026-09-02
+  project_slug: monid
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者接入多种 agent 工具的痛点，但具体工作流和交付未明，需求强度不足。
+    evidence_ids:
+    - ev-7e8c1d9f34bc602a
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，共识未形成。
+    evidence_ids:
+    - ev-7e8c1d9f34bc602a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，商业模式不清晰。
+    evidence_ids:
+    - ev-7e8c1d9f34bc602a
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，承诺能否确定性交付未验证。
+    evidence_ids:
+    - ev-7e8c1d9f34bc602a
+  next_validation: 官方定价页或开发者文档
+  market: ''
+  job: 开发者需要为 AI agent 接入多种外部工具，并管理调用与计费。
+  job_en: Developers need to integrate multiple external tools into AI agents and manage calls and billing.
+  pain: 当前接入不同工具需分别处理 API、认证和计费，流程繁琐。
+  pain_en: Currently integrating different tools requires handling APIs, authentication, and billing separately,
+    which is cumbersome.
+  current_alternative: 开发者通常直接调用各工具的原生 API，或自行构建集成层。
+  current_alternative_en: Developers typically call each tool's native API directly or build their own
+    integration layer.
+  usage_reason: 若 Monid 能提供统一接口和简化计费，可能吸引开发者试用，但需求强度未明。
+  usage_reason_en: If Monid offers a unified interface and simplified billing, it may attract developers
+    to try, but demand intensity is unclear.

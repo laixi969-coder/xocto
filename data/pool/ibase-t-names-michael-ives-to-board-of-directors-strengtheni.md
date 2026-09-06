@@ -1,11 +1,12 @@
 ---
 slug: ibase-t-names-michael-ives-to-board-of-directors-strengtheni
-name: iBase-t Names Michael Ives to Board of Directors, Strengthening Deep Software and Financial Leadership
+name: iBase-t
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: iBase-t 是一家提供制造运营管理软件的公司，本次人事任命旨在强化其软件和财务战略领导。
 inspiration: ''
-summary_en: ''
+summary_en: iBase-t is a company providing manufacturing operations management software. This appointment
+  aims to strengthen its software and financial strategic leadership.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: iBase-t Names Michael Ives to Board of Directors, Strengthening Deep So
   Yahoo Finance Singapore
 first_seen: '2026-09-02T12:37:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# iBase-t Names Michael Ives to Board of Directors, Strengthening Deep Software and Financial Leadership
+# iBase-t
 
 iBase-t Names Michael Ives to Board of Directors, Strengthening Deep Software and Financial Leadership Yahoo Finance Singapore
 

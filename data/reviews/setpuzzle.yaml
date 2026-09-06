@@ -1,0 +1,37 @@
+- id: req-initial-setpuzzle-2026-09-02
+  project_slug: setpuzzle
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：提供每日益智挑战，但痛点（无聊）是否刚性、交付（游戏质量）是否确定未明。
+    evidence_ids:
+    - ev-469bac732210441b
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方页面或游戏内关于玩法、用户量和留存的数据。
+  market: ''
+  job: 用户想要每天花几分钟玩一个有趣的益智游戏，锻炼大脑或消磨时间。
+  job_en: Users want to spend a few minutes each day playing an interesting puzzle game to exercise their
+    brain or pass time.
+  pain: 现有益智游戏可能缺乏新鲜感或挑战性，用户需要持续的新内容。
+  pain_en: Existing puzzle games may lack novelty or challenge; users need fresh content continuously.
+  current_alternative: 用户可能玩其他每日游戏（如 Wordle）、传统 Set 卡牌或手机益智应用。
+  current_alternative_en: Users may play other daily games (e.g., Wordle), traditional Set cards, or mobile
+    puzzle apps.
+  usage_reason: 用户可能因喜欢 Set 游戏或每日挑战而试用，但需求强度取决于游戏体验和留存设计。
+  usage_reason_en: Users may try it because they like Set or daily challenges, but demand intensity depends
+    on gameplay experience and retention design.

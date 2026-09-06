@@ -72,3 +72,42 @@
   usage_reason: 融资消息引发关注，但产品尚未公开，采用原因无法核验。
   usage_reason_en: Funding news attracts attention, but the product is not public, so usage reasons cannot
     be verified.
+- id: req-initial-consumer-focused-ai-assistant-startup-instinct-reportedly-ra-2026-09-02
+  project_slug: consumer-focused-ai-assistant-startup-instinct-reportedly-ra
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确；通用助手已有成熟替代，价值结构未证实。
+    evidence_ids:
+    - ev-ac34633d69a73068
+    - ev-d5bcf39e33119ea3
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或持续使用的公开证据，仅有融资报道。
+    evidence_ids:
+    - ev-b6283d6a6d69efd2
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方不清，可能依赖VC融资。
+    evidence_ids:
+    - ev-754b8f3cd888f3b6
+  - gate: truth
+    status: insufficient
+    reason: 产品功能与交付确定性未公开，无法验证。
+    evidence_ids: []
+  next_validation: 官方产品页面或定价信息
+  market: ''
+  job: 用户需要快速完成写作、规划等日常任务，获得即时答案或内容草稿。
+  job_en: Users need to quickly complete daily tasks like writing and planning, getting instant answers
+    or content drafts.
+  pain: 传统方式耗时费力，用户希望减少重复劳动，提高效率。
+  pain_en: Traditional methods are time-consuming; users want to reduce repetitive work and improve efficiency.
+  current_alternative: 用户可能使用ChatGPT、Gemini等现有AI助手，或手动完成。
+  current_alternative_en: Users may use existing AI assistants like ChatGPT or Gemini, or do it manually.
+  usage_reason: 报道称其迅速走红，可能因营销或独特体验，但具体采用原因未公开。
+  usage_reason_en: Reports of rapid virality suggest marketing or unique experience, but specific adoption
+    reasons are not public.

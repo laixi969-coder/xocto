@@ -1,0 +1,41 @@
+- id: req-initial-rezolve-ai上半年业绩营收同比激增21倍全球分销合作伙伴关系全面爆发-2026-09-02
+  project_slug: rezolve-ai上半年业绩营收同比激增21倍全球分销合作伙伴关系全面爆发
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决零售电商的效率和个性化痛点，营收激增表明需求刚性。
+    evidence_ids:
+    - ev-8430353565c696ba
+  - gate: consensus
+    status: supported
+    reason: 营收同比激增 21 倍和全球分销伙伴关系爆发是明确的采用信号。
+    evidence_ids:
+    - ev-8430353565c696ba
+  - gate: model
+    status: insufficient
+    reason: 营收数据表明有付费路径，但具体商业模式和定价未披露。
+    evidence_ids:
+    - ev-8430353565c696ba
+  - gate: truth
+    status: insufficient
+    reason: 营收激增可能受基数效应影响，需进一步核验可持续性。
+    evidence_ids:
+    - ev-8430353565c696ba
+  next_validation: 查找 Rezolve AI 的官方定价页或客户案例，以验证其商业模式和具体交付。
+  market: ''
+  job: 零售和电商企业需要 AI 驱动的商务解决方案来提升销售和运营效率。
+  job_en: Retail and e-commerce businesses need AI-driven commerce solutions to boost sales and operational
+    efficiency.
+  pain: 传统商务流程效率低，难以应对个性化需求和实时市场变化。
+  pain_en: Traditional commerce processes are inefficient and struggle to handle personalization and real-time
+    market changes.
+  current_alternative: 现有替代包括传统软件和人工运营，但缺乏智能化和规模化能力。
+  current_alternative_en: Existing alternatives include legacy software and manual operations, lacking
+    intelligence and scalability.
+  usage_reason: 营收激增和合作伙伴扩张表明市场对 AI 商务解决方案有强烈需求，企业愿意采用。
+  usage_reason_en: Revenue surge and partner expansion indicate strong market demand for AI commerce solutions,
+    with enterprises willing to adopt.

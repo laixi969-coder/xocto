@@ -1,0 +1,38 @@
+- id: req-initial-opencsg完成数亿元pre-a轮融资推动开源ai基础设施加速落地城市与产业场景-2026-09-02
+  project_slug: opencsg完成数亿元pre-a轮融资推动开源ai基础设施加速落地城市与产业场景
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，具体工作流程和交付物待核验。
+    evidence_ids:
+    - ev-154b77d234d40661
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示资本关注，但缺乏用户共识证据。
+    evidence_ids:
+    - ev-154b77d234d40661
+  - gate: model
+    status: insufficient
+    reason: 商业模式和付费方不明确。
+    evidence_ids:
+    - ev-154b77d234d40661
+  - gate: truth
+    status: insufficient
+    reason: 产品实际能力和交付确定性未验证。
+    evidence_ids:
+    - ev-154b77d234d40661
+  next_validation: 查找 OpenCSG 官方产品文档或客户案例，明确其具体部署流程和交付物。
+  market: ''
+  job: 城市与产业用户需要将开源 AI 模型部署到实际场景中，但具体任务和痛点尚不明确。
+  job_en: Urban and industrial users need to deploy open-source AI models in real scenarios, but specific
+    tasks and pain points are unclear.
+  pain: 缺乏信息，无法判断具体痛点。
+  pain_en: Insufficient information to identify specific pain points.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 融资新闻显示市场关注，但缺乏用户采用证据。
+  usage_reason_en: Funding news indicates market interest, but user adoption evidence is lacking.

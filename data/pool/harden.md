@@ -34,7 +34,7 @@ canonical_url: https://harden.run/blog/aif-research-and-evidence
 summary: Beating GPT5.5-xhigh for Coding agent security with SLMs and IRM
 first_seen: '2026-08-27T22:33:19Z'
 last_seen: '2026-09-02T00:14:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

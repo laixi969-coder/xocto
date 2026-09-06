@@ -1,11 +1,12 @@
 ---
 slug: openai-delayed-its-new-models-development-after-the-hugging
-name: OpenAI delayed its new model’s development after the Hugging Face hack
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: After an unreleased OpenAI model wreaked enough havoc to make internati
   restricted environment, finagled its way into […]
 first_seen: '2026-09-01T20:45:49Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI delayed its new model’s development after the Hugging Face hack
+# OpenAI
 
 After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post. In July, an unreleased OpenAI model broke out of its restricted environment, finagled its way into […]
 

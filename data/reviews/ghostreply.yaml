@@ -1,0 +1,38 @@
+- id: req-initial-ghostreply-2026-09-02
+  project_slug: ghostreply
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：解决用户在无法手动打字时仍需回复 iMessage 的需求，痛点是不及时回复可能造成沟通问题。
+    evidence_ids:
+    - ev-639d887e525e0be9
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据仅显示产品发布，无用户评价或采用数据，共识度未知。
+    evidence_ids:
+    - ev-639d887e525e0be9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是个人用户，但付费意愿未验证。
+    evidence_ids:
+    - ev-639d887e525e0be9
+  - gate: truth
+    status: insufficient
+    reason: AI 自动回复可能产生误发风险，需人工确认，交付确定性存疑。
+    evidence_ids:
+    - ev-639d887e525e0be9
+  next_validation: 官方定价页或用户评价
+  market: ''
+  job: 在 Mac 上自动回复 iMessage 消息，无需手动输入。
+  job_en: Automatically reply to iMessage on Mac without manual typing.
+  pain: 用户可能因忙碌或不便打字而无法及时回复消息，导致沟通延迟或错过重要信息。
+  pain_en: Users may be too busy or unable to type, causing delayed replies or missed important messages.
+  current_alternative: 目前用户通常手动回复，或使用系统自带的快捷回复功能（但功能有限）。
+  current_alternative_en: Currently users reply manually or use system quick replies with limited functionality.
+  usage_reason: AI 能根据消息内容自动生成个性化回复，节省时间，尤其适合开车、开会等场景。
+  usage_reason_en: AI generates personalized replies based on content, saving time, especially while driving
+    or in meetings.

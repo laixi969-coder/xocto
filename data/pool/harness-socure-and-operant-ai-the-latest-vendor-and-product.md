@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOS2cyV09CcXdD
 summary: 'Harness, Socure and Operant AI: the latest vendor and product news QA Financial'
 first_seen: '2026-09-02T08:38:52Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

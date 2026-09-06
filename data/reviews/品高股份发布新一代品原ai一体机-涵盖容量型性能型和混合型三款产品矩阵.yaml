@@ -1,0 +1,39 @@
+- id: req-initial-品高股份发布新一代品原ai一体机-涵盖容量型性能型和混合型三款产品矩阵-2026-09-02
+  project_slug: 品高股份发布新一代品原ai一体机-涵盖容量型性能型和混合型三款产品矩阵
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业AI部署复杂和成本高的痛点，需求存在。
+    evidence_ids:
+    - ev-06c776b9353aa222
+    - ev-47188da9ec4d85ee
+  - gate: consensus
+    status: insufficient
+    reason: 发布报道但缺乏用户采用证据。
+    evidence_ids:
+    - ev-06c776b9353aa222
+  - gate: model
+    status: insufficient
+    reason: 买方是企业，但定价和付费模式未公开。
+    evidence_ids:
+    - ev-06c776b9353aa222
+  - gate: truth
+    status: insufficient
+    reason: 一体机性能与云服务相比需验证。
+    evidence_ids:
+    - ev-06c776b9353aa222
+  next_validation: 查找品高股份官方产品页或定价信息。
+  market: ''
+  job: 企业IT部门需要部署AI算力，一体机提供开箱即用的方案。
+  job_en: Enterprise IT departments need to deploy AI computing; appliances offer out-of-the-box solutions.
+  pain: 自建AI基础设施复杂且成本高。
+  pain_en: Building AI infrastructure is complex and costly.
+  current_alternative: 目前企业可能使用云服务或自建服务器，但存在数据安全和运维负担。
+  current_alternative_en: Enterprises may use cloud services or self-built servers, facing data security
+    and maintenance burdens.
+  usage_reason: 一体机简化部署，满足数据合规需求，吸引企业尝试。
+  usage_reason_en: Appliances simplify deployment and meet compliance needs, attracting enterprise trials.

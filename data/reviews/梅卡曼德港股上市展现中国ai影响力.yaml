@@ -1,0 +1,37 @@
+- id: req-initial-梅卡曼德港股上市展现中国ai影响力-2026-09-02
+  project_slug: 梅卡曼德港股上市展现中国ai影响力
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工业机器人视觉识别和抓取的需求，痛点在于传统视觉的局限，替代方案是人工或定制系统，结构上成立。
+    evidence_ids:
+    - ev-6d8f7e895a652185
+  - gate: consensus
+    status: insufficient
+    reason: 上市事件表明市场关注，但缺乏具体采用数据。
+    evidence_ids:
+    - ev-6d8f7e895a652185
+  - gate: model
+    status: insufficient
+    reason: 买方可能是制造企业，但付费模式未明确。
+    evidence_ids:
+    - ev-6d8f7e895a652185
+  - gate: truth
+    status: supported
+    reason: 产品贴近工业自动化第一性目标，交付可确定。
+    evidence_ids:
+    - ev-6d8f7e895a652185
+  next_validation: 查找梅卡曼德官方客户案例或定价信息。
+  market: ''
+  job: 工厂自动化中，机器人需要识别和抓取工件。
+  job_en: In factory automation, robots need to recognize and grasp workpieces.
+  pain: 传统机器视觉难以应对复杂工件和光照变化。
+  pain_en: Traditional machine vision struggles with complex workpieces and lighting variations.
+  current_alternative: 人工上下料或定制视觉系统。
+  current_alternative_en: Manual loading/unloading or custom vision systems.
+  usage_reason: AI视觉可提高抓取准确率和适应性。
+  usage_reason_en: AI vision improves grasping accuracy and adaptability.

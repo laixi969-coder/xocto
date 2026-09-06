@@ -1,0 +1,41 @@
+- id: req-initial-polimill-builds-japans-next-generation-public-ai-infrastruct-2026-09-02
+  project_slug: polimill-builds-japans-next-generation-public-ai-infrastruct
+  level: initial
+  reviewed_at: '2026-09-02T14:32:02Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决市政职员检索行政知识耗时、易遗漏的痛点，交付为相关条文或资料，价值结构成立。
+    evidence_ids:
+    - ev-121c0cdac70123ff
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未提供采用规模或用户反馈，共识证据不足。
+    evidence_ids:
+    - ev-121c0cdac70123ff
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是地方政府，但付费路径未公开。
+    evidence_ids:
+    - ev-121c0cdac70123ff
+  - gate: truth
+    status: supported
+    reason: 贴近行政工作的第一性目标，AI 检索可确定性交付，但需人工确认。
+    evidence_ids:
+    - ev-121c0cdac70123ff
+  next_validation: 查找 Polimill 的官方定价页或客户案例，以确认付费模式和实际采用情况。
+  market: ''
+  job: 市政职员需要快速查找和利用行政知识（如条例、先例）来起草文件或做出决策。
+  job_en: Municipal staff need to quickly find and use administrative knowledge (e.g., regulations, precedents)
+    to draft documents or make decisions.
+  pain: 行政知识分散、检索困难，人工查找耗时且容易遗漏，影响工作效率和准确性。
+  pain_en: Administrative knowledge is scattered and hard to search; manual lookup is time-consuming and
+    prone to omissions, affecting efficiency and accuracy.
+  current_alternative: 目前可能依赖内部文档库、人工咨询或搜索引擎，但缺乏针对行政领域的优化。
+  current_alternative_en: Currently may rely on internal document repositories, manual consultation, or
+    general search engines, which lack optimization for administrative domains.
+  usage_reason: AI 能快速检索并返回相关行政知识，减少人工查找时间，提高响应速度，因此市政部门有采用动机。
+  usage_reason_en: AI can quickly retrieve and return relevant administrative knowledge, reducing manual
+    search time and improving response speed, giving municipalities a reason to adopt.

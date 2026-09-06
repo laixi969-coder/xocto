@@ -1,0 +1,36 @@
+- id: req-initial-keel-2026-09-02
+  project_slug: keel
+  level: initial
+  reviewed_at: '2026-09-02T00:14:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体应用场景和用户反馈。
+    evidence_ids:
+    - ev-1f1d8cad77cf5e83
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，无法判断认知或场景是否形成。
+    evidence_ids:
+    - ev-1f1d8cad77cf5e83
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或 公开代码仓库 仓库，说明具体编排机制和用例。
+  market: ''
+  job: 开发者需要编排多个 AI 代理以完成复杂任务。
+  job_en: Developers need to orchestrate multiple AI agents to accomplish complex tasks.
+  pain: 代理循环容易失控，缺乏可控性和可预测性。
+  pain_en: Agent loops can be uncontrollable, lacking controllability and predictability.
+  current_alternative: 目前使用自建脚本或 LangChain 等框架。
+  current_alternative_en: Currently using custom scripts or frameworks like LangChain.
+  usage_reason: 可能因其“指挥者”理念吸引开发者，但实际效果未知。
+  usage_reason_en: May attract developers due to its 'conductor' concept, but actual effectiveness is
+    unknown.

@@ -1,11 +1,15 @@
 ---
 slug: prs-not-welcome-how-top-ai-open-source-projects-are-managing
-name: 'PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors'
+name: AI开源项目智能体化贡献模式
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 头部AI开源项目（Vercel AI SDK、Astro、Flue、tldraw等）正以“软件工厂”模式取代个人零散式社区PR：由智能体团队负责提交修复与功能，维护者角色转向审核与治理。这表明AI智能体正在重构开源协作与贡献治理结构，个人贡献者驱动的传统模式面临弱化。
 inspiration: ''
-summary_en: ''
+summary_en: Leading AI open source projects such as Vercel's AI SDK, Astro, Flue and tldraw are replacing
+  drive-by community pull requests with a software factory model, where teams of agents submit fixes and
+  features and maintainers shift toward review and governance. This indicates that AI agents are restructuring
+  open source collaboration and contribution governance, weakening the traditional individual-contributor-driven
+  model.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +26,7 @@ summary: Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by commun
   where teams of agents apply fixes and features.
 first_seen: '2026-09-01T16:17:15Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors
+# AI开源项目智能体化贡献模式
 
 Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.
 

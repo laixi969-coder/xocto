@@ -3,21 +3,21 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: 开发者将真实数据交给 cover，它作为可逆隐私代理，向外部 AI 代理发送逼真假数据，并在本地恢复原始数据，以保护敏感信息。具体集成流程和交付物仍待核验。
-inspiration: 趋势是 AI 代理需要访问真实数据，但隐私风险阻碍采用。切入点是面向企业开发者，提供数据脱敏代理，按数据保护级别或调用量收费。
-summary_en: Developers give real data to cover, which acts as a reversible privacy proxy, sending realistic
-  fake data to external AI agents and restoring originals locally to protect sensitive information. Specific
-  integration flow and deliverables still to be verified.
-inspiration_en: 'Trend: AI agents need access to real data, but privacy risks hinder adoption. Entry point:
-  target enterprise developers with a data masking proxy, charging by protection level or call volume.'
+summary_zh: cover 是一个面向 AI 代理的可逆隐私代理开源项目：开发者将真实数据交给 cover，cover 向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据以保护敏感信息。具体工作流程和交付结果仍待核验。
+inspiration: 趋势：AI 代理接入企业数据时，隐私保护成为刚需，可逆脱敏可能成为数据交互的标准层。切入：从需要调用外部 AI 但数据敏感的行业（如医疗、金融）入手，提供合规的代理方案。
+summary_en: 'cover is an open-source reversible privacy proxy for AI agents: developers give real data
+  to cover, which sends realistic fake data to external AI agents and restores originals locally to protect
+  sensitive information. Specific workflow and deliverables still need verification.'
+inspiration_en: 'Trend: As AI agents access enterprise data, privacy protection becomes essential, and
+  reversible anonymization may become a standard layer for data interaction. Entry: Start with industries
+  that need external AI but handle sensitive data (e.g., healthcare, finance), offering a compliant proxy
+  solution.'
 priority_review: false
 project_type: open_source
 industries:
 - 软件开发
-- 网络安全
 industries_en:
 - Software Development
-- Cybersecurity
 jobs:
 - 开发者
 - 安全工程师
@@ -32,7 +32,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - officialfeeds

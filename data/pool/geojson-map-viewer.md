@@ -32,7 +32,7 @@ summary: "Tool:   GeoJSON Map Viewer  \n         I was helping Natalie gather so
   \  geospatial ,  tools ,  geojson ,  chatgpt"
 first_seen: '2026-09-01T18:05:45Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

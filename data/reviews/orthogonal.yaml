@@ -1,0 +1,37 @@
+- id: req-initial-orthogonal-2026-09-02
+  project_slug: orthogonal
+  level: initial
+  reviewed_at: '2026-09-02T00:14:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理 API 发现和支付痛点，但缺乏具体用户场景和采用证据。
+    evidence_ids:
+    - ev-6c1afeb58c46ba8d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 HN 讨论，共识未明。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无定价或商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法评估交付确定性。
+    evidence_ids: []
+  next_validation: 查找官方文档或定价页，确认其支持的 API 类型和收费模式。
+  market: ''
+  job: 开发者需要让 AI 代理自动发现并支付所需 API，以完成任务。
+  job_en: Developers need AI agents to automatically discover and pay for required APIs to complete tasks.
+  pain: 代理调用 API 时，手动查找、密钥管理和计费流程繁琐，阻碍自动化。
+  pain_en: Manual discovery, key management, and billing when agents call APIs are cumbersome, hindering
+    automation.
+  current_alternative: 开发者可能使用 API 目录、手动集成或预付费账户，但缺乏统一支付层。
+  current_alternative_en: Developers may use API directories, manual integration, or prepaid accounts,
+    lacking a unified payment layer.
+  usage_reason: 若集成简单且 API 覆盖广，可能吸引代理开发者，但需验证。
+  usage_reason_en: If integration is simple and API coverage is broad, it may attract agent developers,
+    but needs validation.

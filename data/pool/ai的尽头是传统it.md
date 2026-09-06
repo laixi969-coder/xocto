@@ -3,9 +3,9 @@ slug: ai的尽头是传统it
 name: AI的尽头是传统IT？
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 讨论AI技术的边界，认为其最终落脚点仍是传统IT领域。
 inspiration: ''
-summary_en: ''
+summary_en: Discussion on the boundaries of AI, suggesting its ultimate focus remains in traditional IT.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSTkp6dEdQNnlt
 summary: AI的尽头是传统IT？ 金融界
 first_seen: '2026-09-02T08:06:01Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

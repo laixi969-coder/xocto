@@ -1,0 +1,41 @@
+- id: req-initial-filevine-takes-on-shepards-and-keycite-with-its-own-ai-case-2026-09-02
+  project_slug: filevine-takes-on-shepards-and-keycite-with-its-own-ai-case
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师验证判例引证和防止 AI 幻觉的痛点，旧流程依赖商业引证服务，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-ca2afe7b48ce4057
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅宣布产品发布，缺乏用户采用或行业反馈数据。
+    evidence_ids:
+    - ev-ca2afe7b48ce4057
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是律所，但付费路径不明确。
+    evidence_ids:
+    - ev-ca2afe7b48ce4057
+  - gate: truth
+    status: insufficient
+    reason: AI 引证检查的准确性和可靠性需与现有服务对比验证。
+    evidence_ids:
+    - ev-ca2afe7b48ce4057
+  next_validation: 查找 Filevine 的官方产品页面或客户案例，以确认引证检查功能的实际采用和付费情况。
+  market: ''
+  job: 律师需要确保法律文书中的判例引证准确有效，避免引用已被推翻或无效的判例。
+  job_en: Lawyers need to ensure that case citations in legal documents are accurate and valid, avoiding
+    references to overruled or invalid cases.
+  pain: 手动核对判例引证耗时且容易遗漏，AI 生成的文书更可能包含幻觉引证。
+  pain_en: Manually checking case citations is time-consuming and prone to omissions, and AI-generated
+    documents are more likely to contain hallucinated citations.
+  current_alternative: 目前律师依赖 Shepard's 或 KeyCite 等商业引证服务，或人工查阅判例库。
+  current_alternative_en: Currently, lawyers rely on commercial citator services like Shepard's or KeyCite,
+    or manually search case databases.
+  usage_reason: 即使 Filevine 是新进入者，引证检查是法律工作的刚需，且 AI 幻觉问题加剧了需求，律师可能尝试集成方案。
+  usage_reason_en: Even though Filevine is a new entrant, citation checking is a rigid need in legal work,
+    and AI hallucination issues intensify the demand, so lawyers may try integrated solutions.

@@ -1,0 +1,38 @@
+- id: req-initial-videoai-2026-09-02
+  project_slug: videoai
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确；公开资料仅称直播位由 AI 生成，未说明用户任务、输入输出或交付。
+    evidence_ids:
+    - ev-4ee54fbb6b39930d
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，仅有 HN 上 9 分 9 评论，不足以证明共识。
+    evidence_ids:
+    - ev-4ee54fbb6b39930d
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式和付费路径未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核验 AI 生成的真实性和交付确定性。
+    evidence_ids: []
+  next_validation: 官方产品页或演示，明确 AI 生成直播的具体输入、输出和人工介入流程。
+  market: ''
+  job: 用户想观看或创建直播内容，但具体任务和场景未明确。
+  job_en: Users want to watch or create live content, but the specific task and context are unclear.
+  pain: 未明确用户痛点，可能是传统直播内容制作成本高或供给不足，但缺乏证据。
+  pain_en: User pain points are unclear; possibly high production costs or insufficient supply in traditional
+    live streaming, but evidence is lacking.
+  current_alternative: 现有替代包括传统直播平台（如 Twitch、YouTube Live）和人工制作内容。
+  current_alternative_en: Existing alternatives include traditional live streaming platforms (e.g., Twitch,
+    YouTube Live) and human-produced content.
+  usage_reason: 用户可能因好奇或对 AI 生成内容的新颖性而试用，但缺乏持续使用或付费的公开证据。
+  usage_reason_en: Users may try it out of curiosity or novelty of AI-generated content, but there is
+    no public evidence of sustained usage or payment.

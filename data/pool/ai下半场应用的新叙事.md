@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TVkFrYUhGRDJr
 summary: AI下半场，应用的新叙事 36 Kr
 first_seen: '2026-09-01T09:04:31Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

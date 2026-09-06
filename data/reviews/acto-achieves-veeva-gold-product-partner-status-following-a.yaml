@@ -1,0 +1,37 @@
+- id: req-initial-acto-achieves-veeva-gold-product-partner-status-following-a-2026-09-02
+  project_slug: acto-achieves-veeva-gold-product-partner-status-following-a
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，具体流程和交付物未披露。
+    evidence_ids:
+    - ev-e54e8775d1b6a324
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或行业共识证据。
+    evidence_ids:
+    - ev-e54e8775d1b6a324
+  - gate: model
+    status: insufficient
+    reason: 商业模式和付费方未披露。
+    evidence_ids:
+    - ev-e54e8775d1b6a324
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性和效果缺乏公开验证。
+    evidence_ids:
+    - ev-e54e8775d1b6a324
+  next_validation: 查找 ACTO 官方网站或客户案例，确认其具体工作流程和交付物。
+  market: ''
+  job: 生命科学公司需要管理商业运营数据并确保合规。
+  job_en: Life sciences companies need to manage commercial operations data and ensure compliance.
+  pain: 数据分散、合规要求高，手动处理效率低。
+  pain_en: Data is fragmented, compliance is strict, and manual processing is inefficient.
+  current_alternative: 可能依赖 Veeva CRM 及手动 Excel 流程。
+  current_alternative_en: May rely on Veeva CRM and manual Excel processes.
+  usage_reason: 与 Veeva 的深度集成可能简化合规报告。
+  usage_reason_en: Deep integration with Veeva may simplify compliance reporting.

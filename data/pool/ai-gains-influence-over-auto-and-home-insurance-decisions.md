@@ -1,11 +1,12 @@
 ---
 slug: ai-gains-influence-over-auto-and-home-insurance-decisions
-name: AI gains influence over auto and home insurance decisions
+name: AI in auto and home insurance decisions
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 人工智能在汽车与房屋保险决策中的影响力上升，AI正逐步进入保险行业的核心决策环节，属于行业结构层面的变化，其对保险公司运营与消费者体验的影响值得持续观察。
 inspiration: ''
-summary_en: ''
+summary_en: AI is gaining influence over auto and home insurance decisions, marking a structural shift
+  in how the insurance industry makes decisions; the impact on insurers and consumers is worth tracking.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUklfbXdFUXB3
 summary: AI gains influence over auto and home insurance decisions PropertyCasualty360
 first_seen: '2026-09-01T15:44:15Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI gains influence over auto and home insurance decisions
+# AI in auto and home insurance decisions
 
 AI gains influence over auto and home insurance decisions PropertyCasualty360
 

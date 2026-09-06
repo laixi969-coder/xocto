@@ -1,6 +1,6 @@
 ---
 slug: create-cat-chaos-and-more-with-five-new-games-to-explore-in
-name: Create Cat Chaos and More With Five New Games to Explore in Meta Horizon+ in September!
+name: Meta Horizon+
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://meta.com/blog/meta-horizon-plus-vr-subscription-service-s
 summary: ''
 first_seen: '2026-09-01T17:00:00Z'
 last_seen: '2026-09-02T00:14:53Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Create Cat Chaos and More With Five New Games to Explore in Meta Horizon+ in September!
+# Meta Horizon+
 
 _（源没给简介）_
 

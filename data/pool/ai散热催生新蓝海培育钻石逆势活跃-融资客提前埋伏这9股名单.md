@@ -3,9 +3,9 @@ slug: ai散热催生新蓝海培育钻石逆势活跃-融资客提前埋伏这9�
 name: AI散热催生新蓝海！培育钻石逆势活跃 融资客提前埋伏这9股(名单)
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI散热技术成为新兴蓝海，推动相关企业融资与并购。
 inspiration: ''
-summary_en: ''
+summary_en: AI cooling technology has become a new blue ocean, driving financing and M&A for related companies.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5V2N1Tk1MMkth
 summary: AI散热催生新蓝海！培育钻石逆势活跃 融资客提前埋伏这9股(名单) 东方财富
 first_seen: '2026-09-02T03:57:39Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

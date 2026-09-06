@@ -1,0 +1,38 @@
+- id: req-initial-nos4-2026-09-02
+  project_slug: nos4
+  level: initial
+  reviewed_at: '2026-09-02T00:14:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决怀旧体验需求，但痛点强度低，用户可能只是好奇尝试，缺乏刚性。
+    evidence_ids:
+    - ev-3362f2e20411ae1b
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论少，仅少量点赞和评论，无法确认广泛共识。
+    evidence_ids:
+    - ev-54d10b3a5b46606c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无付费路径或商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法评估交付确定性。
+    evidence_ids: []
+  next_validation: 观察是否有用户持续使用或付费的公开证据，例如应用商店评论或社交媒体讨论。
+  market: ''
+  job: 用户想重温旧版 iOS 的界面和操作体验，获得怀旧乐趣。
+  job_en: Users want to relive the interface and operation of old iOS versions for nostalgic enjoyment.
+  pain: 现代系统已无法体验旧版 iOS，怀旧用户缺少便捷的模拟途径。
+  pain_en: Modern systems cannot run old iOS, leaving nostalgic users without an easy way to experience
+    it.
+  current_alternative: 用户可能寻找旧设备、模拟器或观看视频，但成本高或体验不完整。
+  current_alternative_en: Users may seek old devices, emulators, or watch videos, but these are costly
+    or incomplete.
+  usage_reason: 作为免费、即开即用的怀旧玩具，可能吸引好奇用户尝试，但缺乏持续使用的动力。
+  usage_reason_en: As a free, instant nostalgic toy, it may attract curious users but lacks sustained
+    engagement.

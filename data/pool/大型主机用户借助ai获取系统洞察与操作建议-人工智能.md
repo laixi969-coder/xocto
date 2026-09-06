@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HMTBucWVubXVL
 summary: 大型主机用户借助AI获取系统洞察与操作建议-人工智能 至顶网
 first_seen: '2026-09-02T04:00:07Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

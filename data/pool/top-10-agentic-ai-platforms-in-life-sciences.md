@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcUJCN2E2VThx
 summary: 'Top 10: Agentic AI Platforms in Life Sciences healthcare-digital.com'
 first_seen: '2026-09-02T08:02:58Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

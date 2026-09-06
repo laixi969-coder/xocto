@@ -1,0 +1,36 @@
+- id: req-initial-back-pain-care-a-new-hope-3cec8d172a2480aab9c5d75cb889b538-2026-09-02
+  project_slug: back-pain-care-a-new-hope-3cec8d172a2480aab9c5d75cb889b538
+  level: initial
+  reviewed_at: '2026-09-02T00:14:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决背痛患者理解病因的需求，但具体机制和交付未公开，价值判断证据不足。
+    evidence_ids:
+    - ev-9263ae9ab4dd11d0
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 产品官网或文档，说明设备如何监测、分析并提供反馈。
+  market: ''
+  job: 背痛患者需要了解其背痛的原因和触发因素。
+  job_en: Back pain sufferers need to understand the causes and triggers of their pain.
+  pain: 背痛成因复杂，患者难以自行识别触发因素。
+  pain_en: Back pain has complex causes, and patients struggle to identify triggers on their own.
+  current_alternative: 传统方法包括就医、物理治疗和自我记录，但缺乏持续客观的数据。
+  current_alternative_en: Traditional methods include medical visits, physical therapy, and self-tracking,
+    but lack continuous objective data.
+  usage_reason: 开发者自身经历可能驱动产品开发，但用户采用证据不足。
+  usage_reason_en: The developer's personal experience may drive development, but user adoption evidence
+    is insufficient.

@@ -1,11 +1,13 @@
 ---
 slug: healthcare-organizations-can-now-connect-ehr-and-additional
-name: Healthcare organizations can now connect EHR and additional industry data to ChatGPT
+name: ChatGPT
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 宣布 ChatGPT 可连接可信医疗数据源，临床医生可在工作流中安全访问患者背景和医学研究，但具体流程和交付仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI announced ChatGPT can connect to trusted healthcare data sources, allowing clinicians
+  to securely access patient context and medical research in their workflow, though specific processes
+  and deliverables remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +24,7 @@ summary: ChatGPT can now connect to trusted healthcare data, helping clinicians 
   context, medical research, and more.
 first_seen: '2026-09-01T12:00:00Z'
 last_seen: '2026-09-02T14:32:02Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Healthcare organizations can now connect EHR and additional industry data to ChatGPT
+# ChatGPT
 
 ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.
 

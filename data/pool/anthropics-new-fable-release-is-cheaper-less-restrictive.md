@@ -1,11 +1,12 @@
 ---
 slug: anthropics-new-fable-release-is-cheaper-less-restrictive
-name: Anthropic’s new Fable release is cheaper, less restrictive
+name: Claude Fable 5.1
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 调整模型策略，通过优化安全机制误报率并下调 Token 单价来提升开发者体验与模型可用性。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic adjusted its model strategy by reducing false-positive safeguard restrictions and
+  cutting token costs to enhance developer usability.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Fable 5.1 includes changes meant to reduce token cost and false-positiv
   model's safeguards.
 first_seen: '2026-09-01T19:39:22Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic’s new Fable release is cheaper, less restrictive
+# Claude Fable 5.1
 
 Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.
 

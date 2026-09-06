@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDemRmcjN4ZTJl
 summary: The Best AI Chatbots for 2026 PCMag UK
 first_seen: '2026-08-26T15:59:31Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

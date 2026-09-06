@@ -1,0 +1,40 @@
+- id: req-initial-exclusive-femtech-ipremom-raises-15m-seed-for-early-detectio-2026-09-02
+  project_slug: exclusive-femtech-ipremom-raises-15m-seed-for-early-detectio
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决妊娠并发症早期检测的痛点，价值明确。
+    evidence_ids:
+    - ev-3b018e00e24a54fd
+  - gate: consensus
+    status: insufficient
+    reason: 融资显示关注，但临床验证与用户采用证据不足。
+    evidence_ids:
+    - ev-3b018e00e24a54fd
+  - gate: model
+    status: insufficient
+    reason: 买方可能是医院或孕妇自费，付费模式未公开。
+    evidence_ids:
+    - ev-3b018e00e24a54fd
+  - gate: truth
+    status: supported
+    reason: 贴近母婴安全第一性目标，检测准确性可验证。
+    evidence_ids:
+    - ev-3b018e00e24a54fd
+  next_validation: Ipremom官网或临床试验结果。
+  market: ''
+  job: 孕妇和医生需要早期发现妊娠并发症风险，及时干预。
+  job_en: Pregnant women and doctors need to detect risks of pregnancy complications early for timely
+    intervention.
+  pain: 妊娠并发症如子痫前期发现晚，危及母婴安全。
+  pain_en: Complications like preeclampsia are detected late, endangering mother and baby.
+  current_alternative: 目前依赖定期产检和医生经验，缺乏连续监测。
+  current_alternative_en: Currently relies on regular check-ups and doctor experience, lacking continuous
+    monitoring.
+  usage_reason: AI能整合孕期数据，提供个性化风险评估，辅助医生决策。
+  usage_reason_en: AI can integrate pregnancy data to provide personalized risk assessments, aiding doctor
+    decisions.

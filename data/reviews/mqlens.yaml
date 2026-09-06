@@ -1,0 +1,39 @@
+- id: req-initial-mqlens-2026-09-02
+  project_slug: mqlens
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 MongoDB GUI 资源占用和认证痛点，但需求刚性不足，替代品多。
+    evidence_ids:
+    - ev-7aabbdfef05952b7
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料 关注度低，缺乏社区共识。
+    evidence_ids:
+    - ev-7aabbdfef05952b7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式。
+    evidence_ids:
+    - ev-7aabbdfef05952b7
+  - gate: truth
+    status: insufficient
+    reason: 产品成熟度未验证。
+    evidence_ids:
+    - ev-7aabbdfef05952b7
+  next_validation: 官方定价页或用户评价
+  market: ''
+  job: 开发者需要管理 MongoDB 数据库，执行查询和运维操作。
+  job_en: Developers need to manage MongoDB databases, execute queries, and perform operations.
+  pain: 现有 GUI 工具如 MongoDB Compass 基于 Electron，资源占用高，且部分认证方式支持不佳。
+  pain_en: Existing GUI tools like MongoDB Compass are Electron-based, resource-heavy, and have poor support
+    for some authentication methods.
+  current_alternative: 开发者常使用 MongoDB Compass 或命令行工具。
+  current_alternative_en: Developers often use MongoDB Compass or command-line tools.
+  usage_reason: 原生性能和认证支持可能吸引部分开发者，但需求强度未明。
+  usage_reason_en: Native performance and authentication support may attract some developers, but demand
+    intensity is unclear.

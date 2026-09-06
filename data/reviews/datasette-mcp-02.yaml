@@ -1,0 +1,41 @@
+- id: req-initial-datasette-mcp-02-2026-09-02
+  project_slug: datasette-mcp-02
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者让 AI 直接查询数据库的需求，痛点明确：手动执行 SQL 和结果格式处理繁琐易错。
+    evidence_ids:
+    - ev-0bb19e8d277e3312
+  - gate: consensus
+    status: insufficient
+    reason: 有开源社区关注，但缺乏广泛采用或付费证据，场景主要限于 Datasette 用户。
+    evidence_ids:
+    - ev-0bb19e8d277e3312
+  - gate: model
+    status: insufficient
+    reason: 开源插件，无明确付费路径，可能依赖捐赠或企业支持，商业模式未明。
+    evidence_ids:
+    - ev-0bb19e8d277e3312
+  - gate: truth
+    status: supported
+    reason: 贴近数据库查询的第一性目标，交付可确定，但安全边界需注意 SQL 执行权限。
+    evidence_ids:
+    - ev-0bb19e8d277e3312
+  next_validation: 查看该开源项目官方文档与代码仓库中的公开 issue / discussion，确认是否有企业采用案例或付费支持计划。
+  market: ''
+  job: 开发者或数据分析师需要让 AI 助手直接查询和分析数据库，而不必手动导出数据或编写复杂脚本。
+  job_en: Developers or data analysts need to let AI assistants directly query and analyze databases without
+    manually exporting data or writing complex scripts.
+  pain: 传统方式需要编写 SQL、处理结果格式，AI 模型容易混淆列顺序，效率低且易错。
+  pain_en: Traditional methods require writing SQL and handling result formats; AI models often confuse
+    column order, leading to inefficiency and errors.
+  current_alternative: 目前开发者可能使用数据库客户端、编写脚本或让 AI 生成 SQL 后手动执行。
+  current_alternative_en: Currently, developers may use database clients, write scripts, or have AI generate
+    SQL and execute it manually.
+  usage_reason: 该插件将数据库查询接入 MCP，使 AI 能直接执行并返回结构化结果，减少人工步骤，对使用 Datasette 的开发者有吸引力。
+  usage_reason_en: This plugin connects database queries to MCP, allowing AI to execute and return structured
+    results, reducing manual steps, appealing to developers using Datasette.

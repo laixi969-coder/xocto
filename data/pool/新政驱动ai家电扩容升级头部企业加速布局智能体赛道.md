@@ -1,11 +1,12 @@
 ---
 slug: 新政驱动ai家电扩容升级头部企业加速布局智能体赛道
-name: 新政驱动AI家电扩容升级，头部企业加速布局智能体赛道
+name: AI家电行业
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 新政推动AI家电市场扩容，头部企业加速布局智能体赛道，行业竞争加剧。
 inspiration: ''
-summary_en: ''
+summary_en: New policies drive expansion of AI home appliances market, leading companies accelerate agent
+  deployment, intensifying competition.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTFicEROTFln
 summary: 新政驱动AI家电扩容升级，头部企业加速布局智能体赛道 Sohu
 first_seen: '2026-09-01T11:37:23Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 新政驱动AI家电扩容升级，头部企业加速布局智能体赛道
+# AI家电行业
 
 新政驱动AI家电扩容升级，头部企业加速布局智能体赛道 Sohu
 

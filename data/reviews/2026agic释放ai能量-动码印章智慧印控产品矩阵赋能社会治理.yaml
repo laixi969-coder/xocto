@@ -1,0 +1,38 @@
+- id: req-initial-2026agic释放ai能量-动码印章智慧印控产品矩阵赋能社会治理-2026-09-02
+  project_slug: 2026agic释放ai能量-动码印章智慧印控产品矩阵赋能社会治理
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：印章管理是刚性需求，痛点在于人工流程低效和风险。
+    evidence_ids:
+    - ev-ab089b42c5b116ab
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道有限，缺乏用户采用证据。
+    evidence_ids:
+    - ev-ab089b42c5b116ab
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业或政府，但付费模式未公开。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品是否真正落地和交付效果未核验。
+    evidence_ids: []
+  next_validation: 官方产品页或客户案例，确认具体用印流程和实际部署情况。
+  market: ''
+  job: 企业或机构需要管理印章使用，防止私盖、滥用和纠纷。
+  job_en: Enterprises or institutions need to manage seal usage to prevent unauthorized use, abuse, and
+    disputes.
+  pain: 传统印章管理依赖人工审批和纸质记录，效率低且易出错。
+  pain_en: Traditional seal management relies on manual approval and paper records, which is inefficient
+    and error-prone.
+  current_alternative: 目前可能使用人工审批流程或简单的电子印章系统。
+  current_alternative_en: Currently may use manual approval processes or simple electronic seal systems.
+  usage_reason: AI 印控能自动审批和记录，减少人工成本，提高合规性，因此企业可能采用。
+  usage_reason_en: AI seal control can automate approval and recording, reducing labor costs and improving
+    compliance, so enterprises may adopt it.

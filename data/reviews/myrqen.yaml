@@ -1,0 +1,40 @@
+- id: req-initial-myrqen-2026-09-02
+  project_slug: myrqen
+  level: initial
+  reviewed_at: '2026-09-02T14:31:42Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码的安全漏洞痛点，嵌入 agent 减少人工审查，价值结构成立。
+    evidence_ids:
+    - ev-2ad9d9fb1c071d9e
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星数 159 显示初步关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-2ad9d9fb1c071d9e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，商业模式不清晰。
+    evidence_ids:
+    - ev-2ad9d9fb1c071d9e
+  - gate: truth
+    status: insufficient
+    reason: 产品成熟度和安全测试准确性未验证。
+    evidence_ids:
+    - ev-2ad9d9fb1c071d9e
+  next_validation: 官方定价页或客户案例
+  market: ''
+  job: 开发者使用编码 agent 生成代码后，需要确保代码安全性，避免漏洞。
+  job_en: Developers using coding agents to generate code need to ensure code security and avoid vulnerabilities.
+  pain: AI 生成的代码可能包含安全漏洞，人工审查耗时且易遗漏。
+  pain_en: AI-generated code may contain security vulnerabilities; manual review is time-consuming and
+    error-prone.
+  current_alternative: 开发者通常依赖人工代码审查或独立的安全扫描工具，在开发流程外进行。
+  current_alternative_en: Developers typically rely on manual code review or standalone security scanning
+    tools outside the development flow.
+  usage_reason: 将安全测试嵌入编码 agent 可减少额外步骤，开发者可能采用，但付费意愿未验证。
+  usage_reason_en: Embedding security testing into coding agents reduces extra steps, so developers may
+    adopt it, but willingness to pay is unverified.

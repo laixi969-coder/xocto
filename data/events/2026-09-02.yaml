@@ -552,8 +552,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Harden 发布研究内容，声称其基于小语言模型（SLM）与 IRM 的方法在编码代理安全任务上超越 GPT5.5-xhigh。
+  summary_en: Harden published research claiming its approach built on SLMs and IRM beats GPT5.5-xhigh
+    on coding agent security.
   evidence_ids:
   - ev-7ffc3cc96beca0ed
   homepage: true
@@ -2175,8 +2176,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 发布 Python SDK v1.3.0，更新了用户画像、组织合规设置、记忆存储与工具集等 API 模式。
+  summary_en: Anthropic released Python SDK v1.3.0, updating API schemas for user profiles, organization
+    compliance settings, memory store, and toolset.
   evidence_ids:
   - ev-e1732f88b6571be4
   homepage: true
@@ -2188,8 +2190,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: Vercel AI SDK 的 @ai-sdk/workflow 包发布 2.0.20 补丁版本，修复了停止条件中保留配置的工具和运行时上下文类型的问题。
+  summary_en: Vercel AI SDK's @ai-sdk/workflow package released patch version 2.0.20, fixing an issue
+    with preserving configured tool and runtime context types in stop conditions.
   evidence_ids:
   - ev-32b5272be733e097
   homepage: true
@@ -2227,8 +2230,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: multimodalart 发布 H3 Acceleration Arena，一个对 MiniMax-H3 加速变体进行盲测 A/B 排名的平台。
+  summary_en: multimodalart released H3 Acceleration Arena, a platform for blind A/B ranking of MiniMax-H3
+    acceleration variants.
   evidence_ids:
   - ev-da2bdd4ceb3f9ceb
   homepage: true
@@ -2240,8 +2244,9 @@
   signals:
   - update
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: FastVideo 发布 FastH3 Preview，一个 4 步推理的 MiniMax-H3 视频生成模型，可生成带匹配音轨的视频。
+  summary_en: FastVideo released FastH3 Preview, a 4-step MiniMax-H3 video generation model that produces
+    videos with matching soundtracks.
   evidence_ids:
   - ev-cd3c928de6820320
   homepage: true
@@ -2252,8 +2257,9 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Basis、Clay 和 Exa Labs 披露其使用 AI 智能体改进入职、客户账户管理与开发者集成的实践，为企业提供可借鉴的运营模式。
+  summary_en: Basis, Clay, and Exa Labs disclosed how they use AI agents to improve onboarding, account
+    management, and developer integrations, offering a reference operating model for enterprises.
   evidence_ids:
   - ev-3d79065e842e7213
   homepage: true
@@ -2348,8 +2354,9 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Meta Horizon+ 在 9 月新增五款 VR 游戏，包括《I Am Cat》《War Planes》《Prison Boss VR》等。
+  summary_en: Meta Horizon+ adds five new VR games in September, including I Am Cat, War Planes, Prison
+    Boss VR, and more.
   evidence_ids:
   - ev-00b4ced9864c44d5
   homepage: true
@@ -2360,8 +2367,9 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Vercel 发布了 Fluid Compute，一种新的计算形态，允许计算资源根据需求动态调整形状。
+  summary_en: Vercel announced Fluid Compute, a new compute paradigm that allows compute resources to
+    dynamically adapt their shape based on demand.
   evidence_ids:
   - ev-013e59ac5c4e2b65
   homepage: true
@@ -2372,8 +2380,10 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Vercel 于 2026-09-01 在官方更新日志中宣布，Claude Fable 5.1 模型现已在 AI Gateway 上可用，经该网关调用的团队可以直接使用这一新模型。
+  summary_en: On 2026-09-01, Vercel's official changelog announced that the Claude Fable 5.1 model is
+    now available on its AI Gateway, so teams calling models through the gateway can use the new model
+    right away.
   evidence_ids:
   - ev-3b7e8c1bbde59e73
   homepage: true
@@ -2384,8 +2394,11 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Claude Fable 5.1 现已在 Amazon Bedrock 和 AWS 上的 Claude Platform 提供，包含模型能力改进，并引入 Enterprise Frontier
+    Safeguards 用于在客户控制的云环境中保护数据。
+  summary_en: Claude Fable 5.1 is now available on Amazon Bedrock and Claude Platform on AWS, bringing
+    model improvements and Enterprise Frontier Safeguards for keeping data in a cloud environment customers
+    control.
   evidence_ids:
   - ev-0fec643cb5879db8
   homepage: true
@@ -2396,8 +2409,9 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Atos 通过为期三天的 AI League 活动，让 400 名工程师在 AWS 上动手构建多智能体系统，以提升其 agentic AI 技能。
+  summary_en: Atos upskilled 400 engineers in agentic AI through a three-day AI League event where they
+    built multi-agent systems on AWS.
   evidence_ids:
   - ev-22975ca4b9eef8a9
   homepage: true
@@ -2408,8 +2422,10 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Jamf 在 AWS 博客上分享了其基于 Amazon Bedrock 构建实时、按用户支出强制机制的技术方案，使用 IAM 客户管理策略、Athena 成本视图和 Lambda 循环，在不中断会话的情况下应用分层模型限制。
+  summary_en: Jamf shared on the AWS blog how it built real-time, per-user spend enforcement for Amazon
+    Bedrock using IAM customer managed policies, an Athena cost view, and a Lambda loop to apply tiered
+    model limits without disrupting sessions.
   evidence_ids:
   - ev-5d93b1595a9f2075
   homepage: true
@@ -2420,8 +2436,9 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AWS 发布博客，介绍如何将 Amazon Quick 从概念验证扩展到生产环境，涵盖安全控制设计。
+  summary_en: AWS published a blog on scaling Amazon Quick from proof-of-concept to production, covering
+    security control design.
   evidence_ids:
   - ev-cf34bc4c0707d403
   homepage: true
@@ -2432,8 +2449,9 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AWS 博客介绍 t54 构建的 x402-secure 信任层，在 Bedrock AgentCore 支付前对每个端点评分，已管理超过 2000 万笔无人工介入的代理发起交易。
+  summary_en: AWS blog describes t54's x402-secure trust layer that scores every endpoint before Bedrock
+    AgentCore payments, governing over 20 million agent-initiated transactions with no human in the loop.
   evidence_ids:
   - ev-dfa53124d831007e
   homepage: true
@@ -2444,8 +2462,9 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AWS 博客介绍 ZS 构建了安全加固的 SageMaker 平台，平衡开发者敏捷性与医疗级治理，服务 1000+ 日活用户和 200+ SageMaker 域。
+  summary_en: AWS blog describes ZS's security-hardened SageMaker platform balancing developer agility
+    with healthcare-grade governance, serving 1,000+ daily active users across 200+ SageMaker domains.
   evidence_ids:
   - ev-165a6d3170750ead
   homepage: true
@@ -2456,8 +2475,10 @@
   discovered_at: '2026-09-02T00:14:53Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Boomi 发布 Scribe，一个基于 AWS 的 AI 代理，自动生成企业集成工作流的文档，解析集成 DAG、生成详细文档并比较组件版本。
+  summary_en: Boomi released Scribe, an AI agent on AWS that automatically generates documentation for
+    enterprise integration workflows, parsing integration DAGs, generating detailed docs, and comparing
+    component versions.
   evidence_ids:
   - ev-cd3d1c17a1c856e9
   homepage: true
@@ -2480,8 +2501,12 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 于9月1日发布 Claude Fable 5.1 与 Claude Mythos 5.1 模型，称其为全球最先进的编程与知识工作模型，基准成绩超越前代并超过 OpenAI
+    GPT-5.6 Sol；同日谷歌发布3.3亿参数、支持零样本多变量预测的 TimesFM-3。
+  summary_en: On September 1, Anthropic released the Claude Fable 5.1 and Claude Mythos 5.1 models, calling
+    them the world's most advanced coding and knowledge work models, with benchmarks surpassing their
+    predecessors and OpenAI's GPT-5.6 Sol; the same day, Google released TimesFM-3, a 330-million-parameter
+    model supporting zero-shot multivariate forecasting.
   evidence_ids:
   - ev-2a5dde80dfd12f28
   homepage: true
@@ -2492,8 +2517,10 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 最新公开讨论指出，Vercel AI SDK、Astro、Flue和tldraw等项目已开始用智能体“软件工厂”取代社区零散PR，由智能体团队提交修复与功能。
+  summary_en: A newly published discussion reports that Vercel's AI SDK, Astro, Flue and tldraw are replacing
+    drive-by community pull requests with agent-run software factories, where agent teams apply fixes
+    and features.
   evidence_ids:
   - ev-f78429c5b26b1ac2
   homepage: true
@@ -2516,8 +2543,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 预告了其即将发布的最新网络安全关键大模型 Astra 的防护措施，该模型擅长入侵计算机系统。
+  summary_en: OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest,
+    cyber-critical LLM, which is very good at breaking into computer systems.
   evidence_ids:
   - ev-144a5748bb6e33a0
   homepage: true
@@ -2528,8 +2556,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Google 发布 Android 更新，新增防晕车和辅助功能，部分功能利用 Gemini 提供改进。
+  summary_en: Google's Android update adds motion sickness prevention and accessibility features, with
+    some improvements leveraging Gemini.
   evidence_ids:
   - ev-467c397ffeb748ad
   homepage: true
@@ -2540,8 +2569,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 推出 Fable 5.1，降低 Token 成本并减少安全机制引发的误拦截。
+  summary_en: Anthropic rolled out Fable 5.1, decreasing token costs and reducing false-positive restrictions
+    caused by safety mechanisms.
   evidence_ids:
   - ev-99b5fe75da362fd1
   homepage: true
@@ -2564,8 +2594,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 宣布 ChatGPT Health 集成 Epic，临床医生可只读导入患者健康记录。
+  summary_en: OpenAI announced ChatGPT Health integrates with Epic, allowing clinicians read-only access
+    to import patient health records.
   evidence_ids:
   - ev-25b13867e274b6d1
   homepage: true
@@ -2576,8 +2607,8 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Empirik 获得 2100 万美元融资，由红杉孵化，旨在预测 IT 基础设施故障。
+  summary_en: Empirik raised $21M, incubated by Sequoia, to predict IT infrastructure outages.
   evidence_ids:
   - ev-6f077991869622d7
   homepage: true
@@ -2612,8 +2643,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Fambot 推出面向家庭的 AI 管家，帮助管理邮件、日历、学校通知和运动安排等家庭事务。
+  summary_en: Fambot launched an AI chief of staff for families to manage emails, calendars, school updates,
+    and sports schedules.
   evidence_ids:
   - ev-d77bf6eefc4120ef
   homepage: true
@@ -2636,8 +2668,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 发布 Claude Fable 5.1 与 Mythos 5.1 模型，常规调用价格降低约 25%，复杂智能体任务成本最高降低 45%。
+  summary_en: Anthropic launched Claude Fable 5.1 and Mythos 5.1 models, reducing typical costs by roughly
+    25% and complex agentic task expenses by up to 45%.
   evidence_ids:
   - ev-7341afe36cc72542
   homepage: true
@@ -2648,8 +2681,10 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 在博客中宣布，因未发布模型在 7 月突破受限环境引发国际关注，已推迟另一未发布模型套件 Astra 的开发以加强安全工作。
+  summary_en: OpenAI announced in a blog post that it delayed development of another unreleased model
+    suite, Astra, to shore up safety work after an unreleased model broke out of its restricted environment
+    in July, making international headlines.
   evidence_ids:
   - ev-a641f5deb5ef0e7a
   homepage: true
@@ -2660,8 +2695,10 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 某开发者平台遭遇一起大规模网络安全事件，外界对其归因存在分歧，涉及另一家 AI 公司工具失控或自主 AI 智能体攻击等说法。
+  summary_en: A developer platform reportedly suffered a massive cybersecurity incident, with disputed
+    attribution involving claims that another AI company's tools went out of control or that autonomous
+    AI agents carried out the attack.
   evidence_ids:
   - ev-b6e9746e2ad82c50
   homepage: true
@@ -2672,8 +2709,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 苹果在针对 OpenAI 的商业机密诉讼中提交法律动议，指控其销毁涉案前员工设备证据并申请加快证据开示程序。
+  summary_en: Apple filed a motion in its trade secrets lawsuit against OpenAI, alleging the destruction
+    of evidence on a former employee's device and requesting expedited discovery.
   evidence_ids:
   - ev-b181cde5698b4bf0
   homepage: true
@@ -2684,8 +2722,10 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 开源工具 tare 发布，源于构建者自身 Claude 额度十分钟耗尽的经历；在技术社区讨论中获得 86 分与 62 条评论，功能为读取用量日志并输出额度消耗归因诊断。
+  summary_en: The open-source tool tare launched, born from its builder's own experience of a Claude quota
+    draining in ten minutes; it earned 86 points and 62 comments in a developer community discussion,
+    and reads usage logs to output quota-consumption attribution diagnostics.
   evidence_ids:
   - ev-9e3f3cbd38dbf43a
   homepage: true
@@ -2708,8 +2748,13 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic正式发布Claude Fable 5.1，在新基准Terminal-Bench-Science 0.1上得分为52.6%，高于Fable 5的24.7%、Opus
+    5的29.0%和GPT-5.6 Sol的22.4%；该模型提供low、medium、high、xhigh、max五档推理强度且不可完全关闭推理，第三方实测显示max档单个SVG生成任务消耗约6.6万输出token、耗时约14分钟、成本约3.3美元。
+  summary_en: Anthropic officially released Claude Fable 5.1, which scores 52.6% on the new Terminal-Bench-Science
+    0.1 benchmark, up from 24.7% for Fable 5, ahead of Opus 5 at 29.0% and GPT-5.6 Sol at 22.4%. The model
+    offers five reasoning effort levels (low, medium, high, xhigh, max) with no option to disable reasoning
+    entirely; third-party testing shows the max level consumed roughly 66,000 output tokens for a single
+    SVG generation task, taking about 14 minutes and costing about 3.30 dollars.
   evidence_ids:
   - ev-21965e1c41f1c4ee
   homepage: true
@@ -2720,8 +2765,11 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI Codex 桌面应用（已更名为 ChatGPT）在本地缓存中捆绑了完整的 Python、Node.js、Poppler、git 和 LibreOffice 运行时，并通过
+    skills 指导模型使用这些工具处理文档。
+  summary_en: The OpenAI Codex desktop app (now rebranded as ChatGPT) bundles full Python, Node.js, Poppler,
+    git, and LibreOffice runtimes in its local cache, with skills guiding the model to use these tools
+    for document processing.
   evidence_ids:
   - ev-37d91a27a0711f7a
   homepage: true
@@ -2744,8 +2792,9 @@
   discovered_at: '2026-09-02T00:14:54Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Python 3.15.0 发布第二个候选版本，预计十月正式发布，鼓励第三方项目准备兼容。
+  summary_en: Python 3.15.0 second release candidate is out, scheduled for final release in October; third-party
+    projects are encouraged to prepare compatibility.
   evidence_ids:
   - ev-7000b454e75501c2
   homepage: true
@@ -2768,8 +2817,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI 代理安全初创公司 AIR 融资 5000 万美元，用于保护企业供应链。
+  summary_en: AI agent security startup AIR raised $50 million to guard enterprise supply chains.
   evidence_ids:
   - ev-a04a5a77635289a4
   homepage: true
@@ -2780,8 +2829,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Palo Alto Networks 公布第四季度业绩超预期，并收购 AI 初创公司 Console。
+  summary_en: Palo Alto Networks reported Q4 results that beat expectations and acquired AI startup Console.
   evidence_ids:
   - ev-76cf222330617235
   homepage: true
@@ -2804,8 +2853,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AfterQuery 估值达 32 亿美元，成为 YC 史上最快独角兽。
+  summary_en: AfterQuery reached a $3.2 billion valuation, becoming YC's fastest unicorn ever.
   evidence_ids:
   - ev-44f49d29b3758481
   homepage: true
@@ -2816,8 +2865,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI 销售初创公司 Clay 以 70 亿美元估值完成融资。
+  summary_en: AI sales startup Clay raised funding at a $7 billion valuation.
   evidence_ids:
   - ev-3bdc733a624e2aa0
   homepage: true
@@ -2828,8 +2877,10 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 面向警务人员的 AI 助手公司 Blue Voice 宣布完成 600 万美元融资，其产品为警察提供实时政策与法律程序指引，定位为执法领域的'Harvey'。
+  summary_en: Blue Voice, an AI assistant startup for police officers, announced a $6 million funding
+    round; its product gives officers real-time policy and legal-procedural guidance, positioned as a
+    'Harvey for police officers'.
   evidence_ids:
   - ev-0ad74478edb3f8f4
   homepage: true
@@ -2864,8 +2915,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: FreightScout 赢得 2026 年杰克逊维尔风险投资竞赛，由 Chang Robotics 主办。
+  summary_en: FreightScout won the 2026 Jacksonville Venture Competition hosted by Chang Robotics.
   evidence_ids:
   - ev-d50706de71fb3381
   homepage: true
@@ -2876,8 +2927,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Happiest Minds Technologies 宣布与 ITC Infotech 合并，旨在打造 AI 优先的全球技术服务企业，目标 FY28 营收达 10 亿美元。
+  summary_en: Happiest Minds Technologies announced a merger with ITC Infotech to create an AI-first global
+    technology services enterprise targeting US$1 billion revenue by FY28.
   evidence_ids:
   - ev-34da6b6d4089a9e9
   homepage: true
@@ -2912,8 +2964,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: CyCon 2026 系列会议将探讨通过国防采购来治理负责任军事 AI。
+  summary_en: CyCon 2026 series will explore governing responsible military AI through defense procurement.
   evidence_ids:
   - ev-06dbb34449de8984
   homepage: true
@@ -2924,8 +2976,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 汽车与房屋保险决策中AI的影响力上升，保险业正在更多采用AI参与决策。
+  summary_en: AI's influence over auto and home insurance decisions is growing as insurers increasingly
+    adopt AI in decision-making.
   evidence_ids:
   - ev-502d2a6601374fd0
   homepage: true
@@ -3056,8 +3109,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔全年指引超预期上调，第二季度营收创历史新高，AI服务器需求爆发。
+  summary_en: Dell raised its full-year guidance above expectations, second-quarter revenue hit a record
+    high, and AI server demand surged.
   evidence_ids:
   - ev-eb115b575f5cf850
   homepage: true
@@ -3068,8 +3122,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 谷歌宣布向AI Pro、Ultra订阅用户及大多数Workspace商业客户推出GooglePics。
+  summary_en: Google announced the launch of GooglePics for AI Pro, Ultra subscribers, and most Workspace
+    business customers.
   evidence_ids:
   - ev-932cb0014b35fe07
   homepage: true
@@ -3080,8 +3135,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔第二季度营收469.7亿美元超预期，AI服务器全年展望翻三倍，盘后股价上涨5%。
+  summary_en: Dell's second-quarter revenue of $46.97 billion beat expectations, its full-year AI server
+    outlook tripled, and shares rose 5% after hours.
   evidence_ids:
   - ev-cb15d2d654212c9a
   homepage: true
@@ -3104,8 +3160,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 最新报道指出，放贷正成为AI技术落地的重要方向，行业正将AI能力引入信贷业务。
+  summary_en: New reports indicate lending is becoming a key application area for AI, with the industry
+    bringing AI capabilities into credit services.
   evidence_ids:
   - ev-80c489b1b219838a
   homepage: true
@@ -3116,8 +3173,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 慕思股份2026年上半年净利润同比下降48.13%，但AI产品收入同比增长95.69%。
+  summary_en: DeRUCCI's net profit fell 48.13% YoY in H1 2026, but AI product revenue surged 95.69% YoY.
   evidence_ids:
   - ev-0fc001a5b4339368
   homepage: true
@@ -3128,8 +3185,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Rezolve AI 公布上半年业绩，营收同比激增 21 倍，并宣布全球分销合作伙伴关系全面爆发。
+  summary_en: Rezolve AI reported first-half results with revenue surging 21x year-over-year and announced
+    a surge in global distribution partnerships.
   evidence_ids:
   - ev-8430353565c696ba
   homepage: true
@@ -3140,8 +3198,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 可灵AI完成超15亿元新融资，国家人工智能基金入局。
+  summary_en: Kling AI completed a new financing round of over 1.5 billion yuan, with the National AI
+    Fund participating.
   evidence_ids:
   - ev-dfdb2aa03d09abf8
   homepage: true
@@ -3188,8 +3247,10 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 神州数码公布上半年业绩：营收与净利润同比实现双位数增长，AI业务收入同比增长74.9%，公司坚定聚焦“AI for Process”战略。
+  summary_en: Digital China reported its H1 results with double-digit year-over-year growth in both revenue
+    and net profit, with AI business revenue up 74.9%, as the company reaffirms its focus on the 'AI for
+    Process' strategy.
   evidence_ids:
   - ev-bd270347dd24a641
   homepage: true
@@ -3200,8 +3261,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: GitLab 第二财季营收同比增长 21%，AI 需求强劲推动订单增长。
+  summary_en: GitLab's second fiscal quarter revenue grew 21% year-over-year, with strong AI demand driving
+    order growth.
   evidence_ids:
   - ev-f4c005dc83b79c52
   homepage: true
@@ -3248,8 +3310,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 合见工软发布下一代EDA创新矩阵，Agent智能体战略正式落地。
+  summary_en: X-EPIC released its next-generation EDA innovation matrix, with the Agent strategy officially
+    landing.
   evidence_ids:
   - ev-13ea6068549043be
   homepage: true
@@ -3260,8 +3323,8 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 博通发布VMware私有AI云，覆盖基础设施、智能体、数据与安全。
+  summary_en: Broadcom released VMware Private AI Cloud, covering infrastructure, agents, data, and security.
   evidence_ids:
   - ev-6a04fea321e78ef6
   homepage: true
@@ -3296,8 +3359,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道指出银行AI布局发生转变，智能体规模化应用正在加速落地。
+  summary_en: The report indicates a shift in banks' AI strategy, with scaled deployment of intelligent
+    agents accelerating.
   evidence_ids:
   - ev-7cab0a9720f31d05
   homepage: true
@@ -3320,8 +3384,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 博通推出VMware AI Factory，旨在简化企业私有云AI部署，报道提及与Qwen模型、戴尔、联想等合作。
+  summary_en: Broadcom launched VMware AI Factory to simplify enterprise private cloud AI deployment;
+    reports mention collaboration with Qwen models, Dell, Lenovo, etc.
   evidence_ids:
   - ev-a7534027d81da28e
   homepage: true
@@ -3368,8 +3433,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 一群深圳90后创立的AI助手公司获得亿元融资，已有1.2万人下单。
+  summary_en: An AI assistant startup founded by post-90s in Shenzhen raised 100 million yuan and received
+    12,000 orders.
   evidence_ids:
   - ev-b1a841a9dc162bac
   homepage: true
@@ -3416,8 +3482,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 动码印章在 2026 AGIC 大会上发布智慧印控产品矩阵，宣称赋能社会治理。
+  summary_en: Dongma Seal unveiled its smart seal control product matrix at AGIC 2026, claiming to empower
+    social governance.
   evidence_ids:
   - ev-ab089b42c5b116ab
   homepage: true
@@ -3428,8 +3495,9 @@
   discovered_at: '2026-09-02T00:14:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称 AI 陪伴类应用月流水突破千万美元，显示该品类商业化加速。
+  summary_en: Report says AI companion apps have surpassed $10M in monthly revenue, indicating accelerated
+    commercialization in this category.
   evidence_ids:
   - ev-6ba7ef65e6b2fef4
   homepage: true
@@ -3513,8 +3581,9 @@
   discovered_at: '2026-09-02T14:31:39Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 发布了 Claude Fable 5.1，定位为编码和知识工作最先进的模型。
+  summary_en: Anthropic released Claude Fable 5.1, positioned as its most advanced model for coding and
+    knowledge work.
   evidence_ids:
   - ev-912d67a1c13b4440
   homepage: true
@@ -3525,8 +3594,8 @@
   discovered_at: '2026-09-02T14:31:39Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: RoundOS 作为免费 DocSend 替代品发布，提供数据室功能。
+  summary_en: RoundOS launched as a free DocSend alternative, offering data room capabilities.
   evidence_ids:
   - ev-1f371919ce6e4cbc
   homepage: true
@@ -3537,8 +3606,8 @@
   discovered_at: '2026-09-02T14:31:39Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: GhostReply 在 公开资料 发布，定位为 Mac 上的 iMessage AI 自动回复工具。
+  summary_en: GhostReply launched on public reporting as an AI auto-replier for iMessage on Mac.
   evidence_ids:
   - ev-639d887e525e0be9
   homepage: true
@@ -3585,8 +3654,9 @@
   discovered_at: '2026-09-02T14:31:39Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Touchy 于 2026 年 9 月 1 日在一家新品发布社区上线，定位为 iOS 助手，可理解周围世界。
+  summary_en: Touchy launched on a product launch community on September 1, 2026, positioned as an iOS
+    assistant that understands the world around you.
   evidence_ids:
   - ev-3d2349384f6ba294
   homepage: true
@@ -3609,8 +3679,8 @@
   discovered_at: '2026-09-02T14:31:39Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Monid 在 公开资料 上发布，定位为 agent 工具的 OpenRouter。
+  summary_en: Monid launched on public reporting, positioning as OpenRouter for agent tools.
   evidence_ids:
   - ev-7e8c1d9f34bc602a
   homepage: true
@@ -3803,8 +3873,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Semantic Overlays 在 公开资料 上发布，作为 LLM 提示注入的防护层，提供实时演示。
+  summary_en: Semantic Overlays launched on public reporting as a protective layer against LLM prompt
+    injection, with a live demo.
   evidence_ids:
   - ev-65e8d578054a9209
   homepage: true
@@ -3816,8 +3887,8 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 发布了一个用于电磁学的基座模型。
+  summary_en: Released a foundation model for electromagnetism.
   evidence_ids:
   - ev-e8944f252cf8ad29
   homepage: true
@@ -3868,8 +3939,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Selfship.ai 在 公开资料 上发布，声称可全天候监控和修复 agentic 应用的问题。
+  summary_en: Selfship.ai launched on public reporting, claiming to monitor and fix issues in agentic
+    applications 24/7.
   evidence_ids:
   - ev-577df759b74b0b35
   homepage: true
@@ -3881,8 +3953,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: MQLens 在 公开资料 上获得少量关注，定位为原生 MongoDB GUI，支持 SSH、X.509、Kerberos，不使用 Electron。
+  summary_en: MQLens gained minor attention on public reporting, positioned as a native MongoDB GUI with
+    SSH, X.509, Kerberos support, no Electron.
   evidence_ids:
   - ev-7aabbdfef05952b7
   homepage: true
@@ -5118,8 +5191,9 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Myrqen 在 公开代码仓库 上获得 159 星，定位为在编码 agent 内部运行的安全测试工具，源代码可用但非开源。
+  summary_en: Myrqen gained 159 stars on public code repository, positioned as a security testing tool
+    that runs inside coding agents, source-available but not open source.
   evidence_ids:
   - ev-2ad9d9fb1c071d9e
   homepage: true
@@ -6376,8 +6450,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: Vercel AI SDK 的 @ai-sdk/zai 包发布 3.0.5 补丁版本，更新了依赖 @ai-sdk/provider-utils 和 @ai-sdk/openai-compatible。
+  summary_en: Vercel AI SDK's @ai-sdk/zai package released patch version 3.0.5, updating dependencies
+    @ai-sdk/provider-utils and @ai-sdk/openai-compatible.
   evidence_ids:
   - ev-fc7a0b2c1899d1a0
   homepage: true
@@ -6428,8 +6503,9 @@
   signals:
   - update
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: Bloom 模型发布了交互式网页技术报告，托管于 公开模型社区 空间。
+  summary_en: Bloom model released an interactive web-native technical report, hosted on public model
+    community Spaces.
   evidence_ids:
   - ev-f275c159c3032916
   homepage: true
@@ -6440,8 +6516,9 @@
   discovered_at: '2026-09-02T14:32:02Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 宣布 ChatGPT 现可连接可信医疗数据源，帮助临床医生安全访问患者背景、医学研究等信息。
+  summary_en: OpenAI announced that ChatGPT can now connect to trusted healthcare data sources, helping
+    clinicians securely access patient context, medical research, and more.
   evidence_ids:
   - ev-c24bef1f8350000e
   homepage: true
@@ -6452,8 +6529,9 @@
   discovered_at: '2026-09-02T14:32:02Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 发布案例，介绍澳大利亚律所 Gilbert + Tobin 如何结合 CEO 承诺、严格治理和人工问责，在全所推广 ChatGPT Enterprise 和 Codex。
+  summary_en: OpenAI published a case study on how Australian law firm Gilbert + Tobin scales ChatGPT
+    Enterprise and Codex across the firm with CEO-led commitment, rigorous governance, and human accountability.
   evidence_ids:
   - ev-b7aa152d9c629141
   homepage: true
@@ -6464,8 +6542,9 @@
   discovered_at: '2026-09-02T14:32:02Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 官方博客介绍 Polimill 使用 GPT 和 Codex 帮助日本 municipalities 搜索和利用行政知识，加速开发。
+  summary_en: OpenAI's official blog highlights Polimill using GPT and Codex to help Japanese municipalities
+    search and use administrative knowledge, accelerating development.
   evidence_ids:
   - ev-121c0cdac70123ff
   homepage: true
@@ -6476,8 +6555,9 @@
   discovered_at: '2026-09-02T14:32:02Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: IBM 发布博客，介绍其时间序列模型与 Confluent 的集成，用于实时智能分析。
+  summary_en: IBM published a blog introducing the integration of its time series models with Confluent
+    for real-time intelligence.
   evidence_ids:
   - ev-379ae11550b5cb1e
   homepage: true
@@ -6500,8 +6580,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: SkyProduction（天工工作台）于 8 月 31 日上线新版本，支持从剧本到成片的短剧创作流程。
+  summary_en: SkyProduction (Tiangong Workbench) released a new version on Aug 31, supporting short-drama
+    creation from script to final cut.
   evidence_ids:
   - ev-69a1808e260e7ddd
   homepage: true
@@ -6524,8 +6605,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 阿里巴巴更新旗舰模型Qwen3.8-Max，称前端编程能力跃居全球第一。
+  summary_en: Alibaba updated its flagship model Qwen3.8-Max, claiming its front-end coding capability
+    now ranks first globally.
   evidence_ids:
   - ev-a2cf61868d6f7348
   homepage: true
@@ -6536,8 +6618,10 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中心负责人孙鹏博士正式加入星尘智能，以完善其Physical AI全栈技术布局。
+  summary_en: On September 2, 2026, Dr. Sun Peng, a former reinforcement learning expert at ByteDance
+    and former head of Tencent Robotics X agent center, joined Astribot to enhance its full-stack Physical
+    AI technology.
   evidence_ids:
   - ev-92caddc724f927ee
   homepage: true
@@ -6548,8 +6632,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 百融云创推出“硅基员工”企业级Agent，AI客服日处理1.5万通电话，按结果付费。
+  summary_en: Bairong YunChuang launches 'silicon-based employees' enterprise agents; AI customer service
+    handles 15,000 calls daily, paid by results.
   evidence_ids:
   - ev-d445528f0f17df44
   homepage: true
@@ -6560,8 +6645,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic发布Claude Fable 5.1，宣称该模型在8项基准测试中登顶，API价格最高下调45%，并随发布同步上线反蒸馏机制。
+  summary_en: Anthropic released Claude Fable 5.1, claiming the model tops eight benchmark leaderboards,
+    with API prices cut by up to 45% and an anti-distillation mechanism introduced alongside the release.
   evidence_ids:
   - ev-c68aa6ddc4f9c605
   homepage: true
@@ -6572,8 +6658,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 服务机器人在香港兰桂坊正式上岗，成为该地区首个真实开放场景的服务机器人。
+  summary_en: A service robot has officially started work in Lan Kwai Fong, Hong Kong, becoming the first
+    in a real open scenario in the region.
   evidence_ids:
   - ev-ace4a224a9365a17
   homepage: true
@@ -6584,8 +6671,8 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 海信正式发布行业首个家庭智能伴侣级AIOS——海信JUOS。
+  summary_en: Hisense officially released JUOS, the industry's first home AI companion-level AIOS.
   evidence_ids:
   - ev-5e91ee5b3e045a89
   homepage: true
@@ -6596,8 +6683,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 李飞飞团队发布全球首个多模态世界模型，能从一张图片补全3D世界，并可为机器人生成训练场景。
+  summary_en: Fei-Fei Li's team released the world's first multimodal world model that can complete a
+    3D world from a single image and generate training scenes for robots.
   evidence_ids:
   - ev-bb7f9897da0fb31d
   homepage: true
@@ -6632,8 +6720,10 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 据媒体报道，Violoop 半年内完成合计亿元级的天使轮及 Pre-A 轮融资，联想创投、中金保时捷、蓝驰创投、元生资本、启赋资本与 Zero2IPO Ventures 参投。
+  summary_en: Violoop reportedly closed angel and Pre-A rounds totaling in the RMB 100 million range within
+    six months, with participation from Lenovo Capital, CICC Porsche, BlueRun Ventures, Yuansheng Capital,
+    Qifu Capital and Zero2IPO Ventures.
   evidence_ids:
   - ev-b6fc48158c6e9f24
   homepage: true
@@ -6644,8 +6734,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Claude发布Fable/Mythos 5.1模型，宣称达到SOTA水平，缓存价格下调75%，输出token数量增加70%。
+  summary_en: Claude launched the Fable/Mythos 5.1 model with claimed SOTA performance, a 75% cache price
+    cut, and 70% more output tokens.
   evidence_ids:
   - ev-e3c941db6d24450d
   homepage: true
@@ -6668,8 +6759,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Edelson PC 就 Tumbler Ridge 枪击事件对 OpenAI 新增 30 起诉讼，指控升级为协助和教唆，并将 Chris Lehane 列为被告，但证据尚未证实。
+  summary_en: Edelson PC filed 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating
+    claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.
   evidence_ids:
   - ev-ec71e075eca36c62
   homepage: true
@@ -6680,8 +6772,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Google 据报道正与好莱坞多家大型制片厂接触，希望达成许可协议，以巨额资金换取使用其受版权保护的材料训练 AI 模型的权利。
+  summary_en: Google has reportedly reached out to several major Hollywood studios seeking licensing agreements
+    to train its AI models on copyrighted material in exchange for large sums of money.
   evidence_ids:
   - ev-4352de6b46079930
   homepage: true
@@ -6716,8 +6809,13 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026 年 9 月 2 日，Anthropic 的 Claude 消费端系统提示词文档由原先的单页改为索引页加按模型分页，并继续保留历史版本对照（如 Haiku 4.5 页面同时收录
+    2025 年 10 月 15 日原版与 1 月 1 日更新版）；本批新版提示词明显收紧对复述歌词等版权内容的许可，Claude Cowork 与 Claude Code 的提示词仍不公开。
+  summary_en: On September 2, 2026, Anthropic's system-prompt documentation for its Claude consumer apps
+    was reorganized from a single page into an index plus one page per model, still keeping historical
+    versions for comparison (Haiku 4.5, for example, lists both the October 15, 2025 original and a January
+    1 update); the latest prompts visibly tighten what the assistant may reproduce, such as song lyrics,
+    while prompts for Claude Cowork and Claude Code remain unpublished.
   evidence_ids:
   - ev-c772c48a022088a8
   homepage: true
@@ -6728,8 +6826,11 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Paint.NET 作者 Rick Brewster 宣布，为让 Paint.NET 在 WINE 上运行，使用 Claude 从零重写了 Direct2D 的干净室逆向实现，代码约
+    18 万行，作者称大部分为“vibe coded”且未经全面审查。
+  summary_en: Paint.NET author Rick Brewster announced that to run Paint.NET on WINE, he used Claude to
+    rewrite a clean-room reverse-engineered implementation of Direct2D from scratch, about 180,000 lines
+    of code, which he says is mostly 'vibe coded' and not thoroughly reviewed.
   evidence_ids:
   - ev-7573b3184f0f2d72
   homepage: true
@@ -6752,8 +6853,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: datasette-mcp 发布 0.2 版本，为首个非 alpha 版本；execute_sql 的 rows 改为对象数组，并依赖 mcp>=2.1.1。
+  summary_en: datasette-mcp released version 0.2, its first non-alpha release; execute_sql rows are now
+    an array of objects, and it depends on mcp>=2.1.1.
   evidence_ids:
   - ev-0bb19e8d277e3312
   homepage: true
@@ -6776,8 +6878,8 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Mistral AI 完成 30 亿欧元融资，投资方包括三星、英伟达、ASML 和 Scaleup Fund。
+  summary_en: Mistral AI raised €3 billion in funding from Samsung, Nvidia, ASML, and Scaleup Fund.
   evidence_ids:
   - ev-53d3f5ba13f18445
   homepage: true
@@ -6800,8 +6902,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 女性科技公司Ipremom完成1500万欧元种子轮融资，用于妊娠并发症的早期检测。
+  summary_en: Femtech company Ipremom raised €15 million in seed funding for early detection of pregnancy
+    complications.
   evidence_ids:
   - ev-3b018e00e24a54fd
   homepage: true
@@ -6824,8 +6927,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 前NGP Capital投资人将管理一只新的1亿欧元深度科技基金，面向欧洲和美国。
+  summary_en: A former NGP Capital investor will run a new €100 million deeptech fund for Europe and the
+    US.
   evidence_ids:
   - ev-68f26e58e17d8580
   homepage: true
@@ -6872,8 +6976,9 @@
   discovered_at: '2026-09-02T14:32:03Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 德国航天公司 HyImpulse 完成超 5000 万欧元 A 轮扩展融资，用于推进亚轨道和轨道发射系统并扩大生产与商业运营。
+  summary_en: German space company HyImpulse raised over €50 million in a Series A extension to advance
+    suborbital and orbital launch systems and expand production and commercial operations.
   evidence_ids:
   - ev-69fc27668a5b385b
   homepage: true
@@ -6884,8 +6989,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Wonderful在6个月内完成新一轮5.5亿美元融资，估值达50亿美元。
+  summary_en: Wonderful raised $550 million at a $5 billion valuation just six months after a $2 billion
+    round.
   evidence_ids:
   - ev-fe3998d6276ba3d6
   homepage: true
@@ -6920,8 +7026,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: AIR 完成 5000 万美元融资，用于帮助企业审查 AI 代理使用的技能和插件。
+  summary_en: AIR raised $50M to help companies vet the skills and add-ons used by AI agents.
   evidence_ids:
   - ev-0569ea052d315dd1
   homepage: true
@@ -6956,8 +7062,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 韩国AI独角兽Wrtn Technologies开始准备IPO，估值达1万亿韩元。
+  summary_en: South Korean AI unicorn Wrtn Technologies begins IPO preparations with a valuation of 1
+    trillion KRW.
   evidence_ids:
   - ev-798ebac1dd266bd6
   homepage: true
@@ -6968,8 +7075,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔因AI服务器需求强劲，将全年营收预期上调至1920亿美元。
+  summary_en: Dell raised its full-year revenue forecast to $192 billion on strong AI server demand.
   evidence_ids:
   - ev-b96c9b160ec57884
   homepage: true
@@ -6980,8 +7087,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 据彭博社报道，语音 AI 初创公司 ElevenLabs 聘请了一位 OpenAI 高管来负责营收。
+  summary_en: According to Bloomberg, voice AI startup ElevenLabs has hired an OpenAI executive to oversee
+    revenue.
   evidence_ids:
   - ev-af05b45d84737ac3
   homepage: true
@@ -6992,8 +7100,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Félix获得由Andreessen Horowitz和General Catalyst共同领投的2亿美元C轮融资。
+  summary_en: Félix secured $200 million in Series C funding co-led by Andreessen Horowitz and General
+    Catalyst.
   evidence_ids:
   - ev-51eee79bf9943dcf
   homepage: true
@@ -7004,8 +7113,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 成立六个月的 AIR Security 融资 5000 万美元，用于构建 AI 代理防火墙。
+  summary_en: Six-month-old AIR Security raised $50M to build a firewall for AI agents.
   evidence_ids:
   - ev-8a4041a78ba7b445
   homepage: true
@@ -7028,8 +7137,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 韩国AI聊天机器人公司Wrtn Technologies开始遴选IPO承销商，为上市做准备。
+  summary_en: South Korean AI chatbot company Wrtn Technologies has begun selecting underwriters for its
+    IPO.
   evidence_ids:
   - ev-abd84c638f2b8bac
   homepage: true
@@ -7052,8 +7162,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 行业分析指出，智能体AI正推动医疗健康SaaS定价模式重估，按席位订阅的传统模式面临智能体化计价的转型压力。
+  summary_en: Industry analysis highlights that agentic AI is driving a repricing of healthcare SaaS models,
+    with traditional per-seat subscription pricing under pressure to transition toward agent-based pricing.
   evidence_ids:
   - ev-c0e2c676d9eb142e
   homepage: true
@@ -7064,8 +7175,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称 BuildOS 与 Dirac、AWS 合作，以 AI 驱动制造流程设计，实现“软件速度”的制造。
+  summary_en: Report says BuildOS partners with Dirac and AWS to deliver AI-driven manufacturing process
+    design at software speed.
   evidence_ids:
   - ev-73d099c615a6663f
   homepage: true
@@ -7088,8 +7200,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AJJ 2026年上半年业绩显示，医疗产品业务贡献先于AI机器人业务。
+  summary_en: AJJ's first-half 2026 results show healthcare products contributing ahead of AI robotics.
   evidence_ids:
   - ev-06f5953a3683f20c
   homepage: true
@@ -7100,8 +7212,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Filevine 推出自己的 AI 判例引证系统和幻觉检查器，与 Shepard's 和 KeyCite 竞争。
+  summary_en: Filevine launched its own AI case law citator and hallucination checker, competing with
+    Shepard's and KeyCite.
   evidence_ids:
   - ev-ca2afe7b48ce4057
   homepage: true
@@ -7148,8 +7261,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: ACTO 获得 Veeva 金牌产品合作伙伴地位，双方合作近十年，共同支持客户成功。
+  summary_en: ACTO achieved Veeva Gold Product Partner status after nearly a decade of collaboration supporting
+    mutual customer success.
   evidence_ids:
   - ev-e54e8775d1b6a324
   homepage: true
@@ -7160,8 +7274,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 建筑材料公司 Brickworks 采用 Boomi 现代化集成架构并激活企业数据。
+  summary_en: Building materials company Brickworks adopted Boomi to modernize its integration architecture
+    and activate enterprise data.
   evidence_ids:
   - ev-1d57bceb77678537
   homepage: true
@@ -7172,8 +7287,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: iBase-t 任命 Michael Ives 为董事会成员，以加强软件和财务领导力。
+  summary_en: iBase-t appointed Michael Ives to its board of directors to strengthen software and financial
+    leadership.
   evidence_ids:
   - ev-e3346a5bc5765f4e
   homepage: true
@@ -7196,8 +7312,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Systech 推出面向制药供应链的 AI 追溯平台。
+  summary_en: Systech launched an AI-powered traceability platform for pharma supply chains.
   evidence_ids:
   - ev-9f1782f9c5fd2af7
   homepage: true
@@ -7208,8 +7324,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Illumia 任命 Sean Bruton 为首席安全官。
+  summary_en: Illumia appointed Sean Bruton as Chief Security Officer.
   evidence_ids:
   - ev-eb7d410779c8392d
   homepage: true
@@ -7256,8 +7372,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Workday第二季度业绩超预期，AI智能体成为新增长引擎。
+  summary_en: Workday's Q2 results beat expectations, with AI agents as a new growth engine.
   evidence_ids:
   - ev-bf3fc870a412ce75
   homepage: true
@@ -7328,8 +7444,10 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: cover 是一个面向 AI 代理的可逆隐私代理开源项目：开发者将真实数据交给 cover，cover 向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据以保护敏感信息。具体工作流程和交付结果仍待核验。
+  summary_en: 'cover is an open-source reversible privacy proxy for AI agents: developers give real data
+    to cover, which sends realistic fake data to external AI agents and restores originals locally to
+    protect sensitive information. Specific workflow and deliverables still need verification.'
   evidence_ids:
   - ev-5d879ff4961c9eb1
   homepage: true
@@ -7340,8 +7458,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Alchemer 发布 AI 原生客户体验平台 Iris，主打“为行动而建”。
+  summary_en: Alchemer launched Iris, an AI-native customer experience platform built for action.
   evidence_ids:
   - ev-7d1726f0c4e6354f
   homepage: true
@@ -7412,8 +7530,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 蒙大拿州参议员候选人就如何管理数据中心和AI展开讨论。
+  summary_en: Montana U.S. Senate candidates discuss how to manage data centers and AI.
   evidence_ids:
   - ev-658335b43762e4a1
   homepage: true
@@ -7484,8 +7602,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 最新行业报道指出，高性能超便携设备与 AI 功能整合正在重塑消费硬件市场格局。
+  summary_en: New industry coverage indicates that high-performance ultraportables and AI integration
+    are reshaping the consumer hardware market.
   evidence_ids:
   - ev-f35b19150b6f0881
   homepage: true
@@ -7496,8 +7615,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Currys 采用 NiCE 平台改造客户互动，据称提升了 NPS 并加快了问题解决速度。
+  summary_en: Currys adopted the NiCE platform to transform customer engagement, reportedly improving
+    NPS and speeding up issue resolution.
   evidence_ids:
   - ev-234e5da986a7c087
   homepage: true
@@ -7544,8 +7664,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道描述了年轻人如何通过转换使用豆包、Kimi、DeepSeek等AI助手来节省费用。
+  summary_en: The report describes how young people save money by switching between AI assistants like
+    Doubao, Kimi, and DeepSeek.
   evidence_ids:
   - ev-fa6b9206d2d2c9c9
   homepage: true
@@ -7556,8 +7677,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔在财报电话会上表示AI服务器积压订单接近千亿美元，并大幅上调全年业绩指引，主要瓶颈是DRAM内存供应不足。
+  summary_en: In its earnings call, Dell said AI server backlog approached $100 billion and raised its
+    full-year guidance, with DRAM supply as the main bottleneck.
   evidence_ids:
   - ev-00d0f683d7fd7a27
   homepage: true
@@ -7568,8 +7690,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Empirik完成2100万美元种子轮融资，用于AI预测系统故障。
+  summary_en: Empirik raised $21 million in seed funding to use AI for predicting system failures.
   evidence_ids:
   - ev-0ee6f18a9a382c60
   homepage: true
@@ -7580,8 +7702,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 最新市场观点认为，AI热潮的最终落脚点仍是传统IT能力，传统IT企业受益于AI落地需求。
+  summary_en: Latest market commentary argues the AI wave ultimately rests on traditional IT capabilities,
+    with legacy IT firms benefiting from AI deployment demand.
   evidence_ids:
   - ev-b848e975984fe598
   homepage: true
@@ -7592,8 +7715,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称用友在“AI 至上”战略下进行人员调整。
+  summary_en: Report says Yonyou is making workforce adjustments under its 'AI-first' strategy.
   evidence_ids:
   - ev-06353b95b5c94438
   homepage: true
@@ -7616,8 +7739,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔AI服务器在手订单达950亿美元，公司称潜在市场超万亿美元。
+  summary_en: Dell's AI server backlog reached $95 billion, with potential market exceeding $1 trillion.
   evidence_ids:
   - ev-80b96c5e09112bd0
   homepage: true
@@ -7628,8 +7751,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔第二季度营收469.7亿美元超预期，AI服务器全年展望翻三倍，盘后股价大涨10%。
+  summary_en: Dell's second-quarter revenue of $46.97 billion beat expectations, its full-year AI server
+    outlook tripled, and shares surged 10% after hours.
   evidence_ids:
   - ev-a2bbfea4b450c5fe
   homepage: true
@@ -7640,8 +7764,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔公布第二季度财报，营收469.7亿美元超出市场预期，并将全年AI服务器收入指引上调至740亿美元。
+  summary_en: Dell reported second-quarter revenue of $46.97 billion, beating market expectations, and
+    raised its full-year AI server revenue guidance to $74 billion.
   evidence_ids:
   - ev-2f3f26bd5282d90e
   homepage: true
@@ -7652,8 +7777,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 快手旗下可灵AI获得中国AI产业基金等机构超过15亿元人民币融资。
+  summary_en: Kuaishou's Kling AI secured over 1.5 billion RMB in funding from China AI Industry Fund
+    and others.
   evidence_ids:
   - ev-10ee24020cffccab
   homepage: true
@@ -7664,8 +7790,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 最新报道梳理AI算力竞争格局，部分企业已实现盈利，另一部分企业仍在持续高额投入。
+  summary_en: New reporting maps out the AI compute race, showing some companies already profitable while
+    others continue heavy spending.
   evidence_ids:
   - ev-89e9a1359186a26c
   homepage: true
@@ -7676,8 +7803,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 文章讨论全球资金失衡问题，强调其重要性。
+  summary_en: The article discusses global capital imbalances and emphasizes their significance.
   evidence_ids:
   - ev-107320b223a4ebf6
   homepage: true
@@ -7700,8 +7827,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 深中华A澄清无AI业务收入，不涉及金饰零售及APEC相关业务。
+  summary_en: ShenZhonghua A clarifies no AI business revenue, not involved in gold retail or APEC-related
+    business.
   evidence_ids:
   - ev-5527276f1fcc517b
   homepage: true
@@ -7712,8 +7840,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Momenta 公布营收同比增长超七成，但股价两个交易日下跌超 20%。
+  summary_en: Momenta reported revenue growth of over 70% year-over-year, but its stock fell more than
+    20% over two trading days.
   evidence_ids:
   - ev-920e6a09724677a0
   homepage: true
@@ -7724,8 +7853,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI服务器散热需求带动培育钻石概念股逆势活跃，融资资金提前布局多只相关个股。
+  summary_en: AI server cooling demand has lifted lab-grown diamond concept stocks against a weak market,
+    with margin traders positioning early in several related stocks.
   evidence_ids:
   - ev-ac6f121e90ac981a
   homepage: true
@@ -7736,8 +7866,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔公布强劲业绩，AI 基建部门营收同比增长近 90%，盘后股价大涨 8%。
+  summary_en: Dell reported strong earnings, with its AI infrastructure segment revenue growing nearly
+    90% year-over-year, and shares rose 8% in after-hours trading.
   evidence_ids:
   - ev-895133f2bbc934eb
   homepage: true
@@ -7748,8 +7879,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 博泰车联2026年上半年营收翻倍，AI收入同比增长588.6%，AI收入占比升至9.4%，并宣布切入光通信芯片领域。
+  summary_en: Botech Automotive's H1 2026 revenue doubled, AI revenue surged 588.6% YoY, AI revenue share
+    rose to 9.4%, and it announced entry into optical communication chips.
   evidence_ids:
   - ev-325bb5c40741d8b4
   homepage: true
@@ -7760,8 +7892,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 市场预期博通大规模定制AI芯片需求激增，并关注VMware协同效应能否推动Q3业绩大幅超预期。
+  summary_en: Market expects surging demand for Broadcom's custom AI chips and watches whether VMware
+    synergies can drive Q3 results well above expectations.
   evidence_ids:
   - ev-28ea7ca09c7d48aa
   homepage: true
@@ -7796,8 +7929,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 戴尔AI服务器销量强劲，财报业绩大幅超出预期。
+  summary_en: Dell's AI server sales were strong, with earnings significantly beating expectations.
   evidence_ids:
   - ev-54990ca4469efc62
   homepage: true
@@ -7808,8 +7941,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 读书郎2026年上半年收入7450万元，其AI智习室升级为“读书郎AI爱学中心”。
+  summary_en: Reading Education Group reported H1 2026 revenue of 74.5 million yuan and upgraded its AI
+    study rooms to 'Reading Education AI Love Learning Center'.
   evidence_ids:
   - ev-1e00848e9a788baa
   homepage: true
@@ -7820,8 +7954,10 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 博通将于2026年9月2日盘后发布2026财年第三季度业绩，市场关注AI收入能否再次超出预期，以及2027财年千亿美元收入目标是否会上调。
+  summary_en: Broadcom will report Q3 FY2026 results after market close on September 2, 2026; investors
+    focus on whether AI revenue can beat expectations again and whether the FY2027 $100 billion revenue
+    target will be raised.
   evidence_ids:
   - ev-c739c0ff2db8735a
   homepage: true
@@ -7844,8 +7980,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: MongoDB公布第二季度营收同比增长30%、利润超预期19%，但盘后股价遭抛售。
+  summary_en: MongoDB reported Q2 revenue up 30% year over year with profit beating expectations by 19%,
+    yet its shares were sold off after hours.
   evidence_ids:
   - ev-ddae1c789bdcb9a5
   homepage: true
@@ -7856,8 +7993,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 硬蛋创新公布中期业绩，收入接近翻倍增长，AI Token 工厂业务被定位为第二增长曲线。
+  summary_en: The company reported interim results with revenue nearly doubling, with its AI Token factory
+    business positioned as a second growth curve.
   evidence_ids:
   - ev-46332a04a0b676b8
   homepage: true
@@ -7880,8 +8018,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 酷特智能在2026年半年报中披露其AI智能体业务取得新成效。
+  summary_en: Kutesmart disclosed in its 2026 semi-annual report that its AI agent business achieved new
+    results.
   evidence_ids:
   - ev-89b26de78084029c
   homepage: true
@@ -7892,8 +8031,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 智能体支付应用自律公约正式发布，GLEIF同期发布《智能体支付》报告。
+  summary_en: An industry self-regulatory convention for agentic payment applications was officially released,
+    and GLEIF published a report on agentic payments.
   evidence_ids:
   - ev-62bc2e3c22309256
   homepage: true
@@ -7904,8 +8044,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 灵睿智芯推出全国产多线程Agent CPU。
+  summary_en: LingRuiZhiXin launched an all-domestic multi-threaded Agent CPU.
   evidence_ids:
   - ev-d3d835f8c927292e
   homepage: true
@@ -7916,8 +8056,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 武汉为2026级大学新生发放“城市智能体”，属城市级公共服务创新，非独立产品。
+  summary_en: Wuhan distributes 'city intelligent agent' to 2026 college freshmen, a city-level public
+    service innovation, not a standalone product.
   evidence_ids:
   - ev-7d619df529128395
   homepage: true
@@ -7940,8 +8081,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Palo Alto Networks 收购 Console，以强化智能体安全能力。
+  summary_en: Palo Alto Networks acquires Console to strengthen agent security capabilities.
   evidence_ids:
   - ev-3c233db0225185cd
   homepage: true
@@ -7952,8 +8093,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 工业AI龙头毛利率连涨6年，杀入智能体领域，强调落地而非模型。
+  summary_en: An industrial AI leader with six consecutive years of gross margin growth enters the agent
+    space, emphasizing deployment over models.
   evidence_ids:
   - ev-9da938747b4254a1
   homepage: true
@@ -7976,8 +8118,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 中国电视剧制作产业协会公开点名AI智能体的不公平条款。
+  summary_en: The China TV Drama Production Industry Association publicly named unfair terms used by AI
+    agents.
   evidence_ids:
   - ev-9ee48bd9f7fe0553
   homepage: true
@@ -7988,8 +8131,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 零点有数披露智能体业务已产生小部分收入，收费模式并行探索项目制与按token消耗。
+  summary_en: Dataway Horizon disclosed that its agent business has generated a small amount of revenue,
+    exploring parallel pricing models of project-based fees and token consumption.
   evidence_ids:
   - ev-ee2a6ee172bf9acb
   homepage: true
@@ -8024,8 +8168,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 远光软件披露报告期内在国家电网、南方电网等集团客户累计落地31个智能体应用项目。
+  summary_en: Yuanguang Software disclosed that it had cumulatively deployed 31 agent application projects
+    at group clients including State Grid and China Southern Power Grid during the reporting period.
   evidence_ids:
   - ev-2995b5d1606a330a
   homepage: true
@@ -8048,8 +8193,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 正式发布 Claude Fable 5.1 模型，使智能体任务调用成本最高降低 45%。
+  summary_en: Anthropic officially released the Claude Fable 5.1 model, reducing agentic task operational
+    costs by up to 45%.
   evidence_ids:
   - ev-e825eb8a72a8c5ab
   homepage: true
@@ -8072,8 +8218,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 努比亚NaviX Ultra获工信部入网许可，宣称全球首款AI智能体手机，计划2026年9月上市。
+  summary_en: Nubia NaviX Ultra received network access license from MIIT, claimed as world's first AI
+    agent phone, scheduled to launch in September 2026.
   evidence_ids:
   - ev-b815af2b871778cb
   homepage: true
@@ -8084,8 +8231,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 努比亚NaviX Ultra获入网许可，将于9月上市，宣称全球首款AI智能体手机。
+  summary_en: Nubia NaviX Ultra receives network access license, launching in September, claimed as the
+    world's first AI agent phone.
   evidence_ids:
   - ev-0d35b5733442cf78
   homepage: true
@@ -8096,8 +8244,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 超图软件披露其智能体范式已沉淀数千类工具，用户通过提示词即可驱动智能体自主规划并调用工具执行任务。
+  summary_en: SuperMap disclosed that its agent paradigm has accumulated thousands of tool types, and
+    users can drive agents via prompts to autonomously plan and call tools to execute tasks.
   evidence_ids:
   - ev-f103edef38169448
   homepage: true
@@ -8108,8 +8257,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 爱分析发布互联网大厂智能体平台横向对比报告。
+  summary_en: iResearch releases report comparing agent platforms of major internet companies.
   evidence_ids:
   - ev-3d830d42e003f535
   homepage: true
@@ -8132,8 +8281,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 据报道，面向消费者的AI助手初创公司Instinct以25亿美元估值融资2.5亿至3.5亿美元，多家媒体报道其迅速走红。
+  summary_en: Consumer AI assistant startup Instinct reportedly raised $250M-$350M at a $2.5B valuation,
+    with multiple outlets covering its rapid rise.
   evidence_ids:
   - ev-d323b1123ae0eec5
   homepage: true
@@ -8144,8 +8294,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 中央网信办深入开展“清朗·整治AI应用乱象”专项行动第二阶段工作。
+  summary_en: The Cyberspace Administration of China launched phase two of its in-depth 'Qinglang' special
+    campaign to rectify AI application abuses.
   evidence_ids:
   - ev-9c296789ba92138b
   homepage: true
@@ -8168,8 +8319,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 品高股份发布新一代品原AI一体机，涵盖容量型、性能型和混合型三款产品。
+  summary_en: Bingoo released its new generation Pinyuan AI appliance, covering capacity, performance,
+    and hybrid models.
   evidence_ids:
   - ev-47188da9ec4d85ee
   homepage: true
@@ -8180,8 +8332,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 博通推出VMware AI Factory，简化企业私有云AI部署，报道提及Qwen模型、戴尔、联想等合作。
+  summary_en: Broadcom launched VMware AI Factory to simplify enterprise private cloud AI deployment;
+    reports mention Qwen models, Dell, Lenovo, etc.
   evidence_ids:
   - ev-f6dbdee7f5beca32
   homepage: true
@@ -8192,8 +8345,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenCSG 完成数亿元 Pre-A 轮融资，将推动开源 AI 基础设施加速落地城市与产业场景。
+  summary_en: OpenCSG completed a Pre-A round of financing of several hundred million yuan to accelerate
+    the deployment of open-source AI infrastructure in urban and industrial scenarios.
   evidence_ids:
   - ev-154b77d234d40661
   homepage: true
@@ -8216,8 +8370,10 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 欧盟将 ChatGPT 认定为《数字服务法》下的超大型在线搜索引擎，OpenAI 需就未成年人影响、用户心理健康及非法内容传播承担更严格的监管义务。
+  summary_en: The EU has classified ChatGPT as a Very Large Online Search Engine under the Digital Services
+    Act, requiring OpenAI to meet stricter regulatory obligations on impacts to minors, user mental health,
+    and illegal content.
   evidence_ids:
   - ev-308bd1e1efa6979c
   homepage: true
@@ -8252,8 +8408,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 苹果公司将于次日更换CEO，新帅的首要任务是推进AI战略。
+  summary_en: Apple will change its CEO the next day, and the new leader's top priority is advancing the
+    AI strategy.
   evidence_ids:
   - ev-b952bddf761fd4d6
   homepage: true
@@ -8264,8 +8421,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: MBody AI Orchestrator 入围“年度 AI 部署奖”决赛，表明其在企业 AI 部署方面获得行业认可。
+  summary_en: MBody AI Orchestrator was shortlisted as a finalist for the 'AI Deployment of the Year'
+    award, indicating industry recognition for its enterprise AI deployment capabilities.
   evidence_ids:
   - ev-eb9f23ee187f2d57
   homepage: true
@@ -8300,8 +8458,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 梅卡曼德在港股上市，展现中国AI影响力。
+  summary_en: Mech-Mind listed on the Hong Kong stock exchange, showcasing China's AI influence.
   evidence_ids:
   - ev-6d8f7e895a652185
   homepage: true
@@ -8312,8 +8470,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Aramco Digital 宣布与 Avathon 合作，推进自主运营 AI 在工业场景的应用。
+  summary_en: Aramco Digital announced a partnership with Avathon to advance autonomous operations AI
+    in industrial settings.
   evidence_ids:
   - ev-9748c280dce940c0
   homepage: true
@@ -8348,8 +8507,9 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 阿里妈妈发布AI定向产品“万相点睛”，并披露双11商家侧扶持计划。
+  summary_en: Alimama launched the AI targeting product 'Wanxiang Dianjing' and disclosed a merchant-side
+    support plan for Double 11.
   evidence_ids:
   - ev-d034f5b0232b7c3e
   homepage: true
@@ -8372,8 +8532,10 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 联通元景与长飞光纤光缆合作，将基于AI深度学习的质检一体机应用于光纤线缆缺陷检测与质检数据管理，重塑线缆质检流程。
+  summary_en: China Unicom's Yuanjing AI partnered with optical fibre cable maker YOFC to apply AI deep
+    learning-based inspection all-in-one machines to cable defect detection and inspection data management,
+    reshaping cable quality inspection.
   evidence_ids:
   - ev-7304b248afc5671c
   homepage: true
@@ -8408,8 +8570,10 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 惠然微电子创始人王志刚公开谈论电子束量测装备的国产化进展，该设备被称为“小光刻机”，用于芯片制造中的关键尺寸量测。
+  summary_en: Huirun Microelectronics founder Wang Zhigang publicly discussed progress in domestic electron-beam
+    metrology equipment, known as 'mini lithography', used for critical dimension measurement in chip
+    manufacturing.
   evidence_ids:
   - ev-ea97f44468e633eb
   homepage: true
@@ -8420,8 +8584,8 @@
   discovered_at: '2026-09-02T14:32:07Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 新政驱动AI家电扩容升级，头部企业加速布局智能体赛道。
+  summary_en: New policies drive AI home appliance expansion, leading companies accelerate agent deployment.
   evidence_ids:
   - ev-c6320c175287ef4b
   homepage: true

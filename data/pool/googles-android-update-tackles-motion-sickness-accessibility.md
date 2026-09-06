@@ -1,11 +1,12 @@
 ---
 slug: googles-android-update-tackles-motion-sickness-accessibility
-name: Google’s Android update tackles motion sickness, accessibility, and more
+name: Android
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Android 是 Google 的移动操作系统，本次更新属于平台功能迭代，而非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Android is Google's mobile operating system; this update is a platform feature iteration,
+  not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: While some of the features see Google playing catch-up to Apple, which 
   features for iPhone users, others specifically leverage Gemini to provide various improvements.
 first_seen: '2026-09-01T20:53:05Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Google’s Android update tackles motion sickness, accessibility, and more
+# Android
 
 While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.
 

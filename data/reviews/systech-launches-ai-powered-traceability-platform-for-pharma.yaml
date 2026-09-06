@@ -1,0 +1,39 @@
+- id: req-initial-systech-launches-ai-powered-traceability-platform-for-pharma-2026-09-02
+  project_slug: systech-launches-ai-powered-traceability-platform-for-pharma
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决药品追溯的需求，痛点明确：数据量大、监管严格。
+    evidence_ids:
+    - ev-9f1782f9c5fd2af7
+  - gate: consensus
+    status: insufficient
+    reason: 公开信息有限，缺乏行业采用证据。
+    evidence_ids:
+    - ev-9f1782f9c5fd2af7
+  - gate: model
+    status: insufficient
+    reason: 付费模式未披露，需进一步核验。
+    evidence_ids:
+    - ev-9f1782f9c5fd2af7
+  - gate: truth
+    status: supported
+    reason: 贴近供应链管理第一性目标，AI 可确定交付追溯结果。
+    evidence_ids:
+    - ev-9f1782f9c5fd2af7
+  next_validation: 官方产品文档或客户案例
+  market: ''
+  job: 制药供应链人员需要追踪药品从生产到销售的全程，确保合规与防伪。
+  job_en: Pharma supply chain staff need to track drugs from production to sale, ensuring compliance and
+    anti-counterfeiting.
+  pain: 药品追溯涉及大量数据，人工处理易出错，且监管要求严格。
+  pain_en: Drug traceability involves vast data, error-prone manually, with strict regulatory requirements.
+  current_alternative: 依赖人工记录和传统系统，追溯效率低，难以应对复杂供应链。
+  current_alternative_en: Relies on manual records and legacy systems, inefficient and hard to handle
+    complex supply chains.
+  usage_reason: AI 能自动化追溯流程，提高准确性和效率，满足合规要求。
+  usage_reason_en: AI automates traceability, improving accuracy and efficiency, meeting compliance.

@@ -1,0 +1,38 @@
+- id: req-initial-stitch-ai-by-dynamic-mockups-2026-09-02
+  project_slug: stitch-ai-by-dynamic-mockups
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：替代手工刺绣打版，痛点（耗时、依赖专家）刚性，交付（打版文件）可确定，但精度需验证。
+    evidence_ids:
+    - ev-e4b9ef9d41d0fc47
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 买方可能是刺绣店或工厂，但定价和付费模式未公开。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 打版是否达到专业精度、能否兼容多种刺绣机，需进一步验证。
+    evidence_ids: []
+  next_validation: 官方定价页或客户案例，展示打版精度和机器兼容性。
+  market: ''
+  job: 刺绣打版师需要将客户提供的设计图（如 logo、图案）转换为刺绣机可执行的打版文件，这个过程通常耗时且需要专业技能。
+  job_en: Embroidery digitizers need to convert customer-provided designs (e.g., logos, patterns) into
+    machine-readable embroidery files, a process that is time-consuming and requires specialized skills.
+  pain: 手工打版费时费力，且依赖经验丰富的打版师，成本高、交付慢。
+  pain_en: Manual digitizing is time-consuming and labor-intensive, relying on experienced digitizers,
+    leading to high costs and slow delivery.
+  current_alternative: 目前主要依赖专业打版师使用专用软件（如 Wilcom）手工制作，或外包给打版服务商。
+  current_alternative_en: Currently relies on professional digitizers using specialized software (e.g.,
+    Wilcom) or outsourcing to digitizing services.
+  usage_reason: 如果 AI 能快速生成可用的打版文件，将显著缩短交付时间并降低成本，吸引定制店和工厂试用。
+  usage_reason_en: If AI can quickly generate usable digitized files, it would significantly shorten delivery
+    time and reduce costs, attracting custom shops and factories to try.

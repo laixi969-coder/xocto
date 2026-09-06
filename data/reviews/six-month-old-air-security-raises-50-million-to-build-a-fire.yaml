@@ -1,0 +1,39 @@
+- id: req-initial-six-month-old-air-security-raises-50-million-to-build-a-fire-2026-09-02
+  project_slug: six-month-old-air-security-raises-50-million-to-build-a-fire
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理安全防护的需求，痛点明确：代理易受攻击且现有工具不足。
+    evidence_ids:
+    - ev-8a4041a78ba7b445
+  - gate: consensus
+    status: insufficient
+    reason: 成立时间短，公开采用证据不足。
+    evidence_ids:
+    - ev-8a4041a78ba7b445
+  - gate: model
+    status: insufficient
+    reason: 融资 5000 万美元显示资本信心，但付费模式未披露。
+    evidence_ids:
+    - ev-8a4041a78ba7b445
+  - gate: truth
+    status: supported
+    reason: 安全防护贴近第一性目标，防火墙功能可确定交付。
+    evidence_ids:
+    - ev-8a4041a78ba7b445
+  next_validation: 官方产品文档或客户案例
+  market: ''
+  job: 企业安全团队需要保护 AI 代理免受攻击并防止其被滥用。
+  job_en: Enterprise security teams need to protect AI agents from attacks and prevent their misuse.
+  pain: AI 代理可能被注入恶意指令或访问敏感数据，现有安全工具未覆盖。
+  pain_en: AI agents can be injected with malicious instructions or access sensitive data; existing tools
+    don't cover them.
+  current_alternative: 缺乏专门针对 AI 代理的安全方案，企业只能依赖通用网络安全措施。
+  current_alternative_en: No dedicated security solutions for AI agents; enterprises rely on general cybersecurity
+    measures.
+  usage_reason: 随着 AI 代理在企业中广泛采用，专门的安全防护成为刚需。
+  usage_reason_en: As AI agents are widely adopted in enterprises, dedicated security becomes a necessity.

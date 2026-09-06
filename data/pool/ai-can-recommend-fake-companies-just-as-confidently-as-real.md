@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOUFA4enB4ZG43
 summary: AI can recommend fake companies just as confidently as real ones ConsumerAffairs
 first_seen: '2026-09-01T15:38:57Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

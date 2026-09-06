@@ -1,0 +1,39 @@
+- id: req-initial-skyproduction天工工作台从剧本到成片一套工作台把精品短剧创作真正跑起来-2026-09-02
+  project_slug: skyproduction天工工作台从剧本到成片一套工作台把精品短剧创作真正跑起来
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短剧制作效率低下的需求，痛点明确：流程长、成本高。
+    evidence_ids:
+    - ev-69a1808e260e7ddd
+  - gate: consensus
+    status: insufficient
+    reason: 新版本刚上线，缺乏用户采用数据。
+    evidence_ids:
+    - ev-69a1808e260e7ddd
+  - gate: model
+    status: insufficient
+    reason: 付费模式未披露，需进一步核验。
+    evidence_ids:
+    - ev-69a1808e260e7ddd
+  - gate: truth
+    status: supported
+    reason: 贴近创作第一性目标，AI 可确定交付分镜和剪辑结果。
+    evidence_ids:
+    - ev-69a1808e260e7ddd
+  next_validation: 官方定价页或用户案例
+  market: ''
+  job: 短剧创作者需要高效地将剧本转化为成片，缩短制作周期。
+  job_en: Short-drama creators need to efficiently turn scripts into final videos, shortening production
+    cycles.
+  pain: 传统短剧制作涉及多个环节，耗时耗力，成本高昂。
+  pain_en: Traditional short-drama production involves multiple stages, time-consuming and costly.
+  current_alternative: 依赖人工编剧、拍摄和剪辑，流程分散，效率低。
+  current_alternative_en: Relies on manual writing, shooting, and editing, fragmented and inefficient.
+  usage_reason: AI 辅助能显著降低制作成本和时间，吸引独立创作者和小型团队。
+  usage_reason_en: AI assistance significantly reduces cost and time, attracting independent creators
+    and small teams.

@@ -1,0 +1,41 @@
+- id: req-initial-how-boomi-scribe-streamlines-documentation-using-aws-2026-09-02
+  project_slug: how-boomi-scribe-streamlines-documentation-using-aws
+  level: initial
+  reviewed_at: '2026-09-02T00:14:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决集成文档编写耗时、易过时的痛点，自动生成可核对结果，价值成立。
+    evidence_ids:
+    - ev-cd3d1c17a1c856e9
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未提供用户采用或反馈数据，共识证据不足。
+    evidence_ids:
+    - ev-cd3d1c17a1c856e9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业客户，但商业模式不明确。
+    evidence_ids:
+    - ev-cd3d1c17a1c856e9
+  - gate: truth
+    status: supported
+    reason: 贴近集成开发的第一性目标，自动生成文档可确定性交付，安全风险低。
+    evidence_ids:
+    - ev-cd3d1c17a1c856e9
+  next_validation: 查找 Boomi Scribe 的官方定价页或客户案例。
+  market: ''
+  job: 集成开发人员需要为复杂的集成工作流编写和更新文档，以便团队维护和审计。
+  job_en: Integration developers need to create and update documentation for complex integration workflows
+    for team maintenance and audits.
+  pain: 手工编写文档耗时且容易过时，版本对比困难，影响协作和合规。
+  pain_en: Manual documentation is time-consuming and prone to becoming outdated; version comparison is
+    difficult, affecting collaboration and compliance.
+  current_alternative: 目前通常由开发人员手工编写文档，或使用通用文档工具，但缺乏对集成流程的自动解析。
+  current_alternative_en: Currently, developers often write documentation manually or use generic documentation
+    tools, lacking automatic parsing of integration flows.
+  usage_reason: Scribe 能自动从集成 DAG 生成文档，减少手工工作，确保文档与流程同步，因此开发人员会采用。
+  usage_reason_en: Scribe automatically generates documentation from integration DAGs, reducing manual
+    work and ensuring docs stay in sync, so developers would adopt it.

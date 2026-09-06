@@ -1,0 +1,41 @@
+- id: req-initial-fambot-introduces-an-ai-chief-of-staff-for-families-2026-09-02
+  project_slug: fambot-introduces-an-ai-chief-of-staff-for-families
+  level: initial
+  reviewed_at: '2026-09-02T00:14:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家长协调家庭日程和通知的痛点，旧流程是手动分散处理，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-d77bf6eefc4120ef
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅描述产品功能，缺乏用户采用或关注数据，共识尚未形成。
+    evidence_ids:
+    - ev-d77bf6eefc4120ef
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是家长，但付费路径不明确。
+    evidence_ids:
+    - ev-d77bf6eefc4120ef
+  - gate: truth
+    status: insufficient
+    reason: AI 管家能否可靠处理家庭事务并避免关键遗漏，需进一步验证。
+    evidence_ids:
+    - ev-d77bf6eefc4120ef
+  next_validation: 查找 Fambot 的官方定价页或用户评价，以确认付费意愿和实际采用情况。
+  market: ''
+  job: 家长需要协调家庭成员的日程、学校通知和活动安排，避免遗漏和冲突。
+  job_en: Parents need to coordinate family members' schedules, school notices, and activity arrangements
+    to avoid omissions and conflicts.
+  pain: 家庭事务信息分散在邮件、纸质通知和多个应用中，手动整理耗时且容易出错。
+  pain_en: Family logistics information is scattered across emails, paper notices, and multiple apps,
+    making manual organization time-consuming and error-prone.
+  current_alternative: 目前家长通常手动查看邮件和通知，用共享日历或纸质清单管理，或依赖配偶分工。
+  current_alternative_en: Currently, parents manually check emails and notices, use shared calendars or
+    paper lists, or rely on spouse division of labor.
+  usage_reason: 即使功能尚待完善，家庭事务的复杂性和高频性使得家长愿意尝试 AI 集中管理，以节省时间和减少压力。
+  usage_reason_en: Even if features are not yet polished, the complexity and frequency of family logistics
+    make parents willing to try AI-centralized management to save time and reduce stress.

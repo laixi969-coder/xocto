@@ -1,11 +1,12 @@
 ---
 slug: 博通推出vmware-ai工厂简化企业私有云ai部署-3
-name: 博通推出VMWare AI工厂，简化企业私有云AI部署
+name: VMware AI Factory
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: VMware AI Factory是博通推出的企业私有云AI部署方案，面向企业IT基础设施，但具体产品形态和交付细节待核验。
 inspiration: ''
-summary_en: ''
+summary_en: VMware AI Factory is Broadcom's enterprise private cloud AI deployment solution targeting
+  corporate IT infrastructure; specific product form and delivery details need verification.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5VOWt0UDdiX3JY
 summary: 博通推出VMWare AI工厂，简化企业私有云AI部署 finance.sina.com.cn
 first_seen: '2026-08-31T15:36:00Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# 博通推出VMWare AI工厂，简化企业私有云AI部署
+# VMware AI Factory
 
 博通推出VMWare AI工厂，简化企业私有云AI部署 finance.sina.com.cn
 

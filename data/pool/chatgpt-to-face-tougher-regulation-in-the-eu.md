@@ -3,9 +3,12 @@ slug: chatgpt-to-face-tougher-regulation-in-the-eu
 name: ChatGPT
 builder: ''
 category: ''
-summary_zh: 欧盟监管变化，非独立产品事件。
+summary_zh: ChatGPT 被欧盟认定为《数字服务法》下的超大型在线搜索引擎，OpenAI 须就未成年人保护、用户心理健康和非法内容传播等风险承担系统性缓解义务，这标志着对其监管要求的显著升级，将影响其在欧盟市场的合规与运营方式。
 inspiration: ''
-summary_en: EU regulatory change, not an independent product event.
+summary_en: ChatGPT has been designated a Very Large Online Search Engine under the EU Digital Services
+  Act, obliging OpenAI to systematically mitigate risks related to minors, user mental health, and the
+  spread of illegal content, marking a significant escalation of regulatory requirements that will shape
+  its compliance and operations in the EU market.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +27,7 @@ summary: OpenAI will soon be held accountable for mitigating risks related to Ch
   regulating major online services and […]
 first_seen: '2026-08-31T13:27:36Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

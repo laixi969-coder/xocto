@@ -1,0 +1,37 @@
+- id: req-initial-afterquery-hits-32b-ycs-fastest-unicorn-ever-2026-09-02
+  project_slug: afterquery-hits-32b-ycs-fastest-unicorn-ever
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据分析耗时和技能门槛问题，痛点明确。
+    evidence_ids:
+    - ev-44f49d29b3758481
+  - gate: consensus
+    status: supported
+    reason: 高估值和 YC 背书表明市场关注。
+    evidence_ids:
+    - ev-44f49d29b3758481
+  - gate: model
+    status: insufficient
+    reason: 付费模式和客户案例未披露。
+    evidence_ids:
+    - ev-44f49d29b3758481
+  - gate: truth
+    status: insufficient
+    reason: 产品实际效果和用户采用数据未公开。
+    evidence_ids:
+    - ev-44f49d29b3758481
+  next_validation: 查找 AfterQuery 官方网站或产品文档，确认其具体功能和定价。
+  market: ''
+  job: 数据分析师和产品经理需要从数据中获取洞察以支持决策。
+  job_en: Data analysts and product managers need insights from data to support decisions.
+  pain: 传统数据分析耗时且需要专业技能。
+  pain_en: Traditional data analysis is time-consuming and requires specialized skills.
+  current_alternative: 使用 SQL、Excel 或传统 BI 工具。
+  current_alternative_en: Using SQL, Excel, or traditional BI tools.
+  usage_reason: AI 可能加速分析流程，降低门槛。
+  usage_reason_en: AI may accelerate analysis and lower the barrier.

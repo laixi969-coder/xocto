@@ -1,11 +1,12 @@
 ---
 slug: anthropic-launches-claude-fable-51-and-says-it8217s-up-to-45
-name: Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work
+name: Claude Fable 5.1
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 推出 Fable 5.1 与 Mythos 5.1 模型，重点解决客户对价格、数据保留及安全过滤限制的反馈，进一步降低大模型智能体任务的部署成本。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic introduced Claude Fable 5.1 and Mythos 5.1 models to address customer feedback on
+  pricing, data retention, and safeguards, significantly lowering the cost of deploying agentic workloads.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address 
   for complex agentic tasks, thanks to reduced pricing […]
 first_seen: '2026-09-01T22:01:36Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic launches Claude Fable 5.1 and says it&#8217;s up to 45 percent cheaper for agentic work
+# Claude Fable 5.1
 
 Anthropic says its newest AI models, Fable 5.1 and Mythos 5.1, address criticisms from customers about price, data retention, and overzealous safeguards. The company claims Claude Fable 5.1 offers stronger performance than Fable 5, but costs around 25 percent less typically and up to 45 percent less for complex agentic tasks, thanks to reduced pricing […]
 

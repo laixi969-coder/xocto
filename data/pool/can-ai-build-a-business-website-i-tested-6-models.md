@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE1ySnF4MGhVTVlz
 summary: Can AI Build a Business Website? I Tested 6 Models Techloy
 first_seen: '2026-09-02T11:35:14Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

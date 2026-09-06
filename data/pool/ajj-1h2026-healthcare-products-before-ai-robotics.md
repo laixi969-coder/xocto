@@ -3,9 +3,10 @@ slug: ajj-1h2026-healthcare-products-before-ai-robotics
 name: 'AJJ 1H2026: Healthcare Products Before AI Robotics'
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年上半年医疗产品在AI机器人出现前的市场表现。
 inspiration: ''
-summary_en: ''
+summary_en: Market performance of healthcare products before the advent of AI robotics in the first half
+  of 2026.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgNBVV95cUxPRFpZWVJza3RK
 summary: 'AJJ 1H2026: Healthcare Products Before AI Robotics Moomoo'
 first_seen: '2026-09-02T01:59:34Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

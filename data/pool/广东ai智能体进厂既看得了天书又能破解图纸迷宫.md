@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPb05INFpXWTFu
 summary: 广东AI智能体进厂：既看得了“天书”，又能破解“图纸迷宫” 21财经
 first_seen: '2026-09-01T23:31:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

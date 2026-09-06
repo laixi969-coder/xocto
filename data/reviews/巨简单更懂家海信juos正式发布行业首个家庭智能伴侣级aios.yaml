@@ -1,0 +1,39 @@
+- id: req-initial-巨简单更懂家海信juos正式发布行业首个家庭智能伴侣级aios-2026-09-02
+  project_slug: 巨简单更懂家海信juos正式发布行业首个家庭智能伴侣级aios
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭设备交互繁琐的痛点，需求存在。
+    evidence_ids:
+    - ev-5e91ee5b3e045a89
+  - gate: consensus
+    status: insufficient
+    reason: 发布报道但缺乏用户采用证据。
+    evidence_ids:
+    - ev-5e91ee5b3e045a89
+  - gate: model
+    status: insufficient
+    reason: 买方是家庭用户，但付费模式不明确。
+    evidence_ids:
+    - ev-5e91ee5b3e045a89
+  - gate: truth
+    status: insufficient
+    reason: AI伴侣功能的实用性需验证。
+    evidence_ids:
+    - ev-5e91ee5b3e045a89
+  next_validation: 查找海信JUOS官方页面或用户评测。
+  market: ''
+  job: 家庭成员需要通过电视等设备获得智能助手服务，如内容推荐、家居控制。
+  job_en: Family members need intelligent assistant services via TVs, such as content recommendations
+    and home control.
+  pain: 传统电视交互繁琐，智能功能分散。
+  pain_en: Traditional TV interaction is cumbersome, and smart features are fragmented.
+  current_alternative: 目前使用手机或智能音箱控制，但体验不连贯。
+  current_alternative_en: Currently using phones or smart speakers for control, but experience is disjointed.
+  usage_reason: AIOS提供统一交互，可能提升家庭娱乐和控制的便利性。
+  usage_reason_en: AIOS offers unified interaction, potentially enhancing convenience in home entertainment
+    and control.

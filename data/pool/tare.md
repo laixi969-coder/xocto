@@ -3,14 +3,14 @@ slug: tare
 name: tare
 builder: sachinneravath
 category: AI + 开发
-summary_zh: 开发者在使用 Claude 等 AI 编程工具时，tare 帮助分析为什么配额快速耗尽。它接收使用日志或配额消耗数据，识别消耗原因，输出诊断报告，帮助开发者优化使用。
-inspiration: 趋势是 AI 编程工具的用量管理成为开发者痛点。切入点是做 AI 配额监控和优化工具，可扩展到其他 AI 服务，按订阅或用量收费。
-summary_en: Developers using AI coding tools like Claude use tare to analyze why quotas run out quickly.
-  It takes usage logs or quota consumption data, identifies the cause, and outputs a diagnostic report
-  to help optimize usage.
-inspiration_en: The trend is that usage management of AI coding tools becomes a developer pain point.
-  The entry point is building AI quota monitoring and optimization tools, expandable to other AI services,
-  charging by subscription or usage.
+summary_zh: 使用 Claude 等 AI 编程工具的开发者，在额度异常快速耗尽时打开它；工具读取使用日志或额度消耗数据，定位主要消耗环节并输出诊断报告，具体分析深度与交付形式仍待核验。
+inspiration: AI 编程额度正成为开发者按月支付的硬成本，用量可观测与成本归因会从个人小工具长成团队采购项；可从依赖 AI 编程的中小开发团队切入，卖团队级用量诊断与预算告警，不与模型厂商拼能力。
+summary_en: Developers using AI coding tools like Claude open tare when their quota drains unusually fast;
+  the tool reads usage logs or quota data, locates the main consumption sources, and outputs a diagnostic
+  report; exact delivery depth awaits verification.
+inspiration_en: 'AI coding budgets are becoming a hard monthly cost; usage observability and cost attribution
+  can grow from personal tools into team purchases. Entry: team-level usage diagnostics and budget alerts
+  for small dev teams.'
 priority_review: false
 project_type: open_source
 industries:
@@ -18,9 +18,9 @@ industries:
 industries_en:
 - Software development
 jobs:
-- 开发者
+- 软件开发工程师
 jobs_en:
-- Developer
+- Software engineers
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +29,7 @@ canonical_url: https://github.com/kelviq/tare
 summary: My Claude quota ran out in 10 minutes, so I made a tool to find out why
 first_seen: '2026-08-27T16:37:44Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

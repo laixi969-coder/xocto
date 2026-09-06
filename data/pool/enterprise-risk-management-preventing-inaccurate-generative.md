@@ -23,7 +23,7 @@ summary: 'Enterprise Risk Management: Preventing Inaccurate Generative AI Publis
   2026] Klover.ai'
 first_seen: '2026-09-02T10:48:49Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

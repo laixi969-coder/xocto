@@ -1,0 +1,37 @@
+- id: req-initial-helpwanted-2026-09-02
+  project_slug: helpwanted
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体应用场景和用户反馈。
+    evidence_ids:
+    - ev-6b9d26096a5b4e58
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，无法判断认知或场景是否形成。
+    evidence_ids:
+    - ev-6b9d26096a5b4e58
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或产品页面，说明具体匹配机制和用户案例。
+  market: ''
+  job: 开发者希望找到适合自己的开源项目进行贡献。
+  job_en: Developers want to find suitable open-source projects to contribute to.
+  pain: 开源项目众多，筛选合适的贡献机会耗时且容易受挫。
+  pain_en: With many open-source projects, filtering suitable contribution opportunities is time-consuming
+    and can be frustrating.
+  current_alternative: 目前通过 公开代码仓库 搜索、社交媒体或朋友推荐寻找。
+  current_alternative_en: Currently searching via public code repository, social media, or friend recommendations.
+  usage_reason: 可能因简化搜索流程而吸引开发者，但实际效果未知。
+  usage_reason_en: May attract developers by simplifying the search process, but actual effectiveness
+    is unknown.

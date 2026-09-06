@@ -3,9 +3,9 @@ slug: ai尽头也是放贷
 name: AI尽头，也是放贷
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI技术正在被用于放贷领域，推动金融科技行业的创新与竞争。
 inspiration: ''
-summary_en: ''
+summary_en: AI technology is being applied to lending, driving innovation and competition in fintech.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxONnlpMDNsSUNF
 summary: AI尽头，也是放贷 新浪财经
 first_seen: '2026-09-01T17:37:30Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: 谷歌表示-面向ai-proultra订阅用户以及大多数workspace商业客户推出googlepics
-name: 谷歌表示 面向AI Pro、Ultra订阅用户以及大多数Workspace商业客户推出GooglePics
+name: Google
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 谷歌面向AI Pro、Ultra订阅用户及大多数Workspace商业客户推出GooglePics，扩展其AI产品线。
 inspiration: ''
-summary_en: ''
+summary_en: Google launched GooglePics for AI Pro, Ultra subscribers, and most Workspace business customers,
+  expanding its AI product portfolio.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyV0k3UDVSSDA4
 summary: 谷歌表示 面向AI Pro、Ultra订阅用户以及大多数Workspace商业客户推出GooglePics 东方财富
 first_seen: '2026-09-01T16:20:30Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 谷歌表示 面向AI Pro、Ultra订阅用户以及大多数Workspace商业客户推出GooglePics
+# Google
 
 谷歌表示 面向AI Pro、Ultra订阅用户以及大多数Workspace商业客户推出GooglePics 东方财富
 

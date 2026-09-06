@@ -1,0 +1,38 @@
+- id: req-initial-roundos-2026-09-02
+  project_slug: roundos
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安全共享敏感文件的需求，痛点明确，现有替代昂贵或不安全。
+    evidence_ids:
+    - ev-1f371919ce6e4cbc
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用证据，仅产品发布。
+    evidence_ids:
+    - ev-1f371919ce6e4cbc
+  - gate: model
+    status: insufficient
+    reason: 免费模式，付费路径不清晰，可能靠增值服务。
+    evidence_ids:
+    - ev-1f371919ce6e4cbc
+  - gate: truth
+    status: insufficient
+    reason: 安全性和合规性未验证。
+    evidence_ids:
+    - ev-1f371919ce6e4cbc
+  next_validation: 查找 RoundOS 官方定价页或客户案例，验证其安全认证和实际采用。
+  market: ''
+  job: 在并购、融资或法律交易中，安全地共享和跟踪敏感文件。
+  job_en: Securely share and track sensitive documents during M&A, fundraising, or legal transactions.
+  pain: 现有数据室工具如 DocSend 收费高，对小型交易或初创企业不友好。
+  pain_en: Existing data room tools like DocSend are expensive, unfriendly to small deals or startups.
+  current_alternative: 使用 DocSend 等付费工具，或通过电子邮件发送文件，缺乏安全性和追踪。
+  current_alternative_en: Using paid tools like DocSend, or sending files via email, lacking security
+    and tracking.
+  usage_reason: 免费且提供核心功能，可能吸引成本敏感的用户尝试。
+  usage_reason_en: Free with core features, may attract cost-sensitive users to try.

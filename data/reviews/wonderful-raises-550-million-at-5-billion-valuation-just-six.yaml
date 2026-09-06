@@ -1,0 +1,37 @@
+- id: req-initial-wonderful-raises-550-million-at-5-billion-valuation-just-six-2026-09-02
+  project_slug: wonderful-raises-550-million-at-5-billion-valuation-just-six
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法判断它解决什么需求或痛点。
+    evidence_ids:
+    - ev-fe3998d6276ba3d6
+  - gate: consensus
+    status: insufficient
+    reason: 融资规模大但缺乏用户采用证据。
+    evidence_ids:
+    - ev-fe3998d6276ba3d6
+  - gate: model
+    status: insufficient
+    reason: 商业模式未公开。
+    evidence_ids:
+    - ev-fe3998d6276ba3d6
+  - gate: truth
+    status: insufficient
+    reason: 产品承诺与交付未核验。
+    evidence_ids:
+    - ev-fe3998d6276ba3d6
+  next_validation: 查找Wonderful的官方网站或产品文档。
+  market: ''
+  job: 未知，资料未说明产品功能。
+  job_en: Unknown; product features not described.
+  pain: 未知。
+  pain_en: Unknown.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 未知。
+  usage_reason_en: Unknown.

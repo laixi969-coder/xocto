@@ -1,18 +1,28 @@
 ---
 slug: ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio
-name: AI sales startup Clay raises funding at a $7 billion valuation
+name: Clay
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: Clay 是一家 AI 销售初创公司，以 70 亿美元估值融资。具体产品功能和工作流程待核验。
+inspiration: AI 销售工具市场持续增长，可关注销售流程自动化和客户数据整合。
+summary_en: Clay is an AI sales startup that raised funding at a $7B valuation. Specific product features
+  and workflows are to be verified.
+inspiration_en: The AI sales tool market is growing; focus on sales process automation and customer data
+  integration.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 销售
+- 市场营销
+industries_en:
+- Sales
+- Marketing
+jobs:
+- 销售代表
+- 市场人员
+jobs_en:
+- Sales Representatives
+- Marketers
 regions: []
 regions_en: []
 open_source: false
@@ -21,7 +31,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzNlYllqeFBU
 summary: AI sales startup Clay raises funding at a $7 billion valuation WION
 first_seen: '2026-09-01T21:19:00Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:
@@ -32,7 +42,7 @@ sightings:
   kind: news
 ---
 
-# AI sales startup Clay raises funding at a $7 billion valuation
+# Clay
 
 AI sales startup Clay raises funding at a $7 billion valuation WION
 

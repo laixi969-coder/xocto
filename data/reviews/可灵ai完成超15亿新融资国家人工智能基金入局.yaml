@@ -1,0 +1,41 @@
+- id: req-initial-可灵ai完成超15亿新融资国家人工智能基金入局-2026-09-02
+  project_slug: 可灵ai完成超15亿新融资国家人工智能基金入局
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频制作成本高、周期长的痛点，需求刚性，交付可确定。
+    evidence_ids:
+    - ev-dfdb2aa03d09abf8
+  - gate: consensus
+    status: supported
+    reason: 融资超15亿显示资本认可，但用户采用证据不足。
+    evidence_ids:
+    - ev-dfdb2aa03d09abf8
+  - gate: model
+    status: insufficient
+    reason: 买方可能是创作者或企业，但付费模式未公开。
+    evidence_ids:
+    - ev-dfdb2aa03d09abf8
+  - gate: truth
+    status: insufficient
+    reason: 生成视频的准确性和可控性需进一步验证。
+    evidence_ids:
+    - ev-dfdb2aa03d09abf8
+  next_validation: 查找可灵AI官方定价页或公开用户案例。
+  market: ''
+  job: 视频创作者和广告人员需要快速生成视频素材，替代传统拍摄和剪辑流程。
+  job_en: Video creators and advertisers need to quickly generate video assets, replacing traditional
+    shooting and editing processes.
+  pain: 传统视频制作成本高、周期长，难以满足短视频和广告的快速迭代需求。
+  pain_en: Traditional video production is costly and slow, failing to meet the rapid iteration needs
+    of short videos and ads.
+  current_alternative: 目前主要依赖传统拍摄、剪辑团队或使用模板化工具，效率低且定制性差。
+  current_alternative_en: Currently relying on traditional shooting/editing teams or template tools, which
+    are inefficient and lack customization.
+  usage_reason: AI生成能大幅降低视频制作门槛和成本，吸引大量创作者尝试，尽管质量仍需人工筛选。
+  usage_reason_en: AI generation significantly lowers barriers and costs, attracting many creators to
+    try, though quality still needs manual curation.

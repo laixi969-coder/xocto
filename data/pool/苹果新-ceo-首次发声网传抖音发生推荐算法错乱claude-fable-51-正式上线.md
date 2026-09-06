@@ -1,11 +1,14 @@
 ---
 slug: 苹果新-ceo-首次发声网传抖音发生推荐算法错乱claude-fable-51-正式上线
-name: 苹果新 CEO 首次「发声」；网传抖音发生「推荐算法错乱」；Claude Fable 5.1 正式上线
+name: Claude Fable 5.1
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1，谷歌同期发布时间序列基础模型 TimesFM-3；前沿与专用模型密集更新加剧编程、知识工作和时间序列预测领域的竞争，并通过分级可信访问模式探索高安全场景的模型分发。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic released Claude Fable 5.1 and Claude Mythos 5.1, while Google released the TimesFM-3
+  time-series foundation model; the dense wave of frontier and specialized model updates intensifies competition
+  in coding, knowledge work and time-series forecasting, and explores tiered trusted access for high-security
+  use cases.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -51,7 +54,7 @@ summary: "​  \n 苹果新任 CEO 约翰·特努斯在 X 平台发布首条动�
   \ 6》的影响。最大的顾虑是，这款游戏可能会在数周时间内分流原本会走进电影院的观众。（来源：IT 之家）"
 first_seen: '2026-09-02T00:13:21Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -62,7 +65,7 @@ sightings:
   kind: news
 ---
 
-# 苹果新 CEO 首次「发声」；网传抖音发生「推荐算法错乱」；Claude Fable 5.1 正式上线
+# Claude Fable 5.1
 
 ​  
  苹果新任 CEO 约翰·特努斯在 X 平台发布首条动态向关注者问好 

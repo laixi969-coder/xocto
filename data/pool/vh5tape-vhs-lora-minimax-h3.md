@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/akhaliq/vh5tape-vhs-lora-minimax-h3
 summary: ''
 first_seen: '2026-09-01T17:48:38Z'
 last_seen: '2026-09-02T00:14:52Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

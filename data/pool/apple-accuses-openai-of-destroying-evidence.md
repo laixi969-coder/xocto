@@ -1,11 +1,12 @@
 ---
 slug: apple-accuses-openai-of-destroying-evidence
-name: Apple accuses OpenAI of destroying evidence
+name: Apple / OpenAI 商业机密诉讼
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 头部科技公司围绕 AI 人才与商业机密的法律争端加剧，证据保全与合规审查成为行业关注焦点。
 inspiration: ''
-summary_en: ''
+summary_en: Legal disputes surrounding AI talent and trade secrets among major tech companies are intensifying,
+  bringing evidence preservation and compliance scrutiny into focus.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: Apple is pushing for "expedited discovery" in its legal battle against 
   which contained discussions about "destroying […]
 first_seen: '2026-09-01T18:19:26Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Apple accuses OpenAI of destroying evidence
+# Apple / OpenAI 商业机密诉讼
 
 Apple is pushing for "expedited discovery" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as reported earlier by Bloomberg. In a filing on Monday, Apple alleges OpenAI only just handed over a MacBook used by a former employee at the center of the lawsuit, which contained discussions about "destroying […]
 

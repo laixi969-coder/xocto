@@ -1,18 +1,28 @@
 ---
 slug: ai-agent-security-startup-air-raises-50-million-to-guard-ent
-name: AI Agent Security Startup AIR Raises $50 Million to Guard Enterprise Supply Chains
+name: AIR
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: AIR 是一家 AI 代理安全初创公司，融资 5000 万美元，专注于保护企业供应链免受 AI 代理相关威胁。具体产品功能待核验。
+inspiration: AI 代理的普及带来新的安全需求，可关注代理行为监控和供应链安全。
+summary_en: AIR is an AI agent security startup that raised $50M to protect enterprise supply chains from
+  AI agent-related threats. Specific product features are to be verified.
+inspiration_en: The rise of AI agents creates new security needs; focus on agent behavior monitoring and
+  supply chain security.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 网络安全
+- 供应链
+industries_en:
+- Cybersecurity
+- Supply Chain
+jobs:
+- 安全分析师
+- 供应链经理
+jobs_en:
+- Security Analysts
+- Supply Chain Managers
 regions: []
 regions_en: []
 open_source: false
@@ -21,7 +31,7 @@ canonical_url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQM0pRcDBRUXhP
 summary: AI Agent Security Startup AIR Raises $50 Million to Guard Enterprise Supply Chains PYMNTS.com
 first_seen: '2026-09-01T22:40:16Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:
@@ -32,7 +42,7 @@ sightings:
   kind: news
 ---
 
-# AI Agent Security Startup AIR Raises $50 Million to Guard Enterprise Supply Chains
+# AIR
 
 AI Agent Security Startup AIR Raises $50 Million to Guard Enterprise Supply Chains PYMNTS.com
 

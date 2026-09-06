@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxON3pvcmVHZ3d2
 summary: AI ROI Gap Signals Governance Deficit, Not Technology Deficit The Futurum Group
 first_seen: '2026-09-01T12:58:17Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

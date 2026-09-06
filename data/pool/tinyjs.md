@@ -21,7 +21,7 @@ canonical_url: https://tinyjs.app
 summary: small apps on Win/Mac/Linux
 first_seen: '2026-09-01T22:25:05Z'
 last_seen: '2026-09-02T14:31:39Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

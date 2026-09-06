@@ -1,6 +1,6 @@
 ---
 slug: 深中华a澄清无ai业务收入不涉及金饰零售及apec相关业务
-name: 深中华A澄清：无AI业务收入、不涉及金饰零售及APEC相关业务
+name: 深中华A
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QdDBzMmtraldB
 summary: 深中华A澄清：无AI业务收入、不涉及金饰零售及APEC相关业务 东方财富
 first_seen: '2026-09-02T12:51:21Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 深中华A澄清：无AI业务收入、不涉及金饰零售及APEC相关业务
+# 深中华A
 
 深中华A澄清：无AI业务收入、不涉及金饰零售及APEC相关业务 东方财富
 

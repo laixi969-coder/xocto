@@ -1,0 +1,40 @@
+- id: req-initial-freightscout-wins-2026-jacksonville-venture-competition-host-2026-09-02
+  project_slug: freightscout-wins-2026-jacksonville-venture-competition-host
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它可能解决货运匹配的痛点，但产品功能未披露，无法确认具体需求。
+    evidence_ids:
+    - ev-d50706de71fb3381
+  - gate: consensus
+    status: insufficient
+    reason: 仅有赢得竞赛的报道，缺乏用户采用或行业反馈。
+    evidence_ids:
+    - ev-d50706de71fb3381
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids:
+    - ev-d50706de71fb3381
+  - gate: truth
+    status: insufficient
+    reason: 产品细节不足，无法判断其真实性和交付能力。
+    evidence_ids:
+    - ev-d50706de71fb3381
+  next_validation: 查找 FreightScout 的官方网站或产品介绍，以了解其具体功能和目标用户。
+  market: ''
+  job: 货运经纪人需要高效匹配货物与运力，减少空驶和成本。
+  job_en: Freight brokers need to efficiently match cargo with capacity, reducing empty miles and costs.
+  pain: 货运匹配依赖人工电话和表格，效率低且信息不对称。
+  pain_en: Freight matching relies on manual phone calls and spreadsheets, which is inefficient and has
+    information asymmetry.
+  current_alternative: 目前货运经纪人使用电话、电子邮件和传统货运平台进行匹配。
+  current_alternative_en: Currently, freight brokers use phone calls, emails, and traditional freight
+    platforms for matching.
+  usage_reason: 由于产品细节未披露，无法确认其具体价值，但物流行业的痛点可能促使用户关注。
+  usage_reason_en: Since product details are not disclosed, its specific value cannot be confirmed, but
+    pain points in the logistics industry may drive user interest.

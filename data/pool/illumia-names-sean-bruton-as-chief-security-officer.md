@@ -1,11 +1,12 @@
 ---
 slug: illumia-names-sean-bruton-as-chief-security-officer
-name: Illumia names Sean Bruton as chief security officer
+name: Illumia
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Illumia 是一家澳大利亚公司，本次任命首席安全官以加强其安全领导力。具体业务领域未在资料中明确。
 inspiration: ''
-summary_en: ''
+summary_en: Illumia is an Australian company that appointed a Chief Security Officer to strengthen security
+  leadership. Specific business areas are not specified in the available information.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOSjdHQmQ3aDc1
 summary: Illumia names Sean Bruton as chief security officer IT Brief Australia
 first_seen: '2026-09-01T20:44:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Illumia names Sean Bruton as chief security officer
+# Illumia
 
 Illumia names Sean Bruton as chief security officer IT Brief Australia
 

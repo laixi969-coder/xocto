@@ -1,0 +1,41 @@
+- id: req-initial-硬件加强版workbuddy拿下数亿融资瞄向你的终极上下文-2026-09-02
+  project_slug: 硬件加强版workbuddy拿下数亿融资瞄向你的终极上下文
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求助 AI 时反复手动交代屏幕上下文的痛点；旧流程可还原为截图、粘贴、重述，此为工作流推理，痛点高频但刚性程度尚无用户数据佐证。
+    evidence_ids:
+    - ev-b6fc48158c6e9f24
+  - gate: consensus
+    status: supported
+    reason: 联想创投、蓝驰创投等多家机构半年内亿元级下注，投资端对该方向有共识；公开材料未见用户采用规模，用户端共识仍待核验。
+    evidence_ids:
+    - ev-b6fc48158c6e9f24
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，钱可能来自 to C 订阅或 to B 采购，目前只有融资叙事、没有公开付费路径，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b6fc48158c6e9f24
+  - gate: truth
+    status: insufficient
+    reason: 主动式助手能否确定性给出可用结果、屏幕读取的隐私与安全边界如何处理，报道未见说明，交付可靠性未知。
+    evidence_ids:
+    - ev-b6fc48158c6e9f24
+  next_validation: 检索 Violoop 官方定价页或公开发售渠道，确认硬件售价、订阅模式与买方定位。
+  market: ''
+  job: 知识工作者在多窗口办公时，希望随时获得已理解当前屏幕上下文的 AI 帮助
+  job_en: Knowledge workers juggling multiple windows want AI help that already understands their on-screen
+    context
+  pain: 每次向聊天助手求助都要截图、粘贴或重述背景，打断思路且容易漏掉关键信息
+  pain_en: Each time they ask a chat assistant for help they must screenshot, paste or re-explain background,
+    breaking focus and losing key information
+  current_alternative: 目前靠手动把截图和文字贴进通用聊天助手，或用录屏记忆类应用拼凑上下文
+  current_alternative_en: Today they manually paste screenshots and text into general chat assistants,
+    or piece together context with screen-recording memory apps
+  usage_reason: 免去重复交代上下文这一高频动作，硬件即插即用且不占电脑算力，降低持续使用的门槛
+  usage_reason_en: It removes the repeated context handoff, and plug-and-play hardware that offloads compute
+    lowers the barrier to continuous use

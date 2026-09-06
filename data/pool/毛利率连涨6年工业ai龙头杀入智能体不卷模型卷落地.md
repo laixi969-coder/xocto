@@ -1,11 +1,12 @@
 ---
 slug: 毛利率连涨6年工业ai龙头杀入智能体不卷模型卷落地
-name: 毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地
+name: 工业AI龙头
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一篇关于工业AI龙头公司进入智能体领域的报道，属于行业动态。
 inspiration: ''
-summary_en: ''
+summary_en: This is a report about an industrial AI leader entering the agent space, representing industry
+  dynamics.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1lWXM4TVlSakZM
 summary: 毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地 新浪网
 first_seen: '2026-09-01T08:10:50Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# 毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地
+# 工业AI龙头
 
 毛利率连涨6年！工业AI龙头杀入智能体，不卷模型卷落地 新浪网
 

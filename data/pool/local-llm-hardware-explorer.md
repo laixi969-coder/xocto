@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/0xSojalSec/Local-LLM-Hardware-Check
 summary: ''
 first_seen: '2026-09-01T21:14:14Z'
 last_seen: '2026-09-02T14:32:02Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

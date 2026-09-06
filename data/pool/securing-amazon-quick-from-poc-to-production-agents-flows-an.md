@@ -1,11 +1,12 @@
 ---
 slug: securing-amazon-quick-from-poc-to-production-agents-flows-an
-name: 'Securing Amazon Quick from POC to production: Agents, Flows, and Spaces'
+name: Amazon Quick
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Amazon Quick 是 AWS 的 AI 产品，该博客提供安全设计指南。这是平台产品的官方文档，非独立新项目。
 inspiration: ''
-summary_en: ''
+summary_en: Amazon Quick is an AWS AI product, and this blog provides security design guidance. This is
+  official documentation for a platform product, not a standalone new project.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: 'Amazon Quick proof-of-concept projects often stall when security teams
   and approval gates.'
 first_seen: '2026-09-01T16:02:22Z'
 last_seen: '2026-09-02T00:14:53Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Securing Amazon Quick from POC to production: Agents, Flows, and Spaces
+# Amazon Quick
 
 Amazon Quick proof-of-concept projects often stall when security teams review the production plan. This post walks through designing dashboards, Spaces, knowledge bases, agents, and Flows with security controls that hold as you scale: dataset shaping, agent isolation, document classification, and approval gates.
 

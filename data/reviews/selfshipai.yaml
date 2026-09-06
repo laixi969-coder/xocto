@@ -1,0 +1,38 @@
+- id: req-initial-selfshipai-2026-09-02
+  project_slug: selfshipai
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agentic 应用运维中的监控和修复需求，痛点明确。
+    evidence_ids:
+    - ev-7ffda3e69c4a2d88
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 公开资料 讨论，无采用证据。
+    evidence_ids:
+    - ev-7ffda3e69c4a2d88
+  - gate: model
+    status: insufficient
+    reason: 付费模式不清晰，可能面向企业。
+    evidence_ids:
+    - ev-7ffda3e69c4a2d88
+  - gate: truth
+    status: insufficient
+    reason: 自动修复的可靠性和安全性未验证。
+    evidence_ids:
+    - ev-7ffda3e69c4a2d88
+  next_validation: 查找 Selfship.ai 官方文档或定价页，了解其支持的 agent 框架和修复机制。
+  market: ''
+  job: 监控 agentic 应用的运行状态，并在出现问题时自动修复。
+  job_en: Monitor the operational status of agentic applications and automatically fix issues when they
+    arise.
+  pain: agentic 应用可能因模型输出不稳定而失败，人工监控成本高。
+  pain_en: Agentic applications may fail due to unstable model outputs, and manual monitoring is costly.
+  current_alternative: 使用传统监控工具或人工检查日志，无法自动修复。
+  current_alternative_en: Using traditional monitoring tools or manual log inspection, without auto-fix.
+  usage_reason: 开发者需要减少 on-call 负担，自动修复有吸引力。
+  usage_reason_en: Developers need to reduce on-call burden, auto-fix is attractive.

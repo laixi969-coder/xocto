@@ -195,3 +195,41 @@
   usage_reason: 社区讨论热烈，86 分 62 评论，显示开发者对此痛点有共鸣，开源工具免费可用。
   usage_reason_en: 86 points and 62 comments in community discussion show developer resonance with this
     pain point; the open-source tool is free to use.
+- id: req-initial-tare-2026-09-02
+  project_slug: tare
+  level: initial
+  reviewed_at: '2026-09-02T00:14:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决开发者额度异常耗尽后无从归因的痛点：定位高消耗环节、避免反复撞墙；来自构建者自身遭遇与社区讨论共鸣，属工作流推理，采用证据有限。
+    evidence_ids:
+    - ev-946b689917236e17
+  - gate: consensus
+    status: insufficient
+    reason: 单次技术社区讨论热度（86 分、62 评论）只证明感知已建立，未见持续采用或重复使用证据，共识卡在场景验证环节。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 买方与定价未披露，工具以开源形式分发；钱可能来自个人订阅或团队版授权，此为判断而非已验证事实，付费路径未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 诊断目标贴近第一性需求，但日志接入方式、输出能否确定性交付、用量数据的安全边界均未见文档说明，交付确定性不足。
+    evidence_ids: []
+  next_validation: 核验该项目公开文档与 issue 区，确认诊断输出的具体交付形式、日志接入方式及用户实际反馈的使用问题。
+  market: ''
+  job: 使用 AI 编程工具时，搞清订阅额度为何异常快速耗尽，并控制后续用量。
+  job_en: While using AI coding tools, understand why the subscription quota drains abnormally fast and
+    keep future usage under control.
+  pain: 额度十分钟内耗尽却看不到去向，工作被打断，只能反复撞墙或盲目省着用。
+  pain_en: Quota runs out within minutes with no visibility into where it went; work is interrupted and
+    developers either hit the wall repeatedly or ration blindly.
+  current_alternative: 翻看官方用量后台的粗粒度数据、靠猜测调整使用习惯，或人工翻查会话记录估算消耗。
+  current_alternative_en: Skim coarse provider usage dashboards, guess at causes, or manually review session
+    records to estimate consumption.
+  usage_reason: 诊断直接回答'为什么这么快用完'，若输出可执行的归因结论，开发者会为省时间和避免断供而使用。
+  usage_reason_en: The diagnosis directly answers 'why did it run out so fast'; if it yields actionable
+    attribution, developers will use it to save time and avoid interruptions.

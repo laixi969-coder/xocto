@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNVTUxRnZmQzN4
 summary: 7 best SEO agencies for SaaS startups thenantwichnews.co.uk
 first_seen: '2026-09-01T15:54:35Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

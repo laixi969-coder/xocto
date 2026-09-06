@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/while-climate-tech-investments-are-dow
 summary: ''
 first_seen: '2026-09-02T05:00:39Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,36 @@
+- id: req-initial-painauchoc-2026-09-02
+  project_slug: painauchoc
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决美食选择痛点，但排名的主观性和缺乏透明标准可能降低信任。
+    evidence_ids:
+    - ev-267812923e76b22a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 HN 讨论，共识未明。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法评估交付确定性。
+    evidence_ids: []
+  next_validation: 检查网站是否披露评价方法和数据来源，以及是否有用户反馈或更新记录。
+  market: ''
+  job: 用户想快速找到巴黎最好吃的巧克力面包，节省筛选时间。
+  job_en: Users want to quickly find the best pain au chocolat in Paris, saving time on filtering.
+  pain: 游客和美食爱好者面对众多面包店，缺乏可靠、客观的排名。
+  pain_en: Tourists and food enthusiasts face many bakeries, lacking reliable, objective rankings.
+  current_alternative: 用户可能依赖评论网站、社交媒体或朋友推荐，但信息分散且主观。
+  current_alternative_en: Users may rely on review sites, social media, or friend recommendations, which
+    are scattered and subjective.
+  usage_reason: 作为新奇工具可能吸引一次性访问，但需持续更新和权威性才能留住用户。
+  usage_reason_en: As a novelty, it may attract one-time visits, but needs updates and authority to retain
+    users.

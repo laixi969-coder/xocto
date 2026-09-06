@@ -1,0 +1,37 @@
+- id: req-initial-ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio-2026-09-02
+  project_slug: ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售流程中数据录入和研究耗时的问题，痛点明确。
+    evidence_ids:
+    - ev-3bdc733a624e2aa0
+  - gate: consensus
+    status: supported
+    reason: 70 亿美元估值表明市场高度认可。
+    evidence_ids:
+    - ev-3bdc733a624e2aa0
+  - gate: model
+    status: insufficient
+    reason: 具体定价和客户案例未披露。
+    evidence_ids:
+    - ev-3bdc733a624e2aa0
+  - gate: truth
+    status: insufficient
+    reason: 产品实际效果和用户采用数据未公开。
+    evidence_ids:
+    - ev-3bdc733a624e2aa0
+  next_validation: 查找 Clay 官方网站或产品文档，确认其具体功能和定价。
+  market: ''
+  job: 销售和市场人员需要自动化销售流程和客户数据管理。
+  job_en: Sales and marketing professionals need to automate sales processes and manage customer data.
+  pain: 手动数据录入和客户研究耗时。
+  pain_en: Manual data entry and customer research are time-consuming.
+  current_alternative: 使用 CRM 和手动搜索。
+  current_alternative_en: Using CRM and manual research.
+  usage_reason: AI 可能自动化数据丰富和销售线索生成。
+  usage_reason_en: AI may automate data enrichment and lead generation.

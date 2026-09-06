@@ -311,3 +311,41 @@
   usage_reason: cover 提供自动化脱敏和恢复，减少手动工作，但采用证据尚未核验。
   usage_reason_en: cover offers automated masking and restoration, reducing manual work, but adoption
     evidence not yet verified.
+- id: req-initial-cover-2026-09-02
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：保护敏感数据在外部 AI 调用中的隐私。但具体工作流和交付结果未核验，价值判断证据不足。
+    evidence_ids:
+    - ev-feba8eca8809ba8f
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目星数 41，关注度低，缺乏强场景证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看 公开代码仓库 仓库的 README 和 issue 讨论，确认具体使用场景和用户反馈。
+  market: ''
+  job: 开发者在调用外部 AI 代理处理包含敏感数据的任务时，需要保护数据隐私。
+  job_en: Developers need to protect data privacy when calling external AI agents to process tasks involving
+    sensitive data.
+  pain: 直接发送真实数据给外部 AI 存在泄露风险，而手动脱敏又耗时且可能影响数据可用性。
+  pain_en: Sending real data to external AI risks leakage, while manual anonymization is time-consuming
+    and may affect data usability.
+  current_alternative: 目前开发者可能选择不调用外部 AI、自行脱敏或使用内部模型。
+  current_alternative_en: Currently, developers may choose not to call external AI, anonymize data themselves,
+    or use internal models.
+  usage_reason: 如果可逆脱敏能确保数据可用性并简化流程，开发者可能采用它来安全地利用外部 AI 能力。
+  usage_reason_en: If reversible anonymization ensures data usability and simplifies the process, developers
+    may adopt it to safely leverage external AI capabilities.

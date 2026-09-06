@@ -1,0 +1,39 @@
+- id: req-initial-how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-pa-2026-09-02
+  project_slug: how-t54-built-a-trust-layer-with-amazon-bedrock-agentcore-pa
+  level: initial
+  reviewed_at: '2026-09-02T00:14:53Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自主代理支付的安全痛点，痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-dfa53124d831007e
+  - gate: consensus
+    status: supported
+    reason: 超过 2000 万笔交易表明已有实际采用，共识初步成立。
+    evidence_ids:
+    - ev-dfa53124d831007e
+  - gate: model
+    status: insufficient
+    reason: 公开资料未说明定价或商业模式，买方可能是使用代理支付的企业。
+    evidence_ids:
+    - ev-dfa53124d831007e
+  - gate: truth
+    status: supported
+    reason: 信任层贴近支付安全的第一性目标，承诺可确定性交付。
+    evidence_ids:
+    - ev-dfa53124d831007e
+  next_validation: 查找 x402-secure 的官方产品页或定价信息，确认商业模式和客户类型。
+  market: ''
+  job: 自主代理需要安全地执行支付，防止欺诈和未授权交易。
+  job_en: Autonomous agents need to execute payments securely, preventing fraud and unauthorized transactions.
+  pain: 代理支付缺乏人工审核，面临端点欺诈、凭证泄露和预算失控风险。
+  pain_en: Agent payments lack human review, risking endpoint fraud, credential leakage, and budget overruns.
+  current_alternative: 目前主要依赖人工审批或简单的 API 密钥管理，无法满足代理场景的规模和速度。
+  current_alternative_en: Currently relies on manual approval or simple API key management, unable to
+    meet the scale and speed of agent scenarios.
+  usage_reason: 已有超过 2000 万笔交易使用，表明代理支付信任问题真实存在，且该方案被采用。
+  usage_reason_en: Over 20 million transactions already use it, indicating the trust problem is real and
+    the solution is adopted.

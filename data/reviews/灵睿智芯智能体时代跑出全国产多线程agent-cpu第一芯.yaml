@@ -1,0 +1,37 @@
+- id: req-initial-灵睿智芯智能体时代跑出全国产多线程agent-cpu第一芯-2026-09-02
+  project_slug: 灵睿智芯智能体时代跑出全国产多线程agent-cpu第一芯
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决芯片国产化需求，但具体痛点不明确，缺乏用户任务细节。
+    evidence_ids:
+    - ev-d3d835f8c927292e
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏采用证据。
+    evidence_ids:
+    - ev-d3d835f8c927292e
+  - gate: model
+    status: insufficient
+    reason: 买方可能是数据中心或设备商，但付费模式未明确。
+    evidence_ids:
+    - ev-d3d835f8c927292e
+  - gate: truth
+    status: insufficient
+    reason: 产品是否贴近第一性目标待核验。
+    evidence_ids:
+    - ev-d3d835f8c927292e
+  next_validation: 查找灵睿智芯官方产品文档或客户案例。
+  market: ''
+  job: 智能体运行需要高性能计算芯片。
+  job_en: Agents require high-performance computing chips.
+  pain: 依赖进口芯片，存在供应链风险。
+  pain_en: Dependence on imported chips poses supply chain risks.
+  current_alternative: 使用进口CPU或GPU。
+  current_alternative_en: Using imported CPUs or GPUs.
+  usage_reason: 国产化需求可能驱动采用。
+  usage_reason_en: Domestic substitution needs may drive adoption.

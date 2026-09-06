@@ -1,0 +1,39 @@
+- id: req-initial-quoting-rick-brewster-2026-09-02
+  project_slug: quoting-rick-brewster
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Paint.NET 在 WINE 上无法运行的痛点，需求刚性，交付可确定。
+    evidence_ids:
+    - ev-7573b3184f0f2d72
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论有限，但作者作为核心维护者的背书提供了场景可信度。
+    evidence_ids:
+    - ev-7573b3184f0f2d72
+  - gate: model
+    status: insufficient
+    reason: 这是开源项目，无直接付费路径，但可能通过捐赠或商业支持。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 代码未经全面审查，质量风险高，但作者明确说明，求真性尚可。
+    evidence_ids:
+    - ev-7573b3184f0f2d72
+  next_validation: 检查 Paint.NET 官方仓库或 WINE 社区是否有关于该 Direct2D 重写的进一步讨论或测试结果。
+  market: ''
+  job: 让 Paint.NET 在 WINE 上运行，需要实现 Direct2D 兼容层。
+  job_en: To run Paint.NET on WINE, a Direct2D compatibility layer is needed.
+  pain: Direct2D 在 WINE 上从未完整实现，且无法禁用，导致 Paint.NET 无法运行。
+  pain_en: Direct2D has never been fully implemented on WINE and cannot be disabled, preventing Paint.NET
+    from running.
+  current_alternative: 此前没有可行的替代方案，WINE 的 Direct2D 支持不足，项目长期受阻。
+  current_alternative_en: Previously no viable alternative existed; WINE's Direct2D support was insufficient,
+    blocking the project for a long time.
+  usage_reason: 开发者需要让 Paint.NET 在 WINE 上运行，AI 辅助逆向工程使这一原本不可能的任务成为可能。
+  usage_reason_en: Developers need Paint.NET to run on WINE, and AI-assisted reverse engineering made
+    this previously impossible task feasible.

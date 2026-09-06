@@ -1,0 +1,37 @@
+- id: req-initial-ai-agent-security-startup-air-raises-50-million-to-guard-ent-2026-09-02
+  project_slug: ai-agent-security-startup-air-raises-50-million-to-guard-ent
+  level: initial
+  reviewed_at: '2026-09-02T00:14:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理带来的供应链安全痛点，问题明确。
+    evidence_ids:
+    - ev-a04a5a77635289a4
+  - gate: consensus
+    status: supported
+    reason: 融资 5000 万美元表明投资者认可。
+    evidence_ids:
+    - ev-a04a5a77635289a4
+  - gate: model
+    status: insufficient
+    reason: 商业模式和客户案例未披露。
+    evidence_ids:
+    - ev-a04a5a77635289a4
+  - gate: truth
+    status: insufficient
+    reason: 产品实际效果和采用情况未公开。
+    evidence_ids:
+    - ev-a04a5a77635289a4
+  next_validation: 查找 AIR 官方网站或产品文档，确认其具体功能和目标客户。
+  market: ''
+  job: 企业需要保护其供应链免受 AI 代理带来的安全威胁。
+  job_en: Enterprises need to protect their supply chains from security threats posed by AI agents.
+  pain: AI 代理可能被滥用，供应链攻击面扩大。
+  pain_en: AI agents can be abused, expanding the supply chain attack surface.
+  current_alternative: 传统安全工具可能无法覆盖 AI 代理行为。
+  current_alternative_en: Traditional security tools may not cover AI agent behavior.
+  usage_reason: 专门针对 AI 代理的安全方案可能填补空白。
+  usage_reason_en: Dedicated AI agent security solutions may fill a gap.

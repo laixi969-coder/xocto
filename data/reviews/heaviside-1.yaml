@@ -1,0 +1,39 @@
+- id: req-initial-heaviside-1-2026-09-02
+  project_slug: heaviside-1
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体应用场景和用户反馈。
+    evidence_ids:
+    - ev-e8944f252cf8ad29
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，无法判断认知或场景是否形成。
+    evidence_ids:
+    - ev-e8944f252cf8ad29
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或论文，说明具体输入输出和验证结果。
+  market: ''
+  job: 物理学家或电气工程师在电磁学研究中需要求解复杂的电磁场问题。
+  job_en: Physicists or electrical engineers need to solve complex electromagnetic field problems in their
+    research.
+  pain: 传统数值方法计算量大、耗时长，且需要专业知识。
+  pain_en: Traditional numerical methods are computationally intensive, time-consuming, and require specialized
+    knowledge.
+  current_alternative: 目前使用 COMSOL、ANSYS 等专业仿真软件或自编代码。
+  current_alternative_en: Currently using professional simulation software like COMSOL, ANSYS, or custom
+    code.
+  usage_reason: 可能因其声称的基座模型能力而吸引研究者试用，但具体优势尚未明确。
+  usage_reason_en: Researchers may try it due to its claimed foundation model capabilities, but specific
+    advantages are unclear.

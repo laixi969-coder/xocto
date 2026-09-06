@@ -1,20 +1,30 @@
 ---
 slug: 硬件加强版workbuddy拿下数亿融资瞄向你的终极上下文
-name: 硬件加强版「WorkBuddy」，拿下数亿融资，瞄向你的终极上下文
+name: Violoop
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: 知识工作者在多窗口办公、需要 AI 帮忙时插上这款巴掌大小硬件；它经 Type-C 连接电脑，实时读取全屏幕内容拼出工作上下文，由 AI 主动给出建议或操作。最终交付形态与是否需人工确认，报道未完整说明。
+inspiration: 亿元级融资说明上下文捕捉与主动式助手正成为聊天机器人之后的下一个战场。切入应避开通用助手正面竞争，从销售通话、法务审阅、设计走查等屏幕上下文高度结构化的垂直流程做起，按结果收费。
+summary_en: Violoop is a palm-sized device that plugs into a computer via Type-C and reads on-screen activity
+  in real time to build working context for a proactive AI assistant. Exact deliverables and human-confirmation
+  steps are not disclosed.
+inspiration_en: Large early-stage funding signals context capture and proactive assistance are the next
+  battleground beyond chatbots. Entry sits in vertical workflows with structured screen context - sales
+  calls, legal review, design walkthroughs - sold on outcomes.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 消费电子
+industries_en:
+- Consumer electronics
+jobs:
+- 知识工作者
+jobs_en:
+- Knowledge workers
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: http://www.geekpark.net/news/369718
 canonical_url: https://geekpark.net/news/369718
@@ -57,7 +67,7 @@ summary: "作者｜苏子华     \n  编辑｜靖宇  \n  \n \n \n 现场体验�
   \ Violoop 本身，未来能够定义一个新品类。 \n 接下来的 AI 应用，拼的可能不再是你会不会写提示词，而是能不能把活儿完整干好，甚至是它能不能先一步，读懂你。极客公园将持续追踪这一赛道的演变。"
 first_seen: '2026-09-02T06:49:04Z'
 last_seen: '2026-09-02T14:32:03Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -68,7 +78,7 @@ sightings:
   kind: news
 ---
 
-# 硬件加强版「WorkBuddy」，拿下数亿融资，瞄向你的终极上下文
+# Violoop
 
 作者｜苏子华     
   编辑｜靖宇  

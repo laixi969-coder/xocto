@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVUpKMmY0cG44
 summary: 懂AI的底层逻辑，理解行业痛点，具备“技术转化”能力 这个“一眼看不懂工作内容”的新职业，能“火”多久 Sohu
 first_seen: '2026-09-01T23:07:12Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

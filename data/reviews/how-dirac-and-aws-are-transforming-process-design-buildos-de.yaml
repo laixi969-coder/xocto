@@ -1,0 +1,39 @@
+- id: req-initial-how-dirac-and-aws-are-transforming-process-design-buildos-de-2026-09-02
+  project_slug: how-dirac-and-aws-are-transforming-process-design-buildos-de
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决制造工艺设计耗时长、依赖专家的痛点，但公开资料未说明具体输入输出和交付确定性。
+    evidence_ids:
+    - ev-73d099c615a6663f
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或行业共识证据，仅有一篇报道。
+    evidence_ids:
+    - ev-73d099c615a6663f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找 BuildOS 官方产品页或客户案例，确认具体工作流程和交付结果。
+  market: ''
+  job: 制造企业需要快速设计或优化生产工艺流程，以缩短新产品上市时间。
+  job_en: Manufacturers need to quickly design or optimize production processes to shorten time-to-market
+    for new products.
+  pain: 传统工艺设计依赖专家经验，耗时长、迭代慢，难以应对多品种小批量需求。
+  pain_en: Traditional process design relies on expert experience, is time-consuming and slow to iterate,
+    struggling with high-mix low-volume demands.
+  current_alternative: 目前主要依靠工艺工程师手工设计，或使用仿真软件进行验证。
+  current_alternative_en: Currently relies on manual design by process engineers or simulation software
+    for validation.
+  usage_reason: 若 AI 能显著缩短设计周期并提供可靠方案，制造企业有动力试用，但需证明实际效果。
+  usage_reason_en: If AI can significantly shorten design cycles and provide reliable plans, manufacturers
+    have incentive to try, but actual effectiveness must be proven.

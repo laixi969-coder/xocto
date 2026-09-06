@@ -1,0 +1,40 @@
+- id: req-initial-chatgpt-health-adds-epic-integration-for-clinicians-to-impor-2026-09-02
+  project_slug: chatgpt-health-adds-epic-integration-for-clinicians-to-impor
+  level: initial
+  reviewed_at: '2026-09-02T00:14:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医生病历阅读耗时问题，痛点明确，交付可确定，但需人工核对。
+    evidence_ids:
+    - ev-25b13867e274b6d1
+  - gate: consensus
+    status: insufficient
+    reason: 集成新闻显示初步采用，但缺乏医生使用反馈或规模数据。
+    evidence_ids:
+    - ev-25b13867e274b6d1
+  - gate: model
+    status: insufficient
+    reason: 买方可能是医院或医生，但付费模式未披露。
+    evidence_ids:
+    - ev-25b13867e274b6d1
+  - gate: truth
+    status: insufficient
+    reason: 医疗场景需验证准确性、安全性与监管合规。
+    evidence_ids:
+    - ev-25b13867e274b6d1
+  next_validation: 查找 ChatGPT Health 官方产品页或临床案例，确认具体功能与付费方式。
+  market: ''
+  job: 临床医生需要快速获取并理解患者病史，原来需在 EHR 中手动翻阅多个模块。
+  job_en: Clinicians need to quickly access and understand patient history, previously requiring manual
+    navigation across EHR modules.
+  pain: 病历数据分散、阅读耗时，影响诊疗效率与决策速度。
+  pain_en: Fragmented records and time-consuming review reduce efficiency and decision speed.
+  current_alternative: 直接在 Epic 中手动查看病历，或使用现有临床决策支持工具。
+  current_alternative_en: Manually reviewing charts in Epic, or using existing clinical decision support
+    tools.
+  usage_reason: AI 能汇总多源病历并生成摘要，减少医生翻阅时间，但需确保准确性与合规。
+  usage_reason_en: AI can aggregate records and generate summaries, saving time, but accuracy and compliance
+    are critical.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxOZHIxU04yejFH
 summary: Human-like AI Not Always Answer In Customer Service Mirage News
 first_seen: '2026-09-01T21:22:00Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

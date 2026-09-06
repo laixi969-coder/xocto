@@ -1,11 +1,12 @@
 ---
 slug: brickworks-modernises-integration-architecture-and-activates
-name: Brickworks Modernises Integration Architecture and Activates Enterprise Data With Boomi
+name: Brickworks
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Brickworks 采用 Boomi 的集成平台，统一连接企业各业务系统，激活数据供分析与 AI 使用。这是企业数据架构改造的案例，不是独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Brickworks adopted Boomi's integration platform to unify enterprise systems and activate data
+  for analytics and AI. This is an enterprise data architecture case, not an independent product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Brickworks Modernises Integration Architecture and Activates Enterprise
   Wire
 first_seen: '2026-09-01T23:00:00Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Brickworks Modernises Integration Architecture and Activates Enterprise Data With Boomi
+# Brickworks
 
 Brickworks Modernises Integration Architecture and Activates Enterprise Data With Boomi Business Wire
 

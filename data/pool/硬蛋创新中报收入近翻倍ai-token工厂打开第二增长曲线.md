@@ -1,6 +1,6 @@
 ---
 slug: 硬蛋创新中报收入近翻倍ai-token工厂打开第二增长曲线
-name: 硬蛋创新中报收入近翻倍，AI Token工厂打开第二增长曲线
+name: 硬蛋创新
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiakFVX3lxTE85a1lOc0FMRmF6
 summary: 硬蛋创新中报收入近翻倍，AI Token工厂打开第二增长曲线 财经号
 first_seen: '2026-09-02T09:23:58Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 硬蛋创新中报收入近翻倍，AI Token工厂打开第二增长曲线
+# 硬蛋创新
 
 硬蛋创新中报收入近翻倍，AI Token工厂打开第二增长曲线 财经号
 

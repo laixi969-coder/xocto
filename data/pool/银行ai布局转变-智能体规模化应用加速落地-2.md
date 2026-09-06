@@ -1,11 +1,12 @@
 ---
 slug: 银行ai布局转变-智能体规模化应用加速落地-2
-name: 银行AI布局转变 智能体规模化应用加速落地
+name: 银行业AI智能体应用
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 银行AI布局从单点试验转向规模化应用，智能体在银行场景加速落地，反映行业数字化转型进入新阶段。
 inspiration: ''
-summary_en: ''
+summary_en: Banks are shifting from pilot AI projects to large-scale deployment of intelligent agents,
+  accelerating adoption in banking scenarios and marking a new phase of digital transformation.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFB2OVd1bmJaQld1
 summary: 银行AI布局转变 智能体规模化应用加速落地 t.cj.sina.cn
 first_seen: '2026-08-31T04:05:33Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 银行AI布局转变 智能体规模化应用加速落地
+# 银行业AI智能体应用
 
 银行AI布局转变 智能体规模化应用加速落地 t.cj.sina.cn
 

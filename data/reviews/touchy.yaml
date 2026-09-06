@@ -1,0 +1,35 @@
+- id: req-initial-touchy-2026-09-02
+  project_slug: touchy
+  level: initial
+  reviewed_at: '2026-09-02T14:31:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，仅宣称理解周围世界，缺乏具体任务和交付。
+    evidence_ids:
+    - ev-3d2349384f6ba294
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，无采用或关注证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无付费路径信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验交付确定性。
+    evidence_ids: []
+  next_validation: 官方产品页或应用商店描述，明确具体功能、输入输出和定价。
+  market: ''
+  job: 用户希望在移动设备上获得一个能理解周围环境的助手，但具体任务未明确。
+  job_en: Users seek an assistant on mobile that understands their surroundings, but the specific task
+    is unclear.
+  pain: 信息不足，无法判断具体痛点。
+  pain_en: Insufficient information to identify specific pain points.
+  current_alternative: 现有替代方式未知，可能包括通用语音助手或手动搜索。
+  current_alternative_en: Existing alternatives unknown, possibly general voice assistants or manual search.
+  usage_reason: 缺乏具体场景和证据，无法解释为何有人使用。
+  usage_reason_en: Lack of specific scenarios and evidence to explain why anyone would use it.

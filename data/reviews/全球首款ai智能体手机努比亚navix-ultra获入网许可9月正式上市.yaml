@@ -1,0 +1,39 @@
+- id: req-initial-全球首款ai智能体手机努比亚navix-ultra获入网许可9月正式上市-2026-09-02
+  project_slug: 全球首款ai智能体手机努比亚navix-ultra获入网许可9月正式上市
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决手机助手能力不足的痛点，但具体功能未披露，需求强度无法判断。
+    evidence_ids:
+    - ev-0d35b5733442cf78
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用数据，仅发布新闻。
+    evidence_ids:
+    - ev-0d35b5733442cf78
+  - gate: model
+    status: insufficient
+    reason: 商业模式未披露，买方为消费者但定价未知。
+    evidence_ids:
+    - ev-0d35b5733442cf78
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性可核验，但AI功能交付确定性未知。
+    evidence_ids:
+    - ev-0d35b5733442cf78
+  next_validation: 查找努比亚NaviX Ultra的官方产品页面或评测。
+  market: ''
+  job: 用户希望通过手机上的AI智能体完成日常任务，如语音控制、信息查询等。
+  job_en: Users hope to complete daily tasks via an AI agent on their phone, such as voice control and
+    information lookup.
+  pain: 现有手机助手功能有限，无法理解复杂指令或执行多步操作。
+  pain_en: Existing phone assistants are limited, unable to understand complex commands or execute multi-step
+    actions.
+  current_alternative: 使用手机自带助手或安装第三方AI应用。
+  current_alternative_en: Using built-in phone assistants or installing third-party AI apps.
+  usage_reason: 用户可能因“AI智能体”概念而关注，但实际需求强度未明。
+  usage_reason_en: Users may be attracted by the 'AI agent' concept, but actual demand intensity is unclear.

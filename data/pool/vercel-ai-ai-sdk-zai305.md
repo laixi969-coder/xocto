@@ -1,11 +1,12 @@
 ---
 slug: vercel-ai-ai-sdk-zai305
-name: 'vercel/ai: @ai-sdk/zai@3.0.5'
+name: '@ai-sdk/zai'
 builder: vercel
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -22,7 +23,7 @@ summary: "### Patch Changes\n\n- Updated dependencies [6bcc0f8]\n  - @ai-sdk/pro
   \ - @ai-sdk/openai-compatible@3.0.43"
 first_seen: '2026-09-02T03:20:52Z'
 last_seen: '2026-09-02T14:31:42Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# vercel/ai: @ai-sdk/zai@3.0.5
+# @ai-sdk/zai
 
 ### Patch Changes
 

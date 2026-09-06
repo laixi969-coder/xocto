@@ -1,0 +1,37 @@
+- id: req-initial-whatsapp-remittance-startup-félix-secures-200m-series-c-led-2026-09-02
+  project_slug: whatsapp-remittance-startup-félix-secures-200m-series-c-led
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决拉美移民跨境汇款的高频痛点，旧流程费用高且不便。
+    evidence_ids:
+    - ev-c36ae31f09c895ce
+  - gate: consensus
+    status: supported
+    reason: 获得顶级风投2亿美元融资，表明市场认可。
+    evidence_ids:
+    - ev-c36ae31f09c895ce
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能收取交易费，但具体定价未公开。
+    evidence_ids:
+    - ev-c36ae31f09c895ce
+  - gate: truth
+    status: insufficient
+    reason: AI在合规和交易处理中的实际效果未公开验证。
+    evidence_ids:
+    - ev-c36ae31f09c895ce
+  next_validation: 查找Félix的官方定价页面或用户评价。
+  market: ''
+  job: 拉美移民需要向家乡汇款，传统渠道费用高、流程繁琐。
+  job_en: Latino immigrants need to send money home; traditional channels are costly and cumbersome.
+  pain: 传统汇款服务手续费高、到账慢、需要去线下网点。
+  pain_en: Traditional remittance services have high fees, slow delivery, and require physical visits.
+  current_alternative: 使用西联汇款等传统服务或现金携带。
+  current_alternative_en: Using traditional services like Western Union or carrying cash.
+  usage_reason: 通过熟悉的WhatsApp界面即可完成汇款，降低使用门槛。
+  usage_reason_en: Familiar WhatsApp interface enables remittance, lowering the barrier to use.

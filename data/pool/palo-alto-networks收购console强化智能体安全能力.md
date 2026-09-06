@@ -1,11 +1,12 @@
 ---
 slug: palo-alto-networks收购console强化智能体安全能力
-name: Palo Alto Networks收购Console，强化智能体安全能力
+name: Palo Alto Networks
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTE0zangwVU9DRnZC
 summary: Palo Alto Networks收购Console，强化智能体安全能力 至顶网
 first_seen: '2026-09-02T08:47:28Z'
 last_seen: '2026-09-02T14:32:07Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Palo Alto Networks收购Console，强化智能体安全能力
+# Palo Alto Networks
 
 Palo Alto Networks收购Console，强化智能体安全能力 至顶网
 

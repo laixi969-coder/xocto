@@ -1,0 +1,38 @@
+- id: req-initial-前字节强化学习专家孙鹏博士加盟星尘智能完善physical-ai全栈技术布局-2026-09-02
+  project_slug: 前字节强化学习专家孙鹏博士加盟星尘智能完善physical-ai全栈技术布局
+  level: initial
+  reviewed_at: '2026-09-02T14:32:03Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是重复体力劳动和危险环境作业的需求，但具体产品形态和交付未公开，价值判断证据不足。
+    evidence_ids:
+    - ev-92caddc724f927ee
+  - gate: consensus
+    status: insufficient
+    reason: 人才加盟显示行业热度，但缺乏用户采用或场景验证的公开证据。
+    evidence_ids:
+    - ev-92caddc724f927ee
+  - gate: model
+    status: insufficient
+    reason: 商业模式未公开，买方和付费路径不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 技术布局宏大，但未进入价值关，后续未进入。
+    evidence_ids: []
+  next_validation: 官方产品页或客户案例，展示具体机器人应用场景和部署数据。
+  market: ''
+  job: 在工业或服务场景中执行物理操作任务，如搬运、装配、清洁等。
+  job_en: Perform physical manipulation tasks in industrial or service scenarios, such as handling, assembly,
+    cleaning.
+  pain: 重复性体力劳动人力成本高、效率低，且危险环境人工操作有安全风险。
+  pain_en: Repetitive manual labor is costly and inefficient, and dangerous environments pose safety risks.
+  current_alternative: 传统工业机器人需专业编程和固定工位，无法灵活适应复杂环境；人工仍占主导。
+  current_alternative_en: Traditional industrial robots require programming and fixed stations, lacking
+    flexibility; manual labor still dominates.
+  usage_reason: 具身智能机器人有望在非结构化环境中自主决策，减少人工干预，但目前公开材料未显示具体客户或部署。
+  usage_reason_en: Embodied intelligent robots promise autonomous decision-making in unstructured environments,
+    reducing human intervention, but no specific customers or deployments are publicly disclosed.

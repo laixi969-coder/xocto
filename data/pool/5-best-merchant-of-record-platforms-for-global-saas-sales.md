@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLVdQVjF3V05f
 summary: 5 Best Merchant of Record Platforms for Global SaaS Sales The Ritz Herald
 first_seen: '2026-09-01T17:05:21Z'
 last_seen: '2026-09-02T00:14:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

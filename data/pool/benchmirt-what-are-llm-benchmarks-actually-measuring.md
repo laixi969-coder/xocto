@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/allenai/benchmirt
 summary: ''
 first_seen: '2026-09-01T21:39:07Z'
 last_seen: '2026-09-02T00:14:53Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

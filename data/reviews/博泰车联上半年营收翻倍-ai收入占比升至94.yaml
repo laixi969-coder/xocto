@@ -1,0 +1,37 @@
+- id: req-initial-博泰车联上半年营收翻倍-ai收入占比升至94-2026-09-02
+  project_slug: 博泰车联上半年营收翻倍-ai收入占比升至94
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决车企智能化需求，但具体产品未披露，价值判断证据不足。
+    evidence_ids:
+    - ev-5e021cd05031374d
+    - ev-51bcec9dea49f42f
+  - gate: consensus
+    status: insufficient
+    reason: 营收增长显示商业成功，但AI收入占比仍低，用户采用证据不足。
+    evidence_ids:
+    - ev-5e021cd05031374d
+  - gate: model
+    status: insufficient
+    reason: 商业模式为B2B，但具体定价和客户未公开。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入价值关，后续未进入。
+    evidence_ids: []
+  next_validation: 官方产品页或客户案例，展示具体AI功能和部署效果。
+  market: ''
+  job: 汽车制造商需要提升座舱智能化水平，提供语音交互、自动驾驶辅助等功能。
+  job_en: Automakers need to enhance cockpit intelligence, offering voice interaction, ADAS features.
+  pain: 传统座舱系统体验差，缺乏个性化，车企难以差异化竞争。
+  pain_en: Traditional cockpit systems offer poor experience, lack personalization, making differentiation
+    difficult.
+  current_alternative: 车企自研或采用其他供应商方案，如百度、华为等。
+  current_alternative_en: Automakers self-develop or use other suppliers like Baidu, Huawei.
+  usage_reason: AI功能可能提升用户体验，但公开材料未显示具体客户案例或产品细节。
+  usage_reason_en: AI features may improve UX, but no specific customer cases or product details are public.

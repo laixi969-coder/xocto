@@ -1,11 +1,12 @@
 ---
 slug: python-3150-candidate-2-is-here
-name: Python 3.15.0 candidate 2 is here!
+name: Python
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -37,7 +38,7 @@ summary: "Python 3.15.0 candidate 2 is here!   \nHugo van Kemenade (release mana
   \   \n\n\n     Tags:  open-source ,  python ,  github-actions"
 first_seen: '2026-09-01T14:59:18Z'
 last_seen: '2026-09-02T00:14:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -48,7 +49,7 @@ sightings:
   kind: news
 ---
 
-# Python 3.15.0 candidate 2 is here!
+# Python
 
 Python 3.15.0 candidate 2 is here!   
 Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: 

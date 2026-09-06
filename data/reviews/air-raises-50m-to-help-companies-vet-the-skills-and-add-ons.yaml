@@ -1,0 +1,41 @@
+- id: req-initial-air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-2026-09-02
+  project_slug: air-raises-50m-to-help-companies-vet-the-skills-and-add-ons
+  level: initial
+  reviewed_at: '2026-09-02T14:32:07Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业安全团队无法手动审查大量 AI 代理技能和插件的痛点，交付可核对的审查和拦截结果，价值结构成立。
+    evidence_ids:
+    - ev-05f2e5f0f9e54285
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示资本认可，但缺乏客户采用或使用数据，共识尚未形成公开证据。
+    evidence_ids:
+    - ev-05f2e5f0f9e54285
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业安全预算，但未披露定价或付费模式，商业模式尚未验证。
+    evidence_ids:
+    - ev-05f2e5f0f9e54285
+  - gate: truth
+    status: supported
+    reason: 贴近企业安全的第一性目标，承诺的发现和拦截功能可确定性交付，安全边界明确。
+    evidence_ids:
+    - ev-05f2e5f0f9e54285
+  next_validation: 查找 AIR 的官方定价页或客户案例，确认付费模式和实际采用情况。
+  market: ''
+  job: 企业安全负责人需要确保内部使用的 AI 代理及其技能、插件不会引入安全漏洞或违规行为。
+  job_en: Enterprise security leaders need to ensure that AI agents and their skills/add-ons do not introduce
+    security vulnerabilities or compliance violations.
+  pain: 随着 AI 代理数量增加，手动审查每个代理的技能和插件几乎不可能，存在安全盲区。
+  pain_en: With the growing number of AI agents, manually reviewing each agent's skills and add-ons is
+    nearly impossible, creating security blind spots.
+  current_alternative: 目前企业可能依赖代理供应商的自述或人工抽查，缺乏系统性的持续监控。
+  current_alternative_en: Currently, enterprises may rely on agent vendors' self-reports or manual spot
+    checks, lacking systematic continuous monitoring.
+  usage_reason: AIR 提供自动发现和持续审查，能减轻安全团队的负担，并降低因代理行为不当导致的安全事件风险。
+  usage_reason_en: AIR offers automated discovery and continuous vetting, reducing the burden on security
+    teams and mitigating risks of security incidents from rogue agent behavior.
