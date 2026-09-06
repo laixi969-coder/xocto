@@ -308,3 +308,23 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 软件开发 AI 编程代理开发者 软件工程师'
+- id: ev-309de18171d9b85c
+  project_slug: okf-agent-memory
+  url: https://github.com/okf-memory/okf-agent-memory
+  title: OKF Agent Memory
+  published_at: '2026-09-05T22:15:52Z'
+  collected_at: '2026-09-06T11:01:34Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Git-native persistent memory for AI coding agents
+- id: ev-0938443c4f99ab48
+  project_slug: okf-agent-memory
+  url: https://github.com/okf-memory/okf-agent-memory
+  title: okf-agent-memory
+  published_at: '2026-09-05T21:26:04Z'
+  collected_at: '2026-09-06T11:01:39Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs
+    in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80%
+    with zero external databases or dependencies. Built in pure Go. | repository stars: 187'

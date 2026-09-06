@@ -31,18 +31,18 @@ summary: Agent-native trading terminal built on DeepSeek Harness. Crypto, US, CN
   GUI, 19+ hot-swappable connectors, dry-run by default with human approval on every live order. BYOK,
   no data redistribution.
 first_seen: '2026-08-30T08:38:53Z'
-last_seen: '2026-09-06T06:48:39Z'
+last_seen: '2026-09-06T11:01:39Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zhu1090093659/dsh-trading
-  seen_at: '2026-09-06T06:48:39Z'
+  seen_at: '2026-09-06T11:01:39Z'
   metrics:
     stars: 106
     forks: 7
-    open_issues: 1
+    open_issues: 0
   kind: product
 ---
 

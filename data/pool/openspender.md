@@ -31,16 +31,16 @@ url: https://openspender.com/agent-to-agent
 canonical_url: https://openspender.com/agent-to-agent
 summary: Agent-to-agent payment. Your agents can pay each other
 first_seen: '2026-09-04T23:54:31Z'
-last_seen: '2026-09-05T23:54:01Z'
+last_seen: '2026-09-06T11:01:34Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://openspender.com/agent-to-agent
-  seen_at: '2026-09-05T23:54:01Z'
+  seen_at: '2026-09-06T11:01:34Z'
   metrics:
-    points: 9
+    points: 10
     comments: 1
   kind: product
 ---

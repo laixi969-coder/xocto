@@ -26,18 +26,18 @@ url: https://usemono.dev
 canonical_url: https://usemono.dev
 summary: A GUI for your coding agents
 first_seen: '2026-08-20T09:16:02Z'
-last_seen: '2026-09-06T09:14:25Z'
+last_seen: '2026-09-06T11:01:39Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://usemono.dev
-  seen_at: '2026-09-06T09:14:25Z'
+  seen_at: '2026-09-06T11:01:39Z'
   metrics:
-    stars: 624
+    stars: 625
     forks: 56
-    open_issues: 13
+    open_issues: 14
   kind: product
 ---
 

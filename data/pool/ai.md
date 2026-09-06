@@ -20,18 +20,18 @@ url: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformatio
 canonical_url: https://ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation
 summary: Tools and Transformation
 first_seen: '2026-09-06T02:12:46Z'
-last_seen: '2026-09-06T09:14:21Z'
-status: rejected
+last_seen: '2026-09-06T11:01:34Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
 sightings:
 - source: hackernews
   url: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation
-  seen_at: '2026-09-06T09:14:21Z'
+  seen_at: '2026-09-06T11:01:34Z'
   metrics:
-    points: 52
-    comments: 16
+    points: 70
+    comments: 23
   kind: news
 - source: marketfeeds
   url: https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation

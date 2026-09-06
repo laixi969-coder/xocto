@@ -22,14 +22,20 @@ url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQz
 canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5
 summary: 'GPT-6 Astra: A new generation of intelligence OpenAI'
 first_seen: '2026-09-05T06:54:46Z'
-last_seen: '2026-09-06T04:01:10Z'
-status: market_context
+last_seen: '2026-09-06T11:02:02Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5
   seen_at: '2026-09-06T04:01:10Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Sep/3/gpt6-astra/
+  seen_at: '2026-09-06T11:02:02Z'
   metrics: {}
   kind: news
 ---
