@@ -29,12 +29,13 @@ canonical_url: https://aicpb.com/product/Grok/webid1D6F37429
 summary: Grok is a free AI assistant designed by xAI to maximize truth and objectivity. Grok offers real-time
   searching, image generation, trend analysis, and more.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-09-05T00:06:31Z'
+last_seen: '2026-09-06T08:36:25Z'
 status: pending_filter
 sources:
 - aicpb
 - marketfeeds
 - hackernews
+- newssearch
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/Grok/webid1D6F37429
@@ -60,6 +61,11 @@ sightings:
   metrics:
     points: 159
     comments: 158
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTFB3aXo1UWdLUlh5eWthb1dGWlpMbnpIaWRQaVlEZWMtbTA0RGtPeGsyNmxJdzd5bC1ubHE1V3lWNHdpUkZRSjVSaDFocHBXVjdtNnJYd0xiYXhFYmRIcnB1dFdRcGN1SzIxaDZDeXdBWElBclVKVXlFR1E0V0xmZw?oc=5
+  seen_at: '2026-09-06T08:36:25Z'
+  metrics: {}
   kind: news
 ---
 

@@ -21,18 +21,18 @@ canonical_url: https://mimir.smartlarkai.com
 summary: Mimir — 一站式科研工作台插件：LaTeX 论文边写边编译、arXiv 文献管理、实验追踪、指标图表、GPU 服务器 SSH 任务编排，管理科研全周期。An open-source
   research workbench plugin for the whole research cycle.
 first_seen: '2026-08-20T13:46:05Z'
-last_seen: '2026-09-06T06:48:39Z'
+last_seen: '2026-09-06T08:35:59Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://mimir.smartlarkai.com
-  seen_at: '2026-09-06T06:48:39Z'
+  seen_at: '2026-09-06T08:35:59Z'
   metrics:
-    stars: 206
-    forks: 9
-    open_issues: 1
+    stars: 207
+    forks: 10
+    open_issues: 7
   kind: product
 ---
 

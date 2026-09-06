@@ -22,16 +22,16 @@ summary: 'DSH 个人配置:Token 用量统计 / 成本估算 / 自定义指令 /
   usage stats, cost estimation, custom instructions, global font size & desktop pet with session overview
   — all local & offline.'
 first_seen: '2026-08-19T17:21:07Z'
-last_seen: '2026-09-06T05:29:28Z'
+last_seen: '2026-09-06T08:35:59Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/PolinniZhong/dsh-personal-center
-  seen_at: '2026-09-06T05:29:28Z'
+  seen_at: '2026-09-06T08:35:59Z'
   metrics:
-    stars: 50
+    stars: 51
     forks: 1
     open_issues: 1
   kind: product

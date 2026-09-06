@@ -21,18 +21,18 @@ canonical_url: https://orcarouter.ai
 summary: OrcaReplay — Time travel for AI agents. Record, replay, fork, and debug any agent run with any
   model. Built by the OrcaRouter.ai team.
 first_seen: '2026-08-29T08:41:53Z'
-last_seen: '2026-09-06T06:48:39Z'
+last_seen: '2026-09-06T08:35:59Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: http://www.orcarouter.ai
-  seen_at: '2026-09-06T06:48:39Z'
+  seen_at: '2026-09-06T08:35:59Z'
   metrics:
-    stars: 121
-    forks: 40
-    open_issues: 2
+    stars: 124
+    forks: 43
+    open_issues: 3
   kind: product
 ---
 
