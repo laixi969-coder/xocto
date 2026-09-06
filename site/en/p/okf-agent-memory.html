@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>OKF Agent Memory · x-octo</title>
-<meta name="description" content="OKF Agent Memory is a persistent memory tool for AI coding agents, storing knowledge in a Git-native way based on Google&#39;s OKF spec, representing know…">
+<meta name="description" content="An open-source tool providing Git-native persistent memory for AI coding agents, implementing Google OKF v0.2 with sub-300µs in-memory BM25 search, em…">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/okf-agent-memory.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/okf-agent-memory.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/okf-agent-memory.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/okf-agent-memory.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="OKF Agent Memory · x-octo">
-<meta property="og:description" content="OKF Agent Memory is a persistent memory tool for AI coding agents, storing knowledge in a Git-native way based on Google&#39;s OKF spec, representing know…">
+<meta property="og:description" content="An open-source tool providing Git-native persistent memory for AI coding agents, implementing Google OKF v0.2 with sub-300µs in-memory BM25 search, em…">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/okf-agent-memory.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/okf-agent-memory.html#webpage", "@type": "WebPage", "description": "OKF Agent Memory is a persistent memory tool for AI coding agents, storing knowledge in a Git-native way based on Google\u0027s OKF spec, representing know\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/en/p/okf-agent-memory.html"}, {"@id": "https://xocto.vercel.app/en/p/okf-agent-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-06", "datePublished": "2026-09-06", "description": "OKF Agent Memory is a persistent memory tool for AI coding agents, storing knowledge in a Git-native way based on Google\u0027s OKF spec, representing knowledge as Markdown files with YAML frontmatter. Agents can read and write these files during coding, with built-in BM25 search for fast retrieval, no external database required. It aims to reduce token consumption in long sessions and keep knowledge structured. Specific workflow integration and delivery effects still need verification.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/okf-agent-memory.html#webpage"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/en/p/okf-agent-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/okf-agent-memory.html", "name": "OKF Agent Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/okf-agent-memory.html#webpage", "@type": "WebPage", "description": "An open-source tool providing Git-native persistent memory for AI coding agents, implementing Google OKF v0.2 with sub-300\u00b5s in-memory BM25 search, em\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/en/p/okf-agent-memory.html"}, {"@id": "https://xocto.vercel.app/en/p/okf-agent-memory.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-06", "datePublished": "2026-09-06", "description": "An open-source tool providing Git-native persistent memory for AI coding agents, implementing Google OKF v0.2 with sub-300\u00b5s in-memory BM25 search, embedded MCP server, and progressive disclosure. It claims to slash token bloat by 80% with zero external databases. Developers integrate it into AI coding workflows, allowing agents to remember project context across sessions, reducing redundant input and token costs.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/okf-agent-memory.html#webpage"}, "name": "OKF Agent Memory", "url": "https://xocto.vercel.app/en/p/okf-agent-memory.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/okf-agent-memory.html", "name": "OKF Agent Memory", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>OKF Agent Memory</h1>
       </div>
-      <p class="product-lede">OKF Agent Memory is a persistent memory tool for AI coding agents, storing knowledge in a Git-native way based on Google&#39;s OKF spec, representing knowledge as Markdown files with YAML frontmatter. Agents can read and write these files during coding, with built-in BM25 search for fast retrieval, no external database required. It aims to reduce token consumption in long sessions and keep knowledge structured. Specific workflow integration and delivery effects still need verification.</p>
+      <p class="product-lede">An open-source tool providing Git-native persistent memory for AI coding agents, implementing Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. It claims to slash token bloat by 80% with zero external databases. Developers integrate it into AI coding workflows, allowing agents to remember project context across sessions, reducing redundant input and token costs.</p>
       <div class="meta product-meta">
 <span class="tag sig">Not a business yet</span>        <span class="tag">Early</span>
-<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software Development</span><span class="tag">Software Developer</span><span class="tag">AI Agent Developer</span><span class="tag sig">Cross-market opportunity</span><span class="tag sig">Community score 69</span><span class="tag sig">Open-source traction 231</span>      </div>
+<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software Development</span><span class="tag">AI coding tool developers</span><span class="tag">Software Developer</span><span class="tag sig">Community score 73</span><span class="tag sig">Open-source traction 283</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>okf_memory</dd></div>
@@ -87,19 +87,19 @@
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">The work as it happens</span>
-        <p class="product-lead">AI coding agents need to remember project context, decisions, and preferences during long development tasks, avoiding repeated questions or forgetfulness.</p>
-        <p>Currently developers often use conversation history, project docs, or external vector databases to supplement context, but these are either not persistent or require extra infrastructure.</p>
-        <p>Agents lose context in long sessions, leading to inconsistent outputs or requiring reloading large amounts of tokens, increasing cost and latency.</p>
+        <p class="product-lead">Enable AI coding agents to retain project context across sessions, reducing repeated explanations and token consumption.</p>
+        <p>Currently developers rely on manual summarization or external vector databases, which are complex and costly.</p>
+        <p>AI coding agents lose context each session, causing redundant input and token waste.</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
         <h3>Demand is evidenced</h3>
-        <p>Trend: Long-term memory and knowledge management for AI coding agents are becoming essential, and standardized formats like OKF may become the basis for inter-agent knowledge exchange. Entry: Could start by providing memory management services for specific development teams, or develop collaborative knowledge base tools based on OKF, but integration with existing agent frameworks needs attention.</p>
+        <p>Trend: Context management for AI coding agents is becoming a bottleneck; persistent memory is a necessity. Entry: Develop a hosted service offering team-level memory sync and security, charging per seat or data volume.</p>
       </article>
       <article class="product-panel">
         <span class="field-k">Adoption motive</span>
         <h3>Why someone would keep it in the workflow</h3>
-        <p>Developers would try it because it promises reduced token usage and Git-native persistent memory with no external database, lowering integration cost.</p>
+        <p>Git-native and zero-dependency design lowers integration barriers, directly addressing token waste.</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">Where the easy answer breaks down</span>
@@ -111,19 +111,19 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">If this is your job</span>
-        <p><strong>Worth trying</strong>. Developers would try it because it promises reduced token usage and Git-native persistent memory with no external database, lowering integration cost.</p>
+        <p><strong>Worth trying</strong>. Git-native and zero-dependency design lowers integration barriers, directly addressing token waste.</p>
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
-        <p>Trend: Long-term memory and knowledge management for AI coding agents are becoming essential, and standardized formats like OKF may become the basis for inter-agent knowledge exchange. Entry: Could start by providing memory management services for specific development teams, or develop collaborative knowledge base tools based on OKF, but integration with existing agent frameworks needs attention.</p>
+        <p>Trend: Context management for AI coding agents is becoming a bottleneck; persistent memory is a necessity. Entry: Develop a hosted service offering team-level memory sync and security, charging per seat or data volume.</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">Public fact</span><p>OKF Agent Memory is a persistent memory tool for AI coding agents, storing knowledge in a Git-native way based on Google&#39;s OKF spec, representing knowledge as Markdown files with YAML frontmatter. Agents can read and write these files during coding, with built-in BM25 search for fast retrieval, no external database required. It aims to reduce token consumption in long sessions and keep knowledge structured. Specific workflow integration and delivery effects still need verification.</p></div>
-        <div><span class="field-k">Workflow reasoning</span><p>Developers would try it because it promises reduced token usage and Git-native persistent memory with no external database, lowering integration cost.</p></div>
+        <div><span class="field-k">Public fact</span><p>An open-source tool providing Git-native persistent memory for AI coding agents, implementing Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. It claims to slash token bloat by 80% with zero external databases. Developers integrate it into AI coding workflows, allowing agents to remember project context across sessions, reducing redundant input and token costs.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>Git-native and zero-dependency design lowers integration barriers, directly addressing token waste.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
       <div class="gate-audit">
@@ -151,7 +151,7 @@
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · Truth</span>
-            <strong>Supported</strong>
+            <strong>Insufficient evidence</strong>
           </div>
           <p>The assessment is recorded; an English explanation is pending.</p>
         </article>
@@ -164,18 +164,13 @@
       <div>
         <p class="section-index">02</p>
         <h2>Chinese and English ecosystems</h2>
-        <p class="note">Market comparison · Cross-market opportunity</p>
+        <p class="note">Market comparison</p>
       </div>
     </div>
     <div class="product-markets">
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Emerging<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">Chinese ecosystem · CN</span>
-        <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
         <p class="note">Public coverage has been recorded for this market. · 2026-09-06</p>
       </div>
     </div>
@@ -194,27 +189,6 @@ Public information is limited; this view will update as more evidence appears.  
   </section>
 
 
-  <section class="band desk-band">
-    <div class="sec-head desk-sec">
-      <div>
-        <p class="section-index">04</p>
-        <h2>Verifiable public evidence</h2>
-        <p class="note">Evidence trail</p>
-      </div>
-    </div>
-    <ul class="rows desk-list">
-      <li><a href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">How the Open Knowledge Format can improve data sharing ...</span>
-        <span class="row-desc">User pain · OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never require a proprietary account or SDK to read, write, or serve. We&#39;re publishing it as an open...</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://okf.md/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">OKF — The Markdown Spec for Humans and AI Agents</span>
-        <span class="row-desc">User pain · Most knowledge formats ask you to learn a schema, install an SDK, and migrate your content into a proprietary store. OKF asks you to keep writing markdown. The spec exists to make three guarantees: One index, one truth. Every bundle has an index.md that lists what&#39;s inside. Agents don&#39;t guess at structure — they read it. Typed frontmatter.</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-    </ul>
-  </section>
 
   <section class="band desk-band">
     <div class="sec-head desk-sec">
@@ -252,7 +226,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        315 in AI + Dev →
+        309 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -299,14 +273,14 @@ Public information is limited; this view will update as more evidence appears.  
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/dsh-hub-cli.html">
+      <a class="pager-item pager-prev" href="../../p/lemmalog.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">dsh-hub-cli</span>
+        <span class="pager-n">lemmalog</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/modex-mh-agent.html">
+      <a class="pager-item pager-next" href="../../p/useagent.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">modex-mh-agent</span>
+        <span class="pager-n">useagent</span>
       </a>
     </div>
   </nav>
@@ -344,7 +318,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>989 cases · 179 business reads</span>
+    <span>986 cases · 179 business reads</span>
     <span class="gen">Data through 2026-09-06</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>

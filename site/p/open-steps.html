@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>open-steps · x-octo</title>
-<meta name="description" content="使用AI编码代理的开发者在代理跑完任务后打开它：原本要逐行翻看代理输出的改动说明和结论。它接收代理的会话输出，把含糊冗长的汇报改写成直白的成败结论和可执行的后续步骤，开发者仍自行核对改动。">
+<meta name="description" content="open-steps 是一个开源项目，提供将编码代理的输出翻译成通俗语言的能力，生成诚实的报告、直接的结论和可遵循的步骤。开发者在审查 AI 生成的代码或任务结果时，可将其作为辅助工具，获得更易理解的工作摘要。具体流程和交付细节仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/open-steps.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/open-steps.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/open-steps.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/open-steps.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="open-steps · x-octo">
-<meta property="og:description" content="使用AI编码代理的开发者在代理跑完任务后打开它：原本要逐行翻看代理输出的改动说明和结论。它接收代理的会话输出，把含糊冗长的汇报改写成直白的成败结论和可执行的后续步骤，开发者仍自行核对改动。">
+<meta property="og:description" content="open-steps 是一个开源项目，提供将编码代理的输出翻译成通俗语言的能力，生成诚实的报告、直接的结论和可遵循的步骤。开发者在审查 AI 生成的代码或任务结果时，可将其作为辅助工具，获得更易理解的工作摘要。具体流程和交付细节仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/open-steps.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/open-steps.html#webpage", "@type": "WebPage", "description": "\u4f7f\u7528AI\u7f16\u7801\u4ee3\u7406\u7684\u5f00\u53d1\u8005\u5728\u4ee3\u7406\u8dd1\u5b8c\u4efb\u52a1\u540e\u6253\u5f00\u5b83\uff1a\u539f\u672c\u8981\u9010\u884c\u7ffb\u770b\u4ee3\u7406\u8f93\u51fa\u7684\u6539\u52a8\u8bf4\u660e\u548c\u7ed3\u8bba\u3002\u5b83\u63a5\u6536\u4ee3\u7406\u7684\u4f1a\u8bdd\u8f93\u51fa\uff0c\u628a\u542b\u7cca\u5197\u957f\u7684\u6c47\u62a5\u6539\u5199\u6210\u76f4\u767d\u7684\u6210\u8d25\u7ed3\u8bba\u548c\u53ef\u6267\u884c\u7684\u540e\u7eed\u6b65\u9aa4\uff0c\u5f00\u53d1\u8005\u4ecd\u81ea\u884c\u6838\u5bf9\u6539\u52a8\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "open-steps", "url": "https://xocto.vercel.app/p/open-steps.html"}, {"@id": "https://xocto.vercel.app/p/open-steps.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-25", "description": "\u4f7f\u7528AI\u7f16\u7801\u4ee3\u7406\u7684\u5f00\u53d1\u8005\u5728\u4ee3\u7406\u8dd1\u5b8c\u4efb\u52a1\u540e\u6253\u5f00\u5b83\uff1a\u539f\u672c\u8981\u9010\u884c\u7ffb\u770b\u4ee3\u7406\u8f93\u51fa\u7684\u6539\u52a8\u8bf4\u660e\u548c\u7ed3\u8bba\u3002\u5b83\u63a5\u6536\u4ee3\u7406\u7684\u4f1a\u8bdd\u8f93\u51fa\uff0c\u628a\u542b\u7cca\u5197\u957f\u7684\u6c47\u62a5\u6539\u5199\u6210\u76f4\u767d\u7684\u6210\u8d25\u7ed3\u8bba\u548c\u53ef\u6267\u884c\u7684\u540e\u7eed\u6b65\u9aa4\uff0c\u5f00\u53d1\u8005\u4ecd\u81ea\u884c\u6838\u5bf9\u6539\u52a8\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/open-steps.html#webpage"}, "name": "open-steps", "sameAs": "https://opensteps.ai", "url": "https://xocto.vercel.app/p/open-steps.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/open-steps.html", "name": "open-steps", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/open-steps.html#webpage", "@type": "WebPage", "description": "open-steps \u662f\u4e00\u4e2a\u5f00\u6e90\u9879\u76ee\uff0c\u63d0\u4f9b\u5c06\u7f16\u7801\u4ee3\u7406\u7684\u8f93\u51fa\u7ffb\u8bd1\u6210\u901a\u4fd7\u8bed\u8a00\u7684\u80fd\u529b\uff0c\u751f\u6210\u8bda\u5b9e\u7684\u62a5\u544a\u3001\u76f4\u63a5\u7684\u7ed3\u8bba\u548c\u53ef\u9075\u5faa\u7684\u6b65\u9aa4\u3002\u5f00\u53d1\u8005\u5728\u5ba1\u67e5 AI \u751f\u6210\u7684\u4ee3\u7801\u6216\u4efb\u52a1\u7ed3\u679c\u65f6\uff0c\u53ef\u5c06\u5176\u4f5c\u4e3a\u8f85\u52a9\u5de5\u5177\uff0c\u83b7\u5f97\u66f4\u6613\u7406\u89e3\u7684\u5de5\u4f5c\u6458\u8981\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u7ec6\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "open-steps", "url": "https://xocto.vercel.app/p/open-steps.html"}, {"@id": "https://xocto.vercel.app/p/open-steps.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-25", "description": "open-steps \u662f\u4e00\u4e2a\u5f00\u6e90\u9879\u76ee\uff0c\u63d0\u4f9b\u5c06\u7f16\u7801\u4ee3\u7406\u7684\u8f93\u51fa\u7ffb\u8bd1\u6210\u901a\u4fd7\u8bed\u8a00\u7684\u80fd\u529b\uff0c\u751f\u6210\u8bda\u5b9e\u7684\u62a5\u544a\u3001\u76f4\u63a5\u7684\u7ed3\u8bba\u548c\u53ef\u9075\u5faa\u7684\u6b65\u9aa4\u3002\u5f00\u53d1\u8005\u5728\u5ba1\u67e5 AI \u751f\u6210\u7684\u4ee3\u7801\u6216\u4efb\u52a1\u7ed3\u679c\u65f6\uff0c\u53ef\u5c06\u5176\u4f5c\u4e3a\u8f85\u52a9\u5de5\u5177\uff0c\u83b7\u5f97\u66f4\u6613\u7406\u89e3\u7684\u5de5\u4f5c\u6458\u8981\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u7ec6\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/open-steps.html#webpage"}, "name": "open-steps", "sameAs": "https://opensteps.ai", "url": "https://xocto.vercel.app/p/open-steps.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/open-steps.html", "name": "open-steps", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>open-steps</h1>
       </div>
-      <p class="product-lede">使用AI编码代理的开发者在代理跑完任务后打开它：原本要逐行翻看代理输出的改动说明和结论。它接收代理的会话输出，把含糊冗长的汇报改写成直白的成败结论和可执行的后续步骤，开发者仍自行核对改动。</p>
+      <p class="product-lede">open-steps 是一个开源项目，提供将编码代理的输出翻译成通俗语言的能力，生成诚实的报告、直接的结论和可遵循的步骤。开发者在审查 AI 生成的代码或任务结果时，可将其作为辅助工具，获得更易理解的工作摘要。具体流程和交付细节仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 254</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">技术负责人</span><span class="tag sig">开源关注 258</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>kharmanskyi</dd></div>
@@ -88,44 +88,44 @@
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">工作现场</span>
-        <p class="product-lead">开发者在AI编码代理完成任务后，需要确认它到底做成了什么、下一步该做什么。</p>
-        <p>开发者直接读diff和运行日志，或让同一个代理自我总结，后者带有自评偏差。</p>
-        <p>代理输出的汇报冗长含糊，且代理给自己打分不可信；逐行读日志和改动太慢，漏看会埋下隐患。</p>
+        <p class="product-lead">开发者或技术负责人在审查 AI 编码代理的输出时，需要理解其执行过程和结果，以便判断是否采纳或进一步操作。</p>
+        <p>目前开发者通常直接阅读原始日志或代码 diff，或依赖自身技术判断，缺乏结构化的通俗摘要。</p>
+        <p>AI 代理的输出往往冗长、技术性强，难以快速把握关键结论和下一步行动，导致审查效率低。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势：编码代理越自主，人工核对代理产出越成为新瓶颈，“审查AI工作”本身会变成一门工作。切入：可从需要向非技术干系人汇报代理产出的团队卖起，如按席位或按团队审计报告收费。</p>
+        <p>趋势：AI 编码代理的输出需要向非技术或半技术受众解释，市场需要透明度和可解释性。切入：可从代码审查、项目管理或教育场景切入，提供面向团队的自动化报告生成。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>一个独立于代理会话的转译层给出直白结论和可执行步骤，降低误信代理自评的风险，上手成本低。</p>
+        <p>开源且 MIT 许可，可免费集成到现有工作流，降低采用门槛；社区讨论和星标表明有初步关注。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>跟踪该仓库的issue与discussion，收集开发者报告的实际接入编码代理的使用反馈与复用案例。</p>
+        <p>查看官方文档或仓库 issue 中是否有用户实际使用案例或集成示例。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。一个独立于代理会话的转译层给出直白结论和可执行步骤，降低误信代理自评的风险，上手成本低。</p>
+        <p><strong>值得试用</strong>。开源且 MIT 许可，可免费集成到现有工作流，降低采用门槛；社区讨论和星标表明有初步关注。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：编码代理越自主，人工核对代理产出越成为新瓶颈，“审查AI工作”本身会变成一门工作。切入：可从需要向非技术干系人汇报代理产出的团队卖起，如按席位或按团队审计报告收费。</p>
+        <p>趋势：AI 编码代理的输出需要向非技术或半技术受众解释，市场需要透明度和可解释性。切入：可从代码审查、项目管理或教育场景切入，提供面向团队的自动化报告生成。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决开发者核对AI编码代理产出的需求：代理给自己打分不可信，逐行读日志太慢。属工作流结构推理，尚无用户评价佐证。</p></div>
-        <div><span class="field-k">工作流推理</span><p>一个独立于代理会话的转译层给出直白结论和可执行步骤，降低误信代理自评的风险，上手成本低。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>跟踪该仓库的issue与discussion，收集开发者报告的实际接入编码代理的使用反馈与复用案例。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决什么需求、什么痛点：开发者需要理解 AI 代理输出的关键结论和步骤，当前缺乏通俗摘要，痛点明确。</p></div>
+        <div><span class="field-k">工作流推理</span><p>开源且 MIT 许可，可免费集成到现有工作流，降低采用门槛；社区讨论和星标表明有初步关注。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>查看官方文档或仓库 issue 中是否有用户实际使用案例或集成示例。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,28 +133,40 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它解决开发者核对AI编码代理产出的需求：代理给自己打分不可信，逐行读日志太慢。属工作流结构推理，尚无用户评价佐证。</p>
+          <p>它解决什么需求、什么痛点：开发者需要理解 AI 代理输出的关键结论和步骤，当前缺乏通俗摘要，痛点明确。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://opensteps.ai" target="_blank" rel="noopener">open-steps · 2026-08-25 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>场景本身清楚，共识卡在感知环节：五天星标由154涨至248，关注上升但收藏数不是持续采用，缺真实使用反馈。</p>
+          <p>公开星标 258，但缺乏持续采用或付费证据，共识尚不明确。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://opensteps.ai" target="_blank" rel="noopener">open-steps · 2026-08-25 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>开源MIT许可，未见定价页或明确买方；钱可能来自to B团队的效率预算，这是判断不是已验证事实。</p>
+          <p>开源项目，商业模式未明，可能通过支持或企业服务获利，但未披露。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://opensteps.ai" target="_blank" rel="noopener">open-steps · 2026-08-25 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>已有支持</strong>
           </div>
-          <p>贴近“确认代理工作是否可信”的第一性目标，交付为可读结论与步骤，人工仍核对改动，边界清楚。</p>
+          <p>贴近开发者的第一性目标：理解 AI 输出，承诺可确定交付通俗报告。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://opensteps.ai" target="_blank" rel="noopener">open-steps · 2026-08-25 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -165,7 +177,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -173,11 +185,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -206,7 +213,7 @@
     <ul class="rows desk-list">
       <li><a href="https://opensteps.ai" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">open-steps</span>
-        <span class="row-desc">开源信息 · 使用AI编码代理的开发者在代理跑完任务后打开它：原本要逐行翻看代理输出的改动说明和结论。它接收代理的会话输出，把含糊冗长的汇报改写成直白的成败结论和可执行的后续步骤，开发者仍自行核对改动。</span>
+        <span class="row-desc">开源信息 · open-steps 是一个开源项目，提供将编码代理的输出翻译成通俗语言的能力，生成诚实的报告、直接的结论和可遵循的步骤。开发者在审查 AI 生成的代码或任务结果时，可将其作为辅助工具，获得更易理解的工作摘要。具体流程和交付细节仍待核验。</span>
         <span class="row-tail">2026-08-25</span>
       </div></a></li>
     </ul>
@@ -248,7 +255,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 315 个 →
+        AI + 开发 共 309 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -340,7 +347,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

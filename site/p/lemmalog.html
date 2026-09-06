@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>lemmalog · x-octo</title>
-<meta name="description" content="lemmalog 是一个为 LLM agent 设计的 Datalog 引擎，支持分层规则、带溯源的事实、增量推导，并提供 MCP 服务器，让 agent 将其作为共享记忆使用。开发者可将事实和规则写入引擎，引擎执行逻辑推理并返回推导结果，供 agent 决策。">
+<meta name="description" content="这是一个为 LLM agent 设计的 Datalog 引擎，提供分层规则、带溯源的事实、增量推导，并通过 MCP 服务器让 agent 将其作为共享记忆使用。开发者可在构建 agent 时用它管理事实和规则。">
 <link rel="canonical" href="https://xocto.vercel.app/p/lemmalog.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/lemmalog.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/lemmalog.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/lemmalog.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="lemmalog · x-octo">
-<meta property="og:description" content="lemmalog 是一个为 LLM agent 设计的 Datalog 引擎，支持分层规则、带溯源的事实、增量推导，并提供 MCP 服务器，让 agent 将其作为共享记忆使用。开发者可将事实和规则写入引擎，引擎执行逻辑推理并返回推导结果，供 agent 决策。">
+<meta property="og:description" content="这是一个为 LLM agent 设计的 Datalog 引擎，提供分层规则、带溯源的事实、增量推导，并通过 MCP 服务器让 agent 将其作为共享记忆使用。开发者可在构建 agent 时用它管理事实和规则。">
 <meta property="og:url" content="https://xocto.vercel.app/p/lemmalog.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lemmalog.html#webpage", "@type": "WebPage", "description": "lemmalog \u662f\u4e00\u4e2a\u4e3a LLM agent \u8bbe\u8ba1\u7684 Datalog \u5f15\u64ce\uff0c\u652f\u6301\u5206\u5c42\u89c4\u5219\u3001\u5e26\u6eaf\u6e90\u7684\u4e8b\u5b9e\u3001\u589e\u91cf\u63a8\u5bfc\uff0c\u5e76\u63d0\u4f9b MCP \u670d\u52a1\u5668\uff0c\u8ba9 agent \u5c06\u5176\u4f5c\u4e3a\u5171\u4eab\u8bb0\u5fc6\u4f7f\u7528\u3002\u5f00\u53d1\u8005\u53ef\u5c06\u4e8b\u5b9e\u548c\u89c4\u5219\u5199\u5165\u5f15\u64ce\uff0c\u5f15\u64ce\u6267\u884c\u903b\u8f91\u63a8\u7406\u5e76\u8fd4\u56de\u63a8\u5bfc\u7ed3\u679c\uff0c\u4f9b agent \u51b3\u7b56\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lemmalog", "url": "https://xocto.vercel.app/p/lemmalog.html"}, {"@id": "https://xocto.vercel.app/p/lemmalog.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-06", "datePublished": "2026-08-27", "description": "lemmalog \u662f\u4e00\u4e2a\u4e3a LLM agent \u8bbe\u8ba1\u7684 Datalog \u5f15\u64ce\uff0c\u652f\u6301\u5206\u5c42\u89c4\u5219\u3001\u5e26\u6eaf\u6e90\u7684\u4e8b\u5b9e\u3001\u589e\u91cf\u63a8\u5bfc\uff0c\u5e76\u63d0\u4f9b MCP \u670d\u52a1\u5668\uff0c\u8ba9 agent \u5c06\u5176\u4f5c\u4e3a\u5171\u4eab\u8bb0\u5fc6\u4f7f\u7528\u3002\u5f00\u53d1\u8005\u53ef\u5c06\u4e8b\u5b9e\u548c\u89c4\u5219\u5199\u5165\u5f15\u64ce\uff0c\u5f15\u64ce\u6267\u884c\u903b\u8f91\u63a8\u7406\u5e76\u8fd4\u56de\u63a8\u5bfc\u7ed3\u679c\uff0c\u4f9b agent \u51b3\u7b56\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lemmalog.html#webpage"}, "name": "lemmalog", "url": "https://xocto.vercel.app/p/lemmalog.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lemmalog.html", "name": "lemmalog", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lemmalog.html#webpage", "@type": "WebPage", "description": "\u8fd9\u662f\u4e00\u4e2a\u4e3a LLM agent \u8bbe\u8ba1\u7684 Datalog \u5f15\u64ce\uff0c\u63d0\u4f9b\u5206\u5c42\u89c4\u5219\u3001\u5e26\u6eaf\u6e90\u7684\u4e8b\u5b9e\u3001\u589e\u91cf\u63a8\u5bfc\uff0c\u5e76\u901a\u8fc7 MCP \u670d\u52a1\u5668\u8ba9 agent \u5c06\u5176\u4f5c\u4e3a\u5171\u4eab\u8bb0\u5fc6\u4f7f\u7528\u3002\u5f00\u53d1\u8005\u53ef\u5728\u6784\u5efa agent \u65f6\u7528\u5b83\u7ba1\u7406\u4e8b\u5b9e\u548c\u89c4\u5219\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lemmalog", "url": "https://xocto.vercel.app/p/lemmalog.html"}, {"@id": "https://xocto.vercel.app/p/lemmalog.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-06", "datePublished": "2026-08-27", "description": "\u8fd9\u662f\u4e00\u4e2a\u4e3a LLM agent \u8bbe\u8ba1\u7684 Datalog \u5f15\u64ce\uff0c\u63d0\u4f9b\u5206\u5c42\u89c4\u5219\u3001\u5e26\u6eaf\u6e90\u7684\u4e8b\u5b9e\u3001\u589e\u91cf\u63a8\u5bfc\uff0c\u5e76\u901a\u8fc7 MCP \u670d\u52a1\u5668\u8ba9 agent \u5c06\u5176\u4f5c\u4e3a\u5171\u4eab\u8bb0\u5fc6\u4f7f\u7528\u3002\u5f00\u53d1\u8005\u53ef\u5728\u6784\u5efa agent \u65f6\u7528\u5b83\u7ba1\u7406\u4e8b\u5b9e\u548c\u89c4\u5219\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lemmalog.html#webpage"}, "name": "lemmalog", "url": "https://xocto.vercel.app/p/lemmalog.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lemmalog.html", "name": "lemmalog", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>lemmalog</h1>
       </div>
-      <p class="product-lede">lemmalog 是一个为 LLM agent 设计的 Datalog 引擎，支持分层规则、带溯源的事实、增量推导，并提供 MCP 服务器，让 agent 将其作为共享记忆使用。开发者可将事实和规则写入引擎，引擎执行逻辑推理并返回推导结果，供 agent 决策。</p>
+      <p class="product-lede">这是一个为 LLM agent 设计的 Datalog 引擎，提供分层规则、带溯源的事实、增量推导，并通过 MCP 服务器让 agent 将其作为共享记忆使用。开发者可在构建 agent 时用它管理事实和规则。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">AI 工程师</span><span class="tag">机器学习工程师</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 284</span>      </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">人工智能</span><span class="tag">AI 工程师</span><span class="tag">Agent 开发者</span><span class="tag sig">开源关注 285</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>JordyZomer</dd></div>
@@ -94,7 +94,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是 AI agent 从单次对话走向持久记忆和推理。切入点是构建 agent 记忆基础设施，可探索为 agent 框架提供记忆层，或针对特定行业（如客服、法律）提供可解释的推理记忆。</p>
+        <p>趋势：Agent 记忆从向量数据库走向逻辑推理和可溯源。切入：面向需要可靠记忆的 agent 应用，如自动化工作流，但需证明比现有方案更优。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
@@ -115,7 +115,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是 AI agent 从单次对话走向持久记忆和推理。切入点是构建 agent 记忆基础设施，可探索为 agent 框架提供记忆层，或针对特定行业（如客服、法律）提供可解释的推理记忆。</p>
+        <p>趋势：Agent 记忆从向量数据库走向逻辑推理和可溯源。切入：面向需要可靠记忆的 agent 应用，如自动化工作流，但需证明比现有方案更优。</p>
       </div>
     </div>
 
@@ -164,7 +164,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -172,11 +172,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -231,7 +226,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 112 个 →
+        基础层 共 113 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -283,9 +278,9 @@
         <span class="pager-n">everycube</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/useagent.html">
+      <a class="pager-item pager-next" href="../p/okf-agent-memory.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">useagent</span>
+        <span class="pager-n">OKF Agent Memory</span>
       </a>
     </div>
   </nav>
@@ -323,7 +318,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

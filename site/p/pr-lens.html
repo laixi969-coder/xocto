@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>pr-lens · x-octo</title>
-<meta name="description" content="研发人员在代码评审与合并分支阶段使用该工具，接收代码变更与上下文，由系统解析调用关系并直接在 PR 内生成动态架构图与数据流图，方便人工快速核验系统影响。">
+<meta name="description" content="pr-lens 是一个代码审查工具，能将每个 Pull Request 绘制成动画架构图和数据流图，并直接嵌入 PR 中。开发者可以将其作为 公开代码仓库 App、公开代码仓库 Action、CLI 或编码代理的技能使用，以加速代码理解。具体支持的编程语言和图表生成方式仍需核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/pr-lens.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/pr-lens.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/pr-lens.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/pr-lens.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="pr-lens · x-octo">
-<meta property="og:description" content="研发人员在代码评审与合并分支阶段使用该工具，接收代码变更与上下文，由系统解析调用关系并直接在 PR 内生成动态架构图与数据流图，方便人工快速核验系统影响。">
+<meta property="og:description" content="pr-lens 是一个代码审查工具，能将每个 Pull Request 绘制成动画架构图和数据流图，并直接嵌入 PR 中。开发者可以将其作为 公开代码仓库 App、公开代码仓库 Action、CLI 或编码代理的技能使用，以加速代码理解。具体支持的编程语言和图表生成方式仍需核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/pr-lens.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/pr-lens.html#webpage", "@type": "WebPage", "description": "\u7814\u53d1\u4eba\u5458\u5728\u4ee3\u7801\u8bc4\u5ba1\u4e0e\u5408\u5e76\u5206\u652f\u9636\u6bb5\u4f7f\u7528\u8be5\u5de5\u5177\uff0c\u63a5\u6536\u4ee3\u7801\u53d8\u66f4\u4e0e\u4e0a\u4e0b\u6587\uff0c\u7531\u7cfb\u7edf\u89e3\u6790\u8c03\u7528\u5173\u7cfb\u5e76\u76f4\u63a5\u5728 PR \u5185\u751f\u6210\u52a8\u6001\u67b6\u6784\u56fe\u4e0e\u6570\u636e\u6d41\u56fe\uff0c\u65b9\u4fbf\u4eba\u5de5\u5feb\u901f\u6838\u9a8c\u7cfb\u7edf\u5f71\u54cd\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "pr-lens", "url": "https://xocto.vercel.app/p/pr-lens.html"}, {"@id": "https://xocto.vercel.app/p/pr-lens.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-27", "description": "\u7814\u53d1\u4eba\u5458\u5728\u4ee3\u7801\u8bc4\u5ba1\u4e0e\u5408\u5e76\u5206\u652f\u9636\u6bb5\u4f7f\u7528\u8be5\u5de5\u5177\uff0c\u63a5\u6536\u4ee3\u7801\u53d8\u66f4\u4e0e\u4e0a\u4e0b\u6587\uff0c\u7531\u7cfb\u7edf\u89e3\u6790\u8c03\u7528\u5173\u7cfb\u5e76\u76f4\u63a5\u5728 PR \u5185\u751f\u6210\u52a8\u6001\u67b6\u6784\u56fe\u4e0e\u6570\u636e\u6d41\u56fe\uff0c\u65b9\u4fbf\u4eba\u5de5\u5feb\u901f\u6838\u9a8c\u7cfb\u7edf\u5f71\u54cd\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/pr-lens.html#webpage"}, "name": "pr-lens", "url": "https://xocto.vercel.app/p/pr-lens.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/pr-lens.html", "name": "pr-lens", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/pr-lens.html#webpage", "@type": "WebPage", "description": "pr-lens \u662f\u4e00\u4e2a\u4ee3\u7801\u5ba1\u67e5\u5de5\u5177\uff0c\u80fd\u5c06\u6bcf\u4e2a Pull Request \u7ed8\u5236\u6210\u52a8\u753b\u67b6\u6784\u56fe\u548c\u6570\u636e\u6d41\u56fe\uff0c\u5e76\u76f4\u63a5\u5d4c\u5165 PR \u4e2d\u3002\u5f00\u53d1\u8005\u53ef\u4ee5\u5c06\u5176\u4f5c\u4e3a \u516c\u5f00\u4ee3\u7801\u4ed3\u5e93 App\u3001\u516c\u5f00\u4ee3\u7801\u4ed3\u5e93 Action\u3001CLI \u6216\u7f16\u7801\u4ee3\u7406\u7684\u6280\u80fd\u4f7f\u7528\uff0c\u4ee5\u52a0\u901f\u4ee3\u7801\u7406\u89e3\u3002\u5177\u4f53\u652f\u6301\u7684\u7f16\u7a0b\u8bed\u8a00\u548c\u56fe\u8868\u751f\u6210\u65b9\u5f0f\u4ecd\u9700\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "pr-lens", "url": "https://xocto.vercel.app/p/pr-lens.html"}, {"@id": "https://xocto.vercel.app/p/pr-lens.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-21", "description": "pr-lens \u662f\u4e00\u4e2a\u4ee3\u7801\u5ba1\u67e5\u5de5\u5177\uff0c\u80fd\u5c06\u6bcf\u4e2a Pull Request \u7ed8\u5236\u6210\u52a8\u753b\u67b6\u6784\u56fe\u548c\u6570\u636e\u6d41\u56fe\uff0c\u5e76\u76f4\u63a5\u5d4c\u5165 PR \u4e2d\u3002\u5f00\u53d1\u8005\u53ef\u4ee5\u5c06\u5176\u4f5c\u4e3a \u516c\u5f00\u4ee3\u7801\u4ed3\u5e93 App\u3001\u516c\u5f00\u4ee3\u7801\u4ed3\u5e93 Action\u3001CLI \u6216\u7f16\u7801\u4ee3\u7406\u7684\u6280\u80fd\u4f7f\u7528\uff0c\u4ee5\u52a0\u901f\u4ee3\u7801\u7406\u89e3\u3002\u5177\u4f53\u652f\u6301\u7684\u7f16\u7a0b\u8bed\u8a00\u548c\u56fe\u8868\u751f\u6210\u65b9\u5f0f\u4ecd\u9700\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/pr-lens.html#webpage"}, "name": "pr-lens", "sameAs": "https://prlens.dev", "url": "https://xocto.vercel.app/p/pr-lens.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/pr-lens.html", "name": "pr-lens", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,16 @@
       <div class="product-title-row">
         <h1>pr-lens</h1>
       </div>
-      <p class="product-lede">研发人员在代码评审与合并分支阶段使用该工具，接收代码变更与上下文，由系统解析调用关系并直接在 PR 内生成动态架构图与数据流图，方便人工快速核验系统影响。</p>
+      <p class="product-lede">pr-lens 是一个代码审查工具，能将每个 Pull Request 绘制成动画架构图和数据流图，并直接嵌入 PR 中。开发者可以将其作为 公开代码仓库 App、公开代码仓库 Action、CLI 或编码代理的技能使用，以加速代码理解。具体支持的编程语言和图表生成方式仍需核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">技术主管</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 6</span><span class="tag sig">开源关注 302</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">代码审查者</span><span class="tag sig">开源关注 304</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
-      <div><dt>团队 / 作者</dt><dd>TheAnkurTyagi</dd></div>
-      <div><dt>本站首次收录</dt><dd class="num">2026-08-27</dd></div>
+      <div><dt>团队 / 作者</dt><dd>coldteadotai</dd></div>
+      <div><dt>本站首次收录</dt><dd class="num">2026-08-21</dd></div>
       <div><dt>本站最近更新</dt><dd class="num">2026-09-06</dd></div>
+      <div><dt>产品官网</dt><dd><a href="https://prlens.dev" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
 
@@ -87,44 +88,44 @@
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">工作现场</span>
-        <p class="product-lead">审查拉取请求（Pull Request）中的代码变更及其对整体系统架构的影响。</p>
-        <p>手工通读 diff、在本地运行分支测试，或借助静态代码分析文本注释。</p>
-        <p>面对数百行代码 diff，难以单凭文本脑补数据流向与模块依赖变更，导致审查效率低下且容易遗漏隐患。</p>
+        <p class="product-lead">代码审查者在审查 PR 时，需要理解代码变更的架构影响和数据流，以评估正确性和风险。</p>
+        <p>目前审查者通常阅读 diff 和文件，或使用 IDE 的依赖图，但缺乏整体架构视图。</p>
+        <p>大型 PR 涉及多个文件和模块，手动梳理架构变化耗时且容易遗漏。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>代码审查的最大痛点在于难以直观理解变更对宏观架构的影响。将代码 diff 升维为可视化动态架构图，切入开发者日常工作流且易于通过团队席位变现。</p>
+        <p>代码审查是开发流程中的关键环节，但理解大型 PR 的架构变化耗时。pr-lens 通过可视化架构和数据流，帮助审查者快速把握变更影响。切入可从与主流代码托管平台深度集成，或针对特定语言/框架提供定制化图表，提升审查效率。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>自动化生成 PR 内嵌的动态架构图，大幅降低认知负荷并加速审查流程。</p>
+        <p>自动生成架构和数据流图可减少手动梳理时间，直接嵌入 PR 方便团队协作，对频繁审查的团队有价值。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>观察官方是否推出针对企业私有仓库的高级托管版本或团队协作付费定价方案。</p>
+        <p>查看官方文档或示例，确认支持的编程语言、图表生成准确性和与 公开代码仓库 的集成方式。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。自动化生成 PR 内嵌的动态架构图，大幅降低认知负荷并加速审查流程。</p>
+        <p><strong>值得试用</strong>。自动生成架构和数据流图可减少手动梳理时间，直接嵌入 PR 方便团队协作，对频繁审查的团队有价值。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>代码审查的最大痛点在于难以直观理解变更对宏观架构的影响。将代码 diff 升维为可视化动态架构图，切入开发者日常工作流且易于通过团队席位变现。</p>
+        <p>代码审查是开发流程中的关键环节，但理解大型 PR 的架构变化耗时。pr-lens 通过可视化架构和数据流，帮助审查者快速把握变更影响。切入可从与主流代码托管平台深度集成，或针对特定语言/框架提供定制化图表，提升审查效率。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>解决复杂代码审查中架构理解成本高的刚性痛点，将 diff 可视化为动态图具有明确效率价值。</p></div>
-        <div><span class="field-k">工作流推理</span><p>自动化生成 PR 内嵌的动态架构图，大幅降低认知负荷并加速审查流程。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>观察官方是否推出针对企业私有仓库的高级托管版本或团队协作付费定价方案。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决代码审查中理解架构变化耗时的问题，AI 生成图表，交付为可视化图，痛点明确。</p></div>
+        <div><span class="field-k">工作流推理</span><p>自动生成架构和数据流图可减少手动梳理时间，直接嵌入 PR 方便团队协作，对频繁审查的团队有价值。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>查看官方文档或示例，确认支持的编程语言、图表生成准确性和与 公开代码仓库 的集成方式。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -132,28 +133,40 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>解决复杂代码审查中架构理解成本高的刚性痛点，将 diff 可视化为动态图具有明确效率价值。</p>
+          <p>它解决代码审查中理解架构变化耗时的问题，AI 生成图表，交付为可视化图，痛点明确。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://prlens.dev" target="_blank" rel="noopener">pr-lens · 2026-08-21 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>获得近 300 颗星标与社区讨论关注，展现出开发者对可视化代码评审工具的明确兴趣。</p>
+          <p>开源仓库星数 304，有一定关注，但无公开采用或付费证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://prlens.dev" target="_blank" rel="noopener">pr-lens · 2026-08-21 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>目前以开源工具形式发布，尚未公开企业版或团队订阅定价策略。</p>
+          <p>未披露定价，可能面向 to B 开发团队，但付费路径未验证。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://prlens.dev" target="_blank" rel="noopener">pr-lens · 2026-08-21 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>已有支持</strong>
           </div>
-          <p>直接作为 公开代码仓库 App 或 Action 嵌入标准代码审查流程，交付逻辑可确定闭环。</p>
+          <p>贴近代码审查第一性目标，交付为可视化图表，承诺可验证，风险低。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://prlens.dev" target="_blank" rel="noopener">pr-lens · 2026-08-21 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -164,7 +177,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -172,11 +185,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -205,7 +213,7 @@
     <ul class="rows desk-list">
       <li><a href="https://prlens.dev" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">pr-lens</span>
-        <span class="row-desc">开源信息 · 研发人员在代码评审与合并分支阶段使用该工具，接收代码变更与上下文，由系统解析调用关系并直接在 PR 内生成动态架构图与数据流图，方便人工快速核验系统影响。</span>
+        <span class="row-desc">开源信息 · pr-lens 是一个代码审查工具，能将每个 Pull Request 绘制成动画架构图和数据流图，并直接嵌入 PR 中。开发者可以将其作为 公开代码仓库 App、公开代码仓库 Action、CLI 或编码代理的技能使用，以加速代码理解。具体支持的编程语言和图表生成方式仍需核验。</span>
         <span class="row-tail">2026-08-21</span>
       </div></a></li>
     </ul>
@@ -247,7 +255,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 315 个 →
+        AI + 开发 共 309 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -294,9 +302,9 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/oh-story-dsh.html">
+      <a class="pager-item pager-prev" href="../p/gendangzou-skill.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Oh Story DSH</span>
+        <span class="pager-n">Gendangzou-skill</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/learn-agent.html">
@@ -339,7 +347,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

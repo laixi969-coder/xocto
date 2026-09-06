@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>OrcaReplay · x-octo</title>
-<meta name="description" content="OrcaReplay 面向构建和调试 AI 代理的开发者，在代理运行出错或需要回溯时使用。它记录代理的完整运行轨迹，允许开发者重放、分叉并用任意模型调试任何一次运行，最终获得可复现的调试会话和修改后的运行路径。具体集成方式与交付物仍需进一步核验。">
+<meta name="description" content="OrcaReplay 是 OrcaRouter.ai 团队开发的开源工具，用于记录、重放、分叉和调试任何 AI 代理运行，支持多种模型。开发者可将其用于代理开发中的问题复现和调试。具体流程和交付细节仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/orcareplay.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/orcareplay.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/orcareplay.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/orcareplay.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="OrcaReplay · x-octo">
-<meta property="og:description" content="OrcaReplay 面向构建和调试 AI 代理的开发者，在代理运行出错或需要回溯时使用。它记录代理的完整运行轨迹，允许开发者重放、分叉并用任意模型调试任何一次运行，最终获得可复现的调试会话和修改后的运行路径。具体集成方式与交付物仍需进一步核验。">
+<meta property="og:description" content="OrcaReplay 是 OrcaRouter.ai 团队开发的开源工具，用于记录、重放、分叉和调试任何 AI 代理运行，支持多种模型。开发者可将其用于代理开发中的问题复现和调试。具体流程和交付细节仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/orcareplay.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/orcareplay.html#webpage", "@type": "WebPage", "description": "OrcaReplay \u9762\u5411\u6784\u5efa\u548c\u8c03\u8bd5 AI \u4ee3\u7406\u7684\u5f00\u53d1\u8005\uff0c\u5728\u4ee3\u7406\u8fd0\u884c\u51fa\u9519\u6216\u9700\u8981\u56de\u6eaf\u65f6\u4f7f\u7528\u3002\u5b83\u8bb0\u5f55\u4ee3\u7406\u7684\u5b8c\u6574\u8fd0\u884c\u8f68\u8ff9\uff0c\u5141\u8bb8\u5f00\u53d1\u8005\u91cd\u653e\u3001\u5206\u53c9\u5e76\u7528\u4efb\u610f\u6a21\u578b\u8c03\u8bd5\u4efb\u4f55\u4e00\u6b21\u8fd0\u884c\uff0c\u6700\u7ec8\u83b7\u5f97\u53ef\u590d\u73b0\u7684\u8c03\u8bd5\u4f1a\u8bdd\u548c\u4fee\u6539\u540e\u7684\u8fd0\u884c\u8def\u5f84\u3002\u5177\u4f53\u96c6\u6210\u65b9\u5f0f\u4e0e\u4ea4\u4ed8\u7269\u4ecd\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OrcaReplay", "url": "https://xocto.vercel.app/p/orcareplay.html"}, {"@id": "https://xocto.vercel.app/p/orcareplay.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-29", "description": "OrcaReplay \u9762\u5411\u6784\u5efa\u548c\u8c03\u8bd5 AI \u4ee3\u7406\u7684\u5f00\u53d1\u8005\uff0c\u5728\u4ee3\u7406\u8fd0\u884c\u51fa\u9519\u6216\u9700\u8981\u56de\u6eaf\u65f6\u4f7f\u7528\u3002\u5b83\u8bb0\u5f55\u4ee3\u7406\u7684\u5b8c\u6574\u8fd0\u884c\u8f68\u8ff9\uff0c\u5141\u8bb8\u5f00\u53d1\u8005\u91cd\u653e\u3001\u5206\u53c9\u5e76\u7528\u4efb\u610f\u6a21\u578b\u8c03\u8bd5\u4efb\u4f55\u4e00\u6b21\u8fd0\u884c\uff0c\u6700\u7ec8\u83b7\u5f97\u53ef\u590d\u73b0\u7684\u8c03\u8bd5\u4f1a\u8bdd\u548c\u4fee\u6539\u540e\u7684\u8fd0\u884c\u8def\u5f84\u3002\u5177\u4f53\u96c6\u6210\u65b9\u5f0f\u4e0e\u4ea4\u4ed8\u7269\u4ecd\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/orcareplay.html#webpage"}, "name": "OrcaReplay", "sameAs": "http://www.orcarouter.ai", "url": "https://xocto.vercel.app/p/orcareplay.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/orcareplay.html", "name": "OrcaReplay", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/orcareplay.html#webpage", "@type": "WebPage", "description": "OrcaReplay \u662f OrcaRouter.ai \u56e2\u961f\u5f00\u53d1\u7684\u5f00\u6e90\u5de5\u5177\uff0c\u7528\u4e8e\u8bb0\u5f55\u3001\u91cd\u653e\u3001\u5206\u53c9\u548c\u8c03\u8bd5\u4efb\u4f55 AI \u4ee3\u7406\u8fd0\u884c\uff0c\u652f\u6301\u591a\u79cd\u6a21\u578b\u3002\u5f00\u53d1\u8005\u53ef\u5c06\u5176\u7528\u4e8e\u4ee3\u7406\u5f00\u53d1\u4e2d\u7684\u95ee\u9898\u590d\u73b0\u548c\u8c03\u8bd5\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u7ec6\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "OrcaReplay", "url": "https://xocto.vercel.app/p/orcareplay.html"}, {"@id": "https://xocto.vercel.app/p/orcareplay.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-29", "description": "OrcaReplay \u662f OrcaRouter.ai \u56e2\u961f\u5f00\u53d1\u7684\u5f00\u6e90\u5de5\u5177\uff0c\u7528\u4e8e\u8bb0\u5f55\u3001\u91cd\u653e\u3001\u5206\u53c9\u548c\u8c03\u8bd5\u4efb\u4f55 AI \u4ee3\u7406\u8fd0\u884c\uff0c\u652f\u6301\u591a\u79cd\u6a21\u578b\u3002\u5f00\u53d1\u8005\u53ef\u5c06\u5176\u7528\u4e8e\u4ee3\u7406\u5f00\u53d1\u4e2d\u7684\u95ee\u9898\u590d\u73b0\u548c\u8c03\u8bd5\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u7ec6\u8282\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/orcareplay.html#webpage"}, "name": "OrcaReplay", "sameAs": "http://www.orcarouter.ai", "url": "https://xocto.vercel.app/p/orcareplay.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/orcareplay.html", "name": "OrcaReplay", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>OrcaReplay</h1>
       </div>
-      <p class="product-lede">OrcaReplay 面向构建和调试 AI 代理的开发者，在代理运行出错或需要回溯时使用。它记录代理的完整运行轨迹，允许开发者重放、分叉并用任意模型调试任何一次运行，最终获得可复现的调试会话和修改后的运行路径。具体集成方式与交付物仍需进一步核验。</p>
+      <p class="product-lede">OrcaReplay 是 OrcaRouter.ai 团队开发的开源工具，用于记录、重放、分叉和调试任何 AI 代理运行，支持多种模型。开发者可将其用于代理开发中的问题复现和调试。具体流程和交付细节仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">AI 代理开发者</span><span class="tag">机器学习工程师</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 126</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">AI 工程师</span><span class="tag">软件开发者</span><span class="tag sig">开源关注 127</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>Continuum-AI-Corp</dd></div>
@@ -88,44 +88,44 @@
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">工作现场</span>
-        <p class="product-lead">开发者需要定位并修复 AI 代理在复杂任务中的错误行为。</p>
-        <p>目前开发者通常手动添加日志、逐步重跑或使用模型提供商的追踪工具，但这些方法耗时且不完整。</p>
-        <p>代理运行具有不确定性，出错时难以复现和定位根因，传统日志不足以理解决策过程。</p>
+        <p class="product-lead">AI 工程师或开发者在开发代理时，需要复现和调试特定运行，以定位问题。</p>
+        <p>开发者通常依赖日志或手动重跑，缺乏精确的记录和重放能力。</p>
+        <p>AI 代理运行具有不确定性，难以复现和调试，导致开发周期长。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>AI 代理进入生产环境后，调试和可观测性成为刚需，类似传统软件开发的日志与断点工具。切入点是为代理运行提供录制与回放能力，可面向企业 AI 平台或代理框架提供调试服务，按调试会话或席位收费。</p>
+        <p>趋势：AI 代理的可调试性成为关键需求，市场需要时间旅行式的调试工具。切入：可从代理开发工具链切入，提供与模型无关的调试方案。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>录制与回放能显著缩短调试周期，且开源免费，吸引开发者试用和贡献。</p>
+        <p>开源且由 OrcaRouter 团队开发，可能吸引现有用户；但星标 127 表明早期阶段。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>查找 OrcaReplay 的官方文档或用户案例，确认其与主流代理框架的集成方式和实际调试效果。</p>
+        <p>查看官方文档或仓库 issue 中是否有用户使用案例或集成示例。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。录制与回放能显著缩短调试周期，且开源免费，吸引开发者试用和贡献。</p>
+        <p><strong>值得试用</strong>。开源且由 OrcaRouter 团队开发，可能吸引现有用户；但星标 127 表明早期阶段。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>AI 代理进入生产环境后，调试和可观测性成为刚需，类似传统软件开发的日志与断点工具。切入点是为代理运行提供录制与回放能力，可面向企业 AI 平台或代理框架提供调试服务，按调试会话或席位收费。</p>
+        <p>趋势：AI 代理的可调试性成为关键需求，市场需要时间旅行式的调试工具。切入：可从代理开发工具链切入，提供与模型无关的调试方案。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决 AI 代理调试中复现难、定位难的痛点，录制回放是明确的工作流改进，价值结构成立。</p></div>
-        <div><span class="field-k">工作流推理</span><p>录制与回放能显著缩短调试周期，且开源免费，吸引开发者试用和贡献。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>查找 OrcaReplay 的官方文档或用户案例，确认其与主流代理框架的集成方式和实际调试效果。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决什么需求、什么痛点：AI 代理调试困难，痛点明确。</p></div>
+        <div><span class="field-k">工作流推理</span><p>开源且由 OrcaRouter 团队开发，可能吸引现有用户；但星标 127 表明早期阶段。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>查看官方文档或仓库 issue 中是否有用户使用案例或集成示例。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
@@ -133,28 +133,40 @@
             <span class="field-k">01 · 价值</span>
             <strong>已有支持</strong>
           </div>
-          <p>它解决 AI 代理调试中复现难、定位难的痛点，录制回放是明确的工作流改进，价值结构成立。</p>
+          <p>它解决什么需求、什么痛点：AI 代理调试困难，痛点明确。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.orcarouter.ai" target="_blank" rel="noopener">OrcaReplay · 2026-08-29 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>星标增长显示初步关注，但缺乏用户评价或实际采用证据，共识尚未形成。</p>
+          <p>星标 127，社区规模小，缺乏采用证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.orcarouter.ai" target="_blank" rel="noopener">OrcaReplay · 2026-08-29 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>开源项目暂无定价或付费路径，买方可能是企业开发者，但商业模式未验证。</p>
+          <p>开源项目，商业模式未明。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.orcarouter.ai" target="_blank" rel="noopener">OrcaReplay · 2026-08-29 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>已有支持</strong>
           </div>
-          <p>录制回放贴近调试的第一性目标，交付可确定，不涉及安全边界问题。</p>
+          <p>贴近开发者的第一性目标：调试代理，承诺可确定交付记录和重放功能。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="http://www.orcarouter.ai" target="_blank" rel="noopener">OrcaReplay · 2026-08-29 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -165,7 +177,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -173,11 +185,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -206,7 +213,7 @@
     <ul class="rows desk-list">
       <li><a href="http://www.orcarouter.ai" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">OrcaReplay</span>
-        <span class="row-desc">开源信息 · OrcaReplay 面向构建和调试 AI 代理的开发者，在代理运行出错或需要回溯时使用。它记录代理的完整运行轨迹，允许开发者重放、分叉并用任意模型调试任何一次运行，最终获得可复现的调试会话和修改后的运行路径。具体集成方式与交付物仍需进一步核验。</span>
+        <span class="row-desc">开源信息 · OrcaReplay 是 OrcaRouter.ai 团队开发的开源工具，用于记录、重放、分叉和调试任何 AI 代理运行，支持多种模型。开发者可将其用于代理开发中的问题复现和调试。具体流程和交付细节仍待核验。</span>
         <span class="row-tail">2026-08-29</span>
       </div></a></li>
     </ul>
@@ -248,7 +255,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 315 个 →
+        AI + 开发 共 309 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -295,14 +302,14 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/xinchao-nian.html">
+      <a class="pager-item pager-prev" href="../p/percho.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">xinchao-nian</span>
+        <span class="pager-n">percho</span>
       </a>
 
-      <a class="pager-item pager-next" href="../p/glassbox.html">
+      <a class="pager-item pager-next" href="../p/xinchao-nian.html">
         <span class="pager-k">下一个</span>
-        <span class="pager-n">GlassBox</span>
+        <span class="pager-n">xinchao-nian</span>
       </a>
     </div>
   </nav>
@@ -340,7 +347,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

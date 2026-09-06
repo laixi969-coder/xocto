@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>VoiceMem · x-octo</title>
-<meta name="description" content="VoiceMem 是一个为语音助手设计的实时、共情记忆系统，开源项目。开发者可将其集成到语音助手中，使其能记住用户信息并做出共情回应。具体技术实现和交付物需进一步核验。">
+<meta name="description" content="VoiceMem 是一个面向语音代理的通用记忆基础设施，分为存储信息和情感的两个部分，采用全流式架构以消除延迟。开发者可在构建语音代理时集成此记忆层，使代理能记住用户信息和情感状态，最终交付更连贯、个性化的对话体验。具体集成流程和效果仍需核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/voicemem.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/voicemem.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/voicemem.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/voicemem.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="VoiceMem · x-octo">
-<meta property="og:description" content="VoiceMem 是一个为语音助手设计的实时、共情记忆系统，开源项目。开发者可将其集成到语音助手中，使其能记住用户信息并做出共情回应。具体技术实现和交付物需进一步核验。">
+<meta property="og:description" content="VoiceMem 是一个面向语音代理的通用记忆基础设施，分为存储信息和情感的两个部分，采用全流式架构以消除延迟。开发者可在构建语音代理时集成此记忆层，使代理能记住用户信息和情感状态，最终交付更连贯、个性化的对话体验。具体集成流程和效果仍需核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/voicemem.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/voicemem.html#webpage", "@type": "WebPage", "description": "VoiceMem \u662f\u4e00\u4e2a\u4e3a\u8bed\u97f3\u52a9\u624b\u8bbe\u8ba1\u7684\u5b9e\u65f6\u3001\u5171\u60c5\u8bb0\u5fc6\u7cfb\u7edf\uff0c\u5f00\u6e90\u9879\u76ee\u3002\u5f00\u53d1\u8005\u53ef\u5c06\u5176\u96c6\u6210\u5230\u8bed\u97f3\u52a9\u624b\u4e2d\uff0c\u4f7f\u5176\u80fd\u8bb0\u4f4f\u7528\u6237\u4fe1\u606f\u5e76\u505a\u51fa\u5171\u60c5\u56de\u5e94\u3002\u5177\u4f53\u6280\u672f\u5b9e\u73b0\u548c\u4ea4\u4ed8\u7269\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "VoiceMem", "url": "https://xocto.vercel.app/p/voicemem.html"}, {"@id": "https://xocto.vercel.app/p/voicemem.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u751f\u6d3b", "dateModified": "2026-09-06", "datePublished": "2026-08-17", "description": "VoiceMem \u662f\u4e00\u4e2a\u4e3a\u8bed\u97f3\u52a9\u624b\u8bbe\u8ba1\u7684\u5b9e\u65f6\u3001\u5171\u60c5\u8bb0\u5fc6\u7cfb\u7edf\uff0c\u5f00\u6e90\u9879\u76ee\u3002\u5f00\u53d1\u8005\u53ef\u5c06\u5176\u96c6\u6210\u5230\u8bed\u97f3\u52a9\u624b\u4e2d\uff0c\u4f7f\u5176\u80fd\u8bb0\u4f4f\u7528\u6237\u4fe1\u606f\u5e76\u505a\u51fa\u5171\u60c5\u56de\u5e94\u3002\u5177\u4f53\u6280\u672f\u5b9e\u73b0\u548c\u4ea4\u4ed8\u7269\u9700\u8fdb\u4e00\u6b65\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/voicemem.html#webpage"}, "name": "VoiceMem", "url": "https://xocto.vercel.app/p/voicemem.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/voicemem.html", "name": "VoiceMem", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/voicemem.html#webpage", "@type": "WebPage", "description": "VoiceMem \u662f\u4e00\u4e2a\u9762\u5411\u8bed\u97f3\u4ee3\u7406\u7684\u901a\u7528\u8bb0\u5fc6\u57fa\u7840\u8bbe\u65bd\uff0c\u5206\u4e3a\u5b58\u50a8\u4fe1\u606f\u548c\u60c5\u611f\u7684\u4e24\u4e2a\u90e8\u5206\uff0c\u91c7\u7528\u5168\u6d41\u5f0f\u67b6\u6784\u4ee5\u6d88\u9664\u5ef6\u8fdf\u3002\u5f00\u53d1\u8005\u53ef\u5728\u6784\u5efa\u8bed\u97f3\u4ee3\u7406\u65f6\u96c6\u6210\u6b64\u8bb0\u5fc6\u5c42\uff0c\u4f7f\u4ee3\u7406\u80fd\u8bb0\u4f4f\u7528\u6237\u4fe1\u606f\u548c\u60c5\u611f\u72b6\u6001\uff0c\u6700\u7ec8\u4ea4\u4ed8\u66f4\u8fde\u8d2f\u3001\u4e2a\u6027\u5316\u7684\u5bf9\u8bdd\u4f53\u9a8c\u3002\u5177\u4f53\u96c6\u6210\u6d41\u7a0b\u548c\u6548\u679c\u4ecd\u9700\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "VoiceMem", "url": "https://xocto.vercel.app/p/voicemem.html"}, {"@id": "https://xocto.vercel.app/p/voicemem.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-06", "datePublished": "2026-08-17", "description": "VoiceMem \u662f\u4e00\u4e2a\u9762\u5411\u8bed\u97f3\u4ee3\u7406\u7684\u901a\u7528\u8bb0\u5fc6\u57fa\u7840\u8bbe\u65bd\uff0c\u5206\u4e3a\u5b58\u50a8\u4fe1\u606f\u548c\u60c5\u611f\u7684\u4e24\u4e2a\u90e8\u5206\uff0c\u91c7\u7528\u5168\u6d41\u5f0f\u67b6\u6784\u4ee5\u6d88\u9664\u5ef6\u8fdf\u3002\u5f00\u53d1\u8005\u53ef\u5728\u6784\u5efa\u8bed\u97f3\u4ee3\u7406\u65f6\u96c6\u6210\u6b64\u8bb0\u5fc6\u5c42\uff0c\u4f7f\u4ee3\u7406\u80fd\u8bb0\u4f4f\u7528\u6237\u4fe1\u606f\u548c\u60c5\u611f\u72b6\u6001\uff0c\u6700\u7ec8\u4ea4\u4ed8\u66f4\u8fde\u8d2f\u3001\u4e2a\u6027\u5316\u7684\u5bf9\u8bdd\u4f53\u9a8c\u3002\u5177\u4f53\u96c6\u6210\u6d41\u7a0b\u548c\u6548\u679c\u4ecd\u9700\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/voicemem.html#webpage"}, "name": "VoiceMem", "url": "https://xocto.vercel.app/p/voicemem.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/voicemem.html", "name": "VoiceMem", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>VoiceMem</h1>
       </div>
-      <p class="product-lede">VoiceMem 是一个为语音助手设计的实时、共情记忆系统，开源项目。开发者可将其集成到语音助手中，使其能记住用户信息并做出共情回应。具体技术实现和交付物需进一步核验。</p>
+      <p class="product-lede">VoiceMem 是一个面向语音代理的通用记忆基础设施，分为存储信息和情感的两个部分，采用全流式架构以消除延迟。开发者可在构建语音代理时集成此记忆层，使代理能记住用户信息和情感状态，最终交付更连贯、个性化的对话体验。具体集成流程和效果仍需核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">AI + 生活</span><span class="tag">消费电子</span><span class="tag">人工智能</span><span class="tag">语音助手开发者</span><span class="tag">产品经理</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 796</span>      </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">人工智能</span><span class="tag">语音技术</span><span class="tag">AI 工程师</span><span class="tag">语音代理开发者</span><span class="tag sig">开源关注 803</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>xzf-thu</dd></div>
@@ -94,7 +94,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是语音助手从响应式转向个性化，记忆系统成为关键。切入可从特定人群（如老年人、儿童）或场景（如健康管理）提供定制化记忆功能，但需验证用户对共情记忆的实际需求。</p>
+        <p>语音代理正从单轮交互走向长期关系，记忆成为关键差异化。可从情感陪伴、医疗随访等需要长期用户记忆的垂直场景切入，提供可插拔的记忆服务。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
@@ -115,7 +115,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是语音助手从响应式转向个性化，记忆系统成为关键。切入可从特定人群（如老年人、儿童）或场景（如健康管理）提供定制化记忆功能，但需验证用户对共情记忆的实际需求。</p>
+        <p>语音代理正从单轮交互走向长期关系，记忆成为关键差异化。可从情感陪伴、医疗随访等需要长期用户记忆的垂直场景切入，提供可插拔的记忆服务。</p>
       </div>
     </div>
 
@@ -164,7 +164,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -172,11 +172,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -189,37 +184,11 @@
       </p>
       <p class="noanalysis-sub">
         同类产品的完整分析：
-        <a href="../p/everycube.html">everycube</a>、        <a href="../p/ai-agent-book.html">ai-agent-book</a>      </p>
+        <a href="../p/deepseek-harness.html">deepseek-harness</a>、        <a href="../p/open-kimi-ppt-skill.html">open-kimi-ppt-skill</a>      </p>
     </div>
   </section>
 
 
-  <section class="band desk-band">
-    <div class="sec-head desk-sec">
-      <div>
-        <p class="section-index">04</p>
-        <h2>可核验公开证据</h2>
-        <p class="note">证据链</p>
-      </div>
-    </div>
-    <ul class="rows desk-list">
-      <li><a href="https://xzf-thu.github.io/VoiceMem/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">xzf-thu.github.io</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://arxiv.org/abs/2608.26005" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">arxiv.org</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://arxiv.org/html/2608.26005v1" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">arxiv.org</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-    </ul>
-  </section>
 
   <section class="band desk-band">
     <div class="sec-head desk-sec">
@@ -256,46 +225,46 @@
   <nav class="onward product-onward" aria-label="继续浏览">
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
-      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
-        AI + 生活 共 107 个 →
+      <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
+        基础层 共 113 个 →
       </a>
     </div>
     <ul class="rows desk-list">
       <li>
-        <a href="../p/everycube.html">
+        <a href="../p/deepseek-harness.html">
           <div class="row-head desk-row">
-            <span class="row-name">everycube</span>
-            <span class="row-desc">普通人滚动鼠标，就能亲手穿过魔方全部四十多垓种状态，像走一条长廊</span>
-            <span class="row-tail">
-<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/ai-agent-book.html">
-          <div class="row-head desk-row">
-            <span class="row-name">ai-agent-book</span>
-            <span class="row-desc">把「AI 助手怎么设计和落地」写成开源教材，配上能跟着做的实验</span>
-            <span class="row-tail">
-<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="../p/whodunnitai.html">
-          <div class="row-head desk-row">
-            <span class="row-name">whodunnitai</span>
-            <span class="row-desc">用嘴审问五个会撒谎的AI嫌疑人，十几分钟内指认谁是凶手</span>
+            <span class="row-name">deepseek-harness</span>
+            <span class="row-desc">DeepSeek 把助手的工具、记忆、界面拆成可替换插件，在自己电脑上跑</span>
             <span class="row-tail">
 <span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
         </a>
       </li>
       <li>
-        <a href="../p/loomfeed.html">
+        <a href="../p/open-kimi-ppt-skill.html">
           <div class="row-head desk-row">
-            <span class="row-name">loomfeed</span>
-            <span class="row-desc">人和 AI 同场发帖，来源、确定性标签和人类印章写在帖上，可信度不再靠读者瞎猜</span>
+            <span class="row-name">open-kimi-ppt-skill</span>
+            <span class="row-desc">曾让助手直接产出能继续改的演示文稿，后因版权整库被清空。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/longhorizon-harness.html">
+          <div class="row-head desk-row">
+            <span class="row-name">LongHorizon-Harness</span>
+            <span class="row-desc">让 AI 连续操作电脑几小时，进展写在可核对的账本上，不信它自己说做完了</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/numbat.html">
+          <div class="row-head desk-row">
+            <span class="row-name">numbat</span>
+            <span class="row-desc">公司电脑上的助手干了什么能看清，必要时拦住，事后还能把全过程还原。</span>
             <span class="row-tail">
 <span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
           </div>
@@ -349,7 +318,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>agents-universe · x-octo</title>
-<meta name="description" content="开发多智能体或长周期任务项目的工程师，在跨会话、跨智能体协作时原本要手动重贴上下文或重写任务说明；该项目接收智能体与项目的交互记忆，提供共享记忆让各智能体延续工作状态，具体记忆写入与隔离机制仍待核验。">
+<meta name="description" content="agents-universe 是一个开源项目，旨在让智能体像人一样学习和工作，共享智能体和项目记忆。它可能为多个 AI 代理提供共享记忆和协作机制，具体使用场景和交付物待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/agents-universe.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/agents-universe.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/agents-universe.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/agents-universe.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="agents-universe · x-octo">
-<meta property="og:description" content="开发多智能体或长周期任务项目的工程师，在跨会话、跨智能体协作时原本要手动重贴上下文或重写任务说明；该项目接收智能体与项目的交互记忆，提供共享记忆让各智能体延续工作状态，具体记忆写入与隔离机制仍待核验。">
+<meta property="og:description" content="agents-universe 是一个开源项目，旨在让智能体像人一样学习和工作，共享智能体和项目记忆。它可能为多个 AI 代理提供共享记忆和协作机制，具体使用场景和交付物待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/agents-universe.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/agents-universe.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u591a\u667a\u80fd\u4f53\u6216\u957f\u5468\u671f\u4efb\u52a1\u9879\u76ee\u7684\u5de5\u7a0b\u5e08\uff0c\u5728\u8de8\u4f1a\u8bdd\u3001\u8de8\u667a\u80fd\u4f53\u534f\u4f5c\u65f6\u539f\u672c\u8981\u624b\u52a8\u91cd\u8d34\u4e0a\u4e0b\u6587\u6216\u91cd\u5199\u4efb\u52a1\u8bf4\u660e\uff1b\u8be5\u9879\u76ee\u63a5\u6536\u667a\u80fd\u4f53\u4e0e\u9879\u76ee\u7684\u4ea4\u4e92\u8bb0\u5fc6\uff0c\u63d0\u4f9b\u5171\u4eab\u8bb0\u5fc6\u8ba9\u5404\u667a\u80fd\u4f53\u5ef6\u7eed\u5de5\u4f5c\u72b6\u6001\uff0c\u5177\u4f53\u8bb0\u5fc6\u5199\u5165\u4e0e\u9694\u79bb\u673a\u5236\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "agents-universe", "url": "https://xocto.vercel.app/p/agents-universe.html"}, {"@id": "https://xocto.vercel.app/p/agents-universe.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-06", "datePublished": "2026-08-18", "description": "\u5f00\u53d1\u591a\u667a\u80fd\u4f53\u6216\u957f\u5468\u671f\u4efb\u52a1\u9879\u76ee\u7684\u5de5\u7a0b\u5e08\uff0c\u5728\u8de8\u4f1a\u8bdd\u3001\u8de8\u667a\u80fd\u4f53\u534f\u4f5c\u65f6\u539f\u672c\u8981\u624b\u52a8\u91cd\u8d34\u4e0a\u4e0b\u6587\u6216\u91cd\u5199\u4efb\u52a1\u8bf4\u660e\uff1b\u8be5\u9879\u76ee\u63a5\u6536\u667a\u80fd\u4f53\u4e0e\u9879\u76ee\u7684\u4ea4\u4e92\u8bb0\u5fc6\uff0c\u63d0\u4f9b\u5171\u4eab\u8bb0\u5fc6\u8ba9\u5404\u667a\u80fd\u4f53\u5ef6\u7eed\u5de5\u4f5c\u72b6\u6001\uff0c\u5177\u4f53\u8bb0\u5fc6\u5199\u5165\u4e0e\u9694\u79bb\u673a\u5236\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/agents-universe.html#webpage"}, "name": "agents-universe", "sameAs": "https://agents-universe.com/", "url": "https://xocto.vercel.app/p/agents-universe.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/agents-universe.html", "name": "agents-universe", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/agents-universe.html#webpage", "@type": "WebPage", "description": "agents-universe \u662f\u4e00\u4e2a\u5f00\u6e90\u9879\u76ee\uff0c\u65e8\u5728\u8ba9\u667a\u80fd\u4f53\u50cf\u4eba\u4e00\u6837\u5b66\u4e60\u548c\u5de5\u4f5c\uff0c\u5171\u4eab\u667a\u80fd\u4f53\u548c\u9879\u76ee\u8bb0\u5fc6\u3002\u5b83\u53ef\u80fd\u4e3a\u591a\u4e2a AI \u4ee3\u7406\u63d0\u4f9b\u5171\u4eab\u8bb0\u5fc6\u548c\u534f\u4f5c\u673a\u5236\uff0c\u5177\u4f53\u4f7f\u7528\u573a\u666f\u548c\u4ea4\u4ed8\u7269\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "agents-universe", "url": "https://xocto.vercel.app/p/agents-universe.html"}, {"@id": "https://xocto.vercel.app/p/agents-universe.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-06", "datePublished": "2026-08-18", "description": "agents-universe \u662f\u4e00\u4e2a\u5f00\u6e90\u9879\u76ee\uff0c\u65e8\u5728\u8ba9\u667a\u80fd\u4f53\u50cf\u4eba\u4e00\u6837\u5b66\u4e60\u548c\u5de5\u4f5c\uff0c\u5171\u4eab\u667a\u80fd\u4f53\u548c\u9879\u76ee\u8bb0\u5fc6\u3002\u5b83\u53ef\u80fd\u4e3a\u591a\u4e2a AI \u4ee3\u7406\u63d0\u4f9b\u5171\u4eab\u8bb0\u5fc6\u548c\u534f\u4f5c\u673a\u5236\uff0c\u5177\u4f53\u4f7f\u7528\u573a\u666f\u548c\u4ea4\u4ed8\u7269\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/agents-universe.html#webpage"}, "name": "agents-universe", "sameAs": "https://agents-universe.com/", "url": "https://xocto.vercel.app/p/agents-universe.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/agents-universe.html", "name": "agents-universe", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>agents-universe</h1>
       </div>
-      <p class="product-lede">开发多智能体或长周期任务项目的工程师，在跨会话、跨智能体协作时原本要手动重贴上下文或重写任务说明；该项目接收智能体与项目的交互记忆，提供共享记忆让各智能体延续工作状态，具体记忆写入与隔离机制仍待核验。</p>
+      <p class="product-lede">agents-universe 是一个开源项目，旨在让智能体像人一样学习和工作，共享智能体和项目记忆。它可能为多个 AI 代理提供共享记忆和协作机制，具体使用场景和交付物待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">AI 应用开发者</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 297</span>      </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag sig">开源关注 299</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>agents-universe</dd></div>
@@ -82,79 +82,82 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-06</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-07</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">工作现场</span>
-        <p class="product-lead">让多智能体或长周期项目在跨会话、跨智能体时延续项目上下文，不必每次重新交代背景。</p>
-        <p>手工维护记忆文件、把对话摘要贴进提示词，或用向量库保存历史记录再检索。</p>
-        <p>智能体每次会话像失忆，工程师要手动重贴背景、重写任务说明，多个智能体之间状态互不相通。</p>
+        <p class="product-lead">用户需要让多个 AI 代理共享记忆和协作。</p>
+        <p>目前用户可能手动管理上下文或使用单一代理。</p>
+        <p>当前代理缺乏持久记忆，协作困难。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>需求有依据</h3>
-        <p>趋势：智能体从单次对话走向长周期协作，记忆与上下文延续正在成为独立付费层。切入：从客服、研发、金融运营等已有长周期智能体工作流的团队进入，卖记忆隔离与企业合规，定价未披露。</p>
+        <h3>问题已识别，需求强度未明</h3>
+        <p>趋势：AI 代理正从单任务走向协作和记忆共享，形成持久化的工作单元。切入：可从团队协作场景切入，提供基于共享记忆的代理工作流，但需明确具体行业和用户。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
         <h3>为什么有人会把它留在工作流里</h3>
-        <p>若共享记忆能自动延续项目状态，可省去每次重述背景的时间，团队智能体不必重复踩坑；目前仅一句描述，机制未核验。</p>
+        <p>可能因解决记忆共享问题而受关注，但需求强度未明。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>抓取项目 README 与官方文档，核验共享记忆的写入方式、跨项目隔离与部署机制。</p>
+        <p>官方文档或 README 中关于具体使用场景和交付结果的说明。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。若共享记忆能自动延续项目状态，可省去每次重述背景的时间，团队智能体不必重复踩坑；目前仅一句描述，机制未核验。</p>
+        <p><strong>值得拆解</strong>。可能因解决记忆共享问题而受关注，但需求强度未明。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：智能体从单次对话走向长周期协作，记忆与上下文延续正在成为独立付费层。切入：从客服、研发、金融运营等已有长周期智能体工作流的团队进入，卖记忆隔离与企业合规，定价未披露。</p>
+        <p>趋势：AI 代理正从单任务走向协作和记忆共享，形成持久化的工作单元。切入：可从团队协作场景切入，提供基于共享记忆的代理工作流，但需明确具体行业和用户。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决智能体跨会话失忆的痛点：工程师原本要手动重贴上下文、重写任务说明。此为基于功能说明的工作流推理，交付机制尚未核验。</p></div>
-        <div><span class="field-k">工作流推理</span><p>若共享记忆能自动延续项目状态，可省去每次重述背景的时间，团队智能体不必重复踩坑；目前仅一句描述，机制未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>抓取项目 README 与官方文档，核验共享记忆的写入方式、跨项目隔离与部署机制。</p></div>
+        <div><span class="field-k">公开事实</span><p>agents-universe 是一个开源项目，旨在让智能体像人一样学习和工作，共享智能体和项目记忆。它可能为多个 AI 代理提供共享记忆和协作机制，具体使用场景和交付物待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>可能因解决记忆共享问题而受关注，但需求强度未明。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>官方文档或 README 中关于具体使用场景和交付结果的说明。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>它解决智能体跨会话失忆的痛点：工程师原本要手动重贴上下文、重写任务说明。此为基于功能说明的工作流推理，交付机制尚未核验。</p>
+          <p>产品主张帮助用户完成：“agents-universe 是一个开源项目，旨在让智能体像人一样学习和工作，共享智能体和项目记忆。它可能为多个 AI 代理提供共享记忆和协作机制，具体使用场景和交付物待核验”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://agents-universe.com/" target="_blank" rel="noopener">agents-universe · 2026-08-18 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>九天星标从 228 增至 285，属早期关注度而非持续采用；无法归因到具体使用场景或人群。</p>
+          <p>价值闸门未通过，共识闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>开源项目未披露收费方式与买方；向企业卖记忆托管或隔离可能是方向，这是判断不是已验证事实。</p>
+          <p>价值闸门未通过，模式闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>共享记忆涉及跨项目数据隔离与记忆正确性，能否确定性交付无任何实测或文档证据。</p>
+          <p>价值闸门未通过，求真闸门未进入。</p>
         </article>
       </div>
     </details>
@@ -165,7 +168,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -173,11 +176,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -206,7 +204,7 @@
     <ul class="rows desk-list">
       <li><a href="https://agents-universe.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">agents-universe</span>
-        <span class="row-desc">开源信息 · 开发多智能体或长周期任务项目的工程师，在跨会话、跨智能体协作时原本要手动重贴上下文或重写任务说明；该项目接收智能体与项目的交互记忆，提供共享记忆让各智能体延续工作状态，具体记忆写入与隔离机制仍待核验。</span>
+        <span class="row-desc">开源信息 · agents-universe 是一个开源项目，旨在让智能体像人一样学习和工作，共享智能体和项目记忆。它可能为多个 AI 代理提供共享记忆和协作机制，具体使用场景和交付物待核验。</span>
         <span class="row-tail">2026-08-18</span>
       </div></a></li>
     </ul>
@@ -248,7 +246,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 112 个 →
+        基础层 共 113 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -340,7 +338,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

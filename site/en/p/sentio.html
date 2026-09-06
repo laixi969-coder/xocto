@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>sentio · x-octo</title>
-<meta name="description" content="sentio is a multi-tenant mail server written in Rust that provides an email inbox API for AI agents. Each agent can have its own email address, receiv…">
+<meta name="description" content="sentio is an open-source project providing an email inbox API for AI agents. Developers can give each agent a real email address, receive mail as stru…">
 <link rel="canonical" href="https://xocto.vercel.app/en/p/sentio.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/sentio.html">
 <link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/sentio.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/sentio.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="sentio · x-octo">
-<meta property="og:description" content="sentio is a multi-tenant mail server written in Rust that provides an email inbox API for AI agents. Each agent can have its own email address, receiv…">
+<meta property="og:description" content="sentio is an open-source project providing an email inbox API for AI agents. Developers can give each agent a real email address, receive mail as stru…">
 <meta property="og:url" content="https://xocto.vercel.app/en/p/sentio.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · Business judgment on AI products">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/sentio.html#webpage", "@type": "WebPage", "description": "sentio is a multi-tenant mail server written in Rust that provides an email inbox API for AI agents. Each agent can have its own email address, receiv\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "sentio", "url": "https://xocto.vercel.app/en/p/sentio.html"}, {"@id": "https://xocto.vercel.app/en/p/sentio.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-06", "datePublished": "2026-08-24", "description": "sentio is a multi-tenant mail server written in Rust that provides an email inbox API for AI agents. Each agent can have its own email address, receive mail as structured webhooks, and reply in-thread over REST. It handles inbound and outbound mail, supporting DKIM/SPF/DMARC/ARC, MTA-STS, DANE, and three-tier anti-spam.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/sentio.html#webpage"}, "name": "sentio", "sameAs": "https://truespar.com/sentio", "url": "https://xocto.vercel.app/en/p/sentio.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/sentio.html", "name": "sentio", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/sentio.html#webpage", "@type": "WebPage", "description": "sentio is an open-source project providing an email inbox API for AI agents. Developers can give each agent a real email address, receive mail as stru\u2026", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "sentio", "url": "https://xocto.vercel.app/en/p/sentio.html"}, {"@id": "https://xocto.vercel.app/en/p/sentio.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-06", "datePublished": "2026-08-24", "description": "sentio is an open-source project providing an email inbox API for AI agents. Developers can give each agent a real email address, receive mail as structured webhooks, and reply in-thread over REST. It implements a complete multi-tenant mail server in Rust, covering inbound/outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, and three-tier anti-spam. Specific deployment and integration flows are yet to be verified.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/sentio.html#webpage"}, "name": "sentio", "sameAs": "https://truespar.com/sentio", "url": "https://xocto.vercel.app/en/p/sentio.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/sentio.html", "name": "sentio", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>sentio</h1>
       </div>
-      <p class="product-lede">sentio is a multi-tenant mail server written in Rust that provides an email inbox API for AI agents. Each agent can have its own email address, receive mail as structured webhooks, and reply in-thread over REST. It handles inbound and outbound mail, supporting DKIM/SPF/DMARC/ARC, MTA-STS, DANE, and three-tier anti-spam.</p>
+      <p class="product-lede">sentio is an open-source project providing an email inbox API for AI agents. Developers can give each agent a real email address, receive mail as structured webhooks, and reply in-thread over REST. It implements a complete multi-tenant mail server in Rust, covering inbound/outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, and three-tier anti-spam. Specific deployment and integration flows are yet to be verified.</p>
       <div class="meta product-meta">
 <span class="tag sig">Not a business yet</span>        <span class="tag">Early</span>
-<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software Development</span><span class="tag">Information Technology</span><span class="tag">Software Developer</span><span class="tag">System Administrator</span><span class="tag sig">Cross-market opportunity</span><span class="tag sig">Open-source traction 237</span>      </div>
+<span class="tag">Open-source project</span><span class="tag">AI + Dev</span><span class="tag">Software Development</span><span class="tag">AI agent developers</span><span class="tag">Backend developers</span><span class="tag sig">Open-source traction 239</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>Team / maker</dt><dd>truespar</dd></div>
@@ -95,7 +95,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto&#39;s call</span>
         <h3>Demand is evidenced</h3>
-        <p>The trend is that AI agents need independent communication channels to perform tasks. Entry point: don&#39;t build a generic email service; target specific business scenarios (e.g., customer service, notifications) with agent mailboxes, and charge per message or feature.</p>
+        <p>Trend: AI agents need independent communication channels, making email a foundational infrastructure for agent-to-agent and agent-to-human interaction. Entry: Target AI agent developers and vertical scenarios requiring email capabilities, offering a self-hostable mail backend with emphasis on security and anti-spam.</p>
       </article>
       <article class="product-panel">
         <span class="field-k">Adoption motive</span>
@@ -116,14 +116,14 @@
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
-        <p>The trend is that AI agents need independent communication channels to perform tasks. Entry point: don&#39;t build a generic email service; target specific business scenarios (e.g., customer service, notifications) with agent mailboxes, and charge per message or feature.</p>
+        <p>Trend: AI agents need independent communication channels, making email a foundational infrastructure for agent-to-agent and agent-to-human interaction. Entry: Target AI agent developers and vertical scenarios requiring email capabilities, offering a self-hostable mail backend with emphasis on security and anti-spam.</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>What this judgment rests on</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">Public fact</span><p>sentio is a multi-tenant mail server written in Rust that provides an email inbox API for AI agents. Each agent can have its own email address, receive mail as structured webhooks, and reply in-thread over REST. It handles inbound and outbound mail, supporting DKIM/SPF/DMARC/ARC, MTA-STS, DANE, and three-tier anti-spam.</p></div>
+        <div><span class="field-k">Public fact</span><p>sentio is an open-source project providing an email inbox API for AI agents. Developers can give each agent a real email address, receive mail as structured webhooks, and reply in-thread over REST. It implements a complete multi-tenant mail server in Rust, covering inbound/outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, and three-tier anti-spam. Specific deployment and integration flows are yet to be verified.</p></div>
         <div><span class="field-k">Workflow reasoning</span><p>The open-source community is interested because it provides dedicated mailbox infrastructure for agents, simplifying email automation.</p></div>
         <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
       </div>
@@ -165,18 +165,13 @@
       <div>
         <p class="section-index">02</p>
         <h2>Chinese and English ecosystems</h2>
-        <p class="note">Market comparison · Cross-market opportunity</p>
+        <p class="note">Market comparison</p>
       </div>
     </div>
     <div class="product-markets">
       <div class="field">
         <span class="field-k">English ecosystem · English-language market</span>
         <p>Local supply: Emerging<br>Demand evidence: Not yet verified</p>
-        <p class="note">Public coverage has been recorded for this market. · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">Chinese ecosystem · CN</span>
-        <p>Local supply: Not found in covered sources<br>Demand evidence: Not yet verified</p>
         <p class="note">Public coverage has been recorded for this market. · 2026-09-06</p>
       </div>
     </div>
@@ -206,28 +201,8 @@ Public information is limited; this view will update as more evidence appears.  
     <ul class="rows desk-list">
       <li><a href="https://truespar.com/sentio" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">sentio</span>
-        <span class="row-desc">Open-source signal · Email inbox API for AI agents. Give every agent its own real email address, receive mail as structured webhooks, and reply in-thread over REST. A complete multi-tenant mail server in Rust: inbound and outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, three-tier anti-spam. | repository stars: 237</span>
+        <span class="row-desc">Open-source signal · Email inbox API for AI agents. Give every agent its own real email address, receive mail as structured webhooks, and reply in-thread over REST. A complete multi-tenant mail server in Rust: inbound and outbound, DKIM/SPF/DMARC/ARC, MTA-STS, DANE, three-tier anti-spam. | repository stars: 239</span>
         <span class="row-tail">2026-08-24</span>
-      </div></a></li>
-      <li><a href="https://www.sentiovr.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">SENTIO VR | VR/AR for AEC | BIM Design Review</span>
-        <span class="row-desc">User pain · &#34;The nice thing about Sentio VR is its quick processing, ease of use, and high compatibility with Meta Quest which makes it easier to conduct client presentations without any high-end computer.&#34;</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://sentio.oticonmedical.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Sentio System | Oticon Medical</span>
-        <span class="row-desc">User pain · The Sentio System is an active transcutaneous system, combining the Sentio Ti Implant placed under the skin, and the Sentio 1 Mini sound processor held over the implant by magnets.</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://pocketalk.com/sentio" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">SENTIO - Pocketalk</span>
-        <span class="row-desc">User pain · Sentio provides instant, accurate translations for both audio and text in over 77 languages, allowing for real-time communication across a wide range of settings, whether in-person or virtual.</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://www.sentiobiosciences.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">Home - Sentio BioSciences</span>
-        <span class="row-desc">User pain · Sentio is a specialty pharmaceutical company that focuses on transforming complex ideas into commercial human and animal therapeutic treatments. Proven experience of over 15 years in product development, regulatory approval, and commercialization of small molecules.</span>
-        <span class="row-tail"></span>
       </div></a></li>
     </ul>
   </section>
@@ -268,7 +243,7 @@ Public information is limited; this view will update as more evidence appears.  
     <div class="sec-head desk-sec">
       <div><h2>Similar products</h2></div>
       <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Dev">
-        315 in AI + Dev →
+        309 in AI + Dev →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -315,14 +290,14 @@ Public information is limited; this view will update as more evidence appears.  
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../../p/acryl.html">
+      <a class="pager-item pager-prev" href="../../p/noobiai.html">
         <span class="pager-k">Previous</span>
-        <span class="pager-n">acryl</span>
+        <span class="pager-n">Noobi.ai</span>
       </a>
 
-      <a class="pager-item pager-next" href="../../p/dsh-hub-cli.html">
+      <a class="pager-item pager-next" href="../../p/cambium.html">
         <span class="pager-k">Next</span>
-        <span class="pager-n">dsh-hub-cli</span>
+        <span class="pager-n">Cambium</span>
       </a>
     </div>
   </nav>
@@ -360,7 +335,7 @@ Public information is limited; this view will update as more evidence appears.  
   <footer>
     <span>x-octo · Business judgment on AI products</span>
     <span>·</span>
-    <span>989 cases · 179 business reads</span>
+    <span>986 cases · 179 business reads</span>
     <span class="gen">Data through 2026-09-06</span>
     <span>·</span>
     <a href="../../reports.html">Calls archive</a>

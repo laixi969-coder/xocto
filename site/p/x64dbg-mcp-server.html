@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>x64dbg-mcp-server · x-octo</title>
-<meta name="description" content="逆向工程师通过 MCP 协议让 AI 助手控制 x64dbg 调试器，可设置断点、单步执行、读取内存和寄存器。交付的是程序化的调试控制能力，但具体集成细节待核验。">
+<meta name="description" content="x64dbg-mcp-server 是一个 x64dbg 的原生 MCP 插件，通过 HTTP 暴露调试器的全部功能。逆向工程师或安全研究员可在 AI 助手中通过 MCP 协议连接此插件，以编程方式设置断点、单步执行、读取内存和寄存器，从而将 AI 集成到调试工作流中，实现自动化分析。">
 <link rel="canonical" href="https://xocto.vercel.app/p/x64dbg-mcp-server.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/x64dbg-mcp-server.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/x64dbg-mcp-server.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/x64dbg-mcp-server.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="x64dbg-mcp-server · x-octo">
-<meta property="og:description" content="逆向工程师通过 MCP 协议让 AI 助手控制 x64dbg 调试器，可设置断点、单步执行、读取内存和寄存器。交付的是程序化的调试控制能力，但具体集成细节待核验。">
+<meta property="og:description" content="x64dbg-mcp-server 是一个 x64dbg 的原生 MCP 插件，通过 HTTP 暴露调试器的全部功能。逆向工程师或安全研究员可在 AI 助手中通过 MCP 协议连接此插件，以编程方式设置断点、单步执行、读取内存和寄存器，从而将 AI 集成到调试工作流中，实现自动化分析。">
 <meta property="og:url" content="https://xocto.vercel.app/p/x64dbg-mcp-server.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/x64dbg-mcp-server.html#webpage", "@type": "WebPage", "description": "\u9006\u5411\u5de5\u7a0b\u5e08\u901a\u8fc7 MCP \u534f\u8bae\u8ba9 AI \u52a9\u624b\u63a7\u5236 x64dbg \u8c03\u8bd5\u5668\uff0c\u53ef\u8bbe\u7f6e\u65ad\u70b9\u3001\u5355\u6b65\u6267\u884c\u3001\u8bfb\u53d6\u5185\u5b58\u548c\u5bc4\u5b58\u5668\u3002\u4ea4\u4ed8\u7684\u662f\u7a0b\u5e8f\u5316\u7684\u8c03\u8bd5\u63a7\u5236\u80fd\u529b\uff0c\u4f46\u5177\u4f53\u96c6\u6210\u7ec6\u8282\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "x64dbg-mcp-server", "url": "https://xocto.vercel.app/p/x64dbg-mcp-server.html"}, {"@id": "https://xocto.vercel.app/p/x64dbg-mcp-server.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-22", "description": "\u9006\u5411\u5de5\u7a0b\u5e08\u901a\u8fc7 MCP \u534f\u8bae\u8ba9 AI \u52a9\u624b\u63a7\u5236 x64dbg \u8c03\u8bd5\u5668\uff0c\u53ef\u8bbe\u7f6e\u65ad\u70b9\u3001\u5355\u6b65\u6267\u884c\u3001\u8bfb\u53d6\u5185\u5b58\u548c\u5bc4\u5b58\u5668\u3002\u4ea4\u4ed8\u7684\u662f\u7a0b\u5e8f\u5316\u7684\u8c03\u8bd5\u63a7\u5236\u80fd\u529b\uff0c\u4f46\u5177\u4f53\u96c6\u6210\u7ec6\u8282\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/x64dbg-mcp-server.html#webpage"}, "name": "x64dbg-mcp-server", "url": "https://xocto.vercel.app/p/x64dbg-mcp-server.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/x64dbg-mcp-server.html", "name": "x64dbg-mcp-server", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/x64dbg-mcp-server.html#webpage", "@type": "WebPage", "description": "x64dbg-mcp-server \u662f\u4e00\u4e2a x64dbg \u7684\u539f\u751f MCP \u63d2\u4ef6\uff0c\u901a\u8fc7 HTTP \u66b4\u9732\u8c03\u8bd5\u5668\u7684\u5168\u90e8\u529f\u80fd\u3002\u9006\u5411\u5de5\u7a0b\u5e08\u6216\u5b89\u5168\u7814\u7a76\u5458\u53ef\u5728 AI \u52a9\u624b\u4e2d\u901a\u8fc7 MCP \u534f\u8bae\u8fde\u63a5\u6b64\u63d2\u4ef6\uff0c\u4ee5\u7f16\u7a0b\u65b9\u5f0f\u8bbe\u7f6e\u65ad\u70b9\u3001\u5355\u6b65\u6267\u884c\u3001\u8bfb\u53d6\u5185\u5b58\u548c\u5bc4\u5b58\u5668\uff0c\u4ece\u800c\u5c06 AI \u96c6\u6210\u5230\u8c03\u8bd5\u5de5\u4f5c\u6d41\u4e2d\uff0c\u5b9e\u73b0\u81ea\u52a8\u5316\u5206\u6790\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "x64dbg-mcp-server", "url": "https://xocto.vercel.app/p/x64dbg-mcp-server.html"}, {"@id": "https://xocto.vercel.app/p/x64dbg-mcp-server.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-22", "description": "x64dbg-mcp-server \u662f\u4e00\u4e2a x64dbg \u7684\u539f\u751f MCP \u63d2\u4ef6\uff0c\u901a\u8fc7 HTTP \u66b4\u9732\u8c03\u8bd5\u5668\u7684\u5168\u90e8\u529f\u80fd\u3002\u9006\u5411\u5de5\u7a0b\u5e08\u6216\u5b89\u5168\u7814\u7a76\u5458\u53ef\u5728 AI \u52a9\u624b\u4e2d\u901a\u8fc7 MCP \u534f\u8bae\u8fde\u63a5\u6b64\u63d2\u4ef6\uff0c\u4ee5\u7f16\u7a0b\u65b9\u5f0f\u8bbe\u7f6e\u65ad\u70b9\u3001\u5355\u6b65\u6267\u884c\u3001\u8bfb\u53d6\u5185\u5b58\u548c\u5bc4\u5b58\u5668\uff0c\u4ece\u800c\u5c06 AI \u96c6\u6210\u5230\u8c03\u8bd5\u5de5\u4f5c\u6d41\u4e2d\uff0c\u5b9e\u73b0\u81ea\u52a8\u5316\u5206\u6790\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/x64dbg-mcp-server.html#webpage"}, "name": "x64dbg-mcp-server", "url": "https://xocto.vercel.app/p/x64dbg-mcp-server.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/x64dbg-mcp-server.html", "name": "x64dbg-mcp-server", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>x64dbg-mcp-server</h1>
       </div>
-      <p class="product-lede">逆向工程师通过 MCP 协议让 AI 助手控制 x64dbg 调试器，可设置断点、单步执行、读取内存和寄存器。交付的是程序化的调试控制能力，但具体集成细节待核验。</p>
+      <p class="product-lede">x64dbg-mcp-server 是一个 x64dbg 的原生 MCP 插件，通过 HTTP 暴露调试器的全部功能。逆向工程师或安全研究员可在 AI 助手中通过 MCP 协议连接此插件，以编程方式设置断点、单步执行、读取内存和寄存器，从而将 AI 集成到调试工作流中，实现自动化分析。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">网络安全</span><span class="tag">逆向工程师</span><span class="tag">安全研究员</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 1,891</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">网络安全</span><span class="tag">逆向工程师</span><span class="tag">安全研究员</span><span class="tag sig">开源关注 1,894</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>duty1g</dd></div>
@@ -94,7 +94,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是 AI 助手深入专业工具链，替代重复性调试操作。切入点是面向逆向工程和安全研究社区，提供原生 MCP 插件，可做成开源工具加企业支持，但定价未披露。</p>
+        <p>AI 辅助逆向工程正在兴起，将调试器接入 MCP 是重要一步。可从安全分析自动化切入，为渗透测试和漏洞研究提供 AI 驱动的调试助手。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
@@ -115,7 +115,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是 AI 助手深入专业工具链，替代重复性调试操作。切入点是面向逆向工程和安全研究社区，提供原生 MCP 插件，可做成开源工具加企业支持，但定价未披露。</p>
+        <p>AI 辅助逆向工程正在兴起，将调试器接入 MCP 是重要一步。可从安全分析自动化切入，为渗透测试和漏洞研究提供 AI 驱动的调试助手。</p>
       </div>
     </div>
 
@@ -164,7 +164,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -172,11 +172,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -231,7 +226,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 315 个 →
+        AI + 开发 共 309 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -323,7 +318,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

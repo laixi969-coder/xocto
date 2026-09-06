@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>FrontierAgent · x-octo</title>
-<meta name="description" content="一个开源的 agent 框架，提供命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键运行，无需预装或 Docker 依赖。开发者用它构建和运行 AI 代理。具体功能细节和交付物仍需核验。">
+<meta name="description" content="FrontierAgent 是一个开源的 agent 框架，提供原生命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键安装，无需预装依赖或 Docker。开发者可在终端中配置和运行 AI agent 以执行复杂任务。">
 <link rel="canonical" href="https://xocto.vercel.app/p/frontieragent.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/frontieragent.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/frontieragent.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/frontieragent.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="FrontierAgent · x-octo">
-<meta property="og:description" content="一个开源的 agent 框架，提供命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键运行，无需预装或 Docker 依赖。开发者用它构建和运行 AI 代理。具体功能细节和交付物仍需核验。">
+<meta property="og:description" content="FrontierAgent 是一个开源的 agent 框架，提供原生命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键安装，无需预装依赖或 Docker。开发者可在终端中配置和运行 AI agent 以执行复杂任务。">
 <meta property="og:url" content="https://xocto.vercel.app/p/frontieragent.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/frontieragent.html#webpage", "@type": "WebPage", "description": "\u4e00\u4e2a\u5f00\u6e90\u7684 agent \u6846\u67b6\uff0c\u63d0\u4f9b\u547d\u4ee4\u884c TUI\u3001ReAct \u548c Agent Team \u6a21\u5f0f\uff0c\u652f\u6301 macOS \u548c Linux \u4e00\u952e\u8fd0\u884c\uff0c\u65e0\u9700\u9884\u88c5\u6216 Docker \u4f9d\u8d56\u3002\u5f00\u53d1\u8005\u7528\u5b83\u6784\u5efa\u548c\u8fd0\u884c AI \u4ee3\u7406\u3002\u5177\u4f53\u529f\u80fd\u7ec6\u8282\u548c\u4ea4\u4ed8\u7269\u4ecd\u9700\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "FrontierAgent", "url": "https://xocto.vercel.app/p/frontieragent.html"}, {"@id": "https://xocto.vercel.app/p/frontieragent.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-22", "description": "\u4e00\u4e2a\u5f00\u6e90\u7684 agent \u6846\u67b6\uff0c\u63d0\u4f9b\u547d\u4ee4\u884c TUI\u3001ReAct \u548c Agent Team \u6a21\u5f0f\uff0c\u652f\u6301 macOS \u548c Linux \u4e00\u952e\u8fd0\u884c\uff0c\u65e0\u9700\u9884\u88c5\u6216 Docker \u4f9d\u8d56\u3002\u5f00\u53d1\u8005\u7528\u5b83\u6784\u5efa\u548c\u8fd0\u884c AI \u4ee3\u7406\u3002\u5177\u4f53\u529f\u80fd\u7ec6\u8282\u548c\u4ea4\u4ed8\u7269\u4ecd\u9700\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/frontieragent.html#webpage"}, "name": "FrontierAgent", "sameAs": "https://www.apodex.ai", "url": "https://xocto.vercel.app/p/frontieragent.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/frontieragent.html", "name": "FrontierAgent", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/frontieragent.html#webpage", "@type": "WebPage", "description": "FrontierAgent \u662f\u4e00\u4e2a\u5f00\u6e90\u7684 agent \u6846\u67b6\uff0c\u63d0\u4f9b\u539f\u751f\u547d\u4ee4\u884c TUI\u3001ReAct \u548c Agent Team \u6a21\u5f0f\uff0c\u652f\u6301 macOS \u548c Linux \u4e00\u952e\u5b89\u88c5\uff0c\u65e0\u9700\u9884\u88c5\u4f9d\u8d56\u6216 Docker\u3002\u5f00\u53d1\u8005\u53ef\u5728\u7ec8\u7aef\u4e2d\u914d\u7f6e\u548c\u8fd0\u884c AI agent \u4ee5\u6267\u884c\u590d\u6742\u4efb\u52a1\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "FrontierAgent", "url": "https://xocto.vercel.app/p/frontieragent.html"}, {"@id": "https://xocto.vercel.app/p/frontieragent.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-06", "datePublished": "2026-08-22", "description": "FrontierAgent \u662f\u4e00\u4e2a\u5f00\u6e90\u7684 agent \u6846\u67b6\uff0c\u63d0\u4f9b\u539f\u751f\u547d\u4ee4\u884c TUI\u3001ReAct \u548c Agent Team \u6a21\u5f0f\uff0c\u652f\u6301 macOS \u548c Linux \u4e00\u952e\u5b89\u88c5\uff0c\u65e0\u9700\u9884\u88c5\u4f9d\u8d56\u6216 Docker\u3002\u5f00\u53d1\u8005\u53ef\u5728\u7ec8\u7aef\u4e2d\u914d\u7f6e\u548c\u8fd0\u884c AI agent \u4ee5\u6267\u884c\u590d\u6742\u4efb\u52a1\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/frontieragent.html#webpage"}, "name": "FrontierAgent", "sameAs": "https://www.apodex.ai", "url": "https://xocto.vercel.app/p/frontieragent.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/frontieragent.html", "name": "FrontierAgent", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>FrontierAgent</h1>
       </div>
-      <p class="product-lede">一个开源的 agent 框架，提供命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键运行，无需预装或 Docker 依赖。开发者用它构建和运行 AI 代理。具体功能细节和交付物仍需核验。</p>
+      <p class="product-lede">FrontierAgent 是一个开源的 agent 框架，提供原生命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键安装，无需预装依赖或 Docker。开发者可在终端中配置和运行 AI agent 以执行复杂任务。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">AI 工程师</span><span class="tag">软件开发者</span><span class="tag">全球</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 1,852</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag">DevOps 工程师</span><span class="tag sig">开源关注 1,858</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>ApodexAI</dd></div>
@@ -95,7 +95,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势是 AI 代理框架从复杂部署走向轻量、即开即用，降低使用门槛。切入点是开发者工具，从开源社区进入，可提供云托管或企业支持服务。</p>
+        <p>Agent 框架正从库走向开箱即用的工具，降低开发者构建 agent 的门槛。可从特定运维或开发任务切入，提供预配置的 agent 模板。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">采用动机</span>
@@ -116,7 +116,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是 AI 代理框架从复杂部署走向轻量、即开即用，降低使用门槛。切入点是开发者工具，从开源社区进入，可提供云托管或企业支持服务。</p>
+        <p>Agent 框架正从库走向开箱即用的工具，降低开发者构建 agent 的门槛。可从特定运维或开发任务切入，提供预配置的 agent 模板。</p>
       </div>
     </div>
 
@@ -165,7 +165,7 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
@@ -173,11 +173,6 @@
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：早期出现<br>需求证据：尚未核验</p>
         <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-06</p>
-      </div>
-      <div class="field">
-        <span class="field-k">中文生态 · CN</span>
-        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
       </div>
     </div>
   </section>
@@ -206,7 +201,7 @@
     <ul class="rows desk-list">
       <li><a href="https://www.apodex.ai" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">FrontierAgent</span>
-        <span class="row-desc">开源信息 · 一个开源的 agent 框架，提供命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键运行，无需预装或 Docker 依赖。开发者用它构建和运行 AI 代理。具体功能细节和交付物仍需核验。</span>
+        <span class="row-desc">开源信息 · FrontierAgent 是一个开源的 agent 框架，提供原生命令行 TUI、ReAct 和 Agent Team 模式，支持 macOS 和 Linux 一键安装，无需预装依赖或 Docker。开发者可在终端中配置和运行 AI agent 以执行复杂任务。</span>
         <span class="row-tail">2026-08-22</span>
       </div></a></li>
     </ul>
@@ -248,7 +243,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 315 个 →
+        AI + 开发 共 309 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -340,7 +335,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>989 个案例 · 179 份生意判断</span>
+    <span>986 个案例 · 179 份生意判断</span>
     <span class="gen">数据截至 2026-09-06</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
