@@ -11,6 +11,7 @@ import os
 import random
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
 from dataclasses import dataclass, replace
 from datetime import date
@@ -180,6 +181,9 @@ MAX_PAYLOAD_BYTES = 32_000
 # 瞬时 HTTP 错误（413/429/503）的退避重试参数。
 _MAX_RETRIES = 3
 _BASE_BACKOFF = 1.0
+# 批次级并发数：单线程时一个限流等待会卡住整条流水线；3 个批次并行让
+# 等待与其它供应商的请求重叠。断点写入仍由主线程按批序完成。
+_PARALLEL_BATCH_WORKERS = 3
 # 免费档限流以分钟计（retry-after 常见 30-60s）。原地等待同一供应商会把
 # 单个批次拖到几十分钟：超过这个等待上限就立刻切换下一个供应商。
 _MAX_INLINE_WAIT_SECONDS = 20.0
@@ -551,6 +555,38 @@ def _fit_messages(batch: list[Product], build: Any) -> list[dict[str, str]]:
         if _estimate_payload_bytes(messages) <= MAX_PAYLOAD_BYTES:
             return messages
     return messages
+
+
+def _run_batches_parallel(process: Any, batches: list[Any], on_result: Any) -> None:
+    """并发处理批次；每个成功批次立刻由 on_result 落断点，失败按批序传播。
+
+    请求与校验在少量工作线程里并发执行（限流等待和其它供应商的请求可以
+    重叠）。所有批次跑完后，主线程按原批序逐个写入断点并合并结果——这与
+    串行版本的幂等语义一致；遇到第一个失败的批次先完成它之前批次的写入，
+    再把异常抛给调用方（整天失败、断点重试），并发中其它成功批次不丢。
+    """
+    outcomes: list[Any] = [None] * len(batches)
+    first_error: tuple[int, BaseException] | None = None
+    if len(batches) <= 1:
+        for index, batch in enumerate(batches):
+            try:
+                outcomes[index] = process(batch)
+            except BaseException as exc:
+                first_error = (index, exc)
+                break
+    else:
+        with ThreadPoolExecutor(max_workers=min(_PARALLEL_BATCH_WORKERS, len(batches))) as pool:
+            futures = [pool.submit(process, batch) for batch in batches]
+            for index, future in enumerate(futures):
+                try:
+                    outcomes[index] = future.result()
+                except BaseException as exc:
+                    if first_error is None:
+                        first_error = (index, exc)
+    for index, batch in enumerate(batches):
+        if first_error is not None and index == first_error[0]:
+            raise first_error[1]
+        on_result(batch, outcomes[index])
 
 
 def _request(
@@ -1483,8 +1519,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         for group in interp_groups
         for batch in _split_batches(group, lambda items: interp_build(items, False, None))
     ]
-    for index, batch in enumerate(interp_batches, start=1):
-        print(f"解释批次 {index}/{len(interp_batches)}", flush=True)
+    def run_interp_batch(batch: list[Product]) -> Any:
         messages = _fit_messages(batch, interp_build)
         result = _request(messages)
         try:
@@ -1534,11 +1569,21 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
             # 请求本身失败仍让整天失败（工作流会带着断点重试）；只有
             # 校验屡修不过才隔离本批，不让一个坏批次毁掉已完成的大半天。
             _require_isolatable(batch, exc)
-            continue
+            return None
+        return result, interpreted, entities, interpreted_events
+
+    print(f"解释批次共 {len(interp_batches)} 批", flush=True)
+
+    def collect_interp_batch(batch: list[Product], outcome: Any) -> None:
+        if outcome is None:
+            return
+        result, interpreted, entities, interpreted_events = outcome
         store.save_brief_batch(day, "interpretation", result)
         updates.update(interpreted)
         event_summaries.update(interpreted_events)
         full_products.extend(entities)
+
+    _run_batches_parallel(run_interp_batch, interp_batches, collect_interp_batch)
 
     # 完整双语说明、灵感和四道真需求闸门输出很长，仍以小批次逐一编辑。
     cached_full = [product for product in full_products if product.slug in progress["full"]]
@@ -1574,8 +1619,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         for group in full_groups
         for batch in _split_batches(group, lambda items: full_build(items, False, None))
     ]
-    for index, batch in enumerate(full_batches, start=1):
-        print(f"判断批次 {index}/{len(full_batches)}", flush=True)
+    def run_full_batch(batch: list[Product]) -> Any:
         messages = _fit_messages(batch, full_build)
         result = _request(messages)
         try:
@@ -1635,11 +1679,21 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                     batch_event_summaries = _event_summaries(result, batch)
         except BriefError as exc:
             _require_isolatable(batch, exc)
-            continue
+            return None
+        return result, batch_updates, batch_reviews, batch_event_summaries
+
+    print(f"判断批次共 {len(full_batches)} 批", flush=True)
+
+    def collect_full_batch(batch: list[Product], outcome: Any) -> None:
+        if outcome is None:
+            return
+        result, batch_updates, batch_reviews, batch_event_summaries = outcome
         store.save_brief_batch(day, "full", result)
         updates.update(batch_updates)
         reviews.update(batch_reviews)
         event_summaries.update(batch_event_summaries)
+
+    _run_batches_parallel(run_full_batch, full_batches, collect_full_batch)
 
     # 日报独立生成，避免它和项目字段争抢同一次 JSON 输出；重大项目仍强制
     # 同时进入中英文正文。被隔离的批次没有更新，候选以原样进入日报输入，
