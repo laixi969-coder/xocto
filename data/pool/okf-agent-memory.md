@@ -20,7 +20,7 @@ url: https://github.com/okf-memory/okf-agent-memory
 canonical_url: https://github.com/okf-memory/okf-agent-memory
 summary: Git-native persistent memory for AI coding agents
 first_seen: '2026-09-05T22:15:52Z'
-last_seen: '2026-09-06T08:35:59Z'
+last_seen: '2026-09-06T09:14:25Z'
 status: pending_filter
 sources:
 - hackernews
@@ -35,10 +35,10 @@ sightings:
   kind: news
 - source: github
   url: https://github.com/okf-memory/okf-agent-memory
-  seen_at: '2026-09-06T08:35:59Z'
+  seen_at: '2026-09-06T09:14:25Z'
   metrics:
-    stars: 157
-    forks: 8
+    stars: 160
+    forks: 9
     open_issues: 1
   kind: product
 ---

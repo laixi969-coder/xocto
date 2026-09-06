@@ -20,16 +20,16 @@ url: https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-tou
 canonical_url: https://sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems
 summary: engineers lose touch with their systems
 first_seen: '2026-09-05T07:52:50Z'
-last_seen: '2026-09-06T08:35:56Z'
+last_seen: '2026-09-06T09:14:21Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems
-  seen_at: '2026-09-06T08:35:56Z'
+  seen_at: '2026-09-06T09:14:21Z'
   metrics:
-    points: 379
+    points: 380
     comments: 333
   kind: news
 ---

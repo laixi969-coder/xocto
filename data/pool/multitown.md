@@ -20,16 +20,16 @@ url: https://github.com/w1u2d3i4/multitown
 canonical_url: https://github.com/w1u2d3i4/multitown
 summary: Code-only runtime toolkit for cost-aware multi-agent organization and control
 first_seen: '2026-08-20T07:55:08Z'
-last_seen: '2026-09-06T08:35:59Z'
+last_seen: '2026-09-06T09:14:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/w1u2d3i4/multitown
-  seen_at: '2026-09-06T08:35:59Z'
+  seen_at: '2026-09-06T09:14:25Z'
   metrics:
-    stars: 186
+    stars: 187
     forks: 27
     open_issues: 0
   kind: product

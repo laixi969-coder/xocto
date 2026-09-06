@@ -20,16 +20,16 @@ url: https://github.com/blendi-remade/unreel
 canonical_url: https://github.com/blendi-remade/unreel
 summary: your personal AI video streaming service
 first_seen: '2026-09-03T01:49:07Z'
-last_seen: '2026-09-06T08:35:59Z'
+last_seen: '2026-09-06T09:14:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/blendi-remade/unreel
-  seen_at: '2026-09-06T08:35:59Z'
+  seen_at: '2026-09-06T09:14:25Z'
   metrics:
-    stars: 127
+    stars: 128
     forks: 27
     open_issues: 1
   kind: product
