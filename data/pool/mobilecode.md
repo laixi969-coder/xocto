@@ -25,7 +25,7 @@ url: https://github.com/hsandhu/mobilecode
 canonical_url: https://github.com/hsandhu/mobilecode
 summary: OpenCode with Built-In iOS and Android Previews
 first_seen: '2026-09-05T15:44:04Z'
-last_seen: '2026-09-06T11:01:39Z'
+last_seen: '2026-09-06T13:15:20Z'
 status: watching
 sources:
 - hackernews
@@ -40,10 +40,10 @@ sightings:
   kind: product
 - source: github
   url: https://github.com/hsandhu/mobilecode
-  seen_at: '2026-09-06T11:01:39Z'
+  seen_at: '2026-09-06T13:15:20Z'
   metrics:
-    stars: 95
-    forks: 8
+    stars: 100
+    forks: 10
     open_issues: 0
   kind: product
 ---

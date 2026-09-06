@@ -30,16 +30,16 @@ url: https://github.com/yvetteYSY/creator-agent
 canonical_url: https://github.com/yvetteYSY/creator-agent
 summary: Build AI agents grounded in a creator's documents, audio, and video.
 first_seen: '2026-08-25T04:42:47Z'
-last_seen: '2026-09-06T11:01:39Z'
+last_seen: '2026-09-06T13:15:20Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/yvetteYSY/creator-agent
-  seen_at: '2026-09-06T11:01:39Z'
+  seen_at: '2026-09-06T13:15:20Z'
   metrics:
-    stars: 91
+    stars: 96
     forks: 11
     open_issues: 0
   kind: product

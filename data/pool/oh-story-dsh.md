@@ -34,16 +34,16 @@ url: https://github.com/zenstory-ai/oh-story-dsh
 canonical_url: https://github.com/zenstory-ai/oh-story-dsh
 summary: A DSH plugin for novel writing and short-drama production, powered by Oh Story and Drama Skills.
 first_seen: '2026-08-19T15:27:01Z'
-last_seen: '2026-09-06T08:35:59Z'
+last_seen: '2026-09-06T13:15:20Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/zenstory-ai/oh-story-dsh
-  seen_at: '2026-09-06T08:35:59Z'
+  seen_at: '2026-09-06T13:15:20Z'
   metrics:
-    stars: 303
+    stars: 304
     forks: 51
     open_issues: 3
   kind: product
