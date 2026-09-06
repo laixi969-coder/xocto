@@ -33,17 +33,17 @@ canonical_url: https://github.com/JordyZomer/lemmalog
 summary: 'A Datalog engine for LLM agent memory: stratified rules, provenance-tracked facts, incremental
   derivation, and an MCP server that lets your harness use it as a shared brain.'
 first_seen: '2026-08-27T07:06:55Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T06:48:39Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JordyZomer/lemmalog
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T06:48:39Z'
   metrics:
-    stars: 283
-    forks: 23
+    stars: 284
+    forks: 24
     open_issues: 3
   kind: product
 ---

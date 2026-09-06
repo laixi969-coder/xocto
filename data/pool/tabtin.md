@@ -30,17 +30,17 @@ url: https://www.tabtin.com/
 canonical_url: https://tabtin.com
 summary: A workspace where people and multiple AI agents work together.
 first_seen: '2026-08-19T02:36:25Z'
-last_seen: '2026-09-06T04:00:31Z'
+last_seen: '2026-09-06T06:48:39Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.tabtin.com/
-  seen_at: '2026-09-06T04:00:31Z'
+  seen_at: '2026-09-06T06:48:39Z'
   metrics:
-    stars: 292
-    forks: 70
+    stars: 293
+    forks: 71
     open_issues: 2
   kind: product
 ---

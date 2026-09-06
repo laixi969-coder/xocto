@@ -20,16 +20,16 @@ url: https://github.com/romangojiberryAI/gojiberryai-sales-os
 canonical_url: https://github.com/romangojiberryAI/gojiberryai-sales-os
 summary: 'GojiberryAI Sales OS: a full AI outbound team for Grok Bot, powered by the GojiberryAI MCP.'
 first_seen: '2026-09-01T09:07:40Z'
-last_seen: '2026-09-06T04:00:31Z'
+last_seen: '2026-09-06T06:48:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/romangojiberryAI/gojiberryai-sales-os
-  seen_at: '2026-09-06T04:00:31Z'
+  seen_at: '2026-09-06T06:48:39Z'
   metrics:
-    stars: 104
+    stars: 106
     forks: 24
     open_issues: 2
   kind: product

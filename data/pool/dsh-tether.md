@@ -21,16 +21,16 @@ canonical_url: https://dsh-tether.zexa.cc
 summary: Mobile client for the DeepSeek Harness — use the dsh on your dev machine from your Android or
   iOS phone, remotely across networks, peer-to-peer with no server in between (iroh)
 first_seen: '2026-08-19T18:09:51Z'
-last_seen: '2026-09-06T00:58:33Z'
+last_seen: '2026-09-06T06:48:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://dsh-tether.zexa.cc/
-  seen_at: '2026-09-06T00:58:33Z'
+  seen_at: '2026-09-06T06:48:39Z'
   metrics:
-    stars: 42
+    stars: 43
     forks: 7
     open_issues: 3
   kind: product

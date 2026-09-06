@@ -20,16 +20,16 @@ url: https://github.com/stachon/hc2html
 canonical_url: https://github.com/stachon/hc2html
 summary: HyperCard to HTML Converter
 first_seen: '2026-09-05T16:11:07Z'
-last_seen: '2026-09-06T02:59:21Z'
+last_seen: '2026-09-06T06:48:36Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/stachon/hc2html
-  seen_at: '2026-09-06T02:59:21Z'
+  seen_at: '2026-09-06T06:48:36Z'
   metrics:
-    points: 11
+    points: 12
     comments: 2
   kind: product
 ---

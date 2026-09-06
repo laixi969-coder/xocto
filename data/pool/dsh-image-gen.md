@@ -20,17 +20,17 @@ url: https://github.com/shanliuling/dsh-image-gen#readme
 canonical_url: https://github.com/shanliuling/dsh-image-gen
 summary: Generate images directly in DeepSeek Harness chats
 first_seen: '2026-08-17T10:16:37Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T06:48:39Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/shanliuling/dsh-image-gen#readme
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T06:48:39Z'
   metrics:
     stars: 319
-    forks: 19
+    forks: 20
     open_issues: 1
   kind: product
 ---
