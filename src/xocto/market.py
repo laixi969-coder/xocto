@@ -16,7 +16,7 @@ from datetime import date
 from typing import Any
 from urllib.parse import urlencode
 
-from .brief import BriefError, _request
+from .brief import BriefError, _request, _split_batches
 from .models import (
     DEMAND_EVIDENCE_STATUSES,
     SUPPLY_STATUSES,
@@ -314,17 +314,22 @@ def run(store: Store, *, day: date, http: Http | None = None) -> MarketReport:
             "evidence": [item.to_dict() for item in evidence],
         })
     # 市场对照同样可能在候选丰富的日子超过 JSON 输出上限。检索证据仍一次
-    # 完整保存，编辑判断则分批逐条返回，避免漏掉后半段项目。
+    # 完整保存，编辑判断则分批逐条返回，避免漏掉后半段项目；批内检索证据
+    # 过长时再由 _split_batches 对半拆分，不让一个重批次卡住全天。
     observations: list[MarketObservation] = []
-    for start in range(0, len(expected), MARKET_BATCH_SIZE):
-        batch_expected = expected[start:start + MARKET_BATCH_SIZE]
-        batch_rows = prompt_rows[start:start + MARKET_BATCH_SIZE]
-        batch_allowed = {
-            (product.slug, ecosystem): allowed[(product.slug, ecosystem)]
-            for product, ecosystem in batch_expected
-        }
-        result = _request(_messages(batch_rows))
-        observations.extend(_validated_observations(result, batch_expected, batch_allowed, day))
+    paired = list(zip(expected, prompt_rows))
+    for start in range(0, len(paired), MARKET_BATCH_SIZE):
+        group = paired[start:start + MARKET_BATCH_SIZE]
+        batches = _split_batches(group, lambda pairs: _messages([row for _, row in pairs]))
+        for batch in batches:
+            batch_expected = [product for product, _ in batch]
+            batch_rows = [row for _, row in batch]
+            batch_allowed = {
+                (product.slug, ecosystem): allowed[(product.slug, ecosystem)]
+                for product, ecosystem in batch_expected
+            }
+            result = _request(_messages(batch_rows))
+            observations.extend(_validated_observations(result, batch_expected, batch_allowed, day))
     for observation in observations:
         store.append_market_observation(observation)
     return MarketReport(day, candidates=len({product.slug for product, _ in expected}), observations=len(observations))

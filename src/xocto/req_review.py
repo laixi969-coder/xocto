@@ -13,7 +13,7 @@ from dataclasses import dataclass, replace
 from datetime import date
 from typing import Any
 
-from xocto.brief import BriefError, _request, _validation_repair_messages
+from xocto.brief import BriefError, _request, _split_batches, _validation_repair_messages
 from xocto.demand import demand_read
 from xocto.models import (
     EVENT_REQ_CHANGE,
@@ -564,9 +564,16 @@ def run(store: Store, *, day: date) -> FullReqReport:
     if not selected:
         return FullReqReport(day, candidates=0, reviews=0, skipped=True)
     # 完整 `/req` 的单项理由更长；分批保证候选数量增长时也不会截断 JSON。
+    # 批内出现超长证据时再由 _split_batches 对半拆分，不让一个重批次卡住全天。
     reviews: list[ReqReview] = []
-    for start in range(0, len(selected), REQ_BATCH_SIZE):
-        batch = selected[start:start + REQ_BATCH_SIZE]
+    batches = [
+        batch
+        for start in range(0, len(selected), REQ_BATCH_SIZE)
+        for batch in _split_batches(
+            selected[start:start + REQ_BATCH_SIZE], lambda items: _messages(items, store)
+        )
+    ]
+    for batch in batches:
         messages = _messages(batch, store)
         result = _request(messages)
         for attempt in range(MAX_FULL_REQ_REPAIRS + 1):

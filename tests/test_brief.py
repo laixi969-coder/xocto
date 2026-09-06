@@ -10,6 +10,7 @@ from unittest.mock import patch
 from xocto.brief import (
     BriefError,
     PublicSourceLeakError,
+    _candidate_data,
     _decode_json_object,
     _event_summaries,
     _interpretation_prompt,
@@ -26,6 +27,7 @@ from xocto.brief import (
     _require_no_public_source_leaks,
     _require_priority_coverage,
     _req_reviews,
+    _split_batches,
     _updates,
     _validation_repair_messages,
     candidates_for_day,
@@ -118,6 +120,51 @@ class BriefTests(unittest.TestCase):
         self.assertIn("载体不等于对象", prompt[0]["content"])
         self.assertIn("entity|market_context|rejected", prompt[0]["content"])
         self.assertNotIn("req_initial", prompt[0]["content"])
+
+    def test_oversized_batch_is_split_in_the_caller(self) -> None:
+        # 预检拒绝请求体超限的批次时，责任在调用方：对半拆到每一批都装得下，
+        # 且覆盖关系不丢。这里每个候选约 31KB，两条就超过 32KB 上限。
+        def build(items: list) -> list[dict[str, str]]:
+            payload = "x" * (31_000 * len(items))
+            return [
+                {"role": "system", "content": "s"},
+                {"role": "user", "content": payload},
+            ]
+
+        items = [product(f"p{i}") for i in range(4)]
+        batches = _split_batches(items, build)
+        self.assertEqual([len(batch) for batch in batches], [1, 1, 1, 1])
+        self.assertEqual(
+            [item.slug for batch in batches for item in batch],
+            [f"p{i}" for i in range(4)],
+        )
+
+        single = [product("only")]
+        self.assertEqual(_split_batches(single, build), [single])
+
+    def test_compact_candidate_data_truncates_text_but_keeps_evidence_ids(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.save_product(item)
+            store.append_evidence(Evidence(
+                id="ev-1", project_slug="example",
+                url="https://news.example/story",
+                title="T" * 400,
+                published_at="2026-08-13T00:00:00Z",
+                collected_at="2026-08-13T00:00:00Z",
+                source_kind="market_signal",
+                tier="independent",
+                fact="F" * 2000,
+            ))
+
+            full = _candidate_data(store, item)
+            compact = _candidate_data(store, item, compact=True)
+
+        self.assertEqual(compact["evidence"][0]["id"], "ev-1")
+        self.assertLessEqual(len(compact["evidence"][0]["fact"]), 700)
+        self.assertEqual(len(full["evidence"][0]["fact"]), 2000)
+        self.assertLessEqual(len(compact["source_summary"]), 700)
 
     def test_news_event_summary_falls_back_to_validated_product_copy(self) -> None:
         news = replace(

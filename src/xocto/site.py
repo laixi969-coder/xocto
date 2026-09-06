@@ -112,7 +112,8 @@ def _chinese_text(value: str, fallback: str = "") -> str:
     if not text or not _CJK_TEXT.search(text):
         return fallback
     text = _ENGLISH_PROSE.sub("", text)
-    text = re.sub(r"\s*[|｜]+\s*$", "", text).strip()
+    text = re.sub(r"^\s*[|｜、，:：—-]+\s*", "", text)
+    text = re.sub(r"\s*[|｜、，:：]+$", "", text)
     return " ".join(text.split()) or fallback
 
 
@@ -337,11 +338,12 @@ def _localized_evidence_copy(item: Any, product: Any | None, locale: Locale) -> 
             _neutralize_public_source_names(title or locale.t["product"]["evidence_link"], locale),
             scrub_pending_phrase(_neutralize_public_source_names(fact, locale)),
         )
-    if _CJK_TEXT.search(raw_title):
-        title = raw_title
-    elif is_product_title:
+    # 中文页不能直接倾倒英文采集摘要：标题与事实都经 _chinese_text 投影，
+    # 整段英文的原始标题退到域名，混排标题保留中文部分和必要专名。
+    title = _chinese_text(raw_title)
+    if not title and is_product_title:
         title = product_name
-    else:
+    if not title:
         title = host or locale.t["product"]["evidence_link"]
     if product is not None and item.source_kind in {"product", "open_source"}:
         fact = _chinese_text(product.summary_zh)

@@ -37,6 +37,7 @@ from xocto.site import (
     _daily_rotation,
     _is_publishable,
     _latest_req_review,
+    _localized_evidence_copy,
     _metric_badges,
     _neutralize_public_source_names,
     _opportunity_action,
@@ -846,7 +847,8 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("product.req.unknown", template)
         self.assertIn("product.req.gates", template)
         self.assertIn("gate.evidence", template)
-        self.assertIn('class="research-notes evidence-boundary" open', template)
+        # 模板改版后证据边界改为 product-evidence 折叠块，默认展开。
+        self.assertIn('<details class="product-evidence" open>', template)
         self.assertNotIn("product.req.business_maturity", template)
         self.assertIn("t.product.markets_title", template)
         self.assertIn("product.cross_market", template)
@@ -911,6 +913,52 @@ class PublishabilityTests(unittest.TestCase):
             self.assertTrue((root / "p/keep.html").exists())
             self.assertFalse((root / "p/rejected.html").exists())
             self.assertFalse((root / "en/p/rejected.html").exists())
+
+
+class EvidenceLocalizationTests(unittest.TestCase):
+    @staticmethod
+    def _item(title: str, fact: str) -> Evidence:
+        return Evidence(
+            id="ev-1", project_slug="compute",
+            url="https://finance.biggo.com/news/x",
+            title=title,
+            published_at="2026-09-05T00:00:00Z",
+            collected_at="2026-09-06T00:00:00Z",
+            source_kind="market_signal",
+            tier="independent",
+            fact=fact,
+        )
+
+    def test_chinese_evidence_never_dumps_full_english_headlines(self) -> None:
+        # 全角分隔符「｜」也匹配 CJK，但不能因此把整段英文标题倒进中文证据链。
+        title, fact = _localized_evidence_copy(
+            self._item(
+                "Everyone Gets A Software Company — Benjamin Guo, Zo Computer｜AI Engineer",
+                "Everyone Gets A Software Company — Benjamin Guo, Zo Computer｜AI Engineer finance.biggo.com",
+            ),
+            None,
+            ZH,
+        )
+        self.assertNotIn("Everyone Gets A Software Company", title)
+        self.assertNotIn("Everyone Gets A Software Company", fact)
+
+    def test_mixed_chinese_title_keeps_its_chinese_part(self) -> None:
+        title, _ = _localized_evidence_copy(
+            self._item(
+                "AI Engineer 专访：Everyone Gets A Software Company — Benjamin Guo",
+                "",
+            ),
+            None,
+            ZH,
+        )
+        self.assertIn("AI Engineer 专访", title)
+        self.assertNotIn("Everyone Gets A Software Company", title)
+
+    def test_product_name_title_still_wins_over_host_fallback(self) -> None:
+        item = self._item("Example", "")
+        example = product()
+        title, _ = _localized_evidence_copy(item, example, ZH)
+        self.assertEqual(title, "Example")
 
 
 if __name__ == "__main__":

@@ -17,6 +17,11 @@
 
 退出码只在"死源"时非零：让 GitHub Actions 变红并发邮件。
 骤降只警告不失败 —— 每天的自然波动就会触发，天天变红等于没有告警。
+
+单日 0 条不直接判死：低产源（每天中位数一两条的生态源）本来就会有空窗日，
+高产源也可能是采集当刻一次瞬时拉取失败。规则是：昨天还有产出、今天挂零
+只警告；连续两天挂零才升级为死源。真正死掉的源只晚一天报警，换来定时
+任务不再被单日波动染红。
 """
 
 from __future__ import annotations
@@ -138,11 +143,18 @@ def check(store: Store, config: dict, today: date | None = None) -> list[Finding
         if got == 0:
             if seen_before:
                 last = max(d for d, c in history.items() if c.get(source, 0) > 0)
-                findings.append(Finding(
-                    SEVERITY_DEAD, source,
-                    f"今天 0 条，但 {last} 还有 {history[last][source]} 条 —— "
-                    f"大概是源站改版、反爬或换了域名",
-                ))
+                if (today - last).days >= 2:
+                    findings.append(Finding(
+                        SEVERITY_DEAD, source,
+                        f"连续两天 0 条，上次产出还是 {last}（{history[last][source]} 条）—— "
+                        f"大概率是源站改版、反爬或换了域名",
+                    ))
+                else:
+                    findings.append(Finding(
+                        SEVERITY_WARN, source,
+                        f"今天 0 条，但 {last} 还有 {history[last][source]} 条 —— "
+                        f"单日空窗可能是波动或瞬时拉取失败，连续两天挂零才算死源",
+                    ))
             else:
                 findings.append(Finding(
                     SEVERITY_WARN, source,
