@@ -180,6 +180,13 @@ MAX_PAYLOAD_BYTES = 32_000
 # 瞬时 HTTP 错误（413/429/503）的退避重试参数。
 _MAX_RETRIES = 3
 _BASE_BACKOFF = 1.0
+# 免费档限流以分钟计（retry-after 常见 30-60s）。原地等待同一供应商会把
+# 单个批次拖到几十分钟：超过这个等待上限就立刻切换下一个供应商。
+_MAX_INLINE_WAIT_SECONDS = 20.0
+# 限流/欠费后给供应商一段冷却时间，后续请求直接从可用供应商开始，而不是
+# 每个批次都重新撞一遍再失败。欠费不会在几分钟内恢复，同样适用。
+_PROVIDER_COOLDOWN_SECONDS = 300.0
+_PROVIDER_COOLDOWN: dict[str, float] = {}
 
 
 def _observation_only(product: Product) -> bool:
@@ -548,6 +555,9 @@ def _request(
     # 重试两次；每次都在不写盘的前提下进行，避免异常输出污染当天档案。
     failures: list[str] = []
     for provider, api_url, api_key, model in _model_providers():
+        if time.monotonic() < _PROVIDER_COOLDOWN.get(provider, 0.0):
+            failures.append(f"{provider} 冷却中（近期限流或欠费），跳过")
+            continue
         body: dict[str, Any] = {
             "model": model,
             "messages": messages,
@@ -580,8 +590,9 @@ def _request(
                     response = client.post(
                         api_url, headers={"Authorization": f"Bearer {api_key}"}, json=body
                     )
-                    # 402 余额不足：跳过该供应商，不重试。
+                    # 402 余额不足：冷却该供应商并跳过，不重试。
                     if response.status_code == 402:
+                        _PROVIDER_COOLDOWN[provider] = time.monotonic() + _PROVIDER_COOLDOWN_SECONDS
                         failures.append(f"{provider} 余额不足（402），已跳过")
                         break
                     response.raise_for_status()
@@ -593,6 +604,12 @@ def _request(
                         delay = float(exc.response.headers.get("retry-after", 2 ** (attempt + 1)))
                     except ValueError:
                         delay = 2 ** (attempt + 1)
+                    # 限流等待超过短等待上限时，原地睡眠不如直接切换供应商：
+                    # 给该供应商冷却时间，让后续批次先打可用的供应商。
+                    if status == 429 and delay > _MAX_INLINE_WAIT_SECONDS:
+                        _PROVIDER_COOLDOWN[provider] = time.monotonic() + _PROVIDER_COOLDOWN_SECONDS
+                        failures.append(f"{provider} 限流（需等待 {delay:.0f}s），切换供应商")
+                        break
                     if 0 <= delay <= 60:
                         time.sleep(delay)
                         continue
