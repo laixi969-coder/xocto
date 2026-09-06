@@ -21,7 +21,7 @@ canonical_url: https://unigit.ai
 summary: UNIGIT public brand and ecosystem hub — AI should work for everyone.
 first_seen: '2026-09-02T10:08:01Z'
 last_seen: '2026-09-06T06:48:39Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

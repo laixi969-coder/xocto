@@ -1,11 +1,12 @@
 ---
 slug: manufacturers-are-investing-150-billion-in-new-technology-th
-name: Manufacturers Are Investing $150 Billion in New Technology. They Still Face 1 Major Obstacle
+name: Manufacturers Investing in New Technology
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 制造商正在投资1500亿美元于新技术，但仍面临一个主要障碍，可能涉及AI采用、劳动力或基础设施挑战。
 inspiration: ''
-summary_en: ''
+summary_en: Manufacturers are investing $150 billion in new technology but still face a major obstacle,
+  possibly related to AI adoption, workforce, or infrastructure challenges.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Manufacturers Are Investing $150 Billion in New Technology. They Still 
   inc.com
 first_seen: '2026-09-05T14:14:09Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Manufacturers Are Investing $150 Billion in New Technology. They Still Face 1 Major Obstacle
+# Manufacturers Investing in New Technology
 
 Manufacturers Are Investing $150 Billion in New Technology. They Still Face 1 Major Obstacle inc.com
 

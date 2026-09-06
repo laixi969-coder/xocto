@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiR0FVX3lxTFBXdDQ3cDFGOG1H
 summary: 古罗马彩陶最新官方网站发布AI视频营销引擎，上线首周斩获Product Hunt日榜冠军-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T04:55:40Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

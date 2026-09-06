@@ -1,11 +1,11 @@
 ---
 slug: understanding-supply-chain-management-scm-and-its-importance
-name: Understanding Supply Chain Management (SCM) and Its Importance
+name: Supply Chain Management
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 供应链管理（SCM）重要性被阐述，强调其在现代商业中的作用。
 inspiration: ''
-summary_en: ''
+summary_en: Supply Chain Management (SCM) importance is explained, emphasizing its role in modern business.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kQmlQbmg2VmFq
 summary: Understanding Supply Chain Management (SCM) and Its Importance Investopedia
 first_seen: '2026-09-03T07:00:00Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Understanding Supply Chain Management (SCM) and Its Importance
+# Supply Chain Management
 
 Understanding Supply Chain Management (SCM) and Its Importance Investopedia
 

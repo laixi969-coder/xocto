@@ -1,6 +1,6 @@
 ---
 slug: kok正规网让中小企业告别没人没钱没时间的生存困境
-name: kok正规网：让中小企业告别“没人、没钱、没时间”的生存困境
+name: kok正规网
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9mS3NmVlVSZU5S
 summary: kok正规网：让中小企业告别“没人、没钱、没时间”的生存困境 体坛
 first_seen: '2026-09-05T13:09:21Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# kok正规网：让中小企业告别“没人、没钱、没时间”的生存困境
+# kok正规网
 
 kok正规网：让中小企业告别“没人、没钱、没时间”的生存困境 体坛
 

@@ -1,11 +1,12 @@
 ---
 slug: uipath-stock-sinks-17-despite-beating-every-earnings-estimat
-name: UiPath Stock Sinks 17% Despite Beating Every Earnings Estimate
+name: UiPath
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: UiPath 股价下跌 17%，尽管财报超预期，显示市场对盈利质量的敏感度。
 inspiration: ''
-summary_en: ''
+summary_en: UiPath stock fell 17% despite beating earnings estimates, reflecting market sensitivity to
+  profit quality.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPZDkzQ3dycU9F
 summary: UiPath Stock Sinks 17% Despite Beating Every Earnings Estimate Startup Fortune
 first_seen: '2026-09-05T08:44:11Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# UiPath Stock Sinks 17% Despite Beating Every Earnings Estimate
+# UiPath
 
 UiPath Stock Sinks 17% Despite Beating Every Earnings Estimate Startup Fortune
 

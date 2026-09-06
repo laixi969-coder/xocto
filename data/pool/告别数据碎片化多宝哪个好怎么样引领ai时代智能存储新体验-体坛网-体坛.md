@@ -1,6 +1,6 @@
 ---
 slug: 告别数据碎片化多宝哪个好怎么样引领ai时代智能存储新体验-体坛网-体坛
-name: 告别数据碎片化，多宝哪个好怎么样引领AI时代智能存储新体验- 体坛网_体坛+
+name: 多宝
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE5NYzZDQjFabmhp
 summary: 告别数据碎片化，多宝哪个好怎么样引领AI时代智能存储新体验- 体坛网_体坛+ 体坛
 first_seen: '2026-09-05T04:55:40Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 告别数据碎片化，多宝哪个好怎么样引领AI时代智能存储新体验- 体坛网_体坛+
+# 多宝
 
 告别数据碎片化，多宝哪个好怎么样引领AI时代智能存储新体验- 体坛网_体坛+ 体坛
 

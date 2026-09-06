@@ -1,0 +1,41 @@
+- id: req-initial-short-video-generator-ai-2026-09-06
+  project_slug: short-video-generator-ai
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决长视频转短视频切片中高光定位、字幕制作与多语言配音的重复繁琐工作，痛点明确且替代成本高。
+    evidence_ids:
+    - ev-4541ab1d140e491d
+    - ev-ebaad455c8b85f2c
+  - gate: consensus
+    status: supported
+    reason: 代码库关注度在短时间内从173星攀升至358星，表明内容创作者和开发者对其自动化流水线具有强共识。
+    evidence_ids:
+    - ev-4541ab1d140e491d
+    - ev-ebaad455c8b85f2c
+  - gate: model
+    status: insufficient
+    reason: 当前为开源免费项目，未披露商业化变现模式或云端托管收费计划，商业可持续性未核验。
+    evidence_ids:
+    - ev-4541ab1d140e491d
+  - gate: truth
+    status: supported
+    reason: 功能范围围绕视频高光检测、语音转文字和配音等成熟AI能力封装，交付边界清晰可控。
+    evidence_ids:
+    - ev-4541ab1d140e491d
+  next_validation: 观察项目后续版本的实际出片准确率评测及是否推出一键部署的云端托管收费版。
+  market: ''
+  job: 将 YouTube 长视频拆解并重新包装为多平台短视频切片。
+  job_en: Repurpose long-form videos into short vertical clips for multi-platform distribution.
+  pain: 人工通看长视频打点、听写字幕与配音极其耗时，产出效率低。
+  pain_en: Manually scanning full videos for highlights, transcribing, and dubbing is extremely time-consuming.
+  current_alternative: 人工使用剪辑软件逐段裁切，或使用高客单价的商业 SaaS 工具。
+  current_alternative_en: Manual editing via traditional video suites or paying for expensive commercial
+    SaaS tools.
+  usage_reason: 开源免费且整合了高光提取、字幕与配音全套流程，关注度增长迅速。
+  usage_reason_en: Free open-source solution packaging highlight detection, subtitles, and dubbing, gaining
+    rapid developer attention.

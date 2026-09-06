@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ud1JwVkRNY0ZP
 summary: 博亿备用网站：AI算法如何定义休闲竞技新规则- 体坛网_体坛+ 体坛
 first_seen: '2026-09-05T14:06:30Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

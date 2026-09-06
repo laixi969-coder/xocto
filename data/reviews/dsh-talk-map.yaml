@@ -1,0 +1,41 @@
+- id: req-initial-dsh-talk-map-2026-09-06
+  project_slug: dsh-talk-map
+  level: initial
+  reviewed_at: '2026-09-06T00:58:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在多分支对话中上下文丢失的痛点，旧流程是多个窗口或笔记，缺乏直观关联。
+    evidence_ids:
+    - ev-176c3d27e8cce2fe
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 80 星，但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-176c3d27e8cce2fe
+  - gate: model
+    status: insufficient
+    reason: 开源插件，无明确付费模式，可能通过赞助或企业支持，但未公开。
+    evidence_ids:
+    - ev-176c3d27e8cce2fe
+  - gate: truth
+    status: supported
+    reason: 空间化对话管理贴近开发工作的实际需求，交付可确定，但需验证在大型项目中的可用性。
+    evidence_ids:
+    - ev-176c3d27e8cce2fe
+  next_validation: 查看 公开代码仓库 仓库的 issue 和讨论，了解用户反馈和实际使用场景。
+  market: ''
+  job: 开发者在 AI 编程中需要同时管理多个对话分支，并快速切换和回顾上下文。
+  job_en: Developers need to manage multiple conversation branches simultaneously and quickly switch and
+    review context.
+  pain: 线性聊天难以跟踪多个并行思路，切换时容易丢失上下文，导致效率低下。
+  pain_en: Linear chats make it hard to track parallel threads, and switching often loses context, reducing
+    efficiency.
+  current_alternative: 开发者可能使用多个窗口或笔记记录，但缺乏直观的关联和快速访问。
+  current_alternative_en: Developers may use multiple windows or notes, but lack intuitive linking and
+    quick access.
+  usage_reason: 它提供空间化的视觉布局，符合大脑的空间记忆，减少认知负担，对需要处理复杂项目的开发者有吸引力。
+  usage_reason_en: It offers a spatial visual layout that leverages spatial memory, reducing cognitive
+    load, appealing to developers handling complex projects.

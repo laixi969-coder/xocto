@@ -1,0 +1,41 @@
+- id: req-initial-dsh-rewind-2026-09-06
+  project_slug: dsh-rewind
+  level: initial
+  reviewed_at: '2026-09-06T00:58:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在 AI 编程中对话回退的痛点，旧流程是新建分支或手动恢复，回退不精确且打断思路。
+    evidence_ids:
+    - ev-e68f0c11eac90352
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 41 星，但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-e68f0c11eac90352
+  - gate: model
+    status: insufficient
+    reason: 开源插件，无明确付费模式，可能通过赞助或企业支持，但未公开。
+    evidence_ids:
+    - ev-e68f0c11eac90352
+  - gate: truth
+    status: supported
+    reason: 回退功能贴近开发工作的第一性目标，交付可确定，但需验证在复杂项目中的可靠性。
+    evidence_ids:
+    - ev-e68f0c11eac90352
+  next_validation: 查看 公开代码仓库 仓库的 issue 和讨论，了解用户反馈和实际使用场景。
+  market: ''
+  job: 开发者在 AI 编程会话中需要回退到之前的对话或文件状态，以纠正错误或尝试不同路径。
+  job_en: Developers need to rewind to a previous conversation or file state in AI coding sessions to
+    correct mistakes or try different paths.
+  pain: 现有工具通常通过新建分支来回退，导致上下文丢失和混乱，难以精确恢复。
+  pain_en: Existing tools often rewind by forking new sessions, causing loss of context and confusion,
+    making precise restoration difficult.
+  current_alternative: 开发者可能手动复制代码或使用版本控制，但无法恢复对话上下文。
+  current_alternative_en: Developers may manually copy code or use version control, but cannot restore
+    conversation context.
+  usage_reason: 它提供同窗口内的无缝回退，并同时恢复文件，减少了切换成本，对需要频繁试错的开发者有吸引力。
+  usage_reason_en: It offers seamless in-window rewind with file restoration, reducing switching costs,
+    appealing to developers who iterate frequently.

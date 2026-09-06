@@ -1,6 +1,6 @@
 ---
 slug: 狮子会真人注册发布智能推荐ai交互双重升级
-name: 狮子会真人注册发布，智能推荐+AI交互双重升级！
+name: 狮子会
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBNdGpwTHRCWERf
 summary: 狮子会真人注册发布，智能推荐+AI交互双重升级！ 体坛
 first_seen: '2026-09-05T08:53:57Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 狮子会真人注册发布，智能推荐+AI交互双重升级！
+# 狮子会
 
 狮子会真人注册发布，智能推荐+AI交互双重升级！ 体坛
 

@@ -1,0 +1,40 @@
+- id: req-initial-dsh-android-2026-09-06
+  project_slug: dsh-android
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Android 开发中构建测试的手动操作痛点，AI 直接驱动设备，替代传统 adb 操作。
+    evidence_ids:
+    - ev-565e98677121b225
+  - gate: consensus
+    status: insufficient
+    reason: 星数增长较快但缺乏用户评价，共识尚未形成。
+    evidence_ids:
+    - ev-565e98677121b225
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 功能贴近开发工作流，交付可确定，但需验证实际使用效果。
+    evidence_ids:
+    - ev-565e98677121b225
+  next_validation: 查找该插件在 公开代码仓库 上的 issue 或 discussion，了解用户反馈和使用场景。
+  market: ''
+  job: Android 开发者在开发过程中需要快速构建、运行和测试应用，并希望 AI 能直接操作设备。
+  job_en: Android developers need to quickly build, run, and test apps during development, and want AI
+    to directly operate devices.
+  pain: 传统开发流程中，构建、部署和测试需要手动操作，耗时且容易出错。
+  pain_en: In traditional development, building, deploying, and testing require manual operations, which
+    are time-consuming and error-prone.
+  current_alternative: 开发者通常手动使用 Android Studio、adb 命令或 CI 工具进行构建和测试。
+  current_alternative_en: Developers typically manually use Android Studio, adb commands, or CI tools
+    for building and testing.
+  usage_reason: 该插件让 AI 直接控制设备，减少手动切换，对追求效率的开发者有吸引力。
+  usage_reason_en: This plugin lets AI directly control devices, reducing manual switching, and appeals
+    to efficiency-seeking developers.

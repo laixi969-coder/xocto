@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBDQWtGMlVtTFdN
 summary: Maybe we were wrong about Perplexity fastcompany.com
 first_seen: '2026-09-03T16:04:09Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

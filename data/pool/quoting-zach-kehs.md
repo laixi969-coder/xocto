@@ -24,7 +24,7 @@ summary: "If you continue to add floors and rooms to a building forever, it will
   \   Tags:  technical-debt"
 first_seen: '2026-09-06T08:42:49Z'
 last_seen: '2026-09-06T09:14:51Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,0 +1,40 @@
+- id: req-initial-dsh-hub-cli-2026-09-06
+  project_slug: dsh-hub-cli
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSH 插件开发者缺乏专用 CLI 与 Schema 解析工具的痛点，具备明确的开发者提效价值。
+    evidence_ids:
+    - ev-82d0afc0eb498f2e
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库获得 200 余星关注，但目前仍局限在早期开发者小众圈层，尚未形成广泛生态共识。
+    evidence_ids:
+    - ev-82d0afc0eb498f2e
+  - gate: model
+    status: insufficient
+    reason: 开源基础工具暂无商业化定价方案披露，商业模式成熟度尚待观察。
+    evidence_ids:
+    - ev-82d0afc0eb498f2e
+  - gate: truth
+    status: supported
+    reason: 代码库结构与 CLI 命令逻辑清晰，交付确定性较高，符合开发者工具的典型实现路径。
+    evidence_ids:
+    - ev-82d0afc0eb498f2e
+  next_validation: 监控仓库中关于多插件组合与生态项目集成的 Issue 反馈与文档更新
+  market: ''
+  job: 构建、校验与分发适配 DeepSeek Harness 生态的插件及 Agent 工具集。
+  job_en: Build, validate, and distribute plugins and Agent tools for the DeepSeek Harness ecosystem.
+  pain: 手动编写和维护插件 Schema 繁琐且易出错，缺乏统一的本地解析与联调工具链。
+  pain_en: Manually authoring and maintaining plugin schemas is error-prone, lacking unified local resolvers
+    and CLI debugging tooling.
+  current_alternative: 手工编写 JSON/YAML 配置并自行在客户端内反复导入排错。
+  current_alternative_en: Manually writing JSON/YAML configs and testing them through repetitive client-side
+    imports.
+  usage_reason: 通过自动化 CLI 工具快速校验架构与依赖，提升插件开发与发布效率。
+  usage_reason_en: Leverages an automated CLI to quickly validate schemas and dependencies, boosting plugin
+    dev velocity.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jVmdJak5vTEVl
 summary: Explore 9 Market Leaders in AI Tech on the Nasdaq, TSX and ASX Investing News Network
 first_seen: '2026-09-04T21:30:00Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,50 @@
+- id: req-initial-reef-2026-09-06
+  project_slug: reef
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决自我改进 Agent 的持续学习管理需求，痛点在于手动流程繁琐，现有替代缺乏系统性，结构上成立。
+    evidence_ids:
+    - ev-d7d0870d6ac34c9d
+  - gate: consensus
+    status: supported
+    reason: 开源仓库星数一周内从 260 增至 513，增长近一倍，显示开发者关注度快速上升。
+    evidence_ids:
+    - ev-d7d0870d6ac34c9d
+    - ev-a6cf720fe8ec786c
+    - ev-803158b8cfd6e304
+    - ev-569a085cc097f244
+    - ev-f65a714ebd5969d2
+    - ev-076509f769112485
+    - ev-69df0bc21a1ad519
+    - ev-d02ba09bd368e1ec
+    - ev-f434f081a4a26c66
+    - ev-88fe40afa2542345
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露商业模式，可能通过企业支持或云服务变现，但尚无公开信息。
+    evidence_ids:
+    - ev-d7d0870d6ac34c9d
+  - gate: truth
+    status: insufficient
+    reason: 持续学习基础设施的交付效果依赖具体实现，需进一步验证其稳定性和效果。
+    evidence_ids:
+    - ev-d7d0870d6ac34c9d
+  next_validation: 官方文档或 公开代码仓库 仓库中的使用案例和部署指南。
+  market: ''
+  job: 开发自我改进型 Agent 的工程师需要管理模型持续学习的数据、更新和评估流程。
+  job_en: Engineers building self-improving agents need to manage data, updates, and evaluation for continual
+    model learning.
+  pain: 手动管理持续学习流程繁琐易错，缺乏统一工具，导致 Agent 改进效率低。
+  pain_en: Manually managing continual learning pipelines is tedious and error-prone, lacking unified
+    tooling, leading to inefficient agent improvement.
+  current_alternative: 目前团队可能自行搭建脚本或使用零散工具，但难以规模化。
+  current_alternative_en: Teams may currently build custom scripts or use scattered tools, which are hard
+    to scale.
+  usage_reason: 开源且专注持续学习，填补了通用框架的空白，吸引需要长期运行 Agent 的开发者。
+  usage_reason_en: Open source and focused on continual learning, filling a gap in general frameworks,
+    attracting developers running long-lived agents.

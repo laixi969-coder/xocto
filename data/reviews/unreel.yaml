@@ -1,0 +1,40 @@
+- id: req-initial-unreel-2026-09-06
+  project_slug: unreel
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 结构上解决用户按需生成个性化视频并直接串流播放的需求，但目前视频生成成本与画质连贯性仍制约其作为高频日常消费的刚性。
+    evidence_ids:
+    - ev-1063a8f58ac514f2
+  - gate: consensus
+    status: insufficient
+    reason: 代码仓库累积获得 126 颗星关注，目前主要停留在开发者探索阶段，尚未观察到广泛的终端用户持续采用。
+    evidence_ids:
+    - ev-1063a8f58ac514f2
+  - gate: model
+    status: insufficient
+    reason: 属于开源自托管项目，公开资料中未披露商业化收费计划或云端托管订阅定价。
+    evidence_ids:
+    - ev-1063a8f58ac514f2
+  - gate: truth
+    status: supported
+    reason: 项目以开源代码形式交付本地流媒体服务，用户可通过仓库文档核验其视频串流与模型调用功能。
+    evidence_ids:
+    - ev-1063a8f58ac514f2
+  next_validation: 官方仓库后续发布的实测运行文档及实际视频生成延迟与画质连贯性演示
+  market: ''
+  job: 按需生成并连续观看定制化的个人专属流媒体视频内容
+  job_en: Generate and stream personalized custom video content on demand
+  pain: 传统流媒体平台的静态内容库无法满足即时定制与高度个性化的互动内容消费需求
+  pain_en: Traditional static streaming catalogs cannot satisfy real-time customized and interactive video
+    consumption needs
+  current_alternative: 在已有流媒体库中手工检索相似内容，或使用独立视频生成工具分步生成并手动播放
+  current_alternative_en: Manually searching existing streaming catalogs or using standalone generation
+    tools step-by-step
+  usage_reason: 开源社区开发者与尝鲜用户希望获得全自动生成的端到端个人流媒体播放体验
+  usage_reason_en: Open-source developers and early adopters want an end-to-end automated personal video
+    streaming experience

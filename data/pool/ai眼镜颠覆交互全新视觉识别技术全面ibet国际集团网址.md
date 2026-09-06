@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QMXZ4Mk44SDZB
 summary: AI眼镜颠覆交互：全新视觉识别技术全面IBET国际集团网址 体坛
 first_seen: '2026-09-05T14:41:16Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

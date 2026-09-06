@@ -1,12 +1,12 @@
 ---
 slug: thomson-reuters-stock-jumps-501-as-ai-powered-professional-s
-name: Thomson Reuters Stock Jumps 5.01% as AI-Powered Professional Software and Recurring Revenue Fuel
-  Momentum
+name: Thomson Reuters
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Thomson Reuters 是一家专业信息与软件公司，其 AI 驱动的专业软件和经常性收入推动股价上涨。
 inspiration: ''
-summary_en: ''
+summary_en: Thomson Reuters is a professional information and software company; its AI-powered software
+  and recurring revenue drove stock gains.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: Thomson Reuters Stock Jumps 5.01% as AI-Powered Professional Software a
   Momentum kalkine.ca
 first_seen: '2026-09-04T19:52:00Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Thomson Reuters Stock Jumps 5.01% as AI-Powered Professional Software and Recurring Revenue Fuel Momentum
+# Thomson Reuters
 
 Thomson Reuters Stock Jumps 5.01% as AI-Powered Professional Software and Recurring Revenue Fuel Momentum kalkine.ca
 

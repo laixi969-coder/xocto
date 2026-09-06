@@ -35,3 +35,44 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Give a research brief in the terminal;
     the agent digs the sources and brings back a conclusion. The exact adoption motive and repeat use
     are not yet verified.'
+- id: req-initial-mole-2026-09-06
+  project_slug: mole
+  level: initial
+  reviewed_at: '2026-09-06T05:29:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在编码中快速获取可靠技术信息的需求，痛点明确：手动搜索耗时、打断心流。终端内交付研究结果可确定，价值结构成立。
+    evidence_ids:
+    - ev-25aacc98b4d30ea1
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏持续采用或付费证据，共识仅停留在初步关注。
+    evidence_ids:
+    - ev-25aacc98b4d30ea1
+  - gate: model
+    status: insufficient
+    reason: 买方可能是开发者个人或团队，但未披露定价或商业模式，付费路径不清晰。
+    evidence_ids:
+    - ev-25aacc98b4d30ea1
+  - gate: truth
+    status: supported
+    reason: 贴近开发者获取信息的第一性目标，交付为可核对的引用结果，安全风险低。
+    evidence_ids:
+    - ev-25aacc98b4d30ea1
+  next_validation: 官方定价页或付费计划
+  market: ''
+  job: 开发者在编码或调试时需要快速获取外部技术信息，如库的用法、错误解决方案或最佳实践。
+  job_en: Developers need to quickly obtain external technical information while coding or debugging,
+    such as library usage, error solutions, or best practices.
+  pain: 手动搜索多个网页、筛选信息耗时且打断心流，信息过载导致效率低下。
+  pain_en: Manually searching multiple web pages and filtering information is time-consuming and interrupts
+    flow, leading to inefficiency due to information overload.
+  current_alternative: 目前开发者通常使用浏览器手动搜索、查阅官方文档或询问通用聊天助手。
+  current_alternative_en: Currently developers typically use browsers for manual searches, consult official
+    documentation, or ask general-purpose chat assistants.
+  usage_reason: 终端内直接完成研究可减少上下文切换，且能利用代理的自动化整合能力，对需要深度调研的开发者有吸引力。
+  usage_reason_en: Completing research directly in the terminal reduces context switching and leverages
+    the agent's automated synthesis, appealing to developers needing deep investigation.

@@ -1,0 +1,38 @@
+- id: req-initial-dsh-personal-center-2026-09-06
+  project_slug: dsh-personal-center
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：提供 Token 用量统计和成本估算，但痛点强度未明，且功能分散，缺乏明确的工作流替代。
+    evidence_ids:
+    - ev-3b70ea9784aca040
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户采用或社区讨论证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无付费路径或商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验交付确定性。
+    evidence_ids: []
+  next_validation: 官方文档或仓库 issue 中关于用户使用场景和痛点的讨论。
+  market: ''
+  job: 开发者在使用 DeepSeek Harness 时，需要了解自己的 Token 消耗和成本，并自定义界面和行为。
+  job_en: Developers using DeepSeek Harness need to track token consumption and costs, and customize interface
+    and behavior.
+  pain: 缺乏用量和成本透明度，可能导致预算超支；自定义选项不足可能影响使用体验。
+  pain_en: Lack of usage and cost transparency may lead to budget overruns; insufficient customization
+    options may affect user experience.
+  current_alternative: 用户可能依赖 DSH 自带的功能或手动记录，或使用其他第三方统计工具。
+  current_alternative_en: Users may rely on DSH's built-in features, manual tracking, or other third-party
+    statistics tools.
+  usage_reason: 该工具提供本地、离线的用量统计和自定义功能，可能吸引注重隐私和控制的开发者尝试。
+  usage_reason_en: This tool offers local, offline usage statistics and customization, potentially attracting
+    developers who value privacy and control.

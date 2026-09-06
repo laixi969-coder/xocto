@@ -1,0 +1,38 @@
+- id: req-initial-dsh-tether-2026-09-06
+  project_slug: dsh-tether
+  level: initial
+  reviewed_at: '2026-09-06T06:48:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者远程使用开发工具的需求，但痛点强度和频率缺乏公开证据，替代方案众多。
+    evidence_ids:
+    - ev-1b8768e3689155fc
+  - gate: consensus
+    status: insufficient
+    reason: 项目刚发布，星数少，没有公开讨论或采用证据。
+    evidence_ids:
+    - ev-1b8768e3689155fc
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方和付费路径不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性。
+    evidence_ids: []
+  next_validation: 查看该仓库的 issue 和 discussion，寻找用户实际使用场景和反馈。
+  market: ''
+  job: 开发者希望在离开办公桌时也能使用自己开发机上的 DeepSeek Harness 工具链。
+  job_en: Developers want to use their DeepSeek Harness toolchain on their dev machine while away from
+    their desk.
+  pain: 现有远程方案需要配置服务器或使用复杂 VPN，不够便捷。
+  pain_en: Existing remote solutions require server setup or complex VPNs, which are not convenient.
+  current_alternative: 开发者可能使用 SSH、远程桌面或云开发环境作为替代。
+  current_alternative_en: Developers may use SSH, remote desktop, or cloud development environments as
+    alternatives.
+  usage_reason: 项目刚发布，星数少，具体使用场景和用户反馈尚未公开，难以判断需求强度。
+  usage_reason_en: The project was just released with few stars; specific use cases and user feedback
+    are not yet public, making it hard to assess demand strength.

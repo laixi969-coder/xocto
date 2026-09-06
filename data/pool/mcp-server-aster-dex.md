@@ -23,7 +23,7 @@ summary: MCP server for Aster DEX — a Model Context Protocol server that gives
   Read-only tools — no trading, no keys. Unofficial community project, not affiliated with Aster.
 first_seen: '2026-09-04T22:52:26Z'
 last_seen: '2026-09-05T23:54:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

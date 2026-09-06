@@ -23,7 +23,7 @@ canonical_url: https://qbitai.com/2026/08/481893.html
 summary: 核弹爆炸
 first_seen: '2026-08-31T04:47:26Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch

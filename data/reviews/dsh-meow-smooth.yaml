@@ -1,0 +1,40 @@
+- id: req-initial-dsh-meow-smooth-2026-09-06
+  project_slug: dsh-meow-smooth
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSH 移动端体验差的痛点，提供通知和优化界面，替代手动检查的旧行为。
+    evidence_ids:
+    - ev-88a21c2bdb009739
+  - gate: consensus
+    status: insufficient
+    reason: 星数较低，缺乏用户评价，共识尚未形成。
+    evidence_ids:
+    - ev-88a21c2bdb009739
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 功能贴近用户需求，交付可确定，但需验证实际使用效果。
+    evidence_ids:
+    - ev-88a21c2bdb009739
+  next_validation: 查找该插件在 公开代码仓库 上的 issue 或 discussion，了解用户反馈和使用场景。
+  market: ''
+  job: DSH 用户需要在移动设备上接收对话通知并进行交互，以保持工作连续性。
+  job_en: DSH users need to receive conversation notifications and interact on mobile devices to maintain
+    work continuity.
+  pain: 移动端 DSH 体验不佳，通知不及时，导致用户错过重要对话或无法及时响应。
+  pain_en: Poor mobile DSH experience and delayed notifications cause users to miss important conversations
+    or fail to respond promptly.
+  current_alternative: 目前用户可能依赖桌面端或手动检查消息，移动端使用受限。
+  current_alternative_en: Currently, users may rely on desktop or manually check messages, with limited
+    mobile usage.
+  usage_reason: 该插件提供移动端通知和优化，提升响应速度，对需要随时保持联系的用户有吸引力。
+  usage_reason_en: This plugin provides mobile notifications and optimization, improving response speed,
+    and appeals to users who need to stay connected.

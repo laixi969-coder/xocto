@@ -1,0 +1,37 @@
+- id: req-initial-dsh-mattpocock-skills-deck-2026-09-06
+  project_slug: dsh-mattpocock-skills-deck
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者配置技能繁琐的问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-572c1327c9ef6967
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目星数较低，缺乏用户评价或采用证据。
+    evidence_ids:
+    - ev-572c1327c9ef6967
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是开发者或企业。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 技能面板贴近开发工作，预置技能保证交付。
+    evidence_ids:
+    - ev-572c1327c9ef6967
+  next_validation: 查找官方定价页或付费计划。
+  market: ''
+  job: 开发者需要快速获得一组预置的 AI 技能来处理 公开代码仓库 issue，而无需手动配置。
+  job_en: Developers need quick access to a set of pre-built AI skills to handle public code repository
+    issues without manual configuration.
+  pain: 手动安装和配置技能耗时且繁琐。
+  pain_en: Manually installing and configuring skills is time-consuming and tedious.
+  current_alternative: 开发者通常手动安装技能或编写自定义脚本。
+  current_alternative_en: Developers typically install skills manually or write custom scripts.
+  usage_reason: 它提供开箱即用的技能面板，减少配置时间，提高效率。
+  usage_reason_en: It provides an out-of-the-box skills deck, reducing setup time and improving efficiency.

@@ -1,0 +1,36 @@
+- id: req-initial-jingyun-dsh-2026-09-06
+  project_slug: jingyun-dsh
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，公开资料未描述具体用户任务或旧流程。
+    evidence_ids:
+    - ev-a0b910b53824ba9d
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 公开代码仓库 stars，无用户评价或采用证据。
+    evidence_ids:
+    - ev-ef397d6b3555d14d
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断付费方。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性。
+    evidence_ids: []
+  next_validation: 官方文档或 README 中关于具体功能、目标用户和定价的说明。
+  market: ''
+  job: 开发者需要将 AI 能力整合到商业化应用中，但具体任务未明确。
+  job_en: Developers need to integrate AI capabilities into commercial applications, but the specific
+    task is unclear.
+  pain: 未知，因缺乏具体场景描述。
+  pain_en: Unknown due to lack of specific scenario description.
+  current_alternative: 未知，可能为手动集成多个 AI 服务。
+  current_alternative_en: Unknown, possibly manual integration of multiple AI services.
+  usage_reason: 开源项目获得少量关注，但不足以证明需求强度。
+  usage_reason_en: Open-source project gained some attention, but insufficient to prove demand strength.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tQ1ZvVEM5dWdB
 summary: 亚博APP安装版本v5.2.0：全新AI交互与运动社区功能上线 ttplus.cn
 first_seen: '2026-09-05T23:21:21Z'
 last_seen: '2026-09-06T09:14:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

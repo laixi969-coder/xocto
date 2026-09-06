@@ -21,7 +21,7 @@ canonical_url: https://artifactbin.dev/@vivek/6bXsx3-vol-2-show-hn-hall-of-fames
 summary: Getting to the top of Show HN is getting harder
 first_seen: '2026-09-05T15:46:13Z'
 last_seen: '2026-09-06T08:35:56Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

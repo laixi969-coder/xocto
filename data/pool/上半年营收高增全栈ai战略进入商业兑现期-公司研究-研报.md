@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiSk9fYzF0b2Vo
 summary: 上半年营收高增，全栈AI战略进入商业兑现期_公司研究_研报 stock.stockstar.com
 first_seen: '2026-09-06T02:13:00Z'
 last_seen: '2026-09-06T06:49:12Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

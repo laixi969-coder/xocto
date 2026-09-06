@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPVjJ0b25lWXVr
 summary: AI Africa Intelligence (August 27 – September 26, 2026) VOL. 21 innovation-village.com
 first_seen: '2026-09-04T03:57:04Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,40 @@
+- id: req-initial-github-3-2026-09-06
+  project_slug: github-3
+  level: initial
+  reviewed_at: '2026-09-06T02:59:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者同时使用多个 Coding Agent 时终端窗口杂乱、会话难追踪的痛点，价值成立。
+    evidence_ids:
+    - ev-de4ac068b1711d04
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论有限，缺乏用户采用或反馈证据，共识尚未形成。
+    evidence_ids:
+    - ev-de4ac068b1711d04
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者个人或团队，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 产品贴近开发者真实工作流，交付可确定，但需验证实际使用效果。
+    evidence_ids:
+    - ev-de4ac068b1711d04
+  next_validation: 查找 CoDock 的官方定价页或用户评价，验证付费意愿和实际采用情况。
+  market: ''
+  job: 开发者需要同时运行和管理多个 Coding Agent 会话，以完成不同项目的编码任务。
+  job_en: Developers need to run and manage multiple coding agent sessions simultaneously to complete
+    coding tasks across different projects.
+  pain: 在多个终端窗口间切换，难以追踪每个任务的状态和会话历史，输入多行 Prompt 不便。
+  pain_en: Switching between multiple terminal windows makes it hard to track task status and session
+    history, and entering multi-line prompts is cumbersome.
+  current_alternative: 目前开发者使用多个独立终端窗口，分别运行不同的 Coding Agent，手动切换和记录。
+  current_alternative_en: Currently developers use separate terminal windows for each coding agent, manually
+    switching and keeping track.
+  usage_reason: CoDock 提供统一界面，减少切换成本，集中管理会话，可能提高开发效率。
+  usage_reason_en: CoDock offers a unified interface, reducing switching costs and centralizing session
+    management, potentially improving development efficiency.

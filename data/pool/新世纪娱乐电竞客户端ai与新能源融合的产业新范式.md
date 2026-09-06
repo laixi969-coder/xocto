@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTFB2ME1YWC1hV1g3
 summary: 新世纪娱乐电竞客户端：AI与新能源融合的产业新范式 体坛
 first_seen: '2026-09-05T09:08:37Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

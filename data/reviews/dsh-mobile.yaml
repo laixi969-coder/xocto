@@ -1,0 +1,40 @@
+- id: req-initial-dsh-mobile-2026-09-06
+  project_slug: dsh-mobile
+  level: initial
+  reviewed_at: '2026-09-06T06:48:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者远程管理 AI 任务的需求，痛点明确，替代方式体验差，价值成立。
+    evidence_ids:
+    - ev-7f83c17d77329051
+    - ev-eebab94d2fbfa630
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区活跃，但缺乏用户评价或大规模采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-7f83c17d77329051
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确付费模式，买方可能是开发者或企业，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近开发者的实际工作流，交付可确定，安全边界需注意但未发现重大问题。
+    evidence_ids:
+    - ev-7f83c17d77329051
+  next_validation: 跟踪该开源项目仓库的公开 issue 与社区讨论区，收集用户反馈和实际使用场景。
+  market: ''
+  job: 开发者需要在外出或离开电脑时，仍能查看和操作自托管的 DeepSeek Harness 中的 AI 任务。
+  job_en: Developers need to view and operate AI tasks in self-hosted DeepSeek Harness while away from
+    their computer.
+  pain: 当前只能通过桌面端访问，无法随时监控 agent 执行进度或进行紧急干预。
+  pain_en: Currently only accessible via desktop, unable to monitor agent execution progress or intervene
+    urgently at any time.
+  current_alternative: 使用 SSH 或远程桌面从手机连接，操作繁琐且体验差。
+  current_alternative_en: Using SSH or remote desktop from a phone is cumbersome and has poor experience.
+  usage_reason: 开源项目，有活跃的社区贡献和增长，说明开发者有移动访问的需求。
+  usage_reason_en: Open-source project with active community contributions and growth, indicating developer
+    demand for mobile access.

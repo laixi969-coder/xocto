@@ -1,0 +1,37 @@
+- id: req-initial-fast-cutvid-2026-09-06
+  project_slug: fast-cutvid
+  level: initial
+  reviewed_at: '2026-09-05T23:54:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏公开证据
+    evidence_ids:
+    - ev-2206063eb67f40ec
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开证据
+    evidence_ids:
+    - ev-2206063eb67f40ec
+  - gate: model
+    status: insufficient
+    reason: 缺乏公开证据
+    evidence_ids:
+    - ev-2206063eb67f40ec
+  - gate: truth
+    status: insufficient
+    reason: 缺乏公开证据
+    evidence_ids:
+    - ev-2206063eb67f40ec
+  next_validation: 获取官方定价页或公开使用案例
+  market: ''
+  job: 未知
+  job_en: Unknown
+  pain: 未知
+  pain_en: Unknown
+  current_alternative: 未知
+  current_alternative_en: Unknown
+  usage_reason: 未知
+  usage_reason_en: Unknown

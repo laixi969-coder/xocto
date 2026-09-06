@@ -1,11 +1,11 @@
 ---
 slug: the-insurance-industrys-retreat-from-ai-threatens-to-slow-in
-name: The Insurance Industry’s Retreat from AI Threatens to Slow Innovation and Adoption
+name: Insurance Industry
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 保险行业正从AI中撤退，可能导致创新和采用速度放缓。
 inspiration: ''
-summary_en: ''
+summary_en: The insurance sector is pulling back from AI, potentially slowing innovation and adoption.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ summary: The Insurance Industry’s Retreat from AI Threatens to Slow Innovation
   for Strategic and International Studies
 first_seen: '2026-09-04T21:10:09Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# The Insurance Industry’s Retreat from AI Threatens to Slow Innovation and Adoption
+# Insurance Industry
 
 The Insurance Industry’s Retreat from AI Threatens to Slow Innovation and Adoption CSIS | Center for Strategic and International Studies
 

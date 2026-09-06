@@ -21,7 +21,7 @@ canonical_url: https://te-x.github.io/less-sheet
 summary: A minimal but fast CSV viewer
 first_seen: '2026-09-04T14:44:07Z'
 last_seen: '2026-09-05T23:54:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

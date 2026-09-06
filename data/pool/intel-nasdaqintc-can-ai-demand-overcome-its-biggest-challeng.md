@@ -1,11 +1,11 @@
 ---
 slug: intel-nasdaqintc-can-ai-demand-overcome-its-biggest-challeng
-name: 'Intel (NASDAQ:INTC): Can AI Demand Overcome Its Biggest Challenges?'
+name: Intel
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Intel 面临 AI 需求挑战，能否克服？
 inspiration: ''
-summary_en: ''
+summary_en: Intel faces challenges in AI demand; can it overcome?
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0ZvZ0VVbUhM
 summary: 'Intel (NASDAQ:INTC): Can AI Demand Overcome Its Biggest Challenges? Kalkine Media'
 first_seen: '2026-09-05T10:49:00Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Intel (NASDAQ:INTC): Can AI Demand Overcome Its Biggest Challenges?
+# Intel
 
 Intel (NASDAQ:INTC): Can AI Demand Overcome Its Biggest Challenges? Kalkine Media
 

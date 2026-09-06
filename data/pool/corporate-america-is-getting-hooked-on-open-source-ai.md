@@ -3,9 +3,10 @@ slug: corporate-america-is-getting-hooked-on-open-source-ai
 name: Corporate America Is Getting Hooked on Open-Source A.I.
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 美国企业加速采用开源 AI 技术，推动行业内的技术共享与创新。
 inspiration: ''
-summary_en: ''
+summary_en: U.S. companies are rapidly adopting open-source AI technologies, driving greater collaboration
+  and innovation within the industry.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiigFBVV95cUxQV2FXaWpJTHFh
 summary: Corporate America Is Getting Hooked on Open-Source A.I. The New York Times
 first_seen: '2026-09-04T14:55:38Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

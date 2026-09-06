@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE96VHV1TW9rdXRn
 summary: 急速体育官方版可靠AI赋能，打造全新数字娱乐体验 ttplus.cn
 first_seen: '2026-09-05T21:46:39Z'
 last_seen: '2026-09-06T09:14:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

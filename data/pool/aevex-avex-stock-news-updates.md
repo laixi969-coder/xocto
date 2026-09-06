@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ReFdiamdDM3hH
 summary: Aevex (AVEX) Stock News & Updates Stock Titan
 first_seen: '2026-09-03T20:30:00Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

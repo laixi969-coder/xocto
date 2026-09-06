@@ -1,11 +1,14 @@
 ---
 slug: research
-name: research
+name: Meta Muse Spark 1.3
 builder: scrlk
 category: ''
-summary_zh: ''
+summary_zh: Meta 在其研究站点发布 Muse Spark 1.3 版本公告。当前材料仅含发布标题：无法确认它是模型还是产品功能，也没有能力变化、目标场景或开放范围的说明，只能确认其研究线完成了一次带版本号的更新，实际影响需等后续披露核实。
 inspiration: ''
-summary_en: ''
+summary_en: 'Meta published an announcement for Muse Spark 1.3 on its research site. The available material
+  is title-only: nothing confirms whether it is a model or a product feature, and no capability changes,
+  target use cases, or availability details are disclosed. The only verifiable fact is a versioned release
+  from Meta''s research line; its impact cannot be assessed from current material.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://research.meta.ai/blog/introducing-muse-spark-1-3
 summary: Introducing Muse Spark 1.3
 first_seen: '2026-09-02T19:25:47Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - newssearch
@@ -51,7 +54,7 @@ sightings:
   kind: news
 ---
 
-# research
+# Meta Muse Spark 1.3
 
 Introducing Muse Spark 1.3
 

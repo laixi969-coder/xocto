@@ -1,0 +1,41 @@
+- id: req-initial-longgapsbetweenprimes-2026-09-06
+  project_slug: longgapsbetweenprimes
+  level: initial
+  reviewed_at: '2026-09-05T23:54:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学证明难以机器核对、形式化依赖少数专家的痛点，把素数长间隙界的证明交付为 Lean 可验证代码；此为工作流推理，仓库的直接采用证据仍薄。
+    evidence_ids:
+    - ev-f8e74371b7cfac3d
+  - gate: consensus
+    status: insufficient
+    reason: 三天内星标从 22 升至 35，说明社区关注 AI 形式化进展；属早期关注度而非持续采用，且集中在数论小圈子。
+    evidence_ids:
+    - ev-9e6732963404dd2d
+    - ev-73d9be14f7442de6
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方，开源仓库本身不收费；可能的收入路径只能推测为验证服务或能力背书，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-f812850c4c3e8b37
+  - gate: truth
+    status: supported
+    reason: Lean 编译通过即证明成立，交付确定性强，贴近证明可被机器核对的第一性目标；无安全与人工边界争议，貂丁风险低。
+    evidence_ids:
+    - ev-f8e74371b7cfac3d
+  next_validation: 跟踪仓库后续的 issue 与 discussion，收集数学社区对其形式化正确性与复用情况的公开反馈。
+  market: ''
+  job: 把数论研究结果核对为机器可验证的形式化证明
+  job_en: Verify number-theory results as machine-checked formal proofs
+  pain: 形式化依赖少数熟悉 Lean 的专家手工翻译证明，周期长，非专家难以复核
+  pain_en: Manual formalization depends on a few Lean experts, takes long, and is hard for outsiders to
+    double-check.
+  current_alternative: 由形式化社区专家手工编写 Lean 证明，或直接信任同行评审论文
+  current_alternative_en: Hand-written Lean proofs by formalization community experts, or trusting peer-reviewed
+    papers directly.
+  usage_reason: 数论研究者可复用机器核对的证明结果；仓库三天内星标从 22 增至 35，显示有人持续关注这类产出
+  usage_reason_en: Number theorists can reuse machine-checked results; stars grew from 22 to 35 in three
+    days, showing sustained attention to this kind of output.

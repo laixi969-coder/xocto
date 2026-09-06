@@ -1,0 +1,41 @@
+- id: req-initial-opentrailpaper-2026-09-06
+  project_slug: opentrailpaper
+  level: initial
+  reviewed_at: '2026-09-06T02:59:21Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决骑行中屏幕可读性和续航痛点，替代传统码表，需求结构成立。
+    evidence_ids:
+    - ev-679368f9b54570ff
+  - gate: consensus
+    status: supported
+    reason: 社区讨论热烈（389 分、118 评论），表明有强场景和关注。
+    evidence_ids:
+    - ev-679368f9b54570ff
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费模式不明确，可能靠硬件销售或捐赠。
+    evidence_ids:
+    - ev-679368f9b54570ff
+  - gate: truth
+    status: supported
+    reason: 贴近骑行第一性需求，开源硬件交付可确定，但需验证实际使用效果。
+    evidence_ids:
+    - ev-679368f9b54570ff
+  next_validation: 开源仓库的 issue 或讨论，了解实际使用反馈和功能完成度。
+  market: ''
+  job: 骑行者在骑行中需要实时查看速度、距离、导航等数据，且希望设备续航持久、阳光下可读。
+  job_en: Cyclists need real-time speed, distance, navigation data during rides, with long battery life
+    and sunlight readability.
+  pain: 传统码表屏幕在强光下难以阅读，且电池续航短，长途骑行时充电不便。
+  pain_en: Traditional bike computers have screens hard to read in sunlight and short battery life, inconvenient
+    for long rides.
+  current_alternative: 目前骑行者使用 Garmin 等商用码表或手机支架，但存在价格高、续航短或屏幕反光问题。
+  current_alternative_en: Cyclists currently use commercial bike computers like Garmin or phone mounts,
+    but face high cost, short battery, or glare.
+  usage_reason: 开源社区和骑行爱好者可能因可定制性和低成本而关注，社区讨论热烈表明存在兴趣。
+  usage_reason_en: Open-source community and cyclists may be attracted by customizability and low cost;
+    active discussion indicates interest.

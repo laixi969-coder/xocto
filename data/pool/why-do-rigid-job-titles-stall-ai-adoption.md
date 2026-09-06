@@ -1,11 +1,12 @@
 ---
 slug: why-do-rigid-job-titles-stall-ai-adoption
-name: 🤔 Why do rigid job titles stall AI adoption?
+name: Rigid Job Titles and AI Adoption
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 讨论僵化的职位头衔如何阻碍AI采用，反映组织结构和文化对AI部署的影响。
 inspiration: ''
-summary_en: ''
+summary_en: Discussion on how rigid job titles stall AI adoption, reflecting organizational and cultural
+  barriers to AI deployment.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxNcVpONWJBNnU5
 summary: 🤔 Why do rigid job titles stall AI adoption? Buttondown
 first_seen: '2026-09-05T12:51:55Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 🤔 Why do rigid job titles stall AI adoption?
+# Rigid Job Titles and AI Adoption
 
 🤔 Why do rigid job titles stall AI adoption? Buttondown
 

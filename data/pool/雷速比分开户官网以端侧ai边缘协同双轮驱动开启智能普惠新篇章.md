@@ -1,6 +1,6 @@
 ---
 slug: 雷速比分开户官网以端侧ai边缘协同双轮驱动开启智能普惠新篇章
-name: 雷速比分开户官网以“端侧AI+边缘协同”双轮驱动，开启智能普惠新篇章
+name: Leisu Score
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GZjJSSE9waklO
 summary: 雷速比分开户官网以“端侧AI+边缘协同”双轮驱动，开启智能普惠新篇章 体坛
 first_seen: '2026-09-05T09:22:59Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 雷速比分开户官网以“端侧AI+边缘协同”双轮驱动，开启智能普惠新篇章
+# Leisu Score
 
 雷速比分开户官网以“端侧AI+边缘协同”双轮驱动，开启智能普惠新篇章 体坛
 

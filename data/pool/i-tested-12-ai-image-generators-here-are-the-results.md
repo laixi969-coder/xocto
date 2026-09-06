@@ -1,11 +1,11 @@
 ---
 slug: i-tested-12-ai-image-generators-here-are-the-results
-name: I Tested 12 AI Image Generators — Here Are the Results
+name: AI Image Generators
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 对12款 AI 图像生成器的测试结果揭示了各自的优势与局限。
 inspiration: ''
-summary_en: ''
+summary_en: Testing results of 12 AI image generators reveal their respective strengths and limitations.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNQUkwYlJCYXFO
 summary: I Tested 12 AI Image Generators — Here Are the Results perfectcorp.com
 first_seen: '2026-09-05T08:35:37Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# I Tested 12 AI Image Generators — Here Are the Results
+# AI Image Generators
 
 I Tested 12 AI Image Generators — Here Are the Results perfectcorp.com
 

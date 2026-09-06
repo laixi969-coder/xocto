@@ -21,7 +21,7 @@ canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds

@@ -1,11 +1,12 @@
 ---
 slug: nytimes
-name: nytimes
+name: Google Maps
 builder: _doctor_love
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://nytimes.com/2026/08/30/world/canada/lake-ontario-america-
 summary: Google Maps Renames Lake Ontario to Lake America
 first_seen: '2026-08-31T14:28:01Z'
 last_seen: '2026-09-06T02:59:21Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - marketfeeds
@@ -54,7 +55,7 @@ sightings:
   kind: news
 ---
 
-# nytimes
+# Google Maps
 
 Google Maps Renames Lake Ontario to Lake America
 

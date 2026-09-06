@@ -1,0 +1,39 @@
+- id: req-initial-orcareplay-2026-09-06
+  project_slug: orcareplay
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理调试中复现难、定位难的痛点，录制回放是明确的工作流改进，价值结构成立。
+    evidence_ids:
+    - ev-d728ad2cacf91a6e
+  - gate: consensus
+    status: insufficient
+    reason: 星标增长显示初步关注，但缺乏用户评价或实际采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-850515d130ef602d
+  - gate: model
+    status: insufficient
+    reason: 开源项目暂无定价或付费路径，买方可能是企业开发者，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 录制回放贴近调试的第一性目标，交付可确定，不涉及安全边界问题。
+    evidence_ids:
+    - ev-d728ad2cacf91a6e
+  next_validation: 查找 OrcaReplay 的官方文档或用户案例，确认其与主流代理框架的集成方式和实际调试效果。
+  market: ''
+  job: 开发者需要定位并修复 AI 代理在复杂任务中的错误行为。
+  job_en: Developers need to locate and fix erroneous behaviors of AI agents in complex tasks.
+  pain: 代理运行具有不确定性，出错时难以复现和定位根因，传统日志不足以理解决策过程。
+  pain_en: Agent runs are non-deterministic, making errors hard to reproduce and root-cause; traditional
+    logs are insufficient to understand decision processes.
+  current_alternative: 目前开发者通常手动添加日志、逐步重跑或使用模型提供商的追踪工具，但这些方法耗时且不完整。
+  current_alternative_en: Currently developers often manually add logging, rerun step-by-step, or use
+    model provider tracing tools, which are time-consuming and incomplete.
+  usage_reason: 录制与回放能显著缩短调试周期，且开源免费，吸引开发者试用和贡献。
+  usage_reason_en: Recording and replay can significantly shorten debugging cycles, and being open-source
+    and free attracts developers to try and contribute.

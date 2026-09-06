@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuOGFRUXYwYkp2
 summary: E星体育怎么样正式发布，开启智能数据检索与AI融合新范式 体坛
 first_seen: '2026-09-05T22:01:06Z'
 last_seen: '2026-09-06T05:29:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

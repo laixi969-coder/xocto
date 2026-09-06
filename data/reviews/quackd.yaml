@@ -1,0 +1,40 @@
+- id: req-initial-quackd-2026-09-06
+  project_slug: quackd
+  level: initial
+  reviewed_at: '2026-09-06T05:29:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人编程门槛高、迭代慢的痛点，通过自然语言控制降低入门难度，价值结构成立。
+    evidence_ids:
+    - ev-2eb1335d4cffd7b6
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 163 星，但缺乏用户采用和持续使用的公开证据。
+    evidence_ids:
+    - ev-2eb1335d4cffd7b6
+  - gate: model
+    status: insufficient
+    reason: 未明确商业模式，可能面向教育或创客市场，但付费路径不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 项目贴近机器人控制的第一性目标，交付可确定，但安全边界需关注。
+    evidence_ids:
+    - ev-2eb1335d4cffd7b6
+  next_validation: 查看 quackd 的 公开代码仓库 仓库 issue 和 discussion，寻找用户实际使用案例和反馈。
+  market: ''
+  job: 机器人开发者和爱好者需要一种更直观的方式，将自然语言指令转化为机器人动作，而无需编写复杂代码。
+  job_en: Robotics developers and hobbyists need a more intuitive way to translate natural language commands
+    into robot actions without writing complex code.
+  pain: 传统机器人编程需要学习特定语言和框架，门槛高，迭代慢。
+  pain_en: Traditional robot programming requires learning specific languages and frameworks, which is
+    high-barrier and slow to iterate.
+  current_alternative: 目前用户通常使用 ROS 或专用编程环境，手动编写控制逻辑。
+  current_alternative_en: Currently, users typically use ROS or dedicated programming environments, manually
+    writing control logic.
+  usage_reason: quackd 提供自然语言接口和模拟器，可能吸引希望快速原型验证的开发者，以及教育场景中的非专业用户。
+  usage_reason_en: quackd offers a natural language interface and simulator, potentially attracting developers
+    seeking rapid prototyping and non-expert users in educational settings.

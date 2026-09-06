@@ -109,3 +109,43 @@
     stated.
   usage_reason: 关注源于 agentic IDE 趋势，但产品本身证据不足。
   usage_reason_en: Interest stems from the agentic IDE trend, but product evidence is insufficient.
+- id: req-initial-shape-2026-09-06
+  project_slug: shape
+  level: initial
+  reviewed_at: '2026-09-06T04:01:10Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 设计与编码协同是真实痛点，但当前公开材料仅有一句定位，缺乏具体输入交付闭环证据。
+    evidence_ids:
+    - ev-28d1df92d576724c
+  - gate: consensus
+    status: insufficient
+    reason: 产品处于极早期发布阶段，公开渠道缺乏持续采用和用户反馈数据。
+    evidence_ids:
+    - ev-28d1df92d576724c
+  - gate: model
+    status: insufficient
+    reason: 尚未公开定价方案或商业化模式，付费买方与收费机制仍待披露。
+    evidence_ids:
+    - ev-28d1df92d576724c
+  - gate: truth
+    status: insufficient
+    reason: 智能体在设计到代码转换中的确定性交付能力与人工干预边界尚无公开测试记录。
+    evidence_ids:
+    - ev-28d1df92d576724c
+  next_validation: 获取 Shape 官方产品文档或实测演示，核验其具体输入格式、智能体操作流程与代码生成准确度。
+  market: ''
+  job: 在软件构建过程中弥合设计稿与可运行代码之间的交付断层。
+  job_en: Bridge the handoff gap between design mockups and runnable code during software construction.
+  pain: 设计与开发工具链割裂，设计规范转化为代码存在反复沟通与还原度损耗。
+  pain_en: Design and development toolchains are fragmented, causing back-and-forth communication and
+    fidelity loss when translating designs into code.
+  current_alternative: 使用 Figma 配合设计系统插件，或在 VS Code / Cursor 中手动对照设计稿编写前端代码。
+  current_alternative_en: Using Figma with design system plugins, or manually writing frontend code against
+    design specs in VS Code or Cursor.
+  usage_reason: 产品定位为连接设计与编程的智能体 IDE，试图减少手工切图与代码还原成本，但具体执行路径尚未披露。
+  usage_reason_en: Positioned as an agentic IDE connecting design and programming to reduce handoff overhead,
+    though execution mechanics remain undisclosed.

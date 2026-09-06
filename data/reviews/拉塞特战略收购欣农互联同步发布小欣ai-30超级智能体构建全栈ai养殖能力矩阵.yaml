@@ -1,0 +1,39 @@
+- id: req-initial-拉塞特战略收购欣农互联同步发布小欣ai-30超级智能体构建全栈ai养殖能力矩阵-2026-09-06
+  project_slug: 拉塞特战略收购欣农互联同步发布小欣ai-30超级智能体构建全栈ai养殖能力矩阵
+  level: initial
+  reviewed_at: '2026-09-05T23:54:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决养殖场疫病发现滞后、管理效率低的痛点，AI接收养殖数据并执行监测预警，交付可核对的健康报告和预警，价值结构成立。
+    evidence_ids:
+    - ev-b86a46128b89261c
+    - ev-c686928360732329
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未显示客户采用规模或评价，共识证据不足。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 买方可能是养殖企业，但公开材料未披露定价或付费模式，付费路径待核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 收购和产品发布是公开事实，但交付效果和实际使用数据未披露。
+    evidence_ids: []
+  next_validation: 查找拉塞特官网或客户案例，确认定价和实际部署效果。
+  market: ''
+  job: 养殖企业管理者需要监控畜禽健康、优化饲料和疫病防控，以降低死亡率、提高产出。
+  job_en: Livestock farm managers need to monitor animal health, optimize feed, and prevent disease to
+    reduce mortality and increase output.
+  pain: 传统养殖依赖人工巡检和经验判断，疫病发现滞后，饲料浪费，管理效率低。
+  pain_en: Traditional farming relies on manual inspection and experience, leading to delayed disease
+    detection, feed waste, and low management efficiency.
+  current_alternative: 目前养殖场多采用人工记录、经验管理和零散的物联网设备，缺乏统一的数据分析和预警系统。
+  current_alternative_en: Currently, farms use manual records, experience-based management, and scattered
+    IoT devices, lacking unified data analysis and early warning systems.
+  usage_reason: 养殖业利润薄，疫病风险高，AI能提供实时监测和预警，帮助降低损失，因此养殖企业有动力采用。
+  usage_reason_en: Farming has thin margins and high disease risks; AI can provide real-time monitoring
+    and early warning to reduce losses, motivating adoption.

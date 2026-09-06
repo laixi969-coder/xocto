@@ -1,0 +1,41 @@
+- id: req-initial-routingbox-raises-22-million-to-expand-nemt-software-platfor-2026-09-06
+  project_slug: routingbox-raises-22-million-to-expand-nemt-software-platfor
+  level: initial
+  reviewed_at: '2026-09-06T08:36:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决调度员人工安排车辆和路线的痛点，需求刚性，交付可确定。
+    evidence_ids:
+    - ev-7f4a88ef9f2315f9
+  - gate: consensus
+    status: insufficient
+    reason: 融资显示资本认可，但缺乏用户采用或客户案例的公开证据。
+    evidence_ids:
+    - ev-7f4a88ef9f2315f9
+  - gate: model
+    status: insufficient
+    reason: 买方可能是运输公司，但定价和付费模式未披露。
+    evidence_ids:
+    - ev-7f4a88ef9f2315f9
+  - gate: truth
+    status: supported
+    reason: 贴近调度工作的第一性目标，承诺可确定交付，安全风险低。
+    evidence_ids:
+    - ev-7f4a88ef9f2315f9
+  next_validation: 查找 RoutingBox 的官方定价页或客户案例，以确认付费模式。
+  market: ''
+  job: 调度员需要为大量非紧急医疗运输请求安排车辆和路线，确保患者准时接送。
+  job_en: Dispatchers need to arrange vehicles and routes for numerous non-emergency medical transport
+    requests, ensuring timely patient pickups.
+  pain: 人工调度耗时且易出错，尤其在高峰期或跨区域运输时，协调成本高。
+  pain_en: Manual dispatching is time-consuming and error-prone, especially during peak times or cross-regional
+    trips, with high coordination costs.
+  current_alternative: 目前许多运输公司仍使用电话、电子表格或简单的日历工具进行调度。
+  current_alternative_en: Currently, many transport companies still use phone calls, spreadsheets, or
+    simple calendar tools for dispatching.
+  usage_reason: 融资和行业需求表明，运输公司需要自动化工具来降低成本并提高准时率，因此会采用此类平台。
+  usage_reason_en: Funding and industry demand suggest transport companies need automation to cut costs
+    and improve on-time rates, driving adoption of such platforms.

@@ -1,11 +1,13 @@
 ---
 slug: gwre-q2-deep-dive-strong-product-momentum-overshadowed-by-ca
-name: 'GWRE Q2 Deep Dive: Strong Product Momentum Overshadowed by Cautious Outlook'
+name: Guidewire Software
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是保险公司核心业务系统软件商 Guidewire 的第二财季财报解读：产品侧势头强劲，但管理层对后续业绩给出谨慎展望，市场对保险软件需求与支出的判断出现分歧。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is an earnings review of Guidewire, a vendor of core software systems for insurers:
+  product momentum is strong, but management issued a cautious outlook, and market views on insurance
+  software demand and spending diverge.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZW5CSW1GTnRJ
 summary: 'GWRE Q2 Deep Dive: Strong Product Momentum Overshadowed by Cautious Outlook StockStory'
 first_seen: '2026-09-04T14:09:39Z'
 last_seen: '2026-09-06T09:14:58Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# GWRE Q2 Deep Dive: Strong Product Momentum Overshadowed by Cautious Outlook
+# Guidewire Software
 
 GWRE Q2 Deep Dive: Strong Product Momentum Overshadowed by Cautious Outlook StockStory
 

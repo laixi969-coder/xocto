@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1PY3ZocElGWVVF
 summary: 新博怎么登陆：AI一键竞技实测：告别复杂操作，从卡顿到丝滑，真香定律 体坛
 first_seen: '2026-09-05T10:03:02Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

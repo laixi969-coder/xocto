@@ -1,0 +1,39 @@
+- id: req-initial-mobilecode-2026-09-06
+  project_slug: mobilecode
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决移动开发者在 AI 编程时无法即时预览的问题，但具体用户任务和痛点描述模糊，缺乏明确的工作流证据。
+    evidence_ids:
+    - ev-1ebd9857f0063db1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量星标，无用户评价或采用案例，共识证据不足。
+    evidence_ids:
+    - ev-1ebd9857f0063db1
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法进行。
+    evidence_ids: []
+  next_validation: 官方文档或演示视频，展示实际使用流程和效果。
+  market: ''
+  job: 在 AI 编程助手中直接构建和预览移动应用，减少切换工具的时间。
+  job_en: Build and preview mobile apps directly in the AI coding assistant, reducing time spent switching
+    tools.
+  pain: 移动开发者使用 AI 编程时无法即时预览效果，需要切换到模拟器或真机。
+  pain_en: Mobile developers cannot preview effects immediately when using AI coding, needing to switch
+    to simulators or real devices.
+  current_alternative: 开发者通常使用 Xcode 或 Android Studio 的模拟器，或手动部署到设备。
+  current_alternative_en: Developers typically use Xcode or Android Studio simulators, or manually deploy
+    to devices.
+  usage_reason: 公开代码仓库 星标表明开发者对移动预览功能有兴趣，但实际采用和付费意愿不明。
+  usage_reason_en: public code repository stars suggest developer interest in mobile preview features,
+    but actual adoption and willingness to pay are unclear.

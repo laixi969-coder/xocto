@@ -3,9 +3,10 @@ slug: the-incumbents-are-coming
 name: The Incumbents Are Coming
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Andreessen Horowitz 发布《The Incumbents Are Coming》报告，分析现有科技巨头进入 AI 的影响。
 inspiration: ''
-summary_en: ''
+summary_en: Andreessen Horowitz releases the report 'The Incumbents Are Coming', analyzing the impact
+  of incumbent tech companies entering AI.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNeVp2V2dYOG00
 summary: The Incumbents Are Coming Andreessen Horowitz
 first_seen: '2026-09-03T22:52:10Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

@@ -1,6 +1,6 @@
 ---
 slug: hits-the-spot-sex-toy-every-man-needs
-name: '‘Hits the spot’: Sex toy every man needs'
+name: Hits the Spot
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYjV3NlNBVTVm
 summary: '‘Hits the spot’: Sex toy every man needs News.com.au'
 first_seen: '2026-09-04T07:00:00Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# ‘Hits the spot’: Sex toy every man needs
+# Hits the Spot
 
 ‘Hits the spot’: Sex toy every man needs News.com.au
 

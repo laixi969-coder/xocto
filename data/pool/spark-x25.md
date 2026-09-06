@@ -3,9 +3,10 @@ slug: spark-x25
 name: Spark-X2.5
 builder: XHToken
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -21,7 +22,7 @@ canonical_url: https://xhtoken.ai
 summary: Spark-x2.5 open model series. Pushing the Limits of Agentic Capabilities in On-Device Models
 first_seen: '2026-08-24T06:36:40Z'
 last_seen: '2026-09-06T09:14:25Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:

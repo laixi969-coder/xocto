@@ -1,11 +1,11 @@
 ---
 slug: uber-launches-ai-powered-robotaxis-in-london-after-exiting-n
-name: Uber launches AI-powered robotaxis in London after exiting Nigeria
+name: Uber
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Uber 在伦敦推出机器人出租车服务，标志其自动驾驶商业化扩展。
 inspiration: ''
-summary_en: ''
+summary_en: Uber launched robotaxi service in London, marking expansion of autonomous driving commercialization.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPWFhwUEtxQnNh
 summary: Uber launches AI-powered robotaxis in London after exiting Nigeria innovation-village.com
 first_seen: '2026-09-03T12:51:37Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Uber launches AI-powered robotaxis in London after exiting Nigeria
+# Uber
 
 Uber launches AI-powered robotaxis in London after exiting Nigeria innovation-village.com
 

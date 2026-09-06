@@ -23,7 +23,7 @@ summary: ChatGPT 5.6 Free Desktop chatgpt 5.6 download, no chatgpt plus for the 
   Windows Mac Linux free desktop AI. 🡇
 first_seen: '2026-08-26T17:54:04Z'
 last_seen: '2026-09-05T23:54:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

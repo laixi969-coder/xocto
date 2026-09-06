@@ -22,7 +22,7 @@ summary: 🚀 DeepSeek Harness 多通道远程访问与安全守护插件 | 局�
   | 内置全协议访问安全认证、后台防篡改与容灾保命体系
 first_seen: '2026-08-18T03:29:50Z'
 last_seen: '2026-09-06T04:00:31Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

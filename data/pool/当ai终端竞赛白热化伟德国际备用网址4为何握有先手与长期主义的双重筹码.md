@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yR3BXeEc2Y19N
 summary: 当AI终端竞赛白热化，伟德国际备用网址4为何握有先手与长期主义的双重筹码 体坛
 first_seen: '2026-09-05T15:48:08Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

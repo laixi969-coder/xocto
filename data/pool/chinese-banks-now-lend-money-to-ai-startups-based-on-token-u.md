@@ -3,9 +3,10 @@ slug: chinese-banks-now-lend-money-to-ai-startups-based-on-token-u
 name: Chinese Banks Now Lend Money to AI Startups Based on Token Usage
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 中国银行开始根据 AI 初创企业的代币使用情况提供贷款，标志着金融机构对 AI 生态系统的直接支持升级。
 inspiration: ''
-summary_en: ''
+summary_en: Chinese banks are now lending to AI startups based on token usage, signaling a direct upgrade
+  in financial support for the AI ecosystem.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxOUFd6NkFKeXNS
 summary: Chinese Banks Now Lend Money to AI Startups Based on Token Usage Startup Fortune
 first_seen: '2026-09-06T02:25:26Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

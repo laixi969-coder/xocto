@@ -1,0 +1,38 @@
+- id: req-initial-jmeter-mcp-server-2026-09-06
+  project_slug: jmeter-mcp-server
+  level: initial
+  reviewed_at: '2026-09-05T23:54:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决测试工程师手动编写 JMeter 脚本和解读报告的痛点，旧流程明确，交付可确定。
+    evidence_ids:
+    - ev-57e5503da51bc90f
+  - gate: consensus
+    status: insufficient
+    reason: 有开源关注但无用户评价或采用证据，场景强度待观察。
+    evidence_ids:
+    - ev-025f1b8776379860
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价，付费方可能是企业 QA 团队，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近测试工作的第一性目标，交付确定性高，但需人工确认测试场景。
+    evidence_ids:
+    - ev-57e5503da51bc90f
+  next_validation: 官方文档或 issue 中关于实际使用场景和用户反馈的说明。
+  market: ''
+  job: 测试工程师需要创建 JMeter 测试计划并分析执行结果，以验证系统性能。
+  job_en: Test engineers need to create JMeter test plans and analyze execution results to verify system
+    performance.
+  pain: 手动编写 JMeter 脚本耗时且易错，结果分析需要专业知识。
+  pain_en: Manually writing JMeter scripts is time-consuming and error-prone; result analysis requires
+    expertise.
+  current_alternative: 手动使用 JMeter GUI 或编写脚本，人工解读报告。
+  current_alternative_en: Manually using JMeter GUI or writing scripts, interpreting reports by hand.
+  usage_reason: 开源仓库在两周内获得 80 星，表明开发者对 AI 辅助测试有初步兴趣。
+  usage_reason_en: The repo gained 80 stars in two weeks, indicating initial interest in AI-assisted testing.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTFBzM1VhTjhwaG1T
 summary: ng体育的官方网站正式上线：限时免费体验，AI算法重新定义足球赛事预测 体坛
 first_seen: '2026-09-05T04:39:01Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

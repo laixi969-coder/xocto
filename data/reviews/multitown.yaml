@@ -1,0 +1,41 @@
+- id: req-initial-multitown-2026-09-06
+  project_slug: multitown
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理系统开发中的组织与成本控制问题，痛点明确：缺乏工具导致资源浪费。代码配置与运行时控制可确定交付，价值成立。
+    evidence_ids:
+    - ev-737f0454cd425c21
+  - gate: consensus
+    status: insufficient
+    reason: 星数持续增长但基数小，缺乏社区讨论或实际采用证据，共识仅初步。
+    evidence_ids:
+    - ev-737f0454cd425c21
+  - gate: model
+    status: insufficient
+    reason: 开源项目，买方可能是企业开发者，但未披露商业模式或付费路径。
+    evidence_ids:
+    - ev-737f0454cd425c21
+  - gate: truth
+    status: supported
+    reason: 贴近多代理系统开发的第一性目标，交付为可运行的控制流程，安全风险低。
+    evidence_ids:
+    - ev-737f0454cd425c21
+  next_validation: 官方文档或使用案例
+  market: ''
+  job: 开发者在构建多代理系统时需要组织代理协作并控制运行成本。
+  job_en: Developers building multi-agent systems need to organize agent collaboration and control runtime
+    costs.
+  pain: 多代理系统复杂，缺乏有效的组织与成本管理工具，导致资源浪费和失控风险。
+  pain_en: Multi-agent systems are complex, lacking effective organization and cost management tools,
+    leading to resource waste and risk of losing control.
+  current_alternative: 目前开发者常使用通用编排框架或自行编写调度逻辑，成本管理往往被忽视。
+  current_alternative_en: Currently developers often use general orchestration frameworks or write custom
+    scheduling logic, with cost management often overlooked.
+  usage_reason: 开源工具提供成本感知的控制能力，对实验多代理系统的开发者有吸引力，星数增长表明关注度上升。
+  usage_reason_en: The open-source tool offers cost-aware control, appealing to developers experimenting
+    with multi-agent systems, as star growth indicates rising interest.

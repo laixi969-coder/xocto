@@ -1,0 +1,42 @@
+- id: req-initial-task-state-guard-2026-09-06
+  project_slug: task-state-guard
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理任务中断后状态不一致、误判成功的痛点，交付可预览的数据库变更和状态清理，价值结构成立。
+    evidence_ids:
+    - ev-b66509a7cb03e823
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 191 星，但尚无公开的采用案例或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-b66509a7cb03e823
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是代理平台或运维团队，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近代理运行的第一性目标——状态可靠，交付可预览，不夸大成功，安全边界清晰。
+    evidence_ids:
+    - ev-b66509a7cb03e823
+  next_validation: 查找官方文档或仓库 issue 中是否有企业采用案例或部署规模数据。
+  market: ''
+  job: AI 代理在无人值守执行多步任务时，需要确保任务状态与数据库变更一致，避免因重启或超时导致状态卡死或误报成功。
+  job_en: When AI agents execute multi-step tasks unattended, they need to ensure task state and database
+    changes stay consistent, avoiding stuck states or false success after restarts or timeouts.
+  pain: 代理任务中断后，状态可能停留在旧值，数据库变更可能部分应用，导致后续操作基于错误状态，甚至重复执行或数据损坏。
+  pain_en: After an agent task is interrupted, state may remain stale and database changes may be partially
+    applied, causing subsequent operations to rely on incorrect state, leading to duplicate execution
+    or data corruption.
+  current_alternative: 目前团队通常依赖人工检查日志和数据库，或编写一次性脚本清理状态，耗时且易错。
+  current_alternative_en: Currently teams rely on manual log and database inspection, or write one-off
+    scripts to clean up state, which is time-consuming and error-prone.
+  usage_reason: 代理任务自动化程度越高，状态管理越关键；该工具提供预览和关闭过期状态的能力，降低运维风险，因此值得采用。
+  usage_reason_en: The more automated agent tasks become, the more critical state management is; this
+    tool offers preview and stale-state closure capabilities, reducing operational risk, making it worth
+    adopting.

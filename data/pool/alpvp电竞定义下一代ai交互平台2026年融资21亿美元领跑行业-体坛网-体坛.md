@@ -1,6 +1,6 @@
 ---
 slug: alpvp电竞定义下一代ai交互平台2026年融资21亿美元领跑行业-体坛网-体坛
-name: ALPVP电竞：定义下一代AI交互平台，2026年融资2.1亿美元领跑行业-体坛网_体坛+
+name: ALPVP电竞
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wYkVtTHRGZWp6
 summary: ALPVP电竞：定义下一代AI交互平台，2026年融资2.1亿美元领跑行业-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T09:15:41Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# ALPVP电竞：定义下一代AI交互平台，2026年融资2.1亿美元领跑行业-体坛网_体坛+
+# ALPVP电竞
 
 ALPVP电竞：定义下一代AI交互平台，2026年融资2.1亿美元领跑行业-体坛网_体坛+ 体坛
 

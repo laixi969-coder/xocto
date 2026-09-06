@@ -1,6 +1,6 @@
 ---
 slug: 重组三大业务集团与ai原生单元-葡京六合手机端下载引领混合式智能新时代
-name: 重组三大业务集团与AI原生单元 葡京六合手机端下载引领混合式智能新时代
+name: 葡京六合
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jVU9fOXNKMVhw
 summary: 重组三大业务集团与AI原生单元 葡京六合手机端下载引领混合式智能新时代 体坛
 first_seen: '2026-09-03T10:37:18Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 重组三大业务集团与AI原生单元 葡京六合手机端下载引领混合式智能新时代
+# 葡京六合
 
 重组三大业务集团与AI原生单元 葡京六合手机端下载引领混合式智能新时代 体坛
 

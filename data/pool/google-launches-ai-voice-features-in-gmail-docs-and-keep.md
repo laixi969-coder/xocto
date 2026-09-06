@@ -1,11 +1,15 @@
 ---
 slug: google-launches-ai-voice-features-in-gmail-docs-and-keep
-name: Google Launches AI Voice Features in Gmail, Docs and Keep
+name: Google
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 谷歌在 Gmail、Docs 和 Keep 三款常用办公与笔记应用中上线 AI 语音功能。这是平台功能更新而非独立产品：主流办公套件开始原生集成语音交互，写邮件、写文档、记笔记的语音入口被内置到用户每天已打开的工具里，做通用语音输入或语音助手类独立工具的团队生存空间被挤压。报道未说明具体功能细节与可用范围。
 inspiration: ''
-summary_en: ''
+summary_en: 'Google has rolled out AI voice features across Gmail, Docs and Keep. This is a platform feature
+  update rather than a standalone product: mainstream office suites are natively embedding voice interaction,
+  putting voice entry points for email, documents and notes inside tools users already open daily, and
+  squeezing standalone voice-input or voice-assistant tools. The report did not disclose specific feature
+  details or availability.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJC
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Google Launches AI Voice Features in Gmail, Docs and Keep
+# Google
 
 Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 

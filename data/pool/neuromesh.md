@@ -21,7 +21,7 @@ canonical_url: https://pinoox.github.io/neuromesh
 summary: The Biomimetic Context Engine & Neural Runtime for AI Coding Assistants
 first_seen: '2026-08-22T11:14:43Z'
 last_seen: '2026-09-06T09:14:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

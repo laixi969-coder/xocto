@@ -1,0 +1,44 @@
+- id: req-initial-video-ai-talking-2026-09-06
+  project_slug: video-ai-talking
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者不想出镜但需口播视频的痛点，通过上传视频和字幕生成新内容，交付可核对的MP4，价值结构成立。
+    evidence_ids:
+    - ev-f03f19f78afc8d47
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星数增长（141至184）显示关注，但缺乏用户评价或持续采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-f03f19f78afc8d47
+    - ev-1994031c29b6f342
+    - ev-63a0aad6eaac1709
+    - ev-c2fafed420d2a615
+    - ev-5b9e7d08065e09b8
+    - ev-3d80f055031da1bd
+    - ev-94b74fe75ecb2c3d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是个人创作者或营销机构，但付费路径不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 工具承诺本机配音对口型，但口型同步质量和自然度未验证，交付确定性存疑。
+    evidence_ids: []
+  next_validation: 查找官方文档或演示视频，验证口型同步效果和实际使用流程。
+  market: ''
+  job: 创作者需要生成口播视频内容，但不想或无法亲自出镜拍摄。
+  job_en: Creators need to produce talking-head video content but cannot or prefer not to film themselves.
+  pain: 出镜拍摄耗时、尴尬或受限于环境，导致内容产出效率低。
+  pain_en: Filming oneself is time-consuming, awkward, or constrained by environment, reducing content
+    output efficiency.
+  current_alternative: 目前创作者可能使用虚拟形象、录屏加配音，或雇佣演员，但这些方法缺乏真实感或成本高。
+  current_alternative_en: Currently, creators may use avatars, screen recordings with voiceover, or hire
+    actors, but these lack realism or are costly.
+  usage_reason: 该工具允许利用已有视频素材合成新口播，节省拍摄时间，且本地处理保护隐私，吸引关注。
+  usage_reason_en: The tool enables synthesizing new talking-head videos from existing footage, saving
+    filming time, and local processing protects privacy, attracting attention.

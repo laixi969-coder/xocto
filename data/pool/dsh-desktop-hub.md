@@ -22,7 +22,7 @@ summary: DSH Desktop Hub — DeepSeek Harness 桌面管理控制台（Electron +
   MCP / Skills，双击即用。
 first_seen: '2026-08-16T05:46:58Z'
 last_seen: '2026-09-05T23:54:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

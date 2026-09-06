@@ -1,0 +1,36 @@
+- id: req-initial-pymol-claude-mcp-2026-09-06
+  project_slug: pymol-claude-mcp
+  level: initial
+  reviewed_at: '2026-09-05T23:54:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：简化 PyMOL 操作，但痛点刚性不足，交付可确定性未明。
+    evidence_ids:
+    - ev-8007a826edefdef7
+  - gate: consensus
+    status: insufficient
+    reason: 公开关注度低，缺乏强场景证据。
+    evidence_ids:
+    - ev-8007a826edefdef7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方不清。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或社区讨论中关于实际使用场景和用户反馈的说明。
+  market: ''
+  job: 结构生物学家或计算化学家需要操作 PyMOL 进行分子可视化和分析。
+  job_en: Structural biologists or computational chemists need to operate PyMOL for molecular visualization
+    and analysis.
+  pain: PyMOL 操作复杂，学习曲线陡峭，手动操作耗时。
+  pain_en: PyMOL is complex with a steep learning curve, and manual operation is time-consuming.
+  current_alternative: 目前用户可能手动使用 PyMOL 或编写脚本。
+  current_alternative_en: Currently users may operate PyMOL manually or write scripts.
+  usage_reason: 该工具可能降低操作门槛，但采用证据不足。
+  usage_reason_en: This tool may lower the barrier to use, but adoption evidence is insufficient.

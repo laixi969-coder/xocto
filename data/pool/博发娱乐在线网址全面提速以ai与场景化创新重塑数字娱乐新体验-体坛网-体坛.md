@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwWHlqX0JQUlJC
 summary: 博发娱乐在线网址全面提速：以AI与场景化创新重塑数字娱乐新体验-体坛网_体坛+ 体坛
 first_seen: '2026-09-04T23:36:52Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

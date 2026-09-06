@@ -1,0 +1,40 @@
+- id: req-initial-dsh-easyrewrite-2026-09-06
+  project_slug: dsh-easyrewrite
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DSH Web 用户消息撤回的痛点，避免错误消息影响对话，替代手动清理的旧行为。
+    evidence_ids:
+    - ev-cbc5b9313e52442a
+  - gate: consensus
+    status: insufficient
+    reason: 星数增长平稳，缺乏用户评价，共识尚未形成。
+    evidence_ids:
+    - ev-cbc5b9313e52442a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 功能贴近用户需求，交付可确定，但需验证实际使用效果。
+    evidence_ids:
+    - ev-cbc5b9313e52442a
+  next_validation: 查找该插件在 公开代码仓库 上的 issue 或 discussion，了解用户反馈和使用场景。
+  market: ''
+  job: DSH Web 用户在对话中需要撤回或重新编辑已发送的消息，以纠正错误或调整内容。
+  job_en: DSH Web users need to recall or re-edit sent messages in conversations to correct errors or
+    adjust content.
+  pain: 发送错误消息后无法撤回，可能导致误解或需要手动清理上下文。
+  pain_en: After sending an erroneous message, it cannot be recalled, potentially causing misunderstandings
+    or requiring manual context cleanup.
+  current_alternative: 目前用户可能通过发送新消息来纠正，或手动删除会话记录。
+  current_alternative_en: Currently, users may send a new message to correct, or manually delete session
+    history.
+  usage_reason: 该插件提供便捷的撤回和重编辑功能，减少沟通成本，对频繁对话的用户有实用价值。
+  usage_reason_en: This plugin offers convenient recall and re-edit features, reducing communication costs,
+    and is practically valuable for frequent conversationalists.

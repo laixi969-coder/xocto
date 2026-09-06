@@ -22,7 +22,7 @@ summary: AI Visibility Campaign by 1stpage Reaches 800+ Citations Across Major A
   PRLog
 first_seen: '2026-09-05T20:27:30Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

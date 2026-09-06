@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwZ0IwMVBSUndU
 summary: 利发国际官网网址多少登顶SuperCLUE测评国产AI智能体交互技术领跑行业-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T02:35:08Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

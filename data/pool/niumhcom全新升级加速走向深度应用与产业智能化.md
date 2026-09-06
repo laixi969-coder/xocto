@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiR0FVX3lxTFA0Uy1qZi1wNmxm
 summary: NIUMH,COM全新升级，加速走向深度应用与产业智能化 体坛
 first_seen: '2026-09-05T13:34:26Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

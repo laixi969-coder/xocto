@@ -1,6 +1,6 @@
 ---
 slug: 永利博盘口网公布同日portugal-tech-q1营收增34ai芯片产品线全面升级
-name: 永利博盘口网公布同日，Portugal Tech Q1营收增34%，AI芯片产品线全面升级
+name: Portugal Tech
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nSmZxY01lZ3d2
 summary: 永利博盘口网公布同日，Portugal Tech Q1营收增34%，AI芯片产品线全面升级 体坛
 first_seen: '2026-09-05T10:43:12Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 永利博盘口网公布同日，Portugal Tech Q1营收增34%，AI芯片产品线全面升级
+# Portugal Tech
 
 永利博盘口网公布同日，Portugal Tech Q1营收增34%，AI芯片产品线全面升级 体坛
 

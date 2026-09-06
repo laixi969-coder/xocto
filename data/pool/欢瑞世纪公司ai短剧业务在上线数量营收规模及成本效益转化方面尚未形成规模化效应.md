@@ -3,9 +3,10 @@ slug: 欢瑞世纪公司ai短剧业务在上线数量营收规模及成本效益
 name: 欢瑞世纪：公司AI短剧业务在上线数量、营收规模及成本效益转化方面尚未形成规模化效应
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 欢瑞世纪AI短剧业务尚未实现规模化，显示行业发展不均。
 inspiration: ''
-summary_en: ''
+summary_en: Huanrui Century's AI short drama business has not yet achieved scale, indicating uneven industry
+  development.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zeVp5OXBNMlVZ
 summary: 欢瑞世纪：公司AI短剧业务在上线数量、营收规模及成本效益转化方面尚未形成规模化效应 东方财富
 first_seen: '2026-09-04T10:41:53Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: hikers-rescued-after-using-google-gemini-for-planning
-name: Hikers rescued after using Google Gemini for planning
+name: Google Gemini
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google Gemini 的规划建议导致徒步者被救援，凸显 AI 在户外导航中的安全风险。
 inspiration: ''
-summary_en: ''
+summary_en: Google Gemini's planning advice led to hikers being rescued, highlighting safety risks of
+  AI in outdoor navigation.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: The sheriff’s office said the hikers “were advised by Gemini to bri
   than their group required."
 first_seen: '2026-09-05T19:35:24Z'
 last_seen: '2026-09-05T23:54:22Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Hikers rescued after using Google Gemini for planning
+# Google Gemini
 
 The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required."
 

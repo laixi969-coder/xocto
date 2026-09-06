@@ -21,7 +21,7 @@ canonical_url: https://newsweek.com/allison-guerriero-michael-mcgonigal-fbi-expo
 summary: Woman who exposed FBI official for working with Russian oligarch found dead
 first_seen: '2026-09-04T15:49:05Z'
 last_seen: '2026-09-06T02:59:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

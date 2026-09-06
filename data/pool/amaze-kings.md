@@ -21,7 +21,7 @@ canonical_url: https://kings.amaze-apps.com
 summary: a browser logic puzzle with 1,400 hand-graded levels
 first_seen: '2026-09-05T16:21:08Z'
 last_seen: '2026-09-06T06:48:36Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,38 @@
+- id: req-initial-studypilot-2026-09-06
+  project_slug: studypilot
+  level: initial
+  reviewed_at: '2026-09-05T23:54:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决学生复习时大模型幻觉与无法溯源的问题，强制限定知识库和引文，结构上具备明确的使用者价值。
+    evidence_ids:
+    - ev-500d8a2104a49f4e
+  - gate: consensus
+    status: insufficient
+    reason: 开源代码库当前仅获41星关注，仍处于早期验证阶段，尚未形成广泛的采用共识。
+    evidence_ids:
+    - ev-500d8a2104a49f4e
+  - gate: model
+    status: insufficient
+    reason: 公开材料仅体现为个人开源学习工具，未说明后续是否有订阅、增值服务或商业化路径。
+    evidence_ids:
+    - ev-500d8a2104a49f4e
+  - gate: truth
+    status: supported
+    reason: 基于专有文档检索问答并返回出处的机制在技术上成熟可行，交付目标明确。
+    evidence_ids:
+    - ev-500d8a2104a49f4e
+  next_validation: 观察项目在多格式复杂课件（如公式、图表PDF）下的检索精度实测反馈与社区活跃度。
+  market: ''
+  job: 针对特定课程材料和课件进行精准答疑与考点复习。
+  job_en: Review specific course materials and prepare for exams with accurate answers.
+  pain: 通用AI答疑容易产生幻觉或超出教学大纲，学生无法核对信息真伪。
+  pain_en: Generic AI tools often hallucinate or deviate from syllabi, making answers hard to verify.
+  current_alternative: 人工翻阅讲义教材检索，或使用通用对话大模型后手动比对。
+  current_alternative_en: Manually flipping through textbooks or cross-checking answers from generic chatbots.
+  usage_reason: 严格限定回答仅来源于课件本身并给出精准引用，降低复习核对成本。
+  usage_reason_en: Strictly restricts answers to provided course materials with citations, minimizing
+    verification effort.

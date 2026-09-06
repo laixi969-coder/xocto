@@ -1,0 +1,36 @@
+- id: req-initial-汽车之家发布芝士车管家ai智能体打通汽车选买用卖全链路-2026-09-06
+  project_slug: 汽车之家发布芝士车管家ai智能体打通汽车选买用卖全链路
+  level: initial
+  reviewed_at: '2026-09-06T00:59:06Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决购车比价和卖车估值的具体痛点，旧流程是手动搜索和咨询，AI可提供更快建议。
+    evidence_ids:
+    - ev-ea939a9838b0c171
+  - gate: consensus
+    status: insufficient
+    reason: 发布报道显示场景明确，但缺乏用户采用或评价数据。
+    evidence_ids:
+    - ev-ea939a9838b0c171
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是C端用户或经销商。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，需看实际推荐和估价质量。
+    evidence_ids: []
+  next_validation: 查找芝士车管家的官方产品页或用户评价，确认具体功能和交付质量。
+  market: ''
+  job: 购车用户需要比较车型、了解行情；卖车用户需要估价和出售渠道。
+  job_en: Car buyers need to compare models and understand market prices; sellers need valuation and sales
+    channels.
+  pain: 信息分散，比价费时，估价不透明。
+  pain_en: Information is scattered, comparison is time-consuming, and valuation is opaque.
+  current_alternative: 用户手动浏览汽车之家等平台，或咨询经销商。
+  current_alternative_en: Users manually browse platforms like Autohome or consult dealers.
+  usage_reason: AI能聚合信息并快速给出建议，减少用户自行搜索的时间。
+  usage_reason_en: AI aggregates information and provides quick recommendations, saving users time.

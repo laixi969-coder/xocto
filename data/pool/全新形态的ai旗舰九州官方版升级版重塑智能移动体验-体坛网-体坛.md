@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XOWxFVGhwWG0z
 summary: 全新形态的AI旗舰九州官方版升级版重塑智能移动体验- 体坛网_体坛+ ttplus.cn
 first_seen: '2026-09-06T01:04:17Z'
 last_seen: '2026-09-06T09:14:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

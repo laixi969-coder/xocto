@@ -3,12 +3,15 @@ slug: grok
 name: Grok
 builder: samaysharma
 category: 通用助手
-summary_zh: Grok 是 xAI 设计的免费 AI 助手，提供实时搜索、图像生成、趋势分析等功能。近期因训练数据问题面临法律诉讼。
-inspiration: AI 助手的合规风险成为关键，创业者需关注数据来源合法性。
+summary_zh: Grok 是 xAI 推出的免费 AI 助手，提供实时搜索、图像生成和趋势分析等功能。用户可在对话界面输入问题或指令，Grok 返回文本回答或生成图像。具体工作流程和交付细节待核验。
+inspiration: 趋势：AI 助手正从通用问答转向实时信息整合与内容生成，免费模式成为获取用户的主要手段。切入：可考虑在特定垂直领域（如新闻聚合、社交媒体分析）提供深度定制，避免与通用助手正面竞争。
 summary_en: Grok is a free AI assistant by xAI offering real-time search, image generation, and trend
-  analysis. It faces a lawsuit over training data issues.
-inspiration_en: Compliance risks in AI assistants are critical; entrepreneurs must ensure data source
-  legality.
+  analysis. Users input queries or commands in a chat interface, and Grok returns text answers or generated
+  images. Specific workflows and deliverables remain to be verified.
+inspiration_en: 'Trend: AI assistants are shifting from general Q&A to real-time information integration
+  and content generation, with free models as a key user acquisition strategy. Angle: Consider deep customization
+  for vertical domains like news aggregation or social media analytics to avoid head-on competition with
+  general assistants.'
 priority_review: false
 project_type: new_application
 industries:
@@ -18,7 +21,7 @@ industries_en:
 jobs:
 - 普通用户
 jobs_en:
-- General Users
+- General users
 regions:
 - 全球
 regions_en:
@@ -30,7 +33,7 @@ summary: Grok is a free AI assistant designed by xAI to maximize truth and objec
   searching, image generation, trend analysis, and more.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: watching
 sources:
 - aicpb
 - marketfeeds

@@ -1,12 +1,12 @@
 ---
 slug: global-artificial-intelligence-ai-in-reverse-logistics-marke
-name: Global Artificial Intelligence (AI) In Reverse Logistics Market Entering High-Growth Phase According
-  To Latest Research
+name: 全球人工智能逆向物流市场
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 全球人工智能在逆向物流市场正进入高增长阶段。
 inspiration: ''
-summary_en: ''
+summary_en: The global market for artificial intelligence in reverse logistics is entering a high-growth
+  phase.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: Global Artificial Intelligence (AI) In Reverse Logistics Market Enterin
   To Latest Research EIN Presswire
 first_seen: '2026-09-03T13:48:00Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Global Artificial Intelligence (AI) In Reverse Logistics Market Entering High-Growth Phase According To Latest Research
+# 全球人工智能逆向物流市场
 
 Global Artificial Intelligence (AI) In Reverse Logistics Market Entering High-Growth Phase According To Latest Research EIN Presswire
 

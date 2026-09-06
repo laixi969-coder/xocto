@@ -2,29 +2,36 @@
 slug: mole
 name: Mole
 builder: lajosdeme
-category: AI + 效率
-summary_zh: 在终端里交代一个课题，代理自己把资料挖深并给回一份结论
-inspiration: 趋势是深度调研从浏览器插件回到命令行，方便嵌进已有工作，「能过夜查完一个题」会成代理标配。切入不要做通用搜索框，先帮咨询、尽调、政策研究这种按报告交货的人。判断：按题目出报告收费，比聊天窗口更容易对上预算。
-summary_en: Give a research brief in the terminal; the agent digs the sources and brings back a conclusion.
-inspiration_en: 'The trend is deep research leaving browser plugins for the terminal, where it can sit
-  inside existing work; finishing one question overnight becomes expected. Don’t build a generic search
-  box. Enter consulting, diligence, and policy shops that deliver reports. Judgement: per-brief reports
-  map to budgets better than a chat window.'
+category: AI + 开发
+summary_zh: Mole 是一个面向开发者的终端深度研究代理。开发者在命令行中启动它，输入研究任务，它自动执行多步搜索与信息整合，最终在终端返回带引用的研究结果。具体工作流程与交付格式仍待核验。
+inspiration: 趋势：深度研究能力正从独立网页应用下沉到开发者日常使用的终端环境，成为编码工作流的内嵌环节。切入：可面向需要频繁查阅文档、API 变更与最佳实践的开发者，按研究任务或订阅收费，但未披露定价。
+summary_en: Mole is a deep research agent for developers that runs in the terminal. Developers launch
+  it from the command line, input a research task, and it autonomously performs multi-step searches and
+  information synthesis, returning cited results in the terminal. Specific workflow and delivery format
+  still need verification.
+inspiration_en: 'Trend: deep research capabilities are moving from standalone web apps into developers''
+  daily terminal environments, becoming an embedded part of coding workflows. Entry point: target developers
+  who frequently consult documentation, API changes, and best practices, potentially charging per research
+  task or via subscription, though pricing is not disclosed.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: open_source
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/lajosdeme/mole
 canonical_url: https://github.com/lajosdeme/mole
 summary: Deep research agent for your terminal
 first_seen: '2026-08-14T18:52:48Z'
 last_seen: '2026-09-06T05:29:55Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 - newssearch

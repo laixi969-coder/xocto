@@ -1,0 +1,40 @@
+- id: req-initial-dsh-image-gen-2026-09-06
+  project_slug: dsh-image-gen
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者在对话环境中文生图流程割裂的痛点，内嵌 ComfyUI 与提示词库具有直接实用价值。
+    evidence_ids:
+    - ev-05351745e90bef4c
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数稳定在 300+ 级别，展现出一定的使用兴趣，但属于垂直端侧插件，尚未见规模化采用证据。
+    evidence_ids:
+    - ev-05351745e90bef4c
+  - gate: model
+    status: insufficient
+    reason: 当前为开源扩展，未披露独立付费模式或增值云端服务定价。
+    evidence_ids:
+    - ev-05351745e90bef4c
+  - gate: truth
+    status: supported
+    reason: 功能聚焦于对话内生图与 ComfyUI 流程调用，交付边界明确且可复现。
+    evidence_ids:
+    - ev-05351745e90bef4c
+  next_validation: 核验该工具在多模型支持及 ComfyUI 工作流连接稳定性上的公开讨论与 Issue 解决情况
+  market: ''
+  job: 在文本对话工作流中即时生成、对比和编辑视觉图像资产。
+  job_en: Generate, compare, and edit visual image assets directly within text conversation workflows.
+  pain: 在独立文生图工具与对话界面之间频繁切换上下文，操作割裂且难以快速对比多模型产出。
+  pain_en: Frequent context switching between standalone image tools and chat windows causes friction
+    in comparing multi-model outputs.
+  current_alternative: 复制提示词跳转至独立 Web 界面或 ComfyUI 本地客户端分别渲染后下载。
+  current_alternative_en: Copying prompts to external web UIs or local ComfyUI instances, then downloading
+    results manually.
+  usage_reason: 内置 500+ 提示词和多模型/ComfyUI 支持，直接在对话框完成图片迭代闭环。
+  usage_reason_en: Offers 500+ prompts and ComfyUI integration to close the image iteration loop inside
+    chat.

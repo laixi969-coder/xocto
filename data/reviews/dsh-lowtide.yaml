@@ -1,0 +1,40 @@
+- id: req-initial-dsh-lowtide-2026-09-06
+  project_slug: dsh-lowtide
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者时间碎片化和高峰成本问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-b7e42cd3f9186a1e
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目星数增长，但缺乏用户评价或采用证据。
+    evidence_ids:
+    - ev-b7e42cd3f9186a1e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是开发者或企业。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 任务委托贴近开发工作，人工审核保证质量。
+    evidence_ids:
+    - ev-b7e42cd3f9186a1e
+  next_validation: 查找官方定价页或付费计划。
+  market: ''
+  job: 开发者需要在不占用白天工作时间的情况下，让 AI 执行耗时任务，并在完成后获得可审核的结果。
+  job_en: Developers need to delegate time-consuming tasks to AI without occupying daytime work hours,
+    and receive auditable results upon completion.
+  pain: 实时交互占用开发者注意力，且高峰时段计算成本高。
+  pain_en: Real-time interaction consumes developer attention, and compute costs are high during peak
+    hours.
+  current_alternative: 开发者通常手动执行任务或使用实时 AI 助手，但需全程参与。
+  current_alternative_en: Developers typically execute tasks manually or use real-time AI assistants,
+    requiring full attention.
+  usage_reason: 它允许开发者利用空闲时间规划任务，非高峰时段自动运行，节省时间和成本。
+  usage_reason_en: It allows developers to plan tasks during free time, run automatically off-peak, saving
+    time and cost.

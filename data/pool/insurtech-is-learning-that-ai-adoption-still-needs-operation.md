@@ -1,11 +1,11 @@
 ---
 slug: insurtech-is-learning-that-ai-adoption-still-needs-operation
-name: InsurTech is learning that AI adoption still needs operational discipline
+name: InsurTech
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: InsurTech 认识到 AI 采用仍需运营纪律。
 inspiration: ''
-summary_en: ''
+summary_en: InsurTech realizes AI adoption still requires operational discipline.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOSDJWaEhnbjdY
 summary: InsurTech is learning that AI adoption still needs operational discipline StartUp Beat
 first_seen: '2026-09-05T00:07:04Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# InsurTech is learning that AI adoption still needs operational discipline
+# InsurTech
 
 InsurTech is learning that AI adoption still needs operational discipline StartUp Beat
 

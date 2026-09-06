@@ -2,18 +2,29 @@
 slug: book
 name: Google AI Mode
 builder: pentagram
-category: AI + 效率
-summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
-inspiration: 改变阅读的交互方式，可能重塑数字阅读体验
-summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
-  confirm its workflow value.
-inspiration_en: Changing reading interaction could reshape digital reading experience
+category: 通用助手
+summary_zh: 计划出行、比价机票和酒店的用户在 Google Search 中打开 AI Mode，原来要自己开多个订票网站比价、反复查询票价涨跌。它接收用户的出行日期和行程需求，自动追踪机票价格变化并完成酒店搜索与预订步骤，用户在搜索内拿到可下单的酒店结果和降价提醒。
+inspiration: 趋势：搜索正从给链接走向直接完成交易，AI 中介在接管旅游业的交易入口。切入：别做通用助手正面打，切 Google 覆盖不到的垂直环节——特定目的地的本地化地面服务、长尾住宿供给、需要人工确认的团体行程，并按成交订单计费。
+summary_en: Travelers planning a trip use Google AI Mode in Search where they previously opened several
+  booking sites to compare fares. Given travel dates and needs, it tracks flight prices and books hotels,
+  returning bookable options and price-drop alerts in Search.
+inspiration_en: 'Trend: search now closes bookings instead of listing links, taking travel''s transaction
+  entry. Entry: skip the general assistant; start where Google lacks coverage — local ground services,
+  long-tail stays, group trips needing human confirmation, charging per booking.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 旅游
+- 在线旅游预订
+industries_en:
+- Travel
+- Online Travel Booking
+jobs:
+- 商务出行者
+- 休闲旅行者
+jobs_en:
+- Business Travelers
+- Leisure Travelers
 regions: []
 regions_en: []
 open_source: false
@@ -22,7 +33,7 @@ canonical_url: https://book.curiora.space
 summary: A new way to read books, magnifying in and out
 first_seen: '2026-08-19T22:21:41Z'
 last_seen: '2026-09-05T23:54:01Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 - officialfeeds

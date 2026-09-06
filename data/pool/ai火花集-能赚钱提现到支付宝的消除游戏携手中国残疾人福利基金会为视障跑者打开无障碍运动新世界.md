@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE5kUzMzZlhkR1dj
 summary: AI火花集｜能赚钱提现到支付宝的消除游戏携手中国残疾人福利基金会，为视障跑者打开无障碍运动新世界 体坛
 first_seen: '2026-09-05T15:53:28Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -3,11 +3,10 @@ slug: a-milestone-in-expanding-access-to-ai
 name: OpenAI
 builder: ''
 category: ''
-summary_zh: OpenAI 宣布其广告业务 ChatGPT Ads 年化收入运行率突破 10 亿美元，并计划全球扩展，通过免费和低价选项扩大 AI 的访问范围。
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: OpenAI announced that its advertising business ChatGPT Ads has reached $1 billion in annualized
-  revenue run rate and plans global expansion, supporting broader access to AI through free and affordable
-  options.
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +23,7 @@ summary: ChatGPT Ads reaches $1 billion in annualized revenue run rate and expan
   broader access to AI through free and affordable options.
 first_seen: '2026-08-31T04:00:00Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - newssearch

@@ -1,11 +1,11 @@
 ---
 slug: using-blender-with-coding-agents-on-macos
-name: Using Blender with coding agents on macOS
+name: Blender
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Blender 是开源 3D 创作软件，本事件展示其与编码代理结合的新用法。
 inspiration: ''
-summary_en: ''
+summary_en: Blender is open-source 3D creation software; this event shows new usage with coding agents.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -28,7 +28,7 @@ summary: "TIL:   Using Blender with coding agents on macOS  \n         I've been
   \ ,  coding-agents ,  gpt-6-astra"
 first_seen: '2026-09-05T15:51:09Z'
 last_seen: '2026-09-05T23:54:22Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -39,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# Using Blender with coding agents on macOS
+# Blender
 
 TIL:   Using Blender with coding agents on macOS  
          I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from  blender.org  and run a prompt like this: 

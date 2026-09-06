@@ -7,3 +7,35 @@
   source_kind: adoption
   tier: behavioural
   fact: a local AI agent for Mac, Qwen 3.5 9B in-process via MLX
+- id: ev-5cb7313d3ea49cb7
+  project_slug: sageling
+  url: https://www.bing.com/search?format=rss&q=AI+%E4%B8%AA%E4%BA%BA%E6%95%88%E7%8E%87+Mac+%E7%94%A8%E6%88%B7
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-06T09:46:29Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 个人效率 Mac 用户'
+- id: ev-ef73772ab33dfc07
+  project_slug: sageling
+  url: https://www.ibm.com/think/topics/artificial-intelligence
+  title: What Is Artificial Intelligence (AI)? | IBM
+  published_at: ''
+  collected_at: '2026-09-06T09:46:29Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Artificial intelligence (AI) is technology that enables computers and machines to simulate human
+    learning, comprehension, problem solving, decision-making, creativity and autonomy.
+- id: ev-5c3ad9dd85a8a7cc
+  project_slug: sageling
+  url: https://hai.stanford.edu/ai-definitions/what-is-artificial-intelligence-ai
+  title: What is Artificial Intelligence (AI)? | Stanford HAI
+  published_at: ''
+  collected_at: '2026-09-06T09:46:29Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: Artificial Intelligence (AI)is a term coined in 1955 by John McCarthy, Stanford's first faculty
+    member in AI, who described it as "the science and engineering of making intelligent machines." Today
+    it is a broad term for computer systems that can perform tasks with human-like intelligence, such
+    as understanding language, recognizing images, learning from data, reasoning, and making decisions
+    ...

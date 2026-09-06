@@ -1,13 +1,11 @@
 ---
 slug: apple-shares-shocking-evidence-against-former-employee-accus
-name: Apple
+name: Apple Inc.
 builder: tabith
 category: ''
-summary_zh: 苹果公司披露，一名前员工在得知自己因涉嫌向 OpenAI 泄露公司数据而受到调查后，销毁了相关证据。该事件涉及企业内部数据安全与员工行为管理，具体影响和后续处理仍待观察。
+summary_zh: 苹果公司声称拥有证据表明前雇员在被调查后销毁了数据盗窃证据。
 inspiration: ''
-summary_en: Apple disclosed that a former employee destroyed evidence after learning he was under investigation
-  for allegedly leaking company data to OpenAI. The incident involves internal data security and employee
-  conduct management; specific impacts and follow-up actions remain to be seen.
+summary_en: Apple claims evidence that a former employee destroyed data theft evidence after being investigated.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +22,7 @@ summary: Apple says it has evidence that a former employee destroyed evidence of
   he was under investigation.
 first_seen: '2026-09-01T00:13:00Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch
@@ -64,7 +62,7 @@ sightings:
   kind: news
 ---
 
-# Apple
+# Apple Inc.
 
 Apple says it has evidence that a former employee destroyed evidence of data theft after learning he was under investigation.
 

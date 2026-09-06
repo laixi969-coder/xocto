@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE91WENIS1lRZ19V
 summary: 蒙特卡罗指定APP体验：毫秒级实时+AI智能解析，重新定义观赛参考标准 体坛
 first_seen: '2026-09-05T13:40:02Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

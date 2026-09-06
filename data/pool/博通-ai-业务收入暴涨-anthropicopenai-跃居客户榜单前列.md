@@ -1,11 +1,15 @@
 ---
 slug: 博通-ai-业务收入暴涨-anthropicopenai-跃居客户榜单前列
-name: 博通 AI 业务收入暴涨 Anthropic、OpenAI 跃居客户榜单前列
+name: 博通
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 博通的 AI 业务收入大幅上涨，定制 AI 芯片客户名单中 Anthropic 与 OpenAI 升至前列。这说明自研定制芯片已从云厂商扩展到前沿模型公司本身，模型厂商开始直接锁定上游算力供给，AI
+  算力供应链的集中度进一步提高，直接影响下游应用未来的算力成本走向。
 inspiration: ''
-summary_en: ''
+summary_en: 'Broadcom''s AI business revenue surged, and Anthropic and OpenAI have climbed to the top
+  of its custom AI chip customer list. This shows the in-house ASIC trend is extending from cloud providers
+  to frontier model companies themselves: model labs are directly locking in upstream compute supply,
+  further concentrating the AI compute supply chain, with direct implications for downstream compute costs.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE53OVVreHBlcDBt
 summary: 博通 AI 业务收入暴涨 Anthropic、OpenAI 跃居客户榜单前列 环球网
 first_seen: '2026-09-02T15:42:00Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -42,7 +46,7 @@ sightings:
   kind: news
 ---
 
-# 博通 AI 业务收入暴涨 Anthropic、OpenAI 跃居客户榜单前列
+# 博通
 
 博通 AI 业务收入暴涨 Anthropic、OpenAI 跃居客户榜单前列 环球网
 

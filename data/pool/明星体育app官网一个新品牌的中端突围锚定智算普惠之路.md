@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBudTVTUi1aOGtv
 summary: 明星体育APP官网：一个新品牌的中端突围，锚定智算普惠之路 体坛加
 first_seen: '2026-09-03T13:32:04Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

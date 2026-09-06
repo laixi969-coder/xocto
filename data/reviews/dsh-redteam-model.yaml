@@ -1,0 +1,41 @@
+- id: req-initial-dsh-redteam-model-2026-09-06
+  project_slug: dsh-redteam-model
+  level: initial
+  reviewed_at: '2026-09-06T05:29:28Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决安全研究人员在授权测试中生成方案和审计代码的痛点，旧流程依赖人工，耗时且易漏，AI 可加速。
+    evidence_ids:
+    - ev-b0d5bff8d0681fa2
+  - gate: consensus
+    status: supported
+    reason: 星数在两周内从187增至263，显示社区关注度上升，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-b0d5bff8d0681fa2
+    - ev-da1d68979e38ea32
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无公开定价或付费路径，买方可能是安全服务公司或内部团队，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近安全研究的第一性目标，但需确保授权合规，AI 输出需人工复核。
+    evidence_ids:
+    - ev-b0d5bff8d0681fa2
+  next_validation: 查找项目文档或 issue 中是否有实际使用案例或企业采用证据。
+  market: ''
+  job: 安全研究人员在授权渗透测试或红队评估中，需要快速生成测试方案、分析代码漏洞并输出报告。
+  job_en: Security researchers conducting authorized penetration tests or red team assessments need to
+    quickly generate test plans, analyze code vulnerabilities, and produce reports.
+  pain: 传统渗透测试依赖人工经验，耗时且容易遗漏；代码审计需要大量人工阅读。
+  pain_en: Traditional penetration testing relies on manual experience, is time-consuming and prone to
+    omissions; code audit requires extensive manual reading.
+  current_alternative: 目前主要依赖人工渗透测试和代码审计，或使用通用 AI 助手辅助，但缺乏针对安全场景的定制。
+  current_alternative_en: Currently relies on manual penetration testing and code audit, or uses general
+    AI assistants lacking security-specific customization.
+  usage_reason: 开源且星数快速增长（从187增至263），表明安全社区对 AI 辅助攻防工具的兴趣，可能因能提高测试效率。
+  usage_reason_en: Open source with rapid star growth (from 187 to 263) indicates interest from the security
+    community in AI-assisted offensive tools, possibly due to increased testing efficiency.

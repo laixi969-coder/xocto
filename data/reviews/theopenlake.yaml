@@ -1,0 +1,37 @@
+- id: req-initial-theopenlake-2026-09-06
+  project_slug: theopenlake
+  level: initial
+  reviewed_at: '2026-09-05T23:54:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 LLM 训练存储性能问题，但具体用户任务和痛点描述不足，需更多信息。
+    evidence_ids:
+    - ev-ffcdf09afbff9729
+  - gate: consensus
+    status: insufficient
+    reason: 仅有基准测试结果，缺乏用户采用或社区共识证据。
+    evidence_ids:
+    - ev-ffcdf09afbff9729
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未知。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真性待核验。
+    evidence_ids: []
+  next_validation: 查找 OpenLake 的官方文档或 公开代码仓库 仓库，获取具体使用场景和部署案例。
+  market: ''
+  job: 为 LLM 训练和 KV offload 提供高性能存储，以提升训练效率。
+  job_en: Provide high-performance storage for LLM training and KV offload to improve training efficiency.
+  pain: 现有存储系统可能无法满足 LLM 训练对吞吐量和延迟的要求，导致训练效率低下。
+  pain_en: Existing storage systems may not meet the throughput and latency requirements of LLM training,
+    leading to inefficiency.
+  current_alternative: 团队可能使用通用分布式存储或本地 SSD，但性能不足。
+  current_alternative_en: Teams may use general-purpose distributed storage or local SSDs, but performance
+    is insufficient.
+  usage_reason: OpenLake 在基准测试中领先，可能吸引追求性能的团队试用。
+  usage_reason_en: OpenLake's benchmark lead may attract teams seeking performance to try it.

@@ -349,3 +349,42 @@
   usage_reason: 开源社区获得 143 星和 40 fork 表明开发者关注，但实际采用尚未核验。
   usage_reason_en: 143 stars and 40 forks in the open-source community indicate developer interest, but
     actual adoption is unverified.
+- id: req-initial-lore-2026-09-06
+  project_slug: lore
+  level: initial
+  reviewed_at: '2026-09-05T23:54:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理会话记忆丢失的痛点，开发者需要跨会话检索历史上下文，替代手动记录的低效方式。
+    evidence_ids:
+    - ev-1eaf9ac9f33e32de
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区关注度有限，143 星不足以证明广泛采用，但场景明确。
+    evidence_ids:
+    - ev-1eaf9ac9f33e32de
+  - gate: model
+    status: insufficient
+    reason: 未发现定价或商业模式，作为开源工具可能依赖捐赠或企业支持，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 本地存档贴近开发者工作流，交付可确定，不涉及安全风险。
+    evidence_ids:
+    - ev-1eaf9ac9f33e32de
+  next_validation: 检查 lore 的 公开代码仓库 仓库是否有企业采用案例或付费计划说明。
+  market: ''
+  job: 开发者在编码代理会话后需要回顾和复用之前的决策和代码上下文。
+  job_en: Developers need to review and reuse previous decisions and code context after coding agent sessions.
+  pain: 编码代理会话缺乏持久记忆，导致重复解释上下文和丢失历史决策。
+  pain_en: Coding agent sessions lack persistent memory, causing repeated context explanation and loss
+    of historical decisions.
+  current_alternative: 开发者手动记录或依赖代理内置的会话历史，但难以跨会话搜索。
+  current_alternative_en: Developers manually note or rely on built-in session history, but cross-session
+    search is difficult.
+  usage_reason: lore 提供本地、可搜索的会话存档，直接解决记忆丢失问题，且开源免费。
+  usage_reason_en: lore provides local, searchable session archives, directly addressing memory loss,
+    and is open-source and free.

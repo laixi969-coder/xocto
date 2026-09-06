@@ -3,9 +3,10 @@ slug: seattle-times-and-newsday-are-the-latest-publications-to-sue
 name: Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 两家新闻机构起诉 OpenAI 和微软，指控其使用新闻内容训练 AI，反映出版方与 AI 公司之间的版权纠纷持续升级。
 inspiration: ''
-summary_en: ''
+summary_en: Two news organizations sue OpenAI and Microsoft, alleging use of their journalism to train
+  AI, reflecting escalating copyright disputes between publishers and AI companies.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Two more news organizations are suing OpenAI and Microsoft over the sup
   to train AI.
 first_seen: '2026-09-05T22:49:55Z'
 last_seen: '2026-09-05T23:54:22Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:

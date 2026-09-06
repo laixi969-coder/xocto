@@ -1,11 +1,14 @@
 ---
 slug: foxconns-ai-server-business-now-outsells-everything-else-it
-name: Foxconn's AI Server Business Now Outsells Everything Else It Makes
+name: Foxconn
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条行业结构信号：全球最大电子代工厂富士康的AI服务器业务收入已超过其余所有产品线。它说明AI算力基础设施需求持续强劲，服务器制造正取代消费电子组装成为代工业的核心收入引擎，供应链重心随AI资本开支转移。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is an industry-structure signal: at contract manufacturing giant Foxconn, AI server
+  revenue has surpassed every other product line. It shows that demand for AI compute infrastructure remains
+  strong, with server manufacturing displacing consumer electronics assembly as the core revenue engine
+  of the sector, shifting supply chains toward AI capital spending.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2RMMXVYVGdL
 summary: Foxconn's AI Server Business Now Outsells Everything Else It Makes Startup Fortune
 first_seen: '2026-09-05T08:05:48Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Foxconn's AI Server Business Now Outsells Everything Else It Makes
+# Foxconn
 
 Foxconn's AI Server Business Now Outsells Everything Else It Makes Startup Fortune
 

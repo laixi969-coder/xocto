@@ -72,3 +72,41 @@
   current_alternative_en: Using general assistants like ChatGPT, Google Gemini.
   usage_reason: Grok 拥有大量访问量，但近期诉讼可能影响采用。
   usage_reason_en: Grok has significant traffic, but the lawsuit may affect adoption.
+- id: req-initial-grok-2026-09-06
+  project_slug: grok
+  level: initial
+  reviewed_at: '2026-09-06T08:36:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户获取实时信息、生成图像和分析趋势的需求，痛点在于传统工具分散且操作复杂。
+    evidence_ids:
+    - ev-8c9add6d8eb2d531
+  - gate: consensus
+    status: insufficient
+    reason: 公开数据仅显示访问量，缺乏用户持续使用或付费证据，共识度不足。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 免费模式，付费路径不明确，可能依赖生态或未来变现。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 服务中断事件显示可靠性问题，但未影响需求真实性。
+    evidence_ids:
+    - ev-9795f613ea1fabbf
+  next_validation: 官方定价页或商业模式说明
+  market: ''
+  job: 用户需要快速获取实时信息、生成图像和分析趋势。
+  job_en: Users need quick access to real-time information, image generation, and trend analysis.
+  pain: 传统搜索引擎结果冗长，图像生成工具操作复杂，趋势分析需专业工具。
+  pain_en: Traditional search engines return lengthy results, image generation tools are complex, and
+    trend analysis requires specialized tools.
+  current_alternative: 用户可能使用搜索引擎、独立图像生成器或专业分析软件。
+  current_alternative_en: Users may use search engines, standalone image generators, or specialized analysis
+    software.
+  usage_reason: Grok 集成多种功能于一体，免费提供，可能吸引寻求便捷的用户。
+  usage_reason_en: Grok integrates multiple functions in one place and is free, potentially attracting
+    users seeking convenience.

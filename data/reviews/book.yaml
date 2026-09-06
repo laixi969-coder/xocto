@@ -34,3 +34,47 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：一种新的阅读方式，可放大缩小；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: A new way to read books, magnifying
     in and out The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-book-2026-09-06
+  project_slug: book
+  level: initial
+  reviewed_at: '2026-09-05T23:54:01Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决旅行者行前比价、追踪降价、订酒店的需求，痛点高频且已存在降价提醒、OTA 等替代行为，旧行为刚性充分；此为按公开流程还原的结构判断。
+    evidence_ids:
+    - ev-266feaeb231d5a06
+    - ev-0d39dffb368775c9
+  - gate: consensus
+    status: supported
+    reason: Google Search 默认入口带来海量曝光，多家独立媒体跟进报道，第三方已开始实测其结果，公开关注成立；但这是平台曝光与媒体关注，不是产品级用户采用数据。
+    evidence_ids:
+    - ev-0d39dffb368775c9
+    - ev-9c01ee5c5a5c1e2d
+  - gate: model
+    status: supported
+    reason: 钱最可能来自旅游广告与预订佣金，由酒店和航司为交易入口付费；这是基于 Google 既有搜索商业模式的推断判断，不是已核验的定价或收入事实。
+    evidence_ids:
+    - ev-266feaeb231d5a06
+    - ev-fed02273180e47d3
+  - gate: truth
+    status: supported
+    reason: 产品贴近『以合适价格订到合适行程』的第一性任务，降价提醒与预订可确定性交付；但第三方实测同款商品贵 21.6% 指向交付质量缺口，需持续核对。
+    evidence_ids:
+    - ev-fed02273180e47d3
+    - ev-0d39dffb368775c9
+  next_validation: 持续抓取 Google Search 官方博客与帮助文档，收集 AI Mode 预订全面开放时披露的酒店、航司合作方名单与佣金模式。
+  market: ''
+  job: 旅行者在出发前有限时间内完成机票比价、降价追踪和酒店预订
+  job_en: Travelers compare flights, track fares, and book hotels within limited time before a trip
+  pain: 票价反复波动需要人工反复查询，酒店比价要在多个订票网站之间切换，流程繁琐且容易错过降价
+  pain_en: Fares fluctuate and need repeated manual checks; comparing hotels means switching across booking
+    sites, and price drops are easily missed
+  current_alternative: Google Flights 降价提醒、Booking 与 Expedia 等 OTA 平台，以及人工旅行社
+  current_alternative_en: Google Flights fare alerts, OTAs like Booking and Expedia, and human travel
+    agents
+  usage_reason: 搜索本身就是旅行者的既有起点，在同一入口完成追踪和预订省去多站切换，降价提醒是可核对的交付
+  usage_reason_en: Search is already travelers' starting point; finishing tracking and booking in one
+    entry removes app switching, and fare alerts are a verifiable deliverable

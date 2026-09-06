@@ -1,6 +1,6 @@
 ---
 slug: bet365体育投注ai芯片亮相ces-2026性能突破与生态布局引领行业变革
-name: BET365体育投注AI芯片亮相CES 2026：性能突破与生态布局引领行业变革
+name: BET365
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rUkVhYmROT3RX
 summary: BET365体育投注AI芯片亮相CES 2026：性能突破与生态布局引领行业变革 体坛
 first_seen: '2026-09-05T07:32:26Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# BET365体育投注AI芯片亮相CES 2026：性能突破与生态布局引领行业变革
+# BET365
 
 BET365体育投注AI芯片亮相CES 2026：性能突破与生态布局引领行业变革 体坛
 

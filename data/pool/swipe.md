@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/swipe-9
 summary: Swipe right on your next customer
 first_seen: '2026-08-06T20:59:53Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

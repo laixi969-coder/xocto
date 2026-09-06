@@ -1,11 +1,14 @@
 ---
 slug: isaraerospace
-name: isaraerospace
+name: Isar Aerospace
 builder: mpweiher
 category: ''
-summary_zh: ''
+summary_zh: 这是欧洲火箭公司 Isar Aerospace 的一手发布：其第二次飞行成功进入轨道并部署载荷，是欧洲本土商业运载火箭的重要里程碑，改变了欧洲发射依赖美欧以外火箭供给的格局预期。
 inspiration: ''
-summary_en: ''
+summary_en: 'This is a first-party announcement from European rocket company Isar Aerospace: its second
+  flight successfully reached orbit and deployed payloads, a major milestone for Europe''s homegrown commercial
+  launch capability that changes expectations of Europe''s reliance on launch supply from outside the
+  continent.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://isaraerospace.com/press/history-for-european-spaceflight-
 summary: Isar Aerospace reaches orbit and deploys payloads on second flight
 first_seen: '2026-09-06T07:21:06Z'
 last_seen: '2026-09-06T09:14:21Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -34,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# isaraerospace
+# Isar Aerospace
 
 Isar Aerospace reaches orbit and deploys payloads on second flight
 

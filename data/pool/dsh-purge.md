@@ -22,7 +22,7 @@ summary: DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可
   per model. 求 Star 收藏 ⭐
 first_seen: '2026-08-19T07:41:12Z'
 last_seen: '2026-09-06T09:14:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

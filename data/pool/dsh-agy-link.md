@@ -22,7 +22,7 @@ summary: Google Antigravity (agy CLI) models for DeepSeek Harness — streaming 
   usage, in-GUI Google OAuth login
 first_seen: '2026-08-19T04:47:42Z'
 last_seen: '2026-09-06T02:59:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

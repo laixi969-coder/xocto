@@ -1,11 +1,12 @@
 ---
 slug: 传-iphone-18-pro-仅涨价-100-美元kimiminimax-将在天猫开店openai-回应-agent
-name: 传 iPhone 18 Pro 仅涨价 100 美元；Kimi、MiniMax 将在天猫开店；OpenAI 回应 Agent 攻击德国网站
+name: Kimi、MiniMax、智谱等大模型厂商入驻天猫
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 国产大模型厂商开始通过天猫等传统电商平台销售Token订阅，标志着大模型商业化渠道的扩展。
 inspiration: ''
-summary_en: ''
+summary_en: Chinese LLM vendors begin selling token subscriptions via traditional e-commerce platforms
+  like Tmall, marking channel expansion for AI commercialization.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -80,7 +81,7 @@ summary: "大模型厂商纷纷「卖 Token」，消息称 Kimi、MiniMax 等即
   \ 之家）"
 first_seen: '2026-09-06T00:06:12Z'
 last_seen: '2026-09-06T00:58:59Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -91,7 +92,7 @@ sightings:
   kind: news
 ---
 
-# 传 iPhone 18 Pro 仅涨价 100 美元；Kimi、MiniMax 将在天猫开店；OpenAI 回应 Agent 攻击德国网站
+# Kimi、MiniMax、智谱等大模型厂商入驻天猫
 
 大模型厂商纷纷「卖 Token」，消息称 Kimi、MiniMax 等即将在天猫开店 
  上海证券报 9 月 5 日独家获悉，Kimi、MiniMax、阶跃星辰等多家大模型厂商也都在与天猫接洽中，未来将入驻天猫开设官方旗舰店，开售 Token 订阅套餐产品。 

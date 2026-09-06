@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxQa0JDWmFjZkhj
 summary: This Torrance Startup Just Raised $1B to Mass-Produce Hypersonic Missiles dot.LA
 first_seen: '2026-09-05T22:40:58Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CZkUxUzFiM1dj
 summary: 必赢体育更新推荐智能体标准RAUS™重塑AI交互生态，CES 2026引领行业新纪元- 体坛网_体坛+ 体坛
 first_seen: '2026-09-05T17:37:36Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

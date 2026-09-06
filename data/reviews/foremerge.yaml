@@ -1,0 +1,39 @@
+- id: req-initial-foremerge-2026-09-06
+  project_slug: foremerge
+  level: initial
+  reviewed_at: '2026-09-05T23:54:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多个编码 agent 并行开发时的意图冲突问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-a83941514552a27c
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区关注度有限，但场景明确，需更多采用证据。
+    evidence_ids:
+    - ev-a83941514552a27c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未明确，可能通过企业支持或托管服务盈利。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发工作第一性目标，承诺可验证。
+    evidence_ids:
+    - ev-a83941514552a27c
+  next_validation: 官方文档或案例，展示实际使用场景和效果。
+  market: ''
+  job: 在多个编码 agent 并行修改同一代码库时，检测意图冲突并协调合并。
+  job_en: Detect intent conflicts and coordinate merges when multiple coding agents modify the same codebase
+    in parallel.
+  pain: 多个 agent 同时工作会导致代码冲突，且冲突难以提前发现。
+  pain_en: Multiple agents working simultaneously cause code conflicts that are hard to detect early.
+  current_alternative: 依赖 Git 的冲突检测，但冲突在合并时才暴露，修复成本高。
+  current_alternative_en: Relies on Git's conflict detection, but conflicts surface only at merge time,
+    making fixes costly.
+  usage_reason: 随着 AI 编码 agent 的普及，团队需要工具来协调多个 agent 的工作，避免冲突。
+  usage_reason_en: With the rise of AI coding agents, teams need tools to coordinate multiple agents and
+    avoid conflicts.

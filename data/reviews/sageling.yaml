@@ -1,0 +1,36 @@
+- id: req-initial-sageling-2026-09-06
+  project_slug: sageling
+  level: initial
+  reviewed_at: '2026-09-05T23:54:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确：仅描述为本地 AI 代理，未说明具体任务和交付。
+    evidence_ids:
+    - ev-40b8526f5e10eae5
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或关注证据，仅有一个低互动帖子。
+    evidence_ids:
+    - ev-40b8526f5e10eae5
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式无从判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法展开。
+    evidence_ids: []
+  next_validation: 官方产品页或文档中是否说明具体使用场景和交付结果。
+  market: ''
+  job: 在 Mac 上本地运行 AI 代理以处理个人任务，无需联网。
+  job_en: Run an AI agent locally on Mac to handle personal tasks without internet.
+  pain: 用户可能担心云端 AI 的隐私或网络依赖，希望本地处理。
+  pain_en: Users may worry about cloud AI privacy or network dependency, preferring local processing.
+  current_alternative: 使用云端 AI 助手或本地运行的通用模型。
+  current_alternative_en: Using cloud AI assistants or locally run general models.
+  usage_reason: 提供本地运行的 AI 代理，可能吸引注重隐私或离线使用的用户。
+  usage_reason_en: Offers a locally run AI agent, potentially attracting users who value privacy or offline
+    use.

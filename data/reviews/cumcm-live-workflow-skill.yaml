@@ -1,0 +1,41 @@
+- id: req-initial-cumcm-live-workflow-skill-2026-09-06
+  project_slug: cumcm-live-workflow-skill
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决数模竞赛中格式不合规与题意偏离痛点，26条自查框架具备明确操作价值。
+    evidence_ids:
+    - ev-190aab13fe986607
+  - gate: consensus
+    status: insufficient
+    reason: 社区仅有几十个关注，主要受限于特定比赛周期与单一受众，尚未形成广泛共识。
+    evidence_ids:
+    - ev-190aab13fe986607
+  - gate: model
+    status: insufficient
+    reason: 作为开源技能模版缺乏商业变现模式与持续收费路径。
+    evidence_ids:
+    - ev-190aab13fe986607
+  - gate: truth
+    status: supported
+    reason: 针对具体赛事的合规自查与排版交付闭环清晰，承诺目标可落地交付。
+    evidence_ids:
+    - ev-190aab13fe986607
+  next_validation: 关注 2026 年数模竞赛期间该技能包在开源社区的实际讨论、采纳反馈与衍生分叉。
+  market: ''
+  job: 完成全国大学生数学建模竞赛从读题建模到 LaTeX 论文排版及合规交付的全流程。
+  job_en: Complete the full pipeline of mathematical modeling competitions from problem analysis to LaTeX
+    paper formatting and compliant delivery.
+  pain: 参赛者在限时冲刺中易出现题意偏差、AIGC 特征过重导致违规判定以及排版格式疏漏。
+  pain_en: Contestants face strict time constraints, risks of misinterpreting problem constraints, AI-generated
+    text penalties, and formatting errors.
+  current_alternative: 手工对照往届优秀论文模板、比赛自查表与多提示词切换手工修改。
+  current_alternative_en: Manually checking against past winning papers, contest checklists, and switching
+    multiple prompt templates.
+  usage_reason: 提供了覆盖 26 条自查与去 AIGC 特征的结构化流程，降低违规与扣分风险。
+  usage_reason_en: Provides a structured 26-point checklist and anti-AIGC formatting flow to minimize
+    disqualification and deduction risks.

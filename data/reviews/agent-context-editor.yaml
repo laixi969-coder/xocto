@@ -1,0 +1,40 @@
+- id: req-initial-agent-context-editor-2026-09-06
+  project_slug: agent-context-editor
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者控制 AI 对话上下文的痛点，避免因无关内容导致错误输出，替代重启会话的旧行为。
+    evidence_ids:
+    - ev-db2b2f9009b1eb77
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数增长缓慢，缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-db2b2f9009b1eb77
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确，可能是开发者个人工具。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 功能贴近开发者真实工作流，交付可确定，但需验证实际使用效果。
+    evidence_ids:
+    - ev-db2b2f9009b1eb77
+  next_validation: 查找该插件在 公开代码仓库 上的 issue 或 discussion，了解用户反馈和使用场景。
+  market: ''
+  job: 开发者在使用 AI 编程助手时，需要控制对话上下文，避免无关信息干扰模型输出。
+  job_en: Developers using AI coding assistants need to control conversation context to prevent irrelevant
+    information from interfering with model output.
+  pain: 当对话历史包含错误或无关内容时，模型可能产生误导性回答，用户不得不重启会话或手动清理。
+  pain_en: When conversation history contains errors or irrelevant content, the model may produce misleading
+    responses, forcing users to restart sessions or manually clean up.
+  current_alternative: 目前用户通常通过重启会话、复制粘贴关键内容或使用提示词来规避上下文污染。
+  current_alternative_en: Currently, users typically restart sessions, copy-paste key content, or use
+    prompts to avoid context pollution.
+  usage_reason: 该插件提供直接的上下文编辑能力，减少重启成本，对频繁调试的开发者有实用价值。
+  usage_reason_en: This plugin offers direct context editing, reducing restart costs, and is practically
+    valuable for developers who debug frequently.

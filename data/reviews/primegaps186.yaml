@@ -1,0 +1,37 @@
+- id: req-initial-primegaps186-2026-09-06
+  project_slug: primegaps186
+  level: initial
+  reviewed_at: '2026-09-06T05:29:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助验证数学结论，但痛点刚性不足，且交付可确定性未明。
+    evidence_ids:
+    - ev-2bc8b86491fc702e
+  - gate: consensus
+    status: insufficient
+    reason: 公开关注度有限，缺乏强场景证据。
+    evidence_ids:
+    - ev-2bc8b86491fc702e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方不清。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或仓库中关于实际使用场景和用户反馈的说明。
+  market: ''
+  job: 数学家或形式化验证工程师需要验证或扩展素数间隙的数学结论。
+  job_en: Mathematicians or formal verification engineers need to verify or extend mathematical results
+    about prime gaps.
+  pain: 手动进行形式化证明耗时且容易出错。
+  pain_en: Manual formal proof is time-consuming and error-prone.
+  current_alternative: 目前数学家可能依赖手工证明或非形式化的数值验证。
+  current_alternative_en: Currently mathematicians may rely on manual proofs or informal numerical verification.
+  usage_reason: 该仓库提供机器可检查的证明，可能减少人工验证负担，但具体采用场景尚不明确。
+  usage_reason_en: The repository provides machine-checkable proofs, potentially reducing manual verification
+    burden, but specific adoption scenarios remain unclear.

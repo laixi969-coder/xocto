@@ -1,6 +1,6 @@
 ---
 slug: 五湖四海分集介绍发布ai出海引擎-助力中小企业实现全球化加速度
-name: 五湖四海分集介绍发布AI出海引擎 助力中小企业实现全球化加速度
+name: 五湖四海分集
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lU2NIUFlSNVM1
 summary: 五湖四海分集介绍发布AI出海引擎 助力中小企业实现全球化加速度 体坛
 first_seen: '2026-09-05T12:33:13Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 五湖四海分集介绍发布AI出海引擎 助力中小企业实现全球化加速度
+# 五湖四海分集
 
 五湖四海分集介绍发布AI出海引擎 助力中小企业实现全球化加速度 体坛
 

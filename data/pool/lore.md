@@ -3,14 +3,14 @@ slug: lore
 name: lore
 builder: hsusul
 category: AI + 开发
-summary_zh: lore 为编码代理（如 Claude Code 和 Codex）提供 git 记忆，将每次会话保存为本地可搜索的归档。开发者使用编码代理时，lore 自动记录会话历史，组织成可检索的档案，方便后续查询。
-inspiration: 趋势是编码代理的会话管理成为需求。不要做通用笔记工具，切入开发者工作流，提供与 git 集成的记忆层，可考虑开源+云托管模式，按团队或存储收费。
-summary_en: lore provides git memory for coding agents like Claude Code and Codex, saving each session
-  as a local, searchable archive. When developers use coding agents, lore automatically records session
-  history, organizes it into retrievable archives for later query.
-inspiration_en: 'Trend: session management for coding agents becomes a need. Don''t build generic note
-  tools; enter developer workflow with a git-integrated memory layer, consider open-source plus cloud
-  hosting, charge per team or storage.'
+summary_zh: lore 是一个开源工具，为编码代理（如 Claude Code 和 Codex）提供 git 记忆。开发者在编码代理会话中，lore 自动将每次会话保存为本地可搜索的存档，便于后续检索和复用。具体流程和交付仍待核验。
+inspiration: 趋势：编码代理的会话记忆成为开发者效率瓶颈，本地存档是自然延伸。切入：可从团队协作和知识管理角度，为开发团队提供会话历史的共享与检索，而非仅个人工具。
+summary_en: lore is an open-source tool providing git memory for coding agents like Claude Code and Codex.
+  During coding agent sessions, lore automatically saves each session as a local, searchable archive for
+  later retrieval and reuse. Specific workflow and deliverables remain to be verified.
+inspiration_en: 'Trend: Session memory for coding agents becomes a bottleneck for developer efficiency,
+  and local archiving is a natural extension. Entry: From a team collaboration and knowledge management
+  angle, offer shared and searchable session history for development teams, not just a personal tool.'
 priority_review: false
 project_type: open_source
 industries:
@@ -20,7 +20,7 @@ industries_en:
 jobs:
 - 开发者
 jobs_en:
-- Developer
+- Developers
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +29,7 @@ canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - marketfeeds

@@ -1,0 +1,36 @@
+- id: req-initial-fable51-worlds-2026-09-06
+  project_slug: fable51-worlds
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法写出它解决什么需求、什么痛点，项目描述不足。
+    evidence_ids:
+    - ev-14ecf0a816818c9f
+  - gate: consensus
+    status: insufficient
+    reason: 星标增长快但缺乏场景或采用证据。
+    evidence_ids:
+    - ev-14ecf0a816818c9f
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 项目 README 或官方文档
+  market: ''
+  job: 开发者可能希望用代码快速生成虚拟世界场景，但具体任务和用户不明确。
+  job_en: Developers might want to quickly generate virtual world scenes via code, but the specific task
+    and users are unclear.
+  pain: 未知，项目描述过于简略，无法判断痛点。
+  pain_en: Unknown, project description too brief to identify pain points.
+  current_alternative: 未知，可能替代手工建模或游戏引擎编辑，但无证据。
+  current_alternative_en: Unknown, might replace manual modeling or game engine editing, but no evidence.
+  usage_reason: 公开代码仓库 星标增长快，可能吸引开发者关注，但原因不明。
+  usage_reason_en: Rapid public code repository star growth may attract developers, but reason is unclear.

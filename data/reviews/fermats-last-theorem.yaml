@@ -1,0 +1,34 @@
+- id: req-initial-fermats-last-theorem-2026-09-06
+  project_slug: fermats-last-theorem
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏产品描述和用户场景。
+    evidence_ids:
+    - ev-6ab02a73bedcfa50
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方仓库 README 或文档，以明确项目功能和目标用户。
+  market: ''
+  job: 未明确用户任务，可能涉及数学证明或 AI 推理。
+  job_en: User task unclear, possibly mathematical proof or AI reasoning.
+  pain: 未明确痛点。
+  pain_en: Pain point unclear.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 开源社区关注度高，但缺乏具体使用场景。
+  usage_reason_en: High attention in open-source community, but lacks specific use cases.

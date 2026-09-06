@@ -1,6 +1,6 @@
 ---
 slug: daiichi-unit-american-regent-recalls-3-epinephrine-batches-o
-name: Daiichi unit American Regent recalls 3 epinephrine batches on particulate, leakage concerns
+name: American Regent
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Daiichi unit American Regent recalls 3 epinephrine batches on particula
   Pharma
 first_seen: '2026-09-04T15:12:25Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Daiichi unit American Regent recalls 3 epinephrine batches on particulate, leakage concerns
+# American Regent
 
 Daiichi unit American Regent recalls 3 epinephrine batches on particulate, leakage concerns Fierce Pharma
 

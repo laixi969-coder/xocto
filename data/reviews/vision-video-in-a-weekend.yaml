@@ -1,0 +1,39 @@
+- id: req-initial-vision-video-in-a-weekend-2026-09-06
+  project_slug: vision-video-in-a-weekend
+  level: initial
+  reviewed_at: '2026-09-06T02:59:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创始人快速制作产品愿景视频的需求，痛点明确：传统制作耗时昂贵。
+    evidence_ids:
+    - ev-a38ebebe3763c269
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星数增长较快，但缺乏用户评价或采用证据。
+    evidence_ids:
+    - ev-a38ebebe3763c269
+  - gate: model
+    status: insufficient
+    reason: 未明确付费模式，可能靠模板销售或服务收费，但无公开定价。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: AI 生成视频质量可能不稳定，但作为初稿或内部沟通工具可接受。
+    evidence_ids: []
+  next_validation: 查找该仓库的 issue 或 discussion 中用户的实际使用反馈。
+  market: ''
+  job: 创始人或产品经理需要快速制作产品愿景视频，用于融资路演或内部沟通。
+  job_en: Founders or product managers need to quickly create product vision videos for fundraising pitches
+    or internal communication.
+  pain: 传统视频制作需要拍摄、剪辑和设计技能，耗时且昂贵。
+  pain_en: Traditional video production requires filming, editing, and design skills, which is time-consuming
+    and expensive.
+  current_alternative: 目前可能外包给视频制作公司，或使用通用视频编辑软件自行制作。
+  current_alternative_en: Currently may outsource to video production companies or use general video editing
+    software to make it themselves.
+  usage_reason: 该模板库提供现成的框架和工具链，降低了技术门槛，使非专业人士也能在周末内完成视频。
+  usage_reason_en: The template library provides a ready-made framework and toolchain, lowering technical
+    barriers so non-professionals can complete a video in a weekend.

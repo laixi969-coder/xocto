@@ -1,6 +1,6 @@
 ---
 slug: 金新手机客户端发布bobdb-30探索ai数据基础设施新范式-体坛网-体坛
-name: 金新手机客户端发布BobDB 3.0，探索AI数据基础设施新范式-体坛网_体坛+
+name: BobDB 3.0
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SeVRXS3RCOXVn
 summary: 金新手机客户端发布BobDB 3.0，探索AI数据基础设施新范式-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T14:45:22Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 金新手机客户端发布BobDB 3.0，探索AI数据基础设施新范式-体坛网_体坛+
+# BobDB 3.0
 
 金新手机客户端发布BobDB 3.0，探索AI数据基础设施新范式-体坛网_体坛+ 体坛
 

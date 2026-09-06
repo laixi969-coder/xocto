@@ -21,7 +21,7 @@ canonical_url: https://github.com/xuedai-mayi/dsh-wenshan
 summary: 问山：DeepSeek Harness 地理野外实习知识图谱插件与非官方二次开发项目
 first_seen: '2026-08-18T19:04:53Z'
 last_seen: '2026-09-06T00:58:33Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

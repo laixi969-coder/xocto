@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMicEFVX3lxTFBQaTBuUWxpSlhZ
 summary: Sony Music AI发布至尊体育体育客户端官方下载 关键参数规格公布 体坛
 first_seen: '2026-09-05T23:01:10Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

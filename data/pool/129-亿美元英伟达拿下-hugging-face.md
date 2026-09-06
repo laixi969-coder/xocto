@@ -3,10 +3,14 @@ slug: 129-亿美元英伟达拿下-hugging-face
 name: NVIDIA
 builder: ''
 category: ''
-summary_zh: 英伟达收购 公开模型社区，获得开源 AI 模型分发平台，意图整合硬件、模型与分发层。
+summary_zh: 英伟达于2026年8月26日与开源模型托管平台公开模型社区达成收购协议，作价129亿美元。公开模型社区托管超300万个模型仓库、服务1300万开发者，是Llama、Qwen、Mistral等开源模型的事实分发层；英伟达在GPU训练与推理硬件之外进一步控制模型流通渠道，开源AI生态的分发与商业化规则可能随之集中。
 inspiration: ''
-summary_en: NVIDIA acquires public model community, gaining the open-source AI model distribution platform,
-  aiming to integrate hardware, models, and distribution.
+summary_en: NVIDIA reached an agreement on August 26, 2026 to acquire open-source model hosting platform
+  public model community for $12.9 billion, about triple its $4.5 billion valuation from its 2023 Series
+  D round. public model community hosts over 3 million model repositories serving 13 million developers
+  and acts as the de facto distribution layer for open models such as Llama, Qwen and Mistral; with the
+  deal, NVIDIA extends beyond GPU hardware for training and inference into the model distribution channel,
+  and the rules of the open-source AI ecosystem may become more concentrated.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -55,7 +59,7 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇   \n \n \n 129 亿美元，英�
   \ \n *头图来源：英伟达 \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-27T07:09:02Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

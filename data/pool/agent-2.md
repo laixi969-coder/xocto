@@ -22,7 +22,7 @@ summary: Agent2 — An autonomous AI agent for coding, cybersecurity, terminal a
   task execution.
 first_seen: '2026-09-04T11:03:14Z'
 last_seen: '2026-09-06T04:00:31Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

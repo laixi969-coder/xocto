@@ -21,7 +21,7 @@ canonical_url: https://nationaldex.app
 summary: NationalDex • minimal open-source Pokédex
 first_seen: '2026-09-04T17:11:50Z'
 last_seen: '2026-09-05T23:54:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

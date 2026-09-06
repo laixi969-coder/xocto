@@ -1,0 +1,39 @@
+- id: req-initial-知乎ai-works功能更新支持应用一键部署-2026-09-06
+  project_slug: 知乎ai-works功能更新支持应用一键部署
+  level: initial
+  reviewed_at: '2026-09-05T23:54:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在部署 AI 应用时的繁琐流程，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-5d2a20bbd67c2df9
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料未提供用户采用或反馈数据，共识度待核验。
+    evidence_ids:
+    - ev-5d2a20bbd67c2df9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 部署是确定性交付，贴近开发者的第一性目标。
+    evidence_ids:
+    - ev-5d2a20bbd67c2df9
+  next_validation: 查找知乎 AI Works 官方定价页或开发者文档，确认部署流程和收费方式。
+  market: ''
+  job: 开发者和产品经理需要快速将 AI 应用部署上线，供用户使用。
+  job_en: Developers and product managers need to quickly deploy AI applications for end users.
+  pain: 传统部署涉及服务器配置、环境搭建等复杂步骤，耗时且易出错。
+  pain_en: Traditional deployment involves complex steps like server configuration and environment setup,
+    which are time-consuming and error-prone.
+  current_alternative: 目前开发者通常使用云服务商（如阿里云、腾讯云）手动部署，或使用 Vercel 等平台。
+  current_alternative_en: Currently, developers often manually deploy using cloud providers like Alibaba
+    Cloud or Tencent Cloud, or use platforms like Vercel.
+  usage_reason: 一键部署能显著减少部署时间，尤其适合快速原型验证和小型团队。
+  usage_reason_en: One-click deployment significantly reduces deployment time, especially for rapid prototyping
+    and small teams.

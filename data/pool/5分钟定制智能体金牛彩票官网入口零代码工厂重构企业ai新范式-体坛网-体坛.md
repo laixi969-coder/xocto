@@ -1,6 +1,6 @@
 ---
 slug: 5分钟定制智能体金牛彩票官网入口零代码工厂重构企业ai新范式-体坛网-体坛
-name: 5分钟定制智能体：金牛彩票官网入口，零代码工厂重构企业AI新范式-体坛网_体坛+
+name: 5分钟定制智能体
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CVnh5eUE1eDJS
 summary: 5分钟定制智能体：金牛彩票官网入口，零代码工厂重构企业AI新范式-体坛网_体坛+ 体坛
 first_seen: '2026-09-06T00:32:02Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 5分钟定制智能体：金牛彩票官网入口，零代码工厂重构企业AI新范式-体坛网_体坛+
+# 5分钟定制智能体
 
 5分钟定制智能体：金牛彩票官网入口，零代码工厂重构企业AI新范式-体坛网_体坛+ 体坛
 

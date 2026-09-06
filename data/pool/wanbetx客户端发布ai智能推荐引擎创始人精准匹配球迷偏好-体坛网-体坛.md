@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBamNKSGpsanZP
 summary: WANBETX客户端发布AI智能推荐引擎，创始人：精准匹配球迷偏好- 体坛网_体坛+ 体坛
 first_seen: '2026-09-05T15:28:16Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

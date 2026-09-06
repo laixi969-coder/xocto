@@ -21,7 +21,7 @@ canonical_url: https://github.com/alpbahadur/interns-review-plugin
 summary: Interns must review (your agent's design choices)
 first_seen: '2026-09-05T19:27:47Z'
 last_seen: '2026-09-05T23:54:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

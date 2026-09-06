@@ -1,0 +1,40 @@
+- id: req-initial-pi-posthorse-2026-09-06
+  project_slug: pi-posthorse
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理长会话上下文丢失的痛点，无摘要窗口和持久笔记是明确的工作流改进。
+    evidence_ids:
+    - ev-304a3ffbe7f44d3c
+  - gate: consensus
+    status: insufficient
+    reason: 星标数较高显示一定关注，但缺乏用户评价或实际采用证据。
+    evidence_ids:
+    - ev-6b36170c1f5743b9
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价或付费路径，买方可能是开发者，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 上下文管理贴近代理可靠性的第一性目标，交付可确定，不涉及安全边界问题。
+    evidence_ids:
+    - ev-304a3ffbe7f44d3c
+  next_validation: 查找 pi-posthorse 的官方文档或用户反馈，确认其与 Pi 代理的集成方式和对长任务性能的实际影响。
+  market: ''
+  job: 开发者需要让 AI 编码代理在长会话中保持上下文，避免重复或遗忘。
+  job_en: Developers need AI coding agents to maintain context in long sessions, avoiding repetition or
+    forgetfulness.
+  pain: 代理在长任务中常因上下文窗口限制而丢失早期信息，导致输出不一致或错误。
+  pain_en: Agents often lose early information due to context window limits in long tasks, causing inconsistent
+    or erroneous outputs.
+  current_alternative: 目前开发者通常手动总结上下文或分割任务，但繁琐且易出错。
+  current_alternative_en: Currently developers often manually summarize context or split tasks, which
+    is cumbersome and error-prone.
+  usage_reason: 无摘要上下文窗口减少手动干预，提升代理在长任务中的可靠性，吸引开发者采用。
+  usage_reason_en: No-summary context windows reduce manual intervention and improve agent reliability
+    in long tasks, attracting developers.

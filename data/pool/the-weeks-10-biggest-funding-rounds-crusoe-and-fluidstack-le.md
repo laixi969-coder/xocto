@@ -1,12 +1,11 @@
 ---
 slug: the-weeks-10-biggest-funding-rounds-crusoe-and-fluidstack-le
-name: 'The Week’s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure
-  Haul'
+name: AI Infrastructure Funding
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI基础设施领域获得多亿美元融资，Crusoe和Fluidstack领跑。
 inspiration: ''
-summary_en: ''
+summary_en: AI infrastructure sector secures multi‑billion dollar funding, led by Crusoe and Fluidstack.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ summary: 'The Week’s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Mul
   Haul Crunchbase News'
 first_seen: '2026-09-04T17:59:30Z'
 last_seen: '2026-09-06T00:58:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds
@@ -40,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# The Week’s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul
+# AI Infrastructure Funding
 
 The Week’s 10 Biggest Funding Rounds: Crusoe And Fluidstack Lead Multibillion-Dollar AI Infrastructure Haul Crunchbase News
 

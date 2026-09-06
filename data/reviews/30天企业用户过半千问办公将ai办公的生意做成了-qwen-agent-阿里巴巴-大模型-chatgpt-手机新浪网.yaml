@@ -1,0 +1,41 @@
+- id: req-initial-30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网-2026-09-06
+  project_slug: 30天企业用户过半千问办公将ai办公的生意做成了-qwen-agent-阿里巴巴-大模型-chatgpt-手机新浪网
+  level: initial
+  reviewed_at: '2026-09-05T23:54:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决员工写文档、整理数据时的重复劳动痛点；报道称30天企业用户过半，但功能清单未公开，价值判断基于办公流程结构推理。
+    evidence_ids:
+    - ev-412539765304c4c7
+  - gate: consensus
+    status: supported
+    reason: 媒体公开报道其上线30天企业用户过半，构成可观察的采用规模信号；但过半的统计口径不明，需官方数据复核。
+    evidence_ids:
+    - ev-412539765304c4c7
+  - gate: model
+    status: insufficient
+    reason: 买方大概率为企业客户，沿阿里云生态按席位或套餐收费；这是判断而非已验证事实，公开定价与付费路径未披露。
+    evidence_ids:
+    - ev-412539765304c4c7
+  - gate: truth
+    status: supported
+    reason: AI起草整理类办公产出可由人工核对后交付，贴近把文书做完的第一性目标；需检查生成准确性与数据安全边界，无功能堆砌迹象。
+    evidence_ids:
+    - ev-412539765304c4c7
+  next_validation: 抓取千问办公官方产品页与定价页，核对收费方式、企业版功能与部署范围，作为下一条公开证据。
+  market: ''
+  job: 企业员工在日常办公中完成文档起草、数据整理等文书任务
+  job_en: Enterprise staff completing paperwork such as drafting documents and organizing data in daily
+    office work.
+  pain: 文书工作重复耗时，人工起草和整理长期占用工时
+  pain_en: Paperwork is repetitive and time-consuming; manual drafting and organizing consume long working
+    hours.
+  current_alternative: 在传统办公软件里人工起草、套模板整理，或用通用聊天助手逐段生成再拼装
+  current_alternative_en: Drafting manually in traditional office suites with templates, or piecing together
+    output paragraph by paragraph from general chat assistants.
+  usage_reason: 若深度内嵌办公流程并能直接产出可编辑成果，员工为省时会改用；此为结构推理，留存与复购待核验
+  usage_reason_en: If embedded in office flows and producing editable results directly, staff would switch
+    to save time; this is structural reasoning, retention unverified.

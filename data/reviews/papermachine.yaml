@@ -1,0 +1,39 @@
+- id: req-initial-papermachine-2026-09-06
+  project_slug: papermachine
+  level: initial
+  reviewed_at: '2026-09-06T00:58:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 分析结果不可信、不可追溯的痛点，本地执行和代码对应是明确的价值主张。
+    evidence_ids:
+    - ev-99b6bed8f022f3eb
+  - gate: consensus
+    status: insufficient
+    reason: 星标数低，缺乏用户反馈或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-99b6bed8f022f3eb
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价或付费路径，买方可能是企业，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 代码追溯贴近分析的第一性目标，交付可确定，不涉及安全边界问题。
+    evidence_ids:
+    - ev-99b6bed8f022f3eb
+  next_validation: 查找 papermachine 的官方文档或演示，确认其支持的数据源和分析类型，以及是否有企业用户采用。
+  market: ''
+  job: 分析师需要生成可验证的数据分析结果，以便向利益相关方解释和辩护。
+  job_en: Analysts need to produce verifiable data analysis results to explain and defend to stakeholders.
+  pain: AI 生成的分析结果常缺乏透明度，难以信任，尤其在需要审计的行业。
+  pain_en: AI-generated analysis often lacks transparency, making it hard to trust, especially in audited
+    industries.
+  current_alternative: 目前分析师通常手动编写代码并记录过程，或使用传统 BI 工具，但效率低且难以追溯 AI 生成的内容。
+  current_alternative_en: Currently analysts often manually write code and document processes, or use
+    traditional BI tools, which is inefficient and hard to trace AI-generated content.
+  usage_reason: 本地执行和代码追溯提供了透明性，吸引注重数据隐私和可审计性的用户。
+  usage_reason_en: Local execution and code tracing provide transparency, attracting users who value data
+    privacy and auditability.

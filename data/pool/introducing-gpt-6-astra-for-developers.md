@@ -1,11 +1,13 @@
 ---
 slug: introducing-gpt-6-astra-for-developers
-name: Introducing GPT-6 Astra for developers
+name: GPT-6 Astra
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: GPT-6 Astra 是 OpenAI 发布的新一代基础模型，面向开发者提供 API 访问。它接收文本或图像提示，生成更精细的文本、代码或 3D 模型等输出。具体定价和可用性未在本次资料中披露。
 inspiration: ''
-summary_en: ''
+summary_en: GPT-6 Astra is a new generation foundation model released by OpenAI, offering API access to
+  developers. It takes text or image prompts and generates more refined text, code, or 3D models. Specific
+  pricing and availability are not disclosed in this material.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -27,7 +29,7 @@ summary: "Introducing GPT-6 Astra for developers   \nBlink and you'll miss it, b
   \  llms ,  pelican-riding-a-bicycle ,  gpt-6-astra"
 first_seen: '2026-09-05T23:27:48Z'
 last_seen: '2026-09-05T23:54:22Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -38,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# Introducing GPT-6 Astra for developers
+# GPT-6 Astra
 
 Introducing GPT-6 Astra for developers   
 Blink and you'll miss it, but there's a familiar creature at  1m59s : 

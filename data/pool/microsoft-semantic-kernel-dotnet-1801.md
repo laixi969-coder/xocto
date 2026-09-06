@@ -1,11 +1,12 @@
 ---
 slug: microsoft-semantic-kernel-dotnet-1801
-name: 'microsoft/semantic-kernel: dotnet-1.80.1'
+name: Microsoft Semantic Kernel
 builder: microsoft
 category: ''
-summary_zh: ''
+summary_zh: 微软Semantic Kernel的常规版本更新，属于开发者基础设施的维护性发布，不是独立产品机会。
 inspiration: ''
-summary_en: ''
+summary_en: A routine version update of Microsoft Semantic Kernel, a maintenance release in developer
+  infrastructure, not an independent product opportunity.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -32,7 +33,7 @@ summary: "## Changes:\r\n\r\n* d8ec44919265b3641b7898a02038cbfe14590ee5 .NET: Bu
   \ Switch failing test to new model. (#14332)\r\n\r\nThis list of changes was [auto generated](https://msdata.visualstudio.com/Vienna/_build/results?buildId=234363375&view=logs).</details>"
 first_seen: '2026-09-03T18:39:43Z'
 last_seen: '2026-09-05T23:54:04Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -44,7 +45,7 @@ sightings:
   kind: news
 ---
 
-# microsoft/semantic-kernel: dotnet-1.80.1
+# Microsoft Semantic Kernel
 
 ## Changes:
 

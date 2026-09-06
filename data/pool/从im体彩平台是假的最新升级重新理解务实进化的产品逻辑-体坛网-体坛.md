@@ -1,6 +1,6 @@
 ---
 slug: 从im体彩平台是假的最新升级重新理解务实进化的产品逻辑-体坛网-体坛
-name: 从IM体彩平台是假的最新升级，重新理解“务实进化”的产品逻辑- 体坛网_体坛+
+name: IM体彩平台
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9TNUJfVDZmTHBO
 summary: 从IM体彩平台是假的最新升级，重新理解“务实进化”的产品逻辑- 体坛网_体坛+ 体坛
 first_seen: '2026-09-03T14:01:19Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 从IM体彩平台是假的最新升级，重新理解“务实进化”的产品逻辑- 体坛网_体坛+
+# IM体彩平台
 
 从IM体彩平台是假的最新升级，重新理解“务实进化”的产品逻辑- 体坛网_体坛+ 体坛
 

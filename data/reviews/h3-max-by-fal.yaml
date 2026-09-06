@@ -1,0 +1,35 @@
+- id: req-initial-h3-max-by-fal-2026-09-06
+  project_slug: h3-max-by-fal
+  level: initial
+  reviewed_at: '2026-09-06T08:35:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：创作者需要高质量视频片段，但具体痛点强度和替代行为未明确。
+    evidence_ids:
+    - ev-d6418bb2cd8199d7
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或关注数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方和付费路径未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未核验。
+    evidence_ids: []
+  next_validation: fal 官方产品页或文档中关于 H3 Max 的定价、使用案例和客户案例。
+  market: ''
+  job: 创作者需要生成高质量视频片段，用于内容制作。
+  job_en: Creators need to generate high-quality video clips for content production.
+  pain: 现有通用视频生成模型可能无法满足特定质量或风格要求。
+  pain_en: Existing general video generation models may not meet specific quality or style requirements.
+  current_alternative: 创作者可能使用其他视频生成工具或传统制作方式。
+  current_alternative_en: Creators may use other video generation tools or traditional production methods.
+  usage_reason: fal 提供后训练模型，可能吸引追求高质量输出的创作者，但采用证据不足。
+  usage_reason_en: fal offers a post-trained model that may attract creators seeking high-quality output,
+    but adoption evidence is insufficient.

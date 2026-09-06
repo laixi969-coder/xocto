@@ -22,7 +22,7 @@ summary: 把本机 Wallpaper Engine 的壁纸变成 DSH 网页界面的背景：
   / 玻璃颜色 / 透明度）、内容分级与类型过滤、自定义壁纸上传、紧凑 CD 架布局、黑胶唱片展示、隐藏 / 恢复、倍速 / 翻转与自动轮播。感谢 Jerry 维护 macOS 版。
 first_seen: '2026-08-16T16:04:08Z'
 last_seen: '2026-09-05T23:54:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

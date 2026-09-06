@@ -1,0 +1,40 @@
+- id: req-initial-tiny-engineer-2026-09-06
+  project_slug: tiny-engineer
+  level: initial
+  reviewed_at: '2026-09-06T06:48:39Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决开发者感知 AI 编程助手进度的问题，但痛点强度不足，没有它开发者仍可通过日志等待，价值关存疑。
+    evidence_ids:
+    - ev-736adf72bf845b36
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 265 星，但缺乏持续采用或社区讨论证据，关注度可能来自新奇感。
+    evidence_ids:
+    - ev-736adf72bf845b36
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，作为开源硬件或玩具，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 物理动作反馈可能不准确或延迟，承诺的直观性未必能确定性交付，安全边界未明。
+    evidence_ids:
+    - ev-736adf72bf845b36
+  next_validation: 查找仓库 issue 或讨论中是否有用户实际使用反馈或改进请求。
+  market: ''
+  job: 开发者在使用 AI 编程助手时，需要感知助手当前的工作状态，以决定何时介入或等待。
+  job_en: Developers using AI coding assistants need to perceive the assistant's current working state
+    to decide when to intervene or wait.
+  pain: AI 编程助手在后台运行时，开发者无法直观了解其进度，可能频繁切换窗口查看日志，或不确定是否卡住。
+  pain_en: When AI coding assistants run in the background, developers cannot intuitively see progress,
+    leading to frequent window switching to check logs or uncertainty about whether it is stuck.
+  current_alternative: 目前开发者通常依赖终端日志、IDE 状态栏或直接等待，缺乏直观的物理反馈。
+  current_alternative_en: Currently developers rely on terminal logs, IDE status bars, or simply wait,
+    lacking intuitive physical feedback.
+  usage_reason: 该产品提供趣味性和直观性，但需求刚性不足，开发者可能觉得可有可无，除非能证明其提升效率或减少焦虑。
+  usage_reason_en: This product offers fun and intuitiveness, but the need is not rigid; developers may
+    find it optional unless it proves to improve efficiency or reduce anxiety.

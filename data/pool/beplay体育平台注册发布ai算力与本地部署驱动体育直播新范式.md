@@ -1,6 +1,6 @@
 ---
 slug: beplay体育平台注册发布ai算力与本地部署驱动体育直播新范式
-name: beplay体育平台注册发布：AI算力与本地部署驱动体育直播新范式
+name: beplay
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBcmR2S3JrMzdv
 summary: beplay体育平台注册发布：AI算力与本地部署驱动体育直播新范式 体坛
 first_seen: '2026-09-05T11:03:33Z'
 last_seen: '2026-09-06T05:29:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# beplay体育平台注册发布：AI算力与本地部署驱动体育直播新范式
+# beplay
 
 beplay体育平台注册发布：AI算力与本地部署驱动体育直播新范式 体坛
 

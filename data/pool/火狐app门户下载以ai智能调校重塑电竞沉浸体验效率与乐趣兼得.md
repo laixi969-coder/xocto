@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBREg1VjhKaXBq
 summary: 火狐app门户下载：以AI智能调校重塑电竞沉浸体验，效率与乐趣兼得 体坛
 first_seen: '2026-09-05T22:18:42Z'
 last_seen: '2026-09-06T06:49:12Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

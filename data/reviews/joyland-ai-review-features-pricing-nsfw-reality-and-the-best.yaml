@@ -1,0 +1,40 @@
+- id: req-initial-joyland-ai-review-features-pricing-nsfw-reality-and-the-best-2026-09-06
+  project_slug: joyland-ai-review-features-pricing-nsfw-reality-and-the-best
+  level: initial
+  reviewed_at: '2026-09-05T23:54:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户对情感陪伴和娱乐互动的需求，痛点在于现实社交的局限，替代行为存在，价值结构成立。
+    evidence_ids:
+    - ev-ee5fbfb052868833
+  - gate: consensus
+    status: insufficient
+    reason: 仅有评测文章，缺乏用户规模或持续使用数据，共识证据不足。
+    evidence_ids:
+    - ev-ee5fbfb052868833
+  - gate: model
+    status: insufficient
+    reason: 定价和付费模式未明确，买方可能是 to C 用户，但证据不足。
+    evidence_ids:
+    - ev-ee5fbfb052868833
+  - gate: truth
+    status: insufficient
+    reason: NSFW 内容可能涉及合规风险，交付质量未验证。
+    evidence_ids:
+    - ev-ee5fbfb052868833
+  next_validation: 查找 Joyland AI 官方定价页和用户评价，以确认付费模式和用户留存。
+  market: ''
+  job: 用户寻求情感陪伴或娱乐性互动，通过创建或选择 AI 角色进行对话。
+  job_en: Users seek emotional companionship or entertainment through conversations with AI characters
+    they create or choose.
+  pain: 现实社交中难以找到无评判的陪伴或特定幻想满足。
+  pain_en: Real-world social interactions may lack judgment-free companionship or specific fantasy fulfillment.
+  current_alternative: 替代方式包括人类社交、传统聊天机器人、或阅读/观看成人内容。
+  current_alternative_en: Alternatives include human socializing, traditional chatbots, or consuming adult
+    content.
+  usage_reason: AI 角色提供即时、可定制且无社交风险的互动，吸引用户尝试。
+  usage_reason_en: AI characters offer immediate, customizable, and socially risk-free interaction, attracting
+    users.

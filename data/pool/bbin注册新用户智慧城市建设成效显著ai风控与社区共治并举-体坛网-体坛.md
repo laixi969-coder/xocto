@@ -1,11 +1,12 @@
 ---
 slug: bbin注册新用户智慧城市建设成效显著ai风控与社区共治并举-体坛网-体坛
-name: BBIN注册新用户智慧城市建设成效显著：AI风控与社区共治并举-体坛网_体坛+
+name: BBIN
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: BBIN报告新用户注册显著增长，并在智慧城市建设中实施AI风控与社区共治。
 inspiration: ''
-summary_en: ''
+summary_en: BBIN reports significant new user registrations and implements AI risk control and community
+  governance in smart city construction.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBRTGVHWDBCVFNT
 summary: BBIN注册新用户智慧城市建设成效显著：AI风控与社区共治并举-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T20:44:54Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# BBIN注册新用户智慧城市建设成效显著：AI风控与社区共治并举-体坛网_体坛+
+# BBIN
 
 BBIN注册新用户智慧城市建设成效显著：AI风控与社区共治并举-体坛网_体坛+ 体坛
 

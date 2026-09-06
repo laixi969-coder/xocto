@@ -21,7 +21,7 @@ canonical_url: https://mrdee.in/mandala
 summary: draw one stroke, let symmetry complete it
 first_seen: '2026-09-05T15:35:13Z'
 last_seen: '2026-09-05T23:54:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

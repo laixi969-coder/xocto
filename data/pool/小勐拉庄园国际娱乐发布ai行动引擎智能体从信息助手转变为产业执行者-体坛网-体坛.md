@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWZWhBWF8zaHhW
 summary: 小勐拉庄园国际娱乐发布AI行动引擎，智能体从信息助手转变为产业执行者-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T16:32:35Z'
 last_seen: '2026-09-06T05:29:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,38 @@
+- id: req-initial-rubato-2026-09-06
+  project_slug: rubato
+  level: initial
+  reviewed_at: '2026-09-05T23:54:01Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 属于桌面摆件与情绪价值消费，替代的是常规屏幕状态指示，缺乏刚性生产力痛点。
+    evidence_ids:
+    - ev-6e5c36159374a48b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-6e5c36159374a48b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-6e5c36159374a48b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-6e5c36159374a48b
+  next_validation: 观察该开源固件是否有量产套件或商业硬件周边在创客社区形成批量采购订单。
+  market: ''
+  job: 开发者在进行 AI 辅助编程时监控 Agent 的运行状态与任务进度
+  job_en: Developers monitoring AI coding agent status and progress during AI-assisted programming
+  pain: 终端或 IDE 内后台运行的 AI 任务缺乏物理实体反馈与情绪价值展示
+  pain_en: Background AI agent tasks in terminal or IDE lack physical feedback and ambient emotional displays
+  current_alternative: 直接在 IDE 窗口、命令行终端或系统通知栏查看运行日志与状态
+  current_alternative_en: Checking status and logs directly in IDE windows, terminal tabs, or system notifications
+  usage_reason: 满足极客对复古 Mac 桌面摆件的审美偏好与 AI 编程状态的物理可视化趣味
+  usage_reason_en: Appeals to geek aesthetics for retro Mac desk toys and tangible ambient visualization
+    of AI coding states

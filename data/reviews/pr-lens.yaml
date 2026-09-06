@@ -24,3 +24,45 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-pr-lens-2026-09-06
+  project_slug: pr-lens
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决复杂代码审查中架构理解成本高的刚性痛点，将 diff 可视化为动态图具有明确效率价值。
+    evidence_ids:
+    - ev-8f9a5591fc75649f
+    - ev-dfd3e2122c38ba10
+  - gate: consensus
+    status: supported
+    reason: 获得近 300 颗星标与社区讨论关注，展现出开发者对可视化代码评审工具的明确兴趣。
+    evidence_ids:
+    - ev-c0adfc6bd690d87b
+    - ev-dfd3e2122c38ba10
+  - gate: model
+    status: insufficient
+    reason: 目前以开源工具形式发布，尚未公开企业版或团队订阅定价策略。
+    evidence_ids:
+    - ev-8f9a5591fc75649f
+  - gate: truth
+    status: supported
+    reason: 直接作为 公开代码仓库 App 或 Action 嵌入标准代码审查流程，交付逻辑可确定闭环。
+    evidence_ids:
+    - ev-8f9a5591fc75649f
+  next_validation: 观察官方是否推出针对企业私有仓库的高级托管版本或团队协作付费定价方案。
+  market: ''
+  job: 审查拉取请求（Pull Request）中的代码变更及其对整体系统架构的影响。
+  job_en: Review code changes in pull requests and understand their impact on overall system architecture.
+  pain: 面对数百行代码 diff，难以单凭文本脑补数据流向与模块依赖变更，导致审查效率低下且容易遗漏隐患。
+  pain_en: Reviewers struggle to trace data flows and dependency shifts from raw multi-file diffs, leading
+    to slow reviews and missed regressions.
+  current_alternative: 手工通读 diff、在本地运行分支测试，或借助静态代码分析文本注释。
+  current_alternative_en: Manually reading raw text diffs, checking out branches locally to trace flows,
+    or using static linters.
+  usage_reason: 自动化生成 PR 内嵌的动态架构图，大幅降低认知负荷并加速审查流程。
+  usage_reason_en: Automatically generates embedded animated diagrams within PRs, cutting cognitive load
+    and speeding up review cycles.

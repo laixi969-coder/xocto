@@ -1,0 +1,39 @@
+- id: req-initial-chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-2026-09-06
+  project_slug: chinese-ai-firm-moonshot-files-confidentially-for-hong-kong
+  level: initial
+  reviewed_at: '2026-09-05T23:54:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决信息获取和内容生成的普遍需求，痛点在于效率和便利性。
+    evidence_ids:
+    - ev-633b4033f9775b49
+  - gate: consensus
+    status: insufficient
+    reason: IPO 申请表明市场信心，但缺乏用户采用或留存数据。
+    evidence_ids:
+    - ev-633b4033f9775b49
+  - gate: model
+    status: insufficient
+    reason: 买方可能是消费者或企业，但付费模式未公开。
+    evidence_ids:
+    - ev-633b4033f9775b49
+  - gate: truth
+    status: supported
+    reason: AI 助手可确定性交付信息或内容，但准确性需人工判断。
+    evidence_ids:
+    - ev-633b4033f9775b49
+  next_validation: 查找 Moonshot AI 的官方产品页面或使用数据，以确认用户规模和付费情况。
+  market: ''
+  job: 用户需要快速获取信息、处理文档或生成内容，以提高工作效率。
+  job_en: Users need to quickly obtain information, process documents, or generate content to improve
+    work efficiency.
+  pain: 传统搜索和手动处理耗时，难以满足复杂查询和创作需求。
+  pain_en: Traditional search and manual processing are time-consuming and fail to meet complex queries
+    and creative needs.
+  current_alternative: 传统搜索引擎、文档编辑软件和人工写作。
+  current_alternative_en: Traditional search engines, document editing software, and human writing.
+  usage_reason: AI 助手提供即时、上下文相关的响应，减少手动工作。
+  usage_reason_en: AI assistants provide immediate, context-aware responses, reducing manual work.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9qS085eDlGX0J3
 summary: 浦江海德最新房价：如何用AI重新定义宠物互动-体坛网_体坛+ 体坛
 first_seen: '2026-09-03T08:36:05Z'
 last_seen: '2026-09-06T04:01:10Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

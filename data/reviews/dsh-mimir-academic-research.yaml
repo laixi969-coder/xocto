@@ -1,0 +1,40 @@
+- id: req-initial-dsh-mimir-academic-research-2026-09-06
+  project_slug: dsh-mimir-academic-research
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研写作中文献、实验、计算分散管理的痛点，集成可减少切换成本，价值结构成立。
+    evidence_ids:
+    - ev-73d8fdc879df3eaa
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星标增长显示关注，但缺乏用户评价或持续采用证据，共识未明。
+    evidence_ids:
+    - ev-73d8fdc879df3eaa
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无公开付费路径，买方可能是研究者或机构，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 集成功能是否真能替代现有工具链，需实际使用验证，但未发现虚假承诺。
+    evidence_ids: []
+  next_validation: 查找 Mimir 的官方文档或用户讨论，确认其实际工作流和用户反馈。
+  market: ''
+  job: 科研人员在撰写论文时，需要管理文献、追踪实验、运行远程计算任务，并确保论文格式正确。
+  job_en: Researchers writing papers need to manage references, track experiments, run remote computing
+    tasks, and ensure correct formatting.
+  pain: 传统上这些任务分散在多个工具中（如 Overleaf、Zotero、实验室笔记本、SSH 终端），切换成本高，实验记录与论文脱节。
+  pain_en: Traditionally, these tasks are scattered across multiple tools (e.g., Overleaf, Zotero, lab
+    notebooks, SSH terminals), causing high switching costs and disconnection between experiment logs
+    and papers.
+  current_alternative: 使用 Overleaf 写 LaTeX、Zotero 管理文献、Excel 或笔记软件记录实验、终端 SSH 连接 GPU 服务器。
+  current_alternative_en: Using Overleaf for LaTeX, Zotero for references, Excel or note apps for experiments,
+    and terminal SSH for GPU servers.
+  usage_reason: 开源且免费，集成多个步骤可能减少切换；公开代码仓库 星标增长表明有研究者关注，但采用规模尚小。
+  usage_reason_en: Open-source and free, potential to reduce switching; public code repository star growth
+    indicates researcher interest, but adoption scale is still small.

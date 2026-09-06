@@ -22,7 +22,7 @@ summary: 'Endfield-inspired industrial UI shell for DeepSeek Harness (dsh) — n
   dsh plugin --profile web add @rison/dsh-endfield-ui'
 first_seen: '2026-08-17T13:31:40Z'
 last_seen: '2026-09-06T02:59:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

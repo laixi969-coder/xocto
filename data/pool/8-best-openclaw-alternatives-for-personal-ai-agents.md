@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE0yUmd1T0x3Qm83
 summary: 8 best OpenClaw alternatives for personal AI agents Hostinger
 first_seen: '2026-09-04T23:09:09Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

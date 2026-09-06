@@ -1,0 +1,37 @@
+- id: req-initial-jarvis-private-llm-2026-09-06
+  project_slug: jarvis-private-llm
+  level: initial
+  reviewed_at: '2026-09-06T08:36:16Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏功能细节
+    evidence_ids:
+    - ev-0a0122eb849cd75d
+  - gate: consensus
+    status: insufficient
+    reason: 无公开使用案例
+    evidence_ids:
+    - ev-0a0122eb849cd75d
+  - gate: model
+    status: insufficient
+    reason: 未验证模型性能
+    evidence_ids:
+    - ev-0a0122eb849cd75d
+  - gate: truth
+    status: insufficient
+    reason: 缺少付费或使用数据
+    evidence_ids:
+    - ev-0a0122eb849cd75d
+  next_validation: 官方文档或使用案例
+  market: ''
+  job: 企业 AI 开发者
+  job_en: Enterprise AI Developer
+  pain: 需要私有 LLM 但缺少部署方案
+  pain_en: Need a private LLM but lack deployment solutions
+  current_alternative: 现有开源 LLM + 自行部署
+  current_alternative_en: Existing open-source LLMs + self-deployment
+  usage_reason: 需要可定制的私有模型
+  usage_reason_en: Need a customizable private model

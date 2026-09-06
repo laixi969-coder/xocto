@@ -22,7 +22,7 @@ summary: Catalogo curato dei server MCP (Model Context Protocol) italiani — da
   fatturazione, PA e altro.
 first_seen: '2026-09-01T10:22:02Z'
 last_seen: '2026-09-05T23:54:04Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

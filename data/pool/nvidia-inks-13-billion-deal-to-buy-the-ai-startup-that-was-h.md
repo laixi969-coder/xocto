@@ -1,11 +1,12 @@
 ---
 slug: nvidia-inks-13-billion-deal-to-buy-the-ai-startup-that-was-h
-name: Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI
+name: Nvidia
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNTmpFbWtrTTlM
 summary: Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI Egypt Independent
 first_seen: '2026-09-05T12:39:59Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI
+# Nvidia
 
 Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI Egypt Independent
 

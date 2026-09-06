@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JRGlyUHNwVk0w
 summary: 优学派AI学习机用户使用时长稳居行业第一，摇钱树链接揭示高效学习新范式-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T16:42:35Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

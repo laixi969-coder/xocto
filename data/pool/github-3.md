@@ -1,18 +1,31 @@
 ---
 slug: github-3
-name: Github
+name: CoDock
 builder: treexie
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: CoDock 是一个本地桌面工作台，面向同时使用多个 Coding Agent（如 Claude Code、Codex、Gemini CLI 等）的开发者。它把分散在多个终端窗口的
+  Agent 会话聚合到一个统一界面，支持多 Tab 并行运行、会话管理和多行 Prompt 输入。开发者无需在多个终端间切换，即可集中管理不同项目的 AI 编码任务。
+inspiration: 趋势：开发者工作流正从单一 AI 工具转向多 Agent 并行协作，催生对统一管理界面的需求。切入：可从会话历史搜索、任务状态追踪、跨 Agent 结果对比等环节切入，提供更细粒度的管理能力，而非仅做终端聚合。
+summary_en: CoDock is a local desktop workbench for developers who use multiple coding agents (e.g., Claude
+  Code, Codex, Gemini CLI). It aggregates agent sessions scattered across terminal windows into a unified
+  interface, supporting multi-tab parallel running, session management, and multi-line prompt input. Developers
+  can manage AI coding tasks for different projects without switching between terminals.
+inspiration_en: 'Trend: Developer workflows are shifting from single AI tools to multi-agent parallel
+  collaboration, creating demand for unified management interfaces. Entry: Could focus on session history
+  search, task status tracking, cross-agent result comparison, offering finer-grained management rather
+  than just terminal aggregation.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+- 软件工程师
+jobs_en:
+- Developer
+- Software Engineer
 regions: []
 regions_en: []
 open_source: false
@@ -29,7 +42,7 @@ summary: "之前用 GPUI （ Zed 编辑器那套 GPU 加速 UI 框架）写过�
   \ `rm -rf` 和 SIGKILL 。\r\n\r\nRust + GPUI 原生实现，Apache-2.0 开源，签名公证过的通用二进制。\r\n\r\n![]( https://i.imgur.com/7SvNgDl.png)"
 first_seen: '2026-08-30T22:46:08Z'
 last_seen: '2026-09-06T02:59:18Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 - marketfeeds
@@ -77,7 +90,7 @@ sightings:
   kind: product
 ---
 
-# Github
+# CoDock
 
 之前用 GPUI （ Zed 编辑器那套 GPU 加速 UI 框架）写过一个 Redis 客户端 [Zedis]( https://github.com/vicanso/zedis)。那时候刚接触 [gpui-component]( https://github.com/longbridge/gpui-component)，生态资料少，基本是大部分代码手写、AI 打辅助的模式——AI 负责查资料、补样板代码，主体逻辑还是自己一行行敲。
 

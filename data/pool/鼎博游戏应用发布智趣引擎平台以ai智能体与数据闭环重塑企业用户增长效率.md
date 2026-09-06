@@ -1,6 +1,6 @@
 ---
 slug: 鼎博游戏应用发布智趣引擎平台以ai智能体与数据闭环重塑企业用户增长效率
-name: 鼎博游戏应用发布“智趣引擎”平台，以AI智能体与数据闭环重塑企业用户增长效率
+name: 鼎博游戏应用
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9xQklSTUJxRmF0
 summary: 鼎博游戏应用发布“智趣引擎”平台，以AI智能体与数据闭环重塑企业用户增长效率 体坛
 first_seen: '2026-09-05T16:19:05Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 鼎博游戏应用发布“智趣引擎”平台，以AI智能体与数据闭环重塑企业用户增长效率
+# 鼎博游戏应用
 
 鼎博游戏应用发布“智趣引擎”平台，以AI智能体与数据闭环重塑企业用户增长效率 体坛
 

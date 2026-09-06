@@ -21,7 +21,7 @@ canonical_url: https://github.com/kanneiren/dsh-network-settings
 summary: DSH网络设置插件 | DeepSeek Harness network diagnostics, proxy detection and repair for Windows/WSL/MacOS
 first_seen: '2026-08-17T14:55:41Z'
 last_seen: '2026-09-06T00:58:33Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

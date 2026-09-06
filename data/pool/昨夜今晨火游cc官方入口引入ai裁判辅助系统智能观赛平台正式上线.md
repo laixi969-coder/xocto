@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBLR2p4NUdaWnFQ
 summary: 昨夜今晨：火游cc官方入口引入AI裁判辅助系统，智能观赛平台正式上线 ttplus.cn
 first_seen: '2026-09-05T01:59:17Z'
 last_seen: '2026-09-06T09:14:58Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

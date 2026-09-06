@@ -21,7 +21,7 @@ canonical_url: https://github.com/SLin-code/dsh-custom-skin
 summary: DSH自定义壁纸/皮肤插件——Custom wallpapers and translucent skins for DeepSeek Harness Web
 first_seen: '2026-08-24T09:55:50Z'
 last_seen: '2026-09-06T00:58:33Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

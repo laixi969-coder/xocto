@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiR0FVX3lxTE9DWkxhbzFMVWJz
 summary: m6米乐客户端升级版技术再升级：8K超高清与AI互动引领观赛新体验 体坛
 first_seen: '2026-09-05T13:57:59Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

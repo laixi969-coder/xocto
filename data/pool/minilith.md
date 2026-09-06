@@ -21,7 +21,7 @@ canonical_url: https://blog.minilith.site
 summary: A zero-dependency CMS stored inside a PNG file
 first_seen: '2026-09-05T12:09:49Z'
 last_seen: '2026-09-05T23:54:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

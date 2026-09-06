@@ -1,0 +1,40 @@
+- id: req-initial-codflow-2026-09-06
+  project_slug: codflow
+  level: initial
+  reviewed_at: '2026-09-06T00:58:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 COD 订单履约与配送协调的痛点，旧流程依赖人工，交付可确定。
+    evidence_ids:
+    - ev-1acf661242b046a5
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数有限，尚无用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-1acf661242b046a5
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是商家或配送方，但无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 宣称 agentic-ready，但具体 AI 功能与交付结果未验证。
+    evidence_ids:
+    - ev-1acf661242b046a5
+  next_validation: 官方文档或演示，明确 COD 订单处理的具体流程与 AI 介入环节
+  market: ''
+  job: 阿尔及利亚的电商卖家需要处理货到付款订单的履约与配送安排。
+  job_en: E-commerce sellers in Algeria need to manage fulfillment and delivery arrangements for cash-on-delivery
+    orders.
+  pain: COD 订单依赖人工协调配送与收款，流程繁琐且易出错。
+  pain_en: COD orders rely on manual coordination of delivery and payment collection, which is cumbersome
+    and error-prone.
+  current_alternative: 现有替代可能是通用电商平台或手工管理订单与配送。
+  current_alternative_en: Current alternatives may be generic e-commerce platforms or manual management
+    of orders and deliveries.
+  usage_reason: 开源且针对 COD 流程，可能吸引本地开发者与商家试用，但采用证据尚不充分。
+  usage_reason_en: Open source and COD-specific may attract local developers and merchants to try, but
+    adoption evidence is still insufficient.

@@ -3,9 +3,10 @@ slug: techpolicy
 name: techpolicy
 builder: cdrnsf
 category: ''
-summary_zh: ''
+summary_zh: 美国两个最大学区实施 AI 禁令，可能限制 AI 工具在 K-12 教育中的采用，为教育科技厂商提供监管信号。
 inspiration: ''
-summary_en: ''
+summary_en: America's two largest school districts impose AI moratoriums, potentially restricting AI tool
+  adoption in K-12 education and signaling regulatory headwinds for ed-tech vendors.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://techpolicy.press/americas-two-largest-school-districts-im
 summary: America's two largest school districts impose AI moratoriums
 first_seen: '2026-09-05T21:43:22Z'
 last_seen: '2026-09-06T09:14:21Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

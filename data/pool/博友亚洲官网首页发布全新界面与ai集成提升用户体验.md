@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UMTBPQW9OMFhk
 summary: 博友亚洲官网首页发布：全新界面与AI集成提升用户体验 体坛
 first_seen: '2026-09-05T18:06:16Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

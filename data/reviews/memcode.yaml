@@ -1,0 +1,36 @@
+- id: req-initial-memcode-2026-09-06
+  project_slug: memcode
+  level: initial
+  reviewed_at: '2026-09-05T23:54:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 代理记忆缺失的问题，但具体用户任务和痛点描述模糊，缺乏明确的工作流证据。
+    evidence_ids:
+    - ev-9c01b5e1eb3e02e4
+  - gate: consensus
+    status: insufficient
+    reason: 仅有星标增长，无用户评价或采用案例，共识证据不足。
+    evidence_ids:
+    - ev-9c01b5e1eb3e02e4
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法进行。
+    evidence_ids: []
+  next_validation: 官方文档或 README 中关于具体使用场景和集成方式的说明。
+  market: ''
+  job: 为 AI 代理提供持久化记忆，使其在多轮交互中记住用户偏好和历史。
+  job_en: Provide persistent memory for AI agents to remember user preferences and history across interactions.
+  pain: AI 代理缺乏长期记忆，导致重复询问和上下文丢失。
+  pain_en: AI agents lack long-term memory, causing repeated questions and loss of context.
+  current_alternative: 开发者通常自行实现记忆逻辑或使用简单的键值存储。
+  current_alternative_en: Developers often implement memory logic themselves or use simple key-value stores.
+  usage_reason: 开源社区关注表明开发者对记忆层有需求，但具体采用场景和付费意愿不明。
+  usage_reason_en: Open-source community interest suggests developer demand for memory layers, but specific
+    adoption scenarios and willingness to pay are unclear.

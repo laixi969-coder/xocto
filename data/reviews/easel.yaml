@@ -1,0 +1,41 @@
+- id: req-initial-easel-2026-09-06
+  project_slug: easel
+  level: initial
+  reviewed_at: '2026-09-06T06:48:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决社交媒体运营者跨平台发布耗时、内容创作和效果追踪的痛点；旧流程是手动操作，需求结构成立。
+    evidence_ids:
+    - ev-7268111643ef67df
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星标增长快，但缺乏用户评价或采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-7268111643ef67df
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露商业模式，买方可能是 to B 或 to C，但无定价或付费证据。
+    evidence_ids:
+    - ev-7268111643ef67df
+  - gate: truth
+    status: insufficient
+    reason: 内容质量和平台合规风险未验证，交付确定性不足。
+    evidence_ids:
+    - ev-7268111643ef67df
+  next_validation: 官方定价页或客户案例
+  market: ''
+  job: 社交媒体运营者需要持续发现热点、创作内容并发布到多个平台，同时了解哪些内容有效。
+  job_en: Social media managers need to continuously discover trends, create content, and publish across
+    multiple platforms, while learning what content works.
+  pain: 手动跨平台发布耗时，内容创作需要灵感，且难以追踪效果。
+  pain_en: Manual cross-platform publishing is time-consuming, content creation requires inspiration,
+    and tracking performance is difficult.
+  current_alternative: 目前运营者通常使用各种内容日历工具、手动发布，或依赖第三方管理平台。
+  current_alternative_en: Currently, managers often use content calendar tools, manual posting, or third-party
+    management platforms.
+  usage_reason: 开源且覆盖中国主流平台，能自动化发布和趋势发现，对个人创作者和小团队有吸引力。
+  usage_reason_en: Open-source and covers major Chinese platforms, automating publishing and trend discovery,
+    appealing to individual creators and small teams.

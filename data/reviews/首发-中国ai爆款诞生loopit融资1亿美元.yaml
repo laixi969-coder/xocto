@@ -1,0 +1,38 @@
+- id: req-initial-首发-中国ai爆款诞生loopit融资1亿美元-2026-09-06
+  project_slug: 首发-中国ai爆款诞生loopit融资1亿美元
+  level: initial
+  reviewed_at: '2026-09-06T02:59:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚无法从公开信息中识别，需更多产品细节。
+    evidence_ids:
+    - ev-520d613ea75a3b42
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资报道，缺乏用户采用或场景证据。
+    evidence_ids:
+    - ev-520d613ea75a3b42
+  - gate: model
+    status: insufficient
+    reason: 商业模式和付费路径未披露。
+    evidence_ids:
+    - ev-520d613ea75a3b42
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性待核验，需官方信息。
+    evidence_ids:
+    - ev-520d613ea75a3b42
+  next_validation: 查找 Loopit 的官方产品页面或应用商店列表，以确认其功能、目标用户和定价。
+  market: ''
+  job: Loopit 试图解决什么用户任务尚不明确，需进一步信息。
+  job_en: The user task Loopit aims to solve is unclear; further information is needed.
+  pain: 用户痛点未披露，无法判断其强度。
+  pain_en: User pain points are undisclosed; intensity cannot be assessed.
+  current_alternative: 未知，因产品功能未公开。
+  current_alternative_en: Unknown, as product features are not public.
+  usage_reason: 融资新闻表明市场关注，但缺乏实际使用或采用证据。
+  usage_reason_en: Funding news indicates market attention, but evidence of actual usage or adoption is
+    lacking.

@@ -1,11 +1,11 @@
 ---
 slug: anet-rises-373-in-six-months-is-there-more-room-to-grow
-name: 'ANET Rises 37.3% in Six Months: Is There More Room to Grow?'
+name: Arista Networks
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: ANET股价在六个月内上涨37.3%，显示出显著增长势头。
 inspiration: ''
-summary_en: ''
+summary_en: ANET's stock rose 37.3% over six months, indicating significant growth momentum.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxPelFNMHNNLVAy
 summary: 'ANET Rises 37.3% in Six Months: Is There More Room to Grow? TradingView'
 first_seen: '2026-09-04T14:59:00Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# ANET Rises 37.3% in Six Months: Is There More Room to Grow?
+# Arista Networks
 
 ANET Rises 37.3% in Six Months: Is There More Room to Grow? TradingView
 

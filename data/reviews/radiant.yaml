@@ -1,0 +1,40 @@
+- id: req-initial-radiant-2026-09-06
+  project_slug: radiant
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理工作流中上下文切换和监控不便的问题，价值结构成立。
+    evidence_ids:
+    - ev-0f4357a875e9d0fc
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目星数较少，缺乏用户采用证据。
+    evidence_ids:
+    - ev-0f4357a875e9d0fc
+  - gate: model
+    status: insufficient
+    reason: 免费开源，无明确商业模式，可能通过企业支持或高级功能变现，但未披露。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的实际工作，交付可确定，但需关注与现有工具的竞争。
+    evidence_ids:
+    - ev-0f4357a875e9d0fc
+  next_validation: 查看 radiant 的 公开代码仓库 仓库 issue 和 discussion，寻找用户实际使用案例和反馈。
+  market: ''
+  job: 开发者需要一个统一的界面来与多个编码代理交互，并实时监控工具调用和终端操作。
+  job_en: Developers need a unified interface to interact with multiple coding agents and monitor tool
+    calls and terminal operations in real time.
+  pain: 使用多个编码代理时，切换上下文和监控执行过程繁琐，缺乏透明度。
+  pain_en: Using multiple coding agents involves cumbersome context switching and lacks transparency in
+    execution.
+  current_alternative: 开发者通常使用多个终端窗口或 IDE 插件，分别管理不同代理。
+  current_alternative_en: Developers typically use multiple terminal windows or IDE plugins to manage
+    different agents separately.
+  usage_reason: radiant 提供集中式界面和实时活动流，可能吸引希望提高编码代理可控性的开发者。
+  usage_reason_en: radiant offers a centralized interface and live activity feed, potentially attracting
+    developers seeking more control over coding agents.

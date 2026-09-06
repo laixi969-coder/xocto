@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wNV90SDJ2cmpF
 summary: 无极3测速登录：AI与VR融合下的下一代互动娱乐科技平台 体坛
 first_seen: '2026-09-05T14:41:07Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

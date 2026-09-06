@@ -1,0 +1,39 @@
+- id: req-initial-deep-research-skill-2026-09-06
+  project_slug: deep-research-skill
+  level: initial
+  reviewed_at: '2026-09-06T00:58:33Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决深度调研中需要判断和结论的需求，痛点在于传统调研耗时且 AI 汇总缺乏深度，不采用的代价是决策效率低。
+    evidence_ids:
+    - ev-d73cc4f058f18498
+  - gate: consensus
+    status: insufficient
+    reason: 星数显示关注，但缺乏用户评价或实际使用场景的公开证据。
+    evidence_ids:
+    - ev-d73cc4f058f18498
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业或专业服务公司，但尚无公开验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 项目处于早期，交付确定性未验证，需更多使用案例。
+    evidence_ids: []
+  next_validation: 查找官方文档或 README 中的使用案例和部署说明。
+  market: ''
+  job: 研究员和分析师需要快速完成深度调研，获得有判断的结论，而非简单信息罗列。
+  job_en: Researchers and analysts need to quickly conduct deep research and obtain judgment-based conclusions,
+    rather than simple information listing.
+  pain: 传统调研耗时，且 AI 汇总报告缺乏深度和判断，难以直接用于决策。
+  pain_en: Traditional research is time-consuming, and AI summary reports lack depth and judgment, making
+    them difficult to use directly for decisions.
+  current_alternative: 依赖人工搜索和阅读，或使用通用 AI 工具但需大量人工整理和验证。
+  current_alternative_en: Rely on manual search and reading, or use general AI tools but require extensive
+    manual organization and verification.
+  usage_reason: 开源项目，星数达201，显示一定关注，但无采用或付费证据。
+  usage_reason_en: Open-source project with 201 stars, showing some interest, but no adoption or payment
+    evidence.

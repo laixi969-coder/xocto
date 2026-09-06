@@ -1,0 +1,40 @@
+- id: req-initial-commerce-agents-2026-09-06
+  project_slug: commerce-agents
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建商业代理时缺乏参考实现的问题，痛点明确且交付可确定。
+    evidence_ids:
+    - ev-5f0be7ce638f1f74
+  - gate: consensus
+    status: supported
+    reason: 星标快速增长表明开发者社区有强烈关注，但需区分关注与持续采用。
+    evidence_ids:
+    - ev-64e734eeff7a600b
+  - gate: model
+    status: insufficient
+    reason: 作为开源蓝图，商业模式不清晰，可能通过吸引开发者采用 Claude 来间接获利。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: Anthropic 作为模型厂商提供参考蓝图，贴近开发者真实需求，交付确定性高。
+    evidence_ids:
+    - ev-5f0be7ce638f1f74
+  next_validation: 观察该仓库的 issue 讨论和实际应用案例，以确认开发者是否真正用于生产环境。
+  market: ''
+  job: 开发者需要快速构建能处理购物或商家任务的 AI 代理，例如商品推荐、订单处理或客户支持。
+  job_en: Developers need to quickly build AI agents that handle shopping or merchant tasks, such as product
+    recommendations, order processing, or customer support.
+  pain: 从零构建这类代理需要处理模型集成、工具调用、场景设计等复杂工作，耗时且容易出错。
+  pain_en: Building such agents from scratch involves complex work like model integration, tool calling,
+    and scenario design, which is time-consuming and error-prone.
+  current_alternative: 开发者通常自行组合模型 API、编写代理逻辑，或使用通用代理框架，但缺乏针对商业场景的优化。
+  current_alternative_en: Developers typically assemble model APIs and write agent logic themselves, or
+    use generic agent frameworks, but lack optimization for commercial scenarios.
+  usage_reason: 该蓝图提供了现成的示例和最佳实践，能显著降低开发门槛，因此获得大量星标和关注。
+  usage_reason_en: The blueprint provides ready-made examples and best practices, significantly lowering
+    the development barrier, hence the high star count and attention.

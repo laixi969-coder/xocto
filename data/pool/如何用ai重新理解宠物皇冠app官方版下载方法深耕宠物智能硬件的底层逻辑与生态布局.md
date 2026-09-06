@@ -1,6 +1,6 @@
 ---
 slug: 如何用ai重新理解宠物皇冠app官方版下载方法深耕宠物智能硬件的底层逻辑与生态布局
-name: 如何用AI重新理解宠物：皇冠APP官方版下载方法深耕宠物智能硬件的底层逻辑与生态布局
+name: 皇冠APP
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE52aXNJNl9HVVlS
 summary: 如何用AI重新理解宠物：皇冠APP官方版下载方法深耕宠物智能硬件的底层逻辑与生态布局 体坛
 first_seen: '2026-09-05T13:42:38Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 如何用AI重新理解宠物：皇冠APP官方版下载方法深耕宠物智能硬件的底层逻辑与生态布局
+# 皇冠APP
 
 如何用AI重新理解宠物：皇冠APP官方版下载方法深耕宠物智能硬件的底层逻辑与生态布局 体坛
 

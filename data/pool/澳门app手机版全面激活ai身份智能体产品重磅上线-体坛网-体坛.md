@@ -1,6 +1,6 @@
 ---
 slug: 澳门app手机版全面激活ai身份智能体产品重磅上线-体坛网-体坛
-name: 澳门APP手机版全面激活AI身份，智能体产品重磅上线- 体坛网_体坛+
+name: 澳门APP
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zeG9FMWUyODJp
 summary: 澳门APP手机版全面激活AI身份，智能体产品重磅上线- 体坛网_体坛+ 体坛
 first_seen: '2026-09-05T13:38:32Z'
 last_seen: '2026-09-06T02:59:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 澳门APP手机版全面激活AI身份，智能体产品重磅上线- 体坛网_体坛+
+# 澳门APP
 
 澳门APP手机版全面激活AI身份，智能体产品重磅上线- 体坛网_体坛+ 体坛
 

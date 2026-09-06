@@ -1,6 +1,6 @@
 ---
 slug: 铭金客户端发布新一代ai智能娱乐生态平台引领数字娱乐科技变革-体坛网-体坛
-name: 铭金客户端发布新一代AI智能娱乐生态平台，引领数字娱乐科技变革-体坛网_体坛+
+name: Mingjin AI Entertainment Platform
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE1sLUlzYjFxMThf
 summary: 铭金客户端发布新一代AI智能娱乐生态平台，引领数字娱乐科技变革-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T07:33:21Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 铭金客户端发布新一代AI智能娱乐生态平台，引领数字娱乐科技变革-体坛网_体坛+
+# Mingjin AI Entertainment Platform
 
 铭金客户端发布新一代AI智能娱乐生态平台，引领数字娱乐科技变革-体坛网_体坛+ 体坛
 

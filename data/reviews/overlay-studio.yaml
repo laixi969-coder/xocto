@@ -1,0 +1,37 @@
+- id: req-initial-overlay-studio-2026-09-06
+  project_slug: overlay-studio
+  level: initial
+  reviewed_at: '2026-09-06T08:35:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 替代手工动效设计流程
+    evidence_ids:
+    - ev-b6e4c0361eefb962
+  - gate: consensus
+    status: insufficient
+    reason: 缺少公开使用案例
+    evidence_ids:
+    - ev-b6e4c0361eefb962
+  - gate: model
+    status: insufficient
+    reason: 未验证模型性能
+    evidence_ids:
+    - ev-b6e4c0361eefb962
+  - gate: truth
+    status: insufficient
+    reason: 缺少付费或使用数据
+    evidence_ids:
+    - ev-b6e4c0361eefb962
+  next_validation: 收集用户案例或使用数据
+  market: ''
+  job: 视频编辑
+  job_en: Video Editor
+  pain: 手动制作动效耗时且技术门槛高
+  pain_en: Manual motion design is time-consuming and has high technical barriers
+  current_alternative: 手工在 After Effects 等软件中制作动效
+  current_alternative_en: Manual motion design in After Effects or similar software
+  usage_reason: 需要快速生成可编辑的动效层
+  usage_reason_en: Need quick generation of editable motion layers

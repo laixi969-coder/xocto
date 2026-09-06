@@ -1,6 +1,6 @@
 ---
 slug: 麻将胡了皇冠网站推出智能体创作新范式场景化演示真实输入示例低门槛打造专属ai助手
-name: 麻将胡了皇冠网站推出智能体创作新范式：场景化演示+真实输入示例，低门槛打造专属AI助手
+name: Mahjong Hu Le Crown
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lZENrb1Rtb3hW
 summary: 麻将胡了皇冠网站推出智能体创作新范式：场景化演示+真实输入示例，低门槛打造专属AI助手 体坛
 first_seen: '2026-09-05T16:04:47Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 麻将胡了皇冠网站推出智能体创作新范式：场景化演示+真实输入示例，低门槛打造专属AI助手
+# Mahjong Hu Le Crown
 
 麻将胡了皇冠网站推出智能体创作新范式：场景化演示+真实输入示例，低门槛打造专属AI助手 体坛
 

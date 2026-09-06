@@ -1,0 +1,38 @@
+- id: req-initial-workwit-ai-agent-2026-09-06
+  project_slug: workwit-ai-agent
+  level: initial
+  reviewed_at: '2026-09-05T23:54:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决合同审查和简历筛选的耗时痛点，旧流程为人工阅读，结构上成立。
+    evidence_ids:
+    - ev-b91dbc6d7cca6581
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星数刚过百，无用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-b91dbc6d7cca6581
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 承诺的审查和筛选功能需实际验证，交付确定性未知。
+    evidence_ids: []
+  next_validation: 官方文档或仓库中是否提供合同审查和简历筛选的详细工作流说明或演示视频。
+  market: ''
+  job: 企业行政或人事需要快速审查合同和筛选简历，以减少人工时间。
+  job_en: Office administrators or HR need to quickly review contracts and screen resumes to reduce manual
+    time.
+  pain: 合同审查和简历筛选耗时且易出错，人工处理效率低。
+  pain_en: Contract review and resume screening are time-consuming and error-prone, with low manual efficiency.
+  current_alternative: 目前通常由法务或 HR 手动阅读文档，或使用简单的关键词搜索工具。
+  current_alternative_en: Currently, legal or HR staff manually read documents, or use simple keyword
+    search tools.
+  usage_reason: 自托管和开源特性吸引注重数据隐私的企业，内置技能降低部署门槛，即使功能尚需验证，仍有试用动力。
+  usage_reason_en: Self-hosting and open-source appeal to privacy-conscious enterprises; built-in skills
+    lower deployment barriers, driving trials even before full validation.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9INndwRkc5OXQx
 summary: FG三公网址亮相行业大会：以本地化AI基础设施赋能政企数智化转型-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T19:18:08Z'
 last_seen: '2026-09-06T05:29:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

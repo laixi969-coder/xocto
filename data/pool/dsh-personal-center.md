@@ -2,17 +2,25 @@
 slug: dsh-personal-center
 name: dsh-personal-center
 builder: PolinniZhong
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 面向 DeepSeek Harness（DSH）用户的本地个人配置中心，提供 Token 用量统计、成本估算、自定义指令、全局字号设置和桌面宠物（含会话状态概览），纯本地运行不联网。具体工作流程和交付物仍需进一步核验。
+inspiration: 该工具反映了 AI 助手用户对用量透明和本地控制的需求，但功能较为零散，未形成强场景。切入方向是聚焦特定用户群体（如重度 API 用户）的用量管理和成本优化，但需明确核心痛点。
+summary_en: A local personal configuration center for DeepSeek Harness (DSH) users, offering token usage
+  statistics, cost estimation, custom instructions, global font size settings, and a desktop pet with
+  session overview, all running offline. Specific workflows and deliverables require further verification.
+inspiration_en: This tool reflects AI assistant users' need for usage transparency and local control,
+  but features are scattered without a strong scenario. Entry point could focus on usage management and
+  cost optimization for heavy API users, but core pain points need clarification.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
 open_source: true
@@ -23,7 +31,7 @@ summary: 'DSH 个人配置:Token 用量统计 / 成本估算 / 自定义指令 /
   — all local & offline.'
 first_seen: '2026-08-19T17:21:07Z'
 last_seen: '2026-09-06T08:35:59Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

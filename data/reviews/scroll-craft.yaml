@@ -1,0 +1,45 @@
+- id: req-initial-scroll-craft-2026-09-06
+  project_slug: scroll-craft
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建滚动驱动网站的痛点：手工编码复杂耗时，该技能可自动化生成，交付可确定。
+    evidence_ids:
+    - ev-09c74b7a8b72a51f
+  - gate: consensus
+    status: supported
+    reason: 开源仓库星数从 1,727 增至 2,018，显示开发者关注和采用。
+    evidence_ids:
+    - ev-09c74b7a8b72a51f
+    - ev-83939a032eccbfc8
+    - ev-cbea04e28d58a691
+    - ev-7a4a60904066f07a
+    - ev-03b0e4a0b7e7779d
+    - ev-7a37eb9df1ce236c
+    - ev-c1e3eceab0a6d880
+    - ev-ec77be5335d53b4c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未明，可能通过插件或服务收费，但无公开定价。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的第一性目标：快速交付高质量网站，承诺可通过代码生成实现。
+    evidence_ids:
+    - ev-09c74b7a8b72a51f
+  next_validation: 官方文档或定价页是否提供商业版本或服务。
+  market: ''
+  job: 开发者需要快速构建高级、沉浸式滚动驱动网站，而传统编码繁琐。
+  job_en: Developers need to quickly build premium, immersive scroll-driven websites, while traditional
+    coding is tedious.
+  pain: 手工编写滚动动画和交互代码耗时且复杂。
+  pain_en: Hand-coding scroll animations and interactions is time-consuming and complex.
+  current_alternative: 使用现成模板或手动编写 JavaScript/CSS 动画。
+  current_alternative_en: Using pre-made templates or manually writing JavaScript/CSS animations.
+  usage_reason: 开源且星数快速增长，表明开发者认可其价值并愿意尝试。
+  usage_reason_en: Open source with rapid star growth indicates developer recognition and willingness
+    to try.

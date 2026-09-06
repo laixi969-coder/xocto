@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE8tV1V6MkhVQnp0
 summary: 汇丰环球投资研究首席亚洲经济学家兼亚洲联席主管范力民：全球经济增长主要引擎——AI发展面临三大风险，长端美债收益率难降，中国AI及科技板块对外资极具吸引力中国基金报 chnfund.com
 first_seen: '2026-09-06T06:06:00Z'
 last_seen: '2026-09-06T08:36:25Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

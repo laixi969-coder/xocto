@@ -1,6 +1,6 @@
 ---
 slug: 足球比赛赌注软件惊艳亮相ai出海峰会-以技术平权加速中小企业全球化
-name: 足球比赛赌注软件惊艳亮相AI出海峰会 以技术平权加速中小企业全球化
+name: 足球比赛赌注软件
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1hY0RUQkYxZ2lQ
 summary: 足球比赛赌注软件惊艳亮相AI出海峰会 以技术平权加速中小企业全球化 体坛
 first_seen: '2026-09-05T16:04:14Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 足球比赛赌注软件惊艳亮相AI出海峰会 以技术平权加速中小企业全球化
+# 足球比赛赌注软件
 
 足球比赛赌注软件惊艳亮相AI出海峰会 以技术平权加速中小企业全球化 体坛
 

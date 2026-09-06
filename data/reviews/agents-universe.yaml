@@ -1,0 +1,43 @@
+- id: req-initial-agents-universe-2026-09-06
+  project_slug: agents-universe
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体跨会话失忆的痛点：工程师原本要手动重贴上下文、重写任务说明。此为基于功能说明的工作流推理，交付机制尚未核验。
+    evidence_ids:
+    - ev-fe39a88aa6dd9387
+    - ev-47a4acf3d5788473
+  - gate: consensus
+    status: insufficient
+    reason: 九天星标从 228 增至 285，属早期关注度而非持续采用；无法归因到具体使用场景或人群。
+    evidence_ids:
+    - ev-fe39a88aa6dd9387
+    - ev-47a4acf3d5788473
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式与买方；向企业卖记忆托管或隔离可能是方向，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-47a4acf3d5788473
+  - gate: truth
+    status: insufficient
+    reason: 共享记忆涉及跨项目数据隔离与记忆正确性，能否确定性交付无任何实测或文档证据。
+    evidence_ids:
+    - ev-47a4acf3d5788473
+  next_validation: 抓取项目 README 与官方文档，核验共享记忆的写入方式、跨项目隔离与部署机制。
+  market: ''
+  job: 让多智能体或长周期项目在跨会话、跨智能体时延续项目上下文，不必每次重新交代背景。
+  job_en: Carry project context across sessions and agents in long-running or multi-agent work, without
+    re-briefing each time.
+  pain: 智能体每次会话像失忆，工程师要手动重贴背景、重写任务说明，多个智能体之间状态互不相通。
+  pain_en: Agents forget between sessions; engineers manually re-paste background and rewrite instructions,
+    and separate agents cannot see each other's state.
+  current_alternative: 手工维护记忆文件、把对话摘要贴进提示词，或用向量库保存历史记录再检索。
+  current_alternative_en: Hand-maintained memory files, pasting conversation summaries into prompts, or
+    storing history in vector databases for retrieval.
+  usage_reason: 若共享记忆能自动延续项目状态，可省去每次重述背景的时间，团队智能体不必重复踩坑；目前仅一句描述，机制未核验。
+  usage_reason_en: If shared memory truly carries project state forward, engineers save re-briefing time
+    and agent teams stop repeating mistakes; only a one-line description exists and mechanics are unverified.

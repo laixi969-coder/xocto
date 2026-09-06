@@ -3,9 +3,9 @@ slug: did-you-know-chatgpt-claude-and-grok-all-went-down-on-the-sa
 name: Did You Know ChatGPT, Claude and Grok All Went Down on the Same Day?
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: ChatGPT、Claude和Grok在同一天停机，导致多家企业受影响
 inspiration: ''
-summary_en: ''
+summary_en: ChatGPT, Claude, and Grok all went down on the same day, affecting multiple businesses.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5NeVkxSzVFbmYx
 summary: Did You Know ChatGPT, Claude and Grok All Went Down on the Same Day? innovation-village.com
 first_seen: '2026-09-04T16:11:49Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

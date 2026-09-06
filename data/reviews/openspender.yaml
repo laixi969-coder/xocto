@@ -1,0 +1,39 @@
+- id: req-initial-openspender-2026-09-06
+  project_slug: openspender
+  level: initial
+  reviewed_at: '2026-09-05T23:54:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不清晰：代理间支付的具体任务、频率和后果未说明。
+    evidence_ids:
+    - ev-ab466568f8a28ec9
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，缺乏场景或采用信号。
+    evidence_ids:
+    - ev-ab466568f8a28ec9
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方定价页或客户案例，说明代理间支付的实际场景和费用结构。
+  market: ''
+  job: 让 AI 代理在完成任务时能自主完成支付，例如代理之间结算服务费用。
+  job_en: Enable AI agents to autonomously make payments when completing tasks, such as settling service
+    fees between agents.
+  pain: 代理执行任务时无法独立完成交易，需要人工介入支付，限制了自动化闭环。
+  pain_en: Agents cannot independently complete transactions, requiring human intervention for payments,
+    limiting automation loops.
+  current_alternative: 目前代理通常通过 API 调用人工预设的支付接口，或由人类手动处理账单。
+  current_alternative_en: Currently, agents typically use human-configured payment APIs or humans manually
+    handle invoices.
+  usage_reason: 开发者可能采用它来构建自主代理经济，但具体场景和刚性需求尚未明确。
+  usage_reason_en: Developers might adopt it to build an autonomous agent economy, but specific scenarios
+    and urgency are unclear.

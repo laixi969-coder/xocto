@@ -1,6 +1,6 @@
 ---
 slug: 澳门申慱博彩发布ai出海引擎中小企业全球化营销增速新范式-体坛网-体坛
-name: 澳门申慱博彩发布AI出海引擎：中小企业全球化营销增速新范式-体坛网_体坛+
+name: 申慱博彩
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE45RnJhODU1QXNY
 summary: 澳门申慱博彩发布AI出海引擎：中小企业全球化营销增速新范式-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T04:24:43Z'
 last_seen: '2026-09-05T23:54:29Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 澳门申慱博彩发布AI出海引擎：中小企业全球化营销增速新范式-体坛网_体坛+
+# 申慱博彩
 
 澳门申慱博彩发布AI出海引擎：中小企业全球化营销增速新范式-体坛网_体坛+ 体坛
 

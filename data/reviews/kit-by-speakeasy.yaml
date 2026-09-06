@@ -1,0 +1,37 @@
+- id: req-initial-kit-by-speakeasy-2026-09-06
+  project_slug: kit-by-speakeasy
+  level: initial
+  reviewed_at: '2026-09-06T08:35:56Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏功能细节
+    evidence_ids:
+    - ev-d5b62aa60ffd6b41
+  - gate: consensus
+    status: insufficient
+    reason: 无公开使用案例
+    evidence_ids:
+    - ev-d5b62aa60ffd6b41
+  - gate: model
+    status: insufficient
+    reason: 未验证模型性能
+    evidence_ids:
+    - ev-d5b62aa60ffd6b41
+  - gate: truth
+    status: insufficient
+    reason: 缺少付费或使用数据
+    evidence_ids:
+    - ev-d5b62aa60ffd6b41
+  next_validation: 查看产品定价页或用户案例
+  market: ''
+  job: 软件工程师
+  job_en: Software Engineer
+  pain: 需要快速生成代码但现有工具成本高
+  pain_en: Need fast code generation but existing tools are costly
+  current_alternative: 现有编码助手或手工编码
+  current_alternative_en: Existing coding assistants or manual coding
+  usage_reason: 需要低成本、快速的编码代理
+  usage_reason_en: Need low-cost, fast coding agent

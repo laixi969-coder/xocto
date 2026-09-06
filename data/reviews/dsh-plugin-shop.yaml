@@ -1,0 +1,37 @@
+- id: req-initial-dsh-plugin-shop-2026-09-06
+  project_slug: dsh-plugin-shop
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：解决插件发现和审核问题，但痛点强度未明，且作为目录站自身价值有限。
+    evidence_ids:
+    - ev-a543770808331a2d
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户采用或社区讨论证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无付费路径或商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验交付确定性。
+    evidence_ids: []
+  next_validation: 官方文档或仓库 issue 中关于用户使用场景和痛点的讨论。
+  market: ''
+  job: 开发者需要发现和安装 DeepSeek Harness 的插件，以扩展功能。
+  job_en: Developers need to discover and install plugins for DeepSeek Harness to extend functionality.
+  pain: 插件分散在互联网各处，缺乏统一发现和审核机制，可能带来安全风险。
+  pain_en: Plugins are scattered across the internet, lacking unified discovery and review mechanisms,
+    posing security risks.
+  current_alternative: 用户可能通过 公开代码仓库 搜索、社区推荐或手动查找插件。
+  current_alternative_en: Users may search public code repository, rely on community recommendations,
+    or manually find plugins.
+  usage_reason: 该市场提供集中、每日更新的插件列表，可能吸引开发者浏览和尝试。
+  usage_reason_en: This marketplace offers a centralized, daily-updated plugin list, potentially attracting
+    developers to browse and try.

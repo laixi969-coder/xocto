@@ -1,0 +1,38 @@
+- id: req-initial-wonderful完成55亿美元c轮估值升至50亿美元-2026-09-06
+  project_slug: wonderful完成55亿美元c轮估值升至50亿美元
+  level: initial
+  reviewed_at: '2026-09-06T08:36:25Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 无法写出它解决什么需求或痛点，价值关未通过。
+    evidence_ids:
+    - ev-94d3ad3286cf651a
+  - gate: consensus
+    status: insufficient
+    reason: 融资显示资本关注，但无用户或场景证据。
+    evidence_ids:
+    - ev-94d3ad3286cf651a
+  - gate: model
+    status: insufficient
+    reason: 买方和付费模式未知。
+    evidence_ids:
+    - ev-94d3ad3286cf651a
+  - gate: truth
+    status: insufficient
+    reason: 无法评估产品与第一性目标的关系。
+    evidence_ids:
+    - ev-94d3ad3286cf651a
+  next_validation: 查找 Wonderful 的官方网站或产品介绍，以明确其业务和用户价值。
+  market: ''
+  job: 由于缺乏产品信息，无法确定 Wonderful 解决什么用户任务。
+  job_en: Due to lack of product information, it is impossible to determine what user task Wonderful addresses.
+  pain: 无法识别具体痛点。
+  pain_en: No specific pain point can be identified.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 融资事件表明投资者关注，但缺乏产品细节，无法判断用户采用原因。
+  usage_reason_en: The funding event indicates investor interest, but without product details, user adoption
+    reasons cannot be assessed.

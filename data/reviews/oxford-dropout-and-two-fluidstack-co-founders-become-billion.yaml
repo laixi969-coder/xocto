@@ -1,0 +1,38 @@
+- id: req-initial-oxford-dropout-and-two-fluidstack-co-founders-become-billion-2026-09-06
+  project_slug: oxford-dropout-and-two-fluidstack-co-founders-become-billion
+  level: initial
+  reviewed_at: '2026-09-06T05:29:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 团队获取算力的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-0f6678360c7ae286
+  - gate: consensus
+    status: insufficient
+    reason: 高估值显示市场关注，但缺乏用户采用或留存数据。
+    evidence_ids:
+    - ev-0f6678360c7ae286
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能为按量付费，但未公开定价。
+    evidence_ids:
+    - ev-0f6678360c7ae286
+  - gate: truth
+    status: insufficient
+    reason: 估值高但需核验实际交付能力和客户案例。
+    evidence_ids:
+    - ev-0f6678360c7ae286
+  next_validation: 查找 Fluidstack 的官方定价页或客户案例，确认其服务模式和实际采用情况。
+  market: ''
+  job: AI 团队需要获取大规模 GPU 算力来训练和运行模型。
+  job_en: AI teams need access to large-scale GPU compute for training and running models.
+  pain: 自建算力成本高、周期长，现有云服务可能供不应求。
+  pain_en: Building own compute is costly and slow; existing cloud services may be in short supply.
+  current_alternative: 使用 AWS、Azure 等传统云或自建数据中心。
+  current_alternative_en: Using traditional clouds like AWS, Azure, or building own data centers.
+  usage_reason: 高估值表明市场对算力供给的强烈需求，Fluidstack 可能提供更灵活的 GPU 访问。
+  usage_reason_en: High valuation indicates strong demand for compute supply; Fluidstack may offer more
+    flexible GPU access.

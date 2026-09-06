@@ -1,6 +1,6 @@
 ---
 slug: 亿博体育引导怎么样重磅官宣ai智能观赛引擎全场景沉浸式体验重新定义家庭观赛新范式
-name: 亿博体育引导怎么样重磅官宣：AI智能观赛引擎+全场景沉浸式体验，重新定义家庭观赛新范式
+name: 亿博体育
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJOWdrQUdEelBo
 summary: 亿博体育引导怎么样重磅官宣：AI智能观赛引擎+全场景沉浸式体验，重新定义家庭观赛新范式 体坛
 first_seen: '2026-09-05T15:54:11Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 亿博体育引导怎么样重磅官宣：AI智能观赛引擎+全场景沉浸式体验，重新定义家庭观赛新范式
+# 亿博体育
 
 亿博体育引导怎么样重磅官宣：AI智能观赛引擎+全场景沉浸式体验，重新定义家庭观赛新范式 体坛
 

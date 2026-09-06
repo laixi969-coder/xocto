@@ -21,7 +21,7 @@ canonical_url: https://tenantlayer.io
 summary: Multi-Tenancy for Spring Boot and Postgres
 first_seen: '2026-09-05T08:50:35Z'
 last_seen: '2026-09-05T23:54:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

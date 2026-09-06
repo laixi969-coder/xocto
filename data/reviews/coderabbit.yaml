@@ -1,0 +1,39 @@
+- id: req-initial-coderabbit-2026-09-06
+  project_slug: coderabbit
+  level: initial
+  reviewed_at: '2026-09-06T09:14:21Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代码审查中的效率和质量痛点，这是开发流程的刚性需求。
+    evidence_ids:
+    - ev-53a7d5b49da0cd18
+  - gate: consensus
+    status: supported
+    reason: 社区讨论活跃，表明开发者关注 AI 代码审查的进展。
+    evidence_ids:
+    - ev-53a7d5b49da0cd18
+  - gate: model
+    status: insufficient
+    reason: 买方可能是开发团队，但定价和付费模式未公开。
+    evidence_ids:
+    - ev-53a7d5b49da0cd18
+  - gate: truth
+    status: supported
+    reason: AI 审查可确定性交付，但可能产生误报，需人工确认。
+    evidence_ids:
+    - ev-53a7d5b49da0cd18
+  next_validation: 查找 CodeRabbit 的官方定价页或客户案例，以确认付费模式和采用情况。
+  market: ''
+  job: 开发团队需要审查代码以发现错误、安全漏洞和改进机会。
+  job_en: Development teams need to review code to find bugs, security vulnerabilities, and improvement
+    opportunities.
+  pain: 手动代码审查耗时且容易遗漏问题，尤其是在大型代码库中。
+  pain_en: Manual code review is time-consuming and prone to missing issues, especially in large codebases.
+  current_alternative: 人工代码审查、静态分析工具和 CI 检查。
+  current_alternative_en: Manual code review, static analysis tools, and CI checks.
+  usage_reason: AI 审查可以快速覆盖大量代码，提供一致且即时的反馈。
+  usage_reason_en: AI review can quickly cover large amounts of code, providing consistent and immediate
+    feedback.

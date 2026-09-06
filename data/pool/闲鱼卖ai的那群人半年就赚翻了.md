@@ -1,11 +1,11 @@
 ---
 slug: 闲鱼卖ai的那群人半年就赚翻了
-name: 闲鱼卖AI的那群人，半年就赚翻了
+name: Xianyu AI Product Sales Surge
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 闲鱼平台出现大量 AI 产品销售，推动平台 AI 生态快速扩张。
 inspiration: ''
-summary_en: ''
+summary_en: Xianyu sees a surge in AI product sales, accelerating the platform's AI ecosystem expansion.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQWm1PdlZKemZS
 summary: 闲鱼卖AI的那群人，半年就赚翻了 新浪财经
 first_seen: '2026-09-05T20:15:08Z'
 last_seen: '2026-09-06T00:59:06Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 闲鱼卖AI的那群人，半年就赚翻了
+# Xianyu AI Product Sales Surge
 
 闲鱼卖AI的那群人，半年就赚翻了 新浪财经
 

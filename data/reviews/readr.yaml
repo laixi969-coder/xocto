@@ -1,0 +1,41 @@
+- id: req-initial-readr-2026-09-06
+  project_slug: readr
+  level: initial
+  reviewed_at: '2026-09-06T06:48:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决阅读时快速获取答案和听读的需求，痛点在于长文阅读效率低和阅读障碍，现有替代方式效率不高，结构上成立。
+    evidence_ids:
+    - ev-515911d6099d04df
+  - gate: consensus
+    status: insufficient
+    reason: 有社区讨论但缺乏持续采用证据，场景广泛但未聚焦，共识尚不明确。
+    evidence_ids:
+    - ev-515911d6099d04df
+  - gate: model
+    status: insufficient
+    reason: 免费产品，未披露付费路径，买方可能是消费者或通过增值服务变现，但尚无公开信息。
+    evidence_ids:
+    - ev-515911d6099d04df
+  - gate: truth
+    status: insufficient
+    reason: 问答和朗读功能可确定性交付，但具体准确性和覆盖格式未验证。
+    evidence_ids:
+    - ev-515911d6099d04df
+  next_validation: 官方定价页或功能文档，确认支持的文档类型和朗读语言。
+  market: ''
+  job: 用户在阅读文章或文档时，需要快速获取关键信息或理解内容，可能通过提问或听读来完成。
+  job_en: Users reading articles or documents need to quickly grasp key information or understand content,
+    possibly by asking questions or listening.
+  pain: 长文阅读耗时，难以快速定位答案；视觉疲劳或阅读障碍时无法舒适阅读。
+  pain_en: Reading long texts is time-consuming and hard to locate answers quickly; visual fatigue or
+    reading difficulties hinder comfortable reading.
+  current_alternative: 目前用户可能使用浏览器查找、手动滚动定位，或使用系统自带的朗读功能，但这些方式效率低或体验差。
+  current_alternative_en: Currently users may use browser search, manual scrolling, or built-in text-to-speech,
+    which are inefficient or poor in experience.
+  usage_reason: 免费且集成问答与朗读，省去切换多个工具的麻烦，对需要快速理解长内容的用户有吸引力。
+  usage_reason_en: Free and integrates Q&A with read-aloud, saving the hassle of switching tools, appealing
+    to users who need to quickly understand long content.

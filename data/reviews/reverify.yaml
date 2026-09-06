@@ -1,0 +1,40 @@
+- id: req-initial-reverify-2026-09-06
+  project_slug: reverify
+  level: initial
+  reviewed_at: '2026-09-06T09:14:25Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决逆向分析中大模型幻觉与上下文丢失痛点，通过确定性工具核对字节真值形成刚性工作流闭环。
+    evidence_ids:
+    - ev-e0b4486cfb708a28
+  - gate: consensus
+    status: supported
+    reason: 开源后星数短期内增长至 927 且有 200 次分叉，在逆向与安全开发者圈层形成采用共识。
+    evidence_ids:
+    - ev-ea209d677ee2c33c
+  - gate: model
+    status: insufficient
+    reason: 当前作为开源 MCP 服务端与命令行工具发布，商业化路径和付费模式尚无公开披露。
+    evidence_ids:
+    - ev-4128cdf0ebcc3d84
+  - gate: truth
+    status: supported
+    reason: 采用模型提假设、确定性工具验真架构，直接在真实二进制字节层面给出可核对证据。
+    evidence_ids:
+    - ev-1e804b0bb069a587
+  next_validation: 跟踪后续版本是否发布企业级安全分析插件或支持反编译商业软件的集成方案。
+  market: ''
+  job: 逆向工程分析二进制文件并推断底层逻辑与安全漏洞
+  job_en: Reverse engineer binary files to deduce underlying logic and security vulnerabilities
+  pain: 大模型直接分析二进制时极易产生幻觉瞎猜结构，导致分析结论失真且跨上下文时丢失事实
+  pain_en: LLMs frequently hallucinate binary structures, causing distorted findings and lost facts across
+    context resets
+  current_alternative: 人工使用反编译工具单步调试核对，或手动验证大模型给出的猜想
+  current_alternative_en: Manually verify using disassemblers or step-by-step debugging to validate LLM
+    suggestions
+  usage_reason: 将大模型假设与确定性工具字节比对绑定，输出可核实证据并锁定已知事实
+  usage_reason_en: Binds LLM hypotheses with deterministic byte-level tool checks, returning grounded
+    proof and retaining verified facts

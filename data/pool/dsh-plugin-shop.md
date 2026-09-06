@@ -2,17 +2,25 @@
 slug: dsh-plugin-shop
 name: dsh-plugin-shop
 builder: LivXue
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 一个 DeepSeek Harness 插件市场，每日更新，从互联网收集插件并在发布前进行审核。具体插件数量、分类和审核流程未披露。
+inspiration: 插件市场模式表明 DeepSeek 生态正在形成，但作为聚合目录，自身价值有限。切入方向是垂直领域的插件分发或质量审核，但需明确用户获取插件的痛点。
+summary_en: A plugin marketplace for DeepSeek Harness, refreshed daily, sourcing plugins from the internet
+  and reviewing them before publishing. Specific plugin count, categories, and review process are not
+  disclosed.
+inspiration_en: The plugin marketplace model indicates a growing DeepSeek ecosystem, but as an aggregation
+  directory, its own value is limited. Entry point could be vertical plugin distribution or quality review,
+  but user pain points need clarification.
 priority_review: false
 project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
 open_source: true
@@ -22,7 +30,7 @@ summary: The most comprehensive DeepSeek Harness plugin market — refreshed dai
   reviewed before publishing.
 first_seen: '2026-08-25T05:16:32Z'
 last_seen: '2026-09-06T09:14:25Z'
-status: pending_filter
+status: watching
 sources:
 - github
 sightings:

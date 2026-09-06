@@ -21,7 +21,7 @@ canonical_url: https://ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transfo
 summary: Tools and Transformation
 first_seen: '2026-09-06T02:12:46Z'
 last_seen: '2026-09-06T09:14:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - marketfeeds
