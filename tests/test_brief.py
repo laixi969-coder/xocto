@@ -858,6 +858,8 @@ class BriefTests(unittest.TestCase):
             store.save_product(product("beta"))
 
             with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
+                "xocto.brief._PARALLEL_BATCH_WORKERS", 1
+            ), patch(
                 "xocto.brief._request",
                 side_effect=[market_context("alpha"), BriefError("second batch failed")],
             ):
@@ -869,6 +871,8 @@ class BriefTests(unittest.TestCase):
             self.assertEqual(store.load_product("alpha").status, STATUS_PENDING_FILTER)
 
             with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
+                "xocto.brief._PARALLEL_BATCH_WORKERS", 1
+            ), patch(
                 "xocto.brief._request",
                 side_effect=[market_context("beta"), report],
             ) as request:

@@ -150,7 +150,7 @@
     </div>
 
     <div class="grid directory" id="grid">
-      {% for p in products %}
+      {% for p in directory_products %}
       <a class="card {{ 'card-proven' if p.stage_key == 'proven' }}"
          href="{{ root }}p/{{ p.slug }}.html"
          data-category="{{ p.category }}" data-project-type="{{ p.project_type }}" data-industry="{{ p.industries | join('||') }}" data-job="{{ p.jobs | join('||') }}" data-region="{{ p.regions | join('||') }}" data-open-source="{{ 'true' if p.open_source else '' }}" data-cross-market="{{ 'true' if p.cross_market else '' }}" data-req="{{ p.req.signal if p.req else '' }}" data-discovered="{{ p.discovered_at }}" data-form="{{ p.form_key }}" data-stage="{{ p.stage_key }}" data-status="{{ p.status }}"

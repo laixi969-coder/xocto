@@ -567,7 +567,7 @@ def _run_batches_parallel(process: Any, batches: list[Any], on_result: Any) -> N
     """
     outcomes: list[Any] = [None] * len(batches)
     first_error: tuple[int, BaseException] | None = None
-    if len(batches) <= 1:
+    if len(batches) <= 1 or _PARALLEL_BATCH_WORKERS <= 1:
         for index, batch in enumerate(batches):
             try:
                 outcomes[index] = process(batch)

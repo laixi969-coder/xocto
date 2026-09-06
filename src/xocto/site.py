@@ -1530,6 +1530,12 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "opportunity_filters": opportunity_filters,
         "form_keys": FORM_KEYS,
         "form_counts": form_counts,
+        # 机会库目录页只要能判断"要不要点进去"；完整说明在详情页。
+        # 全量摘要把单页 HTML 顶过解析预算，列表页用截断副本。
+        "directory_products": sorted(
+            ({**v, "summary": v["summary"][:160]} if v["summary"] else v for v in views),
+            key=lambda v: (-v["opportunity_rank"], -v["weight"], v["name"]),
+        ),
         "products": sorted(views, key=lambda v: (-v["opportunity_rank"], -v["weight"], v["name"])),
         "takeaways_by_topic": takeaways_by_topic,
         "today_takeaway": today_takeaway,
