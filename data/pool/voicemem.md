@@ -33,17 +33,17 @@ url: https://github.com/xzf-thu/VoiceMem
 canonical_url: https://github.com/xzf-thu/VoiceMem
 summary: a real-time and empathetic memory system for voice assistants
 first_seen: '2026-08-17T09:49:10Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T00:58:33Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xzf-thu/VoiceMem
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T00:58:33Z'
   metrics:
-    stars: 751
-    forks: 62
+    stars: 753
+    forks: 63
     open_issues: 6
   kind: product
 ---

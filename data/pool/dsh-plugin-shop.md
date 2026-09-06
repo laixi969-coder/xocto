@@ -21,16 +21,16 @@ canonical_url: https://github.com/LivXue/dsh-plugin-shop
 summary: The most comprehensive DeepSeek Harness plugin market — refreshed daily, sourced across the Internet,
   reviewed before publishing.
 first_seen: '2026-08-25T05:16:32Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T00:58:33Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/LivXue/dsh-plugin-shop
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T00:58:33Z'
   metrics:
-    stars: 161
+    stars: 223
     forks: 2
     open_issues: 5
   kind: product

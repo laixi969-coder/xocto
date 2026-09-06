@@ -1,0 +1,20 @@
+- id: ev-90abfa53ab3c63b9
+  project_slug: okf-agent-memory
+  url: https://github.com/okf-memory/okf-agent-memory
+  title: OKF Agent Memory
+  published_at: '2026-09-05T22:15:52Z'
+  collected_at: '2026-09-06T00:58:30Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Git-native persistent memory for AI coding agents
+- id: ev-4e34561d0c93e760
+  project_slug: okf-agent-memory
+  url: https://github.com/okf-memory/okf-agent-memory
+  title: okf-agent-memory
+  published_at: '2026-09-05T21:26:04Z'
+  collected_at: '2026-09-06T00:58:33Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs
+    in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80%
+    with zero external databases or dependencies. Built in pure Go. | repository stars: 61'

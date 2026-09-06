@@ -20,17 +20,17 @@ url: https://opentrailpaper.com
 canonical_url: https://opentrailpaper.com
 summary: Open-Source eInk Bike Computer
 first_seen: '2026-09-04T17:18:08Z'
-last_seen: '2026-09-05T23:54:01Z'
+last_seen: '2026-09-06T00:58:30Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://opentrailpaper.com
-  seen_at: '2026-09-05T23:54:01Z'
+  seen_at: '2026-09-06T00:58:30Z'
   metrics:
-    points: 387
-    comments: 117
+    points: 388
+    comments: 118
   kind: product
 ---
 

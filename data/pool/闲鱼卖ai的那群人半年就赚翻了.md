@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQWm1PdlZKemZSbnJwNWNHTz
 canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQWm1PdlZKemZSbnJwNWNHTzVFTWJDZkM3U3VhTHJlTE5QUW9uc0ozTkZVWThib2pmcDY4bDFWSVhLenBaZ24wQ1JLVHdRbERCbVViR09ibWotczUydzZrVmhKNkd2VzN0ak11OVI1TnRMbl9KNkRncFBiR1BucDlvOUY3VERPTzlWNklkaHV4QTNBMW5pY3oxWQ?oc=5
 summary: 闲鱼卖AI的那群人，半年就赚翻了 新浪财经
 first_seen: '2026-09-05T20:15:08Z'
-last_seen: '2026-09-05T23:54:29Z'
+last_seen: '2026-09-06T00:59:06Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQWm1PdlZKemZSbnJwNWNHTzVFTWJDZkM3U3VhTHJlTE5QUW9uc0ozTkZVWThib2pmcDY4bDFWSVhLenBaZ24wQ1JLVHdRbERCbVViR09ibWotczUydzZrVmhKNkd2VzN0ak11OVI1TnRMbl9KNkRncFBiR1BucDlvOUY3VERPTzlWNklkaHV4QTNBMW5pY3oxWQ?oc=5
   seen_at: '2026-09-05T23:54:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9UZXpUMG40NTdtSTNzWm0ybzF4eVIxY1dtOGo3dVFIR2xwckJWS0FxXzViN2pYdE01SVEtZHZNQk9vS3JIN29OR2J5ZEI4X0JyOW1JWTF2WDVWa2g2SGxQTzg1QTZ3Z1NXYTY3RnFtQ2lRek5YQ2dTYkNKdWFmcjQ?oc=5
+  seen_at: '2026-09-06T00:59:06Z'
   metrics: {}
   kind: news
 ---
