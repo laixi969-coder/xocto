@@ -23,7 +23,7 @@ summary: ChatGPT Ads reaches $1 billion in annualized revenue run rate and expan
   broader access to AI through free and affordable options.
 first_seen: '2026-08-31T04:00:00Z'
 last_seen: '2026-09-06T13:15:47Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - newssearch

@@ -1,0 +1,38 @@
+- id: req-initial-github-4-2026-09-06
+  project_slug: github-4
+  level: initial
+  reviewed_at: '2026-09-06T13:15:13Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：多代理开发者的终端管理混乱。痛点具体且频繁，不采用的代价是效率低下和成本失控。
+    evidence_ids:
+    - ev-0d0d4102f5bb4544
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式和付费路径不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 官方定价页或用户评价，以验证付费意愿和采用情况。
+  market: ''
+  job: 开发者需要在多个 AI 编码代理之间切换和管理任务，避免在多个终端窗口中迷失。
+  job_en: Developers need to switch and manage tasks across multiple AI coding agents, avoiding getting
+    lost in multiple terminal windows.
+  pain: 多个终端窗口导致任务状态不清晰、切换效率低、长提示词编辑困难、Token 成本难以追踪。
+  pain_en: Multiple terminal windows cause unclear task status, inefficient switching, difficult long-prompt
+    editing, and hard-to-track token costs.
+  current_alternative: 目前开发者手动在多个终端窗口之间切换，或使用单一代理以避免混乱。
+  current_alternative_en: Currently developers manually switch between multiple terminal windows or stick
+    to a single agent to avoid chaos.
+  usage_reason: 开发者已经使用多个代理，CoDock 提供统一界面和状态提醒，减少切换成本，因此有采用动机。
+  usage_reason_en: Developers already use multiple agents; CoDock offers a unified interface and status
+    alerts, reducing switching costs, thus motivating adoption.

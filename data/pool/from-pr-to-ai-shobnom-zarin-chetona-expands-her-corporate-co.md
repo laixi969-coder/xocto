@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNFlVdml1NmhO
 summary: 'From PR to AI: Shobnom Zarin Chetona expands her corporate communications leadership daily-sun.com'
 first_seen: '2026-09-06T09:21:39Z'
 last_seen: '2026-09-06T13:15:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

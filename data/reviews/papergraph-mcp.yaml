@@ -1,0 +1,41 @@
+- id: req-initial-papergraph-mcp-2026-09-06
+  project_slug: papergraph-mcp
+  level: initial
+  reviewed_at: '2026-09-06T13:15:20Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决研究人员和 AI 代理理解数学论文定理依赖的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-832374c2a8ebf874
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目已有数十位社区用户关注，但缺乏用户反馈或持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-832374c2a8ebf874
+  - gate: model
+    status: insufficient
+    reason: 作为开源工具，商业模式不清晰，可能依赖捐赠或后续服务。
+    evidence_ids:
+    - ev-832374c2a8ebf874
+  - gate: truth
+    status: supported
+    reason: 工具贴近学术研究的第一性目标，解析结果可验证，安全风险低。
+    evidence_ids:
+    - ev-832374c2a8ebf874
+  next_validation: 检查该开源项目代码仓库的 issue 与讨论区，寻找用户反馈和实际使用案例。
+  market: ''
+  job: 研究人员或 AI 代理需要理解数学论文中定理之间的依赖关系，以进行文献综述或推理。
+  job_en: Researchers or AI agents need to understand the dependency relationships between theorems in
+    mathematical papers for literature review or reasoning.
+  pain: 手动梳理定理依赖耗时且易错，AI 代理直接阅读论文时难以准确提取结构化关系。
+  pain_en: Manually mapping theorem dependencies is time-consuming and error-prone; AI agents reading
+    papers directly struggle to extract structured relationships accurately.
+  current_alternative: 目前研究人员手动阅读论文并绘制依赖图，或使用通用文本解析工具，但缺乏专门针对定理的解析。
+  current_alternative_en: Currently, researchers manually read papers and draw dependency graphs, or use
+    general text parsing tools, but lack specialized theorem parsing.
+  usage_reason: 该工具提供专门针对数学论文的解析，可能节省研究人员时间，并增强 AI 代理的推理能力。
+  usage_reason_en: This tool offers specialized parsing for mathematical papers, potentially saving researchers
+    time and enhancing AI agents' reasoning capabilities.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxNV2RBWFhqcFY5
 summary: AI startup founded by two Bangladeshi students raises over $30,000 in funding The Daily Star
 first_seen: '2026-09-06T12:55:50Z'
 last_seen: '2026-09-06T13:15:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

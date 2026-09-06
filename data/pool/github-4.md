@@ -1,20 +1,35 @@
 ---
 slug: github-4
-name: Github
+name: CoDock
 builder: qw4941737582024
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: CoDock 是一个本地桌面工作台，让开发者在统一界面中并行运行和管理多个 AI 编码代理（如 Claude Code、Codex 等）。它接收代理的终端输出，提供任务状态提醒、Token
+  用量看板和长提示词编辑器，最终交付一个集中管理多个编码任务的界面。
+inspiration: 随着开发者同时使用多个编码代理，终端管理成为痛点。趋势是编码工作流从单一代理走向多代理协作，切入点是提供跨代理的统一界面和成本监控，未来可扩展至团队协作和结果交付。
+summary_en: CoDock is a local desktop workbench that lets developers run and manage multiple AI coding
+  agents (e.g., Claude Code, Codex) in a unified interface. It ingests terminal output from agents, provides
+  task status alerts, token usage dashboards, and a long-prompt editor, delivering a centralized interface
+  for managing multiple coding tasks.
+inspiration_en: As developers use multiple coding agents simultaneously, terminal management becomes a
+  pain point. The trend is coding workflows moving from single-agent to multi-agent collaboration; entry
+  point is providing a unified cross-agent interface and cost monitoring, with future expansion to team
+  collaboration and result delivery.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 软件工程师
+- AI 编码代理用户
+jobs_en:
+- Software Engineer
+- AI coding agent user
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: https://github.com/juejijianghuaa/CoDock-Release/releases/latest
 canonical_url: https://github.com/juejijianghuaa/CoDock-Release/releases/latest
@@ -38,7 +53,7 @@ summary: "# 每天在十几个终端窗口里切来切去？我做了一个本�
   \ bug ，非常欢迎在 GitHub Issue 或帖子里留言交流，如果觉得对你的日常 Coding 有帮助，也欢迎给发布仓点个 ⭐️ Star 支持一下！"
 first_seen: '2026-09-05T10:47:54Z'
 last_seen: '2026-09-06T13:15:13Z'
-status: pending_filter
+status: queued
 sources:
 - v2ex
 sightings:
@@ -50,7 +65,7 @@ sightings:
   kind: product
 ---
 
-# Github
+# CoDock
 
 # 每天在十几个终端窗口里切来切去？我做了一个本地 Coding Agent 工作台：CoDock
 

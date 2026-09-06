@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBjN0NsV2l5bjhR
 summary: 艾尚体育链接发布智能分区洗衣机Pro：双舱+AI投放，售价5999元起 体坛
 first_seen: '2026-09-05T21:13:55Z'
 last_seen: '2026-09-06T13:15:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE9mbFgtTmktU3Bp
 summary: Corvic AI – Weekly Recap TipRanks
 first_seen: '2026-09-05T13:39:57Z'
 last_seen: '2026-09-06T13:15:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

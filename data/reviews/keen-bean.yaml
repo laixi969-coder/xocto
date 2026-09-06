@@ -1,0 +1,40 @@
+- id: req-initial-keen-bean-2026-09-06
+  project_slug: keen-bean
+  level: initial
+  reviewed_at: '2026-09-06T13:15:16Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把会上口头讨论落成规格文档的需求，痛点是会后凭记忆补写费时易漏；由实时语音直接成稿属工作流推理，尚缺用户评价佐证。
+    evidence_ids:
+    - ev-2c70901f582ee4dc
+  - gate: consensus
+    status: insufficient
+    reason: 发布当日社区讨论仅 11 赞 4 评，属一次曝光级关注，卡在感知环节；尚无持续使用、收藏或复访等可归因到产品的采用证据。
+    evidence_ids:
+    - ev-2c70901f582ee4dc
+  - gate: model
+    status: insufficient
+    reason: 尚无定价页，付费方可能是产品与研发团队的席位订阅或按团队收费，这是判断不是已验证事实；需计费方式公开后复核。
+    evidence_ids:
+    - ev-2c70901f582ee4dc
+  - gate: truth
+    status: insufficient
+    reason: 口头讨论质量决定成稿可用性，spec 初稿难以确定性交付，需保留人工核对边界；功能贴近第一性目标但交付可靠性未证实。
+    evidence_ids:
+    - ev-2c70901f582ee4dc
+  next_validation: 核验产品官网是否上线定价页并写明按席位还是按文档计费。
+  market: ''
+  job: 在产品或项目会议中把口头讨论落成可执行的规格说明文档。
+  job_en: Turn spoken discussion in product or project meetings into an executable specification document.
+  pain: 会后凭记忆和录音补写规格，耗时且容易遗漏口头达成的细节与承诺。
+  pain_en: Writing specs after the meeting from memory and recordings is slow and omits details agreed
+    verbally.
+  current_alternative: 人工记录会议纪要、会后翻录音，或先用通用转写工具再手写整理成规格。
+  current_alternative_en: Manual meeting notes, replaying recordings, or generic transcription tools followed
+    by hand-writing the spec.
+  usage_reason: 散会即得可编辑的 spec 初稿，省去转写与整理环节，用户只需核对修改。
+  usage_reason_en: An editable spec draft exists by the end of the meeting, cutting transcription and
+    reorganization; users only review and revise.

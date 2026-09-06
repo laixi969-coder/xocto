@@ -1,0 +1,40 @@
+- id: req-initial-知乎ai-works功能更新支持应用一键部署-2-2026-09-06
+  project_slug: 知乎ai-works功能更新支持应用一键部署-2
+  level: initial
+  reviewed_at: '2026-09-06T13:15:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，具体工作流程和交付物待核验。
+    evidence_ids:
+    - ev-cc1cd6840470cc22
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或关注数据，无法判断共识。
+    evidence_ids:
+    - ev-cc1cd6840470cc22
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式不清晰。
+    evidence_ids:
+    - ev-cc1cd6840470cc22
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法进行。
+    evidence_ids:
+    - ev-cc1cd6840470cc22
+  next_validation: 查找知乎AI Works官方产品页面或文档，确认具体功能、目标用户和定价。
+  market: ''
+  job: 用户需要快速构建并部署AI应用，无需管理底层基础设施。
+  job_en: Users need to quickly build and deploy AI applications without managing underlying infrastructure.
+  pain: 传统应用部署涉及服务器配置、域名、运维等复杂步骤，耗时且需要专业技能。
+  pain_en: Traditional deployment involves complex steps like server configuration, domains, and operations,
+    which are time-consuming and require specialized skills.
+  current_alternative: 目前开发者可能使用云服务商（如阿里云、腾讯云）手动部署，或使用其他PaaS平台。
+  current_alternative_en: Currently, developers may manually deploy using cloud providers (e.g., Alibaba
+    Cloud, Tencent Cloud) or use other PaaS platforms.
+  usage_reason: 知乎AI Works可能吸引知乎生态内的开发者和企业，因其与知乎平台集成，便于利用知乎数据或分发。
+  usage_reason_en: Zhihu AI Works may attract developers and enterprises within Zhihu's ecosystem due
+    to integration with Zhihu platform, facilitating use of Zhihu data or distribution.

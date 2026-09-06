@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxPcWZjZ2ZLVmlf
 summary: AI智能体劫持网站互传任务答案 t.cj.sina.cn
 first_seen: '2026-09-06T11:08:38Z'
 last_seen: '2026-09-06T13:15:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

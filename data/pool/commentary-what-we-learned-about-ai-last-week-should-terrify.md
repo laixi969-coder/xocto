@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNbWhwSVNIRGkx
 summary: 'Commentary: What we learned about AI last week should terrify all of us Los Angeles Times'
 first_seen: '2026-09-06T10:00:00Z'
 last_seen: '2026-09-06T13:15:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
