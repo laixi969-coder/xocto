@@ -20,14 +20,22 @@ url: https://github.com/AniketWathore/Ramanujan
 canonical_url: https://github.com/AniketWathore/Ramanujan
 summary: Multi-Model Agent for Research in Computational Maths
 first_seen: '2026-09-06T12:08:24Z'
+<<<<<<< HEAD
 last_seen: '2026-09-06T15:05:39Z'
+=======
+last_seen: '2026-09-06T15:19:29Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/AniketWathore/Ramanujan
+<<<<<<< HEAD
   seen_at: '2026-09-06T15:05:39Z'
+=======
+  seen_at: '2026-09-06T15:19:29Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
   metrics:
     points: 5
     comments: 0

@@ -43,17 +43,28 @@ canonical_url: https://claude.com/solutions/commerce
 summary: Reference blueprint for building shopping and merchant agents with Claude. Examples in retail,
   commerce, telecom, and entertainment included.
 first_seen: '2026-09-01T12:30:12Z'
+<<<<<<< HEAD
 last_seen: '2026-09-06T15:05:43Z'
+=======
+last_seen: '2026-09-06T15:19:33Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://claude.com/solutions/commerce
+<<<<<<< HEAD
   seen_at: '2026-09-06T15:05:43Z'
   metrics:
     stars: 2179
     forks: 371
+=======
+  seen_at: '2026-09-06T15:19:33Z'
+  metrics:
+    stars: 2181
+    forks: 372
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
     open_issues: 4
   kind: product
 ---

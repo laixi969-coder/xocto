@@ -22,14 +22,19 @@ url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN2FVX1pscFF4N2h3aF85Rn
 canonical_url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN2FVX1pscFF4N2h3aF85RnFYaV9HcUowcHNDM0dsMzg0Y25Lbm5ldXI3QXNJSDN6TWN0cWEtakJoWnNzbTRId050NnN2SnpaWXRoakFnb084V1ZlU0NKdDZqM25kdkdTOEIyd25BbDl4Tkl6eFdIeXM1TmZsMWc2eU1Ebk5fQS1iYnRnX2VYWUNZamtvUTNGaHBsOEtiSFN5bU02WVBOWTJ0SV81Vk4xNzNFQktoYnU0X014blVhSjktc2wyWHZ4TXFhT1Utalhr?oc=5
 summary: 'GWRE Q2 Deep Dive: Strong Product Momentum Overshadowed by Cautious Outlook tradingview.com'
 first_seen: '2026-09-04T13:21:09Z'
-last_seen: '2026-09-06T11:02:09Z'
-status: market_context
+last_seen: '2026-09-06T15:20:04Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNN2FVX1pscFF4N2h3aF85RnFYaV9HcUowcHNDM0dsMzg0Y25Lbm5ldXI3QXNJSDN6TWN0cWEtakJoWnNzbTRId050NnN2SnpaWXRoakFnb084V1ZlU0NKdDZqM25kdkdTOEIyd25BbDl4Tkl6eFdIeXM1TmZsMWc2eU1Ebk5fQS1iYnRnX2VYWUNZamtvUTNGaHBsOEtiSFN5bU02WVBOWTJ0SV81Vk4xNzNFQktoYnU0X014blVhSjktc2wyWHZ4TXFhT1Utalhr?oc=5
   seen_at: '2026-09-06T11:02:09Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVExld0hkdEVJQVpmcnBxSGJaYmNhdWtjYm1xcEplZTZuNll5aV9mY080bUt3enlIelFpODFxLUNGN1dEbGhEcVhjNFlyMGtyZGtYWkpUV0VKalJjUnBuOERSekJaQlhrVy0yVnl2VGJUMU5zUnpUZklHaWMtd0hXVWxNMGFuYmFkVTdyc0lPX0RwVkJZRlI5VlVraENSbnZORlZTeUlqQnlDVy1RbW9NSUFyTnl2d2ZiZXZGaFpROGRGUmNQV2Exdm9BMW1HVEpOVEtnaHBibThIUHl4N3NB?oc=5
+  seen_at: '2026-09-06T15:20:04Z'
   metrics: {}
   kind: news
 ---

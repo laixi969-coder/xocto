@@ -20,14 +20,22 @@ url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlR2RNaTQwWUFiUGhVQXplSE
 canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlR2RNaTQwWUFiUGhVQXplSE1Eb1BEd2ZteW1UVXpaNG9YTDR4cmxpZ2YzRjNsdXpJckpnU19wZkdfT0swOHR4eUZIMnlBX29lRGQwTWYzUUZmUFBTTEtFZjBVX041QQ?oc=5
 summary: Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock BeInCrypto
 first_seen: '2026-09-04T03:00:00Z'
+<<<<<<< HEAD
 last_seen: '2026-09-06T15:06:13Z'
+=======
+last_seen: '2026-09-06T15:20:04Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
 status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlR2RNaTQwWUFiUGhVQXplSE1Eb1BEd2ZteW1UVXpaNG9YTDR4cmxpZ2YzRjNsdXpJckpnU19wZkdfT0swOHR4eUZIMnlBX29lRGQwTWYzUUZmUFBTTEtFZjBVX041QQ?oc=5
+<<<<<<< HEAD
   seen_at: '2026-09-06T15:06:13Z'
+=======
+  seen_at: '2026-09-06T15:20:04Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
   metrics: {}
   kind: news
 ---

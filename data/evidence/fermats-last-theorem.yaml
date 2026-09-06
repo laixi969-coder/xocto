@@ -230,12 +230,23 @@
   source_kind: open_source
   tier: behavioural
   fact: 'repository stars: 777'
+<<<<<<< HEAD
 - id: ev-2ce1f433155e0353
+=======
+- id: ev-3aea47caa52df614
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
   project_slug: fermats-last-theorem
   url: https://github.com/anthropics/fermats-last-theorem
   title: fermats-last-theorem
   published_at: '2026-09-04T14:21:04Z'
+<<<<<<< HEAD
   collected_at: '2026-09-06T15:05:43Z'
   source_kind: open_source
   tier: behavioural
   fact: 'repository stars: 788'
+=======
+  collected_at: '2026-09-06T15:19:33Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'repository stars: 790'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)

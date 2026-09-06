@@ -33,16 +33,26 @@ canonical_url: https://github.com/2akouwu/reverify
 summary: 'Verified reverse engineering: AI RE grounded on deterministic tools - results checked against
   the binary, not hallucinated.'
 first_seen: '2026-08-31T01:02:18Z'
+<<<<<<< HEAD
 last_seen: '2026-09-06T15:05:43Z'
+=======
+last_seen: '2026-09-06T15:19:33Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/2akouwu/reverify
+<<<<<<< HEAD
   seen_at: '2026-09-06T15:05:43Z'
   metrics:
     stars: 943
+=======
+  seen_at: '2026-09-06T15:19:33Z'
+  metrics:
+    stars: 944
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
     forks: 202
     open_issues: 3
   kind: product

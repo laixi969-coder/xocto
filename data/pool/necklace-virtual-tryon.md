@@ -20,14 +20,22 @@ url: https://huggingface.co/spaces/ZeroOne09/necklace-virtual-tryon
 canonical_url: https://huggingface.co/spaces/ZeroOne09/necklace-virtual-tryon
 summary: AI-powered virtual try-on for Indian jewellery using FLUX.2
 first_seen: '2026-09-05T17:27:31Z'
+<<<<<<< HEAD
 last_seen: '2026-09-06T15:06:04Z'
+=======
+last_seen: '2026-09-06T15:19:55Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
 status: pending_filter
 sources:
 - huggingface
 sightings:
 - source: huggingface
   url: https://huggingface.co/spaces/ZeroOne09/necklace-virtual-tryon
+<<<<<<< HEAD
   seen_at: '2026-09-06T15:06:04Z'
+=======
+  seen_at: '2026-09-06T15:19:55Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
   metrics:
     likes: 2
   kind: product

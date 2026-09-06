@@ -27,14 +27,22 @@ summary: "The purpose of DNS is to spread scams   \nTerence Eden shares some dau
   \ That's a bloody crisis. \n \n I had no idea. Apparently ICANN have been discussing this problem for\
   \ years.\n\n\n     Tags:  dns ,  scams ,  terence-eden"
 first_seen: '2026-09-06T14:40:07Z'
+<<<<<<< HEAD
 last_seen: '2026-09-06T15:06:06Z'
+=======
+last_seen: '2026-09-06T15:19:57Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
 status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/
+<<<<<<< HEAD
   seen_at: '2026-09-06T15:06:06Z'
+=======
+  seen_at: '2026-09-06T15:19:57Z'
+>>>>>>> a677347 (chore: 每日采集 2026-09-06)
   metrics: {}
   kind: news
 ---
