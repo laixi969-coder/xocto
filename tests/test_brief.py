@@ -37,7 +37,7 @@ from xocto.brief import (
     report_context,
     run,
 )
-from xocto.models import Evidence, Product, RawItem, STATUS_MARKET_CONTEXT, STATUS_PENDING_FILTER, Sighting
+from xocto.models import Evidence, Product, RawItem, STATUS_MARKET_CONTEXT, STATUS_PENDING_FILTER, STATUS_WATCHING, Sighting
 from xocto.store import Store
 
 
@@ -900,19 +900,19 @@ class BriefTests(unittest.TestCase):
             "report": {
                 "hook_zh": "企业采购正在转向可持续交付",
                 "highlights_zh": ["一个市场变化已完成判断"],
-                "body_zh": "## 本期判断\n\n采购与交付方式正在变化。",
+                "body_zh": "## 本期判断\n\nAlpha 与采购交付方式正在变化。",
                 "hook_en": "Enterprise buying is shifting toward durable delivery",
                 "highlights_en": ["One market shift completed assessment"],
-                "body_en": "## Edition call\n\nBuying and delivery patterns are changing.",
+                "body_en": "## Edition call\n\nAlpha and buying patterns are changing.",
             }
         }
 
         def fake_request(messages: list[dict[str, str]]) -> dict:
+            if "<candidates_json>" not in messages[1]["content"]:
+                return report
             if "alpha" in messages[1]["content"]:
                 return broken("alpha")
-            if "beta" in messages[1]["content"]:
-                return valid_beta
-            return report
+            return valid_beta
 
         def prepare(tmp: str) -> Store:
             store = Store(Path(tmp))
@@ -938,15 +938,22 @@ class BriefTests(unittest.TestCase):
             self.assertEqual(store.load_product("beta").status, STATUS_MARKET_CONTEXT)
             self.assertTrue(store.report_path(DAY).exists())
 
-        # 重大项目的批次不许静默跳过：必须让整天失败并触发工作流重试。
+        # 重大项目屡被降级时由兜底接管：留在机会流里（watching + 基础初判），
+        # 日报必须点名它，而不是让全天判断失败。
         with tempfile.TemporaryDirectory() as tmp:
             store = prepare(tmp)
             store.save_product(replace(store.load_product("alpha"), priority_review=True))
             with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
-                "xocto.brief._request", side_effect=lambda messages: broken("alpha")
+                "xocto.brief._request", side_effect=fake_request
             ):
-                with self.assertRaises(BriefError):
-                    run(store, day=DAY)
+                run(store, day=DAY)
+
+            rescued = store.load_product("alpha")
+            self.assertEqual(rescued.status, STATUS_WATCHING)
+            self.assertTrue(rescued.category)
+            reviews = store.read_req_reviews("alpha")
+            self.assertTrue(reviews)
+            self.assertTrue(store.report_path(DAY).exists())
 
 
 if __name__ == "__main__":

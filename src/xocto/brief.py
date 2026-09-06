@@ -1221,6 +1221,118 @@ def _require_isolatable(batch: list[Product], exc: BriefError) -> None:
     print(f"! 本批 {len(batch)} 个候选屡修未过，跳过留待下次运行：{exc}", flush=True)
 
 
+_PRIORITY_DEFAULTS = {
+    "summary_zh": "该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。",
+    "summary_en": "This AI offering introduces a new capability, but public evidence is not yet sufficient to confirm its workflow value.",
+    "inspiration": "先验证目标团队是否会在真实工作流中持续使用，再决定是否值得投入。",
+    "inspiration_en": "Validate sustained use in a real workflow before deciding whether the opportunity merits investment.",
+    "event_summary_zh": "该对象出现新的公开进展，具体影响仍需进一步核验。",
+    "event_summary_en": "A new public development emerged for this offering; its concrete impact still requires validation.",
+}
+
+
+def _rescue_interpretation_rows(result: dict[str, Any], batch: list[Product]) -> dict[str, Any]:
+    """重大项目在轻量解释里被降级时的确定性兜底：一律解释为可追踪实体。
+
+    实体随后会进入完整判断；若模型仍不肯给 watching/queued，那里还有
+    `_rescue_priority_rows` 接手。被降级的行缺实体所需的名称与事件摘要时，
+    用档案里的保守默认补齐。
+    """
+    rows = result.get("products")
+    if not isinstance(rows, list):
+        return result
+    by_slug = {product.slug: product for product in batch}
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        product = by_slug.get(str(row.get("slug") or ""))
+        if product is None or not product.priority_review:
+            continue
+        if row.get("decision") == "entity":
+            continue
+        row["decision"] = "entity"
+        if not str(row.get("name") or "").strip():
+            row["name"] = product.name
+        for field, default in _PRIORITY_DEFAULTS.items():
+            if not str(row.get(field) or "").strip():
+                row[field] = default
+        print(f"! 重大项目 {product.slug} 在解释层被降级，已兜底为可追踪实体", flush=True)
+    return result
+
+
+def _rescue_priority_rows(
+    result: dict[str, Any], batch: list[Product], store: Store, day: date
+) -> dict[str, Any]:
+    """完整判断里重大项目屡被淘汰/降级时的最后兜底：留在机会流内。
+
+    校验规则禁止重大项目被静默淘汰或降为市场背景；模型连续修复仍不改口时，
+    与其让全天判断反复失败，不如确定性地给它最保守的 watching：公开文案用
+    保守默认，`/req` 初判与 seed-req 同源（最低诚实版本），后续完整 `/req`
+    会以同一稳定 ID 升级它。
+    """
+    rows = result.get("products")
+    if not isinstance(rows, list):
+        return result
+    by_slug = {product.slug: product for product in batch}
+    # req_review 顶部反向导入 brief，这里延迟导入避免循环依赖。
+    from .req_review import _baseline_initial_review
+
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        product = by_slug.get(str(row.get("slug") or ""))
+        if product is None or not product.priority_review:
+            continue
+        demoted = row.get("decision") in {STATUS_REJECTED, STATUS_MARKET_CONTEXT}
+        if demoted:
+            row["decision"] = STATUS_WATCHING
+        if row.get("decision") not in {STATUS_QUEUED, STATUS_WATCHING}:
+            continue
+        # 降级改回 watching 之后，或模型给了 watching 但字段不全时，把
+        # 必填字段补到可发布；模型已给出的字段一律保留。
+        review = _baseline_initial_review(
+            product, store.read_evidence(product.slug), day, product.last_seen
+        )
+        if row.get("category") not in CATEGORIES:
+            row["category"] = "AI + 开发" if product.project_type == "open_source" else "AI + 效率"
+        if row.get("project_type") not in PROJECT_TYPES:
+            row["project_type"] = product.project_type or "new_application"
+        for field in ("industries", "industries_en", "jobs", "jobs_en", "regions", "regions_en"):
+            if not isinstance(row.get(field), list):
+                row[field] = []
+        if not isinstance(row.get("open_source"), bool):
+            row["open_source"] = product.open_source
+        for field, default in _PRIORITY_DEFAULTS.items():
+            if not str(row.get(field) or "").strip():
+                row[field] = default
+        if not isinstance(row.get("req_initial"), dict):
+            row["req_initial"] = {
+                "verdict": review.verdict,
+                "signal_level": review.signal_level,
+                "demand_read": {
+                    "job_zh": review.job, "job_en": review.job_en,
+                    "pain_zh": review.pain, "pain_en": review.pain_en,
+                    "current_alternative_zh": review.current_alternative,
+                    "current_alternative_en": review.current_alternative_en,
+                    "usage_reason_zh": review.usage_reason,
+                    "usage_reason_en": review.usage_reason_en,
+                },
+                "gates": [
+                    {
+                        "gate": gate.gate, "status": gate.status,
+                        "reason": gate.reason, "evidence_ids": list(gate.evidence_ids),
+                    }
+                    for gate in review.gates
+                ],
+                "next_validation": review.next_validation,
+            }
+        if demoted:
+            print(f"! 重大项目 {product.slug} 屡被降级，已兜底为 watching 并写入基础初判", flush=True)
+        else:
+            print(f"! 重大项目 {product.slug} 判断字段不全，已按基础初判补齐", flush=True)
+    return result
+
+
 def _reject_empty_day_copy(texts: list[str], field: str) -> None:
     """空简报不是合法交卷：采集网开着时，写「今天没有」说明过滤没看见。"""
     blob = "\n".join(texts).casefold()
@@ -1317,6 +1429,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                     break
                 except BriefError as exc:
                     if attempt >= MAX_BATCH_REPAIRS:
+                        result = _rescue_interpretation_rows(result, batch)
                         result = _recover_missing_public_text(result, batch)
                         interpreted, entities, interpreted_events = _interpretations(result, batch)
                         break
@@ -1324,6 +1437,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                         result = _request(_validation_repair_messages(messages, result, exc))
                     except BriefError:
                         # 修复请求自身失败时不再丢掉整批判断，直接退到确定性兜底。
+                        result = _rescue_interpretation_rows(result, batch)
                         result = _recover_missing_public_text(result, batch)
                         interpreted, entities, interpreted_events = _interpretations(result, batch)
                         break
@@ -1408,6 +1522,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                     break
                 except BriefError as exc:
                     if attempt >= MAX_BATCH_REPAIRS:
+                        result = _rescue_priority_rows(result, batch, store, day)
                         result = _recover_missing_public_text(result, batch)
                         batch_updates = _updates(result, batch)
                         batch_reviews = _req_reviews(result, batch, store, day=day)
@@ -1417,6 +1532,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                         result = _request(_validation_repair_messages(messages, result, exc))
                     except BriefError:
                         # 修复请求自身失败时不再丢掉整批判断，直接退到确定性兜底。
+                        result = _rescue_priority_rows(result, batch, store, day)
                         result = _recover_missing_public_text(result, batch)
                         batch_updates = _updates(result, batch)
                         batch_reviews = _req_reviews(result, batch, store, day=day)
