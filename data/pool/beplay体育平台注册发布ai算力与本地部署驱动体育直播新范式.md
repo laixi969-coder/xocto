@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBcmR2S3JrMzdvQ1diQVZaWF
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBcmR2S3JrMzdvQ1diQVZaWFZMYmhDTHZvSnVDUzktcDBMS1ItNUZITWtNd2I3cy1zVm90bkRjSHY2Y29WRjBhRUYzNHdwR0s3ZHZz?oc=5
 summary: beplay体育平台注册发布：AI算力与本地部署驱动体育直播新范式 体坛
 first_seen: '2026-09-05T11:03:33Z'
-last_seen: '2026-09-05T23:54:29Z'
+last_seen: '2026-09-06T05:29:55Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBBcmR2S3JrMzdvQ1diQVZaWFZMYmhDTHZvSnVDUzktcDBMS1ItNUZITWtNd2I3cy1zVm90bkRjSHY2Y29WRjBhRUYzNHdwR0s3ZHZz?oc=5
   seen_at: '2026-09-05T23:54:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlMWhZSkE2QzNiV1U1QnBVeGU4VU9yWXRqa3ZwbEk4UHJxSTZuUUZRRzQwdm1YcFRvdTlNRllFZkFTdXlGSEJVZkpMbEt4MjI2anFRQw?oc=5
+  seen_at: '2026-09-06T05:29:55Z'
   metrics: {}
   kind: news
 ---

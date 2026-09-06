@@ -20,16 +20,16 @@ url: https://reefinfra.ai/docs/
 canonical_url: https://reefinfra.ai/docs
 summary: Continual learning infra for self-improving agents
 first_seen: '2026-08-31T01:39:18Z'
-last_seen: '2026-09-06T04:00:31Z'
+last_seen: '2026-09-06T05:29:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://reefinfra.ai/docs/
-  seen_at: '2026-09-06T04:00:31Z'
+  seen_at: '2026-09-06T05:29:28Z'
   metrics:
-    stars: 491
+    stars: 503
     forks: 38
     open_issues: 54
   kind: product

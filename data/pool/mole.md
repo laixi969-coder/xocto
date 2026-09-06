@@ -11,14 +11,23 @@ inspiration_en: 'The trend is deep research leaving browser plugins for the term
   box. Enter consulting, diligence, and policy shops that deliver reports. Judgement: per-brief reports
   map to budgets better than a chat window.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://github.com/lajosdeme/mole
 canonical_url: https://github.com/lajosdeme/mole
 summary: Deep research agent for your terminal
 first_seen: '2026-08-14T18:52:48Z'
-last_seen: '2026-08-15T22:37:12Z'
-status: queued
+last_seen: '2026-09-06T05:29:55Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://github.com/lajosdeme/mole
@@ -26,6 +35,12 @@ sightings:
   metrics:
     points: 89
     comments: 13
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTFB0YXJtNktEUG14WkE5ejFMMTMtZGZmNWJycUc4eXFhb0tSemtvV2RoRXZ3anFwM0xMb3VERnF1Nk9GeXRNNlE?oc=5
+  seen_at: '2026-09-06T05:29:55Z'
+  metrics: {}
+  kind: news
 ---
 
 # Mole

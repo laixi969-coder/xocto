@@ -20,17 +20,17 @@ url: https://www.techpolicy.press/americas-two-largest-school-districts-impose-a
 canonical_url: https://techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums
 summary: America's two largest school districts impose AI moratoriums
 first_seen: '2026-09-05T21:43:22Z'
-last_seen: '2026-09-06T04:00:20Z'
+last_seen: '2026-09-06T05:29:24Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums/
-  seen_at: '2026-09-06T04:00:20Z'
+  seen_at: '2026-09-06T05:29:24Z'
   metrics:
-    points: 54
-    comments: 66
+    points: 56
+    comments: 67
   kind: news
 ---
 
