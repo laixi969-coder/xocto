@@ -27,6 +27,8 @@ from xocto.brief import (
     _require_no_public_source_leaks,
     _require_priority_coverage,
     _req_reviews,
+    _estimate_payload_bytes,
+    _fit_messages,
     _split_batches,
     _updates,
     _validation_repair_messages,
@@ -165,6 +167,46 @@ class BriefTests(unittest.TestCase):
         self.assertLessEqual(len(compact["evidence"][0]["fact"]), 700)
         self.assertEqual(len(full["evidence"][0]["fact"]), 2000)
         self.assertLessEqual(len(compact["source_summary"]), 700)
+
+    def test_evidence_limit_keeps_only_the_most_recent_entries(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            item = product()
+            store.save_product(item)
+            for index in range(4):
+                store.append_evidence(Evidence(
+                    id=f"ev-{index}", project_slug="example",
+                    url=f"https://news.example/{index}",
+                    title=f"story {index}",
+                    published_at="2026-08-13T00:00:00Z",
+                    collected_at="2026-08-13T00:00:00Z",
+                    source_kind="market_signal",
+                    tier="independent",
+                    fact=f"fact {index}",
+                ))
+
+            limited = _candidate_data(store, item, evidence_limit=2)
+
+        self.assertEqual(
+            [row["id"] for row in limited["evidence"]], ["ev-2", "ev-3"]
+        )
+
+    def test_fit_messages_escalates_until_the_request_fits(self) -> None:
+        calls: list[tuple[bool, int | None]] = []
+
+        def build(items: list, compact: bool, limit: int | None) -> list[dict[str, str]]:
+            calls.append((compact, limit))
+            size = 35_000 if not compact or limit is None else 1_000 * limit
+            return [
+                {"role": "system", "content": "s"},
+                {"role": "user", "content": "x" * size},
+            ]
+
+        messages = _fit_messages([product()], build)
+
+        self.assertLessEqual(_estimate_payload_bytes(messages), 32000)
+        self.assertEqual(calls[-1], (True, 12))
+        self.assertEqual(calls[0], (False, None))
 
     def test_news_event_summary_falls_back_to_validated_product_copy(self) -> None:
         news = replace(

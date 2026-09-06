@@ -129,13 +129,19 @@ def candidates_for_day(store: Store, day: date) -> list[Product]:
     )
 
 
-def _candidate_data(store: Store, product: Product, *, compact: bool = False) -> dict[str, Any]:
+def _candidate_data(
+    store: Store, product: Product, *, compact: bool = False, evidence_limit: int | None = None
+) -> dict[str, Any]:
     metrics = [
         {"source": sighting.source, "metrics": sighting.metrics}
         for sighting in product.sightings
     ]
     summary = product.summary
     evidence = [evidence.to_dict() for evidence in store.read_evidence(product.slug)]
+    if evidence_limit is not None and len(evidence) > evidence_limit:
+        # 只保留最近的证据：闸门只要求引用的 id 存在于档案，取子集合法。
+        # 老产品会积累上百条证据，全量携带会把单条候选顶过请求体上限。
+        evidence = evidence[-evidence_limit:]
     if compact:
         # 单个候选仍装不进一次请求时截断长文本。id 和 url 保留，闸门的
         # evidence_ids 引用不受影响，只损失可引用的原文细节。
@@ -182,11 +188,14 @@ def _observation_only(product: Product) -> bool:
 
 
 def _interpretation_prompt(
-    store: Store, products: list[Product], *, compact: bool = False
+    store: Store, products: list[Product], *, compact: bool = False, evidence_limit: int | None = None
 ) -> list[dict[str, str]]:
     """轻量识别报道实际指向的对象，避免为每篇文章生成完整产品判定。"""
     payload = json.dumps(
-        [_candidate_data(store, product, compact=compact) for product in products],
+        [
+            _candidate_data(store, product, compact=compact, evidence_limit=evidence_limit)
+            for product in products
+        ],
         ensure_ascii=False,
     )
     system = """你是 xOcto 的发现信号解释器。输入都是报道、公告、财报或讨论，不是产品页；
@@ -345,9 +354,13 @@ def _prompt(
     previous_zh: str = "",
     previous_en: str = "",
     compact: bool = False,
+    evidence_limit: int | None = None,
 ) -> list[dict[str, str]]:
     candidates = json.dumps(
-        [_candidate_data(store, product, compact=compact) for product in products],
+        [
+            _candidate_data(store, product, compact=compact, evidence_limit=evidence_limit)
+            for product in products
+        ],
         ensure_ascii=False,
     )
     filter_rules = _read_config(store, "filter.md")
@@ -513,13 +526,18 @@ def _split_batches(
     return [products]
 
 
-def _batch_messages(
-    products: list[Product], build: Any
-) -> list[dict[str, str]]:
-    """构造一个批次的请求消息；整批仍超限时退到 compact 证据兜底。"""
-    messages = build(products, False)
-    if _estimate_payload_bytes(messages) > MAX_PAYLOAD_BYTES:
-        messages = build(products, True)
+def _fit_messages(batch: list[Product], build: Any) -> list[dict[str, str]]:
+    """构造必定能通过请求体预检的消息。
+
+    先压缩文本；仍超限说明证据条数太多（老产品会积累上百条证据），按
+    条数逐级递减，只保留最近的证据。闸门引用的 id 是档案的子集，校验
+    不受影响。build 签名：`(items, compact, evidence_limit)`。
+    """
+    messages: list[dict[str, str]] = []
+    for compact, limit in ((False, None), (True, None), (True, 12), (True, 6), (True, 3), (True, 1)):
+        messages = build(batch, compact, limit)
+        if _estimate_payload_bytes(messages) <= MAX_PAYLOAD_BYTES:
+            return messages
     return messages
 
 
@@ -1271,30 +1289,26 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         product for product in observation_products
         if product.slug not in progress["interpretation"]
     ]
-    # 预计算安全批次大小：用第一个产品估算 config 开销，避免逐批超限后才失败。
-    # 批内混进体积大得多的重候选时，再由 _split_batches 在调用方对半拆分。
-    interp_batch_size = INTERPRETATION_BATCH_SIZE
-    if pending_observation:
-        first_msg = _interpretation_prompt(store, pending_observation[:1])
-        overhead = _estimate_payload_bytes(first_msg)
-        if overhead > MAX_PAYLOAD_BYTES:
-            interp_batch_size = 1
-        elif overhead > MAX_PAYLOAD_BYTES // 2:
-            interp_batch_size = max(1, INTERPRETATION_BATCH_SIZE // 2)
+    # 固定小批次 + 调用方拆分 + _fit_messages 兜底，不再用首个候选预计算
+    # 批次大小：一个巨型候选会把全天批次错误地压成逐条请求。
     interp_groups = [
-        pending_observation[start:start + interp_batch_size]
-        for start in range(0, len(pending_observation), interp_batch_size)
+        pending_observation[start:start + INTERPRETATION_BATCH_SIZE]
+        for start in range(0, len(pending_observation), INTERPRETATION_BATCH_SIZE)
     ]
+
+    def interp_build(
+        items: list[Product], compact: bool, limit: int | None
+    ) -> list[dict[str, str]]:
+        return _interpretation_prompt(store, items, compact=compact, evidence_limit=limit)
+
     interp_batches = [
         batch
         for group in interp_groups
-        for batch in _split_batches(group, lambda items: _interpretation_prompt(store, items))
+        for batch in _split_batches(group, lambda items: interp_build(items, False, None))
     ]
     for index, batch in enumerate(interp_batches, start=1):
         print(f"解释批次 {index}/{len(interp_batches)}", flush=True)
-        messages = _interpretation_prompt(store, batch)
-        if _estimate_payload_bytes(messages) > MAX_PAYLOAD_BYTES:
-            messages = _interpretation_prompt(store, batch, compact=True)
+        messages = _fit_messages(batch, interp_build)
         result = _request(messages)
         try:
             for attempt in range(MAX_BATCH_REPAIRS + 1):
@@ -1362,31 +1376,28 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         event_summaries.update(cached_events)
 
     pending_full = [product for product in full_products if product.slug not in progress["full"]]
-    # 预计算安全批次大小：完整 prompt 包含 filter/template/req 配置，体积远大于解释 prompt。
-    full_batch_size = BRIEF_BATCH_SIZE
-    if pending_full:
-        first_msg = _prompt(store, day, pending_full[:1], [], previous_zh="", previous_en="")
-        overhead = _estimate_payload_bytes(first_msg)
-        if overhead > MAX_PAYLOAD_BYTES:
-            full_batch_size = 1
-        elif overhead > MAX_PAYLOAD_BYTES // 2:
-            full_batch_size = max(1, BRIEF_BATCH_SIZE // 2)
+    # 固定 4 条一批；重候选由 _split_batches 拆分、_fit_messages 压缩兜底。
     full_groups = [
-        pending_full[start:start + full_batch_size]
-        for start in range(0, len(pending_full), full_batch_size)
+        pending_full[start:start + BRIEF_BATCH_SIZE]
+        for start in range(0, len(pending_full), BRIEF_BATCH_SIZE)
     ]
+
+    def full_build(
+        items: list[Product], compact: bool, limit: int | None
+    ) -> list[dict[str, str]]:
+        return _prompt(
+            store, day, items, [], previous_zh="", previous_en="",
+            compact=compact, evidence_limit=limit,
+        )
+
     full_batches = [
         batch
         for group in full_groups
-        for batch in _split_batches(
-            group, lambda items: _prompt(store, day, items, [], previous_zh="", previous_en="")
-        )
+        for batch in _split_batches(group, lambda items: full_build(items, False, None))
     ]
     for index, batch in enumerate(full_batches, start=1):
         print(f"判断批次 {index}/{len(full_batches)}", flush=True)
-        messages = _prompt(store, day, batch, [], previous_zh="", previous_en="")
-        if _estimate_payload_bytes(messages) > MAX_PAYLOAD_BYTES:
-            messages = _prompt(store, day, batch, [], previous_zh="", previous_en="", compact=True)
+        messages = _fit_messages(batch, full_build)
         result = _request(messages)
         try:
             for attempt in range(MAX_BATCH_REPAIRS + 1):
