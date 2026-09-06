@@ -116,3 +116,41 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：商务出行者、休闲旅行者；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Business Travelers, Leisure Travelers
     The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-book-2026-09-05
+  project_slug: book
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它试图帮助用户完成：“计划出行、比价机票和酒店的用户在 Google Search 中打开 AI Mode，原来要自己开多个订票网站比价、反复查询票价涨跌”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。
+    evidence_ids:
+    - ev-f6fd3318fb928519
+  - gate: consensus
+    status: insufficient
+    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids:
+    - ev-ce1eaaae3b658b40
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''
+  job: 商务出行者、休闲旅行者
+  job_en: Business Travelers, Leisure Travelers
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：商务出行者、休闲旅行者；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Business Travelers, Leisure Travelers
+    The exact adoption motive and repeat use are not yet verified.'
