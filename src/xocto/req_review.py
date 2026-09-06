@@ -431,7 +431,8 @@ def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
             "industry": list(product.industries),
             "jobs": list(product.jobs),
             "evidence": [item.to_dict() for item in evidence],
-            "markets": [item.to_dict() for item in store.read_market_observations(product.slug)],
+            # 历史市场观察同样只带最近的，防止多次回填撑爆单条请求。
+            "markets": [item.to_dict() for item in store.read_market_observations(product.slug)][-8:],
             "initial_review": max((item.to_dict() for item in store.read_req_reviews(product.slug) if item.level == "initial"), key=lambda item: item["reviewed_at"], default={}),
         })
     req_path = store.config_dir / "req.md"

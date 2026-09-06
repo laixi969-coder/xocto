@@ -936,16 +936,34 @@ def _report_prompt(
         previous_zh = previous_zh[:2500]
         previous_en = previous_en[:2500]
         template = template[:4000]
+    if compact >= 3:
+        market = [
+            {**row,
+             "summary_zh": str(row.get("summary_zh") or "")[:100],
+             "summary_en": str(row.get("summary_en") or "")[:100]}
+            for row in news if row.get("kind") == "market_context"
+        ][:4]
+        plain = [
+            {**row, "summary": str(row.get("summary") or "")[:100]}
+            for row in news if row.get("kind") != "market_context"
+        ][:10]
+        news = [*market, *plain]
+        previous_zh = previous_zh[:1000]
+        previous_en = previous_en[:1000]
+        template = template[:2000]
     priorities = [product for product in products if product.priority_review]
-    limit = 10 if compact >= 2 else REPORT_PRODUCT_LIMIT
+    limit = {3: 8}.get(compact, 10 if compact >= 2 else REPORT_PRODUCT_LIMIT)
     selected = list(priorities)
     for product in products:
         if len(selected) >= limit:
             break
         if product.status in {STATUS_QUEUED, STATUS_WATCHING} and product not in selected:
             selected.append(product)
-    payload = [
-        {
+    if compact >= 3:
+        selected = selected[:8]
+    payload = []
+    for product in selected:
+        row = {
             "name": product.name,
             "decision": product.status,
             "summary_zh": product.summary_zh,
@@ -953,8 +971,13 @@ def _report_prompt(
             "inspiration": product.inspiration,
             "inspiration_en": product.inspiration_en,
         }
-        for product in selected
-    ]
+        if compact >= 3:
+            # 高级压缩下连产品文案也截断：日报只需要要点，原文在产品页。
+            row["summary_zh"] = row["summary_zh"][:100]
+            row["summary_en"] = row["summary_en"][:200]
+            row["inspiration"] = row["inspiration"][:60]
+            row["inspiration_en"] = row["inspiration_en"][:120]
+        payload.append(row)
     priority_names = "、".join(product.name for product in priorities) or "无"
     system = f"""你是 xOcto 的每日机会流编辑。只可依据输入内容写日报；不得补造团队、收入、客户、
 价格、市场空白或产品能力。采集渠道属于内部实现，任何输出不得出现渠道名称。
@@ -1627,12 +1650,14 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         day, edited_products, report_context(edited_products, news),
         previous_zh=previous_zh, previous_en=previous_en, template=report_template,
     )
-    # 模板与市场背景都计入体积预算；候选丰富的日子两级递减，保证发得出去。
+    # 模板与市场背景都计入体积预算；候选丰富的日子三级递减，保证发得出去。
     level = 0
-    while level < 2 and _estimate_payload_bytes(report_messages) > MAX_PAYLOAD_BYTES:
+    while level < 3 and _estimate_payload_bytes(report_messages) > MAX_PAYLOAD_BYTES:
         level += 1
         report_messages = _report_prompt(
-            day, edited_products, report_context(edited_products, news),
+            day, edited_products, report_context(
+                edited_products, news, market_limit={2: 8, 3: 5}.get(level, 12)
+            ),
             previous_zh=previous_zh, previous_en=previous_en,
             compact=level, template=report_template,
         )
