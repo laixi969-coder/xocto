@@ -16,7 +16,7 @@ from datetime import date
 from typing import Any
 from urllib.parse import urlencode
 
-from .brief import BriefError, _request, _split_batches
+from .brief import BriefError, _request, _split_batches, _validation_repair_messages
 from .models import (
     DEMAND_EVIDENCE_STATUSES,
     SUPPLY_STATUSES,
@@ -328,8 +328,21 @@ def run(store: Store, *, day: date, http: Http | None = None) -> MarketReport:
                 (product.slug, ecosystem): allowed[(product.slug, ecosystem)]
                 for product, ecosystem in batch_expected
             }
-            result = _request(_messages(batch_rows))
-            observations.extend(_validated_observations(result, batch_expected, batch_allowed, day))
+            messages = _messages(batch_rows)
+            result = _request(messages)
+            # 模型偶尔漏判批内个别 (产品, 生态) 组合；先让模型补全再判失败，
+            # 与 brief 的修复重试同一套口径。
+            for attempt in range(2):
+                try:
+                    batch_observations = _validated_observations(
+                        result, batch_expected, batch_allowed, day
+                    )
+                    break
+                except BriefError as exc:
+                    if attempt == 1:
+                        raise
+                    result = _request(_validation_repair_messages(messages, result, exc))
+            observations.extend(batch_observations)
     for observation in observations:
         store.append_market_observation(observation)
     return MarketReport(day, candidates=len({product.slug for product, _ in expected}), observations=len(observations))

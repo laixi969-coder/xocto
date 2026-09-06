@@ -13,7 +13,7 @@ from dataclasses import dataclass, replace
 from datetime import date
 from typing import Any
 
-from xocto.brief import BriefError, _request, _split_batches, _validation_repair_messages
+from xocto.brief import BriefError, _fit_messages, _request, _split_batches, _validation_repair_messages
 from xocto.demand import demand_read
 from xocto.models import (
     EVENT_REQ_CHANGE,
@@ -415,14 +415,32 @@ def candidates(store: Store, day: date) -> list[Any]:
     return sorted(selected + extras[:PROVEN_BACKFILL_LIMIT], key=lambda item: item.slug)
 
 
-def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
+def _messages(
+    products: list[Any], store: Store, *, compact: bool = False, evidence_limit: int | None = None
+) -> list[dict[str, str]]:
     candidates_payload = []
+    # 老产品会积累上百条证据，全量携带会把单个候选顶过请求体上限；
+    # 闸门引用只要求 id 存在于档案，取最近的子集合法。compact 进一步压
+    # 缩市场观察与初判理由，供请求体仍超限时递减使用。
+    evidence_cap = evidence_limit or 12
     for product in products:
         evidence = store.read_evidence(product.slug)
-        if len(evidence) > 12:
-            # 老产品会积累上百条证据，全量携带会把单个候选顶过请求体上限；
-            # 闸门引用只要求 id 存在于档案，取最近的子集合法。
-            evidence = evidence[-12:]
+        if len(evidence) > evidence_cap:
+            evidence = evidence[-evidence_cap:]
+        markets = [item.to_dict() for item in store.read_market_observations(product.slug)][-(4 if compact else 8):]
+        initial = max(
+            (item.to_dict() for item in store.read_req_reviews(product.slug) if item.level == "initial"),
+            key=lambda item: item["reviewed_at"], default={},
+        )
+        if compact and isinstance(initial, dict):
+            initial = {
+                **initial,
+                "gates": [
+                    {**gate, "reason": str(gate.get("reason") or "")[:160]}
+                    if isinstance(gate, dict) else gate
+                    for gate in initial.get("gates") or []
+                ],
+            }
         candidates_payload.append({
             "slug": product.slug,
             "name": product.name,
@@ -431,9 +449,8 @@ def _messages(products: list[Any], store: Store) -> list[dict[str, str]]:
             "industry": list(product.industries),
             "jobs": list(product.jobs),
             "evidence": [item.to_dict() for item in evidence],
-            # 历史市场观察同样只带最近的，防止多次回填撑爆单条请求。
-            "markets": [item.to_dict() for item in store.read_market_observations(product.slug)][-8:],
-            "initial_review": max((item.to_dict() for item in store.read_req_reviews(product.slug) if item.level == "initial"), key=lambda item: item["reviewed_at"], default={}),
+            "markets": markets,
+            "initial_review": initial,
         })
     req_path = store.config_dir / "req.md"
     if not req_path.is_file():
@@ -576,11 +593,16 @@ def run(store: Store, *, day: date) -> FullReqReport:
         batch
         for start in range(0, len(selected), REQ_BATCH_SIZE)
         for batch in _split_batches(
-            selected[start:start + REQ_BATCH_SIZE], lambda items: _messages(items, store)
+            selected[start:start + REQ_BATCH_SIZE],
+            lambda items: _messages(items, store, compact=False, evidence_limit=None),
         )
     ]
+
+    def req_build(items: list, compact: bool, limit: int | None) -> list[dict[str, str]]:
+        return _messages(items, store, compact=compact, evidence_limit=limit)
+
     for batch in batches:
-        messages = _messages(batch, store)
+        messages = _fit_messages(batch, req_build)
         result = _request(messages)
         for attempt in range(MAX_FULL_REQ_REPAIRS + 1):
             try:
