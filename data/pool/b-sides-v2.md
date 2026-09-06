@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/juiceb0xc0de/b-sides-v2
 summary: Building live to let the obscure breathe new life
 first_seen: '2026-09-03T09:23:08Z'
 last_seen: '2026-09-04T00:06:57Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

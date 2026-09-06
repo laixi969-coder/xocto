@@ -21,7 +21,7 @@ canonical_url: https://github.com/e2mcc/dsh-popout-sidebar
 summary: A sidebar can pop out a separate browser tab (drag it to another monitor)
 first_seen: '2026-08-15T12:21:46Z'
 last_seen: '2026-09-04T00:06:39Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

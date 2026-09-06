@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUb051SDRLTUJq
 summary: AI重塑行业格局！传媒股强势走高 融资客最新抢筹股曝光 东方财富
 first_seen: '2026-09-04T03:56:15Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

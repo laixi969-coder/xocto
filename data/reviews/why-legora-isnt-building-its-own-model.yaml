@@ -1,0 +1,38 @@
+- id: req-initial-why-legora-isnt-building-its-own-model-2026-09-04
+  project_slug: why-legora-isnt-building-its-own-model
+  level: initial
+  reviewed_at: '2026-09-04T00:06:58Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律行业文档处理的需求，痛点明确，但具体流程待核验。
+    evidence_ids:
+    - ev-543ab3d7fefa48bd
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或关注度证据。
+    evidence_ids:
+    - ev-543ab3d7fefa48bd
+  - gate: model
+    status: insufficient
+    reason: 商业模式不明确，可能按订阅或按结果收费。
+    evidence_ids:
+    - ev-543ab3d7fefa48bd
+  - gate: truth
+    status: insufficient
+    reason: 不构建模型可能影响差异化，需进一步验证。
+    evidence_ids:
+    - ev-543ab3d7fefa48bd
+  next_validation: 查找 Legora 的官方网站或产品页面，了解具体功能和定价。
+  market: ''
+  job: 法律专业人士需要 AI 辅助处理文档审查、法律研究等任务。
+  job_en: Legal professionals need AI assistance for document review, legal research, and similar tasks.
+  pain: 法律工作耗时且高成本，传统方法效率低。
+  pain_en: Legal work is time-consuming and costly; traditional methods are inefficient.
+  current_alternative: 手动审查或使用通用 AI 工具。
+  current_alternative_en: Manual review or using general AI tools.
+  usage_reason: Legora 专注法律领域，可能提供更贴合工作流的解决方案。
+  usage_reason_en: Legora focuses on the legal domain, potentially offering solutions more tailored to
+    workflows.

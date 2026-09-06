@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOUE80aFQ1RVkz
 summary: 7 Ways AI Planning Software Solves Meat Manufacturing’s Supply Chain Challenges RELEX Solutions
 first_seen: '2026-09-03T17:53:30Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcld2dU5mREhK
 summary: HP’s AI-powered laptop stuns tech fans News.com.au
 first_seen: '2026-09-03T02:50:49Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

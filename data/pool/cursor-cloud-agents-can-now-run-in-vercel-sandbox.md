@@ -1,11 +1,12 @@
 ---
 slug: cursor-cloud-agents-can-now-run-in-vercel-sandbox
-name: Cursor Cloud Agents can now run in Vercel Sandbox
+name: Vercel
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Vercel 的 Sandbox 云开发环境现在可以运行 Cursor 的 Cloud Agents，开发者将编码代理任务直接部署到云端沙箱执行。
 inspiration: ''
-summary_en: ''
+summary_en: Vercel's Sandbox cloud development environment can now run Cursor's Cloud Agents, allowing
+  developers to deploy coding agent tasks directly to cloud sandboxes for execution.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandb
 summary: ''
 first_seen: '2026-09-03T15:00:00Z'
 last_seen: '2026-09-04T00:06:57Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Cursor Cloud Agents can now run in Vercel Sandbox
+# Vercel
 
 _（源没给简介）_
 

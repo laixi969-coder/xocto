@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1NCMDA0cU9X
 summary: Austin AI security startup raises $100M as agentic applications take off The Business Journals
 first_seen: '2026-09-03T00:24:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

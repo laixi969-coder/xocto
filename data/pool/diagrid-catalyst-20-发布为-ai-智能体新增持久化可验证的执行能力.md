@@ -1,11 +1,12 @@
 ---
 slug: diagrid-catalyst-20-发布为-ai-智能体新增持久化可验证的执行能力
-name: Diagrid Catalyst 2.0 发布，为 AI 智能体新增持久化、可验证的执行能力
+name: Diagrid Catalyst
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Diagrid Catalyst 2.0 为 AI 智能体提供持久化与可验证的执行能力，具体应用场景与交付方式未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Diagrid Catalyst 2.0 provides persistent and verifiable execution capabilities for AI agents;
+  specific use cases and delivery methods are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE10TmlCeEhMWndX
 summary: Diagrid Catalyst 2.0 发布，为 AI 智能体新增持久化、可验证的执行能力 InfoQ-CN
 first_seen: '2026-09-03T13:21:41Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Diagrid Catalyst 2.0 发布，为 AI 智能体新增持久化、可验证的执行能力
+# Diagrid Catalyst
 
 Diagrid Catalyst 2.0 发布，为 AI 智能体新增持久化、可验证的执行能力 InfoQ-CN
 

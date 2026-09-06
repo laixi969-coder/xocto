@@ -1,0 +1,35 @@
+- id: req-initial-snitch-2026-09-04
+  project_slug: snitch
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助管理者了解团队结构，但痛点强度不足，现有 HR 系统已覆盖。
+    evidence_ids:
+    - ev-16ff25602de6898c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户采用或关注证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验实际效果。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，说明具体功能、定价及用户案例。
+  market: ''
+  job: 管理者需要了解团队的组织结构和成员信息，以便于决策和协作。
+  job_en: Managers need to understand team structure and member info for decisions and collaboration.
+  pain: 组织架构图常由 HR 手动维护，更新不及时，且难以反映实际协作关系。
+  pain_en: Org charts are often manually maintained by HR, outdated, and fail to reflect actual collaboration.
+  current_alternative: 使用 HR 系统（如 Workday、BambooHR）或手动维护的文档。
+  current_alternative_en: Use HR systems (e.g., Workday, BambooHR) or manually maintained documents.
+  usage_reason: 如果员工愿意主动更新，可能有用，但缺乏激励，且 HR 系统已存在，采用动力不足。
+  usage_reason_en: If employees are willing to update, it could be useful, but lack of incentive and existing
+    HR systems may hinder adoption.

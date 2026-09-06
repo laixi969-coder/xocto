@@ -1,0 +1,35 @@
+- id: req-initial-wordmate-2026-09-04
+  project_slug: wordmate
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：本地语音转文字需求存在，但痛点强度与替代行为未明确。
+    evidence_ids:
+    - ev-af2dcca3ef5c18c7
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，仅 5 分 0 评论，缺乏采用证据。
+    evidence_ids:
+    - ev-af2dcca3ef5c18c7
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 官方文档或仓库，确认支持语言、准确率与安装方式。
+  market: ''
+  job: 用户需要在 macOS 上快速将语音转换为文字，且希望本地处理保护隐私。
+  job_en: Users need to quickly convert speech to text on macOS, preferring local processing for privacy.
+  pain: 云端语音转文字可能延迟高或涉及隐私问题。
+  pain_en: Cloud-based speech-to-text may have high latency or privacy concerns.
+  current_alternative: 目前用户可能使用系统自带听写或云端服务。
+  current_alternative_en: Users may currently use built-in dictation or cloud services.
+  usage_reason: 如果用户重视隐私或需离线使用，Wordmate 提供了本地方案。
+  usage_reason_en: If users value privacy or need offline use, Wordmate offers a local solution.

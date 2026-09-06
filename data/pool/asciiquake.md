@@ -21,7 +21,7 @@ canonical_url: https://asciiquake.wtf
 summary: ''
 first_seen: '2026-09-02T14:07:20Z'
 last_seen: '2026-09-04T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

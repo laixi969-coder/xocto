@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxOYW13S0VFenZY
 summary: Adobe just acquired this Indian AI startup less than a year after it launched The American Bazaar
 first_seen: '2026-09-03T14:39:15Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

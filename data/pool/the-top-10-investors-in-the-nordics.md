@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-top-investors-behind-sifteds-nordi
 summary: ''
 first_seen: '2026-09-04T05:00:28Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

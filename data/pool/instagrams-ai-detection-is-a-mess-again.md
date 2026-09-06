@@ -1,11 +1,12 @@
 ---
 slug: instagrams-ai-detection-is-a-mess-again
-name: Instagram’s AI detection is a mess (again)
+name: Instagram AI Content Labels
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 社交平台在自动化识别与标记生成式AI内容上面临误检难题，暴露出当前基于算法的内容审核与溯源机制在实际落地中的准确性缺陷。
 inspiration: ''
-summary_en: ''
+summary_en: Social media platforms face ongoing false-positive challenges in automated generative AI content
+  labeling, highlighting limitations in practical algorithmic content moderation and provenance detection.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: Instagram's visible AI labels are supposed to help people quickly spot 
   didn't create or edit using generative AI […]
 first_seen: '2026-09-04T12:00:00Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Instagram’s AI detection is a mess (again)
+# Instagram AI Content Labels
 
 Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, users have been reporting that the system has gone haywire. They say Meta has been automatically applying an "AI Content" label to images that they didn't create or edit using generative AI […]
 

@@ -1,0 +1,41 @@
+- id: req-initial-对话-sharpa-李一帆通用机器人要么全能要么无能-2026-09-04
+  project_slug: 对话-sharpa-李一帆通用机器人要么全能要么无能
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决餐饮门店重复性制作工作的痛点：人力成本高、出品不稳定。机器人能确定性地完成标准化流程，价值结构成立。
+    evidence_ids:
+    - ev-a2247fa3bddbd42b
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅提及单店部署，缺乏规模化采用或用户反馈证据，共识尚未形成。
+    evidence_ids:
+    - ev-a2247fa3bddbd42b
+  - gate: model
+    status: insufficient
+    reason: 付费方可能是连锁餐饮品牌，但公开材料未披露定价或商业模式，需进一步核验。
+    evidence_ids:
+    - ev-a2247fa3bddbd42b
+  - gate: truth
+    status: insufficient
+    reason: 机器人实际运行稳定性、维护成本及对人工的替代程度尚未有公开数据，需观察实际运营。
+    evidence_ids:
+    - ev-a2247fa3bddbd42b
+  next_validation: 关注 DQ 门店机器人实际运营的公开报道或案例，包括出品效率、故障率及是否扩展至更多门店。
+  market: ''
+  job: 在快餐或冰淇淋门店中，完成制作标准化食品（如暴风雪）的重复性工作。
+  job_en: In fast-food or ice cream stores, perform repetitive tasks of making standardized food items
+    (e.g., Blizzard).
+  pain: 人工制作效率不稳定、人力成本高、招聘困难，尤其在高峰时段。
+  pain_en: Manual production is inconsistent, labor costs are high, and hiring is difficult, especially
+    during peak hours.
+  current_alternative: 目前由人工店员完成，或使用半自动机器但需人工辅助。
+  current_alternative_en: Currently done by human staff, or using semi-automatic machines that require
+    human assistance.
+  usage_reason: 机器人可提供稳定出品、延长营业时间、降低长期人力成本，且 DQ 等连锁品牌有标准化流程，易于部署。
+  usage_reason_en: Robots can provide consistent output, extend operating hours, reduce long-term labor
+    costs, and chain brands like DQ have standardized processes that are easy to deploy.

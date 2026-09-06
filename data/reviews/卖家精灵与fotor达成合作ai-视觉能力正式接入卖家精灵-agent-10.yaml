@@ -1,0 +1,41 @@
+- id: req-initial-卖家精灵与fotor达成合作ai-视觉能力正式接入卖家精灵-agent-10-2026-09-04
+  project_slug: 卖家精灵与fotor达成合作ai-视觉能力正式接入卖家精灵-agent-10
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决电商卖家产品图片制作的需求，痛点明确，AI交付可确定。
+    evidence_ids:
+    - ev-5043251fa7c213ca
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未提供采用数据，合作刚宣布，共识尚在形成。
+    evidence_ids:
+    - ev-5043251fa7c213ca
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是卖家，但付费路径未核验。
+    evidence_ids:
+    - ev-5043251fa7c213ca
+  - gate: truth
+    status: supported
+    reason: 贴近电商运营的第一性目标，交付可确定，安全边界在可控范围。
+    evidence_ids:
+    - ev-5043251fa7c213ca
+  next_validation: 查找卖家精灵Agent 1.0的官方定价页或用户评价，以验证付费和采用情况。
+  market: ''
+  job: 跨境电商卖家在选品和Listing优化时需要制作符合平台要求的产品图片。
+  job_en: Cross-border e-commerce sellers need to create platform-compliant product images during product
+    research and listing optimization.
+  pain: 产品图片制作需要设计技能或外包，成本高且周期长，影响上架效率。
+  pain_en: Creating product images requires design skills or outsourcing, which is costly and time-consuming,
+    delaying listing.
+  current_alternative: 卖家目前使用设计工具如Photoshop、Canva，或外包给设计公司。
+  current_alternative_en: Sellers currently use design tools like Photoshop and Canva, or outsource to
+    design agencies.
+  usage_reason: AI视觉能力可自动生成和编辑图片，降低设计门槛，卖家精灵已有用户基础，合作可能带来采用。
+  usage_reason_en: AI visual capabilities can automate image generation and editing, lowering design barriers,
+    and SellerSprite's existing user base may drive adoption.

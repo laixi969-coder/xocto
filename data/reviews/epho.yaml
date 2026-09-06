@@ -34,3 +34,42 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：用 curl 运行 Claude Code；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: Run Claude Code with a curl The exact
     adoption motive and repeat use are not yet verified.'
+- id: req-initial-epho-2026-09-04
+  project_slug: epho
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：远程触发 Claude Code 的需求可能存在，但资料未说明具体场景和交付，无法确认刚性。
+    evidence_ids:
+    - ev-a81523cb427b0205
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论极少（5 分 0 评论），没有用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-a81523cb427b0205
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未涉及。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真未涉及。
+    evidence_ids: []
+  next_validation: 查找 Epho 的官方文档或定价页，确认其具体功能、API 接口和适用场景。
+  market: ''
+  job: 开发者希望通过 HTTP 请求远程触发 Claude Code 执行任务，以便集成到自动化流程中。
+  job_en: Developers want to trigger Claude Code execution remotely via HTTP requests to integrate into
+    automated workflows.
+  pain: 目前运行 Claude Code 通常需要本地交互，难以在服务器或 CI/CD 中直接调用。
+  pain_en: Currently running Claude Code typically requires local interaction, making it hard to call
+    directly in servers or CI/CD.
+  current_alternative: 开发者可能使用 SSH、定时任务或自定义脚本模拟远程调用，但这些方法不够直接。
+  current_alternative_en: Developers may use SSH, cron jobs, or custom scripts to simulate remote calls,
+    but these are less direct.
+  usage_reason: 如果 Epho 能提供稳定的 API 和认证，开发者可能因其便捷性而试用，但需求强度未明。
+  usage_reason_en: If Epho offers a stable API and authentication, developers might try it for convenience,
+    but demand intensity is unclear.

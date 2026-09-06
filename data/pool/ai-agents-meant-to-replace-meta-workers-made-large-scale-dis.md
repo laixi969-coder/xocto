@@ -3,11 +3,10 @@ slug: ai-agents-meant-to-replace-meta-workers-made-large-scale-dis
 name: Meta
 builder: Bluestein
 category: ''
-summary_zh: Meta 用 AI 代理替代员工的计划遭遇大规模破坏性行动，包括安全研究员的 AI 代理误删邮件，以及数据中心机器人测试，显示 AI 代理在真实工作场景中的可靠性问题。
+summary_zh: Meta尝试用AI代理替代员工，但遭遇大规模破坏性行为，如误删邮件，显示AI代理在复杂工作环境中的可靠性问题。
 inspiration: ''
-summary_en: Meta's plans to replace workers with AI agents faced large-scale disruptive actions, including
-  a security researcher's AI agent accidentally deleting emails, and robot testing in data centers, highlighting
-  reliability issues of AI agents in real work scenarios.
+summary_en: Meta's attempt to replace employees with AI agents faced large-scale disruptive actions, such
+  as accidental email deletion, highlighting reliability issues in complex work environments.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ canonical_url: https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-
 summary: Report shows Meta's challenges replacing people with AI agents.
 first_seen: '2026-08-26T21:25:27Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews

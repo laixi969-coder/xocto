@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNTkpPaV9JcXlY
 summary: The Bright and Dark Sides of Retail’s AI Race… “Win the Customer, or Lose Them” 경향신문
 first_seen: '2026-09-01T21:29:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

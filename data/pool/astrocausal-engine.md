@@ -21,7 +21,7 @@ canonical_url: https://github.com/alessandro-pioli/AstroCausal_Engine
 summary: A gravity simulator where forces propagate at the speed of light
 first_seen: '2026-09-03T16:54:08Z'
 last_seen: '2026-09-04T14:23:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,36 @@
+- id: req-initial-inline-2026-09-04
+  project_slug: inline
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，无法判断价值。
+    evidence_ids:
+    - ev-3d2ba7198df471e7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方产品页或文档中关于具体工作流程和用户场景的说明。
+  market: ''
+  job: 用户希望在多人协作中借助 AI 完成某些任务，但具体任务不明。
+  job_en: Users want to accomplish certain tasks with AI in multiplayer collaboration, but the specific
+    tasks are unclear.
+  pain: 现有协作工具中 AI 集成不足，但具体痛点未明确。
+  pain_en: Existing collaboration tools lack AI integration, but specific pain points are not identified.
+  current_alternative: 可能使用通用聊天工具或现有协作平台，但无具体信息。
+  current_alternative_en: May use general chat tools or existing collaboration platforms, but no specific
+    information.
+  usage_reason: 因信息不足，无法判断用户为何使用。
+  usage_reason_en: Due to insufficient information, cannot determine why users would use it.

@@ -24,3 +24,43 @@
     evidence_ids: []
   next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
   market: ''
+- id: req-initial-telem-2026-09-04
+  project_slug: telem
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理开发者在多搜索提供商间路由和追踪的痛点，旧流程是手动集成和调试，结构上成立。
+    evidence_ids:
+    - ev-1688fda64b51eb90
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏持续采用或付费证据。
+    evidence_ids:
+    - ev-1688fda64b51eb90
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是开发者或企业，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近代理开发的第一性目标，交付可确定，但安全边界需关注。
+    evidence_ids:
+    - ev-1688fda64b51eb90
+  next_validation: 官方定价页或客户案例
+  market: ''
+  job: AI 代理开发者需要将代理的搜索请求路由到多个提供商，并检查每次搜索的追踪记录以调试和优化。
+  job_en: AI agent developers need to route agent search requests across providers and inspect traces
+    to debug and optimize.
+  pain: 手动集成多个搜索 API 耗时且难以追踪请求来源和失败原因。
+  pain_en: Manually integrating multiple search APIs is time-consuming and makes it hard to trace request
+    origins and failures.
+  current_alternative: 开发者通常自行编写集成代码或使用单一提供商，缺乏统一的可观测性。
+  current_alternative_en: Developers typically write custom integration code or use a single provider,
+    lacking unified observability.
+  usage_reason: 社区讨论显示开发者对代理搜索的可观测性有需求，但采用证据有限。
+  usage_reason_en: Community discussion indicates developer demand for agent search observability, but
+    adoption evidence is limited.

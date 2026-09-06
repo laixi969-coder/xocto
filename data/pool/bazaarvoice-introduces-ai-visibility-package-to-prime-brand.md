@@ -1,11 +1,12 @@
 ---
 slug: bazaarvoice-introduces-ai-visibility-package-to-prime-brand
-name: Bazaarvoice introduces AI Visibility package to prime brand content and UGC for AI recommendation
+name: Bazaarvoice AI Visibility
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Bazaarvoice introduces AI Visibility package to prime brand content and
   Yahoo Finance
 first_seen: '2026-09-01T13:00:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -38,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# Bazaarvoice introduces AI Visibility package to prime brand content and UGC for AI recommendation
+# Bazaarvoice AI Visibility
 
 Bazaarvoice introduces AI Visibility package to prime brand content and UGC for AI recommendation Yahoo Finance
 

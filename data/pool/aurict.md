@@ -21,7 +21,7 @@ canonical_url: https://github.com/aurict/aurict
 summary: An open-source Terminal AI
 first_seen: '2026-09-04T08:08:14Z'
 last_seen: '2026-09-04T14:23:26Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

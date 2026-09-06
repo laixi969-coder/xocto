@@ -1,0 +1,40 @@
+- id: req-initial-深演智能发布ai新品创新多智能体协同贯通新品决策全流程-2026-09-04
+  project_slug: 深演智能发布ai新品创新多智能体协同贯通新品决策全流程
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业新品决策中信息整合与分析的需求，痛点在于传统流程耗时且依赖经验，AI 可提供数据驱动的洞察。
+    evidence_ids:
+    - ev-dcf849d4e5835f8c
+    - ev-81fb3ccda21cfc27
+  - gate: consensus
+    status: insufficient
+    reason: 发布新闻未提供客户采用或使用数据，共识证据不足。
+    evidence_ids:
+    - ev-dcf849d4e5835f8c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是 B 端企业，但缺乏公开信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 决策建议的准确性需验证，且可能涉及数据隐私问题。
+    evidence_ids: []
+  next_validation: 查找深演智能官方产品页或客户案例，确认具体功能与商业验证。
+  market: ''
+  job: 企业产品团队需要在新品上市前进行市场分析、概念测试和策略制定。
+  job_en: Product teams need to conduct market analysis, concept testing, and strategy formulation before
+    launching new products.
+  pain: 传统流程依赖人工收集数据、撰写报告，周期长且成本高。
+  pain_en: Traditional processes rely on manual data collection and report writing, which is time-consuming
+    and costly.
+  current_alternative: 企业可能使用咨询公司、内部市场部门或零散工具。
+  current_alternative_en: Companies may use consulting firms, internal marketing departments, or disparate
+    tools.
+  usage_reason: 深演智能已有营销技术背景，新品可能吸引寻求自动化决策支持的企业。
+  usage_reason_en: Deepintent has a background in marketing technology; the new product may attract enterprises
+    seeking automated decision support.

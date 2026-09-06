@@ -21,7 +21,7 @@ canonical_url: https://aietalks.com
 summary: A searchable, timestamped index of 1,124 AI Engineer talks
 first_seen: '2026-09-03T14:43:32Z'
 last_seen: '2026-09-04T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

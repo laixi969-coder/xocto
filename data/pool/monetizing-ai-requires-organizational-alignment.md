@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBmTWlVM0dGbXp2
 summary: Monetizing AI Requires Organizational Alignment Unite.AI
 first_seen: '2026-09-03T12:30:15Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

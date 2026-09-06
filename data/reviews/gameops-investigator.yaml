@@ -1,0 +1,39 @@
+- id: req-initial-gameops-investigator-2026-09-04
+  project_slug: gameops-investigator
+  level: initial
+  reviewed_at: '2026-09-04T00:06:39Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决游戏事故调查耗时、依赖人工的问题；痛点明确，交付可确定。
+    evidence_ids:
+    - ev-5b4d9e74b0cc7e42
+  - gate: consensus
+    status: supported
+    reason: 开源社区关注度（99 星）表明有场景共鸣。
+    evidence_ids:
+    - ev-5b4d9e74b0cc7e42
+  - gate: model
+    status: insufficient
+    reason: 买方可能是游戏公司，但公开材料未披露定价或付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 证据优先和只读工具贴近调查工作的第一性目标，降低安全风险。
+    evidence_ids:
+    - ev-5b4d9e74b0cc7e42
+  next_validation: 官方文档或案例说明实际采用和付费情况。
+  market: ''
+  job: 游戏运营或开发人员需要调查游戏运营事故（如宕机、bug、数据异常）的根本原因。
+  job_en: Game ops or developers need to investigate root causes of game incidents (e.g., outages, bugs,
+    data anomalies).
+  pain: 事故调查耗时且依赖人工排查日志和系统，效率低。
+  pain_en: Incident investigation is time-consuming and relies on manual log and system inspection, which
+    is inefficient.
+  current_alternative: 目前通常由运营和开发人员手动查看日志、监控和代码。
+  current_alternative_en: Currently, ops and developers manually inspect logs, monitoring, and code.
+  usage_reason: 开源项目获得 99 星，表明开发者关注；证据优先和只读工具设计可能降低误操作风险。
+  usage_reason_en: The open-source project has 99 stars, indicating developer interest; evidence-first
+    and read-only design may reduce risk of misoperation.

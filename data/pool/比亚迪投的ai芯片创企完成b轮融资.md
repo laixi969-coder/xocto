@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xSlRPTkdEODRq
 summary: 比亚迪投的AI芯片创企，完成B轮融资 智东西
 first_seen: '2026-09-04T11:43:35Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

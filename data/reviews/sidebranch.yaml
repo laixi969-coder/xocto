@@ -1,0 +1,38 @@
+- id: req-initial-sidebranch-2026-09-04
+  project_slug: sidebranch
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助开发者直观对比 Git 分支差异，但现有工具已能满足，痛点强度不明。
+    evidence_ids:
+    - ev-aa7e900bdcef885b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户采用或关注证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验实际效果。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，说明具体功能、定价及用户案例。
+  market: ''
+  job: 开发者需要快速理解不同 Git 分支之间的代码差异，以便进行代码审查或合并决策。
+  job_en: Developers need to quickly understand code differences between Git branches for code review
+    or merge decisions.
+  pain: 命令行 diff 输出冗长且难以直观理解，尤其是涉及多个文件或复杂变更时。
+  pain_en: Command-line diff output is verbose and hard to grasp, especially with multiple files or complex
+    changes.
+  current_alternative: 开发者通常使用 Git 命令行、主流代码托管平台自带的对比视图或 IDE 内置的 diff 工具。
+  current_alternative_en: Developers typically use Git CLI, compare views built into mainstream code hosting
+    platforms, or IDE built-in diff tools.
+  usage_reason: 如果可视化能显著减少理解时间，开发者可能尝试，但现有工具已覆盖大部分需求，采用动力可能不足。
+  usage_reason_en: If visualization significantly reduces comprehension time, developers might try it,
+    but existing tools cover most needs, so adoption may be low.

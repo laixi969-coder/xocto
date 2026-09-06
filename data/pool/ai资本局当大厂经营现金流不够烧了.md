@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYaG83NGVIUFox
 summary: AI“资本局”：当大厂“经营现金流”不够烧了 华尔街见闻
 first_seen: '2026-09-03T06:47:47Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

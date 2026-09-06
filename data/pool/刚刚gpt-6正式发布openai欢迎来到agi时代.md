@@ -1,11 +1,13 @@
 ---
 slug: 刚刚gpt-6正式发布openai欢迎来到agi时代
-name: 刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代
+name: GPT-6
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 正式发布新一代前沿模型 GPT-6，并宣称进入 AGI 时代。旗舰模型的迭代将加剧行业竞争，并推动下游应用生态加速演进。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI officially released its new frontier model GPT-6, declaring the arrival of the AGI
+  era. The iteration of flagship models will intensify industry competition and accelerate the evolution
+  of the downstream application ecosystem.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://qbitai.com/2026/09/483898.html
 summary: 全球最强C
 first_seen: '2026-09-03T21:50:07Z'
 last_seen: '2026-09-04T00:06:58Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# 刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代
+# GPT-6
 
 全球最强C
 

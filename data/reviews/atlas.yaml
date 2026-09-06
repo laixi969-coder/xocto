@@ -1,0 +1,39 @@
+- id: req-initial-atlas-2026-09-04
+  project_slug: atlas
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：开发者需要空间智能来执行机器人、自动驾驶等任务，现有方法缺乏泛化能力，Atlas 提供世界模型作为替代。
+    evidence_ids:
+    - ev-4f9dd581a67244f5
+  - gate: consensus
+    status: supported
+    reason: 社区讨论热烈，且有中国开源同类产品抢跑的报道，表明市场对空间智能有强烈关注。
+    evidence_ids:
+    - ev-82979966c80dd42b
+  - gate: model
+    status: insufficient
+    reason: 商业模式未公开，可能面向开发者提供 API 或工具，但付费方和定价尚不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 世界模型承诺能否确定性交付尚待验证，需观察实际应用效果。
+    evidence_ids: []
+  next_validation: 官方文档或 API 定价页
+  market: ''
+  job: 开发者需要让 AI 系统理解三维空间和物理规律，以完成机器人导航、自动驾驶决策或游戏场景生成等任务。
+  job_en: Developers need AI systems to understand 3D space and physical dynamics to accomplish tasks
+    like robot navigation, autonomous driving decisions, or game scene generation.
+  pain: 传统模型缺乏对空间和物理的深层理解，导致在复杂环境中表现不佳，需要大量人工标注和规则编码。
+  pain_en: Traditional models lack deep understanding of space and physics, performing poorly in complex
+    environments and requiring extensive manual annotation and rule-based coding.
+  current_alternative: 目前开发者可能使用专门的仿真引擎、手工规则或针对特定任务的感知模型，但难以泛化到新场景。
+  current_alternative_en: Developers currently use specialized simulation engines, hand-crafted rules,
+    or task-specific perception models, which struggle to generalize to new scenarios.
+  usage_reason: Atlas 提供统一的世界模型，可能减少对大量标注数据的需求，并提升空间推理的泛化能力，因此吸引开发者关注。
+  usage_reason_en: Atlas offers a unified world model that may reduce the need for extensive labeled data
+    and improve generalization in spatial reasoning, attracting developer interest.

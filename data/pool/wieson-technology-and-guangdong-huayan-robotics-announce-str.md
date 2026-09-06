@@ -1,11 +1,12 @@
 ---
 slug: wieson-technology-and-guangdong-huayan-robotics-announce-str
-name: Wieson Technology and Guangdong Huayan Robotics Announce Strategic Partnership
+name: Wieson Technology
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Wieson Technology and Guangdong Huayan Robotics Announce Strategic Part
   Reserve
 first_seen: '2026-09-03T09:02:03Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Wieson Technology and Guangdong Huayan Robotics Announce Strategic Partnership
+# Wieson Technology
 
 Wieson Technology and Guangdong Huayan Robotics Announce Strategic Partnership The Malaysian Reserve
 

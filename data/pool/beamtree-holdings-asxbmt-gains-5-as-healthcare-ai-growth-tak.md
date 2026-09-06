@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxPZUlwekxxeVEy
 summary: Beamtree Holdings (ASX:BMT) Gains 5% as Healthcare AI Growth Takes Centre Stage Kalkine
 first_seen: '2026-09-02T03:47:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUtmMGgxZGll
 summary: This startup is building AI undercover agents for the FBI and other agencies Axios
 first_seen: '2026-09-02T10:46:24Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

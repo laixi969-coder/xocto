@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNODVPOXZuSFlR
 summary: Agentic AI, frontier firms and the retail race to relevance Retail Customer Experience
 first_seen: '2026-09-01T10:14:13Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

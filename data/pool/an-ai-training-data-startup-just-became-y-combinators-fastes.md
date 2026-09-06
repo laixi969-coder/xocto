@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxQMmhSNXBwa1Jw
 summary: An AI Training Data Startup Just Became Y Combinator's Fastest-Ever Unicorn Decrypt
 first_seen: '2026-09-02T23:16:04Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNYWpvWHpvOWN4
 summary: Madrona’s annual IA40 list shows an AI industry splitting in two GeekWire
 first_seen: '2026-09-01T21:22:09Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

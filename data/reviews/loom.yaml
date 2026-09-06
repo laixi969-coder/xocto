@@ -1,0 +1,39 @@
+- id: req-initial-loom-2026-09-04
+  project_slug: loom
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决远程沟通中实时协调难、文字表达不清的痛点，录制即分享的交付可确定，价值成立。
+    evidence_ids:
+    - ev-3edce8279cf53700
+  - gate: consensus
+    status: supported
+    reason: 大规模访问量表明强场景，异步视频沟通已成为远程工作共识。
+    evidence_ids:
+    - ev-3edce8279cf53700
+  - gate: model
+    status: supported
+    reason: 面向企业按席位收费，付费路径清晰，但公开材料未披露具体定价。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近沟通第一性目标，交付确定性高，安全边界清晰。
+    evidence_ids: []
+  next_validation: 查找 Loom 官方定价页或企业客户案例，确认付费模式与客户留存。
+  market: ''
+  job: 远程团队需要在不安排实时会议的情况下，清晰传达屏幕操作或复杂说明。
+  job_en: Remote teams need to clearly convey screen actions or complex explanations without scheduling
+    real-time meetings.
+  pain: 实时会议难以协调时间，文字说明难以表达视觉细节，沟通效率低。
+  pain_en: Real-time meetings are hard to schedule, text explanations fail to convey visual details, leading
+    to inefficiency.
+  current_alternative: 传统替代是视频会议、屏幕截图加文字，或录制视频后手动剪辑。
+  current_alternative_en: Traditional alternatives include video conferencing, screenshots with text,
+    or manually editing recorded videos.
+  usage_reason: 用户因录制即分享的便捷性和 AI 摘要功能而采用，减少会议时间。
+  usage_reason_en: Users adopt it for the ease of record-and-share and AI summaries, reducing meeting
+    time.

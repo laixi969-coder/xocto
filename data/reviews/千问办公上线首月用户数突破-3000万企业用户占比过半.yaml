@@ -1,0 +1,41 @@
+- id: req-initial-千问办公上线首月用户数突破-3000万企业用户占比过半-2026-09-04
+  project_slug: 千问办公上线首月用户数突破-3000万企业用户占比过半
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公场景中内容生成和数据处理的需求，痛点明确，AI交付可确定。
+    evidence_ids:
+    - ev-46011bef2d2e4c86
+  - gate: consensus
+    status: supported
+    reason: 首月3000万用户表明市场已形成共识，企业用户占比过半显示强场景。
+    evidence_ids:
+    - ev-46011bef2d2e4c86
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价和付费模式，买方可能是企业或个人，但付费路径未核验。
+    evidence_ids:
+    - ev-46011bef2d2e4c86
+  - gate: truth
+    status: supported
+    reason: AI办公贴近第一性目标，交付可确定，安全边界在可控范围。
+    evidence_ids:
+    - ev-46011bef2d2e4c86
+  next_validation: 查找千问办公的官方定价页或企业客户案例，以验证付费模式。
+  market: ''
+  job: 企业和个人用户在日常办公中需要快速生成和编辑文档、表格、演示文稿。
+  job_en: Enterprise and individual users need to quickly create and edit documents, spreadsheets, and
+    presentations in daily office work.
+  pain: 传统办公软件操作繁琐，内容创作和格式调整耗时，影响工作效率。
+  pain_en: Traditional office software is cumbersome, and content creation and formatting are time-consuming,
+    reducing productivity.
+  current_alternative: 用户目前使用Microsoft Office、Google Workspace等传统办公套件，或依赖人工手动处理。
+  current_alternative_en: Users currently rely on traditional office suites like Microsoft Office and
+    Google Workspace, or handle tasks manually.
+  usage_reason: AI能自动生成内容、整理数据，减少重复劳动，且千问办公上线首月用户数突破3000万，表明有大量用户尝试采用。
+  usage_reason_en: AI can automatically generate content and organize data, reducing repetitive work,
+    and the 30 million first-month users indicate widespread adoption attempts.

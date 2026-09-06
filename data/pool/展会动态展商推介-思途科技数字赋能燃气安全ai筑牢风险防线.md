@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE94YWRvNEVvc3JJ
 summary: 展会动态:展商推介 | 思途科技：数字赋能燃气安全，AI筑牢风险防线 ideesz.com
 first_seen: '2026-09-03T01:08:34Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

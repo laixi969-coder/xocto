@@ -23,7 +23,7 @@ summary: Learn how to embed individual Amazon Quick Sight visuals into a React a
   to generate scoped embed URLs, deployed with a single AWS CloudFormation stack.
 first_seen: '2026-09-03T16:01:56Z'
 last_seen: '2026-09-04T00:06:57Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

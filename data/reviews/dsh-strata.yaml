@@ -1,0 +1,39 @@
+- id: req-initial-dsh-strata-2026-09-04
+  project_slug: dsh-strata
+  level: initial
+  reviewed_at: '2026-09-04T14:23:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长会话导航的痛点：快速定位消息，痛点存在，交付可确定。
+    evidence_ids:
+    - ev-5252e05617cc4e72
+  - gate: consensus
+    status: insufficient
+    reason: 有 109 星，但缺乏用户评价或采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-5252e05617cc4e72
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者效率的第一性目标，承诺可视化导航，交付确定性较高。
+    evidence_ids:
+    - ev-5252e05617cc4e72
+  next_validation: 查找用户反馈或采用数据，确认实际使用场景和付费意愿。
+  market: ''
+  job: 开发者在 DeepSeek Harness 中处理长会话时，需要快速定位和回顾特定消息。
+  job_en: Developers handling long sessions in DeepSeek Harness need to quickly locate and review specific
+    messages.
+  pain: 长会话中滚动查找消息耗时且容易迷失，影响效率。
+  pain_en: Scrolling through long sessions to find messages is time-consuming and disorienting, affecting
+    efficiency.
+  current_alternative: 目前可能依赖手动滚动或搜索，缺乏可视化导航。
+  current_alternative_en: Currently may rely on manual scrolling or search, lacking visual navigation.
+  usage_reason: 该插件将滚动条变为地图，提供直观的导航，减少查找时间。
+  usage_reason_en: The plugin turns the scrollbar into a map, providing intuitive navigation and reducing
+    search time.

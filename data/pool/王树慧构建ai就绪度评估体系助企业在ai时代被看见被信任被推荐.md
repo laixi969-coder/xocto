@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE1CMlI4M25EN1M1
 summary: 王树慧：构建AI就绪度评估体系，助企业在AI时代被看见、被信任、被推荐 infomorning.com
 first_seen: '2026-09-03T13:14:14Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,43 @@
+- id: req-initial-frontierharness-eval-2026-09-04
+  project_slug: frontierharness-eval
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：成本比较的需求存在，但资料未说明评估的详细方法和数据来源，无法判断刚性。
+    evidence_ids:
+    - ev-427ed9769a327d5b
+    - ev-628356fd182b3797
+    - ev-3b9957a83eb342c5
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论有一定热度（79 分 55 评论），但缺乏持续采用证据，共识未形成。
+    evidence_ids:
+    - ev-427ed9769a327d5b
+    - ev-628356fd182b3797
+    - ev-3b9957a83eb342c5
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未涉及。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真未涉及。
+    evidence_ids: []
+  next_validation: 查看 FrontierHarness Eval 的网站或报告，了解评估方法、覆盖的 harness 和成本数据。
+  market: ''
+  job: 开发者在选择 agent harness 时需要了解不同框架的成本和性能，以优化预算。
+  job_en: Developers need to understand the cost and performance of different agent harnesses to optimize
+    budgets.
+  pain: 不同 harness 的成本差异巨大，缺乏透明比较，可能导致资源浪费。
+  pain_en: Cost differences among harnesses are huge, and lack of transparent comparison may lead to resource
+    waste.
+  current_alternative: 开发者可能依赖经验或社区推荐，但缺乏系统性数据。
+  current_alternative_en: Developers may rely on experience or community recommendations, lacking systematic
+    data.
+  usage_reason: 评估结果可能被开发者用作选型参考，但需求强度取决于评估的权威性和更新频率。
+  usage_reason_en: Evaluation results may be used as a reference for selection, but demand intensity depends
+    on authority and update frequency.

@@ -1,0 +1,35 @@
+- id: req-initial-192gb统一内存释放单机ai新上限ms-s1-max-p495直上284b大模型-2026-09-04
+  project_slug: 192gb统一内存释放单机ai新上限ms-s1-max-p495直上284b大模型
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 提供单机高内存可直接运行 284B 大模型，解决多节点成本与复杂度痛点
+    evidence_ids:
+    - ev-49729aa6a48a7e9f
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开用户案例或市场共识
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未公开模型性能或兼容性细节
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺少定价、付费路径或持续采用数据
+    evidence_ids: []
+  next_validation: 获取官方定价页或公开客户使用案例
+  market: ''
+  job: AI工程师需要在本地机器上训练或推理大模型
+  job_en: AI engineers need to train or infer large models on local machines
+  pain: 多节点集群成本高、部署复杂
+  pain_en: High cost and complexity of multi‑node clusters
+  current_alternative: 使用云 GPU 集群或多节点本地集群
+  current_alternative_en: Using cloud GPU clusters or multi‑node local clusters
+  usage_reason: 需要在单机上直接运行大模型，降低成本与运维难度
+  usage_reason_en: Need to run large models directly on a single machine to reduce cost and operational
+    complexity

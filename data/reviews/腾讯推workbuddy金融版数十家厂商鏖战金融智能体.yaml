@@ -1,0 +1,37 @@
+- id: req-initial-腾讯推workbuddy金融版数十家厂商鏖战金融智能体-2026-09-04
+  project_slug: 腾讯推workbuddy金融版数十家厂商鏖战金融智能体
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决金融行业数据分析和报告生成的痛点，但具体工作流程和交付成果未披露，需求强度不明。
+    evidence_ids:
+    - ev-8ca61cbdfbc69bb5
+  - gate: consensus
+    status: insufficient
+    reason: 数十家厂商竞争表明市场关注，但缺乏用户采用证据。
+    evidence_ids:
+    - ev-8ca61cbdfbc69bb5
+  - gate: model
+    status: insufficient
+    reason: 买方可能是金融机构，但付费模式未披露。
+    evidence_ids:
+    - ev-8ca61cbdfbc69bb5
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏具体交付验证。
+    evidence_ids:
+    - ev-8ca61cbdfbc69bb5
+  next_validation: 查找腾讯WorkBuddy金融版的官方产品页或客户案例，确认具体工作流程和定价。
+  market: ''
+  job: 金融从业者需要处理大量数据分析和报告生成工作。
+  job_en: Finance professionals need to handle extensive data analysis and report generation.
+  pain: 传统金融分析耗时且易出错。
+  pain_en: Traditional financial analysis is time-consuming and error-prone.
+  current_alternative: 目前可能依赖人工分析或通用工具。
+  current_alternative_en: Currently may rely on manual analysis or general-purpose tools.
+  usage_reason: 腾讯品牌和渠道可能吸引金融机构试用。
+  usage_reason_en: Tencent's brand and channels may attract financial institutions to trial.

@@ -1,0 +1,39 @@
+- id: req-initial-ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b-2026-09-04
+  project_slug: ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：工程师需要将需求转化为代码，编码耗时繁琐，Devin 提供自主编码能力，痛点刚性。
+    evidence_ids:
+    - ev-e03f35f68fe689c8
+  - gate: consensus
+    status: supported
+    reason: 高估值融资表明市场共识强烈，但需注意融资叙事可能夸大。
+    evidence_ids:
+    - ev-e03f35f68fe689c8
+    - ev-7b9e8d3a4aff900b
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能为订阅制，但具体定价未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付确定性未验证，AI 编码的准确性仍需人工审查。
+    evidence_ids: []
+  next_validation: 查找 Cognition 官方定价页或客户案例。
+  market: ''
+  job: 软件工程师需要将需求转化为代码，并处理重复性编码任务。
+  job_en: Software engineers need to turn requirements into code and handle repetitive coding tasks.
+  pain: 编码耗时且繁琐，尤其是样板代码和调试，影响开发效率。
+  pain_en: Coding is time-consuming and tedious, especially boilerplate and debugging, impacting development
+    efficiency.
+  current_alternative: 传统上，工程师手动编写代码，或使用代码补全工具如 公开代码仓库 Copilot。
+  current_alternative_en: Traditionally, engineers write code manually or use code completion tools like
+    public code repository Copilot.
+  usage_reason: Devin 能自主完成编码任务，减少人工干预，吸引寻求提高开发效率的团队。
+  usage_reason_en: Devin can autonomously complete coding tasks, reducing manual intervention, attracting
+    teams seeking to improve development efficiency.

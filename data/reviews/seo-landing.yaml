@@ -1,0 +1,40 @@
+- id: req-initial-seo-landing-2026-09-04
+  project_slug: seo-landing
+  level: initial
+  reviewed_at: '2026-09-04T00:06:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助开发者快速生成技术优化的 SEO 落地页，痛点在于手动优化耗时且需专业知识。但项目刚发布，具体工作流和交付物不清晰，价值判断证据不足。
+    evidence_ids:
+    - ev-d278af335f1632ec
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库获得 137 星，显示一定关注，但缺乏持续采用或用户反馈证据，无法判断共识。
+    evidence_ids:
+    - ev-47109648c9a9fc43
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式不清晰，未提及定价或付费路径，买方不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。项目声称能达到 PageSpeed 100/100，但未提供可验证的交付结果或测试案例。
+    evidence_ids: []
+  next_validation: 查找该项目的实际使用案例或用户评价，验证其生成的落地页是否真的达到技术 SEO 标准。
+  market: ''
+  job: 网站开发者或营销人员需要创建或改进落地页，使其在搜索引擎中表现良好并快速加载。
+  job_en: Web developers or marketers need to create or improve landing pages that perform well in search
+    engines and load quickly.
+  pain: 技术 SEO 优化需要专业知识，手动优化耗时且容易出错，非专家难以达到 PageSpeed 100/100 等高标准。
+  pain_en: Technical SEO optimization requires expertise, manual optimization is time-consuming and error-prone,
+    and non-experts struggle to meet high standards like PageSpeed 100/100.
+  current_alternative: 目前通常由技术 SEO 工程师手动优化，或使用 PageSpeed Insights 等工具检测后逐步调整。
+  current_alternative_en: Currently, technical SEO engineers manually optimize, or use tools like PageSpeed
+    Insights to detect and adjust step by step.
+  usage_reason: 开发者可能使用此技能让 AI 代理自动生成符合技术 SEO 标准的落地页，节省手动优化时间，但实际采用和效果尚未验证。
+  usage_reason_en: Developers might use this skill to have AI agents automatically generate landing pages
+    that meet technical SEO standards, saving manual optimization time, but actual adoption and effectiveness
+    are unverified.

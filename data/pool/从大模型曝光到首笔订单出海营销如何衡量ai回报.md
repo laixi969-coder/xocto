@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BUG9Kamdic3Vj
 summary: 从大模型曝光到首笔订单，出海营销如何衡量AI回报 华尔街见闻
 first_seen: '2026-09-04T09:43:09Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

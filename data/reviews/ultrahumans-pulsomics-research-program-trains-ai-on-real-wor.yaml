@@ -1,0 +1,39 @@
+- id: req-initial-ultrahumans-pulsomics-research-program-trains-ai-on-real-wor-2026-09-04
+  project_slug: ultrahumans-pulsomics-research-program-trains-ai-on-real-wor
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决可穿戴数据难以转化为健康洞察的痛点，用户需要个性化预警和解释。
+    evidence_ids:
+    - ev-a14d4805dc60b4bf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及研究项目，缺乏用户采用或产品化证据。
+    evidence_ids:
+    - ev-a14d4805dc60b4bf
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能通过设备销售或订阅服务变现，但未验证。
+    evidence_ids:
+    - ev-a14d4805dc60b4bf
+  - gate: truth
+    status: insufficient
+    reason: 健康 AI 的准确性需临床验证，安全边界不明确。
+    evidence_ids:
+    - ev-a14d4805dc60b4bf
+  next_validation: 查找 Ultrahuman 官方产品页面或临床研究结果，确认 AI 模型的实际应用和效果。
+  market: ''
+  job: 用户需要从可穿戴设备数据中获得有意义的健康洞察，而不仅仅是原始数据。
+  job_en: Users need meaningful health insights from wearable data, not just raw numbers.
+  pain: 现有可穿戴设备提供的数据碎片化，缺乏针对性的健康预警和解释。
+  pain_en: Current wearables provide fragmented data without targeted health alerts or explanations.
+  current_alternative: 用户可能依赖医生解读或自行搜索，缺乏个性化、实时的分析。
+  current_alternative_en: Users may rely on doctors or self-research, lacking personalized, real-time
+    analysis.
+  usage_reason: AI 模型可处理大量生理数据，提供个性化健康建议，但需验证准确性和用户信任。
+  usage_reason_en: AI models can process large physiological datasets to offer personalized health advice,
+    but accuracy and user trust need validation.

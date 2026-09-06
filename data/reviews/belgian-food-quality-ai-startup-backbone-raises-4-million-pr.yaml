@@ -1,0 +1,40 @@
+- id: req-initial-belgian-food-quality-ai-startup-backbone-raises-4-million-pr-2026-09-04
+  project_slug: belgian-food-quality-ai-startup-backbone-raises-4-million-pr
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决食品质量检测中人工目检耗时、不一致的痛点，替代旧流程，价值结构成立。
+    evidence_ids:
+    - ev-3790c9c6bd9e4a23
+  - gate: consensus
+    status: insufficient
+    reason: 尚无公开采用数据或客户案例，共识证据不足。
+    evidence_ids:
+    - ev-3790c9c6bd9e4a23
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是食品企业，但付费路径未明。
+    evidence_ids:
+    - ev-3790c9c6bd9e4a23
+  - gate: truth
+    status: insufficient
+    reason: AI 检测的准确性和可靠性需验证，但技术方向贴近第一性目标。
+    evidence_ids:
+    - ev-3790c9c6bd9e4a23
+  next_validation: 查找 Backbone 的官方网站或产品页面，获取其具体应用场景、客户案例或定价信息。
+  market: ''
+  job: 食品生产商或加工厂需要确保产品质量符合标准，避免次品流入市场。
+  job_en: Food producers or processors need to ensure product quality meets standards and prevent defective
+    items from reaching the market.
+  pain: 人工质检耗时且不一致，漏检可能导致召回或品牌损失。
+  pain_en: Manual inspection is time-consuming and inconsistent; missed defects can lead to recalls or
+    brand damage.
+  current_alternative: 目前主要依赖人工目检和抽样检测。
+  current_alternative_en: Currently relies on manual visual inspection and sampling.
+  usage_reason: AI 可提供持续、客观的检测，减少人为错误，提高效率。
+  usage_reason_en: AI can provide continuous, objective inspection, reducing human error and improving
+    efficiency.

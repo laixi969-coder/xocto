@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5zaHlkQVgzM25y
 summary: 那些想用但不让用 AI 的公司，终于可以用 AI 了 爱范儿
 first_seen: '2026-09-04T02:34:28Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

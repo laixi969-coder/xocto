@@ -1,0 +1,41 @@
+- id: req-initial-legora-reviewed-41-documents-in-minutes-with-gpt-6-astra-2026-09-04
+  project_slug: legora-reviewed-41-documents-in-minutes-with-gpt-6-astra
+  level: initial
+  reviewed_at: '2026-09-04T00:06:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决财务文档审阅耗时易漏的痛点，AI 接收文件并执行提取与比对，交付审阅结果，人工确认。
+    evidence_ids:
+    - ev-5729b2fa63d68ba8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅来自 OpenAI 案例，缺乏独立用户评价或广泛采用证据。
+    evidence_ids:
+    - ev-5729b2fa63d68ba8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业法务或财务部门，但无公开证据。
+    evidence_ids:
+    - ev-5729b2fa63d68ba8
+  - gate: truth
+    status: supported
+    reason: 案例显示能发现植入错误，贴近审阅工作的第一性目标，但需更多独立验证。
+    evidence_ids:
+    - ev-5729b2fa63d68ba8
+  next_validation: 查找 Legora 官方定价页或客户案例，确认付费模式与实际采用情况。
+  market: ''
+  job: 财务分析师或审计师需要快速审阅大量财务报表和合同，找出错误和异常。
+  job_en: Financial analysts or auditors need to quickly review large volumes of financial statements
+    and contracts to identify errors and anomalies.
+  pain: 人工逐页核对耗时且易漏，错误发现率不稳定。
+  pain_en: Manual page-by-page review is time-consuming and error-prone, with inconsistent error detection
+    rates.
+  current_alternative: 传统上依赖人工团队逐份检查，或使用规则引擎辅助。
+  current_alternative_en: Traditionally relies on human teams checking documents one by one, or rule-based
+    engines for assistance.
+  usage_reason: AI 能在几分钟内处理数十份文件并发现植入错误，显著提升效率，因此财务团队会试用。
+  usage_reason_en: AI can process dozens of documents in minutes and detect planted errors, significantly
+    improving efficiency, so finance teams will trial it.

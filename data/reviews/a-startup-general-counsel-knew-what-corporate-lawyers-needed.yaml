@@ -1,0 +1,39 @@
+- id: req-initial-a-startup-general-counsel-knew-what-corporate-lawyers-needed-2026-09-04
+  project_slug: a-startup-general-counsel-knew-what-corporate-lawyers-needed
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决公司法务合同审查和法律研究的耗时痛点，创始人自身经历佐证需求刚性。
+    evidence_ids:
+    - ev-49cb6e0c26e8e92f
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅提及创始人背景，尚无用户采用或行业共识证据。
+    evidence_ids:
+    - ev-49cb6e0c26e8e92f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业法务部门，但尚无公开验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品具体功能与交付结果未公开，需进一步核验。
+    evidence_ids: []
+  next_validation: 查找 GC AI 官方网站或产品文档，确认其具体功能、定价及客户案例。
+  market: ''
+  job: 公司法务需要审查合同、进行法律研究，确保公司合规并降低风险。
+  job_en: Corporate counsel need to review contracts, conduct legal research, ensure compliance, and mitigate
+    risks.
+  pain: 合同审查耗时且容易遗漏条款，法律研究需要检索大量案例和法规。
+  pain_en: Contract review is time-consuming and prone to missing clauses; legal research requires searching
+    vast case law and regulations.
+  current_alternative: 目前主要依赖人工审查和传统法律数据库，或使用通用 AI 工具辅助。
+  current_alternative_en: Currently relies on manual review and traditional legal databases, or general
+    AI tools for assistance.
+  usage_reason: 创始人自身经历表明痛点真实，AI 可加速初筛和起草，但需人工确认。
+  usage_reason_en: The founder's own experience indicates a real pain point; AI can accelerate initial
+    screening and drafting, but human review is still needed.

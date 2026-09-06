@@ -21,7 +21,7 @@ canonical_url: https://jordangoodman.xyz/the-post-ai-internet-doesnt-look-great
 summary: The Post-AI Internet Doesn't Look Great
 first_seen: '2026-09-02T19:41:01Z'
 last_seen: '2026-09-04T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

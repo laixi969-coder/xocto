@@ -1,0 +1,40 @@
+- id: req-initial-ardent-2026-09-04
+  project_slug: ardent
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决非工程师无法编程的痛点，但具体工作流程和交付是否可靠未明。
+    evidence_ids:
+    - ev-aa7f19d57e0e5e98
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，缺乏用户反馈或采用数据。
+    evidence_ids:
+    - ev-aa7f19d57e0e5e98
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids:
+    - ev-aa7f19d57e0e5e98
+  - gate: truth
+    status: insufficient
+    reason: 承诺生成并执行代码，但交付确定性未验证。
+    evidence_ids:
+    - ev-aa7f19d57e0e5e98
+  next_validation: 查找 Ardent 的官方定价页或客户案例。
+  market: ''
+  job: 非工程人员需要完成编程任务，如数据处理、自动化脚本等。
+  job_en: Non-engineers need to accomplish programming tasks such as data processing and automation scripts.
+  pain: 非工程师缺乏编程技能，无法自行编写代码，依赖开发人员导致效率低下。
+  pain_en: Non-engineers lack coding skills, cannot write code themselves, and depend on developers causing
+    inefficiency.
+  current_alternative: 目前非工程师可能使用无代码工具、Excel 宏或请求开发人员帮助。
+  current_alternative_en: Currently, non-engineers may use no-code tools, Excel macros, or ask developers
+    for help.
+  usage_reason: 用户可能因 Ardent 能直接生成并执行代码而尝试，但具体采用证据不足。
+  usage_reason_en: Users may try Ardent because it can directly generate and execute code, but specific
+    adoption evidence is insufficient.

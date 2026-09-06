@@ -1,0 +1,41 @@
+- id: req-initial-storeease-launches-the-virtual-console-flex-bringing-ai-powe-2026-09-04
+  project_slug: storeease-launches-the-virtual-console-flex-bringing-ai-powe
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决仓储门店无人值守时接待与租约办理的痛点，替代人工前台，降低人力成本并减少客户流失。
+    evidence_ids:
+    - ev-3ea5854aee7552c7
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏客户采用或反馈数据，共识证据不足。
+    evidence_ids:
+    - ev-3ea5854aee7552c7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是仓储门店业主，但付费路径未验证。
+    evidence_ids:
+    - ev-3ea5854aee7552c7
+  - gate: truth
+    status: supported
+    reason: AI 处理标准化流程可确定性交付，但复杂情况需人工介入，边界需明确。
+    evidence_ids:
+    - ev-3ea5854aee7552c7
+  next_validation: 查找 StoreEase 官方定价页或客户案例，确认付费模式与实际采用情况。
+  market: ''
+  job: 在无人值守时段，仓储门店需要接待访客、办理租约、解答咨询。
+  job_en: During unattended hours, storage facilities need to receive visitors, process leases, and answer
+    inquiries.
+  pain: 传统有人值守门店人力成本高，非高峰时段利用率低，无人值守则可能流失客户。
+  pain_en: Staffed facilities have high labor costs and low off-peak utilization; unattended operation
+    risks losing customers.
+  current_alternative: 目前依赖人工前台或完全无人值守，客户可能因无法即时服务而流失。
+  current_alternative_en: Currently relies on human front desk or fully unattended operation, risking
+    customer loss due to lack of immediate service.
+  usage_reason: AI 虚拟前台可降低人力成本，延长服务时间，且能处理标准化流程，客户无需等待人工。
+  usage_reason_en: AI virtual front desk reduces labor costs, extends service hours, and handles standardized
+    processes, so customers don't wait for staff.

@@ -26,7 +26,7 @@ summary: "The August edition of my  sponsors-only monthly newsletter  is out. If
   \ of what you'll get. Pay $10/month to stay a month ahead of the free copy! \n\n     Tags:  newsletter"
 first_seen: '2026-09-04T05:54:40Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: integrating-outlook-with-amazon-quick-for-ai-powered-email-a
-name: Integrating Outlook with Amazon Quick for AI-powered email automation
+name: Amazon Quick
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ summary: Integrate Microsoft Outlook with Amazon Quick to automate email managem
   using Amazon Quick chat agents, Amazon Quick Flows, and Amazon Quick Automate.
 first_seen: '2026-09-03T16:11:57Z'
 last_seen: '2026-09-04T00:06:57Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# Integrating Outlook with Amazon Quick for AI-powered email automation
+# Amazon Quick
 
 Integrate Microsoft Outlook with Amazon Quick to automate email management, calendar scheduling, and workflow coordination. This post walks through the end-to-end setup and shows automation scenarios using Amazon Quick chat agents, Amazon Quick Flows, and Amazon Quick Automate.
 

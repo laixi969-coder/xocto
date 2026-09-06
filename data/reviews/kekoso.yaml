@@ -1,0 +1,38 @@
+- id: req-initial-kekoso-2026-09-04
+  project_slug: kekoso
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音转录的隐私痛点，需求明确，交付可确定。
+    evidence_ids:
+    - ev-4bd03a3e30bf8a9f
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料 讨论有限，但设备端转录是强场景。
+    evidence_ids:
+    - ev-4bd03a3e30bf8a9f
+    - ev-85cfa782df2fcbe7
+    - ev-c63e5adaf26bb19e
+  - gate: model
+    status: insufficient
+    reason: 未发现定价信息，付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近用户隐私需求，承诺可确定交付。
+    evidence_ids:
+    - ev-4bd03a3e30bf8a9f
+  next_validation: 官方定价页或应用商店页面。
+  market: ''
+  job: 用户需要在 Mac 上将语音转换为文字，用于笔记、采访记录或会议纪要。
+  job_en: Users need to convert speech to text on Mac for notes, interview records, or meeting minutes.
+  pain: 云端转录服务存在隐私泄露风险，且可能受网络影响。
+  pain_en: Cloud transcription services pose privacy risks and may be affected by network issues.
+  current_alternative: 使用云端转录工具如 Otter.ai，或手动打字。
+  current_alternative_en: Using cloud transcription tools like Otter.ai, or manual typing.
+  usage_reason: 设备端处理保护隐私，且无需网络，适合敏感场景。
+  usage_reason_en: On-device processing protects privacy and works offline, suitable for sensitive scenarios.

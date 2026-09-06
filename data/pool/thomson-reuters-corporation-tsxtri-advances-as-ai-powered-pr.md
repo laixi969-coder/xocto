@@ -23,7 +23,7 @@ summary: Thomson Reuters Corporation (TSX:TRI) Advances as AI-Powered Profession
   Transformation Drive Investor Confidence kalkine.ca
 first_seen: '2026-09-04T09:45:00Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

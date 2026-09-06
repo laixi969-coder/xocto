@@ -1,11 +1,12 @@
 ---
 slug: 用ai助手还要平台单独同意学者呼吁确立用户授权即有效规则
-name: 用AI助手还要平台单独同意？学者呼吁确立“用户授权即有效”规则
+name: 用户授权即有效规则
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 学者呼吁在AI助手使用中确立“用户授权即有效”规则，可能影响平台数据使用和AI服务的合规要求。
 inspiration: ''
-summary_en: ''
+summary_en: Scholars call for establishing a rule that user authorization is valid for AI assistants,
+  potentially affecting platform data usage and AI service compliance.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUHFRd2xWbDZX
 summary: 用AI助手还要平台单独同意？学者呼吁确立“用户授权即有效”规则 Sohu
 first_seen: '2026-09-04T11:12:00Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 用AI助手还要平台单独同意？学者呼吁确立“用户授权即有效”规则
+# 用户授权即有效规则
 
 用AI助手还要平台单独同意？学者呼吁确立“用户授权即有效”规则 Sohu
 

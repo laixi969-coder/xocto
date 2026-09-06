@@ -1,0 +1,38 @@
+- id: req-initial-forkforensics-2026-09-04
+  project_slug: forkforensics
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：恢复已删除仓库历史的需求存在，但场景罕见，且资料未说明恢复的可靠性和限制。
+    evidence_ids:
+    - ev-4a8c96700f0dbaaf
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论极少（5 分 0 评论），没有用户反馈或采用证据，共识未形成。
+    evidence_ids:
+    - ev-4a8c96700f0dbaaf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未涉及。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真未涉及。
+    evidence_ids: []
+  next_validation: 查看 ForkForensics 的 公开代码仓库 仓库，了解其实现原理、恢复成功率和用户反馈。
+  market: ''
+  job: 开发者需要从 fork 中恢复已删除仓库的历史，以避免丢失重要代码。
+  job_en: Developers need to recover deleted repo history from forks to avoid losing important code.
+  pain: 公开代码仓库 删除仓库后，历史记录通常无法恢复，可能导致工作成果丢失。
+  pain_en: After a public code repository repo is deleted, history is usually unrecoverable, potentially
+    losing work.
+  current_alternative: 开发者可能依赖本地备份或联系 公开代码仓库 支持，但备份不总是存在，支持恢复有限。
+  current_alternative_en: Developers may rely on local backups or contact public code repository support,
+    but backups aren't always available and support recovery is limited.
+  usage_reason: 如果工具有效，开发者可能在紧急情况下使用，但需求频率低，强度未明。
+  usage_reason_en: If the tool works, developers might use it in emergencies, but demand frequency is
+    low and intensity unclear.

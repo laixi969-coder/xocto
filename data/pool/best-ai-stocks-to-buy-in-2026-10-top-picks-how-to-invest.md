@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTN4SWRQbVZp
 summary: 'Best AI Stocks to Buy in 2026: 10 Top Picks & How to Invest fool.com'
 first_seen: '2026-09-01T19:32:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

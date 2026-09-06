@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNekRCemRlbVc5
 summary: 产品观察 | 前字节、大疆、腾讯团队创业，瞄准AI滑雪赛道，获厚雪投资 36 Kr
 first_seen: '2026-09-01T10:15:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

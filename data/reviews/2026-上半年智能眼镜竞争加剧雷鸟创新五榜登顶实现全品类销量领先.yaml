@@ -1,0 +1,39 @@
+- id: req-initial-2026-上半年智能眼镜竞争加剧雷鸟创新五榜登顶实现全品类销量领先-2026-09-04
+  project_slug: 2026-上半年智能眼镜竞争加剧雷鸟创新五榜登顶实现全品类销量领先
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户在移动场景下免提获取信息和娱乐的需求，痛点在于传统设备需手持，智能眼镜提供更自然的交互方式。
+    evidence_ids:
+    - ev-544f10b942133489
+  - gate: consensus
+    status: insufficient
+    reason: 市场份额领先表明有用户采用，但缺乏具体使用场景和持续采用证据。
+    evidence_ids:
+    - ev-544f10b942133489
+  - gate: model
+    status: insufficient
+    reason: 未披露定价和付费模式，买方可能是消费者或企业，但具体路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品功能描述有限，AI能力的具体实现和交付确定性未公开。
+    evidence_ids: []
+  next_validation: 查找雷鸟创新官方产品页面或定价信息，以确认具体功能、目标用户和商业模式。
+  market: ''
+  job: 用户需要便携的显示和交互设备，在移动中获取信息或娱乐。
+  job_en: Users need portable display and interaction devices to access information or entertainment on
+    the go.
+  pain: 传统手机或平板在移动场景下需要手持，无法解放双手，且屏幕尺寸受限。
+  pain_en: Traditional phones or tablets require handheld use in mobile scenarios, limiting hands-free
+    operation and screen size.
+  current_alternative: 用户可能使用手机、平板或头戴式显示器（如VR头显）作为替代。
+  current_alternative_en: Users may use phones, tablets, or head-mounted displays (e.g., VR headsets)
+    as alternatives.
+  usage_reason: 智能眼镜提供免提的显示和交互，适合需要同时处理其他任务的场景，如导航、拍摄或信息查看。
+  usage_reason_en: Smart glasses offer hands-free display and interaction, suitable for scenarios requiring
+    simultaneous tasks like navigation, photography, or information viewing.

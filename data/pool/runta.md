@@ -3,9 +3,15 @@ slug: runta
 name: Runta
 builder: leemysw
 category: ''
-summary_zh: ''
+summary_zh: Runta 发布 FrontierHarness Eval 评测：固定同一模型 Kimi K3 与任务环境，只更换 Coding Agent 的 Harness，在 30 道题上得到
+  50.0%–66.7% 的通过率，单题通过成本从 1.05 美元到 18.34 美元，相差逾 17 倍。结果显示模型之外的外层工程封装对智能体交付质量与成本影响显著，为选型 Agent 框架的团队提供了公开参照，也提示关注点正从模型能力本身转向模型之上的工程层。
 inspiration: ''
-summary_en: ''
+summary_en: 'Runta released FrontierHarness Eval: holding the same model (Kimi K3) and task environment
+  fixed, it varied only the coding agent harness across 30 tasks, obtaining pass rates of 50.0%–66.7%
+  and cost per solved task from $1.05 to $18.34 — a gap of more than 17x. The results show that the engineering
+  scaffolding around a model materially changes agent delivery quality and cost, giving teams a public
+  reference for choosing agent frameworks and signaling that attention is shifting from raw model capability
+  to the engineering layer above it.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -81,7 +87,7 @@ summary: "Runta 最近发布了一个 Coding Agent Harness 评测，名字叫 Fr
   \n- [Nexus 开源仓库]( https://github.com/nexus-research-lab/nexus)"
 first_seen: '2026-09-04T08:30:43Z'
 last_seen: '2026-09-04T14:23:24Z'
-status: pending_filter
+status: market_context
 sources:
 - v2ex
 sightings:

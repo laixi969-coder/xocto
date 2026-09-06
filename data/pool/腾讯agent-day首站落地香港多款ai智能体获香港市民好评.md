@@ -1,11 +1,13 @@
 ---
 slug: 腾讯agent-day首站落地香港多款ai智能体获香港市民好评
-name: 腾讯Agent Day首站落地香港，多款AI智能体获香港市民好评
+name: 腾讯
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 腾讯在香港举办Agent Day活动，展示多款AI智能体，获得当地市民好评。具体智能体的功能、应用场景和交付成果未在资料中详述。
 inspiration: ''
-summary_en: ''
+summary_en: Tencent held Agent Day in Hong Kong, showcasing multiple AI agents that received positive
+  feedback from local citizens. Specific functions, use cases, and deliverables are not detailed in the
+  source.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE96SlJZejdwT0Rp
 summary: 腾讯Agent Day首站落地香港，多款AI智能体获香港市民好评 ygacity.com
 first_seen: '2026-09-04T11:46:02Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# 腾讯Agent Day首站落地香港，多款AI智能体获香港市民好评
+# 腾讯
 
 腾讯Agent Day首站落地香港，多款AI智能体获香港市民好评 ygacity.com
 

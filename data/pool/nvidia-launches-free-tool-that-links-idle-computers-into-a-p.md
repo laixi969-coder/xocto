@@ -1,11 +1,12 @@
 ---
 slug: nvidia-launches-free-tool-that-links-idle-computers-into-a-p
-name: Nvidia launches free tool that links idle computers into a personal AI data center
+name: Nvidia Personal AI Router (PAIR)
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: 'Nvidia is announcing its new Personal AI Router (PAIR), a free tool th
   open-source software […]'
 first_seen: '2026-09-03T16:00:00Z'
 last_seen: '2026-09-04T00:06:58Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia launches free tool that links idle computers into a personal AI data center
+# Nvidia Personal AI Router (PAIR)
 
 Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply: PAIR is not a hardware router. It's open-source software […]
 

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTFBycm1FeHNhcFpK
 summary: FDE火了，企业会把钥匙交给外人吗？ ichaoqi.com
 first_seen: '2026-09-03T07:30:37Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

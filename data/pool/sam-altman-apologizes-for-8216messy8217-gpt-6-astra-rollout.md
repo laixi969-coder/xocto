@@ -1,11 +1,15 @@
 ---
 slug: sam-altman-apologizes-for-8216messy8217-gpt-6-astra-rollout
-name: Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that’s locked out paying users
+name: GPT-6 Astra
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: GPT-6 Astra 发布数小时内，付费用户未能如期获得这一新前沿模型的访问权限，CEO Sam Altman 就其所谓的"混乱发布"公开道歉；旗舰模型发布初期的稳定性问题可能动摇用户对
+  OpenAI 交付能力的信任，并为竞争对手争取时间和空间。
 inspiration: ''
-summary_en: ''
+summary_en: Within hours of the GPT-6 Astra launch, paying users were left waiting for access to the new
+  frontier model, and CEO Sam Altman publicly apologized for what he described as a messy rollout; early
+  reliability problems with a flagship launch may erode user trust in OpenAI's delivery and hand time
+  and space to competitors.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +28,7 @@ summary: Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was alread
   it as the start of "the […]
 first_seen: '2026-09-04T10:41:48Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +39,7 @@ sightings:
   kind: news
 ---
 
-# Sam Altman apologizes for &#8216;messy&#8217; GPT-6 Astra rollout that’s locked out paying users
+# GPT-6 Astra
 
 Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a "messy rollout" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a "generational leap in capability" on Thursday and described it as the start of "the […]
 

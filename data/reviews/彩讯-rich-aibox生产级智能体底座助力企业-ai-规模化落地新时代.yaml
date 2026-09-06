@@ -1,0 +1,38 @@
+- id: req-initial-彩讯-rich-aibox生产级智能体底座助力企业-ai-规模化落地新时代-2026-09-04
+  project_slug: 彩讯-rich-aibox生产级智能体底座助力企业-ai-规模化落地新时代
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决企业 AI 规模化落地的需求，但具体痛点和工作流不清晰，证据不足。
+    evidence_ids:
+    - ev-536f1536d94b5b2a
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或市场共识证据。
+    evidence_ids:
+    - ev-536f1536d94b5b2a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找彩讯 Rich AIBox 的官方产品文档或客户案例。
+  market: ''
+  job: 企业 IT 或业务负责人需要将 AI 智能体集成到现有业务流程中，以实现自动化。
+  job_en: Enterprise IT or business leaders need to integrate AI agents into existing workflows for automation.
+  pain: 缺乏统一底座，AI 项目难以规模化，存在管理复杂、安全风险等问题。
+  pain_en: Lack of a unified foundation makes AI projects hard to scale, with management complexity and
+    security risks.
+  current_alternative: 企业可能使用多个单点 AI 工具或自建系统，但缺乏统一管理。
+  current_alternative_en: Enterprises may use multiple point AI tools or self-built systems without unified
+    management.
+  usage_reason: 企业需要生产级底座来降低 AI 落地门槛，但具体采用原因需进一步验证。
+  usage_reason_en: Enterprises need a production-grade foundation to lower AI adoption barriers, but specific
+    reasons require further validation.

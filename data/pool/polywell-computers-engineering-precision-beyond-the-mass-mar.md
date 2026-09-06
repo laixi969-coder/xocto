@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xNlJSSXBDdkJ5
 summary: 'Polywell Computers: Engineering Precision beyond the Mass Market CIOReview'
 first_seen: '2026-09-02T05:55:22Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

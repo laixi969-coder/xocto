@@ -1,11 +1,12 @@
 ---
 slug: anthropic-launched-fable-51-and-now-the-agents-cost-less
-name: '😺Anthropic launched Fable 5.1: and now, the agents cost less'
+name: Claude Fable 5.1
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 发布 Claude Fable 5.1 模型，降低了代理（agent）的使用成本。这是模型层面的更新，影响下游 AI 应用的定价与可行性。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic released the Claude Fable 5.1 model, reducing the cost of agents. This is a model-level
+  update affecting pricing and feasibility of downstream AI applications.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxQSWk3Y09Dd0Jo
 summary: '😺Anthropic launched Fable 5.1: and now, the agents cost less The Neuron'
 first_seen: '2026-09-02T09:32:47Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 😺Anthropic launched Fable 5.1: and now, the agents cost less
+# Claude Fable 5.1
 
 😺Anthropic launched Fable 5.1: and now, the agents cost less The Neuron
 

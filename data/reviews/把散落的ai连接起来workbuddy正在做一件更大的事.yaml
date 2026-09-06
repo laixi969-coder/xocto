@@ -1,0 +1,39 @@
+- id: req-initial-把散落的ai连接起来workbuddy正在做一件更大的事-2026-09-04
+  project_slug: 把散落的ai连接起来workbuddy正在做一件更大的事
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，报道未提供具体工作流或用户案例。
+    evidence_ids:
+    - ev-6acb27361727157a
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或关注数据，无法判断共识。
+    evidence_ids:
+    - ev-6acb27361727157a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方不清。
+    evidence_ids:
+    - ev-6acb27361727157a
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断真实性。
+    evidence_ids:
+    - ev-6acb27361727157a
+  next_validation: 查找WorkBuddy官方产品页面或文档，确认其具体功能、目标用户和定价。
+  market: ''
+  job: 企业员工需要在多个AI工具间切换以完成工作，WorkBuddy试图统一入口。
+  job_en: Enterprise employees need to switch between multiple AI tools to complete work; WorkBuddy attempts
+    to unify the entry point.
+  pain: AI工具分散导致上下文丢失和效率低下。
+  pain_en: Fragmented AI tools cause loss of context and inefficiency.
+  current_alternative: 目前用户手动复制粘贴结果或使用多个浏览器标签页。
+  current_alternative_en: Currently users manually copy-paste results or use multiple browser tabs.
+  usage_reason: 如果WorkBuddy能无缝集成常用AI工具，可能减少切换成本，但证据不足。
+  usage_reason_en: If WorkBuddy can seamlessly integrate common AI tools, it may reduce switching costs,
+    but evidence is insufficient.

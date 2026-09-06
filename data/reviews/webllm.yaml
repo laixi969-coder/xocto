@@ -1,0 +1,37 @@
+- id: req-initial-webllm-2026-09-04
+  project_slug: webllm
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在浏览器中运行 LLM 的需求，痛点包括隐私、延迟和成本，替代方案是云端 API。
+    evidence_ids:
+    - ev-25ce406ac999b55c
+  - gate: consensus
+    status: supported
+    reason: 开源项目在社区获得关注，有讨论热度，但持续采用证据不足。
+    evidence_ids:
+    - ev-25ce406ac999b55c
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式不明确，可能通过企业支持或云服务盈利。
+    evidence_ids:
+    - ev-25ce406ac999b55c
+  - gate: truth
+    status: supported
+    reason: 浏览器推理是真实需求，但性能和兼容性需进一步验证。
+    evidence_ids:
+    - ev-25ce406ac999b55c
+  next_validation: 查看 公开代码仓库 仓库的 issue 和讨论，了解实际使用反馈和性能问题。
+  market: ''
+  job: 开发者需要在浏览器中运行 LLM，实现数据本地处理或降低服务器成本。
+  job_en: Developers need to run LLMs in the browser for local data processing or reduced server costs.
+  pain: 传统 LLM 推理依赖云端，带来延迟、隐私和成本问题。
+  pain_en: Traditional LLM inference relies on the cloud, causing latency, privacy, and cost issues.
+  current_alternative: 使用云端 API 或自建推理服务器。
+  current_alternative_en: Using cloud APIs or self-hosted inference servers.
+  usage_reason: WebLLM 提供开源方案，降低门槛，吸引开发者尝试。
+  usage_reason_en: WebLLM offers an open-source solution, lowering barriers and attracting developer experimentation.

@@ -1,0 +1,35 @@
+- id: req-initial-cmmnts-2026-09-04
+  project_slug: cmmnts
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体工作流描述。
+    evidence_ids:
+    - ev-1383cca336217b8e
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，明确评论区的具体功能和集成方式。
+  market: ''
+  job: 网站所有者需要为网站添加评论区以增加用户互动。
+  job_en: Website owners need to add comment sections to increase user engagement.
+  pain: 现有评论系统可能复杂或缺乏定制性，集成成本高。
+  pain_en: Existing comment systems may be complex or lack customization, with high integration costs.
+  current_alternative: 使用现成评论插件如 Disqus 或自建评论系统。
+  current_alternative_en: Using existing comment plugins like Disqus or building custom systems.
+  usage_reason: 产品承诺简化集成，但具体优势未明确，用户可能因便利性试用。
+  usage_reason_en: The product promises simplified integration, but specific advantages are unclear; users
+    may try for convenience.

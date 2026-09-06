@@ -258,3 +258,38 @@
   usage_reason: 在开发者社区获得 199 分和 58 条评论，表明开发者社区关注，但实际采用尚未核验。
   usage_reason_en: 199 points and 58 comments in the developer community indicate interest, but actual
     adoption is unverified.
+- id: req-initial-local-2026-09-04
+  project_slug: local
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：本地运行 AI 以避免云上传，保护隐私和离线可用。但痛点强度未明，现有替代如 Ollama 已存在，零摩擦是否构成实质改进未知。
+    evidence_ids:
+    - ev-6f5a1a329454341d
+  - gate: consensus
+    status: insufficient
+    reason: 有 公开资料 讨论（199 分，58 评论），但缺乏持续采用证据，关注度可能来自发布效应。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方定价页或详细功能文档，明确支持的任务类型和交付结果。
+  market: ''
+  job: Mac 用户希望在本地运行 AI 模型，避免数据上传云端，以保护隐私或离线使用。
+  job_en: Mac users want to run AI models locally to avoid cloud uploads for privacy or offline use.
+  pain: 云端 AI 存在隐私泄露风险，且离线或网络受限时无法使用。
+  pain_en: Cloud AI poses privacy risks and is unavailable offline or with limited connectivity.
+  current_alternative: 使用云端 AI 服务如 ChatGPT，或自行配置本地模型如 Ollama。
+  current_alternative_en: Using cloud AI services like ChatGPT, or self-hosting local models like Ollama.
+  usage_reason: 用户可能因隐私或离线需求尝试本地 AI，但零摩擦的承诺需验证是否真正简化了安装和配置。
+  usage_reason_en: Users may try local AI for privacy or offline needs, but the zero-friction claim needs
+    validation whether it truly simplifies installation and configuration.

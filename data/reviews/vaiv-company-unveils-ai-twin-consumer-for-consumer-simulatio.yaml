@@ -1,0 +1,40 @@
+- id: req-initial-vaiv-company-unveils-ai-twin-consumer-for-consumer-simulatio-2026-09-04
+  project_slug: vaiv-company-unveils-ai-twin-consumer-for-consumer-simulatio
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决市场调研周期长、成本高、样本有限的痛点，品牌需要快速预测消费者反应。
+    evidence_ids:
+    - ev-01753a9d0cca1180
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏客户采用或案例证据。
+    evidence_ids:
+    - ev-01753a9d0cca1180
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是品牌方或调研机构，但未验证。
+    evidence_ids:
+    - ev-01753a9d0cca1180
+  - gate: truth
+    status: insufficient
+    reason: 模拟消费者行为的准确性存疑，需与真实市场数据对比验证。
+    evidence_ids:
+    - ev-01753a9d0cca1180
+  next_validation: 查找 VAIV Company 官方产品页面或客户案例，确认模拟方法、准确性和付费模式。
+  market: ''
+  job: 品牌需要在新品上市前预测消费者反应，以降低市场风险。
+  job_en: Brands need to predict consumer reactions before launching new products to reduce market risk.
+  pain: 传统市场调研耗时且成本高，样本有限，难以模拟真实市场动态。
+  pain_en: Traditional market research is time-consuming and costly, with limited samples, failing to
+    simulate real market dynamics.
+  current_alternative: 目前依赖焦点小组、问卷调查或小规模试销，周期长且反馈可能失真。
+  current_alternative_en: Currently relies on focus groups, surveys, or small-scale test launches, which
+    are slow and may yield biased feedback.
+  usage_reason: AI 模拟可快速生成大量消费者行为数据，降低调研成本，但需验证模拟与真实行为的吻合度。
+  usage_reason_en: AI simulation can quickly generate large amounts of consumer behavior data, reducing
+    research costs, but alignment with real behavior needs validation.

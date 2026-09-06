@@ -21,7 +21,7 @@ canonical_url: https://nyatla.github.io/galuchat
 summary: Serverless reverse geocoding for WebMCP, ESP32, and RP2040
 first_seen: '2026-09-02T12:48:58Z'
 last_seen: '2026-09-04T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

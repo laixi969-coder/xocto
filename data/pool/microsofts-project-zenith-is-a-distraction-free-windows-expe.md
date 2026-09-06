@@ -1,11 +1,12 @@
 ---
 slug: microsofts-project-zenith-is-a-distraction-free-windows-expe
-name: Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers
+name: Project Zenith
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: 'Microsoft is giving its developer-optimized Windows experience a name:
   memory. "Project Zenith devices come with a preconfigured Windows setup for development and a […]'
 first_seen: '2026-09-04T10:44:15Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers
+# Project Zenith
 
 Microsoft is giving its developer-optimized Windows experience a name: Project Zenith. While the software maker originally announced a similar developer-optimized Windows effort at Build earlier this year, Project Zenith is designed for new developer-focused devices with 64GB or more of unified memory. "Project Zenith devices come with a preconfigured Windows setup for development and a […]
 

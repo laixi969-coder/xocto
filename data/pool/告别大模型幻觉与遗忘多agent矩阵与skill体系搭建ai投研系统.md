@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rZXY3bXRjaUVG
 summary: 告别大模型“幻觉”与“遗忘”，多Agent矩阵与Skill体系搭建AI投研系统 华尔街见闻
 first_seen: '2026-09-03T04:03:51Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -3,12 +3,14 @@ slug: 企业ai落地没有标准答案-每日互动打出本地化组合拳
 name: 每日互动
 builder: ''
 category: AI + 商业
-summary_zh: 每日互动作为数据智能服务商，为移动应用开发者提供推送、统计和用户画像服务，并为品牌营销、金融风控、智慧城市等提供大数据解决方案。其AI落地强调本地化部署，具体工作流和交付物仍待核验。
+summary_zh: 每日互动是一家数据智能服务商，为移动应用开发者提供推送、统计和用户画像服务，并为品牌营销、金融风控和智慧交通等场景提供大数据解决方案。其AIBI产品面向企业运营人员，输入业务数据和用户行为数据，输出智能运营策略建议和自动化执行动作，宣称能打通企业智能运营闭环。具体流程和交付细节仍待核验。
 inspiration: 趋势是数据服务商从卖数据转向卖AI落地能力。切入点是帮传统企业做本地化AI部署，尤其是数据敏感行业，按项目或效果收费，但需先验证具体交付闭环。
-summary_en: Geotmt, a data intelligence provider, offers push notifications, analytics, and user profiling
-  for mobile app developers, plus big data solutions for brand marketing, financial risk control, and
-  smart cities. Its AI implementation emphasizes on-premise deployment; specific workflows and deliverables
-  are yet to be verified.
+summary_en: Geotmt is a data intelligence service provider offering push notifications, analytics, and
+  user profiling for mobile app developers, and big data solutions for brand marketing, financial risk
+  control, and smart transportation. Its AIBI product targets enterprise operations staff, taking business
+  and user behavior data as input and outputting intelligent operation strategy suggestions and automated
+  execution actions, claiming to close the loop for enterprise intelligent operations. Specific workflows
+  and deliverables remain to be verified.
 inspiration_en: The trend is data service providers shifting from selling data to selling AI implementation.
   The entry point is helping traditional enterprises with localized AI deployment, especially in data-sensitive
   industries, charging per project or outcome, but the delivery loop needs validation.
@@ -38,7 +40,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijgFBVV95cUxNQm0tUEpLVGV6
 summary: 企业AI落地没有标准答案 每日互动打出“本地化”组合拳 新浪网
 first_seen: '2026-08-27T07:20:15Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

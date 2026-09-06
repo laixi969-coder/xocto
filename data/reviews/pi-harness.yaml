@@ -1,0 +1,38 @@
+- id: req-initial-pi-harness-2026-09-04
+  project_slug: pi-harness
+  level: initial
+  reviewed_at: '2026-09-04T14:23:30Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者观察和控制 AI 编程代理的需求，但痛点强度和替代方案尚不明确。
+    evidence_ids:
+    - ev-dbd6fb0fd0306844
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目星数少，缺乏社区讨论和采用证据。
+    evidence_ids:
+    - ev-dbd6fb0fd0306844
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看 公开代码仓库 仓库的 issue 和 discussion，了解开发者实际使用中的反馈和需求。
+  market: ''
+  job: 开发者需要观察和控制本地运行的 AI 编程代理，理解其行为和状态。
+  job_en: Developers need to observe and control locally running AI coding agents, understanding their
+    behavior and state.
+  pain: 命令行界面难以直观展示代理的复杂运行状态，调试和干预不便。
+  pain_en: Command-line interfaces make it hard to visualize complex agent runtime, hindering debugging
+    and intervention.
+  current_alternative: 目前开发者可能直接使用命令行工具或依赖代理的日志输出。
+  current_alternative_en: Currently developers may use command-line tools or rely on agent log output.
+  usage_reason: 开源项目，星数少，但为代理提供可视化控制可能吸引部分开发者尝试。
+  usage_reason_en: Open-source with few stars, but visual control for agents may attract some developers
+    to try.

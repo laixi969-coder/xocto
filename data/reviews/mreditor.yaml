@@ -1,0 +1,40 @@
+- id: req-initial-mreditor-2026-09-04
+  project_slug: mreditor
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者和运维人员快速打开和编辑超大日志文件的需求，痛点明确且刚性，交付可确定。
+    evidence_ids:
+    - ev-db0694fff56d6a7a
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论和采用数据有限，但场景明确，开发者对快速处理大文件有普遍需求。
+    evidence_ids:
+    - ev-db0694fff56d6a7a
+  - gate: model
+    status: insufficient
+    reason: 未明确商业模式，可能为开源免费，付费路径不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 性能承诺具体，贴近开发者核心工作，安全风险低。
+    evidence_ids:
+    - ev-db0694fff56d6a7a
+  next_validation: 查找官方文档或仓库中的性能基准测试和用户评价。
+  market: ''
+  job: 开发者和运维人员需要快速打开和编辑超大日志文件以排查问题。
+  job_en: Developers and operations engineers need to quickly open and edit very large log files to troubleshoot
+    issues.
+  pain: 传统编辑器打开大文件缓慢甚至崩溃，命令行工具编辑不便，影响排查效率。
+  pain_en: Traditional editors are slow or crash when opening large files, and command-line tools are
+    inconvenient for editing, hampering troubleshooting efficiency.
+  current_alternative: 使用 Vim、less 等命令行工具，或等待传统编辑器加载。
+  current_alternative_en: Using command-line tools like Vim or less, or waiting for traditional editors
+    to load.
+  usage_reason: MrEditor 能在 100 毫秒内打开 10GB 日志，直接解决等待痛点，且支持编辑，提供更流畅的排查体验。
+  usage_reason_en: MrEditor opens a 10GB log in 100ms, directly addressing the waiting pain point, and
+    supports editing, providing a smoother troubleshooting experience.

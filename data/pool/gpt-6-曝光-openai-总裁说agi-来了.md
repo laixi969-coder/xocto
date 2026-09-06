@@ -1,11 +1,13 @@
 ---
 slug: gpt-6-曝光-openai-总裁说agi-来了
-name: GPT-6 曝光， OpenAI 总裁说：AGI 来了
+name: GPT-6 Astra
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI发布具备直接屏幕视觉与GUI键鼠操作能力的基础大模型，推动AI从单纯API调用走向跨应用自主工作流，提升了前沿推理与多步骤计算机操作能力的标准。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI released a foundation model capable of direct visual screen perception and mouse/keyboard
+  GUI operations, advancing AI toward autonomous multi-application workflows and elevating benchmarks
+  in reasoning and computer use.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -53,7 +55,7 @@ summary: "头图来源：OpenAI \n 作者｜桦林舞王 \n 编辑｜靖宇 \n 2
   \ \n 接下来真正有意思的问题，是企业和个人用户会首先把它用在哪里，以及哪些职业会最先感受到这种「替代感」。"
 first_seen: '2026-09-03T22:48:29Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -69,7 +71,7 @@ sightings:
   kind: news
 ---
 
-# GPT-6 曝光， OpenAI 总裁说：AGI 来了
+# GPT-6 Astra
 
 头图来源：OpenAI 
  作者｜桦林舞王 

@@ -1,0 +1,35 @@
+- id: req-initial-try-omarchy-2026-09-04
+  project_slug: try-omarchy
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：Apple Silicon 兼容性需求存在，但 Omarchy 本身功能与用户群未明确。
+    evidence_ids:
+    - ev-5537ff2c186787c8
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低，仅 23 分 7 评论，缺乏持续采用证据。
+    evidence_ids:
+    - ev-5537ff2c186787c8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: Omarchy 官方文档或仓库，确认其功能与用户需求。
+  market: ''
+  job: 开发者希望在 Apple Silicon 上运行 Omarchy，但原版可能不支持。
+  job_en: Developers want to run Omarchy on Apple Silicon, but the original may not support it.
+  pain: Omarchy 可能无法在 Apple Silicon 上运行，限制了使用。
+  pain_en: Omarchy may not run on Apple Silicon, limiting its use.
+  current_alternative: 目前可能使用云服务或虚拟机运行 Omarchy。
+  current_alternative_en: Currently, developers may use cloud services or virtual machines to run Omarchy.
+  usage_reason: 如果开发者偏好本地运行，try-omarchy 提供了便利。
+  usage_reason_en: If developers prefer local execution, try-omarchy offers convenience.

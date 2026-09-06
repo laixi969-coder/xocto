@@ -1,0 +1,35 @@
+- id: req-initial-chalked-for-mac-2026-09-04
+  project_slug: chalked-for-mac
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体工作流描述。
+    evidence_ids:
+    - ev-1d88b7e0338182ff
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，明确具体工作流程和用户场景。
+  market: ''
+  job: 用户在工作时快速生成回复，并携带当前工作的完整上下文。
+  job_en: Users quickly generate replies during work, carrying full context of current tasks.
+  pain: 现有回复工具可能缺乏上下文，导致需要手动补充信息，效率低。
+  pain_en: Existing reply tools may lack context, requiring manual supplementation and reducing efficiency.
+  current_alternative: 手动复制粘贴上下文或使用通用文本扩展工具。
+  current_alternative_en: Manually copying context or using generic text expansion tools.
+  usage_reason: 产品承诺节省时间，但具体场景和优势未明确，用户可能因好奇试用。
+  usage_reason_en: The product promises time savings, but specific scenarios and advantages are unclear;
+    users may try out of curiosity.

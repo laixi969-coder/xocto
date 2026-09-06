@@ -1,0 +1,39 @@
+- id: req-initial-比昂芯科技在ai驱动eda的探索与实践-2026-09-04
+  project_slug: 比昂芯科技在ai驱动eda的探索与实践
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决芯片设计流程中耗时且依赖经验的痛点，AI优化可带来明确收益。
+    evidence_ids:
+    - ev-2b0ca6d85d1b70bf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及探索与实践，缺乏用户采用或行业共识证据。
+    evidence_ids:
+    - ev-2b0ca6d85d1b70bf
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是芯片设计公司，但付费路径未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI在EDA中的实际效果和交付确定性尚未有公开验证。
+    evidence_ids: []
+  next_validation: 查找比昂芯科技官方产品页面或客户案例，确认其AI EDA工具的具体功能与部署情况。
+  market: ''
+  job: 芯片设计工程师在完成芯片物理设计时，需要处理布局布线、时序收敛等复杂任务，AI可辅助优化这些步骤。
+  job_en: Chip design engineers handle complex tasks like layout and timing closure during physical design;
+    AI can assist in optimizing these steps.
+  pain: 传统EDA流程耗时且依赖专家经验，设计迭代周期长，成本高。
+  pain_en: Traditional EDA flows are time-consuming and rely on expert experience, leading to long design
+    cycles and high costs.
+  current_alternative: 目前主要依赖人工经验和传统EDA工具，缺乏智能化优化手段。
+  current_alternative_en: Currently relies on manual expertise and traditional EDA tools, lacking intelligent
+    optimization methods.
+  usage_reason: AI有望缩短设计周期、降低成本，因此芯片设计公司会关注并试用此类工具。
+  usage_reason_en: AI promises to shorten design cycles and reduce costs, so chip design companies will
+    pay attention and trial such tools.

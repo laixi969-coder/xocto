@@ -1,11 +1,12 @@
 ---
 slug: why-office-workers-are-turning-against-ai
-name: Why office workers are turning against AI
+name: Office worker sentiment on AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 办公室员工对AI的抵触情绪上升，可能反映AI在职场应用中的负面影响，如工作替代担忧和工具不完善。
 inspiration: ''
-summary_en: ''
+summary_en: Office workers are increasingly turning against AI, possibly reflecting negative impacts of
+  AI in the workplace, such as job displacement concerns and imperfect tools.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE45MVZrS3pLN1lv
 summary: Why office workers are turning against AI bloodinthemachine.com
 first_seen: '2026-09-03T08:26:21Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Why office workers are turning against AI
+# Office worker sentiment on AI
 
 Why office workers are turning against AI bloodinthemachine.com
 

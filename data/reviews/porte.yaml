@@ -1,0 +1,37 @@
+- id: req-initial-porte-2026-09-04
+  project_slug: porte
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决用户远程控制本地 AI 会话的需求，但痛点强度和场景频率不明确。
+    evidence_ids:
+    - ev-f9da74486f3752cc
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈和采用数据。
+    evidence_ids:
+    - ev-f9da74486f3752cc
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找 Porte 的官方产品页或应用商店页面，获取详细功能描述和用户评价。
+  market: ''
+  job: 用户希望在离开电脑时仍能控制本地运行的 AI 会话。
+  job_en: Users want to control locally running AI sessions when away from their computer.
+  pain: 本地 AI 会话通常绑定在桌面，离开后无法继续操作或监控。
+  pain_en: Local AI sessions are typically tied to the desktop, making it impossible to operate or monitor
+    when away.
+  current_alternative: 用户可能使用远程桌面或放弃控制，等待返回电脑。
+  current_alternative_en: Users may use remote desktop or abandon control until returning to the computer.
+  usage_reason: 产品信息有限，但移动控制本地 AI 的需求可能存在，需进一步验证。
+  usage_reason_en: Limited product info, but the need for mobile control of local AI may exist, requiring
+    further validation.

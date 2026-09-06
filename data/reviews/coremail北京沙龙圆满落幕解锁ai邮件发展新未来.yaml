@@ -1,0 +1,38 @@
+- id: req-initial-coremail北京沙龙圆满落幕解锁ai邮件发展新未来-2026-09-04
+  project_slug: coremail北京沙龙圆满落幕解锁ai邮件发展新未来
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决邮件处理痛点，但具体产品未发布，价值不明确。
+    evidence_ids:
+    - ev-0d989e0f4ad4f144
+  - gate: consensus
+    status: insufficient
+    reason: 沙龙活动不足以证明用户共识或采用。
+    evidence_ids:
+    - ev-0d989e0f4ad4f144
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业，但无定价或付费信息。
+    evidence_ids:
+    - ev-0d989e0f4ad4f144
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏产品细节。
+    evidence_ids:
+    - ev-0d989e0f4ad4f144
+  next_validation: 查找 Coremail 官方公告或产品页面，确认是否推出具体 AI 邮件功能。
+  market: ''
+  job: 企业邮箱用户需要处理大量邮件，包括撰写回复、分类和摘要。
+  job_en: Enterprise email users need to handle large volumes of email, including composing replies, categorizing,
+    and summarizing.
+  pain: 邮件处理耗时，容易遗漏重要信息。
+  pain_en: Email processing is time-consuming and risks missing important information.
+  current_alternative: 目前用户手动处理邮件，或使用简单的规则过滤。
+  current_alternative_en: Currently, users handle email manually or use simple rule-based filters.
+  usage_reason: AI 能自动摘要和分类邮件，提高处理效率。
+  usage_reason_en: AI can automatically summarize and categorize emails, improving efficiency.

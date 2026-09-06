@@ -1,0 +1,39 @@
+- id: req-initial-aisle-2026-09-04
+  project_slug: aisle
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决发现未知漏洞的需求，但具体产品形态和交付方式未披露，价值判断证据不足。
+    evidence_ids:
+    - ev-406a293b9549fde6
+  - gate: consensus
+    status: insufficient
+    reason: 仅有博客声明，无用户采用或社区验证证据。
+    evidence_ids:
+    - ev-406a293b9549fde6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找 aisle 的官方产品页面或安全研究发布，确认其具体服务形式和客户案例。
+  market: ''
+  job: 安全团队需要发现开源库中的未知漏洞（CVE）以保护依赖这些库的软件。
+  job_en: Security teams need to discover unknown vulnerabilities (CVEs) in open-source libraries to protect
+    software that depends on them.
+  pain: 现有 AI 工具（如 OpenAI、Anthropic）可能漏报漏洞，导致安全风险未被发现。
+  pain_en: Existing AI tools (e.g., OpenAI, Anthropic) may miss vulnerabilities, leaving security risks
+    undiscovered.
+  current_alternative: 目前安全团队可能依赖人工代码审计、静态分析工具或大模型辅助扫描。
+  current_alternative_en: Currently, security teams may rely on manual code review, static analysis tools,
+    or large model-assisted scanning.
+  usage_reason: 如果 aisle 能持续发现真实 CVE，安全团队可能采用其服务以弥补现有工具的不足。
+  usage_reason_en: If aisle can consistently discover real CVEs, security teams may adopt its service
+    to fill gaps in existing tools.

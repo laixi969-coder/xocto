@@ -1,20 +1,34 @@
 ---
 slug: 对话-sharpa-李一帆通用机器人要么全能要么无能
-name: 对话 Sharpa 李一帆：通用机器人要么全能，要么无能
+name: Sharpa
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: Sharpa 是一家具身智能机器人公司，其机器人将部署在 DQ 门店，替代冰淇淋店员完成从取杯、出料到搅拌的完整流程，制作暴风雪冰淇淋。具体部署规模、成本及人工替代程度仍待核验。
+inspiration: 趋势：具身智能从展示走向真实商业场景，餐饮连锁成为首个落地窗口。切入：可从快餐、茶饮等标准化程度高的品类切入，按门店或按出品收费，但需验证机器人稳定性与成本效益。
+summary_en: Sharpa is an embodied AI robotics company whose robot will be deployed at DQ stores to replace
+  ice cream shop staff in the complete process from cup retrieval, dispensing, to mixing, making Blizzard
+  ice cream. Specific deployment scale, cost, and degree of labor substitution remain to be verified.
+inspiration_en: 'Trend: Embodied AI moves from demos to real commercial scenes, with restaurant chains
+  as the first landing window. Entry: Start with highly standardized categories like fast food or tea
+  drinks, charge per store or per output, but need to verify robot stability and cost-effectiveness.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 餐饮
+- 机器人
+industries_en:
+- Food & Beverage
+- Robotics
+jobs:
+- 冰淇淋店员
+- 餐厅运营
+jobs_en:
+- Ice cream shop staff
+- Restaurant operations
+regions:
+- 中国上海
+regions_en:
+- Shanghai, China
 open_source: false
 url: http://www.geekpark.net/news/369851
 canonical_url: https://geekpark.net/news/369851
@@ -93,7 +107,7 @@ summary: "具身智能现在太吵了。     \n  行业里的人各自笃定，�
   \ 。我没法说他是错的。 \n \n *头图来源：Sharpa \n 本文为 In The Loop 原创文章，转载请联系作者"
 first_seen: '2026-09-04T08:37:04Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 sightings:
@@ -104,7 +118,7 @@ sightings:
   kind: news
 ---
 
-# 对话 Sharpa 李一帆：通用机器人要么全能，要么无能
+# Sharpa
 
 具身智能现在太吵了。     
   行业里的人各自笃定，声音大的先被听见。最响的那些声音，往往离真实的进展最远。     

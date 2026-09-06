@@ -1,0 +1,36 @@
+- id: req-initial-clockwork-2026-09-04
+  project_slug: clockwork
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体工作流描述。
+    evidence_ids:
+    - ev-bce48b0498305a96
+  - gate: consensus
+    status: insufficient
+    reason: 无用户反馈或采用数据，无法判断共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，明确代理日程管理的具体场景和用户价值。
+  market: ''
+  job: AI 代理需要管理日程，安排会议和任务，与人类协作。
+  job_en: AI agents need to manage schedules, arrange meetings and tasks, and collaborate with humans.
+  pain: 现有日历工具面向人类，代理无法直接使用，导致协调困难。
+  pain_en: Existing calendar tools are human-oriented; agents cannot use them directly, causing coordination
+    difficulties.
+  current_alternative: 通过 API 或人工干预来管理代理日程。
+  current_alternative_en: Managing agent schedules via APIs or manual intervention.
+  usage_reason: 产品概念新颖，可能吸引开发者或企业试用，但实际需求强度未明。
+  usage_reason_en: The concept is novel and may attract developers or enterprises to try, but actual demand
+    intensity is unclear.

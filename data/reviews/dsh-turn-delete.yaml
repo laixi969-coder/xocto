@@ -1,0 +1,39 @@
+- id: req-initial-dsh-turn-delete-2026-09-04
+  project_slug: dsh-turn-delete
+  level: initial
+  reviewed_at: '2026-09-04T00:06:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会话调试的痛点：删除错误回合而不丢失上下文，痛点存在，交付可确定。
+    evidence_ids:
+    - ev-12d399eb8fe8044d
+  - gate: consensus
+    status: insufficient
+    reason: 有 107 星，但缺乏用户评价或采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-12d399eb8fe8044d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者效率的第一性目标，承诺回合级删除，交付确定性较高。
+    evidence_ids:
+    - ev-12d399eb8fe8044d
+  next_validation: 查找用户反馈或采用数据，确认实际使用场景和付费意愿。
+  market: ''
+  job: 开发者在 DeepSeek Harness 中调试会话时，需要删除错误回合而不丢失整个会话。
+  job_en: Developers debugging sessions in DeepSeek Harness need to delete erroneous turns without losing
+    the entire session.
+  pain: 删除整个会话会丢失上下文，手动编辑又繁琐，影响调试效率。
+  pain_en: Deleting the entire session loses context, while manual editing is cumbersome, affecting debugging
+    efficiency.
+  current_alternative: 目前可能只能删除整个会话或手动复制粘贴，缺乏回合级控制。
+  current_alternative_en: Currently may only delete the entire session or manually copy-paste, lacking
+    turn-level control.
+  usage_reason: 该插件提供回合级删除，保留上下文，简化调试流程。
+  usage_reason_en: The plugin provides turn-level deletion, preserving context and simplifying debugging.

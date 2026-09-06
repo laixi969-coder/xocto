@@ -1,0 +1,40 @@
+- id: req-initial-知乎ai-works更新支持应用一键部署-财经-24h快讯-2026-09-04
+  project_slug: 知乎ai-works更新支持应用一键部署-财经-24h快讯
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者部署AI应用繁琐的痛点，一键部署提供确定性交付。
+    evidence_ids:
+    - ev-9b7029b7bb4b1500
+  - gate: consensus
+    status: insufficient
+    reason: 公开信息有限，缺乏用户采用数据，但场景明确。
+    evidence_ids:
+    - ev-9b7029b7bb4b1500
+  - gate: model
+    status: insufficient
+    reason: 付费模式未披露，可能面向开发者收费或作为平台增值服务。
+    evidence_ids:
+    - ev-9b7029b7bb4b1500
+  - gate: truth
+    status: supported
+    reason: 部署是开发流程的刚性需求，一键部署贴近第一性目标。
+    evidence_ids:
+    - ev-9b7029b7bb4b1500
+  next_validation: 查找知乎AI Works官方文档或定价页面，确认部署流程和收费模式。
+  market: ''
+  job: 开发者需要快速构建并部署AI应用，避免繁琐的运维配置。
+  job_en: Developers need to quickly build and deploy AI applications, avoiding tedious operations configuration.
+  pain: 传统部署涉及服务器、域名、环境配置等复杂步骤，耗时且易出错。
+  pain_en: Traditional deployment involves complex steps like servers, domains, and environment configuration,
+    which are time-consuming and error-prone.
+  current_alternative: 开发者通常使用云服务商（如阿里云、腾讯云）手动配置部署，或使用Heroku等PaaS平台。
+  current_alternative_en: Developers typically manually configure deployment on cloud providers like Alibaba
+    Cloud or Tencent Cloud, or use PaaS platforms like Heroku.
+  usage_reason: 一键部署能显著减少部署时间，尤其适合中小开发者和快速原型验证。
+  usage_reason_en: One-click deployment significantly reduces deployment time, especially suitable for
+    small developers and rapid prototyping.

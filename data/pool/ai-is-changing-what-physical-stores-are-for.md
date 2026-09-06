@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxQOHNnVjFzNWkt
 summary: AI is changing what physical stores are for Frontier Enterprise
 first_seen: '2026-09-04T00:30:00Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

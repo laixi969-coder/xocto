@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CcEt6RlRoZ0Fy
 summary: The Best Dell Laptops We've Tested for 2026 PCMag
 first_seen: '2026-09-01T07:00:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

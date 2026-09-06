@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vUU5ZczdIRmJ6
 summary: AI开启“一人成军”时代 问今课堂助力大众破解AI学习痛点 中华网
 first_seen: '2026-09-03T08:06:14Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

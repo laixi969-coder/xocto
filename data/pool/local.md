@@ -2,39 +2,34 @@
 slug: local
 name: Local
 builder: Lukas Wesemann
-category: 通用助手
-summary_zh: Mac 用户在本地运行 AI 模型，无需上传数据到云端。用户输入任务，AI 在设备上执行，处理本地数据。具体支持的任务类型和交付形式仍待核验。
-inspiration: 趋势是本地 AI 从开发者工具走向普通用户，数据隐私和离线可用成为卖点。切入可从特定职业场景（如律师、医生）的本地文档处理开始，强调数据不出设备。
-summary_en: Mac users run AI models locally without uploading data to the cloud. Users input tasks, AI
-  executes on-device, processing local data. Specific task types and deliverables remain to be verified.
-inspiration_en: The trend is local AI moving from developer tools to mainstream users, with data privacy
-  and offline capability as selling points. Entry could start with specific professional scenarios like
-  legal or medical document processing, emphasizing data staying on device.
+category: AI + 效率
+summary_zh: Local 是一款面向 Mac 用户的本地 AI 工具，宣称零摩擦，直接在设备上运行 AI 模型，处理本地数据而无需上传云端。用户输入任务，AI 在本地执行，具体支持的任务类型和交付结果尚未明确。
+inspiration: 本地 AI 工具正从开发者走向普通用户，强调隐私和数据主权。切入点是针对 Mac 用户的本地优先场景，如离线写作、代码补全或文档处理，但需明确具体工作流和付费模式。
+summary_en: Local is a local AI tool for Mac users, claiming zero friction, running AI models directly
+  on the device and processing local data without cloud upload. Users input tasks, AI executes locally;
+  specific supported tasks and deliverables are not yet clear.
+inspiration_en: Local AI tools are moving from developers to mainstream users, emphasizing privacy and
+  data sovereignty. The entry point is local-first scenarios for Mac users, such as offline writing, code
+  completion, or document processing, but specific workflows and pricing models need clarification.
 priority_review: false
 project_type: new_application
 industries:
 - 个人效率
-- 软件开发
 industries_en:
 - Personal productivity
-- Software development
 jobs:
-- 知识工作者
-- 软件开发者
+- Mac 用户
 jobs_en:
-- Knowledge workers
-- Software developers
-regions:
-- 全球
-regions_en:
-- Global
+- Mac users
+regions: []
+regions_en: []
 open_source: false
 url: https://www.producthunt.com/products/local-7
 canonical_url: https://producthunt.com/products/local-7
 summary: Zero (!) friction local AI for your Mac
 first_seen: '2026-08-20T01:43:17Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - officialfeeds

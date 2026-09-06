@@ -1,11 +1,13 @@
 ---
 slug: the-ipo-window-is-closing-here-are-8-startups-to-watch
-name: The IPO Window Is Closing. Here Are 8 Startups To Watch.
+name: 2026 IPO Window
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026 年风投支持公司的 IPO 窗口正在收窄：上半年已有 58 家公司以 10 亿美元及以上规模完成上市，年末前仅剩少量窗口期，一级市场退出节奏整体放缓，未上市初创公司的上市竞争加剧。
 inspiration: ''
-summary_en: ''
+summary_en: 'The 2026 window for venture-backed IPOs is narrowing: 58 companies already went public at
+  $1 billion or above in the first half, leaving only a small window before year-end, slowing venture
+  exits overall and intensifying listing competition among private startups.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQa01EWG1UMndE
 summary: The IPO Window Is Closing. Here Are 8 Startups To Watch. news.crunchbase.com
 first_seen: '2026-09-02T11:00:10Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds
@@ -38,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# The IPO Window Is Closing. Here Are 8 Startups To Watch.
+# 2026 IPO Window
 
 The IPO Window Is Closing. Here Are 8 Startups To Watch. news.crunchbase.com
 

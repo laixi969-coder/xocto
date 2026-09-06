@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZVHZsRW9FMVhM
 summary: The Best Password Managers We've Tested for 2026 PCMag
 first_seen: '2026-09-01T07:00:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

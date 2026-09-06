@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivwJBVV95cUxNeE1uTWU0SG5B
 summary: 破解三难困局：打造有用、敢用、好用的智能体– McKinsey Greater China 麦肯锡
 first_seen: '2026-09-02T19:12:26Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

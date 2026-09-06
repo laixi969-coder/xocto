@@ -2,18 +2,18 @@
 slug: 汤道生谈腾讯ai产品路线workbuddy源于自由探索
 name: 腾讯WorkBuddy
 builder: ''
-category: AI + 商业
-summary_zh: 腾讯推出的企业级AI智能体产品WorkBuddy，据称源于内部自由探索，但具体功能、使用场景和交付物尚未公开。目前仅见高管访谈提及，无产品页面或详细文档，具体流程或交付仍待核验。
-inspiration: 趋势是大型科技公司从通用助手转向企业工作流智能体。切入可从具体行业（如媒体、金融）的重复性流程开始，但需先明确WorkBuddy的实际能力和定价，再判断是否值得跟进。
-summary_en: Tencent's enterprise AI agent product WorkBuddy reportedly originated from internal free exploration,
-  but specific features, use cases, and deliverables are not yet public. Only executive interviews mention
-  it, with no product page or detailed documentation; specific workflows or deliverables remain to be
-  verified.
-inspiration_en: The trend is large tech companies shifting from general assistants to enterprise workflow
-  agents. Entry could start with repetitive processes in specific industries (e.g., media, finance), but
-  actual capabilities and pricing of WorkBuddy must be clarified before assessing whether to follow.
+category: 通用助手
+summary_zh: 腾讯WorkBuddy是面向企业员工的AI智能体产品，具体功能、使用场景和交付物尚未公开。据公开报道，它已向软硬件伙伴开放智能体底座能力，并与首批100多家硬件厂商合作，但具体工作流程和交付结果仍待核验。
+inspiration: 腾讯WorkBuddy的生态布局显示大厂正将AI智能体能力嵌入硬件终端，趋势是AI从软件走向物理设备。切入机会在于为特定行业（如会议、办公）提供垂直智能体，而非通用底座。
+summary_en: Tencent WorkBuddy is an AI agent product for enterprise employees, but its specific features,
+  use cases, and deliverables are not yet public. According to reports, it has opened its agent foundation
+  capabilities to software and hardware partners and collaborated with over 100 hardware vendors, but
+  the concrete workflow and deliverables remain to be verified.
+inspiration_en: Tencent WorkBuddy's ecosystem moves show big tech embedding AI agent capabilities into
+  hardware, signaling a trend from software to physical devices. Opportunities lie in vertical agents
+  for specific industries like meetings or office work, not generic platforms.
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
 - 企业服务
 industries_en:
@@ -32,7 +32,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNTEN0SDVDdDhl
 summary: 汤道生谈腾讯AI产品路线：WorkBuddy源于「自由探索」 搜狐网
 first_seen: '2026-08-27T02:50:09Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 - marketfeeds

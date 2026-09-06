@@ -1,0 +1,37 @@
+- id: req-initial-卡车自动驾驶里程超10亿公里嬴彻科技定义货运物理ai-2026-09-04
+  project_slug: 卡车自动驾驶里程超10亿公里嬴彻科技定义货运物理ai
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长途货运驾驶疲劳与安全痛点，替代人工驾驶，价值明确。
+    evidence_ids:
+    - ev-12f370ee86f3a358
+  - gate: consensus
+    status: supported
+    reason: 累计10亿公里与90%市场份额表明行业共识已形成。
+    evidence_ids:
+    - ev-12f370ee86f3a358
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露具体收费模式，买方可能是物流企业或司机。
+    evidence_ids:
+    - ev-12f370ee86f3a358
+  - gate: truth
+    status: supported
+    reason: 自动驾驶贴近运输第一性目标，交付可验证，但安全边界需持续监管。
+    evidence_ids:
+    - ev-12f370ee86f3a358
+  next_validation: 查找嬴彻科技官方定价或客户案例，确认商业模式。
+  market: ''
+  job: 卡车司机在长途干线运输中需要持续驾驶，疲劳风险高。
+  job_en: Truck drivers need sustained driving on long hauls, with high fatigue risk.
+  pain: 长途驾驶疲劳、安全风险、司机短缺。
+  pain_en: Fatigue, safety risks, and driver shortage on long hauls.
+  current_alternative: 传统人工驾驶，依赖司机经验与休息管理。
+  current_alternative_en: Traditional manual driving, relying on driver experience and rest management.
+  usage_reason: 自动驾驶可降低疲劳风险、提升运输效率，已有规模化应用。
+  usage_reason_en: Autonomous driving reduces fatigue risk and improves efficiency, with scaled adoption.

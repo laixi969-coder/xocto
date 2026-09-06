@@ -110,3 +110,40 @@
   current_alternative_en: Local IDE plugins, manual coding, cloud coding agents.
   usage_reason: 开发者社区讨论热烈，显示对离线编码代理有强烈兴趣。
   usage_reason_en: Active developer community discussion shows strong interest in offline coding agents.
+- id: req-initial-ante-2026-09-04
+  project_slug: ante
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受限内网开发者用不上云端编码代理的痛点：代码不能出网，云工具直接不可用；单文件离线形态直击该约束，此为工作流结构推理。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 首发讨论热度说明开发者关注离线编码代理，但公开关注不等于持续采用，尚无可归因到本产品的使用或留存证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价与买方，钱可能来自企业版许可或托管服务，这是判断而非已验证事实；不因此取消需求判定。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 单文件离线贴近代码不出内网的第一性目标，但离线状态下模型能力从何而来、代码改动质量能否确定交付，材料未说明。
+    evidence_ids: []
+  next_validation: 核验其开源仓库文档与社区讨论，确认离线模式下模型如何提供、支持哪些编码任务，以及是否有用户实测交付质量的记录。
+  market: ''
+  job: 在代码不能出内网或本机的环境里完成编码与改码任务。
+  job_en: Complete coding and refactoring tasks in environments where code cannot leave the intranet or
+    the local machine.
+  pain: 云端编码代理要求代码上传，受合规与保密约束的团队要么放弃 AI 辅助，要么自建复杂的本地环境。
+  pain_en: Cloud coding agents require uploading code; compliance-bound teams either forgo AI assistance
+    or build complex local setups themselves.
+  current_alternative: 手写代码，或自行部署本地开源模型再拼装工具链，成本高且体验差。
+  current_alternative_en: Writing code manually, or self-hosting local open models and assembling tooling
+    around them, which is costly and clumsy.
+  usage_reason: 单个可执行文件即装即用、全程离线，让受内网约束的开发者能以很低门槛试用编码代理。
+  usage_reason_en: A single ready-to-run binary that works fully offline gives restricted-environment
+    developers a low-friction way to try a coding agent.

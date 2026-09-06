@@ -1,11 +1,12 @@
 ---
 slug: descartes-systems-tsxdsg-expands-ai-logistics-intelligence
-name: Descartes Systems (TSX:DSG) Expands AI Logistics Intelligence
+name: Descartes Systems
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Descartes Systems 扩展其 AI 物流智能能力，具体功能与交付细节未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Descartes Systems is expanding its AI logistics intelligence capabilities; specific features
+  and delivery details are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdmg2Z2RqM2RZ
 summary: Descartes Systems (TSX:DSG) Expands AI Logistics Intelligence Kalkine Media
 first_seen: '2026-09-01T22:21:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Descartes Systems (TSX:DSG) Expands AI Logistics Intelligence
+# Descartes Systems
 
 Descartes Systems (TSX:DSG) Expands AI Logistics Intelligence Kalkine Media
 

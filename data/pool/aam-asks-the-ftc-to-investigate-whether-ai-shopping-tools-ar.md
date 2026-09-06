@@ -1,11 +1,13 @@
 ---
 slug: aam-asks-the-ftc-to-investigate-whether-ai-shopping-tools-ar
-name: AAM Asks the FTC to Investigate Whether AI Shopping Tools Are Ignoring Made in America Products
+name: Alliance for American Manufacturing
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 美国制造业联盟要求联邦贸易委员会调查AI购物工具是否忽略美国制造的产品，反映出监管机构与行业组织对AI导购推荐算法合规性与偏向性的关注。
 inspiration: ''
-summary_en: ''
+summary_en: The Alliance for American Manufacturing requested the FTC investigate whether AI shopping
+  tools neglect American-made products, highlighting regulatory and industry scrutiny over AI commerce
+  recommendation algorithms.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +24,7 @@ summary: AAM Asks the FTC to Investigate Whether AI Shopping Tools Are Ignoring 
   americanmanufacturing.org
 first_seen: '2026-09-03T15:19:10Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# AAM Asks the FTC to Investigate Whether AI Shopping Tools Are Ignoring Made in America Products
+# Alliance for American Manufacturing
 
 AAM Asks the FTC to Investigate Whether AI Shopping Tools Are Ignoring Made in America Products americanmanufacturing.org
 

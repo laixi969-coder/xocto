@@ -1,0 +1,37 @@
+- id: req-initial-trackmcp-2026-09-04
+  project_slug: trackmcp
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：MCP 服务器监控需求存在，但具体痛点强度与旧流程替代关系未明确。
+    evidence_ids:
+    - ev-309f367750cbed6d
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，仅产品发布页。
+    evidence_ids:
+    - ev-309f367750cbed6d
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性未验证。
+    evidence_ids: []
+  next_validation: 官方文档或定价页，确认具体监控指标与数据接入方式。
+  market: ''
+  job: 开发者需要监控 MCP 服务器的运行状态，了解调用量、错误率等指标。
+  job_en: Developers need to monitor the operational status of MCP servers, understanding metrics such
+    as call volume and error rates.
+  pain: MCP 服务器缺乏现成的监控工具，问题排查困难。
+  pain_en: MCP servers lack ready-made monitoring tools, making troubleshooting difficult.
+  current_alternative: 目前开发者可能依赖日志分析或自建监控。
+  current_alternative_en: Developers may currently rely on log analysis or self-built monitoring.
+  usage_reason: 如果 MCP 服务器数量增多，开发者需要统一的可观测性工具。
+  usage_reason_en: If the number of MCP servers increases, developers will need unified observability
+    tools.

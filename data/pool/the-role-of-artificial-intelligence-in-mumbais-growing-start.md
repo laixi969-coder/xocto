@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxQNFVGc0dkbjdB
 summary: The Role of Artificial Intelligence in Mumbai’s Growing Startup Ecosystem TyN Magazine
 first_seen: '2026-09-03T18:05:01Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

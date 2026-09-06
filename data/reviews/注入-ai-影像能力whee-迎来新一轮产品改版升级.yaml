@@ -1,0 +1,38 @@
+- id: req-initial-注入-ai-影像能力whee-迎来新一轮产品改版升级-2026-09-04
+  project_slug: 注入-ai-影像能力whee-迎来新一轮产品改版升级
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决图像创作者快速产出视觉素材的需求，痛点在于传统工具门槛高、耗时长，AI 生成可显著提速。
+    evidence_ids:
+    - ev-7549ea2f28f2411d
+  - gate: consensus
+    status: insufficient
+    reason: 改版新闻本身不构成采用证据，需观察用户是否持续使用。
+    evidence_ids:
+    - ev-7549ea2f28f2411d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是 C 端用户或 B 端企业，但缺乏公开信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 生成图像存在版权和真实性问题，需关注平台治理。
+    evidence_ids: []
+  next_validation: 查找 WHEE 官方产品页或定价信息，确认具体功能与商业模式。
+  market: ''
+  job: 用户需要快速生成或编辑图像，用于社交媒体、广告或设计素材。
+  job_en: Users need to quickly generate or edit images for social media, advertising, or design assets.
+  pain: 传统图像编辑耗时且需要专业技能，生成式 AI 可降低门槛。
+  pain_en: Traditional image editing is time-consuming and requires professional skills; generative AI
+    lowers the barrier.
+  current_alternative: 用户可能使用 Photoshop 等专业软件或 Midjourney 等独立 AI 工具。
+  current_alternative_en: Users may use professional software like Photoshop or standalone AI tools like
+    Midjourney.
+  usage_reason: WHEE 背靠美图，拥有现成用户基础和移动端优势，改版后可能吸引追求便捷创作的用户。
+  usage_reason_en: WHEE leverages Meitu's existing user base and mobile advantage; the redesign may attract
+    users seeking convenient creation.

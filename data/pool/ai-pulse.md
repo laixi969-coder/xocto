@@ -24,7 +24,7 @@ canonical_url: https://github.com/leog/ai-pulse
 summary: AI Pulse a fake LED strip beside the macOS Dock that shows agent status
 first_seen: '2026-08-10T22:07:41Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

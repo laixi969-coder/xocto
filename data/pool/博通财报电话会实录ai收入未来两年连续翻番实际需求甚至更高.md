@@ -1,11 +1,11 @@
 ---
 slug: 博通财报电话会实录ai收入未来两年连续翻番实际需求甚至更高
-name: 博通财报电话会实录：AI收入未来两年连续翻番，“实际需求甚至更高”
+name: 博通
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 博通财报电话会透露AI收入增长预期，反映AI基础设施需求强劲，属于行业背景。
 inspiration: ''
-summary_en: ''
+summary_en: Broadcom's earnings call signals strong AI infrastructure demand, a market context.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9kMmpxZjdpdDdq
 summary: 博通财报电话会实录：AI收入未来两年连续翻番，“实际需求甚至更高” 财联社
 first_seen: '2026-09-03T04:55:06Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +37,7 @@ sightings:
   kind: news
 ---
 
-# 博通财报电话会实录：AI收入未来两年连续翻番，“实际需求甚至更高”
+# 博通
 
 博通财报电话会实录：AI收入未来两年连续翻番，“实际需求甚至更高” 财联社
 

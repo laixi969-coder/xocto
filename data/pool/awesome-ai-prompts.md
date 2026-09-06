@@ -22,7 +22,7 @@ summary: Curated copy-paste AI prompts for student developers - disciplined work
   that verify, don't guess
 first_seen: '2026-08-15T14:21:01Z'
 last_seen: '2026-09-04T00:06:39Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

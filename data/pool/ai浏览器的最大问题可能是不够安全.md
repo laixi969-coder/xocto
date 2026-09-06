@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJTDUtcW0wSW9h
 summary: “AI浏览器”的最大问题，可能是不够安全 36 Kr
 first_seen: '2026-09-02T14:55:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

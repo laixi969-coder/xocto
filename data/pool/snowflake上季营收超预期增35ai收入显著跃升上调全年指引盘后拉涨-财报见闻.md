@@ -1,11 +1,15 @@
 ---
 slug: snowflake上季营收超预期增35ai收入显著跃升上调全年指引盘后拉涨-财报见闻
-name: Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻
+name: Snowflake
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 云数据平台 Snowflake 发布季度财报：营收同比增长 35% 且超出市场预期，公司称 AI 相关收入"显著跃升"，并上调全年业绩指引，财报公布后盘后股价上涨。它说明企业客户在数据平台上的
+  AI 用量正在转化为可计入报表的规模收入，企业级 AI 付费正从试点走向常态化采购。
 inspiration: ''
-summary_en: ''
+summary_en: Data cloud platform Snowflake reported quarterly revenue up 35% year over year, beating expectations,
+  said its AI revenue "jumped significantly", raised full-year guidance, and saw its stock rise after
+  hours. It shows AI usage on enterprise data platforms is converting into material, reportable revenue,
+  moving enterprise AI spend from pilots into regular procurement.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +25,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeVhfZjZ1eWVm
 summary: Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻 Sohu
 first_seen: '2026-09-02T20:35:30Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +41,7 @@ sightings:
   kind: news
 ---
 
-# Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻
+# Snowflake
 
 Snowflake上季营收超预期增35%，AI收入“显著跃升”，上调全年指引，盘后拉涨 | 财报见闻 Sohu
 

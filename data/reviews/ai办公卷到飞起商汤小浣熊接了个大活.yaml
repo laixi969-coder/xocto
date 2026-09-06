@@ -1,0 +1,36 @@
+- id: req-initial-ai办公卷到飞起商汤小浣熊接了个大活-2026-09-04
+  project_slug: ai办公卷到飞起商汤小浣熊接了个大活
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决办公效率问题，但具体功能和交付物未披露，价值判断证据不足。
+    evidence_ids:
+    - ev-97ef127d22b3c274
+  - gate: consensus
+    status: insufficient
+    reason: 仅有媒体报道，无用户采用或项目细节证据。
+    evidence_ids:
+    - ev-97ef127d22b3c274
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找商汤小浣熊的官方产品页面或客户案例，确认其具体功能和采用情况。
+  market: ''
+  job: 办公人员需要 AI 辅助处理文档、数据等日常办公任务。
+  job_en: Office workers need AI assistance for daily tasks like document and data processing.
+  pain: 传统办公软件操作繁琐，效率低下。
+  pain_en: Traditional office software is cumbersome and inefficient.
+  current_alternative: 目前办公人员可能使用 Microsoft Office、Google Workspace 等传统工具，或使用其他 AI 办公助手。
+  current_alternative_en: Currently, office workers may use traditional tools like Microsoft Office, Google
+    Workspace, or other AI assistants.
+  usage_reason: 如果小浣熊能提供更高效的办公自动化，可能吸引用户尝试。
+  usage_reason_en: If Raccoon can offer more efficient office automation, it may attract users to try.

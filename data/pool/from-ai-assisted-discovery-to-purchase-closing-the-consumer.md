@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmNoRVN3LTNF
 summary: 'From AI-assisted discovery to purchase: Closing the consumer trust gap The Real Economy Blog'
 first_seen: '2026-09-02T13:12:16Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

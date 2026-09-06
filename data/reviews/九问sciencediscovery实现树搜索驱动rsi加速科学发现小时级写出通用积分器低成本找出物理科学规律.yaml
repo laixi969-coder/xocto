@@ -1,0 +1,36 @@
+- id: req-initial-九问sciencediscovery实现树搜索驱动rsi加速科学发现小时级写出通用积分器低成本找出物理科学规律-2026-09-04
+  project_slug: 九问sciencediscovery实现树搜索驱动rsi加速科学发现小时级写出通用积分器低成本找出物理科学规律
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科学家从数据中提取规律的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-0a5578dfafa29c90
+  - gate: consensus
+    status: insufficient
+    reason: 公开关注度有限，但科学发现场景明确，可能形成共识。
+    evidence_ids:
+    - ev-0a5578dfafa29c90
+  - gate: model
+    status: insufficient
+    reason: 买方可能是科研机构或企业，但付费模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近科研第一性目标，交付结果可验证。
+    evidence_ids:
+    - ev-0a5578dfafa29c90
+  next_validation: 官方文档或论文，明确具体应用案例和交付形式。
+  market: ''
+  job: 科学家需要从实验数据中发现物理规律或数学表达式。
+  job_en: Scientists need to discover physical laws or mathematical expressions from experimental data.
+  pain: 传统科学发现依赖人工推导，耗时且易出错。
+  pain_en: Traditional discovery relies on manual derivation, which is time-consuming and error-prone.
+  current_alternative: 目前科学家使用数值模拟和手动符号回归。
+  current_alternative_en: Scientists currently use numerical simulation and manual symbolic regression.
+  usage_reason: 能自动发现规律，节省时间，可能吸引科研人员试用。
+  usage_reason_en: Automated law discovery saves time, potentially attracting researchers.

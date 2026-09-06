@@ -1,11 +1,12 @@
 ---
 slug: nvidia-to-buy-ai-startup-hacked-by-openai-in-129-billion-dea
-name: NVidia to Buy AI Startup Hacked by OpenAI in $12.9 Billion Deal
+name: Hugging Face
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxNMngtb3YwenpR
 summary: NVidia to Buy AI Startup Hacked by OpenAI in $12.9 Billion Deal تسنیم
 first_seen: '2026-09-04T08:43:56Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# NVidia to Buy AI Startup Hacked by OpenAI in $12.9 Billion Deal
+# Hugging Face
 
 NVidia to Buy AI Startup Hacked by OpenAI in $12.9 Billion Deal تسنیم
 

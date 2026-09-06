@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisAFBVV95cUxNMExlOGhBMzZB
 summary: How Reliable Logistics Data Optimises AI Discoverability The Business of Fashion
 first_seen: '2026-09-03T04:00:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,13 @@
 ---
 slug: crowdstrike推出ai合作伙伴专项计划-拓展企业ai部署安全生态
-name: CrowdStrike推出AI合作伙伴专项计划 拓展企业AI部署安全生态
+name: CrowdStrike
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: CrowdStrike 推出 AI 合作伙伴专项计划，旨在拓展企业 AI 部署的安全生态。该计划可能涉及与 AI 供应商合作，提供安全解决方案，但具体内容未披露。
 inspiration: ''
-summary_en: ''
+summary_en: CrowdStrike launches an AI partner program to expand the security ecosystem for enterprise
+  AI deployments. The program may involve partnering with AI vendors to provide security solutions, but
+  specifics are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE41YXp5SDJUTldF
 summary: CrowdStrike推出AI合作伙伴专项计划 拓展企业AI部署安全生态 Moomoo
 first_seen: '2026-09-01T06:28:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -47,7 +49,7 @@ sightings:
   kind: news
 ---
 
-# CrowdStrike推出AI合作伙伴专项计划 拓展企业AI部署安全生态
+# CrowdStrike
 
 CrowdStrike推出AI合作伙伴专项计划 拓展企业AI部署安全生态 Moomoo
 

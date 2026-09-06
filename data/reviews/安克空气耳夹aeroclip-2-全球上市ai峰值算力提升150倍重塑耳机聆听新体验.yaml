@@ -1,0 +1,37 @@
+- id: req-initial-安克空气耳夹aeroclip-2-全球上市ai峰值算力提升150倍重塑耳机聆听新体验-2026-09-04
+  project_slug: 安克空气耳夹aeroclip-2-全球上市ai峰值算力提升150倍重塑耳机聆听新体验
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开放式聆听需求，但AI算力提升的具体用户价值未说明。
+    evidence_ids:
+    - ev-5acc7d59119603f6
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用数据，共识未明。
+    evidence_ids:
+    - ev-5acc7d59119603f6
+  - gate: model
+    status: insufficient
+    reason: 定价与付费模式未披露。
+    evidence_ids:
+    - ev-5acc7d59119603f6
+  - gate: truth
+    status: insufficient
+    reason: AI功能是否贴近聆听第一性目标待核验。
+    evidence_ids:
+    - ev-5acc7d59119603f6
+  next_validation: 查找AeroClip 2官方产品页，确认AI功能与定价。
+  market: ''
+  job: 用户在通勤、运动等场景需要听音频，同时保持环境感知。
+  job_en: Users need audio in commuting or sports while maintaining environmental awareness.
+  pain: 传统入耳式耳机隔绝环境音，存在安全隐患。
+  pain_en: Traditional earbuds block ambient sound, posing safety risks.
+  current_alternative: 骨传导耳机或普通开放式耳机。
+  current_alternative_en: Bone conduction or regular open-ear headphones.
+  usage_reason: 空气耳夹设计提供舒适佩戴，但AI功能的具体价值尚不明确。
+  usage_reason_en: Open-ear design offers comfort, but AI value unclear.

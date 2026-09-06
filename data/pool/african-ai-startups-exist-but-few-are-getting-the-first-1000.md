@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRC1BcXpDelMy
 summary: African AI startups exist, but few are getting the first $100,000 Business News Nigeria
 first_seen: '2026-09-03T09:36:58Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

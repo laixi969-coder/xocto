@@ -1,11 +1,12 @@
 ---
 slug: adata-expands-enterprise-memory-and-storage-portfolio-for-ai
-name: ADATA expands enterprise memory and storage portfolio for AI servers and edge systems
+name: ADATA
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: ADATA 扩展企业级内存与存储产品线，面向 AI 服务器和边缘系统，属于硬件基础设施层面的行业变化。
 inspiration: ''
-summary_en: ''
+summary_en: ADATA expands its enterprise memory and storage product line for AI servers and edge systems,
+  representing an industry change at the hardware infrastructure level.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: ADATA expands enterprise memory and storage portfolio for AI servers an
   Computer
 first_seen: '2026-09-04T09:24:39Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# ADATA expands enterprise memory and storage portfolio for AI servers and edge systems
+# ADATA
 
 ADATA expands enterprise memory and storage portfolio for AI servers and edge systems Express Computer
 

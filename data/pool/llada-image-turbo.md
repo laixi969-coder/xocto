@@ -3,9 +3,10 @@ slug: llada-image-turbo
 name: LLaDA-Image-Turbo
 builder: akhaliq
 category: ''
-summary_zh: ''
+summary_zh: 这是一个开源模型演示，用于快速图像生成和编辑，但具体工作流程和交付物尚不明确。
 inspiration: ''
-summary_en: ''
+summary_en: An open-source model demo for fast image generation and editing, but specific workflow and
+  deliverables remain unclear.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -21,7 +22,7 @@ canonical_url: https://huggingface.co/spaces/akhaliq/llada-image-turbo-demo
 summary: 4-step image generation and editing with LLaDA-Image
 first_seen: '2026-09-04T04:52:47Z'
 last_seen: '2026-09-04T14:23:53Z'
-status: pending_filter
+status: market_context
 sources:
 - huggingface
 sightings:

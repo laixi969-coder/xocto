@@ -1,0 +1,40 @@
+- id: req-initial-toolfence-2026-09-04
+  project_slug: toolfence
+  level: initial
+  reviewed_at: '2026-09-04T00:06:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理工具调用的安全痛点，旧流程是依赖平台或自建，结构上成立。
+    evidence_ids:
+    - ev-98bb1a14147d1785
+  - gate: consensus
+    status: insufficient
+    reason: 100 星显示初步关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-98bb1a14147d1785
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费路径未披露，可能靠企业支持或云服务。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近安全第一性目标，失败关闭设计合理，但需验证实际效果。
+    evidence_ids:
+    - ev-98bb1a14147d1785
+  next_validation: 部署文档或企业采用案例
+  market: ''
+  job: 开发者和安全团队需要控制 AI 代理的 MCP 工具调用，确保符合策略并有人工审批。
+  job_en: Developers and security teams need to control AI agent MCP tool calls, ensuring policy compliance
+    and human approval.
+  pain: AI 代理可能调用未授权工具，造成数据泄露或误操作，缺乏本地控制机制。
+  pain_en: AI agents may call unauthorized tools, causing data leaks or misuse, lacking local control
+    mechanisms.
+  current_alternative: 团队通常依赖平台内置权限或自行编写脚本，但不够灵活或安全。
+  current_alternative_en: Teams typically rely on platform built-in permissions or custom scripts, which
+    are inflexible or insecure.
+  usage_reason: 开源社区关注度表明开发者对安全控制有需求，但采用证据有限。
+  usage_reason_en: Open-source community interest indicates developer demand for security controls, but
+    adoption evidence is limited.

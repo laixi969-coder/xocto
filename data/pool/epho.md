@@ -3,16 +3,24 @@ slug: epho
 name: Epho
 builder: karakanb
 category: AI + 开发
-summary_zh: 用 curl 运行 Claude Code
-inspiration: 将 AI 编码代理 API 化，可能简化集成
-summary_en: Run Claude Code with a curl
-inspiration_en: API-fying AI coding agents could simplify integration
+summary_zh: Epho 是一个工具，允许用户通过 curl 命令运行 Claude Code，即通过 HTTP 请求触发 Claude Code 的执行。具体使用场景、输入输出和交付物尚不明确，需要进一步核验。
+inspiration: 趋势：将 AI 编程助手封装为可通过 API 调用的服务，可能推动 AI 开发工具的自动化和集成。切入：面向需要批量或远程触发 AI 编程任务的开发者，但需明确具体工作流和付费模式。
+summary_en: Epho is a tool that lets users run Claude Code with a curl command, meaning it triggers Claude
+  Code execution via HTTP requests. The specific use case, inputs, outputs, and deliverables are unclear
+  and require further verification.
+inspiration_en: 'Trend: Packaging AI coding assistants as API-callable services may drive automation and
+  integration of AI dev tools. Entry: Target developers needing batch or remote triggering of AI coding
+  tasks, but clarify the workflow and pricing model.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
 open_source: false
@@ -21,7 +29,7 @@ canonical_url: https://epho.io
 summary: run Claude Code with a curl
 first_seen: '2026-08-20T15:45:51Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - producthunt

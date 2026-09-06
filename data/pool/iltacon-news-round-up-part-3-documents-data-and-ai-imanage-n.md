@@ -23,7 +23,7 @@ summary: 'ILTACON News Round-Up Part 3, Documents, Data and AI: iManage, NetDocu
   Kluwer, Thomson Reuters, Clio, Avvoka LawSites'
 first_seen: '2026-09-04T13:04:14Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

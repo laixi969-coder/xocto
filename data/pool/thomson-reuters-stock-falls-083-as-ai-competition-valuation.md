@@ -23,7 +23,7 @@ summary: Thomson Reuters Stock Falls 0.83% as AI Competition, Valuation Sensitiv
   Weigh on Sentiment kalkine.ca
 first_seen: '2026-09-03T16:55:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

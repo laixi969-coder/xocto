@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9QWDdqVTZ4amdy
 summary: Homer AI好马亮相2026中国国际福祉博览会，VLX空间理解能力赋能AI可穿戴设备 36 Kr
 first_seen: '2026-09-02T18:39:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

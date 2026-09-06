@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNTzRheVJuVUtB
 summary: 美股反弹不代表风险解除：SNOW爆升、Dell验证AI需求，博通好业绩反而跌｜三大指数及焦点股部署 moomoo.com
 first_seen: '2026-09-03T00:04:42Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

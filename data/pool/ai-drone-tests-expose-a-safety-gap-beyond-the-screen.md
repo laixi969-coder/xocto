@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihAFBVV95cUxNekhvLS1MZmhV
 summary: AI drone tests expose a safety gap beyond the screen IBM
 first_seen: '2026-09-03T20:54:14Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

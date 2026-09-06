@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxON3Q4RlItVXlP
 summary: Top 10 Real Estate App Development Companies to Hire in 2026 WhaTech
 first_seen: '2026-09-03T22:46:12Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

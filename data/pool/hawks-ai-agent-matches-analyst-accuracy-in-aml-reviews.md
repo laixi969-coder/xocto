@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxQMnozVVJrTnFy
 summary: Hawk’s AI agent matches analyst accuracy in AML reviews FinTech Global
 first_seen: '2026-09-02T16:12:30Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

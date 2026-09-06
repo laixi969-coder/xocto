@@ -1,0 +1,41 @@
+- id: req-initial-广州ai企业蘑菇物联完成c轮整体融资-2026-09-04
+  project_slug: 广州ai企业蘑菇物联完成c轮整体融资
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工厂设备管理中的故障预测和能耗优化问题，痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-eb695df7fc331470
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未提供客户采用或规模数据，共识证据不足。
+    evidence_ids:
+    - ev-eb695df7fc331470
+  - gate: model
+    status: insufficient
+    reason: 融资信息显示资本认可，但付费模式与客户付费情况未披露。
+    evidence_ids:
+    - ev-eb695df7fc331470
+  - gate: truth
+    status: supported
+    reason: 贴近工业设备管理的第一性目标，承诺可验证，安全边界清晰。
+    evidence_ids:
+    - ev-eb695df7fc331470
+  next_validation: 查找蘑菇物联官方定价页或客户案例，确认付费模式与交付结果。
+  market: ''
+  job: 工厂设备管理人员需要实时掌握设备健康状态，提前发现故障隐患，避免非计划停机。
+  job_en: Factory equipment managers need real-time visibility into equipment health to detect potential
+    failures early and avoid unplanned downtime.
+  pain: 传统人工巡检效率低，故障发现滞后，停机造成巨大损失；能耗管理粗放，成本高。
+  pain_en: Traditional manual inspections are inefficient, failure detection is delayed, and downtime
+    causes huge losses; energy management is imprecise and costly.
+  current_alternative: 目前工厂多依赖人工巡检和定期维护，或使用简单的监控系统，缺乏预测能力。
+  current_alternative_en: Factories currently rely on manual inspections and scheduled maintenance, or
+    use basic monitoring systems without predictive capabilities.
+  usage_reason: 蘑菇物联提供预测性维护和能耗优化，能直接减少停机损失和能源成本，价值明确。
+  usage_reason_en: Mogu IoT offers predictive maintenance and energy optimization, directly reducing downtime
+    losses and energy costs, with clear value.

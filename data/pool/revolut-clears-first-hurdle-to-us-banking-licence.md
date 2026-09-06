@@ -1,6 +1,6 @@
 ---
 slug: revolut-clears-first-hurdle-to-us-banking-licence
-name: Revolut clears first hurdle to US banking licence
+name: Revolut
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/revolut-us-banking-licence-2
 summary: ''
 first_seen: '2026-09-03T17:46:52Z'
 last_seen: '2026-09-04T00:06:58Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Revolut clears first hurdle to US banking licence
+# Revolut
 
 _（源没给简介）_
 

@@ -80,3 +80,43 @@
   usage_reason: 智能体化服务收入同比增长605.7%，表明市场采用强劲，但具体客户类型和付费模式未披露。
   usage_reason_en: The 605.7% year-over-year growth in agent-based service revenue indicates strong market
     adoption, but specific customer types and pricing models are undisclosed.
+- id: req-initial-明略科技发布2026年中期业绩智能体化服务收入同比增长6057-2026-09-04
+  project_slug: 明略科技发布2026年中期业绩智能体化服务收入同比增长6057
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业数据处理和决策支持的需求，痛点在于效率与准确性，且收入增长表明有采用。
+    evidence_ids:
+    - ev-b06ce223e003dd1b
+    - ev-2dc39efac09cbc54
+  - gate: consensus
+    status: insufficient
+    reason: 收入增长是强信号，但缺乏用户评价或持续采用数据，共识证据不足。
+    evidence_ids:
+    - ev-a5641da7b29c63c6
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业，但具体付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 智能体服务的实际交付质量和安全边界未公开，需进一步核验。
+    evidence_ids: []
+  next_validation: 查找明略科技官方定价页或客户案例，以确认付费模式与交付结果。
+  market: ''
+  job: 企业需要AI智能体处理业务流程中的数据并辅助决策，以提升效率和准确性。
+  job_en: Enterprises need AI agents to process data in business processes and assist decision-making
+    to improve efficiency and accuracy.
+  pain: 传统数据处理和决策支持耗时且易错，企业难以快速响应市场变化。
+  pain_en: Traditional data processing and decision support are time-consuming and error-prone, making
+    it hard for enterprises to respond quickly to market changes.
+  current_alternative: 企业可能依赖人工分析或传统软件，但效率低且难以规模化。
+  current_alternative_en: Enterprises may rely on manual analysis or traditional software, which is inefficient
+    and hard to scale.
+  usage_reason: 智能体化服务收入激增表明企业正在采用此类服务，可能因为其能提供可追溯的业务结果。
+  usage_reason_en: The surge in agent-based services revenue indicates adoption, possibly because it offers
+    traceable business outcomes.

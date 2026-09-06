@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxONjBMOFdpVENv
 summary: Top Fintech AI Development Companies Worldwide in 2026 The Red & Black
 first_seen: '2026-09-02T17:40:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

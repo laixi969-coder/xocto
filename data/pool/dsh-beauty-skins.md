@@ -21,7 +21,7 @@ canonical_url: https://github.com/XieRW/dsh-beauty-skins
 summary: 给 DeepSeek Harness 用的美女系列皮肤：设置里从 哲风壁纸 拉预览网格，点一张即应用，配色从壁纸提取。支持动态壁纸，也保留自定义选图。
 first_seen: '2026-08-18T08:44:24Z'
 last_seen: '2026-09-04T00:06:39Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

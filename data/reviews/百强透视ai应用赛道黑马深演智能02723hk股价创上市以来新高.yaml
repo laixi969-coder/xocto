@@ -1,0 +1,36 @@
+- id: req-initial-百强透视ai应用赛道黑马深演智能02723hk股价创上市以来新高-2026-09-04
+  project_slug: 百强透视ai应用赛道黑马深演智能02723hk股价创上市以来新高
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，资料仅提及股价和行业，缺乏产品细节。
+    evidence_ids:
+    - ev-02e0d73f1343f1b4
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用证据，仅股价表现不足以证明共识。
+    evidence_ids:
+    - ev-02e0d73f1343f1b4
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断真实性。
+    evidence_ids: []
+  next_validation: 查找深演智能的官方产品页面或客户案例，以了解具体功能和实际应用。
+  market: ''
+  job: 营销人员需要优化广告投放和客户转化。
+  job_en: Marketers need to optimize ad placement and customer conversion.
+  pain: 传统营销方式效率低，难以精准触达目标客户。
+  pain_en: Traditional marketing is inefficient and struggles to precisely reach target customers.
+  current_alternative: 目前可能依赖人工分析和传统广告平台。
+  current_alternative_en: Currently may rely on manual analysis and traditional ad platforms.
+  usage_reason: 股价创新高表明市场对其 AI 营销解决方案有期待，但具体采用情况未公开。
+  usage_reason_en: The stock price hitting a new high indicates market expectations for its AI marketing
+    solutions, but specific adoption is not public.

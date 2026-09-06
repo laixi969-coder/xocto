@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvWFBZUDRlTmNV
 summary: AI算力基建“出海” 宁波“小巨人”如何做到？ 昆明信息港
 first_seen: '2026-09-04T02:06:19Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

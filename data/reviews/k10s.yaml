@@ -1,0 +1,40 @@
+- id: req-initial-k10s-2026-09-04
+  project_slug: k10s
+  level: initial
+  reviewed_at: '2026-09-04T14:23:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Kubernetes 操作复杂、效率低的问题，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-88b9d56c4bc29e1c
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目，星数增长缓慢，但社区讨论可能有限。
+    evidence_ids:
+    - ev-88b9d56c4bc29e1c
+    - ev-fe88a57e5549cbe3
+    - ev-e63470247123e282
+    - ev-f380411f1058b148
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确付费路径，但可作为开发者工具生态的一部分。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的第一性目标，AI 辅助可确定交付。
+    evidence_ids:
+    - ev-88b9d56c4bc29e1c
+  next_validation: 公开代码仓库 仓库的 issue 或 discussion 中用户反馈和采用情况。
+  market: ''
+  job: DevOps 工程师需要在终端中快速查看和管理 Kubernetes 资源，如查看日志、执行命令、端口转发。
+  job_en: DevOps engineers need to quickly view and manage Kubernetes resources in the terminal, such
+    as viewing logs, executing commands, and port-forwarding.
+  pain: 传统 kubectl 命令复杂且难以记忆，操作效率低。
+  pain_en: Traditional kubectl commands are complex and hard to remember, leading to low efficiency.
+  current_alternative: 使用 kubectl 命令行或 Web 控制台（如 Kubernetes Dashboard）。
+  current_alternative_en: Using kubectl command line or web consoles like Kubernetes Dashboard.
+  usage_reason: 提供可点击的 TUI 和 AI 辅助，降低操作门槛，提高效率。
+  usage_reason_en: Provides a clickable TUI and AI assistance, lowering the barrier and improving efficiency.

@@ -1,11 +1,12 @@
 ---
 slug: 中电科智慧院携极智智能体平台产品亮相ai产业峰会
-name: 中电科智慧院携极智智能体平台产品亮相AI产业峰会
+name: 极智智能体平台
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 中电科智慧院推出极智智能体平台，面向政企客户提供智能体服务，具体功能和应用场景尚未披露。
 inspiration: ''
-summary_en: ''
+summary_en: CETC Smart launched Jizhi, an agent platform for government and enterprise clients; specifics
+  undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE1pdERpQnhjUm9D
 summary: 中电科智慧院携极智智能体平台产品亮相AI产业峰会 中华网
 first_seen: '2026-09-04T03:11:00Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 中电科智慧院携极智智能体平台产品亮相AI产业峰会
+# 极智智能体平台
 
 中电科智慧院携极智智能体平台产品亮相AI产业峰会 中华网
 

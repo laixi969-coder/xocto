@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQckg2SWs5Mk9J
 summary: How to keep your retail AI pilot out of the graveyard Retail Customer Experience
 first_seen: '2026-09-03T10:00:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

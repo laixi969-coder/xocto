@@ -1,0 +1,40 @@
+- id: req-initial-梅卡曼德上市具身智能又跑出一家百亿公司-2026-09-04
+  project_slug: 梅卡曼德上市具身智能又跑出一家百亿公司
+  level: initial
+  reviewed_at: '2026-09-04T14:23:54Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工业机器人部署中识别与规划的刚性痛点，替代人工示教，交付可确定。
+    evidence_ids:
+    - ev-092a3110f4f692f6
+  - gate: consensus
+    status: supported
+    reason: 累计部署超2.9万台，服务超100家世界500强，显示强场景和持续采用。
+    evidence_ids:
+    - ev-092a3110f4f692f6
+  - gate: model
+    status: insufficient
+    reason: 公开材料未明确收费方式，但上市融资显示商业可行性，买方可能是工厂或集成商。
+    evidence_ids:
+    - ev-092a3110f4f692f6
+  - gate: truth
+    status: supported
+    reason: 贴近工业自动化第一性目标，交付确定性高，安全边界清晰。
+    evidence_ids:
+    - ev-092a3110f4f692f6
+  next_validation: 查找梅卡曼德官方定价页或客户案例，确认具体收费模式和交付结果。
+  market: ''
+  job: 工厂或集成商在部署机器人时，需要让机械臂准确识别和抓取工件。
+  job_en: Factories or integrators need robots to accurately recognize and grasp workpieces during deployment.
+  pain: 传统机器人编程复杂，难以适应工件位置和姿态变化，导致部署周期长、柔性差。
+  pain_en: Traditional robot programming is complex and struggles with varying part positions and poses,
+    leading to long deployment cycles and poor flexibility.
+  current_alternative: 过去依赖人工示教或固定治具，每次更换产品需重新编程和调整。
+  current_alternative_en: Previously relied on manual teaching or fixed fixtures, requiring reprogramming
+    and adjustment for each product change.
+  usage_reason: 梅卡曼德提供标准化视觉与规划组件，减少现场调试时间，提升产线柔性，因此被广泛采用。
+  usage_reason_en: Mech-Mind offers standardized vision and planning components that reduce on-site commissioning
+    time and improve line flexibility, leading to widespread adoption.

@@ -1,0 +1,41 @@
+- id: req-initial-conexiom-launches-ai-native-relay-for-order-automation-2026-09-04
+  project_slug: conexiom-launches-ai-native-relay-for-order-automation
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决订单录入这一具体痛点，痛点刚性，交付可确定（自动录入 ERP）。
+    evidence_ids:
+    - ev-1853d2e5a9e5ddd7
+  - gate: consensus
+    status: supported
+    reason: 订单自动化是公认的痛点，Conexiom 已有客户基础，场景明确。
+    evidence_ids:
+    - ev-1853d2e5a9e5ddd7
+  - gate: model
+    status: insufficient
+    reason: 买方可能是制造企业，但定价和付费模式未披露。
+    evidence_ids:
+    - ev-1853d2e5a9e5ddd7
+  - gate: truth
+    status: supported
+    reason: 贴近订单处理的第一性目标，AI 提取技术成熟，交付可验证。
+    evidence_ids:
+    - ev-1853d2e5a9e5ddd7
+  next_validation: 查找 Conexiom 官网的定价页或客户案例，确认付费模式和实际采用情况。
+  market: ''
+  job: 订单处理员需要将客户发来的采购订单（PDF、EDI、邮件）手动录入 ERP 系统，并核对数据准确性。
+  job_en: Order processors need to manually enter customer purchase orders (PDF, EDI, email) into ERP
+    systems and verify data accuracy.
+  pain: 手动录入耗时且易错，订单量大时容易延误，影响供应链效率。
+  pain_en: Manual entry is time-consuming and error-prone, causing delays with high order volumes and
+    impacting supply chain efficiency.
+  current_alternative: 目前企业多依赖人工录入或传统 OCR 工具，仍需人工核对。
+  current_alternative_en: Currently, companies rely on manual entry or traditional OCR tools, still requiring
+    human verification.
+  usage_reason: AI 能自动提取并录入订单数据，减少人工操作，提高准确性和速度。
+  usage_reason_en: AI can automatically extract and enter order data, reducing manual effort and improving
+    accuracy and speed.

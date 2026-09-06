@@ -1,11 +1,12 @@
 ---
 slug: when-traders-ask-ai-which-broker-to-choose-will-yours-exist
-name: When Traders Ask AI Which Broker to Choose, Will Yours Exist?
+name: AI in Broker Selection
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 文章讨论交易者使用AI选择经纪商时，经纪商可能面临生存挑战，反映AI对金融中介行业的潜在影响。
 inspiration: ''
-summary_en: ''
+summary_en: The article discusses how traders using AI to choose brokers may threaten broker survival,
+  reflecting AI's potential impact on financial intermediation.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxPOXhpaFlCc2Vy
 summary: When Traders Ask AI Which Broker to Choose, Will Yours Exist? FX News Group
 first_seen: '2026-09-04T09:34:11Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# When Traders Ask AI Which Broker to Choose, Will Yours Exist?
+# AI in Broker Selection
 
 When Traders Ask AI Which Broker to Choose, Will Yours Exist? FX News Group
 

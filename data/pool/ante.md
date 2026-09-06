@@ -3,24 +3,26 @@ slug: ante
 name: Ante
 builder: ubermon
 category: AI + 开发
-summary_zh: 一个单二进制文件、可离线运行的编码代理。开发者将其作为命令行工具使用，在本地环境中接收代码任务，执行编码操作，无需联网。具体支持的语言、任务类型和交付形式仍待核验。
-inspiration: 趋势是编码代理从云端走向本地，强调隐私和离线能力。切入可从安全敏感行业（如金融、政府）入手，提供本地化部署的编码助手，按席位或项目收费。
-summary_en: A coding agent in a single binary that runs offline. Developers use it as a CLI tool to handle
-  coding tasks locally without internet. Specific language support, task types, and deliverables are yet
-  to be verified.
-inspiration_en: 'Trend: coding agents are moving from cloud to local, emphasizing privacy and offline
-  capability. Entry: target security-sensitive industries like finance and government with on-premise
-  coding assistants, charging per seat or project.'
+summary_zh: 开发者在代码不能出内网或本机的环境里做编码任务时打开它，过去这类环境只能手写代码或自建本地模型环境。它把编码代理打包成单个可执行文件，离线接收编码任务并生成或修改代码，产出可人工审查的代码改动；具体能力与交付细节仍待核验。
+inspiration: 趋势：编码代理正从云端走向本地离线部署，代码保密与内网合规正变成企业采购编码工具的硬理由。切入：面向金融、国防、医疗等代码保密有硬约束的行业团队，卖带企业许可与支持的离线部署版，不与云代理拼通用能力。
+summary_en: For developers working where code must stay on an offline machine, this packs a coding agent
+  into a single binary that receives coding tasks and edits code locally, delivering changes for human
+  review; exact capabilities remain unverified.
+inspiration_en: 'Trend: coding agents are moving from the cloud to local offline deployment, making code
+  confidentiality a hard purchasing driver. Entry: sell licensed, supported offline builds to finance,
+  defense, and healthcare teams with strict code secrecy needs.'
 priority_review: false
-project_type: new_application
+project_type: open_source
 industries:
 - 软件开发
 industries_en:
 - Software Development
 jobs:
-- 软件开发者
+- 软件工程师
+- 技术负责人
 jobs_en:
-- Software Developer
+- Software Engineers
+- Tech Leads
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +31,7 @@ canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds

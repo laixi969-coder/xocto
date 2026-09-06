@@ -22,7 +22,7 @@ summary: Less than 24 hours left to apply to host a Side Event during TechCrunch
   your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.
 first_seen: '2026-09-04T14:00:00Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

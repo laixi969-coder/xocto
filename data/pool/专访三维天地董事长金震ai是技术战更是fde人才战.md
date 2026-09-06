@@ -1,11 +1,12 @@
 ---
 slug: 专访三维天地董事长金震ai是技术战更是fde人才战
-name: 专访三维天地董事长金震：AI是技术战，更是FDE人才战
+name: 三维天地
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE43RUlZang2Q2g5
 summary: 专访三维天地董事长金震：AI是技术战，更是FDE人才战 新浪财经
 first_seen: '2026-09-02T02:12:00Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 专访三维天地董事长金震：AI是技术战，更是FDE人才战
+# 三维天地
 
 专访三维天地董事长金震：AI是技术战，更是FDE人才战 新浪财经
 

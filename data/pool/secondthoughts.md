@@ -21,7 +21,7 @@ canonical_url: https://secondthoughts.ai/p/14-reasons-robotics-is-hard
 summary: Reasons robotics is hard
 first_seen: '2026-09-02T22:02:30Z'
 last_seen: '2026-09-04T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

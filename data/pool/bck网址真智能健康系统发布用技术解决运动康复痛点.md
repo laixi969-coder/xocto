@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUUGdOcEd3bE9E
 summary: BCK网址真智能健康系统发布，用技术解决运动康复痛点 体坛加
 first_seen: '2026-09-03T02:43:05Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

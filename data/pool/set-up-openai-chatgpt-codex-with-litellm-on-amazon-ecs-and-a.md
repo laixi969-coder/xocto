@@ -24,7 +24,7 @@ summary: Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Farga
   and a managed Portkey deployment.
 first_seen: '2026-09-03T16:10:39Z'
 last_seen: '2026-09-04T00:06:57Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

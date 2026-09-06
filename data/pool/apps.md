@@ -3,13 +3,10 @@ slug: apps
 name: apps
 builder: ringlochid
 category: ''
-summary_zh: 本次事件是两则行业信号：一是 Lovable CTO 谈论从 AI 建站转向 MCP 驱动的“能力”，二是 Google 为 Android 应用设定新的内存使用限制，原因是 AI
-  数据中心加剧硬件短缺。两者都不是独立产品，而是平台政策与技术趋势。
+summary_zh: 该候选为聚合条目，包含多篇行业文章，涉及AI应用生态、Android内存限制、DoorDash面临AI代理威胁等，非单一产品。
 inspiration: ''
-summary_en: 'This event covers two industry signals: Lovable''s CTO discussing a shift from AI web app
-  creation to MCP-powered ''capabilities'', and Google setting new memory-use limits for Android apps
-  due to AI data centers worsening hardware shortages. Neither is a standalone product but platform policy
-  and tech trends.'
+summary_en: This candidate is an aggregate entry containing multiple industry articles about AI app ecosystem,
+  Android memory limits, and DoorDash's AI agent threat, not a single product.
 inspiration_en: ''
 priority_review: false
 project_type: ''
@@ -25,7 +22,7 @@ canonical_url: https://apps.microsoft.com/detail/9mt89hd9s6sm?gl=US&hl=en-US
 summary: Find images by what they show, AI-rename them, and sort them easily
 first_seen: '2026-08-17T11:05:51Z'
 last_seen: '2026-09-04T00:06:58Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - marketfeeds

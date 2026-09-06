@@ -1,0 +1,41 @@
+- id: req-initial-zuo-modern-launches-b2b-website-with-ai-powered-sourcing-too-2026-09-04
+  project_slug: zuo-modern-launches-b2b-website-with-ai-powered-sourcing-too
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家具采购选品耗时、易遗漏的痛点，AI 推荐可提高效率，价值结构成立。
+    evidence_ids:
+    - ev-24242d9a7dbb1796
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料仅提及发布，缺乏用户采用或反馈数据，共识证据不足。
+    evidence_ids:
+    - ev-24242d9a7dbb1796
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是零售商或制造商，但付费路径不明。
+    evidence_ids:
+    - ev-24242d9a7dbb1796
+  - gate: truth
+    status: insufficient
+    reason: AI 选品工具的实际效果和准确性未经验证，需进一步观察。
+    evidence_ids:
+    - ev-24242d9a7dbb1796
+  next_validation: 查找 Zuo Modern B2B 网站的公开定价或客户案例。
+  market: ''
+  job: 家具零售商或采购商需要从众多供应商中快速找到符合客户需求、风格和预算的家具产品。
+  job_en: Furniture retailers or buyers need to quickly find furniture products that match customer needs,
+    style, and budget from numerous suppliers.
+  pain: 传统选品依赖人工浏览目录、参加展会或依赖销售代表，耗时且容易遗漏新品或趋势。
+  pain_en: Traditional sourcing relies on manual catalog browsing, trade shows, or sales reps, which is
+    time-consuming and may miss new products or trends.
+  current_alternative: 目前主要通过展会、产品目录、行业人脉或电商平台搜索进行选品。
+  current_alternative_en: Currently, sourcing is done through trade shows, catalogs, industry contacts,
+    or e-commerce platform searches.
+  usage_reason: AI 能快速处理大量产品数据，提供个性化推荐，节省时间并可能发现人工忽略的选项。
+  usage_reason_en: AI can quickly process large product data, offer personalized recommendations, save
+    time, and potentially surface options humans might overlook.

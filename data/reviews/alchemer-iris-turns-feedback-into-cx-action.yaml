@@ -1,0 +1,38 @@
+- id: req-initial-alchemer-iris-turns-feedback-into-cx-action-2026-09-04
+  project_slug: alchemer-iris-turns-feedback-into-cx-action
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决从海量反馈中提炼可执行洞察的痛点，人工处理耗时且易遗漏，AI 自动化分析结构上成立。
+    evidence_ids:
+    - ev-9a2a1b9315097b7e
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道未提供用户规模或采用数据，共识证据不足。
+    evidence_ids:
+    - ev-9a2a1b9315097b7e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业客户，但缺乏公开验证。
+    evidence_ids:
+    - ev-9a2a1b9315097b7e
+  - gate: truth
+    status: insufficient
+    reason: AI 分析结果需人工确认，交付确定性尚可，但具体效果未公开。
+    evidence_ids:
+    - ev-9a2a1b9315097b7e
+  next_validation: 查找 Alchemer Iris 官方定价页或客户案例。
+  market: ''
+  job: 客户体验经理需要从大量反馈中找出问题并决定改进动作。
+  job_en: CX managers need to identify issues from large volumes of feedback and decide on improvements.
+  pain: 人工阅读和整理反馈耗时，且容易遗漏关键主题。
+  pain_en: Manual reading and organizing feedback is time-consuming and prone to missing key themes.
+  current_alternative: 目前多依赖人工阅读问卷和评价，或使用简单文本搜索。
+  current_alternative_en: Currently relies on manual reading of surveys and reviews, or simple text search.
+  usage_reason: AI 能快速处理大量文本并提炼主题，节省时间并提高覆盖度。
+  usage_reason_en: AI can quickly process large text volumes and extract themes, saving time and improving
+    coverage.

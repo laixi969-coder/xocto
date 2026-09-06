@@ -1,0 +1,39 @@
+- id: req-initial-myaicademy-2026-09-04
+  project_slug: myaicademy
+  level: initial
+  reviewed_at: '2026-09-04T14:23:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业员工学习与岗位相关 AI 技能的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-915cec6bd0e62491
+  - gate: consensus
+    status: insufficient
+    reason: 公开采用数据有限，但企业培训市场对定制化内容有明确需求。
+    evidence_ids:
+    - ev-915cec6bd0e62491
+  - gate: model
+    status: insufficient
+    reason: 未明确定价和付费方，可能面向企业客户，但缺乏公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近企业真实培训需求，内容交付可验证，风险低。
+    evidence_ids:
+    - ev-915cec6bd0e62491
+  next_validation: 查找官方定价页或企业客户案例。
+  market: ''
+  job: 企业员工需要学习与自身岗位相关的 AI 技能以提升工作效率。
+  job_en: Employees need to learn AI skills relevant to their roles to improve work efficiency.
+  pain: 通用 AI 课程不贴合具体工作场景，员工难以将所学应用到实际任务中。
+  pain_en: Generic AI courses do not fit specific work scenarios, making it hard for employees to apply
+    learning to actual tasks.
+  current_alternative: 员工自学在线课程、参加通用培训或依赖内部知识分享。
+  current_alternative_en: Employees self-study online courses, attend generic training, or rely on internal
+    knowledge sharing.
+  usage_reason: myAIcademy 提供针对角色和团队的定制学习路径，能更直接地满足企业提升 AI 应用能力的需求。
+  usage_reason_en: myAIcademy offers role- and team-specific learning paths, more directly addressing
+    enterprise needs to enhance AI application skills.

@@ -1,11 +1,11 @@
 ---
 slug: 惠普跟上戴尔的节奏ai业务扩张提速上调今明两年营收增长预期
-name: 惠普跟上戴尔的节奏：AI业务扩张提速，上调今明两年营收增长预期
+name: 惠普
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 惠普上调营收预期，反映 AI 相关硬件需求增长，属于行业趋势。
 inspiration: ''
-summary_en: ''
+summary_en: HP's raised outlook reflects growing demand for AI-related hardware, an industry trend.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GVU5MdHU2enM5
 summary: 惠普跟上戴尔的节奏：AI业务扩张提速，上调今明两年营收增长预期 华尔街见闻
 first_seen: '2026-09-03T07:24:01Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 惠普跟上戴尔的节奏：AI业务扩张提速，上调今明两年营收增长预期
+# 惠普
 
 惠普跟上戴尔的节奏：AI业务扩张提速，上调今明两年营收增长预期 华尔街见闻
 

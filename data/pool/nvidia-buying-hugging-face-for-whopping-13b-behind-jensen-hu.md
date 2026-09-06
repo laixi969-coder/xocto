@@ -1,11 +1,12 @@
 ---
 slug: nvidia-buying-hugging-face-for-whopping-13b-behind-jensen-hu
-name: Nvidia buying Hugging Face for whopping $13B — behind Jensen Huang’s bet for popular AI startup
+name: Hugging Face
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Nvidia buying Hugging Face for whopping $13B — behind Jensen Huang’
   New York Post
 first_seen: '2026-09-03T18:01:21Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia buying Hugging Face for whopping $13B — behind Jensen Huang’s bet for popular AI startup
+# Hugging Face
 
 Nvidia buying Hugging Face for whopping $13B — behind Jensen Huang’s bet for popular AI startup New York Post
 

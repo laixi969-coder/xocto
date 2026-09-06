@@ -1,11 +1,12 @@
 ---
 slug: 中国儒意连推三款ai产品首次打通ai创作链路-独家
-name: 中国儒意连推三款AI产品，首次打通AI创作链路｜独家
+name: 中国儒意
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 中国儒意是一家影视公司，本次推出三款AI产品，旨在打通AI创作链路，具体产品形态和功能细节尚未披露。
 inspiration: ''
-summary_en: ''
+summary_en: China Ruyi, a film and TV company, launched three AI products to connect the AI creation chain;
+  details are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMmYzNThUeGFL
 summary: 中国儒意连推三款AI产品，首次打通AI创作链路｜独家 Sohu
 first_seen: '2026-09-03T11:26:11Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -37,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# 中国儒意连推三款AI产品，首次打通AI创作链路｜独家
+# 中国儒意
 
 中国儒意连推三款AI产品，首次打通AI创作链路｜独家 Sohu
 

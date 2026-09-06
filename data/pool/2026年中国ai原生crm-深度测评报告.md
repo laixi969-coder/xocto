@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tdzZ1cTJpRHZ6
 summary: 2026年中国AI原生CRM 深度测评报告 飞象网
 first_seen: '2026-09-04T02:59:50Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: DeepSeek Harness 换肤 / 壁纸 / 主题包插件 (dsh-plugin) — 8 �
   token 系统实现。
 first_seen: '2026-08-15T02:38:54Z'
 last_seen: '2026-09-04T14:23:30Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

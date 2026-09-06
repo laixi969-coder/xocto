@@ -1,11 +1,12 @@
 ---
 slug: exclusive-ai-startup-wonderful-hits-5-billion-valuation-plan
-name: Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team
+name: Wonderful
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI 初创公司 Wonderful 估值达 50 亿美元，计划扩充至 1000 人团队，具体产品与业务模式未披露。
 inspiration: ''
-summary_en: ''
+summary_en: AI startup Wonderful reaches a $5 billion valuation and plans to expand to a 1,000-person
+  team; specific products and business models are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNakJGSy1qY1N1
 summary: Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team WSJ
 first_seen: '2026-09-02T16:04:21Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team
+# Wonderful
 
 Exclusive | AI Startup Wonderful Hits $5 Billion Valuation, Plans 1,000-Strong Team WSJ
 

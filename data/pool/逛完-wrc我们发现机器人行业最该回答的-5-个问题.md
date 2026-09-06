@@ -1,11 +1,17 @@
 ---
 slug: 逛完-wrc我们发现机器人行业最该回答的-5-个问题
-name: 逛完 WRC，我们发现机器人行业最该回答的 5 个问题
+name: 具身智能行业
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 具身智能行业正从技术想象阶段进入产品验证阶段，一二级市场联动升温：宇树科技上市为仍处早期的赛道钉下资本锚点，云深处科技、智元机器人等推进上市进程，行业开始被要求回答收入、交付、毛利和规模化问题；同时本体形态分化、通用模型路线未收敛、数据闭环重构与关键零部件进步共同界定行业发展阶段，进入家庭场景仍需更长时间。
 inspiration: ''
-summary_en: ''
+summary_en: 'The embodied intelligence industry is moving from a technological-imagination stage into
+  a product-validation stage, with primary and secondary market momentum reinforcing each other: Unitree
+  Technology''s listing set a capital anchor for the still-early sector, DeepRobotics and Zhiyuan Robotics
+  are advancing listing processes, and the industry is now being asked to answer questions of revenue,
+  delivery, gross margin and scaling; meanwhile diverging robot forms, unconverged general-model routes,
+  restructured data loops and progress in key components define the industry''s current stage, and household
+  deployment will take longer.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -84,7 +90,7 @@ summary: "8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，�
   \ \n 但另一方面，中国拥有较完整的机器人供应链、制造能力、工程人才和大量真实场景，能够缩短整机试制、成本下降、场景部署、数据获取和产品迭代的周期。 \n 这些条件不能保证某家公司或者某条路线一定成功，但能让中国持续把机器人推入真实场景，完成技术、工程和商业验证。热潮终会退去，具身智能进入普通人的生活，可能比市场期待的更久，但当机器人真正开始在工厂、仓库和家庭里工作，具身智能的故事才刚刚开始。"
 first_seen: '2026-09-03T15:25:38Z'
 last_seen: '2026-09-04T00:06:58Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -95,7 +101,7 @@ sightings:
   kind: news
 ---
 
-# 逛完 WRC，我们发现机器人行业最该回答的 5 个问题
+# 具身智能行业
 
 8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，这是 2026 世界机器人大会开幕的日子。300 多家企业、2000 多件展品，几乎把具身智能行业能拿出的东西都搬到了这里：大模型、本体、关键零部件、数据，应有尽有。 
  开幕当天，宇树科技敲钟上市，盘中市值一度冲破 4000 亿元，这可能是过去十年，中国机器人行业最接近「资本狂欢」的一天。过去，机器人公司更多活在实验室、融资新闻和 Demo 视频里；而宇树的上市，第一次给这个仍处在早期的赛道钉下了一个资本锚点。 

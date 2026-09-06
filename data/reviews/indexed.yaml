@@ -1,0 +1,42 @@
+- id: req-initial-indexed-2026-09-04
+  project_slug: indexed
+  level: initial
+  reviewed_at: '2026-09-04T14:23:30Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决视频信息检索困难的问题，痛点明确。
+    evidence_ids:
+    - ev-3af105e5e106d0ca
+    - ev-fb61bbb5dd290116
+    - ev-b5b70421e513f599
+    - ev-567f685e99452f9e
+  - gate: consensus
+    status: supported
+    reason: 开源社区关注度持续增长，表明有场景共鸣。
+    evidence_ids:
+    - ev-3af105e5e106d0ca
+    - ev-fb61bbb5dd290116
+    - ev-b5b70421e513f599
+    - ev-567f685e99452f9e
+  - gate: model
+    status: insufficient
+    reason: 买方可能是个人或企业，但公开材料未披露定价或付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 多模态视频记忆贴近个人数据管理的第一性目标。
+    evidence_ids:
+    - ev-3af105e5e106d0ca
+  next_validation: 官方文档或案例说明实际使用场景和付费情况。
+  market: ''
+  job: 个人用户或 AI 代理需要存储和检索视频中的信息。
+  job_en: Individual users or AI agents need to store and retrieve information from videos.
+  pain: 视频信息难以搜索和回顾，传统方法耗时。
+  pain_en: Video information is hard to search and review; traditional methods are time-consuming.
+  current_alternative: 目前可能使用视频文件管理或手动笔记。
+  current_alternative_en: Currently may use video file management or manual note-taking.
+  usage_reason: 开源项目星数持续增长（42 至 48），表明开发者关注。
+  usage_reason_en: The open-source project's stars are growing (42 to 48), indicating developer interest.

@@ -1,0 +1,41 @@
+- id: req-initial-智能体时代eda工具革新比昂芯科技专注ai驱动电路仿真及chiplets设计-2026-09-04
+  project_slug: 智能体时代eda工具革新比昂芯科技专注ai驱动电路仿真及chiplets设计
+  level: initial
+  reviewed_at: '2026-09-04T14:24:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决芯片设计验证中仿真耗时长、Chiplets集成复杂的问题，痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-a731750d472672b7
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道未提供用户采用或行业共识证据，仅表明公司专注此方向。
+    evidence_ids:
+    - ev-a731750d472672b7
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是芯片设计公司，但付费路径未公开。
+    evidence_ids:
+    - ev-a731750d472672b7
+  - gate: truth
+    status: insufficient
+    reason: AI仿真工具需验证其加速效果和准确性，但报道未提供实测数据。
+    evidence_ids:
+    - ev-a731750d472672b7
+  next_validation: 查找比昂芯科技的官方产品页或客户案例，确认其AI仿真工具的具体功能和实际采用情况。
+  market: ''
+  job: 芯片设计工程师在电路仿真和Chiplets设计验证中，需要处理复杂电路和Chiplets集成，确保设计正确性。
+  job_en: Chip design engineers need to handle complex circuits and chiplets integration during circuit
+    simulation and verification to ensure design correctness.
+  pain: 传统仿真耗时长、计算资源消耗大，Chiplets设计验证复杂度高，人工分析效率低。
+  pain_en: Traditional simulation is time-consuming and resource-intensive; chiplets design verification
+    is highly complex, and manual analysis is inefficient.
+  current_alternative: 目前工程师依赖传统EDA工具（如SPICE、HSPICE）进行仿真，手动调整设计参数，缺乏AI辅助。
+  current_alternative_en: Engineers currently rely on traditional EDA tools (e.g., SPICE, HSPICE) for
+    simulation, manually adjusting design parameters without AI assistance.
+  usage_reason: AI可加速仿真过程、优化设计，减少人工迭代，提高设计效率，因此工程师会试用此类工具。
+  usage_reason_en: AI can accelerate simulation, optimize designs, reduce manual iterations, and improve
+    efficiency, so engineers would try such tools.

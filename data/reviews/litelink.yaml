@@ -1,0 +1,36 @@
+- id: req-initial-litelink-2026-09-04
+  project_slug: litelink
+  level: initial
+  reviewed_at: '2026-09-04T00:06:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，无法判断价值。
+    evidence_ids:
+    - ev-b53c41aa96f5507e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 公开代码仓库 仓库的 README 或文档中关于使用场景和架构的说明。
+  market: ''
+  job: 数据工程师需要将实时流数据捕获并存储到 Iceberg 表中，用于分析。
+  job_en: Data engineers need to capture real-time streaming data and store it into Iceberg tables for
+    analysis.
+  pain: 现有流捕获工具复杂且依赖外部服务，本地嵌入式方案可能简化部署。
+  pain_en: Existing stream capture tools are complex and rely on external services; local embedded solutions
+    may simplify deployment.
+  current_alternative: 使用 Kafka Connect 或 Flink 等工具进行流处理。
+  current_alternative_en: Using tools like Kafka Connect or Flink for stream processing.
+  usage_reason: 信息不足，无法判断用户为何使用。
+  usage_reason_en: Insufficient information to determine why users would use it.

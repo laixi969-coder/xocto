@@ -3,10 +3,10 @@ slug: why-logistics-ai-is-becoming-the-bext-big-bet-for-investors
 name: Logistics AI
 builder: ''
 category: ''
-summary_zh: 物流 AI 成为投资者关注的新领域，AI 部署可减少 D2C 初创公司的 RTO 高达 20%。
+summary_zh: 物流AI成为投资者关注的新热点，多家物流公司部署AI以减少退货订单（RTO）并引入人形机器人，显示行业投资趋势。
 inspiration: ''
-summary_en: Logistics AI is becoming a big bet for investors; AI deployment cuts RTOs by up to 20% for
-  D2C startups.
+summary_en: Logistics AI is becoming a new investment hotspot, with firms deploying AI to reduce return-to-origin
+  (RTO) orders and introducing humanoid robots, indicating industry investment trends.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3Y3eHRiSXNN
 summary: Why logistics AI is becoming the bext big bet for investors YourStory.com
 first_seen: '2026-08-29T02:42:15Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

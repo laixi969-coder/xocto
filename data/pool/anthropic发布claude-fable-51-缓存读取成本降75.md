@@ -1,11 +1,12 @@
 ---
 slug: anthropic发布claude-fable-51-缓存读取成本降75
-name: Anthropic发布Claude Fable 5.1 缓存读取成本降75%
+name: Claude Fable 5.1
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 发布 Claude Fable 5.1，缓存读取成本降低 75%，直接影响依赖大量上下文读取的 AI 应用成本结构。
 inspiration: ''
-summary_en: ''
+summary_en: Anthropic released Claude Fable 5.1, reducing cache read costs by 75%, directly impacting
+  cost structures for AI applications relying on large context reads.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fLUVJV0lLUUli
 summary: Anthropic发布Claude Fable 5.1 缓存读取成本降75% 亿邦动力网
 first_seen: '2026-09-03T02:24:38Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Anthropic发布Claude Fable 5.1 缓存读取成本降75%
+# Claude Fable 5.1
 
 Anthropic发布Claude Fable 5.1 缓存读取成本降75% 亿邦动力网
 

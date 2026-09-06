@@ -1,6 +1,6 @@
 ---
 slug: stellar-alpina-secures-160k-from-venture-kick-for-in-space-p
-name: Stellar Alpina secures €160K from Venture Kick for in-space propulsion
+name: Stellar Alpina
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: Zurich-basedspace technology startup Stellar Alpina has secured €160,
   Kick to advance its compact rocket engine technology for in-spacepropulsion.Founded by Rick Röthlisbe...
 first_seen: '2026-09-04T06:32:38Z'
 last_seen: '2026-09-04T14:23:54Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Stellar Alpina secures €160K from Venture Kick for in-space propulsion
+# Stellar Alpina
 
 Zurich-basedspace technology startup Stellar Alpina has secured €160,000 (CHF 150,000) fromVenture Kick to advance its compact rocket engine technology for in-spacepropulsion.Founded by Rick Röthlisbe...
 

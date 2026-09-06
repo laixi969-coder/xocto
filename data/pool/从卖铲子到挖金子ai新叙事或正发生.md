@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxPUmJEWHJMblQ2
 summary: 从“卖铲子”到“挖金子”，AI新叙事或正发生 21财经
 first_seen: '2026-09-04T12:09:00Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

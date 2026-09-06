@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fTWg5N19ORVdO
 summary: 亿邦智库：AGI真来了？智能体没戏了？ 亿邦动力网
 first_seen: '2026-09-04T06:33:57Z'
 last_seen: '2026-09-04T14:24:01Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

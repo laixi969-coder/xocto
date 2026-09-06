@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxNRThibk5CZ0hH
 summary: A platform supporting over 8 million users ranks No. 1 in two AI categories Stock Titan
 first_seen: '2026-09-02T13:12:41Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

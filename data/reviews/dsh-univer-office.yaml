@@ -1,0 +1,40 @@
+- id: req-initial-dsh-univer-office-2026-09-04
+  project_slug: dsh-univer-office
+  level: initial
+  reviewed_at: '2026-09-04T14:23:30Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决办公与 AI 工作流集成的痛点：数据连接和协作，痛点存在，交付可确定。
+    evidence_ids:
+    - ev-41390ea7d5ee984b
+  - gate: consensus
+    status: insufficient
+    reason: 有 268 星，但缺乏用户评价或采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-41390ea7d5ee984b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近办公自动化的第一性目标，承诺集成环境，交付确定性较高。
+    evidence_ids:
+    - ev-41390ea7d5ee984b
+  next_validation: 查找官方文档或用户案例，确认实际使用场景和付费意愿。
+  market: ''
+  job: 办公人员在 DeepSeek Harness 中需要处理电子表格、文档等办公文件，并支持多智能体协作。
+  job_en: Office workers in DeepSeek Harness need to handle office files like spreadsheets and docs, with
+    multi-agent collaboration.
+  pain: 现有办公工具与 AI 工作流分离，数据迁移和协作困难。
+  pain_en: Existing office tools are separate from AI workflows, making data transfer and collaboration
+    difficult.
+  current_alternative: 目前可能使用独立办公软件，手动导入导出数据，缺乏集成。
+  current_alternative_en: Currently may use standalone office software, manually importing/exporting data,
+    lacking integration.
+  usage_reason: 该插件将办公环境嵌入 AI 工作流，提供数据连接和版本控制，提升协作效率。
+  usage_reason_en: The plugin embeds office environment into AI workflows, providing data connectivity
+    and version control, improving collaboration.

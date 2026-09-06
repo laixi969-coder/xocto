@@ -23,7 +23,7 @@ summary: 'Apeireth — A Pure Safe Rust AGI Operating System & Cognitive Microke
   USB agent.'
 first_seen: '2026-08-17T18:03:38Z'
 last_seen: '2026-09-04T00:06:39Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

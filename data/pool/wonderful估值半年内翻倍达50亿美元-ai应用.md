@@ -1,11 +1,12 @@
 ---
 slug: wonderful估值半年内翻倍达50亿美元-ai应用
-name: Wonderful估值半年内翻倍，达50亿美元-AI应用
+name: Wonderful
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE5SNk9aaUtIVld2
 summary: Wonderful估值半年内翻倍，达50亿美元-AI应用 至顶网
 first_seen: '2026-09-03T03:06:35Z'
 last_seen: '2026-09-04T00:07:05Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Wonderful估值半年内翻倍，达50亿美元-AI应用
+# Wonderful
 
 Wonderful估值半年内翻倍，达50亿美元-AI应用 至顶网
 

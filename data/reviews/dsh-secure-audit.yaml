@@ -1,0 +1,40 @@
+- id: req-initial-dsh-secure-audit-2026-09-04
+  project_slug: dsh-secure-audit
+  level: initial
+  reviewed_at: '2026-09-04T00:06:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 工作流中的安全与合规痛点：检测提示注入、脱敏 PII、审计配置，痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-e98e062eba27df94
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 87 星，但缺乏用户评价或采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-e98e062eba27df94
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业安全团队，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近安全审计的第一性目标，承诺可复现报告，交付确定性较高。
+    evidence_ids:
+    - ev-e98e062eba27df94
+  next_validation: 查找官方文档或用户案例，确认实际使用场景和付费意愿。
+  market: ''
+  job: 安全或合规人员在运行 DeepSeek Harness 工作流时，需要检测提示注入、脱敏中文个人身份信息并审计本地配置。
+  job_en: Security or compliance personnel running DeepSeek Harness workflows need to detect prompt injection,
+    redact Chinese PII, and audit local configurations.
+  pain: AI 工作流可能引入安全漏洞或泄露敏感数据，人工检查耗时且易遗漏。
+  pain_en: AI workflows may introduce security vulnerabilities or leak sensitive data; manual checks are
+    time-consuming and error-prone.
+  current_alternative: 目前可能依赖通用安全工具或人工审查，缺乏针对 DeepSeek Harness 的专门方案。
+  current_alternative_en: Currently may rely on generic security tools or manual review, lacking a dedicated
+    solution for DeepSeek Harness.
+  usage_reason: 该插件直接嵌入 DeepSeek Harness，提供自动化的检测和脱敏，减少人工负担。
+  usage_reason_en: The plugin integrates directly with DeepSeek Harness, providing automated detection
+    and redaction, reducing manual effort.

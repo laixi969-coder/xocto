@@ -1,0 +1,38 @@
+- id: req-initial-factorial-from-spain-acquires-berlin-ai-startup-empion-2026-09-04
+  project_slug: factorial-from-spain-acquires-berlin-ai-startup-empion
+  level: initial
+  reviewed_at: '2026-09-04T00:07:05Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决招聘和人才管理的痛点，需求明确。
+    evidence_ids:
+    - ev-c8c8b9aced7c589a
+  - gate: consensus
+    status: insufficient
+    reason: 收购新闻显示行业整合，但缺乏用户采用证据。
+    evidence_ids:
+    - ev-c8c8b9aced7c589a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是企业，但需进一步核验。
+    evidence_ids:
+    - ev-c8c8b9aced7c589a
+  - gate: truth
+    status: supported
+    reason: 贴近招聘工作的目标，AI 可确定性交付，但需注意人工边界。
+    evidence_ids:
+    - ev-c8c8b9aced7c589a
+  next_validation: 查找 Empion 的产品页面或 Factorial 的官方公告。
+  market: ''
+  job: HR 软件用户需要更智能的招聘和人才管理功能，以减少手动筛选和匹配工作。
+  job_en: HR software users need smarter recruiting and talent management features to reduce manual screening
+    and matching.
+  pain: 招聘流程耗时，人才匹配不精准，影响招聘效率。
+  pain_en: Recruiting is time-consuming, and talent matching is imprecise, affecting hiring efficiency.
+  current_alternative: 目前使用传统 HR 软件或人工筛选简历。
+  current_alternative_en: Currently using traditional HR software or manual resume screening.
+  usage_reason: AI 能提高招聘效率，因此 HR 团队可能采用。
+  usage_reason_en: AI can improve recruiting efficiency, so HR teams may adopt it.
