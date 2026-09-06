@@ -508,9 +508,13 @@ def _model_providers() -> list[tuple[str, str, str, str]]:
 
 
 def _estimate_payload_bytes(messages: list[dict[str, str]], *, provider: str = "glm") -> int:
-    """粗略估算请求体大小（字节），用于在发送前判断是否需要拆分。"""
+    """粗略估算请求体大小（字节），用于在发送前判断是否需要拆分。
+
+    model 占位符取比所有真实模型名都长的值：估算必须大于等于实际请求体，
+    否则会在 32000 这类硬边界上差出几个字节。
+    """
     body: dict[str, Any] = {
-        "model": "placeholder",
+        "model": "x" * 32,
         "messages": messages,
         "response_format": {"type": "json_object"},
         "max_tokens": 8000,
