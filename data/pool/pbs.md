@@ -21,7 +21,7 @@ canonical_url: https://pbs.org/newshour/science/global-warming-will-exceed-1-5-d
 summary: Global warming will exceed 1.5-degree limit, UN says
 first_seen: '2026-09-05T13:02:14Z'
 last_seen: '2026-09-06T15:36:24Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

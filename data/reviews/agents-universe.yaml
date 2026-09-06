@@ -1,43 +1,68 @@
 - id: req-initial-agents-universe-2026-09-06
   project_slug: agents-universe
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
-  verdict: true_demand
-  signal_level: 初步成立
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 它解决智能体跨会话失忆的痛点：工程师原本要手动重贴上下文、重写任务说明。此为基于功能说明的工作流推理，交付机制尚未核验。
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不清晰，具体工作流和交付未核验。
     evidence_ids:
-    - ev-fe39a88aa6dd9387
-    - ev-47a4acf3d5788473
+    - ev-5b2bfb067108c376
   - gate: consensus
     status: insufficient
-    reason: 九天星标从 228 增至 285，属早期关注度而非持续采用；无法归因到具体使用场景或人群。
-    evidence_ids:
-    - ev-fe39a88aa6dd9387
-    - ev-47a4acf3d5788473
+    reason: 未进入：价值不成立。
+    evidence_ids: []
   - gate: model
     status: insufficient
-    reason: 开源项目未披露收费方式与买方；向企业卖记忆托管或隔离可能是方向，这是判断不是已验证事实。
-    evidence_ids:
-    - ev-47a4acf3d5788473
+    reason: 未进入：价值不成立。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 共享记忆涉及跨项目数据隔离与记忆正确性，能否确定性交付无任何实测或文档证据。
-    evidence_ids:
-    - ev-47a4acf3d5788473
-  next_validation: 抓取项目 README 与官方文档，核验共享记忆的写入方式、跨项目隔离与部署机制。
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或 README 中关于具体使用场景和交付结果的说明。
   market: ''
-  job: 让多智能体或长周期项目在跨会话、跨智能体时延续项目上下文，不必每次重新交代背景。
-  job_en: Carry project context across sessions and agents in long-running or multi-agent work, without
-    re-briefing each time.
-  pain: 智能体每次会话像失忆，工程师要手动重贴背景、重写任务说明，多个智能体之间状态互不相通。
-  pain_en: Agents forget between sessions; engineers manually re-paste background and rewrite instructions,
-    and separate agents cannot see each other's state.
-  current_alternative: 手工维护记忆文件、把对话摘要贴进提示词，或用向量库保存历史记录再检索。
-  current_alternative_en: Hand-maintained memory files, pasting conversation summaries into prompts, or
-    storing history in vector databases for retrieval.
-  usage_reason: 若共享记忆能自动延续项目状态，可省去每次重述背景的时间，团队智能体不必重复踩坑；目前仅一句描述，机制未核验。
-  usage_reason_en: If shared memory truly carries project state forward, engineers save re-briefing time
-    and agent teams stop repeating mistakes; only a one-line description exists and mechanics are unverified.
+  job: 用户需要让多个 AI 代理共享记忆和协作。
+  job_en: Users need multiple AI agents to share memory and collaborate.
+  pain: 当前代理缺乏持久记忆，协作困难。
+  pain_en: Current agents lack persistent memory, making collaboration difficult.
+  current_alternative: 目前用户可能手动管理上下文或使用单一代理。
+  current_alternative_en: Currently users may manually manage context or use single agents.
+  usage_reason: 可能因解决记忆共享问题而受关注，但需求强度未明。
+  usage_reason_en: May be noticed for solving memory sharing, but demand intensity is unclear.
+- id: req-full-agents-universe-2026-09-07
+  project_slug: agents-universe
+  level: full
+  reviewed_at: '2026-09-06T16:16:04Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不清晰，具体工作流和交付未核验。
+    evidence_ids:
+    - ev-5b2bfb067108c376
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 官方文档或 README 中关于具体使用场景和交付结果的说明。
+  market: ''
+  job: 用户需要让多个 AI 代理共享记忆和协作。
+  job_en: Users need multiple AI agents to share memory and collaborate.
+  pain: 当前代理缺乏持久记忆，协作困难。
+  pain_en: Current agents lack persistent memory, making collaboration difficult.
+  current_alternative: 目前用户可能手动管理上下文或使用单一代理。
+  current_alternative_en: Currently users may manually manage context or use single agents.
+  usage_reason: 可能因解决记忆共享问题而受关注，但需求强度未明。
+  usage_reason_en: May be noticed for solving memory sharing, but demand intensity is unclear.

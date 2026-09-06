@@ -80,3 +80,41 @@
   usage_reason: 开源仓库获得 1192 星，说明开发者社区对去 AI 化写作有需求。
   usage_reason_en: The open-source repository has 1,192 stars, indicating demand for de-AI writing in
     the developer community.
+- id: req-initial-sepia-2026-09-06
+  project_slug: sepia
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决写作者去除 AI 痕迹、提升文本质量的需求，痛点在于 AI 文本的机器味，替代方案不高效。
+    evidence_ids:
+    - ev-384548306b484b08
+  - gate: consensus
+    status: insufficient
+    reason: 有 2314 星，但缺乏用户评价或实际采用证据。
+    evidence_ids:
+    - ev-384548306b484b08
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能面向个人或企业，但无公开付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 基于论文和明确规则，交付可确定，但需验证实际效果。
+    evidence_ids:
+    - ev-384548306b484b08
+  next_validation: 查看仓库中的示例输出或用户反馈。
+  market: ''
+  job: 帮助写作者去除 AI 写作痕迹，提升文本的自然度和质量。
+  job_en: Help writers remove AI traces and improve the naturalness and quality of text.
+  pain: AI 生成文本常被识别为机器味，影响作品质量和读者接受度。
+  pain_en: AI-generated text often feels robotic, affecting quality and reader acceptance.
+  current_alternative: 写作者可能手动修改或使用通用改写工具，但缺乏针对性和效率。
+  current_alternative_en: Writers may manually edit or use generic rewriting tools, but these lack specificity
+    and efficiency.
+  usage_reason: sepia 提供针对性的叙事修复和风格规则，且集成到常用代理中，方便使用。
+  usage_reason_en: sepia offers targeted narrative repair and style rules, integrated into common agents
+    for convenience.

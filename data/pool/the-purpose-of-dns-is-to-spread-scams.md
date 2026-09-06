@@ -1,11 +1,12 @@
 ---
 slug: the-purpose-of-dns-is-to-spread-scams
-name: The purpose of DNS is to spread scams
+name: DNS scams
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 报告显示2025年新注册的gTLD域名中高达20%可能是诈骗，凸显域名系统滥用问题，对网络安全和域名注册行业有重大影响。
 inspiration: ''
-summary_en: ''
+summary_en: Reports indicate up to 20% of newly registered gTLD domains in 2025 may be scams, highlighting
+  DNS abuse issues with significant implications for cybersecurity and the domain registration industry.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -28,7 +29,7 @@ summary: "The purpose of DNS is to spread scams   \nTerence Eden shares some dau
   \ years.\n\n\n     Tags:  dns ,  scams ,  terence-eden"
 first_seen: '2026-09-06T14:40:07Z'
 last_seen: '2026-09-06T15:36:49Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -39,7 +40,7 @@ sightings:
   kind: news
 ---
 
-# The purpose of DNS is to spread scams
+# DNS scams
 
 The purpose of DNS is to spread scams   
 Terence Eden shares some daunting statistics in support of his take that "the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate". 

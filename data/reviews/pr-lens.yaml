@@ -38,42 +38,41 @@
 - id: req-initial-pr-lens-2026-09-06
   project_slug: pr-lens
   level: initial
-  reviewed_at: '2026-09-06T08:35:59Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: true_demand
-  signal_level: 需求信号明确
+  signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 解决复杂代码审查中架构理解成本高的刚性痛点，将 diff 可视化为动态图具有明确效率价值。
+    reason: 它解决代码审查中理解架构变化耗时的问题，AI 生成图表，交付为可视化图，痛点明确。
     evidence_ids:
-    - ev-8f9a5591fc75649f
-    - ev-dfd3e2122c38ba10
+    - ev-3fc6ad9e8fc7d34b
   - gate: consensus
-    status: supported
-    reason: 获得近 300 颗星标与社区讨论关注，展现出开发者对可视化代码评审工具的明确兴趣。
+    status: insufficient
+    reason: 开源仓库星数 304，有一定关注，但无公开采用或付费证据。
     evidence_ids:
-    - ev-c0adfc6bd690d87b
-    - ev-dfd3e2122c38ba10
+    - ev-3fc6ad9e8fc7d34b
   - gate: model
     status: insufficient
-    reason: 目前以开源工具形式发布，尚未公开企业版或团队订阅定价策略。
+    reason: 未披露定价，可能面向 to B 开发团队，但付费路径未验证。
     evidence_ids:
-    - ev-8f9a5591fc75649f
+    - ev-3fc6ad9e8fc7d34b
   - gate: truth
     status: supported
-    reason: 直接作为 公开代码仓库 App 或 Action 嵌入标准代码审查流程，交付逻辑可确定闭环。
+    reason: 贴近代码审查第一性目标，交付为可视化图表，承诺可验证，风险低。
     evidence_ids:
-    - ev-8f9a5591fc75649f
-  next_validation: 观察官方是否推出针对企业私有仓库的高级托管版本或团队协作付费定价方案。
+    - ev-3fc6ad9e8fc7d34b
+  next_validation: 查看官方文档或示例，确认支持的编程语言、图表生成准确性和与 公开代码仓库 的集成方式。
   market: ''
-  job: 审查拉取请求（Pull Request）中的代码变更及其对整体系统架构的影响。
-  job_en: Review code changes in pull requests and understand their impact on overall system architecture.
-  pain: 面对数百行代码 diff，难以单凭文本脑补数据流向与模块依赖变更，导致审查效率低下且容易遗漏隐患。
-  pain_en: Reviewers struggle to trace data flows and dependency shifts from raw multi-file diffs, leading
-    to slow reviews and missed regressions.
-  current_alternative: 手工通读 diff、在本地运行分支测试，或借助静态代码分析文本注释。
-  current_alternative_en: Manually reading raw text diffs, checking out branches locally to trace flows,
-    or using static linters.
-  usage_reason: 自动化生成 PR 内嵌的动态架构图，大幅降低认知负荷并加速审查流程。
-  usage_reason_en: Automatically generates embedded animated diagrams within PRs, cutting cognitive load
-    and speeding up review cycles.
+  job: 代码审查者在审查 PR 时，需要理解代码变更的架构影响和数据流，以评估正确性和风险。
+  job_en: Code reviewers need to understand the architectural impact and data flow of code changes when
+    reviewing PRs, to assess correctness and risk.
+  pain: 大型 PR 涉及多个文件和模块，手动梳理架构变化耗时且容易遗漏。
+  pain_en: Large PRs span multiple files and modules, making manual architectural analysis time-consuming
+    and error-prone.
+  current_alternative: 目前审查者通常阅读 diff 和文件，或使用 IDE 的依赖图，但缺乏整体架构视图。
+  current_alternative_en: Currently, reviewers read diffs and files, or use IDE dependency graphs, but
+    lack an overall architecture view.
+  usage_reason: 自动生成架构和数据流图可减少手动梳理时间，直接嵌入 PR 方便团队协作，对频繁审查的团队有价值。
+  usage_reason_en: Automated architecture and data-flow diagrams reduce manual analysis time, and embedding
+    in PRs facilitates team collaboration, valuable for frequent reviewers.

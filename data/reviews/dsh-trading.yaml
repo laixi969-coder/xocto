@@ -1,48 +1,39 @@
 - id: req-initial-dsh-trading-2026-09-06
   project_slug: dsh-trading
   level: initial
-  reviewed_at: '2026-09-06T06:48:39Z'
-  verdict: needs_validation
-  signal_level: 需求存疑
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
   gates:
   - gate: value
-    status: insufficient
-    reason: 它解决交易者多市场执行和风险控制的需求，但痛点强度和频率缺乏公开证据，替代方案众多。
+    status: supported
+    reason: 它解决交易员在多市场数据整合和分析上的痛点，人工审批确保风险可控，价值结构成立。
     evidence_ids:
-    - ev-58471fdee240e1e5
-    - ev-6dac8a1c039a8a96
-    - ev-0bb6e1e02c3329f3
-    - ev-7f0fb0aee2c0f678
-    - ev-aa3783fbc8dc1d28
-    - ev-959578afca17717d
+    - ev-7824d5f43561314d
   - gate: consensus
     status: insufficient
-    reason: 项目刚发布，星数增长平稳，但没有公开讨论或采用证据。
+    reason: 开源项目有 115 星，但缺乏用户采用或付费证据，共识尚未形成。
     evidence_ids:
-    - ev-58471fdee240e1e5
-    - ev-6dac8a1c039a8a96
-    - ev-0bb6e1e02c3329f3
-    - ev-7f0fb0aee2c0f678
-    - ev-aa3783fbc8dc1d28
-    - ev-959578afca17717d
+    - ev-7824d5f43561314d
   - gate: model
     status: insufficient
-    reason: 未进入：价值不成立，买方和付费路径不明确。
+    reason: 未披露定价或商业模式，买方可能是交易员或量化基金，但付费路径不明。
     evidence_ids: []
   - gate: truth
-    status: insufficient
-    reason: 未进入：价值不成立，无法判断交付确定性。
-    evidence_ids: []
-  next_validation: 查看该仓库的 issue 和 discussion，寻找用户实际使用场景和反馈。
+    status: supported
+    reason: 贴近交易第一性目标，人工审批确保安全边界，交付可确定。
+    evidence_ids:
+    - ev-7824d5f43561314d
+  next_validation: 查找官方定价页或商业版信息，以确认付费路径。
   market: ''
-  job: 交易者希望用 AI Agent 辅助执行交易，同时保留人工控制。
-  job_en: Traders want to use AI agents to assist trade execution while retaining human control.
-  pain: 手动执行多市场交易耗时且易出错，全自动交易又缺乏信任和监管。
-  pain_en: Manual execution across multiple markets is time-consuming and error-prone, while fully automated
-    trading lacks trust and oversight.
-  current_alternative: 交易者可能使用传统交易终端、手动下单或全自动交易机器人。
-  current_alternative_en: Traders may use traditional trading terminals, manual order entry, or fully
-    automated trading bots.
-  usage_reason: 项目刚发布一周，星数增长平稳，但缺乏用户采用和付费证据，需求强度未明。
-  usage_reason_en: The project was just released a week ago with steady star growth, but lacks user adoption
-    and payment evidence, so demand strength is unclear.
+  job: 交易员需要快速分析多市场数据并执行交易，同时控制风险。
+  job_en: Traders need to quickly analyze multi-market data and execute trades while controlling risk.
+  pain: 多市场数据分散，手动分析耗时，且直接自动化交易风险高。
+  pain_en: Multi-market data is fragmented, manual analysis is time-consuming, and fully automated trading
+    is risky.
+  current_alternative: 目前交易员通常使用彭博终端、券商软件或自建脚本，但这些工具缺乏 AI 辅助或需要大量手动操作。
+  current_alternative_en: Currently traders use Bloomberg terminals, brokerage software, or custom scripts,
+    which lack AI assistance or require extensive manual work.
+  usage_reason: AI 能整合多源数据并生成建议，但人工审批保留了控制权，适合希望提高效率又不愿完全自动化的交易员。
+  usage_reason_en: AI can integrate multi-source data and generate suggestions, but human approval retains
+    control, appealing to traders who want efficiency without full automation.

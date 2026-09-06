@@ -234,3 +234,43 @@
   usage_reason: 公开代码仓库有 480 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 480 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-initial-livestream-agent-studio-2026-09-06
+  project_slug: livestream-agent-studio
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决直播电商运营中数据分散、复盘耗时、内容创作缺乏系统化的问题；痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-f7b89a6b5c29122b
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有 844 星，但缺乏用户评价或采用证据，共识尚未明确。
+    evidence_ids:
+    - ev-f7b89a6b5c29122b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是直播运营团队或个体主播，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近直播运营第一性目标，本地运行可确定交付，安全边界清晰。
+    evidence_ids:
+    - ev-f7b89a6b5c29122b
+  next_validation: 查找官方定价页或客户案例，确认付费意愿。
+  market: ''
+  job: 直播电商运营者在开播前发现主播、直播中获取实时洞察、下播后复盘并制作短视频内容。
+  job_en: Live e-commerce operators discover streamers before broadcasts, gain real-time insights during,
+    review after, and create short videos.
+  pain: 直播数据分散，复盘和内容创作耗时，缺乏系统化工具。
+  pain_en: Live data is scattered, review and content creation are time-consuming, and systematic tools
+    are lacking.
+  current_alternative: 目前多依赖人工观看回放、手动整理数据，或使用通用数据分析工具。
+  current_alternative_en: Currently relies on manual replay watching, manual data sorting, or generic
+    data analysis tools.
+  usage_reason: 本地运行保护数据隐私，一体化工作流减少切换成本，开源可定制。
+  usage_reason_en: Local operation protects data privacy, integrated workflow reduces switching costs,
+    and open source allows customization.

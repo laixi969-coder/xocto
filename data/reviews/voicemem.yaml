@@ -193,3 +193,41 @@
   usage_reason: 开源项目获得 151 星，表明开发者社区关注，但实际采用和用户反馈未核验。
   usage_reason_en: The open-source project has 151 stars, indicating developer community interest, but
     actual adoption and user feedback are unverified.
+- id: req-initial-voicemem-2026-09-06
+  project_slug: voicemem
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决语音代理缺乏持久记忆的问题，但具体使用场景和痛点强度未明确。
+    evidence_ids:
+    - ev-9d7f4a86bb8758e2
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目获得一定关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-9d7f4a86bb8758e2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看 VoiceMem 的 公开代码仓库 仓库 issue 和 discussion，了解开发者实际集成案例和反馈。
+  market: ''
+  job: 语音代理开发者需要在代理中实现跨会话的用户记忆，以提供个性化服务。
+  job_en: Voice agent developers need to implement cross-session user memory in agents to provide personalized
+    services.
+  pain: 现有语音代理缺乏持久记忆，导致重复询问和缺乏个性化。
+  pain_en: Current voice agents lack persistent memory, leading to repeated questions and lack of personalization.
+  current_alternative: 开发者可能自行实现简单的记忆存储，或使用通用数据库。
+  current_alternative_en: Developers may implement simple memory storage themselves or use general-purpose
+    databases.
+  usage_reason: 该开源项目提供专门设计的记忆架构，可能吸引开发者尝试集成。
+  usage_reason_en: This open-source project offers a specially designed memory architecture that may attract
+    developers to try integrating it.

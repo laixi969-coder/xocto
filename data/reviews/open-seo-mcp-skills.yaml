@@ -80,3 +80,42 @@
   usage_reason: 开源免费且能直接接入真实数据，降低工具成本，并可能通过 AI 自动化分析流程。
   usage_reason_en: Open-source and free, directly integrates real data, reducing tool costs and potentially
     automating analysis workflows with AI.
+- id: req-initial-open-seo-mcp-skills-2026-09-06
+  project_slug: open-seo-mcp-skills
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 SEO 数据分散和 GEO 新需求，价值结构成立。
+    evidence_ids:
+    - ev-283841b0890e4a19
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星标 528 显示关注，但缺乏用户采用证据。
+    evidence_ids:
+    - ev-283841b0890e4a19
+  - gate: model
+    status: insufficient
+    reason: 开源免费，但未披露商业模式；可能通过 DataForSEO 集成或托管服务盈利。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 输出质量和对 SEO 结果的实际影响未经验证。
+    evidence_ids: []
+  next_validation: 查找用户案例或独立评测，验证其对 SEO 绩效的影响。
+  market: ''
+  job: 整合多个数据源进行关键词研究和排名跟踪，生成 SEO 优化建议。
+  job_en: Integrate multiple data sources for keyword research and rank tracking, generating SEO optimization
+    recommendations.
+  pain: SEO 工具分散，数据孤岛导致效率低下，且 AI 搜索优化（GEO）是新挑战。
+  pain_en: SEO tools are fragmented, data silos reduce efficiency, and AI search optimization (GEO) is
+    a new challenge.
+  current_alternative: 目前 SEO 专家使用多个独立工具（如 Ahrefs、SEMrush）和手动数据导出。
+  current_alternative_en: Currently SEO specialists use multiple standalone tools (e.g., Ahrefs, SEMrush)
+    and manual data exports.
+  usage_reason: 开源且连接真实数据，提供统一工作流，可能降低工具成本。
+  usage_reason_en: Open-source and connects real data, offering a unified workflow that may reduce tool
+    costs.

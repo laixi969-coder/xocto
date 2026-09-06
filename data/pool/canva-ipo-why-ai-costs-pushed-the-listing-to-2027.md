@@ -3,9 +3,10 @@ slug: canva-ipo-why-ai-costs-pushed-the-listing-to-2027
 name: 'Canva IPO: Why AI Costs Pushed the Listing to 2027'
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Canva因AI成本推迟上市至2027年，显示AI投入对资本市场的影响。
 inspiration: ''
-summary_en: ''
+summary_en: Canva delays its IPO to 2027 due to AI costs, illustrating the impact of AI investment on
+  capital markets.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CYlFTTS1YSWkx
 summary: 'Canva IPO: Why AI Costs Pushed the Listing to 2027 Markets.com'
 first_seen: '2026-09-03T16:05:00Z'
 last_seen: '2026-09-06T15:36:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

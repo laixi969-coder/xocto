@@ -3,9 +3,10 @@ slug: when-ai-infrastructure-becomes-the-target-securing-gateways
 name: Microsoft
 builder: ''
 category: ''
-summary_zh: 微软加强 AI 基础设施安全，聚焦网关与控制点。
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: Microsoft is strengthening AI infrastructure security, focusing on gateways and control points.
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4
 summary: 'When AI infrastructure becomes the target: Securing gateways and control points Microsoft'
 first_seen: '2026-08-26T16:43:53Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

@@ -136,3 +136,43 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-fullstack-agent-2026-09-06
+  project_slug: fullstack-agent
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：开发者搭建多模态 agent 的复杂性痛点，提供一键安装，价值结构成立。
+    evidence_ids:
+    - ev-fe72e9c5dbfdec62
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库 星数 725，社区关注度中等，表明有开发者感兴趣。
+    evidence_ids:
+    - ev-fe72e9c5dbfdec62
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式不明确，可能通过支持或云服务变现，但未披露。
+    evidence_ids:
+    - ev-fe72e9c5dbfdec62
+  - gate: truth
+    status: supported
+    reason: 安装向导提供确定性交付，承诺一键安装，可验证。
+    evidence_ids:
+    - ev-fe72e9c5dbfdec62
+  next_validation: 查看 公开代码仓库 仓库的 issues 和讨论，了解用户实际使用反馈和问题。
+  market: ''
+  job: 开发者需要快速搭建一个具备记忆、语音、视觉和行动能力的 AI agent。
+  job_en: Developers need to quickly build an AI agent with memory, voice, vision, and action capabilities.
+  pain: 从零搭建多模态 agent 涉及多个组件集成，耗时且复杂。
+  pain_en: Building a multimodal agent from scratch involves integrating multiple components, which is
+    time-consuming and complex.
+  current_alternative: 开发者可能分别集成记忆、语音等库，或使用商业 agent 平台。
+  current_alternative_en: Developers may integrate memory, voice libraries separately, or use commercial
+    agent platforms.
+  usage_reason: 开源安装向导简化了搭建过程，可能吸引开发者试用，但需求强度未明。
+  usage_reason_en: The open-source wizard simplifies setup, likely attracting developer trials, but demand
+    intensity is unclear.

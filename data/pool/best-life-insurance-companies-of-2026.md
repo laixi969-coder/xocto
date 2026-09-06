@@ -3,9 +3,10 @@ slug: best-life-insurance-companies-of-2026
 name: Best Life Insurance Companies Of 2026
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Forbes公布2026年最佳寿险公司榜单，展示行业竞争格局与主要玩家。
 inspiration: ''
-summary_en: ''
+summary_en: Forbes releases the 2026 Best Life Insurance Companies list, highlighting industry competition
+  and key players.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiggFBVV95cUxNYkVtSTNmWVBo
 summary: Best Life Insurance Companies Of 2026 Forbes
 first_seen: '2026-09-04T14:43:00Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

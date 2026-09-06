@@ -227,3 +227,42 @@
   usage_reason: 公开代码仓库有 73 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 73 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-initial-failoverai-2026-09-06
+  project_slug: failoverai
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 服务可靠性的痛点，自动故障转移提供明确价值。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 94 星，但缺乏用户采用或付费证据，共识尚未形成。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或企业，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近任务可靠执行的第一性目标，故障转移可确定交付。
+    evidence_ids:
+    - ev-c6ff6823ea7c0859
+  next_validation: 查找官方定价页或商业版信息，以确认付费路径。
+  market: ''
+  job: 开发者需要确保 AI 任务（如图片、视频、LLM）可靠执行，避免因服务故障导致失败。
+  job_en: Developers need to ensure reliable execution of AI tasks (e.g., image, video, LLM) to avoid
+    failures due to service outages.
+  pain: AI 服务可能不稳定，导致任务失败，影响业务连续性。
+  pain_en: AI services can be unstable, causing task failures and impacting business continuity.
+  current_alternative: 目前开发者通常手动处理故障或使用云服务商自带的重试机制，但缺乏统一的故障转移层。
+  current_alternative_en: Currently developers handle failures manually or rely on cloud providers' built-in
+    retry mechanisms, lacking a unified failover layer.
+  usage_reason: AI 网关能自动处理故障转移，减少人工干预，适合依赖 AI 服务的应用。
+  usage_reason_en: An AI gateway can automatically handle failover, reducing manual intervention, suitable
+    for applications relying on AI services.

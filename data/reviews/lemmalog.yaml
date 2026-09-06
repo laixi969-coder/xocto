@@ -157,3 +157,40 @@
   usage_reason: 开源项目获得 229 星，表明开发者对 agent 记忆推理有初步兴趣，但尚未核验实际采用。
   usage_reason_en: The open-source project has 229 stars, indicating initial interest from developers
     in agent memory reasoning, but actual adoption not yet verified.
+- id: req-initial-lemmalog-2026-09-06
+  project_slug: lemmalog
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 记忆不可靠、事实冲突的问题，痛点明确。
+    evidence_ids:
+    - ev-cf4656bcf79cf134
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数显示关注，但缺乏广泛采用或社区讨论证据。
+    evidence_ids:
+    - ev-cf4656bcf79cf134
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无付费路径，买方可能是企业开发者但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近 agent 可靠性的第一性目标，提供确定性推理。
+    evidence_ids:
+    - ev-cf4656bcf79cf134
+  next_validation: 查找官方文档或案例，确认在真实 agent 项目中的使用效果。
+  market: ''
+  job: AI 工程师需要为 agent 提供可靠、可追溯的记忆和推理能力。
+  job_en: AI engineers need reliable, traceable memory and reasoning for agents.
+  pain: 现有向量记忆缺乏逻辑一致性，事实可能冲突且难以追溯。
+  pain_en: Current vector memories lack logical consistency, facts may conflict and be hard to trace.
+  current_alternative: 使用向量数据库、图数据库或简单键值存储。
+  current_alternative_en: Using vector databases, graph databases, or simple key-value stores.
+  usage_reason: 它提供逻辑推理和溯源，可能提高 agent 可靠性，但采用证据有限。
+  usage_reason_en: It offers logical reasoning and provenance, potentially improving agent reliability,
+    but adoption evidence is limited.

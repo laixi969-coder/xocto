@@ -380,3 +380,44 @@
   usage_reason: 公开代码仓库有 77 个收藏、3 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 77 stars and 3 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-openflow-2026-09-06
+  project_slug: openflow
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：多代理工作流难以可视化设计和调试，痛点明确。
+    evidence_ids:
+    - ev-477a92af3a7a9c64
+  - gate: consensus
+    status: insufficient
+    reason: 星标 94，社区规模小，缺乏采用证据。
+    evidence_ids:
+    - ev-477a92af3a7a9c64
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未明。
+    evidence_ids:
+    - ev-477a92af3a7a9c64
+  - gate: truth
+    status: supported
+    reason: 贴近开发者的第一性目标：简化工作流设计，承诺可确定交付可视化界面。
+    evidence_ids:
+    - ev-477a92af3a7a9c64
+  next_validation: 查看 公开代码仓库 仓库的 issue 或讨论，了解用户反馈和使用案例。
+  market: ''
+  job: AI 工程师或开发者需要设计和管理多代理工作流，可视化工具可降低复杂度和错误率。
+  job_en: AI engineers or developers need to design and manage multi-agent workflows; visual tools can
+    reduce complexity and error rates.
+  pain: 多代理工作流通常通过代码配置，难以理解和调试，导致开发效率低。
+  pain_en: Multi-agent workflows are often configured via code, making them hard to understand and debug,
+    reducing development efficiency.
+  current_alternative: 开发者通常使用代码框架（如 LangGraph）或手动编排，缺乏直观的可视化界面。
+  current_alternative_en: Developers often use code frameworks (e.g., LangGraph) or manual orchestration,
+    lacking intuitive visual interfaces.
+  usage_reason: 开源且基于 opencode 引擎，可能吸引现有用户；但星标 94 表明早期阶段，需进一步观察。
+  usage_reason_en: Open source and based on the opencode engine, may attract existing users; but 94 stars
+    indicate early stage, requiring further observation.

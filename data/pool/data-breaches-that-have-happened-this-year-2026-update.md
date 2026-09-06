@@ -3,9 +3,9 @@ slug: data-breaches-that-have-happened-this-year-2026-update
 name: Data Breaches That Have Happened This Year (2026 Update)
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026年数据泄露事件更新，展示行业安全挑战。
 inspiration: ''
-summary_en: ''
+summary_en: 2026 data breach update, highlighting industry security challenges.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QZkRBeUR5Y19D
 summary: Data Breaches That Have Happened This Year (2026 Update) tech.co
 first_seen: '2026-09-04T07:00:00Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

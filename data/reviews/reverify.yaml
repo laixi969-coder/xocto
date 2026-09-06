@@ -1,40 +1,39 @@
 - id: req-initial-reverify-2026-09-06
   project_slug: reverify
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
-  verdict: true_demand
-  signal_level: 需求信号明确
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 解决逆向分析中大模型幻觉与上下文丢失痛点，通过确定性工具核对字节真值形成刚性工作流闭环。
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：AI 开发者需要防止模型幻觉，痛点在于错误输出影响决策。但具体工作流和交付不清晰，价值结构不完整。
     evidence_ids:
-    - ev-e0b4486cfb708a28
+    - ev-728d959406385636
   - gate: consensus
-    status: supported
-    reason: 开源后星数短期内增长至 927 且有 200 次分叉，在逆向与安全开发者圈层形成采用共识。
+    status: insufficient
+    reason: 开源项目有 946 星，但缺乏用户反馈或采用证据，无法判断是否有人持续使用。
     evidence_ids:
-    - ev-ea209d677ee2c33c
+    - ev-728d959406385636
   - gate: model
     status: insufficient
-    reason: 当前作为开源 MCP 服务端与命令行工具发布，商业化路径和付费模式尚无公开披露。
-    evidence_ids:
-    - ev-4128cdf0ebcc3d84
+    reason: 未进入：价值不成立。商业模式未披露，买方不明确。
+    evidence_ids: []
   - gate: truth
-    status: supported
-    reason: 采用模型提假设、确定性工具验真架构，直接在真实二进制字节层面给出可核对证据。
-    evidence_ids:
-    - ev-1e804b0bb069a587
-  next_validation: 跟踪后续版本是否发布企业级安全分析插件或支持反编译商业软件的集成方案。
+    status: insufficient
+    reason: 未进入：价值不成立。无法核验事实核查的准确性和安全性。
+    evidence_ids: []
+  next_validation: 官方文档或仓库中关于事实核查机制、支持的工具和实际应用案例的说明。
   market: ''
-  job: 逆向工程分析二进制文件并推断底层逻辑与安全漏洞
-  job_en: Reverse engineer binary files to deduce underlying logic and security vulnerabilities
-  pain: 大模型直接分析二进制时极易产生幻觉瞎猜结构，导致分析结论失真且跨上下文时丢失事实
-  pain_en: LLMs frequently hallucinate binary structures, causing distorted findings and lost facts across
-    context resets
-  current_alternative: 人工使用反编译工具单步调试核对，或手动验证大模型给出的猜想
-  current_alternative_en: Manually verify using disassemblers or step-by-step debugging to validate LLM
-    suggestions
-  usage_reason: 将大模型假设与确定性工具字节比对绑定，输出可核实证据并锁定已知事实
-  usage_reason_en: Binds LLM hypotheses with deterministic byte-level tool checks, returning grounded
-    proof and retaining verified facts
+  job: AI 应用开发者需要确保 AI 输出的事实准确性，特别是在逆向工程等场景中。
+  job_en: AI application developers need to ensure factual accuracy of AI outputs, especially in scenarios
+    like reverse engineering.
+  pain: AI 模型容易产生幻觉，导致错误的分析结果，影响决策和代码质量。
+  pain_en: AI models are prone to hallucination, leading to incorrect analysis results, affecting decisions
+    and code quality.
+  current_alternative: 开发者通常手动验证 AI 输出，或使用简单的规则检查，耗时且不全面。
+  current_alternative_en: Developers typically manually verify AI outputs or use simple rule-based checks,
+    which is time-consuming and incomplete.
+  usage_reason: 事实核查工具可能解决 AI 幻觉问题，但具体工作流和效果未验证，采用证据不足。
+  usage_reason_en: Fact-checking tools may address AI hallucination, but specific workflow and effectiveness
+    are unverified, with insufficient adoption evidence.

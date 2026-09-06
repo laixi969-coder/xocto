@@ -1,37 +1,42 @@
 - id: req-initial-overlay-studio-2026-09-06
   project_slug: overlay-studio
   level: initial
-  reviewed_at: '2026-09-06T08:35:59Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 替代手工动效设计流程
+    reason: 它解决口播视频动效制作繁琐的痛点，AI 读字幕稿自动编排，用户可修改并导出透明层，交付可确定。
     evidence_ids:
-    - ev-b6e4c0361eefb962
+    - ev-0937fec4ec69fc59
   - gate: consensus
     status: insufficient
-    reason: 缺少公开使用案例
+    reason: 开源仓库星数 46，尚无公开用户规模或采用证据，但工作流痛点明确，场景可感知。
     evidence_ids:
-    - ev-b6e4c0361eefb962
+    - ev-0937fec4ec69fc59
   - gate: model
     status: insufficient
-    reason: 未验证模型性能
+    reason: 未披露定价或商业模式，可能面向 to C 创作者，但付费路径未验证。
     evidence_ids:
-    - ev-b6e4c0361eefb962
+    - ev-0937fec4ec69fc59
   - gate: truth
-    status: insufficient
-    reason: 缺少付费或使用数据
+    status: supported
+    reason: 贴近视频创作第一性目标，交付为可导出的动效层，承诺可验证，安全风险低。
     evidence_ids:
-    - ev-b6e4c0361eefb962
-  next_validation: 收集用户案例或使用数据
+    - ev-0937fec4ec69fc59
+  next_validation: 查看官方文档或发布说明，确认支持的动效类型、导出格式及与剪映的集成方式。
   market: ''
-  job: 视频编辑
-  job_en: Video Editor
-  pain: 手动制作动效耗时且技术门槛高
-  pain_en: Manual motion design is time-consuming and has high technical barriers
-  current_alternative: 手工在 After Effects 等软件中制作动效
-  current_alternative_en: Manual motion design in After Effects or similar software
-  usage_reason: 需要快速生成可编辑的动效层
-  usage_reason_en: Need quick generation of editable motion layers
+  job: 口播视频创作者在剪辑时，需要为视频添加动效层以增强表现力，但手动逐帧调整耗时且需要专业技能。
+  job_en: Talking-head video creators need to add motion layers to enhance expressiveness during editing,
+    but manual frame-by-frame adjustment is time-consuming and requires professional skills.
+  pain: 手动添加动效耗时且需要专业技能，创作者可能因此放弃动效或花费大量时间。
+  pain_en: Manually adding motion effects is time-consuming and requires professional skills, leading
+    creators to either skip effects or spend excessive time.
+  current_alternative: 目前创作者通常使用剪映等工具手动添加文字和图形动效，或使用模板但难以个性化修改。
+  current_alternative_en: Currently, creators typically manually add text and graphic effects in tools
+    like CapCut, or use templates that are hard to customize.
+  usage_reason: AI 自动编排动效可大幅减少手动操作，且可修改和导出透明层，不破坏原片，对高频创作的口播博主有实际价值。
+  usage_reason_en: AI-driven motion layout significantly reduces manual work, and the editable, transparent
+    layer export preserves the original footage, offering practical value for high-frequency talking-head
+    creators.

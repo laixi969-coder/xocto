@@ -82,3 +82,39 @@
     evidence_ids: []
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
+- id: req-initial-wenai-2026-09-06
+  project_slug: wenai
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决 AI 伴侣缺乏情感深度的问题，但需求强度和刚性未明确。
+    evidence_ids:
+    - ev-188d23a2d88afd19
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目获得一定关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-188d23a2d88afd19
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看 wenai 的 公开代码仓库 仓库 issue 和 discussion，了解用户实际使用反馈和场景。
+  market: ''
+  job: 用户希望在 OpenClaw 上获得亲密的 AI 伴侣体验，包括视觉互动。
+  job_en: Users want an intimate AI companion experience on OpenClaw, including visual interaction.
+  pain: 现有 AI 伴侣可能缺乏情感深度和视觉表现。
+  pain_en: Current AI companions may lack emotional depth and visual representation.
+  current_alternative: 用户可能使用其他 AI 聊天应用或简单的文本伴侣。
+  current_alternative_en: Users may use other AI chat apps or simple text-based companions.
+  usage_reason: 该技能提供专门设计的亲密互动和视觉工作流，可能吸引 OpenClaw 用户尝试。
+  usage_reason_en: This skill offers specially designed intimate interactions and visual workflow, which
+    may attract OpenClaw users to try.

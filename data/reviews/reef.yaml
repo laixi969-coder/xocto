@@ -1,50 +1,39 @@
 - id: req-initial-reef-2026-09-06
   project_slug: reef
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
-  verdict: true_demand
-  signal_level: 需求信号明确
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 它解决自我改进 Agent 的持续学习管理需求，痛点在于手动流程繁琐，现有替代缺乏系统性，结构上成立。
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：智能体开发者需要持续学习能力，痛点在于静态模型无法积累经验。但具体工作流和交付不清晰，价值结构不完整。
     evidence_ids:
-    - ev-d7d0870d6ac34c9d
+    - ev-6c020e0e3c07ddd6
   - gate: consensus
-    status: supported
-    reason: 开源仓库星数一周内从 260 增至 513，增长近一倍，显示开发者关注度快速上升。
+    status: insufficient
+    reason: 开源项目有 564 星，但缺乏用户反馈或采用证据，无法判断是否有人持续使用。
     evidence_ids:
-    - ev-d7d0870d6ac34c9d
-    - ev-a6cf720fe8ec786c
-    - ev-803158b8cfd6e304
-    - ev-569a085cc097f244
-    - ev-f65a714ebd5969d2
-    - ev-076509f769112485
-    - ev-69df0bc21a1ad519
-    - ev-d02ba09bd368e1ec
-    - ev-f434f081a4a26c66
-    - ev-88fe40afa2542345
+    - ev-6c020e0e3c07ddd6
   - gate: model
     status: insufficient
-    reason: 开源项目，未披露商业模式，可能通过企业支持或云服务变现，但尚无公开信息。
-    evidence_ids:
-    - ev-d7d0870d6ac34c9d
+    reason: 未进入：价值不成立。商业模式未披露，买方不明确。
+    evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 持续学习基础设施的交付效果依赖具体实现，需进一步验证其稳定性和效果。
-    evidence_ids:
-    - ev-d7d0870d6ac34c9d
-  next_validation: 官方文档或 公开代码仓库 仓库中的使用案例和部署指南。
+    reason: 未进入：价值不成立。无法核验持续学习的效果和安全性。
+    evidence_ids: []
+  next_validation: 官方文档或仓库中关于持续学习机制、数据接入方式和实际应用案例的说明。
   market: ''
-  job: 开发自我改进型 Agent 的工程师需要管理模型持续学习的数据、更新和评估流程。
-  job_en: Engineers building self-improving agents need to manage data, updates, and evaluation for continual
-    model learning.
-  pain: 手动管理持续学习流程繁琐易错，缺乏统一工具，导致 Agent 改进效率低。
-  pain_en: Manually managing continual learning pipelines is tedious and error-prone, lacking unified
-    tooling, leading to inefficient agent improvement.
-  current_alternative: 目前团队可能自行搭建脚本或使用零散工具，但难以规模化。
-  current_alternative_en: Teams may currently build custom scripts or use scattered tools, which are hard
-    to scale.
-  usage_reason: 开源且专注持续学习，填补了通用框架的空白，吸引需要长期运行 Agent 的开发者。
-  usage_reason_en: Open source and focused on continual learning, filling a gap in general frameworks,
-    attracting developers running long-lived agents.
+  job: AI 智能体开发者需要让智能体从运行数据中持续学习，以提升长期性能。
+  job_en: AI agent developers need to enable agents to continually learn from runtime data to improve
+    long-term performance.
+  pain: 当前智能体多为静态模型，无法从交互中积累经验，导致重复犯错。
+  pain_en: Current agents are mostly static models, unable to accumulate experience from interactions,
+    leading to repeated mistakes.
+  current_alternative: 开发者通常手动收集数据并定期重新训练模型，或使用简单的日志分析。
+  current_alternative_en: Developers typically manually collect data and periodically retrain models,
+    or use simple log analysis.
+  usage_reason: 持续学习基础设施可能解决智能体进化需求，但开源项目尚在早期，实际采用和效果未验证。
+  usage_reason_en: Continual learning infrastructure may address agent evolution needs, but the open-source
+    project is early-stage, and actual adoption and effectiveness are unverified.

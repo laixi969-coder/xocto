@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQc3VlRDY4dGN6
 summary: AI startup founded by two Bangladeshi brothers raises over $30,000 in funding The Daily Star
 first_seen: '2026-09-06T13:27:06Z'
 last_seen: '2026-09-06T15:36:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,39 @@
+- id: req-initial-cradlewise-raises-12m-as-ai-crib-data-raises-dpdp-questions-2026-09-06
+  project_slug: cradlewise-raises-12m-as-ai-crib-data-raises-dpdp-questions
+  level: initial
+  reviewed_at: '2026-09-06T15:36:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决父母夜间监护和睡眠分析的需求，痛点刚性，AI 自动响应可确定交付。
+    evidence_ids:
+    - ev-56a705b3d7240699
+  - gate: consensus
+    status: insufficient
+    reason: 融资和媒体报道显示关注，但缺乏用户采用和留存数据。
+    evidence_ids:
+    - ev-56a705b3d7240699
+  - gate: model
+    status: insufficient
+    reason: 硬件销售模式，但定价和付费路径未披露。
+    evidence_ids:
+    - ev-56a705b3d7240699
+  - gate: truth
+    status: insufficient
+    reason: AI 功能真实性未验证，数据隐私问题可能影响信任。
+    evidence_ids:
+    - ev-56a705b3d7240699
+  next_validation: 查找 Cradlewise 官方定价页和用户评价。
+  market: ''
+  job: 新手父母需要监控婴儿睡眠和夜间安全，并在异常时获得提醒或安抚。
+  job_en: New parents need to monitor infant sleep and nighttime safety, receiving alerts or soothing
+    when anomalies occur.
+  pain: 夜间频繁醒来检查婴儿，睡眠不足，且难以判断哭闹原因。
+  pain_en: Frequent nighttime checks disrupt sleep, and it's hard to determine reasons for crying.
+  current_alternative: 传统婴儿床加婴儿监视器，父母需手动响应。
+  current_alternative_en: Traditional cribs with baby monitors require manual response.
+  usage_reason: AI 自动安抚和睡眠分析可减少父母夜间干预，提供数据驱动的育儿建议。
+  usage_reason_en: AI auto-soothing and sleep analysis reduce nighttime interventions and offer data-driven
+    parenting advice.

@@ -1,41 +1,39 @@
 - id: req-initial-easel-2026-09-06
   project_slug: easel
   level: initial
-  reviewed_at: '2026-09-06T06:48:39Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决社交媒体运营者跨平台发布耗时、内容创作和效果追踪的痛点；旧流程是手动操作，需求结构成立。
+    reason: 它解决内容创作者跨平台发布和效果分析的痛点，AI 生成和反馈闭环提供明确价值。
     evidence_ids:
-    - ev-7268111643ef67df
+    - ev-69ae0475728b5fa8
   - gate: consensus
     status: insufficient
-    reason: 公开代码仓库 星标增长快，但缺乏用户评价或采用证据，共识尚不明确。
+    reason: 开源项目有 364 星，但缺乏用户采用或付费证据，共识尚未形成。
     evidence_ids:
-    - ev-7268111643ef67df
+    - ev-69ae0475728b5fa8
   - gate: model
     status: insufficient
-    reason: 开源项目，未披露商业模式，买方可能是 to B 或 to C，但无定价或付费证据。
-    evidence_ids:
-    - ev-7268111643ef67df
+    reason: 未披露定价或商业模式，买方可能是创作者或营销机构，但付费路径不明。
+    evidence_ids: []
   - gate: truth
-    status: insufficient
-    reason: 内容质量和平台合规风险未验证，交付确定性不足。
+    status: supported
+    reason: 贴近内容创作的第一性目标，AI 生成和发布可确定交付，但效果分析需依赖平台数据。
     evidence_ids:
-    - ev-7268111643ef67df
-  next_validation: 官方定价页或客户案例
+    - ev-69ae0475728b5fa8
+  next_validation: 查找官方定价页或商业版信息，以确认付费路径。
   market: ''
-  job: 社交媒体运营者需要持续发现热点、创作内容并发布到多个平台，同时了解哪些内容有效。
-  job_en: Social media managers need to continuously discover trends, create content, and publish across
-    multiple platforms, while learning what content works.
-  pain: 手动跨平台发布耗时，内容创作需要灵感，且难以追踪效果。
-  pain_en: Manual cross-platform publishing is time-consuming, content creation requires inspiration,
-    and tracking performance is difficult.
-  current_alternative: 目前运营者通常使用各种内容日历工具、手动发布，或依赖第三方管理平台。
-  current_alternative_en: Currently, managers often use content calendar tools, manual posting, or third-party
-    management platforms.
-  usage_reason: 开源且覆盖中国主流平台，能自动化发布和趋势发现，对个人创作者和小团队有吸引力。
-  usage_reason_en: Open-source and covers major Chinese platforms, automating publishing and trend discovery,
-    appealing to individual creators and small teams.
+  job: 内容创作者需要跨平台发布内容并了解哪些内容有效。
+  job_en: Content creators need to publish across platforms and understand what content works.
+  pain: 多平台发布耗时，且难以追踪内容效果，优化缺乏数据支持。
+  pain_en: Publishing across multiple platforms is time-consuming, and tracking content performance is
+    difficult, leaving optimization without data support.
+  current_alternative: 目前创作者通常手动发布或使用 Hootsuite 等工具，但这些工具缺乏 AI 内容生成和效果学习能力。
+  current_alternative_en: Currently creators publish manually or use tools like Hootsuite, which lack
+    AI content generation and performance learning.
+  usage_reason: AI 能自动生成内容并分析效果，减少重复劳动，适合多平台运营的创作者。
+  usage_reason_en: AI can auto-generate content and analyze performance, reducing repetitive work, appealing
+    to creators managing multiple platforms.

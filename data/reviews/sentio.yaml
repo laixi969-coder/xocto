@@ -162,3 +162,43 @@
   usage_reason: 开源社区关注它，因为它为代理提供专用邮箱基础设施，简化了邮件自动化。
   usage_reason_en: The open-source community is interested because it provides dedicated mailbox infrastructure
     for agents, simplifying email automation.
+- id: req-initial-sentio-2026-09-06
+  project_slug: sentio
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 代理需要独立邮箱收发邮件的需求，痛点在于现有邮件服务不适合程序化访问，替代方案不完整。
+    evidence_ids:
+    - ev-27e3f85c6d8b39d3
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 239 星，但缺乏用户采用或场景验证的公开证据。
+    evidence_ids:
+    - ev-27e3f85c6d8b39d3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或企业，但尚无公开付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 邮件服务器是成熟技术，交付可确定，但需验证其安全性和可扩展性。
+    evidence_ids:
+    - ev-27e3f85c6d8b39d3
+  next_validation: 查看官方文档或仓库中的部署指南和用户案例。
+  market: ''
+  job: 为 AI 代理提供独立的邮箱地址，使其能收发邮件并与其他系统交互。
+  job_en: Provide AI agents with dedicated email addresses to send/receive emails and interact with other
+    systems.
+  pain: 代理需要通信渠道，但现有邮箱服务不适合程序化访问，且难以管理多代理的邮件。
+  pain_en: Agents need communication channels, but existing email services are not suitable for programmatic
+    access and managing multi-agent mail is difficult.
+  current_alternative: 开发者可能使用临时邮箱服务或自行搭建简单的邮件处理，但缺乏完整性和安全性。
+  current_alternative_en: Developers may use temporary email services or build simple mail handling, but
+    these lack completeness and security.
+  usage_reason: 代理需要真实邮箱以完成注册、接收通知等任务，sentio 提供结构化、可编程的邮件接口。
+  usage_reason_en: Agents need real email addresses for tasks like registration and notifications; sentio
+    provides a structured, programmable mail interface.

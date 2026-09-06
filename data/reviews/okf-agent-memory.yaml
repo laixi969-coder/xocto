@@ -1,41 +1,40 @@
 - id: req-initial-okf-agent-memory-2026-09-06
   project_slug: okf-agent-memory
   level: initial
-  reviewed_at: '2026-09-06T13:15:20Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决 AI 编码代理在长任务中上下文丢失和 token 消耗高的问题，痛点明确且刚性，交付可确定（Git 存储和检索）。
+    reason: 它解决 AI 编程代理上下文丢失和 token 浪费的痛点，价值结构成立。
     evidence_ids:
-    - ev-0938443c4f99ab48
+    - ev-deb8dbcf1961d79b
+    - ev-72fa37d84a643046
   - gate: consensus
     status: insufficient
-    reason: 开源社区讨论和星标数显示关注，但缺乏持续采用或付费证据，共识尚未形成。
+    reason: 公开资料 讨论和 公开代码仓库 星标显示关注，但缺乏持续采用证据。
     evidence_ids:
-    - ev-309de18171d9b85c
+    - ev-deb8dbcf1961d79b
+    - ev-72fa37d84a643046
   - gate: model
     status: insufficient
-    reason: 作为开源项目，商业模式不明确，可能通过支持或托管服务变现，但未公开。
-    evidence_ids:
-    - ev-0938443c4f99ab48
+    reason: 开源免费，但未披露商业模式；可能通过托管服务或企业支持盈利。
+    evidence_ids: []
   - gate: truth
-    status: supported
-    reason: 贴近开发工作的第一性目标，承诺可确定性交付，无安全或人工边界问题。
-    evidence_ids:
-    - ev-0938443c4f99ab48
-  next_validation: 官方定价页或托管服务的商业模式说明
+    status: insufficient
+    reason: 性能声明（如 80% token 减少）未独立验证。
+    evidence_ids: []
+  next_validation: 查找该项目的独立评测或用户报告，验证性能声明。
   market: ''
-  job: AI 编码代理在长时间开发任务中需要记住项目上下文、决策和偏好，避免重复询问或遗忘。
-  job_en: AI coding agents need to remember project context, decisions, and preferences during long development
-    tasks, avoiding repeated questions or forgetfulness.
-  pain: 代理在长会话中会丢失上下文，导致输出不一致或需要重新加载大量 token，增加成本和延迟。
-  pain_en: Agents lose context in long sessions, leading to inconsistent outputs or requiring reloading
-    large amounts of tokens, increasing cost and latency.
-  current_alternative: 目前开发者常使用对话历史、项目文档或外部向量数据库来补充上下文，但这些方法要么不持久，要么需要额外基础设施。
-  current_alternative_en: Currently developers often use conversation history, project docs, or external
-    vector databases to supplement context, but these are either not persistent or require extra infrastructure.
-  usage_reason: 开发者会尝试使用它，因为它承诺减少 token 消耗并提供 Git 原生的持久记忆，且无需外部数据库，降低了集成成本。
-  usage_reason_en: Developers would try it because it promises reduced token usage and Git-native persistent
-    memory with no external database, lowering integration cost.
+  job: 让 AI 编程代理在会话间保持项目上下文，减少重复解释和 token 消耗。
+  job_en: Enable AI coding agents to retain project context across sessions, reducing repeated explanations
+    and token consumption.
+  pain: AI 编程代理每次会话丢失上下文，导致重复输入和 token 浪费。
+  pain_en: AI coding agents lose context each session, causing redundant input and token waste.
+  current_alternative: 目前开发者依赖手动总结或外部向量数据库，但集成复杂且成本高。
+  current_alternative_en: Currently developers rely on manual summarization or external vector databases,
+    which are complex and costly.
+  usage_reason: Git 原生和零依赖设计降低了集成门槛，直接解决 token 浪费问题。
+  usage_reason_en: Git-native and zero-dependency design lowers integration barriers, directly addressing
+    token waste.

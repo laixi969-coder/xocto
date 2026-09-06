@@ -1,37 +1,38 @@
 - id: req-initial-dsh-plugin-shop-2026-09-06
   project_slug: dsh-plugin-shop
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: needs_validation
   signal_level: 需求存疑
   gates:
   - gate: value
     status: insufficient
-    reason: 它解决什么需求、什么痛点：解决插件发现和审核问题，但痛点强度未明，且作为目录站自身价值有限。
+    reason: 它解决开发者寻找和获取插件的问题，但痛点是否刚性、交付是否确定尚不明确。
     evidence_ids:
-    - ev-a543770808331a2d
+    - ev-26022095a7bdf14a
   - gate: consensus
     status: insufficient
-    reason: 未进入：价值不成立，缺乏用户采用或社区讨论证据。
-    evidence_ids: []
+    reason: 仅有 265 个星标，缺乏用户评价或采用证据，共识度低。
+    evidence_ids:
+    - ev-26022095a7bdf14a
   - gate: model
     status: insufficient
-    reason: 未进入：价值不成立，无付费路径或商业模式信息。
+    reason: 未进入：价值不成立。开源项目，无明确付费路径。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值不成立，无法核验交付确定性。
+    reason: 未进入：价值不成立。
     evidence_ids: []
-  next_validation: 官方文档或仓库 issue 中关于用户使用场景和痛点的讨论。
+  next_validation: 查看 公开代码仓库 仓库的 issue 和 discussion，寻找用户反馈和实际使用场景。
   market: ''
-  job: 开发者需要发现和安装 DeepSeek Harness 的插件，以扩展功能。
-  job_en: Developers need to discover and install plugins for DeepSeek Harness to extend functionality.
-  pain: 插件分散在互联网各处，缺乏统一发现和审核机制，可能带来安全风险。
-  pain_en: Plugins are scattered across the internet, lacking unified discovery and review mechanisms,
-    posing security risks.
-  current_alternative: 用户可能通过 公开代码仓库 搜索、社区推荐或手动查找插件。
-  current_alternative_en: Users may search public code repository, rely on community recommendations,
-    or manually find plugins.
-  usage_reason: 该市场提供集中、每日更新的插件列表，可能吸引开发者浏览和尝试。
-  usage_reason_en: This marketplace offers a centralized, daily-updated plugin list, potentially attracting
-    developers to browse and try.
+  job: 开发者寻找和获取 DeepSeek Harness 的插件，以扩展功能。
+  job_en: Developers find and obtain plugins for DeepSeek Harness to extend functionality.
+  pain: 插件分散在互联网各处，缺乏统一的发现和审核渠道，可能导致安全风险或兼容性问题。
+  pain_en: Plugins are scattered across the internet, lacking a unified discovery and review channel,
+    which may lead to security risks or compatibility issues.
+  current_alternative: 开发者可能通过 公开代码仓库 搜索、社区推荐或自行开发插件。
+  current_alternative_en: Developers may search public code repository, rely on community recommendations,
+    or develop plugins themselves.
+  usage_reason: 该市场提供集中化的插件发现和审核，可能吸引开发者，但需求强度尚不明确。
+  usage_reason_en: This marketplace offers centralized plugin discovery and review, which may attract
+    developers, but the demand intensity is unclear.

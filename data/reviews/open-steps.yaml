@@ -1,43 +1,41 @@
 - id: req-initial-open-steps-2026-09-06
   project_slug: open-steps
   level: initial
-  reviewed_at: '2026-09-06T06:48:39Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决开发者核对AI编码代理产出的需求：代理给自己打分不可信，逐行读日志太慢。属工作流结构推理，尚无用户评价佐证。
+    reason: 它解决什么需求、什么痛点：开发者需要理解 AI 代理输出的关键结论和步骤，当前缺乏通俗摘要，痛点明确。
     evidence_ids:
-    - ev-1a25c2099eadbd03
-    - ev-7b6ac678483d2742
+    - ev-241cf85a1084719a
   - gate: consensus
     status: insufficient
-    reason: 场景本身清楚，共识卡在感知环节：五天星标由154涨至248，关注上升但收藏数不是持续采用，缺真实使用反馈。
+    reason: 公开星标 258，但缺乏持续采用或付费证据，共识尚不明确。
     evidence_ids:
-    - ev-9483760a535a655b
-    - ev-7b6ac678483d2742
+    - ev-241cf85a1084719a
   - gate: model
     status: insufficient
-    reason: 开源MIT许可，未见定价页或明确买方；钱可能来自to B团队的效率预算，这是判断不是已验证事实。
+    reason: 开源项目，商业模式未明，可能通过支持或企业服务获利，但未披露。
     evidence_ids:
-    - ev-7b6ac678483d2742
+    - ev-241cf85a1084719a
   - gate: truth
     status: supported
-    reason: 贴近“确认代理工作是否可信”的第一性目标，交付为可读结论与步骤，人工仍核对改动，边界清楚。
+    reason: 贴近开发者的第一性目标：理解 AI 输出，承诺可确定交付通俗报告。
     evidence_ids:
-    - ev-1a25c2099eadbd03
-  next_validation: 跟踪该仓库的issue与discussion，收集开发者报告的实际接入编码代理的使用反馈与复用案例。
+    - ev-241cf85a1084719a
+  next_validation: 查看官方文档或仓库 issue 中是否有用户实际使用案例或集成示例。
   market: ''
-  job: 开发者在AI编码代理完成任务后，需要确认它到底做成了什么、下一步该做什么。
-  job_en: After an AI coding agent finishes a task, developers need to confirm what it actually accomplished
-    and what to do next.
-  pain: 代理输出的汇报冗长含糊，且代理给自己打分不可信；逐行读日志和改动太慢，漏看会埋下隐患。
-  pain_en: Agent reports are long and vague, and an agent grading its own work is untrustworthy; reading
-    logs and diffs line by line is slow, and missed details hide risks.
-  current_alternative: 开发者直接读diff和运行日志，或让同一个代理自我总结，后者带有自评偏差。
-  current_alternative_en: Developers read diffs and logs directly, or ask the same agent to summarize
-    itself, which carries self-assessment bias.
-  usage_reason: 一个独立于代理会话的转译层给出直白结论和可执行步骤，降低误信代理自评的风险，上手成本低。
-  usage_reason_en: An independent translation layer outside the agent session gives plain verdicts and
-    followable steps, lowering the risk of trusting the agent's self-assessment at low adoption cost.
+  job: 开发者或技术负责人在审查 AI 编码代理的输出时，需要理解其执行过程和结果，以便判断是否采纳或进一步操作。
+  job_en: Developers or technical leads need to understand the execution process and results of AI coding
+    agent outputs when reviewing them, to decide whether to adopt or take further action.
+  pain: AI 代理的输出往往冗长、技术性强，难以快速把握关键结论和下一步行动，导致审查效率低。
+  pain_en: AI agent outputs are often verbose and technical, making it hard to quickly grasp key conclusions
+    and next steps, reducing review efficiency.
+  current_alternative: 目前开发者通常直接阅读原始日志或代码 diff，或依赖自身技术判断，缺乏结构化的通俗摘要。
+  current_alternative_en: Currently developers often read raw logs or code diffs directly, or rely on
+    their own technical judgment, lacking structured plain-language summaries.
+  usage_reason: 开源且 MIT 许可，可免费集成到现有工作流，降低采用门槛；社区讨论和星标表明有初步关注。
+  usage_reason_en: Open source with MIT license, free to integrate into existing workflows, lowering adoption
+    barriers; community discussion and stars indicate initial interest.

@@ -74,3 +74,41 @@
   usage_reason: 开源且可扩展，可能吸引安全研究人员尝试，但采用证据尚未核验。
   usage_reason_en: Open-source and extensible, may attract security researchers to try, but adoption evidence
     is not yet verified.
+- id: req-full-0sec-2026-09-07
+  project_slug: 0sec
+  level: full
+  reviewed_at: '2026-09-06T16:13:46Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅描述为开源可扩展的网络安全测试框架，未说明具体用户任务、痛点、输入输出或交付物，无法还原工作流结构，需求强度未明。
+    evidence_ids:
+    - ev-05f31eae16606ac3
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪官方文档与代码仓库的 README、issue 和讨论，寻找具体用例、部署文档或用户案例。
+  market: ''
+  job: 安全研究员或工程师需要自动化执行漏洞扫描和渗透测试，以发现系统安全弱点。
+  job_en: Security researchers or engineers need to automate vulnerability scanning and penetration testing
+    to discover system security weaknesses.
+  pain: 传统渗透测试耗时且依赖专家经验，难以规模化覆盖大量系统。
+  pain_en: Traditional penetration testing is time-consuming and relies on expert experience, making it
+    difficult to scale across many systems.
+  current_alternative: 目前主要依赖商业安全测试工具（如 Nessus、Burp Suite）或人工渗透测试服务。
+  current_alternative_en: Currently relies on commercial security testing tools (e.g., Nessus, Burp Suite)
+    or manual penetration testing services.
+  usage_reason: 开源且可扩展，可能吸引安全研究人员尝试，但采用证据尚未核验。
+  usage_reason_en: Open-source and extensible, may attract security researchers to try, but adoption evidence
+    is not yet verified.

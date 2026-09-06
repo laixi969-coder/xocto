@@ -1,40 +1,40 @@
 - id: req-initial-unreel-2026-09-06
   project_slug: unreel
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
-  verdict: true_demand
-  signal_level: 初步成立
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 结构上解决用户按需生成个性化视频并直接串流播放的需求，但目前视频生成成本与画质连贯性仍制约其作为高频日常消费的刚性。
+    status: challenged
+    reason: 无法明确它解决什么具体需求或痛点，价值结构不清晰。
     evidence_ids:
-    - ev-1063a8f58ac514f2
+    - ev-ec40b55f40ec67c5
   - gate: consensus
     status: insufficient
-    reason: 代码仓库累积获得 126 颗星关注，目前主要停留在开发者探索阶段，尚未观察到广泛的终端用户持续采用。
+    reason: 有 131 星，但缺乏用户评价或采用证据，共识不明确。
     evidence_ids:
-    - ev-1063a8f58ac514f2
+    - ev-ec40b55f40ec67c5
   - gate: model
     status: insufficient
-    reason: 属于开源自托管项目，公开资料中未披露商业化收费计划或云端托管订阅定价。
+    reason: 商业模式未明确，可能通过订阅或广告，但未披露。
     evidence_ids:
-    - ev-1063a8f58ac514f2
+    - ev-ec40b55f40ec67c5
   - gate: truth
-    status: supported
-    reason: 项目以开源代码形式交付本地流媒体服务，用户可通过仓库文档核验其视频串流与模型调用功能。
+    status: insufficient
+    reason: 项目描述模糊，无法判断交付能否确定发生。
     evidence_ids:
-    - ev-1063a8f58ac514f2
-  next_validation: 官方仓库后续发布的实测运行文档及实际视频生成延迟与画质连贯性演示
+    - ev-ec40b55f40ec67c5
+  next_validation: 查看 公开代码仓库 仓库的 README 或文档，明确具体功能和目标用户。
   market: ''
-  job: 按需生成并连续观看定制化的个人专属流媒体视频内容
-  job_en: Generate and stream personalized custom video content on demand
-  pain: 传统流媒体平台的静态内容库无法满足即时定制与高度个性化的互动内容消费需求
-  pain_en: Traditional static streaming catalogs cannot satisfy real-time customized and interactive video
-    consumption needs
-  current_alternative: 在已有流媒体库中手工检索相似内容，或使用独立视频生成工具分步生成并手动播放
-  current_alternative_en: Manually searching existing streaming catalogs or using standalone generation
-    tools step-by-step
-  usage_reason: 开源社区开发者与尝鲜用户希望获得全自动生成的端到端个人流媒体播放体验
-  usage_reason_en: Open-source developers and early adopters want an end-to-end automated personal video
-    streaming experience
+  job: 用户可能希望获得个性化或 AI 生成的视频内容，但具体任务不明确。
+  job_en: Users may want personalized or AI-generated video content, but the specific task is unclear.
+  pain: 现有视频平台内容同质化，用户可能寻求更个性化的体验，但痛点不明确。
+  pain_en: Existing video platforms have homogeneous content; users may seek more personalized experiences,
+    but the pain point is unclear.
+  current_alternative: 用户可能使用现有流媒体服务或视频生成工具，但替代行为不明确。
+  current_alternative_en: Users may use existing streaming services or video generation tools, but alternative
+    behaviors are unclear.
+  usage_reason: 项目有 131 星，可能吸引对 AI 视频感兴趣的开发者或用户，但采用原因不明确。
+  usage_reason_en: The project has 131 stars, possibly attracting developers or users interested in AI
+    video, but the reason for usage is unclear.

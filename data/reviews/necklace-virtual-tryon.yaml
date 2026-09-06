@@ -1,0 +1,37 @@
+- id: req-initial-necklace-virtual-tryon-2026-09-06
+  project_slug: necklace-virtual-tryon
+  level: initial
+  reviewed_at: '2026-09-06T15:36:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决珠宝线上购买前无法试戴的痛点，降低退货风险；价值结构成立。
+    evidence_ids:
+    - ev-55b6abd825a8e58d
+  - gate: consensus
+    status: insufficient
+    reason: 公开证据仅显示工具存在，缺乏用户采用或反馈数据。
+    evidence_ids:
+    - ev-55b6abd825a8e58d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是珠宝商家或消费者，但无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 渲染精度和实际效果未经验证，可能影响用户信任。
+    evidence_ids: []
+  next_validation: 查找该工具或类似产品的用户评价或采用数据，或官方定价页。
+  market: ''
+  job: 在线购买珠宝前预览佩戴效果，减少因不合适导致的退货。
+  job_en: Preview how jewellery looks before buying online to reduce returns due to poor fit.
+  pain: 珠宝是高客单价、强视觉商品，线上无法试戴导致犹豫和退货。
+  pain_en: Jewellery is high-ticket and visually driven; inability to try on online causes hesitation
+    and returns.
+  current_alternative: 目前用户依赖模特图或到店试戴，线上体验不直观。
+  current_alternative_en: Currently users rely on model photos or in-store try-on; online experience is
+    not intuitive.
+  usage_reason: AI 试戴能提供接近真实的佩戴预览，降低购买决策门槛。
+  usage_reason_en: AI try-on provides a realistic preview, lowering the barrier to purchase decisions.

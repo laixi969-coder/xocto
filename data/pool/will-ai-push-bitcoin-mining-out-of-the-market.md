@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GZHA1QTFDZE9y
 summary: Will AI Push Bitcoin Mining Out of the Market? BeInCrypto
 first_seen: '2026-09-04T16:07:00Z'
 last_seen: '2026-09-06T15:36:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

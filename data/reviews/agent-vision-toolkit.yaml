@@ -341,3 +341,44 @@
   usage_reason: 公开代码仓库有 838 个收藏、37 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 838 stars and 37 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-agent-vision-toolkit-2026-09-07
+  project_slug: agent-vision-toolkit
+  level: full
+  reviewed_at: '2026-09-06T16:13:48Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决纯文本模型无法处理图像的需求，痛点在于开发者需额外工具或人工完成看图、OCR、UI 还原，效率低且易错；产品提供一行安装、粘贴识别、多图问答等明确交付，结构上成立（工作流推理）。
+    evidence_ids:
+    - ev-5a658f7923a17c37
+    - ev-77941e9e56dd339f
+  - gate: consensus
+    status: supported
+    reason: 公开仓库星标从 838 增至 850，且多次采集记录显示持续增长，说明开发者社区正在关注和试用，需求场景明确；但收藏不等于持续采用或付费。
+    evidence_ids:
+    - ev-77941e9e56dd339f
+    - ev-88724eeb7f8d2e9a
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 给只会读字的 AI 装眼睛：带着任务看图，标位置、认字、还原界面
+  job_en: 'Gives a text-only AI eyes: it looks at pictures with a task in mind, then locates objects,
+    reads text, and rebuilds screens.'
+  pain: 纯文本模型无法直接处理图像，导致开发者需要额外工具或人工介入才能完成看图、OCR、UI 还原等任务，效率低且易出错。
+  pain_en: Text-only models cannot directly process images, forcing developers to use extra tools or manual
+    work for image understanding, OCR, UI restoration, etc., which is inefficient and error-prone.
+  current_alternative: 目前开发者可能使用多模态模型、专门的 OCR 工具或人工截图标注，但这些方案集成成本高或不够自动化。
+  current_alternative_en: Developers may currently use multimodal models, dedicated OCR tools, or manual
+    screenshot annotation, but these are costly to integrate or less automated.
+  usage_reason: 公开仓库星标从 838 增长到 850，显示开发者持续关注和试用，说明存在真实使用场景；但付费和留存尚未核验。
+  usage_reason_en: Public repository stars grew from 838 to 850, showing sustained developer attention
+    and trial, indicating real use cases; payment and retention are not yet verified.

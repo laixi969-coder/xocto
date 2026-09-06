@@ -452,3 +452,44 @@
   usage_reason: 开源项目获得 1672 星，表明开发者社区强烈关注，但实际采用和用户反馈未核验。
   usage_reason_en: The open-source project has 1672 stars, indicating strong developer community interest,
     but actual adoption and user feedback are unverified.
+- id: req-initial-x64dbg-mcp-server-2026-09-06
+  project_slug: x64dbg-mcp-server
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决逆向工程中手动调试繁琐、难以自动化的问题，痛点明确且刚性。
+    evidence_ids:
+    - ev-9fe75192a778663f
+  - gate: consensus
+    status: supported
+    reason: 开源项目获得较高关注（1894 stars），表明开发者对此有强烈兴趣。
+    evidence_ids:
+    - ev-9fe75192a778663f
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式不明确，但可能通过企业支持或高级功能盈利。
+    evidence_ids:
+    - ev-9fe75192a778663f
+  - gate: truth
+    status: supported
+    reason: 项目贴近逆向工程的第一性目标，承诺通过 MCP 控制调试器，交付可确定。
+    evidence_ids:
+    - ev-9fe75192a778663f
+  next_validation: 查看 x64dbg-mcp-server 的 公开代码仓库 仓库 issue 和 discussion，了解实际使用案例和反馈。
+  market: ''
+  job: 逆向工程师在分析恶意软件或漏洞时，需要逐步调试二进制文件，理解其行为。
+  job_en: Reverse engineers need to step through binaries to understand their behavior when analyzing
+    malware or vulnerabilities.
+  pain: 手动调试繁琐耗时，且难以自动化重复性任务。
+  pain_en: Manual debugging is tedious and time-consuming, and it is difficult to automate repetitive
+    tasks.
+  current_alternative: 目前逆向工程师主要手动使用 x64dbg 或编写脚本，缺乏 AI 辅助。
+  current_alternative_en: Currently, reverse engineers mainly use x64dbg manually or write scripts, lacking
+    AI assistance.
+  usage_reason: 该插件允许 AI 直接控制调试器，可显著提高分析效率，吸引开发者尝试。
+  usage_reason_en: This plugin allows AI to directly control the debugger, which can significantly improve
+    analysis efficiency and attract developers to try.

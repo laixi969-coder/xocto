@@ -139,3 +139,77 @@
   usage_reason: 开源项目，51 星，可能吸引尝试新演示方式的开发者，但采用证据不足。
   usage_reason_en: Open-source with 51 stars, may attract developers trying new demo methods, but adoption
     evidence is insufficient.
+- id: req-initial-agentic-product-demo-2026-09-06
+  project_slug: agentic-product-demo
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产品演示视频制作耗时且不精美的问题，替代手动录制或外包，价值结构成立。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数显示关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  - gate: model
+    status: insufficient
+    reason: 付费路径未公开，可能面向 to B 营销预算，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近产品营销的第一性目标，交付可确定。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  next_validation: 官方定价页或客户案例。
+  market: ''
+  job: 产品团队需要为产品创建演示视频以用于营销和销售。
+  job_en: Product teams need to create demo videos for marketing and sales.
+  pain: 传统屏幕录制视频不精美，手动编辑耗时。
+  pain_en: Traditional screen recordings are not polished, and manual editing is time-consuming.
+  current_alternative: 目前团队可能使用屏幕录制工具或外包视频制作。
+  current_alternative_en: Currently teams may use screen recording tools or outsource video production.
+  usage_reason: 开源项目获得 179 星，表明开发者关注，但付费采用未验证。
+  usage_reason_en: The open-source project has 179 stars, indicating developer interest, but paid adoption
+    is unverified.
+- id: req-full-agentic-product-demo-2026-09-07
+  project_slug: agentic-product-demo
+  level: full
+  reviewed_at: '2026-09-06T16:16:04Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决产品演示视频制作耗时且不精美的问题，替代手动录制或外包，价值结构成立。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数显示关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  - gate: model
+    status: insufficient
+    reason: 付费路径未公开，可能面向 to B 营销预算，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近产品营销的第一性目标，交付可确定。
+    evidence_ids:
+    - ev-95eb7b33745fe046
+  next_validation: 追踪 agentic-product-demo 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 产品团队需要为产品创建演示视频以用于营销和销售。
+  job_en: Product teams need to create demo videos for marketing and sales.
+  pain: 传统屏幕录制视频不精美，手动编辑耗时。
+  pain_en: Traditional screen recordings are not polished, and manual editing is time-consuming.
+  current_alternative: 目前团队可能使用屏幕录制工具或外包视频制作。
+  current_alternative_en: Currently teams may use screen recording tools or outsource video production.
+  usage_reason: 开源项目获得 179 星，表明开发者关注，但付费采用未验证。
+  usage_reason_en: The open-source project has 179 stars, indicating developer interest, but paid adoption
+    is unverified.

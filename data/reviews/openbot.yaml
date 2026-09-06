@@ -1,0 +1,41 @@
+- id: req-initial-openbot-2026-09-06
+  project_slug: openbot
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：AI 代理需要安全隔离和完整审计，当前缺乏，痛点明确。
+    evidence_ids:
+    - ev-4fc1f93724e6ec44
+  - gate: consensus
+    status: supported
+    reason: 星标 4351 和 fork 538 表明开发者社区有广泛关注和采用迹象。
+    evidence_ids:
+    - ev-4fc1f93724e6ec44
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未明，可能通过企业支持或云服务获利，但未披露。
+    evidence_ids:
+    - ev-4fc1f93724e6ec44
+  - gate: truth
+    status: supported
+    reason: 贴近 AI 代理的第一性目标：自主执行且可审计，承诺可确定交付。
+    evidence_ids:
+    - ev-4fc1f93724e6ec44
+  next_validation: 查看官方文档或 公开代码仓库 讨论中是否有企业采用案例或部署指南。
+  market: ''
+  job: AI 工程师或开发者需要部署能自主操作浏览器和文件的 AI 代理，同时确保每个动作可追溯、可控制。
+  job_en: AI engineers or developers need to deploy AI agents that can autonomously operate browsers and
+    files, while ensuring every action is traceable and controllable.
+  pain: 现有 AI 代理缺乏隔离环境和完整动作记录，导致安全风险和调试困难。
+  pain_en: Existing AI agents lack isolated environments and complete action logs, causing security risks
+    and debugging difficulties.
+  current_alternative: 开发者通常使用虚拟机或容器手动隔离，或依赖代理框架的有限日志，缺乏统一解决方案。
+  current_alternative_en: Developers often manually isolate using VMs or containers, or rely on limited
+    logs from agent frameworks, lacking a unified solution.
+  usage_reason: 开源且星标 4351，表明开发者社区有强烈兴趣；提供独立环境和动作记录，解决真实痛点。
+  usage_reason_en: Open source with 4,351 stars, indicating strong developer community interest; provides
+    isolated environments and action logging, addressing real pain points.

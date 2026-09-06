@@ -1,36 +1,38 @@
 - id: req-initial-fable51-worlds-2026-09-06
   project_slug: fable51-worlds
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: needs_validation
   signal_level: 需求存疑
   gates:
   - gate: value
     status: insufficient
-    reason: 无法写出它解决什么需求、什么痛点，项目描述不足。
+    reason: 它可能解决虚拟世界构建的效率问题，但具体工作流和交付不明确，价值判断证据不足。
     evidence_ids:
-    - ev-14ecf0a816818c9f
+    - ev-53d6bed646a5d2c3
   - gate: consensus
     status: insufficient
-    reason: 星标增长快但缺乏场景或采用证据。
+    reason: 开源项目有 444 星，但缺乏用户采用或付费证据，共识尚未形成。
     evidence_ids:
-    - ev-14ecf0a816818c9f
+    - ev-53d6bed646a5d2c3
   - gate: model
     status: insufficient
-    reason: 未进入：价值不成立。
+    reason: 未披露定价或商业模式，买方可能是游戏开发者或工作室，但付费路径不明。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值不成立。
-    evidence_ids: []
-  next_validation: 项目 README 或官方文档
+    reason: 贴近虚拟世界构建的第一性目标，但交付确定性未验证。
+    evidence_ids:
+    - ev-53d6bed646a5d2c3
+  next_validation: 查找项目文档或示例，以明确具体工作流和交付物。
   market: ''
-  job: 开发者可能希望用代码快速生成虚拟世界场景，但具体任务和用户不明确。
-  job_en: Developers might want to quickly generate virtual world scenes via code, but the specific task
-    and users are unclear.
-  pain: 未知，项目描述过于简略，无法判断痛点。
-  pain_en: Unknown, project description too brief to identify pain points.
-  current_alternative: 未知，可能替代手工建模或游戏引擎编辑，但无证据。
-  current_alternative_en: Unknown, might replace manual modeling or game engine editing, but no evidence.
-  usage_reason: 公开代码仓库 星标增长快，可能吸引开发者关注，但原因不明。
-  usage_reason_en: Rapid public code repository star growth may attract developers, but reason is unclear.
+  job: 开发者需要快速创建虚拟世界场景。
+  job_en: Developers need to quickly create virtual world scenes.
+  pain: 传统虚拟世界构建耗时且需要专业美术技能。
+  pain_en: Traditional virtual world building is time-consuming and requires professional art skills.
+  current_alternative: 目前开发者通常使用 Unity 或 Unreal 等引擎手动构建，或使用程序化生成工具，但缺乏 AI 辅助。
+  current_alternative_en: Currently developers use engines like Unity or Unreal for manual construction,
+    or procedural generation tools, but lack AI assistance.
+  usage_reason: AI 可能加速世界构建，但具体工作流和交付不明确，需求强度未明。
+  usage_reason_en: AI may accelerate world building, but the specific workflow and deliverables are unclear,
+    so demand intensity is unknown.

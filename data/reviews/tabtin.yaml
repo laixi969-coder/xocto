@@ -71,3 +71,39 @@
   usage_reason: 代码仓库星标 206 表明初步关注，但具体使用场景和用户痛点未明确，采用原因待核验。
   usage_reason_en: 206 stars on the code repository indicate initial interest, but specific use cases
     and pain points are unclear; adoption reasons unverified.
+- id: req-initial-tabtin-2026-09-06
+  project_slug: tabtin
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决人机协作的需求，但具体任务、痛点和交付物不清晰，价值主张模糊。
+    evidence_ids:
+    - ev-0e2db3c6ef5f0002
+  - gate: consensus
+    status: insufficient
+    reason: 有 300 星，但缺乏用户场景或采用证据。
+    evidence_ids:
+    - ev-0e2db3c6ef5f0002
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或定价，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 承诺不明确，交付物和效果无法验证。
+    evidence_ids: []
+  next_validation: 查看官方文档或演示以了解具体功能。
+  market: ''
+  job: 提供一个平台让人和多个 AI 代理协作完成工作。
+  job_en: Provide a platform for humans and multiple AI agents to collaborate on work.
+  pain: 现有工具缺乏人机多代理协作的统一界面，但具体痛点不明确。
+  pain_en: Existing tools lack a unified interface for human-multi-agent collaboration, but specific pain
+    points are unclear.
+  current_alternative: 可能使用多个独立工具或聊天界面，但缺乏整合。
+  current_alternative_en: May use multiple separate tools or chat interfaces, but lack integration.
+  usage_reason: 信息不足，无法判断用户为何使用。
+  usage_reason_en: Insufficient information to determine why users would use it.

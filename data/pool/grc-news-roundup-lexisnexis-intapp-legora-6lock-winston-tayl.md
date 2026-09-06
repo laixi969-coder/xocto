@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxNS0dZZ3lfZVhI
 summary: 'GRC News Roundup: LexisNexis, Intapp, Legora, 6lock, Winston Taylor & More corporatecomplianceinsights.com'
 first_seen: '2026-09-04T14:25:33Z'
 last_seen: '2026-09-06T15:06:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

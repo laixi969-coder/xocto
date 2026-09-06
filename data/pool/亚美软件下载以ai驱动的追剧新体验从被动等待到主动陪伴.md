@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiR0FVX3lxTE00WXhONWc2bWNF
 summary: 亚美软件下载：以AI驱动的追剧新体验，从被动等待到主动陪伴 体坛
 first_seen: '2026-09-06T07:26:31Z'
 last_seen: '2026-09-06T15:06:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

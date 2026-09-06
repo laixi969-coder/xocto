@@ -1,40 +1,40 @@
 - id: req-initial-codflow-2026-09-06
   project_slug: codflow
   level: initial
-  reviewed_at: '2026-09-06T00:58:33Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决 COD 订单履约与配送协调的痛点，旧流程依赖人工，交付可确定。
+    reason: 它解决阿尔及利亚电商 COD 订单与配送管理的具体痛点，旧流程依赖人工，痛点刚性，交付可确定。
     evidence_ids:
-    - ev-1acf661242b046a5
+    - ev-a1eed1466b367e7b
   - gate: consensus
     status: insufficient
-    reason: 开源星数有限，尚无用户采用或社区讨论证据。
+    reason: 开源项目有 90 星，但缺乏用户评价或采用证据，共识尚不明确。
     evidence_ids:
-    - ev-1acf661242b046a5
+    - ev-a1eed1466b367e7b
   - gate: model
     status: insufficient
-    reason: 未披露定价或商业模式，买方可能是商家或配送方，但无公开证据。
-    evidence_ids: []
-  - gate: truth
-    status: insufficient
-    reason: 宣称 agentic-ready，但具体 AI 功能与交付结果未验证。
+    reason: 未披露定价或商业模式，买方可能是商家或物流公司，但付费路径未验证。
     evidence_ids:
-    - ev-1acf661242b046a5
-  next_validation: 官方文档或演示，明确 COD 订单处理的具体流程与 AI 介入环节
+    - ev-a1eed1466b367e7b
+  - gate: truth
+    status: supported
+    reason: 贴近 COD 电商的第一性目标，交付可确定，无安全风险。
+    evidence_ids:
+    - ev-a1eed1466b367e7b
+  next_validation: 查找 codflow 的官方文档或部署案例，确认实际使用商家数量和 COD 流程覆盖。
   market: ''
-  job: 阿尔及利亚的电商卖家需要处理货到付款订单的履约与配送安排。
-  job_en: E-commerce sellers in Algeria need to manage fulfillment and delivery arrangements for cash-on-delivery
-    orders.
-  pain: COD 订单依赖人工协调配送与收款，流程繁琐且易出错。
-  pain_en: COD orders rely on manual coordination of delivery and payment collection, which is cumbersome
-    and error-prone.
-  current_alternative: 现有替代可能是通用电商平台或手工管理订单与配送。
-  current_alternative_en: Current alternatives may be generic e-commerce platforms or manual management
-    of orders and deliveries.
-  usage_reason: 开源且针对 COD 流程，可能吸引本地开发者与商家试用，但采用证据尚不充分。
-  usage_reason_en: Open source and COD-specific may attract local developers and merchants to try, but
-    adoption evidence is still insufficient.
+  job: 阿尔及利亚电商商家需要处理货到付款订单并协调配送。
+  job_en: Algerian e-commerce merchants need to handle cash-on-delivery orders and coordinate delivery.
+  pain: 现有电商平台对 COD 支持不足，配送管理分散，拒收和资金回流问题突出。
+  pain_en: Existing platforms lack COD support, delivery management is fragmented, and rejection and cash
+    flow issues are prominent.
+  current_alternative: 商家可能使用通用电商平台加人工配送管理，或依赖传统电话和纸质记录。
+  current_alternative_en: Merchants may use generic e-commerce platforms with manual delivery management,
+    or rely on phone calls and paper records.
+  usage_reason: 开源且本地化，能直接解决 COD 流程中的订单与配送管理问题，降低运营成本。
+  usage_reason_en: Open source and localized, it directly addresses order and delivery management in COD
+    workflows, reducing operational costs.

@@ -1,38 +1,39 @@
 - id: req-initial-dsh-personal-center-2026-09-06
   project_slug: dsh-personal-center
   level: initial
-  reviewed_at: '2026-09-06T08:35:59Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: needs_validation
   signal_level: 需求存疑
   gates:
   - gate: value
     status: insufficient
-    reason: 它解决什么需求、什么痛点：提供 Token 用量统计和成本估算，但痛点强度未明，且功能分散，缺乏明确的工作流替代。
+    reason: 它解决开发者对 AI 工具用量和成本监控的需求，但痛点是否刚性、交付是否确定尚不明确。
     evidence_ids:
-    - ev-3b70ea9784aca040
+    - ev-6b51e0e8872c7a87
   - gate: consensus
     status: insufficient
-    reason: 未进入：价值不成立，缺乏用户采用或社区讨论证据。
-    evidence_ids: []
+    reason: 仅有 55 个星标，缺乏用户评价或采用证据，共识度低。
+    evidence_ids:
+    - ev-6b51e0e8872c7a87
   - gate: model
     status: insufficient
-    reason: 未进入：价值不成立，无付费路径或商业模式信息。
+    reason: 未进入：价值不成立。开源项目，无明确付费路径。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 未进入：价值不成立，无法核验交付确定性。
+    reason: 未进入：价值不成立。
     evidence_ids: []
-  next_validation: 官方文档或仓库 issue 中关于用户使用场景和痛点的讨论。
+  next_validation: 查看 公开代码仓库 仓库的 issue 和 discussion，寻找用户反馈和实际使用场景。
   market: ''
-  job: 开发者在使用 DeepSeek Harness 时，需要了解自己的 Token 消耗和成本，并自定义界面和行为。
-  job_en: Developers using DeepSeek Harness need to track token consumption and costs, and customize interface
-    and behavior.
-  pain: 缺乏用量和成本透明度，可能导致预算超支；自定义选项不足可能影响使用体验。
-  pain_en: Lack of usage and cost transparency may lead to budget overruns; insufficient customization
-    options may affect user experience.
-  current_alternative: 用户可能依赖 DSH 自带的功能或手动记录，或使用其他第三方统计工具。
-  current_alternative_en: Users may rely on DSH's built-in features, manual tracking, or other third-party
-    statistics tools.
-  usage_reason: 该工具提供本地、离线的用量统计和自定义功能，可能吸引注重隐私和控制的开发者尝试。
-  usage_reason_en: This tool offers local, offline usage statistics and customization, potentially attracting
-    developers who value privacy and control.
+  job: 开发者管理 DeepSeek Harness 的使用情况，包括查看 Token 用量、估算成本、设置自定义指令和调整界面。
+  job_en: Developers manage their DeepSeek Harness usage, including viewing token usage, estimating costs,
+    setting custom instructions, and adjusting the interface.
+  pain: 缺乏对 AI 工具使用量和成本的直观监控，可能导致预算超支或使用效率低下。
+  pain_en: Lack of intuitive monitoring of AI tool usage and costs may lead to budget overruns or inefficient
+    use.
+  current_alternative: 开发者可能依赖平台自带的使用统计或手动记录，但这些方式可能不够直观或及时。
+  current_alternative_en: Developers may rely on platform-provided usage statistics or manual records,
+    but these may not be intuitive or timely.
+  usage_reason: 该工具提供本地化的用量统计和成本估算，可能吸引注重隐私和精细管理的开发者，但需求强度尚不明确。
+  usage_reason_en: This tool offers localized usage statistics and cost estimation, which may appeal to
+    developers who value privacy and fine-grained management, but the demand intensity is unclear.

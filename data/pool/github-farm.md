@@ -22,7 +22,7 @@ summary: Production-grade, AI-Agent-friendly multi-platform OAuth harvesting and
   for AI Gateways.
 first_seen: '2026-08-20T03:30:55Z'
 last_seen: '2026-09-06T15:36:27Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

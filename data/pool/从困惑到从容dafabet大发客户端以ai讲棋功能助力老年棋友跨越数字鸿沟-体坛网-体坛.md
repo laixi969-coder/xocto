@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wSk5yVmlxdm9z
 summary: 从困惑到从容：DAFABET大发客户端以AI讲棋功能助力老年棋友跨越数字鸿沟- 体坛网_体坛+ 体坛
 first_seen: '2026-09-06T10:26:40Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

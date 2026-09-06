@@ -1,40 +1,41 @@
 - id: req-initial-pi-posthorse-2026-09-06
   project_slug: pi-posthorse
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
+  reviewed_at: '2026-09-06T15:36:27Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决 AI 编码代理长会话上下文丢失的痛点，无摘要窗口和持久笔记是明确的工作流改进。
+    reason: 它解决 AI 编程代理长会话上下文丢失的问题，通过无摘要窗口和持久笔记保持连续性，痛点明确。
     evidence_ids:
-    - ev-304a3ffbe7f44d3c
+    - ev-3e42af290db1a5db
   - gate: consensus
     status: insufficient
-    reason: 星标数较高显示一定关注，但缺乏用户评价或实际采用证据。
+    reason: 开源仓库星数 214，有一定关注，但无公开采用或用户反馈证据。
     evidence_ids:
-    - ev-6b36170c1f5743b9
+    - ev-3e42af290db1a5db
   - gate: model
     status: insufficient
-    reason: 开源项目无定价或付费路径，买方可能是开发者，但商业模式未验证。
-    evidence_ids: []
+    reason: 未披露定价，可能作为开源工具免费，商业模式不清晰。
+    evidence_ids:
+    - ev-3e42af290db1a5db
   - gate: truth
     status: supported
-    reason: 上下文管理贴近代理可靠性的第一性目标，交付可确定，不涉及安全边界问题。
+    reason: 贴近开发效率第一性目标，交付为上下文管理功能，承诺可验证，风险低。
     evidence_ids:
-    - ev-304a3ffbe7f44d3c
-  next_validation: 查找 pi-posthorse 的官方文档或用户反馈，确认其与 Pi 代理的集成方式和对长任务性能的实际影响。
+    - ev-3e42af290db1a5db
+  next_validation: 查看项目文档或 issue，确认无摘要上下文窗口的具体实现机制和实际效果。
   market: ''
-  job: 开发者需要让 AI 编码代理在长会话中保持上下文，避免重复或遗忘。
-  job_en: Developers need AI coding agents to maintain context in long sessions, avoiding repetition or
-    forgetfulness.
-  pain: 代理在长任务中常因上下文窗口限制而丢失早期信息，导致输出不一致或错误。
-  pain_en: Agents often lose early information due to context window limits in long tasks, causing inconsistent
-    or erroneous outputs.
-  current_alternative: 目前开发者通常手动总结上下文或分割任务，但繁琐且易出错。
-  current_alternative_en: Currently developers often manually summarize context or split tasks, which
-    is cumbersome and error-prone.
-  usage_reason: 无摘要上下文窗口减少手动干预，提升代理在长任务中的可靠性，吸引开发者采用。
-  usage_reason_en: No-summary context windows reduce manual intervention and improve agent reliability
-    in long tasks, attracting developers.
+  job: 开发者使用 AI 编程代理处理复杂任务时，需要代理在长会话中保持上下文一致性，避免重复或错误。
+  job_en: Developers using AI coding agents for complex tasks need the agent to maintain context consistency
+    across long sessions to avoid repetition or errors.
+  pain: 现有代理在长会话中会丢失早期上下文，导致任务中断或需要手动重新提供信息。
+  pain_en: Current agents lose early context in long sessions, causing interruptions or requiring manual
+    re-provisioning of information.
+  current_alternative: 开发者通常手动总结上下文或分段任务，或使用代理的摘要功能，但可能丢失细节。
+  current_alternative_en: Developers often manually summarize context or break tasks into segments, or
+    use the agent's summary feature, but details may be lost.
+  usage_reason: 无摘要上下文窗口和持久笔记可能减少上下文丢失，提升代理在复杂任务中的可靠性，对重度用户有吸引力。
+  usage_reason_en: No-summary context windows and durable notes may reduce context loss, improving reliability
+    in complex tasks, appealing to heavy users.

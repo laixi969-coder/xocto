@@ -3,9 +3,10 @@ slug: best-travel-insurance-companies-for-2026
 name: Best Travel Insurance Companies For 2026
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Forbes公布2026年最佳旅行保险公司榜单，反映行业竞争与主要品牌。
 inspiration: ''
-summary_en: ''
+summary_en: Forbes releases the 2026 Best Travel Insurance Companies list, reflecting industry competition
+  and major brands.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTFAzWHJQYUJ6RGVL
 summary: Best Travel Insurance Companies For 2026 Forbes
 first_seen: '2026-09-03T15:57:00Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

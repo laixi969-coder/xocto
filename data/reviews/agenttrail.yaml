@@ -377,3 +377,40 @@
   usage_reason: 公开代码仓库有 284 个收藏、17 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 284 stars and 17 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-agenttrail-2026-09-06
+  project_slug: agenttrail
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码代理不透明、难以审查的问题，替代手动日志检查，价值结构成立。
+    evidence_ids:
+    - ev-4ddc0db7608695cb
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数显示关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-4ddc0db7608695cb
+  - gate: model
+    status: insufficient
+    reason: 付费路径未公开，可能面向 to B 开发工具预算，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发工作的第一性目标，交付可确定。
+    evidence_ids:
+    - ev-4ddc0db7608695cb
+  next_validation: 官方定价页或客户案例。
+  market: ''
+  job: 开发团队需要监控 AI 编码代理的活动以确保代码质量和协作。
+  job_en: Development teams need to monitor AI coding agent activities to ensure code quality and collaboration.
+  pain: AI 代理执行不透明，难以追踪和审查。
+  pain_en: AI agent execution is opaque, making tracking and review difficult.
+  current_alternative: 目前开发者可能依赖代理的日志或手动检查。
+  current_alternative_en: Currently developers may rely on agent logs or manual inspection.
+  usage_reason: 开源项目获得 650 星，表明开发者强烈关注，但付费采用未验证。
+  usage_reason_en: The open-source project has 650 stars, indicating strong developer interest, but paid
+    adoption is unverified.

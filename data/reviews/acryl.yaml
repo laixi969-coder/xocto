@@ -140,3 +140,46 @@
   usage_reason: 开源项目，220 星，可能吸引尝试多代理协作的开发者，但采用证据有限。
   usage_reason_en: Open-source with 220 stars, may attract developers experimenting with multi-agent collaboration,
     but adoption evidence is limited.
+- id: req-full-acryl-2026-09-07
+  project_slug: acryl
+  level: full
+  reviewed_at: '2026-09-06T16:13:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者使用多个编码代理时上下文重复加载、状态不一致的痛点。公开材料描述持久工作区和统一上下文，可还原输入（多代理会话）、动作（共享上下文）、交付（跨代理状态同步）。不解决的代价是效率降低和错误增加，属于工作流结构推理。
+    evidence_ids:
+    - ev-6f759fc3c23437be
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数从 218 增至 237，显示关注增长，但无用户讨论、issue 或采用数据，共识尚未建立。
+    evidence_ids:
+    - ev-6f759fc3c23437be
+    - ev-254cf6bf991f6ad0
+    - ev-9d115e2f2d573edd
+  - gate: model
+    status: insufficient
+    reason: 公开材料未显示定价、付费主体或商业模式，可能面向开发者工具市场，但这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6f759fc3c23437be
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、上下文同步的准确性和安全性尚无公开可复现证据，需进一步核验。
+    evidence_ids:
+    - ev-6f759fc3c23437be
+  next_validation: 追踪仓库的 issue 和 discussion，寻找真实使用场景、用户反馈和部署案例。
+  market: ''
+  job: 为使用多个编码代理的开发者提供一个持久工作区和统一上下文，使不同代理能共享状态和上下文，避免重复初始化。
+  job_en: Provide developers using multiple coding agents with a persistent workspace and canonical context,
+    enabling agents to share state and context without repeated initialization.
+  pain: 编码代理每次会话需重新加载上下文，导致效率低下和上下文不一致；多代理协作时缺乏统一状态管理。
+  pain_en: Coding agents reload context each session, causing inefficiency and inconsistency; multi-agent
+    collaboration lacks unified state management.
+  current_alternative: 开发者可能手动管理上下文、使用单一代理，或依赖各代理自带的会话记忆，缺乏跨代理的持久化方案。
+  current_alternative_en: Developers may manually manage context, use a single agent, or rely on each
+    agent's built-in session memory, lacking a cross-agent persistent solution.
+  usage_reason: 开源项目在数日内从 218 星增长至 237 星，显示开发者关注和试用；但付费与持续采用尚未核验。
+  usage_reason_en: The open-source project grew from 218 to 237 stars within days, showing developer attention
+    and trial; payment and sustained adoption are not yet verified.

@@ -159,3 +159,40 @@
   usage_reason: 开源社区星数从 391 增长到 1,773，显示开发者社区关注，但尚未核验实际采用和付费情况。
   usage_reason_en: Stars grew from 391 to 1,773, showing developer interest, but actual adoption and payment
     are not yet verified.
+- id: req-initial-codex-with-chatgpt-2026-09-06
+  project_slug: codex-with-chatgpt
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：开发者需要更好的 AI 编程规划与执行，但具体痛点强度不明。
+    evidence_ids:
+    - ev-9b16450c4b18e75e
+  - gate: consensus
+    status: insufficient
+    reason: 星数 2550，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-9b16450c4b18e75e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看项目 issue 或讨论，寻找用户实际使用案例和效果反馈。
+  market: ''
+  job: 开发者希望在 AI 编程中同时获得强大的规划和执行能力。
+  job_en: Developers want both strong planning and execution capabilities in AI coding.
+  pain: 单一 AI 工具可能规划或执行能力不足，导致复杂任务失败。
+  pain_en: A single AI tool may lack sufficient planning or execution, causing complex tasks to fail.
+  current_alternative: 开发者可能手动切换不同工具或使用单一工具的限制模式。
+  current_alternative_en: Developers may manually switch between tools or use limited modes of a single
+    tool.
+  usage_reason: 项目提供了一种组合方案，可能吸引希望提升 AI 编程效果的开发者。
+  usage_reason_en: The project offers a combination approach, potentially attracting developers seeking
+    to improve AI coding.

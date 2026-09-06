@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE9BR1VxOU00ekx2
 summary: BB新体育在线登录发布智能体生态平台，赋能全场景数字化转型-体坛网_体坛+ 体坛
 first_seen: '2026-09-06T10:53:21Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

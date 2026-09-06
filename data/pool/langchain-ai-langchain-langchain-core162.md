@@ -1,11 +1,12 @@
 ---
 slug: langchain-ai-langchain-langchain-core162
-name: 'langchain-ai/langchain: langchain-core==1.6.2'
+name: LangChain
 builder: langchain-ai
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -34,7 +35,7 @@ summary: 'Changes since langchain-core==1.6.1
   fix(core): avoid mutation in bedrock converse standard content (#40022)'
 first_seen: '2026-09-04T21:29:42Z'
 last_seen: '2026-09-06T15:36:27Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -46,7 +47,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.2
+# LangChain
 
 Changes since langchain-core==1.6.1
 

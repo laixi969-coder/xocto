@@ -1,0 +1,39 @@
+- id: req-initial-ramanujan-2026-09-06
+  project_slug: ramanujan
+  level: initial
+  reviewed_at: '2026-09-06T15:36:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：面向计算数学研究者的验证与探索需求，痛点在于手工推导耗时易错。但具体工作流和交付格式未披露，价值结构不完整。
+    evidence_ids:
+    - ev-1471f3bb06aa34b3
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，缺乏用户反馈或采用证据，无法判断是否有人持续使用。
+    evidence_ids:
+    - ev-1471f3bb06aa34b3
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式未披露，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法核验交付的确定性和安全性。
+    evidence_ids: []
+  next_validation: 官方文档或仓库 README 中关于具体工作流、输入输出格式及验证机制的说明。
+  market: ''
+  job: 计算数学研究者需要验证猜想、探索数学结构或生成可复现的推导过程。
+  job_en: Computational mathematics researchers need to verify conjectures, explore mathematical structures,
+    or generate reproducible derivations.
+  pain: 传统上依赖个人推导和手工检查，耗时且容易出错，缺乏系统化验证工具。
+  pain_en: Traditionally relies on individual derivation and manual checking, which is time-consuming
+    and error-prone, lacking systematic verification tools.
+  current_alternative: 研究者使用计算机代数系统（如 Mathematica、SageMath）或自行编写脚本进行验证。
+  current_alternative_en: Researchers use computer algebra systems (e.g., Mathematica, SageMath) or write
+    custom scripts for verification.
+  usage_reason: 多模型协作可能提供更全面的探索，但具体工作流和交付是否优于现有工具尚不明确。
+  usage_reason_en: Multi-model collaboration may offer broader exploration, but whether the specific workflow
+    and deliverables outperform existing tools is unclear.

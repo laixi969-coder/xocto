@@ -1,0 +1,46 @@
+- id: req-change-acryl-2026-09-07
+  project_slug: acryl
+  event_type: req_change
+  occurred_at: '2026-09-06T16:13:51Z'
+  discovered_at: '2026-09-06T16:13:51Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：仓库星数从 218 增至 237，显示关注增长，但无用户讨论、issue 或采用数据，共识尚未建立。
+  summary_en: ''
+  evidence_ids:
+  - ev-6f759fc3c23437be
+  - ev-6f759fc3c23437be
+  - ev-254cf6bf991f6ad0
+  - ev-9d115e2f2d573edd
+  - ev-6f759fc3c23437be
+  - ev-6f759fc3c23437be
+  homepage: true
+- id: req-change-agent-vision-toolkit-2026-09-07
+  project_slug: agent-vision-toolkit
+  event_type: req_change
+  occurred_at: '2026-09-06T16:13:48Z'
+  discovered_at: '2026-09-06T16:13:48Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“需求信号明确”；当前停在模式闸门：付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+  summary_en: ''
+  evidence_ids:
+  - ev-5a658f7923a17c37
+  - ev-77941e9e56dd339f
+  - ev-77941e9e56dd339f
+  - ev-88724eeb7f8d2e9a
+  homepage: true
+- id: req-change-agentic-product-demo-2026-09-07
+  project_slug: agentic-product-demo
+  event_type: req_change
+  occurred_at: '2026-09-06T16:16:04Z'
+  discovered_at: '2026-09-06T16:16:04Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：开源星数显示关注，但缺乏持续采用证据。
+  summary_en: ''
+  evidence_ids:
+  - ev-95eb7b33745fe046
+  - ev-95eb7b33745fe046
+  - ev-95eb7b33745fe046
+  homepage: true

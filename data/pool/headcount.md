@@ -22,7 +22,7 @@ summary: An agent organization for Claude Code, structured as a company — 15+ 
   each independently installable.
 first_seen: '2026-08-28T18:03:04Z'
 last_seen: '2026-09-06T15:36:27Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

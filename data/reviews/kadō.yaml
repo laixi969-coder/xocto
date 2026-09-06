@@ -1,0 +1,37 @@
+- id: req-initial-kadō-2026-09-06
+  project_slug: kadō
+  level: initial
+  reviewed_at: '2026-09-06T15:36:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决习惯追踪中二元记录无法反映渐进变化的问题，痛点真实。
+    evidence_ids:
+    - ev-b343f496d8ce117d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低，缺乏持续采用证据。
+    evidence_ids:
+    - ev-b343f496d8ce117d
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无付费路径，买方可能是个人用户但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近习惯养成的第一性目标，交付可确定。
+    evidence_ids:
+    - ev-b343f496d8ce117d
+  next_validation: 查找应用商店页面或用户评价，确认实际使用和留存。
+  market: ''
+  job: 用户需要追踪和改善个人习惯，如锻炼、阅读等。
+  job_en: Users need to track and improve personal habits like exercise, reading, etc.
+  pain: 传统打卡应用过于二元，无法反映习惯的渐进变化，容易挫败。
+  pain_en: Traditional check-in apps are too binary, failing to reflect gradual habit changes and causing
+    frustration.
+  current_alternative: 使用纸质日记、电子表格或现有习惯应用。
+  current_alternative_en: Using paper journals, spreadsheets, or existing habit apps.
+  usage_reason: 非二元评分可能提供更细腻的反馈，但采用证据有限。
+  usage_reason_en: Non-binary scoring may offer finer feedback, but adoption evidence is limited.

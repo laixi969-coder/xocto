@@ -379,3 +379,41 @@
   usage_reason: 公开代码仓库有 250 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 250 stars and 12 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-monocode-2026-09-06
+  project_slug: monocode
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码代理操作不直观、监控困难的问题；痛点存在，交付可确定。
+    evidence_ids:
+    - ev-19134e27081fdbf2
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星数 630，但缺乏用户评价或采用证据，共识未明。
+    evidence_ids:
+    - ev-19134e27081fdbf2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，可能面向开发者工具市场，但商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发第一性目标，GUI 可确定交付，安全边界清晰。
+    evidence_ids:
+    - ev-19134e27081fdbf2
+  next_validation: 查找官方文档或用户讨论，确认实际使用场景和付费意愿。
+  market: ''
+  job: 开发者在终端或 IDE 中操作编码代理时，需要可视化界面来监控和控制任务。
+  job_en: Developers need a visual interface to monitor and control coding agents while working in terminal
+    or IDE.
+  pain: 终端操作不直观，难以监控代理行为，调试困难。
+  pain_en: Terminal operation is not intuitive, making it hard to monitor agent behavior and debug.
+  current_alternative: 目前直接使用终端命令或 IDE 插件，缺乏统一 GUI。
+  current_alternative_en: Currently uses terminal commands or IDE plugins directly, lacking a unified
+    GUI.
+  usage_reason: GUI 降低使用门槛，可能吸引非终端偏好用户。
+  usage_reason_en: GUI lowers the barrier, potentially attracting users who prefer non-terminal interfaces.

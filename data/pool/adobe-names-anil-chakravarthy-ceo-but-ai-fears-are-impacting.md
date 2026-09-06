@@ -1,11 +1,13 @@
 ---
 slug: adobe-names-anil-chakravarthy-ceo-but-ai-fears-are-impacting
-name: Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock
+name: Adobe
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Adobe 是创意软件巨头，其产品如 Photoshop 和 Premiere 被设计师和视频编辑用于日常创作。此次事件是公司领导层变动及市场情绪变化，不涉及具体产品功能更新。
 inspiration: ''
-summary_en: ''
+summary_en: Adobe is a creative software giant whose products like Photoshop and Premiere are used by
+  designers and video editors daily. This event concerns leadership change and market sentiment, not product
+  updates.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTFBlR2RNaTQwWUFi
 summary: Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock BeInCrypto
 first_seen: '2026-09-04T03:00:00Z'
 last_seen: '2026-09-06T15:36:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock
+# Adobe
 
 Adobe Names Anil Chakravarthy CEO But AI Fears Are Impacting the Stock BeInCrypto
 

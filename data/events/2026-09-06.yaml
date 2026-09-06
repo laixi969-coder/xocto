@@ -84,8 +84,8 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: keepitfree 网站发布公告，宣布其 AI 服务关闭，并呼吁“保持人性”。
+  summary_en: keepitfree website announced the shutdown of its AI service, urging to 'stay human'.
   evidence_ids:
   - ev-e438dbf96de746fb
   homepage: true
@@ -123,8 +123,8 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 美国最大的两个学区宣布暂停使用AI。
+  summary_en: America's two largest school districts announced a moratorium on AI use.
   evidence_ids:
   - ev-1aac43ad079ecbb2
   homepage: true
@@ -162,8 +162,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 本次新增事实：Isar Aerospace 的火箭在第二次飞行中成功进入轨道并部署有效载荷。
+  summary_en: 'New fact in this event: Isar Aerospace''s rocket reached orbit and deployed payloads on
+    its second flight.'
   evidence_ids:
   - ev-a57d485065fc076b
   homepage: true
@@ -343,8 +344,13 @@
   - update
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 为 AI 编程代理提供 Git 原生持久记忆的开源工具，实现 Google OKF v0.2 规范，内置 MCP 服务器和渐进式披露，内存中 BM25 搜索延迟低于 300 微秒，声称减少
+    80% 的 token 消耗，无需外部数据库。开发者将其集成到 AI 编码工作流中，代理可跨会话记忆项目上下文，最终减少重复输入和 token 费用。
+  summary_en: An open-source tool providing Git-native persistent memory for AI coding agents, implementing
+    Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure.
+    It claims to slash token bloat by 80% with zero external databases. Developers integrate it into AI
+    coding workflows, allowing agents to remember project context across sessions, reducing redundant
+    input and token costs.
   evidence_ids:
   - ev-72fa37d84a643046
   homepage: true
@@ -637,8 +643,8 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 发布了一个研究项目，展示了代理如何发现可执行的世界表示。
+  summary_en: Released a research project demonstrating how agents can discover executable world representations.
   evidence_ids:
   - ev-2c9e304d8148d2ef
   homepage: true
@@ -1295,8 +1301,9 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Anthropic 开源了一个名为 fermats-last-theorem 的仓库，获得 792 星，但具体内容未披露。
+  summary_en: Anthropic open-sourced a repository named fermats-last-theorem, which has gained 792 stars,
+    but specific contents are undisclosed.
   evidence_ids:
   - ev-a896fdddff79bb3d
   homepage: true
@@ -1322,8 +1329,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: LangChain 发布 langchain-core 1.6.2 版本，主要更新包括支持 OpenAI 异步工具、修复 Google GenAI 和 Bedrock 内容处理中的变异问题，以及依赖项更新。
+  summary_en: LangChain released langchain-core 1.6.2, featuring support for OpenAI async tools, fixes
+    for mutation issues in Google GenAI and Bedrock content, and dependency updates.
   evidence_ids:
   - ev-80f9bf385333967c
   homepage: true
@@ -1347,8 +1355,9 @@
   discovered_at: '2026-09-06T15:36:49Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 文章报道了机器人初创公司为获取数据而采取的多种创新策略。
+  summary_en: The article reports on various innovative strategies robot startups are using to acquire
+    data.
   evidence_ids:
   - ev-3f13a70aca3221a4
   homepage: true
@@ -1371,8 +1380,9 @@
   discovered_at: '2026-09-06T15:36:49Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Terence Eden引用Interisle报告指出，2025年新注册的gTLD域名中约有10-20%是诈骗。
+  summary_en: Terence Eden cites an Interisle report stating that about 10-20% of newly registered gTLD
+    domains in 2025 are scams.
   evidence_ids:
   - ev-825d8167896b0ea3
   homepage: true
@@ -1395,8 +1405,9 @@
   discovered_at: '2026-09-06T15:36:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Cradlewise 融资 1200 万美元，其 AI 婴儿床的数据收集引发印度 DPDP 隐私法规质疑。
+  summary_en: Cradlewise raises $12M; its AI crib data collection raises DPDP privacy law questions in
+    India.
   evidence_ids:
   - ev-56a705b3d7240699
   homepage: true
@@ -1407,8 +1418,8 @@
   discovered_at: '2026-09-06T15:36:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Canva因AI成本将IPO推迟至2027年。
+  summary_en: Canva delays its IPO to 2027 due to AI costs.
   evidence_ids:
   - ev-795cdf729ac82073
   homepage: true
@@ -1419,8 +1430,8 @@
   discovered_at: '2026-09-06T15:36:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Adobe 任命 Anil Chakravarthy 为 CEO，但市场对 AI 影响的担忧导致股价承压。
+  summary_en: Adobe appoints Anil Chakravarthy as CEO, but stock pressure from AI-related fears.
   evidence_ids:
   - ev-d7ef9e5dcf800822
   homepage: true
@@ -1443,8 +1454,9 @@
   discovered_at: '2026-09-06T15:36:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 本次新增事实：HP 与 UpSkill Universe 联合为 55,000 家中小企业推出免费 AI 培训项目。
+  summary_en: 'New fact in this event: HP and UpSkill Universe jointly launched a free AI training program
+    for 55,000 SMEs.'
   evidence_ids:
   - ev-5c822b7d5cbcb6ec
   homepage: true
@@ -1467,8 +1479,9 @@
   discovered_at: '2026-09-06T15:36:57Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI 智能体在多个场景正式投入应用"上岗"，为创新创业注入新动能。
+  summary_en: AI agents have gone live across multiple application scenarios, injecting new momentum into
+    innovation and entrepreneurship.
   evidence_ids:
   - ev-f6563bdd6f17cbbc
   homepage: true

@@ -71,3 +71,41 @@
   usage_reason: 开源社区星标增长显示开发者关注，但采用证据不足。
   usage_reason_en: Open-source community star growth shows developer interest, but adoption evidence is
     insufficient.
+- id: req-initial-china-travel-kit-2026-09-06
+  project_slug: china-travel-kit
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：提供结构化入境旅游数据，但具体痛点强度不明。
+    evidence_ids:
+    - ev-dedee2ec240c4e8b
+  - gate: consensus
+    status: insufficient
+    reason: 星数 131，但缺乏采用证据。
+    evidence_ids:
+    - ev-dedee2ec240c4e8b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看项目文档或示例，确认数据来源和实际应用案例。
+  market: ''
+  job: 开发者或旅游服务商需要获取中国入境旅游数据以构建应用或提供服务。
+  job_en: Developers or travel service providers need China inbound travel data to build applications
+    or offer services.
+  pain: 获取准确、结构化的入境旅游数据可能困难，现有数据源分散或不易集成。
+  pain_en: Obtaining accurate, structured inbound travel data may be difficult; existing sources are fragmented
+    or hard to integrate.
+  current_alternative: 可能手动收集数据或使用不完整的公开统计。
+  current_alternative_en: May manually collect data or use incomplete public statistics.
+  usage_reason: 项目提供了一种便捷的数据访问方式，可能吸引需要此类数据的开发者。
+  usage_reason_en: The project offers convenient data access, potentially attracting developers needing
+    such data.

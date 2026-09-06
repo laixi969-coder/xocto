@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxOdE1iOHUycTQ4
 summary: Korea, India outline healthcare AI strategies healthcareitnews.com
 first_seen: '2026-09-04T01:23:18Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

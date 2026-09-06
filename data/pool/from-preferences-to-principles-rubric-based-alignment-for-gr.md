@@ -27,7 +27,7 @@ summary: Designing effective reward signals for open-domain question answering i
   grounding, and instruction-following), our approach improves over the…
 first_seen: '2026-08-27T00:00:00Z'
 last_seen: '2026-09-06T15:36:24Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 - hackernews

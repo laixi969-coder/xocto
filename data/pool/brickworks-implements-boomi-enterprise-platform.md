@@ -1,11 +1,13 @@
 ---
 slug: brickworks-implements-boomi-enterprise-platform
-name: Brickworks implements Boomi Enterprise Platform
+name: Boomi
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Boomi 提供集成平台即服务，帮助企业连接不同应用和数据。此次是客户采用案例，表明企业级 iPaaS 需求持续，但 Boomi 本身是成熟产品，非新机会。
 inspiration: ''
-summary_en: ''
+summary_en: Boomi offers an integration platform as a service to connect applications and data. This is
+  a customer adoption case, indicating sustained enterprise iPaaS demand, but Boomi is mature, not a new
+  opportunity.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPQnEzc3FSVHNB
 summary: Brickworks implements Boomi Enterprise Platform Architecture & Design
 first_seen: '2026-09-06T08:42:57Z'
 last_seen: '2026-09-06T15:20:04Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Brickworks implements Boomi Enterprise Platform
+# Boomi
 
 Brickworks implements Boomi Enterprise Platform Architecture & Design
 

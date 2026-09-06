@@ -70,3 +70,41 @@
   usage_reason: 代码托管平台 230 星表明开源社区关注，但实际采用和付费未核验。
   usage_reason_en: 230 stars on a code hosting platform indicate open-source community interest, but actual
     adoption and monetization are unverified.
+- id: req-initial-oh-story-dsh-2026-09-06
+  project_slug: oh-story-dsh
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决短剧编剧和小说作者在高压下快速产出内容的需求，价值结构成立。
+    evidence_ids:
+    - ev-60fd2a333cfc755c
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星标 306 显示一定关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-60fd2a333cfc755c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是创作者或制作公司，但无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 输出质量和对创作流程的实际影响未经验证。
+    evidence_ids: []
+  next_validation: 查找该插件的用户反馈或案例，或官方定价页。
+  market: ''
+  job: 快速生成小说或短剧的剧情、对白和分镜，提高创作效率。
+  job_en: Quickly generate plots, dialogues, and storyboards for novels or short dramas to improve writing
+    efficiency.
+  pain: 短剧制作周期短、需求量大，编剧面临时间压力。
+  pain_en: Short-drama production cycles are tight and demand is high, putting time pressure on screenwriters.
+  current_alternative: 目前编剧依赖传统写作软件或通用 AI 聊天工具，缺乏针对短剧结构的支持。
+  current_alternative_en: Currently screenwriters rely on traditional writing software or generic AI chat
+    tools, lacking support for short-drama structure.
+  usage_reason: 该插件针对短剧和小说工作流，可能提供更符合需求的输出。
+  usage_reason_en: This plugin targets short-drama and novel workflows, potentially offering more relevant
+    outputs.

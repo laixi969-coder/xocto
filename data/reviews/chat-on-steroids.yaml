@@ -150,3 +150,40 @@
   usage_reason: 开源项目获得 508 星，说明开发者对扩展 ChatGPT 本地能力有需求。
   usage_reason_en: The open-source project has 508 stars, indicating developer demand for extending ChatGPT's
     local capabilities.
+- id: req-initial-chat-on-steroids-2026-09-06
+  project_slug: chat-on-steroids
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：开发者需要本地工具集成和持久任务管理，但具体场景和交付不明确。
+    evidence_ids:
+    - ev-7fdb07b3d61972f8
+  - gate: consensus
+    status: insufficient
+    reason: 有 740 星，但缺乏持续采用或用户反馈证据。
+    evidence_ids:
+    - ev-7fdb07b3d61972f8
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查看项目 README 或 issue 中是否有具体使用案例和用户反馈。
+  market: ''
+  job: 开发者希望在 ChatGPT 中执行本地工具操作并管理长期任务。
+  job_en: Developers want to execute local tool operations and manage long-running tasks within ChatGPT.
+  pain: ChatGPT 本身缺乏本地工具集成和持久任务管理，多步骤工作流容易中断。
+  pain_en: ChatGPT lacks native local tool integration and persistent task management, causing multi-step
+    workflows to break.
+  current_alternative: 开发者可能使用独立的 MCP 客户端或手动复制粘贴结果。
+  current_alternative_en: Developers may use standalone MCP clients or manually copy-paste results.
+  usage_reason: 项目提供了一种将 ChatGPT 与本地工具结合的方式，可能吸引希望扩展 ChatGPT 功能的开发者。
+  usage_reason_en: The project offers a way to combine ChatGPT with local tools, potentially attracting
+    developers who want to extend ChatGPT's capabilities.

@@ -1,0 +1,41 @@
+- id: req-initial-uisight-2026-09-06
+  project_slug: uisight
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 UI 质量量化测量的痛点，提供实时测量和报告，价值结构成立。
+    evidence_ids:
+    - ev-d40b2a3369aa3c8d
+  - gate: consensus
+    status: insufficient
+    reason: 相关仓库有不同星数，但缺乏用户评价或采用证据，共识不明确。
+    evidence_ids:
+    - ev-d40b2a3369aa3c8d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式未明确，可能通过托管服务或企业支持盈利。
+    evidence_ids:
+    - ev-d40b2a3369aa3c8d
+  - gate: truth
+    status: supported
+    reason: 工具贴近实际工作，测量引擎可确定性交付结果，但需验证准确性。
+    evidence_ids:
+    - ev-d40b2a3369aa3c8d
+  next_validation: 查看 npm 包页面或相关仓库的文档，寻找实际使用案例或用户反馈。
+  market: ''
+  job: 开发者和设计人员需要量化 UI 质量，确保界面符合可访问性和设计规范。
+  job_en: Developers and designers need to quantify UI quality to ensure interfaces meet accessibility
+    and design standards.
+  pain: 手动检查 UI 对比度、触摸目标等耗时且容易遗漏，AI 代理无法自动测量。
+  pain_en: Manually checking UI contrast, touch targets, etc. is time-consuming and error-prone, and AI
+    agents cannot measure automatically.
+  current_alternative: 目前可能使用 Lighthouse 等工具进行部分检查，但缺乏实时会话和代理共享的测量能力。
+  current_alternative_en: Currently tools like Lighthouse may be used for partial checks, but lack real-time
+    session and agent-shared measurement capabilities.
+  usage_reason: 该工具提供实时测量和文本报告，能自动化 UI 审计，节省人工时间并提高准确性。
+  usage_reason_en: The tool provides real-time measurement and text reports, automating UI audits, saving
+    manual time and improving accuracy.

@@ -22,7 +22,7 @@ summary: 'Agentic AI’s Advantage for Health Insurers: Faster Decisions, Lower 
   Consulting Group'
 first_seen: '2026-09-04T09:50:15Z'
 last_seen: '2026-09-06T15:06:13Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

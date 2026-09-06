@@ -22,7 +22,7 @@ summary: Matt Pocock 技能面板（DSH Deck）：安装即自带 25 个工程�
   等），右侧面板直接调用，无需手动装技能。当前主力支持 GitHub issue；Markdown 本地文件为预览版；GitLab 暂不在支持范围。希望它能帮你把想法更快变成现实。
 first_seen: '2026-08-17T00:23:57Z'
 last_seen: '2026-09-06T15:36:27Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

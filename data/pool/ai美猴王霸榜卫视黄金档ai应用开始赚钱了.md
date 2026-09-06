@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOZW5zTUtqQTcz
 summary: AI美猴王霸榜卫视黄金档，AI应用开始赚钱了！ 新浪财经
 first_seen: '2026-09-06T11:34:02Z'
 last_seen: '2026-09-06T15:36:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

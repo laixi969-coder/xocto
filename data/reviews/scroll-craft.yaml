@@ -1,45 +1,39 @@
 - id: req-initial-scroll-craft-2026-09-06
   project_slug: scroll-craft
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
-  verdict: true_demand
-  signal_level: 需求信号明确
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 它解决开发者构建滚动驱动网站的痛点：手工编码复杂耗时，该技能可自动化生成，交付可确定。
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：开发者需要快速构建沉浸式滚动网站，痛点在于手动编码耗时。但具体工作流和交付不清晰，价值结构不完整。
     evidence_ids:
-    - ev-09c74b7a8b72a51f
+    - ev-206b8490521d3614
   - gate: consensus
-    status: supported
-    reason: 开源仓库星数从 1,727 增至 2,018，显示开发者关注和采用。
+    status: insufficient
+    reason: 开源项目有 2051 星，但缺乏用户反馈或采用证据，无法判断是否有人持续使用。
     evidence_ids:
-    - ev-09c74b7a8b72a51f
-    - ev-83939a032eccbfc8
-    - ev-cbea04e28d58a691
-    - ev-7a4a60904066f07a
-    - ev-03b0e4a0b7e7779d
-    - ev-7a37eb9df1ce236c
-    - ev-c1e3eceab0a6d880
-    - ev-ec77be5335d53b4c
+    - ev-206b8490521d3614
   - gate: model
     status: insufficient
-    reason: 开源项目，商业模式未明，可能通过插件或服务收费，但无公开定价。
+    reason: 未进入：价值不成立。商业模式未披露，买方不明确。
     evidence_ids: []
   - gate: truth
-    status: supported
-    reason: 贴近开发者的第一性目标：快速交付高质量网站，承诺可通过代码生成实现。
-    evidence_ids:
-    - ev-09c74b7a8b72a51f
-  next_validation: 官方文档或定价页是否提供商业版本或服务。
+    status: insufficient
+    reason: 未进入：价值不成立。无法核验生成网站的质量和兼容性。
+    evidence_ids: []
+  next_validation: 官方文档或仓库中关于技能的工作方式、支持的平台和实际生成效果的示例。
   market: ''
-  job: 开发者需要快速构建高级、沉浸式滚动驱动网站，而传统编码繁琐。
-  job_en: Developers need to quickly build premium, immersive scroll-driven websites, while traditional
-    coding is tedious.
-  pain: 手工编写滚动动画和交互代码耗时且复杂。
-  pain_en: Hand-coding scroll animations and interactions is time-consuming and complex.
-  current_alternative: 使用现成模板或手动编写 JavaScript/CSS 动画。
-  current_alternative_en: Using pre-made templates or manually writing JavaScript/CSS animations.
-  usage_reason: 开源且星数快速增长，表明开发者认可其价值并愿意尝试。
-  usage_reason_en: Open source with rapid star growth indicates developer recognition and willingness
-    to try.
+  job: 前端开发者和设计师需要快速构建沉浸式滚动网站，以提升品牌展示效果。
+  job_en: Frontend developers and designers need to quickly build immersive scroll-driven websites to
+    enhance brand presentation.
+  pain: 传统上手动编写复杂的滚动动画和交互，耗时且需要专业技能。
+  pain_en: Traditionally, manually coding complex scroll animations and interactions is time-consuming
+    and requires specialized skills.
+  current_alternative: 开发者使用 Webflow、Framer 等可视化工具或手动编写 JavaScript 动画库。
+  current_alternative_en: Developers use visual tools like Webflow, Framer, or manually code with JavaScript
+    animation libraries.
+  usage_reason: AI 生成滚动网站可能降低门槛，但具体工作流和输出质量未验证，采用证据不足。
+  usage_reason_en: AI-generated scroll websites may lower the barrier, but specific workflow and output
+    quality are unverified, with insufficient adoption evidence.

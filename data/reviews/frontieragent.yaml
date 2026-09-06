@@ -308,3 +308,43 @@
   usage_reason: 公开代码仓库有 1,328 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,328 stars, showing developer attention; repeat use and
     payment are not yet verified.
+- id: req-initial-frontieragent-2026-09-06
+  project_slug: frontieragent
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：开发者需要快速搭建 agent 的痛点，提供一键安装和多种模式，价值结构成立。
+    evidence_ids:
+    - ev-54c951fca50daa21
+  - gate: consensus
+    status: supported
+    reason: 公开代码仓库 星数 1858，社区关注度高，表明有开发者感兴趣。
+    evidence_ids:
+    - ev-54c951fca50daa21
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式不明确，可能通过支持或云服务变现，但未披露。
+    evidence_ids:
+    - ev-54c951fca50daa21
+  - gate: truth
+    status: supported
+    reason: 框架提供确定性交付，承诺一键安装和多种模式，可验证。
+    evidence_ids:
+    - ev-54c951fca50daa21
+  next_validation: 查看官方文档和定价页，确认是否有商业版本或托管服务。
+  market: ''
+  job: 开发者需要在终端中快速搭建和运行 AI agent 以自动化开发或运维任务。
+  job_en: Developers need to quickly set up and run AI agents in the terminal to automate development
+    or operations tasks.
+  pain: 现有 agent 框架配置复杂，依赖多，难以快速上手。
+  pain_en: Existing agent frameworks are complex to configure with many dependencies, making quick adoption
+    difficult.
+  current_alternative: 开发者可能使用 LangChain 等库自行搭建，或使用商业 agent 平台。
+  current_alternative_en: Developers may build with libraries like LangChain or use commercial agent platforms.
+  usage_reason: 开源框架提供一键安装和多种模式，可能吸引开发者试用，但付费意愿未验证。
+  usage_reason_en: The open-source framework offers one-command install and multiple modes, likely attracting
+    developer trials, but willingness to pay is unverified.

@@ -1,36 +1,36 @@
 - id: req-initial-jingyun-dsh-2026-09-06
   project_slug: jingyun-dsh
   level: initial
-  reviewed_at: '2026-09-06T08:35:59Z'
-  verdict: needs_validation
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: pseudo_demand
   signal_level: 需求存疑
   gates:
   - gate: value
-    status: insufficient
-    reason: 它解决什么需求、什么痛点尚不明确，公开资料未描述具体用户任务或旧流程。
+    status: challenged
+    reason: 无法写出它解决什么具体需求或痛点，描述过于笼统。
     evidence_ids:
-    - ev-a0b910b53824ba9d
+    - ev-ade34ef90bd82280
   - gate: consensus
     status: insufficient
-    reason: 仅有少量 公开代码仓库 stars，无用户评价或采用证据。
+    reason: 仅有少量星数，无用户反馈或采用证据。
     evidence_ids:
-    - ev-ef397d6b3555d14d
+    - ev-ade34ef90bd82280
   - gate: model
     status: insufficient
-    reason: 未进入：价值不成立，无法判断付费方。
+    reason: 未进入：价值不成立，买方和付费路径不明。
     evidence_ids: []
   - gate: truth
     status: insufficient
     reason: 未进入：价值不成立，无法判断交付确定性。
     evidence_ids: []
-  next_validation: 官方文档或 README 中关于具体功能、目标用户和定价的说明。
+  next_validation: 查找官方产品文档或演示，明确其具体工作流和交付物。
   market: ''
-  job: 开发者需要将 AI 能力整合到商业化应用中，但具体任务未明确。
-  job_en: Developers need to integrate AI capabilities into commercial applications, but the specific
-    task is unclear.
-  pain: 未知，因缺乏具体场景描述。
-  pain_en: Unknown due to lack of specific scenario description.
-  current_alternative: 未知，可能为手动集成多个 AI 服务。
-  current_alternative_en: Unknown, possibly manual integration of multiple AI services.
-  usage_reason: 开源项目获得少量关注，但不足以证明需求强度。
-  usage_reason_en: Open-source project gained some attention, but insufficient to prove demand strength.
+  job: 未明确用户要完成的任务，可能是希望用 AI 实现商业化的个人或企业。
+  job_en: The user task is unclear; possibly individuals or businesses seeking AI-driven commercialization.
+  pain: 未明确具体痛点，可能包括 AI 工具分散、难以落地到商业场景。
+  pain_en: Specific pain points are unclear, possibly including fragmented AI tools and difficulty applying
+    them to business scenarios.
+  current_alternative: 未知，可能使用多个独立 AI 工具或人工流程。
+  current_alternative_en: Unknown; possibly using multiple standalone AI tools or manual processes.
+  usage_reason: 信息不足，无法判断为何有人使用或关注。
+  usage_reason_en: Insufficient information to determine why anyone would use or follow it.

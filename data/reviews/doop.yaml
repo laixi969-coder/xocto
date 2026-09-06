@@ -456,3 +456,42 @@
   usage_reason: 仓库有540星，表明开发者关注；但持续使用和付费尚未核验。
   usage_reason_en: The repository has 540 stars, indicating developer interest; repeat use and payment
     are not yet verified.
+- id: req-initial-doop-2026-09-06
+  project_slug: doop
+  level: initial
+  reviewed_at: '2026-09-06T15:36:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师与 AI 代理在同一画布实时协作的需求，痛点在于 AI 无法直接操作设计文件，替代方案是外部生成再导入。
+    evidence_ids:
+    - ev-6a40525170e80d5d
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 610 星，但缺乏用户评价或采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-6a40525170e80d5d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确，可能是 to B 设计团队或 to C 开发者。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 代理实时协作的可靠性未验证，需进一步测试。
+    evidence_ids: []
+  next_validation: 官方定价页或客户案例
+  market: ''
+  job: 设计师和产品经理需要在一个共享画布上实时协作设计，并希望 AI 代理能直接参与编辑和修改。
+  job_en: Designers and product managers need to collaborate on a shared canvas in real time and want
+    AI agents to directly participate in editing and modification.
+  pain: 传统设计工具中 AI 只能作为外部建议，无法直接在画布上操作，导致来回切换和手动应用。
+  pain_en: In traditional design tools, AI can only act as an external advisor, unable to operate directly
+    on the canvas, causing back-and-forth switching and manual application.
+  current_alternative: 使用 Figma 等工具进行多人协作，AI 辅助通过插件或外部生成再导入。
+  current_alternative_en: Using tools like Figma for multiplayer collaboration, with AI assistance via
+    plugins or external generation then import.
+  usage_reason: 开源且内置 MCP，吸引开发者和设计工具爱好者尝试，可能因为其开放性和实时协作特性。
+  usage_reason_en: Open source with built-in MCP attracts developers and design tool enthusiasts, possibly
+    due to its openness and real-time collaboration features.
