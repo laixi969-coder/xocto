@@ -20,7 +20,7 @@ url: https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-q
 canonical_url: https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration
 summary: Frontier quality via multi-model orchestration
 first_seen: '2026-09-04T16:24:50Z'
-last_seen: '2026-09-05T13:28:21Z'
+last_seen: '2026-09-05T23:54:01Z'
 status: pending_filter
 sources:
 - hackernews
@@ -28,10 +28,10 @@ sources:
 sightings:
 - source: hackernews
   url: https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/
-  seen_at: '2026-09-05T13:28:21Z'
+  seen_at: '2026-09-05T23:54:01Z'
   metrics:
-    points: 69
-    comments: 31
+    points: 75
+    comments: 32
   kind: news
 - source: officialfeeds
   url: https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/

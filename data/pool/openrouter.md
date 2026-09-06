@@ -20,17 +20,17 @@ url: https://openrouter.ai/openai/gpt-6-astra
 canonical_url: https://openrouter.ai/openai/gpt-6-astra
 summary: GPT-6 Astra on OpenRouter
 first_seen: '2026-09-04T21:39:19Z'
-last_seen: '2026-09-05T13:28:21Z'
+last_seen: '2026-09-05T23:54:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://openrouter.ai/openai/gpt-6-astra
-  seen_at: '2026-09-05T13:28:21Z'
+  seen_at: '2026-09-05T23:54:01Z'
   metrics:
-    points: 252
-    comments: 160
+    points: 299
+    comments: 220
   kind: news
 ---
 

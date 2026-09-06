@@ -1237,3 +1237,45 @@
   fact: 'Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-snapshot
     binding, tamper-evident) plus versioned sealed reports with per-claim verification verdicts and a
     manifest-sealed directory. | repository stars: 58'
+- id: ev-5a73935b9d933139
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/ownmem
+  title: ownmem
+  published_at: '2026-08-16T12:45:36Z'
+  collected_at: '2026-09-05T23:54:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Open-source, Git-native memory for AI coding agents — deterministic local recall for Claude Code,
+    Codex, Cursor, Gemini CLI, and compatible tools. | repository stars: 257'
+- id: ev-277fd25952cb255f
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/uisight
+  title: uisight
+  published_at: '2026-08-17T20:37:41Z'
+  collected_at: '2026-09-05T23:54:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Your AI can already see the screen — it just can''t measure it. Live mobile+desktop sessions,
+    a measurement engine (contrast, touch targets, theme drift) reporting findings as text, and a panel
+    you and your agent share. MCP server for web/responsive UIs. | repository stars: 102'
+- id: ev-4ccb71f407e4497b
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/autoprompt-skill
+  title: autoprompt-skill
+  published_at: '2026-08-17T22:40:47Z'
+  collected_at: '2026-09-05T23:54:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. | repository
+    stars: 997'
+- id: ev-77a3779b38427fc9
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-maze
+  title: dsh-maze
+  published_at: '2026-08-18T14:54:36Z'
+  collected_at: '2026-09-05T23:54:04Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DeepSeek Harness 的执行迷宫——看 Agent 真实怎么干活：迷宫时间轴 · 数据轨道 · 确定性执行分析 · 多会话对比 | The execution maze for
+    DSH agents: maze timeline, per-step data tracks, deterministic execution analysis, multi-session comparison.
+    Formerly dsh-trace-compare. | repository stars: 66'

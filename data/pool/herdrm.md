@@ -33,16 +33,16 @@ url: https://github.com/missuo/herdrm
 canonical_url: https://github.com/missuo/herdrm
 summary: Native macOS console for herdr — all your coding agents and their live terminals, across devices
 first_seen: '2026-08-19T06:55:39Z'
-last_seen: '2026-09-05T13:28:25Z'
+last_seen: '2026-09-05T23:54:04Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/missuo/herdrm
-  seen_at: '2026-09-05T13:28:25Z'
+  seen_at: '2026-09-05T23:54:04Z'
   metrics:
-    stars: 657
+    stars: 659
     forks: 50
     open_issues: 12
   kind: product

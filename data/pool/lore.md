@@ -28,7 +28,7 @@ url: https://github.com/hsusul/lore
 canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
-last_seen: '2026-09-03T00:16:50Z'
+last_seen: '2026-09-05T23:54:29Z'
 status: pending_filter
 sources:
 - github
@@ -66,6 +66,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQVVhYUDlkUmFEN05lMWxpSGszaXVIaWJCeWg0eTdJdld2OU1UelRvOEV3QXpWdER0TXNEeHNDNFZDV1VoR3F1WnA3Ny1IQ09CcVBOT0drWkdzdjJ6YWxWX0xLWjFscmF2OXlwd3V3VE1xc1RJUWU1bmtHNmxEek5scDJXRE8wZVNwZ1lSS05zcnpVTzFFWE01MWVHNEwtendlUVlxMXpnSUI0LUdLMHMtQ0JyazFOcDUzWVBEelF1bUpNbkxNN1hTU01BUTNxV010Z2MyelpCbVFEMHppOFdkUXJNYlhrN2xQZlZtZl95V3NwbEtS0gH0AUFVX3lxTFBVWFhQOWRSYUQ3TmUxbGlIazNpdUhpYkJ5aDR5N0l2V3Y5TVR6VG84RXdBelZ0RHRNc0R4c0M0VkNXVWhHcXVacDc3LUhDT0JxUE5PR2taR3N2MnphbFZfTEtaMWxyYXY5eXB3dXdUTXFzVElRZTVua0c2bER6TmxwMldETzBlU3BnWVJLTnNyelVPMUVYTTUxZUc0TC16d2VRWXExemdJQjQtR0swcy1DQnJrMU5wNTNZUER6UXVtSk1uTE03WFNTTUFRM3FXTXRnYzJ6WkJtUUQwemk4V2RRck1iWGs3bFBmVm1mX3lXc3BsS1I?oc=5
   seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdXIwWlRrWFFES0JjMGNHdGVlT1pzSFhDY3F1bThVVmpvV2VRMUNDbFd4WGFRaUhfZ1VFMlZCNjVGNUttQVo1UkIzeUJCNHkydExSc1RvRjNfMmg4Nkl2a3hHSllfdXlxLWNBeGoyRXlVcUFLQm9sdW5FZ1Y0R2l5YW5YNk5KNUNwVWRURzlOYWRQckxPVUFOdnJtV3V0azRQWTduWEx0VjFQQTNwOFhKVG1qTHF3bS0zRE9WVmRDeUpIZ9IBxwFBVV95cUxQdWNORTRqeU85M0pSX1ktQ2RlNjM4Y0ZVcUcwX2tnRXRLa3VJZDFuWTZSMDRpNFJfbFBqU0dQdFRvLUFTOXAxbzgyMFV6cV85STNjM0dxSjF0VG40aF9wQUowblVXZU1DSTJEOC02bXk4cVdzenhSQ1NENFZHb3ExcWIxemFyMENRamFmUVZrR09VZEdoSHV6MzRETXVWbVpTZl9vcFdpMVk1d243c05EWFBpd3VTRWptRFpURy03M21SdF9zakpR?oc=5
+  seen_at: '2026-09-05T23:54:29Z'
   metrics: {}
   kind: news
 ---

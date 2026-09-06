@@ -22,10 +22,11 @@ canonical_url: https://pypi.org/project/trace-file-lineage
 summary: Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence
   and honest uncertainty.
 first_seen: '2026-07-29T22:05:47Z'
-last_seen: '2026-09-05T13:28:25Z'
+last_seen: '2026-09-05T23:54:01Z'
 status: rejected
 sources:
 - github
+- hackernews
 sightings:
 - source: github
   url: https://pypi.org/project/trace-file-lineage/
@@ -42,6 +43,13 @@ sightings:
     stars: 160
     forks: 16
     open_issues: 0
+  kind: product
+- source: hackernews
+  url: https://pypi.org/project/myjs/
+  seen_at: '2026-09-05T23:54:01Z'
+  metrics:
+    points: 7
+    comments: 0
   kind: product
 ---
 

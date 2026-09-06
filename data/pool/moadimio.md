@@ -20,17 +20,17 @@ url: https://moadim.io/
 canonical_url: https://moadim.io
 summary: A scheduler for agents
 first_seen: '2026-09-04T23:50:29Z'
-last_seen: '2026-09-05T13:28:21Z'
+last_seen: '2026-09-05T23:54:01Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://moadim.io/
-  seen_at: '2026-09-05T13:28:21Z'
+  seen_at: '2026-09-05T23:54:01Z'
   metrics:
-    points: 27
-    comments: 12
+    points: 32
+    comments: 15
   kind: product
 ---
 

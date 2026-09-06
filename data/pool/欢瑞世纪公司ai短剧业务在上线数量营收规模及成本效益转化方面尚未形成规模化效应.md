@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zeVp5OXBNMlVZcGFxeG4xeX
 canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zeVp5OXBNMlVZcGFxeG4xeXA3aGtNSVQ1cFE0TUlCT2M2YnA2VjkzbDUzeEEyNmtHM3g4eE1FTUdXTGxDRndDTUZrLVM2Z1JpYUpYYW41RmdSUmNuVUxiWVRZVkxVUQ?oc=5
 summary: 欢瑞世纪：公司AI短剧业务在上线数量、营收规模及成本效益转化方面尚未形成规模化效应 东方财富
 first_seen: '2026-09-04T10:41:53Z'
-last_seen: '2026-09-04T14:24:01Z'
+last_seen: '2026-09-05T23:54:29Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zeVp5OXBNMlVZcGFxeG4xeXA3aGtNSVQ1cFE0TUlCT2M2YnA2VjkzbDUzeEEyNmtHM3g4eE1FTUdXTGxDRndDTUZrLVM2Z1JpYUpYYW41RmdSUmNuVUxiWVRZVkxVUQ?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nc09LZ0ROaTVNLVZKMFhmZXYtbVBqbFB1WWpZd08waDZDNVBCNmUzVWZPYVpoNkxORkcyNFU5OWc0WVVUS2FxSFR5MjM3YUF4OUxzQl9najVUd0ctQnRzMw?oc=5
+  seen_at: '2026-09-05T23:54:29Z'
   metrics: {}
   kind: news
 ---

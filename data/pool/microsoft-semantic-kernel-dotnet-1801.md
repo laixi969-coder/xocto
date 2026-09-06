@@ -31,16 +31,16 @@ summary: "## Changes:\r\n\r\n* d8ec44919265b3641b7898a02038cbfe14590ee5 .NET: Bu
   \ Pin GitHub Actions to full-length commit SHAs (#14307)\r\n* cd7b533ed19cc8a4cce38cac5dca6b0785ece492\
   \ Switch failing test to new model. (#14332)\r\n\r\nThis list of changes was [auto generated](https://msdata.visualstudio.com/Vienna/_build/results?buildId=234363375&view=logs).</details>"
 first_seen: '2026-09-03T18:39:43Z'
-last_seen: '2026-09-04T00:06:39Z'
+last_seen: '2026-09-05T23:54:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/microsoft/semantic-kernel/releases/tag/dotnet-1.80.1
-  seen_at: '2026-09-04T00:06:39Z'
+  seen_at: '2026-09-05T23:54:04Z'
   metrics:
-    reactions: 1
+    reactions: 2
   kind: news
 ---
 

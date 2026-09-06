@@ -1,0 +1,41 @@
+---
+slug: hits-the-spot-sex-toy-every-man-needs
+name: '‘Hits the spot’: Sex toy every man needs'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYjV3NlNBVTVmNkEweGJvU0w4b3RPZlFncVozQ2k5eGpzMXlWU2hzeVBpbHdnRFltd1U3VEtNVXJ2Vi1INkVWUXQzS3ItN0JmdUJKSGZsZXVuNTBtQ1lDRUY1UEl4M0NfWWZXRDcyZlFWYTRGdXFONndSWXlLVzhrbVgzd2RZZHRqNG1tdjZUdXJHd1lkaVNRVHFwekpYOXpFMWdIcTc5UTduaERUYWwyQklpTzVmdUs4b2VVLUItbVJXOFo0TkxoUGhKTHo1cE5mMFHSAdcBQVVfeXFMTURPWHNfV08tZHN4SWV1R041cWM2OUJndDZEcHAxZF8wT21IM21YOXAtcFVIRnYwR1JEOXR5dXY4ZDNsS1RsQW1YYW5MendiekFpY0JhSTdtUkFnQnAzN2w4Qk8tWjUzN0FmQnhOT1JUZmVvZzlXUUxYQXdHMm5qRFdrZDNSYmt0RzRxWEpnNHNOeFZlc3RQSmVsaHJWVU0xNkNpb2h5cGdBU3RxR0Rab0poSWJEeW1XYzJjQjRxUkJUMENyU1A1d2ZLTmtKb2RsOUhCMHdyNDQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYjV3NlNBVTVmNkEweGJvU0w4b3RPZlFncVozQ2k5eGpzMXlWU2hzeVBpbHdnRFltd1U3VEtNVXJ2Vi1INkVWUXQzS3ItN0JmdUJKSGZsZXVuNTBtQ1lDRUY1UEl4M0NfWWZXRDcyZlFWYTRGdXFONndSWXlLVzhrbVgzd2RZZHRqNG1tdjZUdXJHd1lkaVNRVHFwekpYOXpFMWdIcTc5UTduaERUYWwyQklpTzVmdUs4b2VVLUItbVJXOFo0TkxoUGhKTHo1cE5mMFHSAdcBQVVfeXFMTURPWHNfV08tZHN4SWV1R041cWM2OUJndDZEcHAxZF8wT21IM21YOXAtcFVIRnYwR1JEOXR5dXY4ZDNsS1RsQW1YYW5MendiekFpY0JhSTdtUkFnQnAzN2w4Qk8tWjUzN0FmQnhOT1JUZmVvZzlXUUxYQXdHMm5qRFdrZDNSYmt0RzRxWEpnNHNOeFZlc3RQSmVsaHJWVU0xNkNpb2h5cGdBU3RxR0Rab0poSWJEeW1XYzJjQjRxUkJUMENyU1A1d2ZLTmtKb2RsOUhCMHdyNDQ?oc=5
+summary: '‘Hits the spot’: Sex toy every man needs News.com.au'
+first_seen: '2026-09-04T07:00:00Z'
+last_seen: '2026-09-05T23:54:29Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYjV3NlNBVTVmNkEweGJvU0w4b3RPZlFncVozQ2k5eGpzMXlWU2hzeVBpbHdnRFltd1U3VEtNVXJ2Vi1INkVWUXQzS3ItN0JmdUJKSGZsZXVuNTBtQ1lDRUY1UEl4M0NfWWZXRDcyZlFWYTRGdXFONndSWXlLVzhrbVgzd2RZZHRqNG1tdjZUdXJHd1lkaVNRVHFwekpYOXpFMWdIcTc5UTduaERUYWwyQklpTzVmdUs4b2VVLUItbVJXOFo0TkxoUGhKTHo1cE5mMFHSAdcBQVVfeXFMTURPWHNfV08tZHN4SWV1R041cWM2OUJndDZEcHAxZF8wT21IM21YOXAtcFVIRnYwR1JEOXR5dXY4ZDNsS1RsQW1YYW5MendiekFpY0JhSTdtUkFnQnAzN2w4Qk8tWjUzN0FmQnhOT1JUZmVvZzlXUUxYQXdHMm5qRFdrZDNSYmt0RzRxWEpnNHNOeFZlc3RQSmVsaHJWVU0xNkNpb2h5cGdBU3RxR0Rab0poSWJEeW1XYzJjQjRxUkJUMENyU1A1d2ZLTmtKb2RsOUhCMHdyNDQ?oc=5
+  seen_at: '2026-09-05T23:54:29Z'
+  metrics: {}
+  kind: news
+---
+
+# ‘Hits the spot’: Sex toy every man needs
+
+‘Hits the spot’: Sex toy every man needs News.com.au
+
+## 笔记
+
+

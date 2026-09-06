@@ -20,7 +20,7 @@ url: https://github.com/coldteadotai/pr-lens
 canonical_url: https://github.com/coldteadotai/pr-lens
 summary: Turn every PR into animated architecture diagrams (open-source)
 first_seen: '2026-08-27T15:07:32Z'
-last_seen: '2026-09-05T13:28:25Z'
+last_seen: '2026-09-05T23:54:04Z'
 status: pending_filter
 sources:
 - hackernews
@@ -35,9 +35,9 @@ sightings:
   kind: product
 - source: github
   url: https://prlens.dev
-  seen_at: '2026-09-05T13:28:25Z'
+  seen_at: '2026-09-05T23:54:04Z'
   metrics:
-    stars: 291
+    stars: 293
     forks: 9
     open_issues: 3
   kind: product

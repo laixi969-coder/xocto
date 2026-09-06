@@ -22,16 +22,16 @@ summary: 'WorkWit: a self-hosted, open-source (MIT) enterprise AI Agent platform
   — built-in contract review & resume screening, 40+ skills, MCP connectors, multi-tenant RBAC. Deploy
   with one Docker Compose.'
 first_seen: '2026-08-20T02:50:06Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-05T23:54:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/crane-in-clear-sky/WorkWit-AI-Agent
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-05T23:54:04Z'
   metrics:
-    stars: 99
+    stars: 100
     forks: 0
     open_issues: 0
   kind: product

@@ -35,16 +35,16 @@ canonical_url: https://github.com/OnlyTerp/opengrok
 summary: Run any model in Grok Bot — one-command setup, model picker UI, evidence-based provider wire
   maps, and an update-proof doctor. Not farming you, arming you.
 first_seen: '2026-08-27T18:30:44Z'
-last_seen: '2026-09-05T13:28:25Z'
+last_seen: '2026-09-05T23:54:04Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/OnlyTerp/opengrok#-quick-start
-  seen_at: '2026-09-05T13:28:25Z'
+  seen_at: '2026-09-05T23:54:04Z'
   metrics:
-    stars: 426
+    stars: 429
     forks: 52
     open_issues: 0
   kind: product

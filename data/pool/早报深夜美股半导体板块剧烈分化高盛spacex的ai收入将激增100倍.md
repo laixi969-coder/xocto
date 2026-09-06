@@ -21,7 +21,7 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaH
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE1aOHhnWTVSaFhxdjFwcFFfaHZJdVlIaElZX3ZYdEtkRWI3bG5OYmkzU2xfc3M2UmdNM0MzUU0tLVd6RU83VXJIaw?oc=5
 summary: 【早报】深夜，美股半导体板块剧烈分化；高盛：SpaceX的AI收入将激增100倍 财联社
 first_seen: '2026-08-29T06:03:25Z'
-last_seen: '2026-09-01T14:56:29Z'
+last_seen: '2026-09-05T23:54:22Z'
 status: pending_filter
 sources:
 - newssearch
@@ -40,6 +40,11 @@ sightings:
 - source: marketfeeds
   url: https://www.qbitai.com/2026/09/482451.html
   seen_at: '2026-09-01T14:56:29Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/484683.html
+  seen_at: '2026-09-05T23:54:22Z'
   metrics: {}
   kind: news
 ---

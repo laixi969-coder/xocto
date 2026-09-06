@@ -34,3 +34,21 @@
     \n- Made `mtmd_tokenize` const-correct ([#28310](https://github.com/ggml-org/llama.cpp/pull/28310)).\r\
     \n- Made `mtmd_bitmap_init_lazy` const-correct ([#28307](https://github.com/ggml-org/llama.cpp/pull/28307)).\r\
     \n- Added mtmd helper video/init options ([#24318](https://github.co"
+- id: ev-1aef23fb3ea72c6a
+  project_slug: ggerganov-llamacpp-v040
+  url: https://github.com/ggml-org/llama.cpp/releases/tag/v0.4.0
+  title: 'ggerganov/llama.cpp: v0.4.0'
+  published_at: '2026-09-04T19:56:47Z'
+  collected_at: '2026-09-05T23:54:04Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "## Overview\r\n\r\nllama.cpp 0.4.0 adds initial Qwen3.8-Flash-Next and Nemotron-3-Puzzle support,\
+    \ on-demand tensor reading, per-slot server context limits, video input options, and a ggml update\
+    \ to 0.23.0 with major sparse flash attention and RDMA work.\r\n\r\n### API changes\r\n\r\n- Added\
+    \ `llama_lazy_mode` and `lazy_mode` ([#27794](https://github.com/ggml-org/llama.cpp/pull/27794)).\r\
+    \n- Added `max_buf_size` to quantize params ([#27795](https://github.com/ggml-org/llama.cpp/pull/27795)).\r\
+    \n- Bumped session/state versions for KV-cell token tracking ([#27762](https://github.com/ggml-org/llama.cpp/pull/27762)).\r\
+    \n- Added `mtmd_input_part` and `mtmd_tokenize_from_parts()` ([#28250](https://github.com/ggml-org/llama.cpp/pull/28250)).\r\
+    \n- Made `mtmd_tokenize` const-correct ([#28310](https://github.com/ggml-org/llama.cpp/pull/28310)).\r\
+    \n- Made `mtmd_bitmap_init_lazy` const-correct ([#28307](https://github.com/ggml-org/llama.cpp/pull/28307)).\r\
+    \n- Added mtmd helper video/init options ([#24318](https://github.co"

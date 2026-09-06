@@ -21,16 +21,16 @@ canonical_url: https://github.com/chigwell/Penelopa.ai
 summary: 'Continuous improvement for AI coding agents: Penelopa analyzes real Codex and Claude Code sessions,
   finds repeated workflow patterns, and turns them into reusable skills, checks, prompts, and recommendations.'
 first_seen: '2026-09-03T15:52:25Z'
-last_seen: '2026-09-05T13:28:25Z'
+last_seen: '2026-09-05T23:54:04Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/chigwell/Penelopa.ai
-  seen_at: '2026-09-05T13:28:25Z'
+  seen_at: '2026-09-05T23:54:04Z'
   metrics:
-    stars: 51
+    stars: 60
     forks: 0
     open_issues: 0
   kind: product
