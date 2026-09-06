@@ -1,0 +1,78 @@
+- id: req-initial-成立不到一年连融三轮这个睡眠-ai-产品火了-2026-09-05
+  project_slug: 成立不到一年连融三轮这个睡眠-ai-产品火了
+  level: initial
+  reviewed_at: '2026-09-05T00:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品通过传感器监测并主动调节环境，解决睡眠质量痛点
+    evidence_ids:
+    - ev-047622adb18a8728
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开用户案例或付费数据
+    evidence_ids:
+    - ev-047622adb18a8728
+  - gate: model
+    status: insufficient
+    reason: 未公开模型细节或性能评估
+    evidence_ids:
+    - ev-047622adb18a8728
+  - gate: truth
+    status: insufficient
+    reason: 未公开实际使用效果或复购数据
+    evidence_ids:
+    - ev-047622adb18a8728
+  next_validation: 官方定价页或公开用户案例
+  market: ''
+  job: 高压脑力人群
+  job_en: High‑stress professionals
+  pain: 难以快速入睡、夜间频繁醒来
+  pain_en: Difficulty falling asleep quickly and frequent nighttime awakenings
+  current_alternative: 手环、睡眠追踪器、助眠灯、耳机、眼罩
+  current_alternative_en: Wearables, sleep trackers, sleep‑aid lights, headphones, eye masks
+  usage_reason: 通过 AI 调节环境，主动干预睡眠
+  usage_reason_en: AI‑driven environmental adjustments for proactive sleep intervention
+- id: req-full-成立不到一年连融三轮这个睡眠-ai-产品火了-2026-09-05
+  project_slug: 成立不到一年连融三轮这个睡眠-ai-产品火了
+  level: full
+  reviewed_at: '2026-09-06T23:35:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决高压脑力人群入睡困难、夜间易醒的痛点，通过毫米波雷达等感知睡眠状态，并用声光气味主动干预，形成感知-干预-反馈闭环，交付可确定。现有替代只能监测或被动助眠，无法根据个体反应调整，痛点刚性存在。
+    evidence_ids:
+    - ev-047622adb18a8728
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示产品尚未量产，缺乏用户案例和持续采用数据，无法确认市场共识。
+    evidence_ids:
+    - ev-047622adb18a8728
+  - gate: model
+    status: insufficient
+    reason: 未公开定价或付费模式，买方不明确，商业模式尚未验证。
+    evidence_ids:
+    - ev-047622adb18a8728
+  - gate: truth
+    status: insufficient
+    reason: 产品尚未量产，缺乏实际使用效果和复购数据，真实性验证不足。
+    evidence_ids:
+    - ev-047622adb18a8728
+  next_validation: 关注 Fullive.ai 官网或官方渠道发布的 Somni 定价页、量产进度及用户案例。
+  market: ''
+  job: 高压脑力人群需要更快入睡、减少夜间醒来，并在早晨自然唤醒，同时希望无需佩戴设备或主动操作。
+  job_en: High-stress professionals need to fall asleep faster, reduce nighttime awakenings, and wake
+    naturally, without wearing devices or manual interaction.
+  pain: 现有睡眠监测设备只能事后报告，无法主动干预；助眠产品缺乏个性化，难以根据个人生理反应调整。
+  pain_en: Current sleep monitors only provide retrospective reports without active intervention; sleep
+    aids lack personalization and cannot adapt to individual physiological responses.
+  current_alternative: 手环、指环、床垫等监测设备，以及助眠灯、耳机、眼罩等被动助眠工具。
+  current_alternative_en: Wearables, rings, mattresses for monitoring, and passive aids like sleep lights,
+    headphones, and eye masks.
+  usage_reason: Somni 提供闭环干预，能根据用户生理反馈自动调整声光气味，实现个性化睡眠改善，吸引关注和试用。
+  usage_reason_en: Somni offers closed-loop intervention that automatically adjusts sound, light, and
+    scent based on physiological feedback, attracting attention and trials.

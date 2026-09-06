@@ -465,3 +465,45 @@
   usage_reason: 公开代码仓库有 21,599 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 21,599 stars, showing developer attention; repeat use and
     payment are not yet verified.
+- id: req-full-deepseek-harness-desktop-2026-09-05
+  project_slug: deepseek-harness-desktop
+  level: full
+  reviewed_at: '2026-09-06T23:20:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 DeepSeek Harness 用户需要图形界面以降低使用门槛的痛点，命令行对许多用户不友好。产品输入为 DSH 生态，动作是提供桌面 GUI，交付是零配置安装和可视化操作，闭环可确定。此为工作流结构推理，公开材料提供功能描述。
+    evidence_ids:
+    - ev-21d2bf8617a2394c
+    - ev-76521530df9684b1
+  - gate: consensus
+    status: insufficient
+    reason: 多个仓库星标数高（最高 22,982），说明社区关注度高，但缺乏用户案例或讨论证明持续使用；星标不等于采用。
+    evidence_ids:
+    - ev-21d2bf8617a2394c
+    - ev-76521530df9684b1
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确付费路径，商业模式未验证；买方可能是开发者或企业，但尚未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付可确定（提供 GUI），但生成质量、安全边界和人工干预需求缺乏公开验证；需关注多实例隔离等功能的实际效果。
+    evidence_ids:
+    - ev-27d0b04668e6a102
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程，并寻找用户评价。
+  market: ''
+  job: 给 DeepSeek Harness 加上电脑窗口，点一下就能用，不必对着黑底命令行。
+  job_en: DeepSeek Harness gets a computer window you can click, so you do not have to type at a black
+    command screen.
+  pain: 命令行界面使用门槛高，对非技术用户或偏好图形界面的开发者不友好，降低 DeepSeek Harness 的可及性。
+  pain_en: Command-line interface has a high barrier, unfriendly to non-technical users or developers
+    preferring GUI, reducing accessibility of DeepSeek Harness.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作，但可能直接使用命令行或依赖其他 GUI 工具。
+  current_alternative_en: Public materials do not yet show how users complete this job today, but they
+    may use command line directly or rely on other GUI tools.
+  usage_reason: 多个仓库获得数百至数千星（如 297、22,982、1,577），说明开发者广泛关注和试用；持续使用与付费尚未核验。
+  usage_reason_en: Multiple repositories have hundreds to thousands of stars (e.g., 297, 22,982, 1,577),
+    showing widespread developer attention and trial; sustained use and payment not yet verified.

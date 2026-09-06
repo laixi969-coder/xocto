@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxQXy14alJ2WUhQ
 summary: 当AI邂逅《西游记》：AI应用开始崭露“钱景”！ 新浪财经
 first_seen: '2026-09-05T03:32:12Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

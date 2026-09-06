@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/commutebar
 summary: Live commute times in your menu bar
 first_seen: '2026-09-01T03:02:18Z'
 last_seen: '2026-09-05T13:28:21Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

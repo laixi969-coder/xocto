@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tUVlqaTk5eEN5
 summary: Palo Alto CEO Says $5 Trillion AI Buildout Needs New Security Stack BeInCrypto
 first_seen: '2026-09-02T05:04:00Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

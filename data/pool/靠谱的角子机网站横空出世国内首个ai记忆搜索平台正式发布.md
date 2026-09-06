@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE83SHR5WGNZeEdk
 summary: 靠谱的角子机网站横空出世！国内首个AI记忆搜索平台正式发布 体坛
 first_seen: '2026-09-03T00:22:24Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

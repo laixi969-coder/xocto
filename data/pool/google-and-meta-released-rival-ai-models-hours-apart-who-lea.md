@@ -1,11 +1,12 @@
 ---
 slug: google-and-meta-released-rival-ai-models-hours-apart-who-lea
-name: 'Google and Meta Released Rival AI Models Hours Apart: Who Leads?'
+name: Google and Meta AI Models
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google 与 Meta 在数小时内先后发布竞争性 AI 模型，大模型领域的头部技术与生态竞争进一步加剧。
 inspiration: ''
-summary_en: ''
+summary_en: Google and Meta released competing AI models within hours of each other, intensifying the
+  race among frontier model developers.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8teHl5ODQtMTZ0
 summary: 'Google and Meta Released Rival AI Models Hours Apart: Who Leads? BeInCrypto'
 first_seen: '2026-09-03T05:55:05Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Google and Meta Released Rival AI Models Hours Apart: Who Leads?
+# Google and Meta AI Models
 
 Google and Meta Released Rival AI Models Hours Apart: Who Leads? BeInCrypto
 

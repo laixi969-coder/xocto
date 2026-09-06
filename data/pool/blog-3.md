@@ -1,21 +1,36 @@
 ---
 slug: blog-3
-name: Blog
+name: llmdoc
 builder: pDJJq
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: 软件工程师在指挥 AI 编码助手处理复杂代码库时打开此工具。它接收代码库的架构设计与领域决策文档，通过结构化元数据和 CLI 程序化匹配当前任务所需的关键上下文并随代码做版本控制，让编码智能体直接获取准确的技术约束与既有实现，减少上下文污染与重复造轮子。
+inspiration: AI 辅助编程的瓶颈正从模型推理能力转向代码库上下文供给的信噪比。创业切入点不是通用提示词工程，而是为特定技术栈或大型企业遗留系统提供与 Git 工作流绑定的代码决策管理与自动化上下文裁剪方案。
+summary_en: Software engineers use this tool when guiding AI coding agents in complex repositories. It
+  manages architecture designs and domain docs with structured metadata, programmatically feeding the
+  right context into agents via CLI while syncing with Git commits to prevent hallucinations and redundant
+  code.
+inspiration_en: The bottleneck in AI coding is shifting from model reasoning to repository context quality.
+  The entry point is providing automated codebase context curation tightly bound to Git workflows for
+  specific stacks or legacy enterprise systems.
 priority_review: false
-project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
-open_source: false
+project_type: open_source
+industries:
+- 软件开发
+- 信息技术
+industries_en:
+- Software Development
+- Information Technology
+jobs:
+- 软件工程师
+- 架构师
+jobs_en:
+- Software Engineer
+- Software Architect
+regions:
+- 全球
+regions_en:
+- Global
+open_source: true
 url: https://blog.pdjjq.org/post/llmdoc-solving-the-last-100-meters-of-ai-coding-z2tuegp#:~:text=%E5%BC%80%E5%A7%8B%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.-,Context%20Floor,-%23
 canonical_url: https://blog.pdjjq.org/post/llmdoc-solving-the-last-100-meters-of-ai-coding-z2tuegp
 summary: "# 标题的说明\r\n\r\n标题有一点夸大, 其实应该是 2.9 亿 ARR, 四舍五入其实差不多, 当然了其实是两家公司的两家产品加起来的 ARR \U0001F62D\r\n\r\
@@ -53,7 +68,7 @@ summary: "# 标题的说明\r\n\r\n标题有一点夸大, 其实应该是 2.9 �
   \ 更有帮助哦, 如果大家有问题也欢迎 Issue / PR / 评论区提问"
 first_seen: '2026-09-04T07:10:15Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: watching
 sources:
 - v2ex
 - newssearch
@@ -71,7 +86,7 @@ sightings:
   kind: news
 ---
 
-# Blog
+# llmdoc
 
 # 标题的说明
 

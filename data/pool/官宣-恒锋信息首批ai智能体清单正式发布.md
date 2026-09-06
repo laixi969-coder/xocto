@@ -1,11 +1,12 @@
 ---
 slug: 官宣-恒锋信息首批ai智能体清单正式发布
-name: 官宣｜恒锋信息首批AI智能体清单正式发布
+name: 恒锋信息
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 恒锋信息是一家上市公司，发布首批 AI 智能体清单，但具体智能体功能、应用场景和交付方式未披露。
 inspiration: ''
-summary_en: ''
+summary_en: Hengfeng Information is a listed company that released its first batch of AI agents, but specific
+  functions, use cases, and delivery methods are undisclosed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5lRnZxRnhMMjhq
 summary: 官宣｜恒锋信息首批AI智能体清单正式发布 新浪财经
 first_seen: '2026-09-03T09:37:00Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -42,7 +43,7 @@ sightings:
   kind: news
 ---
 
-# 官宣｜恒锋信息首批AI智能体清单正式发布
+# 恒锋信息
 
 官宣｜恒锋信息首批AI智能体清单正式发布 新浪财经
 

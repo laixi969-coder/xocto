@@ -21,7 +21,7 @@ canonical_url: https://understandingai.org/p/19-robotics-companies-to-watch
 summary: I talked with nine of these companies.
 first_seen: '2026-09-04T16:04:09Z'
 last_seen: '2026-09-05T00:07:01Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/ponytail
 summary: Make new code the last resort
 first_seen: '2026-09-04T14:18:13Z'
 last_seen: '2026-09-05T13:28:21Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

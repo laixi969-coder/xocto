@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVdTc25BSFVy
 summary: How AI Is Changing the Way Sales Teams Connect With Buyers nerdbot
 first_seen: '2026-09-04T20:28:28Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFA4aURoYVJ2SGZm
 summary: Ai体育教育终端用户使用时长行业领先，七星体育游戏应用成亲子共学新选择 体坛
 first_seen: '2026-09-05T04:46:22Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

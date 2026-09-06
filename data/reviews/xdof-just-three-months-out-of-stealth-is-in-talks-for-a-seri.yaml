@@ -1,0 +1,79 @@
+- id: req-initial-xdof-just-three-months-out-of-stealth-is-in-talks-for-a-seri-2026-09-05
+  project_slug: xdof-just-three-months-out-of-stealth-is-in-talks-for-a-seri
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法确认 XDOF 解决的具体需求或痛点，产品细节未披露。
+    evidence_ids:
+    - ev-d6e61191bd2f289e
+    - ev-75094d2d843cac28
+  - gate: consensus
+    status: insufficient
+    reason: 无用户或客户采用证据。
+    evidence_ids:
+    - ev-d6e61191bd2f289e
+  - gate: model
+    status: insufficient
+    reason: 商业模式未知，融资消息不代表付费路径。
+    evidence_ids:
+    - ev-d6e61191bd2f289e
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性未验证，仅融资新闻。
+    evidence_ids:
+    - ev-d6e61191bd2f289e
+  next_validation: 查找 XDOF 的官方产品页面或客户案例。
+  market: ''
+  job: XDOF 可能为机器人提供数据服务，但具体任务和用户未明确。
+  job_en: XDOF may provide data services for robots, but specific tasks and users are unclear.
+  pain: 机器人数据采集和标注的痛点可能存在，但缺乏具体信息。
+  pain_en: Pain points in robot data collection and labeling may exist, but specific details are lacking.
+  current_alternative: 未知，可能包括内部数据采集或通用数据服务。
+  current_alternative_en: Unknown; may include in-house data collection or general data services.
+  usage_reason: 高估值和快速融资引起关注，但无采用证据。
+  usage_reason_en: High valuation and rapid funding attract attention, but no adoption evidence.
+- id: req-full-xdof-just-three-months-out-of-stealth-is-in-talks-for-a-seri-2026-09-05
+  project_slug: xdof-just-three-months-out-of-stealth-is-in-talks-for-a-seri
+  level: full
+  reviewed_at: '2026-09-06T23:33:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开事实仅有融资报道：出隐身三个月即洽谈12亿美元B轮估值；产品功能、数据来源、交付物与客户均未披露，无法还原用户任务、旧替代与交付闭环，类别标签与估值热度不构成痛点证据。
+    evidence_ids:
+    - ev-d6e61191bd2f289e
+    - ev-75094d2d843cac28
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 XDOF 官方网站的产品页与定价页，或其官方博客/文档对数据来源、交付物与首批客户的首度披露。
+  market: ''
+  job: 按类别标签推断，用户任务是为机器人开发者提供训练数据；但具体数据类型、任务形态与交付方式在公开材料中完全未披露，尚未核验。
+  job_en: Inferred from the category label, the job is supplying training data for robot developers; but
+    data type, task form and delivery are entirely undisclosed in public materials — unverified.
+  pain: 可用公开材料未记载任何该产品面向的用户痛点；『机器人训练数据昂贵难采』只是行业层面的推断，不能当作该项目痛点的证据。
+  pain_en: No user pain for this product is documented in available public materials; 'robot training
+    data is costly to collect' is only an industry-level inference, not evidence of this product's pain
+    point.
+  current_alternative: 尚未核验。推测替代方式为团队自建数据采集管线或采购通用数据服务，但公开材料未披露任何客户或替代行为。
+  current_alternative_en: Unverified. Likely alternatives are in-house data pipelines or generic data
+    vendors, but no customers or substitution behavior are disclosed in public materials.
+  usage_reason: 关注来自资本信号：出隐身三个月即洽谈12亿美元B轮并获 TechCrunch 报道；这解释热度来源，但不构成采用、付费或留存的证据。
+  usage_reason_en: 'Attention stems from a capital signal: Series B talks at a $1.2B valuation within
+    three months of leaving stealth, covered by TechCrunch; this explains buzz, not adoption, payment
+    or retention.'

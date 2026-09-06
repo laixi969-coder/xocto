@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE02dHIyaXdGTW5H
 summary: 长虹美菱携AI冰洗产品即将登陆德国IFA 凤凰网
 first_seen: '2026-09-04T10:03:29Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

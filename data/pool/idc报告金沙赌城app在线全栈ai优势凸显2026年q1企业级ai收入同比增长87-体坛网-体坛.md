@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KdXR2c1B6NERZ
 summary: IDC报告：金沙赌城APP在线全栈AI优势凸显，2026年Q1企业级AI收入同比增长87%-体坛网_体坛+ 体坛
 first_seen: '2026-09-04T23:27:11Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

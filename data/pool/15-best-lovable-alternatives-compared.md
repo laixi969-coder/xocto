@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE51WmRrUXJVblA2
 summary: 15 best Lovable alternatives compared Hostinger
 first_seen: '2026-09-02T07:00:00Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

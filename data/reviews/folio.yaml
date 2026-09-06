@@ -1,0 +1,71 @@
+- id: req-initial-folio-2026-09-05
+  project_slug: folio
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决阅读者将文章发送到电子阅读器的需求，但痛点强度未明，且现有稍后读服务可能已覆盖。
+    evidence_ids:
+    - ev-58a5ff0895fc3486
+  - gate: consensus
+    status: insufficient
+    reason: 无采用数据，仅产品页面。
+    evidence_ids:
+    - ev-58a5ff0895fc3486
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真未评估。
+    evidence_ids: []
+  next_validation: 查找 Folio 的定价页或用户评价。
+  market: ''
+  job: 用户希望将稍后读的文章发送到电子阅读器上，以获得更好的阅读体验。
+  job_en: Users want to send read-later articles to their e-reader for a better reading experience.
+  pain: 手机阅读容易分心，且排版不佳。
+  pain_en: Reading on phone is distracting and poorly formatted.
+  current_alternative: 目前可能使用 Pocket 或 Instapaper 等稍后读服务，但缺乏电子阅读器集成。
+  current_alternative_en: Currently may use read-later services like Pocket or Instapaper, but lack e-reader
+    integration.
+  usage_reason: 电子阅读器用户可能因护眼和专注而尝试。
+  usage_reason_en: E-reader users may try for eye comfort and focus.
+- id: req-full-folio-2026-09-05
+  project_slug: folio
+  level: full
+  reviewed_at: '2026-09-06T23:25:17Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决阅读者将文章发送到电子阅读器的需求，但痛点强度未明，且现有稍后读服务可能已覆盖。
+    evidence_ids:
+    - ev-58a5ff0895fc3486
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找 Folio 的官方产品页面或定价页，确认其功能与目标用户。
+  market: ''
+  job: 用户希望将稍后读的文章发送到电子阅读器上，以获得更好的阅读体验。
+  job_en: Users want to send read-later articles to their e-reader for a better reading experience.
+  pain: 手机阅读容易分心，且排版不佳。
+  pain_en: Reading on phone is distracting and poorly formatted.
+  current_alternative: 目前可能使用 Pocket 或 Instapaper 等稍后读服务，但缺乏电子阅读器集成。
+  current_alternative_en: Currently may use read-later services like Pocket or Instapaper, but lack e-reader
+    integration.
+  usage_reason: 电子阅读器用户可能因护眼和专注而尝试。
+  usage_reason_en: E-reader users may try for eye comfort and focus.

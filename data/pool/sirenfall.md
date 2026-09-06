@@ -21,7 +21,7 @@ canonical_url: https://sirenfall.live
 summary: a civil defense siren synthesized in Web Audio
 first_seen: '2026-09-03T20:44:48Z'
 last_seen: '2026-09-05T00:06:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE9YN2ZocnBPWjVw
 summary: 'Upstart Personal Loans Review: Everything You Need To Know MoneyLion'
 first_seen: '2026-09-02T07:00:00Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

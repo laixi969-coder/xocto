@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE9GaXBaXzVmaEVF
 summary: 连续8年！沙巴体育AG旗舰官网再次入选“全球最佳体育直播平台”榜单 体坛
 first_seen: '2026-09-05T05:38:39Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

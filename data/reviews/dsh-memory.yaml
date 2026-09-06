@@ -1,0 +1,72 @@
+- id: req-initial-dsh-memory-2026-09-05
+  project_slug: dsh-memory
+  level: initial
+  reviewed_at: '2026-09-05T13:28:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体应用场景和用户任务描述。
+    evidence_ids:
+    - ev-fab331e8a77a2c17
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户共识证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式无从谈起。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法验证真实性。
+    evidence_ids: []
+  next_validation: 查找项目文档或 README 中是否定义了具体应用场景或目标用户。
+  market: ''
+  job: 探索白箱 AGI 架构，实现元认知、持续学习和世界模型等能力。
+  job_en: Explore white-box AGI architecture to achieve metacognition, continuous learning, and world
+    model capabilities.
+  pain: 当前 AI 系统缺乏自我认知和持续学习能力，难以适应动态环境。
+  pain_en: Current AI systems lack self-awareness and continuous learning, making it hard to adapt to
+    dynamic environments.
+  current_alternative: 现有 AI 系统多为黑箱，依赖大量数据和人工调参。
+  current_alternative_en: Existing AI systems are mostly black-box, relying on large data and manual tuning.
+  usage_reason: 开发者可能因对 AGI 架构的兴趣而关注，但尚无明确应用场景。
+  usage_reason_en: Developers may follow due to interest in AGI architecture, but no clear use case yet.
+- id: req-full-dsh-memory-2026-09-05
+  project_slug: dsh-memory
+  level: full
+  reviewed_at: '2026-09-06T23:23:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，缺乏具体应用场景和用户任务描述。
+    evidence_ids:
+    - ev-fab331e8a77a2c17
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找项目文档或 README 中是否定义了具体应用场景或目标用户。
+  market: ''
+  job: 探索白箱 AGI 架构，实现元认知、持续学习和世界模型等能力。
+  job_en: Explore white-box AGI architecture to achieve metacognition, continuous learning, and world
+    model capabilities.
+  pain: 当前 AI 系统缺乏自我认知和持续学习能力，难以适应动态环境。
+  pain_en: Current AI systems lack self-awareness and continuous learning, making it hard to adapt to
+    dynamic environments.
+  current_alternative: 现有 AI 系统多为黑箱，依赖大量数据和人工调参。
+  current_alternative_en: Existing AI systems are mostly black-box, relying on large data and manual tuning.
+  usage_reason: 开发者可能因对 AGI 架构的兴趣而关注，但尚无明确应用场景。
+  usage_reason_en: Developers may follow due to interest in AGI architecture, but no clear use case yet.

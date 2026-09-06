@@ -1,0 +1,91 @@
+- id: req-initial-an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin-2026-09-05
+  project_slug: an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发与知识工作中人力贵、交付慢的刚性痛点，替代的是人天级旧流程，此为工作流推理；销售额暴增进一步印证有人持续使用。
+    evidence_ids:
+    - ev-b92f3d79cffb9f97
+    - ev-548b6e54981ae2e3
+  - gate: consensus
+    status: supported
+    reason: 公开报道显示销售额暴增并有望首季盈利，说明是持续付费采用而非一次性尝鲜；但报道未披露留存与复购明细。
+    evidence_ids:
+    - ev-b92f3d79cffb9f97
+  - gate: model
+    status: supported
+    reason: 钱来自 to B 的 API 与企业订阅及 to C 订阅，企业级安全防护与客户自持数据支撑企业采购路径；150 亿美元信贷与 IPO 传闻属资本层，不是付费证据。
+    evidence_ids:
+    - ev-920ebd09190bd756
+    - ev-64c01f7c7e5ae6e3
+  - gate: truth
+    status: supported
+    reason: 产品贴近把知识工作确定性交付的第一性目标，数据自持与安全防护增强可交付性；但盗版诉讼与智能体风险预警提示合规与安全边界仍是真实风险。
+    evidence_ids:
+    - ev-1528cae663e5e410
+    - ev-2611ec7629d2014a
+    - ev-920ebd09190bd756
+  next_validation: 下一轮自动抓取 Anthropic 官网的企业定价页与客户案例页，核对 API 与企业订阅的公开报价及可归因客户名单。
+  market: ''
+  job: 开发者和企业用 Claude 完成写代码、改文档、读资料等知识工作，把原来靠人天交付的任务压缩到分钟级。
+  job_en: Developers and enterprises use Claude to handle coding, document drafting, and material review,
+    compressing tasks that used to take person-days into minutes.
+  pain: 软件与文字类工作人力贵、周期长，外包和模板工具质量不稳，紧急需求排队等不起。
+  pain_en: Software and writing work is expensive and slow; outsourcing and template tools deliver unstable
+    quality, and urgent requests cannot wait in queue.
+  current_alternative: OpenAI、谷歌等对手模型、自部署开源模型，以及人工外包或直接加人。
+  current_alternative_en: Competing frontier models from OpenAI and Google, self-hosted open-source models,
+    and human outsourcing or simply hiring more staff.
+  usage_reason: 在代码与长文档任务上表现稳定，企业版提供数据自持与安全防护，团队敢把真实业务流程放上去。
+  usage_reason_en: It performs reliably on coding and long-document tasks, and enterprise controls with
+    customer-held data make teams willing to put real business flows on it.
+- id: req-full-an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin-2026-09-05
+  project_slug: an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin
+  level: full
+  reviewed_at: '2026-09-06T23:15:52Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发与知识工作中人力贵、交付慢的刚性痛点，替代的是人天级旧流程，此为工作流推理；销售额暴增进一步印证有人持续使用。
+    evidence_ids:
+    - ev-b92f3d79cffb9f97
+    - ev-548b6e54981ae2e3
+  - gate: consensus
+    status: supported
+    reason: 公开报道显示销售额暴增并有望首季盈利，说明是持续付费采用而非一次性尝鲜；但报道未披露留存与复购明细。
+    evidence_ids:
+    - ev-b92f3d79cffb9f97
+  - gate: model
+    status: supported
+    reason: 钱来自 to B 的 API 与企业订阅及 to C 订阅，企业级安全防护与客户自持数据支撑企业采购路径；150 亿美元信贷与 IPO 传闻属资本层，不是付费证据。
+    evidence_ids:
+    - ev-920ebd09190bd756
+    - ev-64c01f7c7e5ae6e3
+  - gate: truth
+    status: supported
+    reason: 产品贴近把知识工作确定性交付的第一性目标，数据自持与安全防护增强可交付性；但盗版诉讼与智能体风险预警提示合规与安全边界仍是真实风险。
+    evidence_ids:
+    - ev-1528cae663e5e410
+    - ev-2611ec7629d2014a
+    - ev-920ebd09190bd756
+  next_validation: 下一轮自动抓取 Anthropic 官网的企业定价页与客户案例页，核对 API 与企业订阅的公开报价及可归因客户名单。
+  market: ''
+  job: 开发者和企业团队在写代码、起草文档、分析资料的工作节点打开 Claude；它接收代码、文档或提问，生成代码、改写文本并给出分析结论；用户拿到可直接使用的代码或成稿，人工复核后交付。
+  job_en: Developers and enterprise teams open Claude while coding, drafting documents, or analyzing materials;
+    it takes code, documents, or questions and returns code, rewritten text, and analysis conclusions;
+    users receive ready-to-use code or drafts, review them, and deliver.
+  pain: 软件与文字类工作人力贵、周期长，外包和模板工具质量不稳，紧急需求排队等不起。
+  pain_en: Software and writing work is expensive and slow; outsourcing and template tools deliver unstable
+    quality, and urgent requests cannot wait in queue.
+  current_alternative: OpenAI、谷歌等对手模型、自部署开源模型，以及人工外包或直接加人。
+  current_alternative_en: Competing frontier models from OpenAI and Google, self-hosted open-source models,
+    and human outsourcing or simply hiring more staff.
+  usage_reason: 在代码与长文档任务上表现稳定，企业版提供数据自持与安全防护，团队敢把真实业务流程放上去。
+  usage_reason_en: It performs reliably on coding and long-document tasks, and enterprise controls with
+    customer-held data make teams willing to put real business flows on it.

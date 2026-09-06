@@ -1,11 +1,13 @@
 ---
 slug: x
-name: X
+name: 《财经》Token 套餐价格对比
 builder: yidinghe
 category: ''
-summary_zh: ''
+summary_zh: 《财经》杂志实测国内外主流 Token 套餐，发现按量付费中国模型便宜，但套餐单价反而更贵，主要因额度差异、缓存命中率和输出占比。
 inspiration: ''
-summary_en: ''
+summary_en: Caijing magazine tested major token plans and found that while pay-as-you-go Chinese models
+  are cheaper, subscription plans are more expensive due to quota differences, cache hit rates, and output
+  ratios.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -28,7 +30,7 @@ summary: "帖子 https://x.com/mylifcc/status/2095723527282291021\r\n\r\n报道�
   \r\n最后一圈比下来，国内套餐的 Token 单价全都比美国贵，只有 DeepSeek-V4-Flash 的按量付费价格是最低的。\r\n\r\n详细内容请各位点击上面的链接看原文。"
 first_seen: '2026-09-04T14:29:41Z'
 last_seen: '2026-09-05T00:06:28Z'
-status: pending_filter
+status: market_context
 sources:
 - v2ex
 sightings:
@@ -40,7 +42,7 @@ sightings:
   kind: product
 ---
 
-# X
+# 《财经》Token 套餐价格对比
 
 帖子 https://x.com/mylifcc/status/2095723527282291021
 

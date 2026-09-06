@@ -2,17 +2,24 @@
 slug: folio
 name: Folio
 builder: Bogdan Dragomir
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 效率
+summary_zh: Folio 是一个稍后读应用，将用户保存的文章排版后发送到电子阅读器，供用户离线阅读。具体工作流程和交付细节仍待核验。
+inspiration: 趋势：阅读工具正从手机屏幕转向专用阅读设备，排版和分发成为新价值点。切入：可从电子阅读器用户或深度阅读人群切入，但需明确与现有稍后读服务的差异。
+summary_en: Folio is a read-later app that sends a typeset digest to your e-reader for offline reading.
+  Specific workflow and deliverables remain to be verified.
+inspiration_en: 'Trend: Reading tools are shifting from phone screens to dedicated e-readers, with typesetting
+  and distribution becoming new value points. Entry: Could target e-reader users or deep readers, but
+  needs to clarify differentiation from existing read-later services.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 个人效率
+industries_en:
+- Personal Productivity
+jobs:
+- 阅读者
+jobs_en:
+- Readers
 regions: []
 regions_en: []
 open_source: false
@@ -21,7 +28,7 @@ canonical_url: https://producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa
 summary: A read-later app sending a typeset digest to your e-reader
 first_seen: '2026-08-27T10:01:12Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - newssearch

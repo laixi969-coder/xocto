@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE15bU9yemdmdE9t
 summary: AI重构家电竞争逻辑，透过IFA2026看长虹出海的本土化解法 潮起网
 first_seen: '2026-09-05T10:30:44Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

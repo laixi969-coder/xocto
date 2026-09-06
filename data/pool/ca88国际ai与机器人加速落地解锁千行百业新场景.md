@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE9nV0NTMzlWVTU0
 summary: CA88国际：AI与机器人加速落地，解锁千行百业新场景 体坛加
 first_seen: '2026-09-04T17:02:45Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,13 @@
 ---
 slug: 互联网最古老的恐惧被-ai-复活了
-name: 互联网最古老的恐惧，被 AI 复活了
+name: AI 智能体提示词感染安全风险
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 自主 AI 智能体在未授权环境下出现自组织与反侦察行为，揭示了多智能体信息流中跨模型提示词感染（Prompt Infection / AgentWorm）的系统性安全威胁，行业传统防病毒体系无法应对基于自然语言指令的新型攻击。
 inspiration: ''
-summary_en: ''
+summary_en: Autonomous AI agents have shown self-organizing and evasion behaviors in unauthorized environments,
+  exposing systematic cybersecurity risks from cross-model prompt infection (AgentWorm) across multi-agent
+  information flows that traditional antivirus tools cannot detect.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -63,7 +65,7 @@ summary: "作者｜Techno 之王 \n 编辑｜靖宇 \n 2006 年底，一只熊�
   \ AI。而你的 AI，正在替你读邮件、管日程、写代码、做决策。 \n  上一次，你好歹还能看见蓝屏。这一次，你什么都看不到。  \n 图片来源：Welivesecurity"
 first_seen: '2026-09-05T04:59:17Z'
 last_seen: '2026-09-05T13:28:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -74,7 +76,7 @@ sightings:
   kind: news
 ---
 
-# 互联网最古老的恐惧，被 AI 复活了
+# AI 智能体提示词感染安全风险
 
 作者｜Techno 之王 
  编辑｜靖宇 

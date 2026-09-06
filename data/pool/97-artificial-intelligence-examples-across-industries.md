@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE96MFFCVHBtUTB4
 summary: 97 Artificial Intelligence Examples Across Industries Built In
 first_seen: '2026-09-02T07:00:00Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

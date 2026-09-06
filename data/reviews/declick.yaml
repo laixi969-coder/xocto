@@ -1,0 +1,80 @@
+- id: req-initial-declick-2026-09-05
+  project_slug: declick
+  level: initial
+  reviewed_at: '2026-09-05T13:28:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者手动编写 API 客户端和 CLI 的重复工作，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-d087254e9b9f9dd6
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目，社区讨论有限，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-d087254e9b9f9dd6
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确付费路径，商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者工作，生成 CLI 可确定性交付，但需关注生成质量。
+    evidence_ids:
+    - ev-d087254e9b9f9dd6
+  next_validation: 检查 公开代码仓库 仓库的 issue 和讨论，了解用户对生成 CLI 的实际反馈和采用情况。
+  market: ''
+  job: 开发者需要快速为 API 或数据源创建命令行工具，以便在终端中调用和测试。
+  job_en: Developers need to quickly create command-line tools for APIs or data sources to call and test
+    from the terminal.
+  pain: 手动编写 CLI 客户端耗时且重复，尤其面对多个 API 时维护成本高。
+  pain_en: Manually writing CLI clients is time-consuming and repetitive, especially with multiple APIs,
+    leading to high maintenance costs.
+  current_alternative: 开发者通常手动编写脚本或使用 Postman 等 GUI 工具，但缺乏脚本化集成。
+  current_alternative_en: Developers typically write scripts manually or use GUI tools like Postman, which
+    lack scriptable integration.
+  usage_reason: 自动生成 CLI 可减少重复工作，但需验证对复杂 API 的覆盖和生成质量。
+  usage_reason_en: Auto-generating CLIs reduces repetitive work, but coverage of complex APIs and generation
+    quality need validation.
+- id: req-full-declick-2026-09-05
+  project_slug: declick
+  level: full
+  reviewed_at: '2026-09-06T23:20:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者手动编写 API 客户端和 CLI 的重复工作，痛点明确：面对多个 API 时维护成本高。输入为 OpenAPI/MCP/SQLite 定义，动作是自动生成 CLI，交付是可用命令，闭环可确定。此为工作流结构推理，公开材料仅提供功能描述。
+    evidence_ids:
+    - ev-d087254e9b9f9dd6
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目，社区讨论有限，缺乏广泛采用证据，无法确认开发者共识强度。
+    evidence_ids:
+    - ev-d087254e9b9f9dd6
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确付费路径，商业模式未验证；买方可能是开发者或企业，但尚未核验。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者工作，生成 CLI 可确定性交付，但需关注生成质量；公开材料未提供质量验证，但结构上成立。
+    evidence_ids:
+    - ev-d087254e9b9f9dd6
+  next_validation: 检查 GitHub 仓库的 issue 和 discussion，了解用户对生成 CLI 的实际反馈和采用情况。
+  market: ''
+  job: 开发者需要快速为 API 或数据源创建命令行工具，以便在终端中调用和测试。
+  job_en: Developers need to quickly create command-line tools for APIs or data sources to call and test
+    from the terminal.
+  pain: 手动编写 CLI 客户端耗时且重复，尤其面对多个 API 时维护成本高。
+  pain_en: Manually writing CLI clients is time-consuming and repetitive, especially with multiple APIs,
+    leading to high maintenance costs.
+  current_alternative: 开发者通常手动编写脚本或使用 Postman 等 GUI 工具，但缺乏脚本化集成。
+  current_alternative_en: Developers typically write scripts manually or use GUI tools like Postman, which
+    lack scriptable integration.
+  usage_reason: 开源项目被标记为早期信号，但缺乏星标或采用数据；开发者可能因减少重复工作而试用，但付费与留存尚未核验。
+  usage_reason_en: Open-source project marked as early signal, but lacks star or adoption data; developers
+    may try it to reduce repetitive work, but payment and retention not yet verified.

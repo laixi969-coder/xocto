@@ -1,11 +1,14 @@
 ---
 slug: gpt-6-astra-now-available-on-vercel-ai-gateway
-name: GPT 6 Astra now available on Vercel AI Gateway
+name: Vercel AI Gateway
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Vercel 宣布 GPT 6 Astra 模型接入其 AI Gateway，开发者无需更换供应商即可在网关内调用新模型。这说明网关平台正成为新模型首发的标准分发渠道，模型的实际触达越来越取决于分发平台的接入速度。
 inspiration: ''
-summary_en: ''
+summary_en: Vercel announced that the GPT 6 Astra model is now available on its AI Gateway, letting developers
+  call the new model without switching providers. Gateway platforms are becoming the standard first-day
+  distribution channel for new models, making distribution reach a decisive competitive factor for model
+  adoption.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +24,7 @@ canonical_url: https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-
 summary: ''
 first_seen: '2026-09-04T00:00:00Z'
 last_seen: '2026-09-05T00:07:00Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# GPT 6 Astra now available on Vercel AI Gateway
+# Vercel AI Gateway
 
 _（源没给简介）_
 

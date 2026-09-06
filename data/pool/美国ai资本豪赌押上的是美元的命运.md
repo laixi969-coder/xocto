@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yYVc5d2lFNGEy
 summary: 美国AI资本豪赌，押上的是美元的命运 华尔街见闻
 first_seen: '2026-09-04T01:54:13Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

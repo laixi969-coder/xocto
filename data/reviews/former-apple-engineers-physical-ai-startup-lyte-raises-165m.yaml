@@ -1,0 +1,84 @@
+- id: req-initial-former-apple-engineers-physical-ai-startup-lyte-raises-165m-2026-09-05
+  project_slug: former-apple-engineers-physical-ai-startup-lyte-raises-165m
+  level: initial
+  reviewed_at: '2026-09-05T00:07:01Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决机器人环境感知的痛点，旧方案昂贵且不灵活，Lyte 提供新方案，价值结构成立。
+    evidence_ids:
+    - ev-fb64208ac84aa006
+  - gate: consensus
+    status: insufficient
+    reason: 融资事件表明投资者看好，但公开材料缺乏客户采用或产品验证证据。
+    evidence_ids:
+    - ev-fb64208ac84aa006
+  - gate: model
+    status: insufficient
+    reason: 商业模式未公开，可能向机器人制造商授权技术，但付费路径待核验。
+    evidence_ids:
+    - ev-fb64208ac84aa006
+  - gate: truth
+    status: supported
+    reason: 感知技术是机器人核心需求，但交付确定性取决于技术成熟度，需进一步验证。
+    evidence_ids:
+    - ev-fb64208ac84aa006
+  next_validation: 查找 Lyte 的官方产品页面或客户案例，确认其技术应用场景和商业进展。
+  market: ''
+  job: 机器人需要感知和理解周围环境以执行自主任务。
+  job_en: Robots need to perceive and understand their surroundings to perform autonomous tasks.
+  pain: 现有感知技术成本高、精度不足，难以适应复杂环境。
+  pain_en: Existing perception technology is costly and imprecise, struggling in complex environments.
+  current_alternative: 许多机器人依赖昂贵的激光雷达或预编程路径，缺乏灵活性。
+  current_alternative_en: Many robots rely on expensive LiDAR or pre-programmed paths, lacking flexibility.
+  usage_reason: Lyte 的技术可能提供更便宜、更灵活的感知方案，使机器人能适应动态环境。
+  usage_reason_en: Lyte's technology may offer cheaper, more flexible perception, enabling robots to adapt
+    to dynamic environments.
+- id: req-full-former-apple-engineers-physical-ai-startup-lyte-raises-165m-2026-09-05
+  project_slug: former-apple-engineers-physical-ai-startup-lyte-raises-165m
+  level: full
+  reviewed_at: '2026-09-06T23:25:03Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 机器人自主作业前必须实时理解环境，识别、定位与导航是刚性任务；旧路径靠激光雷达加自研感知栈，成本高，预编程路线在动态环境失效，不解决则机器人无法自主运行。产品从传感器数据到实时环境理解的交付闭环可说清，此为工作流结构推理，客户侧痛点佐证尚未核验。
+    evidence_ids:
+    - ev-f5183d4910b958e6
+  - gate: consensus
+    status: insufficient
+    reason: 公开可见的共识停在投资人环节：Maverick Silicon 领投 1.65 亿美元 C 轮、估值 16 亿美元；采用环节缺失，中英文生态检索均未命中客户案例或持续使用信号，买方行为尚未核验。
+    evidence_ids:
+    - ev-f5183d4910b958e6
+    - ev-25ecc2a68d5043dc
+    - ev-bff4f8f29b06bf94
+  - gate: model
+    status: insufficient
+    reason: 付费方可能是 to B：机器人制造商或工厂、物流运营方为感知能力付费，也可能是芯片加软件授权；但无定价页与披露客户，此为判断而非已核验事实，需警惕只有融资叙事的每日优鲜式风险。
+    evidence_ids:
+    - ev-f5183d4910b958e6
+  - gate: truth
+    status: insufficient
+    reason: 产品直指物理 AI 第一性目标——让机器人在真实环境中可靠感知并自主行动，任务贴合度高；但实时感知的确定性交付、安全边界与失效模式缺少公开基准、部署文档或第三方评测，兑现程度未知。
+    evidence_ids:
+    - ev-f5183d4910b958e6
+  next_validation: 追踪 Lyte 官网与后续 Crunchbase News/行业报道中的客户案例、合作伙伴公告或部署文档，确认首个披露客户、技术规格与商业化路径（定价或授权模式）。
+  market: ''
+  job: 机器人（尤其在制造与物流场景）需要实时感知并理解周围环境——物体识别、定位与导航——才能执行自主作业。
+  job_en: Robots (especially in manufacturing and logistics) need to perceive and understand their surroundings
+    in real time—object recognition, localization, and navigation—to perform autonomous tasks.
+  pain: 自建感知栈成本高、开发慢；依赖预编程路径的机器人难以适应动态环境，自主化被卡在环境理解这一环。此为行业结构推断，用户侧抱怨或行为证据尚未核验。
+  pain_en: Building perception stacks in-house is costly and slow; robots on pre-programmed paths struggle
+    in dynamic environments, so autonomy stalls at environment understanding. This pain is a structural
+    industry inference; user-side complaints or behavior are not yet verified.
+  current_alternative: 机器人厂商自研感知方案（激光雷达、SLAM、定制视觉），或把机器人限制在固定路线与受控工位内运行。
+  current_alternative_en: Robot makers build their own perception stacks (LiDAR, SLAM, custom vision)
+    or confine robots to fixed routes and controlled stations.
+  usage_reason: 若 Lyte 的传感与感知技术能以更低成本、更强泛化交付实时环境理解，机器人厂商与自动化团队有理由采用；当前关注主要由 1.65 亿美元 C 轮融资与前 Apple 工程师背景解释，属资本信号，尚不能当作付费或留存证据。
+  usage_reason_en: If Lyte's sensing and perception tech delivers real-time environment understanding
+    more cheaply and robustly than in-house stacks, robot OEMs and automation teams have a reason to adopt;
+    current attention is mainly explained by the $165M Series C and the ex-Apple pedigree—a capital signal,
+    not yet evidence of payment or retention.

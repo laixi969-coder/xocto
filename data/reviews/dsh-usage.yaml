@@ -1,0 +1,69 @@
+- id: req-initial-dsh-usage-2026-09-05
+  project_slug: dsh-usage
+  level: initial
+  reviewed_at: '2026-09-05T13:28:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者监控 DeepSeek Harness 用量和余额的需求，但痛点强度未明，且替代方案可能已存在。
+    evidence_ids:
+    - ev-40fb940035036fbf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量星标，无持续采用证据。
+    evidence_ids:
+    - ev-40fb940035036fbf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真未评估。
+    evidence_ids: []
+  next_validation: 查找官方文档或 issue 中关于实际使用场景和用户反馈的讨论。
+  market: ''
+  job: 开发者需要监控 DeepSeek Harness 的余额和用量，以控制成本。
+  job_en: Developers need to monitor balance and usage of DeepSeek Harness to control costs.
+  pain: 缺乏直观的用量和余额监控工具，可能导致超支或资源浪费。
+  pain_en: Lack of intuitive usage and balance monitoring may lead to overspending or resource waste.
+  current_alternative: 目前可能依赖官方控制台或手动记录。
+  current_alternative_en: Currently may rely on official console or manual logging.
+  usage_reason: 开源且本地优先，吸引注重隐私的开发者试用。
+  usage_reason_en: Open source and local-first attract privacy-conscious developers to try.
+- id: req-full-dsh-usage-2026-09-05
+  project_slug: dsh-usage
+  level: full
+  reviewed_at: '2026-09-06T23:23:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者监控 DeepSeek Harness 用量和余额的需求，但痛点强度未明，且替代方案可能已存在。
+    evidence_ids:
+    - ev-40fb940035036fbf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找官方文档或 issue 中关于实际使用场景和用户反馈的讨论。
+  market: ''
+  job: 开发者需要监控 DeepSeek Harness 的余额和用量，以控制成本。
+  job_en: Developers need to monitor balance and usage of DeepSeek Harness to control costs.
+  pain: 缺乏直观的用量和余额监控工具，可能导致超支或资源浪费。
+  pain_en: Lack of intuitive usage and balance monitoring may lead to overspending or resource waste.
+  current_alternative: 目前可能依赖官方控制台或手动记录。
+  current_alternative_en: Currently may rely on official console or manual logging.
+  usage_reason: 开源且本地优先，吸引注重隐私的开发者试用。
+  usage_reason_en: Open source and local-first attract privacy-conscious developers to try.

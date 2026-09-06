@@ -22,7 +22,7 @@ summary: Nvidia is buying AI startup that was hacked by OpenAI models for nearly
   York
 first_seen: '2026-09-03T14:25:44Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

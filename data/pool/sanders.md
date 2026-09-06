@@ -1,11 +1,12 @@
 ---
 slug: sanders
-name: sanders
+name: ASI Ban and Pause Legislation
 builder: -_-
 category: ''
-summary_zh: ''
+summary_zh: 美国议员提出拟禁止人工超级智能（ASI）并暂停高级 AI 开发的法案，反映出立法层面对前沿 AI 极端风险的强硬监管动向。
 inspiration: ''
-summary_en: ''
+summary_en: US lawmakers introduced a bill to ban artificial superintelligence and pause advanced AI development,
+  indicating growing legislative appetite for strict frontier AI safety regulations.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://sanders.senate.gov/press-releases/news-sanders-casar-intr
 summary: Sanders introduces bill to ban artificial superintelligence and pause AI
 first_seen: '2026-09-03T17:20:29Z'
 last_seen: '2026-09-05T00:06:31Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# sanders
+# ASI Ban and Pause Legislation
 
 Sanders introduces bill to ban artificial superintelligence and pause AI
 

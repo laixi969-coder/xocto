@@ -1,0 +1,79 @@
+- id: req-initial-完成4000万美金融资ace成为ai音乐赛道融资额最高的华人团队-2026-09-05
+  project_slug: 完成4000万美金融资ace成为ai音乐赛道融资额最高的华人团队
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音乐创作中快速生成草稿和伴奏的需求，痛点在于传统创作耗时和瓶颈，替代方式是手动编曲或外包，AI 生成能加速前期探索。
+    evidence_ids:
+    - ev-a9fb19db7c8689c8
+  - gate: consensus
+    status: insufficient
+    reason: 融资消息显示资本关注，但缺乏用户采用或社区讨论的公开证据，共识尚未明确。
+    evidence_ids:
+    - ev-a9fb19db7c8689c8
+  - gate: model
+    status: insufficient
+    reason: 付费模式未披露，可能面向消费者或专业用户，但无定价或收入证据，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 生成音乐的质量和可控性尚需验证，交付能否确定满足专业需求未知。
+    evidence_ids: []
+  next_validation: 查找 ACE 的官方定价页或产品文档，确认其目标用户和付费模式。
+  market: ''
+  job: 音乐制作人和词曲作者需要快速生成歌曲草稿或伴奏，以探索创意或满足客户需求。
+  job_en: Music producers and songwriters need to quickly generate song drafts or accompaniments to explore
+    ideas or meet client demands.
+  pain: 传统创作过程耗时，从灵感到成品需要大量时间，且创作瓶颈常见。
+  pain_en: Traditional creation is time-consuming, from idea to finished product, and creative blocks
+    are common.
+  current_alternative: 目前他们可能使用 DAW 软件手动编曲，或雇佣代写，成本高且周期长。
+  current_alternative_en: Currently they may use DAW software for manual composition, or hire ghostwriters,
+    which is costly and slow.
+  usage_reason: AI 能快速提供多种音乐变体，降低创作门槛，即使结果需人工调整，也能显著加速前期探索。
+  usage_reason_en: AI can quickly provide multiple musical variations, lowering the barrier to creation;
+    even if results need manual adjustment, it significantly accelerates early exploration.
+- id: req-full-完成4000万美金融资ace成为ai音乐赛道融资额最高的华人团队-2026-09-05
+  project_slug: 完成4000万美金融资ace成为ai音乐赛道融资额最高的华人团队
+  level: full
+  reviewed_at: '2026-09-06T23:35:32Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音乐创作中快速生成草稿和伴奏的需求，痛点在于传统创作耗时和创作瓶颈，替代方式是手动编曲或外包，AI 生成能加速前期探索，交付可确定（生成音频文件），结构上成立。
+    evidence_ids:
+    - ev-a9fb19db7c8689c8
+  - gate: consensus
+    status: insufficient
+    reason: 融资消息显示资本关注，但缺乏用户采用或社区讨论的公开证据，共识尚未明确。
+    evidence_ids:
+    - ev-a9fb19db7c8689c8
+  - gate: model
+    status: insufficient
+    reason: 付费模式未披露，可能面向消费者或专业用户，但无定价或收入证据，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 生成音乐的质量和可控性尚需验证，交付能否确定满足专业需求未知。
+    evidence_ids: []
+  next_validation: 查找 ACE 的官方定价页或产品文档，确认其目标用户和付费模式。
+  market: ''
+  job: 音乐制作人和词曲作者需要快速生成歌曲草稿或伴奏，以探索创意、克服创作瓶颈或满足客户需求。
+  job_en: Music producers and songwriters need to quickly generate song drafts or accompaniments to explore
+    ideas, overcome creative blocks, or meet client demands.
+  pain: 传统创作过程耗时，从灵感到成品需要大量时间，创作瓶颈常见，且外包或雇佣代写成本高、周期长。
+  pain_en: Traditional creation is time-consuming, from idea to finished product, and creative blocks
+    are common; outsourcing or hiring ghostwriters is costly and slow.
+  current_alternative: 目前他们可能使用 DAW 软件手动编曲，或雇佣代写，成本高且周期长。
+  current_alternative_en: Currently they may use DAW software for manual composition, or hire ghostwriters,
+    which is costly and slow.
+  usage_reason: AI 能快速提供多种音乐变体，降低创作门槛，即使结果需人工调整，也能显著加速前期探索，因此吸引音乐创作者关注和试用。
+  usage_reason_en: AI can quickly provide multiple musical variations, lowering the barrier to creation;
+    even if results need manual adjustment, it significantly accelerates early exploration, thus attracting
+    attention and trials from music creators.

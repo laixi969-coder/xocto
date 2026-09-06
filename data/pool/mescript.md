@@ -21,7 +21,7 @@ canonical_url: https://quadracollision.com/mescript
 summary: music programming language inspired by Lisp
 first_seen: '2026-09-04T14:32:24Z'
 last_seen: '2026-09-05T13:28:21Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

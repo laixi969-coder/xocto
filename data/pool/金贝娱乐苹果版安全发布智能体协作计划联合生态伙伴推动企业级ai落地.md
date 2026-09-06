@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vY2pDaEdpTkYw
 summary: 金贝娱乐苹果版安全发布智能体协作计划：联合生态伙伴推动企业级AI落地 体坛
 first_seen: '2026-09-05T01:56:05Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

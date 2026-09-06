@@ -1,0 +1,81 @@
+- id: req-initial-armature-2026-09-05
+  project_slug: armature
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者了解编码代理工具选择的需求，痛点在于信息不透明，现有替代是经验或手动测试，数据测量能提供确定性交付。
+    evidence_ids:
+    - ev-e207f8877eaa1eca
+  - gate: consensus
+    status: supported
+    reason: 社区讨论热烈（289 分、144 评论），表明开发者对代理工具选择有强烈关注，但持续采用仍需观察。
+    evidence_ids:
+    - ev-e207f8877eaa1eca
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者免费或开源，付费路径不明，但作为开源项目可能通过企业服务或赞助盈利。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 测量数据贴近开发者真实需求，交付可验证，但需确保数据准确性和代表性。
+    evidence_ids:
+    - ev-e207f8877eaa1eca
+  next_validation: 查看 armature 的 公开代码仓库 仓库或官方文档，确认其数据收集方法和是否提供可下载的详细报告。
+  market: ''
+  job: 开发者在选择或配置编码代理时，需要了解不同代理默认安装哪些工具，以评估其适用性和潜在风险。
+  job_en: Developers need to know which tools different coding agents install by default when selecting
+    or configuring them, to assess suitability and potential risks.
+  pain: 编码代理的工具选择不透明，可能导致兼容性问题或安全风险，开发者缺乏系统性的比较数据。
+  pain_en: The tool choices of coding agents are opaque, potentially causing compatibility issues or security
+    risks, and developers lack systematic comparative data.
+  current_alternative: 开发者通常依赖个人经验、社区讨论或手动测试来了解代理行为，缺乏大规模实证数据。
+  current_alternative_en: Developers typically rely on personal experience, community discussions, or
+    manual testing to understand agent behavior, lacking large-scale empirical data.
+  usage_reason: armature 提供基于 17,000 次运行的实际测量数据，能帮助开发者做出更明智的代理选择，因此社区讨论热烈。
+  usage_reason_en: Armature provides empirical data based on 17,000 runs, helping developers make more
+    informed agent choices, hence the active community discussion.
+- id: req-full-armature-2026-09-05
+  project_slug: armature
+  level: full
+  reviewed_at: '2026-09-06T23:17:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它声称解决开发者了解编码代理工具选择的需求，痛点在于信息不透明，但公开证据仅指向电气工程中'armature'的定义，未找到该软件项目的任何官方说明、文档或用户讨论，无法确认其实际功能与交付。
+    evidence_ids:
+    - ev-5fdcb4f2ccb12b47
+    - ev-f3504f17c2bd95e0
+    - ev-a5443d6cb2968a8b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 在 GitHub 或官方代码仓库搜索 'armature' 项目，确认其是否存在、数据收集方法及可下载报告。
+  market: ''
+  job: 开发者需要了解不同编码代理（如 Claude、Codex、Cursor）默认安装的工具链，以评估其适用性和潜在风险。
+  job_en: Developers need to know which tools different coding agents (e.g., Claude, Codex, Cursor) install
+    by default, to assess suitability and potential risks.
+  pain: 编码代理的工具选择不透明，可能导致兼容性问题或安全风险，开发者缺乏系统性的比较数据。
+  pain_en: The tool choices of coding agents are opaque, potentially causing compatibility issues or security
+    risks, and developers lack systematic comparative data.
+  current_alternative: 开发者通常依赖个人经验、社区讨论或手动测试来了解代理行为，缺乏大规模实证数据。
+  current_alternative_en: Developers typically rely on personal experience, community discussions, or
+    manual testing to understand agent behavior, lacking large-scale empirical data.
+  usage_reason: armature 声称提供基于 17,000 次运行的实际测量数据，可能帮助开发者做出更明智的代理选择，但公开证据中未找到该项目的实际存在或相关讨论。
+  usage_reason_en: Armature claims to provide empirical data based on 17,000 runs, potentially helping
+    developers make more informed agent choices, but no public evidence of the project's existence or
+    related discussions was found.

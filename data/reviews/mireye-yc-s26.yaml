@@ -1,0 +1,77 @@
+- id: req-initial-mireye-yc-s26-2026-09-05
+  project_slug: mireye-yc-s26
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，具体工作流程和交付物未披露。
+    evidence_ids:
+    - ev-0ef211242c01acdf
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用证据，仅社区讨论。
+    evidence_ids:
+    - ev-0ef211242c01acdf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法验证真实性。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档中关于具体使用场景和交付物的详细说明。
+  market: ''
+  job: 企业和开发者需要为物理世界 AI 代理（如机器人）构建和部署基础设施。
+  job_en: Businesses and developers need to build and deploy infrastructure for physical world AI agents
+    such as robots.
+  pain: 物理世界 AI 代理缺乏可靠的基础设施，导致部署复杂、成本高。
+  pain_en: Physical world AI agents lack reliable infrastructure, leading to complex deployment and high
+    costs.
+  current_alternative: 使用定制化系统或传统自动化方案，但难以适应 AI 代理的需求。
+  current_alternative_en: Using customized systems or traditional automation solutions, but struggling
+    to meet the needs of AI agents.
+  usage_reason: YC 背景和社区讨论可能吸引关注，但具体采用原因和场景尚不明确。
+  usage_reason_en: YC background and community discussion may attract attention, but specific adoption
+    reasons and use cases are unclear.
+- id: req-full-mireye-yc-s26-2026-09-05
+  project_slug: mireye-yc-s26
+  level: full
+  reviewed_at: '2026-09-06T23:29:36Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，具体工作流程和交付物未披露。
+    evidence_ids:
+    - ev-0ef211242c01acdf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档中关于具体使用场景和交付物的详细说明。
+  market: ''
+  job: 企业和开发者需要为物理世界 AI 代理（如机器人）构建和部署基础设施。
+  job_en: Businesses and developers need to build and deploy infrastructure for physical world AI agents
+    such as robots.
+  pain: 物理世界 AI 代理缺乏可靠的基础设施，导致部署复杂、成本高。
+  pain_en: Physical world AI agents lack reliable infrastructure, leading to complex deployment and high
+    costs.
+  current_alternative: 使用定制化系统或传统自动化方案，但难以适应 AI 代理的需求。
+  current_alternative_en: Using customized systems or traditional automation solutions, but struggling
+    to meet the needs of AI agents.
+  usage_reason: YC 背景和社区讨论可能吸引关注，但具体采用原因和场景尚不明确。
+  usage_reason_en: YC background and community discussion may attract attention, but specific adoption
+    reasons and use cases are unclear.

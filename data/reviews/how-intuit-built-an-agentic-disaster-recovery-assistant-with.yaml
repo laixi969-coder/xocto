@@ -1,0 +1,80 @@
+- id: req-initial-how-intuit-built-an-agentic-disaster-recovery-assistant-with-2026-09-05
+  project_slug: how-intuit-built-an-agentic-disaster-recovery-assistant-with
+  level: initial
+  reviewed_at: '2026-09-05T00:07:00Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决值班工程师在事故压力下快速、低错完成生产切换的需求；手工 runbook 步骤多易错，旧替代行为明确，此为工作流结构推理。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  - gate: consensus
+    status: insufficient
+    reason: 仅 Intuit 一家内部案例与 AWS 联合发布，无外部采用或同行跟进数据；场景明确但共识停留在单点实践。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  - gate: model
+    status: insufficient
+    reason: 若产品化，买方是企业级 to B 运维平台或云厂商附加能力；内部使用则省钱于事故损失与人力，无定价披露，此为判断非已验证事实。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  - gate: truth
+    status: supported
+    reason: 目标贴近安全恢复服务这一第一性目标；审计与策略约束提供确定性边界，但生产自动执行可靠性仍需以演练与回滚机制核验。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  next_validation: 自动抓取该 AWS 案例页与 Intuit 工程博客的后续披露，核对 EWOK Agent 的演练频率、切换耗时或事故恢复时长等可量化交付结果。
+  market: ''
+  job: 值班工程师在生产事故或容灾演练中安全、快速地完成服务故障切换。
+  job_en: On-call engineers safely and quickly complete production failovers during incidents or DR drills.
+  pain: 手工照 runbook 执行切换步骤多、易出错、耗时长，事故高压下风险大，且每一步都要事后补审计。
+  pain_en: Manual runbook execution involves many error-prone, slow steps; under incident pressure the
+    risk is high, and every action needs retrospective auditing.
+  current_alternative: 工程师按 runbook 文档手工逐步操作，配合审批工单、多人盯守和事后审计。
+  current_alternative_en: Engineers manually follow runbook documents step by step, with approval tickets,
+    extra people on watch, and after-the-fact audits.
+  usage_reason: 用一句自然语言发起切换，策略约束下自动执行并自动留审计记录，响应更快、合规可查，演练门槛也更低。
+  usage_reason_en: 'A single plain-language request triggers policy-bound automated execution with built-in
+    audit trails: faster response, verifiable compliance, and lower-friction drills.'
+- id: req-full-how-intuit-built-an-agentic-disaster-recovery-assistant-with-2026-09-05
+  project_slug: how-intuit-built-an-agentic-disaster-recovery-assistant-with
+  level: full
+  reviewed_at: '2026-09-06T23:27:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决值班工程师在事故压力下快速、低错完成生产切换的需求；手工 runbook 步骤多易错，旧替代行为明确，此为工作流结构推理。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  - gate: consensus
+    status: insufficient
+    reason: 仅 Intuit 一家内部案例与 AWS 联合发布，无外部采用或同行跟进数据；场景明确但共识停留在单点实践。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  - gate: model
+    status: insufficient
+    reason: 若产品化，买方是企业级 to B 运维平台或云厂商附加能力；内部使用则省钱于事故损失与人力，无定价披露，此为判断非已验证事实。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  - gate: truth
+    status: supported
+    reason: 目标贴近安全恢复服务这一第一性目标；审计与策略约束提供确定性边界，但生产自动执行可靠性仍需以演练与回滚机制核验。
+    evidence_ids:
+    - ev-15ec2c08d82c9575
+  next_validation: 自动抓取该 AWS 案例页与 Intuit 工程博客的后续披露，核对 EWOK Agent 的演练频率、切换耗时或事故恢复时长等可量化交付结果。
+  market: ''
+  job: 值班工程师在生产事故或容灾演练中安全、快速地完成服务故障切换。
+  job_en: On-call engineers safely and quickly complete production failovers during incidents or DR drills.
+  pain: 手工照 runbook 执行切换步骤多、易出错、耗时长，事故高压下风险大，且每一步都要事后补审计。
+  pain_en: Manual runbook execution involves many error-prone, slow steps; under incident pressure the
+    risk is high, and every action needs retrospective auditing.
+  current_alternative: 工程师按 runbook 文档手工逐步操作，配合审批工单、多人盯守和事后审计。
+  current_alternative_en: Engineers manually follow runbook documents step by step, with approval tickets,
+    extra people on watch, and after-the-fact audits.
+  usage_reason: 用一句自然语言发起切换，策略约束下自动执行并自动留审计记录，响应更快、合规可查，演练门槛也更低。
+  usage_reason_en: 'A single plain-language request triggers policy-bound automated execution with built-in
+    audit trails: faster response, verifiable compliance, and lower-friction drills.'

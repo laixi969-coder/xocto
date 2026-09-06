@@ -1,0 +1,76 @@
+- id: req-initial-saudi-ai-startup-idraj-raises-sar-225-million-in-pre-seed-fu-2026-09-05
+  project_slug: saudi-ai-startup-idraj-raises-sar-225-million-in-pre-seed-fu
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决什么需求、什么痛点无法从公开资料中写出，价值关不成立。
+    evidence_ids:
+    - ev-91deb2e99aaa68ec
+  - gate: consensus
+    status: insufficient
+    reason: 无产品采用或社区讨论证据。
+    evidence_ids:
+    - ev-91deb2e99aaa68ec
+  - gate: model
+    status: insufficient
+    reason: 无商业模式信息。
+    evidence_ids:
+    - ev-91deb2e99aaa68ec
+  - gate: truth
+    status: insufficient
+    reason: 无产品细节，无法判断真实性。
+    evidence_ids:
+    - ev-91deb2e99aaa68ec
+  next_validation: 查找 IDRAJ 的官方网站或产品介绍，了解其业务方向。
+  market: ''
+  job: 未知，公开资料未说明 IDRAJ 解决什么任务。
+  job_en: Unknown, public materials do not state what task IDRAJ addresses.
+  pain: 未知，无法判断痛点。
+  pain_en: Unknown, cannot assess pain points.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 仅融资信息，无产品细节，无法判断使用原因。
+  usage_reason_en: Only funding info, no product details, cannot assess usage reason.
+- id: req-full-saudi-ai-startup-idraj-raises-sar-225-million-in-pre-seed-fu-2026-09-05
+  project_slug: saudi-ai-startup-idraj-raises-sar-225-million-in-pre-seed-fu
+  level: full
+  reviewed_at: '2026-09-06T23:30:28Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 唯一项目事实是2026年9月融资报道，披露IDRAJ完成SAR 225万种子前融资；全部公开材料未说明产品形态、目标用户或交付物，需求与痛点无法从公开事实写出，价值结构不成立。
+    evidence_ids:
+    - ev-91deb2e99aaa68ec
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪IDRAJ官方网站及沙特科技融资媒体（如MAGNiTT、Wamda、Maaal）的后续公开报道，待其披露产品说明、目标客户或定价页后重跑四道闸门。
+  market: ''
+  job: 用户要完成的任务未知：公开材料仅确认IDRAJ是沙特AI初创公司并完成SAR 225万种子前融资，未披露任何产品、服务或目标工作流。
+  job_en: 'The user job is unknown: public materials only confirm IDRAJ is a Saudi AI startup that closed
+    a SAR 2.25M pre-seed round, with no product, service, or target workflow disclosed.'
+  pain: 痛点尚未核验：没有产品描述就没有可引用的用户痛点，"AI公司"的品类标签不能充当痛点证据，也不能替它虚构场景。
+  pain_en: 'Pain is unverified: without a product description there is no citable user pain; the generic
+    "AI startup" label is not pain evidence, and no scenario may be invented on its behalf.'
+  current_alternative: 无法识别目标任务，因此无当前替代方式可写；检索命中的Gemini、ChatGPT等通用AI页面只是品类背景，不能归因为该项目的替代品。
+  current_alternative_en: The target task cannot be identified, so no current alternative can be stated;
+    generic AI pages (Gemini, ChatGPT) found in coverage are category background and cannot be attributed
+    as this project's alternatives.
+  usage_reason: 当前唯一可解释的关注理由是融资新闻本身的信号价值；产品层面的采用、付费或留存理由均尚未核验。
+  usage_reason_en: The only explainable attention driver is the signal value of the funding news itself;
+    product-level adoption, payment, or retention rationale remains unverified.

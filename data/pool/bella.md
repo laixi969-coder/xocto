@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/juiceb0xc0de/bella-chat
 summary: A personality model that talks like one specific person
 first_seen: '2026-09-04T03:36:11Z'
 last_seen: '2026-09-05T00:06:57Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -1,0 +1,84 @@
+- id: req-initial-数巅智能以数据智能体重塑企业ai生产力-2026世界人工智能大会-agent-工作任务-环球网-何昌华-手机新浪网-2026-09-05
+  project_slug: 数巅智能以数据智能体重塑企业ai生产力-2026世界人工智能大会-agent-工作任务-环球网-何昌华-手机新浪网
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它指向企业用自然语言完成取数与分析的需求，但材料只有大会报道标题，缺少具体工作节点、输入输出与痛点细节，价值无法核实。
+    evidence_ids:
+    - ev-d79959f259a6eeab
+    - ev-003e8e8865c3091b
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关证据不足；材料仅为大会报道标题，没有用户规模、评价或采用信号可评。
+    evidence_ids:
+    - ev-d79959f259a6eeab
+    - ev-003e8e8865c3091b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关证据不足；无定价、买方或收费方式信息，付费路径无法判断。
+    evidence_ids:
+    - ev-d79959f259a6eeab
+    - ev-003e8e8865c3091b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关证据不足；无法核对交付确定性、结果准确性与人工边界。
+    evidence_ids:
+    - ev-d79959f259a6eeab
+    - ev-003e8e8865c3091b
+  next_validation: 抓取数巅智能官网或官方发布的产品说明页，核对其数据智能体的具体输入、工作流与定价信息。
+  market: ''
+  job: 据其数据智能体定位推断，企业业务人员想用自然语言从业务数据中直接取数、做分析并得出结论。
+  job_en: Based on its data-agent positioning, business users likely want to query and analyze business
+    data with natural language and reach conclusions directly.
+  pain: 企业取数与分析通常依赖数据团队排期，业务侧等待久、口径反复沟通，据标题推断这是其瞄准的痛点。
+  pain_en: Data requests typically wait on the data team's queue, and definitions get re-litigated; inferred
+    from the headline as the targeted pain.
+  current_alternative: 现有替代包括BI报表、向数据团队提需求、Excel手工整理，资料未说明其替代哪一步。
+  current_alternative_en: Existing alternatives include BI dashboards, filing requests with data teams,
+    and manual Excel work; the material does not say which step it replaces.
+  usage_reason: 若产品确能把自然语言问题转成可靠的数据结论，业务人员会为省去等待数据团队排期而试用；此为条件判断，产品细节未核验。
+  usage_reason_en: If it truly turns natural-language questions into reliable data conclusions, business
+    users would try it to skip the data-team queue; this is conditional, product details unverified.
+- id: req-full-数巅智能以数据智能体重塑企业ai生产力-2026世界人工智能大会-agent-工作任务-环球网-何昌华-手机新浪网-2026-09-05
+  project_slug: 数巅智能以数据智能体重塑企业ai生产力-2026世界人工智能大会-agent-工作任务-环球网-何昌华-手机新浪网
+  level: full
+  reviewed_at: '2026-09-06T23:34:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它瞄准企业员工以数据智能体完成取数分析类工作任务、提升AI生产力的需求，品类痛点或为业务取数依赖数据团队、等待久；但公开材料仅有大会报道标题，服务岗位、输入材料、交付结果与工作流均未披露，结构推理无法闭合交付环节。
+    evidence_ids:
+    - ev-d79959f259a6eeab
+    - ev-003e8e8865c3091b
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 抓取数巅智能官网或其官方发布的产品说明页，核对数据智能体的输入材料、工作流节点、交付结果与定价信息是否披露。
+  market: ''
+  job: 据其数据智能体定位推断，企业业务人员想用自然语言从业务数据中直接取数、做分析并得出结论。
+  job_en: Based on its data-agent positioning, enterprise business users likely want to query and analyze
+    business data in natural language and reach conclusions directly.
+  pain: 业务侧取数分析常依赖数据团队排期，等待久、口径反复沟通；此为按品类推断的痛点，材料本身未证实。
+  pain_en: Data requests typically wait on the data team's queue, with long delays and repeated definition
+    debates; this pain is inferred from the category, not confirmed by the material.
+  current_alternative: 现有替代包括BI报表、向数据团队提需求、Excel手工整理；材料未说明它替代其中哪一步。
+  current_alternative_en: Existing alternatives include BI dashboards, filing requests with data teams,
+    and manual Excel work; the material does not say which step it replaces.
+  usage_reason: 若产品确能把自然语言问题转成可靠的数据结论，业务人员会为省去等待数据团队排期而试用；此为条件判断，其交付能力尚未披露。
+  usage_reason_en: If it truly turns natural-language questions into reliable data conclusions, business
+    users would try it to skip the data-team queue; this is conditional — its delivery capability is undisclosed.

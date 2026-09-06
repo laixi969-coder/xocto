@@ -1,20 +1,36 @@
 ---
 slug: 成立不到一年连融三轮这个睡眠-ai-产品火了
-name: 成立不到一年连融三轮，这个睡眠 AI 产品「火」了
+name: Fullive.ai
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: Somni 是一款面向高压脑力人群的睡眠硬件，利用毫米波雷达、麦克风阵列和环境传感器感知睡眠状态，并通过声音、光线、气味等方式调节环境，帮助用户更快入睡、减少夜间醒来并实现自然唤醒。
+inspiration: 趋势：睡眠健康市场日益关注主动干预，硬件+AI 结合正成为主流。切入：针对高压职业人群的睡眠硬件，提供环境调节与实时反馈，填补传统手环只能监测、无法干预的空白。
+summary_en: Somni is a sleep‑hardware device aimed at high‑stress professionals. Using millimeter‑wave
+  radar, microphone arrays, and environmental sensors, it monitors breathing, heart rate, movement, and
+  room conditions, then adjusts sound, light, and scent to help users fall asleep faster, reduce nighttime
+  awakenings, and wake naturally.
+inspiration_en: 'Trend: The sleep‑health market is moving toward proactive interventions, with hardware‑AI
+  integration becoming mainstream. Entry point: a sleep‑hardware solution for high‑stress professionals
+  that provides environmental adjustment and real‑time feedback, filling the gap left by wearables that
+  only monitor.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 健康科技
+- 生活科技
+industries_en:
+- HealthTech
+- LifestyleTech
+jobs:
+- 睡眠健康顾问
+- 高压职业人群
+jobs_en:
+- SleepHealthConsultant
+- HighStressProfessionals
+regions:
+- 中国
+regions_en:
+- China
 open_source: false
 url: http://www.geekpark.net/news/369768
 canonical_url: https://geekpark.net/news/369768
@@ -55,7 +71,7 @@ summary: "头图来源：Fullive.ai \n 一家成立几个月、第一款产品�
   \ \n 如果这个闭环成立，床头或许会成为 AI4Bio 的一个新入口。而 AI 对生命的理解，也将从识别「此刻是什么」，延伸到推演「接下来会怎样」。"
 first_seen: '2026-09-03T06:05:37Z'
 last_seen: '2026-09-05T00:07:01Z'
-status: pending_filter
+status: queued
 sources:
 - marketfeeds
 sightings:
@@ -66,7 +82,7 @@ sightings:
   kind: news
 ---
 
-# 成立不到一年连融三轮，这个睡眠 AI 产品「火」了
+# Fullive.ai
 
 头图来源：Fullive.ai 
  一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注，智元机器人等机构先后进入股东名单；到了今年 7 月，招商局创投又领投了它的新一轮融资。 

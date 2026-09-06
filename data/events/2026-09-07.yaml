@@ -44,3 +44,66 @@
   - ev-95eb7b33745fe046
   - ev-95eb7b33745fe046
   homepage: true
+- id: req-change-0sec-2026-09-05
+  project_slug: 0sec
+  event_type: req_change
+  occurred_at: '2026-09-06T23:10:11Z'
+  discovered_at: '2026-09-06T23:10:11Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：有强场景但共识卡在感知与验证环节：仅有仓库star一周40增至62的有限关注，缺独立讨论、评测或使用者公开反馈；中文生态检索亦未发现相关公开资料。
+  summary_en: ''
+  evidence_ids:
+  - ev-05f31eae16606ac3
+  - ev-12df938e5dbbc21a
+  - ev-12df938e5dbbc21a
+  - ev-99e79d47420e2a2e
+  - ev-12df938e5dbbc21a
+  - ev-840fa7e47fbeac69
+  - ev-ebbcd304abc3ba07
+  - ev-dfb7aa94df80d560
+  homepage: true
+- id: req-change-acryl-2026-09-05
+  project_slug: acryl
+  event_type: req_change
+  occurred_at: '2026-09-06T23:11:24Z'
+  discovered_at: '2026-09-06T23:11:24Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：公开材料仅说明提供持久工作区和统一上下文，但未明确具体用户任务、输入输出或交付闭环，无法判断需求强度。
+  summary_en: ''
+  evidence_ids:
+  - ev-6f759fc3c23437be
+  homepage: true
+- id: req-change-alego-2026-09-05
+  project_slug: alego
+  event_type: req_change
+  occurred_at: '2026-09-06T23:15:08Z'
+  discovered_at: '2026-09-06T23:15:08Z'
+  signals:
+  - update
+  summary: 信号由“需求存疑”调整为“初步成立”；当前停在共识闸门：星标两天内从 79 升至 109，显示早期开发者关注在增长；但无 issue、讨论或用户案例，关注不等于持续采用，中文生态检索亦未见该项目。
+  summary_en: ''
+  evidence_ids:
+  - ev-4ba6344570fa6cc7
+  - ev-0df4c91f4818da18
+  - ev-a679adf7f055e198
+  - ev-cb21c90343137f3c
+  - ev-26efbee60b26435b
+  - ev-4ba6344570fa6cc7
+  - ev-4ba6344570fa6cc7
+  homepage: true
+- id: req-change-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-09-05
+  project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
+  event_type: req_change
+  occurred_at: '2026-09-06T23:27:27Z'
+  discovered_at: '2026-09-06T23:27:27Z'
+  signals:
+  - update
+  summary: 信号由“初步成立”调整为“需求存疑”；当前停在价值闸门：候选称其解决实验室移液分装重复、易错、一致性差的痛点，但该自述不可信；所收证据全部是俄克拉荷马州酒类管理委员会（同名ABLE）牌照门户，无一描述该产品用户任务或交付闭环，宣称的870万美元融资也缺独立信源。
+  summary_en: ''
+  evidence_ids:
+  - ev-6c591fe7fe71a228
+  - ev-ca8fffea3b886f05
+  - ev-165906e32d750cda
+  homepage: true

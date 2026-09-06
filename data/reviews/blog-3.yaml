@@ -1,0 +1,88 @@
+- id: req-initial-blog-3-2026-09-05
+  project_slug: blog-3
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码助手在大型项目中因缺乏架构上下文而胡乱写代码、重复造轮子的刚性痛点，结构成立。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  - gate: consensus
+    status: insufficient
+    reason: 上下文管理已成为 AI 辅助编程领域的共识痛点，但该开源方案的实际团队采用规模仍待观察。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  - gate: model
+    status: insufficient
+    reason: 目前为开源免费项目，尚未形成商业付费路径或企业级托管变现模式。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  - gate: truth
+    status: supported
+    reason: 通过静态元数据与 CLI 程序化提供代码上下文，交付确定性高且符合工程约束。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  next_validation: 观察该开源仓库的 Star 增长、Issue 反馈以及是否有企业在 CI/CD 中落地采用的公开案例。
+  market: ''
+  job: 在大型代码库中让 AI 编码智能体按既有架构和技术规范编写代码，避免错误修改或重复造轮子。
+  job_en: Enable AI coding agents to write code according to existing architecture and technical conventions
+    in complex repositories without breaking standards or reinventing wheels.
+  pain: AI 缺少代码库全局架构上下文，动辄读取过多文件导致超出有效窗口，屡次犯相同错误且无法随代码回滚同步记忆。
+  pain_en: AI agents lack codebase-wide architectural context, frequently exceeding effective context
+    windows by reading too many files and repeating errors without version-controlled memory.
+  current_alternative: 手动在每次提示词中复制粘贴架构说明，或依靠通用的 diataxis 格式文档与多轮人工纠错。
+  current_alternative_en: Manually copy-pasting architectural notes into prompts or relying on generic
+    human-oriented documentation with tedious multi-turn manual corrections.
+  usage_reason: 开发者希望用与 Git 联动的程序化机制，以极低 Token 消耗为智能体精准输送代码决策与相关依赖。
+  usage_reason_en: Developers want a deterministic, Git-linked mechanism to feed precise architectural
+    decisions and dependencies to agents with minimal token overhead.
+- id: req-full-blog-3-2026-09-05
+  project_slug: blog-3
+  level: full
+  reviewed_at: '2026-09-06T23:18:36Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编码智能体在成熟代码库中缺架构上下文的刚性痛点：不循既有方案、重复造轮子、memory 不随代码回滚同步、读文件过多耗尽窗口后输出混乱。文档随代码版本化、按 topic
+      组织并由 CLI 程序化匹配，交付闭环可确定。痛点来自作者一手自述，此判断属工作流结构推理。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  - gate: consensus
+    status: insufficient
+    reason: 痛点方向与业界给 AI 编码工具加装 rules/memory 功能的趋势一致，属可判断的强场景，但证据中仅有作者自述与求 Star 号召；标题所称 3 亿 ARR 经作者自认是另两家产品
+      ARR 之和，不构成 llmdoc 本身的第三方采用证据。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  - gate: model
+    status: insufficient
+    reason: 项目以开源免费形式发布，文中只求 Star 未提定价或买方，to C 或 to B 的付费路径均属推测，这是判断而非已验证事实；模式关无法确认，但不影响价值结构成立。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  - gate: truth
+    status: supported
+    reason: CLI 程序化判断结论一致且不烧 token，代码与文档的 gap 检测直接针对 memory 漂移这一失效模式，机制贴近稳定供给上下文的第一性目标；但效果目前仅有作者个人项目自述，尚无第三方交付结果核验。
+    evidence_ids:
+    - ev-e62946de03cc72c1
+  next_validation: 持续追踪 github.com/TokenRollAI/llmdoc 的 Star 增长、Issue/Discussion 中第三方团队的真实使用反馈，以及 README
+    与官网是否出现定价、企业落地案例或部署文档。
+  market: ''
+  job: 让 AI 编码智能体在复杂代码库中按既有架构、技术方案与领域决策写代码，并快速获得与当前任务相关的关键上下文。
+  job_en: Enable AI coding agents to follow existing architecture, conventions, and domain decisions in
+    complex repositories, with fast access to task-relevant context.
+  pain: AI 写码不沿用既有技术方案、重复造轮子、纠正过的错误反复出现、memory 不随代码回滚或合并同步、读取过多文件耗尽有效窗口后输出混乱。
+  pain_en: AI ignores existing conventions, reinvents wheels, repeats corrected errors, memory drifts
+    out of sync with code rollbacks or merges, and agents burn the context window reading too many files
+    before producing messy output.
+  current_alternative: 手动在提示词中粘贴架构说明；使用 CLAUDE.md/AGENTS.md 类静态规则文件；维护适合人读的 diataxis 文档；依赖多轮人工纠错。
+  current_alternative_en: Manually pasting architecture notes into prompts; static rule files like CLAUDE.md/AGENTS.md;
+    human-oriented diataxis documentation; tedious multi-turn manual corrections.
+  usage_reason: 遇到同类痛点的工程师可获得一个随代码版本化、按 topic 组织、由 CLI 程序化匹配的外置 context provider，开源免费、零上手成本，降低 token 消耗与反复纠错成本；作者个人项目长期使用中自述效果良好。
+  usage_reason_en: Engineers hit by the same pain get a version-controlled, topic-organized external context
+    provider with programmatic CLI matching—open source, free, near-zero onboarding cost—cutting token
+    spend and repeated correction overhead; the author reports good results from long-term use on personal
+    projects.

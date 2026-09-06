@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMisgFBVV95cUxOaFRRSk4yMXlV
 summary: Q2研发涨得比收入快，美团AI在押什么 新浪财经
 first_seen: '2026-09-04T20:33:54Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

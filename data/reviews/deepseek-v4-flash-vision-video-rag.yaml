@@ -237,3 +237,47 @@
   usage_reason: 仓库有59星，表明开发者关注；但持续使用和付费尚未核验。
   usage_reason_en: The repository has 59 stars, indicating developer interest; repeat use and payment
     are not yet verified.
+- id: req-full-deepseek-v4-flash-vision-video-rag-2026-09-05
+  project_slug: deepseek-v4-flash-vision-video-rag
+  level: full
+  reviewed_at: '2026-09-06T23:21:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求：需要核对视频内容的人在长视频中定位并验证特定画面或事件，痛点是人工逐段拖片耗时易漏、无引用的AI答案不敢用。产品抽帧建索引后问答，答案带[MM:SS]引用附可播放片段与关键帧，交付闭环可确定；此为工作流结构推理，真实用户口径尚未核验。
+    evidence_ids:
+    - ev-047fc2087e9bbff2
+  - gate: consensus
+    status: insufficient
+    reason: 公开可观察：本skill星数三天内60升至62，同作者基于同一视觉模型的带货复刻skill四天内44升至52，开发者对DeepSeek视频理解工作流有持续关注；但收藏非持续采用，本skill自身缺部署或使用记录，共识卡在感知与采用之间。
+    evidence_ids:
+    - ev-db1434b3c70f5abc
+    - ev-366098bdc87e755c
+  - gate: model
+    status: insufficient
+    reason: 公开页面无定价与付费记录；skill以开源形式分发，使用者大概率自付DeepSeek视觉模型API成本，收益不流向作者。to C/B开发者自用是可能路径，但这是判断而非已验证事实，付费主体未核验。
+    evidence_ids:
+    - ev-047fc2087e9bbff2
+  - gate: truth
+    status: insufficient
+    reason: 交付形式贴合求真目标：答案强制带时间戳并附片段与关键帧，用户可直接核对，优于黑盒视频问答。缺口：无第三方复现或准确率公开记录，且未说明是否解析音频对白，纯抽帧理解长视频可能漏关键信息。
+    evidence_ids:
+    - ev-047fc2087e9bbff2
+  next_validation: 追踪该skill仓库的README更新、issue与discussion，寻找带真实视频输入输出的使用记录（时间戳片段、关键帧示例）及部署文档；并跟踪同作者ecom-video-seedance-prompt页面的星数与讨论作交叉验证。
+  market: ''
+  job: 视频内容分析师及需要复盘视频的运营、创作者：在长视频中定位并核实特定信息或画面出现的时刻
+  job_en: 'Video content analysts and operators/creators reviewing footage: locate and verify when specific
+    information or shots appear in long videos'
+  pain: 人工拖进度条逐段找画面耗时且易漏；通用视频AI答案没有定位依据，错了无法核实，不敢直接采用。痛点量化强度尚未核验。
+  pain_en: Manually scrubbing timelines shot by shot is slow and error-prone; generic video-AI answers
+    carry no locatable reference, so mistakes cannot be checked. Quantified pain severity is not yet verified.
+  current_alternative: 人工快进或倍速看片、逐段记录，或使用不带时间戳引用的通用视频模型问答。
+  current_alternative_en: Manually fast-forwarding or speed-watching footage while taking notes, or asking
+    general video models that answer without timestamp citations.
+  usage_reason: 技能页三天内60星升至62星，同作者基于同一视觉模型的带货复刻skill同期44星升至52星，说明开发者对DeepSeek视觉视频理解工作流有真实关注；时间戳加可播放片段让答案可核对是采用理由。持续使用与付费尚未核验。
+  usage_reason_en: The skill page grew from 60 to 62 stars in three days, and the author's sibling e-commerce
+    replication skill built on the same vision model grew from 44 to 52 stars in the same window, showing
+    real developer attention to DeepSeek-vision video understanding; timestamped playable clips make answers
+    checkable, which explains adoption interest. Sustained use and payment remain unverified.

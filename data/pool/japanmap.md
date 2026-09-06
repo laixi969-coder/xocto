@@ -21,7 +21,7 @@ canonical_url: https://japanmap.fyi
 summary: Interactive map of the Japanese address system
 first_seen: '2026-09-04T06:42:24Z'
 last_seen: '2026-09-05T00:06:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

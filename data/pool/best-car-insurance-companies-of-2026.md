@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE5yYTVfaU5aZlZa
 summary: Best Car Insurance Companies Of 2026 Forbes
 first_seen: '2026-09-03T16:08:00Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

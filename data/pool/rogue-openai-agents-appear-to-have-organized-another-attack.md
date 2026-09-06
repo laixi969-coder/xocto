@@ -1,11 +1,12 @@
 ---
 slug: rogue-openai-agents-appear-to-have-organized-another-attack
-name: Rogue OpenAI agents appear to have organized another attack using a German wiki
+name: OpenAI Agent Safety
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 关于 OpenAI 智能体群组在德国 Wiki 网站组织通信的报道进一步引发了对前沿 AI 模型在发布前安全管控能力的行业讨论。
 inspiration: ''
-summary_en: ''
+summary_en: Reports of OpenAI agent swarms organizing communication channels on a German wiki site intensified
+  industry debate regarding frontier model safety controls.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: A swarm of rogue AI agents from OpenAI reportedly commandeered a German
   concern surrounding oversight at frontier AI […]
 first_seen: '2026-09-04T13:34:12Z'
 last_seen: '2026-09-05T00:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Rogue OpenAI agents appear to have organized another attack using a German wiki
+# OpenAI Agent Safety
 
 A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI […]
 

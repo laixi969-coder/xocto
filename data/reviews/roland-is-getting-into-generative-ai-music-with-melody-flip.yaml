@@ -1,0 +1,82 @@
+- id: req-initial-roland-is-getting-into-generative-ai-music-with-melody-flip-2026-09-05
+  project_slug: roland-is-getting-into-generative-ai-music-with-melody-flip
+  level: initial
+  reviewed_at: '2026-09-05T13:28:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音乐制作人寻找灵感和快速生成可编辑素材的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料未显示用户采用或社区讨论，仅发布报道。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是音乐制作人个人或工作室。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  - gate: truth
+    status: supported
+    reason: Roland 在音乐硬件领域有积累，产品贴近创作第一性目标，交付可确定。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  next_validation: 查找 Melody Flip 官方定价页或试用版用户评价。
+  market: ''
+  job: 音乐制作人在 DAW 中寻找创作灵感并快速生成可编辑的音乐素材。
+  job_en: Music producers seek inspiration and quickly generate editable musical material within their
+    DAW.
+  pain: 创作灵感枯竭，从零开始编写旋律耗时，现有 AI 工具生成整曲但难以融入专业制作流程。
+  pain_en: Creative blocks, time-consuming melody writing from scratch, and existing AI tools generate
+    full songs that are hard to integrate into professional workflows.
+  current_alternative: 使用 Suno 等生成整曲，或手动编写旋律、采样素材库。
+  current_alternative_en: Using Suno for full songs, or manually composing melodies and sampling from
+    libraries.
+  usage_reason: Roland 的品牌信誉和 DAW 插件形态可能吸引专业制作人尝试，但具体采用情况未知。
+  usage_reason_en: Roland's brand credibility and DAW plug-in form may attract professional producers
+    to try, but adoption is unknown.
+- id: req-full-roland-is-getting-into-generative-ai-music-with-melody-flip-2026-09-05
+  project_slug: roland-is-getting-into-generative-ai-music-with-melody-flip
+  level: full
+  reviewed_at: '2026-09-06T23:31:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决音乐制作人寻找灵感和快速生成可编辑素材的需求，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  - gate: consensus
+    status: insufficient
+    reason: 公开资料未显示用户采用或社区讨论，仅发布报道。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是音乐制作人个人或工作室。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  - gate: truth
+    status: supported
+    reason: Roland 在音乐硬件领域有积累，产品贴近创作第一性目标，交付可确定。
+    evidence_ids:
+    - ev-09aadc42dff6d2b9
+  next_validation: 查找 Melody Flip 官方定价页或试用版用户评价。
+  market: ''
+  job: 音乐制作人在 DAW 中寻找创作灵感并快速生成可编辑的音乐素材。
+  job_en: Music producers seek inspiration and quickly generate editable musical material within their
+    DAW.
+  pain: 创作灵感枯竭，从零开始编写旋律耗时，现有 AI 工具生成整曲但难以融入专业制作流程。
+  pain_en: Creative blocks, time-consuming melody writing from scratch, and existing AI tools generate
+    full songs that are hard to integrate into professional workflows.
+  current_alternative: 使用 Suno 等生成整曲，或手动编写旋律、采样素材库。
+  current_alternative_en: Using Suno for full songs, or manually composing melodies and sampling from
+    libraries.
+  usage_reason: Roland 的品牌信誉和 DAW 插件形态可能吸引专业制作人尝试，但具体采用情况未知。
+  usage_reason_en: Roland's brand credibility and DAW plug-in form may attract professional producers
+    to try, but adoption is unknown.

@@ -104,3 +104,38 @@
   usage_reason: HN 上 208 分，46 条评论，表明社区关注，但产品细节不足。
   usage_reason_en: 208 points and 46 comments on HN, indicating community interest, but product details
     are insufficient.
+- id: req-full-experiential-2026-09-05
+  project_slug: experiential
+  level: full
+  reviewed_at: '2026-09-06T23:24:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决开发者模型路由优化问题，但公开材料仅提供词典定义，未说明具体任务、痛点或替代流程，交付不明确。
+    evidence_ids:
+    - ev-ec46622eefed1dbf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪项目官方仓库或文档，核验其技术实现和实际效果。
+  market: ''
+  job: 开发者需要更智能的模型路由，以优化成本和性能。
+  job_en: Developers need smarter model routing to optimize cost and performance.
+  pain: 现有模型路由不够智能，无法根据使用情况优化。
+  pain_en: Current model routing is not smart enough to optimize based on usage.
+  current_alternative: 使用 OpenRouter 等商业服务或手动选择模型。
+  current_alternative_en: Using commercial services like OpenRouter or manually selecting models.
+  usage_reason: HN 上 208 分，46 条评论，表明社区关注，但产品细节不足。
+  usage_reason_en: 208 points and 46 comments on HN, indicating community interest, but product details
+    are insufficient.

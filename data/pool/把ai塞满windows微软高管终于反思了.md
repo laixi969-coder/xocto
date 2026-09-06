@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxNX01TcWtudno0
 summary: 把AI塞满Windows！微软高管终于反思了 Sohu
 first_seen: '2026-09-02T03:48:57Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

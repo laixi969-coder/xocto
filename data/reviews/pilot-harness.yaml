@@ -142,3 +142,46 @@
   usage_reason: 公开代码仓库有 269 个收藏、19 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 269 stars and 19 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-pilot-harness-2026-09-05
+  project_slug: pilot-harness
+  level: full
+  reviewed_at: '2026-09-06T23:32:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者在桌面端以图形界面运行并管理 DeepSeek 编码代理与插件的需求，痛点是官方 harness 以终端与配置文件为主、会话与插件管理分散、上手成本高。仓库公开描述可还原这一旧流程，属工作流结构推理，交付为可下载的三平台客户端，价值结构成立。
+    evidence_ids:
+    - ev-abfc7bdbbb28e2f3
+    - ev-07f044710630527b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库收藏在 9 月 3–5 日由 260 增至 270，说明开发者持续关注并可能试用；但这只解释关注与尝鲜，尚无公开证据表明目标用户会持续使用或付费，场景强度待观察。
+    evidence_ids:
+    - ev-abfc7bdbbb28e2f3
+    - ev-07f044710630527b
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 开发者想在 macOS、Windows、Linux 桌面端以图形界面运行并管理 DeepSeek 编码代理（Harness）与插件，而不必全程在终端与配置文件中操作。
+  job_en: Developers want to run and manage the DeepSeek coding harness and its plugins from a GUI desktop
+    client on macOS, Windows, and Linux instead of working entirely in the terminal and config files.
+  pain: 终端式 harness 的会话、插件与多项目管理分散，配置与切换成本高；该摩擦的具体频率与后果来自工作流推理，尚未由用户口述或采用数据核验。
+  pain_en: Terminal-style harnesses scatter sessions, plugins, and multi-project management, raising setup
+    and switching costs; the frequency and consequence of this friction come from workflow reasoning,
+    not yet verified from user accounts or adoption data.
+  current_alternative: 现状是直接使用官方 CLI 或终端、IDE 内插件、自行调用 API 拼装工作流；本客户端相对这些旧替代的增益尚未核验。
+  current_alternative_en: Today users rely on the official CLI or terminal, in-IDE plugins, or hand-assembled
+    API workflows; whether this client beats those alternatives is not yet verified.
+  usage_reason: 仓库收藏在 9 月 3–5 日由 260 增至 270，说明开发者持续关注并可能试用；这只解释关注与尝鲜，复用、留存与付费尚未核验。
+  usage_reason_en: Stars grew from 260 to 270 between Sep 3–5, indicating sustained developer attention
+    and likely trials; this explains interest and trial use, while repeat use, retention, and payment
+    remain unverified.

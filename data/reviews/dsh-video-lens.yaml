@@ -1,0 +1,69 @@
+- id: req-initial-dsh-video-lens-2026-09-05
+  project_slug: dsh-video-lens
+  level: initial
+  reviewed_at: '2026-09-05T00:06:35Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从现有资料判断。
+    evidence_ids:
+    - ev-4844e519a36303cf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有星标数，无其他采用证据。
+    evidence_ids:
+    - ev-4844e519a36303cf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真未评估。
+    evidence_ids: []
+  next_validation: 查看仓库 README 或文档以了解功能描述。
+  market: ''
+  job: 未知，项目功能未描述。
+  job_en: Unknown, project functionality not described.
+  pain: 未知，无法判断痛点。
+  pain_en: Unknown, cannot determine pain point.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 开源项目获得一定关注，但原因不明。
+  usage_reason_en: Open-source project gained some attention, but reason unclear.
+- id: req-full-dsh-video-lens-2026-09-05
+  project_slug: dsh-video-lens
+  level: full
+  reviewed_at: '2026-09-06T23:23:07Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从现有资料判断。
+    evidence_ids:
+    - ev-4844e519a36303cf
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查看仓库 README 或文档以了解功能描述。
+  market: ''
+  job: 未知，项目功能未描述。
+  job_en: Unknown, project functionality not described.
+  pain: 未知，无法判断痛点。
+  pain_en: Unknown, cannot determine pain point.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 开源项目获得一定关注，但原因不明。
+  usage_reason_en: Open-source project gained some attention, but reason unclear.

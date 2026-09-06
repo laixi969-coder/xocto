@@ -21,7 +21,7 @@ canonical_url: https://chromewebstore.google.com/detail/sitetweak-edit-any-site-
 summary: a browser extension to modify any website
 first_seen: '2026-09-04T13:32:39Z'
 last_seen: '2026-09-05T00:06:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

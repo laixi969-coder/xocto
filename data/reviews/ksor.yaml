@@ -1,0 +1,77 @@
+- id: req-initial-ksor-2026-09-05
+  project_slug: ksor
+  level: initial
+  reviewed_at: '2026-09-05T13:28:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，具体工作流程和交付物未披露。
+    evidence_ids:
+    - ev-430b1670b1342311
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户反馈或采用证据，仅开源仓库星标增长缓慢。
+    evidence_ids:
+    - ev-430b1670b1342311
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法验证真实性。
+    evidence_ids: []
+  next_validation: 官方文档或 README 中关于具体使用场景和交付物的详细说明。
+  market: ''
+  job: 开发者和组织需要构建和维护权威知识系统，供人类和 AI 代理使用。
+  job_en: Developers and organizations need to build and maintain authoritative knowledge systems for
+    humans and AI agents.
+  pain: 现有知识系统缺乏治理和权威性，导致 AI 代理使用不可靠的信息。
+  pain_en: Existing knowledge systems lack governance and authority, leading AI agents to use unreliable
+    information.
+  current_alternative: 使用文档管理系统或数据库，但缺乏针对 AI 代理的治理和验证机制。
+  current_alternative_en: Using document management systems or databases, but lacking governance and validation
+    mechanisms for AI agents.
+  usage_reason: 开源 SDK 可能吸引开发者尝试，但具体采用原因和场景尚不明确。
+  usage_reason_en: The open-source SDK may attract developers to try, but specific adoption reasons and
+    use cases are unclear.
+- id: req-full-ksor-2026-09-05
+  project_slug: ksor
+  level: full
+  reviewed_at: '2026-09-06T23:28:01Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，具体工作流程和交付物未披露。
+    evidence_ids:
+    - ev-430b1670b1342311
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 官方文档或 README 中关于具体使用场景和交付物的详细说明。
+  market: ''
+  job: 开发者和组织需要构建和维护权威知识系统，供人类和 AI 代理使用。
+  job_en: Developers and organizations need to build and maintain authoritative knowledge systems for
+    humans and AI agents.
+  pain: 现有知识系统缺乏治理和权威性，导致 AI 代理使用不可靠的信息。
+  pain_en: Existing knowledge systems lack governance and authority, leading AI agents to use unreliable
+    information.
+  current_alternative: 使用文档管理系统或数据库，但缺乏针对 AI 代理的治理和验证机制。
+  current_alternative_en: Using document management systems or databases, but lacking governance and validation
+    mechanisms for AI agents.
+  usage_reason: 开源 SDK 可能吸引开发者尝试，但具体采用原因和场景尚不明确。
+  usage_reason_en: The open-source SDK may attract developers to try, but specific adoption reasons and
+    use cases are unclear.

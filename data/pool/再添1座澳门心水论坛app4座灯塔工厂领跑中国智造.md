@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE50WVpGaWE1UV91
 summary: 再添1座！澳门心水论坛APP4座灯塔工厂领跑中国智造 体坛
 first_seen: '2026-09-05T00:41:43Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

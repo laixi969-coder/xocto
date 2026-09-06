@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE16Z2F6UTBYdkJV
 summary: Companies That Have Replaced Workers with AI in 2025 and 2026 tech.co
 first_seen: '2026-09-03T21:36:23Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

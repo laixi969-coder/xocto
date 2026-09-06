@@ -21,7 +21,7 @@ canonical_url: https://word42.org
 summary: a wordprocessor inspired by MS Word and Abiword
 first_seen: '2026-09-04T04:39:24Z'
 last_seen: '2026-09-05T00:06:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,12 +1,12 @@
 ---
 slug: the-weeks-10-biggest-funding-rounds-ai-tools-and-assistants-2
-name: AI funding rounds
+name: AI Infrastructure Venture Funding
 builder: ''
 category: ''
-summary_zh: 本周十大融资轮次中，AI 工具和助手领先，但大型交易数量减少。
+summary_zh: AI 算力与基础设施领域出现大额融资潮，包括 Crusoe 获 30 亿美元融资、Fluidstack 获 15 亿美元融资，推动行业估值重构。
 inspiration: ''
-summary_en: This week's top 10 funding rounds led by AI tools and assistants, with a sparser lineup of
-  megadeals.
+summary_en: Venture capital into AI infrastructure saw mega rounds led by Crusoe's $3B and Fluidstack's
+  $1.5B financing, reshaping sector valuations.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: 'The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead S
   Crunchbase News'
 first_seen: '2026-08-28T17:21:00Z'
 last_seen: '2026-09-05T00:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds
@@ -50,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# AI funding rounds
+# AI Infrastructure Venture Funding
 
 The Week’s 10 Biggest Funding Rounds: AI Tools And Assistants Lead Sparser Lineup Of Megadeals Crunchbase News
 

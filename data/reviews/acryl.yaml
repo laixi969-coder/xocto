@@ -183,3 +183,40 @@
   usage_reason: 开源项目在数日内从 218 星增长至 237 星，显示开发者关注和试用；但付费与持续采用尚未核验。
   usage_reason_en: The open-source project grew from 218 to 237 stars within days, showing developer attention
     and trial; payment and sustained adoption are not yet verified.
+- id: req-full-acryl-2026-09-05
+  project_slug: acryl
+  level: full
+  reviewed_at: '2026-09-06T23:11:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅说明提供持久工作区和统一上下文，但未明确具体用户任务、输入输出或交付闭环，无法判断需求强度。
+    evidence_ids:
+    - ev-6f759fc3c23437be
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 关注仓库的 issue 和 discussion，看是否有真实使用场景和用户反馈。
+  market: ''
+  job: 开发者在使用编码代理时，需要跨会话和跨代理共享持久的工作区与统一上下文，避免重复初始化。
+  job_en: Developers need a persistent workspace and canonical context shared across sessions and coding
+    agents to avoid re-initialization.
+  pain: 编码代理每次会话需重新加载上下文，导致效率低下和状态丢失。
+  pain_en: Coding agents reload context each session, causing inefficiency and loss of state.
+  current_alternative: 开发者可能手动管理上下文或使用单一代理，尚未核验具体替代工具。
+  current_alternative_en: Developers may manually manage context or use a single agent; specific alternatives
+    not yet verified.
+  usage_reason: 开源项目，仓库星标从218增长至237，可能吸引尝试多代理协作的开发者，但采用证据有限。
+  usage_reason_en: Open-source with stars growing from 218 to 237, may attract developers experimenting
+    with multi-agent collaboration, but adoption evidence is limited.

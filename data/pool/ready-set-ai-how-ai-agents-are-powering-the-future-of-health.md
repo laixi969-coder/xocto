@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPZE9jZEVlQnFh
 summary: 'Ready, Set, AI: How AI Agents Are Powering the Future of Health and Beauty CBIZ'
 first_seen: '2026-09-03T18:41:13Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

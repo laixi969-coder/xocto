@@ -1,11 +1,12 @@
 ---
 slug: mapquest-tops-apple
-name: MapQuest tops Apple
+name: MapQuest
 builder: colinprince
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://thehill.com/homenews/administration/6063924-mapquest-tops
 summary: Google Maps downloads after refusing 'Lake America' change
 first_seen: '2026-09-03T17:32:37Z'
 last_seen: '2026-09-05T00:06:31Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# MapQuest tops Apple
+# MapQuest
 
 Google Maps downloads after refusing 'Lake America' change
 

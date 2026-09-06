@@ -1,11 +1,12 @@
 ---
 slug: accelevation-data-center-infrastructure-solutions-provider-f
-name: Accelevation, Data Center Infrastructure Solutions Provider, Files for Nasdaq IPO
+name: Accelevation
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQno0cElqNlpt
 summary: Accelevation, Data Center Infrastructure Solutions Provider, Files for Nasdaq IPO TradingView
 first_seen: '2026-09-02T20:18:02Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Accelevation, Data Center Infrastructure Solutions Provider, Files for Nasdaq IPO
+# Accelevation
 
 Accelevation, Data Center Infrastructure Solutions Provider, Files for Nasdaq IPO TradingView
 

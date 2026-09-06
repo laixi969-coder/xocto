@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDhWYjN0QUM1
 summary: Guidewire Software Q4 Earnings Call Highlights TradingView
 first_seen: '2026-09-03T23:04:01Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

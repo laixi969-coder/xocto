@@ -146,3 +146,41 @@
   usage_reason: 仓库有 48 个收藏，说明开发者关注，但持续使用和付费尚未核验。
   usage_reason_en: The repository has 48 stars, showing developer attention, but sustained use and payment
     are unverified.
+- id: req-full-applied-micro-skills-2026-09-05
+  project_slug: applied-micro-skills
+  level: full
+  reviewed_at: '2026-09-06T23:17:20Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 查找官方文档或仓库中的使用案例、用户评价或复现测试结果，以验证交付可靠性。
+  market: ''
+  job: 帮助应用微观经济学研究者完成从数据获取、回归分析到生成论文表格的整个实证工作流，并确保结果可复现。
+  job_en: Helps applied microeconomics researchers complete the empirical workflow from data access and
+    regression analysis to producing publication-ready tables, with reproducible results.
+  pain: 经济学实证研究中的复现性危机是公认问题，研究者常因代码或数据问题导致结果无法复现，耗费大量时间调试；公开材料尚未具体说明该产品针对的痛点强度与频率。
+  pain_en: The reproducibility crisis in empirical economics is well-documented; researchers often spend
+    excessive time debugging code or data issues that prevent replication. Public materials do not yet
+    specify the intensity and frequency of the pain this product addresses.
+  current_alternative: 目前研究者通常手动使用 Stata、R 或 Python 进行数据分析，并自行管理代码与数据版本，缺乏系统化的复现审计工具。
+  current_alternative_en: Currently, researchers typically use Stata, R, or Python manually for data analysis,
+    managing code and data versions themselves, lacking systematic reproducibility auditing tools.
+  usage_reason: 公开代码仓库获得 48 个收藏，表明开发者社区关注该工具，可能因其针对真实痛点（复现性）而试用；持续使用与付费尚未核验。
+  usage_reason_en: The public repository has 48 stars, indicating developer community interest, possibly
+    due to addressing the real pain point of reproducibility; sustained use and payment are not yet verified.

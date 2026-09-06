@@ -1,0 +1,79 @@
+- id: req-initial-知乎ai-works重要更新-支持应用一键部署-2026-09-05
+  project_slug: 知乎ai-works重要更新-支持应用一键部署
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者把内容变成可用应用后无法发布触达用户的痛点，一键部署直接回应旧流程中技术门槛高的环节，价值结构成立
+    evidence_ids:
+    - ev-24da9daa00abf14d
+    - ev-10308269f487e4ac
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道显示功能更新，但缺乏创作者实际使用、收藏或付费等持续采用证据，共识尚未形成
+    evidence_ids:
+    - ev-24da9daa00abf14d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是创作者或最终用户，付费路径尚不清晰
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 一键部署是否真能确定性交付并让应用被使用，仍需观察实际效果与用户反馈
+    evidence_ids: []
+  next_validation: 查找知乎AI Works官方帮助文档或创作者案例，确认一键部署的具体流程、收费模式及实际使用数据
+  market: ''
+  job: 创作者把自己在知乎积累的内容变成别人能直接使用的AI应用，并发布出去触达使用者
+  job_en: Creators turn the content they have built on Zhihu into AI applications others can use directly,
+    and publish them to reach users.
+  pain: 应用做出来只是第一步，部署发布涉及服务器等技术环节，普通创作者卡在最后一步，作品无法被真正使用
+  pain_en: Building the app is only the first step; deployment involves technical work like servers, so
+    non-technical creators get stuck at the final step and their work never reaches users.
+  current_alternative: 创作者此前只能把内容以文章或问答形式发布，或自行寻找技术方案部署应用，过程繁琐且门槛高
+  current_alternative_en: Previously creators could only publish content as articles or Q&A, or seek technical
+    solutions to deploy apps themselves, a cumbersome and high-barrier process.
+  usage_reason: 知乎已有内容生态和创作者群体，一键部署降低了发布门槛，使创作者能直接触达读者，有明确的使用动机
+  usage_reason_en: Zhihu's existing content ecosystem and creator base, combined with one-click deployment
+    lowering the publishing barrier, gives creators a clear reason to use it to reach readers directly.
+- id: req-full-知乎ai-works重要更新-支持应用一键部署-2026-09-05
+  project_slug: 知乎ai-works重要更新-支持应用一键部署
+  level: full
+  reviewed_at: '2026-09-06T23:36:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者把内容变成可用应用后无法发布触达用户的痛点，一键部署直接回应旧流程中技术门槛高的环节，价值结构成立。
+    evidence_ids:
+    - ev-98d0ea9035dec3dc
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道显示功能更新，但缺乏创作者实际使用、收藏或付费等持续采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-98d0ea9035dec3dc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或收费方式，买方可能是创作者或最终用户，付费路径尚不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 一键部署是否真能确定性交付并让应用被使用，仍需观察实际效果与用户反馈。
+    evidence_ids: []
+  next_validation: 查找知乎AI Works官方帮助文档或创作者案例，确认一键部署的具体流程、收费模式及实际使用数据。
+  market: ''
+  job: 创作者把自己在知乎积累的内容变成别人能直接使用的AI应用，并发布出去触达使用者。
+  job_en: Creators turn the content they have built on Zhihu into AI applications others can use directly,
+    and publish them to reach users.
+  pain: 应用做出来只是第一步，部署发布涉及服务器等技术环节，普通创作者卡在最后一步，作品无法被真正使用。
+  pain_en: Building the app is only the first step; deployment involves technical work like servers, so
+    non-technical creators get stuck at the final step and their work never reaches users.
+  current_alternative: 创作者此前只能把内容以文章或问答形式发布，或自行寻找技术方案部署应用，过程繁琐且门槛高。
+  current_alternative_en: Previously creators could only publish content as articles or Q&A, or seek technical
+    solutions to deploy apps themselves, a cumbersome and high-barrier process.
+  usage_reason: 知乎已有内容生态和创作者群体，一键部署降低了发布门槛，使创作者能直接触达读者，有明确的使用动机。
+  usage_reason_en: Zhihu's existing content ecosystem and creator base, combined with one-click deployment
+    lowering the publishing barrier, gives creators a clear reason to use it to reach readers directly.

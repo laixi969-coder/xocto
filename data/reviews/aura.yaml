@@ -1,0 +1,79 @@
+- id: req-initial-aura-2026-09-05
+  project_slug: aura
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生产故障排查耗时长、定位难的痛点，通过智能体自动化调查与修复缩短停机损失。
+    evidence_ids:
+    - ev-2863fa66775a9a16
+  - gate: consensus
+    status: insufficient
+    reason: 属于早期开源项目，社区讨论与生产环境大规模采用仍需进一步积累。
+    evidence_ids:
+    - ev-2863fa66775a9a16
+  - gate: model
+    status: insufficient
+    reason: 当前为开源代码库，企业版商业模式或托管定价尚未公开。
+    evidence_ids:
+    - ev-2863fa66775a9a16
+  - gate: truth
+    status: supported
+    reason: 基于 Rust 实现的排障智能体聚焦明确的事故定位与修复闭环，边界清晰。
+    evidence_ids:
+    - ev-2863fa66775a9a16
+  next_validation: 官方公开的生产环境接入文档与自动化修复安全边界规范
+  market: ''
+  job: 排查和修复线上生产环境故障
+  job_en: Investigate and remediate production incidents
+  pain: 生产故障响应时间长，人工排查日志与链路耗时且容易遗漏关键根因
+  pain_en: Incident diagnosis is slow and manual log/trace inspection delays recovery
+  current_alternative: 工程师手动翻查日志、监控仪表盘与告警链路
+  current_alternative_en: Engineers manually inspect logs, metrics dashboards, and alerts
+  usage_reason: 结构上能自动化串联告警排查路径并辅助生成修复方案
+  usage_reason_en: It structurally automates diagnosis pathways to speed up incident resolution
+- id: req-full-aura-2026-09-05
+  project_slug: aura
+  level: full
+  reviewed_at: '2026-09-06T23:19:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生产故障排查耗时长、定位难的痛点：工程师需在告警后快速定位根因并恢复服务，AURA 通过智能体自动化调查与修复缩短停机损失。公开材料显示其作为开源智能体框架，由 Mezmo
+      遥测管道提供实时上下文，形成输入-动作-交付闭环。此为工作流结构推理，公开付费或采用数据尚未核验。
+    evidence_ids:
+    - ev-75eb2e01b2588fa7
+    - ev-c1452656b796f168
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示为早期开源项目，社区讨论与生产环境大规模采用证据不足，共识尚未形成。
+    evidence_ids:
+    - ev-75eb2e01b2588fa7
+  - gate: model
+    status: insufficient
+    reason: 商业模式未公开：AURA 为开源，Mezmo 提供商业遥测管道，但企业版定价或付费客户未披露，买方与付费路径尚不明确。
+    evidence_ids:
+    - ev-75eb2e01b2588fa7
+  - gate: truth
+    status: supported
+    reason: 产品聚焦事故调查与修复，基于 Rust 实现，边界清晰；但自动化修复的安全边界与人工审批机制未见公开文档，交付确定性部分依赖推理。
+    evidence_ids:
+    - ev-75eb2e01b2588fa7
+  next_validation: 官方公开的生产环境接入文档与自动化修复安全边界规范
+  market: ''
+  job: 运维与后端工程师在生产系统报警或发生线上故障时，需要快速定位根因并恢复服务。
+  job_en: Ops and backend engineers need to quickly identify root causes and restore service during production
+    incidents.
+  pain: 生产故障排查耗时长，人工翻查日志、指标与链路容易遗漏关键信息，导致停机时间延长。
+  pain_en: Manual log, metric, and trace inspection is slow and error-prone, prolonging downtime.
+  current_alternative: 工程师手动查看监控仪表盘、日志和告警，结合经验判断根因并执行修复。
+  current_alternative_en: Engineers manually review dashboards, logs, and alerts, relying on experience
+    to diagnose and fix.
+  usage_reason: AURA 作为开源智能体，能自动化串联告警与遥测数据，辅助定位根因并生成修复方案，因此受到关注。
+  usage_reason_en: As an open-source agent, AURA automates alert and telemetry correlation to aid root-cause
+    analysis and remediation, attracting interest.

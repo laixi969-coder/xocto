@@ -1,0 +1,77 @@
+- id: req-initial-asana-soars-as-ai-breakthrough-trumps-analyst-downgrade-2026-09-05
+  project_slug: asana-soars-as-ai-breakthrough-trumps-analyst-downgrade
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决项目管理自动化的需求，痛点在于传统流程耗时，AI 功能可能提供自动化交付，但具体功能未披露。
+    evidence_ids:
+    - ev-9e1731b4d0f461e1
+  - gate: consensus
+    status: insufficient
+    reason: 股价上涨反映市场关注，但缺乏用户采用或持续使用的公开证据。
+    evidence_ids:
+    - ev-9e1731b4d0f461e1
+  - gate: model
+    status: insufficient
+    reason: Asana 有成熟的企业付费模式，但 AI 功能的定价和付费路径未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 突破的具体内容和交付确定性未公开，需进一步核验。
+    evidence_ids: []
+  next_validation: 查找 Asana 官方博客或财报，了解其 AI 功能的具体应用和客户案例。
+  market: ''
+  job: 团队负责人使用项目管理工具来规划任务、跟踪进度和协作，AI 功能旨在自动化这些流程。
+  job_en: Team leads use project management tools to plan tasks, track progress, and collaborate; AI features
+    aim to automate these processes.
+  pain: 传统项目管理耗时且易出错，AI 突破可能解决自动化规划和预测问题，但具体痛点未明确。
+  pain_en: Traditional project management is time-consuming and error-prone; AI breakthroughs may address
+    automation and forecasting, but specific pains are unclear.
+  current_alternative: 团队可能使用电子表格或传统项目管理软件，AI 功能是新增的替代方案。
+  current_alternative_en: Teams may use spreadsheets or traditional PM software; AI features are a new
+    alternative.
+  usage_reason: Asana 的 AI 突破引发股价上涨，表明市场对其潜力认可，但实际采用和付费数据未披露。
+  usage_reason_en: Asana's AI breakthrough drove stock gains, indicating market recognition, but actual
+    adoption and revenue data are undisclosed.
+- id: req-full-asana-soars-as-ai-breakthrough-trumps-analyst-downgrade-2026-09-05
+  project_slug: asana-soars-as-ai-breakthrough-trumps-analyst-downgrade
+  level: full
+  reviewed_at: '2026-09-06T23:17:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决项目管理自动化的需求，痛点在于传统流程耗时，AI 功能可能提供自动化交付，但具体功能未披露。
+    evidence_ids:
+    - ev-f5dfb1cd8e427492
+  - gate: consensus
+    status: insufficient
+    reason: 股价上涨反映市场关注，但缺乏用户采用或持续使用的公开证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: Asana 有成熟的企业付费模式，但 AI 功能的定价和付费路径未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: AI 突破的具体内容和交付确定性未公开，需进一步核验。
+    evidence_ids: []
+  next_validation: 查找 Asana 官方博客或财报，了解其 AI 功能的具体应用和客户案例。
+  market: ''
+  job: 团队负责人使用项目管理工具来规划任务、跟踪进度和协作，AI 功能旨在自动化这些流程。
+  job_en: Team leads use project management tools to plan tasks, track progress, and collaborate; AI features
+    aim to automate these processes.
+  pain: 传统项目管理耗时且易出错，AI 突破可能解决自动化规划和预测问题，但具体痛点未明确。
+  pain_en: Traditional project management is time-consuming and error-prone; AI breakthroughs may address
+    automation and forecasting, but specific pains are unclear.
+  current_alternative: 团队可能使用电子表格或传统项目管理软件，AI 功能是新增的替代方案。
+  current_alternative_en: Teams may use spreadsheets or traditional PM software; AI features are a new
+    alternative.
+  usage_reason: Asana 的 AI 突破引发股价上涨，表明市场对其潜力认可，但实际采用和付费数据未披露。
+  usage_reason_en: Asana's AI breakthrough drove stock gains, indicating market recognition, but actual
+    adoption and revenue data are undisclosed.

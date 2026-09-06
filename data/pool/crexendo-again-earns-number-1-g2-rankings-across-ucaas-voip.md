@@ -1,11 +1,12 @@
 ---
 slug: crexendo-again-earns-number-1-g2-rankings-across-ucaas-voip
-name: Crexendo Again Earns Number 1 G2 Rankings Across UCaaS, VoIP and AI Categories
+name: Crexendo
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi4AFBVV95cUxQWERTR3BLU1hM
 summary: Crexendo Again Earns Number 1 G2 Rankings Across UCaaS, VoIP and AI Categories ACCESS Newswire
 first_seen: '2026-09-02T13:05:09Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -42,7 +43,7 @@ sightings:
   kind: news
 ---
 
-# Crexendo Again Earns Number 1 G2 Rankings Across UCaaS, VoIP and AI Categories
+# Crexendo
 
 Crexendo Again Earns Number 1 G2 Rankings Across UCaaS, VoIP and AI Categories ACCESS Newswire
 

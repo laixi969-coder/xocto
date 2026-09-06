@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxPTE9LNDRQR3ps
 summary: Build brand trust in an AI-generated-everything age fastcompany.com
 first_seen: '2026-09-04T12:10:37Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

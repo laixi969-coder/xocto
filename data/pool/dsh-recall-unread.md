@@ -22,7 +22,7 @@ summary: DeepSeek Harness (DSH) 插件：在模型读取前撤回已发送的文
   text messages before the model reads them — one-by-one or all at once.
 first_seen: '2026-08-17T07:41:14Z'
 last_seen: '2026-09-05T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

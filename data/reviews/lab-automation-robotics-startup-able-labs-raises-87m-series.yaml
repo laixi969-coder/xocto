@@ -77,3 +77,83 @@
   usage_reason: 融资事件表明投资者看好实验室自动化市场，产品可能解决真实痛点。
   usage_reason_en: The funding event indicates investor confidence in lab automation, and the product
     likely addresses real pain points.
+- id: req-initial-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-09-05
+  project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决实验室重复操作耗时、易错、一致性差的痛点；自动化交付可确定，价值结构成立。
+    evidence_ids:
+    - ev-803fc0729d4ec4f8
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料未显示用户采用或付费数据，共识证据不足。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 融资信息表明资本认可，但未披露定价或客户付费路径，商业模式待核验。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 自动化执行实验步骤贴近实验室第一性目标，交付可验证，安全边界需人工监督。
+    evidence_ids: []
+  next_validation: 查找 ABLE Labs 官方定价页或客户案例，确认付费模式与部署规模。
+  market: ''
+  job: 实验室研究员需要完成大量重复、精确的实验操作，如移液、分装、培养等。
+  job_en: Lab researchers need to perform numerous repetitive, precise experimental operations such as
+    pipetting, aliquoting, and culturing.
+  pain: 人工操作耗时、易出错，且难以保证一致性和可追溯性。
+  pain_en: Manual operations are time-consuming, error-prone, and difficult to ensure consistency and
+    traceability.
+  current_alternative: 目前主要依赖人工操作或单一功能的自动化设备。
+  current_alternative_en: Currently relies on manual operations or single-function automated instruments.
+  usage_reason: 机器人自动化可提高通量和一致性，减少人为错误，尤其适合大规模筛选等重复性任务。
+  usage_reason_en: Robotic automation can increase throughput and consistency, reduce human error, especially
+    suitable for repetitive tasks like large-scale screening.
+- id: req-full-lab-automation-robotics-startup-able-labs-raises-87m-series-2026-09-05
+  project_slug: lab-automation-robotics-startup-able-labs-raises-87m-series
+  level: full
+  reviewed_at: '2026-09-06T23:27:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 候选称其解决实验室移液分装重复、易错、一致性差的痛点，但该自述不可信；所收证据全部是俄克拉荷马州酒类管理委员会（同名ABLE）牌照门户，无一描述该产品用户任务或交付闭环，宣称的870万美元融资也缺独立信源。
+    evidence_ids:
+    - ev-6c591fe7fe71a228
+    - ev-ca8fffea3b886f05
+    - ev-165906e32d750cda
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 下一轮采集 ABLE Labs 官网/产品页及870万美元Series A的独立媒体报道（如 PR Newswire、TechCrunch、商业数据库条目），并检索其客户案例或部署文档，确认产品存在与交付形态；采集时需与俄克拉荷马州酒类管理委员会的同名结果去重。
+  market: ''
+  job: 若候选自述属实：生命科学研究员需完成移液、分装等重复且要求精确的实验操作。此任务描述仅来自候选文本，公开证据未核验该产品与用户是否真实存在。
+  job_en: 'Per the unverified candidate text: life-science researchers must perform repetitive, precision-critical
+    tasks such as pipetting and aliquoting. No public evidence in the corpus verifies the product or its
+    users.'
+  pain: 候选称痛点是人工操作耗时、易错、一致性差；公开证据中没有任何用户抱怨、替代行为或案例记录，该痛点尚未核验。
+  pain_en: The candidate claims manual lab work is slow, error-prone and inconsistent; no user complaints,
+    workaround behaviors or cases appear in collected evidence — pain not yet verified.
+  current_alternative: 候选称现状为人工操作或单一功能自动化设备；实际采到的证据只有同名的俄克拉荷马州酒类管理委员会门户，替代方式尚未核验。
+  current_alternative_en: The candidate cites manual operations or single-function automated instruments;
+    collected evidence only contains an unrelated same-name Oklahoma alcohol licensing portal — alternatives
+    not yet verified.
+  usage_reason: 若产品真实存在，机器人自动化可提高通量、一致性与可追溯性，对通量筛选类实验室有吸引力；但目前无采用、付费或客户公开证据，宣称的870万美元融资也缺独立信源，采用理由尚未核验。
+  usage_reason_en: If real, robotic automation would raise throughput, consistency and traceability, attracting
+    screening-heavy labs; yet no adoption, payment or customer evidence exists, and the claimed $8.7M
+    round lacks independent sourcing — usage rationale not yet verified.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPQk54MVBSVTBQ
 summary: 卷不动了？用AI技术求境外赌博网站，让体育营销效率翻倍！——百度智能体助力品牌精准触达 体坛加
 first_seen: '2026-09-03T23:41:34Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

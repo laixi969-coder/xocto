@@ -22,7 +22,7 @@ summary: Raiz Federal Credit Union’s ROI Case Makes the Argument for Platform 
   Group
 first_seen: '2026-09-04T14:18:43Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

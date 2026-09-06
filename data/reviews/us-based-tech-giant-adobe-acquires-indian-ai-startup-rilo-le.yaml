@@ -1,0 +1,79 @@
+- id: req-initial-us-based-tech-giant-adobe-acquires-indian-ai-startup-rilo-le-2026-09-05
+  project_slug: us-based-tech-giant-adobe-acquires-indian-ai-startup-rilo-le
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法确认 Rilo 解决什么需求或痛点，产品信息未披露。
+    evidence_ids:
+    - ev-c60f9955b91d007f
+  - gate: consensus
+    status: insufficient
+    reason: 无用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-c60f9955b91d007f
+  - gate: model
+    status: insufficient
+    reason: 商业模式未知，收购方 Adobe 可能内部整合。
+    evidence_ids:
+    - ev-c60f9955b91d007f
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性未验证，仅新闻提及。
+    evidence_ids:
+    - ev-c60f9955b91d007f
+  next_validation: 查找 Rilo 的官方产品页面或收购公告中的产品描述。
+  market: ''
+  job: Rilo 试图解决的问题尚不明确，可能涉及 AI 辅助开发，但具体任务和用户未披露。
+  job_en: The problem Rilo aims to solve is unclear; it may involve AI-assisted development, but specific
+    tasks and users are undisclosed.
+  pain: 由于产品细节未知，无法确定用户痛点。
+  pain_en: User pain points cannot be determined due to unknown product details.
+  current_alternative: 未知，缺乏信息。
+  current_alternative_en: Unknown, insufficient information.
+  usage_reason: 缺乏采用证据，仅因被 Adobe 收购而受关注。
+  usage_reason_en: Lack of adoption evidence; attention solely due to Adobe acquisition.
+- id: req-full-us-based-tech-giant-adobe-acquires-indian-ai-startup-rilo-le-2026-09-05
+  project_slug: us-based-tech-giant-adobe-acquires-indian-ai-startup-rilo-le
+  level: full
+  reviewed_at: '2026-09-06T23:32:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开事实仅一条收购新闻：Adobe 收购上线不足一年的印度 AI 初创 Rilo。产品功能、目标工作节点与交付物均未披露，无法还原用户任务、痛点与当前替代，价值结构无法判立。
+    evidence_ids:
+    - ev-c60f9955b91d007f
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 indianstartupnews.com 原文、Adobe 官方新闻稿或 Rilo 官网/产品页与文档，提取收购公告中披露的产品功能、目标工作流与交付物描述。
+  market: ''
+  job: 公开材料只披露 Rilo 是一家上线不足一年即被 Adobe 收购的印度 AI 初创公司；其用户要完成的具体任务、面向的工作节点未在任何公开页面说明，尚未核验。
+  job_en: Public materials only reveal that Rilo is an Indian AI startup acquired by Adobe less than a
+    year after launch; the specific task its users want to accomplish and the target workflow are not
+    described anywhere public and remain unverified.
+  pain: 没有公开材料支持任何具体痛点；收购动因与产品细节均未披露，无法判断其解决的问题是否刚性，尚未核验。
+  pain_en: No public material supports any specific pain point; the acquisition rationale and product
+    details are undisclosed, so whether the problem is a rigid pain cannot be assessed and remains unverified.
+  current_alternative: 无法从公开材料还原用户当前如何绕过该问题；旧替代方式未披露，尚未核验。检索到的通用 AI 页面不构成 Rilo 的替代品证据。
+  current_alternative_en: The public record does not show how users currently work around the problem;
+    the existing alternative is undisclosed and remains unverified. Generic AI pages found in search are
+    not evidence of Rilo's substitute.
+  usage_reason: 当前关注来自收购新闻与 Adobe 背书；产品级访问、采用或社区讨论数据未见公开，关注不等于需求信号，尚未核验。
+  usage_reason_en: Current attention stems from the acquisition news and Adobe's endorsement; no product-level
+    usage, adoption, or community data is public, so attention cannot substitute for demand signals and
+    remains unverified.

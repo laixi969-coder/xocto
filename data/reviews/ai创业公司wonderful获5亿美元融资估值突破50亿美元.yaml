@@ -1,0 +1,67 @@
+- id: req-initial-ai创业公司wonderful获5亿美元融资估值突破50亿美元-2026-09-05
+  project_slug: ai创业公司wonderful获5亿美元融资估值突破50亿美元
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开资料中识别，产品功能与使用场景均未披露。
+    evidence_ids:
+    - ev-d2c887e186d870e4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户采用或关注的具体证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式与付费路径未知。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验产品真实性与交付能力。
+    evidence_ids: []
+  next_validation: 查找 Wonderful 的官方产品页面或产品发布公告，以明确其功能与目标用户。
+  market: ''
+  job: 未明确：Wonderful 试图帮助用户完成的具体任务未知。
+  job_en: 'Unclear: the specific task Wonderful aims to help users accomplish is unknown.'
+  pain: 未明确：相关痛点无法从公开资料中推断。
+  pain_en: 'Unclear: the associated pain points cannot be inferred from public materials.'
+  current_alternative: 未知：没有信息说明用户当前如何完成相关任务。
+  current_alternative_en: 'Unknown: no information on how users currently accomplish related tasks.'
+  usage_reason: 信息不足：无法判断用户为何会使用或关注该产品。
+  usage_reason_en: 'Insufficient information: cannot determine why users would use or follow this product.'
+- id: req-full-ai创业公司wonderful获5亿美元融资估值突破50亿美元-2026-09-05
+  project_slug: ai创业公司wonderful获5亿美元融资估值突破50亿美元
+  level: full
+  reviewed_at: '2026-09-06T23:15:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“Wonderful 是一家 AI 创业公司，本轮融资 5 亿美元，估值突破 50 亿美元。但公开资料未说明其产品功能、目标用户或具体应用场景，信息不足”。付钱的人、不采用代价和发生频率尚未核验，不等于没有这个需求。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪 Wonderful 的官网定价、客户案例、公开部署文档及 issue/discussion，补足价值闸门证据。
+  market: ''
+  job: 未明确：Wonderful 试图帮助用户完成的具体任务未知。
+  job_en: 'Unclear: the specific task Wonderful aims to help users accomplish is unknown.'
+  pain: 未明确：相关痛点无法从公开资料中推断。
+  pain_en: 'Unclear: the associated pain points cannot be inferred from public materials.'
+  current_alternative: 未知：没有信息说明用户当前如何完成相关任务。
+  current_alternative_en: 'Unknown: no information on how users currently accomplish related tasks.'
+  usage_reason: 信息不足：无法判断用户为何会使用或关注该产品。
+  usage_reason_en: 'Insufficient information: cannot determine why users would use or follow this product.'

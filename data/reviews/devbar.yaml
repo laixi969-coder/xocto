@@ -1,0 +1,84 @@
+- id: req-initial-devbar-2026-09-05
+  project_slug: devbar
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者手动修改代码的痛点，指向评论的交互明确，交付可确定。
+    evidence_ids:
+    - ev-ec8992eae6ee05aa
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有限，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-ec8992eae6ee05aa
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，商业模式未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者工作，AI 修改可确定性交付，但需关注代码安全和质量。
+    evidence_ids:
+    - ev-ec8992eae6ee05aa
+  next_validation: 查找 Devbar 的官方定价页或客户案例，了解实际付费和采用情况。
+  market: ''
+  job: 开发者需要快速实现代码修改，减少手动编辑和上下文切换。
+  job_en: Developers need to quickly implement code changes, reducing manual editing and context switching.
+  pain: 手动修改代码耗时且容易出错，尤其在大型代码库中定位和修改困难。
+  pain_en: Manual code changes are time-consuming and error-prone, especially locating and modifying in
+    large codebases.
+  current_alternative: 开发者通常手动编辑代码或使用 AI 聊天助手生成补丁，但需要复制粘贴和验证。
+  current_alternative_en: Developers typically edit code manually or use AI chat assistants to generate
+    patches, requiring copy-paste and verification.
+  usage_reason: 直接指向并评论可减少上下文切换，但需验证 AI 修改的准确性和安全性。
+  usage_reason_en: Pointing and commenting directly reduces context switching, but accuracy and safety
+    of AI modifications need validation.
+- id: req-full-devbar-2026-09-05
+  project_slug: devbar
+  level: full
+  reviewed_at: '2026-09-06T23:21:56Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者就地发起代码修改的需求：痛点是手动编辑耗时易错、用聊天式 AI 需离开代码位置复制粘贴补丁。官网明示『指向—评论—Agent 提交』闭环，输入、动作、交付可还原；此为工作流结构推理，尚无采用证据。
+    evidence_ids:
+    - ev-ec8992eae6ee05aa
+  - gate: consensus
+    status: insufficient
+    reason: 公开共识仅来自产品自身站点标语这一条来源，未见社区讨论、独立评价或可归因到该产品的采用数据；中文生态检索未发现该项目，英文市场仅 early_signal。卡点在感知与场景验证，关注尚未形成持续采用。
+    evidence_ids:
+    - ev-ec8992eae6ee05aa
+    - ev-25d4f211601d2283
+  - gate: model
+    status: insufficient
+    reason: 官网未披露定价页、客户案例或采购记录，付费方大概率是个人开发者或工程团队（to B/to C 判断，非已验证事实）；同类开发工具常按席位收费，Devbar 的收费路径证据不足。
+    evidence_ids:
+    - ev-ec8992eae6ee05aa
+  - gate: truth
+    status: supported
+    reason: 产品对准『把改动正确落进指定代码位置』这一第一性目标，交付物为可审查的代码变更，可嵌入现有代码评审边界；但官网未说明交付形式（PR 还是直接提交）与质量兜底，正确性依赖开发者复核，尚未核验。
+    evidence_ids:
+    - ev-ec8992eae6ee05aa
+  next_validation: 追踪 devbar.sh 官网是否上线定价页及其披露的收费标准与集成交付方式。
+  market: ''
+  job: 开发者在开发或评审代码时，需要就地发起并完成代码修改，减少手动编辑与在代码和 AI 对话之间的上下文切换。
+  job_en: Developers need to initiate and complete code changes in place while developing or reviewing
+    code, reducing manual editing and context switching between the code site and AI chat.
+  pain: 手动改代码耗时且易错；用聊天式 AI 生成补丁需要离开代码位置、复制粘贴再逐行验证，描述意图与落地改动之间往返成本高。
+  pain_en: Manual edits are slow and error-prone; chat-based AI requires leaving the code location, copy-pasting
+    patches and re-verifying them, making the round trip between describing intent and landing changes
+    costly.
+  current_alternative: 现有替代是手动编辑代码，或在 IDE / 聊天助手中描述改动后取得补丁再人工粘贴验证；该公开材料仅来自产品官网标语，替代行为属结构推理。
+  current_alternative_en: Alternatives include manual editing, or describing changes to an IDE/chat assistant
+    and manually pasting and verifying the resulting patch; this rests on structural reasoning, as the
+    public material is only the official tagline.
+  usage_reason: 指向加评论把修改指令留在代码现场，省去『描述—生成—回贴』的往返，交互效率可解释为何有开发者愿意试用；但官网尚未展示采用、付费或留存数据，采用动机属结构推理，尚未核验。
+  usage_reason_en: Point-and-comment keeps the change instruction at the code site, removing the describe-generate-repaste
+    round trip; interaction efficiency explains why developers would try it, but no usage, payment or
+    retention data is published—adoption motivation is structural reasoning, not yet verified.

@@ -80,3 +80,47 @@
   usage_reason: 该技能包直接针对代理的常见低效行为，提供即插即用的解决方案，开源且免费，开发者容易尝试。
   usage_reason_en: This skill pack directly targets common agent inefficiencies, offering a plug-and-play
     solution, open-source and free, easy for developers to try.
+- id: req-full-forward-implementation-first-2026-09-05
+  project_slug: forward-implementation-first
+  level: full
+  reviewed_at: '2026-09-06T23:25:50Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 需求与痛点：AI 编码代理用户要代理直接产出可运行代码，而代理常自创记账、哈希、锁与认证仪式，致真实工作停摆、算力时间浪费。旧替代是手写提示词约束或忍受低效；安装技能即改代理行为，交付可确定。此为工作流结构推理，痛点出自仓库自述，独立用户抱怨尚未核验。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: consensus
+    status: insufficient
+    reason: 星标 5 天内从 152 涨至 163，可归因到本仓库，显示开发者对该问题已有感知共鸣；但无 issue、discussion 或用户反馈证据，共识停在感知环节，场景与利益验证缺失，关注数不等于持续采用。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+    - ev-bdfa44b9d097aa75
+  - gate: model
+    status: insufficient
+    reason: 开源免费技能包，无定价页与付费路径，可能面向 to C 个人开发者，这是判断而非已验证事实；公开材料未见商业化、付费或采购证据。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  - gate: truth
+    status: insufficient
+    reason: 目标贴近第一性——先交付可运行代码再验证；但承诺靠提示词约束模型行为，公开材料无前后对比或效果数据，交付确定性未验证，长任务中跳过锁与状态记录亦有正确性风险。
+    evidence_ids:
+    - ev-4a086b3278d0660a
+  next_validation: 追踪 GitHub 仓库的 issue 与 discussion 区，收集用户报告安装该技能后代理是否真的停止记账式停摆、效果对比或负面反馈。
+  market: ''
+  job: 开发者指挥 AI 编码代理完成任务时，希望代理持续推进实现、直接产出可运行代码，而不是停在自创的记账、哈希、锁与认证流程上。
+  job_en: Developers directing AI coding agents want the agent to push the implementation through and
+    produce runnable code, not stall on self-invented bookkeeping, hashes, locks, and certification rituals.
+  pain: 仓库自述代理会停滞在自创记账与认证仪式上，浪费算力与时间、延迟交付；该痛点与代理用户手动改提示词绕过的旧流程吻合（属结构推理），独立用户抱怨记录尚未核验。
+  pain_en: The repo's own description says agents stall on self-invented bookkeeping and certification
+    rituals, wasting compute and time and delaying delivery; this matches the old workaround of hand-tuning
+    prompts (structural reasoning), while independent user complaints remain unverified.
+  current_alternative: 开发者在系统提示词或 CLAUDE.md 中手写规则约束代理，或反复打断纠正其自创流程，或直接忍受低效行为。
+  current_alternative_en: Developers hand-write rules in system prompts or CLAUDE.md, repeatedly interrupt
+    and correct the agent's invented rituals, or simply tolerate the inefficiency.
+  usage_reason: 免费开源、即装即用，直接对准常见低效行为；星标约一周由 152 升至 163 显示关注与试用意愿——这是关注信号，不等于付费或留存。
+  usage_reason_en: It is free, open source, and plug-and-play, directly targeting a common inefficiency;
+    stars rose from 152 to 163 in about a week, showing attention and willingness to try—attention only,
+    not payment or retention.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxOVl9rdFVEa0Q3
 summary: Top 10 Property Listing App Development Companies to Hire nerdbot
 first_seen: '2026-09-04T19:34:40Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

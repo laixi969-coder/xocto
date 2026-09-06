@@ -152,3 +152,43 @@
   usage_reason: 产品将学习嵌入用户已有的娱乐和浏览行为，降低额外学习成本，可能吸引注重趣味性的学习者。
   usage_reason_en: The product embeds learning into existing entertainment and browsing habits, reducing
     extra effort, potentially attracting learners who value fun.
+- id: req-full-termy-2026-09-05
+  project_slug: termy
+  level: full
+  reviewed_at: '2026-09-06T23:33:39Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语言学习者在真实语境中记单词的痛点，替代查词典和手动记录，交付即时解释和练习，价值结构成立。
+    evidence_ids:
+    - ev-84813961dffcba70
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅显示产品发布，缺乏用户反馈、采用数据或社区讨论，共识尚未形成。
+    evidence_ids:
+    - ev-84813961dffcba70
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是个人学习者，但付费意愿未验证。
+    evidence_ids:
+    - ev-84813961dffcba70
+  - gate: truth
+    status: supported
+    reason: 产品贴近语言学习的真实目标，交付可确定，但需确保内容版权和准确性。
+    evidence_ids:
+    - ev-84813961dffcba70
+  next_validation: 关注 Termy 官网是否提供定价页、用户案例或学习效果数据，以及社区产品平台上的评论和评分。
+  market: ''
+  job: 语言学习者在真实内容中遇到生词时，希望不打断沉浸体验就能理解并记住。
+  job_en: Language learners encountering unfamiliar words in authentic content want to understand and
+    remember them without breaking immersion.
+  pain: 传统背单词脱离语境，记忆效果差；查词典打断阅读或游戏体验。
+  pain_en: Traditional vocabulary memorization lacks context, leading to poor retention; looking up words
+    disrupts reading or gaming flow.
+  current_alternative: 使用词典应用、翻译插件或手动记录生词。
+  current_alternative_en: Using dictionary apps, translation extensions, or manually noting words.
+  usage_reason: 产品将学习嵌入用户已有的娱乐和浏览行为，降低额外学习成本，可能吸引注重趣味性的学习者。
+  usage_reason_en: The product embeds learning into existing entertainment and browsing habits, reducing
+    extra effort, potentially attracting learners who value fun.

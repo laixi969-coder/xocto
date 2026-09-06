@@ -1,0 +1,75 @@
+- id: req-initial-tama-2026-09-05
+  project_slug: tama
+  level: initial
+  reviewed_at: '2026-09-05T13:28:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者临时 GPU 计算需求，但具体工作流和痛点不明确，价值判断证据不足。
+    evidence_ids:
+    - ev-175777da3907fef1
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，缺乏采用证据，共识未形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 定价模式明确但买方和付费意愿未验证。
+    evidence_ids:
+    - ev-175777da3907fef1
+  - gate: truth
+    status: insufficient
+    reason: 产品描述简单，无法确认交付确定性。
+    evidence_ids: []
+  next_validation: 官方定价页或使用文档，明确沙盒的具体用途和用户案例。
+  market: ''
+  job: 开发者需要为 AI agent 任务提供临时、可计费的 GPU 计算环境。
+  job_en: Developers need temporary, metered GPU compute environments for AI agent tasks.
+  pain: 现有云 GPU 配置复杂、成本不透明，难以按需快速启动和停止。
+  pain_en: Existing cloud GPU setups are complex and opaque in cost, making it hard to start and stop
+    on demand.
+  current_alternative: 开发者可能使用云厂商的 GPU 实例或本地硬件，但配置和成本管理繁琐。
+  current_alternative_en: Developers may use cloud GPU instances or local hardware, but configuration
+    and cost management are cumbersome.
+  usage_reason: 提供低门槛、按小时的 GPU 沙盒，可能吸引需要临时计算资源的开发者，但需求强度未明。
+  usage_reason_en: Offering low-barrier, hourly GPU sandboxes may attract developers needing temporary
+    compute, but demand intensity is unclear.
+- id: req-full-tama-2026-09-05
+  project_slug: tama
+  level: full
+  reviewed_at: '2026-09-06T23:33:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决开发者临时 GPU 计算需求，但具体工作流和痛点不明确，价值判断证据不足。
+    evidence_ids:
+    - ev-175777da3907fef1
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 官方定价页或使用文档，明确沙盒的具体用途和用户案例。
+  market: ''
+  job: 开发者需要为 AI agent 任务提供临时、可计费的 GPU 计算环境。
+  job_en: Developers need temporary, metered GPU compute environments for AI agent tasks.
+  pain: 现有云 GPU 配置复杂、成本不透明，难以按需快速启动和停止。
+  pain_en: Existing cloud GPU setups are complex and opaque in cost, making it hard to start and stop
+    on demand.
+  current_alternative: 开发者可能使用云厂商的 GPU 实例或本地硬件，但配置和成本管理繁琐。
+  current_alternative_en: Developers may use cloud GPU instances or local hardware, but configuration
+    and cost management are cumbersome.
+  usage_reason: 提供低门槛、按小时的 GPU 沙盒，可能吸引需要临时计算资源的开发者，但需求强度未明。
+  usage_reason_en: Offering low-barrier, hourly GPU sandboxes may attract developers needing temporary
+    compute, but demand intensity is unclear.

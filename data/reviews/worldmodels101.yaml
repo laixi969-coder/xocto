@@ -302,3 +302,49 @@
   usage_reason: 开源项目获得 93 星，表明开发者社区关注，但实际采用和用户反馈未核验。
   usage_reason_en: The open-source project has 93 stars, indicating developer community interest, but
     actual adoption and user feedback are unverified.
+- id: req-full-worldmodels101-2026-09-05
+  project_slug: worldmodels101
+  level: full
+  reviewed_at: '2026-09-06T23:33:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 需求：AI 学习者要系统理解世界模型这一热点方向；痛点是论文分散、数学门槛高，旧路径靠零散论文与博客视频，难建可视化直觉。九个免费交互章节一经发布即确定交付，结构上成立——此为工作流推理，非采用证据。中文覆盖检索未见同类供给。
+    evidence_ids:
+    - ev-69011af690783d6f
+    - ev-e402ce1c843f4dac
+  - gate: consensus
+    status: insufficient
+    reason: 可归因到本仓库的 star 六日内从 114 涨至约 191 后趋平，说明英文社区对该学习需求有真实注意；但收藏非持续采用，缺讨论、完课或独立评价，中文生态未检索到同类关注，缺口在感知到持续场景一环。
+    evidence_ids:
+    - ev-54e64c01b7c740a4
+    - ev-b965e2038d81309b
+    - ev-e31c51e2b365b647
+  - gate: model
+    status: insufficient
+    reason: 课程完全免费，公开材料无定价、付费方或收入路径；可能方向是 C 端进阶付费、证书或作者声誉资产——这是判断，不是已验证事实。未见融资叙事，用户付费路径也未核验。
+    evidence_ids:
+    - ev-69011af690783d6f
+  - gate: truth
+    status: insufficient
+    reason: 免费网页内容发布即完成交付，确定性高；但内容与前沿研究的一致性、更新维护边界与学习效果均无公开复现证据，安全与人工边界暂不敏感。
+    evidence_ids:
+    - ev-69011af690783d6f
+  next_validation: 追踪 worldmodels101 官网是否新增定价、证书或付费章节页面，并收集仓库 issue、discussion 与独立评价中学习者的公开反馈。
+  market: ''
+  job: AI 学习者系统学习并理解世界模型这一快速演进方向（预测、潜在动态、规划、JEPA、视频模型与失败模式）
+  job_en: AI learners systematically learning and understanding world models, a fast-moving area covering
+    prediction, latent dynamics, planning, JEPA, video models, and failure modes
+  pain: 该方向论文分散、数学门槛高，靠零散论文与视频难以建立结构化直觉；此为结构推理，公开材料尚无用户抱怨的直接证词，尚未核验
+  pain_en: Papers in this area are scattered and math-heavy, making it hard to build structured intuition
+    from fragmented sources. This is structural reasoning; no direct user complaints exist in public materials
+    yet—not yet verified
+  current_alternative: 自行阅读 arXiv 论文、技术博客与讲座视频，或修综合性 AI 课程；公开材料未记录用户实际的替代行为
+  current_alternative_en: Self-study via arXiv papers, tech blogs, and lecture videos, or general AI courses;
+    public materials do not record users' actual replacement behavior
+  usage_reason: 仓库 star 六日内从 114 增至约 191，可归因到本产品的英文社区关注；免费交互形式降低试用门槛。持续使用与任何付费尚未核验
+  usage_reason_en: Repository stars grew from 114 to about 191 in six days, attention attributable to
+    this product in the English-speaking community; the free interactive format lowers trial cost. Sustained
+    use and any payment are not yet verified

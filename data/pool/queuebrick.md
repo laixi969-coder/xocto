@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/queuebrick
 summary: The Letterboxd alternative
 first_seen: '2026-09-02T14:42:18Z'
 last_seen: '2026-09-05T13:28:21Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

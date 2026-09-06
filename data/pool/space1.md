@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/shahd00098/space1
 summary: ''
 first_seen: '2026-09-04T14:19:19Z'
 last_seen: '2026-09-05T00:06:57Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

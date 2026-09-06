@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFMtWEk2dDJG
 summary: Is Constellation Software (TSX:CSU) Premium Still Justified? Kalkine Media
 first_seen: '2026-09-03T00:18:00Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

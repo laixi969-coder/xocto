@@ -1,6 +1,6 @@
 ---
 slug: anthropics-anthropic-sdk-python-v140
-name: 'anthropics/anthropic-sdk-python: v1.4.0'
+name: anthropic-sdk-python
 builder: anthropics
 category: ''
 summary_zh: ''
@@ -74,7 +74,7 @@ summary: '## 1.4.0 (2026-09-04)
   * **api:** update a few doc strings ([26c509d](https://github.com/anthropics/anthropic-sdk-python/commit/26c509d66192f2b40150b481fa89da97e532612c))'
 first_seen: '2026-09-04T22:20:20Z'
 last_seen: '2026-09-05T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -86,7 +86,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.4.0
+# anthropic-sdk-python
 
 ## 1.4.0 (2026-09-04)
 

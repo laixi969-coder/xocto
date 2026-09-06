@@ -22,7 +22,7 @@ summary: Native Rapid-MLX provider for DeepSeek Harness (dsh) — dsh reads mode
   instead of your settings.yaml.
 first_seen: '2026-08-17T18:28:32Z'
 last_seen: '2026-09-05T00:06:35Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

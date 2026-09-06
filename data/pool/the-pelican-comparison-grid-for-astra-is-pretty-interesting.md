@@ -1,11 +1,13 @@
 ---
 slug: the-pelican-comparison-grid-for-astra-is-pretty-interesting
-name: The Pelican comparison grid for Astra is pretty interesting
+name: GPT-6 Astra
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: GPT-6 Astra 是 OpenAI 发布的新模型，属于模型发布而非独立产品。开发者评测显示其在图像生成任务上质量优于前代，且定价约为 Sol 的两倍，但 token 消耗更低。
 inspiration: ''
-summary_en: ''
+summary_en: GPT-6 Astra is a new model from OpenAI, a model release rather than a standalone product.
+  Developer reviews show superior image generation quality over predecessors, with pricing about double
+  Sol but lower token usage.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -37,7 +39,7 @@ summary: "I got access to GPT-6 Astra this afternoon, so naturally I used it to 
   \ ,  gpt-6-astra"
 first_seen: '2026-09-04T23:59:05Z'
 last_seen: '2026-09-05T00:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -48,7 +50,7 @@ sightings:
   kind: news
 ---
 
-# The Pelican comparison grid for Astra is pretty interesting
+# GPT-6 Astra
 
 I got access to GPT-6 Astra this afternoon, so naturally I used it to generate  SVGs of pelicans riding bicycles  - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in  a comparison grid  with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. 
   

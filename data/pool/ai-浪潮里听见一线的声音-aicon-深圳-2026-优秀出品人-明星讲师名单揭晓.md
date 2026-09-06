@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hNzZucEdnYXc3
 summary: AI 浪潮里，听见一线的声音｜AICon 深圳 2026 优秀出品人 & 明星讲师名单揭晓 InfoQ-CN
 first_seen: '2026-09-04T03:21:38Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

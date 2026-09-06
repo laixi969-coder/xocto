@@ -1,0 +1,74 @@
+- id: req-initial-priceseuorg-2026-09-05
+  project_slug: priceseuorg
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者和研究者获取欧盟多国价格数据的分散与滞后问题，痛点明确，交付为可核对的指数数据。
+    evidence_ids:
+    - ev-2e6d0976d1752fcc
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏持续使用或付费证据，场景强度待观察。
+    evidence_ids:
+    - ev-2e6d0976d1752fcc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能依赖捐赠或广告，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 数据追踪贴近生活成本这一第一性目标，但数据准确性和更新机制需核验。
+    evidence_ids:
+    - ev-2e6d0976d1752fcc
+  next_validation: 检查网站是否提供数据来源和更新日期说明。
+  market: ''
+  job: 用户需要了解欧盟各国生活成本的变化，以便做出消费、投资或搬迁决策。
+  job_en: Users need to track cost-of-living changes across EU countries to make consumption, investment,
+    or relocation decisions.
+  pain: 官方数据分散且更新滞后，难以横向比较。
+  pain_en: Official data is scattered and outdated, making cross-country comparison difficult.
+  current_alternative: 用户可能依赖各国统计局网站或新闻，但缺乏统一索引。
+  current_alternative_en: Users may rely on national statistics sites or news, lacking a unified index.
+  usage_reason: 提供一站式价格指数，节省查找时间，尤其对跨国生活者有用。
+  usage_reason_en: Provides one-stop price indices, saving time, especially useful for cross-border residents.
+- id: req-full-priceseuorg-2026-09-05
+  project_slug: priceseuorg
+  level: full
+  reviewed_at: '2026-09-06T23:32:22Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决消费者和研究者获取欧盟多国价格数据的分散与滞后问题，痛点明确，交付为可核对的指数数据。
+    evidence_ids:
+    - ev-2e6d0976d1752fcc
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏持续使用或付费证据，场景强度待观察。
+    evidence_ids:
+    - ev-2e6d0976d1752fcc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能依赖捐赠或广告，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 数据追踪贴近生活成本这一第一性目标，但数据准确性和更新机制需核验。
+    evidence_ids:
+    - ev-2e6d0976d1752fcc
+  next_validation: 追踪 Prices.eu.org 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 用户需要了解欧盟各国生活成本的变化，以便做出消费、投资或搬迁决策。
+  job_en: Users need to track cost-of-living changes across EU countries to make consumption, investment,
+    or relocation decisions.
+  pain: 官方数据分散且更新滞后，难以横向比较。
+  pain_en: Official data is scattered and outdated, making cross-country comparison difficult.
+  current_alternative: 用户可能依赖各国统计局网站或新闻，但缺乏统一索引。
+  current_alternative_en: Users may rely on national statistics sites or news, lacking a unified index.
+  usage_reason: 提供一站式价格指数，节省查找时间，尤其对跨国生活者有用。
+  usage_reason_en: Provides one-stop price indices, saving time, especially useful for cross-border residents.

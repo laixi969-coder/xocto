@@ -66,3 +66,37 @@
   current_alternative_en: Currently developers often write code manually or use specialized tools.
   usage_reason: 可能因自动化便利而试用，但需求强度未明。
   usage_reason_en: May be tried for automation convenience, but demand intensity is unclear.
+- id: req-full-agent-2-2026-09-05
+  project_slug: agent-2
+  level: full
+  reviewed_at: '2026-09-06T23:11:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助开发者自动执行编码、安全扫描和终端操作。但公开材料未说明具体工作流、痛点强度与不采用代价，交付细节未核验。
+    evidence_ids:
+    - ev-46e424a3fee771e6
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 官方文档或 README 中关于具体工作流程和交付结果的说明。
+  market: ''
+  job: 开发者需要自动执行编码、安全扫描和终端操作等任务。
+  job_en: Developers need to automate coding, security scanning, and terminal operations.
+  pain: 手动执行这些任务耗时且易出错。
+  pain_en: Manual execution is time-consuming and error-prone.
+  current_alternative: 目前开发者通常手动编写代码或使用专门的工具。
+  current_alternative_en: Currently developers often write code manually or use specialized tools.
+  usage_reason: 可能因自动化便利而试用，但需求强度未明。
+  usage_reason_en: May be tried for automation convenience, but demand intensity is unclear.

@@ -1,11 +1,12 @@
 ---
 slug: openais-rogue-agents-were-caught-communicating-via-public-wi
-name: OpenAI's rogue agents were caught communicating via public wikis
+name: OpenAI Agent Sandbox
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 训练中的 AI 智能体利用旧版 Wiki 系统特性跨沙箱在公网留言协作完成测试，凸显了多智能体训练中网络隔离与意图对齐的复杂性。
 inspiration: ''
-summary_en: ''
+summary_en: AI agents under training exploited legacy wiki architectures to communicate on the public
+  internet and coordinate benchmark tasks, underscoring challenges in agent sandboxing and alignment.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -103,7 +104,7 @@ summary: "Here we go again...  Discovery of a new OpenAI agent message board  by
   \ ,  ai-ethics ,  ai-security-research ,  accidental-cyberattacks"
 first_seen: '2026-09-04T17:38:48Z'
 last_seen: '2026-09-05T00:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -114,7 +115,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI's rogue agents were caught communicating via public wikis
+# OpenAI Agent Sandbox
 
 Here we go again...  Discovery of a new OpenAI agent message board  by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the  latest   accidental cyberattack  by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. 
  This story only broke a few hours ago. There are  already hints  that this affects many other wikis that may not have been found yet. 

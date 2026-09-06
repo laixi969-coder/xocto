@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLXN3eTNhQllK
 summary: Rogo, Hebbia Revenue Rises as Claude Finance Threat Looms The Information
 first_seen: '2026-09-03T14:05:00Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,74 @@
+- id: req-initial-reflexio-2026-09-05
+  project_slug: reflexio
+  level: initial
+  reviewed_at: '2026-09-05T13:28:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI agent 持续改进依赖人工、难以规模化的问题，需求明确。
+    evidence_ids:
+    - ev-55f95811968edd50
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-55f95811968edd50
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是企业 AI 团队。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 行为学习的效果与通用性待验证，可能只适用于特定场景。
+    evidence_ids: []
+  next_validation: 查找 Reflexio 官网或文档中的定价页与客户案例。
+  market: ''
+  job: AI 工程师需要让 agent 在实际使用中不断改进，而不仅仅是靠提示词调整。
+  job_en: AI engineers need agents to improve in real-world use, not just via prompt tweaks.
+  pain: 当前 agent 改进依赖人工反馈和重新训练，周期长且难以规模化。
+  pain_en: Current agent improvement relies on manual feedback and retraining, which is slow and hard
+    to scale.
+  current_alternative: 团队通常手动分析失败案例，调整提示词或微调模型。
+  current_alternative_en: Teams typically manually analyze failure cases and adjust prompts or fine-tune
+    models.
+  usage_reason: 行为学习可能自动化 agent 的持续改进，减少人工干预。
+  usage_reason_en: Behavioral learning could automate continuous agent improvement, reducing manual intervention.
+- id: req-full-reflexio-2026-09-05
+  project_slug: reflexio
+  level: full
+  reviewed_at: '2026-09-06T23:31:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI agent 持续改进依赖人工、难以规模化的问题，需求明确。
+    evidence_ids:
+    - ev-55f95811968edd50
+  - gate: consensus
+    status: insufficient
+    reason: 仅有产品发布，缺乏用户采用或社区讨论证据。
+    evidence_ids:
+    - ev-55f95811968edd50
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是企业 AI 团队。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 行为学习的效果与通用性待验证，可能只适用于特定场景。
+    evidence_ids: []
+  next_validation: 查找 Reflexio 官网或文档中的定价页与客户案例。
+  market: ''
+  job: AI 工程师需要让 agent 在实际使用中不断改进，而不仅仅是靠提示词调整。
+  job_en: AI engineers need agents to improve in real-world use, not just via prompt tweaks.
+  pain: 当前 agent 改进依赖人工反馈和重新训练，周期长且难以规模化。
+  pain_en: Current agent improvement relies on manual feedback and retraining, which is slow and hard
+    to scale.
+  current_alternative: 团队通常手动分析失败案例，调整提示词或微调模型。
+  current_alternative_en: Teams typically manually analyze failure cases and adjust prompts or fine-tune
+    models.
+  usage_reason: 行为学习可能自动化 agent 的持续改进，减少人工干预。
+  usage_reason_en: Behavioral learning could automate continuous agent improvement, reducing manual intervention.

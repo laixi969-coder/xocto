@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zVm85LXEwd282
 summary: 官网二八杠赌钱：AI驱动的新一代数字门户正式上线 体坛
 first_seen: '2026-09-05T02:52:26Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

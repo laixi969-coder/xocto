@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTFBsX3U3amRfaUpf
 summary: 188betAPP信誉发布AI原生多模数据库，开启智能数据底座新范式 体坛
 first_seen: '2026-09-04T20:26:48Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

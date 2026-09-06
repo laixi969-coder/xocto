@@ -229,3 +229,49 @@
   usage_reason: 公开代码仓库有 143 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 143 stars, showing developer attention; repeat use and payment
     are not yet verified.
+- id: req-full-peerbridge-mcp-2026-09-05
+  project_slug: peerbridge-mcp
+  level: full
+  reviewed_at: '2026-09-06T23:29:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 需求与痛点：多 AI 代理并行写码时改动快、留证难，人工审查与合规追溯跟不上，不解决则变更无法追责、发布缺证据。这是基于仓库描述的工作流结构推理：旧替代是人工 PR 审查加 git
+      历史，本地拦截代理操作并生成审计记录的交付路径可确定。买方未确认属模式关缺口，不否定需求。
+    evidence_ids:
+    - ev-5b1cd82c55ac01c5
+    - ev-b9c8c5c033516e9e
+  - gate: consensus
+    status: insufficient
+    reason: 仓库 star 约 19 天由 172 增至 238，环比稳定且可归因到该产品本身，说明开发者正在关注；但无客户案例、issue 讨论或持续采用证据，卡在从关注到持续使用的感知环节，不足以判
+      supported。
+    evidence_ids:
+    - ev-5b1cd82c55ac01c5
+    - ev-9e2b73bce54dab0b
+  - gate: model
+    status: insufficient
+    reason: 钱可能来自 to B：工程团队为审计与合规治理工具付费，这是判断而非已验证事实；公开材料无定价页、付费主体或采购记录，付费路径未核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 仓库描述中途由适配治理层改为本地优先控制室，定位仍在摇摆；且无部署文档、可复现实测或安全与人工边界的公开证据，确定性交付未核验。
+    evidence_ids:
+    - ev-5b1cd82c55ac01c5
+    - ev-b9c8c5c033516e9e
+  next_validation: 追踪该 GitHub 仓库 README 与部署文档更新及 issues/discussions，核实实际部署场景、被替代的旧流程与审计日志的交付方式。
+  market: ''
+  job: 工程团队在多个 AI 编码代理并行写代码的工作流中，完成代码审查、留证与可审计发布。
+  job_en: Engineering teams need to review, evidence, and release code changes produced by multiple parallel
+    AI coding agents with an audit trail.
+  pain: 代理改动产生速度快于人工追踪能力，变更缺统一审计与审批记录，出问题时难以追责，合规侧也拿不到发布证据。
+  pain_en: Agents generate changes faster than humans can track; without unified audit and approval records,
+    teams cannot attribute faults or provide release evidence for compliance.
+  current_alternative: 靠人工 PR 审查、git 提交历史、CI 门禁加零散自建脚本拼审计链，追不上多代理并行的节奏。
+  current_alternative_en: Teams stitch audit trails from manual PR review, git history, CI gates, and
+    ad-hoc scripts, which cannot keep pace with parallel agents.
+  usage_reason: 仓库 star 约 19 天从 172 涨至 238，是可归因到该产品的关注信号，说明开发者认可多代理治理这一缺口；持续使用与付费尚未核验。
+  usage_reason_en: Repo stars grew from 172 to 238 in about 19 days, an attributable attention signal
+    showing developers recognize the multi-agent governance gap; sustained use and payment are not yet
+    verified.

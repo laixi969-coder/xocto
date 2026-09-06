@@ -1,0 +1,77 @@
+- id: req-initial-at8pm-2026-09-05
+  project_slug: at8pm
+  level: initial
+  reviewed_at: '2026-09-05T13:28:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏关于产品功能、用户痛点、替代方案等公开信息，无法判断需求是否成立。
+    evidence_ids:
+    - ev-02af673554389d99
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开用户反馈或市场共识。
+    evidence_ids:
+    - ev-02af673554389d99
+  - gate: model
+    status: insufficient
+    reason: 未确认是否使用 AI 技术。
+    evidence_ids:
+    - ev-02af673554389d99
+  - gate: truth
+    status: insufficient
+    reason: 缺少可验证的付费或使用数据。
+    evidence_ids:
+    - ev-02af673554389d99
+  next_validation: 获取官方产品说明页或用户评价
+  market: ''
+  job: Your honest journal
+  job_en: Your honest journal
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：Your honest journal；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Your honest journal The exact adoption
+    motive and repeat use are not yet verified.'
+- id: req-full-at8pm-2026-09-05
+  project_slug: at8pm
+  level: full
+  reviewed_at: '2026-09-06T23:18:02Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决记录每日生活与情绪的需求，但公开材料只有一句定位语，未说明具体痛点、频率或不记录的代价，无法判断需求强度。
+    evidence_ids:
+    - ev-02af673554389d99
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 获取官方产品说明页或应用商店描述，以了解功能细节和用户评价。
+  market: ''
+  job: 用户想要记录每日生活与情绪，进行自我反思和诚实表达。
+  job_en: Users want to record daily life and emotions for self-reflection and honest expression.
+  pain: 公开材料仅显示产品定位为“诚实的日记”，未说明具体痛点、频率或不记录的后果。
+  pain_en: Public materials only show the product as an 'honest journal', without specifying pain points,
+    frequency, or consequences of not journaling.
+  current_alternative: 公开材料未说明用户当前如何记录日记或替代方式，如纸质日记、其他应用或不做记录。
+  current_alternative_en: Public materials do not describe how users currently journal or alternatives
+    like paper, other apps, or not journaling.
+  usage_reason: 产品承诺提供更诚实的日记体验，但具体采用动机和持续使用情况尚未核验。
+  usage_reason_en: The product promises a more honest journaling experience, but adoption motives and
+    sustained use are not yet verified.

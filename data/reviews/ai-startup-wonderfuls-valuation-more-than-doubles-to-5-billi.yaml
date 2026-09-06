@@ -1,0 +1,80 @@
+- id: req-initial-ai-startup-wonderfuls-valuation-more-than-doubles-to-5-billi-2026-09-05
+  project_slug: ai-startup-wonderfuls-valuation-more-than-doubles-to-5-billi
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从公开资料中识别，产品功能与使用场景均未披露。
+    evidence_ids:
+    - ev-893c3450177cbcd6
+    - ev-3be329d96a414ea4
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户采用或关注的具体证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式与付费路径未知。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核验产品真实性与交付能力。
+    evidence_ids: []
+  next_validation: 查找 Wonderful 的官方产品页面或产品发布公告，以明确其功能与目标用户。
+  market: ''
+  job: 未明确：Wonderful 试图帮助用户完成的具体任务未知。
+  job_en: 'Unclear: the specific task Wonderful aims to help users accomplish is unknown.'
+  pain: 未明确：相关痛点无法从公开资料中推断。
+  pain_en: 'Unclear: the associated pain points cannot be inferred from public materials.'
+  current_alternative: 未知：没有信息说明用户当前如何完成相关任务。
+  current_alternative_en: 'Unknown: no information on how users currently accomplish related tasks.'
+  usage_reason: 信息不足：无法判断用户为何会使用或关注该产品。
+  usage_reason_en: 'Insufficient information: cannot determine why users would use or follow this product.'
+- id: req-full-ai-startup-wonderfuls-valuation-more-than-doubles-to-5-billi-2026-09-05
+  project_slug: ai-startup-wonderfuls-valuation-more-than-doubles-to-5-billi
+  level: full
+  reviewed_at: '2026-09-06T23:13:06Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开证据仅含 wonderful 一词的词典释义与 Gemini、ChatGPT 等通用 AI 概念页，没有任何一条描述该公司的产品形态、目标用户或使用场景；50 亿美元估值的报道未附产品细节，无法说出它解决什么需求与痛点。
+    evidence_ids:
+    - ev-853103055a42f198
+    - ev-31113138fc6bc7a9
+    - ev-7ac5150823454961
+    - ev-5b4c4ee6e8da2f04
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪融资报道（marketscreener.com）原文中指向的 Wonderful 官网及其产品页与定价页，确认产品形态、目标客户与交付方式。
+  market: ''
+  job: 尚未核验：公开资料未披露 Wonderful 的产品形态与目标工作，目前唯一可见的事实是一轮融资估值翻倍至 50 亿美元的报道，无法说明用户要用它完成什么任务。
+  job_en: 'Unverified: public materials do not disclose Wonderful''s product form or the job it targets;
+    the only visible fact is a funding report doubling its valuation to $5 billion, so the user task cannot
+    be stated.'
+  pain: 尚未核验：已收集证据只有 wonderful 一词的词典释义和 Gemini、ChatGPT 等通用 AI 概念页，没有任何关于该产品用户痛点、抱怨或绕过行为的记录。
+  pain_en: 'Unverified: the collected evidence consists only of dictionary definitions of the word ''wonderful''
+    and generic AI concept pages such as Gemini and ChatGPT; there are no records of user pain points,
+    complaints, or workarounds for this product.'
+  current_alternative: 无法确定：任务未知，无法说明用户当前用什么方式完成相关工作；检索到的通用 AI 助手与 AI 概念页属于市场背景噪声，不构成该产品的替代方式证据。
+  current_alternative_en: 'Undeterminable: with the task unknown, current alternatives cannot be identified;
+    the retrieved general AI assistants and AI concept pages are market-background noise, not evidence
+    of alternatives for this product.'
+  usage_reason: 公开层面可见的关注仅来自融资估值新闻带来的资本与媒体注意力，属于市场热度而非用户采用证据；为什么会有用户使用或付费，公开材料没有说明，尚未核验。
+  usage_reason_en: The only publicly visible attention comes from the funding-valuation news driving capital
+    and media interest, which is market heat rather than adoption evidence; why users would use or pay
+    for it is not explained in public materials and remains unverified.

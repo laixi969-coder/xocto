@@ -1,0 +1,75 @@
+- id: req-initial-codex-guard-2026-09-05
+  project_slug: codex-guard
+  level: initial
+  reviewed_at: '2026-09-05T00:06:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决了 AI 生成代码合并前的质量检查痛点
+    evidence_ids:
+    - ev-c94d41f8dbbce514
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开用户案例或行业共识
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未公开模型细节
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺乏公开验证数据
+    evidence_ids: []
+  next_validation: 获取 codex-guard 官方文档或使用案例，验证其在实际项目中的部署与效果。
+  market: ''
+  job: 软件开发工程师
+  job_en: Software Engineer
+  pain: 在合并前难以及时发现 AI 生成代码中的 TODO、泄露的秘密、粗糙提交和 CI 失败
+  pain_en: Difficulty detecting leftover TODOs, leaked secrets, sloppy commits, and CI failures in AI-generated
+    code before merge
+  current_alternative: 手动代码审查或使用通用 CI 检查工具
+  current_alternative_en: Manual code review or generic CI lint tools
+  usage_reason: 需要在主分支合并前自动拦截潜在问题，提升代码质量和安全
+  usage_reason_en: Need to automatically intercept potential issues before merging into main branch to
+    improve code quality and security
+- id: req-full-codex-guard-2026-09-05
+  project_slug: codex-guard
+  level: full
+  reviewed_at: '2026-09-06T23:20:54Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 生成代码合并前质量检查的痛点：TODO、泄露秘密、粗糙提交和 CI 失败若不拦截会污染主分支，增加返工与安全风险。产品输入为 PR，动作是自动检查，交付是合并前拦截，闭环可确定。此为工作流结构推理，公开材料仅提供产品功能描述。
+    evidence_ids:
+    - ev-c94d41f8dbbce514
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 136 星，缺乏公开用户案例、行业讨论或广泛采用证据，无法确认目标用户群体的共识强度。
+    evidence_ids:
+    - ev-c94d41f8dbbce514
+  - gate: model
+    status: insufficient
+    reason: 未公开定价或付费路径，买方可能是开发者或企业，但尚未核验；这是模式缺口，不影响需求判断。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺乏公开验证数据或部署案例，无法确认其拦截规则的有效性与误报率，交付质量尚未核验。
+    evidence_ids: []
+  next_validation: 追踪 codex-guard 官方文档或 GitHub 仓库的 issue/discussion，寻找用户部署案例或对拦截效果的反馈。
+  market: ''
+  job: 在 AI/Codex 生成的拉取请求合并到主分支前，自动拦截 TODO 留存、泄露的秘密、粗糙提交和 CI 失败。
+  job_en: Automatically block TODO leftovers, leaked secrets, sloppy commits, and CI failures in AI/Codex-generated
+    pull requests before they merge to main.
+  pain: AI 生成代码质量参差不齐，人工审查难以全面及时地发现所有问题，导致缺陷和安全隐患进入主分支。
+  pain_en: AI-generated code quality varies; manual review is insufficient to catch all issues in time,
+    letting defects and security risks reach main.
+  current_alternative: 手动代码审查或使用通用 CI 检查工具，但缺乏针对 AI 生成代码的专门门控。
+  current_alternative_en: Manual code review or generic CI lint tools, lacking specialized gating for
+    AI-generated code.
+  usage_reason: 仓库获得 136 星，说明开发者关注 AI 代码质量门控；但付费与持续采用尚未核验。
+  usage_reason_en: The repository has 136 stars, showing developer interest in AI code quality gating;
+    payment and sustained adoption not yet verified.

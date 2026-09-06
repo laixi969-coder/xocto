@@ -1,0 +1,80 @@
+- id: req-initial-bridle-2026-09-05
+  project_slug: bridle
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 工作流结构判断：解决团队多人协作时 AI 智能体上下文割裂痛点，提供跨智能体状态传递能力。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅包含社区讨论的初步分享，缺少实际团队日常采用、工作流集成与留存证据。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  - gate: model
+    status: insufficient
+    reason: 尚未披露商业化定价方案、企业权限版本或 API 通信收费模式。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  - gate: truth
+    status: insufficient
+    reason: 公开材料仅给出概念定位，跨智能体上下文解析精度、网络安全隔离与交付确定性仍待核验。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  next_validation: 官方公开的产品技术架构、权限隔离说明与企业团队集成方案
+  market: ''
+  job: 在团队成员之间传递和同步 AI 智能体的上下文与任务状态
+  job_en: Hand over and synchronize context and task state between agents across coworkers
+  pain: 团队协作时各自智能体上下文相互割裂，切换负责人时需要人工重复提示和同步背景
+  pain_en: Team member agents operate in silos, requiring tedious manual re-prompting and context copying
+    during handoffs
+  current_alternative: 人工复制粘贴对话历史与文档摘要，或重新向新智能体发送提示词
+  current_alternative_en: Manually copy-pasting chat histories and summaries, or re-prompting agents from
+    scratch
+  usage_reason: 社区讨论对多人协作中智能体上下文断连的问题表现出早期关注
+  usage_reason_en: Early community interest addressing the broken context gap in collaborative multi-agent
+    workflows
+- id: req-full-bridle-2026-09-05
+  project_slug: bridle
+  level: full
+  reviewed_at: '2026-09-06T23:20:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队协作中 AI 智能体上下文割裂的痛点：切换负责人时需人工重复提示和同步背景，产品通过网络接口传递对话历史与任务状态，形成输入—传递—继续处理的闭环，结构上能确定完成跨智能体交接。此为工作流结构推理，公开材料仅含概念定位。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅含社区讨论的初步分享，缺少实际团队日常采用、工作流集成与留存证据。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  - gate: model
+    status: insufficient
+    reason: 尚未披露商业化定价方案、企业权限版本或 API 通信收费模式，买方可能是 to B 企业，但未核验。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  - gate: truth
+    status: insufficient
+    reason: 公开材料仅给出概念定位，跨智能体上下文解析精度、网络安全隔离与交付确定性仍待核验。
+    evidence_ids:
+    - ev-cfeb31f5aaf2ffaf
+  next_validation: 关注官方公开的产品技术架构、权限隔离说明与企业团队集成方案。
+  market: ''
+  job: 团队成员在协作中需要将 AI 智能体的上下文与任务状态无缝传递给同事的智能体。
+  job_en: Team members need to seamlessly hand over AI agent context and task state to a coworker's agent.
+  pain: 团队协作时各智能体上下文割裂，切换负责人需人工重复提示和复制背景，效率低且易出错。
+  pain_en: Agents operate in silos during team collaboration; handoffs require manual re-prompting and
+    copying, which is inefficient and error-prone.
+  current_alternative: 人工复制粘贴对话历史与文档摘要，或重新向新智能体发送提示词。
+  current_alternative_en: Manually copy-pasting chat histories and summaries, or re-prompting agents from
+    scratch.
+  usage_reason: 社区讨论对多人协作中智能体上下文断连问题表现出早期关注，产品定位契合这一痛点；但采用规模尚未核验。
+  usage_reason_en: Early community interest in the broken context gap in collaborative multi-agent workflows;
+    product positioning fits, but adoption scale not yet verified.

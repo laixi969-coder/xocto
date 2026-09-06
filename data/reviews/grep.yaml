@@ -1,0 +1,77 @@
+- id: req-initial-grep-2026-09-05
+  project_slug: grep
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者查找代码结构的需求，痛点明确，替代方案效率低。
+    evidence_ids:
+    - ev-f8fb71ef4b9dbc5d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度有限，缺乏大规模采用证据。
+    evidence_ids:
+    - ev-1a9e36234f03f31e
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近开发者核心工作，交付可确定。
+    evidence_ids:
+    - ev-f8fb71ef4b9dbc5d
+  next_validation: 官方定价页或商业模式说明。
+  market: ''
+  job: 开发者在大型代码库中查找特定代码模式或结构。
+  job_en: Developers find specific code patterns or structures in large codebases.
+  pain: 传统文本搜索无法理解代码结构，导致查找不准确且耗时。
+  pain_en: Traditional text search cannot understand code structure, leading to inaccurate and time-consuming
+    searches.
+  current_alternative: 使用 grep 等命令行工具或 公开代码仓库 自带搜索，但功能有限。
+  current_alternative_en: Using command-line tools like grep or public code repository's built-in search,
+    which are limited.
+  usage_reason: 结构化搜索能提高代码检索的准确性和效率，尤其对于大型项目。
+  usage_reason_en: Structural search improves accuracy and efficiency of code retrieval, especially for
+    large projects.
+- id: req-full-grep-2026-09-05
+  project_slug: grep
+  level: full
+  reviewed_at: '2026-09-06T23:27:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者查找代码结构的需求，痛点明确，替代方案效率低。
+    evidence_ids:
+    - ev-f8fb71ef4b9dbc5d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度有限，缺乏大规模采用证据。
+    evidence_ids:
+    - ev-1a9e36234f03f31e
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“grep 是一个面向开发者的代码搜索工具，允许用户在公开 公开代码仓库 仓库中进行结构化搜索”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 它试图帮助用户完成：“grep 是一个面向开发者的代码搜索工具，允许用户在公开 公开代码仓库 仓库中进行结构化搜索”。公开材料尚未给出可复现结果、确定性交付及人工边界。
+    evidence_ids: []
+  next_validation: 追踪 grep 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 开发者在大型代码库中查找特定代码模式或结构。
+  job_en: Developers find specific code patterns or structures in large codebases.
+  pain: 传统文本搜索无法理解代码结构，导致查找不准确且耗时。
+  pain_en: Traditional text search cannot understand code structure, leading to inaccurate and time-consuming
+    searches.
+  current_alternative: 使用 grep 等命令行工具或公开代码仓库自带搜索，但功能有限。
+  current_alternative_en: Using command-line tools like grep or public code repository's built-in search,
+    which are limited.
+  usage_reason: 结构化搜索能提高代码检索的准确性和效率，尤其对于大型项目。
+  usage_reason_en: Structural search improves accuracy and efficiency of code retrieval, especially for
+    large projects.

@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE9mSlNZNVhRQ1Va
 summary: 100+ AI Use Cases with Real Life Examples AIMultiple
 first_seen: '2026-08-27T07:00:00Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

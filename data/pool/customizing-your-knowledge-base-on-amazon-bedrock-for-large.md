@@ -1,11 +1,12 @@
 ---
 slug: customizing-your-knowledge-base-on-amazon-bedrock-for-large
-name: Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract
+name: Amazon Bedrock Knowledge Bases
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -24,7 +25,7 @@ summary: Learn how to customize an Amazon Bedrock knowledge base for large, comp
   more accurate customer interactions.
 first_seen: '2026-09-04T16:08:10Z'
 last_seen: '2026-09-05T00:07:00Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract
+# Amazon Bedrock Knowledge Bases
 
 Learn how to customize an Amazon Bedrock knowledge base for large, complex documents by combining the high-accuracy text extraction of Amazon Textract with the generative AI of Amazon Bedrock. This post shows how to ingest and preprocess PDFs and images, then query utility bills at scale for faster, more accurate customer interactions.
 

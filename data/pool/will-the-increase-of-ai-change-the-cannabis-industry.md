@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNbzBVQ01mTmk5
 summary: Will The Increase of AI Change The Cannabis Industry The Fresh Toast
 first_seen: '2026-09-04T17:59:17Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

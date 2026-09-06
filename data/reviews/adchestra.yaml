@@ -1,0 +1,80 @@
+- id: req-initial-adchestra-2026-09-05
+  project_slug: adchestra
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 工作流结构判断：将复杂广告后台操作转化为 MCP 标准工具接口，解决投放人员手动调整的低效痛点，交付清晰。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料表明作者构建了首个 Google Ads MCP 工具，但尚未见企业营销团队规模化真实采用的数据。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  - gate: model
+    status: insufficient
+    reason: 公开材料已证明其聚焦广告管理，但尚未公开商业订阅计划或代投抽成等买方付费路径。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  - gate: truth
+    status: supported
+    reason: 工作流结构判断：调用 Google Ads 官方接口执行明确参数变更，输出确定性配置结果，人工确认边界清晰。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  next_validation: 官方后续公布的定价与授权方案，或公开案例中展示的广告代管账户数据。
+  market: ''
+  job: 广告投放专员需要通过自然语言或 AI 智能体快速查询和调优 Google Ads 广告账户。
+  job_en: Ad operations specialists need to query and optimize Google Ads accounts using natural language
+    or AI agents.
+  pain: 在 Google Ads 复杂后台手动切换界面配置参数繁琐且耗时，无法直接与工作流大模型联动。
+  pain_en: Manually navigating complex Google Ads dashboards is slow and disconnected from LLM workflows.
+  current_alternative: 登录 Google Ads 网页控制台手动点选，或自行写脚本调用 Google Ads API。
+  current_alternative_en: Manually clicking through the Google Ads console or building custom scripts
+    with the Ads API.
+  usage_reason: 通过标准 MCP 协议打通 Google Ads 账户，让主流 AI 客户端能直接执行广告管理动作。
+  usage_reason_en: Connects Google Ads via the MCP protocol, enabling standard AI clients to execute ad
+    management actions directly.
+- id: req-full-adchestra-2026-09-05
+  project_slug: adchestra
+  level: full
+  reviewed_at: '2026-09-06T23:11:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决广告投放人员在复杂后台手动调整的低效痛点，通过 MCP 将广告账户操作标准化，交付明确的账户状态更新，工作流结构推理成立。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料表明作者构建了首个 Google Ads MCP 工具，但尚未见企业营销团队规模化真实采用的数据。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  - gate: model
+    status: insufficient
+    reason: 公开材料已证明其聚焦广告管理，但尚未公开商业订阅计划或代投抽成等买方付费路径。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  - gate: truth
+    status: supported
+    reason: 工作流结构判断：调用 Google Ads 官方接口执行明确参数变更，输出确定性配置结果，人工确认边界清晰。
+    evidence_ids:
+    - ev-dfdc3d823da572ef
+  next_validation: 官方后续公布的定价与授权方案，或公开案例中展示的广告代管账户数据。
+  market: ''
+  job: 广告投放专员需要通过自然语言或 AI 智能体快速查询和调优 Google Ads 广告账户。
+  job_en: Ad operations specialists need to query and optimize Google Ads accounts using natural language
+    or AI agents.
+  pain: 在 Google Ads 复杂后台手动切换界面配置参数繁琐且耗时，无法直接与工作流大模型联动。
+  pain_en: Manually navigating complex Google Ads dashboards is slow and disconnected from LLM workflows.
+  current_alternative: 登录 Google Ads 网页控制台手动点选，或自行写脚本调用 Google Ads API。
+  current_alternative_en: Manually clicking through the Google Ads console or building custom scripts
+    with the Ads API.
+  usage_reason: 通过标准 MCP 协议打通 Google Ads 账户，让主流 AI 客户端能直接执行广告管理动作。
+  usage_reason_en: Connects Google Ads via the MCP protocol, enabling standard AI clients to execute ad
+    management actions directly.

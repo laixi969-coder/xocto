@@ -1,11 +1,12 @@
 ---
 slug: help
-name: help
+name: Mistral AI
 builder: teekert
 category: ''
-summary_zh: ''
+summary_zh: Mistral AI 调整了数据使用政策，除非属于企业级层级，否则默认将用户输入输出数据用于模型训练，引发了开发者对数据隐私和合规性的广泛关注。
 inspiration: ''
-summary_en: ''
+summary_en: Mistral AI updated its policy to train models on user inputs and outputs by default across
+  non-enterprise tiers, raising developer attention around privacy and compliance.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-in
 summary: Mistral now trains on user input by default, except on enterprise tier
 first_seen: '2026-09-02T12:30:39Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 - marketfeeds
@@ -61,7 +62,7 @@ sightings:
   kind: news
 ---
 
-# help
+# Mistral AI
 
 Mistral now trains on user input by default, except on enterprise tier
 

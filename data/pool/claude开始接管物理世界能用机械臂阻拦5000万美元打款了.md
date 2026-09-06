@@ -3,11 +3,10 @@ slug: claude开始接管物理世界能用机械臂阻拦5000万美元打款了
 name: Claude
 builder: ''
 category: ''
-summary_zh: Claude是Anthropic的通用AI助手，近期报道显示其能力扩展至物理世界操作（如机械臂执行阻拦打款动作）以及自我训练（以更低成本训练新模型）。具体产品形态与用户工作流仍待核验。
+summary_zh: Anthropic 旗下 Claude 模型在具身智能控制、自我训练优化及前沿数学形式化证明等领域的应用场景持续拓展。
 inspiration: ''
-summary_en: Claude is Anthropic's general AI assistant. Recent reports show its capabilities extending
-  to physical world operations (e.g., robotic arm blocking a payment) and self-training (training new
-  models at lower cost). Specific product forms and user workflows remain to be verified.
+summary_en: Anthropic's Claude model expanded into physical world control, self-training pipelines, and
+  formal mathematical proofs.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ canonical_url: https://qbitai.com/2026/08/480487.html
 summary: Claude觉醒超体
 first_seen: '2026-08-28T06:13:59Z'
 last_seen: '2026-09-05T13:28:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

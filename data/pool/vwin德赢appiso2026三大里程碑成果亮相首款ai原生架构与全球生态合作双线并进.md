@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTFBOcFEyMFduVi1Y
 summary: VWIN德赢APPISO2026：三大里程碑成果亮相，首款AI原生架构与全球生态合作双线并进 体坛
 first_seen: '2026-09-05T10:16:39Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://moonapp.lv
 summary: track your mood and see what fills and drains it
 first_seen: '2026-09-03T11:54:56Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

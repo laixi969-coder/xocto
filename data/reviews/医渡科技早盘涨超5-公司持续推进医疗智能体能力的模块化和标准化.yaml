@@ -1,0 +1,76 @@
+- id: req-initial-医渡科技早盘涨超5-公司持续推进医疗智能体能力的模块化和标准化-2026-09-05
+  project_slug: 医渡科技早盘涨超5-公司持续推进医疗智能体能力的模块化和标准化
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法确认医渡科技智能体解决的具体需求或痛点，产品细节未披露。
+    evidence_ids:
+    - ev-61eeb764e0097b09
+  - gate: consensus
+    status: insufficient
+    reason: 无用户或客户采用证据。
+    evidence_ids:
+    - ev-61eeb764e0097b09
+  - gate: model
+    status: insufficient
+    reason: 商业模式未知，股价波动不代表产品付费。
+    evidence_ids:
+    - ev-61eeb764e0097b09
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性未验证，仅公司公告。
+    evidence_ids:
+    - ev-61eeb764e0097b09
+  next_validation: 查找医渡科技官方产品页面或客户案例。
+  market: ''
+  job: 医渡科技可能为医院提供医疗智能体，但具体任务和用户未明确。
+  job_en: Yidu Tech may provide medical AI agents to hospitals, but specific tasks and users are unclear.
+  pain: 医院信息化和诊疗流程中的痛点可能存在，但缺乏具体信息。
+  pain_en: Pain points in hospital IT and clinical workflows may exist, but specific details are lacking.
+  current_alternative: 未知，可能包括传统 HIS 系统或人工流程。
+  current_alternative_en: Unknown; may include traditional HIS systems or manual processes.
+  usage_reason: 股价上涨和公司公告引起关注，但无采用证据。
+  usage_reason_en: Stock rise and company announcements attract attention, but no adoption evidence.
+- id: req-full-医渡科技早盘涨超5-公司持续推进医疗智能体能力的模块化和标准化-2026-09-05
+  project_slug: 医渡科技早盘涨超5-公司持续推进医疗智能体能力的模块化和标准化
+  level: full
+  reviewed_at: '2026-09-06T23:35:32Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅提及医渡科技推进医疗智能体模块化和标准化，未披露具体产品形态、用户任务或交付物，无法还原用户要完成的任务、痛点或替代方式，因此无法判断需求结构。
+    evidence_ids:
+    - ev-61eeb764e0097b09
+  - gate: consensus
+    status: insufficient
+    reason: 价值闸门未通过，共识闸门未进入。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 价值闸门未通过，模式闸门未进入。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 价值闸门未通过，求真闸门未进入。
+    evidence_ids: []
+  next_validation: 追踪医渡科技官网或官方公告中关于医疗智能体的具体产品页面、客户案例或部署文档，以确认其解决的具体任务和用户群体。
+  market: ''
+  job: 医渡科技可能为医院或医疗机构提供医疗智能体，但具体用户任务（如辅助诊断、病历分析、流程优化）未在公开材料中明确。
+  job_en: Yidu Tech may provide medical AI agents to hospitals or healthcare institutions, but the specific
+    user tasks (e.g., assisted diagnosis, medical record analysis, workflow optimization) are not clarified
+    in public materials.
+  pain: 医院信息化和诊疗流程中可能存在效率、准确性或成本痛点，但缺乏具体信息，无法确认痛点强度。
+  pain_en: Pain points in hospital informatization and clinical workflows may exist regarding efficiency,
+    accuracy, or cost, but specific details are lacking, making it impossible to confirm pain intensity.
+  current_alternative: 未知，可能包括传统医院信息系统（HIS）、人工流程或其他医疗AI产品，但无公开证据。
+  current_alternative_en: Unknown; may include traditional hospital information systems (HIS), manual
+    processes, or other medical AI products, but no public evidence.
+  usage_reason: 股价上涨和公司公告引起关注，但无用户采用或产品使用证据，关注可能源于投资叙事而非实际需求。
+  usage_reason_en: Stock rise and company announcements attract attention, but there is no evidence of
+    user adoption or product usage; attention may stem from investment narrative rather than actual demand.

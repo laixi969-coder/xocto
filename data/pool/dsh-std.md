@@ -21,7 +21,7 @@ canonical_url: https://github.com/Yan-Zero/dsh-std
 summary: ''
 first_seen: '2026-08-16T15:33:30Z'
 last_seen: '2026-09-05T13:28:25Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

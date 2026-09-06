@@ -2,17 +2,25 @@
 slug: grep
 name: grep
 builder: mohebifar
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 开发
+summary_zh: grep 是一个面向开发者的代码搜索工具，允许用户在公开 公开代码仓库 仓库中进行结构化搜索。开发者输入查询，工具返回匹配的代码片段，帮助快速定位代码模式。具体工作流程和交付细节待核验。
+inspiration: 趋势：代码搜索正从文本匹配转向结构化语义搜索，开发者需要更精准的代码检索。切入：可从代码审查、安全审计等垂直场景切入，提供针对特定框架或漏洞模式的搜索服务。
+summary_en: grep is a code search tool for developers, enabling structural search across public public
+  code repository repositories. Developers input queries, and the tool returns matching code snippets
+  to quickly locate code patterns. Specific workflow and deliverables are yet to be verified.
+inspiration_en: 'Trend: Code search is shifting from text matching to structural semantic search, as developers
+  need more precise code retrieval. Entry: Could target vertical scenarios like code review or security
+  auditing, offering search services for specific frameworks or vulnerability patterns.'
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 软件开发
+industries_en:
+- Software Development
+jobs:
+- 开发者
+jobs_en:
+- Developers
 regions: []
 regions_en: []
 open_source: false
@@ -21,7 +29,7 @@ canonical_url: https://grep.codemod.com
 summary: Structural code grep across public GitHub repositories
 first_seen: '2026-08-22T16:21:21Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 - newssearch

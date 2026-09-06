@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBGaFdqZjhOWVFm
 summary: 四海娱乐下载APP完成B轮融资，加速AI体育训练平台全球布局-体坛网_体坛+ 体坛
 first_seen: '2026-09-05T02:43:15Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

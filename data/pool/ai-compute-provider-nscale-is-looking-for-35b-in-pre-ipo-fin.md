@@ -1,11 +1,12 @@
 ---
 slug: ai-compute-provider-nscale-is-looking-for-35b-in-pre-ipo-fin
-name: AI compute provider Nscale is looking for $3.5B in pre-IPO financing
+name: Nscale
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Nscale, which recently struck a $45 billion deal with Anthropic, is in 
   funds in anticipation of an upcoming IPO.
 first_seen: '2026-09-04T21:12:11Z'
 last_seen: '2026-09-05T00:07:01Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# AI compute provider Nscale is looking for $3.5B in pre-IPO financing
+# Nscale
 
 Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.
 

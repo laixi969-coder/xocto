@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipgFBVV95cUxNNVZSMUt6UGQy
 summary: You Want AI in Your Contact Center, But Can You Secure It? UC Today
 first_seen: '2026-09-04T09:44:14Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

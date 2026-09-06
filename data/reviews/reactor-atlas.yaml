@@ -1,0 +1,78 @@
+- id: req-initial-reactor-atlas-2026-09-05
+  project_slug: reactor-atlas
+  level: initial
+  reviewed_at: '2026-09-05T00:06:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决核工程中模拟仿真门槛高、周期长的痛点，需求刚性，交付可确定。
+    evidence_ids:
+    - ev-d5978a070e79845c
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-d5978a070e79845c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是核工程公司或监管机构。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 核模拟的准确性要求高，AI 能否达到工程级精度待核验。
+    evidence_ids: []
+  next_validation: 查找 Reactor Atlas 官网或文档中的定价页与客户案例。
+  market: ''
+  job: 核工程师在反应堆设计或安全评估中需要预测堆芯行为并生成安全分析报告。
+  job_en: Nuclear engineers need to predict core behavior and produce safety analysis reports during reactor
+    design or safety assessment.
+  pain: 传统核模拟依赖 HPC 和专业软件，门槛高、周期长、成本大。
+  pain_en: Traditional nuclear simulation relies on HPC and specialized software, which is high-barrier,
+    slow, and costly.
+  current_alternative: 目前使用专业核模拟软件（如 MCNP、RELAP）在 HPC 集群上运行，需要专门培训。
+  current_alternative_en: Currently, specialized nuclear simulation codes (e.g., MCNP, RELAP) run on HPC
+    clusters, requiring specialized training.
+  usage_reason: AI 原生界面可能降低仿真门槛，让更多工程师在早期设计阶段快速迭代。
+  usage_reason_en: An AI-native interface could lower the simulation barrier, enabling more engineers
+    to iterate quickly in early design.
+- id: req-full-reactor-atlas-2026-09-05
+  project_slug: reactor-atlas
+  level: full
+  reviewed_at: '2026-09-06T23:31:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决核工程中模拟仿真门槛高、周期长的痛点，需求刚性，交付可确定。
+    evidence_ids:
+    - ev-d5978a070e79845c
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有热度，但缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-d5978a070e79845c
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是核工程公司或监管机构。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 核模拟的准确性要求高，AI 能否达到工程级精度待核验。
+    evidence_ids: []
+  next_validation: 查找 Reactor Atlas 官网或文档中的定价页与客户案例。
+  market: ''
+  job: 核工程师在反应堆设计或安全评估中需要预测堆芯行为并生成安全分析报告。
+  job_en: Nuclear engineers need to predict core behavior and produce safety analysis reports during reactor
+    design or safety assessment.
+  pain: 传统核模拟依赖 HPC 和专业软件，门槛高、周期长、成本大。
+  pain_en: Traditional nuclear simulation relies on HPC and specialized software, which is high-barrier,
+    slow, and costly.
+  current_alternative: 目前使用专业核模拟软件（如 MCNP、RELAP）在 HPC 集群上运行，需要专门培训。
+  current_alternative_en: Currently, specialized nuclear simulation codes (e.g., MCNP, RELAP) run on HPC
+    clusters, requiring specialized training.
+  usage_reason: AI 原生界面可能降低仿真门槛，让更多工程师在早期设计阶段快速迭代。
+  usage_reason_en: An AI-native interface could lower the simulation barrier, enabling more engineers
+    to iterate quickly in early design.

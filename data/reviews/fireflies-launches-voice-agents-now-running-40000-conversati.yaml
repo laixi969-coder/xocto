@@ -1,0 +1,80 @@
+- id: req-initial-fireflies-launches-voice-agents-now-running-40000-conversati-2026-09-05
+  project_slug: fireflies-launches-voice-agents-now-running-40000-conversati
+  level: initial
+  reviewed_at: '2026-09-05T00:07:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售和客服通话记录与跟进的痛点，旧流程为手动笔记，AI 自动摘要和提取行动项，价值明确。
+    evidence_ids:
+    - ev-96422c73d2d33e0d
+  - gate: consensus
+    status: supported
+    reason: 已有 2100+ 组织采用，表明市场认可，但需区分是功能采用还是持续使用。
+    evidence_ids:
+    - ev-96422c73d2d33e0d
+  - gate: model
+    status: insufficient
+    reason: 公开材料未明确收费模式，可能为订阅制，但买方可能是企业，付费路径待核验。
+    evidence_ids:
+    - ev-96422c73d2d33e0d
+  - gate: truth
+    status: supported
+    reason: AI 摘要和行动项提取是确定性交付，但需人工确认，符合工作流需求。
+    evidence_ids:
+    - ev-96422c73d2d33e0d
+  next_validation: 查找 Fireflies.ai 官方定价页或客户案例，确认付费模式和企业采用情况。
+  market: ''
+  job: 销售和客服人员需要记录并跟进大量通话内容，确保关键信息不遗漏。
+  job_en: Sales and support staff need to record and follow up on numerous calls, ensuring key information
+    is not missed.
+  pain: 手动记录通话耗时且易出错，后续整理和跟进困难。
+  pain_en: Manual call recording is time-consuming and error-prone, making follow-up difficult.
+  current_alternative: 目前许多团队仍依赖人工笔记或传统录音设备，事后手动整理。
+  current_alternative_en: Many teams still rely on manual note-taking or traditional recording devices,
+    organizing afterward manually.
+  usage_reason: AI 能自动生成结构化摘要和行动项，减少人工整理时间，提高跟进效率。
+  usage_reason_en: AI can automatically generate structured summaries and action items, reducing manual
+    organization time and improving follow-up efficiency.
+- id: req-full-fireflies-launches-voice-agents-now-running-40000-conversati-2026-09-05
+  project_slug: fireflies-launches-voice-agents-now-running-40000-conversati
+  level: full
+  reviewed_at: '2026-09-06T23:24:08Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售和客服通话记录与跟进的痛点，旧流程为手动笔记，AI 自动摘要和提取行动项，价值明确。
+    evidence_ids:
+    - ev-81964a0f074caf90
+  - gate: consensus
+    status: supported
+    reason: 已有 2100+ 组织采用，表明市场认可，但需区分是功能采用还是持续使用。
+    evidence_ids:
+    - ev-81964a0f074caf90
+  - gate: model
+    status: insufficient
+    reason: 公开材料未明确收费模式，可能为订阅制，但买方可能是企业，付费路径待核验。
+    evidence_ids:
+    - ev-81964a0f074caf90
+  - gate: truth
+    status: supported
+    reason: AI 摘要和行动项提取是确定性交付，但需人工确认，符合工作流需求。
+    evidence_ids:
+    - ev-81964a0f074caf90
+  next_validation: 查找 Fireflies.ai 官方定价页或客户案例，确认付费模式和企业采用情况。
+  market: ''
+  job: 销售和客服人员需要记录并跟进大量通话内容，确保关键信息不遗漏。
+  job_en: Sales and support staff need to record and follow up on numerous calls, ensuring key information
+    is not missed.
+  pain: 手动记录通话耗时且易出错，后续整理和跟进困难。
+  pain_en: Manual call recording is time-consuming and error-prone, making follow-up difficult.
+  current_alternative: 目前许多团队仍依赖人工笔记或传统录音设备，事后手动整理。
+  current_alternative_en: Many teams still rely on manual note-taking or traditional recording devices,
+    organizing afterward manually.
+  usage_reason: AI 能自动生成结构化摘要和行动项，减少人工整理时间，提高跟进效率。
+  usage_reason_en: AI can automatically generate structured summaries and action items, reducing manual
+    organization time and improving follow-up efficiency.

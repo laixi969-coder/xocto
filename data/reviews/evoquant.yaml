@@ -80,3 +80,48 @@
   usage_reason: 开源项目获得 215 个星标，说明开发者社区对自主研究代理有兴趣，但实际采用和付费尚未核验。
   usage_reason_en: The open-source project has 215 stars, indicating developer community interest in autonomous
     research agents, but actual adoption and payment are not yet verified.
+- id: req-full-evoquant-2026-09-05
+  project_slug: evoquant
+  level: full
+  reviewed_at: '2026-09-06T23:23:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决量化研究员在数据获取、因子试错与回测编码上耗时重复的痛点，任务高频且刚性；旧路径是手写脚本加量化平台自行搭流程。按仓库自述，产品以代理自动跑完研究循环并产出报告完成交付——此为工作流结构推理，输出质量留待求真关。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  - gate: consensus
+    status: insufficient
+    reason: 星标两周内由 204 升至 215 再小幅回落至 212，说明开发者社区有关注但未成规模；无用户评价、使用案例或场景讨论，共识卡在感知与场景环节。
+    evidence_ids:
+    - ev-ee9256825c79a865
+    - ev-9f96921f2d542fa0
+    - ev-449e788c5179f11e
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露定价与商业路径；付费方或为量化机构团队、或为个人研究员订阅，这只是判断而非已验证事实，to B 与 to C 均有可能，待公开材料确认。
+    evidence_ids:
+    - ev-9f96921f2d542fa0
+  - gate: truth
+    status: insufficient
+    reason: 自述全循环自主交付，但回测有效性、自进化是否引入过拟合或前视偏差、结论可否复现核验，均无部署文档或公开实测支撑，确定性交付尚未核验。
+    evidence_ids:
+    - ev-ee9256825c79a865
+  next_validation: 追踪 GitHub 仓库（CamusGIT/EvoQuant）的 issue 与 discussion，寻找用户报告的实际回测结果、复现记录或部署问题。
+  market: ''
+  job: 量化研究员与投资分析师需要完成从数据获取、因子构造与测试、回测到撰写研究结论的完整研究循环。
+  job_en: 'Quant researchers and investment analysts need to complete the full research loop: data acquisition,
+    factor construction and testing, backtesting, and writing up research conclusions.'
+  pain: 该循环高度重复且编码密集，数据清洗与因子试错耗时，挤占真正的洞察产出时间；此痛点由公开产品定位与行业结构推得，属结构推理，直接用户抱怨尚未核验。
+  pain_en: The loop is highly repetitive and code-heavy; data cleaning and factor iteration eat time that
+    should go to real insight. This pain is inferred from the product's stated positioning and industry
+    structure, not yet backed by direct user complaints.
+  current_alternative: 手写 Python 脚本，并借助开源回测框架或商业量化平台自行搭建数据与回测流程。
+  current_alternative_en: Manually writing Python scripts and assembling data and backtesting pipelines
+    with open-source frameworks or commercial quant platforms.
+  usage_reason: 仓库两周内星标从 204 升至 215（后小幅回落至 212），显示社区对自主量化研究代理有兴趣；免费开源降低试用门槛，但实际使用与付费尚未核验。
+  usage_reason_en: Repo stars rose from 204 to 215 within about two weeks (dipping slightly to 212), showing
+    community interest in an autonomous quant research agent; free open source lowers the trial barrier,
+    but actual usage and payment remain unverified.

@@ -31,7 +31,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEy
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
 last_seen: '2026-09-05T13:28:21Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

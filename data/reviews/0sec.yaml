@@ -112,3 +112,50 @@
   usage_reason: 开源且可扩展，可能吸引安全研究人员尝试，但采用证据尚未核验。
   usage_reason_en: Open-source and extensible, may attract security researchers to try, but adoption evidence
     is not yet verified.
+- id: req-full-0sec-2026-09-05
+  project_slug: 0sec
+  level: full
+  reviewed_at: '2026-09-06T23:10:11Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 安全研究员与工程师需反复执行漏洞验证与渗透测试，痛点是专家时间昂贵、工具割裂、覆盖难规模化；现有替代为商业扫描器、人工渗透与自建脚本。开源可扩展harness在结构上承接该任务，此为工作流推理；star一周由40升至62是可归因关注而非留存证据。
+    evidence_ids:
+    - ev-05f31eae16606ac3
+    - ev-12df938e5dbbc21a
+  - gate: consensus
+    status: insufficient
+    reason: 有强场景但共识卡在感知与验证环节：仅有仓库star一周40增至62的有限关注，缺独立讨论、评测或使用者公开反馈；中文生态检索亦未发现相关公开资料。
+    evidence_ids:
+    - ev-12df938e5dbbc21a
+    - ev-99e79d47420e2a2e
+  - gate: model
+    status: insufficient
+    reason: 未发现定价页、付费层或采购记录；项目是研究实验室发布的开源research preview，当前免费开放，钱将来来自to B订阅还是实验室自担均无公开依据，此为判断而非已验证事实。
+    evidence_ids:
+    - ev-12df938e5dbbc21a
+    - ev-840fa7e47fbeac69
+  - gate: truth
+    status: insufficient
+    reason: 产品仍处research preview，公开材料未给出输入—执行—交付闭环、结果可复现性与测试授权边界；安全场景下承诺能否确定性交付尚未核验，暂无证据反驳或确认其贴近第一性目标。
+    evidence_ids:
+    - ev-ebbcd304abc3ba07
+    - ev-dfb7aa94df80d560
+  next_validation: 持续追踪 docs.0.security 对应仓库的 issue/discussion，确认是否出现真实使用反馈、部署记录或具体用例讨论。
+  market: ''
+  job: 安全研究员与工程师需要结构化、可扩展地执行安全测试与漏洞验证，替代手工拼接的测试工具链。
+  job_en: Security researchers and engineers need a structured, extensible way to run security testing
+    and vulnerability validation, replacing hand-stitched toolchains.
+  pain: 行业已知痛点（工作流结构推理）：渗透测试依赖专家经验、耗时长，工具割裂导致覆盖难以规模化；该项目公开描述为开放可扩展的安全测试 harness，但用户对痛点的直接表述尚未核验。
+  pain_en: 'Known industry pain (workflow reasoning): penetration testing is expert-dependent and slow,
+    and fragmented tooling makes coverage hard to scale; the project describes itself as an open, extensible
+    cybersecurity harness, but direct user statements of the pain are not yet verified.'
+  current_alternative: 商业扫描器、人工渗透测试服务，以及安全团队自建脚本与工具链。
+  current_alternative_en: Commercial scanners, manual penetration testing services, and self-built scripting
+    toolchains.
+  usage_reason: 仓库star在2026-08-31至09-06由40增至62，是可归因到该项目的关注信号；开源与可扩展性对安全从业者有试用吸引力，但star只能解释关注，付费与留存尚未核验。
+  usage_reason_en: Repository stars grew from 40 to 62 between 2026-08-31 and 09-06, an attention signal
+    attributable to this project; being open-source and extensible attracts security practitioners to
+    try it, but stars explain attention only — payment and retention are not yet verified.

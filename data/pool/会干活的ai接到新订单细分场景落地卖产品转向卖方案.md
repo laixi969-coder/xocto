@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE11QnRsOEhTZE04
 summary: “会干活的AI”接到新订单：细分场景落地，卖产品转向卖方案 新浪财经
 first_seen: '2026-09-04T12:31:00Z'
 last_seen: '2026-09-05T00:07:08Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE44MXUwODE4RFMz
 summary: AI智能体落地宠物行业，智能选粮加速到来 凤凰网科技
 first_seen: '2026-09-05T02:13:35Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

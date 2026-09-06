@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNSWVNdDVhSGdU
 summary: He waited nearly 20 years to start a company. Now he's the cofounder of a double unicorn. businessinsider.com
 first_seen: '2026-09-05T09:50:00Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

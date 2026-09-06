@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxQNUdsS0s1T3po
 summary: We Tested Dozens of Smart Fridges—These 7 Impressed Us Most Good Housekeeping
 first_seen: '2026-09-03T16:30:56Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

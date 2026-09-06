@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wLU1uLTFUSi1m
 summary: 'Guide To AI Product Photography: Tools + Tips (2026) Shopify'
 first_seen: '2026-09-02T20:46:40Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

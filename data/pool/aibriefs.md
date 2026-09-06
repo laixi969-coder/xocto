@@ -21,7 +21,7 @@ canonical_url: https://aibriefs.news
 summary: Real-time AI news aggregator with daily digest
 first_seen: '2026-09-03T14:39:27Z'
 last_seen: '2026-09-05T00:06:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

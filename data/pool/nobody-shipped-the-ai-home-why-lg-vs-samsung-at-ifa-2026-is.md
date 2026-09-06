@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZnpsbktyR080
 summary: 'Nobody shipped the AI home: Why LG vs Samsung at IFA 2026 is the wrong fight Gadget Flow'
 first_seen: '2026-09-05T11:13:44Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

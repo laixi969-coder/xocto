@@ -1,0 +1,84 @@
+- id: req-initial-successkpi-launches-3-ai-releases-to-automate-quality-review-2026-09-05
+  project_slug: successkpi-launches-3-ai-releases-to-automate-quality-review
+  level: initial
+  reviewed_at: '2026-09-05T13:28:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决客服质量评审中人工抽查耗时、覆盖不全、标准不一致的痛点；AI 自动处理交互数据并生成评分报告，交付可核对。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅提及发布，缺乏客户采用或使用数据，共识证据不足。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是联络中心企业，但付费路径待核验。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  - gate: truth
+    status: insufficient
+    reason: AI 评审的准确性和人工复核边界未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  next_validation: 查找 SuccessKPI 官方定价页或客户案例，确认付费模式和实际采用情况。
+  market: ''
+  job: 客服质量评审员需要定期抽查客服与客户的通话或聊天记录，评估服务质量并给出反馈。
+  job_en: Customer service QA analysts need to periodically sample calls or chats between agents and customers,
+    evaluate service quality, and provide feedback.
+  pain: 人工抽查耗时且覆盖不全，难以发现所有问题，评分标准不一致。
+  pain_en: Manual sampling is time-consuming and incomplete, missing issues, with inconsistent scoring
+    standards.
+  current_alternative: 目前主要靠人工听取录音或阅读聊天记录，使用评分表打分。
+  current_alternative_en: Currently relies on manual listening to recordings or reading chat logs, scoring
+    with rubrics.
+  usage_reason: AI 可以全量处理交互数据，提供一致的评分和反馈，减少人工负担。
+  usage_reason_en: AI can process all interactions, provide consistent scoring and feedback, reducing
+    manual workload.
+- id: req-full-successkpi-launches-3-ai-releases-to-automate-quality-review-2026-09-05
+  project_slug: successkpi-launches-3-ai-releases-to-automate-quality-review
+  level: full
+  reviewed_at: '2026-09-06T23:31:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 需求明确：联络中心评审员需抽查坐席通话与聊天并评分，人工抽听耗时长、覆盖不全、标准不一；发布稿称 AI 自动评审并产出评分供人工复核，旧替代行为清晰，属公开事实加结构推理。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅有 MarTech Cube 一篇发布报道，属厂商宣传放大，无客户案例、采用数据或第三方评价，共识卡在感知环节。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  - gate: model
+    status: insufficient
+    reason: 买方应为联络中心企业（to B 订阅），行业惯例如此，但无定价页与采购记录，付费路径未披露，此为判断，不是已验证事实。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  - gate: truth
+    status: insufficient
+    reason: AI 评分准确率、误判处理与人工复核边界均未公开，质检结果需足够可信主管才敢采纳，交付确定性尚无公开数据支撑。
+    evidence_ids:
+    - ev-3710791c7c9cd11a
+  next_validation: 追踪 SuccessKPI 官网定价页与客户案例页，以及 MarTech Cube 原文中三款 AI 功能的部署与集成细节，核验付费模式与实际采用。
+  market: ''
+  job: 客服主管和质量评审员需定期抽查坐席与客户的通话、聊天记录，按评分表评估服务质量并反馈给坐席。
+  job_en: Contact center supervisors and QA analysts need to regularly sample agent-customer calls and
+    chats, score service quality against rubrics, and feed back to agents.
+  pain: 人工抽听耗时长、只能覆盖极小样本、评分标准因人而异，问题交互容易被漏掉；这是联络中心质检的既有流程痛点，由发布稿描述的旧流程推出，非用户访谈证据。
+  pain_en: Manual review listening is slow, covers only a tiny sample, and scoring varies by reviewer,
+    so problem interactions slip through; derived from the legacy workflow described in the release, not
+    user interviews.
+  current_alternative: 人工听取录音或阅读聊天记录，用评分表打分，再汇总反馈；覆盖率和一致性都受限。
+  current_alternative_en: Manually listening to recordings or reading chat logs, scoring with rubrics,
+    then compiling feedback; coverage and consistency are limited.
+  usage_reason: AI 可全量审听交互并输出一致评分与反馈，主管用它降本提覆盖；发布获行业媒体报道带来关注，但客户采用、付费与留存尚未核验。
+  usage_reason_en: AI can review all interactions and output consistent scores and feedback, letting managers
+    cut cost and expand coverage; trade press coverage drives attention, but adoption, payment and retention
+    remain unverified.

@@ -1,0 +1,78 @@
+- id: req-initial-agentic-resource-discovery-2026-09-05
+  project_slug: agentic-resource-discovery
+  level: initial
+  reviewed_at: '2026-09-05T00:06:35Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 工作流结构判断：解决智能体运行时跨注册表动态发现和校验 MCP 工具的痛点，工具检索与验证交付明确。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示代码库积累 52 颗星关注，但在主流 Agent 框架中的实际集成规模仍待验证。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  - gate: model
+    status: insufficient
+    reason: 目前为开源索引项目，尚未披露企业级托管搜索 API 或商业授权等变现路径。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  - gate: truth
+    status: supported
+    reason: 工作流结构判断：直接读取 MCP 协议规范的 tools/list 端点并结合基准评测，输出结果客观可复现。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  next_validation: 主流智能体框架对该 ARD 索引模块的官方集成与生产环境调用讨论。
+  market: ''
+  job: AI 开发者和自治智能体需要在运行时跨多个注册表搜索并验证可调用的 MCP 工具。
+  job_en: AI developers and autonomous agents need to search and verify callable MCP tools across registries
+    at runtime.
+  pain: MCP 工具散落在不同公共注册表中，缺乏统一检索入口且各工具可用性与接口结构缺乏统一校验。
+  pain_en: MCP tools are scattered across registries without unified search or live capability verification.
+  current_alternative: 开发者手动在各平台查阅文档并写死固定 MCP 服务器连接。
+  current_alternative_en: Developers manually search registries and hardcode fixed MCP server endpoints.
+  usage_reason: 提供跨公共注册表的联邦检索、动态工具接口提取以及评测基准 ARD-Bench。
+  usage_reason_en: Provides federated search across public registries, live tool endpoint verification,
+    and the ARD-Bench benchmark.
+- id: req-full-agentic-resource-discovery-2026-09-05
+  project_slug: agentic-resource-discovery
+  level: full
+  reviewed_at: '2026-09-06T23:12:26Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体开发者在运行时跨注册表发现并校验 MCP 工具的需求：工具散落、缺乏统一检索与实时可用性验证，手动硬编码端点易失效。产品通过联邦检索与 tools/list 动态提取形成可确定的交付闭环，属工作流结构推理。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料显示代码库积累 52 颗星关注，但在主流 Agent 框架中的实际集成规模仍待验证。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  - gate: model
+    status: insufficient
+    reason: 目前为开源索引项目，尚未披露企业级托管搜索 API 或商业授权等变现路径。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  - gate: truth
+    status: supported
+    reason: 工作流结构判断：直接读取 MCP 协议规范的 tools/list 端点并结合基准评测，输出结果客观可复现。
+    evidence_ids:
+    - ev-c60a8d36524deb52
+  next_validation: 追踪 Agentic Resource Discovery 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: AI 开发者和自治智能体需要在运行时跨多个注册表搜索并验证可调用的 MCP 工具。
+  job_en: AI developers and autonomous agents need to search and verify callable MCP tools across registries
+    at runtime.
+  pain: MCP 工具散落在不同公共注册表中，缺乏统一检索入口且各工具可用性与接口结构缺乏统一校验。
+  pain_en: MCP tools are scattered across registries without unified search or live capability verification.
+  current_alternative: 开发者手动在各平台查阅文档并写死固定 MCP 服务器连接。
+  current_alternative_en: Developers manually search registries and hardcode fixed MCP server endpoints.
+  usage_reason: 提供跨公共注册表的联邦检索、动态工具接口提取以及评测基准 ARD-Bench。
+  usage_reason_en: Provides federated search across public registries, live tool endpoint verification,
+    and the ARD-Bench benchmark.

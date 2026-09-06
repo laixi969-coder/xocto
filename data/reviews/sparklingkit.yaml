@@ -1,0 +1,86 @@
+- id: req-initial-sparklingkit-2026-09-05
+  project_slug: sparklingkit
+  level: initial
+  reviewed_at: '2026-09-05T13:28:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决本地数据处理需求，但痛点刚性不足，现有替代方案多样，价值结构不清晰。
+    evidence_ids:
+    - ev-888d9a487b90db55
+  - gate: consensus
+    status: insufficient
+    reason: 开源星数增长缓慢，无社区讨论或采用证据，共识未形成。
+    evidence_ids:
+    - ev-888d9a487b90db55
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确，可能是开发者自用或 to B 部署，但无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 功能集成度高但无强场景，可能面临貂丁风险，需进一步验证实际工作流。
+    evidence_ids:
+    - ev-888d9a487b90db55
+  next_validation: 查看官方文档或仓库 README 是否提供具体行业案例或部署指南，以确认实际工作流和交付物。
+  market: ''
+  job: 开发者在本地处理文档、音视频等材料，需要 OCR、转录、翻译、图像生成等功能，但现有工具分散且依赖云端。
+  job_en: Developers process documents, audio, and video locally, needing OCR, transcription, translation,
+    and image generation, but existing tools are fragmented and cloud-dependent.
+  pain: 数据隐私和合规要求迫使部分工作流必须在本地完成，但本地工具链集成度低，切换成本高。
+  pain_en: Data privacy and compliance force some workflows to run locally, but local toolchains are poorly
+    integrated, causing high switching costs.
+  current_alternative: 开发者可能使用多个独立开源工具或云端 API，但缺乏统一界面和本地硬件优化。
+  current_alternative_en: Developers may use multiple standalone open-source tools or cloud APIs, lacking
+    a unified interface and local hardware optimization.
+  usage_reason: 开源社区对本地 AI 工具的兴趣可能驱动试用，但需求强度未明，缺乏付费或持续采用证据。
+  usage_reason_en: Interest in local AI tools from the open-source community may drive trials, but demand
+    intensity is unclear, lacking evidence of payment or sustained adoption.
+- id: req-full-sparklingkit-2026-09-05
+  project_slug: sparklingkit
+  level: full
+  reviewed_at: '2026-09-06T23:31:28Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 需求可还原：DGX Spark 买家需在本地跑 OCR、转录、翻译与图像生成，痛点是云端 API 隐私顾虑和本地工具分散、拼接门槛高；统一工作台承接输入到产出。此为工作流结构推理，星数三天
+      55→60 属早期行为信号。
+    evidence_ids:
+    - ev-a494bf50decae91c
+    - ev-888d9a487b90db55
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数三日从 55 升至 60，增长可归因本项目但绝对量小，无 issue、discussion 或第三方评测，社区共识停留在感知早期。
+    evidence_ids:
+    - ev-888d9a487b90db55
+    - ev-a494bf50decae91c
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页与商业主体信息，买方不明；钱更可能来自开发者自用免费或未来企业授权，此为判断，不是已验证事实。
+    evidence_ids:
+    - ev-a494bf50decae91c
+  - gate: truth
+    status: insufficient
+    reason: 本地推理让交付结果可在用户机器上直接核验，闭环结构完整；但六类功能在 DGX Spark 上的精度与组合稳定性无公开实测，确定性交付未证。
+    evidence_ids:
+    - ev-a494bf50decae91c
+  next_validation: 追踪仓库 README 与部署文档中的 DGX Spark 实测案例，以及 issue / discussion 里用户对 OCR、转录等功能的真实运行反馈。
+  market: ''
+  job: 开发者和 DGX Spark 用户需要在本地完成文档与音视频的识别、转换和生成：OCR、转录、翻译、图像生成、思维导图，并把多步处理串成工作流。
+  job_en: Developers and DGX Spark owners need to run OCR, transcription, translation, image generation
+    and mind mapping locally, chaining multi-step processing into workflows.
+  pain: 云端 API 有数据隐私与持续成本顾虑，而本地开源工具彼此分散、环境配置和串联门槛高；此痛点由产品定位与工作流结构推理得出，尚未有用户口述佐证。
+  pain_en: Cloud APIs raise privacy and recurring cost concerns, while local open-source tools are fragmented
+    with high setup and glue costs; inferred from positioning and workflow structure, not yet from user
+    testimony.
+  current_alternative: 分别部署 Whisper、OCR、图像生成等独立开源工具自行拼接，或直接调用云端 API。
+  current_alternative_en: Assembling separate open-source tools (Whisper, OCR, image generation) manually,
+    or calling cloud APIs.
+  usage_reason: 已购 DGX Spark 的用户需要开箱即用的本地工作台来兑现硬件价值；仓库星数三天从 55 增至 60，显示有开发者关注并试用，但付费与持续使用尚未核验。
+  usage_reason_en: DGX Spark buyers need an out-of-the-box local workbench to unlock the hardware's value;
+    stars grew from 55 to 60 in three days, showing developer interest and trial, while payment and sustained
+    usage remain unverified.

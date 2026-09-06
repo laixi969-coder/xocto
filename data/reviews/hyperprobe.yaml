@@ -1,0 +1,72 @@
+- id: req-initial-hyperprobe-2026-09-05
+  project_slug: hyperprobe
+  level: initial
+  reviewed_at: '2026-09-05T13:28:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生产环境调试的痛点，需求明确，替代方案风险高。
+    evidence_ids:
+    - ev-03aac78ee0004142
+  - gate: consensus
+    status: insufficient
+    reason: 仅 公开资料 发布，缺乏社区讨论和采用数据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近运维核心工作，交付可确定。
+    evidence_ids:
+    - ev-03aac78ee0004142
+  next_validation: 官方定价页或客户案例。
+  market: ''
+  job: 开发者和运维人员在生产环境中快速定位和修复问题。
+  job_en: Developers and DevOps quickly identify and fix issues in production.
+  pain: 传统调试需要重新部署或侵入式操作，耗时且有风险。
+  pain_en: Traditional debugging requires redeployment or invasive actions, which is time-consuming and
+    risky.
+  current_alternative: 使用日志分析、监控工具或手动排查，效率低。
+  current_alternative_en: Using log analysis, monitoring tools, or manual troubleshooting, which is inefficient.
+  usage_reason: 无需重新部署即可调试，能减少停机时间并提高响应速度。
+  usage_reason_en: Debugging without redeployment reduces downtime and improves response speed.
+- id: req-full-hyperprobe-2026-09-05
+  project_slug: hyperprobe
+  level: full
+  reviewed_at: '2026-09-06T23:25:52Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决生产环境调试的痛点，需求明确，替代方案风险高
+    evidence_ids:
+    - ev-03aac78ee0004142
+  - gate: consensus
+    status: insufficient
+    reason: 仅公开资料发布，缺乏社区讨论和采用数据
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 它试图帮助用户完成：“Hyperprobe 允许 AI 代理在生产环境中进行调试，无需重新部署。开发者或运维人员触发调试，AI 代理执行诊断并返回结果，但具体流程和交付物待核验”。付钱的人尚未核验：未见付费主体、定价与单位经济。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 产品功能描述表明可实现 AI 代理在生产环境中调试，交付可确定
+    evidence_ids:
+    - ev-03aac78ee0004142
+  next_validation: 追踪 Hyperprobe 的官网定价、客户案例、公开部署文档及 issue/discussion。
+  market: ''
+  job: 开发者和运维工程师在生产环境中快速定位和修复问题
+  job_en: Developers and DevOps quickly identify and fix issues in production
+  pain: 传统调试需要重新部署或侵入式操作，耗时且有风险
+  pain_en: Traditional debugging requires redeployment or invasive actions, which is time-consuming and
+    risky
+  current_alternative: 使用日志分析、监控工具或手动排查，效率低
+  current_alternative_en: Using log analysis, monitoring tools, or manual troubleshooting, which is inefficient
+  usage_reason: 无需重新部署即可调试，能减少停机时间并提高响应速度
+  usage_reason_en: Debugging without redeployment reduces downtime and improves response speed

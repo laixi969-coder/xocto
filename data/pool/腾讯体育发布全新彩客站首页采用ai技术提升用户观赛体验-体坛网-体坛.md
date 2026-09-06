@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTFBKV1EyQVprN29D
 summary: 腾讯体育发布全新彩客站首页采用AI技术提升用户观赛体验-体坛网_体坛+ 体坛
 first_seen: '2026-09-04T21:23:09Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -303,3 +303,44 @@
   usage_reason: 公开代码仓库有 102 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 102 stars and 5 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-openhistory-2026-09-05
+  project_slug: openhistory
+  level: full
+  reviewed_at: '2026-09-06T23:29:40Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求与痛点：重度使用本地 AI 代理的开发者需要回溯代理执行过的任务，而代理自主运行后过程散落多个会话，靠终端历史、git 记录难以检索。此为工作流结构推理：本地私密记录加可搜索时间线可确定完成交付；用户侧痛点直接证据尚未核验。
+    evidence_ids:
+    - ev-65618a0550a50a43
+  - gate: consensus
+    status: insufficient
+    reason: 共识卡在场景扩散环节：仓库收藏约103升至105、增速缓慢，说明少量开发者注意到该场景，但公开讨论、用户评价与持续采用证据缺失；市场观察显示英文生态供应萌芽、需求未知，中文覆盖范围内未见同类。
+    evidence_ids:
+    - ev-3f1eed2a581a82d4
+    - ev-54b0be1586dcc60b
+    - ev-f8497fa595154dd3
+  - gate: model
+    status: insufficient
+    reason: 未发现定价页或付费主体；作为开源本地工具，钱更可能来自个人开发者的 to C 付费，未来或靠同步、团队功能收费——这是判断而非已验证事实。商业模式缺口不推翻价值关结论。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 官方页面宣称本地私密记录并可搜索，记录—索引—检索闭环不依赖外部服务，结构上可确定性交付，隐私定位贴合任务第一性目标；但尚无可复现的部署文档、issue 或第三方实测验证该承诺。
+    evidence_ids:
+    - ev-65618a0550a50a43
+  next_validation: 追踪 openhistory 官网文档与仓库 issues/discussions 的新增公开内容，寻找用户报告的实际部署场景与被替代的旧流程；若官网出现定价页或付费计划，记录付费主体与价格。
+  market: ''
+  job: 在 macOS 上回溯并检索本地 AI 代理执行过的工作历史
+  job_en: Recall and search the work history of local AI agents on macOS
+  pain: AI 代理自主执行任务后，其步骤与输出散落在多个会话中，事后难以审计与查找；这是从产品定位推出的结构推理，公开用户抱怨材料尚未直接呈现（尚未核验）。
+  pain_en: After agents run autonomously, their steps and outputs scatter across sessions, making audit
+    and recall hard; this is inferred structurally from the product's positioning, direct user complaints
+    are not yet verified.
+  current_alternative: 代理工具自带的会话日志、终端滚动历史、git 提交记录，或靠记忆手动翻查；公开材料未展示用户实际的绕过方式（尚未核验）。
+  current_alternative_en: Agent-native session logs, terminal scrollback, git history, or manual recall;
+    actual workarounds are not shown in public materials (not yet verified).
+  usage_reason: 仓库收藏从103增至105，表明有开发者因"私密可搜索的代理工作记录"这一场景关注并试用；收藏是关注信号，不等于持续使用或付费，留存尚未核验。
+  usage_reason_en: Repository stars grew from 103 to 105, showing developer attention to the

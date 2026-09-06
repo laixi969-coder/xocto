@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE02OUw2LXVmMVly
 summary: Salesforce讨论人工智能货币化、产品势头和平台集成会议全文！（深度解读） 新浪网
 first_seen: '2026-09-05T04:55:40Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

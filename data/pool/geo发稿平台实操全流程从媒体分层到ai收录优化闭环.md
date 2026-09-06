@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mcTAxa3phMlNF
 summary: GEO发稿平台实操全流程：从媒体分层到AI收录优化闭环 凤凰网财经
 first_seen: '2026-09-05T07:46:57Z'
 last_seen: '2026-09-05T13:28:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -414,3 +414,50 @@
   usage_reason: 公开代码仓库有 1,215 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 1,215 stars and 8 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-full-northcinder-2026-09-05
+  project_slug: northcinder
+  level: full
+  reviewed_at: '2026-09-06T23:28:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的需求与痛点是购买前决策：比较候选产品并向买家确认后再下单；代理代买缺确认会买错或越权支出，手动比价耗时。功能说明可还原「比较—询问—确认」闭环，此为工作流结构推理；1,217
+      星显示场景关注，买方与付费未核验。
+    evidence_ids:
+    - ev-f2fb0a407361b1a7
+    - ev-5629ba061648aa34
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星数两周内在 1,216–1,219 之间波动、基本零增长，复刻仅 8 个；关注未转化为可观察的持续采用，中文生态检索未发现同类公开项目，共识卡在场景认知环节。
+    evidence_ids:
+    - ev-5490be5089ca477d
+    - ev-8adf02f7c8a73c51
+    - ev-e33df75496d03913
+  - gate: model
+    status: insufficient
+    reason: 开源 MCP 服务器，无定价页、无付费或客户采购记录；收入若存在更可能来自集成该工具的开发者或企业（to B），此为判断而非已验证事实，付费路径完全未核验。
+    evidence_ids:
+    - ev-b350c600d9f184d9
+  - gate: truth
+    status: insufficient
+    reason: 无部署文档、客户案例或可复现实测证明「比较与询问买家」能确定性交付；商品数据来源、确认机制与误购责任边界均无公开说明。
+    evidence_ids:
+    - ev-f2fb0a407361b1a7
+  next_validation: 追踪 github.com/cinderline/northcinder 的 README、文档与 issue/discussion 更新，寻找其商品数据来源、部署方式及真实使用场景的公开讨论；如出现定价页或客户案例一并采集。
+  market: ''
+  job: 在完成购买前比较候选产品，并在（可能由 AI 代理执行的）下单动作发生前获得买家确认。
+  job_en: Compare candidate products before a purchase and obtain buyer confirmation before the order
+    is placed, including when the purchase is executed by an AI agent.
+  pain: 购买决策里比价信息分散、逐项比对耗时；代理代买时若无确认环节，存在买错、买贵或越权支出的风险。此痛点来自工作流结构推理，用户口述与实际案例尚未核验。
+  pain_en: Pre-purchase comparison is scattered and time-consuming, and agent-executed purchases without
+    a confirmation step risk wrong, overpriced, or unauthorized spending. This pain is workflow-structural
+    reasoning, not yet verified by user accounts or cases.
+  current_alternative: 在电商平台与搜索结果间手动比价、逐笔人工审批支出，或让代理不经确认直接购买。
+  current_alternative_en: Manually comparing prices across e-commerce sites and search results, approving
+    each purchase by hand, or letting agents buy without confirmation.
+  usage_reason: 仓库约 1,217 星、8 个复刻，两周内星数基本持平：开发者对 agentic 购买工具存在关注与试用动机；持续使用与付费未核验，中文生态未检索到同类公开项目。
+  usage_reason_en: 'The repo holds about 1,217 stars and 8 forks, essentially flat over two weeks: developers
+    are paying attention to agentic purchasing tools; sustained use and payment are unverified, and no
+    comparable project was found in the zh ecosystem.'

@@ -1,0 +1,75 @@
+- id: req-initial-brickforgerai-2026-09-05
+  project_slug: brickforgerai
+  level: initial
+  reviewed_at: '2026-09-05T13:28:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它提供了将文字提示直接转化为可搭建 LEGO 模型的方法。
+    evidence_ids:
+    - ev-7a658f957da27853
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或市场共识的公开证据。
+    evidence_ids:
+    - ev-7a658f957da27853
+  - gate: model
+    status: insufficient
+    reason: 未公开模型性能或用户反馈。
+    evidence_ids:
+    - ev-7a658f957da27853
+  - gate: truth
+    status: insufficient
+    reason: 未验证生成的 LEGO 集合是否可实际搭建。
+    evidence_ids:
+    - ev-7a658f957da27853
+  next_validation: 公开的用户案例或使用数据
+  market: ''
+  job: LEGO 爱好者
+  job_en: Hobbyists
+  pain: 难以将创意转化为可搭建的模型
+  pain_en: Difficulty turning ideas into buildable models
+  current_alternative: 手工设计、购买现成套装
+  current_alternative_en: Manual design or buying ready sets
+  usage_reason: 想快速实现创意并获得可玩模型
+  usage_reason_en: Want to quickly realize ideas and get playable models
+- id: req-full-brickforgerai-2026-09-05
+  project_slug: brickforgerai
+  level: full
+  reviewed_at: '2026-09-06T23:20:19Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 LEGO 爱好者将文字创意转化为可搭建模型的痛点：手工设计门槛高、耗时长，产品以提示词输入、生成砖块集合与搭建说明的闭环交付，结构上能确定完成从创意到可搭建模型的转化。此为工作流结构推理，公开材料仅提供产品定位。
+    evidence_ids:
+    - ev-7a658f957da27853
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料仅含产品定位，缺乏用户评价、社区讨论或采用数据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-7a658f957da27853
+  - gate: model
+    status: insufficient
+    reason: 未公开定价、付费路径或商业模式，买方可能是 to C 爱好者或 to B 玩具厂商，但均未核验。
+    evidence_ids:
+    - ev-7a658f957da27853
+  - gate: truth
+    status: insufficient
+    reason: 未验证生成的砖块集合是否可实际搭建，交付确定性缺乏公开证据。
+    evidence_ids:
+    - ev-7a658f957da27853
+  next_validation: 关注官网或产品页是否发布可搭建性验证、用户搭建案例或实际购买零件的数据。
+  market: ''
+  job: LEGO 爱好者希望将文字创意快速转化为可实际搭建的砖块模型与搭建说明。
+  job_en: LEGO hobbyists want to quickly turn text ideas into buildable brick models with instructions.
+  pain: 将创意转化为可搭建模型需要专业设计技能和大量时间，手工设计门槛高。
+  pain_en: Turning ideas into buildable models requires design skills and time; manual design is high-barrier.
+  current_alternative: 手工设计或购买现成套装，缺乏个性化快速实现途径。
+  current_alternative_en: Manual design or buying ready sets; lacks a fast path for personalization.
+  usage_reason: 产品提供从提示到可搭建模型的自动化流程，吸引追求创意实现的爱好者关注；但采用规模尚未核验。
+  usage_reason_en: The product offers an automated prompt-to-buildable-model pipeline, attracting hobbyists
+    seeking idea realization; adoption scale not yet verified.
