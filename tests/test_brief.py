@@ -839,5 +839,73 @@ class BriefTests(unittest.TestCase):
             self.assertFalse(store.brief_progress_path(DAY).exists())
 
 
+    def test_failed_batch_is_isolated_unless_it_holds_a_priority_candidate(self) -> None:
+        def broken(slug: str) -> dict:
+            # watching 但缺 category、标签和 req_initial：确定性兜底补不齐，
+            # 校验屡修不过，正好命中隔离路径。
+            return {"products": [{"slug": slug, "name": slug.title(), "decision": "watching"}]}
+
+        valid_beta = {
+            "products": [{
+                "slug": "beta",
+                "name": "Beta",
+                "decision": "market_context",
+                "summary_zh": "贝塔改变了企业采购与交付方式。",
+                "summary_en": "Beta changes enterprise buying and delivery patterns.",
+            }]
+        }
+        report = {
+            "report": {
+                "hook_zh": "企业采购正在转向可持续交付",
+                "highlights_zh": ["一个市场变化已完成判断"],
+                "body_zh": "## 本期判断\n\n采购与交付方式正在变化。",
+                "hook_en": "Enterprise buying is shifting toward durable delivery",
+                "highlights_en": ["One market shift completed assessment"],
+                "body_en": "## Edition call\n\nBuying and delivery patterns are changing.",
+            }
+        }
+
+        def fake_request(messages: list[dict[str, str]]) -> dict:
+            if "alpha" in messages[1]["content"]:
+                return broken("alpha")
+            if "beta" in messages[1]["content"]:
+                return valid_beta
+            return report
+
+        def prepare(tmp: str) -> Store:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            store.config_dir.mkdir(parents=True, exist_ok=True)
+            (store.config_dir / "filter.md").write_text("筛选规则", encoding="utf-8")
+            (store.config_dir / "template.md").write_text("编辑模板", encoding="utf-8")
+            (store.config_dir / "req.md").write_text("REQ 公开证据模式", encoding="utf-8")
+            store.save_product(product("alpha"))
+            store.save_product(product("beta"))
+            return store
+
+        # 普通候选的坏批次只隔离该批：beta 照常完成，日报照常发布。
+        with tempfile.TemporaryDirectory() as tmp:
+            store = prepare(tmp)
+            with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
+                "xocto.brief._request", side_effect=fake_request
+            ):
+                result = run(store, day=DAY)
+
+            self.assertEqual(result.updated, 1)
+            self.assertEqual(store.load_product("alpha").status, STATUS_PENDING_FILTER)
+            self.assertEqual(store.load_product("beta").status, STATUS_MARKET_CONTEXT)
+            self.assertTrue(store.report_path(DAY).exists())
+
+        # 重大项目的批次不许静默跳过：必须让整天失败并触发工作流重试。
+        with tempfile.TemporaryDirectory() as tmp:
+            store = prepare(tmp)
+            store.save_product(replace(store.load_product("alpha"), priority_review=True))
+            with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
+                "xocto.brief._request", side_effect=lambda messages: broken("alpha")
+            ):
+                with self.assertRaises(BriefError):
+                    run(store, day=DAY)
+
+
 if __name__ == "__main__":
     unittest.main()

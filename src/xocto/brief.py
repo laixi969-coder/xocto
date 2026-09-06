@@ -160,8 +160,10 @@ def _candidate_data(store: Store, product: Product, *, compact: bool = False) ->
 
 NEWS_LIMIT = 18
 FIRST_PARTY_BUDGET = 12
-# 单条完整判断避免大候选与修复消息超过服务商配额；全部候选仍逐批处理。
-BRIEF_BATCH_SIZE = 1
+# 完整判断输出很长（双语摘要 + 灵感 + 四道闸门），批太大先撞输出上限；
+# 批太小又让候选多的日子跑不完任务超时。4 条约 5K 输出 token，输入超限
+# 由 _split_batches 在调用方再拆。
+BRIEF_BATCH_SIZE = 4
 # 轻量解释输出较短，采用小批次控制输入规模。
 INTERPRETATION_BATCH_SIZE = 8
 MAX_BATCH_REPAIRS = 2
@@ -1190,6 +1192,17 @@ def _validation_repair_messages(
     ]
 
 
+def _require_isolatable(batch: list[Product], exc: BriefError) -> None:
+    """校验屡修不过时只丢弃该批，把当天判断保住；重大项目例外。
+
+    被丢弃的候选保持 pending，下一次运行会重新请求；若批里有重大项目，
+    静默跳过会让它从当天日报消失，必须让整天失败并触发工作流重试。
+    """
+    if any(product.priority_review for product in batch):
+        raise exc
+    print(f"! 本批 {len(batch)} 个候选屡修未过，跳过留待下次运行：{exc}", flush=True)
+
+
 def _reject_empty_day_copy(texts: list[str], field: str) -> None:
     """空简报不是合法交卷：采集网开着时，写「今天没有」说明过滤没看见。"""
     blob = "\n".join(texts).casefold()
@@ -1283,46 +1296,52 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         if _estimate_payload_bytes(messages) > MAX_PAYLOAD_BYTES:
             messages = _interpretation_prompt(store, batch, compact=True)
         result = _request(messages)
-        for attempt in range(MAX_BATCH_REPAIRS + 1):
-            try:
-                interpreted, entities, interpreted_events = _interpretations(result, batch)
-                break
-            except BriefError as exc:
-                if attempt >= MAX_BATCH_REPAIRS:
-                    result = _recover_missing_public_text(result, batch)
-                    interpreted, entities, interpreted_events = _interpretations(result, batch)
-                    break
+        try:
+            for attempt in range(MAX_BATCH_REPAIRS + 1):
                 try:
-                    result = _request(_validation_repair_messages(messages, result, exc))
-                except BriefError:
-                    # 修复请求自身失败时不再丢掉整批判断，直接退到确定性兜底。
-                    result = _recover_missing_public_text(result, batch)
                     interpreted, entities, interpreted_events = _interpretations(result, batch)
                     break
-        for attempt in range(MAX_BATCH_REPAIRS + 1):
-            try:
-                _require_no_public_source_leaks(
-                    interpreted, "", "", event_summaries=interpreted_events
-                )
-                break
-            except PublicSourceLeakError as exc:
-                if attempt >= MAX_BATCH_REPAIRS:
-                    result = _neutralize_model_public_copy(result)
-                    interpreted, entities, interpreted_events = _interpretations(result, batch)
+                except BriefError as exc:
+                    if attempt >= MAX_BATCH_REPAIRS:
+                        result = _recover_missing_public_text(result, batch)
+                        interpreted, entities, interpreted_events = _interpretations(result, batch)
+                        break
+                    try:
+                        result = _request(_validation_repair_messages(messages, result, exc))
+                    except BriefError:
+                        # 修复请求自身失败时不再丢掉整批判断，直接退到确定性兜底。
+                        result = _recover_missing_public_text(result, batch)
+                        interpreted, entities, interpreted_events = _interpretations(result, batch)
+                        break
+            for attempt in range(MAX_BATCH_REPAIRS + 1):
+                try:
                     _require_no_public_source_leaks(
                         interpreted, "", "", event_summaries=interpreted_events
                     )
                     break
-                try:
-                    result = _request(_source_leak_repair_messages(messages, result, exc.names))
-                except BriefError:
-                    result = _neutralize_model_public_copy(result)
+                except PublicSourceLeakError as exc:
+                    if attempt >= MAX_BATCH_REPAIRS:
+                        result = _neutralize_model_public_copy(result)
+                        interpreted, entities, interpreted_events = _interpretations(result, batch)
+                        _require_no_public_source_leaks(
+                            interpreted, "", "", event_summaries=interpreted_events
+                        )
+                        break
+                    try:
+                        result = _request(_source_leak_repair_messages(messages, result, exc.names))
+                    except BriefError:
+                        result = _neutralize_model_public_copy(result)
+                        interpreted, entities, interpreted_events = _interpretations(result, batch)
+                        _require_no_public_source_leaks(
+                            interpreted, "", "", event_summaries=interpreted_events
+                        )
+                        break
                     interpreted, entities, interpreted_events = _interpretations(result, batch)
-                    _require_no_public_source_leaks(
-                        interpreted, "", "", event_summaries=interpreted_events
-                    )
-                    break
-                interpreted, entities, interpreted_events = _interpretations(result, batch)
+        except BriefError as exc:
+            # 请求本身失败仍让整天失败（工作流会带着断点重试）；只有
+            # 校验屡修不过才隔离本批，不让一个坏批次毁掉已完成的大半天。
+            _require_isolatable(batch, exc)
+            continue
         store.save_brief_batch(day, "interpretation", result)
         updates.update(interpreted)
         event_summaries.update(interpreted_events)
@@ -1369,66 +1388,71 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         if _estimate_payload_bytes(messages) > MAX_PAYLOAD_BYTES:
             messages = _prompt(store, day, batch, [], previous_zh="", previous_en="", compact=True)
         result = _request(messages)
-        for attempt in range(MAX_BATCH_REPAIRS + 1):
-            try:
-                batch_updates = _updates(result, batch)
-                batch_reviews = _req_reviews(result, batch, store, day=day)
-                batch_event_summaries = _event_summaries(result, batch)
-                break
-            except BriefError as exc:
-                if attempt >= MAX_BATCH_REPAIRS:
-                    result = _recover_missing_public_text(result, batch)
-                    batch_updates = _updates(result, batch)
-                    batch_reviews = _req_reviews(result, batch, store, day=day)
-                    batch_event_summaries = _event_summaries(result, batch)
-                    break
+        try:
+            for attempt in range(MAX_BATCH_REPAIRS + 1):
                 try:
-                    result = _request(_validation_repair_messages(messages, result, exc))
-                except BriefError:
-                    # 修复请求自身失败时不再丢掉整批判断，直接退到确定性兜底。
-                    result = _recover_missing_public_text(result, batch)
                     batch_updates = _updates(result, batch)
                     batch_reviews = _req_reviews(result, batch, store, day=day)
                     batch_event_summaries = _event_summaries(result, batch)
                     break
-        for attempt in range(MAX_BATCH_REPAIRS + 1):
-            try:
-                _require_no_public_source_leaks(
-                    batch_updates, "", "", batch_reviews, batch_event_summaries
-                )
-                break
-            except PublicSourceLeakError as exc:
-                if attempt >= MAX_BATCH_REPAIRS:
-                    result = _neutralize_model_public_copy(result)
-                    batch_updates = _updates(result, batch)
-                    batch_reviews = _req_reviews(result, batch, store, day=day)
-                    batch_event_summaries = _event_summaries(result, batch)
+                except BriefError as exc:
+                    if attempt >= MAX_BATCH_REPAIRS:
+                        result = _recover_missing_public_text(result, batch)
+                        batch_updates = _updates(result, batch)
+                        batch_reviews = _req_reviews(result, batch, store, day=day)
+                        batch_event_summaries = _event_summaries(result, batch)
+                        break
+                    try:
+                        result = _request(_validation_repair_messages(messages, result, exc))
+                    except BriefError:
+                        # 修复请求自身失败时不再丢掉整批判断，直接退到确定性兜底。
+                        result = _recover_missing_public_text(result, batch)
+                        batch_updates = _updates(result, batch)
+                        batch_reviews = _req_reviews(result, batch, store, day=day)
+                        batch_event_summaries = _event_summaries(result, batch)
+                        break
+            for attempt in range(MAX_BATCH_REPAIRS + 1):
+                try:
                     _require_no_public_source_leaks(
                         batch_updates, "", "", batch_reviews, batch_event_summaries
                     )
                     break
-                try:
-                    result = _request(_source_leak_repair_messages(messages, result, exc.names))
-                except BriefError:
-                    result = _neutralize_model_public_copy(result)
+                except PublicSourceLeakError as exc:
+                    if attempt >= MAX_BATCH_REPAIRS:
+                        result = _neutralize_model_public_copy(result)
+                        batch_updates = _updates(result, batch)
+                        batch_reviews = _req_reviews(result, batch, store, day=day)
+                        batch_event_summaries = _event_summaries(result, batch)
+                        _require_no_public_source_leaks(
+                            batch_updates, "", "", batch_reviews, batch_event_summaries
+                        )
+                        break
+                    try:
+                        result = _request(_source_leak_repair_messages(messages, result, exc.names))
+                    except BriefError:
+                        result = _neutralize_model_public_copy(result)
+                        batch_updates = _updates(result, batch)
+                        batch_reviews = _req_reviews(result, batch, store, day=day)
+                        batch_event_summaries = _event_summaries(result, batch)
+                        _require_no_public_source_leaks(
+                            batch_updates, "", "", batch_reviews, batch_event_summaries
+                        )
+                        break
                     batch_updates = _updates(result, batch)
                     batch_reviews = _req_reviews(result, batch, store, day=day)
                     batch_event_summaries = _event_summaries(result, batch)
-                    _require_no_public_source_leaks(
-                        batch_updates, "", "", batch_reviews, batch_event_summaries
-                    )
-                    break
-                batch_updates = _updates(result, batch)
-                batch_reviews = _req_reviews(result, batch, store, day=day)
-                batch_event_summaries = _event_summaries(result, batch)
+        except BriefError as exc:
+            _require_isolatable(batch, exc)
+            continue
         store.save_brief_batch(day, "full", result)
         updates.update(batch_updates)
         reviews.update(batch_reviews)
         event_summaries.update(batch_event_summaries)
 
     # 日报独立生成，避免它和项目字段争抢同一次 JSON 输出；重大项目仍强制
-    # 同时进入中英文正文。
-    edited_products = [updates[product.slug] for product in products]
+    # 同时进入中英文正文。被隔离的批次没有更新，候选以原样进入日报输入，
+    # pending 状态不会被日报选中，也不会获得公开页面。
+    edited_products = [updates.get(product.slug, product) for product in products]
     report_messages = _report_prompt(
         day, edited_products, report_context(edited_products, news),
         previous_zh=previous_zh, previous_en=previous_en,
