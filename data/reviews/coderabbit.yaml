@@ -1,39 +1,39 @@
 - id: req-initial-coderabbit-2026-09-06
   project_slug: coderabbit
   level: initial
-  reviewed_at: '2026-09-06T09:14:21Z'
+  reviewed_at: '2026-09-06T11:01:34Z'
   verdict: true_demand
   signal_level: 需求信号明确
   gates:
   - gate: value
     status: supported
-    reason: 它解决代码审查中的效率和质量痛点，这是开发流程的刚性需求。
+    reason: 它解决代码审查耗时和遗漏问题，痛点刚性，交付可确定。
     evidence_ids:
-    - ev-53a7d5b49da0cd18
+    - ev-2a42489613a691b1
   - gate: consensus
     status: supported
-    reason: 社区讨论活跃，表明开发者关注 AI 代码审查的进展。
+    reason: 有用户评价显示团队喜欢在 公开代码仓库 评论中与 AI 对话，说明场景明确。
     evidence_ids:
-    - ev-53a7d5b49da0cd18
+    - ev-2a42489613a691b1
   - gate: model
     status: insufficient
-    reason: 买方可能是开发团队，但定价和付费模式未公开。
+    reason: 定价页存在但未披露具体价格，付费路径不明确。
     evidence_ids:
-    - ev-53a7d5b49da0cd18
+    - ev-db087ad6867142f7
   - gate: truth
     status: supported
-    reason: AI 审查可确定性交付，但可能产生误报，需人工确认。
+    reason: 贴近代码审查的第一性目标，交付可确定，安全边界由人工确认。
     evidence_ids:
-    - ev-53a7d5b49da0cd18
-  next_validation: 查找 CodeRabbit 的官方定价页或客户案例，以确认付费模式和采用情况。
+    - ev-2a42489613a691b1
+  next_validation: 获取 CodeRabbit 官方定价页的具体价格和套餐详情。
   market: ''
-  job: 开发团队需要审查代码以发现错误、安全漏洞和改进机会。
-  job_en: Development teams need to review code to find bugs, security vulnerabilities, and improvement
-    opportunities.
-  pain: 手动代码审查耗时且容易遗漏问题，尤其是在大型代码库中。
-  pain_en: Manual code review is time-consuming and prone to missing issues, especially in large codebases.
-  current_alternative: 人工代码审查、静态分析工具和 CI 检查。
-  current_alternative_en: Manual code review, static analysis tools, and CI checks.
-  usage_reason: AI 审查可以快速覆盖大量代码，提供一致且即时的反馈。
-  usage_reason_en: AI review can quickly cover large amounts of code, providing consistent and immediate
-    feedback.
+  job: 开发者在合并代码前审查拉取请求，确保代码质量和安全。
+  job_en: Developers review pull requests before merging to ensure code quality and security.
+  pain: 人工审查耗时且容易遗漏问题，尤其在代码量大或团队协作频繁时。
+  pain_en: Manual review is time-consuming and prone to missing issues, especially with large codebases
+    or frequent team collaboration.
+  current_alternative: 传统做法是人工代码审查，或使用简单的静态分析工具。
+  current_alternative_en: Traditional practice is manual code review or using basic static analysis tools.
+  usage_reason: CodeRabbit 提供即时反馈和自动摘要，减少人工负担，并能在 公开代码仓库 内直接对话，提升审查效率。
+  usage_reason_en: CodeRabbit provides instant feedback and auto-generated summaries, reducing manual
+    effort, and enables direct conversation within public code repository, improving review efficiency.

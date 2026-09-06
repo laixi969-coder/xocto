@@ -1,40 +1,41 @@
 - id: req-initial-okf-agent-memory-2026-09-06
   project_slug: okf-agent-memory
   level: initial
-  reviewed_at: '2026-09-06T09:14:25Z'
-  verdict: true_demand
-  signal_level: 初步成立
+  reviewed_at: '2026-09-06T11:01:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
   gates:
   - gate: value
-    status: supported
-    reason: 它解决 AI 编程代理在多会话间丢失上下文、token 消耗高的问题；旧替代是手动维护或外部数据库，结构上成立。
+    status: insufficient
+    reason: 它解决 AI 编程代理记忆上下文和决策的需求，痛点明确，但现有替代方案多样，该工具的具体优势尚未被广泛验证。
     evidence_ids:
-    - ev-4e34561d0c93e760
+    - ev-309de18171d9b85c
+    - ev-0938443c4f99ab48
   - gate: consensus
     status: insufficient
-    reason: 开源社区讨论和星标增长显示关注，但缺乏持续采用或付费证据，场景强度待观察。
+    reason: 公开代码仓库 星数 187，社区讨论有限，尚未形成广泛共识。
     evidence_ids:
-    - ev-90abfa53ab3c63b9
+    - ev-0938443c4f99ab48
   - gate: model
     status: insufficient
-    reason: 开源项目，商业模式未明确；可能通过企业支持或托管服务变现，但无公开定价。
+    reason: 作为开源项目，无明确付费路径，商业模式不清晰。
     evidence_ids: []
   - gate: truth
-    status: supported
-    reason: 贴近编程代理的第一性目标，Git 原生和零依赖承诺可验证，交付确定性较高。
+    status: insufficient
+    reason: 宣称减少 80% token 消耗，但缺乏独立验证，且依赖 OKF 格式的普及。
     evidence_ids:
-    - ev-4e34561d0c93e760
-  next_validation: 查看该开源项目的公开 issue 与讨论区，寻找用户实际集成案例或性能反馈。
+    - ev-0938443c4f99ab48
+  next_validation: 查看 公开代码仓库 仓库的 issue 和 discussion，了解开发者实际使用反馈和集成案例。
   market: ''
-  job: AI 编程代理需要在多会话间保持项目上下文，避免重复读取代码库和对话历史。
-  job_en: AI coding agents need to maintain project context across sessions, avoiding repeated reads of
-    codebases and conversation history.
-  pain: 代理每次会话都重新加载上下文，导致 token 消耗高、响应慢，且容易丢失关键决策。
-  pain_en: Agents reload context each session, causing high token usage, slow responses, and loss of key
-    decisions.
-  current_alternative: 目前开发者常依赖代理的会话内记忆或手动维护文档，或使用外部向量数据库，但集成复杂且成本高。
-  current_alternative_en: Developers currently rely on in-session memory, manual documentation, or external
-    vector databases, which are complex and costly.
-  usage_reason: Git 原生存储与现有工作流契合，零外部依赖降低部署门槛，token 节省直接降低使用成本。
-  usage_reason_en: Git-native storage fits existing workflows, zero external dependencies lower deployment
-    barriers, and token savings directly reduce costs.
+  job: AI 编程代理在编码过程中需要持久记忆项目上下文和决策历史，以避免重复询问和错误。
+  job_en: AI coding agents need persistent memory of project context and decision history during coding
+    to avoid repeated queries and errors.
+  pain: 现有记忆方案依赖外部数据库或消耗大量 token，导致集成复杂和成本高。
+  pain_en: Existing memory solutions rely on external databases or consume excessive tokens, leading to
+    integration complexity and high costs.
+  current_alternative: 开发者可能使用向量数据库、外部记忆服务或让代理每次重新读取整个仓库。
+  current_alternative_en: Developers may use vector databases, external memory services, or have the agent
+    re-read the entire repository each time.
+  usage_reason: 该工具提供 Git 原生、零依赖的轻量记忆，可能吸引追求简单和低成本的开发者，但采用证据不足。
+  usage_reason_en: The tool offers Git-native, zero-dependency lightweight memory, potentially appealing
+    to developers seeking simplicity and low cost, but adoption evidence is insufficient.

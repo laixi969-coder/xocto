@@ -1,18 +1,27 @@
 ---
 slug: abliterationai-is-making-a-business-out-of-removing-ai-guard
-name: Abliteration.ai is making a business out of removing AI guardrails
+name: Abliteration.ai
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: 基础层
+summary_zh: Abliteration.ai 提供去除安全护栏的 AI 模型访问服务，面向网络安全防御者，使其能测试和对抗恶意 AI 行为。具体工作流程和交付物仍需核验。
+inspiration: 趋势：AI 安全对抗需求上升，防御者需要与攻击者同等能力的工具。切入：可从安全测试服务或红队工具切入，但需明确合规边界。
+summary_en: Abliteration.ai provides access to AI models without guardrails, targeting cybersecurity defenders
+  to test and counter malicious AI behavior. Specific workflow and deliverables remain to be verified.
+inspiration_en: 'Trend: AI security adversarial needs are rising; defenders need tools with capabilities
+  equal to attackers. Entry: could enter via security testing services or red team tools, but compliance
+  boundaries must be clarified.'
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+industries:
+- 网络安全
+industries_en:
+- Cybersecurity
+jobs:
+- 安全研究员
+- 红队工程师
+jobs_en:
+- Security researcher
+- Red team engineer
 regions: []
 regions_en: []
 open_source: false
@@ -22,7 +31,7 @@ summary: Abliteration.AI is making powerful AI models without guardrails easier 
   giving defenders the same tools as bad actors could ultimately improve cybersecurity.
 first_seen: '2026-09-03T18:37:57Z'
 last_seen: '2026-09-06T11:02:09Z'
-status: pending_filter
+status: watching
 sources:
 - marketfeeds
 - newssearch
@@ -39,7 +48,7 @@ sightings:
   kind: news
 ---
 
-# Abliteration.ai is making a business out of removing AI guardrails
+# Abliteration.ai
 
 Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.
 

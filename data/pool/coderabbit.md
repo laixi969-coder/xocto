@@ -3,16 +3,15 @@ slug: coderabbit
 name: CodeRabbit
 builder: cebert
 category: AI + 开发
-summary_zh: CodeRabbit 提供 AI 驱动的代码审查工具。开发者在提交代码后，AI 接收代码变更，执行静态分析、错误检测和优化建议，最终交付审查评论和修复建议。该博客评估了 GPT-6
-  Astra 在代码审查中的收益、隐私和成本。
-inspiration: AI 代码审查正成为开发流程的标配，趋势是更智能、更注重隐私和成本。切入点可从特定语言或框架的深度审查入手，或提供与 CI/CD 的集成。
-summary_en: CodeRabbit provides AI-powered code review tools. After developers submit code, the AI receives
-  code changes, performs static analysis, error detection, and optimization suggestions, ultimately delivering
-  review comments and fix recommendations. The blog evaluates GPT-6 Astra's gains, privacy, and cost in
-  code review.
-inspiration_en: AI code review is becoming standard in development workflows, with trends toward smarter,
-  privacy-conscious, and cost-effective solutions. Entry points could focus on deep review for specific
-  languages or frameworks, or integration with CI/CD pipelines.
+summary_zh: CodeRabbit 是一款 AI 代码审查工具，开发者在提交拉取请求时使用。它接收代码变更，自动生成审查意见、摘要和代码走查，并在 公开代码仓库 评论线程中提供上下文对话。开发者可据此快速定位问题，但最终合并仍需人工确认。
+inspiration: 趋势：AI 代码审查正从辅助工具转向理解代码库和代理输出的安全层，强调隐私与成本优化。切入：可面向企业级开发团队，提供按结果或按席位的定价，并突出与 GPT-6 等模型的集成评估，建立信任。
+summary_en: CodeRabbit is an AI code review tool used by developers when submitting pull requests. It
+  receives code changes, automatically generates review comments, summaries, and walkthroughs, and offers
+  contextual conversations within public code repository comment threads. Developers can quickly identify
+  issues, but final merging still requires human confirmation.
+inspiration_en: 'Trend: AI code review is evolving from a helper to a security layer for understanding
+  codebases and agent outputs, emphasizing privacy and cost. Entry: Target enterprise development teams
+  with outcome-based or per-seat pricing, and build trust through evaluations with models like GPT-6.'
 priority_review: false
 project_type: new_application
 industries:
@@ -23,19 +22,17 @@ jobs:
 - 软件工程师
 - 开发团队负责人
 jobs_en:
-- Software engineers
-- Development team leads
-regions:
-- 全球
-regions_en:
-- Global
+- Software Engineer
+- Development Team Lead
+regions: []
+regions_en: []
 open_source: false
 url: https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation
 canonical_url: https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation
 summary: 'GPT-6 Astra in code review: Gains, privacy, and cost'
 first_seen: '2026-09-05T03:38:56Z'
 last_seen: '2026-09-06T11:01:34Z'
-status: pending_filter
+status: queued
 sources:
 - hackernews
 sightings:

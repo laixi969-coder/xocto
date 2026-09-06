@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE81dXJZdXNLV2NU
 summary: 沙巴手机版安装AI智能体平台评测：场景化演示+不打断输入，重新定义低门槛创建体验 体坛
 first_seen: '2026-09-05T22:02:38Z'
 last_seen: '2026-09-06T11:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: langchain-ai-langchain-langchain-core162
-name: 'langchain-ai/langchain: langchain-core==1.6.2'
+name: LangChain
 builder: langchain-ai
 category: ''
-summary_zh: ''
+summary_zh: LangChain 是一个开源框架，用于构建基于大语言模型的应用。本次版本更新为开发者提供异步工具支持等改进，属于开发工具链的常规迭代。
 inspiration: ''
-summary_en: ''
+summary_en: LangChain is an open-source framework for building LLM-based applications. This release adds
+  async tool support and other improvements, a routine iteration in the developer toolchain.
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -34,7 +35,7 @@ summary: 'Changes since langchain-core==1.6.1
   fix(core): avoid mutation in bedrock converse standard content (#40022)'
 first_seen: '2026-09-04T21:29:42Z'
 last_seen: '2026-09-06T11:01:39Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -46,7 +47,7 @@ sightings:
   kind: news
 ---
 
-# langchain-ai/langchain: langchain-core==1.6.2
+# LangChain
 
 Changes since langchain-core==1.6.1
 

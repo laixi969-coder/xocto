@@ -3,10 +3,10 @@ slug: pbs
 name: United Nations
 builder: ijidak
 category: ''
-summary_zh: 联合国发布气候报告，预测全球变暖将超过 1.5 度限制，属于政策与科学报告，非独立产品。
+summary_zh: 联合国报告指出全球变暖将超过 1.5 摄氏度限制，并规划了回到危险线以下的路径。
 inspiration: ''
-summary_en: The UN released a climate report predicting global warming will exceed 1.5 degrees, a policy
-  and science report, not an independent product.
+summary_en: UN report says global warming will exceed the 1.5-degree limit and maps a path back below
+  the danger zone.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://pbs.org/newshour/science/global-warming-will-exceed-1-5-d
 summary: Global warming will exceed 1.5-degree limit, UN says
 first_seen: '2026-09-05T13:02:14Z'
 last_seen: '2026-09-06T11:01:34Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

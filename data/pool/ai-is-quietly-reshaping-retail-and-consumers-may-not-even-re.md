@@ -1,11 +1,11 @@
 ---
 slug: ai-is-quietly-reshaping-retail-and-consumers-may-not-even-re
-name: AI Is Quietly Reshaping Retail and Consumers May Not Even Realise It
+name: AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI 正在悄悄重塑零售业，消费者可能未察觉
 inspiration: ''
-summary_en: ''
+summary_en: AI is quietly reshaping retail, consumers may not even realize it
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNZ3E2Q3NCcS1B
 summary: AI Is Quietly Reshaping Retail and Consumers May Not Even Realise It The Times Australia
 first_seen: '2026-09-04T07:00:00Z'
 last_seen: '2026-09-06T11:02:09Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI Is Quietly Reshaping Retail and Consumers May Not Even Realise It
+# AI
 
 AI Is Quietly Reshaping Retail and Consumers May Not Even Realise It The Times Australia
 

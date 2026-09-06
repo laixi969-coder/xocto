@@ -1,11 +1,12 @@
 ---
 slug: 华硕推出完整的ai工厂平台vera-rubin-nvl72机架stx存储和治理层-2
-name: 华硕推出完整的AI工厂平台：Vera Rubin NVL72机架、STX存储和治理层
+name: 华硕
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 华硕发布 AI 工厂平台，提供从硬件机架、存储到治理层的完整基础设施，面向企业 AI 部署。
 inspiration: ''
-summary_en: ''
+summary_en: ASUS unveiled an AI factory platform offering integrated infrastructure from hardware racks
+  and storage to governance, targeting enterprise AI deployment.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPa1R2b3o1R2Rt
 summary: 华硕推出完整的AI工厂平台：Vera Rubin NVL72机架、STX存储和治理层 storagereview.com
 first_seen: '2026-09-04T19:59:53Z'
 last_seen: '2026-09-06T11:02:09Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 华硕推出完整的AI工厂平台：Vera Rubin NVL72机架、STX存储和治理层
+# 华硕
 
 华硕推出完整的AI工厂平台：Vera Rubin NVL72机架、STX存储和治理层 storagereview.com
 

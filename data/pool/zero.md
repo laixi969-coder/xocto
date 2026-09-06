@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/zero-15
 summary: Vercel's programming language built for AI agents
 first_seen: '2026-08-20T09:01:53Z'
 last_seen: '2026-09-06T11:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

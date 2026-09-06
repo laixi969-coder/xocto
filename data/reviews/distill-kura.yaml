@@ -1,0 +1,36 @@
+- id: req-initial-distill-kura-2026-09-06
+  project_slug: distill-kura
+  level: initial
+  reviewed_at: '2026-09-06T11:01:39Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代理记忆的准确性和可靠性问题，但需求强度取决于代理应用的普及程度。
+    evidence_ids:
+    - ev-2359fc179f4918ba
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目星数少，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-2359fc179f4918ba
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 技术方案有创新，但需验证实际效果。
+    evidence_ids: []
+  next_validation: 查看 公开代码仓库 仓库的 issue 和讨论，了解实际使用反馈。
+  market: ''
+  job: 开发者需要为 AI 代理实现长期记忆，以便跨会话回忆信息。
+  job_en: Developers need to implement long-term memory for AI agents to recall information across sessions.
+  pain: 现有记忆方案缺乏语义检索和证据门控，导致记忆不准确或不可靠。
+  pain_en: Existing memory solutions lack semantic recall and evidence gating, leading to inaccurate or
+    unreliable memory.
+  current_alternative: 使用简单的向量数据库或上下文窗口。
+  current_alternative_en: Use simple vector databases or context windows.
+  usage_reason: 提供蒸馏和证据门控，提高记忆质量和可靠性。
+  usage_reason_en: Provides distillation and evidence gating to improve memory quality and reliability.

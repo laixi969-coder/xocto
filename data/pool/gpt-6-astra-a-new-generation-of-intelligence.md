@@ -3,11 +3,12 @@ slug: gpt-6-astra-a-new-generation-of-intelligence
 name: GPT-6 Astra
 builder: ''
 category: ''
-summary_zh: GPT-6 Astra 是 OpenAI 发布的新一代基础模型，面向开发者提供 API 访问。它接收文本或图像提示，生成更精细的文本、代码或 3D 模型等输出。具体定价和可用性未在本次资料中披露。
+summary_zh: OpenAI 发布 GPT-6 Astra，面向有限组织推出，随后向所有 ChatGPT 用户及 API/AWS 开放。API 定价与 Claude Fable 5 相同，每百万输入
+  10 美元、输出 50 美元。在 ARC-AGI 3 基准上得分 99.9%（使用自定义 harness），默认 harness 得分 62.7%。
 inspiration: ''
-summary_en: GPT-6 Astra is a new generation foundation model released by OpenAI, offering API access to
-  developers. It takes text or image prompts and generates more refined text, code, or 3D models. Specific
-  pricing and availability are not disclosed in this material.
+summary_en: OpenAI released GPT-6 Astra, rolling out to limited organizations first, then to all ChatGPT
+  users and via API/AWS. API pricing matches Claude Fable 5 at $10/M input and $50/M output. Scores 99.9%
+  on ARC-AGI 3 with custom harness, 62.7% with default harness.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1j
 summary: 'GPT-6 Astra: A new generation of intelligence OpenAI'
 first_seen: '2026-09-05T06:54:46Z'
 last_seen: '2026-09-06T11:02:02Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

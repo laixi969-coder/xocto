@@ -1,0 +1,39 @@
+- id: req-initial-abliterationai-is-making-a-business-out-of-removing-ai-guard-2026-09-06
+  project_slug: abliterationai-is-making-a-business-out-of-removing-ai-guard
+  level: initial
+  reviewed_at: '2026-09-06T11:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确；报道仅提及提供无护栏模型，未说明具体用户任务和交付。
+    evidence_ids:
+    - ev-69eac4653bab15f4
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，仅有一篇媒体报道。
+    evidence_ids:
+    - ev-69eac4653bab15f4
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式和付费方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，安全与合规风险未评估。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，说明具体用户、工作流程和交付物。
+  market: ''
+  job: 安全防御者需要测试和对抗恶意 AI 行为，但现有工具可能受限于护栏。
+  job_en: Security defenders need to test and counter malicious AI behavior, but existing tools may be
+    limited by guardrails.
+  pain: 防御者缺乏与攻击者同等能力的 AI 工具，难以有效模拟和应对威胁。
+  pain_en: Defenders lack AI tools with capabilities equal to attackers, making it difficult to simulate
+    and respond to threats effectively.
+  current_alternative: 目前防御者可能使用受限的 AI 模型或手动分析，效率较低。
+  current_alternative_en: Currently defenders may use restricted AI models or manual analysis, which is
+    less efficient.
+  usage_reason: 该产品提供无护栏模型，可能吸引需要测试极端场景的安全专业人员。
+  usage_reason_en: The product offers unguarded models, potentially attracting security professionals
+    needing to test extreme scenarios.

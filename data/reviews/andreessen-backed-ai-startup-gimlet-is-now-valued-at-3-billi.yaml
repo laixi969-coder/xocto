@@ -1,0 +1,36 @@
+- id: req-initial-andreessen-backed-ai-startup-gimlet-is-now-valued-at-3-billi-2026-09-06
+  project_slug: andreessen-backed-ai-startup-gimlet-is-now-valued-at-3-billi
+  level: initial
+  reviewed_at: '2026-09-06T11:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点无法从资料中识别，仅知估值。
+    evidence_ids:
+    - ev-a2f401a87bf8833e
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，仅有一篇融资报道。
+    evidence_ids:
+    - ev-a2f401a87bf8833e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式和付费方不明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，产品真实性未核验。
+    evidence_ids: []
+  next_validation: 官方产品页面或文档，说明产品功能、目标用户和商业模式。
+  market: ''
+  job: 未知，资料未说明 Gimlet 解决什么用户任务。
+  job_en: Unknown; materials do not specify what user task Gimlet addresses.
+  pain: 未知，无法判断痛点。
+  pain_en: Unknown; cannot determine pain points.
+  current_alternative: 未知，无替代行为信息。
+  current_alternative_en: Unknown; no information on alternative behaviors.
+  usage_reason: 高估值可能吸引关注，但缺乏产品细节，无法判断使用原因。
+  usage_reason_en: High valuation may attract attention, but lack of product details prevents assessing
+    usage reasons.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNV3djeF83Yko1
 summary: Startup ARR is less secure than ever, new research shows TechCrunch
 first_seen: '2026-09-03T20:59:23Z'
 last_seen: '2026-09-06T11:02:09Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

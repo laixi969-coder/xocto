@@ -1,0 +1,38 @@
+- id: req-initial-moonshot-ai-files-confidentially-for-a-50-billion-hong-kong-2026-09-06
+  project_slug: moonshot-ai-files-confidentially-for-a-50-billion-hong-kong
+  level: initial
+  reviewed_at: '2026-09-06T11:02:09Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长文本处理的需求，痛点明确，用户有强烈动机使用。
+    evidence_ids:
+    - ev-bf51a65128dbbe49
+  - gate: consensus
+    status: supported
+    reason: 长文本处理是普遍场景，用户已通过搜索和阅读等行为表达需求。
+    evidence_ids:
+    - ev-bf51a65128dbbe49
+  - gate: model
+    status: insufficient
+    reason: 商业模式可能为订阅或 API 收费，但具体定价未公开。
+    evidence_ids:
+    - ev-bf51a65128dbbe49
+  - gate: truth
+    status: supported
+    reason: 产品贴近信息处理的第一性目标，交付结果可核对。
+    evidence_ids:
+    - ev-bf51a65128dbbe49
+  next_validation: 关注 Moonshot AI 的官方定价页或 IPO 招股书中的财务数据。
+  market: ''
+  job: 用户需要处理长文本资料，如研究报告、合同、论文，快速获取关键信息。
+  job_en: Users need to process long documents like reports, contracts, and papers to quickly extract
+    key information.
+  pain: 人工阅读长文档耗时费力，容易遗漏重点。
+  pain_en: Manual reading of long documents is time-consuming and prone to missing key points.
+  current_alternative: 传统做法是人工逐页阅读或使用关键词搜索。
+  current_alternative_en: Traditional methods involve manual page-by-page reading or keyword search.
+  usage_reason: Kimi 能快速处理超长文本，提供摘要和问答，节省时间。
+  usage_reason_en: Kimi quickly processes ultra-long texts, providing summaries and Q&A, saving time.

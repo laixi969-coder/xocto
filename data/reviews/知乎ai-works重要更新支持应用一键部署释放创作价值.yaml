@@ -1,0 +1,38 @@
+- id: req-initial-知乎ai-works重要更新支持应用一键部署释放创作价值-2026-09-06
+  project_slug: 知乎ai-works重要更新支持应用一键部署释放创作价值
+  level: initial
+  reviewed_at: '2026-09-06T11:02:09Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：创作者部署应用的技术痛点，但具体旧流程和交付物不清晰，价值判断证据不足。
+    evidence_ids:
+    - ev-c9f526a89795ea99
+  - gate: consensus
+    status: insufficient
+    reason: 公开信息仅提及更新，无用户采用或关注数据，共识未明。
+    evidence_ids:
+    - ev-c9f526a89795ea99
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。付费方和模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。交付确定性未核验。
+    evidence_ids: []
+  next_validation: 查找知乎AI Works官方产品页或帮助文档，确认一键部署的具体流程、目标用户和定价信息。
+  market: ''
+  job: 创作者需要将AI生成的内容或应用快速部署上线，以节省技术操作时间。
+  job_en: Creators need to quickly deploy AI-generated content or applications to save time on technical
+    operations.
+  pain: 创作者缺乏技术能力，部署应用过程繁琐，耗时耗力。
+  pain_en: Creators lack technical skills, and deploying applications is cumbersome and time-consuming.
+  current_alternative: 目前创作者可能依赖开发者或手动部署，或使用其他平台服务。
+  current_alternative_en: Currently, creators may rely on developers or manual deployment, or use other
+    platform services.
+  usage_reason: 知乎平台已有创作者生态，一键部署可能降低技术门槛，但需求强度未明。
+  usage_reason_en: Zhihu's creator ecosystem may lower technical barriers with one-click deployment, but
+    demand intensity is unclear.

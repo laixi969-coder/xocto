@@ -11313,8 +11313,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: CodeRabbit 官方博客发布了对 GPT-6 Astra 在代码审查中的评估，讨论了收益、隐私和成本。
+  summary_en: CodeRabbit's official blog published an evaluation of GPT-6 Astra for code review, discussing
+    gains, privacy, and cost.
   evidence_ids:
   - ev-356c6dc91e18dd9e
   homepage: true
@@ -11326,8 +11327,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Artificial Analysis 发布 Intelligence Index v4.2，并报告 GPT-6 Astra 在其 Coding Agent Index 中取得重大进展。
+  summary_en: Artificial Analysis released Intelligence Index v4.2 and reported major gains for GPT-6
+    Astra in its Coding Agent Index.
   evidence_ids:
   - ev-d054e985583bb7f2
   homepage: true
@@ -11339,8 +11341,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Isar Aerospace 在第二次飞行中成功进入轨道并部署有效载荷，这是欧洲航天史上的里程碑事件。
+  summary_en: Isar Aerospace successfully reached orbit and deployed payloads on its second flight, a
+    milestone for European spaceflight.
   evidence_ids:
   - ev-a2f5d29be3de5747
   homepage: true
@@ -11352,8 +11355,8 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 联合国发布报告，警告全球变暖将超过 1.5 摄氏度限制。
+  summary_en: UN released a report warning that global warming will exceed the 1.5-degree limit.
   evidence_ids:
   - ev-32bd84821404afdd
   homepage: true
@@ -11646,8 +11649,12 @@
   - update
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: OKF Agent Memory 于 2026 年 9 月 5 日在 公开代码仓库 发布，实现 Google OKF v0.2 规范，提供 Git 原生、零外部依赖的 AI 编程代理持久记忆，内置
+    MCP 服务器和亚 300 微秒内存 BM25 搜索，宣称可减少 80% 的 token 消耗。
+  summary_en: OKF Agent Memory was released on public code repository on September 5, 2026, implementing
+    the Google OKF v0.2 spec, offering Git-native, zero-external-dependency persistent memory for AI coding
+    agents, with an embedded MCP server and sub-300µs in-memory BM25 search, claiming an 80% reduction
+    in token bloat.
   evidence_ids:
   - ev-0938443c4f99ab48
   homepage: true
@@ -11674,8 +11681,9 @@
   - update
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 开源项目 distill-kura 发布，提供代理的蒸馏长期记忆功能，作为 DeepSeek Harness 插件和 MCP 服务器。
+  summary_en: Open-source project distill-kura released, offering distilled long-term memory for agents,
+    shipped as a DeepSeek Harness plugin and MCP server.
   evidence_ids:
   - ev-546e1ebc933ca79e
   homepage: true
@@ -12261,8 +12269,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: LangChain 发布 langchain-core 1.6.2 版本，主要更新包括支持 OpenAI 异步工具、依赖安全修复等。
+  summary_en: LangChain released langchain-core 1.6.2, featuring support for OpenAI async tools and dependency
+    security fixes.
   evidence_ids:
   - ev-b2ab856fe195b476
   homepage: true
@@ -12273,8 +12282,9 @@
   discovered_at: '2026-09-06T11:02:02Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 报道讨论英特尔在 AI 需求增长下仍面临重大挑战，同时有文章探讨 AI 时代内存与存储架构的演进。
+  summary_en: Articles discuss Intel's challenges despite AI demand, and the evolution of memory and storage
+    architecture in the AI era.
   evidence_ids:
   - ev-be96cf667cd1e020
   homepage: true
@@ -12285,8 +12295,8 @@
   discovered_at: '2026-09-06T11:02:02Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 发布 GPT-6 Astra，并公布定价与基准测试结果。
+  summary_en: OpenAI released GPT-6 Astra with pricing and benchmark results.
   evidence_ids:
   - ev-2c3fb88da7046fe8
   homepage: true
@@ -12297,8 +12307,9 @@
   discovered_at: '2026-09-06T11:02:02Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 数据中心与云服务商Crusoe完成30亿美元融资，Fluidstack完成15亿美元融资，两笔交易领跑本周AI基础设施领域最大风投轮次。
+  summary_en: Data center and cloud provider Crusoe closed a $3 billion financing round and Fluidstack
+    raised $1.5 billion, with the two deals leading this week's largest AI infrastructure venture rounds.
   evidence_ids:
   - ev-6fec781c34f484ac
   homepage: true
@@ -12309,8 +12320,8 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Bloomberg 报道 Andreessen Horowitz 支持的 AI 初创公司 Gimlet 估值达 30 亿美元。
+  summary_en: Bloomberg reports Andreessen Horowitz-backed AI startup Gimlet is now valued at $3 billion.
   evidence_ids:
   - ev-a2f401a87bf8833e
   homepage: true
@@ -12345,8 +12356,8 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Moonshot AI 已秘密提交香港 IPO 申请，估值目标 500 亿美元。
+  summary_en: Moonshot AI has confidentially filed for a Hong Kong IPO with a $50 billion valuation target.
   evidence_ids:
   - ev-bf51a65128dbbe49
   homepage: true
@@ -12357,8 +12368,9 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 公开资料 报道 Abliteration.ai 正在将去除安全护栏的 AI 模型商业化，主张让防御者获得与攻击者相同的工具可改善网络安全。
+  summary_en: public reporting reports Abliteration.ai is commercializing AI models without guardrails,
+    arguing that giving defenders the same tools as attackers could improve cybersecurity.
   evidence_ids:
   - ev-6232acd300adfab5
   homepage: true
@@ -12369,8 +12381,8 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Guidewire 发布第二季度财报，产品势头强劲但前景展望谨慎。
+  summary_en: Guidewire reported Q2 earnings with strong product momentum but a cautious outlook.
   evidence_ids:
   - ev-dd7c32605dbe3090
   homepage: true
@@ -12381,8 +12393,8 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI 正在悄悄重塑零售业
+  summary_en: AI is quietly reshaping retail
   evidence_ids:
   - ev-80926e69601b25e6
   homepage: true
@@ -12393,8 +12405,8 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: Jon Peddie Research 报道了面向老年人的语音优先 AI 伴侣 Ato。
+  summary_en: Jon Peddie Research reported on Ato, a voice-first AI companion built for seniors.
   evidence_ids:
   - ev-2b670544b76cc7ee
   homepage: true
@@ -12417,8 +12429,9 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 宣布 ChatGPT Ads 年化收入运行率突破 10 亿美元，并计划全球扩展，以支持通过免费和低价选项扩大 AI 的普及。
+  summary_en: OpenAI announced that ChatGPT Ads has reached $1 billion in annualized revenue run rate
+    and plans global expansion to support broader access to AI through free and affordable options.
   evidence_ids:
   - ev-64bfe71fce7b4f80
   homepage: true
@@ -12465,8 +12478,9 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 知乎AI Works发布重要更新，支持应用一键部署，旨在释放创作价值。
+  summary_en: Zhihu AI Works released a major update supporting one-click deployment of applications,
+    aiming to unleash creative value.
   evidence_ids:
   - ev-c9f526a89795ea99
   homepage: true
@@ -12477,8 +12491,9 @@
   discovered_at: '2026-09-06T11:02:09Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 华硕推出完整的 AI 工厂平台，包括 Vera Rubin NVL72 机架、STX 存储和治理层。
+  summary_en: ASUS launched a complete AI factory platform, including Vera Rubin NVL72 racks, STX storage,
+    and a governance layer.
   evidence_ids:
   - ev-dfa46f4dfce741ef
   homepage: true

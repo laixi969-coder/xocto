@@ -1,0 +1,38 @@
+- id: req-initial-ato-a-voice-first-ai-companion-built-for-seniors-2026-09-06
+  project_slug: ato-a-voice-first-ai-companion-built-for-seniors
+  level: initial
+  reviewed_at: '2026-09-06T11:02:09Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决老年人孤独和日常提醒的痛点，语音交互适合老年人，交付可确定。
+    evidence_ids:
+    - ev-2b670544b76cc7ee
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅提及产品存在，缺乏用户采用或关注数据。
+    evidence_ids:
+    - ev-2b670544b76cc7ee
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费方，可能是 to C 或 to B，但尚无证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际使用反馈或独立评价，承诺的陪伴效果未验证。
+    evidence_ids: []
+  next_validation: 查找 Ato 的官方产品页面或定价信息。
+  market: ''
+  job: 老年人需要日常陪伴和提醒，以减少孤独感和遗漏重要事项。
+  job_en: Seniors need daily companionship and reminders to reduce loneliness and missed important tasks.
+  pain: 老年人常感孤独，且记忆力下降，容易忘记服药、约会等事项。
+  pain_en: Seniors often feel lonely and experience memory decline, leading to missed medications and
+    appointments.
+  current_alternative: 目前老年人可能依赖家人、护理人员或传统闹钟，但陪伴不足且提醒不灵活。
+  current_alternative_en: Currently, seniors may rely on family, caregivers, or traditional alarms, but
+    companionship is insufficient and reminders are inflexible.
+  usage_reason: 语音交互降低了使用门槛，AI 可提供随时响应的陪伴和个性化提醒，比人工更持续。
+  usage_reason_en: Voice interaction lowers the barrier, and AI can provide always-available companionship
+    and personalized reminders, more consistent than human effort.

@@ -1,0 +1,38 @@
+- id: req-initial-wikifuse-2026-09-06
+  project_slug: wikifuse
+  level: initial
+  reviewed_at: '2026-09-06T11:01:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决跨语言维基百科条目合并的需求，但痛点强度与使用频率未明，且替代方式（手动对比、机器翻译）已存在。
+    evidence_ids:
+    - ev-9ce9cb8b25edff69
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度低（5 分 2 评论），缺乏强场景或持续采用证据。
+    evidence_ids:
+    - ev-9ce9cb8b25edff69
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。未发现付费路径或商业模式。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。工具贴近信息整合目标，但交付确定性未验证。
+    evidence_ids: []
+  next_validation: 检查该开源项目的公开 issue 与讨论区，寻找用户实际使用场景和反馈。
+  market: ''
+  job: 用户需要将不同语言版本的维基百科条目合并为一个页面，以便统一阅读和引用。
+  job_en: Users need to merge Wikipedia articles in different languages into one page for unified reading
+    and citation.
+  pain: 手动对比多语言版本耗时且易遗漏信息。
+  pain_en: Manual comparison across languages is time-consuming and prone to missing information.
+  current_alternative: 目前用户通常手动打开多个标签页对比，或依赖机器翻译。
+  current_alternative_en: Currently users often open multiple tabs to compare manually, or rely on machine
+    translation.
+  usage_reason: 该工具可能吸引需要跨语言研究维基百科的用户，但需求强度和付费意愿尚不明确。
+  usage_reason_en: The tool may attract users needing cross-language Wikipedia research, but demand intensity
+    and willingness to pay are unclear.
