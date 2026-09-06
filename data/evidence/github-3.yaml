@@ -167,3 +167,22 @@
     \ Tab 会亮起小圆点，桌面任务栏联动闪烁提醒，不再需要来回切窗口干等。\r\n\r\n#### 3. 终于能看懂我的 Token 到底花在哪了\r\n各个 CLI 各自为政，月底根本算不清账。\r\
     \nCoDock 本地直读各 Agent 的原生日志与 SQLite 数据（**绝不上传任何云端**），自动按天、按项目、按模型聚合成用量趋势图与 Token 消耗看板。\r\n\r\n####\
     \ 4. 独立的 Markdown Composer：舒服地写长 Prompt\r\n在黑窗口里改"
+- id: ev-7c1883205cbc38c2
+  project_slug: github-3
+  url: https://www.v2ex.com/t/1239712
+  title: 本地 Coding Agent 工作台： CoDock
+  published_at: '2026-09-05T10:47:54Z'
+  collected_at: '2026-09-06T02:59:18Z'
+  source_kind: product
+  tier: independent
+  fact: "# 每天在十几个终端窗口里切来切去？我做了一个本地 Coding Agent 工作台：CoDock\r\n\r\n做日常开发时，大家应该也慢慢习惯了让各种 AI Agent 帮着写代码：\r\
+    \n- A 项目用 Claude Code 跑架构重构；\r\n- B 项目用 Codex 改改小 bug ；\r\n- 偶尔还想切到 DeepSeek Harness 或 Gemini CLI\
+    \ 跑跑对比测试……\r\n\r\n不知不觉，电脑任务栏里就堆了七八个黑乎乎的终端窗口。\r\n每次切窗口都在找「刚刚那个任务跑在哪个终端里？」「跑完了没有？」「上周聊过的那个思路在哪条会话里？」\r\
+    \n在命令行里敲一段稍微长一点、带多行格式的 Prompt 更是折磨。\r\n\r\n为了解决自己每天遇到的这些痛点，我开发了 **CoDock** —— 一个专为 Coding Agent 打造的本地桌面工作台与终端控制中心。\r\
+    \n\r\n---\r\n\r\n### \U0001F31F 核心想解决的几个问题\r\n\r\n#### 1. 告别杂乱黑窗口，聚合 9+ 主流 Coding Agent\r\n在一个统一的高性能桌面窗口里多\
+    \ Tab 并行运行：\r\n**Claude Code · Codex · DeepSeek (dsh) · Gemini CLI · Antigravity (agy) · Grok · Pi\
+    \ · Opencode · CodeBuddy · Cline**\r\n随时切 Tab ，支持重命名、项目分组、自定义 Agent 排序和一键呼出。\r\n\r\n#### 2. 任务到底跑完没有？智能提醒与任务栏闪烁\r\
+    \n把长任务丢给 Agent 之后，通常需要切走去写别的代码或接杯水。\r\nCoDock 能够智能识别 Agent 的运行状态（处理中、静默完成、等待用户交互确认）。当 Agent 跑完或等待你确认时，对应\
+    \ Tab 会亮起小圆点，桌面任务栏联动闪烁提醒，不再需要来回切窗口干等。\r\n\r\n#### 3. 终于能看懂我的 Token 到底花在哪了\r\n各个 CLI 各自为政，月底根本算不清账。\r\
+    \nCoDock 本地直读各 Agent 的原生日志与 SQLite 数据（**绝不上传任何云端**），自动按天、按项目、按模型聚合成用量趋势图与 Token 消耗看板。\r\n\r\n####\
+    \ 4. 独立的 Markdown Composer：舒服地写长 Prompt\r\n在黑窗口里改"

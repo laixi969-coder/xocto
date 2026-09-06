@@ -21,16 +21,16 @@ canonical_url: https://github.com/d4ncboz/github-farm
 summary: Production-grade, AI-Agent-friendly multi-platform OAuth harvesting and session management framework
   for AI Gateways.
 first_seen: '2026-08-20T03:30:55Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T02:59:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/d4ncboz/github-farm
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T02:59:25Z'
   metrics:
-    stars: 244
+    stars: 245
     forks: 17
     open_issues: 0
   kind: product

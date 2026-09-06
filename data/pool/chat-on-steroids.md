@@ -30,17 +30,17 @@ canonical_url: https://github.com/totec448-spec/chat-on-steroids
 summary: Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume,
   and durable multi-agent workflows.
 first_seen: '2026-08-22T14:16:24Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T02:59:25Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/totec448-spec/chat-on-steroids
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T02:59:25Z'
   metrics:
     stars: 672
-    forks: 91
+    forks: 92
     open_issues: 41
   kind: product
 ---

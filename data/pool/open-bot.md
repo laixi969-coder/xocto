@@ -20,7 +20,7 @@ url: https://github.com/copilotkit/openbot
 canonical_url: https://github.com/copilotkit/openbot
 summary: an open-source Grok Bot that works with any agent harness
 first_seen: '2026-08-19T18:45:48Z'
-last_seen: '2026-09-06T00:58:33Z'
+last_seen: '2026-09-06T02:59:25Z'
 status: queued
 sources:
 - hackernews
@@ -35,9 +35,9 @@ sightings:
   kind: product
 - source: github
   url: https://www.copilotkit.ai/openbot
-  seen_at: '2026-09-06T00:58:33Z'
+  seen_at: '2026-09-06T02:59:25Z'
   metrics:
-    stars: 4319
+    stars: 4323
     forks: 531
     open_issues: 29
   kind: product

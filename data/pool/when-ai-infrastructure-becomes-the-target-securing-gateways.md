@@ -21,7 +21,7 @@ url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4OElRUDlhNU
 canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4OElRUDlhNUVRWnUtTUUtVUlNcmNWZjAwbkZubWZ4X2FLSjhfQ0l6a0pVbDg3S1pucXhLSXN2blJPdTZYbm5kdW1yX2luLWVxQ3M2NHJRRXgxYV9aODFQUXZkRVFVdVBWdkJMQ3VYcGVhdTM4Y0xsaU1KTGtMZy1ZaEdvR0hxWVdIZENDVnNFVFN0WTRCYk5semo5VUpEQ3owOWthVnpHeTVKVmVRV1BBWUx3bWJnU0VSaTZhMmxR?oc=5
 summary: 'When AI infrastructure becomes the target: Securing gateways and control points Microsoft'
 first_seen: '2026-08-26T16:43:53Z'
-last_seen: '2026-09-04T14:23:54Z'
+last_seen: '2026-09-06T02:59:55Z'
 status: pending_filter
 sources:
 - newssearch
@@ -35,6 +35,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/exclusive-h-cofounder-laurent-sifre-joins-microsoft/
   seen_at: '2026-09-04T14:23:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9VeWxRRVNHbGF4WFR0MHc4Mkttd1o5Z05DSGI5Ny1mVU41b1ZJaFFPR1U3cFlyUksxU1c4UHJoLW0wQzI2bjdfM1NzUzR0R0F3cURoSXhxSTVjVDJ3dThydjFPRF84UzRYS1hldjBaRQ?oc=5
+  seen_at: '2026-09-06T02:59:55Z'
   metrics: {}
   kind: news
 ---

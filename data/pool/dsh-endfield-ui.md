@@ -21,16 +21,16 @@ canonical_url: https://github.com/rison114514/dsh-endfield-ui
 summary: 'Endfield-inspired industrial UI shell for DeepSeek Harness (dsh) — non-official fan theme. Install:
   dsh plugin --profile web add @rison/dsh-endfield-ui'
 first_seen: '2026-08-17T13:31:40Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-06T02:59:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/rison114514/dsh-endfield-ui#readme
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-06T02:59:25Z'
   metrics:
-    stars: 54
+    stars: 55
     forks: 3
     open_issues: 3
   kind: product

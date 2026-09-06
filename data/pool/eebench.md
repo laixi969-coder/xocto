@@ -20,17 +20,17 @@ url: https://eebench.org/blog/can-ai-design-circuit-boards-yet/
 canonical_url: https://eebench.org/blog/can-ai-design-circuit-boards-yet
 summary: Can AI design circuit boards yet?
 first_seen: '2026-09-04T19:48:29Z'
-last_seen: '2026-09-06T00:58:30Z'
+last_seen: '2026-09-06T02:59:21Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://eebench.org/blog/can-ai-design-circuit-boards-yet/
-  seen_at: '2026-09-06T00:58:30Z'
+  seen_at: '2026-09-06T02:59:21Z'
   metrics:
-    points: 376
-    comments: 206
+    points: 386
+    comments: 210
   kind: news
 ---
 

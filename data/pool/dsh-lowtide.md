@@ -21,16 +21,16 @@ canonical_url: https://github.com/KelaoHu/dsh-lowtide
 summary: 'Time-shifting task delegation for DeepSeek Harness (dsh): plan tasks at leisure, they run unattended
   off-peak, come back to a report. Human-adjudicated, desktop + web.'
 first_seen: '2026-08-23T13:00:17Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-06T02:59:25Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/KelaoHu/dsh-lowtide
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-06T02:59:25Z'
   metrics:
-    stars: 136
+    stars: 137
     forks: 8
     open_issues: 1
   kind: product

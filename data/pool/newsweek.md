@@ -20,16 +20,16 @@ url: https://www.newsweek.com/allison-guerriero-michael-mcgonigal-fbi-exposed-wo
 canonical_url: https://newsweek.com/allison-guerriero-michael-mcgonigal-fbi-exposed-working-russian-oligarch-dead-12392795
 summary: Woman who exposed FBI official for working with Russian oligarch found dead
 first_seen: '2026-09-04T15:49:05Z'
-last_seen: '2026-09-05T13:28:21Z'
+last_seen: '2026-09-06T02:59:21Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.newsweek.com/allison-guerriero-michael-mcgonigal-fbi-exposed-working-russian-oligarch-dead-12392795
-  seen_at: '2026-09-05T13:28:21Z'
+  seen_at: '2026-09-06T02:59:21Z'
   metrics:
-    points: 38
+    points: 39
     comments: 0
   kind: news
 ---
