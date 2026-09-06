@@ -13,7 +13,14 @@ from dataclasses import dataclass, replace
 from datetime import date
 from typing import Any
 
-from xocto.brief import BriefError, _fit_messages, _request, _split_batches, _validation_repair_messages
+from xocto.brief import (
+    BriefError,
+    _fit_messages,
+    _request,
+    _run_batches_parallel,
+    _split_batches,
+    _validation_repair_messages,
+)
 from xocto.demand import demand_read
 from xocto.models import (
     EVENT_REQ_CHANGE,
@@ -601,9 +608,10 @@ def run(store: Store, *, day: date) -> FullReqReport:
     def req_build(items: list, compact: bool, limit: int | None) -> list[dict[str, str]]:
         return _messages(items, store, compact=compact, evidence_limit=limit)
 
-    for batch in batches:
+    def run_req_batch(batch: list) -> list[ReqReview]:
         messages = _fit_messages(batch, req_build)
         result = _request(messages)
+        batch_reviews: list[ReqReview] = []
         for attempt in range(MAX_FULL_REQ_REPAIRS + 1):
             try:
                 batch_reviews = _reviews(result, batch, store, day)
@@ -612,7 +620,12 @@ def run(store: Store, *, day: date) -> FullReqReport:
                 if attempt >= MAX_FULL_REQ_REPAIRS:
                     raise
                 result = _request(_validation_repair_messages(messages, result, exc))
-        reviews.extend(batch_reviews)
+        return batch_reviews
+
+    # 与 brief 同一套批次级并发：请求重叠执行，结果按批序合并。
+    _run_batches_parallel(
+        run_req_batch, batches, lambda _batch, outcome: reviews.extend(outcome)
+    )
     for review in reviews:
         previous_full = max(
             (item for item in store.read_req_reviews(review.project_slug) if item.level == "full"),
