@@ -1,0 +1,37 @@
+- id: req-initial-swift-smart-prompter-2026-09-07
+  project_slug: swift-smart-prompter
+  level: initial
+  reviewed_at: '2026-09-06T23:54:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：资料仅称其为会议助手，未说明具体输入、动作与交付，无法判断价值。
+    evidence_ids:
+    - ev-6478622bd82541e6
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方仓库的 README 或文档，说明具体功能、输入输出和部署方式。
+  market: ''
+  job: 会议参与者或记录员需要整理会议内容，提取要点和待办事项。
+  job_en: Meeting participants or note-takers need to organize meeting content, extract key points and
+    action items.
+  pain: 人工记录会议纪要耗时且容易遗漏细节。
+  pain_en: Manual meeting notes are time-consuming and prone to missing details.
+  current_alternative: 目前通常由专人记录或使用通用录音转写工具。
+  current_alternative_en: Currently, a designated person takes notes or general-purpose recording/transcription
+    tools are used.
+  usage_reason: 作为本地运行的助手，可能吸引注重隐私的用户，但具体功能不明，采用原因待核验。
+  usage_reason_en: As a locally-run assistant, it may appeal to privacy-conscious users, but its specific
+    functions are unclear and adoption reasons need verification.

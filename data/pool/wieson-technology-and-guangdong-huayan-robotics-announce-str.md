@@ -23,7 +23,7 @@ summary: Wieson Technology and Guangdong Huayan Robotics Announce Strategic Part
   Reserve
 first_seen: '2026-09-03T09:02:03Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

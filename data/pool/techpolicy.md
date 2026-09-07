@@ -1,12 +1,12 @@
 ---
 slug: techpolicy
-name: TechPolicy Press
+name: AI Moratoriums in America's Two Largest School Districts
 builder: cdrnsf
 category: ''
-summary_zh: 美国最大的两个学区实施AI暂停令，表明教育领域对AI应用的谨慎态度，可能影响AI在教育市场的推广。
+summary_zh: 美国两个最大的学区对 AI 采取限制性政策，是教育领域 AI 监管收紧的信号，可能影响教育类 AI 产品的校园采用与市场空间。
 inspiration: ''
-summary_en: America's two largest school districts impose AI moratoriums, indicating a cautious approach
-  to AI in education, potentially affecting AI adoption in the education market.
+summary_en: Restrictive AI policies from the largest US school districts signal tightening oversight of
+  AI in education, which may affect school adoption and market opportunity for education AI products.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://techpolicy.press/americas-two-largest-school-districts-im
 summary: America's two largest school districts impose AI moratoriums
 first_seen: '2026-09-05T21:43:22Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# TechPolicy Press
+# AI Moratoriums in America's Two Largest School Districts
 
 America's two largest school districts impose AI moratoriums
 

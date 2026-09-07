@@ -38,3 +38,44 @@
   usage_reason: 知乎AI Works可能吸引知乎生态内的开发者和企业，因其与知乎平台集成，便于利用知乎数据或分发。
   usage_reason_en: Zhihu AI Works may attract developers and enterprises within Zhihu's ecosystem due
     to integration with Zhihu platform, facilitating use of Zhihu data or distribution.
+- id: req-initial-知乎ai-works功能更新支持应用一键部署-2-2026-09-07
+  project_slug: 知乎ai-works功能更新支持应用一键部署-2
+  level: initial
+  reviewed_at: '2026-09-06T23:54:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决创作者把AI应用交付给他人使用的最后一步，一键部署是确定性动作；此为基于功能说明的工作流推理，不是采用数据。
+    evidence_ids:
+    - ev-724a79d95cc927f1
+  - gate: consensus
+    status: insufficient
+    reason: 仅有发布报道，没有可归因到AI Works的使用量、收藏或留存数据，公开关注尚未形成持续采用证据。
+    evidence_ids:
+    - ev-724a79d95cc927f1
+  - gate: model
+    status: insufficient
+    reason: 无定价页，买方与收费方式不明；知乎整体靠会员与职业教育盈利，AI Works如何收钱属于判断而非已验证事实。
+    evidence_ids:
+    - ev-e62c6816d5a0340b
+    - ev-724a79d95cc927f1
+  - gate: truth
+    status: insufficient
+    reason: 部署动作本身可确定交付，但材料未说明应用质量、内容边界与失败处理，承诺能否稳定兑现尚无公开证据。
+    evidence_ids:
+    - ev-724a79d95cc927f1
+  next_validation: 抓取知乎AI Works的官方功能页或发布说明，核对一键部署的完整流程、面向人群与是否收费。
+  market: ''
+  job: 内容创作者和普通用户想把想法做成别人能直接使用的AI应用。
+  job_en: Creators and everyday users want to turn an idea into an AI application others can use directly.
+  pain: 应用做完后缺少简单的发布途径，分享和使用门槛高，不写代码的人难以让他人真正用上。
+  pain_en: After building, there was no simple way to publish; sharing and running an app took technical
+    steps that block non-coders.
+  current_alternative: 用扣子、GPTs等平台搭建并分享，找人开发，或放弃做成应用、只发图文内容。
+  current_alternative_en: Build and share on other platforms such as Coze or GPTs, hire developers, or
+    give up on apps and publish plain text content.
+  usage_reason: 知乎自带问答流量和内容场景，创作者在熟悉的环境里搭应用并一键发给读者，省去迁移和托管成本。
+  usage_reason_en: Zhihu ships with an existing audience and content context, so creators can build and
+    publish inside a familiar community, cutting migration and hosting friction.

@@ -1,0 +1,35 @@
+- id: req-initial-mewu-ai-2026-09-07
+  project_slug: mewu-ai
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决截图后需切换工具进行翻译或 OCR 的痛点，交付可确定，价值结构成立。
+    evidence_ids:
+    - ev-5681e07d02a16aea
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星标 55，关注度低，缺乏持续采用证据。
+    evidence_ids:
+    - ev-5681e07d02a16aea
+  - gate: model
+    status: insufficient
+    reason: 开源免费，付费路径不明，可能面向 to C 但未披露。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近截图理解的第一性目标，AI 标注可确定性交付，安全风险低。
+    evidence_ids: []
+  next_validation: 公开代码仓库 仓库的 issue 讨论或用户评价
+  market: ''
+  job: 在截图上快速进行翻译、OCR 或标注
+  job_en: Quickly translate, OCR, or annotate screenshots
+  pain: 传统截图工具缺乏 AI 理解，需切换多个应用
+  pain_en: Traditional screenshot tools lack AI understanding, requiring switching between apps
+  current_alternative: 使用系统截图加外部翻译或 OCR 工具
+  current_alternative_en: Using system screenshot plus external translation or OCR tools
+  usage_reason: 开源免费，集成 AI 功能，减少工具切换
+  usage_reason_en: Open-source and free, integrates AI features, reduces tool switching

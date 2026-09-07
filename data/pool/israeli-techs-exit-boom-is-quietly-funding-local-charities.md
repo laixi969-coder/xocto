@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjZU5PU2JWdE1M
 summary: Israeli tech's exit boom is quietly funding local charities calcalistech.com
 first_seen: '2026-09-06T15:20:00Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

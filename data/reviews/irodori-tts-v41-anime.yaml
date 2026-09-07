@@ -1,0 +1,35 @@
+- id: req-initial-irodori-tts-v41-anime-2026-09-07
+  project_slug: irodori-tts-v41-anime
+  level: initial
+  reviewed_at: '2026-09-06T23:54:38Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决动漫配音成本高、周期长的痛点，交付可确定，价值结构成立。
+    evidence_ids:
+    - ev-4ad3d1797d5d8488
+  - gate: consensus
+    status: insufficient
+    reason: 公开关注度低，缺乏用户采用证据，但动漫配音场景明确。
+    evidence_ids:
+    - ev-4ad3d1797d5d8488
+  - gate: model
+    status: insufficient
+    reason: 开源免费，付费路径不明，可能面向 to B 或 to C 但未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 语音克隆涉及伦理风险，需关注滥用防护，但技术本身贴近创作目标。
+    evidence_ids: []
+  next_validation: 官方发布页面或模型卡中的使用案例与社区反馈
+  market: ''
+  job: 为动漫角色生成或克隆日语配音
+  job_en: Generate or clone Japanese voice for anime characters
+  pain: 专业配音成本高、周期长，小团队难以负担
+  pain_en: Professional voice acting is costly and slow, hard for small teams to afford
+  current_alternative: 雇佣声优或使用通用 TTS，但缺乏动漫风格
+  current_alternative_en: Hiring voice actors or using generic TTS lacking anime style
+  usage_reason: 开源免费、风格匹配，可快速试用于个人或小团队项目
+  usage_reason_en: Open-source and free, style matches, quick to try for indie projects

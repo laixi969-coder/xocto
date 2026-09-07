@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nWE42WUZYY28x
 summary: 网球王子会出新的吗：AI智能剪辑让你1小时看完整场精华 体坛
 first_seen: '2026-09-05T16:52:06Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

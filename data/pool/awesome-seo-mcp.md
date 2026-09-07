@@ -22,7 +22,7 @@ summary: A curated list of MCP servers for SEO. Search Console, keywords, backli
   AI search visibility, verified with install details and auth requirements.
 first_seen: '2026-09-06T12:32:34Z'
 last_seen: '2026-09-06T23:54:21Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -42,3 +42,42 @@
   usage_reason: 该工具允许利用已有视频素材合成新口播，节省拍摄时间，且本地处理保护隐私，吸引关注。
   usage_reason_en: The tool enables synthesizing new talking-head videos from existing footage, saving
     filming time, and local processing protects privacy, attracting attention.
+- id: req-initial-video-ai-talking-2026-09-07
+  project_slug: video-ai-talking
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：解决创作者不愿出镜但需要口播视频的痛点，交付为合成好的竖屏 MP4，价值结构成立。
+    evidence_ids:
+    - ev-af3cd437362b1a6d
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星数增长显示关注，但缺乏用户评价或持续采用证据，共识尚不明确。
+    evidence_ids:
+    - ev-af3cd437362b1a6d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无定价信息，付费路径不明，可能面向 to C 创作者，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近口播创作的第一性目标，本地处理保障隐私，交付可确定。
+    evidence_ids:
+    - ev-af3cd437362b1a6d
+  next_validation: 官方定价页或付费版本信息，或用户社区中的实际使用反馈。
+  market: ''
+  job: 创作者需要制作真人口播视频，但不想或无法亲自出镜。
+  job_en: Creators need to produce talking-head videos but are unwilling or unable to appear on camera.
+  pain: 出镜需要形象管理、拍摄环境和表演能力，对许多创作者是硬门槛。
+  pain_en: Appearing on camera requires image management, shooting environment, and performance skills,
+    which are hard barriers for many creators.
+  current_alternative: 目前替代方案包括使用 AI 数字人（但常显僵硬）、雇佣演员（成本高）或放弃口播形式。
+  current_alternative_en: Current alternatives include AI avatars (often stiff), hiring actors (costly),
+    or abandoning the talking-head format.
+  usage_reason: 开源且本地处理保护隐私，吸引不愿上传人脸到云端的创作者；公开代码仓库 星数增长显示关注度。
+  usage_reason_en: Open-source and local processing protect privacy, attracting creators who avoid uploading
+    faces to the cloud; rising public code repository stars indicate interest.

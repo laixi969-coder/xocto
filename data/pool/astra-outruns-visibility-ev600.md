@@ -21,7 +21,7 @@ canonical_url: https://exponentialview.co/p/ev-600
 summary: 'Plus: Cancer vaccine, AI in jobs data & Ukraine’s massive robot army++'
 first_seen: '2026-09-06T03:39:40Z'
 last_seen: '2026-09-06T23:54:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

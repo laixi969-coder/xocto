@@ -21,7 +21,7 @@ canonical_url: https://trendingtopics.eu/emad-mostaque-ai-internet-outlook-engli
 summary: '"We Have to Assume That the Internet Will Go Offline in the Next Few Years"'
 first_seen: '2026-09-06T08:31:01Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

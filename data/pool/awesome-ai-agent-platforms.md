@@ -22,7 +22,7 @@ summary: 'A curated list of open-source AI agent platforms: AI coworkers and tea
   and frameworks, workflow automation platforms, browser agents, and coding agents, with licenses.'
 first_seen: '2026-09-02T16:32:59Z'
 last_seen: '2026-09-06T23:54:21Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

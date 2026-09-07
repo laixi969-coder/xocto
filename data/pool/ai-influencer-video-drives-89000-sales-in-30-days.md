@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSHo2ZTJWdlBy
 summary: AI Influencer Video Drives $89,000 Sales in 30 Days 조선일보
 first_seen: '2026-09-06T21:01:53Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

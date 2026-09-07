@@ -21,7 +21,7 @@ canonical_url: https://github.com/FulltimeFeline/Sol
 summary: my macOS music player and jukebox app, is now free and open source
 first_seen: '2026-09-06T20:24:56Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

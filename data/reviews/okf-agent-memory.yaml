@@ -38,3 +38,43 @@
   usage_reason: Git 原生和零依赖设计降低了集成门槛，直接解决 token 浪费问题。
   usage_reason_en: Git-native and zero-dependency design lowers integration barriers, directly addressing
     token waste.
+- id: req-initial-okf-agent-memory-2026-09-07
+  project_slug: okf-agent-memory
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 AI 编程代理上下文丢失的痛点，减少 token 浪费，价值结构成立。
+    evidence_ids:
+    - ev-deb8dbcf1961d79b
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星数显示关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-72fa37d84a643046
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式不明确，可能靠服务或企业支持。
+    evidence_ids:
+    - ev-deb8dbcf1961d79b
+  - gate: truth
+    status: supported
+    reason: 贴近开发工作，承诺可验证，无安全风险。
+    evidence_ids:
+    - ev-72fa37d84a643046
+  next_validation: 查看 公开代码仓库 仓库的 issue 和讨论，了解用户实际使用反馈。
+  market: ''
+  job: 开发者在用 AI 编程代理时，需要代理记住项目上下文，避免重复解释。
+  job_en: Developers using AI coding agents need the agent to remember project context to avoid repeated
+    explanations.
+  pain: AI 代理在长会话中丢失上下文，导致错误和 token 浪费。
+  pain_en: AI agents lose context in long sessions, causing errors and token waste.
+  current_alternative: 目前开发者依赖对话历史或手动维护文档，效率低。
+  current_alternative_en: Currently developers rely on conversation history or manually maintained docs,
+    which is inefficient.
+  usage_reason: 开源且无外部依赖，可集成到现有代理，减少 token 成本。
+  usage_reason_en: Open source with no external dependencies, integrable into existing agents, reducing
+    token costs.

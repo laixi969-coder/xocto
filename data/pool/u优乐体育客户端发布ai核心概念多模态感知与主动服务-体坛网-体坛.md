@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTE44VXFnY0U2cVQz
 summary: U优乐体育客户端发布AI核心概念：多模态感知与主动服务- 体坛网_体坛+ 体坛
 first_seen: '2026-09-06T15:54:08Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

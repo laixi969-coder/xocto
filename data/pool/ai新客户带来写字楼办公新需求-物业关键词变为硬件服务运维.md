@@ -3,9 +3,9 @@ slug: ai新客户带来写字楼办公新需求-物业关键词变为硬件服�
 name: AI新客户带来写字楼办公新需求 物业关键词变为硬件、服务、运维
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: AI新客户推动写字楼办公需求转向硬件、服务和运维。
 inspiration: ''
-summary_en: ''
+summary_en: AI customers drive office building demand shift toward hardware, services, and operations.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TS2FTSjc2UTN1
 summary: AI新客户带来写字楼办公新需求 物业关键词变为硬件、服务、运维 chinanews.com.cn
 first_seen: '2026-09-06T23:43:40Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

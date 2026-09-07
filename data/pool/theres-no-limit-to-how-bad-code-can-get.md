@@ -46,7 +46,7 @@ summary: "My comment  on  There's No Limit to How Bad Code Can Get  — Lobste.r
   \ ,  technical-debt"
 first_seen: '2026-09-06T09:08:06Z'
 last_seen: '2026-09-06T23:54:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

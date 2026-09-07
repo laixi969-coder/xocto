@@ -21,7 +21,7 @@ canonical_url: https://getvodforge.com
 summary: a free local desktop UI for YouTube video/playlist downloads
 first_seen: '2026-09-06T20:07:30Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

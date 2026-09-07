@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQczJjekpKTEZG
 summary: 3 Insurers to Add to Portfolio as AI Transforms Insurance Operations tradingview.com
 first_seen: '2026-09-04T13:32:00Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

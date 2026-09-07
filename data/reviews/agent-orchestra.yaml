@@ -1,0 +1,41 @@
+- id: req-initial-agent-orchestra-2026-09-07
+  project_slug: agent-orchestra
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多 agent 协作中的角色混乱、文件冲突和缺乏复核的痛点，交付经过复核的代码或文档，价值结构成立。
+    evidence_ids:
+    - ev-146d8d11753d0053
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星数 42，尚无公开采用或社区讨论证据，共识未明。
+    evidence_ids:
+    - ev-146d8d11753d0053
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，买方可能是开发者或团队，但商业模式未验证。
+    evidence_ids:
+    - ev-146d8d11753d0053
+  - gate: truth
+    status: supported
+    reason: 贴近编码工作的第一性目标，交付可确定，安全边界由人工验收把关。
+    evidence_ids:
+    - ev-146d8d11753d0053
+  next_validation: 查看该仓库的 issue 或 discussion 是否有真实用户反馈或采用案例。
+  market: ''
+  job: 开发者需要让多个 AI agent 协作完成复杂编码任务，避免文件冲突并保证质量。
+  job_en: Developers need multiple AI agents to collaborate on complex coding tasks, avoiding file conflicts
+    and ensuring quality.
+  pain: 多 agent 并行工作时角色混乱、文件写入冲突、缺乏独立复核，导致产出不可靠。
+  pain_en: When multiple agents work in parallel, role confusion, file write conflicts, and lack of independent
+    review make outputs unreliable.
+  current_alternative: 目前开发者常手动分配任务、串行运行 agent，或使用单一 agent 处理，效率低且易出错。
+  current_alternative_en: Currently developers often manually assign tasks, run agents serially, or use
+    a single agent, which is inefficient and error-prone.
+  usage_reason: 该 skill 提供结构化角色分配和复核流程，能减少冲突、提高产出质量，对多 agent 工作流有实际价值。
+  usage_reason_en: This skill provides structured role assignment and review processes, reducing conflicts
+    and improving output quality, offering practical value for multi-agent workflows.

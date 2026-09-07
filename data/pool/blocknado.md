@@ -21,7 +21,7 @@ canonical_url: https://blocknado.app/marathon
 summary: I made a retro falling block puzzle, with a twist ;)
 first_seen: '2026-09-06T00:16:46Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

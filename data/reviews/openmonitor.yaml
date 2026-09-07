@@ -1,0 +1,37 @@
+- id: req-initial-openmonitor-2026-09-07
+  project_slug: openmonitor
+  level: initial
+  reviewed_at: '2026-09-06T23:54:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决网站监控需求，但痛点不明确，供应商中立是否刚需未知。
+    evidence_ids:
+    - ev-ae8c74e9f378e90c
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一个 公开资料 帖子，无采用证据。
+    evidence_ids:
+    - ev-ae8c74e9f378e90c
+  - gate: model
+    status: insufficient
+    reason: 商业模式未知。
+    evidence_ids:
+    - ev-ae8c74e9f378e90c
+  - gate: truth
+    status: insufficient
+    reason: 信息不足，无法判断。
+    evidence_ids:
+    - ev-ae8c74e9f378e90c
+  next_validation: 访问 OpenMonitor 官网，获取功能、定价和客户案例。
+  market: ''
+  job: 网站管理员需要监控网站可用性和性能。
+  job_en: Web administrators need to monitor website availability and performance.
+  pain: 现有监控工具可能绑定特定供应商，缺乏灵活性。
+  pain_en: Existing monitoring tools may be vendor-locked, lacking flexibility.
+  current_alternative: 使用传统监控服务如 Pingdom 或自建监控。
+  current_alternative_en: Using traditional monitoring services like Pingdom or self-hosted monitoring.
+  usage_reason: 供应商中立可能吸引寻求灵活性的用户，但需求强度未明。
+  usage_reason_en: Vendor neutrality may attract users seeking flexibility, but demand intensity is unclear.

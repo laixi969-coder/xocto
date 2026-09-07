@@ -1,0 +1,40 @@
+- id: req-initial-agentic-os-2026-09-07
+  project_slug: agentic-os
+  level: initial
+  reviewed_at: '2026-09-06T23:54:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决 agent 运行环境隔离问题，但具体痛点、用户任务和交付物不明确，价值判断证据不足。
+    evidence_ids:
+    - ev-b873d29c6894e052
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 公开资料 讨论，无采用或社区共识证据。
+    evidence_ids:
+    - ev-b873d29c6894e052
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方不清。
+    evidence_ids:
+    - ev-b873d29c6894e052
+  - gate: truth
+    status: insufficient
+    reason: 技术方向贴近安全需求，但承诺能否确定性交付未验证。
+    evidence_ids:
+    - ev-b873d29c6894e052
+  next_validation: 查看该项目的 README 或文档，确认其目标用户、使用场景和交付物。
+  market: ''
+  job: 开发者可能需要为 AI agent 提供隔离、可控的运行环境，以保障安全与数据隔离。
+  job_en: Developers may need isolated, controlled runtime environments for AI agents to ensure security
+    and data isolation.
+  pain: AI agent 运行可能带来安全风险和数据泄露，缺乏隔离环境。
+  pain_en: Running AI agents may pose security risks and data leakage without isolated environments.
+  current_alternative: 目前开发者可能使用容器或虚拟机隔离 agent，但配置复杂、资源开销大。
+  current_alternative_en: Currently developers may use containers or VMs to isolate agents, but configuration
+    is complex and resource overhead is high.
+  usage_reason: 如果该 OS 能简化隔离并提供高效资源管理，可能吸引开发者试用，但需求强度未明。
+  usage_reason_en: If this OS simplifies isolation and offers efficient resource management, it may attract
+    developers to try, but demand intensity is unclear.

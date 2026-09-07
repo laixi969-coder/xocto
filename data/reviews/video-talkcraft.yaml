@@ -112,3 +112,43 @@
   usage_reason: AI 可自动生成视频，降低门槛，开源社区已有 134 星，显示关注。
   usage_reason_en: AI can auto-generate videos, lowering barriers; open-source community shows 134 stars,
     indicating interest.
+- id: req-initial-video-talkcraft-2026-09-07
+  project_slug: video-talkcraft
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：解决解说视频制作对专业动效技能的依赖，交付为渲染好的视频，价值结构成立。
+    evidence_ids:
+    - ev-22a2fee0aaecb4e7
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星数较高显示关注，但缺乏用户评价或实际采用证据。
+    evidence_ids:
+    - ev-22a2fee0aaecb4e7
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无定价信息，付费路径不明，可能面向 to B 营销团队，但未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近视频制作的第一性目标，提供具体配方和渲染输出，交付可确定。
+    evidence_ids:
+    - ev-22a2fee0aaecb4e7
+  next_validation: 官方定价页或商业版本信息，或用户社区中的实际使用案例。
+  market: ''
+  job: 视频设计师或营销人员需要制作配音驱动的解说视频，但缺乏动效设计能力或时间。
+  job_en: Video designers or marketers need to produce voiceover-driven explainer videos but lack motion
+    design skills or time.
+  pain: 传统动效设计软件学习曲线陡峭，制作周期长，成本高。
+  pain_en: Traditional motion design software has a steep learning curve, long production cycles, and
+    high costs.
+  current_alternative: 目前通常使用 After Effects 等专业软件，或外包给动效工作室。
+  current_alternative_en: Currently, professionals use software like After Effects or outsource to motion
+    design studios.
+  usage_reason: 开源且集成到 Claude Code / Codex，吸引开发者尝试自动化视频制作；公开代码仓库 星数较高显示关注。
+  usage_reason_en: Open-source and integrated with Claude Code / Codex, it attracts developers to try
+    automated video production; high public code repository stars indicate interest.

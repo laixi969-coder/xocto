@@ -1,11 +1,12 @@
 ---
 slug: research-acceleration-the-view-inside-openai
-name: 'Research acceleration: The view inside OpenAI'
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Inside OpenAI, coding agents are reshaping AI research. Explore early d
   velocity, task complexity, and research acceleration.
 first_seen: '2026-09-06T08:00:00Z'
 last_seen: '2026-09-06T23:54:38Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Research acceleration: The view inside OpenAI
+# OpenAI
 
 Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.
 

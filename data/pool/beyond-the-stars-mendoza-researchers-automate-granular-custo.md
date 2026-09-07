@@ -22,7 +22,7 @@ summary: 'Beyond the Stars: Mendoza Researchers Automate Granular Customer Senti
   of Notre Dame Mendoza College of Business'
 first_seen: '2026-09-04T07:00:00Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

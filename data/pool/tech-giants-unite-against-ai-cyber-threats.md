@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9fM2JtYUc1QURB
 summary: Tech giants unite against AI cyber threats innovation-village.com
 first_seen: '2026-08-28T08:13:36Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

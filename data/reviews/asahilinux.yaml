@@ -1,0 +1,38 @@
+- id: req-initial-asahilinux-2026-09-07
+  project_slug: asahilinux
+  level: initial
+  reviewed_at: '2026-09-06T23:54:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决在 Apple 硬件上运行 Linux 的需求，但痛点刚性不足，多数用户可用替代方案。
+    evidence_ids:
+    - ev-d924b88cd5d2028d
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热烈，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-d924b88cd5d2028d
+  - gate: model
+    status: insufficient
+    reason: 开源项目，无明确付费路径。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 项目真实，但交付确定性未核验。
+    evidence_ids:
+    - ev-d924b88cd5d2028d
+  next_validation: 官方发布的支持硬件列表和安装文档
+  market: ''
+  job: 在 Apple Silicon Mac 上运行 Linux 操作系统。
+  job_en: Run Linux on Apple Silicon Macs.
+  pain: macOS 不满足某些开发或自定义需求，用户希望使用 Linux 但硬件不支持。
+  pain_en: macOS does not meet certain development or customization needs; users want Linux but hardware
+    lacks support.
+  current_alternative: 使用 macOS 或虚拟机，或购买非 Apple 硬件。
+  current_alternative_en: Use macOS or virtual machines, or purchase non-Apple hardware.
+  usage_reason: 开发者可能因技术兴趣或特定工作流需求而尝试，但普通用户采用率低。
+  usage_reason_en: Developers may try due to technical interest or specific workflow needs, but adoption
+    among general users is low.

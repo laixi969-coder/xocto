@@ -21,7 +21,7 @@ canonical_url: https://github.com/infomaniac777/dsnitch
 summary: Real-time, zero-config Docker egress inspector via eBPF
 first_seen: '2026-09-06T13:01:28Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

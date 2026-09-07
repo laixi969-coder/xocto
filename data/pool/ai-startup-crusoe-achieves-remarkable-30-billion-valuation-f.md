@@ -1,11 +1,13 @@
 ---
 slug: ai-startup-crusoe-achieves-remarkable-30-billion-valuation-f
-name: AI startup Crusoe achieves remarkable $30 billion valuation following recent funding round boost
+name: Crusoe
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Crusoe 是一家 AI 基础设施公司，提供面向 AI 工作负载的云计算和能源解决方案。此次新闻仅报道其融资估值，未涉及具体产品功能或客户案例。
 inspiration: ''
-summary_en: ''
+summary_en: Crusoe is an AI infrastructure company offering cloud computing and energy solutions for AI
+  workloads. This news only reports its funding valuation, without specific product details or customer
+  cases.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +24,7 @@ summary: AI startup Crusoe achieves remarkable $30 billion valuation following r
   ET CIO
 first_seen: '2026-09-04T05:30:00Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -33,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# AI startup Crusoe achieves remarkable $30 billion valuation following recent funding round boost
+# Crusoe
 
 AI startup Crusoe achieves remarkable $30 billion valuation following recent funding round boost ET CIO
 

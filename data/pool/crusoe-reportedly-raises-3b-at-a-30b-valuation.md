@@ -1,11 +1,12 @@
 ---
 slug: crusoe-reportedly-raises-3b-at-a-30b-valuation
-name: Crusoe reportedly raises $3B at a  $30B valuation
+name: Crusoe
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Crusoe 是一家数据中心开发商，为 AI 等提供算力基础设施。此报道涉及融资和合同，非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: Crusoe is a data center developer providing computing infrastructure for AI and others. This
+  report covers funding and contracts, not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: The round came together after the data center developer reportedly secu
   with Jane Street.
 first_seen: '2026-09-04T00:48:42Z'
 last_seen: '2026-09-06T23:54:40Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Crusoe reportedly raises $3B at a  $30B valuation
+# Crusoe
 
 The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.
 

@@ -1,6 +1,6 @@
 ---
 slug: keepitfree
-name: keepitfree
+name: A/I
 builder: captainmuon
 category: ''
 summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
@@ -22,7 +22,7 @@ canonical_url: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human
 summary: A/I shuts down – Stay human
 first_seen: '2026-09-06T14:34:34Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# keepitfree
+# A/I
 
 A/I shuts down – Stay human
 

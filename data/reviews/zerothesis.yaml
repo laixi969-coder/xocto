@@ -1,0 +1,41 @@
+- id: req-initial-zerothesis-2026-09-07
+  project_slug: zerothesis
+  level: initial
+  reviewed_at: '2026-09-06T23:54:18Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：自动收集研究资料，减少文献检索时间。但具体流程和交付物不明确，价值判断证据不足。
+    evidence_ids:
+    - ev-3d2f0c6e39f6f0f9
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或社区讨论证据，仅有一个低互动帖子，无法判断共识。
+    evidence_ids:
+    - ev-3d2f0c6e39f6f0f9
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式和付费方不明确。
+    evidence_ids:
+    - ev-3d2f0c6e39f6f0f9
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法验证 AI 生成研究结果的可靠性和安全性。
+    evidence_ids:
+    - ev-3d2f0c6e39f6f0f9
+  next_validation: 查找 ZeroThesis 的官方定价页或产品文档，确认具体工作流程和交付物。
+  market: ''
+  job: 研究人员或学生在撰写论文或报告前，需要收集和整理大量文献资料。
+  job_en: Researchers or students need to collect and organize extensive literature before writing papers
+    or reports.
+  pain: 文献检索和整理耗时费力，且多人协作时难以同步进度和资料。
+  pain_en: Literature search and organization are time-consuming, and it's hard to sync progress and materials
+    in team collaboration.
+  current_alternative: 目前通常使用 Google Scholar、PubMed 等数据库手动检索，再用 Zotero 等工具管理文献，团队通过共享文档协作。
+  current_alternative_en: Currently, people manually search databases like Google Scholar or PubMed, manage
+    references with tools like Zotero, and collaborate via shared documents.
+  usage_reason: 如果 AI 能自动完成文献收集和初步整理，可显著节省时间，但用户是否信任 AI 生成的研究结果、是否愿意付费仍未知。
+  usage_reason_en: If AI can automate literature collection and initial organization, it could save significant
+    time, but whether users trust AI-generated research and are willing to pay remains unknown.

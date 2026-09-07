@@ -34,7 +34,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMz
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
 last_seen: '2026-09-06T23:54:38Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - officialfeeds

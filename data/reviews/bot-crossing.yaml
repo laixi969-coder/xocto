@@ -37,3 +37,41 @@
   usage_reason: 游戏环境提供低成本、可扩展的测试场，且社区活跃，开发者可能因好奇或实际需求而使用。
   usage_reason_en: Game environments offer low-cost, scalable testing grounds, and community activity
     suggests developers may use it out of curiosity or real need.
+- id: req-initial-bot-crossing-2026-09-07
+  project_slug: bot-crossing
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，游戏环境对 agent 训练的价值需进一步验证。
+    evidence_ids:
+    - ev-61ef675bfb9126a0
+    - ev-7b191ff2ec786053
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星标 177 显示一定关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-61ef675bfb9126a0
+    - ev-7b191ff2ec786053
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式不清晰。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性。
+    evidence_ids: []
+  next_validation: 查看项目文档或 issue 讨论，了解具体应用场景和用户反馈。
+  market: ''
+  job: 开发者需要一个环境来测试和训练 AI agent 的决策能力。
+  job_en: Developers need an environment to test and train AI agent decision-making.
+  pain: 现有测试环境缺乏复杂性和真实性，难以评估 agent 的实际表现。
+  pain_en: Existing test environments lack complexity and realism, making it hard to evaluate agent performance.
+  current_alternative: 使用简单的模拟器或自定义测试脚本。
+  current_alternative_en: Using simple simulators or custom test scripts.
+  usage_reason: 游戏环境提供更丰富的交互场景，可能吸引开发者尝试。
+  usage_reason_en: Game environments offer richer interaction scenarios, potentially attracting developers
+    to try.

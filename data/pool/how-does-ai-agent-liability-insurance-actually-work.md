@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxQNW96S2FxWW9I
 summary: How Does AI Agent Liability Insurance Actually Work? Startup Fortune
 first_seen: '2026-09-06T14:43:20Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: While restaurant owners might look to generative AI as a shortcut to sp
   customers can viscerally sense that something is wrong with the food.
 first_seen: '2026-09-04T04:21:03Z'
 last_seen: '2026-09-06T23:54:40Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

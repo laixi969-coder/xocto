@@ -1,11 +1,12 @@
 ---
 slug: ai-empowers-transformation-of-hong-kongs-legal-industry
-name: AI empowers transformation of Hong Kong’s legal industry
+name: AI adoption in Hong Kong's legal industry
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 人工智能在法律服务中的采用正在推动香港法律行业的转型，属于行业层面的结构性变化，可能影响该市场的运作方式与竞争格局。
 inspiration: ''
-summary_en: ''
+summary_en: AI adoption is driving the transformation of Hong Kong's legal industry, an industry-level
+  structural shift that may reshape how legal services operate and compete in that market.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTFBib1I0ZDBvSkhZ
 summary: AI empowers transformation of Hong Kong’s legal industry chinadailyasia.com
 first_seen: '2026-09-06T16:49:36Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AI empowers transformation of Hong Kong’s legal industry
+# AI adoption in Hong Kong's legal industry
 
 AI empowers transformation of Hong Kong’s legal industry chinadailyasia.com
 

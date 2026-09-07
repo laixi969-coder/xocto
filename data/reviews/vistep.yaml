@@ -1,0 +1,38 @@
+- id: req-initial-vistep-2026-09-07
+  project_slug: vistep
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助理解复杂步骤，但痛点刚性未明，且现有替代方式多样。
+    evidence_ids:
+    - ev-d109e57b65d1b686
+  - gate: consensus
+    status: insufficient
+    reason: 公开关注度低，缺乏用户反馈或采用数据，无法判断共识。
+    evidence_ids:
+    - ev-d109e57b65d1b686
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查未进行。
+    evidence_ids: []
+  next_validation: 官方产品页或文档中关于具体工作流程和交付物的详细说明。
+  market: ''
+  job: 用户需要理解复杂概念或流程的每一步，而不仅仅是得到一个文字答案。
+  job_en: Users need to understand each step of a complex concept or process, not just get a text answer.
+  pain: 传统文字或静态图表难以展示动态过程，学习或解释时容易遗漏关键步骤。
+  pain_en: Traditional text or static diagrams fail to show dynamic processes, making it easy to miss
+    key steps when learning or explaining.
+  current_alternative: 目前用户可能依赖视频教程、动画演示或手动绘制图表，但这些方式耗时且难以定制。
+  current_alternative_en: Currently, users may rely on video tutorials, animated demos, or manually drawn
+    diagrams, which are time-consuming and hard to customize.
+  usage_reason: 用户可能因为需要快速生成可交互、可讲解的可视化内容而尝试该工具，但采用证据不足。
+  usage_reason_en: Users might try the tool for quickly generating interactive, narrated visual content,
+    but adoption evidence is insufficient.

@@ -1,0 +1,36 @@
+- id: req-initial-知乎ai-works功能迭代-支持应用一键部署-2026-09-07
+  project_slug: 知乎ai-works功能迭代-支持应用一键部署
+  level: initial
+  reviewed_at: '2026-09-06T23:54:47Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：简化AI应用部署流程。但具体工作流和交付物未核验，价值判断证据不足。
+    evidence_ids:
+    - ev-da0dab345a2bffd2
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅提及功能更新，无用户采用或关注数据，共识未建立。
+    evidence_ids:
+    - ev-da0dab345a2bffd2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方和付费路径未明确。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法判断交付确定性。
+    evidence_ids: []
+  next_validation: 查找知乎AI Works官方产品页或文档，确认一键部署的具体流程和用户案例。
+  market: ''
+  job: 开发者在知乎AI Works上构建并部署AI应用。
+  job_en: Developers build and deploy AI applications on Zhihu AI Works.
+  pain: 部署AI应用需要复杂的基础设施和运维知识。
+  pain_en: Deploying AI applications requires complex infrastructure and operations knowledge.
+  current_alternative: 开发者可能使用云服务商或自建服务器手动部署。
+  current_alternative_en: Developers may manually deploy using cloud providers or self-managed servers.
+  usage_reason: 一键部署简化了流程，但需求强度未明，因为缺乏用户采用证据。
+  usage_reason_en: One-click deployment simplifies the process, but demand intensity is unclear due to
+    lack of adoption evidence.

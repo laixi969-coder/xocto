@@ -1,12 +1,12 @@
 ---
 slug: github-has-published-a-case-study-showing-that-shortening-th
-name: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
-  can actually increase costs. How can we effectively improve cost efficiency?
+name: GitHub
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 公开代码仓库 发布案例研究，探讨 AI 代理成本优化。研究发现缩短输出可能适得其反，为开发者平台成本管理提供参考。
 inspiration: ''
-summary_en: ''
+summary_en: public code repository published a case study on AI agent cost optimization, finding that
+  shortening output can be counterproductive, offering insights for developer platform cost management.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: GitHub has published a case study showing that shortening the output of
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# GitHub has published a case study showing that shortening the output of AI agents to reduce costs can actually increase costs. How can we effectively improve cost efficiency?
+# GitHub
 
 GitHub has published a case study showing that shortening the output of AI agents to reduce costs can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 

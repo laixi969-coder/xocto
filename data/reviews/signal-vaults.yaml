@@ -1,0 +1,38 @@
+- id: req-initial-signal-vaults-2026-09-07
+  project_slug: signal-vaults
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决微信群和公众号信息过载的痛点，提供摘要交付，价值成立。
+    evidence_ids:
+    - ev-9e1acac7e5593e70
+  - gate: consensus
+    status: insufficient
+    reason: 星数较少，缺乏广泛采用证据。
+    evidence_ids:
+    - ev-9e1acac7e5593e70
+  - gate: model
+    status: insufficient
+    reason: 开源项目，商业模式不明确。
+    evidence_ids:
+    - ev-9e1acac7e5593e70
+  - gate: truth
+    status: supported
+    reason: 贴近知识工作，交付可验证。
+    evidence_ids:
+    - ev-9e1acac7e5593e70
+  next_validation: 查看 公开代码仓库 仓库的 README 和 issue，了解实际使用案例。
+  market: ''
+  job: 知识工作者需要从大量微信群和公众号内容中提取有价值的信息。
+  job_en: Knowledge workers need to extract valuable information from large volumes of WeChat group and
+    official-account content.
+  pain: 信息过载，手动整理耗时。
+  pain_en: Information overload, manual curation is time-consuming.
+  current_alternative: 手动复制粘贴或使用笔记工具。
+  current_alternative_en: Manual copy-paste or using note-taking tools.
+  usage_reason: 开源且面向代理，可自动化知识提取。
+  usage_reason_en: Open source and agent-oriented, enabling automated knowledge extraction.

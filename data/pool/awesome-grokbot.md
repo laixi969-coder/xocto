@@ -22,7 +22,7 @@ summary: 598 live x.ai/bot shares for Grok Bot — every link status-checked, ev
   EN/中文 catalog with a JSON schema, CI, and a searchable site.
 first_seen: '2026-09-01T02:30:25Z'
 last_seen: '2026-09-06T23:54:21Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

@@ -1,0 +1,38 @@
+- id: req-initial-chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-2-2026-09-07
+  project_slug: chinese-ai-firm-moonshot-files-confidentially-for-hong-kong-2
+  level: initial
+  reviewed_at: '2026-09-06T23:54:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决信息获取和文本生成的普遍需求，痛点存在，但替代品多。
+    evidence_ids:
+    - ev-47f91097e196d8bf
+  - gate: consensus
+    status: insufficient
+    reason: IPO 消息显示市场关注，但缺乏用户采用数据。
+    evidence_ids:
+    - ev-47f91097e196d8bf
+  - gate: model
+    status: insufficient
+    reason: 付费路径未在公开材料中核验。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品真实，但交付质量未核验。
+    evidence_ids:
+    - ev-47f91097e196d8bf
+  next_validation: Kimi 官方定价页或用户付费案例
+  market: ''
+  job: 用户通过对话获取信息、完成文本创作或处理任务。
+  job_en: Users obtain information, create text, or handle tasks through conversation.
+  pain: 传统搜索或人工处理耗时，用户希望快速获得答案或生成内容。
+  pain_en: Traditional search or manual processing is time-consuming; users want quick answers or content
+    generation.
+  current_alternative: 使用搜索引擎、其他 AI 助手或人工写作。
+  current_alternative_en: Use search engines, other AI assistants, or manual writing.
+  usage_reason: Kimi 提供便捷的对话式交互，吸引用户尝试，但付费模式未明确。
+  usage_reason_en: Kimi offers convenient conversational interaction, attracting users, but the payment
+    model is unclear.

@@ -23,7 +23,7 @@ summary: Weekly funding round-up! All of the European startup funding rounds we 
   31 – Sept. 04) EU-Startups
 first_seen: '2026-09-04T15:22:22Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

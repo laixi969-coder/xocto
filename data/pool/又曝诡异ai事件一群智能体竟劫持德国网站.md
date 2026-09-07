@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE96NVJuSkc4RTBo
 summary: 又曝诡异AI事件：一群智能体竟“劫持”德国网站… 文学城
 first_seen: '2026-09-06T20:59:02Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

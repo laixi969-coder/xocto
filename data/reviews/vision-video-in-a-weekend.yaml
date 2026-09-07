@@ -37,3 +37,40 @@
   usage_reason: 该模板库提供现成的框架和工具链，降低了技术门槛，使非专业人士也能在周末内完成视频。
   usage_reason_en: The template library provides a ready-made framework and toolchain, lowering technical
     barriers so non-professionals can complete a video in a weekend.
+- id: req-initial-vision-video-in-a-weekend-2026-09-07
+  project_slug: vision-video-in-a-weekend
+  level: initial
+  reviewed_at: '2026-09-06T23:54:21Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：声称解决视频制作门槛，但具体流程和交付质量未验证，价值判断证据不足。
+    evidence_ids:
+    - ev-90561187d3a3174a
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或示例视频，展示实际输出质量和制作流程。
+  market: ''
+  job: 产品经理或创业者需要制作产品愿景视频，用于融资或内部对齐。
+  job_en: Product managers or founders need to create product vision videos for fundraising or internal
+    alignment.
+  pain: 专业视频制作成本高、周期长，且需要设计技能。
+  pain_en: Professional video production is costly, time-consuming, and requires design skills.
+  current_alternative: 目前通常外包给视频制作公司，或使用通用 AI 工具自行拼凑。
+  current_alternative_en: Currently, they outsource to video production companies or use general AI tools
+    to assemble something themselves.
+  usage_reason: 开源框架提供结构化流程，吸引尝试 DIY 的创业者，但实际效果和采用原因待核验。
+  usage_reason_en: The open-source framework offers a structured process, attracting founders who try
+    DIY, but actual results and adoption reasons need verification.

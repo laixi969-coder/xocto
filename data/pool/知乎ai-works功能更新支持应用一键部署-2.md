@@ -2,29 +2,27 @@
 slug: 知乎ai-works功能更新支持应用一键部署-2
 name: 知乎AI Works
 builder: ''
-category: AI + 开发
-summary_zh: 知乎AI Works是知乎推出的AI应用平台，本次更新支持应用一键部署。具体工作流程和交付物尚待核验，但推测用户可在平台上构建AI应用并快速部署上线。
-inspiration: 趋势：内容平台向AI应用平台延伸，降低应用开发门槛。切入：可关注面向知乎内容生态的垂直AI工具，如内容创作、社区运营等场景。
-summary_en: Zhihu AI Works is an AI application platform by Zhihu, now supporting one-click deployment.
-  Specific workflows and deliverables are yet to be verified, but users may build and deploy AI applications
-  on the platform.
-inspiration_en: 'Trend: content platforms expanding into AI application platforms, lowering development
-  barriers. Entry: focus on vertical AI tools for Zhihu''s content ecosystem, such as content creation
-  and community operations.'
+category: AI + 创作
+summary_zh: 知乎推出的AI应用平台AI Works。用户想把想法做成可用AI应用时打开它，在平台内搭建应用，本次更新后可一键部署给他人使用；具体制作流程与交付物仍待核验。
+inspiration: 趋势：内容社区正把AI从问答工具变成用户可自建、可分发的应用，知识交付从图文走向可运行的小工具。切入：别做通用AI应用平台，盯具体行业里专业人士为粉丝或客户搭小工具的环节。
+summary_en: Zhihu's AI Works is an AI application platform where users turn ideas into working AI applications.
+  The update reported here adds one-click deployment, letting builders publish finished apps for others
+  to use without extra setup. Who exactly builds on it, what the build flow looks like, and what the final
+  deliverable contains remain unverified from this single report.
+inspiration_en: 'The trend: content communities are turning AI from a Q&A box into applications users
+  build and distribute themselves, moving knowledge delivery from articles to runnable small tools. Entry
+  point: skip the general-purpose platform battle; target professionals in specific industries who assemble
+  small tools for their followers or clients.'
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
-- 互联网
-- 软件开发
+- 内容社区
 industries_en:
-- Internet
-- Software Development
+- Content communities
 jobs:
-- 开发者
-- 产品经理
+- 内容创作者
 jobs_en:
-- Developers
-- Product Managers
+- Content creators
 regions:
 - 中国
 regions_en:
@@ -35,7 +33,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcW1qd0ZHNkhL
 summary: 知乎AI Works功能更新，支持应用一键部署 新浪网
 first_seen: '2026-09-05T10:10:50Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: watching
 sources:
 - newssearch
 sightings:

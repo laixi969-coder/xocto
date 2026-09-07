@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NT2JuNk1Zam5I
 summary: 3D中奖号发布企业级AI智能体平台 以场景落地破解行业效率瓶颈 体坛
 first_seen: '2026-09-06T19:34:10Z'
 last_seen: '2026-09-06T23:54:47Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

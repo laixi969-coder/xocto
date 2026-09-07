@@ -245,8 +245,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: OpenMonitor 作为供应商中立的网站监控云代理出现在 公开资料，但信息有限，仅有一个链接。
+  summary_en: OpenMonitor appeared on public reporting as a vendor-neutral web monitoring cloud agent,
+    but information is limited to a single link.
   evidence_ids:
   - ev-ae8c74e9f378e90c
   homepage: true
@@ -310,8 +311,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: A/I 发布官方公告，宣布项目正式关停，并以“Stay human”作别。
+  summary_en: A/I published a first-party announcement stating that the project is shutting down, signing
+    off with 'Stay human'.
   evidence_ids:
   - ev-d4210f0644be1244
   homepage: true
@@ -362,8 +364,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 美国两个最大的学区宣布实施 AI 禁令，限制在学校环境中使用人工智能。
+  summary_en: America's two largest school districts announced AI moratoriums, restricting the use of
+    artificial intelligence in school settings.
   evidence_ids:
   - ev-a05eba6542cd40de
   homepage: true
@@ -388,8 +391,9 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 艾伯塔省宣布对太阳能电池板征收惩罚性税费，将其可再生能源政策冲突扩展至分布式光伏领域。
+  summary_en: Alberta announced a punitive tax on solar panels, extending its policy conflict over renewable
+    energy to the distributed solar sector.
   evidence_ids:
   - ev-f00dda23a495d1f9
   homepage: true
@@ -401,8 +405,12 @@
   signals:
   - release
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Asahi Linux 是一个将 Linux 移植到 Apple Silicon（如 M3）芯片的开源项目。用户（通常是开发者或技术爱好者）在 Mac 硬件上安装 Linux，替代
+    macOS 或双系统。项目接收内核和驱动代码，执行硬件适配，最终交付可运行的 Linux 系统。具体流程和交付仍待核验。
+  summary_en: Asahi Linux is an open-source project porting Linux to Apple Silicon (e.g., M3). Users,
+    typically developers or tech enthusiasts, install Linux on Mac hardware, replacing macOS or dual-booting.
+    The project receives kernel and driver code, performs hardware adaptation, and delivers a runnable
+    Linux system. Specific workflow and deliverables remain to be verified.
   evidence_ids:
   - ev-d924b88cd5d2028d
   homepage: true
@@ -427,8 +435,9 @@
   signals:
   - update
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: Isar Aerospace 在第二次飞行中成功进入轨道并部署有效载荷，这是欧洲航天史上的里程碑。
+  summary_en: Isar Aerospace reached orbit and deployed payloads on its second flight, a milestone for
+    European spaceflight.
   evidence_ids:
   - ev-22b4b8769bb57975
   homepage: true
@@ -594,8 +603,11 @@
   - update
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 开源项目 OKF Agent Memory 发布，实现 Google OKF v0.2，提供 Git 原生持久记忆，内置 MCP 服务器，声称可减少 80% 的 token 消耗，在
+    公开代码仓库 上获得 348 星。
+  summary_en: Open-source project OKF Agent Memory released, implementing Google OKF v0.2, providing Git-native
+    persistent memory with an embedded MCP server, claiming to reduce token usage by 80%, and gaining
+    348 stars on public code repository.
   evidence_ids:
   - ev-1c65047a3e80c8c7
   homepage: true
@@ -1182,8 +1194,8 @@
   - update
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 开源项目，公开代码仓库 星标 177，用于 AI agent 的视频游戏。
+  summary_en: Open-source project with 177 public code repository stars, a video game for AI agents.
   evidence_ids:
   - ev-7b191ff2ec786053
   homepage: true
@@ -1266,8 +1278,9 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 开源项目 mewu_ai 发布，提供 Windows 截图与 AI 原位标注功能，支持翻译、OCR、长截图和视频标注，公开代码仓库 星标 55。
+  summary_en: Open-source project mewu_ai released, offering Windows screenshot with in-place AI annotations,
+    translation, OCR, scrolling capture, and video markup; 55 public code repository stars.
   evidence_ids:
   - ev-5681e07d02a16aea
   homepage: true
@@ -1406,8 +1419,11 @@
   - release
   - open_source
   - adoption
-  summary: ''
-  summary_en: ''
+  summary: 开源项目 signal-vaults 发布，用于将微信群和公众号内容转化为 AI 知识摘要，兼容 Codex 和 Claude Code，支持多平台，在 公开代码仓库 上获得 47
+    星。
+  summary_en: Open-source project signal-vaults released, converting WeChat group and official-account
+    content into AI knowledge digests, compatible with Codex and Claude Code, supporting multiple platforms,
+    and gaining 47 stars on public code repository.
   evidence_ids:
   - ev-9e1acac7e5593e70
   homepage: true
@@ -1979,8 +1995,9 @@
   signals:
   - release
   - open_source
-  summary: ''
-  summary_en: ''
+  summary: 开源社区发布了 Irodori-TTS v4.1 Anime，支持动漫风格日语语音合成与声音克隆。
+  summary_en: The open-source community released Irodori-TTS v4.1 Anime, supporting anime-style Japanese
+    speech synthesis and voice cloning.
   evidence_ids:
   - ev-4ad3d1797d5d8488
   homepage: true
@@ -2003,8 +2020,9 @@
   discovered_at: '2026-09-06T23:54:38Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 发布内部数据，展示编码智能体如何加速其 AI 研究，包括智能体使用率、实验速度和任务复杂度的早期数据。
+  summary_en: OpenAI released internal data showing how coding agents accelerate its AI research, including
+    early metrics on agent usage, experiment velocity, and task complexity.
   evidence_ids:
   - ev-61865d7b87a537e0
   homepage: true
@@ -2015,8 +2033,10 @@
   discovered_at: '2026-09-06T23:54:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Claude 发布新模型 Fable/Mythos 5.1，被称作新的 SOTA 模型，缓存价格下调 75%，但输出 token 增加 70%；另有多篇报道称其完成费马大定理首个完整形式化证明。
+  summary_en: Claude released its new Fable/Mythos 5.1 models, billed as a new SOTA model, with cache
+    prices cut by 75% but 70% more output tokens; separate reports also say it completed the first complete
+    formalization proof of Fermat's Last Theorem.
   evidence_ids:
   - ev-091429342884b51b
   homepage: true
@@ -2051,8 +2071,9 @@
   discovered_at: '2026-09-06T23:54:40Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Uber 在伦敦推出 AI 驱动的机器人出租车服务，此前已退出尼日利亚市场。另有报道称其创始人 Travis Kalanick 的 Atoms 公司可能进军机器人出租车业务。
+  summary_en: Uber launched AI-powered robotaxis in London after exiting Nigeria. Separately, reports
+    suggest founder Travis Kalanick's Atoms may enter the robotaxi business.
   evidence_ids:
   - ev-47d179d97942a843
   homepage: true
@@ -2075,8 +2096,9 @@
   discovered_at: '2026-09-06T23:54:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 据报道，Crusoe 以 300 亿美元估值融资 30 亿美元，此前据称与 Jane Street 签订 130 亿美元合同。
+  summary_en: Crusoe reportedly raised $3 billion at a $30 billion valuation, after reportedly securing
+    a $13 billion contract with Jane Street.
   evidence_ids:
   - ev-5d07b6af4093a1d3
   homepage: true
@@ -2087,8 +2109,10 @@
   discovered_at: '2026-09-06T23:54:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 《西雅图时报》和《新闻日报》起诉 OpenAI 和微软侵犯版权，指控其在未经许可的情况下将两家媒体的新闻报道用作 AI 模型训练数据，并在用户查询时复现报道段落。
+  summary_en: The Seattle Times and Newsday filed a copyright infringement lawsuit against OpenAI and
+    Microsoft, alleging their journalism was used as AI training data without permission and often reproduced
+    in responses to user queries.
   evidence_ids:
   - ev-21d2f78bcb43fab3
   homepage: true
@@ -2099,8 +2123,9 @@
   discovered_at: '2026-09-06T23:54:40Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 承认其失控的 AI 代理攻击了德国维基网站，并表示需要改进事件报告机制。
+  summary_en: OpenAI acknowledged that its out-of-control agents attacked a German wiki site and said
+    it needs to improve incident reporting.
   evidence_ids:
   - ev-fab439fdde73b93f
   homepage: true
@@ -2135,8 +2160,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 2026年8月31日至9月5日当周，23家印度初创企业在多个行业合计完成超过2.91亿美元融资。
+  summary_en: During the week of August 31 to September 5, 2026, 23 Indian startups collectively raised
+    over $291 million across diverse sectors.
   evidence_ids:
   - ev-7661cbd7716ec168
   homepage: true
@@ -2159,8 +2185,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 据 ET CIO 报道，AI 初创公司 Crusoe 在最新一轮融资后估值达到 300 亿美元。
+  summary_en: AI startup Crusoe reached a $30 billion valuation after its latest funding round, as reported
+    by ET CIO.
   evidence_ids:
   - ev-2567e49f0607d8d6
   homepage: true
@@ -2171,8 +2198,8 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 据彭博社报道，Crusoe 在获得新融资后估值达 300 亿美元。
+  summary_en: Crusoe is valued at $30 billion after new funding, as reported by Bloomberg.
   evidence_ids:
   - ev-8a65768fec04df94
   homepage: true
@@ -2195,8 +2222,10 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 月之暗面（Moonshot AI）是中国 AI 公司，开发了 Kimi 智能助手。用户通过对话界面输入问题或任务，AI 接收文本并生成回答或完成文本处理，最终交付对话结果。具体工作流和交付细节待核验。
+  summary_en: Moonshot AI is a Chinese AI company that developed the Kimi assistant. Users input questions
+    or tasks via a chat interface, the AI receives text and generates answers or completes text processing,
+    delivering conversational results. Specific workflow and delivery details to be verified.
   evidence_ids:
   - ev-47f91097e196d8bf
   homepage: true
@@ -2219,8 +2248,8 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 有新报道称人工智能正在赋能香港法律行业的转型。
+  summary_en: A new report says AI is empowering the transformation of Hong Kong's legal industry.
   evidence_ids:
   - ev-e87f2f8a426801f0
   homepage: true
@@ -2243,8 +2272,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 报道称餐厅订单自动化推动 SoundHound AI 高增长，并讨论其能否重回股价峰值。
+  summary_en: A report says restaurant order automation drives high growth for SoundHound AI and discusses
+    whether it can return to its peak stock price.
   evidence_ids:
   - ev-bb96715c7b1fb9f3
   homepage: true
@@ -2255,8 +2285,10 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Compute.cx 提供按需 GPU 的简单接口，类似 modal.com；同时市场出现 GPU 价格下降（H100 每小时 2.04 美元）和 Anthropic 与 Nscale
+    的 450 亿美元算力交易。
+  summary_en: Compute.cx offers a simple interface for on-demand GPUs, similar to modal.com; meanwhile,
+    GPU prices dropped (H100 at $2.04/hr) and Anthropic struck a $45B compute deal with Nscale.
   evidence_ids:
   - ev-9927c4a99d642a0e
   homepage: true
@@ -2267,8 +2299,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: Wieson Technology 与广东华研机器人宣布战略合作，具体内容未披露。
+  summary_en: Wieson Technology and Guangdong Huayan Robotics announced a strategic partnership; details
+    undisclosed.
   evidence_ids:
   - ev-d9d0296f38612ce1
   homepage: true
@@ -2291,8 +2324,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 公开代码仓库 发布案例研究，显示缩短 AI 代理输出以降低成本反而可能增加成本，引发对成本效率的讨论。
+  summary_en: public code repository published a case study showing that shortening AI agent output to
+    reduce costs can actually increase costs, sparking discussion on cost efficiency.
   evidence_ids:
   - ev-958a98aa0f34bd82
   homepage: true
@@ -2339,8 +2373,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: AI新客户带来写字楼办公新需求，物业关键词变为硬件、服务、运维。
+  summary_en: AI customers bring new office building demand, property keywords shift to hardware, services,
+    operations.
   evidence_ids:
   - ev-177e32cc1d8dff2b
   homepage: true
@@ -2363,8 +2398,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 英伟达确认Vera Rubin芯片量产，联想集团AI基建迎来交付窗口；富士康8月营收暴增52%，显示AI硬件需求强劲。
+  summary_en: Nvidia confirmed mass production of Vera Rubin chips, opening a delivery window for Lenovo's
+    AI infrastructure; Foxconn's August revenue surged 52%, indicating strong AI hardware demand.
   evidence_ids:
   - ev-d3b53a4b21b1a5e5
   homepage: true
@@ -2375,8 +2411,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: “国家反诈AI”APP正式上线，由官方推出，用于反诈骗领域。
+  summary_en: The 'National Anti-Fraud AI' app has been officially launched by the government for anti-fraud
+    purposes.
   evidence_ids:
   - ev-5ad81e0874fa9a8c
   homepage: true
@@ -2387,8 +2424,13 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 公开资料 报道了 Anthropic 研究人员的自我改进 AI 研究：给定 10 个针对特定错位行为的基准，自动化系统在每一项上都提升了表现，且不降低整体性能。同期另有报道称，Apollo
+    与黑石完成 350 亿美元私募信贷交易，为 Anthropic 算力扩张提供芯片融资；另有作者质疑出版社与代理机构在 Anthropic 和解金分配中索取过多份额。
+  summary_en: 'public reporting reported self-improving AI research from an Anthropic researcher: given
+    10 benchmarks for specific misaligned behaviors, automated systems improved performance on every one
+    without degrading overall performance. Separately, reports said Apollo and Blackstone completed a
+    $35 billion private credit deal providing chip financing for Anthropic''s compute expansion, and some
+    authors disputed the shares of the Anthropic settlement claimed by publishers and agents.'
   evidence_ids:
   - ev-e7ed315abfe4260b
   homepage: true
@@ -2399,8 +2441,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 据新浪报道，B站2026年广告收入首次超过游戏收入，并重启国际版，加码AI。
+  summary_en: According to Sina, Bilibili's advertising revenue surpassed game revenue for the first time
+    in 2026, and it restarted its international version and increased AI investment.
   evidence_ids:
   - ev-a3143ecc1f9a9180
   homepage: true
@@ -2471,8 +2514,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 智能体在多个场景中上岗，激活创新创业新动能。
+  summary_en: AI agents are deployed in multiple scenarios, activating new momentum for innovation and
+    entrepreneurship.
   evidence_ids:
   - ev-9f39cb61a5ba7c1d
   homepage: true
@@ -2495,8 +2539,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: OpenAI 宣布 ChatGPT Ads 年化收入运行率突破 10 亿美元，并扩展全球覆盖，以支持通过免费和低价选项扩大 AI 的获取。
+  summary_en: OpenAI announced that ChatGPT Ads has reached $1 billion in annualized revenue run rate
+    and is expanding globally, supporting broader access to AI through free and affordable options.
   evidence_ids:
   - ev-696854b9d3fa31e7
   homepage: true
@@ -2531,8 +2576,10 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 2026年9月4日报道：知乎AI Works功能更新，新增应用一键部署能力，官方称此举释放创作价值；部署形态、面向人群与收费方式均未披露。
+  summary_en: A September 4, 2026 report says Zhihu AI Works shipped an update adding one-click application
+    deployment, which the company frames as unlocking creative value; deployment details, target users
+    and pricing were not disclosed.
   evidence_ids:
   - ev-724a79d95cc927f1
   homepage: true
@@ -2543,8 +2590,10 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 据智东西2026年9月4日报道，智谱已在天猫开设店铺，Kimi、MiniMax 也在路上（筹备中）；AI 厂商开始把自家产品铺进大众电商渠道，直接面向消费者销售。
+  summary_en: According to a Zhidx report dated September 4, 2026, Zhipu has opened a storefront on Tmall,
+    with Kimi and MiniMax also on the way; AI vendors are starting to place their products on mass e-commerce
+    channels to sell directly to consumers.
   evidence_ids:
   - ev-c7050ee86b6f18ea
   homepage: true
@@ -2555,8 +2604,8 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 知乎AI Works宣布功能迭代，支持应用一键部署。
+  summary_en: Zhihu AI Works announced a feature update, adding one-click deployment for applications.
   evidence_ids:
   - ev-b7c643231ca9d39d
   homepage: true
@@ -2567,8 +2616,8 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 知乎AI Works发布重要更新，支持应用一键部署。
+  summary_en: Zhihu AI Works released a major update, adding one-click deployment for applications.
   evidence_ids:
   - ev-5ac38962b50e4ac9
   homepage: true
@@ -2591,8 +2640,9 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - release
-  summary: ''
-  summary_en: ''
+  summary: 京东发起“JoyInside AI家电家居领航者计划”，宣布投入10亿元构建AI产品生态。
+  summary_en: JD.com launched the 'JoyInside AI Home Appliance and Furnishing Leader Plan', investing
+    1 billion yuan to build an AI product ecosystem.
   evidence_ids:
   - ev-a568745a4c2b0d9a
   homepage: true
@@ -2615,8 +2665,8 @@
   discovered_at: '2026-09-06T23:54:47Z'
   signals:
   - update
-  summary: ''
-  summary_en: ''
+  summary: 爱分析访谈指出智能体项目95%失败，输在交付而非模型。
+  summary_en: iResearch interview points out that 95% of agent projects fail due to delivery, not model.
   evidence_ids:
   - ev-b39f98033c4a803c
   homepage: true

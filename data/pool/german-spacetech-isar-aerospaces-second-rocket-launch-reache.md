@@ -3,11 +3,11 @@ slug: german-spacetech-isar-aerospaces-second-rocket-launch-reache
 name: Isar Aerospace
 builder: mpweiher
 category: ''
-summary_zh: Isar Aerospace 是德国商业运载火箭公司，其火箭在第二次飞行中进入轨道并成功部署有效载荷，公司称这是欧洲航天史的里程碑。这表明欧洲商业火箭已具备入轨与载荷部署能力，对欧洲建立本土发射运力是实质进展。
+summary_zh: Isar Aerospace 是一家德国太空技术公司，开发用于小型卫星发射的轨道火箭。其第二次飞行成功进入轨道并部署有效载荷，标志着欧洲商业航天能力的重大进展。
 inspiration: ''
-summary_en: Isar Aerospace, a German commercial launch company, reached orbit and deployed payloads on
-  its second flight, which the company calls a milestone for European spaceflight. It shows European commercial
-  rockets can now deliver payloads to orbit, a concrete step toward homegrown European launch capacity.
+summary_en: Isar Aerospace is a German space technology company developing orbital rockets for small satellite
+  launches. Its second flight successfully reached orbit and deployed payloads, marking a significant
+  advance in European commercial space capability.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ canonical_url: https://sifted.eu/articles/isar-aerospace-test-flight-orbit
 summary: Isar Aerospace reaches orbit and deploys payloads on second flight
 first_seen: '2026-09-05T21:49:26Z'
 last_seen: '2026-09-06T23:54:18Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - hackernews
