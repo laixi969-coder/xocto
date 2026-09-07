@@ -22,8 +22,6 @@ LATIN_FONTS = (
     "inter-400-latin.woff2",
     "inter-500-latin.woff2",
     "inter-600-latin.woff2",
-    "fraunces-400-latin.woff2",
-    "fraunces-700-latin.woff2",
 )
 # (源文件, 输出文件, font-weight)。新增字重时 CSS 里的 @font-face 要成对加。
 CJK_SOURCES = (

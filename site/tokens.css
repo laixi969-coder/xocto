@@ -22,7 +22,9 @@
   --color-good: oklch(48.54% 0.0816 179.1);
   --color-watch: oklch(51.06% 0.1081 64.6);
 
-  --font-display: "Fraunces", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-serif, serif;
+  /* 展示字体与正文同族：英文 Inter、中文思源黑体。曾用 Fraunces 衬线做标题，
+     但它会掉进中英混排的句子里和思源打架，2026-09-07 整体退场。 */
+  --font-display: "Inter", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif, sans-serif;
   --font-body: "Inter", "Aptos", "Helvetica Neue", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif, sans-serif;
   --font-outlier: var(--font-body);
 

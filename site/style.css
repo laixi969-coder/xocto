@@ -29,16 +29,6 @@
   font-weight: 700; font-style: normal; font-display: swap;
 }
 @font-face {
-  font-family: "Fraunces";
-  src: url("fonts/fraunces-400-latin.woff2") format("woff2");
-  font-weight: 400; font-style: normal; font-display: swap;
-}
-@font-face {
-  font-family: "Fraunces";
-  src: url("fonts/fraunces-700-latin.woff2") format("woff2");
-  font-weight: 700; font-style: normal; font-display: swap;
-}
-@font-face {
   font-family: "Noto Sans SC";
   src: url("fonts/noto-sans-sc-400-subset.woff2") format("woff2");
   font-weight: 400; font-style: normal; font-display: swap;
@@ -965,7 +955,7 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
 .product-lead {
   color: var(--ink) !important;
   /* 导语是正文句子，常中英混排：拉丁走 Inter、中文走思源（同为无衬线），
-     不能用 --display——Fraunces 衬线掉进句子里会和思源打架（2026-09-07 修）。 */
+     不能用 --display——衬线字体会掉进中英混排的句子里和思源打架（2026-09-07 修）。 */
   font-family: var(--sans);
   font-size: clamp(20px, 2.4vw, 28px) !important;
   letter-spacing: -.01em;
