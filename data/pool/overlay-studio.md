@@ -36,19 +36,25 @@ url: https://github.com/jeszhou/overlay-studio
 canonical_url: https://github.com/jeszhou/overlay-studio
 summary: 给口播视频加动效层的编辑工作台:AI 读你的字幕稿自动编排,做出来的每个元素你都能自己改,导出透明动效层直接进剪映——原片一帧不压。
 first_seen: '2026-09-01T10:13:12Z'
-last_seen: '2026-09-06T23:54:21Z'
-status: queued
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - github
+- newssearch
 sightings:
 - source: github
   url: https://github.com/jeszhou/overlay-studio
-  seen_at: '2026-09-06T23:54:21Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    stars: 47
-    forks: 11
+    stars: 57
+    forks: 14
     open_issues: 1
   kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijwFBVV95cUxOM1BUWlpsNzNKZWlrWi1STGV6em9RbHJOcDJxR2VhQmdneVRZVl9WOW5ldU1TTzVOT0Z4aUY3SXZGV2cyOWc2VUxfTEpuaFVkRG9OWVBRWmdoYU03TUx4cnQ0SlBmeFBiM3Zkdm5BUzhnbzExRF92ZGJ3TW1aN0NPVS1Nem9ZTm56ajJBWUJNMNIBjwFBVV95cUxOM1BUWlpsNzNKZWlrWi1STGV6em9RbHJOcDJxR2VhQmdneVRZVl9WOW5ldU1TTzVOT0Z4aUY3SXZGV2cyOWc2VUxfTEpuaFVkRG9OWVBRWmdoYU03TUx4cnQ0SlBmeFBiM3Zkdm5BUzhnbzExRF92ZGJ3TW1aN0NPVS1Nem9ZTm56ajJBWUJNMA?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
 ---
 
 # overlay-studio

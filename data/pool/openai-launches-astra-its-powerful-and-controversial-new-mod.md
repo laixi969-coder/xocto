@@ -23,14 +23,19 @@ canonical_url: https://techcrunch.com/2026/09/03/openai-launches-astra-its-power
 summary: OpenAI claims that Astra represents "a new frontier on computer and browser use," and that it
   handles tasks with unmatched "speed, accuracy, and safety."
 first_seen: '2026-09-03T18:01:45Z'
-last_seen: '2026-09-04T00:06:58Z'
-status: market_context
+last_seen: '2026-09-07T15:53:16Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/
   seen_at: '2026-09-04T00:06:58Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/07/beyond-the-robot-dogs-european-startups-worth-watching-from-ifa-2026/
+  seen_at: '2026-09-07T15:53:16Z'
   metrics: {}
   kind: news
 ---

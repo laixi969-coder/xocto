@@ -26,11 +26,12 @@ url: https://www.producthunt.com/products/click-6
 canonical_url: https://producthunt.com/products/click-6
 summary: Live research context for ChatGPT and Claude
 first_seen: '2026-08-11T19:25:25Z'
-last_seen: '2026-09-01T01:18:43Z'
+last_seen: '2026-09-07T15:52:49Z'
 status: watching
 sources:
 - producthunt
 - newssearch
+- github
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/click-6
@@ -42,6 +43,14 @@ sightings:
   seen_at: '2026-09-01T01:18:43Z'
   metrics: {}
   kind: news
+- source: github
+  url: https://github.com/grapefruit0205/click
+  seen_at: '2026-09-07T15:52:49Z'
+  metrics:
+    stars: 40
+    forks: 3
+    open_issues: 1
+  kind: product
 ---
 
 # Click

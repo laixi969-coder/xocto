@@ -1,0 +1,41 @@
+---
+slug: voice-ai-startup-navana-ai-raises-rs-40-crore-from-ronnie-sc
+name: Voice AI startup Navana ai raises Rs 40 crore from Ronnie Screwvala, others
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRUZWUmdjRWhYb0FxekN3a0REZGdldG8xaHpVYm43VksxTVhtTEhpSFJBeUF0TGZ1dEl2emI4LUpNaHRjc2t6c3Z5Q0VCQ1FfM0djd0ZMSWJSdmRoeFJlRzdTVXFweUpCazQ1SG84RWtJSWljd1FMVTdDckxZV25oZDVBa3VXSGNLWFFmWTVKOUtrWGxKQ1B5VHZoelVfTXBrS2dtS2JHTjhISlF4LWtFUS13cHVTSnA2U08wZGZaallOQkM1U1BTX0Q2MEtDTHBGbUNCZEx1dEs2T3VPMlNXWVI1NV80RDlXX25OLWNBeER6eFHSAfMBQVVfeXFMTUVGVlJnY0VoWG9BcXpDd2tERGRnZXRvMWh6VWJuN1ZLMU1YbUxIaUhSQXlBdExmdXRJdnpiOC1KTWh0Y3NrenN2eUNFQkNRXzNHY3dGTEliUnZkaHhSZUc3U1VxcHlKQms0NUhvOEVrSUlpY3dRTFU3Q3JMWVduaGQ1QWt1V0hjS1hRZlk1SjlLa1hsSkNQeVR2aHpVX01wa0tnbUtiR044SEpReC1rRVEtd3B1U0pwNlNPMGRmWmpZTkJDNVNQU19ENjBLQ0xwRm1DQmRMdXRLNk91TzJTV1lSNTVfNEQ5V19uTi1jQXhEenhR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRUZWUmdjRWhYb0FxekN3a0REZGdldG8xaHpVYm43VksxTVhtTEhpSFJBeUF0TGZ1dEl2emI4LUpNaHRjc2t6c3Z5Q0VCQ1FfM0djd0ZMSWJSdmRoeFJlRzdTVXFweUpCazQ1SG84RWtJSWljd1FMVTdDckxZV25oZDVBa3VXSGNLWFFmWTVKOUtrWGxKQ1B5VHZoelVfTXBrS2dtS2JHTjhISlF4LWtFUS13cHVTSnA2U08wZGZaallOQkM1U1BTX0Q2MEtDTHBGbUNCZEx1dEs2T3VPMlNXWVI1NV80RDlXX25OLWNBeER6eFHSAfMBQVVfeXFMTUVGVlJnY0VoWG9BcXpDd2tERGRnZXRvMWh6VWJuN1ZLMU1YbUxIaUhSQXlBdExmdXRJdnpiOC1KTWh0Y3NrenN2eUNFQkNRXzNHY3dGTEliUnZkaHhSZUc3U1VxcHlKQms0NUhvOEVrSUlpY3dRTFU3Q3JMWVduaGQ1QWt1V0hjS1hRZlk1SjlLa1hsSkNQeVR2aHpVX01wa0tnbUtiR044SEpReC1rRVEtd3B1U0pwNlNPMGRmWmpZTkJDNVNQU19ENjBLQ0xwRm1DQmRMdXRLNk91TzJTV1lSNTVfNEQ5V19uTi1jQXhEenhR?oc=5
+summary: Voice AI startup Navana ai raises Rs 40 crore from Ronnie Screwvala, others The Economic Times
+first_seen: '2026-09-07T10:02:00Z'
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8wFBVV95cUxNRUZWUmdjRWhYb0FxekN3a0REZGdldG8xaHpVYm43VksxTVhtTEhpSFJBeUF0TGZ1dEl2emI4LUpNaHRjc2t6c3Z5Q0VCQ1FfM0djd0ZMSWJSdmRoeFJlRzdTVXFweUpCazQ1SG84RWtJSWljd1FMVTdDckxZV25oZDVBa3VXSGNLWFFmWTVKOUtrWGxKQ1B5VHZoelVfTXBrS2dtS2JHTjhISlF4LWtFUS13cHVTSnA2U08wZGZaallOQkM1U1BTX0Q2MEtDTHBGbUNCZEx1dEs2T3VPMlNXWVI1NV80RDlXX25OLWNBeER6eFHSAfMBQVVfeXFMTUVGVlJnY0VoWG9BcXpDd2tERGRnZXRvMWh6VWJuN1ZLMU1YbUxIaUhSQXlBdExmdXRJdnpiOC1KTWh0Y3NrenN2eUNFQkNRXzNHY3dGTEliUnZkaHhSZUc3U1VxcHlKQms0NUhvOEVrSUlpY3dRTFU3Q3JMWVduaGQ1QWt1V0hjS1hRZlk1SjlLa1hsSkNQeVR2aHpVX01wa0tnbUtiR044SEpReC1rRVEtd3B1U0pwNlNPMGRmWmpZTkJDNVNQU19ENjBLQ0xwRm1DQmRMdXRLNk91TzJTV1lSNTVfNEQ5V19uTi1jQXhEenhR?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+---
+
+# Voice AI startup Navana ai raises Rs 40 crore from Ronnie Screwvala, others
+
+Voice AI startup Navana ai raises Rs 40 crore from Ronnie Screwvala, others The Economic Times
+
+## 笔记
+
+

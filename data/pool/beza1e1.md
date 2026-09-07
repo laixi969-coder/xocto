@@ -20,17 +20,17 @@ url: https://beza1e1.tuxen.de/ai_feelings.html
 canonical_url: https://beza1e1.tuxen.de/ai_feelings.html
 summary: I Feel about AI
 first_seen: '2026-09-06T15:00:19Z'
-last_seen: '2026-09-06T23:54:18Z'
-status: rejected
+last_seen: '2026-09-07T15:52:45Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://beza1e1.tuxen.de/ai_feelings.html
-  seen_at: '2026-09-06T23:54:18Z'
+  seen_at: '2026-09-07T15:52:45Z'
   metrics:
-    points: 150
-    comments: 241
+    points: 161
+    comments: 255
   kind: news
 ---
 

@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUdOVW55M0hXZVhjUmRXOT
 canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUdOVW55M0hXZVhjUmRXOTVhazBmY3pXMHRMQVJCaE1OcF9LYnhGNE0wSHJRa3dWaldwZVE0anEyc1l1X0R4djJQN25tWHNmZHJKTl9qVXlHSF9XZ1JodUZFenR6Rzl3Z1BWRUxyczV6M1ZUREZqRUNxb29Id1FJR2ZNOVJFZXo0?oc=5
 summary: 新华三入选AIIA智能体产业图谱等多项成果，锚定产业新坐标 Sohu
 first_seen: '2026-09-04T08:44:00Z'
-last_seen: '2026-09-04T14:24:01Z'
-status: market_context
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUdOVW55M0hXZVhjUmRXOTVhazBmY3pXMHRMQVJCaE1OcF9LYnhGNE0wSHJRa3dWaldwZVE0anEyc1l1X0R4djJQN25tWHNmZHJKTl9qVXlHSF9XZ1JodUZFenR6Rzl3Z1BWRUxyczV6M1ZUREZqRUNxb29Id1FJR2ZNOVJFZXo0?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1mek1LU2FMQjI3X2xOLXZKaXhoRW9ZQTJvQWtsZGcyMnlMeEJuZmM1clBpbVJWcWRKWHFyVTNjZjliNWRyb2sxS3pOckxnXzYxT1M0SjNENmpSX3RjQ193MkNqWWQwaDFUVjc2YTY0a01VclZ6dUhxMU12LXpiaVU?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
   metrics: {}
   kind: news
 ---

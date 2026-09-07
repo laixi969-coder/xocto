@@ -21,18 +21,26 @@ canonical_url: https://bsab.github.io/italia-mcp-servers
 summary: Catalogo curato dei server MCP (Model Context Protocol) italiani — dati pubblici, legal-tech,
   fatturazione, PA e altro.
 first_seen: '2026-09-01T10:22:02Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-07T15:52:49Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://bsab.github.io/italia-mcp-servers/
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    stars: 69
+    stars: 95
     forks: 1
-    open_issues: 0
+    open_issues: 4
+  kind: product
+- source: github
+  url: https://bsab.github.io/france-mcp-servers/
+  seen_at: '2026-09-07T15:52:49Z'
+  metrics:
+    stars: 79
+    forks: 0
+    open_issues: 3
   kind: product
 ---
 

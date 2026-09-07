@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNeFg5YWNPZ2tDRmxEUHVrRW
 canonical_url: https://news.google.com/rss/articles/CBMigwFBVV95cUxNeFg5YWNPZ2tDRmxEUHVrRW1lV1IyMUZjQ3hFVndvcnZMLUludl9IZllLdGJybUpQb18yZ0c2TEo2ZnhfbTNPNlEzbFc5bDdsckwwRkdRVmwyUkxZN3dzUlFjcXVBbkloVXlLWGRvMUdlRDhLRGVUcE9mR2FCamMyVkl4RQ?oc=5
 summary: 英伟达确认Vera Rubin量产，联想集团AI基建迎来交付窗口 新浪网
 first_seen: '2026-08-27T08:34:40Z'
-last_seen: '2026-09-06T23:54:47Z'
-status: market_context
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -40,6 +40,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhVlZMcTBqMlp3OHJMNFFndVZwaE9qUGpfNllHelc1RDdfNmJWMl9ZdFlBbGxkZ0FKTDJWSnZheHo3NEhKMEJhX0Z3bw?oc=5
   seen_at: '2026-09-06T23:54:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE8ycjBzQVJsNk9CaGtDVTI3V292ekRKWFpMOWJSTFpYYVBRekVVMWhLSVpJb2pDalhMb01DT0FtdUZObVU1aGZ5ZVluaWxjMzdn?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
   metrics: {}
   kind: news
 ---

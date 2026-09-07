@@ -30,16 +30,16 @@ url: https://www.reddit.com/r/OpenFlowAI/
 canonical_url: https://reddit.com/r/OpenFlowAI
 summary: OpenFlow — a visual builder for multi-agent AI workflows, built on the opencode engine
 first_seen: '2026-08-18T00:28:46Z'
-last_seen: '2026-09-06T23:54:21Z'
+last_seen: '2026-09-07T15:52:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://www.reddit.com/r/OpenFlowAI/
-  seen_at: '2026-09-06T23:54:21Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    stars: 95
+    stars: 96
     forks: 7
     open_issues: 0
   kind: product

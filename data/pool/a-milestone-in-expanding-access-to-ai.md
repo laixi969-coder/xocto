@@ -22,8 +22,8 @@ canonical_url: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
 summary: ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting
   broader access to AI through free and affordable options.
 first_seen: '2026-08-31T04:00:00Z'
-last_seen: '2026-09-06T23:54:47Z'
-status: market_context
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - officialfeeds
 - newssearch
@@ -152,10 +152,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
-  seen_at: '2026-09-06T23:54:18Z'
+  seen_at: '2026-09-07T15:52:45Z'
   metrics:
-    points: 45
-    comments: 44
+    points: 47
+    comments: 45
   kind: news
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qRXJ0QjItUG1TS3dCTkFCZnV1MWpKMmNYb0VEYXprV1BKNEJTR0hsRVVNMUlydUh0LU9DMjU1Q1JWcEg1SlBnRnJQb2VFNUNzR0VSalN6bGEzU1ZhWGt3c2hWX1luZw?oc=5
@@ -170,6 +170,31 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTFQyUDUtT0dnZl9kdlZYbFlaX0IxM3hHRjdCX2FOTE1aWDJoOU10NklqYngtWi1KUzl4WWdiTU1OWjEzTlhiMnlEVXI5UkRpYUt1X2VvNjExaXUzbzB0Z1BUNWJHRkxsWUZITlZRNFZCRjNzRGgtQ2MwXzhXb0k?oc=5
   seen_at: '2026-09-06T23:54:47Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/supporting-independent-journalism-in-ukraine
+  seen_at: '2026-09-07T15:53:15Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxOUmNlTHlmWmwxTDJpemZZX0NrSTQyN093RmRBcmVhd215c3BNZHd6M2pLNUxHNzlZal84TGJtdmpYREhpbnZ5NTJlY1ZWTnRHM19sX0FVV0VCRlF3bTlrbzRRaklJaXRWUGw5cDl1YmcwZXVGd09QMEx0MFRLLTA5WnNSZlFBMmlUY3pqbldMeXhHY3ZPN3hfS0ZuVk1SSHVwdkJTRGhBQnducE01TWp3R1ZQLWJhVWxvTTd1bkpna1NXaGFJNU5weGFOaw?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiRkFVX3lxTE9EVmVzbzVxOGVxenVMcHVFc0JDamZyQ0tLYUhLaGFadERQN3FfWkRIZFVlWDAtSnJfWnBLSk9QTThyMG42M0E?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYklXb0JWN0l0cjdZdW5WN2dzSGk1NTVuSG9NNVFTcDNKQnRYT3BzajJCSmk1bE5KbnA2YTRBNm15MDJkZy1fOGJHbTJkQzNQc0tsZnhyeFhfQXRySkxGUE1vd0FldGRucFVEd3pRZG15WWtHZU1mNS1YUGhTLXpKeHZ1WDNRSVhz?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5QLWZaZ2dMVWFLLS1qUl9TT0VSd0F4TXBnYUVfYVF3OW5ja3lualRFeUNNTlVEZGZFRkQ0VFcxbzNzUFYzbEVUNg?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
   metrics: {}
   kind: news
 ---

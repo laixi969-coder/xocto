@@ -1,0 +1,19 @@
+- id: ev-05732a0d24a7d645
+  project_slug: 判断用不用你的软件agent-只需-500-个-token
+  url: http://www.geekpark.net/news/369960
+  title: 判断用不用你的软件，Agent 只需 500 个 Token
+  published_at: '2026-09-07T10:32:48Z'
+  collected_at: '2026-09-07T15:53:16Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "作者｜宇航猿  \n  编辑｜靖宇  \n   \n 现在几乎每个开发者都在用 AI Agent 干活。Cursor、Claude Code、Windsurf、Gemini CLI，各种\
+    \ Coding Agent 已经深度嵌入了日常工作流。一个普遍的体验是，让 Agent 去调某些 API 或者集成某个服务，有些丝滑得像开了挂，有些则反复报错，甚至直接编造出一个根本不存在的接口。\
+    \ \n 大多数人把这归结为： \n 「  模型还不够聪明  」。 \n 但如果反过来想，  不是 Agent 不够聪明，而是有些产品天然对 Agent 友好，有些则天然对 Agent 充满敌意\
+    \  。 \n 这像极了十几年前的 SEO。你觉得自己的网站内容很好，但 Google 就是不收录，问题不在 Google 的算法，而在于你的网站没有做搜索引擎优化。 \n 今天同样的事情正在 Agent\
+    \ 身上重演，只不过这一次，大多数产品甚至不知道自己正在被「审判」。 \n Google Cloud AI 工程总监 Addy Osmani 今年 4 月给这件事起了一个名字，叫 AEO（Agentic\
+    \ Engine Optimization），翻译过来就是： \n 「  Agent 引擎优化  」。 \n  如果说 SEO 是为 Google 爬虫优化，AEO 就是为 AI Agent 优化。\
+    \  这不是一个遥远的概念，而是一套已经可以落地的具体实践。在 Agent 正在成为软件产品最重要的「用户」的今天，到底什么样的设计，能让 Agent 更方便使用，可能决定了未来软件行业的真正走向。\
+    \ \n  01  \n  Agent 怎么读文档？  \n 下面是一个用户非常日常的场景。 \n 一个工程师打开 Cursor，让 Agent 帮他接入一个支付 API。Agent 发出了一个\
+    \ HTTP 请求，拿到了文档页面，400 毫秒后做出了判断。但这份文档有将近 20 万个 Token，远远超出了 Agent 的上下文窗口容量。Agent 没有报错，没有提示，而是默默放弃了这份文档，转而根据自己训练数据里的记忆，编造了一个接入方案。\
+    \ \n 结果呢？用户拿到了一段看起来很合理的代码，跑起来却怎么都不通，花了两个小时 debug 才发现 Agent 给的是一个早就废弃的 endpoint。 \n 而在这家支付公司的 Google\
+    \ Analytics 后台，"

@@ -30,8 +30,8 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-05T13:28:21Z'
-status: rejected
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -102,6 +102,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQSnlHVXNHUnVQd1lXWUhzVnRub2RVZzVRQzRQWmc0NUFQZmVvR3RzNklEazRfWkJ1XzdNcDlncnNCQkZGYWczVE5EY2UybmlGTHFGZGJGOFdKRXYzQ3VBLUlhREg5aXd4c0NaMmc3SzVQWnlLU0Vfa3BZVFNtMVBTV0M2N1EzNy1vbUZvSm9FMmZ3eG9reUdRUWxZb3RRS2s2TmZhMUNRNEthbFBmU0tXazlsbXRId3FicDUxYTJHNWIzbXhOcHFBU3pNQXR1Tkk?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPdFFmdS1QdzFQZHlxTTJsT3QyNldGejJmNGx5Vi1HcVlwZ1J1ZW5SZTlLaGhmZW9SaDNkdk9MTDlXS0RIWS1PWWg1THVtVmExc3NacjgwNjVHZWNadnhFemhvakU3RTNzS1pncFNReExSNVl1V0ZYQTVveC1hS1YwUm80UUNVaU42QUE?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQel9TbTFBeUxDVDc4SEo1aUVnZFI1QzE1NjBwN3RTUjJzTHIxeVB1NFU0Q2dhekZBcVJla1BaUlBmcHp6T1Zucl9vRFpsSHZzM0xBY3ZFNUpwSmF2RFRSOTViSWFua2lfbTNGaHprVS10dkVYQllnLXRKSzM3MDZpeVN6czlzR3kw?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
   metrics: {}
   kind: news
 ---

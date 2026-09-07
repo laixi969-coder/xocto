@@ -22,17 +22,17 @@ url: https://albertapolitics.ca/2026/09/ucp-slaps-punitive-tax-on-solar-panels-o
 canonical_url: https://albertapolitics.ca/2026/09/ucp-slaps-punitive-tax-on-solar-panels-opening-new-front-in-its-war-on-renewable-energy
 summary: Alberta (Canada) slaps punitive tax on solar panels
 first_seen: '2026-09-06T15:14:06Z'
-last_seen: '2026-09-06T23:54:18Z'
-status: market_context
+last_seen: '2026-09-07T15:52:45Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://albertapolitics.ca/2026/09/ucp-slaps-punitive-tax-on-solar-panels-opening-new-front-in-its-war-on-renewable-energy/
-  seen_at: '2026-09-06T23:54:18Z'
+  seen_at: '2026-09-07T15:52:45Z'
   metrics:
-    points: 61
-    comments: 67
+    points: 63
+    comments: 75
   kind: news
 ---
 

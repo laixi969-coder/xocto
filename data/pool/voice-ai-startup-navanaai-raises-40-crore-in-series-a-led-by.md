@@ -1,0 +1,41 @@
+---
+slug: voice-ai-startup-navanaai-raises-40-crore-in-series-a-led-by
+name: Voice AI startup Navana.ai raises ₹40 crore in Series A led by Ronnie Screwvala
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZ0JiR3ZTbjMzVVlRZm9qbkhxRVgxTENSYTFkSXFqUm4yV3RRWFFvcm5pU3UyY2d5X01WOGRUZGFqcFYxbTZvYjV1R25FY3lwVGU2emhudGZjQ1lFMllUZ1ctb0FzRWs3dldKVVdFNGQ5enZzSFBDdWh1ZF8xbU9KNGdpRHlhT1RWQXYwN3oyY28zMTZVSzlkQThHV2pOcHFuWGhrZGNSRVhFSHV6eWt4aFdLWUtNYlVLRXVxWHdTZm9NUjFGUFlaM2RCaVlobk9pVWl0My1FRHFTby1ocDNhZ0hUR25DNzR0LWJJ0gHrAUFVX3lxTE5nQmJHdlNuMzNVWVFmb2puSHFFWDFMQ1JhMWRJcWpSbjJXdFFYUW9ybmlTdTJjZ3lfTVY4ZFRkYWpwVjFtNm9iNXVHbkVjeXBUZTZ6aG50ZmNDWUUyWVRnVy1vQXNFazd2V0pVV0U0ZDl6dnNIUEN1aHVkXzFtT0o0Z2lEeWFPVFZBdjA3ejJjbzMxNlVLOWRBOEdXak5wcW5YaGtkY1JFWEVIdXp5a3hoV0tZS01iVUtFdXFYd1Nmb01SMUZQWVozZEJpWWhuT2lVaXQzLUVEcVNvLWhwM2FnSFRHbkM3NHQtYkk?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZ0JiR3ZTbjMzVVlRZm9qbkhxRVgxTENSYTFkSXFqUm4yV3RRWFFvcm5pU3UyY2d5X01WOGRUZGFqcFYxbTZvYjV1R25FY3lwVGU2emhudGZjQ1lFMllUZ1ctb0FzRWs3dldKVVdFNGQ5enZzSFBDdWh1ZF8xbU9KNGdpRHlhT1RWQXYwN3oyY28zMTZVSzlkQThHV2pOcHFuWGhrZGNSRVhFSHV6eWt4aFdLWUtNYlVLRXVxWHdTZm9NUjFGUFlaM2RCaVlobk9pVWl0My1FRHFTby1ocDNhZ0hUR25DNzR0LWJJ0gHrAUFVX3lxTE5nQmJHdlNuMzNVWVFmb2puSHFFWDFMQ1JhMWRJcWpSbjJXdFFYUW9ybmlTdTJjZ3lfTVY4ZFRkYWpwVjFtNm9iNXVHbkVjeXBUZTZ6aG50ZmNDWUUyWVRnVy1vQXNFazd2V0pVV0U0ZDl6dnNIUEN1aHVkXzFtT0o0Z2lEeWFPVFZBdjA3ejJjbzMxNlVLOWRBOEdXak5wcW5YaGtkY1JFWEVIdXp5a3hoV0tZS01iVUtFdXFYd1Nmb01SMUZQWVozZEJpWWhuT2lVaXQzLUVEcVNvLWhwM2FnSFRHbkM3NHQtYkk?oc=5
+summary: Voice AI startup Navana.ai raises ₹40 crore in Series A led by Ronnie Screwvala ET Entrepreneur
+first_seen: '2026-09-07T11:16:34Z'
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZ0JiR3ZTbjMzVVlRZm9qbkhxRVgxTENSYTFkSXFqUm4yV3RRWFFvcm5pU3UyY2d5X01WOGRUZGFqcFYxbTZvYjV1R25FY3lwVGU2emhudGZjQ1lFMllUZ1ctb0FzRWs3dldKVVdFNGQ5enZzSFBDdWh1ZF8xbU9KNGdpRHlhT1RWQXYwN3oyY28zMTZVSzlkQThHV2pOcHFuWGhrZGNSRVhFSHV6eWt4aFdLWUtNYlVLRXVxWHdTZm9NUjFGUFlaM2RCaVlobk9pVWl0My1FRHFTby1ocDNhZ0hUR25DNzR0LWJJ0gHrAUFVX3lxTE5nQmJHdlNuMzNVWVFmb2puSHFFWDFMQ1JhMWRJcWpSbjJXdFFYUW9ybmlTdTJjZ3lfTVY4ZFRkYWpwVjFtNm9iNXVHbkVjeXBUZTZ6aG50ZmNDWUUyWVRnVy1vQXNFazd2V0pVV0U0ZDl6dnNIUEN1aHVkXzFtT0o0Z2lEeWFPVFZBdjA3ejJjbzMxNlVLOWRBOEdXak5wcW5YaGtkY1JFWEVIdXp5a3hoV0tZS01iVUtFdXFYd1Nmb01SMUZQWVozZEJpWWhuT2lVaXQzLUVEcVNvLWhwM2FnSFRHbkM3NHQtYkk?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+---
+
+# Voice AI startup Navana.ai raises ₹40 crore in Series A led by Ronnie Screwvala
+
+Voice AI startup Navana.ai raises ₹40 crore in Series A led by Ronnie Screwvala ET Entrepreneur
+
+## 笔记
+
+
