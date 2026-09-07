@@ -68,7 +68,7 @@
   --maxw: 1480px;
 
   /* Desk alignment: fixed label/name columns (never fluid minmax for these) */
-  --desk-label: 7.5rem; /* longest zh field-k e.g. 机会判断 / 本期为什么值得点开 */
+  --desk-label: 7.5rem; /* longest zh field-k e.g. 机会判断 / 本期关注理由 */
   --desk-name: 11rem;   /* takeaways/product list name col */
   --desk-filter-k: 9.5rem;
   --reading: 74ch;

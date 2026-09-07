@@ -138,27 +138,6 @@
   </section>
   {% endif %}
 
-  {% if past_reports %}
-  <section class="band desk-band" id="past-calls">
-    <div class="sec-head desk-sec">
-      <div>
-        {% set ns.sec = ns.sec + 1 %}
-        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
-        <h2>{{ t.home.past_reports }}</h2>
-      </div>
-      <span class="note">{{ t.home.past_reports_note }}</span>
-    </div>
-    <div class="obs desk-obs">
-      {% for r in past_reports[:4] %}
-      <a class="obs-item desk-obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
-        <div class="obs-day num">{{ r.day }}</div>
-        <p class="obs-hook">{{ (r.hook or t.home.report_fallback) | md_inline }}</p>
-      </a>
-      {% endfor %}
-    </div>
-  </section>
-  {% endif %}
-
   {% if proven_businesses %}
   <section class="band desk-band" id="proven-businesses">
     <div class="sec-head desk-sec">
@@ -207,6 +186,27 @@
           </div>
         </div>
       </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if past_reports %}
+  <section class="band desk-band" id="past-calls">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.past_reports }}</h2>
+      </div>
+      <span class="note">{{ t.home.past_reports_note }}</span>
+    </div>
+    <div class="obs desk-obs">
+      {% for r in past_reports[:4] %}
+      <a class="obs-item desk-obs-item" href="{{ root }}r/{{ r.day }}.html" style="--i: {{ loop.index0 }}">
+        <div class="obs-day num">{{ r.day }}</div>
+        <p class="obs-hook">{{ (r.hook or t.home.report_fallback) | md_inline }}</p>
+      </a>
       {% endfor %}
     </div>
   </section>
