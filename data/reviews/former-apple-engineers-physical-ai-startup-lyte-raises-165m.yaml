@@ -28,14 +28,17 @@
   next_validation: 查找 Lyte 的官方产品页面或客户案例，确认其技术应用场景和商业进展。
   market: ''
   job: 机器人需要感知和理解周围环境以执行自主任务。
-  job_en: Robots need to perceive and understand their surroundings to perform autonomous tasks.
+  job_en: Robots need to perceive and understand their surroundings to perform autonomous
+    tasks.
   pain: 现有感知技术成本高、精度不足，难以适应复杂环境。
-  pain_en: Existing perception technology is costly and imprecise, struggling in complex environments.
+  pain_en: Existing perception technology is costly and imprecise, struggling in complex
+    environments.
   current_alternative: 许多机器人依赖昂贵的激光雷达或预编程路径，缺乏灵活性。
-  current_alternative_en: Many robots rely on expensive LiDAR or pre-programmed paths, lacking flexibility.
+  current_alternative_en: Many robots rely on expensive LiDAR or pre-programmed paths,
+    lacking flexibility.
   usage_reason: Lyte 的技术可能提供更便宜、更灵活的感知方案，使机器人能适应动态环境。
-  usage_reason_en: Lyte's technology may offer cheaper, more flexible perception, enabling robots to adapt
-    to dynamic environments.
+  usage_reason_en: Lyte's technology may offer cheaper, more flexible perception,
+    enabling robots to adapt to dynamic environments.
 - id: req-full-former-apple-engineers-physical-ai-startup-lyte-raises-165m-2026-09-05
   project_slug: former-apple-engineers-physical-ai-startup-lyte-raises-165m
   level: full
@@ -65,20 +68,24 @@
     reason: 产品直指物理 AI 第一性目标——让机器人在真实环境中可靠感知并自主行动，任务贴合度高；但实时感知的确定性交付、安全边界与失效模式缺少公开基准、部署文档或第三方评测，兑现程度未知。
     evidence_ids:
     - ev-f5183d4910b958e6
-  next_validation: 追踪 Lyte 官网与后续 Crunchbase News/行业报道中的客户案例、合作伙伴公告或部署文档，确认首个披露客户、技术规格与商业化路径（定价或授权模式）。
+  next_validation: 追踪 Lyte 官网与后续 公开资料/行业报道中的客户案例、合作伙伴公告或部署文档，确认首个披露客户、技术规格与商业化路径（定价或授权模式）。
   market: ''
   job: 机器人（尤其在制造与物流场景）需要实时感知并理解周围环境——物体识别、定位与导航——才能执行自主作业。
-  job_en: Robots (especially in manufacturing and logistics) need to perceive and understand their surroundings
-    in real time—object recognition, localization, and navigation—to perform autonomous tasks.
+  job_en: Robots (especially in manufacturing and logistics) need to perceive and
+    understand their surroundings in real time—object recognition, localization, and
+    navigation—to perform autonomous tasks.
   pain: 自建感知栈成本高、开发慢；依赖预编程路径的机器人难以适应动态环境，自主化被卡在环境理解这一环。此为行业结构推断，用户侧抱怨或行为证据尚未核验。
-  pain_en: Building perception stacks in-house is costly and slow; robots on pre-programmed paths struggle
-    in dynamic environments, so autonomy stalls at environment understanding. This pain is a structural
-    industry inference; user-side complaints or behavior are not yet verified.
+  pain_en: Building perception stacks in-house is costly and slow; robots on pre-programmed
+    paths struggle in dynamic environments, so autonomy stalls at environment understanding.
+    This pain is a structural industry inference; user-side complaints or behavior
+    are not yet verified.
   current_alternative: 机器人厂商自研感知方案（激光雷达、SLAM、定制视觉），或把机器人限制在固定路线与受控工位内运行。
-  current_alternative_en: Robot makers build their own perception stacks (LiDAR, SLAM, custom vision)
-    or confine robots to fixed routes and controlled stations.
-  usage_reason: 若 Lyte 的传感与感知技术能以更低成本、更强泛化交付实时环境理解，机器人厂商与自动化团队有理由采用；当前关注主要由 1.65 亿美元 C 轮融资与前 Apple 工程师背景解释，属资本信号，尚不能当作付费或留存证据。
-  usage_reason_en: If Lyte's sensing and perception tech delivers real-time environment understanding
-    more cheaply and robustly than in-house stacks, robot OEMs and automation teams have a reason to adopt;
-    current attention is mainly explained by the $165M Series C and the ex-Apple pedigree—a capital signal,
-    not yet evidence of payment or retention.
+  current_alternative_en: Robot makers build their own perception stacks (LiDAR, SLAM,
+    custom vision) or confine robots to fixed routes and controlled stations.
+  usage_reason: 若 Lyte 的传感与感知技术能以更低成本、更强泛化交付实时环境理解，机器人厂商与自动化团队有理由采用；当前关注主要由 1.65 亿美元
+    C 轮融资与前 Apple 工程师背景解释，属资本信号，尚不能当作付费或留存证据。
+  usage_reason_en: If Lyte's sensing and perception tech delivers real-time environment
+    understanding more cheaply and robustly than in-house stacks, robot OEMs and automation
+    teams have a reason to adopt; current attention is mainly explained by the $165M
+    Series C and the ex-Apple pedigree—a capital signal, not yet evidence of payment
+    or retention.

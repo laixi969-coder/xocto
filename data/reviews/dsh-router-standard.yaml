@@ -30,14 +30,14 @@
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-router-standard-2026-08-24
   project_slug: dsh-router-standard
   level: full
@@ -67,14 +67,14 @@
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-router-standard-2026-08-25
   project_slug: dsh-router-standard
   level: initial
@@ -84,8 +84,8 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react 三种行为模式间切换，并注入
-      persona 和首轮工具。交付的”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react
+      三种行为模式间切换，并注入 persona 和首轮工具。交付的”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
     evidence_ids:
     - ev-46f84566fc481282
   - gate: consensus
@@ -106,14 +106,14 @@
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-router-standard-2026-08-25
   project_slug: dsh-router-standard
   level: full
@@ -138,19 +138,19 @@
     status: insufficient
     reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 追踪 GitHub 仓库的 issue 与 discussion，确认开发者实际部署场景与替代的旧流程。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 与 discussion，确认开发者实际部署场景与替代的旧流程。
   market: ''
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-router-standard-2026-08-26
   project_slug: dsh-router-standard
   level: initial
@@ -160,8 +160,8 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react 三种行为模式间切换，并注入
-      persona 和首轮工具。交付的”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react
+      三种行为模式间切换，并注入 persona 和首轮工具。交付的”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
     evidence_ids:
     - ev-173cc79f95440c52
   - gate: consensus
@@ -182,14 +182,14 @@
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-router-standard-2026-08-26
   project_slug: dsh-router-standard
   level: full
@@ -214,19 +214,19 @@
     status: insufficient
     reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 追踪GitHub仓库的README、issue和discussion，寻找用户部署案例或使用场景描述。
+  next_validation: 追踪公开代码仓库仓库的README、issue和discussion，寻找用户部署案例或使用场景描述。
   market: ''
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-router-standard-2026-08-27
   project_slug: dsh-router-standard
   level: initial
@@ -236,8 +236,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react 三种行为模式间切换，并注入 persona
-      和首轮工具”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react
+      三种行为模式间切换，并注入 persona 和首轮工具”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-a8a88e3c52bc434f
   - gate: consensus
@@ -258,14 +258,14 @@
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-router-standard-2026-08-27
   project_slug: dsh-router-standard
   level: full
@@ -296,14 +296,14 @@
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-router-standard-2026-08-28
   project_slug: dsh-router-standard
   level: initial
@@ -313,8 +313,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react 三种行为模式间切换，并注入 persona
-      和首轮工具”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“为 DeepSeek Harness 提供任务感知的推理模式路由器，根据任务类型在 spec、mixed、react
+      三种行为模式间切换，并注入 persona 和首轮工具”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-53e1a25e21c02ff5
   - gate: consensus
@@ -335,14 +335,14 @@
   job: AI 代理开发者、机器学习工程师
   job_en: AI Agent Developer, Machine Learning Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 369 个收藏、35 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 369 stars and 35 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-router-standard-2026-08-29
   project_slug: dsh-router-standard
   level: full
@@ -368,19 +368,20 @@
     status: insufficient
     reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
     evidence_ids: []
-  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认用户实际使用场景和反馈。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 和 discussion，确认用户实际使用场景和反馈。
   market: ''
   job: AI 代理开发者、机器学习工程师需要根据任务类型调整代理的推理模式。
-  job_en: AI agent developers and ML engineers need to adjust agent reasoning modes based on task type.
+  job_en: AI agent developers and ML engineers need to adjust agent reasoning modes
+    based on task type.
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 368 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 368 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 368 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-full-dsh-router-standard-2026-08-30
   project_slug: dsh-router-standard
   level: full
@@ -408,17 +409,17 @@
     reason: 产品功能描述明确，但实际路由效果和稳定性缺乏公开实测证据。
     evidence_ids:
     - ev-1548c85a5e717b37
-  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 和 discussion，寻找用户反馈和实际使用案例。
   market: ''
   job: AI 代理开发者需要根据任务类型自动选择推理模式，以优化代理行为。
-  job_en: AI agent developers need to automatically select reasoning modes based on task type to optimize
-    agent behavior.
+  job_en: AI agent developers need to automatically select reasoning modes based on
+    task type to optimize agent behavior.
   pain: 手动调整推理模式耗时且不精确，影响代理性能和任务成功率。
-  pain_en: Manually adjusting reasoning modes is time-consuming and imprecise, affecting agent performance
-    and task success.
+  pain_en: Manually adjusting reasoning modes is time-consuming and imprecise, affecting
+    agent performance and task success.
   current_alternative: 开发者可能依赖默认设置或手动切换模式，缺乏系统化的路由策略。
-  current_alternative_en: Developers may rely on default settings or manually switch modes, lacking systematic
-    routing strategies.
+  current_alternative_en: Developers may rely on default settings or manually switch
+    modes, lacking systematic routing strategies.
   usage_reason: 仓库获得 365-368 个星标和 35 个复刻，显示开发者社区关注，但持续使用和付费尚未核验。
-  usage_reason_en: The repository has 365-368 stars and 35 forks, showing developer attention, but sustained
-    use and payment are not yet verified.
+  usage_reason_en: The repository has 365-368 stars and 35 forks, showing developer
+    attention, but sustained use and payment are not yet verified.

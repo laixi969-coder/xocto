@@ -7,8 +7,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“🖥️ Agent-project workbench for DeepSeek Harness — sidebar app drawer + dockable
-      split work”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“🖥️ Agent-project workbench for DeepSeek Harness — sidebar
+      app drawer + dockable split work”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-244cb2e9155cf3ef
   - gate: consensus
@@ -29,14 +29,14 @@
   job: DeepSeek Harness 用户、开发者
   job_en: DeepSeek Harness users, Developers
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 353 个收藏、47 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 353 stars and 47 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 353 stars and 47 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-worktable-2026-08-29
   project_slug: dsh-worktable
   level: initial
@@ -67,9 +67,11 @@
   next_validation: 关注星标增长和用户 issue 反馈。
   market: ''
   job: DeepSeek Harness 用户需要管理多个代理项目，监控其状态。
-  job_en: DeepSeek Harness users need to manage multiple agent projects and monitor their status.
+  job_en: DeepSeek Harness users need to manage multiple agent projects and monitor
+    their status.
   pain: 缺乏统一界面管理多个项目，难以实时监控。
-  pain_en: Lack of a unified interface to manage multiple projects, making real-time monitoring difficult.
+  pain_en: Lack of a unified interface to manage multiple projects, making real-time
+    monitoring difficult.
   current_alternative: 使用终端或单独窗口管理。
   current_alternative_en: Using terminal or separate windows.
   usage_reason: 339 个星标，表明有一定关注，但采用证据有限。
@@ -103,9 +105,11 @@
   next_validation: 关注星标增长和用户 issue 反馈。
   market: ''
   job: DeepSeek Harness 用户需要管理多个代理项目，监控其状态。
-  job_en: DeepSeek Harness users need to manage multiple agent projects and monitor their status.
+  job_en: DeepSeek Harness users need to manage multiple agent projects and monitor
+    their status.
   pain: 缺乏统一界面管理多个项目，难以实时监控。
-  pain_en: Lack of a unified interface to manage multiple projects, making real-time monitoring difficult.
+  pain_en: Lack of a unified interface to manage multiple projects, making real-time
+    monitoring difficult.
   current_alternative: 使用终端或单独窗口管理。
   current_alternative_en: Using terminal or separate windows.
   usage_reason: 339 个星标，表明有一定关注，但采用证据有限。
@@ -137,17 +141,19 @@
     reason: 交付确定性依赖 DSH 生态，人工边界未明确。
     evidence_ids:
     - ev-244cb2e9155cf3ef
-  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
   market: ''
   job: DeepSeek Harness 用户管理多个代理项目，监控其状态。
-  job_en: DeepSeek Harness users manage multiple agent projects and monitor their status.
+  job_en: DeepSeek Harness users manage multiple agent projects and monitor their
+    status.
   pain: 缺乏统一界面管理多个项目，难以实时监控。
-  pain_en: Lack of a unified interface to manage multiple projects, making real-time monitoring difficult.
+  pain_en: Lack of a unified interface to manage multiple projects, making real-time
+    monitoring difficult.
   current_alternative: 使用终端或单独窗口管理。
   current_alternative_en: Using terminal or separate windows.
   usage_reason: 357 个星标显示开发者关注，但持续使用和付费尚未核验。
-  usage_reason_en: 357 stars indicate developer interest, but sustained usage and payment are not yet
-    verified.
+  usage_reason_en: 357 stars indicate developer interest, but sustained usage and
+    payment are not yet verified.
 - id: req-full-dsh-worktable-2026-09-01
   project_slug: dsh-worktable
   level: full
@@ -177,12 +183,14 @@
   next_validation: 追踪仓库 issue 和 discussion，寻找用户对工作台体验、监控功能的反馈，以及是否有付费意愿的讨论。
   market: ''
   job: 管理多个代理项目，通过侧边栏应用抽屉、可停靠分割工作区和实时控制室监控每个项目。
-  job_en: Manage multiple agent projects with a sidebar app drawer, dockable split workspace, and live
-    control room to monitor each project.
+  job_en: Manage multiple agent projects with a sidebar app drawer, dockable split
+    workspace, and live control room to monitor each project.
   pain: 用户缺乏统一界面管理多个项目，难以实时监控状态。
-  pain_en: Users lack a unified interface to manage multiple projects, making real-time monitoring difficult.
+  pain_en: Users lack a unified interface to manage multiple projects, making real-time
+    monitoring difficult.
   current_alternative: 用户可能使用终端或单独窗口管理，但效率低且缺乏概览。
-  current_alternative_en: Users may use terminal or separate windows, which is inefficient and lacks overview.
+  current_alternative_en: Users may use terminal or separate windows, which is inefficient
+    and lacks overview.
   usage_reason: 仓库星标从 339 增长到 411，显示一定关注度，但持续使用和付费尚未核验。
-  usage_reason_en: The repository stars grew from 339 to 411, showing some interest, but sustained use
-    and payment are unverified.
+  usage_reason_en: The repository stars grew from 339 to 411, showing some interest,
+    but sustained use and payment are unverified.

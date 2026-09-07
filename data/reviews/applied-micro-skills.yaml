@@ -24,17 +24,17 @@
   next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
   job: 帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来
-  job_en: Helps applied economics researchers go from data and regressions to paper tables, and checks
-    that the numbers actually reproduce.
+  job_en: Helps applied economics researchers go from data and regressions to paper
+    tables, and checks that the numbers actually reproduce.
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 48 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 48 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 48 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-full-applied-micro-skills-2026-08-29
   project_slug: applied-micro-skills
   level: full
@@ -61,17 +61,18 @@
   next_validation: 查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
   job: 经济学研究者需要从数据获取、回归分析到生成论文表格，并确保结果可复现。
-  job_en: Economics researchers need to go from data acquisition and regression analysis to generating
-    paper tables, ensuring results are reproducible.
+  job_en: Economics researchers need to go from data acquisition and regression analysis
+    to generating paper tables, ensuring results are reproducible.
   pain: 公开材料未说明不解决的代价、频率或后果；但研究过程中数据清洗和结果复现通常耗时且易出错。
-  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
-    however, data cleaning and result reproduction in research are typically time-consuming and error-prone.
+  pain_en: Public materials do not specify the cost, frequency, or consequences of
+    leaving it unsolved; however, data cleaning and result reproduction in research
+    are typically time-consuming and error-prone.
   current_alternative: 公开材料未说明当前替代方式；常见替代是使用 Stata、R 等统计软件手动完成。
-  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
-    using statistical software like Stata or R manually.
+  current_alternative_en: Public materials do not describe current alternatives; common
+    alternatives include using statistical software like Stata or R manually.
   usage_reason: 仓库有 48 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
-  usage_reason_en: The repository has 48 stars, indicating developer attention or trial; sustained use
-    and payment are not yet verified.
+  usage_reason_en: The repository has 48 stars, indicating developer attention or
+    trial; sustained use and payment are not yet verified.
 - id: req-full-applied-micro-skills-2026-08-30
   project_slug: applied-micro-skills
   level: full
@@ -98,17 +99,17 @@
   next_validation: 查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
   market: ''
   job: 帮经济学研究者从拿数据、做回归到出论文表，并把数字复现出来
-  job_en: Helps applied economics researchers go from data and regressions to paper tables, and checks
-    that the numbers actually reproduce.
+  job_en: Helps applied economics researchers go from data and regressions to paper
+    tables, and checks that the numbers actually reproduce.
   pain: 公开材料未说明不解决的具体代价、发生频率或后果，痛点强度未核验。
-  pain_en: Public materials do not show the cost, frequency, or consequence of leaving it unsolved; pain
-    intensity unverified.
+  pain_en: Public materials do not show the cost, frequency, or consequence of leaving
+    it unsolved; pain intensity unverified.
   current_alternative: 公开材料未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not show how users complete this job
+    today or what they replace.
   usage_reason: 公开代码仓库有 48 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 48 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 48 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-full-applied-micro-skills-2026-09-01
   project_slug: applied-micro-skills
   level: full
@@ -132,20 +133,20 @@
     status: insufficient
     reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 查找该项目的 GitHub 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。
+  next_validation: 查找该项目的 公开代码仓库 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。
   market: ''
   job: 经济学研究者需要从数据获取、回归分析到生成论文表格，并确保结果可复现。
-  job_en: Economics researchers need to go from data acquisition and regression analysis to generating
-    paper tables, and ensure results are reproducible.
+  job_en: Economics researchers need to go from data acquisition and regression analysis
+    to generating paper tables, and ensure results are reproducible.
   pain: 研究过程耗时且容易出错，但公开材料未说明具体痛点强度或不采用代价。
-  pain_en: The research process is time-consuming and error-prone, but public materials do not specify
-    the pain intensity or cost of not using it.
+  pain_en: The research process is time-consuming and error-prone, but public materials
+    do not specify the pain intensity or cost of not using it.
   current_alternative: 公开材料未说明用户当前如何完成这些任务，可能使用 Stata 或手动操作，但尚未核验。
-  current_alternative_en: Public materials do not show how users currently complete these tasks; they
-    may use Stata or manual operations, but this is unverified.
+  current_alternative_en: Public materials do not show how users currently complete
+    these tasks; they may use Stata or manual operations, but this is unverified.
   usage_reason: 仓库有 48 个收藏，说明开发者关注，但持续使用和付费尚未核验。
-  usage_reason_en: The repository has 48 stars, showing developer attention, but sustained use and payment
-    are unverified.
+  usage_reason_en: The repository has 48 stars, showing developer attention, but sustained
+    use and payment are unverified.
 - id: req-full-applied-micro-skills-2026-09-05
   project_slug: applied-micro-skills
   level: full
@@ -172,15 +173,19 @@
   next_validation: 查找官方文档或仓库中的使用案例、用户评价或复现测试结果，以验证交付可靠性。
   market: ''
   job: 帮助应用微观经济学研究者完成从数据获取、回归分析到生成论文表格的整个实证工作流，并确保结果可复现。
-  job_en: Helps applied microeconomics researchers complete the empirical workflow from data access and
-    regression analysis to producing publication-ready tables, with reproducible results.
+  job_en: Helps applied microeconomics researchers complete the empirical workflow
+    from data access and regression analysis to producing publication-ready tables,
+    with reproducible results.
   pain: 经济学实证研究中的复现性危机是公认问题，研究者常因代码或数据问题导致结果无法复现，耗费大量时间调试；公开材料尚未具体说明该产品针对的痛点强度与频率。
-  pain_en: The reproducibility crisis in empirical economics is well-documented; researchers often spend
-    excessive time debugging code or data issues that prevent replication. Public materials do not yet
-    specify the intensity and frequency of the pain this product addresses.
+  pain_en: The reproducibility crisis in empirical economics is well-documented; researchers
+    often spend excessive time debugging code or data issues that prevent replication.
+    Public materials do not yet specify the intensity and frequency of the pain this
+    product addresses.
   current_alternative: 目前研究者通常手动使用 Stata、R 或 Python 进行数据分析，并自行管理代码与数据版本，缺乏系统化的复现审计工具。
-  current_alternative_en: Currently, researchers typically use Stata, R, or Python manually for data analysis,
-    managing code and data versions themselves, lacking systematic reproducibility auditing tools.
+  current_alternative_en: Currently, researchers typically use Stata, R, or Python
+    manually for data analysis, managing code and data versions themselves, lacking
+    systematic reproducibility auditing tools.
   usage_reason: 公开代码仓库获得 48 个收藏，表明开发者社区关注该工具，可能因其针对真实痛点（复现性）而试用；持续使用与付费尚未核验。
-  usage_reason_en: The public repository has 48 stars, indicating developer community interest, possibly
-    due to addressing the real pain point of reproducibility; sustained use and payment are not yet verified.
+  usage_reason_en: The public repository has 48 stars, indicating developer community
+    interest, possibly due to addressing the real pain point of reproducibility; sustained
+    use and payment are not yet verified.

@@ -30,14 +30,14 @@
   job: 软件工程师、DevOps 工程师
   job_en: Software Engineer, DevOps Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 143 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 143 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 143 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-full-peerbridge-mcp-2026-08-26
   project_slug: peerbridge-mcp
   level: full
@@ -62,19 +62,19 @@
     status: insufficient
     reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 追踪 GitHub 仓库的 issue、discussion 和 release，寻找实际部署或企业采用案例。
+  next_validation: 追踪 公开代码仓库 仓库的 issue、discussion 和 release，寻找实际部署或企业采用案例。
   market: ''
   job: 软件工程师、DevOps 工程师
   job_en: Software Engineer, DevOps Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 143 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 143 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 143 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-initial-peerbridge-mcp-2026-08-28
   project_slug: peerbridge-mcp
   level: initial
@@ -105,14 +105,14 @@
   job: 软件工程师、DevOps 工程师
   job_en: Software Engineer, DevOps Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 143 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 143 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 143 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-full-peerbridge-mcp-2026-08-29
   project_slug: peerbridge-mcp
   level: full
@@ -138,19 +138,20 @@
     status: insufficient
     reason: 交付确定性未验证，缺少可复现的公开测试或文档。
     evidence_ids: []
-  next_validation: 追踪 peerbridge-mcp 的 GitHub 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
+  next_validation: 追踪 peerbridge-mcp 的 公开代码仓库 仓库 issue 和 discussion，寻找实际部署案例和用户反馈。
   market: ''
   job: 软件团队需要管理多代理编码工作流中的代码审查、证据记录和发布流程。
-  job_en: Software teams need to manage code review, evidence recording, and release workflows in multi-agent
-    coding.
+  job_en: Software teams need to manage code review, evidence recording, and release
+    workflows in multi-agent coding.
   pain: 多代理编码缺乏统一治理，审计困难，发布流程不透明。
-  pain_en: Multi-agent coding lacks unified governance, making auditing difficult and release processes
-    opaque.
+  pain_en: Multi-agent coding lacks unified governance, making auditing difficult
+    and release processes opaque.
   current_alternative: 目前团队可能使用分散的工具和手动流程，但缺乏集成和可审计性。
-  current_alternative_en: Currently, teams may use scattered tools and manual processes, lacking integration
-    and auditability.
+  current_alternative_en: Currently, teams may use scattered tools and manual processes,
+    lacking integration and auditability.
   usage_reason: 仓库 150 星显示关注；但采用和付费未核验。
-  usage_reason_en: The repository's 150 stars show interest; adoption and payment are not verified.
+  usage_reason_en: The repository's 150 stars show interest; adoption and payment
+    are not verified.
 - id: req-full-peerbridge-mcp-2026-08-30
   project_slug: peerbridge-mcp
   level: full
@@ -180,17 +181,18 @@
   next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
   job: 软件团队需要管理多代理编码工作流，确保代码审查、证据记录和发布流程可审计。
-  job_en: Software teams need to manage multi-agent coding workflows, ensuring auditable code review,
-    evidence, and release processes.
+  job_en: Software teams need to manage multi-agent coding workflows, ensuring auditable
+    code review, evidence, and release processes.
   pain: 多代理协作缺乏统一治理，审计困难，流程不透明。
-  pain_en: Multi-agent collaboration lacks unified governance, making auditing difficult and processes
-    opaque.
+  pain_en: Multi-agent collaboration lacks unified governance, making auditing difficult
+    and processes opaque.
   current_alternative: 团队可能使用分散的工具和手动记录，缺乏统一适配层。
-  current_alternative_en: Teams may use scattered tools and manual logging, lacking a unified adapter
-    layer.
+  current_alternative_en: Teams may use scattered tools and manual logging, lacking
+    a unified adapter layer.
   usage_reason: 开源仓库星标从 150 增长到 156，显示开发者对治理层的兴趣，但持续使用和付费未核验。
-  usage_reason_en: The open-source repository stars grew from 150 to 156, showing developer interest in
-    governance layers, but sustained usage and payment are not verified.
+  usage_reason_en: The open-source repository stars grew from 150 to 156, showing
+    developer interest in governance layers, but sustained usage and payment are not
+    verified.
 - id: req-full-peerbridge-mcp-2026-09-01
   project_slug: peerbridge-mcp
   level: full
@@ -221,14 +223,14 @@
   job: 软件工程师、DevOps 工程师
   job_en: Software Engineer, DevOps Engineer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 143 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 143 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 143 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-full-peerbridge-mcp-2026-09-05
   project_slug: peerbridge-mcp
   level: full
@@ -238,8 +240,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 需求与痛点：多 AI 代理并行写码时改动快、留证难，人工审查与合规追溯跟不上，不解决则变更无法追责、发布缺证据。这是基于仓库描述的工作流结构推理：旧替代是人工 PR 审查加 git
-      历史，本地拦截代理操作并生成审计记录的交付路径可确定。买方未确认属模式关缺口，不否定需求。
+    reason: 需求与痛点：多 AI 代理并行写码时改动快、留证难，人工审查与合规追溯跟不上，不解决则变更无法追责、发布缺证据。这是基于仓库描述的工作流结构推理：旧替代是人工
+      PR 审查加 git 历史，本地拦截代理操作并生成审计记录的交付路径可确定。买方未确认属模式关缺口，不否定需求。
     evidence_ids:
     - ev-5b1cd82c55ac01c5
     - ev-b9c8c5c033516e9e
@@ -260,18 +262,19 @@
     evidence_ids:
     - ev-5b1cd82c55ac01c5
     - ev-b9c8c5c033516e9e
-  next_validation: 追踪该 GitHub 仓库 README 与部署文档更新及 issues/discussions，核实实际部署场景、被替代的旧流程与审计日志的交付方式。
+  next_validation: 追踪该 公开代码仓库 仓库 README 与部署文档更新及 issues/discussions，核实实际部署场景、被替代的旧流程与审计日志的交付方式。
   market: ''
   job: 工程团队在多个 AI 编码代理并行写代码的工作流中，完成代码审查、留证与可审计发布。
-  job_en: Engineering teams need to review, evidence, and release code changes produced by multiple parallel
-    AI coding agents with an audit trail.
+  job_en: Engineering teams need to review, evidence, and release code changes produced
+    by multiple parallel AI coding agents with an audit trail.
   pain: 代理改动产生速度快于人工追踪能力，变更缺统一审计与审批记录，出问题时难以追责，合规侧也拿不到发布证据。
-  pain_en: Agents generate changes faster than humans can track; without unified audit and approval records,
-    teams cannot attribute faults or provide release evidence for compliance.
+  pain_en: Agents generate changes faster than humans can track; without unified audit
+    and approval records, teams cannot attribute faults or provide release evidence
+    for compliance.
   current_alternative: 靠人工 PR 审查、git 提交历史、CI 门禁加零散自建脚本拼审计链，追不上多代理并行的节奏。
-  current_alternative_en: Teams stitch audit trails from manual PR review, git history, CI gates, and
-    ad-hoc scripts, which cannot keep pace with parallel agents.
+  current_alternative_en: Teams stitch audit trails from manual PR review, git history,
+    CI gates, and ad-hoc scripts, which cannot keep pace with parallel agents.
   usage_reason: 仓库 star 约 19 天从 172 涨至 238，是可归因到该产品的关注信号，说明开发者认可多代理治理这一缺口；持续使用与付费尚未核验。
-  usage_reason_en: Repo stars grew from 172 to 238 in about 19 days, an attributable attention signal
-    showing developers recognize the multi-agent governance gap; sustained use and payment are not yet
-    verified.
+  usage_reason_en: Repo stars grew from 172 to 238 in about 19 days, an attributable
+    attention signal showing developers recognize the multi-agent governance gap;
+    sustained use and payment are not yet verified.

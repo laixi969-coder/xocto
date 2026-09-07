@@ -30,14 +30,14 @@
   job: 开发者
   job_en: Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 858 个收藏、25 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-attention-span-2026-08-24
   project_slug: attention-span
   level: full
@@ -70,14 +70,14 @@
   job: 开发者
   job_en: Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 858 个收藏、25 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-attention-span-2026-08-25
   project_slug: attention-span
   level: initial
@@ -87,8 +87,8 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“attention-span 为 Claude Code、Codex 等 AI 编码助手提供 ADHD 友好的输出风格，让 AI 的回复更简洁、更易聚焦。开发者在阅读
-      AI 输出时”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“attention-span 为 Claude Code、Codex 等 AI 编码助手提供
+      ADHD 友好的输出风格，让 AI 的回复更简洁、更易聚焦。开发者在阅读 AI 输出时”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
     evidence_ids:
     - ev-dbc00d41cec8a4f7
   - gate: consensus
@@ -109,14 +109,14 @@
   job: 开发者
   job_en: Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 858 个收藏、25 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-attention-span-2026-08-25
   project_slug: attention-span
   level: full
@@ -146,14 +146,14 @@
   job: 开发者
   job_en: Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 858 个收藏、25 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-attention-span-2026-08-29
   project_slug: attention-span
   level: full
@@ -181,17 +181,18 @@
   next_validation: 追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
   job: 开发者需要阅读 AI 编码助手的输出，并希望输出风格更简洁、更易聚焦。
-  job_en: Developers need to read AI coding assistant outputs and prefer styles that are more concise
-    and easier to focus on.
+  job_en: Developers need to read AI coding assistant outputs and prefer styles that
+    are more concise and easier to focus on.
   pain: 公开材料未说明不解决的代价、频率或后果；但冗长输出可能增加认知负担，降低效率。
-  pain_en: Public materials do not specify the cost, frequency, or consequences of leaving it unsolved;
-    however, verbose outputs may increase cognitive load and reduce efficiency.
+  pain_en: Public materials do not specify the cost, frequency, or consequences of
+    leaving it unsolved; however, verbose outputs may increase cognitive load and
+    reduce efficiency.
   current_alternative: 公开材料未说明当前替代方式；常见替代是手动调整提示词或使用其他工具。
-  current_alternative_en: Public materials do not describe current alternatives; common alternatives include
-    manually adjusting prompts or using other tools.
+  current_alternative_en: Public materials do not describe current alternatives; common
+    alternatives include manually adjusting prompts or using other tools.
   usage_reason: 仓库有 858 个收藏，说明开发者关注或试用；持续使用与付费尚未核验。
-  usage_reason_en: The repository has 858 stars, indicating developer attention or trial; sustained use
-    and payment are not yet verified.
+  usage_reason_en: The repository has 858 stars, indicating developer attention or
+    trial; sustained use and payment are not yet verified.
 - id: req-full-attention-span-2026-08-30
   project_slug: attention-span
   level: full
@@ -201,8 +202,8 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“attention-span 为 Claude Code、Codex 等 AI 编码助手提供 ADHD 友好的输出风格，让 AI 的回复更简洁、更易聚焦。开发者在阅读
-      AI 输出时”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“attention-span 为 Claude Code、Codex 等 AI 编码助手提供
+      ADHD 友好的输出风格，让 AI 的回复更简洁、更易聚焦。开发者在阅读 AI 输出时”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
     evidence_ids:
     - ev-dbc00d41cec8a4f7
   - gate: consensus
@@ -222,14 +223,14 @@
   job: 开发者
   job_en: Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 858 个收藏、25 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 858 stars and 25 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-attention-span-2026-09-01
   project_slug: attention-span
   level: full
@@ -254,16 +255,16 @@
     status: insufficient
     reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 查找该项目的 GitHub 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。
+  next_validation: 查找该项目的 公开代码仓库 仓库，获取 README、issue 和 discussion，确认用户痛点和使用场景。
   market: ''
   job: 开发者需要阅读 AI 编码助手的输出，并保持注意力。
   job_en: Developers need to read AI coding assistant outputs and maintain attention.
   pain: AI 输出冗长，增加认知负担，但公开材料未说明具体痛点强度或不采用代价。
-  pain_en: AI outputs are verbose, increasing cognitive load, but public materials do not specify the
-    pain intensity or cost of not using it.
+  pain_en: AI outputs are verbose, increasing cognitive load, but public materials
+    do not specify the pain intensity or cost of not using it.
   current_alternative: 公开材料未说明用户当前如何应对，可能手动筛选信息，但尚未核验。
-  current_alternative_en: Public materials do not show how users currently cope; they may manually filter
-    information, but this is unverified.
+  current_alternative_en: Public materials do not show how users currently cope; they
+    may manually filter information, but this is unverified.
   usage_reason: 仓库有 858 个收藏，说明开发者关注，但持续使用和付费尚未核验。
-  usage_reason_en: The repository has 858 stars, showing developer attention, but sustained use and payment
-    are unverified.
+  usage_reason_en: The repository has 858 stars, showing developer attention, but
+    sustained use and payment are unverified.

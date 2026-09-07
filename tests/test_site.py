@@ -171,10 +171,11 @@ class PublishabilityTests(unittest.TestCase):
         self.assertIn("t.home.past_reports", template)
         self.assertIn("proven_businesses", template)
         self.assertLess(template.index("daily_report"), template.index("first_discoveries"))
-        self.assertLess(template.index("first_discoveries"), template.index("proven_businesses"))
-        self.assertLess(template.index("proven_businesses"), template.index("important_updates"))
+        self.assertLess(template.index("first_discoveries"), template.index("important_updates"))
         self.assertLess(template.index("important_updates"), template.index("market_summary"))
         self.assertLess(template.index("market_summary"), template.index("t.home.past_reports"))
+        # 已验证生意排在每期摘要（往期判断）之后，收尾展示。
+        self.assertLess(template.index("t.home.past_reports"), template.index("proven_businesses"))
         self.assertNotIn("fresh_picks", template)
         self.assertNotIn("today_takeaway", template)
         self.assertNotIn("more_opportunities", template)

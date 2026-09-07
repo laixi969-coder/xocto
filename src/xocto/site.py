@@ -51,6 +51,7 @@ from .models import (
     public_req_labels,
     req_conclusion,
     scrub_pending_phrase,
+    today,
 )
 from .dedupe import is_aggregator, url_host
 from .i18n import LOCALES, Locale, other
@@ -871,13 +872,16 @@ def _daily_event_selection(items: list[dict[str, Any]], *, limit: int = 6) -> li
 
 
 def _proven_business_selection(
-    items: list[dict[str, Any]], *, limit: int = 3
+    items: list[dict[str, Any]], *, limit: int = 3, rotation: int = 0
 ) -> list[dict[str, Any]]:
     """Choose useful benchmarks, not the loudest growth leaderboard.
 
     Scaled businesses retain more entry value than settled default products.  Within
     that boundary, public usage scale is the strongest deterministic signal.  Give
     distinct categories a chance before filling any remaining slots.
+
+    rotation 把榜单视作循环队列按天推进：48 个已验证产品约 16 天轮完一圈，
+    每天换一批基准，而不是让用量最大的三巨头永久霸榜。同一天内确定性不变。
     """
     ranked = sorted(
         items,
@@ -887,6 +891,9 @@ def _proven_business_selection(
             item.get("name") or "",
         ),
     )
+    if rotation and len(ranked) > limit:
+        window = (rotation * limit) % len(ranked)
+        ranked = ranked[window:] + ranked[:window]
     selected: list[dict[str, Any]] = []
     categories: set[str] = set()
     for item in ranked:
@@ -1294,7 +1301,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         (v for v in proven if v["growth"] is not None),
         key=lambda v: -(v["growth"] or 0),
     )[:10]
-    ranked_proven = _proven_business_selection(proven, limit=3)
+    ranked_proven = _proven_business_selection(proven, limit=3, rotation=today().toordinal())
     proven_businesses = [_business_card_view(item, store, locale) for item in ranked_proven]
 
     # 4. 赛道分布：给一个进入方式，不在首页罗列产品。

@@ -16,6 +16,7 @@ from typing import Any
 from xocto.brief import (
     BriefError,
     _fit_messages,
+    _neutralize_public_source_names,
     _request,
     _run_batches_parallel,
     _split_batches,
@@ -422,6 +423,39 @@ def candidates(store: Store, day: date) -> list[Any]:
     return sorted(selected + extras[:PROVEN_BACKFILL_LIMIT], key=lambda item: item.slug)
 
 
+def _scrub_review_sources(review: ReqReview) -> ReqReview:
+    """完整判断的公开文本同样要过来源名中和。
+
+    brief 路径写盘前有泄漏检查，这里曾是缺口：模型偶尔在 next_validation
+    里点名媒体，首页卡片与产品页会原样展示。
+    """
+    return replace(
+        review,
+        next_validation=_neutralize_public_source_names(review.next_validation, english=False),
+        gates=tuple(
+            ReqGateReview(
+                gate.gate,
+                gate.status,
+                _neutralize_public_source_names(gate.reason, english=False),
+                gate.evidence_ids,
+            )
+            for gate in review.gates
+        ),
+        job=_neutralize_public_source_names(review.job, english=False),
+        job_en=_neutralize_public_source_names(review.job_en, english=True),
+        pain=_neutralize_public_source_names(review.pain, english=False),
+        pain_en=_neutralize_public_source_names(review.pain_en, english=True),
+        current_alternative=_neutralize_public_source_names(
+            review.current_alternative, english=False
+        ),
+        current_alternative_en=_neutralize_public_source_names(
+            review.current_alternative_en, english=True
+        ),
+        usage_reason=_neutralize_public_source_names(review.usage_reason, english=False),
+        usage_reason_en=_neutralize_public_source_names(review.usage_reason_en, english=True),
+    )
+
+
 def _messages(
     products: list[Any], store: Store, *, compact: bool = False, evidence_limit: int | None = None
 ) -> list[dict[str, str]]:
@@ -614,7 +648,7 @@ def run(store: Store, *, day: date) -> FullReqReport:
         batch_reviews: list[ReqReview] = []
         for attempt in range(MAX_FULL_REQ_REPAIRS + 1):
             try:
-                batch_reviews = _reviews(result, batch, store, day)
+                batch_reviews = [_scrub_review_sources(r) for r in _reviews(result, batch, store, day)]
                 break
             except BriefError as exc:
                 if attempt >= MAX_FULL_REQ_REPAIRS:

@@ -28,14 +28,14 @@
   job: 开发者、AI 工程师
   job_en: Developers, AI Engineers
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 100 个收藏、18 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 100 stars and 18 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 100 stars and 18 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-alego-2026-08-29
   project_slug: alego
   level: initial
@@ -70,8 +70,8 @@
   current_alternative: 使用 LangChain 等现有框架。
   current_alternative_en: Using existing frameworks like LangChain.
   usage_reason: 开源项目，79 星，可能吸引尝试新框架的开发者，但采用证据不足。
-  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks, but adoption
-    evidence is insufficient.
+  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks,
+    but adoption evidence is insufficient.
 - id: req-full-alego-2026-08-29
   project_slug: alego
   level: full
@@ -105,8 +105,8 @@
   current_alternative: 使用 LangChain 等现有框架。
   current_alternative_en: Using existing frameworks like LangChain.
   usage_reason: 开源项目，79 星，可能吸引尝试新框架的开发者，但采用证据不足。
-  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks, but adoption
-    evidence is insufficient.
+  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks,
+    but adoption evidence is insufficient.
 - id: req-full-alego-2026-08-30
   project_slug: alego
   level: full
@@ -140,8 +140,8 @@
   current_alternative: 使用 LangChain 等现有框架。
   current_alternative_en: Using existing frameworks like LangChain.
   usage_reason: 开源项目，79 星，可能吸引尝试新框架的开发者，但采用证据不足。
-  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks, but adoption
-    evidence is insufficient.
+  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks,
+    but adoption evidence is insufficient.
 - id: req-full-alego-2026-09-01
   project_slug: alego
   level: full
@@ -175,8 +175,8 @@
   current_alternative: 使用 LangChain 等现有框架。
   current_alternative_en: Using existing frameworks like LangChain.
   usage_reason: 开源项目，79 星，可能吸引尝试新框架的开发者，但采用证据不足。
-  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks, but adoption
-    evidence is insufficient.
+  usage_reason_en: Open-source with 79 stars, may attract developers trying new frameworks,
+    but adoption evidence is insufficient.
 - id: req-full-alego-2026-09-05
   project_slug: alego
   level: full
@@ -207,16 +207,17 @@
     reason: “一切皆插件”能否确定性降低构建复杂度，缺少文档示例与可复现实测佐证；作为库可安装交付成立，但实际效果与能力边界未核验。
     evidence_ids:
     - ev-4ba6344570fa6cc7
-  next_validation: 追踪 GitHub 仓库 README 与使用示例文档的更新，以及 issue / discussion 中是否出现真实使用场景与开发者反馈。
+  next_validation: 追踪 公开代码仓库 仓库 README 与使用示例文档的更新，以及 issue / discussion 中是否出现真实使用场景与开发者反馈。
   market: ''
   job: AI 工程师把工具、记忆、流程等能力组装成可运行的 AI 代理。
   job_en: AI engineers assemble tools, memory and workflows into runnable AI agents.
   pain: 能力模块靠手写胶水代码拼装，耦合重、复用差，每建一个新代理都要重写一遍。
-  pain_en: Capabilities are hand-wired with glue code; heavy coupling and poor reuse force rewriting for
-    every new agent.
+  pain_en: Capabilities are hand-wired with glue code; heavy coupling and poor reuse
+    force rewriting for every new agent.
   current_alternative: 使用 LangChain 等一体化框架，或手写编排与工具接入代码。
-  current_alternative_en: Monolithic frameworks like LangChain, or hand-rolled orchestration and tool-integration
-    code.
+  current_alternative_en: Monolithic frameworks like LangChain, or hand-rolled orchestration
+    and tool-integration code.
   usage_reason: 星标两天内 79→109，说明插件化拼装代理的思路吸引了开发者关注；但关注不等于采用，实际使用与留存尚未核验。
-  usage_reason_en: Stars rose from 79 to 109 in two days, showing developer interest in plugin-based agent
-    assembly; interest is not adoption—real usage and retention remain unverified.
+  usage_reason_en: Stars rose from 79 to 109 in two days, showing developer interest
+    in plugin-based agent assembly; interest is not adoption—real usage and retention
+    remain unverified.

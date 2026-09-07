@@ -103,20 +103,6 @@
   </section>
   {% endif %}
 
-  {% if proven_businesses %}
-  <section class="band desk-band" id="proven-businesses">
-    <div class="sec-head desk-sec">
-      <div>
-        {% set ns.sec = ns.sec + 1 %}
-        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
-        <h2>{{ t.home.proven_businesses }}</h2>
-      </div>
-      <span class="note">{{ t.home.proven_businesses_note }}</span>
-    </div>
-    {{ opportunity_stream(proven_businesses[:3]) }}
-  </section>
-  {% endif %}
-
   {% if important_updates %}
   <section class="band desk-band" id="important-updates">
     <div class="sec-head desk-sec">
@@ -169,6 +155,20 @@
         <p class="obs-hook">{{ (r.hook or t.home.report_fallback) | md_inline }}</p>
       </a>
       {% endfor %}
+  {% if proven_businesses %}
+  <section class="band desk-band" id="proven-businesses">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.home.proven_businesses }}</h2>
+      </div>
+      <span class="note">{{ t.home.proven_businesses_note }}</span>
+    </div>
+    {{ opportunity_stream(proven_businesses[:3]) }}
+  </section>
+  {% endif %}
+
     </div>
   </section>
   {% endif %}

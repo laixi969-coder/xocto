@@ -7,7 +7,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的是 AI 生成代码入库前的审查需求：代理写码快过人读，问题拖到提交后才暴露、返工贵。此为工作流结构推理：产品描述足以还原旧流程是人工逐行读 diff，价值结构成立，但尚无用户采用佐证。
+    reason: 它解决的是 AI 生成代码入库前的审查需求：代理写码快过人读，问题拖到提交后才暴露、返工贵。此为工作流结构推理：产品描述足以还原旧流程是人工逐行读
+      diff，价值结构成立，但尚无用户采用佐证。
     evidence_ids:
     - ev-fec5328de593243d
   - gate: consensus
@@ -28,18 +29,18 @@
   next_validation: 抓取 GitWarren 官方发布页与文档更新，核验是否出现定价页、支持的编码代理清单或 CI 集成说明。
   market: ''
   job: 开发者（尤其是用编码代理写码的人）在 commit 前完成一次代码审查，确保只有可用的改动进入分支。
-  job_en: Developers, especially those writing code with coding agents, run a code review before committing
-    so only sound changes enter the branch.
+  job_en: Developers, especially those writing code with coding agents, run a code
+    review before committing so only sound changes enter the branch.
   pain: 代理生成代码的速度远超人工评审能力，diff 读不过来；问题往往在提交、推送甚至合并后才被发现，返工成本高。
-  pain_en: Agents produce code faster than humans can review it; issues surface only after commit, push,
-    or merge, making rework costly.
+  pain_en: Agents produce code faster than humans can review it; issues surface only
+    after commit, push, or merge, making rework costly.
   current_alternative: 开发者自己逐行读 diff，或依赖推送后的同事 PR 评审、CI 测试与 lint 规则兜底。
-  current_alternative_en: Developers read diffs line by line themselves, or rely on post-push peer PR
-    review, CI tests, and lint rules as backstops.
+  current_alternative_en: Developers read diffs line by line themselves, or rely on
+    post-push peer PR review, CI tests, and lint rules as backstops.
   usage_reason: 提交前的最后把关环节真实存在，代理生成量越大越需要它；开发者已习惯用 CI、lint 等自动化闸门，会愿意在 commit 链路里加一道自动审查。
-  usage_reason_en: The pre-commit gate is a real checkpoint that grows more necessary as agent output
-    grows; developers already automate gates with CI and lint, so adding an automated review step fits
-    their habits.
+  usage_reason_en: The pre-commit gate is a real checkpoint that grows more necessary
+    as agent output grows; developers already automate gates with CI and lint, so
+    adding an automated review step fits their habits.
 - id: req-full-gitwarren-2026-09-05
   project_slug: gitwarren
   level: full
@@ -68,19 +69,22 @@
     reason: 产品卡在 commit 这一第一性关口，交付为开发者可核对的审查报告，并保留人工确认后才提交的安全边界；但拦截质量取决于所用代理能力，公开材料无法核验，成立但证据薄。
     evidence_ids:
     - ev-fec5328de593243d
-  next_validation: 追踪 GitWarren 官网与 Product Hunt 发布页的后续更新及仓库 issue/discussion，核验是否出现定价页、支持的编码代理清单、CI 集成说明或用户评论。
+  next_validation: 追踪 GitWarren 官网与 公开资料 发布页的后续更新及仓库 issue/discussion，核验是否出现定价页、支持的编码代理清单、CI
+    集成说明或用户评论。
   market: ''
   job: 开发者（尤其是用编码代理写码的人）在 commit 前完成一次代码审查，只让可靠的改动进入分支。
-  job_en: Developers—especially those writing code with coding agents—run a review before committing so
-    only sound changes enter the branch.
+  job_en: Developers—especially those writing code with coding agents—run a review
+    before committing so only sound changes enter the branch.
   pain: 代理产出代码的速度远超人工评审能力，diff 读不过来；问题常在提交、推送甚至合并后才暴露，返工成本高。此为公开产品说明加结构推理，用户抱怨类证据尚缺，采用数据尚未核验。
-  pain_en: Agents produce code faster than humans can review; issues often surface only after commit,
-    push, or merge, making rework costly. This rests on the public product description plus structural
-    reasoning—user complaints are not yet documented and adoption remains unverified.
+  pain_en: Agents produce code faster than humans can review; issues often surface
+    only after commit, push, or merge, making rework costly. This rests on the public
+    product description plus structural reasoning—user complaints are not yet documented
+    and adoption remains unverified.
   current_alternative: 开发者自己逐行读 diff，或依赖推送后的同事 PR 评审、CI 测试与 lint 规则兜底。
-  current_alternative_en: Developers read diffs line by line themselves, or rely on post-push peer PR
-    review, CI tests, and lint rules as backstops.
+  current_alternative_en: Developers read diffs line by line themselves, or rely on
+    post-push peer PR review, CI tests, and lint rules as backstops.
   usage_reason: 提交前把关是真实存在的环节，代理生成量越大越需要；开发者已习惯用 CI、lint 等自动化闸门，会在 commit 链路里加一道自动审查。采用与付费尚未核验，此为结构判断。
-  usage_reason_en: The pre-commit gate is a real checkpoint that grows more necessary as agent output
-    grows; developers already automate gates with CI and lint, so an automated review step fits existing
-    habits. Adoption and payment remain unverified—this is a structural judgment.
+  usage_reason_en: The pre-commit gate is a real checkpoint that grows more necessary
+    as agent output grows; developers already automate gates with CI and lint, so
+    an automated review step fits existing habits. Adoption and payment remain unverified—this
+    is a structural judgment.

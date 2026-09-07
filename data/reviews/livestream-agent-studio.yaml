@@ -30,14 +30,14 @@
   job: 直播运营、内容编导
   job_en: Live Stream Operators, Content Directors
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 302 个收藏、45 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 302 stars and 45 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 302 stars and 45 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-livestream-agent-studio-2026-08-27
   project_slug: livestream-agent-studio
   level: full
@@ -70,14 +70,14 @@
   job: 直播运营、内容编导
   job_en: Live Stream Operators, Content Directors
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 302 个收藏、45 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 302 stars and 45 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 302 stars and 45 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-livestream-agent-studio-2026-08-28
   project_slug: livestream-agent-studio
   level: initial
@@ -108,14 +108,14 @@
   job: 直播运营、内容编导
   job_en: Live Stream Operators, Content Directors
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 302 个收藏、45 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 302 stars and 45 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 302 stars and 45 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-livestream-agent-studio-2026-08-29
   project_slug: livestream-agent-studio
   level: full
@@ -141,20 +141,20 @@
     status: insufficient
     reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
     evidence_ids: []
-  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
   job: 直播运营和内容编导需要整合主播发现、直播洞察、复盘和短视频编导的统一工作流。
-  job_en: Live stream operators and content directors need a unified workflow integrating host discovery,
-    live insights, review, and short video direction.
+  job_en: Live stream operators and content directors need a unified workflow integrating
+    host discovery, live insights, review, and short video direction.
   pain: 直播电商运营工具分散，缺乏统一智能工作流，导致效率低下和决策不连贯。
-  pain_en: Live e-commerce operations tools are fragmented, lacking a unified intelligent workflow, causing
-    inefficiency and inconsistent decisions.
+  pain_en: Live e-commerce operations tools are fragmented, lacking a unified intelligent
+    workflow, causing inefficiency and inconsistent decisions.
   current_alternative: 目前可能使用多个独立工具或人工分析，缺乏本地 AI 集成方案。
-  current_alternative_en: Currently may use multiple separate tools or manual analysis, lacking a local
-    AI-integrated solution.
+  current_alternative_en: Currently may use multiple separate tools or manual analysis,
+    lacking a local AI-integrated solution.
   usage_reason: 开源仓库获得 342 星，显示开发者对直播电商 AI 工具的兴趣，但付费和持续采用尚未核验。
-  usage_reason_en: The open-source repository has 342 stars, showing developer interest in live e-commerce
-    AI tools, but payment and sustained adoption are not yet verified.
+  usage_reason_en: The open-source repository has 342 stars, showing developer interest
+    in live e-commerce AI tools, but payment and sustained adoption are not yet verified.
 - id: req-full-livestream-agent-studio-2026-08-30
   project_slug: livestream-agent-studio
   level: full
@@ -183,17 +183,18 @@
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
   job: 直播运营和内容编导需要管理抖音直播电商的完整工作流，包括主播发现、直播洞察、复盘和短视频编导。
-  job_en: Live stream operators and content directors need to manage the complete workflow for Douyin
-    live commerce, including streamer discovery, live insights, review, and short video direction.
+  job_en: Live stream operators and content directors need to manage the complete
+    workflow for Douyin live commerce, including streamer discovery, live insights,
+    review, and short video direction.
   pain: 直播运营涉及多个环节，手动分析数据耗时，且缺乏统一工具。
-  pain_en: Live stream operations involve multiple steps, manual data analysis is time-consuming, and
-    there is a lack of unified tools.
+  pain_en: Live stream operations involve multiple steps, manual data analysis is
+    time-consuming, and there is a lack of unified tools.
   current_alternative: 目前可能使用多个分散工具（如数据分析平台、内容编辑软件）或手动操作。
-  current_alternative_en: Currently may use multiple scattered tools (e.g., data analytics platforms,
-    content editing software) or manual operations.
+  current_alternative_en: Currently may use multiple scattered tools (e.g., data analytics
+    platforms, content editing software) or manual operations.
   usage_reason: 公开代码仓库有 389 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 389 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 389 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-full-livestream-agent-studio-2026-09-01
   project_slug: livestream-agent-studio
   level: full
@@ -219,21 +220,22 @@
     status: insufficient
     reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
     evidence_ids: []
-  next_validation: 追踪 LiveStream-Agent-Studio 的 GitHub 仓库 issue 和 discussion，确认是否有直播运营或内容编导实际部署并替代了旧流程。
+  next_validation: 追踪 LiveStream-Agent-Studio 的 公开代码仓库 仓库 issue 和 discussion，确认是否有直播运营或内容编导实际部署并替代了旧流程。
   market: ''
   job: 直播运营、内容编导需要高效管理直播电商流程，包括主播发现、直播洞察、复盘和短视频内容编导。
-  job_en: Live stream operators and content directors need to efficiently manage live commerce workflows,
-    including host discovery, live insights, review, and short video content direction.
+  job_en: Live stream operators and content directors need to efficiently manage live
+    commerce workflows, including host discovery, live insights, review, and short
+    video content direction.
   pain: 公开材料未说明不解决的具体代价、发生频率或后果；但直播电商流程复杂，涉及多个环节，现有工具可能分散或缺乏整合。
-  pain_en: Public materials do not specify the cost, frequency, or consequences of not solving it; but
-    live commerce workflows are complex, involving multiple stages, and existing tools may be fragmented
-    or lack integration.
+  pain_en: Public materials do not specify the cost, frequency, or consequences of
+    not solving it; but live commerce workflows are complex, involving multiple stages,
+    and existing tools may be fragmented or lack integration.
   current_alternative: 公开材料未说明用户目前如何完成这项工作；可能使用多个独立工具或手动流程。
-  current_alternative_en: Public materials do not show how users complete this job today; they may use
-    multiple separate tools or manual processes.
+  current_alternative_en: Public materials do not show how users complete this job
+    today; they may use multiple separate tools or manual processes.
   usage_reason: 公开代码仓库有 480 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 480 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 480 stars, showing developer attention;
+    repeat use and payment are not yet verified.
 - id: req-initial-livestream-agent-studio-2026-09-06
   project_slug: livestream-agent-studio
   level: initial
@@ -263,14 +265,14 @@
   next_validation: 查找官方定价页或客户案例，确认付费意愿。
   market: ''
   job: 直播电商运营者在开播前发现主播、直播中获取实时洞察、下播后复盘并制作短视频内容。
-  job_en: Live e-commerce operators discover streamers before broadcasts, gain real-time insights during,
-    review after, and create short videos.
+  job_en: Live e-commerce operators discover streamers before broadcasts, gain real-time
+    insights during, review after, and create short videos.
   pain: 直播数据分散，复盘和内容创作耗时，缺乏系统化工具。
-  pain_en: Live data is scattered, review and content creation are time-consuming, and systematic tools
-    are lacking.
+  pain_en: Live data is scattered, review and content creation are time-consuming,
+    and systematic tools are lacking.
   current_alternative: 目前多依赖人工观看回放、手动整理数据，或使用通用数据分析工具。
-  current_alternative_en: Currently relies on manual replay watching, manual data sorting, or generic
-    data analysis tools.
+  current_alternative_en: Currently relies on manual replay watching, manual data
+    sorting, or generic data analysis tools.
   usage_reason: 本地运行保护数据隐私，一体化工作流减少切换成本，开源可定制。
-  usage_reason_en: Local operation protects data privacy, integrated workflow reduces switching costs,
-    and open source allows customization.
+  usage_reason_en: Local operation protects data privacy, integrated workflow reduces
+    switching costs, and open source allows customization.

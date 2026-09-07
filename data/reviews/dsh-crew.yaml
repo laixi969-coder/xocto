@@ -28,14 +28,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-crew-2026-08-24
   project_slug: dsh-crew
   level: full
@@ -50,7 +50,7 @@
     - ev-625f515f152f9fdc
   - gate: consensus
     status: insufficient
-    reason: 未进入：价值证据不足。仅有 GitHub 仓库简介，未见开发者社群实际落地讨论或持续复用证据。
+    reason: 未进入：价值证据不足。仅有 公开代码仓库 仓库简介，未见开发者社群实际落地讨论或持续复用证据。
     evidence_ids: []
   - gate: model
     status: insufficient
@@ -60,19 +60,19 @@
     status: insufficient
     reason: 未进入：价值证据不足。跨环境子代理进度调度及多模态桥接的执行成功率与确定性交付缺乏第三方实测。
     evidence_ids: []
-  next_validation: GitHub 仓库 issue/PR 记录及第三方多代理任务调度实测案例
+  next_validation: 公开代码仓库 仓库 issue/PR 记录及第三方多代理任务调度实测案例
   market: ''
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-crew-2026-08-25
   project_slug: dsh-crew
   level: initial
@@ -82,7 +82,8 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，支持子代理进度、分档预设和多模态桥接。交付是代理执行结果，但”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给
+      DSH 代理，支持子代理进度、分档预设和多模态桥接。交付是代理执行结果，但”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
     evidence_ids:
     - ev-1b9736802ef38d12
   - gate: consensus
@@ -103,14 +104,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-crew-2026-08-25
   project_slug: dsh-crew
   level: full
@@ -135,19 +136,19 @@
     status: insufficient
     reason: 价值闸门未通过，求真闸门未进入。
     evidence_ids: []
-  next_validation: 追踪 GitHub 仓库的 issue 与 discussion，确认开发者实际部署场景与替代的旧流程。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 与 discussion，确认开发者实际部署场景与替代的旧流程。
   market: ''
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-crew-2026-08-26
   project_slug: dsh-crew
   level: initial
@@ -157,7 +158,8 @@
   gates:
   - gate: value
     status: insufficient
-    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，支持子代理进度、分档预设和多模态桥接。交付是代理执行结果，但”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
+    reason: 价值闸门未过证据门槛：现有公开材料将其描述为“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给
+      DSH 代理，支持子代理进度、分档预设和多模态桥接。交付是代理执行结果，但”；尚未见目标用户痛点、发生频率或损失规模的直接证据。
     evidence_ids:
     - ev-91876dcb19a06f50
   - gate: consensus
@@ -178,14 +180,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-crew-2026-08-26
   project_slug: dsh-crew
   level: full
@@ -215,14 +217,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-crew-2026-08-27
   project_slug: dsh-crew
   level: initial
@@ -232,7 +234,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，支持子代理进度、分档预设和多模态桥接”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH
+      代理，支持子代理进度、分档预设和多模态桥接”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-75e2c65b60bbbbfe
   - gate: consensus
@@ -253,14 +256,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-crew-2026-08-27
   project_slug: dsh-crew
   level: full
@@ -291,14 +294,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-dsh-crew-2026-08-28
   project_slug: dsh-crew
   level: initial
@@ -308,7 +311,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，支持子代理进度、分档预设和多模态桥接”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH
+      代理，支持子代理进度、分档预设和多模态桥接”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-62cad9680e73f61d
   - gate: consensus
@@ -329,14 +333,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-crew-2026-08-29
   project_slug: dsh-crew
   level: full
@@ -346,7 +350,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，支持子代理进度、分档预设和多模态桥接”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“DeepSeek Harness 插件：开发者从 Claude Code 或 Codex 中把任务分发给 DSH
+      代理，支持子代理进度、分档预设和多模态桥接”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-62cad9680e73f61d
   - gate: consensus
@@ -367,14 +372,14 @@
   job: AI 工程师、开发者
   job_en: AI Engineer, Developer
   pain: 公开材料未说明不解决的具体代价、发生频率或后果，痛点强度尚未核验。
-  pain_en: Public materials do not show the cost, frequency, or consequence of leaving this unsolved;
-    pain intensity is not yet verified.
+  pain_en: Public materials do not show the cost, frequency, or consequence of leaving
+    this unsolved; pain intensity is not yet verified.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 118 个收藏、5 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 118 stars and 5 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-dsh-crew-2026-08-30
   project_slug: dsh-crew
   level: full
@@ -402,16 +407,17 @@
     reason: 交付确定性依赖 DSH 和 Claude Code/Codex 的稳定性，人工边界未明确。
     evidence_ids:
     - ev-625f515f152f9fdc
-  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 和 discussion，寻找用户部署案例或替代旧流程的公开描述。
   market: ''
   job: 开发者从 Claude Code 或 Codex 中把任务分发给 DSH 代理，并查看子代理进度。
-  job_en: Developers dispatch work to DSH agents from Claude Code or Codex and view subagent progress.
+  job_en: Developers dispatch work to DSH agents from Claude Code or Codex and view
+    subagent progress.
   pain: 在 Claude Code 或 Codex 中无法直接利用 DSH 代理，需要切换工具或手动管理任务分发。
-  pain_en: Inability to directly leverage DSH agents within Claude Code or Codex, requiring tool switching
-    or manual task management.
+  pain_en: Inability to directly leverage DSH agents within Claude Code or Codex,
+    requiring tool switching or manual task management.
   current_alternative: 手动在终端或浏览器中操作 DSH，或使用其他代理调度工具。
-  current_alternative_en: Manually operating DSH in terminal or browser, or using other agent orchestration
-    tools.
+  current_alternative_en: Manually operating DSH in terminal or browser, or using
+    other agent orchestration tools.
   usage_reason: 仓库有 120 个星标，表明开发者关注，但持续使用和付费尚未核验。
-  usage_reason_en: The repository has 120 stars, indicating developer interest, but sustained usage and
-    payment are not yet verified.
+  usage_reason_en: The repository has 120 stars, indicating developer interest, but
+    sustained usage and payment are not yet verified.

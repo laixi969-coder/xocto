@@ -30,14 +30,14 @@
   job: SEO专员、内容营销经理
   job_en: SEO Specialist, Content Marketing Manager
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 275 个收藏、74 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 275 stars and 74 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 275 stars and 74 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-fire-your-seo-agency-2026-08-27
   project_slug: fire-your-seo-agency
   level: full
@@ -70,14 +70,14 @@
   job: SEO专员、内容营销经理
   job_en: SEO Specialist, Content Marketing Manager
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 275 个收藏、74 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 275 stars and 74 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 275 stars and 74 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-fire-your-seo-agency-2026-08-28
   project_slug: fire-your-seo-agency
   level: initial
@@ -87,7 +87,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“这是一个 Claude Code 技能，用于自动审计和优化网站的 SEO、AEO、GEO、LLMO 和 Naver 搜索优化”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“这是一个 Claude Code 技能，用于自动审计和优化网站的 SEO、AEO、GEO、LLMO 和 Naver
+      搜索优化”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-f5c99b7bd4dafa13
   - gate: consensus
@@ -108,14 +109,14 @@
   job: SEO专员、内容营销经理
   job_en: SEO Specialist, Content Marketing Manager
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 275 个收藏、74 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 275 stars and 74 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 275 stars and 74 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-full-fire-your-seo-agency-2026-08-29
   project_slug: fire-your-seo-agency
   level: full
@@ -143,20 +144,20 @@
     reason: 产品早期，未验证其优化效果能否达到专业代理水平，交付确定性待核验。
     evidence_ids:
     - ev-9e26382cee40236c
-  next_validation: 追踪 GitHub 仓库的 issue 和 discussion，看用户是否报告实际优化效果和替代的代理服务。
+  next_validation: 追踪 公开代码仓库 仓库的 issue 和 discussion，看用户是否报告实际优化效果和替代的代理服务。
   market: ''
   job: SEO 专员和内容营销经理需要审计和优化网站的 SEO、AEO、GEO、LLMO 和 Naver 搜索表现，以提升搜索可见度。
-  job_en: SEO specialists and content marketing managers need to audit and optimize SEO, AEO, GEO, LLMO,
-    and Naver search performance to improve visibility.
+  job_en: SEO specialists and content marketing managers need to audit and optimize
+    SEO, AEO, GEO, LLMO, and Naver search performance to improve visibility.
   pain: 传统 SEO 代理服务费用高昂（每月 50-350 万韩元），且优化流程耗时，难以应对 AI 搜索的新变化。
-  pain_en: Traditional SEO agency services are expensive (500K-3.5M KRW/month) and time-consuming, struggling
-    to adapt to AI search changes.
+  pain_en: Traditional SEO agency services are expensive (500K-3.5M KRW/month) and
+    time-consuming, struggling to adapt to AI search changes.
   current_alternative: 目前依赖 SEO 代理或手动优化，成本高且响应慢。
-  current_alternative_en: Currently relying on SEO agencies or manual optimization, which is costly and
-    slow.
+  current_alternative_en: Currently relying on SEO agencies or manual optimization,
+    which is costly and slow.
   usage_reason: 公开仓库 333 星显示开发者关注，但持续使用和付费尚未核验。
-  usage_reason_en: The public repository has 333 stars, showing developer attention, but sustained use
-    and payment are not yet verified.
+  usage_reason_en: The public repository has 333 stars, showing developer attention,
+    but sustained use and payment are not yet verified.
 - id: req-full-fire-your-seo-agency-2026-08-30
   project_slug: fire-your-seo-agency
   level: full
@@ -185,17 +186,17 @@
   next_validation: 关注项目仓库的 issue 和 discussion，看是否有用户反馈技能效果和实际使用案例。
   market: ''
   job: SEO 专员需要自动审计和优化网站的 SEO、AEO、GEO、LLMO 和 Naver 搜索优化。
-  job_en: SEO specialists need to automatically audit and optimize websites for SEO, AEO, GEO, LLMO, and
-    Naver search.
+  job_en: SEO specialists need to automatically audit and optimize websites for SEO,
+    AEO, GEO, LLMO, and Naver search.
   pain: 聘请 SEO 代理费用高昂，每月 50-350 万韩元，且效果难以保证。
-  pain_en: Hiring an SEO agency is expensive, costing 500,000 to 3.5 million KRW per month, with uncertain
-    results.
+  pain_en: Hiring an SEO agency is expensive, costing 500,000 to 3.5 million KRW per
+    month, with uncertain results.
   current_alternative: 用户可能聘请 SEO 代理或手动优化，但公开材料未明确说明。
-  current_alternative_en: Users may hire an SEO agency or optimize manually, but public materials do not
-    specify.
+  current_alternative_en: Users may hire an SEO agency or optimize manually, but public
+    materials do not specify.
   usage_reason: 仓库获得 343 星，表明开发者关注，但持续使用和付费尚未核验。
-  usage_reason_en: The repository has 343 stars, showing developer interest, but sustained use and payment
-    are not yet verified.
+  usage_reason_en: The repository has 343 stars, showing developer interest, but sustained
+    use and payment are not yet verified.
 - id: req-full-fire-your-seo-agency-2026-09-01
   project_slug: fire-your-seo-agency
   level: full
@@ -224,14 +225,14 @@
   next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
   market: ''
   job: SEO专员、内容营销经理需要审计和优化网站的 SEO、AEO、GEO、LLMO 和 Naver 搜索优化。
-  job_en: SEO specialists and content marketing managers need to audit and optimize SEO, AEO, GEO, LLMO,
-    and Naver search optimization.
+  job_en: SEO specialists and content marketing managers need to audit and optimize
+    SEO, AEO, GEO, LLMO, and Naver search optimization.
   pain: 传统 SEO 代理服务费用高昂（每月 50-350 万韩元），且优化流程耗时。
-  pain_en: Traditional SEO agency services are expensive (KRW 500,000-3,500,000 per month) and optimization
-    processes are time-consuming.
+  pain_en: Traditional SEO agency services are expensive (KRW 500,000-3,500,000 per
+    month) and optimization processes are time-consuming.
   current_alternative: 目前企业通常聘请 SEO 代理或内部手动优化，成本高且效率低。
-  current_alternative_en: Currently companies typically hire SEO agencies or optimize manually in-house,
-    which is costly and inefficient.
+  current_alternative_en: Currently companies typically hire SEO agencies or optimize
+    manually in-house, which is costly and inefficient.
   usage_reason: 公开代码仓库有 379 个星标，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 379 stars, showing developer attention; repeat use and payment
-    are not yet verified.
+  usage_reason_en: Its public repository has 379 stars, showing developer attention;
+    repeat use and payment are not yet verified.

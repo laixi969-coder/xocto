@@ -28,17 +28,18 @@
   next_validation: 关注代码仓库的 issue 和 discussion，看用户是否报告实际使用效果和问题。
   market: ''
   job: 量化研究员需要完成从数据获取、因子测试到回测的完整研究流程。
-  job_en: Quantitative researchers need to complete the full research loop from data retrieval, factor
-    testing to backtesting.
+  job_en: Quantitative researchers need to complete the full research loop from data
+    retrieval, factor testing to backtesting.
   pain: 传统研究流程耗时且重复，需要大量手动编码和数据整理。
-  pain_en: Traditional research process is time-consuming and repetitive, requiring extensive manual coding
-    and data wrangling.
+  pain_en: Traditional research process is time-consuming and repetitive, requiring
+    extensive manual coding and data wrangling.
   current_alternative: 目前研究员通常手动编写 Python 脚本，使用 Wind、聚宽等平台进行回测。
-  current_alternative_en: Currently researchers typically write Python scripts manually and use platforms
-    like Wind or JoinQuant for backtesting.
+  current_alternative_en: Currently researchers typically write Python scripts manually
+    and use platforms like Wind or JoinQuant for backtesting.
   usage_reason: 开源项目获得 215 个星标，说明开发者社区对自主研究代理有兴趣，但实际采用和付费尚未核验。
-  usage_reason_en: The open-source project has 215 stars, indicating developer community interest in autonomous
-    research agents, but actual adoption and payment are not yet verified.
+  usage_reason_en: The open-source project has 215 stars, indicating developer community
+    interest in autonomous research agents, but actual adoption and payment are not
+    yet verified.
 - id: req-full-evoquant-2026-09-01
   project_slug: evoquant
   level: full
@@ -69,17 +70,18 @@
   next_validation: 关注代码仓库的 issue 和 discussion，看用户是否报告实际使用效果和问题。
   market: ''
   job: 量化研究员需要完成从数据获取、因子测试到回测的完整研究流程。
-  job_en: Quantitative researchers need to complete the full research loop from data retrieval, factor
-    testing to backtesting.
+  job_en: Quantitative researchers need to complete the full research loop from data
+    retrieval, factor testing to backtesting.
   pain: 传统研究流程耗时且重复，需要大量手动编码和数据整理。
-  pain_en: Traditional research process is time-consuming and repetitive, requiring extensive manual coding
-    and data wrangling.
+  pain_en: Traditional research process is time-consuming and repetitive, requiring
+    extensive manual coding and data wrangling.
   current_alternative: 目前研究员通常手动编写 Python 脚本，使用 Wind、聚宽等平台进行回测。
-  current_alternative_en: Currently researchers typically write Python scripts manually and use platforms
-    like Wind or JoinQuant for backtesting.
+  current_alternative_en: Currently researchers typically write Python scripts manually
+    and use platforms like Wind or JoinQuant for backtesting.
   usage_reason: 开源项目获得 215 个星标，说明开发者社区对自主研究代理有兴趣，但实际采用和付费尚未核验。
-  usage_reason_en: The open-source project has 215 stars, indicating developer community interest in autonomous
-    research agents, but actual adoption and payment are not yet verified.
+  usage_reason_en: The open-source project has 215 stars, indicating developer community
+    interest in autonomous research agents, but actual adoption and payment are not
+    yet verified.
 - id: req-full-evoquant-2026-09-05
   project_slug: evoquant
   level: full
@@ -109,19 +111,22 @@
     reason: 自述全循环自主交付，但回测有效性、自进化是否引入过拟合或前视偏差、结论可否复现核验，均无部署文档或公开实测支撑，确定性交付尚未核验。
     evidence_ids:
     - ev-ee9256825c79a865
-  next_validation: 追踪 GitHub 仓库（CamusGIT/EvoQuant）的 issue 与 discussion，寻找用户报告的实际回测结果、复现记录或部署问题。
+  next_validation: 追踪 公开代码仓库 仓库（CamusGIT/EvoQuant）的 issue 与 discussion，寻找用户报告的实际回测结果、复现记录或部署问题。
   market: ''
   job: 量化研究员与投资分析师需要完成从数据获取、因子构造与测试、回测到撰写研究结论的完整研究循环。
-  job_en: 'Quant researchers and investment analysts need to complete the full research loop: data acquisition,
-    factor construction and testing, backtesting, and writing up research conclusions.'
+  job_en: 'Quant researchers and investment analysts need to complete the full research
+    loop: data acquisition, factor construction and testing, backtesting, and writing
+    up research conclusions.'
   pain: 该循环高度重复且编码密集，数据清洗与因子试错耗时，挤占真正的洞察产出时间；此痛点由公开产品定位与行业结构推得，属结构推理，直接用户抱怨尚未核验。
-  pain_en: The loop is highly repetitive and code-heavy; data cleaning and factor iteration eat time that
-    should go to real insight. This pain is inferred from the product's stated positioning and industry
-    structure, not yet backed by direct user complaints.
+  pain_en: The loop is highly repetitive and code-heavy; data cleaning and factor
+    iteration eat time that should go to real insight. This pain is inferred from
+    the product's stated positioning and industry structure, not yet backed by direct
+    user complaints.
   current_alternative: 手写 Python 脚本，并借助开源回测框架或商业量化平台自行搭建数据与回测流程。
-  current_alternative_en: Manually writing Python scripts and assembling data and backtesting pipelines
-    with open-source frameworks or commercial quant platforms.
+  current_alternative_en: Manually writing Python scripts and assembling data and
+    backtesting pipelines with open-source frameworks or commercial quant platforms.
   usage_reason: 仓库两周内星标从 204 升至 215（后小幅回落至 212），显示社区对自主量化研究代理有兴趣；免费开源降低试用门槛，但实际使用与付费尚未核验。
-  usage_reason_en: Repo stars rose from 204 to 215 within about two weeks (dipping slightly to 212), showing
-    community interest in an autonomous quant research agent; free open source lowers the trial barrier,
-    but actual usage and payment remain unverified.
+  usage_reason_en: Repo stars rose from 204 to 215 within about two weeks (dipping
+    slightly to 212), showing community interest in an autonomous quant research agent;
+    free open source lowers the trial barrier, but actual usage and payment remain
+    unverified.

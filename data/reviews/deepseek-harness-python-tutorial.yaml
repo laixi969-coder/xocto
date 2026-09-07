@@ -27,17 +27,17 @@
   next_validation: 检查 公开代码仓库 仓库的 issue 和讨论，了解学习者对教程内容的反馈和实际采用情况。
   market: ''
   job: 开发者需要学习如何从零构建 AI Agent，理解核心组件和流程。
-  job_en: Developers need to learn how to build AI agents from scratch, understanding core components
-    and workflows.
+  job_en: Developers need to learn how to build AI agents from scratch, understanding
+    core components and workflows.
   pain: AI Agent 开发资料分散，缺乏系统性的实战教程，入门门槛高。
-  pain_en: AI agent development resources are scattered, lacking systematic hands-on tutorials, with a
-    high entry barrier.
+  pain_en: AI agent development resources are scattered, lacking systematic hands-on
+    tutorials, with a high entry barrier.
   current_alternative: 开发者通常依赖官方文档、零散博客或视频，但难以形成完整认知。
-  current_alternative_en: Developers typically rely on official docs, scattered blogs, or videos, which
-    fail to provide a complete understanding.
+  current_alternative_en: Developers typically rely on official docs, scattered blogs,
+    or videos, which fail to provide a complete understanding.
   usage_reason: 系统教程可降低学习成本，但需验证内容质量和学习者的实际进步。
-  usage_reason_en: Systematic tutorials can lower learning costs, but content quality and actual learner
-    progress need validation.
+  usage_reason_en: Systematic tutorials can lower learning costs, but content quality
+    and actual learner progress need validation.
 - id: req-full-deepseek-harness-python-tutorial-2026-09-05
   project_slug: deepseek-harness-python-tutorial
   level: full
@@ -47,8 +47,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决开发者从零理解 Agent 内部机制的学习需求：框架文档只讲调用、源码庞大难读，痛点是缺一条可动手的完整实现路径。17 章从 loop 到上下文工程逐章交付可运行代码，属工作流结构推理；星标三日
-      122→124 旁证有人愿意跟进。
+    reason: 它解决开发者从零理解 Agent 内部机制的学习需求：框架文档只讲调用、源码庞大难读，痛点是缺一条可动手的完整实现路径。17 章从 loop
+      到上下文工程逐章交付可运行代码，属工作流结构推理；星标三日 122→124 旁证有人愿意跟进。
     evidence_ids:
     - ev-8928b6a18f63f2df
     - ev-99d0715f5c24dd0e
@@ -69,18 +69,20 @@
     reason: 教程以文本加可运行代码交付，学完即得到一个自建 Agent 框架，与学习目标直接对应，交付可确定；风险是 DeepSeek API 迭代后章节易过时，维护活跃度尚无公开证据。
     evidence_ids:
     - ev-99d0715f5c24dd0e
-  next_validation: 持续追踪该 GitHub 仓库的 issue 与 discussion：若出现学习者按章节实操的反馈、勘误请求或基于教程的派生实现，即验证教程被真实使用；同时跟踪星标/派生增长曲线与章节更新记录。
+  next_validation: 持续追踪该 公开代码仓库 仓库的 issue 与 discussion：若出现学习者按章节实操的反馈、勘误请求或基于教程的派生实现，即验证教程被真实使用；同时跟踪星标/派生增长曲线与章节更新记录。
   market: ''
   job: 开发者要从零掌握 AI Agent 的内部构造：agent loop、工具调用、上下文工程、subagent，而不是只会调用框架 API。
-  job_en: Developers need to learn how AI agents work internally—agent loop, tool calling, context engineering,
-    subagents—not just call framework APIs.
+  job_en: Developers need to learn how AI agents work internally—agent loop, tool
+    calling, context engineering, subagents—not just call framework APIs.
   pain: 框架文档只教怎么用、源码庞大难读，讲透 Agent 核心机制的系统性动手教程稀缺，入门门槛高。
-  pain_en: Framework docs only teach usage and the source code is large and hard to read; systematic hands-on
-    material on agent internals is scarce, so the entry barrier is high.
+  pain_en: Framework docs only teach usage and the source code is large and hard to
+    read; systematic hands-on material on agent internals is scarce, so the entry
+    barrier is high.
   current_alternative: 官方文档、零散博客与视频、直接啃框架源码，或其他同类 build-from-scratch 教程。
-  current_alternative_en: Official docs, scattered blogs and videos, reading framework source directly,
-    or other build-from-scratch tutorials.
+  current_alternative_en: Official docs, scattered blogs and videos, reading framework
+    source directly, or other build-from-scratch tutorials.
   usage_reason: 17 章渐进式结构加可运行 Python 代码降低了自行拼装的成本；发布三日星标 122→124，说明有开发者认为值得收藏跟进；但星标只解释关注，付费与完课率尚未核验。
-  usage_reason_en: A 17-chapter progressive structure with runnable Python code lowers the cost of assembling
-    it yourself; stars grew 122→124 within days, showing developers find it worth following—stars only
-    explain attention; payment and completion rates remain unverified.
+  usage_reason_en: A 17-chapter progressive structure with runnable Python code lowers
+    the cost of assembling it yourself; stars grew 122→124 within days, showing developers
+    find it worth following—stars only explain attention; payment and completion rates
+    remain unverified.

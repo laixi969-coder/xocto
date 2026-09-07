@@ -7,8 +7,8 @@
   gates:
   - gate: value
     status: supported
-    reason: 它解决的用户需求和痛点是：“AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs,
-      security risk”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
+    reason: 它解决的用户需求和痛点是：“AI-powered CLI for reviewing 公开代码仓库 pull requests, detecting
+      potential bugs, security risk”。付钱的人尚未从公开材料确认，这不等于没有这个需求。
     evidence_ids:
     - ev-5578b28a09bcf318
   - gate: consensus
@@ -29,14 +29,14 @@
   job: 开源维护者、开发者
   job_en: Open-source maintainers, Developers
   pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
-  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
-    frequency, or consequence of leaving it unsolved.
+  pain_en: The product targets friction in this job, but public user evidence does
+    not yet show the cost, frequency, or consequence of leaving it unsolved.
   current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
-  current_alternative_en: Public materials do not yet show how users complete this job today or what they
-    replace.
+  current_alternative_en: Public materials do not yet show how users complete this
+    job today or what they replace.
   usage_reason: 公开代码仓库有 110 个收藏、93 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
-  usage_reason_en: Its public repository has 110 stars and 93 forks, showing developer attention; repeat
-    use and payment are not yet verified.
+  usage_reason_en: Its public repository has 110 stars and 93 forks, showing developer
+    attention; repeat use and payment are not yet verified.
 - id: req-initial-oss-pr-reviewer-2026-08-29
   project_slug: oss-pr-reviewer
   level: initial
@@ -67,15 +67,17 @@
   next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户报告实际使用案例。
   market: ''
   job: 开源维护者需要快速审查大量 PR，识别潜在问题。
-  job_en: Open-source maintainers need to quickly review many PRs and identify potential issues.
+  job_en: Open-source maintainers need to quickly review many PRs and identify potential
+    issues.
   pain: 人工审查耗时且容易遗漏，尤其是安全风险和回归问题。
-  pain_en: Manual review is time-consuming and prone to missing issues, especially security risks and
-    regressions.
+  pain_en: Manual review is time-consuming and prone to missing issues, especially
+    security risks and regressions.
   current_alternative: 依赖人工审查或使用简单的静态分析工具。
-  current_alternative_en: Relying on manual review or using simple static analysis tools.
+  current_alternative_en: Relying on manual review or using simple static analysis
+    tools.
   usage_reason: AI 工具能自动检测多种问题并生成结构化报告，提高审查效率，吸引维护者关注。
-  usage_reason_en: AI tools can automatically detect various issues and generate structured reports, improving
-    review efficiency, attracting maintainers' attention.
+  usage_reason_en: AI tools can automatically detect various issues and generate structured
+    reports, improving review efficiency, attracting maintainers' attention.
 - id: req-full-oss-pr-reviewer-2026-08-29
   project_slug: oss-pr-reviewer
   level: full
@@ -106,15 +108,17 @@
   next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户报告实际使用案例。
   market: ''
   job: 开源维护者需要快速审查大量 PR，识别潜在问题。
-  job_en: Open-source maintainers need to quickly review many PRs and identify potential issues.
+  job_en: Open-source maintainers need to quickly review many PRs and identify potential
+    issues.
   pain: 人工审查耗时且容易遗漏，尤其是安全风险和回归问题。
-  pain_en: Manual review is time-consuming and prone to missing issues, especially security risks and
-    regressions.
+  pain_en: Manual review is time-consuming and prone to missing issues, especially
+    security risks and regressions.
   current_alternative: 依赖人工审查或使用简单的静态分析工具。
-  current_alternative_en: Relying on manual review or using simple static analysis tools.
+  current_alternative_en: Relying on manual review or using simple static analysis
+    tools.
   usage_reason: AI 工具能自动检测多种问题并生成结构化报告，提高审查效率，吸引维护者关注。
-  usage_reason_en: AI tools can automatically detect various issues and generate structured reports, improving
-    review efficiency, attracting maintainers' attention.
+  usage_reason_en: AI tools can automatically detect various issues and generate structured
+    reports, improving review efficiency, attracting maintainers' attention.
 - id: req-full-oss-pr-reviewer-2026-08-30
   project_slug: oss-pr-reviewer
   level: full
@@ -145,12 +149,15 @@
   next_validation: 关注代码仓库的 issue 和讨论，以及是否有用户报告实际使用案例。
   market: ''
   job: 开源维护者需要快速审查大量 PR，识别潜在问题。
-  job_en: Open-source maintainers need to quickly review many PRs and identify potential issues.
+  job_en: Open-source maintainers need to quickly review many PRs and identify potential
+    issues.
   pain: 人工审查耗时且容易遗漏，尤其是安全风险和回归问题。
-  pain_en: Manual review is time-consuming and prone to missing issues, especially security risks and
-    regressions.
+  pain_en: Manual review is time-consuming and prone to missing issues, especially
+    security risks and regressions.
   current_alternative: 依赖人工审查或使用简单的静态分析工具。
-  current_alternative_en: Relying on manual review or using simple static analysis tools.
+  current_alternative_en: Relying on manual review or using simple static analysis
+    tools.
   usage_reason: AI 工具能自动检测多种问题并生成结构化报告，提高审查效率，吸引维护者关注，星标 110。
-  usage_reason_en: AI tools can automatically detect various issues and generate structured reports, improving
-    review efficiency, attracting maintainers' attention, with 110 stars.
+  usage_reason_en: AI tools can automatically detect various issues and generate structured
+    reports, improving review efficiency, attracting maintainers' attention, with
+    110 stars.
