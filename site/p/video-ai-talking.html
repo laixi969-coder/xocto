@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>video-ai-talking · x-octo</title>
+<meta name="description" content="面向想做真人口播但不愿出镜的创作者：上传一段真人出镜视频，写好字幕，工具在本机完成配音并对口型，合成竖屏 MP4，密钥仅留在浏览器。">
+<link rel="canonical" href="https://xocto.vercel.app/p/video-ai-talking.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/video-ai-talking.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/video-ai-talking.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/video-ai-talking.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="video-ai-talking · x-octo">
+<meta property="og:description" content="面向想做真人口播但不愿出镜的创作者：上传一段真人出镜视频，写好字幕，工具在本机完成配音并对口型，合成竖屏 MP4，密钥仅留在浏览器。">
+<meta property="og:url" content="https://xocto.vercel.app/p/video-ai-talking.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/video-ai-talking.html#webpage", "@type": "WebPage", "description": "\u9762\u5411\u60f3\u505a\u771f\u4eba\u53e3\u64ad\u4f46\u4e0d\u613f\u51fa\u955c\u7684\u521b\u4f5c\u8005\uff1a\u4e0a\u4f20\u4e00\u6bb5\u771f\u4eba\u51fa\u955c\u89c6\u9891\uff0c\u5199\u597d\u5b57\u5e55\uff0c\u5de5\u5177\u5728\u672c\u673a\u5b8c\u6210\u914d\u97f3\u5e76\u5bf9\u53e3\u578b\uff0c\u5408\u6210\u7ad6\u5c4f MP4\uff0c\u5bc6\u94a5\u4ec5\u7559\u5728\u6d4f\u89c8\u5668\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "video-ai-talking", "url": "https://xocto.vercel.app/p/video-ai-talking.html"}, {"@id": "https://xocto.vercel.app/p/video-ai-talking.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u521b\u4f5c", "dateModified": "2026-09-07", "datePublished": "2026-08-31", "description": "\u9762\u5411\u60f3\u505a\u771f\u4eba\u53e3\u64ad\u4f46\u4e0d\u613f\u51fa\u955c\u7684\u521b\u4f5c\u8005\uff1a\u4e0a\u4f20\u4e00\u6bb5\u771f\u4eba\u51fa\u955c\u89c6\u9891\uff0c\u5199\u597d\u5b57\u5e55\uff0c\u5de5\u5177\u5728\u672c\u673a\u5b8c\u6210\u914d\u97f3\u5e76\u5bf9\u53e3\u578b\uff0c\u5408\u6210\u7ad6\u5c4f MP4\uff0c\u5bc6\u94a5\u4ec5\u7559\u5728\u6d4f\u89c8\u5668\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/video-ai-talking.html#webpage"}, "name": "video-ai-talking", "url": "https://xocto.vercel.app/p/video-ai-talking.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/video-ai-talking.html", "name": "video-ai-talking", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=9a13f6d95f1d">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/video-ai-talking.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>video-ai-talking</h1>
+      </div>
+      <p class="product-lede">面向想做真人口播但不愿出镜的创作者：上传一段真人出镜视频，写好字幕，工具在本机完成配音并对口型，合成竖屏 MP4，密钥仅留在浏览器。</p>
+      <div class="meta product-meta">
+<span class="tag sig">还不是生意</span>        <span class="tag">刚冒头</span>
+<span class="tag">开源项目</span><span class="tag">AI + 创作</span><span class="tag">内容创作</span><span class="tag">短视频</span><span class="tag">真人口播创作者</span><span class="tag">短视频运营</span><span class="tag sig">跨国机会</span><span class="tag sig">开源关注 233</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>团队 / 作者</dt><dd>yizhi-chengzi</dd></div>
+      <div><dt>本站首次收录</dt><dd class="num">2026-08-31</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-07</dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-07</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">工作现场</span>
+        <p class="product-lead">创作者需要制作真人口播视频，但不想或无法亲自出镜。</p>
+        <p>目前替代方案包括使用 AI 数字人（但常显僵硬）、雇佣演员（成本高）或放弃口播形式。</p>
+        <p>出镜需要形象管理、拍摄环境和表演能力，对许多创作者是硬门槛。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>需求有依据</h3>
+        <p>短视频口播需求旺盛，但出镜是许多人的门槛。此工具将口播制作拆解为配音与对口型，切入内容创作的具体环节，可探索按视频条数或订阅收费的模式。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">采用动机</span>
+        <h3>为什么有人会把它留在工作流里</h3>
+        <p>开源且本地处理保护隐私，吸引不愿上传人脸到云端的创作者；公开代码仓库 星数增长显示关注度。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>官方定价页或付费版本信息，或用户社区中的实际使用反馈。</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。开源且本地处理保护隐私，吸引不愿上传人脸到云端的创作者；公开代码仓库 星数增长显示关注度。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>短视频口播需求旺盛，但出镜是许多人的门槛。此工具将口播制作拆解为配音与对口型，切入内容创作的具体环节，可探索按视频条数或订阅收费的模式。</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>它解决什么需求、什么痛点：解决创作者不愿出镜但需要口播视频的痛点，交付为合成好的竖屏 MP4，价值结构成立。</p></div>
+        <div><span class="field-k">工作流推理</span><p>开源且本地处理保护隐私，吸引不愿上传人脸到云端的创作者；公开代码仓库 星数增长显示关注度。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>官方定价页或付费版本信息，或用户社区中的实际使用反馈。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>它解决什么需求、什么痛点：解决创作者不愿出镜但需要口播视频的痛点，交付为合成好的竖屏 MP4，价值结构成立。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>公开代码仓库 星数增长显示关注，但缺乏用户评价或持续采用证据，共识尚不明确。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>开源项目，无定价信息，付费路径不明，可能面向 to C 创作者，但未验证。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>贴近口播创作的第一性目标，本地处理保障隐私，交付可确定。</p>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照 · 跨国机会</p>
+      </div>
+    </div>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：早期出现<br>需求证据：尚未核验</p>
+        <p class="note">已覆盖的英文生态公开项目发布与开发者讨论。 · 2026-09-07</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-07。未发现仅限该覆盖范围。 · 2026-09-07</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析还没写。先看上面的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/shuohao-skills.html">shuohao-skills</a>、        <a href="../p/open-ai-canvas.html">open-ai-canvas</a>      </p>
+    </div>
+  </section>
+
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22video-ai-talking%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22video-ai-talking%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22video-ai-talking%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22video-ai-talking%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22video-ai-talking%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
+        AI + 创作 共 118 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/shuohao-skills.html">
+          <div class="row-head desk-row">
+            <span class="row-name">shuohao-skills</span>
+            <span class="row-desc">把一本小说拆成能直接开拍的短剧包：人物设定、形象、音色、分集大纲。</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/open-ai-canvas.html">
+          <div class="row-head desk-row">
+            <span class="row-name">open-ai-canvas</span>
+            <span class="row-desc">把小说里的角色钉成可复用资产，分镜、图、视频、配音在同一张画布上排成片。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/douyin-tiktok-story-skill-agent.html">
+          <div class="row-head desk-row">
+            <span class="row-name">douyin-tiktok-story-skill-agent</span>
+            <span class="row-desc">短视频编剧按剧情标签搜本地脚本库，马上找到对口参考，不用再刷平台记笔记</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/moonlit-stories.html">
+          <div class="row-head desk-row">
+            <span class="row-name">moonlit-stories</span>
+            <span class="row-desc">家长在自己电脑上做英文绘本，十二页画风统一，还能用爸妈的声音念。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/acryl.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">acryl</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/modex-mh-agent.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">modex-mh-agent</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">不用，谢谢</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>1245 个案例 · 176 份生意判断</span>
+    <span class="gen">数据截至 2026-09-07</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
