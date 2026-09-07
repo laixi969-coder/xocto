@@ -40,8 +40,20 @@
 }
 @font-face {
   font-family: "Noto Sans SC";
+  src: url("fonts/noto-sans-sc-400-subset.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  /* 中粗文本（500）复用 400 子集：没有 Regular/Medium 之间的真字重，
+     也不能让 500 掉到 700 那一档去假粗。 */
+  font-family: "Noto Sans SC";
+  src: url("fonts/noto-sans-sc-400-subset.woff2") format("woff2");
+  font-weight: 500; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Noto Sans SC";
   src: url("fonts/noto-sans-sc-700-subset.woff2") format("woff2");
-  font-weight: 700; font-style: normal; font-display: swap;
+  font-weight: 600 700; font-style: normal; font-display: swap;
 }
 
 * { box-sizing: border-box; }
@@ -1551,3 +1563,21 @@ button[aria-busy="true"], input[aria-busy="true"], select[aria-busy="true"], [da
   .product-desk .product-markets { grid-template-columns: 1fr; }
   .products-desk .desk-command { grid-template-columns: 1fr; }
 }
+
+/* 案例详情页与首页案例卡（CASE_PIPELINE_SPEC.md） */
+.case-playbooks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.case-playbooks li {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  padding: 12px 4px;
+  border-top: 1px solid var(--line-soft);
+}
+.case-playbooks li:first-child { border-top: 0; }
+.case-playbooks .num { color: var(--signal); font-size: 10px; font-weight: 600; }
+.case-cta-row { margin-top: 14px; }
+.case-cta-row a { font-weight: 600; }
