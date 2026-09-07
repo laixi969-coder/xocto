@@ -203,6 +203,7 @@ navy `#25345c` 是品牌色，和站内的 deep-forest 不同色系。这是刻�
 ### 产品详情 / 报告 desk
 
 - `templates/product.html` → `.product-desk`：密报头、分区编号、描边判断块、证据折叠。
+- `templates/takeaways.html` → `.takeaways-desk`：每个案例三栏——这是什么、功能、可参考；不盖生意判断徽章。
 - `templates/report.html` / `reports.html` → `.report-desk` / `.reports-desk`：与首页/打法库同一套 command + bordered sections。
 - `methodology.html` / `privacy.html` → `.reading-desk` 轻量共用 chrome。
 

@@ -53,7 +53,7 @@ from .models import (
     scrub_pending_phrase,
     today,
 )
-from .dedupe import is_aggregator, url_host
+from .dedupe import url_host
 from .i18n import LOCALES, Locale, other
 from .report import ReportDoc, parse_report, split_stat
 from .store import Store
@@ -376,6 +376,7 @@ class Analysis:
     analyzed_at: str
     body_html: str
     excerpt: str
+    functions: str = ""
     replaces: str = ""
     money: str = ""
     takeaway: str = ""
@@ -422,13 +423,45 @@ def _section(body: str, *titles: str, limit: int = 200, allow_list: bool = False
     return ""
 
 
+def _capability_heads(body: str, *titles: str, joiner: str = "；") -> str:
+    """功能只保留能力名，不把整段实现说明摊开。"""
+    for title in titles:
+        match = re.search(
+            rf"^##\s*{re.escape(title)}[^\n]*\n+(.+?)(?=\n#{{1,2}}\s|\Z)",
+            body,
+            re.S | re.M,
+        )
+        if not match:
+            continue
+        section = match.group(1)
+        bullets = re.findall(
+            r"(?ms)^\s*[-*+]\s+(.+?)(?=\n\s*[-*+]|\n\n|\Z)",
+            section,
+        )
+        heads: list[str] = []
+        for raw in bullets:
+            line = raw.splitlines()[0]
+            line = re.sub(r"\*\*(.+?)\*\*", r"\1", line)
+            head = re.split(r"\s*(?:→|—|–)\s*", line, maxsplit=1)[0]
+            head = _strip_md(head, 28).rstrip("：:，,")
+            if head:
+                heads.append(head)
+            if len(heads) >= 6:
+                break
+        if heads:
+            return joiner.join(heads)
+        return _section(body, title, limit=120)
+    return ""
+
+
 # 「可借鉴的做法」章节里的三个主题标记。中英文都用同一个正则匹配：
 # 中文是 **产品逻辑**：/ **话术**：/ **定价结构**：
-# 英文是 **Product logic**: / **Narrative**: / **Pricing structure**:
+# 英文是 **Product logic**: / **Positioning language**: / **Pricing structure**:
 _TOPIC_LABELS = {
     "产品逻辑": "product", "Product logic": "product",
     "话术": "narrative", "Narrative": "narrative",
-    "定价结构": "pricing", "Pricing structure": "pricing",
+    "Positioning language": "narrative", "Positioning": "narrative", "定位语": "narrative",
+    "定价结构": "pricing", "Pricing structure": "pricing", "Pricing": "pricing", "定价": "pricing",
 }
 
 
@@ -451,7 +484,9 @@ def _takeaway_topics(body: str, *titles: str) -> dict[str, str]:
         return topics
     # 按 **label**：切分
     pattern = re.compile(
-        r"\*\*(" + "|".join(re.escape(k) for k in _TOPIC_LABELS) + r")\*\*[：:]\s*",
+        r"\*\*("
+        + "|".join(re.escape(k) for k in sorted(_TOPIC_LABELS, key=len, reverse=True))
+        + r")\*\*[：:]\s*",
         re.M,
     )
     splits = pattern.split(section_text)
@@ -469,6 +504,87 @@ def _takeaway_topics(body: str, *titles: str) -> dict[str, str]:
         if text:
             topics[key] = text
     return topics
+
+
+# 分析员写「无」是纪律；打法库是给操盘手用的方法页。
+# 没有讲法的行不进索引。有讲法、只是开头写了「无」的（无特别 / 反而 / 无。但）要留下。
+_KEEP_METHOD = re.compile(
+    r"反而|本身就是|靠具体|引以为戒|标题就是|"
+    r"itself (?:the |a )?(?:hook|lesson)|title is everything|"
+    r"^无特别|"
+    r"^(?:无|none)\s*[。.,，]\s*(?:但|but)\b",
+    re.I,
+)
+_STEAL_PREFIX = re.compile(
+    r"^(?:可偷一句|可抄一句|可借鉴一句|one line worth stealing|the most stealable (?:line|part))[：:\s—–\-]*",
+    re.I,
+)
+_NO_SLOGAN_PREFIX = re.compile(
+    r"^(?:无特别可[偷抄]的句式|nothing worth copying verbatim)[，,;；]\s*",
+    re.I,
+)
+_ANALYST_NONE_LEAD = re.compile(
+    r"^(?:无|none)\s*[。.,，]\s*(?:但|but\b)?\s*",
+    re.I,
+)
+_UNDISCLOSED_LEAD = re.compile(
+    r"^(?:未披露|not disclosed)\s*[。.]?\s*",
+    re.I,
+)
+
+
+def _blank_takeaway(text: str) -> bool:
+    """没有可换场景的方法时返回 True。"""
+    t = " ".join((text or "").split()).strip()
+    if not t:
+        return True
+    if re.fullmatch(r"(?:无|none|n/?a|nil)\s*[。.,，]?", t, re.I):
+        return True
+    if _KEEP_METHOD.search(t):
+        return False
+    if re.match(r"^(?:无|none)\s*[。.,，]", t, re.I):
+        return True
+    return False
+
+
+def _public_method_text(text: str) -> str:
+    """打法库上的正文：去掉分析员口吻，留下方法本身。"""
+    t = " ".join((text or "").split()).strip()
+    if _blank_takeaway(t):
+        return ""
+    t = _STEAL_PREFIX.sub("", t)
+    t = _NO_SLOGAN_PREFIX.sub("", t)
+    t = _ANALYST_NONE_LEAD.sub("", t, count=1)
+    t = _UNDISCLOSED_LEAD.sub("", t, count=1)
+    return t.strip()
+
+
+def _reference_points(topics: dict | None) -> list[str]:
+    """读者能拿走的做法：产品机制和收费结构。官网金句不在这里。"""
+    refs: list[str] = []
+    for key in ("product", "pricing"):
+        method = _public_method_text((topics or {}).get(key, ""))
+        if method:
+            refs.append(method)
+    return refs
+
+
+_NARRATIVE_LABEL = (
+    r"话术|定位语|Narrative|Positioning(?: language)?"
+)
+_NARRATIVE_BLOCK = re.compile(
+    r"\n*\*\*(?:" + _NARRATIVE_LABEL + r")\*\*[：:]\s*"
+    r".*?(?=\n\*\*(?:产品逻辑|定价结构|定价|Product logic|Pricing structure|Pricing|"
+    + _NARRATIVE_LABEL
+    + r")\*\*|\n## |\Z)",
+    re.S | re.I,
+)
+
+
+def _drop_narrative_for_readers(body: str) -> str:
+    """读者页不展示话术栏。源文件仍保留，供分析用。"""
+    cleaned = _NARRATIVE_BLOCK.sub("\n\n", body)
+    return re.sub(r"\n{3,}", "\n\n", cleaned).strip() + "\n"
 
 
 @dataclass(frozen=True)
@@ -552,6 +668,9 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
             excerpt = _strip_md(body)
 
         verdict = front.get("verdict") or ""
+        topics = _takeaway_topics(body, *locale.heading_takeaway)
+        refs = _reference_points(topics)
+        reader_body = _drop_narrative_for_readers(body)
         out.append(
             Analysis(
                 slug=slug,
@@ -560,14 +679,23 @@ def load_analyses(store: Store, locale: Locale) -> list[Analysis]:
                 verdict_key=locale.verdict_key(verdict),
                 verdict_rank=locale.verdict_rank(verdict),
                 analyzed_at=str(front.get("analyzed_at") or ""),
-                body_html=_desk_wrap_analysis_html(scrub_pending_phrase(_finish_inline_emphasis(_markdown(body)))),
+                body_html=_desk_wrap_analysis_html(
+                    scrub_pending_phrase(_finish_inline_emphasis(_markdown(reader_body)))
+                ),
                 excerpt=scrub_pending_phrase(excerpt),
+                functions=scrub_pending_phrase(
+                    _capability_heads(
+                        body,
+                        *locale.heading_functions,
+                        joiner="；" if locale.key == "zh" else "; ",
+                    )
+                ),
                 replaces=scrub_pending_phrase(_section(body, *locale.heading_replaces)),
                 money=scrub_pending_phrase(_section(body, *locale.heading_money, allow_list=True, limit=240)),
-                takeaway=scrub_pending_phrase(_section(body, *locale.heading_takeaway)),
+                takeaway=scrub_pending_phrase(" ".join(refs)),
                 call=scrub_pending_phrase(_section(body, *locale.heading_call, limit=300)),
                 watch_next=scrub_pending_phrase(_section(body, *locale.heading_watch_next, limit=300, allow_list=True)),
-                takeaway_topics=_takeaway_topics(body, *locale.heading_takeaway),
+                takeaway_topics=topics,
             )
         )
     return sorted(out, key=lambda a: (a.verdict_rank, a.name))
@@ -626,9 +754,30 @@ def _metric_badges(product: Product, locale: Locale) -> list[str]:
 _INTERNAL_METHOD_RE = re.compile(r"`?/req`?")
 
 
+# 采集来源页，不是产品自己的站点。vercel.app / github.com 这类是产品托管地址，要给读者。
+_HIDDEN_PUBLIC_HOSTS = frozenset(
+    {
+        "producthunt.com",
+        "aicpb.com",
+        "news.ycombinator.com",
+        "ycombinator.com",
+        "x.com",
+        "twitter.com",
+        "reddit.com",
+        "youtube.com",
+        "linkedin.com",
+    }
+)
+
+
 def _public_page_url(url: str) -> str:
-    """读者能看到的外链。聚合站链接既暴露来源，也不是产品自己的页面。"""
-    if not url or is_aggregator(url_host(url)):
+    """读者能看到的外链。采集来源页不展示；产品自己的托管域名要展示。"""
+    if not url:
+        return ""
+    host = url_host(url)
+    if not host:
+        return ""
+    if host in _HIDDEN_PUBLIC_HOSTS or any(host.endswith("." + item) for item in _HIDDEN_PUBLIC_HOSTS):
         return ""
     return url
 
@@ -1363,28 +1512,57 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "cross_market": sum(1 for view in views if view["cross_market"]),
     }
 
-    # 5. 可借鉴索引：从所有产品的 analysis.takeaway_topics 抽出来，
-    # 按三个主题（产品逻辑 / 话术 / 定价结构）分桶。每条引用来源产品 + 链接。
-    # 这张索引页是给创业者用的导航图——不是产品列表，是"方法列表"。
+    # 5. 可参考索引：只收产品机制和收费结构，不收官网金句。
     takeaways_by_topic: dict[str, list[dict]] = {"product": [], "narrative": [], "pricing": []}
     for a in analyses:
         if a.slug not in view_by_slug:
             continue
         v = view_by_slug[a.slug]
         for key, text in (a.takeaway_topics or {}).items():
-            if not text or key not in takeaways_by_topic:
+            if key == "narrative" or not text or key not in takeaways_by_topic:
                 continue
-            # 「无。」或 "无。" 这种诚实承认不可借鉴的，不进索引
-            if re.fullmatch(r"[无N][oOoO]?\s*[。.]?", text):
+            method = _public_method_text(text)
+            if not method:
                 continue
             takeaways_by_topic[key].append({
                 "slug": a.slug,
                 "name": v["name"],
                 "category": v["category"],
-                "verdict": a.verdict,
-                "verdict_key": a.verdict_key,
-                "text": text,
+                "text": method,
             })
+
+    # 打法库给读者看的是案例，不是方法分类。每个案例三件事：
+    # 这是什么、能干什么、有什么可以参考。没有可参考的不进这一页。
+    playbook_cases: list[dict] = []
+    for a in analyses:
+        if a.slug not in view_by_slug:
+            continue
+        refs = _reference_points(a.takeaway_topics)
+        if locale.key == "en":
+            refs = [text for text in (_english_text(item) for item in refs) if text]
+        if not refs:
+            continue
+        v = view_by_slug[a.slug]
+        what = a.excerpt or v.get("summary") or ""
+        functions = a.functions
+        if locale.key == "en":
+            what = _english_text(what)
+            functions = _english_text(functions)
+        if not what:
+            continue
+        playbook_cases.append({
+            "slug": a.slug,
+            "name": v["name"],
+            "category": v["category"],
+            "what": what,
+            "functions": functions,
+            "refs": refs,
+            "url": v.get("url") or "",
+            "url_host": url_host(v["url"]) if v.get("url") else "",
+            "analyzed_at": a.analyzed_at,
+        })
+    playbook_cases.sort(key=lambda item: item["name"].casefold())
+    playbook_cases.sort(key=lambda item: item["analyzed_at"] or "", reverse=True)
 
     # 6. 创业者能拿走的：首页不再从成熟大产品抽一条「打法」。
     # 定价结构优先，没有再退回产品逻辑；两者都只取还在形成的早期机会。
@@ -1587,6 +1765,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         ),
         "products": sorted(views, key=lambda v: (-v["opportunity_rank"], -v["weight"], v["name"])),
         "takeaways_by_topic": takeaways_by_topic,
+        "playbook_cases": playbook_cases,
         "today_takeaway": today_takeaway,
         "case_studies": case_views,
         "case_spotlights": case_spotlights,
@@ -1946,7 +2125,7 @@ def _build_locale(
 
     write(
         "takeaways.html", "takeaways.html", "takeaways",
-        locale.t["takeaways"]["desc"].format(total=len(ctx["takeaways_by_topic"]["product"]) + len(ctx["takeaways_by_topic"]["narrative"]) + len(ctx["takeaways_by_topic"]["pricing"])),
+        locale.t["takeaways"]["desc"].format(total=len(ctx["playbook_cases"])),
         schema_title=locale.t["takeaways"]["title"],
     )
     sitemap.append((locale.path("takeaways.html"), ctx["latest_day"]))

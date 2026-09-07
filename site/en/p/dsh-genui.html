@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage", "@type": "WebPage", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage"}, "name": "dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-genui.html", "name": "dsh-genui", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=031881deb05f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage", "@type": "WebPage", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-09-02", "datePublished": "2026-08-13", "description": "In a chat with AI, answers grow charts, forms, and quizzes inline, and a click sends the next change back.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-genui.html#webpage"}, "name": "dsh-genui", "sameAs": "https://github.com/omdsh-dev/dsh-genui", "url": "https://xocto.vercel.app/en/p/dsh-genui.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-genui.html", "name": "dsh-genui", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -74,6 +74,7 @@
       <div><dt>Team / maker</dt><dd>omdsh-dev</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-08-13</dd></div>
       <div><dt>Last updated here</dt><dd class="num">2026-09-02</dd></div>
+      <div><dt>Product site</dt><dd><a href="https://github.com/omdsh-dev/dsh-genui" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
     </dl>
   </header>
 
@@ -116,7 +117,7 @@
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
-        <p>Product logic: any generative-AI product that wants models to output structured interfaces should copy this security design wholesale: whitelist-based component rendering + standalone parser (no eval)…</p>
+        <p>any generative-AI product that wants models to output structured interfaces should copy this security design wholesale: whitelist-based component rendering + standalone parser (no eval) + local-first state + action callback to the model. The combination solves security (the model cannot inject scripts), cost (state decisions burn no tokens), and experience (components are clickable) in one move.</p>
       </div>
       <div class="field">
         <span class="field-k">Evidence and risk</span>
@@ -251,7 +252,6 @@
 ② Whether official DSH ships its own fence rendering — baking it in kills the plugin while validating its protocol judgment
 ③ Whether real users publish &quot;agent-generated UI doing work&quot; cases — the only hard evidence that the paradigm holds</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: any generative-AI product that wants models to output structured interfaces should copy this security design wholesale: whitelist-based component rendering + standalone parser (no eval) + local-first state + action callback to the model. The combination solves security (the model cannot inject scripts), cost (state decisions burn no tokens), and experience (components are clickable) in one move.</p>
-<p><strong>Positioning language</strong>: none. The README is engineering documentation.</p>
 <p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Unproven.</strong> The sexiest paradigm and the thinnest evidence in this batch. If &quot;agents generating interactive UI&quot; really is the next interaction paradigm, its protocol design is worth copying directly; but as a product it has not collected a single market vote. Remember its mechanism, not its star count.</p></article></div>
     </article>

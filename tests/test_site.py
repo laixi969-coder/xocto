@@ -31,6 +31,7 @@ from xocto.models import (
     Sighting,
 )
 from xocto.site import (
+    _blank_takeaway,
     _business_form,
     build_context,
     _daily_event_selection,
@@ -42,6 +43,10 @@ from xocto.site import (
     _neutralize_public_source_names,
     _opportunity_action,
     _proven_business_selection,
+    _public_method_text,
+    _public_page_url,
+    load_analyses,
+    _takeaway_topics,
     _remove_stale_pages,
     _req_decision_reason,
     _research_view,
@@ -915,6 +920,217 @@ class PublishabilityTests(unittest.TestCase):
             self.assertTrue((root / "p/keep.html").exists())
             self.assertFalse((root / "p/rejected.html").exists())
             self.assertFalse((root / "en/p/rejected.html").exists())
+
+
+class PlaybookIndexTests(unittest.TestCase):
+    def test_blank_takeaway_drops_no_method_notes(self) -> None:
+        self.assertTrue(_blank_takeaway("无。"))
+        self.assertTrue(_blank_takeaway("无。技术文档，没有可偷的句式。"))
+        self.assertTrue(_blank_takeaway("无。官网是工程文档，没有可偷的句式。"))
+        self.assertTrue(_blank_takeaway("None. README is an engineering doc."))
+        self.assertTrue(_blank_takeaway("无。未披露。"))
+        self.assertTrue(_blank_takeaway("无，未披露。"))
+        self.assertFalse(_blank_takeaway('无。但"非营利 + 捐赠"是可参考的成立方式。'))
+        self.assertFalse(_blank_takeaway(
+            'none. But "nonprofit + donations" is a viable structure.'
+        ))
+        self.assertFalse(_blank_takeaway(
+            "无特别可偷的句式，它的发布文案靠具体细节（「截图取点击前那一帧」）"
+        ))
+        self.assertFalse(_blank_takeaway(
+            "无。标题太技术化，反而值得引以为戒——工具要有可传播的一句话。"
+        ))
+
+    def test_public_method_text_leads_with_the_move(self) -> None:
+        self.assertEqual(_public_method_text("无。技术文档，没有可偷的句式。"), "")
+        self.assertEqual(
+            _public_method_text('可偷一句："Agents grade their own homework."'),
+            '"Agents grade their own homework."',
+        )
+        self.assertEqual(
+            _public_method_text(
+                "无特别可偷的句式，它的发布文案靠具体细节（「截图取点击前那一帧」）"
+            ),
+            "它的发布文案靠具体细节（「截图取点击前那一帧」）",
+        )
+        self.assertEqual(
+            _public_method_text('无。但"非营利 + 捐赠"是可参考的成立方式。'),
+            '"非营利 + 捐赠"是可参考的成立方式。',
+        )
+        self.assertEqual(
+            _public_method_text(
+                'none. But "nonprofit + donations" is a viable structure.'
+            ),
+            '"nonprofit + donations" is a viable structure.',
+        )
+
+    def test_english_positioning_language_maps_to_how_to_say_it(self) -> None:
+        topics = _takeaway_topics(
+            """## What you can take from it
+
+**Product logic**: put verification outside the agent.
+
+**Positioning language**: one line worth stealing — "Agents grade their own homework."
+
+**Pricing structure**: founding user price first.
+""",
+            "What you can take from it",
+        )
+        self.assertEqual(
+            _public_method_text(topics["narrative"]),
+            '"Agents grade their own homework."',
+        )
+        self.assertFalse(_blank_takeaway(
+            "none. Its HN title was too technical — which is itself the lesson: a tool needs one shareable sentence."
+        ))
+        zh_topics = _takeaway_topics(
+            """## 可借鉴的做法
+
+**定位语**："你说话，它操作"。
+
+**定价**：无定价本身就是卖点。
+""",
+            "可借鉴的做法",
+        )
+        self.assertEqual(_public_method_text(zh_topics["narrative"]), '"你说话，它操作"。')
+        self.assertIn("无定价本身就是卖点", _public_method_text(zh_topics["pricing"]))
+        en_short = _takeaway_topics(
+            """## What you can take from it
+
+**Positioning**: "in your own voice."
+""",
+            "What you can take from it",
+        )
+        self.assertEqual(_public_method_text(en_short["narrative"]), '"in your own voice."')
+
+    def test_playbook_copy_answers_what_functions_and_reference(self) -> None:
+        zh = ZH.t["takeaways"]
+        en = EN.t["takeaways"]
+        self.assertEqual(zh["what"], "这是什么")
+        self.assertEqual(zh["functions"], "功能")
+        self.assertEqual(zh["reference"], "可参考")
+        blob = " ".join(str(value) for value in zh.values())
+        self.assertNotIn("文案结构", blob)
+        self.assertNotIn("可偷", blob)
+        self.assertNotIn("可抄", blob)
+        en_blob = " ".join(str(value) for value in en.values()).lower()
+        self.assertNotIn("steal", en_blob)
+        self.assertNotIn("copyable", en_blob)
+        self.assertNotIn("stealable", en_blob)
+        self.assertEqual(en["what"], "What it is")
+        self.assertEqual(en["functions"], "What it does")
+        self.assertEqual(en["reference"], "Worth taking")
+
+    def test_playbook_case_shows_what_functions_and_reference(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            store.save_product(product())
+            (store.analysis_dir / "example.md").write_text(
+                """---
+slug: example
+name: Example
+verdict: 有待观察
+analyzed_at: 2026-08-14
+---
+
+## 一句话定位
+
+独立于 agent 的目击证人。
+
+## 它到底能做哪几件事
+
+- commit 前做像素对比
+- 没动过的页面验证为一致
+
+## 可借鉴的做法
+
+**产品逻辑**：把验收放到被检查方够不着的地方。
+
+**话术**："Agents grade their own homework."
+
+**定价结构**：创始人价先收，版本发布才扣。
+""",
+                encoding="utf-8",
+            )
+            ctx = build_context(store, ZH)
+            self.assertEqual(len(ctx["playbook_cases"]), 1)
+            case = ctx["playbook_cases"][0]
+            self.assertEqual(case["name"], "Example")
+            self.assertIn("目击证人", case["what"])
+            self.assertEqual(
+                case["functions"],
+                "commit 前做像素对比；没动过的页面验证为一致",
+            )
+            self.assertEqual(
+                case["refs"],
+                ["把验收放到被检查方够不着的地方。", "创始人价先收，版本发布才扣。"],
+            )
+            self.assertFalse(any("homework" in item for item in case["refs"]))
+            self.assertNotIn("verdict", case)
+            self.assertNotIn("verdict_key", case)
+            analysis = load_analyses(store, ZH)[0]
+            self.assertIn("验收", analysis.takeaway)
+            self.assertIn("创始人价", analysis.takeaway)
+            self.assertNotIn("homework", analysis.takeaway)
+            self.assertNotIn("话术", analysis.body_html)
+            self.assertNotIn("homework", analysis.body_html)
+            self.assertEqual(case["url"], "https://example.com")
+            self.assertEqual(case["url_host"], "example.com")
+
+    def test_public_page_url_keeps_product_hosts_hides_collection_hosts(self) -> None:
+        self.assertEqual(_public_page_url("https://sightdiff.com/"), "https://sightdiff.com/")
+        self.assertEqual(
+            _public_page_url("https://foo.vercel.app/"),
+            "https://foo.vercel.app/",
+        )
+        self.assertEqual(_public_page_url("https://www.producthunt.com/posts/x"), "")
+        self.assertEqual(_public_page_url("https://news.ycombinator.com/item?id=1"), "")
+
+    def test_playbook_skips_cases_with_nothing_to_reference(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            store.save_product(product())
+            (store.analysis_dir / "example.md").write_text(
+                """---
+slug: example
+name: Example
+verdict: 有待观察
+analyzed_at: 2026-08-14
+---
+
+## 一句话定位
+
+一个时钟页面。
+
+## 可借鉴的做法
+
+**产品逻辑**：无。
+
+**话术**：无。技术文档，没有可偷的句式。
+
+**定价结构**：无。未披露。
+""",
+                encoding="utf-8",
+            )
+            ctx = build_context(store, ZH)
+            self.assertEqual(ctx["playbook_cases"], [])
+
+    def test_takeaways_template_reads_as_case_cards(self) -> None:
+        template = (Path(__file__).parents[1] / "templates" / "takeaways.html").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("playbook_cases", template)
+        self.assertIn("t.takeaways.what", template)
+        self.assertIn("t.takeaways.functions", template)
+        self.assertIn("t.takeaways.reference", template)
+        self.assertIn("t.takeaways.site", template)
+        self.assertIn("item.url", template)
+        self.assertLess(template.index("t.takeaways.what"), template.index("t.takeaways.functions"))
+        self.assertLess(template.index("t.takeaways.functions"), template.index("t.takeaways.reference"))
+        self.assertNotIn("item.verdict", template)
+        self.assertNotIn("topic_product", template)
 
 
 class EvidenceLocalizationTests(unittest.TestCase):

@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html#webpage", "@type": "WebPage", "description": "While AI edits files, the folder tree, editor, terminal, and diffs sit in one sidebar, so people stop hopping across windows.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DSH-better-sidebar", "url": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-27", "datePublished": "2026-08-08", "description": "While AI edits files, the folder tree, editor, terminal, and diffs sit in one sidebar, so people stop hopping across windows.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html#webpage"}, "name": "DSH-better-sidebar", "url": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html", "name": "DSH-better-sidebar", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=031881deb05f">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html#webpage", "@type": "WebPage", "description": "While AI edits files, the folder tree, editor, terminal, and diffs sit in one sidebar, so people stop hopping across windows.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "DSH-better-sidebar", "url": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html"}, {"@id": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Dev", "dateModified": "2026-08-27", "datePublished": "2026-08-08", "description": "While AI edits files, the folder tree, editor, terminal, and diffs sit in one sidebar, so people stop hopping across windows.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html#webpage"}, "name": "DSH-better-sidebar", "sameAs": "https://github.com/omdsh-dev/DSH-better-sidebar", "url": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/dsh-better-sidebar.html", "name": "DSH-better-sidebar", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -74,6 +74,7 @@
       <div><dt>Team / maker</dt><dd>omdsh-dev</dd></div>
       <div><dt>First tracked here</dt><dd class="num">2026-08-08</dd></div>
       <div><dt>Last updated here</dt><dd class="num">2026-08-27</dd></div>
+      <div><dt>Product site</dt><dd><a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
     </dl>
   </header>
 
@@ -116,7 +117,7 @@
       </div>
       <div class="field">
         <span class="field-k">Entry and what to borrow</span>
-        <p>Product logic: if you build a companion environment for a chat-first AI product, do not build a full IDE. Ship a sidebar workbench with lazy loading — keep the core light (325KB-class) and pull heavy …</p>
+        <p>if you build a companion environment for a chat-first AI product, do not build a full IDE. Ship a sidebar workbench with lazy loading — keep the core light (325KB-class) and pull heavy deps (Office preview, terminal emulation) only when the user actually opens that file type. That lets you claim &#34;full workbench&#34; without crushing first paint. And ship third-party panel registration as a v1 capability so the ecosystem grows features for you.</p>
       </div>
       <div class="field">
         <span class="field-k">Evidence and risk</span>
@@ -138,6 +139,9 @@
             <strong>Supported</strong>
           </div>
           <p>The assessment is recorded; an English explanation is pending.</p>
+          <div class="gate-links" aria-label="Evidence confidence">
+            <a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener">DSH-better-sidebar · 2026-08-08 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -145,6 +149,9 @@
             <strong>Insufficient evidence</strong>
           </div>
           <p>The assessment is recorded; an English explanation is pending.</p>
+          <div class="gate-links" aria-label="Evidence confidence">
+            <a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener">DSH-better-sidebar · 2026-08-08 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -249,13 +256,28 @@
 ② Whether third-party tabs/viewers grow — evidence the &quot;foundation&quot; positioning actually holds
 ③ Whether release cadence keeps pace with official rc iterations — a plugin one step behind a moving rc target stops installing</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
 <p><strong>Product logic</strong>: if you build a companion environment for a chat-first AI product, do not build a full IDE. Ship a sidebar workbench with lazy loading — keep the core light (325KB-class) and pull heavy deps (Office preview, terminal emulation) only when the user actually opens that file type. That lets you claim &quot;full workbench&quot; without crushing first paint. And ship third-party panel registration as a v1 capability so the ecosystem grows features for you.</p>
-<p><strong>Positioning language</strong>: none. The Chinese README is a feature list; nothing to steal.</p>
 <p><strong>Pricing structure</strong>: none. Not disclosed.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
 <p><strong>Worth watching.</strong> The most product-grade sidebar plugin in this ecosystem — solid engineering, precise timing — but it bets on DSH's long-term health and owns no moat of its own. Watch it less than the pattern behind it: platform leaves a gap, plugin fills it, traffic goes to the plugin. That ecosystem dynamic will repeat across the agent era.</p></article></div>
     </article>
   </section>
 
 
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>Verifiable public evidence</h2>
+        <p class="note">Evidence trail</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://github.com/omdsh-dev/DSH-better-sidebar" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">DSH-better-sidebar</span>
+        <span class="row-desc">Open-source signal · While AI edits files, the folder tree, editor, terminal, and diffs sit in one sidebar, so people stop hopping across windows.</span>
+        <span class="row-tail">2026-08-08</span>
+      </div></a></li>
+    </ul>
+  </section>
 
   <section class="band desk-band">
     <div class="sec-head desk-sec">
