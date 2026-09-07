@@ -7,6 +7,13 @@ http:
   user_agent: "x-octo/0.1 (+https://github.com/laixi969-coder/xocto)"
   retries: 2
 
+# 不走本文件编排的独立管线写进 raw 的源名。健康检查对它们豁免
+# "配置和实际不一致"的告警 —— 案例管线自己的状态由 `xocto cases` 负责。
+health:
+  standalone_sources:
+    - casestudies
+    - trustmrr
+
 sources:
 
   # V2EX 的 AI SaaS 与开发者发布帖：补上中文生态中尚未进入榜单、

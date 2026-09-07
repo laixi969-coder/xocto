@@ -61,6 +61,10 @@ class Http:
     def get_text(self, url: str, *, params: dict | None = None, headers: dict | None = None) -> str:
         return self._request(url, params=params, headers=headers).text
 
+    def get_bytes(self, url: str, *, params: dict | None = None, headers: dict | None = None) -> bytes:
+        """二进制响应。gzip 压缩的 sitemap 之类必须拿原始字节，text 解码会把压缩包变成乱码。"""
+        return self._request(url, params=params, headers=headers).content
+
     def get_json(self, url: str, *, params: dict | None = None, headers: dict | None = None) -> Any:
         resp = self._request(url, params=params, headers=headers)
         try:

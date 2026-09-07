@@ -77,6 +77,18 @@ def enabled_sources(config: dict) -> list[str]:
     )
 
 
+def standalone_sources(config: dict) -> set[str]:
+    """不走 sources.yaml 采集编排的独立管线自己的源名。
+
+    案例管线（xocto cases）直接写 raw，不经过 run_sources；没有这一层豁免，
+    它们每天都会被当成"配置和实际不一致"误报一次。
+    """
+    health_cfg = config.get("health") or {}
+    if not isinstance(health_cfg, dict):
+        return set()
+    return {str(name) for name in (health_cfg.get("standalone_sources") or [])}
+
+
 def _newssearch_lane_findings(store: Store, config: dict, day: date) -> list[Finding]:
     """逐条检查中美搜索车道，防止一个市场失效却被另一个市场总量掩盖。"""
     source_cfg = ((config.get("sources") or {}).get("newssearch") or {})
@@ -171,7 +183,8 @@ def check(store: Store, config: dict, today: date | None = None) -> list[Finding
                     f"掉到 {got / median:.0%}，值得看一眼是不是采集规则失效了",
                 ))
 
-    unexpected = sorted(set(now) - set(expected))
+    standalone = standalone_sources(config)
+    unexpected = sorted(set(now) - set(expected) - standalone)
     for source in unexpected:
         findings.append(Finding(
             SEVERITY_WARN, source,

@@ -871,6 +871,39 @@ def _daily_event_selection(items: list[dict[str, Any]], *, limit: int = 6) -> li
     return selected
 
 
+def _case_view(case: Any, locale: Locale) -> dict[str, Any]:
+    """案例档案 → 展示视图。数字缺失就是缺失，模板不假装它存在。"""
+    t = locale.t["cases"]
+    revenue = case.monthly_revenue_usd
+    cost = case.startup_cost_usd
+    return {
+        "slug": case.slug,
+        "name": (case.name_zh or case.name) if locale.key == "zh" else case.name,
+        "name_original": case.name,
+        "url": case.url,
+        "source": case.source,
+        "evidence_level": case.evidence_level,
+        "evidence_label": t["evidence_levels"].get(case.evidence_level, case.evidence_level),
+        "summary": case.text("summary", locale.key),
+        "money_model": case.text("money_model", locale.key),
+        "verdict": case.verdict,
+        "verdict_label": t["verdict_labels"].get(case.verdict, case.verdict),
+        "verdict_reason": case.text("verdict_reason", locale.key),
+        "replaces": case.text("replaces", locale.key),
+        "first_customers": case.text("first_customers", locale.key),
+        "channels": list(case.channels),
+        "playbooks": case.text_list("playbooks", locale.key),
+        "transfer_note": case.text("transfer_note", locale.key),
+        "evidence_gaps": case.text_list("evidence_gaps", locale.key),
+        "time_to_revenue": case.time_to_revenue,
+        "revenue_note": case.revenue_note_zh if locale.key == "zh" else (case.revenue_note_en or case.revenue_note_zh),
+        "revenue_display": f"{revenue:,.0f}" if revenue else "",
+        "cost_display": f"{cost:,.0f}" if cost else "",
+        "ai_relevance": case.ai_relevance,
+        "first_seen": case.first_seen,
+    }
+
+
 def _proven_business_selection(
     items: list[dict[str, Any]], *, limit: int = 3, rotation: int = 0
 ) -> list[dict[str, Any]]:
@@ -1502,6 +1535,15 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         view["siblings"] = same[:4]
         view["category_total"] = counts.get(view["category_key"], 0)
 
+    # 案例管线（CASE_PIPELINE_SPEC.md）：已在收钱的真实生意，编辑层富化后上站。
+    # 首页每天轮换三条；每条过审案例各有详情页。不做案例索引页。
+    published_cases = store.iter_case_studies(status="published")
+    case_views = [_case_view(case, locale) for case in published_cases]
+    case_views.sort(key=lambda view: view["first_seen"], reverse=True)
+    case_spotlights = _daily_rotation(
+        case_views, latest_day or today().isoformat(), limit=3,
+    )
+
     return {
         # 页脚要回答的是"数据什么时候更新的"，不是"HTML 什么时候渲染的"。
         # 原来填 datetime.now()，于是不采集只重建也会让"更新于"往前走 —— 那是假消息。
@@ -1546,6 +1588,8 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         "products": sorted(views, key=lambda v: (-v["opportunity_rank"], -v["weight"], v["name"])),
         "takeaways_by_topic": takeaways_by_topic,
         "today_takeaway": today_takeaway,
+        "case_studies": case_views,
+        "case_spotlights": case_spotlights,
     }
 
 
@@ -1805,6 +1849,7 @@ def _page_paths(ctx: dict[str, Any]) -> set[str]:
     paths = {"index.html", "products.html", "methodology.html", "privacy.html", "takeaways.html", "reports.html"}
     paths.update(f"p/{v['slug']}.html" for v in ctx["products"])
     paths.update(f"r/{r.day}.html" for r in ctx["reports"])
+    paths.update(f"c/{c['slug']}.html" for c in ctx.get("case_studies", []))
     return paths
 
 
@@ -1815,7 +1860,7 @@ def _remove_stale_pages(out_dir: Path, expected: set[str]) -> int:
     watching 变成 rejected 后，旧 URL 不会因为文件残留而继续在线。
     """
     removed = 0
-    for rel_dir in ("p", "r", "en/p", "en/r"):
+    for rel_dir in ("p", "r", "c", "en/p", "en/r", "en/c"):
         directory = out_dir / rel_dir
         if not directory.exists() or directory.is_symlink():
             continue
@@ -1845,6 +1890,7 @@ def _build_locale(
     base.mkdir(parents=True, exist_ok=True)
     (base / "p").mkdir(exist_ok=True)
     (base / "r").mkdir(exist_ok=True)
+    (base / "c").mkdir(exist_ok=True)
 
     def write(rel: str, template: str, page: str, description: str, **extra: Any) -> None:
         # root 是页面到站点根的相对路径。顶层页面为空，子目录页面要回退一级 ——
@@ -1938,7 +1984,13 @@ def _build_locale(
               report=report, schema_title=f"{report.day} {locale.t['report']['kicker']}")
         sitemap.append((locale.path(rel), report.day))
 
-    return 4 + len(ctx["products"]) + len(ctx["reports"])
+    for case in ctx.get("case_studies", []):
+        rel = f"c/{case['slug']}.html"
+        write(rel, "case.html", "cases", _describe(case["summary"], locale.site_desc),
+              case=case, schema_title=f"{case['name']} · {locale.t['cases']['title']}")
+        sitemap.append((locale.path(rel), case["first_seen"][:10] or ctx["latest_day"]))
+
+    return 4 + len(ctx["products"]) + len(ctx["reports"]) + len(ctx.get("case_studies", []))
 
 
 

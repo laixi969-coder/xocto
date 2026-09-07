@@ -53,6 +53,7 @@ class CollectReport:
     unchanged_products: int
     news_items: int
     dry_run: bool
+    case_items: int = 0
 
     @property
     def failed(self) -> tuple[SourceResult, ...]:
@@ -257,13 +258,21 @@ def _record_opportunity_event(store: Store, product: Product, item: RawItem, *, 
 
 def merge_into_pool(
     store: Store, items: list[RawItem], *, dry_run: bool
-) -> tuple[int, int, int, int]:
-    """把原始记录合并进产品池，返回 (新建数, 实质更新数, 无变化数, 新闻数)。
+) -> tuple[int, int, int, int, int]:
+    """把原始记录合并进产品池，返回 (新建数, 实质更新数, 无变化数, 新闻数, 案例数)。
 
     `news` 只描述载体是报道，不能替我们判断对象是不是产品、公司 AI 改造
     或市场变化。报道同样进入候选池，由编辑层完成实体化和分流；否则媒体、
     财报和行业原生渠道发现的产品会在判断之前就被静默丢掉。
+
+    案例条目（kind=casestudy）不属于产品：它们走 CASE_PIPELINE_SPEC.md 的
+    独立管线，落到 data/casestudies/。在这里跳过是最后防线 —— 就算
+    rebuild 从历史存档整池重建，BrüMate 这类非 AI 公司也不会混进产品池。
     """
+    case_items = [item for item in items if item.extra.get("kind") == "casestudy"]
+    if case_items:
+        items = [item for item in items if item.extra.get("kind") != "casestudy"]
+    case_count = len(case_items)
     index = ProductIndex(list(store.iter_products()))
     new_count = 0
     updated_count = 0
@@ -320,7 +329,7 @@ def merge_into_pool(
             _record_opportunity_event(store, product, item, event_type=EVENT_FIRST_DISCOVERED)
         new_count += 1
 
-    return new_count, updated_count, unchanged_count, news_count
+    return new_count, updated_count, unchanged_count, news_count, case_count
 
 
 def prune(store: Store, keep_days: int = 30) -> tuple[int, int]:
@@ -392,7 +401,7 @@ def collect(
     else:
         written = store.append_raw(items, day, overwrite=force)
 
-    new_count, updated_count, unchanged_count, news_count = merge_into_pool(
+    new_count, updated_count, unchanged_count, news_count, case_count = merge_into_pool(
         store, items, dry_run=dry_run
     )
 
@@ -405,5 +414,6 @@ def collect(
         updated_products=updated_count,
         unchanged_products=unchanged_count,
         news_items=news_count,
+        case_items=case_count,
         dry_run=dry_run,
     )

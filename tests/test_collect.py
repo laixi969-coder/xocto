@@ -70,7 +70,7 @@ class OpportunityEventTests(unittest.TestCase):
 
             result = merge_into_pool(store, items, dry_run=False)
 
-            self.assertEqual(result, (2, 0, 0, 2))
+            self.assertEqual(result, (2, 0, 0, 2, 0))
             self.assertEqual(len(list(store.iter_products())), 2)
 
     def test_chinese_entity_mention_attaches_a_report_and_reopens_editorial_review(self) -> None:
@@ -102,7 +102,7 @@ class OpportunityEventTests(unittest.TestCase):
 
             result = merge_into_pool(store, [report], dry_run=False)
 
-            self.assertEqual(result, (0, 1, 0, 1))
+            self.assertEqual(result, (0, 1, 0, 1, 0))
             saved = next(store.iter_products())
             self.assertEqual(saved.status, "pending_filter")
             self.assertEqual(len(saved.sightings), 2)
@@ -123,7 +123,7 @@ class OpportunityEventTests(unittest.TestCase):
                 extra={"kind": "news", "official": False},
             )
 
-            new, updated, unchanged, news = merge_into_pool(store, [item], dry_run=False)
+            new, updated, unchanged, news, _cases = merge_into_pool(store, [item], dry_run=False)
 
             self.assertEqual((new, updated, unchanged, news), (1, 0, 0, 1))
             saved = next(store.iter_products())

@@ -173,5 +173,44 @@
   </section>
   {% endif %}
 
+  {% if case_spotlights %}
+  <section class="band desk-band" id="case-spotlight">
+    <div class="sec-head desk-sec">
+      <div>
+        {% set ns.sec = ns.sec + 1 %}
+        <p class="section-index">{{ "%02d" | format(ns.sec) }}</p>
+        <h2>{{ t.cases.home_title }}</h2>
+      </div>
+      <span class="note">{{ t.cases.home_note }}</span>
+    </div>
+    <div class="picks">
+      {% for case in case_spotlights %}
+      <article class="pick desk-pick" style="--i: {{ loop.index0 }}">
+        <div class="desk-pick-id">
+          <span class="pick-no num">{{ t.cases.home_kicker }}</span>
+          <a class="pick-id" href="{{ root }}c/{{ case.slug }}.html">
+            <h3>{{ case.name }}</h3>
+            <span class="tag sig">{{ case.evidence_label }}</span>
+          </a>
+          {% if case.replaces %}
+          <p class="pick-meta">{{ case.replaces }}</p>
+          {% endif %}
+        </div>
+        <div class="pick-body desk-pick-fields">
+          <div class="field field-what">
+            <span class="field-k">{{ t.home.what }}</span>
+            <p>{{ case.summary | md_inline }}</p>
+          </div>
+          <div class="field field-call">
+            <span class="field-k">{{ t.cases.verdict_k }}</span>
+            <p><strong>{{ case.verdict_label }}</strong><span class="decision-sep"> · </span>{{ case.verdict_reason | md_inline }}</p>
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
 </div>
 {% endblock %}

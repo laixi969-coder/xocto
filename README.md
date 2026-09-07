@@ -20,6 +20,16 @@ cd ~/x-octo && uv run xocto collect
 GitHub Actions 会调用 DeepSeek，读取 `config/filter.md` 的规则把噪音砍掉，
 再按 `config/template.md` 的模板做分析，最后把简报写到 `data/reports/`。
 
+**案例管线（独立于上面两步）**：
+
+```bash
+cd ~/x-octo && uv run xocto cases
+```
+
+去 Starter Story 采访库和 TrustMRR 验证收入库抓「已经在收钱的生意」，
+按 `config/cases.md` 富化成带证据等级的案例（见 `CASE_PIPELINE_SPEC.md`）。
+首页每天轮换一条，完整拆解在 `site/c/<案例名>.html`。
+
 **第三步，生成网站**：
 
 ```bash

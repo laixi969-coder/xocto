@@ -1,0 +1,28 @@
+# 案例管线设置（CASE_PIPELINE_SPEC.md）。改这里不用改代码。
+# enabled: false 时 `xocto cases` 直接跳过，其余流程不受影响。
+
+enabled: true
+
+# 首次运行（清单为空）最多抓多少篇案例正文。Starter Story 全量 3000+ 篇，
+# 首次只拿一小批验证管线，其余靠每日增量慢慢滚。
+first_run_max: 40
+
+# 以后每次运行最多抓多少篇新页。每天早晚各跑一次，每次间隔 2 秒，
+# 这个量级对源站是礼貌的。
+max_pages_per_run: 20
+
+# 抓正文页的间隔秒数。别调小 —— 被拉黑就什么都没了。
+request_interval_seconds: 2.0
+
+# 每次运行最多富化几条（每条一次模型调用）。控制成本用。
+enrich_limit_per_run: 15
+
+starterstory:
+  # 创始人书面采访（/stories/*），证据等级 interviewed（自报，未经审计）。
+  enabled: true
+
+trustmrr:
+  # Stripe 验证收入库（trustmrr.com），证据等级 stripe_verified。
+  enabled: true
+  # 每次最多取多少条。首页一次能拿到的就这么多，够了。
+  max_startups: 20

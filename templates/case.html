@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+{% block title %}{{ case.name }} · {{ t.cases.title }} · {{ locale.site_name }}{% endblock %}
+{% block ogtitle %}{{ case.name }} · {{ locale.site_name }}{% endblock %}
+
+{% block body %}
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">{{ t.cases.kicker }}{% if case.ai_relevance == 'high' %} · AI{% endif %}</p>
+      <div class="product-title-row">
+        <h1>{{ case.name }}</h1>
+        {% if case.verdict %}<span class="verdict v-{{ 'strong' if case.verdict == 'real' else ('notable' if case.verdict == 'want' else 'unproven') }}">{{ case.verdict_label }}</span>{% endif %}
+      </div>
+      {% if case.summary %}<p class="product-lede">{{ case.summary | md_inline }}</p>{% endif %}
+      <div class="meta product-meta">
+        <span class="tag sig">{{ case.evidence_label }}</span>
+        {% if case.time_to_revenue %}<span class="tag">{{ case.time_to_revenue }}</span>{% endif %}
+        {% for channel in case.channels %}<span class="tag">{{ channel }}</span>{% endfor %}
+      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      {% if case.revenue_display %}
+      <div><dt>{{ t.cases.revenue }}</dt><dd class="num">${{ case.revenue_display }}{{ t.cases.revenue_unit }}</dd></div>
+      {% endif %}
+      {% if case.cost_display %}
+      <div><dt>{{ t.cases.startup_cost }}</dt><dd class="num">${{ case.cost_display }}</dd></div>
+      {% endif %}
+      {% if case.url %}
+      <div><dt>{{ t.cases.source_link }}</dt><dd><a href="{{ case.url }}" target="_blank" rel="noopener">{{ t.cases.source_open }}</a></dd></div>
+      {% endif %}
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>{{ t.cases.verdict_k }}</h2>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel product-panel-call">
+        <span class="field-k">{{ t.cases.verdict_k }}</span>
+        <h3>{{ case.verdict_label }}</h3>
+        <p>{{ case.verdict_reason | md_inline }}</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">{{ t.cases.money_k }}</span>
+        <p>{{ case.money_model | md_inline }}</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">{{ t.cases.replaces_k }}</span>
+        <p>{{ case.replaces | md_inline }}</p>
+      </article>
+    </div>
+  </section>
+
+  {% if case.first_customers or case.channels %}
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>{{ t.cases.first_customers_k }}</h2>
+      </div>
+    </div>
+    {% if case.first_customers %}<p class="product-lead">{{ case.first_customers | md_inline }}</p>{% endif %}
+    {% if case.channels %}
+    <div class="meta product-meta">
+      <span class="field-k">{{ t.cases.channels_k }}</span>
+      {% for channel in case.channels %}<span class="tag">{{ channel }}</span>{% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if case.playbooks %}
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>{{ t.cases.playbooks_k }}</h2>
+      </div>
+    </div>
+    <ol class="desk-evidence-list case-playbooks">
+      {% for playbook in case.playbooks %}
+      <li><span class="num">{{ "%02d" | format(loop.index) }}</span><span>{{ playbook | md_inline }}</span></li>
+      {% endfor %}
+    </ol>
+    {% if case.transfer_note %}
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">{{ t.cases.transfer_k }}</span>
+        <p>{{ case.transfer_note | md_inline }}</p>
+      </div>
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">{% if case.playbooks %}04{% else %}03{% endif %}</p>
+        <h2>{{ t.cases.boundary_k }}</h2>
+      </div>
+      <span class="note">{{ t.cases.not_audited }}</span>
+    </div>
+    <div class="decision-grid desk-summary">
+      <div class="field">
+        <span class="field-k">{{ t.cases.evidence_levels.get(case.evidence_level, case.evidence_level) }}</span>
+        <p>{% if case.revenue_note %}{{ t.cases.revenue_note_k }}<span class="decision-sep"> · </span>{{ case.revenue_note }}{% endif %}</p>
+      </div>
+      {% if case.evidence_gaps %}
+      <div class="field">
+        <span class="field-k">{{ t.cases.gaps_k }}</span>
+        <p>{% for gap in case.evidence_gaps %}{{ gap | md_inline }}{% if not loop.last %}<br>{% endif %}{% endfor %}</p>
+      </div>
+      {% endif %}
+      <div class="field">
+        <span class="field-k">{{ t.cases.source_link }}</span>
+        <p><a href="{{ case.url }}" target="_blank" rel="noopener">{{ case.url }} ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+</div>
+{% endblock %}

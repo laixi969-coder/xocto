@@ -65,13 +65,15 @@ class Store:
         self.markets_dir = self.data_dir / "markets"
         self.reviews_dir = self.data_dir / "reviews"
         self.brief_progress_dir = self.data_dir / "brief-progress"
+        # 案例管线（CASE_PIPELINE_SPEC.md）：独立于产品池的真实生意案例档案。
+        self.casestudies_dir = self.data_dir / "casestudies"
         self.config_dir = self.root / "config"
 
     def ensure_dirs(self) -> None:
         for d in (
             self.raw_dir, self.pool_dir, self.analysis_dir, self.reports_dir,
             self.events_dir, self.evidence_dir, self.markets_dir, self.reviews_dir,
-            self.brief_progress_dir,
+            self.brief_progress_dir, self.casestudies_dir,
         ):
             d.mkdir(parents=True, exist_ok=True)
 
@@ -434,6 +436,109 @@ class Store:
     def _write_yaml_list(path: Path, rows: list[dict]) -> None:
         body = yaml.safe_dump(rows, allow_unicode=True, sort_keys=False, width=100)
         _atomic_write(path, body)
+
+    # ---------- 案例管线 ----------
+
+    def case_path(self, slug: str) -> Path:
+        return self.casestudies_dir / f"{slug}.md"
+
+    def case_manifest_path(self) -> Path:
+        """案例发现清单：见过的来源 URL → 首次发现时间。采集增量的依据。"""
+        return self.casestudies_dir / "manifest.yaml"
+
+    def read_case_manifest(self) -> dict[str, dict[str, Any]]:
+        """案例发现清单：来源 URL → 首次发现时间。文件不是档案，单独解析。"""
+        path = self.case_manifest_path()
+        if not path.exists():
+            return {}
+        try:
+            parsed = yaml.safe_load(path.read_text(encoding="utf-8"))
+        except (OSError, yaml.YAMLError) as exc:
+            print(f"  ! 读不了案例清单：{exc}")
+            return {}
+        if not isinstance(parsed, dict):
+            return {}
+        return {
+            str(key): (value if isinstance(value, dict) else {"seen_at": str(value)})
+            for key, value in parsed.items()
+        }
+
+    def save_case_manifest(self, manifest: dict[str, dict[str, Any]]) -> None:
+        body = yaml.safe_dump(manifest, allow_unicode=True, sort_keys=False, width=200)
+        _atomic_write(self.case_manifest_path(), body)
+
+    def save_case_study(self, case: Any) -> Path:
+        """写案例档案。正文「笔记」区已存在则保留，与产品档案同一规矩。"""
+        import dataclasses
+
+        from .cases import _case_frontmatter
+
+        path = self.case_path(case.slug)
+        notes = case.notes
+        if path.exists() and not notes:
+            existing = self.load_case_study(case.slug)
+            if existing is not None:
+                notes = existing.notes
+        stored = dataclasses.replace(case, notes=notes) if notes != case.notes else case
+        front_yaml = yaml.safe_dump(_case_frontmatter(stored), allow_unicode=True, sort_keys=False, width=100)
+        body = (
+            f"---\n{front_yaml}---\n\n"
+            f"# {case.name}\n\n"
+            f"{NOTES_MARKER}\n\n{notes}\n"
+        )
+        _atomic_write(path, body)
+        return path
+
+    def load_case_study(self, slug: str) -> Any | None:
+        from .cases import case_study_from_dict
+
+        path = self.case_path(slug)
+        if not path.exists():
+            return None
+        return self._parse_case_study(path)
+
+    def iter_case_studies(self, status: str | None = None) -> list[Any]:
+        """遍历案例档案。损坏的跳过；manifest.yaml 不是档案，天然被后缀过滤。"""
+        from .cases import case_study_from_dict
+
+        out = []
+        for path in sorted(self.casestudies_dir.glob("*.md")):
+            case = self._parse_case_study(path)
+            if case is None:
+                continue
+            if status and case.status != status:
+                continue
+            out.append(case)
+        return out
+
+    def _parse_case_study(self, path: Path) -> Any | None:
+        from .cases import case_study_from_dict
+
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError as exc:
+            print(f"  ! 读不了 {path.name} — {exc}")
+            return None
+        if not text.startswith("---"):
+            print(f"  ! {path.name} 缺少 frontmatter，跳过")
+            return None
+        parts = _FRONTMATTER_DELIMITER.split(text, maxsplit=2)
+        if len(parts) < 3:
+            print(f"  ! {path.name} frontmatter 不完整，跳过")
+            return None
+        try:
+            front = yaml.safe_load(parts[1]) or {}
+        except yaml.YAMLError as exc:
+            print(f"  ! {path.name} frontmatter 解析失败 — {exc}")
+            return None
+        notes = ""
+        if NOTES_MARKER in parts[2]:
+            notes = parts[2].split(NOTES_MARKER, 1)[1].strip()
+        try:
+            return case_study_from_dict(path.stem, front, notes)
+        except Exception as exc:
+            print(f"  ! {path.name} 字段异常，跳过 — {exc}")
+            return None
 
     # ---------- 简报 ----------
 

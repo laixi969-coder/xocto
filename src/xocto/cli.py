@@ -80,6 +80,8 @@ def _print_report(report: CollectReport) -> None:
     print(f"  没变化        {report.unchanged_products} 个")
     if report.news_items:
         print(f"  报道信号      {report.news_items} 条（已进统一候选池，等待实体化与分流）")
+    if report.case_items:
+        print(f"  案例信号      {report.case_items} 条（走案例管线，不进产品池）")
 
     if report.failed:
         print()
@@ -195,6 +197,53 @@ def cmd_rebuild(args: argparse.Namespace) -> int:
         print(f"\n{exc}", file=sys.stderr)
         return 2
     print(f"\n  完成：{days} 天的存档，重建出 {count} 个产品\n")
+    return 0
+
+
+def cmd_cases(args: argparse.Namespace) -> int:
+    """案例管线入口：采集 Starter Story / TrustMRR，富化后写 data/casestudies/。"""
+    from .cases import run as run_cases
+
+    store = Store()
+    store.ensure_dirs()
+    report = run_cases(
+        store,
+        day=_parse_day(args.date),
+        dry_run=args.dry_run,
+        collect_only=args.collect_only,
+        enrich_only=args.enrich_only,
+        limit=args.limit,
+    )
+
+    collect = report.get("collect")
+    if collect is not None:
+        print()
+        print("─" * 46)
+        print("案例采集")
+        print("─" * 46)
+        if collect.get("skipped"):
+            print(f"  已跳过：{collect['skipped']}")
+        else:
+            print(f"  Starter Story 新页 {collect.get('starterstory', 0)} 篇（清单已见 {collect.get('manifest_known', 0)} 页）")
+            print(f"  TrustMRR 新记录  {collect.get('trustmrr', 0)} 条")
+            print(f"  写入原始存档     {collect.get('new_items', 0)} 条")
+
+    enrich = report.get("enrich")
+    if enrich is not None:
+        print()
+        print("─" * 46)
+        print("案例富化")
+        print("─" * 46)
+        if not enrich.get("pending"):
+            print("  没有待富化的案例")
+        else:
+            print(f"  待富化 {enrich.get('pending')} 条")
+            if enrich.get("dry_run"):
+                print("  试跑不写盘，去掉 --dry-run 才会真正富化")
+            else:
+                print(f"  上站 {enrich.get('published', 0)} 条 · 淘汰 {enrich.get('rejected', 0)} 条 · 失败 {enrich.get('failed', 0)} 条")
+    print()
+    # 部分失败（模型请求挂了）不阻塞当日流程：下一轮会自动重试
     return 0
 
 
@@ -349,6 +398,14 @@ def build_parser() -> argparse.ArgumentParser:
         "rebuild", help="从原始存档重建产品池（改了解析规则之后用；旧的会备份不会删）"
     )
     p_rebuild.set_defaults(func=cmd_rebuild)
+
+    p_cases = sub.add_parser("cases", help="采集并富化真实生意案例（Starter Story / TrustMRR）")
+    p_cases.add_argument("--collect-only", action="store_true", help="只采集，不做模型富化")
+    p_cases.add_argument("--enrich-only", action="store_true", help="只富化已有原始记录，不采集")
+    p_cases.add_argument("--limit", type=int, default=None, help="本次最多富化几条，默认读 config/cases.yaml")
+    p_cases.add_argument("--date", help="指定归档日期 YYYY-MM-DD，默认今天")
+    p_cases.add_argument("--dry-run", action="store_true", help="只看会采集/富化什么，不写盘")
+    p_cases.set_defaults(func=cmd_cases)
 
     p_status = sub.add_parser("status", help="看数据现状")
     p_status.set_defaults(func=cmd_status)
