@@ -36,16 +36,16 @@ url: https://github.com/bighadj22/codflow
 canonical_url: https://github.com/bighadj22/codflow
 summary: The open-source, COD-first e-commerce + delivery platform for Algeria  built agentic-ready.
 first_seen: '2026-08-20T17:46:39Z'
-last_seen: '2026-09-06T15:36:27Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/bighadj22/codflow
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 90
+    stars: 92
     forks: 17
     open_issues: 3
   kind: product

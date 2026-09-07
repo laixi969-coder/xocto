@@ -22,14 +22,19 @@ url: https://www.latent.space/p/ainews-claude-fablemythos-51-new
 canonical_url: https://latent.space/p/ainews-claude-fablemythos-51-new
 summary: Queue the usual rush of model launches...
 first_seen: '2026-09-02T07:46:08Z'
-last_seen: '2026-09-02T14:32:03Z'
-status: market_context
+last_seen: '2026-09-06T23:54:40Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/ainews-claude-fablemythos-51-new
   seen_at: '2026-09-02T14:32:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/484551.html
+  seen_at: '2026-09-06T23:54:40Z'
   metrics: {}
   kind: news
 ---

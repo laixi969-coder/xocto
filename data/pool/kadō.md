@@ -28,17 +28,17 @@ url: https://github.com/scastiel/kado
 canonical_url: https://github.com/scastiel/kado
 summary: open-source habit tracker, with non-binary habit score, for iOS
 first_seen: '2026-09-06T14:34:46Z'
-last_seen: '2026-09-06T15:36:24Z'
+last_seen: '2026-09-06T23:54:18Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/scastiel/kado
-  seen_at: '2026-09-06T15:36:24Z'
+  seen_at: '2026-09-06T23:54:18Z'
   metrics:
-    points: 16
-    comments: 5
+    points: 66
+    comments: 29
   kind: product
 ---
 

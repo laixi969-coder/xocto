@@ -38,7 +38,7 @@ summary: Your AI can already see the screen — it just can't measure it. Live m
   a measurement engine (contrast, touch targets, theme drift) reporting findings as text, and a panel
   you and your agent share. MCP server for web/responsive UIs.
 first_seen: '2026-08-17T20:37:41Z'
-last_seen: '2026-09-06T15:36:27Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: queued
 sources:
 - github
@@ -61,9 +61,9 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/autoprompt-skill
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 1001
+    stars: 1006
     forks: 66
     open_issues: 12
   kind: product
@@ -77,17 +77,17 @@ sightings:
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-research-report
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 64
+    stars: 68
     forks: 0
     open_issues: 0
   kind: product
 - source: github
   url: https://www.npmjs.com/package/dsh-industry-research
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 62
+    stars: 63
     forks: 0
     open_issues: 0
   kind: product

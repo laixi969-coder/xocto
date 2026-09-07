@@ -30,16 +30,16 @@ url: https://github.com/hanshenmesen/dsh-turn-delete
 canonical_url: https://github.com/hanshenmesen/dsh-turn-delete
 summary: Delete one complete turn from a DeepSeek Harness session without deleting the session
 first_seen: '2026-08-17T15:40:59Z'
-last_seen: '2026-09-04T00:06:39Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/hanshenmesen/dsh-turn-delete
-  seen_at: '2026-09-04T00:06:39Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 107
+    stars: 106
     forks: 1
     open_issues: 1
   kind: product

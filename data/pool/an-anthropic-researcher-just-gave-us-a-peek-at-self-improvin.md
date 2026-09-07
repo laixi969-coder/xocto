@@ -37,8 +37,8 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-05T13:28:57Z'
-status: queued
+last_seen: '2026-09-06T23:54:47Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -96,6 +96,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMioAFBVV95cUxNd25ZbUhuRmhmYk42dzU2VHFpTnR4LWhkYWxIQWNrYVBjdkZpTzZPVVZDaHV6aG9nQ0NCbjR4RTVYeWhSNk9hODdaYThpSUdwMTdWalotNU03RGxLY0FfM3BFOXYtTVZBZnAzckE1dTNNMDBqZFNocURJR3YxNG9zUlFNaEJNdHliaFZlUjhvdjA4ZVhFMHBXemNxa2ZWSF9I?oc=5
   seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/
+  seen_at: '2026-09-06T23:54:40Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdFZrUHB4aEpteXlybHZidDhwWUoxZzFfMUJQYmJKREdoYkgyc2xTRmdBM2xXTVFIeGZzQWt4T0ZJWGZQWDhieGRmV1JTM2p2TElIbHg5RElYUTVRb0NUaGxfWUZtNElvdmxFbzNleUxaVEFKVUFuUjd6cndVNXdiR3ZiLWVQVlBNOUYzZ1I5dmZxZ0xGUGtEbmh5bF9wcWtHZ1FnZ2hfbURQQQ?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
   metrics: {}
   kind: news
 ---

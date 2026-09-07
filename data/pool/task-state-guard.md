@@ -33,16 +33,16 @@ canonical_url: https://github.com/MaxHu-xuan/task-state-guard
 summary: Reconcile stuck AI-agent tasks after restarts and timeouts. Preview SQLite changes, close stale
   delivery states, and never guess success.
 first_seen: '2026-08-23T07:10:14Z'
-last_seen: '2026-09-06T15:36:27Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/MaxHu-xuan/task-state-guard
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 201
+    stars: 205
     forks: 3
     open_issues: 0
   kind: product

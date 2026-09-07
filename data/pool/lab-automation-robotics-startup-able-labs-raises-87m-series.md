@@ -33,8 +33,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-05T00:07:08Z'
-status: queued
+last_seen: '2026-09-06T23:54:38Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -126,6 +126,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigAFBVV95cUxPaWFiYzR2SXlYX3FOemVrZS1tTmZrUmxESmF4RmZlX2VzV1V2UnNsNG5TeFJudVRnUkc5c0M4Qjk4US0zNW8zV1Q5S3FTdzhXTk9kaWZlbEVrbGZtMjlSckphd0dkeHpYZDlXbThqNlZpZ3FzWmswNUNuQUw3cG9RVg?oc=5
   seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/an-alien-mind
+  seen_at: '2026-09-06T23:54:38Z'
   metrics: {}
   kind: news
 ---

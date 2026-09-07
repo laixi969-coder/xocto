@@ -26,17 +26,17 @@ url: https://keenbean.app/
 canonical_url: https://keenbean.app
 summary: Mac meeting notes that draft the spec while you talk
 first_seen: '2026-09-06T09:53:12Z'
-last_seen: '2026-09-06T13:15:16Z'
+last_seen: '2026-09-06T23:54:18Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://keenbean.app/
-  seen_at: '2026-09-06T13:15:16Z'
+  seen_at: '2026-09-06T23:54:18Z'
   metrics:
     points: 11
-    comments: 4
+    comments: 5
   kind: product
 ---
 

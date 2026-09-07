@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9fM2JtYUc1QURBWnJIQkN0cW
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9fM2JtYUc1QURBWnJIQkN0cW9tMVd4Qm5OVDZwLUZlWjAyMk9iRU9jRVVBVEREVjZaSDZhNlZWSzVQdHVYRHBSTzYxSmxzQzM4OVJnM3JYdGhhWVhPTjMtY3hOaURNQTlzaVBhWjlMSHlnS0E1aWJ2SHZaemJ4SnM?oc=5
 summary: Tech giants unite against AI cyber threats innovation-village.com
 first_seen: '2026-08-28T08:13:36Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: market_context
+last_seen: '2026-09-06T23:54:47Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9fM2JtYUc1QURBWnJIQkN0cW9tMVd4Qm5OVDZwLUZlWjAyMk9iRU9jRVVBVEREVjZaSDZhNlZWSzVQdHVYRHBSTzYxSmxzQzM4OVJnM3JYdGhhWVhPTjMtY3hOaURNQTlzaVBhWjlMSHlnS0E1aWJ2SHZaemJ4SnM?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBPanZsOHBnVVFwUmpGRjhpOTZfM3ljVTZCNl9tN1I4VXV3SF85VDZoWm5HTzBIc3E5ajUxVTZVQ1hWUG9NS2hMODdqOF9icXY0dzVn?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
   metrics: {}
   kind: news
 ---

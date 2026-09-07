@@ -21,8 +21,8 @@ url: https://compute.cx
 canonical_url: https://compute.cx
 summary: Compute.cx is simple (modal.com like) interface for on-demand GPUs
 first_seen: '2026-08-20T15:47:24Z'
-last_seen: '2026-09-06T00:59:06Z'
-status: rejected
+last_seen: '2026-09-06T23:54:47Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -70,6 +70,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiX0FVX3lxTE10cEFKdHhNQVBpVmk1TmNhTngtRjVsM0RnbnZ6by1aeTJkSWgwWkt2VEdiUkVvUWxuSlA0X1BkbS1sdm5QSXlEN3RkYWw3ekNQSlVlT0V4QkFmMy1wdkRV?oc=5
   seen_at: '2026-09-06T00:59:06Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMizwFBVV95cUxQZ0lhODlaU2s1Sk1SUm1LaXBnRFlXMFY5MDk0ZmpENVljNTZQOGl3cXUyOWtiMlFuazc3cmVBNHNLZm9qNXZOREFaT0RpX2dnVGxid0dGUjNTR3dTVHgxb0VteXBpYjUydHBGcUdkdEdFSEVXRm4xMG5mVW01WVltd0paRF9nV29QY2M4SEYxMmJaZ21uSzRhTXJCNm9idEw1X1BUN3ZfUDJNdVpLRVhOUkZDVnp4MEo1RjAwUmFsX3d3Q1U4aFZUZlNBUEdTYTg?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
   metrics: {}
   kind: news
 ---

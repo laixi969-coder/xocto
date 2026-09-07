@@ -21,18 +21,18 @@ canonical_url: https://featherhunter.github.io/dsh-mattpocock-skills-deck/archit
 summary: Matt Pocock 技能面板（DSH Deck）：安装即自带 25 个工程与效率技能（mattpocock/skills v1.2.3：triage、grilling、wayfinder、handoff
   等），右侧面板直接调用，无需手动装技能。当前主力支持 GitHub issue；Markdown 本地文件为预览版；GitLab 暂不在支持范围。希望它能帮你把想法更快变成现实。
 first_seen: '2026-08-17T00:23:57Z'
-last_seen: '2026-09-06T15:36:27Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://featherhunter.github.io/dsh-mattpocock-skills-deck/architecture/MattSkills-architecture.html
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
     stars: 50
     forks: 5
-    open_issues: 25
+    open_issues: 18
   kind: product
 ---
 

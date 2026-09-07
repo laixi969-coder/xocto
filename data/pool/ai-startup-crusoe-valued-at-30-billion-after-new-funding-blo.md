@@ -21,8 +21,8 @@ url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanJfNWE3V3k4Q2kzR3BBZm
 canonical_url: https://news.google.com/rss/articles/CBMiwgFBVV95cUxOanJfNWE3V3k4Q2kzR3BBZmF0aGtpNDRZUldsbXZURmJCbDBGSmdqSGdwbG41Y3QyZkg1QkZfeG9tSmJtZVVLQlNNNUZnQjFwYm9PbUxQXzNYejBMODlQeVloZTVjTU95OTNTQWRDd1lrd3p2UHZiaUItOFVOcXNOMlloV0F1ZW1hSFFPQ2l4MFpwLWZaRDZwSWpZMzMxbEljc3owN3BndVJuQnIwTjJWS0l3aV9QMVh5MHZsRGpBT1I1UQ?oc=5
 summary: AI startup Crusoe valued at $30 billion after new funding, Bloomberg News reports Reuters
 first_seen: '2026-09-03T23:33:41Z'
-last_seen: '2026-09-05T13:28:57Z'
-status: market_context
+last_seen: '2026-09-06T23:54:47Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -39,6 +39,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNSmhKcV9fbVphNkhVcnhiMHVkTGJoRzhKd1BROE5UR1JTNDVTVkltdFJiNUJIOGI1YnF3cTV3bjRISV9BVV92TDE0eWN4NTdNT0tMV2xFaFZGTGJDazdfdWFtenNaU0lreVB1WDlaclh1SW04cDNiNW9IdFdrSlFuVFRGczdJbW5RcUtjNTVQMFhmZkM0cmNyeU15VzBDWnItOG9say1ubklwNXZZY3ZweWRDS1k3cUFrRDFkNnNCVFVOWV9FOVF6Z29YOUVTSFNIQ1BFTDJzTmVqZ0dHbFM3OEtpSQ?oc=5
   seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdFhGTEZtY2lhN0cwcDZQZXlUZHVsdlM5NC1XMjBlcTFxcGxyZHdIVk9QTjR4LVlrVENrU2NoRnQ5Vm1mSWdjSHlpMVFpWXNSUW9UMWNkcEF5dGNaeUZEd3pQTms4S2d0ZHc5OVZlRHlPMzBGVU5VSE5aYVhnSmRZaFU5T2tlLW1DQ2s3clJlYmZWZFlQZGI3cWkyRmplOEduQ0xwakpOU2lwTmszRWtueFBBd3VheFZhakh1NnAwNi1IaUpHcElia0k1VDJMV3p5c3RsUk9R0gHbAUFVX3lxTE1xSHM4dENmb3dfVzkyZVRPR196eExlSW82MUNnUXdBWXYyWUpqUlJKT1g1R3hFME1WcWxTZFpTdGRfbHhoOTVCS0tTbl9GMEJYWDI0YUxsc1YzRUx5RVFmbHZPRWlmUlBkVGdGZG5ETUdaaWs3Q0NTWVNCdmRxUmpFeUFyRXo2RkJ2OHlXc3RyV05kRDllcXMtZXREM2ZoUW5oT19sa0NZT0dIT2tzWHkzYjZzZS1GUTFTcWFaRDNFMVhkSmw5cXBpalhPQVE2N0F6aTh2QklkeEVYUQ?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
   metrics: {}
   kind: news
 ---

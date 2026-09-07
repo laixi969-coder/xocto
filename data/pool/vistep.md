@@ -21,16 +21,16 @@ canonical_url: https://vistep.ai
 summary: Visualize Every Step with AI — bilingual visual explanations, interactive models and synchronized
   narration.
 first_seen: '2026-09-05T03:34:58Z'
-last_seen: '2026-09-06T15:36:27Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://vistep.ai
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 43
+    stars: 45
     forks: 2
     open_issues: 0
   kind: product

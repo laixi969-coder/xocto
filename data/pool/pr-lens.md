@@ -35,17 +35,17 @@ summary: Review code 100X faster. Lens draws every PR as animated architecture a
   inside the pull request itself. Use it as a GitHub App, GitHub Action, CLI, or a skill for your coding
   agent
 first_seen: '2026-08-20T19:16:16Z'
-last_seen: '2026-09-06T15:36:27Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://prlens.dev
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 304
-    forks: 9
+    stars: 313
+    forks: 10
     open_issues: 3
   kind: product
 ---

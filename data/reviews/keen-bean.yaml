@@ -38,3 +38,41 @@
   usage_reason: 散会即得可编辑的 spec 初稿，省去转写与整理环节，用户只需核对修改。
   usage_reason_en: An editable spec draft exists by the end of the meeting, cutting transcription and
     reorganization; users only review and revise.
+- id: req-initial-keen-bean-2026-09-07
+  project_slug: keen-bean
+  level: initial
+  reviewed_at: '2026-09-06T23:54:18Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它试图帮助用户完成：“在产品或项目讨论会上打开的 Mac 会议记录应用：它接收会议实时语音，边听边把口头讨论整理成规格说明草稿，散会后用户拿到一份可编辑核对的 spec 初稿，细节仍需人工确认；具体适用”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。
+    evidence_ids:
+    - ev-4aabb268f50c2407
+  - gate: consensus
+    status: insufficient
+    reason: 已有公开采用或增长信号，但尚缺持续使用、部署范围或复购的直接证据。
+    evidence_ids:
+    - ev-383dde9fd34de634
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪增长数据、公开评价与客户案例，确认增长是否转化为持续使用或付费。
+  market: ''
+  job: 产品经理
+  job_en: Product Manager
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 它承诺用更直接的方式完成这项任务：产品经理；具体采用动机与持续使用情况尚未核验。
+  usage_reason_en: 'It promises a simpler way to complete this job: Product Manager The exact adoption
+    motive and repeat use are not yet verified.'

@@ -31,17 +31,17 @@ canonical_url: https://ksor.panaversity.org
 summary: KSoR (Knowledge System of Record) is an open-source SDK for building governed, authoritative
   knowledge systems for humans and AI agents. It is a foundation of an AI-native knowledge platform.
 first_seen: '2026-08-17T06:36:55Z'
-last_seen: '2026-09-05T13:28:25Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://ksor.panaversity.org/
-  seen_at: '2026-09-05T13:28:25Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 150
-    forks: 30
+    stars: 151
+    forks: 31
     open_issues: 10
   kind: product
 ---

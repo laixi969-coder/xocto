@@ -36,17 +36,17 @@ summary: Infrastructure for the next generation of voice agents, designed to pro
   It is divided into a left brain and a right brain, storing information and emotions respectively, while
   a fully streaming architecture eliminates latency at the fundamental level.
 first_seen: '2026-08-17T09:49:10Z'
-last_seen: '2026-09-06T15:36:27Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/xzf-thu/VoiceMem
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 803
-    forks: 68
+    stars: 824
+    forks: 72
     open_issues: 6
   kind: product
 ---

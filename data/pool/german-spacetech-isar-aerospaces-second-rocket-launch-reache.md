@@ -22,8 +22,8 @@ url: https://sifted.eu/articles/isar-aerospace-test-flight-orbit/
 canonical_url: https://sifted.eu/articles/isar-aerospace-test-flight-orbit
 summary: Isar Aerospace reaches orbit and deploys payloads on second flight
 first_seen: '2026-09-05T21:49:26Z'
-last_seen: '2026-09-06T15:36:24Z'
-status: market_context
+last_seen: '2026-09-06T23:54:18Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -35,10 +35,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight
-  seen_at: '2026-09-06T15:36:24Z'
+  seen_at: '2026-09-06T23:54:18Z'
   metrics:
-    points: 388
-    comments: 112
+    points: 550
+    comments: 178
   kind: news
 ---
 

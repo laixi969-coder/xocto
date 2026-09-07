@@ -83,3 +83,35 @@
   fact: 'dsh-filesnap — 把对话和它改过的文件一起回退到某一轮之前,不需要 git 仓库. A blazing-fast rewind and redo plugin for DeepSeek
     Harness, powered by a 🦀 Rust core, tracking the conversion and the files it changed, no git required,
     low disk consumption | repository stars: 42'
+- id: ev-4bfb9b0063b4faf7
+  project_slug: uisight
+  url: https://www.npmjs.com/package/autoprompt-skill
+  title: autoprompt-skill
+  published_at: '2026-08-17T22:40:47Z'
+  collected_at: '2026-09-06T23:54:21Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks. | repository
+    stars: 1,006'
+- id: ev-665500fa68ec5640
+  project_slug: uisight
+  url: https://www.npmjs.com/package/dsh-research-report
+  title: dsh-research-report
+  published_at: '2026-08-19T14:06:05Z'
+  collected_at: '2026-09-06T23:54:21Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-snapshot
+    binding, tamper-evident) plus versioned sealed reports with per-claim verification verdicts and a
+    manifest-sealed directory. | repository stars: 68'
+- id: ev-bf8ccb8c4674912a
+  project_slug: uisight
+  url: https://www.npmjs.com/package/dsh-industry-research
+  title: dsh-industry-research
+  published_at: '2026-08-19T14:20:16Z'
+  collected_at: '2026-09-06T23:54:21Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Industry and company research domain pack for DeepSeek Harness: methodology skills, industry
+    chain mapping, public-source policy/news tracking, company research cards, and auditable research
+    reports. Research only - not investment advice. | repository stars: 63'

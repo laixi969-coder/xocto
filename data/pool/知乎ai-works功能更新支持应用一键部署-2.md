@@ -34,14 +34,19 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcW1qd0ZHNkhLMlNfMlZwel
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcW1qd0ZHNkhLMlNfMlZwelNWTTRNT3JURWI0VzNhckI3b2ozS19FelJqU01ZbS1sRV9SaGVJWkNWdVUxczNkaUxLcjNQMU02SWltVEpMN1RPN09jZk5qLUc5T3hhY1EwYjVXRGlEZDZhem5KQzhPWTRQVFdLZ2s?oc=5
 summary: 知乎AI Works功能更新，支持应用一键部署 新浪网
 first_seen: '2026-09-05T10:10:50Z'
-last_seen: '2026-09-06T13:15:47Z'
-status: watching
+last_seen: '2026-09-06T23:54:47Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTFBMcW1qd0ZHNkhLMlNfMlZwelNWTTRNT3JURWI0VzNhckI3b2ozS19FelJqU01ZbS1sRV9SaGVJWkNWdVUxczNkaUxLcjNQMU02SWltVEpMN1RPN09jZk5qLUc5T3hhY1EwYjVXRGlEZDZhem5KQzhPWTRQVFdLZ2s?oc=5
   seen_at: '2026-09-06T13:15:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihwFBVV95cUxNZTZHUFpJekU3Y3pKOXo0WVhEQ0l0elZWWlZSb3M0ZnNNaVhVQ0Y4dkZxcFpzcnJXTkFZQkprYXNRNzRnc3JycVBLeXo3UV9KMlgtclRqSXBwWG11dWlkSVFiYlRHQzlpb0I1VGNmYUNjNEVLOFg0U2ZzTkNSUG96bFNRYUtYRzQ?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
   metrics: {}
   kind: news
 ---

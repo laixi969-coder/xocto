@@ -1,7 +1,7 @@
 ---
 slug: a-milestone-in-expanding-access-to-ai
 name: OpenAI
-builder: ''
+builder: lukaspetersson
 category: ''
 summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
@@ -22,12 +22,13 @@ canonical_url: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
 summary: ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting
   broader access to AI through free and affordable options.
 first_seen: '2026-08-31T04:00:00Z'
-last_seen: '2026-09-06T13:15:47Z'
-status: market_context
+last_seen: '2026-09-06T23:54:47Z'
+status: pending_filter
 sources:
 - officialfeeds
 - newssearch
 - marketfeeds
+- hackernews
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads
@@ -147,6 +148,28 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTE5TenYtTWtiMHB0QmZjaWowNmNfTnpUR05oUVcySk9UcVFib3Y4NlcyUGtoT3JTMU1NdEFHZzVPX0t5Y2hkRVVrQnRqdDBHaE9yellsWHFGcG9JcVdqcWJZYXJnRFV6dDFlS2ZJMmxmbElqNnJxb1RBSw?oc=5
   seen_at: '2026-09-06T13:15:47Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/
+  seen_at: '2026-09-06T23:54:18Z'
+  metrics:
+    points: 45
+    comments: 44
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qRXJ0QjItUG1TS3dCTkFCZnV1MWpKMmNYb0VEYXprV1BKNEJTR0hsRVVNMUlydUh0LU9DMjU1Q1JWcEg1SlBnRnJQb2VFNUNzR0VSalN6bGEzU1ZhWGt3c2hWX1luZw?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ZUVhfVGZ3MUdrSU5JeGtKZXhpczZBRmVEX2JJRjl1QVNSN0tQcnU5aW81N3lRSUxMVXBvakVGZk9uUkNVQlZETmU3bUprbjRZS0x2bWdkWGNJclh4WDFUNWpaeHB2Z0d3VUxWN0NobjZJcXNZMkE?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1wTFQyUDUtT0dnZl9kdlZYbFlaX0IxM3hHRjdCX2FOTE1aWDJoOU10NklqYngtWi1KUzl4WWdiTU1OWjEzTlhiMnlEVXI5UkRpYUt1X2VvNjExaXUzbzB0Z1BUNWJHRkxsWUZITlZRNFZCRjNzRGgtQ2MwXzhXb0k?oc=5
+  seen_at: '2026-09-06T23:54:47Z'
   metrics: {}
   kind: news
 ---

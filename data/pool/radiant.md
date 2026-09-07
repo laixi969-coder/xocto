@@ -29,17 +29,17 @@ canonical_url: https://templetongroup.dev/showcase/radiant
 summary: A local coding harness for Mac. Chat with coding agents across cloud and local models, watch
   every tool call in a live activity feed, and drive a real terminal — in one window. Free and MIT licensed.
 first_seen: '2026-08-19T02:51:36Z'
-last_seen: '2026-09-06T13:15:20Z'
+last_seen: '2026-09-06T23:54:21Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://templetongroup.dev/showcase/radiant/
-  seen_at: '2026-09-06T13:15:20Z'
+  seen_at: '2026-09-06T23:54:21Z'
   metrics:
-    stars: 44
-    forks: 8
+    stars: 49
+    forks: 9
     open_issues: 1
   kind: product
 ---
