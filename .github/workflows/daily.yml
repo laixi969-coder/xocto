@@ -99,8 +99,12 @@ jobs:
           # 判断层兜底采集可能刚好也在推。先尝试直推；远端前进时只在当前
           # 这一个提交上 rebase 后重试，不因为一次竞态丢掉当天结果。
           if ! git push origin HEAD:main; then
-            git pull --rebase origin main
-            git push origin HEAD:main
+            if git pull --rebase origin main; then
+              git push origin HEAD:main || echo "::warning::重试推送仍失败，交由下一次运行合并"
+            else
+              git rebase --abort
+              echo "::warning::远端有竞争写入且无法自动合并，放弃本次采集提交（下次采集会重新抓取并去重）"
+            fi
           fi
 
       # 放在采集提交之后：单源失败不能丢掉当天原始存档，但必须让任务变红。
@@ -240,6 +244,12 @@ jobs:
             echo "日报没有新变化，跳过提交"
             exit 0
           fi
+          # 撞车后遗留的冲突标记绝不能进仓库（曾污染过产品池）。
+          if git grep --cached -l "^<<<<<<< HEAD" -- data/ | grep -q .; then
+            echo "::error::暂存区存在未解决的冲突标记，拒绝提交"
+            git diff --staged --name-only | head -20
+            exit 1
+          fi
           if [ "${{ steps.brief.outcome }}" = "success" ]; then
             commit_label="每日判断"
           else
@@ -247,8 +257,12 @@ jobs:
           fi
           git commit -m "chore: $commit_label $(TZ=Asia/Shanghai date +%Y-%m-%d)"
           if ! git push origin HEAD:main; then
-            git pull --rebase origin main
-            git push origin HEAD:main
+            if git pull --rebase origin main; then
+              git push origin HEAD:main || echo "::warning::重试推送仍失败，交由下一次运行合并"
+            else
+              git rebase --abort
+              echo "::warning::远端有竞争写入且无法自动合并，放弃本次提交"
+            fi
           fi
 
       - name: 核验线上中英文交付
