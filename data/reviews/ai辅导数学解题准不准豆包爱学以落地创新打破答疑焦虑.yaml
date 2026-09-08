@@ -1,0 +1,41 @@
+- id: req-initial-ai辅导数学解题准不准豆包爱学以落地创新打破答疑焦虑-2026-09-08
+  project_slug: ai辅导数学解题准不准豆包爱学以落地创新打破答疑焦虑
+  level: initial
+  reviewed_at: '2026-09-08T00:25:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决学生即时解题指导和家长了解学情的需求，痛点刚性，替代行为明确（搜题软件、通用AI），交付可确定（解题步骤与答案）。
+    evidence_ids:
+    - ev-744fe998a25ce936
+  - gate: consensus
+    status: insufficient
+    reason: 报道提及打破答疑焦虑，但缺乏用户评价、使用数据或场景强证据，共识度未明。
+    evidence_ids:
+    - ev-744fe998a25ce936
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是家长（to C）或学校（to B），但无公开证据。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 解题准确性是核心承诺，但报道未提供可核验的准确率或对比数据，需进一步验证。
+    evidence_ids:
+    - ev-744fe998a25ce936
+  next_validation: 查找豆包爱学官方产品页或应用商店描述，确认其具体功能、定价及用户评价。
+  market: ''
+  job: 学生遇到数学难题时，需要即时、准确的解题指导，家长需要了解孩子的学习薄弱点。
+  job_en: When students encounter difficult math problems, they need immediate and accurate guidance;
+    parents need to understand their children's learning weaknesses.
+  pain: 传统答疑依赖老师或家长，时间受限且难以覆盖所有题目；通用AI工具解题准确率不足，讲解可能不贴合教材。
+  pain_en: Traditional Q&A relies on teachers or parents, which is time-limited and cannot cover all problems;
+    general AI tools may lack accuracy and alignment with textbooks.
+  current_alternative: 学生使用搜题软件（如作业帮）或通用AI助手（如豆包、ChatGPT）获取答案，但常缺乏步骤讲解或存在错误。
+  current_alternative_en: Students use question-searching apps (e.g., Zuoyebang) or general AI assistants
+    (e.g., Doubao, ChatGPT) for answers, but often lack step-by-step explanations or contain errors.
+  usage_reason: 豆包爱学背靠字节跳动，可能整合了高质量教育数据和模型优化，提供更准确的解题和讲解，且与豆包生态联动，降低使用门槛。
+  usage_reason_en: Backed by ByteDance, Doubao Aixue may integrate high-quality educational data and model
+    optimization for more accurate solving and explanation, and leverage the Doubao ecosystem to lower
+    usage barriers.

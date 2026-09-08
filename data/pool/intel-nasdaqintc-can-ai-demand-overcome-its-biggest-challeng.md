@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0ZvZ0VVbUhMa19qem5iS2
 canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0ZvZ0VVbUhMa19qem5iS21NOEJneXdVck9pTmNnVkJoTzFOU0FlNDhMVGFWbzFOckxtTGxsdmlFdjhZNDZxV2FUd1AzcHRNT2lTZjFwbHZLWTZhTlB0SXBqNm1Ec3pqVTVDWTU4OVN1SW41NEN1QXhIN1JwTFNFX0FDN1FNZ3ZHLTdnZmdhdzZLZ0tQY3M5ZnJndXZDVEREbWZabC13c3JoVFJw?oc=5
 summary: 'Intel (NASDAQ:INTC): Can AI Demand Overcome Its Biggest Challenges? Kalkine Media'
 first_seen: '2026-09-05T10:49:00Z'
-last_seen: '2026-09-06T11:02:02Z'
-status: market_context
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -36,6 +36,16 @@ sightings:
 - source: marketfeeds
   url: https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/
   seen_at: '2026-09-06T11:02:02Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uSWcta01USzRhR0x3SkNhcnJKbzJyNVVpakc2WmQzSmVpWk9sc1dRNmRSNEdSUFg0aEh1R1JyMTkybUJhZVRCVDMxejBlWlBpOHc?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiT0FVX3lxTE45Tk1QdWZEcm5TemV2NDVvaVZDbWNGWnhCdjQ3TXM3UGNTVHR6TlJsMTVoSWdoUDdFNUpKMjVqNWNBd0sxN3B4UnpsZmliYUU?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
   metrics: {}
   kind: news
 ---

@@ -20,16 +20,16 @@ url: https://github.com/krispuckett/murmur
 canonical_url: https://github.com/krispuckett/murmur
 summary: Responsive AI presence orbs for SwiftUI. Metal glass shaders with states, voice and typing signals.
 first_seen: '2026-08-28T20:31:05Z'
-last_seen: '2026-09-05T23:54:04Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/krispuckett/murmur
-  seen_at: '2026-09-05T23:54:04Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 84
+    stars: 85
     forks: 0
     open_issues: 1
   kind: product

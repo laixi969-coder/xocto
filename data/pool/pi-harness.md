@@ -30,17 +30,17 @@ canonical_url: https://github.com/wangmiaozero/pi-harness
 summary: Visual desktop Harness & control center for Pi Coding Agent — inspect runtime, context, tools
   & sessions; manage models & skills; browse files & Git. Powered by Pi Agent Harness.
 first_seen: '2026-08-20T12:29:47Z'
-last_seen: '2026-09-04T14:23:30Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/wangmiaozero/pi-harness
-  seen_at: '2026-09-04T14:23:30Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 42
-    forks: 3
+    stars: 51
+    forks: 4
     open_issues: 0
   kind: product
 ---

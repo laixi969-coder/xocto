@@ -1,0 +1,38 @@
+- id: req-initial-ovobrowser-2026-09-08
+  project_slug: ovobrowser
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决绕过机器人检测的需求，但具体用户任务和痛点不明确，且可能涉及灰色用途。
+    evidence_ids:
+    - ev-616e197864c6034f
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库星标数增长，但缺乏社区讨论或采用证据。
+    evidence_ids:
+    - ev-616e197864c6034f
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式，可能面向开发者或企业，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: challenged
+    reason: 产品可能用于规避安全控制，存在法律和道德风险，需谨慎评估。
+    evidence_ids:
+    - ev-616e197864c6034f
+  next_validation: 查看官方文档或README，确认其目标用户和典型使用场景。
+  market: ''
+  job: 开发人员或测试人员需要模拟真实浏览器环境以绕过反爬虫机制。
+  job_en: Developers or testers need to simulate real browser environments to bypass anti-bot mechanisms.
+  pain: 现有反检测工具容易被检测，需要更隐蔽的方案。
+  pain_en: Existing anti-detection tools are easily detected, requiring more stealthy solutions.
+  current_alternative: 目前常用Puppeteer或Playwright配合stealth插件，但仍有被检测的风险。
+  current_alternative_en: Currently, Puppeteer or Playwright with stealth plugins are commonly used, but
+    they still risk detection.
+  usage_reason: 源码级修改可能提供更稳定的绕过效果，但具体使用场景和需求强度未明。
+  usage_reason_en: Source-level modification may provide more stable bypass effects, but specific use
+    cases and demand intensity are unclear.

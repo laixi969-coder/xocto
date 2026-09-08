@@ -32,8 +32,8 @@ url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9lVHJvbUVGd1JCcWpxR0pTcW
 canonical_url: https://news.google.com/rss/articles/CBMieEFVX3lxTE9lVHJvbUVGd1JCcWpxR0pTcWZrUUFjRTJqdUVUSjRzemo1NVNXbTZ6SjNqdldkQlNaNHVlWWRJR3RERGhJRHlCRlRNU1JCRng1Z0publpzVVBPbDZLM3B1MHN4MlAxRFZTNTVGeFY0MXNubjFzNHRYdw?oc=5
 summary: 拉塞特战略收购欣农互联，同步发布“小欣AI 3.0”超级智能体，构建全栈AI+养殖能力矩阵 新浪财经
 first_seen: '2026-09-04T09:41:00Z'
-last_seen: '2026-09-05T23:54:29Z'
-status: watching
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -45,6 +45,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjMXlfNUxkSVNoZ1A4VW42cGxBZ1NJMDl0RVk0dkRFTVAzUTNZbGRRd3Ewd0dPYUVWSmEtOWFDM0RwcVFqdEpQVXo1SU5PQjF0Qkk4T243UXo2NklsSTdMaQ?oc=5
   seen_at: '2026-09-05T23:54:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZEFVX3lxTE91VUZSU2l1ZHR3enY3cGw1SXlXeXYzSHpzZ25YT0RNVnhNaEpZXzFSMWVtUGFtOHpnQ2tuaGxsNlZNUzFKZmdZVDVJMmNTemMwcm1TVTZKVGlyWlFXR3Q0ZnV3Qmw?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
   metrics: {}
   kind: news
 ---

@@ -1,0 +1,42 @@
+---
+slug: karnataka-to-release-rules-for-rs-200-crore-startup-fund-lau
+name: Karnataka to release rules for Rs 200-crore startup fund, launch AI skilling, says IT secretary
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZGxBLVBvTndETWY3ZVY5Zmh5c1lzaVR3eFdqODdzcVlUQnFGcVpaU21Tdm55NVhpdHdRRk1KZW1lSGF4VWtEOFVyRjVtbS02eDY3UU9RQXVNbXpVQlVucEZfLXBLU2g5U0pmaUt5N05PZm0zR09zdzl0RXpHUDJSQkpVY0I2dVlIZm5lbktnTVBrRjJWRGd2ajVKMTFCYkM2WElGRFVPY3FDWW1PSHFMYnJneVVIVGdXaFpiMlZWNVFBZ01qNXF5MkR5a0xKcV9QbjNSeXNMaWN1eVBuVTJNMHg5MnlPWFlhd2lvYnJsQlUzRlpP0gH0AUFVX3lxTE9kbEEtUG9Od0RNZjdlVjlmaHlzWXNpVHd4V2o4N3NxWVRCcUZxWlpTbVN2bnk1WGl0d1FGTUplbWVIYXhVa0Q4VXJGNW1tLTZ4NjdRT1FBdU1telVCVW5wRl8tcEtTaDlTSmZpS3k3Tk9mbTNHT3N3OXRFekdQMlJCSlVjQjZ1WUhmbmVuS2dNUGtGMlZEZ3ZqNUoxMUJiQzZYSUZEVU9jcUNZbU9IcUxicmd5VUhUZ1doWmIyVlY1UUFnTWo1cXkyRHlrTEpxX1BuM1J5c0xpY3V5UG5VMk0weDkyeU9YWWF3aW9icmxCVTNGWk8?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZGxBLVBvTndETWY3ZVY5Zmh5c1lzaVR3eFdqODdzcVlUQnFGcVpaU21Tdm55NVhpdHdRRk1KZW1lSGF4VWtEOFVyRjVtbS02eDY3UU9RQXVNbXpVQlVucEZfLXBLU2g5U0pmaUt5N05PZm0zR09zdzl0RXpHUDJSQkpVY0I2dVlIZm5lbktnTVBrRjJWRGd2ajVKMTFCYkM2WElGRFVPY3FDWW1PSHFMYnJneVVIVGdXaFpiMlZWNVFBZ01qNXF5MkR5a0xKcV9QbjNSeXNMaWN1eVBuVTJNMHg5MnlPWFlhd2lvYnJsQlUzRlpP0gH0AUFVX3lxTE9kbEEtUG9Od0RNZjdlVjlmaHlzWXNpVHd4V2o4N3NxWVRCcUZxWlpTbVN2bnk1WGl0d1FGTUplbWVIYXhVa0Q4VXJGNW1tLTZ4NjdRT1FBdU1telVCVW5wRl8tcEtTaDlTSmZpS3k3Tk9mbTNHT3N3OXRFekdQMlJCSlVjQjZ1WUhmbmVuS2dNUGtGMlZEZ3ZqNUoxMUJiQzZYSUZEVU9jcUNZbU9IcUxicmd5VUhUZ1doWmIyVlY1UUFnTWo1cXkyRHlrTEpxX1BuM1J5c0xpY3V5UG5VMk0weDkyeU9YWWF3aW9icmxCVTNGWk8?oc=5
+summary: Karnataka to release rules for Rs 200-crore startup fund, launch AI skilling, says IT secretary
+  Moneycontrol.com
+first_seen: '2026-09-07T10:10:52Z'
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZGxBLVBvTndETWY3ZVY5Zmh5c1lzaVR3eFdqODdzcVlUQnFGcVpaU21Tdm55NVhpdHdRRk1KZW1lSGF4VWtEOFVyRjVtbS02eDY3UU9RQXVNbXpVQlVucEZfLXBLU2g5U0pmaUt5N05PZm0zR09zdzl0RXpHUDJSQkpVY0I2dVlIZm5lbktnTVBrRjJWRGd2ajVKMTFCYkM2WElGRFVPY3FDWW1PSHFMYnJneVVIVGdXaFpiMlZWNVFBZ01qNXF5MkR5a0xKcV9QbjNSeXNMaWN1eVBuVTJNMHg5MnlPWFlhd2lvYnJsQlUzRlpP0gH0AUFVX3lxTE9kbEEtUG9Od0RNZjdlVjlmaHlzWXNpVHd4V2o4N3NxWVRCcUZxWlpTbVN2bnk1WGl0d1FGTUplbWVIYXhVa0Q4VXJGNW1tLTZ4NjdRT1FBdU1telVCVW5wRl8tcEtTaDlTSmZpS3k3Tk9mbTNHT3N3OXRFekdQMlJCSlVjQjZ1WUhmbmVuS2dNUGtGMlZEZ3ZqNUoxMUJiQzZYSUZEVU9jcUNZbU9IcUxicmd5VUhUZ1doWmIyVlY1UUFnTWo1cXkyRHlrTEpxX1BuM1J5c0xpY3V5UG5VMk0weDkyeU9YWWF3aW9icmxCVTNGWk8?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+---
+
+# Karnataka to release rules for Rs 200-crore startup fund, launch AI skilling, says IT secretary
+
+Karnataka to release rules for Rs 200-crore startup fund, launch AI skilling, says IT secretary Moneycontrol.com
+
+## 笔记
+
+

@@ -1,0 +1,38 @@
+- id: req-initial-strikeagent-atkbrain-flash-2026-09-08
+  project_slug: strikeagent-atkbrain-flash
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：渗透测试工作高度依赖专家且耗时，AI 自动化可显著降低成本，痛点刚性。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目 149 星，但无公开采用或付费证据，场景明确但需进一步验证。
+    evidence_ids:
+    - ev-e6a6a3db93f65504
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找官方文档或演示，确认其自动化渗透测试的实际能力和交付物。
+  market: ''
+  job: 安全团队需要快速识别系统漏洞并验证可利用性，以修复或报告。
+  job_en: Security teams need to quickly identify and validate exploitable vulnerabilities for remediation
+    or reporting.
+  pain: 手动渗透测试耗时且依赖专家经验，漏报风险高。
+  pain_en: Manual pentesting is time-consuming, expert-dependent, and prone to missed findings.
+  current_alternative: 使用传统扫描器（如 Nessus）加人工验证，或外包给安全服务商。
+  current_alternative_en: Using traditional scanners like Nessus plus manual validation, or outsourcing
+    to security vendors.
+  usage_reason: AI 可自动化扫描和初步利用，降低门槛并提高覆盖。
+  usage_reason_en: AI can automate scanning and initial exploitation, lowering the barrier and increasing
+    coverage.

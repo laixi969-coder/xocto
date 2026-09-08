@@ -1,0 +1,39 @@
+- id: req-initial-reimagine-it-2026-09-08
+  project_slug: reimagine-it
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决从内容到设计稿耗时的问题，但痛点强度和交付确定性缺乏公开证据。
+    evidence_ids:
+    - ev-30187e6cd7fcafa9
+    - ev-32498196b78b47cf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 公开代码仓库 星标，无用户反馈或采用证据。
+    evidence_ids:
+    - ev-30187e6cd7fcafa9
+    - ev-32498196b78b47cf
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或示例，展示输入输出和设计效果。
+  market: ''
+  job: 网页设计师或前端开发者在将内容转化为设计稿时，需要快速生成视觉方案。
+  job_en: Web designers or front-end developers need to quickly generate visual concepts when transforming
+    content into designs.
+  pain: 从内容到设计稿的过程耗时，且需要设计技能。
+  pain_en: The process from content to design is time-consuming and requires design skills.
+  current_alternative: 使用 Figma、Sketch 等设计工具手动布局，或使用模板。
+  current_alternative_en: Manually laying out using design tools like Figma or Sketch, or using templates.
+  usage_reason: 可能因快速生成设计稿而吸引用户，但公开信息不足，无法确认实际使用场景和效果。
+  usage_reason_en: May attract users for quickly generating designs, but public information is insufficient
+    to confirm actual usage scenarios and effectiveness.

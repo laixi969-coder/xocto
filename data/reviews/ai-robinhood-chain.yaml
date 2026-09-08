@@ -1,0 +1,40 @@
+- id: req-initial-ai-robinhood-chain-2026-09-08
+  project_slug: ai-robinhood-chain
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 结构上解决链上交易者高频监控与执行自动化的刚性痛点，工作流闭环明确。
+    evidence_ids:
+    - ev-674a6e6e1518aa43
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库有一定关注度，但缺少实际资金实盘部署规模与持续运行证据。
+    evidence_ids:
+    - ev-674a6e6e1518aa43
+  - gate: model
+    status: insufficient
+    reason: 纯开源代码库，未披露托管服务或商业化收费模式。
+    evidence_ids:
+    - ev-674a6e6e1518aa43
+  - gate: truth
+    status: insufficient
+    reason: 自主交易智能体在极端链上行情下的执行确定性与资金安全性尚待验证。
+    evidence_ids:
+    - ev-674a6e6e1518aa43
+  next_validation: 官方仓库后续发布的实盘策略测试数据或托管版本上线说明。
+  market: ''
+  job: 在特定新兴 L2 链上持续监控市场行情并自动化执行链上交易策略。
+  job_en: Monitor market dynamics and automate on-chain trading strategies on a specific L2 network.
+  pain: 手动盯盘易错失流动性机会，跨平台维护多套脚本与通知机器人开发和维护成本高。
+  pain_en: Manual tracking misses fleeting liquidity windows, while maintaining disparate scripts and
+    notification bots incurs high overhead.
+  current_alternative: 手工编写 Python/Node 交易脚本配合 Telegram 告警机器人。
+  current_alternative_en: Hand-crafted Python/Node trading scripts paired with custom Telegram notification
+    bots.
+  usage_reason: 项目打包了多接口与多智能体协同框架，降低了针对该链部署全套交易监控的工程门槛。
+  usage_reason_en: The project packages multi-agent coordination across various chat and CLI interfaces,
+    lowering setup costs for the target L2 chain.

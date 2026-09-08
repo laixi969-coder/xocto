@@ -3,10 +3,10 @@ slug: when-ai-infrastructure-becomes-the-target-securing-gateways
 name: Microsoft
 builder: ''
 category: ''
-summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+summary_zh: 微软作为大型科技公司，其AI基础设施安全、企业服务AI代理等动态属于行业背景，非独立产品。
 inspiration: ''
-summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
-  confirm its workflow value.
+summary_en: Microsoft's moves in AI infrastructure security and enterprise AI agents are industry context,
+  not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4OElRUDlhNU
 canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4OElRUDlhNUVRWnUtTUUtVUlNcmNWZjAwbkZubWZ4X2FLSjhfQ0l6a0pVbDg3S1pucXhLSXN2blJPdTZYbm5kdW1yX2luLWVxQ3M2NHJRRXgxYV9aODFQUXZkRVFVdVBWdkJMQ3VYcGVhdTM4Y0xsaU1KTGtMZy1ZaEdvR0hxWVdIZENDVnNFVFN0WTRCYk5semo5VUpEQ3owOWthVnpHeTVKVmVRV1BBWUx3bWJnU0VSaTZhMmxR?oc=5
 summary: 'When AI infrastructure becomes the target: Securing gateways and control points Microsoft'
 first_seen: '2026-08-26T16:43:53Z'
-last_seen: '2026-09-06T15:20:04Z'
+last_seen: '2026-09-08T00:25:57Z'
 status: market_context
 sources:
 - newssearch
@@ -50,6 +50,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMizAFBVV95cUxNWHNTWU5XT1FkV3g5aWkzY3dlRU9OX3RnZC1Sbm1udGNCZk5BMU9EWjFtYThhdzdkS09VYmRPZTc2ZXMxX09hQ2FtZi0yUDAwWC1XUXFKNFVJM1B1ZTBrbWo3SGs4NHhNbC02SUJDLXBSV3JvaUFxVS1ZcUxJcGZOdUx2SzhFQzdpdmpRbDJrUkJST3BjRXN5TDFCN3pTUXJObFVYa2xOUHMtUWpUZC14WTV4N01CTWJxdkk4b19yR3J3elFxbU55RlA5bXQ?oc=5
   seen_at: '2026-09-06T15:20:04Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUHlJX01PWV9fS09EbTNrM08wWmRaRVVsNTBwUVU1MEZtWTN6QXVIOXJWZmkwNFR2d1dHNHp4dkdrOWVRWWRFNF9Nd2JPVEhfUWZNVy1BQUZSRjJyLTJMRUd0MVdJNEQwS0d3azZXelJiN0ctLXFLSXRKMzd4Q0NUX3k5OVNhVVJi?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
   metrics: {}
   kind: news
 ---

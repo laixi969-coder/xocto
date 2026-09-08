@@ -1,0 +1,38 @@
+- id: req-initial-ravage-2026-09-08
+  project_slug: ravage
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决安全测试耗时的问题，但痛点强度和交付确定性缺乏公开证据。
+    evidence_ids:
+    - ev-bea3f035b4e44249
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 公开代码仓库 星标，无用户反馈或采用证据。
+    evidence_ids:
+    - ev-bea3f035b4e44249
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或演示，展示测试流程和输出报告。
+  market: ''
+  job: 安全测试工程师在评估 Web 应用安全性时，需要执行漏洞扫描和渗透测试。
+  job_en: Security test engineers need to perform vulnerability scanning and penetration testing when
+    assessing web application security.
+  pain: 手动渗透测试耗时且需要专业技能，现有工具自动化程度有限。
+  pain_en: Manual penetration testing is time-consuming and requires specialized skills, and existing
+    tools have limited automation.
+  current_alternative: 使用 Burp Suite、OWASP ZAP 等工具进行手动或半自动测试。
+  current_alternative_en: Using tools like Burp Suite or OWASP ZAP for manual or semi-automated testing.
+  usage_reason: 可能因自动化测试而吸引安全人员，但公开信息不足，无法确认实际使用场景和效果。
+  usage_reason_en: May attract security professionals for automated testing, but public information is
+    insufficient to confirm actual usage scenarios and effectiveness.

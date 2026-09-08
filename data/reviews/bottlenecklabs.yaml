@@ -1,0 +1,38 @@
+- id: req-initial-bottlenecklabs-2026-09-08
+  project_slug: bottlenecklabs
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：该项目主要展示 AI 风险，而非直接解决用户痛点。价值主张不明确。
+    evidence_ids:
+    - ev-da3995d3301425b7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。缺乏用户反馈和采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。商业模式未知。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。无法验证产品真实性。
+    evidence_ids: []
+  next_validation: 访问 bottlenecklabs 的官方网站，查看是否有具体的产品、服务或客户案例。
+  market: ''
+  job: 测试和展示 AI 模型在真实业务中的自主运营能力及风险。
+  job_en: Test and demonstrate AI models' ability to autonomously run real businesses and the associated
+    risks.
+  pain: 企业对 AI 自主运营的信任度低，因为 AI 可能产生错误行为导致财务损失。
+  pain_en: Businesses have low trust in AI autonomous operations because AI may make mistakes causing
+    financial losses.
+  current_alternative: 目前企业通常由人工管理业务流程，AI 仅用于辅助决策，缺乏对 AI 自主行为的监控和约束机制。
+  current_alternative_en: Currently, businesses typically manage processes manually, with AI only assisting
+    decisions, lacking monitoring and constraint mechanisms for autonomous AI behavior.
+  usage_reason: 如果 bottlenecklabs 能提供可靠的 AI 行为测试和监控方案，企业可能会关注以评估 AI 自主运营的风险。
+  usage_reason_en: If bottlenecklabs can provide reliable AI behavior testing and monitoring solutions,
+    businesses may pay attention to assess risks of AI autonomous operations.

@@ -37,3 +37,43 @@
   usage_reason: 汽车之家已有大量用户基础和车辆数据，智能体可减少信息搜索成本，提供一站式引导，即使初期不完美也可能因便利性被试用。
   usage_reason_en: Autohome has a large user base and vehicle data; the agent can reduce search costs
     and offer one-stop guidance, likely attracting trials for convenience even if imperfect.
+- id: req-initial-汽车之家发布芝士车管家ai智能体打通汽车选买用卖全链路-2026-09-08
+  project_slug: 汽车之家发布芝士车管家ai智能体打通汽车选买用卖全链路
+  level: initial
+  reviewed_at: '2026-09-08T00:25:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决购车和用车过程中的信息分散与决策困难，痛点明确，交付可确定。
+    evidence_ids:
+    - ev-5b750d097842fe49
+    - ev-66bfe92e7bbc6e0a
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道显示发布，但缺乏用户采用或持续使用证据。
+    evidence_ids:
+    - ev-5b750d097842fe49
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是汽车之家平台或经销商，但无公开信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 产品刚发布，交付质量和实际效果未验证。
+    evidence_ids:
+    - ev-66bfe92e7bbc6e0a
+  next_validation: 查找芝士车管家的官方产品页面或用户评价，确认实际功能和采用情况。
+  market: ''
+  job: 购车用户需要比较车型、评估价格、获取用车建议；车主需要处理保养、维修、卖车等事务。
+  job_en: Car buyers need to compare models, evaluate prices, and get usage advice; owners need help with
+    maintenance, repairs, and selling.
+  pain: 信息分散，决策耗时，缺乏可信赖的一站式指导。
+  pain_en: Information is scattered, decisions are time-consuming, and trusted one-stop guidance is lacking.
+  current_alternative: 用户目前通过汽车之家网站、论坛、经销商咨询等分散渠道获取信息。
+  current_alternative_en: Users currently rely on Autohome website, forums, dealer consultations, and
+    other fragmented channels.
+  usage_reason: 汽车之家拥有大量车型数据和用户基础，AI智能体可能降低信息检索成本，但采用情况需观察。
+  usage_reason_en: Autohome has extensive vehicle data and user base; the AI agent may reduce search costs,
+    but adoption needs observation.

@@ -1,0 +1,42 @@
+- id: req-initial-engrim-2026-09-08
+  project_slug: engrim
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决终端 AI 工具跨会话无状态与上下文丢失的痛点，本地优先架构定位清晰。
+    evidence_ids:
+    - ev-bebfc941300d5011
+    - ev-953126dbfdecdc4c
+  - gate: consensus
+    status: supported
+    reason: 在开发者社区引发较多点赞与数十条实质性讨论，展现出对本地记忆层的刚性诉求。
+    evidence_ids:
+    - ev-bebfc941300d5011
+    - ev-953126dbfdecdc4c
+  - gate: model
+    status: insufficient
+    reason: 当前为纯开源本地基础库，尚未展开商业授权或企业级数据同步付费模式。
+    evidence_ids:
+    - ev-953126dbfdecdc4c
+  - gate: truth
+    status: supported
+    reason: 依赖成熟稳定的 SQLite 存储机制，持久化与检索能力具备高度确定性。
+    evidence_ids:
+    - ev-bebfc941300d5011
+  next_validation: 追踪被主流开源 AI CLI 工具官方集成的案例数量及 公开代码仓库 活跃度演进。
+  market: ''
+  job: 为本地运行的各类 AI 命令行工具提供跨会话的状态记忆与历史持久化。
+  job_en: Provide cross-session state memory and history persistence for local AI CLI applications.
+  pain: 各 CLI 工具各自维护临时缓存或依赖云端向量库，配置繁琐且存在隐私泄露风险。
+  pain_en: CLI tools either lack persistence or rely on heavy cloud stores, causing friction and privacy
+    risks.
+  current_alternative: 每个 CLI 独立编写 JSON 存储脚本或调用外部托管的向量数据库服务。
+  current_alternative_en: Write ad-hoc JSON file storage per CLI or integrate external hosted vector database
+    services.
+  usage_reason: 本地优先、无外部服务依赖且基于标准 SQLite，开箱即用且保护数据隐私。
+  usage_reason_en: Local-first, zero cloud dependencies, and built on SQLite, ensuring privacy and ease
+    of setup.

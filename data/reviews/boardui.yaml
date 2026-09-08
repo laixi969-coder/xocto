@@ -1,0 +1,41 @@
+- id: req-initial-boardui-2026-09-08
+  project_slug: boardui
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者构建 AI 界面时组件不匹配、需从零开发的痛点，提供现成组件，价值明确。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有 365 星，但缺乏用户评价或广泛采用证据，共识尚未形成。
+    evidence_ids:
+    - ev-007ddd8d9c4b107b
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确付费路径，商业模式不清晰。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+  - gate: truth
+    status: supported
+    reason: 组件库贴近前端开发的第一性目标，交付可确定，风险较低。
+    evidence_ids:
+    - ev-c684dbbfed4b65df
+  next_validation: 关注 公开代码仓库 仓库的 issue 讨论和用户反馈，了解实际使用中的问题。
+  market: ''
+  job: 前端开发者需要快速构建 AI 聊天或智能体界面，避免从零编写组件。
+  job_en: Frontend developers need to quickly build AI chat or agent interfaces, avoiding writing components
+    from scratch.
+  pain: AI 界面交互模式（流式输出、工具调用状态等）与传统 UI 不同，现有组件库不匹配，开发耗时。
+  pain_en: AI interface interaction patterns (streaming output, tool call states, etc.) differ from traditional
+    UI, existing component libraries do not match, and development is time-consuming.
+  current_alternative: 开发者通常使用通用 UI 框架（如 Material UI）自行改造，或从零编写组件。
+  current_alternative_en: Developers typically use general UI frameworks (e.g., Material UI) and modify
+    them, or write components from scratch.
+  usage_reason: 开源且免费，提供现成的 AI 界面组件，能直接复用，降低开发成本。
+  usage_reason_en: Open source and free, providing ready-made AI interface components that can be directly
+    reused, reducing development costs.

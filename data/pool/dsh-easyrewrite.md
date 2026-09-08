@@ -31,16 +31,16 @@ summary: DSH Web内目前最无感的消息撤回、重编辑插件，原版体�
   re-edit plugin for DSH Web — native experience, strong compatibility, simple toggles, rich settings,
   modern lightweight UI. DSH Web で最もシームレスなメッセージ撤回・再編集プラグイン——ネイティブ体験、高い互換性、シンプルなトグル、充実した設定、モダンで軽量な UI。
 first_seen: '2026-08-18T13:52:50Z'
-last_seen: '2026-09-06T13:15:20Z'
+last_seen: '2026-09-07T15:52:49Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Renzic-Stone/DSH-EasyRewrite
-  seen_at: '2026-09-06T13:15:20Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    stars: 103
+    stars: 104
     forks: 8
     open_issues: 0
   kind: product

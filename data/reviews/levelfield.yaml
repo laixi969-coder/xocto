@@ -1,0 +1,41 @@
+- id: req-initial-levelfield-2026-09-08
+  project_slug: levelfield
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏明确的痛点验证
+    evidence_ids:
+    - ev-99969775fd166d31
+    - ev-82d832f79e4f068b
+  - gate: consensus
+    status: insufficient
+    reason: 无公开用户案例或付费信息
+    evidence_ids:
+    - ev-99969775fd166d31
+    - ev-82d832f79e4f068b
+  - gate: model
+    status: insufficient
+    reason: 未见模型或技术细节公开
+    evidence_ids:
+    - ev-99969775fd166d31
+    - ev-82d832f79e4f068b
+  - gate: truth
+    status: insufficient
+    reason: 缺少可验证的使用数据
+    evidence_ids:
+    - ev-99969775fd166d31
+    - ev-82d832f79e4f068b
+  next_validation: 获取官方使用案例或用户反馈
+  market: ''
+  job: 合约工程师
+  job_en: Contract Engineer
+  pain: 需要评估事件合约的风险
+  pain_en: Need to assess risk of event contracts
+  current_alternative: 手工审查或传统风险模型
+  current_alternative_en: Manual review or traditional risk models
+  usage_reason: 自动化评估信息不对称风险
+  usage_reason_en: Automated assessment of information asymmetry risk

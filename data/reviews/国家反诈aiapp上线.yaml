@@ -37,3 +37,42 @@
   usage_reason: 官方背景可能增加信任度，但具体功能和使用场景尚不明确，用户是否会持续使用有待观察。
   usage_reason_en: Official backing may increase trust, but specific functions and use cases are unclear;
     whether users will continue using it remains to be seen.
+- id: req-initial-国家反诈aiapp上线-2026-09-08
+  project_slug: 国家反诈aiapp上线
+  level: initial
+  reviewed_at: '2026-09-08T00:25:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助民众识别诈骗电话和短信，痛点在于诈骗手段多样且难以辨别。但具体功能和工作流程未披露，价值判断证据不足。
+    evidence_ids:
+    - ev-5ad81e0874fa9a8c
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道仅提及上线，缺乏用户反馈或采用数据，共识度无法评估。
+    evidence_ids:
+    - ev-5ad81e0874fa9a8c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。买方可能是政府或民众，但付费路径未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。产品承诺能否确定性交付未知。
+    evidence_ids: []
+  next_validation: 官方应用商店页面或产品官网，以获取功能说明和用户评价。
+  market: ''
+  job: 普通民众需要识别和防范诈骗电话与短信，避免财产损失。
+  job_en: The general public needs to identify and prevent fraudulent calls and messages to avoid financial
+    loss.
+  pain: 诈骗手段不断翻新，民众难以辨别真伪，容易上当受骗。
+  pain_en: Fraud tactics are constantly evolving, making it hard for people to distinguish real from fake,
+    leading to victimization.
+  current_alternative: 目前民众主要依靠自身警惕、亲友提醒或事后报警，缺乏即时有效的识别工具。
+  current_alternative_en: Currently, people rely on personal vigilance, reminders from friends and family,
+    or reporting after the fact, lacking immediate effective identification tools.
+  usage_reason: 官方背景可能增加信任度，但具体功能和工作流程未明，用户是否持续使用尚待观察。
+  usage_reason_en: Official backing may increase trust, but specific features and workflow are unclear;
+    sustained usage remains to be seen.

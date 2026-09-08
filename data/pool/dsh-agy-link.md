@@ -21,18 +21,18 @@ canonical_url: https://github.com/amlyczz/dsh-agy-link
 summary: Google Antigravity (agy CLI) models for DeepSeek Harness — streaming chat, thinking, tool activity,
   usage, in-GUI Google OAuth login
 first_seen: '2026-08-19T04:47:42Z'
-last_seen: '2026-09-06T23:54:21Z'
+last_seen: '2026-09-07T15:52:49Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/amlyczz/dsh-agy-link
-  seen_at: '2026-09-06T23:54:21Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    stars: 42
+    stars: 47
     forks: 7
-    open_issues: 2
+    open_issues: 1
   kind: product
 ---
 

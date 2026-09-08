@@ -1,0 +1,42 @@
+---
+slug: usi-launches-ai-smart-camera-solution-to-accelerate-smart-ma
+name: USI
+builder: ''
+category: ''
+summary_zh: 环旭电子（USI）推出AI智能相机解决方案，面向智能制造场景。该方案通过AI视觉识别，用于生产过程中的质量检测或监控，具体工作流程和交付结果待核验。
+inspiration: ''
+summary_en: USI launched an AI smart camera solution for smart manufacturing, using AI vision for quality
+  inspection or monitoring. Specific workflows and deliverables are yet to be verified.
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU3pVRnotUnBZbGdKRTlKYmZRVFRGMkZEY3RwSEVxYlNZTFNqQlJ4ZlNORFpxNFU3MTNsSHVnZm0tWGZFcmVxd1YtQXdKRC1nOENiMU50RFBDbTJLYl9xdEdpU0lMT1FyLW9oekJjUEM1MzRMUXltY2VBQnpzZzRDRVdZNnd3YjBDM0pCcmRiUTYtUkhWeTByTXY0YU4xUE1RZ1ZkdnhrU1U1YUw4MTVCUVhVNng1UEcyR2JIdTNhcEhBeXFPc0xPZXF1UUtNc3k2MXd6OUxKVTNmTlHSAeABQVVfeXFMT25sUVBnYXhKN09SQmNkVWdveFZ6c21kUHRlT0UzVnVsak8zU3FQVmFoeVFneXphQ0JGLTI5c2ZMRVlncW5IRkwtbDBoTVZpMjNBLWZzN2tfc1VOMWwwbFE1UVJrNWw3QU5hQ0t0Ymp1RExESmhYTWR6MHZCSHo2RDl3OGQzZUtTWDBYOWhyTmltX3BVQnNkVlR1QmF6OUxzZlU3NDBfQ25ua19sWHRTazBVOVUyU1JtMnV5dGQ5TV9XejJlaUFvTERuVVlvU3ExaU9RMmRvSC03aGZLYll0TnE?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU3pVRnotUnBZbGdKRTlKYmZRVFRGMkZEY3RwSEVxYlNZTFNqQlJ4ZlNORFpxNFU3MTNsSHVnZm0tWGZFcmVxd1YtQXdKRC1nOENiMU50RFBDbTJLYl9xdEdpU0lMT1FyLW9oekJjUEM1MzRMUXltY2VBQnpzZzRDRVdZNnd3YjBDM0pCcmRiUTYtUkhWeTByTXY0YU4xUE1RZ1ZkdnhrU1U1YUw4MTVCUVhVNng1UEcyR2JIdTNhcEhBeXFPc0xPZXF1UUtNc3k2MXd6OUxKVTNmTlHSAeABQVVfeXFMT25sUVBnYXhKN09SQmNkVWdveFZ6c21kUHRlT0UzVnVsak8zU3FQVmFoeVFneXphQ0JGLTI5c2ZMRVlncW5IRkwtbDBoTVZpMjNBLWZzN2tfc1VOMWwwbFE1UVJrNWw3QU5hQ0t0Ymp1RExESmhYTWR6MHZCSHo2RDl3OGQzZUtTWDBYOWhyTmltX3BVQnNkVlR1QmF6OUxzZlU3NDBfQ25ua19sWHRTazBVOVUyU1JtMnV5dGQ5TV9XejJlaUFvTERuVVlvU3ExaU9RMmRvSC03aGZLYll0TnE?oc=5
+summary: USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing The Manila Times
+first_seen: '2026-09-07T23:25:30Z'
+last_seen: '2026-09-08T00:25:57Z'
+status: market_context
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU3pVRnotUnBZbGdKRTlKYmZRVFRGMkZEY3RwSEVxYlNZTFNqQlJ4ZlNORFpxNFU3MTNsSHVnZm0tWGZFcmVxd1YtQXdKRC1nOENiMU50RFBDbTJLYl9xdEdpU0lMT1FyLW9oekJjUEM1MzRMUXltY2VBQnpzZzRDRVdZNnd3YjBDM0pCcmRiUTYtUkhWeTByTXY0YU4xUE1RZ1ZkdnhrU1U1YUw4MTVCUVhVNng1UEcyR2JIdTNhcEhBeXFPc0xPZXF1UUtNc3k2MXd6OUxKVTNmTlHSAeABQVVfeXFMT25sUVBnYXhKN09SQmNkVWdveFZ6c21kUHRlT0UzVnVsak8zU3FQVmFoeVFneXphQ0JGLTI5c2ZMRVlncW5IRkwtbDBoTVZpMjNBLWZzN2tfc1VOMWwwbFE1UVJrNWw3QU5hQ0t0Ymp1RExESmhYTWR6MHZCSHo2RDl3OGQzZUtTWDBYOWhyTmltX3BVQnNkVlR1QmF6OUxzZlU3NDBfQ25ua19sWHRTazBVOVUyU1JtMnV5dGQ5TV9XejJlaUFvTERuVVlvU3ExaU9RMmRvSC03aGZLYll0TnE?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
+  metrics: {}
+  kind: news
+---
+
+# USI
+
+USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing The Manila Times
+
+## 笔记
+
+

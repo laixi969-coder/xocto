@@ -1,0 +1,38 @@
+- id: req-initial-unity-plugin-2026-09-08
+  project_slug: unity-plugin
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：可能解决 Unity 编辑器自动化控制需求，但具体场景和痛点不明确。
+    evidence_ids:
+    - ev-2eda7d02f6ff8323
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-2eda7d02f6ff8323
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 查看该仓库的 README 和 issue 讨论，确认具体使用场景和用户反馈。
+  market: ''
+  job: 开发者需要自动化或远程控制 Unity 编辑器操作。
+  job_en: Developers need to automate or remotely control Unity Editor operations.
+  pain: 手动重复编辑器操作耗时，且难以集成到自动化流程。
+  pain_en: Manual repetitive editor operations are time-consuming and hard to integrate into automated
+    workflows.
+  current_alternative: 目前开发者通常使用 Unity 编辑器内置的脚本或外部工具进行自动化，但缺乏统一的命令行接口。
+  current_alternative_en: Currently developers often use Unity's built-in scripting or external tools
+    for automation, but lack a unified CLI.
+  usage_reason: 开源项目可能吸引寻求编辑器自动化或 AI 集成的开发者试用。
+  usage_reason_en: The open-source project may attract developers seeking editor automation or AI integration
+    to try.

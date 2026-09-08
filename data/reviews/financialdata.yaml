@@ -1,0 +1,40 @@
+- id: req-initial-financialdata-2026-09-08
+  project_slug: financialdata
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决量化投研中股票筛选器规则僵化、多源财务数据难以统一查询的痛点，工作流推理成立。
+    evidence_ids:
+    - ev-00a20c85e1b944d5
+  - gate: consensus
+    status: insufficient
+    reason: 在社区获得初步关注，但尚未公开活跃 API 调用量与实际企业开发者规模。
+    evidence_ids:
+    - ev-c0bbbc118269caeb
+  - gate: model
+    status: insufficient
+    reason: 开发者 API 通常按调用量或月度订阅收费，但当前材料未披露具体阶梯定价页。
+    evidence_ids:
+    - ev-00a20c85e1b944d5
+  - gate: truth
+    status: supported
+    reason: 结构化财务数据查询边界清晰，计算与字段映射具备确定性，第一性目标明确。
+    evidence_ids:
+    - ev-00a20c85e1b944d5
+  next_validation: 官方开发者文档中公开的 API 字段覆盖范围与商用定价阶梯页面。
+  market: ''
+  job: 编写跨市场股票财务指标与基本面数据的自定义筛选与分析接口。
+  job_en: Write custom queries and filters for cross-market fundamental financial data.
+  pain: 传统选股器规则死板且不支持灵活组合查询，自建多源财报爬取与清洗维护成本极高。
+  pain_en: Legacy screeners have rigid filter rules, while building custom scraping pipelines for multi-source
+    financial reports is expensive and fragile.
+  current_alternative: 使用 Bloomberg/FactSet 昂贵终端或手工组合 Yahoo Finance 等分散 API 编写清洗脚本。
+  current_alternative_en: Using expensive Bloomberg/FactSet terminals or maintaining messy scraping scripts
+    across Yahoo Finance endpoints.
+  usage_reason: 提供统一的灵活查询语法，降低开发者构建复杂量化筛选策略的数据获取门槛。
+  usage_reason_en: Provides a unified query API that lowers the friction of fetching complex financial
+    fundamentals for quantitative workflows.

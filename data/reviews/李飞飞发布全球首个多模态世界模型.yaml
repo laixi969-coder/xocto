@@ -38,3 +38,41 @@
   usage_reason: 该模型能从单张图片快速生成3D世界，大幅降低场景生成成本，为机器人训练提供近乎无限的合成数据。
   usage_reason_en: The model can quickly generate 3D worlds from a single image, greatly reducing scene
     generation cost and providing nearly unlimited synthetic data for robot training.
+- id: req-initial-李飞飞发布全球首个多模态世界模型-2026-09-08
+  project_slug: 李飞飞发布全球首个多模态世界模型
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品解决手工 3D 场景创建耗时高成本的痛点
+    evidence_ids:
+    - ev-4509bda90c830466
+    - ev-040f5c214c2f9468
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开的用户采用或付费数据
+    evidence_ids:
+    - ev-4509bda90c830466
+  - gate: model
+    status: insufficient
+    reason: 未公开技术细节或模型实现
+    evidence_ids:
+    - ev-4509bda90c830466
+  - gate: truth
+    status: insufficient
+    reason: 未验证产品功能与声明的真实性
+    evidence_ids:
+    - ev-4509bda90c830466
+  next_validation: 获取官方定价页或公开的用户案例，以验证付费路径和实际使用情况。
+  market: ''
+  job: 机器人研发工程师
+  job_en: Robotics Engineer
+  pain: 手工创建 3D 场景耗时且成本高
+  pain_en: Manual 3D scene creation is time-consuming and costly.
+  current_alternative: 传统 3D 建模软件、摄影测量、现成 3D 资产库
+  current_alternative_en: Traditional 3D modeling tools, photogrammetry, existing 3D asset libraries.
+  usage_reason: 需要快速生成可交互的 3D 场景用于机器人训练或游戏开发
+  usage_reason_en: Need to quickly generate interactive 3D scenes for robot training or game development.

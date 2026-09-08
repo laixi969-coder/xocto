@@ -1,0 +1,40 @@
+- id: req-initial-卷不动了正火体育式竞争下ai销售团队如何突围百度商家智能体升级给出新答案-体坛网-体坛-2026-09-08
+  project_slug: 卷不动了正火体育式竞争下ai销售团队如何突围百度商家智能体升级给出新答案-体坛网-体坛
+  level: initial
+  reviewed_at: '2026-09-08T00:25:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决商家销售跟进的需求和痛点，人工成本高、响应慢，AI可自动化处理，价值结构成立。
+    evidence_ids:
+    - ev-aecb61231c5517eb
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道提及升级，但缺乏用户采用或效果数据，共识证据不足。
+    evidence_ids:
+    - ev-aecb61231c5517eb
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费模式，买方可能是商家，但付费路径不明确。
+    evidence_ids:
+    - ev-aecb61231c5517eb
+  - gate: truth
+    status: insufficient
+    reason: AI销售承诺的转化效果需验证，存在交付不确定性。
+    evidence_ids:
+    - ev-aecb61231c5517eb
+  next_validation: 查找百度商家智能体的官方定价页或客户案例。
+  market: ''
+  job: 商家需要处理大量客户咨询和销售跟进，以提高转化率。
+  job_en: Merchants need to handle a large volume of customer inquiries and sales follow-ups to improve
+    conversion rates.
+  pain: 人工销售团队成本高、响应慢，难以规模化处理客户。
+  pain_en: Manual sales teams are costly, slow to respond, and hard to scale for customer handling.
+  current_alternative: 商家目前依赖人工客服和销售团队，或使用传统CRM系统。
+  current_alternative_en: Merchants currently rely on human customer service and sales teams, or use traditional
+    CRM systems.
+  usage_reason: AI能自动响应客户，减少人工成本，提高效率，因此商家有采用动机。
+  usage_reason_en: AI can automatically respond to customers, reducing labor costs and improving efficiency,
+    giving merchants a reason to adopt it.

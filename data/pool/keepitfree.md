@@ -21,17 +21,17 @@ url: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/
 canonical_url: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human
 summary: A/I shuts down – Stay human
 first_seen: '2026-09-06T14:34:34Z'
-last_seen: '2026-09-06T23:54:18Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human/
-  seen_at: '2026-09-06T23:54:18Z'
+  seen_at: '2026-09-08T00:25:25Z'
   metrics:
-    points: 492
-    comments: 354
+    points: 619
+    comments: 529
   kind: news
 ---
 

@@ -1,0 +1,39 @@
+- id: req-initial-animaxxing-2026-09-08
+  project_slug: animaxxing
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决前端开发者耗费大量时间手工调试复杂页面动效的低效痛点。
+    evidence_ids:
+    - ev-abdc9aa9b8dbbafb
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论刚起步，缺乏实际网页采用量与开发者集成评价。
+    evidence_ids:
+    - ev-abdc9aa9b8dbbafb
+  - gate: model
+    status: insufficient
+    reason: 未公开具体定价层级、免费额度与商业交付方案。
+    evidence_ids:
+    - ev-abdc9aa9b8dbbafb
+  - gate: truth
+    status: insufficient
+    reason: 生成的动效在不同框架与复杂 DOM 结构下的兼容性尚未经过实测。
+    evidence_ids:
+    - ev-abdc9aa9b8dbbafb
+  next_validation: 官方网站后续披露的技术文档、集成示例与正式定价页面。
+  market: ''
+  job: 为现有静态或低互动网页快速添加精细的交互动效与视觉过渡效果。
+  job_en: Quickly inject polished micro-interactions and transition animations into existing web pages.
+  pain: 手动编写 CSS 与 JS 动效耗时费力，反复调试补间动画与响应式兼容成本高。
+  pain_en: Hand-coding CSS/JS animations is tedious and requires extensive cross-device debugging.
+  current_alternative: 手动调用 GSAP、Framer Motion 等动画库或直接使用现成 CSS 动效片段。
+  current_alternative_en: Manually integrating animation libraries like GSAP or Framer Motion, or copying
+    snippet templates.
+  usage_reason: 通过智能体端到端接管动效编写与挂载逻辑，大幅缩短前端视觉调优周期。
+  usage_reason_en: Agents automate the creation and binding of animation logic, shortening frontend visual
+    iteration time.

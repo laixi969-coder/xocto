@@ -1,0 +1,38 @@
+- id: req-initial-live-ai-studio-2026-09-08
+  project_slug: live-ai-studio
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决实时背景替换的需求，但现有工具已可满足，痛点强度不明。
+    evidence_ids:
+    - ev-4c701a379e6ebb30
+  - gate: consensus
+    status: insufficient
+    reason: 有社区讨论热度，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-4c701a379e6ebb30
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，真实性未核验。
+    evidence_ids: []
+  next_validation: 官方定价页或用户案例
+  market: ''
+  job: 主播或视频创作者在直播或录制时，需要实时更换背景或添加特效，以提升画面吸引力。
+  job_en: Streamers or video creators need to change backgrounds or add effects in real-time during live
+    sessions or recordings to enhance visual appeal.
+  pain: 传统绿幕或手动抠图操作复杂、成本高，且无法实时动态调整。
+  pain_en: Traditional green screens or manual background removal are complex, costly, and cannot be adjusted
+    dynamically in real-time.
+  current_alternative: 使用OBS等软件配合绿幕，或后期手动抠图。
+  current_alternative_en: Using software like OBS with green screens, or manual post-editing.
+  usage_reason: AI自动追踪和替换背景，降低操作门槛，可能吸引非专业用户尝试。
+  usage_reason_en: AI automates tracking and background replacement, lowering the barrier for non-professional
+    users.

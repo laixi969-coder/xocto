@@ -24,14 +24,19 @@ url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeE0xa0hnYmJucHJ4UHZjWD
 canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeE0xa0hnYmJucHJ4UHZjWDJwYWNtdnpjNXY1TndTZWtENVhkcmZ3WmVBV2w0UEtkLTM3bkpielR4WEg0WmNJcTE1YllKOVRZS18wek51NG1wSHdLOHF3S3lUc25XRS1JRGJsdXlPVDNOSVZwcjNpa0tBamZtak9pMDBDZmNTMTlwNXY4?oc=5
 summary: 'Salesforce Winter ’27: Agents Now Run the Workflow The Futurum Group'
 first_seen: '2026-09-01T17:57:15Z'
-last_seen: '2026-09-03T00:16:50Z'
-status: market_context
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeE0xa0hnYmJucHJ4UHZjWDJwYWNtdnpjNXY1TndTZWtENVhkcmZ3WmVBV2w0UEtkLTM3bkpielR4WEg0WmNJcTE1YllKOVRZS18wek51NG1wSHdLOHF3S3lUc25XRS1JRGJsdXlPVDNOSVZwcjNpa0tBamZtak9pMDBDZmNTMTlwNXY4?oc=5
   seen_at: '2026-09-03T00:16:50Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vdzBhZFlrSjVDY2lJSUV1dmZLOFJ0RFNBNHhYY3NMOUVNVmVuRDIwdVRHdHNxRVJoSHlULXFTRU1SeGFTYUhEZmRsOFUweDdmU1FMYXI2SzdEdDY3S2dPQw?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
   metrics: {}
   kind: news
 ---

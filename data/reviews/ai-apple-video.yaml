@@ -1,0 +1,40 @@
+- id: req-initial-ai-apple-video-2026-09-08
+  project_slug: ai-apple-video
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决营销人员制作高端产品视频的需求，痛点在于传统方式昂贵耗时，替代方案效果不佳。
+    evidence_ids:
+    - ev-53578d556a37aeec
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星数增长缓慢，尚无用户评价或采用证据，场景强度未明。
+    evidence_ids:
+    - ev-53578d556a37aeec
+    - ev-e7066c35eb258877
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是营销人员或电商卖家，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 生成结果是否稳定、是否需人工编辑未说明，交付确定性待核验。
+    evidence_ids: []
+  next_validation: 查找该开源项目的使用示例或用户反馈，确认生成视频的质量和实际应用效果。
+  market: ''
+  job: 营销人员或电商卖家需要为产品制作吸引眼球的高端宣传视频，以提升品牌形象和转化率。
+  job_en: Marketers or e-commerce sellers need to create eye-catching, high-end promotional videos for
+    products to boost brand image and conversion.
+  pain: 传统制作高端风格视频成本高、周期长，小商家难以负担。
+  pain_en: Traditional high-end video production is costly and time-consuming, unaffordable for small
+    merchants.
+  current_alternative: 目前小商家可能使用通用视频模板或委托低价外包，但效果和成本难以平衡。
+  current_alternative_en: Currently, small merchants may use generic video templates or outsource cheaply,
+    but struggle to balance quality and cost.
+  usage_reason: 该技能提供了一种低成本、快速生成特定风格视频的方式，可能吸引尝试者。
+  usage_reason_en: This skill offers a low-cost, fast way to generate a specific style of video, which
+    may attract early adopters.

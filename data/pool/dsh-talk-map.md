@@ -32,16 +32,16 @@ summary: 'Visual conversation map for DeepSeek Harness — sessions as cards on 
   double-click to chat, draw an edge to fork with injected context. ADHD-friendly spatial memory. · DSH
   可视化对话地图'
 first_seen: '2026-08-18T04:00:58Z'
-last_seen: '2026-09-06T00:58:33Z'
+last_seen: '2026-09-07T15:52:49Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Tasihi89/dsh-talk-map
-  seen_at: '2026-09-06T00:58:33Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    stars: 80
+    stars: 81
     forks: 12
     open_issues: 6
   kind: product

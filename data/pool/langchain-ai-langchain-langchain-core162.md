@@ -34,16 +34,16 @@ summary: 'Changes since langchain-core==1.6.1
 
   fix(core): avoid mutation in bedrock converse standard content (#40022)'
 first_seen: '2026-09-04T21:29:42Z'
-last_seen: '2026-09-06T15:36:27Z'
-status: market_context
+last_seen: '2026-09-07T15:52:49Z'
+status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2
-  seen_at: '2026-09-06T15:36:27Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    reactions: 6
+    reactions: 7
   kind: news
 ---
 

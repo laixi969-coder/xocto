@@ -1,0 +1,39 @@
+- id: req-initial-dsh-yolo-2026-09-08
+  project_slug: dsh-yolo
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决日常对话中待办事项容易遗失的痛点，提取动作与跟进提醒目标明确。
+    evidence_ids:
+    - ev-a7cd7b9276c476cb
+  - gate: consensus
+    status: insufficient
+    reason: 项目星数有限，用户群体局限于特定框架极客用户，尚未验证持续采用率。
+    evidence_ids:
+    - ev-a7cd7b9276c476cb
+  - gate: model
+    status: insufficient
+    reason: 属于开源端侧个人效率插件，未见付费商业模型与托管版服务设计。
+    evidence_ids:
+    - ev-a7cd7b9276c476cb
+  - gate: truth
+    status: supported
+    reason: 基于结构化提取和定时提醒实现，技术路径成熟且交付结果明确可验证。
+    evidence_ids:
+    - ev-a7cd7b9276c476cb
+  next_validation: 观察该插件在处理多轮复杂对话时的意图抽取准确率与真实用户留存反馈。
+  market: ''
+  job: 从日常碎片化的 AI 交互对话中沉淀并跟进待办事项与长期计划。
+  job_en: Capture and track action items and long-term plans directly from conversational AI interactions.
+  pain: 对话中达成的计划和关键时间点容易在窗口关闭后被遗忘，缺乏闭环追踪。
+  pain_en: Plans and deadlines mentioned during chat sessions are easily forgotten once the window is
+    closed.
+  current_alternative: 用户自行手动复制对话要点到第三方 Todo 软件或日历应用中。
+  current_alternative_en: Manually copy conversation summaries into third-party to-do lists or calendar
+    apps.
+  usage_reason: 免去人工整理与录入步骤，在对话原生环境中实现自动归档与主动提醒。
+  usage_reason_en: Eliminates manual task entry by providing native auto-archiving and proactive reminders.

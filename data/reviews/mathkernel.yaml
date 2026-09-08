@@ -1,0 +1,39 @@
+- id: req-initial-mathkernel-2026-09-08
+  project_slug: mathkernel
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数学计算可靠性和可验证性的痛点，多引擎协作提供更可信结果。
+    evidence_ids:
+    - ev-497e24d9cda3aa3b
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有限，尚未见广泛采用证据。
+    evidence_ids:
+    - ev-497e24d9cda3aa3b
+  - gate: model
+    status: insufficient
+    reason: 开源项目，付费模式未明确，可能面向开发者生态。
+    evidence_ids:
+    - ev-497e24d9cda3aa3b
+  - gate: truth
+    status: supported
+    reason: 贴近数学计算的第一性目标，多引擎可交叉验证，承诺可确定交付。
+    evidence_ids:
+    - ev-497e24d9cda3aa3b
+  next_validation: 查看 公开代码仓库 仓库的 issue 和讨论，了解实际使用反馈和采用情况。
+  market: ''
+  job: 开发者和研究人员需要获得可靠、可验证的数学计算结果，用于代码实现或学术研究。
+  job_en: Developers and researchers need reliable, verifiable mathematical results for code implementation
+    or academic research.
+  pain: 单一计算引擎可能出错或缺乏透明度，难以信任结果。
+  pain_en: Single computation engines may err or lack transparency, making results hard to trust.
+  current_alternative: 目前他们可能依赖单一工具如 Mathematica 或手动验证。
+  current_alternative_en: Currently they may rely on single tools like Mathematica or manual verification.
+  usage_reason: 多引擎和证据意识能提高结果可靠性，吸引注重准确性的用户试用。
+  usage_reason_en: Multi-engine and evidence-awareness improve reliability, attracting accuracy-focused
+    users.

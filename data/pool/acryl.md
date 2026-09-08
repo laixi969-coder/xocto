@@ -31,16 +31,16 @@ canonical_url: https://acryl.dev
 summary: ACRYL - Agent Context Relay Yielding Lifecycles. One persistent workspace, one canonical context,
   any coding agent.
 first_seen: '2026-08-25T15:53:56Z'
-last_seen: '2026-09-05T13:28:25Z'
+last_seen: '2026-09-07T15:52:49Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://acryl.dev
-  seen_at: '2026-09-05T13:28:25Z'
+  seen_at: '2026-09-07T15:52:49Z'
   metrics:
-    stars: 237
+    stars: 238
     forks: 31
     open_issues: 4
   kind: product

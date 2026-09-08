@@ -35,18 +35,18 @@ canonical_url: https://github.com/SuperJJ007/papermachine
 summary: The AI analyst that shows its work. Runs Python and R on your own machine, and traces every chart
   back to the code behind it.
 first_seen: '2026-08-24T17:37:46Z'
-last_seen: '2026-09-06T23:54:21Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/SuperJJ007/papermachine
-  seen_at: '2026-09-06T23:54:21Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 41
+    stars: 46
     forks: 3
-    open_issues: 11
+    open_issues: 12
   kind: product
 ---
 

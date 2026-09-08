@@ -30,8 +30,8 @@ url: https://github.com/AntigmaLabs/ante
 canonical_url: https://github.com/AntigmaLabs/ante
 summary: a coding agent in a single binary that runs offline
 first_seen: '2026-08-10T15:59:23Z'
-last_seen: '2026-09-04T14:24:01Z'
-status: watching
+last_seen: '2026-09-07T15:53:16Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -69,6 +69,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbGFyeS1WMDVyTUFwa1B1U2YwWmI4T0JxX3hOV2tFWTNuLVlHZlJ3X2Q1VDlHYzRLZXlvOGdCSHJKNUZHX3pJR1FEbEF1QVV2YllCbE95SFg5R1FXZmNPV0xtRHNBUnV0dEo0TnhORk5IcjNJYkVLLUtMR2FnMnhCYTdKR01uOFg0TFNMdEtMZl9XajZUZ0t1OVl4d1ZiMnVMeUJTYzNGMzdHSF9lTUdrRnhlLXZuZXJLT0dackxHRFVPM2hBbXh6MFhzbXNOWDVIVnZIQTJLWlhyOV9l?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/07/european-tech-weekly-recap-eur46b-in-deals-and-augusts-highlights/
+  seen_at: '2026-09-07T15:53:16Z'
   metrics: {}
   kind: news
 ---

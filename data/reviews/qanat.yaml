@@ -1,0 +1,39 @@
+- id: req-initial-qanat-2026-09-08
+  project_slug: qanat
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决量化研究流程繁琐的问题，但痛点强度和交付确定性缺乏公开证据。
+    evidence_ids:
+    - ev-f1a60105a616e935
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量 公开代码仓库 星标，无用户反馈或采用证据。
+    evidence_ids:
+    - ev-f1a60105a616e935
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或案例，展示具体工作流和用户使用效果。
+  market: ''
+  job: 量化研究员在构建和回测 alpha 因子时，需要管理多步骤流程并快速迭代。
+  job_en: Quantitative researchers need to manage multi-step processes and iterate quickly when building
+    and backtesting alpha factors.
+  pain: 传统流程依赖手工脚本和分散工具，步骤繁琐且难以复用。
+  pain_en: Traditional processes rely on manual scripts and scattered tools, which are cumbersome and
+    hard to reuse.
+  current_alternative: 使用 Python 脚本、Excel 或商业量化平台（如 Wind、JoinQuant）进行因子构建和回测。
+  current_alternative_en: Using Python scripts, Excel, or commercial quant platforms like Wind or JoinQuant
+    for factor construction and backtesting.
+  usage_reason: 可能因简化流程而吸引量化研究员，但公开信息不足，无法确认实际采用情况。
+  usage_reason_en: May attract quant researchers for simplifying workflows, but public information is
+    insufficient to confirm actual adoption.

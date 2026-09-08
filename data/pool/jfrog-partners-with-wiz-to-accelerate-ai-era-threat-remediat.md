@@ -1,0 +1,41 @@
+---
+slug: jfrog-partners-with-wiz-to-accelerate-ai-era-threat-remediat
+name: JFrog Partners with Wiz to Accelerate AI-Era Threat Remediation
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2FvcnhkX3BTY2RGRlRiemIxQVF3YTdVMFlZM1VySURKRTZqYkZUOGg4YlVJeUs5alFqeThtR0Q0T3BnSmVMMlpnakQwQ0hrdEo2TWo2ZUJLMzVzXy1mSkNNQzQtMHhtMGdSWVljZWVhdDNoLUlFTGpOUXRGSXdEVXcyTFZRUmI0WE5rdDdXVGYtUXB2S2JJRFlxNHpBRHYzWEdIT2QwTFZFLXBnRVNrbkl5bGNOUdIBtgFBVV95cUxOU2FvcnhkX3BTY2RGRlRiemIxQVF3YTdVMFlZM1VySURKRTZqYkZUOGg4YlVJeUs5alFqeThtR0Q0T3BnSmVMMlpnakQwQ0hrdEo2TWo2ZUJLMzVzXy1mSkNNQzQtMHhtMGdSWVljZWVhdDNoLUlFTGpOUXRGSXdEVXcyTFZRUmI0WE5rdDdXVGYtUXB2S2JJRFlxNHpBRHYzWEdIT2QwTFZFLXBnRVNrbkl5bGNOUQ?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2FvcnhkX3BTY2RGRlRiemIxQVF3YTdVMFlZM1VySURKRTZqYkZUOGg4YlVJeUs5alFqeThtR0Q0T3BnSmVMMlpnakQwQ0hrdEo2TWo2ZUJLMzVzXy1mSkNNQzQtMHhtMGdSWVljZWVhdDNoLUlFTGpOUXRGSXdEVXcyTFZRUmI0WE5rdDdXVGYtUXB2S2JJRFlxNHpBRHYzWEdIT2QwTFZFLXBnRVNrbkl5bGNOUdIBtgFBVV95cUxOU2FvcnhkX3BTY2RGRlRiemIxQVF3YTdVMFlZM1VySURKRTZqYkZUOGg4YlVJeUs5alFqeThtR0Q0T3BnSmVMMlpnakQwQ0hrdEo2TWo2ZUJLMzVzXy1mSkNNQzQtMHhtMGdSWVljZWVhdDNoLUlFTGpOUXRGSXdEVXcyTFZRUmI0WE5rdDdXVGYtUXB2S2JJRFlxNHpBRHYzWEdIT2QwTFZFLXBnRVNrbkl5bGNOUQ?oc=5
+summary: JFrog Partners with Wiz to Accelerate AI-Era Threat Remediation digital terminal
+first_seen: '2026-09-07T09:12:00Z'
+last_seen: '2026-09-07T15:53:24Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitgFBVV95cUxOU2FvcnhkX3BTY2RGRlRiemIxQVF3YTdVMFlZM1VySURKRTZqYkZUOGg4YlVJeUs5alFqeThtR0Q0T3BnSmVMMlpnakQwQ0hrdEo2TWo2ZUJLMzVzXy1mSkNNQzQtMHhtMGdSWVljZWVhdDNoLUlFTGpOUXRGSXdEVXcyTFZRUmI0WE5rdDdXVGYtUXB2S2JJRFlxNHpBRHYzWEdIT2QwTFZFLXBnRVNrbkl5bGNOUdIBtgFBVV95cUxOU2FvcnhkX3BTY2RGRlRiemIxQVF3YTdVMFlZM1VySURKRTZqYkZUOGg4YlVJeUs5alFqeThtR0Q0T3BnSmVMMlpnakQwQ0hrdEo2TWo2ZUJLMzVzXy1mSkNNQzQtMHhtMGdSWVljZWVhdDNoLUlFTGpOUXRGSXdEVXcyTFZRUmI0WE5rdDdXVGYtUXB2S2JJRFlxNHpBRHYzWEdIT2QwTFZFLXBnRVNrbkl5bGNOUQ?oc=5
+  seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+---
+
+# JFrog Partners with Wiz to Accelerate AI-Era Threat Remediation
+
+JFrog Partners with Wiz to Accelerate AI-Era Threat Remediation digital terminal
+
+## 笔记
+
+
