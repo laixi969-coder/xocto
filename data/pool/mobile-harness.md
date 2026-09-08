@@ -29,7 +29,7 @@ summary: 'Claude Code on Android:  AI-powered mobile coding IDE for Android — 
   run Linux commands, edit files, review diffs, and preview web apps directly from your phone. No root
   required.'
 first_seen: '2026-08-20T11:55:29Z'
-last_seen: '2026-09-08T00:25:29Z'
+last_seen: '2026-09-08T14:34:27Z'
 status: watching
 sources:
 - github
@@ -40,6 +40,14 @@ sightings:
   metrics:
     stars: 155
     forks: 52
+    open_issues: 7
+  kind: product
+- source: github
+  url: https://techjarves.github.io/Mobile-Harness/
+  seen_at: '2026-09-08T14:34:27Z'
+  metrics:
+    stars: 190
+    forks: 57
     open_issues: 7
   kind: product
 ---

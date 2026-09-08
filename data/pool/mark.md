@@ -31,7 +31,7 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-07T15:53:24Z'
+last_seen: '2026-09-08T14:34:55Z'
 status: pending_filter
 sources:
 - hackernews
@@ -175,6 +175,21 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMigwFBVV95cUxPc1JxRlNsdkR6X2IzdmE1ZkZrZXpmcVlmemZ0OEdxYUdNWGNVTzR6VWk3dmxMWmhJcThfZDN6bmdHNjFDN3N4MnhJRFE0N0Q2TkxiY09IdFVkQkdnMXl6OEtnSmVWakR3RWJrMFk0Z1J5VUIwYzZlcW0wT2dnczB6eVkzOA?oc=5
   seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/08/ground-a-raises-eur9m-to-bring-laser-based-counter-drone-technology-to-market/
+  seen_at: '2026-09-08T14:34:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiigFBVV95cUxPWHdwbTlkSWJvZk1XRnp6dllxbXI5OW9EMXVmUEYtWnRRbjZKNkNPemJIM3Q2SUZXTHAtZ2R5Nnc3T3BESWo3RDhpQ1lPTmo4QUVIMTIzS3o2Ukx1MW1Vc3hKdE1hLVRvX2NUbzNxdlBfM3VTOHl1ZXpwdWpIX0gyaWtrY1cybFRoT2c?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMimAFBVV95cUxOYkJFc0ZDZFNzT1BlSy1acDlBNF9YcU5jOGhtWGwxMFlVYnVDdkZ3X3FqSk1tWTJNTW5YbzF1UnphNTZEamJJQko0Zk9aUXduUkx4UVQ4a0NJNUVSRXBWc0NueklCY3p4SnJJVUR2c1JvZ0hXSkd5RUtRUWp6NTRwclItSlFiUDk2RTlJeUYtOGw0NTAtLUIyRA?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
   metrics: {}
   kind: news
 ---

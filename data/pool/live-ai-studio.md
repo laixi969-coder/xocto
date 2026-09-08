@@ -33,8 +33,8 @@ url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 canonical_url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 summary: Real-time AI camera, face tracking and background studio
 first_seen: '2026-09-04T11:19:30Z'
-last_seen: '2026-09-08T00:25:25Z'
-status: watching
+last_seen: '2026-09-08T14:34:23Z'
+status: pending_filter
 sources:
 - huggingface
 - newssearch
@@ -53,10 +53,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://openbaarvervoerbelgie.be/
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 183
-    comments: 77
+    points: 194
+    comments: 79
   kind: news
 ---
 

@@ -34,17 +34,17 @@ summary: Hi, I have created an MCP for AI agents to send flowers for your mum’
   customer who just renewed his contract or what ever you can think of! I created this after working on
   a family AI assistant (he…
 first_seen: '2026-09-07T15:34:40Z'
-last_seen: '2026-09-08T00:25:25Z'
+last_seen: '2026-09-08T14:34:23Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49599559
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 11
-    comments: 7
+    points: 12
+    comments: 8
   kind: product
 ---
 

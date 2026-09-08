@@ -28,16 +28,16 @@ url: https://www.tryisle.com
 canonical_url: https://tryisle.com
 summary: managed application environments for computer-use agents
 first_seen: '2026-09-07T17:02:15Z'
-last_seen: '2026-09-08T00:25:25Z'
+last_seen: '2026-09-08T14:34:23Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.tryisle.com
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 8
+    points: 12
     comments: 1
   kind: product
 ---

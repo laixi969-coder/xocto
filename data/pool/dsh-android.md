@@ -31,17 +31,17 @@ canonical_url: https://github.com/ZSeven-W/dsh-android
 summary: DeepSeek Harness plugin for Android — build, run, and interact with a live emulator or USB device
   stream inside a conversation, driven entirely through adb.
 first_seen: '2026-08-21T12:48:38Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-08T14:34:27Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ZSeven-W/dsh-android
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-08T14:34:27Z'
   metrics:
-    stars: 137
-    forks: 8
+    stars: 139
+    forks: 9
     open_issues: 0
   kind: product
 ---

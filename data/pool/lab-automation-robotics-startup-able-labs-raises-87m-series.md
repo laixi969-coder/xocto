@@ -33,8 +33,8 @@ url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE
 canonical_url: https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvQ25oY3NXdlMzOGllWnVTRE5lV3hCa0lzcFpoLXUwTGVfdUFwQXlFVFlzN0ExcmlhMjhieGhxUkpVNkRIRmp1d0FyOWJTMjRaQk1F?oc=5
 summary: Lab Automation Robotics Startup ABLE Labs Raises $8.7M Series A Wowtale
 first_seen: '2026-08-31T12:07:38Z'
-last_seen: '2026-09-06T23:54:38Z'
-status: rejected
+last_seen: '2026-09-08T14:34:55Z'
+status: pending_filter
 sources:
 - newssearch
 - officialfeeds
@@ -131,6 +131,21 @@ sightings:
 - source: officialfeeds
   url: https://openai.com/index/an-alien-mind
   seen_at: '2026-09-06T23:54:38Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/08/green-eagle-solutions-lands-copilot-capital-backing-to-take-renewable-energy-autopilot-global/
+  seen_at: '2026-09-08T14:34:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/08/veridue-secures-4m-pre-seed-to-streamline-energy-infrastructure-due-diligence/
+  seen_at: '2026-09-08T14:34:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNRjBCaU56dlNHdXEtck1IamQ1M01LZjRiYWthQnN5VXc5T1k1NWFvR1Bacm9HXzFnQVVmazYxX3RuTmJwbkJWZ1k0UmFPTVctcWhlTGZnVXRoTlJGQ3JhLXVQVGhLRUVvbEU1c1FsdmZEdHZtcWU0U09wTTgtV2t2czctWUVJcWxhQXFMS253UkxEWjE0eTFDTHh5ZjVxUXNrdk42YXdFVkUzUnE1WW9z0gG0AUFVX3lxTE1EVERkbG5nQzZOU0FTNEZnXzRRY20zcVd2UHBqYjlHNmJYMzBMM0NGX1FGMkZJd3hCcW1XcEVqUjlxS0ZCWW55VUI4UEw2NkpXRFE5by0zMlR2Q2ZFMTlPajJwcHNGODVxa2pENVhnRkpsRUljS1FOX3p5a1VPRmplS2Jza3B0XzdPR0M2QkRJbEgwSFNqYkxvYVZrWWxLV3o3N1Z5WVRsRUFkRG11WVRySzUwNA?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
   metrics: {}
   kind: news
 ---

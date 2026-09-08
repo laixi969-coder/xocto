@@ -39,7 +39,7 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-07T15:53:16Z'
+last_seen: '2026-09-08T14:34:55Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -113,6 +113,11 @@ sightings:
 - source: marketfeeds
   url: https://sifted.eu/articles/matt-clifford-quits-aria/
   seen_at: '2026-09-07T15:53:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOUk9OcmNYZkI5SDZOUVNBaEZZcXF6MEJzalBTVkVMNjJGd09LVW5UNFoycnpoV0R1LWdMWkJ1RkV2a3lCTHFQc0plck5hdG5QV0JjZFZkYU55a3U5YVpSWTBhVllIUGtzMVJsaDhfS21NazBmdGFieUNZV2JLaFNqOVJTaktNM1hTLUlqeWl4YXBkN0gtdENKTFRMWjY?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
   metrics: {}
   kind: news
 ---

@@ -39,17 +39,17 @@ summary: 'Turn any AI agent into a computational researcher. HexStellar Cortex d
   through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox.
   Start instantly: pip install hexstellar'
 first_seen: '2026-08-27T20:53:42Z'
-last_seen: '2026-09-08T00:25:29Z'
+last_seen: '2026-09-08T14:34:27Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/brayonpi/hexstellar
-  seen_at: '2026-09-08T00:25:29Z'
+  seen_at: '2026-09-08T14:34:27Z'
   metrics:
-    stars: 940
-    forks: 54
+    stars: 964
+    forks: 98
     open_issues: 0
   kind: product
 ---

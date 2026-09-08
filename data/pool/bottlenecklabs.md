@@ -32,17 +32,17 @@ url: https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses
 canonical_url: https://bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses
 summary: 'AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200'
 first_seen: '2026-09-07T18:24:32Z'
-last_seen: '2026-09-08T00:25:25Z'
-status: watching
+last_seen: '2026-09-08T14:34:23Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 96
-    comments: 114
+    points: 100
+    comments: 118
   kind: news
 ---
 

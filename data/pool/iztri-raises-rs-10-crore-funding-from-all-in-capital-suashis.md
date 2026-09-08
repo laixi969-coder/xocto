@@ -1,0 +1,41 @@
+---
+slug: iztri-raises-rs-10-crore-funding-from-all-in-capital-suashis
+name: Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxObnJBSzEtUlVKNHFIdVdsWDd1ZTNqZXRUaVZwTlJqM3JMeVhMbENEbEoxVlc0amRSeG5mTXJPVGVTdlBBWnVraDJsX09jTHVhOGV4S0l0Um9vNlZMYUgwWkF1U1pJTVRQdjBfYUVPMnA5WmRVTTlocTN1M2FFQzVBejRyX0M2QnZwZGo4QzN2QlVMREtKeFVKWjB2UExxNmNMM1M5Rl9uLVVaSUVtYmRfZE9tQXJnYWRya3AxeGhKdzdYdVA4Q3cwaEtQTUhrdDlCeEl2TVJTMTR4UdIB3wFBVV95cUxNcFctY3RTTEwzM2RiQkUzU2pOckpJNDFIQm5rVy1LWmw3NWdROVYxRW9KRW5VY0xwRVJVUUI4RUJPSkYwSzhfNktWTUhOeUV6UUhqaHVrZm1wNnhmbktaMEVoQWliOXQzb0tKckVLdm9ySzdlZVREUTZfV1JZLUdBdUlNRUJPOWNzUlZzNm9CR1NBbXNBMUY4cVdsZWxUMHNldzN0MUFCel9vVDlRekQtV1locHB1UmJwREJIT3JXUWZWTkRSd2R6b21hdms2T0lZdXFETlYyekt4UnJrdHhv?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxObnJBSzEtUlVKNHFIdVdsWDd1ZTNqZXRUaVZwTlJqM3JMeVhMbENEbEoxVlc0amRSeG5mTXJPVGVTdlBBWnVraDJsX09jTHVhOGV4S0l0Um9vNlZMYUgwWkF1U1pJTVRQdjBfYUVPMnA5WmRVTTlocTN1M2FFQzVBejRyX0M2QnZwZGo4QzN2QlVMREtKeFVKWjB2UExxNmNMM1M5Rl9uLVVaSUVtYmRfZE9tQXJnYWRya3AxeGhKdzdYdVA4Q3cwaEtQTUhrdDlCeEl2TVJTMTR4UdIB3wFBVV95cUxNcFctY3RTTEwzM2RiQkUzU2pOckpJNDFIQm5rVy1LWmw3NWdROVYxRW9KRW5VY0xwRVJVUUI4RUJPSkYwSzhfNktWTUhOeUV6UUhqaHVrZm1wNnhmbktaMEVoQWliOXQzb0tKckVLdm9ySzdlZVREUTZfV1JZLUdBdUlNRUJPOWNzUlZzNm9CR1NBbXNBMUY4cVdsZWxUMHNldzN0MUFCel9vVDlRekQtV1locHB1UmJwREJIT3JXUWZWTkRSd2R6b21hdms2T0lZdXFETlYyekt4UnJrdHhv?oc=5
+summary: Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others The Economic Times
+first_seen: '2026-09-08T05:51:37Z'
+last_seen: '2026-09-08T14:34:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxObnJBSzEtUlVKNHFIdVdsWDd1ZTNqZXRUaVZwTlJqM3JMeVhMbENEbEoxVlc0amRSeG5mTXJPVGVTdlBBWnVraDJsX09jTHVhOGV4S0l0Um9vNlZMYUgwWkF1U1pJTVRQdjBfYUVPMnA5WmRVTTlocTN1M2FFQzVBejRyX0M2QnZwZGo4QzN2QlVMREtKeFVKWjB2UExxNmNMM1M5Rl9uLVVaSUVtYmRfZE9tQXJnYWRya3AxeGhKdzdYdVA4Q3cwaEtQTUhrdDlCeEl2TVJTMTR4UdIB3wFBVV95cUxNcFctY3RTTEwzM2RiQkUzU2pOckpJNDFIQm5rVy1LWmw3NWdROVYxRW9KRW5VY0xwRVJVUUI4RUJPSkYwSzhfNktWTUhOeUV6UUhqaHVrZm1wNnhmbktaMEVoQWliOXQzb0tKckVLdm9ySzdlZVREUTZfV1JZLUdBdUlNRUJPOWNzUlZzNm9CR1NBbXNBMUY4cVdsZWxUMHNldzN0MUFCel9vVDlRekQtV1locHB1UmJwREJIT3JXUWZWTkRSd2R6b21hdms2T0lZdXFETlYyekt4UnJrdHhv?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+---
+
+# Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others
+
+Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others The Economic Times
+
+## 笔记
+
+

@@ -27,3 +27,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI 网络安全 软件开发 反爬虫工程师 自动化测试工程师'
+- id: ev-904283e7cf452c24
+  project_slug: ovobrowser
+  url: https://ovobrowser.com/
+  title: ovobrowser
+  published_at: '2026-08-23T05:22:52Z'
+  collected_at: '2026-09-08T14:34:27Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: '源码级 Chromium 指纹内核，检测站按普通 Chrome 评分。Source-level Chromium fingerprint kernel that passes bot detection
+    tests. Not JS injection — C++ patches compiled into the binary. | repository stars: 222'

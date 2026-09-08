@@ -35,16 +35,16 @@ url: https://financialdata.net/universal-query
 canonical_url: https://financialdata.net/universal-query
 summary: Forget Rigid Stock Screeners – A Universal Query API for Financial Data
 first_seen: '2026-09-07T09:24:17Z'
-last_seen: '2026-09-08T00:25:25Z'
+last_seen: '2026-09-08T14:34:23Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://financialdata.net/universal-query
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 8
+    points: 9
     comments: 0
   kind: product
 ---

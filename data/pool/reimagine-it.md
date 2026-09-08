@@ -33,17 +33,17 @@ canonical_url: https://kayforkind.github.io/reimagine-it
 summary: Kayforkind Content-Derived Design CLI. HTML in, standalone HTML out from the source's own nouns,
   dates, numbers, and colors. Not the reimagineit.ai interview SaaS.
 first_seen: '2026-08-19T02:12:07Z'
-last_seen: '2026-09-08T00:25:29Z'
+last_seen: '2026-09-08T14:34:27Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://kayforkind.github.io/reimagine-it/
-  seen_at: '2026-09-08T00:25:29Z'
+  seen_at: '2026-09-08T14:34:27Z'
   metrics:
-    stars: 94
-    forks: 20
+    stars: 100
+    forks: 21
     open_issues: 1
   kind: product
 ---

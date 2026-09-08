@@ -30,17 +30,17 @@ url: https://github.com/timgordontg/engrim
 canonical_url: https://github.com/timgordontg/engrim
 summary: A universal, local-first SQLite memory engine for AI CLIs
 first_seen: '2026-09-07T04:49:36Z'
-last_seen: '2026-09-08T00:25:25Z'
+last_seen: '2026-09-08T14:34:23Z'
 status: queued
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/timgordontg/engrim
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 81
-    comments: 50
+    points: 89
+    comments: 53
   kind: product
 ---
 

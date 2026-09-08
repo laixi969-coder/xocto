@@ -29,7 +29,7 @@ url: https://github.com/themartiano/try-omarchy
 canonical_url: https://github.com/themartiano/try-omarchy
 summary: I built a version of Omarchy that runs on Apple Silicon
 first_seen: '2026-09-02T17:54:32Z'
-last_seen: '2026-09-08T00:25:25Z'
+last_seen: '2026-09-08T14:34:23Z'
 status: watching
 sources:
 - hackernews
@@ -43,10 +43,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://tryomarchy.dev/
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 6
-    comments: 3
+    points: 7
+    comments: 4
   kind: product
 ---
 

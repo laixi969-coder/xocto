@@ -33,14 +33,19 @@ url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBuTW9NUjVYRWlMRExzSTJ2WD
 canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBuTW9NUjVYRWlMRExzSTJ2WDZjZmVCX1h0Q1ZiaXBnaUY0T1BMTmlnUXFOV3FaRWR0bWVfOVZCNzMtWGtVdFVjRjdHOV90VmlC?oc=5
 summary: AI辅导数学解题准不准？豆包爱学以落地创新打破答疑焦虑 36 Kr
 first_seen: '2026-09-07T11:02:47Z'
-last_seen: '2026-09-08T00:25:57Z'
-status: queued
+last_seen: '2026-09-08T14:34:55Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBuTW9NUjVYRWlMRExzSTJ2WDZjZmVCX1h0Q1ZiaXBnaUY0T1BMTmlnUXFOV3FaRWR0bWVfOVZCNzMtWGtVdFVjRjdHOV90VmlC?oc=5
   seen_at: '2026-09-08T00:25:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JaVFmTlNrZmhTUmwtb3dyTkRwTjlMaFhOUGpLalo0Q1l5R1k2YURXcUtEemJIeGtFVUlWanBWaHB1dV9RWmJlTjVYSkRsVTNjYzdJ?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
   metrics: {}
   kind: news
 ---

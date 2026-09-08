@@ -31,16 +31,16 @@ url: https://animaxxing.com
 canonical_url: https://animaxxing.com
 summary: get agents to animate the shit out of your website
 first_seen: '2026-09-07T22:14:44Z'
-last_seen: '2026-09-08T00:25:25Z'
+last_seen: '2026-09-08T14:34:23Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://animaxxing.com
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 5
+    points: 6
     comments: 2
   kind: product
 ---

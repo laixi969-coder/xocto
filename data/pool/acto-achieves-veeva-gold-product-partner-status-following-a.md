@@ -1,7 +1,7 @@
 ---
 slug: acto-achieves-veeva-gold-product-partner-status-following-a
 name: ACTO
-builder: ''
+builder: ahlCVA
 category: AI + 商业
 summary_zh: ACTO 是面向生命科学行业的商业运营平台，与 Veeva 合作近十年。具体工作流程和交付物仍需核验。
 inspiration: 生命科学商业运营正从 CRM 走向分析自动化，可关注合规要求高的细分环节。
@@ -29,15 +29,23 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHdTN3UwQm4y
 summary: ACTO Achieves Veeva Gold Product Partner Status, Following a Nearly Decade-Long Collaboration
   Supporting Mutual Customer Success Yahoo Finance
 first_seen: '2026-09-02T12:30:00Z'
-last_seen: '2026-09-02T14:32:07Z'
-status: watching
+last_seen: '2026-09-08T14:34:23Z'
+status: pending_filter
 sources:
 - newssearch
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxPSHdTN3UwQm4yR3ljYi1qX1ZlSmZ6MVVkRFRheVJPYmNzcHhFZS1oaGs0SUFlVUtWR1JqelFxSGhDdkk1YkFteWcyN0dGQVdVREtTSk02MmJhdXFPcHlMaXdYU3QxWnIzZU8zMkxaRjgtNV9Md3FpbkJxRGd0NVhJdG9mMW1XeGZKWTJIaHBwVjNoT3l1bWR3cA?oc=5
   seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://mcpherrin.ca/2026/09/07/rsa.html
+  seen_at: '2026-09-08T14:34:23Z'
+  metrics:
+    points: 422
+    comments: 88
   kind: news
 ---
 

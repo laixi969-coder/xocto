@@ -74,3 +74,41 @@
   usage_reason: 公开代码仓库有 43 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 43 stars and 8 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-dsh-tether-2026-09-08
+  project_slug: dsh-tether
+  level: initial
+  reviewed_at: '2026-09-08T14:34:27Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图帮助用户完成：“这是一个移动端客户端，让开发者从 Android 或 iOS 手机远程连接自己开发机上的 DeepSeek Harness（dsh），通过点对点方式跨网络使用，无需中间服务器”。但产品说明不能代替用户证据，痛点强度与不采用代价尚未核验。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 43 个收藏、8 个复刻；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。
+  market: ''
+  job: 这是一个移动端客户端，让开发者从 Android 或 iOS 手机远程连接自己开发机上的 DeepSeek Harness（dsh），通过点对点方式跨网络使用，无需中间服务器。具体连接流程和交付结果仍待核验。
+  job_en: This is a mobile client that lets developers remotely connect to their DeepSeek Harness (dsh)
+    on their dev machine from an Android or iOS phone, peer-to-peer across networks without a server in
+    between. The specific connection flow and deliverables still need verification.
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 公开代码仓库有 43 个收藏、8 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
+  usage_reason_en: Its public repository has 43 stars and 8 forks, showing developer attention; repeat
+    use and payment are not yet verified.

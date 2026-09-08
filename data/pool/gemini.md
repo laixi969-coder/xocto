@@ -34,7 +34,7 @@ canonical_url: https://aicpb.com/product/Gemini/webid1D6F37519
 summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, brainstorming, and more.
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-09-05T00:07:08Z'
+last_seen: '2026-09-08T14:34:55Z'
 status: pending_filter
 sources:
 - aicpb
@@ -106,6 +106,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMickFVX3lxTFAyTGhaa25rTmxGRDkzM2V1eVBNNHEyUXlKZlZGTVRjRUdqNnRhVTlGMG1qcFk0RXZBNERfQ3cyVldxNWVENWlKWWFrRVltZ3BDb01ETV9ObDg0SUljV3ZoTTR1RnBJMjdBb1lLYjdNemdBUQ?oc=5
   seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFBadmdQbTBINVNZZTZmRXNKVVk4S1NPaVZKckRCaWhFWmd2VzRSSk9ZdXRTMDlhZGNROEVOTG9KdHo2UERHNnN6aURGZnI1Ynkw?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
   metrics: {}
   kind: news
 ---

@@ -32,15 +32,22 @@ url: https://www.producthunt.com/products/expertise-ai
 canonical_url: https://producthunt.com/products/expertise-ai
 summary: Turn your GTM skills into recurring revenue
 first_seen: '2026-08-22T10:59:49Z'
-last_seen: '2026-08-27T03:18:34Z'
-status: watching
+last_seen: '2026-09-08T14:34:55Z'
+status: pending_filter
 sources:
 - producthunt
+- newssearch
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/expertise-ai
   seen_at: '2026-08-27T03:18:34Z'
   metrics: {}
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAJBVV95cUxQbWdVSHI2VkVDZUdMajRCTGlJSmMzbGJmNi11VmZOeURZeEg3NFlwMm85V1plendNWURoemJvNWd3Ylljb0lVNE9EcDVFM19SZExZZXZ0Vm1YVW5hT0M5N0htdW5fQkM1OG1TRmRSREVNYkpoc3ZxQm1JSDdHM1dkZHJXOW5TREdjVFVFNlE4emQzOVdXY3RzS3N0Q0dnbWdNR051WUpPM3AxbFdHZVZncV9ZZjdITDV0RWNfN0hWXzRLS1pCSXJOalU3MVl1c1JIeUROVkhrdnBCOXhqRGdvdXA3UlRQeGNuS2oyejBjanBlUFhJTHlDel9OeVppNVlNRWx4ZlJkY0xGS2Q4R3ljNzFSNEJJMHZDTWlrbU82OVRvSXdEdGoxZEt4Nkc?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
 ---
 
 # Expertise AI

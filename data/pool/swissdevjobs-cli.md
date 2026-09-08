@@ -44,17 +44,17 @@ canonical_url: https://github.com/Stupidoodle/swissdevjobs-cli
 summary: Search & apply to ~4,700 salary-transparent tech jobs across 7 countries (🇨🇭🇩🇪🇬🇧🇺🇸🇨🇦🇳🇱🇫🇷) from
   your terminal or AI agent — zero-dependency Python CLI + MCP server + Claude Code plugin
 first_seen: '2026-08-24T19:59:58Z'
-last_seen: '2026-09-06T05:29:28Z'
+last_seen: '2026-09-08T14:34:27Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Stupidoodle/swissdevjobs-cli
-  seen_at: '2026-09-06T05:29:28Z'
+  seen_at: '2026-09-08T14:34:27Z'
   metrics:
     stars: 97
-    forks: 11
+    forks: 12
     open_issues: 1
   kind: product
 ---

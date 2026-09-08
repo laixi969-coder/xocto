@@ -1,0 +1,43 @@
+---
+slug: from-public-relations-to-multimillion-dollar-ai-engagement-s
+name: 'From Public Relations to Multimillion-Dollar AI Engagement: Shobnom Zarin Chetona expands corporate
+  communications role'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmk1dGdOc09NaGtIdHhVVk52TlZDajN4UXdtMHlQcXVJNG1ib0ZxdWdoaUd0NE5BRENkSDh2MXd5dTRKRlptaDFKcDdROUNIaHBmNmw3eHlVa2R6NEZPaU4zeGpwN01MNHJHX1o5N29WSmVOMFctdFFBMmtxbm82MmtjU2M0NzE0LU5VZFNrYkRvZWM1bFp0UE9MNTJJVjlLQjhITFNobnVsbUZmVmkxM3V1MWtPTGUwYk1TX28yczNUN1cweEHSAcYBQVVfeXFMTkppNXRnTnNPTWhrSHR4VVZOdk5WQ2ozeFF3bTB5UHF1STRtYm9GcXVnaGlHdDROQURDZEg4djF3eXU0SkZabWgxSnA3UTlDSGhwZjZsN3h5VWtkejRGT2lOM3hqcDdNTDRyR19aOTdvVkplTjBXLXRRQTJrcW5vNjJrY1NjNDcxNC1OVWRTa2JEb2VjNWxadFBPTDUySVY5S0I4SExTaG51bG1GZlZpMTN1dTFrT0xlMGJNU19vMnMzVDdXMHhB?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmk1dGdOc09NaGtIdHhVVk52TlZDajN4UXdtMHlQcXVJNG1ib0ZxdWdoaUd0NE5BRENkSDh2MXd5dTRKRlptaDFKcDdROUNIaHBmNmw3eHlVa2R6NEZPaU4zeGpwN01MNHJHX1o5N29WSmVOMFctdFFBMmtxbm82MmtjU2M0NzE0LU5VZFNrYkRvZWM1bFp0UE9MNTJJVjlLQjhITFNobnVsbUZmVmkxM3V1MWtPTGUwYk1TX28yczNUN1cweEHSAcYBQVVfeXFMTkppNXRnTnNPTWhrSHR4VVZOdk5WQ2ozeFF3bTB5UHF1STRtYm9GcXVnaGlHdDROQURDZEg4djF3eXU0SkZabWgxSnA3UTlDSGhwZjZsN3h5VWtkejRGT2lOM3hqcDdNTDRyR19aOTdvVkplTjBXLXRRQTJrcW5vNjJrY1NjNDcxNC1OVWRTa2JEb2VjNWxadFBPTDUySVY5S0I4SExTaG51bG1GZlZpMTN1dTFrT0xlMGJNU19vMnMzVDdXMHhB?oc=5
+summary: 'From Public Relations to Multimillion-Dollar AI Engagement: Shobnom Zarin Chetona expands corporate
+  communications role The Business Standard'
+first_seen: '2026-09-08T09:00:00Z'
+last_seen: '2026-09-08T14:34:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOSmk1dGdOc09NaGtIdHhVVk52TlZDajN4UXdtMHlQcXVJNG1ib0ZxdWdoaUd0NE5BRENkSDh2MXd5dTRKRlptaDFKcDdROUNIaHBmNmw3eHlVa2R6NEZPaU4zeGpwN01MNHJHX1o5N29WSmVOMFctdFFBMmtxbm82MmtjU2M0NzE0LU5VZFNrYkRvZWM1bFp0UE9MNTJJVjlLQjhITFNobnVsbUZmVmkxM3V1MWtPTGUwYk1TX28yczNUN1cweEHSAcYBQVVfeXFMTkppNXRnTnNPTWhrSHR4VVZOdk5WQ2ozeFF3bTB5UHF1STRtYm9GcXVnaGlHdDROQURDZEg4djF3eXU0SkZabWgxSnA3UTlDSGhwZjZsN3h5VWtkejRGT2lOM3hqcDdNTDRyR19aOTdvVkplTjBXLXRRQTJrcW5vNjJrY1NjNDcxNC1OVWRTa2JEb2VjNWxadFBPTDUySVY5S0I4SExTaG51bG1GZlZpMTN1dTFrT0xlMGJNU19vMnMzVDdXMHhB?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+---
+
+# From Public Relations to Multimillion-Dollar AI Engagement: Shobnom Zarin Chetona expands corporate communications role
+
+From Public Relations to Multimillion-Dollar AI Engagement: Shobnom Zarin Chetona expands corporate communications role The Business Standard
+
+## 笔记
+
+

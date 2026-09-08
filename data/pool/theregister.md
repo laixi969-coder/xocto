@@ -22,17 +22,17 @@ url: https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont
 canonical_url: https://theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532
 summary: Smartphone makers don't bother to comply with EU repairability requirements
 first_seen: '2026-09-07T11:46:37Z'
-last_seen: '2026-09-08T00:25:25Z'
-status: market_context
+last_seen: '2026-09-08T14:34:23Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.theregister.com/personal-tech/2026/09/07/smartphone-makers-dont-bother-to-comply-with-eu-repairability-requirements/5294532
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 270
-    comments: 149
+    points: 295
+    comments: 198
   kind: news
 ---
 

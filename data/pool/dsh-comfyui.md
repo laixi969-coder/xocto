@@ -32,16 +32,16 @@ url: https://github.com/fandc520/dsh-comfyui
 canonical_url: https://github.com/fandc520/dsh-comfyui
 summary: 一个基于DeepSeek-Harness的ComfyUI插件
 first_seen: '2026-08-20T16:40:07Z'
-last_seen: '2026-09-08T00:25:29Z'
+last_seen: '2026-09-08T14:34:27Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/fandc520/dsh-comfyui
-  seen_at: '2026-09-08T00:25:29Z'
+  seen_at: '2026-09-08T14:34:27Z'
   metrics:
-    stars: 56
+    stars: 57
     forks: 5
     open_issues: 4
   kind: product

@@ -20,17 +20,17 @@ url: https://allan.reyes.sh/posts/ai-cold-showers/
 canonical_url: https://allan.reyes.sh/posts/ai-cold-showers
 summary: ''
 first_seen: '2026-09-07T19:05:39Z'
-last_seen: '2026-09-08T00:25:25Z'
-status: rejected
+last_seen: '2026-09-08T14:34:23Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://allan.reyes.sh/posts/ai-cold-showers/
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 68
-    comments: 11
+    points: 75
+    comments: 12
   kind: news
 ---
 

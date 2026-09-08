@@ -21,17 +21,17 @@ url: https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus
 canonical_url: https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus
 summary: Speculative Decoding in vLLM on AMD GPUs
 first_seen: '2026-09-07T09:26:41Z'
-last_seen: '2026-09-08T00:25:25Z'
-status: market_context
+last_seen: '2026-09-08T14:34:23Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 126
-    comments: 46
+    points: 141
+    comments: 52
   kind: news
 ---
 

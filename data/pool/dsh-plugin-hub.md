@@ -31,16 +31,16 @@ canonical_url: https://dsh-plugin.org
 summary: DeepSeek Harness 社区内置插件市场（dsh-plugin）— 搜索插件、下载并安装 4000+ 人工精选社区插件，每日更新、完全免费。内置在 Harness「设置 → 插件中心」，无需离开应用即可浏览、搜索、安装各类
   AI 插件。
 first_seen: '2026-08-20T03:32:27Z'
-last_seen: '2026-09-08T00:25:29Z'
+last_seen: '2026-09-08T14:34:27Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://dsh-plugin.org
-  seen_at: '2026-09-08T00:25:29Z'
+  seen_at: '2026-09-08T14:34:27Z'
   metrics:
-    stars: 89
+    stars: 94
     forks: 8
     open_issues: 3
   kind: product

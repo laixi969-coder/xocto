@@ -24,17 +24,17 @@ url: https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocaly
 canonical_url: https://economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here
 summary: The jobs apocalypse is postponed. An AI jobs boom is here
 first_seen: '2026-09-07T10:38:32Z'
-last_seen: '2026-09-08T00:25:25Z'
-status: market_context
+last_seen: '2026-09-08T14:34:23Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 66
-    comments: 96
+    points: 91
+    comments: 139
   kind: news
 ---
 

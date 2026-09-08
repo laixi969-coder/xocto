@@ -1,0 +1,46 @@
+---
+slug: how-ai-body-data-and-fit-analytics-are-transforming-apparel
+name: How AI, Body Data and Fit Analytics are Transforming Apparel Sizing
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUlfX1hoOUd4LVBablZ5a0NHQ3lJelM5YThQdmxZWnF3MEVVSW9DRDZDanc3QVBNMGJDUmt1MDd6Y29FQ2I3WWZ1ZFhIRVQ1R19GMHp2MnJJUzRkYW5IbjhILTFhdFBYSmtadUtmUk9odmxBQ2hjaGFHT01DQW0xZ2M3WHJUOWpVeEZVOTF1MHlyeUl5QXRhSnRqWWJnN3BsdTM0dGo1RFl4RDVSRjRveU5vLURSbkRKMko4eGVMWGpucXdDQ0pV0gHHAUFVX3lxTE15SV9fWGg5R3gtUFpuVnlrQ0dDeUl6UzlhOFB2bFlacXcwRVVJb0NENkNqdzdBUE0wYkNSa3UwN3pjb0VDYjdZZnVkWEhFVDVHX0YwenYycklTNGRhbkhuOEgtMWF0UFhKa1p1S2ZST2h2bEFDaGNoYUdPTUNBbTFnYzdYclQ5alV4RlU5MXUweXJ5SXlBdGFKdGpZYmc3cGx1MzR0ajVEWXhENVJGNG95Tm8tRFJuREoySjh4ZUxYam5xd0NDSlU?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUlfX1hoOUd4LVBablZ5a0NHQ3lJelM5YThQdmxZWnF3MEVVSW9DRDZDanc3QVBNMGJDUmt1MDd6Y29FQ2I3WWZ1ZFhIRVQ1R19GMHp2MnJJUzRkYW5IbjhILTFhdFBYSmtadUtmUk9odmxBQ2hjaGFHT01DQW0xZ2M3WHJUOWpVeEZVOTF1MHlyeUl5QXRhSnRqWWJnN3BsdTM0dGo1RFl4RDVSRjRveU5vLURSbkRKMko4eGVMWGpucXdDQ0pV0gHHAUFVX3lxTE15SV9fWGg5R3gtUFpuVnlrQ0dDeUl6UzlhOFB2bFlacXcwRVVJb0NENkNqdzdBUE0wYkNSa3UwN3pjb0VDYjdZZnVkWEhFVDVHX0YwenYycklTNGRhbkhuOEgtMWF0UFhKa1p1S2ZST2h2bEFDaGNoYUdPTUNBbTFnYzdYclQ5alV4RlU5MXUweXJ5SXlBdGFKdGpZYmc3cGx1MzR0ajVEWXhENVJGNG95Tm8tRFJuREoySjh4ZUxYam5xd0NDSlU?oc=5
+summary: How AI, Body Data and Fit Analytics are Transforming Apparel Sizing fibre2fashion.com
+first_seen: '2026-09-08T05:34:56Z'
+last_seen: '2026-09-08T14:34:55Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUlfX1hoOUd4LVBablZ5a0NHQ3lJelM5YThQdmxZWnF3MEVVSW9DRDZDanc3QVBNMGJDUmt1MDd6Y29FQ2I3WWZ1ZFhIRVQ1R19GMHp2MnJJUzRkYW5IbjhILTFhdFBYSmtadUtmUk9odmxBQ2hjaGFHT01DQW0xZ2M3WHJUOWpVeEZVOTF1MHlyeUl5QXRhSnRqWWJnN3BsdTM0dGo1RFl4RDVSRjRveU5vLURSbkRKMko4eGVMWGpucXdDQ0pV0gHHAUFVX3lxTE15SV9fWGg5R3gtUFpuVnlrQ0dDeUl6UzlhOFB2bFlacXcwRVVJb0NENkNqdzdBUE0wYkNSa3UwN3pjb0VDYjdZZnVkWEhFVDVHX0YwenYycklTNGRhbkhuOEgtMWF0UFhKa1p1S2ZST2h2bEFDaGNoYUdPTUNBbTFnYzdYclQ5alV4RlU5MXUweXJ5SXlBdGFKdGpZYmc3cGx1MzR0ajVEWXhENVJGNG95Tm8tRFJuREoySjh4ZUxYam5xd0NDSlU?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFZTVjdMNjVsQWVJSE9WWlZDUExydUJBeUsxUkZGYV9aWXBBR3dIdTFhTVdLczdfbjdmOEhOWlNhUkE3R0JDTXE3VTVlRi1wNW1QaDR4dmRTQTFiS1BWR2VxRVpOR2JLTVhPbWlKZnRTZUROckVieThwanZjbDVXdVI2dDkzZ1Vyc0k2YlFqS0JxM1JWNmIzVm9OZ0tyV1pOMmhCX3ZWNUV5UnBHM0NEUnVSbzlkV2tqbTdZ0gHHAUFVX3lxTE15SV9fWGg5R3gtUFpuVnlrQ0dDeUl6UzlhOFB2bFlacXcwRVVJb0NENkNqdzdBUE0wYkNSa3UwN3pjb0VDYjdZZnVkWEhFVDVHX0YwenYycklTNGRhbkhuOEgtMWF0UFhKa1p1S2ZST2h2bEFDaGNoYUdPTUNBbTFnYzdYclQ5alV4RlU5MXUweXJ5SXlBdGFKdGpZYmc3cGx1MzR0ajVEWXhENVJGNG95Tm8tRFJuREoySjh4ZUxYam5xd0NDSlU?oc=5
+  seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+---
+
+# How AI, Body Data and Fit Analytics are Transforming Apparel Sizing
+
+How AI, Body Data and Fit Analytics are Transforming Apparel Sizing fibre2fashion.com
+
+## 笔记
+
+

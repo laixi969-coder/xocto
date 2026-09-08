@@ -37,17 +37,17 @@ url: https://myhomecat.com
 canonical_url: https://myhomecat.com
 summary: Design your backyard office
 first_seen: '2026-09-07T18:23:35Z'
-last_seen: '2026-09-08T00:25:25Z'
+last_seen: '2026-09-08T14:34:23Z'
 status: watching
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://myhomecat.com
-  seen_at: '2026-09-08T00:25:25Z'
+  seen_at: '2026-09-08T14:34:23Z'
   metrics:
-    points: 25
-    comments: 15
+    points: 38
+    comments: 18
   kind: product
 ---
 

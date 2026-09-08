@@ -22,14 +22,20 @@ url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNQThfM1oyUzh5R2xwMkxwNV
 canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNQThfM1oyUzh5R2xwMkxwNVA5eE9FWWN2ejFXblZCTnY2NGdfaWp1OHJ0YXJiRk5uSzU4aFpRVTdIYmlkbWZWTGlOSlBqWXRUNTAyZHBzbWRaamphTGJlU09fcFo5RnFqakMzYU1kdm1FSEpiWWV0cG56ZDFQbmdPWkpTcVdMSjBSc3A1QnpsYTlSQ04yQVpWNFNpb01yOXJCWUptWVlsY2RUMURWbVNRdVBfQm7SAboBQVVfeXFMUFgyT3BnUFdabXhWamh1RkdyR0xLdmljSnRpWkxPMEJGTlRTYkU3XzR6RWl5OHlDZHRTa0tvamQ5TGdOMkJTRFRSQlVidHJPZnpRaFJmSVBya0Nzb1pzMldmNjMzMEJneWZaMUx2OElOSFY2R1A5V2dObmNnYXRjQVU3clRDVjlEcHI0THo0WFNfZXUzcWRzSGFFdGJsSlQ0X1JqN0hDanQ1VjhpSTBjVHpaTUJWNC1sT0RR?oc=5
 summary: Cisco adds rack-scale AI computing to Secure AI Factory with NVIDIA Tech Observer Magazine
 first_seen: '2026-08-26T06:28:06Z'
-last_seen: '2026-08-29T03:43:33Z'
-status: market_context
+last_seen: '2026-09-08T14:34:47Z'
+status: pending_filter
 sources:
 - newssearch
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNQThfM1oyUzh5R2xwMkxwNVA5eE9FWWN2ejFXblZCTnY2NGdfaWp1OHJ0YXJiRk5uSzU4aFpRVTdIYmlkbWZWTGlOSlBqWXRUNTAyZHBzbWRaamphTGJlU09fcFo5RnFqakMzYU1kdm1FSEpiWWV0cG56ZDFQbmdPWkpTcVdMSjBSc3A1QnpsYTlSQ04yQVpWNFNpb01yOXJCWUptWVlsY2RUMURWbVNRdVBfQm7SAboBQVVfeXFMUFgyT3BnUFdabXhWamh1RkdyR0xLdmljSnRpWkxPMEJGTlRTYkU3XzR6RWl5OHlDZHRTa0tvamQ5TGdOMkJTRFRSQlVidHJPZnpRaFJmSVBya0Nzb1pzMldmNjMzMEJneWZaMUx2OElOSFY2R1A5V2dObmNnYXRjQVU3clRDVjlEcHI0THo0WFNfZXUzcWRzSGFFdGJsSlQ0X1JqN0hDanQ1VjhpSTBjVHpaTUJWNC1sT0RR?oc=5
   seen_at: '2026-08-29T03:43:33Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/
+  seen_at: '2026-09-08T14:34:47Z'
   metrics: {}
   kind: news
 ---
