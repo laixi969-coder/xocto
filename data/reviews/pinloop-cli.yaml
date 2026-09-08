@@ -1,0 +1,39 @@
+- id: req-initial-pinloop-cli-2026-09-08
+  project_slug: pinloop-cli
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者筛选职位耗时、信息过载的痛点；AI代理自动搜索和评估，交付匹配列表，价值明确。
+    evidence_ids:
+    - ev-6dcae490413a6ec8
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库星标数增长，但缺乏用户评价或采用数据。
+    evidence_ids:
+    - ev-6dcae490413a6ec8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，可能面向个人求职者或招聘平台，付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 贴近求职的第一性目标，交付可核对，但匹配质量需人工确认。
+    evidence_ids:
+    - ev-6dcae490413a6ec8
+  next_validation: 查找官方定价页或用户案例，确认付费意愿。
+  market: ''
+  job: 求职者需要高效筛选大量职位，找到匹配自己技能的机会。
+  job_en: Job seekers need to efficiently filter numerous job postings to find opportunities matching
+    their skills.
+  pain: 职位搜索耗时，信息过载，难以快速判断匹配度。
+  pain_en: Job search is time-consuming, information overload makes it hard to quickly assess fit.
+  current_alternative: 目前求职者通常手动浏览招聘网站或使用通用搜索，效率低。
+  current_alternative_en: Currently, job seekers typically browse job boards manually or use general search,
+    which is inefficient.
+  usage_reason: 该工具利用AI代理自动搜索和评估职位，节省时间，且每小时刷新保证信息时效。
+  usage_reason_en: This tool uses AI agents to automatically search and evaluate positions, saving time,
+    and hourly refresh ensures timeliness.

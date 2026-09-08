@@ -35,7 +35,7 @@ canonical_url: https://asahilinux.org/2026/09/m2-episode-1
 summary: Asahi Linux on M3
 first_seen: '2026-09-06T14:08:59Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

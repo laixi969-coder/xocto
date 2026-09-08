@@ -1,11 +1,12 @@
 ---
 slug: 华为harmonyos-7正式发布全新空间美学系统智能体小艺登场
-name: 华为HarmonyOS 7正式发布：全新空间美学，系统智能体小艺登场
+name: 华为 HarmonyOS 7
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 华为发布HarmonyOS 7操作系统，集成系统智能体小艺，提供更智能的系统交互体验，具体功能和影响待核验。
 inspiration: ''
-summary_en: ''
+summary_en: Huawei released the HarmonyOS 7 operating system, integrating the system agent Xiaoyi for
+  smarter system interactions; specific features and impacts are to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMijAFBVV95cUxQRmFnV3Bkcl9U
 summary: 华为HarmonyOS 7正式发布：全新空间美学，系统智能体小艺登场 Sohu
 first_seen: '2026-09-07T15:20:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 华为HarmonyOS 7正式发布：全新空间美学，系统智能体小艺登场
+# 华为 HarmonyOS 7
 
 华为HarmonyOS 7正式发布：全新空间美学，系统智能体小艺登场 Sohu
 

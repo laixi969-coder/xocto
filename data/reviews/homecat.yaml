@@ -1,0 +1,40 @@
+- id: req-initial-homecat-2026-09-08
+  project_slug: homecat
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决远程居家办公者低成本规划后院独立工作舱的痛点，垂直场景明确，工作流推理成立。
+    evidence_ids:
+    - ev-d357de5113730486
+  - gate: consensus
+    status: insufficient
+    reason: 在社区引发针对后院远程办公的讨论，但尚无公开的真实成图量与施工转化案例。
+    evidence_ids:
+    - ev-d357de5113730486
+  - gate: model
+    status: insufficient
+    reason: 潜在模式为设计方案付费或施工队导流分佣，但公开材料未披露商业变现路径。
+    evidence_ids:
+    - ev-d357de5113730486
+  - gate: truth
+    status: supported
+    reason: 参数化 3D 空间生成技术成熟，后院办公舱作为单体小建筑交付确定性高。
+    evidence_ids:
+    - ev-d357de5113730486
+  next_validation: 官网发布的完整设计出图流程、材料预算清单功能及收费定价模式。
+  market: ''
+  job: 设计并规划后院独立办公空间（Backyard Office / ADU）的布局与结构方案。
+  job_en: Design and plan the spatial layout and structural configuration of a backyard home office.
+  pain: 聘请专业建筑师绘制后院微型办公舱方案成本高昂，且市面通用家装软件缺乏针对 ADU 的专项尺寸与合规预设。
+  pain_en: Hiring architects for micro-office pods is expensive, while generic 3D tools lack specialized
+    backyard ADU presets and constraints.
+  current_alternative: 找独立建筑师手绘定制方案，或购买现成集装箱改装预制舱但无法适配具体院落尺寸。
+  current_alternative_en: Hiring local architects for custom blueprints or purchasing prefabricated shed
+    kits without yard adaptation.
+  usage_reason: 以极低成本快速生成可交互的后院办公室 3D 规划方案，直观核算空间尺寸与改造成本。
+  usage_reason_en: Allows users to generate interactive 3D backyard office plans quickly to evaluate yard
+    fit and preliminary costs.

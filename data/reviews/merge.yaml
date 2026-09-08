@@ -36,3 +36,36 @@
   usage_reason_en: 'It promises a simpler way to complete this job: Hiring engineers no longer means handwritten
     algorithm puzzles. Candidates review a change like they would at work, and the machine scores them.
     The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-merge-2026-09-08
+  project_slug: merge
+  level: initial
+  reviewed_at: '2026-09-08T00:25:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代码审查质量评估需求，但现有工具已覆盖部分功能，痛点强度不明。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开采用或社区讨论证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，真实性未核验。
+    evidence_ids: []
+  next_validation: 官方产品页或定价信息
+  market: ''
+  job: 开发者和技术管理者需要确保代码审查的质量和效率。
+  job_en: Developers and engineering managers need to ensure the quality and efficiency of code reviews.
+  pain: 人工审查可能遗漏问题，且难以量化审查质量。
+  pain_en: Manual reviews may miss issues, and review quality is hard to quantify.
+  current_alternative: 依赖人工代码审查和静态分析工具。
+  current_alternative_en: Relying on manual code reviews and static analysis tools.
+  usage_reason: AI评估审查质量，可能帮助团队改进流程。
+  usage_reason_en: AI assessing review quality may help teams improve processes.

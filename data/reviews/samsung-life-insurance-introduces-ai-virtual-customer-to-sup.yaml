@@ -1,0 +1,40 @@
+- id: req-initial-samsung-life-insurance-introduces-ai-virtual-customer-to-sup-2026-09-08
+  project_slug: samsung-life-insurance-introduces-ai-virtual-customer-to-sup
+  level: initial
+  reviewed_at: '2026-09-08T00:25:57Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决保险顾问培训中缺乏真实练习场景的痛点，AI 模拟提供可重复的实践。
+    evidence_ids:
+    - ev-103a1e7606ed6b3b
+  - gate: consensus
+    status: insufficient
+    reason: 仅见单一企业采用报道，缺乏行业广泛共识证据。
+    evidence_ids:
+    - ev-103a1e7606ed6b3b
+  - gate: model
+    status: insufficient
+    reason: 买方是保险公司，可能内部部署或采购第三方，付费模式未公开。
+    evidence_ids:
+    - ev-103a1e7606ed6b3b
+  - gate: truth
+    status: supported
+    reason: 贴近培训目标，AI 模拟可确定交付练习场景，安全边界清晰。
+    evidence_ids:
+    - ev-103a1e7606ed6b3b
+  next_validation: 查找三星生命保险或供应商的官方公告，了解 AI 虚拟客户的具体功能和培训效果数据。
+  market: ''
+  job: 保险顾问需要在不打扰真实客户的情况下练习销售对话和应对拒绝。
+  job_en: Insurance consultants need to practice sales conversations and handle rejections without disturbing
+    real clients.
+  pain: 传统角色扮演依赖同事时间，场景有限且难以重复。
+  pain_en: Traditional role-play relies on colleagues' time, with limited scenarios and poor repeatability.
+  current_alternative: 目前通常由资深同事扮演客户进行模拟，或直接在实际销售中学习。
+  current_alternative_en: Currently, senior colleagues often role-play clients, or learning happens in
+    real sales.
+  usage_reason: AI 虚拟客户可随时提供多样场景和客观反馈，降低培训成本。
+  usage_reason_en: AI virtual customers offer diverse scenarios and objective feedback anytime, reducing
+    training costs.

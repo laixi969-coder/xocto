@@ -234,3 +234,182 @@
   fact: 'Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs
     in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80%
     with zero external databases or dependencies. Built in pure Go. | repository stars: 458'
+- id: ev-ff9935c4521abb71
+  project_slug: okf-agent-memory
+  url: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/
+  title: How the Open Knowledge Format can improve data sharing - Google Cloud
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: pain
+  tier: independent
+  fact: OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never
+    require a proprietary account or SDK to read, write, or serve. We're publishing it as an open...
+- id: ev-1a32d395b1dd7081
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: pain
+  tier: independent
+  fact: 'Most knowledge formats ask you to learn a schema, install an SDK, and migrate your content into
+    a proprietary store. OKF asks you to keep writing markdown. The spec exists to make three guarantees:
+    One index, one truth. Every bundle has an index.md that lists what''s inside. Agents don''t guess
+    at structure — they read it. Typed frontmatter.'
+- id: ev-5266cf8b7092dd4b
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: pain
+  tier: independent
+  fact: 'This directory is primarily about the Open Knowledge Format (OKF). OKF is a universal, vendor-neutral
+    formatfor representing knowledge as plain markdown files with YAML frontmatter. It is not tied to
+    any particular agent, framework, model provider, or serving system. The goal is simple: Anyone can
+    produceOKF — humans authoring by hand, agents ...'
+- id: ev-d95ab80cb03b5553
+  project_slug: okf-agent-memory
+  url: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/
+  title: How the Open Knowledge Format can improve data sharing - Google Cloud
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: workaround
+  tier: independent
+  fact: OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never
+    require a proprietary account or SDK to read, write, or serve. We're publishing it as an open...
+- id: ev-62ba72b1be0ecc26
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'Most knowledge formats ask you to learn a schema, install an SDK, and migrate your content into
+    a proprietary store. OKF asks you to keep writing markdown. The spec exists to make three guarantees:
+    One index, one truth. Every bundle has an index.md that lists what''s inside. Agents don''t guess
+    at structure — they read it. Typed frontmatter.'
+- id: ev-ae029d0efcd5c7d4
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: workaround
+  tier: independent
+  fact: 'This directory is primarily about the Open Knowledge Format (OKF). OKF is a universal, vendor-neutral
+    formatfor representing knowledge as plain markdown files with YAML frontmatter. It is not tied to
+    any particular agent, framework, model provider, or serving system. The goal is simple: Anyone can
+    produceOKF — humans authoring by hand, agents ...'
+- id: ev-9af64cff3671618e
+  project_slug: okf-agent-memory
+  url: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/
+  title: How the Open Knowledge Format can improve data sharing - Google Cloud
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: customer_case
+  tier: independent
+  fact: OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never
+    require a proprietary account or SDK to read, write, or serve. We're publishing it as an open...
+- id: ev-c41c8efd3475be28
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'Most knowledge formats ask you to learn a schema, install an SDK, and migrate your content into
+    a proprietary store. OKF asks you to keep writing markdown. The spec exists to make three guarantees:
+    One index, one truth. Every bundle has an index.md that lists what''s inside. Agents don''t guess
+    at structure — they read it. Typed frontmatter.'
+- id: ev-4a4946ddfc1652f9
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: customer_case
+  tier: independent
+  fact: 'This directory is primarily about the Open Knowledge Format (OKF). OKF is a universal, vendor-neutral
+    formatfor representing knowledge as plain markdown files with YAML frontmatter. It is not tied to
+    any particular agent, framework, model provider, or serving system. The goal is simple: Anyone can
+    produceOKF — humans authoring by hand, agents ...'
+- id: ev-0b3866599360b60a
+  project_slug: okf-agent-memory
+  url: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/
+  title: How the Open Knowledge Format can improve data sharing - Google Cloud
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: pricing
+  tier: independent
+  fact: OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never
+    require a proprietary account or SDK to read, write, or serve. We're publishing it as an open...
+- id: ev-1bcf55944dc0d3df
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'Most knowledge formats ask you to learn a schema, install an SDK, and migrate your content into
+    a proprietary store. OKF asks you to keep writing markdown. The spec exists to make three guarantees:
+    One index, one truth. Every bundle has an index.md that lists what''s inside. Agents don''t guess
+    at structure — they read it. Typed frontmatter.'
+- id: ev-1ffc5c3fec007467
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: pricing
+  tier: independent
+  fact: 'This directory is primarily about the Open Knowledge Format (OKF). OKF is a universal, vendor-neutral
+    formatfor representing knowledge as plain markdown files with YAML frontmatter. It is not tied to
+    any particular agent, framework, model provider, or serving system. The goal is simple: Anyone can
+    produceOKF — humans authoring by hand, agents ...'
+- id: ev-248f79085bfa79e6
+  project_slug: okf-agent-memory
+  url: https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/
+  title: How the Open Knowledge Format can improve data sharing - Google Cloud
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: retention
+  tier: independent
+  fact: OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never
+    require a proprietary account or SDK to read, write, or serve. We're publishing it as an open...
+- id: ev-fbba56f949429f3e
+  project_slug: okf-agent-memory
+  url: https://okf.md/
+  title: OKF — The Markdown Spec for Humans and AI Agents
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: retention
+  tier: independent
+  fact: 'Most knowledge formats ask you to learn a schema, install an SDK, and migrate your content into
+    a proprietary store. OKF asks you to keep writing markdown. The spec exists to make three guarantees:
+    One index, one truth. Every bundle has an index.md that lists what''s inside. Agents don''t guess
+    at structure — they read it. Typed frontmatter.'
+- id: ev-b95f2d7a4c6894ba
+  project_slug: okf-agent-memory
+  url: https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  title: knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge ... - GitHub
+  published_at: ''
+  collected_at: '2026-09-08T01:04:39Z'
+  source_kind: retention
+  tier: independent
+  fact: 'This directory is primarily about the Open Knowledge Format (OKF). OKF is a universal, vendor-neutral
+    formatfor representing knowledge as plain markdown files with YAML frontmatter. It is not tied to
+    any particular agent, framework, model provider, or serving system. The goal is simple: Anyone can
+    produceOKF — humans authoring by hand, agents ...'
+- id: ev-f7fe91d49df5e250
+  project_slug: okf-agent-memory
+  url: https://www.bing.com/search?format=rss&q=AI+%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91+AI+%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%E7%94%A8%E6%88%B7+%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-08T01:05:42Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 软件开发 AI 编程助手用户 软件工程师'

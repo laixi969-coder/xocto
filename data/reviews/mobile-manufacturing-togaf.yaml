@@ -1,0 +1,40 @@
+- id: req-initial-mobile-manufacturing-togaf-2026-09-08
+  project_slug: mobile-manufacturing-togaf
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业架构师在行业数字化转型中缺乏参考模板、规划效率低的痛点；案例库提供结构化文档和原型，可驱动AI编程，交付可确定。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+  - gate: consensus
+    status: insufficient
+    reason: 开源仓库星标数有限，尚未见行业采用或社区讨论，共识证据不足。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业客户或咨询公司，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 内容贴近企业架构规划的第一性目标，交付物明确，但需人工确认架构适用性。
+    evidence_ids:
+    - ev-58b7cd819eab6e8d
+  next_validation: 查找该仓库的issue或讨论区，看是否有企业用户反馈或实际使用案例。
+  market: ''
+  job: 企业架构师或IT规划人员在制定手机制造企业的数字化转型方案时，需要参考行业架构案例和设计原型。
+  job_en: Enterprise architects or IT planners need to reference industry architecture cases and design
+    prototypes when formulating digital transformation plans for mobile phone manufacturing enterprises.
+  pain: 缺乏行业特定的架构参考，规划工作耗时且难以标准化。
+  pain_en: Lack of industry-specific architecture references makes planning time-consuming and difficult
+    to standardize.
+  current_alternative: 目前企业架构师通常依赖通用TOGAF框架和内部经验，手工绘制架构图。
+  current_alternative_en: Currently, enterprise architects typically rely on generic TOGAF frameworks
+    and internal experience, manually drawing architecture diagrams.
+  usage_reason: 该案例库提供了可直接复用的行业模板和原型，能减少重复工作，并可与AI编程工具衔接，提高交付效率。
+  usage_reason_en: This case repository provides reusable industry templates and prototypes, reducing
+    repetitive work and enabling integration with AI programming tools to improve delivery efficiency.

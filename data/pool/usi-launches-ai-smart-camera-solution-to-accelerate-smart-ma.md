@@ -1,11 +1,12 @@
 ---
 slug: usi-launches-ai-smart-camera-solution-to-accelerate-smart-ma
-name: USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing
+name: USI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 环旭电子（USI）推出AI智能相机解决方案，面向智能制造场景。该方案通过AI视觉识别，用于生产过程中的质量检测或监控，具体工作流程和交付结果待核验。
 inspiration: ''
-summary_en: ''
+summary_en: USI launched an AI smart camera solution for smart manufacturing, using AI vision for quality
+  inspection or monitoring. Specific workflows and deliverables are yet to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2wFBVV95cUxPU3pVRnotUnBZ
 summary: USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing The Manila Times
 first_seen: '2026-09-07T23:25:30Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing
+# USI
 
 USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing The Manila Times
 

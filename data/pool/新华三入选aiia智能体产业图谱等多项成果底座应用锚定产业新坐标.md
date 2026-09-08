@@ -1,11 +1,12 @@
 ---
 slug: 新华三入选aiia智能体产业图谱等多项成果底座应用锚定产业新坐标
-name: 新华三入选AIIA智能体产业图谱等多项成果，“底座+应用”锚定产业新坐标
+name: 新华三
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 新华三入选AIIA智能体产业图谱，表明其在智能体基础设施领域的布局，属于行业生态事件而非独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: H3C's inclusion in the AIIA agent industry map indicates its positioning in agent infrastructure,
+  an ecosystem event rather than a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1mek1LU2FMQjI3
 summary: 新华三入选AIIA智能体产业图谱等多项成果，“底座+应用”锚定产业新坐标 新浪网
 first_seen: '2026-09-07T09:39:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 新华三入选AIIA智能体产业图谱等多项成果，“底座+应用”锚定产业新坐标
+# 新华三
 
 新华三入选AIIA智能体产业图谱等多项成果，“底座+应用”锚定产业新坐标 新浪网
 

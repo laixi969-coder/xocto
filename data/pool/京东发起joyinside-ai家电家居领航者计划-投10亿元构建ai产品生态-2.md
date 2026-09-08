@@ -1,11 +1,12 @@
 ---
 slug: 京东发起joyinside-ai家电家居领航者计划-投10亿元构建ai产品生态-2
-name: 京东发起“JoyInside AI家电家居领航者计划” 投10亿元构建AI产品生态
+name: 京东
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 京东作为电商平台，发起该计划以推动AI家电家居产品的生态建设，具体产品形态和流程待核验。
 inspiration: ''
-summary_en: ''
+summary_en: JD.com, as an e-commerce platform, launched this program to promote the ecosystem of AI home
+  appliances and furnishings; specific product forms and processes are yet to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcVBkSXF5Xzdv
 summary: 京东发起“JoyInside AI家电家居领航者计划” 投10亿元构建AI产品生态 Sohu
 first_seen: '2026-09-07T08:28:08Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 京东发起“JoyInside AI家电家居领航者计划” 投10亿元构建AI产品生态
+# 京东
 
 京东发起“JoyInside AI家电家居领航者计划” 投10亿元构建AI产品生态 Sohu
 

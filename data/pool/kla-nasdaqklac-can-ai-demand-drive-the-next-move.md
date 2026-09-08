@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimgFBVV95cUxNQXhVUXYzVWR6
 summary: 'KLA (NASDAQ:KLAC): Can AI Demand Drive the Next Move? kalkinemedia.com'
 first_seen: '2026-09-07T22:09:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

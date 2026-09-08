@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAJBVV95cUxPZ3Y0dXphMVdG
 summary: 汇丰范力民详解AI热潮、美元美债与中国机遇 新浪财经
 first_seen: '2026-09-07T03:57:42Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

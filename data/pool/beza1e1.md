@@ -21,7 +21,7 @@ canonical_url: https://beza1e1.tuxen.de/ai_feelings.html
 summary: I Feel about AI
 first_seen: '2026-09-06T15:00:19Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

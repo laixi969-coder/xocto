@@ -1,0 +1,35 @@
+- id: req-initial-manware-s-ai-learning-toolkit-2026-09-08
+  project_slug: manware-s-ai-learning-toolkit
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决代码理解需求，但现有学习资源丰富，痛点强度不明。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有一定关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-33e9a468ba66c4e2
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，真实性未核验。
+    evidence_ids: []
+  next_validation: 官方文档或用户案例
+  market: ''
+  job: 开发者在学习新代码或审查代码时，需要理解逻辑和最佳实践。
+  job_en: Developers need to understand logic and best practices when learning or reviewing code.
+  pain: AI直接生成代码可能导致理解不足，难以维护和调试。
+  pain_en: AI-generated code may lead to shallow understanding, hindering maintenance and debugging.
+  current_alternative: 阅读文档、查看教程或向同事请教。
+  current_alternative_en: Reading documentation, tutorials, or asking colleagues.
+  usage_reason: 提供教学式反馈，可能吸引注重长期学习的开发者。
+  usage_reason_en: Providing educational feedback may attract developers focused on long-term learning.

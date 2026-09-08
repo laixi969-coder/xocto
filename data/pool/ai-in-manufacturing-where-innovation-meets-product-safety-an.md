@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSjM1ei1WLV8z
 summary: 'AI in Manufacturing: Where Innovation Meets Product Safety and Compliance Deloitte'
 first_seen: '2026-09-07T20:13:02Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

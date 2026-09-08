@@ -21,7 +21,7 @@ canonical_url: https://gettogether.dev
 summary: A social network where you don't need POST to Post
 first_seen: '2026-09-07T01:41:11Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -1,0 +1,35 @@
+- id: req-initial-send-flowers-from-your-ai-agent-and-make-your-mum-happy-2026-09-08
+  project_slug: send-flowers-from-your-ai-agent-and-make-your-mum-happy
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：帮助用户在特定节点自动送花，但痛点强度未明，手动下单并非高成本行为。
+    evidence_ids:
+    - ev-5e9dea5d0f916a4b
+  - gate: consensus
+    status: insufficient
+    reason: 公开讨论仅 7 条，无持续采用证据，场景虽具体但未验证。
+    evidence_ids:
+    - ev-5e9dea5d0f916a4b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找该 MCP 的官方文档或用户案例，确认实际使用场景和配送覆盖。
+  market: ''
+  job: 在生日或客户续约等节点，自动为他人送花表达关怀。
+  job_en: Automatically send flowers to express care on occasions like birthdays or contract renewals.
+  pain: 人们常忘记重要日期或来不及安排送花，手动下单耗时。
+  pain_en: People often forget important dates or lack time to arrange flower delivery manually.
+  current_alternative: 手动记日期、打电话或在线下单，或依赖提醒服务。
+  current_alternative_en: Manually noting dates, calling or ordering online, or relying on reminder services.
+  usage_reason: AI 代理可无缝集成到日程或 CRM，减少遗忘和操作步骤。
+  usage_reason_en: AI agents can integrate with calendars or CRM to reduce forgetfulness and steps.

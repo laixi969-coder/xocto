@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibkFVX3lxTE9VQ0Jsc0pFODNG
 summary: 凯时在线游戏全面激活身份，AI智能体重磅上线 体坛加
 first_seen: '2026-09-07T06:39:20Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

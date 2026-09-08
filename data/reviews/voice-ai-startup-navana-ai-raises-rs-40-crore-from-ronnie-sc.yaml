@@ -1,0 +1,39 @@
+- id: req-initial-voice-ai-startup-navana-ai-raises-rs-40-crore-from-ronnie-sc-2026-09-08
+  project_slug: voice-ai-startup-navana-ai-raises-rs-40-crore-from-ronnie-sc
+  level: initial
+  reviewed_at: '2026-09-08T00:25:57Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，公开资料仅提及融资，未描述具体工作流或交付。
+    evidence_ids:
+    - ev-66b5963bed9465c2
+    - ev-bd0ecc35b4a4e0ea
+  - gate: consensus
+    status: insufficient
+    reason: 无用户采用或关注数据，仅融资新闻，无法判断共识。
+    evidence_ids:
+    - ev-66b5963bed9465c2
+  - gate: model
+    status: insufficient
+    reason: 买方和付费路径未披露，无法判断商业模式。
+    evidence_ids:
+    - ev-66b5963bed9465c2
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性未核验，缺乏功能或交付证据。
+    evidence_ids:
+    - ev-66b5963bed9465c2
+  next_validation: 查找 Navana.ai 的官方网站或产品文档，确认其具体功能、目标用户和定价。
+  market: ''
+  job: 企业可能使用语音 AI 处理客户服务或销售沟通，但具体任务未明确。
+  job_en: Enterprises might use voice AI for customer service or sales communication, but the specific
+    task is unclear.
+  pain: 未明确痛点，可能是人工客服成本高或响应慢，但无公开证据。
+  pain_en: Pain points are unspecified; possibly high labor costs or slow response, but no public evidence.
+  current_alternative: 现有替代可能是人工客服或传统 IVR 系统，但未证实。
+  current_alternative_en: Current alternatives might be human agents or traditional IVR systems, but unconfirmed.
+  usage_reason: 用户可能因融资新闻关注，但产品价值未验证。
+  usage_reason_en: Users may follow due to funding news, but product value is unverified.

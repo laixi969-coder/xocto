@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxOd2NoNlFQa0lZ
 summary: 'AI Funding Roundup: $9.2B Across 46 Rounds, Aug 31 to Sep 6 StartupHub.ai'
 first_seen: '2026-09-07T13:02:04Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

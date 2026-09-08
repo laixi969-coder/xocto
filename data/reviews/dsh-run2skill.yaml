@@ -1,0 +1,40 @@
+- id: req-initial-dsh-run2skill-2026-09-08
+  project_slug: dsh-run2skill
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决智能体长链路成功轨迹难以低成本固化为技能的问题，结构化提取需求明确。
+    evidence_ids:
+    - ev-12b95f8081a709cd
+    - ev-63b5cf36c99db0b9
+  - gate: consensus
+    status: supported
+    reason: 开源短期内获得过百关注与收藏，展现出智能体工程师对技能自动化提炼的兴趣。
+    evidence_ids:
+    - ev-12b95f8081a709cd
+    - ev-63b5cf36c99db0b9
+  - gate: model
+    status: insufficient
+    reason: 作为开源工作流辅助脚本存在，尚未披露企业版技能治理或商业化交付路径。
+    evidence_ids:
+    - ev-63b5cf36c99db0b9
+  - gate: truth
+    status: supported
+    reason: 轨迹提炼边界清晰，生成的技能模块可供人工二次审查并执行确定性校验。
+    evidence_ids:
+    - ev-12b95f8081a709cd
+  next_validation: 验证该工具生成的技能在复杂长流程智能体中的复用成功率及社区 issue 反馈。
+  market: ''
+  job: 将偶发成功的复杂智能体执行流程固化为标准化、可重复调用的技能模块。
+  job_en: Convert successful agent execution traces into standardized and reusable skill modules.
+  pain: 手动回溯执行日志、提炼提示词与边界条件极其耗时且容易遗漏关键上下文。
+  pain_en: Manually reviewing logs and distilling prompts or constraints is tedious and error-prone.
+  current_alternative: 人工查看调试日志并手动复制 Prompt 和代码片段编写 Skill 函数。
+  current_alternative_en: Manually inspect logs and copy prompt/code snippets to write custom skill functions.
+  usage_reason: 一键将高价值运行历史转化为可复用资产，提升智能体技能库构建效率。
+  usage_reason_en: Turns high-value execution history into reusable assets in one click, speeding up skill
+    creation.

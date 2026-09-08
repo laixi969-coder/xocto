@@ -1,0 +1,41 @@
+- id: req-initial-dsh-plugin-hub-2026-09-08
+  project_slug: dsh-plugin-hub
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 Harness 用户插件发现和安装不便的痛点，提供统一市场，价值明确。
+    evidence_ids:
+    - ev-761fb53f88e9769f
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 89 星，但缺乏用户评价或广泛采用证据。
+    evidence_ids:
+    - ev-27372d58bc2ca873
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确付费路径。
+    evidence_ids:
+    - ev-761fb53f88e9769f
+  - gate: truth
+    status: supported
+    reason: 插件市场贴近开发者扩展应用的实际需求，交付可确定。
+    evidence_ids:
+    - ev-761fb53f88e9769f
+  next_validation: 关注 公开代码仓库 仓库的 issue 和讨论，了解插件质量和用户反馈。
+  market: ''
+  job: DeepSeek Harness 用户需要发现和安装插件来扩展功能，而无需手动搜索和配置。
+  job_en: DeepSeek Harness users need to discover and install plugins to extend functionality without
+    manual searching and configuration.
+  pain: 插件分散在社区各处，查找和安装不便，缺乏统一入口。
+  pain_en: Plugins are scattered across the community, making discovery and installation inconvenient,
+    lacking a unified entry point.
+  current_alternative: 用户可能通过 公开代码仓库 或社区论坛手动查找插件，再手动安装。
+  current_alternative_en: Users may manually search for plugins on public code repository or community
+    forums, then install them manually.
+  usage_reason: 内置市场提供集中、精选的插件源，简化安装流程，且免费。
+  usage_reason_en: The built-in marketplace provides a centralized, curated plugin source, simplifying
+    installation, and is free.

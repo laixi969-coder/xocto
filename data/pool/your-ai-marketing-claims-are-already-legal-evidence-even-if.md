@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxORk41a3pJdU9J
 summary: Your AI Marketing Claims Are Already Legal Evidence — Even If Legal Never Approved Them HackerNoon
 first_seen: '2026-09-07T19:02:12Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,40 @@
+- id: req-initial-dsh-raw-html-2026-09-08
+  project_slug: dsh-raw-html
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决智能体纯文本输出表现力不足的痛点，提供开箱即用的富交互界面渲染能力。
+    evidence_ids:
+    - ev-0acee2dc48a1dba1
+  - gate: consensus
+    status: insufficient
+    reason: 初期开源项目，主要在特定运行时开发者社区内流通，尚未形成广泛采用共识。
+    evidence_ids:
+    - ev-0acee2dc48a1dba1
+  - gate: model
+    status: insufficient
+    reason: 作为开源基础设施插件提供，目前尚未构建商业化变现或技术服务付费模式。
+    evidence_ids:
+    - ev-0acee2dc48a1dba1
+  - gate: truth
+    status: supported
+    reason: 基于成熟的前端渲染组件构建，能够确定性将特定 HTML 标记转为可视界面。
+    evidence_ids:
+    - ev-0acee2dc48a1dba1
+  next_validation: 跟踪仓库实际集成案例及针对不同前端宿主环境的兼容性反馈与 issue 讨论。
+  market: ''
+  job: 在智能体框架中直观展示结构化、图形化与数学公式等复杂输出。
+  job_en: Render structured, graphical, and mathematical outputs seamlessly within an agent runtime.
+  pain: 原生终端与轻量界面仅支持纯文本，排版混乱且无法展示图表和交互卡片。
+  pain_en: Native terminals and simple interfaces only support plain text, lacking support for charts
+    and cards.
+  current_alternative: 手工搭建独立的前端 Web 容器或由人工解析 Markdown 图表语法。
+  current_alternative_en: Manually build custom frontend Web containers or manually parse Markdown diagram
+    syntaxes.
+  usage_reason: 即插即用支持多种图表与排版协议，显著降低智能体 UI 可视化门槛。
+  usage_reason_en: Provides plug-and-play support for charts and typography, lowering agent UI visualization
+    friction.

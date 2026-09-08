@@ -1,0 +1,41 @@
+- id: req-initial-dsh-comfyui-2026-09-08
+  project_slug: dsh-comfyui
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 ComfyUI 用户工作流中缺乏语言模型集成、需手动切换工具的痛点，价值明确。
+    evidence_ids:
+    - ev-ed03533bac902981
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 56 星，但缺乏用户评价或广泛采用证据。
+    evidence_ids:
+    - ev-ed03533bac902981
+  - gate: model
+    status: insufficient
+    reason: 开源免费，无明确付费路径。
+    evidence_ids:
+    - ev-ed03533bac902981
+  - gate: truth
+    status: supported
+    reason: 插件贴近 ComfyUI 用户的实际工作流，交付可确定。
+    evidence_ids:
+    - ev-ed03533bac902981
+  next_validation: 查看 公开代码仓库 仓库的 README 和 issue，了解具体功能和用户反馈。
+  market: ''
+  job: ComfyUI 用户希望在节点式工作流中集成语言模型能力，以扩展图像生成的控制和提示词优化。
+  job_en: ComfyUI users want to integrate language model capabilities into node-based workflows to extend
+    control over image generation and prompt optimization.
+  pain: ComfyUI 本身缺乏语言模型节点，用户需手动切换工具，流程割裂。
+  pain_en: ComfyUI itself lacks language model nodes, requiring users to manually switch tools, breaking
+    the workflow.
+  current_alternative: 用户通常在 ComfyUI 外部使用 ChatGPT 等工具生成提示词，再复制回工作流。
+  current_alternative_en: Users typically use tools like ChatGPT outside ComfyUI to generate prompts,
+    then copy them back into the workflow.
+  usage_reason: 插件直接嵌入 ComfyUI，减少切换，提升效率，且开源免费。
+  usage_reason_en: The plugin embeds directly into ComfyUI, reducing switching and improving efficiency,
+    and is open source and free.

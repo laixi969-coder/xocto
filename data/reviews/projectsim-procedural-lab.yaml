@@ -1,0 +1,39 @@
+- id: req-initial-projectsim-procedural-lab-2026-09-08
+  project_slug: projectsim-procedural-lab
+  level: initial
+  reviewed_at: '2026-09-08T00:25:48Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决快速生成可动 3D 资产的需求，但痛点强度和交付确定性缺乏公开证据。
+    evidence_ids:
+    - ev-b79bb3331ffd6f7a
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区关注，无用户反馈或采用证据。
+    evidence_ids:
+    - ev-b79bb3331ffd6f7a
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或演示视频，展示具体输入输出和用户使用案例。
+  market: ''
+  job: 3D 美术师或关卡设计师在制作可交互物体（如门、抽屉、轮子）时，需要快速生成带物理属性的资产。
+  job_en: 3D artists or level designers need to quickly generate assets with physical properties when
+    creating interactive objects like doors, drawers, and wheels.
+  pain: 手动建模和绑定物理属性耗时，且需要专业软件技能。
+  pain_en: Manual modeling and setting physical properties is time-consuming and requires specialized
+    software skills.
+  current_alternative: 使用 Blender、Maya 等专业软件手动建模和设置物理属性。
+  current_alternative_en: Manually modeling and setting physical properties using professional software
+    like Blender or Maya.
+  usage_reason: 可能因快速生成可动资产而吸引用户，但公开信息不足，无法确认实际使用场景和频率。
+  usage_reason_en: May attract users for quickly generating movable assets, but public information is
+    insufficient to confirm actual usage scenarios and frequency.

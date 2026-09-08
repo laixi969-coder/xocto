@@ -22,7 +22,7 @@ canonical_url: https://keepitfree.ai/announcements/a/i-shuts-down-stay-human
 summary: A/I shuts down – Stay human
 first_seen: '2026-09-06T14:34:34Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

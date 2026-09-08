@@ -22,7 +22,7 @@ summary: The rise of AI has brought an avalanche of new terms and slang. Here is
   of some of the most important words and phrases you might encounter.
 first_seen: '2026-09-07T19:24:00Z'
 last_seen: '2026-09-08T00:25:50Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

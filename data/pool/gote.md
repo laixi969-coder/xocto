@@ -21,7 +21,7 @@ canonical_url: https://news.ycombinator.com/item?id=49600397
 summary: a CLI note-taking management tool for plain Markdown
 first_seen: '2026-09-07T16:55:46Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

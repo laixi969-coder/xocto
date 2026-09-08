@@ -82,3 +82,44 @@
   usage_reason: Flock 的 AI 摄像头能自动识别车牌并生成警报，提高效率，但公开证据有限，实际采用和付费情况尚未核验。
   usage_reason_en: Flock's AI cameras can automatically recognize plates and generate alerts, improving
     efficiency, but public evidence is limited; actual adoption and payment are not yet verified.
+- id: req-initial-status-2026-09-08
+  project_slug: status
+  level: initial
+  reviewed_at: '2026-09-08T00:25:25Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决执法机构快速定位涉案车辆、提升响应速度的刚性需求；痛点明确，交付可确定。
+    evidence_ids:
+    - ev-e6ae20d0321cf555
+  - gate: consensus
+    status: supported
+    reason: 已有多个州和机构采用，且通过立法获得资金，显示强场景和公共认可。
+    evidence_ids:
+    - ev-c5b4fb073113fe9c
+  - gate: model
+    status: insufficient
+    reason: 买方为政府机构，资金来自公共预算或保险附加费，但具体定价和合同模式未公开。
+    evidence_ids:
+    - ev-e6ae20d0321cf555
+  - gate: truth
+    status: challenged
+    reason: 监控引发隐私担忧和监管反弹，可能限制其长期部署和可持续性。
+    evidence_ids:
+    - ev-316ecd4eecdf5999
+  next_validation: 查找 Flock Safety 的官方定价页或政府合同公开记录，以确认其商业模式和收入规模。
+  market: ''
+  job: 执法机构需要快速识别涉案车辆、响应案件并调查犯罪活动。
+  job_en: Law enforcement needs to quickly identify suspect vehicles, respond to incidents, and investigate
+    crimes.
+  pain: 传统人工排查效率低，跨辖区协作困难，无法实时追踪车辆轨迹。
+  pain_en: Manual plate checks are slow, cross-jurisdiction coordination is hard, and real-time vehicle
+    tracking is impossible.
+  current_alternative: 过去依赖人工设卡、目击者报告和有限的监控系统，覆盖不足且响应滞后。
+  current_alternative_en: Previously relied on manual checkpoints, witness reports, and limited CCTV,
+    with poor coverage and delayed response.
+  usage_reason: Flock 提供实时 ALPR 数据和跨机构共享平台，能显著提升破案效率，因此被广泛采用。
+  usage_reason_en: Flock offers real-time ALPR data and a shared platform across agencies, significantly
+    improving case clearance, driving adoption.

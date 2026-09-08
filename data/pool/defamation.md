@@ -21,7 +21,7 @@ canonical_url: https://defamation.dev/icbe
 summary: Intercontinental Ballistic Wikipedia Edit Map
 first_seen: '2026-09-07T21:03:42Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

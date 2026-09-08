@@ -21,7 +21,7 @@ canonical_url: https://github.com/Sadpainy/Stuxnet
 summary: A reconstructed source code of the infamous cyber-weapon
 first_seen: '2026-09-07T22:12:38Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

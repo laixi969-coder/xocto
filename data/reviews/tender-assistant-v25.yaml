@@ -1,0 +1,41 @@
+- id: req-initial-tender-assistant-v25-2026-09-08
+  project_slug: tender-assistant-v25
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决什么需求、什么痛点：招投标文档处理耗时且易错，AI 自动化可显著提升效率，痛点明确。
+    evidence_ids:
+    - ev-5953ea55b8348180
+    - ev-5856037d5ed4c5fc
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目 49 星，无公开采用或付费证据，但场景具体，需求结构成立。
+    evidence_ids:
+    - ev-5953ea55b8348180
+    - ev-5856037d5ed4c5fc
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找官方文档或演示，确认其解析和生成的实际效果及行业适用性。
+  market: ''
+  job: 投标团队需要快速理解招标要求并撰写响应文档，以在规定时间内提交。
+  job_en: Bid teams need to quickly understand tender requirements and write response documents to submit
+    within deadlines.
+  pain: 招标文件冗长复杂，人工阅读和撰写响应耗时且易遗漏关键点。
+  pain_en: Tender documents are lengthy and complex; manual reading and writing responses is time-consuming
+    and prone to missing key points.
+  current_alternative: 投标专员手动阅读招标文件，使用模板和过往案例撰写响应。
+  current_alternative_en: Bid specialists manually read tender documents and write responses using templates
+    and past cases.
+  usage_reason: AI 可快速解析文件并生成初稿，减少重复劳动，提高响应速度。
+  usage_reason_en: AI can quickly parse documents and generate drafts, reducing repetitive work and improving
+    response speed.

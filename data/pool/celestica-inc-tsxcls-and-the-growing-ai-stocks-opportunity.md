@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTG0wbDM5MmVC
 summary: Celestica Inc (TSX:CLS) And The Growing AI Stocks Opportunity kalkinemedia.com
 first_seen: '2026-09-07T22:34:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

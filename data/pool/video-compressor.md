@@ -25,7 +25,7 @@ summary: "Tool:   Video compressor  \n         I recorded a short demo video of 
   \ ,  claude-mythos-fable"
 first_seen: '2026-09-07T18:29:07Z'
 last_seen: '2026-09-08T00:25:50Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

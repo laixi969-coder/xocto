@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxOVWxKdHk0VlRx
 summary: 'AAOI Dips 46% in Three Months: Should You Buy the Stock Now or Wait? TradingView'
 first_seen: '2026-09-07T16:28:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

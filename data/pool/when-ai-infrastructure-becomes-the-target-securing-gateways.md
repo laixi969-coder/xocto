@@ -3,10 +3,10 @@ slug: when-ai-infrastructure-becomes-the-target-securing-gateways
 name: Microsoft
 builder: ''
 category: ''
-summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
+summary_zh: 微软作为大型科技公司，其AI基础设施安全、企业服务AI代理等动态属于行业背景，非独立产品。
 inspiration: ''
-summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
-  confirm its workflow value.
+summary_en: Microsoft's moves in AI infrastructure security and enterprise AI agents are industry context,
+  not a standalone product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4
 summary: 'When AI infrastructure becomes the target: Securing gateways and control points Microsoft'
 first_seen: '2026-08-26T16:43:53Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

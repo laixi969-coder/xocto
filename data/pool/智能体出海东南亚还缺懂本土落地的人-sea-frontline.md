@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5Val9QWmg2QTRv
 summary: 智能体出海东南亚，还缺懂本土落地的人 ｜SEA Frontline 钛媒体
 first_seen: '2026-09-07T22:45:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

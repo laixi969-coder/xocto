@@ -28,7 +28,7 @@ summary: "The strongest argument I see for continuing to train much smarter mode
   \ \n —  Jakub Pachocki , Chief Scientist at OpenAI \n\n     Tags:  ai-ethics ,  openai ,  ai"
 first_seen: '2026-09-07T22:26:25Z'
 last_seen: '2026-09-08T00:25:50Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

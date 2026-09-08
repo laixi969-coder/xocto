@@ -3,24 +3,25 @@ slug: ai-engineering-lab
 name: AI-Engineering-Lab
 builder: zorost
 category: AI + 开发
-summary_zh: 转型工程师在系统学习大模型落地开发时打开该实验库，按照 24 周阶段任务运行配套代码；系统提供包含 RAG、微调、智能体与云平台的 43 个交互式 Notebook；交付的是完整跑通的工程案例代码与实操结果。
-inspiration: 趋势是 AI 学习从理论概念转向基于实战 Notebook 的工程流水线演练。切入点是不要做录播课平台，而是做针对企业真实业务架构（如跨云部署与 RAG 调优）的交互式工程实操沙箱。
-summary_en: Software engineers transitioning to AI use this 24-week curriculum with 43 runnable notebooks
-  covering RAG, fine-tuning, MCP agents, and cloud deployment, delivering hands-on code for end-to-end
-  case studies.
-inspiration_en: 'Trend: AI learning shifts from theory to interactive engineering pipelines. Entry: Build
-  runnable cloud sandboxes for enterprise AI architectures rather than static video courses.'
+summary_zh: 软件开发者在转向大模型工程落地时使用该开源项目，通过43个交互式Notebook学习24周实战体系。内容涵盖基础机器学习、RAG检索、模型微调、MCP智能体协议及多云部署，帮助开发者通过单一连续案例获得端到端代码实现与自测交付。
+inspiration: 趋势：AI工程师学习路径正从碎片化Prompt技巧转向包含MCP协议、RAG治理与云端编排的系统级全栈工程。切入：从企业内部研发团队的技能转型培训切入，提供结合企业私有架构的实战演练与认证服务。
+summary_en: Software engineers transitioning to AI development use this open-source course with 43 runnable
+  notebooks over 24 weeks, covering ML basics, RAG, fine-tuning, agent MCP protocols, and multi-cloud
+  deployment through an end-to-end case study.
+inspiration_en: 'Trend: AI engineering education is moving from isolated prompt tutorials to full-stack
+  pipelines covering MCP and multi-cloud orchestration. Angle: Enter through enterprise technical upskilling
+  with hands-on architecture labs.'
 priority_review: false
 project_type: open_source
 industries:
-- 教育培训
 - 软件开发
+- 教育培训
 industries_en:
-- Education & Training
 - Software Development
+- Education & Training
 jobs:
 - 软件工程师
-- AI 工程师
+- AI工程师
 jobs_en:
 - Software Engineer
 - AI Engineer
@@ -36,7 +37,7 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - newssearch

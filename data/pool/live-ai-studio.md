@@ -2,17 +2,30 @@
 slug: live-ai-studio
 name: Live Ai Studio
 builder: Sandy9173
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 生活
+summary_zh: 这是一个实时AI摄像头工作室，提供人脸追踪和背景替换功能。主播或视频创作者在直播或录制时，AI接收摄像头画面，实时追踪人脸并替换背景，最终输出带虚拟背景的直播画面。具体流程和交付细节仍需核验。
+inspiration: 实时视频处理正从滤镜走向AI驱动的动态背景和追踪，可切入虚拟直播、在线教育等垂直场景，按效果或订阅收费。
+summary_en: A real-time AI camera studio offering face tracking and background replacement. Streamers
+  or video creators use it during live sessions or recordings; AI processes the camera feed, tracks faces,
+  and swaps backgrounds, outputting a live video with virtual background. Specific workflow and deliverables
+  need verification.
+inspiration_en: Real-time video processing is moving from filters to AI-driven dynamic backgrounds and
+  tracking. Opportunities exist in verticals like virtual streaming and online education, with monetization
+  via outcomes or subscriptions.
 priority_review: false
-project_type: open_source
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 内容创作
+- 直播
+industries_en:
+- Content Creation
+- Live Streaming
+jobs:
+- 主播
+- 视频创作者
+jobs_en:
+- Streamers
+- Video Creators
 regions: []
 regions_en: []
 open_source: true
@@ -21,7 +34,7 @@ canonical_url: https://huggingface.co/spaces/Sandy9173/live-ai-studio
 summary: Real-time AI camera, face tracking and background studio
 first_seen: '2026-09-04T11:19:30Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: watching
 sources:
 - huggingface
 - newssearch

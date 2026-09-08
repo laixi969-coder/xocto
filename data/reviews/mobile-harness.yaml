@@ -1,0 +1,37 @@
+- id: req-initial-mobile-harness-2026-09-08
+  project_slug: mobile-harness
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决移动编码需求，但使用场景有限，痛点强度不明。
+    evidence_ids:
+    - ev-dc80db7dbe36a1dc
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目有一定关注，但缺乏持续采用证据。
+    evidence_ids:
+    - ev-dc80db7dbe36a1dc
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，真实性未核验。
+    evidence_ids: []
+  next_validation: 官方文档或用户案例
+  market: ''
+  job: 开发者在移动场景下需要快速修改代码或查看项目状态。
+  job_en: Developers need to quickly edit code or check project status in mobile scenarios.
+  pain: 传统移动端无法运行完整开发环境，紧急修复需携带电脑。
+  pain_en: Traditional mobile devices cannot run full development environments, requiring a laptop for
+    urgent fixes.
+  current_alternative: 使用远程桌面或SSH连接电脑。
+  current_alternative_en: Using remote desktop or SSH to connect to a computer.
+  usage_reason: 提供移动端编码能力，可能吸引需要随时处理代码的开发者。
+  usage_reason_en: Providing mobile coding capabilities may attract developers who need to handle code
+    anytime.

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilgFBVV95cUxOSzF2aWZTMXAz
 summary: 'Celestica Inc. (TSX:CLS): Is AI Demand Boosting Growth? kalkinemedia.com'
 first_seen: '2026-09-07T19:50:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

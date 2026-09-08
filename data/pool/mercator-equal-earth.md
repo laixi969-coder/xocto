@@ -24,7 +24,7 @@ summary: "Tool:   Mercator ↔ Equal Earth  \n         I got curious about the E
   \  Tags:  geospatial ,  d3 ,  vibe-coding ,  gpt-6-astra"
 first_seen: '2026-09-07T16:24:16Z'
 last_seen: '2026-09-08T00:25:50Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

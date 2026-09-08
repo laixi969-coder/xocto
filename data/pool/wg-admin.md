@@ -21,7 +21,7 @@ canonical_url: https://github.com/logimaxx/wg-admin
 summary: web UI for an existing WireGuard host
 first_seen: '2026-09-07T16:43:37Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

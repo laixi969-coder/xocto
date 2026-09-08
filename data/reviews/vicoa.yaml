@@ -1,0 +1,39 @@
+- id: req-initial-vicoa-2026-09-08
+  project_slug: vicoa
+  level: initial
+  reviewed_at: '2026-09-08T00:25:29Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：可能解决跨设备管理编码代理的需求，但具体场景和痛点不明确。
+    evidence_ids:
+    - ev-52e7210c17a7eb6e
+    - ev-d169f44505ed2f0c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户反馈和采用证据。
+    evidence_ids:
+    - ev-52e7210c17a7eb6e
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，无商业模式信息。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法验证交付确定性。
+    evidence_ids: []
+  next_validation: 查看 Vicoa 的官方文档和仓库 issue，确认实际使用场景和用户反馈。
+  market: ''
+  job: 开发者需要从不同设备管理和运行多个编码代理。
+  job_en: Developers need to manage and run multiple coding agents from different devices.
+  pain: 现有编码代理工具通常绑定单一设备或环境，难以灵活管理多个代理。
+  pain_en: Existing coding agent tools are often tied to a single device or environment, making it hard
+    to manage multiple agents flexibly.
+  current_alternative: 开发者可能使用本地 IDE 插件或云开发环境，但缺乏统一的跨设备管理界面。
+  current_alternative_en: Developers may use local IDE plugins or cloud dev environments, but lack a unified
+    cross-device management interface.
+  usage_reason: 开源且支持自托管，可能吸引追求灵活性和控制权的开发者试用。
+  usage_reason_en: Open-source and self-hostable, may attract developers seeking flexibility and control
+    to try.

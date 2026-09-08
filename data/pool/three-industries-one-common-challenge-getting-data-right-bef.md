@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOdUE4YUp6VnhQ
 summary: 'Three Industries, One Common Challenge: Getting Data Right Before MDM CFOtech Australia'
 first_seen: '2026-09-07T20:20:00Z'
 last_seen: '2026-09-08T00:25:57Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,11 +1,12 @@
 ---
 slug: vllm
-name: vllm
+name: vLLM
 builder: ankitg12
 category: ''
-summary_zh: ''
+summary_zh: vLLM 是一个开源的大模型推理引擎，本次更新使其能在 AMD GPU 上使用投机解码技术，以加速推理。这是面向开发者的基础设施改进，不直接面向终端用户。
 inspiration: ''
-summary_en: ''
+summary_en: vLLM is an open-source LLM inference engine; this update enables speculative decoding on AMD
+  GPUs to speed up inference. It's developer infrastructure, not an end-user product.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus
 summary: Speculative Decoding in vLLM on AMD GPUs
 first_seen: '2026-09-07T09:26:41Z'
 last_seen: '2026-09-08T00:25:25Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# vllm
+# vLLM
 
 Speculative Decoding in vLLM on AMD GPUs
 
