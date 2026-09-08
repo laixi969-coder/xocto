@@ -35,16 +35,16 @@ canonical_url: https://github.com/Vuk97/forward-implementation-first
 summary: Stop your coding agent from stalling real work on self-invented bookkeeping - receipts, hashes,
   locks, certification rituals. Ship first, then verify. Skill for Claude Code, Codex, and other agents.
 first_seen: '2026-08-29T23:16:12Z'
-last_seen: '2026-09-05T00:06:35Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Vuk97/forward-implementation-first
-  seen_at: '2026-09-05T00:06:35Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 163
+    stars: 164
     forks: 4
     open_issues: 0
   kind: product

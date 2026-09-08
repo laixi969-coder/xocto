@@ -37,7 +37,7 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9sUnJhQnpuMWxkQVg2dUdQbX
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE9sUnJhQnpuMWxkQVg2dUdQbXVrb3VRUXl4OW9yV0NBbkRuZGtTMDB3NWo2RGpEdmdjTENwaTJOS0RnYUpmbXVKeE9SS1psRUlDWTJCRlZOTDM2bWlhLUlDRlBBZFNTVGdUc3BMVmlXUHR0SkpuczFKdlF4UzJQajQ?oc=5
 summary: 汽车之家发布“芝士车管家”AI智能体，打通汽车“选买用卖”全链路 新浪财经
 first_seen: '2026-09-05T23:02:00Z'
-last_seen: '2026-09-07T15:53:24Z'
+last_seen: '2026-09-08T00:25:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -70,6 +70,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTE5DYW5WTDdkRjBrOUNXMHVXQU0zXy14eGozRTdjLVNzQzFKTGVEQThFQ0VXZUN5eFZKeXFkTEdrRGVqVk16RHFvamMxTlRJSlM1bVd3dm9Ed3FWSUp0RTRNLUxsTlJxZFQ5OERlRXlmZ1ZoVnZGdEE?oc=5
   seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPa0tkREFPVXNMRExFbkJsaUxieVFqbE1PdDZHRTNXSzh6Y2ZiWnJYeVI5QzZ1WWxuTmNLdFlKdlZnUkNWLVdOSm1Ob2U1dERJR3c?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
   metrics: {}
   kind: news
 ---

@@ -21,16 +21,16 @@ canonical_url: https://levelfield.vercel.app
 summary: Structural information-asymmetry risk for event contracts — Somnia × DreamDEX Event Contracts
   Hackathon
 first_seen: '2026-08-22T01:23:24Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://levelfield.vercel.app
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 66
+    stars: 68
     forks: 0
     open_issues: 0
   kind: product

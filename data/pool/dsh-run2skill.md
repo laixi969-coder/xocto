@@ -20,16 +20,16 @@ url: https://github.com/qkycir-123/dsh-run2skill
 canonical_url: https://github.com/qkycir-123/dsh-run2skill
 summary: Automatically turn successful DeepSeek Harness sessions into reusable, reviewable Agent Skills.
 first_seen: '2026-08-19T08:40:44Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/qkycir-123/dsh-run2skill
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 108
+    stars: 112
     forks: 2
     open_issues: 3
   kind: product

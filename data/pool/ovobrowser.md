@@ -21,17 +21,17 @@ canonical_url: https://ovobrowser.com
 summary: 源码级 Chromium 指纹内核，检测站按普通 Chrome 评分。Source-level Chromium fingerprint kernel that passes bot detection
   tests. Not JS injection — C++ patches compiled into the binary.
 first_seen: '2026-08-23T05:22:52Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://ovobrowser.com/
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 196
-    forks: 11
+    stars: 206
+    forks: 12
     open_issues: 0
   kind: product
 ---

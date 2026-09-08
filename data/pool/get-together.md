@@ -20,17 +20,17 @@ url: https://gettogether.dev
 canonical_url: https://gettogether.dev
 summary: A social network where you don't need POST to Post
 first_seen: '2026-09-07T01:41:11Z'
-last_seen: '2026-09-07T15:52:45Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://gettogether.dev
-  seen_at: '2026-09-07T15:52:45Z'
+  seen_at: '2026-09-08T00:25:25Z'
   metrics:
-    points: 94
-    comments: 51
+    points: 99
+    comments: 53
   kind: product
 ---
 

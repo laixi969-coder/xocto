@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMitAJBVV95cUxPZ3Y0dXphMVdGQ282eEZGNl
 canonical_url: https://news.google.com/rss/articles/CBMitAJBVV95cUxPZ3Y0dXphMVdGQ282eEZGNlZMZWEyT1dMUTBzeHhYZmV1V1Q1ZU1JdWRxTXdFMi12cGhkWlh2ZWZuZkJpQkQ1eVlEeENPSDJxTm5OZDFiRUJUazBaQnBUQ1VTb1lBTmEtT3Fvd1BYb2RGUjc2OTE0dVl2X0pvUmtaNm80YzBnb2tnOGZrM0ZaMm5UTTdjeXFCZDFFcGZFM2FKUk9NWTkxbmJ4QmJkRWtJdEVTMnlWNnNwRi1CYjJueVRvRmUzS0Q5R3Fxc3lNNklINXlJZUUwOW43QVgzQ185VnZkSHlxVFJGVjhDTTllTklaa1pMNlhyODllbUR2WndNRmtNUW1hMmktVHBNYXMxVjZWOUZOOUt6MU9DbDJCX0NmZlFSclVVVmZJREszZ3pFUlpxVA?oc=5
 summary: 汇丰范力民详解AI热潮、美元美债与中国机遇 新浪财经
 first_seen: '2026-09-07T03:57:42Z'
-last_seen: '2026-09-07T15:53:24Z'
+last_seen: '2026-09-08T00:25:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMitAJBVV95cUxPZ3Y0dXphMVdGQ282eEZGNlZMZWEyT1dMUTBzeHhYZmV1V1Q1ZU1JdWRxTXdFMi12cGhkWlh2ZWZuZkJpQkQ1eVlEeENPSDJxTm5OZDFiRUJUazBaQnBUQ1VTb1lBTmEtT3Fvd1BYb2RGUjc2OTE0dVl2X0pvUmtaNm80YzBnb2tnOGZrM0ZaMm5UTTdjeXFCZDFFcGZFM2FKUk9NWTkxbmJ4QmJkRWtJdEVTMnlWNnNwRi1CYjJueVRvRmUzS0Q5R3Fxc3lNNklINXlJZUUwOW43QVgzQ185VnZkSHlxVFJGVjhDTTllTklaa1pMNlhyODllbUR2WndNRmtNUW1hMmktVHBNYXMxVjZWOUZOOUt6MU9DbDJCX0NmZlFSclVVVmZJREszZ3pFUlpxVA?oc=5
   seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMilAJBVV95cUxQQ0MybGdnZlZnSUtoNzY3ZlVHenRoLVJaMzY1MzZsTmxkMVlIWE5DaUFTU3dSS05jRjFlanhMR1V2RllIMG1VcGpUMTR1TGtuV3I2M3lWWTRjZ0dpZXVXbG9HUlU2cGd1WklCX0dsdGFzcmd0U3RBbWE5VWlIbk1CcWVHMERPckgwelNSSVV6ZDMxWExrOXhpWWJVcDlpUEhLdEt6NFZuQlZ3RkdfWkhweTlUeEN3TFVLS2EzQWJvczZzTGVqaENzdWdYZVY5NW80NnZZZHZSbDI2dzVIRHBOMTV1YmxVT3RSZVZJdjV2X2dfVGdkRnNVcHRWRzhGckRvTkJ1S1A4enI0NFUwNk9md0N1TVQ?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
   metrics: {}
   kind: news
 ---

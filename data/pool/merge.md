@@ -23,8 +23,8 @@ url: https://www.producthunt.com/products/merge-5
 canonical_url: https://producthunt.com/products/merge-5
 summary: AI-native code review assessments
 first_seen: '2026-08-06T05:55:10Z'
-last_seen: '2026-09-05T13:28:57Z'
-status: rejected
+last_seen: '2026-09-08T00:25:57Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
@@ -37,6 +37,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbThwMmxVNWZiYmhmYmlSRW1KVFR3ZmJKVzFLR1VaQm1LUXhhMExYRVZtYTlZdk93THB4WlltX0N2d0ZIN0ZKZXBnQUNPWUppd1dhdUlNS3NNNW5laU9Ra01fN2tENWhZd185MzRKcGRvYWhHanVFREphbFkwTnZ0cnZsSGM5SjdRUkpsd3NNQklUTUJFM0xCQjFNQnp5eXFFendQYnpabEhyNHY4UjEwNTBJR1NDUWJxenNab2d2TlNSX1RhZTJzYUhsaEw1bkx1LUxoZtIB1AFBVV95cUxQbThwMmxVNWZiYmhmYmlSRW1KVFR3ZmJKVzFLR1VaQm1LUXhhMExYRVZtYTlZdk93THB4WlltX0N2d0ZIN0ZKZXBnQUNPWUppd1dhdUlNS3NNNW5laU9Ra01fN2tENWhZd185MzRKcGRvYWhHanVFREphbFkwTnZ0cnZsSGM5SjdRUkpsd3NNQklUTUJFM0xCQjFNQnp5eXFFendQYnpabEhyNHY4UjEwNTBJR1NDUWJxenNab2d2TlNSX1RhZTJzYUhsaEw1bkx1LUxoZg?oc=5
   seen_at: '2026-09-05T13:28:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0ZqQ0dGV1gzNU5oZU9BRE1HdC1kQ1ktUENmclRMVlhsUkx3MnhzMHgyVFBORXVDVzVUWk9odjd5X3RFbWQ0SFY5ZnNCYjNJZkd1aHMxakE5Y0NTMW9pekpjd29xVlpwd2VyaFZoQW0ybWw5T0cwaXgxdmwwaE5jTTA0bmctWV9QQkZrYzBKRFJuT1ZyUjhmbjNSQkpYZzRFRzBLS0VVZFlGdG9yUmNnX0V4NUJOWDBQTVZIWWZ5Snl0T0JJX2c?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
   metrics: {}
   kind: news
 ---

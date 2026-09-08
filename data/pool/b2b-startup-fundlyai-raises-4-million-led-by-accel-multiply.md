@@ -1,0 +1,41 @@
+---
+slug: b2b-startup-fundlyai-raises-4-million-led-by-accel-multiply
+name: B2B startup Fundly.ai raises $4 million led by Accel, Multiply
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQdXBqUFlVQXpUUDUtMHBPZkt4NUlVSVdtOEl5NlkxV2l2Z1pBV3B5NkswSUtQNDdpRldHOFRQMzdJTjZyTXB2aGMzYXlsMlo4S2xrY1I4blJBU3gxeGpEWkxoZTVkSzVVcEdTVTFYQUZOX25JdkFMMTVIRmtLQUswbkJPQi02ZHVCN0RnbE1Ibmo0V1BCTWFxMUVmc0t6WlkxdEktUHNWemZScXlDTV9OMkpLQ3hRZ05pT2JIUDk5V1BkSGVMb1HSAcsBQVVfeXFMT2Zrb1FmSm9laWxDa3JwM2FHU2FLTmdmLXYzdW44MVFTaENhUEczMm5ZWVE0RGpKLVRfNVdteURiTWRtcHg5aU1IZVAzSXNXSTNST0VUejBUeC1rZU9tdy1VR1NCd09aeTBLVmRXZ1dSaGMyQnhFd3ZGZ1dWX2FvZmpOWXZzVmM5SDVXbkptbnhUV1R0cHJxWTM3eXRBdXl5MFAzWVB1R0VTTS1PUlRQUlNXOC1sT1RrU2pSRzlkdGhKWWVSYTJXemlXbWc?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQdXBqUFlVQXpUUDUtMHBPZkt4NUlVSVdtOEl5NlkxV2l2Z1pBV3B5NkswSUtQNDdpRldHOFRQMzdJTjZyTXB2aGMzYXlsMlo4S2xrY1I4blJBU3gxeGpEWkxoZTVkSzVVcEdTVTFYQUZOX25JdkFMMTVIRmtLQUswbkJPQi02ZHVCN0RnbE1Ibmo0V1BCTWFxMUVmc0t6WlkxdEktUHNWemZScXlDTV9OMkpLQ3hRZ05pT2JIUDk5V1BkSGVMb1HSAcsBQVVfeXFMT2Zrb1FmSm9laWxDa3JwM2FHU2FLTmdmLXYzdW44MVFTaENhUEczMm5ZWVE0RGpKLVRfNVdteURiTWRtcHg5aU1IZVAzSXNXSTNST0VUejBUeC1rZU9tdy1VR1NCd09aeTBLVmRXZ1dSaGMyQnhFd3ZGZ1dWX2FvZmpOWXZzVmM5SDVXbkptbnhUV1R0cHJxWTM3eXRBdXl5MFAzWVB1R0VTTS1PUlRQUlNXOC1sT1RrU2pSRzlkdGhKWWVSYTJXemlXbWc?oc=5
+summary: B2B startup Fundly.ai raises $4 million led by Accel, Multiply economictimes.com
+first_seen: '2026-09-07T23:30:00Z'
+last_seen: '2026-09-08T00:25:57Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMixgFBVV95cUxQdXBqUFlVQXpUUDUtMHBPZkt4NUlVSVdtOEl5NlkxV2l2Z1pBV3B5NkswSUtQNDdpRldHOFRQMzdJTjZyTXB2aGMzYXlsMlo4S2xrY1I4blJBU3gxeGpEWkxoZTVkSzVVcEdTVTFYQUZOX25JdkFMMTVIRmtLQUswbkJPQi02ZHVCN0RnbE1Ibmo0V1BCTWFxMUVmc0t6WlkxdEktUHNWemZScXlDTV9OMkpLQ3hRZ05pT2JIUDk5V1BkSGVMb1HSAcsBQVVfeXFMT2Zrb1FmSm9laWxDa3JwM2FHU2FLTmdmLXYzdW44MVFTaENhUEczMm5ZWVE0RGpKLVRfNVdteURiTWRtcHg5aU1IZVAzSXNXSTNST0VUejBUeC1rZU9tdy1VR1NCd09aeTBLVmRXZ1dSaGMyQnhFd3ZGZ1dWX2FvZmpOWXZzVmM5SDVXbkptbnhUV1R0cHJxWTM3eXRBdXl5MFAzWVB1R0VTTS1PUlRQUlNXOC1sT1RrU2pSRzlkdGhKWWVSYTJXemlXbWc?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
+  metrics: {}
+  kind: news
+---
+
+# B2B startup Fundly.ai raises $4 million led by Accel, Multiply
+
+B2B startup Fundly.ai raises $4 million led by Accel, Multiply economictimes.com
+
+## 笔记
+
+

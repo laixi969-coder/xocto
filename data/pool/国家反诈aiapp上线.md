@@ -32,14 +32,19 @@ url: https://news.google.com/rss/articles/CBMid0FVX3lxTE15RlhNRjdvTzhqVlBYMDZnSU
 canonical_url: https://news.google.com/rss/articles/CBMid0FVX3lxTE15RlhNRjdvTzhqVlBYMDZnSUxuS3lnTXNPaldYYVJPbFZWTFp3cFJXN0NvUG5BVHlqMFFhRFF4eXBEVFBDaVhfMGk0RjVta3BWcGVVZlRVQ3ROemtldk1zVW16UUY1ekd4NzF2bjNmX3pWSmRQMVNn?oc=5
 summary: “国家反诈AI”APP上线！ 珠海网
 first_seen: '2026-09-06T06:49:00Z'
-last_seen: '2026-09-06T23:54:47Z'
-status: watching
+last_seen: '2026-09-08T00:25:57Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMid0FVX3lxTE15RlhNRjdvTzhqVlBYMDZnSUxuS3lnTXNPaldYYVJPbFZWTFp3cFJXN0NvUG5BVHlqMFFhRFF4eXBEVFBDaVhfMGk0RjVta3BWcGVVZlRVQ3ROemtldk1zVW16UUY1ekd4NzF2bjNmX3pWSmRQMVNn?oc=5
   seen_at: '2026-09-06T23:54:47Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE54bThKTHN1SlFuaEp6VV92Y1E4MFJJWlc3alBCTGNQYTUtdmhzX2JRZlZ6MEVNT01VMFdaSW5ta0Z5dlFDeGlNVWdJUF9oaUo0clhpQW9hNUU?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
   metrics: {}
   kind: news
 ---

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMib0FVX3lxTE50SzZ4YmtUc2tXamR2NVRhcF
 canonical_url: https://news.google.com/rss/articles/CBMib0FVX3lxTE50SzZ4YmtUc2tXamR2NVRhcFl2cjVIR3prd2R6eDdQSkhyUFNCZ3lUcGFfWVdtZVFUaHg1UUxDMTZxc0hhTVpNLV9ISFA0OTJXeUlQU0tFTjZzclpxckRQZlhVMXN4SUJhd0pncW02Yw?oc=5
 summary: Samsung Life Insurance Introduces 'AI Virtual Customer' to Support Consultant Training 아시아경제
 first_seen: '2026-09-07T00:34:15Z'
-last_seen: '2026-09-07T15:53:24Z'
+last_seen: '2026-09-08T00:25:57Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMib0FVX3lxTE50SzZ4YmtUc2tXamR2NVRhcFl2cjVIR3prd2R6eDdQSkhyUFNCZ3lUcGFfWVdtZVFUaHg1UUxDMTZxc0hhTVpNLV9ISFA0OTJXeUlQU0tFTjZzclpxckRQZlhVMXN4SUJhd0pncW02Yw?oc=5
   seen_at: '2026-09-07T15:53:24Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMib0FVX3lxTE9MMURCWE12cENoVlZrV25yek0xU3NOcm5NZ0RZRnNQUzVFN3FfNmEycFNCWUVuS3J5eDQxUy1nNk1Ed3dNQmRXNzJ3eGhRdnBTWUdQbTJ0bGdjM2lhM0Y1dFNKdThrWW1Nc0MxekJxSQ?oc=5
+  seen_at: '2026-09-08T00:25:57Z'
   metrics: {}
   kind: news
 ---

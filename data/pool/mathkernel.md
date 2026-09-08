@@ -20,16 +20,16 @@ url: https://github.com/Staatsgeheim/MathKernel
 canonical_url: https://github.com/Staatsgeheim/MathKernel
 summary: An evidence-aware multi-engine mathematics kernel and MCP server
 first_seen: '2026-09-07T00:21:01Z'
-last_seen: '2026-09-07T15:52:45Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/Staatsgeheim/MathKernel
-  seen_at: '2026-09-07T15:52:45Z'
+  seen_at: '2026-09-08T00:25:25Z'
   metrics:
-    points: 32
+    points: 35
     comments: 5
   kind: news
 ---

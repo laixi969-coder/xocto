@@ -34,18 +34,18 @@ canonical_url: https://github.com/jamro/tiny-engineer
 summary: A small desktop robot that brings an AI coding assistant to life, physically acting out when
   it reads files, thinks, writes code, and finishes work.
 first_seen: '2026-08-21T15:58:33Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/jamro/tiny-engineer
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 278
+    stars: 280
     forks: 33
-    open_issues: 10
+    open_issues: 9
   kind: product
 ---
 

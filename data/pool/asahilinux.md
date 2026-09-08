@@ -34,17 +34,17 @@ url: https://asahilinux.org/2026/09/m2-episode-1/
 canonical_url: https://asahilinux.org/2026/09/m2-episode-1
 summary: Asahi Linux on M3
 first_seen: '2026-09-06T14:08:59Z'
-last_seen: '2026-09-07T15:52:45Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://asahilinux.org/2026/09/m2-episode-1/
-  seen_at: '2026-09-07T15:52:45Z'
+  seen_at: '2026-09-08T00:25:25Z'
   metrics:
-    points: 527
-    comments: 322
+    points: 550
+    comments: 341
   kind: news
 ---
 

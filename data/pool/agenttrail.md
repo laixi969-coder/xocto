@@ -33,16 +33,16 @@ summary: An infinite canvas for your AI coding agents. Every repo is a region on
   - watch Claude Code, Codex, and Cursor sessions, plans, tool calls, and file changes in real time. Local,
   zero-dependency.
 first_seen: '2026-08-21T21:14:33Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-08T00:25:29Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sodiumsun/agenttrail
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-08T00:25:29Z'
   metrics:
-    stars: 651
+    stars: 652
     forks: 45
     open_issues: 5
   kind: product

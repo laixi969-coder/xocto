@@ -20,17 +20,17 @@ url: https://github.com/marsbos/mador
 canonical_url: https://github.com/marsbos/mador
 summary: Make any DOM reactive with a tiny 80-line Proxy state tuple
 first_seen: '2026-09-06T20:45:13Z'
-last_seen: '2026-09-07T15:52:45Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: rejected
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/marsbos/mador
-  seen_at: '2026-09-07T15:52:45Z'
+  seen_at: '2026-09-08T00:25:25Z'
   metrics:
-    points: 95
-    comments: 31
+    points: 98
+    comments: 33
   kind: product
 ---
 

@@ -34,7 +34,7 @@ url: https://twitter.com/LocumRex/status/2092993787605717176
 canonical_url: https://twitter.com/LocumRex/status/2092993787605717176
 summary: Flock CEO gets his house blurred out on Google Maps and Zillow
 first_seen: '2026-08-27T16:53:01Z'
-last_seen: '2026-08-31T00:37:42Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: pending_filter
 sources:
 - hackernews
@@ -58,6 +58,13 @@ sightings:
   url: https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras
   seen_at: '2026-08-31T00:37:42Z'
   metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.ft.com/content/b207536e-6def-4080-878f-d0eba61d11e0
+  seen_at: '2026-09-08T00:25:25Z'
+  metrics:
+    points: 40
+    comments: 4
   kind: news
 ---
 

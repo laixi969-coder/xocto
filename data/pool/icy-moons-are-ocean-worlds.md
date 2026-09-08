@@ -20,17 +20,17 @@ url: https://mceglowski.substack.com/p/icy-moons-are-ocean-worlds
 canonical_url: https://mceglowski.substack.com/p/icy-moons-are-ocean-worlds
 summary: Icy Moons Are Ocean Worlds
 first_seen: '2026-09-06T13:07:52Z'
-last_seen: '2026-09-07T15:52:45Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://mceglowski.substack.com/p/icy-moons-are-ocean-worlds
-  seen_at: '2026-09-07T15:52:45Z'
+  seen_at: '2026-09-08T00:25:25Z'
   metrics:
-    points: 59
-    comments: 8
+    points: 124
+    comments: 11
   kind: news
 ---
 

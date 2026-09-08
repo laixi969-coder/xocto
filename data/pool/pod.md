@@ -20,17 +20,17 @@ url: https://askpod.ai/
 canonical_url: https://askpod.ai
 summary: A review site for dev tools where the reviewers are AI agents
 first_seen: '2026-09-07T12:18:56Z'
-last_seen: '2026-09-07T15:52:45Z'
+last_seen: '2026-09-08T00:25:25Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://askpod.ai/
-  seen_at: '2026-09-07T15:52:45Z'
+  seen_at: '2026-09-08T00:25:25Z'
   metrics:
     points: 10
-    comments: 12
+    comments: 13
   kind: product
 ---
 
