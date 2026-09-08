@@ -1,0 +1,39 @@
+- id: req-initial-relaticle-2026-09-08
+  project_slug: relaticle
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售团队手动录入 CRM 数据的耗时和遗漏痛点，AI 自动写入并保留审批，价值结构成立。
+    evidence_ids:
+    - ev-7510d02fd1271d77
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户评价或采用数据，共识未形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露定价或付费路径，商业模式不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: AI 写入贴近销售记录的第一性目标，审批门控确保交付可靠。
+    evidence_ids:
+    - ev-7510d02fd1271d77
+  next_validation: 获取 Relaticle 的官方文档或用户案例，确认实际工作流和采用情况。
+  market: ''
+  job: 销售团队需要记录客户互动和跟进信息，但手动录入耗时且容易遗漏。
+  job_en: Sales teams need to record customer interactions and follow-up information, but manual entry
+    is time-consuming and prone to omissions.
+  pain: 手动录入 CRM 数据耗时，且销售代表常因忙碌而延迟或遗漏，导致数据不完整。
+  pain_en: Manual CRM data entry is time-consuming, and sales reps often delay or miss entries due to
+    busyness, leading to incomplete data.
+  current_alternative: 销售代表可能使用 Excel、简单 CRM 或依赖记忆，导致数据分散或丢失。
+  current_alternative_en: Sales reps may use Excel, simple CRMs, or rely on memory, leading to scattered
+    or lost data.
+  usage_reason: AI 自动写入减少手动录入，审批门控确保数据质量，适合希望提高效率又不愿牺牲准确性的团队。
+  usage_reason_en: AI auto-writing reduces manual entry, and approval gating ensures data quality, appealing
+    to teams wanting efficiency without sacrificing accuracy.

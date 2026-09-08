@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE02bWFMQmg3aTM3
 summary: AI赋能火狐功能版本，重塑智能交互与创作体验 体坛
 first_seen: '2026-09-07T23:14:21Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

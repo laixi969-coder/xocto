@@ -1,0 +1,39 @@
+- id: req-initial-palladyne-ai-fanuc-america-pair-physical-ai-with-industrial-2026-09-08
+  project_slug: palladyne-ai-fanuc-america-pair-physical-ai-with-industrial
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工业机器人编程耗时、需要专业技能的痛点，替代人工示教，价值结构成立。
+    evidence_ids:
+    - ev-1c32b7df9c6ed83f
+  - gate: consensus
+    status: insufficient
+    reason: 合作公告显示行业认可，但缺乏客户采用或规模数据。
+    evidence_ids:
+    - ev-1c32b7df9c6ed83f
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是制造商，但付费路径不明。
+    evidence_ids:
+    - ev-1c32b7df9c6ed83f
+  - gate: truth
+    status: insufficient
+    reason: 物理 AI 在工业场景的可靠性需验证，安全边界未明确。
+    evidence_ids:
+    - ev-1c32b7df9c6ed83f
+  next_validation: 查找 Palladyne AI 的官方定价页或客户案例。
+  market: ''
+  job: 工业机器人操作员需要为特定任务编程和调试机器人动作。
+  job_en: Industrial robot operators need to program and tune robot motions for specific tasks.
+  pain: 传统示教编程耗时且需要专业技能，难以适应小批量多品种生产。
+  pain_en: Traditional teach programming is time-consuming and requires specialized skills, struggling
+    with small-batch, high-mix production.
+  current_alternative: 目前依赖人工示教或离线编程软件。
+  current_alternative_en: Currently relies on manual teach pendants or offline programming software.
+  usage_reason: 物理 AI 能让机器人自主适应环境变化，减少编程时间，提高柔性。
+  usage_reason_en: Physical AI enables robots to adapt to environmental changes, reducing programming
+    time and increasing flexibility.

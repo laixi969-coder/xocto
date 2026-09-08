@@ -1,0 +1,40 @@
+- id: req-initial-bankmcp-2026-09-08
+  project_slug: bankmcp
+  level: initial
+  reviewed_at: '2026-09-08T14:34:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决让本地 AI 安全读取银行流水的需求，痛点在于避免手动导出与隐私泄漏。
+    evidence_ids:
+    - ev-58ac99c7dbd93cd2
+  - gate: consensus
+    status: insufficient
+    reason: 处于开源早期探索阶段，尚未形成广泛采用共识。
+    evidence_ids:
+    - ev-58ac99c7dbd93cd2
+  - gate: model
+    status: insufficient
+    reason: 这是判断，作为开源自托管项目尚未披露明确商业变现路径。
+    evidence_ids:
+    - ev-58ac99c7dbd93cd2
+  - gate: truth
+    status: supported
+    reason: 依赖成熟的 Open Banking 标准与只读权限，交付与安全边界清晰。
+    evidence_ids:
+    - ev-58ac99c7dbd93cd2
+  next_validation: 跟踪官方仓库对更多银行接口的支持情况及实际个人财务工作流落地案例。
+  market: ''
+  job: 让本地 AI 智能体直接读取个人银行账户流水与余额以进行财务分析。
+  job_en: Enable local AI agents to read bank transaction history and balances for financial analysis.
+  pain: 手动导出银行 CSV 或向云端第三方工具泄露银行凭据存在安全隐私风险且流程割裂。
+  pain_en: Exporting CSVs manually or sharing bank credentials with cloud tools poses privacy risks and
+    breaks workflow.
+  current_alternative: 手动登录网银导出对账单，或使用传统记账软件及云端聚合服务。
+  current_alternative_en: Manually downloading bank statements or using cloud-based financial tracking
+    apps.
+  usage_reason: 采用标准 MCP 协议与本地开源部署，兼顾了 AI 交互便捷性与金融数据的只读安全性。
+  usage_reason_en: Provides a standardized MCP interface and self-hosted read-only access ensuring privacy
+    and convenience.

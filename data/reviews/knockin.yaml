@@ -1,0 +1,37 @@
+- id: req-initial-knockin-2026-09-08
+  project_slug: knockin
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：让访客与个人简介互动，但痛点强度未明。
+    evidence_ids:
+    - ev-4b141134dbdc3ca6
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或关注证据，场景强度未明。
+    evidence_ids:
+    - ev-4b141134dbdc3ca6
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方定价页或用户案例
+  market: ''
+  job: 个人品牌所有者或求职者需要让访客快速了解自己并建立联系。
+  job_en: Personal brand owners or job seekers need to let visitors quickly learn about them and establish
+    contact.
+  pain: 静态简介无法回答具体问题，访客需要额外搜索或等待回复。
+  pain_en: Static bios cannot answer specific questions, forcing visitors to search or wait for replies.
+  current_alternative: 目前人们使用静态个人主页、社交媒体私信或邮件。
+  current_alternative_en: Currently people use static personal pages, social media DMs, or email.
+  usage_reason: AI 名片能即时响应，减少沟通延迟，但需求刚性待核验。
+  usage_reason_en: AI business cards provide instant responses, reducing communication delay, but demand
+    rigidity needs validation.

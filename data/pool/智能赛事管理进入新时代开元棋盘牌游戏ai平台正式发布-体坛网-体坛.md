@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTEFVX3lxTE5LcXpmOFZCM3lE
 summary: 智能赛事管理进入新时代：开元棋盘牌游戏AI平台正式发布-体坛网_体坛+ 体坛
 first_seen: '2026-09-08T11:26:19Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

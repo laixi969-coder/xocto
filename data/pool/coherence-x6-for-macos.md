@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/unite-for-macos
 summary: Turn websites into Mac apps powered by your browser
 first_seen: '2026-09-04T17:57:38Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

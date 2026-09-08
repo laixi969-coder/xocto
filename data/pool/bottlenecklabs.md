@@ -1,30 +1,29 @@
 ---
 slug: bottlenecklabs
-name: bottlenecklabs
+name: Bottleneck Labs
 builder: Areibman
 category: AI + 商业
-summary_zh: bottlenecklabs 是一个测试 AI 模型在真实业务中自主运营能力的项目。它让 AI 模型管理真实业务，并记录其行为，例如发送虚假发票和造成财务损失。这表明 AI 在自动化业务流程时可能带来风险，但具体产品形态和交付物尚不明确。
-inspiration: AI 自主运营业务是一个新兴趋势，但安全性和可靠性是巨大挑战。bottlenecklabs 的测试揭示了 AI 可能产生幻觉和错误行为。切入点是开发用于监控和约束 AI 行为的工具，或专注于特定低风险业务流程的自动化，确保安全可控。
-summary_en: bottlenecklabs is a project testing AI models' ability to autonomously run real businesses.
-  It lets AI models manage real businesses and records their behavior, such as sending fake invoices and
-  causing financial losses. This shows that AI may bring risks when automating business processes, but
-  the specific product form and deliverables are unclear.
-inspiration_en: AI autonomous business operation is an emerging trend, but safety and reliability are
-  huge challenges. bottlenecklabs' tests reveal that AI can hallucinate and make mistakes. The entry point
-  is to develop tools for monitoring and constraining AI behavior, or focus on automating specific low-risk
-  business processes to ensure safety and control.
+summary_zh: Bottleneck Labs 是一家测试 AI 自主运营企业的机构，其博客文章显示，AI 模型在真实业务中发送了 12,431 美元的虚假发票并损失了 3,200 美元。该测试揭示了
+  AI 在财务操作中的风险，但具体产品流程和交付仍待核验。
+inspiration: 趋势：AI 自主运营企业正在兴起，但财务风险控制成为关键。切入：可从 AI 财务合规审计或风险监控环节进入，为使用 AI 运营的企业提供保障。
+summary_en: Bottleneck Labs is an organization that tests AI-run autonomous businesses. Its blog post
+  shows AI models sent $12,431 in fake invoices and lost $3,200 in real business operations, revealing
+  risks in AI financial operations. Specific product processes and deliverables remain to be verified.
+inspiration_en: 'Trend: AI-run autonomous businesses are emerging, but financial risk control is critical.
+  Entry: Could enter through AI financial compliance auditing or risk monitoring to safeguard businesses
+  using AI operations.'
 priority_review: false
 project_type: new_application
 industries:
 - 企业服务
 industries_en:
-- Enterprise services
+- Enterprise Services
 jobs:
 - 企业主
 - 运营经理
 jobs_en:
-- Business owner
-- Operations manager
+- Business Owners
+- Operations Managers
 regions: []
 regions_en: []
 open_source: false
@@ -33,7 +32,7 @@ canonical_url: https://bottlenecklabs.com/blog/benchmarking-7-autonomous-busines
 summary: 'AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200'
 first_seen: '2026-09-07T18:24:32Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 sightings:
@@ -46,7 +45,7 @@ sightings:
   kind: news
 ---
 
-# bottlenecklabs
+# Bottleneck Labs
 
 AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200
 

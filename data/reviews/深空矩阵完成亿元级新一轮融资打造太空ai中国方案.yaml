@@ -1,0 +1,35 @@
+- id: req-initial-深空矩阵完成亿元级新一轮融资打造太空ai中国方案-2026-09-08
+  project_slug: 深空矩阵完成亿元级新一轮融资打造太空ai中国方案
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，公开材料仅提及融资和太空AI方向，无法还原具体工作流。
+    evidence_ids:
+    - ev-49ed0aad4e5da2a7
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户场景和采用信号。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性无法评估。
+    evidence_ids: []
+  next_validation: 查找深空矩阵的官方网站或产品文档，确认其具体产品、目标客户和交付流程。
+  market: ''
+  job: 航天领域用户需要处理卫星数据或规划任务，但具体任务未明确。
+  job_en: Users in aerospace need to process satellite data or plan missions, but the specific task is
+    unclear.
+  pain: 航天数据处理复杂，但具体痛点未在公开材料中说明。
+  pain_en: Space data processing is complex, but specific pain points are not stated in public materials.
+  current_alternative: 未知，可能依赖传统软件或人工。
+  current_alternative_en: Unknown; may rely on traditional software or manual work.
+  usage_reason: 融资新闻显示关注，但缺乏产品细节和用户采用证据。
+  usage_reason_en: Funding news shows attention, but lacks product details and user adoption evidence.

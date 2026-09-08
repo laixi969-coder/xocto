@@ -1,0 +1,37 @@
+- id: req-initial-goodlads-2026-09-08
+  project_slug: goodlads
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-c63a16f56f49df8b
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-c63a16f56f49df8b
+  - gate: model
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-c63a16f56f49df8b
+  - gate: truth
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-c63a16f56f49df8b
+  next_validation: 官方定价页
+  market: ''
+  job: 信息不足
+  job_en: Insufficient information
+  pain: 信息不足
+  pain_en: Insufficient information
+  current_alternative: 信息不足
+  current_alternative_en: Insufficient information
+  usage_reason: 信息不足
+  usage_reason_en: Insufficient information

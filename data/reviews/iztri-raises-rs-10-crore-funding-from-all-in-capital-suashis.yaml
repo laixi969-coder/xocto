@@ -1,0 +1,38 @@
+- id: req-initial-iztri-raises-rs-10-crore-funding-from-all-in-capital-suashis-2026-09-08
+  project_slug: iztri-raises-rs-10-crore-funding-from-all-in-capital-suashis
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法从资料中识别它解决什么需求或痛点。
+    evidence_ids:
+    - ev-ac0de20ace238ae7
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资新闻，无用户或市场反馈。
+    evidence_ids:
+    - ev-ac0de20ace238ae7
+  - gate: model
+    status: insufficient
+    reason: 商业模式和付费方未披露。
+    evidence_ids:
+    - ev-ac0de20ace238ae7
+  - gate: truth
+    status: insufficient
+    reason: 产品真实性未验证。
+    evidence_ids:
+    - ev-ac0de20ace238ae7
+  next_validation: 查找 Iztri 的官方网站或产品页面，确认其业务和用户价值。
+  market: ''
+  job: Iztri 试图解决的问题尚不明确，可能涉及采购或供应链流程的优化。
+  job_en: The problem Iztri aims to solve is unclear, possibly involving optimization of procurement or
+    supply chain processes.
+  pain: 由于缺乏产品信息，无法确定具体痛点。
+  pain_en: Specific pain points cannot be determined due to lack of product information.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 融资表明投资者看好，但用户采用原因未知。
+  usage_reason_en: Funding indicates investor confidence, but user adoption reasons are unknown.

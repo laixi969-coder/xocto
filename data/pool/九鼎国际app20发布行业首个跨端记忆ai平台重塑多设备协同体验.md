@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zV1V0UTVrQzl5
 summary: 九鼎国际APP2.0发布：行业首个跨端记忆AI平台，重塑多设备协同体验 体坛
 first_seen: '2026-09-08T08:26:54Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: grok-build with the leash off — one binary, any OpenAI-compatible end
   No x.ai account.
 first_seen: '2026-09-02T09:45:35Z'
 last_seen: '2026-09-08T14:34:27Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

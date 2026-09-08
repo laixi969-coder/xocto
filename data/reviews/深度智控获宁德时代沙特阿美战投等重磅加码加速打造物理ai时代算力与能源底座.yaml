@@ -1,0 +1,41 @@
+- id: req-initial-深度智控获宁德时代沙特阿美战投等重磅加码加速打造物理ai时代算力与能源底座-2026-09-08
+  project_slug: 深度智控获宁德时代沙特阿美战投等重磅加码加速打造物理ai时代算力与能源底座
+  level: initial
+  reviewed_at: '2026-09-08T14:34:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决能源管理中的能耗优化痛点，痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-da79b7fd226ca3d3
+  - gate: consensus
+    status: insufficient
+    reason: 融资信息显示资本认可，但缺乏客户采用或规模数据。
+    evidence_ids:
+    - ev-da79b7fd226ca3d3
+  - gate: model
+    status: insufficient
+    reason: 买方可能是数据中心或工业企业，但付费模式未公开。
+    evidence_ids:
+    - ev-da79b7fd226ca3d3
+  - gate: truth
+    status: supported
+    reason: 贴近能源管理第一性目标，AI控制可确定性交付节能效果。
+    evidence_ids:
+    - ev-da79b7fd226ca3d3
+  next_validation: 查找深度智控官方定价页或客户案例，确认付费模式和实际节能效果数据。
+  market: ''
+  job: 能源管理工程师需要降低数据中心或工业设施的能耗，同时保证生产或运行指标不受影响。
+  job_en: Energy management engineers need to reduce energy consumption in data centers or industrial
+    facilities while maintaining production or operational metrics.
+  pain: 传统人工调优依赖经验，响应慢，难以应对动态负载，能耗浪费严重。
+  pain_en: Traditional manual tuning relies on experience, responds slowly, and struggles with dynamic
+    loads, leading to significant energy waste.
+  current_alternative: 目前多依赖人工巡检和静态规则，或使用传统楼宇自控系统，缺乏实时优化能力。
+  current_alternative_en: Currently relies on manual inspections and static rules, or traditional building
+    automation systems lacking real-time optimization.
+  usage_reason: AI能实时处理大量设备数据并自动调整控制策略，交付可测量的节能效果，且产业资本加码验证了场景价值。
+  usage_reason_en: AI can process large volumes of equipment data in real time and automatically adjust
+    control strategies, delivering measurable energy savings, with industrial capital validating the scenario.

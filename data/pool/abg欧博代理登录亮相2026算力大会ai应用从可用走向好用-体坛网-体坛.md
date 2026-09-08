@@ -1,6 +1,6 @@
 ---
 slug: abg欧博代理登录亮相2026算力大会ai应用从可用走向好用-体坛网-体坛
-name: abg欧博代理登录亮相2026算力大会：AI应用从可用走向好用- 体坛网_体坛+
+name: abg欧博代理
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE5IQ0JEOU92Qk1V
 summary: abg欧博代理登录亮相2026算力大会：AI应用从可用走向好用- 体坛网_体坛+ 体坛
 first_seen: '2026-09-08T03:25:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# abg欧博代理登录亮相2026算力大会：AI应用从可用走向好用- 体坛网_体坛+
+# abg欧博代理
 
 abg欧博代理登录亮相2026算力大会：AI应用从可用走向好用- 体坛网_体坛+ 体坛
 

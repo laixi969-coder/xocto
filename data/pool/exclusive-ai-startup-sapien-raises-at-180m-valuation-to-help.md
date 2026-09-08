@@ -1,12 +1,11 @@
 ---
 slug: exclusive-ai-startup-sapien-raises-at-180m-valuation-to-help
-name: 'Exclusive: AI startup Sapien raises at $180M valuation to help companies find what’s really driving
-  profit'
+name: Sapien
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Sapien获得180亿美元估值融资，旨在帮助企业识别真正的利润驱动因素。
 inspiration: ''
-summary_en: ''
+summary_en: Sapien raised a $180M valuation to help companies identify real profit drivers.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ summary: 'Exclusive: AI startup Sapien raises at $180M valuation to help compani
   driving profit fortune.com'
 first_seen: '2026-09-08T12:21:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive: AI startup Sapien raises at $180M valuation to help companies find what’s really driving profit
+# Sapien
 
 Exclusive: AI startup Sapien raises at $180M valuation to help companies find what’s really driving profit fortune.com
 

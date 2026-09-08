@@ -1,0 +1,34 @@
+- id: req-initial-深耕居家ai生态-小度发布全新家庭场景智能体应用-2026-09-08
+  project_slug: 深耕居家ai生态-小度发布全新家庭场景智能体应用
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，公开材料仅提及发布智能体应用，无法还原具体家庭工作流。
+    evidence_ids:
+    - ev-f835965dcb1998a5
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户场景和采用信号。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性无法评估。
+    evidence_ids: []
+  next_validation: 查找小度官方产品页面或新闻稿，获取智能体应用的具体功能、目标用户和实际使用案例。
+  market: ''
+  job: 家庭用户可能希望用智能体管理家居或获取服务，但具体任务未明确。
+  job_en: Home users may want to use agents to manage home or get services, but the specific task is unclear.
+  pain: 家庭场景中的痛点未在公开材料中说明。
+  pain_en: Pain points in home scenarios are not stated in public materials.
+  current_alternative: 可能依赖传统智能音箱或手机应用。
+  current_alternative_en: May rely on traditional smart speakers or mobile apps.
+  usage_reason: 发布新闻显示关注，但缺乏用户采用证据。
+  usage_reason_en: Release news shows attention, but lacks user adoption evidence.

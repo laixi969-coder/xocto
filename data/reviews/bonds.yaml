@@ -1,0 +1,40 @@
+- id: req-initial-bonds-2026-09-08
+  project_slug: bonds
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它试图解决群聊即时协作工具生成需求，但痛点刚性不足且常规工具替代成本低。
+    evidence_ids:
+    - ev-16ff19862062d0be
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-16ff19862062d0be
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-16ff19862062d0be
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids:
+    - ev-16ff19862062d0be
+  next_validation: 观察产品公开测试后的群聊活跃度与微应用留存率等实际使用反馈。
+  market: ''
+  job: 在多人社交群聊过程中即时创建共享协作工具（如投票、记账或清单）。
+  job_en: Instantly create shared collaborative tools like polls, ledgers, or lists inside group chats.
+  pain: 跨应用跳转使用协作工具打断对话流，配置外部小程序步骤繁琐。
+  pain_en: Switching between apps disrupts conversation flow and setting up external mini-programs is
+    tedious.
+  current_alternative: 使用群公告、第三方小程序链接或专门的协作软件。
+  current_alternative_en: Using chat pinned messages, third-party mini-app links, or dedicated collaboration
+    apps.
+  usage_reason: 试图通过对话式生成降低群协作工具的搭建门槛，提供即开即用的新奇体验。
+  usage_reason_en: Lowers the barrier to creating group tools via conversation, offering a novel ad-hoc
+    experience.

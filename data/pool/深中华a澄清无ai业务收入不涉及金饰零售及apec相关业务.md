@@ -3,9 +3,11 @@ slug: 深中华a澄清无ai业务收入不涉及金饰零售及apec相关业务
 name: 深中华A
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 深中华A发布澄清公告，称公司无AI业务收入，不涉及金饰零售及APEC相关业务；此前其股价因AI概念传闻十天翻倍，随后三日跌超20%。该事件反映AI概念炒作已波及传统制造企业，资金情绪明显先于基本面，AI标签被当作炒作题材。
 inspiration: ''
-summary_en: ''
+summary_en: Shen Zhonghua A clarified it has no AI revenue and no gold-jewelry-retail or APEC-related
+  business. Its stock doubled in ten days on AI-concept hype before falling over 20% in three days, showing
+  AI-label speculation reaching traditional manufacturers with sentiment ahead of fundamentals.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QdDBzMmtraldB
 summary: 深中华A澄清：无AI业务收入、不涉及金饰零售及APEC相关业务 东方财富
 first_seen: '2026-09-02T12:51:21Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:

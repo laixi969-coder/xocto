@@ -1,0 +1,41 @@
+- id: req-initial-minicpm5-webgpu-2026-09-08
+  project_slug: minicpm5-webgpu
+  level: initial
+  reviewed_at: '2026-09-08T14:34:46Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决数据敏感用户对免服务器搭建、纯本地生成文档与代码的需求，工作流闭环明确。
+    evidence_ids:
+    - ev-beaa6568d9d5ffd6
+  - gate: consensus
+    status: insufficient
+    reason: 社区关注度处于极早期，尚缺乏持续在真实生产中长期采用的公开案例。
+    evidence_ids:
+    - ev-beaa6568d9d5ffd6
+  - gate: model
+    status: insufficient
+    reason: 目前为开源实验项目，尚未建立针对企业端或专业场景的商业化收费模式。
+    evidence_ids:
+    - ev-beaa6568d9d5ffd6
+  - gate: truth
+    status: supported
+    reason: 端侧 WebGPU 架构能够确定性保证数据不离开浏览器沙箱，交付结果边界清晰。
+    evidence_ids:
+    - ev-beaa6568d9d5ffd6
+  next_validation: 通过实际测试验证长文本生成与复杂排版下浏览器端显存占用与产出稳定性。
+  market: ''
+  job: 在保障数据完全不出本地的前提下，通过自然语言生成网页、文档、表格和 PDF 文件。
+  job_en: Generate web pages, documents, spreadsheets, and PDFs using natural language while keeping all
+    data strictly on the local device.
+  pain: 将敏感内部数据上传至云端闭源模型存在数据合规隐患，且调用商业 API 会产生持续的 token 成本。
+  pain_en: Uploading sensitive internal data to commercial cloud APIs raises severe compliance risks and
+    incurs recurring token expenses.
+  current_alternative: 手工使用本地办公软件或部署庞大的本地开源大模型服务端环境。
+  current_alternative_en: Manually drafting in local office software or deploying complex local server-side
+    open-source model environments.
+  usage_reason: 借助 WebGPU 实现免装服务端的即开即用体验，兼顾了生成效率与数据隐私。
+  usage_reason_en: WebGPU enables zero-configuration, browser-based execution that balances automated
+    generation efficiency with strict local privacy.

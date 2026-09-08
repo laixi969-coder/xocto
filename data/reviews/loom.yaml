@@ -37,3 +37,45 @@
   usage_reason: 用户因录制即分享的便捷性和 AI 摘要功能而采用，减少会议时间。
   usage_reason_en: Users adopt it for the ease of record-and-share and AI summaries, reducing meeting
     time.
+- id: req-initial-loom-2026-09-08
+  project_slug: loom
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决远程办公中耗时的同步会议与文字沟通低效痛点，通过即时录屏和AI摘要实现确定性的异步信息传递。
+    evidence_ids:
+    - ev-68dc418921344b91
+    - ev-ff57262ee8a6ec7a
+  - gate: consensus
+    status: supported
+    reason: 拥有超2200万用户和千万级月度稳定访问量，已成为分布式企业工作流中的事实标准工具。
+    evidence_ids:
+    - ev-68dc418921344b91
+  - gate: model
+    status: supported
+    reason: 采用成熟的免费增值与按席位订阅模式，被 Atlassian 收购后与 Jira 和 Confluence 深度捆绑销售。
+    evidence_ids:
+    - ev-ff57262ee8a6ec7a
+  - gate: truth
+    status: supported
+    reason: 录屏传输与文稿提取技术成熟，交付闭环清晰可核验，无夸大或不可落地的生成承诺。
+    evidence_ids:
+    - ev-68dc418921344b91
+  next_validation: 核验 Atlassian 财报及官方文档中关于 Loom AI 附加包在企业级席位中的续费率与客单价变化。
+  market: ''
+  job: 跨时区或跨部门团队需要清晰演示复杂操作、评审方案或解答客户疑问，同时避免被低效的实时同步会议打断日常工作。
+  job_en: Distributed teams need to clearly explain complex workflows, designs, or support queries without
+    interrupting deep work with synchronous meetings.
+  pain: 纯文字加截图沟通效率极低且容易产生歧义，而反复召集多人在线会议又耗费大量排期成本和工作专注力。
+  pain_en: Text and static screenshots lack clarity for complex issues, while scheduling live meetings
+    disrupts focus and slows down decision-making across timezones.
+  current_alternative: 使用传统录屏工具导出大文件后再手动上传网盘，或强制预约日程召开 Zoom/Teams 实时会议。
+  current_alternative_en: Using desktop screen recorders with manual video file uploads, or scheduling
+    live Zoom/Teams calls.
+  usage_reason: 一键录屏并即时生成云端分享链接，结合 AI 自动提炼核心结论与时间戳，大幅降低接收方观看和确认成本。
+  usage_reason_en: Instant link sharing combined with AI-generated chapters and summaries minimizes viewing
+    friction and replaces live syncs effectively.

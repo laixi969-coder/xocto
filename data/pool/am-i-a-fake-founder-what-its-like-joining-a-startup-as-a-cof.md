@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/am-i-a-fake-founder-what-its-like-join
 summary: ''
 first_seen: '2026-09-08T05:00:37Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

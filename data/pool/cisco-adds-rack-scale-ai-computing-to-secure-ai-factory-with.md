@@ -3,11 +3,10 @@ slug: cisco-adds-rack-scale-ai-computing-to-secure-ai-factory-with
 name: Cisco
 builder: ''
 category: ''
-summary_zh: Cisco 与 NVIDIA 合作，在其 Secure AI Factory 中新增机架级 AI 计算能力。这是基础设施层面的合作，具体产品形态和用户交付未在本次材料中说明。
+summary_zh: Cisco 扩展了其 Secure AI Factory 产品，集成了 NVIDIA 的机架级 AI 计算，属于基础设施层面的行业变化。
 inspiration: ''
-summary_en: Cisco, in partnership with NVIDIA, adds rack-scale AI computing to its Secure AI Factory.
-  This is an infrastructure-level collaboration; specific product forms and user delivery are not detailed
-  in this material.
+summary_en: Cisco expanded its Secure AI Factory offering with NVIDIA's rack-scale AI computing, representing
+  an infrastructure-level industry change.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxNQThfM1oyUzh5
 summary: Cisco adds rack-scale AI computing to Secure AI Factory with NVIDIA Tech Observer Magazine
 first_seen: '2026-08-26T06:28:06Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

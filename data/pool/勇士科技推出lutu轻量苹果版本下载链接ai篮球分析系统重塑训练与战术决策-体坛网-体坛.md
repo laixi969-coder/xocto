@@ -1,6 +1,6 @@
 ---
 slug: 勇士科技推出lutu轻量苹果版本下载链接ai篮球分析系统重塑训练与战术决策-体坛网-体坛
-name: 勇士科技推出lutu轻量苹果版本下载链接AI篮球分析系统，重塑训练与战术决策_体坛网_体坛+
+name: 勇士科技
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE85Uy1EZ2hrWmN1
 summary: 勇士科技推出lutu轻量苹果版本下载链接AI篮球分析系统，重塑训练与战术决策_体坛网_体坛+ 体坛
 first_seen: '2026-09-07T18:46:42Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 勇士科技推出lutu轻量苹果版本下载链接AI篮球分析系统，重塑训练与战术决策_体坛网_体坛+
+# 勇士科技
 
 勇士科技推出lutu轻量苹果版本下载链接AI篮球分析系统，重塑训练与战术决策_体坛网_体坛+ 体坛
 

@@ -69,3 +69,41 @@
     integration.
   usage_reason: 电子阅读器用户可能因护眼和专注而尝试。
   usage_reason_en: E-reader users may try for eye comfort and focus.
+- id: req-initial-folio-2026-09-08
+  project_slug: folio
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决网页长文到电纸书排版投递的繁琐流程，满足沉浸式深度阅读刚需。
+    evidence_ids:
+    - ev-afafb194983c1c17
+  - gate: consensus
+    status: insufficient
+    reason: 受限于小众电纸书重度用户群体，公开采用规模与活跃度仍不足。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 尚未披露具体订阅价格与按篇或按月收费模式，商业化路径仍待核验。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 核心为网页内容抓取、排版生成与邮件或云同步传输，交付边界明确可行。
+    evidence_ids: []
+  next_validation: 官方定价方案及对主流电子阅读器格式支持与推送稳定性的用户反馈。
+  market: ''
+  job: 将碎片化保存的网络长文整理并同步到电子墨水屏设备进行离线深度阅读。
+  job_en: Consolidate saved web articles and sync them as a formatted digest to e-readers for offline
+    reading.
+  pain: 手机和电脑屏幕易产生视觉疲劳且干扰多，而手动导出、排版并传输文章到电纸书流程繁琐。
+  pain_en: Screen fatigue and distraction on PCs/phones, combined with tedious manual export and formatting
+    for e-readers.
+  current_alternative: 使用手机端稍后读应用，或手动转换电子书格式后通过邮件发送到阅读器。
+  current_alternative_en: Using read-it-later mobile apps or manually converting files to send to e-readers
+    via email.
+  usage_reason: 自动化完成了文章抓取、清理排版和定时推送全流程，降低了电纸书阅读门槛。
+  usage_reason_en: Automates article scraping, typesetting, and scheduled delivery to e-readers in a single
+    friction-free loop.

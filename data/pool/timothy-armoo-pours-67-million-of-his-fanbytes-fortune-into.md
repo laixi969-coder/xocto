@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxQX0F2aUF4Y0lt
 summary: Timothy Armoo Pours $6.7 Million of His Fanbytes Fortune Into AI Startups Startup Fortune
 first_seen: '2026-09-07T11:02:33Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

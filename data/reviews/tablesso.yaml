@@ -1,0 +1,37 @@
+- id: req-initial-tablesso-2026-09-08
+  project_slug: tablesso
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品通过 AI 自动化挖掘潜在客户，解决销售团队寻找高质量潜在客户的痛点
+    evidence_ids:
+    - ev-3ee2cf8ff2e91bd0
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开使用数据或定价信息，无法确认市场共识
+    evidence_ids:
+    - ev-3ee2cf8ff2e91bd0
+  - gate: model
+    status: insufficient
+    reason: 未公开 AI 模型细节或技术实现，无法评估模型能力
+    evidence_ids:
+    - ev-3ee2cf8ff2e91bd0
+  - gate: truth
+    status: insufficient
+    reason: 缺少实际付费或持续采用的公开证据，真实性尚未验证
+    evidence_ids:
+    - ev-3ee2cf8ff2e91bd0
+  next_validation: 官方定价页
+  market: ''
+  job: 销售代表
+  job_en: Sales Representative
+  pain: 手工寻找潜在客户耗时且精准度低
+  pain_en: Manual prospecting is time-consuming and low in accuracy
+  current_alternative: 传统手工筛选、CRM 数据导入、第三方数据服务
+  current_alternative_en: Traditional manual filtering, CRM data import, third-party data services
+  usage_reason: 需要快速获取高质量潜在客户列表以提升销售效率
+  usage_reason_en: Need to quickly obtain high-quality potential customer lists to boost sales efficiency

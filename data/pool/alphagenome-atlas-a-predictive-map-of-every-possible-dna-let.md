@@ -1,11 +1,14 @@
 ---
 slug: alphagenome-atlas-a-predictive-map-of-every-possible-dna-let
-name: 'AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome'
+name: AlphaGenome Atlas
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Google DeepMind 发布的预测图谱，覆盖人类基因组约 90 亿种单碱基 DNA 变异的分子效应。遗传学研究者在解读变异、判断某个突变可能如何影响基因功能时，可直接查询预测结果，有望减少对每个变异逐一做实验验证的工作量。
 inspiration: ''
-summary_en: ''
+summary_en: A predictive map released by Google DeepMind covering the molecular effects of about 9 billion
+  single-letter DNA variants across the human genome. When genetics researchers interpret variants and
+  assess how a mutation may affect gene function, they can look up the predicted effect directly, potentially
+  reducing the need to test each variant experimentally.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +25,7 @@ summary: AlphaGenome Atlas maps the molecular effects of 9 billion single-letter
   human genome.
 first_seen: '2026-09-08T14:00:15Z'
 last_seen: '2026-09-08T14:34:46Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +36,7 @@ sightings:
   kind: news
 ---
 
-# AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome
+# AlphaGenome Atlas
 
 AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.
 

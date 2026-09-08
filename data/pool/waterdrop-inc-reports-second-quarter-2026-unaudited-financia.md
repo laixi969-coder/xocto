@@ -1,11 +1,11 @@
 ---
 slug: waterdrop-inc-reports-second-quarter-2026-unaudited-financia
-name: Waterdrop Inc. Reports Second Quarter 2026 Unaudited Financial Results
+name: Waterdrop Inc.
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Waterdrop Inc. 报告了 2026 年第二季度未经审计的财务结果。
 inspiration: ''
-summary_en: ''
+summary_en: Waterdrop Inc. reports its unaudited financial results for Q2 2026.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiygFBVV95cUxPNmZ0MV9TX0Qz
 summary: Waterdrop Inc. Reports Second Quarter 2026 Unaudited Financial Results TradingView
 first_seen: '2026-09-08T11:09:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Waterdrop Inc. Reports Second Quarter 2026 Unaudited Financial Results
+# Waterdrop Inc.
 
 Waterdrop Inc. Reports Second Quarter 2026 Unaudited Financial Results TradingView
 

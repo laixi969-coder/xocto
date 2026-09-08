@@ -21,7 +21,7 @@ canonical_url: https://jackalope.dev
 summary: ''
 first_seen: '2026-09-08T02:56:24Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

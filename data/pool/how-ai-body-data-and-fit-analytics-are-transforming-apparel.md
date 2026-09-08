@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNeUlfX1hoOUd4
 summary: How AI, Body Data and Fit Analytics are Transforming Apparel Sizing fibre2fashion.com
 first_seen: '2026-09-08T05:34:56Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

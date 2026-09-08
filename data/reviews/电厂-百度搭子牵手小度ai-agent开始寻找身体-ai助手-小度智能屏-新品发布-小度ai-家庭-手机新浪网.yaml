@@ -1,0 +1,35 @@
+- id: req-initial-电厂-百度搭子牵手小度ai-agent开始寻找身体-ai助手-小度智能屏-新品发布-小度ai-家庭-手机新浪网-2026-09-08
+  project_slug: 电厂-百度搭子牵手小度ai-agent开始寻找身体-ai助手-小度智能屏-新品发布-小度ai-家庭-手机新浪网
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚不明确，公开材料仅提及合作和方向，无法还原具体家庭工作流。
+    evidence_ids:
+    - ev-375917f6bc61a60e
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，缺乏用户场景和采用信号。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式未披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性无法评估。
+    evidence_ids: []
+  next_validation: 查找百度搭子或小度的官方产品页面，获取智能体应用的具体功能、目标用户和实际使用案例。
+  market: ''
+  job: 家庭用户可能希望智能体在家庭环境中提供陪伴或控制服务，但具体任务未明确。
+  job_en: Home users may want agents to provide companionship or control in home settings, but the specific
+    task is unclear.
+  pain: 家庭场景中的痛点未在公开材料中说明。
+  pain_en: Pain points in home scenarios are not stated in public materials.
+  current_alternative: 可能依赖传统智能音箱或手机应用。
+  current_alternative_en: May rely on traditional smart speakers or mobile apps.
+  usage_reason: 合作新闻显示关注，但缺乏用户采用证据。
+  usage_reason_en: Partnership news shows attention, but lacks user adoption evidence.

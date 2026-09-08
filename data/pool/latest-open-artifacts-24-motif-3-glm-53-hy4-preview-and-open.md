@@ -21,7 +21,7 @@ canonical_url: https://interconnects.ai/p/latest-open-artifacts-24-motif-3
 summary: The open model ecosystem continues to expand in its breadth
 first_seen: '2026-09-08T14:15:25Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

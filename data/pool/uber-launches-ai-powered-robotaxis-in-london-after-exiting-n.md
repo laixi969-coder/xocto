@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPWFhwUEtxQnNh
 summary: Uber launches AI-powered robotaxis in London after exiting Nigeria innovation-village.com
 first_seen: '2026-09-03T12:51:37Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 - marketfeeds

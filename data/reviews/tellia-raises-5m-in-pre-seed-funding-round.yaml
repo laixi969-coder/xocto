@@ -1,0 +1,37 @@
+- id: req-initial-tellia-raises-5m-in-pre-seed-funding-round-2026-09-08
+  project_slug: tellia-raises-5m-in-pre-seed-funding-round
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 无法写出它解决什么需求或痛点，信息不足。
+    evidence_ids:
+    - ev-874d20ab4405b2b3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有融资新闻，无用户或场景信息。
+    evidence_ids:
+    - ev-874d20ab4405b2b3
+  - gate: model
+    status: insufficient
+    reason: 商业模式未知。
+    evidence_ids:
+    - ev-874d20ab4405b2b3
+  - gate: truth
+    status: insufficient
+    reason: 无法判断产品真实性与贴近度。
+    evidence_ids:
+    - ev-874d20ab4405b2b3
+  next_validation: 查找 Tellia 的官方产品页面或更多报道，以确认其业务领域与产品功能。
+  market: ''
+  job: 未知，因产品信息未披露。
+  job_en: Unknown, as product information is not disclosed.
+  pain: 未知，无法判断痛点。
+  pain_en: Unknown, cannot assess pain points.
+  current_alternative: 未知。
+  current_alternative_en: Unknown.
+  usage_reason: 融资表明投资者看好，但缺乏用户需求证据。
+  usage_reason_en: Funding indicates investor interest, but lacks evidence of user demand.

@@ -1,11 +1,12 @@
 ---
 slug: usi-launches-ai-smart-camera-solution-to-accelerate-smart-ma-2
-name: USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing
+name: USI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: USI 推出 AI 智能相机解决方案，帮助制造企业在生产线上实时检测缺陷并自动调整工艺，提升产能与质量。
 inspiration: ''
-summary_en: ''
+summary_en: USI launched an AI smart camera solution to accelerate smart manufacturing, enabling real‑time
+  defect detection and automated process adjustment on production lines.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMilwFBVV95cUxNMi1xZlRDNzk4
 summary: USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing Yahoo Finance
 first_seen: '2026-09-07T23:00:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing
+# USI
 
 USI Launches AI Smart Camera Solution to Accelerate Smart Manufacturing Yahoo Finance
 

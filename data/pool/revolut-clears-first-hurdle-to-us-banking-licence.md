@@ -3,9 +3,10 @@ slug: revolut-clears-first-hurdle-to-us-banking-licence
 name: Revolut
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Revolut 是一家金融科技公司，提供数字银行服务。本次事件是其美国银行牌照申请取得初步进展，但具体流程和后续影响仍需核验。
 inspiration: ''
-summary_en: ''
+summary_en: Revolut is a fintech company offering digital banking services. This event marks initial progress
+  in its US banking licence application, but specific details and impact remain to be verified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://sifted.eu/articles/revolut-us-banking-licence-2
 summary: 'AI Shopping Revolution: How Machines Could Change Indian Retail Daily Pioneer'
 first_seen: '2026-09-03T17:46:52Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

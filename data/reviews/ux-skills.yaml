@@ -1,0 +1,40 @@
+- id: req-initial-ux-skills-2026-09-08
+  project_slug: ux-skills
+  level: initial
+  reviewed_at: '2026-09-08T14:34:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决设计师在设计中缺乏系统性质疑、设计系统不一致和交接丢失的痛点；工作流推理显示结构上成立，但具体流程和交付待核验。
+    evidence_ids:
+    - ev-2148588e1fcb9384
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区星数 40，尚无公开采用或社区讨论证据，共识未建立。
+    evidence_ids:
+    - ev-2148588e1fcb9384
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是企业设计团队，但付费路径不明。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 项目描述聚焦设计流程改进，但未验证实际交付质量和工程集成效果。
+    evidence_ids:
+    - ev-2148588e1fcb9384
+  next_validation: 查看该开源项目的说明文档和公开 issue / discussion，确认具体工作流和交付物。
+  market: ''
+  job: UX 设计师在设计中需要挑战想法、发现盲点、遵循设计系统，并将设计意图传递给工程。
+  job_en: UX designers need to challenge ideas, find blind spots, adhere to design systems, and communicate
+    design intent to engineering.
+  pain: 设计决策常缺乏系统性质疑，设计系统难以一致应用，设计意图在交接中丢失。
+  pain_en: Design decisions often lack systematic challenge, design systems are hard to apply consistently,
+    and design intent gets lost in handoff.
+  current_alternative: 设计师依赖人工评审、设计系统文档和口头交接，过程耗时且易遗漏。
+  current_alternative_en: Designers rely on manual reviews, design system documentation, and verbal handoffs,
+    which are time-consuming and error-prone.
+  usage_reason: 设计师可能使用它来获得结构化的设计反馈和决策记录，但采用证据尚不明确。
+  usage_reason_en: Designers might use it for structured design feedback and decision logs, but adoption
+    evidence is unclear.

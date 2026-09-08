@@ -3,27 +3,32 @@ slug: gemini
 name: Gemini
 builder: simonsarris
 category: 通用助手
-summary_zh: Gemini 是 Google 的 AI 助手，提供写作、规划、头脑风暴等生成式 AI 功能。近期推出面向律师的专用工具和 Gemini Enterprise，并已被 Verizon
-  用于处理大部分来电。
-inspiration: 趋势是通用助手向垂直行业渗透，如法律和客服。切入点是针对特定行业提供定制化工具，如法律文档审查和客服自动化，而非与通用助手正面竞争。
-summary_en: Gemini is Google's AI assistant offering writing, planning, brainstorming, and other generative
-  AI features. Recently launched specialized tools for lawyers and Gemini Enterprise, and is used by Verizon
-  to handle most inbound calls.
-inspiration_en: The trend is general assistants penetrating vertical industries like law and customer
-  service. The entry point is providing customized tools for specific industries, such as legal document
-  review and customer service automation, rather than competing head-on with general assistants.
+summary_zh: 遇到写作、查资料、做计划或设计图片的人打开 Gemini，把问题、文档或一段提示交给它；模型读取输入后生成文案、分析、方案或图片，用户拿到可编辑的初稿或成图，再自行确认修改。
+inspiration: 趋势：模型入口已具备十亿级用户与行业版（法律、办公设计），通用助手窗口基本关闭。切入：不要正面做通用对话；可借其行业版思路，在法律、地产、医疗等中文垂直流程里做它没覆盖的交付型工具。
+summary_en: 'People open Gemini to write, research, plan, or design images: they hand it a question, document,
+  or prompt, and get back drafts, analysis, plans, or generated images to review and edit. Google''s general
+  assistant, reported above one billion monthly users.'
+inspiration_en: 'Trend: the general-assistant window is closed once a model entry reaches a billion users
+  with vertical editions for legal and design. Entry: build delivery-based vertical tools for workflows,
+  like Chinese legal or real estate, its editions don''t cover.'
 priority_review: false
-project_type: ai_transformation
+project_type: new_application
 industries:
-- 通用
+- 企业服务
+- 法律服务
+- 消费应用
 industries_en:
-- General
+- Enterprise Services
+- Legal Services
+- Consumer Applications
 jobs:
-- 消费者
-- 企业员工
+- 办公室职员
+- 律师
+- 内容创作者
 jobs_en:
-- Consumers
-- Enterprise Employees
+- Office Workers
+- Lawyers
+- Content Creators
 regions:
 - 全球
 regions_en:
@@ -35,7 +40,7 @@ summary: Meet Gemini, Google’s AI assistant. Get help with writing, planning, 
   Experience the power of generative AI.
 first_seen: '2026-08-22T22:38:19Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: queued
 sources:
 - aicpb
 - newssearch

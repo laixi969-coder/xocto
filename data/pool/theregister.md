@@ -3,11 +3,12 @@ slug: theregister
 name: EU Smartphone Repairability Requirements
 builder: mdp2021
 category: ''
-summary_zh: 欧盟针对智能手机的可维修性要求已进入实施阶段，但最新报道显示厂商普遍未达标。监管与行业实践之间的缺口可能引发后续执法行动，并推动厂商在备件供应、拆解设计与维修支持上做出调整。
+summary_zh: 欧盟智能手机可维修性要求在执行中遇冷，多家智能手机厂商未切实遵守相关规定。这一合规缺口可能促使欧盟加强执法或修订规则，进而影响智能手机的设计、备件供应与售后维修成本，改变厂商在欧洲市场的合规策略。
 inspiration: ''
-summary_en: The EU's repairability requirements for smartphones are now in force, but new reporting shows
-  manufacturers broadly fail to meet them. The gap between regulation and industry practice could trigger
-  enforcement actions and force changes in spare parts availability, disassembly design and repair support.
+summary_en: EU smartphone repairability requirements are facing weak compliance, with major smartphone
+  makers not bothering to follow the rules. This compliance gap may push the EU to step up enforcement
+  or revise the rules, affecting smartphone design, spare parts availability and after-sales repair costs,
+  and reshaping vendors' compliance strategies in the European market.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ canonical_url: https://theregister.com/personal-tech/2026/09/07/smartphone-maker
 summary: Smartphone makers don't bother to comply with EU repairability requirements
 first_seen: '2026-09-07T11:46:37Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:

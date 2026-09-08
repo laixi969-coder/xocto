@@ -1,0 +1,37 @@
+- id: req-initial-qecon2026-上海站收官丨掌动智能深耕-ai-智能体质效工程化实践-2026-09-08
+  project_slug: qecon2026-上海站收官丨掌动智能深耕-ai-智能体质效工程化实践
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决测试效率问题，但具体痛点强度和交付确定性未在公开材料中体现。
+    evidence_ids:
+    - ev-c31731f4e0cd3571
+  - gate: consensus
+    status: insufficient
+    reason: 仅有会议分享，缺乏用户采用或行业共识证据。
+    evidence_ids:
+    - ev-c31731f4e0cd3571
+  - gate: model
+    status: insufficient
+    reason: 未披露商业模式或定价。
+    evidence_ids:
+    - ev-c31731f4e0cd3571
+  - gate: truth
+    status: insufficient
+    reason: AI 测试的准确性和可靠性需进一步验证。
+    evidence_ids:
+    - ev-c31731f4e0cd3571
+  next_validation: 查找掌动智能的官方产品文档或客户案例。
+  market: ''
+  job: 软件测试工程师需要执行测试用例、发现缺陷并保障质量。
+  job_en: Software test engineers need to execute test cases, find defects, and ensure quality.
+  pain: 测试工作重复耗时，且难以覆盖所有场景。
+  pain_en: Testing is repetitive and time-consuming, with difficulty covering all scenarios.
+  current_alternative: 目前依赖手工测试和传统自动化测试工具。
+  current_alternative_en: Currently relies on manual testing and traditional automation tools.
+  usage_reason: AI 可能自动生成测试用例或预测缺陷，但具体价值未明确。
+  usage_reason_en: AI might auto-generate test cases or predict defects, but specific value is unclear.

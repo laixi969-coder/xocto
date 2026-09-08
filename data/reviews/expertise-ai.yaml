@@ -72,3 +72,43 @@
   usage_reason: 它承诺用更直接的方式完成这项任务：GTM 专业人士、营销顾问；具体采用动机与持续使用情况尚未核验。
   usage_reason_en: 'It promises a simpler way to complete this job: GTM Professional, Marketing Consultant
     The exact adoption motive and repeat use are not yet verified.'
+- id: req-initial-expertise-ai-2026-09-08
+  project_slug: expertise-ai
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 公开材料仅有一句标语，未披露具体解决哪一步旧工作流或如何交付，价值结构难以验证。
+    evidence_ids:
+    - ev-ebacaa54ccca193c
+  - gate: consensus
+    status: insufficient
+    reason: 未展示可信的用户试用、客户采纳或社区讨论证据，买方认知尚未建立。
+    evidence_ids:
+    - ev-ebacaa54ccca193c
+  - gate: model
+    status: insufficient
+    reason: 宣称将技能转化为经常性收入，但未公开实际收费机制、定价页面与买方付费验证。
+    evidence_ids:
+    - ev-ebacaa54ccca193c
+  - gate: truth
+    status: insufficient
+    reason: 缺少产品具体执行动作与交付结果说明，无法核验交付确定性与技术边界。
+    evidence_ids:
+    - ev-ebacaa54ccca193c
+  next_validation: 查验官方产品详情页与功能演示，确认其输入素材、交付形态与真实定价模式
+  market: ''
+  job: 将个人市场营销与 GTM 顾问经验转化为自动化交付与重复变现产品
+  job_en: Package GTM consulting expertise into automated deliverables and recurring revenue products
+  pain: 咨询顾问时间无法扩展，按时计费难以实现规模化收益，但公开材料未披露具体工作流痛点
+  pain_en: Consultants face scaling limits with hourly billing, though specific workflow pain points remain
+    unclarified in public materials
+  current_alternative: 人工撰写咨询报告、销售线下一对一顾问案或录制静态培训课程
+  current_alternative_en: Manual consulting deliverables, 1-on-1 advisory sessions, or pre-recorded training
+    courses
+  usage_reason: 尝试借助 AI 工具将顾问专业能力资产化以获取订阅收入，但具体功能机制尚不明确
+  usage_reason_en: Attracted by turning advisory skills into recurring SaaS revenue, though exact mechanisms
+    remain unverified

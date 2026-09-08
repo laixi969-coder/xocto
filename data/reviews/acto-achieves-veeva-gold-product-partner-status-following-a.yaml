@@ -35,3 +35,47 @@
   current_alternative_en: May rely on Veeva CRM and manual Excel processes.
   usage_reason: 与 Veeva 的深度集成可能简化合规报告。
   usage_reason_en: Deep integration with Veeva may simplify compliance reporting.
+- id: req-initial-acto-achieves-veeva-gold-product-partner-status-following-a-2026-09-08
+  project_slug: acto-achieves-veeva-gold-product-partner-status-following-a
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决药械代表在与医生沟通前「能否胜任」这一刚性任务：品牌业绩直接取决于拜访质量，过去靠线下培训与人工分发资料。此为基于公开功能描述的工作流推理，具体交付仍待核验。
+    evidence_ids:
+    - ev-ff14455365daa9c5
+    - ev-385c2c242489d8a5
+  - gate: consensus
+    status: insufficient
+    reason: Veeva 金级资质与近十年「共同客户成功」的合作暗示存在真实药企客户，但无公开使用规模、评价或留存数据，不足以确认持续采用。
+    evidence_ids:
+    - ev-2ee22cb0ecb99cdf
+    - ev-652689eb1e94913c
+  - gate: model
+    status: insufficient
+    reason: 买方大概率是药企与器械公司的商业化部门，按 to B 企业订阅收费，但资料未披露定价与合同结构，只能作为判断而非已验证事实。
+    evidence_ids:
+    - ev-652689eb1e94913c
+  - gate: truth
+    status: supported
+    reason: 产品贴近「让代表每次拜访都合格」这一第一性目标，交付形态为培训、内容与多渠道触达，可确定发生；实际交付质量仍需客户案例核验。
+    evidence_ids:
+    - ev-ff14455365daa9c5
+    - ev-385c2c242489d8a5
+  next_validation: 采集 ACTO 官网的客户案例页与定价或合作文档，核验其披露的药企客户名单、Veeva 集成范围与实际交付内容。
+  market: ''
+  job: 药械销售代表在与医生（HCP）沟通前要掌握产品知识并备好合规的品牌互动材料
+  job_en: Pharma and device reps must master product knowledge and prepare compliant brand interactions
+    before meeting HCPs
+  pain: 品牌业绩取决于每次拜访质量；代表训练不足、材料过期分散会直接损失处方机会并带来合规风险
+  pain_en: Brand performance hinges on each visit's quality; undertrained reps and scattered, outdated
+    materials lose prescriptions and create compliance risk
+  current_alternative: 过去靠线下培训课、销售运营人工分发演示与纸质资料，并在通用 CRM 里记录拜访
+  current_alternative_en: In-person training sessions, sales ops manually distributing decks and print
+    materials, plus visits logged in a generic CRM
+  usage_reason: 代表要在拜访前随时拿到最新合规材料与能力反馈；平台嵌入日常工作流，比人工分发更快更一致，因此有人用
+  usage_reason_en: Reps need current compliant materials and readiness feedback right before visits; an
+    embedded platform is faster and more consistent than manual distribution

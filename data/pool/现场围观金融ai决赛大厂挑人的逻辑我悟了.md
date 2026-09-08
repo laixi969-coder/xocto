@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/485794.html
 summary: 百万奖金、大厂直通、VC跟投
 first_seen: '2026-09-08T05:05:03Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

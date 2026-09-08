@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DOWRlY1Fxc3Mz
 summary: 从“好用”到“敢用”，荆华密算重新定义AI落地的真正分水岭 中华网
 first_seen: '2026-09-08T08:18:53Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

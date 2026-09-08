@@ -1,0 +1,40 @@
+- id: req-initial-exclusive-legaltech-lexroom-seals-first-two-ma-deals-four-mo-2026-09-08
+  project_slug: exclusive-legaltech-lexroom-seals-first-two-ma-deals-four-mo
+  level: initial
+  reviewed_at: '2026-09-08T14:34:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决并购律师处理大量交易文件的耗时与遗漏痛点，替代人工审阅的旧流程，价值结构成立。
+    evidence_ids:
+    - ev-aa826e4509e60725
+  - gate: consensus
+    status: insufficient
+    reason: 首批并购交易显示客户采用，但公开材料未提供持续使用或留存数据。
+    evidence_ids:
+    - ev-aa826e4509e60725
+  - gate: model
+    status: insufficient
+    reason: 买方可能是律所或企业法务，但公开材料未披露定价或付费模式。
+    evidence_ids:
+    - ev-aa826e4509e60725
+  - gate: truth
+    status: supported
+    reason: AI 审阅贴近法律工作的核心目标，交付可核对，但需人工确认。
+    evidence_ids:
+    - ev-aa826e4509e60725
+  next_validation: 查找 Lexroom 官方定价页或客户案例，以验证付费模式与交付结果。
+  market: ''
+  job: 并购律师在尽职调查和交易文件审阅中，需要快速处理大量合同与法律文件，识别风险与关键条款。
+  job_en: M&A lawyers need to quickly process large volumes of contracts and legal documents during due
+    diligence and deal review, identifying risks and key terms.
+  pain: 传统人工审阅耗时且易遗漏，交易时间压力大，错误成本高。
+  pain_en: Manual review is time-consuming and error-prone, with high deal time pressure and costly mistakes.
+  current_alternative: 目前主要依靠初级律师和外部顾问人工审阅，或使用通用文档工具辅助。
+  current_alternative_en: Currently relies on manual review by junior lawyers and external advisors, or
+    general document tools.
+  usage_reason: 并购交易文件量大、时间紧，AI 能显著提速并降低遗漏风险，因此律师有动力试用。
+  usage_reason_en: M&A deals involve large volumes of documents under tight deadlines; AI can significantly
+    speed up review and reduce oversight risk, motivating lawyers to try it.

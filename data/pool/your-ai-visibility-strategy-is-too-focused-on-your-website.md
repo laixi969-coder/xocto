@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84MEhmSHdnRDNT
 summary: Your AI Visibility Strategy Is Too Focused on Your Website DesignRush
 first_seen: '2026-09-07T14:31:47Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

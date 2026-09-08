@@ -22,7 +22,7 @@ summary: OKF (Open Knowledge Format) — curated catalog of tools, plugins, skil
   for agent-friendly knowledge. YAML-driven, agent-searchable, MCP-ready.
 first_seen: '2026-09-07T06:12:39Z'
 last_seen: '2026-09-08T14:34:27Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

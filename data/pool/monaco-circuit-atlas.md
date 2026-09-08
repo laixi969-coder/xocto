@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/mishig/monaco-circuit-atlas
 summary: Monaco in Three.js with racing and automatic camera tours
 first_seen: '2026-09-07T16:15:43Z'
 last_seen: '2026-09-08T14:34:46Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

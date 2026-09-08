@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBhcmFTYnBuWTRN
 summary: 从不敢说到放心用：密态计算的第一个验证场背后，藏着AI的万亿新底座 中华网
 first_seen: '2026-09-08T07:48:44Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

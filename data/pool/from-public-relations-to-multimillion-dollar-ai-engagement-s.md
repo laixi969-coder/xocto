@@ -23,7 +23,7 @@ summary: 'From Public Relations to Multimillion-Dollar AI Engagement: Shobnom Za
   communications role The Business Standard'
 first_seen: '2026-09-08T09:00:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

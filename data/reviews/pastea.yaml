@@ -1,0 +1,38 @@
+- id: req-initial-pastea-2026-09-08
+  project_slug: pastea
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决复制内容难以检索的痛点，自动保存并提供搜索，价值结构成立。
+    evidence_ids:
+    - ev-4444f25f49059f60
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户评价或采用数据，共识未形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或付费路径，商业模式不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 自动保存和搜索贴近信息管理的第一性目标，交付可确定。
+    evidence_ids:
+    - ev-4444f25f49059f60
+  next_validation: 获取 Pastea 的官方定价页或用户评价，确认付费意愿和实际使用情况。
+  market: ''
+  job: 用户在浏览网页或阅读时复制有价值的信息，但之后难以找到，需要保存和搜索复制的内容。
+  job_en: Users copy valuable information while browsing or reading, but later struggle to find it, needing
+    to save and search copied content.
+  pain: 复制的内容散落在剪贴板历史或笔记中，难以检索，导致信息丢失。
+  pain_en: Copied content is scattered across clipboard history or notes, making it hard to retrieve,
+    leading to information loss.
+  current_alternative: 用户可能使用剪贴板管理器、笔记应用或手动保存链接。
+  current_alternative_en: Users may use clipboard managers, note apps, or manually save links.
+  usage_reason: 自动保存复制内容并提供搜索，减少了手动整理步骤，适合需要频繁收集信息的用户。
+  usage_reason_en: Automatically saving copied content with search reduces manual organization, appealing
+    to users who frequently collect information.

@@ -1,0 +1,40 @@
+- id: req-initial-lexroom-makes-first-acquisitions-with-query-juriste-and-prav-2026-09-08
+  project_slug: lexroom-makes-first-acquisitions-with-query-juriste-and-prav
+  level: initial
+  reviewed_at: '2026-09-08T14:34:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决法律检索和文档处理的痛点，AI 可提高效率。
+    evidence_ids:
+    - ev-4aa1dfc1b838ef5c
+  - gate: consensus
+    status: insufficient
+    reason: 并购显示行业整合，但用户采用证据不足。
+    evidence_ids:
+    - ev-4aa1dfc1b838ef5c
+  - gate: model
+    status: insufficient
+    reason: 付费方可能是律所或法律部门，但商业模式未公开。
+    evidence_ids:
+    - ev-4aa1dfc1b838ef5c
+  - gate: truth
+    status: supported
+    reason: 法律 AI 贴近实际工作，交付可确定，但需验证效果。
+    evidence_ids:
+    - ev-4aa1dfc1b838ef5c
+  next_validation: 查找 Lexroom 的官方网站或产品文档，确认其具体功能和客户案例。
+  market: ''
+  job: 律师和法律研究员需要快速检索法律条文、案例和文档，以支持案件分析和法律意见。
+  job_en: Lawyers and legal researchers need to quickly search statutes, cases, and documents to support
+    case analysis and legal opinions.
+  pain: 法律检索耗时费力，跨语言和跨法域的资料查找尤其困难。
+  pain_en: Legal research is time-consuming and labor-intensive, especially across languages and jurisdictions.
+  current_alternative: 目前依赖传统法律数据库和人工检索，效率低且成本高。
+  current_alternative_en: Currently relying on traditional legal databases and manual search, which is
+    inefficient and costly.
+  usage_reason: AI 能加速检索和文档分析，并购整合可能提供更全面的数据覆盖。
+  usage_reason_en: AI can accelerate search and document analysis, and acquisitions may provide broader
+    data coverage.

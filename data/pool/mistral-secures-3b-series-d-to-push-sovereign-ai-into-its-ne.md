@@ -1,11 +1,11 @@
 ---
 slug: mistral-secures-3b-series-d-to-push-sovereign-ai-into-its-ne
-name: Mistral secures €3B Series D to push sovereign AI into its next phase
+name: Mistral AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Mistral AI 获得 30 亿欧元 Series D 轮融资，估值 210 亿欧元
 inspiration: ''
-summary_en: ''
+summary_en: Mistral AI raised €3B Series D, valued at €21B
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +23,7 @@ summary: French AI company Mistral  raised €3 billion in Series Dfunding at a 
   Eur...
 first_seen: '2026-09-08T06:11:00Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# Mistral secures €3B Series D to push sovereign AI into its next phase
+# Mistral AI
 
 French AI company Mistral  raised €3 billion in Series Dfunding at a post-money valuation of more than €21 billion, three years afterits launch. Samsung Electronics led the round, with the Scaleup Eur...
 

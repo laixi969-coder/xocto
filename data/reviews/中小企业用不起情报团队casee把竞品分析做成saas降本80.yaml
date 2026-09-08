@@ -1,0 +1,41 @@
+- id: req-initial-中小企业用不起情报团队casee把竞品分析做成saas降本80-2026-09-08
+  project_slug: 中小企业用不起情报团队casee把竞品分析做成saas降本80
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决中小企业盯不住竞品动态的痛点：情报团队雇不起、人工搜索零散滞后，旧工作流清楚，属工作流推理的结构性成立，采用证据尚缺。
+    evidence_ids:
+    - ev-8fe3d5152245f770
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅见媒体报道，无公开用户规模、评价或持续采用证据；中小企业是否接受按订阅购买情报，这一共识卡在感知环节。
+    evidence_ids:
+    - ev-8fe3d5152245f770
+  - gate: model
+    status: insufficient
+    reason: 买方方向清楚：是雇不起情报团队的中小企业；按SaaS订阅收费是判断而非已验证事实，官方定价与计价方式未披露。
+    evidence_ids:
+    - ev-8fe3d5152245f770
+  - gate: truth
+    status: insufficient
+    reason: 竞品分析的交付质量取决于数据覆盖广度与更新频率，公开材料未说明数据来源与人工核对边界，能否确定性交付尚未核验。
+    evidence_ids:
+    - ev-8fe3d5152245f770
+  next_validation: 抓取CaSee官网的定价页或产品说明页，核验订阅价格、计价单位与报告交付形式。
+  market: ''
+  job: 中小企业需要持续掌握竞品的定价、产品与营销动态，以支撑自身经营决策，但雇不起专职情报团队。
+  job_en: SMEs need to continuously track competitors' pricing, product and marketing moves to inform
+    their own decisions, but cannot afford an in-house intelligence team.
+  pain: 情报团队人力成本高，只能靠创始人零散搜索和表格整理，信息滞后、容易漏掉竞品关键动作，决策缺少依据。
+  pain_en: Intelligence teams are costly; founders rely on scattered searches and spreadsheets, so signals
+    arrive late, key moves get missed, and decisions lack grounding.
+  current_alternative: 创始人或市场人员手工浏览竞品官网、社媒与行业新闻，或偶尔购买咨询报告，没有系统化监测。
+  current_alternative_en: Founders or marketing staff manually browse competitor sites, social accounts
+    and industry news, or occasionally buy consulting reports, with no systematic monitoring.
+  usage_reason: 若以远低于情报团队的成本持续产出可用的竞品分析，中小企业有明确理由订阅试用并按期续费。
+  usage_reason_en: If it continuously delivers usable competitor analysis at a fraction of an intelligence
+    team's cost, SMEs have a concrete reason to subscribe and renew.

@@ -3,15 +3,17 @@ slug: cover
 name: cover
 builder: DavidCarliez
 category: 基础层
-summary_zh: cover 是一个面向 AI 代理的可逆隐私代理开源项目：开发者将真实数据交给 cover，cover 向外部 AI 代理发送逼真的假数据，并在本地恢复原始数据以保护敏感信息。具体工作流程和交付结果仍待核验。
-inspiration: 趋势：AI 代理接入企业数据时，隐私保护成为刚需，可逆脱敏可能成为数据交互的标准层。切入：从需要调用外部 AI 但数据敏感的行业（如医疗、金融）入手，提供合规的代理方案。
-summary_en: 'cover is an open-source reversible privacy proxy for AI agents: developers give real data
-  to cover, which sends realistic fake data to external AI agents and restores originals locally to protect
-  sensitive information. Specific workflow and deliverables still need verification.'
-inspiration_en: 'Trend: As AI agents access enterprise data, privacy protection becomes essential, and
-  reversible anonymization may become a standard layer for data interaction. Entry: Start with industries
-  that need external AI but handle sensitive data (e.g., healthcare, finance), offering a compliant proxy
-  solution.'
+summary_zh: cover 是一个开源的可逆隐私代理，面向调用外部 AI 代理的开发者。开发者在把真实数据交给 cover 后，cover 会向外部 AI 代理发送逼真的假数据，并在本地恢复原始结果。它解决的是开发者担心敏感数据泄露给第三方
+  AI 服务的问题，但具体工作流程和交付形式仍需进一步核验。
+inspiration: 趋势：随着 AI 代理深入企业工作流，数据隐私成为采用瓶颈，可逆脱敏可能成为基础层标配。切入：可从数据合规要求高的行业（如医疗、金融）入手，提供按数据量或按代理调用计费的服务，但需先验证开发者实际付费意愿。
+summary_en: cover is an open-source reversible privacy proxy for developers invoking external AI agents.
+  Developers give real data to cover, which sends realistic fake data to external AI agents and restores
+  originals locally. It addresses developers' concerns about sensitive data leakage to third-party AI
+  services, but the specific workflow and delivery form still need verification.
+inspiration_en: 'Trend: As AI agents penetrate enterprise workflows, data privacy becomes an adoption
+  bottleneck, and reversible anonymization may become a standard infrastructure layer. Entry: Start with
+  highly regulated industries like healthcare and finance, offering usage-based pricing per data volume
+  or agent call, but first validate developers'' willingness to pay.'
 priority_review: false
 project_type: open_source
 industries:
@@ -32,7 +34,7 @@ canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: queued
 sources:
 - github
 - officialfeeds

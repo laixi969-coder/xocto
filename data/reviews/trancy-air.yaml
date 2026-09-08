@@ -1,0 +1,39 @@
+- id: req-initial-trancy-air-2026-09-08
+  project_slug: trancy-air
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决快速翻译的需求，但痛点强度与交付形式未明，需更多信息。
+    evidence_ids:
+    - ev-9315213e9a555b74
+  - gate: consensus
+    status: insufficient
+    reason: 无用户评价或采用数据，无法判断共识。
+    evidence_ids:
+    - ev-9315213e9a555b74
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方产品页或应用商店页面，展示支持的平台、具体翻译流程和用户评价。
+  market: ''
+  job: 用户需要快速翻译眼前、输入中或说出的话语，减少切换应用或复制粘贴的步骤。
+  job_en: Users need to quickly translate what they see, type, or say, reducing app switching or copy-paste
+    steps.
+  pain: 现有翻译流程需要复制文本、切换应用或浏览器标签，打断当前工作流。
+  pain_en: Current translation workflows require copying text and switching apps or browser tabs, interrupting
+    the current flow.
+  current_alternative: 用户可能使用浏览器翻译插件、系统级翻译工具或复制到翻译应用。
+  current_alternative_en: Users may use browser translation extensions, system-level translation tools,
+    or copy-paste into translation apps.
+  usage_reason: 热键唤起可能减少操作步骤，但公开资料未展示具体使用场景或用户反馈，采用原因尚不明确。
+  usage_reason_en: Hotkey invocation may reduce steps, but public materials do not show specific use cases
+    or user feedback, so adoption reasons remain unclear.

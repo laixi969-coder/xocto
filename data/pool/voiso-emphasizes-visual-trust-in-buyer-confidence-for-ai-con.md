@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRk0yRFBnQnVv
 summary: Voiso Emphasizes Visual Trust in Buyer Confidence for AI Contact Center Software FinancialContent
 first_seen: '2026-09-08T08:32:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

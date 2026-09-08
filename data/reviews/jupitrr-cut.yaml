@@ -1,0 +1,37 @@
+- id: req-initial-jupitrr-cut-2026-09-08
+  project_slug: jupitrr-cut
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-a6d8791e477bb17c
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-a6d8791e477bb17c
+  - gate: model
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-a6d8791e477bb17c
+  - gate: truth
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据
+    evidence_ids:
+    - ev-a6d8791e477bb17c
+  next_validation: 公开使用案例
+  market: ''
+  job: 信息不足
+  job_en: Insufficient information
+  pain: 信息不足
+  pain_en: Insufficient information
+  current_alternative: 信息不足
+  current_alternative_en: Insufficient information
+  usage_reason: 信息不足
+  usage_reason_en: Insufficient information

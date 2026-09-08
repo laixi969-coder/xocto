@@ -21,7 +21,7 @@ canonical_url: https://brw.donworks.co.uk
 summary: better than Claude chrome
 first_seen: '2026-09-07T23:56:50Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hQnV1ODlCOWtK
 summary: 九龙体育足球推荐发布：AI智能投顾与风控升级引领投资新浪潮 体坛
 first_seen: '2026-09-08T07:43:38Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

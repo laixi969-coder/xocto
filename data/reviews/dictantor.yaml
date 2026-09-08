@@ -1,0 +1,37 @@
+- id: req-initial-dictantor-2026-09-08
+  project_slug: dictantor
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏公开定价、用户案例或使用数据，无法确认需求强度与付费路径。
+    evidence_ids:
+    - ev-ff35c000042eb837
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开使用案例或社区讨论，无法确认市场共识。
+    evidence_ids:
+    - ev-ff35c000042eb837
+  - gate: model
+    status: insufficient
+    reason: 未公开模型细节或性能指标，无法评估技术可行性。
+    evidence_ids:
+    - ev-ff35c000042eb837
+  - gate: truth
+    status: insufficient
+    reason: 缺乏可验证的付费或使用数据，真实性难以确认。
+    evidence_ids:
+    - ev-ff35c000042eb837
+  next_validation: 官方定价页
+  market: ''
+  job: 会议主持人、商务人士、项目经理
+  job_en: Meeting Host, Business Professional, Project Manager
+  pain: 需要手工记录会议内容、缺乏保密性
+  pain_en: Need to manually record meeting content, lack of confidentiality
+  current_alternative: 手工记录、录音后手动转写
+  current_alternative_en: Manual note-taking, recording then manual transcription
+  usage_reason: 想要快速、私密地获取会议文字稿
+  usage_reason_en: Want quick, private meeting transcripts

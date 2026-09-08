@@ -1,6 +1,6 @@
 ---
 slug: 中国智造闪耀柏林-ifa展上解码长虹ai家电的人文表达
-name: 中国智造闪耀柏林 IFA展上解码长虹AI家电的人文表达
+name: 长虹
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFBIVEhVMldmck9G
 summary: 中国智造闪耀柏林 IFA展上解码长虹AI家电的人文表达 sc.chinanews.com.cn
 first_seen: '2026-09-07T09:56:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 中国智造闪耀柏林 IFA展上解码长虹AI家电的人文表达
+# 长虹
 
 中国智造闪耀柏林 IFA展上解码长虹AI家电的人文表达 sc.chinanews.com.cn
 

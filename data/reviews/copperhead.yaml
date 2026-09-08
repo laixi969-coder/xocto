@@ -1,0 +1,38 @@
+- id: req-initial-copperhead-2026-09-08
+  project_slug: copperhead
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点尚无法从公开资料中识别，仅有一句标语，无法判断价值。
+    evidence_ids:
+    - ev-fe8b854fea37d5f0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区讨论，无用户评价或采用证据，共识未形成。
+    evidence_ids:
+    - ev-fe8b854fea37d5f0
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，商业模式无从谈起。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，求真检查无法开展。
+    evidence_ids: []
+  next_validation: 官方文档或产品说明，明确其输入、动作和交付物。
+  market: ''
+  job: 用户试图加速硬件开发或部署流程，但具体任务未明确。
+  job_en: Users aim to accelerate hardware development or deployment, but the specific task is unclear.
+  pain: 硬件开发通常比软件慢，但具体痛点（如迭代周期长、调试困难）未在公开资料中说明。
+  pain_en: Hardware development is typically slower than software, but specific pains (e.g., long iteration
+    cycles, debugging difficulty) are not stated in public materials.
+  current_alternative: 现有替代方式可能包括传统硬件设计流程或仿真工具，但无具体信息。
+  current_alternative_en: Existing alternatives may include traditional hardware design flows or simulation
+    tools, but no specifics are available.
+  usage_reason: 社区讨论和标语引起关注，但缺乏实际使用案例或功能描述，采用原因不明。
+  usage_reason_en: Community discussion and tagline attract attention, but lack of actual use cases or
+    feature descriptions leaves adoption reasons unclear.

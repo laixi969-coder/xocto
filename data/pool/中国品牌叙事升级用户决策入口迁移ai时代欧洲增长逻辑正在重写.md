@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMickFVX3lxTE01SVRrUjAxM3VO
 summary: 中国品牌叙事升级，用户决策入口迁移：AI时代欧洲增长逻辑正在重写 t.cj.sina.cn
 first_seen: '2026-09-08T10:38:53Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

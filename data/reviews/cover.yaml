@@ -349,3 +349,42 @@
   usage_reason: 如果可逆脱敏能确保数据可用性并简化流程，开发者可能采用它来安全地利用外部 AI 能力。
   usage_reason_en: If reversible anonymization ensures data usability and simplifies the process, developers
     may adopt it to safely leverage external AI capabilities.
+- id: req-initial-cover-2026-09-08
+  project_slug: cover
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发者调用外部 AI 时敏感数据泄露的痛点，旧替代是放弃外部 AI 或不可逆脱敏，cover 提供可逆方案，价值结构成立。
+    evidence_ids:
+    - ev-f59305b3749d3ca8
+  - gate: consensus
+    status: insufficient
+    reason: 开源项目刚发布，星数 41，尚无公开采用或社区讨论证据，共识尚未形成。
+    evidence_ids:
+    - ev-045f38535de0ac4d
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是开发者或企业安全团队，但付费路径未验证。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 可逆脱敏贴近数据隐私的第一性目标，承诺可通过本地恢复验证，安全边界清晰。
+    evidence_ids: []
+  next_validation: 查找 cover 的官方文档或 README 中是否包含定价、部署方式或客户案例。
+  market: ''
+  job: 开发者在调用外部 AI 代理处理包含敏感数据的任务时，需要保护数据隐私。
+  job_en: Developers need to protect data privacy when invoking external AI agents to process tasks involving
+    sensitive data.
+  pain: 直接发送真实数据给第三方 AI 服务存在泄露风险，可能导致合规问题和商业损失。
+  pain_en: Sending real data directly to third-party AI services poses leakage risks, potentially causing
+    compliance issues and business losses.
+  current_alternative: 目前开发者可能选择不调用外部 AI、自行脱敏后发送（但无法恢复），或依赖企业内部的私有部署方案。
+  current_alternative_en: Currently, developers may choose not to call external AI, send data after manual
+    anonymization (but cannot restore), or rely on on-premises private deployment.
+  usage_reason: cover 提供可逆的假数据替换，使开发者既能利用外部 AI 的能力，又能在本地恢复原始结果，兼顾隐私和功能。
+  usage_reason_en: cover provides reversible fake data substitution, allowing developers to leverage external
+    AI capabilities while restoring original results locally, balancing privacy and functionality.

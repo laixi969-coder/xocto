@@ -24,7 +24,7 @@ summary: A topexecutive at one of the UK‘s hottest AI startups has made the bo
   investo...
 first_seen: '2026-09-08T08:12:00Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

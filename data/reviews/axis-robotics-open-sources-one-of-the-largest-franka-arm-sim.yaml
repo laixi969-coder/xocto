@@ -1,0 +1,40 @@
+- id: req-initial-axis-robotics-open-sources-one-of-the-largest-franka-arm-sim-2026-09-08
+  project_slug: axis-robotics-open-sources-one-of-the-largest-franka-arm-sim
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 解决机械臂操作模型训练缺乏大规模仿真数据的痛点；旧流程为自行遥操作采集或用小数据集，此为工作流推理，数据集实际质量仍待核验
+    evidence_ids:
+    - ev-01615ba5c0eb7e9d
+  - gate: consensus
+    status: insufficient
+    reason: 目前仅见一条媒体报道，未见下载量、社区采用或研究者反馈，无法判断关注是否持续，判证据不足
+    evidence_ids:
+    - ev-01615ba5c0eb7e9d
+  - gate: model
+    status: insufficient
+    reason: 开源免费发布，买方与收费路径未披露，可能走数据服务或融资叙事，这是判断而非已验证事实
+    evidence_ids:
+    - ev-01615ba5c0eb7e9d
+  - gate: truth
+    status: insufficient
+    reason: 仿真数据能否确定性迁移到真实机械臂（sim-to-real）无实测证据，承诺的交付效果待核验，暂判不足
+    evidence_ids:
+    - ev-01615ba5c0eb7e9d
+  next_validation: 检查该数据集所在开源仓库的星标增长、issue 讨论与下载记录，确认存在真实研究者采用而非一次性曝光。
+  market: ''
+  job: 机器人研究团队在训练 Franka 机械臂操作策略时获取大规模仿真训练数据
+  job_en: Robotics teams obtaining large-scale simulation data to train Franka arm manipulation policies
+  pain: 真实机器人数据采集昂贵且缓慢，小规模数据训出的操作策略泛化差，数据是物理 AI 的主要瓶颈
+  pain_en: Real-robot data collection is costly and slow; policies trained on small datasets generalize
+    poorly, making data the main bottleneck for physical AI.
+  current_alternative: 自行遥操作采集演示、复用既有小规模数据集，或在仿真器中手写任务脚本生成数据
+  current_alternative_en: Collecting demonstrations via teleoperation, reusing smaller existing datasets,
+    or scripting synthetic tasks in simulators.
+  usage_reason: 若数据集规模与质量属实，团队可省去自建采集流程，直接下载用于预训练与评测，成本显著降低
+  usage_reason_en: If scale and quality hold, teams skip building their own collection pipeline and download
+    the data for pretraining and evaluation at much lower cost.

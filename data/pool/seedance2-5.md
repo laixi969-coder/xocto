@@ -86,7 +86,7 @@ summary: "I run the [Seedance 2.5 video generator]( https://seedance2-5.com/) we
   \ you check first: the walking subject's outline or the floor and pews revealed behind the removed people?"
 first_seen: '2026-09-08T12:04:47Z'
 last_seen: '2026-09-08T14:34:19Z'
-status: pending_filter
+status: rejected
 sources:
 - v2ex
 sightings:

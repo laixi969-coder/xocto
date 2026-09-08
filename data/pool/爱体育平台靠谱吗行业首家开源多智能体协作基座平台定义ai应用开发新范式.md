@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE1CeG9sWkt6UjlI
 summary: 爱体育平台靠谱吗行业首家开源多智能体协作基座平台，定义AI应用开发新范式 体坛
 first_seen: '2026-09-07T22:29:01Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

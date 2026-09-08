@@ -1,0 +1,38 @@
+- id: req-initial-小米mimo桌面客户端开放邀测-为首个面向个人用户ai桌面应用-2026-09-08
+  project_slug: 小米mimo桌面客户端开放邀测-为首个面向个人用户ai桌面应用
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人用户桌面任务效率问题，痛点普遍，交付可确定。
+    evidence_ids:
+    - ev-888f446ceed2e38a
+  - gate: consensus
+    status: insufficient
+    reason: 邀测阶段，无公开使用数据，共识证据不足。
+    evidence_ids:
+    - ev-888f446ceed2e38a
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，可能免费或捆绑小米生态。
+    evidence_ids:
+    - ev-888f446ceed2e38a
+  - gate: truth
+    status: supported
+    reason: 产品贴近个人效率提升目标，交付可实现，但需关注隐私安全。
+    evidence_ids:
+    - ev-888f446ceed2e38a
+  next_validation: 查找小米MiMo官方页面或用户反馈，确认具体功能和邀测体验。
+  market: ''
+  job: 个人用户需要在桌面端快速完成信息查询、文档处理等任务。
+  job_en: Individual users need to quickly complete tasks like information lookup and document processing
+    on desktop.
+  pain: 传统桌面操作需要手动打开多个软件，效率低。
+  pain_en: Traditional desktop operations require manually opening multiple apps, which is inefficient.
+  current_alternative: 用户可能使用浏览器搜索、办公软件或手机助手。
+  current_alternative_en: Users may use browser search, office software, or mobile assistants.
+  usage_reason: 小米品牌有大量用户基础，邀测可能吸引尝鲜者。
+  usage_reason_en: Xiaomi's large user base may attract early adopters to the beta.

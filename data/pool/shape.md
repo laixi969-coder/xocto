@@ -34,7 +34,7 @@ canonical_url: https://producthunt.com/products/shape-5
 summary: The agentic IDE for designers and programmers
 first_seen: '2026-08-19T23:56:11Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

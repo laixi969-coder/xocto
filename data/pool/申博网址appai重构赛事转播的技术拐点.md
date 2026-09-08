@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTE1VMERialBMREc3
 summary: 申博网址APP：AI重构赛事转播的技术拐点 体坛
 first_seen: '2026-09-07T21:13:51Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,39 @@
+- id: req-initial-lyrimuse-2026-09-08
+  project_slug: lyrimuse
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决歌词同步和版本匹配的痛点，但刚性不足，且现有替代方式（如静态歌词）已能满足基本需求。
+    evidence_ids:
+    - ev-9224a18e3a0e6c26
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏用户采用或关注数据，无法判断共识。
+    evidence_ids:
+    - ev-9224a18e3a0e6c26
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 查找 Lyrimuse 的官方页面或应用商店页面，获取用户评价和下载量数据。
+  market: ''
+  job: 用户在听音乐时希望看到与歌曲逐字同步的歌词，并自动获得正确的歌词版本。
+  job_en: Users want to see word-synced lyrics while listening to music and automatically get the correct
+    version.
+  pain: 现有歌词显示往往不同步或版本错误，影响跟唱和理解。
+  pain_en: Existing lyrics displays are often out of sync or have wrong versions, affecting singing along
+    and understanding.
+  current_alternative: 用户可能使用静态歌词应用或手动搜索歌词，但缺乏同步和版本选择。
+  current_alternative_en: Users may use static lyrics apps or manually search for lyrics, but lack synchronization
+    and version selection.
+  usage_reason: 该产品提供更精准的歌词体验，可能吸引对歌词准确性有要求的音乐爱好者。
+  usage_reason_en: The product offers a more precise lyrics experience, potentially attracting music enthusiasts
+    who demand accuracy.

@@ -1,0 +1,41 @@
+- id: req-initial-小度发布家庭场景智能体应用及四款硬件新品-2026-09-08
+  project_slug: 小度发布家庭场景智能体应用及四款硬件新品
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决家庭用户控制多设备、获取信息的痛点，需求刚性中等，交付可确定。
+    evidence_ids:
+    - ev-952e26cb9c0ef960
+  - gate: consensus
+    status: insufficient
+    reason: 公开报道未提供用户采用或使用数据，共识证据不足。
+    evidence_ids:
+    - ev-952e26cb9c0ef960
+  - gate: model
+    status: insufficient
+    reason: 未披露定价或商业模式，买方可能是家庭用户，但付费路径不明。
+    evidence_ids:
+    - ev-952e26cb9c0ef960
+  - gate: truth
+    status: supported
+    reason: 产品贴近家庭生活第一性目标，交付承诺可实现，安全边界需关注。
+    evidence_ids:
+    - ev-952e26cb9c0ef960
+  next_validation: 查找小度官方产品页面或用户评价，确认具体功能和实际使用反馈。
+  market: ''
+  job: 家庭用户需要便捷地控制家居设备、获取信息和娱乐，减少操作步骤。
+  job_en: Home users need convenient control of smart devices, access to information and entertainment,
+    reducing manual steps.
+  pain: 传统智能家居操作繁琐，多个App不统一，老人儿童使用困难。
+  pain_en: Traditional smart home operations are cumbersome, with multiple apps not unified, making it
+    hard for elderly and children.
+  current_alternative: 目前用户可能使用多个智能家居App或语音助手分别控制设备。
+  current_alternative_en: Currently users may use multiple smart home apps or voice assistants to control
+    devices separately.
+  usage_reason: 小度作为成熟品牌，有硬件基础和用户信任，可能吸引家庭用户尝试一体化智能体。
+  usage_reason_en: As an established brand with hardware foundation and user trust, Xiaodu may attract
+    home users to try an integrated agent.

@@ -22,7 +22,7 @@ summary: 'SG60: Running Singapore on innovation – brains, bytes, and billion-d
   Economic Development Board (EDB)'
 first_seen: '2026-09-06T07:00:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

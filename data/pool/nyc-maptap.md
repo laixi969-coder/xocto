@@ -21,7 +21,7 @@ canonical_url: https://albertjoseph0.github.io/nyc-maptap
 summary: Learn NYC neighborhoods
 first_seen: '2026-09-08T02:36:47Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

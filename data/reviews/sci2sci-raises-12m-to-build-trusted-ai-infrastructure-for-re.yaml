@@ -1,0 +1,39 @@
+- id: req-initial-sci2sci-raises-12m-to-build-trusted-ai-infrastructure-for-re-2026-09-08
+  project_slug: sci2sci-raises-12m-to-build-trusted-ai-infrastructure-for-re
+  level: initial
+  reviewed_at: '2026-09-08T14:34:47Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决受监管行业数据整理与验证的痛点，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-032c5d74b1270bff
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示早期关注，但缺乏用户采用或场景验证证据。
+    evidence_ids:
+    - ev-032c5d74b1270bff
+  - gate: model
+    status: insufficient
+    reason: 买方可能是受监管企业，但付费模式未披露。
+    evidence_ids:
+    - ev-032c5d74b1270bff
+  - gate: truth
+    status: supported
+    reason: 贴近数据合规第一性目标，交付可确定，安全边界清晰。
+    evidence_ids:
+    - ev-032c5d74b1270bff
+  next_validation: 查找 sci2sci 官方产品页或客户案例，确认具体工作流与定价模式。
+  market: ''
+  job: 合规人员需要确保提交给监管机构的数据准确、完整且可追溯。
+  job_en: Compliance officers need to ensure data submitted to regulators is accurate, complete, and traceable.
+  pain: 手动整理和验证数据耗时且易错，审计失败风险高。
+  pain_en: Manual data organization and validation is time-consuming and error-prone, with high risk of
+    audit failure.
+  current_alternative: 目前多依赖电子表格和人工核对流程。
+  current_alternative_en: Currently relies on spreadsheets and manual review processes.
+  usage_reason: 受监管行业对数据可信度有刚性要求，AI 可自动化校验并留下审计痕迹。
+  usage_reason_en: Regulated industries have rigid requirements for data trustworthiness; AI can automate
+    validation and leave audit trails.

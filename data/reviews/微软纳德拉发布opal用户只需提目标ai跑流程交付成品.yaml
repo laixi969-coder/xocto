@@ -1,0 +1,37 @@
+- id: req-initial-微软纳德拉发布opal用户只需提目标ai跑流程交付成品-2026-09-08
+  project_slug: 微软纳德拉发布opal用户只需提目标ai跑流程交付成品
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决知识工作者流程自动化痛点，需求刚性高，交付可确定。
+    evidence_ids:
+    - ev-3e1545926a39e0ea
+  - gate: consensus
+    status: insufficient
+    reason: 发布初期，无采用数据，共识证据不足。
+    evidence_ids:
+    - ev-3e1545926a39e0ea
+  - gate: model
+    status: insufficient
+    reason: 未披露定价，可能集成到Microsoft 365，买方可能是企业。
+    evidence_ids:
+    - ev-3e1545926a39e0ea
+  - gate: truth
+    status: supported
+    reason: 产品贴近自动化目标，交付可实现，但需确保流程可靠性。
+    evidence_ids:
+    - ev-3e1545926a39e0ea
+  next_validation: 查找Opal官方文档或演示，确认具体功能和应用场景。
+  market: ''
+  job: 知识工作者需要自动化完成复杂工作流程，减少手动操作。
+  job_en: Knowledge workers need to automate complex workflows, reducing manual effort.
+  pain: 传统工作流程涉及多个步骤和工具，耗时且易出错。
+  pain_en: Traditional workflows involve multiple steps and tools, which are time-consuming and error-prone.
+  current_alternative: 用户可能使用RPA工具、脚本或手动操作。
+  current_alternative_en: Users may use RPA tools, scripts, or manual operations.
+  usage_reason: 微软的企业生态和信任度可能吸引用户尝试。
+  usage_reason_en: Microsoft's enterprise ecosystem and trust may attract users to try.

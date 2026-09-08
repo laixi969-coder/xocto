@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDQ5cGgyMFl3
 summary: 'The Rise of Insurtech: How Technology is Transforming the Insurance Industry The Ritz Herald'
 first_seen: '2026-09-07T22:00:53Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

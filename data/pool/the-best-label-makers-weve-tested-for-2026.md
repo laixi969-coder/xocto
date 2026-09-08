@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTFBScGoxMlZXZV9W
 summary: The Best Label Makers We've Tested for 2026 pcmag.com
 first_seen: '2026-09-06T07:00:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

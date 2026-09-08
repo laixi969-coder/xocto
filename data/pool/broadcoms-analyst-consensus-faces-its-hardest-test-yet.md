@@ -1,11 +1,12 @@
 ---
 slug: broadcoms-analyst-consensus-faces-its-hardest-test-yet
-name: Broadcom's Analyst Consensus Faces Its Hardest Test Yet
+name: Broadcom
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 这是一条关于 Broadcom 的新闻报道，标题暗示其分析师共识面临挑战，但内容未提供具体细节。
 inspiration: ''
-summary_en: ''
+summary_en: This is a news report about Broadcom, with a headline suggesting its analyst consensus faces
+  challenges, but no specific details are provided.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOenFranFhRHk5
 summary: Broadcom's Analyst Consensus Faces Its Hardest Test Yet AD HOC NEWS
 first_seen: '2026-09-08T11:12:10Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Broadcom's Analyst Consensus Faces Its Hardest Test Yet
+# Broadcom
 
 Broadcom's Analyst Consensus Faces Its Hardest Test Yet AD HOC NEWS
 

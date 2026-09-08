@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE53RnB6aWpWQnBf
 summary: 评估AI智能体的实用框架-人工智能 至顶网
 first_seen: '2026-09-08T10:03:07Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

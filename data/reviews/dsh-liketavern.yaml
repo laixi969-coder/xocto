@@ -1,0 +1,39 @@
+- id: req-initial-dsh-liketavern-2026-09-08
+  project_slug: dsh-liketavern
+  level: initial
+  reviewed_at: '2026-09-08T14:34:27Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决本地模型玩家需要丰富角色卡管理与状态追踪的痛点，结构上能提供确定性剧情推演支持。
+    evidence_ids:
+    - ev-3066ede5c394902d
+  - gate: consensus
+    status: supported
+    reason: 角色扮演社区对酒馆式前端界面有高度共识与成熟资产规范，但开源仓库关注度仍处于早期阶段。
+    evidence_ids:
+    - ev-3066ede5c394902d
+  - gate: model
+    status: insufficient
+    reason: 属于纯开源前端插件项目，当前未设立商业收费模式，未披露任何商业化变现路径。
+    evidence_ids:
+    - ev-3066ede5c394902d
+  - gate: truth
+    status: supported
+    reason: 功能边界清晰，基于 BM25 检索与状态增量管理实现确定性的上下文组织与操作回滚。
+    evidence_ids:
+    - ev-3066ede5c394902d
+  next_validation: 观察开源仓库在社区讨论中的实际安装部署反馈与上下文检索稳定性测试
+  market: ''
+  job: 在 DeepSeek 运行时中进行长上下文角色扮演与世界观设定互动
+  job_en: Engage in long-context AI roleplay and world-building interactions on DeepSeek runtimes
+  pain: 原生模型聊天界面缺乏角色卡管理、设定书关联、长期状态追踪及对话回滚能力，难以维系深度人设
+  pain_en: Native LLM chat interfaces lack character card management, lorebook linking, long-term memory,
+    and message rollback, breaking deep RP immersion
+  current_alternative: 独立部署 SillyTavern 并通过 API 串联后端推理框架
+  current_alternative_en: Deploy standalone SillyTavern and manually connect it to backend inference endpoints
+  usage_reason: 直接将酒馆常用的人设与世界状态系统原生嵌入 dsh 环境，降低跨工具配置成本
+  usage_reason_en: Natively embeds familiar Tavern-style lorebooks and world states into dsh runtime,
+    reducing tool-chain setup friction

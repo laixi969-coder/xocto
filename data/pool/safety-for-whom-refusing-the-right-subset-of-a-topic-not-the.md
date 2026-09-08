@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/blog/MultiverseComputingCAI/safety-for-who
 summary: ''
 first_seen: '2026-09-08T14:23:07Z'
 last_seen: '2026-09-08T14:34:46Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

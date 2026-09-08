@@ -1,11 +1,11 @@
 ---
 slug: manualdousuario
-name: manualdousuario
+name: LibreOffice
 builder: rpgbr
 category: ''
-summary_zh: ''
+summary_zh: LibreOffice 下载量突破记录，原因是宣布不含 AI 功能
 inspiration: ''
-summary_en: ''
+summary_en: LibreOffice download records broken after announcing no AI features
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +21,7 @@ canonical_url: https://manualdousuario.net/en/libreoffice-download-record-no-ai
 summary: LibreOffice breaks download records after declaring it has no AI features
 first_seen: '2026-09-08T14:05:57Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: market_context
 sources:
 - hackernews
 sightings:
@@ -34,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# manualdousuario
+# LibreOffice
 
 LibreOffice breaks download records after declaring it has no AI features
 

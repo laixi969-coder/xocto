@@ -3,32 +3,38 @@ slug: folio
 name: Folio
 builder: Bogdan Dragomir
 category: AI + 效率
-summary_zh: Folio 是一个稍后读应用，将用户保存的文章排版后发送到电子阅读器，供用户离线阅读。具体工作流程和交付细节仍待核验。
-inspiration: 趋势：阅读工具正从手机屏幕转向专用阅读设备，排版和分发成为新价值点。切入：可从电子阅读器用户或深度阅读人群切入，但需明确与现有稍后读服务的差异。
-summary_en: Folio is a read-later app that sends a typeset digest to your e-reader for offline reading.
-  Specific workflow and deliverables remain to be verified.
-inspiration_en: 'Trend: Reading tools are shifting from phone screens to dedicated e-readers, with typesetting
-  and distribution becoming new value points. Entry: Could target e-reader users or deep readers, but
-  needs to clarify differentiation from existing read-later services.'
+summary_zh: 深度阅读者在日常收集网络文章后，面临跨设备排版混乱和屏幕疲劳问题。Folio 接收用户保存的待读文章与网页链接，自动进行排版整合并生成排版文摘，定时推送到用户的电子墨水屏阅读器上供离线阅读；具体解析与排版规则仍待核验。
+inspiration: 趋势：内容消费从即时刷屏转向异步、沉浸式离线精读。切入：从电纸书高频用户切入，提供跨源文章清洗、排版与自动投递服务，按月度订阅或投递配额收费。
+summary_en: Designed for long-form readers, Folio collects saved web articles, formats them into a curated
+  typeset digest, and sends it directly to e-readers for offline reading. Specific parsing workflows and
+  format support remain to be verified.
+inspiration_en: 'Trend: Shift from fragmented feeds to asynchronous, distraction-free reading. Wedge:
+  Target e-ink device owners with automated web-to-reader formatting and scheduled delivery via subscription.'
 priority_review: false
 project_type: new_application
 industries:
-- 个人效率
+- 数字出版
+- 个人生产力
 industries_en:
+- Digital Publishing
 - Personal Productivity
 jobs:
-- 阅读者
+- 知识工作者
+- 阅读爱好者
 jobs_en:
-- Readers
-regions: []
-regions_en: []
+- Knowledge Workers
+- Reading Enthusiasts
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://www.producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba
 canonical_url: https://producthunt.com/products/folio-e0a9e0fb-8ef8-4fcf-a558-fa5fdd41a3ba
 summary: A read-later app sending a typeset digest to your e-reader
 first_seen: '2026-08-27T10:01:12Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - newssearch

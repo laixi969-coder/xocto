@@ -76,3 +76,43 @@
   usage_reason: 公开代码仓库有 47 个收藏、11 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。
   usage_reason_en: Its public repository has 47 stars and 11 forks, showing developer attention; repeat
     use and payment are not yet verified.
+- id: req-initial-overlay-studio-2026-09-08
+  project_slug: overlay-studio
+  level: initial
+  reviewed_at: '2026-09-08T14:34:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决口播视频创作者手动添加动效层的耗时和技能痛点，AI 读取字幕稿自动编排，交付可编辑的透明动效层，价值结构成立。
+    evidence_ids:
+    - ev-0937fec4ec69fc59
+  - gate: consensus
+    status: insufficient
+    reason: 公开代码仓库 星标增长显示早期关注，但缺乏用户评价或采用数据，共识尚未形成。
+    evidence_ids:
+    - ev-566c04be9be1e0a2
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未披露定价或付费路径，商业模式不明确。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: AI 生成动效层贴近创作第一性目标，导出透明层可确定交付，人工可修改保证可控性。
+    evidence_ids:
+    - ev-0937fec4ec69fc59
+  next_validation: 获取 overlay-studio 的官方文档或用户案例，确认实际工作流和交付效果。
+  market: ''
+  job: 口播视频创作者在剪辑时需要为视频添加动效层以增强表现力，但手动添加耗时且需要专业设计技能。
+  job_en: Talking-head video creators need to add motion graphics to enhance their videos, but doing it
+    manually is time-consuming and requires design skills.
+  pain: 手动添加动效层耗时，且创作者往往缺乏设计能力，导致视频表现力不足。
+  pain_en: Manually adding motion graphics is time-consuming, and creators often lack design skills, resulting
+    in less engaging videos.
+  current_alternative: 创作者可能使用剪映等工具的预设模板，或手动逐帧添加效果，或外包给设计师。
+  current_alternative_en: Creators may use preset templates in tools like CapCut, manually add effects
+    frame by frame, or outsource to designers.
+  usage_reason: AI 自动从字幕稿生成动效层，节省时间且无需设计技能，同时保持可编辑性，适合追求效率的独立创作者。
+  usage_reason_en: AI automatically generates motion layers from the transcript, saving time and requiring
+    no design skills, while remaining editable, appealing to independent creators seeking efficiency.

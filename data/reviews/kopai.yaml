@@ -1,0 +1,35 @@
+- id: req-initial-kopai-2026-09-08
+  project_slug: kopai
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点：代理部署的复杂性，但具体痛点未明。
+    evidence_ids:
+    - ev-4b67e3e32ba218bc
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏采用或关注证据。
+    evidence_ids:
+    - ev-4b67e3e32ba218bc
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 官方文档或定价页
+  market: ''
+  job: 开发者或企业需要部署和运行 AI 代理的基础设施。
+  job_en: Developers or enterprises need infrastructure to deploy and run AI agents.
+  pain: 自建代理基础设施复杂且耗时。
+  pain_en: Building agent infrastructure from scratch is complex and time-consuming.
+  current_alternative: 目前可能使用云服务商或自建环境。
+  current_alternative_en: Currently may use cloud providers or self-hosted environments.
+  usage_reason: 如果提供简化部署，可能吸引用户，但需求强度未明。
+  usage_reason_en: If it simplifies deployment, it may attract users, but demand intensity is unclear.

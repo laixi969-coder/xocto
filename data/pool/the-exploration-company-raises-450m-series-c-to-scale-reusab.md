@@ -1,11 +1,12 @@
 ---
 slug: the-exploration-company-raises-450m-series-c-to-scale-reusab
-name: The Exploration Company raises $450M Series C to scale reusable space transport
+name: The Exploration Company
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -23,7 +24,7 @@ summary: European space company The Exploration Company (TEC) has raised $450 mi
   B...
 first_seen: '2026-09-08T12:34:00Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -34,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# The Exploration Company raises $450M Series C to scale reusable space transport
+# The Exploration Company
 
 European space company The Exploration Company (TEC) has raised $450 million in Series C funding toadvance its reusable space transportation systems and expand its operations.The round was co-led by B...
 

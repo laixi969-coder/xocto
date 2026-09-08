@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/485630.html
 summary: 从看市场，到见场景；从认识伙伴，到寻找合作。
 first_seen: '2026-09-08T02:42:24Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://ycj.bearblog.dev/ai-again
 summary: My business partner sent a 5K vibe-coded PR that he didn't even test
 first_seen: '2026-09-08T01:48:18Z'
 last_seen: '2026-09-08T14:34:23Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

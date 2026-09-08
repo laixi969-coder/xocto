@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMia0FVX3lxTFByR1N2d2I3eXBl
 summary: The UN Just Named 2 Behaviors That Make AI ‘Too Powerful.' Both Have Already Happened BeInCrypto
 first_seen: '2026-09-08T12:15:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

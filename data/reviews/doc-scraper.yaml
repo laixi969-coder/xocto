@@ -1,0 +1,37 @@
+- id: req-initial-doc-scraper-2026-09-08
+  project_slug: doc-scraper
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏公开使用案例或付费信息，无法确认需求强度。
+    evidence_ids:
+    - ev-9a8ef26e16b74231
+  - gate: consensus
+    status: insufficient
+    reason: 未见社区讨论或使用数据，无法确认市场共识。
+    evidence_ids:
+    - ev-9a8ef26e16b74231
+  - gate: model
+    status: insufficient
+    reason: 未公开性能指标或模型细节，技术可行性不明。
+    evidence_ids:
+    - ev-9a8ef26e16b74231
+  - gate: truth
+    status: insufficient
+    reason: 缺乏可验证的付费或使用数据，真实性难以确认。
+    evidence_ids:
+    - ev-9a8ef26e16b74231
+  next_validation: 公开使用案例或部署文档
+  market: ''
+  job: 软件工程师、技术支持工程师
+  job_en: Software Engineer, Technical Support Engineer
+  pain: 需要在离线环境下快速检索文档
+  pain_en: Need quick document retrieval in offline environments
+  current_alternative: 在线搜索、手工查阅
+  current_alternative_en: Online search, manual lookup
+  usage_reason: 想要在无网络环境下使用编码代理时快速获取文档信息
+  usage_reason_en: Want quick access to documents for coding agents in offline settings

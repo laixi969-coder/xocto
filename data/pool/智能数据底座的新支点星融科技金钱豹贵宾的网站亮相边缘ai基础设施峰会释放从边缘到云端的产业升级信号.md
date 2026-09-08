@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTE53a3VTcE5LVmxT
 summary: 智能数据底座的新支点：星融科技金钱豹贵宾的网站亮相边缘AI基础设施峰会，释放从边缘到云端的产业升级信号 体坛
 first_seen: '2026-09-08T01:17:33Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

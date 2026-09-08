@@ -1,0 +1,41 @@
+- id: req-initial-tradingagents-2026-09-08
+  project_slug: tradingagents
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决交易决策中信息过载和分析耗时的问题，痛点刚性，交付可确定。
+    evidence_ids:
+    - ev-b6a78a8b309fbb80
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度高，但缺乏持续采用证据，场景强度待核验。
+    evidence_ids:
+    - ev-b6a78a8b309fbb80
+  - gate: model
+    status: insufficient
+    reason: 开源框架，商业模式未明，可能面向 to B 或 to C，但无公开定价。
+    evidence_ids:
+    - ev-b6a78a8b309fbb80
+  - gate: truth
+    status: insufficient
+    reason: 金融交易决策需谨慎，模型幻觉和合规风险需进一步验证。
+    evidence_ids:
+    - ev-b6a78a8b309fbb80
+  next_validation: 查找 TradingAgents 的官方文档或案例，确认其实际交易决策流程和回测结果。
+  market: ''
+  job: 交易员和量化分析师需要快速分析市场数据、新闻和财报，形成交易决策。
+  job_en: Traders and quantitative analysts need to quickly analyze market data, news, and financial reports
+    to form trading decisions.
+  pain: 信息量大、分析耗时，人工处理易遗漏和延迟，决策质量受情绪影响。
+  pain_en: Large information volume and time-consuming analysis, manual processing is prone to omissions
+    and delays, and decision quality is affected by emotions.
+  current_alternative: 目前依赖人工研究、传统量化模型或单一 AI 分析工具。
+  current_alternative_en: Currently relies on manual research, traditional quantitative models, or single
+    AI analysis tools.
+  usage_reason: 多智能体协作可模拟完整投研流程，提供结构化决策建议，降低信息过载。
+  usage_reason_en: Multi-agent collaboration can simulate a complete investment research process, providing
+    structured decision suggestions and reducing information overload.

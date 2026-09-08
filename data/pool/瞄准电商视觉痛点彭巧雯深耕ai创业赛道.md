@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMibEFVX3lxTE5EVncxdXFGMk8w
 summary: 瞄准电商视觉痛点彭巧雯深耕AI创业赛道 中华网
 first_seen: '2026-09-08T07:57:04Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

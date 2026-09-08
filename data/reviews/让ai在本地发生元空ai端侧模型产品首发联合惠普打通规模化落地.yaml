@@ -1,0 +1,34 @@
+- id: req-initial-让ai在本地发生元空ai端侧模型产品首发联合惠普打通规模化落地-2026-09-08
+  project_slug: 让ai在本地发生元空ai端侧模型产品首发联合惠普打通规模化落地
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品提供本地推理，解决延迟与隐私痛点
+    evidence_ids:
+    - ev-4f2da43714b91fbb
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开用户案例或市场共识
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未公开模型细节或性能数据
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 缺乏定价、付费或使用数据
+    evidence_ids: []
+  next_validation: 公开定价页或用户案例
+  market: ''
+  job: AI工程师
+  job_en: AI Engineer
+  pain: 需要在本地设备上部署 AI 模型以降低延迟和保护隐私
+  pain_en: Need to deploy AI models locally to reduce latency and protect privacy
+  current_alternative: 依赖云端推理或自行搭建本地推理框架
+  current_alternative_en: Relying on cloud inference or building local inference frameworks
+  usage_reason: 通过与惠普合作，获得硬件支持和规模化落地方案
+  usage_reason_en: Partnering with HP provides hardware support and scalable deployment solutions

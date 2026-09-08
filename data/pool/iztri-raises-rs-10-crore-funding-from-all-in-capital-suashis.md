@@ -1,27 +1,40 @@
 ---
 slug: iztri-raises-rs-10-crore-funding-from-all-in-capital-suashis
-name: Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others
+name: Iztri
 builder: ''
-category: ''
-summary_zh: ''
-inspiration: ''
-summary_en: ''
-inspiration_en: ''
+category: AI + 商业
+summary_zh: Iztri 是一家印度初创公司，具体业务未在资料中明确，可能涉及 AI 驱动的采购或供应链管理。融资用于扩展业务，但产品细节和用户流程待核验。
+inspiration: 印度供应链数字化需求增长，AI 在采购和供应商管理中的应用机会显现。可从特定行业或环节切入，提供垂直解决方案。
+summary_en: Iztri is an Indian startup whose specific business is not detailed in the source, possibly
+  involving AI-driven procurement or supply chain management. The funding will be used for expansion,
+  but product details and user workflows need verification.
+inspiration_en: India's supply chain digitization is growing, creating opportunities for AI in procurement
+  and supplier management. Entry could target specific industries or functions with vertical solutions.
 priority_review: false
 project_type: new_application
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+industries:
+- 制造业
+- 供应链
+industries_en:
+- Manufacturing
+- Supply Chain
+jobs:
+- 采购经理
+- 供应商管理人员
+jobs_en:
+- Procurement managers
+- Supplier management staff
+regions:
+- 印度
+regions_en:
+- India
 open_source: false
 url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxObnJBSzEtUlVKNHFIdVdsWDd1ZTNqZXRUaVZwTlJqM3JMeVhMbENEbEoxVlc0amRSeG5mTXJPVGVTdlBBWnVraDJsX09jTHVhOGV4S0l0Um9vNlZMYUgwWkF1U1pJTVRQdjBfYUVPMnA5WmRVTTlocTN1M2FFQzVBejRyX0M2QnZwZGo4QzN2QlVMREtKeFVKWjB2UExxNmNMM1M5Rl9uLVVaSUVtYmRfZE9tQXJnYWRya3AxeGhKdzdYdVA4Q3cwaEtQTUhrdDlCeEl2TVJTMTR4UdIB3wFBVV95cUxNcFctY3RTTEwzM2RiQkUzU2pOckpJNDFIQm5rVy1LWmw3NWdROVYxRW9KRW5VY0xwRVJVUUI4RUJPSkYwSzhfNktWTUhOeUV6UUhqaHVrZm1wNnhmbktaMEVoQWliOXQzb0tKckVLdm9ySzdlZVREUTZfV1JZLUdBdUlNRUJPOWNzUlZzNm9CR1NBbXNBMUY4cVdsZWxUMHNldzN0MUFCel9vVDlRekQtV1locHB1UmJwREJIT3JXUWZWTkRSd2R6b21hdms2T0lZdXFETlYyekt4UnJrdHhv?oc=5
 canonical_url: https://news.google.com/rss/articles/CBMi2gFBVV95cUxObnJBSzEtUlVKNHFIdVdsWDd1ZTNqZXRUaVZwTlJqM3JMeVhMbENEbEoxVlc0amRSeG5mTXJPVGVTdlBBWnVraDJsX09jTHVhOGV4S0l0Um9vNlZMYUgwWkF1U1pJTVRQdjBfYUVPMnA5WmRVTTlocTN1M2FFQzVBejRyX0M2QnZwZGo4QzN2QlVMREtKeFVKWjB2UExxNmNMM1M5Rl9uLVVaSUVtYmRfZE9tQXJnYWRya3AxeGhKdzdYdVA4Q3cwaEtQTUhrdDlCeEl2TVJTMTR4UdIB3wFBVV95cUxNcFctY3RTTEwzM2RiQkUzU2pOckpJNDFIQm5rVy1LWmw3NWdROVYxRW9KRW5VY0xwRVJVUUI4RUJPSkYwSzhfNktWTUhOeUV6UUhqaHVrZm1wNnhmbktaMEVoQWliOXQzb0tKckVLdm9ySzdlZVREUTZfV1JZLUdBdUlNRUJPOWNzUlZzNm9CR1NBbXNBMUY4cVdsZWxUMHNldzN0MUFCel9vVDlRekQtV1locHB1UmJwREJIT3JXUWZWTkRSd2R6b21hdms2T0lZdXFETlYyekt4UnJrdHhv?oc=5
 summary: Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others The Economic Times
 first_seen: '2026-09-08T05:51:37Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: queued
 sources:
 - newssearch
 sightings:
@@ -32,7 +45,7 @@ sightings:
   kind: news
 ---
 
-# Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others
+# Iztri
 
 Iztri raises Rs 10 crore funding from All In Capital, Suashish Group, others The Economic Times
 

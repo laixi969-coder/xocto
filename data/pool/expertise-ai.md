@@ -3,37 +3,38 @@ slug: expertise-ai
 name: Expertise AI
 builder: Zac Zuo
 category: AI + 商业
-summary_zh: Expertise AI 面向 GTM（市场进入）专业人士，将他们的技能转化为经常性收入。用户输入自己的专业知识和经验，AI 生成可售卖的课程、咨询或内容产品，但具体流程和交付形式仍需核验。
-inspiration: 趋势是个人专业知识被 AI 产品化，实现被动收入。切入可从特定垂直领域（如 SaaS 营销）开始，但需先验证 AI 生成内容的质量和用户付费意愿。
-summary_en: Expertise AI targets GTM professionals, turning their skills into recurring revenue. Users
-  input their expertise and experience, and AI generates sellable courses, consulting, or content products,
-  but specific processes and deliverables remain unverified.
-inspiration_en: 'Trend: Personal expertise is productized by AI, enabling passive income. Entry: start
-  with specific verticals (e.g., SaaS marketing), but first validate AI-generated content quality and
-  user willingness to pay.'
+summary_zh: 面向市场营销顾问与 GTM 专业人士，该产品主打将其市场拓展与营销经验打包转化为持续订阅收入；具体输入物、模型处理流程及最终交付给客户的交互形式在公开资料中仍待核验。
+inspiration: 趋势在于知识工作者的咨询方法论正在被尝试封装为自动化服务；切入点应避开抽象概念，聚焦于把具体的 GTM 获客策略或销售话术拆解为可按次或按月交付的确定性执行报告。
+summary_en: Expertise AI is a platform designed to help marketing professionals and GTM leaders turn their
+  domain expertise and go-to-market skills into recurring revenue streams.
+inspiration_en: The broader trend is productizing professional consulting knowledge into automated services.
+  A practical angle is packaging concrete GTM playbooks into verifiable delivery pipelines instead of
+  abstract advice.
 priority_review: false
 project_type: new_application
 industries:
-- 市场营销
-- 销售
+- 销售与市场营销
+- 企业服务
 industries_en:
-- Marketing
-- Sales
+- Sales & Marketing
+- Enterprise Services
 jobs:
-- GTM 专业人士
-- 营销顾问
+- 市场营销顾问
+- GTM 负责人
 jobs_en:
-- GTM Professional
 - Marketing Consultant
-regions: []
-regions_en: []
+- GTM Lead
+regions:
+- 全球
+regions_en:
+- Global
 open_source: false
 url: https://www.producthunt.com/products/expertise-ai
 canonical_url: https://producthunt.com/products/expertise-ai
 summary: Turn your GTM skills into recurring revenue
 first_seen: '2026-08-22T10:59:49Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - newssearch

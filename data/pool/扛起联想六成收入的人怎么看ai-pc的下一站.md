@@ -1,11 +1,12 @@
 ---
 slug: 扛起联想六成收入的人怎么看ai-pc的下一站
-name: 扛起联想六成收入的人，怎么看AI PC的下一站？
+name: 联想集团
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 联想高管讨论AI PC的下一站，属于行业趋势讨论，非独立产品发布。
 inspiration: ''
-summary_en: ''
+summary_en: Lenovo executives discuss the next step for AI PCs, an industry trend discussion, not an independent
+  product release.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUTFDMUR0akJB
 summary: 扛起联想六成收入的人，怎么看AI PC的下一站？ Sohu
 first_seen: '2026-09-08T13:17:09Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 扛起联想六成收入的人，怎么看AI PC的下一站？
+# 联想集团
 
 扛起联想六成收入的人，怎么看AI PC的下一站？ Sohu
 

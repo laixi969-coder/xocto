@@ -1,11 +1,12 @@
 ---
 slug: openai-expands-initiatives-to-support-journalism-from-classr
-name: OpenAI expands initiatives to support journalism from classrooms to newsrooms
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: OpenAI 扩大对新闻业的支持，提供工具、培训和合作，覆盖从课堂到新闻编辑室的场景。
 inspiration: ''
-summary_en: ''
+summary_en: OpenAI is expanding support for journalism with tools, training, and partnerships, spanning
+  classrooms to newsrooms.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: OpenAI is expanding support for journalism with tools, training, and pa
   educators, journalists, and news organizations.
 first_seen: '2026-09-08T00:00:00Z'
 last_seen: '2026-09-08T14:34:46Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI expands initiatives to support journalism from classrooms to newsrooms
+# OpenAI
 
 OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.
 

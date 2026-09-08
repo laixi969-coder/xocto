@@ -1,11 +1,12 @@
 ---
 slug: the-work-now-within-reach
-name: The Work Now Within Reach
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。
 inspiration: ''
-summary_en: ''
+summary_en: This AI offering introduces a new capability, but public evidence is not yet sufficient to
+  confirm its workflow value.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +23,7 @@ summary: Explore how more capable, affordable AI can expand the work people and 
   make growth more economical.
 first_seen: '2026-09-08T13:00:00Z'
 last_seen: '2026-09-08T14:34:46Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +34,7 @@ sightings:
   kind: news
 ---
 
-# The Work Now Within Reach
+# OpenAI
 
 Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.
 

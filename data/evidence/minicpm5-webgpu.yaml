@@ -7,3 +7,172 @@
   source_kind: open_source
   tier: behavioural
   fact: Chat and create websites, docs, sheets & PDFs on your GPU
+- id: ev-3349f29fde78acda
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-1B
+  title: openbmb/MiniCPM5-1B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: pain
+  tier: independent
+  fact: MiniCPM5-1B is the first checkpoint in the MiniCPM5 series. It is designed for local assistants,
+    coding agents, tool-use workflows, and reasoning scenarios where a compact model is preferred. The
+    model keeps a small deployment footprint while providing native long-context support and both Think
+    / No Think chat modes through the same checkpoint.
+- id: ev-df4a0ce318c92722
+  project_slug: minicpm5-webgpu
+  url: https://github.com/OpenBMB/MiniCPM
+  title: 'GitHub - OpenBMB/MiniCPM: MiniCPM5: SOTA on-device LLMs, small yet ...'
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: pain
+  tier: independent
+  fact: MiniCPM5-1Bis the first model in the MiniCPM5series. It is a dense 1B Transformer built for on-device,
+    local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA.
+- id: ev-728741ef3f2635bc
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-2B
+  title: openbmb/MiniCPM5-2B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: pain
+  tier: independent
+  fact: MiniCPM5-2B is the second model in the MiniCPM5 series. It is designed for local assistants, coding
+    agents, tool-use workflows, and reasoning scenarios where a compact model is preferred.
+- id: ev-97ecf3a764c9c894
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-1B
+  title: openbmb/MiniCPM5-1B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: workaround
+  tier: independent
+  fact: MiniCPM5-1B is the first checkpoint in the MiniCPM5 series. It is designed for local assistants,
+    coding agents, tool-use workflows, and reasoning scenarios where a compact model is preferred. The
+    model keeps a small deployment footprint while providing native long-context support and both Think
+    / No Think chat modes through the same checkpoint.
+- id: ev-125f9eaa1c50b7ba
+  project_slug: minicpm5-webgpu
+  url: https://github.com/OpenBMB/MiniCPM
+  title: 'GitHub - OpenBMB/MiniCPM: MiniCPM5: SOTA on-device LLMs, small yet ...'
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: workaround
+  tier: independent
+  fact: MiniCPM5-1Bis the first model in the MiniCPM5series. It is a dense 1B Transformer built for on-device,
+    local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA.
+- id: ev-1227fa28bfd96979
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-2B
+  title: openbmb/MiniCPM5-2B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: workaround
+  tier: independent
+  fact: MiniCPM5-2B is the second model in the MiniCPM5 series. It is designed for local assistants, coding
+    agents, tool-use workflows, and reasoning scenarios where a compact model is preferred.
+- id: ev-50aab0810d16f803
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-1B
+  title: openbmb/MiniCPM5-1B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: customer_case
+  tier: independent
+  fact: MiniCPM5-1B is the first checkpoint in the MiniCPM5 series. It is designed for local assistants,
+    coding agents, tool-use workflows, and reasoning scenarios where a compact model is preferred. The
+    model keeps a small deployment footprint while providing native long-context support and both Think
+    / No Think chat modes through the same checkpoint.
+- id: ev-3173be5d7a472238
+  project_slug: minicpm5-webgpu
+  url: https://github.com/OpenBMB/MiniCPM
+  title: 'GitHub - OpenBMB/MiniCPM: MiniCPM5: SOTA on-device LLMs, small yet ...'
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: customer_case
+  tier: independent
+  fact: MiniCPM5-1Bis the first model in the MiniCPM5series. It is a dense 1B Transformer built for on-device,
+    local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA.
+- id: ev-7a9bed2226a46c14
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-2B
+  title: openbmb/MiniCPM5-2B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: customer_case
+  tier: independent
+  fact: MiniCPM5-2B is the second model in the MiniCPM5 series. It is designed for local assistants, coding
+    agents, tool-use workflows, and reasoning scenarios where a compact model is preferred.
+- id: ev-0243105d5a0e2ac4
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-1B
+  title: openbmb/MiniCPM5-1B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: pricing
+  tier: independent
+  fact: MiniCPM5-1B is the first checkpoint in the MiniCPM5 series. It is designed for local assistants,
+    coding agents, tool-use workflows, and reasoning scenarios where a compact model is preferred. The
+    model keeps a small deployment footprint while providing native long-context support and both Think
+    / No Think chat modes through the same checkpoint.
+- id: ev-6d5bc1d7722334f2
+  project_slug: minicpm5-webgpu
+  url: https://github.com/OpenBMB/MiniCPM
+  title: 'GitHub - OpenBMB/MiniCPM: MiniCPM5: SOTA on-device LLMs, small yet ...'
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: pricing
+  tier: independent
+  fact: MiniCPM5-1Bis the first model in the MiniCPM5series. It is a dense 1B Transformer built for on-device,
+    local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA.
+- id: ev-2226ceef70245df9
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-2B
+  title: openbmb/MiniCPM5-2B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: pricing
+  tier: independent
+  fact: MiniCPM5-2B is the second model in the MiniCPM5 series. It is designed for local assistants, coding
+    agents, tool-use workflows, and reasoning scenarios where a compact model is preferred.
+- id: ev-31977e51ff603a79
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-1B
+  title: openbmb/MiniCPM5-1B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: retention
+  tier: independent
+  fact: MiniCPM5-1B is the first checkpoint in the MiniCPM5 series. It is designed for local assistants,
+    coding agents, tool-use workflows, and reasoning scenarios where a compact model is preferred. The
+    model keeps a small deployment footprint while providing native long-context support and both Think
+    / No Think chat modes through the same checkpoint.
+- id: ev-a34d7adb10f545e0
+  project_slug: minicpm5-webgpu
+  url: https://github.com/OpenBMB/MiniCPM
+  title: 'GitHub - OpenBMB/MiniCPM: MiniCPM5: SOTA on-device LLMs, small yet ...'
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: retention
+  tier: independent
+  fact: MiniCPM5-1Bis the first model in the MiniCPM5series. It is a dense 1B Transformer built for on-device,
+    local deployment, and resource-constrained scenarios, reaching 1B-class open-source SOTA.
+- id: ev-29c2304677dd6249
+  project_slug: minicpm5-webgpu
+  url: https://huggingface.co/openbmb/MiniCPM5-2B
+  title: openbmb/MiniCPM5-2B · Hugging Face
+  published_at: ''
+  collected_at: '2026-09-08T15:35:14Z'
+  source_kind: retention
+  tier: independent
+  fact: MiniCPM5-2B is the second model in the MiniCPM5 series. It is designed for local assistants, coding
+    agents, tool-use workflows, and reasoning scenarios where a compact model is preferred.
+- id: ev-09ee9dad5cf93516
+  project_slug: minicpm5-webgpu
+  url: https://www.bing.com/search?format=rss&q=AI+%E9%80%9A%E7%94%A8%E8%BD%AF%E4%BB%B6+%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF+%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91%E8%80%85+%E7%9F%A5%E8%AF%86%E5%B7%A5%E4%BD%9C%E8%80%85
+  title: Public market coverage query
+  published_at: ''
+  collected_at: '2026-09-08T15:35:55Z'
+  source_kind: market_comparison
+  tier: independent
+  fact: 'Public-material coverage query for zh: AI 通用软件 信息技术 独立开发者 知识工作者'

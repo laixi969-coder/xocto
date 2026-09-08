@@ -1,0 +1,39 @@
+- id: req-initial-travel-agent-2026-09-08
+  project_slug: travel-agent
+  level: initial
+  reviewed_at: '2026-09-08T14:34:27Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决旅行预订中多网站切换与重复填写的痛点，交付为完成预订（支付前停止），结构上成立。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  - gate: consensus
+    status: insufficient
+    reason: 开源社区关注度低（43 星），尚无用户反馈或采用证据。
+    evidence_ids:
+    - ev-5658a2955b526a01
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立。
+    evidence_ids: []
+  next_validation: 该开源项目的 issue 与 discussion 区，查看用户实际使用中遇到的问题和完成预订的成功案例。
+  market: ''
+  job: 用户需要规划旅行并完成预订，通常涉及多个网站（航班、酒店、活动）的比较和操作。
+  job_en: Users need to plan trips and complete bookings, often involving comparison and operations across
+    multiple websites (flights, hotels, activities).
+  pain: 手动在多个网站间切换、填写表单、比较价格耗时且繁琐。
+  pain_en: Manually switching between multiple websites, filling forms, and comparing prices is time-consuming
+    and tedious.
+  current_alternative: 用户可能使用在线旅行社（如携程、Booking）或手动逐个网站预订。
+  current_alternative_en: Users may use online travel agencies (e.g., Ctrip, Booking) or manually book
+    on individual websites.
+  usage_reason: AI 代理可自动化重复操作，但当前开源社区星标少，采用尚在早期，需验证实际完成预订的成功率。
+  usage_reason_en: AI agents can automate repetitive tasks, but with few open-source community stars,
+    adoption is early; success rate of actual bookings needs validation.

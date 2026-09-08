@@ -1,11 +1,18 @@
 ---
 slug: 传字节开发实时空间视频生成模型张一鸣亲自督导微信内测ai-社交功能华为小米同天发布折叠屏手机
-name: 传字节开发实时空间视频生成模型，张一鸣亲自督导；微信内测「AI 社交」功能；华为小米同天发布折叠屏手机
+name: 字节跳动
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 据彭博社报道，字节跳动正开发一款实时空间视频生成模型，由张一鸣亲自督导，基于其现有视频生成模型 Seedance 构建，计划最早下月发布但时间未定。该模型面向直播、短剧和游戏场景，生成可响应头显用户语音与动作的交互式虚拟世界，并与
+  Pico 硬件、云算力和内容平台串联；若属实，把空间内容生成移至云端可能降低 VR 硬件门槛，使行业竞争重心从设备算力转向内容生成速度。
 inspiration: ''
-summary_en: ''
+summary_en: Bloomberg reports that ByteDance is developing a real-time spatial video generation AI model,
+  personally overseen by founder Zhang Yiming and built on its Seedance video model, with release planned
+  as early as next month though timing is not final. Aimed at livestreaming, short dramas and games, the
+  model would generate interactive virtual worlds that respond to a headset user's voice and movements,
+  tying together ByteDance's AI models, cloud compute, content platforms and Pico hardware. If confirmed,
+  moving spatial content generation to the cloud could lower VR hardware barriers and shift competition
+  from device compute toward content generation speed.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -76,7 +83,7 @@ summary: "消息称字节正开发实时空间视频生成 AI 模型：张一鸣
   \ 2016 年提出的一项长期目标。当时，OpenAI 曾设想，未来能够打造一个单一 AI 智能体，让它解决各种不同类型的游戏任务。（来源：IT 之家）"
 first_seen: '2026-09-08T00:34:54Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -87,7 +94,7 @@ sightings:
   kind: news
 ---
 
-# 传字节开发实时空间视频生成模型，张一鸣亲自督导；微信内测「AI 社交」功能；华为小米同天发布折叠屏手机
+# 字节跳动
 
 消息称字节正开发实时空间视频生成 AI 模型：张一鸣亲自督导，最快下个月发布 
  9 月 7 日消息，据彭博社报道，字节跳动正准备推出一款实时空间视频生成 AI 模型。创始人张一鸣正亲自督导这款新模型的研发工作，该模型计划最早于下月发布。 

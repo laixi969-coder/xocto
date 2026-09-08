@@ -1,0 +1,41 @@
+- id: req-initial-french-agtech-startup-tellia-raises-43-million-to-scale-voic-2026-09-08
+  project_slug: french-agtech-startup-tellia-raises-43-million-to-scale-voic
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决农场数据采集的痛点：手工记录和转录耗时易错，语音直接结构化可提高效率。
+    evidence_ids:
+    - ev-3c0d912310135df1
+  - gate: consensus
+    status: insufficient
+    reason: 融资新闻显示市场关注，但缺乏用户采用或付费证据。
+    evidence_ids:
+    - ev-3c0d912310135df1
+  - gate: model
+    status: insufficient
+    reason: 付费方可能是农场主或农业服务商，但商业模式未公开。
+    evidence_ids:
+    - ev-3c0d912310135df1
+  - gate: truth
+    status: supported
+    reason: 语音采集贴近农业第一线，交付可确定，但需验证实际效果。
+    evidence_ids:
+    - ev-3c0d912310135df1
+  next_validation: 查找 Tellia 的官方定价页或客户案例，确认付费方和实际使用效果。
+  market: ''
+  job: 农场工人在田间记录作物状况、病虫害等数据，并汇总到管理系统。
+  job_en: Farm workers record crop conditions, pests, and other data in the field, then aggregate into
+    management systems.
+  pain: 手工记录耗时且易出错，事后录入增加工作量，数据不及时影响决策。
+  pain_en: Manual recording is time-consuming and error-prone; later data entry adds workload, and delayed
+    data affects decisions.
+  current_alternative: 目前多使用纸质笔记或手机拍照，之后人工转录到电脑或农场管理系统。
+  current_alternative_en: Currently, paper notes or phone photos are used, followed by manual transcription
+    to computers or farm management systems.
+  usage_reason: 语音输入比打字快，且能在田间免提操作，减少转录环节，提高数据及时性。
+  usage_reason_en: Voice input is faster than typing and allows hands-free operation in the field, reducing
+    transcription steps and improving data timeliness.

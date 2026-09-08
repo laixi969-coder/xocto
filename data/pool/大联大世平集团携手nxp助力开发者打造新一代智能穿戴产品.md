@@ -1,6 +1,6 @@
 ---
 slug: 大联大世平集团携手nxp助力开发者打造新一代智能穿戴产品
-name: 大联大世平集团携手NXP助力开发者打造新一代智能穿戴产品
+name: 大联大世平集团
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Zd0stdlFERlot
 summary: 大联大世平集团携手NXP助力开发者打造新一代智能穿戴产品 驱动之家
 first_seen: '2026-09-07T03:30:00Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 大联大世平集团携手NXP助力开发者打造新一代智能穿戴产品
+# 大联大世平集团
 
 大联大世平集团携手NXP助力开发者打造新一代智能穿戴产品 驱动之家
 

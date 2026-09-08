@@ -1,41 +1,42 @@
 - id: req-initial-ai辅导数学解题准不准豆包爱学以落地创新打破答疑焦虑-2026-09-08
   project_slug: ai辅导数学解题准不准豆包爱学以落地创新打破答疑焦虑
   level: initial
-  reviewed_at: '2026-09-08T00:25:57Z'
+  reviewed_at: '2026-09-08T14:34:55Z'
   verdict: true_demand
   signal_level: 初步成立
   gates:
   - gate: value
     status: supported
-    reason: 它解决学生即时解题指导和家长了解学情的需求，痛点刚性，替代行为明确（搜题软件、通用AI），交付可确定（解题步骤与答案）。
+    reason: 它解决作业答疑焦虑：题目不会做时及时获得分步讲解，替代高价家教与只给答案的搜题；此为工作流推理，准确率仍待核验。
     evidence_ids:
     - ev-744fe998a25ce936
+    - ev-4d84abc7ec64e036
   - gate: consensus
     status: insufficient
-    reason: 报道提及打破答疑焦虑，但缺乏用户评价、使用数据或场景强证据，共识度未明。
+    reason: 媒体围绕解题准不准展开讨论，说明场景有公开关注度，但尚无归因到产品的使用规模或付费证据。
     evidence_ids:
     - ev-744fe998a25ce936
+    - ev-65efaf71c02a5fa6
   - gate: model
     status: insufficient
-    reason: 未披露定价或付费模式，买方可能是家长（to C）或学校（to B），但无公开证据。
+    reason: 未见定价与买方披露；此类产品收入可能来自家长侧订阅或大厂生态投入，这是判断而非已验证事实。
     evidence_ids: []
   - gate: truth
     status: insufficient
-    reason: 解题准确性是核心承诺，但报道未提供可核验的准确率或对比数据，需进一步验证。
+    reason: 报道本身围绕准不准，解题错误会直接伤害学习效果，讲解质量与交付确定性尚无公开验证。
     evidence_ids:
     - ev-744fe998a25ce936
-  next_validation: 查找豆包爱学官方产品页或应用商店描述，确认其具体功能、定价及用户评价。
+  next_validation: 抓取豆包爱学官方应用商店页或官网的功能与定价说明，核验其解题讲解流程、准确性说明与人工确认环节。
   market: ''
-  job: 学生遇到数学难题时，需要即时、准确的解题指导，家长需要了解孩子的学习薄弱点。
-  job_en: When students encounter difficult math problems, they need immediate and accurate guidance;
-    parents need to understand their children's learning weaknesses.
-  pain: 传统答疑依赖老师或家长，时间受限且难以覆盖所有题目；通用AI工具解题准确率不足，讲解可能不贴合教材。
-  pain_en: Traditional Q&A relies on teachers or parents, which is time-limited and cannot cover all problems;
-    general AI tools may lack accuracy and alignment with textbooks.
-  current_alternative: 学生使用搜题软件（如作业帮）或通用AI助手（如豆包、ChatGPT）获取答案，但常缺乏步骤讲解或存在错误。
-  current_alternative_en: Students use question-searching apps (e.g., Zuoyebang) or general AI assistants
-    (e.g., Doubao, ChatGPT) for answers, but often lack step-by-step explanations or contain errors.
-  usage_reason: 豆包爱学背靠字节跳动，可能整合了高质量教育数据和模型优化，提供更准确的解题和讲解，且与豆包生态联动，降低使用门槛。
-  usage_reason_en: Backed by ByteDance, Doubao Aixue may integrate high-quality educational data and model
-    optimization for more accurate solving and explanation, and leverage the Doubao ecosystem to lower
-    usage barriers.
+  job: 学生在作业或复习中遇到不会的数学题时，需要及时获得讲得懂的解题步骤；家长难以每道题亲自辅导。
+  job_en: When students hit a math problem they cannot solve during homework or review, they need timely,
+    understandable step-by-step explanations; parents cannot tutor every problem.
+  pain: 答疑焦虑：不会做的题没人可问，请家教成本高，搜题软件只给答案不讲思路，AI 解题又常被质疑准确率。
+  pain_en: 'Anxiety over unanswered homework: tutors are costly, photo-search apps give answers without
+    explaining the reasoning, and AI solving is widely questioned on accuracy.'
+  current_alternative: 请线下家教或上辅导班；用拍照搜题软件看答案；直接问通用 AI 助手。
+  current_alternative_en: Hiring offline tutors or attending cram schools; using photo-search apps to
+    read answers; asking general AI assistants directly.
+  usage_reason: 若准确率经落地打磨且以讲解而非只给答案交付，家长与学生有理由把日常答疑从搜题软件迁移过来。
+  usage_reason_en: If accuracy is polished and delivery is explanations rather than bare answers, students
+    and parents have a reason to move daily Q&A over from photo-search apps.

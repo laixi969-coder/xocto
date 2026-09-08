@@ -1,0 +1,41 @@
+- id: req-initial-the-cure-for-cancer-is-becoming-an-investable-opportunity-an-2026-09-08
+  project_slug: the-cure-for-cancer-is-becoming-an-investable-opportunity-an
+  level: initial
+  reviewed_at: '2026-09-08T14:34:55Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决肿瘤治疗中数据整合与解读的痛点，痛点刚性且交付可确定。
+    evidence_ids:
+    - ev-a4f977d8832fee3d
+  - gate: consensus
+    status: insufficient
+    reason: 分析师预测显示市场关注，但缺乏用户采用证据。
+    evidence_ids:
+    - ev-a4f977d8832fee3d
+  - gate: model
+    status: insufficient
+    reason: 买方可能是医院或药企，但具体付费模式未在本次材料中披露。
+    evidence_ids:
+    - ev-a4f977d8832fee3d
+  - gate: truth
+    status: supported
+    reason: 贴近临床决策第一性目标，但需确保 AI 建议的可解释性与安全性。
+    evidence_ids:
+    - ev-a4f977d8832fee3d
+  next_validation: 查找 Tempus AI 的官方产品页或临床验证数据，确认其实际应用与付费模式。
+  market: ''
+  job: 肿瘤科医生需要整合患者基因组、病理和临床数据以制定个性化治疗方案。
+  job_en: Oncologists need to integrate genomic, pathological, and clinical data to develop personalized
+    treatment plans.
+  pain: 数据分散且解读复杂，手动分析耗时且易遗漏关键变异。
+  pain_en: Data is fragmented and complex to interpret; manual analysis is time-consuming and may miss
+    key mutations.
+  current_alternative: 目前依赖分子病理专家手动解读和文献检索。
+  current_alternative_en: Currently relies on molecular pathology experts for manual interpretation and
+    literature search.
+  usage_reason: 癌症治疗决策对准确性要求极高，AI 可加速数据整合并提供循证建议。
+  usage_reason_en: Cancer treatment decisions require high accuracy; AI can accelerate data integration
+    and provide evidence-based recommendations.

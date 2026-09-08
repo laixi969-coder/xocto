@@ -1,11 +1,11 @@
 ---
 slug: mistral-raises-3b-as-sovereign-ai-becomes-big-business
-name: Mistral raises €3B as sovereign AI becomes big business
+name: Mistral AI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: Mistral AI 获得 30 亿欧元 Series D 轮融资，估值 210 亿欧元
 inspiration: ''
-summary_en: ''
+summary_en: Mistral AI raised €3B Series D, valued at €21B
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -22,7 +22,7 @@ summary: The French AI lab has raised €3 billion at a €21 billion valuation 
   Samsung, Scaleup Europe and PSG Equity.
 first_seen: '2026-09-08T14:17:48Z'
 last_seen: '2026-09-08T14:34:47Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Mistral raises €3B as sovereign AI becomes big business
+# Mistral AI
 
 The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe and PSG Equity.
 

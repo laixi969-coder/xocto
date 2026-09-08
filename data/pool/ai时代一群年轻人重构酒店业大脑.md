@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNTlhwUE9nNXpP
 summary: AI时代，一群年轻人重构酒店业“大脑” 新华网
 first_seen: '2026-09-08T02:50:58Z'
 last_seen: '2026-09-08T14:34:55Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

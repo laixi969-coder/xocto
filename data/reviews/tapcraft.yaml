@@ -1,0 +1,37 @@
+- id: req-initial-tapcraft-2026-09-08
+  project_slug: tapcraft
+  level: initial
+  reviewed_at: '2026-09-08T14:34:23Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品通过 AI 自动化生成 Demo 视频，解决开发者制作演示的痛点
+    evidence_ids:
+    - ev-49e0422bb55fb9a3
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开使用数据或定价信息，无法确认市场共识
+    evidence_ids:
+    - ev-49e0422bb55fb9a3
+  - gate: model
+    status: insufficient
+    reason: 未公开 AI 模型细节或技术实现，无法评估模型能力
+    evidence_ids:
+    - ev-49e0422bb55fb9a3
+  - gate: truth
+    status: insufficient
+    reason: 缺少实际付费或持续采用的公开证据，真实性尚未验证
+    evidence_ids:
+    - ev-49e0422bb55fb9a3
+  next_validation: 官方定价页
+  market: ''
+  job: 移动应用开发者
+  job_en: Mobile App Developer
+  pain: 手工制作 Demo 视频耗时且成本高
+  pain_en: Manual demo video production is time-consuming and costly
+  current_alternative: 手工剪辑、外包视频制作
+  current_alternative_en: Manual editing, outsourced video production
+  usage_reason: 需要快速生成演示视频以展示产品功能
+  usage_reason_en: Need to quickly generate demo videos to showcase product features
