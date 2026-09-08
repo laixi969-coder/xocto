@@ -657,6 +657,117 @@ class PublishabilityTests(unittest.TestCase):
             self.assertEqual(len(ctx["important_updates"]), 1)
             self.assertEqual(ctx["important_updates"][0]["event_summary"], "付费方案从免费测试改为按席收费。")
 
+    def test_home_collapses_same_company_split_across_slugs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.save_product(replace(product(), slug="navana-ai", name="Navana.ai"))
+            store.save_product(replace(product(), slug="navana-ai-voice", name="Navana.ai"))
+            store.append_event(DiscoveryEvent(
+                id="upd-navana-1",
+                project_slug="navana-ai",
+                event_type=EVENT_MATERIAL_UPDATE,
+                occurred_at="2026-09-08T10:00:00Z",
+                discovered_at="2026-09-08T11:00:00Z",
+                summary="Navana.ai 发布新的语音识别接口。",
+            ))
+            store.append_event(DiscoveryEvent(
+                id="upd-navana-2",
+                project_slug="navana-ai-voice",
+                event_type=EVENT_MATERIAL_UPDATE,
+                occurred_at="2026-09-08T10:30:00Z",
+                discovered_at="2026-09-08T11:30:00Z",
+                summary="Navana.ai 再次出现在公开报道中。",
+            ))
+
+            ctx = build_context(store, ZH)
+
+            names = [item["name"] for item in ctx["important_updates"]]
+            self.assertEqual(names.count("Navana.ai"), 1)
+            self.assertEqual(len(ctx["important_updates"]), 1)
+
+    def test_home_does_not_repeat_first_discovery_as_update_under_alias_slug(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.save_product(replace(product(), slug="zhihu-works", name="知乎AI Works"))
+            store.save_product(replace(product(), slug="zhihu-works-update", name="知乎AI Works"))
+            store.append_event(DiscoveryEvent(
+                id="first-zhihu",
+                project_slug="zhihu-works",
+                event_type=EVENT_FIRST_DISCOVERED,
+                occurred_at="2026-09-08T10:00:00Z",
+                discovered_at="2026-09-08T11:00:00Z",
+            ))
+            store.append_event(DiscoveryEvent(
+                id="upd-zhihu",
+                project_slug="zhihu-works-update",
+                event_type=EVENT_MATERIAL_UPDATE,
+                occurred_at="2026-09-08T10:30:00Z",
+                discovered_at="2026-09-08T11:30:00Z",
+                summary="知乎AI Works 支持应用一键部署。",
+            ))
+
+            ctx = build_context(store, ZH)
+
+            self.assertEqual([item["name"] for item in ctx["first_discoveries"]], ["知乎AI Works"])
+            self.assertEqual(ctx["important_updates"], [])
+
+    def test_home_market_summary_collapses_same_entity_and_identical_text(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            crusoe_zh = "Crusoe 是一家 AI 基础设施公司，此次新闻仅报道其融资估值。"
+            crusoe_en = "Crusoe is an AI infrastructure company; this report only covers valuation."
+            stub_zh = "该 AI 产品提供了新的能力，但现有公开材料尚不足以确认其具体工作流价值。"
+            stub_en = "Public materials are not yet enough to confirm a concrete workflow."
+            store.save_product(replace(
+                product(), slug="crusoe-1", name="Crusoe", status="market_context",
+                summary_zh=crusoe_zh, summary_en=crusoe_en, inspiration="",
+                url="https://news.example.com/crusoe-1",
+            ))
+            store.save_product(replace(
+                product(), slug="crusoe-2", name="Crusoe", status="market_context",
+                summary_zh=crusoe_zh, summary_en=crusoe_en, inspiration="",
+                url="https://news.example.com/crusoe-2",
+            ))
+            store.save_product(replace(
+                product(), slug="soundhound", name="SoundHound AI", status="market_context",
+                summary_zh=stub_zh, summary_en=stub_en, inspiration="",
+                url="https://news.example.com/soundhound",
+            ))
+            store.save_product(replace(
+                product(), slug="uber-ai", name="Uber", status="market_context",
+                summary_zh=stub_zh, summary_en=stub_en, inspiration="",
+                url="https://news.example.com/uber",
+            ))
+            store.save_product(replace(
+                product(), slug="isar", name="Isar Aerospace", status="market_context",
+                summary_zh="德国火箭二次飞行进入轨道并部署载荷。",
+                summary_en="A second test flight reached orbit and deployed a payload.",
+                inspiration="", url="https://isar.example.com",
+            ))
+            for slug, stamp in (
+                ("crusoe-1", "2026-09-08T10:00:00Z"),
+                ("crusoe-2", "2026-09-08T10:10:00Z"),
+                ("soundhound", "2026-09-08T10:20:00Z"),
+                ("uber-ai", "2026-09-08T10:30:00Z"),
+                ("isar", "2026-09-08T10:40:00Z"),
+            ):
+                store.append_event(DiscoveryEvent(
+                    id=f"first-{slug}",
+                    project_slug=slug,
+                    event_type=EVENT_FIRST_DISCOVERED,
+                    occurred_at=stamp,
+                    discovered_at=stamp,
+                ))
+
+            ctx = build_context(store, ZH)
+            titles = [item["title"] for item in ctx["market_summary"] if item.get("kind") == "context"]
+            texts = [item["text"] for item in ctx["market_summary"] if item.get("kind") == "context"]
+
+            self.assertEqual(titles.count("Crusoe"), 1)
+            self.assertEqual(texts.count(crusoe_zh), 1)
+            self.assertEqual(texts.count(stub_zh), 1)
+            self.assertEqual(titles.count("Isar Aerospace"), 1)
+
     def test_same_day_full_req_review_wins_over_later_initial_timestamp(self) -> None:
         initial = ReqReview(
             id="initial", project_slug="example", level="initial",

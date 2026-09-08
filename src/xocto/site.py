@@ -53,7 +53,7 @@ from .models import (
     scrub_pending_phrase,
     today,
 )
-from .dedupe import url_host
+from .dedupe import mention_key, title_key, url_host
 from .i18n import LOCALES, Locale, other
 from .report import ReportDoc, parse_report, split_stat
 from .store import Store
@@ -146,6 +146,21 @@ def _neutralize_public_source_names(value: str, locale: Locale) -> str:
 def _public_product_name(value: str, locale: Locale) -> str:
     name = _neutralize_public_source_names(html.unescape(value), locale)
     return name or ("Market development" if locale.key == "en" else "市场动态")
+
+
+def _homepage_identity_key(name: str) -> str:
+    """同一家公司在首页只应出现一次。
+
+    采集层宁可漏判、多建档案，所以 Navana.ai / 知乎AI Works 常会留下两份 slug。
+    首页按公开名称归并，不改档案，也不把两家不同的短名公司合成一家。
+    """
+    return title_key(name) or mention_key(name)
+
+
+def _homepage_text_key(text: str) -> str:
+    """市场摘要里相同的一段话只保留一次。"""
+    compact = re.sub(r"[^\w一-鿿]+", "", (text or "").casefold())
+    return compact if len(compact) >= 16 else ""
 
 
 _TAG_ALIASES_ZH = {
@@ -1624,21 +1639,32 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     important_updates: list[dict[str, Any]] = []
     ordered_events = sorted(event_rows, key=lambda item: item.discovered_at, reverse=True)
     first_slugs: set[str] = set()
+    first_identities: set[str] = set()
     for event in ordered_events:
         if event.event_type != EVENT_FIRST_DISCOVERED or not event.homepage or event.project_slug in first_slugs:
             continue
         view = view_by_slug.get(event.project_slug)
         if view is None:
             continue
+        identity = _homepage_identity_key(view["name"])
+        if identity and identity in first_identities:
+            continue
         first_slugs.add(event.project_slug)
+        if identity:
+            first_identities.add(identity)
         first_discoveries.append(_event_view(event, view, store, locale))
     # The front page promises three evidence cases, not a second directory.
     # Everything else remains discoverable in the opportunity map the next day.
     first_discoveries = _daily_event_selection(first_discoveries, limit=3)
+    shown_identities = {
+        key for key in (_homepage_identity_key(item["name"]) for item in first_discoveries) if key
+    }
 
     # “重要更新”必须同时满足：明确允许上首页、有可陈述的新事实、同一项目
     # 当天只出现一次。首次发现优先，不能又在更新区重复出现。
+    # 同一公开名称的两份档案也只留一条，避免 Navana.ai / 知乎AI Works 各出现两次。
     update_slugs: set[str] = set()
+    update_identities: set[str] = set()
     for event in ordered_events:
         if (
             event.event_type == EVENT_FIRST_DISCOVERED
@@ -1652,7 +1678,12 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
         view = view_by_slug.get(event.project_slug)
         if view is None:
             continue
+        identity = _homepage_identity_key(view["name"])
+        if identity and (identity in shown_identities or identity in update_identities):
+            continue
         update_slugs.add(event.project_slug)
+        if identity:
+            update_identities.add(identity)
         important_updates.append(_event_view(event, view, store, locale))
     important_updates = important_updates[:4]
 
@@ -1660,16 +1691,32 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     # “首次发现涉及”是观察范围，不暗示这是该行业全球第一次使用 AI。
     market_summary: list[dict[str, Any]] = []
     context_slugs: set[str] = set()
+    context_identities: set[str] = set()
+    context_texts: set[str] = set()
     for event in ordered_events:
         product = market_context_products.get(event.project_slug)
         if product is None or product.slug in context_slugs or not event.homepage:
             continue
-        context_slugs.add(product.slug)
         context_summary = product.summary_en if locale.key == "en" else product.summary_zh
+        title = _public_product_name(product.name, locale)
+        text = _neutralize_public_source_names(context_summary, locale)
+        identity = _homepage_identity_key(title)
+        text_key = _homepage_text_key(text)
+        if identity and identity in context_identities:
+            context_slugs.add(product.slug)
+            continue
+        if text_key and text_key in context_texts:
+            context_slugs.add(product.slug)
+            continue
+        context_slugs.add(product.slug)
+        if identity:
+            context_identities.add(identity)
+        if text_key:
+            context_texts.add(text_key)
         market_summary.append({
             "kind": "context",
-            "title": _public_product_name(product.name, locale),
-            "text": _neutralize_public_source_names(context_summary, locale),
+            "title": title,
+            "text": text,
             "url": product.url,
         })
     industry_counts: dict[str, int] = {}
