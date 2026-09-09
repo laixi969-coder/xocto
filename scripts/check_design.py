@@ -8,7 +8,7 @@
 复算十一件事：
 
   1. token 对比度  —— 所有承担文字的颜色在 paper / surface 上 ≥4.5:1
-  2. 来源泄漏      —— 站点里不许出现任何采集源名称（含 sitemap/robots）
+  2. 来源泄漏      —— 正文不许出现内部采集源名称（公开来源署名除外）
   3. 中文漏进英文站 —— site/en/ 里除了产品名不许有中文
   4. 英文漏进中文证据 —— 中文证据链不许直接展示整段英文采集摘要
   5. 私人指涉泄漏  —— 站点里不许出现只有作者本人看得懂的自有项目名和身世指代
@@ -153,6 +153,12 @@ def check_contrast() -> list[str]:
     return fails
 
 
+def _without_citation_labels(text: str) -> str:
+    # Explicit publisher attribution is requested public content. Keep all
+    # surrounding prose under the existing source/language checks.
+    return re.sub(r'<a class="citation-source"[^>]*>[^<]*</a>', ' ', text)
+
+
 def check_leaks() -> list[str]:
     if not SITE.is_dir():
         return ["site/ 不存在，先跑 uv run xocto build"]
@@ -164,6 +170,7 @@ def check_leaks() -> list[str]:
             if path.suffix == ".html":
                 # External evidence URLs may naturally contain a publisher's
                 # domain. The rule protects reader-facing copy, not link targets.
+                text = _without_citation_labels(text)
                 text = re.sub(r"<script.*?</script>", " ", text, flags=re.S | re.I)
                 text = html_lib.unescape(re.sub(r"<[^>]+>", " ", text))
             for name in FORBIDDEN:
@@ -219,6 +226,7 @@ def check_en_chinese() -> list[str]:
     problems: list[str] = []
     for path in sorted(en_dir.rglob("*.html")):
         raw = path.read_text(encoding="utf-8", errors="ignore")
+        raw = _without_citation_labels(raw)
         raw = _LANG_BTN.sub(" ", raw)
         raw = _SCRIPT.sub(" ", raw)
         text = html_lib.unescape(_TAG.sub(" ", raw))

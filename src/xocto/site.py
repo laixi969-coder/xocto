@@ -27,7 +27,7 @@ from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urlsplit
 
 import mistune
 import yaml
@@ -56,6 +56,7 @@ from .models import (
 from .dedupe import mention_key, title_key, url_host
 from .i18n import LOCALES, Locale, other
 from .report import ReportDoc, parse_report, split_stat
+from .editorial import has_context_copy
 from .store import Store
 
 # 网站上不出现任何数据源名称。用户不关心东西从哪抓来的，
@@ -1409,7 +1410,7 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     market_context_products = {
         p.slug: p for p in all_products
         if p.status == STATUS_MARKET_CONTEXT
-        and bool((p.summary_en if locale.key == "en" else p.summary_zh).strip())
+        and all(map(has_context_copy, (p.summary_zh, p.summary_en)))
     }
     analyses = load_analyses(store, locale)
     reports = load_reports(store, locale)
@@ -1690,6 +1691,18 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
     # 当日市场摘要只从当天的事件流归纳，不用旧项目的规模或排行榜替代新变化。
     # “首次发现涉及”是观察范围，不暗示这是该行业全球第一次使用 AI。
     market_summary: list[dict[str, Any]] = []
+    # Publisher labels come from raw provenance, never from generated copy.
+    publisher_by_url: dict[str, str] = {}
+    source_days = {local_day(s.seen_at) for p in market_context_products.values() for s in p.sightings if s.seen_at}
+    for source_day in sorted(source_days):
+        try:
+            raw_day = date.fromisoformat(source_day)
+        except ValueError:
+            continue
+        for raw in store.read_raw(raw_day):
+            publisher = str(raw.extra.get("publisher") or raw.payload.get("publisher") or "").strip()
+            if publisher:
+                publisher_by_url[raw.url] = publisher
     context_slugs: set[str] = set()
     context_identities: set[str] = set()
     context_texts: set[str] = set()
@@ -1713,11 +1726,22 @@ def build_context(store: Store, locale: Locale) -> dict[str, Any]:
             context_identities.add(identity)
         if text_key:
             context_texts.add(text_key)
+        source_url = product.url
+        parsed_source = urlsplit(source_url)
+        if parsed_source.scheme not in {"http", "https"}:
+            continue
+        source_name = publisher_by_url.get(source_url, "")
+        if not source_name and parsed_source.hostname != "news.google.com":
+            source_name = parsed_source.hostname or ""
+        # An aggregator URL alone does not identify the publisher.
+        if not source_name:
+            continue
         market_summary.append({
             "kind": "context",
             "title": title,
             "text": text,
-            "url": product.url,
+            "url": source_url,
+            "source_name": source_name,
         })
     industry_counts: dict[str, int] = {}
     for item in first_discoveries:

@@ -130,8 +130,9 @@
     <div class="decision-grid desk-summary">
       {% for item in market_summary %}
       <div class="field">
-        <span class="field-k">{% if item.url %}<a href="{{ item.url }}" rel="noopener noreferrer">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</span>
+        <span class="field-k">{{ item.title }}</span>
         <p>{{ item.text | md_inline }}</p>
+        {% if item.source_name %}<p class="pick-meta">{{ t.home.summary_source }} · <a class="citation-source" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.source_name }}</a></p>{% endif %}
       </div>
       {% endfor %}
     </div>

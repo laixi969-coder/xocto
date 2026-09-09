@@ -612,6 +612,29 @@ class PublishabilityTests(unittest.TestCase):
             self.assertTrue(any(item["title"] == "Agent economics" for item in chinese["market_summary"]))
             self.assertTrue(any("repeat purchases" in item["text"] for item in english["market_summary"]))
 
+    def test_market_context_attributes_actual_publisher_from_raw_record(self) -> None:
+        from datetime import date
+        from xocto.models import RawItem
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            url = "https://news.google.com/rss/articles/example"
+            stamp = "2026-08-14T12:00:00Z"
+            item = replace(product(), slug="pricing", status="market_context",
+                           url=url, summary_zh="平台推理价格下调三成，降低应用调用成本。",
+                           summary_en="Inference prices fell 30%, lowering application costs.",
+                           sightings=(Sighting("newssearch", url, stamp, {}, kind="news"),))
+            store.save_product(item)
+            store.append_event(DiscoveryEvent(id="pricing", project_slug=item.slug,
+                               event_type=EVENT_FIRST_DISCOVERED, occurred_at=stamp, discovered_at=stamp))
+            self.assertFalse(any(row.get("kind") == "context" for row in build_context(store, ZH)["market_summary"]))
+            store.append_raw([RawItem(source="newssearch", external_id="pricing", title="Price cut",
+                             url=url, summary="Prices fell", published_at=stamp, collected_at=stamp,
+                             metrics={}, extra={"publisher": "Example Journal"})], date(2026, 8, 14))
+            for locale in (ZH, EN):
+                row = next(row for row in build_context(store, locale)["market_summary"] if row.get("kind") == "context")
+                self.assertEqual(row["source_name"], "Example Journal")
+                self.assertEqual(row["url"], url)
+
     def test_home_hides_collector_status_as_event_summary(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             from xocto.store import Store
@@ -765,7 +788,12 @@ class PublishabilityTests(unittest.TestCase):
 
             self.assertEqual(titles.count("Crusoe"), 1)
             self.assertEqual(texts.count(crusoe_zh), 1)
-            self.assertEqual(texts.count(stub_zh), 1)
+            self.assertEqual(texts.count(stub_zh), 0)
+            self.assertNotIn("Uber", titles)
+            self.assertNotIn("SoundHound AI", titles)
+            for item in ctx["market_summary"]:
+                if item.get("kind") == "context":
+                    self.assertTrue(item["source_name"])
             self.assertEqual(titles.count("Isar Aerospace"), 1)
 
     def test_same_day_full_req_review_wins_over_later_initial_timestamp(self) -> None:

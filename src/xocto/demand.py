@@ -113,12 +113,10 @@ def demand_read(product: Any, review: Any | None, evidence: Iterable[Any], *, en
 
     usage_reason = _clean(getattr(review, f"usage_reason{suffix}", "")) if review else ""
     if not usage_reason:
-        usage_reason = _metric_reason(product, english=english)
-    if not usage_reason:
         usage_reason = (
-            f"It promises a simpler way to complete this job: {job} The exact adoption motive and repeat use are not yet verified."
+            f"The task is: {job} Public materials do not yet explain why users choose this product over their existing approach."
             if english else
-            f"它承诺用更直接的方式完成这项任务：{job}；具体采用动机与持续使用情况尚未核验。"
+            f"用户要完成的任务是：{job}；现有材料尚未说明，用户相较原有做法为什么会选择它。"
         )
 
     value_gate = next((gate for gate in (review.gates if review else ()) if gate.gate == "value"), None)
