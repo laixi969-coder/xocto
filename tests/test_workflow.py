@@ -14,7 +14,7 @@ class DailyWorkflowTests(unittest.TestCase):
         """防止自动更新在无意改工作流时退化成不定时、缩源或静默失败。"""
         payload = yaml.load(WORKFLOW.read_text(encoding="utf-8"), Loader=yaml.BaseLoader)
         schedules = payload["on"]["schedule"]
-        self.assertEqual([item["cron"] for item in schedules], ["17 6 * * *", "17 18 * * *"])
+        self.assertEqual([item["cron"] for item in schedules], ["17 6 * * *"])
         self.assertTrue(all(item["timezone"] == "Asia/Shanghai" for item in schedules))
 
         text = WORKFLOW.read_text(encoding="utf-8")

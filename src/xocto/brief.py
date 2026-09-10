@@ -1530,9 +1530,16 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     ]
     # 固定小批次 + 调用方拆分 + _fit_messages 兜底，不再用首个候选预计算
     # 批次大小：一个巨型候选会把全天批次错误地压成逐条请求。
+    # 重大项目单独成批：_require_isolatable 规定含重大项目的批次屡修不过
+    # 时必须让整天失败。混编会让普通候选的坏输出连坐重大项目；拆开后
+    # 只有重大项目自身屡修不过才升级为整天失败。
+    priority_observation = [p for p in pending_observation if p.priority_review]
+    ordinary_observation = [p for p in pending_observation if not p.priority_review]
     interp_groups = [
-        pending_observation[start:start + INTERPRETATION_BATCH_SIZE]
-        for start in range(0, len(pending_observation), INTERPRETATION_BATCH_SIZE)
+        *[priority_observation[start:start + INTERPRETATION_BATCH_SIZE]
+          for start in range(0, len(priority_observation), INTERPRETATION_BATCH_SIZE)],
+        *[ordinary_observation[start:start + INTERPRETATION_BATCH_SIZE]
+          for start in range(0, len(ordinary_observation), INTERPRETATION_BATCH_SIZE)],
     ]
 
     def interp_build(
@@ -1626,10 +1633,16 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
         event_summaries.update(cached_events)
 
     pending_full = [product for product in full_products if product.slug not in progress["full"]]
+    # 与解释层同理：重大项目单独成批，普通候选屡修不过时整批跳过即可，
+    # 不再把重大项目一起拖进「整天失败」。
+    priority_full = [product for product in pending_full if product.priority_review]
+    ordinary_full = [product for product in pending_full if not product.priority_review]
     # 固定 4 条一批；重候选由 _split_batches 拆分、_fit_messages 压缩兜底。
     full_groups = [
-        pending_full[start:start + BRIEF_BATCH_SIZE]
-        for start in range(0, len(pending_full), BRIEF_BATCH_SIZE)
+        *[priority_full[start:start + BRIEF_BATCH_SIZE]
+          for start in range(0, len(priority_full), BRIEF_BATCH_SIZE)],
+        *[ordinary_full[start:start + BRIEF_BATCH_SIZE]
+          for start in range(0, len(ordinary_full), BRIEF_BATCH_SIZE)],
     ]
 
     def full_build(
