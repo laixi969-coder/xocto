@@ -9,3 +9,21 @@
   tier: independent
   fact: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
     can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
+- id: ev-28ac44acf6178101
+  project_slug: github-has-published-a-case-study-showing-that-shortening-th
+  url: https://www.v2ex.com/t/1240951
+  title: Realmroot，一个完全免费开源可自托管的 IdP，还是一个给 Agent 的 Toolbox
+  published_at: '2026-09-10T03:11:53Z'
+  collected_at: '2026-09-10T05:13:23Z'
+  source_kind: product
+  tier: independent
+  fact: "## IdP\r\n\r\n最近几个月一直在做各种产品，最开始选择了很火的 Supabase ，但是很快就达到了免费版本的上限。我已经买了 Worker 的付费版本，实在不想为了一个 IdP\
+    \ 在还没赚钱的时候就花钱。所以把我之前构思过很久的一个 IdP 做了出来，它可以直接部署在 CF 的 workers 上。我不喜欢重复造轮子，所以它是站在 BetterAuth 的基础上构建的，所以\
+    \ BetterAuth 具备的功能它大多都支持。\r\n\r\n我知道有人可能会说为什么不直接用 BetterAuth 。BetterAuth 的问题是并不是开箱即用，你还是需要开发一系列的页面和功能。对于开发一系列产品的时候，为每个产品都构建一套登录认证相关的用户系统没有任何意义。\r\
+    \n\r\n\r\n我知道现在已经有了很多可以自托管的 IdP ，但是大多都不支持直接部署到 workers 上，所以能够部署到 workers 上是这个产品的第一个特点。意味着你可以无运维成本的拥有一个你自己的\
+    \ IdP 。\r\n\r\n仓库地址： https://github.com/realmroot/realmroot\r\n\r\n## Toolbox\r\n\r\n它的第二个特点是，它是一个给\
+    \ Agent 的 Toolbox 。\r\n\r\n现在越来越多的人发现 agent 使用 CLI 比使用 MCP 方便。一个 skill+一个 cli 远比搞一套 MCP 适合 agent 使用。但是，问题是如果每个产品单独开发一套\
+    \ cli 也是不小的开发与维护成本。所以我就在想是否有一个通用的 CLI 工具可以让 agent 调用所有的接口。最终做出来的产品就是 Realmroot Toolbox 。\r\n\r\n\r\
+    \n它可以实现的效果是：如果你的一个 API 服务想要被 agent 调用，那么你只需要维护好你的 OPENAPI 文档，然后把你的 API 服务作为一个资源服务器接入到 realmroot 里。然后\
+    \ agent 就可以自动通过 realmroot toolbox 命令发现你的接口提供了哪些命令可以调用。\r\n\r\n仓库地址： https://github.com/realmroot/cli\r\
+    \n\r\n## Wallet\r\n\r\nagent-wallet 是我实现的第一个可以接入 realmroot 的原生资源服务。最终实现的效果就跟 CF 也在做的 wallet"

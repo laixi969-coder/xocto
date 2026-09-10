@@ -23,17 +23,17 @@ url: https://jingyun.studio/zh/jingyun-dsh
 canonical_url: https://jingyun.studio/zh/jingyun-dsh
 summary: 基于 Jingyun Studio + DeepSeek Harness (DSH) 打造的一站式 AI 商业化桌面客户端
 first_seen: '2026-08-27T11:28:30Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://jingyun.studio/zh/jingyun-dsh
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 152
-    forks: 3
+    stars: 211
+    forks: 4
     open_issues: 3
   kind: product
 ---

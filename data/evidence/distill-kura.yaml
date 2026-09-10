@@ -56,3 +56,13 @@
   source_kind: market_comparison
   tier: independent
   fact: 'Public-material coverage query for zh: AI'
+- id: ev-7ee35b2c5ecc59bf
+  project_slug: distill-kura
+  url: https://github.com/lna-lab/distill-kura
+  title: distill-kura
+  published_at: '2026-08-21T21:29:00Z'
+  collected_at: '2026-09-10T05:13:28Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: '蒸留蔵 — distilled long-term memory for agents: recall by meaning, writing gated by evidence, one
+    kura per agent mode. Ships as a DeepSeek Harness plugin and an MCP server. | repository stars: 48'

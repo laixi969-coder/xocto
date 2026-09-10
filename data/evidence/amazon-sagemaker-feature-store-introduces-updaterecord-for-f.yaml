@@ -1,0 +1,12 @@
+- id: ev-931ab83d7a29bada
+  project_slug: amazon-sagemaker-feature-store-introduces-updaterecord-for-f
+  url: https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/
+  title: Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes
+  published_at: '2026-09-08T18:29:15Z'
+  collected_at: '2026-09-10T05:13:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API,
+    you can update one or more feature values in a single call without reading or rewriting the entire
+    record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache)
+    online store tiers.

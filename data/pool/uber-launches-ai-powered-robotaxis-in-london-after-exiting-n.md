@@ -21,8 +21,8 @@ url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPWFhwUEtxQnNhNHJRbS1lWC
 canonical_url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPWFhwUEtxQnNhNHJRbS1lWC0wSXdwQTh3M2Y1VmpXbkFKcmFlZFRLMXlSSUd4RWh3RE5mUVQzSWI5LUM5c0VzMXBZcDhhcm13XzBBbkxhR0dfQUUzZThFdzRyYUNvdmFTMHhXLVlIbmZsNlFqWmVNWFJqNGgyYV95X0R1Y0dickQtWG1na09FOFFVWHB2N203bVJ5WmtnSldveHc?oc=5
 summary: Uber launches AI-powered robotaxis in London after exiting Nigeria innovation-village.com
 first_seen: '2026-09-03T12:51:37Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: market_context
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -40,6 +40,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi-wFBVV95cUxQMjFFNU92X0lYa2FlQUlYZnF4dEZJcWt3RkRkVXVhdEs2dDVvWFV6MUQ1NlRhTm02Ry1hTDZFWnBLazdnMkJhZkxBNXFDakpaNmpuUFhENFhOTGhXRHdPZm5GLWdyRzJxYmRXUVJyY3FiM2RZdzVLSE1JRE5EbThxT2tTTU5IbFB5cG43dElSdzFlUXpEblgxeE5sN0t1eDlkMHFfcHJCdk01elpCaHBHTU9qNV9ocU80M0NxeDIzZHpZSGpNTFFsTXdiYVBVdjJSTEYtOFVuOFZqd3pIS2Y4UGdYd2hhUVZTczJFeXhFSmJxeXpGUjBOdDI1TQ?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiggJBVV95cUxOb0pzMDZnVmY5OTNucXlvRWN4ZlVsSmlRSThZTHhtdnc0QzBsWHhqbWJ4cjIxbDlHdVFlVGo4dXI2TFlJanA1ZjZsd1JLZW5LVjB1UGEtLUctUzM2RWlDUUl0a1dES255Ri1pcnB4cVFpS1YtQlpiTk83dXFfLW5kbW96NTZaanlacTRwa1NnWVkybHBxVEJnZGpXYnpCbDhlLUUxQVVvdUdHY1ExbEozMHRIX2hXcnFEZG4xMWtMM0FlWGR3U3V5QUJ0Y1VUcC1ZblRlcjhuU2hfY2pTal81eXh6R3RmNVlsbFpBS3NEMkZVVGtzeEdKZklqMW9nTUJZVFE?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

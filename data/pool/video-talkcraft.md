@@ -34,18 +34,18 @@ summary: Agent skill that turns Claude Code / Codex into a motion-design studio 
   videos — word-level voiceover sync, 78 motion recipe cards, an anti-slideshow camera system, Remotion
   rendering.
 first_seen: '2026-08-22T17:11:05Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://vincentwei1021.github.io/video-talkcraft/
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 813
-    forks: 76
-    open_issues: 1
+    stars: 877
+    forks: 84
+    open_issues: 3
   kind: product
 ---
 

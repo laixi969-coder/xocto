@@ -30,8 +30,8 @@ url: https://lanes.sh/showcase/agentic-fleet
 canonical_url: https://lanes.sh/showcase/agentic-fleet
 summary: Give every agent the right data, access and context to get work done
 first_seen: '2026-09-04T14:43:47Z'
-last_seen: '2026-09-06T04:00:20Z'
-status: watching
+last_seen: '2026-09-10T05:13:24Z'
+status: pending_filter
 sources:
 - hackernews
 sightings:
@@ -49,6 +49,13 @@ sightings:
     points: 22
     comments: 3
   kind: product
+- source: hackernews
+  url: https://lanes.sh/blog/whats-new-v049-astra-is-a-banger-and-codex-got-a-lot-better
+  seen_at: '2026-09-10T05:13:24Z'
+  metrics:
+    points: 5
+    comments: 0
+  kind: news
 ---
 
 # lanes

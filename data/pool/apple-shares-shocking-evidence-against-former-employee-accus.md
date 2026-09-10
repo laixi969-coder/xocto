@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-
 summary: Apple says it has evidence that a former employee destroyed evidence of data theft after learning
   he was under investigation.
 first_seen: '2026-09-01T00:13:00Z'
-last_seen: '2026-09-06T15:19:29Z'
+last_seen: '2026-09-10T05:13:56Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -66,6 +66,16 @@ sightings:
   metrics:
     points: 47
     comments: 24
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/
+  seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/
+  seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
   kind: news
 ---
 

@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdEJZdXN0YWFpckxBenFhM1
 canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdEJZdXN0YWFpckxBenFhM1hFZ1NUczBGcHR3QmZmNFVKZzlVY1RsLUZ4Z0VlZ3lUXzFoZmEzeWcwWFFJOWdsaDlqN0h5SkxFc24wZVVVT214NFUxSjVQV3RJZ0F3OTF1Tml0OE51d2pyZGJVb1MwXzNSbDVuYUFmMGdaZHdNc1dSeS1kMFBhejRXOVJURlluVS1QSkI0XzdZX2tvMWZqUm9OLWZIVzFMX3B4MFhXdjB2VVRlWHRfVzNFY3VTZkNxNA?oc=5
 summary: Q2 2026 e-commerce hit $340.2B as AI assistants move toward placing orders MarketScale
 first_seen: '2026-08-31T14:22:18Z'
-last_seen: '2026-09-06T09:14:58Z'
-status: market_context
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -40,6 +40,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Fb3JFd2Rkb0RHMUZ5YXpmb0pDS2Q1cVhFdmRQbHJ0OHBLcnU0Qm5ZeXdmbGFHdDZOaTdKSUJTTHdPb2VOV2FjOTk1WXduVlJyWjFkbTBjYw?oc=5
   seen_at: '2026-09-06T09:14:58Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOTDNmS3B0N2xGZGdZSnhKbGswTnBKN3dTNlltVng0eVJqUE8zV3VFT2ozX3pEbDJZeDZIaUxlWEFuWEljTWdFT3RfYktYVU5ONkQ0RTVHYW4yNUwySlh4cWN5NUpTWGpLai14V1pZZncxQnAzdFBDeFFfOXByX3pCd1ZnSDRyamJuREVPNnRJYlVkRlhzdXZJYnJvLWlkOEE3QjlCTnZkeXdBekZQYjNPNUFSQQ?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

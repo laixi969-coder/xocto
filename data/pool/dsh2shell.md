@@ -20,16 +20,16 @@ url: https://github.com/ChaoMixian/dsh2shell
 canonical_url: https://github.com/ChaoMixian/dsh2shell
 summary: Unauthenticated RCE PoC for exposed DeepSeek Harness (dsh) web instances.
 first_seen: '2026-08-21T17:23:34Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/ChaoMixian/dsh2shell
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 54
+    stars: 56
     forks: 15
     open_issues: 0
   kind: product

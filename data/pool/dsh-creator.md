@@ -20,17 +20,17 @@ url: https://github.com/Jackywxsz/DSH-Creator
 canonical_url: https://github.com/Jackywxsz/DSH-Creator
 summary: Jacky Creator：面向内容创作者的 DeepSeek Harness 本地内容与运营工作台
 first_seen: '2026-08-25T03:51:55Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Jackywxsz/DSH-Creator
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 90
-    forks: 18
+    stars: 92
+    forks: 20
     open_issues: 2
   kind: product
 ---

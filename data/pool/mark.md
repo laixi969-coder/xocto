@@ -31,8 +31,8 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: rejected
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
@@ -190,6 +190,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxOYkJFc0ZDZFNzT1BlSy1acDlBNF9YcU5jOGhtWGwxMFlVYnVDdkZ3X3FqSk1tWTJNTW5YbzF1UnphNTZEamJJQko0Zk9aUXduUkx4UVQ4a0NJNUVSRXBWc0NueklCY3p4SnJJVUR2c1JvZ0hXSkd5RUtRUWp6NTRwclItSlFiUDk2RTlJeUYtOGw0NTAtLUIyRA?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMijAFBVV95cUxOOGc4Z0lkTWc2WXUzTk5nSjV6eVpWZW1TbmRRZE1ISkc0OUF5ajlybGMtVjNnUDN4VWVNcHJKOTBGLU9UT0ozYno5TVdUX1FPQlRaZ2E1QWdsN0FLMVVkRFBMejZWdHAybjZjSmNpQXhzLUlvemdWN3NSaVNyTF9hdjB2UnpGTHNDWUtqYw?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7gJBVV95cUxPTVN3Ti1FeHgwWEU3cm55dHJwTXVodlVvVnkxcnBRYjV3bld3WlJWMGtHQlUxNGNhUnpRU0c4M0duOFFybGNvZGJyWVRpaktqdVQ5cGFYNV9UWEcwNTI1bGEwVU9Gck5jQkZtU3dMcWFBM3pwWDlNY2xTakFCQ20zU1o5QTRtYVE2dmxSSVdvWGVReVRFUFBNaVdHb0Q5UVNrN0dHbTJBdkUxdEZndURWekFYTzFpOXZVUk1HTlowUGxoYjNkYmpkeldXdVEySzQyX05aUVMwRWhuLVFkNWVGSk5oZ3RZVkNidHUtTDZvMlVVaHg3Tk5pa0trTXg3NkNqdGJLQmZRbGk4QjNVSTFhV0ZjZ1pGSjRUYUtmOWdKMVlXTENFNDRFZWpRRE9jNXdQY2J3WWpKb1NCOFhkR3JrZXFWZ2R1RjhsU3RsLVdaSUNMUVBHemhVelBqNkU0ZGVTcjh2Z0ZhNWtHczBpeXc?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMid0FVX3lxTE5JNnJqV1lZYmJySU1FV3ZJcS04X2JKRmNDWEp5cXBDUHRTTXBlV2xERE9PMzI1Q1JzMGpIU0g1aThpMGtheWNtckFIT0x1Q2ZSOTBOM0Y0YTJsb1o2bk9rM0dUUjBZRFlOd2h3SHBvc2xjVTRiZi1n?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE04cGNPLWpDWDRIT25LR1lxZy1GS2t2VjBDdFdsdnZ3SHRIOHlvRG9ONy10ZlhaUkpkbWUteDJVQi0zS01XRUdrQ1RwMnIxX1I0aEFkeDBFSnA?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

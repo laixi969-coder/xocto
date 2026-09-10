@@ -34,14 +34,19 @@ url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzc2ZF94ZVp0UmJvSzRYSC
 canonical_url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzc2ZF94ZVp0UmJvSzRYSC1FdlVzbU81eXV2bEQ0QmJrLTMwdzB2WUhtT1l2NVNNVG9DcGtnM1ZMejh4enRBZGxMajRGS0owR1NWZlpSQ0lHMC1yQVFNYVBOU3dFbTAtV25EY1FoX2hlUVVMQmZia1QtWHBlc1k4WGM0emNtNDlMaUlZdHo0TzdyQnM?oc=5
 summary: Conexiom launches AI-native Relay for order automation ecommercenews.com.au
 first_seen: '2026-09-02T20:01:00Z'
-last_seen: '2026-09-04T00:07:05Z'
-status: queued
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzc2ZF94ZVp0UmJvSzRYSC1FdlVzbU81eXV2bEQ0QmJrLTMwdzB2WUhtT1l2NVNNVG9DcGtnM1ZMejh4enRBZGxMajRGS0owR1NWZlpSQ0lHMC1yQVFNYVBOU3dFbTAtV25EY1FoX2hlUVVMQmZia1QtWHBlc1k4WGM0emNtNDlMaUlZdHo0TzdyQnM?oc=5
   seen_at: '2026-09-04T00:07:05Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiywFBVV95cUxPV3lWcTMtR25fV0RCYWk4Tlh1NkhFRDg0WHdNTUNWMGNQc05jcGtLSlZjV2pKVGJLN0ZfOUR6ZVlqSWt4OHUyb3ZUSGZuUjQzb2c4bjhMdlFwbEpEc1BiWkxKQmZWcHQ5ZGJmTUtrYkJDTTF5UktkZk9MRW9qMWxiSUxOTmtZYTJyOXpVZi10cG5iLWphS3Fod1FQeElpT2xlRmE1TTIyNEFqcTFnZ25kMEo0UzRtS2haTzQ3bm9FU2VUN0VKbG1NMmp1WQ?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

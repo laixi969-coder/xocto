@@ -33,18 +33,18 @@ summary: 'VCP visual-synesthesia protocol plugin for DeepSeek Harness: render ag
   UI (cards / KaTeX math / Mermaid diagrams / built-in calligraphy fonts / zero-JS interactions), plug-and-play
   on any DSH environment'
 first_seen: '2026-08-21T05:21:59Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/plolpl789/dsh-raw-html
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 62
-    forks: 4
-    open_issues: 5
+    stars: 61
+    forks: 5
+    open_issues: 6
   kind: product
 ---
 

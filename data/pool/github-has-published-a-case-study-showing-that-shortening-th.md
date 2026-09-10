@@ -1,7 +1,7 @@
 ---
 slug: github-has-published-a-case-study-showing-that-shortening-th
 name: GitHub
-builder: ''
+builder: saltbo
 category: ''
 summary_zh: 公开代码仓库 发布案例研究，探讨 AI 代理成本优化。研究发现缩短输出可能适得其反，为开发者平台成本管理提供参考。
 inspiration: ''
@@ -22,16 +22,23 @@ canonical_url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5B
 summary: GitHub has published a case study showing that shortening the output of AI agents to reduce costs
   can actually increase costs. How can we effectively improve cost efficiency? GIGAZINE
 first_seen: '2026-09-06T22:00:00Z'
-last_seen: '2026-09-06T23:54:47Z'
+last_seen: '2026-09-10T05:13:23Z'
 status: market_context
 sources:
 - newssearch
+- v2ex
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1ReWxBdkhpcU5BNlB2b0o5Y2YyZTByZVlvN01VVG0xaHgyeTFKR240WTQyelRWVlEtR3VvYnNzNHVNY2tJSTBJNGw1YXNWVHVFU3lGeFRWNmVXazNrS0ZiT1l6eGFXUWQtVFJKT2JNYk5SUE01dGc?oc=5
   seen_at: '2026-09-06T23:54:47Z'
   metrics: {}
   kind: news
+- source: v2ex
+  url: https://github.com/realmroot/realmroot
+  seen_at: '2026-09-10T05:13:23Z'
+  metrics:
+    comments: 0
+  kind: product
 ---
 
 # GitHub

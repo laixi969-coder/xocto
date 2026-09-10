@@ -1,0 +1,12 @@
+- id: ev-d812ffc9bc13e354
+  project_slug: benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-an
+  url: https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/
+  title: 'Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6'
+  published_at: '2026-09-08T16:21:57Z'
+  collected_at: '2026-09-10T05:13:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across
+    G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token,
+    and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM
+    inference.

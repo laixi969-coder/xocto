@@ -20,8 +20,8 @@ url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDemRmcjN4ZTJlb0xjeU5HTX
 canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDemRmcjN4ZTJlb0xjeU5HTXYzc0tTWFFYYi1uaENRN1NsQjhTU1pNZEZQa05FUEdNczdCREJWOThtRGdSR0JGOUZFbHpBcUd1RkhFclV2UzliTnNFNEd3TQ?oc=5
 summary: The Best AI Chatbots for 2026 PCMag UK
 first_seen: '2026-08-26T15:59:31Z'
-last_seen: '2026-09-02T14:32:07Z'
-status: rejected
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -33,6 +33,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidkFVX3lxTFBtdkwtSzM2UnNoX3NpajRMUFZPOV9UZFkxTUZnLV81YzlzMVlacU9yTkNLSm02aGJNSmhtWFJ6RUl0eVZpaEFsbThlQV9RRmxrcEExYnhJcmdlYVcyNnJrNW5obzZEZGM5ZzNGTlJLbUViRjVFNlE?oc=5
   seen_at: '2026-09-02T14:32:07Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdGhtLWJMRUZuZnc2dWRYVEpYOC1UbFRQdmRBS2NMUlNCSjFXakpwck0xYnczYmxtVG8wMlhWNUpJREZEQ3VBbDdJam9qRkYxd1ljdTlRWklRRGppREZ2TklBX2NWRHlKbDE1c25xMmFTd0RNelRqcWdXZ3dBcDVjVUpoanAza0w0Vmk5VkJkdEVtVWpTem9CNUM5UUtfcHF5SDE0amVaejgzcllHMFM2WEhhRWxCQlRBbTEzU1FWX3Q?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

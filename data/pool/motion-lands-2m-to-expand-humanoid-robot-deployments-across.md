@@ -37,14 +37,20 @@ canonical_url: https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-rob
 summary: Brussels-basedrobotics company Motion has raised $2 million in pre-seed funding to expand itsHumanoids-as-a-Service
   (HaaS) platform and move its existing industrial pilotsinto commercial deployment. T...
 first_seen: '2026-08-27T06:45:42Z'
-last_seen: '2026-08-29T03:43:29Z'
-status: queued
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - marketfeeds
+- newssearch
 sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/08/27/motion-lands-2m-to-expand-humanoid-robot-deployments-across-europe/
   seen_at: '2026-08-29T03:43:29Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitwFBVV95cUxPYmNxZWxZQWphd3FkVTlqcXJnNjk0c096TW5ldEhPakZEbUpxaEZYQ09rQmRERWtkWlNTVENTYzBoTmo0RUkzelZUX2V3U2hGVmo4ck5sUG9lUndNWHdwaEVUSGxwMkx6SkhzLW1PZFpIM1huZm1PRUoyU3dtUFRRRW9fbTEwcEdoV28yRUwzcGdHTW0yUDlZUkptdXhoblBmRmxCZGFLaG5MMVFsRlozc2t2WEZSY28?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

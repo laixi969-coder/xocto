@@ -33,13 +33,14 @@ url: https://github.com/DavidCarliez/cover
 canonical_url: https://github.com/DavidCarliez/cover
 summary: 'Reversible privacy proxy for AI agents: send realistic fakes, restore originals locally.'
 first_seen: '2026-08-21T18:56:30Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: queued
+last_seen: '2026-09-10T05:13:56Z'
+status: pending_filter
 sources:
 - github
 - officialfeeds
 - marketfeeds
 - newssearch
+- hackernews
 sightings:
 - source: github
   url: https://github.com/DavidCarliez/cover
@@ -92,6 +93,18 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPbVBUVW43bjFLREJrc1doMzJFdjdvZkZJc1lrek52aFc0cS1wMEEwd2tIZ0IwTEJvTkgyZ3N2VE5NMUxBZVpRU0xDakpUTDRuRGVsV3RTWU0tSmRVWG5Pck9zdkwwMlBEQ0kyV1dYc2NvWFBDODhVbThqSjBONFFxamxySlhZbS1oU0o1c3g4NVRjTXhfNzF0MTFJdlplWi1rdXZLcV82cw?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://mhacevedo.com/posts/the-discovery-problem
+  seen_at: '2026-09-10T05:13:24Z'
+  metrics:
+    points: 68
+    comments: 34
+  kind: news
+- source: marketfeeds
+  url: https://www.qbitai.com/2026/09/486436.html
+  seen_at: '2026-09-10T05:13:56Z'
   metrics: {}
   kind: news
 ---

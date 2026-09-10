@@ -36,17 +36,17 @@ url: https://github.com/sharptoolbox/mobile-manufacturing-togaf
 canonical_url: https://github.com/sharptoolbox/mobile-manufacturing-togaf
 summary: 手机制造行业企业架构(TOGAF)规划完整案例参考，含6章规划正文、76个可视化原型、LTC知识图谱原型，以及可直接驱动AI编程落地的企业架构可视化系统需求与设计方案。
 first_seen: '2026-08-30T13:45:14Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/sharptoolbox/mobile-manufacturing-togaf
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 44
-    forks: 36
+    stars: 46
+    forks: 37
     open_issues: 0
   kind: product
 ---

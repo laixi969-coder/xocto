@@ -21,7 +21,7 @@ url: https://compute.cx
 canonical_url: https://compute.cx
 summary: Compute.cx is simple (modal.com like) interface for on-demand GPUs
 first_seen: '2026-08-20T15:47:24Z'
-last_seen: '2026-09-07T15:53:16Z'
+last_seen: '2026-09-10T05:14:03Z'
 status: pending_filter
 sources:
 - hackernews
@@ -80,6 +80,11 @@ sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/07/jaipur-robotics-raises-eur43m-to-bring-computer-vision-to-waste-plants/
   seen_at: '2026-09-07T15:53:16Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMingFBVV95cUxNSl9YSG9yYWIwREsyZXBPZF9iNFVBenZWaC15MWdTc1A3UUVYd055U0NkZXdxYTlVUDVHVVItQ2I2Mm9GaGF2SlN6bUtMMENLdjRDUVNKS2RrVlN6d2hYUlZnMloyOHRRckItWUZ5MU1xb2VXTXEwV3hxbEdTcnQzc0hMNktUcmhCZ2QxNUdIaVliZl9JdmJZYUJlNDJmZw?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

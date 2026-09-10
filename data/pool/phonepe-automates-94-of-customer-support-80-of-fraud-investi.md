@@ -1,0 +1,43 @@
+---
+slug: phonepe-automates-94-of-customer-support-80-of-fraud-investi
+name: 'PhonePe automates 94% of customer support, 80% of fraud investigations with AI: Cofounder Rahul
+  Chari'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNb2pYTjlzYm0zX2NmSVZubXNXd0Z4bkxQNmxOTmgxU3NnOVpYZXR5cWNFLWlCaWR5dlJMT3VoU0Q2T3IxTmw0Uzl3MmlsUS1Hclh5ZGYzU3o1dFYxQTBXbE93S1p0UXAxbFo2UG1sdVREZTJMSEo4aDlJek5qaU1kY1JfNUFlQjdLNkRBOWFBazZfV01kYXFDbXJ2SXFETFhsRldScFR6NmFVMjBXR09Cc3ZjczIyR1B2N1pYbTBqeVBackwyaHRFa0NHN2hwdXZpSWZJd0c5MGNYaFdxcFplbHNvNERWdF9QOFhZNnlFV2XSAfYBQVVfeXFMTUJmaTA5RzJOT1lEbTlPNEhrOElMdlFvMUFGbUpnUlRJWmhwMnNfenlscmpyd3NQMGJKTHEybjFXUFhBcTAzZjQ1ZEtuaFhJcXYxZGNTQ1JsT01Ya1k2Uk1vM3oxYkNEWXpzZEtrZU9hY29hYTJwaTkwMFRFc0tUQ1UzUUZHWEowbTBHNzROZ1ZmdXVIYllDWURTS3p0MXNfLXNnRWJUZE45c0ZMVFduNmY3NGJ3WFo1MjRlc3JWZjJWQmFEdHlUc18tMV9LaDZtU09yRDRBRVY4dkZRb3ZRU1U2WnlmSGl3aU5DVmhPY3cyUkFKdXhR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNb2pYTjlzYm0zX2NmSVZubXNXd0Z4bkxQNmxOTmgxU3NnOVpYZXR5cWNFLWlCaWR5dlJMT3VoU0Q2T3IxTmw0Uzl3MmlsUS1Hclh5ZGYzU3o1dFYxQTBXbE93S1p0UXAxbFo2UG1sdVREZTJMSEo4aDlJek5qaU1kY1JfNUFlQjdLNkRBOWFBazZfV01kYXFDbXJ2SXFETFhsRldScFR6NmFVMjBXR09Cc3ZjczIyR1B2N1pYbTBqeVBackwyaHRFa0NHN2hwdXZpSWZJd0c5MGNYaFdxcFplbHNvNERWdF9QOFhZNnlFV2XSAfYBQVVfeXFMTUJmaTA5RzJOT1lEbTlPNEhrOElMdlFvMUFGbUpnUlRJWmhwMnNfenlscmpyd3NQMGJKTHEybjFXUFhBcTAzZjQ1ZEtuaFhJcXYxZGNTQ1JsT01Ya1k2Uk1vM3oxYkNEWXpzZEtrZU9hY29hYTJwaTkwMFRFc0tUQ1UzUUZHWEowbTBHNzROZ1ZmdXVIYllDWURTS3p0MXNfLXNnRWJUZE45c0ZMVFduNmY3NGJ3WFo1MjRlc3JWZjJWQmFEdHlUc18tMV9LaDZtU09yRDRBRVY4dkZRb3ZRU1U2WnlmSGl3aU5DVmhPY3cyUkFKdXhR?oc=5
+summary: 'PhonePe automates 94% of customer support, 80% of fraud investigations with AI: Cofounder Rahul
+  Chari Moneycontrol.com'
+first_seen: '2026-09-10T03:41:32Z'
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNb2pYTjlzYm0zX2NmSVZubXNXd0Z4bkxQNmxOTmgxU3NnOVpYZXR5cWNFLWlCaWR5dlJMT3VoU0Q2T3IxTmw0Uzl3MmlsUS1Hclh5ZGYzU3o1dFYxQTBXbE93S1p0UXAxbFo2UG1sdVREZTJMSEo4aDlJek5qaU1kY1JfNUFlQjdLNkRBOWFBazZfV01kYXFDbXJ2SXFETFhsRldScFR6NmFVMjBXR09Cc3ZjczIyR1B2N1pYbTBqeVBackwyaHRFa0NHN2hwdXZpSWZJd0c5MGNYaFdxcFplbHNvNERWdF9QOFhZNnlFV2XSAfYBQVVfeXFMTUJmaTA5RzJOT1lEbTlPNEhrOElMdlFvMUFGbUpnUlRJWmhwMnNfenlscmpyd3NQMGJKTHEybjFXUFhBcTAzZjQ1ZEtuaFhJcXYxZGNTQ1JsT01Ya1k2Uk1vM3oxYkNEWXpzZEtrZU9hY29hYTJwaTkwMFRFc0tUQ1UzUUZHWEowbTBHNzROZ1ZmdXVIYllDWURTS3p0MXNfLXNnRWJUZE45c0ZMVFduNmY3NGJ3WFo1MjRlc3JWZjJWQmFEdHlUc18tMV9LaDZtU09yRDRBRVY4dkZRb3ZRU1U2WnlmSGl3aU5DVmhPY3cyUkFKdXhR?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+---
+
+# PhonePe automates 94% of customer support, 80% of fraud investigations with AI: Cofounder Rahul Chari
+
+PhonePe automates 94% of customer support, 80% of fraud investigations with AI: Cofounder Rahul Chari Moneycontrol.com
+
+## 笔记
+
+

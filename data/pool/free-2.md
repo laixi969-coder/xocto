@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-09-06T15:19:29Z'
+last_seen: '2026-09-10T05:13:54Z'
 status: pending_filter
 sources:
 - hackernews
@@ -66,6 +66,11 @@ sightings:
   metrics:
     points: 135
     comments: 25
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan
+  seen_at: '2026-09-10T05:13:54Z'
+  metrics: {}
   kind: news
 ---
 

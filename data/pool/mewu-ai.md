@@ -32,17 +32,17 @@ canonical_url: https://github.com/abnste/mewu_ai
 summary: Windows 截图与 AI 原位标注助手：翻译、OCR、长截图、视频标注。 | Windows screen capture with in-place AI annotations,
   translation, OCR, scrolling capture, and video markup.
 first_seen: '2026-08-29T16:32:28Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/abnste/mewu_ai
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 57
-    forks: 1
+    stars: 61
+    forks: 3
     open_issues: 0
   kind: product
 ---

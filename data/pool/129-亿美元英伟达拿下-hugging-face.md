@@ -57,8 +57,8 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇   \n \n \n 129 亿美元，英�
   \ 它不再满足于只卖铲子给挖金矿的人，它要拥有金矿本身。 或者更准确地说，它要拥有从矿场到集散市场的整条供应链。 \n 这对 AI 行业意味着什么？当世界上最强大的 AI 基础设施公司开始同时控制硬件、模型、分发平台和机器人开发栈，「开源」这两个字的含义，可能需要被重新定义了。\
   \ \n *头图来源：英伟达 \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-27T07:09:02Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: market_context
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
@@ -112,6 +112,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvSWg5TFhsamltMGtkSU82NU1ZQ3p4M2tsSFF5aWFBMlVQaVhzWml0bkpROWJkTVJ0a2hNOTlIcW9BN2xnQXhOT3ozV2plUzZUWXRKaWY3a0RqYW84SVRQY0c4eHJfMGM5?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMikAFBVV95cUxPUGVRODJoN25BWHM3WmpqeUJFeTVtd2t0cGFVQ21TZFBTMDh2eEtQeUhWa19uU3QwanJnLW5raG1uaDNtWklWOXgyR3ZoN1ZfWjRIYURTMDg3SHE4SFE0dWNGT2lyNktRNXY4MFNBQUhxMll3eVBDaXNUM3ZoZzBHb1c5WXZEakd5QWhPZDl3RG8?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

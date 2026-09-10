@@ -1,0 +1,12 @@
+- id: ev-6082c6bd095d823c
+  project_slug: automate-user-level-custom-permissions-for-amazon-quick
+  url: https://aws.amazon.com/blogs/machine-learning/automate-user-level-custom-permissions-for-amazon-quick/
+  title: Automate user-level custom permissions for Amazon Quick
+  published_at: '2026-09-09T15:45:24Z'
+  collected_at: '2026-09-10T05:13:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Amazon Quick custom permissions let you enforce least-privilege access by toggling features per
+    user. This post walks through four patterns to automate custom permissions across the user lifecycle:
+    a RegisterUser API parameter, account and role defaults, event-driven Amazon EventBridge and AWS Lambda
+    automation, and a retroactive batch update script.'

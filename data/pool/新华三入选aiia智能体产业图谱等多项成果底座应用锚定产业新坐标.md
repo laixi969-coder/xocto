@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1mek1LU2FMQjI3X2xOLXZKaX
 canonical_url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1mek1LU2FMQjI3X2xOLXZKaXhoRW9ZQTJvQWtsZGcyMnlMeEJuZmM1clBpbVJWcWRKWHFyVTNjZjliNWRyb2sxS3pOckxnXzYxT1M0SjNENmpSX3RjQ193MkNqWWQwaDFUVjc2YTY0a01VclZ6dUhxMU12LXpiaVU?oc=5
 summary: 新华三入选AIIA智能体产业图谱等多项成果，“底座+应用”锚定产业新坐标 新浪网
 first_seen: '2026-09-07T09:39:00Z'
-last_seen: '2026-09-08T00:25:57Z'
-status: market_context
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMif0FVX3lxTE1mek1LU2FMQjI3X2xOLXZKaXhoRW9ZQTJvQWtsZGcyMnlMeEJuZmM1clBpbVJWcWRKWHFyVTNjZjliNWRyb2sxS3pOckxnXzYxT1M0SjNENmpSX3RjQ193MkNqWWQwaDFUVjc2YTY0a01VclZ6dUhxMU12LXpiaVU?oc=5
   seen_at: '2026-09-08T00:25:57Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBhbVdkVW9vSVB1dmVDVy1nS0t6RUIwNzBzbWJyVl9kaWJqLWtndHM5U0NETG5KNEI3eXM4M003M0xKNjZLdnJtT3FobVQwb3dudXZ2RUxEWmRQeGJ4LU1YNQ?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

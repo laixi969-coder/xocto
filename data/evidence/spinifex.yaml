@@ -7,3 +7,12 @@
   source_kind: adoption
   tier: behavioural
   fact: run EC2/S3/IAM/EKS on your own hardware, AWS CLI unchanged
+- id: ev-2bc29ac9dc054138
+  project_slug: spinifex
+  url: https://mulgadc.com/blog/spinifex-1-19-0-release
+  title: Spinifex
+  published_at: '2026-09-08T23:30:27Z'
+  collected_at: '2026-09-10T05:13:24Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 19 releases in, from 3 AWS services to 11

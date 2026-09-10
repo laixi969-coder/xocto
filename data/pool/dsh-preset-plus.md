@@ -20,16 +20,16 @@ url: https://github.com/Rain-kl/dsh-preset-plus
 canonical_url: https://github.com/Rain-kl/dsh-preset-plus
 summary: DSH 预设编辑器插件, 支持一键破甲.
 first_seen: '2026-08-24T01:58:21Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: rejected
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Rain-kl/dsh-preset-plus
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 90
+    stars: 97
     forks: 5
     open_issues: 1
   kind: product

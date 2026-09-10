@@ -29,7 +29,7 @@ url: https://github.com/dragthelake/ambient-context
 canonical_url: https://github.com/dragthelake/ambient-context
 summary: Screen memory without screenshots, just text to Markdown
 first_seen: '2026-08-25T04:33:24Z'
-last_seen: '2026-09-08T00:25:29Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: watching
 sources:
 - hackernews
@@ -44,9 +44,9 @@ sightings:
   kind: product
 - source: github
   url: https://ambientcontext.app
-  seen_at: '2026-09-08T00:25:29Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 164
+    stars: 167
     forks: 9
     open_issues: 0
   kind: product

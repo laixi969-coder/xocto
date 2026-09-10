@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QdDBzMmtraldBYzdSTVRJWG
 canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QdDBzMmtraldBYzdSTVRJWGpkWjdpeWliWFJKSEtKbjlqMUhiVUpPdHJyeWcwdjQ4dWFNWkF0OU5iNHVwT252ZW9tZ3RVQktQT0JVOEpRRHg5aHlqWm9OSmw5VQ?oc=5
 summary: 深中华A澄清：无AI业务收入、不涉及金饰零售及APEC相关业务 东方财富
 first_seen: '2026-09-02T12:51:21Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: market_context
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -35,6 +35,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMieEFVX3lxTFBOR1QtTDJENUlaV0MxYTRyZkd3MWpCdFRjYkdiZUtPYm9ZODBnV3pDaEI4ZWgzclhobzFqemlmbWtyZ2RiU2tYLUlJYldJU05MdTk0dVFsNEJKaFZsTDBtaEpHVl8xbXItR1hTZmhBVm1JSEYtRVozLQ?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kR0VaRVowaWhRdW1DUlJOUk1CMzVLWkZhalBabjZfX0VGd0dMSTl0WU1wZm1nRzlKQzI2ZGhxdWFFWGQzM19XamREdzhDMlR0dUtjaUU4X0JkdE1zRzRpbDFuSWhkdw?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

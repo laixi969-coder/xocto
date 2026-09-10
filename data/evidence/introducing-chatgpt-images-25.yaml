@@ -1,0 +1,28 @@
+- id: ev-bf7360017f0bb511
+  project_slug: introducing-chatgpt-images-25
+  url: https://openai.com/index/introducing-chatgpt-images-2-5
+  title: Introducing ChatGPT Images 2.5
+  published_at: '2026-09-08T11:30:00Z'
+  collected_at: '2026-09-10T05:13:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized,
+    polished images that better reflect your ideas.
+- id: ev-56ca3f62ead9e86e
+  project_slug: introducing-chatgpt-images-25
+  url: https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/
+  title: Introducing ChatGPT Images 2.5
+  published_at: '2026-09-08T22:46:33Z'
+  collected_at: '2026-09-10T05:13:56Z'
+  source_kind: market_signal
+  tier: independent
+  fact: "Introducing ChatGPT Images 2.5   \nOpenAI's image generation models are apparently used \"more\
+    \ than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release\
+    \ improves their instruction-following ability across multiple turns, responds faster, and \"is better\
+    \ at preserving the subjects in your reference photos\". \n There are two new model IDs in the API:\
+    \  gpt-image-2.5-sunburst  and  gpt-image-2.5-flare . Based  on this  I think Sunburst is the stronger\
+    \ option: \n \n Choose Sunburst for workflows where editing precision matters most, and Flare for\
+    \ fast, high-quality everyday image generation. \n \n I  upgraded  my  openai_image.py  CLI tool to\
+    \ support passing in one or more reference images, so now this works: \n  uv run https://tools.simonwillison.net/python/openai_image.py\
+    \ \\\n    ' add a raccoon scientist studying the chart thoughtfully '   \\\n  -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp\
+    \ \\\n  -m gpt-image-2.5-sunburst  \n\n This is"

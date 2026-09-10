@@ -1,0 +1,11 @@
+- id: ev-19239dc9213f6f7f
+  project_slug: automated-agent-evaluation-with-amazon-bedrock-agentcore-and
+  url: https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/
+  title: Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions
+  published_at: '2026-09-08T16:23:21Z'
+  collected_at: '2026-09-10T05:13:54Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: 'Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent
+    and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prompts, score
+    the responses, and automatically block pull requests when agent behavior regresses.'

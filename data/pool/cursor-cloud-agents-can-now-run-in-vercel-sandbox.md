@@ -21,14 +21,19 @@ url: https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox
 canonical_url: https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox
 summary: ''
 first_seen: '2026-09-03T15:00:00Z'
-last_seen: '2026-09-04T00:06:57Z'
-status: market_context
+last_seen: '2026-09-10T05:13:54Z'
+status: pending_filter
 sources:
 - officialfeeds
 sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox
   seen_at: '2026-09-04T00:06:57Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally
+  seen_at: '2026-09-10T05:13:54Z'
   metrics: {}
   kind: news
 ---

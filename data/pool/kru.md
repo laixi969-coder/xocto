@@ -21,16 +21,16 @@ canonical_url: https://github.com/omaekumiko2-create/kru
 summary: Local-first MCP password and credential manager for AI agents. Use passwords, API keys, SSH identities,
   and TOTP without exposing hidden plaintext to the model.
 first_seen: '2026-08-24T21:23:11Z'
-last_seen: '2026-08-31T00:37:21Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/omaekumiko2-create/kru
-  seen_at: '2026-08-31T00:37:21Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 126
+    stars: 125
     forks: 6
     open_issues: 0
   kind: product

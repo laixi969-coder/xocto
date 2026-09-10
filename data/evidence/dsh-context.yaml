@@ -1592,3 +1592,47 @@
   tier: behavioural
   fact: 'DeepSeek Harness Desktop 悬浮用量小宠物：12 个正式逐帧动作反馈请求、工具、上下文压缩、归档与提示词增强；展示实时上下文占用、跨会话 Lifetime Ledger、服务商/模型统计和小时
     Token 趋势；支持可编辑提示词增强、拖拽缩放、低性能模式与后台增量索引。 | repository stars: 55'
+- id: ev-17ede20ca00227bf
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@opencode2dsh/dsh-plugin
+  title: opencode2dsh
+  published_at: '2026-08-29T07:22:12Z'
+  collected_at: '2026-09-10T05:13:28Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH plugin — free OpenCode Zen models for DeepSeek Harness (DSH). Free LLM API, no API key needed.
+    在 DSH 中使用 OpenCode Zen 免费模型，无需 API key | repository stars: 47'
+- id: ev-9e92d28a7b568ed7
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/dsh-filesnap
+  title: dsh-filesnap
+  published_at: '2026-08-27T02:28:07Z'
+  collected_at: '2026-09-10T05:13:28Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'DSH Rewind & Redo — by FileSnap. 把对话和它改过的文件一起恢复到某一轮之前（受claude code rewind启发并改进）,不需要 git 仓库,并且可以撤销恢复（redo受opencode启发并改进），由rust驱动是市面上最快最可靠的dsh
+    rewind插件. A blazing-fast rewind and redo plugin for DeepSeek Harness, powered by a 🦀 Rust core, tracking
+    the conversation and the files it changed, no git required, low disk consumption | repository stars:
+    43'
+- id: ev-e4d29afb0e793e38
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/@beforewave/dsh-with-chatgpt
+  title: dsh-with-chatgpt
+  published_at: '2026-08-21T16:41:35Z'
+  collected_at: '2026-09-10T05:13:28Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Say goodbye to copy-pasting and DSH Token anxiety. Let ChatGPT on the web connect directly to
+    your local project, code on its own, and hand complex tasks to DSH for sustained execution. | repository
+    stars: 50'
+- id: ev-6c18517f5775fff6
+  project_slug: dsh-context
+  url: https://www.npmjs.com/package/baoer_signal_grep
+  title: baoer_signal_grep
+  published_at: '2026-08-27T11:39:55Z'
+  collected_at: '2026-09-10T05:13:28Z'
+  source_kind: open_source
+  tier: behavioural
+  fact: 'Context-efficient project search and bounded code analysis for Claude Code & Codex & Pi & OMP.
+    and remote MCP clients, powered by ripgrep with stable cursors, source inspection, and structural
+    evidence. | repository stars: 70'

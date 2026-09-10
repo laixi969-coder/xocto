@@ -23,14 +23,19 @@ summary: European space company The Exploration Company (TEC) has raised $450 mi
   toadvance its reusable space transportation systems and expand its operations.The round was co-led by
   B...
 first_seen: '2026-09-08T12:34:00Z'
-last_seen: '2026-09-08T14:34:47Z'
-status: market_context
+last_seen: '2026-09-10T05:13:56Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
 - source: marketfeeds
   url: https://tech.eu/2026/09/08/the-exploration-company-raises-450m-series-c-to-scale-reusable-space-transport/
   seen_at: '2026-09-08T14:34:47Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/exploration-company-450m-series-c/
+  seen_at: '2026-09-10T05:13:56Z'
   metrics: {}
   kind: news
 ---

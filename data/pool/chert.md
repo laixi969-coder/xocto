@@ -11,19 +11,36 @@ inspiration_en: 'The trend is voice support growing eyes: customers stop describ
   thing to the camera. The entry is jobs that need sight—appliance repair, home inspection, remote install—sold
   per completed video call.'
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.producthunt.com/products/chert
 canonical_url: https://producthunt.com/products/chert
 summary: 'Vapi for FaceTime: AI video agents in a few lines'
 first_seen: '2026-08-15T04:01:04Z'
-last_seen: '2026-08-16T22:37:03Z'
-status: queued
+last_seen: '2026-09-10T05:13:24Z'
+status: pending_filter
 sources:
 - producthunt
+- hackernews
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/chert
   seen_at: '2026-08-16T22:37:03Z'
   metrics: {}
+  kind: product
+- source: hackernews
+  url: https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/
+  seen_at: '2026-09-10T05:13:24Z'
+  metrics:
+    points: 54
+    comments: 20
+  kind: news
 ---
 
 # Chert

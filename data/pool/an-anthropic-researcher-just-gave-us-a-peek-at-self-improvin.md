@@ -1,7 +1,7 @@
 ---
 slug: an-anthropic-researcher-just-gave-us-a-peek-at-self-improvin
 name: Anthropic
-builder: ''
+builder: jb1991
 category: 基础层
 summary_zh: Anthropic 研究员展示的自动化自改进系统：给定10个针对特定未对齐行为的基准测试，自动化系统在每个基准上都能提升表现，且不损害整体性能。这说明「AI 改进 AI」正从概念走向可演示的能力，头部实验室围绕自动化研发与对齐安全的竞赛会进一步升温，也会放大对失控风险的讨论。
 inspiration: 趋势：模型厂商开始证明能靠企业付费自我造血，竞争焦点从模型能力转向安全合规与算力供给。切入：通用对话入口窗口已关，别做又一个 Claude；可在垂直行业工作流、企业数据合规、智能体安全评测等环节依附其生态获利。
@@ -39,11 +39,12 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: market_context
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - marketfeeds
 - newssearch
+- hackernews
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/
@@ -118,6 +119,30 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAFBVV95cUxOUk9OcmNYZkI5SDZOUVNBaEZZcXF6MEJzalBTVkVMNjJGd09LVW5UNFoycnpoV0R1LWdMWkJ1RkV2a3lCTHFQc0plck5hdG5QV0JjZFZkYU55a3U5YVpSWTBhVllIUGtzMVJsaDhfS21NazBmdGFieUNZV2JLaFNqOVJTaktNM1hTLUlqeWl4YXBkN0gtdENKTFRMWjY?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: hackernews
+  url: https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/
+  seen_at: '2026-09-10T05:13:24Z'
+  metrics:
+    points: 45
+    comments: 100
+  kind: news
+- source: hackernews
+  url: https://www.bbc.co.uk/news/articles/ckgwy1k42w4o
+  seen_at: '2026-09-10T05:13:24Z'
+  metrics:
+    points: 44
+    comments: 98
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMigwFBVV95cUxOaWJEMVVpVWhyajVMbjZaZmlpemZOeEJSYkJuUmZ0WWEwb1hqQjNXZUdNbTNSc2lOa3VkbWZLa3ZTY1ozczJIbExPaDAxbTlhV2RSWlhnOFZ4MG5QZlV5X0d0dDkzeHJORVpaRTE3Wnh3cDV5SGtWd2FKWC02YWVzTGszVQ?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5xa1l1UDhuWlNRYVdKdmtNM2FwckpGejQ3Ulpna3hpSUZwc1VzN1BmNy1NTjNYRC1Mb3RoaTZua1dZWjNUcjVJbDlOVzQ1bktMQ1ZLajFsNUdBQUlWT0xIMUNsanNWcEtDS3BrUnRua181XzFGWml5UkFyVkE1dw?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

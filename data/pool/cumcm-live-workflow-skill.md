@@ -32,17 +32,17 @@ canonical_url: https://github.com/haoxilin/cumcm-live-workflow-skill
 summary: CUMCM 数学建模竞赛全流程实战技能手册：读题自查→建模出图→LaTeX论文→交叉审阅→填 result 模板→AI 自查表终审→清理打包。含题意理解红线、数值严谨性守则、去 AIGC
   特征清单、2026 AI 合规与 26 条自查终审框架。
 first_seen: '2026-08-23T14:03:20Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/haoxilin/cumcm-live-workflow-skill
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 77
-    forks: 2
+    stars: 116
+    forks: 5
     open_issues: 0
   kind: product
 ---

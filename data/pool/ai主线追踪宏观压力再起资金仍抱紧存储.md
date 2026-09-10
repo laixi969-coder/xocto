@@ -1,0 +1,41 @@
+---
+slug: ai主线追踪宏观压力再起资金仍抱紧存储
+name: 【AI主线追踪】宏观压力再起，资金仍抱紧存储
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9LRGhSaVJqaGNNajZhcnBLZUNGS2Z6TF9xaHdHY2NfWkNMX0VZS0Jzbl9CdG8tT18wMDUxdklUOVRGekYzSDdzS2VOc19sZjJJNkJvaUFoR241eWlvbk5DSEVMQ3RhSjdwWndnb3RIaUlQLUp2V3l6N0pWTzg5STJCRXUxU0ZyUTgxODJiLTBRdG90bUlqTmpSczRHN3NxR2xTT0g4YWZVWGRuQ2ZJTmwzZUF0VkM2VTVRTDdIZVhHTU9nTFZ0RA?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9LRGhSaVJqaGNNajZhcnBLZUNGS2Z6TF9xaHdHY2NfWkNMX0VZS0Jzbl9CdG8tT18wMDUxdklUOVRGekYzSDdzS2VOc19sZjJJNkJvaUFoR241eWlvbk5DSEVMQ3RhSjdwWndnb3RIaUlQLUp2V3l6N0pWTzg5STJCRXUxU0ZyUTgxODJiLTBRdG90bUlqTmpSczRHN3NxR2xTT0g4YWZVWGRuQ2ZJTmwzZUF0VkM2VTVRTDdIZVhHTU9nTFZ0RA?oc=5
+summary: 【AI主线追踪】宏观压力再起，资金仍抱紧存储 Moomoo
+first_seen: '2026-09-10T02:55:48Z'
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9LRGhSaVJqaGNNajZhcnBLZUNGS2Z6TF9xaHdHY2NfWkNMX0VZS0Jzbl9CdG8tT18wMDUxdklUOVRGekYzSDdzS2VOc19sZjJJNkJvaUFoR241eWlvbk5DSEVMQ3RhSjdwWndnb3RIaUlQLUp2V3l6N0pWTzg5STJCRXUxU0ZyUTgxODJiLTBRdG90bUlqTmpSczRHN3NxR2xTT0g4YWZVWGRuQ2ZJTmwzZUF0VkM2VTVRTDdIZVhHTU9nTFZ0RA?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+---
+
+# 【AI主线追踪】宏观压力再起，资金仍抱紧存储
+
+【AI主线追踪】宏观压力再起，资金仍抱紧存储 Moomoo
+
+## 笔记
+
+

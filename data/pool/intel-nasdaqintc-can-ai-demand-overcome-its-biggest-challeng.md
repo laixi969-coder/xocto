@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0ZvZ0VVbUhMa19qem5iS2
 canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0ZvZ0VVbUhMa19qem5iS21NOEJneXdVck9pTmNnVkJoTzFOU0FlNDhMVGFWbzFOckxtTGxsdmlFdjhZNDZxV2FUd1AzcHRNT2lTZjFwbHZLWTZhTlB0SXBqNm1Ec3pqVTVDWTU4OVN1SW41NEN1QXhIN1JwTFNFX0FDN1FNZ3ZHLTdnZmdhdzZLZ0tQY3M5ZnJndXZDVEREbWZabC13c3JoVFJw?oc=5
 summary: 'Intel (NASDAQ:INTC): Can AI Demand Overcome Its Biggest Challenges? Kalkine Media'
 first_seen: '2026-09-05T10:49:00Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: rejected
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - newssearch
 - marketfeeds
@@ -51,6 +51,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNcFkyaFhpX0ZmalB3Q01PemhMUklwelpKQ1plWkZ0OHJuREhxSDh2ZkFkb1dVSVhpM1VJR3dfOEpSNnhBUVVmRWFZYWFGZktzcUxSOXhfdDU5anJpZ1VJekI4WEY4OVZrN3dSVzZXZk4zNzN6U2hsNmtjTEZYQVFKWUZVQllwTnpabkQ2TlN2dzN2MUZkeUpNRmhwdU92MmhJUFFXRURxazd6dEdrQlBlaUswMm10VmI2NHV5eC1UTXFiMmMwSWMxY0dKYXRGb1FiWmdRWEZIS1pGU0t2bGh4Sm4yYlhROW5sN1lvSXB0em1FMTlq?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTFB6YWpSc2JxQUFjV2tjU1VxYmNlRXdraEZkWVg0N1FYdmtHcG1VQjlNNGt2MlVRTUpVWHlubUVuSWlxd3VQUG9OcnNYcGl3VC1oNnJWZ0F4SkxpOWVyQjFtQjdGYlU3Qmd3ejBtMlJUMnRQclJtaVpjRW8zRHRTUQ?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ac0hFelBuZ3VEYWllWWlwSHliVGE4ZFYxaE1oOWJkTFRmRml3a0stZDVGSHc2SXEyV1F5VEpHVkFSNXZYd2JveDRyMTdueC1HLThN?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

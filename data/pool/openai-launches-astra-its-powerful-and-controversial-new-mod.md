@@ -25,8 +25,8 @@ canonical_url: https://techcrunch.com/2026/09/03/openai-launches-astra-its-power
 summary: OpenAI claims that Astra represents "a new frontier on computer and browser use," and that it
   handles tasks with unmatched "speed, accuracy, and safety."
 first_seen: '2026-09-03T18:01:45Z'
-last_seen: '2026-09-08T00:25:50Z'
-status: market_context
+last_seen: '2026-09-10T05:13:56Z'
+status: pending_filter
 sources:
 - marketfeeds
 sightings:
@@ -43,6 +43,11 @@ sightings:
 - source: marketfeeds
   url: https://www.latent.space/p/aeo
   seen_at: '2026-09-08T00:25:50Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help
+  seen_at: '2026-09-10T05:13:56Z'
   metrics: {}
   kind: news
 ---

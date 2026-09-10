@@ -21,8 +21,8 @@ url: https://sifted.eu/articles/mistral-series-d-samsung-nvidia-asml/
 canonical_url: https://sifted.eu/articles/mistral-series-d-samsung-nvidia-asml
 summary: French AI startup Mistral valued at over 21 billion euros after latest funding France 24
 first_seen: '2026-09-02T15:00:33Z'
-last_seen: '2026-09-08T14:34:55Z'
-status: market_context
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - marketfeeds
 - hackernews
@@ -78,6 +78,26 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9uZlV0NFRZaFdRbkhxTFZkUWpHRFo4bnRoMzU3MjY3NV81cXV3VkZXUzZTNU9QeFNKeEdrUnN1aGJiVFk?oc=5
   seen_at: '2026-09-08T14:34:55Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/
+  seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/why-did-samsung-back-mistral/
+  seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/exclusive-mistral-robotics-chief-seeks-e200m-for-new-startup/
+  seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiogFBVV95cUxPX0YxRDVNT1U1ajQ1UGJKaDAya05EVnFuaVBJSE9RdTZua01JbUxjUGVzX2owRVBNRHVXOEpSek5UY05VVmNDRzRtRTZEaFVNNlpHUXFlUEsyM2NFYTJEWG42blZFMTk2YktjQWZjTzdfSjZzaUZ6N282Ui1sY3AycklWNFo1NTY5TWR3Unl5TVdjZEhHcHFVTWdpRm9CVXhtY0E?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

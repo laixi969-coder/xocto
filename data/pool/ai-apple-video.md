@@ -36,17 +36,17 @@ url: https://github.com/huangbai-AI/ai-apple-video
 canonical_url: https://github.com/huangbai-AI/ai-apple-video
 summary: Seedance 2.5 苹果发布会风格产品视频生成技能 — 把任意普通产品包装成高端消费电子产品，生成30秒苹果发布会风格AI视频。作者：靓仔 AI 进化论
 first_seen: '2026-09-06T13:50:55Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huangbai-AI/ai-apple-video
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 85
-    forks: 11
+    stars: 91
+    forks: 12
     open_issues: 0
   kind: product
 ---

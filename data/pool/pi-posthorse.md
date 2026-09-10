@@ -32,16 +32,16 @@ canonical_url: https://github.com/fitchmultz/pi-posthorse
 summary: 'Posthorse: fresh context, same journey. Native no-summary context windows for the fitchmultz/pi
   fork of the Pi coding agent, with rollover tools, durable notes, and history recovery.'
 first_seen: '2026-08-31T15:06:23Z'
-last_seen: '2026-09-08T14:34:27Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/fitchmultz/pi-posthorse
-  seen_at: '2026-09-08T14:34:27Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 236
+    stars: 240
     forks: 6
     open_issues: 0
   kind: product

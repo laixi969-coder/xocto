@@ -28,11 +28,12 @@ url: https://github.com/kelviq/tare
 canonical_url: https://github.com/kelviq/tare
 summary: My Claude quota ran out in 10 minutes, so I made a tool to find out why
 first_seen: '2026-08-27T16:37:44Z'
-last_seen: '2026-09-02T00:14:54Z'
-status: watching
+last_seen: '2026-09-10T05:14:03Z'
+status: pending_filter
 sources:
 - hackernews
 - marketfeeds
+- newssearch
 sightings:
 - source: hackernews
   url: https://github.com/kelviq/tare
@@ -54,6 +55,11 @@ sightings:
 - source: marketfeeds
   url: https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot
   seen_at: '2026-09-02T00:14:54Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDY3U1hVblozS0s4b1VGU3BpekVLVVphTE5abXRHb0JmbzNVZGdjS3p5VVJsT05ITjFud19mRmVaUWFkR0lqLWJES1pmU3BSVUdOaHNsYkpuWTFqOFZDYzNkaGxKeWJncnlpcFNxUHduaFE2dDlYMm9BR1FNaW5QWVpYc19nbnJRMVRraF9oSFh3NzlKVUQtREtJT29wSUdaLWczcjVIR3ZkZ0F3YV9R?oc=5
+  seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
 ---

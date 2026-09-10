@@ -32,8 +32,8 @@ summary: The prompt studio for AI filmmaking — plan shots, direct coverage, ke
   production-ready prompts for any image, video, music, or voice generator. No API keys. Suggested Donation
   of $30 if you you can to help me keep making these tools.https://ko-fi.com/samwasserman
 first_seen: '2026-08-04T07:33:09Z'
-last_seen: '2026-09-03T14:36:23Z'
-status: queued
+last_seen: '2026-09-10T05:13:56Z'
+status: pending_filter
 sources:
 - github
 - marketfeeds
@@ -80,6 +80,11 @@ sightings:
   metrics:
     points: 22
     comments: 16
+  kind: news
+- source: marketfeeds
+  url: https://sifted.eu/articles/prague-flowpay-tops-ranking/
+  seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
   kind: news
 ---
 

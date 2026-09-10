@@ -20,11 +20,12 @@ url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FTMGpTWGtOOUpYdTFadE
 canonical_url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FTMGpTWGtOOUpYdTFadEtpMV8wQUdVamVySVJkMnFIcnNkanVLQ2pLc0NIMWVvUnFWUV9uOTZMdC1hSkh6OHdURVNsZExyWnJ4REMwUUdMMGRqcGpRbWpPZ1lkd3U1LTdNVmY1RHAyTUR0MHJqenc5dXNmX0pqdGQtbDJ3aXNnWUo0?oc=5
 summary: Craft’s Ilya Levtov Never Learned To Code. He Built A Software Company Anyway. Crunchbase News
 first_seen: '2026-08-27T11:00:20Z'
-last_seen: '2026-09-03T00:16:26Z'
-status: rejected
+last_seen: '2026-09-10T05:13:56Z'
+status: pending_filter
 sources:
 - newssearch
 - hackernews
+- marketfeeds
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0FTMGpTWGtOOUpYdTFadEtpMV8wQUdVamVySVJkMnFIcnNkanVLQ2pLc0NIMWVvUnFWUV9uOTZMdC1hSkh6OHdURVNsZExyWnJ4REMwUUdMMGRqcGpRbWpPZ1lkd3U1LTdNVmY1RHAyTUR0MHJqenc5dXNmX0pqdGQtbDJ3aXNnWUo0?oc=5
@@ -37,6 +38,11 @@ sightings:
   metrics:
     points: 102
     comments: 125
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/09/digital-fund-operations-platform-fundcraft-secures-eur12m-growth-financing/
+  seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
   kind: news
 ---
 

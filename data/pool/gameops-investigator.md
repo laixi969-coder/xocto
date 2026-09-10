@@ -29,17 +29,17 @@ canonical_url: https://github.com/nickname21kmr/gameops-investigator
 summary: Evidence-first game operations incident investigation agent with read-only MCP tools and reproducible
   evaluations.
 first_seen: '2026-08-30T17:28:16Z'
-last_seen: '2026-09-07T15:52:49Z'
+last_seen: '2026-09-10T05:13:28Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/nickname21kmr/gameops-investigator
-  seen_at: '2026-09-07T15:52:49Z'
+  seen_at: '2026-09-10T05:13:28Z'
   metrics:
-    stars: 100
-    forks: 5
+    stars: 76
+    forks: 1
     open_issues: 0
   kind: product
 ---
