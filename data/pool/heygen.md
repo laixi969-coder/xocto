@@ -8,15 +8,24 @@ inspiration: ''
 summary_en: ''
 inspiration_en: ''
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://www.aicpb.com/product/HeyGen/webid1D6F37019
 canonical_url: https://aicpb.com/product/HeyGen/webid1D6F37019
 summary: Produce lifelike AI video avatars 4 times faster with 60% higher performance. Choose from 1,000+
   avatar styles for training, marketing, and global outreach.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-08-22T22:38:19Z'
+last_seen: '2026-09-10T16:51:24Z'
 status: pending_filter
 sources:
 - aicpb
+- ia40
 sightings:
 - source: aicpb
   url: https://www.aicpb.com/product/HeyGen/webid1D6F37019
@@ -31,6 +40,14 @@ sightings:
     - 视频生成榜
     - 出海总榜
     - 全球总榜
+  kind: product
+- source: ia40
+  url: https://www.heygen.com/
+  seen_at: '2026-09-10T16:51:24Z'
+  metrics:
+    stage: Mid
+    edition: '2026'
+  kind: product
 ---
 
 # HeyGen

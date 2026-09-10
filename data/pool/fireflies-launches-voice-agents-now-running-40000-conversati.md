@@ -40,10 +40,11 @@ canonical_url: https://news.google.com/rss/articles/CBMinAJBVV95cUxOZ09WME1jcmRz
 summary: Fireflies launches Voice Agents, now running 40,000+ conversations across 2100+ organizations
   in 97 countries The Globe and Mail
 first_seen: '2026-09-02T16:09:03Z'
-last_seen: '2026-09-05T00:07:08Z'
+last_seen: '2026-09-10T16:51:24Z'
 status: queued
 sources:
 - newssearch
+- ia40
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMinAJBVV95cUxOZ09WME1jcmRzNlkwSnk3LVdFX2lzc0gzVDRRZ08xSkZHMElIM2l6NnFMalN0cEpfQUk5SXJzUDhyektEWE1UR0RyZVBUX0lpS1dYcVprSUU5RE1TRnNlcjBKRzdHS2gyaEJCT25Fb09qdFBUa2RDSWc3bjhmQ1p2Q3lIS3dUS2VMWDJ1aFpHcVFFYjFTR1E4V0lVTHlKNG1MTGhuTTlzNzFwRERBWG5CV0FMQi1GTGpOOG9fYW05UG5zN3MtaHlvNUQtTXBkSXZwNWdxVGF4Rlh4LWdDS2ZISFRMcUNwdUc2TjB5V3FsSEt0SVZDYmZBUU1xZGQ5MU9Jc3FzaVlyU0ZsZmpteld3ZDVFdGlVTnFGQ0RITw?oc=5
@@ -55,6 +56,13 @@ sightings:
   seen_at: '2026-09-05T00:07:08Z'
   metrics: {}
   kind: news
+- source: ia40
+  url: https://fireflies.ai/
+  seen_at: '2026-09-10T16:51:24Z'
+  metrics:
+    stage: Early
+    edition: '2026'
+  kind: product
 ---
 
 # Fireflies.ai

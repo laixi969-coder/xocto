@@ -34,16 +34,24 @@ canonical_url: https://openai.com/index/legora-financial-statement-review-with-a
 summary: Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and
   improve performance by nearly 40% in this financial-review workflow.
 first_seen: '2026-09-03T12:00:00Z'
-last_seen: '2026-09-04T00:06:57Z'
+last_seen: '2026-09-10T16:51:24Z'
 status: watching
 sources:
 - officialfeeds
+- ia40
 sightings:
 - source: officialfeeds
   url: https://openai.com/index/legora-financial-statement-review-with-astra
   seen_at: '2026-09-04T00:06:57Z'
   metrics: {}
   kind: news
+- source: ia40
+  url: https://legora.com/
+  seen_at: '2026-09-10T16:51:24Z'
+  metrics:
+    stage: Late
+    edition: '2026'
+  kind: product
 ---
 
 # Legora

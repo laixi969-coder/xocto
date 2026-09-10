@@ -32,16 +32,24 @@ url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOUzVNVFNpN1k3eUUza0l3a1
 canonical_url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOUzVNVFNpN1k3eUUza0l3a1NKQTlVV1ZtbDhKalo3bFdubWJPelpwRE56UTBPQzdCRFpldnA5RFdQR1ZjbGw2V1hEcnhIUmZHeFE5R0YxbEtXWklyRkJwVXRiOEt0VXlqQnJjekJnN1d6UEF3ektHc1JwcUJIQ05pU242VXdVV0IxRWpBQXZYTllEOTl6WTMzRFpjYS1MZi1ndVBzaGNhaHlEQUw3?oc=5
 summary: Voice AI Startup ElevenLabs Hires OpenAI Executive to Oversee Revenue Bloomberg.com
 first_seen: '2026-09-02T13:00:01Z'
-last_seen: '2026-09-02T14:32:07Z'
+last_seen: '2026-09-10T16:51:24Z'
 status: watching
 sources:
 - newssearch
+- ia40
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMirAFBVV95cUxOUzVNVFNpN1k3eUUza0l3a1NKQTlVV1ZtbDhKalo3bFdubWJPelpwRE56UTBPQzdCRFpldnA5RFdQR1ZjbGw2V1hEcnhIUmZHeFE5R0YxbEtXWklyRkJwVXRiOEt0VXlqQnJjekJnN1d6UEF3ektHc1JwcUJIQ05pU242VXdVV0IxRWpBQXZYTllEOTl6WTMzRFpjYS1MZi1ndVBzaGNhaHlEQUw3?oc=5
   seen_at: '2026-09-02T14:32:07Z'
   metrics: {}
   kind: news
+- source: ia40
+  url: https://elevenlabs.io/
+  seen_at: '2026-09-10T16:51:24Z'
+  metrics:
+    stage: Late
+    edition: '2026'
+  kind: product
 ---
 
 # ElevenLabs

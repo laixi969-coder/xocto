@@ -31,10 +31,11 @@ url: https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation
 canonical_url: https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation
 summary: 'GPT-6 Astra in code review: Gains, privacy, and cost'
 first_seen: '2026-09-05T03:38:56Z'
-last_seen: '2026-09-06T11:01:34Z'
+last_seen: '2026-09-10T16:51:24Z'
 status: queued
 sources:
 - hackernews
+- ia40
 sightings:
 - source: hackernews
   url: https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation
@@ -43,6 +44,13 @@ sightings:
     points: 72
     comments: 71
   kind: news
+- source: ia40
+  url: https://www.coderabbit.ai/
+  seen_at: '2026-09-10T16:51:24Z'
+  metrics:
+    stage: Mid
+    edition: '2026'
+  kind: product
 ---
 
 # CodeRabbit

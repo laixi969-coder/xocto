@@ -39,12 +39,13 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-10T16:51:24Z'
 status: pending_filter
 sources:
 - marketfeeds
 - newssearch
 - hackernews
+- ia40
 sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/
@@ -145,6 +146,13 @@ sightings:
   seen_at: '2026-09-10T05:14:03Z'
   metrics: {}
   kind: news
+- source: ia40
+  url: https://www.anthropic.com/
+  seen_at: '2026-09-10T16:51:24Z'
+  metrics:
+    stage: Enabler
+    edition: '2026'
+  kind: product
 ---
 
 # Anthropic

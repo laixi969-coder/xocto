@@ -376,6 +376,15 @@ sources:
       - "ai-ppt-rankings"
       - "ai-chatbot-rankings"
 
+  # Madrona IA40：年度智能应用榜单，54 家机构 72 位投资人提名投票 +
+  # PitchBook 数据评分选出，上榜即强商业证据（入选公司普遍公开收入）。
+  # 页面是静态年度榜单，每天重抓只为幂等续上 sighting、捕捉上榜/出局
+  # 变化。榜单换届（新年份新 URL）时改下面这行 URL；新入榜公司要在
+  # src/xocto/sources/ia40.py 的域名表里补官网，否则会跳过并告警。
+  ia40:
+    enabled: true
+    url: "https://www.madrona.com/ia40-intelligent-applications-40-2026/"
+
   # ---- 以下暂未启用 ----
 
   reddit:

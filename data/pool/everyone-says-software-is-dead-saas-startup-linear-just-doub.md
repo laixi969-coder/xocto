@@ -35,16 +35,24 @@ canonical_url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQc09uOEhxS0ZH
 summary: Everyone says software is dead. SaaS startup Linear just doubled its valuation to $2.5 billion.
   Business Insider
 first_seen: '2026-08-26T12:00:00Z'
-last_seen: '2026-08-29T03:43:33Z'
+last_seen: '2026-09-10T16:51:24Z'
 status: queued
 sources:
 - newssearch
+- ia40
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMimAFBVV95cUxQc09uOEhxS0ZHTVdoYTVxOFVmSHFxZXJpNGVPSGxxMWNJeFpjdlZtME81WDV0TUE4UDIwRFFYUkNpVVBVOWw5VDVDeFZ1ZnhaTnVmVnJ3ZU0zdEhVRVhwV3N4emZJR1UyR2c2cEZkQlRPdWUyZjNPeTdPVmVIemI3Rk1YYjhLUi1JODlPVEh1SkRUdFJET2h5dg?oc=5
   seen_at: '2026-08-29T03:43:33Z'
   metrics: {}
   kind: news
+- source: ia40
+  url: https://linear.app/
+  seen_at: '2026-09-10T16:51:24Z'
+  metrics:
+    stage: Mid
+    edition: '2026'
+  kind: product
 ---
 
 # Linear
