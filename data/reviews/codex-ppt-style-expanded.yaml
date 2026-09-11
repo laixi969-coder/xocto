@@ -1,0 +1,45 @@
+- id: req-initial-codex-ppt-style-expanded-2026-09-11
+  project_slug: codex-ppt-style-expanded
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决把调研材料整理成可编辑演示文稿的需求，但公开材料未说明具体输入、交付与不采用的后果，痛点刚性无法确认。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-02a9ce2b2db906ac
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库收藏数从57升至77，属于关注度信号，不能说明用户已把它留在工作流里。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+    - ev-02a9ce2b2db906ac
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方是个人顾问还是团队无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+  - gate: truth
+    status: insufficient
+    reason: 未提供生成结果的准确性、人工确认边界或可复现实测，交付确定性无法核对。
+    evidence_ids:
+    - ev-69a52b899e3f0630
+  next_validation: 收集该仓库的 README、示例输出与 issue/discussion，核验其实际输入格式、生成结果与人工修改环节。
+  market: ''
+  job: 咨询顾问或研究人员在准备客户汇报或研究分享时，把调研笔记、图表和数据整理成一套可编辑的演示文稿。
+  job_en: Consultants or researchers preparing client or research presentations turn research notes, charts
+    and data into an editable slide deck.
+  pain: 材料分散在笔记、数据和图表中，人工排版与配图耗时，且成品必须能继续修改，公开材料未给出这一环节的具体痛点证据。
+  pain_en: Material is scattered across notes, data and charts; manual layout and visuals take time and
+    the output must stay editable, but public material gives no concrete evidence of this pain point.
+  current_alternative: 人工在 PowerPoint、Keynote 或 Google Slides 中逐页排版，或使用通用 AI 幻灯片工具生成后手工返工。
+  current_alternative_en: Manually laying out slides page by page in PowerPoint, Keynote or Google Slides,
+    or generating with generic AI slide tools and reworking by hand.
+  usage_reason: 推断：相较通用幻灯片工具，它把受众与风格作为生成条件，并接入 draw.io 图形流程，可能减少从笔记到成稿之间的排版与配图步骤；但公开材料未提供用户反馈或重复使用证据，无法确认这一负担是否真的被减少。
+  usage_reason_en: 'Inference: versus generic slide tools it treats audience and style as generation conditions
+    and hooks into draw.io diagram workflows, potentially cutting layout and visual steps between notes
+    and a finished deck; however, public material offers no user feedback or repeat-use evidence, so whether
+    that burden is actually reduced cannot be confirmed.'

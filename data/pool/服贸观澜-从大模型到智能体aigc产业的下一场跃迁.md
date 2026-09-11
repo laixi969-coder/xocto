@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xaUhrdXptbndp
 summary: 服贸观澜｜从大模型到智能体：AIGC产业的下一场跃迁 emwap.eastmoney.com
 first_seen: '2026-09-10T13:56:07Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

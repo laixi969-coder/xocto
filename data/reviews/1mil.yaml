@@ -70,3 +70,44 @@
   usage_reason: AI 评分提供了一种快速、低成本的初步筛选方式，可能吸引创业者试用，但采用证据不足。
   usage_reason_en: AI scoring offers a quick, low-cost initial screening, may attract founders to try,
     but adoption evidence is insufficient.
+- id: req-initial-1mil-2026-09-11
+  project_slug: 1mil
+  level: initial
+  reviewed_at: '2026-09-11T00:10:53Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 纯规则或模型打分无法反映真实市场买单意愿，缺乏刚性决策价值。
+    evidence_ids:
+    - ev-eed41ff955d7019b
+  - gate: consensus
+    status: insufficient
+    reason: 社区仅有少量打分测试讨论，未见持续使用或采纳信号。
+    evidence_ids:
+    - ev-eed41ff955d7019b
+  - gate: model
+    status: insufficient
+    reason: 公开材料未提供明确的商业化变现模式或付费方案。
+    evidence_ids:
+    - ev-eed41ff955d7019b
+  - gate: truth
+    status: challenged
+    reason: 无法对创业想法的商业成功率提供确定性交付或可信保证。
+    evidence_ids:
+    - ev-eed41ff955d7019b
+  next_validation: 跟踪官方是否上线结合真实搜索趋势、竞品收入数据的深度验证功能及定价页
+  market: ''
+  job: 独立开发者在寻找下一个创业项目时，输入多个商业想法以筛选出高潜力方向。
+  job_en: Solo founders evaluating multiple startup concepts to filter high-potential directions during
+    early exploration.
+  pain: 手动调研市场竞品和评估可行性耗费大量时间，且容易受主观偏见影响。
+  pain_en: Manually researching competitors and assessing market viability is time-consuming and prone
+    to subjective bias.
+  current_alternative: 在社区发帖询问反馈、制作轻量落地页投放测试，或查阅行业研报。
+  current_alternative_en: Asking for feedback in developer communities, launching test landing pages,
+    or reviewing industry reports.
+  usage_reason: 推断用户希望通过快速打分缩短初筛周期，但无真实市场测试支持的AI评分无法替代真实付费意愿验证。
+  usage_reason_en: Inferred that users want to shorten screening cycles via quick scoring, though AI scores
+    cannot replace real willingness-to-pay validation.

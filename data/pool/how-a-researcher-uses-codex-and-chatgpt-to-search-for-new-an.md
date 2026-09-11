@@ -1,6 +1,6 @@
 ---
 slug: how-a-researcher-uses-codex-and-chatgpt-to-search-for-new-an
-name: How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: César de la Fuente’s lab uses Codex and ChatGPT to search living and
   candidates to fight drug-resistant infections.
 first_seen: '2026-09-10T16:00:00Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules
+# OpenAI
 
 César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.
 

@@ -3,12 +3,14 @@ slug: chatgpt-to-face-tougher-regulation-in-the-eu
 name: ChatGPT
 builder: ''
 category: ''
-summary_zh: ChatGPT 被欧盟认定为《数字服务法》下的超大型在线搜索引擎，OpenAI 须就未成年人保护、用户心理健康和非法内容传播等风险承担系统性缓解义务，这标志着对其监管要求的显著升级，将影响其在欧盟市场的合规与运营方式。
+summary_zh: 2026 年 8 月，欧盟依据《数字服务法》（DSA）将 OpenAI 的 ChatGPT 认定为“超大型在线搜索引擎”，Reddit 也同期被纳入同类监管，这使生成式 AI 助手首次落入与大型社交平台相同的最高监管层级。OpenAI
+  需要对 ChatGPT 在未成年人保护、用户心理健康及非法内容传播方面的风险承担缓解义务，这意味着其在欧盟的内容审核与合规成本将上升；此类义务是否会影响 AI 产品在欧盟的功能设计与上线节奏，属于推断。
 inspiration: ''
-summary_en: ChatGPT has been designated a Very Large Online Search Engine under the EU Digital Services
-  Act, obliging OpenAI to systematically mitigate risks related to minors, user mental health, and the
-  spread of illegal content, marking a significant escalation of regulatory requirements that will shape
-  its compliance and operations in the EU market.
+summary_en: In August 2026, EU regulators classified OpenAI's ChatGPT as a Very Large Online Search Engine
+  under the Digital Services Act, with Reddit designated in the same tier, placing a generative AI assistant
+  under the regime's strictest obligations for the first time. OpenAI must mitigate risks around minors,
+  user mental health, and the spread of illegal content, raising its content-moderation and compliance
+  costs in the EU; any impact on how AI features are designed or rolled out in the EU remains an inference.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -27,7 +29,7 @@ summary: OpenAI will soon be held accountable for mitigating risks related to Ch
   regulating major online services and […]
 first_seen: '2026-08-31T13:27:36Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

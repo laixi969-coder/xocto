@@ -1,0 +1,44 @@
+- id: req-initial-bough-2026-09-11
+  project_slug: bough
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是编码代理过程日志难以回看的问题，痛点存在但强度不明，缺少用户反馈或替代行为的直接证据。
+    evidence_ids:
+    - ev-8531e412f949ba38
+    - ev-5f54fabe95857370
+  - gate: consensus
+    status: insufficient
+    reason: 公开关注度很低，仅有个位数量级的仓库收藏，无法判断是否形成使用共识。
+    evidence_ids:
+    - ev-5f54fabe95857370
+  - gate: model
+    status: insufficient
+    reason: 开源本地工具，公开材料未说明任何收费方式或买方，商业模式尚未显现。
+    evidence_ids:
+    - ev-8531e412f949ba38
+  - gate: truth
+    status: insufficient
+    reason: 本地运行、不上传数据的设计与隐私诉求一致，但交付是否确定、是否需人工校对仍待核验。
+    evidence_ids:
+    - ev-8531e412f949ba38
+  next_validation: 收集 bough 仓库的 issue 与 discussion，确认是否有开发者持续用它复盘编码代理会话。
+  market: ''
+  job: 软件开发者在使用 Claude Code 或 Codex 完成一天编码后，处理这些工具留下的会话记录与提交历史，要整理出一份能回看当天做了什么的工作记录。
+  job_en: After a day of coding with Claude Code or Codex, a software developer works through the session
+    logs and commit history those tools leave behind to produce a reviewable record of what was done that
+    day.
+  pain: 代理式编码把过程散落在提示词、终端输出和提交里，事后想复盘或向他人说明当天工作，需要自己翻找多处记录。
+  pain_en: Agentic coding scatters the process across prompts, terminal output and commits, so reviewing
+    the day or explaining it to others means digging through several places by hand.
+  current_alternative: 开发者目前靠翻看终端历史、git log 和编辑器记录，或干脆不做复盘。
+  current_alternative_en: Developers currently scroll terminal history, git log and editor records, or
+    simply skip the review.
+  usage_reason: 推断：bough 把分散的会话与提交日志合并成按天组织的视图，省去逐处翻找这一步，因此在意过程留痕的开发者可能选择它；但公开材料未显示留存或重复使用证据，需求强度仍不明。
+  usage_reason_en: 'Inference: bough merges scattered session and commit logs into a day-level view, removing
+    the step of searching several places, so developers who care about process traces may choose it; however,
+    public material shows no retention or repeat-use evidence, so demand strength remains unclear.'

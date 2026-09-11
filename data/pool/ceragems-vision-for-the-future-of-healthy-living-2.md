@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMimwFBVV95cUxOaTJpbjdOMFdz
 summary: CERAGEM’s Vision for the Future of Healthy Living The Worldfolio
 first_seen: '2026-09-10T18:31:41Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

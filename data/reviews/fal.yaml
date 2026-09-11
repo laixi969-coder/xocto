@@ -1,0 +1,43 @@
+- id: req-initial-fal-2026-09-11
+  project_slug: fal
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是推理接入与算力调度负担，痛点方向清楚，但材料未说明具体动作与交付，刚性无法确认。
+    evidence_ids:
+    - ev-357adcb465ae6b21
+  - gate: consensus
+    status: insufficient
+    reason: 只有名单收录与估值翻倍的描述，没有客户采用、留存或复购证据，无法判断共识。
+    evidence_ids:
+    - ev-357adcb465ae6b21
+  - gate: model
+    status: insufficient
+    reason: 买方应是使用推理的开发者团队，但候选未披露定价与计费方式，属判断而非已验证事实。
+    evidence_ids:
+    - ev-357adcb465ae6b21
+  - gate: truth
+    status: insufficient
+    reason: 无法核对交付确定性、成本可预测性与人工边界，估值信息不能替代交付证据。
+    evidence_ids:
+    - ev-357adcb465ae6b21
+  next_validation: 收集 Fal 官方定价页与文档，确认其计费单位、支持的模型范围与接入方式，并查找公开客户案例。
+  market: ''
+  job: 生成式媒体或 AI 应用团队的后端工程师，在产品要上线图像、视频生成功能时，需要把模型推理接进自己的服务并控制调用成本与延迟。
+  job_en: A backend engineer on a generative media or AI application team needs to wire model inference
+    into their own service and control call cost and latency when shipping image or video generation features.
+  pain: 自建推理要处理 GPU 采购、扩缩容与多模型适配，团队不愿承担这部分工程与资本开支；不解决则功能上线被算力和运维拖住。
+  pain_en: Self-hosting inference means GPU procurement, scaling and multi-model adaptation, engineering
+    and capital costs teams would rather avoid; unresolved, feature launches stall on compute and operations.
+  current_alternative: 团队此前多自建 GPU 集群、直接对接单一模型厂商 API，或在不同供应商之间手工切换。
+  current_alternative_en: Teams previously built their own GPU clusters, called a single model vendor's
+    API directly, or manually switched between providers.
+  usage_reason: 推断：若它把多模型调用与算力调度收敛成一套接口，团队就不必为每个模型单独做适配和扩容，做生成式媒体功能的工程团队会在赶上线时选它；但候选材料未给出接入细节与计费方式，这一因果尚未被公开事实支持。
+  usage_reason_en: 'Inference: if it collapses multi-model calls and compute scheduling into one interface,
+    teams no longer adapt and scale each model separately, which is why engineering teams shipping generative
+    media features would pick it under launch pressure; however the candidate material gives no onboarding
+    detail or billing model, so this causal link is not yet supported by public facts.'

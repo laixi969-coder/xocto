@@ -1,0 +1,45 @@
+- id: req-initial-rdltr-2026-09-11
+  project_slug: rdltr
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决待读清单堆积，但材料未说明旧流程、痛点强度与不解决的后果，无法还原具体任务。
+    evidence_ids:
+    - ev-b77f4e7068321a30
+    - ev-e8f179a747745df2
+  - gate: consensus
+    status: insufficient
+    reason: 只有社区讨论热度，没有采用、评价或留存证据，不能视为共识。
+    evidence_ids:
+    - ev-b77f4e7068321a30
+    - ev-e8f179a747745df2
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，无法判断钱从哪来；这是未知，不是已验证事实。
+    evidence_ids:
+    - ev-b77f4e7068321a30
+    - ev-e8f179a747745df2
+  - gate: truth
+    status: insufficient
+    reason: 无法核对筛选结果是否可靠，也看不到人工确认边界。
+    evidence_ids:
+    - ev-b77f4e7068321a30
+    - ev-e8f179a747745df2
+  next_validation: 抓取 Rdltr 官方页面或定价页，确认 AI 在清单筛选中的具体动作与收费方式。
+  market: ''
+  job: 读者在积累大量待读文章链接时，需要把清单清空并决定哪些值得读、哪些可以丢弃。
+  job_en: Readers with a large backlog of saved article links need to clear the list and decide what is
+    worth reading or dropping.
+  pain: 材料只给出“阅读清单的收件箱清零”一句定位，未说明待读堆积带来的具体损失或用户抱怨。
+  pain_en: The material gives only the one-line positioning "inbox zero for your reading list" and does
+    not describe the concrete cost of a backlog or user complaints.
+  current_alternative: 材料未说明现有替代方式，无法确认用户此前是用稍后读工具、书签还是手动清理。
+  current_alternative_en: No current alternative is described, so it is unclear whether users relied on
+    read-later tools, bookmarks or manual cleanup.
+  usage_reason: 无法判断：材料未说明 AI 具体做了什么取舍动作，无法解释它相较旧做法减少了哪一步负担。
+  usage_reason_en: 'Cannot be judged: the material does not say what trade-off action the AI performs,
+    so it cannot explain which step it removes versus the old way.'

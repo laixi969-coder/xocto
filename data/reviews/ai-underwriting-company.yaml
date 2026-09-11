@@ -1,0 +1,38 @@
+- id: req-initial-ai-underwriting-company-2026-09-11
+  project_slug: ai-underwriting-company
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 产品解决企业部署自治 AI 代理时的法律与合规风险痛点
+    evidence_ids:
+    - ev-92abf6a4a9ccb094
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开的市场共识或广泛采用数据
+    evidence_ids:
+    - ev-92abf6a4a9ccb094
+  - gate: model
+    status: insufficient
+    reason: 未公开具体的保险与认证模型细节
+    evidence_ids:
+    - ev-92abf6a4a9ccb094
+  - gate: truth
+    status: insufficient
+    reason: 缺乏实际使用案例或付费数据
+    evidence_ids:
+    - ev-92abf6a4a9ccb094
+  next_validation: 官方定价页
+  market: ''
+  job: 企业风险经理
+  job_en: Enterprise Risk Manager
+  pain: 企业在部署自治 AI 代理时面临法律、合规和治理风险
+  pain_en: Enterprises face legal, compliance, and governance risks when deploying autonomous AI agents
+  current_alternative: 内部风险管理或第三方评估
+  current_alternative_en: Internal risk management or third‑party assessments
+  usage_reason: 通过提供保险与认证，AI Underwriting Company 让企业无需自行构建复杂合规体系，直接获得风险保障与合规证明
+  usage_reason_en: By offering insurance and certification, AI Underwriting Company lets enterprises avoid
+    building complex compliance frameworks and obtain risk coverage and compliance proof directly.

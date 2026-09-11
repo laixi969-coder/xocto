@@ -1,6 +1,6 @@
 ---
 slug: github-copilot-app-for-beginners-using-the-diff-terminal-and
-name: 'GitHub Copilot app for Beginners: Using the diff, terminal, and browser'
+name: GitHub Copilot
 builder: ''
 category: ''
 summary_zh: ''
@@ -24,7 +24,7 @@ summary: "Checking agent-generated code usually means hopping between tabs. Lear
   \ ."
 first_seen: '2026-09-10T21:31:19Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -35,7 +35,7 @@ sightings:
   kind: news
 ---
 
-# GitHub Copilot app for Beginners: Using the diff, terminal, and browser
+# GitHub Copilot
 
 Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. 
  The post  GitHub Copilot app for Beginners: Using the diff, terminal, and browser  appeared first on  The GitHub Blog .

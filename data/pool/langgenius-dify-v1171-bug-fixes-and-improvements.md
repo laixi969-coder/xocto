@@ -1,6 +1,6 @@
 ---
 slug: langgenius-dify-v1171-bug-fixes-and-improvements
-name: 'langgenius/dify: v1.17.1 - Bug Fixes and Improvements'
+name: Dify
 builder: langgenius
 category: ''
 summary_zh: ''
@@ -876,7 +876,7 @@ summary: "> [!WARNING]\r\n> **Self-hosted deployments using the bundled Weaviate
   **Full Changelog**: https://github.com/langgenius/dify/compare/1.17.0...1.17.1"
 first_seen: '2026-09-10T10:04:06Z'
 last_seen: '2026-09-11T00:10:34Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:
@@ -888,7 +888,7 @@ sightings:
   kind: news
 ---
 
-# langgenius/dify: v1.17.1 - Bug Fixes and Improvements
+# Dify
 
 > [!WARNING]
 > **Self-hosted deployments using the bundled Weaviate must complete a manual, staged upgrade before starting 1.17.1.** The bundled Weaviate server moves from `1.27.0` to `1.39.2` — 12 minor versions — and skipping minors **is unsupported**. Pulling and restarting can silently and permanently break vector search. See Upgrade Guide below. Fresh deployments, external Weaviate, and other vector stores are unaffected.

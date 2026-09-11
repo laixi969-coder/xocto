@@ -1,0 +1,41 @@
+- id: req-initial-drive-2026-09-11
+  project_slug: drive
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 只能看出是车辆遥测与车牌提醒，说不清车主的具体痛点与不采用的后果，价值关不成立。
+    evidence_ids:
+    - ev-aaa1cc1d4d97de40
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，无采用或关注证据可判断共识。
+    evidence_ids:
+    - ev-aaa1cc1d4d97de40
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式无从判断。
+    evidence_ids:
+    - ev-aaa1cc1d4d97de40
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性无法核验。
+    evidence_ids:
+    - ev-aaa1cc1d4d97de40
+  next_validation: 收集 Drive 官方产品页，确认遥测数据来源、车牌识别提醒的触发条件与交付形式。
+  market: ''
+  job: 车主在周末自驾前后查看车辆遥测数据，并在收到车牌识别提醒时确认周边车辆情况。
+  job_en: Car owners reviewing vehicle telemetry before and after a weekend drive, and checking nearby
+    vehicles when a license-plate-recognition alert arrives.
+  pain: 公开材料未说明车主遇到的具体麻烦，只能推测是行程数据分散或对周边车辆情况缺乏感知。
+  pain_en: Public material does not state the concrete trouble for car owners; it can only be guessed
+    as scattered trip data or lack of awareness of nearby vehicles.
+  current_alternative: 车厂自带 App、行车记录仪或手机导航的行程记录。
+  current_alternative_en: Automaker apps, dash cams, or trip logs in phone navigation apps.
+  usage_reason: 无法判断：材料只有一句功能描述，缺少数据来源与提醒触发条件，无法解释车主为何选择它而非车厂 App。
+  usage_reason_en: 'Cannot be judged: the material is a one-line feature description lacking data source
+    and alert trigger conditions, so there is no way to explain why a car owner would choose it over an
+    automaker app.'

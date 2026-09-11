@@ -1,0 +1,50 @@
+- id: req-initial-video-states-website-2026-09-11
+  project_slug: video-states-website
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是把生成视频拼成可点击网页这一步，但公开材料未说明旧流程由谁做、耗时与不做的后果，痛点强度无法确认。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 111 增至 132，属于关注度信号，不能说明开发者已把它放进日常工作流。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+  - gate: model
+    status: insufficient
+    reason: 仓库为开源免费项目，公开材料未披露任何收费、赞助或商业交付路径，买方与收入模式均不明确。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+  - gate: truth
+    status: insufficient
+    reason: 构建规格与播放指南是否真能产出无接缝、可上线的页面，缺少可复现实测或使用者反馈来核对。
+    evidence_ids:
+    - ev-6f703615486a9538
+    - ev-ec7063019fb539cf
+  next_validation: 收集该仓库的 issue、discussion 或使用者公开反馈，确认是否有人按构建规格实际产出并上线了点击驱动的视频网站。
+  market: ''
+  job: 前端开发者或互动内容设计师在为客户做品牌互动落地页时，需要把多段 AI 生成的视频素材组织成点击切换、播放不跳帧的网页体验。
+  job_en: A frontend developer or interactive content designer building a branded interactive landing
+    page needs to organize multiple AI-generated video clips into a click-switched web experience that
+    plays without visible seams.
+  pain: 公开材料只说明仓库提供了构建规格与播放指南，没有说明此前这一步由谁手工完成、耗时多久或失败代价，痛点无法从现有事实确认。
+  pain_en: The public material only states that the repository provides a build spec and playback guide;
+    it does not say who previously did this step manually, how long it took, or the cost of failure, so
+    the pain cannot be confirmed from available facts.
+  current_alternative: 可能的旧做法是前端开发者自行拼接视频、手写状态切换逻辑，或直接外包给视频制作团队，但候选材料未提供任何替代行为的证据。
+  current_alternative_en: A plausible prior approach is that frontend developers stitch clips and hand-write
+    state-switching logic themselves, or outsource to a video production team, but the candidate material
+    provides no evidence of any alternative behavior.
+  usage_reason: 推断：相较自行摸索拼接与播放逻辑，该仓库把构建规格和防接缝播放方法写成可照做的步骤，可能减少试错环节，因此缺少视频工程经验的前端或设计人员会尝试它；但缺少使用反馈，无法确认是否被持续采用。
+  usage_reason_en: 'Inference: compared with figuring out stitching and playback logic alone, this repository
+    writes the build spec and seam-safe playback method as followable steps, potentially cutting trial
+    and error, so frontend or design people without video engineering experience may try it; however,
+    without usage feedback, continued adoption cannot be confirmed.'

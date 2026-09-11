@@ -1,0 +1,43 @@
+- id: req-initial-insurtech-intellect-ai-outlines-automation-tools-for-wholesa-2026-09-11
+  project_slug: insurtech-intellect-ai-outlines-automation-tools-for-wholesa
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它面向批发经纪的投保与承保环节，但公开材料未说明 AI 具体处理什么材料、产出什么，痛点与交付无法确认。
+    evidence_ids:
+    - ev-3e3e8ce595b6f6c0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有工具发布报道，没有客户采用、试点或使用规模的公开信息。
+    evidence_ids:
+    - ev-3e3e8ce595b6f6c0
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、按什么计价以及买方是经纪公司还是承保方，付费路径不明。
+    evidence_ids:
+    - ev-3e3e8ce595b6f6c0
+  - gate: truth
+    status: insufficient
+    reason: 保险经纪涉及合规与责任归属，公开材料未说明人工复核边界与错误责任划分。
+    evidence_ids:
+    - ev-3e3e8ce595b6f6c0
+  next_validation: 收集 Intellect AI 官方产品页或部署文档，核验其面向批发经纪的具体输入材料、输出交付物与定价方式。
+  market: ''
+  job: 批发保险经纪人在收到零售代理提交的投保资料后，需要整理风险信息、比对多家承保方条件并推进报价。
+  job_en: Wholesale insurance brokers receiving submissions from retail agents must organize risk information,
+    compare terms across carriers and push quotes forward.
+  pain: 推断：投保资料格式不统一、字段分散，人工录入与比对耗时，且容易在转述中丢失关键风险信息。
+  pain_en: 'Inference: submission documents vary in format and scatter key fields, so manual entry and
+    comparison are slow and risk details can be lost in retelling.'
+  current_alternative: 旧做法是经纪人用邮件、表格和承保方门户逐份录入与比对，依赖个人经验判断。
+  current_alternative_en: The old approach is brokers entering and comparing documents one by one through
+    email, spreadsheets and carrier portals, relying on personal experience.
+  usage_reason: 推断：若工具能直接读取投保材料并输出结构化的风险与条件对照，经纪人可省去逐份手工录入这一步，因此处理大量同质投保单的批发经纪团队会考虑采用；但公开材料未说明具体动作，此判断仅为推断。
+  usage_reason_en: 'Inference: if the tool reads submissions directly and outputs structured risk and
+    term comparisons, brokers skip manual entry document by document, so wholesale teams handling many
+    similar submissions would consider it; public material does not describe the actions, so this is inference
+    only.'

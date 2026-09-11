@@ -1,6 +1,6 @@
 ---
 slug: amd携手生态伙伴加速智能体ai创新锐龙ai-max平台落地赋能千行万业-芯片
-name: AMD携手生态伙伴加速智能体AI创新锐龙AI Max平台落地赋能千行万业-芯片
+name: AMD Ryzen AI Max
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE14V2lrX1lDcFpY
 summary: AMD携手生态伙伴加速智能体AI创新锐龙AI Max平台落地赋能千行万业-芯片 zhiding.cn
 first_seen: '2026-09-10T12:45:37Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AMD携手生态伙伴加速智能体AI创新锐龙AI Max平台落地赋能千行万业-芯片
+# AMD Ryzen AI Max
 
 AMD携手生态伙伴加速智能体AI创新锐龙AI Max平台落地赋能千行万业-芯片 zhiding.cn
 

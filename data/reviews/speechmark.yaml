@@ -1,0 +1,39 @@
+- id: req-initial-speechmark-2026-09-11
+  project_slug: speechmark
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决会中手动记笔记、会后整理纪要的负担，痛点是敏感会议不敢用云端录音工具；本机处理让人放心记录，属工作流推理，采用证据尚无。
+    evidence_ids:
+    - ev-40631c7669bcd1e6
+  - gate: consensus
+    status: insufficient
+    reason: 仅上线页一句话，无用户评价、客户案例或可归因到该产品的使用数据，关注度无从核验；即使有榜单流量也不属于持续采用证据。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 无定价页与买方信息，钱可能来自个人订阅（to C）或团队采购（to B），这只是判断而非已验证事实，需等官方定价披露。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 本机转写与总结质量、能否确定性交付好用的纪要均无实测，隐私承诺与笔记准确性之间的取舍也未验证。
+    evidence_ids: []
+  next_validation: 抓取其官网产品页与定价信息，核对具体输入（是否转写音频）、本机运行要求与收费方式，作为下一条可自动收集的公开证据。
+  market: ''
+  job: 需要记会议纪要的 Mac 用户（如咨询顾问、销售、项目经理），在客户会议或内部例会中面对不便上传云端的讨论内容，要在会中或会后快速得到一份可直接使用的会议笔记。
+  job_en: Mac users who need meeting minutes—consultants, salespeople, project managers—facing discussions
+    too sensitive to upload, wanting usable meeting notes during or right after the meeting.
+  pain: 云端会议记录工具会把录音和转写文本传到第三方服务器，涉密或客户敏感会议不敢用；人工边听边记又让人无法专注讨论，会后还要花时间整理。
+  pain_en: Cloud note-takers send recordings and transcripts to third-party servers, so sensitive meetings
+    go unrecorded; manual note-taking distracts from the discussion and still needs cleanup afterwards.
+  current_alternative: 现做法是用 Otter、Fireflies 这类云端转写工具，或在允许记录的场合人工记要点、会后凭记忆和录音补写纪要。
+  current_alternative_en: Today they use cloud transcription tools like Otter or Fireflies, or take manual
+    notes where allowed and reconstruct minutes from memory and recordings afterwards.
+  usage_reason: 相比云端工具，它在设备本地完成转写与笔记生成，录音和笔记不出机器，敏感会议也能放心记录；这是基于产品能力的推断，尚无用户反馈或案例支持。
+  usage_reason_en: Versus cloud tools, processing happens on the device so audio and notes never leave
+    the machine, letting users record sensitive meetings—this is an inference from product claims, not
+    yet backed by user feedback.

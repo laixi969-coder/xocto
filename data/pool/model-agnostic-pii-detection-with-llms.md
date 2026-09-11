@@ -24,7 +24,7 @@ summary: A configurable, model-agnostic detector that turns any large language m
   public corpora and nine LLM-based detectors.
 first_seen: '2026-09-10T16:02:16Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

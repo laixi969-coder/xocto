@@ -1,0 +1,45 @@
+- id: req-initial-orcoda-asxoda-multi-year-workforce-logistics-contract-marks-2026-09-11
+  project_slug: orcoda-asxoda-multi-year-workforce-logistics-contract-marks
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多工地场景下工人排班与车辆调度脱节、临时变更靠电话逐人通知的痛点，旧做法是表格加电话，不解决的后果是人员迟到拖慢现场。
+    evidence_ids:
+    - ev-b6956ca4a7100511
+  - gate: consensus
+    status: insufficient
+    reason: 材料只提到一份多年期合同，未给出客户名称、行业口碑或持续采用数据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-b6956ca4a7100511
+  - gate: model
+    status: insufficient
+    reason: 买方应是需要调度工人与车辆的企业，但合同金额、计价方式与是否按结果收费均未披露，付费路径属推断。
+    evidence_ids:
+    - ev-b6956ca4a7100511
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明 AI 在调度中的具体动作、人工确认边界与交付是否确定性发生，无法核对承诺兑现。
+    evidence_ids:
+    - ev-b6956ca4a7100511
+  next_validation: Orcoda 官方公告或 ASX 披露文件，用于核对本次合同的金额、客户与交付范围。
+  market: ''
+  job: 建筑、矿业或运输企业的调度人员，在每天开工前需要把工人按班次、工地和路线分配到车辆上，处理排班表与运输需求，确保人员按时到场。
+  job_en: Dispatchers at construction, mining or transport firms must assign workers to vehicles by shift,
+    site and route before each day starts, working from rosters and transport demand to get people on
+    site on time.
+  pain: 人工排班与车辆调度容易冲突，临时缺勤或工地变更后需要反复电话协调，人员迟到会直接拖慢现场进度。
+  pain_en: Manual rostering and vehicle dispatch conflict easily; after absences or site changes, repeated
+    phone coordination is needed, and late arrivals directly slow on-site progress.
+  current_alternative: 电子表格、电话与微信群/短信协调，或通用车队管理软件，排班与运输两张表分开维护。
+  current_alternative_en: Spreadsheets, phone calls and chat messages, or generic fleet software, with
+    rostering and transport kept in separate sheets.
+  usage_reason: 推断：相较表格加电话的旧做法，把排班与车辆调度放进同一套系统，可减少临时变更后逐人通知这一步，让调度员直接看到谁上哪辆车；因此有多个工地、班次频繁变动的运输与建筑企业会在排班冲突高发时选择它。合同金额与客户未披露，长期使用证据仍缺。
+  usage_reason_en: 'Inference: versus spreadsheets plus phone calls, putting rostering and vehicle dispatch
+    in one system removes the step of notifying each person after a change, letting dispatchers see who
+    boards which vehicle; transport and construction firms with multiple sites and frequent shift changes
+    would choose it when scheduling conflicts spike. Contract value and customer are undisclosed, and
+    long-term usage evidence is still missing.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE5oMUl2NHR1SWtY
 summary: 'Bitrix24 Review: Features, Pricing and Alternatives TechRepublic'
 first_seen: '2026-09-08T07:00:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

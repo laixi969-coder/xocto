@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBuZlhIeFhHamtO
 summary: 'Snowflake''s AI-Fueled Beat Sparks Software Rally: Will Others Follow? BeInCrypto'
 first_seen: '2026-09-04T01:24:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-typecom-2026-09-11
+  project_slug: typecom
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理会话无法多人共享、交接靠复制粘贴的问题，痛点具体且发生在日常协作中，旧做法可指认。
+    evidence_ids:
+    - ev-e57381ff14688687
+    - ev-3b1829cc3e679db9
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有 14 分、10 条评论，说明有人关注，但没有可归因到该产品的持续采用或留存证据。
+    evidence_ids:
+    - ev-3b1829cc3e679db9
+    - ev-063766be0de00571
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，团队席位或按用量收费都只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-e57381ff14688687
+  - gate: truth
+    status: insufficient
+    reason: 多人共享云端会话意味着代码与材料进入第三方环境，公开材料未说明权限隔离、数据留存与人工复核边界。
+    evidence_ids:
+    - ev-e57381ff14688687
+  next_validation: 收集 Type.com 官方定价页与权限说明，确认按席位还是按用量计费，以及共享会话的数据隔离方式。
+  market: ''
+  job: 非技术团队成员在处理文档、表格或调研材料时，把任务交给云端 Claude 或 Codex 运行，要与同事共享同一份会话与产出。
+  job_en: Non-technical team members handling documents, spreadsheets or research material hand tasks
+    to cloud Claude or Codex and need to share the same session and output with colleagues.
+  pain: 代理会话通常锁在个人终端里，同事看不到过程，交接只能靠复制粘贴结果，多人协作时上下文反复丢失。
+  pain_en: Agent sessions are usually locked inside one person's terminal, colleagues cannot see the process,
+    handover relies on copy-pasting results, and context is repeatedly lost in multi-person work.
+  current_alternative: 各自在本地跑 Claude 或 Codex，再把结果贴进共享文档或聊天工具里对齐。
+  current_alternative_en: Each person runs Claude or Codex locally and then pastes results into a shared
+    document or chat tool to align.
+  usage_reason: 推断：相较各自本地运行再粘贴结果，它让多人进入同一云端会话，省去复制结果与重建上下文的一步，因此需要共同审阅同一份 AI 产出的非技术团队会选它。
+  usage_reason_en: 'Inference: compared with running locally and pasting results, it lets several people
+    join one cloud session, removing the step of copying results and rebuilding context, so non-technical
+    teams that must review the same AI output together would choose it.'

@@ -1,0 +1,43 @@
+- id: req-initial-clarify-2026-09-11
+  project_slug: clarify
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 CRM 记录维护与跟进动作确定的需求，痛点是人工录入滞后遗漏，属于可识别的运营刚需。
+    evidence_ids:
+    - ev-42988c36938f7799
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一份行业名单收录，缺少客户案例或采用规模，共识强度无法判断。
+    evidence_ids:
+    - ev-42988c36938f7799
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方结构，按席位或按结果收费均为推断，尚未核验。
+    evidence_ids:
+    - ev-42988c36938f7799
+  - gate: truth
+    status: insufficient
+    reason: 代理直接改写客户数据的权限边界与人工复核机制无公开材料支持，无法核对。
+    evidence_ids:
+    - ev-42988c36938f7799
+  next_validation: 收集 Clarify 官方定价页与客户案例，核验其计费方式、CRM 集成范围与人工复核机制。
+  market: ''
+  job: 销售运营人员在日常维护客户数据时，处理 CRM 中的客户记录与跟进任务，要完成记录更新与下一步动作的确定。
+  job_en: Sales operations staff maintaining customer data handle CRM records and follow-up tasks to complete
+    record updates and decide the next action.
+  pain: CRM 数据靠人工录入和更新，容易滞后或遗漏，跟进动作依赖个人记忆，影响续约与成交。
+  pain_en: CRM data is entered and updated manually, so it lags or gets missed, and follow-up depends
+    on individual memory, hurting renewals and deals.
+  current_alternative: 团队通常靠人工定期清理 CRM，或使用规则触发的自动化提醒，仍需人判断和补录。
+  current_alternative_en: Teams usually clean the CRM manually on a schedule, or use rule-triggered reminders
+    that still require human judgment and re-entry.
+  usage_reason: 推断：相较人工清理与规则提醒，Clarify 让代理直接读取并更新 CRM 记录，减少手工录入与遗漏这一步，因此客户数据量大、跟进频繁的销售团队会优先试用；公开材料未给出留存或付费证据。
+  usage_reason_en: 'Inference: compared with manual cleanup and rule reminders, Clarify has agents read
+    and update CRM records directly, removing the manual entry and omission step, so sales teams with
+    large customer data and frequent follow-up would try it first; public materials show no retention
+    or payment evidence.'

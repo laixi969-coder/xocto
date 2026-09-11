@@ -1,0 +1,46 @@
+- id: req-initial-ctrlb-decompose-2026-09-11
+  project_slug: ctrlb-decompose
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决日志噪声挤占模型上下文这一具体问题，但公开材料只有一句定位，缺少旧流程耗时与不采用后果。
+    evidence_ids:
+    - ev-b9aa0d86680a7c03
+    - ev-a8e02d142510cceb
+  - gate: consensus
+    status: insufficient
+    reason: 14 点、0 条评论，社区尚未形成可判断的讨论或采用信号。
+    evidence_ids:
+    - ev-b9aa0d86680a7c03
+    - ev-a8e02d142510cceb
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价或商业路径，买方与付费方式无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b9aa0d86680a7c03
+    - ev-a8e02d142510cceb
+  - gate: truth
+    status: insufficient
+    reason: 无法核对过滤后是否仍保留定位故障所需的关键信息，也未说明误删信号时的处理方式。
+    evidence_ids:
+    - ev-b9aa0d86680a7c03
+    - ev-a8e02d142510cceb
+  next_validation: 收集该仓库 README 与 issue/discussion 中关于过滤规则、支持日志格式和实际使用反馈的公开内容。
+  market: ''
+  job: 运维或开发人员在线上故障排查时，处理大量原始日志，需要把关键异常压缩到 LLM 上下文里完成定位。
+  job_en: During production incident troubleshooting, operations or development staff handle large volumes
+    of raw logs and need to compress key anomalies into an LLM context to locate the issue.
+  pain: 原始日志冗长且噪声多，直接送进模型会浪费上下文并稀释关键信号；公开材料未提供用户抱怨或采用证据。
+  pain_en: Raw logs are verbose and noisy, so sending them straight to a model wastes context and dilutes
+    key signals; public material offers no user complaints or adoption evidence.
+  current_alternative: 人工 grep 过滤、写正则脚本，或把整段日志直接贴给模型。
+  current_alternative_en: Manual grep filtering, writing regex scripts, or pasting whole log sections
+    into a model.
+  usage_reason: 推断：相较人工写正则，它把剥离噪声这一步自动化，可减少反复调过滤规则的工作，因此日志量大且上下文成本敏感的团队可能采用；重复使用证据缺失。
+  usage_reason_en: 'Inference: versus hand-written regex, automating the noise-stripping step reduces
+    repeated filter tuning, so teams with high log volume and context-cost sensitivity may adopt it; repeat-use
+    evidence is missing.'

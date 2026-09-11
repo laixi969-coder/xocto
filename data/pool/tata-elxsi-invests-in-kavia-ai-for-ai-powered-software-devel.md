@@ -1,6 +1,6 @@
 ---
 slug: tata-elxsi-invests-in-kavia-ai-for-ai-powered-software-devel
-name: Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development
+name: KAVIA AI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEtUdDBmZmJ6
 summary: Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development digital terminal
 first_seen: '2026-09-10T12:33:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development
+# KAVIA AI
 
 Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development digital terminal
 

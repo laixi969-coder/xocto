@@ -24,7 +24,7 @@ summary: 'Gear up: The latest PC games and major updates are ready to play on Ge
   storage […]'
 first_seen: '2026-09-10T13:00:18Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

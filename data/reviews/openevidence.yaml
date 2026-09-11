@@ -1,0 +1,43 @@
+- id: req-initial-openevidence-2026-09-11
+  project_slug: openevidence
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决医生在时间压力下快速获取可核对循证依据的需求，痛点刚性且旧流程明确为手动检索文献库。
+    evidence_ids:
+    - ev-4834c91d28be53ee
+  - gate: consensus
+    status: insufficient
+    reason: 仅见其被列入一份行业榜单，属关注度信号，不能说明医生群体的持续采用。
+    evidence_ids:
+    - ev-4834c91d28be53ee
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方结构，医院采购还是个人订阅属判断而非已验证事实。
+    evidence_ids:
+    - ev-4834c91d28be53ee
+  - gate: truth
+    status: insufficient
+    reason: 答案是否可稳定溯源、是否需医生二次确认、错误责任边界如何，公开材料未给出可核对结果。
+    evidence_ids:
+    - ev-4834c91d28be53ee
+  next_validation: 收集 OpenEvidence 官方定价页或医院客户案例，核对付费方、部署方式与临床使用结果。
+  market: ''
+  job: 临床医生在诊疗或查房时，就具体医学问题检索并核对循证文献，形成可引用的判断依据。
+  job_en: Clinicians searching and verifying evidence-based literature on specific medical questions during
+    consultations or rounds to form citable judgments.
+  pain: 医学文献量大且更新快，医生在门诊时间压力下难以快速找到并核对可靠证据。
+  pain_en: Medical literature is vast and fast-moving, and doctors under clinic time pressure struggle
+    to quickly find and verify reliable evidence.
+  current_alternative: 手动检索 PubMed 等数据库、查阅指南，或依赖同事经验与记忆。
+  current_alternative_en: Manually searching databases such as PubMed, consulting guidelines, or relying
+    on colleagues' experience and memory.
+  usage_reason: 推断：它把'检索—筛选—汇总'合并为一次提问返回带出处的答案，减少医生在多库之间反复检索的步骤，因此时间紧张的临床医生在需要快速循证依据时可能选择它；公开材料未提供医生持续使用或付费证据。
+  usage_reason_en: 'Inference: it merges search, filtering and summarization into one question that returns
+    sourced answers, cutting the back-and-forth across multiple databases, so time-pressed clinicians
+    needing quick evidence may choose it; public materials offer no evidence of sustained clinician use
+    or payment.'

@@ -1,0 +1,44 @@
+- id: req-initial-deploymentinc-hiring-problems-2026-09-11
+  project_slug: deploymentinc-hiring-problems
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决演示阶段 AI 进不了生产的问题，痛点是数据权限、安全审查与预算约束，旧做法是自建或通用外包，结构上成立。
+    evidence_ids:
+    - ev-6012a3b0ae13bf94
+    - ev-7f93e97b605800a3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库描述与星标数，没有客户案例或采购证据说明企业真的采用这种驻场方式。
+    evidence_ids:
+    - ev-6012a3b0ae13bf94
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与合同形式，按指标收费还是按人力计费无法确认，买方为判断而非已验证事实。
+    evidence_ids:
+    - ev-7f93e97b605800a3
+  - gate: truth
+    status: insufficient
+    reason: 无法核验其承诺的业务指标能否确定性交付，安全与人工边界也未公开。
+    evidence_ids:
+    - ev-6012a3b0ae13bf94
+  next_validation: 收集 Deployment.inc 官方页面上的客户案例或服务条款，确认交付物与计价方式。
+  market: ''
+  job: 企业内部的 AI 项目负责人在预算与安全审查约束下，把演示阶段的模型落到自有数据上并跑出可解释的业务指标。
+  job_en: An enterprise AI project owner taking a demo-stage model onto the company's own data under budget
+    and security review constraints, and producing an explainable business metric.
+  pain: 演示能跑通但进不了生产：数据不能出内网、安全团队要审、预算有限，还要向业务负责人解释指标来源。
+  pain_en: 'The demo works but cannot reach production: data cannot leave the internal network, security
+    must review, budget is limited, and the business owner still needs the metric explained.'
+  current_alternative: 企业自己招人摸索，或请通用咨询与外包团队做集成，周期长且指标责任不清。
+  current_alternative_en: Hiring internally to figure it out, or bringing in general consulting and outsourcing
+    teams for integration, which is slow and leaves metric ownership unclear.
+  usage_reason: 推断：相较通用咨询或自建团队，它把工程师直接放进客户内部并对一个可核对的业务指标负责，减少了企业自己摸索数据权限与安全审查这一步负担，因此受监管行业里卡在演示阶段的企业会选它。
+  usage_reason_en: 'Inference: compared with general consulting or an in-house team, it places engineers
+    inside the client and takes responsibility for one checkable business metric, cutting the step where
+    the enterprise figures out data access and security review itself, so firms in regulated industries
+    stuck at the demo stage would choose it.'

@@ -1,11 +1,14 @@
 ---
 slug: 微信悄悄迈出-ai-社交的第一步
-name: 微信，悄悄迈出 AI 社交的第一步
+name: 微信
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 微信在小范围测试中让用户把沟通目的交给自己的小微，由小微与对方小微先交换信息、归纳分歧，遇到需要选择或确认时再回来提醒本人，代理对话不进入原有聊天框。目前仅限测试，具体开放范围与交付细节仍待核验。
 inspiration: ''
-summary_en: ''
+summary_en: In a limited test, WeChat lets a user hand a communication goal to their own Xiaowei, which
+  exchanges information with the other party's Xiaowei and summarizes disagreements, returning to the
+  owner only for choices or confirmations; the agent conversation stays out of the normal chat thread.
+  Availability and delivery details remain unverified.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -52,7 +55,7 @@ summary: "头图来源：视觉中国、ChatGPT 生成 \n   \n 最近，微信�
   \ Agent 透露到什么程度，都将影响用户是否愿意把真实事务交给它。技术上能够完成沟通，并不意味着它已经获得了代表用户沟通的信任。 \n 因此，A2A 功能更像是微信对 Agent 角色的一次边界测试，对于微信而言，真正的长期挑战可能是划清哪些事情可以交给它，哪些事情必须由人亲自完成。"
 first_seen: '2026-09-10T13:36:57Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 sightings:
@@ -63,7 +66,7 @@ sightings:
   kind: news
 ---
 
-# 微信，悄悄迈出 AI 社交的第一步
+# 微信
 
 头图来源：视觉中国、ChatGPT 生成 
    

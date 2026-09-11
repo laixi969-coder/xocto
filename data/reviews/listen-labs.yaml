@@ -1,0 +1,44 @@
+- id: req-initial-listen-labs-2026-09-11
+  project_slug: listen-labs
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决用户研究访谈与反馈整理耗时、样本受限的问题，旧做法是人工访谈加人工编码或外包调研，结构上成立。
+    evidence_ids:
+    - ev-89f55f1b2a42feb6
+  - gate: consensus
+    status: supported
+    reason: 入选行业榜单中阶段名单，且有收购洽谈报道，说明其研究场景已被市场关注，但公开材料未给出持续使用数据。
+    evidence_ids:
+    - ev-89f55f1b2a42feb6
+    - ev-9757df10d15cae86
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与采购方式，企业客户如何付费只能推断，收购洽谈也不等于已验证收入。
+    evidence_ids:
+    - ev-9757df10d15cae86
+  - gate: truth
+    status: insufficient
+    reason: 访谈执行质量、结论可靠性与人工复核边界均未在公开材料中说明，交付确定性待核验。
+    evidence_ids:
+    - ev-89f55f1b2a42feb6
+  next_validation: 收集 Listen Labs 官方定价页或客户案例，核验其研究交付内容与企业付费方式。
+  market: ''
+  job: 做用户研究或客户洞察的团队在需要收集受访者反馈并形成结论时，把研究问题和访谈材料交给它，要完成的是拿到可用的研究结论。
+  job_en: Teams doing user research or customer insight hand over research questions and interview material
+    when they need to collect respondent feedback and form conclusions, aiming to get usable research
+    conclusions.
+  pain: 人工访谈和逐条编码反馈耗时，样本量受限，结论产出慢，难以支撑高频决策。
+  pain_en: Manual interviews and line-by-line coding of feedback are time-consuming, sample sizes are
+    limited, and conclusions come slowly, making it hard to support frequent decisions.
+  current_alternative: 旧做法是研究员自己约访、录音转写，再人工编码和写报告，或外包给传统调研公司。
+  current_alternative_en: The old way is researchers scheduling interviews themselves, transcribing recordings,
+    then coding and writing reports by hand, or outsourcing to traditional research firms.
+  usage_reason: 推断：相较人工访谈加人工编码，它把访谈执行与反馈整理合并到同一流程，减少转写和编码这两步，因此需要高频做用户研究的团队会在项目排期紧时选择它。
+  usage_reason_en: 'Inference: compared with manual interviews plus manual coding, it merges interview
+    execution and feedback synthesis into one flow, cutting the transcription and coding steps, so teams
+    running frequent user research would pick it when project timelines are tight.'

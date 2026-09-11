@@ -1,0 +1,44 @@
+- id: req-initial-mason-change-detection-2026-09-11
+  project_slug: mason-change-detection
+  level: initial
+  reviewed_at: '2026-09-11T00:10:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决遥感影像变化比对的需求，痛点真实，但公开材料只有演示空间，无法确认精度与交付形态是否成立。
+    evidence_ids:
+    - ev-40d7ab5b0cc3c2f6
+  - gate: consensus
+    status: insufficient
+    reason: 仅 2 个点赞，无社区讨论、无机构采用或复现记录，看不出谁在什么场景下真的用它。
+    evidence_ids:
+    - ev-40d7ab5b0cc3c2f6
+  - gate: model
+    status: insufficient
+    reason: 开源演示，未见定价页、付费路径或政府与企业采购线索，买方与收费方式均不明。
+    evidence_ids:
+    - ev-40d7ab5b0cc3c2f6
+  - gate: truth
+    status: insufficient
+    reason: 未披露训练数据来源、精度指标与人工复核边界，无法判断变化检测结果能否确定性交付。
+    evidence_ids:
+    - ev-40d7ab5b0cc3c2f6
+  next_validation: 收集该演示空间的模型卡或仓库文档，核验其训练数据来源、变化检测精度指标与输入输出格式。
+  market: ''
+  job: 遥感影像分析人员在比对同一区域两期卫星或航拍影像时，需要标出新增建筑、植被变化或灾损范围，形成可交付的变化图。
+  job_en: Remote-sensing analysts comparing two dates of satellite or aerial imagery for one area need
+    to mark new construction, vegetation change or disaster damage and produce a deliverable change map.
+  pain: 人工逐幅比对耗时且容易漏判，传统影像差分对配准和光照差异敏感，误报需要大量人工复核。
+  pain_en: Manual image-by-image comparison is slow and error-prone, while classical differencing is sensitive
+    to registration and illumination differences, generating false positives that require heavy manual
+    review.
+  current_alternative: 人工目视比对、传统影像差分算法，或采购商业遥感处理软件与外包制图。
+  current_alternative_en: Manual visual comparison, classical image differencing, or commercial remote-sensing
+    software and outsourced mapping.
+  usage_reason: 推断：若该模型能在配准后直接输出变化区域掩膜，可省去人工逐幅圈画的步骤，让分析人员只复核候选区域；但公开材料未给出精度、处理速度或客户案例，无法确认它比现有差分流程更少误报，因此尚不能断言用户会持续选用。
+  usage_reason_en: 'Inference: if the model outputs change masks directly after registration, it could
+    remove the manual outlining step and leave analysts only reviewing candidate areas; however, no accuracy,
+    throughput or customer case is public, so it cannot yet be claimed to produce fewer false positives
+    than existing differencing pipelines or to be retained in workflows.'

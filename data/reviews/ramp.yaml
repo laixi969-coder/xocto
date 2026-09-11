@@ -1,0 +1,41 @@
+- id: req-initial-ramp-2026-09-11
+  project_slug: ramp
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 材料未说明本次 AI 改造解决什么需求、什么痛点，无法还原具体用户任务。
+    evidence_ids:
+    - ev-64de2c2977420901
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条名单事实，没有本次新增的采用或客户证据。
+    evidence_ids:
+    - ev-64de2c2977420901
+  - gate: model
+    status: insufficient
+    reason: 未披露本次新增的定价或收费方式变化，无法判断商业模式影响。
+    evidence_ids:
+    - ev-64de2c2977420901
+  - gate: truth
+    status: insufficient
+    reason: 无交付说明，无法核对 AI 环节能否确定性交付。
+    evidence_ids:
+    - ev-64de2c2977420901
+  next_validation: 抓取 Ramp 官方产品更新或定价页，确认本次新增的 AI 环节与收费方式。
+  market: ''
+  job: 财务团队在处理企业支出、报销与对账材料时，需要完成审批与记账；但材料未说明 AI 在其中承担哪一步。
+  job_en: Finance teams approve and record corporate spend, expense and reconciliation material, but the
+    material does not say which step the AI handles.
+  pain: 材料未提供本次新增的痛点或旧流程细节，无法判断 AI 改造针对的具体问题。
+  pain_en: No new pain point or old-workflow detail is provided, so the specific problem the AI change
+    targets cannot be established.
+  current_alternative: 材料未说明现有替代方式，无法确认此前由人工还是旧系统完成。
+  current_alternative_en: No current alternative is described, so it is unclear whether people or legacy
+    systems did this before.
+  usage_reason: 无法判断：没有本次新增的功能与流程对比，不能给出用户为何选择它的理由。
+  usage_reason_en: 'Cannot be judged: with no new feature or workflow comparison, there is no reason to
+    state why users would choose it.'

@@ -1,0 +1,43 @@
+- id: req-initial-jetstream-security-2026-09-11
+  project_slug: jetstream-security
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决企业放行自主 agent 时看不清行为与风险的问题，旧做法是传统安全工具加人工审批，结构上成立。
+    evidence_ids:
+    - ev-0a0efef1c5293f2c
+  - gate: consensus
+    status: insufficient
+    reason: 只有入选早期名单这一事实，没有客户采用或使用数据说明企业是否真的在用。
+    evidence_ids:
+    - ev-0a0efef1c5293f2c
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方结构，企业安全预算付费是判断，不是已验证事实。
+    evidence_ids:
+    - ev-0a0efef1c5293f2c
+  - gate: truth
+    status: insufficient
+    reason: 治理与可见性承诺能否确定性交付、人工边界如何设定，公开材料只有名单描述，缺少部署文档或实测。
+    evidence_ids:
+    - ev-0a0efef1c5293f2c
+  next_validation: 收集 JetStream Security 官网的产品页与部署文档，确认其实际采集的 agent 信号与输出的审计或控制结果。
+  market: ''
+  job: 企业安全或合规负责人要在内部系统里放行自主 agent 之前，需要掌握这些 agent 的权限、行为与风险，并留下可审计记录。
+  job_en: An enterprise security or compliance lead must understand the permissions, behaviour and risk
+    of autonomous agents before letting them into internal systems, and keep auditable records.
+  pain: agent 自主执行动作后，企业说不清它访问了什么、做了什么，出事时无法追溯，合规部门也不敢放行。
+  pain_en: Once agents act autonomously, enterprises cannot say what they accessed or did, cannot trace
+    incidents, and compliance teams hesitate to approve deployment.
+  current_alternative: 沿用传统安全工具与人工审批流程，或干脆不允许 agent 接入生产系统。
+  current_alternative_en: Reusing traditional security tooling and manual approval flows, or simply not
+    allowing agents into production systems.
+  usage_reason: 推断：它把 agent 的行为与权限集中成可查看、可审计的一层，减少了企业自行拼凑日志与审批这一步，因此受监管行业的安全负责人会在放行 agent 前选择它；公开材料没有客户案例或付费证据。
+  usage_reason_en: 'Inference: it centralises agent behaviour and permissions into an inspectable, auditable
+    layer, removing the step of stitching together logs and approvals internally, so security leads in
+    regulated industries would choose it before approving agents; public material shows no customer cases
+    or payment evidence.'

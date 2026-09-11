@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5YlFCUl9JcnVR
 summary: 聚富官方网址登录系列重磅发布：重新定义企业级AI算力与边缘智能边界 体坛
 first_seen: '2026-09-09T16:53:08Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

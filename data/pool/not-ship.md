@@ -21,7 +21,7 @@ canonical_url: https://not-ship.com/united-nations-map
 summary: The UN challenges five centuries of cartography
 first_seen: '2026-09-09T16:33:44Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

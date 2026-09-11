@@ -1,0 +1,42 @@
+- id: req-initial-buildcheck-raises-12m-series-a-to-equip-construction-teams-w-2026-09-11
+  project_slug: buildcheck-raises-12m-series-a-to-equip-construction-teams-w
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决图纸审查的需求与痛点：图纸错漏碰缺导致现场返工，审查刚需且高频；旧流程由产品定位与行业常识还原，属工作流推理，暂无用户口述或采用数据支持。
+    evidence_ids:
+    - ev-9fc8b684d7862d28
+  - gate: consensus
+    status: insufficient
+    reason: 1200 万美元 A 轮说明投资方认可方向，但融资属于关注度证据；尚无公开客户名单、采用量或留存数据证明施工团队已普遍感到此痛点并迁移工作流。
+    evidence_ids:
+    - ev-9fc8b684d7862d28
+  - gate: model
+    status: insufficient
+    reason: 买方大概率为施工总包或业主方，可能按席位或按项目收费，但无公开定价页；这是判断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 视觉审图贴近该工作的第一性目标，但漏报可能带来返工甚至安全后果，交付准确性无可核验数据，需明确人工确认边界。
+    evidence_ids: []
+  next_validation: 下一轮抓取 Buildcheck 官网的产品说明、定价页与客户案例页，核验其具体检查项、计价方式与已公开的施工客户。
+  market: ''
+  job: 施工总包或项目团队在收到设计图纸后、开工前进行图纸会审；处理对象是成套施工图，任务是找出错漏碰缺与可施工性问题，避免现场返工。
+  job_en: A general contractor or project team runs a drawing review after receiving design drawings and
+    before construction starts; the materials are full construction drawing sets, and the task is to find
+    clashes, errors, and buildability issues to avoid rework.
+  pain: 图纸审查依赖少数资深工程师逐张人眼比对，耗时长且易漏项；漏掉的问题到现场才暴露，返工成本高。
+  pain_en: Drawing review depends on a few senior engineers eyeballing sheets one by one; it is slow and
+    easy to miss items, and missed problems surface on site where rework costs are high.
+  current_alternative: 旧做法是资深工程师或监理用 CAD 图和纸质图逐张人工核对，依赖个人经验，周期以天计，覆盖度不稳定。
+  current_alternative_en: The old way is senior engineers or supervisors manually cross-checking CAD and
+    paper drawings sheet by sheet, relying on personal experience, taking days with unstable coverage.
+  usage_reason: 推断：相较人工逐张翻图，产品让视觉模型直接读图并标出疑似问题，把逐项核对压缩为对机器标注的复核，减少会审准备时间；无留存或复购证据，此为工作流推理。
+  usage_reason_en: 'Inference: instead of flipping through drawings manually, a vision model reads the
+    drawings directly and flags suspected issues, compressing item-by-item checking into reviewing machine-flagged
+    results and cutting review-preparation time. No retention or repeat-use evidence exists; this is workflow
+    reasoning.'

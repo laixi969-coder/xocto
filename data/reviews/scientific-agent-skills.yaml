@@ -1,0 +1,42 @@
+- id: req-initial-scientific-agent-skills-2026-09-11
+  project_slug: scientific-agent-skills
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决科研人员跨库检索与整理科学数据的痛点，旧做法是人工逐站检索，结构上成立，但尚无用户采用证据。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+  - gate: consensus
+    status: insufficient
+    reason: 仓库仅 102 星、20 次 fork，宣称的 19 万科学家使用无独立来源佐证，公开关注度不足以说明持续采用。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，技能库本身开源，钱可能来自企业定制或支持服务，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+  - gate: truth
+    status: insufficient
+    reason: 技能是否经实验验证、数据库调用是否准确、人工复核边界如何，公开材料未说明，交付确定性待核验。
+    evidence_ids:
+    - ev-e62dcf6f6c509d0b
+  next_validation: 收集该仓库的 issue、discussion 与文档，核验技能是否被科研用户实际调用并给出可复现的数据库查询结果。
+  market: ''
+  job: 科研人员在设计实验或检索文献时，需要把研究问题转成对生物、化学、医学数据库的查询并整理成可复核结果。
+  job_en: When designing experiments or searching literature, researchers need to turn a research question
+    into queries against biology, chemistry and medicine databases and organize reviewable results.
+  pain: 科学数据库分散、接口各异，人工逐个检索并整理格式耗时且易漏，代理直接调用可减少这一步手工搬运。
+  pain_en: Scientific databases are scattered with differing interfaces, so manual searching and reformatting
+    is slow and error-prone; letting an agent call them reduces that manual step.
+  current_alternative: 研究者目前多靠人工在 PubMed、ChEMBL 等站点逐个检索，或自己写脚本拼接 API。
+  current_alternative_en: Researchers currently search PubMed, ChEMBL and similar sites by hand, or write
+    their own scripts to stitch APIs together.
+  usage_reason: 推断：相较逐个站点手工检索，它把数据库调用封装成代理可直接执行的技能，减少检索与格式整理环节，因此常做跨库文献与化合物查询的科研人员会尝试它。
+  usage_reason_en: 'Inference: compared with manual site-by-site searching, it packages database calls
+    into skills an agent can execute directly, cutting the retrieval and reformatting steps, so researchers
+    who often run cross-database literature and compound queries would try it.'

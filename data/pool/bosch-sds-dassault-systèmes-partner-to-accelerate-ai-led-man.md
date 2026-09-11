@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRWU0OEFMRVJ2
 summary: Bosch SDS, Dassault Systèmes partner to accelerate AI-led manufacturing transformation ET Manufacturing
 first_seen: '2026-09-10T06:19:42Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

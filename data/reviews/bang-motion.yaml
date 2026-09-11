@@ -1,0 +1,46 @@
+- id: req-initial-bang-motion-2026-09-11
+  project_slug: bang-motion
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是非设计人员做不出动态图形、外包又慢又贵的问题，脚本到可播放网页文件这一步替代了手工搭建时间轴，痛点具体。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+    - ev-9f851290e47b532c
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有仓库星标从119增至131，属于关注度信号，没有客户案例或用户反馈说明谁在持续使用。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+    - ev-9f851290e47b532c
+  - gate: model
+    status: insufficient
+    reason: 这是开源 skill，没有定价页或付费路径，钱可能来自定制交付或模板售卖，属于判断而非已验证事实。
+    evidence_ids:
+    - ev-5668e57157dd08ac
+  - gate: truth
+    status: insufficient
+    reason: 输出为单个 index.html，能否达到可直接投放的质量、人工需要多少返工，公开材料未说明。
+    evidence_ids:
+    - ev-9f851290e47b532c
+  next_validation: 收集该仓库的 issue、discussion 或示例输出页面，核对生成结果是否需要人工返工以及是否有团队用于实际投放。
+  market: ''
+  job: 营销或内容团队在需要片头、转场、动态字体或讲解视频时，把已有文案和脚本交给这个 skill，由它产出可在浏览器播放的动态图形页面，用于投放或发布。
+  job_en: When a marketing or content team needs an opener, bumper, kinetic typography or explainer video,
+    it hands existing copy and scripts to this skill, which produces a browser-playable motion graphics
+    page for distribution or publishing.
+  pain: 这类素材过去要在专业软件里逐帧搭建，非设计人员做不出来，外包又慢又贵，临时改一版成本很高。
+  pain_en: Such assets used to be built frame by frame in professional software, which non-designers cannot
+    do, while outsourcing is slow and expensive and each revision costs a lot.
+  current_alternative: 用 After Effects 等软件手工制作，或把需求外包给动态设计工作室，也有用模板站套现成模板的做法。
+  current_alternative_en: Hand-building in software such as After Effects, outsourcing to a motion design
+    studio, or adapting ready-made templates from template sites.
+  usage_reason: 相较手工搭建或外包，它把脚本直接转成可播放的网页文件，省掉从零搭建时间轴和逐帧调整这一步，因此没有设计人手、又需要频繁产出短素材的营销或内容团队会在赶投放节点时选择它；这是基于产品能力的推断。
+  usage_reason_en: Compared with hand-building or outsourcing, it turns a script directly into a playable
+    web file, removing the step of building a timeline from scratch and adjusting frame by frame, so marketing
+    or content teams without designers that need frequent short assets would pick it when a launch deadline
+    is close; this is an inference from product capability.

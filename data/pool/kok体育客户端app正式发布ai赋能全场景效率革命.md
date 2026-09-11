@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtNUk0YmZ6ck0t
 summary: kok体育客户端app正式发布：AI赋能全场景效率革命 体坛
 first_seen: '2026-09-10T08:41:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

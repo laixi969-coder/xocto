@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZkVkSzRmV2k2
 summary: 'Reinvented & Upgraded: Kuailu AI CRM into the 2.0 Era The Asian Banker'
 first_seen: '2026-09-10T04:10:04Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE8za0FhNnFzNnJO
 summary: Has AML and KYC become too fragmented? FinTech Global
 first_seen: '2026-09-10T14:05:13Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

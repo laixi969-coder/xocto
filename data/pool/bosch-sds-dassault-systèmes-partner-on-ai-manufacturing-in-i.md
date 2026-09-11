@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxNWHRBekFaTWRx
 summary: Bosch SDS, Dassault Systèmes Partner On AI Manufacturing In India Autocar Professional
 first_seen: '2026-09-10T05:06:30Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

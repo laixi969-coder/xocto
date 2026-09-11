@@ -21,7 +21,7 @@ canonical_url: https://dbushell.com/ai
 summary: How AI is accelerating policy migration InsuranceNewsNet
 first_seen: '2026-09-02T15:36:24Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - newssearch

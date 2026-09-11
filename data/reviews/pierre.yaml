@@ -1,0 +1,41 @@
+- id: req-initial-pierre-2026-09-11
+  project_slug: pierre
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决智能体产物存储与检索，但公开材料未说明旧流程、痛点强度与不解决的后果，无法还原具体用户任务。
+    evidence_ids:
+    - ev-722a708cfc902179
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条入选名单事实，没有客户、部署或使用反馈，无法判断是否形成共识。
+    evidence_ids:
+    - ev-722a708cfc902179
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方与收费方式，无法判断钱从哪来；这是未知，不是已验证事实。
+    evidence_ids:
+    - ev-722a708cfc902179
+  - gate: truth
+    status: insufficient
+    reason: 无法核对承诺能否确定性交付，也看不到安全与人工边界说明。
+    evidence_ids:
+    - ev-722a708cfc902179
+  next_validation: 抓取 Pierre 官方文档或定价页，确认其存储对象、接口与收费方式。
+  market: ''
+  job: 平台工程师在智能体批量生成代码与产物时，需要把这些产物存下来、按版本管理并供后续任务检索调用。
+  job_en: Platform engineers must store, version and make retrievable the artifacts their agents generate
+    at volume for later tasks.
+  pain: 公开材料只说明它位于代码生成层之下，没有说明当前团队用什么方式存放智能体产物、哪一步最痛、不解决会付出什么代价。
+  pain_en: Public material only says it sits beneath codegen; it does not say how teams currently store
+    agent artifacts, which step hurts, or the cost of not solving it.
+  current_alternative: 公开材料未提供现有替代方式，无法确认团队此前是用对象存储、代码仓库还是自建脚本处理。
+  current_alternative_en: No current alternative is disclosed; it is unclear whether teams use object
+    storage, code repos or custom scripts today.
+  usage_reason: 无法判断：材料未说明它相较旧做法减少了哪一步负担或改善了哪项可核对结果，因此不能给出使用理由。
+  usage_reason_en: 'Cannot be judged: the material does not say which step it removes versus the old way
+    or which verifiable result it improves.'

@@ -32,7 +32,7 @@ summary: The agent skills I actually use to build software with coding agents. T
   worktrees, and the meta-skills for building your own AI Layer.
 first_seen: '2026-08-04T22:14:35Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 - hackernews

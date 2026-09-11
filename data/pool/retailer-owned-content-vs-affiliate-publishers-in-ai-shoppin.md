@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikAFBVV95cUxNRXVFRk1rSWNG
 summary: Retailer-Owned Content vs Affiliate Publishers in AI Shopping Affiverse
 first_seen: '2026-09-08T12:06:39Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

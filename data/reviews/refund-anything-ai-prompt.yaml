@@ -1,0 +1,44 @@
+- id: req-initial-refund-anything-ai-prompt-2026-09-11
+  project_slug: refund-anything-ai-prompt
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决被拒退后不知道适用规则、不知如何升级措辞的痛点，旧做法是搜模板或放弃，不采用的代价是直接损失钱款，需求结构成立。
+    evidence_ids:
+    - ev-79d374874a1db558
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有约70星和3次分叉，没有用户反馈、成功退款案例或重复使用证据，无法判断是否形成持续采用。
+    evidence_ids:
+    - ev-79d374874a1db558
+    - ev-ab99d6ce4555fbde
+  - gate: model
+    status: insufficient
+    reason: 没有定价页或收费方式，钱可能来自按份收费、成功抽成或纯开源捐赠，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-79d374874a1db558
+  - gate: truth
+    status: insufficient
+    reason: 覆盖30多个司法辖区的说法未提供法规依据或逐辖区校验，函件是否真能推动退款、误用是否有风险均未核验。
+    evidence_ids:
+    - ev-79d374874a1db558
+  next_validation: 收集该仓库的 issue 与 discussion，核对是否有用户报告实际退款成功、失败原因及辖区法规错误。
+  market: ''
+  job: 普通消费者在订阅、数字购买或预订被拒退时，整理订单凭证与拒退理由，写出一封能推动对方退款的交涉函件。
+  job_en: An ordinary consumer whose subscription, digital purchase or booking refund was refused gathers
+    order proof and the rejection reason, then writes a letter that can move the counterparty to refund.
+  pain: 多数人不知道适用哪条消费者保护规则，也不知道措辞升级到什么程度，往往写一封邮件被拒后就放弃，钱直接损失。
+  pain_en: Most people do not know which consumer-protection rule applies or how far to escalate the wording,
+    so they often give up after one rejected email and simply lose the money.
+  current_alternative: 自己搜索模板、在论坛问人、反复给客服发邮件，或直接放弃这笔钱。
+  current_alternative_en: Searching for templates, asking in forums, repeatedly emailing customer support,
+    or simply writing the money off.
+  usage_reason: 相较自己找模板，它把“查适用规则、定语气、写升级路径”三步合成一次生成，用户只需补订单事实即可得到可直接发送的函件；推断在跨境订阅和小额预订纠纷中，怕麻烦又不想放弃退款的消费者会先试它。
+  usage_reason_en: Compared with hunting for templates, it merges three steps — finding the applicable
+    rule, setting the tone and writing the escalation path — into one generation, so the user only supplies
+    order facts and gets a sendable letter; by inference, consumers facing cross-border subscription or
+    small booking disputes who dislike the hassle but not the loss will try it first.

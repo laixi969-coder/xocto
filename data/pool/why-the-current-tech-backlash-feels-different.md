@@ -24,7 +24,7 @@ summary: 'This interview has been lightly edited for length and clarity.  Nick 
   Nilay is here too. He is […]'
 first_seen: '2026-09-10T14:00:00Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to
 summary: I'm sorry, you're not going to die from an AI-engineered supervirus
 first_seen: '2026-09-10T01:02:44Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

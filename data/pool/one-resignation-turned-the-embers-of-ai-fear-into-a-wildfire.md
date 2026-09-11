@@ -21,7 +21,7 @@ canonical_url: https://interconnects.ai/p/one-resignation-turned-the-embers
 summary: Some quick notes on a truly weird week.
 first_seen: '2026-09-10T15:28:52Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

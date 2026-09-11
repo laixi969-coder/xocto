@@ -3,13 +3,13 @@ slug: 129-亿美元英伟达拿下-hugging-face
 name: NVIDIA
 builder: ''
 category: ''
-summary_zh: 据行业报道，英伟达已与开源模型托管平台 公开模型社区 达成收购协议，价格约 129 亿美元。该平台托管超 300 万个模型仓库、服务 1300 万开发者，是开源 AI 事实上的分发层；交易意味着算力厂商向模型流通环节延伸，开源生态的中立性和模型获取方式需要重新评估。
+summary_zh: 英伟达在垄断AI算力硬件的基础上，以129亿美元收购开源模型托管与分发平台，并在此前承诺五年向Nemotron联盟投资260亿美元研发万亿参数开源模型。这一变化标志着头部芯片巨头正从底层算力向上垂直整合至开源模型分发与生态层，强化其软硬件协同闭环，但同时也引发了行业对开源模型分发平台中立性及硬件垄断延伸的监管与竞争担忧。
 inspiration: ''
-summary_en: Per industry reports, NVIDIA has agreed to acquire the open-source model hub public model
-  community for about $12.9 billion, roughly triple its $4.5 billion Series D valuation. Hosting over
-  3 million model repositories and serving 13 million developers, the platform is the de facto distribution
-  layer of open-source AI; the deal extends a compute vendor into model distribution and forces a rethink
-  of ecosystem neutrality.
+summary_en: Building on its AI hardware dominance, NVIDIA agreed to acquire an open-source model hub for
+  $12.9 billion and previously committed $26 billion over five years to the Nemotron Alliance for frontier
+  open models. This marks a major vertical integration by a leading chipmaker to control the distribution
+  and developer layer of open AI, raising industry and regulatory concerns regarding platform neutrality
+  and hardware lock-in.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -58,7 +58,7 @@ summary: "作者｜Wildcard  \n  编辑｜靖宇   \n \n \n 129 亿美元，英�
   \ \n *头图来源：英伟达 \n 本文为极客公园原创文章，转载请联系极客君微信 geekparkGO"
 first_seen: '2026-08-27T07:09:02Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - newssearch

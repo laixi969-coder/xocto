@@ -22,7 +22,7 @@ summary: 'AI Productivity in 2026: 4 Companies Show Gains of 20% to 35% and Up t
   InfotechLead'
 first_seen: '2026-09-09T11:53:45Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

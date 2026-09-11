@@ -1,6 +1,6 @@
 ---
 slug: 财跃星辰金融ai布局集中落地-外滩大会发布智能体矩阵
-name: 财跃星辰金融AI布局集中落地 外滩大会发布智能体矩阵
+name: 财跃星辰
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nVE5FNnZwYnV2
 summary: 财跃星辰金融AI布局集中落地 外滩大会发布智能体矩阵 财联社
 first_seen: '2026-09-10T01:23:24Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 财跃星辰金融AI布局集中落地 外滩大会发布智能体矩阵
+# 财跃星辰
 
 财跃星辰金融AI布局集中落地 外滩大会发布智能体矩阵 财联社
 

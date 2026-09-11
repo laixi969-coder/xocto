@@ -1,0 +1,42 @@
+- id: req-initial-dbmask-2026-09-11
+  project_slug: dbmask
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决生产数据进测试环境前的脱敏需求，痛点真实，但公开材料只有一句功能描述，说不清替代了哪一步具体旧流程。
+    evidence_ids:
+    - ev-a7a2e139ccb9c420
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论极少，无用户评价或采用证据，无法判断是否有人真的把它放进流程。
+    evidence_ids:
+    - ev-a7a2e139ccb9c420
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价、付费或企业采购路径，买方与收费方式均未披露。
+    evidence_ids:
+    - ev-a7a2e139ccb9c420
+  - gate: truth
+    status: insufficient
+    reason: 无法核验遮蔽是否可逆、是否覆盖常见数据库与合规要求，交付确定性未知。
+    evidence_ids:
+    - ev-a7a2e139ccb9c420
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认支持的数据库类型、遮蔽规则和复核方式。
+  market: ''
+  job: 数据工程师在把生产库数据复制到测试或分析环境前，扫描并遮蔽手机号、证件号等敏感字段，并复核遮蔽结果。
+  job_en: A data engineer scans and masks sensitive fields such as phone numbers and ID numbers before
+    copying production database data into test or analytics environments, then verifies the masking result.
+  pain: 生产数据直接进测试环境会带来合规与泄露风险，人工逐表找敏感字段既慢又容易漏。
+  pain_en: Copying production data straight into test environments creates compliance and leak risk, and
+    finding sensitive fields table by table by hand is slow and easy to miss.
+  current_alternative: 手写 SQL 查询找字段、用脚本或数据库自带函数做遮蔽，靠人工检查清单确认。
+  current_alternative_en: Hand-written SQL queries to find fields, scripts or built-in database functions
+    to mask, and manual checklists to confirm.
+  usage_reason: 推断：相较手写脚本，它把发现、遮蔽、复核收在一次操作里，减少逐表排查和事后核对这一步负担，因此需要频繁向测试环境交付数据、又缺少专职合规工具的小团队会先试用它。
+  usage_reason_en: 'Inference: compared with hand-written scripts, it folds discovery, masking and verification
+    into one operation, cutting the table-by-table search and after-the-fact checking step, so small teams
+    that frequently ship data to test environments without dedicated compliance tooling would try it first.'

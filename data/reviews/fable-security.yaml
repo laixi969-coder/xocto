@@ -1,0 +1,47 @@
+- id: req-initial-fable-security-2026-09-11
+  project_slug: fable-security
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它要解决代理放行的责任与可见性问题，但材料未说明具体输入、动作与交付物，痛点刚性无法确认。
+    evidence_ids:
+    - ev-1e454d31f9e7bcf9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一份早期名单收录，没有客户案例、部署记录或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-1e454d31f9e7bcf9
+  - gate: model
+    status: insufficient
+    reason: 买方可能是企业安全预算，但候选未披露定价、计费方式或采购路径，属判断而非已验证事实。
+    evidence_ids:
+    - ev-1e454d31f9e7bcf9
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近代理放行这一第一性目标，也看不到人工复核边界与交付确定性。
+    evidence_ids:
+    - ev-1e454d31f9e7bcf9
+  next_validation: 收集 Fable Security 官方产品页或文档，确认它接收的输入、执行的动作与交付物，以及是否公布定价或客户案例。
+  market: ''
+  job: 企业安全负责人或 AI 平台负责人在把自主 AI 代理接入内部系统前，需要评估代理的权限范围、行为可见性与风险归属，并形成可对内交代的放行依据。
+  job_en: An enterprise security lead or AI platform lead must, before connecting autonomous AI agents
+    to internal systems, assess agent permissions, behaviour visibility and risk ownership, and produce
+    an internally defensible approval basis.
+  pain: 自主代理会自行调用工具和系统，传统以人和终端为中心的安全流程无法说明代理做了什么、该由谁负责；不解决则上线审批卡住或风险敞口无人认领。
+  pain_en: Autonomous agents call tools and systems on their own, and traditional human- and endpoint-centric
+    security processes cannot explain what an agent did or who owns the risk; unresolved, either go-live
+    approval stalls or the exposure goes unclaimed.
+  current_alternative: 企业目前多靠人工评审、内部安全清单、通用可观测性工具或干脆暂缓上线来绕过，缺少针对代理的专门流程。
+  current_alternative_en: Enterprises currently work around this with manual reviews, internal security
+    checklists, generic observability tools, or simply delaying rollout; there is no dedicated agent-specific
+    process.
+  usage_reason: 推断：若它能把代理的权限与行为记录整理成可审计的放行材料，就能省掉安全团队逐条手工取证这一步，受监管行业里负责上线评审的人会因此选择它；但候选材料未说明具体动作与交付物，这一因果尚未被公开事实支持。
+  usage_reason_en: 'Inference: if it turns agent permission and behaviour records into auditable approval
+    material, it removes the step of security teams manually gathering evidence item by item, which is
+    why go-live reviewers in regulated industries would choose it; however the candidate material does
+    not describe the concrete action or deliverable, so this causal link is not yet supported by public
+    facts.'

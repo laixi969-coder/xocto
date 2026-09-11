@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/changelog/build-with-openai-agents-api-on-verc
 summary: ''
 first_seen: '2026-09-10T00:00:00Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:

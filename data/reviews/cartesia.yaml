@@ -1,0 +1,45 @@
+- id: req-initial-cartesia-2026-09-11
+  project_slug: cartesia
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把实时语音接入自有产品的需求，痛点是自建语音链路延迟与自然度难兼顾，属于刚性工程问题。
+    evidence_ids:
+    - ev-daf147da4ddbb21f
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一份行业名单收录，缺少开发者采用规模或社区讨论证据，共识强度无法判断。
+    evidence_ids:
+    - ev-daf147da4ddbb21f
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方结构，按用量或按席位收费均为推断，尚未核验。
+    evidence_ids:
+    - ev-daf147da4ddbb21f
+  - gate: truth
+    status: insufficient
+    reason: 实时语音交付的确定性、延迟承诺与人工边界均无公开材料支持，无法核对。
+    evidence_ids:
+    - ev-daf147da4ddbb21f
+  next_validation: 收集 Cartesia 官方定价页与开发者文档，核验其计费方式、延迟承诺与接入案例。
+  market: ''
+  job: 语音应用开发者或客服产品负责人在搭建需要实时语音应答的产品时，处理用户语音输入与对话状态，要完成低延迟的语音回复交付。
+  job_en: A voice application developer or customer service product lead building a product that needs
+    real-time spoken responses handles user voice input and dialogue state to deliver low-latency spoken
+    replies.
+  pain: 自建语音链路要分别处理识别、合成与打断逻辑，延迟和自然度难以同时达标，调试成本高。
+  pain_en: Building the voice pipeline in-house means handling recognition, synthesis and interruption
+    logic separately, making it hard to hit both latency and naturalness targets while debugging costs
+    stay high.
+  current_alternative: 团队通常自行组合多家语音 API，或直接使用 ElevenLabs 等成品语音服务，再自行拼接对话编排。
+  current_alternative_en: Teams typically combine several speech APIs themselves, or use finished voice
+    services such as ElevenLabs and wire dialogue orchestration on top.
+  usage_reason: 推断：相较自行拼接多家 API，Cartesia 把实时语音模型作为单一接口提供，减少团队在延迟调优和链路拼接上的工作量，因此需要快速上线语音交互的团队会优先试用；公开材料未给出留存或复购证据。
+  usage_reason_en: 'Inference: compared with stitching multiple APIs, Cartesia exposes real-time speech
+    models as a single interface, cutting the work of latency tuning and pipeline assembly, so teams needing
+    to ship voice interaction quickly would try it first; public materials show no retention or repeat-purchase
+    evidence.'

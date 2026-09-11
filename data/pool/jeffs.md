@@ -21,7 +21,7 @@ canonical_url: https://jeffs.blog/p/defining-ai-psychosis-part-2-prolific
 summary: 'Defining AI Psychosis. Part 2: "Prolific AI Psychosis"'
 first_seen: '2026-09-09T16:13:11Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

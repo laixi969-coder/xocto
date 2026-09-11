@@ -36,3 +36,42 @@
   usage_reason_en: 'It promises a simpler way to complete this job: A fake light strip beside the Mac
     Dock shows at a glance whether your AI is running, waiting, or stuck. The exact adoption motive and
     repeat use are not yet verified.'
+- id: req-initial-ai-pulse-2026-09-11
+  project_slug: ai-pulse
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决多代理并行时状态不可见、需反复切窗口确认的问题，痛点具体且不解决的代价是漏掉卡住或已完成的任务；买方是谁公开材料未说明。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论量很小，只有少量点赞与评论，没有采用规模或持续使用的公开证据，无法判断是否形成共识。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费路径或买方，开源项目可能靠捐赠或后续商业版，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 状态映射是否准确、支持哪些代理、出错时能否可靠提示均未说明，交付确定性无法核对。
+    evidence_ids: []
+  next_validation: 收集该仓库的 README、issue 与 discussion，核对它支持哪些编码代理、状态如何映射到灯带，以及是否有用户反馈长期使用。
+  market: ''
+  job: 开发者在本地同时运行多个编码代理时，需要在不离开当前窗口的情况下知道每个代理是运行中、已完成还是出错，以便决定下一步是等待、接管还是重开任务。
+  job_en: When a developer runs several coding agents locally at once, they need to know whether each
+    agent is running, finished or failed without leaving the current window, so they can decide whether
+    to wait, take over or restart the task.
+  pain: 代理在后台跑时状态不可见，开发者只能反复切回各个终端窗口确认，任务一多就容易漏掉已经结束或卡住的代理。
+  pain_en: Agent status is invisible while they run in the background, so developers keep switching back
+    to each terminal window to check, and with several tasks it is easy to miss one that finished or stalled.
+  current_alternative: 现在的做法是手动切换终端标签页、看日志输出，或者干脆只跑一个代理以免混乱。
+  current_alternative_en: The current practice is manually switching terminal tabs, reading log output,
+    or simply running one agent at a time to avoid confusion.
+  usage_reason: 推断：它把状态从需要主动查看的终端输出，变成常驻在 Dock 旁的被动可见信号，省掉反复切窗口确认这一步，因此同时跑多个代理的开发者会愿意把它挂在桌面上。
+  usage_reason_en: 'Inference: it turns status from terminal output the user must actively check into
+    a passively visible signal beside the Dock, removing the step of repeatedly switching windows, so
+    developers running several agents at once would keep it on their desktop.'

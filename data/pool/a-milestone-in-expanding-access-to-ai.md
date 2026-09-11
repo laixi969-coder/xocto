@@ -3,13 +3,11 @@ slug: a-milestone-in-expanding-access-to-ai
 name: OpenAI
 builder: lukaspetersson
 category: ''
-summary_zh: OpenAI 宣布 ChatGPT 内广告业务年化收入运行率达到 10 亿美元并启动全球扩展，用于支持免费与低价的 AI 使用。这标志着头部通用对话入口的商业化重心开始从订阅转向广告，模型厂商可以用广告收入持续压低使用门槛，独立
-  AI 应用靠订阅变现的空间被进一步压缩。
+summary_zh: OpenAI 通过 ChatGPT Ads 推出全球扩张，年化收入已达 10 亿美元，提供免费及低价选项，显著降低 AI 进入门槛，推动 AI 在更广泛行业的采用与交付，并对竞争对手形成价格与功能双重压力。
 inspiration: ''
-summary_en: 'OpenAI announced that advertising within ChatGPT has reached a $1 billion annualized revenue
-  run rate and is expanding globally, funding free and affordable access to AI. This marks a shift in
-  how the leading conversational entry point monetizes: advertising revenue lets model vendors keep lowering
-  the barrier to use, further squeezing the subscription-based window for standalone AI applications.'
+summary_en: OpenAI’s ChatGPT Ads expansion has achieved a $1 billion annualized revenue run‑rate, offering
+  free and affordable options worldwide. This lowers the cost of entry for AI, accelerates adoption across
+  diverse sectors, and pressures competitors with both pricing and feature advantages.
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -26,7 +24,7 @@ summary: ChatGPT Ads reaches $1 billion in annualized revenue run rate and expan
   broader access to AI through free and affordable options.
 first_seen: '2026-08-31T04:00:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: market_context
 sources:
 - officialfeeds
 - newssearch

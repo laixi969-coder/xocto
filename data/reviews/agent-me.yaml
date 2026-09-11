@@ -1,0 +1,45 @@
+- id: req-initial-agent-me-2026-09-11
+  project_slug: agent-me
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它解决个人经验无法复用、每次都要重讲的问题，痛点真实；但公开材料只描述提炼知识，未说明分身回答的准确性与人工确认环节，价值交付不确定。
+    evidence_ids:
+    - ev-077f122162f1c585
+    - ev-358c4103ac43a447
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星数从 160 增至 179，属于关注度信号，没有用户评价或采用证据说明有人真的用它替代答疑。
+    evidence_ids:
+    - ev-358c4103ac43a447
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是个人订阅或企业定制，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-077f122162f1c585
+  - gate: truth
+    status: insufficient
+    reason: 分身贴近个人判断这一目标成立，但公开材料未说明安全边界、错误回答如何处理，承诺能否确定性交付无法核对。
+    evidence_ids:
+    - ev-358c4103ac43a447
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告分身回答准确度或实际用于对外答疑的记录。
+  market: ''
+  job: 独立顾问或专业人士在需要反复向客户、同事解释自己的判断依据时，整理自己的笔记、历史决策和问答记录，希望得到一个能替自己按本人立场作答的分身。
+  job_en: Independent consultants or professionals who repeatedly explain their reasoning to clients and
+    colleagues organize their notes, past decisions and Q&A records, hoping for a twin that answers in
+    their own stance.
+  pain: 个人经验散落在笔记、聊天和记忆里，每次被问都要重新讲一遍，无法复用；但公开材料只说明它能提炼知识，没有说明提炼后回答的准确度由谁负责。
+  pain_en: Personal experience is scattered across notes, chats and memory, and must be re-explained every
+    time; yet the public material only says it distills knowledge, without saying who is accountable for
+    the accuracy of the twin's answers.
+  current_alternative: 旧做法是自己写文档、做 FAQ 或录课程，把经验一次性讲清楚，之后靠人肉答疑。
+  current_alternative_en: The old way is writing docs, building an FAQ or recording a course to explain
+    experience once, then answering follow-up questions manually.
+  usage_reason: 推断：相比写文档，它把零散笔记直接变成可对话的分身，省去整理成文这一步；但公开材料没有用户反馈或案例说明分身回答是否可信，因此尚不能确认专业人士会把它留在日常答疑里。
+  usage_reason_en: 'Inference: unlike writing docs, it turns scattered notes directly into a conversational
+    twin, skipping the writing step; but no user feedback or case shows the twin''s answers are trustworthy,
+    so it is unconfirmed that professionals keep it in daily Q&A.'

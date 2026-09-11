@@ -1,6 +1,6 @@
 ---
 slug: nvidia-faa-join-palantirs-ai-expansion-as-cyber-push-takes-o
-name: Nvidia, FAA Join Palantir’s AI Expansion as Cyber Push Takes Off
+name: Palantir
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oMmxfaWI3WVc1
 summary: Nvidia, FAA Join Palantir’s AI Expansion as Cyber Push Takes Off TradingView
 first_seen: '2026-09-10T10:06:22Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Nvidia, FAA Join Palantir’s AI Expansion as Cyber Push Takes Off
+# Palantir
 
 Nvidia, FAA Join Palantir’s AI Expansion as Cyber Push Takes Off TradingView
 

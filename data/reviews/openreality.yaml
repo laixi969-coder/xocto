@@ -1,0 +1,45 @@
+- id: req-initial-openreality-2026-09-11
+  project_slug: openreality
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决手机视频转可查询三维场景的需求，痛点是不用激光扫描也能让 AI 理解空间；买方与付费路径公开材料未说明。
+    evidence_ids:
+    - ev-7cd524f7fbc4a5f1
+    - ev-b2a97c629e47c0e3
+  - gate: consensus
+    status: insufficient
+    reason: 仅有开源仓库星标从 52 增至 56，缺少用户评价、客户案例或行业采用证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-7cd524f7fbc4a5f1
+    - ev-b2a97c629e47c0e3
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，钱可能来自企业自托管部署或服务，属判断而非已验证事实。
+    evidence_ids:
+    - ev-7cd524f7fbc4a5f1
+  - gate: truth
+    status: insufficient
+    reason: 重建精度、自托管部署成本与人工复核边界均无公开材料，交付确定性尚不能核对。
+    evidence_ids:
+    - ev-7cd524f7fbc4a5f1
+    - ev-b2a97c629e47c0e3
+  next_validation: 收集该仓库的部署文档与 issue/discussion，确认手机视频重建的实际精度、自托管成本与是否有企业用户报告使用结果。
+  market: ''
+  job: 空间数字化团队或开发者拿到一段手机拍摄的现场视频，需要把它变成可被 AI 代理查询的三维场景，用于后续的空间问答或标注任务。
+  job_en: A spatial digitisation team or developer takes a phone video of a site and needs it turned into
+    a 3D scene that AI agents can query for later spatial Q&A or annotation.
+  pain: 过去要得到可查询的三维场景，需要激光扫描仪、专业重建软件和人工建模，设备贵、周期长，普通团队拿不到。
+  pain_en: Getting a queryable 3D scene used to require laser scanners, professional reconstruction software
+    and manual modelling, which is expensive, slow and out of reach for small teams.
+  current_alternative: 用激光扫描加专业建模外包，或干脆放弃三维化，只靠照片和文字描述沟通空间。
+  current_alternative_en: Outsourcing laser scanning plus manual modelling, or skipping 3D entirely and
+    communicating space through photos and text.
+  usage_reason: 推断：它把重建与查询接口放进同一个可自托管仓库，开发者不必自己拼 SLAM 与代理协议，就能让 Claude、Codex、Cursor 直接读取场景，因此做空间类 AI 应用的团队在需要低成本三维输入时会先试它。
+  usage_reason_en: 'Inference: it puts reconstruction and the query interface in one self-hostable repo,
+    so developers need not stitch SLAM to an agent protocol themselves and Claude, Codex or Cursor can
+    read the scene directly; teams building spatial AI apps would try it first for cheap 3D input.'

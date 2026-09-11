@@ -1,0 +1,39 @@
+- id: req-initial-desert-ant-labs-2026-09-11
+  project_slug: desert-ant-labs
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 连解决什么需求、什么痛点都写不出来，只有模型品类描述，价值关不成立。
+    evidence_ids:
+    - ev-42093b38e1dde7c3
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，无采用或关注证据可判断共识。
+    evidence_ids:
+    - ev-42093b38e1dde7c3
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式无从判断。
+    evidence_ids:
+    - ev-42093b38e1dde7c3
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付确定性无法核验。
+    evidence_ids:
+    - ev-42093b38e1dde7c3
+  next_validation: 收集 Desert Ant Labs 官方产品页，确认其服务的具体场景、输入材料与交付形式。
+  market: ''
+  job: 公开材料未说明具体使用者与工作节点，无法写出谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or work step, so it is impossible to state who handles
+    what material in what situation to complete what task.
+  pain: 未提供任何用户痛点或旧做法的描述。
+  pain_en: No user pain point or prior practice is described.
+  current_alternative: 未提供可识别的现有替代方式。
+  current_alternative_en: No identifiable current alternative is provided.
+  usage_reason: 无法判断：材料只有一句模型品类描述，缺少场景、输入与交付，无法解释用户为何选择它。
+  usage_reason_en: 'Cannot be judged: the material is a single sentence about model categories, lacking
+    scenario, input and deliverable, so there is no way to explain why a user would choose it.'

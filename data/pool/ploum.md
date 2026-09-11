@@ -21,7 +21,7 @@ canonical_url: https://ploum.net/2026-09-09-ai_policy.html
 summary: I Don't Want to Interact with Stochastic Parrots
 first_seen: '2026-09-09T18:33:28Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTFBuc2NFMXhacnZX
 summary: 麻将胡了pg入口网页版发布新一代AI推理服务器助力行业本地部署与安全可控- 体坛网_体坛+ 体坛
 first_seen: '2026-09-09T07:39:31Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

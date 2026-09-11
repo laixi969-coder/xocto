@@ -1,0 +1,45 @@
+- id: req-initial-sitehunter-2026-09-11
+  project_slug: sitehunter
+  level: initial
+  reviewed_at: '2026-09-11T00:10:29Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是独立开发者找选题时信息分散、候选站无流量可验证的痛点，旧行为是手工翻平台和逐个查词根，痛点真实且高频；但公开材料只有作者自述，尚无外部用户采用证据。
+    evidence_ids:
+    - ev-6f1f8e5f98773dc0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条社区发布帖和两条评论，没有独立用户反馈或持续使用记录，无法判断开发者是否已把它纳入日常选题流程。
+    evidence_ids:
+    - ev-6f1f8e5f98773dc0
+  - gate: model
+    status: insufficient
+    reason: 目前以分享免费体验换取使用，未披露定价、付费用户或按榜单/API 计费的路径；买方可能是独立开发者个人或小团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-6f1f8e5f98773dc0
+  - gate: truth
+    status: insufficient
+    reason: 抓取范围、数据口径和榜单是否真能指向可赚钱方向均未公开，作者本人也在帖中询问是否存在真实需求，交付确定性尚未核验。
+    evidence_ids:
+    - ev-6f1f8e5f98773dc0
+  next_validation: 收集 Sitehunter 官方页面或公开更新中关于数据来源、抓取频率与榜单口径的说明，以及是否出现付费或 API 计费页面。
+  market: ''
+  job: 独立开发者或小团队增长负责人在准备开新项目时，需要处理各推广平台的新品列表、网站流量数据和 Google Trends 词根数据，从中挑出值得复刻的选题和可提交的外链目录。
+  job_en: An indie developer or small-team growth owner preparing a new project must work through launch-platform
+    new-product lists, site traffic data and Google Trends keyword roots to pick ideas worth cloning and
+    directories worth submitting to.
+  pain: 手动逐个平台翻找效率低，找到的站往往没有流量，无法判断方向能不能赚钱；词根查询要一个个手动跑，机会窗口在翻找过程中就过去了。
+  pain_en: Manual platform-by-platform browsing is slow, the sites found often have no traffic so the
+    direction cannot be judged, and keyword roots must be queried one by one, so the opportunity window
+    closes while searching.
+  current_alternative: 靠个人经验在推广平台、Similarweb 类工具和 Google Trends 之间来回切换，用表格手工记录候选网站和词根。
+  current_alternative_en: Switching by hand between launch platforms, Similarweb-style tools and Google
+    Trends, logging candidate sites and keyword roots in a spreadsheet.
+  usage_reason: 推断：相比手工逐个平台翻找，它把新站发布、流量变化和词根暴涨合并成按增长排序的持续榜单，省掉的是“先发现候选”这一步，让开发者直接进入判断和复刻环节；因此正在找下一个选题、又缺少稳定信息源的独立开发者会先试用它。
+  usage_reason_en: 'Inference: versus manual platform browsing, it merges new launches, traffic changes
+    and keyword spikes into continuously ranked growth lists, removing the ''find candidates first'' step
+    so developers go straight to judging and cloning; hence indie developers seeking a next niche without
+    a stable information source would try it first.'

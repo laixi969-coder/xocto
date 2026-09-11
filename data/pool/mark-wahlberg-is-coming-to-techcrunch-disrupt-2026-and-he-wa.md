@@ -22,7 +22,7 @@ summary: Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entre
   wellness and building businesses.
 first_seen: '2026-09-10T21:35:00Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

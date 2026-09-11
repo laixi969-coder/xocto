@@ -1,6 +1,6 @@
 ---
 slug: ai潮玩品牌iptag完成千万级战略融资-策源高都基金独家投资
-name: AI潮玩品牌IPTAG完成千万级战略融资 策源高都基金独家投资
+name: IPTAG
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiTkFVX3lxTE54YW1CN2FNc3JF
 summary: AI潮玩品牌IPTAG完成千万级战略融资 策源高都基金独家投资 观点网
 first_seen: '2026-09-10T13:08:36Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI潮玩品牌IPTAG完成千万级战略融资 策源高都基金独家投资
+# IPTAG
 
 AI潮玩品牌IPTAG完成千万级战略融资 策源高都基金独家投资 观点网
 

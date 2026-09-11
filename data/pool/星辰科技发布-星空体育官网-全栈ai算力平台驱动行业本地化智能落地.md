@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pUC10ZWJ4M2dD
 summary: 星辰科技发布 星空体育官网 全栈AI算力平台，驱动行业本地化智能落地 体坛
 first_seen: '2026-09-09T08:13:11Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://arxiv.org/abs/2609.09153
 summary: Self-Evolving Execution Structures for LLM Agents
 first_seen: '2026-09-09T17:13:52Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

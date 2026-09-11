@@ -1,0 +1,43 @@
+- id: req-initial-对话极壳创始人孙宽年出货-3-万台后外骨骼全班第一的成长和焦虑-2026-09-11
+  project_slug: 对话极壳创始人孙宽年出货-3-万台后外骨骼全班第一的成长和焦虑
+  level: initial
+  reviewed_at: '2026-09-11T00:10:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决长距离行走和爬坡中腿部负担过重的问题，痛点对老年人和体力较弱者刚性，替代方案只有登山杖和护膝，结构上成立。
+    evidence_ids:
+    - ev-0f2f57411a9b8dec
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有出货量和展会亮相，没有用户评价、复购或持续佩戴证据，无法判断是否形成稳定使用习惯。
+    evidence_ids:
+    - ev-0f2f57411a9b8dec
+  - gate: model
+    status: insufficient
+    reason: 未披露 Halo 定价与销售渠道，买方可能是个人消费者或机构采购，付费路径尚不明确，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-0f2f57411a9b8dec
+  - gate: truth
+    status: insufficient
+    reason: 助力效果、续航、安全边界和适用人群均未在材料中给出可核对数据，交付确定性无法确认。
+    evidence_ids:
+    - ev-0f2f57411a9b8dec
+  next_validation: 收集极壳官方 Halo 产品页或定价页，核验助力参数、续航、适用人群与销售渠道。
+  market: ''
+  job: 户外徒步者和行动不便的老年人在长距离行走或爬坡时，需要借助可穿戴设备减轻腿部负担，完成原本吃力或走不完的路线。
+  job_en: Hikers and older adults with limited mobility need wearable assistance to reduce leg strain
+    on long walks or climbs, completing routes that would otherwise be exhausting or impossible.
+  pain: 长距离行走和爬坡对腿部力量和耐力要求高，老年人和体力较弱者容易中途放弃或受伤，现有护膝、登山杖只能提供有限支撑。
+  pain_en: Long walks and climbs demand leg strength and endurance; older or weaker users often give up
+    midway or risk injury, while knee braces and trekking poles offer only limited support.
+  current_alternative: 目前主要靠登山杖、护膝、减重背包或直接放弃行程，也有人选择电动代步工具，但都难以在行走过程中持续分担腿部负荷。
+  current_alternative_en: Today people rely on trekking poles, knee braces, lighter packs or simply abandoning
+    the trip; some use electric mobility devices, but none continuously share leg load while walking.
+  usage_reason: 相比登山杖和护膝只在外部提供有限支撑，外骨骼在髋膝关节处直接输出助力，减少上坡和长距离行走中每一步的体力消耗，因此体力较弱或希望延长行程的徒步者、老年人会在长线徒步或日常行走场景中选择它；这是基于产品能力的推断，尚无公开留存或复购证据。
+  usage_reason_en: Unlike trekking poles and braces that only support externally, the exoskeleton outputs
+    assistance directly at the hip and knee, cutting the effort of every step on climbs and long walks,
+    so weaker hikers and older adults may choose it for long trails or daily walking; this is inference
+    from product capability, with no public retention or repeat-purchase evidence.

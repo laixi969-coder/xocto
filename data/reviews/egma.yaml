@@ -1,0 +1,41 @@
+- id: req-initial-egma-2026-09-11
+  project_slug: egma
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决语音智能体上线前无法低成本重复测试多轮通话的问题，旧做法是人工拨测，不用会在线上暴露错误，价值结构成立。
+    evidence_ids:
+    - ev-baa4ca392fa5db5f
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 12 点、1 条评论，属于早期关注，不能证明团队已把它纳入交付流程。
+    evidence_ids:
+    - ev-baa4ca392fa5db5f
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是自建语音智能体的企业或外包团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-baa4ca392fa5db5f
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明仿真通话与真实通话的偏差程度，也未给出测试通过与否的判定标准，交付确定性不明。
+    evidence_ids:
+    - ev-baa4ca392fa5db5f
+  next_validation: 收集该仓库文档与 issue 中关于测试用例定义、仿真与真实通话偏差及结果报告的公开内容。
+  market: ''
+  job: 语音智能体开发者在版本上线前，需要模拟大量真实通话场景，检验智能体在多轮对话中的应答是否正确。
+  job_en: A voice agent developer needs to simulate many real call scenarios before a release to check
+    whether the agent responds correctly across multi-turn conversations.
+  pain: 真人拨测成本高、不可重复，线上出错才发现问题，回归测试难以覆盖多轮对话分支。
+  pain_en: Live human test calls are costly and not repeatable, problems surface only in production, and
+    regression testing struggles to cover multi-turn branches.
+  current_alternative: 靠人工拨测或少量脚本回放，逐条记录问题。
+  current_alternative_en: Manual test calls or a few scripted replays, with problems logged one by one.
+  usage_reason: 推断：它用仿真通话批量跑场景并输出可复现结果，省去人工拨测和逐条记录这一步，因此在上线前需要回归验证的语音智能体团队会尝试；公开材料未提供客户案例或持续使用证据。
+  usage_reason_en: 'Inference: it runs scenarios in simulated calls in batches and outputs reproducible
+    results, removing manual test calls and item-by-item logging, so voice agent teams needing pre-launch
+    regression would try it; no customer cases or continued-use evidence are provided.'

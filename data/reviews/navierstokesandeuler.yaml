@@ -1,0 +1,48 @@
+- id: req-initial-navierstokesandeuler-2026-09-11
+  project_slug: navierstokesandeuler
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是证明推导可被机器复核的需求，痛点在于人工核验链条长且易错；但公开材料未说明此前由谁、用什么方式核验，旧行为与不采用的后果都写不出来。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-5fdc7a8ab2a2f13f
+  - gate: consensus
+    status: insufficient
+    reason: 1,715 星与 165 次 fork 只说明开源社区关注度，没有用户反馈、采用案例或重复使用证据，无法判断是否形成共识。
+    evidence_ids:
+    - ev-5fdc7a8ab2a2f13f
+  - gate: model
+    status: insufficient
+    reason: 仓库为公开开源项目，未见定价、付费路径或机构采购信息；谁付钱、按什么计价均无公开材料支持。
+    evidence_ids:
+    - ev-f4c0fef408881008
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料确认证书覆盖范围、与配套论文的对应关系，以及检查结果是否被研究者实际采信，交付确定性未核验。
+    evidence_ids:
+    - ev-f4c0fef408881008
+    - ev-5fdc7a8ab2a2f13f
+  next_validation: 收集该仓库的 README、issue 或 discussion，确认 Lean 证书覆盖哪些具体结果、与哪篇论文对应，以及是否有研究者公开说明将其用于核验。
+  market: ''
+  job: 数学研究者和形式化验证工程师在核验偏微分方程与流体力学相关证明时，处理随结果发布的 Lean 证书文件，要完成的任务是让证明助手逐条检查推导是否成立。
+  job_en: Mathematics researchers and formal verification engineers verifying proofs in partial differential
+    equations and fluid mechanics work with the Lean certificate files released alongside the results,
+    aiming to have the proof assistant check each derivation step.
+  pain: 这类证明的推导链条长、人工复核成本高，且论文中的关键步骤容易在转写和引用中出错；公开材料未说明此前这些证明由谁、用什么方式核验。
+  pain_en: Such proofs have long derivation chains and are costly to check by hand, and key steps in papers
+    are easily corrupted in transcription and citation; the public material does not say who previously
+    verified these proofs or how.
+  current_alternative: 公开材料未提供旧做法，只能推断此前依赖同行人工阅读论文与附录，缺少可机器复核的证书。
+  current_alternative_en: The public material provides no prior practice; it can only be inferred that
+    peer review relied on humans reading papers and appendices without machine-checkable certificates.
+  usage_reason: 推断：相较人工逐行阅读证明，该仓库让 Lean 直接接收证书文件并机械检查每一步，把“这一步是否成立”从人工判断变成可复核结果，因此需要为推导正确性负责的研究者会在核验阶段使用它；但公开材料未显示任何研究者已将其纳入日常工作流。
+  usage_reason_en: 'Inference: compared with reading proofs line by line, this repository lets Lean ingest
+    the certificate files and mechanically check each step, turning ''does this step hold'' from human
+    judgement into a checkable result, so researchers accountable for derivation correctness would use
+    it at the verification stage; however, the public material shows no researcher has yet put it into
+    a daily workflow.'

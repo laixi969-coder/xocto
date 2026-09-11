@@ -1,0 +1,44 @@
+- id: req-initial-ai-video-ad-studio-2026-09-11
+  project_slug: ai-video-ad-studio
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决视频广告素材制作的需求，但公开材料未说明具体痛点、输入与交付，连旧流程都写不出，价值关证据不足。
+    evidence_ids:
+    - ev-c644718256779914
+    - ev-5eca27b1db6e8d46
+  - gate: consensus
+    status: insufficient
+    reason: 仅有96个星标与3次复刻，属关注度信号，无用户评价、案例或采用证据，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-5eca27b1db6e8d46
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断钱来自 to C、to B 还是 to VC，模式关未进入实质判断。
+    evidence_ids:
+    - ev-c644718256779914
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否贴近视频广告制作的第一性目标，也未说明人工确认边界与交付确定性。
+    evidence_ids:
+    - ev-5eca27b1db6e8d46
+  next_validation: 收集该仓库的 README 与示例输出，确认它实际接收的素材、执行的动作与交付的成片形态。
+  market: ''
+  job: 营销或内容人员需要为投放准备视频广告素材时，处理脚本、画面与配音等材料，产出一条或多条可投放的成片。
+  job_en: Marketing or content staff preparing video ad creatives handle scripts, footage and voiceover
+    to produce one or more campaign-ready videos.
+  pain: 公开材料未说明它解决的具体痛点，只能推断视频广告素材的多版本制作与反复修改耗时；缺少用户抱怨或案例支持。
+  pain_en: The public material does not state the specific pain it addresses; one can only infer that
+    producing and repeatedly revising multiple versions of video ad creatives is time-consuming, with
+    no user complaints or cases to support this.
+  current_alternative: 现有替代方式可能是人工剪辑软件配合通用生成工具，但候选材料未提供任何关于旧流程的描述。
+  current_alternative_en: The current alternative may be manual editing software combined with general-purpose
+    generation tools, but the candidate material provides no description of the old workflow.
+  usage_reason: 无法判断：材料未说明 AI 接收什么、执行哪一步、交付什么，因此无法解释它相较旧做法减少了哪一步负担，也无法说明哪类用户会在什么情况下选择它。
+  usage_reason_en: 'Cannot be judged: the material does not say what the AI receives, which step it performs,
+    or what it delivers, so it is impossible to explain which burden it removes versus the old approach
+    or which users would choose it under what circumstances.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Zdk5aaGJJY0hZ
 summary: AI Clones of Musk, Altman and Zuckerberg Turned on Each Other BeInCrypto
 first_seen: '2026-09-10T18:49:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

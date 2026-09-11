@@ -1,0 +1,42 @@
+- id: req-initial-swiftcruit-2026-09-11
+  project_slug: swiftcruit
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决技术招聘中按岗位出题慢、题库不匹配的问题，旧做法是人工翻题库或临时出题，痛点具体。
+    evidence_ids:
+    - ev-223d53f375f8b5b2
+  - gate: consensus
+    status: insufficient
+    reason: 仅有少量社区投票与一条评论，没有招聘团队实际采用或复用的公开证据。
+    evidence_ids:
+    - ev-223d53f375f8b5b2
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，招聘方付费是判断而非已验证事实。
+    evidence_ids:
+    - ev-223d53f375f8b5b2
+  - gate: truth
+    status: insufficient
+    reason: 生成题目是否贴合真实岗位能力、是否引入偏见，公开材料未给出评估或人工复核机制。
+    evidence_ids:
+    - ev-223d53f375f8b5b2
+  next_validation: 收集该产品的官方定价页与客户案例，确认招聘方是否按岗位或场次付费以及题目是否经过人工复核。
+  market: ''
+  job: 技术招聘官或工程面试官，在为一个具体岗位安排面试前，需要按技能点准备评估题目并形成可用的面试材料。
+  job_en: A technical recruiter or engineering interviewer, before scheduling interviews for a specific
+    role, needs to prepare assessment questions by skill area and produce usable interview material.
+  pain: 手写题目耗时且质量不稳定，题库往往与岗位不匹配，出题慢会拖住整个招聘节奏。
+  pain_en: Writing questions by hand is slow and uneven, question banks often mismatch the role, and slow
+    question writing holds up the whole hiring pipeline.
+  current_alternative: 翻现成题库、让面试官临时出题，或直接跳过结构化评估。
+  current_alternative_en: Digging through existing question banks, asking interviewers to improvise, or
+    skipping structured assessment altogether.
+  usage_reason: 相较翻题库，它按岗位与技能要求直接生成题目，省掉筛选和改写题库的那一步；推断招聘量不大、没有专职出题人的团队会在临时开新岗位时选择它。
+  usage_reason_en: Compared with searching question banks, it generates questions directly from role and
+    skill requirements, removing the step of filtering and rewriting a bank; the inference is that teams
+    with modest hiring volume and no dedicated question writer pick it when opening a new role.

@@ -1,0 +1,39 @@
+- id: req-initial-profound-2026-09-11
+  project_slug: profound
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 连它解决什么需求、什么痛点都写不出来，无法还原用户任务与旧流程。
+    evidence_ids:
+    - ev-001b70e56f9d5f91
+  - gate: consensus
+    status: insufficient
+    reason: 仅有一条名单事实，没有采用、评价或客户证据。
+    evidence_ids:
+    - ev-001b70e56f9d5f91
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式，无法判断商业模式。
+    evidence_ids:
+    - ev-001b70e56f9d5f91
+  - gate: truth
+    status: insufficient
+    reason: 无交付说明，无法核对承诺能否确定性发生。
+    evidence_ids:
+    - ev-001b70e56f9d5f91
+  next_validation: 抓取 Profound 官方产品页与定价页，确认其具体工作流、买方与收费方式。
+  market: ''
+  job: 公开材料未说明谁在什么情况下使用它、处理什么材料、要完成什么任务。
+  job_en: Public material does not say who uses it, in what situation, with what material, to finish what
+    task.
+  pain: 材料未提供任何痛点、旧流程或用户抱怨，无法判断问题是否存在。
+  pain_en: No pain point, old workflow or user complaint is provided, so the problem cannot be established.
+  current_alternative: 材料未说明现有替代方式。
+  current_alternative_en: No current alternative is described.
+  usage_reason: 无法判断：没有功能、流程或对比信息，不能给出用户为何选择它的理由。
+  usage_reason_en: 'Cannot be judged: with no feature, workflow or comparison information, there is no
+    reason to state why users would choose it.'

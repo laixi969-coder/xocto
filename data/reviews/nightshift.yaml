@@ -1,0 +1,42 @@
+- id: req-initial-nightshift-2026-09-11
+  project_slug: nightshift
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决代码维护任务积压的问题，痛点结构成立，但公开材料只有一句口号，无法确认输入、动作与交付，属于工作流推理而非事实。
+    evidence_ids:
+    - ev-ab13dee40bf9fe66
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度很低，且没有用户反馈或案例说明谁在什么场景下采用，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-ab13dee40bf9fe66
+  - gate: model
+    status: insufficient
+    reason: 开源项目，未见定价页、付费路径或企业采购信息，钱从哪来无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ab13dee40bf9fe66
+  - gate: truth
+    status: insufficient
+    reason: 无法核对改动是否贴近维护任务的第一性目标，也没有人工复核与安全边界的说明，交付确定性未知。
+    evidence_ids:
+    - ev-ab13dee40bf9fe66
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认它实际接收的输入、产出的改动形式以及人工复核方式。
+  market: ''
+  job: 后端工程师在一天工作结束后，把代码库交给工具，希望夜间完成一批待处理的代码改动并拿到可复核的结果。
+  job_en: A backend engineer hands over a repository after the workday, expecting a batch of pending code
+    changes to be done overnight and returned in a reviewable form.
+  pain: 待处理的代码维护任务（依赖升级、测试补全、小修小补）长期积压，白天没有整块时间处理。
+  pain_en: Pending code maintenance tasks such as dependency upgrades, test completion and small fixes
+    pile up because there is no uninterrupted daytime block for them.
+  current_alternative: 工程师自己排期手工修改，或使用现有的代码助手在会话中逐条提出并接受改动。
+  current_alternative_en: Engineers schedule manual edits themselves, or use existing coding assistants
+    to propose and accept changes one by one in a session.
+  usage_reason: 推断：若它能在无人值守时段批量产出可复核的改动，工程师可省去逐条发起和等待的步骤；但公开材料未说明输入范围、验收方式和人工复核边界，因此尚不能确认用户会因此选择它。
+  usage_reason_en: 'Inference: if it can batch-produce reviewable changes during unattended hours, engineers
+    would skip initiating and waiting on each change; however public material does not describe input
+    scope, acceptance or human review boundaries, so user choice cannot yet be confirmed.'

@@ -153,3 +153,41 @@
   usage_reason: 开源项目在开发者社区获得少量关注，但尚无采用或付费证据。
   usage_reason_en: The open-source project has gained some attention in the developer community, but no
     adoption or payment evidence yet.
+- id: req-initial-conduct-2026-09-11
+  project_slug: conduct
+  level: initial
+  reviewed_at: '2026-09-11T00:10:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决模型工具调用越权与错参的问题，痛点刚性且不处理的后果不可逆；买方是谁公开材料未说明。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论的少量热度，没有客户案例或团队采用证据，无法判断共识是否形成。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 开源库本身未见定价或付费路径，托管与审计收费只是推断，不是已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 拦截规则能否覆盖真实工具调用场景、误拦与漏拦如何，缺少可复现实测与部署文档。
+    evidence_ids: []
+  next_validation: 收集该仓库的 issue、discussion 与部署文档，确认拦截规则的实际覆盖范围与误拦处理方式。
+  market: ''
+  job: 开发团队在把大模型接入内部系统或第三方工具时，需要在每次工具调用真正执行前，对请求参数和权限做一次校验，决定放行还是阻断。
+  job_en: When wiring models into internal systems or third-party tools, engineering teams need each tool
+    call checked for parameters and permissions before it executes, to decide allow or block.
+  pain: 模型生成的工具调用可能越权或带错参数，一旦直接执行就会改动真实数据；事后翻日志才发现，损失已经发生。
+  pain_en: Model-generated tool calls can exceed permissions or carry wrong parameters; once executed
+    they change real data, and reading logs afterwards is too late.
+  current_alternative: 目前多靠开发者手写 if 判断、在提示词里叮嘱模型，或干脆人工复核关键调用。
+  current_alternative_en: Today teams mostly hand-write if-checks, instruct the model in the prompt, or
+    manually review critical calls.
+  usage_reason: 相较手写校验散落在各处，它把校验集中到调用入口，一次配置即可对所有工具调用生效，减少逐处改代码和漏判；受监管行业或调用高频的团队更可能选它（推断）。
+  usage_reason_en: Compared with scattered hand-written checks, it centralises validation at the call
+    entry point so one configuration covers all tool calls, cutting per-site code edits and missed cases;
+    teams in regulated or high-volume settings are more likely to adopt it (inference).

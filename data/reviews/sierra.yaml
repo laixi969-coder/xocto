@@ -1,0 +1,42 @@
+- id: req-initial-sierra-2026-09-11
+  project_slug: sierra
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决客服对话处理这一需求，但材料未给出痛点、旧流程与交付结果，价值结构无法还原。
+    evidence_ids:
+    - ev-ed9bf66bb8d854f9
+  - gate: consensus
+    status: insufficient
+    reason: 仅有入选名单这一关注度信号，没有用户采用或场景共识证据。
+    evidence_ids:
+    - ev-ed9bf66bb8d854f9
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或付费路径，无法判断钱从哪来。
+    evidence_ids:
+    - ev-ed9bf66bb8d854f9
+  - gate: truth
+    status: insufficient
+    reason: 无法核对应答准确率、人工转交规则与交付确定性。
+    evidence_ids:
+    - ev-ed9bf66bb8d854f9
+  next_validation: 收集 Sierra 官方客户案例或文档中关于客服对话处理范围、人工转交规则与计费方式的公开说明。
+  market: ''
+  job: 企业客服人员面对顾客通过在线渠道提出的退换货、账单或账户问题，需要判断意图、给出答复并完成处理。
+  job_en: Enterprise customer service staff handle return, billing or account issues raised by customers
+    through online channels, needing to identify intent, give an answer and complete handling.
+  pain: 本次材料未描述具体痛点，只能推断客服对话量大、重复问题占用人力；缺少用户抱怨或案例支持。
+  pain_en: This material describes no specific pain point; one can only infer high conversation volume
+    and repetitive questions consuming staff time, with no user complaints or cases to support it.
+  current_alternative: 公开材料未说明现有替代方式，通常可推断为人工客服团队加工单或知识库系统。
+  current_alternative_en: The public material does not state the current alternative; it can generally
+    be inferred as a human agent team plus ticketing or knowledge base systems.
+  usage_reason: 材料只说明它把 AI agent 用于客户服务这一岗位，未给出相较人工客服减少了哪一步负担或改善了哪项可核对结果，因此无法解释用户为何选择它。
+  usage_reason_en: The material only states that it applies AI agents to the customer service job, without
+    showing which step it removes versus human agents or which checkable result it improves, so it cannot
+    explain why users would choose it.

@@ -1,0 +1,45 @@
+- id: req-initial-agent-memory-2026-09-11
+  project_slug: agent-memory
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨编码代理切换时上下文丢失、需重复交代项目背景的痛点，旧做法是手写说明文件或复制粘贴，不解决的后果是重复劳动与约束遗漏。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+    - ev-0a36bfbd38f04642
+  - gate: consensus
+    status: insufficient
+    reason: 星数从 739 增至 840、49 个 fork 属关注度信号，没有用户评价或案例说明它被持续用于日常开发。
+    evidence_ids:
+    - ev-0a36bfbd38f04642
+  - gate: model
+    status: insufficient
+    reason: 开源且无需 API key，未披露定价或付费路径，买方可能是个人开发者或需要私有部署的团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-58fdf01e5d1b0009
+  - gate: truth
+    status: insufficient
+    reason: 以 Markdown 为唯一事实来源、本地检索贴近开发者对可控记忆的第一性目标，但空闲整理层的实际效果与错误记忆的处理边界未在公开材料中说明。
+    evidence_ids:
+    - ev-0a36bfbd38f04642
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有开发者报告跨 Claude Code 与 Codex 的上下文续接实际生效。
+  market: ''
+  job: 同时使用 Claude Code 和 Codex 的开发者，在跨工具继续同一项目时，处理此前对话、决策和代码上下文，需要让新会话接上旧结论而不必重新交代背景。
+  job_en: Developers using both Claude Code and Codex who, when continuing the same project across tools,
+    handle prior conversations, decisions and code context and need a new session to pick up old conclusions
+    without re-explaining.
+  pain: 每个编码代理的上下文各自封闭，换工具就要重新讲一遍项目背景和已定决策，重复交代既费时又容易漏掉关键约束。
+  pain_en: Each coding agent keeps its context closed, so switching tools means re-explaining project
+    background and settled decisions, which is slow and easily drops key constraints.
+  current_alternative: 旧做法是手动维护 CLAUDE.md 之类的说明文件，或把历史对话复制粘贴进新会话。
+  current_alternative_en: The old way is manually maintaining files like CLAUDE.md, or copy-pasting past
+    conversations into a new session.
+  usage_reason: 推断：相比手写说明文件，它把对话与决策自动落成 Markdown 并在本地检索，省去每次换工具重新整理背景这一步，因此频繁跨工具续接同一项目的开发者会选它；但公开材料没有留存或复购证据，尚不能确认已被长期留在工作流里。
+  usage_reason_en: 'Inference: unlike hand-written context files, it automatically writes conversations
+    and decisions to Markdown and retrieves them locally, removing the step of re-organizing background
+    on every tool switch, so developers who frequently continue one project across tools would choose
+    it; no retention or repeat-use evidence yet confirms it stays in the workflow.'

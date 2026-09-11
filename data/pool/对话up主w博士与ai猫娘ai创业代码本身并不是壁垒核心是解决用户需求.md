@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEFQbHpMX3ZI
 summary: 对话UP主W博士与AI猫娘：AI创业代码本身并不是壁垒，核心是解决用户需求 finance.sina.cn
 first_seen: '2026-09-09T04:07:30Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

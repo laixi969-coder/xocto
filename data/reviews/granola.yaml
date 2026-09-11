@@ -1,0 +1,41 @@
+- id: req-initial-granola-2026-09-11
+  project_slug: granola
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决什么需求、什么痛点都写不出来，只有“转向企业知识层”这一方向描述，价值关无法成立。
+    evidence_ids:
+    - ev-bf4a15625f0fcb7c
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，入选名单只说明机构关注，不构成企业采用共识。
+    evidence_ids:
+    - ev-bf4a15625f0fcb7c
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，企业买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-bf4a15625f0fcb7c
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从判断。
+    evidence_ids:
+    - ev-bf4a15625f0fcb7c
+  next_validation: 收集 Granola 官方产品页或文档，确认其企业知识层的输入、检索方式与交付物，以及是否公开定价。
+  market: ''
+  job: 企业员工在开完客户或内部会议后，需要处理会议录音与记录，把结论沉淀为团队可查的知识。
+  job_en: After a client or internal meeting, an employee handles the recording and notes and turns conclusions
+    into knowledge the team can look up.
+  pain: 候选材料未说明具体痛点，只能推断会议结论散落在个人笔记中难以复用，属于推断。
+  pain_en: The candidate material states no specific pain; conclusions scattered in personal notes being
+    hard to reuse is an inference only.
+  current_alternative: 候选材料未提供现有替代做法，无法确认此前由谁、用什么方式整理会议知识。
+  current_alternative_en: The candidate material provides no current alternative, so who organized meeting
+    knowledge before and how cannot be confirmed.
+  usage_reason: 缺少转向后的具体功能、输入输出与定价信息，无法说明它相较旧做法减少了哪一步负担，因此无法给出使用理由。
+  usage_reason_en: With no concrete post-pivot capability, input/output or pricing information, there
+    is no way to say which step it removes versus the old approach, so no usage reason can be given.

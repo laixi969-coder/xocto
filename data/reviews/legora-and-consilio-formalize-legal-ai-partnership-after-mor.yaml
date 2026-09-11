@@ -1,0 +1,45 @@
+- id: req-initial-legora-and-consilio-formalize-legal-ai-partnership-after-mor-2026-09-11
+  project_slug: legora-and-consilio-formalize-legal-ai-partnership-after-mor
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在成批合同与卷宗中快速定位条款、形成可复核初稿的需求，痛点是人工通读耗时且易漏项，旧替代行为明确存在。
+    evidence_ids:
+    - ev-9b2bb45775d1ae88
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明合作确立与一年多客户部署，未给出具体客户名单、使用频次或留存数据，采用广度无法核验。
+    evidence_ids:
+    - ev-9b2bb45775d1ae88
+  - gate: model
+    status: insufficient
+    reason: 买方应为律所或企业法务部门，但公开材料未披露定价、计费方式或采购路径，付费模式属推断。
+    evidence_ids:
+    - ev-9b2bb45775d1ae88
+  - gate: truth
+    status: insufficient
+    reason: 法律场景对准确性和可追溯性要求高，公开材料未说明人工复核边界、引用核验机制与错误责任划分。
+    evidence_ids:
+    - ev-9b2bb45775d1ae88
+  next_validation: 收集 Legora 官方定价页或 Consilio 公布的客户案例与部署文档，核验计费方式与人工复核边界。
+  market: ''
+  job: 律所律师和企业法务在合同审阅、尽调或案件准备阶段，面对成批合同、卷宗和邮件，需要快速找出关键条款、风险点和可引用的依据，并形成可交付的初稿。
+  job_en: Lawyers and in-house counsel in contract review, diligence or case preparation face batches
+    of contracts, files and emails and need to quickly locate key clauses, risks and citable grounds,
+    then produce a deliverable draft.
+  pain: 人工逐份阅读耗时且容易漏项，初级律师大量时间花在检索和摘录上，交付周期被拉长，遗漏关键条款会带来实质法律风险。
+  pain_en: Reading document by document is slow and error-prone, junior lawyers spend much time on search
+    and extraction, delivery cycles stretch, and missing a key clause carries real legal risk.
+  current_alternative: 旧做法是初级律师和律师助理人工通读、做摘要表，或使用关键词检索和传统合同管理软件，再靠人工复核。
+  current_alternative_en: The old way is junior lawyers and paralegals reading through documents and building
+    summary tables, or keyword search and traditional contract management software, all followed by manual
+    review.
+  usage_reason: 相较人工通读，Legora 直接接收成批法律文件并输出要点与初稿，把检索和摘录这一步从数小时压缩到可复核的草稿，律师只需确认与修改；推断，律所和法务在文件量大、期限紧的审阅节点会因此选择它。
+  usage_reason_en: Compared with manual reading, Legora takes batches of legal documents and outputs points
+    and drafts, compressing search and extraction from hours into a reviewable draft that lawyers only
+    confirm and edit; this is inference, and firms and legal teams would choose it at high-volume, tight-deadline
+    review points.

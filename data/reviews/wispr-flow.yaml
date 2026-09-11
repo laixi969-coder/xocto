@@ -1,0 +1,45 @@
+- id: req-initial-wispr-flow-2026-09-11
+  project_slug: wispr-flow
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决的是把想法快速变成可发送文字的需求，痛点是打字慢于思考、长文本输入打断思路，旧做法是系统听写或事后复制转写稿，结构上成立。
+    evidence_ids:
+    - ev-ecfff3799592caff
+  - gate: consensus
+    status: insufficient
+    reason: 入选行业榜单说明被观察者关注，但公开材料没有用户评价、客户案例或持续采用数据，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-ecfff3799592caff
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价页、买方类型或付费路径，钱可能来自个人订阅或企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ecfff3799592caff
+  - gate: truth
+    status: insufficient
+    reason: 材料称其正从听写扩展到端到端企业用例，但未给出准确率、人工确认边界或交付确定性证据，求真环节无法核验。
+    evidence_ids:
+    - ev-ecfff3799592caff
+  next_validation: 收集 Wispr Flow 官方定价页或企业部署文档，确认其计价方式、买方类型与交付边界。
+  market: ''
+  job: 知识工作者在写邮件、文档、工单或聊天回复时，需要把脑子里的内容变成可发送的文字，原本要逐字敲键盘，现在改为口述并让产品把语音转成插入当前输入框的文本。
+  job_en: Knowledge workers writing emails, documents, tickets or chat replies need to turn what is in
+    their head into sendable text; instead of typing character by character they now dictate and let the
+    product convert speech into text inserted into the current input field.
+  pain: 打字速度慢于思考速度，长文本输入打断思路，手部重复劳损，且在不同软件之间切换输入方式成本高。
+  pain_en: Typing is slower than thinking, long-form input interrupts the train of thought, repetitive
+    strain builds up, and switching input methods across different applications is costly.
+  current_alternative: 系统自带听写、手机语音输入法、会议转写工具事后复制粘贴，或干脆继续手打。
+  current_alternative_en: Built-in OS dictation, mobile voice keyboards, meeting transcription tools copied
+    and pasted afterwards, or simply continuing to type by hand.
+  usage_reason: 相较系统听写和会议转写，它把语音直接落进当前正在编辑的输入框，省掉“转写—复制—粘贴—改格式”这一步，因此经常写长文本、又不想离开当前软件的知识工作者会在写作场景选择它；这是基于产品能力与任务结构的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with OS dictation and meeting transcription, it drops speech directly into
+    the input field being edited, removing the transcribe-copy-paste-reformat step, so knowledge workers
+    who write long text often and do not want to leave their current application would choose it while
+    writing; this is an inference from product capability and task structure, and the public material
+    provides no retention or repeat-use evidence.

@@ -1,0 +1,46 @@
+- id: req-initial-dsh-creator-2026-09-11
+  project_slug: dsh-creator
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决创作者在多个工具间搬运素材、手工整理模型输出的问题，痛点方向成立，但公开材料未说明具体输入、动作与交付，无法确认替代了哪一步旧流程。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+    - ev-01936487a9641bc8
+    - ev-da78cd0550d5f4f5
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标从 90 缓慢增至 95，属于关注度信号，不能证明创作者已把它放进日常工作流，也未见社区讨论或使用反馈。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+    - ev-da78cd0550d5f4f5
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露定价或付费路径，买方可能是个人创作者或代运营团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-da78cd0550d5f4f5
+  - gate: truth
+    status: insufficient
+    reason: 无法核对生成内容是否达到可发布质量，也未说明人工确认边界与本地模型运行要求，交付确定性不明。
+    evidence_ids:
+    - ev-6bd6b4e2ca27be02
+  next_validation: 收集该仓库 README 与 issue/discussion 中关于输入格式、产出示例和创作者实际使用反馈的公开内容。
+  market: ''
+  job: 内容创作者在准备一批选题和运营文案时，把素材交给本地工作台，希望一次拿到可直接发布的草稿。
+  job_en: A content creator preparing a batch of topics and operations copy hands material to a local
+    workbench and expects publishable drafts in one pass.
+  pain: 创作者要在多个工具间来回切换，把模型输出手工整理成可发布内容，重复劳动多且难以复用。
+  pain_en: Creators switch between tools and manually reshape model output into publishable content, which
+    is repetitive and hard to reuse.
+  current_alternative: 直接用通用聊天助手逐条生成，再手工复制到文档或发布后台。
+  current_alternative_en: Using a general chat assistant item by item, then copying manually into a document
+    or publishing backend.
+  usage_reason: 推断：它把模型调用、素材管理和运营文案放在同一个本地界面，可能减少在多个工具间复制粘贴的步骤，因此习惯本地运行模型的内容创作者会尝试；但公开材料没有说明它替代了哪一步具体旧流程，也没有用户反馈或留存证据。
+  usage_reason_en: 'Inference: it puts model calls, material management and operations copy in one local
+    interface, which may cut copy-paste steps between tools, so creators used to running models locally
+    may try it. However, the public material does not say which concrete old step it replaces, and there
+    is no user feedback or retention evidence.'

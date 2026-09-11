@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/cabouman/joke-machine
 summary: The Joke Machine - an example thingy for ECE 60141 Lab 1
 first_seen: '2026-09-10T17:43:49Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

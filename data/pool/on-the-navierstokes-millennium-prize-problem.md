@@ -1,11 +1,18 @@
 ---
 slug: on-the-navierstokes-millennium-prize-problem
-name: On the Navier–Stokes Millennium Prize Problem
+name: OpenAI
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 2026 年 9 月 8 日，OpenAI 公布一份由其未发布模型生成的纳维–斯托克斯千禧年大奖问题解答，含论证文章和 Lean 形式化证明，NYU 教授 Tristan Buckmaster
+  随即指控相关合作存在不当行为，材料未显示独立验证结论。对 AI 应用而言，这表明前沿模型开始产出附机器可查证明的研究级数学结果（推断：形式化验证环节在可信 AI 交付中的分量可能上升）；单次发布不能推断数学研究行业已整体转向
+  AI 协作。
 inspiration: ''
-summary_en: ''
+summary_en: 'On September 8, 2026, OpenAI published an AI-generated resolution to the Navier–Stokes Millennium
+  Prize Problem from an unreleased model, with a writeup and a formal proof in Lean; NYU professor Tristan
+  Buckmaster promptly accused collaborators of misconduct, and this material shows no independent verification.
+  For AI applications, this shows frontier models beginning to produce research-grade mathematical results
+  with machine-checkable proofs (inferred: formal verification may carry more weight in trustworthy AI
+  delivery); a single release does not imply mathematical research as a whole has shifted to AI collaboration.'
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -80,7 +87,7 @@ summary: "On the Navier–Stokes Millennium Prize Problem   \nImpressive result 
   \  mathematics ,  ai ,  openai ,  generative-ai ,  llms ,  training-data ,  ai-ethics"
 first_seen: '2026-09-08T23:55:12Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: market_context
 sources:
 - marketfeeds
 - officialfeeds
@@ -97,7 +104,7 @@ sightings:
   kind: news
 ---
 
-# On the Navier–Stokes Millennium Prize Problem
+# OpenAI
 
 On the Navier–Stokes Millennium Prize Problem   
 Impressive result from OpenAI, who used an unreleased model to produce a resolution to  the Navier–Stokes existence and smoothness problem , one of the seven  Millennium Prize Problems  that have been subject to a $1,000,000 prize since May 24th, 2000. 

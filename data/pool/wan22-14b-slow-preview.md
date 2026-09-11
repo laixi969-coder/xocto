@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/KSYJA/wan2-2-FAST-HD
 summary: generate a video from an image with a text prompt
 first_seen: '2026-09-09T08:13:24Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-sub2sub-2026-09-11
+  project_slug: sub2sub
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决团队共用少量 AI 订阅时的额度分配与账号安全问题，旧做法是发密码或重复购买，痛点具体且不采用有代价。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分支数，属于关注度而非持续采用证据，没有团队实际使用的公开记录。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  - gate: model
+    status: insufficient
+    reason: 开源项目未披露收费方式，买方可能是团队管理员或企业采购，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  - gate: truth
+    status: insufficient
+    reason: 按任务转授订阅可能触及各家服务条款与账号安全边界，公开材料未说明合规处理方式。
+    evidence_ids:
+    - ev-cd33e48dca3fd285
+  next_validation: 收集该仓库的 README、issue 与讨论，确认其鉴权与计费实现方式以及是否说明与订阅服务条款的兼容边界。
+  market: ''
+  job: 小团队或外包团队的额度管理员，在只有部分成员持有 AI 订阅、又要按具体任务交付时，把可用额度分配给执行任务的成员并完成调用。
+  job_en: A quota admin in a small or outsourced team, when only some members hold AI subscriptions and
+    work is delivered task by task, allocates usable quota to the member doing the task and completes
+    the call.
+  pain: 共享账号意味着密码外泄、并发冲突和用量无法归属；不共享则要么重复购买订阅，要么有人干不了活。
+  pain_en: Sharing an account leaks passwords, causes concurrent-session conflicts and makes usage unattributable;
+    not sharing means buying duplicate subscriptions or leaving someone unable to work.
+  current_alternative: 把账号密码发给同事、共用一台机器，或干脆每人各买一份订阅。
+  current_alternative_en: Sending account credentials to colleagues, sharing one machine, or simply buying
+    a separate subscription per person.
+  usage_reason: 相较直接共享账号，它把访问拆成按任务的授权，成员不需要拿到他人密码即可调用，管理员也能看到额度用在哪；推断这类用户会在多人共用少量订阅、又需要区分任务归属时选择它。
+  usage_reason_en: Compared with sharing an account outright, it splits access into per-task grants so
+    a member can call the model without holding someone else's password and the admin can see where quota
+    went; the inference is that such users pick it when few subscriptions are shared by many people and
+    task attribution matters.

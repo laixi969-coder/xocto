@@ -1,0 +1,44 @@
+- id: req-initial-how-aviobook-builds-turnaround-insights-from-operational-dat-2026-09-11
+  project_slug: how-aviobook-builds-turnaround-insights-from-operational-dat
+  level: initial
+  reviewed_at: '2026-09-11T00:10:51Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决过站延误归因这一具体任务，痛点是人工比对运行记录慢且易漏，不采用则延误成本持续累积；买方与定价未披露。
+    evidence_ids:
+    - ev-b2f52bd850776988
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有厂商与云平台的一手试制说明，未见航司客户名单、部署范围或一线使用反馈，强场景存在但采用共识未形成。
+    evidence_ids:
+    - ev-b2f52bd850776988
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明按航司席位、按过站架次还是随 AvioBook Connect 打包收费，钱从哪一方来属于判断而非已验证事实。
+    evidence_ids:
+    - ev-b2f52bd850776988
+  - gate: truth
+    status: insufficient
+    reason: 延误归因依赖运行数据质量与人工复核边界，材料未说明答案如何校验、错误归因由谁负责，交付确定性待核验。
+    evidence_ids:
+    - ev-b2f52bd850776988
+  next_validation: 收集 AvioBook 官方产品页或客户案例，确认 Connected Analytics 是否已商用、面向哪些航司、按什么方式计价。
+  market: ''
+  job: 航空公司签派员或运行经理在航班过站出现延误时，处理 AvioBook Connect 里的运行记录与报表，要找出延误发生在哪个保障环节并据此安排后续处置。
+  job_en: An airline dispatcher or operations manager, when a flight turnaround is delayed, works through
+    AvioBook Connect operational records and reports to identify which ground-handling step caused the
+    delay and act on it.
+  pain: 延误归因依赖人工翻查多份运行记录并逐项比对，判断慢且容易漏掉真正的瓶颈环节，延误成本随时间累积。
+  pain_en: Delay attribution relies on manually sifting and cross-checking multiple operational records,
+    which is slow and easily misses the real bottleneck while delay costs accumulate.
+  current_alternative: 现有做法是签派员和运行经理手工调取 AvioBook Connect 的报表与运行记录，凭经验比对时间点，或依赖既有 BI 报表。
+  current_alternative_en: Today dispatchers and operations managers manually pull AvioBook Connect reports
+    and records, compare timestamps by experience, or rely on existing BI reports.
+  usage_reason: 相较手工翻报表，该原型让 AI 直接读取同一套运行数据并给出带依据的延误原因说明，把“先找数据再比对”这一步压缩成一次提问；推断，签派员和运行经理在过站延误需要快速定责时会因此选择它，但公开材料未给出定价、客户采用或留存证据。
+  usage_reason_en: Compared with manually digging through reports, the prototype has AI read the same
+    operational data and return an evidence-backed delay explanation, collapsing the find-then-compare
+    step into one question; this is inference, and public material gives no pricing, customer adoption
+    or retention evidence.

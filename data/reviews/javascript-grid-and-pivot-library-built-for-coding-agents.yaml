@@ -1,0 +1,42 @@
+- id: req-initial-javascript-grid-and-pivot-library-built-for-coding-agents-2026-09-11
+  project_slug: javascript-grid-and-pivot-library-built-for-coding-agents
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决 agent 生成表格结构混乱、交互缺失的问题，旧做法是人工配置组件或事后修补，结构上成立。
+    evidence_ids:
+    - ev-3bacd525145acabf
+  - gate: consensus
+    status: insufficient
+    reason: 仅6点、0条评论，没有用户反馈或采用案例，无法判断是否有人真正使用。
+    evidence_ids:
+    - ev-3bacd525145acabf
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明定价或买方，开源组件如何收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-3bacd525145acabf
+  - gate: truth
+    status: insufficient
+    reason: 生成结果是否贴近真实报表需求、能否确定性交付，公开材料只有作者自述，缺少可复现实测。
+    evidence_ids:
+    - ev-3bacd525145acabf
+  next_validation: 收集该库的仓库 issue 与可复现示例，确认 agent 生成的表格在真实报表场景中是否需要大量人工返工。
+  market: ''
+  job: 前端开发者或数据分析师需要把一份数据规格变成可用的表格或透视表界面，希望由编码 agent 直接生成而不是自己逐列搭。
+  job_en: A front-end developer or data analyst needs to turn a data specification into a usable grid
+    or pivot-table interface, and wants a coding agent to generate it instead of building column by column.
+  pain: agent 自由生成的表格代码往往结构混乱、交互缺失，人工还要回头重写排序、分页和透视逻辑。
+  pain_en: Freely generated grid code from agents is often structurally messy and missing interactions,
+    forcing people to rewrite sorting, paging and pivot logic.
+  current_alternative: 人工使用成熟表格组件库逐项配置，或让 agent 直接写表格代码后再人工修补。
+  current_alternative_en: Manually configuring an established grid component library, or letting an agent
+    write grid code and patching it afterwards.
+  usage_reason: 推断：把表格能力收敛成 agent 可调用的原语，减少了生成后重写排序与透视逻辑这一步，因此常让 agent 产出数据界面的开发者会先试；公开材料没有采用或留存证据。
+  usage_reason_en: 'Inference: collapsing grid capability into agent-callable primitives removes the step
+    of rewriting sorting and pivot logic after generation, so developers who routinely have agents produce
+    data interfaces would try it first; public material shows no adoption or retention evidence.'

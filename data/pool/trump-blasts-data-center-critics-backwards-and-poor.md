@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GVkJjR3pERDcz
 summary: 'Trump blasts data center critics: ''Backwards and poor'' mashable.com'
 first_seen: '2026-09-10T11:38:03Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

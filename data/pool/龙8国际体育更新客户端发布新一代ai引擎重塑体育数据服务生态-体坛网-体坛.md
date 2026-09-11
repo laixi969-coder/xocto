@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRMDI0WkJhZHZT
 summary: 龙8国际体育更新客户端发布新一代AI引擎，重塑体育数据服务生态- 体坛网_体坛+ 体坛
 first_seen: '2026-09-10T10:07:24Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

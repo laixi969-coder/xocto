@@ -21,7 +21,7 @@ canonical_url: https://calmscroll.com
 summary: a reader that shows the current paragraph in the library
 first_seen: '2026-09-10T14:12:48Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

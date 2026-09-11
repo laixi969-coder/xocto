@@ -1,0 +1,42 @@
+- id: req-initial-turn-wire-protocols-into-structured-statements-llms-can-unde-2026-09-11
+  project_slug: turn-wire-protocols-into-structured-statements-llms-can-unde
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决请求载荷不可读、排障慢的问题，痛点具体；但公开材料只有一句自述，未说明谁在用、替代了哪一步既有流程，价值结构尚不完整。
+    evidence_ids:
+    - ev-97b7bed39f253f41
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论仅 5 分、0 评论，没有可归因到该扩展的采用或重复使用证据。
+    evidence_ids:
+    - ev-97b7bed39f253f41
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、买方或收费方式；代理扩展可能随网关采购进入，属推断，不是已验证事实。
+    evidence_ids:
+    - ev-97b7bed39f253f41
+  - gate: truth
+    status: insufficient
+    reason: 把请求内容交给 LLM 分析涉及数据出境与日志留存，公开材料未说明脱敏、权限与人工复核边界。
+    evidence_ids:
+    - ev-97b7bed39f253f41
+  next_validation: 收集该 Envoy 扩展的官方仓库 README 与部署文档，确认它支持的协议范围、数据脱敏方式与是否已有生产环境使用说明。
+  market: ''
+  job: 后端与安全工程师在排查线上 API 异常请求时，处理代理层抓到的 SQL 与 gRPC 载荷，要判断请求是否异常并定位原因。
+  job_en: Backend and security engineers diagnosing abnormal live API requests work on SQL and gRPC payloads
+    captured at the proxy layer to judge whether a request is anomalous and locate the cause.
+  pain: 原始二进制或协议载荷不可读，人工逐条解码耗时，异常请求难以快速定位。
+  pain_en: Raw binary or protocol payloads are unreadable, manual decoding is slow, and anomalous requests
+    are hard to locate quickly.
+  current_alternative: 工程师手工抓包、写脚本解析，或依赖网关自带的日志与规则告警。
+  current_alternative_en: Engineers capture packets manually, write parsing scripts, or rely on the gateway's
+    built-in logs and rule alerts.
+  usage_reason: 推断：相较手工抓包与写解析脚本，它把解析动作放进代理运行时并直接输出结构化语句，省去为每种协议单独写解析器的一步，因此对协议种类多、排障频繁的团队更有吸引力。
+  usage_reason_en: 'Inference: compared with manual packet capture and custom parsers, it moves parsing
+    into the proxy runtime and outputs structured statements directly, removing the step of writing a
+    parser per protocol, which appeals to teams with many protocols and frequent troubleshooting.'

@@ -22,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixwFBVV95cUxNT3VpQU5adld4
 summary: 'When AI infrastructure becomes the target: Securing gateways and control points Microsoft'
 first_seen: '2026-08-26T16:43:53Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

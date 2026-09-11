@@ -1,11 +1,12 @@
 ---
 slug: 从ai算力扩张到应用端创收高盛透视ai投资新阶段谁能把token变成现金流
-name: 从AI算力扩张到应用端创收，高盛透视AI投资新阶段：谁能把Token变成现金流
+name: 高盛
 builder: ''
 category: ''
-summary_zh: ''
+summary_zh: 高盛认为AI算力扩张已转向应用端创收，关注Token如何转化为现金流
 inspiration: ''
-summary_en: ''
+summary_en: Goldman Sachs views the shift from AI compute expansion to application revenue generation,
+  focusing on how tokens can be converted into cash flow
 inspiration_en: ''
 priority_review: false
 project_type: new_application
@@ -21,7 +22,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirgFBVV95cUxPOUlOeXZ3NzZZ
 summary: 从AI算力扩张到应用端创收，高盛透视AI投资新阶段：谁能把Token变成现金流 Moomoo
 first_seen: '2026-09-10T10:56:25Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: market_context
 sources:
 - newssearch
 sightings:
@@ -32,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# 从AI算力扩张到应用端创收，高盛透视AI投资新阶段：谁能把Token变成现金流
+# 高盛
 
 从AI算力扩张到应用端创收，高盛透视AI投资新阶段：谁能把Token变成现金流 Moomoo
 

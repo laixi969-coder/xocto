@@ -1,6 +1,6 @@
 ---
 slug: 走出聊天框agent-开始进入现实世界
-name: 走出聊天框，Agent 开始进入现实世界
+name: 百度搭子
 builder: ''
 category: ''
 summary_zh: ''
@@ -57,7 +57,7 @@ summary: "头图来源：小度 \n Agent 正在寻找自己的「身体」。 \n
   \ \n Agent 正在接触一个更复杂的世界。百度搭子与超能小度这次带来的真正看点，也正在这里——AI 开始尝试参与现实事务，家庭只是一个开始。"
 first_seen: '2026-09-10T13:39:07Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -68,7 +68,7 @@ sightings:
   kind: news
 ---
 
-# 走出聊天框，Agent 开始进入现实世界
+# 百度搭子
 
 头图来源：小度 
  Agent 正在寻找自己的「身体」。 

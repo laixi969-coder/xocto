@@ -1,0 +1,43 @@
+- id: req-initial-indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe-2026-09-11
+  project_slug: indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powe
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决连载音频内容按集稳定产出的需求，痛点是配音与录音成本高、周期长；93% 内容由 AI 参与说明旧流程已被替换。
+    evidence_ids:
+    - ev-0b27f376bd372201
+  - gate: consensus
+    status: supported
+    reason: 年化收入运行率翻倍至 5 亿美元，说明听众侧已有规模化的持续消费，不只是关注度。
+    evidence_ids:
+    - ev-0b27f376bd372201
+  - gate: model
+    status: insufficient
+    reason: 公开材料只给出收入运行率，未披露订阅定价结构、付费用户数与内容成本占比，买方与付费路径仍不完整。
+    evidence_ids:
+    - ev-0b27f376bd372201
+  - gate: truth
+    status: insufficient
+    reason: 未说明 AI 生成内容的人工审核边界与版权归属，93% 这一口径的统计方式也未公开。
+    evidence_ids:
+    - ev-0b27f376bd372201
+  next_validation: 收集 Pocket FM 官方公布的订阅定价页或创作者分成说明，核验其收入构成与 AI 内容的人工审核流程。
+  market: ''
+  job: 音频剧听众在通勤、家务等碎片时间需要持续更新的连载音频内容，平台运营方要按集稳定产出可听的成片。
+  job_en: Audio-drama listeners need continuously updated serialized audio during commutes and chores,
+    and platform operators must steadily deliver listenable finished episodes.
+  pain: 传统音频剧依赖编剧、配音演员和录音棚，单集成本高、周期长，产量难以支撑每日更新的连载需求。
+  pain_en: Traditional audio drama depends on writers, voice actors and studios, so per-episode cost is
+    high and cycles are long, making daily serialized output hard to sustain.
+  current_alternative: 旧做法是外包配音与录音棚制作，或由平台自制团队逐集录制，产量受人力与档期限制。
+  current_alternative_en: The old approach is outsourced voice and studio production, or in-house teams
+    recording episode by episode, with output limited by people and schedules.
+  usage_reason: 推断：AI 直接承担配音与音频生成环节，把每集从写稿到可听成片的制作链条压缩，使平台能在不按比例增加配音与录音人力的情况下维持连载更新，因此需要高频更新且预算受限的音频内容方会选它。
+  usage_reason_en: 'Inference: AI takes over the voice and audio generation step, compressing the chain
+    from script to listenable episode, so platforms can keep serialized updates without proportionally
+    adding voice and studio staff; content owners needing high-frequency updates on limited budgets would
+    choose it.'

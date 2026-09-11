@@ -1,0 +1,43 @@
+- id: req-initial-athenic-2026-09-11
+  project_slug: athenic
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决个人投资者做个股分析时拿不到成体系数据的痛点：通用模型缺数据、自购终端贵；此为工作流推理而非采用证据。
+    evidence_ids:
+    - ev-e90604c206975720
+  - gate: consensus
+    status: insufficient
+    reason: 公开热度仅个位数社区讨论，无法区分早期采用与一次曝光；缺少留存、复购或客户案例支撑。
+    evidence_ids:
+    - ev-e90604c206975720
+  - gate: model
+    status: insufficient
+    reason: 未见定价页与买方信息，付费大概率来自个人投资者订阅，这是判断而非已验证事实；买方结构待核验。
+    evidence_ids:
+    - ev-e90604c206975720
+  - gate: truth
+    status: insufficient
+    reason: 材料未说明数据覆盖范围与交付确定性，分析结论仍需人工核对；任务贴近个股研究第一目标但证据不足。
+    evidence_ids:
+    - ev-e90604c206975720
+  next_validation: 抓取 athenic 官网定价页，核验订阅价格、计价方式以及面向个人投资者还是机构客户。
+  market: ''
+  job: 个人投资者在做个股研究时，需要基于真实行情与基本面数据判断买卖逻辑；处理对象是股价、财报与市场数据，要产出有依据的投资分析。
+  job_en: Individual investors doing stock research need to judge buy/sell logic from real market and
+    fundamental data; the materials are stock prices, filings and market data, and the task is producing
+    a grounded investment analysis.
+  pain: 通用大模型拿不到成体系的授权市场数据，直接提问只能得到泛泛或失真的分析；自己订阅数据终端并手工整理又要花大量时间和钱。
+  pain_en: General LLMs lack systematic licensed market data, so direct prompts yield generic or distorted
+    analysis; subscribing to terminals and assembling data by hand costs hours and money.
+  current_alternative: 目前投资者要么自购数据终端并手工整理数据后再分析，要么直接问通用对话助手，后者缺数据、易失真。
+  current_alternative_en: Investors either buy data terminals and assemble data manually before analyzing,
+    or prompt general chatbots that lack the data and distort results.
+  usage_reason: 推断：产品先把约 5 万美元级的授权行情数据买进来，再让 AI 在这套数据上做分析，省去用户自购、洗数的步骤，因此缺数据但不缺判断力的个人投资者可能选它；尚无留存或付费证据。
+  usage_reason_en: 'Inference: the product licenses roughly $50k of market data first, then runs AI analysis
+    on that dataset, removing the user''s need to buy and clean data; data-poor but judgment-capable investors
+    may choose it. No retention or payment evidence yet.'

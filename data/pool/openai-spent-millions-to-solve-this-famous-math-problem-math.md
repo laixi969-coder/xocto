@@ -1,6 +1,6 @@
 ---
 slug: openai-spent-millions-to-solve-this-famous-math-problem-math
-name: OpenAI spent millions to solve this famous math problem — mathematicians are furious
+name: OpenAI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://understandingai.org/p/openai-spent-millions-to-solve-this
 summary: Mathematics relies on a community of experts openly sharing ideas.
 first_seen: '2026-09-10T22:40:39Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# OpenAI spent millions to solve this famous math problem — mathematicians are furious
+# OpenAI
 
 Mathematics relies on a community of experts openly sharing ideas.
 

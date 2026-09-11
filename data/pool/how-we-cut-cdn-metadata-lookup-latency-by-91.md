@@ -1,6 +1,6 @@
 ---
 slug: how-we-cut-cdn-metadata-lookup-latency-by-91
-name: How we cut CDN metadata lookup latency by 91%
+name: Vercel
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by
 summary: ''
 first_seen: '2026-09-10T00:00:00Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - officialfeeds
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# How we cut CDN metadata lookup latency by 91%
+# Vercel
 
 _（源没给简介）_
 

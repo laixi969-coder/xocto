@@ -1,0 +1,43 @@
+- id: req-initial-any-nix-package-live-in-your-browser-2026-09-11
+  project_slug: any-nix-package-live-in-your-browser
+  level: initial
+  reviewed_at: '2026-09-11T00:10:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决评审者复现 PR 环境的任务，痛点是本地装 Nix 与对齐旧版本耗时易失败，旧做法是本地复现或只看 CI 日志，结构上成立。
+    evidence_ids:
+    - ev-ee896f1450e807dc
+  - gate: consensus
+    status: insufficient
+    reason: 目前只有作者自述与一篇技术博客介绍，没有独立用户评价、采用规模或社区讨论量级可引用。
+    evidence_ids:
+    - ev-ee896f1450e807dc
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、付费方或商业主体，浏览器内运行环境的算力成本由谁承担不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-ee896f1450e807dc
+  - gate: truth
+    status: insufficient
+    reason: 浏览器内虚拟机能否与真实 CI 结果一致、旧包能否稳定启动，公开材料未给出可核对结果，需实测确认。
+    evidence_ids:
+    - ev-ee896f1450e807dc
+  next_validation: 收集 trynix 官方仓库或文档中关于 trynix-preview 在真实 PR 上的使用记录与可复现实测说明。
+  market: ''
+  job: 后端工程师或开源维护者在评审改动依赖或运行环境的 PR 时，需要在不污染本机的前提下复现该 PR 的构建并实际跑一遍命令。
+  job_en: A backend engineer or open source maintainer reviewing a PR that changes dependencies or runtime
+    needs to reproduce that PR's build and actually run commands without polluting their own machine.
+  pain: 本地装 Nix、拉依赖、对齐旧版本环境耗时且容易失败，评审者常因此跳过实际运行，只靠读 diff 判断。
+  pain_en: Installing Nix locally, fetching dependencies and matching old versions is slow and error-prone,
+    so reviewers often skip actually running the code and judge from the diff alone.
+  current_alternative: 本地安装 Nix 或 Docker 复现环境、依赖 CI 日志、或让作者贴截图和日志。
+  current_alternative_en: Installing Nix or Docker locally, relying on CI logs, or asking the author to
+    paste screenshots and logs.
+  usage_reason: 相较本地复现，trynix 把环境放进浏览器内的 WebAssembly 虚拟机，评审者点开 PR 下自动评论的链接即可得到可交互 shell，省掉安装与依赖拉取这一步；推断这类用户会在评审依赖变更或排查旧版本问题时选择它，但公开材料未提供留存或重复使用证据。
+  usage_reason_en: Compared with local reproduction, trynix puts the environment in a browser WebAssembly
+    VM so a reviewer clicks the link auto-commented on the PR and gets an interactive shell, skipping
+    install and dependency fetching; inference is that such users pick it when reviewing dependency changes
+    or debugging old versions, though no retention or repeat-use evidence is public.

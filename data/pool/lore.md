@@ -3,14 +3,14 @@ slug: lore
 name: lore
 builder: hsusul
 category: AI + 开发
-summary_zh: lore 是一个开源工具，为编码代理（如 Claude Code 和 Codex）提供 git 记忆。开发者在编码代理会话中，lore 自动将每次会话保存为本地可搜索的存档，便于后续检索和复用。具体流程和交付仍待核验。
-inspiration: 趋势：编码代理的会话记忆成为开发者效率瓶颈，本地存档是自然延伸。切入：可从团队协作和知识管理角度，为开发团队提供会话历史的共享与检索，而非仅个人工具。
-summary_en: lore is an open-source tool providing git memory for coding agents like Claude Code and Codex.
-  During coding agent sessions, lore automatically saves each session as a local, searchable archive for
-  later retrieval and reuse. Specific workflow and deliverables remain to be verified.
-inspiration_en: 'Trend: Session memory for coding agents becomes a bottleneck for developer efficiency,
-  and local archiving is a natural extension. Entry: From a team collaboration and knowledge management
-  angle, offer shared and searchable session history for development teams, not just a personal tool.'
+summary_zh: 开发者用 Claude Code、Codex 等 AI 编程助手完成任务后，原本只能翻找散落的本地会话记录来回忆改了什么、为什么改；lore 把这些会话存进本地可搜索档案，输入关键词即可查回历史会话。具体检索效果与交付形式仍待核验。
+inspiration: 趋势：AI 编程助手从单次问答走向跨会话长期协作，会话记忆开始被当作独立需求对待。切入：不与模型厂商正面拼记忆功能，可面向需要审计 AI 改码记录的团队或受监管行业，做可追溯的会话存档。
+summary_en: Developers using AI coding agents like Claude Code used to dig through scattered local session
+  logs to recall past changes; lore archives sessions in a local, searchable store so keyword queries
+  retrieve prior content. Retrieval quality remains unverified.
+inspiration_en: 'Trend: AI coding is shifting to cross-session collaboration, making agent memory a contested
+  layer. Entry: target teams needing auditable records of AI code changes, not head-on competition with
+  model vendors.'
 priority_review: false
 project_type: open_source
 industries:
@@ -18,9 +18,9 @@ industries:
 industries_en:
 - Software Development
 jobs:
-- 开发者
+- 使用 AI 编程助手的软件工程师
 jobs_en:
-- Developers
+- Software engineers using AI coding assistants
 regions: []
 regions_en: []
 open_source: true
@@ -29,7 +29,7 @@ canonical_url: https://github.com/hsusul/lore
 summary: git memory for coding agents — a local, searchable archive of your Claude Code and Codex sessions
 first_seen: '2026-08-10T22:07:29Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: watching
 sources:
 - github
 - marketfeeds

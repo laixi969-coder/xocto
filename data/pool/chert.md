@@ -3,28 +3,45 @@ slug: chert
 name: Chert
 builder: Garry Tan
 category: AI + 开发
-summary_zh: 客户用视频电话把问题举到镜头前，AI能看见并当场回答，也能主动打过去
-inspiration: 趋势是语音客服开始长眼睛：客户不再口述，直接把坏掉的东西举到镜头前。切入是先做必须看见才能判断的场景——家电维修、验房、远程安装，按接通一通看得见的电话来卖。
-summary_en: A customer holds the problem up to a video call; the AI can see it, answer live, and also
-  place the call.
-inspiration_en: 'The trend is voice support growing eyes: customers stop describing and hold the broken
-  thing to the camera. The entry is jobs that need sight—appliance repair, home inspection, remote install—sold
-  per completed video call.'
+summary_zh: 面向需要把视频通话变成可编程接口的开发者：他们原本要自行搭建音视频采集与对话编排，Chert 让开发者用少量代码接入 AI 视频代理，在通话中接收画面与语音并生成回应，最终交付可嵌入应用的视频代理能力；具体流程与交付仍待核验。
+inspiration: 视频通话正在被当作可编程接口，趋势是实时音视频从会议工具变成代理入口。切入可放在远程核验、远程问诊或政务视频窗口这类需要身份与画面确认的环节，按通话次数或核验结果收费，而不是再做一个通用视频代理框架。
+summary_en: 'For developers who need to turn video calls into a programmable interface: instead of building
+  audio-video capture and dialogue orchestration themselves, Chert lets them add AI video agents with
+  a few lines of code, receiving video and speech during a call and generating responses. The deliverable
+  is an embeddable video agent capability; the exact flow and delivery remain unverified.'
+inspiration_en: Video calls are being treated as a programmable interface, with real-time audio-video
+  moving from meeting tool to agent entry point. The opening is remote verification, telemedicine or government
+  video counters where identity and visual confirmation matter, charging per call or per verified outcome
+  rather than building another generic video agent framework.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
-regions: []
-regions_en: []
+project_type: new_application
+industries:
+- 公共服务
+- 客户服务
+- 软件
+industries_en:
+- Public Services
+- Customer Service
+- Software
+jobs:
+- 应用开发者
+- 客服自动化负责人
+- 公共服务运营人员
+jobs_en:
+- Application developer
+- Customer service automation lead
+- Public service operations staff
+regions:
+- 美国
+regions_en:
+- United States
 open_source: false
 url: https://www.producthunt.com/products/chert
 canonical_url: https://producthunt.com/products/chert
 summary: 'Vapi for FaceTime: AI video agents in a few lines'
 first_seen: '2026-08-15T04:01:04Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: watching
 sources:
 - producthunt
 - hackernews

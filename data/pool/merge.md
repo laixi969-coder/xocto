@@ -30,7 +30,7 @@ canonical_url: https://producthunt.com/products/merge-5
 summary: AI-native code review assessments
 first_seen: '2026-08-06T05:55:10Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 - newssearch

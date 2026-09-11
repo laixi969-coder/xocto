@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/vibe-eyes
 summary: Put your pets in your macOS menu bar
 first_seen: '2026-09-09T19:08:08Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

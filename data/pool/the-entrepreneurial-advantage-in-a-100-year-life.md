@@ -21,7 +21,7 @@ canonical_url: https://sifted.eu/articles/the-entrepreneurial-advantage-in-a-100
 summary: ''
 first_seen: '2026-09-10T09:09:14Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTFBVcDducnpfQWJK
 summary: 亚搏全站客户端官网下载：当AI开始“恐惧”，你还能走出这场艺术恐怖吗？ 体坛
 first_seen: '2026-09-10T09:31:01Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

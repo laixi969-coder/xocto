@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZaUR5YzJHMkg4
 summary: 智能体时代，Arm如何加速AI云基础设施建设？ 飞象网
 first_seen: '2026-09-10T09:09:30Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -22,7 +22,7 @@ summary: 'Build vs Buy AI in 2026: Why CIOs Are Choosing a Hybrid Strategy as Sp
   InfotechLead'
 first_seen: '2026-09-10T06:20:34Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -1,0 +1,44 @@
+- id: req-initial-trace2task-2026-09-11
+  project_slug: trace2task
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决智能体改版后无法复现旧成功流程、回归靠人工重跑的问题，痛点具体且不解决的后果可核对。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标，没有团队采用、讨论或案例，无法判断是否形成共识。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: model
+    status: insufficient
+    reason: 开源仓库未披露收费方式，买方与付费路径不明，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b628234673733367
+  - gate: truth
+    status: insufficient
+    reason: 公开材料未说明支持哪些记录格式与判定标准，能否确定性交付评测结果仍待核验。
+    evidence_ids:
+    - ev-b628234673733367
+  next_validation: 收集该仓库的 README、issue 与 discussion，确认支持的记录格式、评测判定方式与是否有团队实际使用。
+  market: ''
+  job: AI 应用评测工程师在智能体改版或换模型后，需要拿旧的成功操作记录重建一套可重复执行的评测任务，确认新版本没有把原来跑通的流程弄坏。
+  job_en: An AI application evaluation engineer, after an agent is changed or its model swapped, needs
+    to rebuild repeatable evaluation tasks from old successful run traces to confirm the new version did
+    not break workflows that used to work.
+  pain: 智能体的成功往往只留下一次运行记录，环境一变就无法复现，回归只能靠人工重跑或凭印象判断，改版后是否退化说不清。
+  pain_en: A successful agent run usually leaves only a single trace that cannot be reproduced once the
+    environment changes, so regression relies on manual reruns or impressions, and whether a release degraded
+    is unclear.
+  current_alternative: 现在多靠人工重跑、临时脚本或截图记录来核对智能体是否还能完成任务。
+  current_alternative_en: Today teams mostly rely on manual reruns, ad hoc scripts, or screenshots to
+    check whether an agent still completes its task.
+  usage_reason: 推断：它把已有的成功操作记录直接转成可重置的评测任务，省掉从零编写测试用例这一步，因此已经在跑智能体、又缺少回归手段的团队会在改版前选择它。
+  usage_reason_en: 'Inference: it converts an existing successful trace directly into a resettable evaluation
+    task, removing the step of writing test cases from scratch, so teams already running agents without
+    regression coverage would pick it up before a release.'

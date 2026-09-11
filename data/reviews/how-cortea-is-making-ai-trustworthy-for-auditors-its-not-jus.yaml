@@ -1,0 +1,43 @@
+- id: req-initial-how-cortea-is-making-ai-trustworthy-for-auditors-its-not-jus-2026-09-11
+  project_slug: how-cortea-is-making-ai-trustworthy-for-auditors-its-not-jus
+  level: initial
+  reviewed_at: '2026-09-11T00:10:53Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它试图解决审计结论不可核对、不可留痕的问题，痛点方向成立，但公开材料未说明具体输入、动作与交付，价值结构尚无法还原。
+    evidence_ids:
+    - ev-b8c6014e4ebb6e68
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：公开材料只有媒体叙述，没有审计团队采用、评价或场景描述，无法判断共识卡在哪一环。
+    evidence_ids:
+    - ev-b8c6014e4ebb6e68
+  - gate: model
+    status: insufficient
+    reason: 未进入：买方与付费方式均未披露，无法判断收入来自事务所席位、按项目还是按报告收费。
+    evidence_ids:
+    - ev-b8c6014e4ebb6e68
+  - gate: truth
+    status: insufficient
+    reason: 未进入：审计责任归属与人工签字边界未说明，无法核对承诺能否确定性交付。
+    evidence_ids:
+    - ev-b8c6014e4ebb6e68
+  next_validation: 收集 Cortea 官方产品页或部署文档，确认其输入材料、输出交付物以及审计人员确认环节的具体描述。
+  market: ''
+  job: 审计师在底稿复核阶段处理凭证、工作底稿和 AI 生成的结论，需要判断哪些结论可采信并留下可追溯的复核记录。
+  job_en: Auditors at the working-paper review stage handle vouchers, working papers and AI-generated
+    conclusions, and must decide which conclusions are trustworthy while keeping a traceable review record.
+  pain: AI 生成的审计结论缺少可核对的依据与留痕，复核人无法判断能否签字，返工和风险都落在人身上。
+  pain_en: AI-generated audit conclusions lack checkable basis and traceability, so the reviewer cannot
+    tell whether to sign off, leaving rework and risk with the person.
+  current_alternative: 目前多由审计人员手工复核底稿，或干脆不使用 AI 输出，靠人工经验判断。
+  current_alternative_en: Today auditors mostly review working papers by hand, or avoid using AI output
+    at all and rely on manual experience.
+  usage_reason: 推断：相较纯人工复核，它把 AI 输出纳入质量控制并保留复核痕迹，减少复核人逐条重建结论依据这一步，因此需要为审计结论签字、又希望借助 AI 提速的审计团队会考虑使用；公开材料未提供客户案例或留存证据。
+  usage_reason_en: 'Inference: compared with purely manual review, it brings AI output under quality control
+    and keeps a review trail, removing the step of rebuilding each conclusion''s basis by hand, so audit
+    teams that must sign off on conclusions while wanting AI speed may consider it; no customer cases
+    or retention evidence are provided.'

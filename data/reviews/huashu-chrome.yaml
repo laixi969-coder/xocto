@@ -1,0 +1,46 @@
+- id: req-initial-huashu-chrome-2026-09-11
+  project_slug: huashu-chrome
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决登录态下重复页面操作的问题，痛点具体且旧做法是人工点击或自维护脚本，结构上成立。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-18ba421b72593f7e
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从156到171，属于关注度，没有用户评价或采用案例说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-41502e9c03214554
+    - ev-18ba421b72593f7e
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费方或商业路径，钱可能来自企业定制或托管服务，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-41502e9c03214554
+  - gate: truth
+    status: insufficient
+    reason: 让 agent 带着全部登录态操作浏览器涉及账号安全与误操作边界，公开材料未说明权限限制或人工确认机制。
+    evidence_ids:
+    - ev-41502e9c03214554
+  next_validation: 收集该仓库的 issue 与 discussion，确认是否有用户报告在具体登录后台中实际跑通流程及权限边界。
+  market: ''
+  job: 开发者或运营人员需要在已登录的电商后台、广告平台或内部系统里反复执行同一套页面操作（填表、导出、改价），希望把这段流程交给 agent 自动跑完。
+  job_en: A developer or operator needs to repeat the same set of page actions (form filling, exporting,
+    price edits) inside a logged-in e-commerce, ad or internal system, and wants an agent to run that
+    flow automatically.
+  pain: 登录态和验证码让沙箱浏览器无法进入真实后台，人工只能自己一遍遍点，脚本又要单独维护 cookie 与登录逻辑。
+  pain_en: Logins and captchas keep sandboxed browsers out of real back offices, so people click through
+    manually while scripts need separate cookie and login handling.
+  current_alternative: 人工在浏览器里重复操作，或写 Playwright/Selenium 脚本并自行维护登录态，或使用云端浏览器服务。
+  current_alternative_en: Manual repetition in the browser, self-maintained Playwright/Selenium scripts
+    with their own session handling, or cloud browser services.
+  usage_reason: 推断：它复用用户本机已登录的 Chrome，省掉了为每个站点单独配置登录态这一步，因此需要频繁操作登录后台的开发者会先试它；但公开材料没有留存或复购证据，长期是否留在工作流里尚不清楚。
+  usage_reason_en: 'Inference: it reuses the user''s already logged-in local Chrome, removing the step
+    of configuring sessions per site, so developers who frequently operate logged-in back offices would
+    try it first; public material shows no retention or repeat-use evidence, so long-term workflow stickiness
+    is unclear.'

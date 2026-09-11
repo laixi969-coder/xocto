@@ -1,30 +1,37 @@
 ---
 slug: ai-pulse
-name: ai-pulse
+name: AI Pulse
 builder: leog_me
-category: AI + 效率
-summary_zh: 在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了
-inspiration: 趋势是后台 AI 一干活，人就开始焦虑。切入不要做通用状态大盘，先做桌面助手的「还在跑吗」指示：灯只报状态、不读内容，这需求以后多半被大厂内置。
-summary_en: A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting,
-  or stuck.
-inspiration_en: The trend is that people get anxious the moment an AI works out of sight. The entry is
-  not a generic status board — a “is it still running?” light for desktop assistants, status only, no
-  content. Big vendors will likely bake this in later.
+category: AI + 开发
+summary_zh: 开发者在 macOS 上同时跑多个编码代理时，Dock 旁会出现一条仿 LED 灯带，把代理的运行状态直接显示在屏幕上；用户据此判断哪个代理还在跑、哪个已经结束，不必逐个切回终端窗口查看。具体支持哪些代理、状态如何映射到灯带，公开材料未说明，仍待核验。
+inspiration: 趋势是编码代理从单次对话变成后台常驻的多任务，状态可见性成了新的摩擦点。切入可以从「同时跑多个代理的小团队」做起，把状态灯做成可挂到工位硬件或团队看板上的信号，而不是只服务单个开发者的桌面装饰。
+summary_en: When developers run several coding agents at once on macOS, a fake LED strip beside the Dock
+  shows each agent's status on screen, so the user can tell which agent is still running and which has
+  finished without switching back to each terminal window. Which agents are supported and how status maps
+  to the strip are not stated in the public material and remain unverified.
+inspiration_en: The trend is that coding agents move from one-off chats to always-on background tasks,
+  making status visibility a new friction point. An entry point is small teams running several agents
+  at once, turning the status light into a signal that can live on desk hardware or a team board rather
+  than a single developer's desktop ornament.
 priority_review: false
-project_type: ''
-industries: []
-industries_en: []
-jobs: []
-jobs_en: []
+project_type: new_application
+industries:
+- 软件与信息服务
+industries_en:
+- Software and IT services
+jobs:
+- 开发者
+jobs_en:
+- Software developers
 regions: []
 regions_en: []
-open_source: false
+open_source: true
 url: https://github.com/leog/ai-pulse
 canonical_url: https://github.com/leog/ai-pulse
 summary: AI Pulse a fake LED strip beside the macOS Dock that shows agent status
 first_seen: '2026-08-10T22:07:41Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - newssearch
@@ -73,7 +80,7 @@ sightings:
   kind: news
 ---
 
-# ai-pulse
+# AI Pulse
 
 AI Pulse a fake LED strip beside the macOS Dock that shows agent status
 

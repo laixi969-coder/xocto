@@ -1,0 +1,39 @@
+- id: req-initial-yutori-2026-09-11
+  project_slug: yutori
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点均无法从公开材料写出，价值关无法成立。
+    evidence_ids:
+    - ev-75d3c7156a82eccb
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且名单入选不等于用户采用。
+    evidence_ids:
+    - ev-75d3c7156a82eccb
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开信息。
+    evidence_ids:
+    - ev-75d3c7156a82eccb
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付是否确定发生。
+    evidence_ids:
+    - ev-75d3c7156a82eccb
+  next_validation: 收集 Yutori 官方产品页或文档，确认其面向的具体工作流、输入材料与交付结果。
+  market: ''
+  job: 公开材料未说明谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not state who, under what circumstances, processes what materials to complete
+    what task.
+  pain: 公开材料未说明它替代的旧做法或用户痛点。
+  pain_en: Public material does not describe the legacy practice it replaces or the user pain.
+  current_alternative: 公开材料未说明现有替代方式。
+  current_alternative_en: Public material does not describe current alternatives.
+  usage_reason: 仅有入选名单这一关注度事实，无法说明用户为何选择它，也无法证明持续使用。
+  usage_reason_en: Only a list-selection fact exists, which cannot explain why users choose it or prove
+    continued use.

@@ -1,6 +1,6 @@
 ---
 slug: euno获2300万美元融资打造ai原生上下文引擎-人工智能
-name: Euno获2300万美元融资，打造AI原生上下文引擎-人工智能
+name: Euno
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ud1kxU3ljbDNl
 summary: Euno获2300万美元融资，打造AI原生上下文引擎-人工智能 zhiding.cn
 first_seen: '2026-09-10T09:04:09Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Euno获2300万美元融资，打造AI原生上下文引擎-人工智能
+# Euno
 
 Euno获2300万美元融资，打造AI原生上下文引擎-人工智能 zhiding.cn
 

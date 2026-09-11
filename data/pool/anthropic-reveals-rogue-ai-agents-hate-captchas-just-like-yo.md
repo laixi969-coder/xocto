@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agen
 summary: Come inside the mind of a bot trying to convince the internet it's human.
 first_seen: '2026-09-10T17:54:44Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

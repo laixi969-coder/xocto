@@ -1,0 +1,48 @@
+- id: req-initial-memory-bridge-2026-09-11
+  project_slug: memory-bridge
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决跨设备跨客户端记忆丢失的需求，痛点是重复交代背景，属工作流推理而非用户口述。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-fe322f2470e63267
+  - gate: consensus
+    status: insufficient
+    reason: 星标从 85 增至 92，但无 fork、无 issue 讨论，看不出开发者是否真的接入或复现。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-fe322f2470e63267
+  - gate: model
+    status: insufficient
+    reason: 开源项目未见定价页或商业主体，付费路径不明，属判断而非已验证事实。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-fe322f2470e63267
+  - gate: truth
+    status: insufficient
+    reason: 未说明记忆存储位置、加密方式与用户确认边界，隐私与安全承诺能否确定性交付尚不可核验。
+    evidence_ids:
+    - ev-f266a2c77e61ecf8
+    - ev-fe322f2470e63267
+  next_validation: 收集该仓库的 README 与 issue/discussion，核验其记忆存储方式、隐私边界与是否有开发者实际接入。
+  market: ''
+  job: 个人用户与开发者在多台设备、多个 AI 客户端之间切换时，需要把对话记忆与偏好同步到同一份可复用记忆里，避免每次重新交代背景。
+  job_en: Individuals and developers switching between multiple devices and AI clients need to sync conversation
+    memory and preferences into one reusable store instead of restating context each time.
+  pain: 记忆被锁在单个应用或单台设备里，换客户端就要重新输入背景，重复交代既费时又容易遗漏关键偏好。
+  pain_en: Memory is locked inside one app or device, so switching clients means re-entering context,
+    which is time-consuming and easily drops key preferences.
+  current_alternative: 用户手动复制粘贴历史对话，或依赖各平台自带的账号同步，跨平台时只能重新开始。
+  current_alternative_en: Users manually copy and paste past conversations, or rely on each platform's
+    own account sync, starting over when crossing platforms.
+  usage_reason: 推断：相较手动复制粘贴或依赖单平台同步，它把记忆抽成跨设备可读写的独立层，省去换设备时重新交代背景这一步，因此同时使用多个 AI 客户端的开发者会尝试接入；但仓库无 fork、无
+    issue 讨论，缺少真实迁移与留存证据。
+  usage_reason_en: 'Inference: compared with manual copy-paste or single-platform sync, it abstracts memory
+    into an independent layer readable and writable across devices, removing the step of restating context
+    when switching devices, so developers using several AI clients would try to integrate it; the repository
+    has no forks or issue discussion, so real migration and retention evidence is missing.'

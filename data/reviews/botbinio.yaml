@@ -1,0 +1,42 @@
+- id: req-initial-botbinio-2026-09-11
+  project_slug: botbinio
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 能看出它要解决 agent 产物分享这一步，但公开材料只有一句定位，缺少旧流程、频率与不采用后果，价值结构尚不完整。
+    evidence_ids:
+    - ev-c7077454ce41b127
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 9 点、5 条评论的社区讨论，无法判断是否形成稳定使用场景。
+    evidence_ids:
+    - ev-c7077454ce41b127
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或买方说明，钱来自个人开发者还是团队协作无法判断，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-c7077454ce41b127
+  - gate: truth
+    status: insufficient
+    reason: 无法核对产物是否可确定性保存与访问，也未说明敏感 agent 输出的安全边界。
+    evidence_ids:
+    - ev-c7077454ce41b127
+  next_validation: 收集该站点官方页面上的产物类型、保存期限与权限说明，或仓库 issue/discussion 中的实际使用反馈。
+  market: ''
+  job: 开发者在调试或交接 AI agent 运行结果时，处理 agent 产生的日志与输出片段，需要生成一个可分享的链接交给同事查看。
+  job_en: When debugging or handing off AI agent runs, developers handle agent-produced logs and output
+    fragments and need a shareable link to pass to colleagues.
+  pain: agent 产物体量大、格式杂，直接贴进聊天工具会截断或丢失上下文；公开材料未给出用户抱怨或替代行为的直接证据。
+  pain_en: Agent artifacts are large and messy, and pasting them into chat tools truncates or loses context;
+    public material gives no direct evidence of user complaints or workarounds.
+  current_alternative: 用通用 pastebin、云盘或聊天工具直接粘贴 agent 输出。
+  current_alternative_en: Using a general pastebin, cloud drive, or pasting agent output straight into
+    chat tools.
+  usage_reason: 推断：相较通用 pastebin，它若针对 agent 产物做结构化展示与链接分享，可省去手工整理格式这一步，因此调试 agent 的开发者可能试用；但留存与重复使用证据缺失。
+  usage_reason_en: 'Inference: versus a general pastebin, structured display and link sharing for agent
+    artifacts could remove the manual formatting step, so developers debugging agents may try it; retention
+    and repeat-use evidence is missing.'

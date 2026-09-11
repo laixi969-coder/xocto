@@ -1,11 +1,16 @@
 ---
 slug: anthropics-anthropic-sdk-python-v150
-name: 'anthropics/anthropic-sdk-python: v1.5.0'
+name: Anthropic Python SDK
 builder: anthropics
 category: ''
-summary_zh: ''
+summary_zh: Anthropic 于 2026 年 9 月 10 日发布 Python SDK v1.5.0：托管 Agent（Managed Agents）新增 auto 模式工具权限、免授权令牌挂载公开代码仓库，并加入用户画像
+  beta 字段，消息接口可直接传入工具对象。对构建 Agent 应用的团队，权限配置与代码仓库接入被收进官方库，接入托管 Agent 的自建步骤减少；这一成本影响属推断，发布说明仅证明功能本身。
 inspiration: ''
-summary_en: ''
+summary_en: 'On September 10, 2026, Anthropic shipped Python SDK v1.5.0: Managed Agents gained auto-mode
+  tool permissions and token-free mounting of public code repositories, a user-profiles beta field was
+  added, and message methods now accept tool objects directly. For teams building agent applications,
+  permission configuration and repository access move into the official library, reducing self-built integration
+  steps; this cost impact is an inference — the release notes only prove the features themselves.'
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -78,7 +83,7 @@ summary: '## 1.5.0 (2026-09-10)
   * **tests:** restore empty test package marker files ([0803af0](https://github.com/anthropics/anthropic-sdk-python/commit/0803af0f3a2c03ddd5e5c113ec1822f1a7380bf2))'
 first_seen: '2026-09-10T17:45:22Z'
 last_seen: '2026-09-11T00:10:34Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -90,7 +95,7 @@ sightings:
   kind: news
 ---
 
-# anthropics/anthropic-sdk-python: v1.5.0
+# Anthropic Python SDK
 
 ## 1.5.0 (2026-09-10)
 

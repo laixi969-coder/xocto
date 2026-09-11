@@ -21,7 +21,7 @@ canonical_url: https://github.com/ostefani/subnetlens
 summary: OSS local network scanner built in Go with a TUI
 first_seen: '2026-09-10T08:34:11Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

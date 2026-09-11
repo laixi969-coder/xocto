@@ -21,7 +21,7 @@ canonical_url: https://vibeladder.dev
 summary: A rated ladder for vibe coders – we rank the human, not the model
 first_seen: '2026-09-09T16:14:39Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

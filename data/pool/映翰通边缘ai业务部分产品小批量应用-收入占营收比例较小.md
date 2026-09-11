@@ -1,6 +1,6 @@
 ---
 slug: 映翰通边缘ai业务部分产品小批量应用-收入占营收比例较小
-name: 映翰通：边缘AI业务部分产品小批量应用 收入占营收比例较小
+name: 映翰通
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYkFVX3lxTE9admVldElXM1px
 summary: 映翰通：边缘AI业务部分产品小批量应用 收入占营收比例较小 观点网
 first_seen: '2026-09-10T08:08:17Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 映翰通：边缘AI业务部分产品小批量应用 收入占营收比例较小
+# 映翰通
 
 映翰通：边缘AI业务部分产品小批量应用 收入占营收比例较小 观点网
 

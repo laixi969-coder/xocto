@@ -1,0 +1,45 @@
+- id: req-initial-lemonade-launches-car-insurance-in-missouri-with-tesla-fsd-d-2026-09-11
+  project_slug: lemonade-launches-car-insurance-in-missouri-with-tesla-fsd-d
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决车主投保时报价慢、费率与自身风险不匹配的需求，痛点是人工核保与代理渠道耗时且条款不透明，旧替代行为明确。
+    evidence_ids:
+    - ev-12ac4c4d1e970577
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只说明在密苏里州上线并对特斯拉 FSD 车辆提供折扣，未给出投保量、续保率或客户反馈。
+    evidence_ids:
+    - ev-12ac4c4d1e970577
+    - ev-d6ad00fe23e7c3d5
+  - gate: model
+    status: insufficient
+    reason: 买方是投保车主，收入来自保费，但公开材料未披露该州定价、折扣幅度与赔付成本，盈利路径无法核验。
+    evidence_ids:
+    - ev-12ac4c4d1e970577
+    - ev-d6ad00fe23e7c3d5
+  - gate: truth
+    status: insufficient
+    reason: 把辅助驾驶使用情况纳入费率需要可核验的数据来源与监管认可，公开材料未说明数据获取方式与合规依据。
+    evidence_ids:
+    - ev-12ac4c4d1e970577
+  next_validation: 收集 Lemonade 官方车险定价页或密苏里州监管备案文件，核验 FSD 折扣幅度与核保数据来源。
+  market: ''
+  job: 车主在购买或续保车险时，需要提交车辆信息、驾驶记录和使用情况，完成核保、报价与出单，并希望保费与自身实际风险匹配。
+  job_en: Car owners buying or renewing auto insurance must submit vehicle information, driving records
+    and usage, complete underwriting, quoting and issuance, and want premiums to match their actual risk.
+  pain: 传统车险流程依赖人工核保与代理渠道，报价慢、条款不透明，风险低的车主难以获得与自身驾驶行为匹配的费率。
+  pain_en: Traditional auto insurance relies on manual underwriting and agent channels, with slow quotes
+    and opaque terms, and lower-risk drivers struggle to get rates matching their driving behavior.
+  current_alternative: 旧做法是通过代理人或比价网站获取报价，填写表格后等待人工核保，费率主要依据车型、年龄和既往理赔记录。
+  current_alternative_en: The old way is getting quotes through agents or comparison sites, filling forms
+    and waiting for manual underwriting, with rates based mainly on vehicle model, age and prior claims.
+  usage_reason: 相较人工核保与代理报价，Lemonade 用自动化流程直接完成核保与出单，并把辅助驾驶使用情况纳入定价，使符合条件的车主在投保时少走人工环节；推断，使用辅助驾驶的车主会因折扣与快速出单而选择它。
+  usage_reason_en: Compared with manual underwriting and agent quotes, Lemonade completes underwriting
+    and issuance through an automated process and folds assisted-driving usage into pricing, cutting manual
+    steps for eligible owners; this is inference, and drivers using assisted driving would choose it for
+    the discount and fast issuance.

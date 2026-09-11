@@ -22,7 +22,7 @@ summary: Run several Claude Desktop accounts side by side on macOS, sharing Clau
   them
 first_seen: '2026-08-23T22:40:56Z'
 last_seen: '2026-09-11T00:10:34Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

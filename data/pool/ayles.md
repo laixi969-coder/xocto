@@ -21,7 +21,7 @@ canonical_url: https://ayles.github.io/doom-in-kernel
 summary: DOOM in the kernel, or fibers in eBPF
 first_seen: '2026-09-09T17:31:39Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

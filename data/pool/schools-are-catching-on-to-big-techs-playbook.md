@@ -24,7 +24,7 @@ summary: It's the hot new thing in tech, and it's where all the jobs are. Studen
   on […]
 first_seen: '2026-09-10T19:44:20Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

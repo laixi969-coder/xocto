@@ -1,0 +1,43 @@
+- id: req-initial-self-hosted-company-os-2026-09-11
+  project_slug: self-hosted-company-os
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: pseudo_demand
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: challenged
+    reason: 它想解决部门任务交给代理执行的问题，但公开材料说不出替代了哪一步旧工作、不采用会失去什么，价值关未过。
+    evidence_ids:
+    - ev-7e4b0a0fafc3ac2b
+    - ev-2bf4e4528e7b2070
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，社区 46 点与 14 条评论只反映关注度，不能说明部门级持续采用。
+    evidence_ids:
+    - ev-7e4b0a0fafc3ac2b
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，未见定价、买方或付费路径的任何公开信息。
+    evidence_ids:
+    - ev-7e4b0a0fafc3ac2b
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，代理在部门内的权限边界、人工复核与交付确定性均无公开说明。
+    evidence_ids:
+    - ev-2bf4e4528e7b2070
+  next_validation: 收集该仓库的 README、部署文档与 issue，核验它具体替代了哪个部门流程并给出可复现的运行示例。
+  market: ''
+  job: 企业 IT 或运营人员需要在自托管环境里把部门重复任务交给编码代理执行并保持可控。
+  job_en: Enterprise IT or operations staff need to hand repetitive departmental tasks to coding agents
+    in a self-hosted environment while keeping control.
+  pain: 公开材料只说明代理按部门部署，未说明替代了哪一步人工工作、不采用会失去什么，痛点无法确认。
+  pain_en: Public material only says agents are deployed by department; it does not say which manual step
+    is replaced or what is lost without it, so the pain cannot be confirmed.
+  current_alternative: 企业目前多让员工各自使用编码代理，或由内部团队自行搭建脚本与权限管理。
+  current_alternative_en: Enterprises currently let employees use coding agents individually, or have
+    internal teams build their own scripts and permission handling.
+  usage_reason: 推断：相较个人各自使用代理，它把代理按部门集中部署，可能减少权限与配置的重复工作，但缺少具体任务与交付证据，无法确认用户为何选择它。
+  usage_reason_en: 'Inference: compared with individuals using agents separately, it centralizes agents
+    by department, possibly reducing repeated permission and configuration work, but without concrete
+    task and delivery evidence it is unclear why users would choose it.'

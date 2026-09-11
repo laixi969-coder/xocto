@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNUozeHVSQzFz
 summary: '[Report] Consumers want creators in AI shopping marketingreport.one'
 first_seen: '2026-09-10T09:28:10Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

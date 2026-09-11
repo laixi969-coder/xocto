@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE03OXN5Vm5vcklS
 summary: 多宝介绍指导背后：AI基础设施如何走出差异化路径 体坛
 first_seen: '2026-09-09T15:11:28Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

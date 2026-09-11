@@ -1,6 +1,6 @@
 ---
 slug: embodied-ai-startup-phymi-raises-nearly-us100-million-in-see
-name: Embodied AI startup PHYMI raises nearly US$100 million in seed funding
+name: PHYMI
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMipAFBVV95cUxPbzZ5X2d4NC1u
 summary: Embodied AI startup PHYMI raises nearly US$100 million in seed funding TechNode
 first_seen: '2026-09-10T06:35:21Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Embodied AI startup PHYMI raises nearly US$100 million in seed funding
+# PHYMI
 
 Embodied AI startup PHYMI raises nearly US$100 million in seed funding TechNode
 

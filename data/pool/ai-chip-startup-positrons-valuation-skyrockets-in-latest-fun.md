@@ -1,6 +1,6 @@
 ---
 slug: ai-chip-startup-positrons-valuation-skyrockets-in-latest-fun
-name: AI chip startup Positron's valuation skyrockets in latest funding round
+name: Positron
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOQUZPaU5xcHpu
 summary: AI chip startup Positron's valuation skyrockets in latest funding round TradingView
 first_seen: '2026-09-10T15:45:05Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# AI chip startup Positron's valuation skyrockets in latest funding round
+# Positron
 
 AI chip startup Positron's valuation skyrockets in latest funding round TradingView
 

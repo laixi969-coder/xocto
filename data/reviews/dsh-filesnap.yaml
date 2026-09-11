@@ -1,0 +1,43 @@
+- id: req-initial-dsh-filesnap-2026-09-11
+  project_slug: dsh-filesnap
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理改坏文件后无法整体回退的痛点，旧做法是 git 或手工还原，不用会丢失大量重写时间，价值结构成立。
+    evidence_ids:
+    - ev-9bcf946fcc387373
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标 43，属于早期关注度，未见开发者反馈或社区讨论证明它已进入日常工作流。
+    evidence_ids:
+    - ev-9bcf946fcc387373
+  - gate: model
+    status: insufficient
+    reason: 开源插件未披露定价或付费路径，买方可能是个人开发者或团队，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-9bcf946fcc387373
+  - gate: truth
+    status: insufficient
+    reason: “最快最可靠”为项目自述，缺少可复现的恢复正确性验证，也未说明与 git 冲突时的处理边界。
+    evidence_ids:
+    - ev-9bcf946fcc387373
+  next_validation: 收集该仓库 issue 与发布说明中关于恢复正确性、失败场景和与 git 共存方式的公开记录。
+  market: ''
+  job: 使用 DeepSeek Harness 的开发者在一轮对话把多个文件改坏后，需要把对话和文件一起退回到改动之前的状态。
+  job_en: A developer using DeepSeek Harness whose files were broken during a session needs to roll the
+    conversation and files back to the state before the change.
+  pain: 代理批量改文件后很难逐一手工还原，没有 git 仓库时几乎无法回退，只能凭记忆重写。
+  pain_en: After an agent edits many files, manual restoration is hard, and without a git repository rollback
+    is nearly impossible, forcing rewrites from memory.
+  current_alternative: 用 git 提交或手动备份文件，再逐个还原被改动的文件。
+  current_alternative_en: Using git commits or manual file backups, then restoring each changed file by
+    hand.
+  usage_reason: 推断：它把对话轮次与文件改动绑定记录，一次操作即可整体回退并支持撤销，省去逐文件比对和手工还原这一步，因此没有用 git 管理、又频繁让代理改文件的开发者会在出错时选择它；公开材料未提供用户反馈或重复使用证据。
+  usage_reason_en: 'Inference: it records conversation turns together with file changes so one action
+    rolls everything back and can be undone, removing per-file comparison and manual restoration. Developers
+    who do not use git but let agents edit files often would choose it when something breaks; no user
+    feedback or repeat-use evidence is provided.'

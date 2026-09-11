@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTFBLbHpSeFc3NG1w
 summary: 国金证券秋季策略会：AI进入兑现验证期，中国资产迎结构性复苏 财联社
 first_seen: '2026-09-10T07:53:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

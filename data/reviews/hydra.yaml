@@ -1,0 +1,44 @@
+- id: req-initial-hydra-2026-09-11
+  project_slug: hydra
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决终端长任务中会话状态丢失的问题，旧做法是人工重连或 tmux 加脚本，痛点具体，结构上成立。
+    evidence_ids:
+    - ev-bff2a8c0298a694a
+    - ev-0594034a5f849034
+  - gate: consensus
+    status: insufficient
+    reason: 只有14点、8条评论的社区讨论，没有用户案例或采用数据说明谁在持续使用。
+    evidence_ids:
+    - ev-bff2a8c0298a694a
+    - ev-0594034a5f849034
+  - gate: model
+    status: insufficient
+    reason: 开源项目，公开材料未说明付费方或商业路径，托管服务收费只是判断，不是已验证事实。
+    evidence_ids:
+    - ev-bff2a8c0298a694a
+  - gate: truth
+    status: insufficient
+    reason: 让 agent 在真实终端持续执行命令涉及误操作与权限边界，公开材料未说明人工确认或回滚机制。
+    evidence_ids:
+    - ev-bff2a8c0298a694a
+  next_validation: 收集该仓库的 issue 与 README 更新，确认是否有用户报告在真实部署或排障任务中持续使用该会话机制。
+  market: ''
+  job: 开发者或运维需要在真实终端里让 agent 连续执行多步命令、保持会话与环境状态，完成部署、排障或数据处理任务。
+  job_en: A developer or ops engineer needs an agent to run multi-step commands in a real terminal while
+    keeping session and environment state, to finish deployment, debugging or data tasks.
+  pain: 普通 agent 每次调用都是无状态的一次性命令，长任务中断后要重新建立环境，人工得反复重连和复述上下文。
+  pain_en: Ordinary agent calls are stateless one-shot commands, so long tasks lose their environment
+    on interruption and people must reconnect and restate context repeatedly.
+  current_alternative: 人工在终端里手动执行命令，或使用 tmux/screen 加脚本，或让 agent 在无状态沙箱里跑一次性命令。
+  current_alternative_en: Manual command execution in the terminal, tmux/screen plus scripts, or agents
+    running one-shot commands in stateless sandboxes.
+  usage_reason: 推断：常驻 PTY 守护进程让会话状态不随单次调用丢失，省掉了每次重建环境与重述上下文这一步，因此跑长任务的开发者会先试它；公开材料没有留存或重复使用证据。
+  usage_reason_en: 'Inference: a resident PTY daemon keeps session state across calls, removing the step
+    of rebuilding the environment and restating context each time, so developers running long tasks would
+    try it first; public material shows no retention or repeat-use evidence.'

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEd6RUpWa0dX
 summary: Anthropic Investor Leads Funding for Off-Grid AI Power Startup Bloomberg.com
 first_seen: '2026-09-10T12:00:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

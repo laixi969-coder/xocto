@@ -1,0 +1,41 @@
+- id: req-initial-salesforce-in-talks-to-acquire-ai-customer-research-startup-2026-09-11
+  project_slug: salesforce-in-talks-to-acquire-ai-customer-research-startup
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决什么需求、什么痛点都写不出来，只有收购洽谈与金额，价值关无法成立。
+    evidence_ids:
+    - ev-359a65706d26ba91
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且无采用或留存证据可判断共识。
+    evidence_ids:
+    - ev-359a65706d26ba91
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与收费方式均无公开信息。
+    evidence_ids:
+    - ev-359a65706d26ba91
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，无法核对交付确定性与人工边界。
+    evidence_ids:
+    - ev-359a65706d26ba91
+  next_validation: 收集 Listen Labs 官方产品页或客户案例，确认其输入材料、AI 分析动作与交付结论。
+  market: ''
+  job: 公开材料未说明具体使用者与场景，无法确认谁在什么情况下处理什么材料、要完成什么任务。
+  job_en: Public material does not identify the user or scenario, so who handles what material to finish
+    which task cannot be confirmed.
+  pain: 材料未给出用户研究环节的痛点、旧做法耗时或失败后果。
+  pain_en: The material gives no pain point, time cost of the old approach, or consequence of failure
+    in the research workflow.
+  current_alternative: 材料未说明现有替代方式，无法判断团队目前如何做访谈与用户研究。
+  current_alternative_en: The material does not describe existing alternatives, so how teams currently
+    conduct interviews and user research is unknown.
+  usage_reason: 缺少产品能力、输入输出与替代对象的细节，无法解释用户为何选择它；收购洽谈本身不构成使用理由。
+  usage_reason_en: With no detail on product capability, inputs, outputs or substitutes, there is no basis
+    to explain why users would choose it; acquisition talks alone are not a usage reason.

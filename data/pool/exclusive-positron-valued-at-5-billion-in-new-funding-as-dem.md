@@ -1,6 +1,6 @@
 ---
 slug: exclusive-positron-valued-at-5-billion-in-new-funding-as-dem
-name: Exclusive | Positron Valued at $5 Billion in New Funding as Demand for AI Chips Surges
+name: Positron
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiowFBVV95cUxQZWpZd1RtLU1t
 summary: Exclusive | Positron Valued at $5 Billion in New Funding as Demand for AI Chips Surges WSJ
 first_seen: '2026-09-10T14:08:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# Exclusive | Positron Valued at $5 Billion in New Funding as Demand for AI Chips Surges
+# Positron
 
 Exclusive | Positron Valued at $5 Billion in New Funding as Demand for AI Chips Surges WSJ
 

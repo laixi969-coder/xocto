@@ -21,7 +21,7 @@ canonical_url: https://static.laszlokorte.de/rotor-reflect
 summary: Rotation via Double Reflection
 first_seen: '2026-08-21T17:18:06Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 - officialfeeds

@@ -21,7 +21,7 @@ canonical_url: https://drop.space
 summary: They chose your competitor. Find out why
 first_seen: '2026-09-10T02:20:02Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

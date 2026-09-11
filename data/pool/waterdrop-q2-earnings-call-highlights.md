@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMingFBVV95cUxPcGJrRTBjMlRo
 summary: Waterdrop Q2 Earnings Call Highlights TradingView
 first_seen: '2026-09-08T14:03:22Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

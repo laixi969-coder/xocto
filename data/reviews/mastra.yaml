@@ -1,0 +1,43 @@
+- id: req-initial-mastra-2026-09-11
+  project_slug: mastra
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决开发团队把大模型接入业务系统时的编排与状态管理需求，痛点来自重复搭建胶水代码，属工作流推理。
+    evidence_ids:
+    - ev-e03822e533ce5af1
+  - gate: consensus
+    status: insufficient
+    reason: 只有榜单入选与融资节奏，没有开发者采用规模、复现记录或社区讨论，共识强度无法判断。
+    evidence_ids:
+    - ev-e03822e533ce5af1
+  - gate: model
+    status: insufficient
+    reason: 公开材料未给出定价页或付费客户，买方可能是开发团队或企业采购，属判断而非已验证事实。
+    evidence_ids:
+    - ev-e03822e533ce5af1
+  - gate: truth
+    status: insufficient
+    reason: 未见部署文档、安全边界或人工复核机制说明，承诺能否确定性交付尚不可核验。
+    evidence_ids:
+    - ev-e03822e533ce5af1
+  next_validation: 收集 Mastra 官方定价页与公开客户案例，核验其付费方式与生产环境采用情况。
+  market: ''
+  job: 应用开发团队在把大模型接入自有业务系统时，需要搭建智能体编排、工具调用与状态管理的工作流，并把它部署成可运行的服务。
+  job_en: Application teams wiring large models into their own business systems need to build agent orchestration,
+    tool-calling and state-management workflows and deploy them as running services.
+  pain: 从零拼装模型调用、工具接入与状态管理重复且易错，团队要花大量时间在非业务逻辑的胶水代码上。
+  pain_en: Assembling model calls, tool integrations and state management from scratch is repetitive and
+    error-prone, forcing teams to spend time on glue code rather than business logic.
+  current_alternative: 团队自行用脚本和内部库拼装调用链，或直接使用其他开源编排框架与云厂商的智能体服务。
+  current_alternative_en: Teams hand-roll call chains with scripts and internal libraries, or adopt other
+    open-source orchestration frameworks and cloud vendors' agent services.
+  usage_reason: 推断：相较自建胶水代码，它把编排、工具调用与状态管理收敛成一套可复用的开发接口，减少团队在非业务逻辑上的重复搭建，因此正在做智能体产品的开发团队会在项目早期选用；但公开材料没有客户案例或留存数据，无法确认其被长期留在生产工作流中。
+  usage_reason_en: 'Inference: compared with hand-rolled glue code, it consolidates orchestration, tool
+    calling and state management into one reusable development interface, cutting repetitive non-business
+    work, so teams building agent products would adopt it early in a project; no customer case or retention
+    data is public, so long-term production retention cannot be confirmed.'

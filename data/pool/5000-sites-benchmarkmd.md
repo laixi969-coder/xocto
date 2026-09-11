@@ -21,7 +21,7 @@ canonical_url: https://github.com/Kooboo/Kooboo/blob/main/Docs/5000-sites-benchm
 summary: We served 5k dynamic websites from a 2-vCPU, 4 GB VPS
 first_seen: '2026-09-10T14:59:43Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

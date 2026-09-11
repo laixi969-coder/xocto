@@ -1,0 +1,45 @@
+- id: req-initial-lovable-2026-09-11
+  project_slug: lovable
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决非技术创业者从想法到可运行应用之间的工程缺口，痛点是找人写代码慢且贵，旧替代是外包或模板建站，结构上成立。
+    evidence_ids:
+    - ev-136c7f784b97b966
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只显示入选榜单与融资，未提供用户规模、留存或团队内持续使用的证据，无法判断共识是否形成。
+    evidence_ids:
+    - ev-136c7f784b97b966
+  - gate: model
+    status: insufficient
+    reason: 未披露定价页与付费结构，买方可能是个人开发者或企业团队，收入来自订阅还是按项目收费仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-136c7f784b97b966
+  - gate: truth
+    status: insufficient
+    reason: 生成代码能否确定性交付可上线应用、人工复核边界在哪，公开材料未说明，需看部署文档与实测结果。
+    evidence_ids:
+    - ev-136c7f784b97b966
+  next_validation: 收集 Lovable 官方定价页与部署文档，核验其按什么计价、生成结果的可上线程度与人工复核边界。
+  market: ''
+  job: 非技术创业者或产品经理在需要把想法变成可上线网页应用时，用自然语言描述需求并迭代生成前端与后端代码。
+  job_en: Non-technical founders or product managers who need to turn an idea into a shippable web app
+    describe requirements in natural language and iterate on generated front-end and back-end code.
+  pain: 没有工程团队时，从想法到可运行应用要经历找开发者、写需求、反复沟通和排期，周期长且成本高，很多想法因此停在原型之前。
+  pain_en: Without an engineering team, going from idea to a running app requires finding developers,
+    writing specs, repeated back-and-forth and scheduling, which is slow and costly, so many ideas never
+    get past the prototype stage.
+  current_alternative: 旧做法是雇外包团队或自己学前端框架，用模板建站工具拼装，或只做 Figma 原型后搁置。
+  current_alternative_en: The old approach is hiring an outsourcing team, learning a front-end framework,
+    assembling template site builders, or stopping at a Figma prototype.
+  usage_reason: 相较外包或自学，它把“写第一版可运行代码”这一步从数周沟通压缩为一次自然语言描述加多轮修改，让没有工程背景的人能先拿到可部署的应用再决定是否投入工程资源；这是基于产品能力与任务结构的推断，公开材料未提供留存或复购证据。
+  usage_reason_en: Compared with outsourcing or self-learning, it compresses the first working code version
+    from weeks of communication into one natural-language description plus iterations, letting people
+    without engineering backgrounds get a deployable app before committing engineering resources; this
+    is an inference from product capability and task structure, as public materials provide no retention
+    or repeat-use evidence.

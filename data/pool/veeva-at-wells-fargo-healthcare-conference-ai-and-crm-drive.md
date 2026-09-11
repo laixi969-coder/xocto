@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOZE10NWx4SmtI
 summary: 'Veeva at Wells Fargo healthcare conference: ai and crm drive growth Investing.com UK'
 first_seen: '2026-09-09T18:58:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

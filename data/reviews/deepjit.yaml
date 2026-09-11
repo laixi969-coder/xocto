@@ -1,0 +1,44 @@
+- id: req-initial-deepjit-2026-09-11
+  project_slug: deepjit
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是非英伟达加速卡上内核编译与适配的问题，痛点真实存在，但公开材料未说明支持哪些硬件、替代了哪一步具体人工流程，价值强度无法判定。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标与分叉数，属于关注度而非采用证据，无法判断是否有团队把它放进生产流程。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+  - gate: model
+    status: insufficient
+    reason: 开源库本身没有公开定价或付费路径，买方可能是自建推理集群的企业或云厂商，这是判断而非已验证事实。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+  - gate: truth
+    status: insufficient
+    reason: 无法从公开材料确认编译结果是否稳定可复现、支持哪些硬件，以及出错时的人工边界在哪里。
+    evidence_ids:
+    - ev-b0671fe510f8b9f0
+  next_validation: 收集 DeepJIT 官方仓库的 README 与文档，确认其支持的 xPU 硬件清单、编译流程说明与已知限制。
+  market: ''
+  job: 在非英伟达加速卡上部署大模型推理的工程团队，在把模型搬到自己或客户的 xPU 机器时，需要处理内核代码并让它在该硬件上可执行，最终拿到能跑起来的推理服务。
+  job_en: Engineering teams deploying large-model inference on non-NVIDIA accelerators, when moving a
+    model onto their own or a client's xPU machines, must handle kernel code and make it executable on
+    that hardware, ending with a working inference service.
+  pain: 不同 xPU 的编译链和内核适配各不相同，团队往往要自己写编译流程并长期维护，换卡或升级模型就要重做一遍。
+  pain_en: Compilation chains and kernel adaptation differ across xPU vendors, so teams often write and
+    maintain their own compilation pipeline, redoing it whenever they change cards or upgrade models.
+  current_alternative: 目前多由团队自建编译脚本、依赖厂商提供的闭源工具链，或干脆只选英伟达方案绕开适配。
+  current_alternative_en: Today teams mostly build their own compilation scripts, rely on vendor closed-source
+    toolchains, or simply choose NVIDIA to avoid adaptation work.
+  usage_reason: 推断：相较自建编译脚本，DeepJIT 把即时编译封装成库，可能省去为每种 xPU 单独维护编译流程这一步，因此正在做国产或自研加速卡推理部署的团队会先试用它；公开材料未给出采用或留存证据。
+  usage_reason_en: 'Inference: compared with self-built compilation scripts, DeepJIT packages JIT compilation
+    as a library, potentially removing the step of maintaining a separate compilation pipeline per xPU,
+    so teams doing domestic or in-house accelerator inference deployment would try it first; public materials
+    give no adoption or retention evidence.'

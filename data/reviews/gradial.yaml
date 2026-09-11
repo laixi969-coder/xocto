@@ -1,0 +1,41 @@
+- id: req-initial-gradial-2026-09-11
+  project_slug: gradial
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决什么需求、什么痛点都写不出来，只有“营销运营 agent”这一分类标签，价值关无法成立。
+    evidence_ids:
+    - ev-e87fd46386691cc1
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值不成立，且入选名单只说明机构关注，不构成岗位层面的采用共识。
+    evidence_ids:
+    - ev-e87fd46386691cc1
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值不成立，买方与付费路径均无公开材料。
+    evidence_ids:
+    - ev-e87fd46386691cc1
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值不成立，交付是否确定发生无从判断。
+    evidence_ids:
+    - ev-e87fd46386691cc1
+  next_validation: 收集 Gradial 官方产品页或文档，确认它接收的输入、执行动作与交付物，以及是否公开定价。
+  market: ''
+  job: 营销运营人员在上线营销活动前，需要处理素材、渠道与投放清单等材料，完成活动配置与核对。
+  job_en: A marketing operations person prepares assets, channel and placement lists before a campaign
+    goes live, and completes campaign setup and checks.
+  pain: 候选材料未说明具体痛点，只能推断营销运营存在重复配置与人工核对负担，属于推断。
+  pain_en: The candidate material states no specific pain; the repetitive setup and manual checking burden
+    in marketing operations is an inference only.
+  current_alternative: 候选材料未提供现有替代做法，无法确认此前由谁、用什么工具完成。
+  current_alternative_en: The candidate material provides no current alternative, so who did this before
+    and with which tools cannot be confirmed.
+  usage_reason: 缺少产品功能、输入输出与定价信息，无法说明它相较旧做法减少了哪一步负担，因此无法给出使用理由。
+  usage_reason_en: With no product capability, input/output or pricing information, there is no way to
+    say which step it removes versus the old approach, so no usage reason can be given.

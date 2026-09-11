@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Kc01sejF6QWJl
 summary: 利来W66开户平台携手京东全渠道首发 AI 智能烤箱，共建智慧厨电生态 体坛
 first_seen: '2026-09-09T21:54:03Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UemYwMFJPSDUy
 summary: 2026边缘AI峰会于银河平台现金PT展示AI TOP产品线 推动本地AI生态系统 体坛
 first_seen: '2026-09-09T08:15:05Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

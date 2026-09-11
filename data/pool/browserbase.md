@@ -23,7 +23,7 @@ summary: Named to Madrona's 2026 Intelligent Applications 40 (Emerging Enabler s
   months, with Series A landing just four to six months after seed.
 first_seen: '2026-08-31T15:00:01+00:00'
 last_seen: '2026-09-10T16:51:24Z'
-status: pending_filter
+status: rejected
 sources:
 - ia40
 sightings:

@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE1TbFVORXBldGly
 summary: 188bet功能客户端全面升级：驱动AI时代产业协同与全球数字生态重构- 体坛网_体坛+ 体坛
 first_seen: '2026-09-10T02:45:33Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

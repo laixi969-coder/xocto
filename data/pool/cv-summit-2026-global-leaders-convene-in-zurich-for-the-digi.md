@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiekFVX3lxTE5MeVZZajJzT3pE
 summary: 'CV Summit 2026: Global Leaders Convene in Zurich for the Digital Assets, AI conference BeInCrypto'
 first_seen: '2026-09-10T02:02:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

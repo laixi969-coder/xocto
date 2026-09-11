@@ -1,0 +1,45 @@
+- id: req-initial-cluxmate-2026-09-11
+  project_slug: cluxmate
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决代理改代码时权限失控与会话不可复现的需求，出错难定位是真实痛点；买方与付费方式未披露。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+    - ev-ad027fe070fed755
+  - gate: consensus
+    status: insufficient
+    reason: 仓库星标由 119 增至 120，仅属关注度，无团队采用或重复使用证据。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+    - ev-ad027fe070fed755
+  - gate: model
+    status: insufficient
+    reason: 开源项目无定价页，是否靠托管或支持收费是判断，不是已验证事实。
+    evidence_ids:
+    - ev-ad027fe070fed755
+  - gate: truth
+    status: insufficient
+    reason: 沙箱隔离强度与权限分级的实际效果无独立测试或文档证据。
+    evidence_ids:
+    - ev-c764fcf981e9d0fd
+  next_validation: 收集该仓库的 issue/discussion 或部署文档，确认沙箱与权限分级在真实项目中的使用反馈及是否存在付费托管。
+  market: ''
+  job: 软件开发者在本机或服务器上让代理执行多步代码修改任务，需要控制代理能碰哪些文件与命令，并在出错后回看每一步。
+  job_en: A software developer lets an agent run multi-step code changes locally or on a server, needing
+    control over which files and commands it may touch and a way to review each step after errors.
+  pain: 让代理直接改代码时，越权操作和不可复现的会话让开发者不敢放手，出问题难以定位。
+  pain_en: When an agent edits code directly, over-broad permissions and non-reproducible sessions make
+    developers hold back, and failures are hard to trace.
+  current_alternative: 目前开发者多用现成编码代理或自己写脚本，权限靠人工盯守，出错后靠日志和记忆回溯。
+  current_alternative_en: Developers today use existing coding agents or their own scripts, watch permissions
+    manually, and reconstruct failures from logs and memory.
+  usage_reason: 相较人工盯守，它把权限按风险分级并放进系统级沙箱，会话事件可回放，开发者只需在越界或失败时回看具体步骤，减少的是事后排查与授权判断这一步；推断，尚无用户反馈或留存证据。
+  usage_reason_en: Compared with manual watching, it tiers permissions by risk inside a system-level sandbox
+    and makes sessions replayable, so developers only review specific steps when something is blocked
+    or fails, removing the after-the-fact debugging and authorization judgment step; inference, with no
+    user feedback or retention evidence yet.

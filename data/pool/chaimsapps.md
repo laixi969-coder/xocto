@@ -21,7 +21,7 @@ canonical_url: https://chaimsapps.com
 summary: Two small Chrome extensions for Hebrew text and dates
 first_seen: '2026-09-10T18:35:21Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

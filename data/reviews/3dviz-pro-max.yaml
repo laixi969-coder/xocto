@@ -1,0 +1,41 @@
+- id: req-initial-3dviz-pro-max-2026-09-11
+  project_slug: 3dviz-pro-max
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 明确解决前端开发者快速构建Three.js及Blender可运行场景的高门槛痛点。
+    evidence_ids:
+    - ev-fac1753bcbec2196
+  - gate: consensus
+    status: supported
+    reason: 开源仓库在发布初期获得133颗星，显示出开发者的关注与初步试用。
+    evidence_ids:
+    - ev-fac1753bcbec2196
+  - gate: model
+    status: insufficient
+    reason: 作为开源Agent插件发布，公开材料中未披露商业化付费路径。
+    evidence_ids:
+    - ev-fac1753bcbec2196
+  - gate: truth
+    status: supported
+    reason: 依赖内置可运行配方和知识库约束交付质量，代码生成具有可复现的验证边界。
+    evidence_ids:
+    - ev-fac1753bcbec2196
+  next_validation: 观察开源社区关于复杂场景生成成功率的issue讨论与衍生商用项目案例
+  market: ''
+  job: 前端开发人员或交互设计师需要快速搭建用于展示的Three.js或Blender三维场景原型。
+  job_en: Frontend developers or interaction designers need to quickly prototype interactive Three.js
+    or Blender 3D scenes.
+  pain: 手动编写复杂的WebGL着色器、相机光影配置与网格加载代码门槛高且耗时冗长。
+  pain_en: Hand-crafting complex WebGL shaders, camera lighting configs, and mesh loading code is steep
+    and time-consuming.
+  current_alternative: 寻找开源Three.js模板手动拼装，或由专业3D美术在外部建模软件导出后由前端调试。
+  current_alternative_en: Manually assembling open-source Three.js boilerplate, or waiting for 3D artists
+    to export assets for frontend integration.
+  usage_reason: 推断该工具通过打包成熟的3D配方与知识库，使AI能生成高可用度的场景代码，减少从零搭建样板工程的繁琐步骤。
+  usage_reason_en: Inferred that by packaging proven 3D recipes and knowledge kits, it enables agents
+    to output workable scene code, reducing boilerplate setup friction.

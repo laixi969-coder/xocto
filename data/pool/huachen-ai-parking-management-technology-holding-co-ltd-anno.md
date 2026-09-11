@@ -1,7 +1,6 @@
 ---
 slug: huachen-ai-parking-management-technology-holding-co-ltd-anno
-name: Huachen AI Parking Management Technology Holding Co., Ltd. Announces Strategic Cooperation with
-  Beyinda Limited to Expand Precision Metal Components Market in China
+name: Huachen AI Parking Management Technology Holding Co., Ltd.
 builder: ''
 category: ''
 summary_zh: ''
@@ -23,7 +22,7 @@ summary: Huachen AI Parking Management Technology Holding Co., Ltd. Announces St
   Beyinda Limited to Expand Precision Metal Components Market in China FinancialContent
 first_seen: '2026-09-09T20:05:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -34,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# Huachen AI Parking Management Technology Holding Co., Ltd. Announces Strategic Cooperation with Beyinda Limited to Expand Precision Metal Components Market in China
+# Huachen AI Parking Management Technology Holding Co., Ltd.
 
 Huachen AI Parking Management Technology Holding Co., Ltd. Announces Strategic Cooperation with Beyinda Limited to Expand Precision Metal Components Market in China FinancialContent
 

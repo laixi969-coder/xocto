@@ -1,0 +1,43 @@
+- id: req-initial-not-ai-2026-09-11
+  project_slug: not-ai
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它解决的是 AI 草稿不像人写的问题，痛点存在但刚性不明：不解决也能靠人工改写，公开材料未说明改写质量与合规边界。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+  - gate: consensus
+    status: insufficient
+    reason: 仅有 46 星与 4 次 fork，属早期关注度，不能说明持续采用或场景共识。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与付费路径，买方可能是学生个人或内容团队，属判断而非已验证事实。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+  - gate: truth
+    status: insufficient
+    reason: 改写结果是否稳定、是否仍被检测识别、学术场景是否合规，公开材料均未给出可核对结果。
+    evidence_ids:
+    - ev-d2be96f537bbf0a8
+  next_validation: 收集该仓库的 issue、discussion 或 README 中的实测样例与用户反馈，核对改写前后文本质量与合规说明。
+  market: ''
+  job: 学生与内容创作者在提交作业或发布社交、技术文档前，把 AI 生成的草稿改写成符合人类写作标准的文本。
+  job_en: Students and content creators rewriting AI-generated drafts into human-standard prose before
+    submitting coursework or publishing social and technical documents.
+  pain: AI 草稿措辞生硬、易被识别，用户担心被判定为非本人写作或影响发布效果。
+  pain_en: AI drafts read stiff and are easily flagged, so users worry about being judged as non-original
+    or hurting publication results.
+  current_alternative: 自己逐句重写，或使用改写工具、检测规避工具。
+  current_alternative_en: Rewriting sentence by sentence by hand, or using paraphrasing and detector-evasion
+    tools.
+  usage_reason: 推断：它把'改写'这一步从人工逐句调整变成一次性提交草稿并取回成稿，省去反复润色的时间；但公开材料未给出改写质量、合规边界或用户反馈，因此哪类用户会持续选择它尚不清楚。
+  usage_reason_en: 'Inference: it turns rewriting from manual sentence-by-sentence editing into submitting
+    a draft once and getting a finished text back, saving repeated polishing; but public materials give
+    no rewrite quality, compliance boundary or user feedback, so which users would keep choosing it is
+    unclear.'

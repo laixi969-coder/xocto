@@ -1,0 +1,42 @@
+- id: req-initial-wealthfolio-2026-09-11
+  project_slug: wealthfolio
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它想解决个人资产汇总与隐私顾虑，但公开材料只有一句产品定位，说不清具体痛点、频率与不采用的后果，价值结构无法还原。
+    evidence_ids:
+    - ev-fc1da19a45c2ae25
+  - gate: consensus
+    status: insufficient
+    reason: 未进入：价值关未成立，且没有可归因到该产品的采用、评价或场景证据。
+    evidence_ids:
+    - ev-fc1da19a45c2ae25
+  - gate: model
+    status: insufficient
+    reason: 未进入：价值关未成立，公开材料未说明买方、收费方式或交付路径。
+    evidence_ids:
+    - ev-fc1da19a45c2ae25
+  - gate: truth
+    status: insufficient
+    reason: 未进入：价值关未成立，无法判断其是否贴近个人财务管理的确定性交付与安全边界。
+    evidence_ids:
+    - ev-fc1da19a45c2ae25
+  next_validation: 收集 Wealthfolio 官方产品页或文档，确认其支持的账户导入格式、本地数据存储方式与是否包含 AI 处理环节。
+  market: ''
+  job: 个人投资者在需要盘点自己分散在多个券商账户的持仓时，打开本地工具，处理账户与交易记录等资产材料，完成资产汇总与净值跟踪。
+  job_en: An individual investor reviewing holdings spread across several brokerage accounts opens a local
+    tool, works with account and transaction records, and completes asset aggregation and net-worth tracking.
+  pain: 公开材料只说明产品是私有、本地优先的个人理财，没有描述用户遇到的具体困难，也没有说明旧做法哪里让人不满。
+  pain_en: Public material only says the product is private, local-first personal finance; it describes
+    no specific user difficulty and no shortcoming of the previous approach.
+  current_alternative: 公开材料未提及用户此前用什么方式记账或跟踪资产，无法确认替代的是电子表格、云端记账应用还是券商自带报表。
+  current_alternative_en: Public material does not mention how users previously tracked finances, so it
+    is unclear whether it replaces spreadsheets, cloud bookkeeping apps or broker statements.
+  usage_reason: 材料未提供任何用户反馈、客户案例或采用证据，无法说明用户为何选择它而非旧做法；仅凭“本地优先”这一功能描述不足以构成使用理由，属于推断缺口。
+  usage_reason_en: The material offers no user feedback, customer case or adoption evidence explaining
+    why anyone chooses it over the old approach; the 'local-first' feature description alone is not a
+    usage reason, and this is an inference gap.

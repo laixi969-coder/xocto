@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/oraclezoom-super-resol
 summary: Recursive 4x zoom to 256x with OracleZoom
 first_seen: '2026-09-10T08:07:09Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

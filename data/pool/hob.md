@@ -21,7 +21,7 @@ canonical_url: https://producthunt.com/products/hob-2
 summary: The professional workspace for your whole agent stack
 first_seen: '2026-09-09T20:07:52Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - producthunt
 sightings:

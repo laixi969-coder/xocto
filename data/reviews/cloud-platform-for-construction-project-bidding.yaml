@@ -1,0 +1,45 @@
+- id: req-initial-cloud-platform-for-construction-project-bidding-2026-09-11
+  project_slug: cloud-platform-for-construction-project-bidding
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决标书编制与合规核对的需求，漏项会导致废标，痛点刚性；买方与付费方式公开材料未说明。
+    evidence_ids:
+    - ev-6619fbb4b806f1de
+    - ev-335933568109e91b
+  - gate: consensus
+    status: insufficient
+    reason: 仅有仓库星标从 43 增至 51，属关注度信号，无客户案例或行业采用证据。
+    evidence_ids:
+    - ev-6619fbb4b806f1de
+    - ev-335933568109e91b
+  - gate: model
+    status: insufficient
+    reason: 未披露定价与买方，to B 或 to G 采购路径是判断，不是已验证事实。
+    evidence_ids:
+    - ev-335933568109e91b
+  - gate: truth
+    status: insufficient
+    reason: 合规检查的准确率、人工复核边界与交付确定性均无公开材料支持。
+    evidence_ids:
+    - ev-6619fbb4b806f1de
+  next_validation: 收集该仓库的 README、部署文档或 issue/discussion，确认标书生成与合规检查的实际输入输出及是否已有企业使用记录。
+  market: ''
+  job: 投标专员在拿到招标文件后，需要把企业资质、历史标书与招标要求对齐，产出一份可提交且能通过合规审查的投标文件。
+  job_en: After receiving tender documents, a bid specialist must align company qualifications and past
+    bids with the tender requirements to produce a submittable, compliance-passing bid.
+  pain: 标书编制依赖人工逐条比对招标要求与资质材料，漏项或格式不合规会导致废标，返工成本高。
+  pain_en: Bid drafting relies on manually matching every tender requirement against qualification materials;
+    a missed item or format violation can void the bid, and rework is costly.
+  current_alternative: 目前多用 Word 模板、共享盘和邮件在团队间来回传标书，合规检查靠有经验的投标人员逐条人工核对。
+  current_alternative_en: Today teams pass drafts around in Word templates, shared drives and email, and
+    compliance is checked line by line by experienced bid staff.
+  usage_reason: 相较人工逐条比对，它把招标要求、资质与历史标书集中成知识库，由 AI 先出草稿并标出合规问题，投标专员只需复核被标出的条目，减少的是从零起草和通读比对这一步；推断，尚无客户案例或留存证据。
+  usage_reason_en: Compared with manual line-by-line matching, it consolidates tender requirements, qualifications
+    and past bids into a knowledge base, has AI produce a draft and flag compliance issues, so the specialist
+    only reviews flagged items, removing the from-scratch drafting and full re-reading step; inference,
+    with no customer case or retention evidence yet.

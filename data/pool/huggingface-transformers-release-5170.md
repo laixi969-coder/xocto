@@ -1,11 +1,18 @@
 ---
 slug: huggingface-transformers-release-5170
-name: 'huggingface/transformers: Release 5.17.0'
+name: Hugging Face Transformers
 builder: huggingface
 category: ''
-summary_zh: ''
+summary_zh: 2026年9月9日，公开模型社区 Transformers 发布 v5.17.0，新增对 Hy4-Preview 的支持：一个 780B 参数、每 token 仅激活 49B 的混合专家模型，带
+  100 万 token 上下文窗口，并用 MLA 将键值压缩进低秩潜表示。这意味着超大规模稀疏模型经主流开源库即可被应用开发者调用（推断：低激活比加键值压缩可能降低长上下文推理成本）；发布说明未含定价与性能实测，成本收益尚待核验，不宜据此推断长上下文应用已成主流。
 inspiration: ''
-summary_en: ''
+summary_en: 'On September 9, 2026, public model community Transformers shipped v5.17.0, adding support
+  for Hy4-Preview: a 780B-parameter mixture-of-experts model activating only 49B parameters per token,
+  with a 1M-token context window and MLA that compresses keys and values into a low-rank latent. Very
+  large sparse models are now callable through a mainstream open-source library (inference: the low activation
+  ratio plus KV compression may lower long-context inference cost); the release notes contain no pricing
+  or benchmark data, so the cost claim stays unverified and one release does not prove long-context apps
+  have gone mainstream.'
 inspiration_en: ''
 priority_review: false
 project_type: open_source
@@ -257,7 +264,7 @@ summary: "# Release v5.17.0\r\n\r\n\r\n## New Model additions\r\n\r\n### HYV4\r\
   \ @pengzhiliang\r\n    * Implement VibeVoice  (#40546)"
 first_seen: '2026-09-09T15:42:45Z'
 last_seen: '2026-09-11T00:10:34Z'
-status: pending_filter
+status: market_context
 sources:
 - github
 sightings:
@@ -269,7 +276,7 @@ sightings:
   kind: news
 ---
 
-# huggingface/transformers: Release 5.17.0
+# Hugging Face Transformers
 
 # Release v5.17.0
 

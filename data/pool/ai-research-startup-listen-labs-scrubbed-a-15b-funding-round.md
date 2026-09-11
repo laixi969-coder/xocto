@@ -1,6 +1,6 @@
 ---
 slug: ai-research-startup-listen-labs-scrubbed-a-15b-funding-round
-name: AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks
+name: Listen Labs
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs
 summary: Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.
 first_seen: '2026-09-10T00:00:37Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 - newssearch
@@ -38,7 +38,7 @@ sightings:
   kind: news
 ---
 
-# AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks
+# Listen Labs
 
 Listen Labs walked away from a signed Series C term sheet from Menlo Ventures, sources say.
 

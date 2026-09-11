@@ -3,9 +3,10 @@ slug: muse
 name: Muse
 builder: THEODORE HQ
 category: ''
-summary_zh: ''
+summary_zh: Meta 推出的个人 AI 代理，属于平台方发布的通用助手入口，不是垂直行业独立产品。
 inspiration: ''
-summary_en: ''
+summary_en: A personal AI agent released by Meta, a platform-level general assistant entry point rather
+  than a vertical independent product.
 inspiration_en: ''
 priority_review: false
 project_type: ''
@@ -21,7 +22,7 @@ canonical_url: https://producthunt.com/products/muse-19
 summary: Al Visual Bookmark Manager for Mac
 first_seen: '2026-08-11T10:51:23Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: market_context
 sources:
 - producthunt
 - hackernews

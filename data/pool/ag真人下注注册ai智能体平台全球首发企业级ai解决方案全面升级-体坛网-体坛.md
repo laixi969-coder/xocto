@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zSmQ5V2lWbWdD
 summary: AG真人下注注册AI智能体平台全球首发：企业级AI解决方案全面升级-体坛网_体坛+ 体坛
 first_seen: '2026-09-10T19:33:24Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

@@ -23,7 +23,7 @@ canonical_url: https://news.google.com/rss/articles/CBMivgFBVV95cUxPQnEzc3FSVHNB
 summary: Brickworks implements Boomi Enterprise Platform Architecture & Design
 first_seen: '2026-09-06T08:42:57Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 - marketfeeds

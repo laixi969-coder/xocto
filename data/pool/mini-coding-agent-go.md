@@ -22,7 +22,7 @@ summary: A minimal local coding agent in Go — a faithful port of Sebastian Ras
   with no LLM framework.
 first_seen: '2026-08-23T12:40:38Z'
 last_seen: '2026-09-11T00:10:34Z'
-status: pending_filter
+status: rejected
 sources:
 - github
 sightings:

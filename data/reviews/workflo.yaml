@@ -112,3 +112,42 @@
   usage_reason: Workflo 宣称不查看屏幕，可能更注重隐私和安全性，吸引对敏感信息在意的用户；但具体采用情况尚未核验。
   usage_reason_en: Workflo claims not to see the screen, which may appeal to privacy-conscious users;
     however, actual adoption is not yet verified.
+- id: req-initial-workflo-2026-09-11
+  project_slug: workflo
+  level: initial
+  reviewed_at: '2026-09-11T00:10:51Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 它要解决本机重复操作耗时的问题，痛点方向成立，但公开材料未说明具体动作与交付，无法确认替代了哪一步旧工作。
+    evidence_ids: []
+  - gate: consensus
+    status: insufficient
+    reason: 仅有社区讨论热度，缺少用户反馈或客户案例说明谁在什么场景下持续使用。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 未见定价页或付费路径，买方与收费方式均不明确，这是判断而非已验证事实。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 无法核对它是否真的不读取屏幕、以及自动化动作能否确定性完成，承诺与交付边界未公开。
+    evidence_ids: []
+  next_validation: 收集 Workflo 官方产品页或文档，确认其支持的具体自动化动作、输入方式与交付结果。
+  market: ''
+  job: Mac 用户在处理本机重复性操作（如文件整理、批量执行）时，希望由工具代为完成，而不必把屏幕内容交给外部服务。
+  job_en: A Mac user handling repetitive local operations, such as file organisation or batch execution,
+    wants a tool to do it without handing screen content to an external service.
+  pain: 重复的本机操作耗时且易错，而现有云端自动化方案需要上传或读取屏幕内容，对敏感工作构成顾虑。
+  pain_en: Repetitive local operations are slow and error-prone, while existing cloud automation requires
+    uploading or reading screen content, which raises concerns for sensitive work.
+  current_alternative: 用户目前靠手动重复操作、系统自带脚本或快捷键，或使用需要读取屏幕的自动化工具。
+  current_alternative_en: Users currently repeat the work manually, use built-in scripts or shortcuts,
+    or adopt automation tools that read the screen.
+  usage_reason: 推断：若它确实能在不读取屏幕的前提下完成本机重复动作，用户可省去手动逐步执行这一步，因此对处理敏感材料、又不愿上传屏幕的 Mac 用户有吸引力；但公开材料未说明具体动作与交付，无法确认这一因果。
+  usage_reason_en: 'Inference: if it truly completes local repetitive actions without reading the screen,
+    users skip the step of executing each action by hand, which appeals to Mac users handling sensitive
+    material who will not upload their screen; however the public material does not describe the actions
+    or output, so this causal link is unconfirmed.'

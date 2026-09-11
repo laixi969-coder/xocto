@@ -21,7 +21,7 @@ canonical_url: https://qbitai.com/2026/09/486934.html
 summary: 多模态AI大牛轮番登台，全球64支团队组团解题
 first_seen: '2026-09-10T10:17:46Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: rejected
 sources:
 - marketfeeds
 sightings:

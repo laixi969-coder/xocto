@@ -21,7 +21,7 @@ canonical_url: https://huggingface.co/spaces/hugging-apps/minimax-h3-lms-sharpen
 summary: Re-render a clip sharper with MiniMax-H3's LMS LoRA
 first_seen: '2026-09-10T11:58:16Z'
 last_seen: '2026-09-11T00:10:51Z'
-status: pending_filter
+status: rejected
 sources:
 - huggingface
 sightings:

@@ -22,7 +22,7 @@ summary: Cyngn Announces Organizational Realignment to Accelerate Enterprise Gro
   TradingView
 first_seen: '2026-09-08T11:05:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

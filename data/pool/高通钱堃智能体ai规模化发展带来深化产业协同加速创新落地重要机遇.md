@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMifEFVX3lxTE5RXzRYX3VkaGV6
 summary: 高通钱堃：智能体AI规模化发展，带来深化产业协同、加速创新落地重要机遇 新华网
 first_seen: '2026-09-10T03:38:43Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

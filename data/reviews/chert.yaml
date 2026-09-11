@@ -36,3 +36,47 @@
   usage_reason_en: 'It promises a simpler way to complete this job: A customer holds the problem up to
     a video call; the AI can see it, answer live, and also place the call. The exact adoption motive and
     repeat use are not yet verified.'
+- id: req-initial-chert-2026-09-11
+  project_slug: chert
+  level: initial
+  reviewed_at: '2026-09-11T00:10:53Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决把 AI 接入视频通话的需求，痛点是实时音视频链路自建成本高，属于可识别的工程刚需。
+    evidence_ids:
+    - ev-ad3bf338cfc8bb58
+    - ev-31e172e6c2715561
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论有一定热度，但缺少开发者采用规模或客户案例，共识强度无法确认。
+    evidence_ids:
+    - ev-ad3bf338cfc8bb58
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价与买方，按调用量或按席位收费均为推断，尚未核验。
+    evidence_ids:
+    - ev-ad3bf338cfc8bb58
+  - gate: truth
+    status: insufficient
+    reason: 视频代理的交付确定性、身份核验与人工边界无公开材料支持，无法核对。
+    evidence_ids:
+    - ev-31e172e6c2715561
+  next_validation: 收集 Chert 官方文档与定价页，核验其接入方式、计费单位与已公开的使用案例。
+  market: ''
+  job: 应用开发者在需要让 AI 参与视频通话时，处理实时画面与语音流，要完成可编程的视频代理接入。
+  job_en: An application developer who needs AI to take part in video calls handles live video and audio
+    streams to deliver a programmable video agent integration.
+  pain: 视频通话的实时音视频链路与对话编排需要自行搭建，接入门槛高，难以快速验证场景。
+  pain_en: The real-time audio-video pipeline and dialogue orchestration for video calls must be built
+    in-house, raising the integration barrier and slowing scenario validation.
+  current_alternative: 开发者通常用通用实时音视频 SDK 自行拼接，或干脆放弃视频形态只做语音与文字代理。
+  current_alternative_en: Developers usually stitch together general real-time audio-video SDKs themselves,
+    or drop video entirely and build only voice and text agents.
+  usage_reason: 推断：相较自行拼接音视频 SDK，Chert 把视频代理封装成少量代码即可调用的接口，减少实时链路搭建这一步，因此需要快速验证视频场景的开发者会先试用；公开材料未提供留存或付费证据。
+  usage_reason_en: 'Inference: compared with assembling audio-video SDKs, Chert wraps video agents into
+    an interface callable with a few lines of code, removing the real-time pipeline build step, so developers
+    validating video scenarios quickly would try it first; public materials show no retention or payment
+    evidence.'

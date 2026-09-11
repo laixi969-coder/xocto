@@ -1,6 +1,6 @@
 ---
 slug: 对话蚂蚁数科ceo赵闻飙我们为什么要做商业智能体超级工厂-人工智能
-name: 对话蚂蚁数科CEO赵闻飙：我们为什么要做商业智能体超级工厂？-人工智能
+name: 蚂蚁数科
 builder: ''
 category: ''
 summary_zh: ''
@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE96RlExaXg2M3pQ
 summary: 对话蚂蚁数科CEO赵闻飙：我们为什么要做商业智能体超级工厂？-人工智能 zhiding.cn
 first_seen: '2026-09-10T13:11:43Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -32,7 +32,7 @@ sightings:
   kind: news
 ---
 
-# 对话蚂蚁数科CEO赵闻飙：我们为什么要做商业智能体超级工厂？-人工智能
+# 蚂蚁数科
 
 对话蚂蚁数科CEO赵闻飙：我们为什么要做商业智能体超级工厂？-人工智能 zhiding.cn
 

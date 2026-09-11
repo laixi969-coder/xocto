@@ -551,3 +551,44 @@
   usage_reason: 完全免费开源、免注册，提供43个开箱即用的Jupyter Notebook与单一贯穿案例，降低上手门槛。
   usage_reason_en: Completely free, open source, and registration-free, offering 43 runnable notebooks
     and a continuous real-world case study.
+- id: req-initial-ai-engineering-lab-2026-09-11
+  project_slug: ai-engineering-lab
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 需求信号明确
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决工程师转型 AI 岗位的再培训需求：知识零散、训练营昂贵，课程以连续案例加可运行笔记本降低拼装学习路径的负担；此为工作流结构推理，尚无学员完成或留存证据。
+    evidence_ids:
+    - ev-2b55775b022618ea
+  - gate: consensus
+    status: supported
+    reason: 309 星、257 次复刻和 87 条社区评论说明转型学习的痛点被目标人群感知并关注；但星标属关注度证据，不能证明持续学完或留存。
+    evidence_ids: []
+  - gate: model
+    status: insufficient
+    reason: 当前免费、免注册、无任何收费页面，付费方未出现；推断作者可能借课程转化咨询或企业内训生意，这是判断而非已核验事实。
+    evidence_ids: []
+  - gate: truth
+    status: supported
+    reason: 交付可核对：笔记本能否跑通即时可见，免注册无锁定；但课程不承诺就业结果，学习成效需学员自行验证，属结构判断。
+    evidence_ids: []
+  next_validation: 抓取该课程代码仓库公开的 issue 与 discussion，核验学习者是否报告笔记本可跑通、案例是否连贯，以及有否企业或讲师将其采用为教材。
+  market: ''
+  job: 想转型 AI 工程的软件工程师或数据工程师，在规划再培训时处理零散的模型文档、云平台教程和付费课程，要把 RAG、微调、Agent 与云部署补成一套能上手的工程能力。
+  job_en: Software or data engineers planning a move into AI engineering work through scattered model
+    docs, cloud tutorials and paid courses, aiming to turn RAG, fine-tuning, agents and cloud deployment
+    into usable engineering skills.
+  pain: 知识点散落在各家文档和课程里，训练营收费高且多为孤立示例，学完仍拼不出从数据到上线的完整链路，转型的时间与金钱成本高。
+  pain_en: Material is scattered across vendors' docs and courses; bootcamps are pricey and mostly isolated
+    examples, so learners finish without a complete path from data to deployment, making the switch costly.
+  current_alternative: 旧做法是自学：逐家读云厂商文档、追零散教程，或报价格不菲的训练营和付费视频课，靠自己把学习顺序拼出来。
+  current_alternative_en: 'The old way is self-study: reading each cloud vendor''s docs, chasing scattered
+    tutorials, or paying for bootcamps and video courses, then assembling a learning order on one''s own.'
+  usage_reason: 课程把 43 个笔记本串在一个连续案例里，免费、MIT 协议、免注册，学习者按顺序跑通代码即可复现从基础到 Agent 的整条链路，省去自选教材和拼示例的负担；这是依据课程结构作出的推断，尚无学员完成率或重复使用证据。
+  usage_reason_en: The course chains 43 notebooks into one continuous case, free under MIT with no signup,
+    so learners reproduce the whole path from basics to agents by running code in order, removing the
+    burden of picking materials and stitching examples; this is inferred from the course structure, with
+    no completion or repeat-use evidence yet.

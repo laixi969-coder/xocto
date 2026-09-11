@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vY1RvWjdnd2Nj
 summary: VWIN德嬴客户端v4.2.0正式发布：引入AI战术分析与实时数据追踪-体坛网_体坛+ 体坛
 first_seen: '2026-09-10T06:33:58Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

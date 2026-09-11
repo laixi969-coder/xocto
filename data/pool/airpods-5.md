@@ -21,7 +21,7 @@ canonical_url: https://apple.com/newsroom/2026/09/apple-introduces-airpods-5-wit
 summary: ''
 first_seen: '2026-09-09T17:39:24Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

@@ -35,3 +35,49 @@
   current_alternative_en: Using CRM and manual research.
   usage_reason: AI 可能自动化数据丰富和销售线索生成。
   usage_reason_en: AI may automate data enrichment and lead generation.
+- id: req-initial-ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio-2026-09-11
+  project_slug: ai-sales-startup-clay-raises-funding-at-a-7-billion-valuatio
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决销售与市场人员手工拼名单、核对字段的需求，痛点是不准确名单直接浪费外呼与投放预算，旧替代行为（买静态库、手工清洗）明确存在。
+    evidence_ids:
+    - ev-5205c1a1e31d164a
+    - ev-5966881661ff2a09
+  - gate: consensus
+    status: insufficient
+    reason: 候选材料只显示其被列入某智能应用榜单的后期阶段，以及融资报道，没有客户案例或用户评价说明谁在什么场景持续使用。
+    evidence_ids:
+    - ev-5205c1a1e31d164a
+    - ev-5966881661ff2a09
+  - gate: model
+    status: insufficient
+    reason: 报道只给出约 71 亿美元估值，未披露本轮金额、投资方、定价页或付费客户，买方与收费方式无法核验，属判断而非已验证事实。
+    evidence_ids:
+    - ev-5966881661ff2a09
+  - gate: truth
+    status: insufficient
+    reason: 名单字段准确性、数据源合规与人工复核边界在候选材料中均未说明，交付能否确定性发生无法核对。
+    evidence_ids:
+    - ev-5205c1a1e31d164a
+  next_validation: 收集 Clay 官方定价页与公开客户案例，确认其按什么计价、哪类团队在持续付费使用。
+  market: ''
+  job: 销售开发代表和市场运营人员在准备外呼或投放名单时，处理分散在多个数据源的公司与联系人信息，要产出一份可直接导入 CRM 或序列工具的合格线索名单。
+  job_en: Sales development reps and marketing ops staff preparing outbound or campaign lists work with
+    company and contact data scattered across sources, and need a qualified lead list that can be imported
+    into a CRM or sequencing tool.
+  pain: 手工在多个数据源之间核对公司规模、职位、技术栈和触发信号既慢又容易出错，名单质量差会直接浪费外呼时间和投放预算。
+  pain_en: Manually cross-checking company size, title, tech stack and trigger signals across sources
+    is slow and error-prone, and poor list quality directly wastes calling time and ad budget.
+  current_alternative: 旧做法是购买静态联系人数据库，再让销售或运营在表格里手工筛选、去重和补字段，或雇外包做名单清洗。
+  current_alternative_en: The old way is buying a static contact database, then having sales or ops manually
+    filter, dedupe and fill fields in spreadsheets, or outsourcing list cleaning.
+  usage_reason: 推断：相较买静态名单再手工清洗，Clay 把多个数据源的补全和筛选规则放在同一处执行，减少逐条核对字段这一步，因此需要按行业信号持续产出名单的销售团队会在名单质量要求高、更新频繁时选择它；候选材料未提供留存或复购证据。
+  usage_reason_en: 'Inference: compared with buying a static list and cleaning it by hand, Clay runs enrichment
+    and filtering rules from multiple sources in one place, removing the step of checking fields row by
+    row, so sales teams that need recurring signal-based lists would pick it when list quality matters
+    and lists refresh often; the candidate material provides no retention or repeat-purchase evidence.'

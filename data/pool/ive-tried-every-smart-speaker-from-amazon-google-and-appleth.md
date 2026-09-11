@@ -22,7 +22,7 @@ summary: I’ve Tried Every Smart Speaker From Amazon, Google, and Apple—These
   WIRED
 first_seen: '2026-09-08T10:35:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

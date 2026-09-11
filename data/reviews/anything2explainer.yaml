@@ -1,0 +1,42 @@
+- id: req-initial-anything2explainer-2026-09-11
+  project_slug: anything2explainer
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: needs_validation
+  signal_level: 需求存疑
+  gates:
+  - gate: value
+    status: insufficient
+    reason: 缺乏使用案例和付费数据，无法确认实际价值
+    evidence_ids:
+    - ev-e4641ef900e6c52c
+    - ev-abd4f8ae792f0236
+  - gate: consensus
+    status: insufficient
+    reason: 缺乏公开使用案例或用户反馈
+    evidence_ids:
+    - ev-e4641ef900e6c52c
+    - ev-abd4f8ae792f0236
+  - gate: model
+    status: insufficient
+    reason: 未见产品的商业模式或付费路径
+    evidence_ids:
+    - ev-e4641ef900e6c52c
+    - ev-abd4f8ae792f0236
+  - gate: truth
+    status: insufficient
+    reason: 缺少可验证的使用结果
+    evidence_ids:
+    - ev-e4641ef900e6c52c
+    - ev-abd4f8ae792f0236
+  next_validation: 收集公开使用案例或用户反馈
+  market: ''
+  job: 内容创作者
+  job_en: Content creators
+  pain: 手动制作动画视频耗时且成本高
+  pain_en: Manual animation video production is time‑consuming and costly
+  current_alternative: 使用专业动画软件或雇佣动画师
+  current_alternative_en: Using professional animation software or hiring animators
+  usage_reason: 该工具通过自动生成视频，省去手工绘制和编辑步骤，降低时间和成本
+  usage_reason_en: The tool automates video generation, eliminating manual drawing and editing steps,
+    reducing time and cost

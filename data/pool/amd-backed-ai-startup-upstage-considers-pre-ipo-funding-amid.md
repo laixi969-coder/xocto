@@ -1,6 +1,6 @@
 ---
 slug: amd-backed-ai-startup-upstage-considers-pre-ipo-funding-amid
-name: AMD-backed AI startup Upstage considers pre-IPO funding amid rising AI capital needs - report
+name: Upstage
 builder: ''
 category: ''
 summary_zh: ''
@@ -22,7 +22,7 @@ summary: AMD-backed AI startup Upstage considers pre-IPO funding amid rising AI 
   TradingView
 first_seen: '2026-09-10T07:17:02Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:
@@ -33,7 +33,7 @@ sightings:
   kind: news
 ---
 
-# AMD-backed AI startup Upstage considers pre-IPO funding amid rising AI capital needs - report
+# Upstage
 
 AMD-backed AI startup Upstage considers pre-IPO funding amid rising AI capital needs - report TradingView
 

@@ -1,0 +1,50 @@
+- id: req-initial-legal-ai-startup-harvey-reaches-155-billion-valuation-in-new-2026-09-11
+  project_slug: legal-ai-startup-harvey-reaches-155-billion-valuation-in-new
+  level: initial
+  reviewed_at: '2026-09-11T00:10:59Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决律师在合同审阅与尽调中通读大量文本、漏掉条款差异的痛点，旧做法是人工摘录加关键词检索，痛点刚性且交付可核对。
+    evidence_ids:
+    - ev-680d6066966934fa
+    - ev-4958a10aa932b470
+  - gate: consensus
+    status: insufficient
+    reason: 公开材料只有估值报道，没有律所采用规模、续约或用户评价，无法判断共识卡在感知还是场景。
+    evidence_ids:
+    - ev-680d6066966934fa
+    - ev-4958a10aa932b470
+  - gate: model
+    status: insufficient
+    reason: 未披露定价、计费方式与买方结构，钱来自律所席位费还是按项目收费无法核验，这是判断不是已验证事实。
+    evidence_ids:
+    - ev-680d6066966934fa
+    - ev-4958a10aa932b470
+  - gate: truth
+    status: insufficient
+    reason: 法律工作对错误容忍度低，公开材料未说明引用可核验程度与人工复核边界，交付确定性无法确认。
+    evidence_ids:
+    - ev-680d6066966934fa
+    - ev-4958a10aa932b470
+  next_validation: 收集 Harvey 官方定价页或公开客户案例，确认其计费方式与律所实际采用范围。
+  market: ''
+  job: 律所律师和企业法务在合同审阅、并购尽调和法律检索时，需要处理成百上千页合同、判例与内部文件，找出关键条款、风险点和先例依据，形成可交给合伙人或客户复核的意见。
+  job_en: Lawyers at firms and in-house counsel handling contract review, M&A due diligence and legal
+    research must work through hundreds of pages of contracts, case law and internal documents to find
+    key clauses, risks and precedent, producing an opinion a partner or client can review.
+  pain: 这类材料量大、术语密集，人工通读耗时且容易漏掉条款差异；初级律师大量时间花在检索和摘录上，而不是判断本身。
+  pain_en: Such material is voluminous and term-dense; reading it manually is slow and prone to missing
+    clause differences, and junior lawyers spend much of their time on search and extraction rather than
+    judgment.
+  current_alternative: 旧做法是初级律师和律师助理人工通读、做摘录表，配合关键词检索和通用文档工具，再逐条比对。
+  current_alternative_en: The old way is junior lawyers and paralegals reading manually, building extraction
+    tables, using keyword search and generic document tools, then comparing clause by clause.
+  usage_reason: 推断：相较人工通读加关键词检索，它把整份合同或判例集一次性读入并直接给出条款要点与带引用的答案，省掉逐页摘录这一步，律师只需复核结论，因此承接大量尽调或合同审阅的律所团队会在项目高峰期选择它。公开材料未提供留存或复购证据，长期嵌入工作流尚未核验。
+  usage_reason_en: 'Inference: compared with manual reading plus keyword search, it ingests a whole contract
+    or case set at once and returns clause points with cited answers, removing the page-by-page extraction
+    step so lawyers only review conclusions; firm teams facing heavy diligence or contract review would
+    therefore pick it during peak periods. The public material provides no retention or repeat-use evidence,
+    so long-term embedding in the workflow is unverified.'

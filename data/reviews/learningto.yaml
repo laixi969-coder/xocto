@@ -1,0 +1,42 @@
+- id: req-initial-learningto-2026-09-11
+  project_slug: learningto
+  level: initial
+  reviewed_at: '2026-09-11T00:10:31Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决求职者备考面试却付不起辅导费的问题，痛点是缺少针对个人作答的反馈，旧做法是付费课或零散题库，结构上成立。
+    evidence_ids:
+    - ev-b5d870fb532a0cc7
+  - gate: consensus
+    status: insufficient
+    reason: 社区讨论热度说明有人关注，但没有公开的持续使用或留存证据，无法判断是否形成稳定备考习惯。
+    evidence_ids:
+    - ev-b5d870fb532a0cc7
+  - gate: model
+    status: insufficient
+    reason: 公开材料未披露定价或付费路径，免费替代如何转化为收入只是推断，不是已验证事实。
+    evidence_ids:
+    - ev-b5d870fb532a0cc7
+  - gate: truth
+    status: insufficient
+    reason: 题库覆盖范围、反馈质量与是否贴近真实面试标准均未核验，交付确定性尚不清楚。
+    evidence_ids:
+    - ev-b5d870fb532a0cc7
+  next_validation: 收集该产品官方页面上的题库范围、反馈示例或定价说明，以核验其交付内容与付费路径。
+  market: ''
+  job: 求职者在准备面试、但负担不起付费辅导时，把目标岗位和面试题型交给它，要完成的是反复练习并得到可用的作答反馈。
+  job_en: A job seeker preparing for interviews without affording paid coaching hands over the target
+    role and question types, aiming to drill repeatedly and get usable answer feedback.
+  pain: 付费面试辅导价格高，免费资料零散且没有针对个人作答的反馈，练习后不知道哪里答得不对。
+  pain_en: Paid interview coaching is expensive, free materials are scattered and give no feedback on
+    one's own answers, so after practicing the person does not know what was wrong.
+  current_alternative: 旧做法是买付费辅导课、看免费题库或找朋友模拟面试，前者贵，后两者缺少针对性反馈。
+  current_alternative_en: The old way is buying paid coaching, browsing free question banks, or asking
+    friends for mock interviews; the first is costly and the latter two lack targeted feedback.
+  usage_reason: 推断：相较零散题库，它把出题和针对作答的反馈放在同一流程里，省去自己找题、找人点评这两步，因此预算有限的求职者会在集中备考期选择它。
+  usage_reason_en: 'Inference: compared with scattered question banks, it puts question generation and
+    answer-specific feedback in one flow, removing the steps of finding questions and finding a reviewer,
+    so budget-limited job seekers would pick it during intensive prep.'

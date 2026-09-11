@@ -1,0 +1,44 @@
+- id: req-initial-bug-hunt-bench-2026-09-11
+  project_slug: bug-hunt-bench
+  level: initial
+  reviewed_at: '2026-09-11T00:10:34Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它解决编码模型选型缺少可信横向对比的问题，痛点具体，且已有真实仓库缺陷与盲评流程作为交付。
+    evidence_ids:
+    - ev-29249af370247685
+  - gate: consensus
+    status: insufficient
+    reason: 公开关注度有限，仓库收藏数处于低位，尚不能说明评测结果被广泛采信。
+    evidence_ids:
+    - ev-29249af370247685
+  - gate: model
+    status: insufficient
+    reason: 公开材料未说明收费方式或买方，评测本身如何变现仍是判断而非已验证事实。
+    evidence_ids:
+    - ev-29249af370247685
+  - gate: truth
+    status: insufficient
+    reason: 盲评与逐条记录提升了可信度，但评测集规模有限、是否持续更新与防作弊机制仍待核验。
+    evidence_ids:
+    - ev-29249af370247685
+  next_validation: 收集 Bug Hunt Bench 的公开评测记录与仓库更新，确认评测集是否持续扩充并覆盖更多真实仓库。
+  market: ''
+  job: 技术负责人或开发者在为团队挑选编码模型时，处理各家公布的基准分数与自家代码库的真实缺陷，要判断哪个模型在实际仓库里更能定位并修复问题。
+  job_en: When selecting a coding model for a team, a technical lead or developer works with vendors'
+    published benchmark scores and the real bugs in their own codebase to judge which model actually locates
+    and fixes problems in a real repository.
+  pain: 厂商自报的基准成绩与真实仓库表现常有落差，团队缺少可核对的横向对比，选错模型会在日常修复中持续付出代价。
+  pain_en: Vendors' self-reported benchmarks often diverge from real repository performance, teams lack
+    a checkable side-by-side comparison, and picking wrong keeps costing them in daily fixes.
+  current_alternative: 团队目前依赖厂商榜单、零散博客评测，或自己临时挑几个缺陷试跑。
+  current_alternative_en: Teams currently rely on vendor leaderboards, scattered blog reviews, or hastily
+    trying a few bugs themselves.
+  usage_reason: 推断：它用两个生产仓库的真实缺陷替代合成题目，并在各模型自己的 CLI 中盲评，省去团队自建评测集这一步，因此正在做模型选型的团队会参考它；公开材料未显示持续采用或付费证据。
+  usage_reason_en: 'Inference: it replaces synthetic tasks with real bugs from two production repositories
+    and grades blind inside each model''s own CLI, removing the step of building an in-house evaluation
+    set, so teams choosing a model may consult it; public material shows no sustained adoption or payment
+    evidence.'

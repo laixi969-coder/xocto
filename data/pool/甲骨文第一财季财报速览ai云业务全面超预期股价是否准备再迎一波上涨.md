@@ -21,7 +21,7 @@ canonical_url: https://news.google.com/rss/articles/CBMirwFBVV95cUxNUEhMbEFoV2tq
 summary: 甲骨文第一财季财报速览：AI云业务全面超预期，股价是否准备再迎一波上涨？ Moomoo
 first_seen: '2026-09-10T07:00:00Z'
 last_seen: '2026-09-11T00:10:59Z'
-status: pending_filter
+status: rejected
 sources:
 - newssearch
 sightings:

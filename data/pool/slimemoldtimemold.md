@@ -21,7 +21,7 @@ canonical_url: https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-ali
 summary: A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming
 first_seen: '2026-09-10T01:59:51Z'
 last_seen: '2026-09-11T00:10:31Z'
-status: pending_filter
+status: rejected
 sources:
 - hackernews
 sightings:

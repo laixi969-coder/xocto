@@ -3,26 +3,21 @@ slug: conduct
 name: Conduct
 builder: sudhendra1
 category: 基础层
-summary_zh: Conduct 是一个开源工具，为 LLM 和 MCP 工具调用提供安全护栏。开发者在构建 AI 代理时，可将 Conduct 集成到调用链中，对模型输出和工具执行进行规则校验，防止越权或危险操作。具体拦截规则和交付形式仍待核验。
-inspiration: 趋势是 AI 代理开始自主调用外部工具，安全边界成为刚需。不要做通用安全平台，先切入 MCP 生态，为高频工具调用提供可配置的规则模板，按调用量或规则数收费。
-summary_en: Conduct is an open-source tool providing guardrails for LLM and MCP tool calls. Developers
-  integrating AI agents can use Conduct to validate model outputs and tool executions against rules, preventing
-  unauthorized or dangerous operations. Specific rule details and delivery format remain to be verified.
-inspiration_en: The trend is AI agents autonomously calling external tools, making security boundaries
-  a necessity. Don't build a generic security platform; enter the MCP ecosystem first, offering configurable
-  rule templates for high-frequency tool calls, charging by call volume or rule count.
+summary_zh: 面向在应用里调用大模型与 MCP 工具的开发团队：当模型要执行外部工具调用时，Conduct 在调用发出前接收这些请求并做规则校验与拦截，最终给出放行或阻断的结果，仍需开发者自行配置规则并确认边界。具体流程与交付形态仍待核验。
+inspiration: 趋势是工具调用从演示走向生产后，拦截与审计成为独立环节。切入可从金融、医疗等受监管行业的合规与平台工程团队入手，把规则库和审计记录做成随调用量计费的托管服务，而非只发一个开源库。
+summary_en: 'For engineering teams that let models call external tools: Conduct sits in front of LLM and
+  MCP tool calls, checking each request against rules and returning an allow-or-block result, while developers
+  still configure the rules and confirm boundaries. The exact workflow and delivery form remain unverified.'
+inspiration_en: The trend is that once tool calling moves from demo to production, interception and audit
+  become a separate layer. A wedge is compliance and platform teams in regulated sectors such as finance
+  and healthcare, selling a hosted rule library and audit trail priced by call volume rather than shipping
+  only an open-source library.
 priority_review: false
 project_type: open_source
-industries:
-- 软件开发
-industries_en:
-- Software Development
-jobs:
-- AI工程师
-- 安全工程师
-jobs_en:
-- AI Engineer
-- Security Engineer
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
 regions: []
 regions_en: []
 open_source: true
@@ -31,7 +26,7 @@ canonical_url: https://github.com/sseshachala/conductai
 summary: open-source guardrails for LLM and MCP tool calls
 first_seen: '2026-08-28T19:29:20Z'
 last_seen: '2026-09-11T00:10:53Z'
-status: pending_filter
+status: watching
 sources:
 - hackernews
 - marketfeeds
