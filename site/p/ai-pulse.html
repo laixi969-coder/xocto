@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>ai-pulse · x-octo</title>
+<meta name="description" content="在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了">
+<link rel="canonical" href="https://xocto.vercel.app/p/ai-pulse.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/ai-pulse.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/ai-pulse.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/ai-pulse.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="ai-pulse · x-octo">
+<meta property="og:description" content="在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了">
+<meta property="og:url" content="https://xocto.vercel.app/p/ai-pulse.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/ai-pulse.html#webpage", "@type": "WebPage", "description": "\u5728 Mac \u7a0b\u5e8f\u575e\u65c1\u653e\u4e00\u6761\u5047\u706f\u5e26\uff0c\u4e00\u773c\u770b\u51fa AI \u662f\u5728\u8dd1\u3001\u5728\u7b49\u8fd8\u662f\u6302\u4e86", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ai-pulse", "url": "https://xocto.vercel.app/p/ai-pulse.html"}, {"@id": "https://xocto.vercel.app/p/ai-pulse.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u6548\u7387", "dateModified": "2026-09-11", "datePublished": "2026-08-11", "description": "\u5728 Mac \u7a0b\u5e8f\u575e\u65c1\u653e\u4e00\u6761\u5047\u706f\u5e26\uff0c\u4e00\u773c\u770b\u51fa AI \u662f\u5728\u8dd1\u3001\u5728\u7b49\u8fd8\u662f\u6302\u4e86", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/ai-pulse.html#webpage"}, "name": "ai-pulse", "sameAs": "https://github.com/leog/ai-pulse", "url": "https://xocto.vercel.app/p/ai-pulse.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/ai-pulse.html", "name": "ai-pulse", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/ai-pulse.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>ai-pulse</h1>
+        <span class="verdict v-unproven">证据不足</span>
+      </div>
+      <p class="product-lede">在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了</p>
+      <div class="meta product-meta">
+<span class="tag sig">开始收费</span>        <span class="tag">早期</span>
+<span class="tag">AI + 效率</span><span class="tag sig">社区热度 18</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>团队 / 作者</dt><dd>leog_me</dd></div>
+      <div><dt>本站首次收录</dt><dd class="num">2026-08-11</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-11</dd></div>
+      <div><dt>产品官网</dt><dd><a href="https://github.com/leog/ai-pulse" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-08-28</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">使用场景</span>
+        <p class="product-lead">在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了</p>
+        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
+        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>这是一个&#34;解决心理问题而不是功能问题&#34;的干净样本。 大多数 agent 工具在加功能，它在减噪音——把&#34;agent 在干嘛&#34;压缩成一个 余光信号。聚合信号（不区分具体 agent）这个设计尤其聪明： 用户要的不是细节，是&#34;现在需不需要我&#34;这一个答案。</h3>
+        <p>趋势是后台 AI 一干活，人就开始焦虑。切入不要做通用状态大盘，先做桌面助手的「还在跑吗」指示：灯只报状态、不读内容，这需求以后多半被大厂内置。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">使用理由</span>
+        <h3>为什么用户会选择它</h3>
+        <p>它承诺用更直接的方式完成这项任务：在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了；具体采用动机与持续使用情况尚未核验。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>① 三个月后 stars 是否破 300——周边工具的扩散速度能看出它是否被真实使用; ② 是否出现对 Claude Code 之外 agent（Codex、Cursor 等）的官方适配——决定它能不能活过过渡期; ③ 桌面 agent 官方是否上线状态灯功能（被内置的信号）</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>继续观察</strong>。它承诺用更直接的方式完成这项任务：在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了；具体采用动机与持续使用情况尚未核验。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>做工具时先问&#34;用户此刻的焦虑是什么&#34;，再问&#34;要加什么功能&#34;。 给后台运行的 agent 一个环境光状态，是&#34;减噪&#34;思维——有时候产品升级是 让用户少知道一点，而不是多知道一点。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">证据与风险</span>
+        <p>无。 MIT 开源，免费，没有收费计划、没有付费版、没有广告。 ① 三个月后 stars 是否破 300——周边工具的扩散速度能看出它是否被真实使用; ② 是否出现对 Claude Code 之外 agent（Codex、Cursor 等）的官方适配——决定它能不能活过过渡期; ③ 桌面 agent 官方是否上线状态灯功能（被内置的信号）</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了</p></div>
+        <div><span class="field-k">工作流推理</span><p>它承诺用更直接的方式完成这项任务：在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了；具体采用动机与持续使用情况尚未核验。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>产品主张帮助用户完成：“在 Mac 程序坞旁放一条假灯带，一眼看出 AI 是在跑、在等还是挂了”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>已有采用或关注仍应记录，但不能替代痛点证据；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。</p>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照</p>
+      </div>
+    </div>
+    <p class="noanalysis-sub">尚未完成中英文市场对照。待覆盖范围和可核验证据补齐后再给出结论。</p>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>60 秒生意判断</h2>
+        <p class="note">先给出判断与下一步，再保留完整证据和反例。</p>
+      </div>
+    </div>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>一句话定位</h2>
+<p>一条悬在 Mac 程序坞旁边空白处的虚拟 LED 灯带：你的 AI agent 在跑、
+在等你、跑完、还是挂了，扫一眼就知道——纯软件，不占 Dock，不读任何内容。</p></article><article class="desk-prose-block"><h2>做这个东西的人</h2>
+<p>leog（GitHub: leog），独立开发者。项目受硬件小配件 SidePulse 启发，
+把它做成纯软件。从提交记录看是和 Claude（Anthropic）结对编程完成的，
+多数字段作者是 AI，仓库已有 27 个提交。</p>
+<p><em>判断：这是典型的&quot;个人工具开源出来&quot;项目——作者的痛点（不知道后台 agent
+到哪一步了）具体到值得写一个完整 app 解决，但定位始终是个人效率周边，
+没有商业化意图。</em></p></article><article class="desk-prose-block"><h2>它到底能做哪几件事</h2>
+<ul>
+<li><strong>五种状态一个灯带</strong> → 工作中（青色彗星扫过）/ 需要你（橙色呼吸）/ 失败（红色双闪）/ 完成（八灯全绿）/ 空闲（极光流动），另有关闭态</li>
+<li><strong>不区分模型</strong> → 刻意用单一聚合信号，不显示是哪个 agent，只看&quot;现在有没有事在发生&quot;</li>
+<li><strong>完全不嵌入 Dock</strong> → macOS 没有公开 API 支持 Dock 配件，它实现为紧贴 Dock 的无边框非激活 NSPanel，用公开屏幕几何信息（NSScreen.frame vs visibleFrame）计算位置</li>
+<li><strong>零权限</strong> → 无私有 API、不需要辅助功能权限、不需要屏幕录制权限、不做任何注入</li>
+<li><strong>本地回环服务</strong> → 监听 127.0.0.1:7455，启动时生成 Bearer token 存进钥匙串，CLI（aipulse）凭 token 上报状态，token 不进入 shell 历史</li>
+<li><strong>接入方式</strong> → 官方做的是 Claude Code 的 Hook 适配器，另有 pi 扩展（aipulse-pi.ts），未来可接其他 agent</li>
+</ul>
+<p><strong>它明确不做的</strong>：不读提示词、不读终端内容、不读编辑器内容、不做任何拦截或记录。</p></article><article class="desk-prose-block"><h2>它在替代什么旧行为</h2>
+<p>以前用桌面 agent（尤其是 Claude Code 这类命令行 agent）的时候，确认
+&quot;它干到哪了&quot;只有两个办法：</p>
+<p>一是<strong>把终端窗口一直开着</strong>——眼睛盯着滚动日志，稍微走神就不知道
+卡在哪一步，该不该等也不知道。</p>
+<p>二是<strong>切过去戳一下</strong>——不停切窗口看输出，或者干脆盲等；
+agent 在等你审批的时候你不一定知道，可能干耗好几分钟。</p>
+<p>再往前，有人买 SidePulse 这类硬件灯条来解决同样的问题——但要多花一笔钱，
+占一个硬件位置，只适配特定生态。</p>
+<p>AI Pulse 替代的是&quot;反复查看 agent 状态&quot;这个动作：把&quot;它在忙 / 它在等你 /
+它挂了&quot;从日志里捞出来，变成余光就能扫到的环境光。它解决的不是功能问题，
+是焦虑问题——这个定位它自己说得很清楚。</p></article><article class="desk-prose-block"><h2>商业模式</h2>
+<p><strong>无。</strong> MIT 开源，免费，没有收费计划、没有付费版、没有广告。</p>
+<p><em>判断：这类工具没有商业想象，价值在别处——它验证了一个洞察：
+agent 不可见时的心理成本是真实存在的，而且可以用 30 行 UI 解决。
+这个需求将来大概率被 Claude 这类 agent 产品自己内置掉。</em></p></article><article class="desk-prose-block"><h2>硬数字</h2>
+<ul>
+<li>HN 18 分 / 12 条评论（本批次观测值）</li>
+<li>仓库 27 个提交，MIT 协议，Swift/SwiftUI，Universal 二进制（arm64 + x86_64）</li>
+<li>6 个里程碑全部交付，README 自称 MVP 已完成</li>
+<li>版本尚未公证，安装需右键&quot;打开&quot;（macOS 15 以上还要去隐私与安全允许）</li>
+<li>用户数、下载量：未披露</li>
+</ul></article><article class="desk-prose-block"><h2>四维评估</h2>
+<table>
+<thead>
+<tr>
+  <th>维度</th>
+  <th>结论</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>创始人-产品匹配度</td>
+  <td>高。作者就是命令行 agent 的日常用户，痛点真实</td>
+</tr>
+<tr>
+  <td>产品洞察力</td>
+  <td>抓的是&quot;焦虑&quot;不是&quot;功能&quot;，聚合信号（不分模型）反而成了克制的好设计</td>
+</tr>
+<tr>
+  <td>技术实现质量</td>
+  <td>NSPanel 定位、钥匙串 token、零权限、本地回环 API，工程细节干净，不是玩具</td>
+</tr>
+<tr>
+  <td>市场时机</td>
+  <td>合理但窗口短。桌面 agent 还没内置状态灯，但被内置只是时间问题</td>
+</tr>
+</tbody>
+</table></article><article class="desk-prose-block"><h2>判断</h2>
+<p><strong>这是一个&quot;解决心理问题而不是功能问题&quot;的干净样本。</strong>
+大多数 agent 工具在加功能，它在减噪音——把&quot;agent 在干嘛&quot;压缩成一个
+余光信号。聚合信号（不区分具体 agent）这个设计尤其聪明：
+用户要的不是细节，是&quot;现在需不需要我&quot;这一个答案。</p>
+<p><strong>工程上它做得很认真。</strong> 不占 Dock（因为技术上不可能）、零权限、
+token 走钥匙串、本地回环——一个&quot;假灯带&quot;按生产级标准做，这本身就说明
+作者在乎质量。</p>
+<p><strong>但它的命运大概率是被内置。</strong> 状态可见性是 agent 产品体验的一部分，
+Claude 这类产品迟早自己把状态做得比第三方更好。这决定了它只能是
+&quot;过渡期的好工具&quot;，而不是一门生意。</p>
+<p><strong>可迁移的规律：给&quot;看不见的过程&quot;加一个环境可见的信号，是最便宜也最有效的体验升级。</strong>
+用户对后台进程的焦虑是真实的，而解决焦虑的 UI 往往只需要一个状态灯。</p></article><article class="desk-prose-block"><h2>下一步看什么</h2>
+<p>① 三个月后 stars 是否破 300——周边工具的扩散速度能看出它是否被真实使用
+② 是否出现对 Claude Code 之外 agent（Codex、Cursor 等）的官方适配——决定它能不能活过过渡期
+③ 桌面 agent 官方是否上线状态灯功能（被内置的信号）</p></article><article class="desk-prose-block"><h2>可借鉴的做法</h2>
+<p><strong>产品逻辑</strong>：做工具时先问&quot;用户此刻的焦虑是什么&quot;，再问&quot;要加什么功能&quot;。
+给后台运行的 agent 一个环境光状态，是&quot;减噪&quot;思维——有时候产品升级是
+让用户少知道一点，而不是多知道一点。</p>
+<p><strong>定价结构</strong>：无。未披露，纯免费。</p></article><article class="desk-prose-block"><h2>结论</h2>
+<p><strong>有待观察。</strong> 洞察好、工程干净、是真实可用的工具，但没有商业模式，
+且大概率被大厂产品内置。它的价值在于示范&quot;状态可见性&quot;这个体验点，
+三个月后看扩散速度即可——不需要把它当生意研究。</p></article></div>
+    </article>
+  </section>
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6d1VzQWFQRjRGanVJNWZFWEZENU10dWluUlYzVkJqa3dkQnRFQWhoM09ZU1BVc2pwdmR6T3hZaTlDOXJkLWUtYVZuZkJpdC1ua3RKc1JDVGNXMTJ0elpVRWZXQ0oxMlYtalJ1RlM4SWozNW9GRk9kc3Y3QmZqZEpydUw3eU81MzExWllGd2pqVXNYRlhkSWhyMWxYU05XRmVpQWZsbXZQOWlYdHpSUHJZV2F1RGlR0gG-AUFVX3lxTE5vc3FhUXRzQnp3VXNBYVBGNEZqdUk1ZkVYRkQ1TXR1aW5SVjNWQmprd2RCdEVBaGgzT1lTUFVzanB2ZHpPeFlpOUM5cmQtZS1hVm5mQml0LW5rdEpzUkNUY1cxMnR6WlVFZldDSjEyVi1qUnVGUzhJajM1b0ZGT2RzdjdCZmpkSnJ1TDd5TzUzMTFaWUZ3ampVc1hGWGRJaHIxbFhTTldGZWlBZmxtdlA5aVh0elJQcllXYXVEaVE?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-11</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNODBFZ3h3TnJ6dkpkZ2dfbnNabHVNSFJqdVRSMDZPaU5YUm1aNUJpT0V0cGlKZzBKSXNKT0w1YzkxcUtnM29HalM3QllNakNHZTFkRVdhV2MxNUFzNkhhNHljT0FDeHdLbDkzQmdxbTNYM3BlN0x2OHhOZFk4TG16Z0hDMnVEb0ZEZ01nZERSVTVrb1UzMzR2RjViZ0kyWTlZT3FqRUthUlFlVW5sV20w0gG0AUFVX3lxTE5Ub204V0Y5WTFlbklkazdWQTViME9udjlzdTNBZ3NnUmFXQmttRzVtbFhuREVJUFFLbXI4c2tBNzU5QTdGeUptdE10bUtQbkxnTkFHdUVOeFFwTTZUTy1tVEZvNWZKZndlSS1rMW1WWUg1dHN6ZGx0c0o2UmpxVVJUTWtIdXN1TjNTaHdrUnRuU0VnQkVTcGppdTZBRWZCVHdFZXNtcF8zYkViVHY5NkRLOEZoWA?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail">2026-09-04</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE96YXJ2Y0hldUxVckFxUUZBWFQyOHNHQ0NBSThyVERpZmdOZVJ3Y0dHRENaRks1TnpIczBXdWZhVUR5cXI4eTkxU3FtMHB4bFdhaWx0bC1obDVYSXlEWlRBc2JnYTZfUXpNZ2pJ0gFrQVVfeXFMT3phcnZjSGV1TFVyQXFRRkFYVDI4c0dDQ0FJOHJURGlmZ05lUndjR0dEQ1pGSzVOekhzMFd1ZmFVRHlxcjh5OTFTcW0wcHhsV2FpbHRsLWhsNVhJeURaVEFzYmdhNl9Rek1nakk?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-02</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LWWJkbjN3N2ljZVFsM2J0aGRCXzNsZTZ1T2ZCemF2UzIzdWo3TlFoSHRSeWlYanlDV1BTWVNCM21ZQjJYMW5EQmdpakt2S0NTQ1lqZzRMSEhHamJsUzRQbW9tOWZsQdIBa0FVX3lxTE96YXJ2Y0hldUxVckFxUUZBWFQyOHNHQ0NBSThyVERpZmdOZVJ3Y0dHRENaRks1TnpIczBXdWZhVUR5cXI4eTkxU3FtMHB4bFdhaWx0bC1obDVYSXlEWlRBc2JnYTZfUXpNZ2pJ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-02</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQYkxBM1FiTFZFcm1SY1IwOHZ2b0tZaHhsTDhEOEtENzRaZm1tV0VIYUxEZlZZb3R6QUZ1NXc2Q0M0TVpGZXBqY0J1SmR0RE9EWGxYOUpzekFEbE14YWlKWVRrYndoVF8xNjZlTUYxRUFJcjhYVjE2Q21kMGtteGJiT3gxRHl3bm1fd0dMRFFHalo0b3hjTGdUWG85dk9KdWp0RFo0ckc2QjJCQmpxbWtKb2Uwc1B3UzVDV0E?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-01</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNelpVT2RKLVdEUXl2bC13Z2JleUdmSUtJeVR1LTJKa0dONDZpbmlQbEZPdFB2UEo2d2RaVDlCRmVFcXNRbWJYUk9pYnVnd3EwSU1rM1ptYmEtRVJ0bGZZLVdZTWhSS1YzMUdqZ2hoLUNjWVlfUEd5ZHY1bnhnZGF6NDZTYm9aZDhQZTd1N0djbDlCQXZ5Rk8tQlVIOHczVzBRVnAtaXZ30gGrAUFVX3lxTE1EaWNFMnVhY05wUE9aRUVWOGt1azVSM1JUd2wwQ25GMThLdlFLUzhpY05ieW5ITTc2UUl1R0xuS0tVWUI2ejc0cXhoZnBRV2hjcFA5RkhlSGJaSFRXVmktVjRMcmZPajRjbUZ3OFFSTVlSQmMyeVU3N3VjckJUR19PcVJBeDJZWHpVVWx1aXU3bVplWWI4dWs5WGx2WGVEVnI4SHZmQ1ZJSGFfZw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-02</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjI2SWtYbFJpSHNoeGoxZEUtNzN3MG1jYWtOenBOcnlmOG1WZThqbGd3Mmp5bVFCdXd5RjdGUGpYMkgweEJ0YjhHcTVRUUNtQmtQdzk4ZUtSN3VvOG5lUVhSZGN5ZmNXWU41aXdaN1NqNU5jWk5FOWdVUE1FQU93TzNLX2xVWV9QTzdOd0J4RU5DUmZTNmhuZUpsUGw1VUpwMFJmUVp6LXY5M3A4ZExrUTVkMkRpYk9qUGxTVV9QUGlOX2s1WVJ6V1VjNEhkem9z?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-08-28</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E6%95%88%E7%8E%87">
+        AI + 效率 共 197 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/qm.html">
+          <div class="row-head desk-row">
+            <span class="row-name">qm</span>
+            <span class="row-desc">公司里每个员工一个隔离助手，频道里又能一起使唤同一个，记忆不串味。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/genoffice.html">
+          <div class="row-head desk-row">
+            <span class="row-name">genoffice</span>
+            <span class="row-desc">改材料的人让 AI 直接改 Word、表格和幻灯片内部，没动过的部分按原样保留</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/cindy.html">
+          <div class="row-head desk-row">
+            <span class="row-name">cindy</span>
+            <span class="row-desc">把不同家的写代码助手收进同一工作区，中途换模型，记忆和任务不丢</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/needle2.html">
+          <div class="row-head desk-row">
+            <span class="row-name">Needle2</span>
+            <span class="row-desc">对手机、手表说开灯，不必联网、不必等云端，本机几十毫秒就能做完。</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/49-ide.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">49 IDE</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/frontfamily.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">frontfamily</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>1334 个案例 · 179 份生意判断</span>
+    <span class="gen">数据截至 2026-09-11</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

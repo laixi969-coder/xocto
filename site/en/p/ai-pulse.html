@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>ai-pulse · x-octo</title>
+<meta name="description" content="A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.">
+<link rel="canonical" href="https://xocto.vercel.app/en/p/ai-pulse.html"><link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/ai-pulse.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/ai-pulse.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/ai-pulse.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="ai-pulse · x-octo">
+<meta property="og:description" content="A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.">
+<meta property="og:url" content="https://xocto.vercel.app/en/p/ai-pulse.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · Business judgment on AI products">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#webpage", "@type": "WebPage", "description": "A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.", "inLanguage": "en", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "ai-pulse", "url": "https://xocto.vercel.app/en/p/ai-pulse.html"}, {"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + Productivity", "dateModified": "2026-09-11", "datePublished": "2026-08-11", "description": "A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.", "inLanguage": "en", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/en/p/ai-pulse.html#webpage"}, "name": "ai-pulse", "sameAs": "https://github.com/leog/ai-pulse", "url": "https://xocto.vercel.app/en/p/ai-pulse.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/en/index.html", "name": "Today", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/products.html", "name": "Opportunity map", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/en/p/ai-pulse.html", "name": "ai-pulse", "position": 3}]}]}</script><link rel="stylesheet" href="../../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../../index.html" aria-label="x-octo home"><span>x-octo home</span></a>
+      <span class="brand-tag">Business judgment on AI products</span>
+    </div>
+    <nav class="nav">
+      <a href="../../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>Today</span></a>
+      <a href="../../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>Opportunity map</span></a>
+      <a href="../../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>Playbook</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../../p/ai-pulse.html" lang="zh-CN"
+         hreflang="zh-Hans" aria-label="切换到中文版"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>中文</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Dark mode">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>Theme</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">Business judgment on AI products</p>
+      <div class="product-title-row">
+        <h1>ai-pulse</h1>
+        <span class="verdict v-unproven">Insufficient evidence</span>
+      </div>
+      <p class="product-lede">A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.</p>
+      <div class="meta product-meta">
+<span class="tag sig">Not a business yet</span>        <span class="tag">Early</span>
+<span class="tag">AI + Productivity</span><span class="tag sig">Community score 18</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>Team / maker</dt><dd>leog_me</dd></div>
+      <div><dt>First tracked here</dt><dd class="num">2026-08-11</dd></div>
+      <div><dt>Last updated here</dt><dd class="num">2026-09-11</dd></div>
+      <div><dt>Product site</dt><dd><a href="https://github.com/leog/ai-pulse" target="_blank" rel="noopener">Visit site ↗</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>Why this would be needed</h2>
+        <p class="note">Start inside the user&#39;s day · Public facts + workflow reasoning · 2026-08-28</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">Use case</span>
+        <p class="product-lead">A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.</p>
+        <p>Public materials do not yet show how users complete this job today or what they replace.</p>
+        <p>The product targets friction in this job, but public user evidence does not yet show the cost, frequency, or consequence of leaving it unsolved.</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto&#39;s call</span>
+        <h3>A clean sample of &#34;solve a psychological problem, not a functional one.&#34; Most agent tools add features; this one subtracts noise — compressing &#34;what is the agent doing&#34; into a peripheral signal. The aggregate signal is the smartest choice: the user does not want detail, they want the single answer &#34;…</h3>
+        <p>The trend is that people get anxious the moment an AI works out of sight. The entry is not a generic status board — a “is it still running?” light for desktop assistants, status only, no content. Big vendors will likely bake this in later.</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">Reason to use it</span>
+        <h3>Why users would choose it</h3>
+        <p>It promises a simpler way to complete this job: A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck. The exact adoption motive and repeat use are not yet verified.</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">Where the easy answer breaks down</span>
+        <h3>The tension worth following</h3>
+        <p>① Whether stars clear 300 in three months — diffusion speed of a utility shows; real use; ② Whether official adapters appear for agents beyond Claude Code (Codex, Cursor,; etc.) — that decides whether it survives the transition; ③ Whether desktop agents ship their own status light (the absorption si…</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">If this is your job</span>
+        <p><strong>Keep watching</strong>. It promises a simpler way to complete this job: A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck. The exact adoption motive and repeat use are not yet verified.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Entry and what to borrow</span>
+        <p>when building tools, ask &#34;what is the user anxious about right now&#34; before &#34;what feature should I add.&#34; An ambient status light for a background-running agent is subtractive design — sometimes a product upgrade means letting the user know less, not more.</p>
+      </div>
+      <div class="field">
+        <span class="field-k">Evidence and risk</span>
+        <p>None. MIT open source, free, no paid plan, no ads. ① Whether stars clear 300 in three months — diffusion speed of a utility shows; real use; ② Whether official adapters appear for agents beyond Claude Code (Codex, Cursor,; etc.) — that decides whether it survives the transition; ③ Whether desktop agents ship their own status light (the absorption si…</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>What this judgment rests on</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">Public fact</span><p>A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck.</p></div>
+        <div><span class="field-k">Workflow reasoning</span><p>It promises a simpler way to complete this job: A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stuck. The exact adoption motive and repeat use are not yet verified.</p></div>
+        <div><span class="field-k">The unknown that could change the call</span><p>An English validation note will follow from the public evidence.</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · Value</span>
+            <strong>Insufficient evidence</strong>
+          </div>
+          <p>The product claims to help users complete: “A fake light strip beside the Mac Dock shows at a glance whether your AI is running, waiting, or stu”. User evidence has not yet verified pain intensity or the cost of doing without it.</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · Consensus</span>
+            <strong>Insufficient evidence</strong>
+          </div>
+          <p>The assessment is recorded; an English explanation is pending.</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · Model</span>
+            <strong>Insufficient evidence</strong>
+          </div>
+          <p>The assessment is recorded; an English explanation is pending.</p>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · Truth</span>
+            <strong>Insufficient evidence</strong>
+          </div>
+          <p>The assessment is recorded; an English explanation is pending.</p>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>Chinese and English ecosystems</h2>
+        <p class="note">Market comparison</p>
+      </div>
+    </div>
+    <p class="noanalysis-sub">The Chinese–English market comparison is not complete yet. A conclusion follows only after its coverage and verifiable evidence are recorded.</p>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>60-second business read</h2>
+        <p class="note">The call and next move come first; the full read retains the evidence and counterevidence.</p>
+      </div>
+    </div>
+    <article class="analysis-full product-prose">
+      <div class="desk-prose"><article class="desk-prose-block"><h2>What it is in one line</h2>
+<p>A virtual LED strip floating in the unused space beside the macOS Dock: is your AI
+agent working, waiting on you, finished, or broken — one glance. Pure software,
+does not touch the Dock, reads nothing.</p></article><article class="desk-prose-block"><h2>Who built it</h2>
+<p>leog (GitHub: leog), an independent developer. Inspired by the SidePulse hardware
+gadget, reimplemented as software. The commit history shows pair-programming with
+Claude (Anthropic) — many co-authors are AI — with 27 commits so far.</p>
+<p><em>Read: a classic &quot;open-sourced personal tool&quot; — the author's pain (not knowing
+where a background agent is in its work) was concrete enough to justify a full
+app, but the positioning stays personal-utility; there is no commercial intent.</em></p></article><article class="desk-prose-block"><h2>What it actually does</h2>
+<ul>
+<li><strong>Five states, one strip</strong> → working (cyan comet streaks), needs you (orange
+breathing), failed (red double-blink), finished (all eight LEDs settle green),
+idle (slow aurora), plus an off state</li>
+<li><strong>No per-model distinction</strong> → deliberately a single aggregate signal: you see
+&quot;is something happening,&quot; not which agent</li>
+<li><strong>Not embedded in the Dock</strong> → macOS exposes no public API for Dock accessories,
+so it is a Dock-adjacent, borderless, nonactivating NSPanel positioned from
+public screen geometry (NSScreen.frame vs visibleFrame)</li>
+<li><strong>Zero permissions</strong> → no private APIs, no Accessibility or Screen Recording
+permissions, no injection</li>
+<li><strong>Local loopback service</strong> → listens on 127.0.0.1:7455; a bearer token is
+generated at launch and stored in the Keychain, the aipulse CLI reports status
+without tokens ever appearing in shell history</li>
+<li><strong>Integrations</strong> → an official Claude Code hook adapter, plus a pi extension
+(aipulse-pi.ts); other agents are meant to be added later</li>
+</ul>
+<p><strong>What it deliberately does not do</strong>: read prompts, terminal content, editor
+content, or windows; no interception, no recording.</p></article><article class="desk-prose-block"><h2>What old behavior it replaces</h2>
+<p>With a desktop agent (especially a CLI agent like Claude Code), knowing &quot;where is
+it now&quot; used to mean one of two things:</p>
+<p><strong>Keeping the terminal open</strong> — staring at a scrolling log; look away for a moment
+and you lose track of which step it is on, and whether you should wait.</p>
+<p><strong>Flipping over to poke it</strong> — constantly switching windows to check output, or
+just waiting blind; when the agent is waiting on your approval you may not know,
+burning minutes.</p>
+<p>Further back, people bought hardware like the SidePulse LED strip for the same
+problem — extra money, a physical spot, and locked to a specific ecosystem.</p>
+<p>AI Pulse replaces &quot;repeatedly checking agent status&quot;: it lifts &quot;busy / waiting on
+you / broken&quot; out of the logs and turns it into ambient light you catch with
+peripheral vision. It solves an anxiety problem rather than a functional one, and
+the README says exactly that.</p></article><article class="desk-prose-block"><h2>Business model</h2>
+<p><strong>None.</strong> MIT open source, free, no paid plan, no ads.</p>
+<p><em>Read: there is no commercial imagination here, and the value lives elsewhere —
+it validates that the psychological cost of an invisible agent is real and can be
+addressed by a 30-line UI. That need will most likely be absorbed by agent
+products themselves.</em></p></article><article class="desk-prose-block"><h2>Hard numbers</h2>
+<ul>
+<li>HN: 18 points / 12 comments (this batch's observation)</li>
+<li>27 commits, MIT, Swift/SwiftUI, Universal binary (arm64 + x86_64)</li>
+<li>All six milestones delivered; the README calls the MVP complete</li>
+<li>Releases not yet notarized; install requires right-click → Open (plus a
+Privacy &amp; Security allowance on macOS 15+)</li>
+<li>Users and downloads: not disclosed</li>
+</ul></article><article class="desk-prose-block"><h2>Four-way read</h2>
+<table>
+<thead>
+<tr>
+  <th>Dimension</th>
+  <th>Call</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Founder-product fit</td>
+  <td>High. The author is a daily CLI-agent user; the pain is real</td>
+</tr>
+<tr>
+  <td>Product insight</td>
+  <td>Targets anxiety, not function; the aggregate signal (no per-model split) is a deliberately restrained, good design</td>
+</tr>
+<tr>
+  <td>Execution quality</td>
+  <td>NSPanel placement, Keychain token, zero permissions, local loopback API; clean engineering, not a toy</td>
+</tr>
+<tr>
+  <td>Timing</td>
+  <td>Reasonable but a short window. Desktop agents do not ship a status light yet, but absorption is only a matter of time</td>
+</tr>
+</tbody>
+</table></article><article class="desk-prose-block"><h2>The call</h2>
+<p><strong>A clean sample of &quot;solve a psychological problem, not a functional one.&quot;</strong>
+Most agent tools add features; this one subtracts noise — compressing &quot;what is the
+agent doing&quot; into a peripheral signal. The aggregate signal is the smartest
+choice: the user does not want detail, they want the single answer &quot;do you need me
+right now.&quot;</p>
+<p><strong>The engineering is serious.</strong> Not docked (impossible anyway), zero permissions,
+token through the Keychain, local loopback — a &quot;fake LED strip&quot; built to
+production standard is itself a statement about quality.</p>
+<p><strong>But its fate is probably absorption.</strong> Status visibility is part of agent
+product experience, and Claude and friends will eventually make status better
+themselves. That makes it a good transitional tool, not a business.</p>
+<p><strong>The transferable rule: adding an ambient visible signal to an invisible process
+is the cheapest and most effective experience upgrade there is.</strong> User anxiety
+about background processes is real, and the UI to fix it is often just a status
+light.</p></article><article class="desk-prose-block"><h2>What to watch next</h2>
+<p>① Whether stars clear 300 in three months — diffusion speed of a utility shows
+real use
+② Whether official adapters appear for agents beyond Claude Code (Codex, Cursor,
+etc.) — that decides whether it survives the transition
+③ Whether desktop agents ship their own status light (the absorption signal)</p></article><article class="desk-prose-block"><h2>What you can take from it</h2>
+<p><strong>Product logic</strong>: when building tools, ask &quot;what is the user anxious about right
+now&quot; before &quot;what feature should I add.&quot; An ambient status light for a
+background-running agent is subtractive design — sometimes a product upgrade means
+letting the user know less, not more.</p>
+<p><strong>Pricing structure</strong>: none. Not disclosed; fully free.</p></article><article class="desk-prose-block"><h2>Verdict</h2>
+<p><strong>Unproven.</strong> Good insight, clean engineering, a genuinely usable tool — but no
+business model, and likely to be absorbed by a bigger product. Its value is
+demonstrating the &quot;status visibility&quot; experience point. Check its diffusion speed
+in three months; no need to study it as a business.</p></article></div>
+    </article>
+  </section>
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>Verifiable public evidence</h2>
+        <p class="note">Evidence trail</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3NxYVF0c0J6d1VzQWFQRjRGanVJNWZFWEZENU10dWluUlYzVkJqa3dkQnRFQWhoM09ZU1BVc2pwdmR6T3hZaTlDOXJkLWUtYVZuZkJpdC1ua3RKc1JDVGNXMTJ0elpVRWZXQ0oxMlYtalJ1RlM4SWozNW9GRk9kc3Y3QmZqZEpydUw3eU81MzExWllGd2pqVXNYRlhkSWhyMWxYU05XRmVpQWZsbXZQOWlYdHpSUHJZV2F1RGlR0gG-AUFVX3lxTE5vc3FhUXRzQnp3VXNBYVBGNEZqdUk1ZkVYRkQ1TXR1aW5SVjNWQmprd2RCdEVBaGgzT1lTUFVzanB2ZHpPeFlpOUM5cmQtZS1hVm5mQml0LW5rdEpzUkNUY1cxMnR6WlVFZldDSjEyVi1qUnVGUzhJajM1b0ZGT2RzdjdCZmpkSnJ1TDd5TzUzMTFaWUZ3ampVc1hGWGRJaHIxbFhTTldGZWlBZmxtdlA5aVh0elJQcllXYXVEaVE?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering</span>
+        <span class="row-desc">User pain · Target Expands AI Shopping Features With Photo Search, Review Insights And Personalized Reordering Pulse 2.0</span>
+        <span class="row-tail">2026-09-11</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNODBFZ3h3TnJ6dkpkZ2dfbnNabHVNSFJqdVRSMDZPaU5YUm1aNUJpT0V0cGlKZzBKSXNKT0w1YzkxcUtnM29HalM3QllNakNHZTFkRVdhV2MxNUFzNkhhNHljT0FDeHdLbDkzQmdxbTNYM3BlN0x2OHhOZFk4TG16Z0hDMnVEb0ZEZ01nZERSVTVrb1UzMzR2RjViZ0kyWTlZT3FqRUthUlFlVW5sV20w0gG0AUFVX3lxTE5Ub204V0Y5WTFlbklkazdWQTViME9udjlzdTNBZ3NnUmFXQmttRzVtbFhuREVJUFFLbXI4c2tBNzU5QTdGeUptdE10bUtQbkxnTkFHdUVOeFFwTTZUTy1tVEZvNWZKZndlSS1rMW1WWUg1dHN6ZGx0c0o2UmpxVVJUTWtIdXN1TjNTaHdrUnRuU0VnQkVTcGppdTZBRWZCVHdFZXNtcF8zYkViVHY5NkRLOEZoWA?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Plan A Technologies Acquires AI Assessment Technology To Expand Technical M&amp;A Due Diligence</span>
+        <span class="row-desc">User pain · Plan A Technologies Acquires AI Assessment Technology To Expand Technical M&amp;A Due Diligence Pulse 2.0</span>
+        <span class="row-tail">2026-09-04</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMia0FVX3lxTE96YXJ2Y0hldUxVckFxUUZBWFQyOHNHQ0NBSThyVERpZmdOZVJ3Y0dHRENaRks1TnpIczBXdWZhVUR5cXI4eTkxU3FtMHB4bFdhaWx0bC1obDVYSXlEWlRBc2JnYTZfUXpNZ2pJ0gFrQVVfeXFMT3phcnZjSGV1TFVyQXFRRkFYVDI4c0dDQ0FJOHJURGlmZ05lUndjR0dEQ1pGSzVOekhzMFd1ZmFVRHlxcjh5OTFTcW0wcHhsV2FpbHRsLWhsNVhJeURaVEFzYmdhNl9Rek1nakk?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Flip: Interview With CEO And Co-Founder Brian Schiff About AI-Powered Customer Service</span>
+        <span class="row-desc">market_signal · Flip: Interview With CEO And Co-Founder Brian Schiff About AI-Powered Customer Service Pulse 2.0</span>
+        <span class="row-tail">2026-09-02</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LWWJkbjN3N2ljZVFsM2J0aGRCXzNsZTZ1T2ZCemF2UzIzdWo3TlFoSHRSeWlYanlDV1BTWVNCM21ZQjJYMW5EQmdpakt2S0NTQ1lqZzRMSEhHamJsUzRQbW9tOWZsQdIBa0FVX3lxTE96YXJ2Y0hldUxVckFxUUZBWFQyOHNHQ0NBSThyVERpZmdOZVJ3Y0dHRENaRks1TnpIczBXdWZhVUR5cXI4eTkxU3FtMHB4bFdhaWx0bC1obDVYSXlEWlRBc2JnYTZfUXpNZ2pJ?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Flip: Interview With CEO And Co-Founder Brian Schiff About AI-Powered Customer Service</span>
+        <span class="row-desc">market_signal · Flip: Interview With CEO And Co-Founder Brian Schiff About AI-Powered Customer Service Pulse 2.0</span>
+        <span class="row-tail">2026-09-02</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQYkxBM1FiTFZFcm1SY1IwOHZ2b0tZaHhsTDhEOEtENzRaZm1tV0VIYUxEZlZZb3R6QUZ1NXc2Q0M0TVpGZXBqY0J1SmR0RE9EWGxYOUpzekFEbE14YWlKWVRrYndoVF8xNjZlTUYxRUFJcjhYVjE2Q21kMGtteGJiT3gxRHl3bm1fd0dMRFFHalo0b3hjTGdUWG85dk9KdWp0RFo0ckc2QjJCQmpxbWtKb2Uwc1B3UzVDV0E?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Kiran Belsekar Joins Mahindra Manulife Insurance After Over Six Years at Bandhan Life</span>
+        <span class="row-desc">market_signal · Kiran Belsekar Joins Mahindra Manulife Insurance After Over Six Years at Bandhan Life CXO Digitalpulse</span>
+        <span class="row-tail">2026-09-01</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNelpVT2RKLVdEUXl2bC13Z2JleUdmSUtJeVR1LTJKa0dONDZpbmlQbEZPdFB2UEo2d2RaVDlCRmVFcXNRbWJYUk9pYnVnd3EwSU1rM1ptYmEtRVJ0bGZZLVdZTWhSS1YzMUdqZ2hoLUNjWVlfUEd5ZHY1bnhnZGF6NDZTYm9aZDhQZTd1N0djbDlCQXZ5Rk8tQlVIOHczVzBRVnAtaXZ30gGrAUFVX3lxTE1EaWNFMnVhY05wUE9aRUVWOGt1azVSM1JUd2wwQ25GMThLdlFLUzhpY05ieW5ITTc2UUl1R0xuS0tVWUI2ejc0cXhoZnBRV2hjcFA5RkhlSGJaSFRXVmktVjRMcmZPajRjbUZ3OFFSTVlSQmMyeVU3N3VjckJUR19PcVJBeDJZWHpVVWx1aXU3bVplWWI4dWs5WGx2WGVEVnI4SHZmQ1ZJSGFfZw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Dollar Shave Club Acquires Truly Beauty To Build Multi-Brand Personal Care Platform</span>
+        <span class="row-desc">market_signal · Dollar Shave Club Acquires Truly Beauty To Build Multi-Brand Personal Care Platform Pulse 2.0</span>
+        <span class="row-tail">2026-09-02</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjI2SWtYbFJpSHNoeGoxZEUtNzN3MG1jYWtOenBOcnlmOG1WZThqbGd3Mmp5bVFCdXd5RjdGUGpYMkgweEJ0YjhHcTVRUUNtQmtQdzk4ZUtSN3VvOG5lUVhSZGN5ZmNXWU41aXdaN1NqNU5jWk5FOWdVUE1FQU93TzNLX2xVWV9QTzdOd0J4RU5DUmZTNmhuZUpsUGw1VUpwMFJmUVp6LXY5M3A4ZExrUTVkMkRpYk9qUGxTVV9QUGlOX2s1WVJ6V1VjNEhkem9z?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">India Startup Weekly Pulse: Focused on EV, AI, FinTech and Consumer</span>
+        <span class="row-desc">market_signal · India Startup Weekly Pulse: Focused on EV, AI, FinTech and Consumer Siliconindia</span>
+        <span class="row-tail">2026-08-28</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>Go from the product name to primary material</h2>
+        <p class="note">Use these searches when the official site is missing or the current link is only a lead.</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Official site and docs</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Pricing and plans</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">User reviews and complaints</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Customer cases and outcomes</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22ai-pulse%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">Alternatives and comparisons</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="Keep browsing">
+    <div class="sec-head desk-sec">
+      <div><h2>Similar products</h2></div>
+      <a class="note onward-all" href="../../products.html#c=AI%20%2B%20Productivity">
+        197 in AI + Productivity →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../../p/qm.html">
+          <div class="row-head desk-row">
+            <span class="row-name">qm</span>
+            <span class="row-desc">Every employee gets an isolated assistant, and the same one can still be driven together in a channel, with memories that do not leak.</span>
+            <span class="row-tail">
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/genoffice.html">
+          <div class="row-head desk-row">
+            <span class="row-name">genoffice</span>
+            <span class="row-desc">People editing materials let AI change Word, sheets, and slides from the inside, while untouched bytes stay exactly as they were.</span>
+            <span class="row-tail">
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/cindy.html">
+          <div class="row-head desk-row">
+            <span class="row-name">cindy</span>
+            <span class="row-desc">Puts coding assistants from different vendors in one workspace so you can switch models mid-task without losing memory or work.</span>
+            <span class="row-tail">
+<span class="tag sig">Started charging</span><span class="tag">Analyzed</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../../p/needle2.html">
+          <div class="row-head desk-row">
+            <span class="row-name">Needle2</span>
+            <span class="row-desc">Tell a phone or watch to turn on the light. No network, no cloud wait — the device finishes in tens of milliseconds.</span>
+            <span class="row-tail">
+<span class="tag sig">Not a business yet</span><span class="tag">Analyzed</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../../p/49-ide.html">
+        <span class="pager-k">Previous</span>
+        <span class="pager-n">49 IDE</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../../p/frontfamily.html">
+        <span class="pager-k">Next</span>
+        <span class="pager-n">frontfamily</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="Help improve x-octo">
+  <p><strong>Help improve x-octo</strong> If you allow it, we use aggregated analytics to understand which pages help, where readers come from, and how they engage.</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">Decline</button>
+    <button class="consent-allow" id="analytics-allow" type="button">Allow analytics</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · Business judgment on AI products</span>
+    <span>·</span>
+    <span>1334 cases · 179 business reads</span>
+    <span class="gen">Data through 2026-09-11</span>
+    <span>·</span>
+    <a href="../../reports.html">Calls archive</a>
+    <span>·</span>
+    <a href="../../methodology.html">Methodology</a>
+    <span>·</span>
+    <a href="../../privacy.html">Privacy &amp; analytics</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>
