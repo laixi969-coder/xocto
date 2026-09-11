@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>AvioBook · x-octo</title>
+<meta name="description" content="航空公司签派员和运行经理在航班过站出现延误时，原本要翻看 AvioBook Connect 里的运行记录和报表逐项比对，才能判断延误出在哪一环。该原型让 AI 读取这些运行数据并直接给出带依据的自然语言回答，用户拿到的是延误原因的说明，仍需自己确认后再安排后续动作；具体流程与交付形态仍待核验。">
+<link rel="canonical" href="https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="AvioBook · x-octo">
+<meta property="og:description" content="航空公司签派员和运行经理在航班过站出现延误时，原本要翻看 AvioBook Connect 里的运行记录和报表逐项比对，才能判断延误出在哪一环。该原型让 AI 读取这些运行数据并直接给出带依据的自然语言回答，用户拿到的是延误原因的说明，仍需自己确认后再安排后续动作；具体流程与交付形态仍待核验。">
+<meta property="og:url" content="https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html#webpage", "@type": "WebPage", "description": "\u822a\u7a7a\u516c\u53f8\u7b7e\u6d3e\u5458\u548c\u8fd0\u884c\u7ecf\u7406\u5728\u822a\u73ed\u8fc7\u7ad9\u51fa\u73b0\u5ef6\u8bef\u65f6\uff0c\u539f\u672c\u8981\u7ffb\u770b AvioBook Connect \u91cc\u7684\u8fd0\u884c\u8bb0\u5f55\u548c\u62a5\u8868\u9010\u9879\u6bd4\u5bf9\uff0c\u624d\u80fd\u5224\u65ad\u5ef6\u8bef\u51fa\u5728\u54ea\u4e00\u73af\u3002\u8be5\u539f\u578b\u8ba9 AI \u8bfb\u53d6\u8fd9\u4e9b\u8fd0\u884c\u6570\u636e\u5e76\u76f4\u63a5\u7ed9\u51fa\u5e26\u4f9d\u636e\u7684\u81ea\u7136\u8bed\u8a00\u56de\u7b54\uff0c\u7528\u6237\u62ff\u5230\u7684\u662f\u5ef6\u8bef\u539f\u56e0\u7684\u8bf4\u660e\uff0c\u4ecd\u9700\u81ea\u5df1\u786e\u8ba4\u540e\u518d\u5b89\u6392\u540e\u7eed\u52a8\u4f5c\uff1b\u5177\u4f53\u6d41\u7a0b\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "AvioBook", "url": "https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html"}, {"@id": "https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5546\u4e1a", "dateModified": "2026-09-11", "datePublished": "2026-09-10", "description": "\u822a\u7a7a\u516c\u53f8\u7b7e\u6d3e\u5458\u548c\u8fd0\u884c\u7ecf\u7406\u5728\u822a\u73ed\u8fc7\u7ad9\u51fa\u73b0\u5ef6\u8bef\u65f6\uff0c\u539f\u672c\u8981\u7ffb\u770b AvioBook Connect \u91cc\u7684\u8fd0\u884c\u8bb0\u5f55\u548c\u62a5\u8868\u9010\u9879\u6bd4\u5bf9\uff0c\u624d\u80fd\u5224\u65ad\u5ef6\u8bef\u51fa\u5728\u54ea\u4e00\u73af\u3002\u8be5\u539f\u578b\u8ba9 AI \u8bfb\u53d6\u8fd9\u4e9b\u8fd0\u884c\u6570\u636e\u5e76\u76f4\u63a5\u7ed9\u51fa\u5e26\u4f9d\u636e\u7684\u81ea\u7136\u8bed\u8a00\u56de\u7b54\uff0c\u7528\u6237\u62ff\u5230\u7684\u662f\u5ef6\u8bef\u539f\u56e0\u7684\u8bf4\u660e\uff0c\u4ecd\u9700\u81ea\u5df1\u786e\u8ba4\u540e\u518d\u5b89\u6392\u540e\u7eed\u52a8\u4f5c\uff1b\u5177\u4f53\u6d41\u7a0b\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html#webpage"}, "name": "AvioBook", "sameAs": "https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/", "url": "https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html", "name": "AvioBook", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class="on"><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/p/how-aviobook-builds-turnaround-insights-from-operational-dat.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">AI 应用的生意判断</p>
+      <div class="product-title-row">
+        <h1>AvioBook</h1>
+      </div>
+      <p class="product-lede">航空公司签派员和运行经理在航班过站出现延误时，原本要翻看 AvioBook Connect 里的运行记录和报表逐项比对，才能判断延误出在哪一环。该原型让 AI 读取这些运行数据并直接给出带依据的自然语言回答，用户拿到的是延误原因的说明，仍需自己确认后再安排后续动作；具体流程与交付形态仍待核验。</p>
+      <div class="meta product-meta">
+<span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
+<span class="tag">AI 改造</span><span class="tag">AI + 商业</span><span class="tag">航空运输</span><span class="tag">机场地面服务</span><span class="tag">航空公司签派员</span><span class="tag">航班运行经理</span><span class="tag">欧洲</span>      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>本站首次收录</dt><dd class="num">2026-09-10</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-11</dd></div>
+      <div><dt>产品官网</dt><dd><a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>它为什么会被需要</h2>
+        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-09-11</p>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel">
+        <span class="field-k">使用场景</span>
+        <p class="product-lead">航空公司签派员或运行经理在航班过站出现延误时，处理 AvioBook Connect 里的运行记录与报表，要找出延误发生在哪个保障环节并据此安排后续处置。</p>
+        <p>现有做法是签派员和运行经理手工调取 AvioBook Connect 的报表与运行记录，凭经验比对时间点，或依赖既有 BI 报表。</p>
+        <p>延误归因依赖人工翻查多份运行记录并逐项比对，判断慢且容易漏掉真正的瓶颈环节，延误成本随时间累积。</p>
+      </article>
+      <article class="product-panel product-panel-call">
+        <span class="field-k">xOcto 的判断</span>
+        <h3>需求有依据</h3>
+        <p>趋势是航空运行数据这类高门槛、强时效的行业数据，第一次被做成可对话的延误归因入口。切入可以从过站保障、机坪调度这类延误成本最直接的地面环节进入，按航司或机场的过站架次收费，而不是卖通用分析工具；前提是能拿到航司自己的运行数据。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">使用理由</span>
+        <h3>为什么用户会选择它</h3>
+        <p>相较手工翻报表，该原型让 AI 直接读取同一套运行数据并给出带依据的延误原因说明，把“先找数据再比对”这一步压缩成一次提问；推断，签派员和运行经理在过站延误需要快速定责时会因此选择它，但公开材料未给出定价、客户采用或留存证据。</p>
+      </article>
+      <article class="product-panel product-panel-question">
+        <span class="field-k">还不能轻易下结论的地方</span>
+        <h3>真正值得继续追问的矛盾</h3>
+        <p>收集 AvioBook 官方产品页或客户案例，确认 Connected Analytics 是否已商用、面向哪些航司、按什么方式计价。</p>
+      </article>
+    </div>
+
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">如果你正在做这项工作</span>
+        <p><strong>值得试用</strong>。相较手工翻报表，该原型让 AI 直接读取同一套运行数据并给出带依据的延误原因说明，把“先找数据再比对”这一步压缩成一次提问；推断，签派员和运行经理在过站延误需要快速定责时会因此选择它，但公开材料未给出定价、客户采用或留存证据。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">怎样切入 / 可以借走什么</span>
+        <p>趋势是航空运行数据这类高门槛、强时效的行业数据，第一次被做成可对话的延误归因入口。切入可以从过站保障、机坪调度这类延误成本最直接的地面环节进入，按航司或机场的过站架次收费，而不是卖通用分析工具；前提是能拿到航司自己的运行数据。</p>
+      </div>
+    </div>
+
+    <details class="product-evidence" open>
+      <summary>我们凭什么这样判断</summary>
+      <div class="product-evidence-grid">
+        <div><span class="field-k">公开事实</span><p>它解决过站延误归因这一具体任务，痛点是人工比对运行记录慢且易漏，不采用则延误成本持续累积；买方与定价未披露。</p></div>
+        <div><span class="field-k">工作流推理</span><p>相较手工翻报表，该原型让 AI 直接读取同一套运行数据并给出带依据的延误原因说明，把“先找数据再比对”这一步压缩成一次提问；推断，签派员和运行经理在过站延误需要快速定责时会因此选择它，但公开材料未给出定价、客户采用或留存证据。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集 AvioBook 官方产品页或客户案例，确认 Connected Analytics 是否已商用、面向哪些航司、按什么方式计价。</p></div>
+      </div>
+      <div class="gate-audit">
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">01 · 价值</span>
+            <strong>已有支持</strong>
+          </div>
+          <p>它解决过站延误归因这一具体任务，痛点是人工比对运行记录慢且易漏，不采用则延误成本持续累积；买方与定价未披露。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/" target="_blank" rel="noopener">aws.amazon.com · 2026-09-10 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">02 · 共识</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>目前只有厂商与云平台的一手试制说明，未见航司客户名单、部署范围或一线使用反馈，强场景存在但采用共识未形成。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/" target="_blank" rel="noopener">aws.amazon.com · 2026-09-10 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">03 · 模式</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>公开材料未说明按航司席位、按过站架次还是随 AvioBook Connect 打包收费，钱从哪一方来属于判断而非已验证事实。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/" target="_blank" rel="noopener">aws.amazon.com · 2026-09-10 ↗</a>
+          </div>
+        </article>
+        <article class="gate-row">
+          <div class="gate-head">
+            <span class="field-k">04 · 求真</span>
+            <strong>证据不足</strong>
+          </div>
+          <p>延误归因依赖运行数据质量与人工复核边界，材料未说明答案如何校验、错误归因由谁负责，交付确定性待核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/" target="_blank" rel="noopener">aws.amazon.com · 2026-09-10 ↗</a>
+          </div>
+        </article>
+      </div>
+    </details>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>中英文生态与跨国机会</h2>
+        <p class="note">市场对照</p>
+      </div>
+    </div>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="noanalysis">
+      <p class="noanalysis-lead">完整分析尚未完成，可先阅读上方的方向判断。</p>
+      <p class="noanalysis-sub">
+目前公开信息有限，判断会随新证据更新。        它刚被收录，尚缺可验证的使用数据。
+      </p>
+      <p class="noanalysis-sub">
+        同类产品的完整分析：
+        <a href="../p/getopen.html">getopen</a>、        <a href="../p/gtm-cofounder.html">gtm-cofounder</a>      </p>
+    </div>
+  </section>
+
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">cloud.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">perplexity.ai</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://gemini.google/us/about/?hl=en" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aws.amazon.com/blogs/machine-learning/how-aviobook-uses-generative-ai-to-drive-airline-turnaround-insights/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aws.amazon.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-10</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">05</p>
+        <h2>从产品名直接追到一手材料</h2>
+        <p class="note">产品官网缺失或当前链接只是线索时，从这些检索入口继续核验。</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://www.google.com/search?q=%22AvioBook%22+official+documentation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">官网与文档</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22AvioBook%22+pricing+plans" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">定价与套餐</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22AvioBook%22+customer+reviews+complaints" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">用户评价与抱怨</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22AvioBook%22+customer+case+study+results" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">客户案例与结果</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+      <li><a href="https://www.google.com/search?q=%22AvioBook%22+alternatives+comparison" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">替代品与对比</span>
+        <span class="row-tail">↗</span>
+      </div></a></li>
+    </ul>
+  </section>
+
+  <nav class="onward product-onward" aria-label="继续浏览">
+    <div class="sec-head desk-sec">
+      <div><h2>同类产品</h2></div>
+      <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%95%86%E4%B8%9A">
+        AI + 商业 共 272 个 →
+      </a>
+    </div>
+    <ul class="rows desk-list">
+      <li>
+        <a href="../p/getopen.html">
+          <div class="row-head desk-row">
+            <span class="row-name">getopen</span>
+            <span class="row-desc">独立站卖家查清哪个页面带来付费，还能开口问昨天到底发生了什么</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/gtm-cofounder.html">
+          <div class="row-head desk-row">
+            <span class="row-name">gtm-cofounder</span>
+            <span class="row-desc">没有商业合伙人的技术创始人，被追问谁会买、为什么付钱、怎么开口</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/discoveredmaterials.html">
+          <div class="row-head desk-row">
+            <span class="row-name">discoveredmaterials</span>
+            <span class="row-desc">用一群 AI 替半导体行业筛新材料，人只审最后能不能进实验室</span>
+            <span class="row-tail">
+<span class="tag sig">还不是生意</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="../p/continuum.html">
+          <div class="row-head desk-row">
+            <span class="row-name">Continuum</span>
+            <span class="row-desc">帮管理者记下对每个下属的判断：说过什么、看到什么、信心怎么变</span>
+            <span class="row-tail">
+<span class="tag sig">开始收费</span><span class="tag">已分析</span>            </span>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="pager">
+      <a class="pager-item pager-prev" href="../p/higgsfield-genjutsu.html">
+        <span class="pager-k">上一个</span>
+        <span class="pager-n">Higgsfield Genjutsu</span>
+      </a>
+
+      <a class="pager-item pager-next" href="../p/how-boomi-scribe-streamlines-documentation-using-aws.html">
+        <span class="pager-k">下一个</span>
+        <span class="pager-n">Boomi Scribe</span>
+      </a>
+    </div>
+  </nav>
+
+</div>
+
+<script>
+  (function () {
+    var prev = document.querySelector('.pager-prev');
+    var next = document.querySelector('.pager-next');
+    document.addEventListener('keydown', function (e) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea') return;
+      if (e.key === 'ArrowLeft' && prev) location.href = prev.href;
+      if (e.key === 'ArrowRight' && next) location.href = next.href;
+    });
+  })();
+</script>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>1409 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-11</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

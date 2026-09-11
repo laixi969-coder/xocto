@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>lore · x-octo</title>
-<meta name="description" content="lore 是一个开源工具，为编码代理（如 Claude Code 和 Codex）提供 git 记忆。开发者在编码代理会话中，lore 自动将每次会话保存为本地可搜索的存档，便于后续检索和复用。具体流程和交付仍待核验。">
+<meta name="description" content="开发者用 Claude Code、Codex 等 AI 编程助手完成任务后，原本只能翻找散落的本地会话记录来回忆改了什么、为什么改；lore 把这些会话存进本地可搜索档案，输入关键词即可查回历史会话。具体检索效果与交付形式仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/lore.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/lore.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/lore.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/lore.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="lore · x-octo">
-<meta property="og:description" content="lore 是一个开源工具，为编码代理（如 Claude Code 和 Codex）提供 git 记忆。开发者在编码代理会话中，lore 自动将每次会话保存为本地可搜索的存档，便于后续检索和复用。具体流程和交付仍待核验。">
+<meta property="og:description" content="开发者用 Claude Code、Codex 等 AI 编程助手完成任务后，原本只能翻找散落的本地会话记录来回忆改了什么、为什么改；lore 把这些会话存进本地可搜索档案，输入关键词即可查回历史会话。具体检索效果与交付形式仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/lore.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lore.html#webpage", "@type": "WebPage", "description": "lore \u662f\u4e00\u4e2a\u5f00\u6e90\u5de5\u5177\uff0c\u4e3a\u7f16\u7801\u4ee3\u7406\uff08\u5982 Claude Code \u548c Codex\uff09\u63d0\u4f9b git \u8bb0\u5fc6\u3002\u5f00\u53d1\u8005\u5728\u7f16\u7801\u4ee3\u7406\u4f1a\u8bdd\u4e2d\uff0clore \u81ea\u52a8\u5c06\u6bcf\u6b21\u4f1a\u8bdd\u4fdd\u5b58\u4e3a\u672c\u5730\u53ef\u641c\u7d22\u7684\u5b58\u6863\uff0c\u4fbf\u4e8e\u540e\u7eed\u68c0\u7d22\u548c\u590d\u7528\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@id": "https://xocto.vercel.app/p/lore.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-11", "datePublished": "2026-08-11", "description": "lore \u662f\u4e00\u4e2a\u5f00\u6e90\u5de5\u5177\uff0c\u4e3a\u7f16\u7801\u4ee3\u7406\uff08\u5982 Claude Code \u548c Codex\uff09\u63d0\u4f9b git \u8bb0\u5fc6\u3002\u5f00\u53d1\u8005\u5728\u7f16\u7801\u4ee3\u7406\u4f1a\u8bdd\u4e2d\uff0clore \u81ea\u52a8\u5c06\u6bcf\u6b21\u4f1a\u8bdd\u4fdd\u5b58\u4e3a\u672c\u5730\u53ef\u641c\u7d22\u7684\u5b58\u6863\uff0c\u4fbf\u4e8e\u540e\u7eed\u68c0\u7d22\u548c\u590d\u7528\u3002\u5177\u4f53\u6d41\u7a0b\u548c\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lore.html#webpage"}, "name": "lore", "sameAs": "https://github.com/hsusul/lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lore.html", "name": "lore", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/lore.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u7528 Claude Code\u3001Codex \u7b49 AI \u7f16\u7a0b\u52a9\u624b\u5b8c\u6210\u4efb\u52a1\u540e\uff0c\u539f\u672c\u53ea\u80fd\u7ffb\u627e\u6563\u843d\u7684\u672c\u5730\u4f1a\u8bdd\u8bb0\u5f55\u6765\u56de\u5fc6\u6539\u4e86\u4ec0\u4e48\u3001\u4e3a\u4ec0\u4e48\u6539\uff1blore \u628a\u8fd9\u4e9b\u4f1a\u8bdd\u5b58\u8fdb\u672c\u5730\u53ef\u641c\u7d22\u6863\u6848\uff0c\u8f93\u5165\u5173\u952e\u8bcd\u5373\u53ef\u67e5\u56de\u5386\u53f2\u4f1a\u8bdd\u3002\u5177\u4f53\u68c0\u7d22\u6548\u679c\u4e0e\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@id": "https://xocto.vercel.app/p/lore.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-11", "datePublished": "2026-08-11", "description": "\u5f00\u53d1\u8005\u7528 Claude Code\u3001Codex \u7b49 AI \u7f16\u7a0b\u52a9\u624b\u5b8c\u6210\u4efb\u52a1\u540e\uff0c\u539f\u672c\u53ea\u80fd\u7ffb\u627e\u6563\u843d\u7684\u672c\u5730\u4f1a\u8bdd\u8bb0\u5f55\u6765\u56de\u5fc6\u6539\u4e86\u4ec0\u4e48\u3001\u4e3a\u4ec0\u4e48\u6539\uff1blore \u628a\u8fd9\u4e9b\u4f1a\u8bdd\u5b58\u8fdb\u672c\u5730\u53ef\u641c\u7d22\u6863\u6848\uff0c\u8f93\u5165\u5173\u952e\u8bcd\u5373\u53ef\u67e5\u56de\u5386\u53f2\u4f1a\u8bdd\u3002\u5177\u4f53\u68c0\u7d22\u6548\u679c\u4e0e\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/lore.html#webpage"}, "name": "lore", "sameAs": "https://github.com/hsusul/lore", "url": "https://xocto.vercel.app/p/lore.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/lore.html", "name": "lore", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>lore</h1>
       </div>
-      <p class="product-lede">lore 是一个开源工具，为编码代理（如 Claude Code 和 Codex）提供 git 记忆。开发者在编码代理会话中，lore 自动将每次会话保存为本地可搜索的存档，便于后续检索和复用。具体流程和交付仍待核验。</p>
+      <p class="product-lede">开发者用 Claude Code、Codex 等 AI 编程助手完成任务后，原本只能翻找散落的本地会话记录来回忆改了什么、为什么改；lore 把这些会话存进本地可搜索档案，输入关键词即可查回历史会话。具体检索效果与交付形式仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发者</span><span class="tag sig">开源关注 143</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">使用 AI 编程助手的软件工程师</span><span class="tag sig">开源关注 143</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>hsusul</dd></div>
@@ -95,7 +95,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>需求有依据</h3>
-        <p>趋势：编码代理的会话记忆成为开发者效率瓶颈，本地存档是自然延伸。切入：可从团队协作和知识管理角度，为开发团队提供会话历史的共享与检索，而非仅个人工具。</p>
+        <p>趋势：AI 编程助手从单次问答走向跨会话长期协作，会话记忆开始被当作独立需求对待。切入：不与模型厂商正面拼记忆功能，可面向需要审计 AI 改码记录的团队或受监管行业，做可追溯的会话存档。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
@@ -116,7 +116,7 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势：编码代理的会话记忆成为开发者效率瓶颈，本地存档是自然延伸。切入：可从团队协作和知识管理角度，为开发团队提供会话历史的共享与检索，而非仅个人工具。</p>
+        <p>趋势：AI 编程助手从单次问答走向跨会话长期协作，会话记忆开始被当作独立需求对待。切入：不与模型厂商正面拼记忆功能，可面向需要审计 AI 改码记录的团队或受监管行业，做可追溯的会话存档。</p>
       </div>
     </div>
 
@@ -172,12 +172,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-06。未发现仅限该覆盖范围。 · 2026-09-06</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
       </div>
     </div>
   </section>
@@ -204,43 +204,8 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://blog.google/products-and-platforms/products/search/running-race-training-tips/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">blog.google</span>
-        <span class="row-desc">market_signal</span>
-        <span class="row-tail">2026-09-11</span>
-      </div></a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Lore" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.wikipedia.org</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://www.wikihow.com/Lore-Meaning-Slang" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">wikihow.com</span>
-        <span class="row-desc">用户痛点</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">openai.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">gemini.google.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
       <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">chatgpt.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://www.ibm.com/think/topics/artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">ibm.com</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
-      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">ai.google</span>
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -249,15 +214,25 @@
         <span class="row-desc">市场对照</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://hai.stanford.edu/ai-definitions/what-is-artificial-intelligence-ai" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">hai.stanford.edu</span>
-        <span class="row-desc">市场对照</span>
-        <span class="row-tail"></span>
-      </div></a></li>
       <li><a href="https://www.merriam-webster.com/dictionary/lore" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">merriam-webster.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.wikihow.com/Lore-Meaning-Slang" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">wikihow.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Lore" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.wikipedia.org</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://blog.google/products-and-platforms/products/search/running-race-training-tips/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">blog.google</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-11</span>
       </div></a></li>
       <li><a href="https://www.lorepodcast.com/episodes/" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">lorepodcast.com</span>
@@ -301,7 +276,7 @@
       </div></a></li>
       <li><a href="https://github.com/hsusul/lore" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">lore</span>
-        <span class="row-desc">开源信息 · lore 是一个开源工具，为编码代理（如 Claude Code 和 Codex）提供 git 记忆。开发者在编码代理会话中，lore 自动将每次会话保存为本地可搜索的存档，便于后续检索和复用。具体流程和交付仍待核验。</span>
+        <span class="row-desc">开源信息 · 开发者用 Claude Code、Codex 等 AI 编程助手完成任务后，原本只能翻找散落的本地会话记录来回忆改了什么、为什么改；lore 把这些会话存进本地可搜索档案，输入关键词即可查回历史会话。具体检索效果与交付形式仍待核验。</span>
         <span class="row-tail">2026-08-11</span>
       </div></a></li>
     </ul>
@@ -343,7 +318,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 398 个 →
+        AI + 开发 共 417 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -435,7 +410,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1334 个案例 · 179 份生意判断</span>
+    <span>1409 个案例 · 177 份生意判断</span>
     <span class="gen">数据截至 2026-09-11</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>

@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>Conduct · x-octo</title>
-<meta name="description" content="Conduct 是一个开源工具，为 LLM 和 MCP 工具调用提供安全护栏。开发者在构建 AI 代理时，可将 Conduct 集成到调用链中，对模型输出和工具执行进行规则校验，防止越权或危险操作。具体拦截规则和交付形式仍待核验。">
+<meta name="description" content="面向在应用里调用大模型与 MCP 工具的开发团队：当模型要执行外部工具调用时，Conduct 在调用发出前接收这些请求并做规则校验与拦截，最终给出放行或阻断的结果，仍需开发者自行配置规则并确认边界。具体流程与交付形态仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/conduct.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/conduct.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/conduct.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/conduct.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Conduct · x-octo">
-<meta property="og:description" content="Conduct 是一个开源工具，为 LLM 和 MCP 工具调用提供安全护栏。开发者在构建 AI 代理时，可将 Conduct 集成到调用链中，对模型输出和工具执行进行规则校验，防止越权或危险操作。具体拦截规则和交付形式仍待核验。">
+<meta property="og:description" content="面向在应用里调用大模型与 MCP 工具的开发团队：当模型要执行外部工具调用时，Conduct 在调用发出前接收这些请求并做规则校验与拦截，最终给出放行或阻断的结果，仍需开发者自行配置规则并确认边界。具体流程与交付形态仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/conduct.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/conduct.html#webpage", "@type": "WebPage", "description": "Conduct \u662f\u4e00\u4e2a\u5f00\u6e90\u5de5\u5177\uff0c\u4e3a LLM \u548c MCP \u5de5\u5177\u8c03\u7528\u63d0\u4f9b\u5b89\u5168\u62a4\u680f\u3002\u5f00\u53d1\u8005\u5728\u6784\u5efa AI \u4ee3\u7406\u65f6\uff0c\u53ef\u5c06 Conduct \u96c6\u6210\u5230\u8c03\u7528\u94fe\u4e2d\uff0c\u5bf9\u6a21\u578b\u8f93\u51fa\u548c\u5de5\u5177\u6267\u884c\u8fdb\u884c\u89c4\u5219\u6821\u9a8c\uff0c\u9632\u6b62\u8d8a\u6743\u6216\u5371\u9669\u64cd\u4f5c\u3002\u5177\u4f53\u62e6\u622a\u89c4\u5219\u548c\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Conduct", "url": "https://xocto.vercel.app/p/conduct.html"}, {"@id": "https://xocto.vercel.app/p/conduct.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-11", "datePublished": "2026-08-29", "description": "Conduct \u662f\u4e00\u4e2a\u5f00\u6e90\u5de5\u5177\uff0c\u4e3a LLM \u548c MCP \u5de5\u5177\u8c03\u7528\u63d0\u4f9b\u5b89\u5168\u62a4\u680f\u3002\u5f00\u53d1\u8005\u5728\u6784\u5efa AI \u4ee3\u7406\u65f6\uff0c\u53ef\u5c06 Conduct \u96c6\u6210\u5230\u8c03\u7528\u94fe\u4e2d\uff0c\u5bf9\u6a21\u578b\u8f93\u51fa\u548c\u5de5\u5177\u6267\u884c\u8fdb\u884c\u89c4\u5219\u6821\u9a8c\uff0c\u9632\u6b62\u8d8a\u6743\u6216\u5371\u9669\u64cd\u4f5c\u3002\u5177\u4f53\u62e6\u622a\u89c4\u5219\u548c\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/conduct.html#webpage"}, "name": "Conduct", "sameAs": "https://github.com/sseshachala/conductai", "url": "https://xocto.vercel.app/p/conduct.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/conduct.html", "name": "Conduct", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/conduct.html#webpage", "@type": "WebPage", "description": "\u9762\u5411\u5728\u5e94\u7528\u91cc\u8c03\u7528\u5927\u6a21\u578b\u4e0e MCP \u5de5\u5177\u7684\u5f00\u53d1\u56e2\u961f\uff1a\u5f53\u6a21\u578b\u8981\u6267\u884c\u5916\u90e8\u5de5\u5177\u8c03\u7528\u65f6\uff0cConduct \u5728\u8c03\u7528\u53d1\u51fa\u524d\u63a5\u6536\u8fd9\u4e9b\u8bf7\u6c42\u5e76\u505a\u89c4\u5219\u6821\u9a8c\u4e0e\u62e6\u622a\uff0c\u6700\u7ec8\u7ed9\u51fa\u653e\u884c\u6216\u963b\u65ad\u7684\u7ed3\u679c\uff0c\u4ecd\u9700\u5f00\u53d1\u8005\u81ea\u884c\u914d\u7f6e\u89c4\u5219\u5e76\u786e\u8ba4\u8fb9\u754c\u3002\u5177\u4f53\u6d41\u7a0b\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Conduct", "url": "https://xocto.vercel.app/p/conduct.html"}, {"@id": "https://xocto.vercel.app/p/conduct.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-11", "datePublished": "2026-08-29", "description": "\u9762\u5411\u5728\u5e94\u7528\u91cc\u8c03\u7528\u5927\u6a21\u578b\u4e0e MCP \u5de5\u5177\u7684\u5f00\u53d1\u56e2\u961f\uff1a\u5f53\u6a21\u578b\u8981\u6267\u884c\u5916\u90e8\u5de5\u5177\u8c03\u7528\u65f6\uff0cConduct \u5728\u8c03\u7528\u53d1\u51fa\u524d\u63a5\u6536\u8fd9\u4e9b\u8bf7\u6c42\u5e76\u505a\u89c4\u5219\u6821\u9a8c\u4e0e\u62e6\u622a\uff0c\u6700\u7ec8\u7ed9\u51fa\u653e\u884c\u6216\u963b\u65ad\u7684\u7ed3\u679c\uff0c\u4ecd\u9700\u5f00\u53d1\u8005\u81ea\u884c\u914d\u7f6e\u89c4\u5219\u5e76\u786e\u8ba4\u8fb9\u754c\u3002\u5177\u4f53\u6d41\u7a0b\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/conduct.html#webpage"}, "name": "Conduct", "sameAs": "https://github.com/sseshachala/conductai", "url": "https://xocto.vercel.app/p/conduct.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/conduct.html", "name": "Conduct", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,10 +64,10 @@
       <div class="product-title-row">
         <h1>Conduct</h1>
       </div>
-      <p class="product-lede">Conduct 是一个开源工具，为 LLM 和 MCP 工具调用提供安全护栏。开发者在构建 AI 代理时，可将 Conduct 集成到调用链中，对模型输出和工具执行进行规则校验，防止越权或危险操作。具体拦截规则和交付形式仍待核验。</p>
+      <p class="product-lede">面向在应用里调用大模型与 MCP 工具的开发团队：当模型要执行外部工具调用时，Conduct 在调用发出前接收这些请求并做规则校验与拦截，最终给出放行或阻断的结果，仍需开发者自行配置规则并确认边界。具体流程与交付形态仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag">软件开发</span><span class="tag">AI 工程师</span><span class="tag">安全工程师</span><span class="tag sig">跨国机会</span><span class="tag sig">社区热度 22</span>      </div>
+<span class="tag">开源项目</span><span class="tag">基础层</span><span class="tag sig">社区热度 22</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>sudhendra1</dd></div>
@@ -95,7 +95,7 @@
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>问题已识别，需求强度未明</h3>
-        <p>趋势是 AI 代理开始自主调用外部工具，安全边界成为刚需。不要做通用安全平台，先切入 MCP 生态，为高频工具调用提供可配置的规则模板，按调用量或规则数收费。</p>
+        <p>趋势是工具调用从演示走向生产后，拦截与审计成为独立环节。切入可从金融、医疗等受监管行业的合规与平台工程团队入手，把规则库和审计记录做成随调用量计费的托管服务，而非只发一个开源库。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
@@ -116,14 +116,14 @@
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>趋势是 AI 代理开始自主调用外部工具，安全边界成为刚需。不要做通用安全平台，先切入 MCP 生态，为高频工具调用提供可配置的规则模板，按调用量或规则数收费。</p>
+        <p>趋势是工具调用从演示走向生产后，拦截与审计成为独立环节。切入可从金融、医疗等受监管行业的合规与平台工程团队入手，把规则库和审计记录做成随调用量计费的托管服务，而非只发一个开源库。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>Conduct 是一个开源工具，为 LLM 和 MCP 工具调用提供安全护栏。开发者在构建 AI 代理时，可将 Conduct 集成到调用链中，对模型输出和工具执行进行规则校验，防止越权或危险操作。具体拦截规则和交付形式仍待核验。</p></div>
+        <div><span class="field-k">公开事实</span><p>面向在应用里调用大模型与 MCP 工具的开发团队：当模型要执行外部工具调用时，Conduct 在调用发出前接收这些请求并做规则校验与拦截，最终给出放行或阻断的结果，仍需开发者自行配置规则并确认边界。具体流程与交付形态仍待核验。</p></div>
         <div><span class="field-k">工作流推理</span><p>开源项目在开发者社区获得少量关注，但尚无采用或付费证据。</p></div>
         <div><span class="field-k">会改变判断的未知</span><p>关注代码仓库的 issue 和 discussion，以及是否有企业采用或集成案例。</p></div>
       </div>
@@ -133,7 +133,7 @@
             <span class="field-k">01 · 价值</span>
             <strong>证据不足</strong>
           </div>
-          <p>产品主张帮助用户完成：“Conduct 是一个开源工具，为 LLM 和 MCP 工具调用提供安全护栏”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>产品主张帮助用户完成：“面向在应用里调用大模型与 MCP 工具的开发团队：当模型要执行外部工具调用时，Conduct 在调用发出前接收这些请求并做规则校验与拦截，最终给出放行或阻断的结果，仍需开发者自行配置规则并确认边界”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
@@ -165,19 +165,19 @@
       <div>
         <p class="section-index">02</p>
         <h2>中英文生态与跨国机会</h2>
-        <p class="note">市场对照 · 跨国机会</p>
+        <p class="note">市场对照</p>
       </div>
     </div>
     <div class="product-markets">
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
-        <p>本地供给：早期出现<br>需求证据：初步成立</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-01。未发现仅限该覆盖范围。 · 2026-09-01</p>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-01。未发现仅限该覆盖范围。 · 2026-09-01</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-11。未发现仅限该覆盖范围。 · 2026-09-11</p>
       </div>
     </div>
   </section>
@@ -204,10 +204,40 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://news.crunchbase.com/venture/august-2026-new-unicorns-ai-robotics-semiconductors-xpeng-lumilens-river-source/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">news.crunchbase.com</span>
-        <span class="row-desc">market_signal</span>
-        <span class="row-tail">2026-09-10</span>
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://aistudio.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">aistudio.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">cloud.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.perplexity.ai/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">perplexity.ai</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://gemini.google/us/about/?hl=en" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/conduct" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">CONDUCT中文 (简体)翻译：剑桥词典 - Cambridge Dictionary</span>
@@ -223,6 +253,11 @@
         <span class="row-name">conduct - 搜索 词典</span>
         <span class="row-desc">用户痛点 · 1. . 好像 他们 还 没有 打破 行为 的 规则， 好像 他们 还 没有 得罪 和 羞辱 其 家庭。</span>
         <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://news.crunchbase.com/venture/august-2026-new-unicorns-ai-robotics-semiconductors-xpeng-lumilens-river-source/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.crunchbase.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-10</span>
       </div></a></li>
       <li><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXJCTFBmOXJaeW5COWpEbHA3bE9ndVAzazBTOXZkUkhGMk5SVFhhb1o1bTUzUzVFSzRGWUdmZk40N3Nra1VHV0k3a2lXQ21jQk15Vmc4OFNkZENSVkxtRUdfX0o3cXVzU04wRjN1TWR2LVlTeUV6NGVKeDFDMEJ0RnVuS1E2SC0xakFUcklFYnlUaUZvd29lN1duenFGNXFFYXJrSUt0Z0RRem9GS2pVa3g3Wjc3ZFFySUd1U281Zw?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">news.google.com</span>
@@ -278,7 +313,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 146 个 →
+        基础层 共 157 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -370,7 +405,7 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1334 个案例 · 179 份生意判断</span>
+    <span>1409 个案例 · 177 份生意判断</span>
     <span class="gen">数据截至 2026-09-11</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
