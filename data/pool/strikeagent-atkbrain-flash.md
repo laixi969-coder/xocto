@@ -32,18 +32,18 @@ url: https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash
 canonical_url: https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash
 summary: 由夜安团队研发的AI渗透测试平台，涵盖红队打点、SRC、CTF，特别是在红队领域有极为亮眼的存在
 first_seen: '2026-09-02T08:23:45Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-11T00:10:34Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/Yean-Sec/StrikeAgent_AtkBrain-Flash
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-11T00:10:34Z'
   metrics:
-    stars: 311
-    forks: 67
-    open_issues: 0
+    stars: 317
+    forks: 71
+    open_issues: 1
   kind: product
 ---
 

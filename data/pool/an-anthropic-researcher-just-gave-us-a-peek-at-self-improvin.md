@@ -39,7 +39,7 @@ canonical_url: https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-ga
 summary: Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve
   performance on every single one without degrading overall performance.
 first_seen: '2026-08-28T19:30:38Z'
-last_seen: '2026-09-10T16:51:24Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - marketfeeds
@@ -124,10 +124,10 @@ sightings:
   kind: news
 - source: hackernews
   url: https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 45
-    comments: 100
+    points: 46
+    comments: 103
   kind: news
 - source: hackernews
   url: https://www.bbc.co.uk/news/articles/ckgwy1k42w4o
@@ -153,6 +153,40 @@ sightings:
     stage: Enabler
     edition: '2026'
   kind: product
+- source: hackernews
+  url: https://www.anthropic.com/threat-intelligence-report-september-2026
+  seen_at: '2026-09-11T00:10:31Z'
+  metrics:
+    points: 71
+    comments: 136
+  kind: news
+- source: hackernews
+  url: https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html
+  seen_at: '2026-09-11T00:10:31Z'
+  metrics:
+    points: 65
+    comments: 1
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMibEFVX3lxTFB6NFdfS2ZFc3F3b0RZenNVSUd3RWNVWVZZSnprZFplVVdpMF80VmJWWXZvY1ZuX2RER2pjMV92V2FTRzQwWnJUUHpCWG1NODVYY3U3X1ZzN3AzRUlvOEtvbnM2djgyOUdBQVozUA?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMifkFVX3lxTE5BeGYzVWlrVG8tdmwxbXhHbEpzQTIzWHhBYkZsb0FDZ29QN0RMbWhsYXFrenV0ZWxCSWo2bFVBRk84Wkx1TWh5TTR6Q0Jvd2RQM0F2R0tIVjQyVFN4U2ZYeEtrdkE1cGlRS3RtV1h1V004OVRRRzJoYVg4Q1ZDZw?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidEFVX3lxTE91cGJxZXBhYngwN2dqTHFpYTdsUHRqRDNMbXU4dnhUUjZQZ1JNcXM2UUVOTFpLWkVQWWtGWlB4ZVRiWFFERDBVcm5DeUhvVlhoSmFxa2lVR25veUQyel91azd1MFNkSXlWdnRGZGpSNU1zRTBj?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
 ---
 
 # Anthropic

@@ -1,0 +1,54 @@
+---
+slug: openai-openai-python-v3130
+name: 'openai/openai-python: v3.13.0'
+builder: openai
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: open_source
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: true
+url: https://github.com/openai/openai-python/releases/tag/v3.13.0
+canonical_url: https://github.com/openai/openai-python/releases/tag/v3.13.0
+summary: '## [3.13.0](https://github.com/openai/openai-python/compare/v3.12.0...v3.13.0) (2026-09-10)
+
+
+
+  ### Features
+
+
+  * **api:** add Agents API ([1c4284a](https://github.com/openai/openai-python/commit/1c4284a08294f734d57047585ab82e2e09d3a5bc))'
+first_seen: '2026-09-10T19:37:39Z'
+last_seen: '2026-09-11T00:10:34Z'
+status: pending_filter
+sources:
+- github
+sightings:
+- source: github
+  url: https://github.com/openai/openai-python/releases/tag/v3.13.0
+  seen_at: '2026-09-11T00:10:34Z'
+  metrics:
+    reactions: 0
+  kind: news
+---
+
+# openai/openai-python: v3.13.0
+
+## [3.13.0](https://github.com/openai/openai-python/compare/v3.12.0...v3.13.0) (2026-09-10)
+
+
+### Features
+
+* **api:** add Agents API ([1c4284a](https://github.com/openai/openai-python/commit/1c4284a08294f734d57047585ab82e2e09d3a5bc))
+
+## 笔记
+
+

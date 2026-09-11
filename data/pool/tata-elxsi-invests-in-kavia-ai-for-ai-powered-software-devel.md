@@ -1,0 +1,41 @@
+---
+slug: tata-elxsi-invests-in-kavia-ai-for-ai-powered-software-devel
+name: Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEtUdDBmZmJ6OENVWWt3MkZWVG03cmpKbFlSRHRNckRFN3FHUEUyVU9mcEtVaGVRb2V3WmVfVVB0WG1fdm5PajJNeFc4SXhDZVlIcjRacGpqc3RoeHItVl9idDU5bmZlTDNKelZtWTZLWEFReHN6SkYyb3JQOUpOQWRXNy1CVUtyeGhoekdMMFZVbzFTS1owX29UazlEUkxmZ3J5LTg3ZGlZU1luYlhpdm16MmvSAbQBQVVfeXFMTnRLVHQwZmZiejhDVVlrdzJGVlRtN3JqSmxZUkR0TXJERTdxR1BFMlVPZnBLVWhlUW9ld1plX1VQdFhtX3ZuT2oyTXhXOEl4Q2VZSHI0WnBqanN0aHhyLVZfYnQ1OW5mZUwzSnpWbVk2S1hBUXhzekpGMm9yUDlKTkFkVzctQlVLcnhoaHpHTDBWVW8xU0taMF9vVGs5RFJMZmdyeS04N2RpWVNZbmJYaXZtejJr?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEtUdDBmZmJ6OENVWWt3MkZWVG03cmpKbFlSRHRNckRFN3FHUEUyVU9mcEtVaGVRb2V3WmVfVVB0WG1fdm5PajJNeFc4SXhDZVlIcjRacGpqc3RoeHItVl9idDU5bmZlTDNKelZtWTZLWEFReHN6SkYyb3JQOUpOQWRXNy1CVUtyeGhoekdMMFZVbzFTS1owX29UazlEUkxmZ3J5LTg3ZGlZU1luYlhpdm16MmvSAbQBQVVfeXFMTnRLVHQwZmZiejhDVVlrdzJGVlRtN3JqSmxZUkR0TXJERTdxR1BFMlVPZnBLVWhlUW9ld1plX1VQdFhtX3ZuT2oyTXhXOEl4Q2VZSHI0WnBqanN0aHhyLVZfYnQ1OW5mZUwzSnpWbVk2S1hBUXhzekpGMm9yUDlKTkFkVzctQlVLcnhoaHpHTDBWVW8xU0taMF9vVGs5RFJMZmdyeS04N2RpWVNZbmJYaXZtejJr?oc=5
+summary: Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development digital terminal
+first_seen: '2026-09-10T12:33:00Z'
+last_seen: '2026-09-11T00:10:59Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEtUdDBmZmJ6OENVWWt3MkZWVG03cmpKbFlSRHRNckRFN3FHUEUyVU9mcEtVaGVRb2V3WmVfVVB0WG1fdm5PajJNeFc4SXhDZVlIcjRacGpqc3RoeHItVl9idDU5bmZlTDNKelZtWTZLWEFReHN6SkYyb3JQOUpOQWRXNy1CVUtyeGhoekdMMFZVbzFTS1owX29UazlEUkxmZ3J5LTg3ZGlZU1luYlhpdm16MmvSAbQBQVVfeXFMTnRLVHQwZmZiejhDVVlrdzJGVlRtN3JqSmxZUkR0TXJERTdxR1BFMlVPZnBLVWhlUW9ld1plX1VQdFhtX3ZuT2oyTXhXOEl4Q2VZSHI0WnBqanN0aHhyLVZfYnQ1OW5mZUwzSnpWbVk2S1hBUXhzekpGMm9yUDlKTkFkVzctQlVLcnhoaHpHTDBWVW8xU0taMF9vVGs5RFJMZmdyeS04N2RpWVNZbmJYaXZtejJr?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+---
+
+# Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development
+
+Tata Elxsi Invests in KAVIA AI for AI-Powered Software Development digital terminal
+
+## 笔记
+
+

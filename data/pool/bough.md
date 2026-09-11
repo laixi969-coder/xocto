@@ -21,16 +21,16 @@ canonical_url: https://bough.run
 summary: 'Claude Code and Codex write down everything you do. bough draws it: a day, the work inside it,
   every prompt, and what got committed. One Go binary, runs on your machine, sends nothing anywhere.'
 first_seen: '2026-09-02T19:32:46Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-11T00:10:34Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://bough.run
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-11T00:10:34Z'
   metrics:
-    stars: 44
+    stars: 45
     forks: 6
     open_issues: 1
   kind: product

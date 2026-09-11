@@ -11,14 +11,23 @@ inspiration_en: Cross-platform products die when subscription state disagrees, e
   The trend is the subscription ledger expanding from mobile to every surface. The entry is teams that
   sell both an app and desktop software, on a flat monthly fee instead of a cut.
 priority_review: false
+project_type: ''
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
 url: https://news.ycombinator.com/item?id=49286271
 canonical_url: https://news.ycombinator.com/item?id=49286271
 summary: Instant cross-platform in-app purchase orchestration
 first_seen: '2026-08-13T14:12:06Z'
-last_seen: '2026-08-13T23:03:00Z'
-status: analyzed
+last_seen: '2026-09-11T00:10:59Z'
+status: pending_filter
 sources:
 - hackernews
+- newssearch
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49286271
@@ -26,6 +35,12 @@ sightings:
   metrics:
     points: 5
     comments: 0
+  kind: product
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirAFBVV95cUxQOHZtYWFkS2hyNHd4RzdXMGZKTjhxNllIaUhUZjludm1ja3F0TkNSd3VpQXFidTVzWGxlaDlyTjNuYWlGaFJvY2FFWi1jNHVXaHFNR21NeXBiX0s1QUZlM0JTSnlwSk0zZFNDWW5oSnNIaUw2UmRxS242dmVWRWJFSEZ5Zzk3SUM4WXpTZnlSYkpJc21MdWRzMVNtNUplcVlsdzRQSlhhWDVsUGhT?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
 ---
 
 # Orca

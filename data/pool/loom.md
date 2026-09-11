@@ -35,7 +35,7 @@ canonical_url: https://aicpb.com/product/Loom/webid1D6F371B9
 summary: Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily –
   and skip the meeting. An essential tool for hybrid workplaces.
 first_seen: '2026-08-22T22:38:19Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - aicpb
@@ -102,6 +102,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZmZHWEJrNkxFNUhSR1RLVG5raUNEZHU5eW55cDlrOEFhVW9Ob1FtSFBuQU4zRHotRnE3bzB4OXlsVjBBTGZkNFd0d0U1TnpVTXlncFk0bGtPSnBRSUpQRzR4dFJadjVfS3FyUTA2bE85Nm43bnNfRUVYOTlSSWxJZU5SZ0Fyc09UR2hUYmRxNVQ3QlFVS2otMTdQOTg2M2FFQ3NRY09ldDQ?oc=5
   seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiswFBVV95cUxNZDRnMVBkQzlWX2d4UGlyT3VHYXdkVDdfM0xRdC1IbEh5WllNVzBRSmtPSXRRVlBpMFZzT2dmclB0LU9sYjVhcERLV2dXclRCWXp5bUsxcjlRNTQxMkYyMGNMN082MUdXdkVJQ0Y2cWZ0RVlWRW1BMW41VTBOLWV5bTNZMkxyUlZTenQtQ1BoTGdzblZHNmRJOGpaS2k5THBRTkRiR2tsdGpzSDdHWmI2azZwaw?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

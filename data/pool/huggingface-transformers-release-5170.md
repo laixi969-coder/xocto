@@ -256,16 +256,16 @@ summary: "# Release v5.17.0\r\n\r\n\r\n## New Model additions\r\n\r\n### HYV4\r\
   \ Change 5.3 Flash pos in toc (#48366)\r\n    * [Glm 5.3 Flash] GLM 5.3 Flash Support (#48342)\r\n*\
   \ @pengzhiliang\r\n    * Implement VibeVoice  (#40546)"
 first_seen: '2026-09-09T15:42:45Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-11T00:10:34Z'
 status: pending_filter
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/huggingface/transformers/releases/tag/v5.17.0
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-11T00:10:34Z'
   metrics:
-    reactions: 3
+    reactions: 5
   kind: news
 ---
 

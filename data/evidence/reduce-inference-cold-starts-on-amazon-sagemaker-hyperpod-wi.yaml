@@ -1,0 +1,12 @@
+- id: ev-6e7f374202ffe466
+  project_slug: reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-wi
+  url: https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/
+  title: Reduce inference cold starts on Amazon SageMaker HyperPod with model caching
+  published_at: '2026-09-10T21:37:49Z'
+  collected_at: '2026-09-11T00:10:51Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights
+    and container images onto cluster nodes so pods read from local NVMe storage instead of downloading
+    over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it
+    works, and how to enable it.

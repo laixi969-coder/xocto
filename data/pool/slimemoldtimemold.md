@@ -20,17 +20,17 @@ url: https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-
 canonical_url: https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours
 summary: A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming
 first_seen: '2026-09-10T01:59:51Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours/
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 29
-    comments: 19
+    points: 90
+    comments: 62
   kind: news
 ---
 

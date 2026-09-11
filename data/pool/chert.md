@@ -23,11 +23,12 @@ url: https://www.producthunt.com/products/chert
 canonical_url: https://producthunt.com/products/chert
 summary: 'Vapi for FaceTime: AI video agents in a few lines'
 first_seen: '2026-08-15T04:01:04Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:53Z'
 status: pending_filter
 sources:
 - producthunt
 - hackernews
+- marketfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/chert
@@ -36,10 +37,15 @@ sightings:
   kind: product
 - source: hackernews
   url: https://www.jamescherti.com/emacs-consult-speed-async-searche-grep-ripgrep-fd-find/
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 54
-    comments: 20
+    points: 56
+    comments: 23
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/
+  seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
   kind: news
 ---
 

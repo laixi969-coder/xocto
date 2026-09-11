@@ -29,11 +29,12 @@ url: https://www.producthunt.com/products/merge-5
 canonical_url: https://producthunt.com/products/merge-5
 summary: AI-native code review assessments
 first_seen: '2026-08-06T05:55:10Z'
-last_seen: '2026-09-08T00:25:57Z'
-status: watching
+last_seen: '2026-09-11T00:10:53Z'
+status: pending_filter
 sources:
 - producthunt
 - newssearch
+- marketfeeds
 sightings:
 - source: producthunt
   url: https://www.producthunt.com/products/merge-5
@@ -48,6 +49,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0ZqQ0dGV1gzNU5oZU9BRE1HdC1kQ1ktUENmclRMVlhsUkx3MnhzMHgyVFBORXVDVzVUWk9odjd5X3RFbWQ0SFY5ZnNCYjNJZkd1aHMxakE5Y0NTMW9pekpjd29xVlpwd2VyaFZoQW0ybWw5T0cwaXgxdmwwaE5jTTA0bmctWV9QQkZrYzBKRFJuT1ZyUjhmbjNSQkpYZzRFRzBLS0VVZFlGdG9yUmNnX0V4NUJOWDBQTVZIWWZ5Snl0T0JJX2c?oc=5
   seen_at: '2026-09-08T00:25:57Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/
+  seen_at: '2026-09-11T00:10:53Z'
   metrics: {}
   kind: news
 ---

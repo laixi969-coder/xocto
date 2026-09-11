@@ -20,17 +20,17 @@ url: https://www.bbc.co.uk/news/articles/cp9340rg7k8o
 canonical_url: https://bbc.co.uk/news/articles/cp9340rg7k8o
 summary: South Park creators rename show 'South America'
 first_seen: '2026-09-09T21:53:43Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.bbc.co.uk/news/articles/cp9340rg7k8o
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 115
-    comments: 25
+    points: 121
+    comments: 29
   kind: news
 ---
 

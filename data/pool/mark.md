@@ -31,7 +31,7 @@ url: https://mark.q1z.org
 canonical_url: https://mark.q1z.org
 summary: Dropping SynthID from 188/192 to 0/192 without changing visible text
 first_seen: '2026-08-27T17:33:24Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - hackernews
@@ -210,6 +210,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiWEFVX3lxTE04cGNPLWpDWDRIT25LR1lxZy1GS2t2VjBDdFdsdnZ3SHRIOHlvRG9ONy10ZlhaUkpkbWUteDJVQi0zS01XRUdrQ1RwMnIxX1I0aEFkeDBFSnA?oc=5
   seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/10/100-days-to-save-eu-inc-europes-tech-leaders-warn-against-watering-down-landmark-reform/
+  seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMirgFBVV95cUxNUkhQd2h4YllmdmljRDhLdkZYVk5TMkxja05jTHhUbWlzNzI0dmRxTG1jR1lBSzczODh5RWJNRE1xM1p1aldEX3FUYzQ0TUJheWt4ZXB3ZFNvbzQ0S0xyUnhHOFRzWE50bXl4SlZVa1ZpR1oyZ2U5VTVyUlNvYUctS1luX2YzVDNJYmZMV0Y2c1MyVDlOR0tSV1JGT2N6aE9MZ1ZHQlJMbElsUEM3WUE?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

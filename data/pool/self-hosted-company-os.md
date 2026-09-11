@@ -20,17 +20,17 @@ url: https://github.com/OtoDock/oto-dock
 canonical_url: https://github.com/OtoDock/oto-dock
 summary: Claude Code and Codex agents in departments
 first_seen: '2026-09-09T17:57:55Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/OtoDock/oto-dock
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 43
-    comments: 10
+    points: 46
+    comments: 14
   kind: product
 ---
 

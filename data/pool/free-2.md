@@ -20,7 +20,7 @@ url: https://seenshot.app/
 canonical_url: https://seenshot.app
 summary: Fast Screenshot App for macOS with One-Click Screenshot Sharing
 first_seen: '2026-08-31T09:56:22Z'
-last_seen: '2026-09-10T05:13:54Z'
+last_seen: '2026-09-11T00:10:51Z'
 status: pending_filter
 sources:
 - hackernews
@@ -70,6 +70,11 @@ sightings:
 - source: officialfeeds
   url: https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan
   seen_at: '2026-09-10T05:13:54Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th
+  seen_at: '2026-09-11T00:10:51Z'
   metrics: {}
   kind: news
 ---

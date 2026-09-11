@@ -24,7 +24,7 @@ url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWm
 canonical_url: https://news.google.com/rss/articles/CBMikgFBVV95cUxNNklEYm1sMXJCSlVOZ2FhWmtvRW1oWnJ5aFNfRUUxQV8tSERkSHJCOXpWVWthUkg2RVFUSS1ncHhBRzdINm8yVTJwdU1ZdlcxQVJJWDRyOUZ1b21FNnhrUl9LMkJTeldNYm9yeDI1XzVWUFNJUWdySDE3VUloUGRzWWVqNjljRy1nWWswRXQ0MlNYUQ?oc=5
 summary: Google Launches AI Voice Features in Gmail, Docs and Keep innovation-village.com
 first_seen: '2026-09-03T18:32:55Z'
-last_seen: '2026-09-10T05:13:56Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - newssearch
@@ -48,6 +48,11 @@ sightings:
 - source: marketfeeds
   url: https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/
   seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XQXU4b3FnbXJSNDNXUXRwVDNndHNQN01UaDVLY2NJZE9JV0lxaUhHUHpvQU9LUnFkMzNDZG5UOWI4Q19jZFU3aEpPblFQVXRpRm1DQVJRVl9SbUVwX1E?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

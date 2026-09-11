@@ -1,7 +1,7 @@
 ---
 slug: ai-startup-cognition-set-to-raise-around-1-billion-at-a-47-b
 name: Cognition
-builder: ''
+builder: cdnsteve
 category: AI + 开发
 summary_zh: Cognition 是 AI 编程助手 Devin 的开发商，Devin 能自主完成编码任务。此次融资报道显示其估值达 470 亿美元，表明市场对 AI 软件开发工具的高度认可。
 inspiration: AI 编程助手赛道已跑出头部，窗口正在关闭。新进入者应聚焦特定行业或开发环节，如安全审计、遗留系统迁移，而非通用编码助手。
@@ -30,11 +30,12 @@ url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VWUHN1R2RUUm
 canonical_url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VWUHN1R2RUUmY1ekU3LWRhczg3NERzdk9hV0RLcHZXVmd1QjNLdmpHdGI1Sjd2Tmk1SmxOb1psRGktSkNGRFJvLVk0R0RrUVZQWkpwV0VtQlc3WmNEWkZHRi1meFprN0ctQ0paeWxTelI0NW5vX2VSZ25NOE1DZw?oc=5
 summary: AI Startup Cognition Set to Raise Around $1 Billion at a $47 Billion Value Yahoo! Finance Canada
 first_seen: '2026-09-02T00:29:00Z'
-last_seen: '2026-09-10T16:51:24Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - newssearch
 - ia40
+- hackernews
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihgFBVV95cUxNckpuYmE5X0VWUHN1R2RUUmY1ekU3LWRhczg3NERzdk9hV0RLcHZXVmd1QjNLdmpHdGI1Sjd2Tmk1SmxOb1psRGktSkNGRFJvLVk0R0RrUVZQWkpwV0VtQlc3WmNEWkZHRi1meFprN0ctQ0paeWxTelI0NW5vX2VSZ25NOE1DZw?oc=5
@@ -63,6 +64,18 @@ sightings:
     stage: Late
     edition: '2026'
   kind: product
+- source: hackernews
+  url: https://tokenstead.ai/models/swe-2
+  seen_at: '2026-09-11T00:10:31Z'
+  metrics:
+    points: 54
+    comments: 25
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8AFBVV95cUxNWjdndE9ibnpYN2tDMnJoLUtFVE5DUjgtMjhjQ3lDdzJqRUNidlF2eHR3VDh2R3Q1Tl95Q3BmOXJZdVE3dWQwRllpcmZnOXB5NVhxT0NjVEdwai1nUkpsMTA5TnBjQ2FKU2pHVTc0LXpGNi1tWkl2UmRuVFhWWnpHb3pxX0xlaExtcmNQa3k5NzhuZzRPTlh5aThab0JoaUZweW5Xb19QZXJBR1F6dVdoZnNSTlVjT2RsSmx3OUtNUU5SajhyRzBiOWVCb2R3Nkp5UENxRnN3WS1peWpoUDd5d3Qzano5LWQ0TElHOHF1S0Y?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
 ---
 
 # Cognition

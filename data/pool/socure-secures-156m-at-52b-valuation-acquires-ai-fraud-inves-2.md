@@ -38,14 +38,19 @@ canonical_url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNZS04WHE2enkw
 summary: Socure Secures $156M at $5.2B Valuation, Acquires AI Fraud Investigation Startup Fravity Crunchbase
   News
 first_seen: '2026-08-27T13:00:25Z'
-last_seen: '2026-08-29T15:06:37Z'
-status: queued
+last_seen: '2026-09-11T00:10:59Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMijwFBVV95cUxNZS04WHE2enkwLVp2TXVPcDFqUkZNek1lYktOX0RjSlp0bEJua1o5MEFfLVg4eldSV2dDQUU5cWgtUW52bzhDV0pQZU5jS3Vvc21JN2VIdmRVaHRJWXdWb3Ntd0dnX0RRejQ5d2xLX2owdElWLTBhejZnVlpYRTRhY3dhRU1zVTQ3TnJoM2pfbw?oc=5
   seen_at: '2026-08-29T15:06:37Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMidkFVX3lxTE1CNFBuSVV3SU5Kc1k0bnpKN3ZOTEd1eTlVT3BWRlg3QWFSMU41S0JIeW1MQzBIaXd3OXZkNkRlS0VvOWdNZDV1OUhsN0lSOEJLQVRWbGhPWUVSX0hFUWN1Wmdzel90WGpWTUREM1hCWkZGRVlLTFE?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

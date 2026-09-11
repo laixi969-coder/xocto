@@ -20,16 +20,16 @@ url: https://github.com/yamafaktory/whetuu
 canonical_url: https://github.com/yamafaktory/whetuu
 summary: An opinionated, zero-config status line and history picker
 first_seen: '2026-09-09T14:37:07Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/yamafaktory/whetuu
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 12
+    points: 13
     comments: 1
   kind: product
 ---

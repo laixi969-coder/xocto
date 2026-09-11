@@ -21,14 +21,19 @@ url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBuZlhIeFhHamtOZmhiYjV4WH
 canonical_url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBuZlhIeFhHamtOZmhiYjV4WHBLc3BtMVdSOHR1Q3JUZWxtQjV6TjFLaFZWREg5dldQQkRJbmhJUEpzOW1oS1Bpdmd4U1NFT0FueHU1ZFNFLWZ6Y1pNeW1RRmtsakltU1QtRDNLYVNnVjRRY0k2?oc=5
 summary: 'Snowflake''s AI-Fueled Beat Sparks Software Rally: Will Others Follow? BeInCrypto'
 first_seen: '2026-09-04T01:24:00Z'
-last_seen: '2026-09-05T00:07:08Z'
-status: market_context
+last_seen: '2026-09-11T00:10:59Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMidEFVX3lxTFBuZlhIeFhHamtOZmhiYjV4WHBLc3BtMVdSOHR1Q3JUZWxtQjV6TjFLaFZWREg5dldQQkRJbmhJUEpzOW1oS1Bpdmd4U1NFT0FueHU1ZFNFLWZ6Y1pNeW1RRmtsakltU1QtRDNLYVNnVjRRY0k2?oc=5
   seen_at: '2026-09-05T00:07:08Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SS3hxRjNDVTY4MzAwQW1pRmFidVl1ZnRQNkF1SlN2MFQwc1RiZXJGTXNyc012NzBMU3Z4YW1GcTBFSHFrUUxta3o0ZGxDU3V5QnpHZWtMeEJoUQ?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

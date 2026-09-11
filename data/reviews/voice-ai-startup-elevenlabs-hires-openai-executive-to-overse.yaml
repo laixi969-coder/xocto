@@ -38,3 +38,41 @@
   usage_reason: AI 语音生成能快速、低成本地提供可定制语音，满足内容生产对速度和灵活性的需求。
   usage_reason_en: AI voice generation offers fast, low-cost, customizable voices, meeting content production
     needs for speed and flexibility.
+- id: req-initial-voice-ai-startup-elevenlabs-hires-openai-executive-to-overse-2026-09-11
+  project_slug: voice-ai-startup-elevenlabs-hires-openai-executive-to-overse
+  level: initial
+  reviewed_at: '2026-09-10T16:51:24Z'
+  verdict: true_demand
+  signal_level: 初步成立
+  gates:
+  - gate: value
+    status: supported
+    reason: 它试图帮助用户完成：“ElevenLabs 提供 AI 语音生成和克隆服务，用户输入文本或上传音频，AI 生成逼真的语音或克隆声音，用于配音、有声书、游戏等场景。具体工作流程和交付细节待核验”。公开用户材料同时记录了痛点或既有替代行为，价值结构已有依据。
+    evidence_ids:
+    - ev-ab4be70a7e3a2631
+  - gate: consensus
+    status: insufficient
+    reason: 未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。
+    evidence_ids:
+    - ev-1dd3e537d6ef1589
+  - gate: model
+    status: insufficient
+    reason: 付钱的人尚未核验：未见付费主体、定价或单位经济；这是模式缺口，不是需求不存在。
+    evidence_ids: []
+  - gate: truth
+    status: insufficient
+    reason: 交付能否确定发生、以及人工/安全边界，尚缺可复现的公开证据。
+    evidence_ids: []
+  next_validation: 公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。
+  market: ''
+  job: 营收负责人
+  job_en: Revenue executive
+  pain: 它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。
+  pain_en: The product targets friction in this job, but public user evidence does not yet show the cost,
+    frequency, or consequence of leaving it unsolved.
+  current_alternative: 公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。
+  current_alternative_en: Public materials do not yet show how users complete this job today or what they
+    replace.
+  usage_reason: 用户要完成的任务是：营收负责人；现有材料尚未说明，用户相较原有做法为什么会选择它。
+  usage_reason_en: 'The task is: Revenue executive Public materials do not yet explain why users choose
+    this product over their existing approach.'

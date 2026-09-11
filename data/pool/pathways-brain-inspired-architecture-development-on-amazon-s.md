@@ -22,7 +22,7 @@ summary: Pathway's Baby Dragon Hatchling (BDH) is a brain-inspired, post-transfo
   reasons in latent space instead of emitting chain-of-thought tokens. See how Pathway develops and scales
   BDH on Amazon SageMaker HyperPod, and how BDH-CQ set a new cost-efficiency mark on the ARC-AGI-1 benchmark.
 first_seen: '2026-09-08T19:12:51Z'
-last_seen: '2026-09-10T05:13:54Z'
+last_seen: '2026-09-11T00:10:51Z'
 status: pending_filter
 sources:
 - officialfeeds
@@ -30,6 +30,11 @@ sightings:
 - source: officialfeeds
   url: https://aws.amazon.com/blogs/machine-learning/pathways-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/
   seen_at: '2026-09-10T05:13:54Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://aws.amazon.com/blogs/machine-learning/pathway-s-brain-inspired-architecture-development-on-amazon-sagemaker-hyperpod/
+  seen_at: '2026-09-11T00:10:51Z'
   metrics: {}
   kind: news
 ---

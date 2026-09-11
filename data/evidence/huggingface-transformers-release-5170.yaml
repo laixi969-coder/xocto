@@ -17,3 +17,22 @@
     \ lightweight indexer.\r\n  Following [IndexShare](https://huggingface.co/papers/2603.12201), only\
     \ the layers marked `\"full\"`\r\n  in `indexer_types` run an indexer; `\"shared\"` layers reuse the\
     \ previous full layer's selection.\r\n- **Gated MLA with lea"
+- id: ev-eb15d2d818b691f1
+  project_slug: huggingface-transformers-release-5170
+  url: https://github.com/huggingface/transformers/releases/tag/v5.17.0
+  title: 'huggingface/transformers: Release 5.17.0'
+  published_at: '2026-09-09T15:42:45Z'
+  collected_at: '2026-09-11T00:10:34Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: "# Release v5.17.0\r\n\r\n\r\n## New Model additions\r\n\r\n### HYV4\r\n\r\n<img width=\"1503\"\
+    \ height=\"827\" alt=\"image\" src=\"https://github.com/user-attachments/assets/e6ed85ee-eb1d-40eb-a0d4-c649f6337ca9\"\
+    \ />\r\n\r\n\r\nHy4-Preview is a 780B-parameter mixture-of-experts language model that activates 49B\
+    \ parameters per\r\ntoken. Each MoE layer holds 256 routed experts plus one always-active shared expert\
+    \ and routes every\r\ntoken to 8 of them. The context window is 1M tokens.\r\n\r\nThe architecture\
+    \ combines four features:\r\n\r\n- **Multi-head Latent Attention (MLA)** compresses keys and values\
+    \ into a low-rank latent\r\n  (`kv_lora_rank`) that `kv_b_proj` expands back to one key/value per\
+    \ query head.\r\n- **DeepSeek Sparse Attention (DSA)** selects `index_topk` keys per query with a\
+    \ lightweight indexer.\r\n  Following [IndexShare](https://huggingface.co/papers/2603.12201), only\
+    \ the layers marked `\"full\"`\r\n  in `indexer_types` run an indexer; `\"shared\"` layers reuse the\
+    \ previous full layer's selection.\r\n- **Gated MLA with lea"

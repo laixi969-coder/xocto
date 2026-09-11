@@ -30,7 +30,7 @@ url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbz
 canonical_url: https://news.google.com/rss/articles/CBMifkFVX3lxTFBIeWNDa2Z2NFEyNWRGdDVpbzl5dzVrMUZyWFFrZUhCUzFCc0VxNnd5bW5La2RISm8xMEZ5TVBWWHdXeHdKYnJqTHlyUEdhV1dqQkIzMHIzUnd3a3luRV9kdmQtcUFrdS1kbDN0RkRtckYxOFgzSXRzOUtDc0haUQ?oc=5
 summary: 郭露西是如何想到要创立Scale AI的？ finance.sina.com.cn
 first_seen: '2026-08-29T12:10:00Z'
-last_seen: '2026-09-10T05:13:56Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - newssearch
@@ -117,6 +117,21 @@ sightings:
 - source: marketfeeds
   url: https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/
   seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/10/eif-backs-nordic-foodtech-vc-with-30m-to-scale-europe-s-agrifood-deeptech/
+  seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: marketfeeds
+  url: https://tech.eu/2026/09/10/arlequin-ai-lands-eur28m-to-scale-topological-neural-network-technology/
+  seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxPN0xrODhBV0toSjlteTQybUdBb243Qm5DRmx2R2p2Z2dqakU2em10cWlKVFJVTTVJR2JDd1gtRFdFQy1VRjVNeUZRLVdrWldKREtzV2tnUGVMdkhjRmFRdEhhN25oZkd5NmNMWjdMQ3d5cEZPZXlkRXkzeTBDM3hqandLLTFNdDNxdEt0UFg0Mk9SNG45bnBuWHRRQ1hJMmtscndPNGdDNA?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

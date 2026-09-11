@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE13a1RMYmNpempYVUJoM25mRm
 canonical_url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE13a1RMYmNpempYVUJoM25mRm5WMl9fQmdlcmRRWXFBaE5rVWY2bXphMi13Rm84Q1VLMmN3Ymp5a0lxZDNnaDYyYw?oc=5
 summary: Meta正式入局个人AI代理赛道 Muse可替用户购物、预约、填表 cls.cn
 first_seen: '2026-09-09T19:22:04Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiSEFVX3lxTE13a1RMYmNpempYVUJoM25mRm5WMl9fQmdlcmRRWXFBaE5rVWY2bXphMi13Rm84Q1VLMmN3Ymp5a0lxZDNnaDYyYw?oc=5
   seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xaEdTYzRWWExfV29aWTdYYU5ScGRPMUpsVXgwMnF6U05qTDl5NFB1d19jbVNqM2tPbzRiaEhaRVAxeWRramxaQ3VmQ3ZDQUw5enlsUE1fYXZiQl9hT0RvdA?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

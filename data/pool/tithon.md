@@ -20,17 +20,17 @@ url: https://github.com/rnoro/tithon
 canonical_url: https://github.com/rnoro/tithon
 summary: Persistent Jupyter kernel execution and live output streaming in VSCode
 first_seen: '2026-09-09T13:23:45Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://github.com/rnoro/tithon
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 5
-    comments: 1
+    points: 7
+    comments: 3
   kind: product
 ---
 

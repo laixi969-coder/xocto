@@ -36,7 +36,7 @@ summary: 'A free, self-paced 24-week AI engineering course: Python, machine lear
   agents and MCP, Azure and Vertex and Bedrock, and Databricks. 43 runnable notebooks, one continuous
   case study. MIT licensed, no signup. By Zorost Intelligence AI Lab.'
 first_seen: '2026-08-17T16:34:05Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - github
@@ -77,6 +77,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMilAFBVV95cUxNR20taXpDeXJJOTJudDk1dGVIemNIMjVsMnBLMmJuTVU1eWFKT2NPOFVTN3h0QjJyRGhGQjdXWjJPY3hBNFRQSGhKNVBKdVJKTU9vdVZnUEJNTS1laENBU253SUlNQU5feEtSV21ueVYxcmtvRWpWYy1FLUpxMEdTY1I1R0E3dldQc0JVdkxCUUlKM0JM?oc=5
   seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdmcxb05kZ1ZjeHc5LTMwaFZaUm0xc0lOV01iWTVWZm5XMGxYck5ESTVXTWRNVEl6dUMyQjh2OUstcXhSUUdZTEt2WEs4azBGX3A3ODlqazF5SFA3ZHNOQjRULUJFNXVoN1FwemFaUzFTbXpMbEJRNDRMbENKWmJ2bXl6LV96Nzd2dERnSllxZl9fT25ZYTZZVUtFSHpkTEZEemMtR0VRaUJaX3BKcG5CLVUySXo0UUhoTG5ic2ZIQWJsb1R6NFFXbl9wLWlnc1dqOUwwOEM0VXdoUF9NWnBJanlmNTFtVHZFb3NxUXBLckhlZw?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

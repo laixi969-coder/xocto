@@ -28,16 +28,16 @@ url: https://github.com/tczyliu/china-travel-kit
 canonical_url: https://github.com/tczyliu/china-travel-kit
 summary: Source-aware China inbound travel data, CLI, HTTP API, and MCP server
 first_seen: '2026-08-24T16:24:30Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-11T00:10:34Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/tczyliu/china-travel-kit
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-11T00:10:34Z'
   metrics:
-    stars: 164
+    stars: 172
     forks: 0
     open_issues: 0
   kind: product

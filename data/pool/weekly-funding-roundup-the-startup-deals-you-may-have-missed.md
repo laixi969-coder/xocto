@@ -22,8 +22,8 @@ url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOG
 canonical_url: https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcmlZdUR1cEx6dzNScDhkOGZjXzNNeW1BbmZUMHdPeWFiWmlEMDB2Y3dMUnBJS1V3ekROMGR6aFZyd2RSaHNfRGs0di1XMThtMGtGeHlfZkNmSWR3aURoUENOV3d1b0ctSFA0Q2NtWHFfX1N2bVVEQUY2YU9qZHE4YWhYS2M2WEhqSEtxNHlWa0JWS2thZ041SXZGR3ZzMmFvWkZGeWc0eHpIR1IteDRZWVhHWVEtMWpvSncxWHVVQ01Ib3cyUlJrWURYOWxqRjREbnBMUHp3UWtvZmFHUjVN0gHkAUFVX3lxTE1MSXI2d0puVUtmQ2hQdnYzNHlKRU5DYVRQU29uOWRfSGZLNU9WT2pvSTQ1ZW00enFMNjVZUXZjZlpLcTRBRWpjQ21HVGFkNW9iQUo2QnIyejBnbDVqVUhOaGJNTGZzUDFIWTBodmZoNVlGQlladWJ4b3RPUlBKWkNmUUNFci1CWTQxVndJUWctbTU5MkJzRURoYkhBWHJFVFRVSzVNWDYzWUNiXzRmQmZMc01CcjVjWncxZ2ZvNXgwa2VrYm9pN25vNFhaQWxSbmFSUEZPeGVUcUlnY0pNcWUwZkVMRg?oc=5
 summary: 'Weekly funding roundup: The startup deals you may have missed in week of August 30 Moneycontrol.com'
 first_seen: '2026-08-29T13:52:47Z'
-last_seen: '2026-09-04T14:24:01Z'
-status: market_context
+last_seen: '2026-09-11T00:10:59Z'
+status: pending_filter
 sources:
 - newssearch
 sightings:
@@ -40,6 +40,16 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQk55elpzZ2dhcFRFaTFIdEowejE3bmZqdGlnZEg0SmhaVkxXMThwbnd1WWlCSmxQaTZuTE9JYVF6Zm1uWXJyQ3VYdU1wR3hUYnNXZmtMWmROd3JwNXlGUG1wemFUOGUzTHRmQ0dQQk5zSTNKQS1wYUE0ZVc3dVZ6b3Z3dEl1OV94Y0hZRlR5RFpyT2t2NWRPRnVNMDg3MVp4VkM2MW1GaEVQLVl2QkIzQjVob3phYVZlekJF0gG7AUFVX3lxTFBCTnl6WnNnZ2FwVEVpMUh0SjB6MTduZmp0aWdkSDRKaFpWTFcxOHBud3VZaUJKbFBpNm5MT0lhUXpmbW5ZcnJDdVh1TXBHeFRic1dma0xaZE53cnA1eUZQbXB6YVQ4ZTNMdGZDR1BCTnNJM0pBLXBhQTRlVzd1Vnpvdnd0SXU5X3hjSFlGVHlEWnJPa3Y1ZE9GdU0wODcxWnhWQzYxbUZoRVAtWXZCQjNCNWhvemFhVmV6QkU?oc=5
   seen_at: '2026-09-04T14:24:01Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMiugFBVV95cUxNUXNRX1JWTzhuZU5yM2tjWWY3TmpSMmV0NlU1VnlpSEJ2VGpKdkV0cHAtbW12YjZkMWNMQmdNaEZRcG0xMFdKUUczRlloMXQ4c3ZJLXV6QkFEYS1obV9FMHJLZlBXdnNIR19HUnBBUTA3ckVYQktNTkVId3FvQUk1N0FCQTBTRzN0ZUxZRTQ0UWdiVEotejZuY0k4MWFQZ1c2cWFqSmZkRXFSbVI4czJ4RGtWYk9oRVpDdHc?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMihAFBVV95cUxQWXl3X1JiQjBhQl9QRFcxQXk2akJaQzdtUWxnWnpoNHcwUTJxWks5Nno4Rkg3TmgySl9lOVdCRFdDc0NZYnhnVXNhZG4tc3kyMjRYNHM5Z2FpeDllX1NsOFFyMVV2RzcyaDI0WmV6akNtd2VNSndlYnhNdDhoNlVSTVdrWWU?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

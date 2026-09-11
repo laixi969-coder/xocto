@@ -20,7 +20,7 @@ url: https://www.producthunt.com/products/type-com
 canonical_url: https://producthunt.com/products/type-com
 summary: A shared workspace for Claude, Codex, and your team
 first_seen: '2026-09-09T03:54:10Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - producthunt
@@ -33,10 +33,10 @@ sightings:
   kind: product
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49626148
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
     points: 14
-    comments: 9
+    comments: 10
   kind: product
 ---
 

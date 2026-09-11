@@ -20,16 +20,16 @@ url: https://entropicthoughts.com/better-ai-comment-classifier
 canonical_url: https://entropicthoughts.com/better-ai-comment-classifier
 summary: Better AI code comment detector
 first_seen: '2026-09-09T15:45:43Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://entropicthoughts.com/better-ai-comment-classifier
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 40
+    points: 42
     comments: 23
   kind: news
 ---

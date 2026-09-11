@@ -79,14 +79,20 @@ summary: "On the Navier–Stokes Millennium Prize Problem   \nImpressive result 
   \ later model helps someone  else  solve it first? \n \n\n       Via  Hacker News   \n\n\n     Tags:\
   \  mathematics ,  ai ,  openai ,  generative-ai ,  llms ,  training-data ,  ai-ethics"
 first_seen: '2026-09-08T23:55:12Z'
-last_seen: '2026-09-10T05:13:56Z'
+last_seen: '2026-09-11T00:10:51Z'
 status: pending_filter
 sources:
 - marketfeeds
+- officialfeeds
 sightings:
 - source: marketfeeds
   url: https://simonwillison.net/2026/Sep/8/on-navier-stokes/
   seen_at: '2026-09-10T05:13:56Z'
+  metrics: {}
+  kind: news
+- source: officialfeeds
+  url: https://openai.com/index/navier-stokes-solution
+  seen_at: '2026-09-11T00:10:51Z'
   metrics: {}
   kind: news
 ---

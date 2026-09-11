@@ -20,17 +20,17 @@ url: https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best
 canonical_url: https://apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation
 summary: ''
 first_seen: '2026-09-09T17:39:24Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 416
-    comments: 331
+    points: 503
+    comments: 446
   kind: news
 ---
 

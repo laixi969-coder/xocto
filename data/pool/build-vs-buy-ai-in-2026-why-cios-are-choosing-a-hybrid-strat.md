@@ -1,0 +1,42 @@
+---
+slug: build-vs-buy-ai-in-2026-why-cios-are-choosing-a-hybrid-strat
+name: 'Build vs Buy AI in 2026: Why CIOs Are Choosing a Hybrid Strategy as Spending Hits $2.59 Trillion'
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNlVhajQ5eGw4N1FlZlNsM2lUSHh4aFlxOFl0QXRyTEY5T2VGd3FUYUZOd0RZckNJNHhFVGJUbGQ5bHJwOXpwM2U2YnhsTmdPaDBVUU1QZlFfMTctdGd5Zl9aZ01iUTVKRTZVWk1NWjhXN0dOZ3AtUWJIdzNvX2FBVFZTTGRaaEstczd6WHZORHhHTjJ1QndfZkdDSlU3VGQwWXFnbXRpeEtGYzUzUk85dFlSSlB0NXluUjNyUzVoZWZVaTEwUEkzQjZzNnRWNnUwQWtyTzlJVWZfcmctclNaTzNCSdIB6wFBVV95cUxPcjVBbmhlVW9ZTGJUcnlnbnE5S1VacHlSY2RSOHZ4aWFwa2M2TlNaZWlsVngyR1A1M0RRZjQyelVra3BhdkEySXpkTlVScmhCQm1YQmx4MVZxd3NkSDZwM0FhQzh4a0E1UER2NWtneWNteElLM2xXMW9HRG1TS3E3Z0ZhTGN3cVY4WGhObHhNXzdHVmU4SllscUNlRnhGalBDZmU2ak8xSGhIc28wTG5kSklMZUJuLUZueXRoemJGZm5OX1pXTDFSRU1QYi00b1dZaVhPZXk5VURmTVpFaVpvWFFOaVoxUVJVQzNR?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNlVhajQ5eGw4N1FlZlNsM2lUSHh4aFlxOFl0QXRyTEY5T2VGd3FUYUZOd0RZckNJNHhFVGJUbGQ5bHJwOXpwM2U2YnhsTmdPaDBVUU1QZlFfMTctdGd5Zl9aZ01iUTVKRTZVWk1NWjhXN0dOZ3AtUWJIdzNvX2FBVFZTTGRaaEstczd6WHZORHhHTjJ1QndfZkdDSlU3VGQwWXFnbXRpeEtGYzUzUk85dFlSSlB0NXluUjNyUzVoZWZVaTEwUEkzQjZzNnRWNnUwQWtyTzlJVWZfcmctclNaTzNCSdIB6wFBVV95cUxPcjVBbmhlVW9ZTGJUcnlnbnE5S1VacHlSY2RSOHZ4aWFwa2M2TlNaZWlsVngyR1A1M0RRZjQyelVra3BhdkEySXpkTlVScmhCQm1YQmx4MVZxd3NkSDZwM0FhQzh4a0E1UER2NWtneWNteElLM2xXMW9HRG1TS3E3Z0ZhTGN3cVY4WGhObHhNXzdHVmU4SllscUNlRnhGalBDZmU2ak8xSGhIc28wTG5kSklMZUJuLUZueXRoemJGZm5OX1pXTDFSRU1QYi00b1dZaVhPZXk5VURmTVpFaVpvWFFOaVoxUVJVQzNR?oc=5
+summary: 'Build vs Buy AI in 2026: Why CIOs Are Choosing a Hybrid Strategy as Spending Hits $2.59 Trillion
+  InfotechLead'
+first_seen: '2026-09-10T06:20:34Z'
+last_seen: '2026-09-11T00:10:59Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNlVhajQ5eGw4N1FlZlNsM2lUSHh4aFlxOFl0QXRyTEY5T2VGd3FUYUZOd0RZckNJNHhFVGJUbGQ5bHJwOXpwM2U2YnhsTmdPaDBVUU1QZlFfMTctdGd5Zl9aZ01iUTVKRTZVWk1NWjhXN0dOZ3AtUWJIdzNvX2FBVFZTTGRaaEstczd6WHZORHhHTjJ1QndfZkdDSlU3VGQwWXFnbXRpeEtGYzUzUk85dFlSSlB0NXluUjNyUzVoZWZVaTEwUEkzQjZzNnRWNnUwQWtyTzlJVWZfcmctclNaTzNCSdIB6wFBVV95cUxPcjVBbmhlVW9ZTGJUcnlnbnE5S1VacHlSY2RSOHZ4aWFwa2M2TlNaZWlsVngyR1A1M0RRZjQyelVra3BhdkEySXpkTlVScmhCQm1YQmx4MVZxd3NkSDZwM0FhQzh4a0E1UER2NWtneWNteElLM2xXMW9HRG1TS3E3Z0ZhTGN3cVY4WGhObHhNXzdHVmU4SllscUNlRnhGalBDZmU2ak8xSGhIc28wTG5kSklMZUJuLUZueXRoemJGZm5OX1pXTDFSRU1QYi00b1dZaVhPZXk5VURmTVpFaVpvWFFOaVoxUVJVQzNR?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+---
+
+# Build vs Buy AI in 2026: Why CIOs Are Choosing a Hybrid Strategy as Spending Hits $2.59 Trillion
+
+Build vs Buy AI in 2026: Why CIOs Are Choosing a Hybrid Strategy as Spending Hits $2.59 Trillion InfotechLead
+
+## 笔记
+
+

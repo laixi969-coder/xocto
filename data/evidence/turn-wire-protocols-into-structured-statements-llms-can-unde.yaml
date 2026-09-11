@@ -1,0 +1,11 @@
+- id: ev-97b7bed39f253f41
+  project_slug: turn-wire-protocols-into-structured-statements-llms-can-unde
+  url: https://news.ycombinator.com/item?id=49646376
+  title: Turn wire protocols into structured statements LLMs can unde
+  published_at: '2026-09-10T16:25:23Z'
+  collected_at: '2026-09-11T00:10:31Z'
+  source_kind: adoption
+  tier: behavioural
+  fact: Hi HN, we built an extension to Envoy proxy that parses and sends contents of requests to an LLM
+    at runtime. We do that by adding a deterministic SQL parser, gGRPC payload inspection and LLM analysis
+    of the payload befor…

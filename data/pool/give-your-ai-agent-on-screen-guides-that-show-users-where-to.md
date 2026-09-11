@@ -22,16 +22,16 @@ summary: Hey HN. I&#x27;m Christian, one of the founders of Frigade (YC W23). I&
   lot of in-app AI agents struggle to actually understand the products they exist in. For instance, let&#x27;s
   say a user asks a…
 first_seen: '2026-09-09T15:09:05Z'
-last_seen: '2026-09-10T05:13:24Z'
+last_seen: '2026-09-11T00:10:31Z'
 status: pending_filter
 sources:
 - hackernews
 sightings:
 - source: hackernews
   url: https://news.ycombinator.com/item?id=49627872
-  seen_at: '2026-09-10T05:13:24Z'
+  seen_at: '2026-09-11T00:10:31Z'
   metrics:
-    points: 17
+    points: 19
     comments: 8
   kind: product
 ---

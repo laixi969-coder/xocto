@@ -32,17 +32,17 @@ url: https://github.com/JackyCufe/signal-vaults
 canonical_url: https://github.com/JackyCufe/signal-vaults
 summary: WeChat group & official-account AI knowledge digest — agent-friendly (Codex/Claude Code), Windows/macOS/Linux
 first_seen: '2026-09-02T13:25:24Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-11T00:10:34Z'
 status: queued
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/JackyCufe/signal-vaults
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-11T00:10:34Z'
   metrics:
     stars: 68
-    forks: 70
+    forks: 71
     open_issues: 0
   kind: product
 ---

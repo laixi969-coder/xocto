@@ -1,0 +1,12 @@
+- id: ev-49b62a9df68e8e5d
+  project_slug: model-agnostic-pii-detection-with-llms
+  url: https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/
+  title: Model-agnostic PII detection with LLMs
+  published_at: '2026-09-10T16:02:16Z'
+  collected_at: '2026-09-11T00:10:51Z'
+  source_kind: market_signal
+  tier: first_party
+  fact: A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock
+    into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector
+    adapts to new entity types without retraining, and it outperforms an off-the-shelf tool across five
+    public corpora and nine LLM-based detectors.

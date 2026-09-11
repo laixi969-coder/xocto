@@ -1,0 +1,43 @@
+---
+slug: bosch-sds-dassault-systèmes-join-forces-for-ai-led-manufactu
+name: Bosch SDS, Dassault Systèmes join forces for AI-led manufacturing in India; EV maker gets first
+  deployment
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa2VQd3lySXVISjJzZURodkZNR01IdVBQOFQybHZrbXZpUElBOG5zUFhTMU5taXJzUDhlaHFPdjFBQkJFdWxZc0x4S3dPZEJ6WUg1U1FJTUdYQ3p1ODFpTnIySlRGRWV3Wlh0eTZsRXhMT1hWSmhsbHlFWXYwZ0YwRWFUSW53aDd4dFJVaWp1RmNQd0ZCTHRwc2FDbGxDZWwyZ1RqMnlmaDJfYUc3LXlQYXpFLWNVdGdYbVpTY2Vub3BYNmk2RVBTY1ZhQjBvQnBybG5ieWNNSEtuOWdjTjBsVFBGUmVxR2ZIaThCb9IB-gFBVV95cUxPUjhZYkt6UlViOEdxZTgyWDJQOHBocVlEZFFBRUVqX2xPS3FOcVdqNVB5U3NKclZkT29wNVhoZmxfbWI4ejM1bWhrbkhHUVZsenp2NFdDeXZRQndjWXBscUNpek5GaTNSWmZ0WnBxTFB0Z1FRaE92SGNlU3cyM2JRZWxZSkxNRzNrVC16ZWt4SlFDeWxEU3diM0hTa2JTQ29id25mSUh1dUstMnUzdGtPUTRZSWd4SGtKQ180c0tVdHRPWFJJVVlHTFpGYzBjY3hFT2VjSTRUWkc4RU9uX0FTbHRVUnZYLTItMUg3S1UxRTNkZGdxUnYxYm5n?oc=5
+canonical_url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa2VQd3lySXVISjJzZURodkZNR01IdVBQOFQybHZrbXZpUElBOG5zUFhTMU5taXJzUDhlaHFPdjFBQkJFdWxZc0x4S3dPZEJ6WUg1U1FJTUdYQ3p1ODFpTnIySlRGRWV3Wlh0eTZsRXhMT1hWSmhsbHlFWXYwZ0YwRWFUSW53aDd4dFJVaWp1RmNQd0ZCTHRwc2FDbGxDZWwyZ1RqMnlmaDJfYUc3LXlQYXpFLWNVdGdYbVpTY2Vub3BYNmk2RVBTY1ZhQjBvQnBybG5ieWNNSEtuOWdjTjBsVFBGUmVxR2ZIaThCb9IB-gFBVV95cUxPUjhZYkt6UlViOEdxZTgyWDJQOHBocVlEZFFBRUVqX2xPS3FOcVdqNVB5U3NKclZkT29wNVhoZmxfbWI4ejM1bWhrbkhHUVZsenp2NFdDeXZRQndjWXBscUNpek5GaTNSWmZ0WnBxTFB0Z1FRaE92SGNlU3cyM2JRZWxZSkxNRzNrVC16ZWt4SlFDeWxEU3diM0hTa2JTQ29id25mSUh1dUstMnUzdGtPUTRZSWd4SGtKQ180c0tVdHRPWFJJVVlHTFpGYzBjY3hFT2VjSTRUWkc4RU9uX0FTbHRVUnZYLTItMUg3S1UxRTNkZGdxUnYxYm5n?oc=5
+summary: Bosch SDS, Dassault Systèmes join forces for AI-led manufacturing in India; EV maker gets first
+  deployment Fortune India
+first_seen: '2026-09-10T05:41:52Z'
+last_seen: '2026-09-11T00:10:59Z'
+status: pending_filter
+sources:
+- newssearch
+sightings:
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa2VQd3lySXVISjJzZURodkZNR01IdVBQOFQybHZrbXZpUElBOG5zUFhTMU5taXJzUDhlaHFPdjFBQkJFdWxZc0x4S3dPZEJ6WUg1U1FJTUdYQ3p1ODFpTnIySlRGRWV3Wlh0eTZsRXhMT1hWSmhsbHlFWXYwZ0YwRWFUSW53aDd4dFJVaWp1RmNQd0ZCTHRwc2FDbGxDZWwyZ1RqMnlmaDJfYUc3LXlQYXpFLWNVdGdYbVpTY2Vub3BYNmk2RVBTY1ZhQjBvQnBybG5ieWNNSEtuOWdjTjBsVFBGUmVxR2ZIaThCb9IB-gFBVV95cUxPUjhZYkt6UlViOEdxZTgyWDJQOHBocVlEZFFBRUVqX2xPS3FOcVdqNVB5U3NKclZkT29wNVhoZmxfbWI4ejM1bWhrbkhHUVZsenp2NFdDeXZRQndjWXBscUNpek5GaTNSWmZ0WnBxTFB0Z1FRaE92SGNlU3cyM2JRZWxZSkxNRzNrVC16ZWt4SlFDeWxEU3diM0hTa2JTQ29id25mSUh1dUstMnUzdGtPUTRZSWd4SGtKQ180c0tVdHRPWFJJVVlHTFpGYzBjY3hFT2VjSTRUWkc4RU9uX0FTbHRVUnZYLTItMUg3S1UxRTNkZGdxUnYxYm5n?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
+  metrics: {}
+  kind: news
+---
+
+# Bosch SDS, Dassault Systèmes join forces for AI-led manufacturing in India; EV maker gets first deployment
+
+Bosch SDS, Dassault Systèmes join forces for AI-led manufacturing in India; EV maker gets first deployment Fortune India
+
+## 笔记
+
+

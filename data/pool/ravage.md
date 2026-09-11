@@ -30,17 +30,17 @@ url: https://github.com/duriantaco/ravage
 canonical_url: https://github.com/duriantaco/ravage
 summary: AI powered web security testing for authorized targets
 first_seen: '2026-08-29T12:41:00Z'
-last_seen: '2026-09-10T05:13:28Z'
+last_seen: '2026-09-11T00:10:34Z'
 status: watching
 sources:
 - github
 sightings:
 - source: github
   url: https://github.com/duriantaco/ravage
-  seen_at: '2026-09-10T05:13:28Z'
+  seen_at: '2026-09-11T00:10:34Z'
   metrics:
-    stars: 44
-    forks: 1
+    stars: 46
+    forks: 2
     open_issues: 0
   kind: product
 ---

@@ -20,7 +20,7 @@ url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEFQbHpMX3ZIaDRQNm5Yej
 canonical_url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEFQbHpMX3ZIaDRQNm5YejRSdFJFWmdiVVhJMTVMenVCSUtGVElHV0lhWkYwYTRQVFJ0dV9oUEZkdzVYLXdmSlBFNW1NcHpvZkh5UUtNWXlzRWsyN0lTem1mSmcxZHZuMExzR3VnWjk5Q202SkdUdzFOYzdSb2pqWGNHZ1JaTWs?oc=5
 summary: 对话UP主W博士与AI猫娘：AI创业代码本身并不是壁垒，核心是解决用户需求 finance.sina.cn
 first_seen: '2026-09-09T04:07:30Z'
-last_seen: '2026-09-10T05:14:03Z'
+last_seen: '2026-09-11T00:10:59Z'
 status: pending_filter
 sources:
 - newssearch
@@ -28,6 +28,11 @@ sightings:
 - source: newssearch
   url: https://news.google.com/rss/articles/CBMihwFBVV95cUxOeEFQbHpMX3ZIaDRQNm5YejRSdFJFWmdiVVhJMTVMenVCSUtGVElHV0lhWkYwYTRQVFJ0dV9oUEZkdzVYLXdmSlBFNW1NcHpvZkh5UUtNWXlzRWsyN0lTem1mSmcxZHZuMExzR3VnWjk5Q202SkdUdzFOYzdSb2pqWGNHZ1JaTWs?oc=5
   seen_at: '2026-09-10T05:14:03Z'
+  metrics: {}
+  kind: news
+- source: newssearch
+  url: https://news.google.com/rss/articles/CBMipwFBVV95cUxOaE1mVnpnZ1NlTW80Q3RJaU9ZUUJxLVJhU3M0dlhUMVpyS3FJWmNxd29rWEI1UExYQ19PNjJ1V3Y5UFhGSGJuV2lKTEYtUEFPbjdvTndMYXhfclBMOHVRSllkVEotWXBQMndBMGh5b1Y4eDQ1dzdpM041NURadGtIWVA0SnJDa2RfM291UzZQdzZDRzBLNGk2TUs3bmlocTlpUFdQUHBTNA?oc=5
+  seen_at: '2026-09-11T00:10:59Z'
   metrics: {}
   kind: news
 ---

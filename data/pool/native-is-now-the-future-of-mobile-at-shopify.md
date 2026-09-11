@@ -1,0 +1,71 @@
+---
+slug: native-is-now-the-future-of-mobile-at-shopify
+name: Native is now the future of mobile at Shopify
+builder: ''
+category: ''
+summary_zh: ''
+inspiration: ''
+summary_en: ''
+inspiration_en: ''
+priority_review: false
+project_type: new_application
+industries: []
+industries_en: []
+jobs: []
+jobs_en: []
+regions: []
+regions_en: []
+open_source: false
+url: https://simonwillison.net/2026/Sep/10/shopify-react-native/
+canonical_url: https://simonwillison.net/2026/Sep/10/shopify-react-native
+summary: "Native is now the future of mobile at Shopify   \nShopify are moving from React Native back\
+  \ to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect:\
+  \ \n \n We decided to switch from native to React Native in 2020 for three reasons: \n \n Stop building\
+  \ the same features twice \n Allow developers to work across the stack \n Spend less time chasing feature\
+  \ parity and more time shipping value \n \n [...] \n Native still means building and maintaining software\
+  \ on two platforms, that cost has not disappeared. What changed is that agents can now do enough of\
+  \ the implementation, translation, testing, and review work that it’s no longer the deciding factor\
+  \ it was in 2020. \n \n It's a well-written post, which gives full credit to React Native as a great\
+  \ platform for the six years they were using it. \n Shopify are the maintainers of three significant\
+  \ React Native libraries:  react-native-skia ,  flash-list , and  restyle . The first two are finding\
+  \ new homes; the third \"has a smaller user base than our other libraries\" and will be archived at\
+  \ the end of 2026.\n\n       Via  Hacker News   \n\n\n     Tags:  android ,  mobile ,  open-source ,\
+  \  ios ,  ai ,  react ,  generative-ai ,  llms ,  ai-assisted-search ,  coding-agents ,  swift ,  shopify"
+first_seen: '2026-09-10T21:11:15Z'
+last_seen: '2026-09-11T00:10:53Z'
+status: pending_filter
+sources:
+- marketfeeds
+sightings:
+- source: marketfeeds
+  url: https://simonwillison.net/2026/Sep/10/shopify-react-native/
+  seen_at: '2026-09-11T00:10:53Z'
+  metrics: {}
+  kind: news
+---
+
+# Native is now the future of mobile at Shopify
+
+Native is now the future of mobile at Shopify   
+Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: 
+ 
+ We decided to switch from native to React Native in 2020 for three reasons: 
+ 
+ Stop building the same features twice 
+ Allow developers to work across the stack 
+ Spend less time chasing feature parity and more time shipping value 
+ 
+ [...] 
+ Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. 
+ 
+ It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. 
+ Shopify are the maintainers of three significant React Native libraries:  react-native-skia ,  flash-list , and  restyle . The first two are finding new homes; the third "has a smaller user base than our other libraries" and will be archived at the end of 2026.
+
+       Via  Hacker News   
+
+
+     Tags:  android ,  mobile ,  open-source ,  ios ,  ai ,  react ,  generative-ai ,  llms ,  ai-assisted-search ,  coding-agents ,  swift ,  shopify
+
+## 笔记
+
+
