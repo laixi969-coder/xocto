@@ -251,19 +251,19 @@ class BriefTests(unittest.TestCase):
         self.assertEqual([item[0] for item in providers], ["gemini", "deepseek"])
         self.assertEqual(providers[0][1], "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions")
 
-    def test_groq_defaults_to_a_production_free_model(self) -> None:
-        with patch.dict("os.environ", {"GROQ_API_KEY": "groq-key", "MODEL_PROVIDER": "groq"}, clear=True):
+    def test_deepseek_defaults_to_flash_and_is_primary(self) -> None:
+        with patch.dict("os.environ", {"DEEPSEEK_API_KEY": "deepseek-key"}, clear=True):
             providers = _model_providers()
-        self.assertEqual(providers, [("groq", "https://api.groq.com/openai/v1/chat/completions", "groq-key", "openai/gpt-oss-20b")])
+        self.assertEqual(providers, [("deepseek", "https://api.deepseek.com/chat/completions", "deepseek-key", "deepseek-v4-flash")])
 
-    def test_groq_prefers_gemini_before_deepseek_as_its_fallback(self) -> None:
+    def test_deepseek_uses_gemini_then_glm_as_fallbacks(self) -> None:
         with patch.dict(
             "os.environ",
-            {"GROQ_API_KEY": "groq-key", "GEMINI_API_KEY": "gemini-key", "DEEPSEEK_API_KEY": "deepseek-key", "MODEL_PROVIDER": "groq"},
+            {"DEEPSEEK_API_KEY": "deepseek-key", "GEMINI_API_KEY": "gemini-key", "ZHIPU_API_KEY": "glm-key"},
             clear=True,
         ):
             providers = _model_providers()
-        self.assertEqual([item[0] for item in providers], ["groq", "gemini", "deepseek"])
+        self.assertEqual([item[0] for item in providers], ["deepseek", "gemini", "glm"])
 
     def test_json_decoder_accepts_a_fenced_object_but_rejects_truncation(self) -> None:
         self.assertEqual(_decode_json_object("```json\n{\"products\": []}\n```"), {"products": []})
@@ -825,7 +825,7 @@ class BriefTests(unittest.TestCase):
         self.assertIn("进一步核验", recovered["event_summary_zh"])
         self.assertIn("requires validation", recovered["event_summary_en"])
 
-    def test_failed_run_resumes_from_the_first_unfinished_batch(self) -> None:
+    def test_request_failure_isolates_an_ordinary_batch_and_publishes(self) -> None:
         def market_context(slug: str) -> dict:
             return {
                 "products": [{
@@ -861,28 +861,33 @@ class BriefTests(unittest.TestCase):
                 "xocto.brief._PARALLEL_BATCH_WORKERS", 1
             ), patch(
                 "xocto.brief._request",
-                side_effect=[market_context("alpha"), BriefError("second batch failed")],
+                side_effect=[
+                    market_context("alpha"),
+                    BriefError("second batch failed"),
+                    report,
+                ],
             ):
-                with self.assertRaises(BriefError):
-                    run(store, day=DAY)
-
-            progress = store.read_brief_progress(DAY)
-            self.assertEqual(set(progress["full"]), {"alpha"})
-            self.assertEqual(store.load_product("alpha").status, STATUS_PENDING_FILTER)
-
-            with patch("xocto.brief.BRIEF_BATCH_SIZE", 1), patch(
-                "xocto.brief._PARALLEL_BATCH_WORKERS", 1
-            ), patch(
-                "xocto.brief._request",
-                side_effect=[market_context("beta"), report],
-            ) as request:
                 result = run(store, day=DAY)
 
-            self.assertEqual(request.call_count, 2)
-            self.assertEqual(result.updated, 2)
+            self.assertEqual(result.updated, 1)
             self.assertEqual(store.load_product("alpha").status, STATUS_MARKET_CONTEXT)
-            self.assertEqual(store.load_product("beta").status, STATUS_MARKET_CONTEXT)
+            self.assertEqual(store.load_product("beta").status, STATUS_PENDING_FILTER)
+            self.assertTrue(store.report_path(DAY).exists())
             self.assertFalse(store.brief_progress_path(DAY).exists())
+
+    def test_request_failure_for_a_priority_batch_still_fails_the_day(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            store = Store(Path(tmp))
+            store.ensure_dirs()
+            store.config_dir.mkdir(parents=True, exist_ok=True)
+            (store.config_dir / "filter.md").write_text("筛选规则", encoding="utf-8")
+            (store.config_dir / "template.md").write_text("编辑模板", encoding="utf-8")
+            (store.config_dir / "req.md").write_text("REQ 公开证据模式", encoding="utf-8")
+            store.save_product(replace(product("priority"), priority_review=True))
+
+            with patch("xocto.brief._request", side_effect=BriefError("all providers unavailable")):
+                with self.assertRaisesRegex(BriefError, "all providers unavailable"):
+                    run(store, day=DAY)
 
 
     def test_failed_batch_is_isolated_unless_it_holds_a_priority_candidate(self) -> None:

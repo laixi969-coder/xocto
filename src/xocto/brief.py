@@ -45,15 +45,11 @@ from .editorial import has_context_copy
 
 DEEPSEEK_API_URL = "https://api.deepseek.com/chat/completions"
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
-GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GLM_API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-pro"
+DEFAULT_DEEPSEEK_MODEL = "deepseek-v4-flash"
 DEFAULT_GEMINI_MODEL = "gemini-3.7-flash"
-# Groq 将 Qwen 3.6 列为预览模型；日报是生产定时任务，默认使用其生产
-# 模型中仍可落在免费层配额内的 GPT-OSS 20B，而不是追逐随时可能下线的预览版。
-DEFAULT_GROQ_MODEL = "openai/gpt-oss-20b"
 DEFAULT_GLM_MODEL = "glm-5.3-flash"
-FALLBACK_PROVIDER_ORDER = ("glm", "groq", "gemini", "deepseek")
+FALLBACK_PROVIDER_ORDER = ("deepseek", "gemini", "glm")
 ALLOWED_DECISIONS = {STATUS_REJECTED, STATUS_MARKET_CONTEXT, STATUS_QUEUED, STATUS_WATCHING}
 EMPTY_DAY_MARKERS = (
     "今天没有值得展开",
@@ -192,6 +188,10 @@ _MAX_INLINE_WAIT_SECONDS = 20.0
 # 每个批次都重新撞一遍再失败。欠费不会在几分钟内恢复，同样适用。
 _PROVIDER_COOLDOWN_SECONDS = 300.0
 _PROVIDER_COOLDOWN: dict[str, float] = {}
+# DeepSeek 的上下文与输出上限足够大；给结构化日报留出更宽的输出预算，
+# 避免 4 个候选或整期摘要在固定 8K 输出处被截断。备用供应商继续保守使用 8K。
+_PROVIDER_MAX_OUTPUT_TOKENS = {"deepseek": 16_000}
+_DEFAULT_MAX_OUTPUT_TOKENS = 8_000
 
 
 def _observation_only(product: Product) -> bool:
@@ -499,7 +499,7 @@ def _decode_json_object(content: str) -> dict[str, Any]:
 
 
 def _model_providers() -> list[tuple[str, str, str, str]]:
-    """返回可用模型链；首选可由 MODEL_PROVIDER 指定，另一个自动兜底。"""
+    """返回可用模型链；DeepSeek 默认主用，Gemini 与 GLM 自动兜底。"""
     providers: dict[str, tuple[str, str, str]] = {}
     if key := os.environ.get("DEEPSEEK_API_KEY"):
         providers["deepseek"] = (
@@ -509,22 +509,22 @@ def _model_providers() -> list[tuple[str, str, str, str]]:
         providers["gemini"] = (
             GEMINI_API_URL, key, os.environ.get("GEMINI_MODEL") or DEFAULT_GEMINI_MODEL
         )
-    if key := os.environ.get("GROQ_API_KEY"):
-        providers["groq"] = (
-            GROQ_API_URL, key, os.environ.get("GROQ_MODEL") or DEFAULT_GROQ_MODEL
-        )
     if key := os.environ.get("ZHIPU_API_KEY"):
         providers["glm"] = (
             GLM_API_URL, key, os.environ.get("GLM_MODEL") or DEFAULT_GLM_MODEL
         )
     if not providers:
         raise BriefError(
-            "缺少可用模型密钥；请配置 ZHIPU_API_KEY、DEEPSEEK_API_KEY、GEMINI_API_KEY 或 GROQ_API_KEY"
+            "缺少可用模型密钥；请配置 DEEPSEEK_API_KEY、GEMINI_API_KEY 或 ZHIPU_API_KEY"
         )
-    preferred = os.environ.get("MODEL_PROVIDER", "glm").strip().lower()
+    preferred = os.environ.get("MODEL_PROVIDER", "deepseek").strip().lower()
     names = [preferred] if preferred in providers else []
     names.extend(name for name in FALLBACK_PROVIDER_ORDER if name in providers and name not in names)
     return [(name, *providers[name]) for name in names]
+
+
+def _max_output_tokens(provider: str) -> int:
+    return _PROVIDER_MAX_OUTPUT_TOKENS.get(provider, _DEFAULT_MAX_OUTPUT_TOKENS)
 
 
 def _estimate_payload_bytes(messages: list[dict[str, str]], *, provider: str = "glm") -> int:
@@ -537,7 +537,7 @@ def _estimate_payload_bytes(messages: list[dict[str, str]], *, provider: str = "
         "model": "x" * 32,
         "messages": messages,
         "response_format": {"type": "json_object"},
-        "max_tokens": 8000,
+        "max_tokens": _max_output_tokens(provider),
         "temperature": 0.2,
     }
     if provider == "deepseek":
@@ -627,7 +627,7 @@ def _request(
             "model": model,
             "messages": messages,
             "response_format": {"type": "json_object"},
-            "max_tokens": 8000,
+            "max_tokens": _max_output_tokens(provider),
             "temperature": 0.2,
         }
         # DeepSeek 的非思考模式能防止 content 为空；Gemini 的 OpenAI 兼容端点
@@ -672,7 +672,9 @@ def _request(
                     # 限流等待超过短等待上限时，原地睡眠不如直接切换供应商：
                     # 给该供应商冷却时间，让后续批次先打可用的供应商。
                     if status == 429 and delay > _MAX_INLINE_WAIT_SECONDS:
-                        _PROVIDER_COOLDOWN[provider] = time.monotonic() + _PROVIDER_COOLDOWN_SECONDS
+                        _PROVIDER_COOLDOWN[provider] = time.monotonic() + max(
+                            _PROVIDER_COOLDOWN_SECONDS, delay
+                        )
                         failures.append(f"{provider} 限流（需等待 {delay:.0f}s），切换供应商")
                         break
                     if 0 <= delay <= 60:
@@ -1338,14 +1340,14 @@ def _validation_repair_messages(
 
 
 def _require_isolatable(batch: list[Product], exc: BriefError) -> None:
-    """校验屡修不过时只丢弃该批，把当天判断保住；重大项目例外。
+    """请求或校验屡修不过时只丢弃该批，把当天判断保住；重大项目例外。
 
     被丢弃的候选保持 pending，下一次运行会重新请求；若批里有重大项目，
     静默跳过会让它从当天日报消失，必须让整天失败并触发工作流重试。
     """
     if any(product.priority_review for product in batch):
         raise exc
-    print(f"! 本批 {len(batch)} 个候选屡修未过，跳过留待下次运行：{exc}", flush=True)
+    print(f"! 本批 {len(batch)} 个候选请求或校验未通过，跳过留待下次运行：{exc}", flush=True)
 
 
 _PRIORITY_DEFAULTS = {
@@ -1554,8 +1556,8 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     ]
     def run_interp_batch(batch: list[Product]) -> Any:
         messages = _fit_messages(batch, interp_build)
-        result = _request(messages)
         try:
+            result = _request(messages)
             for attempt in range(MAX_BATCH_REPAIRS + 1):
                 try:
                     interpreted, entities, interpreted_events = _interpretations(result, batch)
@@ -1599,8 +1601,7 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
                         break
                     interpreted, entities, interpreted_events = _interpretations(result, batch)
         except BriefError as exc:
-            # 请求本身失败仍让整天失败（工作流会带着断点重试）；只有
-            # 校验屡修不过才隔离本批，不让一个坏批次毁掉已完成的大半天。
+            # 普通候选的请求或校验失败都隔离到本批；重大项目仍升级为整天失败。
             _require_isolatable(batch, exc)
             return None
         return result, interpreted, entities, interpreted_events
@@ -1660,8 +1661,8 @@ def run(store: Store, *, day: date | None = None, force: bool = False) -> BriefR
     ]
     def run_full_batch(batch: list[Product]) -> Any:
         messages = _fit_messages(batch, full_build)
-        result = _request(messages)
         try:
+            result = _request(messages)
             for attempt in range(MAX_BATCH_REPAIRS + 1):
                 try:
                     batch_updates = _updates(result, batch)

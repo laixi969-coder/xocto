@@ -136,14 +136,12 @@ jobs:
           fi
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          # 可选；默认 deepseek-v4-pro。需要控制成本时在 Secrets 中设为 flash 模型。
+          # 默认 deepseek-v4-flash；可在 Secrets 中显式覆盖模型名。
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
-          # 可选备用链。配置 Gemini 密钥后，DeepSeek 请求或 JSON 连续失败时会自动切换；
-          # 设 MODEL_PROVIDER=gemini 可将其作为主模型。
+          # 可选备用链。DeepSeek 请求或 JSON 连续失败时依次切换 Gemini、GLM；
+          # 设 MODEL_PROVIDER=gemini 或 glm 可临时切换主模型。
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
@@ -163,8 +161,6 @@ jobs:
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
@@ -184,8 +180,6 @@ jobs:
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}
@@ -219,8 +213,6 @@ jobs:
           DEEPSEEK_MODEL: ${{ secrets.DEEPSEEK_MODEL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           GLM_MODEL: ${{ secrets.GLM_MODEL }}
           MODEL_PROVIDER: ${{ secrets.MODEL_PROVIDER }}

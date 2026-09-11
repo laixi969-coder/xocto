@@ -24,7 +24,7 @@ class TransportTests(unittest.TestCase):
                 return httpx.Response(429, headers={'retry-after': '45'})
             return httpx.Response(200, json={'choices': [{'message': {'content': '{"ok":true}'}}]})
         factory = httpx.Client
-        providers = [('glm','https://first.example','secret','m'),('groq','https://second.example','secret','m')]
+        providers = [('glm','https://first.example','secret','m'),('deepseek','https://second.example','secret','m')]
         with patch('xocto.brief._model_providers', return_value=providers), patch('xocto.brief.httpx.Client', side_effect=lambda **kw: factory(transport=httpx.MockTransport(handler))), patch('xocto.brief.time.sleep') as sleep:
             self.assertEqual(_request([]), {'ok': True})
             self.assertEqual(attempts, ['first.example', 'second.example'])
@@ -32,6 +32,14 @@ class TransportTests(unittest.TestCase):
             # 冷却生效：下一次请求不再撞第一个供应商。
             self.assertEqual(_request([]), {'ok': True})
             self.assertEqual(attempts, ['first.example', 'second.example', 'second.example'])
+
+    def test_retry_after_longer_than_default_controls_cooldown(self):
+        def handler(request):
+            return httpx.Response(429, headers={'retry-after': '977'})
+        with patch('xocto.brief._model_providers', return_value=[('gemini','https://example.com','secret','m')]), self.call_with(handler), patch('xocto.brief.time.monotonic', return_value=100):
+            with self.assertRaises(BriefError):
+                _request([])
+        self.assertEqual(_PROVIDER_COOLDOWN['gemini'], 1077)
 
     def test_transient_failure_retries_before_fallback(self):
         attempts = []
@@ -55,14 +63,14 @@ class TransportTests(unittest.TestCase):
                 return httpx.Response(402, text='secret private billing details')
             return httpx.Response(200, json={'choices': [{'message': {'content': '{"ok":true}'}}]})
         factory = httpx.Client
-        with patch('xocto.brief._model_providers', return_value=[('deepseek','https://first.example','secret','m'),('groq','https://second.example','secret','m')]), patch('xocto.brief.httpx.Client', side_effect=lambda **kw: factory(transport=httpx.MockTransport(handler))):
+        with patch('xocto.brief._model_providers', return_value=[('deepseek','https://first.example','secret','m'),('gemini','https://second.example','secret','m')]), patch('xocto.brief.httpx.Client', side_effect=lambda **kw: factory(transport=httpx.MockTransport(handler))):
             self.assertEqual(_request([]), {'ok': True})
         self.assertEqual(attempts, ['first.example','second.example'])
 
     def test_payload_error_only_reports_numeric_quota(self):
         def handler(request):
             return httpx.Response(413, text='secret org-id Limit 8000, Requested 12345')
-        with patch('xocto.brief._model_providers', return_value=[('groq','https://example.com','secret','m')]), self.call_with(handler):
+        with patch('xocto.brief._model_providers', return_value=[('glm','https://example.com','secret','m')]), self.call_with(handler):
             with self.assertRaises(BriefError) as error:
                 _request([])
         self.assertIn('8000/12345', str(error.exception))
