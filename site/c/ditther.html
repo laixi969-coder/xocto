@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
+<title>Ditther · 真实案例拆解 · x-octo</title>
+<meta name="description" content="一个浏览器里的创意编辑器，把图片和想法做成带抖动、半调、ASCII 等像素风格的海报、图形和动画，靠订阅或付费使用赚到每月 680 美元。">
+<link rel="canonical" href="https://xocto.vercel.app/c/ditther.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/c/ditther.html">
+<link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/c/ditther.html">
+<link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/c/ditther.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="x-octo">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="Ditther · x-octo">
+<meta property="og:description" content="一个浏览器里的创意编辑器，把图片和想法做成带抖动、半调、ASCII 等像素风格的海报、图形和动画，靠订阅或付费使用赚到每月 680 美元。">
+<meta property="og:url" content="https://xocto.vercel.app/c/ditther.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
+<meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
+<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="icon" type="image/png" href="../logo/mark-on-light.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/c/ditther.html#webpage", "@type": "WebPage", "description": "\u4e00\u4e2a\u6d4f\u89c8\u5668\u91cc\u7684\u521b\u610f\u7f16\u8f91\u5668\uff0c\u628a\u56fe\u7247\u548c\u60f3\u6cd5\u505a\u6210\u5e26\u6296\u52a8\u3001\u534a\u8c03\u3001ASCII \u7b49\u50cf\u7d20\u98ce\u683c\u7684\u6d77\u62a5\u3001\u56fe\u5f62\u548c\u52a8\u753b\uff0c\u9760\u8ba2\u9605\u6216\u4ed8\u8d39\u4f7f\u7528\u8d5a\u5230\u6bcf\u6708 680 \u7f8e\u5143\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Ditther \u00b7 \u771f\u5b9e\u6848\u4f8b\u62c6\u89e3", "url": "https://xocto.vercel.app/c/ditther.html"}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script>
+  (function () {
+    var saved = localStorage.getItem('xocto-theme');
+    if (saved) document.documentElement.setAttribute('data-theme', saved);
+  })();
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<div class="top">
+  <div class="top-inner">
+    <div class="brand-block">
+      <a class="brand" href="../index.html" aria-label="x-octo 首页"><span>x-octo 首页</span></a>
+      <span class="brand-tag">AI 应用的生意判断</span>
+    </div>
+    <nav class="nav">
+      <a href="../index.html" class=""><svg class="ico" data-ico="home" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 11 L12 3 L21 11"/><path d="M5 10 L5 21 L10 21 L10 14 L14 14 L14 21 L19 21 L19 10"/></svg><span>今日机会</span></a>
+      <a href="../products.html" class=""><svg class="ico" data-ico="grid" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 3 L10 3 L10 10 L3 10 Z"/><path d="M14 3 L21 3 L21 10 L14 10 Z"/><path d="M3 14 L10 14 L10 21 L3 21 Z"/><path d="M14 14 L21 14 L21 21 L14 21 Z"/></svg><span>机会库</span></a>
+      <a href="../takeaways.html" class=""><svg class="ico" data-ico="bookmark" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M6 3 L18 3 L18 21 L12 16 L6 21 Z"/></svg><span>打法库</span></a>
+    </nav>
+    <div class="top-tools">
+      <a class="lang-btn" href="../en/c/ditther.html" lang="en"
+         hreflang="en" aria-label="Switch to English"><svg class="ico" data-ico="globe" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M3 12 L21 12"/><path d="M12 3 C15 6 16.5 9 16.5 12 C16.5 15 15 18 12 21 C9 18 7.5 15 7.5 12 C7.5 9 9 6 12 3 Z"/></svg><span>EN</span></a>
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="深色模式">
+        <span class="theme-ico theme-ico-sun" aria-hidden="true"><svg class="ico" data-ico="sun" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2 L12 4"/><path d="M12 20 L12 22"/><path d="M4.93 4.93 L6.34 6.34"/><path d="M17.66 17.66 L19.07 19.07"/><path d="M2 12 L4 12"/><path d="M20 12 L22 12"/><path d="M4.93 19.07 L6.34 17.66"/><path d="M17.66 6.34 L19.07 4.93"/></svg></span>
+        <span class="theme-ico theme-ico-moon" aria-hidden="true"><svg class="ico" data-ico="moon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 15 A8.5 8.5 0 1 1 9 4 A7 7 0 0 0 20 15 Z"/></svg></span>
+        <span>明 / 暗</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+<div class="wrap product-desk">
+
+  <header class="lede-bar desk-command product-command">
+    <div class="lede-main">
+      <p class="eyebrow">真实收入案例</p>
+      <div class="product-title-row">
+        <h1>Ditther</h1>
+<span class="verdict v-notable">想要非必需</span>      </div>
+<p class="product-lede">一个浏览器里的创意编辑器，把图片和想法做成带抖动、半调、ASCII 等像素风格的海报、图形和动画，靠订阅或付费使用赚到每月 680 美元。</p>      <div class="meta product-meta">
+        <span class="tag sig">Stripe 支付验证</span>
+      </div>
+    </div>
+    <dl class="product-kv desk-stats">
+      <div><dt>月收入</dt><dd class="num">$680 / 月</dd></div>
+      <div><dt>一手来源</dt><dd><a href="https://trustmrr.com/startup/ditther" target="_blank" rel="noopener">查看原文</a></dd></div>
+    </dl>
+  </header>
+
+  <section class="band desk-band product-story">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">01</p>
+        <h2>真需求判断</h2>
+      </div>
+    </div>
+    <div class="product-story-grid">
+      <article class="product-panel product-panel-call">
+        <span class="field-k">真需求判断</span>
+        <h3>想要非必需</h3>
+        <p>它替代的是用 Photoshop 或代码手动做抖动、半调、ASCII 效果这一繁琐流程，对做复古像素风视觉的设计师和内容创作者有省时价值。但这类工具属于锦上添花，用户可能做完一个项目就走，续费动力弱，所以判为 want 而非 real。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">如何赚钱</span>
+        <p>素材未说明具体定价与收费方式，只知收入来自 Stripe 验证的付费，月入 680 美元。</p>
+      </article>
+      <article class="product-panel">
+        <span class="field-k">它替代了什么旧行为</span>
+        <p>在 Photoshop 或代码里手动制作抖动、半调、ASCII 像素效果的过程。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">02</p>
+        <h2>首批用户来源</h2>
+      </div>
+    </div>
+<p class="product-lead">素材未提及</p>  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">03</p>
+        <h2>可借鉴的打法</h2>
+      </div>
+    </div>
+    <ol class="desk-evidence-list case-playbooks">
+      <li><span class="num">01</span><span>把一类小众视觉风格（抖动、半调、ASCII）做成浏览器里开箱即用的编辑器，降低非专业用户的上手门槛。</span></li>
+      <li><span class="num">02</span><span>用浏览器即开即用、免安装的方式切入，减少用户尝试成本。</span></li>
+    </ol>
+    <div class="product-audiences">
+      <div class="field field-take">
+        <span class="field-k">迁移到 AI 生意</span>
+        <p>对做 AI 生意的操盘手：这套『把一种小众视觉风格封装成浏览器即用工具』的思路可以迁移到 AI 图像或视频生成，把某种特定风格做成预设，让用户一键出图，而不是从零写提示词。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>证据与边界</h2>
+      </div>
+      <span class="note">自报数字未经审计，仅作线索，不应视为事实</span>
+    </div>
+    <div class="decision-grid desk-summary">
+      <div class="field">
+        <span class="field-k">Stripe 支付验证</span>
+        <p>收入口径<span class="decision-sep"> · </span>Stripe 支付验证（TrustMRR）</p>
+      </div>
+      <div class="field">
+        <span class="field-k">尚缺哪些证据</span>
+        <p>素材没有给出定价、订阅还是买断、付费用户数，无法判断收入结构和 churn。<br>没有获客渠道和第一批用户来源，无法判断增长是否可复制。<br>没有留存或复购数据，want 的判断基于产品属性推断，未经数据验证。</p>
+      </div>
+      <div class="field">
+        <span class="field-k">一手来源</span>
+        <p><a href="https://trustmrr.com/startup/ditther" target="_blank" rel="noopener">https://trustmrr.com/startup/ditther ↗</a></p>
+      </div>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<aside class="analytics-consent" id="analytics-consent" hidden aria-label="帮助我们改进 x-octo">
+  <p><strong>帮助我们改进 x-octo</strong> 允许后，我们会用匿名汇总数据了解哪些页面有用、读者从哪里来以及停留多久。</p>
+  <div class="analytics-consent-actions">
+    <button class="linkish" id="analytics-decline" type="button">暂不允许</button>
+    <button class="consent-allow" id="analytics-allow" type="button">允许统计</button>
+  </div>
+</aside>
+
+<button class="totop" id="totop" type="button" aria-label="回到顶部">
+  <svg aria-hidden="true" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v10M3 8l5-5 5 5"/></svg>
+</button>
+
+<div class="wrap">
+  <footer>
+    <span>x-octo · AI 应用的生意判断</span>
+    <span>·</span>
+    <span>1458 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-12</span>
+    <span>·</span>
+    <a href="../reports.html">判断档案</a>
+    <span>·</span>
+    <a href="../methodology.html">方法与口径</a>
+    <span>·</span>
+    <a href="../privacy.html">隐私与统计</a>
+  </footer>
+</div>
+
+<script>
+  // 回到顶部：列表页很长，滚下去之后没有回头的路
+  (function () {
+    var btn = document.getElementById('totop');
+    var ticking = false;
+    function update() {
+      btn.classList.toggle('show', window.scrollY > window.innerHeight);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function () {
+      if (!ticking) { ticking = true; requestAnimationFrame(update); }
+    }, { passive: true });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+
+  // 主题切换：aria-pressed 要在初始就说对当前状态，
+  // 不然读屏用户听到的是"未按下"而实际正在暗色模式
+  (function () {
+    var btn = document.getElementById('theme-btn');
+    var el = document.documentElement;
+    function current() {
+      return el.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    }
+    function sync() { btn.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false'); }
+    sync();
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      el.setAttribute('data-theme', next);
+      localStorage.setItem('xocto-theme', next);
+      sync();
+    });
+    // 没手动选过的时候跟随系统，系统变了状态也要跟着变
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function () {
+      if (!el.getAttribute('data-theme')) sync();
+    });
+  })();
+
+  // 访问统计默认关闭。用户明确同意后才加载第三方脚本，拒绝也会被记住。
+  (function () {
+    var choiceKey = 'xocto-analytics-consent';
+    var measurementId = 'G-T8XFHL174W';
+    var clarityProjectId = 'y1spwygzjf';
+    var banner = document.getElementById('analytics-consent');
+    var choice = localStorage.getItem(choiceKey);
+    var enabled = false;
+
+    window.xoctoTrack = function (name, params) {
+      if (typeof window.gtag === 'function') window.gtag('event', name, params || {});
+    };
+
+    function loadScript(src) {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = src;
+      document.head.appendChild(script);
+    }
+
+    function enable() {
+      if (enabled) return;
+      enabled = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function () { window.dataLayer.push(arguments); };
+      window.gtag('js', new Date());
+      window.gtag('config', measurementId);
+      loadScript('https://www.googletagmanager.com/gtag/js?id=' + measurementId);
+      (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() { (c[a].q = c[a].q || []).push(arguments); };
+        t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+        y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+      })(window, document, 'clarity', 'script', clarityProjectId);
+      bindEvents();
+    }
+
+    function bindEvents() {
+      document.addEventListener('click', function (event) {
+        var product = event.target.closest('a.card, .pick-id, .name a, .card-list a');
+        if (product) {
+          window.xoctoTrack('select_content', { content_type: 'product', item_id: product.getAttribute('href') });
+          return;
+        }
+        var report = event.target.closest('.obs-item, .pick-cta, .report-list a');
+        if (report) window.xoctoTrack('select_content', { content_type: 'daily_observation', item_id: report.getAttribute('href') });
+      });
+    }
+
+    if (choice === 'granted') enable();
+    else if (!choice) banner.hidden = false;
+
+    document.getElementById('analytics-allow').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'granted');
+      banner.hidden = true;
+      enable();
+    });
+    document.getElementById('analytics-decline').addEventListener('click', function () {
+      localStorage.setItem(choiceKey, 'denied');
+      banner.hidden = true;
+    });
+  })();
+</script>
+
+</body>
+</html>

@@ -83,15 +83,15 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-07</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-12</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">把短剧题材编成能连载的故事骨架，十集人物不崩，每集留下钩子</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">短剧编剧或AI短剧创作者在Codex/Claude Code里处理一个多集短剧题材，需要产出可连载的故事骨架、分集钩子和跨集一致的人物与镜头时间线，使十集剧本人物不崩、每集留钩子。</p>
+        <p>当前替代是直接用通用大模型逐集对话生成，靠人工维护设定文档和复制粘贴前文来维持连续性，或使用通用剧本/分镜工具手工编排。</p>
+        <p>多集短剧靠单次生成时，人物设定、伏笔和镜头描述会在后续集数漂移，作者要反复回贴前文、手工校对连续性，且生成中断后难以续跑，返工成本随集数累积。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
@@ -101,7 +101,7 @@
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>公开代码仓库有 56 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p>推断：相较逐集对话加人工维护设定，它把故事骨架、连续性校验和可续跑工作流固化进Codex/Claude Code，减少每集重新粘贴前文和手工核对人物一致性的步骤，因此需要批量产出连载短剧、且已在用这两个编码代理的创作者会在多集项目中选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -113,7 +113,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。公开代码仓库有 56 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p><strong>值得试用</strong>。推断：相较逐集对话加人工维护设定，它把故事骨架、连续性校验和可续跑工作流固化进Codex/Claude Code，减少每集重新粘贴前文和手工核对人物一致性的步骤，因此需要批量产出连载短剧、且已在用这两个编码代理的创作者会在多集项目中选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -128,38 +128,47 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>把短剧题材编成能连载的故事骨架，十集人物不崩，每集留下钩子</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开代码仓库有 56 个收藏、12 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决多集短剧连载中人物设定与伏笔跨集漂移、生成中断难续跑的问题，痛点随集数累积且返工刚性；公开说明已给出输入（题材）、动作（故事骨架、连续性校验、可续跑工作流）与交付（分集钩子与镜头时间线），据此可作工作流结构推理判定需求成立，但尚无用户口述或案例佐证强度。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较逐集对话加人工维护设定，它把故事骨架、连续性校验和可续跑工作流固化进Codex/Claude Code，减少每集重新粘贴前文和手工核对人物一致性的步骤，因此需要批量产出连载短剧、且已在用这两个编码代理的创作者会在多集项目中选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该公开代码仓库仓库的issue与discussion，确认是否有创作者报告在多集短剧项目中实际使用连续性校验与可续跑工作流，以及中断续跑是否按承诺交付。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“把短剧题材编成能连载的故事骨架，十集人物不崩，每集留下钩子”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决多集短剧连载中人物设定与伏笔跨集漂移、生成中断难续跑的问题，痛点随集数累积且返工刚性；公开说明已给出输入（题材）、动作（故事骨架、连续性校验、可续跑工作流）与交付（分集钩子与镜头时间线），据此可作工作流结构推理判定需求成立，但尚无用户口述或案例佐证强度。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/Hao0321/ai-short-drama" target="_blank" rel="noopener">ai-short-drama · 2026-08-09 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>公开仓库有56个收藏，说明开发者已注意到该项目，但收藏属关注度而非持续采用；缺少issue、discussion或用户反馈说明谁在真实多集项目中反复使用，无法判断共识卡在感知还是场景。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/Hao0321/ai-short-drama" target="_blank" rel="noopener">ai-short-drama · 2026-08-09 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>公开材料未披露定价、付费主体或单位经济，无法判断钱来自个人创作者、短剧工作室还是平台；这是商业证据缺口，不反推问题不存在，属判断而非已验证事实。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>连续性校验与可续跑工作流的实际交付稳定性、生成失败时的人工边界与安全约束，均无公开可复现证据；仓库说明只描述能力，未证明承诺能确定性兑现。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/Hao0321/ai-short-drama" target="_blank" rel="noopener">ai-short-drama · 2026-08-09 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -345,7 +354,7 @@ AI 还不能碰。</p>
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%88%9B%E4%BD%9C">
-        AI + 创作 共 137 个 →
+        AI + 创作 共 143 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -437,8 +446,8 @@ AI 还不能碰。</p>
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1409 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-11</span>
+    <span>1458 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-12</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

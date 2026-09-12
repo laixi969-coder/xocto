@@ -82,37 +82,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-08</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-12</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">开发者、AI 工程师</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">开发者在同时运行 3 个及以上 AI agent 处理同一代码库任务时，需要把规划、实现、复核、验收分派给不同 agent，并处理它们各自产出的代码与文档，最终交付一份经过独立复核、人工确认验收的改动。</p>
+        <p>当前替代方式是开发者手工编排多个 agent 会话、口头约定谁写哪个文件、自己充当复核者，或干脆退回单 agent 串行执行。</p>
+        <p>多 agent 并行时没有角色与写入边界，容易出现多个 agent 同时改同一文件造成冲突、无人独立复核、上下文重复传递推高 token 与 API 成本，最终产出无法确认是否可信。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>多 agent 协作正从实验走向工程化，角色分配与冲突避免成为刚需。可从需要严格代码审查的团队切入，按任务或席位收费，但需验证实际采用。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>公开代码仓库有 54 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p>推断：相较手工编排，它自动识别各 agent 的工具与专长并分配协调者/实现者/验证者角色，用单一主写入者机制消除文件冲突，并把重要任务固定为“规划→实现→独立复核→最终验收”，从而省去人工分派与冲突排查这一步，并让复核成为流程内动作；因此正在用多 agent 并行开发的团队会在需要可信交付时选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p>
+        <p>追踪该 公开代码仓库 仓库的 issue、discussion 与 README/部署文档，确认是否有真实多 agent 项目记录其角色分派、冲突消除与复核流程的实际使用结果。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。公开代码仓库有 54 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p><strong>值得试用</strong>。推断：相较手工编排，它自动识别各 agent 的工具与专长并分配协调者/实现者/验证者角色，用单一主写入者机制消除文件冲突，并把重要任务固定为“规划→实现→独立复核→最终验收”，从而省去人工分派与冲突排查这一步，并让复核成为流程内动作；因此正在用多 agent 并行开发的团队会在需要可信交付时选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -123,38 +123,44 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>agent-orchestra 是一个可移植的多 agent 协作 skill，面向需要同时运行 3 个及以上 AI agent 的开发者。它自动识别各 agent 的工具、权限和专长，分配协调者、实现者、验证者等角色，并通过单一主写入者机制避免文件冲突。对重要任务执行“规划 → 实现 → 独立复核 → 最终验收”流程，最终交付经过复核的代码或文档，人工仍需确认验收结果。</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开代码仓库有 54 个收藏，说明开发者正在关注或试用；持续使用与付费仍未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：追踪项目文档、issue 和 discussion，确认谁在何种强场景部署、替代了什么旧流程。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决多 agent 并行开发中的角色分派、文件写入冲突与缺少独立复核问题，痛点刚性来自冲突和不可信产出会直接毁掉交付；公开仓库说明已还原输入、动作与交付闭环，属工作流结构推理，尚无用户口述痛点证据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：相较手工编排，它自动识别各 agent 的工具与专长并分配协调者/实现者/验证者角色，用单一主写入者机制消除文件冲突，并把重要任务固定为“规划→实现→独立复核→最终验收”，从而省去人工分派与冲突排查这一步，并让复核成为流程内动作；因此正在用多 agent 并行开发的团队会在需要可信交付时选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪该 公开代码仓库 仓库的 issue、discussion 与 README/部署文档，确认是否有真实多 agent 项目记录其角色分派、冲突消除与复核流程的实际使用结果。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“agent-orchestra 是一个可移植的多 agent 协作 skill，面向需要同时运行 3 个及以上 AI agent 的开发者”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决多 agent 并行开发中的角色分派、文件写入冲突与缺少独立复核问题，痛点刚性来自冲突和不可信产出会直接毁掉交付；公开仓库说明已还原输入、动作与交付闭环，属工作流结构推理，尚无用户口述痛点证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/3338902669-ops/agent-orchestra" target="_blank" rel="noopener">agent-orchestra · 2026-08-20 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>已有采用或关注仍应记录，但不能替代痛点证据；公开代码仓库记录为 54 个收藏；这说明社区注意到它，但不足以证明目标用户会持续使用或付费。</p>
+          <p>仓库收藏从 42 增至 72，说明开发者持续关注，但收藏与增长只属关注度证据，不能证明目标用户已把它留在日常工作流；缺少 issue、discussion 或客户案例说明谁在何种场景持续使用。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/3338902669-ops/agent-orchestra" target="_blank" rel="noopener">agent-orchestra · 2026-08-20 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。</p>
+          <p>公开材料未给出定价页、付费主体或采购路径，无法判断钱来自 to C 开发者、to B 团队还是 to VC；这是判断而非已验证事实，不反推需求不存在。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。</p>
+          <p>单一主写入者与独立复核能否在真实多 agent 环境中稳定交付、人工验收边界如何划分，尚缺可复现的部署文档或实测记录；承诺的 token 与 API 成本下降也未被量化验证。</p>
         </article>
       </div>
     </details>
@@ -248,7 +254,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 417 个 →
+        AI + 开发 共 431 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -295,9 +301,9 @@
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/mcp-stama.html">
+      <a class="pager-item pager-prev" href="../p/refund-anything-ai-prompt.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">MCP-stama</span>
+        <span class="pager-n">refund-anything-ai-prompt</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/coderabbit.html">
@@ -340,8 +346,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1409 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-11</span>
+    <span>1458 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-12</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>Reference · x-octo</title>
-<meta name="description" content="写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。">
+<meta name="description" content="开发者在给 AI agent 接检索时，常要把资料传到外部服务；Reference 的定位是让 agent 在本地做语义搜索。它具体接收什么材料、返回什么结果、是否需要人工确认，公开材料只有一句定位描述，具体流程或交付仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/reference.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/reference.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/reference.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/reference.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="Reference · x-octo">
-<meta property="og:description" content="写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。">
+<meta property="og:description" content="开发者在给 AI agent 接检索时，常要把资料传到外部服务；Reference 的定位是让 agent 在本地做语义搜索。它具体接收什么材料、返回什么结果、是否需要人工确认，公开材料只有一句定位描述，具体流程或交付仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/reference.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/reference.html#webpage", "@type": "WebPage", "description": "\u5199\u4ee3\u7801\u7684\u52a9\u624b\u5728\u672c\u673a\u641c\u7d22\u9879\u76ee\uff0c\u4e00\u6b21\u627e\u5230\u8981\u6539\u7684\u90a3\u4e00\u6bb5\uff0c\u6587\u4ef6\u4e0d\u4e0a\u4f20\u3001\u4e0d\u9760\u53cd\u590d\u778e\u731c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Reference", "url": "https://xocto.vercel.app/p/reference.html"}, {"@id": "https://xocto.vercel.app/p/reference.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-08-11", "datePublished": "2026-08-05", "description": "\u5199\u4ee3\u7801\u7684\u52a9\u624b\u5728\u672c\u673a\u641c\u7d22\u9879\u76ee\uff0c\u4e00\u6b21\u627e\u5230\u8981\u6539\u7684\u90a3\u4e00\u6bb5\uff0c\u6587\u4ef6\u4e0d\u4e0a\u4f20\u3001\u4e0d\u9760\u53cd\u590d\u778e\u731c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/reference.html#webpage"}, "name": "Reference", "url": "https://xocto.vercel.app/p/reference.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/reference.html", "name": "Reference", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/reference.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u7ed9 AI agent \u63a5\u68c0\u7d22\u65f6\uff0c\u5e38\u8981\u628a\u8d44\u6599\u4f20\u5230\u5916\u90e8\u670d\u52a1\uff1bReference \u7684\u5b9a\u4f4d\u662f\u8ba9 agent \u5728\u672c\u5730\u505a\u8bed\u4e49\u641c\u7d22\u3002\u5b83\u5177\u4f53\u63a5\u6536\u4ec0\u4e48\u6750\u6599\u3001\u8fd4\u56de\u4ec0\u4e48\u7ed3\u679c\u3001\u662f\u5426\u9700\u8981\u4eba\u5de5\u786e\u8ba4\uff0c\u516c\u5f00\u6750\u6599\u53ea\u6709\u4e00\u53e5\u5b9a\u4f4d\u63cf\u8ff0\uff0c\u5177\u4f53\u6d41\u7a0b\u6216\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "Reference", "url": "https://xocto.vercel.app/p/reference.html"}, {"@id": "https://xocto.vercel.app/p/reference.html#software", "@type": "SoftwareApplication", "applicationCategory": "\u57fa\u7840\u5c42", "dateModified": "2026-09-12", "datePublished": "2026-08-05", "description": "\u5f00\u53d1\u8005\u5728\u7ed9 AI agent \u63a5\u68c0\u7d22\u65f6\uff0c\u5e38\u8981\u628a\u8d44\u6599\u4f20\u5230\u5916\u90e8\u670d\u52a1\uff1bReference \u7684\u5b9a\u4f4d\u662f\u8ba9 agent \u5728\u672c\u5730\u505a\u8bed\u4e49\u641c\u7d22\u3002\u5b83\u5177\u4f53\u63a5\u6536\u4ec0\u4e48\u6750\u6599\u3001\u8fd4\u56de\u4ec0\u4e48\u7ed3\u679c\u3001\u662f\u5426\u9700\u8981\u4eba\u5de5\u786e\u8ba4\uff0c\u516c\u5f00\u6750\u6599\u53ea\u6709\u4e00\u53e5\u5b9a\u4f4d\u63cf\u8ff0\uff0c\u5177\u4f53\u6d41\u7a0b\u6216\u4ea4\u4ed8\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/reference.html#webpage"}, "name": "Reference", "url": "https://xocto.vercel.app/p/reference.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/reference.html", "name": "Reference", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -65,15 +65,15 @@
         <h1>Reference</h1>
         <span class="verdict v-notable">持续观察</span>
       </div>
-      <p class="product-lede">写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。</p>
+      <p class="product-lede">开发者在给 AI agent 接检索时，常要把资料传到外部服务；Reference 的定位是让 agent 在本地做语义搜索。它具体接收什么材料、返回什么结果、是否需要人工确认，公开材料只有一句定位描述，具体流程或交付仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">基础层</span>      </div>
+<span class="tag">新应用 / 服务</span><span class="tag">基础层</span><span class="tag">软件与信息服务</span><span class="tag">无障碍服务</span><span class="tag">开发者在为 AI agent 接入本地资料检索时，需要让 agent 在不上传数据的前提下找到相关片段</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>Rahul Thennarasu</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-05</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-08-11</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-12</dd></div>
     </dl>
   </header>
 
@@ -82,25 +82,25 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 工作流推理 · 2026-08-28</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-12</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">开发者在为 AI agent 接入本地资料检索时，需要让 agent 在不上传数据的前提下找到相关片段。</p>
+        <p>开发者自行搭建向量库与检索管线，或把资料交给外部检索服务。</p>
+        <p>公开材料只有一句“面向 AI agent 的本地语义搜索”定位，没有说明开发者原本卡在哪一步、不解决会有什么后果，也没有任何用户抱怨或 workaround 记录。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
         <h3>这是一个方向正确的&#34;外部记忆层&#34;。</h3>
-        <p>助手找代码靠反复搜索，又贵又慢。趋势是检索从推理里拆出去，变成本地一次查询；切入是每天用编程助手的工程师。上线期免费，后续收费未披露。</p>
+        <p>趋势是 agent 的检索层开始强调本地化与数据不出域。切入可考虑面向处理敏感材料的团队，例如律所、诊所或财务部门，把本地语义检索做成随 agent 一起交付的检索组件，而不是再做一个通用向量库。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>它承诺用更直接的方式完成这项任务：写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。；具体采用动机与持续使用情况尚未核验。</p>
+        <p>推断：若它能让 agent 在本地完成语义检索，处理敏感材料的团队就不必把文档外传；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
@@ -112,7 +112,7 @@
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>继续观察</strong>。它承诺用更直接的方式完成这项任务：写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。；具体采用动机与持续使用情况尚未核验。</p>
+        <p><strong>值得拆解</strong>。推断：若它能让 agent 在本地完成语义检索，处理敏感材料的团队就不必把文档外传；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -127,38 +127,38 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。</p></div>
-        <div><span class="field-k">工作流推理</span><p>它承诺用更直接的方式完成这项任务：写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜。；具体采用动机与持续使用情况尚未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
+        <div><span class="field-k">公开事实</span><p>开发者在给 AI agent 接检索时，常要把资料传到外部服务；Reference 的定位是让 agent 在本地做语义搜索。它具体接收什么材料、返回什么结果、是否需要人工确认，公开材料只有一句定位描述，具体流程或交付仍待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若它能让 agent 在本地完成语义检索，处理敏感材料的团队就不必把文档外传；但公开材料没有给出任何采用、留存或客户证据，无法确认这一选择是否真的发生。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>收集 Reference 的官方产品页或仓库 README，确认它接收的数据类型、部署方式与返回结果形态。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>存在反证</strong>
           </div>
-          <p>产品主张帮助用户完成：“写代码的助手在本机搜索项目，一次找到要改的那一段，文件不上传、不靠反复瞎猜”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>产品主张帮助用户完成：“开发者在给 AI agent 接检索时，常要把资料传到外部服务；Reference 的定位是让 agent 在本地做语义搜索”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>已有采用或关注仍应记录，但不能替代痛点证据；未见持续使用、部署、复购或公开用户反馈，不能据此判断是否形成共识。</p>
+          <p>价值闸门未通过，共识闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>付费主体、定价与单位经济尚未核验；这是商业证据缺口，不反推问题不存在。</p>
+          <p>价值闸门未通过，模式闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>交付能否稳定发生、以及人工与安全边界，尚缺可复现的公开证据。</p>
+          <p>价值闸门未通过，求真闸门未进入。</p>
         </article>
       </div>
     </details>
@@ -172,7 +172,18 @@
         <p class="note">市场对照</p>
       </div>
     </div>
-    <p class="noanalysis-sub">尚未完成中英文市场对照。待覆盖范围和可核验证据补齐后再给出结论。</p>
+    <div class="product-markets">
+      <div class="field">
+        <span class="field-k">英文生态 · English-language market</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-12。未发现仅限该覆盖范围。 · 2026-09-12</p>
+      </div>
+      <div class="field">
+        <span class="field-k">中文生态 · CN</span>
+        <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-12。未发现仅限该覆盖范围。 · 2026-09-12</p>
+      </div>
+    </div>
   </section>
 
   <section class="band desk-band">
@@ -272,6 +283,47 @@ agent 在推理过程中自己调用。对做 agent 周边工具的人来说，
   </section>
 
 
+  <section class="band desk-band">
+    <div class="sec-head desk-sec">
+      <div>
+        <p class="section-index">04</p>
+        <h2>可核验公开证据</h2>
+        <p class="note">证据链</p>
+      </div>
+    </div>
+    <ul class="rows desk-list">
+      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">openai.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">deepai.org</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.scribbr.com/citation/generator/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">scribbr.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.merriam-webster.com/dictionary/reference" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">merriam-webster.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.mybib.com/tools/harvard-referencing-generator" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">mybib.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://machinelearning.apple.com/research/discosign-gloss-translation" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">machinelearning.apple.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-11</span>
+      </div></a></li>
+    </ul>
+  </section>
 
   <section class="band desk-band">
     <div class="sec-head desk-sec">
@@ -309,7 +361,7 @@ agent 在推理过程中自己调用。对做 agent 周边工具的人来说，
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=%E5%9F%BA%E7%A1%80%E5%B1%82">
-        基础层 共 157 个 →
+        基础层 共 165 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -356,9 +408,9 @@ agent 在推理过程中自己调用。对做 agent 周边工具的人来说，
     </ul>
 
     <div class="pager">
-      <a class="pager-item pager-prev" href="../p/ramp.html">
+      <a class="pager-item pager-prev" href="../p/raycast-20.html">
         <span class="pager-k">上一个</span>
-        <span class="pager-n">Ramp</span>
+        <span class="pager-n">Raycast 2.0</span>
       </a>
 
       <a class="pager-item pager-next" href="../p/referent.html">
@@ -401,8 +453,8 @@ agent 在推理过程中自己调用。对做 agent 周边工具的人来说，
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1409 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-11</span>
+    <span>1458 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-12</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

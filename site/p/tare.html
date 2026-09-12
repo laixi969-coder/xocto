@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f3f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0f1520" media="(prefers-color-scheme: dark)">
 <title>tare · x-octo</title>
-<meta name="description" content="使用 Claude 等 AI 编程工具的开发者，在额度异常快速耗尽时打开它；工具读取使用日志或额度消耗数据，定位主要消耗环节并输出诊断报告，具体分析深度与交付形式仍待核验。">
+<meta name="description" content="开发者在调用大模型 API 时额度被快速耗尽，会打开 tare 查看是哪些请求、哪段代码在消耗额度；它接收调用记录并归因到具体来源，最终给出额度消耗的分布结果，具体采集方式与交付形态仍待核验。">
 <link rel="canonical" href="https://xocto.vercel.app/p/tare.html"><link rel="alternate" hreflang="zh-Hans" href="https://xocto.vercel.app/p/tare.html">
 <link rel="alternate" hreflang="en" href="https://xocto.vercel.app/en/p/tare.html">
 <link rel="alternate" hreflang="x-default" href="https://xocto.vercel.app/p/tare.html">
@@ -14,13 +14,13 @@
 <meta property="og:site_name" content="x-octo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:title" content="tare · x-octo">
-<meta property="og:description" content="使用 Claude 等 AI 编程工具的开发者，在额度异常快速耗尽时打开它；工具读取使用日志或额度消耗数据，定位主要消耗环节并输出诊断报告，具体分析深度与交付形式仍待核验。">
+<meta property="og:description" content="开发者在调用大模型 API 时额度被快速耗尽，会打开 tare 查看是哪些请求、哪段代码在消耗额度；它接收调用记录并归因到具体来源，最终给出额度消耗的分布结果，具体采集方式与交付形态仍待核验。">
 <meta property="og:url" content="https://xocto.vercel.app/p/tare.html"><meta property="og:image" content="https://xocto.vercel.app/logo/logo-on-light.png">
 <meta property="og:image:alt" content="x-octo · AI 应用的生意判断">
 <meta name="twitter:card" content="summary">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" type="image/png" href="../logo/mark-on-light.png">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/tare.html#webpage", "@type": "WebPage", "description": "\u4f7f\u7528 Claude \u7b49 AI \u7f16\u7a0b\u5de5\u5177\u7684\u5f00\u53d1\u8005\uff0c\u5728\u989d\u5ea6\u5f02\u5e38\u5feb\u901f\u8017\u5c3d\u65f6\u6253\u5f00\u5b83\uff1b\u5de5\u5177\u8bfb\u53d6\u4f7f\u7528\u65e5\u5fd7\u6216\u989d\u5ea6\u6d88\u8017\u6570\u636e\uff0c\u5b9a\u4f4d\u4e3b\u8981\u6d88\u8017\u73af\u8282\u5e76\u8f93\u51fa\u8bca\u65ad\u62a5\u544a\uff0c\u5177\u4f53\u5206\u6790\u6df1\u5ea6\u4e0e\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "tare", "url": "https://xocto.vercel.app/p/tare.html"}, {"@id": "https://xocto.vercel.app/p/tare.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-10", "datePublished": "2026-08-28", "description": "\u4f7f\u7528 Claude \u7b49 AI \u7f16\u7a0b\u5de5\u5177\u7684\u5f00\u53d1\u8005\uff0c\u5728\u989d\u5ea6\u5f02\u5e38\u5feb\u901f\u8017\u5c3d\u65f6\u6253\u5f00\u5b83\uff1b\u5de5\u5177\u8bfb\u53d6\u4f7f\u7528\u65e5\u5fd7\u6216\u989d\u5ea6\u6d88\u8017\u6570\u636e\uff0c\u5b9a\u4f4d\u4e3b\u8981\u6d88\u8017\u73af\u8282\u5e76\u8f93\u51fa\u8bca\u65ad\u62a5\u544a\uff0c\u5177\u4f53\u5206\u6790\u6df1\u5ea6\u4e0e\u4ea4\u4ed8\u5f62\u5f0f\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/tare.html#webpage"}, "name": "tare", "sameAs": "https://github.com/kelviq/tare", "url": "https://xocto.vercel.app/p/tare.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/tare.html", "name": "tare", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://xocto.vercel.app/p/tare.html#webpage", "@type": "WebPage", "description": "\u5f00\u53d1\u8005\u5728\u8c03\u7528\u5927\u6a21\u578b API \u65f6\u989d\u5ea6\u88ab\u5feb\u901f\u8017\u5c3d\uff0c\u4f1a\u6253\u5f00 tare \u67e5\u770b\u662f\u54ea\u4e9b\u8bf7\u6c42\u3001\u54ea\u6bb5\u4ee3\u7801\u5728\u6d88\u8017\u989d\u5ea6\uff1b\u5b83\u63a5\u6536\u8c03\u7528\u8bb0\u5f55\u5e76\u5f52\u56e0\u5230\u5177\u4f53\u6765\u6e90\uff0c\u6700\u7ec8\u7ed9\u51fa\u989d\u5ea6\u6d88\u8017\u7684\u5206\u5e03\u7ed3\u679c\uff0c\u5177\u4f53\u91c7\u96c6\u65b9\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "isPartOf": {"@id": "https://xocto.vercel.app/#website"}, "name": "tare", "url": "https://xocto.vercel.app/p/tare.html"}, {"@id": "https://xocto.vercel.app/p/tare.html#software", "@type": "SoftwareApplication", "applicationCategory": "AI + \u5f00\u53d1", "dateModified": "2026-09-12", "datePublished": "2026-08-28", "description": "\u5f00\u53d1\u8005\u5728\u8c03\u7528\u5927\u6a21\u578b API \u65f6\u989d\u5ea6\u88ab\u5feb\u901f\u8017\u5c3d\uff0c\u4f1a\u6253\u5f00 tare \u67e5\u770b\u662f\u54ea\u4e9b\u8bf7\u6c42\u3001\u54ea\u6bb5\u4ee3\u7801\u5728\u6d88\u8017\u989d\u5ea6\uff1b\u5b83\u63a5\u6536\u8c03\u7528\u8bb0\u5f55\u5e76\u5f52\u56e0\u5230\u5177\u4f53\u6765\u6e90\uff0c\u6700\u7ec8\u7ed9\u51fa\u989d\u5ea6\u6d88\u8017\u7684\u5206\u5e03\u7ed3\u679c\uff0c\u5177\u4f53\u91c7\u96c6\u65b9\u5f0f\u4e0e\u4ea4\u4ed8\u5f62\u6001\u4ecd\u5f85\u6838\u9a8c\u3002", "inLanguage": "zh-CN", "mainEntityOfPage": {"@id": "https://xocto.vercel.app/p/tare.html#webpage"}, "name": "tare", "sameAs": "https://github.com/kelviq/tare", "url": "https://xocto.vercel.app/p/tare.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://xocto.vercel.app/", "name": "\u4eca\u65e5\u673a\u4f1a", "position": 1}, {"@type": "ListItem", "item": "https://xocto.vercel.app/products.html", "name": "\u673a\u4f1a\u5e93", "position": 2}, {"@type": "ListItem", "item": "https://xocto.vercel.app/p/tare.html", "name": "tare", "position": 3}]}]}</script><link rel="stylesheet" href="../style.css?v=d0b072b14054">
 <script>
   (function () {
     var saved = localStorage.getItem('xocto-theme');
@@ -64,15 +64,15 @@
       <div class="product-title-row">
         <h1>tare</h1>
       </div>
-      <p class="product-lede">使用 Claude 等 AI 编程工具的开发者，在额度异常快速耗尽时打开它；工具读取使用日志或额度消耗数据，定位主要消耗环节并输出诊断报告，具体分析深度与交付形式仍待核验。</p>
+      <p class="product-lede">开发者在调用大模型 API 时额度被快速耗尽，会打开 tare 查看是哪些请求、哪段代码在消耗额度；它接收调用记录并归因到具体来源，最终给出额度消耗的分布结果，具体采集方式与交付形态仍待核验。</p>
       <div class="meta product-meta">
 <span class="tag sig">还不是生意</span>        <span class="tag">早期</span>
-<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">软件开发工程师</span><span class="tag sig">社区热度 86</span>      </div>
+<span class="tag">开源项目</span><span class="tag">AI + 开发</span><span class="tag">软件开发</span><span class="tag">信息技术服务</span><span class="tag">AI 应用开发者</span><span class="tag">研发效能工程师</span><span class="tag sig">社区热度 86</span>      </div>
     </div>
     <dl class="product-kv desk-stats">
       <div><dt>团队 / 作者</dt><dd>sachinneravath</dd></div>
       <div><dt>本站首次收录</dt><dd class="num">2026-08-28</dd></div>
-      <div><dt>本站最近更新</dt><dd class="num">2026-09-10</dd></div>
+      <div><dt>本站最近更新</dt><dd class="num">2026-09-12</dd></div>
       <div><dt>产品官网</dt><dd><a href="https://github.com/kelviq/tare" target="_blank" rel="noopener">查看官网 ↗</a></dd></div>
     </dl>
   </header>
@@ -82,79 +82,79 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-01</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 商业验证 · 2026-09-12</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">分析 AI 编程工具（如 Claude）配额快速耗尽的原因。</p>
-        <p>开发者可能手动查看日志或凭经验猜测，缺乏系统分析。</p>
-        <p>配额耗尽导致工作中断，但缺乏工具诊断消耗原因。</p>
+        <p class="product-lead">AI 应用开发者在月度 LLM API 额度被提前耗尽、需要排查时，处理 API 调用记录与用量数据，要定位是哪些请求或代码路径消耗了额度。</p>
+        <p>公开材料未提供任何关于开发者当前如何排查额度消耗的替代做法信息，无法确认旧流程是翻账单、自建日志脚本还是其他方式。</p>
+        <p>公开材料中没有任何用户抱怨、issue、评价或案例支持“额度快速耗尽且无法归因”这一痛点；现有证据只有词典对 tare 一词的定义和泛泛的 AI 市场页面，无法确认该痛点真实存在及其强度。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>需求有依据</h3>
-        <p>AI 编程额度正成为开发者按月支付的硬成本，用量可观测与成本归因会从个人小工具长成团队采购项；可从依赖 AI 编程的中小开发团队切入，卖团队级用量诊断与预算告警，不与模型厂商拼能力。</p>
+        <h3>解决问题，但需求刚性不足</h3>
+        <p>趋势是模型额度正变成团队要核算的运营成本，而不是随手可用的免费资源。切入可以从按项目或按团队做额度归因与预算告警入手，卖给自建 AI 功能的研发团队；公开材料未披露定价，是否按席位收费尚不清楚。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>社区讨论热烈，86 分 62 评论，显示开发者对此痛点有共鸣，开源工具免费可用。</p>
+        <p>推断：若产品真能把调用记录归因到具体来源，可省去人工逐条比对日志这一步；但缺少任何用户反馈或案例，无法确认哪类用户会在什么情况下选择它。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>关注开源仓库的 star 增长、issue 讨论，以及是否有付费版本或企业采用。</p>
+        <p>追踪 tare 的官方仓库 README 与 issue/discussion，核对它支持的模型供应商、额度归因方式及是否有真实用户使用反馈。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得试用</strong>。社区讨论热烈，86 分 62 评论，显示开发者对此痛点有共鸣，开源工具免费可用。</p>
+        <p><strong>仅作线索</strong>。推断：若产品真能把调用记录归因到具体来源，可省去人工逐条比对日志这一步；但缺少任何用户反馈或案例，无法确认哪类用户会在什么情况下选择它。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
-        <p>AI 编程额度正成为开发者按月支付的硬成本，用量可观测与成本归因会从个人小工具长成团队采购项；可从依赖 AI 编程的中小开发团队切入，卖团队级用量诊断与预算告警，不与模型厂商拼能力。</p>
+        <p>趋势是模型额度正变成团队要核算的运营成本，而不是随手可用的免费资源。切入可以从按项目或按团队做额度归因与预算告警入手，卖给自建 AI 功能的研发团队；公开材料未披露定价，是否按席位收费尚不清楚。</p>
       </div>
     </div>
 
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>它解决开发者 AI 配额消耗诊断的具体痛点，交付是诊断报告，可核对。工作流结构判断。</p></div>
-        <div><span class="field-k">工作流推理</span><p>社区讨论热烈，86 分 62 评论，显示开发者对此痛点有共鸣，开源工具免费可用。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>关注开源仓库的 star 增长、issue 讨论，以及是否有付费版本或企业采用。</p></div>
+        <div><span class="field-k">公开事实</span><p>开发者在调用大模型 API 时额度被快速耗尽，会打开 tare 查看是哪些请求、哪段代码在消耗额度；它接收调用记录并归因到具体来源，最终给出额度消耗的分布结果，具体采集方式与交付形态仍待核验。</p></div>
+        <div><span class="field-k">工作流推理</span><p>推断：若产品真能把调用记录归因到具体来源，可省去人工逐条比对日志这一步；但缺少任何用户反馈或案例，无法确认哪类用户会在什么情况下选择它。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 tare 的官方仓库 README 与 issue/discussion，核对它支持的模型供应商、额度归因方式及是否有真实用户使用反馈。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>已有支持</strong>
+            <strong>存在反证</strong>
           </div>
-          <p>它解决开发者 AI 配额消耗诊断的具体痛点，交付是诊断报告，可核对。工作流结构判断。</p>
+          <p>产品主张帮助用户完成：“开发者在调用大模型 API 时额度被快速耗尽，会打开 tare 查看是哪些请求、哪段代码在消耗额度；它接收调用记录并归因到具体来源，最终给出额度消耗的分布结果，具体采集方式与交付形态仍待核验”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>社区讨论热烈，86 分 62 评论，说明开发者关注度高。</p>
+          <p>价值闸门未通过，共识闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>未披露商业模式，开源项目，付费路径不明。</p>
+          <p>价值闸门未通过，模式闸门未进入。</p>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
-            <strong>已有支持</strong>
+            <strong>证据不足</strong>
           </div>
-          <p>贴近开发者优化 AI 使用的第一性目标，交付可确定，安全边界清晰。</p>
+          <p>价值闸门未通过，求真闸门未进入。</p>
         </article>
       </div>
     </details>
@@ -172,12 +172,12 @@
       <div class="field">
         <span class="field-k">英文生态 · English-language market</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-02。未发现仅限该覆盖范围。 · 2026-09-02</p>
+        <p class="note">英文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-12。未发现仅限该覆盖范围。 · 2026-09-12</p>
       </div>
       <div class="field">
         <span class="field-k">中文生态 · CN</span>
         <p>本地供给：在已覆盖来源中未发现<br>需求证据：尚未核验</p>
-        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-02。未发现仅限该覆盖范围。 · 2026-09-02</p>
+        <p class="note">中文生态相关行业与具体工作的公开资料覆盖；检索日期 2026-09-12。未发现仅限该覆盖范围。 · 2026-09-12</p>
       </div>
     </div>
   </section>
@@ -204,23 +204,68 @@
       </div>
     </div>
     <ul class="rows desk-list">
-      <li><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDY3U1hVblozS0s4b1VGU3BpekVLVVphTE5abXRHb0JmbzNVZGdjS3p5VVJsT05ITjFud19mRmVaUWFkR0lqLWJES1pmU3BSVUdOaHNsYkpuWTFqOFZDYzNkaGxKeWJncnlpcFNxUHduaFE2dDlYMm9BR1FNaW5QWVpYc19nbnJRMVRraF9oSFh3NzlKVUQtREtJT29wSUdaLWczcjVIR3ZkZ0F3YV9R?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">news.google.com</span>
-        <span class="row-desc">客户案例</span>
-        <span class="row-tail">2026-09-09</span>
+      <li><a href="https://openai.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">openai.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://ai.google/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">ai.google</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://chatgpt.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">chatgpt.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://en.m.wikipedia.org/wiki/Artificial_intelligence" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.m.wikipedia.org</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://gemini.google.com/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">gemini.google.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://deepai.org/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">deepai.org</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://www.top10.com/best-lists/best-ai-apps" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">top10.com</span>
+        <span class="row-desc">市场对照</span>
+        <span class="row-tail"></span>
       </div></a></li>
       <li><a href="https://www.merriam-webster.com/dictionary/tare" target="_blank" rel="noopener"><div class="row-head desk-row">
         <span class="row-name">merriam-webster.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://www.facebook.com/tarebulkfoods/" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">facebook.com</span>
+      <li><a href="https://en.m.wikipedia.org/wiki/Tare_weight" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">en.m.wikipedia.org</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
-      <li><a href="https://en.m.wikipedia.org/wiki/Tare_weight" target="_blank" rel="noopener"><div class="row-head desk-row">
-        <span class="row-name">en.m.wikipedia.org</span>
+      <li><a href="https://grammarhow.com/tear-or-tare/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">grammarhow.com</span>
+        <span class="row-desc">用户痛点</span>
+        <span class="row-tail"></span>
+      </div></a></li>
+      <li><a href="https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">公开资料.com</span>
+        <span class="row-desc">market_signal</span>
+        <span class="row-tail">2026-09-12</span>
+      </div></a></li>
+      <li><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDY3U1hVblozS0s4b1VGU3BpekVLVVphTE5abXRHb0JmbzNVZGdjS3p5VVJsT05ITjFud19mRmVaUWFkR0lqLWJES1pmU3BSVUdOaHNsYkpuWTFqOFZDYzNkaGxKeWJncnlpcFNxUHduaFE2dDlYMm9BR1FNaW5QWVpYc19nbnJRMVRraF9oSFh3NzlKVUQtREtJT29wSUdaLWczcjVIR3ZkZ0F3YV9R?oc=5" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">news.google.com</span>
+        <span class="row-desc">客户案例</span>
+        <span class="row-tail">2026-09-09</span>
+      </div></a></li>
+      <li><a href="https://www.facebook.com/tarebulkfoods/" target="_blank" rel="noopener"><div class="row-head desk-row">
+        <span class="row-name">facebook.com</span>
         <span class="row-desc">用户痛点</span>
         <span class="row-tail"></span>
       </div></a></li>
@@ -303,7 +348,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E5%BC%80%E5%8F%91">
-        AI + 开发 共 417 个 →
+        AI + 开发 共 431 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -395,8 +440,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1409 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-11</span>
+    <span>1458 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-12</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>

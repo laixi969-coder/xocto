@@ -82,37 +82,37 @@
       <div>
         <p class="section-index">01</p>
         <h2>它为什么会被需要</h2>
-        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-05</p>
+        <p class="note">从用户的一天开始 · 公开事实 + 可观察行为 · 2026-09-12</p>
       </div>
     </div>
     <div class="product-story-grid">
       <article class="product-panel">
         <span class="field-k">使用场景</span>
-        <p class="product-lead">边聊边搜番剧，一次看到评分和详情，找到片源就能把链接带走</p>
-        <p>公开材料尚未说明用户目前如何完成这项工作、它实际替代了什么。</p>
-        <p>它试图减少完成这项任务时的摩擦；公开用户材料尚未说明不解决的具体代价、发生频率或后果。</p>
+        <p class="product-lead">追番用户在 DeepSeek 对话中聊到某部番剧时，需要当场确认片名、评分与详情，并拿到可用的片源链接；anime-find 作为插件在对话内多源搜索，用卡片展示 Bangumi 评分与详情，并支持复制磁力链接。</p>
+        <p>当前替代方式包括：在浏览器另开 Bangumi 或番剧数据库查评分、在资源站或磁力搜索站单独找片源、再手动复制链接回聊天窗口；公开材料未说明用户具体如何替代，也未提供对比数据。</p>
+        <p>公开材料显示其把“多源搜索 + 评分详情 + 复制磁力”收进对话内一步完成，针对的痛点是：用户需在聊天窗口与番剧数据库、资源站之间反复切换、手动比对片名与评分、再单独找片源。公开证据未给出切换耗时或失败率的量化数据，痛点强度属工作流结构推理。</p>
       </article>
       <article class="product-panel product-panel-call">
         <span class="field-k">xOcto 的判断</span>
-        <h3>问题已识别，需求强度未明</h3>
+        <h3>需求有依据</h3>
         <p>趋势是垂直内容搜索会嵌进聊天，而不是再做一个独立网站。独立趋势还不清晰。判断：切入是先把一个圈搜全——搜得到、看得懂、能带走链接，不要做成通用搜索。</p>
       </article>
       <article class="product-panel">
         <span class="field-k">使用理由</span>
         <h3>为什么用户会选择它</h3>
-        <p>公开代码仓库有 137 个收藏、26 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p>相较在聊天窗口与外部站点之间来回切换，anime-find 通过“对话内多源搜索并以卡片展示 Bangumi 评分与详情、支持复制磁力”这一具体动作，省去另开页面查评分和单独找片源的那一步；因此正在 DeepSeek 里聊番、想立刻确认评分并带走片源的追番用户会在该场景下选择它。此为基于产品能力与任务结构的推断，尚无用户反馈或留存证据支持。</p>
       </article>
       <article class="product-panel product-panel-question">
         <span class="field-k">还不能轻易下结论的地方</span>
         <h3>真正值得继续追问的矛盾</h3>
-        <p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p>
+        <p>追踪 anime-find 官方仓库的 issue 与 discussion，以及是否出现插件市场页面或定价说明，确认实际使用反馈、片源可用性与付费路径。</p>
       </article>
     </div>
 
     <div class="product-audiences">
       <div class="field field-take">
         <span class="field-k">如果你正在做这项工作</span>
-        <p><strong>值得拆解</strong>。公开代码仓库有 137 个收藏、26 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p>
+        <p><strong>值得试用</strong>。相较在聊天窗口与外部站点之间来回切换，anime-find 通过“对话内多源搜索并以卡片展示 Bangumi 评分与详情、支持复制磁力”这一具体动作，省去另开页面查评分和单独找片源的那一步；因此正在 DeepSeek 里聊番、想立刻确认评分并带走片源的追番用户会在该场景下选择它。此为基于产品能力与任务结构的推断，尚无用户反馈或留存证据支持。</p>
       </div>
       <div class="field">
         <span class="field-k">怎样切入 / 可以借走什么</span>
@@ -123,38 +123,50 @@
     <details class="product-evidence" open>
       <summary>我们凭什么这样判断</summary>
       <div class="product-evidence-grid">
-        <div><span class="field-k">公开事实</span><p>边聊边搜番剧，一次看到评分和详情，找到片源就能把链接带走</p></div>
-        <div><span class="field-k">工作流推理</span><p>公开代码仓库有 137 个收藏、26 次复刻，说明开发者正在关注或试用；持续使用与付费仍未核验。</p></div>
-        <div><span class="field-k">会改变判断的未知</span><p>公开补证：查找官方定价、客户案例或部署文档，确认谁付钱、不使用的代价及可确定交付的结果。</p></div>
+        <div><span class="field-k">公开事实</span><p>它解决追番用户在对话中即时确认番剧评分并获取片源的需求：旧做法需在聊天、番剧数据库与资源站之间反复切换并手动比对片名。公开材料显示插件在对话内完成多源搜索、卡片展示 Bangumi 评分详情与复制磁力，输入—动作—交付闭环清晰。此为工作流结构推理，尚无用户反馈或量化数据。</p></div>
+        <div><span class="field-k">工作流推理</span><p>相较在聊天窗口与外部站点之间来回切换，anime-find 通过“对话内多源搜索并以卡片展示 Bangumi 评分与详情、支持复制磁力”这一具体动作，省去另开页面查评分和单独找片源的那一步；因此正在 DeepSeek 里聊番、想立刻确认评分并带走片源的追番用户会在该场景下选择它。此为基于产品能力与任务结构的推断，尚无用户反馈或留存证据支持。</p></div>
+        <div><span class="field-k">会改变判断的未知</span><p>追踪 anime-find 官方仓库的 issue 与 discussion，以及是否出现插件市场页面或定价说明，确认实际使用反馈、片源可用性与付费路径。</p></div>
       </div>
       <div class="gate-audit">
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">01 · 价值</span>
-            <strong>证据不足</strong>
+            <strong>已有支持</strong>
           </div>
-          <p>产品主张帮助用户完成：“边聊边搜番剧，一次看到评分和详情，找到片源就能把链接带走”。具体痛点强度与不采用代价尚未由用户证据核验。</p>
+          <p>它解决追番用户在对话中即时确认番剧评分并获取片源的需求：旧做法需在聊天、番剧数据库与资源站之间反复切换并手动比对片名。公开材料显示插件在对话内完成多源搜索、卡片展示 Bangumi 评分详情与复制磁力，输入—动作—交付闭环清晰。此为工作流结构推理，尚无用户反馈或量化数据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/cocofhu/anime-find#readme" target="_blank" rel="noopener">anime-find · 2026-08-15 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">02 · 共识</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，共识闸门未进入。</p>
+          <p>公开仓库有 164 星，说明开发者社区注意到该插件，但无 issue、讨论或用户评价证明追番用户持续在对话中使用；关注度不等于采用共识，场景是否被真实触发仍缺证据。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/cocofhu/anime-find#readme" target="_blank" rel="noopener">anime-find · 2026-08-15 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">03 · 模式</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，模式闸门未进入。</p>
+          <p>公开材料未披露定价页、付费版本或赞助渠道，谁付钱（个人订阅、插件市场分成还是开源捐赠）无法核验；这是商业证据缺口，不反推需求不存在。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/cocofhu/anime-find#readme" target="_blank" rel="noopener">anime-find · 2026-08-15 ↗</a>
+          </div>
         </article>
         <article class="gate-row">
           <div class="gate-head">
             <span class="field-k">04 · 求真</span>
             <strong>证据不足</strong>
           </div>
-          <p>价值闸门未通过，求真闸门未进入。</p>
+          <p>多源搜索与磁力链接的可用性、版权与安全边界、以及 Bangumi 评分数据来源的稳定性，均缺可复现的部署文档或实测证据，承诺能否确定性交付尚未核验。</p>
+          <div class="gate-links" aria-label="需求证据档">
+            <a href="https://github.com/cocofhu/anime-find#readme" target="_blank" rel="noopener">anime-find · 2026-08-15 ↗</a>
+          </div>
         </article>
       </div>
     </details>
@@ -248,7 +260,7 @@
     <div class="sec-head desk-sec">
       <div><h2>同类产品</h2></div>
       <a class="note onward-all" href="../products.html#c=AI%20%2B%20%E7%94%9F%E6%B4%BB">
-        AI + 生活 共 159 个 →
+        AI + 生活 共 161 个 →
       </a>
     </div>
     <ul class="rows desk-list">
@@ -340,8 +352,8 @@
   <footer>
     <span>x-octo · AI 应用的生意判断</span>
     <span>·</span>
-    <span>1409 个案例 · 177 份生意判断</span>
-    <span class="gen">数据截至 2026-09-11</span>
+    <span>1458 个案例 · 177 份生意判断</span>
+    <span class="gen">数据截至 2026-09-12</span>
     <span>·</span>
     <a href="../reports.html">判断档案</a>
     <span>·</span>
